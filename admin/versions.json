@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2",
+    "date": "2026-11-04",
+    "what": "the brief pack at /brief/: Dinis's vision of 4 November verbatim, and nine pages built from it",
+    "by": "conductor@web-summit.dinis",
+    "from": "9437805d4"
+  },
+  {
     "version": "v0.1.1",
     "date": "2026-11-04",
     "what": "the skeleton: build, gate, home, about, disclosure, CI that owns the version",
