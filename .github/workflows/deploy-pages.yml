@@ -1,0 +1,83 @@
+# Deploys web-summit.newsroom.sgit.ai (copied from the team site, SGit-AI__Website__Web-Summit) to GitHub Pages. CI owns the version
+# (https://newsroom.sgit.ai/articles/ci-owns-the-version.html): nobody who pushes writes a number.
+#
+#   1. validate — builds the pushed commit (generated output is never committed) and runs
+#                 admin/build/validate.js. A failure stops everything. Also runs on PRs, read-only.
+#   2. release  — one at a time (concurrency group "release", never cancelled): admin/build/tag_release.sh
+#                 takes the branch head as it is now, bumps the newest version (dev the last number,
+#                 main the middle one), writes version.txt, the versions row and REALITY.md, builds,
+#                 runs the gate again on that tree, commits as GitHub Actions ("site vX.Y.Z: <subject>"),
+#                 tags it and pushes; then deploys exactly that tree. A dropped pending run is harmless:
+#                 its commits ride the next release. A manual dispatch builds and deploys without a number.
+name: deploy-pages
+on:
+  push:
+    branches: [dev, main]
+  pull_request:
+    branches: [dev, main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # full history, blobless: tag_release.sh reads the tags
+          fetch-depth: 0
+          filter: blob:none
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build and validate the site (the gate builds it once, check 9; generated output is never committed)
+        run: node admin/build/validate.js
+
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: [validate]
+    # Never from a PR. One release at a time; a pending run may be dropped, which is harmless.
+    if: github.event_name != 'pull_request'
+    concurrency:
+      group: release
+      cancel-in-progress: false
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Number, build, check, commit and tag this release (CI owns the version)
+        if: github.event_name == 'push'
+        env:
+          BRANCH: ${{ github.ref_name }}
+          BEFORE: ${{ github.event.before }}
+        run: admin/build/tag_release.sh
+      - name: Build (a manual dispatch, no number)
+        if: github.event_name != 'push'
+        run: node admin/build/build.mjs && node admin/build/validate.js
+      - name: Assemble the site artifact (the tree just built and checked)
+        run: |
+          mkdir -p /tmp/site
+          rsync -a ./ /tmp/site/ --exclude '.git' --exclude '.github' --exclude '.sg_vault' --exclude 'content' --exclude 'admin/build' --exclude 'admin/tools' --exclude '.generated.txt'
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/site
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - id: deployment
+        uses: actions/deploy-pages@v4
