@@ -5,6 +5,8 @@
 /404.md
 /about/*.md
 /articles/*.md
+/brief/**/*.md
+/brief/*.md
 /admin/*.md
 /llms.txt
 /sitemap.xml

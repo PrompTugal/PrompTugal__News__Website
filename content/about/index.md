@@ -2,6 +2,8 @@
 title: About this newsroom
 summary: Who runs web-summit.newsroom.sgit.ai (Dinis Cruz, the named human operator, and one AI agent), how a page goes from a markdown file to the web, what exists today, and the agent's own reach, mandate and gap.
 ---
+**The brief:** how this newsroom is meant to work, from Dinis Cruz's own words, is [the brief pack](../brief/index.html).
+
 ## Who runs it {#who}
 
 | Who | What they do |
