@@ -1,0 +1,483 @@
+{
+  "desk": "curator",
+  "agent": "curator@web-summit.vicky",
+  "run": "2026-11-04T19:45Z",
+  "for": "the journalist (Indi's side), via newsroom@web-summit.dinis",
+  "covers": {
+    "files": [
+      {
+        "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+        "branch": "dev",
+        "path": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+        "captures": 19
+      },
+      {
+        "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+        "branch": "dev",
+        "path": "people/vicky/newsroom/researcher/2026-11-04-1546.json",
+        "captures": 3
+      }
+    ],
+    "captures": 22,
+    "not_covered": "The research vault 41j3e9s9: its read key is not yet listed in people/vicky/vaults.json on the team's site (read 4 November 2026, 19:30 UTC), so this run maps only the researcher's two earlier files. The researcher's report says the vault holds 21 captures made from these same 22 (the two websummit.com/essentials/venue/ captures as one); they will be mapped from the vault once its read key is listed, and anything new in it then."
+  },
+  "rules": "Every fact here is from a capture, as the researcher wrote it; the curator added none, checked none and rewrote no source (checking is the fact-checker's job). Public material only; no contact details; people named only in their public, professional role.",
+  "captures": [
+    {
+      "id": "r1255-01",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 0,
+      "source_url": "https://websummit.com/essentials/venue/",
+      "beat": "summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "The 2026 dates (9 to 12 November) and venue (MEO Arena and FIL, Parque das Nações); the venue map will be in the app.",
+      "is_story": "service, not a story on its own",
+      "group": "G1 participant guide"
+    },
+    {
+      "id": "r1255-02",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 1,
+      "source_url": "https://websummit.com/essentials/registration/",
+      "beat": "summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Where and when to collect lanyards and wristbands: Lisbon airport Terminal 1 or Pavilhão de Portugal, from Saturday 7 November; bring the ticket in the app and photo ID; times may change.",
+      "is_story": "yes, as part of G1",
+      "group": "G1 participant guide"
+    },
+    {
+      "id": "r1255-03",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 2,
+      "source_url": "https://websummit.com/essentials/the-city/",
+      "beat": "summit",
+      "names": [
+        "Web Summit",
+        "Metropolitano de Lisboa",
+        "Carris"
+      ],
+      "what_is_new": "Getting there: Oriente metro (red line) about 300 metres from the MEO Arena; Carris shuttle and lines; a discounted 1, 3 or 5 day transport pass.",
+      "is_story": "yes, as part of G1",
+      "group": "G1 participant guide"
+    },
+    {
+      "id": "r1255-04",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 3,
+      "source_url": "https://websummit.com/essentials/venue/",
+      "beat": "summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Inside the venue: small bags, two bag drops, cashless stands, free wifi in the MEO Arena, own food and reusable cup allowed, lost and found in Pavilion 5.",
+      "is_story": "yes, as part of G1",
+      "group": "G1 participant guide"
+    },
+    {
+      "id": "r1255-05",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 4,
+      "source_url": "https://websummit.com/essentials/app/",
+      "beat": "summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "The app holds the ticket as a QR code needed to register, builds a schedule, finds people and companies, books meetings; no built-in chat.",
+      "is_story": "yes, as part of G1",
+      "group": "G1 participant guide"
+    },
+    {
+      "id": "r1255-06",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 5,
+      "source_url": "https://websummit.com/tickets/",
+      "beat": "summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Three public passes and their prices as read (General 1,595, VIP 1,950, Chairperson 24,950 euros).",
+      "is_story": "no: reference only, five days out; kept as a fact for the summit's logistics page",
+      "group": "none"
+    },
+    {
+      "id": "r1255-07",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 6,
+      "source_url": "https://websummit.com/tracks/",
+      "beat": "summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "17 content tracks over four days, including AI Summit, Policy Summit, Cybersecurity Summit, Energy Summit, Health Summit, MoneyConf, Venture Summit, Developer Summit.",
+      "is_story": "yes, as part of G2",
+      "group": "G2 the programme"
+    },
+    {
+      "id": "r1255-08",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 7,
+      "source_url": "https://websummit.com/schedule/",
+      "beat": "summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "The schedule is live and grows weekly; a meetup for first-time attendees on Tuesday 10 November at 11am.",
+      "is_story": "yes, as part of G1 and G2",
+      "group": "G2 the programme"
+    },
+    {
+      "id": "r1255-09",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 8,
+      "source_url": "https://websummit.com/blog/news/web-summits-first-state-of-the-industry-survey-finds-tech-torn-on-ai/",
+      "beat": "announcements",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "First State of the Industry survey (1,455 respondents, 22 October 2026): 55% say AI strengthens their critical thinking, 60% say it has increased their workload; 70,000+ attendees from 100+ countries and 10,000 startups expected.",
+      "is_story": "yes",
+      "group": "G3 the summit in numbers"
+    },
+    {
+      "id": "r1255-10",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 9,
+      "source_url": "https://websummit.com/blog/marketing/creator-programme-web-summit-2026/",
+      "beat": "announcements",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "16 digital creators in the Creator Programme (announced 21 October 2026) will document Lisbon live from the floor.",
+      "is_story": "small: a line in G2 or the agenda; no creator is named in the capture",
+      "group": "G2 the programme"
+    },
+    {
+      "id": "r1255-11",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 10,
+      "source_url": "https://websummit.com/blog/startups-investors/how-we-select-our-startups/",
+      "beat": "summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "In 2025 over 22,000 startups applied to the startup programme and about 2,700 were accepted, in ALPHA, BETA and GROWTH.",
+      "is_story": "yes, as context for G3 and G4",
+      "group": "G3 the summit in numbers"
+    },
+    {
+      "id": "r1255-12",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 11,
+      "source_url": "https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en",
+      "beat": "europe",
+      "names": [
+        "HaDEA (European Health and Digital Executive Agency)"
+      ],
+      "what_is_new": "HaDEA at stand E418, Pavilion 4, all week; a session on EU funding for technological sovereignty on 11 November at 15.30 with four EU-funded projects.",
+      "is_story": "yes, as part of G5",
+      "group": "G5 Europe at the summit"
+    },
+    {
+      "id": "r1255-13",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 12,
+      "source_url": "https://tek.sapo.pt/extras/site-do-dia/artigos/road-2-web-summit-2026-ja-aceita-candidaturas-de-startups-portuguesas-para-mais-uma-edicao/",
+      "beat": "portugal",
+      "names": [
+        "Startup Portugal",
+        "Web Summit",
+        "Galp"
+      ],
+      "what_is_new": "Road 2 Web Summit, 11th edition: up to 125 Portuguese startups, a bootcamp in Porto and Lisbon, 50% off ALPHA or BETA, space on the Portugal stand; in 2025, 115 startups raised 40 million euros; Galp sponsors two prizes (15,000 and 5,000 euros).",
+      "is_story": "yes, lead capture of G4",
+      "group": "G4 Portugal's startups at the summit"
+    },
+    {
+      "id": "r1255-14",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 13,
+      "source_url": "https://startupportugal.com/pt/programs/road-2-web-summit-pt/",
+      "beat": "portugal",
+      "names": [
+        "Startup Portugal",
+        "Web Summit"
+      ],
+      "what_is_new": "Startup Portugal's own description of Road 2 Web Summit: more than 1,000 startups helped to international exposure over more than ten years.",
+      "is_story": "yes, as part of G4 (the programme's own page)",
+      "group": "G4 Portugal's startups at the summit"
+    },
+    {
+      "id": "r1255-15",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 14,
+      "source_url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
+      "beat": "portugal",
+      "names": [
+        "Granter",
+        "3xP Global (Impact Innovation Fund)",
+        "Banco Português de Fomento",
+        "Web Summit"
+      ],
+      "what_is_new": "Granter, PITCH winner in November 2025, raised 1.6 million euros to expand into Spain, Germany and Italy (reported 3 November 2026).",
+      "is_story": "yes, lead capture of G6",
+      "group": "G6 Portuguese startups raising"
+    },
+    {
+      "id": "r1255-16",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 15,
+      "source_url": "https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/",
+      "beat": "portugal",
+      "names": [
+        "Seamoretech",
+        "University of Porto"
+      ],
+      "what_is_new": "Seamoretech, a University of Porto spin-off recovering freshwater and minerals from desalination brine, raised 1.1 million euros in a first seed closing; commercial launch in Spain planned for 2027.",
+      "is_story": "yes, as part of G6",
+      "group": "G6 Portuguese startups raising"
+    },
+    {
+      "id": "r1255-17",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 16,
+      "source_url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+      "beat": "portugal",
+      "names": [
+        "Algarve Evolution"
+      ],
+      "what_is_new": "Algarve Evolution (Faro) aims to support 500 companies, help create 150 startups and reach 50,000 people in the Algarve by 2032, beyond tourism.",
+      "is_story": "yes, for the Portugal banner; no link to the summit in the capture",
+      "group": "G7 the Portugal banner"
+    },
+    {
+      "id": "r1255-18",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 17,
+      "source_url": "https://portugalstartupnews.com/2026/10/27/winners-announced-for-2026-entrepreneurship-awards-by-unicorn-factory-lisboa/",
+      "beat": "portugal",
+      "names": [
+        "Unicorn Factory Lisboa",
+        "BloodFlow",
+        "knok",
+        "RTBeamTech",
+        "Técnico Innovation Center"
+      ],
+      "what_is_new": "Unicorn Factory Lisboa's 2026 Entrepreneurship Awards (27 October, its fourth anniversary): BloodFlow (most promising), knok (most impactful), RTBeamTech (youth).",
+      "is_story": "yes, for the Portugal banner",
+      "group": "G7 the Portugal banner"
+    },
+    {
+      "id": "r1255-19",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1255.json",
+      "index": 18,
+      "source_url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
+      "beat": "portugal",
+      "names": [
+        "Intuitivo",
+        "Caixa Capital",
+        "Impact Innovation Fund",
+        "Web Summit"
+      ],
+      "what_is_new": "Intuitivo, a past PITCH winner, raised 1.35 million euros to expand into Brazil; its platform serves 500+ schools and 75,000 teachers in Portugal.",
+      "is_story": "yes, as part of G6",
+      "group": "G6 Portuguese startups raising"
+    },
+    {
+      "id": "r1546-01",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1546.json",
+      "index": 0,
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate",
+      "beat": "europe",
+      "names": [
+        "European Commission (DG CONNECT, DG GROW)",
+        "HaDEA",
+        "EuroHPC"
+      ],
+      "what_is_new": "DG CONNECT at the summit 10 to 12 November; EVP Henna Virkkunen in a fireside chat on Europe's tech sovereignty, Centre Stage, 10 November 11:05; EU masterclasses on data spaces for SMEs, building AI in Europe, HaDEA funding and free EuroHPC access; stands E415, E418, E405 in Pavilion 4.",
+      "is_story": "yes, lead capture of G5",
+      "group": "G5 Europe at the summit"
+    },
+    {
+      "id": "r1546-02",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1546.json",
+      "index": 1,
+      "source_url": "https://english.rvo.nl/events/web-summit-2026-lisbon",
+      "beat": "europe",
+      "names": [
+        "Netherlands Enterprise Agency (RVO)",
+        "Dutch Ministry of Foreign Affairs",
+        "Embassy of the Netherlands in Lisbon"
+      ],
+      "what_is_new": "A Dutch delegation with an NL Lounge, matchmaking, a welcome event on 9 November and a networking event on 11 November; registration closed.",
+      "is_story": "yes, as part of G5 (a second country's delegation)",
+      "group": "G5 Europe at the summit"
+    },
+    {
+      "id": "r1546-03",
+      "file": "people/vicky/newsroom/researcher/2026-11-04-1546.json",
+      "index": 2,
+      "source_url": "https://websummit.com/blog/news/women-are-leading-in-tech-so-why-are-so-many-considering-leaving/",
+      "beat": "announcements",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Seventh Gender in Tech report (27 October 2026): 84% report women in leadership at their company, 35% at C-suite level; half still experience sexism and 42% have considered scaling back or leaving.",
+      "is_story": "yes, with care: the positive figures lead, the harder ones stay in so the story is fair",
+      "group": "G8 women leading in tech"
+    }
+  ],
+  "duplicates_and_noise": [
+    {
+      "captures": [
+        "r1255-01",
+        "r1255-04"
+      ],
+      "verdict": "kept both, grouped",
+      "why": "Same source (websummit.com/essentials/venue/), different facts: where the venue is, and the rules inside it. Not a duplicate; the researcher merged them into one capture in the vault."
+    },
+    {
+      "captures": [
+        "r1255-13",
+        "r1255-14"
+      ],
+      "verdict": "kept both, grouped",
+      "why": "Same programme (Road 2 Web Summit) from a news story and from the organiser's own page; they agree and add different facts. One story, two sources."
+    },
+    {
+      "captures": [
+        "r1255-12",
+        "r1546-01"
+      ],
+      "verdict": "kept both, grouped; the HaDEA stand (E418) is said twice",
+      "why": "The Commission page repeats HaDEA's stand; the HaDEA page alone has its 11 November 15.30 session. The overlap is one fact, not a whole capture."
+    },
+    {
+      "captures": [
+        "r1255-06"
+      ],
+      "verdict": "not a story",
+      "why": "Ticket prices: a reference fact for the summit's logistics page, not news, and of little use to someone already holding a pass five days out. Not dropped from the record."
+    },
+    {
+      "captures": [
+        "r1255-10"
+      ],
+      "verdict": "too thin for its own story",
+      "why": "The capture names no creator and no programme detail beyond the count; a line in the programme piece or the agenda."
+    },
+    {
+      "captures": [],
+      "verdict": "no noise dropped",
+      "why": "Every capture is on a beat, public and sourced; nothing was off topic or a repeat of a whole capture."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S1",
+      "title": "Web Summit Lisbon: your first day, from airport to arena",
+      "beat": "summit",
+      "angle": "A practical, friendly guide for participants: where to collect a wristband from Saturday, the metro stop 300 metres away, what to bring, the app that holds your ticket, and the first-timers' meetup on Tuesday. Brief 2's first principle: value for the participant.",
+      "rests_on": [
+        "r1255-01",
+        "r1255-02",
+        "r1255-03",
+        "r1255-04",
+        "r1255-05",
+        "r1255-08"
+      ],
+      "note": "The registration capture says times may change: keep that line in the story.",
+      "words": 10
+    },
+    {
+      "id": "S2",
+      "title": "Europe arrives in Pavilion 4: the Commission's week at Web Summit",
+      "beat": "europe",
+      "angle": "Europe shows up to help builders: a fireside chat on tech sovereignty on Centre Stage, masterclasses on AI, data spaces and free supercomputer access, EU funding sessions, and three stands side by side; and a Dutch delegation with its own lounge. Dinis's 'massive push' on Europe.",
+      "rests_on": [
+        "r1546-01",
+        "r1255-12",
+        "r1546-02"
+      ],
+      "words": 11
+    },
+    {
+      "id": "S3",
+      "title": "Road 2 Web Summit: Portugal's startups head for Lisbon",
+      "beat": "portugal",
+      "angle": "Eleven editions of a programme that brings up to 125 Portuguese startups to the summit, with a bootcamp, a place on the Portugal stand and prizes; last year's cohort of 115 raised 40 million euros.",
+      "rests_on": [
+        "r1255-13",
+        "r1255-14"
+      ],
+      "note": "Not known from the captures: this year's selected startups and the size of the Portugal stand (see gaps).",
+      "words": 9
+    },
+    {
+      "id": "S4",
+      "title": "From the PITCH stage to new markets: Portuguese startups raising",
+      "beat": "portugal",
+      "angle": "Two past PITCH winners, Granter and Intuitivo, and Porto's Seamoretech have each closed rounds to grow abroad (Spain, Germany, Italy, Brazil): Portuguese startups taking their ideas to new markets.",
+      "rests_on": [
+        "r1255-15",
+        "r1255-19",
+        "r1255-16"
+      ],
+      "note": "Seamoretech has no Web Summit link in its capture: either say so or keep it to the two PITCH winners.",
+      "words": 10
+    },
+    {
+      "id": "S5",
+      "title": "Web Summit 2026 in numbers: 70,000 people, 10,000 startups",
+      "beat": "announcements",
+      "angle": "The scale of the week, from Web Summit's own figures: 70,000+ attendees from 100+ countries, 10,000 startups, 17 tracks; and what its first State of the Industry survey found about AI at work (55% say it sharpens their thinking).",
+      "rests_on": [
+        "r1255-09",
+        "r1255-07",
+        "r1255-11"
+      ],
+      "note": "Report the survey fairly: 60% also say AI increased their workload. The 2025 startup numbers are last year's; say so.",
+      "words": 9
+    },
+    {
+      "id": "S6",
+      "title": "Gender in Tech report: 84% see women in leadership",
+      "beat": "announcements",
+      "angle": "Web Summit's seventh Gender in Tech report: most respondents now see women in leadership, a third at C-suite level. Lead with that progress, and report the rest (half still face sexism, 42% have considered leaving) as the report does, so the story is positive and fair.",
+      "rests_on": [
+        "r1546-03"
+      ],
+      "note": "The 84% is of respondents reporting women in leadership at their company, not of companies; the title keeps that wording.",
+      "words": 9
+    },
+    {
+      "id": "S7",
+      "title": "The Portugal banner: awards, funding and the Algarve's plan",
+      "beat": "portugal",
+      "angle": "Short items for the Portugal banner (brief 6): Unicorn Factory Lisboa's 2026 awards (BloodFlow, knok, RTBeamTech), Algarve Evolution's plan to help create 150 startups by 2032, and the funding rounds in S4.",
+      "rests_on": [
+        "r1255-18",
+        "r1255-17",
+        "r1255-15",
+        "r1255-16",
+        "r1255-19"
+      ],
+      "kind": "banner items, not one article",
+      "words": 9
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "Portugal's own stand or delegation for Lisbon 2026: size, location, who is on it (still not found in either run).",
+    "Any Portuguese government announcement or programme tied to the summit (still not found).",
+    "This year's Road 2 Web Summit cohort: which startups were selected, and any announcement of the Galp prizes' winners.",
+    "Whether Granter, Intuitivo, Seamoretech or the Unicorn Factory Lisboa winners are exhibiting or pitching at Web Summit 2026 (needed to tie S4 and S7 to the summit).",
+    "The rest of the public programme for 9 to 12 November: opening night, Centre Stage headliners, PITCH finals dates, beyond the Commission's sessions.",
+    "Other countries' delegations and pavilions beyond the Netherlands (Europe beat).",
+    "The companies in the team's data/companies.json: no capture yet names any of them; the company pages (brief 9, step 3) need what is new for each.",
+    "Who links to the newsroom (brief 7, inbound links): not yet researched."
+  ],
+  "urgent": null
+}
