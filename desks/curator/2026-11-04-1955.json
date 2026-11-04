@@ -1,0 +1,393 @@
+{
+  "desk": "curator",
+  "agent": "curator@web-summit.vicky",
+  "run": "2026-11-04T19:45Z (scheduled run, written 19:55)",
+  "for": "the journalist (Indi's side), via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9 (pack mode), read with its READ key as listed in people/vicky/vaults.json on the team's site (site v0.2.342), cloned outside both repositories on 4 November 2026 at 19:50 UTC",
+    "captures_in_vault": 25,
+    "new_mapped_here": 4,
+    "already_mapped": 21,
+    "already_mapped_note": "The vault's 21 captures from the 12:55 and 15:46 runs carry the same sources and read times as the researcher's two earlier files, mapped in desks/curator/2026-11-04-1945.json; their mapping stands and is not repeated. The two venue captures of that map (r1255-01, r1255-04) are one vault file. Each is listed under earlier_captures with the id it was mapped as.",
+    "researcher_report": "people/vicky/reports/researcher.md, 19:30 UTC run"
+  },
+  "rules": "Every fact here is from a capture, as the researcher wrote it; the curator added none, checked none and rewrote no source (checking is the fact-checker's job). Public material only; no contact details; people named only in their public, professional role. Quotes in the captures are in Portuguese and stay in the vault: this map paraphrases the researcher's English summaries.",
+  "captures": [
+    {
+      "id": "v-metro-web-summit-transport-pass",
+      "file": "vault 41j3e9s9, captures/2026-11-04-metro-web-summit-transport-pass.md",
+      "source_url": "https://www.metrolisboa.pt/2026/11/02/passe-de-transporte-para-web-summit/",
+      "beat": "summit",
+      "names": [
+        "Metropolitano de Lisboa",
+        "Carris",
+        "CP"
+      ],
+      "what_is_new": "The Web Summit Transport Pass: 3 days 23 euros, 5 days 31.50 euros, unlimited Carris, Metro and CP trains (Sintra, Cascais, Azambuja and Sado lines) for 72 or 120 hours from first use, for participants only; sold only in person at Lisbon airport by the accreditation area, 7 to 10 November; not valid on tourist routes or airport transport; the occasional navegante card is included. The same page also mentions a one-day pass sold online.",
+      "is_story": "yes, as part of G1 (the participant guide), with the conflict below kept open",
+      "group": "G1 participant guide"
+    },
+    {
+      "id": "v-metro-web-summit-service",
+      "file": "vault 41j3e9s9, captures/2026-11-04-metro-web-summit-service.md",
+      "source_url": "https://executivedigest.sapo.pt/web-summit-2026-metro-de-lisboa-prepara-reforco-de-comboios-e-vigilancia-para-receber-75-mil-participantes/",
+      "beat": "summit",
+      "names": [
+        "Metropolitano de Lisboa",
+        "Carris",
+        "CP"
+      ],
+      "what_is_new": "Metro de Lisboa adds service on the Red and Green lines (extra Red line trains depend on the fleet), more station surveillance, extra passenger information and connection diagrams in eight stations, for about 75,000 participants; contactless bank card payment stays available for Metro-only travel. It reports no online sales, no vouchers and no one-day pass this year.",
+      "is_story": "yes, as part of G1",
+      "group": "G1 participant guide"
+    },
+    {
+      "id": "v-tecnico-web-summit-2026",
+      "file": "vault 41j3e9s9, captures/2026-11-04-tecnico-web-summit-2026.md",
+      "source_url": "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/",
+      "beat": "portugal",
+      "names": [
+        "Instituto Superior Técnico (Universidade de Lisboa)",
+        "Institute for Systems and Robotics",
+        "Técnico Venture Lab",
+        "ITI-LARSyS",
+        "Acubic",
+        "Keel",
+        "Opsivision.ai",
+        "RTBEAMTECH",
+        "RipeNew",
+        "Testwaves",
+        "Fundação Santander"
+      ],
+      "what_is_new": "Técnico at stand E272, Pavilion 2, 10 to 12 November: robots (Lola, and a Unitree quadruped and humanoid), a virtual reality deep dive, a student rover build, six spin-offs (Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew, Testwaves), and a professor on a Future of Work Summit panel on post-secondary education in the AI era; supported by Fundação Santander.",
+      "is_story": "yes, a story of its own (S8), and it ties RTBEAMTECH, a Unicorn Factory Lisboa award winner in the first map (r1255-18), to the summit",
+      "group": "G9 Portuguese science at the summit"
+    },
+    {
+      "id": "v-apexbrasil-delegation",
+      "file": "vault 41j3e9s9, captures/2026-11-04-apexbrasil-delegation.md",
+      "source_url": "https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/",
+      "beat": "announcements",
+      "names": [
+        "ApexBrasil",
+        "Sebrae Startups",
+        "Web Summit"
+      ],
+      "what_is_new": "About 200 Brazilian companies, from every region and ten technology parks, on a mission with Sebrae Startups from 8 to 13 November; a 324 square metre pavilion in the MEO Arena with investor meetings, presentations and debates from 10 to 12 November; Brazilian companies raised about 700 million dollars at earlier editions (the organisers' figure). The article also gives Web Summit's 2025 record: 71,386 participants from 157 countries and 1,857 investors from 86 countries.",
+      "is_story": "yes, a story of its own (S9); its 2025 numbers also feed S5",
+      "group": "G10 delegations to Lisbon"
+    }
+  ],
+  "earlier_captures": [
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-venue.md",
+      "source_url": "https://websummit.com/essentials/venue/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-01",
+        "r1255-04"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-registration.md",
+      "source_url": "https://websummit.com/essentials/registration/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-02"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-getting-around.md",
+      "source_url": "https://websummit.com/essentials/the-city/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-03"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-app.md",
+      "source_url": "https://websummit.com/essentials/app/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-05"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-tickets.md",
+      "source_url": "https://websummit.com/tickets/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-06"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-tracks.md",
+      "source_url": "https://websummit.com/tracks/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-07"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-schedule.md",
+      "source_url": "https://websummit.com/schedule/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-08"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-state-of-industry-survey.md",
+      "source_url": "https://websummit.com/blog/news/web-summits-first-state-of-the-industry-survey-finds-tech-torn-on-ai/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-09"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-creator-programme.md",
+      "source_url": "https://websummit.com/blog/marketing/creator-programme-web-summit-2026/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-10"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-startup-selection.md",
+      "source_url": "https://websummit.com/blog/startups-investors/how-we-select-our-startups/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-11"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-hadea-web-summit.md",
+      "source_url": "https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-12"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-tek-road-2-web-summit.md",
+      "source_url": "https://tek.sapo.pt/extras/site-do-dia/artigos/road-2-web-summit-2026-ja-aceita-candidaturas-de-startups-portuguesas-para-mais-uma-edicao/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-13"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-startup-portugal-road-2-web-summit.md",
+      "source_url": "https://startupportugal.com/pt/programs/road-2-web-summit-pt/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-14"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-granter-funding.md",
+      "source_url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-15"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-seamoretech-funding.md",
+      "source_url": "https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-16"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-algarve-evolution.md",
+      "source_url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-17"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-unicorn-factory-awards-2026.md",
+      "source_url": "https://portugalstartupnews.com/2026/10/27/winners-announced-for-2026-entrepreneurship-awards-by-unicorn-factory-lisboa/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-18"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-intuitivo-funding.md",
+      "source_url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1255-19"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-digitaleu-web-summit.md",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1546-01"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-rvo-dutch-delegation.md",
+      "source_url": "https://english.rvo.nl/events/web-summit-2026-lisbon",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1546-02"
+      ]
+    },
+    {
+      "vault_file": "vault 41j3e9s9, captures/2026-11-04-websummit-gender-in-tech-2026.md",
+      "source_url": "https://websummit.com/blog/news/women-are-leading-in-tech-so-why-are-so-many-considering-leaving/",
+      "mapped_in": "desks/curator/2026-11-04-1945.json",
+      "as": [
+        "r1546-03"
+      ]
+    }
+  ],
+  "conflicts_for_the_fact_checker": [
+    {
+      "about": "a one-day transport pass",
+      "captures": [
+        "v-metro-web-summit-transport-pass",
+        "v-metro-web-summit-service",
+        "v-websummit-getting-around (r1255-03)"
+      ],
+      "what": "Metro de Lisboa's page mentions a one-day pass sold online alongside the 3 and 5 day passes; Executive Digest (4 November) reports no online sales, no vouchers and no one-day pass this year; Web Summit's getting-around page lists a 1, 3 or 5 day pass. The researcher quoted both and did not resolve it. Until it is checked, S1 should give only the 3 and 5 day passes and where they are sold, which every source agrees on."
+    },
+    {
+      "about": "how many people are expected",
+      "captures": [
+        "r1255-09",
+        "v-metro-web-summit-service",
+        "v-apexbrasil-delegation"
+      ],
+      "what": "Web Summit expects more than 70,000 attendees; Metro de Lisboa's operation is sized for about 75,000 participants; the 2025 record was 71,386 (as Executive Digest gives the organisers' data). Not a contradiction, but three different numbers: each should be attributed to its own source."
+    }
+  ],
+  "revisions_to_the_first_map": [
+    {
+      "candidate": "S5",
+      "change": "Angle reworded to the survey's own words, and its 60% kept beside the 55%, as conductor@web-summit.vicky noted (commit 6227e330 on the team's site): 55% say AI strengthens their critical thinking; 60% say it has increased their workload. The candidate now also rests on v-apexbrasil-delegation for the 2025 record, attributed to the organisers' data as reported."
+    },
+    {
+      "candidate": "S1",
+      "change": "Now also rests on the two Metro captures: the transport pass, and Metro's extra service on the Red and Green lines."
+    },
+    {
+      "candidate": "S7",
+      "change": "RTBEAMTECH, a Unicorn Factory Lisboa award winner, is at the summit with Técnico (v-tecnico-web-summit-2026): the banner can say so."
+    }
+  ],
+  "groups": {
+    "G1 participant guide": [
+      "r1255-01",
+      "r1255-02",
+      "r1255-03",
+      "r1255-04",
+      "r1255-05",
+      "r1255-08",
+      "v-metro-web-summit-transport-pass",
+      "v-metro-web-summit-service"
+    ],
+    "G9 Portuguese science at the summit": [
+      "v-tecnico-web-summit-2026",
+      "r1255-18"
+    ],
+    "G10 delegations to Lisbon": [
+      "v-apexbrasil-delegation",
+      "r1546-02"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "captures": [
+        "v-metro-web-summit-transport-pass",
+        "v-metro-web-summit-service"
+      ],
+      "verdict": "kept both, grouped",
+      "why": "Same pass from Metro's own page and from a news report; they agree on prices and the airport sales point, and the news report adds the extra service. Their one disagreement is listed under conflicts."
+    },
+    {
+      "captures": [
+        "v-apexbrasil-delegation",
+        "r1546-02"
+      ],
+      "verdict": "grouped, not merged",
+      "why": "Two national delegations (Brazil, the Netherlands): one story about countries coming to Lisbon, or two items. The Netherlands is on the Europe beat, Brazil is not."
+    },
+    {
+      "captures": [],
+      "verdict": "no noise dropped",
+      "why": "All four new captures are on a beat, public, sourced and new."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S8",
+      "title": "Técnico brings robots and six spin-offs to Web Summit",
+      "beat": "portugal",
+      "angle": "Portuguese science on show: Lisbon's engineering school takes robots, a virtual reality experience, a student-built rover and six of its own spin-offs to Pavilion 2, and a professor to a Future of Work panel. A good visit for participants, with a stand number.",
+      "rests_on": [
+        "v-tecnico-web-summit-2026",
+        "r1255-18"
+      ],
+      "note": "r1255-18 only for the line that RTBEAMTECH (written RTBeamTech there) won Unicorn Factory Lisboa's youth award; the professor is not named in the capture, so the story names no one.",
+      "words": 9
+    },
+    {
+      "id": "S9",
+      "title": "About 200 Brazilian companies come to Lisbon for Web Summit",
+      "beat": "announcements",
+      "angle": "Brazil's largest kind of presence: some 200 companies from every region, a 324 square metre pavilion in the MEO Arena, and three days of investor meetings and debates; a bridge between Brazil and Europe through Lisbon.",
+      "rests_on": [
+        "v-apexbrasil-delegation"
+      ],
+      "note": "The 700 million dollars raised at earlier editions is the organisers' figure as reported; attribute it. Could pair with the Dutch delegation (r1546-02) as 'the countries coming to Lisbon'.",
+      "words": 10
+    },
+    {
+      "id": "S1",
+      "title": "Web Summit Lisbon: your first day, from airport to arena",
+      "beat": "summit",
+      "angle": "As in the first map, now with how to get around: the Web Summit Transport Pass (3 days 23 euros, 5 days 31.50 euros, sold only at the airport accreditation area from 7 to 10 November) and Metro's extra service on the Red and Green lines.",
+      "rests_on": [
+        "r1255-01",
+        "r1255-02",
+        "r1255-03",
+        "r1255-04",
+        "r1255-05",
+        "r1255-08",
+        "v-metro-web-summit-transport-pass",
+        "v-metro-web-summit-service"
+      ],
+      "note": "Revised from the first map. Leave the one-day pass out until the fact-checker settles it (conflicts_for_the_fact_checker).",
+      "words": 10
+    },
+    {
+      "id": "S5",
+      "title": "Web Summit 2026 in numbers: 70,000 people, 10,000 startups",
+      "beat": "announcements",
+      "angle": "The scale of the week, each number from its own source: Web Summit expects 70,000+ attendees from 100+ countries and 10,000 startups, with 17 tracks; 2025's record was 71,386 participants from 157 countries (organisers' data, as reported). Its first State of the Industry survey found 55% say AI strengthens their critical thinking, and 60% say it has increased their workload.",
+      "rests_on": [
+        "r1255-09",
+        "r1255-07",
+        "r1255-11",
+        "v-apexbrasil-delegation"
+      ],
+      "note": "Revised from the first map: the survey's own wording, both figures.",
+      "words": 9
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "The transport pass: whether a one-day online pass exists this year (Metro's page and Executive Digest disagree); a capture of Web Summit's or Carris's current page would help the fact-checker.",
+    "Técnico's six spin-offs: what each does, from their own pages, if the journalist writes S8.",
+    "Still open from the first map: Portugal's own stand or delegation, a Portuguese government announcement tied to the summit, this year's Road 2 Web Summit cohort, the rest of the public programme, other delegations, the team's companies, and who links to the newsroom.",
+    "Whether Granter, Intuitivo or Seamoretech are at the summit (RTBEAMTECH now is, with Técnico)."
+  ],
+  "urgent": null
+}
