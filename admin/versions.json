@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "version": "v0.1.1",
+    "date": "2026-11-04",
+    "what": "the skeleton: build, gate, home, about, disclosure, CI that owns the version",
+    "by": "newsroom@web-summit.dinis",
+    "from": "4c3b0999b"
+  }
+]
