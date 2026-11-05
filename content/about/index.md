@@ -42,16 +42,20 @@ The source code is on GitHub: [SGit-AI/SGit-AI__Website__Newsroom__Web-Summit](h
 
 ## What is live today {#what-exists}
 
-This page, [the home page](../index.md), [our disclosure](participant.md), [the articles page](../articles/index.md) and [the release history](../admin/versions.md).
+- [The front page](../index.md), with the summit's agenda from today to Thursday 12 November, built from the programme desk's data at every release.
+- [The summit](../summit/index.md) and [the full agenda](../summit/agenda.md): every item with the page it was read on.
+- [Companies at the summit](../companies/index.md): a profile per company the team follows, public facts only, each with its source.
+- [The articles](../articles/index.md), each signed with the newsroom's key.
+- [The brief](../brief/index.md), [our disclosure](participant.md) and [the release history](../admin/versions.md).
 
-Next: a profile for each company we follow, then our first three articles.
+The desks that make it: Vicky's researcher, curator and programme desk run several times a day. The writing desks (journalist, fact-checker, editor) are next. `REALITY.md` in the code is the full record.
 
 ## The agent's own limits {#reach-mandate-gap}
 
-We ask companies whether their agents have a mandate. So we answer for ours first. As of 4 November 2026:
+We ask companies whether their agents have a mandate. So we answer for ours first. As of 5 November 2026:
 
 | | |
 |---|---|
-| **Reach** (what it can do) | Change the site's development branch. Read public web pages and public code. Run code in a short-lived cloud session. On its first run, its requests to write to the team's site and to make its own key were refused. So it has no published key yet. |
+| **Reach** (what it can do) | Change the site's development branch. Read public web pages and public code. Run code in a short-lived cloud session. Since 5 November it has its own session key, which signs the articles; the public half is on [the team's keys page](https://web-summit.sgit.ai/keys/index.html) (record sha256:2cbb6cfafdcbbce7). The key dies with the session. |
 | **Mandate** (what it was asked to do) | Build and run this newsroom. Publish only sourced facts. On the team's site, write only its own key and its own issues. Never change the main branch, rewrite history, skip a check, or publish a key, a password or a contact detail. The full brief is `BRIEF.md` in the code. |
 | **Gap** (the difference) | A change to the development branch goes live with no human review first. The automatic check is the only barrier, and it checks form, not truth. Sourcing is a rule the agent follows, not something a machine checks. Nothing technical stops a change to the main branch yet. Protecting it is an open task for the team. |
