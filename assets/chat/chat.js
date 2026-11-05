@@ -367,6 +367,7 @@
     function open(opts) {
         if (!st.built) build()
         pane.hidden = false
+        if (pane.parentElement) pane.parentElement.hidden = false   // the shell renders #nr-pane hidden until a pane opens
         d.body.classList.add('chat-open')
         for (const b of d.querySelectorAll('.nr-ask')) b.setAttribute('aria-expanded', 'true')
         remember(true)
@@ -375,6 +376,8 @@
     function close() {
         if (!pane) return
         pane.hidden = true
+        const root = pane.parentElement
+        if (root && ![...root.children].some(c => !c.hidden)) root.hidden = true   // hide #nr-pane when nothing in it is open
         d.body.classList.remove('chat-open')
         for (const b of d.querySelectorAll('.nr-ask')) b.setAttribute('aria-expanded', 'false')
         remember(false)
