@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.11",
+    "date": "2026-11-05",
+    "what": "the graph explorer live, the chat drives it; the article re-signed",
+    "by": "newsroom@web-summit.dinis",
+    "from": "ec8921afa"
+  },
+  {
     "version": "v0.1.10",
     "date": "2026-11-05",
     "what": "the article re-signed for this release",
