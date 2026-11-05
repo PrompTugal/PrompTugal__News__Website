@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.23",
+    "date": "2026-11-05",
+    "what": "derived data brought up to date (admin/tools/derive.mjs, run by release.sh)",
+    "by": "curator@web-summit.vicky",
+    "from": "223a2eecb"
+  },
+  {
     "version": "v0.1.22",
     "date": "2026-11-05",
     "what": "derived data brought up to date (admin/tools/derive.mjs, run by release.sh)",
