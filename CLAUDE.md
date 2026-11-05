@@ -19,7 +19,7 @@ node admin/build/build.mjs      # content/ -> pages, markdown twins, llms.txt, s
 node admin/build/validate.js    # the gate; builds once itself; must print OK
 ```
 
-After a desk's file in `desks/` changes, run `node admin/tools/derive.mjs` and commit the derived entities in `data/` (the gate fails if they are stale). The build's architecture and the feature contract: `admin/build/README.md`; the data layout: `data/README.md`.
+After a desk's file in `desks/` changes, the derived entities in `data/` must follow (the gate fails if they are stale): `admin/tools/release.sh` runs `node admin/tools/derive.mjs` for you and commits what it changed in a commit of its own, so a desk agent commits only its own `desks/<desk>/` and never edits derived data by hand. The build's architecture and the feature contract: `admin/build/README.md`; the data layout: `data/README.md`.
 
 No dependencies: Node 18+ only. Edit `content/`, `data/` and `assets/`, never a generated page. Generated output is gitignored and never committed; the build lists it in `.generated.txt`.
 

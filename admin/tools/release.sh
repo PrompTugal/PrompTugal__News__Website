@@ -26,6 +26,15 @@ for attempt in 1 2 3 4 5; do
   if git diff --name-only "origin/$BRANCH..HEAD" | grep -qxE 'admin/build/version.txt|admin/versions.json'; then
     echo "release.sh: your commits change version.txt or versions.json; only CI writes those now. Drop those changes."; exit 1
   fi
+  # the derived entities (data/events, people, organisations, evidence, stories, matching.json) follow the desks'
+  # files: the tool writes them, in a commit of their own, so a desk agent commits only its own desks/<desk>/ and
+  # never hand-edits derived data (5 November 2026: Vicky's programme and curator desks were held by the gate)
+  node admin/tools/derive.mjs >/dev/null
+  if [ -n "$(git status --porcelain -- data)" ]; then
+    git add -A data
+    git commit -q -m "$AGENT: derived data brought up to date (admin/tools/derive.mjs, run by release.sh)" -m "Agent: $AGENT"
+    echo "release.sh: the derived data changed with your desk files; committed it separately"
+  fi
   node admin/build/validate.js   # the gate builds the site itself, once (check 9)
   [ "${DRY:-0}" = 1 ] && { echo "DRY: would push $(git rev-list --count "origin/$BRANCH..HEAD") commit(s)"; exit 0; }
   MINE=$(git rev-parse HEAD)
