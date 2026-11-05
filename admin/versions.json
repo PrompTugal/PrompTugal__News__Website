@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.37",
+    "date": "2026-11-05",
+    "what": "CLAUDE.md: the PrompTugal team, six agents named <role>@PrompTugal.dinis, what each owns",
+    "by": "conductor@web-summit.dinis",
+    "from": "39cd707c3"
+  },
+  {
     "version": "v0.1.36",
     "date": "2026-11-05",
     "what": "PrompTugal.news, brand identity v2.0: the wordmark masthead, the PT favicons, red and green, promptugal.news",
