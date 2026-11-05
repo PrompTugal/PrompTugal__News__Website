@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.22",
+    "date": "2026-11-05",
+    "what": "derived data brought up to date (admin/tools/derive.mjs, run by release.sh)",
+    "by": "curator@web-summit.vicky",
+    "from": "ef57fdb01"
+  },
+  {
     "version": "v0.1.21",
     "date": "2026-11-05",
     "what": "eight logo options for Promptugal News and two new marks, in one gallery",
