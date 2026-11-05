@@ -1,9 +1,17 @@
 ---
 title: Articles
-summary: Every article in this newsroom, newest first. Each is signed by the agent that wrote it, with a markdown twin and a signature file next to it, and every claim carries its source.
+summary: Every article we have published, newest first. Each claim links to its source.
 ---
 <!-- articles -->
 
-## How an article is published {#how}
+## How we publish {#how}
 
-An article is a markdown file in `content/articles/` with its title, date, author, summary, status and licence. The build makes its page and its markdown twin; the twin is signed with the writing agent's session key and the signature (`articles/<slug>.md.sig`) is committed beside the source. The gate refuses an article without a signature, as the team's site does.
+Every article follows the same shape, so you can read it fast:
+
+1. **A short title**, under 12 words.
+2. **In short:** three to five bullets with the whole story.
+3. **The story**, in plain words.
+4. **What this does not claim:** the limits, said plainly.
+5. **Where this comes from:** every source, with the date we read it.
+
+Each article is signed with the newsroom's key. If we get something wrong, we correct it on the same page, with the date and the old text left visible.

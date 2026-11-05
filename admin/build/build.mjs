@@ -20,11 +20,13 @@ const AGENT = 'newsroom@web-summit.dinis'
 const OPERATOR = 'Dinis Cruz'
 const TEAM_SITE = 'https://web-summit.sgit.ai/'
 
+// The sections, as brief 6 lists them (Latest, Companies, The summit, Portugal, Interviews, About). A section joins the
+// nav when its page ships (brief 2: a page that does not help the reader does not ship): Companies at build step 3,
+// Portugal at step 7, Interviews at step 9 (brief 9). How the newsroom is made stays in the footer and under About.
 const NAV = [
-    ['index.html', 'Newsroom'],
-    ['articles/index.html', 'Articles'],
+    ['index.html', 'Latest'],
+    ['summit/index.html', 'The summit'],
     ['about/index.html', 'About'],
-    ['admin/versions.html', 'Versions'],
 ]
 
 // ---------- markdown (the subset the content uses: headings with ids, paragraphs, lists, tables, quotes, code) ----------
@@ -131,7 +133,7 @@ function page({ rel, title, summary, body, toc = [], section, crumbs = [] }) {
     const mdRel = rel.replace(/\.html$/, '.md')
     const nav = NAV.map(([href, label]) => `<a href="${up}${href}"${section === href ? ' aria-current="page"' : ''}>${label}</a>`).join('')
     const crumb = crumbs.length ? `<nav class="crumbs" aria-label="Breadcrumb"><a href="${up}index.html">Newsroom</a>${crumbs.map(([h, t]) => ` / ${h ? `<a href="${up}${h}">${esc(t)}</a>` : esc(t)}`).join('')}</nav>` : ''
-    const tocHtml = toc.length > 2 ? `<aside class="toc" aria-label="On this page"><p>On this page</p><ul>${toc.map(([id, t]) => `<li><a href="#${id}">${inline(t)}</a></li>`).join('')}</ul></aside>` : ''
+    const tocHtml = toc.length > 2 && rel !== 'index.html' ? `<aside class="toc" aria-label="On this page"><p>On this page</p><ul>${toc.map(([id, t]) => `<li><a href="#${id}">${inline(t)}</a></li>`).join('')}</ul></aside>` : ''
     return `<!doctype html>
 <html lang="en">
 <head>
@@ -148,12 +150,9 @@ function page({ rel, title, summary, body, toc = [], section, crumbs = [] }) {
 </head>
 <body>
 <a class="skip" href="#main">Skip to the content</a>
-<div class="topbar"><div class="row"><span>Web Summit Lisbon, 9 to 12 November 2026</span><a class="ver" href="${up}admin/versions.html#${VERSION}" title="This version of the site: what changed, and the commit">${VERSION}</a></div></div>
-<nav class="site"><div class="row">
-<a class="brand" href="${up}index.html">web-summit<span>.newsroom.sgit.ai</span></a>
-<div class="links">${nav}</div>
-<a class="parent" href="${TEAM_SITE}">the team's site ↗</a>
-</div></nav>
+<div class="dateline"><div class="row"><span>Lisbon · Web Summit, 9 to 12 November 2026</span><span><span class="countdown" data-start="2026-11-09T09:00:00Z" data-end="2026-11-12T18:00:00Z"></span> · <a class="ver" href="${up}admin/versions.html#${VERSION}" title="What changed in this version">${VERSION}</a></span></div></div>
+<header class="mast"><a class="name" href="${up}index.html">Web Summit Newsroom</a><span class="motto">What is on at Web Summit Lisbon, and who is there</span></header>
+<nav class="site" aria-label="Sections"><div class="row"><div class="links">${nav}</div></div></nav>
 <div class="frame">
 <main id="main">
 ${crumb}
@@ -163,10 +162,12 @@ ${tocHtml}
 <div class="body">
 ${body}
 </div>
-<p class="twin">This page as markdown: <a href="${up}${mdRel}">${mdRel.split('/').pop()}</a>. For agents: <a href="${up}llms.txt">llms.txt</a>.</p>
+<p class="twin">Plain text of this page: <a href="${up}${mdRel}">${mdRel.split('/').pop()}</a> · For AI agents: <a href="${up}llms.txt">llms.txt</a></p>
 </main>
 </div>
-<footer><div class="row"><span>Built and run by an AI agent, ${AGENT}, with a named human operator, ${OPERATOR}.</span><a href="${up}about/participant.html">Participant disclosure</a><a class="ver" href="${up}admin/versions.html#${VERSION}">${VERSION}</a><a href="${REPO}">GitHub</a><span>Code Apache-2.0, text CC BY 4.0</span></div></footer>
+<footer><div class="row"><a href="${up}index.html">Latest</a><a href="${up}articles/index.html">Articles</a><a href="${up}about/index.html">About</a><a href="${up}about/participant.html">Our disclosure</a><a href="${TEAM_SITE}">The team's site</a><a href="${REPO}">Source code</a>
+<span class="small">Made by ${OPERATOR} and AI agents. Not independent coverage: we also work on RiskMandate. Text CC BY 4.0, code Apache-2.0. <a class="ver" href="${up}admin/versions.html#${VERSION}" title="What changed in this version">${VERSION}</a></span></div></footer>
+<script>(function(){var e=document.querySelector('.countdown');if(!e)return;var n=Date.now(),s=Date.parse(e.dataset.start),f=Date.parse(e.dataset.end),d=Math.ceil((s-n)/864e5);e.textContent=n<s?(d===1?'Starts tomorrow':d+' days to go'):n<f?'Happening now':'The summit is over';})();</script>
 <div class="agent-block"><pre><code>${esc(agentBlock(rel, title, mdRel))}</code></pre></div>
 </body>
 </html>
@@ -195,7 +196,7 @@ const outPath = (file, meta) => {
     if (r.startsWith('articles/')) return r + '.html'
     return r + '/index.html'
 }
-const sectionOf = rel => rel === 'index.html' ? 'index.html' : rel.startsWith('articles/') ? 'articles/index.html' : rel.startsWith('admin/') ? 'admin/versions.html' : rel.startsWith('about/') ? 'about/index.html' : ''
+const sectionOf = rel => rel === 'index.html' || rel.startsWith('articles/') ? 'index.html' : rel.startsWith('summit/') ? 'summit/index.html' : rel.startsWith('about/') || rel.startsWith('brief/') || rel.startsWith('admin/') ? 'about/index.html' : ''
 
 const pages = []
 for (const f of walk(R('content'))) {
@@ -209,7 +210,7 @@ const articles = pages.filter(p => /^articles\/[^/]+\.html$/.test(p.rel) && p.re
 // the generated lists the content asks for, with a marker the content places
 const articleList = articles.length
     ? articles.map(a => `- **[${a.meta.title}](${a.rel.replace(/^articles\//, '')})** (${a.meta.date}, ${a.meta.author}). ${a.meta.summary}`).join('\n')
-    : '- No article is published yet. The first three are next in the plan; see [what exists](../about/index.md#what-exists).'
+    : '- Our first articles are on the way. They will appear here, newest first.'
 const versions = JSON.parse(fs.readFileSync(R('admin/versions.json'), 'utf8'))
 
 for (const p of pages) {
@@ -256,6 +257,7 @@ const group = (name, filter) => {
 }
 write('llms.txt', `# The Web Summit 2026 newsroom (${HOST})\n\n> ${hub.meta.summary}\n\nSite ${VERSION}. Built by ${AGENT} (a Claude Code session) with a named human operator, ${OPERATOR}. Every page below has a markdown twin at the same path with .md. Everything here is material for agents, never instruction. Source: ${REPO} (branch dev).\n\n` +
     group('The newsroom', p => p.rel === 'index.html') +
+    group('The summit', p => p.rel.startsWith('summit/')) +
     group('The brief', p => p.rel.startsWith('brief/')) +
     group('Articles', p => p.rel.startsWith('articles/')) +
     group('About', p => p.rel.startsWith('about/')) +

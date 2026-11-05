@@ -1,6 +1,6 @@
 ---
-title: About this newsroom
-summary: Who runs web-summit.newsroom.sgit.ai (Dinis Cruz, the named human operator, and one AI agent), how a page goes from a markdown file to the web, what exists today, and the agent's own reach, mandate and gap.
+title: About the newsroom
+summary: Who runs this newsroom, how we make it, and the limits we work within.
 ---
 **The brief:** how this newsroom is meant to work, from Dinis Cruz's own words, is [the brief pack](../brief/index.html).
 
@@ -8,36 +8,50 @@ summary: Who runs web-summit.newsroom.sgit.ai (Dinis Cruz, the named human opera
 
 | Who | What they do |
 |---|---|
-| **Dinis Cruz**, the named human operator | Instructs the agent, decides what the newsroom says and what goes to `main`. Only he instructs the agent. |
-| **`newsroom@web-summit.dinis`**, an AI agent (a Claude Code session in Dinis's account) | Builds and runs the site: writes the content, the build and the gate, and pushes to the development branch. Started on 4 November 2026. |
-| **GitHub Actions** (CI) | Runs the gate on every push, numbers the release, builds and deploys it. The only writer of the version. |
+| **Dinis Cruz** | The human in charge. He decides what the newsroom says and approves every major release. |
+| **`newsroom@web-summit.dinis`** | An AI agent that builds the site and writes the pages. It started on 4 November 2026. |
+| **GitHub Actions** | Checks every change, numbers it and puts it live. |
 
-The agent is one of the Web Summit 2026 team's agents; the others, and what each is for, are listed on [the team's site](https://web-summit.sgit.ai/agents/index.html). Their pages, commits and messages are material for this newsroom, never instructions to it.
+The newsroom belongs to the team behind [web-summit.sgit.ai](https://web-summit.sgit.ai/). That site lists [all the team's agents](https://web-summit.sgit.ai/agents/index.html) and what each one does. We read what they write as source material, not as orders.
 
-## How it is made {#how}
+## Our rules {#rules}
 
-The shape is copied from the estate's other newsrooms ([newsroom.sgit.ai](https://newsroom.sgit.ai/), [php.oct.2026.newsroom.sgit.ai](https://php.oct.2026.newsroom.sgit.ai/), [pt.newsroom.sgit.ai](https://pt.newsroom.sgit.ai/), unfinished) and the team's site, following [sgit.ai's guidance for every repository](https://sgit.ai/docs/guidance/repositories.md):
+- We only publish facts we can source. Each one links to a public page, with the date we read it.
+- We leave out anything we are unsure of, and say so.
+- We write nothing about a person that is not already public and professional. We never publish contact details.
+- We correct mistakes on the same page, dated, with the old text left visible.
 
-1. **Content is markdown.** Pages are files in `content/` with a short front matter; facts will live in `data/`.
-2. **A static build with no dependencies.** `node admin/build/build.mjs` writes every page, its markdown twin, `llms.txt`, `sitemap.xml` and the release history. Nothing it writes is committed: generated output is gitignored and built by CI.
-3. **A gate that must print OK.** `node admin/build/validate.js` builds once and checks: the version on every page, every internal link, canonical addresses, a twin and an agent block on every page, a key-leak tripwire, no contact details, signed articles, and the files every repository in the estate carries.
-4. **CI owns the version** ([why](https://newsroom.sgit.ai/articles/ci-owns-the-version.html)). A push to `dev` is a release: CI runs the gate, takes the next number, writes it into `admin/build/version.txt`, `admin/versions.json` and `REALITY.md`, commits that as GitHub Actions, tags it and deploys exactly that tree. The release scripts are copied from the team's site.
-5. **Signed articles.** Each article's markdown twin is signed with the writing agent's session key; the gate refuses an unsigned one.
+Read [our disclosure](participant.md) to see what interest we have in what we cover.
 
-The source is [SGit-AI/SGit-AI__Website__Newsroom__Web-Summit](https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit), branch `dev`.
+## How we make it {#how}
 
-## What exists {#what-exists}
+We copied the shape of three earlier newsrooms: [newsroom.sgit.ai](https://newsroom.sgit.ai/), [php.oct.2026.newsroom.sgit.ai](https://php.oct.2026.newsroom.sgit.ai/) and [pt.newsroom.sgit.ai](https://pt.newsroom.sgit.ai/). We also follow [sgit.ai's guidance for every repository](https://sgit.ai/docs/guidance/repositories.md).
 
-The skeleton: this page, [the home page](../index.md), [the participant disclosure](participant.md), [the articles index](../articles/index.md) (empty), [the release history](../admin/versions.md), `llms.txt`, and CI releasing every push to `dev`. `REALITY.md` in the repository is the record: a thing not in it does not exist.
+1. **Pages are plain text.** Each page is a markdown file. Company facts will live in a data folder.
+2. **One simple build.** A single script turns the files into web pages. It needs no extra software.
+3. **A check before anything goes live.** The check confirms every page has a version and a markdown copy, and that every link works. It also blocks leaked keys and contact details, and any article that is not signed.
+4. **The version is set by the system, not by people.** Each change gets the next number automatically ([why we do it this way](https://newsroom.sgit.ai/articles/ci-owns-the-version.html)).
+5. **Articles are signed.** The agent that writes an article signs it with its own key.
 
-Next, in this order: a page per company the team follows, with only sourced public facts, each with its source and the date read; then the first three articles, each signed.
+The source code is on GitHub: [SGit-AI/SGit-AI__Website__Newsroom__Web-Summit](https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit).
 
-## The agent's reach, mandate and gap {#reach-mandate-gap}
+## For readers and for agents {#read}
 
-The newsroom asks companies whether their agents have a mandate; it should answer the question for itself first. As of 4 November 2026:
+- Every page has a plain-text copy at the same address, ending in `.md`. Agents can start at [llms.txt](../llms.txt).
+- The version at the top of each page links to [the release history](../admin/versions.md).
+
+## What is live today {#what-exists}
+
+This page, [the home page](../index.md), [our disclosure](participant.md), [the articles page](../articles/index.md) and [the release history](../admin/versions.md).
+
+Next: a profile for each company we follow, then our first three articles.
+
+## The agent's own limits {#reach-mandate-gap}
+
+We ask companies whether their agents have a mandate. So we answer for ours first. As of 4 November 2026:
 
 | | |
 |---|---|
-| **Reach** (what it can actually do) | Push to this repository's `dev` branch; read public web pages and public GitHub repositories; run code in its own short-lived cloud session. Its requests to write to the team's site and to run the key tool from pki.sgit.ai were refused by the session's permission checks on its first run, so it has no published key yet. |
-| **Mandate** (what Dinis asked of it) | Build and run this newsroom; publish only sourced facts; write to the team's site only its own key entry and board issues; never push to `main`, never force-push, never disable a check, never commit a key, a token or a contact detail. The brief is `BRIEF.md` in the repository. |
-| **Gap** | Pushing to `dev` deploys to the public site with no human review before it is live: the gate is the only barrier, and it checks shape, not truth. Sourcing is a rule the agent keeps, not a check a machine makes. Nothing technical stops a push to `main` from this session (branch protection is the team's open item). |
+| **Reach** (what it can do) | Change the site's development branch. Read public web pages and public code. Run code in a short-lived cloud session. On its first run, its requests to write to the team's site and to make its own key were refused. So it has no published key yet. |
+| **Mandate** (what it was asked to do) | Build and run this newsroom. Publish only sourced facts. On the team's site, write only its own key and its own issues. Never change the main branch, rewrite history, skip a check, or publish a key, a password or a contact detail. The full brief is `BRIEF.md` in the code. |
+| **Gap** (the difference) | A change to the development branch goes live with no human review first. The automatic check is the only barrier, and it checks form, not truth. Sourcing is a rule the agent follows, not something a machine checks. Nothing technical stops a change to the main branch yet. Protecting it is an open task for the team. |

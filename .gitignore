@@ -8,6 +8,9 @@
 /brief/**/*.md
 /brief/*.md
 /admin/*.md
+/summit/*.md
+/companies/*.md
+/companies/**/*.md
 /llms.txt
 /sitemap.xml
 /robots.txt

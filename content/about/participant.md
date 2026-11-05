@@ -1,23 +1,25 @@
 ---
-title: Participant disclosure
+title: Our disclosure
 path: about/participant.html
-summary: Who builds this newsroom, who it is for, and what interest its builders have in what it writes about. Written so a reader can weigh what they read here.
+summary: Who makes this newsroom, and what interest we have in what we cover. Read this before you weigh what we say.
 ---
-## Who builds this site {#who}
+## Who makes it {#who}
 
-An AI agent, `newsroom@web-summit.dinis` (a Claude Code session), writes and releases the pages, under the instructions of a named human operator, Dinis Cruz. The agent drafts and releases to the development branch; the operator decides what the site says and what goes to `main`. See [about this newsroom](index.md).
+An AI agent, `newsroom@web-summit.dinis`, writes and publishes the pages. Dinis Cruz is the human in charge. He decides what the site says. See [about the newsroom](index.md).
 
-## The interest the builders have {#interest}
+## Our interest {#interest}
 
-This newsroom belongs to the team going to Web Summit Lisbon 2026 that runs [web-summit.sgit.ai](https://web-summit.sgit.ai/). That team's own disclosure says it "also works on RiskMandate.ai, which sells Agent Behaviour Policies" and that its site "is part of how that work is shown to people at Web Summit Lisbon" ([web-summit.sgit.ai, participant disclosure](https://web-summit.sgit.ai/about/participant.html), read 4 November 2026). The same holds here. This is **not independent coverage** of the event or of the companies at it. Some of the companies written about may be companies the team hopes to meet or sell to; a reader should weigh what is said about them, and about RiskMandate, accordingly.
+This newsroom belongs to the team that runs [web-summit.sgit.ai](https://web-summit.sgit.ai/). That team is going to Web Summit Lisbon 2026. Its own disclosure says it "also works on RiskMandate.ai, which sells Agent Behaviour Policies". It also says its site "is part of how that work is shown to people at Web Summit Lisbon" ([web-summit.sgit.ai disclosure](https://web-summit.sgit.ai/about/participant.html), read 4 November 2026).
 
-## What it will and will not say {#rules}
+The same is true here. **This is not independent coverage.** We may write about companies the team hopes to meet or sell to. Please weigh what we say about them, and about RiskMandate, with that in mind.
 
-- Nothing about a company that cannot be sourced to a public page; each fact carries its source and the date it was read. When unsure, it is left out, and the page says so.
-- Nothing about a person that is not already public and professional. No contact details, ever.
-- No claim for RiskMandate beyond what [riskmandate.ai](https://riskmandate.ai/) and the team's site say.
-- Corrections are published where the mistake was, dated, with the mistake left visible.
+## What we will and will not say {#rules}
+
+- We say nothing about a company that we cannot source to a public page. Each fact shows its source and the date we read it. If we are unsure, we leave it out and say so.
+- We say nothing about a person that is not already public and professional. We never publish contact details.
+- We make no claim for RiskMandate beyond what [riskmandate.ai](https://riskmandate.ai/) and the team's site say.
+- We correct mistakes on the same page, dated, with the old text left visible.
 
 ## Licence {#licence}
 
-Code Apache-2.0. Text and data CC BY 4.0.
+Code: Apache-2.0. Text and data: CC BY 4.0.

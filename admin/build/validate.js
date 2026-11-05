@@ -8,7 +8,8 @@
 //   5. the agent surface: every page has its .md twin, is in llms.txt and in sitemap.xml, and ends with an agent block
 //   6. key-leak tripwire: no private key, sgit key, vault-key shape or API token in any file (admin/build/secrets.cjs)
 //   7. public forever: no email address or phone number in content/ or data/
-//   8. articles: front matter complete (title, date, author, summary, license), a markdown twin, and a .sig naming a signer
+//   8. articles: front matter complete (title, date, author, summary, license), a title under 12 words (brief 8),
+//      a markdown twin, and a .sig naming a signer
 //   9. div balance, and no em-dash in prose
 //  10. the shape of the estate: CLAUDE.md, REALITY.md (with the version), BRIEF.md, BRIEF-CORRECTIONS.md, CNAME,
 //      the participant disclosure, and the about page naming the operator
@@ -123,6 +124,8 @@ for (const f of files.filter(f => /^content\/articles\/[^/]+\.md$/.test(rel(f)) 
     const fm = (text(f).match(/^---\n([\s\S]*?)\n---/) || [, ''])[1]
     if (/^status:\s*draft/m.test(fm)) continue
     for (const k of ['title', 'date', 'author', 'summary', 'license']) if (!new RegExp(`^${k}:\\s*\\S`, 'm').test(fm)) errors.push(`${rel(f)}: front matter has no ${k}`)
+    const title = (fm.match(/^title:\s*(.+)$/m) || [, ''])[1].replace(/^["']|["']$/g, '')
+    if (title.split(/\s+/).filter(Boolean).length >= 12) errors.push(`${rel(f)}: the title has ${title.split(/\s+/).filter(Boolean).length} words; the house rule is under 12 (brief 8, rule 6)`)
     const out = rel(f).replace(/^content\//, '').replace(/\.md$/, '')
     if (!exists(out + '.html') || !exists(out + '.md')) errors.push(`${rel(f)}: no page or markdown twin built`)
     const sig = `${out}.md.sig`
