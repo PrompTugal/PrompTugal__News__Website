@@ -49,7 +49,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/d7a21b52-7826-4be2-8af2-e74a345f3e2b/the-new-battle-for-brand-influence/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/",
-  "read_at": "2026-11-04T20:02Z",
+  "read_at": "2026-11-05T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "admin/tools/derive.mjs",
@@ -59,6 +59,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 140
+    "item": 139
   }
 }

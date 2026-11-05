@@ -2,7 +2,7 @@
   "$schema": "schemas/matching.schema.json",
   "about": "The derivation's report (admin/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
   "counts": {
-    "speaker_organisations_matched": 67,
+    "speaker_organisations_matched": 66,
     "speaker_organisations_unmatched": 156,
     "near_misses": 0,
     "places_unmatched": 0,
@@ -16,7 +16,7 @@
       {
         "as_listed": "Agentic AI Foundation",
         "ref": "company:linux-foundation-aaif",
-        "count": 1,
+        "count": 2,
         "how": "alias \"Agentic AI Foundation\" (the name in the team's map, in the brackets, source s1)"
       },
       {
@@ -228,12 +228,6 @@
         "ref": "company:legora",
         "count": 2,
         "how": "alias \"Legora\" (the name in the team's map, source s1)"
-      },
-      {
-        "as_listed": "Linux Foundation",
-        "ref": "company:linux-foundation-aaif",
-        "count": 1,
-        "how": "alias \"Linux Foundation (Agentic AI Foundation)\" (the name in the team's map, source s1)"
       },
       {
         "as_listed": "MEO",
@@ -485,7 +479,7 @@
       {
         "as_listed": "Axios",
         "ref": "organisation:axios",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Banco Português de Fomento",
@@ -830,7 +824,7 @@
       {
         "as_listed": "MIT Technology Review",
         "ref": "organisation:mit-technology-review",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Mashable",
@@ -875,11 +869,6 @@
       {
         "as_listed": "National Public Radio",
         "ref": "organisation:national-public-radio",
-        "count": 1
-      },
-      {
-        "as_listed": "Nord Security",
-        "ref": "organisation:nord-security",
         "count": 1
       },
       {
@@ -985,6 +974,11 @@
       {
         "as_listed": "Skild AI",
         "ref": "organisation:skild-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "Sky News",
+        "ref": "organisation:sky-news",
         "count": 1
       },
       {

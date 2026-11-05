@@ -35,7 +35,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/",
-  "read_at": "2026-11-04T20:04Z",
+  "read_at": "2026-11-05T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -46,6 +46,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 121
+    "item": 120
   }
 }

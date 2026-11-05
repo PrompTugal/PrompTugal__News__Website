@@ -1,8 +1,8 @@
 {
   "$schema": "../../schemas/event.schema.json",
-  "id": "otter-ai-announces-its-biggest-multilingual-leap-yet-press",
+  "id": "press-conference-otter-ai-announces-its-biggest",
   "type": "event",
-  "title": "Otter.ai Announces Its Biggest Multilingual Leap Yet (Press Conference)",
+  "title": "Press conference: Otter.ai Announces Its Biggest Multilingual Leap Yet",
   "kind": "announcement",
   "listed_as": "announcement",
   "organiser": "web-summit",
@@ -26,9 +26,9 @@
     }
   ],
   "hosted_by": [],
-  "session_url": "https://websummit.com/sessions/lis26/8a817dba-d588-45a3-aa3b-df5e7965119c/otter-ai-announces-its-biggest-multilingual-leap-yet-press-conference/",
+  "session_url": "https://websummit.com/sessions/lis26/8a817dba-d588-45a3-aa3b-df5e7965119c/press-conference-otter-ai-announces-its-biggest-multilingual-leap-yet/",
   "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/1/",
-  "read_at": "2026-11-04T20:02Z",
+  "read_at": "2026-11-05T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "admin/tools/derive.mjs",

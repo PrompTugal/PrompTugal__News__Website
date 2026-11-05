@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "amy-nordrum",
+  "type": "person",
+  "name": "Amy Nordrum",
+  "role": "Executive Editor",
+  "organisation": "MIT Technology Review",
+  "org": "organisation:mit-technology-review",
+  "listings": [
+    {
+      "role": "Executive Editor",
+      "organisation": "MIT Technology Review",
+      "org": "organisation:mit-technology-review",
+      "event": "event:ai-doom-or-boom",
+      "source": "https://websummit.com/sessions/lis26/9b2f78b9-3828-4bbe-9e0a-8c092d39e0f6/ai-doom-or-boom/",
+      "read_at": "2026-11-05T08:17Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

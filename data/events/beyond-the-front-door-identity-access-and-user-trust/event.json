@@ -42,7 +42,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/",
-  "read_at": "2026-11-04T20:04Z",
+  "read_at": "2026-11-05T08:18Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -53,6 +53,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 207
+    "item": 206
   }
 }

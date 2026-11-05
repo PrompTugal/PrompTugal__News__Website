@@ -42,7 +42,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/f9b5061e-ee77-43c1-b469-c0754cae3e5e/beyond-the-ipo-the-new-exit-playbook/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
-  "read_at": "2026-11-04T20:02Z",
+  "read_at": "2026-11-05T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "admin/tools/derive.mjs",
@@ -52,6 +52,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 169
+    "item": 168
   }
 }

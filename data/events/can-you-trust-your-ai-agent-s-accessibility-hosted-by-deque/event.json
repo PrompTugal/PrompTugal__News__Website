@@ -34,7 +34,7 @@
   ],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/",
-  "read_at": "2026-11-04T20:05Z",
+  "read_at": "2026-11-05T08:19Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -45,6 +45,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 182
+    "item": 181
   }
 }

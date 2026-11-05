@@ -2,7 +2,7 @@
   "$schema": "../../schemas/event.schema.json",
   "id": "open-or-closed-ai-models-which-types-of-future-do-they",
   "type": "event",
-  "title": "Open or Closed AI models: which types of future do they represent? (Press Conference)",
+  "title": "Open or Closed AI models: which types of future do they represent? (Press conference)",
   "kind": "announcement",
   "listed_as": "announcement",
   "organiser": "web-summit",
@@ -26,9 +26,9 @@
     },
     {
       "person": "person:mazin-gilbert",
-      "as_listed": "Mazin Gilbert (Executive Director, Linux Foundation)",
+      "as_listed": "Mazin Gilbert (Executive Director, Agentic AI Foundation)",
       "role": "Executive Director",
-      "organisation": "Linux Foundation",
+      "organisation": "Agentic AI Foundation",
       "org": "company:linux-foundation-aaif"
     },
     {
@@ -42,7 +42,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/2465ed74-ae9c-4705-93dc-54bb7f8ae26d/open-or-closed-ai-models-which-types-of-future-do-they-represent-press-conference/",
   "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/2/",
-  "read_at": "2026-11-04T20:02Z",
+  "read_at": "2026-11-05T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "admin/tools/derive.mjs",
@@ -52,6 +52,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 133
+    "item": 132
   }
 }

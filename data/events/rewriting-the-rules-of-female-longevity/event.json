@@ -8,9 +8,9 @@
   "organiser": "web-summit",
   "our_pick": false,
   "date": "2026-11-11",
-  "time": "15:50-16:05",
-  "start": "15:50",
-  "end": "16:05",
+  "time": "15:10-15:25",
+  "start": "15:10",
+  "end": "15:25",
   "where": "Centre Stage, MEO Arena and FIL",
   "place": "place:centre-stage",
   "track": "Centre Stage",
@@ -35,7 +35,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/79f1c8b1-4453-46c1-a37f-cb614d082cb8/rewriting-the-rules-of-female-longevity/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/",
-  "read_at": "2026-11-04T20:02Z",
+  "read_at": "2026-11-05T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "admin/tools/derive.mjs",
@@ -45,6 +45,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 148
+    "item": 142
   }
 }
