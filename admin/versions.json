@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.13",
+    "date": "2026-11-05",
+    "what": "release.sh derives the data itself, so a desk agent commits only its own desks/<desk>/",
+    "by": "conductor@web-summit.dinis",
+    "from": "24a9aba06"
+  },
+  {
     "version": "v0.1.12",
     "date": "2026-11-05",
     "what": "the reading meter, top-ups, the account and the vault login live; the article re-signed",
