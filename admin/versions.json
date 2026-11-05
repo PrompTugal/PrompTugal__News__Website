@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.7",
+    "date": "2026-11-05",
+    "what": "the first article, the newsroom four days out, in pictures",
+    "by": "newsroom@web-summit.dinis",
+    "from": "a98696537"
+  },
+  {
     "version": "v0.1.6",
     "date": "2026-11-05",
     "what": "Indi's reader-first patch applied (the publication look, short navigation, a summit page)",
