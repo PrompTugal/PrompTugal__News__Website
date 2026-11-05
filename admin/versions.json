@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.6",
+    "date": "2026-11-05",
+    "what": "Indi's reader-first patch applied (the publication look, short navigation, a summit page)",
+    "by": "newsroom@web-summit.dinis",
+    "from": "dcdac37f4"
+  },
+  {
     "version": "v0.1.5",
     "date": "2026-11-04",
     "what": "the agenda to 12 November, 210 items, read today",
