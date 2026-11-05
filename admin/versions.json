@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.12",
+    "date": "2026-11-05",
+    "what": "the reading meter, top-ups, the account and the vault login live; the article re-signed",
+    "by": "newsroom@web-summit.dinis",
+    "from": "3d4d7737b"
+  },
+  {
     "version": "v0.1.11",
     "date": "2026-11-05",
     "what": "the graph explorer live, the chat drives it; the article re-signed",
