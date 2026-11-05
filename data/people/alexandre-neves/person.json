@@ -4,12 +4,12 @@
   "type": "person",
   "name": "Alexandre Neves",
   "role": "Journalist",
-  "organisation": "Grupo Renascença  Multimédia",
+  "organisation": "Grupo Renascença Multimédia",
   "org": "organisation:grupo-renascenca-multimedia",
   "listings": [
     {
       "role": "Journalist",
-      "organisation": "Grupo Renascença  Multimédia",
+      "organisation": "Grupo Renascença Multimédia",
       "org": "organisation:grupo-renascenca-multimedia",
       "event": "event:outsmarting-ai-defence-at-machine-speed",
       "source": "https://websummit.com/sessions/lis26/9374ad36-05ca-4ed0-8f48-b86c09fca8ff/outsmarting-ai-defence-at-machine-speed/",

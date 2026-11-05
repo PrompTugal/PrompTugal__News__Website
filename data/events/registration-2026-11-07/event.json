@@ -27,7 +27,8 @@
     "from": [
       "desks/programme/agenda.json",
       "data/places/",
-      "data/curation/events.json"
+      "data/curation/events.json",
+      "data/curation/speakers.json"
     ],
     "item": 4
   }

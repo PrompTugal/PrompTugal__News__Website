@@ -26,9 +26,9 @@
     },
     {
       "person": "person:alexandre-neves",
-      "as_listed": "Alexandre Neves (Journalist, Grupo Renascença  Multimédia)",
+      "as_listed": "Alexandre Neves (Journalist, Grupo Renascença Multimédia)",
       "role": "Journalist",
-      "organisation": "Grupo Renascença  Multimédia",
+      "organisation": "Grupo Renascença Multimédia",
       "org": "organisation:grupo-renascenca-multimedia"
     }
   ],
@@ -43,7 +43,8 @@
     "from": [
       "desks/programme/agenda.json",
       "data/places/",
-      "data/curation/events.json"
+      "data/curation/events.json",
+      "data/curation/speakers.json"
     ],
     "item": 166
   }

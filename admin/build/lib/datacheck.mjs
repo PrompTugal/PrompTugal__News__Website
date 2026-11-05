@@ -28,6 +28,7 @@ export const KINDS = [
     [/^data\/site\/nav\.json$/, 'nav'],
     [/^data\/curation\/organisations\.json$/, 'curation-organisations'],
     [/^data\/curation\/events\.json$/, 'curation-events'],
+    [/^data\/curation\/speakers\.json$/, 'curation-speakers'],
 ]
 
 export function checkData() {
@@ -74,6 +75,10 @@ export function checkData() {
     for (const t of s.topics) for (const b of t.broader) need(`data/topics/${t.id}`, b)
     for (const x of s.stories) { need(`data/stories/${x.id}`, x.topic); for (const r of x.rests_on) need(`data/stories/${x.id}`, r) }
     for (const x of s.evidence) for (const n of x.names) need(`data/evidence/${x.id}`, n.ref)
+    // no social handle in what we publish about a person (the derivation drops them; this catches a hand edit)
+    const HANDLE = /(^|[\s(,;])@[A-Za-z0-9_]{2,}/
+    for (const p of s.people) for (const v of [p.role, p.organisation, ...p.listings.flatMap(l => [l.role, l.organisation])]) if (v && HANDLE.test(v)) errors.push(`data/people/${p.id}: a social handle in "${v}"`)
+    for (const e of s.events) for (const sp of e.speakers) if (HANDLE.test(sp.as_listed) || HANDLE.test(sp.role || '')) errors.push(`data/events/${e.id}: a social handle in a speaker listing`)
     // a place's located_in never loops
     for (const p of s.places) { let at = p, n = 0; while (at && at.located_in && n++ < 20) at = s.get(at.located_in); if (n >= 20) errors.push(`data/places/${p.id}: located_in loops`) }
     // 3. derived files are fresh

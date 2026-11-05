@@ -13,6 +13,7 @@ import { ident, nameKey } from './ids.mjs'
 import { listingOf, sourceKind } from './companies-map.mjs'
 
 export const BY = 'admin/tools/derive.mjs'
+const HANDLE = /(^|[\s(,;])@[A-Za-z0-9_]{2,}/g
 const SUMMIT_VENUE = /^(.*?)(?: \(([^()]+)\))?, (MEO Arena and FIL|FIL)$/
 const LEGAL_TAIL = /^(inc|ltd|llc|plc|gmbh|sa|corp)\.?$/i
 
@@ -48,7 +49,7 @@ const byKey = (a, b) => a < b ? -1 : a > b ? 1 : 0
 
 export function derive({ agenda, curator, companies, places, topics, handEvents, handOrgs, handPeople, curation }) {
     const files = {}
-    const report = { speaker_organisations: { matched: [], unmatched: [], near_misses: [] }, places: { unmatched_where: [] }, tracks: { mapped: [], unmapped: [] }, company_sessions: { resolved: [], unresolved: [] }, people: { merged_listings: [] }, evidence_names: { matched: [], unmatched: [] }, hosted_by: [] }
+    const report = { speaker_organisations: { matched: [], unmatched: [], near_misses: [] }, places: { unmatched_where: [] }, tracks: { mapped: [], unmapped: [] }, company_sessions: { resolved: [], unresolved: [] }, people: { merged_listings: [] }, evidence_names: { matched: [], unmatched: [] }, hosted_by: [], handles_dropped: 0 }
 
     // ---- organisation names -> companies (aliases, each from a company source) or curated organisations
     const aliasIndex = new Map()   // nameKey -> { ref, how }
@@ -113,6 +114,7 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
     const used = new Set(handEventIds)
     const events = []
     const people = new Map()
+    const splits = new Map((curation.speakers?.splits || []).map(x => [x.as_listed, x]))
     const ruleKind = new Map((curation.events.kind || []).map(r => [r.source_url, r.kind]))
     for (const x of items) {
         const { it } = x
@@ -133,8 +135,12 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
         if (it.kind === 'team-pick') kind = track === 'Press Conference' ? 'announcement' : track === 'PITCH' ? 'pitch' : track === 'Night Summit' ? 'night-summit' : 'session'
         if (ruleKind.has(it.source_url)) kind = ruleKind.get(it.source_url)
         const src = { url: it.session_url || it.source_url, read_at: it.read_at, by: agenda.agent }
-        const speakers = (it.speakers || []).map(s => {
-            const p = parseSpeaker(s)
+        const speakers = (it.speakers || []).map(raw => {
+            // a social handle in a listing is not published (house rules: no social links, no contact details)
+            const s = raw.replace(HANDLE, '').replace(/,\s*,/g, ',').replace(/\s+\)/g, ')').replace(/,\s*\)/g, ')').replace(/\s{2,}/g, ' ').trim()
+            if (s !== raw) report.handles_dropped++
+            const split = splits.get(raw)
+            const p = split ? { name: parseSpeaker(s).name, role: split.role, organisation: split.organisation } : parseSpeaker(s)
             const org = p.organisation ? resolveOrg(p.organisation, { ...src, how: 'a speaker card on the event page' }) : null
             if (p.organisation) (org.startsWith('company:') ? report.speaker_organisations.matched : report.speaker_organisations.unmatched).push({ as_listed: p.organisation, ref: org, event: `event:${slug}` })
             const pid = ident(p.name)
@@ -161,7 +167,7 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
             ...(it.note ? { note: it.note } : {}),
             session_url: it.session_url || null, source_url: it.source_url, read_at: it.read_at, read_by: agenda.agent,
             ...(it.via ? { via: it.via } : {}),
-            derived: { by: BY, from: ['desks/programme/agenda.json', 'data/places/', 'data/curation/events.json'], item: x.index },
+            derived: { by: BY, from: ['desks/programme/agenda.json', 'data/places/', 'data/curation/events.json', 'data/curation/speakers.json'], item: x.index },
         })
     }
     // umbrellas

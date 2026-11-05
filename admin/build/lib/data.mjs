@@ -45,7 +45,7 @@ export function derivationInputs() {
         handEvents: readFolder('event').filter(isHand),
         handOrgs: readFolder('organisation').filter(isHand),
         handPeople: readFolder('person').filter(isHand),
-        curation: { organisations: readJSON('data/curation/organisations.json'), events: readJSON('data/curation/events.json') },
+        curation: { organisations: readJSON('data/curation/organisations.json'), events: readJSON('data/curation/events.json'), speakers: readJSON('data/curation/speakers.json') },
     }
 }
 

@@ -33,8 +33,8 @@
     },
     {
       "person": "person:carmem-domingues",
-      "as_listed": "Carmem Domingues (Former White House Senior AI Advisor, AI Techno-Realist, @Carmemdom, Future Government Institute)",
-      "role": "Former White House Senior AI Advisor, AI Techno-Realist, @Carmemdom",
+      "as_listed": "Carmem Domingues (Former White House Senior AI Advisor, AI Techno-Realist, Future Government Institute)",
+      "role": "Former White House Senior AI Advisor, AI Techno-Realist",
       "organisation": "Future Government Institute",
       "org": "organisation:future-government-institute"
     },
@@ -64,7 +64,8 @@
     "from": [
       "desks/programme/agenda.json",
       "data/places/",
-      "data/curation/events.json"
+      "data/curation/events.json",
+      "data/curation/speakers.json"
     ],
     "item": 130
   }

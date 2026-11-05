@@ -1,0 +1,8 @@
+{
+  "$schema": "../schemas/curation-speakers.schema.json",
+  "about": "Hand-made splits of speaker listings that the automatic rule (the organisation is after the last comma inside the brackets, admin/build/lib/derive.mjs parseSpeaker) gets wrong because the organisation itself holds a comma. Each entry names the listing exactly as the programme desk wrote it, the role and organisation it is, and why.",
+  "splits": [
+    { "as_listed": "John Koetsier (Forbes columnist & Tech First Podcast Host, Forbes, Freelance)", "role": "Forbes columnist & Tech First Podcast Host", "organisation": "Forbes, Freelance", "decided_by": "newsroom-dev@web-summit.dinis", "decided_on": "2026-11-05", "why": "The team's data/events.json (read 1 November) gives the organisation as \"Forbes, Freelance\"." },
+    { "as_listed": "Vahan Agopyan (Secretary of Science, Technology and Innovation, Government of the State of Sao Paulo, Brazil)", "role": "Secretary of Science, Technology and Innovation", "organisation": "Government of the State of Sao Paulo, Brazil", "decided_by": "newsroom-dev@web-summit.dinis", "decided_on": "2026-11-05", "why": "The team's data/events.json (read 1 November) gives the organisation as \"Government of the State of Sao Paulo, Brazil\"; \"Brazil\" alone is not the organisation." }
+  ]
+}

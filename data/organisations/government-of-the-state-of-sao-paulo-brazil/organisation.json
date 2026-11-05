@@ -1,17 +1,15 @@
 {
   "$schema": "../../schemas/organisation.schema.json",
-  "id": "freelance",
+  "id": "government-of-the-state-of-sao-paulo-brazil",
   "type": "organisation",
-  "name": "Freelance",
+  "name": "Government of the State of Sao Paulo, Brazil",
   "names_as_listed": [
-    "Freelance"
+    "Government of the State of Sao Paulo, Brazil"
   ],
-  "marker": true,
-  "marker_note": "A listing placeholder (the card names no organisation), flagged and kept as listed.",
   "sources": [
     {
-      "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
-      "read_at": "2026-11-04T20:05Z",
+      "url": "https://websummit.com/sessions/lis26/2b66ba08-e60a-43a0-9f78-8f81c380af59/the-next-digital-frontier/",
+      "read_at": "2026-11-04T20:06Z",
       "by": "programme@web-summit.vicky",
       "how": "a speaker card on the event page"
     }

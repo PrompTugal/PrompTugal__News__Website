@@ -518,11 +518,6 @@
         "count": 1
       },
       {
-        "as_listed": "Brazil",
-        "ref": "organisation:brazil",
-        "count": 1
-      },
-      {
         "as_listed": "Build Collective",
         "ref": "organisation:build-collective",
         "count": 1
@@ -638,6 +633,11 @@
         "count": 1
       },
       {
+        "as_listed": "Forbes, Freelance",
+        "ref": "organisation:forbes-freelance",
+        "count": 1
+      },
+      {
         "as_listed": "Foreign Policy Magazine",
         "ref": "organisation:foreign-policy-magazine",
         "count": 2
@@ -660,11 +660,6 @@
       {
         "as_listed": "Free agent",
         "ref": "organisation:free-agent",
-        "count": 1
-      },
-      {
-        "as_listed": "Freelance",
-        "ref": "organisation:freelance",
         "count": 1
       },
       {
@@ -693,6 +688,11 @@
         "count": 2
       },
       {
+        "as_listed": "Government of the State of Sao Paulo, Brazil",
+        "ref": "organisation:government-of-the-state-of-sao-paulo-brazil",
+        "count": 1
+      },
+      {
         "as_listed": "Granola",
         "ref": "organisation:granola",
         "count": 1
@@ -703,7 +703,7 @@
         "count": 1
       },
       {
-        "as_listed": "Grupo Renascença  Multimédia",
+        "as_listed": "Grupo Renascença Multimédia",
         "ref": "organisation:grupo-renascenca-multimedia",
         "count": 1
       },
@@ -1830,6 +1830,7 @@
       "ref": "company:open-vsx"
     }
   ],
+  "handles_dropped": 2,
   "not_same": [
     {
       "as_listed": "Atlassian Williams F1 Team",

@@ -1,15 +1,15 @@
 {
   "$schema": "../../schemas/organisation.schema.json",
-  "id": "brazil",
+  "id": "forbes-freelance",
   "type": "organisation",
-  "name": "Brazil",
+  "name": "Forbes, Freelance",
   "names_as_listed": [
-    "Brazil"
+    "Forbes, Freelance"
   ],
   "sources": [
     {
-      "url": "https://websummit.com/sessions/lis26/2b66ba08-e60a-43a0-9f78-8f81c380af59/the-next-digital-frontier/",
-      "read_at": "2026-11-04T20:06Z",
+      "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+      "read_at": "2026-11-04T20:05Z",
       "by": "programme@web-summit.vicky",
       "how": "a speaker card on the event page"
     }

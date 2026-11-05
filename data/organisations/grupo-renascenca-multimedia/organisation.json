@@ -2,9 +2,9 @@
   "$schema": "../../schemas/organisation.schema.json",
   "id": "grupo-renascenca-multimedia",
   "type": "organisation",
-  "name": "Grupo Renascença  Multimédia",
+  "name": "Grupo Renascença Multimédia",
   "names_as_listed": [
-    "Grupo Renascença  Multimédia"
+    "Grupo Renascença Multimédia"
   ],
   "sources": [
     {

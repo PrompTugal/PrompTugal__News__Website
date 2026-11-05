@@ -20,9 +20,9 @@
     {
       "person": "person:vahan-agopyan",
       "as_listed": "Vahan Agopyan (Secretary of Science, Technology and Innovation, Government of the State of Sao Paulo, Brazil)",
-      "role": "Secretary of Science, Technology and Innovation, Government of the State of Sao Paulo",
-      "organisation": "Brazil",
-      "org": "organisation:brazil"
+      "role": "Secretary of Science, Technology and Innovation",
+      "organisation": "Government of the State of Sao Paulo, Brazil",
+      "org": "organisation:government-of-the-state-of-sao-paulo-brazil"
     },
     {
       "person": "person:tariq-al-tayer",
@@ -57,7 +57,8 @@
     "from": [
       "desks/programme/agenda.json",
       "data/places/",
-      "data/curation/events.json"
+      "data/curation/events.json",
+      "data/curation/speakers.json"
     ],
     "item": 112
   }
