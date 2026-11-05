@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.34",
+    "date": "2026-11-05",
+    "what": "S2 review, no pronoun the source does not give",
+    "by": "reviewer@web-summit.vicky",
+    "from": "a6ca88909"
+  },
+  {
     "version": "v0.1.33",
     "date": "2026-11-05",
     "what": "re-check S9, Brazil's startup mission: Ready",
