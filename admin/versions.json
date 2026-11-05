@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.31",
+    "date": "2026-11-05",
+    "what": "S1, S5 and S6 fixed after review",
+    "by": "journalist@web-summit.vicky",
+    "from": "41e47f07a"
+  },
+  {
     "version": "v0.1.30",
     "date": "2026-11-05",
     "what": "S9 review, length under Vicky's new limits",
