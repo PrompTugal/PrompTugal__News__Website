@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.8",
+    "date": "2026-11-05",
+    "what": "a design for an independent newsroom at Web Summit Lisbon",
+    "by": "newsroom-designer@web-summit.dinis",
+    "from": "e56280b91"
+  },
+  {
     "version": "v0.1.7",
     "date": "2026-11-05",
     "what": "the first article, the newsroom four days out, in pictures",
