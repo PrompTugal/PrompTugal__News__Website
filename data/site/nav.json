@@ -37,6 +37,7 @@
       "href": "about/index.html",
       "match": [
         "about/",
+        "riskmandate/",
         "brief/",
         "admin/",
         "api/"

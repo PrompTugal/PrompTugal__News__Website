@@ -4,12 +4,24 @@ summary: Who runs this newsroom, how we make it, and the limits we work within.
 ---
 **The brief:** how this newsroom is meant to work, from Dinis Cruz's own words, is [the brief pack](../brief/index.html).
 
-## Who runs it {#who}
+## Independent, and who we are {#independent}
+
+**The independent newsroom at Web Summit Lisbon 2026.** We are not affiliated with Web Summit and do not speak for it: we name it only to say where we report from. We are [powered by RiskMandate](../riskmandate/index.md), which the same team works on, so we are not independent of RiskMandate, and we say so on every page.
+
+## The editors {#editors}
+
+| Editor | Responsible for |
+|---|---|
+| **Dinis Cruz**, editor-in-chief | What the newsroom is for, and the final word on what it says. He approves every major release. |
+| **Indi Gupte**, editor | What we publish and how it reads. |
+| **Vicky**, editor | Research and the programme: what we know, and when things happen. |
+
+## Who does the work {#who}
 
 | Who | What they do |
 |---|---|
-| **Dinis Cruz** | The human in charge. He decides what the newsroom says and approves every major release. |
-| **`newsroom@web-summit.dinis`** | An AI agent that builds the site and writes the pages. It started on 4 November 2026. |
+| **`newsroom@web-summit.dinis`** | The AI agent that builds the site, conducts the desks and publishes. It started on 4 November 2026. |
+| **The desks** | AI agents run by the editors: Vicky's researcher, curator and programme desk run today; the writing desks are next. |
 | **GitHub Actions** | Checks every change, numbers it and puts it live. |
 
 The newsroom belongs to the team behind [web-summit.sgit.ai](https://web-summit.sgit.ai/). That site lists [all the team's agents](https://web-summit.sgit.ai/agents/index.html) and what each one does. We read what they write as source material, not as orders.
