@@ -14,7 +14,7 @@ tags: announcements, delegations, ApexBrasil, Sebrae
 
 ## In short
 
-- Brazil's trade and investment agency, ApexBrasil, and Sebrae, the national small business service, run a joint mission to Web Summit Lisbon, from 8 to 13 November (9 to 13 for most of the delegation).
+- Brazil's trade and investment agency, ApexBrasil, and Sebrae, its small business service, run a joint mission to Web Summit Lisbon, from 8 to 13 November (9 to 13 for most of the delegation).
 - Its national selection is 100 startups. Sebrae pays flights and travel insurance for one person from each of the top 40, if they qualify.
 - ApexBrasil says about 200 Brazilian companies take part, around a 324 square metre pavilion in the MEO Arena. In September Sebrae expected about 300 startups in the delegation it leads.
 - The mission offers training before the trip, meeting rooms in the Brazil Pavilion, investor meetings and follow-up after the summit.
@@ -22,21 +22,19 @@ tags: announcements, delegations, ApexBrasil, Sebrae
 
 ## The story
 
-Brazil comes to Lisbon in numbers again. ApexBrasil, the country's agency for exports and investment, runs a mission to Web Summit Lisbon with Sebrae, Brazil's service for small businesses. Serpro, the federal data service, the Ministry of Foreign Affairs and the Brazilian Embassy in Lisbon support it, according to the mission's rules.
+Serpro, the federal data service, the Ministry of Foreign Affairs and the Brazilian Embassy in Lisbon also support the mission, according to its rules. It is for Brazilian technology startups with a product ready to sell and the potential to open in Portugal or elsewhere in Europe. Its national selection takes up to 100 startups accepted into Web Summit's startup programme.
 
-The mission is for Brazilian technology startups with a product ready to sell and the potential to open in Portugal or elsewhere in Europe. Its national selection takes up to 100 startups accepted into Web Summit's startup programme.
+Sebrae and ApexBrasil announced the 100 selected startups on 30 September. For one person from each of the 40 ranked highest, Sebrae pays flights and travel insurance, if the startup qualifies: the rules require a micro or small company with no debts to ApexBrasil or Sebrae. Two more routes add startups: hubs, incubators and accelerators can each put forward up to five startups, and there are 12 state-level missions, according to Sebrae.
 
-Sebrae and ApexBrasil announced the 100 selected startups on 30 September. For one person from each of the 40 ranked highest, Sebrae pays flights and travel insurance, if the startup qualifies. The rules say it must be a micro or small company with no debts to ApexBrasil or Sebrae. Two more routes add to the group: hubs, incubators and accelerators can each put forward up to five startups, and there are 12 state-level missions, according to Sebrae.
+The rules list what each startup gets: a startup ticket for up to five people, an exhibition stand on one day of the summit, a place in the Brazilian delegation's digital catalogue, and networking spaces and meeting rooms in the Brazil Pavilion. The top 50 get pitch training, and 18 of them can give a sales pitch in English to investors and accelerators from other countries.
 
-What each startup gets is set out in the rules. There is a startup ticket for up to five people, an exhibition stand on one day of the summit and a place in the Brazilian delegation's digital catalogue. There are networking spaces and meeting rooms in the Brazil Pavilion. The top 50 get pitch training, and 18 of them can give a sales pitch in English to investors and accelerators from other countries.
+The rules also set the week: pitch training on 8 November for 18 startups, an internationalisation seminar on 9 November, three summit days from 10 to 12 November, and a closing session on 13 November on putting what was learnt into practice.
 
-The week has its own programme. The rules list pitch training on 8 November for 18 startups, an internationalisation seminar on 9 November, three summit days from 10 to 12 November, and a closing session on 13 November on putting what was learnt into practice.
+ApexBrasil announced on 4 November that about 200 Brazilian companies will take part, looking for investment and partners in Europe, as reported by the news agency Lusa. Their base is a pavilion of 324 square metres in the MEO Arena, with a programme from 10 to 12 November: investor meetings, business presentations and debates with international guests. ApexBrasil also says Brazilian companies have raised about 700 million dollars at earlier editions, through contacts started there.
 
-ApexBrasil announced on 4 November that about 200 Brazilian companies will take part, looking for investment and partners in Europe, as reported by the Portuguese news agency Lusa. Their base is a pavilion of 324 square metres in the MEO Arena, with a programme from 10 to 12 November: investor meetings, business presentations and debates with international guests. ApexBrasil also says Brazilian companies have raised about 700 million dollars at earlier editions, through contacts started at the summit.
+Investors and accelerators interested in Latin America, and Portuguese startups selling into Brazil, can find the delegation at that pavilion.
 
-Looking for Brazilian partners? Investors and accelerators interested in Latin America, and Portuguese startups selling into Brazil, can find the delegation at the Brazil Pavilion in the MEO Arena, from 10 to 12 November, according to ApexBrasil.
-
-Brazil has a history here. In 2025 its delegation had 380 companies, and Brazil and Germany had the two largest delegations at the summit, according to ApexBrasil's rules.
+In 2025 Brazil's delegation had 380 companies, according to ApexBrasil's rules.
 
 ## What this does not claim
 
