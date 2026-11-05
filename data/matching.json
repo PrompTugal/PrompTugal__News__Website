@@ -1554,14 +1554,34 @@
   "evidence_names": {
     "matched": [
       {
+        "as_listed": "Cloudflare",
+        "ref": "company:cloudflare",
+        "count": 1
+      },
+      {
         "as_listed": "European Commission (DG CONNECT, DG GROW)",
         "ref": "company:european-commission",
+        "count": 1
+      },
+      {
+        "as_listed": "Manus AI",
+        "ref": "company:manus-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "Replit",
+        "ref": "company:replit",
         "count": 1
       },
       {
         "as_listed": "Startup Portugal",
         "ref": "company:startup-portugal",
         "count": 3
+      },
+      {
+        "as_listed": "You.com",
+        "ref": "company:you-com",
+        "count": 1
       }
     ],
     "unmatched": [
@@ -1578,6 +1598,11 @@
       {
         "as_listed": "Acubic",
         "ref": "organisation:acubic",
+        "count": 1
+      },
+      {
+        "as_listed": "AgiBot",
+        "ref": "organisation:agibot",
         "count": 1
       },
       {
@@ -1651,6 +1676,11 @@
         "count": 1
       },
       {
+        "as_listed": "Galbot",
+        "ref": "organisation:galbot",
+        "count": 1
+      },
+      {
         "as_listed": "Galp",
         "ref": "organisation:galp",
         "count": 1
@@ -1716,6 +1746,16 @@
         "count": 3
       },
       {
+        "as_listed": "MiniMax",
+        "ref": "organisation:minimax",
+        "count": 1
+      },
+      {
+        "as_listed": "ModelBest",
+        "ref": "organisation:modelbest",
+        "count": 1
+      },
+      {
         "as_listed": "Netherlands Enterprise Agency (RVO)",
         "ref": "organisation:netherlands-enterprise-agency",
         "count": 1
@@ -1731,6 +1771,11 @@
         "count": 1
       },
       {
+        "as_listed": "Pony.ai",
+        "ref": "organisation:pony-ai",
+        "count": 1
+      },
+      {
         "as_listed": "RTBEAMTECH",
         "ref": "organisation:rtbeamtech",
         "count": 1
@@ -1743,6 +1788,11 @@
       {
         "as_listed": "RipeNew",
         "ref": "organisation:ripenew",
+        "count": 1
+      },
+      {
+        "as_listed": "Rokid",
+        "ref": "organisation:rokid",
         "count": 1
       },
       {
@@ -1766,6 +1816,11 @@
         "count": 1
       },
       {
+        "as_listed": "Tencent",
+        "ref": "organisation:tencent",
+        "count": 1
+      },
+      {
         "as_listed": "Testwaves",
         "ref": "organisation:testwaves",
         "count": 1
@@ -1786,6 +1841,11 @@
         "count": 2
       },
       {
+        "as_listed": "Unitree",
+        "ref": "organisation:unitree",
+        "count": 1
+      },
+      {
         "as_listed": "Universidade de Lisboa (ULisboa)",
         "ref": "organisation:universidade-de-lisboa",
         "count": 1
@@ -1798,7 +1858,17 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 17
+        "count": 18
+      },
+      {
+        "as_listed": "Xiaomi",
+        "ref": "organisation:xiaomi",
+        "count": 1
+      },
+      {
+        "as_listed": "Xpeng",
+        "ref": "organisation:xpeng",
+        "count": 1
       },
       {
         "as_listed": "knok",

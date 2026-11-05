@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "pony-ai",
+  "type": "organisation",
+  "name": "Pony.ai",
+  "names_as_listed": [
+    "Pony.ai"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/speakers/",
+      "read_at": "2026-11-05T11:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

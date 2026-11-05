@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S12",
+  "type": "story",
+  "title": "A robot among 800 speakers: Web Summit 2026 turns to robotics",
+  "beat": "summit",
+  "topic": "topic:the-summit",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:v-websummit-speakers",
+    "evidence:v-tecnico-web-summit-2026"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-05-1145.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-1145.json"
+    ]
+  }
+}

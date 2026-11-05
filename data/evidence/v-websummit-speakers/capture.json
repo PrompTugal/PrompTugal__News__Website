@@ -1,0 +1,79 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-websummit-speakers",
+  "type": "evidence",
+  "source_url": "https://websummit.com/speakers/",
+  "beat": "summit",
+  "group": "G11 robotics and AI on stage",
+  "names": [
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    },
+    {
+      "as_listed": "AgiBot",
+      "ref": "organisation:agibot"
+    },
+    {
+      "as_listed": "Manus AI",
+      "ref": "company:manus-ai"
+    },
+    {
+      "as_listed": "Unitree",
+      "ref": "organisation:unitree"
+    },
+    {
+      "as_listed": "ModelBest",
+      "ref": "organisation:modelbest"
+    },
+    {
+      "as_listed": "Xiaomi",
+      "ref": "organisation:xiaomi"
+    },
+    {
+      "as_listed": "Pony.ai",
+      "ref": "organisation:pony-ai"
+    },
+    {
+      "as_listed": "MiniMax",
+      "ref": "organisation:minimax"
+    },
+    {
+      "as_listed": "Tencent",
+      "ref": "organisation:tencent"
+    },
+    {
+      "as_listed": "Rokid",
+      "ref": "organisation:rokid"
+    },
+    {
+      "as_listed": "Galbot",
+      "ref": "organisation:galbot"
+    },
+    {
+      "as_listed": "Xpeng",
+      "ref": "organisation:xpeng"
+    },
+    {
+      "as_listed": "Replit",
+      "ref": "company:replit"
+    },
+    {
+      "as_listed": "You.com",
+      "ref": "company:you-com"
+    },
+    {
+      "as_listed": "Cloudflare",
+      "ref": "company:cloudflare"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-05-1145.json",
+  "run": "2026-11-05T11:45Z (scheduled run, written 12:40)",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-1145.json"
+    ]
+  }
+}
