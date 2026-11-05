@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-carris-web-summit-shuttle",
+  "type": "evidence",
+  "source_url": "https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/",
+  "beat": "summit",
+  "group": "G1 participant guide",
+  "names": [
+    {
+      "as_listed": "Carris",
+      "ref": "organisation:carris"
+    },
+    {
+      "as_listed": "Metropolitano de Lisboa",
+      "ref": "organisation:metropolitano-de-lisboa"
+    },
+    {
+      "as_listed": "CP",
+      "ref": "organisation:cp"
+    },
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-05-1945.json",
+  "run": "2026-11-05T19:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-1945.json"
+    ]
+  }
+}

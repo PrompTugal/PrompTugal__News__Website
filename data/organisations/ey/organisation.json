@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "ey",
+  "type": "organisation",
+  "name": "EY",
+  "names_as_listed": [
+    "EY"
+  ],
+  "sources": [
+    {
+      "url": "https://executivedigest.sapo.pt/web-summit-evento-gera-25-mil-me-para-a-economia-portuguesa-em-10-anos/",
+      "read_at": "2026-11-05T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

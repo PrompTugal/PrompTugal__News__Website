@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-ey-web-summit-economic-impact",
+  "type": "evidence",
+  "source_url": "https://executivedigest.sapo.pt/web-summit-evento-gera-25-mil-me-para-a-economia-portuguesa-em-10-anos/",
+  "beat": "portugal",
+  "group": "G12 what Web Summit brings Portugal",
+  "names": [
+    {
+      "as_listed": "EY",
+      "ref": "organisation:ey"
+    },
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-05-1945.json",
+  "run": "2026-11-05T19:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-1945.json"
+    ]
+  }
+}

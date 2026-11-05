@@ -1633,7 +1633,7 @@
       {
         "as_listed": "CP",
         "ref": "organisation:cp",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Caixa Capital",
@@ -1643,7 +1643,7 @@
       {
         "as_listed": "Carris",
         "ref": "organisation:carris",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Dealroom",
@@ -1653,6 +1653,11 @@
       {
         "as_listed": "Dutch Ministry of Foreign Affairs",
         "ref": "organisation:dutch-ministry-of-foreign-affairs",
+        "count": 1
+      },
+      {
+        "as_listed": "EY",
+        "ref": "organisation:ey",
         "count": 1
       },
       {
@@ -1743,7 +1748,7 @@
       {
         "as_listed": "Metropolitano de Lisboa",
         "ref": "organisation:metropolitano-de-lisboa",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "MiniMax",
@@ -1858,7 +1863,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 18
+        "count": 20
       },
       {
         "as_listed": "Xiaomi",
