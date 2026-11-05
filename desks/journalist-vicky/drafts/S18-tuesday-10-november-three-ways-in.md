@@ -24,7 +24,7 @@ Web Summit Lisbon runs from 9 to 12 November. The university stands in this stor
 
 ### Europe on Centre Stage
 
-The European Commission's digital department, DG Connect, is at Web Summit from 10 to 12 November, it says. On Tuesday, Executive Vice-President Henna Virkkunen joins a fireside chat on Centre Stage, from 11:05 to 11:25. Its title is "Has Europe's tech moment arrived?". According to the Commission, she will talk about the EU's drive for tech sovereignty, from AI and cloud to chips and digital infrastructure, and about how the EU regulates platforms and AI systems.
+The European Commission's digital department, DG Connect, is at Web Summit from 10 to 12 November, it says. On Tuesday, Executive Vice-President Henna Virkkunen joins a fireside chat on Centre Stage, from 11:05 to 11:25. Its title is "Has Europe's tech moment arrived?". According to the Commission, the talk covers the EU's drive for tech sovereignty, from AI and cloud to chips and digital infrastructure, and how the EU regulates platforms and AI systems.
 
 At 12:00 the same day, DG Connect runs a masterclass, "Data spaces for SMEs: Turning shared data into value", until 12:45. The Commission says it covers how small and medium-sized businesses can access and use data from connected products, and the support available at EU level.
 
@@ -38,7 +38,7 @@ The same day, two university stands open at Web Summit itself. ULisboa's is in P
 
 ### First-timers meeting
 
-Web Summit's own schedule lists a "First timers at Web Summit meetup" on 10 November, from 11:00 to 11:55, in Meetup 4. Web Summit describes it this way: "first-timers at Web Summit: your people are here! Exchange insights, discuss challenges, and expand your network."
+Web Summit's own schedule lists a "First timers at Web Summit meetup" on 10 November, from 11:00 to 11:55, in Meetup 4. Its page says: "Calling all first-timers at Web Summit: your people are here!" It invites them to "Exchange insights, discuss challenges, and expand your network."
 
 ### Where the day overlaps
 
