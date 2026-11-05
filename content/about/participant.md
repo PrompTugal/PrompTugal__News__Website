@@ -20,6 +20,13 @@ The same is true here. **This is not independent coverage.** We may write about 
 - We make no claim for RiskMandate beyond what [riskmandate.ai](https://riskmandate.ai/) and the team's site say.
 - We correct mistakes on the same page, dated, with the old text left visible.
 
+## What this site keeps about you {#your-data}
+
+- **The reading meter** keeps your balance, the pages you read and what they cost, your ratings and top-ups in your own browser's storage. Nothing is sent to us. A top-up is paid on Stripe's page; the newsroom never sees your card. [Your reading account](../account/index.md) shows all of it and exports it.
+- **Ask the newsroom** (the chat) runs in your browser with your own OpenRouter key, which stays in your browser and is sent only to openrouter.ai, with your questions and the site's tool results. The conversation stays in the browser tab unless you have opened your vault.
+- **Your vault** is optional. If you open one, what you choose to save is encrypted in your browser and stored on the vault server; we cannot read it. Creating a vault needs an access key, which we do not issue yet.
+- No cookies, no trackers, no account on our side.
+
 ## Licence {#licence}
 
 Code: Apache-2.0. Text and data: CC BY 4.0.

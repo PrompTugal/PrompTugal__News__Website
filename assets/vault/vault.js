@@ -141,6 +141,7 @@ export function open(tab) {
     build()
     try { window.dispatchEvent(new CustomEvent('nr-pane-open', { detail: { id: 'vault' } })) } catch (e) { /* fine */ }
     pane.hidden = false
+    if (pane.parentElement && pane.parentElement.id === 'nr-pane') pane.parentElement.hidden = false   // the shell renders #nr-pane hidden until a pane opens
     document.documentElement.classList.add('vault-open'); document.body.classList.add('pane-open')
     const b = document.getElementById('nr-vault-btn'); if (b) b.setAttribute('aria-expanded', 'true')
     if (!state.drawn) draw()
@@ -149,6 +150,8 @@ export function open(tab) {
 export function close(quiet) {
     if (!pane) return
     pane.hidden = true
+    const root = pane.parentElement
+    if (root && root.id === 'nr-pane' && ![...root.children].some(c => !c.hidden)) root.hidden = true
     document.documentElement.classList.remove('vault-open'); document.body.classList.remove('pane-open')
     const b = document.getElementById('nr-vault-btn'); if (b) { b.setAttribute('aria-expanded', 'false'); if (!quiet) b.focus() }
     remember(false)

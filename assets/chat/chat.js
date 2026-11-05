@@ -360,12 +360,18 @@
         const c = conversation()
         for (const fn of st.turnListeners) { try { fn(c) } catch (e) { /* a listener's own failure */ } }
         try { w.dispatchEvent(new CustomEvent('nr:chat-turn', { detail: { conversation: c } })) } catch (e) { /* fine */ }
+        // keep the conversation in the reader's vault, only when the reader has opened their vault (otherwise it stays in this tab)
+        try {
+            const V = w.__vault
+            if (V && V.status && V.status().open) V.save('chat/' + String(c.started || '').replace(/[^0-9TZ]/g, ''), { started: c.started, model: c.model, messages: c.messages }).catch(() => {})
+        } catch (e) { /* fine */ }
     }
 
     /* ---------------------------------------------------------------- open, close */
     function remember(on) { set(SS, K.open, on ? '1' : null) }
     function open(opts) {
         if (!st.built) build()
+        try { w.dispatchEvent(new CustomEvent('nr-pane-open', { detail: { id: 'chat' } })) } catch (e) { /* fine */ }
         pane.hidden = false
         if (pane.parentElement) pane.parentElement.hidden = false   // the shell renders #nr-pane hidden until a pane opens
         d.body.classList.add('chat-open')
@@ -385,6 +391,7 @@
         if (b && b.offsetParent) b.focus()
     }
 
+    w.addEventListener('nr-pane-open', e => { if (e.detail && e.detail.id !== 'chat' && pane && !pane.hidden) close() })   // one pane at a time (the vault pane fires this too)
     w.NRChat = { open, close, isOpen: () => !!pane && !pane.hidden, ask: t => { open(); return ask(t) }, runTool: (n, a) => { open(); return runConsole(n, a) }, newConversation }
     // the hook for the vault (and for anything else that keeps conversations): no key is ever in a conversation
     w.__nrChat = {

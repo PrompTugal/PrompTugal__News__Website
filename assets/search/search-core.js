@@ -163,7 +163,7 @@
                 for (const [t, wt] of p.forms) exact = add(t, wt) || exact
                 if (p.prefix && (p.prefix === pq.last || !exact)) {
                     const sh = shards[shardOf(p.prefix)] || {}
-                    const cands = Object.keys(sh).filter(t => t !== stem(p.w) && t.startsWith(p.prefix)).sort((a, b) => sh[b].length - sh[a].length).slice(0, 30)
+                    const cands = Object.keys(sh).filter(t => t !== stem(p.w) && t.startsWith(p.prefix)).sort((a, b) => sh[b].length - sh[a].length).slice(0, 80)
                     for (const t of cands) add(t, 0.75)
                 }
                 return best
@@ -177,6 +177,7 @@
                 let score = s * cover * cover * (TYPE_BOOST[doc.type] || 1)
                 const ft = words(doc.title).join(' ')
                 if (ft === phrase) score *= 2.5
+                else if (ft.startsWith(phrase)) score *= 2.0              // the title starts with what is being typed ("rep" -> Replit)
                 else if ((' ' + ft).includes(' ' + phrase)) score *= 1.4
                 return { doc, score }
             })
