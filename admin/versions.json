@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.18",
+    "date": "2026-11-05",
+    "what": "the newsroom is PromptUGAL (was The Lisbon Wire, a working name), at Dinis's word",
+    "by": "conductor@web-summit.dinis",
+    "from": "4daf8fb66"
+  },
+  {
     "version": "v0.1.17",
     "date": "2026-11-05",
     "what": "desks/curator/README.md, every open story candidate in one table",
