@@ -1,0 +1,3914 @@
+{
+ "about": "Public facts about the companies the Web Summit 2026 team follows, for the newsroom's company pages. From the team's company map (SGit-AI/SGit-AI__Website__Web-Summit, data/companies.json), public fields only; the team's notes are left out. Each company carries the sources the team recorded, with the date read, and this newsroom's re-check of them.",
+ "from": {
+  "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+  "path": "data/companies.json",
+  "read_on": "2026-11-01"
+ },
+ "made_by": "newsroom@web-summit.dinis, with admin/tools/companies.py",
+ "companies": [
+  {
+   "id": "cisco-outshift",
+   "name": "Cisco (Outshift by Cisco)",
+   "website": "https://outshift.cisco.com/",
+   "what": "Networking and security; at Web Summit it presents Outshift by Cisco (incubation of emerging tech) and Cisco DevNet (developer platform for agentic AI), with open-source projects in agentic AI, quantum and next-gen infrastructure.",
+   "category": "ai-agents",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/00e7c159-84fb-4ba2-9413-e075b2d9f87a/cisco-systems%2C-inc.",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/00e7c159-84fb-4ba2-9413-e075b2d9f87a/cisco-systems%2C-inc.",
+     "status": 200
+    },
+    "website": {
+     "url": "https://outshift.cisco.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "hexamind",
+   "name": "Hexamind",
+   "website": "https://www.hexamind.ai/",
+   "what": "French AI company (\"L'IA utile et maîtrisée\"); publishes Hexgate, an open-source (MIT) authorization layer for AI agents that gates every tool call through allow/deny/approval decisions by role, with signed policy bundles and an audit trail.",
+   "category": "ai-agents",
+   "country": "France",
+   "attending": "unconfirmed: listed as an exhibiting AI startup by a third-party article (Future Feed, 14 Oct 2026) that says it read Web Summit's public exhibitor list; not found on the parts of websummit.com readable without the app",
+   "attending_as": "unknown",
+   "sources": [
+    {
+     "url": "https://www.futurefeed.to/post/40-ai-startups-to-meet-at-web-summit-2026",
+     "read_on": "2026-11-01",
+     "supports": "third-party list naming Hexamind/Hexgate among exhibiting AI startups"
+    },
+    {
+     "url": "https://github.com/HexamindOrganisation",
+     "read_on": "2026-11-01",
+     "supports": "own GitHub organisation: description, website, Hexgate repository"
+    },
+    {
+     "url": "https://pypi.org/project/hexgate/0.3.2/",
+     "read_on": "2026-11-01",
+     "supports": "Hexgate package: runtime authorization for AI agents"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "website": {
+     "url": "https://www.hexamind.ai/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "primitive",
+   "name": "Primitive",
+   "website": "https://www.onprimitive.com/",
+   "what": "Email built for agents: gives AI agents their own email address and the tools to act on it over standard email protocols; backed by Y Combinator.",
+   "category": "ai-agents",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/bd878c73-f795-4ed0-b16a-2e029d608813/primitive-makes-enterprise-email-ai-ready.",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/bd878c73-f795-4ed0-b16a-2e029d608813/primitive-makes-enterprise-email-ai-ready.",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.onprimitive.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "mastra",
+   "name": "Mastra",
+   "website": "https://www.mastra.ai",
+   "what": "Open-source TypeScript framework and enterprise platform for building, iterating and managing production-grade agents.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.mastra.ai",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "qase",
+   "name": "Qase",
+   "website": "https://www.qase.io/",
+   "what": "Test management platform used by 2,000+ engineering teams; launching Tiden, which records what was asked and checks every change made by coding agents against it.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/72ac9bd5-9275-4c1d-bbc6-56e8d732e2b0/qase",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/72ac9bd5-9275-4c1d-bbc6-56e8d732e2b0/qase",
+     "status": 404
+    },
+    "website": {
+     "url": "https://www.qase.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "replit",
+   "name": "Replit",
+   "website": "https://replit.com/",
+   "what": "Agentic software creation platform that lets anyone build applications in natural language; millions of users and 500,000+ business users.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner; speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/906ae644-bbd1-4f7e-bfbb-87690996d3bd/replit",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/61c0eea9-7ec4-408d-b94f-26d5d48845d2/michele-catasta",
+     "read_on": "2026-11-01",
+     "supports": "Michele Catasta, President, Replit: public speaker listed by Web Summit for LIS26"
+    },
+    {
+     "url": "https://aman-alliance.org/Home/ContentDetail/104496",
+     "read_on": "2026-11-01",
+     "supports": "Lusa, 25 Jun 2026: Michele Catasta, President and Head of AI at Replit, announced as speaker"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/906ae644-bbd1-4f7e-bfbb-87690996d3bd/replit",
+     "status": 200
+    },
+    "website": {
+     "url": "https://replit.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "kpmg-portugal",
+   "name": "KPMG",
+   "website": "https://kpmg.com/xx/en.html",
+   "what": "Global network of professional services firms providing audit, tax and advisory services; listed for Web Summit 2026 as KPMG Portugal.",
+   "category": "grc",
+   "country": "Portugal",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/b7f3c3ff-d492-4ff5-9f12-68116e3ecd81/kpmg",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    },
+    {
+     "url": "https://co.ibtimes.com/kiggu-global-cybersecurity-final-1810",
+     "read_on": "2026-11-01",
+     "supports": "KPMG Private Enterprise Global Tech Innovator 2026 global final takes place in Lisbon on 11 Nov 2026 during Web Summit"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/b7f3c3ff-d492-4ff5-9f12-68116e3ecd81/kpmg",
+     "status": 200
+    },
+    "website": {
+     "url": "https://kpmg.com/xx/en.html",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "startup-portugal",
+   "name": "Startup Portugal",
+   "website": "https://startupportugal.com/",
+   "what": "Portugal's national startup agency; with Web Summit runs Road 2 Web Summit, selecting up to 125 Portuguese startups for the 2026 edition with a bootcamp in Porto and Lisbon and a Portugal stand.",
+   "category": "portugal-startup",
+   "country": "Portugal",
+   "attending": "confirmed: Executive Digest (13 Aug 2026) reports Startup Portugal and Web Summit running the 11th Road 2 Web Summit for the 9-12 Nov 2026 edition, with extra space on Portugal's stand",
+   "attending_as": "unknown",
+   "sources": [
+    {
+     "url": "https://executivedigest.sapo.pt/?p=800859",
+     "read_on": "2026-11-01",
+     "supports": "Road 2 Web Summit 2026: up to 125 startups, bootcamp, 50% off ALPHA/BETA, Galp prizes"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "website": {
+     "url": "https://startupportugal.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "1password",
+   "name": "1Password",
+   "website": "https://www.1password.com",
+   "what": "Secures every identity, from people to AI agents: passwords, passkeys and secrets for over 150,000 businesses, and a security layer for how agents authenticate and connect to the internet.",
+   "category": "security",
+   "country": "Canada",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/3ba8a8ea-2e10-48d9-84e3-fada56f21fd4/1password",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    },
+    {
+     "url": "https://websummit.com/tracks/developer-summit/",
+     "read_on": "2026-11-01",
+     "supports": "Developer Summit track page names 1Password (Nancy Wang) among featured speakers; may be a past-edition highlight"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/3ba8a8ea-2e10-48d9-84e3-fada56f21fd4/1password",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.1password.com",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "cloudflare",
+   "name": "Cloudflare",
+   "website": "https://www.cloudflare.com/",
+   "what": "Connectivity cloud and security platform; its homepage now leads with \"Build for the agent era\".",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: Matthew Prince (Co-founder & CEO) is a public speaker listed by Web Summit for LIS26",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/attendees/lis26/34a6f338-b5be-4983-935e-f6eeffb20b2a/matthew-prince",
+     "read_on": "2026-11-01",
+     "supports": "public speaker listed by Web Summit for LIS26: Matthew Prince, Co-founder & CEO, Cloudflare"
+    },
+    {
+     "url": "https://websummit.com/featured-attendees/",
+     "read_on": "2026-11-01",
+     "supports": "the 2026 speaker / featured attendee list that links to that page"
+    },
+    {
+     "url": "https://www.cloudflare.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site"
+    },
+    {
+     "url": "https://www.theportugalguides.com/news/2026-10-10-web-summit-lisbon-november-2026/",
+     "read_on": "2026-11-01",
+     "supports": "The Portugal Guides, 10 Oct 2026: Matthew Prince listed among confirmed 2026 speakers"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/attendees/lis26/34a6f338-b5be-4983-935e-f6eeffb20b2a/matthew-prince",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.cloudflare.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "crowdstrike",
+   "name": "CrowdStrike",
+   "website": "https://www.crowdstrike.com/",
+   "what": "Global cybersecurity company with a cloud-native, AI-native platform protecting endpoints, cloud workloads, identities and data.",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: George Kurtz (Co-founder & CEO) is a public speaker listed by Web Summit for LIS26",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/attendees/lis26/bd793867-29f9-4c1a-b1dc-753cfd598717/george-kurtz",
+     "read_on": "2026-11-01",
+     "supports": "public speaker listed by Web Summit for LIS26: George Kurtz, Co-founder & CEO, CrowdStrike"
+    },
+    {
+     "url": "https://websummit.com/featured-attendees/",
+     "read_on": "2026-11-01",
+     "supports": "the 2026 speaker / featured attendee list that links to that page"
+    },
+    {
+     "url": "https://www.crowdstrike.com/en-us/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/attendees/lis26/bd793867-29f9-4c1a-b1dc-753cfd598717/george-kurtz",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.crowdstrike.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "delinea",
+   "name": "Delinea",
+   "website": "https://Delinea.com",
+   "what": "Identity security platform that governs what humans, machines and AI agents do once they have access, extending privileged access management into continuous, just-in-time authorization across on-premises, multi-cloud and ephemeral infrastructure.",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/96f4d2e8-4e7e-4204-bf7d-0c1b9ad6983d/delinea",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/96f4d2e8-4e7e-4204-bf7d-0c1b9ad6983d/delinea",
+     "status": 200
+    },
+    "website": {
+     "url": "https://Delinea.com",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "polygraf-ai",
+   "name": "Polygraf AI",
+   "website": "https://www.polygraf.ai",
+   "what": "AI security and governance for mission-critical operations: its AI Behavioral Control Plane gives real-time visibility, governance and inline enforcement across human and agentic AI interactions, to stop data exposure, unauthorised AI actions and compliance violations.",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/45b9b830-84f5-4355-be30-9ae4f5704946/polygraf-ai",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/45b9b830-84f5-4355-be30-9ae4f5704946/polygraf-ai",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.polygraf.ai",
+     "status": 403
+    }
+   }
+  },
+  {
+   "id": "cnext",
+   "name": "Cnext",
+   "website": "https://www.cnext.eu",
+   "what": "Builds agentic AI solutions for European businesses on its own Kairos platform: secure, compliant agents grounded in business context and plugged into existing systems; 400+ solutions over almost 20 years.",
+   "category": "ai-agents",
+   "country": "Belgium",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/7650eb03-7f70-4275-a9c7-4dee4e4258e4/cnext",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/7650eb03-7f70-4275-a9c7-4dee4e4258e4/cnext",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.cnext.eu",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "getvocal-ai",
+   "name": "GetVocal AI",
+   "website": "https://www.getvocal.ai",
+   "what": "Platform for enterprise contact centres that models how a business works and orchestrates an AI fleet across channels with a human-AI flywheel; customers include Deutsche Telekom and Glovo.",
+   "category": "ai-agents",
+   "country": "France",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/caa1775e-c9d9-4186-b906-626c4aa6455c/getvocal-ai",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/caa1775e-c9d9-4186-b906-626c4aa6455c/getvocal-ai",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.getvocal.ai",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "keewano",
+   "name": "Keewano",
+   "website": "https://www.keewano.com/",
+   "what": "Building KeewanoDB, a database for AI agents and machine reasoning that stores every event across users, devices and agents as an ordered history with context.",
+   "category": "ai-agents",
+   "country": "Israel",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/1e5dae43-571a-4a71-af0c-420f9d9ef6df/keewano",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/1e5dae43-571a-4a71-af0c-420f9d9ef6df/keewano",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.keewano.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "manus-ai",
+   "name": "Manus AI",
+   "website": "https://manus.im/",
+   "what": "Action engine that executes tasks and automates workflows on a user's behalf.",
+   "category": "ai-agents",
+   "country": "China",
+   "attending": "confirmed: Tao Zhang (Co-founder & CPO) is a public speaker listed by Web Summit for LIS26",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/attendees/lis26/b293ad86-071e-4c48-8786-5486e3ceb04e/tao-zhang",
+     "read_on": "2026-11-01",
+     "supports": "public speaker listed by Web Summit for LIS26: Tao Zhang, Co-founder & CPO, Manus AI"
+    },
+    {
+     "url": "https://websummit.com/speakers/",
+     "read_on": "2026-11-01",
+     "supports": "the 2026 speaker / featured attendee list that links to that page"
+    },
+    {
+     "url": "https://manus.im/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site"
+    },
+    {
+     "url": "https://fastcompanyme.com/news/web-summit-set-to-host-its-largest-chinese-tech-delegation-in-lisbon/",
+     "read_on": "2026-11-01",
+     "supports": "Fast Company ME, 9 Oct 2026: Manus AI in the Chinese delegation; Tao Zhang listed as speaker"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/attendees/lis26/b293ad86-071e-4c48-8786-5486e3ceb04e/tao-zhang",
+     "status": 200
+    },
+    "website": {
+     "url": "https://manus.im/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "strawberry",
+   "name": "Strawberry",
+   "website": "https://strawberrybrowser.com",
+   "what": "The AI-native browser.",
+   "category": "ai-agents",
+   "country": "Sweden",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/46a776cb-d22c-4ec6-8e89-f39fcb51ed40/strawberry",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    },
+    {
+     "url": "https://www.futurefeed.to/post/40-ai-startups-to-meet-at-web-summit-2026",
+     "read_on": "2026-11-01",
+     "supports": "third-party list (Future Feed, 14 Oct 2026) describes it as a browser with AI companions that act inside your signed-in accounts"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/46a776cb-d22c-4ec6-8e89-f39fcb51ed40/strawberry",
+     "status": 200
+    },
+    "website": {
+     "url": "https://strawberrybrowser.com",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "you-com",
+   "name": "You.com (Recursive & You.com)",
+   "website": "https://you.com/",
+   "what": "You.com provides search and inference infrastructure for AI (\"the core AI infrastructure you need to maximize accuracy while reducing latency and costs\").",
+   "category": "ai-agents",
+   "country": "United States",
+   "attending": "confirmed: Richard Socher (Co-founder & CEO) is a public speaker listed by Web Summit for LIS26",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/attendees/lis26/2a414db4-1197-4b71-8570-1a2b6eb96714/richard-socher",
+     "read_on": "2026-11-01",
+     "supports": "public speaker listed by Web Summit for LIS26: Richard Socher, Co-founder & CEO, Recursive & You.com"
+    },
+    {
+     "url": "https://websummit.com/speakers/",
+     "read_on": "2026-11-01",
+     "supports": "the 2026 speaker / featured attendee list that links to that page"
+    },
+    {
+     "url": "https://you.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/attendees/lis26/2a414db4-1197-4b71-8570-1a2b6eb96714/richard-socher",
+     "status": 200
+    },
+    "website": {
+     "url": "https://you.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "datadog",
+   "name": "Datadog",
+   "website": "https://www.datadoghq.com/",
+   "what": "AI-powered observability and security platform that unifies telemetry, secures applications from code to cloud and resolves incidents with AI-driven workflows.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/1723d098-ce93-4dab-8da9-0920b6fea1b4/datadog",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/1723d098-ce93-4dab-8da9-0920b6fea1b4/datadog",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.datadoghq.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "temporal",
+   "name": "Temporal",
+   "website": "https://temporal.io/",
+   "what": "Open-source durable execution platform for building reliable applications and long-running workflows.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: session \"Bet on the foundation, not the framework\" (AI Summit, Stage 13, 10 Nov 2026) with Samar Abbas, co-founder, Temporal, on the public Web Summit schedule",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/schedule/",
+     "read_on": "2026-11-01",
+     "supports": "2026 schedule page lists the session and speaker"
+    },
+    {
+     "url": "https://temporal.io/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "website": {
+     "url": "https://temporal.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "legalfly",
+   "name": "LEGALFLY",
+   "website": "https://www.legalfly.com",
+   "what": "Legal operating system for in-house teams: secure AI-native workflows for intake, contract review, drafting, due diligence and research.",
+   "category": "grc",
+   "country": "Belgium",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/56337323-b24b-4068-ba23-ea8dcae6d580/legalfly",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/56337323-b24b-4068-ba23-ea8dcae6d580/legalfly",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.legalfly.com",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "risiq",
+   "name": "Risiq GmbH",
+   "website": "https://risiq.de/",
+   "what": "Helps banks meet regulatory requirements and build risk management; advisory plus Ribeca, a SaaS platform for integrated ESG and risk management and reporting.",
+   "category": "grc",
+   "country": "Germany",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/cb076b37-5421-4866-acb9-2b6ce756c78b/risiq-gmbh",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/cb076b37-5421-4866-acb9-2b6ce756c78b/risiq-gmbh",
+     "status": 200
+    },
+    "website": {
+     "url": "https://risiq.de/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "european-commission",
+   "name": "European Commission",
+   "website": "https://commission.europa.eu/",
+   "what": "EU executive; Executive Vice-President Henna Virkkunen (Tech Sovereignty, Security and Democracy) is an announced 2026 speaker.",
+   "category": "other",
+   "country": "Belgium (EU)",
+   "attending": "confirmed: Lusa (25 Jun 2026) and Fast Company ME (9 Oct 2026) report Henna Virkkunen as a speaker",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://aman-alliance.org/Home/ContentDetail/104496",
+     "read_on": "2026-11-01",
+     "supports": "Lusa via AMAN, 25 Jun 2026: Virkkunen named as speaker"
+    },
+    {
+     "url": "https://fastcompanyme.com/news/web-summit-set-to-host-its-largest-chinese-tech-delegation-in-lisbon/",
+     "read_on": "2026-11-01",
+     "supports": "Fast Company ME: Virkkunen listed as speaker"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:46Z",
+    "website": {
+     "url": "https://commission.europa.eu/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "atlassian",
+   "name": "Atlassian",
+   "website": "https://www.atlassian.com",
+   "what": "Team collaboration software; its AI platform, anchored by Rovo and the Teamwork Graph, connects work across Jira, Confluence and Jira Service Management for 350,000+ customers.",
+   "category": "platform",
+   "country": "Australia",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner; speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/6cce6c44-be71-48b5-814e-b320efc7cb7e/atlassian",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/d0ce77d9-7b32-4c84-99ad-d0d9388a5ab3/mike-cannon-brookes",
+     "read_on": "2026-11-01",
+     "supports": "Mike Cannon-Brookes, Co-founder & CEO, Atlassian: public speaker listed by Web Summit for LIS26"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/6cce6c44-be71-48b5-814e-b320efc7cb7e/atlassian",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.atlassian.com",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "melious-ai",
+   "name": "Melious AI GmbH",
+   "website": "https://melious.ai",
+   "what": "Sovereign European AI infrastructure and inference, serving frontier open-weight models through OpenAI- and Anthropic-compatible APIs without US Cloud Act exposure.",
+   "category": "platform",
+   "country": "Germany",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/b28bfd6e-6182-4f6f-8de8-72b5caa57097/melious-ai-gmbh",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/b28bfd6e-6182-4f6f-8de8-72b5caa57097/melious-ai-gmbh",
+     "status": 200
+    },
+    "website": {
+     "url": "https://melious.ai",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "air-apps",
+   "name": "Air Apps",
+   "website": "https://airapps.co",
+   "what": "Portuguese-rooted full-cycle product studio with 30+ AI-powered consumer apps and 100M+ downloads, with a San Francisco hub; says it is on track for $100M revenue in 2026.",
+   "category": "portugal-startup",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/20796bb4-829f-43c0-86a1-a2137ee08072/air-apps",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/20796bb4-829f-43c0-86a1-a2137ee08072/air-apps",
+     "status": 200
+    },
+    "website": {
+     "url": "https://airapps.co",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "chatplace",
+   "name": "ChatPlace",
+   "website": "https://chatplace.io/",
+   "what": "Platform for creators and small businesses: AI content studio, an AI manager that answers DMs and comments 24/7, chatbot funnels and gamification on Instagram, TikTok, Telegram and WhatsApp.",
+   "category": "portugal-startup",
+   "country": "Portugal",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace",
+     "status": 200
+    },
+    "website": {
+     "url": "https://chatplace.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "firefox-enterprise-mozilla",
+   "name": "Firefox Enterprise by Mozilla",
+   "website": "https://www.firefox.com/en-US/enterprise/",
+   "what": "Mozilla's customer-controlled, on-premises enterprise browser platform for European organisations reassessing data control and technology dependencies, giving IT and security teams control over data and browser environment.",
+   "category": "security",
+   "country": "Netherlands",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/5e33ad8b-d0fc-4103-9e74-9f8b73e464ac/firefox-enterprise-by-mozilla",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/5e33ad8b-d0fc-4103-9e74-9f8b73e464ac/firefox-enterprise-by-mozilla",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.firefox.com/en-US/enterprise/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "kiggu",
+   "name": "Kiggu",
+   "website": "https://www.kiggu.io",
+   "what": "Colombian offensive-cybersecurity startup; Kiggu Pro orchestrates automated security, agentic AI and expert human talent in one environment, acting as the security team for companies that lack one.",
+   "category": "security",
+   "country": "Colombia",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/ec0a4a3b-e56e-4ddc-9f13-c5b178c0b777/kiggu",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    },
+    {
+     "url": "https://co.ibtimes.com/kiggu-global-cybersecurity-final-1810",
+     "read_on": "2026-11-01",
+     "supports": "IBTimes Colombia, 10 Oct 2026: Kiggu presents in the KPMG Private Enterprise Global Tech Innovator 2026 global final, 11 Nov 2026, in Lisbon during Web Summit"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/ec0a4a3b-e56e-4ddc-9f13-c5b178c0b777/kiggu",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.kiggu.io",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "spacecomputer",
+   "name": "SpaceComputer",
+   "website": "https://spacecomputer.io/",
+   "what": "Cybersecurity company building confidential computing, key management, attestation and zero-trust services for cloud and AI workloads, extended to satellites and space systems.",
+   "category": "security",
+   "country": "Singapore",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/d170ac4a-9284-428c-992b-ea8a8cb57dde/spacecomputer",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/d170ac4a-9284-428c-992b-ea8a8cb57dde/spacecomputer",
+     "status": 200
+    },
+    "website": {
+     "url": "https://spacecomputer.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "altegio",
+   "name": "Altegio",
+   "website": "https://alteg.io/",
+   "what": "Vertical system of record (SoR) positioned as the layer AI agents are built on.",
+   "category": "ai-agents",
+   "country": "Hungary",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/3af72fd8-cd39-4b01-8f6f-58c181fa4e1f/altegio",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/3af72fd8-cd39-4b01-8f6f-58c181fa4e1f/altegio",
+     "status": 200
+    },
+    "website": {
+     "url": "https://alteg.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "delta-labs",
+   "name": "Delta Labs",
+   "website": "https://www.delta-labs.ch",
+   "what": "Elaiia gives teams the voice of the customer in hours using AI Twins, synthetic customer profiles grounded in behavioural data.",
+   "category": "ai-agents",
+   "country": "Switzerland",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/bd5d6340-e86f-42c3-9f55-1f9ad5d24172/delta-labs",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/bd5d6340-e86f-42c3-9f55-1f9ad5d24172/delta-labs",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.delta-labs.ch",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "genspark",
+   "name": "Genspark",
+   "website": "https://genspark.ai",
+   "what": "All-in-one AI workspace aiming to autopilot busywork for knowledge workers; says it reached $250M ARR in 12 months.",
+   "category": "ai-agents",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/6cfaa9bf-3e59-4b76-83a2-0cb735fdedff/genspark",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/6cfaa9bf-3e59-4b76-83a2-0cb735fdedff/genspark",
+     "status": 200
+    },
+    "website": {
+     "url": "https://genspark.ai",
+     "status": 403
+    }
+   }
+  },
+  {
+   "id": "sensay",
+   "name": "Sensay",
+   "website": "https://sensay.io",
+   "what": "Uses AI to capture expertise inside a team into living knowledge bases that stay accessible after people leave.",
+   "category": "ai-agents",
+   "country": "Singapore",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/439fcb0f-32ae-43f4-b4db-31a9f53e276b/sensay",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/439fcb0f-32ae-43f4-b4db-31a9f53e276b/sensay",
+     "status": 0
+    },
+    "website": {
+     "url": "https://sensay.io",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "elastic",
+   "name": "Elastic",
+   "website": "https://www.elastic.co/",
+   "what": "The Search AI Company: search, observability and security solutions built on the Elastic Search AI Platform, used by more than half of the Fortune 500.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/56cb06d1-4424-4110-95ab-326957470b08/elastic",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/56cb06d1-4424-4110-95ab-326957470b08/elastic",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.elastic.co/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "orb",
+   "name": "Orb",
+   "website": "https://withorb.com",
+   "what": "Usage-based billing for AI companies, now part of Adyen: pricing, billing and revenue intelligence.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/7e0253ff-de6e-44fa-b878-e7256e0d817b/orb",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:47Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/7e0253ff-de6e-44fa-b878-e7256e0d817b/orb",
+     "status": 200
+    },
+    "website": {
+     "url": "https://withorb.com",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "prelude",
+   "name": "Prelude",
+   "website": "https://prelude.so/",
+   "what": "Paris-based B2B developer infrastructure: APIs for phone verification, authentication, fraud prevention and messaging.",
+   "category": "devtools",
+   "country": "France",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/c5a14901-4123-46e4-95fa-b3e552f719fa/prelude",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/c5a14901-4123-46e4-95fa-b3e552f719fa/prelude",
+     "status": 200
+    },
+    "website": {
+     "url": "https://prelude.so/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "runpod",
+   "name": "Runpod",
+   "website": "https://www.runpod.io/",
+   "what": "AI developer cloud for building, training, fine-tuning and deploying AI workloads on GPUs.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/9a5f1290-6af8-4650-b689-a4dcae084ec2/runpod",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/9a5f1290-6af8-4650-b689-a4dcae084ec2/runpod",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.runpod.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "twilio",
+   "name": "Twilio",
+   "website": "https://www.twilio.com/en-us/solutions/startups",
+   "what": "Customer engagement platform providing communications and data APIs across the customer journey.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/fc4af8fa-8be5-4d3e-921f-31b3ccdac456/twilio",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/fc4af8fa-8be5-4d3e-921f-31b3ccdac456/twilio",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.twilio.com/en-us/solutions/startups",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "0xbow",
+   "name": "0xbow",
+   "website": "https://0xbow.io",
+   "what": "Plug-and-play on-chain privacy with built-in compliance.",
+   "category": "grc",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/d7b617c6-9510-47f4-8325-96053a07d258/0xbow-",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/d7b617c6-9510-47f4-8325-96053a07d258/0xbow-",
+     "status": 200
+    },
+    "website": {
+     "url": "https://0xbow.io",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "arima",
+   "name": "Arima",
+   "website": "https://arimadata.com/solutions/co-ventures/",
+   "what": "Builds bespoke, privacy-first synthetic datasets that model real populations.",
+   "category": "grc",
+   "country": "Canada",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/4a538f1a-6bad-403e-98cd-8a57d5c6a4e0/arima",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/4a538f1a-6bad-403e-98cd-8a57d5c6a4e0/arima",
+     "status": 200
+    },
+    "website": {
+     "url": "https://arimadata.com/solutions/co-ventures/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "contents",
+   "name": "Contents",
+   "website": "https://www.contents.com/",
+   "what": "SaaS platform to manage and govern the content lifecycle with AI, LLM-agnostic, ensuring quality and compliance across teams and channels.",
+   "category": "grc",
+   "country": "Italy",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/3e6c8ced-8628-4d44-b35a-326bcd921879/contents-",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/3e6c8ced-8628-4d44-b35a-326bcd921879/contents-",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.contents.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "sphere",
+   "name": "Sphere",
+   "website": "https://www.getsphere.com/",
+   "what": "AI-native platform automating revenue-based (tax) compliance across 130+ regions: registrations, filings and remittance.",
+   "category": "grc",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/1d6f471a-acc2-4613-8156-8789238bbcf7/sphere",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/1d6f471a-acc2-4613-8156-8789238bbcf7/sphere",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.getsphere.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "andreessen-horowitz",
+   "name": "Andreessen Horowitz (a16z)",
+   "website": "https://a16z.com/",
+   "what": "Venture capital firm; Lusa reports partner Marcus Segal among the announced 2026 speakers.",
+   "category": "investor",
+   "country": "United States",
+   "attending": "confirmed: Lusa (25 Jun 2026) names a16z partner Marcus Segal as a speaker; the AI Summit track page also shows an a16z logo",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://aman-alliance.org/Home/ContentDetail/104496",
+     "read_on": "2026-11-01",
+     "supports": "Lusa via AMAN, 25 Jun 2026: Marcus Segal, partner at a16z, speaker"
+    },
+    {
+     "url": "https://websummit.com/tracks/ai-summit/",
+     "read_on": "2026-11-01",
+     "supports": "AI Summit track page logos include a16z (may include past-edition content)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "website": {
+     "url": "https://a16z.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "neo",
+   "name": "Neo",
+   "website": "https://neo.com/",
+   "what": "Startup residency, recruiting platform and mentorship community for the next generation of tech leaders.",
+   "category": "investor",
+   "country": "United States",
+   "attending": "confirmed: Ali Partovi (Founding Partner) is a public speaker listed by Web Summit for LIS26",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/attendees/lis26/27267936-1648-4a02-ae03-6a1065ac3921/ali-partovi",
+     "read_on": "2026-11-01",
+     "supports": "public speaker listed by Web Summit for LIS26: Ali Partovi, Founding Partner, Neo"
+    },
+    {
+     "url": "https://websummit.com/featured-attendees/",
+     "read_on": "2026-11-01",
+     "supports": "the 2026 speaker / featured attendee list that links to that page"
+    },
+    {
+     "url": "https://neo.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/attendees/lis26/27267936-1648-4a02-ae03-6a1065ac3921/ali-partovi",
+     "status": 200
+    },
+    "website": {
+     "url": "https://neo.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "pitchbook",
+   "name": "PitchBook",
+   "website": "https://pitchbook.com/",
+   "what": "Financial data and software on venture capital, private equity, M&A and emerging technology.",
+   "category": "investor",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/815ec7d5-b829-477e-abd6-bd6620641a36/pitchbook",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/815ec7d5-b829-477e-abd6-bd6620641a36/pitchbook",
+     "status": 200
+    },
+    "website": {
+     "url": "https://pitchbook.com/",
+     "status": 403
+    }
+   }
+  },
+  {
+   "id": "shakers",
+   "name": "Shakers",
+   "website": "https://www.shakersworks.com/pt/",
+   "what": "Marketplace of senior tech, product and data talent that builds with AI; says 4% pass its certification.",
+   "category": "other",
+   "country": "Spain",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/0b7766b0-b604-4039-a223-3c04d0e43848/shakers",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/0b7766b0-b604-4039-a223-3c04d0e43848/shakers",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.shakersworks.com/pt/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "cerebras",
+   "name": "Cerebras",
+   "website": "https://www.cerebras.ai",
+   "what": "Builds AI infrastructure (wafer-scale systems), on premises and in the cloud, for corporations, research institutes and governments.",
+   "category": "platform",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/e19b58c2-c945-4334-98e8-8a1299527397/cerebras",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/e19b58c2-c945-4334-98e8-8a1299527397/cerebras",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.cerebras.ai",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "google-cloud",
+   "name": "Google Cloud",
+   "website": "https://cloud.google.com",
+   "what": "Optimised AI stack (infrastructure, Gemini models, data, multi-cloud security, developer tools, agents and applications) for organisations in the agentic era.",
+   "category": "platform",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/2362e911-24df-49f6-894e-b608c3b25106/google-cloud",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/2362e911-24df-49f6-894e-b608c3b25106/google-cloud",
+     "status": 200
+    },
+    "website": {
+     "url": "https://cloud.google.com",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "ibm",
+   "name": "IBM",
+   "website": "https://www.ibm.com/us-en",
+   "what": "AI solutions including watsonx, IBM Research and consulting to scale responsible AI across the enterprise.",
+   "category": "platform",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/87920939-b4c2-454b-80e7-5aa9c33397ee/ibm",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    },
+    {
+     "url": "https://websummit.com/tracks/ai-summit/",
+     "read_on": "2026-11-01",
+     "supports": "AI Summit track page names IBM as official AI Summit partner"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/87920939-b4c2-454b-80e7-5aa9c33397ee/ibm",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.ibm.com/us-en",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "dig-in",
+   "name": "DIG-IN",
+   "website": "https://www.dig-in.io/",
+   "what": "Maps the physical hospitality economy: a data engine tracking millions of verified outlets across Europe and Brazil with menus, pricing and location over time.",
+   "category": "portugal-startup",
+   "country": "Portugal",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/05980d1e-1823-4436-bfd7-bb9dbe52be76/dig-in",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/05980d1e-1823-4436-bfd7-bb9dbe52be76/dig-in",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.dig-in.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "itrecruiter",
+   "name": "iTRecruiter",
+   "website": "https://itrtechgroup.com/",
+   "what": "Portuguese tech recruitment ecosystem (\"where technology meets people\").",
+   "category": "portugal-startup",
+   "country": "Portugal",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/7bb34358-e824-4ba9-8230-b5224117d717/itrecruiter",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/7bb34358-e824-4ba9-8230-b5224117d717/itrecruiter",
+     "status": 200
+    },
+    "website": {
+     "url": "https://itrtechgroup.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "sheerme",
+   "name": "sheerME",
+   "website": "https://sheerme.com/",
+   "what": "Beauty and wellness super app to discover, book and pay for services.",
+   "category": "portugal-startup",
+   "country": "Portugal",
+   "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+   "attending_as": "startup (growth)",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/f139c5b3-528e-4542-9a51-1fe1a99c1fed/sheerme",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/startups/featured-startups/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/f139c5b3-528e-4542-9a51-1fe1a99c1fed/sheerme",
+     "status": 200
+    },
+    "website": {
+     "url": "https://sheerme.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "vtex",
+   "name": "VTEX",
+   "website": "https://www.vtex.com/en-us/solutions/business-needs/",
+   "what": "Global AI-native commerce platform connecting commerce, data and operations for enterprises.",
+   "category": "portugal-startup",
+   "country": "Portugal",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/9681fb72-1cd3-485c-88f5-e92b7cd7c19e/vtex",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/9681fb72-1cd3-485c-88f5-e92b7cd7c19e/vtex",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.vtex.com/en-us/solutions/business-needs/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "akamai",
+   "name": "Akamai",
+   "website": "https://www.akamai.com/",
+   "what": "Cloud company that powers and protects AI applications: cloud computing from core to edge plus multi-layered security against cyber threats.",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/610a96ea-3d4e-43c1-91d1-2ff8fe4e8d87/akamai",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/610a96ea-3d4e-43c1-91d1-2ff8fe4e8d87/akamai",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.akamai.com/",
+     "status": 403
+    }
+   }
+  },
+  {
+   "id": "gcore",
+   "name": "Gcore",
+   "website": "https://gcore.com/",
+   "what": "Edge AI, cloud computing, CDN, cybersecurity and low-latency network services across six continents, with 210+ points of presence.",
+   "category": "security",
+   "country": "Luxembourg",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/eeaeca9e-530a-4d95-a9f9-c24309f42ca0/gcore",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/eeaeca9e-530a-4d95-a9f9-c24309f42ca0/gcore",
+     "status": 200
+    },
+    "website": {
+     "url": "https://gcore.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "manageengine",
+   "name": "ManageEngine",
+   "website": "https://www.manageengine.com/",
+   "what": "Division of Zoho Corporation providing an AI-powered digital enterprise management platform for IT management worldwide.",
+   "category": "security",
+   "country": "India",
+   "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+   "attending_as": "partner",
+   "sources": [
+    {
+     "url": "https://websummit.com/appearances/lis26/03d140bc-e8a7-4097-ac20-a5158f797a90/manageengine",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website"
+    },
+    {
+     "url": "https://websummit.com/partners/event-partners-2026/",
+     "read_on": "2026-11-01",
+     "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/appearances/lis26/03d140bc-e8a7-4097-ac20-a5158f797a90/manageengine",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.manageengine.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "mobbeel",
+   "name": "Mobbeel",
+   "website": "https://www.mobbeel.com/en/",
+   "what": "Spanish digital identity company (Cáceres, founded 2009): identity verification, KYC/AML, biometric authentication and electronic signature.",
+   "category": "security",
+   "country": "Spain",
+   "attending": "confirmed: self-declared, its own blog post says it returns to Web Summit Lisbon 2026, 9 to 12 November; not checked on websummit.com",
+   "attending_as": "unknown",
+   "sources": [
+    {
+     "url": "https://www.mobbeel.com/en/blog/mobbeel-web-summit-lisbon-2026/",
+     "read_on": "2026-11-01",
+     "supports": "own blog: attending Web Summit Lisbon 2026, goals"
+    },
+    {
+     "url": "https://www.mobbeel.com/en/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "website": {
+     "url": "https://www.mobbeel.com/en/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "descope",
+   "name": "Descope",
+   "website": "https://www.descope.com/",
+   "what": "Customer and agentic identity platform: passwordless login, MFA, SSO and multi-tenancy, and it secures AI agents and MCP servers with standards-based authorisation, scoped access and token management, so human and machine identities live in one place.",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: Samudra Gupta (Solutions Engineer) is listed on the LIS26 session page '(A)Identity: Auth tips to secure AI agents and MCP servers'",
+   "attending_as": "speaker's company (Developer Summit masterclass host)",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/2701a938-524f-4c24-b0da-cb8fdd4e030b/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): '(A)Identity: Auth tips to secure AI agents and MCP servers', 12 Nov, Developer Summit, Developer Lounge, names Descope as the speaker's organisation; the session is hosted by this company"
+    },
+    {
+     "url": "https://websummit.com/appearances/lis26/9617c798-35a4-46d0-9165-8f30f47f61e5/descope/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website and elevator pitch (the 'what' field)"
+    },
+    {
+     "url": "https://www.descope.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/2701a938-524f-4c24-b0da-cb8fdd4e030b/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.descope.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "persona",
+   "name": "Persona",
+   "website": "https://withpersona.com/",
+   "what": "Identity platform that helps businesses verify people and organisations, assess risk and build trust online (from its CEO's Web Summit bio; the company site refused an automated read).",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: Rick Song (CEO) speaks in a LIS26 session (session pages 'In bots we trust' and 'Beyond the front door')",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'In bots we trust: Defending money against AI-powered fraud', 11 Nov, MoneyConf, Stage 8, names Persona as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/7b2621fc-2a0d-484e-bea9-9927584b0f43/rick-song/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Rick Song, CEO, Persona; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/",
+     "read_on": "2026-11-01",
+     "supports": "second LIS26 session page: 'Beyond the front door: Identity, access, and user trust', 12 Nov, Cybersecurity Summit, Stage 8"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:48Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://withpersona.com/",
+     "status": 403
+    }
+   }
+  },
+  {
+   "id": "airia",
+   "name": "Airia",
+   "website": "https://airia.com/",
+   "what": "AI security and governance platform: one control layer for agents, models, tools, data access, runtime policy, red teaming and audit-ready evidence.",
+   "category": "grc",
+   "country": "United States",
+   "attending": "confirmed: Kevin Kiley (CEO) is listed on the LIS26 session page 'AI sprawl is exploding. Get ahead of governance and security challenges before it’s boo late'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'AI sprawl is exploding. Get ahead of governance and security challenges before it’s boo late', 12 Nov, Growth Summit, Stage 9, names Airia as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/770add22-7f4e-4d16-97f2-88e9696d503b/kevin-kiley/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Kevin Kiley, CEO, Airia AI; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://airia.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://airia.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "aisle",
+   "name": "AISLE",
+   "website": "https://aisle.com/",
+   "what": "AI-native vulnerability management: autonomous systems that find, fix and verify vulnerabilities, including in heavily audited open-source code; deployable in cloud, on-prem or air-gapped.",
+   "category": "security",
+   "country": "Czechia",
+   "attending": "confirmed: Stanislav Fort (Founder, CTO, & Chief Scientist) is listed on the LIS26 session page 'Securing the software foundation of civilisation with AI'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Securing the software foundation of civilisation with AI', 12 Nov, AI Summit, Stage 13, names AISLE as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/b55ca6d1-26e5-4a22-ab12-07bfcfdab84e/stanislav-fort/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Stanislav Fort, Founder, CTO, & Chief Scientist, Aisle; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://aisle.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://aisle.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "emergence-ai",
+   "name": "Emergence",
+   "website": "https://www.emergence.ai/",
+   "what": "Builds agentic infrastructure for enterprise: verified, governed AI agents that plan, reason and act across complex systems.",
+   "category": "ai-agents",
+   "country": "United States",
+   "attending": "confirmed: Satya Nitta (Co-founder, Executive Chairman & Chief Scientist) is listed on the LIS26 session page 'When AI agents go rogue'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/afe1fd71-2a98-41e4-8707-9101353797b3/when-ai-agents-go-rogue/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'When AI agents go rogue', 12 Nov, AI Summit, Stage 13, names Emergence as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/5ebb61f7-b45c-4491-98a1-74d548d1e4d9/satya-nitta/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Satya Nitta, Co-founder, Executive Chairman & Chief Scientist, Emergence; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.emergence.ai/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/afe1fd71-2a98-41e4-8707-9101353797b3/when-ai-agents-go-rogue/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.emergence.ai/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "trent-ai",
+   "name": "Trent AI",
+   "website": "https://trent.ai/",
+   "what": "Agentic AI security platform that works like an AI security engineer: finds the real risk in code, cloud and AI agents and verifies every fix.",
+   "category": "security",
+   "country": "United Kingdom",
+   "attending": "confirmed: Neil Lawrence (Co-founder & Chief Scientist) is listed on the LIS26 session page 'Viable systems, judgement, and AI safety'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/3c980247-e062-492c-823a-11d388db1439/viable-systems-judgement-and-ai-safety/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Viable systems, judgement, and AI safety', 11 Nov, AI Summit, Stage 13, names Trent AI as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/57cb2c0c-9536-44f5-b36a-83655472658c/neil-lawrence/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Neil Lawrence, Co-founder & Chief Scientist, Trent AI; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://trent.ai/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/3c980247-e062-492c-823a-11d388db1439/viable-systems-judgement-and-ai-safety/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://trent.ai/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "launchdarkly",
+   "name": "LaunchDarkly",
+   "website": "https://launchdarkly.com/",
+   "what": "Runtime control platform: feature flags, progressive delivery, automated rollback and runtime control for code and AI agents in production.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: Edith Harbaugh (Co-founder & CEO) is listed on the LIS26 session page 'Who holds the kill switch?'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/53d083ac-79f1-48e0-8862-e236167233d8/who-holds-the-kill-switch/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Who holds the kill switch?', 12 Nov, Developer Summit, Stage 10, names LaunchDarkly as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/e51e8b47-f8e5-48a8-92bd-f12deaa94d55/edith-harbaugh/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Edith Harbaugh, Co-founder & CEO, LaunchDarkly; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://launchdarkly.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/53d083ac-79f1-48e0-8862-e236167233d8/who-holds-the-kill-switch/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://launchdarkly.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "jetbrains",
+   "name": "JetBrains",
+   "website": "https://www.jetbrains.com/",
+   "what": "Developer tools vendor (IntelliJ IDEA and other IDEs, the Kotlin language) with AI coding agents in its tools.",
+   "category": "devtools",
+   "country": "Czechia",
+   "attending": "confirmed: Kirill Skrygan (CEO) is listed on the LIS26 session page 'Taming the agent swarm'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/9fd40607-9fe9-4805-9831-dfffb69c5e35/taming-the-agent-swarm/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Taming the agent swarm', 12 Nov, Developer Summit, Stage 10, names JetBrains as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/52475f11-df18-4ba6-a33d-de6749683b02/kirill-skrygan/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Kirill Skrygan, CEO, JetBrains; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.jetbrains.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/9fd40607-9fe9-4805-9831-dfffb69c5e35/taming-the-agent-swarm/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.jetbrains.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "sumsub",
+   "name": "Sumsub",
+   "website": "https://sumsub.com/",
+   "what": "Identity verification and trust platform: verifies users, businesses and transactions, with fraud prevention and compliance.",
+   "category": "security",
+   "country": "United Kingdom",
+   "attending": "confirmed: Andrew Sever (Co-founder and CEO) is listed on the LIS26 session page 'An AI identity crisis'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'An AI identity crisis', 12 Nov, Cybersecurity Summit, Stage 8, names Sumsub as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/52d5c038-ff5b-4bc0-9410-ff9a7ec7870d/andrew-sever/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Andrew Sever, Co-founder and CEO, Sumsub; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://sumsub.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://sumsub.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "feedzai",
+   "name": "Feedzai",
+   "website": "https://www.feedzai.com/",
+   "what": "AI-native fraud and financial crime prevention platform; founded in Portugal (its CTO, the first employee, is listed by Web Summit from Portugal).",
+   "category": "security",
+   "country": "Portugal",
+   "attending": "confirmed: Diogo Guerra (CTO) is listed on the LIS26 session page 'Who let the agent in?'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/1de6a591-ec17-4399-8f28-13f4bff1cae1/who-let-the-agent-in/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Who let the agent in?', 12 Nov, SaaS Summit, Stage 7, names Feedzai as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/5c67ec4d-69ac-487e-aeac-153f6e7b0d42/diogo-guerra/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Diogo Guerra, CTO, Feedzai; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.feedzai.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/1de6a591-ec17-4399-8f28-13f4bff1cae1/who-let-the-agent-in/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.feedzai.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "proofpoint",
+   "name": "Proofpoint",
+   "website": "https://www.proofpoint.com/",
+   "what": "Enterprise cybersecurity and compliance (email, web, cloud, data); its CEO describes the mission as human- and agent-centric security.",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: Sumit Dhawan (CEO) is listed on the LIS26 session page 'Outsmarting AI: Defence at machine speed'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/9374ad36-05ca-4ed0-8f48-b86c09fca8ff/outsmarting-ai-defence-at-machine-speed/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Outsmarting AI: Defence at machine speed', 12 Nov, Cybersecurity Summit, Stage 8, names Proofpoint as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/c7298429-0cd2-45ab-9735-ee6295b86835/sumit-dhawan/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Sumit Dhawan, CEO, Proofpoint, Inc.; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.proofpoint.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/9374ad36-05ca-4ed0-8f48-b86c09fca8ff/outsmarting-ai-defence-at-machine-speed/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.proofpoint.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "linux-foundation-aaif",
+   "name": "Linux Foundation (Agentic AI Foundation)",
+   "website": "https://aaif.io/",
+   "what": "The Linux Foundation hosts open-source projects; the speaker is Executive Director of its Agentic AI Foundation (AAIF), a neutral foundation for open standards in agentic AI.",
+   "category": "ai-agents",
+   "country": "United States",
+   "attending": "confirmed: Mazin Gilbert (Executive Director) is listed on the LIS26 session page 'Why AI agents stall at the production line'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Why AI agents stall at the production line', 11 Nov, AI Summit, Stage 13, names Linux Foundation as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/e1bd2291-cb3a-418d-bd45-bfbe54e004ac/mazin-gilbert/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Mazin Gilbert, Executive Director, Linux Foundation; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://aaif.io/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    },
+    {
+     "url": "https://www.linuxfoundation.org/",
+     "read_on": "2026-11-01",
+     "supports": "what the Linux Foundation is, from its own site"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://aaif.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "roost",
+   "name": "ROOST (Robust Open Online Safety Tools)",
+   "website": "https://roost.tools/",
+   "what": "Independent nonprofit building open-source online safety tools as a public good.",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: Anne Bertucio de Hollembeak (Chief Operating Officer) is listed on the LIS26 session page 'The attackers are open source. The defences aren't.'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/913b8fc9-7e6c-4a2f-96a4-df52b6bd2942/the-attackers-are-open-source-the-defences-aren-t/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'The attackers are open source. The defences aren't.', 12 Nov, Cybersecurity Summit, Stage 8, names ROOST as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/3a9f8e0b-7ec5-4dc9-b5ec-5729164cf22f/anne-bertucio-de-hollembeak/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Anne Bertucio de Hollembeak, Chief Operating Officer, Robust Open Online Safety Tools; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://roost.tools/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/913b8fc9-7e6c-4a2f-96a4-df52b6bd2942/the-attackers-are-open-source-the-defences-aren-t/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://roost.tools/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "ncsc-uk",
+   "name": "National Cyber Security Centre (UK)",
+   "website": "https://www.ncsc.gov.uk/",
+   "what": "Part of GCHQ; the UK's national technical authority for cyber security, helping businesses, the public sector and individuals.",
+   "category": "other",
+   "country": "United Kingdom",
+   "attending": "confirmed: Ollie Whitehouse (Chief Technology Officer) is listed on the LIS26 session page 'It takes two to trust: Operationalizing public-private security'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'It takes two to trust: Operationalizing public-private security', 12 Nov, Cybersecurity Summit, Stage 8, names National Cyber Security Centre as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/a0efae1a-d3b5-42f7-9be6-f13e6e1ac3a1/ollie-whitehouse/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Ollie Whitehouse, Chief Technology Officer, National Cyber Security Centre; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.ncsc.gov.uk/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.ncsc.gov.uk/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "testmu-ai",
+   "name": "TestMu AI",
+   "website": "https://www.testmuai.com/",
+   "what": "Agentic QA for web, mobile, chat, voice and IVR, and 'agent assurance' for enterprises; founded as LambdaTest (2017).",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: Mohammad Asad Khan (Co-founder & CEO) is listed on the LIS26 session page 'When AI verifies AI'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/159fe8f9-7900-4f36-93e1-8b794cd11949/when-ai-verifies-ai/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'When AI verifies AI', 11 Nov, Developer Summit, Stage 10, names TestMu AI as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/e5edf282-d6f3-4748-a063-2adab06d7e92/mohammad-asad-khan/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Mohammad Asad Khan, Co-founder & CEO, TestMu AI; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.testmuai.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/159fe8f9-7900-4f36-93e1-8b794cd11949/when-ai-verifies-ai/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.testmuai.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "sageox",
+   "name": "SageOx",
+   "website": "https://sageox.ai/",
+   "what": "Collaboration platform that turns humans and AI agents into teams by giving them one shared context.",
+   "category": "ai-agents",
+   "country": "United States",
+   "attending": "confirmed: Milkana Brace (Co-Founder & CPO) is listed on the LIS26 session page 'Agents don't need prompts, they need context'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/e2d68390-d300-42d0-ac9a-bb730e4f5988/agents-don-t-need-prompts-they-need-context/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Agents don't need prompts, they need context', 11 Nov, Growth Summit, Stage 9, names SageOx as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/c5e41921-a8cd-43e9-a98e-284d83105a39/milkana-brace/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Milkana Brace, Co-Founder & CPO, SageOx; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://sageox.ai/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/e2d68390-d300-42d0-ac9a-bb730e4f5988/agents-don-t-need-prompts-they-need-context/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://sageox.ai/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "neo4j",
+   "name": "Neo4j",
+   "website": "https://neo4j.com/",
+   "what": "Graph data and intelligence platform used for knowledge graphs behind AI systems and agents.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: Philip Rathle (CTO) is listed on the LIS26 session page 'Why your AI agents don’t understand your business – and how to fix it'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/52d3afb3-f921-4a73-9284-4ee6593e11d9/why-your-ai-agents-don-t-understand-your-business-and-how-to-fix-it/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Why your AI agents don’t understand your business – and how to fix it', 11 Nov, Developer Summit, Stage 10, names Neo4j as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/d2cb7264-cbb0-473b-b048-7bf55a624d2b/philip-rathle/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Philip Rathle, CTO, Neo4j; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://neo4j.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/52d3afb3-f921-4a73-9284-4ee6593e11d9/why-your-ai-agents-don-t-understand-your-business-and-how-to-fix-it/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://neo4j.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "directus",
+   "name": "Directus",
+   "website": "https://directus.com/",
+   "what": "Collaborative backend and self-hostable headless CMS over any database, with REST, GraphQL and MCP for AI assistants.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: Rijk van Zanten (Co-Founder & CTO) is listed on the LIS26 session page 'Don’t feed shit to agents'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/858c105c-7c26-4196-bbc1-5a6ef6a35f55/don-t-feed-shit-to-agents/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Don’t feed shit to agents', 11 Nov, Developer Summit, Stage 10, names Directus as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/950c4f32-f865-4cbc-9329-a176ed3ae5f3/rijk-van-zanten/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Rijk van Zanten, Co-Founder & CTO, Directus; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://directus.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/858c105c-7c26-4196-bbc1-5a6ef6a35f55/don-t-feed-shit-to-agents/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://directus.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "rws",
+   "name": "RWS Group",
+   "website": "",
+   "what": "Language and content technology company; its Group CEO speaks on 'Your AI agent just got a passport' (the company site did not return a page to an automated read, so 'what' rests on the session and bio).",
+   "category": "ai-agents",
+   "country": "United Kingdom",
+   "attending": "confirmed: Benjamin Faes (CEO) is listed on the LIS26 session page 'Your AI agent just got a passport'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Your AI agent just got a passport', 10 Nov, Corporate Innovation Summit, Stage 7, names RWS Group as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/535fa865-2d71-4d67-a2d3-94dcd390384d/benjamin-faes/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Benjamin Faes, CEO, RWS Group; country and industry as listed by Web Summit; public bio"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/",
+     "status": 200
+    },
+    "website": {
+     "url": "",
+     "status": 0
+    }
+   }
+  },
+  {
+   "id": "lawvu",
+   "name": "LawVu",
+   "website": "https://lawvu.com/",
+   "what": "AI-powered legal operating system for in-house legal teams: matters, contracts, spend and legal operations.",
+   "category": "grc",
+   "country": "New Zealand",
+   "attending": "confirmed: Sam Kidd (CEO and Co-Founder) is listed on the LIS26 session page 'Who takes the fall for autonomous AI?'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Who takes the fall for autonomous AI?', 10 Nov, Future of Work Summit, Stage 4, names LawVu as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/086ed411-ba16-4da5-bb73-88542c7569ba/sam-kidd/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Sam Kidd, CEO and Co-Founder, LawVu; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://lawvu.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://lawvu.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "factorial",
+   "name": "Factorial",
+   "website": "https://factorial.com/",
+   "what": "Business software connecting HR, finance and IT into one system, marketed as 'the AI for business'.",
+   "category": "other",
+   "country": "Spain",
+   "attending": "confirmed: Jordi Romero (Co-founder & CEO) is listed on the LIS26 session page 'Double agents: Are your employees' AI agents working for or against your business?'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Double agents: Are your employees' AI agents working for or against your business?', 10 Nov, Future of Work Summit, Stage 4, names Factorial as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/c80d8d41-c386-48d6-94e4-47e848d01849/jordi-romero/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Jordi Romero, Co-founder & CEO, Factorial; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://factorial.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://factorial.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "trustscale",
+   "name": "TrustScale",
+   "website": "https://trustscale.ai/",
+   "what": "Configures and measures AI against a customer's own criteria (AI training, evaluation and assurance).",
+   "category": "grc",
+   "country": "United States",
+   "attending": "confirmed: Lawrence Snapp (CEO) is listed on the LIS26 session page 'Whose AI is it anyway?'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/4a442f4c-c3da-4c62-89ad-b65cc22f988b/whose-ai-is-it-anyway/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Whose AI is it anyway?', 10 Nov, Policy Summit, Stage 11, names TrustScale as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/082936d1-864f-4401-8692-2ba1dea5dcd2/lawrence-snapp/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Lawrence Snapp, CEO, TrustScale; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://trustscale.ai/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/4a442f4c-c3da-4c62-89ad-b65cc22f988b/whose-ai-is-it-anyway/",
+     "status": 404
+    },
+    "website": {
+     "url": "https://trustscale.ai/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "qualcomm",
+   "name": "Qualcomm",
+   "website": "https://www.qualcomm.com/",
+   "what": "Semiconductor and computing company (AI, low-power computing, connectivity, edge and data centre).",
+   "category": "platform",
+   "country": "United States",
+   "attending": "confirmed: Dr. Durga Malladi (EVP and GM, Technology Planning, Edge Solutions & Data Center, Qualcomm Technologies, Inc.) is listed on the LIS26 session page 'The AI agent economy'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/7bd19b8b-b399-42d5-b94f-df528a27696a/the-ai-agent-economy/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'The AI agent economy', 11 Nov, AI Summit, Stage 13, names Qualcomm as the speaker's organisation"
+    },
+    {
+     "url": "https://www.qualcomm.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/7bd19b8b-b399-42d5-b94f-df528a27696a/the-ai-agent-economy/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.qualcomm.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "aicep",
+   "name": "AICEP - Portugal Trade & Invest",
+   "website": "https://www.portugalglobal.pt",
+   "what": "Portugal's public trade and investment agency: attracts inward investment and helps Portuguese companies expand abroad; offices in about 50 countries.",
+   "category": "portugal-startup",
+   "country": "Portugal",
+   "attending": "confirmed: Alexandra Ferreira Leite (Foreign Delegate/Trade Comissioner) is listed on the LIS26 session page 'AICEP: Connecting Portuguese startups to global markets [Hosted by AICEP]'",
+   "attending_as": "speaker's company (masterclass host)",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/2f8c4adf-ebea-46d7-b876-1b9bd5a6c1dc/aicep-connecting-portuguese-startups-to-global-markets-hosted-by-aicep/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'AICEP: Connecting Portuguese startups to global markets [Hosted by AICEP]', 11 Nov, Masterclasses, Masterclass 3, names AICEP - Portugal Trade & Invest as the speaker's organisation; the session is hosted by this company"
+    },
+    {
+     "url": "https://websummit.com/appearances/lis26/617cd55a-686f-432b-b05d-169e0aa3d846/aicep---portugal-trade-%26-invest/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: name, country, industry, website and elevator pitch (the 'what' field)"
+    },
+    {
+     "url": "https://www.portugalglobal.pt",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/2f8c4adf-ebea-46d7-b876-1b9bd5a6c1dc/aicep-connecting-portuguese-startups-to-global-markets-hosted-by-aicep/",
+     "status": 404
+    },
+    "website": {
+     "url": "https://www.portugalglobal.pt",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "ledger",
+   "name": "Ledger",
+   "website": "https://www.ledger.com/",
+   "what": "Hardware crypto wallets and security for digital assets; its Chief Human Agency Officer leads AI initiatives so humans stay in control as AI agents act.",
+   "category": "security",
+   "country": "France",
+   "attending": "confirmed: Ian Rogers (Chief Human Agency Officer & Board Member) is listed on the LIS26 session page 'In bots we trust: Defending money against AI-powered fraud'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'In bots we trust: Defending money against AI-powered fraud', 11 Nov, MoneyConf, Stage 8, names Ledger as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/748951a5-8650-45f9-8859-7786c9031f20/ian-rogers/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Ian Rogers, Chief Human Agency Officer & Board Member, Ledger; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.ledger.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:49Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.ledger.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "eversec",
+   "name": "Eversec Technology",
+   "website": "",
+   "what": "Chinese company presented at Web Summit through its co-founder and CEO, described as an expert in AI governance and cybersecurity; the company's own site was not confirmed, so 'what' is not yet sourced beyond that.",
+   "category": "security",
+   "country": "China",
+   "attending": "confirmed: Xiaoguang Chen (Co-founder & CEO) is listed on the LIS26 session page 'Building security for the human-machine era'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/2685d2a1-c9d6-4a49-bd39-342c03e627f4/building-security-for-the-human-machine-era/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Building security for the human-machine era', 10 Nov, Policy Summit, Stage 11, names Eversec Technology as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/f9b5a879-ac24-4b2d-9f40-176f189a5d37/xiaoguang-chen/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Xiaoguang Chen, Co-founder & CEO, Eversec Technology; country and industry as listed by Web Summit; public bio"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/2685d2a1-c9d6-4a49-bd39-342c03e627f4/building-security-for-the-human-machine-era/",
+     "status": 200
+    },
+    "website": {
+     "url": "",
+     "status": 0
+    }
+   }
+  },
+  {
+   "id": "data-protection-commission",
+   "name": "Data Protection Commission (Ireland)",
+   "website": "https://www.dataprotection.ie/",
+   "what": "Ireland's national independent data protection authority, lead EU regulator for many large tech companies.",
+   "category": "grc",
+   "country": "Ireland",
+   "attending": "confirmed: Des Hogan (Commissioner) is listed on the LIS26 session page 'Regulating big tech'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Regulating big tech', 10 Nov, Centre Stage, Centre Stage, names Data Protection Commission as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/eb1e98e2-9bd1-4609-9bf9-8d42d96789f6/des-hogan/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Des Hogan, Commissioner, Data Protection Commission; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.dataprotection.ie/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.dataprotection.ie/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "c4ail",
+   "name": "Centre for AI Leadership (C4AIL)",
+   "website": "https://centreforaileadership.org/",
+   "what": "AI leadership education organisation ('awareness before competency').",
+   "category": "grc",
+   "country": "Singapore",
+   "attending": "confirmed: Georg Zoeller (Co founder) is listed on the LIS26 session page 'Beyond the AI agent hype'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Beyond the AI agent hype', 11 Nov, AI Summit, Stage 13, names Centre for AI Leadership as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/1e52813d-0e2e-47fb-aeb0-28f2c81d0197/georg-zoeller/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Georg Zoeller, Co founder, Centre for AI Leadership (C4AIL); country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://centreforaileadership.org/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://centreforaileadership.org/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "crystal-intelligence",
+   "name": "Crystal Intelligence",
+   "website": "https://crystalintelligence.com/",
+   "what": "Decision intelligence and compliance software for digital assets, turning blockchain data and AI into evidence, including for agentic payments.",
+   "category": "grc",
+   "country": "Netherlands",
+   "attending": "confirmed: Marina Khaustova (COO & Executive Director) is listed on the LIS26 session page 'An AI identity crisis'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'An AI identity crisis', 12 Nov, Cybersecurity Summit, Stage 8, names Crystal Intelligence as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/4ae05bc1-5a7c-43ae-9105-a7c415dcee58/marina-khaustova/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Marina Khaustova, COO & Executive Director, Crystal Intelligence; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://crystalintelligence.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://crystalintelligence.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "conscium",
+   "name": "Conscium",
+   "website": "https://conscium.com/",
+   "what": "AI safety lab and agent verification platform: simulation testing and verification so AI agents can be deployed with more confidence, plus research on conscious AI.",
+   "category": "ai-agents",
+   "country": "United Kingdom",
+   "attending": "confirmed: Calum Chace (Co-founder) is listed on the LIS26 session page 'The biological bottleneck'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'The biological bottleneck', 12 Nov, Cybersecurity Summit, Stage 8, names Conscium as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/70405268-9440-4c81-a239-cc7156a96600/calum-chace/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Calum Chace, Co-founder, Conscium; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://conscium.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://conscium.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "scrut-automation",
+   "name": "Scrut Automation",
+   "website": "https://www.scrut.io/",
+   "what": "AI compliance automation (GRC) platform: evidence collection, risk assessment and vendor risk management with AI agents, for SOC 2, ISO 27001 and 60+ frameworks.",
+   "category": "grc",
+   "country": "United States",
+   "attending": "confirmed: Nicholas Muy (CISO) is listed on the LIS26 session page 'The biological bottleneck'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'The biological bottleneck', 12 Nov, Cybersecurity Summit, Stage 8, names Scrut Automation as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/056fe625-28f3-4f70-bc2a-a429d44c3361/nicholas-muy/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Nicholas Muy, CISO, Scrut Automation; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.scrut.io/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.scrut.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "whitespace",
+   "name": "Whitespace",
+   "website": "",
+   "what": "UK sovereign AI company helping government and regulated sectors deploy trusted, governed AI (from its CEO's Web Summit bio; the company's own site was not identified).",
+   "category": "grc",
+   "country": "United Kingdom",
+   "attending": "confirmed: Paul Jenkinson (Co-founder & CEO) is listed on the LIS26 session page 'Securing the AI frontline'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Securing the AI frontline', 12 Nov, Cybersecurity Summit, Stage 8, names Whitespace as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/3f26a8cf-0526-4759-9d24-c4747ef74665/paul-jenkinson/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Paul Jenkinson, Co-founder & CEO, Whitespace; country and industry as listed by Web Summit; public bio"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+     "status": 200
+    },
+    "website": {
+     "url": "",
+     "status": 0
+    }
+   }
+  },
+  {
+   "id": "exein",
+   "name": "Exein",
+   "website": "https://www.exein.io/",
+   "what": "Runtime security for physical AI, data systems, AI agents, cloud workloads, Linux and Kubernetes.",
+   "category": "security",
+   "country": "Italy",
+   "attending": "confirmed: Giovanni Alberto Falcione (Co-founder & CTO) is listed on the LIS26 session page 'Securing the AI frontline'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Securing the AI frontline', 12 Nov, Cybersecurity Summit, Stage 8, names Exein as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/b12a20bc-910f-48ba-be06-d490d5b63166/giovanni-alberto-falcione/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Giovanni Alberto Falcione, Co-founder & CTO, Exein; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.exein.io/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.exein.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "proton",
+   "name": "Proton",
+   "website": "https://proton.me/",
+   "what": "Privacy-by-default online services, used by over 100 million people per its own site.",
+   "category": "security",
+   "country": "France (the speaker's Web Summit listing; headquarters not sourced)",
+   "attending": "confirmed: Raphael Auphan (Chief Operating Officer) is listed on the LIS26 session page 'Big Tech detox'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Big Tech detox', 12 Nov, Cybersecurity Summit, Stage 8, names Proton as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/5475282a-017b-4bc9-a1e3-01363282c02e/raphael-auphan/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Raphael Auphan, Chief Operating Officer, Proton; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://proton.me/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://proton.me/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "exa",
+   "name": "Exa",
+   "website": "https://exa.ai/",
+   "what": "Search API for AI agents: real-time web data, deep research and structured content from one endpoint.",
+   "category": "ai-agents",
+   "country": "United States",
+   "attending": "confirmed: Will Bryk (Co-founder & CEO) is listed on the LIS26 session page 'Search built for AI agents'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/a433a1bc-b53a-4689-a8f8-c7eb8088148c/search-built-for-ai-agents/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Search built for AI agents', 12 Nov, AI Summit, Stage 13, names Exa as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/6f5ebc37-fbca-490f-bc46-4d94e81ee69e/will-bryk/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Will Bryk, Co-founder & CEO, Exa; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://exa.ai/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/a433a1bc-b53a-4689-a8f8-c7eb8088148c/search-built-for-ai-agents/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://exa.ai/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "make",
+   "name": "Make",
+   "website": "https://www.make.com/",
+   "what": "Visual no-code platform to build, scale and automate AI and agentic workflows.",
+   "category": "ai-agents",
+   "country": "Czechia",
+   "attending": "confirmed: Valery Mezencev (Senior Product Marketing Manager) is listed on the LIS26 session page 'Make AI agents work beyond the demo [Hosted by Make]'",
+   "attending_as": "speaker's company (masterclass host)",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Make AI agents work beyond the demo [Hosted by Make]', 11 Nov, Masterclasses, Masterclass 2, names Make as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/appearances/lis26/d3c491fd-2366-4215-b0c7-ce696b56f590/make/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: Make, Czechia, AI & machine learning, as listed by Web Summit; hosts the session"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/d972f72e-cdba-4110-9e38-8352dfb5a7dc/valery-mezencev/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Valery Mezencev, Senior Product Marketing Manager, Make; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.make.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.make.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "cognizant",
+   "name": "Cognizant",
+   "website": "https://www.cognizant.com/",
+   "what": "Global IT services company positioning itself as an AI builder for enterprises.",
+   "category": "platform",
+   "country": "United States",
+   "attending": "confirmed: Babak Hodjat (Chief AI Officer) is listed on the LIS26 session page 'Be part of history: help build the first pages of the agentic web'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/e6276948-d2f7-4565-95e4-9caccd1a5211/be-part-of-history-help-build-the-first-pages-of-the-agentic-web/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Be part of history: help build the first pages of the agentic web', 12 Nov, Developer Summit, Developer Lounge, names Cognizant as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/f18640a5-8db0-428a-82ad-1abd56cee73e/babak-hodjat/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Babak Hodjat, Chief AI Officer, Cognizant; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.cognizant.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/e6276948-d2f7-4565-95e4-9caccd1a5211/be-part-of-history-help-build-the-first-pages-of-the-agentic-web/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.cognizant.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "open-vsx",
+   "name": "Open VSX (Eclipse Foundation)",
+   "website": "https://open-vsx.org/",
+   "what": "Open VSX Registry: the vendor-neutral open-source registry of editor extensions run under the Eclipse Foundation, used by VS Code-compatible editors.",
+   "category": "devtools",
+   "country": "Canada",
+   "attending": "confirmed: Jamie Ayala (Senior Product Marketing Manager) is listed on the LIS26 session page 'Building AI products without building everything [Hosted by Open VSX]'",
+   "attending_as": "speaker's company (masterclass host)",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Building AI products without building everything [Hosted by Open VSX]', 12 Nov, Masterclasses, Masterclass 3, names Open VSX as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/appearances/lis26/3c2bc007-b2ef-4663-afc4-784153c25194/open-vsx-/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: Open VSX, Canada, AI & machine learning, as listed by Web Summit; hosts the session"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/9666ba6e-6acf-4c01-8516-ac289f49a08c/jamie-ayala/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Jamie Ayala, Senior Product Marketing Manager, Open VSX; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://open-vsx.org/",
+     "read_on": "2026-11-01",
+     "supports": "its own site: the page title 'Open VSX Registry' and Eclipse Foundation page assets (the page has no description)"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/34ee7d85-f385-479a-85af-70f661515a09/thomas-froment/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Thomas Froment, Program Lead, Development Tools, Eclipse Foundation; country and industry as listed by Web Summit; public bio"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://open-vsx.org/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "easydmarc",
+   "name": "EasyDMARC",
+   "website": "https://easydmarc.com/",
+   "what": "Email trust platform: DMARC, email authentication, DNS, sender insights, threat intelligence and deliverability.",
+   "category": "security",
+   "country": "Armenia",
+   "attending": "confirmed: Gerasim Hovhannisyan (Co-founder & CEO) is listed on the LIS26 session page 'The perimeter is dead. So what happens to trust?'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'The perimeter is dead. So what happens to trust?', 12 Nov, Cybersecurity Summit, Stage 8, names EasyDMARC, Inc. as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/178a66d7-101a-4544-8382-6e811f0a1dab/gerasim-hovhannisyan/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Gerasim Hovhannisyan, Co-founder & CEO, EasyDMARC, Inc.; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://easydmarc.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://easydmarc.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "topsec-cloud-solutions",
+   "name": "Topsec Cloud Solutions",
+   "website": "https://www.topsec.com/",
+   "what": "Fully managed email security service against phishing, malware and ransomware.",
+   "category": "security",
+   "country": "Ireland",
+   "attending": "confirmed: Niall Mackey (Managing Director) is listed on the LIS26 session page 'The perimeter is dead. So what happens to trust?'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'The perimeter is dead. So what happens to trust?', 12 Nov, Cybersecurity Summit, Stage 8, names Topsec Cloud Solutions as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/f2639e2b-9a14-4a55-9045-49c25e4afa34/niall-mackey/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Niall Mackey, Managing Director, Topsec Cloud Solutions; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://topsec.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.topsec.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "nordvpn",
+   "name": "NordVPN",
+   "website": "https://nordvpn.com/",
+   "what": "VPN service for online privacy, growing into a broader cybersecurity offering (per its CTO's Web Summit bio).",
+   "category": "security",
+   "country": "Lithuania",
+   "attending": "confirmed: Marijus Briedis (CTO) is listed on the LIS26 session page 'Zombie data: How your data comes back to haunt you'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/2fad9e2b-9933-4f05-a09e-d4dda60587cb/zombie-data-how-your-data-comes-back-to-haunt-you/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Zombie data: How your data comes back to haunt you', 12 Nov, Cybersecurity Summit, Stage 8, names NordVPN as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/ddf3611d-f5b4-4f94-9692-9148ee3a6b0d/marijus-briedis/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Marijus Briedis, CTO, NordVPN; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://nordvpn.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/2fad9e2b-9933-4f05-a09e-d4dda60587cb/zombie-data-how-your-data-comes-back-to-haunt-you/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://nordvpn.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "nisos",
+   "name": "Nisos",
+   "website": "",
+   "what": "Open source intelligence company that unmasks digital threats and the real people behind them (from its CEO's Web Summit bio; its site refused an automated read of robots.txt, so nothing from it was read).",
+   "category": "security",
+   "country": "United States",
+   "attending": "confirmed: Ryan LaSalle (CEO) is listed on the LIS26 session page 'Is there a foreign operative on your payroll?'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/82e616b5-67bb-44f2-b4df-25642654fc0f/is-there-a-foreign-operative-on-your-payroll/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Is there a foreign operative on your payroll?', 12 Nov, Cybersecurity Summit, Stage 8, names Nisos as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/9c97211a-9422-4c16-991b-bb4c702a4fcc/ryan-lasalle/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Ryan LaSalle, CEO, Nisos; country and industry as listed by Web Summit; public bio"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/82e616b5-67bb-44f2-b4df-25642654fc0f/is-there-a-foreign-operative-on-your-payroll/",
+     "status": 200
+    },
+    "website": {
+     "url": "",
+     "status": 0
+    }
+   }
+  },
+  {
+   "id": "the-hacking-games",
+   "name": "The Hacking Games",
+   "website": "https://www.thehackinggames.com/",
+   "what": "Turns gamers' and hackers' talent into cybersecurity careers.",
+   "category": "security",
+   "country": "United Kingdom",
+   "attending": "confirmed: John Madelin (Chief Product Officer) is listed on the LIS26 session page 'The real threat isn’t a nation-state, it’s a teenager.'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'The real threat isn’t a nation-state, it’s a teenager.', 12 Nov, Cybersecurity Summit, Stage 8, names The Hacking Games as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/796b1533-252c-42db-a9ff-badf2bdef3b3/john-madelin/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: John Madelin, Chief Product Officer, The Hacking Games; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://thehackinggames.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.thehackinggames.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "deque",
+   "name": "Deque Systems",
+   "website": "https://www.deque.com/",
+   "what": "Web and mobile accessibility software, services and training.",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: Dylan Barrell (CTO) is listed on the LIS26 session page 'Can you trust your AI agent's accessibility? [Hosted by Deque]'",
+   "attending_as": "speaker's company (masterclass host)",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Can you trust your AI agent's accessibility? [Hosted by Deque]', 12 Nov, Masterclasses, Masterclass 2, names Deque Systems as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/appearances/lis26/49491341-039a-4e77-ba4b-14c22d9b9de7/deque/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: Deque, United States, SaaS, as listed by Web Summit; hosts the session"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/564b144a-17c0-4f84-b1e7-16f55a99bc44/dylan-barrell/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Dylan Barrell, CTO, Deque Systems; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.deque.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.deque.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "legora",
+   "name": "Legora",
+   "website": "https://legora.com/",
+   "what": "Collaborative AI for lawyers: review, research, drafting and advice.",
+   "category": "ai-agents",
+   "country": "Sweden",
+   "attending": "confirmed: Jacob Lauritzen (CTO) is listed on the LIS26 session page 'Beyond the model: Scaling AI agents for professional work'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/fad36198-b0af-4295-bec3-b7671b62e786/beyond-the-model-scaling-ai-agents-for-professional-work/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Beyond the model: Scaling AI agents for professional work', 12 Nov, AI Summit, Stage 13, names Legora as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/f57385bd-ae81-4cc7-980c-dbc45e0f99f3/jacob-lauritzen/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Jacob Lauritzen, CTO, Legora; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://legora.com/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/fad36198-b0af-4295-bec3-b7671b62e786/beyond-the-model-scaling-ai-agents-for-professional-work/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://legora.com/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "polyai",
+   "name": "PolyAI",
+   "website": "https://poly.ai/",
+   "what": "Enterprise voice AI: agentic dialog platform for customer service.",
+   "category": "ai-agents",
+   "country": "United Kingdom",
+   "attending": "confirmed: Nikola Mrkšić (Co-founder & CEO) is listed on the LIS26 session page 'Coaching an AI agent like human talent'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Coaching an AI agent like human talent', 11 Nov, AI Summit, Stage 13, names PolyAI as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/5f1690fc-01f0-4146-a2ac-8286cd7c9698/nikola-mrk%C5%A1i%C4%87/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Nikola Mrkšić, Co-founder & CEO, PolyAI; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://poly.ai/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://poly.ai/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "meo",
+   "name": "MEO",
+   "website": "https://www.meo.pt/",
+   "what": "Portuguese telecom operator: fibre, TV, 5G mobile and security services.",
+   "category": "platform",
+   "country": "Portugal",
+   "attending": "confirmed: José Pedro Nascimento (Chief Technology Officer) is listed on the LIS26 session page 'The autonomous enterprise: Networks, cloud and AI agents'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/5847852b-93e5-4590-b1f8-eb657b7fae4c/the-autonomous-enterprise-networks-cloud-and-ai-agents/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'The autonomous enterprise: Networks, cloud and AI agents', 11 Nov, Corporate Innovation Summit, Stage 7, names MEO as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/bd8a75b9-590f-47fe-bb2e-78ba3190af17/jos%C3%A9-pedro-nascimento/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: José Pedro Nascimento, Chief Technology Officer, MEO; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.meo.pt/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/5847852b-93e5-4590-b1f8-eb657b7fae4c/the-autonomous-enterprise-networks-cloud-and-ai-agents/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.meo.pt/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "defined-ai",
+   "name": "Defined.ai",
+   "website": "https://defined.ai/",
+   "what": "Enterprise AI training data platform: multilingual, multimodal datasets with human-in-the-loop quality and compliance.",
+   "category": "other",
+   "country": "United States",
+   "attending": "confirmed: Daniela Braga (Founder & CEO) is listed on the LIS26 session page 'Give me a brake: Coding without crashing'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Give me a brake: Coding without crashing', 11 Nov, Developer Summit, Stage 10, names Defined.ai as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/e027a639-37eb-4d9b-bf6e-ee641c169830/daniela-braga/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Daniela Braga, Founder & CEO, Defined.ai; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://defined.ai/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://defined.ai/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "prisma",
+   "name": "Prisma",
+   "website": "https://www.prisma.io/",
+   "what": "Agent infrastructure for TypeScript: Prisma ORM, Prisma Postgres and Prisma Compute (app hosting next to the database).",
+   "category": "devtools",
+   "country": "United States",
+   "attending": "confirmed: Søren Bramer Schmidt (CEO) is listed on the LIS26 session page 'Rebuilding open source with AI: Lessons Learned'",
+   "attending_as": "speaker's company",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/b742e8f7-343c-4868-8eac-4b488f1351d9/rebuilding-open-source-with-ai-lessons-learned/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'Rebuilding open source with AI: Lessons Learned', 12 Nov, Developer Summit, Stage 10, names Prisma as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/3f19cc38-1d8a-4c9d-ab2c-b00e61d2c17f/s%C3%B8ren-bramer-schmidt/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Søren Bramer Schmidt, CEO, Prisma; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.prisma.io/",
+     "read_on": "2026-11-01",
+     "supports": "what the company does, from its own site (title and description)"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:50Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/b742e8f7-343c-4868-8eac-4b488f1351d9/rebuilding-open-source-with-ai-lessons-learned/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.prisma.io/",
+     "status": 200
+    }
+   }
+  },
+  {
+   "id": "austriacard",
+   "name": "AustriaCard",
+   "website": "https://www.austriacard.com/",
+   "what": "Austrian card, secure identity and digital solutions group; its GaiaB offer helps organisations deploy secure, governed AI while keeping control of data and infrastructure (per its speaker's Web Summit bio).",
+   "category": "security",
+   "country": "Austria",
+   "attending": "confirmed: Christos Rizos (Group Business Development Director, AI & Digital Solutions) is listed on the LIS26 session page 'AI sovereignty: Data control, governance and predictable AI costs [Hosted by Austriacard Holdings]'",
+   "attending_as": "speaker's company (masterclass host)",
+   "sources": [
+    {
+     "url": "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 session page (conferenceSlug lis26): 'AI sovereignty: Data control, governance and predictable AI costs [Hosted by Austriacard Holdings]', 11 Nov, Masterclasses, Masterclass 3, names AustriaCard as the speaker's organisation"
+    },
+    {
+     "url": "https://websummit.com/appearances/lis26/c6e69b87-de24-4f2b-895c-8e7f00ea209e/austriacard-holdings/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 appearance page: AUSTRIACARD HOLDINGS, Austria, AI & machine learning, as listed by Web Summit; hosts the session"
+    },
+    {
+     "url": "https://websummit.com/attendees/lis26/bba37b95-b83c-4e91-bba2-28ef9cc3e6a2/christos-rizos/",
+     "read_on": "2026-11-01",
+     "supports": "LIS26 attendee page: Christos Rizos, Group Business Development Director, AI & Digital Solutions, AustriaCard; country and industry as listed by Web Summit; public bio"
+    },
+    {
+     "url": "https://www.austriacard.com/",
+     "read_on": "2026-11-01",
+     "supports": "its own site: title only (no description); the AI offer rests on the speaker's Web Summit bio"
+    }
+   ],
+   "recheck": {
+    "checked_at": "2026-11-05T01:51Z",
+    "summit_page": {
+     "url": "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/",
+     "status": 200
+    },
+    "website": {
+     "url": "https://www.austriacard.com/",
+     "status": 200
+    }
+   }
+  }
+ ]
+}

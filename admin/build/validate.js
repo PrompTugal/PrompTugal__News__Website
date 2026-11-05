@@ -7,7 +7,7 @@
 //   4. canonical host: every page declares a canonical and og:url on the host in CNAME
 //   5. the agent surface: every page has its .md twin, is in llms.txt and in sitemap.xml, and ends with an agent block
 //   6. key-leak tripwire: no private key, sgit key, vault-key shape or API token in any file (admin/build/secrets.cjs)
-//   7. public forever: no email address or phone number in content/ or data/
+//   7. public forever: no email address or phone number in content/, data/ or desks/ (desks/ is served as is)
 //   8. articles: front matter complete (title, date, author, summary, license), a title under 12 words (brief 8),
 //      a markdown twin, and a .sig naming a signer
 //   9. div balance, and no em-dash in prose
@@ -114,7 +114,7 @@ for (const f of files) {
 const EMAIL = /[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z0-9.-]*[A-Za-z]{2,}/g
 const PHONE = /(?:\+|00)\d[\d ()-]{8,}\d/g
 const AGENT_NAME = /@web-summit\.[a-z0-9-]+$/   // agent names (newsroom@web-summit.dinis) are names, not mail
-for (const f of files.filter(f => /^(content|data)\//.test(rel(f)) && !secrets.BINARY.test(f))) {
+for (const f of files.filter(f => /^(content|data|desks)\//.test(rel(f)) && !secrets.BINARY.test(f))) {   // desks/ is served as is, so it is checked too
     for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !/^actions@github\.com$/.test(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)
     for (const m of text(f).matchAll(PHONE)) errors.push(`${rel(f)}: a phone-number shape`)
 }

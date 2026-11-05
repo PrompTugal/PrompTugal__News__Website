@@ -21,7 +21,7 @@ All times are Lisbon time, which is the same as UTC in November ([Web Summit sch
 
 ## Coming next {#next}
 
-- **The day-by-day agenda**, with the sessions on AI agents, by Saturday 7 November.
+- **The day-by-day agenda** is live: [every item, with its source](agenda.md).
 - **Getting there, passes and the apps**, as the summit publishes them.
 
-[Back to the latest news](../index.md)
+[The full agenda, day by day](agenda.md) · [Back to the latest news](../index.md)
