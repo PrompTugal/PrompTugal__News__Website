@@ -16,31 +16,31 @@ tags: announcements, the summit, Web Summit, survey
 
 - Web Summit expects more than 70,000 attendees from more than 100 countries in Lisbon, from 9 to 12 November, including 10,000 startups.
 - It lists 800 speakers and 17 content tracks over four days, from AI and cybersecurity to health, energy and sport.
-- Getting into the startup programme is selective: in 2025, over 22,000 startups applied and about 2,700 got in, according to Web Summit.
+- The startup programme is selective: in 2025, over 22,000 startups applied and about 2,700 got in, according to Web Summit.
 - Its first State of the Industry survey, of 1,455 people in its community, found most think AI sharpens their thinking (55%) but adds to their workload (60%).
-- Last year's summit had 71,386 attendees from 157 countries, as reported by Lusa and Brazil's trade agency, ApexBrasil.
+- Last year's summit had 71,386 attendees from 157 countries, as reported by Lusa and ApexBrasil.
 
 ## The story
 
-**The week.** Web Summit Lisbon runs from 9 to 12 November in the MEO Arena and FIL, in Parque das Nações. Web Summit says more than 70,000 attendees from more than 100 countries will come, including 10,000 startups.
+**The week.** Web Summit Lisbon runs from 9 to 12 November in the MEO Arena and FIL, in Parque das Nações.
 
-**The stage.** Web Summit's speakers page lists 800 speakers, "from AI to robotics, from China to Silicon Valley, and beyond". The programme runs across 17 content tracks over four days. Their themes include AI, cybersecurity, money and finance, marketing, the future of work, software development, energy, venture capital, health and sport. Every ticket gives access to all of them, according to Web Summit.
+**The stage.** The speakers page lists 800 speakers, "from AI to robotics, from China to Silicon Valley, and beyond". There are 17 content tracks over four days, from AI, cybersecurity and finance to the future of work, software development, energy, health and sport. Every ticket covers them all, Web Summit says.
 
-**The startups.** Web Summit says its startup programme is selective. In 2025, over 22,000 startups applied and about 2,700 were accepted. Startups go into one of three groups by stage: ALPHA for those with under 1 million dollars in funding, BETA for those that have launched successfully, and GROWTH for those expanding globally, often with more than 3 million dollars raised. Web Summit says it looks for a product relevant to attendees, a strong team, growth potential and a clear plan for the event.
+**The startups.** Of over 22,000 applicants in 2025, about 2,700 were accepted, Web Summit says. There are three groups by stage: ALPHA for those with under 1 million dollars in funding, BETA for those that have launched successfully, and GROWTH for those expanding globally, often with more than 3 million dollars raised. Web Summit says it looks for a product relevant to attendees, a strong team, growth potential and a clear plan for the event.
 
-That sorting helps at the summit. Investors looking for later-stage companies could start with the GROWTH startups. First-time founders will find their peers in the ALPHA group.
+Investors after later-stage companies could start with GROWTH startups. First-time founders will find their peers in the ALPHA group.
 
-**Last year.** In 2025 the summit had 71,386 attendees from 157 countries and 1,857 investors, as reported by Lusa, citing the organisers, and in ApexBrasil's mission rules. ApexBrasil's rules add 869 speakers and 2,725 startups, and say Germany and Brazil brought the two largest delegations.
+**Last year.** In 2025 the summit had 71,386 attendees from 157 countries and 1,857 investors, as reported by Lusa, citing the organisers, and in ApexBrasil's mission rules. ApexBrasil's rules add 869 speakers and 2,725 startups.
 
-**What the community thinks about AI.** Ahead of Lisbon, Web Summit ran its first State of the Industry survey, published on 22 October. It polled 1,455 founders, investors, engineers and creators across its community. Its main findings, as Web Summit reports them:
+**What the community thinks about AI.** Web Summit's first State of the Industry survey, published on 22 October, polled 1,455 founders, investors, engineers and creators across its community. Its findings, as Web Summit reports them:
 
-- 55% say AI strengthens their critical thinking, 19% see no difference and 26% say it weakens it. Engineers are the most sceptical: 37% say it weakens their thinking.
-- 60% say AI has increased their workload, and 20% say it has reduced it.
-- 39% expect headcount in their field to grow over the next two years, and 33% expect it to fall. For entry-level jobs, 42% expect fewer.
-- Most use more than one AI provider: 2.3 on average, and 43% use three or more.
+- 55% say AI strengthens their critical thinking, 19% see no difference and 26% say it weakens it. Engineers are the most sceptical (37% say it weakens it).
+- 60% say AI has increased their workload; 20% say it has reduced it.
+- 39% expect headcount in their field to grow over the next two years; 33% expect it to fall. For entry-level jobs, 42% expect fewer.
+- Most use several AI providers: 2.3 on average; 43% use three or more.
 - Only about 1 in 10 think AI investment will fall sharply.
-- 42% expect smaller teams to produce more, and 9% think teams will grow.
-- 41% of women say emotional intelligence will matter more, compared with 27% of men. 38% of men point to technical depth, compared with 24% of women.
+- 42% expect smaller teams to produce more; 9% think teams will grow.
+- 41% of women say emotional intelligence will matter more (27% of men). 38% of men point to technical depth (24% of women).
 
 Web Summit's SVP of Technology Operations, Nidhi Naithani, said the study shows "people are divided about a future with AI". Naithani noted that engineers, who build these systems, are the group most worried about job security.
 
