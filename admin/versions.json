@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.14",
+    "date": "2026-11-05",
+    "what": "derived data brought up to date (admin/tools/derive.mjs, run by release.sh)",
+    "by": "programme@web-summit.vicky",
+    "from": "1eaff14db"
+  },
+  {
     "version": "v0.1.13",
     "date": "2026-11-05",
     "what": "release.sh derives the data itself, so a desk agent commits only its own desks/<desk>/",
