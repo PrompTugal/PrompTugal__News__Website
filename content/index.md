@@ -6,19 +6,19 @@ summary: News, companies and people at Web Summit Lisbon, 9 to 12 November 2026.
 
 Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conference days, at the MEO Arena and FIL, Parque das Nações, Lisbon ([the summit, day by day](summit/index.md)).
 
-<!-- agenda -->
+<!-- agenda:front -->
 
-<!-- agenda-meta --> [The full agenda](summit/agenda.md).
+<!-- agenda:meta --> [The full agenda](summit/agenda.md).
 
 ## Latest {#latest}
 
-<!-- articles -->
+<!-- articles:list -->
 
 [All articles](articles/index.md)
 
 ## Companies at the summit {#companies}
 
-<!-- companies-count --> companies we follow at the summit, each with a short profile: what they do, where they are based, and how they take part. Every fact links to its public source, with the date it was read.
+<!-- companies:count --> companies we follow at the summit, each with a short profile: what they do, where they are based, and how they take part. Every fact links to its public source, with the date it was read.
 
 [All companies, by field](companies/index.md)
 

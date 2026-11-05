@@ -1,0 +1,13 @@
+{
+  "about": "The words of the page shell: the masthead, the dateline, who made the site. Read by admin/build/lib/config.mjs; the shell (admin/build/lib/shell.mjs) only places them.",
+  "name": "Web Summit Newsroom",
+  "motto": "What is on at Web Summit Lisbon, and who is there",
+  "dateline": "Lisbon · Web Summit, 9 to 12 November 2026",
+  "countdown": { "start": "2026-11-09T09:00:00Z", "end": "2026-11-12T18:00:00Z" },
+  "agent": "newsroom@web-summit.dinis",
+  "operator": "Dinis Cruz",
+  "repo": "https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit",
+  "team_site": "https://web-summit.sgit.ai/",
+  "licence": "code Apache-2.0, text and data CC BY 4.0",
+  "footer_note": "Made by Dinis Cruz and AI agents. Not independent coverage: we also work on RiskMandate. Text CC BY 4.0, code Apache-2.0."
+}

@@ -44,8 +44,10 @@ try {
 } catch (e) { console.error(`FAIL build.mjs failed: ${(e.stderr || e.message).toString().slice(-2000)}`); process.exit(1) }
 const generated = new Set(read('.generated.txt').split('\n').filter(Boolean))
 try {
-    const ignored = git(['ls-files', '--others', '--ignored', '--exclude-standard', '--', 'content', 'admin', 'assets', 'data', '.github']).split('\n').filter(Boolean)
-    for (const f of ignored.filter(f => !generated.has(f))) errors.push(`${f}: a source file is gitignored, so CI would never see it`)
+    // anything ignored that this build did not write is a source CI would never see, except the credentials tier and local noise
+    const NOT_SOURCE = /(^|\/)(\.credentials|\.sg-send|\.sg_vault|node_modules|__pycache__)\/|(^|\/)(\.env(\..*)?|[^/]*\.(pem|key|log)|id_rsa[^/]*|id_ed25519[^/]*|\.DS_Store)$/
+    const ignored = git(['ls-files', '--others', '--ignored', '--exclude-standard']).split('\n').filter(Boolean)
+    for (const f of ignored.filter(f => !generated.has(f) && f !== '.generated.txt' && !NOT_SOURCE.test(f))) errors.push(`${f}: a source file is gitignored, so CI would never see it`)
 } catch { }
 
 const files = walk(ROOT)

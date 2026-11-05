@@ -1,0 +1,152 @@
+{
+  "about": "The site's navigation, footer and llms.txt groups, in order. A page belongs to the first entry whose match fits its path (a match ending in / is a prefix, otherwise the exact path). The sections follow brief 6 (Latest, Companies, The summit, Portugal, Interviews, About): a section joins the nav when its page ships. A new feature adds itself with one line here.",
+  "nav": [
+    {
+      "id": "latest",
+      "label": "Latest",
+      "href": "index.html",
+      "match": [
+        "index.html",
+        "articles/"
+      ]
+    },
+    {
+      "id": "companies",
+      "label": "Companies",
+      "href": "companies/index.html",
+      "match": [
+        "companies/",
+        "people/",
+        "organisations/",
+        "topics/"
+      ]
+    },
+    {
+      "id": "summit",
+      "label": "The summit",
+      "href": "summit/index.html",
+      "match": [
+        "summit/",
+        "events/",
+        "places/"
+      ]
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "href": "about/index.html",
+      "match": [
+        "about/",
+        "brief/",
+        "admin/",
+        "api/"
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "label": "Latest",
+      "href": "index.html"
+    },
+    {
+      "label": "Articles",
+      "href": "articles/index.html"
+    },
+    {
+      "label": "About",
+      "href": "about/index.html"
+    },
+    {
+      "label": "Our disclosure",
+      "href": "about/participant.html"
+    },
+    {
+      "label": "The team's site",
+      "href": "https://web-summit.sgit.ai/"
+    },
+    {
+      "label": "Source code",
+      "href": "https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit"
+    }
+  ],
+  "llms_groups": [
+    {
+      "group": "The newsroom",
+      "match": [
+        "index.html"
+      ]
+    },
+    {
+      "group": "The summit",
+      "match": [
+        "summit/"
+      ]
+    },
+    {
+      "group": "Events",
+      "match": [
+        "events/"
+      ]
+    },
+    {
+      "group": "Places",
+      "match": [
+        "places/"
+      ]
+    },
+    {
+      "group": "Companies",
+      "match": [
+        "companies/"
+      ]
+    },
+    {
+      "group": "Topics",
+      "match": [
+        "topics/"
+      ]
+    },
+    {
+      "group": "People",
+      "match": [
+        "people/"
+      ]
+    },
+    {
+      "group": "Organisations",
+      "match": [
+        "organisations/"
+      ]
+    },
+    {
+      "group": "The brief",
+      "match": [
+        "brief/"
+      ]
+    },
+    {
+      "group": "Articles",
+      "match": [
+        "articles/"
+      ]
+    },
+    {
+      "group": "Data and API",
+      "match": [
+        "api/"
+      ]
+    },
+    {
+      "group": "About",
+      "match": [
+        "about/"
+      ]
+    },
+    {
+      "group": "Admin",
+      "match": [
+        "admin/"
+      ]
+    }
+  ]
+}

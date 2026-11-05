@@ -2,7 +2,7 @@
 title: Articles
 summary: Every article we have published, newest first. Each claim links to its source.
 ---
-<!-- articles -->
+<!-- articles:list -->
 
 ## How we publish {#how}
 

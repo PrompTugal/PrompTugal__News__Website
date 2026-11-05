@@ -2,9 +2,9 @@
 title: Companies at the summit
 summary: The companies we follow at Web Summit Lisbon 2026, by field. Each profile holds public facts only, each with its source and the date it was read.
 ---
-<!-- companies-count --> companies, taken from the team's company map and re-checked at their sources by this newsroom. Each is confirmed for Web Summit Lisbon 2026 on one of the summit's own pages (its partners, startups, speakers or sessions), unless its profile says otherwise. Being listed here is not an endorsement, and not a sign that we have met them.
+<!-- companies:count --> companies, taken from the team's company map and re-checked at their sources by this newsroom. Each is confirmed for Web Summit Lisbon 2026 on one of the summit's own pages (its partners, startups, speakers or sessions), unless its profile says otherwise. Being listed here is not an endorsement, and not a sign that we have met them.
 
-<!-- companies -->
+<!-- companies:list -->
 
 ## How these profiles are made {#how}
 

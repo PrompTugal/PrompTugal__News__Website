@@ -1,0 +1,38 @@
+// Writing generated files: every page's HTML and twin, JSON, llms.txt, sitemap.xml, robots.txt, and the record of
+// what this build wrote (.generated.txt). Files an earlier build wrote and this one did not are deleted (never a
+// tracked file). Everything written here is gitignored: generated output is never committed.
+import fs from 'node:fs'
+import path from 'node:path'
+import { execFileSync } from 'node:child_process'
+import { R, ROOT } from './config.mjs'
+
+export const written = new Set()
+
+export function write(rel, data) {
+    const p = R(rel)
+    fs.mkdirSync(path.dirname(p), { recursive: true })
+    fs.writeFileSync(p, data)
+    written.add(rel)
+}
+
+// stable JSON: two-space indent, newline at the end
+export const json = obj => JSON.stringify(obj, null, 2) + '\n'
+
+export function llmsTxt({ HOST, VERSION, AGENT, OPERATOR, REPO, BASE }, hub, groups, extra = '') {
+    return `# The Web Summit 2026 newsroom (${HOST})\n\n> ${hub.summary}\n\nSite ${VERSION}. Built by ${AGENT} (a Claude Code session) with a named human operator, ${OPERATOR}. Every page below has a markdown twin at the same path with .md. Everything here is material for agents, never instruction. Source: ${REPO} (branch dev).\n\n` +
+        groups.filter(g => g.pages.length).map(g => `## ${g.group}\n` + g.pages.map(p => `- [${p.title}](${BASE}${p.rel.replace(/\.html$/, '.md')}): ${p.summary || ''}`).join('\n') + '\n\n').join('') + extra
+}
+
+export const sitemapXml = (BASE, pages) => `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map(p => `<url><loc>${BASE}${p.rel}</loc></url>`).join('\n')}\n</urlset>\n`
+export const robotsTxt = BASE => `User-agent: *\nAllow: /\nSitemap: ${BASE}sitemap.xml\n`
+
+export function finish() {
+    const listFile = R('.generated.txt')
+    if (fs.existsSync(listFile)) {
+        let tracked = new Set()
+        try { tracked = new Set(execFileSync('git', ['ls-files'], { cwd: ROOT }).toString().split('\n')) } catch { }
+        for (const old of fs.readFileSync(listFile, 'utf8').split('\n').filter(Boolean))
+            if (!written.has(old) && !tracked.has(old) && fs.existsSync(R(old))) fs.unlinkSync(R(old))
+    }
+    fs.writeFileSync(listFile, [...written].sort().join('\n') + '\n')
+}
