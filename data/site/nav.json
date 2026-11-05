@@ -53,6 +53,7 @@
         "portugal/"
       ]
     },
+    { "id": "graph", "label": "The graph", "href": "graph/index.html", "match": ["graph/"] },
     {
       "id": "about",
       "label": "About",
