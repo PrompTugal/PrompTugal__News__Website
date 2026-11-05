@@ -14,37 +14,34 @@ tags: the summit, practical guide, transport, registration
 
 ## In short
 
-- Collect your lanyard and wristband at Lisbon airport or at Pavilhão de Portugal, from Saturday 7 November. Bring your ticket in the Web Summit app and photo ID.
-- The summit is at the MEO Arena and FIL in Parque das Nações, from 9 to 12 November. Oriente metro station, on the red line, is about 300 metres from the arena.
-- Carris runs a dedicated "Shuttle Web Summit" bus between Praça do Comércio and Oriente, from Monday 9 to Thursday 12 November. Without the pass, you pay the normal fare, according to Carris.
-- The Web Summit Transport Pass costs 23 euros for 3 days or 31.50 euros for 5. Metro and CP sell it only at the airport, by the accreditation area. Carris says it is also sold at the Web Summit Welcome Center.
-- Leave bags behind if you can (only small ones are allowed). Bring a bank card (the food stands are cashless) and clothes for rain.
+- Collect your lanyard and wristband at Lisbon airport or Pavilhão de Portugal, from Saturday 7 November. Bring your ticket and photo ID.
+- Web Summit runs from 9 to 12 November at the MEO Arena and FIL. Oriente metro station is about 300 metres from the arena.
+- Carris runs a "Shuttle Web Summit" bus between Praça do Comércio and Oriente, from Monday 9 to Thursday 12 November.
+- The transport pass costs 23 euros for 3 days or 31.50 euros for 5, sold in person only.
+- Leave bags behind if you can. Bring a bank card and clothes for rain.
 
 ## The story
 
-**Pick up your wristband first.** You need a lanyard and a wristband to get into Web Summit, and you collect both at registration. There are two places, according to Web Summit.
+**Pick up your wristband first.** You need a lanyard and a wristband to get in. Collect both at registration, at one of two places, Web Summit says:
 
-The first is Terminal 1 of Lisbon's Humberto Delgado Airport. It is open on Saturday 7 November from 9.30am to 10pm, on Sunday 8 and Monday 9 November from 7.30am to 10pm, and on Tuesday 10 November from 7.30am to 3pm.
+- Terminal 1 of Lisbon's Humberto Delgado Airport: 7 November, 9.30am to 10pm; 8 and 9 November, 7.30am to 10pm; 10 November, 7.30am to 3pm.
+- Pavilhão de Portugal, next to the venue: 7 and 8 November, 12pm to 6pm; 9 November, 12pm to 10pm; 10 and 11 November, 7.30am to 5pm; 12 November, 7.30am to 4.45pm.
 
-The second is Pavilhão de Portugal, next to the venue. It is open on Saturday 7 and Sunday 8 November from 12pm to 6pm, on Monday 9 November from 12pm to 10pm, on Tuesday 10 and Wednesday 11 November from 7.30am to 5pm, and on Thursday 12 November from 7.30am to 4.45pm. Web Summit says these times may change.
+Web Summit says these times may change. Bring photo ID and your ticket, a QR code under "My ticket" in the app. Wear both every day: replacing one costs 100 euros.
 
-Bring your ticket and photo ID. Your ticket is a QR code in the Web Summit app, under "My ticket", and in your confirmation email. Each ticket type has its own queue. Wear the lanyard and wristband every day. Losing one costs 100 euros to replace, according to Web Summit.
+**By metro.** Oriente station is about 300 metres from the MEO Arena and about 600 metres from Pavilhão de Portugal. From Baixa-Chiado, take the green line to Alameda or the blue line to São Sebastião, then the red line to Oriente. From the airport, the red line goes straight there, CP says. Metro de Lisboa plans extra trains on the red line when its fleet allows, and more security in stations, as reported by Executive Digest.
 
-**Getting there by metro.** Web Summit is held in the MEO Arena and FIL, in Parque das Nações. Oriente metro station is about 300 metres from the arena and about 600 metres from Pavilhão de Portugal. From Baixa-Chiado in the centre, take the green line to Alameda or the blue line to São Sebastião, then change to the red line for Oriente. From the airport, the red line goes straight to Oriente, according to CP's guide to the pass.
+**By bus.** Carris runs a "Shuttle Web Summit" from Monday 9 to Thursday 12 November, between Estação Sul e Sueste, at Praça do Comércio, and Estação do Oriente. It runs towards Oriente from 8am to 11am and back from the afternoon until 8pm, according to Carris, as reported by Lusa.
 
-Metro de Lisboa plans extra trains on the red line when its fleet allows, more security in stations, and maps of transport links in eight stations, as reported by Executive Digest.
+**The transport pass.** It gives unlimited travel on Carris buses and trams, the Metro and CP's urban trains (the Sintra, Cascais, Azambuja and Sado lines), for 72 or 120 hours from first use. It costs 23 euros for 3 days or 31.50 euros for 5, card included, and does not cover tourist routes or airport transport services, according to Metro de Lisboa and CP.
 
-**Getting there by bus.** Carris, Lisbon's bus company, runs a dedicated "Shuttle Web Summit" from Monday 9 to Thursday 12 November, according to Carris, as reported by Lusa. It goes between Estação Sul e Sueste, at Praça do Comércio, and Estação do Oriente. Carris says it runs towards Oriente from 8am to 11am and back from the afternoon until 8pm, following the main arrival and departure times. Carris's regular buses also reach Parque das Nações from the airport and the city centre.
+Metro de Lisboa and CP say it is sold only at Lisbon airport, next to the Web Summit accreditation area: 9.30am to 10pm on 7 November, 7.30am to 9.30pm on 8 and 9 November, and 7.30am to 2.30pm on 10 November. Carris, as reported by Lusa on 5 November, says it is also sold from Saturday at the Web Summit Welcome Center. There is no online sale and no one-day pass this year, as reported by Executive Digest.
 
-**The transport pass.** The Web Summit Transport Pass gives unlimited travel on Carris buses and trams, the Metro and CP's urban trains (the Sintra, Cascais, Azambuja and Sado lines). It runs for 72 or 120 hours from the first time you use it. It costs 23 euros for 3 days or 31.50 euros for 5, card included. It does not cover tourist routes or airport transport services. This comes from Metro de Lisboa and CP.
+Without the pass, pay contactless with a bank card on the Metro, and by bank card or QR code on Carris buses, including the shuttle, according to Executive Digest and Carris.
 
-Where to buy it depends on whom you ask. Metro de Lisboa and CP say it is sold only in person, at Lisbon airport, next to the Web Summit accreditation area, from 7 to 10 November. CP lists the hours: 9.30am to 10pm on 7 November, 7.30am to 9.30pm on 8 and 9 November, and 7.30am to 2.30pm on 10 November. Carris, as reported by Lusa on 5 November, says it can be bought in person from Saturday at the Web Summit Welcome Center or at the airport, from Carris's sales teams.
+**What to bring.** Web Summit asks attendees not to bring bags. If you must, nothing bigger than a laptop bag, handbag or backpack is allowed. Bag drops are at the South and North entrances, with security checks. Food and drink stands are cashless, so bring a card. You may bring your own food and a reusable cup. The lost and found is in Pavilion 5 and Cloakroom A, next to Pavilion 1. Lisbon is usually mild in November, but rain is possible and many venues are outdoors. All of this is from Web Summit.
 
-There is no online sale and no one-day pass this year, as reported by Executive Digest. If you travel only on the Metro, you can pay contactless with a bank card. On Carris buses, including the shuttle, you can pay by bank card or QR code at the validators, according to Carris.
-
-**What to bring.** Web Summit asks attendees not to bring bags. If you must, only small bags are allowed inside: nothing bigger than a laptop bag, handbag or backpack. There are two bag drops, at the South and North entrances, and security checks at the entrances. Food and drink stands inside the venue are cashless, so bring a card. You may bring your own food and a reusable cup. There is free wifi throughout the MEO Arena. The lost and found is in Pavilion 5 and Cloakroom A, next to Pavilion 1. Lisbon is usually mild in November, but rain is possible and many venues are outdoors. All of this is from Web Summit.
-
-**Use the app.** The Web Summit app holds your ticket and the venue map. You can build your own schedule by tapping "Going" on a talk, and request meetings with people you have connected with. It has no built-in chat. First time at Web Summit? The schedule lists a first-timers' meetup on Tuesday 10 November, from 11am to 11.55am. It is a good place to start: a room of people who are new to the summit too.
+**Use the app.** Tap "Going" on a talk to build your schedule, and request meetings with people you have connected with. There is no built-in chat. First time? The schedule lists a first-timers' meetup on Tuesday 10 November, from 11am to 11.55am: a room of people who are new to the summit too.
 
 ## What this does not claim
 
