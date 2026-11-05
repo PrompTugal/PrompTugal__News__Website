@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.20",
+    "date": "2026-11-05",
+    "what": "the design brief for Promptugal News, before any logo",
+    "by": "designer@web-summit.vicky",
+    "from": "075f789d9"
+  },
+  {
     "version": "v0.1.19",
     "date": "2026-11-05",
     "what": "each storyline's sources on the candidates page",
