@@ -12,14 +12,14 @@ print OK before every commit.
 |---|---|---|
 | `build.mjs` | the core: loads content, data and features, runs the phases below, writes everything | rarely; a new feature never needs to |
 | `lib/config.mjs` | paths, the version, the host, `data/site/site.json` and `data/site/nav.json`, `TODAY`, `DAY()`, `gitDate()` | rarely |
-| `lib/markdown.mjs` | the markdown subset (headings with ids, paragraphs, lists, tables, quotes, code, links) and front matter | rarely |
-| `lib/shell.mjs` | **the page shell**: the HTML head (with `page-type` and `page-date`), the dateline, the masthead, the nav, the footer, the scripts, the agent block, and the twin's frame. Templates only: no data logic, no file access | the design agent, with `assets/site.css` |
+| `lib/markdown.mjs` | the markdown subset (headings with ids, paragraphs, lists, tables, quotes, code, links), the two layout hooks (below) and front matter | rarely |
+| `lib/shell.mjs` | **the page shell**: the HTML head (with `page-type` and `page-date`), the dateline, the masthead, the nav, the mount points, the footer, the scripts, the agent block, and the twin's frame. Templates only: no data logic, no file access. See "The look" below | the design agent, with `assets/site.css` |
 | `lib/content.mjs` | reads `content/**/*.md` into page objects (drafts skipped) | rarely |
 | `lib/data.mjs` | reads `data/<type>/<slug>/` into the store (`ctx.store`), merging a company's five files | when a new entity type is added |
 | `lib/derive.mjs` | the derivation: desks' files plus hand-edited data into the derived entity files (see `data/README.md`) | when the desks' formats change |
 | `lib/companies-map.mjs` | the team's company map into a company folder (public fields only) | when the team's map changes shape |
 | `lib/graph.mjs` | the whole graph in the ontology's grammar, and its views (company, event, person, industry, summit, people) | when a verb or a view is added |
-| `lib/present.mjs` | markdown helpers for entity pages: links between entities, a source with its date, times | as needed |
+| `lib/present.mjs` | markdown helpers for entity pages: links between entities, a source with its date, times, and `slotLine`/`slotList` (an event as an agenda line) | as needed |
 | `lib/schema.mjs` | a small JSON Schema validator (the subset `data/schemas/` uses) | rarely |
 | `lib/datacheck.mjs` | the data's checks: schemas, references, derived files fresh | when a new file kind is added (one line in `KINDS`) |
 | `lib/writers.mjs`, `lib/versions.mjs`, `lib/features.mjs`, `lib/ids.mjs` | writing files, the release history, loading features, slugs and name keys | rarely |
@@ -50,9 +50,9 @@ A feature is one file, `admin/build/features/<name>.mjs`, plus, if it needs them
 Every export is optional except that a feature must export at least one of them.
 
 ```js
-export const order = 50                 // where it runs; ties by file name. content 10, articles 20, agenda 25,
-                                         // companies 30, events 40, people 50, organisations 55, topics 60,
-                                         // places 65, api 80, versions 90, 404 99
+export const order = 50                 // where it runs; ties by file name. content 10, articles 20, front 22,
+                                         // agenda 25, companies 30, events 40, people 50, organisations 55,
+                                         // topics 60, places 65, portugal 68, live 70, api 80, versions 90, 404 99
 export const name = 'search'            // default: the file name
 
 export function pages(ctx) { return [page, ...] }        // may be async
@@ -80,6 +80,7 @@ export function validate(gate) { return ['problem', ...] }               // run 
 | `crumbs` | no | `[[href or null, text], ...]` |
 | `assets` | no | `{ css: [], js: [] }` for this page only |
 | `listed` | no | `false` keeps it out of `llms.txt` and `sitemap.xml` (the 404) |
+| `layout` | no | `wide` uses the grid's full width instead of the reading column (prose pages: front matter `layout: wide`); company, organisation, topic and place pages and the front page are wide already |
 | `toc`, `twinMd`, `postHtml`, `absolute` | no | a table of contents of its own; a different markdown for the twin; a function over the rendered body HTML; absolute links (the 404) |
 
 Every page gets, from the core, without asking: the shell, a markdown twin, the version badge, the agent block, a
@@ -121,3 +122,67 @@ The entity features (`companies`, `events`, `people`, `organisations`, `topics`,
 by the ontology (`data/ontology.json`, `types[].page`), and the `api` feature checks that every entity with a page
 has it, and has its API file. The navigators on a page are paths in the graph: a company's "Related companies"
 says, on each line, the event or the field that joins the two.
+
+## The look: the shell, the stylesheet, the layout hooks
+
+The design is `design/README.md` (newsroom-designer@web-summit.dinis, 5 November 2026): the direction, the tokens, every
+component with the HTML it expects. On the site it is:
+
+| File | What it holds |
+|---|---|
+| `lib/shell.mjs` | the dateline (place, date, countdown, edition, utility links), the nameplate (our tile mark, the name, the motto, "Powered by" with RiskMandate's mark), the sections, the three mount points, the footer columns, the independence line |
+| `data/site/site.json` | the words: `name` (**the one place the name is set**), `motto`, `place`, `countdown` (with `day1`), `endorse` (label, name, link, mark), `promise`, `independence`, `disclosure`, `ears` (the front page's two boxes), `footer_note` |
+| `data/site/nav.json` | `nav` (the sections), `utility` (Admin: shown in the dateline and the footer only once its page exists), `footer` (links with a `column`), `llms_groups` |
+| `assets/site.css`, `assets/tokens.css`, `assets/fonts.css` | the stylesheet (one file), the tokens (light and dark), the three faces (Newsreader, IBM Plex Mono, IBM Plex Sans, all SIL OFL, in `assets/fonts/`) |
+| `assets/brand/` | `mark.svg` (our tile, the favicon) and `riskmandate-mark.svg` (RiskMandate's mark, copied unchanged from riskmandate.ai; never redrawn or recoloured) |
+
+The shell gives `<body>` the classes `type-<page-type>` and, on the front page, `page-front`, so a page type can be
+styled without new markup.
+
+### Layout hooks (markdown in, components out)
+
+The markdown has no HTML, so a feature asks for a component with two hooks. Both are removed from the markdown twin
+(`stripHooks` in `lib/markdown.mjs`), so the twin stays plain text.
+
+- `::: name other` on its own line opens `<div class="name other">`; a line `:::` closes it. They nest.
+- `{.name .other}` on its own line gives the next block (list, table, paragraph, quote, code) those classes.
+
+| Hook | Use | Where it is used now |
+|---|---|---|
+| `{.agenda}` before a list of `- **14:00** [Title](event) *Tue 10 Nov, until 14:20 · Place · extra* \`Our pick\`` | an agenda: a time column, the title, a meta line, tags. `slotLine(ctx, rel, event, { day, place, extra, tags })` and `slotList(lines)` in `lib/present.mjs` write it | front page, events, every entity page's sessions |
+| `{.agenda .cols}` | the same, in two columns on a wide screen | front page, around the summit |
+| `{.facts}` before a `\| \| \|` table | a record: labels in small capitals, values in the serif | company, person, organisation, place, topic, event |
+| `{.rows}`, `{.rows .links-cols}` | a list as hairline rows; in 2 or 3 columns for long lists of names | people, organisations, places, companies by field |
+| `{.sources}` | the sources list: each line with a ↗, in the sans | every "Where this comes from" |
+| `::: navigator n3` (or `n2`) with `::: nv` around each section | the navigator: sections side by side, each a small-capitals label and rows | company (at the summit, people, related), event (speakers, companies) |
+| `::: cols-8-4` or `::: cols-2` with `::: col` around each column | two columns, main and rail or equal | events (official, other), Portugal, the front page's Portugal band |
+| `::: front-top` with `::: a-lead`, `::: a-agenda`, `::: a-latest` | the front page's top: lead, now and next, latest (phone order: lead, now and next, latest) | `content/index.md` |
+| `::: seg-links` around a paragraph of links | a segmented bar (days) | events |
+| `::: staffbox` around a heading and a `{.staff}` table | the editors' masthead box | `content/about/index.md` |
+| `{.lens}` before a numbered list | the reach, mandate, gap questions | front page, company pages |
+| `{.kicker}`, `{.lead-hed}`, `{.dek}`, `{.meta-line}`, `{.fig-thumb}` (on a code block) | a lead story | `front:lead` |
+| `{.field-list}`, `{.chip-list}`, `{.more-line}`, `{.mini-h}`, `{.rm-lockup}` | field tiles with counts, chips, a "more →" link, a small label, RiskMandate's mark beside its name | front page, Portugal, RiskMandate |
+
+### Mount points (for the features that run in the browser)
+
+The shell renders these on every page, empty. A feature fills them from its own `assets/<name>/` script (listed in its
+`assets.js`, which the shell loads on every page with `<script defer>`; `assets.css` the same with `<link>`):
+
+```html
+<!-- in the top bar, right of the sections (inside nav.site .row) -->
+<div class="tools" id="nr-tools"></div>
+<!-- under the sections; assets/live/live.js fills it from 9 to 12 November only -->
+<div id="nr-live" data-start="2026-11-09T09:00:00Z" data-end="2026-11-12T18:00:00Z"></div>
+<!-- after the page frame, before the footer: the right-hand pane root -->
+<div id="nr-pane" hidden></div>
+```
+
+What goes in them, already styled in `assets/site.css` (the HTML for each is in `design/README.md`, section 5):
+
+- **`#nr-tools`**: each feature appends its own button, in this order: search `<a class="tool" href="…search/" aria-label="Search">svg<span class="tool-label">Search</span><kbd>/</kbd></a>`; the credit `<a class="tool meter" href="…account/">£5.00<span class="meter-label">&nbsp;credit</span></a>` (`.is-low` below £1); Ask `<a class="tool ask" href="#chat">svg Ask</a>` (hidden on a phone: the chat feature also appends `<a class="ask-fab" href="#chat">svg Ask</a>` to `<body>`); Vault `<a class="tool" href="…">Vault</a>`. The container is hidden while empty.
+- **`#nr-pane`**: the chat puts `<aside class="chat" aria-label="Ask the newsroom">…</aside>` in it, removes `hidden`, and adds `chat-open` to `<body>` (from 1000px the page makes room for the 400px pane; below 768px it is a full-screen sheet). The vault pane is `<aside class="pane">…</aside>` in the same root. One pane at a time.
+- **`#nr-live`**: filled by `features/live.mjs` + `assets/live/live.js` from `api/v1/live/agenda.json`; `?now=2026-11-10T11:52` on any page shows a given moment.
+- **Search**: `.search` (the box), `.search-pop` with `.sp-group`/`.sp-item` (the instant dropdown), `.results`/`.res` (the results page).
+- **The graph explorer**: `.gx` with `.gx-bar`, `.gx-canvas`, `.gx-side`; graph marks `.g-edge`, `.g-node` with `.n-co`, `.n-person`, `.n-session`, `.n-topic`, `.n-place`; `.dim` for what is not selected.
+- **Billing and the vault**: `.balance-card`, `.ledger`, `.meter-line` (one line on every article), `.pane` with `.pane-tabs`, `.pane-body`, `.steps`, `.kv`.
+- **Admin views**: `<dl class="stats">` (figure tiles), `{.dense}` tables, `.chip.ok`, `.chip.warn`, `.chip.fail` for states; the page joins the nav through the `utility` line in `data/site/nav.json` (`admin/index.html`), which shows "Admin" in the dateline and the footer once that page exists.

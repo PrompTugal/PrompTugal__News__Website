@@ -1,7 +1,7 @@
 // Events (brief 6): every event in data/events/, the official programme (organiser web-summit) and the others
 // (side events, Portugal Tech Week, conferences elsewhere in Portugal), clearly apart, by day; a page per event with
 // its people, its organisations and companies, its place, its source.
-import { refLink, sourceLine, timeText, dataLinks, plural, day10 } from '../lib/present.mjs'
+import { refLink, sourceLine, timeText, dataLinks, plural, day10, slotLine, slotList, shortDay } from '../lib/present.mjs'
 import { companiesOfEvent } from '../lib/graph.mjs'
 export const order = 40
 
@@ -10,12 +10,11 @@ const sortKey = e => `${e.date} ${e.time || '00:00'} ${e.title}`
 export const ORGANISER = { 'web-summit': 'Web Summit (the official programme)', other: 'Other organisers' }
 
 function line(ctx, rel, e) {
-    const cell = ctx.md.cell
-    return `- **${timeText(e)}** · ${refLink(ctx, rel, `event:${e.id}`)}${e.place ? ` · ${refLink(ctx, rel, e.place)}` : e.where ? ` · ${cell(e.where)}` : ''} · ${KIND[e.kind] || e.kind}${e.our_pick ? ' · our pick' : ''}`
+    return slotLine(ctx, rel, e, { day: false, extra: [KIND[e.kind] || e.kind] })
 }
 function byDay(ctx, rel, list) {
     const days = [...new Set(list.map(e => e.date))].sort()
-    return days.map(d => `### ${ctx.DAY(d)} {#${list[0].organiser}-${d}}\n\n` + list.filter(e => e.date === d).sort((a, b) => sortKey(a).localeCompare(sortKey(b))).map(e => line(ctx, rel, e)).join('\n')).join('\n\n')
+    return days.map(d => { const on = list.filter(e => e.date === d).sort((a, b) => sortKey(a).localeCompare(sortKey(b))); return `### ${ctx.DAY(d)} {#${list[0].organiser}-${d}}\n\n${slotList(on.map(e => line(ctx, rel, e)))}` }).join('\n\n')
 }
 
 function eventPage(ctx, e) {
@@ -42,13 +41,15 @@ function eventPage(ctx, e) {
     const children = g.inOf(eid, 'part_of').map(x => ctx.store.get(x.from)).filter(Boolean).sort((a, b) => sortKey(a).localeCompare(sortKey(b)))
     const kids = !children.length ? '' : `## What it includes {#includes}\n\n` + (children.length > 30
         ? `${plural(children.length, 'event')} in our programme are part of it: [every one, by day](${ctx.link(rel, 'events/index.html')}#${children[0].organiser}).`
-        : children.map(c => `- **${ctx.DAY(c.date)}, ${timeText(c)}** · ${refLink(ctx, rel, `event:${c.id}`)}`).join('\n')) + '\n\n'
-    const md = `| | |\n|---|---|\n${rows.map(([k, v]) => `| **${k}** | ${v} |`).join('\n')}\n\n` +
+        : slotList(children.map(c => slotLine(ctx, rel, c)))) + '\n\n'
+    const md = `{.facts}\n| | |\n|---|---|\n${rows.map(([k, v]) => `| **${k}** | ${v} |`).join('\n')}\n\n` +
         (e.note ? `${cell(e.note)}\n\n` : '') +
-        (speakers.length ? `## Speakers {#speakers}\n\nAs the event's page lists them: name, role, organisation.\n\n${speakers.join('\n')}\n\n` : '') +
-        (comps.length || hostsOrg.length ? `## Companies and organisations {#companies}\n\n${[...comps, ...hostsOrg].join('\n')}\n\n` : '') +
+        (speakers.length || comps.length || hostsOrg.length ? '::: navigator n2\n' : '') +
+        (speakers.length ? `::: nv\n## Speakers {#speakers}\n\nAs the event's page lists them: name, role, organisation.\n\n${speakers.join('\n')}\n:::\n\n` : '') +
+        (comps.length || hostsOrg.length ? `::: nv\n## Companies and organisations {#companies}\n\n${[...comps, ...hostsOrg].join('\n')}\n:::\n\n` : '') +
+        (speakers.length || comps.length || hostsOrg.length ? ':::\n\n' : '') +
         kids +
-        `## Where this comes from {#sources}\n\n- ${sourceLine(e.session_url || e.source_url, e.read_at, e.read_by)}${e.session_url && e.source_url !== e.session_url ? `, found on ${sourceLine(e.source_url)}` : ''}.${e.via ? ` Via ${cell(e.via)}.` : ''}\n\nTimes are Lisbon time (UTC in November) and may change: check the source before you go.\n\n` +
+        `## Where this comes from {#sources}\n\n{.sources}\n- ${sourceLine(e.session_url || e.source_url, e.read_at, e.read_by)}${e.session_url && e.source_url !== e.session_url ? `, found on ${sourceLine(e.source_url)}` : ''}.${e.via ? ` Via ${cell(e.via)}.` : ''}\n\nTimes are Lisbon time (UTC in November) and may change: check the source before you go.\n\n` +
         `${dataLinks(ctx, rel, 'events', e.id)}\n\n[All events](../index.md)`
     return {
         src: `data/events/${e.id}/event.json`, rel, type: 'event', date: day10(e.read_at),
@@ -64,11 +65,12 @@ export function pages(ctx) {
     const official = evs.filter(e => e.organiser === 'web-summit' && e.part_of), other = evs.filter(e => e.organiser === 'other')
     const rel = 'events/index.html'
     const index = {
-        src: 'data/events/', rel, type: 'site', date: [...evs.map(e => day10(e.read_at))].sort().pop(),
+        src: 'data/events/', rel, type: 'site', layout: 'wide', date: [...evs.map(e => day10(e.read_at))].sort().pop(),
         title: 'Events', summary: `Every event we know of in the week of Web Summit Lisbon 2026: the summit's official programme (${official.length}) and, apart from it, the events others run (${other.length}). By day, each with its source.`,
         md: `Two lists, kept apart: what [Web Summit](${ctx.link(rel, 'organisations/web-summit/index.html')}) itself runs, and what others run around it. Times are Lisbon time (UTC in November) and may change; each event's page links to where it was read. For the summit at a glance, see [the summit](${ctx.link(rel, 'summit/index.html')}); for one table of everything, [the agenda](${ctx.link(rel, 'summit/agenda.html')}).\n\n` +
-            `## The official programme {#web-summit}\n\nOpening Night, Centre Stage and the stage sessions, PITCH, press conferences, Night Summit and registration: ${plural(official.length, 'event')}, all part of ${refLink(ctx, rel, 'event:web-summit-lisbon-2026')}. The full schedule has hundreds of sessions a day: see [websummit.com/schedule](https://websummit.com/schedule/).\n\n${byDay(ctx, rel, official)}\n\n` +
-            `## Other events {#other}\n\nSide events (some listed on the summit's schedule but run by others), Portugal Tech Week, and conferences elsewhere in Portugal: ${plural(other.length, 'event')}.\n\n${byDay(ctx, rel, other)}`,
+            `::: seg-links\n${[...new Set(evs.filter(e => e.organiser === 'other' || e.part_of).map(e => e.date))].sort().map(d => `[${shortDay(d).replace(/ Nov$/, '')} · ${evs.filter(e => e.date === d && (e.organiser === 'other' || e.part_of)).length}](#${official.some(e => e.date === d) ? 'web-summit' : 'other'}-${d})`).join(' ')}\n:::\n\n` +
+            `::: cols-8-4\n::: col day-sec\n## The official programme {#web-summit}\n\nOpening Night, Centre Stage and the stage sessions, PITCH, press conferences, Night Summit and registration: ${plural(official.length, 'event')}, all part of ${refLink(ctx, rel, 'event:web-summit-lisbon-2026')}. The full schedule has hundreds of sessions a day: see [websummit.com/schedule](https://websummit.com/schedule/).\n\n${byDay(ctx, rel, official)}\n:::\n` +
+            `::: col day-sec\n## Other events {#other}\n\nSide events (some listed on the summit's schedule but run by others), Portugal Tech Week, and conferences elsewhere in Portugal: ${plural(other.length, 'event')}. Not run by Web Summit.\n\n${byDay(ctx, rel, other)}\n:::\n:::`,
     }
     return [index, ...evs.map(e => eventPage(ctx, e))]
 }

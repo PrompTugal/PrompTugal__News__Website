@@ -1,13 +1,41 @@
 {
-  "about": "The words of the page shell: the masthead, the dateline, who made the site. Read by admin/build/lib/config.mjs; the shell (admin/build/lib/shell.mjs) only places them.",
-  "name": "Web Summit Newsroom",
-  "motto": "What is on at Web Summit Lisbon, and who is there",
+  "about": "The words of the page shell: the name and its lines, the dateline, the ears, the footer, who made the site. Read by admin/build/lib/config.mjs; the shell (admin/build/lib/shell.mjs) only places them. The name is a working name (Dinis Cruz, 5 November 2026): change it here and nowhere else.",
+  "name": "The Lisbon Wire",
+  "motto": "The independent newsroom at Web Summit Lisbon 2026",
+  "place": "Lisbon",
   "dateline": "Lisbon · Web Summit, 9 to 12 November 2026",
-  "countdown": { "start": "2026-11-09T09:00:00Z", "end": "2026-11-12T18:00:00Z" },
+  "countdown": {
+    "start": "2026-11-09T09:00:00Z",
+    "end": "2026-11-12T18:00:00Z",
+    "day1": "2026-11-10"
+  },
+  "endorse": {
+    "label": "Powered by",
+    "name": "RiskMandate",
+    "href": "riskmandate/index.html",
+    "mark": "assets/brand/riskmandate-mark.svg",
+    "mark_dark": "assets/brand/riskmandate-mark-knockout.svg"
+  },
+  "promise": "Every fact sourced and dated, for the people who are there.",
+  "independence": "Independent. Not affiliated with Web Summit.",
+  "disclosure": "The team that makes this newsroom also works on RiskMandate, so we are independent of Web Summit, not of RiskMandate.",
+  "disclosure_href": "about/participant.html",
+  "ears": [
+    {
+      "title": "Every fact sourced",
+      "text": "Each one links to a public page, with the date we read it."
+    },
+    {
+      "title": "Independent",
+      "text": "Not affiliated with Web Summit. The same team works on RiskMandate:",
+      "href": "about/participant.html",
+      "link": "our disclosure"
+    }
+  ],
   "agent": "newsroom@web-summit.dinis",
   "operator": "Dinis Cruz",
   "repo": "https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit",
   "team_site": "https://web-summit.sgit.ai/",
   "licence": "code Apache-2.0, text and data CC BY 4.0",
-  "footer_note": "Made by Dinis Cruz and AI agents. Not independent coverage: we also work on RiskMandate. Text CC BY 4.0, code Apache-2.0."
+  "footer_note": "Edited by Dinis Cruz, Indi Gupte and Vicky, made with AI agents. Web Summit is named only to say where we report from. Text CC BY 4.0, code Apache-2.0."
 }

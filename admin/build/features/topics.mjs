@@ -1,6 +1,6 @@
 // Topics: the newsroom's taxonomy (data/topics/): the fields the companies are filed under, the broader themes, the
 // beats; the summit tracks bridged to each. /topics/ is the industry map in text.
-import { refLink, timeText, dataLinks, plural } from '../lib/present.mjs'
+import { refLink, timeText, dataLinks, plural, slotLine, slotList } from '../lib/present.mjs'
 export const order = 60
 
 const KIND = { field: 'Fields', theme: 'Themes', beat: 'Beats' }
@@ -25,9 +25,9 @@ function topicPage(ctx, t) {
     const stories = g.inOf(tid, 'about').filter(e => e.from.startsWith('story:')).map(e => ctx.store.get(e.from)).filter(Boolean)
     const articles = g.inOf(tid, 'about').filter(e => e.from.startsWith('article:'))
     const md = `${cell(t.description)}\n\n` +
-        (broader.length || narrower.length ? `| | |\n|---|---|\n${broader.length ? `| **Inside** | ${broader.map(b => refLink(ctx, rel, b)).join(', ')} |\n` : ''}${narrower.length ? `| **Holds** | ${narrower.map(b => refLink(ctx, rel, b)).join(', ')} |\n` : ''}\n` : '') +
-        (comps.length ? `## Companies filed under it {#companies}\n\n${plural(comps.length, 'company', 'companies')}, by country: ${countries(ctx, comps)}.\n\n${comps.map(c => `- ${refLink(ctx, rel, `company:${c.id}`)} (${cell(c.country)}). ${cell(c.what)}`).join('\n')}\n\n` : '') +
-        (tracks.length ? `## At the summit {#summit}\n\nThe summit's own track${tracks.length > 1 ? 's' : ''} ${tracks.map(x => `"${cell(g.node.get(x).label)}"`).join(', ')} ${tracks.length > 1 ? 'are' : 'is'} bridged to this topic (our judgement, declared in \`data/topics/${t.id}/topic.json\`). The sessions in our programme on ${tracks.length > 1 ? 'them' : 'it'}:\n\n${evs.map(e => `- **${ctx.DAY(e.date)}, ${timeText(e)}** · ${refLink(ctx, rel, `event:${e.id}`)}`).join('\n') || '- None in our programme yet.'}\n\n` : '') +
+        (broader.length || narrower.length ? `{.facts}\n| | |\n|---|---|\n${broader.length ? `| **Inside** | ${broader.map(b => refLink(ctx, rel, b)).join(', ')} |\n` : ''}${narrower.length ? `| **Holds** | ${narrower.map(b => refLink(ctx, rel, b)).join(', ')} |\n` : ''}\n` : '') +
+        (comps.length ? `## Companies filed under it {#companies}\n\n${plural(comps.length, 'company', 'companies')}, by country: ${countries(ctx, comps)}.\n\n{.rows}\n${comps.map(c => `- ${refLink(ctx, rel, `company:${c.id}`)} (${cell(c.country)}). ${cell(c.what)}`).join('\n')}\n\n` : '') +
+        (tracks.length ? `## At the summit {#summit}\n\nThe summit's own track${tracks.length > 1 ? 's' : ''} ${tracks.map(x => `"${cell(g.node.get(x).label)}"`).join(', ')} ${tracks.length > 1 ? 'are' : 'is'} bridged to this topic (our judgement, declared in \`data/topics/${t.id}/topic.json\`). The sessions in our programme on ${tracks.length > 1 ? 'them' : 'it'}:\n\n${slotList(evs.map(e => slotLine(ctx, rel, e))) || '- None in our programme yet.'}\n\n` : '') +
         (articles.length ? `## Our articles on it {#articles}\n\n${articles.map(a => `- ${refLink(ctx, rel, a.from)}`).join('\n')}\n\n` : '') +
         (stories.length ? `## Story candidates on this beat {#stories}\n\nWhat the curator proposes to write next; candidates, not articles. Their angles stay in the desk's files.\n\n${stories.map(s => `- ${s.id}: ${cell(s.title)} (${s.desk_files.map(f => `[${f.split('/').pop()}](${ctx.link(rel, f)})`).join(', ')})`).join('\n')}\n\n` : '') +
         `${dataLinks(ctx, rel, 'topics', t.id, false)} The industry graph, all fields and companies: [graph/industry.json](${ctx.link(rel, 'api/v1/graph/industry.json')}).\n\n[All topics](../index.md)`

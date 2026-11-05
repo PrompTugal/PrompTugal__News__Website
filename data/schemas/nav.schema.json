@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/nav.schema.json",
-  "title": "Navigation, footer and llms.txt groups (data/site/nav.json)",
+  "title": "Navigation, utility links, footer and llms.txt groups (data/site/nav.json)",
   "type": "object",
   "required": [
     "nav",
@@ -65,6 +65,10 @@
           "href": {
             "type": "string",
             "minLength": 1
+          },
+          "column": {
+            "type": "string",
+            "minLength": 1
           }
         },
         "additionalProperties": false
@@ -80,6 +84,39 @@
         ],
         "properties": {
           "group": {
+            "type": "string",
+            "minLength": 1
+          },
+          "match": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "utility": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "href",
+          "match"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/slug"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "href": {
             "type": "string",
             "minLength": 1
           },

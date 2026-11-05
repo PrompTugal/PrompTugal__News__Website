@@ -23,3 +23,17 @@ export const dataLinks = (ctx, fromRel, type, slug, hasGraph = true) =>
     `The same, as data: [${type}/${slug}.json](${ctx.link(fromRel, `api/v1/${type}/${slug}.json`)})` +
     (hasGraph ? ` and its graph, [graph/${type}/${slug}.json](${ctx.link(fromRel, `api/v1/graph/${type}/${slug}.json`)})` : '') +
     ` (how to read them: [the data, as JSON](${ctx.link(fromRel, 'api/index.html')})).`
+
+// The schedule line every page uses for an event, in the design's slot shape (design/README.md, "agenda"):
+//   - **14:00** [Title](event) *Tue 10 Nov, until 14:20 · [Centre Stage](place) · extra* `Our pick`
+// It reads as plain text in the twin; with {.agenda} before the list, the page draws a time column.
+const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+export const shortDay = d => { const t = new Date(d + 'T12:00:00Z'); return `${DOW[t.getUTCDay()]} ${t.getUTCDate()} ${MON[t.getUTCMonth()]}` }
+export function slotLine(ctx, fromRel, e, { day = true, place = true, extra = [], tags = [] } = {}) {
+    const [a, b] = (e.time || '').split('-')
+    const meta = [day ? shortDay(e.date) + (b ? `, until ${b}` : '') : (b ? `until ${b}` : ''), place ? (e.place ? refLink(ctx, fromRel, e.place) : e.where ? cell(e.where) : '') : '', ...extra].filter(Boolean)
+    const t = [...tags, ...(e.our_pick ? ['Our pick'] : [])]
+    return `- **${a || 'All day'}** ${refLink(ctx, fromRel, `event:${e.id}`)}${meta.length ? ` *${meta.join(' · ')}*` : ''}${t.map(x => ` \`${x}\``).join('')}`
+}
+// a list of schedule lines with the class hook that draws them as an agenda
+export const slotList = lines => lines.length ? `{.agenda}\n${lines.join('\n')}` : ''

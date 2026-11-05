@@ -8,13 +8,16 @@ summary: Who runs this newsroom, how we make it, and the limits we work within.
 
 **The independent newsroom at Web Summit Lisbon 2026.** We are not affiliated with Web Summit and do not speak for it: we name it only to say where we report from. We are [powered by RiskMandate](../riskmandate/index.md), which the same team works on, so we are not independent of RiskMandate, and we say so on every page.
 
+::: staffbox
 ## The editors {#editors}
 
+{.staff}
 | Editor | Responsible for |
 |---|---|
 | **Dinis Cruz**, editor-in-chief | What the newsroom is for, and the final word on what it says. He approves every major release. |
 | **Indi Gupte**, editor | What we publish and how it reads. |
 | **Vicky**, editor | Research and the programme: what we know, and when things happen. |
+:::
 
 ## Who does the work {#who}
 

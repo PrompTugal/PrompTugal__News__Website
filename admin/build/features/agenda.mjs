@@ -1,6 +1,7 @@
 // The agenda (brief 6): built from the programme desk's desks/programme/agenda.json (through data/events/) at every release.
 // Fills <!-- agenda:front --> (today and the days to 12 November, at most six highlights a day),
 // <!-- agenda:full --> (every item, every day) and <!-- agenda:meta --> (where it comes from).
+import { slotLine, slotList } from '../lib/present.mjs'
 export const order = 25
 
 let A
@@ -17,21 +18,23 @@ const load = ctx => A || (A = (() => {
 
 const KIND = { registration: 'Registration', summit: 'Summit', announcement: 'Press conference', pitch: 'PITCH', 'night-summit': 'Night Summit', 'side-event': 'Side event', 'team-pick': 'Our pick' }
 const linkOf = i => i.session_url || i.source_url
+// the events page's day anchor for a day's list: the official programme's, unless the day has only other events
+const i0 = all => all.some(i => i.organiser === 'web-summit') ? 'web-summit' : 'other'
 const rank = i => i.kind === 'registration' || /opening night/i.test(i.what) ? 0
     : i.kind === 'announcement' || (i.kind === 'pitch' && /final|winner/i.test(i.what)) ? 1
     : i.kind === 'summit' ? 2 : i.kind === 'side-event' ? 3 : i.kind === 'night-summit' ? 4 : 5
 
 export const fill = {
     'agenda:front': (page, ctx) => {
-        const { days, itemsOn, TODAY, DAY } = load(ctx), cell = ctx.md.cell
-        return days.filter(d => d >= TODAY).map(d => {
+        // today and the next two days with something on, at most six highlights a day, drawn as the design's agenda
+        const { days, itemsOn, TODAY, DAY } = load(ctx)
+        return days.filter(d => d >= TODAY).slice(0, 3).map(d => {
             const all = itemsOn(d)
             const top = [...all].sort((a, b) => rank(a) - rank(b) || (a.time || '').localeCompare(b.time || '')).slice(0, 6)
                 .sort((a, b) => (a.time || '').localeCompare(b.time || ''))
             const more = all.length - top.length
-            return `### ${d === TODAY ? 'Today, ' : ''}${DAY(d)}\n\n` +
-                top.map(i => `- **${i.time ? i.time.replace('-', ' to ') : 'All day'}** · [${cell(i.what)}](${ctx.link(page.rel, `events/${i.id}/index.html`)})${i.where ? ` · ${cell(i.where)}` : ''}`).join('\n') +
-                (more > 0 ? `\n- [${more} more on ${DAY(d).split(' ')[0]}](${ctx.link(page.rel, 'summit/agenda.html')}#d-${d})` : '')
+            return `### ${d === TODAY ? 'Today, ' : ''}${DAY(d)}\n\n` + slotList(top.map(i => slotLine(ctx, page.rel, i, { day: false, extra: [KIND[i.kind] || i.kind] }))) +
+                (more > 0 ? `\n\n{.more-line}\n[${more} more on ${DAY(d).split(' ')[0]}](${ctx.link(page.rel, 'events/index.html')}#${i0(all)}-${d})` : '')
         }).join('\n\n') || `The summit is over. [The full agenda](${ctx.link(page.rel, 'summit/agenda.html')}) stays as it was.`
     },
     'agenda:full': (page, ctx) => {

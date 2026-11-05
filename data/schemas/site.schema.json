@@ -13,7 +13,14 @@
     "repo",
     "team_site",
     "licence",
-    "footer_note"
+    "footer_note",
+    "place",
+    "endorse",
+    "promise",
+    "independence",
+    "disclosure",
+    "disclosure_href",
+    "ears"
   ],
   "properties": {
     "$schema": {
@@ -47,6 +54,9 @@
         },
         "end": {
           "type": "string"
+        },
+        "day1": {
+          "type": "string"
         }
       }
     },
@@ -70,6 +80,87 @@
     "footer_note": {
       "type": "string",
       "minLength": 1
+    },
+    "place": {
+      "type": "string",
+      "minLength": 1
+    },
+    "promise": {
+      "type": "string",
+      "minLength": 1
+    },
+    "independence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disclosure": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disclosure_href": {
+      "type": "string",
+      "minLength": 1
+    },
+    "endorse": {
+      "type": "object",
+      "required": [
+        "label",
+        "name",
+        "href",
+        "mark"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "href": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mark": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mark_dark": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "ears": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "text"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1
+          },
+          "link": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false

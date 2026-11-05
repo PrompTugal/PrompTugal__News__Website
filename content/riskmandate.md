@@ -14,6 +14,9 @@ Because of that link, **this is not independent of RiskMandate**, and we say so 
 
 ## RiskMandate in its own words {#own-words}
 
+{.rm-lockup}
+RiskMandate
+
 Everything in this section is quoted from [riskmandate.ai/llms.txt](https://riskmandate.ai/llms.txt) (site v1.40.3, read 5 November 2026). We make no claim for RiskMandate beyond what it says itself.
 
 > "The insurability layer for agentic AI." "Make your agents insurable."

@@ -1,4 +1,5 @@
 ---
+layout: wide
 title: Companies at the summit
 summary: The companies we follow at Web Summit Lisbon 2026, by field. Each profile holds public facts only, each with its source and the date it was read.
 ---

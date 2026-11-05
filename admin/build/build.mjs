@@ -52,7 +52,7 @@ const groupOf = rel => (NAV.llms_groups.find(g => matches(rel, g.match)) || { gr
 for (const p of pages) {
     p.title = p.title || p.meta?.title || 'Untitled'
     p.summary = p.summary ?? p.meta?.summary ?? ''
-    p.section = p.section ?? (NAV.nav.find(n => matches(p.rel, n.match)) || {}).id ?? ''
+    p.section = p.section ?? ([...NAV.nav, ...(NAV.utility || [])].find(n => matches(p.rel, n.match)) || {}).id ?? ''
     p.group = p.group || groupOf(p.rel)
     p.type = p.type || 'site'
     p.date = p.date || p.meta?.date || (p.src && gitDate(p.src)) || config.TODAY
@@ -71,6 +71,8 @@ for (const p of pages) p.md = p.md.replace(/<!-- ([a-z0-9:-]+) -->/g, (m, name) 
 const site = {
     ...config, SITE: config.SITE,
     nav: NAV.nav, footer: NAV.footer,
+    // a utility link (Admin) shows only once its page exists, so the link never breaks before its feature lands
+    utility: (NAV.utility || []).filter(u => /^https?:/.test(u.href) || seen.has(u.href)),
     assets: { css: features.flatMap(f => f.assets?.css || []), js: features.flatMap(f => f.assets?.js || []) },
 }
 for (const p of pages) {

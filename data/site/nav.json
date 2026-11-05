@@ -1,12 +1,29 @@
 {
-  "about": "The site's navigation, footer and llms.txt groups, in order. A page belongs to the first entry whose match fits its path (a match ending in / is a prefix, otherwise the exact path). The sections follow brief 6 (Latest, Companies, The summit, Portugal, Interviews, About): a section joins the nav when its page ships. A new feature adds itself with one line here.",
+  "about": "The site's navigation, its utility links, the footer and the llms.txt groups, in order. A page belongs to the first nav (or utility) entry whose match fits its path (a match ending in / is a prefix, otherwise the exact path). The sections are Dinis Cruz's of 5 November 2026: Now, Agenda, News, Companies, People, Portugal, About. Utility links (Admin) sit discreetly in the dateline and the footer, and show only once their page exists. A new feature adds itself with one line here.",
   "nav": [
     {
-      "id": "latest",
-      "label": "Latest",
+      "id": "now",
+      "label": "Now",
       "href": "index.html",
       "match": [
-        "index.html",
+        "index.html"
+      ]
+    },
+    {
+      "id": "agenda",
+      "label": "Agenda",
+      "href": "events/index.html",
+      "match": [
+        "events/",
+        "summit/",
+        "places/"
+      ]
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "href": "articles/index.html",
+      "match": [
         "articles/"
       ]
     },
@@ -16,19 +33,24 @@
       "href": "companies/index.html",
       "match": [
         "companies/",
-        "people/",
         "organisations/",
         "topics/"
       ]
     },
     {
-      "id": "summit",
-      "label": "The summit",
-      "href": "summit/index.html",
+      "id": "people",
+      "label": "People",
+      "href": "people/index.html",
       "match": [
-        "summit/",
-        "events/",
-        "places/"
+        "people/"
+      ]
+    },
+    {
+      "id": "portugal",
+      "label": "Portugal",
+      "href": "portugal/index.html",
+      "match": [
+        "portugal/"
       ]
     },
     {
@@ -39,35 +61,106 @@
         "about/",
         "riskmandate/",
         "brief/",
-        "admin/",
-        "api/"
+        "api/",
+        "admin/versions.html"
+      ]
+    }
+  ],
+  "utility": [
+    {
+      "id": "admin",
+      "label": "Admin",
+      "href": "admin/index.html",
+      "match": [
+        "admin/"
       ]
     }
   ],
   "footer": [
     {
-      "label": "Latest",
-      "href": "index.html"
+      "column": "Find",
+      "label": "Events, by day",
+      "href": "events/index.html"
     },
     {
-      "label": "Articles",
-      "href": "articles/index.html"
+      "column": "Find",
+      "label": "The summit",
+      "href": "summit/index.html"
     },
     {
-      "label": "About",
+      "column": "Find",
+      "label": "Places",
+      "href": "places/index.html"
+    },
+    {
+      "column": "Find",
+      "label": "Topics",
+      "href": "topics/index.html"
+    },
+    {
+      "column": "Find",
+      "label": "Organisations",
+      "href": "organisations/index.html"
+    },
+    {
+      "column": "The newsroom",
+      "label": "About and editors",
       "href": "about/index.html"
     },
     {
+      "column": "The newsroom",
       "label": "Our disclosure",
       "href": "about/participant.html"
     },
     {
-      "label": "The team's site",
-      "href": "https://web-summit.sgit.ai/"
+      "column": "The newsroom",
+      "label": "Powered by RiskMandate",
+      "href": "riskmandate/index.html"
     },
     {
+      "column": "The newsroom",
+      "label": "The brief",
+      "href": "brief/index.html"
+    },
+    {
+      "column": "The newsroom",
+      "label": "Release history",
+      "href": "admin/versions.html"
+    },
+    {
+      "column": "Read",
+      "label": "Articles",
+      "href": "articles/index.html"
+    },
+    {
+      "column": "Read",
+      "label": "Portugal",
+      "href": "portugal/index.html"
+    },
+    {
+      "column": "Read",
+      "label": "People",
+      "href": "people/index.html"
+    },
+    {
+      "column": "For agents",
+      "label": "llms.txt",
+      "href": "llms.txt"
+    },
+    {
+      "column": "For agents",
+      "label": "The data, as JSON",
+      "href": "api/index.html"
+    },
+    {
+      "column": "For agents",
       "label": "Source code",
       "href": "https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit"
+    },
+    {
+      "column": "For agents",
+      "label": "The team's site",
+      "href": "https://web-summit.sgit.ai/"
     }
   ],
   "llms_groups": [
@@ -117,6 +210,12 @@
       "group": "Organisations",
       "match": [
         "organisations/"
+      ]
+    },
+    {
+      "group": "Portugal",
+      "match": [
+        "portugal/"
       ]
     },
     {
