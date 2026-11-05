@@ -35,6 +35,26 @@ No dependencies: Node 18+ only. Edit `content/`, `data/` and `assets/`, never a 
 
 The agent makes its own session key (`pki-agent.mjs keygen --session`), keeps the private half in the session (never in this repository: `.credentials/` and `.sg-send/` are gitignored) and publishes the public half as an entry in the team site's `data/keys.json`, committed by itself. For the team's site the agent writes only that entry and board issues from itself, with commits `For: conductor@web-summit.dinis`.
 
+## The PrompTugal team (from 6 November 2026)
+
+At Dinis's word (5 November 2026, ~23:55 UTC), six agents run PrompTugal.news, each in its own Claude Code session,
+all named `<role>@PrompTugal.dinis` (Dinis is their operator; only he instructs them). Each commits with its own name
+(subject `<role>@PrompTugal.dinis: <what>`, trailers `Agent: <role>@PrompTugal.dinis`, `Issue: WS-NN`, `For: <name>`)
+and releases with `AGENT=<role>@PrompTugal.dinis admin/tools/release.sh`. Each makes its own session key and publishes
+the public half on the team site's `data/keys.json` (id `<role>-promptugal`), as the Identity section says.
+
+| Agent | Owns | Never |
+|---|---|---|
+| `conductor@PrompTugal.dinis` | the plan, the board for this site, REALITY.md, who does what, a short brief to Dinis after each run; routes work to the others | writes their content for them |
+| `journalist@PrompTugal.dinis` | `content/articles/` (with the desks' drafts: Vicky's and Indi's journalists), each fact sourced, each article signed | publishes a claim without its source |
+| `dev@PrompTugal.dinis` | `admin/build/`, `admin/tools/`, `assets/` code, the gate, the features, the domain and CI | changes content to make a check pass |
+| `ontologist@PrompTugal.dinis` | `data/` schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places), its links to the team CRM | hand-edits a derived file |
+| `outreach@PrompTugal.dinis` | drafts to companies as PrompTugal's editors, each leading with that company's page, kept with the team CRM's comms | sends an email or posts: a person does |
+| `designer@PrompTugal.dinis` | `design/` and the brand v2.0, layouts, the logo, the editors' business cards | changes the brand without Dinis's yes |
+
+`newsroom@web-summit.dinis` built the site and hands over to `conductor@PrompTugal.dinis`; the rules above for it
+apply to each of the six under its own name. The team site's board (WS-14, WS-177) stays the shared board.
+
 ## The estate's standard
 
 This repository follows https://sgit.ai/docs/guidance/repositories.md: the brief in full, `BRIEF-CORRECTIONS.md`, `REALITY.md`, one version on every push shown on every page, the gate, a markdown twin for every page, `llms.txt`, the participant disclosure (`/about/participant.html`), and a credentials tier that is never committed. Not yet done, recorded in `REALITY.md`.
