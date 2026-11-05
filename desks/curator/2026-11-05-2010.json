@@ -1,0 +1,124 @@
+{
+  "desk": "curator",
+  "agent": "curator@web-summit.vicky",
+  "run": "2026-11-05T20:10Z (connections pass)",
+  "kind": "connections",
+  "why": "At Dinis's direction from the stand-up of 5 November, relayed by Vicky: connect startups and companies at Web Summit so each gets the most out of the week; story candidates about connections, from public sources only, marked 'connections'.",
+  "for": "the journalist (Indi's side), via newsroom@web-summit.dinis",
+  "covers": {
+    "captures": "no new captures: this pass reads across the 30 captures already in vault 41j3e9s9 (to commit 74c72dd8aaf8) and mapped in the earlier files of desks/curator/",
+    "ids": "capture ids as in the earlier maps (r1255-*, r1546-*, v-*)"
+  },
+  "rules": "Every fact here is from a capture. The connections themselves are the curator's suggestions: no capture says any of these organisations plan to meet or work together, and no story may say so. Public material only; organisations, not people; no private information about anyone; no contact details.",
+  "story_candidates": [
+    {
+      "id": "S14",
+      "kind": "connections",
+      "title": "Granter and Intuitivo: two PITCH winners, one backer, new markets",
+      "beat": "portugal",
+      "connection": "startups and the investor that backs them",
+      "angle": "Two Portuguese past PITCH winners, Granter (AI for grants) and Intuitivo (edtech), each raised a round with the Impact Innovation Fund to grow abroad: Granter into Spain, Germany and Italy, Intuitivo into Brazil. A story about what a shared backer and the PITCH stage can do, and a reason for this year's PITCH startups to meet them.",
+      "rests_on": [
+        "r1255-15",
+        "r1255-19"
+      ],
+      "note": "Granter's capture says '3xP Global's Impact Innovation Fund'; Intuitivo's says 'the Impact Innovation Fund'. That it is the same fund is read from the name: the fact-checker should confirm. No capture says either company is at Web Summit 2026.",
+      "words": 10
+    },
+    {
+      "id": "S15",
+      "kind": "connections",
+      "title": "From Técnico's stand to the lineup: following robotics at Web Summit",
+      "beat": "summit",
+      "connection": "companies in the same field, on the floor and on stage",
+      "angle": "Robotics runs through the week: Unitree and Galbot are on the speakers lineup (Galbot's G1 robot listed as a speaker), and Técnico shows a Unitree quadruped and humanoid, the Lola robot and six spin-offs in Pavilion 2. A guide that links the stage to the stands, for anyone following robotics.",
+      "rests_on": [
+        "v-websummit-speakers",
+        "v-tecnico-web-summit-2026"
+      ],
+      "note": "Builds on S12; it can be written as part of it. No capture says Unitree itself exhibits; Técnico's capture says its Unitree robots come from the Técnico Venture Lab.",
+      "words": 11
+    },
+    {
+      "id": "S16",
+      "kind": "connections",
+      "title": "Europe's AI and funding help, a walk from Portugal's AI startups",
+      "beat": "europe",
+      "connection": "startups and the programmes that back their field",
+      "angle": "In Pavilion 4 the Commission offers masterclasses on building AI in Europe, data spaces for SMEs and free access to EuroHPC supercomputers, and HaDEA explains EU funding for technological sovereignty on 11 November at 15.30. Portuguese AI companies in our research, Granter and Técnico's spin-off Opsivision.ai, are the kind of startups these programmes are for.",
+      "rests_on": [
+        "r1546-01",
+        "r1255-12",
+        "r1255-15",
+        "v-tecnico-web-summit-2026"
+      ],
+      "note": "The link is the curator's suggestion: no capture says Granter or Opsivision.ai will use or attend these programmes. Opsivision.ai is called AI only by its name in Técnico's list; Técnico's six spin-offs are a gap for the researcher.",
+      "words": 11
+    },
+    {
+      "id": "S17",
+      "kind": "connections",
+      "title": "11 November for startups going abroad: three events to know",
+      "beat": "europe",
+      "connection": "Portuguese startups and the European partners they could work with",
+      "angle": "For Portuguese startups growing into Europe, Wednesday 11 November brings HaDEA's EU funding session (15.30, Pavilion 4), the Dutch delegation's networking event, and European Tech Champions, Italy and Portugal, on raising capital and scaling (18.30, Unicorn Stage, Beato). Granter, expanding into Italy, Spain and Germany, and Seamoretech, planning Spain in 2027, show why these rooms matter.",
+      "rests_on": [
+        "r1255-12",
+        "r1546-02",
+        "v-aicep-italy-portugal-tech-champions",
+        "r1255-15",
+        "r1255-16"
+      ],
+      "note": "Registration for the Dutch delegation is closed (its capture); say so. Name the events and the companies' own plans only; never suggest a company is going to an event.",
+      "words": 10
+    },
+    {
+      "id": "S18",
+      "kind": "connections",
+      "title": "Tuesday 10 November: Europe on Centre Stage, universities pitching, first-timers meeting",
+      "beat": "summit",
+      "connection": "organisations on the same day",
+      "angle": "One day, three ways in: the Commission's fireside chat on Europe's tech sovereignty on Centre Stage (11:05), a meetup for first-time attendees (11am), and UniVerse, where nine Portuguese universities bring a pitch competition and a demo area; ULisboa's and Técnico's stands open the same day.",
+      "rests_on": [
+        "r1546-01",
+        "r1255-08",
+        "v-ulisboa-web-summit-2026",
+        "v-tecnico-web-summit-2026"
+      ],
+      "note": "The fireside chat (11:05) and the first-timers' meetup (11am) overlap: say so, so readers can choose. UniVerse's time is not in the capture.",
+      "words": 11
+    },
+    {
+      "id": "S19",
+      "kind": "connections",
+      "title": "Brazil comes to Lisbon as Intuitivo heads to Brazil",
+      "beat": "announcements",
+      "connection": "companies with markets in common",
+      "angle": "About 200 Brazilian companies, with a pavilion in the MEO Arena and investor meetings from 10 to 12 November, arrive as Porto's Intuitivo raises money to expand into Brazil: Lisbon as a bridge both ways between Portugal and Brazil.",
+      "rests_on": [
+        "v-apexbrasil-delegation",
+        "r1255-19"
+      ],
+      "note": "A pairing by the curator: no capture links the two. No capture says Intuitivo is at Web Summit 2026.",
+      "words": 9
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "candidate": "S14",
+      "what": "Whether Granter's and Intuitivo's Impact Innovation Fund are the same fund (r1255-15 names 3xP Global; r1255-19 does not)."
+    },
+    {
+      "candidate": "all",
+      "what": "Each connection pairs facts from separate captures; check each fact at its own source and keep the pairing worded as the newsroom's suggestion."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "Which Portuguese startups exhibit or pitch at Web Summit 2026, by field (Road 2 Web Summit's cohort, the Portugal stand, the PITCH list), from public pages: the main input for more connections.",
+    "Public lists of startups by track or field (AI, robotics, cleantech, health, edtech), and investors or partners publicly named as attending.",
+    "What Técnico's six spin-offs do (Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew, Testwaves), from their own pages.",
+    "Speakers' companies by day and stage, from the public schedule, so same-stage and same-day connections can be found.",
+    "Whether Granter, Intuitivo or Seamoretech are at the summit this year."
+  ],
+  "urgent": null
+}

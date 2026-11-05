@@ -4,12 +4,20 @@ Kept by curator@web-summit.vicky, Vicky's curator desk for the Web Summit 2026 n
 
 **About the sources.** Each source is a public page the researcher captured in the research vault (41j3e9s9), with the publisher and the day the researcher read it. The curator copies them from the researcher's captures and does not open or check them; that is the fact-checker's job, on Indi's side. Only pages that are public and open without a login are listed. A storyline with nothing behind it yet says "no source yet".
 
-Last updated: Thursday 5 November 2026, 19:55 UTC.
+**Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
+
+Last updated: Thursday 5 November 2026, 20:15 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S19 | Brazil comes to Lisbon as Intuitivo heads to Brazil | Connections: announcements | 5 Nov |
+| S18 | Tuesday 10 November: Europe on Centre Stage, universities pitching, first-timers meeting | Connections: the summit | 5 Nov |
+| S17 | 11 November for startups going abroad: three events to know | Connections: Europe | 5 Nov |
+| S16 | Europe's AI and funding help, a walk from Portugal's AI startups | Connections: Europe | 5 Nov |
+| S15 | From Técnico's stand to the lineup: following robotics at Web Summit | Connections: the summit | 5 Nov |
+| S14 | Granter and Intuitivo: two PITCH winners, one backer, new markets | Connections: Portugal | 5 Nov |
 | S13 | Web Summit's ten Lisbon years: 2.5 billion euros, says EY | Portugal | 5 Nov |
 | S12 | A robot among 800 speakers: Web Summit 2026 turns to robotics | The summit | 5 Nov |
 | S11 | Italy and Portugal meet in Beato on how European tech scales | Europe | 5 Nov |
@@ -22,6 +30,67 @@ Last updated: Thursday 5 November 2026, 19:55 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S19: Brazil comes to Lisbon as Intuitivo heads to Brazil
+
+Connections: announcements, added 5 Nov. About 200 Brazilian companies arrive as a Porto startup expands into Brazil: Lisbon as a bridge both ways.
+
+Sources:
+
+- Executive Digest (SAPO), read 4 November 2026: <https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/>
+- Portugal Startup News, read 4 November 2026: <https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/>
+
+## S18: Tuesday 10 November: Europe on Centre Stage, universities pitching, first-timers meeting
+
+Connections: the summit, added 5 Nov. One day, three ways in, with a note that two of them overlap.
+
+Sources:
+
+- European Commission (Shaping Europe's digital future), read 4 November 2026: <https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate>
+- Web Summit, read 4 November 2026: <https://websummit.com/schedule/>
+- Universidade de Lisboa (ULisboa), read 5 November 2026: <https://www.ulisboa.pt/en/noticia/ulisboas-innovation-and-entrepreneurship-ecosystem-web-summit-2026>
+- Instituto Superior Técnico, Universidade de Lisboa, read 4 November 2026: <https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/>
+
+## S17: 11 November for startups going abroad: three events to know
+
+Connections: Europe, added 5 Nov. EU funding, the Dutch delegation and an Italy and Portugal event on scaling, for Portuguese startups growing into Europe.
+
+Sources:
+
+- European Health and Digital Executive Agency (HaDEA), read 4 November 2026: <https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en>
+- Netherlands Enterprise Agency (RVO), read 4 November 2026: <https://english.rvo.nl/events/web-summit-2026-lisbon>
+- AICEP Portugal Global, read 5 November 2026: <https://www.portugalglobal.pt/en/news/2026/novembro/lisbon-event-explores-italian-portuguese-tech-growth/>
+- Portugal Startup News, read 4 November 2026: <https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/>
+- Portugal Startup News, read 4 November 2026: <https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/>
+
+## S16: Europe's AI and funding help, a walk from Portugal's AI startups
+
+Connections: Europe, added 5 Nov. The Commission's AI, data and supercomputer help in Pavilion 4, and the Portuguese AI startups it is made for.
+
+Sources:
+
+- European Commission (Shaping Europe's digital future), read 4 November 2026: <https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate>
+- European Health and Digital Executive Agency (HaDEA), read 4 November 2026: <https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en>
+- Portugal Startup News, read 4 November 2026: <https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/>
+- Instituto Superior Técnico, Universidade de Lisboa, read 4 November 2026: <https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/>
+
+## S15: From Técnico's stand to the lineup: following robotics at Web Summit
+
+Connections: the summit, added 5 Nov. Robotics on stage and on the floor, linked for anyone following the field. Builds on S12.
+
+Sources:
+
+- Web Summit, read 5 November 2026: <https://websummit.com/speakers/>
+- Instituto Superior Técnico, Universidade de Lisboa, read 4 November 2026: <https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/>
+
+## S14: Granter and Intuitivo: two PITCH winners, one backer, new markets
+
+Connections: Portugal, added 5 Nov. Two past PITCH winners backed by the same fund, both growing abroad.
+
+Sources:
+
+- Portugal Startup News, read 4 November 2026: <https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/>
+- Portugal Startup News, read 4 November 2026: <https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/>
 
 ## S13: Web Summit's ten Lisbon years: 2.5 billion euros, says EY
 
