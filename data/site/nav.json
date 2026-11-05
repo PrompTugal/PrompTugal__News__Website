@@ -112,6 +112,7 @@
       "label": "About and editors",
       "href": "about/index.html"
     },
+    { "label": "Control centre", "href": "admin/index.html" },
     {
       "column": "The newsroom",
       "label": "Our disclosure",

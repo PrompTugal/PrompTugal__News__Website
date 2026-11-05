@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/admin-run.schema.json",
+  "title": "One line of the runs ledger (data/admin/runs/<day>.jsonl): one commit of this repository, written by admin/tools/runs.mjs",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sha",
+    "short",
+    "when",
+    "landed",
+    "kind",
+    "agent",
+    "by",
+    "what",
+    "issues",
+    "for",
+    "parents",
+    "files",
+    "add",
+    "del",
+    "areas",
+    "paths"
+  ],
+  "properties": {
+    "sha": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "short": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{7}$"
+    },
+    "when": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "landed": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "kind": {
+      "enum": [
+        "work",
+        "merge",
+        "release",
+        "initial"
+      ]
+    },
+    "agent": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z0-9.-]+@web-summit\\.[a-z0-9-]+$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "what": {
+      "type": "string",
+      "minLength": 1
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^WS-\\d+$"
+      }
+    },
+    "for": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "parents": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{7}$"
+      }
+    },
+    "release": {
+      "type": "string",
+      "pattern": "^v\\d+\\.\\d+\\.\\d+$"
+    },
+    "pushed_by": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z0-9.-]+@web-summit\\.[a-z0-9-]+$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "carries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{7}$"
+      }
+    },
+    "files": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "add": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "del": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "areas": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "files",
+          "add",
+          "del"
+        ],
+        "properties": {
+          "files": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "add": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "del": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "paths": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

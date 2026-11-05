@@ -128,3 +128,19 @@ Built from this folder at every release, never committed: `/api/v1/index.json` l
 `/api/index.html` on the site. The graph shape is `{id, title, version, grammar, counts, nodes, edges}`, a node
 `{id, type, label, source, ...}`, an edge `{id, from, to, verb, source, read}`; `whole.cytoscape.json` carries the same
 graph as Cytoscape elements (`data.family` is the type, `data.kind` the verb), the shape graphs.sgit.ai's viewers load.
+
+## data/admin/: the control centre's record
+
+`/admin/` (the feature `admin`) is built from four things here, none of them generated at build:
+
+- `runs/<YYYY-MM-DD>.jsonl`: the runs ledger, one line per commit of this repository (when, agent, what, issues, for,
+  the release that carried it, files and lines by area), appended only by `node admin/tools/runs.mjs` from the full git
+  history; re-running adds only new commits. Schema `admin-run`, checked by the feature's own gate check.
+- `agents.json`: every agent working on the newsroom (who fired it up, when and how we know, kind, desk, status, where
+  its work lands, its key ids on the team's keys page). Hand-kept; schema `admin-agents`. An agent that commits must be
+  in it, or the gate fails.
+- `plan.json`: the plan at a glance, the build order's states, what waits on a person, the run's schedule and the lab's
+  ideas. Hand-kept; schema `admin-plan`.
+- `team-site.json`: the desks' run lines, the newsroom's board issues and the keys' public facts, from the team's site by
+  `node admin/tools/desks-snapshot.mjs --team <clone>`. Never edited by hand; schema `admin-team-site`.
+

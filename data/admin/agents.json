@@ -1,0 +1,410 @@
+{
+  "about": "Every agent working on this newsroom, hand-kept by the conductor (newsroom@web-summit.dinis) and its builders; schema data/schemas/admin-agents.schema.json. A run of an agent is a commit here (data/admin/runs/, from git by admin/tools/runs.mjs) or a run line in its report on the team's site (data/admin/team-site.json, by admin/tools/desks-snapshot.mjs). Key ids are entries on the team's keys page; no key, token or session link is ever kept here.",
+  "updated": "2026-11-05",
+  "agents": [
+    {
+      "id": "newsroom-dinis",
+      "name": "newsroom@web-summit.dinis",
+      "label": "The newsroom's conductor and correspondent",
+      "person": "dinis",
+      "kind": "conductor",
+      "desk": "publish",
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-04T00:30:00Z",
+      "started_basis": "Dinis's word on the team's board (WS-14, 4 November, 00:30); its first commit here, the skeleton, followed at 00:35 (4c3b099).",
+      "role": "Builds and runs this site, conducts the desks, carries their work across, signs and publishes the articles (brief 4: the conductor and the correspondent). Fired up the builder agents on 5 November.",
+      "lands": [
+        "content/",
+        "data/",
+        "admin/",
+        "assets/",
+        "articles/*.md.sig"
+      ],
+      "keys": [
+        {
+          "id": "newsroom-dinis",
+          "status": "current",
+          "note": "made 5 November in its own session; record sha256:2cbb6cfafdcbbce7"
+        }
+      ],
+      "status": "running",
+      "status_note": "Conducting the 5 November build: five builders on their own branches, merged by it.",
+      "issues": [
+        "WS-14"
+      ]
+    },
+    {
+      "id": "newsroom-dev-dinis",
+      "name": "newsroom-dev@web-summit.dinis",
+      "label": "The refactor: build modules, the data model, the graphs",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "newsroom@web-summit.dinis",
+      "started": "2026-11-05T02:19:02Z",
+      "started_basis": "Fired up by newsroom@web-summit.dinis at Dinis's word: its branch work/refactor was created from dev at 02:19:02 (the conductor's local reflog), with the designer's, in parallel; its first commit is 6b9d41f at 02:32.",
+      "role": "Split the build into a core, a shell and features; moved every fact into JSON, a folder per entity, with schemas and a derivation; built the graphs, the JSON API and the entity pages; wrote the handover (admin/build/README.md, data/README.md).",
+      "lands": [
+        "admin/build/",
+        "admin/tools/",
+        "data/"
+      ],
+      "keys": [],
+      "status": "done",
+      "status_note": "Six commits from 02:32 to 02:58, merged into dev; handover written.",
+      "issues": [
+        "WS-14"
+      ],
+      "branch": "work/refactor"
+    },
+    {
+      "id": "newsroom-designer-dinis",
+      "name": "newsroom-designer@web-summit.dinis",
+      "label": "The design system, and now applying it",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "newsroom@web-summit.dinis",
+      "started": "2026-11-05T02:19:02Z",
+      "started_basis": "Fired up by newsroom@web-summit.dinis at Dinis's word: its branch work/design was created from dev at 02:19:02 (the conductor's local reflog), with newsroom-dev's, in parallel; its design commit is 22c967d at 02:50. Its second branch, work/look, was created at 03:00:26 to apply the design.",
+      "role": "Designed The Lisbon Wire (working name): tokens, faces, components, 15 mockups and their screenshots (design/). Now restyles the page shell and the stylesheet with it.",
+      "lands": [
+        "design/",
+        "admin/build/lib/shell.mjs",
+        "assets/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "The design system is done (merged at 03:00, 68fc810); applying it to the shell is in progress.",
+      "issues": [
+        "WS-14"
+      ],
+      "branch": "work/look"
+    },
+    {
+      "id": "newsroom-interact-dinis",
+      "name": "newsroom-interact@web-summit.dinis",
+      "label": "Search, the tool API and the chat pane",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "newsroom@web-summit.dinis",
+      "started": "2026-11-05T03:00:26Z",
+      "started_basis": "Fired up by newsroom@web-summit.dinis after the merge at 03:00 (68fc810): its branch work/interact was created from it at 03:00:26 (the conductor's local reflog).",
+      "role": "Builds search over the site's documents, a tool API for agents in the page (window.__tool) and the reader's chat pane.",
+      "lands": [
+        "admin/build/features/",
+        "assets/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Building, no commit merged yet.",
+      "issues": [
+        "WS-14"
+      ],
+      "branch": "work/interact"
+    },
+    {
+      "id": "newsroom-graph-dinis",
+      "name": "newsroom-graph@web-summit.dinis",
+      "label": "The graph explorer",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "newsroom@web-summit.dinis",
+      "started": "2026-11-05T03:00:26Z",
+      "started_basis": "Fired up by newsroom@web-summit.dinis after the merge at 03:00 (68fc810): its branch work/graph was created from it at 03:00:26 (the conductor's local reflog).",
+      "role": "Draws the graphs the build already writes as JSON: a graph explorer and the small graphs on entity pages.",
+      "lands": [
+        "admin/build/features/",
+        "assets/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Building, no commit merged yet.",
+      "issues": [
+        "WS-14"
+      ],
+      "branch": "work/graph"
+    },
+    {
+      "id": "newsroom-billing-dinis",
+      "name": "newsroom-billing@web-summit.dinis",
+      "label": "The reading meter and the vault login",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "newsroom@web-summit.dinis",
+      "started": "2026-11-05T03:00:27Z",
+      "started_basis": "Fired up by newsroom@web-summit.dinis after the merge at 03:00 (68fc810): its branch work/billing was created from it at 03:00:27 (the conductor's local reflog).",
+      "role": "Builds the reader meter (brief 7) and signing in with a vault.",
+      "lands": [
+        "admin/build/features/",
+        "assets/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Building, no commit merged yet.",
+      "issues": [
+        "WS-14"
+      ],
+      "branch": "work/billing"
+    },
+    {
+      "id": "newsroom-admin-dinis",
+      "name": "newsroom-admin@web-summit.dinis",
+      "label": "The control centre (this section)",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "newsroom@web-summit.dinis",
+      "started": "2026-11-05T03:00:27Z",
+      "started_basis": "Fired up by newsroom@web-summit.dinis after the merge at 03:00 (68fc810): its branch work/admin was created from it at 03:00:27 (the conductor's local reflog).",
+      "role": "Builds /admin/: the overview, every run, the agents, the timeline, the data, the workflows and the lab, from the runs ledger and this roster.",
+      "lands": [
+        "admin/build/features/admin*.mjs",
+        "assets/admin/",
+        "data/admin/",
+        "admin/tools/runs.mjs",
+        "admin/tools/desks-snapshot.mjs"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Building this section.",
+      "issues": [
+        "WS-14"
+      ],
+      "branch": "work/admin"
+    },
+    {
+      "id": "researcher-vicky",
+      "name": "researcher@web-summit.vicky",
+      "label": "The researcher desk",
+      "person": "vicky",
+      "kind": "desk",
+      "desk": "research",
+      "started_by": "Vicky",
+      "started": "2026-11-04",
+      "started_basis": "Its first run report on the team's site, 4 November 12:55 UTC; a second session replaced the first at 18:15 that day.",
+      "role": "Collects what is public about the summit, Portugal, Europe and announcements, one capture per source with its date (brief 4, desk 1).",
+      "lands": [
+        "the research vault, in pack mode (never this repository)",
+        "people/vicky/reports/researcher.md on the team's site"
+      ],
+      "keys": [
+        {
+          "id": "researcher-vicky",
+          "status": "retired",
+          "note": "the first session, 4 November"
+        },
+        {
+          "id": "researcher-vicky-2",
+          "status": "current",
+          "note": "the second session, from 4 November 18:15"
+        }
+      ],
+      "status": "running",
+      "status_note": "Four runs a day proposed (brief 4); its captures reach this site through the curator.",
+      "issues": [
+        "WS-14"
+      ]
+    },
+    {
+      "id": "curator-vicky",
+      "name": "curator@web-summit.vicky",
+      "label": "The curator desk",
+      "person": "vicky",
+      "kind": "desk",
+      "desk": "curate",
+      "started_by": "Vicky",
+      "started": "2026-11-04",
+      "started_basis": "Its first map, committed here on 4 November at 19:29 (dcbbfeb).",
+      "role": "Maps what the researcher found (beat, company, what is new, whether it is a story) and proposes story candidates (brief 4, desk 2).",
+      "lands": [
+        "desks/curator/",
+        "people/vicky/reports/curator.md on the team's site"
+      ],
+      "keys": [
+        {
+          "id": "curator-vicky",
+          "status": "current"
+        }
+      ],
+      "status": "running",
+      "status_note": "Two maps, nine story candidates; derived into data/evidence/ and data/stories/.",
+      "issues": [
+        "WS-14"
+      ]
+    },
+    {
+      "id": "programme-vicky",
+      "name": "programme@web-summit.vicky",
+      "label": "The programme desk",
+      "person": "vicky",
+      "kind": "desk",
+      "desk": "programme",
+      "started_by": "Vicky",
+      "started": "2026-11-04",
+      "started_basis": "Its agenda, committed here on 4 November at 20:23 (5429e71).",
+      "role": "The summit's public agenda to 12 November, each item with its source; the interview shortlist, kept only in a confidential vault (brief 4; brief 5, step 1).",
+      "lands": [
+        "desks/programme/",
+        "a confidential vault (the shortlist, never this repository)"
+      ],
+      "keys": [
+        {
+          "id": "programme-vicky",
+          "status": "current"
+        }
+      ],
+      "status": "running",
+      "status_note": "210 agenda items, derived into data/events/ and on the front page.",
+      "issues": [
+        "WS-14"
+      ]
+    },
+    {
+      "id": "conductor-dinis",
+      "name": "conductor@web-summit.dinis",
+      "label": "The team site's conductor",
+      "person": "dinis",
+      "kind": "conductor",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-01",
+      "started_basis": "Holds the team's conductor seat from 1 November at the operator's word (its key, conductor-3, on the team's keys page).",
+      "role": "Conducts the team's site; for this newsroom it wrote the brief pack (v0.1.2) and receives the newsroom's run lines.",
+      "lands": [
+        "the team's site",
+        "content/brief/ (here, once)"
+      ],
+      "keys": [
+        {
+          "id": "conductor-3",
+          "status": "current"
+        }
+      ],
+      "status": "running",
+      "status_note": "On the team's site; here it committed once, the brief pack.",
+      "issues": [
+        "WS-14"
+      ]
+    },
+    {
+      "id": "conductor-indi",
+      "name": "conductor@web-summit.indi",
+      "label": "Indi's conductor",
+      "person": "indi",
+      "kind": "conductor",
+      "desk": null,
+      "started_by": "Indi",
+      "started": "2026-11-03",
+      "started_basis": "Its key on the team's keys page, added 3 November; a second session from 4 November.",
+      "role": "Made the reader-first patch and the six publishing roles (WS-141), applied here by newsroom@web-summit.dinis in v0.1.6; asked for Indi's write access (WS-145).",
+      "lands": [
+        "people/indi/ on the team's site (its patch reached this repository through newsroom@web-summit.dinis)"
+      ],
+      "keys": [
+        {
+          "id": "conductor-indi",
+          "status": "current",
+          "note": "the first session"
+        },
+        {
+          "id": "conductor-indi-2",
+          "status": "current",
+          "note": "a second session, 4 November; which carries on is Indi's call"
+        }
+      ],
+      "status": "running",
+      "status_note": "On the team's site; no commit here (its patch was applied by newsroom@web-summit.dinis).",
+      "issues": [
+        "WS-141",
+        "WS-145"
+      ]
+    },
+    {
+      "id": "desk-journalist",
+      "name": null,
+      "label": "The journalist desk",
+      "person": "indi",
+      "kind": "desk",
+      "desk": "write",
+      "started_by": null,
+      "started": null,
+      "started_basis": "Proposed in brief 4 for Indi; not started. Not to be confused with journalist@web-summit.indi on the team's site, which writes Indi's own reports.",
+      "role": "Writes the story from the curator's map, in the article shape (brief 3); drafts in desks/journalist/drafts/.",
+      "lands": [
+        "desks/journalist/drafts/"
+      ],
+      "keys": [],
+      "status": "planned",
+      "status_note": "Waits on Indi's write access (WS-145) and Dinis's decision on who owns which desks (brief 9, decision 3).",
+      "issues": [
+        "WS-145"
+      ]
+    },
+    {
+      "id": "desk-fact-checker",
+      "name": null,
+      "label": "The fact-checker desk",
+      "person": "indi",
+      "kind": "desk",
+      "desk": "check",
+      "started_by": null,
+      "started": null,
+      "started_basis": "Proposed in brief 4 for Indi; not started.",
+      "role": "Checks every claim against its source, every number, every quote; holds a draft until it is right.",
+      "lands": [
+        "a verdict beside each draft"
+      ],
+      "keys": [],
+      "status": "planned",
+      "status_note": "Waits on WS-145 and brief 9, decision 3.",
+      "issues": [
+        "WS-145"
+      ]
+    },
+    {
+      "id": "desk-editor",
+      "name": null,
+      "label": "The desk (the editor)",
+      "person": "indi",
+      "kind": "desk",
+      "desk": "edit",
+      "started_by": null,
+      "started": null,
+      "started_basis": "Proposed in brief 4 for Indi; not started.",
+      "role": "Runs the front page and the day's agenda: what leads, what waits, what is corrected; the reader's advocate.",
+      "lands": [
+        "content/index.md",
+        "the front page's order"
+      ],
+      "keys": [],
+      "status": "planned",
+      "status_note": "Waits on WS-145 and brief 9, decision 3.",
+      "issues": [
+        "WS-145"
+      ]
+    },
+    {
+      "id": "desk-security",
+      "name": null,
+      "label": "The security desk",
+      "person": null,
+      "kind": "desk",
+      "desk": "security",
+      "started_by": null,
+      "started": null,
+      "started_basis": "In brief 4's pipeline, with no owner proposed; not started.",
+      "role": "Reviews every run's diff: nothing private, no contact detail, no key, sources present.",
+      "lands": [
+        "a verdict per run"
+      ],
+      "keys": [],
+      "status": "planned",
+      "status_note": "No owner yet; until then the gate's checks 6 and 7 (keys, contact details) stand in.",
+      "issues": []
+    }
+  ]
+}
