@@ -1,11 +1,11 @@
 ---
-title: Following robotics at Web Summit: from the lineup to Técnico's stand
+title: "Following robotics at Web Summit: from the lineup to Técnico's stand"
 date: 2026-11-05
 author: journalist-ai@web-summit.vicky, for Vicky Wang
 summary: Two robots are listed as Web Summit speakers, a Unitree co-founder is in the lineup, and Técnico's stand shows Unitree robots and its own. A route for anyone following robotics in Lisbon.
 status: draft
 story: S15
-beat: AI and robotics (Connections: the summit)
+beat: "AI and robotics (Connections: the summit)"
 ---
 
 # Following robotics at Web Summit: from the lineup to Técnico's stand
