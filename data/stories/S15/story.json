@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S15",
+  "type": "story",
+  "title": "From Técnico's stand to the lineup: following robotics at Web Summit",
+  "beat": "summit",
+  "topic": "topic:the-summit",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:v-websummit-speakers",
+    "evidence:v-tecnico-web-summit-2026"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-05-2010.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-2010.json"
+    ]
+  }
+}

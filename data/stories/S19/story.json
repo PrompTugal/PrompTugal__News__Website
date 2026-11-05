@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S19",
+  "type": "story",
+  "title": "Brazil comes to Lisbon as Intuitivo heads to Brazil",
+  "beat": "announcements",
+  "topic": "topic:announcements",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:v-apexbrasil-delegation",
+    "evidence:r1255-19"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-05-2010.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-2010.json"
+    ]
+  }
+}

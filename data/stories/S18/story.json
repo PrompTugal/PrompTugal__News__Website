@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S18",
+  "type": "story",
+  "title": "Tuesday 10 November: Europe on Centre Stage, universities pitching, first-timers meeting",
+  "beat": "summit",
+  "topic": "topic:the-summit",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:r1546-01",
+    "evidence:r1255-08",
+    "evidence:v-ulisboa-web-summit-2026",
+    "evidence:v-tecnico-web-summit-2026"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-05-2010.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-2010.json"
+    ]
+  }
+}

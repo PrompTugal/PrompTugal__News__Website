@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S16",
+  "type": "story",
+  "title": "Europe's AI and funding help, a walk from Portugal's AI startups",
+  "beat": "europe",
+  "topic": "topic:europe",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:r1546-01",
+    "evidence:r1255-12",
+    "evidence:r1255-15",
+    "evidence:v-tecnico-web-summit-2026"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-05-2010.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-2010.json"
+    ]
+  }
+}
