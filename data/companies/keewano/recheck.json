@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "keewano",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/1e5dae43-571a-4a71-af0c-420f9d9ef6df/keewano",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.keewano.com/",
+        "status": 200
+      }
+    }
+  ]
+}

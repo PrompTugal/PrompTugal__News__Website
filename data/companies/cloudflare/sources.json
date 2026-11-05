@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "cloudflare",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/attendees/lis26/34a6f338-b5be-4983-935e-f6eeffb20b2a/matthew-prince",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "public speaker listed by Web Summit for LIS26: Matthew Prince, Co-founder & CEO, Cloudflare",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/featured-attendees/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "the 2026 speaker / featured attendee list that links to that page",
+      "kind": "summit-list"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.cloudflare.com/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site",
+      "kind": "other"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.theportugalguides.com/news/2026-10-10-web-summit-lisbon-november-2026/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "The Portugal Guides, 10 Oct 2026: Matthew Prince listed among confirmed 2026 speakers",
+      "kind": "other"
+    }
+  ]
+}

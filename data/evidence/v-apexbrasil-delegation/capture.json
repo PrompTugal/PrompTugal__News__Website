@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-apexbrasil-delegation",
+  "type": "evidence",
+  "source_url": "https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/",
+  "beat": "announcements",
+  "group": "G10 delegations to Lisbon",
+  "names": [
+    {
+      "as_listed": "ApexBrasil",
+      "ref": "organisation:apexbrasil"
+    },
+    {
+      "as_listed": "Sebrae Startups",
+      "ref": "organisation:sebrae-startups"
+    },
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-04-1955.json",
+  "run": "2026-11-04T19:45Z (scheduled run, written 19:55)",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1955.json"
+    ]
+  }
+}

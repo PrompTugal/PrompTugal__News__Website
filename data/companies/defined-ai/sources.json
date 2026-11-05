@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "defined-ai",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'Give me a brake: Coding without crashing', 11 Nov, Developer Summit, Stage 10, names Defined.ai as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/e027a639-37eb-4d9b-bf6e-ee641c169830/daniela-braga/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Daniela Braga, Founder & CEO, Defined.ai; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://defined.ai/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "purpose",
+  "type": "organisation",
+  "name": "Purpose",
+  "names_as_listed": [
+    "Purpose"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/",
+      "read_at": "2026-11-04T20:03Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

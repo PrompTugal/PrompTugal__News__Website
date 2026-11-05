@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "jasper",
+  "type": "organisation",
+  "name": "Jasper",
+  "names_as_listed": [
+    "Jasper"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/f37463f8-5aab-4dfa-9c95-2c91596ebd38/western-tech-all-is-not-lost/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

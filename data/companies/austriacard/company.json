@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "austriacard",
+  "type": "company",
+  "name": "AustriaCard",
+  "website": "https://www.austriacard.com/",
+  "what": "Austrian card, secure identity and digital solutions group; its GaiaB offer helps organisations deploy secure, governed AI while keeping control of data and infrastructure (per its speaker's Web Summit bio).",
+  "category": "security",
+  "country": "Austria",
+  "attending": "confirmed: Christos Rizos (Group Business Development Director, AI & Digital Solutions) is listed on the LIS26 session page 'AI sovereignty: Data control, governance and predictable AI costs [Hosted by Austriacard Holdings]'",
+  "attending_as": "speaker's company (masterclass host)",
+  "field_sources": {
+    "name": [
+      "s2",
+      "s3"
+    ],
+    "website": [
+      "s4"
+    ],
+    "what": [
+      "s4"
+    ],
+    "category": [
+      "s3"
+    ],
+    "country": [
+      "s3"
+    ],
+    "attending": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "attending_as": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "AustriaCard",
+      "source": "s1",
+      "how": "the name in the team's map"
+    },
+    {
+      "name": "AUSTRIACARD HOLDINGS",
+      "source": "s2",
+      "how": "the name on its summit appearance page"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

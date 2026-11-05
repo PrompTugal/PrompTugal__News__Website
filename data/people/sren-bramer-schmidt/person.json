@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "sren-bramer-schmidt",
+  "type": "person",
+  "name": "Søren Bramer Schmidt",
+  "role": "CEO",
+  "organisation": "Prisma",
+  "org": "company:prisma",
+  "listings": [
+    {
+      "role": "CEO",
+      "organisation": "Prisma",
+      "org": "company:prisma",
+      "event": "event:rebuilding-open-source-with-ai-lessons-learned",
+      "source": "https://websummit.com/sessions/lis26/b742e8f7-343c-4868-8eac-4b488f1351d9/rebuilding-open-source-with-ai-lessons-learned/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CEO",
+      "organisation": "Prisma",
+      "org": "company:prisma",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/3f19cc38-1d8a-4c9d-ab2c-b00e61d2c17f/s%C3%B8ren-bramer-schmidt/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

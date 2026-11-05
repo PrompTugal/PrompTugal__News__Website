@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "aisle",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:security",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:czechia",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "appears_in",
+      "to_url": "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

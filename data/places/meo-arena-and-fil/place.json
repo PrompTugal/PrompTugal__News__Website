@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "meo-arena-and-fil",
+  "type": "place",
+  "name": "MEO Arena and FIL",
+  "kind": "venue",
+  "located_in": "place:parque-das-nacoes",
+  "matches": [],
+  "source": "https://websummit.com/essentials/venue-essentials/",
+  "note": "The summit's venue, as the summit names it: the MEO Arena (once called Altice Arena) and FIL, Rossio dos Olivais, Parque das Nações."
+}

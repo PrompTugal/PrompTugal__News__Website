@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "chatplace",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:47Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace",
+        "status": 200
+      },
+      "website": {
+        "url": "https://chatplace.io/",
+        "status": 200
+      }
+    }
+  ]
+}

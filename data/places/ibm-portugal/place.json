@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "ibm-portugal",
+  "type": "place",
+  "name": "IBM Portugal",
+  "kind": "venue",
+  "located_in": null,
+  "matches": [
+    "IBM Portugal"
+  ],
+  "source": "https://websummit.com/schedule/",
+  "note": "As the event's page on the summit's schedule names it; the page gives no city or address."
+}

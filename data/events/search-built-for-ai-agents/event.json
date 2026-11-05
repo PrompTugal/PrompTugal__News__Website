@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "search-built-for-ai-agents",
+  "type": "event",
+  "title": "Search built for AI agents",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "15:40-16:00",
+  "start": "15:40",
+  "end": "16:00",
+  "where": "Stage 13 (AI Summit), MEO Arena and FIL",
+  "place": "place:stage-13",
+  "track": "AI Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:will-bryk",
+      "as_listed": "Will Bryk (Co-founder & CEO, Exa)",
+      "role": "Co-founder & CEO",
+      "organisation": "Exa",
+      "org": "company:exa"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/a433a1bc-b53a-4689-a8f8-c7eb8088148c/search-built-for-ai-agents/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 205
+  }
+}

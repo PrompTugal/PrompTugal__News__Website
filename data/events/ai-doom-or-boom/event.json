@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "ai-doom-or-boom",
+  "type": "event",
+  "title": "AI: doom or boom?",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "16:20-16:40",
+  "start": "16:20",
+  "end": "16:40",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:ali-partovi",
+      "as_listed": "Ali Partovi (Founding Partner, Neo)",
+      "role": "Founding Partner",
+      "organisation": "Neo",
+      "org": "company:neo"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/9b2f78b9-3828-4bbe-9e0a-8c092d39e0f6/ai-doom-or-boom/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 89
+  }
+}

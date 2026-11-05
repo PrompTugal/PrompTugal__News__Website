@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "prisma",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/b742e8f7-343c-4868-8eac-4b488f1351d9/rebuilding-open-source-with-ai-lessons-learned/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'Rebuilding open source with AI: Lessons Learned', 12 Nov, Developer Summit, Stage 10, names Prisma as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/3f19cc38-1d8a-4c9d-ab2c-b00e61d2c17f/s%C3%B8ren-bramer-schmidt/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Søren Bramer Schmidt, CEO, Prisma; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.prisma.io/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

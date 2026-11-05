@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "mastra",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.mastra.ai",
+        "status": 200
+      }
+    }
+  ]
+}

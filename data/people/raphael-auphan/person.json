@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "raphael-auphan",
+  "type": "person",
+  "name": "Raphael Auphan",
+  "role": "Chief Operating Officer",
+  "organisation": "Proton",
+  "org": "company:proton",
+  "listings": [
+    {
+      "role": "Chief Operating Officer",
+      "organisation": "Proton",
+      "org": "company:proton",
+      "event": "event:big-tech-detox",
+      "source": "https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Chief Operating Officer",
+      "organisation": "Proton",
+      "org": "company:proton",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/5475282a-017b-4bc9-a1e3-01363282c02e/raphael-auphan/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "runpod",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/appearances/lis26/9a5f1290-6af8-4650-b689-a4dcae084ec2/runpod",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: name, country, industry, website",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
+      "kind": "summit-list"
+    }
+  ]
+}

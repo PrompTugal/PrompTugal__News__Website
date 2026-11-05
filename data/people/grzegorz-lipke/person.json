@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "grzegorz-lipke",
+  "type": "person",
+  "name": "Grzegorz Lipke",
+  "role": "CTO",
+  "organisation": "House Of Angular",
+  "org": "organisation:house-of-angular",
+  "listings": [
+    {
+      "role": "CTO",
+      "organisation": "House Of Angular",
+      "org": "organisation:house-of-angular",
+      "event": "event:when-agents-write-the-code-does-a-framework-like-angular",
+      "source": "https://websummit.com/sessions/lis26/dab3a547-0122-4464-91de-a1262e50d894/when-agents-write-the-code-does-a-framework-like-angular-still-matter/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

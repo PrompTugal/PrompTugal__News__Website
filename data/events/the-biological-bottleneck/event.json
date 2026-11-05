@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-biological-bottleneck",
+  "type": "event",
+  "title": "The biological bottleneck",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "10:45-11:10",
+  "start": "10:45",
+  "end": "11:10",
+  "where": "Stage 8 (Cybersecurity Summit), MEO Arena and FIL",
+  "place": "place:stage-8",
+  "track": "Cybersecurity Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:calum-chace",
+      "as_listed": "Calum Chace (Co-founder, Conscium)",
+      "role": "Co-founder",
+      "organisation": "Conscium",
+      "org": "company:conscium"
+    },
+    {
+      "person": "person:nicholas-muy",
+      "as_listed": "Nicholas Muy (CISO, Scrut Automation)",
+      "role": "CISO",
+      "organisation": "Scrut Automation",
+      "org": "company:scrut-automation"
+    },
+    {
+      "person": "person:john-koetsier",
+      "as_listed": "John Koetsier (Forbes columnist & Tech First Podcast Host, Forbes, Freelance)",
+      "role": "Forbes columnist & Tech First Podcast Host, Forbes",
+      "organisation": "Freelance",
+      "org": "organisation:freelance"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 170
+  }
+}

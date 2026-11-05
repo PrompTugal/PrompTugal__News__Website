@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/company-facts.schema.json",
+  "company": "austriacard",
+  "facts": [
+    {
+      "id": "f-s1",
+      "claim": "LIS26 session page (conferenceSlug lis26): 'AI sovereignty: Data control, governance and predictable AI costs [Hosted by Austriacard Holdings]', 11 Nov, Masterclasses, Masterclass 3, names AustriaCard as the speaker's organisation",
+      "source": "s1",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s2",
+      "claim": "LIS26 appearance page: AUSTRIACARD HOLDINGS, Austria, AI & machine learning, as listed by Web Summit; hosts the session",
+      "source": "s2",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s3",
+      "claim": "LIS26 attendee page: Christos Rizos, Group Business Development Director, AI & Digital Solutions, AustriaCard; country and industry as listed by Web Summit; public bio",
+      "source": "s3",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s4",
+      "claim": "its own site: title only (no description); the AI offer rests on the speaker's Web Summit bio",
+      "source": "s4",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    }
+  ]
+}

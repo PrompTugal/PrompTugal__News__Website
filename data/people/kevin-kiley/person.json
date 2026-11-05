@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "kevin-kiley",
+  "type": "person",
+  "name": "Kevin Kiley",
+  "role": "CEO",
+  "organisation": "Airia AI",
+  "org": "company:airia",
+  "listings": [
+    {
+      "role": "CEO",
+      "organisation": "Airia AI",
+      "org": "company:airia",
+      "event": "event:ai-sprawl-is-exploding-get-ahead-of-governance-and-security",
+      "source": "https://websummit.com/sessions/lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CEO",
+      "organisation": "Airia AI",
+      "org": "company:airia",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/770add22-7f4e-4d16-97f2-88e9696d503b/kevin-kiley/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

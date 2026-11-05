@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "fil",
+  "type": "place",
+  "name": "FIL",
+  "kind": "building",
+  "located_in": "place:meo-arena-and-fil",
+  "matches": [],
+  "source": "https://websummit.com/essentials/venue-essentials/",
+  "note": "Feira Internacional de Lisboa, one of the summit's two buildings."
+}

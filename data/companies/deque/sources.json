@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "deque",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'Can you trust your AI agent's accessibility? [Hosted by Deque]', 12 Nov, Masterclasses, Masterclass 2, names Deque Systems as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/appearances/lis26/49491341-039a-4e77-ba4b-14c22d9b9de7/deque/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: Deque, United States, SaaS, as listed by Web Summit; hosts the session",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s3",
+      "url": "https://websummit.com/attendees/lis26/564b144a-17c0-4f84-b1e7-16f55a99bc44/dylan-barrell/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Dylan Barrell, CTO, Deque Systems; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.deque.com/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

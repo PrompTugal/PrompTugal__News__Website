@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-portuguese-economic-success-story",
+  "type": "event",
+  "title": "The Portuguese economic success story",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "11:10-11:30",
+  "start": "11:10",
+  "end": "11:30",
+  "where": "Stage 11 (Policy Summit), MEO Arena and FIL",
+  "place": "place:stage-11",
+  "track": "Policy Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:joaquim-miranda-sarmento",
+      "as_listed": "Joaquim Miranda Sarmento (Minister of State and of Finance, Government of Portugal)",
+      "role": "Minister of State and of Finance",
+      "organisation": "Government of Portugal",
+      "org": "organisation:government-of-portugal"
+    },
+    {
+      "person": "person:giovanna-faggionato",
+      "as_listed": "Giovanna Faggionato (Financial Services Reporter, POLITICO)",
+      "role": "Financial Services Reporter",
+      "organisation": "POLITICO",
+      "org": "organisation:politico"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/be11c9f2-2f68-4ccb-818d-9a5056e0e147/the-portuguese-economic-success-story/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 120
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "pavilion-5",
+  "type": "place",
+  "name": "Pavilion 5",
+  "kind": "room",
+  "located_in": "place:fil",
+  "matches": [
+    "Pavilion 5"
+  ],
+  "source": "https://websummit.com/schedule/",
+  "note": "In FIL, as the schedule names it (Pavilion 5, FIL)."
+}

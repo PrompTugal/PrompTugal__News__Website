@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/company-facts.schema.json",
+  "company": "neo4j",
+  "facts": [
+    {
+      "id": "f-s1",
+      "claim": "LIS26 session page (conferenceSlug lis26): 'Why your AI agents don’t understand your business – and how to fix it', 11 Nov, Developer Summit, Stage 10, names Neo4j as the speaker's organisation",
+      "source": "s1",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s2",
+      "claim": "LIS26 attendee page: Philip Rathle, CTO, Neo4j; country and industry as listed by Web Summit; public bio",
+      "source": "s2",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s3",
+      "claim": "what the company does, from its own site (title and description)",
+      "source": "s3",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    }
+  ]
+}

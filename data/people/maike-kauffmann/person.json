@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "maike-kauffmann",
+  "type": "person",
+  "name": "Maike Kauffmann",
+  "role": "Co-Lead",
+  "organisation": "Purpose",
+  "org": "organisation:purpose",
+  "listings": [
+    {
+      "role": "Co-Lead",
+      "organisation": "Purpose",
+      "org": "organisation:purpose",
+      "event": "event:who-takes-the-fall-for-autonomous-ai",
+      "source": "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/",
+      "read_at": "2026-11-04T20:03Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

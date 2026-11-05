@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "prisma",
+  "type": "company",
+  "name": "Prisma",
+  "website": "https://www.prisma.io/",
+  "what": "Agent infrastructure for TypeScript: Prisma ORM, Prisma Postgres and Prisma Compute (app hosting next to the database).",
+  "category": "devtools",
+  "country": "United States",
+  "attending": "confirmed: Søren Bramer Schmidt (CEO) is listed on the LIS26 session page 'Rebuilding open source with AI: Lessons Learned'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Prisma",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

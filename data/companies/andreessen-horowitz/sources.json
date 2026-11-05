@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "andreessen-horowitz",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://aman-alliance.org/Home/ContentDetail/104496",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "Lusa via AMAN, 25 Jun 2026: Marcus Segal, partner at a16z, speaker",
+      "kind": "other"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/tracks/ai-summit/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "AI Summit track page logos include a16z (may include past-edition content)",
+      "kind": "summit-list"
+    }
+  ]
+}

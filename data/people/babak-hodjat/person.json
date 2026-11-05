@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "babak-hodjat",
+  "type": "person",
+  "name": "Babak Hodjat",
+  "role": "Chief AI Officer",
+  "organisation": "Cognizant",
+  "org": "company:cognizant",
+  "listings": [
+    {
+      "role": "Chief AI Officer",
+      "organisation": "Cognizant",
+      "org": "company:cognizant",
+      "event": "event:be-part-of-history-help-build-the-first-pages-of-the",
+      "source": "https://websummit.com/sessions/lis26/e6276948-d2f7-4565-95e4-9caccd1a5211/be-part-of-history-help-build-the-first-pages-of-the-agentic-web/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Chief AI Officer",
+      "organisation": "Cognizant",
+      "org": "company:cognizant",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/f18640a5-8db0-428a-82ad-1abd56cee73e/babak-hodjat/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

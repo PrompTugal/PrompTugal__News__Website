@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "hotel-pestana-alvor-praia",
+  "type": "place",
+  "name": "Hotel Pestana Alvor Praia",
+  "kind": "venue",
+  "located_in": "place:portimao",
+  "matches": [
+    "Hotel Pestana Alvor Praia, Portimão, Algarve"
+  ],
+  "source": "https://www.algarveevolution.pt/event/tourism-management-computing-technologies-international-conference-149/register"
+}

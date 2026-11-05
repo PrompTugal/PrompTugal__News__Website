@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "algarve",
+  "type": "place",
+  "name": "Algarve",
+  "kind": "region",
+  "located_in": "place:portugal",
+  "matches": [],
+  "source": "https://www.algarveevolution.pt/"
+}

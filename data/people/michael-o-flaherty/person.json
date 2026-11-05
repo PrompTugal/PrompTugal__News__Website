@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "michael-o-flaherty",
+  "type": "person",
+  "name": "Michael O'Flaherty",
+  "role": "Commissioner for Human Rights",
+  "organisation": "Council of Europe",
+  "org": "organisation:council-of-europe",
+  "listings": [
+    {
+      "role": "Commissioner for Human Rights",
+      "organisation": "Council of Europe",
+      "org": "organisation:council-of-europe",
+      "event": "event:putting-human-rights-into-artificial-intelligence",
+      "source": "https://websummit.com/sessions/lis26/3a0acb6d-9fd0-4431-ab32-5526addbdcc8/putting-human-rights-into-artificial-intelligence/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

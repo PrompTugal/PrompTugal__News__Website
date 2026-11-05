@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "gulf-meet-greet",
+  "type": "event",
+  "title": "Gulf meet & greet",
+  "kind": "night-summit",
+  "listed_as": "night-summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-09",
+  "time": "21:00-21:55",
+  "start": "21:00",
+  "end": "21:55",
+  "where": "Meetup 6 (Night Summit), MEO Arena and FIL",
+  "place": "place:meetup-6",
+  "track": "Night Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/030be9d4-f233-4976-a5e0-0af09c1078a1/gulf-meet-greet/",
+  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/3/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 26
+  }
+}

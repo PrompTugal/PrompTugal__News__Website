@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "nick-thompson",
+  "type": "person",
+  "name": "Nick Thompson",
+  "role": "CEO",
+  "organisation": "The Atlantic",
+  "org": "organisation:the-atlantic",
+  "listings": [
+    {
+      "role": "CEO",
+      "organisation": "The Atlantic",
+      "org": "organisation:the-atlantic",
+      "event": "event:the-agentic-internet-who-controls-the-web",
+      "source": "https://websummit.com/sessions/lis26/4421ffa8-97ef-4466-8669-31c47cff3b5a/the-agentic-internet-who-controls-the-web/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

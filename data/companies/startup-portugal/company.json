@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "startup-portugal",
+  "type": "company",
+  "name": "Startup Portugal",
+  "website": "https://startupportugal.com/",
+  "what": "Portugal's national startup agency; with Web Summit runs Road 2 Web Summit, selecting up to 125 Portuguese startups for the 2026 edition with a bootcamp in Porto and Lisbon and a Portugal stand.",
+  "category": "portugal-startup",
+  "country": "Portugal",
+  "attending": "confirmed: Executive Digest (13 Aug 2026) reports Startup Portugal and Web Summit running the 11th Road 2 Web Summit for the 9-12 Nov 2026 edition, with extra space on Portugal's stand",
+  "attending_as": "unknown",
+  "field_sources": {
+    "name": [
+      "s1"
+    ],
+    "website": [
+      "s1"
+    ],
+    "what": [
+      "s1"
+    ],
+    "category": [
+      "s1"
+    ],
+    "country": [
+      "s1"
+    ],
+    "attending": [
+      "s1"
+    ],
+    "attending_as": [
+      "s1"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Startup Portugal",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

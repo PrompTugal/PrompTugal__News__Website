@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "chatplace",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: name, country, industry, website",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/startups/featured-startups/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
+      "kind": "summit-list"
+    }
+  ]
+}

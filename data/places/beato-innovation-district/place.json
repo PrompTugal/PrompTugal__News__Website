@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "beato-innovation-district",
+  "type": "place",
+  "name": "Beato Innovation District",
+  "kind": "district",
+  "located_in": "place:lisbon",
+  "matches": [
+    "Beato Innovation District (Unicorn Factory Lisboa), Lisbon"
+  ],
+  "source": "https://sapo.pt/",
+  "note": "Home of Unicorn Factory Lisboa, as the source puts it."
+}

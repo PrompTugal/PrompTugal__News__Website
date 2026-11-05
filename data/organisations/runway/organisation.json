@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "runway",
+  "type": "organisation",
+  "name": "Runway",
+  "names_as_listed": [
+    "Runway"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/83d00caa-134c-498e-9365-f033914b2583/when-software-meets-matter/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

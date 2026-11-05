@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "building-ai-products-without-building-everything-hosted-by",
+  "type": "event",
+  "title": "Building AI products without building everything [Hosted by Open VSX]",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "14:30-15:15",
+  "start": "14:30",
+  "end": "15:15",
+  "where": "Masterclass 3 (Masterclasses), MEO Arena and FIL",
+  "place": "place:masterclass-3",
+  "track": "Masterclasses",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:thomas-froment",
+      "as_listed": "Thomas Froment (Program Lead, Development Tools, Eclipse Foundation)",
+      "role": "Program Lead, Development Tools",
+      "organisation": "Eclipse Foundation",
+      "org": "company:open-vsx"
+    },
+    {
+      "person": "person:jamie-ayala",
+      "as_listed": "Jamie Ayala (Senior Product Marketing Manager, Open VSX)",
+      "role": "Senior Product Marketing Manager",
+      "organisation": "Open VSX",
+      "org": "company:open-vsx"
+    }
+  ],
+  "hosted_by": [
+    {
+      "org": "company:open-vsx",
+      "as_listed": "Open VSX",
+      "source": "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/"
+    }
+  ],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 196
+  }
+}

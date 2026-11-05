@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "rws",
+  "type": "company",
+  "name": "RWS Group",
+  "website": null,
+  "what": "Language and content technology company; its Group CEO speaks on 'Your AI agent just got a passport' (the company site did not return a page to an automated read, so 'what' rests on the session and bio).",
+  "category": "ai-agents",
+  "country": "United Kingdom",
+  "attending": "confirmed: Benjamin Faes (CEO) is listed on the LIS26 session page 'Your AI agent just got a passport'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s1",
+      "s2"
+    ],
+    "what": [
+      "s1",
+      "s2"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "RWS Group",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

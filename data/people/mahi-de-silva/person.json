@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mahi-de-silva",
+  "type": "person",
+  "name": "Mahi de Silva",
+  "role": "Co-Founder & Chief Strategy Officer",
+  "organisation": "Higgsfield",
+  "org": "organisation:higgsfield",
+  "listings": [
+    {
+      "role": "Co-Founder & Chief Strategy Officer",
+      "organisation": "Higgsfield",
+      "org": "organisation:higgsfield",
+      "event": "event:the-100-million-prompt",
+      "source": "https://websummit.com/sessions/lis26/4b4a439e-c93f-4217-8491-7e5798c71df9/the-100-million-prompt/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

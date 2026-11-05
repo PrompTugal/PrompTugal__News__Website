@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mafalda-freire",
+  "type": "person",
+  "name": "Mafalda Freire",
+  "role": "Journalist",
+  "organisation": "businessIT - PC Guia",
+  "org": "organisation:businessit-pc-guia",
+  "listings": [
+    {
+      "role": "Journalist",
+      "organisation": "businessIT - PC Guia",
+      "org": "organisation:businessit-pc-guia",
+      "event": "event:don-t-feed-shit-to-agents",
+      "source": "https://websummit.com/sessions/lis26/858c105c-7c26-4196-bbc1-5a6ef6a35f55/don-t-feed-shit-to-agents/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

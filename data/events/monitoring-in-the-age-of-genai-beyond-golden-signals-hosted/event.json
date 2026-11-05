@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "monitoring-in-the-age-of-genai-beyond-golden-signals-hosted",
+  "type": "event",
+  "title": "Monitoring in the age of GenAI: Beyond golden signals [Hosted by Datadog]",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "10:00-10:45",
+  "start": "10:00",
+  "end": "10:45",
+  "where": "Masterclass 2 (Masterclasses), MEO Arena and FIL",
+  "place": "place:masterclass-2",
+  "track": "Masterclasses",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:clara-jacintho",
+      "as_listed": "Clara Jacintho (Software Engineer, Datadog)",
+      "role": "Software Engineer",
+      "organisation": "Datadog",
+      "org": "company:datadog"
+    }
+  ],
+  "hosted_by": [
+    {
+      "org": "company:datadog",
+      "as_listed": "Datadog",
+      "source": "https://websummit.com/sessions/lis26/3fec214a-c6f3-41bb-ace2-b45b50f6d964/monitoring-in-the-age-of-genai-beyond-golden-signals-hosted-by-datadog/"
+    }
+  ],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/3fec214a-c6f3-41bb-ace2-b45b50f6d964/monitoring-in-the-age-of-genai-beyond-golden-signals-hosted-by-datadog/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 108
+  }
+}

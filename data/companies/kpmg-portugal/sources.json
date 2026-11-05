@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "kpmg-portugal",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/appearances/lis26/b7f3c3ff-d492-4ff5-9f12-68116e3ecd81/kpmg",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: name, country, industry, website",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
+      "kind": "summit-list"
+    },
+    {
+      "id": "s3",
+      "url": "https://co.ibtimes.com/kiggu-global-cybersecurity-final-1810",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "KPMG Private Enterprise Global Tech Innovator 2026 global final takes place in Lisbon on 11 Nov 2026 during Web Summit",
+      "kind": "other"
+    }
+  ]
+}

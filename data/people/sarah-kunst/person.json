@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "sarah-kunst",
+  "type": "person",
+  "name": "Sarah Kunst",
+  "role": "Founder & Managing Director",
+  "organisation": "Cleo Capital",
+  "org": "organisation:cleo-capital",
+  "listings": [
+    {
+      "role": "Founder & Managing Director",
+      "organisation": "Cleo Capital",
+      "org": "organisation:cleo-capital",
+      "event": "event:pitch-final",
+      "source": "https://websummit.com/sessions/lis26/73e9fb82-c650-4609-9b8c-63e7d0e47610/pitch-final/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Founder & Managing Director",
+      "organisation": "Cleo Capital",
+      "org": "organisation:cleo-capital",
+      "event": "event:beyond-the-ipo-the-new-exit-playbook",
+      "source": "https://websummit.com/sessions/lis26/f9b5061e-ee77-43c1-b469-c0754cae3e5e/beyond-the-ipo-the-new-exit-playbook/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

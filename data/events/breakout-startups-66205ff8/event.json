@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "breakout-startups-66205ff8",
+  "type": "event",
+  "title": "Breakout startups",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "09:24-09:54",
+  "start": "09:24",
+  "end": "09:54",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:otto-costa-miranda",
+      "as_listed": "Otto Costa Miranda (CEO, Ephemeral)",
+      "role": "CEO",
+      "organisation": "Ephemeral",
+      "org": "organisation:ephemeral"
+    },
+    {
+      "person": "person:paul-benigeri",
+      "as_listed": "Paul Benigeri (CEO, Archive)",
+      "role": "CEO",
+      "organisation": "Archive",
+      "org": "organisation:archive"
+    },
+    {
+      "person": "person:xavier-green",
+      "as_listed": "Xavier Green (Co-founder & CTO, ScorePlay)",
+      "role": "Co-founder & CTO",
+      "organisation": "ScorePlay",
+      "org": "organisation:scoreplay"
+    },
+    {
+      "person": "person:neha-mittal",
+      "as_listed": "Neha Mittal (Co-Founder & CEO, JustAI)",
+      "role": "Co-Founder & CEO",
+      "organisation": "JustAI",
+      "org": "organisation:justai"
+    },
+    {
+      "person": "person:ang-li",
+      "as_listed": "Ang Li (CEO and Co-founder, Simular)",
+      "role": "CEO and Co-founder",
+      "organisation": "Simular",
+      "org": "organisation:simular"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/66205ff8-6ea5-42d4-ac51-eb26c65a5d02/breakout-startups/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 37
+  }
+}

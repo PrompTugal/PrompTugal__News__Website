@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "crowdstrike",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/attendees/lis26/bd793867-29f9-4c1a-b1dc-753cfd598717/george-kurtz",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.crowdstrike.com/",
+        "status": 200
+      }
+    }
+  ]
+}

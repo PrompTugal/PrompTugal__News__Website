@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "fei-xu",
+  "type": "person",
+  "name": "Fei Xu",
+  "role": "CMO",
+  "organisation": "Xiaomi Group",
+  "org": "organisation:xiaomi-group",
+  "listings": [
+    {
+      "role": "CMO",
+      "organisation": "Xiaomi Group",
+      "org": "organisation:xiaomi-group",
+      "event": "event:build-for-people-a-human-x-car-x-home-approach",
+      "source": "https://websummit.com/sessions/lis26/d5e17a6c-b8b1-41a2-b009-1e9b6dd8d6b7/build-for-people-a-human-x-car-x-home-approach/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

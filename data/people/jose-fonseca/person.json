@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jose-fonseca",
+  "type": "person",
+  "name": "José Fonseca",
+  "role": "Technical Expert",
+  "organisation": "ManageEngine",
+  "org": "company:manageengine",
+  "listings": [
+    {
+      "role": "Technical Expert",
+      "organisation": "ManageEngine",
+      "org": "company:manageengine",
+      "event": "event:the-attack-has-started-now-what-see-log360-zia-ai-in-action",
+      "source": "https://websummit.com/sessions/lis26/2ac488bf-54c0-4eaa-bedc-5dd271625643/the-attack-has-started-now-what-see-log360-zia-ai-in-action-hosted-by-manageengine/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

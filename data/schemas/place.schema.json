@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/place.schema.json",
+  "title": "A place (data/places/<slug>/place.json)",
+  "description": "Hand-edited. \"matches\" are the exact strings (a whole \"where\", or a stage name in the summit's \"Stage (Track), Venue\" form) that the derivation maps to this place.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "name",
+    "kind",
+    "located_in",
+    "matches",
+    "source"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "type": {
+      "const": "place"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "country",
+        "region",
+        "city",
+        "district",
+        "street",
+        "venue",
+        "building",
+        "stage",
+        "room"
+      ]
+    },
+    "located_in": {
+      "anyOf": [
+        {
+          "$ref": "common.schema.json#/$defs/place_ref"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "matches": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "source": {
+      "anyOf": [
+        {
+          "$ref": "common.schema.json#/$defs/url_or_path"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "note": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

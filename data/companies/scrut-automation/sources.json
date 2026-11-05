@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "scrut-automation",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'The biological bottleneck', 12 Nov, Cybersecurity Summit, Stage 8, names Scrut Automation as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/056fe625-28f3-4f70-bc2a-a429d44c3361/nicholas-muy/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Nicholas Muy, CISO, Scrut Automation; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.scrut.io/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

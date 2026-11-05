@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "bloodflow",
+  "type": "organisation",
+  "name": "BloodFlow",
+  "names_as_listed": [
+    "BloodFlow"
+  ],
+  "sources": [
+    {
+      "url": "https://portugalstartupnews.com/2026/10/27/winners-announced-for-2026-entrepreneurship-awards-by-unicorn-factory-lisboa/",
+      "read_at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "mit-technology-review",
+  "type": "organisation",
+  "name": "MIT Technology Review",
+  "names_as_listed": [
+    "MIT Technology Review"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/fad36198-b0af-4295-bec3-b7671b62e786/beyond-the-model-scaling-ai-agents-for-professional-work/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

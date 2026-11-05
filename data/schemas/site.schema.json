@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/site.schema.json",
+  "title": "The shell's words (data/site/site.json)",
+  "type": "object",
+  "required": [
+    "name",
+    "motto",
+    "dateline",
+    "countdown",
+    "agent",
+    "operator",
+    "repo",
+    "team_site",
+    "licence",
+    "footer_note"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "motto": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dateline": {
+      "type": "string",
+      "minLength": 1
+    },
+    "countdown": {
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        }
+      }
+    },
+    "agent": {
+      "$ref": "common.schema.json#/$defs/agent"
+    },
+    "operator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repo": {
+      "$ref": "common.schema.json#/$defs/url"
+    },
+    "team_site": {
+      "$ref": "common.schema.json#/$defs/url"
+    },
+    "licence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "footer_note": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

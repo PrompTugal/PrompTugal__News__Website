@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "directus",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/858c105c-7c26-4196-bbc1-5a6ef6a35f55/don-t-feed-shit-to-agents/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'Don’t feed shit to agents', 11 Nov, Developer Summit, Stage 10, names Directus as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/950c4f32-f865-4cbc-9329-a176ed3ae5f3/rijk-van-zanten/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Rijk van Zanten, Co-Founder & CTO, Directus; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://directus.com/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mohammad-asad-khan",
+  "type": "person",
+  "name": "Mohammad Asad Khan",
+  "role": "Co-founder & CEO",
+  "organisation": "TestMu AI",
+  "org": "company:testmu-ai",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "TestMu AI",
+      "org": "company:testmu-ai",
+      "event": "event:when-ai-verifies-ai",
+      "source": "https://websummit.com/sessions/lis26/159fe8f9-7900-4f36-93e1-8b794cd11949/when-ai-verifies-ai/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "TestMu AI",
+      "org": "company:testmu-ai",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/e5edf282-d6f3-4748-a063-2adab06d7e92/mohammad-asad-khan/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

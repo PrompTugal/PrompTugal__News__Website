@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "victor-gao",
+  "type": "person",
+  "name": "Victor Gao",
+  "role": "Chair Professor, Soochow University; Vice President, CCG; and Chairman, China Energy Security",
+  "organisation": "Center for China and Globalization (CCG)",
+  "org": "organisation:center-for-china-and-globalization",
+  "listings": [
+    {
+      "role": "Chair Professor, Soochow University; Vice President, CCG; and Chairman, China Energy Security",
+      "organisation": "Center for China and Globalization (CCG)",
+      "org": "organisation:center-for-china-and-globalization",
+      "event": "event:the-last-days-of-the-rules-based-order",
+      "source": "https://websummit.com/sessions/lis26/e293c05f-8c11-4231-abcd-a35cf6392fec/the-last-days-of-the-rules-based-order/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "firefox-enterprise-mozilla",
+  "type": "company",
+  "name": "Firefox Enterprise by Mozilla",
+  "website": "https://www.firefox.com/en-US/enterprise/",
+  "what": "Mozilla's customer-controlled, on-premises enterprise browser platform for European organisations reassessing data control and technology dependencies, giving IT and security teams control over data and browser environment.",
+  "category": "security",
+  "country": "Netherlands",
+  "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+  "attending_as": "partner",
+  "field_sources": {
+    "name": [
+      "s1"
+    ],
+    "website": [
+      "s1"
+    ],
+    "what": [
+      "s2"
+    ],
+    "category": [
+      "s1"
+    ],
+    "country": [
+      "s1"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Firefox Enterprise by Mozilla",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

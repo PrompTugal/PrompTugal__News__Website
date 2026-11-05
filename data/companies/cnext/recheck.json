@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "cnext",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/7650eb03-7f70-4275-a9c7-4dee4e4258e4/cnext",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.cnext.eu",
+        "status": 200
+      }
+    }
+  ]
+}

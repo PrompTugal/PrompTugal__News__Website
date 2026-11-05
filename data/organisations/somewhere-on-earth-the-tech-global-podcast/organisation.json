@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "somewhere-on-earth-the-tech-global-podcast",
+  "type": "organisation",
+  "name": "Somewhere on Earth: The Tech Global Podcast",
+  "names_as_listed": [
+    "Somewhere on Earth: The Tech Global Podcast"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

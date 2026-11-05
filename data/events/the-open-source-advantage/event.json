@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-open-source-advantage",
+  "type": "event",
+  "title": "The open source advantage",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "10:20-10:45",
+  "start": "10:20",
+  "end": "10:45",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:dahai-li",
+      "as_listed": "Dahai Li (Co-founder & CEO, ModelBest)",
+      "role": "Co-founder & CEO",
+      "organisation": "ModelBest",
+      "org": "organisation:modelbest"
+    },
+    {
+      "person": "person:rohit-sharma",
+      "as_listed": "Rohit Sharma (Partner, True Ventures)",
+      "role": "Partner",
+      "organisation": "True Ventures",
+      "org": "organisation:true-ventures"
+    },
+    {
+      "person": "person:reya-el-salahi",
+      "as_listed": "Reya El-Salahi (Presenter / Journalist, CGTN Europe)",
+      "role": "Presenter / Journalist",
+      "organisation": "CGTN Europe",
+      "org": "organisation:cgtn-europe"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/67bf8048-752a-43d1-84fc-7a03cfdd45ad/the-open-source-advantage/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 43
+  }
+}

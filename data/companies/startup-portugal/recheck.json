@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "startup-portugal",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "website": {
+        "url": "https://startupportugal.com/",
+        "status": 200
+      }
+    }
+  ]
+}

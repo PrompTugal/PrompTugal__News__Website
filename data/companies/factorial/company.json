@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "factorial",
+  "type": "company",
+  "name": "Factorial",
+  "website": "https://factorial.com/",
+  "what": "Business software connecting HR, finance and IT into one system, marketed as 'the AI for business'.",
+  "category": "other",
+  "country": "Spain",
+  "attending": "confirmed: Jordi Romero (Co-founder & CEO) is listed on the LIS26 session page 'Double agents: Are your employees' AI agents working for or against your business?'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Factorial",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

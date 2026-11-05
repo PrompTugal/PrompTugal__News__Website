@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "ncsc-uk",
+  "type": "company",
+  "name": "National Cyber Security Centre (UK)",
+  "website": "https://www.ncsc.gov.uk/",
+  "what": "Part of GCHQ; the UK's national technical authority for cyber security, helping businesses, the public sector and individuals.",
+  "category": "other",
+  "country": "United Kingdom",
+  "attending": "confirmed: Ollie Whitehouse (Chief Technology Officer) is listed on the LIS26 session page 'It takes two to trust: Operationalizing public-private security'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "National Cyber Security Centre (UK)",
+      "source": "s1",
+      "how": "the name in the team's map"
+    },
+    {
+      "name": "National Cyber Security Centre",
+      "source": "s1",
+      "how": "the name in the team's map, before the brackets"
+    },
+    {
+      "name": "UK",
+      "source": "s1",
+      "how": "the name in the team's map, in the brackets"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

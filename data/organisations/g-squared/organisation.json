@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "g-squared",
+  "type": "organisation",
+  "name": "G Squared",
+  "names_as_listed": [
+    "G Squared"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/f9b5061e-ee77-43c1-b469-c0754cae3e5e/beyond-the-ipo-the-new-exit-playbook/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

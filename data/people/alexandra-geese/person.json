@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "alexandra-geese",
+  "type": "person",
+  "name": "Alexandra Geese",
+  "role": "MEP",
+  "organisation": "The European Parliament",
+  "org": "organisation:the-european-parliament",
+  "listings": [
+    {
+      "role": "MEP",
+      "organisation": "The European Parliament",
+      "org": "organisation:the-european-parliament",
+      "event": "event:free-or-controlled-internet-the-great-dsa-debate",
+      "source": "https://websummit.com/sessions/lis26/33c61f4c-b906-4056-aefa-ca2f45c27d55/free-or-controlled-internet-the-great-dsa-debate/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

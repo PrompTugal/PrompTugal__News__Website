@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "why-ai-agents-stall-at-the-production-line",
+  "type": "event",
+  "title": "Why AI agents stall at the production line",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "11:10-11:30",
+  "start": "11:10",
+  "end": "11:30",
+  "where": "Stage 13 (AI Summit), MEO Arena and FIL",
+  "place": "place:stage-13",
+  "track": "AI Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:mazin-gilbert",
+      "as_listed": "Mazin Gilbert (Executive Director, Agentic AI Foundation)",
+      "role": "Executive Director",
+      "organisation": "Agentic AI Foundation",
+      "org": "company:linux-foundation-aaif"
+    },
+    {
+      "person": "person:tom-stackpole",
+      "as_listed": "Tom Stackpole (Senior Technology & Innovation Editor, Harvard Business Review Group)",
+      "role": "Senior Technology & Innovation Editor",
+      "organisation": "Harvard Business Review Group",
+      "org": "organisation:harvard-business-review-group"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 121
+  }
+}

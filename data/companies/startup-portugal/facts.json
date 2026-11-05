@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/company-facts.schema.json",
+  "company": "startup-portugal",
+  "facts": [
+    {
+      "id": "f-s1",
+      "claim": "Road 2 Web Summit 2026: up to 125 startups, bootcamp, 50% off ALPHA/BETA, Galp prizes",
+      "source": "s1",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    }
+  ]
+}

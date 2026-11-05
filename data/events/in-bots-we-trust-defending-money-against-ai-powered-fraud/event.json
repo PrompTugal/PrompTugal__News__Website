@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "in-bots-we-trust-defending-money-against-ai-powered-fraud",
+  "type": "event",
+  "title": "In bots we trust: Defending money against AI-powered fraud",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "11:15-11:35",
+  "start": "11:15",
+  "end": "11:35",
+  "where": "Stage 8 (MoneyConf), MEO Arena and FIL",
+  "place": "place:stage-8",
+  "track": "MoneyConf",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:rick-song",
+      "as_listed": "Rick Song (CEO, Persona)",
+      "role": "CEO",
+      "organisation": "Persona",
+      "org": "company:persona"
+    },
+    {
+      "person": "person:ian-rogers",
+      "as_listed": "Ian Rogers (Chief Human Agency Officer & Board Member, Ledger)",
+      "role": "Chief Human Agency Officer & Board Member",
+      "organisation": "Ledger",
+      "org": "company:ledger"
+    },
+    {
+      "person": "person:joao-miguel-mesquita",
+      "as_listed": "João Miguel Mesquita (Editor-in-chief, Digital Inside)",
+      "role": "Editor-in-chief",
+      "organisation": "Digital Inside",
+      "org": "organisation:digital-inside"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 122
+  }
+}

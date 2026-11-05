@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jamie-ayala",
+  "type": "person",
+  "name": "Jamie Ayala",
+  "role": "Senior Product Marketing Manager",
+  "organisation": "Open VSX",
+  "org": "company:open-vsx",
+  "listings": [
+    {
+      "role": "Senior Product Marketing Manager",
+      "organisation": "Open VSX",
+      "org": "company:open-vsx",
+      "event": "event:building-ai-products-without-building-everything-hosted-by",
+      "source": "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Senior Product Marketing Manager",
+      "organisation": "Open VSX",
+      "org": "company:open-vsx",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/9666ba6e-6acf-4c01-8516-ac289f49a08c/jamie-ayala/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

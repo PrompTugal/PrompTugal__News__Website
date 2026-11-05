@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "agents-don-t-need-prompts-they-need-context",
+  "type": "event",
+  "title": "Agents don't need prompts, they need context",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "16:08-16:19",
+  "start": "16:08",
+  "end": "16:19",
+  "where": "Stage 9 (Growth Summit), MEO Arena and FIL",
+  "place": "place:stage-9",
+  "track": "Growth Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:milkana-brace",
+      "as_listed": "Milkana Brace (Co-Founder & CPO, SageOx)",
+      "role": "Co-Founder & CPO",
+      "organisation": "SageOx",
+      "org": "company:sageox"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/e2d68390-d300-42d0-ac9a-bb730e4f5988/agents-don-t-need-prompts-they-need-context/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 151
+  }
+}

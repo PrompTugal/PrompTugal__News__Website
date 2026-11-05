@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mike-cannon-brookes",
+  "type": "person",
+  "name": "Mike Cannon-Brookes",
+  "role": "Co-founder & CEO",
+  "organisation": "Atlassian",
+  "org": "company:atlassian",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Atlassian",
+      "org": "company:atlassian",
+      "event": "event:ai-and-the-human-at-300km-h",
+      "source": "https://websummit.com/sessions/lis26/a6d3c49d-4442-4cc6-88ce-ec0882f245d1/ai-and-the-human-at-300km-h/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Atlassian",
+      "org": "company:atlassian",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/d0ce77d9-7b32-4c84-99ad-d0d9388a5ab3/mike-cannon-brookes",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

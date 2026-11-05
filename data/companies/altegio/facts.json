@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/company-facts.schema.json",
+  "company": "altegio",
+  "facts": [
+    {
+      "id": "f-s1",
+      "claim": "LIS26 appearance page: name, country, industry, website",
+      "source": "s1",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s2",
+      "claim": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
+      "source": "s2",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    }
+  ]
+}

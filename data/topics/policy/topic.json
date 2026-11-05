@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "policy",
+  "type": "topic",
+  "name": "Policy and regulation",
+  "kind": "theme",
+  "description": "Public policy and regulation of technology, in Europe and beyond.",
+  "broader": [],
+  "summit_tracks": [
+    "Policy Summit"
+  ],
+  "source": "content/brief/03-what-we-publish.md"
+}

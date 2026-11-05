@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "delinea",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/appearances/lis26/96f4d2e8-4e7e-4204-bf7d-0c1b9ad6983d/delinea",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: name, country, industry, website",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
+      "kind": "summit-list"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "frontline-europe-ai-sovereignty-and-truth",
+  "type": "event",
+  "title": "Frontline Europe: AI, sovereignty and truth",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "10:30-10:55",
+  "start": "10:30",
+  "end": "10:55",
+  "where": "Stage 11 (Policy Summit), MEO Arena and FIL",
+  "place": "place:stage-11",
+  "track": "Policy Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:jan-lipavsky",
+      "as_listed": "Jan Lipavský (Former Minister of Foreign Affairs of the Czech Republic, Government of Czech Republic)",
+      "role": "Former Minister of Foreign Affairs of the Czech Republic",
+      "organisation": "Government of Czech Republic",
+      "org": "organisation:government-of-czech-republic"
+    },
+    {
+      "person": "person:miroslav-wlachovsky",
+      "as_listed": "Miroslav Wlachovský (Former Minister of Foreign and European Affairs of Slovakia, government of Slovakia)",
+      "role": "Former Minister of Foreign and European Affairs of Slovakia",
+      "organisation": "government of Slovakia",
+      "org": "organisation:government-of-slovakia"
+    },
+    {
+      "person": "person:maty-bohacek",
+      "as_listed": "Maty Bohacek (AI Researcher, Stanford University)",
+      "role": "AI Researcher",
+      "organisation": "Stanford University",
+      "org": "organisation:stanford-university"
+    },
+    {
+      "person": "person:tomas-klvana",
+      "as_listed": "Tomáš Klvaňa (Executive Director, Aspen Institute Central Europe)",
+      "role": "Executive Director",
+      "organisation": "Aspen Institute Central Europe",
+      "org": "organisation:aspen-institute-central-europe"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/c0581238-2d66-434c-9e16-eee93fef3867/frontline-europe-ai-sovereignty-and-truth/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 168
+  }
+}

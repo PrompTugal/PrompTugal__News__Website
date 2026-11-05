@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "impact-innovation-fund",
+  "type": "organisation",
+  "name": "Impact Innovation Fund",
+  "names_as_listed": [
+    "Impact Innovation Fund"
+  ],
+  "sources": [
+    {
+      "url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
+      "read_at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

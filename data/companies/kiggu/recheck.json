@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "kiggu",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:47Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/ec0a4a3b-e56e-4ddc-9f13-c5b178c0b777/kiggu",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.kiggu.io",
+        "status": 200
+      }
+    }
+  ]
+}

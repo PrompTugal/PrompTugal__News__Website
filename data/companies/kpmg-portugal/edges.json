@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "kpmg-portugal",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:grc",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:portugal",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

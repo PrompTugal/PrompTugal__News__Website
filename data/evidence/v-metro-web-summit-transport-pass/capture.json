@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-metro-web-summit-transport-pass",
+  "type": "evidence",
+  "source_url": "https://www.metrolisboa.pt/2026/11/02/passe-de-transporte-para-web-summit/",
+  "beat": "summit",
+  "group": "G1 participant guide",
+  "names": [
+    {
+      "as_listed": "Metropolitano de Lisboa",
+      "ref": "organisation:metropolitano-de-lisboa"
+    },
+    {
+      "as_listed": "Carris",
+      "ref": "organisation:carris"
+    },
+    {
+      "as_listed": "CP",
+      "ref": "organisation:cp"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-04-1955.json",
+  "run": "2026-11-04T19:45Z (scheduled run, written 19:55)",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1955.json"
+    ]
+  }
+}

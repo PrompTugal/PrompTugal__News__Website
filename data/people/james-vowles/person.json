@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "james-vowles",
+  "type": "person",
+  "name": "James Vowles",
+  "role": "Team Principal",
+  "organisation": "Atlassian Williams F1 Team",
+  "org": "organisation:atlassian-williams-f1-team",
+  "listings": [
+    {
+      "role": "Team Principal",
+      "organisation": "Atlassian Williams F1 Team",
+      "org": "organisation:atlassian-williams-f1-team",
+      "event": "event:ai-and-the-human-at-300km-h",
+      "source": "https://websummit.com/sessions/lis26/a6d3c49d-4442-4cc6-88ce-ec0882f245d1/ai-and-the-human-at-300km-h/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

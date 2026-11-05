@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "daniela-braga",
+  "type": "person",
+  "name": "Daniela Braga",
+  "role": "Founder & CEO",
+  "organisation": "Defined.ai",
+  "org": "company:defined-ai",
+  "listings": [
+    {
+      "role": "Founder & CEO",
+      "organisation": "Defined.ai",
+      "org": "company:defined-ai",
+      "event": "event:give-me-a-brake-coding-without-crashing",
+      "source": "https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Founder & CEO",
+      "organisation": "Defined.ai",
+      "org": "company:defined-ai",
+      "event": "event:rewriting-the-rules-of-female-longevity",
+      "source": "https://websummit.com/sessions/lis26/79f1c8b1-4453-46c1-a37f-cb614d082cb8/rewriting-the-rules-of-female-longevity/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Founder & CEO",
+      "organisation": "Defined.ai",
+      "org": "company:defined-ai",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/e027a639-37eb-4d9b-bf6e-ee641c169830/daniela-braga/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

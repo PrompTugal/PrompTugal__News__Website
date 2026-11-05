@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "firefox-enterprise-mozilla",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:47Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/5e33ad8b-d0fc-4103-9e74-9f8b73e464ac/firefox-enterprise-by-mozilla",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.firefox.com/en-US/enterprise/",
+        "status": 200
+      }
+    }
+  ]
+}

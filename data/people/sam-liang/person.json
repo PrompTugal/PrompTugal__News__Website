@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "sam-liang",
+  "type": "person",
+  "name": "Sam Liang",
+  "role": "CEO and Co-Founder",
+  "organisation": "Otter",
+  "org": "organisation:otter",
+  "listings": [
+    {
+      "role": "CEO and Co-Founder",
+      "organisation": "Otter",
+      "org": "organisation:otter",
+      "event": "event:otter-ai-announces-its-biggest-multilingual-leap-yet-press",
+      "source": "https://websummit.com/sessions/lis26/8a817dba-d588-45a3-aa3b-df5e7965119c/otter-ai-announces-its-biggest-multilingual-leap-yet-press-conference/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

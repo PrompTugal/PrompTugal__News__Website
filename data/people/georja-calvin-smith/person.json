@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "georja-calvin-smith",
+  "type": "person",
+  "name": "Georja Calvin-Smith",
+  "role": "Productrice principale / Présentatrice",
+  "organisation": "France 24",
+  "org": "organisation:france-24",
+  "listings": [
+    {
+      "role": "Productrice principale / Présentatrice",
+      "organisation": "France 24",
+      "org": "organisation:france-24",
+      "event": "event:putting-human-rights-into-artificial-intelligence",
+      "source": "https://websummit.com/sessions/lis26/3a0acb6d-9fd0-4431-ab32-5526addbdcc8/putting-human-rights-into-artificial-intelligence/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

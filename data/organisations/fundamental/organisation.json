@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "fundamental",
+  "type": "organisation",
+  "name": "Fundamental",
+  "names_as_listed": [
+    "Fundamental"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/d81d7dd6-7bed-4727-ad86-00d0203debf0/ai-s-octopus-era/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

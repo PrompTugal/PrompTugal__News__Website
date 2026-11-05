@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ivan-mehta",
+  "type": "person",
+  "name": "Ivan Mehta",
+  "role": "Reporter",
+  "organisation": "TechCrunch",
+  "org": "organisation:techcrunch",
+  "listings": [
+    {
+      "role": "Reporter",
+      "organisation": "TechCrunch",
+      "org": "organisation:techcrunch",
+      "event": "event:when-software-meets-matter",
+      "source": "https://websummit.com/sessions/lis26/83d00caa-134c-498e-9365-f033914b2583/when-software-meets-matter/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "austriacard",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:51Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.austriacard.com/",
+        "status": 200
+      }
+    }
+  ]
+}

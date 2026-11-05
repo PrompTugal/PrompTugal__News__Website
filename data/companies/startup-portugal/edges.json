@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "startup-portugal",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:portugal-startup",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:portugal",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

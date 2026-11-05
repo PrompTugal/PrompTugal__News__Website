@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "google-cloud",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/2362e911-24df-49f6-894e-b608c3b25106/google-cloud",
+        "status": 200
+      },
+      "website": {
+        "url": "https://cloud.google.com",
+        "status": 200
+      }
+    }
+  ]
+}

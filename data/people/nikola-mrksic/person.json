@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "nikola-mrksic",
+  "type": "person",
+  "name": "Nikola Mrkšić",
+  "role": "Co-founder & CEO",
+  "organisation": "PolyAI",
+  "org": "company:polyai",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "PolyAI",
+      "org": "company:polyai",
+      "event": "event:coaching-an-ai-agent-like-human-talent",
+      "source": "https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "PolyAI",
+      "org": "company:polyai",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/5f1690fc-01f0-4146-a2ac-8286cd7c9698/nikola-mrk%C5%A1i%C4%87/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "replit",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/appearances/lis26/906ae644-bbd1-4f7e-bfbb-87690996d3bd/replit",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: name, country, industry, website",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
+      "kind": "summit-list"
+    },
+    {
+      "id": "s3",
+      "url": "https://websummit.com/attendees/lis26/61c0eea9-7ec4-408d-b94f-26d5d48845d2/michele-catasta",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "Michele Catasta, President, Replit: public speaker listed by Web Summit for LIS26",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s4",
+      "url": "https://aman-alliance.org/Home/ContentDetail/104496",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "Lusa, 25 Jun 2026: Michele Catasta, President and Head of AI at Replit, announced as speaker",
+      "kind": "other"
+    }
+  ]
+}

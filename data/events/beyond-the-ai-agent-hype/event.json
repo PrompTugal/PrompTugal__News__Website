@@ -1,0 +1,64 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "beyond-the-ai-agent-hype",
+  "type": "event",
+  "title": "Beyond the AI agent hype",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "11:30-11:50",
+  "start": "11:30",
+  "end": "11:50",
+  "where": "Stage 13 (AI Summit), MEO Arena and FIL",
+  "place": "place:stage-13",
+  "track": "AI Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:georg-zoeller",
+      "as_listed": "Georg Zoeller (Co founder, Centre for AI Leadership (C4AIL))",
+      "role": "Co founder",
+      "organisation": "Centre for AI Leadership (C4AIL)",
+      "org": "company:c4ail"
+    },
+    {
+      "person": "person:ned-koh",
+      "as_listed": "Ned Koh (Co-Founder & President, Aaru)",
+      "role": "Co-Founder & President",
+      "organisation": "Aaru",
+      "org": "organisation:aaru"
+    },
+    {
+      "person": "person:tariq-krim",
+      "as_listed": "Tariq Krim (Founder, Human intention)",
+      "role": "Founder",
+      "organisation": "Human intention",
+      "org": "organisation:human-intention"
+    },
+    {
+      "person": "person:jeff-wilser",
+      "as_listed": "Jeff Wilser (Podcast Host & Book Author, AI-Curious)",
+      "role": "Podcast Host & Book Author",
+      "organisation": "AI-Curious",
+      "org": "organisation:ai-curious"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 124
+  }
+}

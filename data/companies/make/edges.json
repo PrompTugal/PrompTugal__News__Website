@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "make",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:ai-agents",
+      "source": "s3",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:czechia",
+      "source": "s3",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "hosts",
+      "to_url": "https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

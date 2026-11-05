@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "parque-das-nacoes",
+  "type": "place",
+  "name": "Parque das Nações",
+  "kind": "district",
+  "located_in": "place:lisbon",
+  "matches": [
+    "Parque das Nações"
+  ],
+  "source": "https://websummit.com/essentials/venue-essentials/"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "portugal-tech-week-palace",
+  "type": "event",
+  "title": "Portugal Tech Week Palace (until 13 November)",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": true,
+  "date": "2026-11-09",
+  "time": null,
+  "start": null,
+  "end": null,
+  "where": "PTW Palace, Rua Gomes Freire 98, Lisbon",
+  "place": "place:ptw-palace",
+  "track": null,
+  "part_of": "event:portugal-tech-week-2026-begins",
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://portugaltechweek.com/events/portugal-tech-week-palace-09-13-november/",
+  "read_at": "2026-11-01",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, not re-checked today (the page did not show it to a plain read)",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 10
+  }
+}

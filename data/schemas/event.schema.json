@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/event.schema.json",
+  "title": "An event (data/events/<slug>/event.json)",
+  "description": "Every event: the official programme (organiser web-summit) and the others (organiser other). Derived from desks/programme/agenda.json by admin/tools/derive.mjs, or hand-written (no \"derived\").",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "title",
+    "kind",
+    "organiser",
+    "our_pick",
+    "date",
+    "time",
+    "speakers",
+    "source_url",
+    "read_at",
+    "read_by"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "type": {
+      "const": "event"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "summit",
+        "session",
+        "pitch",
+        "announcement",
+        "night-summit",
+        "registration",
+        "side-event",
+        "festival"
+      ]
+    },
+    "listed_as": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organiser": {
+      "enum": [
+        "web-summit",
+        "other"
+      ]
+    },
+    "our_pick": {
+      "type": "boolean"
+    },
+    "date": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "end_date": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "time": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{2}:\\d{2}-\\d{2}:\\d{2}$"
+    },
+    "start": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "end": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "where": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "place": {
+      "anyOf": [
+        {
+          "$ref": "common.schema.json#/$defs/place_ref"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "track": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "part_of": {
+      "anyOf": [
+        {
+          "$ref": "common.schema.json#/$defs/event_ref"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "organised_by": {
+      "anyOf": [
+        {
+          "$ref": "common.schema.json#/$defs/org_ref"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "speakers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "person",
+          "as_listed",
+          "role",
+          "organisation",
+          "org"
+        ],
+        "properties": {
+          "person": {
+            "type": "string",
+            "pattern": "^person:[a-z0-9-]+$"
+          },
+          "as_listed": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "organisation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "org": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/org_ref"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "hosted_by": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "org",
+          "as_listed",
+          "source"
+        ],
+        "properties": {
+          "org": {
+            "$ref": "common.schema.json#/$defs/org_ref"
+          },
+          "as_listed": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "$ref": "common.schema.json#/$defs/url"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "session_url": {
+      "anyOf": [
+        {
+          "$ref": "common.schema.json#/$defs/url"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "source_url": {
+      "$ref": "common.schema.json#/$defs/url"
+    },
+    "read_at": {
+      "$ref": "common.schema.json#/$defs/read_at"
+    },
+    "read_by": {
+      "$ref": "common.schema.json#/$defs/agent"
+    },
+    "via": {
+      "type": "string",
+      "minLength": 1
+    },
+    "derived": {
+      "$ref": "common.schema.json#/$defs/derived"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "linux-foundation-aaif",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'Why AI agents stall at the production line', 11 Nov, AI Summit, Stage 13, names Linux Foundation as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/e1bd2291-cb3a-418d-bd45-bfbe54e004ac/mazin-gilbert/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Mazin Gilbert, Executive Director, Linux Foundation; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://aaif.io/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.linuxfoundation.org/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the Linux Foundation is, from its own site",
+      "kind": "other"
+    }
+  ]
+}

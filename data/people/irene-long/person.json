@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "irene-long",
+  "type": "person",
+  "name": "Irene Long",
+  "role": "CSO",
+  "organisation": "Rokid",
+  "org": "organisation:rokid",
+  "listings": [
+    {
+      "role": "CSO",
+      "organisation": "Rokid",
+      "org": "organisation:rokid",
+      "event": "event:chinamaxxing-the-new-era-of-made-in-china",
+      "source": "https://websummit.com/sessions/lis26/9c1902d0-4ff4-4ecd-a983-0e8de326ba1f/chinamaxxing-the-new-era-of-made-in-china/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -13,6 +13,10 @@
 //   9. div balance, and no em-dash in prose
 //  10. the shape of the estate: CLAUDE.md, REALITY.md (with the version), BRIEF.md, BRIEF-CORRECTIONS.md, CNAME,
 //      the participant disclosure, and the about page naming the operator
+//  11. the data (admin/build/checks.mjs): every file under data/ follows its schema (data/schemas/), every reference
+//      between entities resolves, and the derived files are what admin/tools/derive.mjs makes now
+//  12. the features' own checks (admin/build/checks.mjs): each feature's validate(gate) hook, e.g. the graphs and the API
+//  13. every page declares its page-type and page-date (the billing meter prices pages by them)
 'use strict'
 const fs = require('fs')
 const path = require('path')
@@ -152,9 +156,24 @@ for (const p of ['CLAUDE.md', 'REALITY.md', 'BRIEF.md', 'BRIEF-CORRECTIONS.md', 
 if (!/\(site v\d+\.\d+\.\d+\)/.test(read('REALITY.md'))) errors.push('REALITY.md does not carry "(site vX.Y.Z)" for CI to update')
 if (exists('about/index.html') && !read('about/index.html').includes('Dinis Cruz')) errors.push('about/index.html does not name the human operator')
 
+// 11 and 12. the data, and the features' own checks
+try {
+    const out = execFileSync('node', [path.join(__dirname, 'checks.mjs')], { cwd: ROOT, stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64 << 20 }).toString()
+    errors.push(...JSON.parse(out))
+} catch (e) { errors.push(`checks.mjs failed: ${(e.stderr || e.message).toString().slice(-2000)}`) }
+
+// 13. page-type and page-date on every page
+const TYPES = ['article', 'company', 'event', 'person', 'organisation', 'topic', 'place', 'story', 'evidence', 'site', 'account', 'index', 'data']
+for (const f of html) {
+    const t = text(f)
+    const type = (t.match(/<meta name="page-type" content="([^"]*)">/) || [])[1], date = (t.match(/<meta name="page-date" content="([^"]*)">/) || [])[1]
+    if (!TYPES.includes(type)) errors.push(`${rel(f)}: page-type "${type}" is not one of ${TYPES.join(', ')}`)
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date || '')) errors.push(`${rel(f)}: page-date "${date}" is not a date`)
+}
+
 if (errors.length) {
     for (const e of errors) console.error('FAIL ' + e)
     console.error(`${errors.length} problem(s); the gate is red`)
     process.exit(1)
 }
-console.log(`OK (${VERSION}: ${html.length} pages, ${files.length} files, 10 checks)`)
+console.log(`OK (${VERSION}: ${html.length} pages, ${files.length} files, 13 checks)`)

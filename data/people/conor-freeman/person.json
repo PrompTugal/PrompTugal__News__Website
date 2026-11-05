@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "conor-freeman",
+  "type": "person",
+  "name": "Conor Freeman",
+  "role": "Former Black Hat Hacker & Offensive Security Lead",
+  "organisation": "The Hacking Games",
+  "org": "company:the-hacking-games",
+  "listings": [
+    {
+      "role": "Former Black Hat Hacker & Offensive Security Lead",
+      "organisation": "The Hacking Games",
+      "org": "company:the-hacking-games",
+      "event": "event:the-real-threat-isn-t-a-nation-state-it-s-a-teenager",
+      "source": "https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

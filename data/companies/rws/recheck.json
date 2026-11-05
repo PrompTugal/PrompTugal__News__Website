@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "rws",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:49Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/",
+        "status": 200
+      }
+    }
+  ]
+}

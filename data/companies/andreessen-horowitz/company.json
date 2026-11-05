@@ -1,0 +1,64 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "andreessen-horowitz",
+  "type": "company",
+  "name": "Andreessen Horowitz (a16z)",
+  "website": "https://a16z.com/",
+  "what": "Venture capital firm; Lusa reports partner Marcus Segal among the announced 2026 speakers.",
+  "category": "investor",
+  "country": "United States",
+  "attending": "confirmed: Lusa (25 Jun 2026) names a16z partner Marcus Segal as a speaker; the AI Summit track page also shows an a16z logo",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s1",
+      "s2"
+    ],
+    "website": [
+      "s1",
+      "s2"
+    ],
+    "what": [
+      "s1",
+      "s2"
+    ],
+    "category": [
+      "s1",
+      "s2"
+    ],
+    "country": [
+      "s1",
+      "s2"
+    ],
+    "attending": [
+      "s2"
+    ],
+    "attending_as": [
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Andreessen Horowitz (a16z)",
+      "source": "s1",
+      "how": "the name in the team's map"
+    },
+    {
+      "name": "Andreessen Horowitz",
+      "source": "s1",
+      "how": "the name in the team's map, before the brackets"
+    },
+    {
+      "name": "a16z",
+      "source": "s1",
+      "how": "the name in the team's map, in the brackets"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

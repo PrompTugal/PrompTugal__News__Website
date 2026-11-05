@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "aicep",
+  "type": "company",
+  "name": "AICEP - Portugal Trade & Invest",
+  "website": "https://www.portugalglobal.pt",
+  "what": "Portugal's public trade and investment agency: attracts inward investment and helps Portuguese companies expand abroad; offices in about 50 countries.",
+  "category": "portugal-startup",
+  "country": "Portugal",
+  "attending": "confirmed: Alexandra Ferreira Leite (Foreign Delegate/Trade Comissioner) is listed on the LIS26 session page 'AICEP: Connecting Portuguese startups to global markets [Hosted by AICEP]'",
+  "attending_as": "speaker's company (masterclass host)",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s2",
+      "s3"
+    ],
+    "what": [
+      "s2",
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "AICEP - Portugal Trade & Invest",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "niall-firth",
+  "type": "person",
+  "name": "Niall Firth",
+  "role": "News Editor",
+  "organisation": "MIT Technology Review",
+  "org": "organisation:mit-technology-review",
+  "listings": [
+    {
+      "role": "News Editor",
+      "organisation": "MIT Technology Review",
+      "org": "organisation:mit-technology-review",
+      "event": "event:beyond-the-model-scaling-ai-agents-for-professional-work",
+      "source": "https://websummit.com/sessions/lis26/fad36198-b0af-4295-bec3-b7671b62e786/beyond-the-model-scaling-ai-agents-for-professional-work/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

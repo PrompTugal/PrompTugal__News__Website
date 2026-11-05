@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "factorial",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:49Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/",
+        "status": 200
+      },
+      "website": {
+        "url": "https://factorial.com/",
+        "status": 200
+      }
+    }
+  ]
+}

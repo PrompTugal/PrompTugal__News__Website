@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "shrikesh-laxmidas",
+  "type": "person",
+  "name": "Shrikesh Laxmidas",
+  "role": "Deputy Editor-in-Chief",
+  "organisation": "ECO",
+  "org": "organisation:eco",
+  "listings": [
+    {
+      "role": "Deputy Editor-in-Chief",
+      "organisation": "ECO",
+      "org": "organisation:eco",
+      "event": "event:who-let-the-agent-in",
+      "source": "https://websummit.com/sessions/lis26/1de6a591-ec17-4399-8f28-13f4bff1cae1/who-let-the-agent-in/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

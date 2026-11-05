@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "r1255-11",
+  "type": "evidence",
+  "source_url": "https://websummit.com/blog/startups-investors/how-we-select-our-startups/",
+  "beat": "summit",
+  "group": "G3 the summit in numbers",
+  "names": [
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-04-1945.json",
+  "run": "2026-11-04T19:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1945.json"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S5",
+  "type": "story",
+  "title": "Web Summit 2026 in numbers: 70,000 people, 10,000 startups",
+  "beat": "announcements",
+  "topic": "topic:announcements",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:r1255-09",
+    "evidence:r1255-07",
+    "evidence:r1255-11",
+    "evidence:v-apexbrasil-delegation"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-04-1945.json",
+    "desks/curator/2026-11-04-1955.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1945.json",
+      "desks/curator/2026-11-04-1955.json"
+    ]
+  }
+}

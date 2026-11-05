@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "strawberry",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/46a776cb-d22c-4ec6-8e89-f39fcb51ed40/strawberry",
+        "status": 200
+      },
+      "website": {
+        "url": "https://strawberrybrowser.com",
+        "status": 200
+      }
+    }
+  ]
+}

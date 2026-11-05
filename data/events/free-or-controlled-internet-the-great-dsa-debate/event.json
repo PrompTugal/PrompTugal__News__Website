@@ -1,0 +1,64 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "free-or-controlled-internet-the-great-dsa-debate",
+  "type": "event",
+  "title": "Free or controlled internet? The great DSA debate",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "10:05-10:30",
+  "start": "10:05",
+  "end": "10:30",
+  "where": "Stage 11 (Policy Summit), MEO Arena and FIL",
+  "place": "place:stage-11",
+  "track": "Policy Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:alexandra-geese",
+      "as_listed": "Alexandra Geese (MEP, The European Parliament)",
+      "role": "MEP",
+      "organisation": "The European Parliament",
+      "org": "organisation:the-european-parliament"
+    },
+    {
+      "person": "person:balazs-orban",
+      "as_listed": "Balázs Orban (MEP, European Parliament)",
+      "role": "MEP",
+      "organisation": "European Parliament",
+      "org": "organisation:the-european-parliament"
+    },
+    {
+      "person": "person:arba-kokalari",
+      "as_listed": "Arba Kokalari (MEP Group of the European People's Party, European Parliament)",
+      "role": "MEP Group of the European People's Party",
+      "organisation": "European Parliament",
+      "org": "organisation:the-european-parliament"
+    },
+    {
+      "person": "person:luc-chenier",
+      "as_listed": "Luc Chénier (CEO, Kyiv Post)",
+      "role": "CEO",
+      "organisation": "Kyiv Post",
+      "org": "organisation:kyiv-post"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/33c61f4c-b906-4056-aefa-ca2f45c27d55/free-or-controlled-internet-the-great-dsa-debate/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 42
+  }
+}

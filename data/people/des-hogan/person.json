@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "des-hogan",
+  "type": "person",
+  "name": "Des Hogan",
+  "role": "Commissioner",
+  "organisation": "Data Protection Commission",
+  "org": "company:data-protection-commission",
+  "listings": [
+    {
+      "role": "Commissioner",
+      "organisation": "Data Protection Commission",
+      "org": "company:data-protection-commission",
+      "event": "event:regulating-big-tech",
+      "source": "https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Commissioner",
+      "organisation": "Data Protection Commission",
+      "org": "company:data-protection-commission",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/eb1e98e2-9bd1-4609-9bf9-8d42d96789f6/des-hogan/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

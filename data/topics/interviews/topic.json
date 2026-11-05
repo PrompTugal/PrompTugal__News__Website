@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "interviews",
+  "type": "topic",
+  "name": "Interviews and podcasts",
+  "kind": "beat",
+  "description": "Original conversations with people at the summit, published only with their approval.",
+  "broader": [],
+  "summit_tracks": [],
+  "source": "content/brief/03-what-we-publish.md",
+  "beat": "interviews"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "abhinav-gupta",
+  "type": "person",
+  "name": "Abhinav Gupta",
+  "role": "Co founder, President",
+  "organisation": "Skild AI",
+  "org": "organisation:skild-ai",
+  "listings": [
+    {
+      "role": "Co founder, President",
+      "organisation": "Skild AI",
+      "org": "organisation:skild-ai",
+      "event": "event:when-ai-leaves-the-screen",
+      "source": "https://websummit.com/sessions/lis26/5075321d-09ce-4de9-8c72-42f1a924b422/when-ai-leaves-the-screen/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

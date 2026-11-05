@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "1password",
+  "type": "company",
+  "name": "1Password",
+  "website": "https://www.1password.com",
+  "what": "Secures every identity, from people to AI agents: passwords, passkeys and secrets for over 150,000 businesses, and a security layer for how agents authenticate and connect to the internet.",
+  "category": "security",
+  "country": "Canada",
+  "attending": "confirmed: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)",
+  "attending_as": "partner",
+  "field_sources": {
+    "name": [
+      "s1"
+    ],
+    "website": [
+      "s1"
+    ],
+    "what": [
+      "s2"
+    ],
+    "category": [
+      "s1"
+    ],
+    "country": [
+      "s1"
+    ],
+    "attending": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "attending_as": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "1Password",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

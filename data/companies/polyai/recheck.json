@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "polyai",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:50Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/",
+        "status": 200
+      },
+      "website": {
+        "url": "https://poly.ai/",
+        "status": 200
+      }
+    }
+  ]
+}

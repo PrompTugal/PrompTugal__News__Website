@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "romanian-tech-night-at-web-summit-lisbon-2026",
+  "type": "event",
+  "title": "Romanian Tech Night at Web Summit Lisbon 2026",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "18:30-21:30",
+  "start": "18:30",
+  "end": "21:30",
+  "where": "Centre of Lisbon",
+  "place": "place:lisbon",
+  "track": null,
+  "part_of": null,
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/63d139b3-d63c-40f4-9612-0e6f2cb873f9/romanian-tech-night-at-web-summit-lisbon-2026/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 158
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "rob-pegoraro",
+  "type": "person",
+  "name": "Rob Pegoraro",
+  "role": "Contributor",
+  "organisation": "PCMag",
+  "org": "organisation:pcmag",
+  "listings": [
+    {
+      "role": "Contributor",
+      "organisation": "PCMag",
+      "org": "organisation:pcmag",
+      "event": "event:who-holds-the-kill-switch",
+      "source": "https://websummit.com/sessions/lis26/53d083ac-79f1-48e0-8862-e236167233d8/who-holds-the-kill-switch/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

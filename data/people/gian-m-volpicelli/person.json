@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "gian-m-volpicelli",
+  "type": "person",
+  "name": "Gian M. Volpicelli",
+  "role": "Technology Reporter",
+  "organisation": "Bloomberg",
+  "org": "organisation:bloomberg",
+  "listings": [
+    {
+      "role": "Technology Reporter",
+      "organisation": "Bloomberg",
+      "org": "organisation:bloomberg",
+      "event": "event:building-the-infrastructure-for-ai-everywhere",
+      "source": "https://websummit.com/sessions/lis26/617cfe96-cb74-4140-a2ed-3eb06e43d066/building-the-infrastructure-for-ai-everywhere/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

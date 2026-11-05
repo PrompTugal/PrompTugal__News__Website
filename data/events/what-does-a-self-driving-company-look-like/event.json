@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "what-does-a-self-driving-company-look-like",
+  "type": "event",
+  "title": "What does a self-driving company look like?",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "16:00-16:20",
+  "start": "16:00",
+  "end": "16:20",
+  "where": "Stage 13 (AI Summit), MEO Arena and FIL",
+  "place": "place:stage-13",
+  "track": "AI Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:michele-catasta",
+      "as_listed": "Michele Catasta (President, Replit)",
+      "role": "President",
+      "organisation": "Replit",
+      "org": "company:replit"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/a54a6d5f-1f53-43fd-93c6-dd2c3d63a4fe/what-does-a-self-driving-company-look-like/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 86
+  }
+}

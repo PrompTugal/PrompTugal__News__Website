@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "nordvpn",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:50Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/2fad9e2b-9933-4f05-a09e-d4dda60587cb/zombie-data-how-your-data-comes-back-to-haunt-you/",
+        "status": 200
+      },
+      "website": {
+        "url": "https://nordvpn.com/",
+        "status": 200
+      }
+    }
+  ]
+}

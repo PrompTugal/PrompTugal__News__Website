@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/evidence.schema.json",
+  "title": "A research capture as the curator mapped it (data/evidence/<id>/capture.json)",
+  "description": "Source, beat and names only: the researcher's summary stays in the desk's file and the research vault.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "source_url",
+    "beat",
+    "names",
+    "desk_file",
+    "run",
+    "by"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "type": {
+      "const": "evidence"
+    },
+    "source_url": {
+      "$ref": "common.schema.json#/$defs/url"
+    },
+    "beat": {
+      "type": "string",
+      "minLength": 1
+    },
+    "group": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "as_listed",
+          "ref"
+        ],
+        "properties": {
+          "as_listed": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ref": {
+            "$ref": "common.schema.json#/$defs/org_ref"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "desk_file": {
+      "type": "string",
+      "minLength": 1
+    },
+    "run": {
+      "type": "string",
+      "minLength": 1
+    },
+    "by": {
+      "$ref": "common.schema.json#/$defs/agent"
+    },
+    "derived": {
+      "$ref": "common.schema.json#/$defs/derived"
+    }
+  },
+  "additionalProperties": false
+}

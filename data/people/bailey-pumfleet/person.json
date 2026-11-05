@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "bailey-pumfleet",
+  "type": "person",
+  "name": "Bailey Pumfleet",
+  "role": "CEO & Co-founder",
+  "organisation": "Cal.com",
+  "org": "organisation:cal-com",
+  "listings": [
+    {
+      "role": "CEO & Co-founder",
+      "organisation": "Cal.com",
+      "org": "organisation:cal-com",
+      "event": "event:open-or-closed-ai-models-which-types-of-future-do-they",
+      "source": "https://websummit.com/sessions/lis26/2465ed74-ae9c-4705-93dc-54bb7f8ae26d/open-or-closed-ai-models-which-types-of-future-do-they-represent-press-conference/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

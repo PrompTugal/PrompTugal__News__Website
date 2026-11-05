@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "make",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'Make AI agents work beyond the demo [Hosted by Make]', 11 Nov, Masterclasses, Masterclass 2, names Make as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/appearances/lis26/d3c491fd-2366-4215-b0c7-ce696b56f590/make/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: Make, Czechia, AI & machine learning, as listed by Web Summit; hosts the session",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s3",
+      "url": "https://websummit.com/attendees/lis26/d972f72e-cdba-4110-9e38-8352dfb5a7dc/valery-mezencev/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Valery Mezencev, Senior Product Marketing Manager, Make; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.make.com/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

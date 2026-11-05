@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "isobel-sita-lumsden",
+  "type": "person",
+  "name": "Isobel Sita-Lumsden",
+  "role": "Global Head of Business Marketing",
+  "organisation": "TikTok",
+  "org": "organisation:tiktok",
+  "listings": [
+    {
+      "role": "Global Head of Business Marketing",
+      "organisation": "TikTok",
+      "org": "organisation:tiktok",
+      "event": "event:the-new-battle-for-brand-influence",
+      "source": "https://websummit.com/sessions/lis26/d7a21b52-7826-4be2-8af2-e74a345f3e2b/the-new-battle-for-brand-influence/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

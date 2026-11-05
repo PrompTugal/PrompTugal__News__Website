@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "ai-sprawl-is-exploding-get-ahead-of-governance-and-security",
+  "type": "event",
+  "title": "AI sprawl is exploding. Get ahead of governance and security challenges before it’s boo late",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "15:26-15:37",
+  "start": "15:26",
+  "end": "15:37",
+  "where": "Stage 9 (Growth Summit), MEO Arena and FIL",
+  "place": "place:stage-9",
+  "track": "Growth Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:kevin-kiley",
+      "as_listed": "Kevin Kiley (CEO, Airia AI)",
+      "role": "CEO",
+      "organisation": "Airia AI",
+      "org": "company:airia"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 204
+  }
+}

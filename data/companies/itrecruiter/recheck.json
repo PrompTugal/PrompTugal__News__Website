@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "itrecruiter",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/7bb34358-e824-4ba9-8230-b5224117d717/itrecruiter",
+        "status": 200
+      },
+      "website": {
+        "url": "https://itrtechgroup.com/",
+        "status": 200
+      }
+    }
+  ]
+}

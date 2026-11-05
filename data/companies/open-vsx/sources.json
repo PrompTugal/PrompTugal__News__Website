@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "open-vsx",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'Building AI products without building everything [Hosted by Open VSX]', 12 Nov, Masterclasses, Masterclass 3, names Open VSX as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/appearances/lis26/3c2bc007-b2ef-4663-afc4-784153c25194/open-vsx-/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: Open VSX, Canada, AI & machine learning, as listed by Web Summit; hosts the session",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s3",
+      "url": "https://websummit.com/attendees/lis26/9666ba6e-6acf-4c01-8516-ac289f49a08c/jamie-ayala/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Jamie Ayala, Senior Product Marketing Manager, Open VSX; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s4",
+      "url": "https://open-vsx.org/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "its own site: the page title 'Open VSX Registry' and Eclipse Foundation page assets (the page has no description)",
+      "kind": "other"
+    },
+    {
+      "id": "s5",
+      "url": "https://websummit.com/attendees/lis26/34ee7d85-f385-479a-85af-70f661515a09/thomas-froment/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Thomas Froment, Program Lead, Development Tools, Eclipse Foundation; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    }
+  ]
+}

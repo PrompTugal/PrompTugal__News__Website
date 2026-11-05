@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "temporal",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/schedule/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "2026 schedule page lists the session and speaker",
+      "kind": "summit-list"
+    },
+    {
+      "id": "s2",
+      "url": "https://temporal.io/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site",
+      "kind": "other"
+    }
+  ]
+}

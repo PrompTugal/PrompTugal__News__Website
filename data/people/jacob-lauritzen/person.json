@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jacob-lauritzen",
+  "type": "person",
+  "name": "Jacob Lauritzen",
+  "role": "CTO",
+  "organisation": "Legora",
+  "org": "company:legora",
+  "listings": [
+    {
+      "role": "CTO",
+      "organisation": "Legora",
+      "org": "company:legora",
+      "event": "event:beyond-the-model-scaling-ai-agents-for-professional-work",
+      "source": "https://websummit.com/sessions/lis26/fad36198-b0af-4295-bec3-b7671b62e786/beyond-the-model-scaling-ai-agents-for-professional-work/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CTO",
+      "organisation": "Legora",
+      "org": "company:legora",
+      "event": "event:western-tech-all-is-not-lost",
+      "source": "https://websummit.com/sessions/lis26/f37463f8-5aab-4dfa-9c95-2c91596ebd38/western-tech-all-is-not-lost/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CTO",
+      "organisation": "Legora",
+      "org": "company:legora",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/f57385bd-ae81-4cc7-980c-dbc45e0f99f3/jacob-lauritzen/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

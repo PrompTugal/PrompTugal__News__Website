@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/nav.schema.json",
+  "title": "Navigation, footer and llms.txt groups (data/site/nav.json)",
+  "type": "object",
+  "required": [
+    "nav",
+    "footer",
+    "llms_groups"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nav": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "href",
+          "match"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/slug"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1
+          },
+          "match": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "footer": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "href"
+        ],
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "llms_groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "group",
+          "match"
+        ],
+        "properties": {
+          "group": {
+            "type": "string",
+            "minLength": 1
+          },
+          "match": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

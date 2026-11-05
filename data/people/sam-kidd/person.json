@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "sam-kidd",
+  "type": "person",
+  "name": "Sam Kidd",
+  "role": "CEO and Co-Founder",
+  "organisation": "LawVu",
+  "org": "company:lawvu",
+  "listings": [
+    {
+      "role": "CEO and Co-Founder",
+      "organisation": "LawVu",
+      "org": "company:lawvu",
+      "event": "event:who-takes-the-fall-for-autonomous-ai",
+      "source": "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/",
+      "read_at": "2026-11-04T20:03Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CEO and Co-Founder",
+      "organisation": "LawVu",
+      "org": "company:lawvu",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/086ed411-ba16-4da5-bb73-88542c7569ba/sam-kidd/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "european-commission",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:other",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:belgium",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs",
+      "note": "Belgium (EU)"
+    }
+  ]
+}

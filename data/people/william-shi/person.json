@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "william-shi",
+  "type": "person",
+  "name": "William Shi",
+  "role": "President",
+  "organisation": "AgiBot Europe",
+  "org": "organisation:agibot-europe",
+  "listings": [
+    {
+      "role": "President",
+      "organisation": "AgiBot Europe",
+      "org": "organisation:agibot-europe",
+      "event": "event:introducing-the-next-billion-workers",
+      "source": "https://websummit.com/sessions/lis26/813d70c7-2476-4ec4-85a1-fd371c3575d1/introducing-the-next-billion-workers/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "when-ai-builds-itself",
+  "type": "event",
+  "title": "When AI builds itself",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "10:00-10:20",
+  "start": "10:00",
+  "end": "10:20",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:richard-socher",
+      "as_listed": "Richard Socher (Co-founder & CEO, Recursive & You.com)",
+      "role": "Co-founder & CEO",
+      "organisation": "Recursive & You.com",
+      "org": "company:you-com"
+    },
+    {
+      "person": "person:kate-knibbs",
+      "as_listed": "Kate Knibbs (Senior Writer, Wired)",
+      "role": "Senior Writer",
+      "organisation": "Wired",
+      "org": "organisation:wired"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/e7e83ab8-8381-419f-a688-23025a1c8422/when-ai-builds-itself/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 38
+  }
+}

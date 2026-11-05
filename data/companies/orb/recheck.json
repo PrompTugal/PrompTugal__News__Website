@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "orb",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:47Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/7e0253ff-de6e-44fa-b878-e7256e0d817b/orb",
+        "status": 200
+      },
+      "website": {
+        "url": "https://withorb.com",
+        "status": 200
+      }
+    }
+  ]
+}

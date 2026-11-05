@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "you-com",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/attendees/lis26/2a414db4-1197-4b71-8570-1a2b6eb96714/richard-socher",
+        "status": 200
+      },
+      "website": {
+        "url": "https://you.com/",
+        "status": 200
+      }
+    }
+  ]
+}

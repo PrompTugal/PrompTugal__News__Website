@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "lenovo",
+  "type": "organisation",
+  "name": "LEnovo",
+  "names_as_listed": [
+    "LEnovo",
+    "Lenovo"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/1524845c-370e-4161-b2c3-b7a38c6aaf85/building-a-secure-device-foundation-for-ai-hosted-by-lenovo/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

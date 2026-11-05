@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-real-threat-isn-t-a-nation-state-it-s-a-teenager",
+  "type": "event",
+  "title": "The real threat isn’t a nation-state, it’s a teenager.",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "14:55-15:25",
+  "start": "14:55",
+  "end": "15:25",
+  "where": "Stage 8 (Cybersecurity Summit), MEO Arena and FIL",
+  "place": "place:stage-8",
+  "track": "Cybersecurity Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:john-madelin",
+      "as_listed": "John Madelin (Chief Product Officer, The Hacking Games)",
+      "role": "Chief Product Officer",
+      "organisation": "The Hacking Games",
+      "org": "company:the-hacking-games"
+    },
+    {
+      "person": "person:conor-freeman",
+      "as_listed": "Conor Freeman (Former Black Hat Hacker & Offensive Security Lead, The Hacking Games)",
+      "role": "Former Black Hat Hacker & Offensive Security Lead",
+      "organisation": "The Hacking Games",
+      "org": "company:the-hacking-games"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 199
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ania-lichtarowicz",
+  "type": "person",
+  "name": "Ania Lichtarowicz",
+  "role": "Managing Director and Editor",
+  "organisation": "Somewhere on Earth: The Tech Global Podcast",
+  "org": "organisation:somewhere-on-earth-the-tech-global-podcast",
+  "listings": [
+    {
+      "role": "Managing Director and Editor",
+      "organisation": "Somewhere on Earth: The Tech Global Podcast",
+      "org": "organisation:somewhere-on-earth-the-tech-global-podcast",
+      "event": "event:coaching-an-ai-agent-like-human-talent",
+      "source": "https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

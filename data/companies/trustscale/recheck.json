@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "trustscale",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:49Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/4a442f4c-c3da-4c62-89ad-b65cc22f988b/whose-ai-is-it-anyway/",
+        "status": 404
+      },
+      "website": {
+        "url": "https://trustscale.ai/",
+        "status": 200
+      }
+    }
+  ]
+}

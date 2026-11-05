@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/company-facts.schema.json",
+  "title": "A company's dated claims (data/companies/<id>/facts.json)",
+  "type": "object",
+  "required": [
+    "company",
+    "facts"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "company": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "claim",
+          "source",
+          "read_on",
+          "by"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "read_on": {
+            "$ref": "common.schema.json#/$defs/date"
+          },
+          "by": {
+            "$ref": "common.schema.json#/$defs/agent"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

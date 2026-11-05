@@ -1,0 +1,11 @@
+{
+  "$schema": "../schemas/curation-events.schema.json",
+  "about": "Hand-made rules the derivation applies to the programme desk's agenda: which umbrella event an item is part of, and kinds the desk's own labels do not give. Each rule names its reason.",
+  "part_of": [
+    { "parent": "event:web-summit-lisbon-2026", "when": { "organiser": "web-summit" }, "why": "Every item of the official programme is part of the summit." },
+    { "parent_source_url": "https://portugaltechweek.com/", "when": { "source_prefix": "https://portugaltechweek.com/events/" }, "why": "Listed on Portugal Tech Week's own site as one of its events." }
+  ],
+  "kind": [
+    { "source_url": "https://portugaltechweek.com/", "kind": "festival", "why": "Portugal Tech Week is a ten-day umbrella of events (6 to 15 November), not one event." }
+  ]
+}

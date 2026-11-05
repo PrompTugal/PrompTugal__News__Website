@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "roost",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/913b8fc9-7e6c-4a2f-96a4-df52b6bd2942/the-attackers-are-open-source-the-defences-aren-t/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'The attackers are open source. The defences aren't.', 12 Nov, Cybersecurity Summit, Stage 8, names ROOST as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/3a9f8e0b-7ec5-4dc9-b5ec-5729164cf22f/anne-bertucio-de-hollembeak/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Anne Bertucio de Hollembeak, Chief Operating Officer, Robust Open Online Safety Tools; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://roost.tools/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

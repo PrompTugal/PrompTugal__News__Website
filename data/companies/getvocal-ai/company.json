@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "getvocal-ai",
+  "type": "company",
+  "name": "GetVocal AI",
+  "website": "https://www.getvocal.ai",
+  "what": "Platform for enterprise contact centres that models how a business works and orchestrates an AI fleet across channels with a human-AI flywheel; customers include Deutsche Telekom and Glovo.",
+  "category": "ai-agents",
+  "country": "France",
+  "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+  "attending_as": "startup (growth)",
+  "field_sources": {
+    "name": [
+      "s1"
+    ],
+    "website": [
+      "s1"
+    ],
+    "what": [
+      "s2"
+    ],
+    "category": [
+      "s1"
+    ],
+    "country": [
+      "s1"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "GetVocal AI",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

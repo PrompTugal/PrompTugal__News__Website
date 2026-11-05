@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "harry-mccracken",
+  "type": "person",
+  "name": "Harry McCracken",
+  "role": "Technology Editor",
+  "organisation": "Fast Company",
+  "org": "organisation:fast-company",
+  "listings": [
+    {
+      "role": "Technology Editor",
+      "organisation": "Fast Company",
+      "org": "organisation:fast-company",
+      "event": "event:maintaining-the-human-in-an-ai-world",
+      "source": "https://websummit.com/sessions/lis26/10c045d7-d2d8-40ce-aecb-26a9b3a21639/maintaining-the-human-in-an-ai-world/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Technology Editor",
+      "organisation": "Fast Company",
+      "org": "organisation:fast-company",
+      "event": "event:the-future-of-enterprise-software-has-no-middleman",
+      "source": "https://websummit.com/sessions/lis26/429fd0a1-0795-4bd1-aeee-876ad199ae13/the-future-of-enterprise-software-has-no-middleman/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

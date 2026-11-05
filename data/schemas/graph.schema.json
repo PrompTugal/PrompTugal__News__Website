@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/graph.schema.json",
+  "title": "A graph (/api/v1/graph/**.json)",
+  "description": "{nodes, edges}: the same node ids and edge objects at every zoom; a view is a subgraph of whole.json.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "version",
+    "grammar",
+    "counts",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "grammar": {
+      "type": "string",
+      "minLength": 1
+    },
+    "focus": {
+      "type": "string",
+      "minLength": 1
+    },
+    "counts": {
+      "type": "object"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "label",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/ref"
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/url_or_path"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "from",
+          "to",
+          "verb",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "from": {
+            "$ref": "common.schema.json#/$defs/ref"
+          },
+          "to": {
+            "$ref": "common.schema.json#/$defs/ref"
+          },
+          "verb": {
+            "type": "string",
+            "pattern": "^[a-z_]+$"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/url_or_path"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

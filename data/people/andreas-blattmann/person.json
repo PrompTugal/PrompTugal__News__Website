@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "andreas-blattmann",
+  "type": "person",
+  "name": "Andreas Blattmann",
+  "role": "Co Founder",
+  "organisation": "Black Forest Labs",
+  "org": "organisation:black-forest-labs",
+  "listings": [
+    {
+      "role": "Co Founder",
+      "organisation": "Black Forest Labs",
+      "org": "organisation:black-forest-labs",
+      "event": "event:teaching-ai-to-see-the-world",
+      "source": "https://websummit.com/sessions/lis26/f7c10557-4911-481f-813d-261c09c40daf/teaching-ai-to-see-the-world/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

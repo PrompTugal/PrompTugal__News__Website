@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/common.schema.json",
+  "title": "Shared definitions",
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9-]*$"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "url_or_path": {
+      "type": "string",
+      "pattern": "^(https?://\\S+|[a-z0-9_./-]+)$"
+    },
+    "agent": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+@web-summit(\\.[a-z0-9-]+)?$"
+    },
+    "ref": {
+      "type": "string",
+      "pattern": "^(company|organisation|person|event|place|topic|story|evidence|article|day|track|fact|source):[A-Za-z0-9][A-Za-z0-9-]*$"
+    },
+    "company_ref": {
+      "type": "string",
+      "pattern": "^company:[a-z0-9-]+$"
+    },
+    "org_ref": {
+      "type": "string",
+      "pattern": "^(company|organisation):[a-z0-9-]+$"
+    },
+    "place_ref": {
+      "type": "string",
+      "pattern": "^place:[a-z0-9-]+$"
+    },
+    "topic_ref": {
+      "type": "string",
+      "pattern": "^topic:[a-z0-9-]+$"
+    },
+    "event_ref": {
+      "type": "string",
+      "pattern": "^event:[a-z0-9-]+$"
+    },
+    "derived": {
+      "type": "object",
+      "required": [
+        "by",
+        "from"
+      ],
+      "properties": {
+        "by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "from": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "item": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "schema_link": {
+      "type": "string"
+    },
+    "read_at": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/datetime"
+        },
+        {
+          "$ref": "#/$defs/date"
+        }
+      ],
+      "description": "when it was read: a UTC time, or a day where the reader recorded only the day"
+    }
+  }
+}

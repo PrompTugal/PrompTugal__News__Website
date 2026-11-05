@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "how-this-newsroom-is-made",
+  "type": "topic",
+  "name": "How this newsroom is made",
+  "kind": "beat",
+  "description": "The agentic team, its policies in action, its near misses, the vaults and the keys.",
+  "broader": [],
+  "summit_tracks": [],
+  "source": "content/brief/03-what-we-publish.md",
+  "beat": "newsroom"
+}

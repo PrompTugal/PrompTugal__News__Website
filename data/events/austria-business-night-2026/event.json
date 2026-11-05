@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "austria-business-night-2026",
+  "type": "event",
+  "title": "AUSTRIA BUSINESS NIGHT 2026",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "17:00-19:00",
+  "start": "17:00",
+  "end": "19:00",
+  "where": "Centro Vasco de Gama",
+  "place": "place:centro-vasco-de-gama",
+  "track": null,
+  "part_of": null,
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/48bef612-6641-495b-a025-d4a684f40d3e/austria-business-night-2026/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 93
+  }
+}

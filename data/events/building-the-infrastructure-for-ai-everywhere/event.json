@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "building-the-infrastructure-for-ai-everywhere",
+  "type": "event",
+  "title": "Building the infrastructure for AI everywhere",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "16:35-16:55",
+  "start": "16:35",
+  "end": "16:55",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:rene-haas",
+      "as_listed": "Rene Haas (CEO, Arm Ltd.)",
+      "role": "CEO",
+      "organisation": "Arm Ltd.",
+      "org": "organisation:arm-ltd"
+    },
+    {
+      "person": "person:gian-m-volpicelli",
+      "as_listed": "Gian M. Volpicelli (Technology Reporter, Bloomberg)",
+      "role": "Technology Reporter",
+      "organisation": "Bloomberg",
+      "org": "organisation:bloomberg"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/617cfe96-cb74-4140-a2ed-3eb06e43d066/building-the-infrastructure-for-ai-everywhere/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 153
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "atlassian",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:47Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/6cce6c44-be71-48b5-814e-b320efc7cb7e/atlassian",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.atlassian.com",
+        "status": 200
+      }
+    }
+  ]
+}

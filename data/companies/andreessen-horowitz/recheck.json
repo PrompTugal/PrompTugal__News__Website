@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "andreessen-horowitz",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "website": {
+        "url": "https://a16z.com/",
+        "status": 200
+      }
+    }
+  ]
+}

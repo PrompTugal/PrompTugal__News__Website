@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "eleanor-pringle",
+  "type": "person",
+  "name": "Eleanor Pringle",
+  "role": "Senior Reporter Economics and Markets",
+  "organisation": "Fortune",
+  "org": "organisation:fortune",
+  "listings": [
+    {
+      "role": "Senior Reporter Economics and Markets",
+      "organisation": "Fortune",
+      "org": "organisation:fortune",
+      "event": "event:the-next-digital-frontier",
+      "source": "https://websummit.com/sessions/lis26/2b66ba08-e60a-43a0-9f78-8f81c380af59/the-next-digital-frontier/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

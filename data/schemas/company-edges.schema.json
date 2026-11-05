@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/company-edges.schema.json",
+  "title": "A company's typed links (data/companies/<id>/edges.json)",
+  "description": "Each edge has either a typed target (to) or a URL the build resolves to an event (to_url).",
+  "type": "object",
+  "required": [
+    "company",
+    "edges"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "company": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "verb",
+          "source",
+          "by"
+        ],
+        "properties": {
+          "verb": {
+            "enum": [
+              "filed_under",
+              "based_in",
+              "appears_in",
+              "hosts"
+            ]
+          },
+          "to": {
+            "$ref": "common.schema.json#/$defs/ref"
+          },
+          "to_url": {
+            "$ref": "common.schema.json#/$defs/url"
+          },
+          "source": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "by": {
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

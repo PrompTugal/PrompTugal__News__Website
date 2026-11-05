@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "cloudflare",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/attendees/lis26/34a6f338-b5be-4983-935e-f6eeffb20b2a/matthew-prince",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.cloudflare.com/",
+        "status": 200
+      }
+    }
+  ]
+}

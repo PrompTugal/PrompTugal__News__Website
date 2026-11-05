@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "union-square-ventures",
+  "type": "organisation",
+  "name": "Union Square Ventures",
+  "names_as_listed": [
+    "Union Square Ventures"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/ade9bf3d-1caa-4e42-8413-ab6fff5e1e96/building-a-star-trek-vision/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

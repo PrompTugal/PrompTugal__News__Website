@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "will-tech-save-the-energy-sector-or-break-it",
+  "type": "event",
+  "title": "Will tech save the energy sector or break it?",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "11:20-11:45",
+  "start": "11:20",
+  "end": "11:45",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:jake-jurewicz",
+      "as_listed": "Jake Jurewicz (Co-Founder & CEO, Blue Energy)",
+      "role": "Co-Founder & CEO",
+      "organisation": "Blue Energy",
+      "org": "organisation:blue-energy"
+    },
+    {
+      "person": "person:greg-piefer",
+      "as_listed": "Greg Piefer (Founder & CEO, SHINE Technologies)",
+      "role": "Founder & CEO",
+      "organisation": "SHINE Technologies",
+      "org": "organisation:shine-technologies"
+    },
+    {
+      "person": "person:laureen-meroueh",
+      "as_listed": "Laureen Meroueh (Founder & CEO, Hertha Metals)",
+      "role": "Founder & CEO",
+      "organisation": "Hertha Metals",
+      "org": "organisation:hertha-metals"
+    },
+    {
+      "person": "person:pascale-davies",
+      "as_listed": "Pascale Davies (Senior Tech Reporter, Euronews)",
+      "role": "Senior Tech Reporter",
+      "organisation": "Euronews",
+      "org": "organisation:euronews"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/a23706f0-40be-41f8-b6ca-9881732130f5/will-tech-save-the-energy-sector-or-break-it/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 175
+  }
+}

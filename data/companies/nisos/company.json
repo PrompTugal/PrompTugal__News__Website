@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "nisos",
+  "type": "company",
+  "name": "Nisos",
+  "website": null,
+  "what": "Open source intelligence company that unmasks digital threats and the real people behind them (from its CEO's Web Summit bio; its site refused an automated read of robots.txt, so nothing from it was read).",
+  "category": "security",
+  "country": "United States",
+  "attending": "confirmed: Ryan LaSalle (CEO) is listed on the LIS26 session page 'Is there a foreign operative on your payroll?'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s1",
+      "s2"
+    ],
+    "what": [
+      "s1",
+      "s2"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Nisos",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

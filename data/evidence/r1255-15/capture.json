@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "r1255-15",
+  "type": "evidence",
+  "source_url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
+  "beat": "portugal",
+  "group": "G6 Portuguese startups raising",
+  "names": [
+    {
+      "as_listed": "Granter",
+      "ref": "organisation:granter"
+    },
+    {
+      "as_listed": "3xP Global (Impact Innovation Fund)",
+      "ref": "organisation:3xp-global"
+    },
+    {
+      "as_listed": "Banco Português de Fomento",
+      "ref": "organisation:banco-portugues-de-fomento"
+    },
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-04-1945.json",
+  "run": "2026-11-04T19:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1945.json"
+    ]
+  }
+}

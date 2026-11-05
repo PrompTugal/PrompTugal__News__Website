@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "tao-zhang",
+  "type": "person",
+  "name": "Tao Zhang",
+  "role": "Co-founder & CPO",
+  "organisation": "Manus AI",
+  "org": "company:manus-ai",
+  "listings": [
+    {
+      "role": "Co-founder & CPO",
+      "organisation": "Manus AI",
+      "org": "company:manus-ai",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/b293ad86-071e-4c48-8786-5486e3ceb04e/tao-zhang",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

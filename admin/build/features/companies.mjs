@@ -1,21 +1,20 @@
-// The companies (build step 3): data/companies.json, public facts only, each with its source and date read.
+// The companies (build step 3): data/companies/<id>/, public facts only, each with its source and date read.
 export const order = 30
 
 const CATEGORY = { 'ai-agents': 'AI agents', security: 'Security', devtools: 'Developer tools', grc: 'Governance, risk and compliance', 'portugal-startup': 'Portuguese startups', platform: 'Platforms', investor: 'Investors', other: 'Other' }
-let C
-const load = ctx => C || (C = ctx.exists('data/companies.json') ? ctx.readJSON('data/companies.json') : { companies: [] })
+const load = ctx => ({ companies: ctx.store.companies })
 
 export function pages(ctx) {
     const { AGENT, TEAM_SITE } = ctx, cell = ctx.md.cell
     const ATTENDING = a => a === 'unknown' ? 'a participant (the role is not stated in our sources)' : cell(a).replace(/^speaker's company/, "a speaker's company").replace(/^startup \(growth\)/, 'a startup (GROWTH programme)').replace(/^partner/, 'a partner')
     return load(ctx).companies.map(x => {
-        const chk = x.recheck || {}
+        const chk = x.recheck[x.recheck.length - 1] || {}
         const sp = chk.summit_page, ws = chk.website
         return {
-            src: 'data/companies.json', rel: `companies/${x.id}/index.html`, type: 'company',
+            src: `data/companies/${x.id}/company.json`, rel: `companies/${x.id}/index.html`, type: 'company',
             crumbs: [['companies/index.html', 'Companies'], [null, x.name]],
             title: x.name, summary: `Based in ${cell(x.country)}; at Web Summit Lisbon 2026 as ${ATTENDING(x.attending_as)}. Public facts only, each with its source.`,
-            md: `| | |\n|---|---|\n| **What they do** | ${cell(x.what)} |\n| **Based in** | ${cell(x.country)} |\n| **At Web Summit as** | ${ATTENDING(x.attending_as)} |\n| **Confirmed for 2026** | ${cell(x.attending).replace(/^confirmed: /, 'Yes: ').replace(/^unconfirmed: /, 'Not yet: ')} |\n| **Website** | [${cell(x.website).replace(/^https?:\/\/(www\.)?|\/$/g, '')}](${x.website}) |\n| **Filed under** | [${CATEGORY[x.category] || x.category}](../index.md#${x.category}) |\n\n` +
+            md: `| | |\n|---|---|\n| **What they do** | ${cell(x.what)} |\n| **Based in** | ${cell(x.country)} |\n| **At Web Summit as** | ${ATTENDING(x.attending_as)} |\n| **Confirmed for 2026** | ${cell(x.attending).replace(/^confirmed: /, 'Yes: ').replace(/^unconfirmed: /, 'Not yet: ')} |\n| **Website** | ${x.website ? `[${cell(x.website).replace(/^https?:\/\/(www\.)?|\/$/g, '')}](${x.website})` : 'not in our sources'} |\n| **Filed under** | [${CATEGORY[x.category] || x.category}](../index.md#${x.category}) |\n\n` +
                 `## Our question for them {#question}\n\nAs for every company we follow, three questions, not claims: what can their AI agents (or their customers' agents) actually reach, what were they authorised to do, and who controls the gap between the two? We have not asked ${cell(x.name)} yet. When they answer, it goes here.\n\n` +
                 `## Where this comes from {#sources}\n\n` +
                 x.sources.map(s => `- [${cell(s.url).replace(/^https?:\/\//, '').slice(0, 70)}](${s.url}), read ${s.read_on} by the team's curator: ${cell(s.supports || s.what || '')}.`).join('\n') +

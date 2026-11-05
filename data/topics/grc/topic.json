@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "grc",
+  "type": "topic",
+  "name": "Governance, risk and compliance",
+  "kind": "field",
+  "description": "Governance, risk, compliance and the regulation of AI, where RiskMandate's questions sit.",
+  "broader": [],
+  "summit_tracks": [],
+  "source": "data/companies/",
+  "category": "grc"
+}

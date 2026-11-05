@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "george-kurtz",
+  "type": "person",
+  "name": "George Kurtz",
+  "role": "Co-founder & CEO",
+  "organisation": "CrowdStrike",
+  "org": "company:crowdstrike",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "CrowdStrike",
+      "org": "company:crowdstrike",
+      "event": "event:the-best-offense-is-a-machine-speed-defence",
+      "source": "https://websummit.com/sessions/lis26/6f0e0dd5-bb66-4e98-8edd-46ae99310f08/the-best-offense-is-a-machine-speed-defence/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "CrowdStrike",
+      "org": "company:crowdstrike",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/bd793867-29f9-4c1a-b1dc-753cfd598717/george-kurtz",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

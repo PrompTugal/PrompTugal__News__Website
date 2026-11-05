@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "delta-labs",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:47Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/bd5d6340-e86f-42c3-9f55-1f9ad5d24172/delta-labs",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.delta-labs.ch",
+        "status": 200
+      }
+    }
+  ]
+}

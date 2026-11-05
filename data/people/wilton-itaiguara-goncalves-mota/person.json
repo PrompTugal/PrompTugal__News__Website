@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "wilton-itaiguara-goncalves-mota",
+  "type": "person",
+  "name": "Wilton Itaiguara Gonçalves Mota",
+  "role": "President and CEO",
+  "organisation": "Serpro",
+  "org": "organisation:serpro",
+  "listings": [
+    {
+      "role": "President and CEO",
+      "organisation": "Serpro",
+      "org": "organisation:serpro",
+      "event": "event:brazil-s-blueprint-for-cyber-resilience",
+      "source": "https://websummit.com/sessions/lis26/dea217b2-6cf6-4b44-b508-d04754c0b367/brazil-s-blueprint-for-cyber-resilience/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

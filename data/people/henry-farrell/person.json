@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "henry-farrell",
+  "type": "person",
+  "name": "Henry Farrell",
+  "role": "SNF Agora Institute Professor of International Affairs",
+  "organisation": "John Hopkins University",
+  "org": "organisation:john-hopkins-university",
+  "listings": [
+    {
+      "role": "SNF Agora Institute Professor of International Affairs",
+      "organisation": "John Hopkins University",
+      "org": "organisation:john-hopkins-university",
+      "event": "event:the-last-days-of-the-rules-based-order",
+      "source": "https://websummit.com/sessions/lis26/e293c05f-8c11-4231-abcd-a35cf6392fec/the-last-days-of-the-rules-based-order/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

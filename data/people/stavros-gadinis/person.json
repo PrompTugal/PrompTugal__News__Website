@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "stavros-gadinis",
+  "type": "person",
+  "name": "Stavros Gadinis",
+  "role": "George R. Johnson Professor of Law Faculty Director of the Berkeley Center for Law and Business",
+  "organisation": "Berkeley Center for Law and Business",
+  "org": "organisation:berkeley-center-for-law-and-business",
+  "listings": [
+    {
+      "role": "George R. Johnson Professor of Law Faculty Director of the Berkeley Center for Law and Business",
+      "organisation": "Berkeley Center for Law and Business",
+      "org": "organisation:berkeley-center-for-law-and-business",
+      "event": "event:who-takes-the-fall-for-autonomous-ai",
+      "source": "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/",
+      "read_at": "2026-11-04T20:03Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "rohit-sharma",
+  "type": "person",
+  "name": "Rohit Sharma",
+  "role": "Partner",
+  "organisation": "True Ventures",
+  "org": "organisation:true-ventures",
+  "listings": [
+    {
+      "role": "Partner",
+      "organisation": "True Ventures",
+      "org": "organisation:true-ventures",
+      "event": "event:the-open-source-advantage",
+      "source": "https://websummit.com/sessions/lis26/67bf8048-752a-43d1-84fc-7a03cfdd45ad/the-open-source-advantage/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

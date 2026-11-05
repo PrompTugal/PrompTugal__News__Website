@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "lawrence-snapp",
+  "type": "person",
+  "name": "Lawrence Snapp",
+  "role": "CEO",
+  "organisation": "TrustScale",
+  "org": "company:trustscale",
+  "listings": [
+    {
+      "role": "CEO",
+      "organisation": "TrustScale",
+      "org": "company:trustscale",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/082936d1-864f-4401-8692-2ba1dea5dcd2/lawrence-snapp/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "persona",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:security",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:united-states",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "appears_in",
+      "to_url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "appears_in",
+      "to_url": "https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/",
+      "source": "s3",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

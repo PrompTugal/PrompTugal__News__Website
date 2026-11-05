@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "portugal-startup",
+  "type": "topic",
+  "name": "Portuguese startups",
+  "kind": "field",
+  "description": "Startups from Portugal at the summit.",
+  "broader": [
+    "topic:portugal",
+    "topic:startups"
+  ],
+  "summit_tracks": [],
+  "source": "data/companies/",
+  "category": "portugal-startup"
+}

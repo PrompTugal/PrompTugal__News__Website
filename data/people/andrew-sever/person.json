@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "andrew-sever",
+  "type": "person",
+  "name": "Andrew Sever",
+  "role": "Co-founder and CEO",
+  "organisation": "Sumsub",
+  "org": "company:sumsub",
+  "listings": [
+    {
+      "role": "Co-founder and CEO",
+      "organisation": "Sumsub",
+      "org": "company:sumsub",
+      "event": "event:an-ai-identity-crisis",
+      "source": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder and CEO",
+      "organisation": "Sumsub",
+      "org": "company:sumsub",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/52d5c038-ff5b-4bc0-9410-ff9a7ec7870d/andrew-sever/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "financial-times",
+  "type": "organisation",
+  "name": "Financial Times",
+  "names_as_listed": [
+    "Financial Times"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

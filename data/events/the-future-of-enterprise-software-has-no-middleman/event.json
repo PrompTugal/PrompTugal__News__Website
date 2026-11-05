@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-future-of-enterprise-software-has-no-middleman",
+  "type": "event",
+  "title": "The future of enterprise software has no middleman",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "10:00-10:20",
+  "start": "10:00",
+  "end": "10:20",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:anton-osika",
+      "as_listed": "Anton Osika (Co-founder & CEO, Lovable)",
+      "role": "Co-founder & CEO",
+      "organisation": "Lovable",
+      "org": "organisation:lovable"
+    },
+    {
+      "person": "person:harry-mccracken",
+      "as_listed": "Harry McCracken (Technology Editor, Fast Company)",
+      "role": "Technology Editor",
+      "organisation": "Fast Company",
+      "org": "organisation:fast-company"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/429fd0a1-0795-4bd1-aeee-876ad199ae13/the-future-of-enterprise-software-has-no-middleman/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 107
+  }
+}

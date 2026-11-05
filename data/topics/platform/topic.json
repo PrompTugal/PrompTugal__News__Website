@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "platform",
+  "type": "topic",
+  "name": "Platforms",
+  "kind": "field",
+  "description": "Large platforms and cloud providers.",
+  "broader": [],
+  "summit_tracks": [],
+  "source": "data/companies/",
+  "category": "platform"
+}

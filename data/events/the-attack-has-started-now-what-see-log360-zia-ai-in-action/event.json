@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-attack-has-started-now-what-see-log360-zia-ai-in-action",
+  "type": "event",
+  "title": "The attack has started, now what? See Log360 & Zia AI in action [Hosted by ManageEngine]",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "12:30-13:15",
+  "start": "12:30",
+  "end": "13:15",
+  "where": "Masterclass 4 (Masterclasses), MEO Arena and FIL",
+  "place": "place:masterclass-4",
+  "track": "Masterclasses",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:jose-fonseca",
+      "as_listed": "José Fonseca (Technical Expert, ManageEngine)",
+      "role": "Technical Expert",
+      "organisation": "ManageEngine",
+      "org": "company:manageengine"
+    }
+  ],
+  "hosted_by": [
+    {
+      "org": "company:manageengine",
+      "as_listed": "ManageEngine",
+      "source": "https://websummit.com/sessions/lis26/2ac488bf-54c0-4eaa-bedc-5dd271625643/the-attack-has-started-now-what-see-log360-zia-ai-in-action-hosted-by-manageengine/"
+    }
+  ],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/2ac488bf-54c0-4eaa-bedc-5dd271625643/the-attack-has-started-now-what-see-log360-zia-ai-in-action-hosted-by-manageengine/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 62
+  }
+}

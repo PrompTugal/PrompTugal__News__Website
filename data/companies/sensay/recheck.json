@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "sensay",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:47Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/439fcb0f-32ae-43f4-b4db-31a9f53e276b/sensay",
+        "status": 0
+      },
+      "website": {
+        "url": "https://sensay.io",
+        "status": 200
+      }
+    }
+  ]
+}

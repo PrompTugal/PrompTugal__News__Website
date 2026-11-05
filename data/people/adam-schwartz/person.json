@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "adam-schwartz",
+  "type": "person",
+  "name": "Adam Schwartz",
+  "role": "Co-Founder & CEO",
+  "organisation": "Parable",
+  "org": "organisation:parable",
+  "listings": [
+    {
+      "role": "Co-Founder & CEO",
+      "organisation": "Parable",
+      "org": "organisation:parable",
+      "event": "event:breakout-startups-6059c850",
+      "source": "https://websummit.com/sessions/lis26/6059c850-47b5-40eb-8525-f7f2fbb2aa32/breakout-startups/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

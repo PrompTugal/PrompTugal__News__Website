@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "government-of-portugal",
+  "type": "organisation",
+  "name": "Government of Portugal",
+  "names_as_listed": [
+    "Government of Portugal"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/2b66ba08-e60a-43a0-9f78-8f81c380af59/the-next-digital-frontier/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    },
+    {
+      "url": "https://websummit.com/sessions/lis26/be11c9f2-2f68-4ccb-818d-9a5056e0e147/the-portuguese-economic-success-story/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

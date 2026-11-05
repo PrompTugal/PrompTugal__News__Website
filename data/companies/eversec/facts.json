@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/company-facts.schema.json",
+  "company": "eversec",
+  "facts": [
+    {
+      "id": "f-s1",
+      "claim": "LIS26 session page (conferenceSlug lis26): 'Building security for the human-machine era', 10 Nov, Policy Summit, Stage 11, names Eversec Technology as the speaker's organisation",
+      "source": "s1",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s2",
+      "claim": "LIS26 attendee page: Xiaoguang Chen, Co-founder & CEO, Eversec Technology; country and industry as listed by Web Summit; public bio",
+      "source": "s2",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    }
+  ]
+}

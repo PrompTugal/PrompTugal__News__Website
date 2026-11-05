@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S9",
+  "type": "story",
+  "title": "About 200 Brazilian companies come to Lisbon for Web Summit",
+  "beat": "announcements",
+  "topic": "topic:announcements",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:v-apexbrasil-delegation"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-04-1955.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1955.json"
+    ]
+  }
+}

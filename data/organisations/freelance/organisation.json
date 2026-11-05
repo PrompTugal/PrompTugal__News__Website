@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "freelance",
+  "type": "organisation",
+  "name": "Freelance",
+  "names_as_listed": [
+    "Freelance"
+  ],
+  "marker": true,
+  "marker_note": "A listing placeholder (the card names no organisation), flagged and kept as listed.",
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

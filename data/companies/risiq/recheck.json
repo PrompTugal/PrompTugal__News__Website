@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "risiq",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/cb076b37-5421-4866-acb9-2b6ce756c78b/risiq-gmbh",
+        "status": 200
+      },
+      "website": {
+        "url": "https://risiq.de/",
+        "status": 200
+      }
+    }
+  ]
+}

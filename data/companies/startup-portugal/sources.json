@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "startup-portugal",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://executivedigest.sapo.pt/?p=800859",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "Road 2 Web Summit 2026: up to 125 startups, bootcamp, 50% off ALPHA/BETA, Galp prizes",
+      "kind": "other"
+    }
+  ]
+}

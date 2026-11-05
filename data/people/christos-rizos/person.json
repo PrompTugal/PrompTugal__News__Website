@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "christos-rizos",
+  "type": "person",
+  "name": "Christos Rizos",
+  "role": "Group Business Development Director, AI & Digital Solutions",
+  "organisation": "AustriaCard",
+  "org": "company:austriacard",
+  "listings": [
+    {
+      "role": "Group Business Development Director, AI & Digital Solutions",
+      "organisation": "AustriaCard",
+      "org": "company:austriacard",
+      "event": "event:ai-sovereignty-data-control-governance-and-predictable-ai",
+      "source": "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Group Business Development Director, AI & Digital Solutions",
+      "organisation": "AustriaCard",
+      "org": "company:austriacard",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/bba37b95-b83c-4e91-bba2-28ef9cc3e6a2/christos-rizos/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

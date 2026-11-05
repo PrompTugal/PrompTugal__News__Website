@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "double-agents-are-your-employees-ai-agents-working-for-or",
+  "type": "event",
+  "title": "Double agents: Are your employees' AI agents working for or against your business?",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "11:25-11:40",
+  "start": "11:25",
+  "end": "11:40",
+  "where": "Stage 4 (Future of Work Summit), MEO Arena and FIL",
+  "place": "place:stage-4",
+  "track": "Future of Work Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:jordi-romero",
+      "as_listed": "Jordi Romero (Co-founder & CEO, Factorial)",
+      "role": "Co-founder & CEO",
+      "organisation": "Factorial",
+      "org": "company:factorial"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/",
+  "read_at": "2026-11-04T20:03Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 50
+  }
+}

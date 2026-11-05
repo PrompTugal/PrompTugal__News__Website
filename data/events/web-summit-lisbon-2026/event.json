@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "web-summit-lisbon-2026",
+  "type": "event",
+  "title": "Web Summit Lisbon 2026",
+  "kind": "summit",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-09",
+  "end_date": "2026-11-12",
+  "time": null,
+  "where": "MEO Arena and FIL, Rossio dos Olivais, Parque das Nações, Lisbon",
+  "place": "place:meo-arena-and-fil",
+  "speakers": [],
+  "source_url": "https://websummit.com/essentials/venue-essentials/",
+  "read_at": "2026-11-01T00:00Z",
+  "read_by": "curator@web-summit",
+  "note": "Hand-written: the summit itself, 9 to 12 November 2026 (Opening Night on Monday 9, three conference days), as the summit's venue essentials give it. Every item of the official programme is part of it."
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "portugal",
+  "type": "topic",
+  "name": "Portugal",
+  "kind": "beat",
+  "description": "The Portuguese industry: news, startups, government support, the ecosystem.",
+  "broader": [],
+  "summit_tracks": [],
+  "source": "content/brief/03-what-we-publish.md",
+  "beat": "portugal"
+}

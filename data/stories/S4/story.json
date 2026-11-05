@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S4",
+  "type": "story",
+  "title": "From the PITCH stage to new markets: Portuguese startups raising",
+  "beat": "portugal",
+  "topic": "topic:portugal",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:r1255-15",
+    "evidence:r1255-19",
+    "evidence:r1255-16"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-04-1945.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1945.json"
+    ]
+  }
+}

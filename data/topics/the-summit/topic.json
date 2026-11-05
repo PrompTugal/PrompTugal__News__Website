@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "the-summit",
+  "type": "topic",
+  "name": "The summit",
+  "kind": "beat",
+  "description": "What is on, day by day, and the logistics: venue, getting there, passes, the apps.",
+  "broader": [],
+  "summit_tracks": [],
+  "source": "content/brief/03-what-we-publish.md",
+  "beat": "summit"
+}

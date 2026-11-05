@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "r1546-02",
+  "type": "evidence",
+  "source_url": "https://english.rvo.nl/events/web-summit-2026-lisbon",
+  "beat": "europe",
+  "group": "G5 Europe at the summit",
+  "names": [
+    {
+      "as_listed": "Netherlands Enterprise Agency (RVO)",
+      "ref": "organisation:netherlands-enterprise-agency"
+    },
+    {
+      "as_listed": "Dutch Ministry of Foreign Affairs",
+      "ref": "organisation:dutch-ministry-of-foreign-affairs"
+    },
+    {
+      "as_listed": "Embassy of the Netherlands in Lisbon",
+      "ref": "organisation:embassy-of-the-netherlands-in-lisbon"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-04-1945.json",
+  "run": "2026-11-04T19:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1945.json"
+    ]
+  }
+}

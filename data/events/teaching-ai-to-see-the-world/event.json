@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "teaching-ai-to-see-the-world",
+  "type": "event",
+  "title": "Teaching AI to see the world",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "12:30-12:50",
+  "start": "12:30",
+  "end": "12:50",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:andreas-blattmann",
+      "as_listed": "Andreas Blattmann (Co Founder, Black Forest Labs)",
+      "role": "Co Founder",
+      "organisation": "Black Forest Labs",
+      "org": "organisation:black-forest-labs"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/f7c10557-4911-481f-813d-261c09c40daf/teaching-ai-to-see-the-world/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 134
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "lovable",
+  "type": "organisation",
+  "name": "Lovable",
+  "names_as_listed": [
+    "Lovable"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/429fd0a1-0795-4bd1-aeee-876ad199ae13/the-future-of-enterprise-software-has-no-middleman/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

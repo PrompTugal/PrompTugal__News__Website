@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "nicholas-muy",
+  "type": "person",
+  "name": "Nicholas Muy",
+  "role": "CISO",
+  "organisation": "Scrut Automation",
+  "org": "company:scrut-automation",
+  "listings": [
+    {
+      "role": "CISO",
+      "organisation": "Scrut Automation",
+      "org": "company:scrut-automation",
+      "event": "event:the-biological-bottleneck",
+      "source": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CISO",
+      "organisation": "Scrut Automation",
+      "org": "company:scrut-automation",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/056fe625-28f3-4f70-bc2a-a429d44c3361/nicholas-muy/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

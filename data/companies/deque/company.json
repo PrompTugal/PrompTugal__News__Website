@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "deque",
+  "type": "company",
+  "name": "Deque Systems",
+  "website": "https://www.deque.com/",
+  "what": "Web and mobile accessibility software, services and training.",
+  "category": "devtools",
+  "country": "United States",
+  "attending": "confirmed: Dylan Barrell (CTO) is listed on the LIS26 session page 'Can you trust your AI agent's accessibility? [Hosted by Deque]'",
+  "attending_as": "speaker's company (masterclass host)",
+  "field_sources": {
+    "name": [
+      "s2",
+      "s3"
+    ],
+    "website": [
+      "s4"
+    ],
+    "what": [
+      "s4"
+    ],
+    "category": [
+      "s3"
+    ],
+    "country": [
+      "s3"
+    ],
+    "attending": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "attending_as": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Deque Systems",
+      "source": "s1",
+      "how": "the name in the team's map"
+    },
+    {
+      "name": "Deque",
+      "source": "s2",
+      "how": "the name on its summit appearance page"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

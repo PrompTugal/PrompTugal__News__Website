@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "laura-greenhalgh",
+  "type": "person",
+  "name": "Laura Greenhalgh",
+  "role": "Editorial Director for Global Technology",
+  "organisation": "POLITICO",
+  "org": "organisation:politico",
+  "listings": [
+    {
+      "role": "Editorial Director for Global Technology",
+      "organisation": "POLITICO",
+      "org": "organisation:politico",
+      "event": "event:has-europe-s-tech-moment-arrived",
+      "source": "https://websummit.com/sessions/lis26/ec64d706-da78-4041-bf35-5810a3df34b1/has-europe-s-tech-moment-arrived/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

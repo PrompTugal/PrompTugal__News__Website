@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "announcements",
+  "type": "topic",
+  "name": "Announcements",
+  "kind": "beat",
+  "description": "What companies and the summit announce, before and during.",
+  "broader": [],
+  "summit_tracks": [
+    "Press Conference"
+  ],
+  "source": "content/brief/03-what-we-publish.md",
+  "beat": "announcements"
+}

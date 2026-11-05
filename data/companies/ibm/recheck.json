@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "ibm",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/87920939-b4c2-454b-80e7-5aa9c33397ee/ibm",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.ibm.com/us-en",
+        "status": 200
+      }
+    }
+  ]
+}

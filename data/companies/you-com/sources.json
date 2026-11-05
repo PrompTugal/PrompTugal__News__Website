@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "you-com",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/attendees/lis26/2a414db4-1197-4b71-8570-1a2b6eb96714/richard-socher",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "public speaker listed by Web Summit for LIS26: Richard Socher, Co-founder & CEO, Recursive & You.com",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/speakers/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "the 2026 speaker / featured attendee list that links to that page",
+      "kind": "summit-list"
+    },
+    {
+      "id": "s3",
+      "url": "https://you.com/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site",
+      "kind": "other"
+    }
+  ]
+}

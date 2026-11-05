@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ryan-lasalle",
+  "type": "person",
+  "name": "Ryan LaSalle",
+  "role": "CEO",
+  "organisation": "Nisos",
+  "org": "company:nisos",
+  "listings": [
+    {
+      "role": "CEO",
+      "organisation": "Nisos",
+      "org": "company:nisos",
+      "event": "event:is-there-a-foreign-operative-on-your-payroll",
+      "source": "https://websummit.com/sessions/lis26/82e616b5-67bb-44f2-b4df-25642654fc0f/is-there-a-foreign-operative-on-your-payroll/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CEO",
+      "organisation": "Nisos",
+      "org": "company:nisos",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/9c97211a-9422-4c16-991b-bb4c702a4fcc/ryan-lasalle/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

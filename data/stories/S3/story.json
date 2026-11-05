@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S3",
+  "type": "story",
+  "title": "Road 2 Web Summit: Portugal's startups head for Lisbon",
+  "beat": "portugal",
+  "topic": "topic:portugal",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:r1255-13",
+    "evidence:r1255-14"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-04-1945.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1945.json"
+    ]
+  }
+}

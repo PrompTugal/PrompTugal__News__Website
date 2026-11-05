@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "michael-du",
+  "type": "person",
+  "name": "Michael Du",
+  "role": "CFO",
+  "organisation": "XPENG Aridge Flying Cars",
+  "org": "organisation:xpeng-aridge-flying-cars",
+  "listings": [
+    {
+      "role": "CFO",
+      "organisation": "XPENG Aridge Flying Cars",
+      "org": "organisation:xpeng-aridge-flying-cars",
+      "event": "event:press-conference-with-xpeng-aridge-founder-and-president",
+      "source": "https://websummit.com/sessions/lis26/3b511e19-cd3b-488b-af50-49d488e5cbc7/press-conference-with-xpeng-aridge-founder-and-president-deli-zhao-and-xpeng-aridge-cfo-michael-du/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

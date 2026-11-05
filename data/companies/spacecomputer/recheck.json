@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "spacecomputer",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:47Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/d170ac4a-9284-428c-992b-ea8a8cb57dde/spacecomputer",
+        "status": 200
+      },
+      "website": {
+        "url": "https://spacecomputer.io/",
+        "status": 200
+      }
+    }
+  ]
+}

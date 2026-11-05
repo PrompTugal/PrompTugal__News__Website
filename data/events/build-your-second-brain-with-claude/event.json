@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "build-your-second-brain-with-claude",
+  "type": "event",
+  "title": "Build Your Second Brain with Claude",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": true,
+  "date": "2026-11-09",
+  "time": "10:00-11:30",
+  "start": "10:00",
+  "end": "11:30",
+  "where": "PTW Palace, Rua Gomes Freire 98, Lisbon",
+  "place": "place:ptw-palace",
+  "track": null,
+  "part_of": "event:portugal-tech-week-2026-begins",
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://portugaltechweek.com/events/build-your-second-brain-with-claude/",
+  "read_at": "2026-11-01",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, not re-checked today (the page did not show it to a plain read)",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 12
+  }
+}

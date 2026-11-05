@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "cnbc",
+  "type": "organisation",
+  "name": "CNBC",
+  "names_as_listed": [
+    "CNBC"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/2b807636-c8da-412f-87c4-331707882876/surviving-the-ai-shift-media-s-new-reality/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    },
+    {
+      "url": "https://websummit.com/sessions/lis26/d7d7a0c0-7a21-459f-9c2d-62c6fffed106/the-race-for-compute-agentic-ai-and-roi/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

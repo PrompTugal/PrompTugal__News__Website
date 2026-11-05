@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "diogo-guerra",
+  "type": "person",
+  "name": "Diogo Guerra",
+  "role": "CTO",
+  "organisation": "Feedzai",
+  "org": "company:feedzai",
+  "listings": [
+    {
+      "role": "CTO",
+      "organisation": "Feedzai",
+      "org": "company:feedzai",
+      "event": "event:who-let-the-agent-in",
+      "source": "https://websummit.com/sessions/lis26/1de6a591-ec17-4399-8f28-13f4bff1cae1/who-let-the-agent-in/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CTO",
+      "organisation": "Feedzai",
+      "org": "company:feedzai",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/5c67ec4d-69ac-487e-aeac-153f6e7b0d42/diogo-guerra/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

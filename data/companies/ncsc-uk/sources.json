@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "ncsc-uk",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'It takes two to trust: Operationalizing public-private security', 12 Nov, Cybersecurity Summit, Stage 8, names National Cyber Security Centre as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/a0efae1a-d3b5-42f7-9be6-f13e6e1ac3a1/ollie-whitehouse/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Ollie Whitehouse, Chief Technology Officer, National Cyber Security Centre; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.ncsc.gov.uk/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

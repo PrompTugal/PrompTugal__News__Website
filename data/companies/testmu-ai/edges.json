@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "testmu-ai",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:devtools",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:united-states",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "appears_in",
+      "to_url": "https://websummit.com/sessions/lis26/159fe8f9-7900-4f36-93e1-8b794cd11949/when-ai-verifies-ai/",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

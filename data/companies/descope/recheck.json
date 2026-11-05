@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "descope",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/2701a938-524f-4c24-b0da-cb8fdd4e030b/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.descope.com/",
+        "status": 200
+      }
+    }
+  ]
+}

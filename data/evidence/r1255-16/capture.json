@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "r1255-16",
+  "type": "evidence",
+  "source_url": "https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/",
+  "beat": "portugal",
+  "group": "G6 Portuguese startups raising",
+  "names": [
+    {
+      "as_listed": "Seamoretech",
+      "ref": "organisation:seamoretech"
+    },
+    {
+      "as_listed": "University of Porto",
+      "ref": "organisation:university-of-porto"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-04-1945.json",
+  "run": "2026-11-04T19:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1945.json"
+    ]
+  }
+}

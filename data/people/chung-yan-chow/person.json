@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "chung-yan-chow",
+  "type": "person",
+  "name": "Chung-Yan Chow",
+  "role": "Editor-in-chief",
+  "organisation": "South China Morning Post",
+  "org": "organisation:south-china-morning-post",
+  "listings": [
+    {
+      "role": "Editor-in-chief",
+      "organisation": "South China Morning Post",
+      "org": "organisation:south-china-morning-post",
+      "event": "event:ai-your-new-news-editor",
+      "source": "https://websummit.com/sessions/lis26/db87fd1a-c1c5-4c2d-b676-25f749e14dca/ai-your-new-news-editor/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "viable-systems-judgement-and-ai-safety",
+  "type": "event",
+  "title": "Viable systems, judgement, and AI safety",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "15:20-15:40",
+  "start": "15:20",
+  "end": "15:40",
+  "where": "Stage 13 (AI Summit), MEO Arena and FIL",
+  "place": "place:stage-13",
+  "track": "AI Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:neil-lawrence",
+      "as_listed": "Neil Lawrence (Co-founder & Chief Scientist, Trent AI)",
+      "role": "Co-founder & Chief Scientist",
+      "organisation": "Trent AI",
+      "org": "company:trent-ai"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/3c980247-e062-492c-823a-11d388db1439/viable-systems-judgement-and-ai-safety/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 145
+  }
+}

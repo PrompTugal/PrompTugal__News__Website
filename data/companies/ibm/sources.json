@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "ibm",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/appearances/lis26/87920939-b4c2-454b-80e7-5aa9c33397ee/ibm",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: name, country, industry, website",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
+      "kind": "summit-list"
+    },
+    {
+      "id": "s3",
+      "url": "https://websummit.com/tracks/ai-summit/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "AI Summit track page names IBM as official AI Summit partner",
+      "kind": "summit-list"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "sageox",
+  "type": "company",
+  "name": "SageOx",
+  "website": "https://sageox.ai/",
+  "what": "Collaboration platform that turns humans and AI agents into teams by giving them one shared context.",
+  "category": "ai-agents",
+  "country": "United States",
+  "attending": "confirmed: Milkana Brace (Co-Founder & CPO) is listed on the LIS26 session page 'Agents don't need prompts, they need context'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "SageOx",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

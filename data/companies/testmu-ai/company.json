@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "testmu-ai",
+  "type": "company",
+  "name": "TestMu AI",
+  "website": "https://www.testmuai.com/",
+  "what": "Agentic QA for web, mobile, chat, voice and IVR, and 'agent assurance' for enterprises; founded as LambdaTest (2017).",
+  "category": "devtools",
+  "country": "United States",
+  "attending": "confirmed: Mohammad Asad Khan (Co-founder & CEO) is listed on the LIS26 session page 'When AI verifies AI'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "TestMu AI",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

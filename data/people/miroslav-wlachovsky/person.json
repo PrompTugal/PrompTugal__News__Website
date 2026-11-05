@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "miroslav-wlachovsky",
+  "type": "person",
+  "name": "Miroslav Wlachovský",
+  "role": "Former Minister of Foreign and European Affairs of Slovakia",
+  "organisation": "government of Slovakia",
+  "org": "organisation:government-of-slovakia",
+  "listings": [
+    {
+      "role": "Former Minister of Foreign and European Affairs of Slovakia",
+      "organisation": "government of Slovakia",
+      "org": "organisation:government-of-slovakia",
+      "event": "event:frontline-europe-ai-sovereignty-and-truth",
+      "source": "https://websummit.com/sessions/lis26/c0581238-2d66-434c-9e16-eee93fef3867/frontline-europe-ai-sovereignty-and-truth/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

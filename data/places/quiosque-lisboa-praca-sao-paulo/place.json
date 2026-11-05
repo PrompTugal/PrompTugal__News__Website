@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "quiosque-lisboa-praca-sao-paulo",
+  "type": "place",
+  "name": "Quiosque Lisboa, Praça São Paulo",
+  "kind": "venue",
+  "located_in": "place:lisbon",
+  "matches": [
+    "Quiosque Lisboa, Praça São Paulo, Lisbon"
+  ],
+  "source": "https://websummit.com/schedule/"
+}

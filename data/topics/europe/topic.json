@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "europe",
+  "type": "topic",
+  "name": "Europe",
+  "kind": "beat",
+  "description": "European tech, policy and companies at the summit.",
+  "broader": [],
+  "summit_tracks": [],
+  "source": "content/brief/03-what-we-publish.md",
+  "beat": "europe"
+}

@@ -1,4 +1,4 @@
-// The agenda (brief 6): built from the programme desk's desks/programme/agenda.json at every release.
+// The agenda (brief 6): built from the programme desk's desks/programme/agenda.json (through data/events/) at every release.
 // Fills <!-- agenda:front --> (today and the days to 12 November, at most six highlights a day),
 // <!-- agenda:full --> (every item, every day) and <!-- agenda:meta --> (where it comes from).
 export const order = 25

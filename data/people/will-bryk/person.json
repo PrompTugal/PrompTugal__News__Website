@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "will-bryk",
+  "type": "person",
+  "name": "Will Bryk",
+  "role": "Co-founder & CEO",
+  "organisation": "Exa",
+  "org": "company:exa",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Exa",
+      "org": "company:exa",
+      "event": "event:search-built-for-ai-agents",
+      "source": "https://websummit.com/sessions/lis26/a433a1bc-b53a-4689-a8f8-c7eb8088148c/search-built-for-ai-agents/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Exa",
+      "org": "company:exa",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/6f5ebc37-fbca-490f-bc46-4d94e81ee69e/will-bryk/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

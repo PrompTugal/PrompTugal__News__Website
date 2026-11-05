@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "pitchbook",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/815ec7d5-b829-477e-abd6-bd6620641a36/pitchbook",
+        "status": 200
+      },
+      "website": {
+        "url": "https://pitchbook.com/",
+        "status": 403
+      }
+    }
+  ]
+}

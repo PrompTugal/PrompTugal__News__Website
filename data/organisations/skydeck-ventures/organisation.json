@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "skydeck-ventures",
+  "type": "organisation",
+  "name": "SkyDeck Ventures",
+  "names_as_listed": [
+    "SkyDeck Ventures"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/0a834d30-6d0c-49ed-986c-6e2eed88f8ab/open-vs-closed-the-debate-defining-the-ai-era/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

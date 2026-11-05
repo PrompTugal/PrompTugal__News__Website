@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "true-ventures",
+  "type": "organisation",
+  "name": "True Ventures",
+  "names_as_listed": [
+    "True Ventures"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/67bf8048-752a-43d1-84fc-7a03cfdd45ad/the-open-source-advantage/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/organisation.schema.json",
+  "title": "An organisation that is not one of our companies (data/organisations/<slug>/organisation.json)",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "name",
+    "names_as_listed",
+    "sources"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "type": {
+      "const": "organisation"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "names_as_listed": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "marker": {
+      "type": "boolean"
+    },
+    "marker_note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "by",
+          "how"
+        ],
+        "properties": {
+          "url": {
+            "$ref": "common.schema.json#/$defs/url"
+          },
+          "read_at": {
+            "$ref": "common.schema.json#/$defs/read_at"
+          },
+          "read_on": {
+            "$ref": "common.schema.json#/$defs/date"
+          },
+          "by": {
+            "$ref": "common.schema.json#/$defs/agent"
+          },
+          "how": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "derived": {
+      "$ref": "common.schema.json#/$defs/derived"
+    }
+  },
+  "additionalProperties": false
+}

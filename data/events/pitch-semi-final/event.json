@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "pitch-semi-final",
+  "type": "event",
+  "title": "PITCH semi-final",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "17:00-18:00",
+  "start": "17:00",
+  "end": "18:00",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:renu-navale",
+      "as_listed": "Renu Navale (VP & GM, Health and Cities Division, Edge Computing Group, Intel)",
+      "role": "VP & GM, Health and Cities Division, Edge Computing Group",
+      "organisation": "Intel",
+      "org": "organisation:intel"
+    },
+    {
+      "person": "person:carolin-wais",
+      "as_listed": "Carolin Wais (Partner, Plug and Play Tech Center)",
+      "role": "Partner",
+      "organisation": "Plug and Play Tech Center",
+      "org": "organisation:plug-and-play-tech-center"
+    },
+    {
+      "person": "person:ling-ge",
+      "as_listed": "Ling Ge (Chief Investment and Strategy Officer (EMEA), Tencent)",
+      "role": "Chief Investment and Strategy Officer (EMEA)",
+      "organisation": "Tencent",
+      "org": "organisation:tencent"
+    },
+    {
+      "person": "person:larry-li",
+      "as_listed": "Larry Li (Founder & Managing Partner, Amino Capital)",
+      "role": "Founder & Managing Partner",
+      "organisation": "Amino Capital",
+      "org": "organisation:amino-capital"
+    },
+    {
+      "person": "person:erika-whitmore",
+      "as_listed": "Erika Whitmore (Partner, KPMG)",
+      "role": "Partner",
+      "organisation": "KPMG",
+      "org": "company:kpmg-portugal"
+    },
+    {
+      "person": "person:filipa-barreto",
+      "as_listed": "Filipa Barreto (Partner, KPMG)",
+      "role": "Partner",
+      "organisation": "KPMG",
+      "org": "company:kpmg-portugal"
+    },
+    {
+      "person": "person:stephan-morais",
+      "as_listed": "Stephan Morais (Investor, Indico Capital Partners)",
+      "role": "Investor",
+      "organisation": "Indico Capital Partners",
+      "org": "organisation:indico-capital-partners"
+    },
+    {
+      "person": "person:zach-coelius",
+      "as_listed": "Zach Coelius (Founder, Coelius Capital)",
+      "role": "Founder",
+      "organisation": "Coelius Capital",
+      "org": "organisation:coelius-capital"
+    },
+    {
+      "person": "person:teresa-fiuza",
+      "as_listed": "Teresa Fiuza (Chief Investment Officer, Banco Português de Fomento)",
+      "role": "Chief Investment Officer",
+      "organisation": "Banco Português de Fomento",
+      "org": "organisation:banco-portugues-de-fomento"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/c739a1a1-3d8e-4a81-8648-53a0f5ea9013/pitch-semi-final/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 154
+  }
+}

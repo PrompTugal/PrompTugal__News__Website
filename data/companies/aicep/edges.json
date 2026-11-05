@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "aicep",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:portugal-startup",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:portugal",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "hosts",
+      "to_url": "https://websummit.com/sessions/lis26/2f8c4adf-ebea-46d7-b876-1b9bd5a6c1dc/aicep-connecting-portuguese-startups-to-global-markets-hosted-by-aicep/",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

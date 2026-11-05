@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "pavilhao-de-portugal",
+  "type": "place",
+  "name": "Pavilhão de Portugal",
+  "kind": "venue",
+  "located_in": "place:parque-das-nacoes",
+  "matches": [
+    "Pavilhão de Portugal, Alameda dos Oceanos, Parque das Nações, Lisbon"
+  ],
+  "source": "https://websummit.com/essentials/registration-essentials/",
+  "note": "A registration point, Alameda dos Oceanos, as the summit lists it."
+}

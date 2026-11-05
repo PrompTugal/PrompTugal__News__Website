@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "whitespace",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'Securing the AI frontline', 12 Nov, Cybersecurity Summit, Stage 8, names Whitespace as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/3f26a8cf-0526-4759-9d24-c4747ef74665/paul-jenkinson/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Paul Jenkinson, Co-founder & CEO, Whitespace; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    }
+  ]
+}

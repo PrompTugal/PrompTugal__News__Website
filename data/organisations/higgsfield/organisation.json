@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "higgsfield",
+  "type": "organisation",
+  "name": "Higgsfield",
+  "names_as_listed": [
+    "Higgsfield"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/4b4a439e-c93f-4217-8491-7e5798c71df9/the-100-million-prompt/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

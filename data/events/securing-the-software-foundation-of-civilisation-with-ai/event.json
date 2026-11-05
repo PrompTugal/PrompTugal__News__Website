@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "securing-the-software-foundation-of-civilisation-with-ai",
+  "type": "event",
+  "title": "Securing the software foundation of civilisation with AI",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "13:40-14:00",
+  "start": "13:40",
+  "end": "14:00",
+  "where": "Stage 13 (AI Summit), MEO Arena and FIL",
+  "place": "place:stage-13",
+  "track": "AI Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:stanislav-fort",
+      "as_listed": "Stanislav Fort (Founder, CTO, & Chief Scientist, Aisle)",
+      "role": "Founder, CTO, & Chief Scientist",
+      "organisation": "Aisle",
+      "org": "company:aisle"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 191
+  }
+}

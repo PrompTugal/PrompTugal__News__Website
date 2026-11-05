@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "opening-night",
+  "type": "event",
+  "title": "Opening Night 🎉",
+  "kind": "summit",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-09",
+  "time": "18:00-20:00",
+  "start": "18:00",
+  "end": "20:00",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "hosted_by": [],
+  "note": "Doors open at 16:30 (the session's own description); limited capacity; you must have registered first.",
+  "session_url": "https://websummit.com/sessions/lis26/6ed78c7e-c9a6-405a-9e6a-c7d8874b0ea0/opening-night/",
+  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 14
+  }
+}

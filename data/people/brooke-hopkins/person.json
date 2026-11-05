@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "brooke-hopkins",
+  "type": "person",
+  "name": "Brooke Hopkins",
+  "role": "Founder & CEO",
+  "organisation": "Coval",
+  "org": "organisation:coval",
+  "listings": [
+    {
+      "role": "Founder & CEO",
+      "organisation": "Coval",
+      "org": "organisation:coval",
+      "event": "event:how-to-break-your-ai-phone-agent-before-your-customers",
+      "source": "https://websummit.com/sessions/lis26/d1e1e64e-8909-44de-879b-c18b6e07ac86/how-to-break-your-ai-phone-agent-before-your-customers-hosted-by-twilio/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

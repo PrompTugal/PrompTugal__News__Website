@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "dig-in",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/05980d1e-1823-4436-bfd7-bb9dbe52be76/dig-in",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.dig-in.io/",
+        "status": 200
+      }
+    }
+  ]
+}

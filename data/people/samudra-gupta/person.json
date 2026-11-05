@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "samudra-gupta",
+  "type": "person",
+  "name": "Samudra Gupta",
+  "role": "Solutions Engineer",
+  "organisation": "Descope",
+  "org": "company:descope",
+  "listings": [
+    {
+      "role": "Solutions Engineer",
+      "organisation": "Descope",
+      "org": "company:descope",
+      "event": "event:a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers",
+      "source": "https://websummit.com/sessions/lis26/2701a938-524f-4c24-b0da-cb8fdd4e030b/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "eco",
+  "type": "organisation",
+  "name": "ECO",
+  "names_as_listed": [
+    "ECO"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/1de6a591-ec17-4399-8f28-13f4bff1cae1/who-let-the-agent-in/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

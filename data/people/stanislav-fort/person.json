@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "stanislav-fort",
+  "type": "person",
+  "name": "Stanislav Fort",
+  "role": "Founder, CTO, & Chief Scientist",
+  "organisation": "Aisle",
+  "org": "company:aisle",
+  "listings": [
+    {
+      "role": "Founder, CTO, & Chief Scientist",
+      "organisation": "Aisle",
+      "org": "company:aisle",
+      "event": "event:securing-the-software-foundation-of-civilisation-with-ai",
+      "source": "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Founder, CTO, & Chief Scientist",
+      "organisation": "Aisle",
+      "org": "company:aisle",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/b55ca6d1-26e5-4a22-ab12-07bfcfdab84e/stanislav-fort/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

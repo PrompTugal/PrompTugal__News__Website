@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "tech-run-lisboa",
+  "type": "event",
+  "title": "Tech Run Lisboa (3rd edition): a 30-minute run on the eve of Web Summit",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": false,
+  "date": "2026-11-08",
+  "time": null,
+  "start": null,
+  "end": null,
+  "where": "Beato Innovation District (Unicorn Factory Lisboa), Lisbon",
+  "place": "place:beato-innovation-district",
+  "track": null,
+  "part_of": null,
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://sapo.pt/artigo/tech-run-lisboa-desafia-participantes-a-correr-o-maximo-possivel-em-30-minutos-na-vespera-do-web-summit-6ae0d4356c1c029df59d3795",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 7
+  }
+}

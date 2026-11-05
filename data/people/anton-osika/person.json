@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "anton-osika",
+  "type": "person",
+  "name": "Anton Osika",
+  "role": "Co-founder & CEO",
+  "organisation": "Lovable",
+  "org": "organisation:lovable",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Lovable",
+      "org": "organisation:lovable",
+      "event": "event:the-future-of-enterprise-software-has-no-middleman",
+      "source": "https://websummit.com/sessions/lis26/429fd0a1-0795-4bd1-aeee-876ad199ae13/the-future-of-enterprise-software-has-no-middleman/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

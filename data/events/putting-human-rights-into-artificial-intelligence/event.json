@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "putting-human-rights-into-artificial-intelligence",
+  "type": "event",
+  "title": "Putting human rights into artificial intelligence",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "10:50-11:10",
+  "start": "10:50",
+  "end": "11:10",
+  "where": "Stage 11 (Policy Summit), MEO Arena and FIL",
+  "place": "place:stage-11",
+  "track": "Policy Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:michael-o-flaherty",
+      "as_listed": "Michael O'Flaherty (Commissioner for Human Rights, Council of Europe)",
+      "role": "Commissioner for Human Rights",
+      "organisation": "Council of Europe",
+      "org": "organisation:council-of-europe"
+    },
+    {
+      "person": "person:paul-tighe",
+      "as_listed": "Paul Tighe (Secretary of the Dicastery for Culture and Education, The Vatican)",
+      "role": "Secretary of the Dicastery for Culture and Education",
+      "organisation": "The Vatican",
+      "org": "organisation:the-vatican"
+    },
+    {
+      "person": "person:georja-calvin-smith",
+      "as_listed": "Georja Calvin-Smith (Productrice principale / Présentatrice, France 24)",
+      "role": "Productrice principale / Présentatrice",
+      "organisation": "France 24",
+      "org": "organisation:france-24"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/3a0acb6d-9fd0-4431-ab32-5526addbdcc8/putting-human-rights-into-artificial-intelligence/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 115
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "investing-in-zero-billion-dollar-markets",
+  "type": "event",
+  "title": "Investing in zero billion dollar markets",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "10:40-11:00",
+  "start": "10:40",
+  "end": "11:00",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:mattias-ljungman",
+      "as_listed": "Mattias Ljungman (Founder & CEO, Moonfire)",
+      "role": "Founder & CEO",
+      "organisation": "Moonfire",
+      "org": "organisation:moonfire"
+    },
+    {
+      "person": "person:steve-vassallo",
+      "as_listed": "Steve Vassallo (General Partner, Foundation Capital)",
+      "role": "General Partner",
+      "organisation": "Foundation Capital",
+      "org": "organisation:foundation-capital"
+    },
+    {
+      "person": "person:terry-martin",
+      "as_listed": "Terry Martin (International News Anchor/Moderator, Free agent)",
+      "role": "International News Anchor/Moderator",
+      "organisation": "Free agent",
+      "org": "organisation:free-agent"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/87d2ab29-c188-4ab0-8d4d-66ee27c89d6c/investing-in-zero-billion-dollar-markets/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 114
+  }
+}

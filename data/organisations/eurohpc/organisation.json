@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "eurohpc",
+  "type": "organisation",
+  "name": "EuroHPC",
+  "names_as_listed": [
+    "EuroHPC"
+  ],
+  "sources": [
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate",
+      "read_at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

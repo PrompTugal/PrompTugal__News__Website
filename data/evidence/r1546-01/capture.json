@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "r1546-01",
+  "type": "evidence",
+  "source_url": "https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate",
+  "beat": "europe",
+  "group": "G5 Europe at the summit",
+  "names": [
+    {
+      "as_listed": "European Commission (DG CONNECT, DG GROW)",
+      "ref": "company:european-commission"
+    },
+    {
+      "as_listed": "HaDEA",
+      "ref": "organisation:hadea"
+    },
+    {
+      "as_listed": "EuroHPC",
+      "ref": "organisation:eurohpc"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-04-1945.json",
+  "run": "2026-11-04T19:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1945.json"
+    ]
+  }
+}

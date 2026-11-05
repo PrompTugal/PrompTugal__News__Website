@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "timothy-young",
+  "type": "person",
+  "name": "Timothy Young",
+  "role": "CEO",
+  "organisation": "Jasper",
+  "org": "organisation:jasper",
+  "listings": [
+    {
+      "role": "CEO",
+      "organisation": "Jasper",
+      "org": "organisation:jasper",
+      "event": "event:western-tech-all-is-not-lost",
+      "source": "https://websummit.com/sessions/lis26/f37463f8-5aab-4dfa-9c95-2c91596ebd38/western-tech-all-is-not-lost/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

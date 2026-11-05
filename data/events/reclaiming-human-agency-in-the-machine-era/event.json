@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "reclaiming-human-agency-in-the-machine-era",
+  "type": "event",
+  "title": "Reclaiming human agency in the machine era",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "12:05-12:25",
+  "start": "12:05",
+  "end": "12:25",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:bill-gross",
+      "as_listed": "Bill Gross (Founder & Executive Chairman, Idealab)",
+      "role": "Founder & Executive Chairman",
+      "organisation": "Idealab",
+      "org": "organisation:idealab"
+    },
+    {
+      "person": "person:blake-montgomery",
+      "as_listed": "Blake Montgomery (Tech Editor, The Guardian US)",
+      "role": "Tech Editor",
+      "organisation": "The Guardian US",
+      "org": "organisation:the-guardian-us"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/9ea6a9b1-59e2-45e2-8f36-cb97527c939c/reclaiming-human-agency-in-the-machine-era/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 183
+  }
+}

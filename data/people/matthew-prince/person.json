@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "matthew-prince",
+  "type": "person",
+  "name": "Matthew Prince",
+  "role": "Co-founder & CEO",
+  "organisation": "Cloudflare",
+  "org": "company:cloudflare",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Cloudflare",
+      "org": "company:cloudflare",
+      "event": "event:the-agentic-internet-who-controls-the-web",
+      "source": "https://websummit.com/sessions/lis26/4421ffa8-97ef-4466-8669-31c47cff3b5a/the-agentic-internet-who-controls-the-web/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Cloudflare",
+      "org": "company:cloudflare",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/34a6f338-b5be-4983-935e-f6eeffb20b2a/matthew-prince",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

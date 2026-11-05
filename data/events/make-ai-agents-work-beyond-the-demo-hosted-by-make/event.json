@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "make-ai-agents-work-beyond-the-demo-hosted-by-make",
+  "type": "event",
+  "title": "Make AI agents work beyond the demo [Hosted by Make]",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "14:00-14:45",
+  "start": "14:00",
+  "end": "14:45",
+  "where": "Masterclass 2 (Masterclasses), MEO Arena and FIL",
+  "place": "place:masterclass-2",
+  "track": "Masterclasses",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:valery-mezencev",
+      "as_listed": "Valery Mezencev (Senior Product Marketing Manager, Make)",
+      "role": "Senior Product Marketing Manager",
+      "organisation": "Make",
+      "org": "company:make"
+    }
+  ],
+  "hosted_by": [
+    {
+      "org": "company:make",
+      "as_listed": "Make",
+      "source": "https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/"
+    }
+  ],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 137
+  }
+}

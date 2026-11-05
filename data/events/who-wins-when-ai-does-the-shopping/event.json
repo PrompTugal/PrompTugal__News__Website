@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "who-wins-when-ai-does-the-shopping",
+  "type": "event",
+  "title": "Who Wins When AI Does the Shopping?",
+  "kind": "announcement",
+  "listed_as": "announcement",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "11:30-11:50",
+  "start": "11:30",
+  "end": "11:50",
+  "where": "Stage 2 (Press Conference), MEO Arena and FIL",
+  "place": "place:stage-2",
+  "track": "Press Conference",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:maju-kuruvilla",
+      "as_listed": "Maju Kuruvilla (CEO and Founder, Spangle)",
+      "role": "CEO and Founder",
+      "organisation": "Spangle",
+      "org": "organisation:spangle"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/d6dca44a-a035-4a48-b0a3-5acfe4619f63/who-wins-when-ai-does-the-shopping/",
+  "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/2/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 177
+  }
+}

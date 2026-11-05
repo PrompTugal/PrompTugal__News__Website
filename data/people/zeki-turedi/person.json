@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "zeki-turedi",
+  "type": "person",
+  "name": "Zeki Turedi",
+  "role": "Field CTO for Europe, Middle East, and Africa",
+  "organisation": "CrowdStrike",
+  "org": "company:crowdstrike",
+  "listings": [
+    {
+      "role": "Field CTO for Europe, Middle East, and Africa",
+      "organisation": "CrowdStrike",
+      "org": "company:crowdstrike",
+      "event": "event:ai-vs-ai-the-battle-for-the-cyber-advantage",
+      "source": "https://websummit.com/sessions/lis26/26295ff3-84c1-4329-84cb-7ca7aaa18fac/ai-vs-ai-the-battle-for-the-cyber-advantage/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

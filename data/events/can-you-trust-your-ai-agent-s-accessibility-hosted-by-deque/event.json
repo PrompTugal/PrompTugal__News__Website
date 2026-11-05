@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque",
+  "type": "event",
+  "title": "Can you trust your AI agent's accessibility? [Hosted by Deque]",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "12:00-12:45",
+  "start": "12:00",
+  "end": "12:45",
+  "where": "Masterclass 2 (Masterclasses), MEO Arena and FIL",
+  "place": "place:masterclass-2",
+  "track": "Masterclasses",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:dylan-barrell",
+      "as_listed": "Dylan Barrell (CTO, Deque Systems)",
+      "role": "CTO",
+      "organisation": "Deque Systems",
+      "org": "company:deque"
+    }
+  ],
+  "hosted_by": [
+    {
+      "org": "company:deque",
+      "as_listed": "Deque",
+      "source": "https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/"
+    }
+  ],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 182
+  }
+}

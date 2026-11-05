@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "shakers",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:other",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:spain",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

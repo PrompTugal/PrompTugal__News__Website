@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "mobbeel",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.mobbeel.com/en/blog/mobbeel-web-summit-lisbon-2026/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "own blog: attending Web Summit Lisbon 2026, goals",
+      "kind": "other"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.mobbeel.com/en/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does",
+      "kind": "other"
+    }
+  ]
+}

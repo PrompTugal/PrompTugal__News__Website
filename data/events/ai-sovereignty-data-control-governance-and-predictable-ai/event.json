@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "ai-sovereignty-data-control-governance-and-predictable-ai",
+  "type": "event",
+  "title": "AI sovereignty: Data control, governance and predictable AI costs [Hosted by Austriacard Holdings]",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "11:30-12:15",
+  "start": "11:30",
+  "end": "12:15",
+  "where": "Masterclass 3 (Masterclasses), MEO Arena and FIL",
+  "place": "place:masterclass-3",
+  "track": "Masterclasses",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:christos-rizos",
+      "as_listed": "Christos Rizos (Group Business Development Director, AI & Digital Solutions, AustriaCard)",
+      "role": "Group Business Development Director, AI & Digital Solutions",
+      "organisation": "AustriaCard",
+      "org": "company:austriacard"
+    }
+  ],
+  "hosted_by": [
+    {
+      "org": "company:austriacard",
+      "as_listed": "Austriacard Holdings",
+      "source": "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/"
+    }
+  ],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 126
+  }
+}

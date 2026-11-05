@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "kirill-skrygan",
+  "type": "person",
+  "name": "Kirill Skrygan",
+  "role": "CEO",
+  "organisation": "JetBrains",
+  "org": "company:jetbrains",
+  "listings": [
+    {
+      "role": "CEO",
+      "organisation": "JetBrains",
+      "org": "company:jetbrains",
+      "event": "event:taming-the-agent-swarm",
+      "source": "https://websummit.com/sessions/lis26/9fd40607-9fe9-4805-9831-dfffb69c5e35/taming-the-agent-swarm/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CEO",
+      "organisation": "JetBrains",
+      "org": "company:jetbrains",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/52475f11-df18-4ba6-a33d-de6749683b02/kirill-skrygan/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

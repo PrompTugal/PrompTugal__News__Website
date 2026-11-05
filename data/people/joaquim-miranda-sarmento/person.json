@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "joaquim-miranda-sarmento",
+  "type": "person",
+  "name": "Joaquim Miranda Sarmento",
+  "role": "Minister of State and of Finance",
+  "organisation": "Government of Portugal",
+  "org": "organisation:government-of-portugal",
+  "listings": [
+    {
+      "role": "Minister of State and of Finance",
+      "organisation": "Government of Portugal",
+      "org": "organisation:government-of-portugal",
+      "event": "event:the-portuguese-economic-success-story",
+      "source": "https://websummit.com/sessions/lis26/be11c9f2-2f68-4ccb-818d-9a5056e0e147/the-portuguese-economic-success-story/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

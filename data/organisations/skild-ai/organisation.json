@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "skild-ai",
+  "type": "organisation",
+  "name": "Skild AI",
+  "names_as_listed": [
+    "Skild AI"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/5075321d-09ce-4de9-8c72-42f1a924b422/when-ai-leaves-the-screen/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

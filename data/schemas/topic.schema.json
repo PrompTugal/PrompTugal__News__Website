@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/topic.schema.json",
+  "title": "A topic in the newsroom's taxonomy (data/topics/<slug>/topic.json)",
+  "description": "Hand-edited. summit_tracks declares the bridge from the summit's tracks to this topic (maps_to).",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "name",
+    "kind",
+    "description",
+    "broader",
+    "summit_tracks",
+    "source"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "type": {
+      "const": "topic"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "field",
+        "beat",
+        "theme"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "broader": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/topic_ref"
+      }
+    },
+    "summit_tracks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "beat": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "source": {
+      "$ref": "common.schema.json#/$defs/url_or_path"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "meetup-4",
+  "type": "place",
+  "name": "Meetup 4",
+  "kind": "room",
+  "located_in": "place:meo-arena-and-fil",
+  "matches": [
+    "Meetup 4"
+  ],
+  "source": "https://websummit.com/schedule/",
+  "note": "A stage or room as the summit's schedule names it; the schedule does not say which of the two buildings it is in."
+}

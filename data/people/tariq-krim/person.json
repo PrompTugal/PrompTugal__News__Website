@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "tariq-krim",
+  "type": "person",
+  "name": "Tariq Krim",
+  "role": "Founder",
+  "organisation": "Human intention",
+  "org": "organisation:human-intention",
+  "listings": [
+    {
+      "role": "Founder",
+      "organisation": "Human intention",
+      "org": "organisation:human-intention",
+      "event": "event:beyond-the-ai-agent-hype",
+      "source": "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

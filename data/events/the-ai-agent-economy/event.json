@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-ai-agent-economy",
+  "type": "event",
+  "title": "The AI agent economy",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "10:10-10:30",
+  "start": "10:10",
+  "end": "10:30",
+  "where": "Stage 13 (AI Summit), MEO Arena and FIL",
+  "place": "place:stage-13",
+  "track": "AI Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:dr-durga-malladi",
+      "as_listed": "Dr. Durga Malladi (EVP and GM, Technology Planning, Edge Solutions & Data Center, Qualcomm Technologies, Inc., Qualcomm)",
+      "role": "EVP and GM, Technology Planning, Edge Solutions & Data Center, Qualcomm Technologies, Inc.",
+      "organisation": "Qualcomm",
+      "org": "company:qualcomm"
+    },
+    {
+      "person": "person:dayana-sarkisova",
+      "as_listed": "Dayana Sarkisova (Senior Editor, TIME)",
+      "role": "Senior Editor",
+      "organisation": "TIME",
+      "org": "organisation:time"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/7bd19b8b-b399-42d5-b94f-df528a27696a/the-ai-agent-economy/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 110
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "taming-the-agent-swarm",
+  "type": "event",
+  "title": "Taming the agent swarm",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "10:30-10:50",
+  "start": "10:30",
+  "end": "10:50",
+  "where": "Stage 10 (Developer Summit), MEO Arena and FIL",
+  "place": "place:stage-10",
+  "track": "Developer Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:kirill-skrygan",
+      "as_listed": "Kirill Skrygan (CEO, JetBrains)",
+      "role": "CEO",
+      "organisation": "JetBrains",
+      "org": "company:jetbrains"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/9fd40607-9fe9-4805-9831-dfffb69c5e35/taming-the-agent-swarm/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 167
+  }
+}

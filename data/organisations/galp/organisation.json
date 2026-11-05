@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "galp",
+  "type": "organisation",
+  "name": "Galp",
+  "names_as_listed": [
+    "Galp"
+  ],
+  "sources": [
+    {
+      "url": "https://tek.sapo.pt/extras/site-do-dia/artigos/road-2-web-summit-2026-ja-aceita-candidaturas-de-startups-portuguesas-para-mais-uma-edicao/",
+      "read_at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

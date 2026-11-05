@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "neil-lawrence",
+  "type": "person",
+  "name": "Neil Lawrence",
+  "role": "Co-founder & Chief Scientist",
+  "organisation": "Trent AI",
+  "org": "company:trent-ai",
+  "listings": [
+    {
+      "role": "Co-founder & Chief Scientist",
+      "organisation": "Trent AI",
+      "org": "company:trent-ai",
+      "event": "event:open-vs-closed-the-debate-defining-the-ai-era",
+      "source": "https://websummit.com/sessions/lis26/0a834d30-6d0c-49ed-986c-6e2eed88f8ab/open-vs-closed-the-debate-defining-the-ai-era/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & Chief Scientist",
+      "organisation": "Trent AI",
+      "org": "company:trent-ai",
+      "event": "event:viable-systems-judgement-and-ai-safety",
+      "source": "https://websummit.com/sessions/lis26/3c980247-e062-492c-823a-11d388db1439/viable-systems-judgement-and-ai-safety/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & Chief Scientist",
+      "organisation": "Trent AI",
+      "org": "company:trent-ai",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/57cb2c0c-9536-44f5-b36a-83655472658c/neil-lawrence/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

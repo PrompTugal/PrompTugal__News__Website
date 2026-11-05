@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "surviving-the-ai-shift-media-s-new-reality",
+  "type": "event",
+  "title": "Surviving the AI shift: Media’s new reality",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "14:40-15:00",
+  "start": "14:40",
+  "end": "15:00",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:kc-sullivan",
+      "as_listed": "KC Sullivan (President, CNBC)",
+      "role": "President",
+      "organisation": "CNBC",
+      "org": "organisation:cnbc"
+    },
+    {
+      "person": "person:jeff-d-onofrio",
+      "as_listed": "Jeff D'Onofrio (CEO & Publisher, The Washington Post)",
+      "role": "CEO & Publisher",
+      "organisation": "The Washington Post",
+      "org": "organisation:the-washington-post"
+    },
+    {
+      "person": "person:astrid-maier",
+      "as_listed": "Astrid Maier (Chief Deputy Editor and Head of Strategy, Deutsche Presse-Agentur)",
+      "role": "Chief Deputy Editor and Head of Strategy",
+      "organisation": "Deutsche Presse-Agentur",
+      "org": "organisation:deutsche-presse-agentur"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/2b807636-c8da-412f-87c4-331707882876/surviving-the-ai-shift-media-s-new-reality/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 77
+  }
+}

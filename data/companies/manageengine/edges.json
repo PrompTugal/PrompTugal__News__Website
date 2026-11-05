@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "manageengine",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:security",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:india",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

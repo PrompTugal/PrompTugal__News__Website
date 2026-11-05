@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "eversec",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:50Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/2685d2a1-c9d6-4a49-bd39-342c03e627f4/building-security-for-the-human-machine-era/",
+        "status": 200
+      }
+    }
+  ]
+}

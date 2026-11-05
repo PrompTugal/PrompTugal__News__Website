@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "milkana-brace",
+  "type": "person",
+  "name": "Milkana Brace",
+  "role": "Co-Founder & CPO",
+  "organisation": "SageOx",
+  "org": "company:sageox",
+  "listings": [
+    {
+      "role": "Co-Founder & CPO",
+      "organisation": "SageOx",
+      "org": "company:sageox",
+      "event": "event:agents-don-t-need-prompts-they-need-context",
+      "source": "https://websummit.com/sessions/lis26/e2d68390-d300-42d0-ac9a-bb730e4f5988/agents-don-t-need-prompts-they-need-context/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-Founder & CPO",
+      "organisation": "SageOx",
+      "org": "company:sageox",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/c5e41921-a8cd-43e9-a98e-284d83105a39/milkana-brace/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

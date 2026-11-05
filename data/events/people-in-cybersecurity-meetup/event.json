@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "people-in-cybersecurity-meetup",
+  "type": "event",
+  "title": "People in cybersecurity meetup",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "12:00-12:25",
+  "start": "12:00",
+  "end": "12:25",
+  "where": "Meetup 1 (Meetup), MEO Arena and FIL",
+  "place": "place:meetup-1",
+  "track": "Meetup",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/16fe1819-c28f-47c8-9387-28560658a4c2/people-in-cybersecurity-meetup/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 181
+  }
+}

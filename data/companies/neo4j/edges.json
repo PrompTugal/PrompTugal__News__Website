@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "neo4j",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:devtools",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:united-states",
+      "source": "s2",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "appears_in",
+      "to_url": "https://websummit.com/sessions/lis26/52d3afb3-f921-4a73-9284-4ee6593e11d9/why-your-ai-agents-don-t-understand-your-business-and-how-to-fix-it/",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

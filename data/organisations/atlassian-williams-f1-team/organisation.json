@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "atlassian-williams-f1-team",
+  "type": "organisation",
+  "name": "Atlassian Williams F1 Team",
+  "names_as_listed": [
+    "Atlassian Williams F1 Team"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/a6d3c49d-4442-4cc6-88ce-ec0882f245d1/ai-and-the-human-at-300km-h/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

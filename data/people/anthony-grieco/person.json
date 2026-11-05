@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "anthony-grieco",
+  "type": "person",
+  "name": "Anthony Grieco",
+  "role": "SVP, Chief Security & Trust Officer",
+  "organisation": "Cisco Systems, Inc.",
+  "org": "company:cisco-outshift",
+  "listings": [
+    {
+      "role": "SVP, Chief Security & Trust Officer",
+      "organisation": "Cisco Systems, Inc.",
+      "org": "company:cisco-outshift",
+      "event": "event:it-takes-two-to-trust-operationalizing-public-private",
+      "source": "https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "abigail-slater",
+  "type": "person",
+  "name": "Abigail Slater",
+  "role": "Former Assistant Attorney General",
+  "organisation": "The US Government",
+  "org": "organisation:the-us-government",
+  "listings": [
+    {
+      "role": "Former Assistant Attorney General",
+      "organisation": "The US Government",
+      "org": "organisation:the-us-government",
+      "event": "event:regulating-big-tech",
+      "source": "https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

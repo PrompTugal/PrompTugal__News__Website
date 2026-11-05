@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S8",
+  "type": "story",
+  "title": "Técnico brings robots and six spin-offs to Web Summit",
+  "beat": "portugal",
+  "topic": "topic:portugal",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:v-tecnico-web-summit-2026",
+    "evidence:r1255-18"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-04-1955.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1955.json"
+    ]
+  }
+}

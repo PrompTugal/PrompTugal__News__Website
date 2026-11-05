@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "your-ai-agent-just-got-a-passport",
+  "type": "event",
+  "title": "Your AI agent just got a passport",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "10:50-11:10",
+  "start": "10:50",
+  "end": "11:10",
+  "where": "Stage 7 (Corporate Innovation Summit), MEO Arena and FIL",
+  "place": "place:stage-7",
+  "track": "Corporate Innovation Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:benjamin-faes",
+      "as_listed": "Benjamin Faes (CEO, RWS Group)",
+      "role": "CEO",
+      "organisation": "RWS Group",
+      "org": "company:rws"
+    },
+    {
+      "person": "person:elena-poughia",
+      "as_listed": "Elena Poughia (Managing Editor, Dataconomy Media)",
+      "role": "Managing Editor",
+      "organisation": "Dataconomy Media",
+      "org": "organisation:dataconomy-media"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/",
+  "read_at": "2026-11-04T20:03Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 45
+  }
+}

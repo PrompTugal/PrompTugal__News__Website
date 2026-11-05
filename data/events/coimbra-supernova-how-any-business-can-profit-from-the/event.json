@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "coimbra-supernova-how-any-business-can-profit-from-the",
+  "type": "event",
+  "title": "Coimbra Supernova: How Any Business Can Profit from the Space Economy",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "17:30-20:30",
+  "start": "17:30",
+  "end": "20:30",
+  "where": "Parque das Nações",
+  "place": "place:parque-das-nacoes",
+  "track": null,
+  "part_of": null,
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/7a5be221-c06b-4293-9cc2-458807d0a225/coimbra-supernova-how-any-business-can-profit-from-the-space-economy/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 98
+  }
+}

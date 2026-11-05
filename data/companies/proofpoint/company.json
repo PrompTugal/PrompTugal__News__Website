@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "proofpoint",
+  "type": "company",
+  "name": "Proofpoint",
+  "website": "https://www.proofpoint.com/",
+  "what": "Enterprise cybersecurity and compliance (email, web, cloud, data); its CEO describes the mission as human- and agent-centric security.",
+  "category": "security",
+  "country": "United States",
+  "attending": "confirmed: Sumit Dhawan (CEO) is listed on the LIS26 session page 'Outsmarting AI: Defence at machine speed'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Proofpoint",
+      "source": "s1",
+      "how": "the name in the team's map"
+    },
+    {
+      "name": "Proofpoint, Inc.",
+      "source": "s2",
+      "how": "the organisation a summit page lists its speaker under"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "portimao",
+  "type": "place",
+  "name": "Portimão",
+  "kind": "city",
+  "located_in": "place:algarve",
+  "matches": [],
+  "source": "https://www.algarveevolution.pt/event/tourism-management-computing-technologies-international-conference-149/register"
+}

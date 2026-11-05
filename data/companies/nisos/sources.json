@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "nisos",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/82e616b5-67bb-44f2-b4df-25642654fc0f/is-there-a-foreign-operative-on-your-payroll/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'Is there a foreign operative on your payroll?', 12 Nov, Cybersecurity Summit, Stage 8, names Nisos as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/9c97211a-9422-4c16-991b-bb4c702a4fcc/ryan-lasalle/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Ryan LaSalle, CEO, Nisos; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    }
+  ]
+}

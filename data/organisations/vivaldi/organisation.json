@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "vivaldi",
+  "type": "organisation",
+  "name": "Vivaldi",
+  "names_as_listed": [
+    "Vivaldi"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

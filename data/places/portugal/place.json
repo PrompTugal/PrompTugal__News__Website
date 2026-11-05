@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "portugal",
+  "type": "place",
+  "name": "Portugal",
+  "kind": "country",
+  "located_in": null,
+  "matches": [
+    "Nationwide, including Lisbon"
+  ],
+  "source": "data/companies/",
+  "note": "Named as a company's country in the team's company map, and as where Portugal Tech Week happens."
+}

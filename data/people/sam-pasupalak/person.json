@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "sam-pasupalak",
+  "type": "person",
+  "name": "Sam Pasupalak",
+  "role": "Co-founder & CEO",
+  "organisation": "Skyfall AI",
+  "org": "organisation:skyfall-ai",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Skyfall AI",
+      "org": "organisation:skyfall-ai",
+      "event": "event:press-conference-with-skyfall-ai-co-founder-ceo-sam",
+      "source": "https://websummit.com/sessions/lis26/200373ff-fe21-4258-84d4-2d8767174f93/press-conference-with-skyfall-ai-co-founder-ceo-sam-pasupalak/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "next-generation-banking-with-global-ambition",
+  "type": "event",
+  "title": "Next generation banking with global ambition",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "12:10-12:30",
+  "start": "12:10",
+  "end": "12:30",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:diana-layfield",
+      "as_listed": "Diana Layfield (Group CEO, Monzo)",
+      "role": "Group CEO",
+      "organisation": "Monzo",
+      "org": "organisation:monzo"
+    },
+    {
+      "person": "person:charlie-wells",
+      "as_listed": "Charlie Wells (Reporter and Editor, Bloomberg)",
+      "role": "Reporter and Editor",
+      "organisation": "Bloomberg",
+      "org": "organisation:bloomberg"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/543e9fa5-7da2-4e69-9de1-e36e2ce645e8/next-generation-banking-with-global-ambition/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 59
+  }
+}

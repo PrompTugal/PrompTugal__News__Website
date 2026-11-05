@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "big-tech-detox",
+  "type": "event",
+  "title": "Big Tech detox",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "11:30-11:50",
+  "start": "11:30",
+  "end": "11:50",
+  "where": "Stage 8 (Cybersecurity Summit), MEO Arena and FIL",
+  "place": "place:stage-8",
+  "track": "Cybersecurity Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:raphael-auphan",
+      "as_listed": "Raphael Auphan (Chief Operating Officer, Proton)",
+      "role": "Chief Operating Officer",
+      "organisation": "Proton",
+      "org": "company:proton"
+    },
+    {
+      "person": "person:jon-von-tetzchner",
+      "as_listed": "Jon von Tetzchner (Co-founder & CEO, Vivaldi)",
+      "role": "Co-founder & CEO",
+      "organisation": "Vivaldi",
+      "org": "organisation:vivaldi"
+    },
+    {
+      "person": "person:lisa-eadicicco",
+      "as_listed": "Lisa Eadicicco (Tech Editor, CNN)",
+      "role": "Tech Editor",
+      "organisation": "CNN",
+      "org": "organisation:cnn"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 176
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "john-madelin",
+  "type": "person",
+  "name": "John Madelin",
+  "role": "Chief Product Officer",
+  "organisation": "The Hacking Games",
+  "org": "company:the-hacking-games",
+  "listings": [
+    {
+      "role": "Chief Product Officer",
+      "organisation": "The Hacking Games",
+      "org": "company:the-hacking-games",
+      "event": "event:the-real-threat-isn-t-a-nation-state-it-s-a-teenager",
+      "source": "https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Chief Product Officer",
+      "organisation": "The Hacking Games",
+      "org": "company:the-hacking-games",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/796b1533-252c-42db-a9ff-badf2bdef3b3/john-madelin/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

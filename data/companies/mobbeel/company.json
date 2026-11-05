@@ -1,0 +1,55 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "mobbeel",
+  "type": "company",
+  "name": "Mobbeel",
+  "website": "https://www.mobbeel.com/en/",
+  "what": "Spanish digital identity company (Cáceres, founded 2009): identity verification, KYC/AML, biometric authentication and electronic signature.",
+  "category": "security",
+  "country": "Spain",
+  "attending": "confirmed: self-declared, its own blog post says it returns to Web Summit Lisbon 2026, 9 to 12 November; not checked on websummit.com",
+  "attending_as": "unknown",
+  "field_sources": {
+    "name": [
+      "s1",
+      "s2"
+    ],
+    "website": [
+      "s1",
+      "s2"
+    ],
+    "what": [
+      "s2"
+    ],
+    "category": [
+      "s1",
+      "s2"
+    ],
+    "country": [
+      "s1",
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Mobbeel",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

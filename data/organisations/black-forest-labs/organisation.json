@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "black-forest-labs",
+  "type": "organisation",
+  "name": "Black Forest Labs",
+  "names_as_listed": [
+    "Black Forest Labs"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/f7c10557-4911-481f-813d-261c09c40daf/teaching-ai-to-see-the-world/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

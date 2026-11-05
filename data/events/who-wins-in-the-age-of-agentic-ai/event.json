@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "who-wins-in-the-age-of-agentic-ai",
+  "type": "event",
+  "title": "Who wins in the age of agentic AI?",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "10:20-10:40",
+  "start": "10:20",
+  "end": "10:40",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:ling-ge",
+      "as_listed": "Ling Ge (Chief Investment and Strategy Officer (EMEA), Tencent)",
+      "role": "Chief Investment and Strategy Officer (EMEA)",
+      "organisation": "Tencent",
+      "org": "organisation:tencent"
+    },
+    {
+      "person": "person:sam-stephenson",
+      "as_listed": "Sam Stephenson (Co-founder, Granola)",
+      "role": "Co-founder",
+      "organisation": "Granola",
+      "org": "organisation:granola"
+    },
+    {
+      "person": "person:amit-katwala",
+      "as_listed": "Amit Katwala (Features Editor, Wired)",
+      "role": "Features Editor",
+      "organisation": "Wired",
+      "org": "organisation:wired"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/b1f2e752-0ff9-4917-bb61-f4aeb291abf4/who-wins-in-the-age-of-agentic-ai/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 111
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/person.schema.json",
+  "title": "A person (data/people/<slug>/person.json)",
+  "description": "Public and professional only, as the summit lists them: name, role, organisation, and where each listing was read. No photo, no profile link, no contact detail: the schema has no field for one.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "name",
+    "role",
+    "organisation",
+    "org",
+    "listings"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "type": {
+      "const": "person"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "organisation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "org": {
+      "anyOf": [
+        {
+          "$ref": "common.schema.json#/$defs/org_ref"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "listings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "organisation",
+          "org",
+          "event",
+          "source",
+          "read_at",
+          "by"
+        ],
+        "properties": {
+          "role": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "organisation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "org": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/org_ref"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "event": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/event_ref"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "source": {
+            "$ref": "common.schema.json#/$defs/url"
+          },
+          "read_at": {
+            "$ref": "common.schema.json#/$defs/read_at"
+          },
+          "by": {
+            "$ref": "common.schema.json#/$defs/agent"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "derived": {
+      "$ref": "common.schema.json#/$defs/derived"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "yannis-roussos",
+  "type": "person",
+  "name": "Yannis Roussos",
+  "role": null,
+  "organisation": null,
+  "org": null,
+  "listings": [
+    {
+      "role": null,
+      "organisation": null,
+      "org": null,
+      "event": "event:the-knowledge-your-agents-can-t-see-building-visual-context",
+      "source": "https://websummit.com/sessions/lis26/3be06034-1c23-4797-bb86-232cbd450d8d/the-knowledge-your-agents-can-t-see-building-visual-context/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

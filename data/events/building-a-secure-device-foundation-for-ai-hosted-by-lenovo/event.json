@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "building-a-secure-device-foundation-for-ai-hosted-by-lenovo",
+  "type": "event",
+  "title": "Building a secure device foundation for AI [Hosted by Lenovo]",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "13:00-13:45",
+  "start": "13:00",
+  "end": "13:45",
+  "where": "Masterclass 2 (Masterclasses), MEO Arena and FIL",
+  "place": "place:masterclass-2",
+  "track": "Masterclasses",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:burke-stephenson",
+      "as_listed": "Burke Stephenson (Head of Cybersecurity Sales - EMEA, Lenovo)",
+      "role": "Head of Cybersecurity Sales - EMEA",
+      "organisation": "Lenovo",
+      "org": "organisation:lenovo"
+    },
+    {
+      "person": "person:bernard-wolff",
+      "as_listed": "Bernard Wolff (ThinkShield Cybersecurity Technical Solution Lead MEMEA, LEnovo)",
+      "role": "ThinkShield Cybersecurity Technical Solution Lead MEMEA",
+      "organisation": "LEnovo",
+      "org": "organisation:lenovo"
+    }
+  ],
+  "hosted_by": [
+    {
+      "org": "organisation:lenovo",
+      "as_listed": "Lenovo",
+      "source": "https://websummit.com/sessions/lis26/1524845c-370e-4161-b2c3-b7a38c6aaf85/building-a-secure-device-foundation-for-ai-hosted-by-lenovo/"
+    }
+  ],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/1524845c-370e-4161-b2c3-b7a38c6aaf85/building-a-secure-device-foundation-for-ai-hosted-by-lenovo/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 66
+  }
+}

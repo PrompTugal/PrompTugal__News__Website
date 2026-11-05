@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "thomas-froment",
+  "type": "person",
+  "name": "Thomas Froment",
+  "role": "Program Lead, Development Tools",
+  "organisation": "Eclipse Foundation",
+  "org": "company:open-vsx",
+  "listings": [
+    {
+      "role": "Program Lead, Development Tools",
+      "organisation": "Eclipse Foundation",
+      "org": "company:open-vsx",
+      "event": "event:building-ai-products-without-building-everything-hosted-by",
+      "source": "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Program Lead, Development Tools",
+      "organisation": "Eclipse Foundation",
+      "org": "company:open-vsx",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/34ee7d85-f385-479a-85af-70f661515a09/thomas-froment/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

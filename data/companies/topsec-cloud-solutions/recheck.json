@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "topsec-cloud-solutions",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:50Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.topsec.com/",
+        "status": 200
+      }
+    }
+  ]
+}

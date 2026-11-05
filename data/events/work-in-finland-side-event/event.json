@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "work-in-finland-side-event",
+  "type": "event",
+  "title": "Work in Finland side event",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "17:30-21:00",
+  "start": "17:30",
+  "end": "21:00",
+  "where": "Olissippo",
+  "place": "place:olissippo",
+  "track": null,
+  "part_of": null,
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/a501aede-3f80-45cb-b983-b070ededa87c/work-in-finland-side-event/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 156
+  }
+}

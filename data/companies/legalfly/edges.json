@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "legalfly",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:grc",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:belgium",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

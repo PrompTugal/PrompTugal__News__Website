@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "asia-pacific-meet-greet",
+  "type": "event",
+  "title": "Asia-Pacific meet & greet",
+  "kind": "night-summit",
+  "listed_as": "night-summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-09",
+  "time": "20:00-20:55",
+  "start": "20:00",
+  "end": "20:55",
+  "where": "Meetup 2 (Night Summit), MEO Arena and FIL",
+  "place": "place:meetup-2",
+  "track": "Night Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/af24e210-4e4e-4091-b689-84bda3533abe/asia-pacific-meet-greet/",
+  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 15
+  }
+}

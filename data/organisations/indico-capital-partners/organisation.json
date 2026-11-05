@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "indico-capital-partners",
+  "type": "organisation",
+  "name": "Indico Capital Partners",
+  "names_as_listed": [
+    "Indico Capital Partners"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/c739a1a1-3d8e-4a81-8648-53a0f5ea9013/pitch-semi-final/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

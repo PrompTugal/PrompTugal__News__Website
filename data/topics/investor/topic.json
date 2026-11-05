@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "investor",
+  "type": "topic",
+  "name": "Investors",
+  "kind": "field",
+  "description": "Investors and the people who track them.",
+  "broader": [],
+  "summit_tracks": [],
+  "source": "data/companies/",
+  "category": "investor"
+}

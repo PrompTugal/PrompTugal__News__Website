@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "georg-zoeller",
+  "type": "person",
+  "name": "Georg Zoeller",
+  "role": "Co founder",
+  "organisation": "Centre for AI Leadership (C4AIL)",
+  "org": "company:c4ail",
+  "listings": [
+    {
+      "role": "Co founder",
+      "organisation": "Centre for AI Leadership (C4AIL)",
+      "org": "company:c4ail",
+      "event": "event:beyond-the-ai-agent-hype",
+      "source": "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co founder",
+      "organisation": "Centre for AI Leadership (C4AIL)",
+      "org": "company:c4ail",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/1e52813d-0e2e-47fb-aeb0-28f2c81d0197/georg-zoeller/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "startup-web-summit-kick-off",
+  "type": "event",
+  "title": "Startup Web Summit Kick Off: a 7-a-side startup football tournament (2nd edition)",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": false,
+  "date": "2026-11-07",
+  "time": "13:30-17:15",
+  "start": "13:30",
+  "end": "17:15",
+  "where": "Estádio da Tapadinha, Lisbon",
+  "place": "place:estadio-da-tapadinha",
+  "track": null,
+  "part_of": null,
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "note": "Date confirmed at the source today; the time is as the team read it on 2026-11-01.",
+  "session_url": null,
+  "source_url": "https://jornaleconomico.sapo.pt/noticias/manie-volta-a-juntar-startups-em-torneio-de-futebol-antes-da-web-summit-em-lisboa/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 6
+  }
+}

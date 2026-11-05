@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "build-for-people-a-human-x-car-x-home-approach",
+  "type": "event",
+  "title": "Build for people: A ‘human x car x home’ approach",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "10:20-10:40",
+  "start": "10:20",
+  "end": "10:40",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:fei-xu",
+      "as_listed": "Fei Xu (CMO, Xiaomi Group)",
+      "role": "CMO",
+      "organisation": "Xiaomi Group",
+      "org": "organisation:xiaomi-group"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/d5e17a6c-b8b1-41a2-b009-1e9b6dd8d6b7/build-for-people-a-human-x-car-x-home-approach/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 165
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "cal-com",
+  "type": "organisation",
+  "name": "Cal.com",
+  "names_as_listed": [
+    "Cal.com"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/2465ed74-ae9c-4705-93dc-54bb7f8ae26d/open-or-closed-ai-models-which-types-of-future-do-they-represent-press-conference/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

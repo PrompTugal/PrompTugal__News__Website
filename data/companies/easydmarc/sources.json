@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "easydmarc",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'The perimeter is dead. So what happens to trust?', 12 Nov, Cybersecurity Summit, Stage 8, names EasyDMARC, Inc. as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/178a66d7-101a-4544-8382-6e811f0a1dab/gerasim-hovhannisyan/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Gerasim Hovhannisyan, Co-founder & CEO, EasyDMARC, Inc.; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://easydmarc.com/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

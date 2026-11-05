@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "east-asia-meet-greet",
+  "type": "event",
+  "title": "East Asia meet & greet",
+  "kind": "night-summit",
+  "listed_as": "night-summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-09",
+  "time": "20:00-20:55",
+  "start": "20:00",
+  "end": "20:55",
+  "where": "Meetup 6 (Night Summit), MEO Arena and FIL",
+  "place": "place:meetup-6",
+  "track": "Night Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/91be9115-80d0-41b9-9443-9f0cbabb0703/east-asia-meet-greet/",
+  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 16
+  }
+}

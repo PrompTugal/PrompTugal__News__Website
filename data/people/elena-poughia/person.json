@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "elena-poughia",
+  "type": "person",
+  "name": "Elena Poughia",
+  "role": "Managing Editor",
+  "organisation": "Dataconomy Media",
+  "org": "organisation:dataconomy-media",
+  "listings": [
+    {
+      "role": "Managing Editor",
+      "organisation": "Dataconomy Media",
+      "org": "organisation:dataconomy-media",
+      "event": "event:your-ai-agent-just-got-a-passport",
+      "source": "https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/",
+      "read_at": "2026-11-04T20:03Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

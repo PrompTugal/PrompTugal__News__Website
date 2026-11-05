@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "other",
+  "type": "topic",
+  "name": "Other",
+  "kind": "field",
+  "description": "Companies that fit none of the fields above.",
+  "broader": [],
+  "summit_tracks": [],
+  "source": "data/companies/",
+  "category": "other"
+}

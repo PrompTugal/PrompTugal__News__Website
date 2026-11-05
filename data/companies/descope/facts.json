@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/company-facts.schema.json",
+  "company": "descope",
+  "facts": [
+    {
+      "id": "f-s1",
+      "claim": "LIS26 session page (conferenceSlug lis26): '(A)Identity: Auth tips to secure AI agents and MCP servers', 12 Nov, Developer Summit, Developer Lounge, names Descope as the speaker's organisation; the session is hosted by this company",
+      "source": "s1",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s2",
+      "claim": "LIS26 appearance page: name, country, industry, website and elevator pitch (the 'what' field)",
+      "source": "s2",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s3",
+      "claim": "what the company does, from its own site (title and description)",
+      "source": "s3",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    }
+  ]
+}

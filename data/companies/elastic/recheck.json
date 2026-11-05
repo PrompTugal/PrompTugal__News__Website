@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "elastic",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:47Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/56cb06d1-4424-4110-95ab-326957470b08/elastic",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.elastic.co/",
+        "status": 200
+      }
+    }
+  ]
+}

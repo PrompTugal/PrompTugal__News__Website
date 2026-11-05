@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "stanford-university",
+  "type": "organisation",
+  "name": "Stanford University",
+  "names_as_listed": [
+    "Stanford University"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/c0581238-2d66-434c-9e16-eee93fef3867/frontline-europe-ai-sovereignty-and-truth/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

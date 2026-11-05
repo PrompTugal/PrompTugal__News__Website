@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "twilio",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/fc4af8fa-8be5-4d3e-921f-31b3ccdac456/twilio",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.twilio.com/en-us/solutions/startups",
+        "status": 200
+      }
+    }
+  ]
+}

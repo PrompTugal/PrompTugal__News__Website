@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "pricing-saas-when-users-are-agents",
+  "type": "event",
+  "title": "Pricing SaaS when users are agents",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "14:45-15:05",
+  "start": "14:45",
+  "end": "15:05",
+  "where": "Stage 7 (SaaS Summit), MEO Arena and FIL",
+  "place": "place:stage-7",
+  "track": "SaaS Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:edith-harbaugh",
+      "as_listed": "Edith Harbaugh (Co-founder & CEO, LaunchDarkly)",
+      "role": "Co-founder & CEO",
+      "organisation": "LaunchDarkly",
+      "org": "company:launchdarkly"
+    },
+    {
+      "person": "person:joshua-wohle",
+      "as_listed": "Joshua Wöhle (CEO, Mindstone)",
+      "role": "CEO",
+      "organisation": "Mindstone",
+      "org": "organisation:mindstone"
+    },
+    {
+      "person": "person:jeremy-goldman",
+      "as_listed": "Jeremy Goldman (Host, FUTUREPROOF Podcast)",
+      "role": "Host",
+      "organisation": "FUTUREPROOF Podcast",
+      "org": "organisation:futureproof-podcast"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/9e5469da-4430-430f-9ada-277e3d2dc715/pricing-saas-when-users-are-agents/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 198
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "xiaoguang-chen",
+  "type": "person",
+  "name": "Xiaoguang Chen",
+  "role": "Co-founder & CEO",
+  "organisation": "Eversec Technology",
+  "org": "company:eversec",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Eversec Technology",
+      "org": "company:eversec",
+      "event": "event:building-security-for-the-human-machine-era",
+      "source": "https://websummit.com/sessions/lis26/2685d2a1-c9d6-4a49-bd39-342c03e627f4/building-security-for-the-human-machine-era/",
+      "read_at": "2026-11-04T20:03Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Eversec Technology",
+      "org": "company:eversec",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/f9b5a879-ac24-4b2d-9f40-176f189a5d37/xiaoguang-chen/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

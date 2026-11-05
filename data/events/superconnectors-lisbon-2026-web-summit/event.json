@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "superconnectors-lisbon-2026-web-summit",
+  "type": "event",
+  "title": "Superconnectors Lisbon 2026 @ Web Summit",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "17:00-19:00",
+  "start": "17:00",
+  "end": "19:00",
+  "where": "Lisbon (venue not given on the page)",
+  "place": "place:lisbon",
+  "track": null,
+  "part_of": "event:portugal-tech-week-2026-begins",
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://portugaltechweek.com/events/superconnectors-lisbon-2026-web-summit/",
+  "read_at": "2026-11-01",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, not re-checked today (the page did not show it to a plain read)",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 94
+  }
+}

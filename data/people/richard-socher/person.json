@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "richard-socher",
+  "type": "person",
+  "name": "Richard Socher",
+  "role": "Co-founder & CEO",
+  "organisation": "Recursive & You.com",
+  "org": "company:you-com",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Recursive & You.com",
+      "org": "company:you-com",
+      "event": "event:when-ai-builds-itself",
+      "source": "https://websummit.com/sessions/lis26/e7e83ab8-8381-419f-a688-23025a1c8422/when-ai-builds-itself/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Recursive & You.com",
+      "org": "company:you-com",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/2a414db4-1197-4b71-8570-1a2b6eb96714/richard-socher",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

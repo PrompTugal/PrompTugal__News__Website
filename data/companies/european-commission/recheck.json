@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "european-commission",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "website": {
+        "url": "https://commission.europa.eu/",
+        "status": 200
+      }
+    }
+  ]
+}

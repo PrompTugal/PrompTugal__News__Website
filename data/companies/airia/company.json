@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "airia",
+  "type": "company",
+  "name": "Airia",
+  "website": "https://airia.com/",
+  "what": "AI security and governance platform: one control layer for agents, models, tools, data access, runtime policy, red teaming and audit-ready evidence.",
+  "category": "grc",
+  "country": "United States",
+  "attending": "confirmed: Kevin Kiley (CEO) is listed on the LIS26 session page 'AI sprawl is exploding. Get ahead of governance and security challenges before it’s boo late'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Airia",
+      "source": "s1",
+      "how": "the name in the team's map"
+    },
+    {
+      "name": "Airia AI",
+      "source": "s2",
+      "how": "the organisation a summit page lists its speaker under"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

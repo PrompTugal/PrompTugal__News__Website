@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-tecnico-web-summit-2026",
+  "type": "evidence",
+  "source_url": "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/",
+  "beat": "portugal",
+  "group": "G9 Portuguese science at the summit",
+  "names": [
+    {
+      "as_listed": "Instituto Superior Técnico (Universidade de Lisboa)",
+      "ref": "organisation:instituto-superior-tecnico"
+    },
+    {
+      "as_listed": "Institute for Systems and Robotics",
+      "ref": "organisation:institute-for-systems-and-robotics"
+    },
+    {
+      "as_listed": "Técnico Venture Lab",
+      "ref": "organisation:tecnico-venture-lab"
+    },
+    {
+      "as_listed": "ITI-LARSyS",
+      "ref": "organisation:iti-larsys"
+    },
+    {
+      "as_listed": "Acubic",
+      "ref": "organisation:acubic"
+    },
+    {
+      "as_listed": "Keel",
+      "ref": "organisation:keel"
+    },
+    {
+      "as_listed": "Opsivision.ai",
+      "ref": "organisation:opsivision-ai"
+    },
+    {
+      "as_listed": "RTBEAMTECH",
+      "ref": "organisation:rtbeamtech"
+    },
+    {
+      "as_listed": "RipeNew",
+      "ref": "organisation:ripenew"
+    },
+    {
+      "as_listed": "Testwaves",
+      "ref": "organisation:testwaves"
+    },
+    {
+      "as_listed": "Fundação Santander",
+      "ref": "organisation:fundacao-santander"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-04-1955.json",
+  "run": "2026-11-04T19:45Z (scheduled run, written 19:55)",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1955.json"
+    ]
+  }
+}

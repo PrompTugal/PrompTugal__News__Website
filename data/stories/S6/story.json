@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S6",
+  "type": "story",
+  "title": "Gender in Tech report: 84% see women in leadership",
+  "beat": "announcements",
+  "topic": "topic:announcements",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:r1546-03"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-04-1945.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-04-1945.json"
+    ]
+  }
+}

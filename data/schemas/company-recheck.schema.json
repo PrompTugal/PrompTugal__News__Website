@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/company-recheck.schema.json",
+  "title": "The newsroom's re-check log for a company (data/companies/<id>/recheck.json)",
+  "type": "object",
+  "required": [
+    "company",
+    "log"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "company": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "log": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "checked_at",
+          "by"
+        ],
+        "properties": {
+          "checked_at": {
+            "$ref": "common.schema.json#/$defs/datetime"
+          },
+          "by": {
+            "$ref": "common.schema.json#/$defs/agent"
+          },
+          "summit_page": {
+            "type": "object",
+            "required": [
+              "url",
+              "status"
+            ],
+            "properties": {
+              "url": {
+                "$ref": "common.schema.json#/$defs/url"
+              },
+              "status": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "website": {
+            "type": "object",
+            "required": [
+              "url",
+              "status"
+            ],
+            "properties": {
+              "url": {
+                "$ref": "common.schema.json#/$defs/url"
+              },
+              "status": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

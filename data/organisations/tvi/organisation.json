@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "tvi",
+  "type": "organisation",
+  "name": "TVI",
+  "names_as_listed": [
+    "TVI"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/25907bfd-71a8-4240-a93a-eb24fa8d64ff/press-conference-rewriting-the-rules-of-female-longevity/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    },
+    {
+      "url": "https://websummit.com/sessions/lis26/79f1c8b1-4453-46c1-a37f-cb614d082cb8/rewriting-the-rules-of-female-longevity/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

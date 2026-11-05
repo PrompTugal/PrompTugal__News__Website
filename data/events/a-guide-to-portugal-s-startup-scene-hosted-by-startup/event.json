@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "a-guide-to-portugal-s-startup-scene-hosted-by-startup",
+  "type": "event",
+  "title": "A guide to Portugal's startup scene [Hosted by Startup Portugal]",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "12:00-12:45",
+  "start": "12:00",
+  "end": "12:45",
+  "where": "Masterclass 1 (Masterclasses), MEO Arena and FIL",
+  "place": "place:masterclass-1",
+  "track": "Masterclasses",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "hosted_by": [
+    {
+      "org": "company:startup-portugal",
+      "as_listed": "Startup Portugal",
+      "source": "https://websummit.com/sessions/lis26/437ebaa7-ccc4-4e89-a01f-0ae1958e7726/a-guide-to-portugal-s-startup-scene-hosted-by-startup-portugal/"
+    }
+  ],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/437ebaa7-ccc4-4e89-a01f-0ae1958e7726/a-guide-to-portugal-s-startup-scene-hosted-by-startup-portugal/",
+  "read_at": "2026-11-04T20:03Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 54
+  }
+}

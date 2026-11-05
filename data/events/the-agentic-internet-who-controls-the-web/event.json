@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-agentic-internet-who-controls-the-web",
+  "type": "event",
+  "title": "The agentic internet: Who controls the web?",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "11:50-12:10",
+  "start": "11:50",
+  "end": "12:10",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:matthew-prince",
+      "as_listed": "Matthew Prince (Co-founder & CEO, Cloudflare)",
+      "role": "Co-founder & CEO",
+      "organisation": "Cloudflare",
+      "org": "company:cloudflare"
+    },
+    {
+      "person": "person:nick-thompson",
+      "as_listed": "Nick Thompson (CEO, The Atlantic)",
+      "role": "CEO",
+      "organisation": "The Atlantic",
+      "org": "organisation:the-atlantic"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/4421ffa8-97ef-4466-8669-31c47cff3b5a/the-agentic-internet-who-controls-the-web/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 53
+  }
+}

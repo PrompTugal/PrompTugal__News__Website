@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "banco-portugues-de-fomento",
+  "type": "organisation",
+  "name": "Banco Português de Fomento",
+  "names_as_listed": [
+    "Banco Português de Fomento"
+  ],
+  "sources": [
+    {
+      "url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
+      "read_at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://websummit.com/sessions/lis26/c739a1a1-3d8e-4a81-8648-53a0f5ea9013/pitch-semi-final/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

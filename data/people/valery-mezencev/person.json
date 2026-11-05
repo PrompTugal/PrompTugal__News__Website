@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "valery-mezencev",
+  "type": "person",
+  "name": "Valery Mezencev",
+  "role": "Senior Product Marketing Manager",
+  "organisation": "Make",
+  "org": "company:make",
+  "listings": [
+    {
+      "role": "Senior Product Marketing Manager",
+      "organisation": "Make",
+      "org": "company:make",
+      "event": "event:make-ai-agents-work-beyond-the-demo-hosted-by-make",
+      "source": "https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Senior Product Marketing Manager",
+      "organisation": "Make",
+      "org": "company:make",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/d972f72e-cdba-4110-9e38-8352dfb5a7dc/valery-mezencev/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

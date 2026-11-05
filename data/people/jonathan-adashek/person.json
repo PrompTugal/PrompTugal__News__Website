@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jonathan-adashek",
+  "type": "person",
+  "name": "Jonathan Adashek",
+  "role": "Senior Vice President and Chief Global Affairs Officer",
+  "organisation": "IBM",
+  "org": "company:ibm",
+  "listings": [
+    {
+      "role": "Senior Vice President and Chief Global Affairs Officer",
+      "organisation": "IBM",
+      "org": "company:ibm",
+      "event": "event:the-enterprise-reality-check-who-s-controlling-data-and-ai",
+      "source": "https://websummit.com/sessions/lis26/b216ce91-8a19-4296-bfb7-37b9efcb8a52/the-enterprise-reality-check-who-s-controlling-data-and-ai/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

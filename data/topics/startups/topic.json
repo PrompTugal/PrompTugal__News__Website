@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "startups",
+  "type": "topic",
+  "name": "Startups",
+  "kind": "theme",
+  "description": "Startups and the summit's startup competition.",
+  "broader": [],
+  "summit_tracks": [
+    "PITCH"
+  ],
+  "source": "content/brief/03-what-we-publish.md"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "simular",
+  "type": "organisation",
+  "name": "Simular",
+  "names_as_listed": [
+    "Simular"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/66205ff8-6ea5-42d4-ac51-eb26c65a5d02/breakout-startups/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

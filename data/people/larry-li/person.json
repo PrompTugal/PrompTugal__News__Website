@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "larry-li",
+  "type": "person",
+  "name": "Larry Li",
+  "role": "Founder & Managing Partner",
+  "organisation": "Amino Capital",
+  "org": "organisation:amino-capital",
+  "listings": [
+    {
+      "role": "Founder & Managing Partner",
+      "organisation": "Amino Capital",
+      "org": "organisation:amino-capital",
+      "event": "event:pitch-semi-final",
+      "source": "https://websummit.com/sessions/lis26/c739a1a1-3d8e-4a81-8648-53a0f5ea9013/pitch-semi-final/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

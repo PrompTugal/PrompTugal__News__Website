@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "c4ail",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:50Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/",
+        "status": 200
+      },
+      "website": {
+        "url": "https://centreforaileadership.org/",
+        "status": 200
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "breakout-startups-6059c850",
+  "type": "event",
+  "title": "Breakout startups",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "09:24-09:54",
+  "start": "09:24",
+  "end": "09:54",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:haz-hubble",
+      "as_listed": "Haz Hubble (CEO & Co-Founder, Pally)",
+      "role": "CEO & Co-Founder",
+      "organisation": "Pally",
+      "org": "organisation:pally"
+    },
+    {
+      "person": "person:hanh-nguyen",
+      "as_listed": "Hanh Nguyen (CEO & Co-Founder, alqem)",
+      "role": "CEO & Co-Founder",
+      "organisation": "alqem",
+      "org": "organisation:alqem"
+    },
+    {
+      "person": "person:sahil-jain",
+      "as_listed": "Sahil Jain (CEO & Co-Founder, Samepage.ai)",
+      "role": "CEO & Co-Founder",
+      "organisation": "Samepage.ai",
+      "org": "organisation:samepage-ai"
+    },
+    {
+      "person": "person:larissa-schneider",
+      "as_listed": "Larissa Schneider (Co-Founder & COO, Unframe)",
+      "role": "Co-Founder & COO",
+      "organisation": "Unframe",
+      "org": "organisation:unframe"
+    },
+    {
+      "person": "person:adam-schwartz",
+      "as_listed": "Adam Schwartz (Co-Founder & CEO, Parable)",
+      "role": "Co-Founder & CEO",
+      "organisation": "Parable",
+      "org": "organisation:parable"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/6059c850-47b5-40eb-8525-f7f2fbb2aa32/breakout-startups/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 106
+  }
+}

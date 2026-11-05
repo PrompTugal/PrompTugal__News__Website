@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "spacecomputer",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:security",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:singapore",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

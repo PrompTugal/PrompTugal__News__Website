@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "lucinda-shen",
+  "type": "person",
+  "name": "Lucinda Shen",
+  "role": "Deals Reporter",
+  "organisation": "Axios",
+  "org": "organisation:axios",
+  "listings": [
+    {
+      "role": "Deals Reporter",
+      "organisation": "Axios",
+      "org": "organisation:axios",
+      "event": "event:beyond-the-ipo-the-new-exit-playbook",
+      "source": "https://websummit.com/sessions/lis26/f9b5061e-ee77-43c1-b469-c0754cae3e5e/beyond-the-ipo-the-new-exit-playbook/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-knowledge-your-agents-can-t-see-building-visual-context",
+  "type": "event",
+  "title": "The knowledge your agents can't see: Building visual context",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "14:00-14:45",
+  "start": "14:00",
+  "end": "14:45",
+  "where": "Developer Lounge, MEO Arena and FIL",
+  "place": "place:developer-lounge",
+  "track": null,
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:joe-mcelroy",
+      "as_listed": "Joe McElroy",
+      "role": null,
+      "organisation": null,
+      "org": null
+    },
+    {
+      "person": "person:yannis-roussos",
+      "as_listed": "Yannis Roussos",
+      "role": null,
+      "organisation": null,
+      "org": null
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/3be06034-1c23-4797-bb86-232cbd450d8d/the-knowledge-your-agents-can-t-see-building-visual-context/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 70
+  }
+}

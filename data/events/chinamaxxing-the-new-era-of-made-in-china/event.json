@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "chinamaxxing-the-new-era-of-made-in-china",
+  "type": "event",
+  "title": "Chinamaxxing: The new era of Made in China",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "15:20-15:40",
+  "start": "15:20",
+  "end": "15:40",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:nick-yu",
+      "as_listed": "Nick Yu (Chief Product Officer, OMOWAY)",
+      "role": "Chief Product Officer",
+      "organisation": "OMOWAY",
+      "org": "organisation:omoway"
+    },
+    {
+      "person": "person:irene-long",
+      "as_listed": "Irene Long (CSO, Rokid)",
+      "role": "CSO",
+      "organisation": "Rokid",
+      "org": "organisation:rokid"
+    },
+    {
+      "person": "person:jianhua-li",
+      "as_listed": "Jianhua Li (Correspondent & News Anchor, CGTN Europe)",
+      "role": "Correspondent & News Anchor",
+      "organisation": "CGTN Europe",
+      "org": "organisation:cgtn-europe"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/9c1902d0-4ff4-4ecd-a983-0e8de326ba1f/chinamaxxing-the-new-era-of-made-in-china/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 202
+  }
+}

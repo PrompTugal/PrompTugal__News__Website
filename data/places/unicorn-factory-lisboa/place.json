@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "unicorn-factory-lisboa",
+  "type": "place",
+  "name": "Unicorn Factory Lisboa",
+  "kind": "venue",
+  "located_in": null,
+  "matches": [
+    "Unicorn Factory Lisboa"
+  ],
+  "source": "https://websummit.com/schedule/",
+  "note": "Named as a venue by the event's page; as an organisation it is a separate node."
+}

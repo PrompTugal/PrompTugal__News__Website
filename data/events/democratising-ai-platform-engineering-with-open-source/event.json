@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "democratising-ai-platform-engineering-with-open-source",
+  "type": "event",
+  "title": "Democratising AI platform engineering with open-source [Hosted by Cisco Systems]",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "13:00-13:45",
+  "start": "13:00",
+  "end": "13:45",
+  "where": "Masterclass 1 (Masterclasses), MEO Arena and FIL",
+  "place": "place:masterclass-1",
+  "track": "Masterclasses",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:alfonso-poncho-sandoval-rosas",
+      "as_listed": "Alfonso (Poncho) Sandoval Rosas (Senior Developer Advocate 🥑, CIsco Systems)",
+      "role": "Senior Developer Advocate 🥑",
+      "organisation": "CIsco Systems",
+      "org": "company:cisco-outshift"
+    }
+  ],
+  "hosted_by": [
+    {
+      "org": "company:cisco-outshift",
+      "as_listed": "Cisco Systems",
+      "source": "https://websummit.com/sessions/lis26/5f4ac039-83e3-4b2b-9415-3efa64804ee1/democratising-ai-platform-engineering-with-open-source-hosted-by-cisco-systems/"
+    }
+  ],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/5f4ac039-83e3-4b2b-9415-3efa64804ee1/democratising-ai-platform-engineering-with-open-source-hosted-by-cisco-systems/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 189
+  }
+}

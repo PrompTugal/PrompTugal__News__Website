@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "j-ofori-agboka",
+  "type": "person",
+  "name": "J. Ofori Agboka",
+  "role": "Vice President People, Experience & Technology",
+  "organisation": "Amazon",
+  "org": "organisation:amazon",
+  "listings": [
+    {
+      "role": "Vice President People, Experience & Technology",
+      "organisation": "Amazon",
+      "org": "organisation:amazon",
+      "event": "event:press-conference-with-amazon-vice-president-people",
+      "source": "https://websummit.com/sessions/lis26/3f2286e3-46c8-46a8-8900-692ca0c3a8f9/press-conference-with-amazon-vice-president-people-experience-technology-j-ofori-agboka/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

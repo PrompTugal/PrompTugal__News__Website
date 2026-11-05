@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "maintaining-the-human-in-an-ai-world",
+  "type": "event",
+  "title": "Maintaining the human in an AI world",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "12:10-12:30",
+  "start": "12:10",
+  "end": "12:30",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:jen-wong",
+      "as_listed": "Jen Wong (COO, Reddit)",
+      "role": "COO",
+      "organisation": "Reddit",
+      "org": "organisation:reddit"
+    },
+    {
+      "person": "person:harry-mccracken",
+      "as_listed": "Harry McCracken (Technology Editor, Fast Company)",
+      "role": "Technology Editor",
+      "organisation": "Fast Company",
+      "org": "organisation:fast-company"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/10c045d7-d2d8-40ce-aecb-26a9b3a21639/maintaining-the-human-in-an-ai-world/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 132
+  }
+}

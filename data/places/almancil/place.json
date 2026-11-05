@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "almancil",
+  "type": "place",
+  "name": "Almancil",
+  "kind": "city",
+  "located_in": "place:algarve",
+  "matches": [
+    "Almancil, Algarve (exact place given on sign-up)"
+  ],
+  "source": "https://www.algarveevolution.pt/event/private-wealth-investment-gathering-180/register",
+  "note": "The exact place is given on sign-up."
+}

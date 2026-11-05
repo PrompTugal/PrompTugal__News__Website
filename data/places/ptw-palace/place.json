@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "ptw-palace",
+  "type": "place",
+  "name": "PTW Palace",
+  "kind": "venue",
+  "located_in": "place:lisbon",
+  "matches": [
+    "PTW Palace, Rua Gomes Freire 98, Lisbon",
+    "PTW Palace (Palacete Gomes Freire), Lisbon"
+  ],
+  "source": "https://portugaltechweek.com/",
+  "note": "Portugal Tech Week's venue, Rua Gomes Freire 98 (Palacete Gomes Freire), as its event pages give it."
+}

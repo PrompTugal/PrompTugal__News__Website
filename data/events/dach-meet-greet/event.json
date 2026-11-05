@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "dach-meet-greet",
+  "type": "event",
+  "title": "DACH meet & greet",
+  "kind": "night-summit",
+  "listed_as": "night-summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-09",
+  "time": "21:00-21:55",
+  "start": "21:00",
+  "end": "21:55",
+  "where": "Meetup 3 (Night Summit), MEO Arena and FIL",
+  "place": "place:meetup-3",
+  "track": "Night Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/0b9c92c0-0c26-4d85-b5cb-c7dc8d87284a/dach-meet-greet/",
+  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/2/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 25
+  }
+}

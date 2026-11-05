@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "when-agents-write-the-code-does-a-framework-like-angular",
+  "type": "event",
+  "title": "When agents write the code, does a framework like Angular still matter?",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "11:00-11:55",
+  "start": "11:00",
+  "end": "11:55",
+  "where": "Developer Lounge, MEO Arena and FIL",
+  "place": "place:developer-lounge",
+  "track": null,
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:grzegorz-lipke",
+      "as_listed": "Grzegorz Lipke (CTO, House Of Angular)",
+      "role": "CTO",
+      "organisation": "House Of Angular",
+      "org": "organisation:house-of-angular"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/dab3a547-0122-4464-91de-a1262e50d894/when-agents-write-the-code-does-a-framework-like-angular-still-matter/",
+  "read_at": "2026-11-04T20:05Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 173
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "ledger",
+  "type": "company",
+  "name": "Ledger",
+  "website": "https://www.ledger.com/",
+  "what": "Hardware crypto wallets and security for digital assets; its Chief Human Agency Officer leads AI initiatives so humans stay in control as AI agents act.",
+  "category": "security",
+  "country": "France",
+  "attending": "confirmed: Ian Rogers (Chief Human Agency Officer & Board Member) is listed on the LIS26 session page 'In bots we trust: Defending money against AI-powered fraud'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Ledger",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

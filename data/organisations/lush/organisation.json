@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "lush",
+  "type": "organisation",
+  "name": "Lush",
+  "names_as_listed": [
+    "Lush"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/858c105c-7c26-4196-bbc1-5a6ef6a35f55/don-t-feed-shit-to-agents/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

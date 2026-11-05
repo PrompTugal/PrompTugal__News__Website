@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "scrut-automation",
+  "type": "company",
+  "name": "Scrut Automation",
+  "website": "https://www.scrut.io/",
+  "what": "AI compliance automation (GRC) platform: evidence collection, risk assessment and vendor risk management with AI agents, for SOC 2, ISO 27001 and 60+ frameworks.",
+  "category": "grc",
+  "country": "United States",
+  "attending": "confirmed: Nicholas Muy (CISO) is listed on the LIS26 session page 'The biological bottleneck'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Scrut Automation",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "miguel-d-aguiar",
+  "type": "person",
+  "name": "Miguel d'Aguiar",
+  "role": "Executive Director",
+  "organisation": "Startup Portugal",
+  "org": "company:startup-portugal",
+  "listings": [
+    {
+      "role": "Executive Director",
+      "organisation": "Startup Portugal",
+      "org": "company:startup-portugal",
+      "event": "event:press-conference-road-2-web-summit-2026-winner",
+      "source": "https://websummit.com/sessions/lis26/66c7529f-b060-4e49-b9ba-817ae6db8f0e/press-conference-road-2-web-summit-2026-winner/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

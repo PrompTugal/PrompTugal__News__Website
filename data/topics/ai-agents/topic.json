@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "ai-agents",
+  "type": "topic",
+  "name": "AI agents",
+  "kind": "field",
+  "description": "Companies building AI agents, agent platforms and the infrastructure agents run on.",
+  "broader": [
+    "topic:ai"
+  ],
+  "summit_tracks": [],
+  "source": "data/companies/",
+  "category": "ai-agents"
+}

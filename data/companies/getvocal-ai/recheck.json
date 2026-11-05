@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "getvocal-ai",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/caa1775e-c9d9-4186-b906-626c4aa6455c/getvocal-ai",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.getvocal.ai",
+        "status": 200
+      }
+    }
+  ]
+}

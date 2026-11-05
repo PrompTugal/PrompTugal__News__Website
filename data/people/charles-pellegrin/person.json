@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "charles-pellegrin",
+  "type": "person",
+  "name": "Charles Pellegrin",
+  "role": "Business Editor",
+  "organisation": "France 24",
+  "org": "organisation:france-24",
+  "listings": [
+    {
+      "role": "Business Editor",
+      "organisation": "France 24",
+      "org": "organisation:france-24",
+      "event": "event:do-we-need-a-un-ai-treaty",
+      "source": "https://websummit.com/sessions/lis26/e957eedc-8414-42ca-8572-4806d21e8d85/do-we-need-a-un-ai-treaty/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

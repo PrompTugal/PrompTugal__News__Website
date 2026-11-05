@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ian-rogers",
+  "type": "person",
+  "name": "Ian Rogers",
+  "role": "Chief Human Agency Officer & Board Member",
+  "organisation": "Ledger",
+  "org": "company:ledger",
+  "listings": [
+    {
+      "role": "Chief Human Agency Officer & Board Member",
+      "organisation": "Ledger",
+      "org": "company:ledger",
+      "event": "event:in-bots-we-trust-defending-money-against-ai-powered-fraud",
+      "source": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Chief Human Agency Officer & Board Member",
+      "organisation": "Ledger",
+      "org": "company:ledger",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/748951a5-8650-45f9-8859-7786c9031f20/ian-rogers/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

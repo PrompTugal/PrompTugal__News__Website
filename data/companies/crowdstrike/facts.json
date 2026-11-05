@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/company-facts.schema.json",
+  "company": "crowdstrike",
+  "facts": [
+    {
+      "id": "f-s1",
+      "claim": "public speaker listed by Web Summit for LIS26: George Kurtz, Co-founder & CEO, CrowdStrike",
+      "source": "s1",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s2",
+      "claim": "the 2026 speaker / featured attendee list that links to that page",
+      "source": "s2",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s3",
+      "claim": "what the company does, from its own site",
+      "source": "s3",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    }
+  ]
+}

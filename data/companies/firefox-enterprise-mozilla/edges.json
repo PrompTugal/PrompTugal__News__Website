@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "firefox-enterprise-mozilla",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:security",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:netherlands",
+      "source": "s1",
+      "by": "admin/tools/companies.mjs"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "reddit",
+  "type": "organisation",
+  "name": "Reddit",
+  "names_as_listed": [
+    "Reddit"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/10c045d7-d2d8-40ce-aecb-26a9b3a21639/maintaining-the-human-in-an-ai-world/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jordi-romero",
+  "type": "person",
+  "name": "Jordi Romero",
+  "role": "Co-founder & CEO",
+  "organisation": "Factorial",
+  "org": "company:factorial",
+  "listings": [
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Factorial",
+      "org": "company:factorial",
+      "event": "event:double-agents-are-your-employees-ai-agents-working-for-or",
+      "source": "https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/",
+      "read_at": "2026-11-04T20:03Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "Factorial",
+      "org": "company:factorial",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/c80d8d41-c386-48d6-94e4-47e848d01849/jordi-romero/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

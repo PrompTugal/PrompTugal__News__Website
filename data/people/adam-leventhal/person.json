@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "adam-leventhal",
+  "type": "person",
+  "name": "Adam Leventhal",
+  "role": "TV Presenter & Independent Journalist",
+  "organisation": "Sky Sports & Noosphere",
+  "org": "organisation:sky-sports-and-noosphere",
+  "listings": [
+    {
+      "role": "TV Presenter & Independent Journalist",
+      "organisation": "Sky Sports & Noosphere",
+      "org": "organisation:sky-sports-and-noosphere",
+      "event": "event:building-the-operating-system-for-modern-sport",
+      "source": "https://websummit.com/sessions/lis26/75f4fff0-c237-44b1-9ff7-ed99d44b9d44/building-the-operating-system-for-modern-sport/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

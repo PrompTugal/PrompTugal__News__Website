@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "security",
+  "type": "topic",
+  "name": "Security",
+  "kind": "field",
+  "description": "Cybersecurity, identity, fraud and the security of AI systems.",
+  "broader": [],
+  "summit_tracks": [
+    "Cybersecurity Summit"
+  ],
+  "source": "data/companies/",
+  "category": "security"
+}

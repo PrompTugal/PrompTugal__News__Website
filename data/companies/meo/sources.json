@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "meo",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/5847852b-93e5-4590-b1f8-eb657b7fae4c/the-autonomous-enterprise-networks-cloud-and-ai-agents/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'The autonomous enterprise: Networks, cloud and AI agents', 11 Nov, Corporate Innovation Summit, Stage 7, names MEO as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/bd8a75b9-590f-47fe-bb2e-78ba3190af17/jos%C3%A9-pedro-nascimento/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: José Pedro Nascimento, Chief Technology Officer, MEO; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.meo.pt/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site (title and description)",
+      "kind": "other"
+    }
+  ]
+}

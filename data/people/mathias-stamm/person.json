@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mathias-stamm",
+  "type": "person",
+  "name": "Mathias Stamm",
+  "role": "Editor-in-Chief",
+  "organisation": "Deutsche Welle",
+  "org": "organisation:deutsche-welle",
+  "listings": [
+    {
+      "role": "Editor-in-Chief",
+      "organisation": "Deutsche Welle",
+      "org": "organisation:deutsche-welle",
+      "event": "event:chat-control-2-0-the-government-in-your-dms",
+      "source": "https://websummit.com/sessions/lis26/66c13c83-4b26-4655-95a9-051b17258832/chat-control-2-0-the-government-in-your-dms/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

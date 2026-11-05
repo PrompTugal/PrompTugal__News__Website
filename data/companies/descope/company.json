@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "descope",
+  "type": "company",
+  "name": "Descope",
+  "website": "https://www.descope.com/",
+  "what": "Customer and agentic identity platform: passwordless login, MFA, SSO and multi-tenancy, and it secures AI agents and MCP servers with standards-based authorisation, scoped access and token management, so human and machine identities live in one place.",
+  "category": "security",
+  "country": "United States",
+  "attending": "confirmed: Samudra Gupta (Solutions Engineer) is listed on the LIS26 session page '(A)Identity: Auth tips to secure AI agents and MCP servers'",
+  "attending_as": "speaker's company (Developer Summit masterclass host)",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s2",
+      "s3"
+    ],
+    "what": [
+      "s2",
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Descope",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

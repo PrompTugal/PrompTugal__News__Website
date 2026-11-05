@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "idb-rooftop-by-mirari",
+  "type": "place",
+  "name": "IDB Rooftop by Mīrārī",
+  "kind": "venue",
+  "located_in": null,
+  "matches": [
+    "IDB Rooftop by Mīrārī"
+  ],
+  "source": "https://websummit.com/schedule/",
+  "note": "As the event's page on the summit's schedule names it; the page gives no city or address."
+}

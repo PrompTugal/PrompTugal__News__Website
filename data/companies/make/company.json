@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "make",
+  "type": "company",
+  "name": "Make",
+  "website": "https://www.make.com/",
+  "what": "Visual no-code platform to build, scale and automate AI and agentic workflows.",
+  "category": "ai-agents",
+  "country": "Czechia",
+  "attending": "confirmed: Valery Mezencev (Senior Product Marketing Manager) is listed on the LIS26 session page 'Make AI agents work beyond the demo [Hosted by Make]'",
+  "attending_as": "speaker's company (masterclass host)",
+  "field_sources": {
+    "name": [
+      "s2",
+      "s3"
+    ],
+    "website": [
+      "s4"
+    ],
+    "what": [
+      "s4"
+    ],
+    "category": [
+      "s3"
+    ],
+    "country": [
+      "s3"
+    ],
+    "attending": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "attending_as": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Make",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

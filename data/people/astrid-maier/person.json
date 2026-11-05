@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "astrid-maier",
+  "type": "person",
+  "name": "Astrid Maier",
+  "role": "Chief Deputy Editor and Head of Strategy",
+  "organisation": "Deutsche Presse-Agentur",
+  "org": "organisation:deutsche-presse-agentur",
+  "listings": [
+    {
+      "role": "Chief Deputy Editor and Head of Strategy",
+      "organisation": "Deutsche Presse-Agentur",
+      "org": "organisation:deutsche-presse-agentur",
+      "event": "event:surviving-the-ai-shift-media-s-new-reality",
+      "source": "https://websummit.com/sessions/lis26/2b807636-c8da-412f-87c4-331707882876/surviving-the-ai-shift-media-s-new-reality/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

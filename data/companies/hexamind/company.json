@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "hexamind",
+  "type": "company",
+  "name": "Hexamind",
+  "website": "https://www.hexamind.ai/",
+  "what": "French AI company (\"L'IA utile et maîtrisée\"); publishes Hexgate, an open-source (MIT) authorization layer for AI agents that gates every tool call through allow/deny/approval decisions by role, with signed policy bundles and an audit trail.",
+  "category": "ai-agents",
+  "country": "France",
+  "attending": "unconfirmed: listed as an exhibiting AI startup by a third-party article (Future Feed, 14 Oct 2026) that says it read Web Summit's public exhibitor list; not found on the parts of websummit.com readable without the app",
+  "attending_as": "unknown",
+  "field_sources": {
+    "name": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "website": [
+      "s2"
+    ],
+    "what": [
+      "s2"
+    ],
+    "category": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "country": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "attending": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "attending_as": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Hexamind",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

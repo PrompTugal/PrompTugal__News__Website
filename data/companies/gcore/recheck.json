@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "gcore",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/eeaeca9e-530a-4d95-a9f9-c24309f42ca0/gcore",
+        "status": 200
+      },
+      "website": {
+        "url": "https://gcore.com/",
+        "status": 200
+      }
+    }
+  ]
+}

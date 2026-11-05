@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jacob-sever",
+  "type": "person",
+  "name": "Jacob Sever",
+  "role": "Co-founder and Chief Innovation Officer",
+  "organisation": "Sumsub",
+  "org": "company:sumsub",
+  "listings": [
+    {
+      "role": "Co-founder and Chief Innovation Officer",
+      "organisation": "Sumsub",
+      "org": "company:sumsub",
+      "event": "event:an-ai-identity-crisis",
+      "source": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

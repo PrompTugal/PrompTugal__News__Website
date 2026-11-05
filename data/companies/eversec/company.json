@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "eversec",
+  "type": "company",
+  "name": "Eversec Technology",
+  "website": null,
+  "what": "Chinese company presented at Web Summit through its co-founder and CEO, described as an expert in AI governance and cybersecurity; the company's own site was not confirmed, so 'what' is not yet sourced beyond that.",
+  "category": "security",
+  "country": "China",
+  "attending": "confirmed: Xiaoguang Chen (Co-founder & CEO) is listed on the LIS26 session page 'Building security for the human-machine era'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s1",
+      "s2"
+    ],
+    "what": [
+      "s1",
+      "s2"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Eversec Technology",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

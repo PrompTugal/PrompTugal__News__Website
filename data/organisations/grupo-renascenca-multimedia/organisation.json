@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "grupo-renascenca-multimedia",
+  "type": "organisation",
+  "name": "Grupo Renascença  Multimédia",
+  "names_as_listed": [
+    "Grupo Renascença  Multimédia"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/9374ad36-05ca-4ed0-8f48-b86c09fca8ff/outsmarting-ai-defence-at-machine-speed/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

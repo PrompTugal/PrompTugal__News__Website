@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "pitch-group-round-15",
+  "type": "event",
+  "title": "PITCH group round 15",
+  "kind": "pitch",
+  "listed_as": "pitch",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "15:00-16:00",
+  "start": "15:00",
+  "end": "16:00",
+  "where": "Stage 12 (PITCH), MEO Arena and FIL",
+  "place": "place:stage-12",
+  "track": "PITCH",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/b5f42ae8-2ac6-4f7c-a39c-0a44ad050a6b/pitch-group-round-15/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiUElUQ0gifQ==/page/2/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 82
+  }
+}

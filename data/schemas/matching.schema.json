@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/matching.schema.json",
+  "title": "The derivation's report (data/matching.json)",
+  "type": "object",
+  "required": [
+    "about",
+    "counts",
+    "speaker_organisations",
+    "places",
+    "tracks",
+    "company_sessions",
+    "derived"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    }
+  },
+  "additionalProperties": true
+}

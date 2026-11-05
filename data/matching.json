@@ -1,0 +1,1850 @@
+{
+  "$schema": "schemas/matching.schema.json",
+  "about": "The derivation's report (admin/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
+  "counts": {
+    "speaker_organisations_matched": 67,
+    "speaker_organisations_unmatched": 156,
+    "near_misses": 0,
+    "places_unmatched": 0,
+    "tracks_mapped": 6,
+    "tracks_unmapped": 9,
+    "company_sessions_resolved": 49,
+    "company_sessions_unresolved": 2
+  },
+  "speaker_organisations": {
+    "matched": [
+      {
+        "as_listed": "Agentic AI Foundation",
+        "ref": "company:linux-foundation-aaif",
+        "count": 1,
+        "how": "alias \"Agentic AI Foundation\" (the name in the team's map, in the brackets, source s1)"
+      },
+      {
+        "as_listed": "Airia AI",
+        "ref": "company:airia",
+        "count": 1,
+        "how": "alias \"Airia AI\" (the organisation a summit page lists its speaker under, source s2)"
+      },
+      {
+        "as_listed": "Aisle",
+        "ref": "company:aisle",
+        "count": 1,
+        "how": "alias \"AISLE\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Atlassian",
+        "ref": "company:atlassian",
+        "count": 1,
+        "how": "alias \"Atlassian\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "AustriaCard",
+        "ref": "company:austriacard",
+        "count": 1,
+        "how": "alias \"AustriaCard\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "CIsco Systems",
+        "ref": "company:cisco-outshift",
+        "count": 1,
+        "how": "same_as in data/curation/organisations.json: The company's own summit appearance page (its source s1) is the page of \"Cisco Systems, Inc.\"; the same key covers \"Cisco Systems\" and \"CIsco Systems\" as speaker cards write it."
+      },
+      {
+        "as_listed": "Centre for AI Leadership (C4AIL)",
+        "ref": "company:c4ail",
+        "count": 1,
+        "how": "alias \"Centre for AI Leadership (C4AIL)\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Cisco Systems, Inc.",
+        "ref": "company:cisco-outshift",
+        "count": 1,
+        "how": "same_as in data/curation/organisations.json: The company's own summit appearance page (its source s1) is the page of \"Cisco Systems, Inc.\"; the same key covers \"Cisco Systems\" and \"CIsco Systems\" as speaker cards write it."
+      },
+      {
+        "as_listed": "Cloudflare",
+        "ref": "company:cloudflare",
+        "count": 1,
+        "how": "alias \"Cloudflare\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Cognizant",
+        "ref": "company:cognizant",
+        "count": 1,
+        "how": "alias \"Cognizant\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Conscium",
+        "ref": "company:conscium",
+        "count": 1,
+        "how": "alias \"Conscium\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "CrowdStrike",
+        "ref": "company:crowdstrike",
+        "count": 2,
+        "how": "alias \"CrowdStrike\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Crystal Intelligence",
+        "ref": "company:crystal-intelligence",
+        "count": 1,
+        "how": "alias \"Crystal Intelligence\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Data Protection Commission",
+        "ref": "company:data-protection-commission",
+        "count": 1,
+        "how": "alias \"Data Protection Commission (Ireland)\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Datadog",
+        "ref": "company:datadog",
+        "count": 1,
+        "how": "alias \"Datadog\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Defined.ai",
+        "ref": "company:defined-ai",
+        "count": 2,
+        "how": "alias \"Defined.ai\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Delinea",
+        "ref": "company:delinea",
+        "count": 1,
+        "how": "alias \"Delinea\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Deque Systems",
+        "ref": "company:deque",
+        "count": 1,
+        "how": "alias \"Deque Systems\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Descope",
+        "ref": "company:descope",
+        "count": 1,
+        "how": "alias \"Descope\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Directus",
+        "ref": "company:directus",
+        "count": 1,
+        "how": "alias \"Directus\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "EasyDMARC, Inc.",
+        "ref": "company:easydmarc",
+        "count": 1,
+        "how": "alias \"EasyDMARC\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Eclipse Foundation",
+        "ref": "company:open-vsx",
+        "count": 1,
+        "how": "alias \"Eclipse Foundation\" (the name in the team's map, in the brackets, source s1)"
+      },
+      {
+        "as_listed": "Emergence",
+        "ref": "company:emergence-ai",
+        "count": 1,
+        "how": "alias \"Emergence\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "European Commission",
+        "ref": "company:european-commission",
+        "count": 1,
+        "how": "alias \"European Commission\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Eversec Technology",
+        "ref": "company:eversec",
+        "count": 1,
+        "how": "alias \"Eversec Technology\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Exa",
+        "ref": "company:exa",
+        "count": 1,
+        "how": "alias \"Exa\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Exein",
+        "ref": "company:exein",
+        "count": 1,
+        "how": "alias \"Exein\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Factorial",
+        "ref": "company:factorial",
+        "count": 1,
+        "how": "alias \"Factorial\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Feedzai",
+        "ref": "company:feedzai",
+        "count": 1,
+        "how": "alias \"Feedzai\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "IBM",
+        "ref": "company:ibm",
+        "count": 1,
+        "how": "alias \"IBM\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "JetBrains",
+        "ref": "company:jetbrains",
+        "count": 1,
+        "how": "alias \"JetBrains\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "KPMG",
+        "ref": "company:kpmg-portugal",
+        "count": 3,
+        "how": "alias \"KPMG\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "LaunchDarkly",
+        "ref": "company:launchdarkly",
+        "count": 3,
+        "how": "alias \"LaunchDarkly\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "LawVu",
+        "ref": "company:lawvu",
+        "count": 1,
+        "how": "alias \"LawVu\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Ledger",
+        "ref": "company:ledger",
+        "count": 1,
+        "how": "alias \"Ledger\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Legora",
+        "ref": "company:legora",
+        "count": 2,
+        "how": "alias \"Legora\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Linux Foundation",
+        "ref": "company:linux-foundation-aaif",
+        "count": 1,
+        "how": "alias \"Linux Foundation (Agentic AI Foundation)\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "MEO",
+        "ref": "company:meo",
+        "count": 1,
+        "how": "alias \"MEO\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Make",
+        "ref": "company:make",
+        "count": 1,
+        "how": "alias \"Make\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "ManageEngine",
+        "ref": "company:manageengine",
+        "count": 1,
+        "how": "alias \"ManageEngine\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "National Cyber Security Centre",
+        "ref": "company:ncsc-uk",
+        "count": 1,
+        "how": "alias \"National Cyber Security Centre (UK)\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Neo",
+        "ref": "company:neo",
+        "count": 1,
+        "how": "alias \"Neo\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Neo4j",
+        "ref": "company:neo4j",
+        "count": 2,
+        "how": "alias \"Neo4j\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Nisos",
+        "ref": "company:nisos",
+        "count": 1,
+        "how": "alias \"Nisos\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "NordVPN",
+        "ref": "company:nordvpn",
+        "count": 2,
+        "how": "alias \"NordVPN\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Open VSX",
+        "ref": "company:open-vsx",
+        "count": 1,
+        "how": "alias \"Open VSX (Eclipse Foundation)\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Persona",
+        "ref": "company:persona",
+        "count": 2,
+        "how": "alias \"Persona\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "PolyAI",
+        "ref": "company:polyai",
+        "count": 1,
+        "how": "alias \"PolyAI\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Primitive",
+        "ref": "company:primitive",
+        "count": 1,
+        "how": "alias \"Primitive\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Prisma",
+        "ref": "company:prisma",
+        "count": 1,
+        "how": "alias \"Prisma\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Proofpoint, Inc.",
+        "ref": "company:proofpoint",
+        "count": 1,
+        "how": "alias \"Proofpoint\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Proton",
+        "ref": "company:proton",
+        "count": 1,
+        "how": "alias \"Proton\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Qualcomm",
+        "ref": "company:qualcomm",
+        "count": 3,
+        "how": "alias \"Qualcomm\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "RWS Group",
+        "ref": "company:rws",
+        "count": 2,
+        "how": "alias \"RWS Group\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Recursive & You.com",
+        "ref": "company:you-com",
+        "count": 1,
+        "how": "alias \"Recursive & You.com\" (the name in the team's map, in the brackets, source s1)"
+      },
+      {
+        "as_listed": "Replit",
+        "ref": "company:replit",
+        "count": 3,
+        "how": "alias \"Replit\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Robust Open Online Safety Tools",
+        "ref": "company:roost",
+        "count": 1,
+        "how": "alias \"Robust Open Online Safety Tools\" (the name in the team's map, in the brackets, source s1)"
+      },
+      {
+        "as_listed": "SageOx",
+        "ref": "company:sageox",
+        "count": 1,
+        "how": "alias \"SageOx\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Scrut Automation",
+        "ref": "company:scrut-automation",
+        "count": 1,
+        "how": "alias \"Scrut Automation\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Startup Portugal",
+        "ref": "company:startup-portugal",
+        "count": 1,
+        "how": "alias \"Startup Portugal\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Sumsub",
+        "ref": "company:sumsub",
+        "count": 2,
+        "how": "alias \"Sumsub\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "TestMu AI",
+        "ref": "company:testmu-ai",
+        "count": 1,
+        "how": "alias \"TestMu AI\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "The Hacking Games",
+        "ref": "company:the-hacking-games",
+        "count": 2,
+        "how": "alias \"The Hacking Games\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Topsec Cloud Solutions",
+        "ref": "company:topsec-cloud-solutions",
+        "count": 1,
+        "how": "alias \"Topsec Cloud Solutions\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Trent AI",
+        "ref": "company:trent-ai",
+        "count": 2,
+        "how": "alias \"Trent AI\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Twilio",
+        "ref": "company:twilio",
+        "count": 1,
+        "how": "alias \"Twilio\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Whitespace",
+        "ref": "company:whitespace",
+        "count": 1,
+        "how": "alias \"Whitespace\" (the name in the team's map, source s1)"
+      }
+    ],
+    "unmatched": [
+      {
+        "as_listed": "AI-Curious",
+        "ref": "organisation:ai-curious",
+        "count": 1
+      },
+      {
+        "as_listed": "Aaru",
+        "ref": "organisation:aaru",
+        "count": 1
+      },
+      {
+        "as_listed": "Accel",
+        "ref": "organisation:accel",
+        "count": 1
+      },
+      {
+        "as_listed": "AgiBot Europe",
+        "ref": "organisation:agibot-europe",
+        "count": 1
+      },
+      {
+        "as_listed": "AltaIR Capital",
+        "ref": "organisation:altair-capital",
+        "count": 1
+      },
+      {
+        "as_listed": "Amazon",
+        "ref": "organisation:amazon",
+        "count": 1
+      },
+      {
+        "as_listed": "Amino Capital",
+        "ref": "organisation:amino-capital",
+        "count": 1
+      },
+      {
+        "as_listed": "Applied Intuition",
+        "ref": "organisation:applied-intuition",
+        "count": 1
+      },
+      {
+        "as_listed": "Archive",
+        "ref": "organisation:archive",
+        "count": 1
+      },
+      {
+        "as_listed": "Arm Ltd.",
+        "ref": "organisation:arm-ltd",
+        "count": 1
+      },
+      {
+        "as_listed": "Aspen Institute Central Europe",
+        "ref": "organisation:aspen-institute-central-europe",
+        "count": 1
+      },
+      {
+        "as_listed": "Associated Press",
+        "ref": "organisation:associated-press",
+        "count": 1
+      },
+      {
+        "as_listed": "Atlassian Williams F1 Team",
+        "ref": "organisation:atlassian-williams-f1-team",
+        "count": 1
+      },
+      {
+        "as_listed": "Axios",
+        "ref": "organisation:axios",
+        "count": 3
+      },
+      {
+        "as_listed": "Banco Português de Fomento",
+        "ref": "organisation:banco-portugues-de-fomento",
+        "count": 1
+      },
+      {
+        "as_listed": "Battery Ventures",
+        "ref": "organisation:battery-ventures",
+        "count": 1
+      },
+      {
+        "as_listed": "Berkeley Center for Law and Business",
+        "ref": "organisation:berkeley-center-for-law-and-business",
+        "count": 1
+      },
+      {
+        "as_listed": "Black Forest Labs",
+        "ref": "organisation:black-forest-labs",
+        "count": 1
+      },
+      {
+        "as_listed": "Bloomberg",
+        "ref": "organisation:bloomberg",
+        "count": 2
+      },
+      {
+        "as_listed": "Blue Energy",
+        "ref": "organisation:blue-energy",
+        "count": 1
+      },
+      {
+        "as_listed": "Brazil",
+        "ref": "organisation:brazil",
+        "count": 1
+      },
+      {
+        "as_listed": "Build Collective",
+        "ref": "organisation:build-collective",
+        "count": 1
+      },
+      {
+        "as_listed": "CGTN Europe",
+        "ref": "organisation:cgtn-europe",
+        "count": 3
+      },
+      {
+        "as_listed": "CNBC",
+        "ref": "organisation:cnbc",
+        "count": 2
+      },
+      {
+        "as_listed": "CNN",
+        "ref": "organisation:cnn",
+        "count": 1
+      },
+      {
+        "as_listed": "Cal.com",
+        "ref": "organisation:cal-com",
+        "count": 1
+      },
+      {
+        "as_listed": "Center for China and Globalization (CCG)",
+        "ref": "organisation:center-for-china-and-globalization",
+        "count": 1
+      },
+      {
+        "as_listed": "Cleo Capital",
+        "ref": "organisation:cleo-capital",
+        "count": 2
+      },
+      {
+        "as_listed": "Coelius Capital",
+        "ref": "organisation:coelius-capital",
+        "count": 1
+      },
+      {
+        "as_listed": "Council of Europe",
+        "ref": "organisation:council-of-europe",
+        "count": 1
+      },
+      {
+        "as_listed": "Coval",
+        "ref": "organisation:coval",
+        "count": 1
+      },
+      {
+        "as_listed": "Dataconomy Media",
+        "ref": "organisation:dataconomy-media",
+        "count": 1
+      },
+      {
+        "as_listed": "Deutsche Presse-Agentur",
+        "ref": "organisation:deutsche-presse-agentur",
+        "count": 1
+      },
+      {
+        "as_listed": "Deutsche Welle",
+        "ref": "organisation:deutsche-welle",
+        "count": 1
+      },
+      {
+        "as_listed": "Digital Inside",
+        "ref": "organisation:digital-inside",
+        "count": 1
+      },
+      {
+        "as_listed": "ECO",
+        "ref": "organisation:eco",
+        "count": 1
+      },
+      {
+        "as_listed": "Ephemeral",
+        "ref": "organisation:ephemeral",
+        "count": 1
+      },
+      {
+        "as_listed": "Euronews",
+        "ref": "organisation:euronews",
+        "count": 1
+      },
+      {
+        "as_listed": "European Parliament",
+        "ref": "organisation:the-european-parliament",
+        "count": 2
+      },
+      {
+        "as_listed": "Eutopia",
+        "ref": "organisation:eutopia",
+        "count": 1
+      },
+      {
+        "as_listed": "F-Prime Capital Partners",
+        "ref": "organisation:f-prime-capital-partners",
+        "count": 1
+      },
+      {
+        "as_listed": "FUTUREPROOF Podcast",
+        "ref": "organisation:futureproof-podcast",
+        "count": 1
+      },
+      {
+        "as_listed": "Fast Company",
+        "ref": "organisation:fast-company",
+        "count": 2
+      },
+      {
+        "as_listed": "Financial Times",
+        "ref": "organisation:financial-times",
+        "count": 1
+      },
+      {
+        "as_listed": "Foreign Policy Magazine",
+        "ref": "organisation:foreign-policy-magazine",
+        "count": 2
+      },
+      {
+        "as_listed": "Fortune",
+        "ref": "organisation:fortune",
+        "count": 3
+      },
+      {
+        "as_listed": "Foundation Capital",
+        "ref": "organisation:foundation-capital",
+        "count": 1
+      },
+      {
+        "as_listed": "France 24",
+        "ref": "organisation:france-24",
+        "count": 2
+      },
+      {
+        "as_listed": "Free agent",
+        "ref": "organisation:free-agent",
+        "count": 1
+      },
+      {
+        "as_listed": "Freelance",
+        "ref": "organisation:freelance",
+        "count": 1
+      },
+      {
+        "as_listed": "Fundamental",
+        "ref": "organisation:fundamental",
+        "count": 1
+      },
+      {
+        "as_listed": "Future Government Institute",
+        "ref": "organisation:future-government-institute",
+        "count": 1
+      },
+      {
+        "as_listed": "G Squared",
+        "ref": "organisation:g-squared",
+        "count": 1
+      },
+      {
+        "as_listed": "Government of Czech Republic",
+        "ref": "organisation:government-of-czech-republic",
+        "count": 1
+      },
+      {
+        "as_listed": "Government of Portugal",
+        "ref": "organisation:government-of-portugal",
+        "count": 2
+      },
+      {
+        "as_listed": "Granola",
+        "ref": "organisation:granola",
+        "count": 1
+      },
+      {
+        "as_listed": "Gravitee",
+        "ref": "organisation:gravitee",
+        "count": 1
+      },
+      {
+        "as_listed": "Grupo Renascença  Multimédia",
+        "ref": "organisation:grupo-renascenca-multimedia",
+        "count": 1
+      },
+      {
+        "as_listed": "H&M Group",
+        "ref": "organisation:h-and-m-group",
+        "count": 1
+      },
+      {
+        "as_listed": "HV Capital",
+        "ref": "organisation:hv-capital",
+        "count": 1
+      },
+      {
+        "as_listed": "Harvard Business Review Group",
+        "ref": "organisation:harvard-business-review-group",
+        "count": 2
+      },
+      {
+        "as_listed": "Harvard Business School/Harvard Business Review",
+        "ref": "organisation:harvard-business-school-harvard-business-review",
+        "count": 2
+      },
+      {
+        "as_listed": "Hertha Metals",
+        "ref": "organisation:hertha-metals",
+        "count": 1
+      },
+      {
+        "as_listed": "Higgsfield",
+        "ref": "organisation:higgsfield",
+        "count": 1
+      },
+      {
+        "as_listed": "House Of Angular",
+        "ref": "organisation:house-of-angular",
+        "count": 1
+      },
+      {
+        "as_listed": "Human intention",
+        "ref": "organisation:human-intention",
+        "count": 1
+      },
+      {
+        "as_listed": "INC",
+        "ref": "organisation:inc",
+        "count": 1
+      },
+      {
+        "as_listed": "Idealab",
+        "ref": "organisation:idealab",
+        "count": 1
+      },
+      {
+        "as_listed": "Indico Capital Partners",
+        "ref": "organisation:indico-capital-partners",
+        "count": 1
+      },
+      {
+        "as_listed": "Inflect",
+        "ref": "organisation:inflect",
+        "count": 1
+      },
+      {
+        "as_listed": "Intel",
+        "ref": "organisation:intel",
+        "count": 1
+      },
+      {
+        "as_listed": "Jasper",
+        "ref": "organisation:jasper",
+        "count": 1
+      },
+      {
+        "as_listed": "John Hopkins University",
+        "ref": "organisation:john-hopkins-university",
+        "count": 1
+      },
+      {
+        "as_listed": "JustAI",
+        "ref": "organisation:justai",
+        "count": 1
+      },
+      {
+        "as_listed": "Kyiv Post",
+        "ref": "organisation:kyiv-post",
+        "count": 2
+      },
+      {
+        "as_listed": "LEnovo",
+        "ref": "organisation:lenovo",
+        "count": 1
+      },
+      {
+        "as_listed": "Le Monde",
+        "ref": "organisation:le-monde",
+        "count": 1
+      },
+      {
+        "as_listed": "Lenovo",
+        "ref": "organisation:lenovo",
+        "count": 1
+      },
+      {
+        "as_listed": "Levitate Foundry",
+        "ref": "organisation:levitate-foundry",
+        "count": 1
+      },
+      {
+        "as_listed": "Lovable",
+        "ref": "organisation:lovable",
+        "count": 1
+      },
+      {
+        "as_listed": "Lush",
+        "ref": "organisation:lush",
+        "count": 1
+      },
+      {
+        "as_listed": "MD Media Fusion",
+        "ref": "organisation:md-media-fusion",
+        "count": 1
+      },
+      {
+        "as_listed": "MIT Technology Review",
+        "ref": "organisation:mit-technology-review",
+        "count": 1
+      },
+      {
+        "as_listed": "Mashable",
+        "ref": "organisation:mashable",
+        "count": 2
+      },
+      {
+        "as_listed": "Mastercard",
+        "ref": "organisation:mastercard",
+        "count": 1
+      },
+      {
+        "as_listed": "Mindstone",
+        "ref": "organisation:mindstone",
+        "count": 1
+      },
+      {
+        "as_listed": "ModelBest",
+        "ref": "organisation:modelbest",
+        "count": 1
+      },
+      {
+        "as_listed": "Monzo",
+        "ref": "organisation:monzo",
+        "count": 1
+      },
+      {
+        "as_listed": "Moonfire",
+        "ref": "organisation:moonfire",
+        "count": 1
+      },
+      {
+        "as_listed": "NXTPLAY Capital",
+        "ref": "organisation:nxtplay-capital",
+        "count": 4
+      },
+      {
+        "as_listed": "National Centre for Advanced Computing",
+        "ref": "organisation:national-centre-for-advanced-computing",
+        "count": 1
+      },
+      {
+        "as_listed": "National Public Radio",
+        "ref": "organisation:national-public-radio",
+        "count": 1
+      },
+      {
+        "as_listed": "Nord Security",
+        "ref": "organisation:nord-security",
+        "count": 1
+      },
+      {
+        "as_listed": "OMOWAY",
+        "ref": "organisation:omoway",
+        "count": 1
+      },
+      {
+        "as_listed": "Otter",
+        "ref": "organisation:otter",
+        "count": 1
+      },
+      {
+        "as_listed": "PCMag",
+        "ref": "organisation:pcmag",
+        "count": 1
+      },
+      {
+        "as_listed": "POLITICO",
+        "ref": "organisation:politico",
+        "count": 2
+      },
+      {
+        "as_listed": "Pally",
+        "ref": "organisation:pally",
+        "count": 1
+      },
+      {
+        "as_listed": "Parable",
+        "ref": "organisation:parable",
+        "count": 1
+      },
+      {
+        "as_listed": "Plug and Play Tech Center",
+        "ref": "organisation:plug-and-play-tech-center",
+        "count": 1
+      },
+      {
+        "as_listed": "Purpose",
+        "ref": "organisation:purpose",
+        "count": 1
+      },
+      {
+        "as_listed": "Reddit",
+        "ref": "organisation:reddit",
+        "count": 1
+      },
+      {
+        "as_listed": "Reuters News",
+        "ref": "organisation:reuters-news",
+        "count": 1
+      },
+      {
+        "as_listed": "Rokid",
+        "ref": "organisation:rokid",
+        "count": 1
+      },
+      {
+        "as_listed": "Runway",
+        "ref": "organisation:runway",
+        "count": 1
+      },
+      {
+        "as_listed": "Rádio Renascença",
+        "ref": "organisation:radio-renascenca",
+        "count": 1
+      },
+      {
+        "as_listed": "SENEN GROUP",
+        "ref": "organisation:senen-group",
+        "count": 1
+      },
+      {
+        "as_listed": "SGF Global",
+        "ref": "organisation:sgf-global",
+        "count": 1
+      },
+      {
+        "as_listed": "SHINE Technologies",
+        "ref": "organisation:shine-technologies",
+        "count": 1
+      },
+      {
+        "as_listed": "Samepage.ai",
+        "ref": "organisation:samepage-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "ScorePlay",
+        "ref": "organisation:scoreplay",
+        "count": 1
+      },
+      {
+        "as_listed": "Serpro",
+        "ref": "organisation:serpro",
+        "count": 1
+      },
+      {
+        "as_listed": "Simular",
+        "ref": "organisation:simular",
+        "count": 1
+      },
+      {
+        "as_listed": "Skild AI",
+        "ref": "organisation:skild-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "Sky Sports & Noosphere",
+        "ref": "organisation:sky-sports-and-noosphere",
+        "count": 1
+      },
+      {
+        "as_listed": "SkyDeck Ventures",
+        "ref": "organisation:skydeck-ventures",
+        "count": 1
+      },
+      {
+        "as_listed": "Skyfall AI",
+        "ref": "organisation:skyfall-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "Smartex.ai",
+        "ref": "organisation:smartex-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "Somewhere on Earth: The Tech Global Podcast",
+        "ref": "organisation:somewhere-on-earth-the-tech-global-podcast",
+        "count": 1
+      },
+      {
+        "as_listed": "South China Morning Post",
+        "ref": "organisation:south-china-morning-post",
+        "count": 1
+      },
+      {
+        "as_listed": "Spangle",
+        "ref": "organisation:spangle",
+        "count": 1
+      },
+      {
+        "as_listed": "Stanford HAI",
+        "ref": "organisation:stanford-hai",
+        "count": 1
+      },
+      {
+        "as_listed": "Stanford University",
+        "ref": "organisation:stanford-university",
+        "count": 1
+      },
+      {
+        "as_listed": "TIME",
+        "ref": "organisation:time",
+        "count": 2
+      },
+      {
+        "as_listed": "TVI",
+        "ref": "organisation:tvi",
+        "count": 2
+      },
+      {
+        "as_listed": "TechCrunch",
+        "ref": "organisation:techcrunch",
+        "count": 2
+      },
+      {
+        "as_listed": "Tencent",
+        "ref": "organisation:tencent",
+        "count": 2
+      },
+      {
+        "as_listed": "The Atlantic",
+        "ref": "organisation:the-atlantic",
+        "count": 1
+      },
+      {
+        "as_listed": "The Elders",
+        "ref": "organisation:the-elders",
+        "count": 2
+      },
+      {
+        "as_listed": "The European Parliament",
+        "ref": "organisation:the-european-parliament",
+        "count": 2
+      },
+      {
+        "as_listed": "The Guardian UK",
+        "ref": "organisation:the-guardian-uk",
+        "count": 1
+      },
+      {
+        "as_listed": "The Guardian US",
+        "ref": "organisation:the-guardian-us",
+        "count": 2
+      },
+      {
+        "as_listed": "The Kobeissi Letter",
+        "ref": "organisation:the-kobeissi-letter",
+        "count": 1
+      },
+      {
+        "as_listed": "The New World",
+        "ref": "organisation:the-new-world",
+        "count": 1
+      },
+      {
+        "as_listed": "The New York Times",
+        "ref": "organisation:the-new-york-times",
+        "count": 1
+      },
+      {
+        "as_listed": "The US Government",
+        "ref": "organisation:the-us-government",
+        "count": 1
+      },
+      {
+        "as_listed": "The Vatican",
+        "ref": "organisation:the-vatican",
+        "count": 1
+      },
+      {
+        "as_listed": "The Washington Post",
+        "ref": "organisation:the-washington-post",
+        "count": 1
+      },
+      {
+        "as_listed": "TikTok",
+        "ref": "organisation:tiktok",
+        "count": 1
+      },
+      {
+        "as_listed": "True Ventures",
+        "ref": "organisation:true-ventures",
+        "count": 1
+      },
+      {
+        "as_listed": "UAE Ministry of Investment",
+        "ref": "organisation:uae-ministry-of-investment",
+        "count": 1
+      },
+      {
+        "as_listed": "UnHerd",
+        "ref": "organisation:unherd",
+        "count": 1
+      },
+      {
+        "as_listed": "Unframe",
+        "ref": "organisation:unframe",
+        "count": 1
+      },
+      {
+        "as_listed": "Union Square Ventures",
+        "ref": "organisation:union-square-ventures",
+        "count": 1
+      },
+      {
+        "as_listed": "University of Austin Texas",
+        "ref": "organisation:university-of-austin-texas",
+        "count": 1
+      },
+      {
+        "as_listed": "Vivaldi",
+        "ref": "organisation:vivaldi",
+        "count": 1
+      },
+      {
+        "as_listed": "Vogue Business",
+        "ref": "organisation:vogue-business",
+        "count": 1
+      },
+      {
+        "as_listed": "Web Summit",
+        "ref": "organisation:web-summit",
+        "count": 3
+      },
+      {
+        "as_listed": "Wired",
+        "ref": "organisation:wired",
+        "count": 3
+      },
+      {
+        "as_listed": "XPENG Aridge Flying Cars",
+        "ref": "organisation:xpeng-aridge-flying-cars",
+        "count": 1
+      },
+      {
+        "as_listed": "Xiaomi Group",
+        "ref": "organisation:xiaomi-group",
+        "count": 1
+      },
+      {
+        "as_listed": "Xpeng Aridge",
+        "ref": "organisation:xpeng-aridge",
+        "count": 2
+      },
+      {
+        "as_listed": "alqem",
+        "ref": "organisation:alqem",
+        "count": 1
+      },
+      {
+        "as_listed": "businessIT - PC Guia",
+        "ref": "organisation:businessit-pc-guia",
+        "count": 1
+      },
+      {
+        "as_listed": "government of Slovakia",
+        "ref": "organisation:government-of-slovakia",
+        "count": 1
+      },
+      {
+        "as_listed": "iBanFirst",
+        "ref": "organisation:ibanfirst",
+        "count": 1
+      }
+    ],
+    "near_misses": []
+  },
+  "places": {
+    "unmatched_where": []
+  },
+  "tracks": {
+    "mapped": [
+      {
+        "track": "AI Summit",
+        "topic": "topic:ai"
+      },
+      {
+        "track": "Cybersecurity Summit",
+        "topic": "topic:security"
+      },
+      {
+        "track": "Developer Summit",
+        "topic": "topic:devtools"
+      },
+      {
+        "track": "PITCH",
+        "topic": "topic:startups"
+      },
+      {
+        "track": "Policy Summit",
+        "topic": "topic:policy"
+      },
+      {
+        "track": "Press Conference",
+        "topic": "topic:announcements"
+      }
+    ],
+    "unmapped": [
+      "Centre Stage",
+      "Corporate Innovation Summit",
+      "Future of Work Summit",
+      "Growth Summit",
+      "Masterclasses",
+      "Meetup",
+      "MoneyConf",
+      "Night Summit",
+      "SaaS Summit"
+    ]
+  },
+  "company_sessions": {
+    "resolved": [
+      {
+        "company": "company:airia",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/",
+        "event": "event:ai-sprawl-is-exploding-get-ahead-of-governance-and-security"
+      },
+      {
+        "company": "company:aisle",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/",
+        "event": "event:securing-the-software-foundation-of-civilisation-with-ai"
+      },
+      {
+        "company": "company:austriacard",
+        "verb": "hosts",
+        "url": "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/",
+        "event": "event:ai-sovereignty-data-control-governance-and-predictable-ai"
+      },
+      {
+        "company": "company:c4ail",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/",
+        "event": "event:beyond-the-ai-agent-hype"
+      },
+      {
+        "company": "company:cognizant",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/e6276948-d2f7-4565-95e4-9caccd1a5211/be-part-of-history-help-build-the-first-pages-of-the-agentic-web/",
+        "event": "event:be-part-of-history-help-build-the-first-pages-of-the"
+      },
+      {
+        "company": "company:conscium",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+        "event": "event:the-biological-bottleneck"
+      },
+      {
+        "company": "company:crystal-intelligence",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+        "event": "event:an-ai-identity-crisis"
+      },
+      {
+        "company": "company:data-protection-commission",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/",
+        "event": "event:regulating-big-tech"
+      },
+      {
+        "company": "company:defined-ai",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/",
+        "event": "event:give-me-a-brake-coding-without-crashing"
+      },
+      {
+        "company": "company:deque",
+        "verb": "hosts",
+        "url": "https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/",
+        "event": "event:can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque"
+      },
+      {
+        "company": "company:descope",
+        "verb": "hosts",
+        "url": "https://websummit.com/sessions/lis26/2701a938-524f-4c24-b0da-cb8fdd4e030b/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/",
+        "event": "event:a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers"
+      },
+      {
+        "company": "company:directus",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/858c105c-7c26-4196-bbc1-5a6ef6a35f55/don-t-feed-shit-to-agents/",
+        "event": "event:don-t-feed-shit-to-agents"
+      },
+      {
+        "company": "company:easydmarc",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+        "event": "event:the-perimeter-is-dead-so-what-happens-to-trust"
+      },
+      {
+        "company": "company:emergence-ai",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/afe1fd71-2a98-41e4-8707-9101353797b3/when-ai-agents-go-rogue/",
+        "event": "event:when-ai-agents-go-rogue"
+      },
+      {
+        "company": "company:eversec",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/2685d2a1-c9d6-4a49-bd39-342c03e627f4/building-security-for-the-human-machine-era/",
+        "event": "event:building-security-for-the-human-machine-era"
+      },
+      {
+        "company": "company:exa",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/a433a1bc-b53a-4689-a8f8-c7eb8088148c/search-built-for-ai-agents/",
+        "event": "event:search-built-for-ai-agents"
+      },
+      {
+        "company": "company:exein",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+        "event": "event:securing-the-ai-frontline"
+      },
+      {
+        "company": "company:factorial",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/",
+        "event": "event:double-agents-are-your-employees-ai-agents-working-for-or"
+      },
+      {
+        "company": "company:feedzai",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/1de6a591-ec17-4399-8f28-13f4bff1cae1/who-let-the-agent-in/",
+        "event": "event:who-let-the-agent-in"
+      },
+      {
+        "company": "company:jetbrains",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/9fd40607-9fe9-4805-9831-dfffb69c5e35/taming-the-agent-swarm/",
+        "event": "event:taming-the-agent-swarm"
+      },
+      {
+        "company": "company:launchdarkly",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/53d083ac-79f1-48e0-8862-e236167233d8/who-holds-the-kill-switch/",
+        "event": "event:who-holds-the-kill-switch"
+      },
+      {
+        "company": "company:lawvu",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/",
+        "event": "event:who-takes-the-fall-for-autonomous-ai"
+      },
+      {
+        "company": "company:ledger",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+        "event": "event:in-bots-we-trust-defending-money-against-ai-powered-fraud"
+      },
+      {
+        "company": "company:legora",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/fad36198-b0af-4295-bec3-b7671b62e786/beyond-the-model-scaling-ai-agents-for-professional-work/",
+        "event": "event:beyond-the-model-scaling-ai-agents-for-professional-work"
+      },
+      {
+        "company": "company:linux-foundation-aaif",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/",
+        "event": "event:why-ai-agents-stall-at-the-production-line"
+      },
+      {
+        "company": "company:make",
+        "verb": "hosts",
+        "url": "https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/",
+        "event": "event:make-ai-agents-work-beyond-the-demo-hosted-by-make"
+      },
+      {
+        "company": "company:meo",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/5847852b-93e5-4590-b1f8-eb657b7fae4c/the-autonomous-enterprise-networks-cloud-and-ai-agents/",
+        "event": "event:the-autonomous-enterprise-networks-cloud-and-ai-agents"
+      },
+      {
+        "company": "company:ncsc-uk",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/",
+        "event": "event:it-takes-two-to-trust-operationalizing-public-private"
+      },
+      {
+        "company": "company:neo4j",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/52d3afb3-f921-4a73-9284-4ee6593e11d9/why-your-ai-agents-don-t-understand-your-business-and-how-to-fix-it/",
+        "event": "event:why-your-ai-agents-don-t-understand-your-business-and-how"
+      },
+      {
+        "company": "company:nisos",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/82e616b5-67bb-44f2-b4df-25642654fc0f/is-there-a-foreign-operative-on-your-payroll/",
+        "event": "event:is-there-a-foreign-operative-on-your-payroll"
+      },
+      {
+        "company": "company:nordvpn",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/2fad9e2b-9933-4f05-a09e-d4dda60587cb/zombie-data-how-your-data-comes-back-to-haunt-you/",
+        "event": "event:zombie-data-how-your-data-comes-back-to-haunt-you"
+      },
+      {
+        "company": "company:open-vsx",
+        "verb": "hosts",
+        "url": "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/",
+        "event": "event:building-ai-products-without-building-everything-hosted-by"
+      },
+      {
+        "company": "company:persona",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+        "event": "event:in-bots-we-trust-defending-money-against-ai-powered-fraud"
+      },
+      {
+        "company": "company:persona",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/",
+        "event": "event:beyond-the-front-door-identity-access-and-user-trust"
+      },
+      {
+        "company": "company:polyai",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/",
+        "event": "event:coaching-an-ai-agent-like-human-talent"
+      },
+      {
+        "company": "company:prisma",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/b742e8f7-343c-4868-8eac-4b488f1351d9/rebuilding-open-source-with-ai-lessons-learned/",
+        "event": "event:rebuilding-open-source-with-ai-lessons-learned"
+      },
+      {
+        "company": "company:proofpoint",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/9374ad36-05ca-4ed0-8f48-b86c09fca8ff/outsmarting-ai-defence-at-machine-speed/",
+        "event": "event:outsmarting-ai-defence-at-machine-speed"
+      },
+      {
+        "company": "company:proton",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/",
+        "event": "event:big-tech-detox"
+      },
+      {
+        "company": "company:qualcomm",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/7bd19b8b-b399-42d5-b94f-df528a27696a/the-ai-agent-economy/",
+        "event": "event:the-ai-agent-economy"
+      },
+      {
+        "company": "company:roost",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/913b8fc9-7e6c-4a2f-96a4-df52b6bd2942/the-attackers-are-open-source-the-defences-aren-t/",
+        "event": "event:the-attackers-are-open-source-the-defences-aren-t"
+      },
+      {
+        "company": "company:rws",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/",
+        "event": "event:your-ai-agent-just-got-a-passport"
+      },
+      {
+        "company": "company:sageox",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/e2d68390-d300-42d0-ac9a-bb730e4f5988/agents-don-t-need-prompts-they-need-context/",
+        "event": "event:agents-don-t-need-prompts-they-need-context"
+      },
+      {
+        "company": "company:scrut-automation",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+        "event": "event:the-biological-bottleneck"
+      },
+      {
+        "company": "company:sumsub",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+        "event": "event:an-ai-identity-crisis"
+      },
+      {
+        "company": "company:testmu-ai",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/159fe8f9-7900-4f36-93e1-8b794cd11949/when-ai-verifies-ai/",
+        "event": "event:when-ai-verifies-ai"
+      },
+      {
+        "company": "company:the-hacking-games",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/",
+        "event": "event:the-real-threat-isn-t-a-nation-state-it-s-a-teenager"
+      },
+      {
+        "company": "company:topsec-cloud-solutions",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+        "event": "event:the-perimeter-is-dead-so-what-happens-to-trust"
+      },
+      {
+        "company": "company:trent-ai",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/3c980247-e062-492c-823a-11d388db1439/viable-systems-judgement-and-ai-safety/",
+        "event": "event:viable-systems-judgement-and-ai-safety"
+      },
+      {
+        "company": "company:whitespace",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+        "event": "event:securing-the-ai-frontline"
+      }
+    ],
+    "unresolved": [
+      {
+        "company": "company:aicep",
+        "verb": "hosts",
+        "url": "https://websummit.com/sessions/lis26/2f8c4adf-ebea-46d7-b876-1b9bd5a6c1dc/aicep-connecting-portuguese-startups-to-global-markets-hosted-by-aicep/",
+        "why": "no event in the programme has this page: the programme desk found it answering 404 on 4 November, or has not read it"
+      },
+      {
+        "company": "company:trustscale",
+        "verb": "appears_in",
+        "url": "https://websummit.com/sessions/lis26/4a442f4c-c3da-4c62-89ad-b65cc22f988b/whose-ai-is-it-anyway/",
+        "why": "no event in the programme has this page: the programme desk found it answering 404 on 4 November, or has not read it"
+      }
+    ]
+  },
+  "people": {
+    "merged_listings": []
+  },
+  "evidence_names": {
+    "matched": [
+      {
+        "as_listed": "European Commission (DG CONNECT, DG GROW)",
+        "ref": "company:european-commission",
+        "count": 1
+      },
+      {
+        "as_listed": "Startup Portugal",
+        "ref": "company:startup-portugal",
+        "count": 2
+      }
+    ],
+    "unmatched": [
+      {
+        "as_listed": "3xP Global (Impact Innovation Fund)",
+        "ref": "organisation:3xp-global",
+        "count": 1
+      },
+      {
+        "as_listed": "Acubic",
+        "ref": "organisation:acubic",
+        "count": 1
+      },
+      {
+        "as_listed": "Algarve Evolution",
+        "ref": "organisation:algarve-evolution",
+        "count": 1
+      },
+      {
+        "as_listed": "ApexBrasil",
+        "ref": "organisation:apexbrasil",
+        "count": 1
+      },
+      {
+        "as_listed": "Banco Português de Fomento",
+        "ref": "organisation:banco-portugues-de-fomento",
+        "count": 1
+      },
+      {
+        "as_listed": "BloodFlow",
+        "ref": "organisation:bloodflow",
+        "count": 1
+      },
+      {
+        "as_listed": "CP",
+        "ref": "organisation:cp",
+        "count": 2
+      },
+      {
+        "as_listed": "Caixa Capital",
+        "ref": "organisation:caixa-capital",
+        "count": 1
+      },
+      {
+        "as_listed": "Carris",
+        "ref": "organisation:carris",
+        "count": 3
+      },
+      {
+        "as_listed": "Dutch Ministry of Foreign Affairs",
+        "ref": "organisation:dutch-ministry-of-foreign-affairs",
+        "count": 1
+      },
+      {
+        "as_listed": "Embassy of the Netherlands in Lisbon",
+        "ref": "organisation:embassy-of-the-netherlands-in-lisbon",
+        "count": 1
+      },
+      {
+        "as_listed": "EuroHPC",
+        "ref": "organisation:eurohpc",
+        "count": 1
+      },
+      {
+        "as_listed": "Fundação Santander",
+        "ref": "organisation:fundacao-santander",
+        "count": 1
+      },
+      {
+        "as_listed": "Galp",
+        "ref": "organisation:galp",
+        "count": 1
+      },
+      {
+        "as_listed": "Granter",
+        "ref": "organisation:granter",
+        "count": 1
+      },
+      {
+        "as_listed": "HaDEA",
+        "ref": "organisation:hadea",
+        "count": 1
+      },
+      {
+        "as_listed": "HaDEA (European Health and Digital Executive Agency)",
+        "ref": "organisation:hadea",
+        "count": 1
+      },
+      {
+        "as_listed": "ITI-LARSyS",
+        "ref": "organisation:iti-larsys",
+        "count": 1
+      },
+      {
+        "as_listed": "Impact Innovation Fund",
+        "ref": "organisation:impact-innovation-fund",
+        "count": 1
+      },
+      {
+        "as_listed": "Institute for Systems and Robotics",
+        "ref": "organisation:institute-for-systems-and-robotics",
+        "count": 1
+      },
+      {
+        "as_listed": "Instituto Superior Técnico (Universidade de Lisboa)",
+        "ref": "organisation:instituto-superior-tecnico",
+        "count": 1
+      },
+      {
+        "as_listed": "Intuitivo",
+        "ref": "organisation:intuitivo",
+        "count": 1
+      },
+      {
+        "as_listed": "Keel",
+        "ref": "organisation:keel",
+        "count": 1
+      },
+      {
+        "as_listed": "Metropolitano de Lisboa",
+        "ref": "organisation:metropolitano-de-lisboa",
+        "count": 3
+      },
+      {
+        "as_listed": "Netherlands Enterprise Agency (RVO)",
+        "ref": "organisation:netherlands-enterprise-agency",
+        "count": 1
+      },
+      {
+        "as_listed": "Opsivision.ai",
+        "ref": "organisation:opsivision-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "RTBEAMTECH",
+        "ref": "organisation:rtbeamtech",
+        "count": 1
+      },
+      {
+        "as_listed": "RTBeamTech",
+        "ref": "organisation:rtbeamtech",
+        "count": 1
+      },
+      {
+        "as_listed": "RipeNew",
+        "ref": "organisation:ripenew",
+        "count": 1
+      },
+      {
+        "as_listed": "Seamoretech",
+        "ref": "organisation:seamoretech",
+        "count": 1
+      },
+      {
+        "as_listed": "Sebrae Startups",
+        "ref": "organisation:sebrae-startups",
+        "count": 1
+      },
+      {
+        "as_listed": "Testwaves",
+        "ref": "organisation:testwaves",
+        "count": 1
+      },
+      {
+        "as_listed": "Técnico Innovation Center",
+        "ref": "organisation:tecnico-innovation-center",
+        "count": 1
+      },
+      {
+        "as_listed": "Técnico Venture Lab",
+        "ref": "organisation:tecnico-venture-lab",
+        "count": 1
+      },
+      {
+        "as_listed": "Unicorn Factory Lisboa",
+        "ref": "organisation:unicorn-factory-lisboa",
+        "count": 1
+      },
+      {
+        "as_listed": "University of Porto",
+        "ref": "organisation:university-of-porto",
+        "count": 1
+      },
+      {
+        "as_listed": "Web Summit",
+        "ref": "organisation:web-summit",
+        "count": 17
+      },
+      {
+        "as_listed": "knok",
+        "ref": "organisation:knok",
+        "count": 1
+      }
+    ]
+  },
+  "hosted_by": [
+    {
+      "event": "event:dogfooding-ai-security-lessons-from-our-own-soc-hosted-by",
+      "as_listed": "Elastic",
+      "ref": "company:elastic"
+    },
+    {
+      "event": "event:a-guide-to-portugal-s-startup-scene-hosted-by-startup",
+      "as_listed": "Startup Portugal",
+      "ref": "company:startup-portugal"
+    },
+    {
+      "event": "event:the-attack-has-started-now-what-see-log360-zia-ai-in-action",
+      "as_listed": "ManageEngine",
+      "ref": "company:manageengine"
+    },
+    {
+      "event": "event:trust-issues-letting-ai-agents-into-production-safely",
+      "as_listed": "Delinea",
+      "ref": "company:delinea"
+    },
+    {
+      "event": "event:building-a-secure-device-foundation-for-ai-hosted-by-lenovo",
+      "as_listed": "Lenovo",
+      "ref": "organisation:lenovo"
+    },
+    {
+      "event": "event:how-to-break-your-ai-phone-agent-before-your-customers",
+      "as_listed": "Twilio",
+      "ref": "company:twilio"
+    },
+    {
+      "event": "event:monitoring-in-the-age-of-genai-beyond-golden-signals-hosted",
+      "as_listed": "Datadog",
+      "ref": "company:datadog"
+    },
+    {
+      "event": "event:ai-sovereignty-data-control-governance-and-predictable-ai",
+      "as_listed": "Austriacard Holdings",
+      "ref": "company:austriacard"
+    },
+    {
+      "event": "event:make-ai-agents-work-beyond-the-demo-hosted-by-make",
+      "as_listed": "Make",
+      "ref": "company:make"
+    },
+    {
+      "event": "event:building-ai-in-europe-practical-support-for-innovators",
+      "as_listed": "European Commission - DG Connect",
+      "ref": "company:european-commission"
+    },
+    {
+      "event": "event:can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque",
+      "as_listed": "Deque",
+      "ref": "company:deque"
+    },
+    {
+      "event": "event:democratising-ai-platform-engineering-with-open-source",
+      "as_listed": "Cisco Systems",
+      "ref": "company:cisco-outshift"
+    },
+    {
+      "event": "event:building-ai-products-without-building-everything-hosted-by",
+      "as_listed": "Open VSX",
+      "ref": "company:open-vsx"
+    }
+  ],
+  "not_same": [
+    {
+      "as_listed": "Atlassian Williams F1 Team",
+      "company": "company:atlassian",
+      "why": "A Formula 1 team that carries the sponsor's name, not the software company."
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/",
+      "data/companies/",
+      "data/places/",
+      "data/topics/",
+      "data/curation/"
+    ]
+  }
+}

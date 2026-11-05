@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ethan-byrd",
+  "type": "person",
+  "name": "Ethan Byrd",
+  "role": "Founder",
+  "organisation": "Primitive",
+  "org": "company:primitive",
+  "listings": [
+    {
+      "role": "Founder",
+      "organisation": "Primitive",
+      "org": "company:primitive",
+      "event": "event:connecting-the-bots-building-secure-infrastructure-for",
+      "source": "https://websummit.com/sessions/lis26/5faacf74-8493-412c-a03e-ca82993cee91/connecting-the-bots-building-secure-infrastructure-for-inter-agent-communication/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

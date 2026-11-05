@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/topic.schema.json",
+  "id": "ai",
+  "type": "topic",
+  "name": "Artificial intelligence",
+  "kind": "theme",
+  "description": "AI in general: models, agents, and what they do to work.",
+  "broader": [],
+  "summit_tracks": [
+    "AI Summit"
+  ],
+  "source": "content/brief/03-what-we-publish.md"
+}

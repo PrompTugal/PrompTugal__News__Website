@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ollie-whitehouse",
+  "type": "person",
+  "name": "Ollie Whitehouse",
+  "role": "Chief Technology Officer",
+  "organisation": "National Cyber Security Centre",
+  "org": "company:ncsc-uk",
+  "listings": [
+    {
+      "role": "Chief Technology Officer",
+      "organisation": "National Cyber Security Centre",
+      "org": "company:ncsc-uk",
+      "event": "event:it-takes-two-to-trust-operationalizing-public-private",
+      "source": "https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Chief Technology Officer",
+      "organisation": "National Cyber Security Centre",
+      "org": "company:ncsc-uk",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/a0efae1a-d3b5-42f7-9be6-f13e6e1ac3a1/ollie-whitehouse/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

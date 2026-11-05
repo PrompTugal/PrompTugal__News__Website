@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "ai-your-new-news-editor",
+  "type": "event",
+  "title": "AI: your new news editor?",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "11:25-11:50",
+  "start": "11:25",
+  "end": "11:50",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:paul-bascobert",
+      "as_listed": "Paul Bascobert (President, Reuters News)",
+      "role": "President",
+      "organisation": "Reuters News",
+      "org": "organisation:reuters-news"
+    },
+    {
+      "person": "person:julie-pace",
+      "as_listed": "Julie Pace (SVP and Executive Editor, Associated Press)",
+      "role": "SVP and Executive Editor",
+      "organisation": "Associated Press",
+      "org": "organisation:associated-press"
+    },
+    {
+      "person": "person:louis-dreyfus",
+      "as_listed": "Louis Dreyfus (CEO, Le Monde)",
+      "role": "CEO",
+      "organisation": "Le Monde",
+      "org": "organisation:le-monde"
+    },
+    {
+      "person": "person:chung-yan-chow",
+      "as_listed": "Chung-Yan Chow (Editor-in-chief, South China Morning Post)",
+      "role": "Editor-in-chief",
+      "organisation": "South China Morning Post",
+      "org": "organisation:south-china-morning-post"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/db87fd1a-c1c5-4c2d-b676-25f749e14dca/ai-your-new-news-editor/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 51
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "kate-knibbs",
+  "type": "person",
+  "name": "Kate Knibbs",
+  "role": "Senior Writer",
+  "organisation": "Wired",
+  "org": "organisation:wired",
+  "listings": [
+    {
+      "role": "Senior Writer",
+      "organisation": "Wired",
+      "org": "organisation:wired",
+      "event": "event:when-ai-builds-itself",
+      "source": "https://websummit.com/sessions/lis26/e7e83ab8-8381-419f-a688-23025a1c8422/when-ai-builds-itself/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

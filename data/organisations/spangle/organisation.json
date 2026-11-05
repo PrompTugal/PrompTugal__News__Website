@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "spangle",
+  "type": "organisation",
+  "name": "Spangle",
+  "names_as_listed": [
+    "Spangle"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/d6dca44a-a035-4a48-b0a3-5acfe4619f63/who-wins-when-ai-does-the-shopping/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

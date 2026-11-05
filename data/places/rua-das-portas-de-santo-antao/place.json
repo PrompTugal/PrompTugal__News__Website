@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "rua-das-portas-de-santo-antao",
+  "type": "place",
+  "name": "Rua das Portas de Santo Antão",
+  "kind": "street",
+  "located_in": null,
+  "matches": [
+    "Rua das Portas de Santo Antão"
+  ],
+  "source": "https://websummit.com/schedule/",
+  "note": "As the event's page names it."
+}

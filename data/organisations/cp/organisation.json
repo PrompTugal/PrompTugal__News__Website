@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "cp",
+  "type": "organisation",
+  "name": "CP",
+  "names_as_listed": [
+    "CP"
+  ],
+  "sources": [
+    {
+      "url": "https://executivedigest.sapo.pt/web-summit-2026-metro-de-lisboa-prepara-reforco-de-comboios-e-vigilancia-para-receber-75-mil-participantes/",
+      "read_at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://www.metrolisboa.pt/2026/11/02/passe-de-transporte-para-web-summit/",
+      "read_at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

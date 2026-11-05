@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "melious-ai",
+  "type": "company",
+  "name": "Melious AI GmbH",
+  "website": "https://melious.ai",
+  "what": "Sovereign European AI infrastructure and inference, serving frontier open-weight models through OpenAI- and Anthropic-compatible APIs without US Cloud Act exposure.",
+  "category": "platform",
+  "country": "Germany",
+  "attending": "confirmed: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)",
+  "attending_as": "startup (growth)",
+  "field_sources": {
+    "name": [
+      "s1"
+    ],
+    "website": [
+      "s1"
+    ],
+    "what": [
+      "s2"
+    ],
+    "category": [
+      "s1"
+    ],
+    "country": [
+      "s1"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Melious AI GmbH",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

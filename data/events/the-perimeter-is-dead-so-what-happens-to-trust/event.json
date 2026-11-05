@@ -1,0 +1,64 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-perimeter-is-dead-so-what-happens-to-trust",
+  "type": "event",
+  "title": "The perimeter is dead. So what happens to trust?",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-12",
+  "time": "15:25-15:50",
+  "start": "15:25",
+  "end": "15:50",
+  "where": "Stage 8 (Cybersecurity Summit), MEO Arena and FIL",
+  "place": "place:stage-8",
+  "track": "Cybersecurity Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:gerasim-hovhannisyan",
+      "as_listed": "Gerasim Hovhannisyan (Co-founder & CEO, EasyDMARC, Inc.)",
+      "role": "Co-founder & CEO",
+      "organisation": "EasyDMARC, Inc.",
+      "org": "company:easydmarc"
+    },
+    {
+      "person": "person:niall-mackey",
+      "as_listed": "Niall Mackey (Managing Director, Topsec Cloud Solutions)",
+      "role": "Managing Director",
+      "organisation": "Topsec Cloud Solutions",
+      "org": "company:topsec-cloud-solutions"
+    },
+    {
+      "person": "person:sonia-azzouzi-boudie",
+      "as_listed": "Sonia Azzouzi Boudie (Chief of Tech & Strategy Officer, iBanFirst)",
+      "role": "Chief of Tech & Strategy Officer",
+      "organisation": "iBanFirst",
+      "org": "organisation:ibanfirst"
+    },
+    {
+      "person": "person:james-ball",
+      "as_listed": "James Ball (Political Editor, The New World)",
+      "role": "Political Editor",
+      "organisation": "The New World",
+      "org": "organisation:the-new-world"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 203
+  }
+}

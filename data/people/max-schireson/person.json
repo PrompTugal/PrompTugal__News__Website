@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "max-schireson",
+  "type": "person",
+  "name": "Max Schireson",
+  "role": "Partner",
+  "organisation": "Battery Ventures",
+  "org": "organisation:battery-ventures",
+  "listings": [
+    {
+      "role": "Partner",
+      "organisation": "Battery Ventures",
+      "org": "organisation:battery-ventures",
+      "event": "event:ai-s-octopus-era",
+      "source": "https://websummit.com/sessions/lis26/d81d7dd6-7bed-4727-ad86-00d0203debf0/ai-s-octopus-era/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

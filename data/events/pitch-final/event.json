@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "pitch-final",
+  "type": "event",
+  "title": "PITCH final",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "12:30-13:00",
+  "start": "12:30",
+  "end": "13:00",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:sarah-kunst",
+      "as_listed": "Sarah Kunst (Founder & Managing Director, Cleo Capital)",
+      "role": "Founder & Managing Director",
+      "organisation": "Cleo Capital",
+      "org": "organisation:cleo-capital"
+    },
+    {
+      "person": "person:rainer-markle",
+      "as_listed": "Rainer Märkle (General Partner, HV Capital)",
+      "role": "General Partner",
+      "organisation": "HV Capital",
+      "org": "organisation:hv-capital"
+    },
+    {
+      "person": "person:george-hayes",
+      "as_listed": "George Hayes (KPMG Private Leader, Global Senior Lead Tax Partner, KPMG)",
+      "role": "KPMG Private Leader, Global Senior Lead Tax Partner",
+      "organisation": "KPMG",
+      "org": "company:kpmg-portugal"
+    },
+    {
+      "person": "person:igor-ryabenkiy",
+      "as_listed": "Igor Ryabenkiy (Founder & Managing Partner, AltaIR Capital)",
+      "role": "Founder & Managing Partner",
+      "organisation": "AltaIR Capital",
+      "org": "organisation:altair-capital"
+    },
+    {
+      "person": "person:rocio-wu",
+      "as_listed": "Rocio Wu (Partner, F-Prime Capital Partners)",
+      "role": "Partner",
+      "organisation": "F-Prime Capital Partners",
+      "org": "organisation:f-prime-capital-partners"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/73e9fb82-c650-4609-9b8c-63e7d0e47610/pitch-final/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 187
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "lithuania",
+  "type": "place",
+  "name": "Lithuania",
+  "kind": "country",
+  "located_in": null,
+  "matches": [],
+  "source": "data/companies/",
+  "note": "Named as a company's country in the team's company map."
+}

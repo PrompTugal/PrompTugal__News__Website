@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "qualcomm",
+  "type": "company",
+  "name": "Qualcomm",
+  "website": "https://www.qualcomm.com/",
+  "what": "Semiconductor and computing company (AI, low-power computing, connectivity, edge and data centre).",
+  "category": "platform",
+  "country": "United States",
+  "attending": "confirmed: Dr. Durga Malladi (EVP and GM, Technology Planning, Edge Solutions & Data Center, Qualcomm Technologies, Inc.) is listed on the LIS26 session page 'The AI agent economy'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s1",
+      "s2"
+    ],
+    "website": [
+      "s2"
+    ],
+    "what": [
+      "s2"
+    ],
+    "category": [
+      "s1",
+      "s2"
+    ],
+    "country": [
+      "s1",
+      "s2"
+    ],
+    "attending": [
+      "s1"
+    ],
+    "attending_as": [
+      "s1"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Qualcomm",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

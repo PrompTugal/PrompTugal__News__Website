@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "house-of-angular",
+  "type": "organisation",
+  "name": "House Of Angular",
+  "names_as_listed": [
+    "House Of Angular"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/dab3a547-0122-4464-91de-a1262e50d894/when-agents-write-the-code-does-a-framework-like-angular-still-matter/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

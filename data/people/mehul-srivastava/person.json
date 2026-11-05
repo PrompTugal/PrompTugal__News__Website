@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mehul-srivastava",
+  "type": "person",
+  "name": "Mehul Srivastava",
+  "role": "Senior Foreign Affairs Correspondent",
+  "organisation": "Financial Times",
+  "org": "organisation:financial-times",
+  "listings": [
+    {
+      "role": "Senior Foreign Affairs Correspondent",
+      "organisation": "Financial Times",
+      "org": "organisation:financial-times",
+      "event": "event:securing-the-ai-frontline",
+      "source": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

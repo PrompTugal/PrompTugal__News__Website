@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "george-hayes",
+  "type": "person",
+  "name": "George Hayes",
+  "role": "KPMG Private Leader, Global Senior Lead Tax Partner",
+  "organisation": "KPMG",
+  "org": "company:kpmg-portugal",
+  "listings": [
+    {
+      "role": "KPMG Private Leader, Global Senior Lead Tax Partner",
+      "organisation": "KPMG",
+      "org": "company:kpmg-portugal",
+      "event": "event:pitch-final",
+      "source": "https://websummit.com/sessions/lis26/73e9fb82-c650-4609-9b8c-63e7d0e47610/pitch-final/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "press-conference-with-web-summit-ceo-and-founder-paddy",
+  "type": "event",
+  "title": "Press conference with Web Summit CEO and Founder Paddy Cosgrave",
+  "kind": "announcement",
+  "listed_as": "announcement",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "11:00-11:20",
+  "start": "11:00",
+  "end": "11:20",
+  "where": "Stage 2 (Press Conference), MEO Arena and FIL",
+  "place": "place:stage-2",
+  "track": "Press Conference",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:paddy-cosgrave",
+      "as_listed": "Paddy Cosgrave (CEO & Founder, Web Summit)",
+      "role": "CEO & Founder",
+      "organisation": "Web Summit",
+      "org": "organisation:web-summit"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/dd5600f2-2e3a-4023-a127-d2e8f8521ca0/press-conference-with-web-summit-ceo-and-founder-paddy-cosgrave/",
+  "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 116
+  }
+}

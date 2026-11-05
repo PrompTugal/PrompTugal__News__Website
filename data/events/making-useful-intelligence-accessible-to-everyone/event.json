@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "making-useful-intelligence-accessible-to-everyone",
+  "type": "event",
+  "title": "Making useful intelligence accessible to everyone",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "14:00-14:20",
+  "start": "14:00",
+  "end": "14:20",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:michele-catasta",
+      "as_listed": "Michele Catasta (President, Replit)",
+      "role": "President",
+      "organisation": "Replit",
+      "org": "company:replit"
+    },
+    {
+      "person": "person:sara-fischer",
+      "as_listed": "Sara Fischer (Media Correspondent, Axios)",
+      "role": "Media Correspondent",
+      "organisation": "Axios",
+      "org": "organisation:axios"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/dae7352a-b9b1-41d0-b3d8-d2713e9fef4e/making-useful-intelligence-accessible-to-everyone/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 68
+  }
+}

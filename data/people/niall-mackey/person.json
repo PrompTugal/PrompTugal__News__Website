@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "niall-mackey",
+  "type": "person",
+  "name": "Niall Mackey",
+  "role": "Managing Director",
+  "organisation": "Topsec Cloud Solutions",
+  "org": "company:topsec-cloud-solutions",
+  "listings": [
+    {
+      "role": "Managing Director",
+      "organisation": "Topsec Cloud Solutions",
+      "org": "company:topsec-cloud-solutions",
+      "event": "event:the-perimeter-is-dead-so-what-happens-to-trust",
+      "source": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Managing Director",
+      "organisation": "Topsec Cloud Solutions",
+      "org": "company:topsec-cloud-solutions",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/f2639e2b-9a14-4a55-9045-49c25e4afa34/niall-mackey/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

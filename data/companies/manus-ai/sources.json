@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "manus-ai",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/attendees/lis26/b293ad86-071e-4c48-8786-5486e3ceb04e/tao-zhang",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "public speaker listed by Web Summit for LIS26: Tao Zhang, Co-founder & CPO, Manus AI",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/speakers/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "the 2026 speaker / featured attendee list that links to that page",
+      "kind": "summit-list"
+    },
+    {
+      "id": "s3",
+      "url": "https://manus.im/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "what the company does, from its own site",
+      "kind": "other"
+    },
+    {
+      "id": "s4",
+      "url": "https://fastcompanyme.com/news/web-summit-set-to-host-its-largest-chinese-tech-delegation-in-lisbon/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "Fast Company ME, 9 Oct 2026: Manus AI in the Chinese delegation; Tao Zhang listed as speaker",
+      "kind": "other"
+    }
+  ]
+}

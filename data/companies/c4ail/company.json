@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "c4ail",
+  "type": "company",
+  "name": "Centre for AI Leadership (C4AIL)",
+  "website": "https://centreforaileadership.org/",
+  "what": "AI leadership education organisation ('awareness before competency').",
+  "category": "grc",
+  "country": "Singapore",
+  "attending": "confirmed: Georg Zoeller (Co founder) is listed on the LIS26 session page 'Beyond the AI agent hype'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3"
+    ],
+    "what": [
+      "s3"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Centre for AI Leadership (C4AIL)",
+      "source": "s1",
+      "how": "the name in the team's map"
+    },
+    {
+      "name": "Centre for AI Leadership",
+      "source": "s1",
+      "how": "the name in the team's map, before the brackets"
+    },
+    {
+      "name": "C4AIL",
+      "source": "s1",
+      "how": "the name in the team's map, in the brackets"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

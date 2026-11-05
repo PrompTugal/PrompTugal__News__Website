@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "agibot-europe",
+  "type": "organisation",
+  "name": "AgiBot Europe",
+  "names_as_listed": [
+    "AgiBot Europe"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/813d70c7-2476-4ec4-85a1-fd371c3575d1/introducing-the-next-billion-workers/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

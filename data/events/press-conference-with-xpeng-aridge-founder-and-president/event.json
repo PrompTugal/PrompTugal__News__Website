@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "press-conference-with-xpeng-aridge-founder-and-president",
+  "type": "event",
+  "title": "Press conference with Xpeng Aridge Founder and President, Deli Zhao, and Xpeng Aridge CFO, Michael Du",
+  "kind": "announcement",
+  "listed_as": "announcement",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "14:00-14:20",
+  "start": "14:00",
+  "end": "14:20",
+  "where": "Stage 2 (Press Conference), MEO Arena and FIL",
+  "place": "place:stage-2",
+  "track": "Press Conference",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:deli-zhao",
+      "as_listed": "Deli Zhao (Founder and President, Xpeng Aridge)",
+      "role": "Founder and President",
+      "organisation": "Xpeng Aridge",
+      "org": "organisation:xpeng-aridge"
+    },
+    {
+      "person": "person:michael-du",
+      "as_listed": "Michael Du (CFO, XPENG Aridge Flying Cars)",
+      "role": "CFO",
+      "organisation": "XPENG Aridge Flying Cars",
+      "org": "organisation:xpeng-aridge-flying-cars"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/3b511e19-cd3b-488b-af50-49d488e5cbc7/press-conference-with-xpeng-aridge-founder-and-president-deli-zhao-and-xpeng-aridge-cfo-michael-du/",
+  "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/1/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 69
+  }
+}

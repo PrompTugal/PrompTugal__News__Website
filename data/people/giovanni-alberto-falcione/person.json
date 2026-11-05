@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "giovanni-alberto-falcione",
+  "type": "person",
+  "name": "Giovanni Alberto Falcione",
+  "role": "Co-founder & CTO",
+  "organisation": "Exein",
+  "org": "company:exein",
+  "listings": [
+    {
+      "role": "Co-founder & CTO",
+      "organisation": "Exein",
+      "org": "company:exein",
+      "event": "event:securing-the-ai-frontline",
+      "source": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CTO",
+      "organisation": "Exein",
+      "org": "company:exein",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/b12a20bc-910f-48ba-be06-d490d5b63166/giovanni-alberto-falcione/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

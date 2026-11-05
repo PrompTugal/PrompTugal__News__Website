@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "1password",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/appearances/lis26/3ba8a8ea-2e10-48d9-84e3-fada56f21fd4/1password",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 appearance page: name, country, industry, website",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
+      "kind": "summit-list"
+    },
+    {
+      "id": "s3",
+      "url": "https://websummit.com/tracks/developer-summit/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "Developer Summit track page names 1Password (Nancy Wang) among featured speakers; may be a past-edition highlight",
+      "kind": "summit-list"
+    }
+  ]
+}

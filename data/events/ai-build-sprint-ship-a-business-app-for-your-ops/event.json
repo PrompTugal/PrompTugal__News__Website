@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "ai-build-sprint-ship-a-business-app-for-your-ops",
+  "type": "event",
+  "title": "AI Build Sprint: Ship a Business App for Your Ops",
+  "kind": "side-event",
+  "listed_as": "side-event",
+  "organiser": "other",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "19:00-22:00",
+  "start": "19:00",
+  "end": "22:00",
+  "where": "Spaces Oriente",
+  "place": "place:spaces-oriente",
+  "track": null,
+  "part_of": null,
+  "organised_by": null,
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/70dbfe60-5408-4d7a-abf6-29c2ef24be48/ai-build-sprint-ship-a-business-app-for-your-ops/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 159
+  }
+}

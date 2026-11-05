@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "clara-jacintho",
+  "type": "person",
+  "name": "Clara Jacintho",
+  "role": "Software Engineer",
+  "organisation": "Datadog",
+  "org": "company:datadog",
+  "listings": [
+    {
+      "role": "Software Engineer",
+      "organisation": "Datadog",
+      "org": "company:datadog",
+      "event": "event:monitoring-in-the-age-of-genai-beyond-golden-signals-hosted",
+      "source": "https://websummit.com/sessions/lis26/3fec214a-c6f3-41bb-ace2-b45b50f6d964/monitoring-in-the-age-of-genai-beyond-golden-signals-hosted-by-datadog/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

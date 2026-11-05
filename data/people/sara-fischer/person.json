@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "sara-fischer",
+  "type": "person",
+  "name": "Sara Fischer",
+  "role": "Media Correspondent",
+  "organisation": "Axios",
+  "org": "organisation:axios",
+  "listings": [
+    {
+      "role": "Media Correspondent",
+      "organisation": "Axios",
+      "org": "organisation:axios",
+      "event": "event:making-useful-intelligence-accessible-to-everyone",
+      "source": "https://websummit.com/sessions/lis26/dae7352a-b9b1-41d0-b3d8-d2713e9fef4e/making-useful-intelligence-accessible-to-everyone/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

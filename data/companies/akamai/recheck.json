@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "akamai",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/610a96ea-3d4e-43c1-91d1-2ff8fe4e8d87/akamai",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.akamai.com/",
+        "status": 403
+      }
+    }
+  ]
+}

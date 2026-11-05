@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "dylan-barrell",
+  "type": "person",
+  "name": "Dylan Barrell",
+  "role": "CTO",
+  "organisation": "Deque Systems",
+  "org": "company:deque",
+  "listings": [
+    {
+      "role": "CTO",
+      "organisation": "Deque Systems",
+      "org": "company:deque",
+      "event": "event:can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque",
+      "source": "https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CTO",
+      "organisation": "Deque Systems",
+      "org": "company:deque",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/564b144a-17c0-4f84-b1e7-16f55a99bc44/dylan-barrell/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

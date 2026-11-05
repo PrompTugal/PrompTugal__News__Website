@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "marina-khaustova",
+  "type": "person",
+  "name": "Marina Khaustova",
+  "role": "COO & Executive Director",
+  "organisation": "Crystal Intelligence",
+  "org": "company:crystal-intelligence",
+  "listings": [
+    {
+      "role": "COO & Executive Director",
+      "organisation": "Crystal Intelligence",
+      "org": "company:crystal-intelligence",
+      "event": "event:an-ai-identity-crisis",
+      "source": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "COO & Executive Director",
+      "organisation": "Crystal Intelligence",
+      "org": "company:crystal-intelligence",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/4ae05bc1-5a7c-43ae-9105-a7c415dcee58/marina-khaustova/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

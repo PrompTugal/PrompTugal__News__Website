@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "web-summit",
+  "type": "organisation",
+  "name": "Web Summit",
+  "names_as_listed": ["Web Summit"],
+  "sources": [
+    { "url": "https://websummit.com/essentials/venue-essentials/", "read_on": "2026-11-01", "by": "curator@web-summit", "how": "the organiser of Web Summit Lisbon 2026, on its own site" }
+  ],
+  "note": "Hand-written: the organiser of the official programme. The derivation links every official event to it (organised_by), and every capture that names it."
+}

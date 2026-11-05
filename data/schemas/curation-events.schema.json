@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/curation-events.schema.json",
+  "title": "Hand-made event rules (data/curation/events.json)",
+  "type": "object",
+  "required": [
+    "about",
+    "part_of",
+    "kind"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "part_of": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "when",
+          "why"
+        ],
+        "properties": {
+          "parent": {
+            "$ref": "common.schema.json#/$defs/event_ref"
+          },
+          "parent_source_url": {
+            "$ref": "common.schema.json#/$defs/url"
+          },
+          "when": {
+            "type": "object",
+            "properties": {
+              "organiser": {
+                "enum": [
+                  "web-summit",
+                  "other"
+                ]
+              },
+              "source_prefix": {
+                "$ref": "common.schema.json#/$defs/url"
+              }
+            },
+            "additionalProperties": false
+          },
+          "why": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "kind": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_url",
+          "kind",
+          "why"
+        ],
+        "properties": {
+          "source_url": {
+            "$ref": "common.schema.json#/$defs/url"
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "why": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

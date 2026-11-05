@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "european-commission",
+  "type": "company",
+  "name": "European Commission",
+  "website": "https://commission.europa.eu/",
+  "what": "EU executive; Executive Vice-President Henna Virkkunen (Tech Sovereignty, Security and Democracy) is an announced 2026 speaker.",
+  "category": "other",
+  "country": "Belgium (EU)",
+  "attending": "confirmed: Lusa (25 Jun 2026) and Fast Company ME (9 Oct 2026) report Henna Virkkunen as a speaker",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s1",
+      "s2"
+    ],
+    "website": [
+      "s1",
+      "s2"
+    ],
+    "what": [
+      "s1",
+      "s2"
+    ],
+    "category": [
+      "s1",
+      "s2"
+    ],
+    "country": [
+      "s1",
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "European Commission",
+      "source": "s1",
+      "how": "the name in the team's map"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

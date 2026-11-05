@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "replit",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/906ae644-bbd1-4f7e-bfbb-87690996d3bd/replit",
+        "status": 200
+      },
+      "website": {
+        "url": "https://replit.com/",
+        "status": 200
+      }
+    }
+  ]
+}

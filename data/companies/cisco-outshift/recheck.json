@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "cisco-outshift",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/00e7c159-84fb-4ba2-9413-e075b2d9f87a/cisco-systems%2C-inc.",
+        "status": 200
+      },
+      "website": {
+        "url": "https://outshift.cisco.com/",
+        "status": 200
+      }
+    }
+  ]
+}

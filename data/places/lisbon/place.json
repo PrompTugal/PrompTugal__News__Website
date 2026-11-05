@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "lisbon",
+  "type": "place",
+  "name": "Lisbon",
+  "kind": "city",
+  "located_in": "place:portugal",
+  "matches": [
+    "Lisbon (venue not given on the page)",
+    "Centre of Lisbon"
+  ],
+  "source": "https://websummit.com/essentials/venue-essentials/"
+}

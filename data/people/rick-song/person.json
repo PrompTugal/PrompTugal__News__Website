@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "rick-song",
+  "type": "person",
+  "name": "Rick Song",
+  "role": "CEO",
+  "organisation": "Persona",
+  "org": "company:persona",
+  "listings": [
+    {
+      "role": "CEO",
+      "organisation": "Persona",
+      "org": "company:persona",
+      "event": "event:beyond-the-front-door-identity-access-and-user-trust",
+      "source": "https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CEO",
+      "organisation": "Persona",
+      "org": "company:persona",
+      "event": "event:in-bots-we-trust-defending-money-against-ai-powered-fraud",
+      "source": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CEO",
+      "organisation": "Persona",
+      "org": "company:persona",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/7b2621fc-2a0d-484e-bea9-9927584b0f43/rick-song/",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

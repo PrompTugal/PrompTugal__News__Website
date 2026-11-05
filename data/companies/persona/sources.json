@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "persona",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 session page (conferenceSlug lis26): 'In bots we trust: Defending money against AI-powered fraud', 11 Nov, MoneyConf, Stage 8, names Persona as the speaker's organisation",
+      "kind": "summit-session"
+    },
+    {
+      "id": "s2",
+      "url": "https://websummit.com/attendees/lis26/7b2621fc-2a0d-484e-bea9-9927584b0f43/rick-song/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "LIS26 attendee page: Rick Song, CEO, Persona; country and industry as listed by Web Summit; public bio",
+      "kind": "summit-attendee"
+    },
+    {
+      "id": "s3",
+      "url": "https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "second LIS26 session page: 'Beyond the front door: Identity, access, and user trust', 12 Nov, Cybersecurity Summit, Stage 8",
+      "kind": "summit-session"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "web-summit-newsroom-ontology",
+  "version": "1.0.0",
+  "about": "The grammar of this newsroom's graphs: the node types, the typed verbs (edge kinds) and the taxonomies. Hand-edited. Every verb has a distinct, named inverse (no verb is its own inverse, so there is no related_to); a path must read as an English sentence, forwards with the verb and backwards with the inverse. Every node and every edge names the source it came from. Types are grouped in worlds: each world has its own types and verbs, and the worlds are joined by named bridge verbs, so zooming into a node (a company into its facts and sources, the summit into its programme) lands in a different vocabulary under the same grammar. The graphs at /api/v1/graph/ are views of one whole graph: the same node ids and the same edge objects at every zoom.",
+  "rules": [
+    "A node carries no meaning by itself: what a thing is comes from the edges traceable from it.",
+    "Every edge is a verb with a distinct inverse; the inverse is never stored, it is the same edge read backwards.",
+    "Banned: related_to, associated_with, mentions, works_at (see forbidden).",
+    "Every node and every edge names its source: a URL read on a stated date, or the repository file it was derived from.",
+    "Properties carry data, never meaning: a company's category string does not make it part of a field; the filed_under edge does.",
+    "Never render the whole graph: render the result of a question. The whole graph is published for machines."
+  ],
+  "worlds": [
+    { "id": "summit", "label": "The summit's programme", "types": ["event", "place", "day", "track"], "meaning": "What happens when and where, in the summit's own vocabulary (its stages, its tracks, its days)." },
+    { "id": "people", "label": "The people", "types": ["person", "organisation"], "meaning": "People as the summit lists them (name, role, organisation), and the organisations they are listed under." },
+    { "id": "industry", "label": "The industry", "types": ["company", "topic"], "meaning": "The companies this newsroom follows and the fields and themes it files them under (this newsroom's taxonomy, not the summit's)." },
+    { "id": "evidence", "label": "The evidence", "types": ["fact", "source", "evidence", "story", "article"], "meaning": "What is claimed, where it was read, what the desks captured, and what the newsroom writes from it." }
+  ],
+  "types": [
+    { "id": "company", "label": "Company", "world": "industry", "page": "companies/{slug}/index.html", "meaning": "A company this newsroom follows at the summit, from the team's company map: public facts only, each with its source." },
+    { "id": "organisation", "label": "Organisation", "world": "people", "page": "organisations/{slug}/index.html", "meaning": "An organisation named by a source (a speaker's card, a curator's capture) that is not one of the companies we follow: an employer, an institution, a delegation, a publisher. Named as listed, never merged by guesswork." },
+    { "id": "person", "label": "Person", "world": "people", "page": "people/{slug}/index.html", "meaning": "A person named by the summit's public pages, in their professional capacity only: name, role and organisation as listed. Never a photo, a profile link or a contact." },
+    { "id": "event", "label": "Event", "world": "summit", "page": "events/{slug}/index.html", "meaning": "A dated thing that happens: the summit itself, a session, a PITCH round, a press conference, registration, a side event or a conference elsewhere in Portugal. Its organiser is either Web Summit (the official programme) or other." },
+    { "id": "place", "label": "Place", "world": "summit", "page": "places/{slug}/index.html", "meaning": "Somewhere things happen or companies are based: a country, a city, a district, a venue, a stage or a room. A place is not a person, so its address may be kept." },
+    { "id": "day", "label": "Day", "world": "summit", "page": null, "meaning": "A calendar day of the summit week (Lisbon time, which is UTC in November)." },
+    { "id": "track", "label": "Track", "world": "summit", "page": null, "meaning": "A track as the summit names it on a stage (Cybersecurity Summit, AI Summit, PITCH...): the summit's vocabulary, kept verbatim." },
+    { "id": "topic", "label": "Topic", "world": "industry", "page": "topics/{slug}/index.html", "meaning": "A field, beat or theme in this newsroom's taxonomy (AI agents, security, Portugal, Europe...)." },
+    { "id": "fact", "label": "Fact", "world": "evidence", "page": null, "meaning": "One dated claim about a company, as a source supports it." },
+    { "id": "source", "label": "Source", "world": "evidence", "page": null, "meaning": "A public page that was read on a stated date: the thing a claim walks back to." },
+    { "id": "evidence", "label": "Capture", "world": "evidence", "page": null, "meaning": "A capture by the research desk, as the curator mapped it: a source, a beat and the names it carries." },
+    { "id": "story", "label": "Story candidate", "world": "evidence", "page": null, "meaning": "A story the curator proposes, resting on captures; a candidate, not a published article." },
+    { "id": "article", "label": "Article", "world": "evidence", "page": "articles/{slug}.html", "meaning": "An article this newsroom published, signed with its key." }
+  ],
+  "verbs": [
+    { "verb": "listed_under", "inverse": "lists", "from": ["person"], "to": ["company", "organisation"], "world": "people", "reads": "{from} is listed under {to}", "reads_inverse": "{to} lists {from}", "meaning": "A source lists the person under this organisation (a speaker card, an attendee page). Not an employment claim: it is what the listing says." },
+    { "verb": "speaks_at", "inverse": "has_speaker", "from": ["person"], "to": ["event"], "world": "people", "bridge": true, "reads": "{from} speaks at {to}", "reads_inverse": "{to} has speaker {from}", "meaning": "The event's public page lists the person as a speaker." },
+    { "verb": "part_of", "inverse": "includes", "from": ["event"], "to": ["event"], "world": "summit", "reads": "{from} is part of {to}", "reads_inverse": "{to} includes {from}", "meaning": "The event belongs to a larger event: a session to the summit, a Portugal Tech Week event to the week." },
+    { "verb": "takes_place_at", "inverse": "is_venue_of", "from": ["event"], "to": ["place"], "world": "summit", "reads": "{from} takes place at {to}", "reads_inverse": "{to} is the venue of {from}", "meaning": "Where the event's source says it happens." },
+    { "verb": "located_in", "inverse": "contains", "from": ["place"], "to": ["place"], "world": "summit", "reads": "{from} is located in {to}", "reads_inverse": "{to} contains {from}", "meaning": "One place inside another: a stage in a venue, a venue in a district, a city in a country." },
+    { "verb": "on_day", "inverse": "day_of", "from": ["event"], "to": ["day"], "world": "summit", "reads": "{from} is on {to}", "reads_inverse": "{to} is the day of {from}", "meaning": "The day the event happens (for a multi-day event, the day it starts)." },
+    { "verb": "in_track", "inverse": "track_of", "from": ["event"], "to": ["track"], "world": "summit", "reads": "{from} is in the track {to}", "reads_inverse": "{to} is the track of {from}", "meaning": "The track the summit's schedule puts the session in." },
+    { "verb": "organised_by", "inverse": "organises", "from": ["event"], "to": ["organisation", "company"], "world": "summit", "bridge": true, "reads": "{from} is organised by {to}", "reads_inverse": "{to} organises {from}", "meaning": "Who runs the event, where a source says so (Web Summit for its official programme)." },
+    { "verb": "filed_under", "inverse": "classifies", "from": ["company"], "to": ["topic"], "world": "industry", "reads": "{from} is filed under {to}", "reads_inverse": "{to} classifies {from}", "meaning": "The field the team's company map files the company in (this newsroom's taxonomy)." },
+    { "verb": "based_in", "inverse": "is_base_of", "from": ["company"], "to": ["place"], "world": "industry", "bridge": true, "reads": "{from} is based in {to}", "reads_inverse": "{to} is the base of {from}", "meaning": "The country a source gives for the company." },
+    { "verb": "narrower_than", "inverse": "broader_than", "from": ["topic"], "to": ["topic"], "world": "industry", "reads": "{from} is narrower than {to}", "reads_inverse": "{to} is broader than {from}", "meaning": "The taxonomy pointing upward: a field inside a theme." },
+    { "verb": "maps_to", "inverse": "is_mapped_from", "from": ["track"], "to": ["topic"], "world": "industry", "bridge": true, "reads": "{from} maps to {to}", "reads_inverse": "{to} is mapped from {from}", "meaning": "A declared bridge from the summit's vocabulary (a track) to ours (a topic). Our judgement, published so it can be disagreed with; the vocabularies are bridged, never merged." },
+    { "verb": "appears_in", "inverse": "features", "from": ["company"], "to": ["event"], "world": "industry", "bridge": true, "reads": "{from} appears in {to}", "reads_inverse": "{to} features {from}", "meaning": "The event's public page names the company (as a speaker's organisation), as recorded in the company's own sources." },
+    { "verb": "hosts", "inverse": "is_hosted_by", "from": ["company", "organisation"], "to": ["event"], "world": "industry", "bridge": true, "reads": "{from} hosts {to}", "reads_inverse": "{to} is hosted by {from}", "meaning": "The event's page or title says the company hosts it." },
+    { "verb": "described_by", "inverse": "describes", "from": ["company"], "to": ["fact"], "world": "evidence", "bridge": true, "reads": "{from} is described by {to}", "reads_inverse": "{to} describes {from}", "meaning": "A dated claim about the company. The bridge from the industry world into the evidence world." },
+    { "verb": "evidenced_by", "inverse": "evidences", "from": ["fact"], "to": ["source"], "world": "evidence", "reads": "{from} is evidenced by {to}", "reads_inverse": "{to} evidences {from}", "meaning": "The page the claim was read on, and when." },
+    { "verb": "capture_of", "inverse": "captured_as", "from": ["evidence"], "to": ["source"], "world": "evidence", "reads": "{from} is a capture of {to}", "reads_inverse": "{to} is captured as {from}", "meaning": "The research desk captured this page." },
+    { "verb": "names", "inverse": "named_in", "from": ["evidence"], "to": ["company", "organisation"], "world": "evidence", "bridge": true, "reads": "{from} names {to}", "reads_inverse": "{to} is named in {from}", "meaning": "The curator's map lists this name for the capture. It says the capture carries the name; nothing more." },
+    { "verb": "rests_on", "inverse": "supports", "from": ["story"], "to": ["evidence"], "world": "evidence", "reads": "{from} rests on {to}", "reads_inverse": "{to} supports {from}", "meaning": "The curator built the story candidate on this capture." },
+    { "verb": "about", "inverse": "subject_of", "from": ["story", "article"], "to": ["topic", "company", "organisation", "event", "person"], "world": "evidence", "bridge": true, "reads": "{from} is about {to}", "reads_inverse": "{to} is the subject of {from}", "meaning": "The beat a story candidate is on, or what an article's tags say it covers." }
+  ],
+  "forbidden": [
+    { "verb": "related_to", "why": "Symmetric, so it would be its own inverse, and it constrains nothing. Related companies are paths (a shared topic, a shared event), shown with the path." },
+    { "verb": "associated_with", "why": "The verb reached for when the relation is not known. Find it, or leave the edge out." },
+    { "verb": "mentions", "why": "In a graph built from text everything mentions something: it is the absence of a verb." },
+    { "verb": "works_at", "why": "Not what the source says. A speaker card lists an organisation; it does not state employment. The edge is listed_under." }
+  ],
+  "taxonomies": {
+    "event_organiser": [
+      { "id": "web-summit", "label": "Web Summit", "meaning": "The official programme: Opening Night, Centre Stage and the stage sessions, PITCH, press conferences, Night Summit, registration." },
+      { "id": "other", "label": "Other organisers", "meaning": "Side events (some listed on the summit's schedule but run by others), Portugal Tech Week, conferences elsewhere in Portugal." }
+    ],
+    "event_kind": [
+      { "id": "summit", "label": "The summit", "meaning": "The summit itself, or a Centre Stage moment such as Opening Night." },
+      { "id": "session", "label": "Session", "meaning": "A talk, panel or masterclass on one of the summit's stages." },
+      { "id": "pitch", "label": "PITCH", "meaning": "A round of the summit's startup competition." },
+      { "id": "announcement", "label": "Press conference", "meaning": "A press conference on the summit's public schedule." },
+      { "id": "night-summit", "label": "Night Summit", "meaning": "The summit's evening programme." },
+      { "id": "registration", "label": "Registration", "meaning": "Where and when to collect a lanyard and wristband." },
+      { "id": "side-event", "label": "Side event", "meaning": "An event run by someone other than Web Summit during the summit week." },
+      { "id": "festival", "label": "Festival", "meaning": "A multi-day umbrella of events, such as Portugal Tech Week." }
+    ],
+    "place_kind": ["country", "region", "city", "district", "street", "venue", "building", "stage", "room"],
+    "topic_kind": [
+      { "id": "field", "label": "Field", "meaning": "An industry field: the category the team's company map files each company under." },
+      { "id": "beat", "label": "Beat", "meaning": "One of the newsroom's beats (brief 3)." },
+      { "id": "theme", "label": "Theme", "meaning": "A broader theme that fields and summit tracks are bridged to." }
+    ]
+  }
+}

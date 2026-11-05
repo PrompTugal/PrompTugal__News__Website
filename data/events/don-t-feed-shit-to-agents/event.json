@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "don-t-feed-shit-to-agents",
+  "type": "event",
+  "title": "Don’t feed shit to agents",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-11",
+  "time": "11:10-11:30",
+  "start": "11:10",
+  "end": "11:30",
+  "where": "Stage 10 (Developer Summit), MEO Arena and FIL",
+  "place": "place:stage-10",
+  "track": "Developer Summit",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:rijk-van-zanten",
+      "as_listed": "Rijk van Zanten (Co-Founder & CTO, Directus)",
+      "role": "Co-Founder & CTO",
+      "organisation": "Directus",
+      "org": "company:directus"
+    },
+    {
+      "person": "person:simon-ince",
+      "as_listed": "Simon Ince (CTO, Lush)",
+      "role": "CTO",
+      "organisation": "Lush",
+      "org": "organisation:lush"
+    },
+    {
+      "person": "person:mafalda-freire",
+      "as_listed": "Mafalda Freire (Journalist, businessIT - PC Guia)",
+      "role": "Journalist",
+      "organisation": "businessIT - PC Guia",
+      "org": "organisation:businessit-pc-guia"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/858c105c-7c26-4196-bbc1-5a6ef6a35f55/don-t-feed-shit-to-agents/",
+  "read_at": "2026-11-04T20:04Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 119
+  }
+}

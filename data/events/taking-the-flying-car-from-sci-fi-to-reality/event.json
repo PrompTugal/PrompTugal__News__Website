@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "taking-the-flying-car-from-sci-fi-to-reality",
+  "type": "event",
+  "title": "Taking the flying car from sci-fi to reality",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "12:50-13:10",
+  "start": "12:50",
+  "end": "13:10",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:deli-zhao",
+      "as_listed": "Deli Zhao (Founder and President, Xpeng Aridge)",
+      "role": "Founder and President",
+      "organisation": "Xpeng Aridge",
+      "org": "organisation:xpeng-aridge"
+    },
+    {
+      "person": "person:jianhua-li",
+      "as_listed": "Jianhua Li (Correspondent & News Anchor, CGTN Europe)",
+      "role": "Correspondent & News Anchor",
+      "organisation": "CGTN Europe",
+      "org": "organisation:cgtn-europe"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/fd14aac9-a53b-4b2a-af0d-147a9e44f2b8/taking-the-flying-car-from-sci-fi-to-reality/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
+  "read_at": "2026-11-04T20:02Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 65
+  }
+}

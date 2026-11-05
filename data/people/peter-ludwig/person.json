@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "peter-ludwig",
+  "type": "person",
+  "name": "Peter Ludwig",
+  "role": "Co-founder & CTO",
+  "organisation": "Applied Intuition",
+  "org": "organisation:applied-intuition",
+  "listings": [
+    {
+      "role": "Co-founder & CTO",
+      "organisation": "Applied Intuition",
+      "org": "organisation:applied-intuition",
+      "event": "event:when-software-meets-matter",
+      "source": "https://websummit.com/sessions/lis26/83d00caa-134c-498e-9365-f033914b2583/when-software-meets-matter/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "lagos",
+  "type": "place",
+  "name": "Lagos",
+  "kind": "city",
+  "located_in": "place:algarve",
+  "matches": [
+    "Lagos, Algarve"
+  ],
+  "source": "https://www.algarveevolution.pt/event/gdg-lagos-182/register"
+}

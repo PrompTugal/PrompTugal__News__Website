@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "michael-mcnamara",
+  "type": "person",
+  "name": "Michael McNamara",
+  "role": "MEP",
+  "organisation": "The European Parliament",
+  "org": "organisation:the-european-parliament",
+  "listings": [
+    {
+      "role": "MEP",
+      "organisation": "The European Parliament",
+      "org": "organisation:the-european-parliament",
+      "event": "event:chat-control-2-0-the-government-in-your-dms",
+      "source": "https://websummit.com/sessions/lis26/66c13c83-4b26-4655-95a9-051b17258832/chat-control-2-0-the-government-in-your-dms/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

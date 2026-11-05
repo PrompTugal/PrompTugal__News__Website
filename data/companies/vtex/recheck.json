@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "vtex",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/9681fb72-1cd3-485c-88f5-e92b7cd7c19e/vtex",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.vtex.com/en-us/solutions/business-needs/",
+        "status": 200
+      }
+    }
+  ]
+}

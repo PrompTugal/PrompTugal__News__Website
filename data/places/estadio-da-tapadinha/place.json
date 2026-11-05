@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "estadio-da-tapadinha",
+  "type": "place",
+  "name": "Estádio da Tapadinha",
+  "kind": "venue",
+  "located_in": "place:lisbon",
+  "matches": [
+    "Estádio da Tapadinha, Lisbon"
+  ],
+  "source": "https://jornaleconomico.sapo.pt/"
+}

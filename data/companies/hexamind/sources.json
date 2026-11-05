@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "hexamind",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.futurefeed.to/post/40-ai-startups-to-meet-at-web-summit-2026",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "third-party list naming Hexamind/Hexgate among exhibiting AI startups",
+      "kind": "other"
+    },
+    {
+      "id": "s2",
+      "url": "https://github.com/HexamindOrganisation",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "own GitHub organisation: description, website, Hexgate repository",
+      "kind": "other"
+    },
+    {
+      "id": "s3",
+      "url": "https://pypi.org/project/hexgate/0.3.2/",
+      "read_on": "2026-11-01",
+      "read_by": "curator@web-summit",
+      "supports": "Hexgate package: runtime authorization for AI agents",
+      "kind": "other"
+    }
+  ]
+}

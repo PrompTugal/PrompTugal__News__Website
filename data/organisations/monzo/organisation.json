@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "monzo",
+  "type": "organisation",
+  "name": "Monzo",
+  "names_as_listed": [
+    "Monzo"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/543e9fa5-7da2-4e69-9de1-e36e2ce645e8/next-generation-banking-with-global-ambition/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

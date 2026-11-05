@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "alfonso-poncho-sandoval-rosas",
+  "type": "person",
+  "name": "Alfonso (Poncho) Sandoval Rosas",
+  "role": "Senior Developer Advocate 🥑",
+  "organisation": "CIsco Systems",
+  "org": "company:cisco-outshift",
+  "listings": [
+    {
+      "role": "Senior Developer Advocate 🥑",
+      "organisation": "CIsco Systems",
+      "org": "company:cisco-outshift",
+      "event": "event:democratising-ai-platform-engineering-with-open-source",
+      "source": "https://websummit.com/sessions/lis26/5f4ac039-83e3-4b2b-9415-3efa64804ee1/democratising-ai-platform-engineering-with-open-source-hosted-by-cisco-systems/",
+      "read_at": "2026-11-04T20:05Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

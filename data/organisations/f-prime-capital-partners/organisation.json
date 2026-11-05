@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "f-prime-capital-partners",
+  "type": "organisation",
+  "name": "F-Prime Capital Partners",
+  "names_as_listed": [
+    "F-Prime Capital Partners"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/73e9fb82-c650-4609-9b8c-63e7d0e47610/pitch-final/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

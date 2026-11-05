@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "tecnico-venture-lab",
+  "type": "organisation",
+  "name": "Técnico Venture Lab",
+  "names_as_listed": [
+    "Técnico Venture Lab"
+  ],
+  "sources": [
+    {
+      "url": "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/",
+      "read_at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "linux-foundation-aaif",
+  "type": "company",
+  "name": "Linux Foundation (Agentic AI Foundation)",
+  "website": "https://aaif.io/",
+  "what": "The Linux Foundation hosts open-source projects; the speaker is Executive Director of its Agentic AI Foundation (AAIF), a neutral foundation for open standards in agentic AI.",
+  "category": "ai-agents",
+  "country": "United States",
+  "attending": "confirmed: Mazin Gilbert (Executive Director) is listed on the LIS26 session page 'Why AI agents stall at the production line'",
+  "attending_as": "speaker's company",
+  "field_sources": {
+    "name": [
+      "s2"
+    ],
+    "website": [
+      "s3",
+      "s4"
+    ],
+    "what": [
+      "s3",
+      "s4"
+    ],
+    "category": [
+      "s2"
+    ],
+    "country": [
+      "s2"
+    ],
+    "attending": [
+      "s1",
+      "s2"
+    ],
+    "attending_as": [
+      "s1",
+      "s2"
+    ]
+  },
+  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "aliases": [
+    {
+      "name": "Linux Foundation (Agentic AI Foundation)",
+      "source": "s1",
+      "how": "the name in the team's map"
+    },
+    {
+      "name": "Linux Foundation",
+      "source": "s1",
+      "how": "the name in the team's map, before the brackets"
+    },
+    {
+      "name": "Agentic AI Foundation",
+      "source": "s1",
+      "how": "the name in the team's map, in the brackets"
+    }
+  ],
+  "from": {
+    "repository": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "path": "data/companies.json",
+    "read_on": "2026-11-01",
+    "by": "curator@web-summit"
+  }
+}

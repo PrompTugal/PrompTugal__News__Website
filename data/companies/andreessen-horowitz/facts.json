@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/company-facts.schema.json",
+  "company": "andreessen-horowitz",
+  "facts": [
+    {
+      "id": "f-s1",
+      "claim": "Lusa via AMAN, 25 Jun 2026: Marcus Segal, partner at a16z, speaker",
+      "source": "s1",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    },
+    {
+      "id": "f-s2",
+      "claim": "AI Summit track page logos include a16z (may include past-edition content)",
+      "source": "s2",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit"
+    }
+  ]
+}

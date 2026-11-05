@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ali-partovi",
+  "type": "person",
+  "name": "Ali Partovi",
+  "role": "Founding Partner",
+  "organisation": "Neo",
+  "org": "company:neo",
+  "listings": [
+    {
+      "role": "Founding Partner",
+      "organisation": "Neo",
+      "org": "company:neo",
+      "event": "event:ai-doom-or-boom",
+      "source": "https://websummit.com/sessions/lis26/9b2f78b9-3828-4bbe-9e0a-8c092d39e0f6/ai-doom-or-boom/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Founding Partner",
+      "organisation": "Neo",
+      "org": "company:neo",
+      "event": null,
+      "source": "https://websummit.com/attendees/lis26/27267936-1648-4a02-ae03-6a1065ac3921/ali-partovi",
+      "read_at": "2026-11-01T00:00Z",
+      "by": "curator@web-summit"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

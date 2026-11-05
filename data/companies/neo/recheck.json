@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "neo",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:48Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/attendees/lis26/27267936-1648-4a02-ae03-6a1065ac3921/ali-partovi",
+        "status": 200
+      },
+      "website": {
+        "url": "https://neo.com/",
+        "status": 200
+      }
+    }
+  ]
+}

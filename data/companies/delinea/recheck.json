@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "delinea",
+  "log": [
+    {
+      "checked_at": "2026-11-05T01:46Z",
+      "by": "newsroom@web-summit.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/96f4d2e8-4e7e-4204-bf7d-0c1b9ad6983d/delinea",
+        "status": 200
+      },
+      "website": {
+        "url": "https://Delinea.com",
+        "status": 200
+      }
+    }
+  ]
+}

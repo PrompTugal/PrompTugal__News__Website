@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "let-s-talk-ai-ethics-responsible-tech-meetup",
+  "type": "event",
+  "title": "Let's talk AI ethics & responsible tech meetup",
+  "kind": "session",
+  "listed_as": "team-pick",
+  "organiser": "web-summit",
+  "our_pick": true,
+  "date": "2026-11-10",
+  "time": "14:00-14:55",
+  "start": "14:00",
+  "end": "14:55",
+  "where": "Meetup 4 (Meetup), MEO Arena and FIL",
+  "place": "place:meetup-4",
+  "track": "Meetup",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "hosted_by": [],
+  "session_url": null,
+  "source_url": "https://websummit.com/sessions/lis26/26661314-5fb1-472c-bfbf-cd3ccf6e969f/let-s-talk-ai-ethics-responsible-tech-meetup/",
+  "read_at": "2026-11-04T20:06Z",
+  "read_by": "programme@web-summit.vicky",
+  "via": "the team's data/events.json, re-checked at the source",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json"
+    ],
+    "item": 71
+  }
+}
