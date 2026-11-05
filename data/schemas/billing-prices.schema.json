@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/billing-prices.schema.json",
+  "$id": "https://promptugal.news/data/schemas/billing-prices.schema.json",
   "title": "The reading meter's prices (data/billing/prices.json): base price per page type, freshness tiers, the rules",
   "type": "object",
   "required": ["meter", "storage_key", "start", "symbol", "currency", "floor", "min_share", "new_days", "formula", "types", "tiers", "rating", "rules"],

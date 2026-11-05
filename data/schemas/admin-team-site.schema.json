@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/admin-team-site.schema.json",
+  "$id": "https://promptugal.news/data/schemas/admin-team-site.schema.json",
   "title": "A snapshot of the team's site for the admin section (data/admin/team-site.json), written by admin/tools/desks-snapshot.mjs",
   "type": "object",
   "required": [

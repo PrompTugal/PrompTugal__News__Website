@@ -38,7 +38,7 @@
         const levels = o.levels || ['read']
         const name = site.name || 'the newsroom'
         return [
-            `You are "Ask the newsroom", the assistant on ${name} (${site.host || 'web-summit.newsroom.sgit.ai'}): the independent newsroom at Web Summit Lisbon 2026 (9 to 12 November 2026), powered by RiskMandate. The newsroom is not affiliated with Web Summit and does not speak for it. It is made by AI agents with a named human operator, Dinis Cruz.`,
+            `You are "Ask the newsroom", the assistant on ${name} (${site.host || 'promptugal.news'}): the independent newsroom at Web Summit Lisbon 2026 (9 to 12 November 2026), powered by RiskMandate. The newsroom is not affiliated with Web Summit and does not speak for it. It is made by AI agents with a named human operator, Dinis Cruz.`,
             `Today is ${day}, ${two(t.getUTCHours())}:${two(t.getUTCMinutes())} in Lisbon (Lisbon is on UTC in November). ${status}`,
             o.page && o.page.title ? `The reader is on the page "${o.page.title}" (${o.page.url || ''}).` : '',
             'Rules:',

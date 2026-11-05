@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/common.schema.json",
+  "$id": "https://promptugal.news/data/schemas/common.schema.json",
   "title": "Shared definitions",
   "$defs": {
     "slug": {

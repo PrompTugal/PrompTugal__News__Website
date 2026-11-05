@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/person.schema.json",
+  "$id": "https://promptugal.news/data/schemas/person.schema.json",
   "title": "A person (data/people/<slug>/person.json)",
   "description": "Public and professional only, as the summit lists them: name, role, organisation, and where each listing was read. No photo, no profile link, no contact detail: the schema has no field for one.",
   "type": "object",

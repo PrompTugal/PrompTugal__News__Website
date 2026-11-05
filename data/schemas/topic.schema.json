@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/topic.schema.json",
+  "$id": "https://promptugal.news/data/schemas/topic.schema.json",
   "title": "A topic in the newsroom's taxonomy (data/topics/<slug>/topic.json)",
   "description": "Hand-edited. summit_tracks declares the bridge from the summit's tracks to this topic (maps_to).",
   "type": "object",

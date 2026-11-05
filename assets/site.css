@@ -1,5 +1,5 @@
-/* PromptUGAL (working name): the independent newsroom at Web Summit Lisbon 2026.
-   One stylesheet for web-summit.newsroom.sgit.ai, proposed by newsroom-designer@web-summit.dinis (5 November 2026).
+/* PrompTugal.news: technology and AI, in context (the Web Summit Lisbon 2026 edition first).
+   One stylesheet for promptugal.news, proposed by newsroom-designer@web-summit.dinis (5 November 2026).
    Written against the build's current classes (dateline, mast, nav.site, frame, main, crumbs, toc, body, twin, footer,
    agent-block, .table, pre) plus the new components the mockups introduce; design/README.md lists each with its HTML.
    Phone first: every rule below is for a 390px screen, and min-width queries add the wide layouts.
@@ -49,6 +49,13 @@ a:focus-visible { background: var(--focus); color: var(--focus-ink); box-shadow:
 .mast { position: relative; text-align: center; max-width: calc(var(--page) - 2 * var(--gutter)); margin: 6px auto 0; padding: 14px var(--gutter) 12px; border-bottom: 4px double var(--rule); }
 .mast .name { display: inline-flex; align-items: center; gap: .26em; color: var(--ink); text-decoration: none; font: 600 var(--fs-nameplate)/1 var(--serif); letter-spacing: -.028em; font-variation-settings: "opsz" 72; }
 .mast .name:hover { color: var(--ink); }
+/* the wordmark (brand identity v2.0): at least 240 CSS px wide, half a capital P of clear space; light on paper, dark on ink */
+.wordmark { display: block; height: auto; width: clamp(240px, 64vw, 680px); }
+.mast.compact .wordmark { width: clamp(240px, 36vw, 400px); }
+.foot-brand .wordmark { width: 240px; }
+.wm-dark { display: none; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .wm-light { display: none; } :root:not([data-theme="light"]) .wm-dark { display: block; } }
+:root[data-theme="dark"] .wm-light { display: none; } :root[data-theme="dark"] .wm-dark { display: block; }
 .mark { width: .62em; height: .62em; flex: none; color: var(--brand); }
 .mark .tile { fill: currentColor; }
 .mark .glaze { fill: none; stroke: var(--paper); stroke-width: 1.6; }
@@ -113,7 +120,7 @@ main { max-width: var(--measure); margin: 0 auto; }
 main.wide { max-width: none; }
 .crumbs { font: 400 var(--fs-meta)/1.4 var(--sans); color: var(--ink-3); margin-bottom: 12px; }
 .crumbs a { color: var(--ink-3); }
-h1 { font-weight: 500; font-size: var(--fs-h1); line-height: 1.06; margin: 4px 0 14px; letter-spacing: -.018em; font-variation-settings: "opsz" 60; }
+h1 { font-weight: 600; font-size: var(--fs-h1); line-height: 1.06; margin: 4px 0 14px; letter-spacing: -.018em; font-variation-settings: "opsz" 60; }
 h2 { font: 700 var(--fs-label)/1.3 var(--sans); text-transform: uppercase; letter-spacing: .09em; margin: 44px 0 14px; padding-top: 10px; border-top: 2px solid var(--rule); }
 h3 { font-size: 21px; font-weight: 600; line-height: 1.25; margin: 26px 0 8px; }
 .lead { font-size: var(--fs-dek); line-height: 1.5; color: var(--ink-2); margin-top: 0; }
@@ -176,7 +183,7 @@ td:first-child { font-weight: 500; }
 .story h3 a { color: var(--ink); text-decoration: none; }
 .story h3 a:hover { color: var(--brand); text-decoration: underline; text-decoration-thickness: 1px; }
 .story .dek { margin: 7px 0 0; font-size: 16.5px; line-height: 1.45; color: var(--ink-2); }
-.story.lead h3 { font-size: var(--fs-lead-hed); font-weight: 500; line-height: 1.06; letter-spacing: -.016em; font-variation-settings: "opsz" 60; }
+.story.lead h3 { font-size: var(--fs-lead-hed); font-weight: 600; line-height: 1.06; letter-spacing: -.016em; font-variation-settings: "opsz" 60; }
 .story.lead .dek { font-size: var(--fs-dek); }
 .story .fig { margin: 0 0 12px; background: var(--paper-2); border: 1px solid var(--hair); overflow: hidden; }
 .story .fig pre { margin: 0; background: none; padding: 12px; font: 400 clamp(7px, calc((100vw - 60px) / 30), 9.2px)/1.3 var(--mono); color: var(--ink-2); overflow: hidden; }

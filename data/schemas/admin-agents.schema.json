@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/admin-agents.schema.json",
+  "$id": "https://promptugal.news/data/schemas/admin-agents.schema.json",
   "title": "The agents working on this newsroom (data/admin/agents.json), hand-kept",
   "type": "object",
   "required": [

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// web-summit.newsroom.sgit.ai: the gate. Run from anywhere: node admin/build/validate.js
+// promptugal.news: the gate. Run from anywhere: node admin/build/validate.js
 // It builds the site once itself, then checks it. Any failure exits 1: no release, no deploy. Prints OK when clean.
 //   1. the build touches no tracked file (generated output is gitignored, never committed), and no source is ignored
 //   2. version agreement: version.txt against every page's badge, llms.txt and every markdown twin

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/organisation.schema.json",
+  "$id": "https://promptugal.news/data/schemas/organisation.schema.json",
   "title": "An organisation that is not one of our companies (data/organisations/<slug>/organisation.json)",
   "type": "object",
   "required": [

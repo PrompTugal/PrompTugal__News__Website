@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/event.schema.json",
+  "$id": "https://promptugal.news/data/schemas/event.schema.json",
   "title": "An event (data/events/<slug>/event.json)",
   "description": "Every event: the official programme (organiser web-summit) and the others (organiser other). Derived from desks/programme/agenda.json by admin/tools/derive.mjs, or hand-written (no \"derived\").",
   "type": "object",

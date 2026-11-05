@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/billing-vault.schema.json",
+  "$id": "https://promptugal.news/data/schemas/billing-vault.schema.json",
   "title": "Your vault (data/billing/vault.json): the vault server, the library, and where the access key will come from. Never the key itself.",
   "type": "object",
   "required": ["endpoint", "library", "door_constant", "access_key"],

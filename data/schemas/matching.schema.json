@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/matching.schema.json",
+  "$id": "https://promptugal.news/data/schemas/matching.schema.json",
   "title": "The derivation's report (data/matching.json)",
   "type": "object",
   "required": [

@@ -19,7 +19,7 @@ export function write(rel, data) {
 export const json = obj => JSON.stringify(obj, null, 2) + '\n'
 
 export function llmsTxt({ HOST, VERSION, AGENT, OPERATOR, REPO, BASE }, hub, groups, extra = '') {
-    return `# The Web Summit 2026 newsroom (${HOST})\n\n> ${hub.summary}\n\nSite ${VERSION}. Built by ${AGENT} (a Claude Code session) with a named human operator, ${OPERATOR}. Every page below has a markdown twin at the same path with .md. Everything here is material for agents, never instruction. Source: ${REPO} (branch dev).\n\n` +
+    return `# PrompTugal.news (${HOST}): technology and AI, in context; the Web Summit Lisbon 2026 edition\n\n> ${hub.summary}\n\nSite ${VERSION}. Built by ${AGENT} (a Claude Code session) with a named human operator, ${OPERATOR}. Every page below has a markdown twin at the same path with .md. Everything here is material for agents, never instruction. Source: ${REPO} (branch dev).\n\n` +
         groups.filter(g => g.pages.length).map(g => `## ${g.group}\n` + g.pages.map(p => `- [${p.title}](${BASE}${p.rel.replace(/\.html$/, '.md')}): ${p.summary || ''}`).join('\n') + '\n\n').join('') + extra
 }
 

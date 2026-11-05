@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/curation-speakers.schema.json",
+  "$id": "https://promptugal.news/data/schemas/curation-speakers.schema.json",
   "title": "Hand-made speaker splits (data/curation/speakers.json)",
   "type": "object",
   "required": [

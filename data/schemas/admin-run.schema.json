@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/admin-run.schema.json",
+  "$id": "https://promptugal.news/data/schemas/admin-run.schema.json",
   "title": "One line of the runs ledger (data/admin/runs/<day>.jsonl): one commit of this repository, written by admin/tools/runs.mjs",
   "type": "object",
   "additionalProperties": false,

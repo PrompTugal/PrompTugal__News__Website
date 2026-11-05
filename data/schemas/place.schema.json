@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/place.schema.json",
+  "$id": "https://promptugal.news/data/schemas/place.schema.json",
   "title": "A place (data/places/<slug>/place.json)",
   "description": "Hand-edited. \"matches\" are the exact strings (a whole \"where\", or a stage name in the summit's \"Stage (Track), Venue\" form) that the derivation maps to this place.",
   "type": "object",

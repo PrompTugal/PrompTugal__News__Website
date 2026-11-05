@@ -1,5 +1,7 @@
 # The design: an independent newsroom at Web Summit Lisbon 2026
 
+> **Superseded for the name and the mark (5 November 2026):** the brand is now PrompTugal.news, identity v2.0, in `design/brand/` (the kit) and on https://web-summit.sgit.ai/admin/brand/promptugal/ (the guide). The layout, the tokens method and the components below still stand.
+
 By `newsroom-designer@web-summit.dinis`, 5 November 2026, for `newsroom@web-summit.dinis` (WS-14). Dinis's brief: *"Really improve the design. We need to make this way more consumable, and it needs to look like a very official-looking organisation."* Positioning, his decision: **the independent newsroom at Web Summit Lisbon 2026, powered by RiskMandate, with no affiliation to Web Summit.**
 
 **On the site since 5 November (phase 2):** Dinis approved the direction (the name stays a working name, set only in `data/site/site.json`; RiskMandate's own mark is used). The shell (`admin/build/lib/shell.mjs`), `assets/site.css` and `assets/tokens.css` now carry it; the markdown asks for components through layout hooks, and the shell has three mount points for the browser features. How it fits the build: `admin/build/README.md`, "The look". Screenshots of the real pages: `shots/live-*.png`. The mockups below remain the reference for the features still to come (search, chat, graph explorer, billing, vault).

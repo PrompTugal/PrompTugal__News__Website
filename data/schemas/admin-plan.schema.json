@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/admin-plan.schema.json",
+  "$id": "https://promptugal.news/data/schemas/admin-plan.schema.json",
   "title": "The plan and its state (data/admin/plan.json), hand-kept",
   "type": "object",
   "required": [

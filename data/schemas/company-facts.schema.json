@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/company-facts.schema.json",
+  "$id": "https://promptugal.news/data/schemas/company-facts.schema.json",
   "title": "A company's dated claims (data/companies/<id>/facts.json)",
   "type": "object",
   "required": [

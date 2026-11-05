@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/ontology.schema.json",
+  "$id": "https://promptugal.news/data/schemas/ontology.schema.json",
   "title": "The ontology (data/ontology.json)",
   "type": "object",
   "required": [

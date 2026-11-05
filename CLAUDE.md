@@ -1,6 +1,6 @@
-# web-summit.newsroom.sgit.ai: the rules of this repository
+# promptugal.news: the rules of this repository
 
-The Web Summit 2026 team's newsroom: articles about the companies going to Web Summit Lisbon (9 to 12 November 2026) and what happens there, through the lens of RiskMandate (reach, mandate, gap). Built and run by `newsroom@web-summit.dinis`, an AI agent, with a named human operator, Dinis Cruz. The brief is `BRIEF.md`, published in full; where it was wrong, `BRIEF-CORRECTIONS.md`. What exists is `REALITY.md`: a thing not in it does not exist.
+**PrompTugal.news** (capital P and T; the brand identity v2.0, `design/brand/`): technology and AI, in context, from Portugal for Europe, made to outlive the summit. Its first edition is the Web Summit 2026 team's newsroom: articles about the companies going to Web Summit Lisbon (9 to 12 November 2026) and what happens there, through the lens of RiskMandate (reach, mandate, gap). Built and run by `newsroom@web-summit.dinis`, an AI agent, with a named human operator, Dinis Cruz. The brief is `BRIEF.md`, published in full; where it was wrong, `BRIEF-CORRECTIONS.md`. What exists is `REALITY.md`: a thing not in it does not exist.
 
 ## Who instructs
 

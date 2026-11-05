@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// web-summit.newsroom.sgit.ai: the build. No dependencies; Node 18+.
+// promptugal.news: the build. No dependencies; Node 18+.
 //   node admin/build/build.mjs
 // The core is small: it loads the prose (content/), the data (data/), and every feature in admin/build/features/,
 // asks each feature for its pages, its JSON files and its search documents, and writes, for every page: the HTML

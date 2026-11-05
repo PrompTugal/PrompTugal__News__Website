@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/graph.schema.json",
+  "$id": "https://promptugal.news/data/schemas/graph.schema.json",
   "title": "A graph (/api/v1/graph/**.json)",
   "description": "{nodes, edges}: the same node ids and edge objects at every zoom; a view is a subgraph of whole.json.",
   "type": "object",

@@ -22,7 +22,7 @@ const TABS = [['admin/index.html', 'Overview'], ['admin/runs/index.html', 'Runs'
 const ASSETS = { css: ['assets/admin/admin.css'], js: ['assets/admin/admin.js'] }
 const TEAM_BOARD = 'https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/'
 const TEAM_KEYS = 'https://web-summit.sgit.ai/keys/index.html'
-const REPO_URL = 'https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit'
+const REPO_URL = 'https://github.com/PrompTugal/PrompTugal__News__Website'
 const fence = s => '```\n' + s + '\n```'
 const href = (from, to) => /^https?:/.test(to) ? to : (path.posix.relative(path.posix.dirname(from), to.split('#')[0]) || path.posix.basename(to)) + (to.includes('#') ? '#' + to.split('#')[1] : '')
 const agentRel = a => `admin/agents/${a.id}.html`

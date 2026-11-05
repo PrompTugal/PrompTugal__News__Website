@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/billing-topup.schema.json",
+  "$id": "https://promptugal.news/data/schemas/billing-topup.schema.json",
   "title": "The top-up (data/billing/topup.json): the public Stripe Payment Link, its amount and where it returns",
   "type": "object",
   "required": ["amount", "currency", "link", "link_source", "returns_to", "our_return", "verified"],

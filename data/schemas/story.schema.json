@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/story.schema.json",
+  "$id": "https://promptugal.news/data/schemas/story.schema.json",
   "title": "A story candidate (data/stories/<id>/story.json)",
   "description": "From the curator's maps; its angle and notes stay in the desk's file.",
   "type": "object",

@@ -22,6 +22,10 @@ const isExternal = h => /^(https?:|mailto:)/.test(h)
 export const twinOf = rel => rel.replace(/\.html$/, '.md')
 
 // our mark: a square azulejo tile (cobalt, a glazed diamond, four corner quarter-circles); colours from the tokens
+// The masthead is the brand's outlined wordmark (PrompTugal.news identity v2.0, assets/brand/), never the name set in
+// type: light artwork on paper, dark artwork on ink, swapped by the same rules as the colour tokens (assets/tokens.css)
+export const WORDMARK = up => `<img class="wordmark wm-light" src="${up}assets/brand/promptugal-wordmark-light.svg" alt="PrompTugal.news" width="1600" height="261"><img class="wordmark wm-dark" src="${up}assets/brand/promptugal-wordmark-dark.svg" alt="" width="1600" height="261">`
+// the old tile, kept for any page that still asks for it
 export const MARK = '<svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect class="tile" width="32" height="32"/><path class="corner" d="M0 0h7a7 7 0 0 1-7 7zM32 7a7 7 0 0 1-7-7h7zM25 32a7 7 0 0 1 7-7v7zM0 25a7 7 0 0 1 7 7H0z"/><path class="glaze" d="M16 5.5 26.5 16 16 26.5 5.5 16z"/><circle class="dot" cx="16" cy="16" r="3.2"/></svg>'
 // pages that use the full width of the grid (lists, navigators, two columns) rather than the reading column
 const WIDE_TYPES = new Set(['company', 'organisation', 'topic', 'place', 'index'])
@@ -68,7 +72,7 @@ export function htmlPage(page, site) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>${esc(title)}${front ? '' : ` · ${esc(S.name)}`}</title>
+<title>${esc(title)} · ${esc(S.name)}</title>
 <meta name="description" content="${esc(summary || '')}">
 <meta name="page-type" content="${esc(type || 'site')}">
 <meta name="page-date" content="${esc(date || '')}">
@@ -77,7 +81,12 @@ export function htmlPage(page, site) {
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(summary || '')}">
 <meta property="og:site_name" content="${esc(S.name)}">
-<link rel="icon" href="${up}assets/brand/mark.svg" type="image/svg+xml">
+<link rel="icon" href="${up}favicon.ico" sizes="any">
+<link rel="icon" href="${up}assets/brand/favicon.svg" type="image/svg+xml" media="(prefers-color-scheme: light)">
+<link rel="icon" href="${up}assets/brand/favicon-dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="${up}assets/brand/apple-touch-icon.png">
+<meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121317" media="(prefers-color-scheme: dark)">
 <link rel="alternate" type="text/markdown" href="${up}${mdRel}">
 <link rel="stylesheet" href="${up}assets/site.css">${css}
 </head>
@@ -86,7 +95,7 @@ export function htmlPage(page, site) {
 <div class="dateline"><div class="row"><span class="dl-where"><span class="dl-long">${esc(S.place)} · </span><time class="dl-date" datetime="${site.TODAY}"><span class="dl-long">${site.DAY(site.TODAY)} ${y}</span><span class="dl-short">${shortDate}</span></time></span><span class="dl-right"><span class="countdown" data-start="${S.countdown.start}" data-end="${S.countdown.end}" data-day1="${S.countdown.day1}"></span> · <span class="dl-long">Edition </span>${ver}</span>${utility ? `<span class="dl-util">${utility}</span>` : ''}</div></div>
 <header class="mast${front ? '' : ' compact'}">
 ${ears}
-<a class="name" href="${up}index.html" aria-label="${esc(S.name)}, the front page">${MARK}<span class="name-text">${esc(S.name)}</span></a>
+<a class="name" href="${up}index.html" aria-label="${esc(S.name)}, the front page">${WORDMARK(up)}</a>
 <p class="motto">${esc(S.motto)}</p>
 ${endorse}
 </header>
@@ -108,7 +117,7 @@ ${bodyHtml}
 </div>
 <div id="nr-pane" hidden></div>
 <footer><div class="row">
-<div class="foot-brand"><a class="name" href="${up}index.html">${MARK}${esc(S.name)}</a><span>${esc(S.motto)}. ${esc(S.promise)}</span><span class="independence">${esc(S.independence)}</span><span>${esc(E.label)} <a href="${href(E.href)}">${esc(E.name)}</a>. ${esc(S.disclosure)} <a href="${href(S.disclosure_href)}">Read our disclosure</a>.</span></div>
+<div class="foot-brand"><a class="name" href="${up}index.html" aria-label="${esc(S.name)}, the front page">${WORDMARK(up)}</a><span>${esc(S.motto)}. ${esc(S.promise)}</span><span class="independence">${esc(S.independence)}</span><span>${esc(E.label)} <a href="${href(E.href)}">${esc(E.name)}</a>. ${esc(S.disclosure)} <a href="${href(S.disclosure_href)}">Read our disclosure</a>.</span></div>
 <div class="foot-cols">${foot}</div>
 <p class="small">${esc(S.footer_note)}${utility ? ` · ${utility}` : ''} · ${ver}</p>
 </div></footer>

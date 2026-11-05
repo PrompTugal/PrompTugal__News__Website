@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/curation-events.schema.json",
+  "$id": "https://promptugal.news/data/schemas/curation-events.schema.json",
   "title": "Hand-made event rules (data/curation/events.json)",
   "type": "object",
   "required": [

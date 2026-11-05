@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/search-docs.schema.json",
+  "$id": "https://promptugal.news/data/schemas/search-docs.schema.json",
   "title": "Search documents (/api/v1/search-docs.json)",
   "type": "object",
   "required": [

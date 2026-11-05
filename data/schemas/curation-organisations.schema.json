@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/curation-organisations.schema.json",
+  "$id": "https://promptugal.news/data/schemas/curation-organisations.schema.json",
   "title": "Hand-made organisation decisions (data/curation/organisations.json)",
   "type": "object",
   "required": [

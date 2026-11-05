@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/api-index.schema.json",
+  "$id": "https://promptugal.news/data/schemas/api-index.schema.json",
   "title": "A type index (/api/v1/<type>.json)",
   "type": "object",
   "required": [

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/company-edges.schema.json",
+  "$id": "https://promptugal.news/data/schemas/company-edges.schema.json",
   "title": "A company's typed links (data/companies/<id>/edges.json)",
   "description": "Each edge has either a typed target (to) or a URL the build resolves to an event (to_url).",
   "type": "object",

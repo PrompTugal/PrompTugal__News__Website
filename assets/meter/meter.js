@@ -1,4 +1,4 @@
-/* assets/meter/meter.js: the reading meter on every page of web-summit.newsroom.sgit.ai (brief 7).
+/* assets/meter/meter.js: the reading meter on every page of promptugal.news (brief 7).
  *
  * A classic script (the shell loads feature scripts with <script defer>) that:
  *   1. reads the meter's config (api/v1/billing/meter.json, made from data/billing/prices.json and topup.json);

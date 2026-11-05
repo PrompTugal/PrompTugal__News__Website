@@ -1,8 +1,9 @@
-/* PromptUGAL (working name) · design tokens · newsroom-designer@web-summit.dinis, 5 November 2026
+/* PrompTugal.news · design tokens (brand identity v2.0 from 5 November 2026: paper, ink, Portuguese red and green) · newsroom-designer@web-summit.dinis, 5 November 2026
    Every colour, face, size and space the site uses lives here, and nowhere else. Light is the default,
    dark follows the reader's system; [data-theme] on <html> forces either (the mockups use it for screenshots).
-   Our colours are paper, ink and azulejo cobalt. They are chosen to be far from Web Summit's own palette
-   (magenta, teal, purple on a dark navy gradient) and from RiskMandate's green: we use neither. */
+   Our colours are paper and ink, with the name's own red and green (the brand guide, design/brand/): they mark the
+   name and little else. Before 5 November the accent was azulejo cobalt.
+   */
 
 :root {
     color-scheme: light dark;
@@ -18,10 +19,13 @@
     --rule-2: #9d9580;       /* the mid rule: nav, cards */
     --hair: #d9d2c1;         /* hairlines between list items */
 
-    /* the brand: azulejo cobalt, the blue of Lisbon's tiles */
-    --brand: #1b4597;        /* links, the mark, selected states (8.0:1 on paper) */
-    --brand-2: #10306d;      /* hover, pressed */
-    --brand-soft: #e3e9f5;   /* tint behind a selected chip or "our pick" */
+    /* the brand (PrompTugal.news identity v2.0): colour belongs to the name. Red marks the T, green marks "ugal" and
+       the stamp's rule; everything else is paper and ink. Links and selected states take the green (6.5:1 on paper) */
+    --brand-red: #c52830;    /* the T (5.1:1 on paper) */
+    --brand-green: #006600;  /* ugal, the stamp's rule */
+    --brand: #006600;        /* links, selected states */
+    --brand-2: #004d00;      /* hover, pressed */
+    --brand-soft: #e2eedf;   /* tint behind a selected chip or "our pick" */
     --on-brand: #ffffff;
 
     /* signals, used sparingly and never alone (always with a word) */
@@ -78,7 +82,7 @@
         --paper: #111214; --paper-2: #1a1b1e; --panel: #1e1f23;
         --ink: #eceae4; --ink-2: #c3c0b7; --ink-3: #a6a39a;
         --rule: #eceae4; --rule-2: #5f5b51; --hair: #2e2f34;
-        --brand: #93b1ff; --brand-2: #bccfff; --brand-soft: #1a2440; --on-brand: #0b1530;
+        --brand-red: #f07278; --brand-green: #6dbb7e; --brand: #6dbb7e; --brand-2: #9bd3a7; --brand-soft: #16281c; --on-brand: #0b1a0e;
         --live: #ff8f7d; --live-soft: #3a1b16;
         --ok: #84cf9c; --ok-soft: #16281c;
         --warn: #e9b55e; --warn-soft: #2f2412;
@@ -91,7 +95,7 @@
     --paper: #111214; --paper-2: #1a1b1e; --panel: #1e1f23;
     --ink: #eceae4; --ink-2: #c3c0b7; --ink-3: #a6a39a;
     --rule: #eceae4; --rule-2: #5f5b51; --hair: #2e2f34;
-    --brand: #93b1ff; --brand-2: #bccfff; --brand-soft: #1a2440; --on-brand: #0b1530;
+    --brand-red: #f07278; --brand-green: #6dbb7e; --brand: #6dbb7e; --brand-2: #9bd3a7; --brand-soft: #16281c; --on-brand: #0b1a0e;
     --live: #ff8f7d; --live-soft: #3a1b16;
     --ok: #84cf9c; --ok-soft: #16281c;
     --warn: #e9b55e; --warn-soft: #2f2412;

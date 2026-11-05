@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/admin-status.schema.json",
+  "$id": "https://promptugal.news/data/schemas/admin-status.schema.json",
   "title": "The control centre as JSON (/api/v1/admin/status.json): runs, agents, the pipeline and the plan",
   "type": "object",
   "required": [

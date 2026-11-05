@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/company-sources.schema.json",
+  "$id": "https://promptugal.news/data/schemas/company-sources.schema.json",
   "title": "A company's sources (data/companies/<id>/sources.json)",
   "type": "object",
   "required": [
