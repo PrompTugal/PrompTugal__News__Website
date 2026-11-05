@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.9",
+    "date": "2026-11-05",
+    "what": "the article re-signed for this release",
+    "by": "newsroom@web-summit.dinis",
+    "from": "9524d6e3e"
+  },
+  {
     "version": "v0.1.8",
     "date": "2026-11-05",
     "what": "a design for an independent newsroom at Web Summit Lisbon",
