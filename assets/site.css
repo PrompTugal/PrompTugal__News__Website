@@ -70,6 +70,9 @@ blockquote { margin: 18px 0; padding: 2px 18px; border-left: 3px solid var(--acc
 code { font: 0.82em var(--mono); background: var(--paper-sunk); padding: 1px 4px; border-radius: 3px; overflow-wrap: anywhere; }
 pre { background: var(--paper-sunk); padding: 12px 14px; overflow-x: auto; }
 pre code { background: none; padding: 0; overflow-wrap: normal; }
+/* plain-text pictures keep their shape: 64 columns always fit, so the font shrinks on a phone instead of the lines wrapping */
+.body pre { line-height: 1.3; }
+.body pre code { font-size: clamp(8px, calc((100vw - 76px) / 38.6), 14.76px); }
 .table { overflow-x: auto; margin: 18px 0; }
 table { border-collapse: collapse; width: 100%; font-size: 16px; }
 th, td { border-bottom: 1px solid var(--hair); padding: 8px 10px 8px 0; text-align: left; vertical-align: top; }
