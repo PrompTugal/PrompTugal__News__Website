@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.10",
+    "date": "2026-11-05",
+    "what": "the article re-signed for this release",
+    "by": "newsroom@web-summit.dinis",
+    "from": "448710b76"
+  },
+  {
     "version": "v0.1.9",
     "date": "2026-11-05",
     "what": "the article re-signed for this release",
