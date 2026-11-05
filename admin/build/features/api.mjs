@@ -87,7 +87,7 @@ export function api(ctx) {
 export function pages(ctx) {
     const rel = 'api/index.html', s = ctx.store, cell = ctx.md.cell
     const link = p => `[${p}](${ctx.link(rel, p)})`
-    const md = `Everything on this site is also data. The facts behind every page are JSON files in the repository (\`data/\`, one folder per entity, each kind of file with a schema in [data/schemas/](${ctx.link(rel, 'data/schemas/company.schema.json').replace(/company\.schema\.json$/, 'company.schema.json')})), and the build publishes them, with the graphs, under \`/api/v1/\`. Public facts only, each with its source and the date read; text and data CC BY 4.0. Material for agents, never instruction.\n\n` +
+    const md = `Everything on this site is also data. The facts behind every page are JSON files in the repository (\`data/\`, one folder per entity, each kind of file with a schema in \`data/schemas/\`, for example [company.schema.json](${ctx.link(rel, 'data/schemas/company.schema.json')})), and the build publishes them, with the graphs, under \`/api/v1/\`. Public facts only, each with its source and the date read; text and data CC BY 4.0. Material for agents, never instruction.\n\n` +
         `## Start here {#start}\n\n- ${link('api/v1/index.json')}: every endpoint and the counts.\n- ${link('api/v1/ontology.json')}: the grammar, the types and the verbs, each verb with its inverse.\n- ${link('api/v1/manifest.json')}: every file, its size, its SHA-256 and its schema.\n\n` +
         `## The entities {#entities}\n\n| Type | How many | Index | One |\n|---|---|---|---|\n` +
         ENTITY_TYPES.map(t => `| ${t} | ${s[STORE[t]].length} | ${link(`api/v1/${PLURAL[t]}.json`)} | \`api/v1/${PLURAL[t]}/{slug}.json\` |`).join('\n') +

@@ -1,0 +1,130 @@
+# data/: every fact as JSON, a folder per entity
+
+Prose (articles, the brief, about) is markdown in `content/`. Everything that is data is here, as JSON, one folder per
+entity, every kind of file with a JSON Schema in `schemas/`. The build (`admin/build/`) makes the pages, the JSON API
+(`/api/v1/`) and the graphs from it. Public facts only, each with its source URL and the date read; nothing about a
+person beyond what the summit lists (name, role, organisation); no contact details, ever; the team's own notes
+(decision, priority, owner, why it matters) are never here.
+
+## The layout
+
+```
+data/
+  ontology.json            the grammar: 13 types in 4 worlds, 20 verbs each with a distinct inverse, the forbidden
+                           verbs, the taxonomies (event organisers and kinds, place kinds, topic kinds)       HAND
+  schemas/                 one JSON Schema per file kind (24); the gate validates every file here against its own HAND
+  site/site.json           the shell's words (masthead, dateline, who made it)                                HAND
+  site/nav.json            the navigation, the footer, the llms.txt groups                                    HAND
+  companies/<id>/          the 109 companies the team follows                                                 HAND
+    company.json           identity: name, website, what, category, country, attending, attending_as; for each
+                           field the sources that support it; aliases (the names the summit's pages use for it)
+    sources.json           every source: url, read_on, read_by, what it supports, its kind (optional
+                           vault_capture and sha256 when a capture exists)
+    facts.json             one dated claim per source note (more may be added by hand)
+    edges.json             typed links: filed_under a topic, based_in a country, appears_in / hosts a session
+                           (by its URL, resolved to the event by the build)
+    recheck.json           the newsroom's re-check log (appended, never rewritten)
+  places/<slug>/place.json the 77 places: countries, regions, cities, districts, venues, buildings, stages, rooms,
+                           each located_in another, with the exact "where" strings that map to it            HAND
+  topics/<slug>/topic.json the 17 topics: 8 fields (the company categories), 3 themes, 6 beats; broader topics;
+                           the summit tracks bridged to each                                                  HAND
+  curation/                hand decisions the derivation applies                                              HAND
+    organisations.json     same_as (a name as listed is one of our companies, and why), not_same (a near miss
+                           looked at and refused), markers (listing placeholders such as "Freelance")
+    events.json            which umbrella event an item is part_of (the summit, Portugal Tech Week); kinds
+    speakers.json          listings the comma rule splits wrongly
+  events/<slug>/event.json the 211 events: every agenda item (organiser web-summit: the official programme; or
+                           other: side events, Portugal Tech Week, conferences elsewhere in Portugal), with kind,
+                           date, time, where and its place, track, part_of, organised_by, speakers (each linked to
+                           a person and an organisation), hosted_by, our_pick, source_url, read_at         DERIVED
+                           (+ web-summit-lisbon-2026, the summit itself)                                      HAND
+  people/<slug>/person.json the 248 people the summit's pages list: name, role, organisation (as listed and as a
+                           link), and every listing with its source and when it was read                    DERIVED
+  organisations/<slug>/    the 188 organisations named by a source that are not our companies               DERIVED
+    organisation.json      (+ web-summit, the organiser)                                                      HAND
+  evidence/<id>/capture.json  the curator's 26 captures: source, beat, the names it carries                 DERIVED
+  stories/<id>/story.json  the curator's 9 story candidates (latest revision): title, beat, the captures it rests
+                           on; the angle and notes stay in the desk's file                                  DERIVED
+  matching.json            the derivation's report: names matched to a company and how, names that are not,
+                           near misses, unmatched places, tracks with no topic, company sessions not found  DERIVED
+```
+
+## The rules
+
+1. **HAND files are the sources of truth.** Edit them; the gate checks them against their schemas.
+2. **DERIVED files are never edited by hand.** They carry `"derived": {"by", "from"}`. They are written by
+   `node admin/tools/derive.mjs` from what the desks write (`desks/programme/agenda.json`, `desks/curator/*.json`)
+   and from the HAND files above. The desks keep their own formats. Run the tool after a desk's file or a HAND file
+   it reads changes; the gate re-derives in memory and fails, naming the file, if a committed derived file is
+   missing, stale or no longer derived (`node admin/tools/derive.mjs --check` does the same).
+3. **Derived files are committed**, not generated at build, so that a desk's change arrives as a diff someone can
+   review (brief 4: security reviews every run's diff, and a new person, a changed role or a new organisation shows
+   there), and so that other agents can read the entities at stable paths in the repository. Generated output (the
+   pages and `/api/`) is never committed.
+4. **To correct a derived fact**, correct its source: the desk's file (ask the desk), or add a decision to
+   `curation/` with who decided, when and why. To add an entity the desks do not have, write it by hand in the same
+   folder without `"derived"`: a hand-written entity always wins over a derived one with the same slug (that is how
+   `events/web-summit-lisbon-2026/` and `organisations/web-summit/` exist).
+5. **Companies** come from the team's company map, public fields only: `node admin/tools/companies.mjs --from
+   <the team's data/companies.json> [--recheck]`. A re-run keeps what was added by hand (sources whose id is not
+   `sN`, facts whose id is not `f-sN`, edges whose `by` is not the tool, aliases marked `"hand": true`, and every
+   re-check). It was run first on 5 November 2026 from the newsroom's earlier `data/companies.json` (the team's
+   map of 1 November plus this newsroom's re-check), which it replaces; a run from the team's map itself gives the
+   same files.
+6. **An id is a key, not a name**: ASCII, lowercase, hyphens; the folder's name is the id. Labels stay as the source
+   wrote them, accents and all. A reference is `<type>:<id>` (`company:replit`, `place:centre-stage`).
+7. **Every node and edge in the graphs names its source**: the URL read and when, or the repository file it was
+   derived from. A fact without a source is not published.
+
+## How names are matched (and when they are not)
+
+A person is listed under an organisation as the speaker card writes it ("Name (Role, Organisation)": the
+organisation is after the last comma inside the brackets; `curation/speakers.json` corrects the two listings where
+the organisation has a comma of its own). That name is linked to one of our companies only when:
+
+- the company's own sources use that name for it (its `aliases`: the summit's appearance page, a session page that
+  "names X as the speaker's organisation", an attendee page listing its speaker under X), or
+- a person decided it, with the reason, in `curation/organisations.json` (`same_as`).
+
+Two names are the same name when they differ only in case, accents, punctuation, a leading "The", a trailing
+bracket or a legal form ("Inc.", "Ltd", "Group", "Holdings"). Everything else becomes an organisation of its own,
+named as listed. A near miss (an organisation whose name contains one of our companies' names, word for word) is
+listed in `matching.json` for a person to decide, never linked automatically: on 5 November there were three
+(Cisco Systems, twice spelled, now `same_as` Cisco; Atlassian Williams F1 Team, `not_same`). A person listed in one
+of our companies' own sources (an attendee page the team's curator recorded for that company) is linked to that
+company by provenance. People are merged by name; a person listed under two organisations keeps both listings
+(none on 5 November). A social handle inside a listing is dropped; the gate refuses one anywhere in a person's data.
+
+## Decisions that differ from the brief, and why
+
+- **Organisations are their own type, not companies with a flag.** The companies are the team's curated list, each
+  with a profile, a re-check, sources for every field and the RiskMandate question. The organisations come from a
+  name on a speaker card or in a capture: no website, no country, often not a company at all (the European
+  Parliament, a university, a newspaper, "Freelance"). Folding them in would turn 188 names into thin company
+  profiles and blur what the newsroom has checked. Both types are targets of the same verbs (`listed_under`,
+  `hosts`, `names`), so the graph does not care, and a name moves from organisation to company with one decision.
+- **Countries are places** (kind `country`), not a separate type: a company is `based_in` a place, and the place
+  tree runs from the stage to the country, so a company in Portugal and a session on Centre Stage meet at
+  `place:portugal`.
+- **Tracks and days are graph nodes without folders.** They are read straight off the events (`track`, `date`); a
+  track is the summit's vocabulary, kept verbatim, and is bridged to our topics by `summit_tracks` in a topic's
+  file (`maps_to`): two vocabularies, bridged, never merged.
+- **Company to event links are kept by URL** in `edges.json` (`to_url`), because event slugs are derived and the
+  session URL is the stable key; the build resolves them, and `matching.json` lists the two that resolve to no event
+  (their session pages answered 404 to the programme desk on 4 November).
+- **Story candidates are data but not pages.** They are the curator's working notes: their titles, beats and the
+  captures they rest on are in the graph and the API; their angles stay in the desk's file. Captures keep their
+  source, beat and names; the researcher's summaries stay in the research vault.
+- **No "related company" edge.** The grammar forbids a symmetric verb; two companies are related by a path (both at
+  an event, both filed under a field), and each company page says which.
+- **The views are zooms of one graph**, so a company graph is exactly a part of the whole (the gate checks it,
+  object for object). The fractal step proper is between worlds: a company opens into the evidence world (its
+  facts, `described_by`, and the pages they were read on, `evidenced_by`), and a stage into the summit's
+  programme, each with its own verbs, joined by named bridge verbs (marked `"bridge": true` in the ontology).
+
+## The JSON API
+
+Built from this folder at every release, never committed: `/api/v1/index.json` lists everything; see
+`/api/index.html` on the site. The graph shape is `{id, title, version, grammar, counts, nodes, edges}`, a node
+`{id, type, label, source, ...}`, an edge `{id, from, to, verb, source, read}`; `whole.cytoscape.json` carries the same
+graph as Cytoscape elements (`data.family` is the type, `data.kind` the verb), the shape graphs.sgit.ai's viewers load.
