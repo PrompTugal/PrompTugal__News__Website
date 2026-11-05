@@ -1,0 +1,15 @@
+/* ask.css: the Ask buttons, on every page. A FALLBACK copy of design/site.css's .ask and .ask-fab in :where() (no
+   specificity): the designer's stylesheet wins when it is in the page. The pane's styles load with the pane. */
+:where(.ask) { background: var(--ink); color: var(--paper); border-color: var(--ink); display: none; }
+:where(.ask:hover) { background: var(--brand); border-color: var(--brand); color: var(--on-brand); }
+:where(.ask-fab) { position: fixed; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom)); z-index: 30; display: inline-flex; align-items: center; gap: 8px; height: 48px; padding: 0 18px 0 14px; border: 0; border-radius: var(--radius-pill); background: var(--ink); color: var(--paper); font: 600 15px/1 var(--sans); box-shadow: var(--shadow); text-decoration: none; cursor: pointer; }
+:where(.ask-fab svg) { width: 20px; height: 20px; }
+:where(body.chat-open .ask-fab) { display: none; }
+@media (min-width: 768px) {
+    :where(.ask-fab) { display: none; }
+    :where(.ask) { display: inline-flex; }
+}
+.nr-ask[data-err] { opacity: .6; }
+a:where(.ask) { color: var(--paper); text-decoration: none; }
+a:where(.ask-fab) { color: var(--paper); }
+a:where(.ask):hover { color: var(--on-brand); }

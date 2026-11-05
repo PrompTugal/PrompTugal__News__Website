@@ -79,6 +79,11 @@
   "footer": [
     {
       "column": "Find",
+      "label": "Search",
+      "href": "search/index.html"
+    },
+    {
+      "column": "Find",
       "label": "Events, by day",
       "href": "events/index.html"
     },

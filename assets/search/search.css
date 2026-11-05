@@ -1,0 +1,44 @@
+/* search.css: the floating search box behind the Search button, and the search page's own bits.
+   The .search / .search-pop / .sp-* / .results / .res rules are a FALLBACK copy of design/site.css in :where() (no
+   specificity), so the designer's stylesheet wins when it is in the page. */
+
+/* the box that opens under the top bar (ours) */
+.nr-search-float { position: fixed; z-index: 35; left: 0; right: 0; top: 0; padding: 10px var(--gutter, 16px) 12px; background: var(--paper); border-bottom: 1px solid var(--rule-2); box-shadow: var(--shadow); }
+.nr-search-float[hidden] { display: none; }
+.nr-search-float .search { max-width: 720px; margin: 0 auto; }
+.nr-search-float .search-pop { max-height: min(70vh, 560px); }
+@media (min-width: 768px) { .nr-search-float { left: auto; right: max(16px, calc((100vw - 1200px) / 2)); width: 560px; border: 1px solid var(--ink); border-top: 0; } }
+.sp-none { margin: 0; padding: 8px 14px; font: 400 14px/1.4 var(--sans); color: var(--ink-3); }
+.nr-search-status { font: 400 13px/1.4 var(--sans); color: var(--ink-3); margin: 0 0 6px; }
+.nr-facets { margin: 0 0 8px; }
+.nr-facets .filters { padding: 5px 0; margin: 0; }
+.nr-tips a { margin-right: 2px; }
+.nr-more { margin: 16px 0; }
+
+/* ---- fallback: the designer's search components ---- */
+:where(.search) { position: relative; display: flex; gap: 0; margin: 0 0 14px; }
+:where(.search input) { flex: 1; min-width: 0; height: 46px; padding: 0 12px 0 42px; border: 2px solid var(--ink); border-right: 0; border-radius: var(--radius) 0 0 var(--radius); background: var(--panel); color: var(--ink); font: 400 16.5px/1 var(--sans); }
+:where(.search .s-icon) { position: absolute; left: 14px; top: 14px; width: 18px; height: 18px; color: var(--ink-3); pointer-events: none; }
+:where(.search button) { flex: none; height: 46px; padding: 0 16px; border: 2px solid var(--ink); border-radius: 0 var(--radius) var(--radius) 0; background: var(--ink); color: var(--paper); font: 600 15px/1 var(--sans); cursor: pointer; }
+:where(.search-pop) { position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 25; background: var(--panel); border: 1px solid var(--ink); box-shadow: var(--shadow); padding: 6px 0; max-height: 70vh; overflow-y: auto; }
+:where(.search-pop[hidden]) { display: none; }
+:where(.sp-group) { padding: 6px 0 2px; }
+:where(.sp-group h4) { margin: 0; padding: 4px 14px; font: 700 10.5px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .09em; color: var(--ink-3); }
+:where(.sp-item) { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1px 10px; padding: 8px 14px; color: var(--ink); text-decoration: none; }
+:where(.sp-item[aria-selected="true"]), :where(.sp-item:hover) { background: var(--brand-soft); color: var(--ink); }
+:where(.sp-item .t1) { font: 600 15.5px/1.3 var(--serif); }
+:where(.sp-item .t1 mark) { background: none; color: var(--brand); text-decoration: underline; text-underline-offset: 2px; }
+:where(.sp-item .t2) { grid-column: 1; font: 400 12.5px/1.35 var(--sans); color: var(--ink-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+:where(.sp-item .k) { grid-row: 1 / span 2; grid-column: 2; align-self: center; }
+:where(.sp-foot) { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 10px; padding: 8px 14px 4px; border-top: 1px solid var(--hair); margin-top: 4px; font: 400 12.5px/1.4 var(--sans); color: var(--ink-3); }
+:where(.sp-foot kbd) { font: 500 11px/1 var(--mono); border: 1px solid var(--hair); border-radius: 3px; padding: 2px 5px; }
+:where(.results) { margin: 0; padding: 0; list-style: none; }
+:where(.res) { border-top: 1px solid var(--hair); padding: 13px 0; }
+:where(.res .r-kind) { font: 700 10.5px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+:where(.res .r-title) { display: inline-block; margin-top: 2px; font: 600 18px/1.3 var(--serif); color: var(--ink); text-decoration: none; }
+:where(.res .r-title:hover) { color: var(--brand); text-decoration: underline; }
+:where(.res .r-snip) { margin: 4px 0 0; font-size: 15.5px; line-height: 1.45; color: var(--ink-2); }
+:where(.res mark) { background: var(--brand-soft); color: var(--ink); padding: 0 2px; }
+:where(.res .r-meta) { margin: 4px 0 0; font: 400 12.5px/1.4 var(--sans); color: var(--ink-3); }
+a:where(.sp-item), a:where(.res .r-title) { color: var(--ink); text-decoration: none; }
+.nr-facets .chip[aria-pressed="true"]:hover { color: var(--paper); }   /* a pressed chip keeps its label under the pointer */

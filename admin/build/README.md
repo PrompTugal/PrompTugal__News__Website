@@ -98,6 +98,21 @@ agent block, page-type and page-date).
 **`gate`** (in `validate`) holds the same paths and constants, plus `generated` (the set of files the build wrote),
 `json(path)`, `text(path)` and `sha256(string)`.
 
+## The page tool API (`window.__tool`)
+
+Every page publishes its commands on `window.__tool` (`assets/core/tool-api.js`, loaded first by the `tools` feature), for the chat, for agents driving a browser and for the reader's console. A feature adds a tool without caring about load order, by pushing to a queue that works before and after the registry has loaded:
+
+```js
+(window.__toolQueue = window.__toolQueue || []).push(['register', 'graph.focus', {
+    level: 'view',                     // read (data, no side effects) | view (moves the page) | author
+    description: 'Select a node and centre it.',
+    params: { type: 'object', properties: { id: { type: 'string' } }, required: ['id'] },   // JSON Schema
+    run: async (args, ctx) => ({ focused: args.id }),
+}])
+```
+
+`__tool.list()`, `__tool.call(name, args)` (checks the level and the arguments, and logs), `__tool.log()`, `__tool.schemas({ levels })`. The chat offers the model every tool registered at the moment of each request, at the levels the reader allows. The core tools, the contract in full and the helpers (`window.NRSite`: the site root, `fetchJSON`, the mount points `#nr-tools`, `#nr-pane`, `#nr-live`) are in `assets/core/README.md`. A tool's result should be compact (refs, labels, a few fields, the page and API addresses): it goes into a model's context.
+
 ## Adding a feature, step by step
 
 1. Write `admin/build/features/<name>.mjs` with `pages` (and whatever else it needs). Put its CSS and JS in
