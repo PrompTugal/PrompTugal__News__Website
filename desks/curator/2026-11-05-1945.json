@@ -1,0 +1,131 @@
+{
+  "desk": "curator",
+  "agent": "curator@web-summit.vicky",
+  "run": "2026-11-05T19:45Z",
+  "for": "the journalist (Indi's side), via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9 (pack mode), read with its READ key as listed in people/vicky/vaults.json on the team's site; pulled 5 November 2026 at 19:46 UTC to the researcher's commit 74c72dd8aaf8 (19:30 run)",
+    "captures_in_vault": 30,
+    "new_mapped_here": 2,
+    "already_mapped": "28, in desks/curator/2026-11-04-1945.json, 2026-11-04-1955.json, 2026-11-05-0745.json and 2026-11-05-1145.json (the researcher's 15:30 run added nothing)",
+    "researcher_report": "people/vicky/reports/researcher.md, Thu 5 Nov 19:30 UTC run"
+  },
+  "rules": "Every fact here is from a capture, as the researcher wrote it; the curator added none, checked none and rewrote no source (checking is the fact-checker's job). Public material only; no contact details; no person is named.",
+  "captures": [
+    {
+      "id": "v-carris-web-summit-shuttle",
+      "file": "vault 41j3e9s9, captures/2026-11-05-carris-web-summit-shuttle.md",
+      "source_url": "https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/",
+      "beat": "summit",
+      "names": [
+        "Carris",
+        "Metropolitano de Lisboa",
+        "CP",
+        "Web Summit"
+      ],
+      "what_is_new": "Carris runs a dedicated Shuttle Web Summit, both ways, between Estação Sul e Sueste (Praça do Comércio) and Estação do Oriente, from Monday to 12 November, plus its regular lines to Parque das Nações and from the airport. With Metro and CP it offers the Web Summit Transport Pass (3 or 5 days), which Carris says can be bought in person from Saturday at the Web Summit Welcome Center or at Lisbon airport.",
+      "is_story": "yes, as part of S1 (the participant guide)",
+      "group": "G1 participant guide"
+    },
+    {
+      "id": "v-ey-web-summit-economic-impact",
+      "file": "vault 41j3e9s9, captures/2026-11-05-ey-web-summit-economic-impact.md",
+      "source_url": "https://executivedigest.sapo.pt/web-summit-evento-gera-25-mil-me-para-a-economia-portuguesa-em-10-anos/",
+      "beat": "portugal",
+      "names": [
+        "EY",
+        "Web Summit"
+      ],
+      "what_is_new": "An EY report (released 5 November, as reported) puts Web Summit's contribution to Portugal's economy at about 250 million euros a year, nearly 2.5 billion over ten editions; more than 230 million a year net of hosting costs; 683,000+ participants over ten editions spending 730 million euros; more than 3,000 full-time jobs supported; Portuguese startups up 132%, from 2,193 in 2016 to 5,091 in 2025, employing the equivalent of 28,000 full-time workers; the 191 startups of the 2024 programme raised 607.5 million euros together. About 70,000 visitors expected this year.",
+      "is_story": "yes, a story of its own (S13); its 70,000 also feeds S5",
+      "group": "G12 what Web Summit brings Portugal"
+    }
+  ],
+  "groups": {
+    "G1 participant guide": [
+      "r1255-01",
+      "r1255-02",
+      "r1255-03",
+      "r1255-04",
+      "r1255-05",
+      "r1255-08",
+      "v-metro-web-summit-transport-pass",
+      "v-metro-web-summit-service",
+      "v-carris-web-summit-shuttle"
+    ],
+    "G12 what Web Summit brings Portugal": [
+      "v-ey-web-summit-economic-impact"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "captures": [
+        "v-carris-web-summit-shuttle",
+        "v-metro-web-summit-transport-pass",
+        "v-metro-web-summit-service"
+      ],
+      "verdict": "kept, grouped",
+      "why": "Three sources on the same pass; the Carris one adds the shuttle and a second sales point. Their differences are listed for the fact-checker."
+    },
+    {
+      "captures": [],
+      "verdict": "no noise dropped",
+      "why": "Both new captures are public, sourced and new. The researcher itself left out stories about the event's future in Lisbon after 2028 and about protests, as outside the positive line, and a different count of Brazilian startups (its report); the curator has no capture of them and maps nothing for them."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "about": "where the transport pass is sold",
+      "captures": [
+        "v-carris-web-summit-shuttle",
+        "v-metro-web-summit-transport-pass",
+        "v-metro-web-summit-service"
+      ],
+      "what": "Carris (via Executive Digest, 5 November) names the Web Summit Welcome Center as well as the airport; Metro's page and Executive Digest of 4 November name only the airport. S1 should say 'at Lisbon airport' only, until checked."
+    },
+    {
+      "about": "bus lines",
+      "captures": [
+        "v-carris-web-summit-shuttle",
+        "r1255-03"
+      ],
+      "what": "The Carris lines in this capture differ in part from those on websummit.com/essentials/the-city/. S1 should name the shuttle and leave line numbers out until checked."
+    },
+    {
+      "about": "the EY figures",
+      "captures": [
+        "v-ey-web-summit-economic-impact"
+      ],
+      "what": "All figures are Executive Digest's account of the EY report; the report itself was not read. Attribute them to EY, as reported; the researcher could capture the report itself (gap)."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S13",
+      "title": "Web Summit's ten Lisbon years: 2.5 billion euros, says EY",
+      "beat": "portugal",
+      "angle": "What a decade of Web Summit has meant for Portugal: about 250 million euros a year for the economy, more than 3,000 jobs supported, and Portuguese startups more than doubling, from 2,193 in 2016 to 5,091 in 2025, all as EY's report is reported.",
+      "rests_on": [
+        "v-ey-web-summit-economic-impact"
+      ],
+      "note": "Attribute every number to EY's report as reported by Executive Digest. Do not say the summit caused the startups' growth; the capture gives the two side by side.",
+      "words": 10
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S1",
+      "change": "Now also rests on v-carris-web-summit-shuttle: the Shuttle Web Summit between Praça do Comércio and Oriente. Keep the pass's sales point to the airport, and leave bus line numbers out, until the fact-checker settles them."
+    },
+    {
+      "candidate": "S5",
+      "change": "Can add, attributed, the EY figure of 683,000+ participants over ten editions; Executive Digest's report also gives about 70,000 expected this year."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "EY's report itself (the economic impact of Web Summit's ten editions), from EY's or Web Summit's own page, so the figures rest on the report and not only on a news account.",
+    "Where the transport pass is sold (the Welcome Center or the airport only), and which Carris lines serve the venue, from Carris's own page.",
+    "Still open: Portugal's own stand or delegation, a Portuguese government announcement, this year's Road 2 Web Summit cohort, the one-day pass, Técnico's six spin-offs, UniVerse's nine universities, the Italy and Portugal event's panels, the rest of the speakers lineup, the team's companies, and who links to the newsroom."
+  ],
+  "urgent": null
+}

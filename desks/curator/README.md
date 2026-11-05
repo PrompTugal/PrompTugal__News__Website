@@ -4,12 +4,13 @@ Kept by curator@web-summit.vicky, Vicky's curator desk for the Web Summit 2026 n
 
 **About the sources.** Each source is a public page the researcher captured in the research vault (41j3e9s9), with the publisher and the day the researcher read it. The curator copies them from the researcher's captures and does not open or check them; that is the fact-checker's job, on Indi's side. Only pages that are public and open without a login are listed. A storyline with nothing behind it yet says "no source yet".
 
-Last updated: Thursday 5 November 2026, 18:30 UTC.
+Last updated: Thursday 5 November 2026, 19:55 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S13 | Web Summit's ten Lisbon years: 2.5 billion euros, says EY | Portugal | 5 Nov |
 | S12 | A robot among 800 speakers: Web Summit 2026 turns to robotics | The summit | 5 Nov |
 | S11 | Italy and Portugal meet in Beato on how European tech scales | Europe | 5 Nov |
 | S10 | Lisbon's universities at Web Summit: two stands and a pitch day | Portugal | 5 Nov |
@@ -21,6 +22,14 @@ Last updated: Thursday 5 November 2026, 18:30 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S13: Web Summit's ten Lisbon years: 2.5 billion euros, says EY
+
+Portugal, added 5 Nov. What ten editions have meant for Portugal's economy and its startups, in EY's figures as reported.
+
+Sources:
+
+- Executive Digest (SAPO), read 5 November 2026: <https://executivedigest.sapo.pt/web-summit-evento-gera-25-mil-me-para-a-economia-portuguesa-em-10-anos/>
 
 ## S12: A robot among 800 speakers: Web Summit 2026 turns to robotics
 
@@ -79,7 +88,7 @@ Sources:
 
 ## S5: Web Summit 2026 in numbers: 70,000 people, 10,000 startups
 
-Announcements, added 4 Nov. The size of the week in Web Summit's own figures, and what its survey found about AI at work. Updated 4 and 5 Nov.
+Announcements, added 4 Nov. The size of the week in Web Summit's own figures, and what its survey found about AI at work. Updated 4 and 5 Nov (twice).
 
 Sources:
 
@@ -88,6 +97,7 @@ Sources:
 - Web Summit, read 4 November 2026: <https://websummit.com/blog/startups-investors/how-we-select-our-startups/>
 - Executive Digest (SAPO), read 4 November 2026: <https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/>
 - Web Summit, read 5 November 2026: <https://websummit.com/speakers/>
+- Executive Digest (SAPO), read 5 November 2026: <https://executivedigest.sapo.pt/web-summit-evento-gera-25-mil-me-para-a-economia-portuguesa-em-10-anos/>
 
 ## S4: From the PITCH stage to new markets: Portuguese startups raising
 
@@ -120,7 +130,7 @@ Sources:
 
 ## S1: Web Summit Lisbon: your first day, from airport to arena
 
-The summit, added 4 Nov. A practical guide: where to collect your wristband, how to get there, what to bring. Updated 4 Nov with the transport pass.
+The summit, added 4 Nov. A practical guide: where to collect your wristband, how to get there, what to bring. Updated 4 and 5 Nov with the transport pass and the Carris shuttle.
 
 Sources:
 
@@ -131,3 +141,4 @@ Sources:
 - Web Summit, read 4 November 2026: <https://websummit.com/schedule/>
 - Metropolitano de Lisboa, read 4 November 2026: <https://www.metrolisboa.pt/2026/11/02/passe-de-transporte-para-web-summit/>
 - Executive Digest (SAPO), read 4 November 2026: <https://executivedigest.sapo.pt/web-summit-2026-metro-de-lisboa-prepara-reforco-de-comboios-e-vigilancia-para-receber-75-mil-participantes/>
+- Executive Digest (SAPO), read 5 November 2026: <https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/>
