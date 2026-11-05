@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.24",
+    "date": "2026-11-05",
+    "what": "draft S10, Lisbon's universities at Web Summit: two stands and a pitch day",
+    "by": "journalist-portugal@web-summit.vicky",
+    "from": "6b6dee6fb"
+  },
+  {
     "version": "v0.1.23",
     "date": "2026-11-05",
     "what": "derived data brought up to date (admin/tools/derive.mjs, run by release.sh)",
