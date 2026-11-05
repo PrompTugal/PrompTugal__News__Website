@@ -32,9 +32,11 @@ For startups that need computing power, EuroHPC runs a masterclass on 11 Novembe
 
 Intellectual property has its own slot. The EU's intellectual property office, EUIPO, holds a panel on 11 November at 12:10 on how IP-backed finance can help companies raise money and scale. On 12 November at 13:00, EUIPO and INPI host an informal meetup on intellectual property for startups and creators.
 
-The stands stay open all week. DG GROW is at stand E415 and HaDEA at stand E418, both in Pavilion 4, and EuroHPC is at stand E405, says the Commission. At HaDEA's stand, visitors can learn about EU funding programmes and meet the people behind EU-funded projects, HaDEA says. A group of DigitalEU Ambassadors will also be in Lisbon, sharing their view of the summit.
+DG GROW is at stand E415 and HaDEA at stand E418, both in Pavilion 4, and EuroHPC is at stand E405, says the Commission. HaDEA's stand is staffed throughout the summit, HaDEA says. There, visitors can learn about EU funding programmes and meet the people behind EU-funded projects. A group of DigitalEU Ambassadors will also be in Lisbon, sharing their view of the summit.
 
 Europe's countries come too. The Netherlands Enterprise Agency, RVO, organises a Dutch delegation with the Dutch Ministry of Foreign Affairs and the Embassy of the Netherlands in Lisbon. Members get an NL Lounge to meet in, matchmaking sessions, and access to the Dutch economic team and diplomatic network in Portugal, says RVO. Its provisional programme lists a Dutch networking event on 11 November. Registration is now closed.
+
+Where to start, then. Founders looking for EU funding could begin at HaDEA's stand E418. Those who need computing power could try EuroHPC's masterclass on 11 November. Startups with intellectual property to protect could go to the EUIPO and INPI meetup on 12 November.
 
 ## What this does not claim
 
