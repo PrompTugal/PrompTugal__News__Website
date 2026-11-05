@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S10",
+  "type": "story",
+  "title": "Lisbon's universities at Web Summit: two stands and a pitch day",
+  "beat": "portugal",
+  "topic": "topic:portugal",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:v-ulisboa-web-summit-2026",
+    "evidence:v-tecnico-web-summit-2026"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-05-0745.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-0745.json"
+    ]
+  }
+}

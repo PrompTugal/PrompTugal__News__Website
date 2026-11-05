@@ -2,14 +2,21 @@
   "$schema": "../../schemas/organisation.schema.json",
   "id": "instituto-superior-tecnico",
   "type": "organisation",
-  "name": "Instituto Superior Técnico (Universidade de Lisboa)",
+  "name": "Instituto Superior Técnico",
   "names_as_listed": [
+    "Instituto Superior Técnico",
     "Instituto Superior Técnico (Universidade de Lisboa)"
   ],
   "sources": [
     {
       "url": "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/",
       "read_at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://www.ulisboa.pt/en/noticia/ulisboas-innovation-and-entrepreneurship-ecosystem-web-summit-2026",
+      "read_at": "2026-11-05T07:45Z",
       "by": "curator@web-summit.vicky",
       "how": "named in a research capture, as the curator mapped it"
     }

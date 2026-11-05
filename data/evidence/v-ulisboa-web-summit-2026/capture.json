@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-ulisboa-web-summit-2026",
+  "type": "evidence",
+  "source_url": "https://www.ulisboa.pt/en/noticia/ulisboas-innovation-and-entrepreneurship-ecosystem-web-summit-2026",
+  "beat": "portugal",
+  "group": "G9 Portuguese science and universities at the summit",
+  "names": [
+    {
+      "as_listed": "Universidade de Lisboa (ULisboa)",
+      "ref": "organisation:universidade-de-lisboa"
+    },
+    {
+      "as_listed": "Instituto Superior Técnico",
+      "ref": "organisation:instituto-superior-tecnico"
+    },
+    {
+      "as_listed": "Startup Portugal",
+      "ref": "company:startup-portugal"
+    },
+    {
+      "as_listed": "Dealroom",
+      "ref": "organisation:dealroom"
+    },
+    {
+      "as_listed": "OutSystems",
+      "ref": "organisation:outsystems"
+    },
+    {
+      "as_listed": "TEKEVER",
+      "ref": "organisation:tekever"
+    },
+    {
+      "as_listed": "Talkdesk",
+      "ref": "organisation:talkdesk"
+    },
+    {
+      "as_listed": "Anchorage Digital",
+      "ref": "organisation:anchorage-digital"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-05-0745.json",
+  "run": "2026-11-05T07:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-0745.json"
+    ]
+  }
+}

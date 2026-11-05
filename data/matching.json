@@ -1561,13 +1561,18 @@
       {
         "as_listed": "Startup Portugal",
         "ref": "company:startup-portugal",
-        "count": 2
+        "count": 3
       }
     ],
     "unmatched": [
       {
         "as_listed": "3xP Global (Impact Innovation Fund)",
         "ref": "organisation:3xp-global",
+        "count": 1
+      },
+      {
+        "as_listed": "AICEP Portugal Global",
+        "ref": "organisation:aicep-portugal-global",
         "count": 1
       },
       {
@@ -1578,6 +1583,11 @@
       {
         "as_listed": "Algarve Evolution",
         "ref": "organisation:algarve-evolution",
+        "count": 1
+      },
+      {
+        "as_listed": "Anchorage Digital",
+        "ref": "organisation:anchorage-digital",
         "count": 1
       },
       {
@@ -1611,8 +1621,18 @@
         "count": 3
       },
       {
+        "as_listed": "Dealroom",
+        "ref": "organisation:dealroom",
+        "count": 1
+      },
+      {
         "as_listed": "Dutch Ministry of Foreign Affairs",
         "ref": "organisation:dutch-ministry-of-foreign-affairs",
+        "count": 1
+      },
+      {
+        "as_listed": "Embassy of Italy in Portugal",
+        "ref": "organisation:embassy-of-italy-in-portugal",
         "count": 1
       },
       {
@@ -1666,6 +1686,11 @@
         "count": 1
       },
       {
+        "as_listed": "Instituto Superior Técnico",
+        "ref": "organisation:instituto-superior-tecnico",
+        "count": 1
+      },
+      {
         "as_listed": "Instituto Superior Técnico (Universidade de Lisboa)",
         "ref": "organisation:instituto-superior-tecnico",
         "count": 1
@@ -1673,6 +1698,11 @@
       {
         "as_listed": "Intuitivo",
         "ref": "organisation:intuitivo",
+        "count": 1
+      },
+      {
+        "as_listed": "Italian Trade Agency (ICE)",
+        "ref": "organisation:italian-trade-agency",
         "count": 1
       },
       {
@@ -1693,6 +1723,11 @@
       {
         "as_listed": "Opsivision.ai",
         "ref": "organisation:opsivision-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "OutSystems",
+        "ref": "organisation:outsystems",
         "count": 1
       },
       {
@@ -1721,6 +1756,16 @@
         "count": 1
       },
       {
+        "as_listed": "TEKEVER",
+        "ref": "organisation:tekever",
+        "count": 1
+      },
+      {
+        "as_listed": "Talkdesk",
+        "ref": "organisation:talkdesk",
+        "count": 1
+      },
+      {
         "as_listed": "Testwaves",
         "ref": "organisation:testwaves",
         "count": 1
@@ -1738,6 +1783,11 @@
       {
         "as_listed": "Unicorn Factory Lisboa",
         "ref": "organisation:unicorn-factory-lisboa",
+        "count": 2
+      },
+      {
+        "as_listed": "Universidade de Lisboa (ULisboa)",
+        "ref": "organisation:universidade-de-lisboa",
         "count": 1
       },
       {

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S11",
+  "type": "story",
+  "title": "Italy and Portugal meet in Beato on how European tech scales",
+  "beat": "europe",
+  "topic": "topic:europe",
+  "status": "candidate",
+  "rests_on": [
+    "evidence:v-aicep-italy-portugal-tech-champions"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-05-0745.json"
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-0745.json"
+    ]
+  }
+}

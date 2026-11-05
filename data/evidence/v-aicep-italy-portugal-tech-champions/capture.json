@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-aicep-italy-portugal-tech-champions",
+  "type": "evidence",
+  "source_url": "https://www.portugalglobal.pt/en/news/2026/novembro/lisbon-event-explores-italian-portuguese-tech-growth/",
+  "beat": "europe",
+  "group": "G5 Europe at the summit",
+  "names": [
+    {
+      "as_listed": "AICEP Portugal Global",
+      "ref": "organisation:aicep-portugal-global"
+    },
+    {
+      "as_listed": "Unicorn Factory Lisboa",
+      "ref": "organisation:unicorn-factory-lisboa"
+    },
+    {
+      "as_listed": "Embassy of Italy in Portugal",
+      "ref": "organisation:embassy-of-italy-in-portugal"
+    },
+    {
+      "as_listed": "Italian Trade Agency (ICE)",
+      "ref": "organisation:italian-trade-agency"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-05-0745.json",
+  "run": "2026-11-05T07:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-05-0745.json"
+    ]
+  }
+}
