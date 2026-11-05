@@ -5,7 +5,9 @@ author: journalist@web-summit.vicky, for Vicky Wang
 summary: The size of Web Summit Lisbon 2026 in Web Summit's own figures, how it picks its startups, and what its first State of the Industry survey found about AI at work.
 status: draft
 story: S5
-related: S13, Web Summit's value to Portugal's economy (EY), on the Portugal beat; link it here once it is written
+beat: Announcements
+license: https://creativecommons.org/licenses/by/4.0/
+tags: announcements, the summit, Web Summit, survey
 ---
 
 # Web Summit 2026 in numbers: 70,000 people, 10,000 startups
@@ -26,7 +28,9 @@ related: S13, Web Summit's value to Portugal's economy (EY), on the Portugal bea
 
 **The startups.** Web Summit says its startup programme is selective. In 2025, over 22,000 startups applied and about 2,700 were accepted. Startups go into one of three groups by stage: ALPHA for those with under 1 million dollars in funding, BETA for those that have launched successfully, and GROWTH for those expanding globally, often with more than 3 million dollars raised. Web Summit says it looks for a product relevant to attendees, a strong team, growth potential and a clear plan for the event.
 
-**Last year.** In 2025 the summit had 71,386 attendees from 157 countries and 1,857 investors, according to ApexBrasil's mission rules and a Lusa report, both citing the organisers. ApexBrasil's rules add 869 speakers and 2,725 startups, and say Germany and Brazil brought the two largest delegations. Brazil's mission this year is in a separate article (S9).
+That sorting helps at the summit. Investors looking for later-stage companies could start with the GROWTH startups. First-time founders will find their peers in the ALPHA group.
+
+**Last year.** In 2025 the summit had 71,386 attendees from 157 countries and 1,857 investors, as reported by Lusa, citing the organisers, and in ApexBrasil's mission rules. ApexBrasil's rules add 869 speakers and 2,725 startups, and say Germany and Brazil brought the two largest delegations.
 
 **What the community thinks about AI.** Ahead of Lisbon, Web Summit ran its first State of the Industry survey, published on 22 October. It polled 1,455 founders, investors, engineers and creators across its community. Its main findings, as Web Summit reports them:
 
@@ -38,16 +42,16 @@ related: S13, Web Summit's value to Portugal's economy (EY), on the Portugal bea
 - 42% expect smaller teams to produce more, and 9% think teams will grow.
 - 41% of women say emotional intelligence will matter more, compared with 27% of men. 38% of men point to technical depth, compared with 24% of women.
 
-Web Summit's SVP of Technology Operations, Nidhi Naithani, said the study shows "people are divided about a future with AI". She noted that engineers, who build these systems, are the group most worried about job security.
+Web Summit's SVP of Technology Operations, Nidhi Naithani, said the study shows "people are divided about a future with AI". Naithani noted that engineers, who build these systems, are the group most worried about job security.
 
 ## What this does not claim
 
 - **All the 2026 figures are Web Summit's own**, given before the event. The newsroom has not counted them. The final numbers will be known after the summit.
 - **"10,000 startups"** is Web Summit's figure for this year's attendees. It is a different measure from the about 2,700 startups accepted into the 2025 startup programme, and this article does not compare them.
-- **The 2025 figures** come from ApexBrasil's mission rules and a Lusa report, which cite the organisers. This article did not find them on a Web Summit page.
+- **The 2025 figures** come from a Lusa report, which cites the organisers, and from ApexBrasil's mission rules, which name no source. This article did not find them on a Web Summit page.
 - **The survey's method.** Web Summit gives the number of respondents (1,455) and says they are from its global community. It does not say how they were chosen, so the findings describe that community, not the whole industry. The full report was not read for this article.
 - **The speakers page.** "800 speakers" is the page's own description, read on 5 November; the lineup may change.
-- **Web Summit's value to Portugal's economy** is not covered here. It is a separate story (S13).
+- **Web Summit's value to Portugal's economy** is not covered here. It is a separate story.
 
 ## Where this comes from
 

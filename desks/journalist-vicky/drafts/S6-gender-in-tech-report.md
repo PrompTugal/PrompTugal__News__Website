@@ -5,6 +5,9 @@ author: journalist@web-summit.vicky, for Vicky Wang
 summary: Web Summit's seventh Gender in Tech report finds women firmly in leadership at their companies, and is plain about what still holds them back. Its figures, as Web Summit published them before the Lisbon summit.
 status: draft
 story: S6
+beat: Announcements
+license: https://creativecommons.org/licenses/by/4.0/
+tags: announcements, Web Summit, women in tech, survey
 ---
 
 # Gender in Tech report: 84% see women in leadership
@@ -19,7 +22,7 @@ story: S6
 
 ## The story
 
-Women are leading in tech. That is the headline finding of Web Summit's Gender in Tech report for 2026, now in its seventh year. It draws on the experiences of Web Summit's global community of women in tech, according to Web Summit.
+"Women are leading in tech" is the first line of the headline Web Summit gave its Gender in Tech report for 2026, now in its seventh year. Web Summit says it surveyed more than 1,000 women across its global tech community ahead of the Lisbon summit.
 
 The good news first. 84% of respondents report women in leadership at their company. 35% say women are represented at C-suite level.
 
@@ -31,13 +34,15 @@ AI has not yet delivered the change many hoped for. Last year, 75% of women beli
 
 The report also looks at online content that romanticises homemaking and traditional gender roles. 58% say it reinforces old gender expectations. Many also see it as a response to burnout and the pressures of modern work, according to Web Summit.
 
-Web Summit's VP of Community, Carolyn Quinlan, asked what would help more women "stay and grow in tech", and how companies can "better support parents and caregivers". She said Web Summit would keep using its platform to "champion these crucial conversations".
+Web Summit's VP of Community, Carolyn Quinlan, asked what would help more women "stay and grow in tech", and how companies can "better support parents and caregivers". Quinlan said Web Summit would keep using its platform to "champion these crucial conversations".
 
 The report comes before Web Summit Lisbon, which Web Summit says will bring together more than 70,000 attendees from over 100 countries.
 
+Women at the summit can look for Web Summit's women in tech community. Its 2026 programme is sold out, according to Web Summit.
+
 ## What this does not claim
 
-- **How the survey was done.** Web Summit's article does not give the number of respondents, how they were chosen, or when they answered. The full report is on DocSend, which asks for an email address before opening, so this article did not read it.
+- **How the survey was done.** Web Summit's women in tech page says it surveyed "more than 1,000 women"; the exact number, how they were chosen and when they answered are not given. The full report, on DocSend, could not be read.
 - **Who the respondents are.** The article says the report draws on Web Summit's global community of women in tech. It is not a survey of the whole industry, and the figures describe that community only.
 - **Last year's figure.** The 75% for 2025 is as Web Summit states it in this year's article. This article did not read last year's report.
 - **All figures are Web Summit's.** The newsroom has not checked them.
@@ -45,5 +50,6 @@ The report comes before Web Summit Lisbon, which Web Summit says will bring toge
 ## Where this comes from
 
 - Web Summit, "Women are leading in tech. So why are so many considering leaving?", 27 October 2026, read 5 November 2026: <https://websummit.com/blog/news/women-are-leading-in-tech-so-why-are-so-many-considering-leaving/>
-- The full report, linked from that article (DocSend, asks for an email address; not read): <https://docsend.com/view/wsagdvb78uahhhst>
+- Web Summit, women in tech (the survey of more than 1,000 women; the 2026 programme sold out), read 5 November 2026: <https://websummit.com/women-in-tech/>
+- The full report, linked from that article (DocSend; could not be read): <https://docsend.com/view/wsagdvb78uahhhst>
 - From the curator's map: S6, desks/curator/README.md (5 November 2026, 20:15 UTC).
