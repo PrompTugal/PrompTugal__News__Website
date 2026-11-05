@@ -12,31 +12,31 @@ beat: Europe
 
 ## In short
 
-- The European Commission comes to Web Summit Lisbon with a fireside chat, masterclasses, panels and stands, from 10 to 12 November, according to the Commission.
-- Executive Vice-President Henna Virkkunen speaks on Centre Stage on 10 November, on Europe's tech sovereignty, in the Commission's agenda.
-- The sessions are practical: EU help for AI businesses, data spaces for small firms, EU funding, IP-backed finance, and free access to Europe's supercomputers.
-- DG GROW (stand E415) and HaDEA (stand E418) are in Pavilion 4; EuroHPC is at stand E405.
-- The Netherlands brings a national delegation, organised with its Ministry of Foreign Affairs and its embassy in Lisbon.
+- The European Commission brings a fireside chat, masterclasses, panels and stands to Web Summit Lisbon, from 10 to 12 November, according to the Commission.
+- Executive Vice-President Henna Virkkunen speaks on Centre Stage on 10 November, on Europe's tech sovereignty.
+- Sessions cover EU help for AI businesses, data spaces, EU funding, IP-backed finance and free supercomputing.
+- DG GROW (E415) and HaDEA (E418) are in Pavilion 4; EuroHPC is at stand E405.
+- The Netherlands brings a national delegation, with its Ministry of Foreign Affairs and its embassy in Lisbon.
 
 ## The story
 
-Europe's institutions are coming to Web Summit to help people build. The Commission's digital department, DG CONNECT, will be in Lisbon from 10 to 12 November, it says, with other Commission services and EU bodies alongside it.
+The Commission's digital department, DG CONNECT, will be in Lisbon from 10 to 12 November, it says.
 
-The week opens on the main stage. On 10 November, from 11:05 to 11:25, Executive Vice-President Henna Virkkunen has a fireside chat on Centre Stage, "Has Europe's tech moment arrived?". In the Commission's words, the talk covers the EU's drive for tech sovereignty, from AI and cloud to chips and digital infrastructure, and its work on regulating platforms and AI systems.
+On 10 November, from 11:05 to 11:25, Executive Vice-President Henna Virkkunen has a fireside chat on Centre Stage, "Has Europe's tech moment arrived?". The Commission says it covers the EU's drive for tech sovereignty, from AI and cloud to chips and digital infrastructure, and regulating platforms and AI systems.
 
-Most of the programme is hands-on. On 10 November, a DG CONNECT masterclass asks how Europe's data spaces can help small and medium-sized firms grow, and explains the support available under the EU Data Act for using data from connected products. On 11 November, a second masterclass, "Building AI in Europe", covers EU help for AI businesses: regulatory guidance, testing facilities, infrastructure, expertise, funding and tools.
+On 10 November, a DG CONNECT masterclass asks how Europe's data spaces can help small and medium-sized firms grow, and explains EU support under the Data Act for using data from connected products. On 11 November, "Building AI in Europe" covers EU help for AI businesses: regulatory guidance, testing facilities, infrastructure, expertise, funding and tools.
 
-Money is on the agenda too. On 11 November at 15:30, HaDEA, the EU's health and digital executive agency, runs a workshop on EU funding, "Investing in technological sovereignty: EU funding for your project". Four EU-funded projects join it, according to HaDEA. PERSEPHONE works on robots for safer mining of critical raw materials. RISER builds energy-efficient cloud infrastructure on open-source RISC-V chips. AI-TranspWood uses AI to develop transparent wood. GreenChips-EDU trains Europe's next microelectronics experts.
+On 11 November at 15:30, HaDEA, the EU's health and digital executive agency, runs a workshop, "Investing in technological sovereignty: EU funding for your project". Four EU-funded projects join it, according to HaDEA: PERSEPHONE (robots for safer mining of critical raw materials), RISER (energy-efficient cloud infrastructure on open-source RISC-V chips), AI-TranspWood (transparent wood, developed with AI) and GreenChips-EDU (training Europe's next microelectronics experts).
 
-For startups that need computing power, EuroHPC runs a masterclass on 11 November from 16:00 on how industry can use Europe's supercomputers, AI Factories and quantum computers for free. The Commission notes that places are first-come, first-served.
+EuroHPC runs a masterclass on 11 November from 16:00 on how industry can use Europe's supercomputers, AI Factories and quantum computers for free. Places are first-come, first-served, the Commission notes.
 
-Intellectual property has its own slot. The EU's intellectual property office, EUIPO, holds a panel on 11 November at 12:10 on how IP-backed finance can help companies raise money and scale. On 12 November at 13:00, EUIPO and INPI host an informal meetup on intellectual property for startups and creators.
+The EU's intellectual property office, EUIPO, holds a panel on 11 November at 12:10 on how IP-backed finance can help companies raise money and scale. On 12 November at 13:00, EUIPO and INPI host an informal meetup on intellectual property for startups and creators.
 
-DG GROW is at stand E415 and HaDEA at stand E418, both in Pavilion 4, and EuroHPC is at stand E405, says the Commission. HaDEA's stand is staffed throughout the summit, HaDEA says. There, visitors can learn about EU funding programmes and meet the people behind EU-funded projects. A group of DigitalEU Ambassadors will also be in Lisbon, sharing their view of the summit.
+DG GROW is at stand E415 and HaDEA at E418, both in Pavilion 4, and EuroHPC is at E405, says the Commission. HaDEA's stand is staffed throughout the summit, HaDEA says, with people from EU-funded projects.
 
-Europe's countries come too. The Netherlands Enterprise Agency, RVO, organises a Dutch delegation with the Dutch Ministry of Foreign Affairs and the Embassy of the Netherlands in Lisbon. Members get an NL Lounge to meet in, matchmaking sessions, and access to the Dutch economic team and diplomatic network in Portugal, says RVO. Its provisional programme lists a Dutch networking event on 11 November. Registration is now closed.
+The Netherlands Enterprise Agency, RVO, organises a Dutch delegation with the Dutch Ministry of Foreign Affairs and the Embassy of the Netherlands in Lisbon. Members get an NL Lounge, matchmaking sessions, and access to the Dutch economic team and diplomatic network in Portugal, says RVO. Its provisional programme lists a Dutch networking event on 11 November. Registration is closed.
 
-Where to start, then. Founders looking for EU funding could begin at HaDEA's stand E418. Those who need computing power could try EuroHPC's masterclass on 11 November. Startups with intellectual property to protect could go to the EUIPO and INPI meetup on 12 November.
+Founders seeking EU funding could begin at HaDEA's stand E418. Those needing computing power could try EuroHPC's masterclass. Startups with IP to protect could go to the EUIPO and INPI meetup on 12 November.
 
 ## What this does not claim
 
