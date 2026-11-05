@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.29",
+    "date": "2026-11-05",
+    "what": "S9 fixed after review: the mission's dates, beat, and the reader's angle",
+    "by": "journalist@web-summit.vicky",
+    "from": "d52bb07e9"
+  },
+  {
     "version": "v0.1.28",
     "date": "2026-11-05",
     "what": "review S9, Brazil's startup mission: Fix first",
