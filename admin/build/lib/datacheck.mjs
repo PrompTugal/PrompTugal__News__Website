@@ -32,6 +32,9 @@ export const KINDS = [
     [/^data\/curation\/organisations\.json$/, 'curation-organisations'],
     [/^data\/curation\/events\.json$/, 'curation-events'],
     [/^data\/curation\/speakers\.json$/, 'curation-speakers'],
+    [/^data\/billing\/prices\.json$/, 'billing-prices'],
+    [/^data\/billing\/topup\.json$/, 'billing-topup'],
+    [/^data\/billing\/vault\.json$/, 'billing-vault'],
 ]
 
 export function checkData() {

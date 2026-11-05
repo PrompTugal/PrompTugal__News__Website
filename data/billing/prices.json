@@ -1,0 +1,53 @@
+{
+  "about": "The reading meter's prices: one table that both the meter in the reader's browser (api/v1/billing/meter.json, made by admin/build/features/billing.mjs) and the published billing page (/account/billing.html) are generated from, so the page and the meter cannot disagree. The model is the one php.oct.2026.newsroom.sgit.ai runs (its data/billing.json, read 5 November 2026) and newsroom.sgit.ai's meter (sg-meter v1.5.0): a base price per kind of page, a multiplier for how fresh the page is, times the share of it read, never under a tenth. Edited by hand; the gate checks it against its schema and the feature's own rules.",
+  "meter": "sg-meter v1.5.0",
+  "storage_key": "web-summit.newsroom.meter.v1",
+  "start": 500,
+  "symbol": "£",
+  "currency": "GBP",
+  "floor": 1,
+  "min_share": 0.1,
+  "new_days": 7,
+  "formula": "price = max(floor, round(base[type] x freshness[tier])), then x the share of the page read (never under a tenth) x the reader's usefulness rating (1 free, 3 the price, 5 double)",
+  "reference_types": [
+    { "type": "article", "base": 6, "decays": true, "why": "A conclusion someone signed, written against a stated state of the evidence: the most judgement per word on the site." },
+    { "type": "briefing", "base": 5, "decays": true, "why": "The most compressed form of the work: one page for one reader's decision." },
+    { "type": "analysis", "base": 3, "decays": true, "why": "Work a reader cannot do by reading one source: counting, comparing, converting times." },
+    { "type": "story", "base": 2, "decays": true, "why": "Pages assembled by agents; the reader pays for the assembly." },
+    { "type": "evidence", "base": 1, "decays": false, "why": "Reference pages: the value is in checking, and checking must never cost more at the moment it matters most." },
+    { "type": "site", "base": 1, "decays": false, "why": "The site's account of itself: metered at the floor, never more." },
+    { "type": "account", "base": 0, "decays": false, "why": "The meter's own pages. Charging a reader to see their bill is not a price." }
+  ],
+  "types": [
+    { "type": "article", "as": "article", "base": 6, "decays": true, "pages": "the signed, dated articles", "why": "A signed article is the newsroom's own judgement, with its limits and sources: the reference's article, unchanged." },
+    { "type": "company", "as": "analysis", "base": 3, "decays": true, "pages": "a profile per company (/companies/<id>/)", "why": "A profile is assembled from several sources, re-checked at the source, with the company's sessions, people and related companies: work a reader cannot do from one page." },
+    { "type": "topic", "as": "analysis", "base": 3, "decays": true, "pages": "a field, theme or beat (/topics/<id>/)", "why": "Every company in a field, counted and compared, with the field's sessions: the same kind of work as a profile." },
+    { "type": "story", "as": "story", "base": 2, "decays": true, "pages": "the curator's story candidates", "why": "Assembled from the curator's captures by agents: the reference's story." },
+    { "type": "event", "as": "story", "base": 2, "decays": true, "pages": "a page per agenda item (/events/<id>/)", "why": "One programme item with its speakers, place and source, assembled from the programme by agents; it decays because it matters most in the days around it." },
+    { "type": "index", "as": "story", "base": 2, "decays": true, "pages": "list pages that gather other pages (none yet use this type)", "why": "A list assembled from the data, priced as the pages that assemble." },
+    { "type": "person", "as": "evidence", "base": 1, "decays": false, "pages": "a person as the summit lists them (/people/<id>/)", "why": "Name, role and organisation as listed, with the listing's source: a reference page, priced at the floor so checking who someone is never costs more." },
+    { "type": "organisation", "as": "evidence", "base": 1, "decays": false, "pages": "an organisation named by a source (/organisations/<id>/)", "why": "A name as a source wrote it and where it appears: reference, at the floor." },
+    { "type": "place", "as": "evidence", "base": 1, "decays": false, "pages": "a venue, stage or city (/places/<id>/)", "why": "Where something is: reference, at the floor." },
+    { "type": "evidence", "as": "evidence", "base": 1, "decays": false, "pages": "a capture and its source", "why": "The reference's evidence, unchanged." },
+    { "type": "data", "as": "evidence", "base": 1, "decays": false, "pages": "pages about the JSON API and the data", "why": "Reading how the data is made is checking: at the floor." },
+    { "type": "site", "as": "site", "base": 1, "decays": false, "pages": "the front page, the summit, about, the brief, the release history, this billing page", "why": "The site's account of itself: metered at the floor, because there are no free pages but the meter's own, and never more." },
+    { "type": "account", "as": "account", "base": 0, "decays": false, "pages": "your reading account, top up, topped up, your vault", "why": "The meter's own pages are free: the one exception to no free pages." }
+  ],
+  "tiers": [
+    { "tier": "fresh", "max_days": 1, "multiplier": 2.0, "why": "The first day: when the content is news and a reader is deciding something now." },
+    { "tier": "new", "max_days": 7, "multiplier": 1.5, "why": "The first week: still the current state of a developing story." },
+    { "tier": "current", "max_days": 30, "multiplier": 1.0, "why": "The base price: settled enough to rely on, recent enough to act on." },
+    { "tier": "archive", "max_days": null, "multiplier": 0.5, "why": "The record: worth reading, priced for the reader doing history, never free." }
+  ],
+  "age_from": "The page's own date (<meta name=\"page-date\">): for an article the day it was written, for a page made from data the day its source last changed. The age is worked out in the reader's browser, so the same release serves the same table to everyone.",
+  "rating": { "price": [0, 0.5, 1, 1.5, 2], "more": [-3, -1, 0, 3, 6] },
+  "rules": [
+    "Every content page is metered. The only unmetered pages are the meter's own: your account, top up, topped up and your vault.",
+    "The price depends on two things only: what kind of page it is, and how fresh it is. Not on who is reading, not on demand, not on the topic.",
+    "Fresh costs more and the price halves into the archive, never to zero. Reference pages and the site's account of itself do not decay and stay at the floor.",
+    "A page costs its price times the share of it you read, never less than a tenth; once per page per browser session; rating it re-prices it from free to double.",
+    "Nothing is ever blocked. The balance can go below zero, and a reader can decline to pay for a page and say why.",
+    "Everything is kept in your browser. Nothing is sent anywhere unless you choose: a top-up (on Stripe's own page) or your vault.",
+    "This table is published here and the meter is generated from the same data file, so the page and the meter cannot disagree."
+  ]
+}

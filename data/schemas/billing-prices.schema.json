@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/billing-prices.schema.json",
+  "title": "The reading meter's prices (data/billing/prices.json): base price per page type, freshness tiers, the rules",
+  "type": "object",
+  "required": ["meter", "storage_key", "start", "symbol", "currency", "floor", "min_share", "new_days", "formula", "types", "tiers", "rating", "rules"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "$ref": "common.schema.json#/$defs/schema_link" },
+    "about": { "type": "string", "minLength": 1 },
+    "meter": { "type": "string", "pattern": "^sg-meter v\\d+\\.\\d+\\.\\d+$" },
+    "storage_key": { "type": "string", "pattern": "^[a-z0-9.-]+\\.v\\d+$" },
+    "start": { "type": "integer", "minimum": 0 },
+    "symbol": { "type": "string", "minLength": 1 },
+    "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "floor": { "type": "number", "minimum": 0 },
+    "min_share": { "type": "number", "minimum": 0 },
+    "new_days": { "type": "integer", "minimum": 1 },
+    "formula": { "type": "string", "minLength": 1 },
+    "reference_types": { "type": "array", "items": { "$ref": "#/$defs/ref_type" } },
+    "types": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/type" } },
+    "tiers": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/tier" } },
+    "age_from": { "type": "string" },
+    "rating": {
+      "type": "object", "required": ["price", "more"], "additionalProperties": false,
+      "properties": { "price": { "type": "array", "items": { "type": "number" } }, "more": { "type": "array", "items": { "type": "number" } } }
+    },
+    "rules": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+  },
+  "$defs": {
+    "ref_type": {
+      "type": "object", "required": ["type", "base", "decays", "why"], "additionalProperties": false,
+      "properties": { "type": { "$ref": "common.schema.json#/$defs/slug" }, "base": { "type": "number", "minimum": 0 }, "decays": { "type": "boolean" }, "why": { "type": "string", "minLength": 1 } }
+    },
+    "type": {
+      "type": "object", "required": ["type", "as", "base", "decays", "pages", "why"], "additionalProperties": false,
+      "properties": {
+        "type": { "$ref": "common.schema.json#/$defs/slug" },
+        "as": { "$ref": "common.schema.json#/$defs/slug" },
+        "base": { "type": "number", "minimum": 0 },
+        "decays": { "type": "boolean" },
+        "pages": { "type": "string", "minLength": 1 },
+        "why": { "type": "string", "minLength": 1 }
+      }
+    },
+    "tier": {
+      "type": "object", "required": ["tier", "max_days", "multiplier", "why"], "additionalProperties": false,
+      "properties": {
+        "tier": { "$ref": "common.schema.json#/$defs/slug" },
+        "max_days": { "type": ["integer", "null"], "minimum": 0 },
+        "multiplier": { "type": "number", "minimum": 0 },
+        "why": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

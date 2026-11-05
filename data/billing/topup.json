@@ -1,0 +1,13 @@
+{
+  "about": "The top-up: one payment of £5.00 on Stripe's own page, through a Stripe Payment Link. A Payment Link URL is public by design (anyone can open it, and it is printed on newsroom.sgit.ai's pages); it is not a credential. No Stripe key, webhook secret or account detail belongs in this repository, ever. Read by admin/build/features/billing.mjs, which puts it in the meter's config and on the top-up page.",
+  "amount": 500,
+  "currency": "GBP",
+  "link": "https://buy.stripe.com/6oUfZ9ez65vVgU2fY15os04",
+  "link_source": "newsroom.sgit.ai, admin/build/newsroom-meter.json (topup_link), read 5 November 2026; Dinis Cruz: \"It's newsroom.sgit.ai that has it all working, so grab it from there.\"",
+  "client_reference_id": "web-summit-newsroom",
+  "returns_to": "https://newsroom.sgit.ai/account/topped-up.html?session_id={CHECKOUT_SESSION_ID}",
+  "returns_to_source": "newsroom.sgit.ai, admin/build/newsroom-meter.json (topup_link_note): the after-payment redirect set on this link in Stripe's dashboard. A Payment Link has one redirect, fixed in Stripe, so a payment started here returns to newsroom.sgit.ai's page, not this site's.",
+  "our_return": "https://web-summit.newsroom.sgit.ai/account/topped-up.html?session_id={CHECKOUT_SESSION_ID}",
+  "verified": false,
+  "verified_why": "A static page cannot verify a payment. The topped-up page adds the credit once per payment reference (Stripe's checkout session id) and cannot check it, as on newsroom.sgit.ai; building the address by hand gives credit on the reader's own screen and costs the site nothing."
+}

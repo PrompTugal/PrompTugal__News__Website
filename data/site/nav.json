@@ -53,7 +53,14 @@
         "portugal/"
       ]
     },
-    { "id": "graph", "label": "The graph", "href": "graph/index.html", "match": ["graph/"] },
+    {
+      "id": "graph",
+      "label": "The graph",
+      "href": "graph/index.html",
+      "match": [
+        "graph/"
+      ]
+    },
     {
       "id": "about",
       "label": "About",
@@ -113,7 +120,10 @@
       "label": "About and editors",
       "href": "about/index.html"
     },
-    { "label": "Control centre", "href": "admin/index.html" },
+    {
+      "label": "Control centre",
+      "href": "admin/index.html"
+    },
     {
       "column": "The newsroom",
       "label": "Our disclosure",
@@ -148,6 +158,11 @@
       "column": "Read",
       "label": "People",
       "href": "people/index.html"
+    },
+    {
+      "column": "Read",
+      "label": "Your reading account",
+      "href": "account/index.html"
     },
     {
       "column": "For agents",
@@ -253,6 +268,12 @@
       "group": "Admin",
       "match": [
         "admin/"
+      ]
+    },
+    {
+      "group": "Your account",
+      "match": [
+        "account/"
       ]
     }
   ]

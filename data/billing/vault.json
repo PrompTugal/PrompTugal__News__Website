@@ -1,0 +1,14 @@
+{
+  "about": "Your vault: the reading account (and other features' data) carried between devices in an encrypted vault, after newsroom.sgit.ai's Vault pane (a beta there). Read by admin/build/features/account.mjs into the pane's config. Nothing here is secret: the endpoint is the public vault server newsroom.sgit.ai uses, and the access key itself is never written to this repository.",
+  "endpoint": "https://dev.send.sgraph.ai",
+  "endpoint_source": "newsroom.sgit.ai, assets/vault-pane/vault-pane.js (ENDPOINT), read 5 November 2026",
+  "library": "sg-vault v0.2.3 (assets/vendor/sg-vault/v0.2.3, unedited) and its one local extension (assets/vendor/sg-vault/local/sg-vault--create-with-id.js)",
+  "door_constant": "web-summit.newsroom.sgit.ai",
+  "door_constant_why": "The passkey's PRF input and the door's derivation salt name this site, so an account made here is this site's own and never opens, or is opened by, a newsroom.sgit.ai account.",
+  "access_key": {
+    "status": "not-issued",
+    "what": "A vault access key: the token the vault server asks for before it accepts a write (sent as the x-sgraph-access-token header to the endpoint above and nowhere else). Opening and reading a vault needs none; creating one, and updating it, does.",
+    "where": "Not issued yet. Dinis Cruz will add how readers of this site get one; until then the pane asks for it, explains what it is, and creates nothing without it. Once pasted, it is written into the reader's own master vault, so no other device of theirs needs it typed.",
+    "never": "The key is never written to this repository, never kept in local storage, and never sent anywhere but the endpoint above."
+  }
+}

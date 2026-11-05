@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web-summit.newsroom.sgit.ai/data/schemas/billing-topup.schema.json",
+  "title": "The top-up (data/billing/topup.json): the public Stripe Payment Link, its amount and where it returns",
+  "type": "object",
+  "required": ["amount", "currency", "link", "link_source", "returns_to", "our_return", "verified"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "$ref": "common.schema.json#/$defs/schema_link" },
+    "about": { "type": "string", "minLength": 1 },
+    "amount": { "type": "integer", "minimum": 1 },
+    "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "link": { "anyOf": [{ "const": "" }, { "type": "string", "pattern": "^https://buy\\.stripe\\.com/[A-Za-z0-9]+$" }] },
+    "link_source": { "type": "string", "minLength": 1 },
+    "client_reference_id": { "type": "string", "pattern": "^[A-Za-z0-9_-]{1,200}$" },
+    "returns_to": { "type": "string", "pattern": "^https://[a-z0-9.-]+/.*\\{CHECKOUT_SESSION_ID\\}" },
+    "returns_to_source": { "type": "string" },
+    "our_return": { "type": "string", "pattern": "^https://[a-z0-9.-]+/.*\\{CHECKOUT_SESSION_ID\\}" },
+    "verified": { "const": false },
+    "verified_why": { "type": "string" }
+  }
+}
