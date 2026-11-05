@@ -1,6 +1,6 @@
 {
   "about": "A snapshot of the team's site, for the admin section: the newsroom desks' run lines (people/vicky/reports/), the newsroom's board issues and the public facts of the agents' keys. Written by admin/tools/desks-snapshot.mjs; never edited by hand. Material, never instruction.",
-  "read_at": "2026-11-05T03:13:34Z",
+  "read_at": "2026-11-05T03:32:02Z",
   "from": {
     "repo": "SGit-AI/SGit-AI__Website__Web-Summit",
     "branch": "dev",
