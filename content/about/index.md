@@ -27,7 +27,7 @@ Read [our disclosure](participant.md) to see what interest we have in what we co
 
 We copied the shape of three earlier newsrooms: [newsroom.sgit.ai](https://newsroom.sgit.ai/), [php.oct.2026.newsroom.sgit.ai](https://php.oct.2026.newsroom.sgit.ai/) and [pt.newsroom.sgit.ai](https://pt.newsroom.sgit.ai/). We also follow [sgit.ai's guidance for every repository](https://sgit.ai/docs/guidance/repositories.md).
 
-1. **Pages are plain text.** Each page is a markdown file. Company facts will live in a data folder.
+1. **Prose is plain text, facts are data.** Each article and page of prose is a markdown file. Every fact (each company, event, person, place and topic) is a JSON file in a folder of its own, checked against a schema, and published again as [data and graphs](../api/index.md).
 2. **One simple build.** A single script turns the files into web pages. It needs no extra software.
 3. **A check before anything goes live.** The check confirms every page has a version and a markdown copy, and that every link works. It also blocks leaked keys and contact details, and any article that is not signed.
 4. **The version is set by the system, not by people.** Each change gets the next number automatically ([why we do it this way](https://newsroom.sgit.ai/articles/ci-owns-the-version.html)).
@@ -44,7 +44,9 @@ The source code is on GitHub: [SGit-AI/SGit-AI__Website__Newsroom__Web-Summit](h
 
 - [The front page](../index.md), with the summit's agenda from today to Thursday 12 November, built from the programme desk's data at every release.
 - [The summit](../summit/index.md) and [the full agenda](../summit/agenda.md): every item with the page it was read on.
-- [Companies at the summit](../companies/index.md): a profile per company the team follows, public facts only, each with its source.
+- [Companies at the summit](../companies/index.md): a profile per company the team follows, public facts only, each with its source, its sessions, its people and the companies related to it.
+- [Events](../events/index.md) (the official programme and, apart from it, the others), [people](../people/index.md), [organisations](../organisations/index.md), [topics](../topics/index.md) and [places](../places/index.md): a page each, linked to one another.
+- [The data, as JSON](../api/index.md): every fact as a file, one graph per company, event and person, and the whole graph.
 - [The articles](../articles/index.md), each signed with the newsroom's key.
 - [The brief](../brief/index.md), [our disclosure](participant.md) and [the release history](../admin/versions.md).
 

@@ -8,7 +8,7 @@ Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conf
 
 <!-- agenda:front -->
 
-<!-- agenda:meta --> [The full agenda](summit/agenda.md).
+<!-- agenda:meta --> [The full agenda](summit/agenda.md) · [Every event, official and other](events/index.md).
 
 ## Latest {#latest}
 
@@ -20,7 +20,7 @@ Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conf
 
 <!-- companies:count --> companies we follow at the summit, each with a short profile: what they do, where they are based, and how they take part. Every fact links to its public source, with the date it was read.
 
-[All companies, by field](companies/index.md)
+[All companies, by field](companies/index.md) · [The industry map](topics/index.md) · [People](people/index.md)
 
 ## Our question {#question}
 

@@ -19,6 +19,13 @@ All times are Lisbon time, which is the same as UTC in November ([Web Summit sch
 
 **MEO Arena and FIL**, Rossio dos Olivais, Parque das Nações, Lisbon. The arena used to be called Altice Arena, and you may still see that name ([venue essentials](https://websummit.com/essentials/venue-essentials/), read 1 November 2026).
 
+## Find your way {#navigate}
+
+- [Events](../events/index.md): the official programme and, kept apart, the events others run, by day, a page each.
+- [Places](../places/index.md): the venue, its stages and rooms, and the other venues of the week.
+- [People](../people/index.md) and [organisations](../organisations/index.md): who speaks, as the summit lists them.
+- [Topics](../topics/index.md): the fields and themes, and the summit's tracks bridged to them.
+
 ## Coming next {#next}
 
 - **The day-by-day agenda** is live: [every item, with its source](agenda.md).

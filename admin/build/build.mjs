@@ -12,6 +12,7 @@ import * as markdown from './lib/markdown.mjs'
 import { loadContent } from './lib/content.mjs'
 import { loadData } from './lib/data.mjs'
 import { loadFeatures } from './lib/features.mjs'
+import { buildGraph } from './lib/graph.mjs'
 import { htmlPage, twinPage, twinOf } from './lib/shell.mjs'
 import { write, json, llmsTxt, sitemapXml, robotsTxt, finish, written } from './lib/writers.mjs'
 
@@ -32,6 +33,9 @@ const ctx = {
     features: features.map(f => f.name),
     pages: [],
 }
+// the whole graph, built once on first use (lib/graph.mjs): features read it for navigators and write its views
+let whole
+ctx.graph = () => whole || (whole = buildGraph(ctx.store, ctx))
 
 // 1. pages, from every feature in order
 const pages = []

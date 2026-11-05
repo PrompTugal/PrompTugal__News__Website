@@ -4,6 +4,7 @@
 //   features   each feature's own validate(gate) hook (the graph feature checks the graphs and the API, for example)
 // Prints a JSON list of problems, each "check: problem"; an empty list is a pass.
 import fs from 'node:fs'
+import crypto from 'node:crypto'
 import * as config from './lib/config.mjs'
 import { checkData } from './lib/datacheck.mjs'
 import { loadFeatures } from './lib/features.mjs'
@@ -15,6 +16,7 @@ const gate = {
     generated: new Set(fs.readFileSync(config.R('.generated.txt'), 'utf8').split('\n').filter(Boolean)),
     json: p => JSON.parse(fs.readFileSync(config.R(p), 'utf8')),
     text: p => fs.readFileSync(config.R(p), 'utf8'),
+    sha256: s => crypto.createHash('sha256').update(s).digest('hex'),
 }
 for (const f of await loadFeatures()) {
     if (!f.validate) continue

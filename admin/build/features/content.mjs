@@ -13,3 +13,9 @@ export function pages(ctx) {
         return { ...c, title: c.meta.title, summary: c.meta.summary, ...(parent ? { crumbs: [[parent.rel, label], [null, c.meta.title]] } : {}) }
     })
 }
+
+// one search document per prose page: its title, its summary and the start of its text
+export const searchDocs = ctx => ctx.pages.filter(p => p.feature === 'content' && p.listed).map(p => ({
+    id: `page:${p.rel}`, url: p.rel, title: p.title, type: p.type, date: p.date,
+    text: `${p.summary} ${p.md.replace(/[#*`|>\[\]()_-]+/g, ' ').replace(/\s+/g, ' ')}`.slice(0, 1500),
+}))

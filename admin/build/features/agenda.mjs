@@ -5,8 +5,10 @@ export const order = 25
 
 let A
 const load = ctx => A || (A = (() => {
-    const { readJSON, TODAY, DAY } = ctx
-    const AGENDA = readJSON('desks/programme/agenda.json')
+    const { TODAY, DAY } = ctx
+    // the agenda's items are the events derived from the programme desk's file (data/events/, admin/tools/derive.mjs)
+    const items = ctx.store.events.filter(e => e.listed_as).map(e => ({ ...e, what: e.title, kind: e.listed_as, speakers: e.speakers.map(s => s.as_listed) }))
+    const AGENDA = { items, count: items.length, agent: [...new Set(items.map(i => i.read_by))].join(', ') }
     const days = [...new Set(AGENDA.items.map(i => i.date))].sort()
     const itemsOn = d => AGENDA.items.filter(i => i.date === d).sort((a, b) => (a.time || '').localeCompare(b.time || ''))
     const r = AGENDA.items.map(i => i.read_at).sort()
@@ -28,7 +30,7 @@ export const fill = {
                 .sort((a, b) => (a.time || '').localeCompare(b.time || ''))
             const more = all.length - top.length
             return `### ${d === TODAY ? 'Today, ' : ''}${DAY(d)}\n\n` +
-                top.map(i => `- **${i.time ? i.time.replace('-', ' to ') : 'All day'}** · [${cell(i.what)}](${linkOf(i)})${i.where ? ` · ${cell(i.where)}` : ''}`).join('\n') +
+                top.map(i => `- **${i.time ? i.time.replace('-', ' to ') : 'All day'}** · [${cell(i.what)}](${ctx.link(page.rel, `events/${i.id}/index.html`)})${i.where ? ` · ${cell(i.where)}` : ''}`).join('\n') +
                 (more > 0 ? `\n- [${more} more on ${DAY(d).split(' ')[0]}](${ctx.link(page.rel, 'summit/agenda.html')}#d-${d})` : '')
         }).join('\n\n') || `The summit is over. [The full agenda](${ctx.link(page.rel, 'summit/agenda.html')}) stays as it was.`
     },
@@ -37,7 +39,7 @@ export const fill = {
         return days.map(d => {
             const all = itemsOn(d)
             return `## ${DAY(d)}${d < TODAY ? ' (past)' : d === TODAY ? ' (today)' : ''} {#d-${d}}\n\n${all.length} item${all.length === 1 ? '' : 's'}.\n\n| Time | What | Where | Kind |\n|---|---|---|---|\n` +
-                all.map(i => `| ${i.time || 'All day'} | [${cell(i.what)}](${linkOf(i)})${i.speakers && i.speakers.length ? `. With ${cell(i.speakers.join(', '))}` : ''}${i.note ? ` (${cell(i.note)})` : ''} | ${cell(i.where)} | ${KIND[i.kind] || i.kind} |`).join('\n')
+                all.map(i => `| ${i.time || 'All day'} | [${cell(i.what)}](${ctx.link(page.rel, `events/${i.id}/index.html`)}) ([source](${linkOf(i)}))${i.speakers && i.speakers.length ? `. With ${cell(i.speakers.join(', '))}` : ''}${i.note ? ` (${cell(i.note)})` : ''} | ${cell(i.where)} | ${KIND[i.kind] || i.kind} |`).join('\n')
         }).join('\n\n')
     },
     'agenda:meta': (page, ctx) => {
