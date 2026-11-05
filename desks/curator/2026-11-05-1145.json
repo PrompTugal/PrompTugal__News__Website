@@ -1,0 +1,87 @@
+{
+  "desk": "curator",
+  "agent": "curator@web-summit.vicky",
+  "run": "2026-11-05T11:45Z (scheduled run, written 12:40)",
+  "for": "the journalist (Indi's side), via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9 (pack mode), read with its READ key as listed in people/vicky/vaults.json on the team's site; pulled 5 November 2026 at 12:38 UTC to the researcher's commit f9d8757b5a26 (11:30 run)",
+    "captures_in_vault": 28,
+    "new_mapped_here": 1,
+    "already_mapped": "27, in desks/curator/2026-11-04-1945.json, 2026-11-04-1955.json and 2026-11-05-0745.json",
+    "researcher_report": "people/vicky/reports/researcher.md, Thu 5 Nov 11:30 UTC run"
+  },
+  "rules": "Every fact here is from a capture, as the researcher wrote it; the curator added none, checked none and rewrote no source (checking is the fact-checker's job). Public material only; no contact details; no person is named.",
+  "captures": [
+    {
+      "id": "v-websummit-speakers",
+      "file": "vault 41j3e9s9, captures/2026-11-05-websummit-speakers.md",
+      "source_url": "https://websummit.com/speakers/",
+      "beat": "summit",
+      "names": [
+        "Web Summit",
+        "AgiBot",
+        "Manus AI",
+        "Unitree",
+        "ModelBest",
+        "Xiaomi",
+        "Pony.ai",
+        "MiniMax",
+        "Tencent",
+        "Rokid",
+        "Galbot",
+        "Xpeng",
+        "Replit",
+        "You.com",
+        "Cloudflare"
+      ],
+      "what_is_new": "Web Summit's 2026 speakers page says 800 speakers ('From AI to robotics, from China to Silicon Valley, and beyond'). The first page of the lineup, as read, leads with Chinese technology and robotics companies (AgiBot, Manus AI, Unitree, ModelBest, Xiaomi, Pony.ai, MiniMax, Tencent, Rokid, Galbot, Xpeng), alongside Replit, You.com and Cloudflare. One listed speaker is a robot: Galbot's G1.",
+      "is_story": "yes, S12; and a line for S5 (800 speakers)",
+      "group": "G11 robotics and AI on stage"
+    }
+  ],
+  "groups": {
+    "G11 robotics and AI on stage": [
+      "v-websummit-speakers",
+      "v-tecnico-web-summit-2026"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "captures": [],
+      "verdict": "no noise dropped",
+      "why": "The one new capture is on a beat, public, sourced and new. The researcher left out news that repeated captures already in the vault (its report), so there was nothing to de-duplicate here."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "capture": "v-websummit-speakers",
+      "what": "Only the lineup's first page was read: 'leads with' describes that page, not the whole programme. The researcher did not confirm an AgiBot A3 robot as a speaker (reported by PanAsiaBiz); leave it out. The PanAsiaBiz and Portugal.fr reports of a robotics theme are not captured beyond what this page shows."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S12",
+      "title": "A robot among 800 speakers: Web Summit 2026 turns to robotics",
+      "beat": "summit",
+      "angle": "What participants will see on stage: 800 speakers, a lineup whose first page leads with robotics and AI companies from China beside Silicon Valley names, and a robot, Galbot's G1, listed as a speaker. Técnico's Unitree robots in Pavilion 2 (S8, S10) show the same theme on the floor.",
+      "rests_on": [
+        "v-websummit-speakers",
+        "v-tecnico-web-summit-2026"
+      ],
+      "note": "Name companies, not people: the capture names no individual speaker. Say 'the first page of the lineup', as the capture does.",
+      "words": 11
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S5",
+      "change": "Can add Web Summit's own figure of 800 speakers (v-websummit-speakers)."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "The rest of the speakers lineup beyond its first page, especially Portuguese and European speakers' companies (the Portugal and Europe beats).",
+    "When and on which stage Galbot's G1 appears, if the schedule shows it.",
+    "Still open: Portugal's own stand or delegation, a Portuguese government announcement, this year's Road 2 Web Summit cohort, the one-day transport pass, Técnico's six spin-offs, UniVerse's nine universities, the Italy and Portugal event's panels, the Council of Europe advisory, the team's companies, and who links to the newsroom."
+  ],
+  "urgent": null
+}
