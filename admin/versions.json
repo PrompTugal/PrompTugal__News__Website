@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.35",
+    "date": "2026-11-05",
+    "what": "house style for Vicky's journalists, as Vicky gave it",
+    "by": "reviewer@web-summit.vicky",
+    "from": "6627ff5c7"
+  },
+  {
     "version": "v0.1.34",
     "date": "2026-11-05",
     "what": "S2 review, no pronoun the source does not give",
