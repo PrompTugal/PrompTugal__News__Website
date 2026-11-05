@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.17",
+    "date": "2026-11-05",
+    "what": "desks/curator/README.md, every open story candidate in one table",
+    "by": "curator@web-summit.vicky",
+    "from": "fb11db9bb"
+  },
+  {
     "version": "v0.1.16",
     "date": "2026-11-05",
     "what": "derived data brought up to date (admin/tools/derive.mjs, run by release.sh)",
