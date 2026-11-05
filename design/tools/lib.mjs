@@ -8,7 +8,7 @@ export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '
 export const R = p => path.join(ROOT, p)
 export const LIVE = 'https://web-summit.newsroom.sgit.ai/'
 export const VERSION = fs.readFileSync(R('admin/build/version.txt'), 'utf8').trim()
-export const NAME = 'The Lisbon Wire'   // the working name: one string, so Dinis's choice is one edit
+export const NAME = 'PromptUGAL'   // the working name: one string, so Dinis's choice is one edit
 export const MOTTO = 'The independent newsroom at Web Summit Lisbon 2026'
 
 export const AGENDA = JSON.parse(fs.readFileSync(R('desks/programme/agenda.json'), 'utf8'))

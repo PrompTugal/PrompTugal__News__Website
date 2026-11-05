@@ -26,7 +26,7 @@ By `newsroom-designer@web-summit.dinis`, 5 November 2026, for `newsroom@web-summ
 ```
 Lisbon · Tuesday 10 November 2026, 11:52        Day 1 of 3 · Edition v0.1.7     ○ Your vault
 ┌──────────────┐                                                       ┌──────────────┐
-│EVERY FACT    │        [tile]  The Lisbon Wire                         │POWERED BY    │
+│EVERY FACT    │        [tile]  PromptUGAL                              │POWERED BY    │
 │SOURCED       │   THE INDEPENDENT NEWSROOM AT WEB SUMMIT LISBON 2026   │RISKMANDATE   │
 └──────────────┘                Powered by RiskMandate                  └──────────────┘
 ══════════════════════════════════════════════════════════════════════════════════════
@@ -91,7 +91,7 @@ Every pair used for text passes WCAG AA (4.5:1) in both themes; checked with the
 </div></div>
 <header class="mast">                                                     <!-- .mast.compact on every page but the front -->
   <div class="ear l"><b>Every fact sourced</b>Each one links to a public page, with the date we read it.</div>  <!-- front page only -->
-  <a class="name" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true">…</svg><span class="name-text">The Lisbon Wire</span></a>
+  <a class="name" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true">…</svg><span class="name-text">PromptUGAL</span></a>
   <p class="motto">The independent newsroom at Web Summit Lisbon 2026</p>
   <p class="endorse"><a href="riskmandate/">Powered by <b>RiskMandate</b></a></p>
   <div class="ear r"><b>Powered by RiskMandate</b>Our lens on AI agents: <a href="riskmandate/">reach, mandate, gap</a>.</div>
@@ -117,7 +117,7 @@ Every pair used for text passes WCAG AA (4.5:1) in both themes; checked with the
 
 ```html
 <footer><div class="row">
-  <div class="foot-brand"><span class="name"><svg class="mark">…</svg>The Lisbon Wire</span><span>…descriptor…</span>
+  <div class="foot-brand"><span class="name"><svg class="mark">…</svg>PromptUGAL</span><span>…descriptor…</span>
     <span class="independence">Independent. Not affiliated with Web Summit.</span><span>Powered by <a>RiskMandate</a>. …disclosure link…</span></div>
   <div class="foot-cols"><div><h3>Sections</h3><ul><li><a>…</a></li></ul></div> …4 columns… </div>
   <p class="small">…licence… <a class="ver">v0.1.7</a></p></div></footer>
@@ -196,7 +196,7 @@ Short, plain, British, in the reader's words; no em-dashes. Sections are nouns: 
 
 ## 9. What Dinis needs to decide
 
-1. **The name.** "Web Summit Newsroom" reads as Web Summit's own. Proposed: *The Lisbon Wire* (a quick web search found no newspaper of that name; not a trademark search). Alternatives: *SGit Newsroom, Lisbon*, or a name of his choosing. It is one string.
+1. **The name.** **Decided 5 November 2026, at Dinis's word: PromptUGAL, at promptugal.news** (Vicky proposed "Promptugal News" the same evening). The proposal before it: "Web Summit Newsroom" reads as Web Summit's own. Proposed: *The Lisbon Wire* (a quick web search found no newspaper of that name; not a trademark search). Alternatives: *SGit Newsroom, Lisbon*, or a name of his choosing. It is one string.
 2. **"Independent".** Today the site says "Not independent coverage: we also work on RiskMandate." The new line is "Independent. Not affiliated with Web Summit." beside "Powered by RiskMandate" and the disclosure, and the about page says "independent of Web Summit, not of RiskMandate". Is that wording right?
 3. **Navigation.** Proposed: Now, Agenda, News, Companies, People, Portugal, About (brief 6 had Latest, Companies, The summit, Portugal, Interviews, About; Interviews would sit under News until they exist).
 4. **The editors' box.** Dinis Cruz, Editor-in-chief; Indi, Editor (what we publish and how it reads); Vicky, Editor (research and the programme), after brief 4's proposal; first names only, as the team writes them.

@@ -61,8 +61,8 @@ function mockOpenRouter(script) {
 }
 
 await test('the system prompt says what the site is, its rules and today\'s date', () => {
-    const p = C.systemPrompt({ site: { name: 'The Lisbon Wire', host: 'web-summit.newsroom.sgit.ai' }, now: new Date('2026-11-05T09:30:00Z'), page: { title: 'Replit', url: BASE + 'companies/replit/index.html' }, levels: ['read', 'view'] })
-    for (const s of ['The Lisbon Wire', 'independent newsroom at Web Summit Lisbon 2026', 'not affiliated with Web Summit', 'powered by RiskMandate', 'Thursday 5 November 2026', '09:30 in Lisbon', 'starts on Monday 9 November, in 4 days', 'Sources:', 'No contact details', 'The reader is on the page "Replit"', 'open, highlight']) assert.ok(p.includes(s), `missing: ${s}`)
+    const p = C.systemPrompt({ site: { name: 'PromptUGAL', host: 'web-summit.newsroom.sgit.ai' }, now: new Date('2026-11-05T09:30:00Z'), page: { title: 'Replit', url: BASE + 'companies/replit/index.html' }, levels: ['read', 'view'] })
+    for (const s of ['PromptUGAL', 'independent newsroom at Web Summit Lisbon 2026', 'not affiliated with Web Summit', 'powered by RiskMandate', 'Thursday 5 November 2026', '09:30 in Lisbon', 'starts on Monday 9 November, in 4 days', 'Sources:', 'No contact details', 'The reader is on the page "Replit"', 'open, highlight']) assert.ok(p.includes(s), `missing: ${s}`)
     assert.ok(!p.includes('\u2014'), 'no em-dash')
     assert.ok(C.systemPrompt({ now: new Date('2026-11-11T10:00:00Z'), levels: ['read'] }).includes('day 3 of 4'))
     assert.ok(C.systemPrompt({ now: new Date('2026-11-11T10:00:00Z'), levels: ['read'] }).includes('cannot move the reader\'s page'))

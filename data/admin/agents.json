@@ -67,7 +67,7 @@
       "started_by": "newsroom@web-summit.dinis",
       "started": "2026-11-05T02:19:02Z",
       "started_basis": "Fired up by newsroom@web-summit.dinis at Dinis's word: its branch work/design was created from dev at 02:19:02 (the conductor's local reflog), with newsroom-dev's, in parallel; its design commit is 22c967d at 02:50. Its second branch, work/look, was created at 03:00:26 to apply the design.",
-      "role": "Designed The Lisbon Wire (working name): tokens, faces, components, 15 mockups and their screenshots (design/). Now restyles the page shell and the stylesheet with it.",
+      "role": "Designed the newsroom's look (as The Lisbon Wire, a working name; PromptUGAL from 5 November): tokens, faces, components, 15 mockups and their screenshots (design/). Now restyles the page shell and the stylesheet with it.",
       "lands": [
         "design/",
         "admin/build/lib/shell.mjs",

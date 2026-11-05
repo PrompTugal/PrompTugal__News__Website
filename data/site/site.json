@@ -1,6 +1,6 @@
 {
-  "about": "The words of the page shell: the name and its lines, the dateline, the ears, the footer, who made the site. Read by admin/build/lib/config.mjs; the shell (admin/build/lib/shell.mjs) only places them. The name is a working name (Dinis Cruz, 5 November 2026): change it here and nowhere else.",
-  "name": "The Lisbon Wire",
+  "about": "The words of the page shell: the name and its lines, the dateline, the ears, the footer, who made the site. Read by admin/build/lib/config.mjs; the shell (admin/build/lib/shell.mjs) only places them. The name is PromptUGAL (Dinis Cruz, 5 November 2026, replacing the working name The Lisbon Wire): change it here and nowhere else.",
+  "name": "PromptUGAL",
   "motto": "The independent newsroom at Web Summit Lisbon 2026",
   "place": "Lisbon",
   "dateline": "Lisbon · Web Summit, 9 to 12 November 2026",
@@ -37,5 +37,5 @@
   "repo": "https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit",
   "team_site": "https://web-summit.sgit.ai/",
   "licence": "code Apache-2.0, text and data CC BY 4.0",
-  "footer_note": "Edited by Dinis Cruz, Indi Gupte and Vicky, made with AI agents. Web Summit is named only to say where we report from. Text CC BY 4.0, code Apache-2.0."
+  "footer_note": "Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents. Web Summit is named only to say where we report from. Text CC BY 4.0, code Apache-2.0."
 }

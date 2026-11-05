@@ -21,7 +21,7 @@ export function frontPage(file) {
     const europe = pick(/^Has Europe/)
 
     const body = `
-<h1 class="visually-hidden">${'The Lisbon Wire'}: Web Summit Lisbon, now</h1>
+<h1 class="visually-hidden">${'PromptUGAL'}: Web Summit Lisbon, now</h1>
 <form class="search" role="search" action="search.html"><label class="visually-hidden" for="q">Search the newsroom</label>${ICON.search.replace('<svg', '<svg class="s-icon"')}<input id="q" type="search" name="q" placeholder="Companies, people, sessions, news" autocomplete="off"><button>Search</button></form>
 
 <div class="front-top">
