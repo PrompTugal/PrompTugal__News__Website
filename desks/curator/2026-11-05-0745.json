@@ -1,0 +1,120 @@
+{
+  "desk": "curator",
+  "agent": "curator@web-summit.vicky",
+  "run": "2026-11-05T07:45Z",
+  "for": "the journalist (Indi's side), via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9 (pack mode), read with its READ key as listed in people/vicky/vaults.json on the team's site; pulled 5 November 2026 at 07:47 UTC to the researcher's commit ebfc284b741d (07:30 run)",
+    "captures_in_vault": 27,
+    "new_mapped_here": 2,
+    "already_mapped": "25, in desks/curator/2026-11-04-1945.json and 2026-11-04-1955.json; the only other change in the vault since is PUBLIC.md's audit table, which is not a capture",
+    "researcher_report": "people/vicky/reports/researcher.md, Thu 5 Nov 07:30 UTC run"
+  },
+  "rules": "Every fact here is from a capture, as the researcher wrote it; the curator added none, checked none and rewrote no source (checking is the fact-checker's job). Public material only; no contact details; no person is named.",
+  "captures": [
+    {
+      "id": "v-ulisboa-web-summit-2026",
+      "file": "vault 41j3e9s9, captures/2026-11-05-ulisboa-web-summit-2026.md",
+      "source_url": "https://www.ulisboa.pt/en/noticia/ulisboas-innovation-and-entrepreneurship-ecosystem-web-summit-2026",
+      "beat": "portugal",
+      "names": [
+        "Universidade de Lisboa (ULisboa)",
+        "Instituto Superior Técnico",
+        "Startup Portugal",
+        "Dealroom",
+        "OutSystems",
+        "TEKEVER",
+        "Talkdesk",
+        "Anchorage Digital"
+      ],
+      "what_is_new": "ULisboa at Web Summit for the second year: a stand in Pavilion 1, 10 to 12 November, with projects from its schools and incubator (Técnico separately in Pavilion 2). On 10 November it hosts the second UniVerse, Academia Empreendedora, at the Portugal Pavilion Congress Centre, with nine Portuguese universities, a pitch competition and a demo area. The page says ULisboa was first in Startup Portugal's 2025 Ranking of Entrepreneurial Universities, cites a Dealroom study (more than 1,000 alumni founders, over 30 billion euros cumulative enterprise value, 36 countries), and says its ecosystem gave rise to four of Portugal's six unicorns (OutSystems, TEKEVER, Talkdesk, Anchorage Digital).",
+      "is_story": "yes: with Técnico (v-tecnico-web-summit-2026) it makes S10, Lisbon's universities at the summit",
+      "group": "G9 Portuguese science and universities at the summit"
+    },
+    {
+      "id": "v-aicep-italy-portugal-tech-champions",
+      "file": "vault 41j3e9s9, captures/2026-11-05-aicep-italy-portugal-tech-champions.md",
+      "source_url": "https://www.portugalglobal.pt/en/news/2026/novembro/lisbon-event-explores-italian-portuguese-tech-growth/",
+      "beat": "europe",
+      "names": [
+        "AICEP Portugal Global",
+        "Unicorn Factory Lisboa",
+        "Embassy of Italy in Portugal",
+        "Italian Trade Agency (ICE)"
+      ],
+      "what_is_new": "European Tech Champions, Italy and Portugal: 11 November 2026, 18:30, Unicorn Stage, Beato Innovation District, during Web Summit week; two panels on how European tech companies raise capital and scale internationally, then networking; organised by Unicorn Factory Lisboa, the Embassy of Italy and ICE; registration through the event's website.",
+      "is_story": "yes, as S11, and a line for the agenda (a side event in Beato, not at the venue)",
+      "group": "G5 Europe at the summit"
+    }
+  ],
+  "groups": {
+    "G9 Portuguese science and universities at the summit": [
+      "v-ulisboa-web-summit-2026",
+      "v-tecnico-web-summit-2026",
+      "r1255-18"
+    ],
+    "G5 Europe at the summit": [
+      "r1546-01",
+      "r1255-12",
+      "r1546-02",
+      "v-aicep-italy-portugal-tech-champions"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "captures": [
+        "v-ulisboa-web-summit-2026",
+        "v-tecnico-web-summit-2026"
+      ],
+      "verdict": "kept both, grouped",
+      "why": "Técnico is a school of ULisboa, and the ULisboa page points to Técnico's stand in Pavilion 2; two stands, two sources, one story about Lisbon's universities. Not a duplicate."
+    },
+    {
+      "captures": [],
+      "verdict": "no noise dropped",
+      "why": "Both new captures are on a beat, public, sourced and new."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "capture": "v-ulisboa-web-summit-2026",
+      "what": "The ranking, the Dealroom figures and the four unicorns are ULisboa's own claims about itself, citing others: attribute them to ULisboa (and to Startup Portugal or Dealroom as it cites them), never state them as the newsroom's."
+    },
+    {
+      "capture": "v-ulisboa-web-summit-2026",
+      "what": "The 'Portugal Pavilion Congress Centre' is named as written in the source; the curator does not know whether it is the Pavilhão de Portugal used for registration (r1255-02). Do not join the two without a source."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S10",
+      "title": "Lisbon's universities at Web Summit: two stands and a pitch day",
+      "beat": "portugal",
+      "angle": "Portuguese universities show up in force: ULisboa's stand in Pavilion 1 and Técnico's robots and six spin-offs in Pavilion 2, from 10 to 12 November, and UniVerse on 10 November, where nine Portuguese universities bring a pitch competition and a demo area. ULisboa's own figures on its founders and unicorns, attributed, give the scale.",
+      "rests_on": [
+        "v-ulisboa-web-summit-2026",
+        "v-tecnico-web-summit-2026"
+      ],
+      "note": "Widens S8 (Técnico alone) of desks/curator/2026-11-04-1955.json; the journalist can write either. Attribute ULisboa's claims (for_the_fact_checker).",
+      "words": 11
+    },
+    {
+      "id": "S11",
+      "title": "Italy and Portugal meet in Beato on how European tech scales",
+      "beat": "europe",
+      "angle": "A Europe story from Lisbon: Unicorn Factory Lisboa, the Embassy of Italy and the Italian Trade Agency gather founders and investors on 11 November to talk about raising capital and growing beyond home markets, one more sign of Europe working together during Web Summit week.",
+      "rests_on": [
+        "v-aicep-italy-portugal-tech-champions"
+      ],
+      "note": "A side event, not at the Web Summit venue: say Beato. The capture names no speakers. Also a line for the programme desk's agenda.",
+      "words": 11
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "UniVerse, Academia Empreendedora, 10 November: which nine universities, and the time.",
+    "European Tech Champions, Italy and Portugal: the speakers or companies on the two panels, if published.",
+    "The Council of Europe media advisory on Web Summit 2026 (coe.int refused automated reads, per the researcher's report): another route to it, or another source for the same news.",
+    "Still open: Portugal's own stand or delegation, a Portuguese government announcement, this year's Road 2 Web Summit cohort, the one-day transport pass, what Técnico's six spin-offs do, the rest of the public programme, other delegations, the team's companies, and who links to the newsroom."
+  ],
+  "urgent": null
+}
