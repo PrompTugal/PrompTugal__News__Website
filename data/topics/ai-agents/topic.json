@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "AI agents",
   "kind": "field",
+  "order": 1,
   "description": "Companies building AI agents, agent platforms and the infrastructure agents run on.",
   "broader": [
     "topic:ai"

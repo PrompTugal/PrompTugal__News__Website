@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "harvard-business-review",
+  "type": "organisation",
+  "name": "Harvard Business Review Group",
+  "names_as_listed": [
+    "Harvard Business Review Group"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/",
+      "read_at": "2026-11-04T20:03Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    },
+    {
+      "url": "https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/",
+      "read_at": "2026-11-04T20:04Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

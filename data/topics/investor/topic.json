@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Investors",
   "kind": "field",
+  "order": 7,
   "description": "Investors and the people who track them.",
   "broader": [],
   "summit_tracks": [],

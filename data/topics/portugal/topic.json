@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Portugal",
   "kind": "beat",
+  "order": 13,
   "description": "The Portuguese industry: news, startups, government support, the ecosystem.",
   "broader": [],
   "summit_tracks": [],

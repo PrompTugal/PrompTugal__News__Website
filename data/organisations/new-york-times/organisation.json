@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "new-york-times",
+  "type": "organisation",
+  "name": "The New York Times",
+  "names_as_listed": [
+    "The New York Times"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/f2bbc1ec-386c-4e90-886b-5e549ff7b3a0/reporting-at-the-speed-of-news/",
+      "read_at": "2026-11-04T20:02Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

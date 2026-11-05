@@ -22,14 +22,14 @@
       "as_listed": "Marc Lacey (Managing Editor, The New York Times)",
       "role": "Managing Editor",
       "organisation": "The New York Times",
-      "org": "organisation:the-new-york-times"
+      "org": "organisation:new-york-times"
     },
     {
       "person": "person:betsy-reed",
       "as_listed": "Betsy Reed (Editor-in-Chief, The Guardian US)",
       "role": "Editor-in-Chief",
       "organisation": "The Guardian US",
-      "org": "organisation:the-guardian-us"
+      "org": "organisation:guardian-us"
     },
     {
       "person": "person:nicholas-johnston",

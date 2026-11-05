@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "senen",
+  "type": "organisation",
+  "name": "SENEN GROUP",
+  "names_as_listed": [
+    "SENEN GROUP"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/d135a390-9d48-4b6f-92c0-6992993cdd6f/building-ai-on-your-own-terms-from-technology-discovery-to-real-world-scale/",
+      "read_at": "2026-11-04T20:06Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "admin/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

@@ -5,12 +5,12 @@
   "name": "Mary Robinson",
   "role": "Founding Member",
   "organisation": "The Elders",
-  "org": "organisation:the-elders",
+  "org": "organisation:elders",
   "listings": [
     {
       "role": "Founding Member",
       "organisation": "The Elders",
-      "org": "organisation:the-elders",
+      "org": "organisation:elders",
       "event": "event:do-we-need-a-un-ai-treaty",
       "source": "https://websummit.com/sessions/lis26/e957eedc-8414-42ca-8572-4806d21e8d85/do-we-need-a-un-ai-treaty/",
       "read_at": "2026-11-04T20:06Z",
@@ -19,7 +19,7 @@
     {
       "role": "Founding Member",
       "organisation": "The Elders",
-      "org": "organisation:the-elders",
+      "org": "organisation:elders",
       "event": "event:the-last-days-of-the-rules-based-order",
       "source": "https://websummit.com/sessions/lis26/e293c05f-8c11-4231-abcd-a35cf6392fec/the-last-days-of-the-rules-based-order/",
       "read_at": "2026-11-04T20:02Z",

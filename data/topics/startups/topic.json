@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Startups",
   "kind": "theme",
+  "order": 10,
   "description": "Startups and the summit's startup competition.",
   "broader": [],
   "summit_tracks": [

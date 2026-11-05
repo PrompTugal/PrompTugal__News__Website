@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Developer tools",
   "kind": "field",
+  "order": 3,
   "description": "Tools for people who build software, including with and for agents.",
   "broader": [],
   "summit_tracks": [

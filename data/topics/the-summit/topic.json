@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "The summit",
   "kind": "beat",
+  "order": 12,
   "description": "What is on, day by day, and the logistics: venue, getting there, passes, the apps.",
   "broader": [],
   "summit_tracks": [],

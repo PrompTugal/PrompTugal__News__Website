@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Artificial intelligence",
   "kind": "theme",
+  "order": 9,
   "description": "AI in general: models, agents, and what they do to work.",
   "broader": [],
   "summit_tracks": [

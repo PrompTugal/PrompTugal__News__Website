@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Governance, risk and compliance",
   "kind": "field",
+  "order": 4,
   "description": "Governance, risk, compliance and the regulation of AI, where RiskMandate's questions sit.",
   "broader": [],
   "summit_tracks": [],

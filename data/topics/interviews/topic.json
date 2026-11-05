@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Interviews and podcasts",
   "kind": "beat",
+  "order": 16,
   "description": "Original conversations with people at the summit, published only with their approval.",
   "broader": [],
   "summit_tracks": [],

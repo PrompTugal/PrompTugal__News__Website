@@ -5,12 +5,12 @@
   "name": "Alexandra Geese",
   "role": "MEP",
   "organisation": "The European Parliament",
-  "org": "organisation:the-european-parliament",
+  "org": "organisation:european-parliament",
   "listings": [
     {
       "role": "MEP",
       "organisation": "The European Parliament",
-      "org": "organisation:the-european-parliament",
+      "org": "organisation:european-parliament",
       "event": "event:free-or-controlled-internet-the-great-dsa-debate",
       "source": "https://websummit.com/sessions/lis26/33c61f4c-b906-4056-aefa-ca2f45c27d55/free-or-controlled-internet-the-great-dsa-debate/",
       "read_at": "2026-11-04T20:06Z",

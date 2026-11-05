@@ -73,7 +73,7 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
         if (hit) return hit.ref
         let slug = orgSlugOfKey.get(k)
         if (!slug) {
-            slug = ident(asListed.replace(/\s*\([^()]*\)\s*$/, ''))
+            slug = ident(k)   // from the name's key, so the slug does not depend on which spelling was read first
             while (orgs.has(slug) && orgs.get(slug).key !== k) slug += '-2'
             orgSlugOfKey.set(k, slug)
         }

@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Portuguese startups",
   "kind": "field",
+  "order": 5,
   "description": "Startups from Portugal at the summit.",
   "broader": [
     "topic:portugal",

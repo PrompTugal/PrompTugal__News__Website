@@ -5,12 +5,12 @@
   "name": "Rene Haas",
   "role": "CEO",
   "organisation": "Arm Ltd.",
-  "org": "organisation:arm-ltd",
+  "org": "organisation:arm",
   "listings": [
     {
       "role": "CEO",
       "organisation": "Arm Ltd.",
-      "org": "organisation:arm-ltd",
+      "org": "organisation:arm",
       "event": "event:building-the-infrastructure-for-ai-everywhere",
       "source": "https://websummit.com/sessions/lis26/617cfe96-cb74-4140-a2ed-3eb06e43d066/building-the-infrastructure-for-ai-everywhere/",
       "read_at": "2026-11-04T20:02Z",

@@ -464,7 +464,7 @@
       },
       {
         "as_listed": "Arm Ltd.",
-        "ref": "organisation:arm-ltd",
+        "ref": "organisation:arm",
         "count": 1
       },
       {
@@ -609,7 +609,7 @@
       },
       {
         "as_listed": "European Parliament",
-        "ref": "organisation:the-european-parliament",
+        "ref": "organisation:european-parliament",
         "count": 2
       },
       {
@@ -709,7 +709,7 @@
       },
       {
         "as_listed": "H&M Group",
-        "ref": "organisation:h-and-m-group",
+        "ref": "organisation:h-and-m",
         "count": 1
       },
       {
@@ -719,7 +719,7 @@
       },
       {
         "as_listed": "Harvard Business Review Group",
-        "ref": "organisation:harvard-business-review-group",
+        "ref": "organisation:harvard-business-review",
         "count": 2
       },
       {
@@ -949,7 +949,7 @@
       },
       {
         "as_listed": "SENEN GROUP",
-        "ref": "organisation:senen-group",
+        "ref": "organisation:senen",
         "count": 1
       },
       {
@@ -1054,57 +1054,57 @@
       },
       {
         "as_listed": "The Atlantic",
-        "ref": "organisation:the-atlantic",
+        "ref": "organisation:atlantic",
         "count": 1
       },
       {
         "as_listed": "The Elders",
-        "ref": "organisation:the-elders",
+        "ref": "organisation:elders",
         "count": 2
       },
       {
         "as_listed": "The European Parliament",
-        "ref": "organisation:the-european-parliament",
+        "ref": "organisation:european-parliament",
         "count": 2
       },
       {
         "as_listed": "The Guardian UK",
-        "ref": "organisation:the-guardian-uk",
+        "ref": "organisation:guardian-uk",
         "count": 1
       },
       {
         "as_listed": "The Guardian US",
-        "ref": "organisation:the-guardian-us",
+        "ref": "organisation:guardian-us",
         "count": 2
       },
       {
         "as_listed": "The Kobeissi Letter",
-        "ref": "organisation:the-kobeissi-letter",
+        "ref": "organisation:kobeissi-letter",
         "count": 1
       },
       {
         "as_listed": "The New World",
-        "ref": "organisation:the-new-world",
+        "ref": "organisation:new-world",
         "count": 1
       },
       {
         "as_listed": "The New York Times",
-        "ref": "organisation:the-new-york-times",
+        "ref": "organisation:new-york-times",
         "count": 1
       },
       {
         "as_listed": "The US Government",
-        "ref": "organisation:the-us-government",
+        "ref": "organisation:us-government",
         "count": 1
       },
       {
         "as_listed": "The Vatican",
-        "ref": "organisation:the-vatican",
+        "ref": "organisation:vatican",
         "count": 1
       },
       {
         "as_listed": "The Washington Post",
-        "ref": "organisation:the-washington-post",
+        "ref": "organisation:washington-post",
         "count": 1
       },
       {
@@ -1169,7 +1169,7 @@
       },
       {
         "as_listed": "Xiaomi Group",
-        "ref": "organisation:xiaomi-group",
+        "ref": "organisation:xiaomi",
         "count": 1
       },
       {

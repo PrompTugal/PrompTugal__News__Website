@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "How this newsroom is made",
   "kind": "beat",
+  "order": 17,
   "description": "The agentic team, its policies in action, its near misses, the vaults and the keys.",
   "broader": [],
   "summit_tracks": [],

@@ -22,21 +22,21 @@
       "as_listed": "Alexandra Geese (MEP, The European Parliament)",
       "role": "MEP",
       "organisation": "The European Parliament",
-      "org": "organisation:the-european-parliament"
+      "org": "organisation:european-parliament"
     },
     {
       "person": "person:balazs-orban",
       "as_listed": "Balázs Orban (MEP, European Parliament)",
       "role": "MEP",
       "organisation": "European Parliament",
-      "org": "organisation:the-european-parliament"
+      "org": "organisation:european-parliament"
     },
     {
       "person": "person:arba-kokalari",
       "as_listed": "Arba Kokalari (MEP Group of the European People's Party, European Parliament)",
       "role": "MEP Group of the European People's Party",
       "organisation": "European Parliament",
-      "org": "organisation:the-european-parliament"
+      "org": "organisation:european-parliament"
     },
     {
       "person": "person:luc-chenier",

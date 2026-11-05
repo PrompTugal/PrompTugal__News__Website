@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Policy and regulation",
   "kind": "theme",
+  "order": 11,
   "description": "Public policy and regulation of technology, in Europe and beyond.",
   "broader": [],
   "summit_tracks": [

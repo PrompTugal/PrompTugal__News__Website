@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Platforms",
   "kind": "field",
+  "order": 6,
   "description": "Large platforms and cloud providers.",
   "broader": [],
   "summit_tracks": [],

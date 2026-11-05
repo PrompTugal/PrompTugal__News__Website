@@ -9,6 +9,7 @@
     "type",
     "name",
     "kind",
+    "order",
     "description",
     "broader",
     "summit_tracks",
@@ -69,6 +70,11 @@
     },
     "source": {
       "$ref": "common.schema.json#/$defs/url_or_path"
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "where the topic comes in lists (the companies index keeps the fields in this order)"
     }
   },
   "additionalProperties": false

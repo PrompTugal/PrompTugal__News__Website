@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Europe",
   "kind": "beat",
+  "order": 14,
   "description": "European tech, policy and companies at the summit.",
   "broader": [],
   "summit_tracks": [],

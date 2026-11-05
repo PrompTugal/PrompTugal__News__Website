@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Other",
   "kind": "field",
+  "order": 8,
   "description": "Companies that fit none of the fields above.",
   "broader": [],
   "summit_tracks": [],

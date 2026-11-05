@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Announcements",
   "kind": "beat",
+  "order": 15,
   "description": "What companies and the summit announce, before and during.",
   "broader": [],
   "summit_tracks": [

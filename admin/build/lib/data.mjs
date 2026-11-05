@@ -72,6 +72,7 @@ export function loadData() {
         events: readFolder('event'), people: readFolder('person'), organisations: readFolder('organisation'),
         places: readFolder('place'), topics: readFolder('topic'), stories: readFolder('story'), evidence: readFolder('evidence'),
     }
+    store.topics.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))
     const byRef = new Map()
     const plural = { company: 'companies', event: 'events', person: 'people', organisation: 'organisations', place: 'places', topic: 'topics', story: 'stories', evidence: 'evidence' }
     for (const [type, list] of Object.entries(plural)) for (const x of store[list]) byRef.set(`${type}:${x.id}`, x)

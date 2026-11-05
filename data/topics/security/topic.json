@@ -4,6 +4,7 @@
   "type": "topic",
   "name": "Security",
   "kind": "field",
+  "order": 2,
   "description": "Cybersecurity, identity, fraud and the security of AI systems.",
   "broader": [],
   "summit_tracks": [

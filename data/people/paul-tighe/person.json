@@ -5,12 +5,12 @@
   "name": "Paul Tighe",
   "role": "Secretary of the Dicastery for Culture and Education",
   "organisation": "The Vatican",
-  "org": "organisation:the-vatican",
+  "org": "organisation:vatican",
   "listings": [
     {
       "role": "Secretary of the Dicastery for Culture and Education",
       "organisation": "The Vatican",
-      "org": "organisation:the-vatican",
+      "org": "organisation:vatican",
       "event": "event:putting-human-rights-into-artificial-intelligence",
       "source": "https://websummit.com/sessions/lis26/3a0acb6d-9fd0-4431-ab32-5526addbdcc8/putting-human-rights-into-artificial-intelligence/",
       "read_at": "2026-11-04T20:06Z",
