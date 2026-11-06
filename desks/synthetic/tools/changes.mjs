@@ -1,7 +1,7 @@
 // How much has a page changed since a synthetic reader last saw it? (synthetic@PrompTugal.dinis, 6 November 2026,
 // at Dinis Cruz's word: "there's no point of running new sessions ... if the content hasn't changed").
 //
-//   node desks/synthetic/tools/changes.mjs [--base https://promptugal.news/] [--state DIR] [--save]
+//   node desks/synthetic/tools/changes.mjs [--base https://promptugal.news/] [--state DIR] [--save | --save-pages p1,p2 [--read-at ISO]]
 //
 // Reads each page's markdown twin (<page>.md: the same content as the HTML, no browser needed), normalises it (drops
 // the version, the "Source:" line, the countdown and the reading meter, which change on every release and say nothing
@@ -13,17 +13,19 @@
 //   N(home)  = articles linked from the front page now that were not there last time
 //
 //   a journey runs when   max C over its pages >= 0.20,  or  T(home) >= 0.10,  or  N(home) >= 1
+//   but a page listed in journeys.json's min_hours is not a reason to run until that many hours since it was last read
+//   (the front page: the correspondent reorders it every hour, so its first screen always 'changes'; 6 November 07:50)
 //   otherwise: nothing to read; say so in one line and push nothing.
 //
 // Prints one line per page and the verdict per journey; writes desks/synthetic/seen.json (hashes and scores only) and,
 // with --save, the normalised copies into DIR/pages/ (the vault, never the repository). No dependencies.
 import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import os from 'node:os'
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : d }
-const BASE = arg('--base', 'https://promptugal.news/'), SAVE = process.argv.includes('--save')
+const BASE = arg('--base', 'https://promptugal.news/'), SAVE = process.argv.includes('--save'), SAVE_PAGES = (arg('--save-pages', '') || '').split(',').filter(Boolean).map(x => x === '/' ? '' : x)
 const STATE = arg('--state', path.join(os.homedir(), 'vaults/promptugal-synthetic/state'))
 const HERE = path.dirname(new URL(import.meta.url).pathname), DESK = path.dirname(HERE)
 const J = JSON.parse(fs.readFileSync(path.join(DESK, 'journeys.json'), 'utf8'))
-const TH = J.thresholds
+const TH = J.thresholds, MINH = J.min_hours || {}
 const norm = s => s.replace(/^\*Source: .*\*$/m, '').replace(/\bv\d+\.\d+\.\d+\b/g, '').replace(/£\d+(\.\d+)?/g, '')
     .replace(/\d+ days? to the summit|Starts tomorrow|Day \d of 3/g, '').replace(/\s+/g, ' ').trim()
 const shingles = s => { const w = s.toLowerCase().split(/\W+/).filter(Boolean), o = new Set(); for (let i = 0; i + 5 <= w.length; i++) o.add(w.slice(i, i + 5).join(' ')); return o }
@@ -31,20 +33,23 @@ const change = (a, b) => { if (a === null) return 1; const A = shingles(a), B = 
 const slug = p => (p.replace(/\/$/, '/index').replace(/\.html$/, '').replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '') || 'index')
 const twin = p => BASE + (p === '' || p.endsWith('/') ? p + 'index.md' : p.replace(/\.html$/, '.md'))
 const articles = s => new Set([...s.matchAll(/\]\((articles\/[a-z0-9-]+)\.(?:md|html)\)/g)].map(m => m[1]))
+const RJ = path.join(STATE, 'read.json'), READ = fs.existsSync(RJ) ? JSON.parse(fs.readFileSync(RJ, 'utf8')) : {}
 const pages = [...new Set(J.journeys.flatMap(j => j.pages))], seen = {}, out = { checked: new Date().toISOString().slice(0, 16) + 'Z', base: BASE, thresholds: TH, pages: {}, journeys: {} }
 for (const p of pages) {
     const r = await fetch(twin(p)); if (!r.ok) { out.pages[p] = { status: r.status }; console.log(`${p || '/'}: HTTP ${r.status}`); continue }
     const now = norm(await r.text()), f = path.join(STATE, 'pages', slug(p) + '.md'), old = fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : null
-    const rec = { sha256: crypto.createHash('sha256').update(now).digest('hex').slice(0, 16), chars: now.length, C: change(old, now), first_seen: old === null }
+    const age = old === null ? null : (Date.now() - (READ[p] ? Date.parse(READ[p]) : fs.statSync(f).mtimeMs)) / 3.6e6
+    const rec = { sha256: crypto.createHash('sha256').update(now).digest('hex').slice(0, 16), chars: now.length, C: change(old, now), first_seen: old === null, hours_since_read: age === null ? null : +age.toFixed(1), resting: age !== null && MINH[p] !== undefined && age < MINH[p] }
     if (p === '') { const top = s => s === null ? null : s.slice(0, 1200); rec.T = change(top(old), top(now)); rec.N = old === null ? 0 : [...articles(now)].filter(a => !articles(old).has(a)).length }
     out.pages[p] = rec; seen[p] = now
-    console.log(`${(p || '/').padEnd(52)} C=${rec.C.toFixed(3)}${rec.T !== undefined ? ` T=${rec.T.toFixed(3)} N=${rec.N}` : ''}${old === null ? ' (first look)' : ''}`)
+    console.log(`${(p || '/').padEnd(52)} C=${rec.C.toFixed(3)}${rec.T !== undefined ? ` T=${rec.T.toFixed(3)} N=${rec.N}` : ''}${old === null ? ' (first look)' : ''}${rec.resting ? ` (resting: read ${rec.hours_since_read} h ago, min ${MINH[p]} h)` : ''}`)
 }
 for (const j of J.journeys) {
-    const cs = j.pages.map(p => out.pages[p]?.C ?? 0), h = out.pages['']
+    const live = p => !out.pages[p]?.resting
+    const cs = j.pages.filter(live).map(p => out.pages[p]?.C ?? 0).concat([0]), h = live('') ? out.pages[''] : null
     const why = [Math.max(...cs) >= TH.page && `a page changed ${Math.max(...cs).toFixed(2)} >= ${TH.page}`, j.pages.includes('') && h?.T >= TH.top && `the front page's first screen changed ${h.T.toFixed(2)}`, j.pages.includes('') && h?.N >= TH.new_articles && `${h.N} new article(s) on the front page`].filter(Boolean)
     out.journeys[j.id] = { run: why.length > 0, why }
     console.log(`journey ${j.id}: ${why.length ? 'RUN (' + why.join('; ') + ')' : 'nothing new to read'}`)
 }
 fs.writeFileSync(path.join(DESK, 'seen.json'), JSON.stringify(out, null, 1) + '\n')
-if (SAVE) { fs.mkdirSync(path.join(STATE, 'pages'), { recursive: true }); for (const [p, t] of Object.entries(seen)) fs.writeFileSync(path.join(STATE, 'pages', slug(p) + '.md'), t) }
+if (SAVE || SAVE_PAGES.length) { fs.mkdirSync(path.join(STATE, 'pages'), { recursive: true }); for (const [p, t] of Object.entries(seen)) if (SAVE || SAVE_PAGES.includes(p)) { fs.writeFileSync(path.join(STATE, 'pages', slug(p) + '.md'), t); READ[p] = arg('--read-at', new Date().toISOString()) } fs.writeFileSync(RJ, JSON.stringify(READ, null, 1) + '\n') }
