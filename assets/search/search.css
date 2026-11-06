@@ -46,3 +46,10 @@ a:where(.sp-item), a:where(.res .r-title) { color: var(--ink); text-decoration: 
 .nr-answer { margin: 0.75rem 0; }
 .nr-answer-hint, .nr-answer-tools { font-size: 0.85em; opacity: 0.75; }
 .nr-answer-out:not(:empty) { border-left: 3px solid currentColor; padding: 0.25rem 0.75rem; margin: 0.5rem 0; }
+
+/* the big bar at the top of every page's main column */
+.search.nr-big { max-width: 760px; margin: 4px 0 18px; }
+.page-front .search.nr-big { max-width: 920px; margin: 8px 0 24px; }
+.page-front .search.nr-big input, .page-front .search.nr-big button { height: 60px; font-size: 20px; }
+.page-front .search.nr-big .s-icon { top: 20px; width: 20px; height: 20px; }
+.page-front .search.nr-big input { padding-left: 48px; }

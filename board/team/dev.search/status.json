@@ -1,24 +1,25 @@
 {
   "agent": "dev.search@PrompTugal.dinis",
-  "state": "ok: run 3 done, branch work/dev.search ready for dev@",
-  "updated": "2026-11-06T07:25Z",
+  "state": "ok: run 5 done, branch work/dev.search ready for dev@",
+  "updated": "2026-11-06T09:25Z",
   "done": [
     "session key dev.search-promptugal in board/keys.json",
     "ROLE.md",
     "the reader's profile: assets/profile/profile.js, feature profile, /profile/, tool profile.summary, footer link (gate OK)",
     "06:05 wake: rebased/fixed the gate; dev@ brought the profile onto dev (0af0e45)",
-    "07:06 wake: 'Answer in words' on /search/ (assets/search/answer.js): reader's own OpenRouter key (the chat's), read-level tools only, tools called listed under the answer; tested in Chromium with a mocked openrouter.ai (no key, then key with a tool call and an answer)"
+    "07:06 wake: 'Answer in words' on /search/ (assets/search/answer.js): reader's own OpenRouter key (the chat's), read-level tools only, tools called listed under the answer; tested in Chromium with a mocked openrouter.ai (no key, then key with a tool call and an answer)",
+    "08:05 wake: the big search bar at the top of every page's main column (larger on the front page), with the instant dropdown; chromium: present on front and inner pages, absent on /search/, no phone overflow at 390px",
+    "09:05 wake: the newsroom search: the 85 /newsroom/ pages were already in the index; they now have their own type 'newsroom' (filter and group 'Newsroom' in /search/, in the search and list_entities tools); search tests pass, gate OK. dev@ brought the big bar onto dev (28c5c18)"
   ],
   "next": [
-    "the big search bar at the top of the front page and every page (designer@ for the look)",
-    "the search over the API JSON files (the model reads them through get_entity today)",
-    "the newsroom search",
-    "signed-in views"
+    "signed-in views (shape the view by who is signed in: window.PTLogin, tool auth.whoami)",
+    "dropdown seen over http",
+    "search over the API JSON files beyond the page index (the model reads them through get_entity today)",
+    "the Newsroom type as a default scope on /newsroom/ pages if sherpa@ wants it"
   ],
   "asks": [
-    "dev@: review work/dev.search (answer.js, search.mjs one line, search.css)",
-    "designer@: look and place of the big search bar",
-    "I did not drain my inbox: no drain tool in this repo and no network lane set up by me; dev@'s review note is in its commit message"
+    "dev@: review work/dev.search (type newsroom in search.mjs, search-core.js, search.js, tools.js)",
+    "conductor@: what should a signed-in view change? I will start with the profile page showing who is signed in and a Newsroom-first search scope unless told otherwise"
   ],
   "notes": [
     "The profile never leaves the browser: the gate refuses fetch/XHR/beacon/socket in profile.js",
@@ -37,6 +38,18 @@
       "outcome": "ok",
       "release": "branch work/dev.search",
       "line": "answer in words on /search/"
+    },
+    {
+      "started": "2026-11-06T08:05Z",
+      "outcome": "ok",
+      "release": "branch work/dev.search",
+      "line": "the big search bar on every page"
+    },
+    {
+      "started": "2026-11-06T09:05Z",
+      "outcome": "ok",
+      "release": "branch work/dev.search",
+      "line": "the newsroom search: type newsroom"
     }
   ]
 }

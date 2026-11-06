@@ -11,42 +11,60 @@
   "sources": [
     {
       "url": "https://websummit.com/essentials/registration/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 1206
     },
     {
       "url": "https://websummit.com/essentials/venue/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 1183
     },
     {
       "url": "https://websummit.com/essentials/the-city/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 1199
     },
     {
       "url": "https://websummit.com/essentials/app/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 1204
     },
     {
       "url": "https://websummit.com/schedule/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 2408
     },
     {
       "url": "https://www.metrolisboa.pt/2026/11/02/passe-de-transporte-para-web-summit/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 10603
     },
     {
       "url": "https://www.cp.pt/info/documents/d/cp/desdobravel-digital-passe-transporte-web-summit-2026-eng-1",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 3388
     },
     {
       "url": "https://executivedigest.sapo.pt/web-summit-2026-metro-de-lisboa-prepara-reforco-de-comboios-e-vigilancia-para-receber-75-mil-participantes/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 6902
     },
     {
       "url": "https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 8986
     }
   ],
-  "spent_usd": 0.3126,
+  "spent_usd": 0.1177,
   "claims": [
     {
       "id": "c1",
@@ -56,22 +74,22 @@
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S8",
-          "quote": "decorre entre 9 e 12 de novembro, na Feira Internacional de Lisboa (FIL) e na MEO Arena",
-          "note": "S8 states the 2026 Web Summit runs 9 to 12 November at the FIL and MEO Arena, matching the claim."
+          "quote": "entre 9 e 12 de novembro, na Feira Internacional de Lisboa (FIL) e na MEO Arena",
+          "note": "The Executive Digest article says the 2026 Web Summit runs between 9 and 12 November at the FIL and MEO Arena, which matches the claim; the quote is in Portuguese."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S8",
           "quote": "Web Summit, que decorre entre 9 e 12 de novembro, na Feira Internacional de Lisboa (FIL) e na MEO Arena",
-          "note": "The source explicitly confirms that Web Summit takes place from 9 to 12 November at FIL and the MEO Arena."
+          "note": "Source S8 directly confirms that Web Summit takes place from 9 to 12 November at FIL and the MEO Arena."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S8",
           "quote": "decorre entre 9 e 12 de novembro, na Feira Internacional de Lisboa (FIL) e na MEO Arena",
-          "note": "Source S8 states both the dates and the venues MEO Arena and FIL."
+          "note": "S8 directly states the Web Summit runs from 9 to 12 November at FIL and MEO Arena."
         }
       ],
       "consensus": "supported",
@@ -86,14 +104,14 @@
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the sources gives a distance between Oriente station and the MEO Arena; S8 mentions the arena and S9 mentions Estação do Oriente only as a shuttle stop, so the 300-metre figure cannot be verified."
+          "note": "None of the sources gives a distance between Oriente station and the MEO Arena; the only '300' in them refers to a festival with 300 people, and S8 mentions the MEO Arena only as an event venue."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the provided sources mention the distance between Oriente metro station and the MEO Arena."
+          "note": "None of the provided sources mention the distance between the Oriente metro station and the MEO Arena."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
@@ -108,115 +126,115 @@
     },
     {
       "id": "c3",
-      "claim": "The transport pass costs 23 euros for 3 days or 31.50 euros for 5 days.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S6",
-          "quote": "3 dias · 23,00 € 5 dias · 31,50 €",
-          "note": "The Metro de Lisboa page lists the Web Summit Transport Pass at 23.00 € for 3 days and 31.50 € for 5 days, matching the claim."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S8",
-          "quote": "Estarão disponíveis duas modalidades: o passe de três dias, por 23 euros, e o de cinco dias, por 31,50 euros.",
-          "note": "The source confirms that the pass costs 23 euros for three days and 31.50 euros for five days."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S6",
-          "quote": "3 dias · 23,00 € 5 dias · 31,50 €",
-          "note": "The Metro de Lisboa page lists the Web Summit Transport Pass at 23.00 euros for 3 days and 31.50 euros for 5 days."
-        }
-      ],
-      "consensus": "supported",
-      "flag_to_journalist": false
-    },
-    {
-      "id": "c4",
-      "claim": "Replacing a lanyard or wristband costs 100 euros.",
+      "claim": "Oriente metro station is about 600 metres from Pavilhão de Portugal.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the sources mention a lanyard, wristband, or any replacement fee, and the 100-euro figure appears nowhere in them; the only euro amounts are transport pass prices (23 and 31.50 euros) in S6, S8 and S9."
+          "note": "None of the sources give any distance between Oriente station and the Pavilhão de Portugal; they only mention Oriente station as a transport link to the Parque das Nações."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "The provided sources do not mention any replacement cost for a lanyard or wristband."
+          "note": "None of the provided sources mention Pavilhão de Portugal or its distance from Oriente metro station."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "No source mentions replacing a lanyard or wristband or a 100 euro cost."
+          "note": "None of the provided sources mentions Pavilhão de Portugal or gives a distance of about 600 metres from Oriente metro station."
         }
       ],
       "consensus": "unsupported",
       "flag_to_journalist": true
     },
     {
-      "id": "c5",
-      "claim": "Carris runs a 'Shuttle Web Summit' between Praça do Comércio and Oriente from Monday 9 to Thursday 12 November.",
+      "id": "c4",
+      "claim": "Carris runs a \"Shuttle Web Summit\" bus between Praça do Comércio and Oriente from Monday 9 to Thursday 12 November.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S9",
           "quote": "entre segunda-feira e 12 de novembro",
-          "note": "S9 names the 'Shuttle Web Summit' linking Praça do Comércio and Estação do Oriente and says the Carris offer runs from Monday until 12 November; the Thursday 12 end date matches the Web Summit's 9-12 November dates on S1 and S2."
+          "note": "S9 says Carris's 'Shuttle Web Summit' links Praça do Comércio (Estação Sul e Sueste) and Oriente in both directions from Monday until 12 November, and the Monday is the 9th given the event dates in S8 and S2."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S9",
-          "quote": "Entre as soluções está a disponibilização do serviço ‘Shuttle Web Summit’, que assegurará o transporte entre o centro da cidade e o Parque das Nações, através da ligação entre a Estação Sul e Sueste, na Praça do Comércio, e a Estação do Oriente",
-          "note": "Source S9 confirms Carris is reinforcing transport for Web Summit between Monday and 12 November (which runs 9–12 November) with the 'Shuttle Web Summit' linking Praça do Comércio and Estação do Oriente."
+          "quote": "A Carris vai reforçar a oferta de transportes para a Web Summit, em Lisboa, entre segunda-feira e 12 de novembro, com um serviço de autocarros dedicado [...] serviço ‘Shuttle Web Summit’, que assegurará o transporte entre o centro da cidade e o Parque das Nações, através da ligação entre a Estação Sul e Sueste, na Praça do Comércio, e a Estação do Oriente",
+          "note": "The source confirms that Carris will operate the 'Shuttle Web Summit' bus connecting Praça do Comércio and Estação do Oriente between Monday (November 9) and November 12."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "partly",
           "source": "S9",
-          "quote": "serviço 'Shuttle Web Summit', que assegurará o transporte entre o centro da cidade e o Parque das Nações, através da ligação entre a Estação Sul e Sueste, na Praça do Comércio, e a Estação do Oriente",
-          "note": "S9 supports the Carris Shuttle Web Summit between Praça do Comércio and Oriente and the Monday-to-12-November period, but it does not state Thursday."
+          "quote": "entre segunda-feira e 12 de novembro",
+          "note": "S9 confirms Carris’s ‘Shuttle Web Summit’ between Praça do Comércio and Oriente, but it gives the period as Monday to 12 November and does not state Thursday."
         }
       ],
       "consensus": "disagree",
       "flag_to_journalist": true
     },
     {
+      "id": "c5",
+      "claim": "The Lisbon transport pass costs 23 euros for 3 days and 31.50 euros for 5 days.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "3 days · €23.00 | 5 days · €31.50",
+          "note": "The official FAQ gives the same prices, and S6 and S8 state them in Portuguese (23,00 € and 31,50 €)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "3 days · €23.00 | 5 days · €31.50",
+          "note": "The transport pass is available as a 3-day pass for 23 euros and a 5-day pass for 31.50 euros."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "3 days · €23.00 | 5 days · €31.50",
+          "note": "S7 states the Web Summit Transport Pass costs €23.00 for 3 days and €31.50 for 5 days."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
       "id": "c6",
-      "claim": "Pavilhão de Portugal is about 600 metres from Oriente station.",
+      "claim": "Replacing a lost lanyard or wristband costs 100 euros.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "No source mentions Pavilhão de Portugal or gives its distance from Oriente station; S9 names Estação do Oriente only as a shuttle stop, and S7 is an unreadable PDF dump."
+          "note": "None of the provided sources mention lanyards, wristbands, or a replacement fee; they cover Web Summit registration, venue, schedule, app, and transport passes."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the provided sources mention Pavilhão de Portugal or its distance from Oriente station."
+          "note": "None of the provided sources mention lost lanyards, wristbands, or replacement fees."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "No provided source mentions Pavilhão de Portugal or a distance of about 600 metres from Oriente station."
+          "note": "None of the provided sources mention replacing a lost lanyard or wristband or any 100 euro fee."
         }
       ],
       "consensus": "unsupported",
@@ -224,28 +242,28 @@
     },
     {
       "id": "c7",
-      "claim": "Registration at Terminal 1 of Lisbon's Humberto Delgado Airport is open 9.30am to 10pm on 7 November.",
+      "claim": "Wristband and lanyard collection at Terminal 1 of Lisbon's Humberto Delgado Airport runs on 7 November from 9.30am to 10pm.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "unsupported",
-          "source": "S6",
-          "quote": "Sábado, 7 de novembro · 09h30–22h00",
-          "note": "The 09h30–22h00 hours on 7 November in S6 (and S8) are for the Web Summit transport pass sales point at Lisbon Airport, not registration, and no source mentions Terminal 1 or registration hours."
+          "source": null,
+          "quote": "",
+          "note": "No source mentions wristband or lanyard collection or Terminal 1; the 7 November 09h30–22h00 hours in S6, S7 and S8 apply to sales of the Web Summit transport pass at the airport, not to wristband collection."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the sources specify registration hours or mention Terminal 1 of Humberto Delgado Airport."
+          "note": "None of the provided sources state the operating hours or specific terminal location for wristband and lanyard collection, mentioning only the transport pass sales schedule."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "unsupported",
-          "source": "S6",
-          "quote": "Passe de transporte",
-          "note": "S6 lists a transport-pass sales point at Lisbon Airport next to the Web Summit accreditation zone, not registration at Terminal 1."
+          "source": null,
+          "quote": "",
+          "note": "The sources mention a Web Summit transport pass being sold at Lisbon Airport on 7 November from 09:30 to 22:00, not wristband and lanyard collection."
         }
       ],
       "consensus": "unsupported",
@@ -253,86 +271,86 @@
     },
     {
       "id": "c8",
-      "claim": "The Carris shuttle runs towards Oriente from 8am to 11am.",
+      "claim": "Wristband and lanyard collection at Pavilhão de Portugal runs on 7 and 8 November from 12pm to 6pm.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the passages mention wristband or lanyard collection, Pavilhão de Portugal, or 7–8 November hours of 12pm to 6pm; the sources cover only transport passes, the venue, and the schedule."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention wristband or lanyard collection, Pavilhão de Portugal, or the specified hours."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source mentions wristband and lanyard collection at Pavilhão de Portugal or the stated dates and times."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "The Web Summit first-timers' meetup is on Tuesday 10 November from 11am to 11.55am.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S9",
-          "quote": "funcionará entre as 08:00 e as 11:00, no sentido Sul e Sueste–Oriente",
-          "note": "The Carris article states the shuttle runs from 08:00 to 11:00 in the Sul e Sueste–Oriente direction, which matches the claim."
+          "source": "S5",
+          "quote": "First timers at Web Summit meetup November 10 • 11.00AM - 11.55AM",
+          "note": "S5 gives the meetup's date, start and end times; the Tuesday weekday comes from S6, which lists 'Terça-feira, 10 de novembro' (Tuesday, 10 November)."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S9",
-          "quote": "funcionará entre as 08:00 e as 11:00, no sentido Sul e Sueste–Oriente",
-          "note": "Source S9 directly confirms that the Carris shuttle operates towards Oriente between 08:00 and 11:00."
+          "source": "S5",
+          "quote": "First timers at Web Summit meetup November 10 • 11.00AM - 11.55AM",
+          "note": "The schedule confirms that the first-timers meetup is scheduled for November 10 (which is a Tuesday, as shown in S6) from 11.00AM to 11.55AM."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S9",
-          "quote": "funcionará entre as 08:00 e as 11:00, no sentido Sul e Sueste–Oriente",
-          "note": "S9 states the Carris shuttle operates from 08:00 to 11:00 in the direction Sul e Sueste–Oriente."
+          "source": "S5",
+          "quote": "First timers at Web Summit meetup November 10 • 11.00AM - 11.55AM",
+          "note": "S5 lists the First timers meetup on November 10 at 11.00–11.55AM, and S6 confirms 10 November is Tuesday."
         }
       ],
       "consensus": "supported",
       "flag_to_journalist": false
     },
     {
-      "id": "c9",
-      "claim": "Metro de Lisboa and CP say the transport pass is sold only at Lisbon airport.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "partly",
-          "source": "S6",
-          "quote": "A venda é exclusivamente presencial no Aeroporto de Lisboa",
-          "note": "Metro de Lisboa's own page says sales are exclusively in person at Lisbon airport, but the CP document (S7) has no readable text, and S9 (Carris-sourced) says passes can also be bought at the Web Summit Welcome Center."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "partly",
-          "source": "S6",
-          "quote": "A venda é exclusivamente presencial no Aeroporto de Lisboa",
-          "note": "Metro de Lisboa states that the pass is sold exclusively in person at Lisbon airport, but the sources do not show CP stating this."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "partly",
-          "source": "S6",
-          "quote": "A venda é exclusivamente presencial no Aeroporto de Lisboa",
-          "note": "S6 supports Metro de Lisboa saying the pass is sold exclusively at Lisbon Airport, but no readable CP source confirms CP says the same."
-        }
-      ],
-      "consensus": "partly",
-      "flag_to_journalist": true
-    },
-    {
       "id": "c10",
-      "claim": "The schedule lists a first-timers' meetup on Tuesday 10 November from 11am to 11.55am.",
+      "claim": "The transport pass is not sold online and no one-day pass is offered this year, according to Executive Digest.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S5",
-          "quote": "First timers at Web Summit meetup November 10 • 11.00AM - 11.55AM",
-          "note": "The schedule lists the meetup on November 10 from 11.00AM to 11.55AM, and S6 confirms 10 November is a Tuesday (\"Terça-feira, 10 de novembro\"), though S5 itself gives no weekday."
+          "source": "S8",
+          "quote": "Este ano, não haverá comercialização online, emissão de vouchers nem passes válidos apenas por um dia.",
+          "note": "Executive Digest states there will be no online sale, voucher issuance, or one-day-only passes this year, though the Metro de Lisboa page (S6) says a 1-day pass is sold online, a conflict the claim does not address."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S5",
-          "quote": "First timers at Web Summit meetup November 10 • 11.00AM - 11.55AM",
-          "note": "The Web Summit schedule lists the first-timers' meetup on November 10 (a Tuesday) from 11:00am to 11:55am."
+          "source": "S8",
+          "quote": "Este ano, não haverá comercialização online, emissão de vouchers nem passes válidos apenas por um dia",
+          "note": "Executive Digest reports that this year there will be no online sales and no passes valid for only one day."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S5",
-          "quote": "First timers at Web Summit meetup November 10 • 11.00AM - 11.55AM",
-          "note": "The schedule source lists the first-timers meetup on November 10 from 11.00AM to 11.55AM."
+          "source": "S8",
+          "quote": "Este ano, não haverá comercialização online, emissão de vouchers nem passes válidos apenas por um dia.",
+          "note": "Executive Digest states there will be no online sales and no one-day passes this year."
         }
       ],
       "consensus": "supported",

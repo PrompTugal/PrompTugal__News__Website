@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "unleash-football",
+  "type": "organisation",
+  "name": "Unleash Football",
+  "names_as_listed": [
+    "Unleash Football"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/45a6847e-375b-487a-bf66-f85bf4e9753d/who-gets-a-say-in-football-s-future/",
+      "read_at": "2026-11-06T08:18Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

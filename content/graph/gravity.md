@@ -19,3 +19,5 @@ Every dot is a company from the newsroom's graph. A well is a field (security, A
 - **By field or by country** regroups the same companies. **Save as PNG** downloads the picture as it is now.
 
 The data is [graph/explorer.json](../../api/v1/graph/explorer.json), the same graph the [explorer](../index.html) loads; every company named here has its own page with sources.
+
+The same companies as a tree by field, with the programme tracks: [the industry map](../industry/index.html).

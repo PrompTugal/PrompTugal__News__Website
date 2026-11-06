@@ -8,9 +8,9 @@
   "organiser": "web-summit",
   "our_pick": true,
   "date": "2026-11-12",
-  "time": "11:55-12:15",
-  "start": "11:55",
-  "end": "12:15",
+  "time": "11:50-12:10",
+  "start": "11:50",
+  "end": "12:10",
   "where": "Stage 13 (AI Summit), MEO Arena and FIL",
   "place": "place:stage-13",
   "track": "AI Summit",
@@ -35,7 +35,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/fad36198-b0af-4295-bec3-b7671b62e786/beyond-the-model-scaling-ai-agents-for-professional-work/",
-  "read_at": "2026-11-05T08:19Z",
+  "read_at": "2026-11-06T08:19Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -46,6 +46,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 178
+    "item": 186
   }
 }
