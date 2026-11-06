@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.205",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: the desk's README under the new name; the summary is checked too",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "129bbb0b8"
+  },
+  {
     "version": "v0.1.204",
     "date": "2026-11-06",
     "what": "devops@PrompTugal.dinis: wake 10:14: the tag-push loss fixed; three Pages stalls recovered; work/dev.pages's conflicts flagged; run report; blocked on draining my inbox",
