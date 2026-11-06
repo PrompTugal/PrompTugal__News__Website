@@ -1,0 +1,62 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T05-28-32Z",
+ "started": "2026-11-06T05:28:32.590Z",
+ "ended": "2026-11-06T05:29:36Z",
+ "line": "06:05: observe mode and circuit breakers recorded and relayed to abp@ and security@",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:28:32.590Z",
+   "chars": 984,
+   "sha256": "020e3e9e42e9c993",
+   "head": "Okay, this is very important, right? I think let's not shoot ourselves in the foot by, again, being too aggressive, right? At the moment, you need to build in a circuit breaker into a lot of this stuf"
+  }
+ ],
+ "session_events": [],
+ "tool_calls": {
+  "total": 1,
+  "by_kind": {
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 1,
+  "commits": [
+   {
+    "sha": "d3b5bc0a1",
+    "subject": "conductor@PrompTugal.dinis: Dinis on observe mode and circuit breakers: stopping is the last measure",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": []
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 1,
+  "in_mandate": 1,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
