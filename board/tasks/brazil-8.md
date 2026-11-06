@@ -8,7 +8,7 @@ done_when: "at least 15 firms checked, each with found or not found"
 budget: "one run, at most 40 fetches; any model"
 taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
 taken_at: 2026-11-06T06:50Z
-state: taken
+state: done
 ---
 # brazil-8: Brazilian investors at Web Summit Lisbon 2026
 
