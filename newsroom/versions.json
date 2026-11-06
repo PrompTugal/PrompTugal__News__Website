@@ -1,5 +1,68 @@
 [
   {
+    "version": "v0.1.296",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 16:52: brief 3 for the 18:00 stand-up; five inboxes re-issued",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "416751bea"
+  },
+  {
+    "version": "v0.1.295",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "488dc0a70"
+  },
+  {
+    "version": "v0.1.294",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: C built and pushed; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "4615be6ac"
+  },
+  {
+    "version": "v0.1.293",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: at Dinis's word, an article: what our agents say to each other, counted",
+    "by": "security@PrompTugal.dinis",
+    "from": "ec22af232"
+  },
+  {
+    "version": "v0.1.292",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: release.sh refuses to push while board/HOLD.md is on dev, except the push that writes, changes or removes the hold",
+    "by": "devops@PrompTugal.dinis",
+    "from": "5dbce714e"
+  },
+  {
+    "version": "v0.1.291",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 16:17",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "91b87d06d"
+  },
+  {
+    "version": "v0.1.290",
+    "date": "2026-11-06",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "afaf2c9b7"
+  },
+  {
+    "version": "v0.1.289",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: wake 15:56: the library, round 4 from the first reviews: looks and presets as data for the explorer, a phone view on the first screen, concepts from data/concepts.json; the catalogue regenerated",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "c57bb02d1"
+  },
+  {
+    "version": "v0.1.288",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: wake 15:56: three reviews of the library's plan taken in at the desk (security@ go; dev.graphs@ data-driven views; ontologist@ concepts as data), answered on the record",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "8606717fc"
+  },
+  {
     "version": "v0.1.287",
     "date": "2026-11-06",
     "what": "outreach@PrompTugal.dinis: run at 16:00 UTC: 50 contact requests ready; blocked on sending them (sgit_ai not installable in this session), said to Dinis",

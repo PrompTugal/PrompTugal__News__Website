@@ -1,0 +1,100 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T16-20-32Z",
+ "started": "2026-11-06T16:20:32.985Z",
+ "ended": "2026-11-06T16:55:11Z",
+ "line": "16:52 wake: brief 3 (18:00 stand-up), five inboxes re-issued after printed credentials, S20 trimmed, plan; snapshot 1652Z",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T16:21:40.772Z",
+   "chars": 193,
+   "sha256": "c38a3b05dbf0c0bd",
+   "head": "When is the new design going to be fully implemented? Because we already approved the homepage, all the different sections, and all the mappings, right? So how far are we from having that live?"
+  },
+  {
+   "t": "2026-11-06T16:52:21.488Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T16:20:32.985Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-06T16:52:21.150Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "git": 2,
+   "web": 3,
+   "session": 2,
+   "other": 1,
+   "shell": 5,
+   "read": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 13,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-06T16:22:06.476Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:22:09.057Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 15,
+  "in_mandate": 13,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

@@ -1,0 +1,76 @@
+/* top.css: C, the top of every page (newsroom/build/lib/top.mjs; the switch assets/top/top.js). Both tops are in every
+   page; <html data-top="c"> shows C and hides A (the dateline, the masthead, the sections bar). Without the switch,
+   A shows, as before. Phone first; 768 px and up is the desktop row. */
+
+html:not([data-top="c"]) .ctop, html:not([data-top="c"]) .ctop-tagline, html:not([data-top="c"]) .ctabs, html:not([data-top="c"]) .cmore { display: none !important; }
+html[data-top="c"] .dateline, html[data-top="c"] header.mast, html[data-top="c"] nav.site { display: none !important; }
+
+/* the row */
+.ctop { position: sticky; top: 0; z-index: 30; background: var(--paper); border-bottom: 1px solid var(--rule-2); }
+.ctop-row { max-width: var(--page); margin: 0 auto; padding: 8px var(--gutter); display: flex; align-items: center; gap: 10px; min-height: 56px; box-sizing: border-box; }
+.ctop-home { display: flex; align-items: center; gap: 8px; min-width: 0; flex: 1 1 auto; color: var(--ink); text-decoration: none; }
+.ctop-home:hover { color: var(--ink); }
+.ctop-stamp { width: 34px; height: 34px; flex: none; }
+.ctop-name { display: flex; flex-direction: column; min-width: 0; line-height: 1.15; }
+.ctop-name b { font: 600 15px/1.2 var(--sans); letter-spacing: -.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ctop-name time { font: 500 12px/1.3 var(--mono); color: var(--ink-3); }
+.ctop-wm, .ctop-search, .ctop-when, .ctop-nav { display: none; }
+.ctop-tools { flex: none; display: flex; align-items: center; }
+.ctop-tools .tools { display: flex; align-items: center; gap: 6px; }
+@media (max-width: 767px) { .ctop-row { gap: 8px; } .ctop-tools .tool { height: 32px; padding: 0 8px; gap: 4px; font-size: 13px; } }
+
+/* C on a phone: the credit and Ask stay in the row; the rest is in the tab bar, More, or the footer (Q2, Q4, Q8, Q9) */
+html[data-top="c"] .ctop-tools .nr-search-btn, html[data-top="c"] .ctop-tools .vault-btn, html[data-top="c"] .ctop-tools .theme-pick,
+html[data-top="c"] .ask-fab, html[data-top="c"] .nr-search-float { display: none !important; }
+html[data-top="c"] .ctop-tools .tool.meter .meter-label { display: inline; }
+html[data-top="c"] .ctop-tools .tool.ask { display: inline-flex; }
+html[data-top="c"] .ctop-tools .profile, html[data-top="c"] .ctop-tools .pt-login-chip { display: none; }
+.ctop-tagline { max-width: var(--page); margin: 10px auto 0; padding: 0 var(--gutter); box-sizing: border-box; font: italic 400 17px/1.35 var(--serif); color: var(--ink-2); }
+html[data-top="c"] .page-front .ctop-tagline { margin-bottom: 4px; }
+.foot-theme:not(:empty) { margin-left: 10px; display: inline-flex; vertical-align: middle; }
+
+/* the tab bar, above the safe area */
+.ctabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); background: var(--paper); border-top: 1px solid var(--rule-2); padding: 6px 4px calc(6px + env(safe-area-inset-bottom)); }
+.ctabs a, .ctabs button { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 4px 0; min-height: 44px; color: var(--ink-2); text-decoration: none; font: 600 11.5px/1.1 var(--sans); letter-spacing: -.01em; white-space: nowrap; overflow: hidden; background: none; border: 0; cursor: pointer; }
+.ctabs svg, .ctop-search svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.ctabs a[aria-current], .ctabs button[aria-expanded="true"] { color: var(--brand); }
+html[data-top="c"] body { padding-bottom: calc(66px + env(safe-area-inset-bottom)); }
+html[data-top="c"] .chat, html[data-top="c"] .pane { bottom: calc(66px + env(safe-area-inset-bottom)); }
+
+/* More: every section, the newsroom, sign in */
+.cmore { position: fixed; inset: 0; z-index: 35; background: rgba(0, 0, 0, .28); }
+.cmore nav { position: absolute; left: 0; right: 0; bottom: calc(66px + env(safe-area-inset-bottom)); background: var(--paper); border-top: 1px solid var(--rule-2); padding: 8px var(--gutter) 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; max-height: 70vh; overflow-y: auto; }
+.cmore a { display: block; padding: 13px 0; border-bottom: 1px solid var(--hair); color: var(--ink); text-decoration: none; font: 600 15px/1.2 var(--sans); }
+.cmore a[aria-current] { color: var(--brand); }
+
+/* the desktop: the wordmark, the search field, the date, the sections under it */
+@media (min-width: 768px) {
+    .ctabs, .cmore, .ctop-tagline { display: none !important; }
+    html[data-top="c"] body { padding-bottom: 0; }
+    html[data-top="c"] .chat, html[data-top="c"] .pane { bottom: 0; }
+    .ctop-row { gap: 20px; min-height: 68px; padding-top: 12px; padding-bottom: 8px; }
+    .ctop-home { flex: none; }
+    .ctop-stamp, .ctop-name { display: none !important; }
+    .ctop-wm { display: block; }
+    .ctop-wm .wordmark { width: 180px; height: auto; }
+    .ctop-search { display: flex; align-items: center; gap: 8px; flex: 1 1 320px; max-width: 420px; height: 38px; padding: 0 12px; border: 1px solid var(--rule-2); border-radius: var(--radius-pill); background: var(--paper); }
+    .ctop-search:focus-within { border-color: var(--ink); }
+    .ctop-search label { display: flex; color: var(--ink-3); cursor: text; }
+    .ctop-search svg { width: 17px; height: 17px; }
+    .ctop-search input { flex: 1; min-width: 0; border: 0; background: none; outline: none; font: 400 15px/1 var(--sans); color: var(--ink); }
+    .ctop-search kbd { font: 500 11px/1 var(--mono); color: var(--ink-3); border: 1px solid var(--hair); border-radius: 3px; padding: 2px 5px; }
+    .ctop-when { display: flex; flex-direction: column; margin: 0; font: 500 12px/1.45 var(--mono); color: var(--ink-3); white-space: nowrap; }
+    .ctop-when b { color: var(--brand); font-weight: 500; }
+    .ctop-when a { color: var(--ink-3); text-decoration: none; }
+    .ctop-when a:hover { text-decoration: underline; }
+    .ctop-tools { margin-left: auto; }
+    html[data-top="c"] .ctop-tools .profile, html[data-top="c"] .ctop-tools .pt-login-chip { display: inline-flex; }
+    .ctop-nav { display: flex; align-items: center; gap: 20px; max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); box-sizing: border-box; }
+    .ctop-nav .links { display: flex; gap: 0 26px; flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+    .ctop-nav .links a { padding: 10px 0 11px; border-bottom: 2px solid transparent; color: var(--ink); text-decoration: none; font: 600 12.5px/1 var(--sans); text-transform: uppercase; letter-spacing: .07em; white-space: nowrap; }
+    .ctop-nav .links a:hover { border-bottom-color: var(--rule-2); }
+    .ctop-nav .links a[aria-current] { border-bottom-color: var(--brand); }
+    .ctop-motto { margin: 0; flex: none; font: italic 400 15px/1.2 var(--serif); color: var(--ink-2); }
+}
+@media (min-width: 768px) and (max-width: 1099px) { .ctop-motto { display: none; } .ctop-when > span:first-child { display: none; } }
+@media print { .ctop, .ctabs, .cmore, .ctop-tagline { display: none !important; } }

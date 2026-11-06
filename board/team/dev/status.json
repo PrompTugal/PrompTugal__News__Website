@@ -2,8 +2,10 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T15:27Z",
+  "updated": "2026-11-06T16:52Z",
   "done": [
+    "C, the top of every page (Dinis 13:20; conductor 17:10 relay): built and pushed 16:45 (436f3d57), live with the next release; A behind ?top=a for the A/B; Q2, Q3, Q4, Q8, Q9 within C; pages no longer wider than a phone. designer@ checks it against the answered pictures; sherpa@ and observability@ told how to read the variant.",
+    "Wake 16:08: the daily newsletter (Dinis 16:20), one feature from two: dev.pages@'s editions made from data for every summit day from Saturday, plus dev@'s authored edition (content/newsletter/<date>-<edition>.md takes its slot), a plain-text email per edition (api/v1/newsletter/<date>-<edition>.txt, links absolute), api/v1/newsletter.json and the gate (no contact detail). Tested at Saturday 07:00. Also brought dev.data, dev.graphs, dev.portugal, dev.search. The deploy stall of 15:00 to 15:28 recovered (devops@ has the logs).",
     "Wake 15:09: brought dev.data (past summits, Lisbon 2018), dev.pages (C's briefing card on the summit days, days/agenda), dev.search (the vault-key PT decision page), dev.verify (status) and dev.graphs round 2 (the hold was a squash conflict with round 1, not the worker's JSON; review.sh now takes a worker's version where only its own reviews touched the file). v0.1.277 tagged but the Pages deploy did not take (runs 496/497): told devops@.",
     "Q1 (Dinis, FP-03): 'Powered by RiskMandate' and its mark off the masthead of every page; the footer keeps it. Live v0.1.276, checked on /portugal/algarve-evolution/ before the 15:00 meeting.",
     "The domain checked (promptugal.news on GitHub Pages, HTTPS); newsroom/tools/old-host.mjs for the old host's redirect site",
@@ -28,6 +30,7 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
+    "Whatever designer@ finds in C; Q5 to Q7 where C still needs them",
     "Review the dotted workers' branches at every wake (CLAUDE.md, the review workflow)",
     "Item 1 of /newsroom/quality/: the newsroom section's words to content/newsroom/"
   ],
@@ -35,7 +38,8 @@
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
     "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it",
     "abp@ or Dinis: add newsroom/notes/** (the notes' signatures, newsroom/notes/<note>/index.md.sig, which sit beside the built twin) and content/index.md (the front page: dev.pages' fills, logged R6 at 15:09), content/articles/index.md, content/portugal/** (my workers' pages) to my grant; each logs an R6 breach when I write or bring it",
-    "abp@ or Dinis: newsroom/tests/ too (dev.search's search test, brought at 12:08, logged R6)"
+    "abp@ or Dinis: newsroom/tests/ too (dev.search's search test, brought at 12:08, logged R6)",
+    "abp@ or Dinis: my review commits carry my workers' own files, and the run report counts each against my grant (wake 16:08: 14 R6, all workers' files: content/index.md, content/my-day.md, data/schemas/list-views.schema.json, design/shots/feature-billing-*.png). Either count a review commit's files against the worker's grant (its To: trailer), or widen mine to what my workers write (content/**, data/schemas/**, design/shots/**). Until then each review shows as breaches."
   ],
   "wakes": [
     {

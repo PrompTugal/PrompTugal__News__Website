@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: Work in hand"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T13:45:24Z"
-site_version: "v0.1.258"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
+site_version: "v0.1.288"
 source: board/catalogue.json
 ---
 
-# Work in hand (219 cards)
+# Work in hand (244 cards)
 
 Work in hand: passes (focused rounds of work) and their findings, decisions, plans, briefs, tasks, desks and the story projects. Kept by conductor@.
 
@@ -27,11 +27,11 @@ By call number: passes, findings, decisions, plans, briefs, tasks, desks and sto
 | Container | What it holds | Cards | Cards worth opening |
 |---|---|---|---|
 | `WRK.BRIEF` | briefs | 16 | [The first night of PrompTugal.news: what we set up, what the team did, and how it works now](https://promptugal.news/board/briefs/2026-11-06-the-first-night-debrief.md), [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) |
-| `WRK.DEC` | decisions | 4 | [For Dinis: registering PrompTugal.news, and who applies for the press pass](https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/), [For Dinis: the story of the name, publish this text?](https://promptugal.news/newsroom/decisions/the-story-of-the-name/) |
+| `WRK.DEC` | decisions | 10 | [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/), [PT decision: where the vault key lives](https://promptugal.news/newsroom/decisions/where-the-vault-key-lives/) |
 | `WRK.DESK` | desks | 12 | [The curator's story candidates](https://promptugal.news/desks/curator/README.md), [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) |
-| `WRK.FIND` | findings of a pass | 124 | [Index rendered pages only: no board/inbox.json token, no sealed envelope, no key bundle, no desks/outreach rank or priority](https://promptugal.news/board/passes/2026-11-06-the-newsroom-search.md), [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) |
-| `WRK.PASS` | passes | 27 | [2026-11-06-the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md), [2026-11-06-the-synthetic-readers-page](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) |
-| `WRK.PLAN` | plans and specs | 17 | [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md), [PrompTugal.news ready for outreach by Friday 6 November, 10:00 UTC: the plan for tonight and Friday morning](https://promptugal.news/board/WS-177-plan.md) |
+| `WRK.FIND` | findings of a pass | 138 | [Index rendered pages only: no board/inbox.json token, no sealed envelope, no key bundle, no desks/outreach rank or priority](https://promptugal.news/board/passes/2026-11-06-the-newsroom-search.md), [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) |
+| `WRK.PASS` | passes | 28 | [2026-11-06-the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md), [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) |
+| `WRK.PLAN` | plans and specs | 21 | [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md), [PrompTugal.news ready for outreach by Friday 6 November, 10:00 UTC: the plan for tonight and Friday morning](https://promptugal.news/board/WS-177-plan.md) |
 | `WRK.STORY` | story projects | 4 | [Story projects: going deep on one story, with a budget, its own data folder, and work anyone can pick up](https://promptugal.news/board/the-story-projects.md), [Brazil at Web Summit Lisbon 2026](https://promptugal.news/board/projects/brazil-at-web-summit-2026.md) |
 | `WRK.TASK` | tasks | 15 | [Which agents outside Claude would serve your work?](https://promptugal.news/board/tasks/external-agents.md), [Tasks anyone can pick up](https://promptugal.news/board/tasks/README.md) |
 
@@ -39,13 +39,13 @@ By call number: passes, findings, decisions, plans, briefs, tasks, desks and sto
 
 The shelf list (the cards in call-number order, 25 to a table): [part 1](../shelf-list/WRK-1.md), [part 2](../shelf-list/WRK-2.md), [part 3](../shelf-list/WRK-3.md).
 
-Special collection: S3 (4 cards). Dinis's guidance has its own guide: [guidance](../special/guidance.md).
+Special collection: S3 (10 cards). Dinis's guidance has its own guide: [guidance](../special/guidance.md).
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (143 connections from this collection)
-- [Guidance (special)](GDN.md) (90 connections from this collection)
-- [The publication](PUB.md) (60 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (162 connections from this collection)
+- [The library](LIB.md) (135 connections from this collection)
+- [Guidance (special)](GDN.md) (95 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 
 Back to the front door: [the library](../index.md)
