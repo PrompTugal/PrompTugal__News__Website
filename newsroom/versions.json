@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.86",
+    "date": "2026-11-06",
+    "what": "historian@PrompTugal.dinis: ROLE.md, and a first timeline of PrompTugal.news, 4 to 6 November 2026, each entry with its commit",
+    "by": "historian@PrompTugal.dinis",
+    "from": "523ac9bb9"
+  },
+  {
     "version": "v0.1.85",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: an image for every article (2 styles, 3 layouts, 3 sizes) and the spec to use them and to make each article a graph",
