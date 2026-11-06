@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.292",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: release.sh refuses to push while board/HOLD.md is on dev, except the push that writes, changes or removes the hold",
+    "by": "devops@PrompTugal.dinis",
+    "from": "5dbce714e"
+  },
+  {
+    "version": "v0.1.291",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 16:17",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "91b87d06d"
+  },
+  {
+    "version": "v0.1.290",
+    "date": "2026-11-06",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "afaf2c9b7"
+  },
+  {
     "version": "v0.1.289",
     "date": "2026-11-06",
     "what": "librarian@PrompTugal.dinis: wake 15:56: the library, round 4 from the first reviews: looks and presets as data for the explorer, a phone view on the first screen, concepts from data/concepts.json; the catalogue regenerated",

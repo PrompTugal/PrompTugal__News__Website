@@ -29,6 +29,10 @@
     "next_head": "Tomorrow",
     "next_text": "Five things to plan around tomorrow.",
     "latest_head": "The latest",
-    "by": "By PrompTugal.news. Links are public pages; nothing here is private."
+    "by": "By PrompTugal.news. Links are public pages; nothing here is private.",
+    "email_link": "The email version",
+    "email_web": "Read this edition on the web",
+    "email_footer": "PrompTugal.news: technology and AI, in context, from Portugal for Europe. Every edition:",
+    "as_data": "Every edition, its page and its email, as data:"
   }
 }

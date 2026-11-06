@@ -2,7 +2,7 @@
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
  "state": "working: Algarve sprint for the 15:00 meeting",
- "updated": "2026-11-06T14:35Z",
+ "updated": "2026-11-06T15:50Z",
  "done": [
   "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
   "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)",
@@ -14,22 +14,20 @@
   "organisations page: University of Algarve and Algarve STP in more detail from researcher@'s partners round 1 (read sources only, no names; Wikipedia marked tertiary)",
   "sprint round 1 pushed: Algarve page as a mini site (tiles, map, collapsing sections, timeline, cards); executive director named by role with sources",
   "sprint: network graph drawn from the ontologist's network.json by newsroom/tools/algarve-graph.mjs (23 nodes, 30 edges) and on the page; 2019 presentation and members over time added",
-  "page links dev.graphs@'s interactive network, timeline and map (/graph/algarve-evolution/); the naming decision recorded as answered (executive director only, as relayed by conductor@)"
+  "page links dev.graphs@'s interactive network, timeline and map (/graph/algarve-evolution/); the naming decision recorded as answered (executive director only, as relayed by conductor@)",
+  "after sherpa@, synthetic@, designer@: goals for 2032 apart from what is done (two tile rows); Informa D&B removed from partners; breadcrumb through Portugal; a route for corrections (the About page); AMAL, NERA, ANJE from their own sites",
+  "his paragraph on the goals, as Algarve Evolution's own words (Ant\u00f3nio Pinto Guerreiro, 6 November 2026), under the 2032 tiles and in the mandate section, goals' sources kept; checked against board/guidance/2026-11-06-algarve-evolution-the-call-and-the-wish-list.md"
  ],
  "next": [
-  "on Dinis's answer to the naming decision: the people section",
-  "NERA, AMAL, ANJE once the researcher has read them",
-  "graph data-driven with ontologist@",
-  "drain inbox when sgit works"
+  "source marks after sentences (sherpa AE4)",
+  "a phone check",
+  "DOCAPESCA and municipalities as partners (researcher)",
+  "Powered by RiskMandate above the title is the shell's (dev@): asked"
  ],
  "asks": [
   {
-   "for": "Dinis",
-   "ask": "Decision page /newsroom/decisions/naming-people-on-algarve-evolution/: name the president and executive director on the Algarve page? I recommend B (after each says yes, at Saturday's meeting)."
-  },
-  {
-   "for": "conductor@",
-   "ask": "an inbox lane for me (key is on dev)"
+   "for": "dev@",
+   "ask": "sherpa@'s rank 1 (Powered by RiskMandate above the organisation's name on this page's top) is the shell's, not mine: can it be dropped on /portugal/algarve-evolution/?"
   }
  ]
 }

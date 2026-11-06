@@ -1,0 +1,1868 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "security@PrompTugal.dinis",
+ "run": "2026-11-06T14-08-01Z",
+ "started": "2026-11-06T14:08:01.634Z",
+ "ended": "2026-11-06T16:20:44Z",
+ "line": "wake 16:05: transcript scan (S12 in five agents), map redrawn, comms protocol",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T14:14:59.175Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-06T16:05:23.440Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-06T16:14:42.608Z",
+   "chars": 2451,
+   "sha256": "29f1c2f072f3da51",
+   "head": "<agent-message from=\"a49d501f5c27cc78b\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-06T16:14:42.662Z",
+   "chars": 2509,
+   "sha256": "5525f9f7691c7fb8",
+   "head": "<agent-message from=\"a945c1d2359b679ca\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-06T16:14:42.717Z",
+   "chars": 2678,
+   "sha256": "7c4486e441391504",
+   "head": "<agent-message from=\"ac3c63ee251c20dc5\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-06T16:14:42.776Z",
+   "chars": 2765,
+   "sha256": "763c403f61ba043b",
+   "head": "<agent-message from=\"ad8dd3776bda661d4\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-06T16:14:42.850Z",
+   "chars": 3552,
+   "sha256": "203793ab94617560",
+   "head": "<agent-message from=\"a14f581b34048d116\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-06T16:16:58.940Z",
+   "chars": 2981,
+   "sha256": "02f645d6ad4a647c",
+   "head": "<agent-message from=\"a80e4cbbe3f7324bc\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-06T16:20:07.171Z",
+   "chars": 2454,
+   "sha256": "6ac6ac49e7102f96",
+   "head": "<agent-message from=\"a5bca32309a653159\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T16:05:22.993Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 545,
+  "by_kind": {
+   "release": 6,
+   "other": 10,
+   "remote-read": 1,
+   "shell": 270,
+   "remote": 233,
+   "agent": 14,
+   "read": 6,
+   "git": 2,
+   "web": 1,
+   "write-outside": 2
+  }
+ },
+ "policies_executed": {
+  "R2": 233,
+  "R4": 14
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 298,
+  "commits": [
+   {
+    "sha": "fe6282f4d",
+    "subject": "security@PrompTugal.dinis: the agents' messages map redrawn: 29 sessions to 16:10 UTC, signed inbox messages now drawn",
+    "files": 3
+   },
+   {
+    "sha": "ff7913792",
+    "subject": "security@PrompTugal.dinis: the Algarve Evolution sprint post-reviewed: the live page is clean",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 247,
+  "denied": [
+   {
+    "t": "2026-11-06T16:06:04.322Z",
+    "tool": "mcp__claude-code-remote__list_sessions",
+    "rule": "R2",
+    "what": "list_sessions reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:06:05.709Z",
+    "tool": "mcp__claude-code-remote__list_sessions",
+    "rule": "R2",
+    "what": "list_sessions reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:06:41.975Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-06T16:06:46.277Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-06T16:06:50.625Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-06T16:06:55.023Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-06T16:06:59.468Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-06T16:07:10.647Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:10.882Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:11.228Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:12.017Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:12.386Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:17.815Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:19.047Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:19.430Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:20.450Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:20.615Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:26.101Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:26.929Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:27.513Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:28.290Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:29.388Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:32.738Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:33.561Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:33.879Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:34.196Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:35.530Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:39.155Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:39.298Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:40.129Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:40.827Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:42.402Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:44.970Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:45.751Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:46.116Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:46.227Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:48.847Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:51.960Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:52.535Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:53.783Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:53.965Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:55.801Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:57.902Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:59.799Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:07:59.982Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:00.313Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:02.629Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:03.850Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:06.058Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:06.626Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:06.791Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:09.137Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:11.031Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:12.275Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:12.886Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:13.557Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:16.433Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:16.670Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:18.489Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:19.112Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:20.488Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:22.803Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:23.032Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:24.688Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:27.404Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:29.532Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:30.881Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:33.721Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:34.372Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:34.583Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:36.629Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:39.222Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:40.629Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:41.593Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:41.915Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:42.756Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:45.260Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:47.026Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:48.101Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:49.087Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:51.307Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:51.629Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:54.576Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:55.778Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:56.851Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:58.030Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:08:59.205Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:02.010Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:02.848Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:03.684Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:04.138Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:06.717Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:09.386Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:09.466Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:10.157Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:13.551Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:13.804Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:16.276Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:16.418Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:17.097Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:19.708Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:21.052Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:22.416Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:23.817Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:24.908Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:25.803Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:28.440Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:29.797Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:30.252Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:32.245Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:32.293Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:36.024Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:36.478Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:37.273Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:39.073Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:39.176Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:42.626Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:43.204Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:43.696Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:45.197Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:46.940Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:48.025Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:50.188Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:50.341Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:54.360Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:54.427Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:54.451Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:09:56.818Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:00.531Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:00.679Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:03.557Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:05.741Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:06.660Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:06.945Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:10.296Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:11.571Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:12.641Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:13.073Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:17.182Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:18.636Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:18.680Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:18.998Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:24.066Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:25.037Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:25.332Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:26.260Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:30.581Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:31.096Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:31.148Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:33.395Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:36.417Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:37.796Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:38.004Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:42.307Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:44.455Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:44.638Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:45.895Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:50.489Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:51.372Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:52.375Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:54.332Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:56.243Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:58.037Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:10:59.152Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:01.337Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:03.107Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:04.789Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:05.899Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:08.759Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:09.394Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:11.269Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:13.093Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:15.571Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:16.470Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:18.058Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:19.936Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:21.854Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:23.085Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:24.733Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:26.582Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:28.533Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:29.671Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:31.885Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:34.635Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:36.028Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:36.031Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:38.770Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:40.731Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:42.621Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:42.745Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:45.478Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:46.914Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:49.144Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:49.446Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:52.719Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:53.426Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:55.885Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:56.397Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:11:59.745Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:00.012Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:01.878Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:02.825Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:07.644Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:07.918Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:08.396Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:10.094Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:13.928Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:14.987Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:15.787Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:20.615Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:22.834Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:28.335Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:29.627Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:31.914Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:35.769Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:35.974Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:39.073Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:42.870Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:46.479Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:50.013Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:52.643Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:12:58.799Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:13:04.913Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:13:07.430Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:13:10.970Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:13:17.239Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:13:23.409Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:13:48.128Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:15:18.838Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-06T16:15:37.373Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:16:04.225Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:16:15.528Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:16:24.492Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:16:32.181Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:16:42.213Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:16:58.589Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:17:14.934Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-06T16:17:32.617Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:18:03.931Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:18:32.458Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:18:37.440Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:18:43.364Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:18:49.130Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:18:55.442Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:19:01.426Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:19:11.141Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T16:19:28.630Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 247
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 9,
+  "tool_calls": 545,
+  "in_mandate": 298,
+  "out_of_mandate": 247,
+  "attempts": 247,
+  "breaches": 0
+ }
+}
