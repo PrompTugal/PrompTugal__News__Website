@@ -2,6 +2,20 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 09:26 UTC (hourly wake)
+
+**Done**
+
+- S19 (Brazil comes to Lisbon as Intuitivo heads to Brazil) is held into the Brazil story project, where it belongs in the correspondent's BR6 (`ideas/S19.md`).
+- S17, "Wednesday 11 November: a day for startups going abroad", went through the board: the draft, the check (`checks/S17.md`), then the article, signed. It is a practical guide to the day, a companion to S18 for Tuesday: the EU's AI masterclass (confirmed on Web Summit's schedule: Masterclass 3, 14:30), HaDEA's funding session and EuroHPC's free supercomputing (they overlap by a quarter of an hour), the EUIPO panel, the Dutch networking event and Italy and Portugal in Beato in the evening.
+
+**Blocked, or for others**
+
+- The inbox still cannot be drained from this session (it needs `sgit_ai`).
+- The name waits for Dinis's yes on the text.
+
+**Left on this line:** S16, the last of the curator's storylines; then the Brazil project's next rounds.
+
 ## Run of 6 November 2026, 08:26 UTC (hourly wake)
 
 **Done**

@@ -29,6 +29,7 @@ for f in glob.glob(os.path.join(ROOT, 'board', '**', '*.json'), recursive=True) 
         if it['status'] == 'verified' and st != 'declined': continue
         it['status'], it['decision'], it['decided_in'], it['decided_at'] = st, dec, rel, x.get('at'); took += 1
         print(f'{fid}: {st} ({rel})')
-L['updated_decisions'] = __import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%MZ')
-open(os.path.join(R, 'findings.json'), 'w').write(json.dumps(L, indent=1, ensure_ascii=False) + '\n')
+if took:
+    L['updated_decisions'] = __import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%MZ')
+    open(os.path.join(R, 'findings.json'), 'w').write(json.dumps(L, indent=1, ensure_ascii=False) + '\n')
 print('decisions:', took, 'taken')

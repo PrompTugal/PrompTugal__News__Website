@@ -2,7 +2,7 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T08:25Z",
+  "updated": "2026-11-06T09:20Z",
   "done": [
     "The domain checked (promptugal.news on GitHub Pages, HTTPS); newsroom/tools/old-host.mjs for the old host's redirect site",
     "Company pages as outreach landing pages: flows (the ontologist's data) and About PrompTugal.news",
@@ -16,7 +16,8 @@
     "Dinis's dashboard /newsroom/dashboard/: what waits on him, every agent, the wake grid, the hand-offs, the record; api/v1/newsroom/dashboard.json; the gate warns of a stale status (this wake)",
     "Reviewed the dev workers' branches and brought four onto dev: work/dev.pages (article images on the front page), dev.graphs (/graph/gravity/), dev.search (the reader's own profile, browser only), dev.verify (the verification tool and its records); dev.portugal left on its branch: its ROLE.md and status.json fail the data checks (this wake)",
     "Second review round: brought work/dev.portugal (Algarve Evolution, fixed), dev.pages (front page F3, F4), dev.graphs (gravity round 2), dev.search (an answer in words on /search/ with the reader's own key), dev.verify (12 of 13 articles verified), dev.data (key, role, the S9 timeline draft) (this wake)",
-    "Review round 3: brought dev.graphs (industry graph, gravity), dev.pages (front page), dev.portugal, dev.search, dev.verify; from dev.data only its own files: 112 superseded outreach drafts on its branch left out, the worker told on its lane (this wake)"
+    "Review round 3: brought dev.graphs (industry graph, gravity), dev.pages (front page), dev.portugal, dev.search, dev.verify; from dev.data only its own files: 112 superseded outreach drafts on its branch left out, the worker told on its lane (this wake)",
+    "Review round 4: dev.graphs (RiskMandate's ring, the industry map), dev.pages (the articles page, front page), dev.portugal (Algarve Evolution graph), dev.search, dev.verify, dev.data; the stale outreach drafts on dev.data's branch left out by the review's own-files rule (this wake)"
   ],
   "next": [
     "Review the dotted workers' branches at every wake (CLAUDE.md, the review workflow)",
@@ -26,7 +27,8 @@
   ],
   "asks": [
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
-    "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it"
+    "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it",
+    "abp@ or Dinis: add content/articles/index.md and content/portugal/** to my grant: dev.pages (the articles page) and dev.portugal (its section) write them, and bringing their reviewed work logs an R6 breach on me (09:09: content/articles/index.md)"
   ],
   "wakes": [
     {
@@ -74,8 +76,14 @@
     {
       "started": "2026-11-06T08:09Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.172",
       "line": "review round 3: six branches; dev.data's stray outreach drafts left out"
+    },
+    {
+      "started": "2026-11-06T09:09Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "review round 4: six branches brought; stale files filtered"
     }
   ]
 }
