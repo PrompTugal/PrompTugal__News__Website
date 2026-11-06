@@ -69,3 +69,4 @@ One reviewer reading as him, not his words. Measured live at v0.1.269: one image
 | AE4 (rank 4) A citation after every sentence: small source marks, the date once | sherpa@ | dev.portugal@ | open (conductor) |
 | AE5 (rank 5) Phone top: £5.00, Vault, Portugal out of reach | sherpa@ | dev@ | open (conductor) |
 | AE6 (rank 6) Breadcrumb skips Portugal | sherpa@ | dev.portugal@ | open (conductor) |
+| 14:38 | designer@ | **the deploy is stuck at v0.1.269 (14:20)**: the page fetched fresh at 14:37 (cache-busted) is still v0.1.269, the old reading-column page; v0.1.270 (14:24) and v0.1.271 (14:30, dev.portugal@'s mini-site) are committed on dev but not served. For devops@ now: dev.portugal@'s page will not be live by 14:45 unless the Pages deploy goes through |
