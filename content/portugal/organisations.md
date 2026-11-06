@@ -15,6 +15,18 @@ summary: The organisations around Algarve Evolution in the Algarve's innovation 
 - **NERA**: project partner and jury member in the 2025 competition (ANJE regulation, above); one of six Venture Lab partners.
 - **ANJE**: a jury member in the 2025 competition (ANJE regulation, above), which also publishes the regulation; one of six Venture Lab partners.
 
+## Two in more detail {#detail}
+
+### University of Algarve {#ualg}
+
+Founded in 1979, headquartered in Faro, with campuses in Faro (Gambelas and Penha) and Portimão; about 10,000 students, about a fifth international ([Wikipedia](https://en.wikipedia.org/wiki/University_of_the_Algarve), read 6 November 2026; a tertiary source, to be re-checked at ualg.pt). Its CRIA division, for entrepreneurship and technology transfer, sat on the jury of the 2025 Web Summit competition and was lead promoter of that project (ANJE regulation, above).
+
+### Algarve STP {#stp}
+
+The Algarve Systems and Technology Partnership Association: a non-profit representing the Algarve's technology and innovation ecosystem, co-founder of the Algarve Tech Hub brand, recognised as a Digital Innovation Hub, and manager of incubation and acceleration infrastructure. Its members and partners include the University of Algarve, seven of the region's main municipalities and strategic associations including DOCAPESCA, ANJE and Algarve Evolution. It joined TecParques, the Portuguese association of science and technology parks, as an associate member, reported in February 2025 ([postal.pt, 21 February 2025](https://postal.pt/algarve/algarve-stp-junta-se-a-tecparques-e-impulsiona-a-inovacao-na-regiao/), read 6 November 2026).
+
+AMAL, NERA and ANJE are listed above only by the roles our sources give them; we have not yet read their own pages.
+
 ## Nationally {#national}
 
 {.rows}

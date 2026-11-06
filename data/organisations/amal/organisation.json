@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "amal",
+  "type": "organisation",
+  "name": "AMAL",
+  "names_as_listed": [
+    "AMAL"
+  ],
+  "sources": [
+    {
+      "url": "https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "partner in ADI, the 2025 Web Summit competition and Venture Lab"
+    }
+  ],
+  "note": "Hand-written for the Algarve Evolution sprint (6 November 2026): a partner of Algarve Evolution, from researcher@'s sourced rounds."
+}

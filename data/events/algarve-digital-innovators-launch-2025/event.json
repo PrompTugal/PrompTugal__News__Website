@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "algarve-digital-innovators-launch-2025",
+  "type": "event",
+  "title": "Algarve Digital Innovators: the launch in Lagos",
+  "kind": "programme",
+  "organiser": "other",
+  "our_pick": false,
+  "date": "2025-09-08",
+  "time": null,
+  "where": "Fábrica do Empreendedor, Lagos",
+  "place": "place:lagos",
+  "organised_by": "organisation:algarve-evolution",
+  "speakers": [],
+  "source_url": "https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/",
+  "read_at": "2026-11-06T14:20Z",
+  "read_by": "researcher@PrompTugal.dinis",
+  "note": "Hand-written, a past event: the launch of the ADI network of innovation communities across the Algarve's 16 municipalities (from the Algarve EMPREENDE 2026 project), with a roadshow from September to November 2025; created with the University of Algarve (CRIA), AMAL, Algarve STP, NERA and ANJE. The date is approximate (around 8 September, postal.pt of 11 September 2025)."
+}

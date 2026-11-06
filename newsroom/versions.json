@@ -1,5 +1,19 @@
 [
   {
+    "version": "v0.1.268",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: Algarve Evolution in the graph: the organisation, partners, places, past events and its network, one source",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "5efae3fd7"
+  },
+  {
+    "version": "v0.1.267",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: the footer says the place lookup sees the reader's IP (S3); a variant field for A/B tests; reading depth per page",
+    "by": "observability@PrompTugal.dinis",
+    "from": "daac28e08"
+  },
+  {
     "version": "v0.1.266",
     "date": "2026-11-06",
     "what": "librarian@PrompTugal.dinis: the library, round 3: its cards and the reality tree drawn in the site's own graph explorer (the reading room), finding aids, Dinis's guidance as a special collection, verified signatures at the desk",

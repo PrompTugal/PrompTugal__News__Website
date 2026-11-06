@@ -400,6 +400,22 @@ def transform(data_vault, pub_vault, dirty, now_hour, roster=()):
         'pages': x['pages'].most_common(20), 'countries': x['countries'].most_common(), 'cities': len(x['cities']), 'refs': x['refs'].most_common(10), 'groups': dict(x['groups']),
         'first': x['first'], 'last': x['last']} for k, x in L_.items()), key=lambda e: e['last'], reverse=True),
         'about': 'Tabs that arrived on a tagged link (?via=<tag>, or utm_campaign / utm_source), per tag. One tab is one open; more tabs from more countries and cities is the link being passed on. Counts only: the number of different cities, never which.'})
+    # reading depth per page, and per page variant for A/B tests (conductor@'s pass "reader feedback and reading", and
+    # Dinis's A/B testing of 13:20): from the read events (seconds visible, deepest scroll), readers only: median seconds,
+    # median scroll, the share that reached 90% of the page; a variant appears once a page sends one.
+    R_ = collections.defaultdict(lambda: {'tabs': set(), 'views': 0, 's': [], 'scroll': []})
+    for d, hh in hours:
+        for r in hour_rows(data_vault, d, hh):
+            if r.get('type') not in ('view', 'read') or not r.get('path') or groups.get(r.get('sid'), 'readers') != 'readers': continue
+            for k in ((norm(r['path']), ''), (norm(r['path']), r.get('variant') or '')) if r.get('variant') else ((norm(r['path']), ''),):
+                x = R_[k]; x['tabs'].add(r.get('sid'))
+                if r['type'] == 'view': x['views'] += 1
+                else: x['s'].append(r.get('visible_s', 0)); x['scroll'].append(r.get('scroll', 0))
+    med = lambda xs: sorted(xs)[len(xs) // 2] if xs else 0
+    rd = [{'path': p, 'variant': v, 'tabs': len(x['tabs']), 'views': x['views'], 'reads': len(x['s']), 'median_s': med(x['s']), 'median_scroll': med(x['scroll']),
+           'reached_end': round(sum(1 for q in x['scroll'] if q >= 90) / len(x['scroll']), 2) if x['scroll'] else 0} for (p, v), x in R_.items()]
+    jsave(os.path.join(L, 'reading.json'), {'v': 1, 'generated': gen, 'pages': sorted(rd, key=lambda e: (-e['views'], e['path'], e['variant'])),
+        'about': 'Readers only (no synthetic visitors or crawlers): per page, and per page variant when one is sent (A/B tests), the tabs, views, reads, median seconds visible, median deepest scroll (percent) and the share of reads that reached 90% of the page.'})
     jsave(os.path.join(L, 'places.json'), {'v': 1, 'generated': gen, 'tabs': len(tabs_at), 'city_min': CITY_MIN,
         'countries': [[cc, n, v] for (cc, n), v in sorted(C.items(), key=lambda x: -sum(x[1].values()))],
         'regions': regions, 'regions_other': r_other, 'cities': cities, 'cities_other': c_other,

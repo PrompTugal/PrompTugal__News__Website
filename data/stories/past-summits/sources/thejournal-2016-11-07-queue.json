@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "thejournal-2016-11-07-queue",
+  "story": "past-summits",
+  "url": "https://www.thejournal.ie/web-summit-thousands-queue-3068789-Nov2016/",
+  "title": "People who paid thousands for tickets left waiting outside Web Summit (TheJournal.ie, 7 November 2016)",
+  "publisher": "TheJournal.ie",
+  "published": "2016-11-07",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "On the opening night of the first Lisbon edition, TheJournal.ie reports that ticket holders were left outside the venue, that the Web Summit website said the event was sold out with 53,056 people attending, the ticket tiers and prices, a 15,000-person opening night with an outdoor screen, and a Wi-Fi hiccup. It recalls the organiser's reasons for leaving Dublin: unreliable Wi-Fi at the RDS, traffic management, public transport and hotel costs."
+}

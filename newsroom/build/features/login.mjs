@@ -6,7 +6,7 @@
 // drain on /newsroom/observability/ uses it. Nothing on the site is hidden from readers who are not signed in.
 import crypto from 'node:crypto'
 export const order = 6
-export const assets = { css: ['assets/login/login.css'], js: ['assets/login/keyring.js', 'assets/login/login.js', 'assets/login/passkey.js'] }
+export const assets = { css: ['assets/login/login.css'], js: ['assets/login/keyring.js', 'assets/login/login.js'] }
 const REGISTER = 'board/person-keys.json', JSQR = 'assets/vendor/jsqr/1.4.0/jsQR.js', JSQR_VENDOR = 'assets/vendor/jsqr/1.4.0/VENDOR.md'
 const fp = jwk => 'sha256:' + crypto.createHash('sha256').update(`${jwk.crv}:${jwk.x}:${jwk.y}`).digest('hex').slice(0, 16)
 

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "tavira",
+  "type": "place",
+  "name": "Tavira",
+  "kind": "city",
+  "located_in": "place:algarve",
+  "matches": [],
+  "source": "desks/researcher/algarve-evolution-round-1.md",
+  "note": "Where an Algarve Tech Afterwork was held (Luma)."
+}
