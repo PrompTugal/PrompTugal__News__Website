@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.365",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the wave-1 first prompts for account B",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "4a7e46190"
+  },
+  {
     "version": "v0.1.364",
     "date": "2026-11-06",
     "what": "conductor.b@PrompTugal.dinis: account B wired: own hourly task, librarian@ started there with its task",
