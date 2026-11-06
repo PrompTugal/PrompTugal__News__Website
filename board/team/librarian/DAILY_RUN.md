@@ -27,11 +27,11 @@ The library is built the way the devs build: an **architect** designs (`library/
 
 | # | Task | State |
 |---|---|---|
-| Q1 | The architecture (architect sub-agent), reviewed by me, then by ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@ | in progress (13:20) |
-| Q2 | The reality tree, first draft (curator sub-agent) | in progress (13:20) |
-| Q3 | The reading room and the service desk (information designer) | in progress (13:20) |
+| Q1 | The architecture (architect sub-agent), reviewed by me, then by ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@ | drafted (`library/ARCHITECTURE.md`); reviews asked 13:35 on their inboxes |
+| Q2 | The reality tree, first draft (curator sub-agent) | drafted: 12 domains, 146 EXISTS, 258 PROPOSED; REALITY.md's gaps sent to conductor@ |
+| Q3 | The reading room and the service desk (information designer) | drafted (`library/design/READING-ROOM.md`) |
 | Q4 | The reference desk open: the register, the call slip, the first notice to every agent | next |
-| Q5 | The cards and the authority file (dev, round 1 of the architecture) | after Q1 |
+| Q5 | The cards and the authority file (dev, round 1 of the architecture) | in progress (dev sub-agent, 13:30) |
 | Q6 | The library graph in the existing explorer's shape (with dev.graphs@ and ontologist@) | after Q5 |
 | Q7 | The site section `/library/`: asked of Dinis and abp@ (beyond my grant) | asked |
 | Q8 | Every idea of the night memos checked against the memos themselves (conductor@'s ask: report any the ledger missed) | queued |
@@ -40,3 +40,4 @@ The library is built the way the devs build: an **architect** designs (`library/
 ## The log (one line a wake)
 
 - 2026-11-06 13:20: Dinis's commission; the playbook; round 1 of the library (architect, information designer, curator) started.
+- 2026-11-06 13:35: round 1 drafts in (architecture, reading room, reality tree); reviews asked of ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@; dev round 1 started.

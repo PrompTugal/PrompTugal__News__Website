@@ -1,0 +1,35 @@
+# Reality: the holdings by subject (master index)
+
+**Site version:** v0.1.255 | **Last checked:** 2026-11-06 at commit `17663b7c` | **Maintained by:** librarian@PrompTugal.dinis | **State:** first draft (first accession, by a curator sub-agent)
+
+This tree says what EXISTS on PrompTugal.news, with evidence, and what is only PROPOSED, by subject. It feeds `REALITY.md` (the conductor's list); it never contradicts it silently: every place the two differ is in [changelog.md](changelog.md). A thing in neither the EXISTS lines nor `REALITY.md` does not exist. Modelled on the SG/Send librarian's reality tree (domain directories, each with `index.md` and `proposed/index.md`).
+
+## Domain map
+
+| Domain | Directory | What it covers | EXISTS | PROPOSED | Last checked |
+|---|---|---|---|---|---|
+| **Publication** | [`publication/`](publication/index.md) | The brand identity v2.0, the about pages, the brief, the domain, the articles and their signatures, link previews, feeds and sitemaps. | 15 | 50 ([list](publication/proposed/index.md)) | 2026-11-06 |
+| **Pages** | [`pages/`](pages/index.md) | Every reader-facing section: front page, summit and agenda, events, companies, people, organisations, places, topics, Portugal, profile, sign-in, themes, navigation. | 17 | 72 ([list](pages/proposed/index.md)) | 2026-11-06 |
+| **Newsroom** | [`newsroom/`](newsroom/index.md) | `/newsroom/` and everything under it: overview, dashboard, agents, desks, decisions, notes, runs, quality, security, design reviews, orders, customers, stories. | 18 | 22 ([list](newsroom/proposed/index.md)) | 2026-11-06 |
+| **Data** | [`data/`](data/index.md) | The entity folders, the ontology, the schemas, derivation, curation, story data folders, evidence, Wikipedia material, the JSON API, and the verification tool. | 14 | 22 ([list](data/proposed/index.md)) | 2026-11-06 |
+| **Search, ask and the page tool API** | [`search/`](search/index.md) | The sharded search index, the search page, the Ask pane, the page tool API, and the reader's profile tool. | 8 | 20 ([list](search/proposed/index.md)) | 2026-11-06 |
+| **Graphs and visualisation** | [`graphs/`](graphs/index.md) | The graph explorer, the centres-of-gravity, world, industry, RiskMandate and stories views, the per-entity graphs. | 7 | 18 ([list](graphs/proposed/index.md)) | 2026-11-06 |
+| **Build, gate, CI and release** | [`build-and-ci/`](build-and-ci/index.md) | The build, the gate, the version, the release scripts, CI, tests and tools. | 13 | 1 ([list](build-and-ci/proposed/index.md)) | 2026-11-06 |
+| **Agents** | [`agents/`](agents/index.md) | The roles and their files, keys, inboxes, schedules, agent behaviour policies and hooks, outside desks. | 15 | 19 ([list](agents/proposed/index.md)) | 2026-11-06 |
+| **Passes, budgets, decisions and the story pipeline** | [`process/`](process/index.md) | How work is organised: the plan, passes and findings, budgets, guidance and the ideas ledger, decisions as pages, the story pipeline and projects. | 14 | 16 ([list](process/proposed/index.md)) | 2026-11-06 |
+| **Vaults, media, reader accounts, billing and backups** | [`vaults-and-media/`](vaults-and-media/index.md) | Reader vault and account, the reading meter and top-up, vendored vault code, media made outside git, designer images, backups. | 10 | 12 ([list](vaults-and-media/proposed/index.md)) | 2026-11-06 |
+| **Observability** | [`observability/`](observability/index.md) | The privacy-first read counter, the vaults it sends to, the drain, the agent run log and the report page. | 6 | 2 ([list](observability/proposed/index.md)) | 2026-11-06 |
+| **Library** | [`library/`](library/index.md) | The commission, the catalogue, the jump list, the health scan, the list of what waits on Dinis, the reading room design, and this tree. | 9 | 4 ([list](library/proposed/index.md)) | 2026-11-06 |
+| **Total** | | | 146 | 258 | |
+
+## How to read the counts
+
+- EXISTS counts lines, and a line can stand for several files or hundreds of generated pages (for example 235 event pages are one line). Page counts per kind are in `board/catalogue.json` (1,107 pages, 481 board files).
+- PROPOSED counts ideas (when = now, later or tomorrow), open or queued passes, specs, open questions and REALITY.md 'not yet' items. The ledger's 'decided' (52) and 'standing rule' (213) entries are decisions and rules, not features, and are not counted; 'now (done)' (27) are built and should appear under EXISTS (not all do yet).
+- Tags F and S are explained at the top of each domain file.
+
+## Not in this tree yet
+
+- Per-page cards (one per page, with its source feature and maker): that is the catalogue's job (`board/catalogue.json`).
+- The ledger's 'now (done)' ideas are not yet matched one by one to evidence.
+- Live site checks (HTTP status, rendered output): this tree checks the repository, not the running site, except where REALITY.md states a check (tag S).
