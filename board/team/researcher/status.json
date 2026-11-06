@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T19:40Z",
+  "updated": "2026-11-06T20:35Z",
   "state": "running: Algarve sprint file pushed; blocked on the inbox tool",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -18,12 +18,14 @@
     "17:14 wake: past-summits round 1 (Lisbon 2016 to 2025, numbers as reported, read vs summary marked; a 2025 vs 2024 record conflict flagged)",
     "18:14 wake: organiser's 2022 and 2023 numbers read at source (PDFs); 2022 top partners include AWS and Google (centres of gravity, past)",
     "19:13 wake: first hand-over debrief written",
-    "19:13 wake: 2025 attendance is below 2024 per Forbes PT (no 'record attendance'); 2025 revenue note (summaries)"
+    "19:13 wake: 2025 attendance is below 2024 per Forbes PT (no 'record attendance'); 2025 revenue note (summaries)",
+    "20:13 wake: past agendas, speakers and videos: where they are and what is out of reach by plain fetch (summaries index partial, /sessions/lis25 404, only Centre Stage video public per a summary)"
   ],
   "next": [
-    "2024 and 2025 official numbers posts; agendas, speakers, videos per past edition",
     "per-company cloud evidence once the 20 companies are named",
-    "Algarve Tech Hub Summit 2023 and 2025 at source"
+    "Algarve Tech Hub Summit 2023 and 2025 at source",
+    "a browser-driven read of the script-loaded archive pages if a browser tool is granted (ask Dinis)",
+    "free-licence photos only after yeses"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",

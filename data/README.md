@@ -10,7 +10,7 @@ person beyond what the summit lists (name, role, organisation); no contact detai
 
 ```
 data/
-  ontology.json            the grammar: 13 types in 4 worlds, 20 verbs each with a distinct inverse, the forbidden
+  ontology.json            the grammar: 21 types in 5 worlds (the newsroom world since 6 November), 28 verbs each with a distinct inverse, the forbidden
                            verbs, the taxonomies (event organisers and kinds, place kinds, topic kinds)       HAND
   schemas/                 one JSON Schema per file kind (24); the gate validates every file here against its own HAND
   site/site.json           the shell's words (masthead, dateline, who made it)                                HAND

@@ -2,7 +2,7 @@
 title: "The cloud centres"
 summary: "Where Google, Amazon and Microsoft stand among the summit's companies, as far as public evidence goes: found, searched and not found, or not looked at yet."
 ---
-Dinis asked where the Google, Amazon (AWS) and Microsoft centres of gravity are among the summit's companies: partners, speakers from, companies built on them, companies they invest in. This is the first answer, and most of it is a map of what we do not yet know. Each cell below is one relation to one centre, in one of three states, with its source.
+Dinis asked where the Google, Amazon (AWS) and Microsoft centres of gravity are among the summit's companies: partners now and in past editions, speakers from, companies built on them, companies they invest in. This is the answer so far: the past is clearer than 2026, and a good part of it is still a map of what we do not yet know. Each cell below is one relation to one centre, in one of three states, with its source.
 
 ## How to read it {#read}
 

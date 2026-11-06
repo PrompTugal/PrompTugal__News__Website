@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-06T18:45Z",
+  "updated": "2026-11-06T20:45Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "web-summit-ten-lisbon-years",
@@ -13,12 +13,12 @@
       "why": "The first story project: five counts side by side, no public list for the mission's 100."
     },
     {
-      "article": "lisbon-awards-and-the-algarve-plan",
-      "why": "Algarve Evolution's plan, the morning after Dinis met its head; with the mini-site at /portugal/algarve-evolution/."
+      "article": "brazil-on-the-stages",
+      "why": "New (BR4, from the Brazilian beat): where to see Brazil at the summit, officials, founders and the pavilion's fifteen sessions; useful to an attendee from Monday."
     },
     {
-      "article": "octo-health-launches",
-      "why": "A Lisbon company's launch in Portugal and the US."
+      "article": "lisbon-awards-and-the-algarve-plan",
+      "why": "Algarve Evolution's plan, with the mini-site at /portugal/algarve-evolution/."
     }
   ],
   "service": {
@@ -47,7 +47,9 @@
       "beat": "Brazil",
       "articles": [
         "brazil-startup-mission",
-        "brazil-comes-to-lisbon-intuitivo-heads-to-brazil"
+        "brazil-comes-to-lisbon-intuitivo-heads-to-brazil",
+        "brazil-on-the-stages",
+        "brazils-startup-house-in-lisbon"
       ],
       "note": "the story project; follow-ups from desks/correspondent/ideas/br*.md"
     },
@@ -182,7 +184,9 @@
         "lead": "the day's news, refreshed through the day",
         "also": [
           "now and next",
-          "the day's sessions on AI agents read through reach, mandate and gap"
+          "the day's sessions on AI agents read through reach, mandate and gap",
+          "brazils-startup-house-in-lisbon",
+          "brazil-on-the-stages"
         ]
       },
       {
@@ -193,7 +197,8 @@
         "lead": "the day's news",
         "also": [
           "wednesday-11-november-going-abroad",
-          "now and next"
+          "now and next",
+          "brazil-on-the-stages"
         ]
       },
       {
@@ -203,7 +208,8 @@
         "know": "48 official items: AI and cyber (AI agents going rogue, defence at machine speed); Serpro on cyber resilience; the Road 2 Web Summit winner (road-2-web-summit-2026).",
         "lead": "the day's news, up to the last minute",
         "also": [
-          "now and next"
+          "now and next",
+          "brazil-on-the-stages"
         ]
       },
       {
