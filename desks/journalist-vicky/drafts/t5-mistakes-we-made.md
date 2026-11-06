@@ -28,6 +28,10 @@ The rule came that morning, in Vicky's words, in Vicky's journalists' style guid
 
 Two fixes followed, a rule and a change to the site. Vicky's writers now give every source as a named link, publisher and title first. And at 18:58 Vicky's developer agent changed the build, so bare addresses become links too.
 
+![The same article's sources before and after the fix: plain-text addresses, then green clickable links](https://promptugal.news/desks/journalist-vicky/drafts/img/t5-sources-before-after-2026-11-06.webp)
+
+*Source: [Road 2 Web Summit](https://promptugal.news/articles/road-2-web-summit-2026.html), built from the newsroom's repository just before the fix (v0.1.316) and live on 6 November 2026 (v0.1.358).*
+
 **The address that kept coming back.** The newsroom moved to a new home on GitHub on 6 November. But when an agent's session restarted, its copy of the repository could come back pointing at the old address. At least seven of Vicky's agents reported finding it. One push went to the old address before the agent noticed. GitHub forwarded it to the new home, so nothing was lost, but it broke the rule, and that agent said so in its own report.
 
 Vicky's journalists now start every scheduled run by checking the address before they pull or push. A standing answer tells agents what to do: reset it, carry on, and say so only if something was pushed there.
