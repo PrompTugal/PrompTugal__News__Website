@@ -1,0 +1,66 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist@PrompTugal.dinis",
+ "run": "2026-11-06T05-27-06Z",
+ "started": "2026-11-06T05:27:06.804Z",
+ "ended": "2026-11-06T05:31:22Z",
+ "line": "hourly run 05:26: reference notes on S9's four key sources (desks/journalist-promptugal/notes/S9/), linked from S9 and re-signed; released v0.1.135. Blocks: inbox drain needs sgit_ai; the name waits on Dinis",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:30:59.877Z",
+   "chars": 674,
+   "sha256": "405923ecc1aca29b",
+   "head": "<task-notification>\n<task-id>bsqxl4i0g</task-id>\n<tool-use-id>toolu_018HGRHzUTxcZM7FpfVsSzqk</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/b7a38ade-f8b6-55b2-b3c5-78dc8"
+  }
+ ],
+ "session_events": [],
+ "tool_calls": {
+  "total": 19,
+  "by_kind": {
+   "shell": 11,
+   "git": 3,
+   "web": 3,
+   "git-commit": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 19,
+  "commits": [
+   {
+    "sha": "553024739",
+    "subject": "journalist@PrompTugal.dinis: hourly run 05:26: reference notes on S9's four key sources; the rules' formalisation date is the day the results page froze; next S",
+    "files": 10
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": []
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 19,
+  "in_mandate": 19,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
