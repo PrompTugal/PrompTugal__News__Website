@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.60",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the newsroom move: admin becomes newsroom, everywhere, in one commit (no redirect stubs)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d5dcff897"
+  },
+  {
     "version": "v0.1.59",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake at 00:52: the move not started (dev@ at 01:08), three keys missing, run 1's fixes not live",
