@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "who-gets-a-say-in-football-s-future",
+  "type": "event",
+  "title": "Who gets a say in football’s future?",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "16:00-16:20",
+  "start": "16:00",
+  "end": "16:20",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:juan-mata",
+      "as_listed": "Juan Mata (Investor & Co-founder, C-Lab, Unleash Football)",
+      "role": "Investor & Co-founder, C-Lab",
+      "organisation": "Unleash Football",
+      "org": "organisation:unleash-football"
+    },
+    {
+      "person": "person:jurgen-griesbeck",
+      "as_listed": "Jürgen Griesbeck (Co-founder, C-Lab)",
+      "role": "Co-founder",
+      "organisation": "C-Lab",
+      "org": "organisation:c-lab"
+    },
+    {
+      "person": "person:nicky-crosby",
+      "as_listed": "Nicky Crosby (TV presenter & Radio Host, Sky Sports News)",
+      "role": "TV presenter & Radio Host",
+      "organisation": "Sky Sports News",
+      "org": "organisation:sky-sports-news"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/45a6847e-375b-487a-bf66-f85bf4e9753d/who-gets-a-say-in-football-s-future/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
+  "read_at": "2026-11-06T08:18Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 215
+  }
+}

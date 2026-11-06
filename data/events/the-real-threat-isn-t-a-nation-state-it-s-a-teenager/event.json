@@ -35,7 +35,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/",
-  "read_at": "2026-11-05T08:19Z",
+  "read_at": "2026-11-06T08:18Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -46,6 +46,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 198
+    "item": 206
   }
 }
