@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.61",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the conductor's inbox: a vault with an append lane per agent and a public lane",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "b8e0a69e0"
+  },
+  {
     "version": "v0.1.60",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: the newsroom move: admin becomes newsroom, everywhere, in one commit (no redirect stubs)",
