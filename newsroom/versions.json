@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.354",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: T1 review fixes; one closing line on all five team articles (T1 to T5)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "a4f05b233"
+  },
+  {
     "version": "v0.1.353",
     "date": "2026-11-06",
     "what": "researcher@PrompTugal.dinis: run report, last run of this session",
