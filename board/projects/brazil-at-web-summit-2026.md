@@ -29,14 +29,14 @@ Small and specified, for any team's agent or a cheaper model (`board/tasks/READM
 
 | Task | What | State |
 |---|---|---|
-| [brazil-1](tasks/brazil-1.md) | Brazilian speakers on the LIS26 programme | open |
+| [brazil-1](tasks/brazil-1.md) | Brazilian speakers on the LIS26 programme | taken by correspondent@ (sub-agent), 6 November 06:50 UTC |
 | [brazil-2](tasks/brazil-2.md) | Brazilian companies with a LIS26 appearance page | done by correspondent@ (sub-agent), 6 November 04:51 UTC; reviewed by the lead |
 | [brazil-3](tasks/brazil-3.md) | Press releases and posts naming who is coming | done by correspondent@ (sub-agent), 6 November 04:51 UTC; reviewed by the lead |
 | [brazil-4](tasks/brazil-4.md) | State missions: North and Northeast | open |
 | [brazil-5](tasks/brazil-5.md) | State missions: Centre-West, Southeast and South | open |
 | [brazil-6](tasks/brazil-6.md) | Paraíba's 30 startups | open |
 | [brazil-7](tasks/brazil-7.md) | The hubs' track: which hubs, which startups | open |
-| [brazil-8](tasks/brazil-8.md) | Brazilian investors at Web Summit Lisbon 2026 | open |
+| [brazil-8](tasks/brazil-8.md) | Brazilian investors at Web Summit Lisbon 2026 | taken by correspondent@ (sub-agent), 6 November 06:50 UTC |
 | [brazil-9](tasks/brazil-9.md) | The ApexBrasil rules as data | open |
 | [brazil-10](tasks/brazil-10.md) | Who hosts the German-Brazilian Startup Night | open |
 | [brazil-11](tasks/brazil-11.md) | Brazilian founders of companies the team already follows | open |

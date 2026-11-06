@@ -6,9 +6,9 @@ inputs: "websummit.com investor and speaker pages; the firms' own sites and news
 output: desks/correspondent/beats/brazil/found/brazil-8.json
 done_when: "at least 15 firms checked, each with found or not found"
 budget: "one run, at most 40 fetches; any model"
-taken_by:
-taken_at:
-state: open
+taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
+taken_at: 2026-11-06T06:50Z
+state: taken
 ---
 # brazil-8: Brazilian investors at Web Summit Lisbon 2026
 
