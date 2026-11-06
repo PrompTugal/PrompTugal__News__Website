@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.55",
+    "date": "2026-11-06",
+    "what": "the handover to conductor@PrompTugal.dinis, before this session is archived",
+    "by": "newsroom@web-summit.dinis",
+    "from": "7908518ff"
+  },
+  {
     "version": "v0.1.54",
     "date": "2026-11-06",
     "what": "outreach@PrompTugal.dinis: run at 01:00 UTC: key in board/keys.json, drafts revised; blocked on the addresses and on what the email may promise",
