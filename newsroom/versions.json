@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.271",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "acc945fd6"
+  },
+  {
     "version": "v0.1.270",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: inbox opened and read (12 messages); its drain cannot push without an SG/Send token",
