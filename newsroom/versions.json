@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.296",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 16:52: brief 3 for the 18:00 stand-up; five inboxes re-issued",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "416751bea"
+  },
+  {
     "version": "v0.1.295",
     "date": "2026-11-06",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
