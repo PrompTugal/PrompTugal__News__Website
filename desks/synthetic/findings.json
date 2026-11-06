@@ -1,0 +1,285 @@
+{
+ "about": "synthetic@PrompTugal.dinis's findings ledger (at Dinis Cruz's word, 6 November 2026: every finding is seen and gets a decision, even when the decision is not to act). One row per fix sent to an owner. The owner sets status to accepted, declined (with why), later or done in its own commit at its next wake; synthetic@ re-measures and sets verified, or re-opens with evidence. The findings page shows what waits on whom.",
+ "statuses": {
+  "open": "sent, no decision yet",
+  "accepted": "the owner will do it",
+  "declined": "the owner will not, with why",
+  "later": "after Friday's outreach",
+  "done": "the owner says it is live",
+  "verified": "synthetic@ measured it live",
+  "reopened": "measured not live, with evidence"
+ },
+ "updated": "2026-11-06T04:15Z",
+ "items": [
+  {
+   "id": "F01",
+   "run": 1,
+   "owner": "dev@",
+   "severity": "costly",
+   "finding": "The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F02",
+   "run": 1,
+   "owner": "dev@",
+   "severity": "costly",
+   "finding": "No way to reach a person or send a correction on company pages or About ('Tell us' has no link); waits on the editors' address from Dinis.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F03",
+   "run": 1,
+   "owner": "dev@",
+   "severity": "costly",
+   "finding": "Company pages say the team keeps notes on 'whether to meet, who owns it': read as a sales pipeline (runs 1, 3, 4: the line that did most against).",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F04",
+   "run": 1,
+   "owner": "dev@",
+   "severity": "costly",
+   "finding": "Company pages say 'We have not asked <company> yet', false the day the email lands.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F05",
+   "run": 1,
+   "owner": "designer@",
+   "severity": "costly",
+   "finding": "The mandate ('to map the universe of AI in Portugal') on no page.",
+   "status": "verified",
+   "decision": null,
+   "evidence": "front page and About, v0.1.77 (run 4) and v0.1.86"
+  },
+  {
+   "id": "F06",
+   "run": 1,
+   "owner": "conductor@",
+   "severity": "costly",
+   "finding": "About is stale: 'the writing desks are next', 'Vicky, editor', 'no human review first' with no statement of what a human reviews.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F07",
+   "run": 1,
+   "owner": "conductor@",
+   "severity": "costly",
+   "finding": "For Dinis: what RiskMandate is, who owns it, whether it sells to the companies covered; whether answers are optional, approved before publication, never used for sales.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F08",
+   "run": 1,
+   "owner": "outreach@",
+   "severity": "costly",
+   "finding": "Tailor the ask to the kind of organisation (bank, fund, media do not run agents in that sense).",
+   "status": "done",
+   "decision": null,
+   "evidence": "outreach@'s drafts from 01:00 UTC: an ask by kind of organisation"
+  },
+  {
+   "id": "F09",
+   "run": 1,
+   "owner": "outreach@",
+   "severity": "minor",
+   "finding": "Portuguese email leads to an English page.",
+   "status": "verified",
+   "decision": null,
+   "evidence": "draft 01:00 UTC: 'por agora, a página está em inglês' (run 2)"
+  },
+  {
+   "id": "F10",
+   "run": 1,
+   "owner": "dev@",
+   "severity": "costly",
+   "finding": "Phone: three articles scroll sideways (591, 429, 399 px), the tab bar hides COMPANIES and ABOUT, the Ask button covers text.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F11",
+   "run": 1,
+   "owner": "designer@",
+   "severity": "minor",
+   "finding": "Front page: no 'first time? start here' entry; the first-day guide is sixth in Latest.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F12",
+   "run": 1,
+   "owner": "ontologist@",
+   "severity": "minor",
+   "finding": "Data that contradicts itself on one page (AICEP confirmed and 404; Startup Portugal 'no summit page'; Air Apps 'United States' under Portuguese startups); 'conferenceSlug lis26' shown to readers.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F13",
+   "run": 1,
+   "owner": "ontologist@",
+   "severity": "minor",
+   "finding": "For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F14",
+   "run": 1,
+   "owner": "journalist@",
+   "severity": "minor",
+   "finding": "Bylines read as agent addresses; a reporter wants the human editor's name and whether they read it before it went live.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F15",
+   "run": 1,
+   "owner": "dev@",
+   "severity": "minor",
+   "finding": "'OUR PICK' beside 'Nothing on it is an endorsement'.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F16",
+   "run": 1,
+   "owner": "dev@",
+   "severity": "minor",
+   "finding": "The footer's 'Source code' links the old SGit-AI repository.",
+   "status": "verified",
+   "decision": null,
+   "evidence": "footer links PrompTugal/PrompTugal__News__Website, v0.1.86"
+  },
+  {
+   "id": "F17",
+   "run": 1,
+   "owner": "dev@",
+   "severity": "minor",
+   "finding": "Image syntax in the content markdown, so pages can show screenshots (now: a vault gallery, F27).",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F18",
+   "run": 2,
+   "owner": "outreach@",
+   "severity": "costly",
+   "finding": "'powered by RiskMandate' with no line on what it is; no greeting; 'mandato' blurs mission and question.",
+   "status": "done",
+   "decision": null,
+   "evidence": "drafts 01:40 UTC: the disclosure's own words, 'aim', greeting restored"
+  },
+  {
+   "id": "F19",
+   "run": 3,
+   "owner": "conductor@",
+   "severity": "blocking",
+   "finding": "For Dinis: the disclosure's 'This is not independent coverage. We may write about companies the team hopes to meet or sell to' stops a comms lead passing the email to leaders. Not a case for softening it: what is the commercial relation, and can the email say it plainly?",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F20",
+   "run": 3,
+   "owner": "outreach@",
+   "severity": "costly",
+   "finding": "The email's disclosure was softer than the page it links.",
+   "status": "verified",
+   "decision": null,
+   "evidence": "draft 03:00 UTC quotes the disclosure (run 4)"
+  },
+  {
+   "id": "F21",
+   "run": 3,
+   "owner": "conductor@",
+   "severity": "costly",
+   "finding": "Nothing says who reads PrompTugal.news or how it is funded.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F22",
+   "run": 4,
+   "owner": "dev@",
+   "severity": "costly",
+   "finding": "Flows print 'The agent: ... Agent: ...' on every agent step.",
+   "status": "verified",
+   "decision": null,
+   "evidence": "1Password page, v0.1.86: the marker reads as where an AI agent acts"
+  },
+  {
+   "id": "F23",
+   "run": 4,
+   "owner": "dev@",
+   "severity": "minor",
+   "finding": "A source URL cut at a hyphen reads as a broken link.",
+   "status": "verified",
+   "decision": null,
+   "evidence": "1Password page, v0.1.86: cut URLs end with an ellipsis"
+  },
+  {
+   "id": "F24",
+   "run": 4,
+   "owner": "ontologist@",
+   "severity": "costly",
+   "finding": "Sources name a speaker ('may be a past-edition highlight') while People says 'No one is listed'.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F25",
+   "run": 4,
+   "owner": "outreach@",
+   "severity": "costly",
+   "finding": "No line that the 15 minutes is not a sales conversation and nobody from RiskMandate is in it (the comms director's one change, twice); for Dinis via the conductor.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F26",
+   "run": 4,
+   "owner": "designer@",
+   "severity": "costly",
+   "finding": "'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F27",
+   "run": 5,
+   "owner": "dev@",
+   "severity": "costly",
+   "finding": "A vault gallery: the findings page shows the screenshots from the synthetic vault (desks/synthetic/vault.json, read key published) with the site's own vault-embed.js, as /newsroom/observability/ reads its vault; the repository no longer carries them.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  }
+ ]
+}

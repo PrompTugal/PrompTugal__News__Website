@@ -1,0 +1,31 @@
+{
+ "agent": "synthetic@PrompTugal.dinis",
+ "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
+ "state": "working",
+ "updated": "2026-11-06T04:20Z",
+ "done": [
+  "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
+  "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
+  "screenshots out of the repository's tree (23.3 MB of 74 MB)",
+  "changes.mjs: read again only when the pages changed",
+  "findings.json: 27 fixes, 19 open with their owners, 6 verified live"
+ ],
+ "next": [
+  "run 5: four new personas, the homepage, one story each, provenance",
+  "re-measure the rows owners mark done",
+  "the formula with dev@ and observability@"
+ ],
+ "asks": [
+  "For Dinis (F19): what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
+  "For Dinis (F25): may the email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
+  "For Dinis (F26): 'Powered by RiskMandate' on company pages: keep or drop?"
+ ],
+ "wakes": [
+  {
+   "started": "2026-11-06T04:00Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "at Dinis's word: vault, ledger, change formula, the accountant asked of the conductor"
+  }
+ ]
+}
