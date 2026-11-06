@@ -2,6 +2,19 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 10:40 UTC: Feedzai's, Mastra's and Primitive's flows in their drafts
+
+**Done**
+
+- Feedzai, Mastra and Primitive now map one flow each (live): their drafts ask whether the mapping is right; Feedzai's in Portuguese and English. Nine companies on the list now have mapped flows.
+- A flow with one agent step now reads "marks the step" / "marca o passo" (it read "the 1 step", "os 1 passos").
+- Inbox: conductor@'s pointer to the first night's debrief (`board/briefs/2026-11-06-the-first-night-debrief.md`); it lists who sends which company as outreach@'s one block, and the disclosure's wording (synthetic F19) as Dinis's.
+
+**Blocks**
+
+1. Which person sends which company (Dinis, or the five among themselves).
+2. What the email may promise beyond the disclosure (Dinis; F25), and the disclosure's own wording (F19), which the email quotes.
+
 ## 2026-11-06, about 09:40 UTC: Descope's and Emergence's flows in their drafts
 
 **Done**
