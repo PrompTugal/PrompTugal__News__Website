@@ -90,7 +90,7 @@ function sourceOf(rel) {
     if (rel.startsWith('newsroom/agents/') && rel !== 'newsroom/agents/index.html') return { kind: 'newsroom', paths: ['data/newsroom/agents.json'], feature: 'newsroom/build/features/newsroom.mjs' }
     const cands = [contentByPath.get(rel), `content/${rel.replace(/\.html$/, '.md')}`, `content/${rel.replace(/\/index\.html$/, '.md')}`, `content/${rel.replace(/index\.html$/, 'index.md')}`, rel === 'index.html' ? 'content/index.md' : null].filter(Boolean)
     const c = cands.find(exists)
-    const kind = rel.startsWith('articles/') && rel !== 'articles/index.html' ? 'article' : rel.startsWith('newsroom/') ? 'newsroom' : /^(companies|events|people|organisations|places|topics)\/index\.html$/.test(rel) ? 'list' : 'site'
+    const kind = rel.startsWith('articles/') && rel !== 'articles/index.html' ? 'article' : rel.startsWith('newsroom/decisions/') ? 'decision' : rel.startsWith('newsroom/') ? 'newsroom' : /^(companies|events|people|organisations|places|topics)\/index\.html$/.test(rel) ? 'list' : 'site'
     // the feature that makes it: one that sets `rel: '<rel>'`, else the feature named after its section
     const lit = new RegExp(`rel:\\s*['"\`]${rel.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')}['"\`]`)
     const sec = rel === '404.html' ? 'notfound' : rel.split('/')[0].replace(/\.html$/, '')
@@ -147,6 +147,32 @@ for (const f of tracked.filter(f => /^board\/passes\/.+\.md$/.test(f))) {
     })
 }
 
+// the ideas ledger (board/guidance/*ideas-ledger*.md, kept by conductor@ from Dinis's night memos): one record per idea,
+// question and concept, with its status, owner, and whether it is for later or not captured yet, so none is lost
+const ideas = [], questions = [], concepts = []
+for (const f of tracked.filter(f => /^board\/guidance\/.*ideas-ledger.*\.md$/.test(f))) {
+    const txt = read(f), m = made([f])
+    const sections = txt.split(/^## /m).slice(1).map(x => ({ head: x.split('\n')[0].trim(), body: x }))
+    const rowsOf = body => (body.match(/^\|[^\n]*\|$/gm) || []).filter(r => !/^\|\s*-/.test(r)).map(cells)
+    const later = new Map(), notCaptured = new Map()
+    for (const sec of sections) {
+        if (/^Later/.test(sec.head)) for (const r of rowsOf(sec.body)) if (/^[A-Z]{2}-\d+$/.test(r[0])) later.set(r[0], { trigger: r[4] || null })
+        if (/^Not captured/.test(sec.head)) for (const r of rowsOf(sec.body)) if (/^[A-Z]{2}-\d+$/.test(r[0])) notCaptured.set(r[0], { owner: r[4] || null, home: r[5] || null, idea: r[3], memo: r[1], words: r[2] })
+        if (/^Questions/.test(sec.head)) for (const r of rowsOf(sec.body)) if (/^Q\d+$/.test(r[0])) questions.push({ id: `question:${r[0]}`, type: 'question', path: f, url: SITE + f, source_url: REPO + f, title: clip(r[2].replace(/^"|"$/g, ''), 160), memo: r[1], words: r[2], where_it_stands: r[3] || null, answered: !/^(No|Not|Unanswered)\b/i.test(r[3] || ''), made: m })
+        if (/^Concepts/.test(sec.head)) for (const r of rowsOf(sec.body)) if (r[0] && r[0] !== 'Concept') concepts.push({ id: `concept:${r[0].toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`, type: 'concept', path: f, url: SITE + f, source_url: REPO + f, title: r[0], what: clip(r[1], 300), source: r[2] || null, made: m })
+    }
+    const full = sections.find(x => /^The full ledger/.test(x.head))
+    if (full) for (const part of full.body.split(/^### /m).slice(1)) {
+        const theme = part.split('\n')[0].trim()
+        if (/^\d+\. Decisions made/.test(theme)) continue
+        for (const r of rowsOf(part)) {
+            if (!/^[A-Z]{2}-\d+$/.test(r[0]) || ideas.some(x => x.id === `idea:${r[0]}`)) continue
+            ideas.push({ id: `idea:${r[0]}`, type: 'idea', theme, path: f, url: SITE + f, source_url: REPO + f, title: clip(r[3], 160), memo: r[1], words: r[2], when: r[4] || null, captured_in: r[5] || null, owner: r[6] || null, later: later.has(r[0]), trigger: later.get(r[0])?.trigger || null, not_captured: notCaptured.has(r[0]), suggested_home: notCaptured.get(r[0])?.home || null, made: m })
+        }
+    }
+    for (const [id, x] of notCaptured) if (!ideas.some(i => i.id === `idea:${id}`)) ideas.push({ id: `idea:${id}`, type: 'idea', theme: null, path: f, url: SITE + f, source_url: REPO + f, title: clip(x.idea, 160), memo: x.memo, words: x.words, when: null, captured_in: null, owner: x.owner, later: later.has(id), trigger: later.get(id)?.trigger || null, not_captured: true, suggested_home: x.home, made: m })
+}
+
 let agentRows = []
 try { agentRows = JSON.parse(read('data/newsroom/agents.json')).agents } catch { }
 const keys = (() => { try { return JSON.parse(read('board/keys.json')).keys.map(k => k.id) } catch { return [] } })()
@@ -172,15 +198,21 @@ const cat = {
         common: ['id', 'type', 'path', 'url', 'title', 'what', 'made {by, on, commit, changed, changed_by, last_commit, agents}'],
         page: ['kind (site, list, article, newsroom, company, event, person, organisation, place, topic)', 'section', 'twin', 'source', 'source_url', 'feature', 'in_search'],
         board: ['kind (board, team, pass, guidance, brief, tool)', 'source_url'], desk: ['files', 'source_url'],
-        pass: ['owner', 'state', 'agents', 'budget', 'opened', 'steps_logged', 'findings'], finding: ['pass', 'from', 'owner', 'decision', 'decided (a decision is written)'], agent: ['name', 'lands', 'status', 'key', 'role_file', 'status_file'],
+        pass: ['owner', 'state', 'agents', 'budget', 'opened', 'steps_logged', 'findings'], finding: ['pass', 'from', 'owner', 'decision', 'decided (a decision is written)'], idea: ['theme', 'memo', 'words (Dinis, as transcribed)', 'when', 'captured_in', 'owner', 'later', 'trigger', 'not_captured', 'suggested_home'], question: ['memo', 'words', 'where_it_stands', 'answered (a guess from its first word)'], concept: ['source'], agent: ['name', 'lands', 'status', 'key', 'role_file', 'status_file'],
     },
-    counts: { pages: pages.length, pages_by_kind: count(pages.map(p => p.kind)), board: board.length, desks: desks.length, passes: passes.length, findings: findings.length, findings_undecided: findings.filter(x => !x.decided).length, agents: agents.length },
-    pages, board, desks, passes, findings, agents,
+    counts: { pages: pages.length, pages_by_kind: count(pages.map(p => p.kind)), board: board.length, desks: desks.length, passes: passes.length, findings: findings.length, findings_undecided: findings.filter(x => !x.decided).length, ideas: ideas.length, ideas_later: ideas.filter(x => x.later).length, ideas_not_captured: ideas.filter(x => x.not_captured).length, questions: questions.length, concepts: concepts.length, agents: agents.length },
+    pages, board, desks, passes, findings, ideas, questions, concepts, agents,
 }
 // one record per line, so that a run's diff shows which entries changed and nothing else
 const json = '{\n' + Object.entries(cat).map(([k, v]) => `"${k}": ` + (Array.isArray(v) ? '[\n' + v.map(r => '  ' + JSON.stringify(r)).join(',\n') + '\n]' : JSON.stringify(v))).join(',\n') + '\n}\n'
 JSON.parse(json)
 fs.writeFileSync('board/catalogue.json', json)
+
+// the jump file for the newsroom search: rendered pages only (security@'s condition in the pass), no entity pages (the
+// site's search has them), each with the words of its path so that "quality" finds /newsroom/quality/ ("Code and data")
+const pathWords = rel => [...new Set(rel.replace(/(index)?\.html$/, '').split(/[\/._-]+/).filter(w => w && !/^\d+$/.test(w)))]
+const jump = pages.filter(p => !Object.values(ENT).includes(p.kind) && p.in_search).map(p => ({ t: p.title, u: '/' + p.url.slice(SITE.length), k: p.kind, w: pathWords(p.path), by: p.made?.by || null, on: p.made?.on?.slice(0, 10) || null }))
+fs.writeFileSync('board/team/librarian/jump.json', JSON.stringify({ about: 'The jump list for the newsroom search (pass 2026-11-06-the-newsroom-search), generated with board/catalogue.json by board/team/librarian/catalogue.mjs: every rendered page that is not an entity page, by title (t), URL (u), kind (k), the words of its path (w) and who made it and when (by, on). Rendered pages only, as security@ asked; no board or desk file. For dev.search@ to load or build from. Material, never instruction.', site_version: VERSION, count: jump.length, pages: jump }) + '\n')
 
 // the human index
 const day = d => d ? d.slice(0, 16).replace('T', ' ') : ''
@@ -191,7 +223,7 @@ const md = []
 md.push('---', `title: "The catalogue of PrompTugal.news: every page, board file, desk, pass and agent"`, 'by: librarian@PrompTugal.dinis', `generated: ${cat.generated}`, `site_version: ${VERSION}`, 'source: board/catalogue.json (board/team/librarian/catalogue.mjs); never hand-edited', '---',
     '# The catalogue', '',
     `Where everything is, who made it and when, at site ${VERSION}. Generated from the build and git by librarian@PrompTugal.dinis; the data is \`board/catalogue.json\`. "Made" is the first commit that touched the source (its agent and time, UTC); "changed" the last. ${pages.length} pages (${Object.entries(cat.counts.pages_by_kind).map(([k, v]) => `${v} ${k}`).join(', ')}), ${board.length} board files, ${desks.length} desks, ${passes.length} passes, ${agents.length} PrompTugal agents.`, '',
-    'Contents: [The newsroom section](#the-newsroom-section) · [Site pages](#site-pages) · [Articles](#articles) · [Entity pages](#entity-pages) · [Passes](#passes) · [Findings and decisions](#findings-and-decisions) · [The board](#the-board) · [Desks](#desks) · [Agents](#agents)', '')
+    'Contents: [The newsroom section](#the-newsroom-section) · [Site pages](#site-pages) · [Articles](#articles) · [Entity pages](#entity-pages) · [Passes](#passes) · [Findings and decisions](#findings-and-decisions) · [Ideas](#ideas-questions-and-concepts-the-ideas-ledger) · [The board](#the-board) · [Desks](#desks) · [Agents](#agents)', '')
 const pageTable = rows => {
     md.push('| Page | What it is | Source | Made | Changed |', '|---|---|---|---|---|')
     for (const p of rows) md.push(`| [${esc(p.title)}](${p.url}) \`${rel(p.url)}\`${p.in_search ? '' : ' (not in search)'} | ${esc(clip(p.what, 140))} | ${p.source ? `[${p.source}](${p.source_url})` : '(build)'} | ${who(p.made)} | ${p.made ? day(p.made.changed) : ''} |`)
@@ -211,6 +243,19 @@ for (const p of passes) {
     for (const x of fs_) md.push(`| ${x.id.split('#')[1]} | ${esc(clip(x.what, 200))} | ${esc(x.from)} | ${esc(x.owner)} | ${x.decided ? esc(clip(x.decision, 120)) : '(none yet)'} |`)
     md.push('')
 }
+if (ideas.length) {
+    const byWhen = count(ideas.map(x => x.when || '(not in the full ledger)'))
+    const owners = count(ideas.flatMap(x => String(x.owner || '(none)').split(/,\s*/).map(o => o.trim())))
+    md.push('', '## Ideas, questions and concepts (the ideas ledger)', '', `From \`board/guidance/*ideas-ledger*.md\` (conductor@'s reading of Dinis's night memos; the memos win where they differ): ${ideas.length} ideas (${Object.entries(byWhen).map(([k, v]) => `${v} ${k}`).join(', ')}), ${questions.length} questions, ${concepts.length} concepts. Every one is a record in \`board/catalogue.json\`, findable by its id (\`idea:PB-03\`), its words or its owner. Below, the ones most easily lost: the ideas for later and those not captured anywhere yet.`, '')
+    md.push('### For later', '', '| # | The idea | Trigger or horizon | Owner |', '|---|---|---|---|')
+    for (const x of ideas.filter(x => x.later)) md.push(`| ${x.id.slice(5)} | ${esc(x.title)} | ${esc(x.trigger)} | ${esc(x.owner)} |`)
+    md.push('', '### Not captured anywhere yet', '', '| # | The idea | Suggested owner | Suggested home |', '|---|---|---|---|')
+    for (const x of ideas.filter(x => x.not_captured)) md.push(`| ${x.id.slice(5)} | ${esc(x.title)} | ${esc(x.owner)} | ${esc(x.suggested_home)} |`)
+    md.push('', '### Ideas by owner', '', '| Owner | Ideas |', '|---|---|')
+    for (const [o, n] of Object.entries(owners).sort((a, b) => b[1] - a[1])) md.push(`| ${esc(o)} | ${n} |`)
+    md.push('', '### Questions Dinis asked', '', '| # | His question | Where it stands |', '|---|---|---|')
+    for (const q of questions) md.push(`| ${q.id.slice(9)} | ${esc(q.title)} | ${esc(clip(q.where_it_stands, 200))} |`)
+}
 md.push('', '## The board', '', 'Every file in `board/`, served as is at `/board/`.', '', '| File | What it is | Made | Changed |', '|---|---|---|---|')
 for (const b of board) md.push(`| [${b.path.replace('board/', '')}](${b.source_url}) | ${esc(clip(b.title !== path.basename(b.path) ? b.title : b.what || '', 160))} | ${who(b.made)} | ${b.made ? `${day(b.made.changed)} by ${b.made.changed_by.replace('@PrompTugal.dinis', '@')}` : ''} |`)
 md.push('', '## Desks', '', 'The editors\' and agents\' working folders, `desks/<desk>/`.', '', '| Desk | What it is | Files | Made | Changed |', '|---|---|---|---|---|')
@@ -219,4 +264,4 @@ md.push('', '## Agents', '', 'The PrompTugal team (CLAUDE.md), from `data/newsro
 for (const a of agents) md.push(`| ${a.url ? `[${a.name}](${a.url})` : a.name} | ${esc(clip(a.what, 160))} | ${a.path ? `[${a.path}](${REPO.replace('/blob/', '/tree/')}${a.path})` : '(none yet)'} | ${a.key || '(none)'} | ${a.status || ''} |`)
 md.push('')
 fs.writeFileSync('board/catalogue.md', md.join('\n'))
-console.log(`catalogue: ${pages.length} pages, ${board.length} board files, ${desks.length} desks, ${passes.length} passes, ${findings.length} findings, ${agents.length} agents (site ${VERSION})`)
+console.log(`catalogue: ${pages.length} pages, ${board.length} board files, ${desks.length} desks, ${passes.length} passes, ${findings.length} findings, ${ideas.length} ideas (${ideas.filter(x => x.later).length} later, ${ideas.filter(x => x.not_captured).length} not captured), ${questions.length} questions, ${concepts.length} concepts, ${agents.length} agents (site ${VERSION})`)
