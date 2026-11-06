@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.224",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8dd39ad56"
+  },
+  {
     "version": "v0.1.223",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: the ideas ledger of the night's memos; customers@ and decisions-as-pages in CLAUDE.md",
