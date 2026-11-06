@@ -1,0 +1,48 @@
+{
+ "agent": "outreach@PrompTugal.dinis",
+ "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
+ "state": "running: hourly at :38 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
+ "updated": "2026-11-06T03:50Z",
+ "done": [
+  "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
+  "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
+  "Drafts follow the page: 1Password's mapped flows, Startup Portugal's article (v0.1.77)",
+  "At Dinis's word: the SEO pass (Open Graph and Twitter cards with an image, JSON-LD, sitemap lastmod, a Google News sitemap, RSS); Search Console in REALITY.md (v0.1.83)",
+  "The opening in Dinis's words: we built this page for you, could you check it is correct? (this wake)"
+ ],
+ "next": [
+  "Each wake: re-run the generator against the live data, so every draft follows its page (new flows, sessions, articles)",
+  "Link the drafts from the story board's cards when a story is about a company we write to (board/the-story-pipeline.md, row 3), once the board exists",
+  "The Brazilian delegation's companies, when Dinis gives the word"
+ ],
+ "asks": [
+  "Dinis: who sends, from which address: each editor from their own, or a person from the agents' address? Every draft says 'Drafted by an AI agent, reviewed and sent by me' over an editor's name.",
+  "Dinis: may an email promise more than the disclosure, such as 'you approve your words before they go up' or 'this is not a sales call'?"
+ ],
+ "wakes": [
+  {
+   "started": "2026-11-06T00:38Z",
+   "outcome": "ok",
+   "release": "v0.1.54",
+   "line": "key in board/keys.json; drafts revised after synthetic run 1"
+  },
+  {
+   "started": "2026-11-06T01:38Z",
+   "outcome": "ok",
+   "release": "v0.1.65",
+   "line": "synthetic run 2's fixes; drafts re-checked after the newsroom move"
+  },
+  {
+   "started": "2026-11-06T02:38Z",
+   "outcome": "ok",
+   "release": "v0.1.77",
+   "line": "drafts follow 1Password's flows and S3; the disclosure in its own words"
+  },
+  {
+   "started": "2026-11-06T03:38Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "the opening in Dinis's words; ROLE.md and status.json"
+  }
+ ]
+}
