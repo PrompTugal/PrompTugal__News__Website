@@ -47,11 +47,17 @@ export function byline(author) {
 }
 const minutes = md => Math.max(1, Math.round(md.replace(/```[\s\S]*?```/g, '').split(/\s+/).filter(Boolean).length / 230))
 
+// a beat as a link to its topic page (dev.pages@, sherpa F6), when a topic of that name exists; else the plain words
+const beatLink = (ctx, page, beat) => {
+    const b = String(beat || '').replace(/["']/g, '').replace(/^connections:\s*/i, '').replace(/\s*\(.*\)$/, '').trim()
+    const t = ctx.store.topics.find(x => x.name.toLowerCase() === b.toLowerCase())
+    return b ? (t ? `[${t.name}](${ctx.link(page.rel, `topics/${t.id}/index.html`)})` : `\`${b}\``) : ''
+}
 // two second stories under the lead (designer@'s F8, A): a picture, the kicker, the headline
 function seconds(ctx, page) {
     const two = frontOrder(ctx).slice(1, 3); if (!two.length) return ''
     return '\n\n{.rows .seconds}\n' + two.map(a => { const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'thumb')
-        return `- ${img ? `[${img}](${href}) ` : ''}\`${ctx.md.cell(a.meta.beat || String(a.meta.tags || 'News').split(',')[0])}\` **[${a.meta.title}](${href})** *${byline(a.meta.author)}*` }).join('\n')
+        return `- ${img ? `[${img}](${href}) ` : ''}${beatLink(ctx, page, a.meta.beat || String(a.meta.tags || 'News').split(',')[0])} **[${a.meta.title}](${href})** *${byline(a.meta.author)}*` }).join('\n')
 }
 
 export const fill = {
@@ -84,7 +90,7 @@ export const fill = {
         const rest = frontOrder(ctx).slice(3)
         const row = a => {
             const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'thumb')
-            return `- ${img ? `[${img}](${href}) ` : ''}\`${ctx.md.cell(a.meta.beat || String(a.meta.tags || 'News').split(',')[0])}\` **[${a.meta.title}](${href})** *${byline(a.meta.author)}*`
+            return `- ${img ? `[${img}](${href}) ` : ''}${beatLink(ctx, page, a.meta.beat || String(a.meta.tags || 'News').split(',')[0])} **[${a.meta.title}](${href})** *${byline(a.meta.author)}*`
         }
         return rest.length ? `{.rows .news}\n${rest.map(row).join('\n')}` : 'The next articles will appear here, newest first. Each is written from the desks\' research, fact-checked, and signed with the newsroom\'s key.'
     },

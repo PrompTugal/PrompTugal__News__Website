@@ -26,32 +26,32 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-919 cards (919 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T18:58:39Z at site v0.1.316; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+924 cards (924 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T22:26:02Z at site v0.1.363; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 21 |
+| `GDN.MEMO` | 22 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 29 |
 | `GEN.README` | 1 |
 | `WRK.BRIEF` | 21 |
-| `WRK.DEC` | 11 |
-| `WRK.DESK` | 12 |
-| `WRK.FIND` | 157 |
+| `WRK.DEC` | 12 |
+| `WRK.DESK` | 13 |
+| `WRK.FIND` | 158 |
 | `WRK.PASS` | 29 |
-| `WRK.PLAN` | 24 |
+| `WRK.PLAN` | 25 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
-- `ACC-20261106-2909` [Spec: vault onboarding for PrompTugal.news readers (key pool, claim lane, mailbox)](https://promptugal.news/board/spec-vault-onboarding.md) (`WRK.PLAN spec-vault-onboarding`)
-- `ACC-20261106-2908` [The daily newsletter: the design of an edition, its page and its email (designer@)](https://promptugal.news/board/spec-the-daily-newsletter.md) (`WRK.PLAN spec-the-daily-newsletter`)
-- `ACC-20261106-2907` [The offline mode: the badge, Save for offline, and the saved list (designer@, row 3 of the pass)](https://promptugal.news/board/spec-offline-mode-design.md) (`WRK.PLAN spec-offline-mode-design`)
-- `ACC-20261106-2906` [2026-11-06-offline-mode](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) (`WRK.PASS 2026-11-06-offline-mode`)
-- `ACC-20261106-2905` [T24 (to test) C's tab bar with Safari's own bottom toolbar on an iPhone: not testable in Chromium; a real phone or a WebKit run](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) (`WRK.FIND 2026-11-06-the-top-of-the-page-30`)
+- `ACC-20261106-3107` [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) (`WRK.PLAN the-account-move`)
+- `ACC-20261106-3106` [Spec check of live v0.1.347 against A with C's top (Dinis, 21:00, via the conductor): eleven differences F1 to F11 (no band; a mandate box above the lead; the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) (`WRK.FIND 2026-11-06-the-front-page-16`)
+- `ACC-20261106-3105` [dev-vicky](https://promptugal.news/desks/dev-vicky/) (`WRK.DESK dev-vicky`)
+- `ACC-20261106-3104` [For Dinis: does PrompTugal.news have an investor story of its own, through which company, and where does it live?](https://promptugal.news/newsroom/decisions/promptugal-for-investors/) (`WRK.DEC promptugal-for-investors`)
+- `ACC-20261106-2911` [Dinis, 6 November 2026, 21:05 to 22:00 UTC: a second account, its conductor, and the agents that move](https://promptugal.news/board/guidance/2026-11-06-account-b.md) (`GDN.MEMO 2026-11-06-account-b`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
