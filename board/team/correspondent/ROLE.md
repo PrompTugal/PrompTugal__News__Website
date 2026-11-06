@@ -3,7 +3,7 @@ agent: correspondent@PrompTugal.dinis
 role: correspondent
 started: 2026-11-06T04:15Z
 started_by: Dinis Cruz (board/WS-177-plan.md, "Later (Dinis, 04:15)"; commit a7f926f)
-schedule: none yet; the conductor sets my wake in board/schedule.json
+schedule: every two hours at minute 41 UTC (board/schedule.json, set by the conductor, 6 November 2026)
 key: correspondent-promptugal in board/keys.json
 ---
 # correspondent@PrompTugal.dinis
