@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-06T15:58Z",
+ "updated": "2026-11-06T18:55Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -26,13 +26,13 @@
    "usd": 500
   },
   "spent_today": {
-   "releases": 222,
-   "usd": 582.84,
-   "read_at": "2026-11-06T15:52Z"
+   "releases": 248,
+   "usd": 711.44,
+   "read_at": "2026-11-06T18:50Z"
   },
   "state": "warn",
-  "used": 1.17,
-  "rate": "API-equivalent: 159.00 from 12:52 to 15:52 UTC, about 53 an hour (28, 21 and 50 in the windows before); the team's 500 line passed before 15:52; nothing stops"
+  "used": 1.42,
+  "rate": "API-equivalent, Opus sessions: 128.6 from 15:52 to 18:50 UTC, about 43 an hour (53, 28, 21 and 50 in the windows before)"
  },
  "agents": [
   {
@@ -43,14 +43,14 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 49,
-    "usd": 60.53,
-    "output_tokens": 506483,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 53,
+    "usd": 66.53,
+    "output_tokens": 540309,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 1.21,
+   "used": 1.33,
    "state": "warn",
-   "why": "one release per hourly wake; it opens and closes every pass; OVER at 15:52 UTC on usd (used 1.21); keeps working (capture, not block)"
+   "why": "one release per hourly wake; it opens and closes every pass; OVER at 18:50 UTC on usd (used 1.33); keeps working (capture, not block)"
   },
   {
    "agent": "synthetic@PrompTugal.dinis",
@@ -60,12 +60,12 @@
     "output_tokens": 900000
    },
    "spent_today": {
-    "releases": 19,
-    "usd": 55.55,
-    "output_tokens": 477458,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 21,
+    "usd": 59.31,
+    "output_tokens": 493637,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 0.93,
+   "used": 0.99,
    "state": "warn",
    "why": "two pass reviews and the loop rule's re-reads; the loop Dinis named first"
   },
@@ -77,14 +77,14 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 22,
-    "usd": 53.35,
-    "output_tokens": 452419,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 23,
+    "usd": 63.04,
+    "output_tokens": 496751,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 1.07,
+   "used": 1.26,
    "state": "warn",
-   "why": "eight pass rounds today (3, 3 and 2) and its own line; OVER at 15:52 UTC on usd (used 1.07); keeps working (capture, not block)"
+   "why": "eight pass rounds today (3, 3 and 2) and its own line; OVER at 18:50 UTC on usd (used 1.26); keeps working (capture, not block)"
   },
   {
    "agent": "dev@PrompTugal.dinis",
@@ -94,13 +94,14 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 19,
-    "usd": 47.02,
-    "output_tokens": 283748,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 22,
+    "usd": 60.18,
+    "output_tokens": 415356,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 0.78,
-   "state": "ok"
+   "used": 1.0,
+   "state": "warn",
+   "why": "OVER at 18:50 UTC on usd (used 1.0); keeps working (capture, not block)"
   },
   {
    "agent": "journalist@PrompTugal.dinis",
@@ -110,14 +111,14 @@
     "output_tokens": 500000
    },
    "spent_today": {
-    "releases": 16,
-    "usd": 44.64,
-    "output_tokens": 263699,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 17,
+    "usd": 53.17,
+    "output_tokens": 294786,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 1.28,
+   "used": 1.52,
    "state": "warn",
-   "why": "OVER at 15:52 UTC on usd (used 1.28); keeps working (capture, not block)"
+   "why": "OVER at 18:50 UTC on usd (used 1.52); keeps working (capture, not block)"
   },
   {
    "agent": "ontologist@PrompTugal.dinis",
@@ -128,13 +129,13 @@
    },
    "spent_today": {
     "releases": 18,
-    "usd": 32.99,
-    "output_tokens": 230894,
-    "read_at": "2026-11-06T15:52Z"
+    "usd": 37.35,
+    "output_tokens": 252687,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 1.1,
+   "used": 1.25,
    "state": "warn",
-   "why": "side effect seen: it stopped for the day on its budget before Dinis's 10:10 word; the conductor nudged it back; OVER at 15:52 UTC on usd (used 1.1); keeps working (capture, not block)"
+   "why": "side effect seen: it stopped for the day on its budget before Dinis's 10:10 word; the conductor nudged it back; OVER at 18:50 UTC on usd (used 1.25); keeps working (capture, not block)"
   },
   {
    "agent": "outreach@PrompTugal.dinis",
@@ -144,13 +145,14 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 10,
-    "usd": 18.07,
-    "output_tokens": 130215,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 11,
+    "usd": 24.06,
+    "output_tokens": 141871,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 0.9,
-   "state": "warn"
+   "used": 1.2,
+   "state": "warn",
+   "why": "OVER at 18:50 UTC on usd (used 1.2); keeps working (capture, not block)"
   },
   {
    "agent": "observability@PrompTugal.dinis",
@@ -160,13 +162,14 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 5,
-    "usd": 24.07,
-    "output_tokens": 141875,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 8,
+    "usd": 34.23,
+    "output_tokens": 185856,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 0.8,
-   "state": "warn"
+   "used": 1.14,
+   "state": "warn",
+   "why": "OVER at 18:50 UTC on usd (used 1.14); keeps working (capture, not block)"
   },
   {
    "agent": "historian@PrompTugal.dinis",
@@ -179,7 +182,7 @@
     "releases": 2,
     "usd": 4.24,
     "output_tokens": 36386,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T18:50Z"
    },
    "used": 0.28,
    "state": "ok"
@@ -192,12 +195,12 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 10,
-    "usd": 33.09,
-    "output_tokens": 463486,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 11,
+    "usd": 39.66,
+    "output_tokens": 472093,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 0.83,
+   "used": 0.99,
    "state": "warn",
    "why": "every two hours; its beat correspondents run as sub-agents inside its session, so their spend is inside its own figure"
   },
@@ -209,14 +212,14 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 7,
-    "usd": 45.53,
-    "output_tokens": 249472,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 11,
+    "usd": 77.59,
+    "output_tokens": 460121,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 1.52,
+   "used": 2.59,
    "state": "warn",
-   "why": "OVER at 15:52 UTC on usd (used 1.52); keeps working (capture, not block)"
+   "why": "OVER at 18:50 UTC on usd, output_tokens (used 2.59); keeps working (capture, not block)"
   },
   {
    "agent": "sherpa@PrompTugal.dinis",
@@ -226,13 +229,13 @@
     "output_tokens": 350000
    },
    "spent_today": {
-    "releases": 5,
-    "usd": 19.18,
-    "output_tokens": 103601,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 6,
+    "usd": 23.11,
+    "output_tokens": 112709,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 0.77,
-   "state": "ok",
+   "used": 0.92,
+   "state": "warn",
    "why": "three pass reviews and eight round re-reviews"
   },
   {
@@ -243,14 +246,14 @@
     "output_tokens": 250000
    },
    "spent_today": {
-    "releases": 10,
-    "usd": 30.71,
-    "output_tokens": 536508,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 12,
+    "usd": 37.58,
+    "output_tokens": 582575,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 2.15,
+   "used": 2.51,
    "state": "warn",
-   "why": "OVER at 15:52 UTC on usd, output_tokens (used 2.15); keeps working (capture, not block)"
+   "why": "OVER at 18:50 UTC on usd, output_tokens (used 2.51); keeps working (capture, not block)"
   },
   {
    "agent": "devops@PrompTugal.dinis",
@@ -260,14 +263,14 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 6,
-    "usd": 21.77,
-    "output_tokens": 96056,
-    "read_at": "2026-11-06T15:52Z"
+    "releases": 7,
+    "usd": 31.78,
+    "output_tokens": 122800,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 1.09,
+   "used": 1.59,
    "state": "warn",
-   "why": "OVER at 15:52 UTC on usd (used 1.09); keeps working (capture, not block)"
+   "why": "OVER at 18:50 UTC on usd (used 1.59); keeps working (capture, not block)"
   },
   {
    "agent": "accountant@PrompTugal.dinis",
@@ -278,13 +281,13 @@
    },
    "spent_today": {
     "releases": 2,
-    "usd": 20.75,
-    "output_tokens": 101523,
-    "read_at": "2026-11-06T15:52Z"
+    "usd": 26.25,
+    "output_tokens": 115769,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 2.08,
+   "used": 2.62,
    "state": "warn",
-   "why": "OVER at 15:52 UTC on usd (used 2.08); keeps working (capture, not block)"
+   "why": "OVER at 18:50 UTC on usd (used 2.62); keeps working (capture, not block)"
   },
   {
    "agent": "abp@PrompTugal.dinis",
@@ -295,11 +298,11 @@
    },
    "spent_today": {
     "releases": 8,
-    "usd": 15.89,
-    "output_tokens": 169993,
-    "read_at": "2026-11-06T15:52Z"
+    "usd": 17.9,
+    "output_tokens": 182201,
+    "read_at": "2026-11-06T18:50Z"
    },
-   "used": 0.64,
+   "used": 0.72,
    "state": "ok",
    "why": "opus; the agent behaviour policies and their hooks; budget set at 06:50 UTC, first seen this wake"
   },
@@ -311,14 +314,14 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 4,
+    "releases": 5,
     "usd": 13.09,
     "output_tokens": 304824,
     "read_at": "2026-11-06T15:52Z"
    },
    "used": 1.02,
    "state": "warn",
-   "why": "sonnet; started by Dinis at 05:33; budget set at 06:50 UTC, first seen this wake; OVER at 15:52 UTC on output_tokens (used 1.02); keeps working (capture, not block)"
+   "why": "sonnet; started by Dinis at 05:33; budget set at 06:50 UTC, first seen this wake; OVER at 18:50 UTC on output_tokens (used 1.02); keeps working (capture, not block)"
   },
   {
    "agent": "researcher@PrompTugal.dinis",
@@ -328,7 +331,7 @@
     "output_tokens": 200000
    },
    "spent_today": {
-    "releases": 8,
+    "releases": 9,
     "usd": 4.27,
     "output_tokens": 94522,
     "read_at": "2026-11-06T15:52Z"
@@ -517,10 +520,10 @@
     "output_tokens": 450000
    },
    "spent": {
-    "runs": 7,
-    "usd_estimate": 21
+    "runs": 8,
+    "usd_estimate": 24
    },
-   "used": 0.39,
+   "used": 0.44,
    "state": "open"
   },
   {
@@ -677,10 +680,10 @@
     "output_tokens": 450000
    },
    "spent": {
-    "runs": 3,
-    "usd_estimate": 9
+    "runs": 4,
+    "usd_estimate": 12
    },
-   "used": 0.17,
+   "used": 0.22,
    "state": "open"
   },
   {
@@ -869,10 +872,10 @@
     "output_tokens": 450000
    },
    "spent": {
-    "runs": 14,
-    "usd_estimate": 42
+    "runs": 15,
+    "usd_estimate": 45
    },
-   "used": 0.78,
+   "used": 0.83,
    "state": "open"
   },
   {
@@ -906,6 +909,40 @@
    },
    "used": 0.11,
    "state": "open"
+  },
+  {
+   "pass": "2026-11-06-offline-mode",
+   "file": "board/passes/2026-11-06-offline-mode.md",
+   "rounds": 2,
+   "budget": {
+    "runs": 14,
+    "usd": 42,
+    "output_tokens": 350000
+   },
+   "spent": {
+    "runs": 3,
+    "usd_estimate": 9
+   },
+   "used": 0.21,
+   "state": "open",
+   "note": "5 plan steps, two rounds, the reviews; deadline before Monday"
+  },
+  {
+   "pass": "2026-11-06-algarve-evolution-sprint",
+   "file": "board/passes/2026-11-06-algarve-evolution-sprint.md",
+   "rounds": 1,
+   "budget": {
+    "runs": 12,
+    "usd": 36,
+    "output_tokens": 300000
+   },
+   "spent": {
+    "runs": 8,
+    "usd_estimate": 24
+   },
+   "used": 0.67,
+   "state": "open",
+   "note": "Dinis's time box of one hour stands; the runs line is a measure beside it"
   }
  ],
  "pass_rules": [
@@ -1032,7 +1069,7 @@
   "measured": "not yet: the accountant has no reading of vault sizes; asked of backup@ and observability@ for one number a day"
  },
  "real_limits": {
-  "read_at": "2026-11-06T15:52Z",
+  "read_at": "2026-11-06T18:50Z",
   "subscription": {
    "rate_limit_type": "seven_day",
    "status": "allowed_warning",

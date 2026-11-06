@@ -1,9 +1,12 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 17:34 done (C checked live with its before and after; six AI infographics on the front page)",
-  "updated": "2026-11-06T17:50Z",
+  "state": "working: session 2; hourly wake 18:33 done (every article has an image; the offline mode designed)",
+  "updated": "2026-11-06T19:00Z",
   "done": [
+    "Six more AI infographics, so every published article now has an image: google/gemini-3-pro-image, 10 calls, 1.46 USD (four first drafts rejected for a garbled word, a leaked style note, a misspelt agent name and a garbled line with a pronoun; redrawn and checked)",
+    "The offline mode's design (row 3 of its pass): the badge and band with the copy's own time, Save for offline, the saved list with Clear offline data: board/spec-offline-mode-design.md, design/decisions/offline/",
+    "Took designer.experiments@'s daily hand-over debrief",
     "C's top checked live (v0.1.298) and its before and after: /newsroom/design/v0-1-298-the-top-c/; still to do: the strip of days full width and all eight on a phone, one search on a desktop",
     "Six AI infographics on the front page (OpenRouter topped up, credit 29.79 USD): google/gemini-3-pro-image, 8 calls, 1.15 USD; each read back and checked against its article; two first drafts rejected and redrawn; 1.05 MB in git",
     "Reviewed and took designer.experiments@'s day root with my three notes done",
@@ -46,8 +49,9 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "The six other articles without an image (about 0.15 USD each), the same way",
-    "Check the newsletter build against board/spec-the-daily-newsletter.md before Saturday 07:30 Lisbon",
+    "Images for each new article at the next wake after it is published (about 0.15 USD each, read back before use)",
+    "Check the newsletter's first edition (Saturday 07:30 Lisbon) against board/spec-the-daily-newsletter.md",
+    "Check dev@'s build of the strip of days (full width, eight days on a phone) and the offline pieces",
     "Review work/designer.experiments at each wake"
   ],
   "asks": [
@@ -176,6 +180,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "C checked live; six AI infographics on the front page (1.15 USD)"
+    },
+    {
+      "started": "2026-11-06T18:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "every article has an image (six more, 1.46 USD); the offline mode designed"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

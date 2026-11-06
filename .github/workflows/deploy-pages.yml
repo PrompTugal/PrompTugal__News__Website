@@ -67,8 +67,8 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    # tag and build about 30s, two deploys of at most 8 minutes with a 45 s pause, then 30 s asking the live site (step 3)
-    timeout-minutes: 20
+    # tag and build about 30s, a deploy of at most 8 minutes (a second only after a fast refusal), 30 s asking the live site
+    timeout-minutes: 12
     needs: [validate]
     # Never from a PR or a worker's branch. One release at a time; a pending run may be dropped, which is harmless.
     if: github.event_name != 'pull_request' && !startsWith(github.ref_name, 'work/')
@@ -104,7 +104,7 @@ jobs:
       - name: Assemble the site artifact (the tree just built and checked)
         run: |
           mkdir -p /tmp/site
-          rsync -a ./ /tmp/site/ --exclude '.git' --exclude '.github' --exclude '.sg_vault' --exclude 'content' --exclude 'newsroom/build' --exclude 'newsroom/tools' --exclude '.generated.txt' --exclude 'desks/**/*.js' --exclude 'desks/**/*.mjs' --exclude 'desks/**/*.cjs' --exclude 'data/**/*.js' --exclude 'data/**/*.mjs' --exclude 'data/**/*.cjs'
+          rsync -a ./ /tmp/site/ --exclude '.git' --exclude '.github' --exclude '.sg_vault' --exclude 'content' --exclude 'newsroom/build' --exclude 'newsroom/tools' --exclude '.generated.txt' --exclude-from=api/v1/deploy-exclude.txt --exclude '/desks/**.js' --exclude '/desks/**.mjs' --exclude '/desks/**.cjs' --exclude '/desks/**.py' --exclude '/desks/**.sh' --exclude '/desks/**.htm' --exclude '/desks/**.html' --exclude '/desks/**.xhtml' --exclude '/desks/**.wasm' --exclude '/data/**.js' --exclude '/data/**.mjs' --exclude '/data/**.cjs' --exclude '/data/**.py' --exclude '/data/**.sh' --exclude '/data/**.htm' --exclude '/data/**.html' --exclude '/data/**.xhtml' --exclude '/data/**.wasm' --exclude '/board/**.js' --exclude '/board/**.mjs' --exclude '/board/**.cjs' --exclude '/board/**.py' --exclude '/board/**.sh' --exclude '/board/**.htm' --exclude '/board/**.html' --exclude '/board/**.xhtml' --exclude '/board/**.wasm' --exclude '/design/**.js' --exclude '/design/**.mjs' --exclude '/design/**.cjs' --exclude '/design/**.py' --exclude '/design/**.sh' --exclude '/design/**.htm' --exclude '/design/**.html' --exclude '/design/**.xhtml' --exclude '/design/**.wasm'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: /tmp/site
@@ -126,6 +126,9 @@ jobs:
           else
             echo "deploy=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: When the deploy starts (a fast failure is a refusal, worth one more try; a slow one is not)
+        if: steps.fresh.outputs.deploy == 'true'
+        run: echo "DEPLOY_T0=$(date +%s)" >> "$GITHUB_ENV"
       - id: deployment
         if: steps.fresh.outputs.deploy == 'true'
         uses: actions/deploy-pages@v4
@@ -137,17 +140,22 @@ jobs:
       # Pages refuses a deployment while the previous one is still finishing ("due to in progress deployment"; 14:09
       # UTC, 6 November, with about one push a minute). That refusal creates no deployment, so the same commit can be
       # deployed once more after a pause. After a timeout the retry fails at once ("Deployment cancelled"): harmless.
-      - name: The deploy was refused or stuck; wait 45 seconds before trying once more
+      # only a refusal (the deploy failed within 2 minutes, as "due to in progress deployment" does) is tried again;
+      # after a long wait in Pages' queue a second try only queues as long again (run 553, 17:00 UTC: 8 + 8 minutes)
+      - id: refused
+        name: The deploy failed; if it failed fast (a refusal), wait 45 seconds before trying once more
         if: steps.fresh.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
-        run: sleep 45
+        run: |
+          if [ $(( $(date +%s) - DEPLOY_T0 )) -lt 120 ]; then echo "retry=true" >> "$GITHUB_OUTPUT"; sleep 45
+          else echo "retry=false" >> "$GITHUB_OUTPUT"; echo "::warning::the deploy failed after a long wait in Pages' queue; not trying again here"; fi
       - id: deployment2
-        if: steps.fresh.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
+        if: steps.fresh.outputs.deploy == 'true' && steps.deployment.outcome == 'failure' && steps.refused.outputs.retry == 'true'
         uses: actions/deploy-pages@v4
         continue-on-error: true
         with:
           timeout: 480000
       - name: The deploy failed or stuck; does the live site serve this release? If not, dispatch a fresh deploy
-        if: steps.fresh.outputs.deploy == 'true' && steps.deployment.outcome == 'failure' && steps.deployment2.outcome == 'failure'
+        if: steps.fresh.outputs.deploy == 'true' && steps.deployment.outcome == 'failure' && steps.deployment2.outcome != 'success'
         env:
           GH_TOKEN: ${{ github.token }}
           EVENT: ${{ github.event_name }}

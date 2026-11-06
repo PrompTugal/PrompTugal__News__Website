@@ -13,6 +13,13 @@
       "to": "place:united-states",
       "source": "s1",
       "by": "newsroom/tools/companies.mjs"
+    },
+    {
+      "verb": "partner_of",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "s2",
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "on Web Summit's 2026 event partners list (page 1 of 8 read, no tiers shown)"
     }
   ]
 }

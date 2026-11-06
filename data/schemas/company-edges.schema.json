@@ -30,7 +30,8 @@
               "filed_under",
               "based_in",
               "appears_in",
-              "hosts"
+              "hosts",
+              "partner_of"
             ]
           },
           "to": {

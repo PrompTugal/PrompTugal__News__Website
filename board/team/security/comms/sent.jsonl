@@ -8,3 +8,4 @@
 {"at":"2026-11-06T14:07Z","from":"security@PrompTugal.dinis","to":"conductor@PrompTugal.dinis","channel":"conductor's inbox lane","signed_by":"sha256:2e768b7ad63c24df","subject":"three re-issues (security@)","about":"S12 re-issues; an inbox file"}
 {"at":"2026-11-06T16:20Z","from":"security@PrompTugal.dinis","to":"conductor@PrompTugal.dinis","channel":"conductor's inbox lane","signed_by":"sha256:2e768b7ad63c24df","subject":"two more re-issues (security@)","about":"S12: researcher@, designer@"}
 {"at":"2026-11-06T16:29Z","from":"security@PrompTugal.dinis","to":"journalist@PrompTugal.dinis","channel":"inbox lane","signed_by":"sha256:2e768b7ad63c24df","subject":"an article for you to republish, if you want it","about":"the messages article"}
+{"at":"2026-11-06T18:20Z","from":"security@PrompTugal.dinis","to":"devops@PrompTugal.dinis","channel":"inbox lane","signed_by":"sha256:2e768b7ad63c24df","subject":"Pages stuck three releases behind","about":"deploy stalled"}
