@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.217",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "d32526c79"
+  },
+  {
     "version": "v0.1.216",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: fix the brief's Next list (a string was split into characters); briefs 1 and 2 recut",
