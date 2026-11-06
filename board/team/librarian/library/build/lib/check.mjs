@@ -9,13 +9,14 @@ import { secretFindings } from './secrets.mjs'
 import { danglingLinks } from './links.mjs'
 import { REL, INVERSE } from './linktypes.mjs'
 import { loadDomains, readExists, MARK_BEGIN, MARK_END } from './reality.mjs'
+import { validateShape, checkPresets } from './graph.mjs'
 
-const SIZE_LIMIT = 5 * 1024 * 1024
+const SIZE_LIMIT = 7 * 1024 * 1024
 
 export function libraryFiles(libDir) {
-  const names = ['accession-register.jsonl', 'cards.json', 'shelf-list.md', 'classification.json']
+  const names = ['accession-register.jsonl', 'cards.json', 'shelf-list.md', 'classification.json', 'README.md', 'index.md', 'reading-room.htm']
   const out = names.map((n) => path.join(libDir, n)).filter((p) => fs.existsSync(p))
-  for (const d of ['catalogue', 'authority', 'shelf-list', 'indexes', 'vocabulary', 'stocktake', 'reality']) out.push(...walk(path.join(libDir, d), (p) => /\.(jsonl|json|md)$/.test(p)))
+  for (const d of ['catalogue', 'authority', 'shelf-list', 'indexes', 'vocabulary', 'stocktake', 'reality', 'graph', 'finding-aids', 'special']) out.push(...walk(path.join(libDir, d), (p) => /\.(jsonl|json|md)$/.test(p)))
   const weeding = path.join(libDir, 'weeding.md')
   if (fs.existsSync(weeding)) out.push(weeding)
   return out
@@ -220,6 +221,36 @@ export function check(ctx) {
   }
   if (rows !== cards.length) errors.push(`shelf list holds ${rows} rows for ${cards.length} cards`)
   stats.shelfRows = rows
+
+  // round 3: the graphs are in the explorer's shape, the presets name what exists, the aids keep to the reading limits
+  // (required once the library has its graph presets or its graph; a library of rounds 1 and 2 only is not asked for them)
+  if (fs.existsSync(path.join(libDir, 'graph/presets.json')) || fs.existsSync(path.join(libDir, 'graph/library-graph.json'))) {
+    const gl = readJson(path.join(libDir, 'graph/library-graph.json'), null)
+    const gt = readJson(path.join(libDir, 'graph/reality-tree.json'), null)
+    const gp = readJson(path.join(libDir, 'graph/presets.json'), null)
+    if (!gl) errors.push('graph/library-graph.json is missing')
+    else for (const e of validateShape(gl, 'graph/library-graph.json')) errors.push(e)
+    if (!gt) errors.push('graph/reality-tree.json is missing')
+    else for (const e of validateShape(gt, 'graph/reality-tree.json')) errors.push(e)
+    if (!gp) errors.push('graph/presets.json is missing')
+    else if (gl && gt) for (const e of checkPresets(gp, { library: gl, reality: gt })) errors.push(e)
+    if (gl) {
+      const gids = new Set(gl.nodes.map((n) => n.id))
+      for (const n of gl.nodes) if ((n.type !== 'collection' && n.type !== 'subject' && n.type !== 'agent') && !ids.has(n.id)) errors.push(`graph/library-graph.json: node ${n.id} is not a card`)
+      stats.graph = { nodes: gl.counts.nodes, edges: gl.counts.edges }
+    }
+    if (gt) stats.reality = { nodes: gt.counts.nodes, edges: gt.counts.edges }
+    let aidFiles = 0
+    for (const d of ['finding-aids', 'special']) for (const f of walk(path.join(libDir, d), (p) => p.endsWith('.md'))) {
+      aidFiles++
+      const lines = fs.readFileSync(f, 'utf8').split('\n')
+      if (lines.length > 170) errors.push(`${rel(f)}: ${lines.length} lines, over the reading limit (about 150: split it)`)
+      let run = 0
+      for (const l of lines.concat([''])) { if (/^\|/.test(l) && !/^\|[-| ]+\|$/.test(l)) run++; else { if (run - 1 > ROWS_PER_TABLE) errors.push(`${rel(f)}: a table of ${run - 1} rows, over ${ROWS_PER_TABLE}`); run = 0 } }
+    }
+    stats.aids = aidFiles
+    for (const f of ['finding-aids/index.md', 'special/guidance.md', 'index.md', 'README.md', 'reading-room.htm']) if (!fs.existsSync(path.join(libDir, f))) errors.push(`${f} is missing`)
+  }
   return { errors, warnings, stats }
 }
 

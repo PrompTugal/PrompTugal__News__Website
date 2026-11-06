@@ -2,10 +2,11 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T13:36Z",
- "reviewed_to": "HEAD at 12:05 and the work/* branches",
+ "updated": "2026-11-06T14:15Z",
+ "reviewed_to": "HEAD at 14:03 and the work/* branches",
  "hold": false,
  "done": [
+  "wake 14:05: 13 commits clean; my inbox read: 13 messages, all signed and verified; three printed secrets as one class (S12) with my view on the decision page; librarian@'s blocked-tools bug answered (S18); pre-reviews: the passkey design (two blockers), reader feedback, the library's desk; views on two more decision pages",
   "at Dinis's word (12:30): the key rotation map (key-rotation.md); his decisions recorded (reviews/2026-11-06-1230-dinis-decisions.md) and sent, signed, to observability@, outreach@, abp@, devops@, journalist@ and the conductor; my sends logged as receipts (comms/sent.jsonl)",
   "wake 12:05: 102 commits and worker branches clean; the night's memos and ideas ledger read (nothing to flag); S16 closed",
   "wake 10:05: 70 commits and worker branches clean; the hook and the CI change for worker branches post-reviewed (safe: read-only token); findings.md, the ledger of S1 to S17",
@@ -19,10 +20,10 @@
   "the pre-review of the three open passes: go, with conditions, in each pass file"
  ],
  "next": [
-  "at every wake: every agent's messages read from the sessions (now granted) and the inbox lanes, the map redrawn, unsigned messages flagged; review every commit",
-  "the pilot rotation: my own key and inbox, the five steps by hand",
-  "sign off observability@'s rotation when it is done",
-  "the post-review of each pass when its rounds end"
+  "16:03: scan every session's transcript for printed secrets; redraw the messages map with inbox sends",
+  "review every commit and worker branch since 14:03",
+  "the pilot rotation: my own key and inbox",
+  "sign off observability@'s rotation when done"
  ],
  "findings_open": {
   "S1": "medium: any same-origin script can use Dinis's key through PTKeyring; desks/ serves any file type (dev@)",
@@ -36,14 +37,16 @@
   "S9": "decided by Dinis (04:45): vaults are ephemeral for now; a recovery vault he holds, later",
   "S10": "low: board times ahead of the clock (conductor@)",
   "S11": "medium: 39 acts claim Dinis's word, none signed (Dinis, conductor@, dev@)",
-  "S12": "medium: transcripts readable by every session; my own inbox credentials exposed there, re-issue asked (every agent, conductor@)",
+  "S12": "three printed secrets (security@, accountant@, customers@): re-issues to do; scan from 16:03",
   "S13": "accepted by Dinis 06:20: the conductor holds every vault key; my recommendation on record",
   "S14": "low: a schedule written into the wrong session (conductor@)",
   "S15": "high, half done: the hook loads no other code and checks its pin (abp@); the gate check on .claude/ commits is not built (dev@)",
-  "S17": "granted by Dinis 12:30 (abp@ to write it)"
+  "S17": "granted by Dinis 12:30 (abp@ to write it)",
+  "S18": "agents blocked on tools: pinned install in the environment (Dinis), drain in the repo (devops@), no token everywhere"
  },
  "asks": [
-  "For Dinis (S11): may the agents treat only signed guidance as your word? Explained in my reply of 12:45; a decision page to follow."
+  "For Dinis (S11): may the agents treat only signed guidance as your word? (a signing page by dev@)",
+  "For Dinis (S18): install sgit-ai 0.27.0 in the environment, pinned and hashed (security@'s review of 14:05 has the hash), so no agent is blocked or installs from PyPI itself?"
  ],
  "wakes": [
   {
@@ -91,9 +94,18 @@
   {
    "started": "2026-11-06T12:30Z",
    "outcome": "ok",
-   "release": "",
+   "release": "v0.1.260",
    "line": "Dinis's decisions recorded and routed; the key rotation map"
+  },
+  {
+   "started": "2026-11-06T14:03Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "inbox read (13/13 signed); S12 three cases; S18; passkey and feedback pre-reviews"
   }
  ],
- "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work."
+ "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",
+ "blocks": [
+  "my inbox's re-issue (S12), asked of the conductor at 12:45"
+ ]
 }

@@ -1,0 +1,124 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T13-05-56Z",
+ "started": "2026-11-06T13:05:56.770Z",
+ "ended": "2026-11-06T14:08:29Z",
+ "line": "13:53 wake + MAJOR bug: designer's A superseded (told in session, Dinis chose C), dev told in session, env setup script (sgit pinned) approved by Dinis, CLAUDE.md 'Never blocked in silence', 'New from Dinis' list in guidance README, 7 inbox msgs read",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T13:05:56.770Z",
+   "chars": 7348,
+   "sha256": "b8f5eeeb6c0bf7f6",
+   "head": "<task-notification>\n<task-id>b2pus19av</task-id>\n<tool-use-id>toolu_01GadVsK3g3A5fnpQziLuemH</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-06T13:06:07.278Z",
+   "chars": 165,
+   "sha256": "c3105cbf9a03965c",
+   "head": "Here's the page that we created for the Algorand Revolution. The one I found was a bit thin. Where's the one that we've created? So I can send to the contact I have."
+  },
+  {
+   "t": "2026-11-06T13:53:03.777Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T13:13:53.297Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-06T13:52:53.076Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-06T14:07:56.898Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 17,
+  "by_kind": {
+   "git": 4,
+   "web": 3,
+   "other": 1,
+   "shell": 3,
+   "session": 4,
+   "remote-read": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 4
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 13,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 4,
+  "denied": [
+   {
+    "t": "2026-11-06T13:54:50.391Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T13:54:58.920Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T13:55:18.164Z",
+    "tool": "mcp__claude-code-remote__update_environment",
+    "rule": "R4",
+    "what": "update_environment: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:07:57.327Z",
+    "tool": "mcp__claude-code-remote__update_environment",
+    "rule": "R4",
+    "what": "update_environment: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 4
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 17,
+  "in_mandate": 13,
+  "out_of_mandate": 4,
+  "attempts": 4,
+  "breaches": 0
+ }
+}

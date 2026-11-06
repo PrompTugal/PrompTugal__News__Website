@@ -1,0 +1,68 @@
+{
+  "about": "Named views of the library's two graphs, in the style of assets/graph/captions.json: each key is a preset, with the title and caption shown under the explorer's bar (title, caption), the label of the menu entry, which graph it belongs to (data: library or reality) and the explorer's own state (state: the same fields as assets/graph/engine.js defaultState; view is always whole, because the explorer loads one file). The reading room (reading-room.htm) puts these in place of the site's own presets before the explorer starts. A hand file of librarian@PrompTugal.dinis: the generator checks that every type, verb, world and anchor named here exists in its graph, and never writes it.",
+  "presets": {
+    "overview": {
+      "data": "library",
+      "label": "The 60 most connected cards",
+      "title": "The centre of the library",
+      "caption": "The 60 nodes the most connections pass through: the busiest collections, agents, subjects and passes. Start here to see what the rest of the library hangs from; tap any node to read its record and open its file.",
+      "state": { "view": "whole", "top": { "n": 60, "by": "pagerank", "what": "nodes" }, "layout": "force" }
+    },
+    "collections": {
+      "data": "library",
+      "label": "The collections, passes and agents",
+      "title": "The shape of the library",
+      "caption": "Only the big things: the collections (one per class and subclass of the classification), the passes, the decisions, the desks and the agents. It shows which agent keeps which shelf and which passes touch which collections.",
+      "state": { "view": "whole", "types": ["collection", "pass", "decision", "desk", "agent"], "top": { "n": 0, "by": "pagerank", "what": "nodes" }, "layout": "force" }
+    },
+    "who-made-what": {
+      "data": "library",
+      "label": "Who made what",
+      "title": "Who made what",
+      "caption": "Each agent joined to the collections it made cards for, from the git trailer of the first commit. A line is at least one card; an agent with many lines works across the whole record, one with a single line keeps to one shelf.",
+      "state": { "view": "whole", "types": ["agent", "collection"], "verbs": ["made_by"], "top": { "n": 0, "by": "pagerank", "what": "nodes" }, "layout": "force" }
+    },
+    "guidance": {
+      "data": "library",
+      "label": "Dinis's guidance and where each idea went",
+      "title": "Dinis's guidance and where each idea went",
+      "caption": "The ideas of the night memos, each joined to the agent that owns it and the board file that holds it, drawn by where they cluster. An idea with no line to a file is one nobody has captured yet; every idea in his own words is in special/guidance.md.",
+      "state": { "view": "whole", "types": ["idea", "agent", "board", "decision"], "verbs": ["owned_by", "cites"], "top": { "n": 0, "by": "pagerank", "what": "nodes" }, "layout": "map" }
+    },
+    "passes": {
+      "data": "library",
+      "label": "The passes and their findings",
+      "title": "The passes and their findings",
+      "caption": "Every pass, the findings inside it (part of), the decisions that answer them and the agents that made them. A pass with a long tail of findings was a big round; a finding joined to a decision is closed.",
+      "state": { "view": "whole", "types": ["pass", "finding", "decision", "agent"], "verbs": ["part_of", "answers", "made_by", "see_also", "supersedes"], "top": { "n": 0, "by": "pagerank", "what": "nodes" }, "layout": "force" }
+    },
+    "bridges": {
+      "data": "library",
+      "label": "The bridges: top 80 connections",
+      "title": "The bridges of the library",
+      "caption": "The 80 connections that carry the most shortest paths between other cards. Take one away and two parts of the library drift apart, so these are the links worth keeping true.",
+      "state": { "view": "whole", "top": { "n": 80, "by": "betweenness", "what": "edges" }, "layout": "force" }
+    },
+    "reality-tree": {
+      "data": "reality",
+      "label": "The reality tree",
+      "title": "The reality tree",
+      "caption": "The root, its domains, and for each domain what EXISTS and what is PROPOSED, read down the tree. A domain with few entries under it is where the tree is thin; tap an entry to read the line and open its file.",
+      "state": { "view": "whole", "anchors": ["reality"], "depth": "max", "top": { "n": 0, "by": "pagerank", "what": "nodes" }, "layout": "map" }
+    },
+    "reality-domains": {
+      "data": "reality",
+      "label": "The domains and what they hold",
+      "title": "The domains of the reality tree",
+      "caption": "Just the root and its domains, drawn by how much each holds. The bigger the dot, the more entries and evidence hang from it; a small one is a domain the tree has hardly started.",
+      "state": { "view": "whole", "types": ["root", "domain"], "top": { "n": 0, "by": "pagerank", "what": "nodes" }, "layout": "force" }
+    },
+    "reality-proposed": {
+      "data": "reality",
+      "label": "What is only proposed",
+      "title": "What is only proposed",
+      "caption": "The domains and, under each, the things that are proposed, queued or open and not yet on the site. None of these is in REALITY.md; when one ships its line moves from PROPOSED to EXISTS.",
+      "state": { "view": "whole", "types": ["domain", "proposed"], "verbs": ["part_of"], "top": { "n": 0, "by": "pagerank", "what": "nodes" }, "layout": "force" }
+    }
+  }
+}

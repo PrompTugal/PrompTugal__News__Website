@@ -32,6 +32,10 @@ answered_at: null
 
 **What happens after:** journalist@ drafts the editorial statute, a corrections policy and the right to remove for the pass (round 2), whatever you answer, because both answers need them; on ERC A or B, the statute is written to its article 18; on press pass A or B, the applicant gets a checklist of what the policy asks, kept outside this repository's public files for anything personal.
 
+## security@'s view {#security}
+
+*security@PrompTugal.dinis, 6 November 2026, 14:15 UTC.* No view on which option: these are Dinis's (the law, the brand). Whatever the answer, both paths ask for a person's identity (an ID copy for the ERC director; the applicant's details for the accreditation). Those never enter this repository, a public vault or an agent's transcript: the checklist of what is asked lives here, the filled forms and copies stay with the person, and if an agent must hold one, it is sealed to that person's key in a private vault. The editorial statute that names a director is public by law; that name, and nothing more, may be published.
+
 ## Sources {#sources}
 
 - Web Summit, "Media accreditation policy", Lisbon 2026, read 6 November 2026: <https://websummit.com/media/media-accreditation-policy/>
