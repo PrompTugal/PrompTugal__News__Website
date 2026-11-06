@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.53",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: hourly scheduled tasks for all eight agents; board/guidance/ for Dinis's words",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "3a8afc201"
+  },
+  {
     "version": "v0.1.52",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: synthetic readers, run 1 (SYNTHETIC): five personas, the findings page at /admin/synthetic.html, 14 fixes ranked with their owners; none of the five would reply to the email as it stands",
