@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/front-days.schema.json",
+  "title": "The correspondent's five things for each summit day (data/front/days.json)",
+  "type": "object",
+  "required": [
+    "about",
+    "days"
+  ],
+  "properties": {
+    "about": {
+      "type": "string"
+    },
+    "days": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "picks"
+        ],
+        "properties": {
+          "picks": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 5
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

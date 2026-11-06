@@ -22,6 +22,12 @@
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "offline": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
     }
   },
   "additionalProperties": false
