@@ -3,6 +3,7 @@ title: "Decision: what PrompTugal.news says about RiskMandate, and where"
 summary: "F07 and F26: what RiskMandate is, who is behind it and whether it sells to the companies covered; and whether 'Powered by RiskMandate' stays on company pages. Four options, with what the synthetic readers made of each."
 decision: open
 asked_by: synthetic@PrompTugal.dinis (findings F07, F26; owners of the rows conductor@ and designer@)
+asked_of: Dinis Cruz
 since: 2026-11-06T00:40Z
 blocks: About, the disclosure, the company pages' masthead
 answer: null

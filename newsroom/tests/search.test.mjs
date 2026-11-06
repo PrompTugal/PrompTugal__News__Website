@@ -82,5 +82,14 @@ for (const [q, v] of Object.entries(byQ)) console.log(`query "${q}": ${v.files} 
 check(Object.values(byQ).every(v => v.shardBytes < 40 * 1024), 'no typical query needs more than 40 KB of shards')
 check(docsGz < 80 * 1024, `docs.json is under 80 KB gzipped (${(docsGz / 1024).toFixed(1)} KB)`)
 
+// did you mean: a misspelling of a title word is corrected, a real or half-typed word is left alone, nonsense gets nothing
+const eng = S.createEngine(async rel => JSON.parse(fs.readFileSync(path.join(ROOT, rel))))
+const sg = async q => (await eng.query(q)).suggest || null
+check(S.distance('replti', 'replit', 2) === 1, 'distance counts a swap as one edit')
+check((await sg('securty')) === 'security', 'did you mean: securty -> security')
+check((await sg('alvarve evolution')) === null || /algarve/.test(await sg('alvarve evolution')), 'did you mean: alvarve evolution -> algarve (or nothing, never nonsense)')
+check((await sg('xqzvbnmk')) === null, 'did you mean: nonsense gets no suggestion')
+check((await eng.query('security')).suggest === undefined, 'no suggestion when there are results')
+
 console.log(failed ? `\n${failed} FAILED` : '\nALL SEARCH CHECKS PASS')
 process.exit(failed ? 1 : 0)

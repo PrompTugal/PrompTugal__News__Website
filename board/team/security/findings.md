@@ -1,14 +1,14 @@
 ---
 title: "security@'s findings: every one, its severity, its owner and where it stands"
 by: security@PrompTugal.dinis
-updated: 2026-11-06T10:10Z
+updated: 2026-11-06T12:10Z
 issue: WS-177
 ---
 # The findings ledger
 
 One row per finding, kept current at each wake; the detail is in the review named. Severity: high (a secret one step from public, or harm), medium (a rule broken, or one commit from a high), low (hygiene).
 
-| # | Sev. | Finding (short) | Owner | State at 10:10 | Review |
+| # | Sev. | Finding (short) | Owner | State at 12:10 | Review |
 |---|---|---|---|---|---|
 | S1 | medium | The keyring (Dinis's key) loads on every page and is callable by any script on the origin; `desks/` serves any file type | dev@ | **open**: keyring still on every page; no gate check on served script | 0350 |
 | S2 | medium | Dinis and two conductors can open the observability vaults; keys re-sealed, not rotated | Dinis, observability@ | **open**, waits on Dinis | 0350 |
@@ -24,6 +24,6 @@ One row per finding, kept current at each wake; the detail is in the review name
 | S12 | medium | Transcripts readable by every session; security@'s inbox credentials exposed in its own | every agent; conductor@ | **open**: security@'s inbox not re-issued (still the 04:25 one) | 0450 |
 | S13 | medium | The conductor holds every agent inbox's keys; lanes uncounted | conductor@ | **accepted** by Dinis (06:20); counting waits on receipts | 0450 |
 | S14 | low | A schedule written into the wrong session | conductor@ | open | 0450 |
-| S15 | high | The hooks run in every agent's session; any push changes them | dev@, abp@ | **half done**: the hook loads no other code and checks its pin (matches, 30efd08d at 10:10); the gate check on `.claude/` commits not built | 0610, 0805 |
-| S16 | medium | Scheduled agents without keys; the old designer key active | each agent, designer@ | **nearly closed**: 24 enabled, one without a key (dev.portugal@); the old designer key superseded | 0610 |
+| S15 | high | The hooks run in every agent's session; any push changes them | dev@, abp@ | **half done**: the hook loads no other code and checks its pin (matches, 0e0922bd at 12:05); the gate check on `.claude/` commits not built | 0610, 0805 |
+| S16 | medium | Scheduled agents without keys; the old designer key active | each agent, designer@ | **closed** (12:05): every enabled agent has a key; the old designer key superseded | 0610, 1205 |
 | S17 | low | security@'s grant lacks remote read and sub-agents; its nav.json line | abp@, Dinis, dev@ | **open**: listed by the conductor among five relaxations for Dinis | 0610 |

@@ -13,3 +13,6 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 - `2026-11-06-decisions-as-pages.md`: decisions for Dinis are pages of the site, with full details (about 11:00 UTC).
 - `memos/2026-11-06-the-night-memos.md`: every memo of the night of 5 to 6 November, verbatim (kept 11:00 UTC).
 - `2026-11-06-the-ideas-ledger.md`: every idea in the night's memos and the 18:00 stand-up, one row each (494), with when, where captured and owner; the Later list first (kept 11:30 UTC).
+- `2026-11-06-feedback-reading-and-vicky.md`: Vicky's agents may publish; a feedback lane on every page; reading depth and newsroom.sgit.ai's reading modes (about 12:00 UTC).
+- `2026-11-06-conductors-sync-and-outside-agents.md`: the conductors in sync; ChatGPT and Perplexity agents; other platforms; AWS, Google, Microsoft centres of gravity (about 12:50 UTC).
+- `2026-11-06-pt-decisions-passkey-and-the-platform.md`: PT decisions are the team's; passkey sign-in to his vault across devices; the personalisation and event platform by proxy (about 13:05 UTC).

@@ -113,6 +113,43 @@
         return { raw, words: kept, last: open ? ws[ws.length - 1] : null, phrase: ws.join(' ') }
     }
 
+    // "did you mean": edit distance with swaps, and a vocabulary of the words in the page titles (with how often each is used)
+    function distance(a, b, max) {
+        if (Math.abs(a.length - b.length) > max) return max + 1
+        let prev2 = null, prev = Array.from({ length: b.length + 1 }, (_, j) => j)
+        for (let i = 1; i <= a.length; i++) {
+            const cur = [i]
+            let low = i
+            for (let j = 1; j <= b.length; j++) {
+                let v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1))
+                if (prev2 && i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) v = Math.min(v, prev2[j - 2] + 1)
+                cur[j] = v
+                if (v < low) low = v
+            }
+            if (low > max) return max + 1
+            prev2 = prev; prev = cur
+        }
+        return prev[b.length]
+    }
+    function suggest(q, docs) {
+        const vocab = new Map()
+        for (const r of docs) for (const w of words(r[2])) if (w.length >= 3) vocab.set(w, (vocab.get(w) || 0) + 1)
+        let changed = false
+        const out = words(q).map(w => {
+            if (w.length < 4 || STOP.has(w) || vocab.has(w)) return w
+            for (const v of vocab.keys()) if (v.startsWith(w)) return w     // a word still being typed
+            const max = w.length >= 8 ? 2 : 1
+            let best = null, bd = max + 1, bn = 0
+            for (const [v, n] of vocab) {
+                const dd = distance(w, v, max)
+                if (dd < bd || (dd === bd && dd <= max && n > bn)) { best = v; bd = dd; bn = n }
+            }
+            if (best && bd <= max) { changed = true; return best }
+            return w
+        })
+        return changed ? out.join(' ') : null
+    }
+
     const docObj = (row, i) => ({ i, id: row[0], type: row[1], title: row[2], summary: row[3], url: row[4], facets: row[5] || {}, extra: row[6] || {} })
 
     /**
@@ -133,6 +170,7 @@
             const d = await docsFile()
             const pq = parseQuery(q)
             if (!pq.words.length) return { query: q, total: 0, results: [], facets: {}, shards: [] }
+            const didYouMean = () => suggest(q, d.docs)
             const have = new Set(d.shards)
             const syn = d.syn || {}
             // each query word: the vocabulary terms it may stand for, with a weight
@@ -186,7 +224,7 @@
             const matched = all.map(r => r.doc), facets = {}
             for (const k of ['type', 'topic', 'country', 'organiser', 'day']) { const f = Object.assign({}, opts); delete f[k]; facets[k] = countFacets(matched.filter(x => keep(x, f)))[k] }
             all = all.filter(r => keep(r.doc, opts))
-            return { query: q, total: all.length, results: all.slice(0, limit), facets, shards: [...keys].sort(), words: pq.words }
+            return { query: q, total: all.length, results: all.slice(0, limit), facets, shards: [...keys].sort(), words: pq.words, ...(all.length === 0 ? { suggest: didYouMean() } : {}) }
         }
 
         return { query, docs: docsFile, stats, load }
@@ -252,5 +290,5 @@
         }
     }
 
-    return { STOP, FIELDS, TYPE_LABEL, TYPE_PLURAL, fold, words, stem, terms, shardOf, buildIndex, parseQuery, createEngine, keep, countFacets, mark, docObj, searchTool }
+    return { distance, suggest, STOP, FIELDS, TYPE_LABEL, TYPE_PLURAL, fold, words, stem, terms, shardOf, buildIndex, parseQuery, createEngine, keep, countFacets, mark, docObj, searchTool }
 })

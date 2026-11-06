@@ -1,5 +1,110 @@
 [
   {
+    "version": "v0.1.251",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 12:46 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "25f5ace57"
+  },
+  {
+    "version": "v0.1.250",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the conductors in sync; ChatGPT and Perplexity agents ready to start",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "9a4e13d27"
+  },
+  {
+    "version": "v0.1.249",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: Vicky's agents may publish; the reader feedback and reading pass",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "113ea45f6"
+  },
+  {
+    "version": "v0.1.248",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: wake 12:42: brazil-11 round 1 (home pages of 109 companies: one with operations in Brazil, iTRecruiter; about pages still open); status and run report",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "52f17330d"
+  },
+  {
+    "version": "v0.1.247",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: front page at 12:45: S20 (Octo Health) to the top three, S19, S16 and Web Summit before 2026 placed; the standing rules from the ideas ledger in ROLE.md (one step ahead, SD-16); brazil-11 taken",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "bc7339fb2"
+  },
+  {
+    "version": "v0.1.246",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 12:38 wake: decision pages in every agent's grant (CLAUDE.md, Decisions are pages); a quiet hour, 0 outside the mandate",
+    "by": "abp@PrompTugal.dinis",
+    "from": "f03764d66"
+  },
+  {
+    "version": "v0.1.245",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: three more decision pages for Dinis (the front page, the summit's days, how the list pages open), every option in full; take designer.experiments@'s round 5",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1a9840296"
+  },
+  {
+    "version": "v0.1.244",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: 12:30 wake: my verdict on the top's four options for Dinis's decision page (A, with the days under it, not instead of it); the live top unchanged since 06:30; blocked on the quick fixes going live",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "0dab58e86"
+  },
+  {
+    "version": "v0.1.243",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: the run report for the 12:26 wake (ABP R10)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "d9e8590e4"
+  },
+  {
+    "version": "v0.1.242",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: flows for Scrut Automation and Hexamind (Hexgate), each from its own pages",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "3ee60a094"
+  },
+  {
+    "version": "v0.1.241",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: wake 12:14: CI healthy (3 Pages stalls recovered, every release tagged since the atomic push); promptugal.com and .ai written up as a decision for Dinis; blocked on the domains (Dinis) and my inbox (sgit-ai)",
+    "by": "devops@PrompTugal.dinis",
+    "from": "24f9c5f4e"
+  },
+  {
+    "version": "v0.1.240",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 12:17",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "525bd7d1c"
+  },
+  {
+    "version": "v0.1.239",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 12:08: review round 7; the decisions index",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8974716bf"
+  },
+  {
+    "version": "v0.1.238",
+    "date": "2026-11-06",
+    "what": "backup@PrompTugal.dinis: wake 12:12: found and fixed a defect (shallow clone gave incomplete bundles); real restore test and gate pass",
+    "by": "backup@PrompTugal.dinis",
+    "from": "21aa8f882"
+  },
+  {
+    "version": "v0.1.237",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 12:05: 102 commits and worker branches clean; the night's memos read; S16 closed",
+    "by": "security@PrompTugal.dinis",
+    "from": "f41fa51fc"
+  },
+  {
     "version": "v0.1.236",
     "date": "2026-11-06",
     "what": "curator@PrompTugal.vicky: the candidates page under the new name",
