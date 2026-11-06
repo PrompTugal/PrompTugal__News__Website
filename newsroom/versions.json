@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.339",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 20:37 wake: the conductor's new session and scheduled task for investors@ verified as Dinis's word; its ABP queued",
+    "by": "abp@PrompTugal.dinis",
+    "from": "1ab642d3e"
+  },
+  {
     "version": "v0.1.338",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
