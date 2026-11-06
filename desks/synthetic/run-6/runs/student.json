@@ -1,0 +1,106 @@
+{
+  "persona": "Miguel Sousa (SYNTHETIC)",
+  "synthetic": true,
+  "run": 6,
+  "journey": "student",
+  "ranking": ["C", "A", "today", "B"],
+  "outcome": "SYNTHETIC. On the metro, Miguel would keep C: the numbered 'Before the summit, in 30 seconds' box gives him three facts with numbers before any picture, and he would tap 'Read the stories'. He trusts today's text-only page more than the mock-ups because it says 'every fact with its source' at the top, but it reads like a long agenda. B lost him: a wall of picture cards with 'AI-MADE' stamps looks like a marketing feed. In none of the four did he clearly see that facts are sourced and signed beyond the word 'signed' and one sentence in the mandate box.",
+  "steps": [
+    {
+      "screen": "screens/front-phone-s1.jpg (then s2, s3)",
+      "see": "'PrompTugal.news', 'PEOPLE AND AI AGENTS, REPORTING TOGETHER', 'Powered by RiskMandate', a green box 'Our mandate: to map the universe of AI in Portugal ... every fact with its source', then the headline 'Brazil's startup mission comes to Web Summit Lisbon' with a long summary and 'journalist@PrompTugal.dinis, round 1 of the Brazil story project ... signed'. Scrolling: a long agenda, 'Registration: collect your lanyard and wristband' twice per day, then 'LATEST' in italics.",
+      "think": "OK, a site written by AI agents that admits it, and says every fact is sourced. That is more honest than most. But 'Powered by RiskMandate' right under the logo makes me wonder if it is a company blog. The byline with an email-like agent name is nerdy, I kind of like it. The agenda is useful for me as a volunteer but it repeats the registration item and goes on forever.",
+      "question": "Is this independent news or RiskMandate's marketing? And what is the '£5.00' button, do I pay?",
+      "confusion": "'£5.00' and 'Vault' in the top bar, with no label saying what they are; pounds on a Lisbon site.",
+      "act": "Scroll to the agenda to check Saturday's registration times, then leave."
+    },
+    {
+      "screen": "mockups/A--phone.png then A--phone--full.png",
+      "see": "'People and AI agents, reporting together. Independent.', a big infographic 'BRAZIL'S STARTUP MISSION TO WEB SUMMIT LISBON 2026: THE UNCERTAIN DELEGATION COUNT' with an 'AI-MADE' tag, headline, short summary, 'PrompTugal.news · 5 min · signed'. Then 'NOW AND NEXT' with three dated lines, 'LATEST' list with thumbnails, and at the bottom 'WHY WE ARE DIFFERENT' with 'Reach.', 'Mandate.', 'Gap.'.",
+      "think": "Cleaner than today. 'Independent.' is a good word to see at the top. The chart is too small to read on my phone, it is a picture of a chart with tiny text. Now and next in three lines is much better than today's endless agenda. 'Why we are different' is at the very bottom, I would never scroll there on the metro.",
+      "question": "Why is the chart AI-made if it is about real numbers? Who checked the numbers in it?",
+      "confusion": "'Reach. What can an AI agent actually do?' sounds like a slogan; I do not know what it has to do with Web Summit news.",
+      "act": "Tap the Brazil headline."
+    },
+    {
+      "screen": "mockups/B--phone.png then B--phone--full.png",
+      "see": "A black strip 'NOW Portugal Tech Week begins today · Opening Night Monday 9 November', the same Brazil infographic with 'AI-MADE', then a two-column grid of cards: 'more than 70,000', 'Up to 125', '84%', little network diagrams, 'Following robotics at Web Summit'. The mandate box sits at the end.",
+      "think": "This looks like an Instagram explore page or a startup's landing page. Big numbers like '84%' and 'Up to 125' with no source next to them are exactly what I scroll past as hype. The cards are pretty but I cannot tell which are news and which are decoration.",
+      "question": "84% of what, says who?",
+      "confusion": "Headlines sit under the card, separated from the image, so on a small screen I am not sure which title belongs to which picture.",
+      "act": "Tap 'Following robotics at Web Summit' because of the robots, then probably leave."
+    },
+    {
+      "screen": "mockups/C--phone.png then C--phone--full.png",
+      "see": "A boxed 'FRIDAY 6 NOVEMBER · THE BRIEFING', 'Before the summit, in 30 seconds', three numbered points (Brazil 'counts run from 100 to about 300, and no public list names the companies'; 'Three Portuguese startups raised 1.1 to 1.6 million euros'; the European Commission in 'Pavilion 4'), 'Play the briefing · Read the stories'. Then the Brazil infographic, 'LATEST', 'NOW AND NEXT', 'WHY WE ARE DIFFERENT'.",
+      "think": "This is what I want between two metro stops: three facts, with ranges and an honest 'no public list'. Saying what they do not know makes me trust it more. 'Play the briefing' is nice for headphones. The image comes second, so it does not feel like an ad.",
+      "question": "Where do the three facts come from? A tiny source link per point would close it for me.",
+      "confusion": "'Play the briefing': is it audio, a video, an AI voice? Not labelled.",
+      "act": "Tap 'Read the stories', then the Portuguese startups story."
+    }
+  ],
+  "interview": {
+    "q1": "Today: a site about AI in Portugal and Web Summit written by AI agents, for people following the summit, maybe for RiskMandate's clients. A: a tidy news site about Web Summit and Portuguese tech, for attendees and tech people. B: looks like a startup's showcase feed, for people who like infographics, not sure it is news. C: a daily briefing on the summit for people in a hurry like me.",
+    "q2": "1. C, because I get three real facts in 30 seconds before any picture. 2. A, because it is clean and the now-and-next is short, but the lead is a chart I cannot read on a phone. 3. Today, because it is honest and sourced up front, but it is a wall of text and agenda. 4. B, because it looks like marketing with big unsourced numbers.",
+    "q3": "C. I would tap 'Read the stories' and then 'From the PITCH stage to new markets: Portuguese startups raising', because I want to know which Portuguese startups got money, I might want to work for one.",
+    "q4": "Only on today's page, where the green box says 'every fact with its source' right at the top. In A and C it is in 'WHY WE ARE DIFFERENT' at the bottom and I would not have scrolled there; in B it is the last box after the whole wall. The word 'signed' under the headline means nothing to me without a hint. I did not notice anything saying who made it or what it does not claim, apart from the agent name in today's byline.",
+    "q5": "The 'AI-MADE' tag on a chart full of numbers. A chart is where I expect accuracy; if an image model drew it, I assume the numbers or labels could be wrong. In B the giant '84%' and 'Up to 125' cards with no source look like hype. And '£5.00 credit' at the top of every version looks like a paywall or a crypto thing.",
+    "q6": "On C, put a small source link under each of the three briefing points and move one line of 'every fact sourced, signed by the agent who wrote it' right under the briefing box, not at the bottom."
+  },
+  "findings": [
+    {
+      "severity": "costly",
+      "screen": "mockups/A--phone.png",
+      "finding": "The lead image is an 'AI-MADE' infographic whose text and numbers are too small to read at phone width, and the AI-made label on a data chart makes a sceptical reader doubt the numbers.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "mockups/B--phone--full.png",
+      "finding": "Cards show big figures ('84%', 'Up to 125', 'more than 70,000') with no source or date beside them, so the wall reads as marketing rather than sourced news.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "mockups/C--phone--full.png",
+      "finding": "In A, B and C, 'WHY WE ARE DIFFERENT' (sourced, signed, the mandate) is the last block of the page, so a phone reader never reaches what sets the site apart; today's page shows it first.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "mockups/C--phone.png",
+      "finding": "The three briefing points carry no source link, although the site's promise is every fact with its source.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "mockups/C--phone.png",
+      "finding": "'Play the briefing' does not say whether it is audio or video, how long it is, or whether the voice is AI.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "minor",
+      "screen": "screens/front-phone-s1.jpg",
+      "finding": "The top bar shows '£5.00' (and '£5.00 credit' in the mock-ups) and 'Vault' with no label, which reads as a paywall or payment on a Lisbon site.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "screens/front-phone-s2.jpg",
+      "finding": "The agenda repeats 'Registration: collect your lanyard and wristband' at two places each day in full, which makes the today page long; the three-line 'NOW AND NEXT' in A and C solves it.",
+      "owner": "correspondent@"
+    },
+    {
+      "severity": "minor",
+      "screen": "mockups/B--phone--full.png",
+      "finding": "Headlines sit below separate image cards in two narrow columns, so it is unclear at phone width which headline belongs to which card.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "mockups/A--phone--full.png",
+      "finding": "The byline 'signed' is shown with no explanation or link, so a reader does not know it is a verifiable signature.",
+      "owner": "dev@"
+    }
+  ]
+}

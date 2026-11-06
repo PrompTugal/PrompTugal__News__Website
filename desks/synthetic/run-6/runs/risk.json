@@ -1,0 +1,62 @@
+{
+  "persona": "Helena Marques (SYNTHETIC)",
+  "synthetic": true,
+  "run": 6,
+  "journey": "risk",
+  "ranking": ["today", "A", "C", "B"],
+  "outcome": "SYNTHETIC. Helena would keep today's front page, because it is the only one that says on the first screen who wrote each story (an agent named journalist@PrompTugal.dinis) and that every fact is sourced. Of the mock-ups she prefers A, but all three hide that the writers are AI agents behind bylines like \"Vicky Wang's desk\" and \"PrompTugal.news\", which for her is a transparency step backwards. She would tap the Brazil lead in today's version to check its sources.",
+  "steps": [
+    {
+      "screen": "/root/vaults/promptugal-synthetic/run-6/screens/front-desktop-s1.jpg (and s2)",
+      "see": "Masthead \"PrompTugal.news\", a box \"EVERY FACT SOURCED: Each one links to a public page, with the date we read it\", a box \"INDEPENDENT: Not affiliated with Web Summit. The same team works on RiskMandate: our disclosure\", \"PEOPLE AND AI AGENTS, REPORTING TOGETHER\", \"Powered by RiskMandate\". Lead \"Brazil's startup mission comes to Web Summit Lisbon\", byline \"journalist@PrompTugal.dinis, round 1 of the Brazil story project, from the first version by journalist@web-summit.vicky ... signed\". s2 is a dense list of italic summaries with agent bylines and a long day-by-day agenda.",
+      "think": "This is the first news site I have seen that tells me up front an AI agent wrote the story and that it is signed. The disclosure box naming RiskMandate is exactly what I would ask for. The page is text heavy and the list in s2 is hard to scan, but I know who is accountable.",
+      "question": "\"Signed\" by whom, and how do I check the signature? And who is the human answerable if a fact is wrong?",
+      "confusion": "\"Powered by RiskMandate\" next to \"Independent\": is RiskMandate the owner, a sponsor or the product being promoted?",
+      "act": "Tap \"our disclosure\" first, then the Brazil lead."
+    },
+    {
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png (then A--desktop--full.png)",
+      "see": "A slim header, one grey line \"Every fact sourced and dated. Independent: not affiliated with Web Summit. Our disclosure\". A large infographic \"BRAZIL'S STARTUP MISSION TO WEB SUMMIT LISBON 2026: THE UNCERTAIN DELEGATION COUNT\" with bars labelled \"Sebrae, 30 Sep\", \"ApexBrasil through Lusa, 4 Nov\", tagged \"AI-MADE\". Byline now \"PrompTugal.news . 5 min . signed\". Right column \"NOW AND NEXT\" and \"LATEST\" with \"Vicky Wang's desk\". Lower down \"WHY WE ARE DIFFERENT\": Reach, Mandate, Gap.",
+      "think": "Cleaner and more like a real paper. I like that the chart names its source for each count and admits \"None of the sources reconciles them\". But the agent byline has gone: \"Vicky Wang's desk\" reads like a human journalist. The sourcing promise shrank to a grey line I almost missed.",
+      "question": "Who is Vicky Wang, a person or an agent? And the chart says \"DATES: 8 to 13 November\" while the agenda says opening night is 9 November: which is right?",
+      "confusion": "The Brazil analysis is labelled \"ANNOUNCEMENTS\", which sounds like a press release.",
+      "act": "Tap the Brazil headline, but with less confidence than today."
+    },
+    {
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/B--desktop.png (then B--desktop--full.png)",
+      "see": "A black \"NOW AND NEXT\" strip, then a grid of image cards: the Brazil infographic, \"FROM THE PITCH STAGE TO NEW MARKETS\" with \"AI-MADE\", and many small grey cards with tiny text and big numbers (\"Up to 125\", \"84%\", \"more than 70,000\"). Bylines \"Vicky Wang's desk\" and \"PrompTugal.news\". The mandate box sits at the very bottom.",
+      "think": "This looks like a marketing wall. Big numbers out of context, \"84%\" on its own, are what I distrust most in AI content. Nothing on the first screen tells me who wrote it or where any number comes from.",
+      "question": "Where does \"84%\" come from, and is that card text readable by anyone?",
+      "confusion": "The small cards are images of text I cannot read; I cannot tell a chart from a decoration.",
+      "act": "Leave, or scroll to the bottom looking for an about or disclosure."
+    },
+    {
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/C--desktop.png (then C--desktop--full.png)",
+      "see": "A boxed \"FRIDAY 6 NOVEMBER . THE BRIEFING: Before the summit, in 30 seconds\" with three numbered points and \"Play the briefing\". Centre: the Brazil infographic (AI-MADE) and lead, then the PITCH infographic. Right: \"LATEST\" with \"Vicky Wang's desk\", and \"WHY WE ARE DIFFERENT\" at the end.",
+      "think": "The briefing is useful for a busy morning, but its three claims have no source and no author. \"Play the briefing\" makes me ask whose voice and whether it is synthetic. Better than B, weaker than A for accountability.",
+      "question": "Who wrote the briefing and is the audio an AI voice? Is that labelled?",
+      "confusion": "Three summary claims with no link beside them, on a site that promises every fact sourced.",
+      "act": "Read the briefing, then tap the Brazil headline."
+    }
+  ],
+  "interview": {
+    "q1": "Today: a Lisbon news site on Web Summit and AI in Portugal, written by AI agents with a human team, for people who want sourced facts. A: a tidy tech newspaper on Web Summit for founders and attendees; I could not tell it was written by agents. B: a visual magazine or event promo wall for attendees. C: a morning briefing on the summit for busy professionals.",
+    "q2": "1. Today, because it names the agent who wrote each story, says it is signed and puts the sourcing promise and the disclosure on the first screen. 2. A, because it is easier to read and the chart cites its sources, but it hides the agents. 3. C, because the briefing saves me time, though its claims are unsourced. 4. B, because it is mostly AI images and bare numbers with nothing to tell me where they come from.",
+    "q3": "A makes me most want to read, because the headline and the honest \"uncertain delegation count\" chart are clear. I would tap \"Brazil's startup mission comes to Web Summit Lisbon\" to see whether each of the five counts links to its source.",
+    "q4": "Only today, clearly: \"EVERY FACT SOURCED\", \"INDEPENDENT\", the agent byline and \"signed\". In A, B and C it is one grey line under the header that I only noticed on a second look, and \"WHY WE ARE DIFFERENT\" talks about Reach, Mandate and Gap, which does not tell me anything about sourcing or who is accountable. No mock-up says what the site does not claim.",
+    "q5": "The \"AI-MADE\" infographics: I respect the label, but an AI-made chart of numbers is exactly where errors hide, and the Brazil chart's \"8 to 13 November\" does not match the agenda. B's big numbers like \"84%\" with no context. And bylines like \"Vicky Wang's desk\" that make AI-written work look human-written; under the AI Act mindset I work in, that is the opposite of what I want.",
+    "q6": "Keep A's layout but put today's byline back (\"journalist@PrompTugal.dinis, signed\", with a link to check the signature) and today's \"EVERY FACT SOURCED\" and \"INDEPENDENT\" boxes on the first screen, plus a note on each AI-made chart saying who checked its numbers."
+  },
+  "findings": [
+    {"severity": "blocking", "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png", "finding": "All three mock-ups replace the agent byline seen today (\"journalist@PrompTugal.dinis ... signed\") with \"Vicky Wang's desk\" or \"PrompTugal.news\", so a reader cannot tell the stories were written by AI agents.", "owner": "designer@"},
+    {"severity": "costly", "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png", "finding": "The \"EVERY FACT SOURCED\" and \"INDEPENDENT\" boxes of today shrink in A, B and C to one small grey line under the header that is easy to miss.", "owner": "designer@"},
+    {"severity": "costly", "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png", "finding": "The AI-made Brazil infographic gives \"DATES: 8 to 13 November 2026\" while Now and Next gives opening night on 9 November, an inconsistency on the lead image.", "owner": "designer@"},
+    {"severity": "costly", "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/B--desktop.png", "finding": "B's card images show bare figures such as \"84%\", \"Up to 125\" and \"more than 70,000\" with unreadable small text and no visible source.", "owner": "designer@"},
+    {"severity": "costly", "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/C--desktop.png", "finding": "C's \"Before the summit, in 30 seconds\" briefing states three facts with no source link and no author.", "owner": "correspondent@"},
+    {"severity": "minor", "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/C--desktop.png", "finding": "\"Play the briefing\" does not say whether the voice is synthetic or who wrote the script.", "owner": "dev@"},
+    {"severity": "minor", "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png", "finding": "The Brazil lead, an analysis of conflicting counts, is labelled \"ANNOUNCEMENTS\", which reads like a press release.", "owner": "designer@"},
+    {"severity": "minor", "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop--full.png", "finding": "\"WHY WE ARE DIFFERENT\" lists Reach, Mandate and Gap as questions but says nothing about sourcing, signatures or who is accountable.", "owner": "designer@"},
+    {"severity": "minor", "screen": "/root/vaults/promptugal-synthetic/run-6/screens/front-desktop-s1.jpg", "finding": "Today, \"signed\" in the byline does not link to a way to check the signature or name the human answerable.", "owner": "dev@"},
+    {"severity": "minor", "screen": "/root/vaults/promptugal-synthetic/run-6/screens/front-desktop-s1.jpg", "finding": "Today, \"Powered by RiskMandate\" beside \"INDEPENDENT\" leaves unclear whether RiskMandate owns, sponsors or is promoted by the site.", "owner": "designer@"}
+  ]
+}
