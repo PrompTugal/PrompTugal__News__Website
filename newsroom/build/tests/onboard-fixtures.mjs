@@ -18,7 +18,7 @@ export async function mintLicence(apiKey, issuer, o = {}) {
 }
 export const mintPool = (issuer, keys, o = {}) => O.signSigned({ v: 1, kind: 'pool', issuer: o.issuer || issuer.bundle.signing_fingerprint, updated: '2026-11-06T17:00:00Z', entries: keys.map(k => ({ api_key: k, added: '2026-11-06T17:00:00Z' })) }, (o.signWith || issuer).private.sign)
 export const mintMessage = async (issuer, reader, n, body = { api_key: 'sgk_' + '0'.repeat(32) }, o = {}) => {
-    const m = await O.signSigned({ v: 1, kind: 'welcome', n, in_reply_to: 'sha256:' + '1'.repeat(64), body, at: '2026-11-06T18:00:00Z', issuer: issuer.bundle.signing_fingerprint }, (o.signWith || issuer).private.sign)
+    const m = await O.signSigned({ v: 1, kind: o.kind || 'welcome', n, in_reply_to: 'sha256:' + '1'.repeat(64), body, at: '2026-11-06T18:00:00Z', issuer: issuer.bundle.signing_fingerprint }, (o.signWith || issuer).private.sign)
     return { v: 1, envelope: await K.seal(reader.bundle, JSON.stringify(m), null) }
 }
 
