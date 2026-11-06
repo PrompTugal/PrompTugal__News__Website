@@ -1,51 +1,42 @@
 {
  "summary": "SYNTHETIC. Invented readers read PrompTugal.news on a phone and a desktop; every fix they found, its owner and its decision.",
  "top": [
+  "F35",
   "F28",
-  "F01",
-  "F14"
+  "F01"
  ],
  "questions": [
   "F19: What is PrompTugal.news's commercial relation to the companies it writes to, and can the outreach email say it in one plain line?",
   "F25: May the outreach email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
   "F26: Does 'Powered by RiskMandate' stay on company pages?"
  ],
- "latest_line": "run 5 (6 November, 04:40 UTC): four new readers, the homepage and one story each. All four could say how a story is made; none could say what 'signed' means or check it.",
- "latest_intro": "Four invented readers, a mix of expertise, all interested in technology, one who does not know what a prompt is. Each read the front page, picked the one story they would tap, read it to the end, and was asked how it was made, how they could check it and what 'signed' means. Live site v0.1.90 and v0.1.91; 231 screenshots, in the synthetic vault.",
+ "latest_line": "run 7 (6 November, 06:50 UTC): the reporter reads the Brazil story rewritten as a story project. He has an angle and would credit the site for spotting the counts that do not reconcile; he would not repeat an unsourced 2025 claim (F41), and could not check 'signed' (F28).",
+ "latest_intro": "Tom (invented, SYNTHETIC) read the Brazil story in run 5; this morning it was rewritten as a story project (shorter, tables, the five counts side by side, an invitation to help map the delegation). He read it fresh at v0.1.156, desktop then phone; screenshots overlap by 15% so nothing is missed between screens.",
  "latest_readers": [
-  {
-   "who": "Ana Costa, 58, pharmacy owner, Porto (SYNTHETIC)",
-   "knows": "not what a prompt is",
-   "device": "phone, from WhatsApp",
-   "story": "From the PITCH stage to new markets",
-   "line": "Stayed for 'a Porto cleantech spin-off'; would share it with her friend, not quote its figures without opening a source."
-  },
-  {
-   "who": "Miguel Sousa, 22, CS student, Lisbon (SYNTHETIC)",
-   "knows": "prompts, agents, LLMs",
-   "device": "phone, from search",
-   "story": "Lisbon's universities at Web Summit",
-   "line": "Read 'Who made this' like a CI pipeline; would share it with his AI club 'as an example of how to show provenance'."
-  },
-  {
-   "who": "Helena Marques, 47, compliance at an insurer (SYNTHETIC)",
-   "knows": "the AI Act",
-   "device": "desktop, from LinkedIn",
-   "story": "Europe in Pavilion 4",
-   "line": "Stayed for 'Every fact sourced'; would quote a fact after checking the Commission page, not share the article."
-  },
   {
    "who": "Tom Hartley, 36, reporter, London (SYNTHETIC)",
    "knows": "newsrooms",
-   "device": "desktop, from a colleague",
-   "story": "Brazil's startup mission",
-   "line": "Would quote its sources, not the site; wants the human editor's name and a press contact in the byline."
+   "device": "desktop, then phone",
+   "story": "Brazil's startup mission (rewritten)",
+   "line": "An angle: five counts from 100 to about 300 that no source reconciles. He would cite ApexBrasil, Sebrae and Lusa and credit PrompTugal.news for the mismatch; the tables are clearer than prose on both screens."
   }
  ],
- "latest_signed": "**'Signed' meant nothing they could use (F28).** Ana: 'the program put its stamp on it ... but I did not see any stamp'. Miguel: 'the page does not show the signature, the key or how to verify'. Helena: 'Honestly, I do not know'. Tom: 'a claim I have to take on trust'. Measured: the signature is served (articles/<slug>.md.sig) and the key is public (board/keys.json); no article links either.",
- "latest_held": "'What this does not claim'; every source with the date published and the date read; 'In short'; About's rules. In plain words, the provenance works: all four told how a story was made, correctly, in their own words.",
- "latest_lost": "the £ balance dropping when a story opens (F01, all four); bylines read as email handles, no accountable human named (F14, all four); insider words in 'Who made this' (F30); the code box and plain-text link unexplained (F29); a second homepage screen that says 'for attendees' (F32). Measured: 7 of 11 articles scroll sideways on a phone (F10).",
+ "latest_signed": "**Run 5 to run 7, the same reader on the same story:** in run 5 he would 'quote its sources, not the site'; now he would credit the site for an angle. Still missing, his one change: 'one named human editor and a how-to-cite line (title, URL, version, date) near the top, with every source and the signature as a tappable link'.",
+ "latest_held": "'What this does not claim' and 'Tried and not reached'; the tables; the counts side by side.",
+ "latest_lost": "the 2025 claim with no source (F41); an invitation only GitHub users can answer (F42); three agent names and no accountable human (F43); 'signed' still unverifiable (F28); unlinked sources and a cut PDF address on the phone (F33).",
  "earlier": [
+  {
+   "run": 6,
+   "when": "06:00 UTC",
+   "who": "the four run-5 readers on today's front page against mock-ups A, B, C",
+   "line": "A 9, C 9, today 6, B 0; the mock-ups' bylines hide that an AI agent wrote the work (F35, blocking). F35 to F40."
+  },
+  {
+   "run": 5,
+   "when": "04:40 UTC",
+   "who": "four new readers (Ana, Miguel, Helena, Tom), the homepage and one story each",
+   "line": "All four could say how a story is made; none could say what 'signed' means or check it (F28). F28 to F34."
+  },
   {
    "run": 1,
    "when": "6 November 00:40 UTC",
@@ -81,6 +72,7 @@
   "A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).",
   "A card per reader (designer@, pass finding S5).",
   "The readers tapped nothing: runs so far are screenshots only.",
-  "The front page and the Brazil story changed after run 5 (05:00 UTC); the next run reads them once the front-page pass's design round has landed."
- ]
+  "No owner has recorded a decision in the ledger yet (07:05 UTC): every open row still reads 'no decision yet'."
+ ],
+ "latest_title": "Latest: run 7, the rewritten Brazil story"
 }

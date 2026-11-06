@@ -24,7 +24,7 @@ This file maps all of that, says what exists and what does not, and puts the dec
 
 ## The one-line version
 
-**People see something we made, ask for more, and pay for a made-to-order version of it; a few things sell themselves.** Five families and a set-aside list: 21 rows in the register, 17 of them things to sell and 4 set aside on principle. **One is on sale** (the reading top-up). The nearest to ready are the vault month and the personal schedule.
+**People see something we made, ask for more, and pay for a made-to-order version of it; a few things sell themselves.** Five families and a set-aside list: 23 rows in the register, 19 of them things to sell and 4 set aside on principle. **One is on sale** (the reading top-up). The nearest to ready are the vault month and the personal schedule.
 
 | Family | What | On sale? |
 |---|---|---|
@@ -32,7 +32,7 @@ This file maps all of that, says what exists and what does not, and puts the dec
 | B. Made for you | personal schedule (50), delegation schedule (500), changes (25, 100), a graph (250) | no |
 | C. Professional services | Starter 500, Team 1,500, Build 5,000; a workshop | no |
 | D. Data you can use | match your own list to the graph (250) | no |
-| E. The days and after | summit brief (500), a QR at the door (5), post-summit pack (500), a standing brief (750 a month) | no |
+| E. The days and after | summit brief (500), a QR at the door (5), post-summit pack (500), **a personal newsreel (25) and a slice for an investor, founder or company (250)**, a standing brief (750 a month) | no |
 | X. Set aside | ads, paying for coverage, selling readers, a paywall | never, unless Dinis says |
 
 ## What we do now that people would pay for
@@ -124,6 +124,12 @@ We publish public data, so we do not sell the data. D1 sells the **match**: the 
 | E2 On the days: a QR at the door | 5 | 9 to 12 November: the business cards already carry a QR; a stranger pays 5 pounds and has a plan |
 | E3 Post-summit follow-up pack | 500 | 13 to 30 November |
 | E4 A standing brief, monthly | 750 a month (parked) | after the summit, if anyone asks |
+| E5 Your newsreel: a personal debrief of what happened, with the videos worth watching | 25 (a guess) | 9 November onward; the idea of 6 November, see below |
+| E6 A slice for an investor, a founder or a company | 250, or 500 for a company (guesses) | 13 November onward |
+
+### E5 and E6: the personal newsreel (added later on 6 November)
+
+Dinis's idea: a calendar and a **personalised newsreel** for anyone, at the summit or not: the core ideas of what happened in their slice, the videos they can watch, a debrief, from "every single thing that has been published about the summit", and delivered to a vault sealed to the buyer's key. His question, "how much would this be worth? Would somebody pay?", is open: the prices above are guesses, and the brief sets three cheap tests (the ask, a pay-what-you-want link, a free first day) to find out. The honest risk is that the organiser already publishes its own summaries and Centre Stage video; the product is the personal slice, the cross-source map and the sealed delivery, and the test says whether that is worth anything. The full brief, with the sources I checked, the source rules (public, no login, link and cite, a post is a person, click-to-load embeds) and who does what, is `briefs/2026-11-06-the-personal-newsreel.md`; it is for the conductor to route.
 
 ## What is set aside, and why
 

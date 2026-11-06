@@ -14,9 +14,11 @@ The shape: board/the-passes.md.
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 05:25 | conductor@ | opened | go | (this file) | |
-| | security@ | pre-review | | | |
+| 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| OPEN_ROUTER_KEY from the environment only; only public page text and public source text sent to openrouter.ai; spend inside accountant@'s budget | security@ (pre-review) | journalist@, dev@ | condition of go |
+| The 'verified' block says which models, when, and that models can be wrong; no model verdict published as a human's | security@ (pre-review) | journalist@ | condition of go |

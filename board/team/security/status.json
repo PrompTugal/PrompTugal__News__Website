@@ -2,10 +2,11 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T04:52Z",
- "reviewed_to": "5e363f2",
+ "updated": "2026-11-06T06:15Z",
+ "reviewed_to": "HEAD at 06:03",
  "hold": false,
  "done": [
+  "wake 06:10: 59 commits clean; 16 passes pre-reviewed (one change: search and the reader profile); S15 the hooks run in every session (high), S16 agents without keys, S17 my own grant",
   "at Dinis's word: the agents' messages mapped (118 acts, four channels) on /newsroom/security/ with a picture and comms.json; the dashboard spec for dev@; S11 to S14",
   "wake 04:05: 11 commits reviewed (clean); eight passes pre-reviewed (six go with conditions, signed-in views and sub-sites: change, S1 first); BR5's internal Sebrae reports: do not use; keys-and-vaults.md, the first map",
   "my session key: security-promptugal in board/keys.json (record sha256:2e768b7ad63c24df), pki-agent.mjs checked against the team site's pin; my row in data/newsroom/agents.json",
@@ -15,6 +16,7 @@
  ],
  "next": [
   "review every commit since 5e363f2 at my next wake (06:03)",
+  "post-review every change to .claude/** and newsroom/build/secrets.cjs at each wake",
   "redraw the messages map at every wake; read synthetic@'s and observability@'s transcripts (not yet covered)",
   "the post-review of each pass when its rounds end",
   "(a) a security section in the newsroom: threat models per asset and flow, vulnerabilities and gaps with severity and owner (where dev@ routes it)",
@@ -34,15 +36,19 @@
   "S10": "low: board times ahead of the clock (conductor@)",
   "S11": "medium: 39 acts claim Dinis's word, none signed (Dinis, conductor@, dev@)",
   "S12": "medium: transcripts readable by every session; my own inbox credentials exposed there, re-issue asked (every agent, conductor@)",
-  "S13": "medium: the conductor holds every agent inbox's keys; lanes uncounted (conductor@)",
-  "S14": "low: a schedule written into the wrong session (conductor@)"
+  "S13": "accepted by Dinis 06:20: the conductor holds every vault key; my recommendation on record",
+  "S14": "low: a schedule written into the wrong session (conductor@)",
+  "S15": "high: .claude/hooks/abp.mjs and secrets.cjs run in every agent's session on every tool call; any push changes them (dev@, abp@)",
+  "S16": "medium: 8 scheduled agents without keys; the old designer key still active (each agent, designer@, conductor@)",
+  "S17": "low: my ABP grant lacks remote_read and sub-agents; my nav.json line (abp@, Dinis, dev@)"
  },
  "asks": [
   "For Dinis (S2): rotate the observability vault keys now or after the summit? Three holders today (you, conductor@PrompTugal.dinis, conductor@web-summit.dinis through git history).",
   "For Dinis (S3): may the footer and the observability page say the browser asks ipapi.co or ipwho.is for its place, and may the report show a city only when five or more readers share it?",
   "For Dinis (S4): may the outreach desk's rank, priority and ask for 50 companies stay public on promptugal.news, or move out of the served tree?",
   "For Dinis (S11): sign your guidance with your sign-in key so agents can check 'at Dinis's word'? (dev@ would build the signing step)",
-  "For Dinis: may every agent send security@ a receipt (metadata only) for each message, so the inbox lanes are counted too?"
+  "For Dinis: may every agent send security@ a receipt (metadata only) for each message, so the inbox lanes are counted too?",
+  "For Dinis (S17): grant security@ remote_read (the sessions' events, for the messages map you asked for) and sub-agents in its ABP?"
  ],
  "wakes": [
   {
@@ -62,6 +68,12 @@
    "outcome": "ok",
    "release": "",
    "line": "at Dinis's word: the agents' messages mapped on /newsroom/security/; S11 to S14"
+  },
+  {
+   "started": "2026-11-06T06:03Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "59 commits clean; 16 pre-reviews; S15 (high), S16, S17"
   }
  ],
  "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work."

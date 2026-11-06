@@ -1,0 +1,93 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T05-47-54Z",
+ "started": "2026-11-06T05:47:54.054Z",
+ "ended": "2026-11-06T05:54:52Z",
+ "line": "05:52 wake: snapshot; inbox empty; lanes for customers@ and backup@; plan status; dev@ nudged on the worker branches",
+ "policy": {
+  "version": "1.2.0",
+  "sha256": "0cdcc6613d36c01b"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:53:01.949Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T05:53:01.599Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "session": 1,
+   "other": 1,
+   "git": 1,
+   "web": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": [
+   {
+    "sha": "305ecb166",
+    "subject": "conductor@PrompTugal.dinis: wake at 05:52: story board and dashboard live, six worker branches waiting for review, inboxes for customers@ and backup@",
+    "files": 5
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T05:47:54.054Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "305ecb166 wrote board/snapshots.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 5,
+  "in_mandate": 4,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 1
+ }
+}

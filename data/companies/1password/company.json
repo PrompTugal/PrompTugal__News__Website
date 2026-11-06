@@ -27,13 +27,11 @@
     ],
     "attending": [
       "s1",
-      "s2",
-      "s3"
+      "s2"
     ],
     "attending_as": [
       "s1",
-      "s2",
-      "s3"
+      "s2"
     ]
   },
   "field_sources_method": "Keyword match on each source's \"supports\" note (newsroom/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",

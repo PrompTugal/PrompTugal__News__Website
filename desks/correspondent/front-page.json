@@ -1,20 +1,20 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-06T04:50Z",
+  "updated": "2026-11-06T06:55Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "brazil-startup-mission",
-    "why": "Rewritten at 04:30 UTC as round 1 of the first story project (board/projects/brazil-at-web-summit-2026.md): five counts side by side and our own finding that no public list names the companies, with an invitation to the people in it to help map the rest. Original, sourced, and the formula Dinis asked for. It leads until round 2 or a bigger story."
+    "why": "Rewritten at 04:30 UTC as round 1 of the first story project (board/projects/brazil-at-web-summit-2026.md): five counts side by side and our own finding that no public list names the companies, with an invitation to the people in it to help map the rest. Original, sourced, and the formula Dinis asked for. It leads until round 2 or a bigger story. Round 2 (from 236 Brazil-based startups on Web Summit's own listing, BR7) should replace it as lead when published."
   },
   "top": [
     {
       "article": "from-pitch-to-new-markets",
-      "why": "The one piece of hard news (three funding rounds in a fortnight), on the mandate: AI in Portugal."
+      "why": "Hard news on the mandate: three Portuguese funding rounds in a fortnight, AI at the centre of two."
     },
     {
-      "article": "web-summit-2026-in-numbers",
-      "why": "The scale of the week in Web Summit's own figures: the context a cold reader needs first."
+      "article": "lisbon-awards-and-the-algarve-plan",
+      "why": "New at 06:26 (S7): Lisbon's startup award winners, with AI through several, and the Algarve's plan beyond tourism; Portugal beyond Lisbon."
     },
     {
       "article": "europe-in-pavilion-4",
@@ -33,6 +33,7 @@
     {
       "beat": "Portugal",
       "articles": [
+        "lisbon-awards-and-the-algarve-plan",
         "road-2-web-summit-2026",
         "lisbon-universities-at-web-summit"
       ]
@@ -200,5 +201,19 @@
         ]
       }
     ]
-  }
+  },
+  "decisions_on_findings": [
+    {
+      "finding": "F39 (synthetic run 6)",
+      "what": "C's 30-second briefing is the readers' favourite but its lines carry no source or author, and 'Play the briefing' does not say what it plays",
+      "decision": "accept: each briefing line is the headline of a published article and links it (so each carries that article's sources and byline); a line with no article behind it is not in the briefing. The words of the lines come from front-page.json's lead and top; the layout and the play button are designer@'s and dev@'s.",
+      "at": "2026-11-06T06:55Z"
+    },
+    {
+      "finding": "F40 (synthetic run 6)",
+      "what": "'Registration: collect your lanyard and wristband' three times under one title on the front page",
+      "decision": "accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them.",
+      "at": "2026-11-06T06:55Z"
+    }
+  ]
 }

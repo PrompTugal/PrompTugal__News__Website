@@ -1,0 +1,112 @@
+{
+  "persona": "Tom Hartley (SYNTHETIC)",
+  "synthetic": true,
+  "run": 6,
+  "journey": "reporter",
+  "ranking": ["A", "C", "today", "B"],
+  "outcome": "Tom would pick A: the Brazil infographic plus the lede gives him a story angle (no public list of the delegation, counts from 100 to about 300) in one screen, and the 'Why we are different' block is still on the page. He trusts today's page more on attribution, because it names the agent bylines, the edition number and the sourcing promise in a box he cannot miss; all three mock-ups thin that out to a grey strip and bylines like 'Vicky Wang's desk', and the AI-made infographic carries dates (8 to 13 November) that do not match the summit dates he has seen elsewhere (9 to 12). He would not quote a number off an AI-made image.",
+  "steps": [
+    {
+      "screen": "/root/vaults/promptugal-synthetic/run-6/screens/front-desktop-s1.jpg (and s2)",
+      "see": "Big 'PrompTugal.news' masthead, a box 'EVERY FACT SOURCED: Each one links to a public page, with the date we read it', a box 'INDEPENDENT: Not affiliated with Web Summit', 'Edition v0.1.140', '4 days to the summit'. Lead 'Brazil's startup mission comes to Web Summit Lisbon', byline 'journalist@PrompTugal.dinis ... 6 min read · signed'. On scroll a long text list under LATEST, each item with a date and an agent byline, and a day-by-day 'NOW AND NEXT' agenda on the right.",
+      "think": "Plain and a bit dense, but it tells me straight away what the rules are and who wrote what. 'signed' and an edition number are things I can put in a footnote. The Brazil lede is a real angle: five counts, no public list.",
+      "question": "What does 'signed' mean in practice, and can I check the signature without being a developer?",
+      "confusion": "Bylines like 'journalist-ai@web-summit.vicky, for Vicky Wang' are hard to parse: is Vicky Wang a person, an editor, or the client?",
+      "act": "Tap the Brazil headline"
+    },
+    {
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png (then A--desktop--full.png)",
+      "see": "Slim masthead, a strip 'Every fact sourced and dated. Independent: not affiliated with Web Summit. Our disclosure'. Lead is a large infographic 'BRAZIL'S STARTUP MISSION TO WEB SUMMIT LISBON 2026: THE UNCERTAIN DELEGATION COUNT' with bars from 'Sebrae, 30 Sep: 100' to 'about 300', stamped 'AI-MADE'. Headline and lede below, '5 min · signed'. Right column 'NOW AND NEXT' (three lines) and 'LATEST' with thumbnails, bylines 'Vicky Wang's desk'. Lower down two cards and 'WHY WE ARE DIFFERENT: Reach. Mandate. Gap.'",
+      "think": "This looks like a newspaper that knows what its lead is. The chart puts the whole angle (nobody agrees on the number) in one glance. That is my story pitch right there.",
+      "question": "Which of these bars links to which source? I would want to click 'ApexBrasil, through Lusa, 4 Nov' and land on the Lusa piece.",
+      "confusion": "The infographic says 'DATES: 8 to 13 November 2026'; I thought the summit was 9 to 12. And 'Vicky Wang's desk' replaces the agent byline, so I no longer know who or what wrote each item.",
+      "act": "Tap the Brazil headline"
+    },
+    {
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/B--desktop.png (then B--desktop--full.png)",
+      "see": "Black band 'NOW AND NEXT: Today Fri 6 Portugal Tech Week begins... Mon 9 Nov Opening Night, MEO Arena... Tue 10 Nov Day 1'. A grid of image cards: the Brazil infographic large, then small cards ('Up to 125', '84%', 'more than 70,000') with headlines. The mandate box 'Reach. Mandate. Gap.' only at the very bottom.",
+      "think": "Pretty, but it reads like a conference sponsor's content hub. Every story is a picture with a number on it; I cannot tell which is news and which is explainer.",
+      "question": "Where is the text? Which of these is today's story and which is a week old?",
+      "confusion": "The small thumbnails are illegible at this size; '84%' in huge type with no context looks like clickbait.",
+      "act": "Scan, then probably leave or tap the Brazil card"
+    },
+    {
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/C--desktop.png (then C--desktop--full.png)",
+      "see": "Left boxed column 'FRIDAY 6 NOVEMBER · THE BRIEFING: Before the summit, in 30 seconds' with three numbered points and 'Play the briefing'; below it 'NOW AND NEXT'. Middle: the Brazil infographic and lede, then the PITCH infographic. Right: 'LATEST' thumbnails. Bottom right 'WHY WE ARE DIFFERENT'.",
+      "think": "The briefing is useful on a train: three facts and I know the day. But the three points have no sources next to them, which for a site that says 'every fact sourced' is odd.",
+      "question": "Is 'Play the briefing' audio read by an AI voice? Who wrote the briefing?",
+      "confusion": "Point 2 says 'Three Portuguese startups raised 1.1 to 1.6 million euros' with no link; I cannot cite a bullet.",
+      "act": "Read the briefing, then tap the Brazil headline"
+    }
+  ],
+  "interview": {
+    "q1": "Today: an independent, oddly transparent newsroom run by people and AI agents covering Web Summit Lisbon, for anyone following the summit who cares where facts come from. A: a proper tech newspaper for the summit, leading with a data story, for readers and reporters like me. B: a visual hub of Web Summit content, it could be the organiser's own site, for attendees browsing. C: a morning briefing for people going to the summit, for busy attendees and press.",
+    "q2": "1. A: one clear lead with a chart that is itself the angle, and the latest stories with dates still on the side. 2. C: the 30-second briefing is genuinely handy, but it pushes the lead to the middle and its bullets are unsourced. 3. Today: the most trustworthy (edition, bylines, 'Every fact sourced' box) but a wall of text under LATEST that I would not scan. 4. B: looks like marketing; the grid flattens everything so nothing leads.",
+    "q3": "A. I would tap 'Brazil's startup mission comes to Web Summit Lisbon', because 'no public list names the companies' is a story: who is in the delegation and why nobody publishes it.",
+    "q4": "Today, clearly: the 'EVERY FACT SOURCED' and 'INDEPENDENT' boxes beside the masthead and 'signed' on the byline. In A and C I only found it because I scrolled to 'WHY WE ARE DIFFERENT', and 'Reach. Mandate. Gap.' reads like a consultancy slogan, not a promise about sourcing. The grey strip at the top I missed on first look. In B I nearly did not notice it at all.",
+    "q5": "The AI-made infographics. A chart with exact numbers ('188 Approved by tax number', '239 (Sum of parts)') stamped 'AI-MADE' makes me wonder whether the model drew the numbers or the journalist did; I would not quote off it. Its 'DATES: 8 to 13 November 2026' did not match what I believed the summit dates were, which is exactly the kind of slip that stops me trusting the rest. Also 'Vicky Wang's desk' as a byline: I do not know who she is.",
+    "q6": "Keep A, but put today's 'EVERY FACT SOURCED, each one links to a public page, with the date we read it' box back beside the lead, and make each bar of the infographic a link to its source with the date read, so the chart becomes something I can cite."
+  },
+  "findings": [
+    {
+      "severity": "costly",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png",
+      "finding": "The lead infographic reads 'DATES: 8 to 13 November 2026' while today's front page says the summit runs Monday 9 to Thursday 12 November, so the AI-made image disagrees with the site's own agenda on the first screen.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png",
+      "finding": "In all three mock-ups the sourcing promise shrinks from the boxed 'EVERY FACT SOURCED' beside the masthead to a small grey strip under the nav, which a first-time reader skims past.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png",
+      "finding": "The mock-ups replace today's agent bylines ('journalist@PrompTugal.dinis', 'journalist-ai@web-summit.vicky, for Vicky Wang') with 'Vicky Wang's desk' or 'PrompTugal.news', so a reporter can no longer see who or which agent wrote each item.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png",
+      "finding": "The infographic's source labels ('Sebrae, 30 Sep', 'ApexBrasil, through Lusa, 4 Nov', 'ApexBrasil, through IOL') look like citations but nothing shows they link to the source pages, so the chart cannot be checked from the front page.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "minor",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop--full.png",
+      "finding": "'WHY WE ARE DIFFERENT' shows 'Reach. Mandate. Gap.' as three questions without saying it means sourced, signed facts, so the block does not explain the difference it is titled with.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/C--desktop.png",
+      "finding": "The three numbered points in 'Before the summit, in 30 seconds' carry no source links or dates, unlike the rest of the site's promise.",
+      "owner": "correspondent@"
+    },
+    {
+      "severity": "minor",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/C--desktop.png",
+      "finding": "'Play the briefing' does not say whether it is audio, how long it runs or whether the voice is AI-made.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/B--desktop.png",
+      "finding": "The grid gives the small cards ('84%', 'Up to 125', 'more than 70,000') no dates and illegible thumbnails, so nothing tells a reader which story is today's.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/mockups/A--desktop.png",
+      "finding": "The mock-ups drop today's 'Edition v0.1.140' and '4 days to the summit' line, which a reporter would use to cite which version of a page was read.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "/root/vaults/promptugal-synthetic/run-6/screens/front-desktop-s2.jpg",
+      "finding": "Today's LATEST list is a run of long italic paragraphs with dates and bylines inline, too dense to scan for a story at a glance.",
+      "owner": "designer@"
+    }
+  ]
+}

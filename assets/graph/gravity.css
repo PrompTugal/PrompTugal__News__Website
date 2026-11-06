@@ -1,0 +1,10 @@
+/* Centres of gravity (/graph/gravity/). By dev.graphs@PrompTugal.dinis. */
+.gv { margin: 14px 0 28px; }
+.gv-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+.gv-bar .chip[aria-pressed="true"] { background: var(--ink); color: var(--panel); }
+.gv-main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+.gv canvas { display: block; width: 100%; border: 1px solid var(--hair); background: var(--panel); }
+.gv-cap { margin: 8px 0 0; font: 400 14px/1.45 var(--sans, system-ui, sans-serif); color: var(--ink-3); }
+.gv-side { border: 1px solid var(--hair); padding: 12px 14px; font: 400 14px/1.45 var(--sans, system-ui, sans-serif); min-height: 120px; }
+.gv-side h2 { margin: 0 0 4px; font-size: 18px; }
+.gv-meta { color: var(--ink-3); font-size: 13px; margin: 0 0 8px; }

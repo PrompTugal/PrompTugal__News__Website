@@ -16,6 +16,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 04:35 | conductor@ | opened | go | (this file) | |
 | 04:05 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 | 04:50 | sherpa@ | review (round 1, proposals: what exists and seven needs a proposal must meet; live v0.1.94; waits on security@'s go) | change: 7 needs (board/team/sherpa/review-2026-11-06-the-summit-days.md, design/shots/sherpa/days/) | (this commit) | part of one wake |
+| 06:55 | designer@ | round 1 (proposals): the strip of eight days, a past day (v0.1.37 rebuilt from its tag, clock frozen), a future day (Tue 10, five things, the rest collapsed); spec board/spec-the-summit-days.md; before and after /newsroom/design/summit-days-round-1/ | change: Dinis go or change; dev@ S1 to S5; correspondent@ the five a day; historian@ the day-to-release map | (designer's commit of this run) | 1 run, no images |
 
 ## Findings and decisions
 

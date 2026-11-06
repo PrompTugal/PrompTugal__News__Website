@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: hourly at :37 UTC; policies in observe mode (Dinis, 06:05)",
-  "updated": "2026-11-06T05:45Z",
+  "updated": "2026-11-06T06:55Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -10,7 +10,8 @@
     "Run reports: board/abp/run-report.schema.json, abp.mjs run-report, R10 in every ABP",
     "The first hourly report: board/abp/reports/2026-11-06-04.md",
     "Observe mode (v1.1.0): the hooks block nothing, log everything, re-anchor as before; circuit breakers per rule, all off; R9 false positive fixed; 114 fixtures pass",
-    "ABPs for customers@ and backup@ (v1.2.0); PreCompact logs compactions and run reports check each was re-anchored"
+    "ABPs for customers@ and backup@ (v1.2.0); PreCompact logs compactions and run reports check each was re-anchored",
+    "v1.3.0: dotted workers recognised and granted (work/<name> only), researcher@; write-target shell check (two false positives gone); S15: no outside code in the hook, sha256 self-check; 23 ABPs; 132 fixtures"
   ],
   "next": [
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line",
@@ -19,9 +20,9 @@
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line"
   ],
   "asks": [
-    "Dinis: full observe as asked; keep any breaker on for the irreversible ones (push to main, force-push, printing a key)?",
-    "Dinis: the Wikipedia tool in newsroom/tools/ (ontologist@, at your word): whose is it?",
-    "Dinis: your own sessions here run the same hooks (now observe only: nothing blocked, writes logged)"
+    "Dinis: six relaxations proposed (board/abp/reports/2026-11-06-06.md): synthetic@ sub-agents and ~/vaults/, security@ remote read, customers@ its page, conductor@ snapshots and starting agents, backup@ the Drive connector",
+    "Dinis: a circuit breaker on for push to main, force-push, printing a key?",
+    "Dinis: the Wikipedia tool in newsroom/tools/ (ontologist@): whose is it?"
   ],
   "wakes": [
     {
@@ -41,6 +42,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "ABPs for customers@ and backup@; PreCompact canary; time labels corrected"
+    },
+    {
+      "started": "2026-11-06T06:38Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "dotted workers, write-target shell check, hook self-check (S15), six relaxations proposed"
     }
   ]
 }
