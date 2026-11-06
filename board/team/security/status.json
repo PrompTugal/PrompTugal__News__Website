@@ -2,10 +2,11 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T16:40Z",
+ "updated": "2026-11-06T17:05Z",
  "reviewed_to": "HEAD at 16:05, the work/* branches, 29 transcripts to 16:10",
  "hold": false,
  "done": [
+  "17:05: S12's five re-issues verified (my new inbox opened without printing); S20 closed",
   "wake 16:05: 57 commits clean; the first transcript scan (29 sessions): the printed-secret class in five agents, one false positive; the messages map redrawn (75 signed inbox messages); the comms protocol read (S20, S21); the Algarve Evolution sprint post-reviewed",
   "wake 14:05: 13 commits clean; my inbox read: 13 messages, all signed and verified; three printed secrets as one class (S12) with my view on the decision page; librarian@'s blocked-tools bug answered (S18); pre-reviews: the passkey design (two blockers), reader feedback, the library's desk; views on two more decision pages",
   "at Dinis's word (12:30): the key rotation map (key-rotation.md); his decisions recorded (reviews/2026-11-06-1230-dinis-decisions.md) and sent, signed, to observability@, outreach@, abp@, devops@, journalist@ and the conductor; my sends logged as receipts (comms/sent.jsonl)",
@@ -37,14 +38,13 @@
   "S9": "decided by Dinis (04:45): vaults are ephemeral for now; a recovery vault he holds, later",
   "S10": "low: board times ahead of the clock (conductor@)",
   "S11": "medium: 39 acts claim Dinis's word, none signed (Dinis, conductor@, dev@)",
-  "S12": "five agents printed secrets (security@, designer@, accountant@, researcher@, customers@): five re-issues; scan at each wake",
+  "S12": "mostly done: five inboxes re-issued 16:55; the old vaults to retire (drain, delete on the server)",
   "S13": "accepted by Dinis 06:20: the conductor holds every vault key; my recommendation on record",
   "S14": "low: a schedule written into the wrong session (conductor@)",
   "S15": "high, half done: the hook loads no other code and checks its pin (abp@); the gate check on .claude/ commits is not built (dev@)",
   "S17": "granted by Dinis 12:30 (abp@ to write it)",
   "S18": "half done: sgit-ai pinned in the setup script (not hashed, deps unpinned, || true); the drain in the repo open",
   "S19": "SG_SEND_ACCESS_TOKEN in every session's environment (Dinis)",
-  "S20": "a named outsider's feelings in public guidance (conductor@)",
   "S21": "the gate's contact check misses board/ (dev@)"
  },
  "asks": [
@@ -114,7 +114,5 @@
   }
  ],
  "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",
- "blocks": [
-  "my inbox's re-issue (S12), asked of the conductor at 12:45"
- ]
+ "blocks": []
 }
