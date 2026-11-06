@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.83",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 03:30 UTC: no private CRM here, at Dinis's word; the SEO pass; blocked on who sends and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "f1abb8401"
+  },
+  {
     "version": "v0.1.82",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: sign in with the key the conductor issues, as a QR code (/login/)",
