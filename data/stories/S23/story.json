@@ -5,7 +5,7 @@
   "title": "Waste into value: AgroGrINTech and Seamoretech, two circular Portuguese startups",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:v-agrogrintech-pineapple-aquafeed",
     "evidence:r1255-16"
@@ -17,7 +17,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-06-1145.json",
-      "desks/journalist-vicky/drafts/S23-waste-into-value.md"
+      "desks/journalist-vicky/drafts/S23-waste-into-value.md",
+      "desks/reviewer-vicky/reviews/S23.md"
     ]
   },
   "assignee": "journalist-connections@PrompTugal.vicky",
@@ -25,9 +26,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S23-waste-into-value.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S23.md",
+      "verdict": "Fix first",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-06"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
     {
       "column": "idea",
@@ -40,6 +48,12 @@
       "at": "2026-11-06",
       "by": "journalist-connections@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S23-waste-into-value.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S23.md"
     }
   ]
 }
