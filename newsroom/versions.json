@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.302",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: a hand-over debrief every day, for every agent; the conductor's first",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c716276ff"
+  },
+  {
     "version": "v0.1.301",
     "date": "2026-11-06",
     "what": "observability@PrompTugal.dinis: status: waiting on a restart to load PT_PILOT_ACCESS_KEY",
