@@ -21,6 +21,17 @@ const te = new TextEncoder(), td = new TextDecoder()
 const subtle = () => globalThis.crypto.subtle
 export const API_KEY = /^sgk_[0-9a-f]{32}$/
 
+/** An issuer-signed object, as observability@'s claims_lib.py signs it: ECDSA P-256 over SHA-256 of the canonical JSON of
+ *  the object without "sig" (keys sorted, compact, UTF-8) and NO trailing newline (keys.js verifyStatement adds one, so it
+ *  is not used here); the signature is raw r||s in base64, which is what WebCrypto gives and takes. */
+const canonBytes = obj => { const { sig, ...rest } = obj; return te.encode(K.canon(rest)) }
+export async function verifySigned(obj, signPem) {
+    if (!obj || typeof obj.sig !== 'string') return false
+    let raw; try { raw = K.unb64(obj.sig) } catch (e) { return false }
+    return K.verifyBytes(signPem, raw, canonBytes(obj))
+}
+export const signSigned = async (obj, signPkcs8) => { const { sig, ...rest } = obj; return { ...rest, sig: K.b64(await K.signBytes(signPkcs8, canonBytes(rest))) } }
+
 /** HKDF-SHA256 over the API key's UTF-8 bytes (including its prefix), an empty salt, the info label above. */
 async function hkdf(apiKey, info, bytes) {
     const base = await subtle().importKey('raw', te.encode(apiKey), 'HKDF', false, ['deriveBits'])
@@ -44,11 +55,19 @@ export async function issuersFrom(pinned, keysJson) {
     return out
 }
 
+/** The issuer the site config (assets/obs/claims.json) carries: its signing PEM, accepted only if it hashes to its own pinned
+ *  fingerprint. Joined with issuersFrom() for the keys the register adds (a current and a next one). */
+export async function issuersFromConfig(cfg) {
+    const out = new Map(), i = cfg && cfg.issuer
+    if (i && i.sign && i.fingerprint && await K.fingerprint(i.sign) === i.fingerprint) out.set(i.fingerprint, { v: 1, sign: i.sign, signing_fingerprint: i.fingerprint })
+    return out
+}
+
 /** The pool file: kind pool, an issuer we pin, and that issuer's signature over the canonical bytes. */
 export async function verifyPool(pool, issuers) {
     if (!pool || pool.v !== 1 || pool.kind !== 'pool' || !Array.isArray(pool.entries)) return false
     const b = issuers.get(pool.issuer)
-    return !!b && await K.verifyStatement(pool, b.sign)
+    return !!b && await verifySigned(pool, b.sign)
 }
 export function pick(pool, rand = n => globalThis.crypto.getRandomValues(new Uint32Array(1))[0] % n) {
     const live = pool.entries.filter(e => API_KEY.test(e.api_key))
@@ -68,7 +87,7 @@ export async function openLicence(file, apiKey, { issuers, now = new Date() }) {
     if (lic.lookup !== lookup) throw new Error('the licence belongs to another path')
     const b = issuers.get(lic.issuer)
     if (!b) throw new Error('the licence is signed by an issuer this site does not pin')
-    if (!(await K.verifyStatement(lic, b.sign))) throw new Error('the issuer’s signature on the licence does not check')
+    if (!(await verifySigned(lic, b.sign))) throw new Error('the issuer’s signature on the licence does not check')
     if (lic.not_after && Date.parse(lic.not_after) <= now.getTime()) throw new Error('the licence has expired')
     if (!lic.access_key) throw new Error('the licence holds no access key')
     return lic
@@ -87,14 +106,19 @@ export function sealClaim(claim, agentBundle, reader) {
     return K.seal(agentBundle, JSON.stringify(claim), { sign: reader.private.sign, fingerprint: reader.bundle.signing_fingerprint })
 }
 
+/** The lane payload for the claim: base64 of the .enc text (the append lane's write body {append_token, payload}). */
+export const lanePayload = enc => btoa(enc)
+
 /** A mailbox message: sealed to the reader, the inner object signed by the issuer, its n the one asked for. */
-export async function openMailbox(enc, { reader, issuers, n }) {
+export async function openMailbox(file, { reader, issuers, n }) {
+    const enc = file && typeof file === 'object' ? file.envelope : file       // mailbox/<id>/<n>.json is {v:1, envelope}
+    if (!enc) throw new Error('not a mailbox file')
     const r = await K.unseal(reader.private.encrypt, enc)
     if (r.text == null) throw new Error('the message is not text')
     const m = JSON.parse(r.text)
     const b = issuers.get(m.issuer)
     if (!b) throw new Error('the message is signed by an issuer this site does not pin')
-    if (!(await K.verifyStatement(m, b.sign))) throw new Error('the issuer’s signature on the message does not check')
+    if (!(await verifySigned(m, b.sign))) throw new Error('the issuer’s signature on the message does not check')
     if (m.n !== n) throw new Error('the message is not number ' + n)
     return m
 }

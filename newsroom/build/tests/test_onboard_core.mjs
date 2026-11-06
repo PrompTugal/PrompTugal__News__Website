@@ -22,25 +22,25 @@ async function mintLicence(apiKey, issuer, o = {}) {
     const { lookup, kenc } = await O.derive(o.derivedFrom || apiKey)
     const inner = { v: 1, kind: 'licence', lookup: o.lookup || lookup, access_key: o.access_key ?? 'pilot-token-for-tests', access_key_name: 'pilot-shared-test', plan: 'pilot',
         limits: { vaults: 5, bytes: 104857600 }, issued: '2026-11-06T17:00:00Z', not_after: o.not_after || '2027-02-06T00:00:00Z', issuer: issuer.bundle.signing_fingerprint }
-    const signed = await K.signStatement(inner, (o.signWith || issuer).private.sign)
+    const signed = await O.signSigned(inner, (o.signWith || issuer).private.sign)
     const iv = globalThis.crypto.getRandomValues(new Uint8Array(12))
     const key = await subtle.importKey('raw', (await O.derive(o.encryptFor || apiKey)).kenc, 'AES-GCM', false, ['encrypt'])
     const c = new Uint8Array(await subtle.encrypt({ name: 'AES-GCM', iv, tagLength: 128 }, key, te.encode(JSON.stringify(signed))))
     return { path: `licences/${lookup}.json`, file: { v: 1, iv: K.b64(iv), c: K.b64(c) }, signed }
 }
-const mintPool = (issuer, keys, o = {}) => K.signStatement({ v: 1, kind: 'pool', issuer: o.issuer || issuer.bundle.signing_fingerprint, updated: '2026-11-06T17:00:00Z', entries: keys.map(k => ({ api_key: k, added: '2026-11-06T17:00:00Z' })) }, (o.signWith || issuer).private.sign)
+const mintPool = (issuer, keys, o = {}) => O.signSigned({ v: 1, kind: 'pool', issuer: o.issuer || issuer.bundle.signing_fingerprint, updated: '2026-11-06T17:00:00Z', entries: keys.map(k => ({ api_key: k, added: '2026-11-06T17:00:00Z' })) }, (o.signWith || issuer).private.sign)
 const mintMessage = async (issuer, reader, n, body = { api_key: 'sgk_' + '0'.repeat(32) }, o = {}) => {
-    const m = await K.signStatement({ v: 1, kind: 'welcome', n, in_reply_to: 'sha256:' + '1'.repeat(64), body, at: '2026-11-06T18:00:00Z', issuer: issuer.bundle.signing_fingerprint }, (o.signWith || issuer).private.sign)
-    return K.seal(reader.bundle, JSON.stringify(m), null)
+    const m = await O.signSigned({ v: 1, kind: 'welcome', n, in_reply_to: 'sha256:' + '1'.repeat(64), body, at: '2026-11-06T18:00:00Z', issuer: issuer.bundle.signing_fingerprint }, (o.signWith || issuer).private.sign)
+    return { v: 1, envelope: await K.seal(reader.bundle, JSON.stringify(m), null) }
 }
 
 if (process.argv.includes('--write-vectors')) {
     const issuer = await K.generate('issuer vector'), apiKey = 'sgk_00112233445566778899aabbccddeeff'
     const lic = await mintLicence(apiKey, issuer), d = await O.derive(apiKey)
     fs.writeFileSync(VEC, JSON.stringify({
-        about: ['Test vectors for the licence format ', '(board/spec-vault-onboarding.md), for the sweep agent to ', 'match: HKDF-SHA256 over the UTF-8 of ', 'the API key (prefix included), empty ', 'salt, the two info labels; AES-256-GCM, ', '12-byte IV, 128-bit tag appended to ', 'c, no AAD; the signature is ', 'ECDSA P-256 over SHA-256 of canonical ', 'JSON (keys sorted, compact, one newline ', 'at the end, sig left out). ', 'The issuer here is a throwaway ', 'key made for the vectors.'].join(''),
+        about: ['Test vectors for the licence format ', '(board/spec-vault-onboarding.md), for the sweep agent to ', 'match: HKDF-SHA256 over the UTF-8 of ', 'the API key (prefix included), empty ', 'salt, the two info labels; AES-256-GCM, ', '12-byte IV, 128-bit tag appended to ', 'c, no AAD; the signature is ', 'ECDSA P-256 over SHA-256 of canonical ', 'JSON (keys sorted, compact, no trailing ', 'newline, sig left out). ', 'The issuer here is a throwaway ', 'key made for the vectors.'].join(''),
         info: O.INFO, api_key: apiKey, lookup: d.lookup, kenc_hex: K.hex(d.kenc), issuer_sign_pem: issuer.bundle.sign, issuer_signing_fingerprint: issuer.bundle.signing_fingerprint,
-        licence_path: lic.path, licence_file: lic.file, licence_signed: lic.signed, canonical_bytes_utf8: K.canon((({ sig, ...r }) => r)(lic.signed)) + '\n',
+        licence_path: lic.path, licence_file: lic.file, licence_signed: lic.signed, canonical_bytes_utf8: K.canon((({ sig, ...r }) => r)(lic.signed)),
     }, null, 2) + '\n')
     console.log('wrote', VEC); process.exit(0)
 }
@@ -64,7 +64,7 @@ if (fs.existsSync(VEC)) {
     const bv = { v: 1, sign: v.issuer_sign_pem, encrypt: v.issuer_sign_pem, label: '', fingerprint: '', signing_fingerprint: v.issuer_signing_fingerprint }
     const iv = await O.issuersFrom([v.issuer_signing_fingerprint], { keys: [{ id: 'v', bundle: bv }] })
     const lic = await O.openLicence(v.licence_file, v.api_key, { issuers: iv, now: new Date('2026-12-01T00:00:00Z') })
-    check(lic.access_key && K.hex(te.encode(K.canon((({ sig, ...r }) => r)(lic)) + '\n')) === K.hex(te.encode(v.canonical_bytes_utf8)), 'vectors: licence opens, same canonical bytes')
+    check(lic.access_key && K.canon((({ sig, ...r }) => r)(lic)) === v.canonical_bytes_utf8, 'vectors: licence opens, same canonical bytes')
 } else check(false, 'vectors: assets/onboard/test-vectors.json is missing (node …/test_onboard_core.mjs --write-vectors)')
 
 // issuers
