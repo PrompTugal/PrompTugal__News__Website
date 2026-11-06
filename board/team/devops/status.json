@@ -1,0 +1,32 @@
+{
+  "agent": "devops@PrompTugal.dinis",
+  "focus": "The health, quality and performance of CI, the release and tag scripts, every tool in newsroom/tools/ and every scheduled task of this site.",
+  "state": "running: first run done; next wake at 04:14 UTC to watch the first releases with the new deploy retry",
+  "updated": "2026-11-06T04:00Z",
+  "done": [
+    "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as devops-promptugal; my row in data/newsroom/agents.json",
+    "board/team/devops/ROLE.md and this status",
+    "Health report board/team/devops/health-2026-11-06.md: the last 50 runs (42 success, 7 cancelled, 0 failed; median 65 s push to deployed), the 03:21 to 03:32 stall explained (v0.1.87's Pages deploy stuck in syncing_files until the 10 minute job timeout; five pushes dropped meanwhile), three worst problems with fixes",
+    "Problem 1 fixed: the Pages deploy waits at most 4 minutes, a stuck deployment is cancelled and deployed once more, else the job fails red; release.sh says which half is late and never reads a cached llms.txt"
+  ],
+  "next": [
+    "Watch the next releases; confirm the retry path the first time Pages sticks",
+    "Problem 3: tag_release.sh lists every agent commit a release carries and strips <role>@PrompTugal.dinis from the subject, once dev@ confirms who reads versions.json",
+    "Run and time every tool in newsroom/tools/ once; move the workflow's actions off Node 20 one at a time"
+  ],
+  "asks": [
+    "Dinis: none needed for problem 1. Problem 2 (GitHub Pages caches every file for 10 minutes): a CDN in front of Pages is your call on the domain; until then dev@ can make the pages revalidate their data and the badge say when a newer version is live"
+  ],
+  "handoffs": [
+    "dev@PrompTugal.dinis: problem 2 (a) and (b) in the health report: no-cache on in-page data fetches; a version badge that notices a newer live version",
+    "conductor@PrompTugal.dinis: board/schedule.json lists 8 tasks, the scheduler 14 (security, devops, sherpa, correspondent, accountant, librarian missing); observability's note is out of date"
+  ],
+  "wakes": [
+    {
+      "started": "2026-11-06T03:42Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "First run: key, ROLE.md, status, the health report, the deploy retry and release.sh's message"
+    }
+  ]
+}
