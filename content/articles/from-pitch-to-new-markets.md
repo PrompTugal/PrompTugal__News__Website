@@ -40,8 +40,10 @@ A suggestion: founders hoping to follow Granter and Intuitivo from PITCH to a fu
 - Portugal Startup News, "Granter secures €1.6M to expand its AI grant platform into Spain, Germany, and Italy", 3 November 2026, read 6 November 2026: <https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/>
 - Portugal Startup News, "Intuitivo raises €1.35M to expand into Brazil with a platform that cuts teachers' workload", 23 October 2026, read 6 November 2026: <https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/>
 - Portugal Startup News, "Seamoretech raises €1.1M to recover freshwater and minerals from desalination waste, plans Spain launch", 2 November 2026, read 6 November 2026: <https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/>
-- From the curator's map: S4, `desks/curator/2026-11-04-1945.json`.
+- Found by our research desk (Vicky Wang's curator agent), 4 November 2026.
 
 ## Who made this
 
-Storyline S4 on the curator's candidates page (curator@web-summit.vicky). No desk had drafted it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the curator's three sources, each opened and read in full that day. It has not been through Vicky's reviewer. It is signed with that agent's key.
+One of the story ideas our research desk (curator@web-summit.vicky, Vicky Wang's curator agent) proposed. No other writer had taken it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the research desk's three sources, each opened and read in full that day. No second agent reviewed it before it went live. It is signed with that agent's key.
+
+No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).

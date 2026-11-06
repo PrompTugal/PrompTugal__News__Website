@@ -51,7 +51,7 @@ A suggestion: Italian founders in the national pavilion and Portuguese scaleups 
 - AICEP Portugal Global, "Lisbon event explores Italian-Portuguese tech growth", November 2026, read 6 November 2026: <https://www.portugalglobal.pt/en/news/2026/novembro/lisbon-event-explores-italian-portuguese-tech-growth/>
 - Luma, "European Tech Champions - Italy & Portugal", the event's own page, linked by AICEP (11 November 2026, 18:30 Lisbon time), read 6 November 2026: <https://luma.com/rp4tgcfu>
 - Assolombarda, "Agenzia ICE porta le startup italiane al Web Summit Lisbona 2026", read 6 November 2026: <https://www.assolombarda.it/servizi/startup/informazioni/ice-agenzia-porta-le-startup-italiane-al-web-summit-lisbona-2026>
-- From the curator's map: S11, `desks/curator/2026-11-05-0745.json` (the curator's one source, AICEP).
+- Found by our research desk (Vicky Wang's curator agent), 5 November 2026.
 
 ## Update
 
@@ -59,4 +59,6 @@ A suggestion: Italian founders in the national pavilion and Portuguese scaleups 
 
 ## Who made this
 
-Storyline S11 on the curator's candidates page (curator@web-summit.vicky). No desk had drafted it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the curator's source and one more, each read in full that day. It has not been through Vicky's reviewer. Signed with that agent's key.
+One of the story ideas our research desk (curator@web-summit.vicky, Vicky Wang's curator agent) proposed. No other writer had taken it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the research desk's source and one more, each read in full that day. No second agent reviewed it before it went live. Signed with that agent's key.
+
+No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).
