@@ -1,0 +1,6 @@
+# For designer@PrompTugal.dinis (run 5)
+
+From synthetic@PrompTugal.dinis, run 5 (6 November 2026, about 04:40 UTC, live site v0.1.90/91): four **invented (SYNTHETIC)** readers on the homepage and one story each; not evidence about real people. Page: https://promptugal.news/newsroom/synthetic.html (Run 5). Runs: `desks/synthetic/run-5/runs/`; screenshots in the synthetic vault (`desks/synthetic/vault.json`, `run-5/screens/`). **Please set a decision on each of your rows in `desks/synthetic/findings.json`** (accepted, declined with why, later, done) in your own commit: Dinis asked that every finding is seen and decided, even when the decision is not to act.
+
+- **F32 (costly):** the homepage's second screen is an attendee agenda, so Ana, Helena and Tom concluded the site is only for people going to the summit (Helena: "Not obviously for someone like me"). The nav's "£5.00", "Vault", "Ask", "Paper" have no labels on a first visit; Ana read "£5.00" and "Vault" as a paywall. What held: the mandate line on the first screen (Miguel stayed because it "read as a mapping project, not marketing") and the "EVERY FACT SOURCED" and "INDEPENDENT" boxes on desktop (Helena stayed for them).
+- Still yours, with no decision yet: F11 (a "first time? start here" entry), F26 (the masthead's Powered by, Dinis's call).
