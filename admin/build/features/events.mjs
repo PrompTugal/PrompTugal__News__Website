@@ -6,6 +6,8 @@ import { companiesOfEvent } from '../lib/graph.mjs'
 export const order = 40
 
 const KIND = { summit: 'The summit', session: 'Session', pitch: 'PITCH', announcement: 'Press conference', 'night-summit': 'Night Summit', registration: 'Registration', 'side-event': 'Side event', festival: 'Festival' }
+const YEAR = d => (d && d.slice(0, 4) !== '2026' ? ` ${d.slice(0, 4)}` : '')   // past editions carry their year
+const isPast = e => e.date < '2026-01-01'
 const sortKey = e => `${e.date} ${e.time || '00:00'} ${e.title}`
 export const ORGANISER = { 'web-summit': 'Web Summit (the official programme)', other: 'Other organisers' }
 
@@ -22,7 +24,7 @@ function eventPage(ctx, e) {
     const chain = []; let at = e.place && ctx.store.get(e.place)
     while (at) { chain.push(refLink(ctx, rel, `place:${at.id}`)); at = at.located_in && ctx.store.get(at.located_in) }
     const rows = [
-        ['When', `${ctx.DAY(e.date)}${e.end_date ? ` to ${ctx.DAY(e.end_date)}` : ''}, ${timeText(e)} (Lisbon time)`],
+        ['When', `${ctx.DAY(e.date)}${YEAR(e.date)}${e.end_date ? ` to ${ctx.DAY(e.end_date)}${YEAR(e.end_date)}` : ''}, ${timeText(e)} (Lisbon time)`],
         ['Where', chain.length ? chain.join(', ') : cell(e.where || 'not given by the source')],
         ...(e.where && chain.length ? [['As the source puts it', cell(e.where)]] : []),
         ['Kind', KIND[e.kind] || e.kind],
@@ -55,7 +57,7 @@ function eventPage(ctx, e) {
         src: `data/events/${e.id}/event.json`, rel, type: 'event', date: day10(e.read_at),
         crumbs: [['events/index.html', 'Events'], [null, e.title]],
         title: e.title,
-        summary: `${KIND[e.kind] || e.kind}, ${ctx.DAY(e.date)}${e.time ? `, ${timeText(e)}` : ''}${e.where ? `, ${cell(e.where)}` : ''}. ${e.organiser === 'web-summit' ? 'Part of the official Web Summit programme.' : 'Not run by Web Summit.'}`,
+        summary: `${KIND[e.kind] || e.kind}, ${ctx.DAY(e.date)}${YEAR(e.date)}${e.time ? `, ${timeText(e)}` : ''}${e.where ? `, ${cell(e.where)}` : ''}. ${isPast(e) ? 'A past edition of Web Summit.' : e.organiser === 'web-summit' ? 'Part of the official Web Summit programme.' : 'Not run by Web Summit.'}`,
         md,
     }
 }
@@ -63,14 +65,17 @@ function eventPage(ctx, e) {
 export function pages(ctx) {
     const evs = ctx.store.events
     const official = evs.filter(e => e.organiser === 'web-summit' && e.part_of), other = evs.filter(e => e.organiser === 'other')
+    // past editions (data/events/web-summit-<city>-<year>/, hand-written by the ontologist): the summit's own earlier editions
+    const past = evs.filter(e => e.kind === 'summit' && e.organiser === 'web-summit' && !e.part_of && e.id !== 'web-summit-lisbon-2026').sort((a, b) => b.date.localeCompare(a.date))
     const rel = 'events/index.html'
+    const pastMd = past.length ? `\n\n## Past editions {#past}\n\nWeb Summit before 2026: ${plural(past.length, 'edition')}, in Dublin until 2015 and in Lisbon since 2016, each with its source.\n\n${slotList(past.map(e => `${refLink(ctx, rel, `event:${e.id}`)}: ${ctx.DAY(e.date)} to ${ctx.DAY(e.end_date || e.date)}${YEAR(e.end_date || e.date)}${e.where ? `, ${ctx.md.cell(e.where)}` : ''}`))}` : ''
     const index = {
         src: 'data/events/', rel, type: 'site', layout: 'wide', date: [...evs.map(e => day10(e.read_at))].sort().pop(),
         title: 'Events', summary: `Every event we know of in the week of Web Summit Lisbon 2026: the summit's official programme (${official.length}) and, apart from it, the events others run (${other.length}). By day, each with its source.`,
         md: `Two lists, kept apart: what [Web Summit](${ctx.link(rel, 'organisations/web-summit/index.html')}) itself runs, and what others run around it. Times are Lisbon time (UTC in November) and may change; each event's page links to where it was read. For the summit at a glance, see [the summit](${ctx.link(rel, 'summit/index.html')}); for one table of everything, [the agenda](${ctx.link(rel, 'summit/agenda.html')}).\n\n` +
             `::: seg-links\n${[...new Set(evs.filter(e => e.organiser === 'other' || e.part_of).map(e => e.date))].sort().map(d => `[${shortDay(d).replace(/ Nov$/, '')} · ${evs.filter(e => e.date === d && (e.organiser === 'other' || e.part_of)).length}](#${official.some(e => e.date === d) ? 'web-summit' : 'other'}-${d})`).join(' ')}\n:::\n\n` +
             `::: cols-8-4\n::: col day-sec\n## The official programme {#web-summit}\n\nOpening Night, Centre Stage and the stage sessions, PITCH, press conferences, Night Summit and registration: ${plural(official.length, 'event')}, all part of ${refLink(ctx, rel, 'event:web-summit-lisbon-2026')}. The full schedule has hundreds of sessions a day: see [websummit.com/schedule](https://websummit.com/schedule/).\n\n${byDay(ctx, rel, official)}\n:::\n` +
-            `::: col day-sec\n## Other events {#other}\n\nSide events (some listed on the summit's schedule but run by others), Portugal Tech Week, and conferences elsewhere in Portugal: ${plural(other.length, 'event')}. Not run by Web Summit.\n\n${byDay(ctx, rel, other)}\n:::\n:::`,
+            `::: col day-sec\n## Other events {#other}\n\nSide events (some listed on the summit's schedule but run by others), Portugal Tech Week, and conferences elsewhere in Portugal: ${plural(other.length, 'event')}. Not run by Web Summit.\n\n${byDay(ctx, rel, other)}\n:::\n:::` + pastMd,
     }
     return [index, ...evs.map(e => eventPage(ctx, e))]
 }
