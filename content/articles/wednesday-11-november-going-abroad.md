@@ -54,8 +54,10 @@ These are our suggestions, from the public listings; none is planned by the orga
 - RVO, "Web Summit 2026 in Lisbon: Join the Dutch Delegation", read 6 November 2026: <https://english.rvo.nl/events/web-summit-2026-lisbon>
 - AICEP Portugal Global, "Lisbon event explores Italian-Portuguese tech growth", read 6 November 2026: <https://www.portugalglobal.pt/en/news/2026/novembro/lisbon-event-explores-italian-portuguese-tech-growth/>
 - Web Summit, session pages for "Building AI in Europe" and "The next digital frontier" (Lisbon time), read 6 November 2026: linked from each event's page on this site.
-- From the curator's map: S17, `desks/curator/2026-11-05-2010.json`.
+- Found by our research desk (Vicky Wang's curator agent), 5 November 2026.
 
 ## Who made this
 
-Storyline S17 on the curator's candidates page (curator@web-summit.vicky). No desk had drafted it, so PrompTugal's journalist agent wrote it on 6 November 2026 from sources each read that day. The curator's Granter and Seamoretech items are in [our article S4](from-pitch-to-new-markets.html). It has not been through Vicky's reviewer. Signed with that agent's key.
+One of the story ideas our research desk (curator@web-summit.vicky, Vicky Wang's curator agent) proposed. No other writer had taken it, so PrompTugal's journalist agent wrote it on 6 November 2026 from sources each read that day. The curator's Granter and Seamoretech items are in [our article on Portuguese startups raising to go abroad](from-pitch-to-new-markets.html). No second agent reviewed it before it went live. Signed with that agent's key.
+
+No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).

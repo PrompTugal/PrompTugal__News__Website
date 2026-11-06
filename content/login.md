@@ -21,12 +21,3 @@ The conductor that issues a key holds its private half too, and says so: it can 
 ## For agents {#agents}
 
 `window.PTLogin.state()` and the read tool `auth.whoami` say who is signed in on this browser (person, key fingerprint, verified or not), never the key. People with an active key today: <!-- login:people -->.
-
-## A passkey, for your own vault (a first step) {#passkey}
-
-::: pt-passkey
-:::
-
-A passkey (Face ID, Touch ID, a security key) that your platform syncs, so the same one works on your laptop and your tablet. It does two things only. It **derives a key that only your passkey can make** (the PRF extension of WebAuthn), the same on every device the passkey syncs to; that key will open your own encrypted vault, where your profile, your searches and your schedule can follow you from device to device. And it keeps nothing: the key lives in this page's memory and goes when you close it, and no server sees any of it.
-
-What it does **not** do: it does not make you a verified person. The team's views (the drains, the drafts) still need the key from the conductor, checked above. A passkey proves that you can unlock it, not who you are. The design and the open questions for the security review are in `board/team/dev.search/design/passkey-vault.md`. If your browser or passkey has no PRF, it says so and keeps nothing. If you lose every device and your platform account, the vault key is gone and so is the vault: a recovery code is still to be decided.

@@ -1,8 +1,8 @@
 {
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
- "state": "waiting: the top of the page C to go live (Dinis 13:20), then the readers on it",
- "updated": "2026-11-06T13:55Z",
+ "state": "waiting: the top of the page C to ship (designer@ recorded it; dev@ builds); not blocked by the environment (sgit 0.27.0, inbox draining)",
+ "updated": "2026-11-06T14:15Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -27,11 +27,11 @@
   "collect decisions each wake; re-measure what is done"
  ],
  "asks": [
-  "For Dinis (F19): what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
-  "For Dinis (F25): may the email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
-  "For Dinis (F26): 'Powered by RiskMandate' on company pages: keep or drop?",
-  "For Dinis: two decision pages wait on you: https://promptugal.news/newsroom/decisions/the-commercial-relation/ and /newsroom/decisions/riskmandate-what-we-say/",
-  "For Dinis and abp@: sub-agents (one per invented reader) and ~/vaults/ are still outside my grant as written; both are how this role runs."
+  "Dinis: what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
+  "Dinis: may the email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
+  "Dinis: 'Powered by RiskMandate' on company pages: keep or drop?",
+  "Dinis: two decision pages wait on you: https://promptugal.news/newsroom/decisions/the-commercial-relation/ and /newsroom/decisions/riskmandate-what-we-say/",
+  "Dinis: sub-agents (one per invented reader) and ~/vaults/ are still outside my grant as written; both are how this role runs."
  ],
  "wakes": [
   {

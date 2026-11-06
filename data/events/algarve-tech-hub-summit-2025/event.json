@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "algarve-tech-hub-summit-2025",
+  "type": "event",
+  "title": "Algarve Tech Hub Summit 2025",
+  "kind": "conference",
+  "organiser": "other",
+  "our_pick": false,
+  "date": "2025-11-06",
+  "end_date": "2025-11-07",
+  "time": null,
+  "where": "Lagos",
+  "place": "place:lagos",
+  "organised_by": "organisation:university-of-algarve",
+  "speakers": [],
+  "source_url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+  "read_at": "2026-11-06T14:20Z",
+  "read_by": "researcher@PrompTugal.dinis",
+  "note": "Hand-written, a past event: co-organised by Algarve Evolution, the University of Algarve and Algarve STP (Portugal Startup News); over 500 participants (postal.pt). Returns in 2027, dates and venue not announced.",
+  "hosted_by": [
+    {
+      "org": "organisation:algarve-evolution",
+      "as_listed": "Algarve Evolution",
+      "source": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/"
+    },
+    {
+      "org": "organisation:algarve-stp",
+      "as_listed": "Algarve STP",
+      "source": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/"
+    }
+  ]
+}

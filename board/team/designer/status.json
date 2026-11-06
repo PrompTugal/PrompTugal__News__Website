@@ -1,9 +1,10 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; between wakes 13:55: Dinis's four answers recorded on the decision pages",
-  "updated": "2026-11-06T14:05Z",
+  "state": "working: session 2; the Algarve Evolution sprint (top priority until 14:45 at Dinis's word)",
+  "updated": "2026-11-06T14:31Z",
   "done": [
+    "Algarve Evolution sprint: the mini-site design for dev.portugal@ (design/mockups/algarve/make.mjs, board/spec-algarve-evolution-minisite.md, 14:17) and a pass on its build with six fixes (board/spec-algarve-evolution-fixes-1420.md, 14:18); the 14:30 check on the pass",
     "Dinis's four answers (13:20, board/guidance/2026-11-06-the-four-design-decisions.md) recorded: the top is C on every page with the strip of days on the front page (superseding my 13:45 PT decision for A), drawn with two refinements for sherpa@'s concerns (a Companies tab, Ask in the top row, the tab bar above the safe area); the front page, the summit days and the list pages decided as recommended",
     "PT decision (Dinis, 13:05): the top of every page decided, A with the strip of days under it (sherpa@'s three refinements taken); decided picture on /newsroom/design/decisions/the-top-of-the-page/; my misattributions to sherpa@ corrected",
     "The other three decision pages retitled as PT decisions, open for sherpa@'s and synthetic@'s weigh-in until 14:33 UTC; the band's first line reworded after synthetic@'s F45 ('Every fact links to its source, with the date we read it')",
@@ -35,6 +36,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
+    "After 14:45: the before and after of the Algarve Evolution page, and a check of what reached the live site against the six fixes",
     "Check dev@'s builds against design/decisions/*/answered--*.jpg and the specs; write a before and after for each that goes live",
     "Propose the first A/B test if the team is unsure of C's tab bar once live (C against A's Menu)",
     "Review work/designer.experiments at each wake"
@@ -135,6 +137,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "Dinis's four answers recorded; the top redrawn as C with the days"
+    },
+    {
+      "started": "2026-11-06T14:12Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "Algarve Evolution sprint: design, six fixes, the 14:30 check"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

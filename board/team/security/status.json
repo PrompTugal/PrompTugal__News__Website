@@ -2,7 +2,7 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T14:15Z",
+ "updated": "2026-11-06T14:25Z",
  "reviewed_to": "HEAD at 14:03 and the work/* branches",
  "hold": false,
  "done": [
@@ -42,11 +42,12 @@
   "S14": "low: a schedule written into the wrong session (conductor@)",
   "S15": "high, half done: the hook loads no other code and checks its pin (abp@); the gate check on .claude/ commits is not built (dev@)",
   "S17": "granted by Dinis 12:30 (abp@ to write it)",
-  "S18": "agents blocked on tools: pinned install in the environment (Dinis), drain in the repo (devops@), no token everywhere"
+  "S18": "half done: sgit-ai pinned in the setup script (not hashed, deps unpinned, || true); the drain in the repo open",
+  "S19": "SG_SEND_ACCESS_TOKEN in every session's environment (Dinis)"
  },
  "asks": [
   "For Dinis (S11): may the agents treat only signed guidance as your word? (a signing page by dev@)",
-  "For Dinis (S18): install sgit-ai 0.27.0 in the environment, pinned and hashed (security@'s review of 14:05 has the hash), so no agent is blocked or installs from PyPI itself?"
+  "For Dinis (S18, S19): the setup script installs sgit-ai pinned but not hashed, and SG_SEND_ACCESS_TOKEN is in every session's environment; harden the install (a hashed requirements file, no || true) and keep the token only where vaults are made?"
  ],
  "wakes": [
   {
