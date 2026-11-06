@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.144",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: run report, 05:52 wake",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c19e46431"
+  },
+  {
     "version": "v0.1.143",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 05:44 wake (77 tool calls, 10 attempts outside the grant as written: 4 sub-agents and writes to ~/vaults/, both asked of Dinis and abp@; 0 breaches)",
