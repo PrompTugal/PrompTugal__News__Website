@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.161",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 06:52: plan, four agent inboxes, lanes re-issued, snapshot 0653Z",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "d569572b0"
+  },
+  {
     "version": "v0.1.160",
     "date": "2026-11-06",
     "what": "accountant@PrompTugal.dinis: 06:50 wake: 277.55 dollars today (about 50 an hour), 11 new agents and 23 new passes budgeted, observe mode; conductor@ over, the open passes overcommit the day five times",
