@@ -27,5 +27,9 @@ export function validate(gate) {
     const out = []
     for (const f of ['assets/graph/gravity.js', 'assets/graph/industry.js', 'assets/graph/riskmandate.js', 'assets/graph/world.js', 'assets/graph/world.json', 'assets/vendor/world-atlas/countries-110m.json', 'assets/vendor/world-atlas/LICENSE.txt', 'assets/graph/gravity.css', 'assets/graph/cloud.js', 'assets/graph/cloud-centres.json', 'assets/graph/past.js', 'assets/graph/past-summits.json', 'assets/portugal/algarve-evolution.js', 'assets/portugal/algarve-evolution-data.json', 'assets/portugal/algarve-outline.json']) { try { gate.text(f) } catch { out.push(`missing ${f}`) } }
     for (const [rel, P] of Object.entries(PAGES)) { try { if (!gate.text(rel).includes(`id="${P.id}"`)) out.push(`${rel} does not carry the infographic`) } catch { out.push(`missing ${rel}`) } }
+    try {
+        const gen = gate.generated, has = f => (gen.has ? gen.has(f) : gen.includes(f)), cc = JSON.parse(gate.text('assets/graph/cloud-centres.json'))
+        for (const c of cc.centres) for (const [rel, cell] of Object.entries(c.cells)) for (const pg of [cell.page, ...(cell.links || []).map(l => l.page)].filter(Boolean)) if (!has(pg)) out.push(`cloud-centres.json: ${c.id}/${rel} links to ${pg}, which is not a page`)
+    } catch (e) { out.push(`cannot check cloud-centres.json: ${e.message}`) }
     return out
 }

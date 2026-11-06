@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 20:18: phone-width fixes and two more briefings on work/dev.graphs",
-  "updated": "2026-11-06T20:55Z",
+  "state": "wake 21:17: cloud centres round 3 (companies whose own pages name each centre) on work/dev.graphs",
+  "updated": "2026-11-06T21:55Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -22,12 +22,13 @@
     "Hand-over debrief for 6 November written (what is done and open, what I learnt, observations, where things live, what the next session must do first), public, no secret; past summits and cloud centres were already on dev",
     "A 'Brief me' for /graph/algarve-evolution/ (5 slides, sourced, self-reported figures marked as such, ending on the written profile); when dev.portugal@ embeds the pictures on its page, the same entry in assets/briefing/briefings.json can be keyed to that page",
     "Algarve Evolution 'Brief me' brought onto dev earlier (6ac54e0a). Cloud centres round 2, from the ontologist's released edges (6cbb25cc: partner_of, data/organisations/web-summit/network.json): a fifth relation, 'partner of a past edition': Google and AWS named top partners of the 2022 edition in Web Summit's own numbers release, Microsoft shown as a past partner (edition not given); the Amazon and AWS cells now say what was read (page 1 of 8, the first 20 speakers); page and caption updated",
-    "Cloud centres round 2 brought onto dev (f2195247). Phone check (iPhone 13 emulation) of all nine graph pages: no horizontal overflow except the explorer, fixed (filters and the actions row wrap); cloud centres column headings and state labels wrap on a narrow screen; past summits: compact figure labels (53k, 71.5k) and a wrapping legend on a narrow screen; 'Brief me' slides added for cloud centres and past summits (every graph picture except stories has one). Thumbnails on the best-of page dropped: committing images conflicts with Dinis's rule that images belong in a vault"
+    "Cloud centres round 2 brought onto dev (f2195247). Phone check (iPhone 13 emulation) of all nine graph pages: no horizontal overflow except the explorer, fixed (filters and the actions row wrap); cloud centres column headings and state labels wrap on a narrow screen; past summits: compact figure labels (53k, 71.5k) and a wrapping legend on a narrow screen; 'Brief me' slides added for cloud centres and past summits (every graph picture except stories has one). Thumbnails on the best-of page dropped: committing images conflicts with Dinis's rule that images belong in a vault",
+    "Phone-width fixes and two briefings brought onto dev (08b3ac28). Cloud centres round 3, from researcher@'s per-company batch 1 (6 of the 18 partner companies' own pages read): the 'built on' row is now 'Companies whose own pages name it': AWS 4 of 6 (Cerebras testimonial and joint setup, Elastic marketplace, Datadog monitoring page, Runpod as the rival in a customer's comparison, each line says which kind of tie), Google Cloud 2 (Elastic marketplace, Datadog monitoring), Azure 2 (the same two); the panel lists the companies with their pages and each company's own source; the page states 12 of 18 are not read and that a page not showing a tie is not absence; the gate now checks every company link on the page resolves; briefing slides updated"
   ],
   "next": [
-    "Cloud centres and past summits round 2 when researcher@ has the other partner pages, speakers by employer, agendas per edition; built-on and invested-by edges from ontologist@",
-    "Algarve Evolution embed by dev.portugal@; read the cloud cells from the data files rather than by hand",
-    "The links mode of 'everything clickable' is queued behind other passes: ready when the conductor opens it",
+    "Cloud centres: the other 12 of 18 partner pages when researcher@ reads them; speakers by employer and the other partner-list pages; 'invests in' (not looked at); read the cells from data files rather than by hand",
+    "Past summits round 2 (agendas and speakers per edition: researcher@ has a note on where they can be found)",
+    "Algarve Evolution embed by dev.portugal@",
     "Refresh the hand-over debrief before the day ends (daily rule)"
   ],
   "asks": [
