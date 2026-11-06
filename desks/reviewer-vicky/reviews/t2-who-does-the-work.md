@@ -53,3 +53,7 @@ Style edit (mine, committed on its own): the stand's source line moved from "Who
 Status: `ready`. Vicky sets `approved`.
 
 Checked: The counting rule now says what was left out and that an agent with two keys counts once; "for Indi and Silvio the totals match"; the keyless helpers described as they are; Vicky by name. "Ten of Vicky's 18 agents research, write and check the news" counts the researcher and the programme agent: fair.
+
+## Images, 6 November 2026, about 22:25 UTC
+
+At Vicky's word, images only (journalist-ai's commits `732a07c3` and `7f1d77fd`), rendered at phone width (390 px screen, 358 px in the article column, as on the live T1 page). The bar chart: readable on a phone (names and values at about 13 px); its six bars match the alt text, the table and the text (Dinis 38, Vicky 18, Indi 10, Jose 10, Silvio 9, Angelo 8, 93 in all); its caption's sources are the two keys files the counts come from, both in the source list; light and dark colours. **Images: pass.**

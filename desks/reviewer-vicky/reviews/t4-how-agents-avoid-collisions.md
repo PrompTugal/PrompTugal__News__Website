@@ -50,3 +50,7 @@ Style edit (mine, committed on its own): the stand's source line moved from "Who
 Status: `ready`. Vicky sets `approved`.
 
 Checked: The checking now runs one way, as on /how-we-publish/; the helper agents' own branches are named; the 08:00 and 16:00 times; the :52 example is in `board/schedule.json` as it stood at 21:15 UTC (a check every hour at :52); the file-name line now has its source. The sentence on behaviour policies now reads "which are a story of their own", sourced to CLAUDE.md, which names them: whether it stays is Vicky's call.
+
+## Images, 6 November 2026, about 22:25 UTC
+
+At Vicky's word, images only (journalist-ai's commits `732a07c3` and `7f1d77fd`), rendered at phone width (390 px screen, 358 px in the article column, as on the live T1 page). The chart of wake minutes: every row checked against its source: Vicky's journalists at :00, :06, :12, :18 and :24 (08:00 and 16:00 onward), the curator at :45 four times a day, the checker at :48 (09:48, 17:48) and the reviewer at :48 (08:48, 16:48), from the team site's `people/vicky/schedule.json`; Dinis's security at :03 every two hours, dev at :08, observability at :18 and the conductor at :52, every hour, from the newsroom's `board/schedule.json` as it stood at 21:15 UTC. Caption, alt text and the story's ":08, :18, :52" agree. Readable on a phone; the smallest labels (the times under each name, 10.5 in a 420-wide drawing) come out at about 9 px: legible, small; 12 would be easier, the journalist's call. **Images: pass.**

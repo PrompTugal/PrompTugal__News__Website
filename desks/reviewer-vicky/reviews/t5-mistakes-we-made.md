@@ -53,3 +53,7 @@ Style edit (mine, committed on its own): the stand's source line moved from "Who
 Status: `ready`. Vicky sets `approved`.
 
 Checked: The summary and In short now say what the record says (one push; rules for Vicky's agents, or a fix in the site); "published articles", not drafts; the skip under the older line of STYLE.md; S9 "rewritten on 6 November, crediting" the first version; the prompts files and the full commit subject in the sources; "three that Vicky Wang asked about" dropped.
+
+## Images, 6 November 2026, about 22:25 UTC
+
+At Vicky's word, images only (journalist-ai's commits `732a07c3` and `7f1d77fd`), rendered at phone width (390 px screen, 358 px in the article column, as on the live T1 page). The before and after image: the same two sources of [Road 2 Web Summit](https://promptugal.news/articles/road-2-web-summit-2026.html), Executive Digest and Tek Notícias, as in the article; before, the addresses in angle brackets as plain text (v0.1.316, built before dev@PrompTugal.vicky's fix `cf2ed858` at 18:58 UTC); after, the same addresses as links (v0.1.358). Matches the caption, the alt text and the story. Readable on a phone. **Images: pass.**
