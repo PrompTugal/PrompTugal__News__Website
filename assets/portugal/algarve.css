@@ -1,0 +1,36 @@
+/* The Algarve Evolution page: hero, tiles, left map, collapsible sections. Scoped to .ae. */
+.ae { max-width: 1180px; margin: 0 auto; }
+.ae.js ~ .toc, .ae.js .toc { display: none; }
+.ae-hero { padding: 8px 0 20px; border-bottom: 2px solid var(--ink); margin-bottom: 20px; }
+.ae-hero > p:first-child { font: 500 clamp(21px, 3vw, 30px)/1.3 var(--serif); max-width: 36em; margin: 4px 0 14px; }
+.ae-hero ul.ae-tiles { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--hair); }
+.ae-hero ul.ae-tiles > li { margin: 0; padding: 12px 12px 12px 0; border-bottom: 1px solid var(--hair); font: 600 12px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .06em; }
+.ae-hero ul.ae-tiles > li > strong { display: block; margin-bottom: 5px; font: 500 clamp(26px, 4vw, 38px)/1 var(--mono); letter-spacing: -.02em; text-transform: none; color: var(--brand); }
+.ae-hero ul.ae-tiles > li > em { display: block; margin-top: 3px; font: 400 12px/1.3 var(--sans); text-transform: none; letter-spacing: 0; font-style: normal; color: var(--ink-3); }
+.ae-map { margin: 0 0 18px; padding: 10px 0; border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); font: 400 15px/1.4 var(--sans); }
+.ae-map p { margin: 0 0 6px; font: 700 11.5px/1.4 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.ae-map ol { margin: 0; padding: 0; list-style: none; columns: 2; }
+.ae-map li { margin: 4px 0; break-inside: avoid; }
+.ae-map a { color: var(--ink); text-decoration: none; }
+.ae-map a:hover { color: var(--brand); text-decoration: underline; }
+.ae-sec { border-top: 1px solid var(--hair); padding: 2px 0 14px; scroll-margin-top: 16px; }
+.ae.js .ae-sec > h2 { cursor: pointer; display: flex; align-items: baseline; gap: 10px; }
+.ae.js .ae-sec > h2::after { content: "\2212"; margin-left: auto; font: 500 22px/1 var(--mono); color: var(--ink-3); }
+.ae.js .ae-sec.closed > h2::after { content: "+"; }
+.ae.js .ae-sec.closed > :not(h2) { display: none; }
+.ae img { max-width: 100%; height: auto; }
+.ae ul.ae-cards { list-style: none; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; margin: 8px 0 16px; }
+.ae ul.ae-cards > li { margin: 0; padding: 12px 14px; border: 1px solid var(--hair); border-top: 3px solid var(--brand); background: var(--paper-2); font: 400 15px/1.5 var(--sans); }
+.ae ul.ae-timeline { list-style: none; margin: 8px 0 16px; padding: 0 0 0 18px; border-left: 2px solid var(--ink); }
+.ae ul.ae-timeline > li { position: relative; margin: 0 0 14px; padding-left: 4px; font: 400 15.5px/1.5 var(--sans); }
+.ae ul.ae-timeline > li::before { content: ""; position: absolute; left: -25px; top: .5em; width: 10px; height: 10px; border-radius: 50%; background: var(--brand); }
+.ae ul.ae-timeline > li > strong:first-child { display: inline-block; min-width: 7em; font: 600 13px/1.5 var(--mono); color: var(--brand); }
+@media (min-width: 640px) { .ae-hero ul.ae-tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); } .ae ul.ae-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 960px) {
+    .ae.js { display: grid; grid-template-columns: 210px minmax(0, 1fr); column-gap: 36px; align-items: start; }
+    .ae.js > .ae-hero { grid-column: 1 / -1; }
+    .ae.js > .ae-map { grid-column: 1; grid-row: 2 / span 30; position: sticky; top: 16px; border-bottom: 0; margin: 0; }
+    .ae.js > .ae-map ol { columns: 1; }
+    .ae.js > .ae-sec { grid-column: 2; }
+    .ae ul.ae-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
