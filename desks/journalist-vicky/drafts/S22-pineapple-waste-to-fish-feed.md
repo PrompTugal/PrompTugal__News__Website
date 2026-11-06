@@ -32,7 +32,9 @@ The process builds on research at the [Portuguese Catholic University](../organi
 
 Next comes selling. So far AgroGrINTech has sold only small test batches to the food industry. In 2027 it aims to consolidate sales and sign its first supply contracts. Early in 2027 it plans to open an investment round for sales and international growth, and to grow its team of six.
 
-At the summit, investors following Portugal's circular economy and aquaculture could look out for AgroGrINTech and the Blue Bioeconomy Pact's companies.
+AgroGrINTech is not the only Portuguese startup turning waste into value. [Seamoretech](../organisations/seamoretech/index.html), a 2021 spin-off of the University of Porto's Faculty of Engineering, recovers freshwater and minerals from desalination brine and plans to launch in Spain in 2027 ([From the PITCH stage to new markets](from-pitch-to-new-markets.html)). Both build on university research.
+
+At the summit, investors following Portugal's circular economy and aquaculture could look out for both, and for the Blue Bioeconomy Pact's companies.
 
 ## What this does not claim
 
@@ -46,5 +48,6 @@ At the summit, investors following Portugal's circular economy and aquaculture c
 
 - [Pep4Fish, "O que sobra do ananás passa a alimentar peixes: AgroGrINTech arranca com unidade piloto em Portugal"](https://pep4fish.pt/2026/10/19/o-que-sobra-do-ananas-passa-a-alimentar-peixes-agrogrintech-arranca-com-unidade-piloto-em-portugal/), 19 October 2026, read 6 November 2026
 - [AICEP Portugal Global, "AgroGrINTech turns pineapple waste into aquafeed ingredient"](https://www.portugalglobal.pt/en/news/2026/novembro/agrogrintech-turns-pineapple-waste-into-aquafeed-ingredient/), 4 November 2026, read 6 November 2026
+- [Portugal Startup News, "Seamoretech raises €1.1M to recover freshwater and minerals from desalination waste, plans Spain launch"](https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/) (Seamoretech), 2 November 2026, read 6 November 2026
 - [AgroGrIN Tech, home page](https://www.agrogrintech.com) (the company's own spelling), read 6 November 2026
 - From the curator's map: S22, `desks/curator/README.md`
