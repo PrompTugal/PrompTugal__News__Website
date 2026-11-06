@@ -1,0 +1,1 @@
+# your-first-day-at-web-summit (S1): no problems. Checked 6 November 2026: its changes to the desk's draft ("security checks at entry") match Web Summit's venue page; all links open. Sources not clickable on the page: see README.
