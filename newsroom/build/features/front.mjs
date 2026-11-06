@@ -1,9 +1,26 @@
 // The front page "Now" (design/README.md, the front page): the lead story, the field tiles and what is on around the
 // summit next, as fills the prose places (content/index.md): <!-- front:lead -->, <!-- front:latest -->,
 // <!-- front:fields -->, <!-- front:around -->. Markdown with the design's class hooks; the twin reads as plain text.
+import fs from 'node:fs'
 import { articlesOf } from './articles.mjs'
 import { refLink, slotLine, slotList } from '../lib/present.mjs'
 export const order = 22
+
+// the designer's article images (design/infographics/out/, listed in index.json) and the words behind each
+// (articles.json): a thumb for a list, a card for the lead. An article with no image renders without a box.
+const OUT = 'design/infographics/out/'
+const read = f => { try { return JSON.parse(fs.readFileSync(new URL(`../../../${f}`, import.meta.url), 'utf8')) } catch { return null } }
+const have = new Set((read(OUT + 'index.json')?.images || []).map(i => i.file))
+const words = Object.fromEntries((read('design/infographics/articles.json')?.articles || []).map(a => [a.slug, a]))
+export const imageOf = (ctx, page, a, size) => {
+    const slug = a.rel.replace(/^articles\//, '').replace(/\.html$/, '')
+    const file = `${slug}--paper--${size}.png`
+    if (!have.has(file)) return ''
+    const w = words[slug]
+    const alt = (w ? `${w.short_title}: ${w.figure?.value ? w.figure.value + ' ' + w.figure.label : w.points?.[0]?.text}` : a.meta.title).replace(/[\[\]()]/g, '')
+    return `![${alt}](${ctx.link(page.rel, OUT + file)})`
+}
+const firstSentence = (t, max = 150) => { const s = (t.match(/^.*?[.!?](?=\s|$)/) || [t])[0]; return s.length > max ? s.slice(0, max - 1).replace(/\s+\S*$/, '') + '…' : s }
 
 const minutes = md => Math.max(1, Math.round(md.replace(/```[\s\S]*?```/g, '').split(/\s+/).filter(Boolean).length / 230))
 
@@ -11,13 +28,16 @@ export const fill = {
     'front:lead': (page, ctx) => {
         const a = articlesOf(ctx)[0]
         if (!a) return 'Our first article is on the way.'
-        const pic = (a.md.match(/```\n([\s\S]*?)\n```/) || [])[1]
-        return `{.kicker}\n${ctx.md.cell(a.meta.tags || 'News')}\n\n{.lead-hed}\n[${a.meta.title}](${ctx.link(page.rel, a.rel)})\n\n{.dek}\n${a.meta.summary}\n\n{.meta-line}\n${ctx.DAY(a.meta.date)} · ${a.meta.author} · ${minutes(a.md)} min read · signed` +
-            (pic ? `\n\n{.fig-thumb}\n\`\`\`\n${pic}\n\`\`\`` : '')
+        const img = imageOf(ctx, page, a, 'card')
+        return (img ? `{.lead-fig}\n[${img}](${ctx.link(page.rel, a.rel)})\n\n` : '') + `{.kicker}\n${ctx.md.cell(a.meta.tags || 'News')}\n\n{.lead-hed}\n[${a.meta.title}](${ctx.link(page.rel, a.rel)})\n\n{.dek}\n${a.meta.summary}\n\n{.meta-line}\n${ctx.DAY(a.meta.date)} · ${a.meta.author} · ${minutes(a.md)} min read · signed`
     },
     'front:latest': (page, ctx) => {
         const rest = articlesOf(ctx).slice(1)
-        return rest.length ? `{.rows}\n${rest.map(a => `- [${a.meta.title}](${ctx.link(page.rel, a.rel)}) *${a.meta.date}, ${a.meta.author}. ${a.meta.summary}*`).join('\n')}` : 'The next articles will appear here, newest first. Each is written from the desks\' research, fact-checked, and signed with the newsroom\'s key.'
+        const row = a => {
+            const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'thumb')
+            return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary)}* \`${[a.meta.beat, ctx.DAY(a.meta.date)].filter(Boolean).join(' · ')}\``
+        }
+        return rest.length ? `{.rows .news}\n${rest.map(row).join('\n')}` : 'The next articles will appear here, newest first. Each is written from the desks\' research, fact-checked, and signed with the newsroom\'s key.'
     },
     'front:fields': (page, ctx) => {
         const fields = ctx.store.topics.filter(t => t.kind === 'field').map(t => [t, ctx.store.companies.filter(c => c.category === t.category).length]).filter(x => x[1]).sort((a, b) => b[1] - a[1])
