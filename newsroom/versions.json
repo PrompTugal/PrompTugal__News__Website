@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.278",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 15:09: five worker branches on dev; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "dbdfea603"
+  },
+  {
     "version": "v0.1.277",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: Q1 live in v0.1.276; status and run report",
