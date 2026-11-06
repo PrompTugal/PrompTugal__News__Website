@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.170",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 07:53: Algarve live, pass order, synthetic decisions, two inboxes",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5a9e9b5aa"
+  },
+  {
     "version": "v0.1.169",
     "date": "2026-11-06",
     "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
