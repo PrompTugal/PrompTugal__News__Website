@@ -26,7 +26,10 @@ const now = () => new Date().toISOString().replace(/\.\d+Z$/, 'Z')
 
 // ---------- build ----------
 function build() {
-    for (const [role, r] of Object.entries(P.roles)) {
+    // the dotted workers (board/team/<role>.<speciality>/): their main role's paths, their own folder, work/<name> only
+    const workers = fs.readdirSync(path.join(ROOT, 'board', 'team')).filter(d => d.includes('.') && P.roles[d.split('.')[0]] && !P.roles[d])
+    const entries = [...Object.entries(P.roles), ...workers.map(wk => [wk, { ...P.roles[wk.split('.')[0]], focus: `a ${wk.split('.')[0]} worker (${wk.split('.').slice(1).join('.')}), on Sonnet: ${P.workers.about.split(': ')[1] || ''}`.replace(/\.$/, ''), relax_candidates: null, never: `pushes to dev or merges its own work (${wk.split('.')[0]}@ reviews it)` }])]
+    for (const [role, r] of entries) {
         const g = abp.grantOf({ kind: 'team', role, agent: `${role}@PrompTugal.dinis` }, P)
         const flags = [g.subagents && 'sub-agents (Agent, SendMessage) inside its own run', g.notify_dinis && 'a push notification to Dinis (PushNotification)', g.remote_read && "reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools)"].filter(Boolean)
         const md = `---
@@ -47,7 +50,7 @@ authority: Dinis Cruz, operator
 - **Writes (repository):** ${g.writes.map(w => '`' + w.replace('{role}', role) + '`').join(', ')}.
 - **Writes (outside):** ${P.common.writes_outside_repo.map(w => '`' + w.replace('{home}', '~') + '`').join(', ')} (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (\`${P.tools.github_repos.join('`, `')}\`); the cloud session's documentation and \`add_repo\` for reading.${flags.length ? '\n- **Also granted:** ' + flags.join('; ') + '.' : ''}
-- **Sends to:** ${g.send.map(h => '`' + h + '`').join(', ')} only (the agents' inboxes${g.send.length > 1 ? ', and the hosts named' : ''}). Release with \`AGENT=${role}@PrompTugal.dinis newsroom/tools/release.sh\`.
+- **Sends to:** ${g.send.map(h => '`' + h + '`').join(', ')} only (the agents' inboxes${g.send.length > 1 ? ', and the hosts named' : ''}). ${role.includes('.') ? `Push only to your branch: \`git push -u origin work/${role}\`; never \`release.sh\`, never \`dev\`.` : `Release with \`AGENT=${role}@PrompTugal.dinis newsroom/tools/release.sh\`.`}
 - **Never:** ${r.never}.
 
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
@@ -76,7 +79,7 @@ ${P.core.map(c => `- **${c.id}** ${c.rule} *(${c.barrier === 'hook' ? (P.mode ==
 `
         fs.writeFileSync(path.join(ROOT, 'board', 'abp', `${role}.md`), md)
     }
-    console.log(`abp build: ${Object.keys(P.roles).length} ABPs from policies.json v${P.version} (sha256:${P._sha})`)
+    console.log(`abp build: ${entries.length} ABPs from policies.json v${P.version} (sha256:${P._sha})`)
 }
 
 // ---------- test ----------
@@ -163,6 +166,23 @@ function test() {
         [T('dev'), bash('AGENT=dev@PrompTugal.dinis newsroom/tools/release.sh'), 'allow', 'own release'],
         [T('dev'), bash('AGENT=conductor@PrompTugal.dinis newsroom/tools/release.sh'), 'deny', 'release as another'],
         [T('conductor'), bash('cat > board/team/conductor/prompt.md <<EOF\nAGENT=customers@PrompTugal.dinis newsroom/tools/release.sh\nEOF'), 'allow', 'a prompt that mentions another release (R9 false positive, 06:00)'],
+        [T('dev.search'), w('assets/search/x.js'), 'allow', 'a dev worker writes dev paths'],
+        [T('dev.search'), w('board/team/dev.search/status.json'), 'allow', 'a worker writes its own folder'],
+        [T('dev.search'), w('content/articles/x.md'), 'deny', 'a dev worker writes an article'],
+        [T('dev.search'), bash('git push -u origin work/dev.search'), 'allow', 'a worker pushes its branch'],
+        [T('dev.search'), bash('git push origin dev'), 'deny', 'a worker pushes dev'],
+        [T('dev.search'), bash('git push origin work/dev.pages'), 'deny', "a worker pushes another's branch"],
+        [T('dev'), bash('git push origin work/dev.search'), 'deny', 'dev pushes a worker branch'],
+        [T('dev.search'), { tool_name: 'Agent', tool_input: {} }, 'deny', 'a worker starts a sub-agent'],
+        [T('dev'), w('board/runs/dev.verify/r.json', 'Write'), 'allow', "dev brings a worker's run report"],
+        [T('researcher'), bash('cp /root/.claude/projects/x/a.pdf /tmp/claude-0/s/pdf/'), 'allow', 'cp from ~/.claude into scratch (06:13 false positive)'],
+        [T('dev'), bash("python3 - <<'EOF'\np='newsroom/build/checks.mjs' # board/HOLD.md\nEOF"), 'allow', 'a heredoc that mentions HOLD (05:11 false positive)'],
+        [T('dev'), bash('cp /tmp/s.json .claude/settings.json'), 'deny', 'cp onto the hooks'],
+        [T('dev'), bash('cat x > .claude/hooks/abp.mjs'), 'deny', 'redirect onto the hook'],
+        [T('dev'), bash('cat .claude/settings.json > /tmp/s.json'), 'allow', 'copy the hooks out'],
+        [T('dev'), bash('git checkout -- .claude/settings.json'), 'deny', 'git checkout the hooks'],
+        [T('dev'), bash('echo x >> board/HOLD.md'), 'deny', 'append to HOLD'],
+        [T('dev'), bash('ls 2>&1 >/dev/null'), 'allow', 'redirects to /dev/null'],
         [T('dev'), bash('node pki-agent.mjs keygen --session --name conductor@PrompTugal.dinis'), 'deny', 'key in another name'],
         [T('dev'), bash('claude -p "do x"'), 'deny', 'claude CLI'],
         [T('dev'), bash('crontab -l'), 'deny', 'crontab'],
@@ -206,6 +226,8 @@ function test() {
         pol.breakers = { rules: { [rule]: { on: true, why: 'test' } } }
         fs.writeFileSync(path.join(d, 'board', 'abp', 'policies.json'), JSON.stringify(pol)); return d
     }
+    { const sc = abp.selfCheck(P); if (!sc.ok) { fail++; console.log(`FAIL the hook's sha256 ${sc.sha} is not the pin ${sc.pinned} in policies.json`) } }
+    { const w2 = abp.whoAmI(path.join(os.tmpdir(), 'abp-nokeys')); if (w2.kind !== 'unidentified') { fail++; console.log('FAIL no key store should be unidentified') } }
     const run = (mode, stdin, env = {}) => spawnSync('node', [HOOK, mode], { input: stdin, encoding: 'utf8', env: { ...process.env, CLAUDE_PROJECT_DIR: ROOT, ABP_LOG_DIR: path.join(os.tmpdir(), 'abp-test-log'), ...env }, timeout: 10000 })
     const proc = [
         ['pre-tool', JSON.stringify({ session_id: 't', tool_name: 'mcp__gmail__send', tool_input: {} }), r => r.status === 0 && (P.mode === 'observe' ? r.stdout === '' : /"permissionDecision":"deny"/.test(r.stdout)), `process: a connector ${P.mode === 'observe' ? 'observed, not blocked' : 'denied'}`],

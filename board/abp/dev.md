@@ -1,7 +1,7 @@
 ---
 title: "ABP: dev@PrompTugal.dinis"
 agent: dev@PrompTugal.dinis
-policy: board/abp/policies.json v1.2.0 (sha256:0cdcc6613d36c01b)
+policy: board/abp/policies.json v1.3.0 (sha256:ff545e59f636d8b5)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -13,7 +13,7 @@ authority: Dinis Cruz, operator
 ## Mandate (the grant)
 
 - **Focus:** newsroom/build/, newsroom/tools/, assets/ code, the gate, the features, the domain and CI.
-- **Writes (repository):** `board/team/dev/**`, `board/runs/dev/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `newsroom/build/**`, `newsroom/tools/**`, `assets/**`, `.github/workflows/*.yml`, `CNAME`, `content/login.md`, `content/newsroom/**`, `REALITY.md`, `data/site/**`.
+- **Writes (repository):** `board/team/dev/**`, `board/runs/dev/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `newsroom/build/**`, `newsroom/tools/**`, `assets/**`, `.github/workflows/*.yml`, `CNAME`, `content/login.md`, `content/newsroom/**`, `REALITY.md`, `data/site/**`, `board/team/dev.*/**`, `board/runs/dev.*/**`, `content/profile.md`, `content/graph/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=dev@PrompTugal.dinis newsroom/tools/release.sh`.
