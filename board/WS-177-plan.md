@@ -10,6 +10,12 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Dinis, about 03:05 UTC
+
+- **The team setup and his dashboard:** `board/the-team-setup.md`, modelled on the book team's. Every agent: `board/team/<role>/ROLE.md` and `status.json` at its next wake. ontologist@: their schemas (after the story schema). dev@: `/newsroom/dashboard/` (after the story board). observability@ and designer@ join it.
+- **The conductor's brief** goes to Dinis every three hours as an ASCII picture, or at once when something needs him.
+- **Dinis will send notes** on quality gates and going deep on stories; the conductor puts them in `board/guidance/` in his words and routes each to its agents.
+
 ## Wake at 02:52 UTC (site v0.1.78)
 
 - **done** designer@: the mandate above the fold on the front page and About (c28fe41; synthetic run 4 measured it); the business card final at proof 4 with Dinis's yes, and its print order at `/newsroom/orders/business-cards/` (5f10fb2, 5295e18). Next: the editorial board page.

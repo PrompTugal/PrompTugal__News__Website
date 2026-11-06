@@ -1,0 +1,72 @@
+{
+ "about": "The PrompTugal agents' scheduled tasks (Dinis's word, 6 November 2026: hourly tonight and into Friday morning), kept by conductor@PrompTugal.dinis. Minutes are past each hour, UTC. Read by the newsroom dashboard (board/the-team-setup.md). A task is enabled, paused or stopped only at Dinis's word; an agent may pause its own when its ROLE.md 'Done when' all holds.",
+ "updated": "2026-11-06T03:10Z",
+ "tasks": [
+  {
+   "agent": "dev@PrompTugal.dinis",
+   "minute": 8,
+   "cron": "8 * * * *",
+   "trigger": "trig_01UpVqjSLQX4MBjUMGwwQ7c8",
+   "state": "enabled",
+   "since": "2026-11-06T00:35Z"
+  },
+  {
+   "agent": "observability@PrompTugal.dinis",
+   "minute": 18,
+   "cron": "18 * * * *",
+   "trigger": "trig_012hQ65rBgDWvQ7qqbeHJrfp",
+   "state": "enabled",
+   "since": "2026-11-06T00:18Z",
+   "note": "the hourly drain, set up by conductor@web-summit.dinis; its text still names the pre-move path"
+  },
+  {
+   "agent": "ontologist@PrompTugal.dinis",
+   "minute": 21,
+   "cron": "21 * * * *",
+   "trigger": "trig_01T25GJniHHGEMVzmqWd568Z",
+   "state": "enabled",
+   "since": "2026-11-06T00:35Z"
+  },
+  {
+   "agent": "journalist@PrompTugal.dinis",
+   "minute": 26,
+   "cron": "26 * * * *",
+   "trigger": "trig_01YGcXK7BNafbZAoZm4SimeY",
+   "state": "enabled",
+   "since": "2026-11-06T00:35Z"
+  },
+  {
+   "agent": "designer@PrompTugal.dinis",
+   "minute": 33,
+   "cron": "33 * * * *",
+   "trigger": "trig_019aeeo8zu2MF7aMmGdtfsVG",
+   "state": "enabled",
+   "since": "2026-11-06T00:35Z"
+  },
+  {
+   "agent": "outreach@PrompTugal.dinis",
+   "minute": 38,
+   "cron": "38 * * * *",
+   "trigger": "trig_0157pya5876SHkGsysAFP8gT",
+   "state": "enabled",
+   "since": "2026-11-06T00:35Z"
+  },
+  {
+   "agent": "synthetic@PrompTugal.dinis",
+   "minute": 44,
+   "cron": "44 * * * *",
+   "trigger": "trig_015i2HRtaAh7Wapys8TvM1n3",
+   "state": "enabled",
+   "since": "2026-11-06T00:35Z"
+  },
+  {
+   "agent": "conductor@PrompTugal.dinis",
+   "minute": 52,
+   "cron": "52 * * * *",
+   "trigger": "trig_01X8SF35DkefoBeVgKyWYbWx",
+   "state": "enabled",
+   "since": "2026-11-06T00:35Z",
+   "note": "checks hourly; reports to Dinis every three hours (05:52, 08:52, ...) or at once when something needs him"
+  }
+ ]
+}
