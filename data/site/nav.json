@@ -126,6 +126,11 @@
     },
     {
       "column": "The newsroom",
+      "label": "Design review",
+      "href": "admin/design/home-review/index.html"
+    },
+    {
+      "column": "The newsroom",
       "label": "Our disclosure",
       "href": "about/participant.html"
     },
