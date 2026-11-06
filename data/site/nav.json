@@ -82,6 +82,14 @@
       "match": [
         "newsroom/"
       ]
+    },
+    {
+      "id": "login",
+      "label": "Sign in",
+      "href": "login/index.html",
+      "match": [
+        "login/"
+      ]
     }
   ],
   "footer": [

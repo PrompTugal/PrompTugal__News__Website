@@ -1,4 +1,6 @@
-// Copied from the team site's assets/keyring.js on 6 November 2026 by observability@PrompTugal.dinis (this site's own
+// Moved here from assets/obs/ by dev@PrompTugal.dinis (6 November 2026) for the sign-in feature: loaded on every page,
+// read by assets/login/login.js (/login/) and assets/obs/obs-view.js; the conductor issues keys with
+// newsroom/tools/person-key.mjs. Copied from the team site's assets/keyring.js on 6 November 2026 by observability@PrompTugal.dinis (this site's own
 // IndexedDB and name, window.PTKeyring; a key held on web-summit.sgit.ai is not seen here: another origin). Its header:
 // The person's key in this browser (Dinis, 3 November 2026): the key a conductor issues to its person
 // (admin/tools/person-key.mjs) arrives as a link whose #key= fragment carries it (a fragment never reaches a server).

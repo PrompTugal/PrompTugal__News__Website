@@ -3,7 +3,7 @@
 // the other website and see what they're doing from a data visualization and data mapping ... do the same thing
 // here"). It reads ONLY PrompTugal's public vault (data/newsroom/observability/vaults.json, here passed in data-*),
 // whose drain (newsroom/tools/obs/obs_drain.py with the team's obs_lets.py) writes the same latest/ files. Changed
-// here: the vault, this site's host and paths, the keyring (assets/obs/keyring.js, window.PTKeyring), Dinis as the one
+// here: the vault, this site's host and paths, the keyring (assets/login/keyring.js, window.PTKeyring, on every page; sign in at /login/), Dinis as the one
 // person the vault keys are sealed to (newsroom/observability/sealed/dinis.json), the data vault and its enum key from
 // those sealed keys, the vault library at assets/vendor/sg-vault/v0.2.3/ (the same files as the team's 2026-11-04
 // copy), and an "Open vault" button in the toolbar for a browser holding his key (Dinis, 6 November). Its own

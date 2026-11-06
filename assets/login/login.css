@@ -1,0 +1,21 @@
+/* Sign in (assets/login/login.js): the chip in #nr-tools, and the panel on /login/. Colours from assets/tokens.css. */
+.pt-login-chip { display: inline-flex; align-items: center; gap: .3em; padding: .2em .7em; border: 1px solid var(--rule); border-radius: 999px; font: inherit; font-size: var(--fs-ui, .85rem); color: var(--ink); background: var(--paper); text-decoration: none; white-space: nowrap }
+.pt-login-chip.ok { border-color: var(--ok, var(--brand-green)) }
+.pt-login-chip.warn { border-color: var(--warn) }
+.pt-login-chip:hover, .pt-login-chip:focus-visible { border-color: var(--ink) }
+#pt-login { margin: 1.5rem 0; max-width: var(--measure, 40rem) }
+.pt-login-state { border: 1px solid var(--rule); border-left: 4px solid var(--rule); padding: .8rem 1rem; background: var(--paper) }
+.pt-login-state.ok { border-left-color: var(--ok, var(--brand-green)) }
+.pt-login-state.warn { border-left-color: var(--warn) }
+.pt-login-state p { margin: .3rem 0 }
+.pt-login-who { font-size: 1.1em }
+.pt-login-meta { color: var(--ink-2, var(--ink)); font-size: var(--fs-meta, .85rem) }
+.pt-login-ways { margin-top: 1.2rem }
+.pt-login-ways h2 { margin: 0 0 .6rem }
+.pt-login-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: .8rem }
+#pt-login button { font: inherit; padding: .45em .9em; border: 1px solid var(--ink); border-radius: 4px; background: var(--paper); color: var(--ink); cursor: pointer }
+#pt-login button:hover, #pt-login button:focus-visible { background: var(--ink); color: var(--paper) }
+#pt-login textarea { display: block; width: 100%; box-sizing: border-box; margin: .3rem 0 .5rem; font-family: var(--mono, monospace); font-size: .85rem; padding: .4rem; border: 1px solid var(--rule); background: var(--paper); color: var(--ink) }
+.pt-login-video { display: block; width: 100%; max-width: 26rem; margin: .5rem 0 1rem; border: 1px solid var(--rule) }
+.pt-login-msg { min-height: 1.4em; color: var(--ink-2, var(--ink)) }
+.pt-login-video[hidden], #pt-login [hidden] { display: none }

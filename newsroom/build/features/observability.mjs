@@ -7,7 +7,7 @@
 //      traffic from the other one"), read live in the reader's browser from the public vault's published read key
 //      (data/newsroom/observability/vaults.json) by assets/obs/obs-view.js, the team site's explorer ported (overview,
 //      dashboard, graph of page flows, agents, pages, people, days and hours, Behind the scenes), with sgit.ai's vault
-//      reader (assets/vendor/sgit-ai/2026-11-05/vault-embed.js). A browser holding Dinis's key (assets/obs/keyring.js,
+//      reader (assets/vendor/sgit-ai/2026-11-05/vault-embed.js). A browser holding Dinis's key (assets/login/keyring.js, on every page since the sign-in feature,
 //      his public key in board/person-keys.json) opens the vault keys sealed to him: Open vault, and Drain.
 // The drain is newsroom/tools/obs/obs_drain.py (hourly); the agents log their runs with newsroom/tools/agent-log.mjs.
 // Everything here is public, at Dinis's word, and the page says so.
@@ -74,7 +74,7 @@ It signs the record with your session key, so the drain names you once its publi
         rel: REL, title: 'Observability: who reads what, and which agents ran', type: 'site', src: VAULTS, date: ctx.TODAY, toc: [],
         summary: 'Who reads promptugal.news and what its agents do: traffic by group and hour, pages, page-to-page flows, places, every agent\'s runs, read live in your browser from the public vault. Click anything. Public, at Dinis Cruz\'s word.',
         crumbs: [['newsroom/index.html', 'Control centre'], [null, 'Observability']],
-        assets: { css: ['assets/newsroom/newsroom.css'], js: ['assets/vendor/sgit-ai/2026-11-05/vault-embed.js', 'assets/obs/obs-view.js', 'assets/obs/keyring.js'] },
+        assets: { css: ['assets/newsroom/newsroom.css'], js: ['assets/vendor/sgit-ai/2026-11-05/vault-embed.js', 'assets/obs/obs-view.js'] },
         md, twinMd: twin,
         postHtml: html => html.replace('<p>@@OBS:0@@</p>', tabsHtml).replace('<p>@@OBS:1@@</p>', widget),
     }]
