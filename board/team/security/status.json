@@ -2,7 +2,7 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T03:52Z",
+ "updated": "2026-11-06T03:56Z",
  "reviewed_to": "2874e72",
  "hold": false,
  "done": [
@@ -12,9 +12,12 @@
   "the pre-review of the three open passes: go, with conditions, in each pass file"
  ],
  "next": [
-  "review every commit since 2874e72 at my next wake (:03, every two hours)",
+  "review every commit since 833e248 at my next wake (:03, every two hours)",
   "the post-review of each pass when its rounds end",
-  "standing work: who holds which key and which vault (a map), then the recovery plan if a session and its keys are lost"
+  "(a) a security section in the newsroom: threat models per asset and flow, vulnerabilities and gaps with severity and owner (where dev@ routes it)",
+  "(b) the agents' messages: every channel (cross-session messages, the inbox lanes, trailers, the board) counted and sized per sender, receiver and day",
+  "(c) the vaults: each vault, who holds which key (read, write, append), where it lives, and the recovery plan if its session ends",
+  "(d) the private keys: every agent's session key, Dinis's sign-in key and the person keys, where each private half lives; for Dinis, the risk of the conductor holding every vault key"
  ],
  "findings_open": {
   "S1": "medium: any same-origin script can use Dinis's key through PTKeyring; desks/ serves any file type (dev@)",
@@ -35,8 +38,9 @@
   {
    "started": "2026-11-06T03:42Z",
    "outcome": "ok",
-   "release": "",
+   "release": "v0.1.94",
    "line": "first run: key, ROLE.md, the first review (no hold; 4 medium, 4 low), pre-reviews of three passes: go with conditions"
   }
- ]
+ ],
+ "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work."
 }
