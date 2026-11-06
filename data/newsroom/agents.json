@@ -630,6 +630,28 @@
       "issues": [
         "WS-177"
       ]
+    },
+    {
+      "id": "security-promptugal",
+      "name": "security@PrompTugal.dinis",
+      "label": "PrompTugal's security agent",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T04:00:00Z",
+      "started_basis": "Dinis's word of 6 November 2026 (about 04:00 UTC): a security agent runs first and last in every pass (board/guidance/2026-11-06-design-and-passes.md, section 5); its first commits here are of 6 November.",
+      "role": "The pre-review and post-review of every pass; reviews of commits for keys, tokens, contact details, private data and harm; may write board/HOLD.md.",
+      "lands": [
+        "board/team/security/",
+        "board/HOLD.md"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is security-promptugal in board/keys.json (record sha256:2e768b7ad63c24df); not listed under keys here, as for the other PrompTugal agents. Added by security@PrompTugal.dinis itself, as its first-run prompt asked.",
+      "issues": [
+        "WS-177"
+      ]
     }
   ]
 }
