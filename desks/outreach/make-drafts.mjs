@@ -11,8 +11,8 @@ import crypto from 'node:crypto';
 const ROOT = process.cwd();
 const DESK = path.join(ROOT, 'desks/outreach');
 const SITE = 'https://promptugal.news';
-const DRAFTED = '2026-11-06T0200Z';
-const DRAFTED_ISO = '2026-11-06T02:00:00Z';
+const DRAFTED = '2026-11-06T0300Z';
+const DRAFTED_ISO = '2026-11-06T03:00:00Z';
 const THREAD = '2026-11-06-promptugal-page';
 const BY = 'outreach (PrompTugal.dinis)';
 
@@ -71,8 +71,31 @@ function hookPt(name, s, topic) {
   return `Diz o que a ${name} faz, a partir de páginas públicas, e junta-a às outras empresas em "${topic || 'o seu setor'}" na cimeira.`;
 }
 // The page's flows section is empty for every company (no flows mapped yet): the honest reason to reply.
-const flowsEn = name => `One section is still empty: ${the(name)}'s flows, how work moves through your product and where AI agents act in it. We map them only from public pages and never guess, so a few lines from you would get it right faster.`;
-const flowsPt = name => `Há uma secção ainda vazia: os fluxos da ${name}, como o trabalho passa pelo vosso produto e onde os agentes de IA atuam. Só os mapeamos a partir de páginas públicas, sem adivinhar; umas linhas vossas acertam mais depressa.`;
+// What the page knows beyond the summit: its mapped flows (data/companies/<id>/flows.json, the ontologist's) and the
+// published articles that link the company. Set per company before its messages are written.
+let cur = { flows: [], agentSteps: 0, articles: [] };
+function pageExtras(id) {
+  const f = path.join(ROOT, 'data/companies', id, 'flows.json');
+  const flows = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')).flows || [] : [];
+  const agentSteps = flows.reduce((n, x) => n + (x.steps || []).filter(st => st.agent).length, 0);
+  const articles = [];
+  const dir = path.join(ROOT, 'content/articles');
+  for (const a of fs.readdirSync(dir).filter(x => x.endsWith('.md') && x !== 'index.md')) {
+    const text = fs.readFileSync(path.join(dir, a), 'utf8');
+    if (!new RegExp(`companies/${id}/`).test(text) || !/^status:\s*published/m.test(text)) continue;
+    const title = (text.match(/^title:\s*"?(.*?)"?\s*$/m) || [])[1];
+    articles.push({ title, url: `${SITE}/articles/${a.replace(/\.md$/, '.html')}` });
+  }
+  return { flows, agentSteps, articles };
+}
+const articlesEn = () => cur.articles.length ? [`We have also written about it: "${cur.articles[0].title}"\n${cur.articles[0].url}`] : [];
+const articlesPt = () => cur.articles.length ? [`Também escrevemos sobre isto (em inglês): "${cur.articles[0].title}"\n${cur.articles[0].url}`] : [];
+const flowsEn = name => cur.flows.length
+  ? `The page maps ${cur.flows.length === 1 ? 'one of your flows' : `${cur.flows.length} of your flows`} from your public pages, starting with "${cur.flows[0].name}", and marks the ${cur.agentSteps} step${cur.agentSteps === 1 ? '' : 's'} where an AI agent acts. Did we get it right? A few lines from you would correct it.`
+  : `One section is still empty: ${the(name)}'s flows, how work moves through your product and where AI agents act in it. We map them only from public pages and never guess, so a few lines from you would get it right faster.`;
+const flowsPt = name => cur.flows.length
+  ? `A página mapeia ${cur.flows.length === 1 ? 'um dos vossos fluxos' : `${cur.flows.length} dos vossos fluxos`} a partir das vossas páginas públicas, a começar por "${cur.flows[0].name}", e marca os ${cur.agentSteps} passos em que um agente de IA atua. Acertámos? Umas linhas vossas corrigem-no.`
+  : `Há uma secção ainda vazia: os fluxos da ${name}, como o trabalho passa pelo vosso produto e onde os agentes de IA atuam. Só os mapeamos a partir de páginas públicas, sem adivinhar; umas linhas vossas acertam mais depressa.`;
 const OPT_EN = 'Answering is optional, and two lines in writing are as welcome as a call. If you would rather talk than publish, we can just talk.';
 const OPT_PT = 'Responder é opcional, e duas linhas por escrito valem tanto como uma chamada. Se preferirem conversar sem publicar, conversamos.';
 const WHEN_EN = 'in 15 minutes during the summit, 9 to 12 November';
@@ -107,10 +130,11 @@ function en(name, url, s, ask, editor, kind, topic) {
       `Ahead of Web Summit Lisbon, we have written a page about ${the(name)} on PrompTugal.news:\n${url}`,
       hookEn(name, s, topic),
       ...(kind === 'company' ? [flowsEn(name)] : []),
+      ...articlesEn(),
       `PrompTugal.news is a new newsroom from Portugal, for Europe, with one aim: to map the universe of AI in Portugal and the companies that come to it. Every fact on the page carries its source and the date we read it; if anything is wrong, reply and we correct it, dated.`,
       askEn(name, ask, kind),
       `Best regards,\n${editor}\nEditor, PrompTugal.news`,
-      `The team that makes PrompTugal.news also works on RiskMandate, so we are independent of Web Summit, not of RiskMandate; our disclosure says it in full: ${SITE}/about/participant.html`,
+      `PrompTugal.news belongs to a team that also works on RiskMandate, which sells Agent Behaviour Policies. So this is not independent coverage: we may write about companies the team hopes to meet or sell to. Our disclosure: ${SITE}/about/participant.html`,
       `Drafted by an AI agent, reviewed and sent by me. We found this address on your website; rather not hear from us? Reply and we will not write again.`,
     ].join('\n\n'),
     followup_1: `Hello again ${name} team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\n${url}\n\nBest regards,\n${editor}, PrompTugal.news`,
@@ -125,10 +149,11 @@ function pt(name, url, s, ask, editor, kind, topic) {
       `Antes da Web Summit Lisboa, escrevemos uma página sobre a ${name} no PrompTugal.news (por agora, a página está em inglês):\n${url}`,
       hookPt(name, s, topic),
       ...(kind === 'company' ? [flowsPt(name)] : []),
+      ...articlesPt(),
       `O PrompTugal.news é uma nova redação feita em Portugal, para a Europa, com um objetivo: mapear o universo da IA em Portugal e as empresas que cá vêm. Cada facto na página tem a sua fonte e a data em que o lemos; se algo estiver errado, respondam e corrigimos, com data.`,
       askPt(name, ask, kind),
       `Cumprimentos,\n${editor}\nEditor, PrompTugal.news`,
-      `A equipa que faz o PrompTugal.news também trabalha na RiskMandate: somos independentes da Web Summit, não da RiskMandate. A nossa declaração diz tudo (em inglês): ${SITE}/about/participant.html`,
+      `O PrompTugal.news pertence a uma equipa que também trabalha na RiskMandate, que vende Agent Behaviour Policies. Por isso, isto não é cobertura independente: podemos escrever sobre empresas que a equipa espera conhecer ou a quem espera vender. A nossa declaração (em inglês): ${SITE}/about/participant.html`,
       `Escrito por um agente de IA, revisto e enviado por mim. Encontrámos este endereço no vosso site; preferem não receber? Respondam e não voltamos a escrever.`,
     ].join('\n\n'),
     followup_1: `Olá novamente, equipa ${name},\n\nA Web Summit abre hoje à noite. A vossa página está aqui, e uma correção ou umas linhas vossas são bem-vindas toda a semana:\n${url}\n\nCumprimentos,\n${editor}, PrompTugal.news`,
@@ -140,7 +165,7 @@ function pt(name, url, s, ask, editor, kind, topic) {
 function eml(msg, lang, id, editor) {
   const subj = /^[\x20-\x7e]*$/.test(msg.subject) ? msg.subject : `=?UTF-8?B?${Buffer.from(msg.subject).toString('base64')}?=`;
   return [
-    `Date: Fri, 06 Nov 2026 02:00:00 +0000`,
+    `Date: Fri, 06 Nov 2026 03:00:00 +0000`,
     `Subject: ${subj}`,
     `X-PrompTugal-Draft: from ${editor} (proposed), to ${id}'s published channel; addresses filled by the sender`,
     `X-PrompTugal-Drafted-By: ${BY}`,
@@ -163,6 +188,7 @@ targets.forEach((t, i) => {
   const editor = editorFor(t, i);
   const kind = kindOf(t.id);
   const topic = topicOf(t.id);
+  cur = pageExtras(t.id);
   const dir = path.join(DESK, 'companies', t.id, 'comms', THREAD);
   fs.mkdirSync(dir, { recursive: true });
   const langs = t.language === 'pt' ? ['pt', 'en'] : ['en'];
@@ -196,7 +222,7 @@ targets.forEach((t, i) => {
     drafted_by: BY, drafted_on: '2026-11-06', messages,
   };
   fs.writeFileSync(path.join(dir, 'thread.json'), JSON.stringify(thread, null, 1) + '\n');
-  index.push({ rank: t.rank, id: t.id, company: c.name, priority: t.priority, ask: t.ask, kind, topic, languages: langs, editor, page: url, sessions: s.length, thread: `companies/${t.id}/comms/${THREAD}/` });
+  index.push({ rank: t.rank, id: t.id, company: c.name, priority: t.priority, ask: t.ask, kind, topic, flows: cur.flows.length, articles: cur.articles.map(a => a.url), languages: langs, editor, page: url, sessions: s.length, thread: `companies/${t.id}/comms/${THREAD}/` });
 });
 fs.writeFileSync(path.join(DESK, 'drafts.json'), JSON.stringify({
   about: 'The outreach drafts as PrompTugal.news, one thread per company, each leading with the company\'s page. Drafts only, for Dinis and Silvio to review; a person sends every email. Editors are proposed: Portuguese-language drafts to Dinis Cruz, the rest alternating Vicky Wang and Indi Gupte. Made by desks/outreach/make-drafts.mjs.',

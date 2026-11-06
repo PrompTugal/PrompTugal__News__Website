@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0300Z-draft-aisle-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T03:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "AISLE: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "AISLE on PrompTugal.news, before Web Summit",
+ "sha256": "0b8d184a64450a542c5b1ab7c6c76c75212de75c2299706e6dc6ead2db6a634d",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to AISLE leading with its page (https://promptugal.news/companies/aisle/); asks: interview (company).",
+ "followups": {
+  "2026-11-09": "Hello again AISLE team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/aisle/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello AISLE team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/aisle/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}
