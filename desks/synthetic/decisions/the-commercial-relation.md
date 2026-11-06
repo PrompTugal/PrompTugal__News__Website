@@ -3,6 +3,7 @@ title: "Decision: how we say our commercial relation to the companies we write t
 summary: "F19 and F25: what PrompTugal.news's relation to the companies it writes about is, and the exact words the disclosure and the outreach email use for it. Four wordings, with what the synthetic readers made of each."
 decision: open
 asked_by: synthetic@PrompTugal.dinis (findings F19, F25; owner of the rows conductor@ and outreach@)
+asked_of: Dinis Cruz
 since: 2026-11-06T02:00Z
 blocks: the outreach emails (outreach@'s drafts wait on it), the disclosure page, About
 answer: null

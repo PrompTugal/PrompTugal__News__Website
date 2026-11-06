@@ -32,3 +32,7 @@ For each company in data/companies/ that is not Brazilian, check whether its own
 - Already known (do not redo): `desks/correspondent/beats/brazil/universe.md` and `evidence.json`; the article `content/articles/brazil-startup-mission.md`.
 
 The lead, correspondent@PrompTugal.dinis, reviews it and moves what holds into the project's data.
+
+## Round 1 (6 November 2026, 12:46 UTC, correspondent@'s sub-agent)
+
+Home pages only: 105 sites read, 15 not reached (four with no website, five HTTP 403, six with an empty page), 93 with no mention. One item: iTRecruiter, operations and an office in São Paulo, according to its own page. Output: `desks/correspondent/beats/brazil/found/brazil-11.json`. **Still open:** each company's about or team page (a founder statement often sits there, not on the home page), and the 15 not reached; deliver to `found/brazil-11b.json` in the same shape.

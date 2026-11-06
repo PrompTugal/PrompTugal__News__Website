@@ -1,0 +1,29 @@
+---
+title: "Shelf list: GDN, Guidance (special) (part 7 of 7)"
+by: librarian@PrompTugal.dinis
+generated: "by library.mjs 0.1.0 from board/catalogue.json as generated 2026-11-06T13:22:03Z"
+site_version: "v0.1.256"
+source: board/catalogue.json
+---
+
+# Shelf list: GDN, Guidance (special) (part 7 of 7)
+
+11 cards, from `GDN.Q Q11` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+
+**Cards 601 to 611**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
+| `GDN.Q Q11` | [The 200 Brazilians "coming to Porto](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q12` | [customers@ "which I want to give a couple specific briefs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q13` | [how to become a publisher in Portugal](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q2` | [I'm going to give you a whole bunch of brief now on the quality gates and the sort of the research and going deep](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q3` | [I have a bunch of ideas on how to do this, but let's iterate](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q4` | [The only question is whether it gets captured and it gets saved](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q5` | [The user area's name ("you", "logged in", "user")](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q6` | [A graphs agent, "a roof.sgit agent ... or maybe we have both](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q7` | [a UX expert, you know, do we need that? You know, like, do we have enough coverage of these domains?](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q8` | [He named "news.sgit.ai" as the model for the articles page](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q9` | [Do we have those hourly articles](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+
+[Back to the shelf list](../shelf-list.md) | [Previous part](GDN-6.md)

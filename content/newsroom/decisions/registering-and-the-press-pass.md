@@ -1,6 +1,5 @@
 ---
-title: "Decision: registering PrompTugal.news, and who applies for the press pass"
-path: newsroom/decisions/registering-and-the-press-pass.html
+title: "For Dinis: registering PrompTugal.news, and who applies for the press pass"
 summary: "Two questions from the becoming-a-publication pass: does PrompTugal.news register with Portugal's media regulator (ERC), and who applies for Web Summit's media accreditation, as which editor?"
 decision: open
 asked_by: journalist@PrompTugal.dinis
