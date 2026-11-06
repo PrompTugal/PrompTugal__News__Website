@@ -11,7 +11,7 @@
 //   event 'pt:login' on window, with the state, whenever it changes; tool auth.whoami (read) on window.__tool.
 //
 // On every page: a small chip in #nr-tools once you are signed in. On /login/: the sign-in panel (.pt-login, a layout hook in content/login.md): scan the
-// QR code with the camera, choose a picture of it, or paste the link. QR codes are read with the browser's
+// QR code with the camera, choose or paste or drop a picture of it, or paste the link. QR codes are read with the browser's
 // BarcodeDetector where it has one, else with jsQR (assets/vendor/jsqr/1.4.0/, loaded only then).
 (() => {
     'use strict'
@@ -88,6 +88,7 @@
             st.person ? h('button', { type: 'button', class: 'pt-login-out', text: 'Sign out on this browser', onclick: () => signOut() }) : '',
         ]))
         if (st.verified) return
+        wirePaste()
         msg = h('p', { class: 'pt-login-msg', role: 'status' })
         const paste = h('textarea', { rows: '3', placeholder: 'https://promptugal.news/login/#key=…', autocomplete: 'off', spellcheck: 'false', 'aria-label': 'your sign-in link' })
         const file = h('input', { type: 'file', accept: 'image/*', hidden: '', onchange: () => file.files[0] && readImage(file.files[0]) })
@@ -97,14 +98,35 @@
             h('div', { class: 'pt-login-row' }, [
                 h('button', { type: 'button', text: 'Scan it with the camera', onclick: () => startCamera() }),
                 h('button', { type: 'button', text: 'Choose a picture of it', onclick: () => file.click() }), file,
+                h('button', { type: 'button', text: 'Paste the QR code', onclick: () => pasteFromClipboard() }),
             ]),
             video,
-            h('label', { text: 'Or paste the link the QR code holds:' }), paste,
+            h('label', { text: 'Or paste the QR code (a copied image: Ctrl or Cmd+V, or drop it here) or the link it holds:' }), paste,
             h('button', { type: 'button', text: 'Sign in', onclick: () => tryText(paste.value) }),
             msg,
         ]))
     }
     const say = t => { if (msg) msg.textContent = t }
+    // a QR code shared as an image: pasted (Ctrl or Cmd+V anywhere on the page), dropped, or read from the clipboard
+    const imageOf = items => { for (const it of items || []) { const f = it.kind === 'file' ? it.getAsFile() : it; if (f && /^image\//.test(f.type)) return f } return null }
+    let wired = false
+    function wirePaste() {
+        if (wired) return; wired = true
+        document.addEventListener('paste', e => { if (!panel || !document.contains(panel) || state.verified) return; const f = imageOf(e.clipboardData && e.clipboardData.items); if (f) { e.preventDefault(); readImage(f) } })
+        document.addEventListener('dragover', e => { if (panel && !state.verified && e.dataTransfer && [...e.dataTransfer.types].includes('Files')) e.preventDefault() })
+        document.addEventListener('drop', e => { if (!panel || state.verified) return; const f = imageOf(e.dataTransfer && e.dataTransfer.files); if (f) { e.preventDefault(); readImage(f) } })
+    }
+    async function pasteFromClipboard() {
+        if (!navigator.clipboard || !navigator.clipboard.read) return say('This browser does not let the page read the clipboard: press Ctrl or Cmd+V on this page instead.')
+        try {
+            for (const item of await navigator.clipboard.read()) {
+                const type = item.types.find(t => /^image\//.test(t))
+                if (type) return readImage(await item.getType(type))
+                if (item.types.includes('text/plain')) return tryText(await (await item.getType('text/plain')).text())
+            }
+            say('The clipboard holds no image or link. Copy the QR code first.')
+        } catch (e) { say('Could not read the clipboard (' + (e && e.message || e) + '). Press Ctrl or Cmd+V on this page instead.') }
+    }
     async function tryText(text) {
         if (!/key=|^[A-Za-z0-9_-]{100,}$/.test(String(text || '').trim())) return say('That is not a sign-in link: it should contain #key=.')
         say('Checking your key…')
