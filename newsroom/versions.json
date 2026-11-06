@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.113",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: Wikipedia, round 1: the Web Summit article as data at a pinned revision, where it meets our graph, five findings, the project and the brief",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ae93221b6"
+  },
+  {
     "version": "v0.1.112",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: abp@ in the schedule and the team setup; run reports to board/runs/ once its schema exists",
