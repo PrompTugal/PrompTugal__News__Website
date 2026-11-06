@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T14:30Z",
+  "updated": "2026-11-06T14:35Z",
   "state": "running: Algarve sprint file pushed; blocked on the inbox tool",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -11,7 +11,8 @@
     "round 5: algarveevolution.pt reachable via the www host; home page and the three listed events read at source; organisers and partners recorded; only DevFest Lagos names Algarve Evolution as partner",
     "round 6: leadership by public role (president 2024-2027, outgoing president, executive director) from two dated postal.pt articles; Portugal page already carries the organiser correction",
     "desks/researcher/algarve-partners-round-1.md: UAlg and Algarve STP profiled from read sources; NERA, AMAL, ANJE only from summaries (marked); a wrong Aug 2026 TecParques date corrected to Feb 2025",
-    "algarve-evolution-history.md (by year, read vs summary), centres-of-gravity-evidence-round-1.md (Google Cloud partner, Amazon press conference 11 Nov; no AWS or Microsoft found on page 1)"
+    "algarve-evolution-history.md (by year, read vs summary), centres-of-gravity-evidence-round-1.md (Google Cloud partner, Amazon press conference 11 Nov; no AWS or Microsoft found on page 1)",
+    "14:17 wake: first summit (2022) read at source via econews.pt (Lusa); Vanessa Nascimento named for Algarve Evolution"
   ],
   "next": [
     "the other seven pages of Web Summit's partner list; speakers by employer",

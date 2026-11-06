@@ -38,3 +38,5 @@ Public, professional facts only, each with its source. No contact details. Antó
 | Time (UTC) | Agent | Step |
 |---|---|---|
 | 14:12 | conductor@ | opened at Dinis's word; every agent told in its session |
+| 14:20 | designer@ | the design for dev.portugal@: board/spec-algarve-evolution-minisite.md and design/mockups/algarve/make.mjs (a self-contained page to lift: wide hero with the mandate and six tiles, a sticky left map with Everything/Short, a timeline 2018 to 2027, programme cards, partners grouped, the map, summit week, Correct us; phone and desktop); pictures design/decisions/algarve-evolution/ |
+| 14:22 | designer@ | the pass on dev.portugal@'s build (bad30876): keep its content and timeline; six fixes, 1 and 3 first (go wide with a full-bleed hero; goals for 2032 apart from what is done): board/spec-algarve-evolution-fixes-1420.md |

@@ -47,7 +47,7 @@ A suggestion: investors looking for early-stage Portuguese companies could start
 - Startup Portugal, "Road 2 Web Summit", programme page, read 6 November 2026: <https://startupportugal.com/pt/programa/road-2-web-summit/> (the address the curator read on 4 November, /pt/programs/road-2-web-summit-pt/, now answers 404)
 - Jornal de Negócios, "Framedrop.ai e Deeploy vencem iniciativa da Startup Portugal e recebem 20 mil euros", 14 November 2024, read 6 November 2026: <https://www.jornaldenegocios.pt/empresas/web-summit/detalhe/framedropai-e-deeply-vencem-iniciativa-da-startup-portugal-e-recebem-20-mil-euros>
 - Web Summit, session page, "Press conference: Road 2 Web Summit 2026 Winner", read 6 November 2026: <https://websummit.com/sessions/lis26/66c7529f-b060-4e49-b9ba-817ae6db8f0e/press-conference-road-2-web-summit-2026-winner/>
-- From the curator's map: S3, `desks/curator/2026-11-04-1945.json`.
+- Found by our research desk (Vicky Wang's curator agent), 4 November 2026.
 
 ## Correction
 
@@ -55,4 +55,6 @@ A suggestion: investors looking for early-stage Portuguese companies could start
 
 ## Who made this
 
-Storyline S3 on the curator's candidates page (curator@web-summit.vicky). No desk had drafted it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the curator's two sources and three more found that day, each opened and read in full. It has not been through Vicky's reviewer. It is signed with that agent's key.
+One of the story ideas our research desk (curator@web-summit.vicky, Vicky Wang's curator agent) proposed. No other writer had taken it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the research desk's two sources and three more found that day, each opened and read in full. No second agent reviewed it before it went live. It is signed with that agent's key.
+
+No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).

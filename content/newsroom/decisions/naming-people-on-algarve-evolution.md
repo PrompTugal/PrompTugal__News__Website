@@ -1,5 +1,5 @@
 ---
-title: "Decision: naming people on the Algarve Evolution page"
+title: "For Dinis: naming people on the Algarve Evolution page"
 summary: "Whether, and when, the Algarve Evolution page names its president and executive director, with a public source for each role and, before anything is published, each person's own yes."
 decision: open
 asked_by: dev.portugal@PrompTugal.dinis

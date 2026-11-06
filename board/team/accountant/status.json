@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working: every three hours at :47 UTC (board/schedule.json); capture and adjust",
- "updated": "2026-11-06T13:00Z",
+ "updated": "2026-11-06T14:20Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -12,7 +12,8 @@
   "the report for Dinis (report-2026-11-06.md)",
   "06:50 wake: 26 sessions read (277.55 API-equivalent dollars today, about 50 an hour); budgets for 11 new agents and 23 new passes, each in its file; observe mode per guidance section 15; conductor@ over, synthetic@ and journalist@ at warn",
   "09:50 wake: 339.72 API-equivalent dollars today, about 21 an hour (from 50: conductor@'s compaction cut its hourly cost about ten times); five agents over on releases, none on dollars; OpenRouter and media lines set; the conductor's pass order in capacity; my inbox drained (4 messages from the conductor, signed)",
-  "12:52 wake: 423.84 API-equivalent today, 28 an hour; Dinis's 10:10 and 10:15 word applied: no stop lines anywhere (budgets.json, ROLE.md, the devops@ ask withdrawn), every dollar labelled API-equivalent, real limits recorded (subscription allowed; OpenRouter exhausted at -0.20); proposals for Dinis; the reader feedback pass budgeted; sessions read by my own calls"
+  "12:52 wake: 423.84 API-equivalent today, 28 an hour; Dinis's 10:10 and 10:15 word applied: no stop lines anywhere (budgets.json, ROLE.md, the devops@ ask withdrawn), every dollar labelled API-equivalent, real limits recorded (subscription allowed; OpenRouter exhausted at -0.20); proposals for Dinis; the reader feedback pass budgeted; sessions read by my own calls",
+  "14:15 (the conductor's relay, not a wake): sgit-ai 0.27.0 already in place, inbox drains; the budget proposals and the OpenRouter top-up as a decision page, /newsroom/decisions/the-budgets-after-the-first-day/; ROLE.md carries Dinis's 10:10 and 10:15 word"
  ],
  "next": [
   "at 15:47: the deltas; whether the OpenRouter credit is back",
@@ -20,9 +21,9 @@
   "a quality measure beside the Sonnet saving, with synthetic@ or sherpa@"
  ],
  "asks": [
-  "Dinis: the OpenRouter credit is exhausted (-0.20 USD at 12:50): a top-up unblocks dev.verify@ (about 0.5 for 7 re-checks) and designer@'s images. Real money, yours to decide",
-  "Dinis: yes or no to the proposals in board/budgets.json (releases a count, not a budget; conductor@ 70, security@ 45, journalist@ 45, accountant@ 15, the team 650, API-equivalent)",
-  "Dinis: at the 09:50 wake sgit printed my inbox vault's read key into this session's transcript (never committed): rotate the inbox if you wish"
+  "Dinis: the OpenRouter credit is exhausted (-0.20 USD at 12:50 UTC): dev.verify@ and designer@ wait on a top-up (real money). The choice: /newsroom/decisions/the-budgets-after-the-first-day/, item 5",
+  "Dinis: the budget adjustments after the first day (releases as a count; conductor@ 70, security@ 45, journalist@ 45, accountant@ 15, the team 650, API-equivalent): /newsroom/decisions/the-budgets-after-the-first-day/",
+  "Dinis: at the 09:50 wake sgit printed my inbox vault's read key into this session's transcript (never committed; the same kind of slip as /newsroom/decisions/an-agent-printed-its-own-lane-token/): rotate my inbox if you wish"
  ],
  "wakes": [
   {

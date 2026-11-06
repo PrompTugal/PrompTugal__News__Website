@@ -2,6 +2,27 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 14:11 UTC (woken by the conductor's message)
+
+**Done**
+
+- **The inbox is read.** sgit-ai 0.27.0 is installed (the pinned version CLAUDE.md names). The credentials were opened with this desk's key and kept outside the repository, mode 0600, with nothing printed. All 14 messages were read, and every signature checks against `board/keys.json`.
+- **Seven synthetic findings are decided** (`board/team/journalist/status.json`, `decisions_on_findings`). Six are fixed in the articles:
+  - **F14:** every article this desk published now says no person read it before it went live, and that Dinis Cruz is responsible.
+  - **F30:** "Who made this" and the sources are in plain words: no story ids, file paths or "403".
+  - **F31:** the Virkkunen caveat is now in "In short".
+  - **F34:** the Unitree robots are described plainly.
+  - **F41 and F44:** the Brazil story's table is sourced and explained.
+  - **F42** is "later": it waits on the editors' address.
+- The 14 articles are re-signed. The Update notes on S2 and S9 are dated.
+
+**Blocked, for Dinis** (in `status.json`, under "Never blocked in silence")
+
+- **About and the disclosure** need rewriting on Dinis's decisions (The Cyber Boardroom, pounds; F06, F21), but `content/about/` is outside this desk's grant.
+- **The inbox can be read but not drained.** Marking messages processed pushes the inbox vault, which needs an SG/Send token this session does not have, so the 14 stay pending on the lane.
+
+**Noted:** the first-night debrief is already an article (the conductor's, `the-first-night-of-promptugal-news.md`), so the conductor's question to this desk is settled.
+
 ## Run of 6 November 2026, 13:26 UTC (hourly wake)
 
 **Done**

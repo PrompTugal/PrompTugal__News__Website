@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "running: hourly at :21 UTC; budgets are soft and in observe mode (Dinis, in this session, 6 November 2026: \"it is ok for an agent to do 20 commits (if relevant)\"), so I release each piece of work when it is ready",
-  "updated": "2026-11-06T14:30Z",
+  "updated": "2026-11-06T14:35Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -31,6 +31,7 @@
     "A crm field from each company to its record in the team CRM"
   ],
   "asks": [
+    "Dinis: may the Algarve Evolution data name its executive director (every public source names him)? The decision page is open: content/newsroom/decisions/naming-people-on-algarve-evolution.md. One line to fill once you say.",
     "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
     "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?"
   ],
