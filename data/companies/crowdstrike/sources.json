@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "CrowdStrike's Charlotte AI page and its FAQ, read 6 November 2026: an agentic AI security analyst on the Falcon platform; Detection Triage (a verdict, a confidence score, a recommendation and its reasoning); governance controls (role-based permissions, execution traces, audit logs, credit caps, configurable approvals); prebuilt agents limited by default to information, summaries and recommendations (the flow detection-triage)",
+      "kind": "other"
     }
   ]
 }
