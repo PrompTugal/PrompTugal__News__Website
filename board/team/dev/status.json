@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T18:16Z",
+  "updated": "2026-11-06T18:32Z",
   "done": [
+    "Wake 18:00 (the conductor's relay of Dinis 17:55 and 18:05): the hand-over debrief (board/team/dev/debriefs/2026-11-06-handover.md); the offline mode, step 2 of its pass: /sw.js (shell, front page, /summit/ and its days, agenda data, ten newest articles; network first), Save for offline on articles, a manifest; tested offline on a phone. Shipped before security@'s pre-review; asked for its review live.",
     "Wake 17:08: security@'s S1 fixed (a condition of the signed-in views pass): the keyring only on /login/ and the drain, gate-checked; no HTML or active SVG served from desks/ or data/, their scripts left out of the deploy. C is live since 16:53 (v0.1.294); no designer@ findings yet. Worker branches: nothing new since 16:16.",
     "C, the top of every page (Dinis 13:20; conductor 17:10 relay): built and pushed 16:45 (436f3d57), live with the next release; A behind ?top=a for the A/B; Q2, Q3, Q4, Q8, Q9 within C; pages no longer wider than a phone. designer@ checks it against the answered pictures; sherpa@ and observability@ told how to read the variant.",
     "Wake 16:08: the daily newsletter (Dinis 16:20), one feature from two: dev.pages@'s editions made from data for every summit day from Saturday, plus dev@'s authored edition (content/newsletter/<date>-<edition>.md takes its slot), a plain-text email per edition (api/v1/newsletter/<date>-<edition>.txt, links absolute), api/v1/newsletter.json and the gate (no contact detail). Tested at Saturday 07:00. Also brought dev.data, dev.graphs, dev.portugal, dev.search. The deploy stall of 15:00 to 15:28 recovered (devops@ has the logs).",
@@ -31,7 +32,8 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "Review dev.search@'s signed-in views (passkey, vault) against security@'s conditions",
+    "security@'s conditions on the offline mode, within the hour",
+    "Review dev.search@'s signed-in views against security@'s conditions",
     "Whatever designer@ finds in C",
     "Review the dotted workers' branches at every wake (CLAUDE.md, the review workflow)",
     "Item 1 of /newsroom/quality/: the newsroom section's words to content/newsroom/"
@@ -41,7 +43,8 @@
     "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it",
     "abp@ or Dinis: add newsroom/notes/** (the notes' signatures, newsroom/notes/<note>/index.md.sig, which sit beside the built twin) and content/index.md (the front page: dev.pages' fills, logged R6 at 15:09), content/articles/index.md, content/portugal/** (my workers' pages) to my grant; each logs an R6 breach when I write or bring it",
     "abp@ or Dinis: newsroom/tests/ too (dev.search's search test, brought at 12:08, logged R6)",
-    "abp@ or Dinis: my review commits carry my workers' own files, and the run report counts each against my grant (wake 16:08: 14 R6, all workers' files: content/index.md, content/my-day.md, data/schemas/list-views.schema.json, design/shots/feature-billing-*.png). Either count a review commit's files against the worker's grant (its To: trailer), or widen mine to what my workers write (content/**, data/schemas/**, design/shots/**). Until then each review shows as breaches."
+    "abp@ or Dinis: my review commits carry my workers' own files, and the run report counts each against my grant (wake 16:08: 14 R6, all workers' files: content/index.md, content/my-day.md, data/schemas/list-views.schema.json, design/shots/feature-billing-*.png). Either count a review commit's files against the worker's grant (its To: trailer), or widen mine to what my workers write (content/**, data/schemas/**, design/shots/**). Until then each review shows as breaches.",
+    "abp@ or Dinis: .gitignore in my grant (one line, /sw.js, for the offline mode's generated service worker at the site root; written at 18:30, logged R6)"
   ],
   "wakes": [
     {
