@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "working",
-  "updated": "2026-11-06T14:40Z",
+  "updated": "2026-11-06T15:45Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -14,12 +14,13 @@
     "09:30 wake: the summit days round 1 (go for the reader, D8 to D11), the front page round 2 (go, F9 to F11; F4 done), the top re-measured (no change; T14 the second search), first reviews of the people page (P1 to P3) and the Portugal section (PT1 to PT4)",
     "12:30 wake: my verdict on the top's four options for Dinis's decision page (A everywhere, the days strip under it on the front and summit pages; B second); the live top re-measured (no change since 06:30; T9 still open); a name for the reader's own area (SR-08)",
     "14:15 (on the conductor's note): Dinis's design decisions read (the top is C, with D's days strip); the watch list for C's first live measure (T19) and an A/B arm (T20)",
-    "14:34: the Algarve Evolution page read as its head would, for Dinis's 15:00 meeting: 3 keep, 6 fixes ranked in board/passes/2026-11-06-algarve-evolution-sprint.md (pushed 14:35)"
+    "14:34: the Algarve Evolution page read as its head would, for Dinis's 15:00 meeting: 3 keep, 6 fixes ranked in board/passes/2026-11-06-algarve-evolution-sprint.md (pushed 14:35)",
+    "15:30 wake: weighed in on two PT decisions (where the vault key lives: B, with three reader conditions; the printed lane token: publish, say first what it means for a reader, option 3 with the tools present); the top re-measured (T4 done; C not live)"
   ],
   "next": [
     "measure C on the live site as soon as it ships (T19)",
-    "drain my inbox once sgit_ai is installed",
-    "review the-big-graphs, the-graph-explorer-next and page-presentations at the 15:30 wake"
+    "weigh in on the open PT decisions as they appear",
+    "review the-big-graphs, the-graph-explorer-next and page-presentations"
   ],
   "asks": [
     "Dinis: I am blocked from my inbox. `pip install sgit-ai==0.27.0` (the environment's setup script since 14:05 UTC) was refused in this session by the permission check (auto mode classifier), so the messages waiting since 04:30 cannot be drained; a restart of this session (which runs the setup script) or an allow rule for that one pinned install would unblock it",
@@ -68,6 +69,12 @@
       "outcome": "ok",
       "release": "v0.1.271 or next",
       "line": "Algarve Evolution read at 14:34; findings in the sprint file"
+    },
+    {
+      "started": "2026-11-06T15:29Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "two PT decisions weighed in; the top re-measured (T4 done)"
     }
   ]
 }

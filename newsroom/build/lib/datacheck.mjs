@@ -38,6 +38,7 @@ export const KINDS = [
     [/^data\/wikipedia\/[^/]+\/tables\.json$/, 'wikipedia-tables'],
     [/^data\/wikipedia\/[^/]+\/links\.json$/, 'wikipedia-links'],
     [/^data\/wikipedia\/[^/]+\/meets\.json$/, 'wikipedia-meets'],
+    [/^data\/concepts\.json$/, 'concepts'],
     [/^data\/matching\.json$/, 'matching'],
     [/^data\/ontology\.json$/, 'ontology'],
     [/^data\/site\/site\.json$/, 'site'],
@@ -164,6 +165,8 @@ export function checkData() {
         const local = new Set([...n.programmes, ...n.roles].map(x => x.id)), vs = new Set([...s.ontology.verbs.map(v => v.verb), ...(n.verbs || []).map(v => v.verb)])
         for (const e of n.edges) { if (!vs.has(e.verb)) errors.push(`${w}: verb ${e.verb}`); for (const r of [e.from, e.to]) /^(programme|role):/.test(r) ? (local.has(r) || errors.push(`${w}: ${r}`)) : need(w, r) }
     }
+    // the concepts: ids unique, every see path exists
+    if (fs.existsSync(R('data/concepts.json'))) { const cs = JSON.parse(fs.readFileSync(R('data/concepts.json'), 'utf8')).concepts, ids = new Set(); for (const x of cs) { if (ids.has(x.id)) errors.push(`data/concepts.json: ${x.id} twice`); ids.add(x.id); for (const p of x.see || []) if (!fs.existsSync(R(p))) errors.push(`data/concepts.json: ${x.id} sees ${p}`) } }
     // no social handle in what we publish about a person (the derivation drops them; this catches a hand edit)
     const HANDLE = /(^|[\s(,;])@[A-Za-z0-9_]{2,}/
     for (const p of s.people) for (const v of [p.role, p.organisation, ...p.listings.flatMap(l => [l.role, l.organisation])]) if (v && HANDLE.test(v)) errors.push(`data/people/${p.id}: a social handle in "${v}"`)

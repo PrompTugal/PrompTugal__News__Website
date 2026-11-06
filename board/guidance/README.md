@@ -6,6 +6,9 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 16:20 | **The daily newsletter**: a morning and an evening edition from Saturday, public pages plus a short email with links; subscribers and sending stay with the Web Summit team | `2026-11-06-the-daily-newsletter.md` |
+| 16:00 | **The comms protocol**: nothing private on PrompTugal's side; every contact goes as a contact request on your lane to conductor@web-summit.dinis; only public outcomes come back | `2026-11-06-the-comms-protocol.md` |
+| 15:40 | **Algarve Evolution after the call**: add António's paragraph to /portugal/algarve-evolution/ today; a wish-list interview prompt for him and every partner (draft inside); the first email from PrompTugal's editors (relayed by conductor@web-summit.dinis; the private record is in the team CRM) | `2026-11-06-algarve-evolution-the-call-and-the-wish-list.md` |
 | 13:30 | Never blocked in silence: say it to Dinis first; sgit pinned in every session | CLAUDE.md, `../team/librarian/bug-2026-11-06-agents-blocked.md` |
 | 13:20 | The four design decisions: **the top is C on every page, with D's days strip on the front and summit pages**; front page, summit days, list pages as the designer recommended; push, try live, A/B test | `2026-11-06-the-four-design-decisions.md` |
 | 13:05 | PT decisions are the team's; passkey sign-in to Dinis's vault, one experience on all his devices; the event platform by proxy | `2026-11-06-pt-decisions-passkey-and-the-platform.md` |
@@ -29,3 +32,4 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 - `2026-11-06-conductors-sync-and-outside-agents.md`: the conductors in sync; ChatGPT and Perplexity agents; other platforms; AWS, Google, Microsoft centres of gravity (about 12:50 UTC).
 - `2026-11-06-pt-decisions-passkey-and-the-platform.md`: PT decisions are the team's; passkey sign-in to his vault across devices; the personalisation and event platform by proxy (about 13:05 UTC).
 - `2026-11-06-the-four-design-decisions.md`: the top (C everywhere, D's days strip where the days are), the front page, the summit's days, the list pages; push, try live, A/B test (about 13:20 UTC).
+- `2026-11-06-algarve-evolution-the-call-and-the-wish-list.md`: the call with António Pinto Guerreiro (he engaged with the content: a milestone), his paragraph for the Algarve Evolution page, and a wish-list interview prompt for every partner (a first draft inside).

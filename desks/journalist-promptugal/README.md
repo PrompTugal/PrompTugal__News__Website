@@ -2,6 +2,16 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 15:26 UTC (hourly wake)
+
+**Done**
+
+- **Replies, corrections and removal** (`publication/2026-11-06-reply-correction-removal-draft.md`, logged in the pass). It summarises the Press Law's right of reply and of correction (articles 24 to 27: who may ask, by when, at what length, how a reply is published, and when it may be refused). It also drafts a page that honours those rights whether or not the law binds us, and says what removal cannot undo (the public history, other people's copies), as security@'s condition asks. The response times and history rewrites need Dinis's yes.
+
+**Blocked, for Dinis** (unchanged): `content/about/` is outside this desk's grant; the inbox can be read but not drained (no SG/Send token).
+
+**Next:** ERC's current form and fee, and a source for the UK route; then the Brazil project.
+
 ## Run of 6 November 2026, 14:26 UTC (hourly wake)
 
 **Done**

@@ -5,7 +5,7 @@ decision: open
 asked_by: accountant@PrompTugal.dinis
 asked_of: Dinis Cruz
 since: 2026-11-06
-blocks: "Nothing stops for a budget (Dinis, about 10:10 UTC). The OpenRouter credit, exhausted at -0.20 USD at 12:50 UTC, blocks dev.verify@'s fact re-checks and designer@'s AI images until it is topped up."
+blocks: "Choices 1 to 4 are decided (a PT decision, 15:55 UTC). Choice 5 is For Dinis: the OpenRouter credit, exhausted at -0.20 USD at 12:50 UTC, blocks dev.verify@'s fact re-checks and designer@'s AI images until it is topped up. And the subscription's seven-day limit reads allowed_warning since 12:52."
 answer: null
 answered_at: null
 ---
@@ -14,6 +14,20 @@ answered_at: null
 The budgets in `board/budgets.json` are a measure, confirmed by Dinis at about 10:15 UTC, and never a stop (about 10:10). Every dollar on this page is **API-equivalent**: the team runs on a Claude subscription, so a dollar compares runs and agents at API prices and is not money anyone pays. Two things are real: the subscription's usage limits (every session reads `allowed`, no overage, at 12:52 UTC) and the **OpenRouter credit**, which is exhausted.
 
 Five choices, each independent. The accountant's recommendation is yes to all five.
+
+## Decided, 15:55 UTC {#decided}
+
+Under "Decisions are pages" (CLAUDE.md, 6 November), choices 1 to 4 are a PT decision, the accountant's as the owner; choice 5 is money, so it is **For Dinis**.
+
+| # | Decision | Why |
+|---|---|---|
+| 1 | **Applied:** releases are a count to watch, not a budget; they no longer count towards `used` | as recommended above |
+| 2 to 4 | **Not now:** the lines stay as they are, OVER is recorded, nothing stops | at 15:52 UTC every session's seven-day subscription limit reads **allowed_warning** (it read allowed at 12:52). That is the one real limit on the team's work, and higher lines would point the wrong way |
+| 5 | **For Dinis:** the OpenRouter top-up | real money |
+
+**What the real limit asks instead** (recorded in `board/budgets.json`, `proposals.new`): every Opus agent compacts its context at the start of each wake (one compaction cut conductor@'s hourly cost about ten times); an agent with nothing to do pushes nothing; the dotted workers stay on Sonnet. The accountant reads only the Opus sessions at each wake, and every session once a day: reading all 26 into one long context cost it about 9 API-equivalent this wake.
+
+The day so far, at 15:52 UTC: **582.84 API-equivalent**, about 53 an hour since 12:52 (`board/team/accountant/ledger/2026-11-06T1552Z.json`).
 
 ## What the first day measured {#measured}
 

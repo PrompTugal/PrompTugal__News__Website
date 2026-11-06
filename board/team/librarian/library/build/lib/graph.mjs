@@ -84,19 +84,27 @@ const INV = { made_by: 'made', part_of: 'includes', cites: 'cited_by', about: 's
 for (const t of LINK_TYPES) if (INV[t.rel] !== t.inverse) throw new Error(`graph.mjs: inverse of ${t.rel} is ${t.inverse}, not ${INV[t.rel]}`)
 const verbList = (names) => names.map((v) => ({ verb: v, inverse: INV[v], world: VERB_META[v][0], bridge: VERB_META[v][1], reads: VERB_META[v][2], reads_inverse: VERB_META[v][3] }))
 
+// each type's look is data (round 4): a Cytoscape shape and a hex colour the explorer applies per type (types[].shape, types[].color)
 const LIB_TYPES = [
-  ['agent', 'Agent', 'team'], ['pass', 'Pass', 'team'], ['finding', 'Finding', 'team'], ['decision', 'Decision', 'team'],
-  ['idea', 'Idea of Dinis', 'team'], ['question', 'Open question', 'team'], ['desk', 'Desk', 'team'],
-  ['article', 'Article', 'record'], ['board', 'Board file', 'record'], ['page', 'Site page', 'record'],
-  ['collection', 'Collection', 'reference'], ['subject', 'Subject', 'reference'],
+  ['agent', 'Agent', 'team', 'ellipse', '#2b6cb0'], ['pass', 'Pass', 'team', 'round-rectangle', '#b7791f'], ['finding', 'Finding', 'team', 'ellipse', '#a0aec0'],
+  ['decision', 'Decision', 'team', 'diamond', '#1f7a3a'], ['idea', 'Idea of Dinis', 'team', 'ellipse', '#dd6b20'], ['question', 'Open question', 'team', 'triangle', '#c52830'],
+  ['desk', 'Desk', 'team', 'hexagon', '#805ad5'],
+  ['article', 'Article', 'record', 'rectangle', '#4a5568'], ['board', 'Board file', 'record', 'rectangle', '#718096'], ['page', 'Site page', 'record', 'tag', '#8a94a6'],
+  ['collection', 'Collection', 'reference', 'round-rectangle', '#2f855a'], ['subject', 'Subject', 'reference', 'tag', '#319795'],
 ]
+const REALITY_TYPES = [
+  ['root', 'Root', 'reality', 'star', '#1f7a3a'], ['domain', 'Domain', 'reality', 'round-rectangle', '#2f855a'],
+  ['exists', 'EXISTS', 'reality', 'ellipse', '#38a169'], ['proposed', 'PROPOSED', 'reality', 'ellipse', '#dd6b20'],
+  ['card', 'Card (evidence)', 'evidence', 'rectangle', '#a0aec0'],
+]
+const typeList = (list) => list.map(([id, lab, world, shape, color]) => ({ id, label: lab, world, shape, color }))
 const LIB_WORLDS = [
   { id: 'team', label: "The newsroom's work", types: ['agent', 'pass', 'finding', 'decision', 'idea', 'question', 'desk'] },
   { id: 'record', label: 'The record', types: ['article', 'board', 'page'] },
   { id: 'reference', label: 'Reference: collections and subjects', types: ['collection', 'subject'] },
 ]
 const LIB_VERBS = ['made_by', 'part_of', 'cites', 'about', 'answers', 'supersedes', 'derived_from', 'see', 'see_also', 'owned_by']
-const SHAPE_ABOUT = 'The library graph of PrompTugal.news in the explorer\'s own shape (the same as api/v1/graph/explorer.json, so /assets/graph/explorer.js draws it unchanged). nodes[i]: {id, type, label, page?, src (index into sources, -1 for none), kind (the call class and subclass), by (the maker), status, category (the first subject), date, what, call, deg, bc (betweenness x1000), pr (PageRank x1000), x, y (a force layout)}. edges[j]: [from node index, to node index, verb index, source index or -1, read date or 0, edge betweenness]. Each connection is stored once, in the direction the card asserts it; the explorer reads it either way with the verb and its inverse. '
+const SHAPE_ABOUT = 'The library graph of PrompTugal.news in the explorer\'s own shape (the same as api/v1/graph/explorer.json, so /assets/graph/explorer.js draws it unchanged). nodes[i]: {id, type, label, page?, src (index into sources, -1 for none), kind (the call class and subclass), by (the maker), status, category (the first subject), date, what, call, deg, bc (betweenness x1000), pr (PageRank x1000), x, y (a force layout)}. edges[j]: [from node index, to node index, verb index, source index or -1, read date or 0, edge betweenness]. Each connection is stored once, in the direction the card asserts it; the explorer reads it either way with the verb and its inverse. types[] may carry shape and color (the explorer draws each type with them) and presets[] is the graph\'s own list of named views, in the shape of PRESETS in assets/graph/engine.js (the explorer opens on the first). '
 
 const ENTITY_COLL = { company: 'DAT.CO', person: 'DAT.PE', organisation: 'DAT.ORG', place: 'DAT.PL', topic: 'DAT.TOP', concept: 'GDN.CONC' }
 
@@ -273,7 +281,7 @@ export async function buildLibraryGraph(ctx, cards, engine) {
     id: 'library-graph', version: ctx.catalogue.site_version || null,
     about: SHAPE_ABOUT + `The nodes are the library's cards, grouped to stay legible: ${g.stats.collections} collections (one per call class and subclass), the agents, the subjects, every pass, finding, idea, question, desk, decision and article, and the board files and pages with the most connections; the other ${g.stats.cards - g.stats.single} cards (the entity pages among them) are not single nodes: a connection to one ends at its collection. Owner edges (owned_by) are read from the owner field of an idea. Generated by ${GENERATOR} from the cards and their typed links; never edited by hand.`,
     worlds: LIB_WORLDS,
-    types: LIB_TYPES.map(([id, lab, world]) => ({ id, label: lab, world })),
+    types: typeList(LIB_TYPES),
     verbs: verbList(LIB_VERBS),
     views: [{ id: 'whole', label: 'The library graph', file: 'board/team/librarian/library/graph/library-graph.json' }],
     nodes: g.nodes, edges: g.edges, sources: g.sources,
@@ -377,11 +385,7 @@ export async function buildRealityGraph(ctx, cards, engine) {
     id: 'reality-tree', version: ctx.catalogue.site_version || null,
     about: SHAPE_ABOUT + `The reality tree: a root, ${g.stats.domains} domains, ${g.stats.exists} EXISTS entries and ${g.stats.proposed} PROPOSED entries (each a line of reality/<domain>/index.md or proposed/index.md), and the cards that evidence them. part_of runs entry to domain to root; evidenced_by joins an EXISTS entry to the card its evidence path names; proposed_in joins a PROPOSED entry to the card it names. status is exists or proposed. A domain with few entries is where the tree is thin. Generated by ${GENERATOR}; never edited by hand.`,
     worlds: [{ id: 'reality', label: 'The reality tree', types: ['root', 'domain', 'exists', 'proposed'] }, { id: 'evidence', label: 'The evidence', types: ['card'] }],
-    types: [
-      { id: 'root', label: 'Root', world: 'reality' }, { id: 'domain', label: 'Domain', world: 'reality' },
-      { id: 'exists', label: 'EXISTS', world: 'reality' }, { id: 'proposed', label: 'PROPOSED', world: 'reality' },
-      { id: 'card', label: 'Card (evidence)', world: 'evidence' },
-    ],
+    types: typeList(REALITY_TYPES),
     verbs: verbList(verbs),
     views: [{ id: 'whole', label: 'The reality tree', file: 'board/team/librarian/library/graph/reality-tree.json' }],
     nodes: g.nodes, edges: g.edges, sources: g.sources,
@@ -415,12 +419,19 @@ export function validateShape(g, name = 'graph') {
   const errs = []
   const top = ['id', 'version', 'about', 'grammar', 'counts', 'worlds', 'types', 'verbs', 'views', 'sources', 'nodes', 'edges']
   for (const k of top) if (!(k in g)) errs.push(`${name}: missing top-level key ${k}`)
-  for (const k of Object.keys(g)) if (!top.includes(k)) errs.push(`${name}: extra top-level key ${k}`)
+  for (const k of Object.keys(g)) if (!top.includes(k) && k !== 'presets') errs.push(`${name}: extra top-level key ${k}`)
   if (errs.length) return errs
   if (g.counts.nodes !== g.nodes.length || g.counts.edges !== g.edges.length) errs.push(`${name}: counts ${JSON.stringify(g.counts)} for ${g.nodes.length} nodes and ${g.edges.length} edges`)
   const types = new Set(g.types.map((t) => t.id))
   const worlds = new Set(g.worlds.map((w) => w.id))
-  for (const t of g.types) if (!worlds.has(t.world)) errs.push(`${name}: type ${t.id} is in an unknown world ${t.world}`)
+  for (const t of g.types) {
+    if (!worlds.has(t.world)) errs.push(`${name}: type ${t.id} is in an unknown world ${t.world}`)
+    if (t.shape !== undefined && !/^[a-z-]+$/.test(t.shape)) errs.push(`${name}: type ${t.id} has a shape the explorer would refuse: ${t.shape}`)
+    if (t.color !== undefined && !/^#[0-9a-fA-F]{3,8}$/.test(t.color)) errs.push(`${name}: type ${t.id} has a colour the explorer would refuse: ${t.color}`)
+  }
+  for (const p of g.presets || []) {
+    if (!p.key || !p.label || !p.state || p.state.view !== 'whole') errs.push(`${name}: preset ${p.key} needs key, label and a state with view "whole"`)
+  }
   for (const w of g.worlds) for (const t of w.types) if (!types.has(t)) errs.push(`${name}: world ${w.id} lists unknown type ${t}`)
   for (const v of g.verbs) for (const k of ['verb', 'inverse', 'world', 'bridge', 'reads', 'reads_inverse']) if (!(k in v)) errs.push(`${name}: verb ${v.verb} lacks ${k}`)
   const ids = new Set()
@@ -447,18 +458,23 @@ export function validateShape(g, name = 'graph') {
   return errs
 }
 
+// the presets of one graph, in the shape of PRESETS in assets/graph/engine.js ({key, label, state}), in the order of
+// graph/presets.json; the captions stay in presets.json (the page's data-captions file)
+export function presetsFor(presets, which) {
+  return Object.entries((presets && presets.presets) || {}).filter(([, p]) => p.data === which).map(([key, p]) => ({ key, label: p.label, state: p.state }))
+}
+
 export async function buildGraphs(ctx, cards, put) {
   const engine = await loadEngine(ctx.root)
   const lib = await buildLibraryGraph(ctx, cards, engine)
   const tree = await buildRealityGraph(ctx, cards, engine)
+  const presetsFile = path.join(ctx.libDir, 'graph/presets.json')
+  const presets = readJson(presetsFile, null)
+  const presetErrors = presets ? checkPresets(presets, { library: lib.data, reality: tree.data }) : ['graph/presets.json is missing']
+  if (!presetErrors.length) { lib.data.presets = presetsFor(presets, 'library'); tree.data.presets = presetsFor(presets, 'reality') }
   const text = (d) => JSON.stringify(d) + '\n'
   put('graph/library-graph.json', text(lib.data))
   put('graph/reality-tree.json', text(tree.data))
-  const presetsFile = path.join(ctx.libDir, 'graph/presets.json')
-  const presets = readJson(presetsFile, null)
-  const errors = [
-    ...validateShape(lib.data, 'library-graph.json'), ...validateShape(tree.data, 'reality-tree.json'),
-    ...(presets ? checkPresets(presets, { library: lib.data, reality: tree.data }) : ['graph/presets.json is missing']),
-  ]
+  const errors = [...validateShape(lib.data, 'library-graph.json'), ...validateShape(tree.data, 'reality-tree.json'), ...presetErrors]
   return { library: lib, reality: tree, engine, errors, presets }
 }

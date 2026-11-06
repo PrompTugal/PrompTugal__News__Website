@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 15:52 UTC (site v0.1.283)
+
+- **Algarve Evolution after the call (Dinis, 15:40, relayed by conductor@web-summit.dinis):** António Pinto Guerreiro read the page and liked it; his paragraph beside the goals routed to dev.portugal@ (not live yet); the wish-list interview prompt owned by customers@ (version 2, filled for Algarve Evolution, pushed).
+- **The comms protocol (Dinis, 16:00; abp@'s R12):** every contact through the Web Summit team's private CRM; outreach@'s drafts become contact requests; nothing private on this side. outreach@ told.
+- **Done:** Q1, Powered by RiskMandate off the masthead (dev@; synthetic@ verified F26); the Algarve mini-site's before and after (designer@); dev.graphs round 2 brought; ontologist@'s 88 concepts as data; journalist@'s Press Law notes.
+- **For Dinis, now:** accountant@ reports every session's subscription rate limit at "allowed_warning" (the 7-day limit), about 53 API-equivalent dollars an hour: the first real limit the team has come near. Its proposals: compaction at every Opus wake, idle wakes push nothing, slower wakes for the slow roles.
+- 10 releases since 14:52. Snapshot 15:52. No hold.
+
 ## Wake at 14:52 UTC (site v0.1.272 live, v0.1.275 built)
 
 - **Algarve Evolution sprint (14:10 to 14:46, Dinis's meeting at 15:00): done in part.** Live: the hero with the mandate and eight number tiles, "Their story in time" (2018 to 2027), programmes as cards, the interactive network (from ontologist@'s network.json), partners, summit week, the executive director by public role; the drawing at /graph/algarve-evolution/. Held: dev.graphs@'s round 2 (invalid JSON). Not reached: the full-width mini-site with the collapsible map. sherpa@ (AE1 to AE6) and synthetic@ (run 9) read it at 14:34, before the pushes were live.

@@ -12,12 +12,12 @@ By researcher@PrompTugal.dinis, read 6 November 2026 (UTC). Public sources, no l
 - Roles named by that article: Paulo Santos, interim president; Jessica Costa, executive director (same source). Naming either is subject to the same rule as everyone: each person's yes first.
 - Algarve Evolution is described as a strategic association in Algarve STP's network, and the two co-organise the Algarve Tech Hub Summit with the University of Algarve (Portugal Startup News, 1 Nov 2026).
 
-## NERA (Associacao Empresarial da Regiao do Algarve), AMAL (Algarve intermunicipal community), ANJE (national association of young entrepreneurs)
-- Named partners in the 2025 Web Summit project (NERA, AMAL) and in the ADI network and Venture Lab (NERA, AMAL, ANJE): see the Algarve Evolution note. ANJE ran the 2025 competition and is a member of Algarve STP.
-- Only search summaries so far (not yet read at source, do not publish): NERA a business association headquartered in Loule, established 1989, 30th anniversary reported by Portugal Resident (that page returned 401, so not used); AMAL coordinates regional planning among the region's municipalities.
-- Open: read each organisation's own site or a dated article before profiling.
+## AMAL, NERA, ANJE: read at their own sites (2026-11-06, wake of 15:14 UTC)
+- **AMAL** (Comunidade Intermunicipal do Algarve), [amal.pt](https://www.amal.pt): its page lists **16 municipalities** as members: Albufeira, Alcoutim, Aljezur, Castro Marim, Faro, Lagoa, Lagos, Loule, Monchique, Olhao, Portimao, Sao Bras de Alportel, Silves, Tavira, Vila do Bispo, Vila Real de Santo Antonio. Activity areas shown in its menus: environment, mobility and transport (Transport Authority), culture (BIBAL library network), social development, economic promotion, training, forestry, renewable and endogenous resources, digital transformation. Mission text not captured. This also confirms the "16 municipalities" of the ADI network from the organisation's own page.
+- **NERA** (Associacao Empresarial da Regiao do Algarve), [nera.pt](https://www.nera.pt): "35 years serving the region's businesses and the Algarve" (so about 1989 to 1991 depending on the count; the earlier "established 1989" is from a summary only). Tagline: promotion and support of economic activity in the Algarve. Services: business support, legal advice, training (co-financed and tailor-made), business centre, economic information. Projects it lists: INOVA Algarve 2.0, Agrotur, Internacionalizar + Algarve, Diversificar Algarve 2030. No member count on the page.
+- **ANJE** (Associacao Nacional de Jovens Empresarios), [anje.pt](https://www.anje.pt/en): a private-law association of public utility that represents young Portuguese entrepreneurs institutionally and supports their business activity; lists an incubation network (Rede de Incubacao ANJE), an entrepreneur shop and a project "Emprego + Digital Algarve". No founding year or member count on the page read.
 
 ## Open for the next round
-1. NERA, AMAL and ANJE profiles from their own pages.
+1. Mission texts of AMAL and NERA and ANJE's founding year and Algarve structure (separate pages).
 2. DOCAPESCA's role (named as an Algarve STP member; not researched).
 3. Whether the 2026 edition of the Web Summit competition (ANJE) exists: an Algarve startup list for Web Summit Lisbon 2026 was not found.

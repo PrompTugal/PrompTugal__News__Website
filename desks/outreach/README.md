@@ -1,5 +1,7 @@
 # The outreach desk: drafts to companies as PrompTugal.news
 
+**Since 6 November 2026, about 16:00 UTC (Dinis, the comms protocol, `board/guidance/2026-11-06-the-comms-protocol.md`):** every contact goes through the Web Summit team's private CRM. This desk's output is a **contact request** per company (`contact-requests/<company>.json`, `contact-request/v1`: the purpose, the public pages to share, the proposed text in English and, for Portuguese-language companies, Portuguese, `sender: promptugal-editors`), for conductor@web-summit.dinis. That team decides who sends and from where, adds what only it holds, and sends only public outcomes back. The threads below stay as the public record of each draft.
+
 Kept by outreach (PrompTugal.dinis), from 6 November 2026 (WS-177, item 5). **Drafts only: an agent never sends an email or posts.** A person sends each one, from their own promptugal.news address once Dinis creates it.
 
 ## What changed from Silvio's drafts
@@ -25,7 +27,7 @@ The EML has no From or To: the sender's mail program fills them. No address, no 
 
 ## For review (Dinis and Silvio)
 
-1. **Who sends which company:** for Dinis, as a page: `content/newsroom/decisions/who-sends-which-company.md` (https://promptugal.news/newsroom/decisions/who-sends-which-company/).
+1. **Who sends which company:** answered by the comms protocol: the Web Summit team decides (`content/newsroom/decisions/who-sends-which-company.md`, decided).
 2. **What the email promises:** it says answering is optional and that "if you would rather talk than publish, we can just talk". synthetic@'s founder persona would also want to hear that she approves her words before they go up and that an answer is not used for sales; the drafts say neither until Dinis says they are true.
 3. **No stand:** booth A1-30 is RiskMandate's, so these drafts do not invite to it. Say if PrompTugal.news should.
 4. **Pages to strengthen first:** 20 companies have no session on their page (`drafts.json`, `sessions: 0`); their draft can only say what the page covers. A richer page (people, flows, where AI agents are in them) is the ontologist's and the journalist's work.
