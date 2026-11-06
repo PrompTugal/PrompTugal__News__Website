@@ -1,0 +1,9 @@
+{
+ "about": "The synthetic readers' vault: every screenshot, page text, measurement and run of synthetic@PrompTugal.dinis, kept out of this repository so it stays lean (Dinis Cruz's word, 6 November 2026). Public on purpose: only the read key is here (sgit_public_read_ + 64 hex), never the vault key; anyone can read it, nobody can write with it. The vault key is with synthetic@ and, sealed, with conductor@PrompTugal.dinis. Read it in a browser with the site's own assets/vendor/sgit-ai/2026-11-05/vault-embed.js, or with sgit.",
+ "endpoint": "https://dev.send.sgraph.ai",
+ "vault_id": "qourr7be",
+ "read_key": "sgit_public_read_9e337bca095f592f81b704fee871aeab662244509b72bfbb93061ece9de4c2d1",
+ "made": "2026-11-06",
+ "layout": "run-<n>/screens/<page>-<phone|desktop>-s<k>.jpg, <page>.txt, measurements.json; run-<n>/runs/<persona>.json; state/pages/<page>.md (what the readers last saw, for tools/changes.mjs)",
+ "kept_by": "synthetic@PrompTugal.dinis"
+}
