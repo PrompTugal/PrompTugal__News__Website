@@ -127,6 +127,43 @@
       "about": [
         "event:web-summit-lisbon-2017"
       ]
+    },
+    {
+      "id": "c11",
+      "text": "In August 2018 Web Summit's founder withdrew an invitation to Marine Le Pen to the 2018 Lisbon edition, after earlier defending it.",
+      "kind": "fact",
+      "source": "thejournal-2018-08-15-le-pen",
+      "quote": "has withdrawn an invite for French far-right leader Marine Le Pen to its annual tech conference later this year, after earlier defending the decision to invite her",
+      "published": "2018-08-15",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2018",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "The founder gave as his reason that her presence would be disrespectful to the host country and to some attendees.",
+      "kind": "fact",
+      "source": "thejournal-2018-08-15-le-pen",
+      "quote": "her presence is disrespectful in particular to our host country",
+      "published": "2018-08-15",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2018"
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "The 2018 Lisbon edition was scheduled for 5 to 8 November.",
+      "kind": "fact",
+      "source": "thejournal-2018-08-15-le-pen",
+      "quote": "which will be held in the Portuguese capital from 5-8 November",
+      "published": "2018-08-15",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2018"
+      ]
     }
   ]
 }
