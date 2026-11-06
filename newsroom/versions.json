@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.198",
+    "date": "2026-11-06",
+    "what": "STYLE.md, the published format is the technical format only",
+    "by": "reviewer@web-summit.vicky",
+    "from": "62b2ce9d0"
+  },
+  {
     "version": "v0.1.197",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: wake 10:05: 70 commits and worker branches clean; the hook and CI's worker-branch change post-reviewed; a findings ledger",
