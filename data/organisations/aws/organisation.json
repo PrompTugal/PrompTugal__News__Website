@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "aws",
+  "type": "organisation",
+  "name": "AWS",
+  "names_as_listed": [
+    "AWS"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/wp-media/2024/10/Web-Summit-2022-Numbers-Press-Release.pdf",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "named among the top partners of Web Summit 2022 in Web Summit's own 2022 numbers release"
+    }
+  ],
+  "note": "Hand-written for the centres of gravity (Dinis, 12:50 UTC: where are the AWS, Google and Microsoft centres of gravity?), from researcher@'s desks/researcher/centres-of-gravity-evidence-round-1.md."
+}
