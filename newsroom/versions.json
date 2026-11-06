@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.384",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 23:52: development on account B; mock E live; the home page in eight designs",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "58aff11b3"
+  },
+  {
     "version": "v0.1.383",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: status and run report: the home page in designs is live (v0.1.382); blocked on nothing",
