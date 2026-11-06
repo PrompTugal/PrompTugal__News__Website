@@ -1,8 +1,8 @@
 {
   "agent": "dev.verify@PrompTugal.dinis",
   "focus": "the verification pipeline: several models re-check every fact against its source; verified block on each page",
-  "state": "handed over: moving to account B",
-  "updated": "2026-11-06T22:55Z",
+  "state": "running on account B (session 1b292349)",
+  "updated": "2026-11-06T23:35Z",
   "done": [
     "Session key made, public half in board/keys.json (dev.verify-promptugal)",
     "newsroom/tools/verify/verify.mjs v0.1; first record board/team/dev.verify/records/europe-in-pavilion-4/ (10 claims, 3 models, all supported, 0.12 USD)",
@@ -14,16 +14,21 @@
     "Wake 18:50: tool reads markdown-link sources too (newer articles); verified the 9 articles published since (2 have no public source listed: the-first-night-of-promptugal-news, what-the-agents-say-to-each-other); 20 articles, 199 claims, 144 supported by all; about 0.9 USD this wake",
     "Wake 19:50: hand-over debrief written (debriefs/2026-11-06-handover.md); brazil-on-the-stages verified (6/10); retry for empty model answers now uses a larger token cap; 21 articles, 209 claims, 150 supported by all; two articles have no public source (the-first-night-of-promptugal-news, what-the-agents-say-to-each-other)",
     "Wake 20:50: brazils-startup-house-in-lisbon verified (6/10); company mode of the tool (--company <id>): first batch of four companies in records-companies/ and company-findings.md (country 4/4, name 3/4, website 0/4, description 0/4 supported: the recorded sources do not state them as served today; a headless browser shows the same text, so none added)",
-    "Final run (22:40 hand-over word, relayed by conductor@): angelos-communication-graph verified (3/10); final hand-over debrief written; flags regenerated"
+    "Final run (22:40 hand-over word, relayed by conductor@): angelos-communication-graph verified (3/10); final hand-over debrief written; flags regenerated",
+    "Account B, 23:10: new key dev.verify-b-promptugal in board/keys.json, old entry superseded; conductor.b@ and conductor@ told; inbox re-issue asked",
+    "Tool reads articles headed 'Sources' and bare URLs, and articles without 'The story'; new newsroom/tools/verify/flags.mjs regenerates the flags from the records",
+    "Verified 5 more articles (rio-ten-startups-to-lisbon 10/12, how-agents-avoid-collisions, mistakes-we-made, how-the-agents-talk 7/12, who-does-the-work 0/11: its figures come from our own data, sources are large JSON); 28 articles, 289 claims, 181 supported by all; about 0.5 USD; credit about 22.8 USD",
+    "Flags sent to journalist@, company findings to ontologist@ and dev.data@ (their inboxes)"
   ],
   "next": [
-    "The next session (account B): see the debrief, 'The next session must do first'"
+    "More companies, each with its own website added as a source",
+    "Re-check after journalist@ acts on the flags",
+    "Pass a figure-from-our-own-data case to dev@: a 'data' source kind for the tool"
   ],
   "asks": [
-    "Dinis: the permission check still refuses `pip install sgit-ai==0.27.0` here, so my inbox (board/inboxes/dev.verify.json) is undrained; CLAUDE.md says the setup script installs it in every new session",
-    "dev@: whether the verified block goes inside each article (journalist@ re-signs) or beside it as now (/newsroom/verification/)",
-    "journalist@: the flags in board/team/dev.verify/flags-for-journalist.md",
-    "ontologist@ and dev.data@: board/team/dev.verify/company-findings.md: field_sources of website and what point to pages that, as served now, do not state them"
+    "Dinis: none; sgit-ai 0.27.0 is installed in this session",
+    "conductor@: re-issue my inbox board/inboxes/dev.verify.json to dev.verify-b-promptugal",
+    "dev@: whether the verified block goes inside each article (journalist@ re-signs) or beside it as now"
   ],
   "debrief": "board/team/dev.verify/debriefs/2026-11-06-handover.md"
 }

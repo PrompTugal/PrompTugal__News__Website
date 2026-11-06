@@ -40,9 +40,11 @@ if (COMPANY) {
   const raw = fs.readFileSync(file, 'utf8');
   const body = raw.replace(/^---[\s\S]*?\n---\n/, '');
   const section = (h) => { const m = body.match(new RegExp('^## ' + h + '[^\\n]*\\n([\\s\\S]*?)(?=^## |$(?![\\s\\S]))', 'm')); return m ? m[1] : ''; };
-  story = [section('In short'), section('The story')].join('\n').trim();
-  const sourcesBlock = section('Where this comes from');
-  urls = [...new Set([...sourcesBlock.matchAll(/<(https?:\/\/[^>\s]+)>|\]\((https?:\/\/[^)\s]+)\)/g)].map(m => m[1] || m[2]))].filter(u => !/tried and not reached/i.test(sourcesBlock.split(u)[0].split('\n').pop()));
+  const sourcesBlock = section('Where this comes from') || section('Sources');
+  // articles with a different layout: every section but the sources is the story
+  const rest = body.split(/^## /m).slice(1).filter(b => !/^(Where this comes from|Sources)/i.test(b)).map(b => b.replace(/^[^\n]*\n/, '')).join('\n');
+  story = (section('The story') ? [section('In short'), section('The story')].join('\n') : rest).trim();
+  urls = [...new Set([...sourcesBlock.matchAll(/<(https?:\/\/[^>\s]+)>|\]\((https?:\/\/[^)\s]+)\)|(?<![(<\w])(https?:\/\/[^\s)>]+)/g)].map(m => (m[1] || m[2] || m[3]).replace(/[.,;]+$/, '')))].filter(u => !/tried and not reached/i.test(sourcesBlock.split(u)[0].split('\n').pop()));
 
 }
 const text = (html) => html.replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, ' ').replace(/<[^>]+>/g, ' ')

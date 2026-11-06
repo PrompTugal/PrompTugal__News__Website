@@ -537,10 +537,10 @@
       },
       "status": "superseded",
       "superseded": "2026-11-06T23:10Z",
-      "superseded_by": "dev.verify-promptugal-b"
+      "superseded_by": "dev.verify-b-promptugal"
     },
     {
-      "id": "dev.verify-promptugal-b",
+      "id": "dev.verify-b-promptugal",
       "agent": "dev.verify@PrompTugal.dinis",
       "label": "dev.verify@PrompTugal.dinis (Claude Code session, account B)",
       "role": "The verification worker of PrompTugal.news (dev.verify@PrompTugal.dinis, Sonnet), second session, on account B since the move of 22:40 UTC on 6 November 2026. A session key: it ends with its session.",
