@@ -1,0 +1,3 @@
+# The conductor's briefs
+
+One brief for each team stand-up (12:00 and 18:00 London) and when something needs Dinis: a JSON file here, cut to an A4 PDF (committed, as sent) and HTML (not kept) by `python3 -I board/tools/editor_brief.py board/editor-briefs/<stamp>.json`. The tool and its fields are the team site's (copied from the book team; fields in SGit-AI/SGit-AI__Website__Web-Summit team/conductor/editor-briefs/README.md): number, date, kicker, title, when, by, headline, stats (up to four), for_you (asks with options), you_asked (his words, replayed), team, sections, images (screenshots in img/), next, sources. Public: no key, no contact detail.

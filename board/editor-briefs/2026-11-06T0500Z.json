@@ -1,0 +1,221 @@
+{
+ "number": 1,
+ "date": "2026-11-06",
+ "kicker": "PrompTugal.news \u00b7 the conductor brief",
+ "title": "From one conductor to sixteen agents in a night: the site is live, the team is organised, and the work now runs in passes",
+ "when": "Friday 6 November 2026, 05:00 UTC (for the 12:00 stand-up)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "promptugal.news has served every release tonight, v0.1.37 to v0.1.119. Sixteen agents now run it, each with its own key and inbox, woken on a schedule. Eleven articles are live and signed, the Brazil story is the first deep story project, and thirteen passes are open on the board. The front page and the articles page are the weakest parts: walls of text, no images yet. Dinis's guidance from tonight is on the board in his words.",
+ "stats": [
+  {
+   "n": "171",
+   "label": "commits by agents since midnight UTC"
+  },
+  {
+   "n": "82",
+   "label": "releases live tonight (v0.1.37 to v0.1.119)"
+  },
+  {
+   "n": "16",
+   "label": "agents, 15 keys published, 15 inboxes"
+  },
+  {
+   "n": "11",
+   "label": "articles live and signed"
+  }
+ ],
+ "for_you": [
+  {
+   "group": "Decisions"
+  },
+  {
+   "id": "1",
+   "ask": "Should the conductor hold every vault key?",
+   "detail": "Today it holds its own key, your sign-in key's private half, its inbox, the fourteen agent inboxes and two vault keys sent to it. Recovery is easier if it holds all; one session holding all is a single point of loss. security@ is writing the options.",
+   "options": [
+    "yes, sealed to the conductor",
+    "no, each agent holds its own, with a recovery plan"
+   ],
+   "recommend": "wait for security@'s plan (this morning)"
+  },
+  {
+   "id": "2",
+   "ask": "Pounds or euros for the reading credit?",
+   "detail": "Asked by sherpa@: the site is in Portugal, the meter and Stripe link are in pounds.",
+   "options": [
+    "pounds",
+    "euros"
+   ]
+  },
+  {
+   "id": "3",
+   "ask": "The story of the name",
+   "detail": "journalist@'s draft is at desks/journalist-promptugal/drafts/the-name-how-we-found-our-name.md, waiting on your approval, for the newsroom section.",
+   "options": [
+    "approve as written",
+    "I will give my words"
+   ]
+  },
+  {
+   "id": "4",
+   "ask": "Who sends the outreach from which address",
+   "detail": "50 drafts are ready, each leading with the company's page; nothing is sent by an agent.",
+   "options": [
+    "each editor from their own alias",
+    "agent@ for all"
+   ]
+  }
+ ],
+ "you_asked": [
+  {
+   "at": "00:40",
+   "said": "all your pushes and data and keys ... go into this repo",
+   "done": "keys in board/keys.json, the board in board/, nothing written to the team site",
+   "where": "CLAUDE.md, Identity",
+   "status": "done"
+  },
+  {
+   "at": "01:00",
+   "said": "everything on admin should now move to newsroom",
+   "done": "dev@ moved it in one commit; /newsroom/ and /api/v1/newsroom/ live",
+   "where": "board/the-newsroom-move.md",
+   "status": "done"
+  },
+  {
+   "at": "01:00",
+   "said": "I would like them to fire up on an hourly schedule",
+   "done": "every agent on a schedule (hourly, two-hourly or three-hourly)",
+   "where": "board/schedule.json",
+   "status": "done"
+  },
+  {
+   "at": "01:15",
+   "said": "you need a vault and append lane",
+   "done": "the conductor's inbox, then an inbox per agent, and private lanes with the team site's conductor",
+   "where": "board/inbox.json, board/inboxes/",
+   "status": "done"
+  },
+  {
+   "at": "02:40",
+   "said": "a pipeline for stories ... as a Kanban board",
+   "done": "the schema done (ontologist@); the board page not built yet",
+   "where": "board/the-story-pipeline.md",
+   "status": "in progress"
+  },
+  {
+   "at": "03:05",
+   "said": "I need a dashboard here",
+   "done": "planned; the data (status.json per agent, schedule) is filling",
+   "where": "board/the-team-setup.md",
+   "status": "in progress"
+  },
+  {
+   "at": "04:00",
+   "said": "the top menu at the moment is a massive mess",
+   "done": "sherpa@ reviewed (13 findings); the new designer takes round 1 with mock-ups",
+   "where": "board/passes/2026-11-06-the-top-of-the-page.md",
+   "status": "in progress"
+  },
+  {
+   "at": "05:00",
+   "said": "this new story about Brazil ... has amazing potential",
+   "done": "the first story project; round 1 done by correspondent@, twelve tasks open to any team",
+   "where": "board/projects/brazil-at-web-summit-2026.md",
+   "status": "in progress"
+  }
+ ],
+ "team": [
+  {
+   "id": "conductor@",
+   "status": "old",
+   "doing": "the plan, the board, passes, briefs",
+   "key": "conductor-promptugal"
+  },
+  {
+   "id": "journalist@",
+   "status": "old",
+   "doing": "S4 next; Brazil round 1 rewrite",
+   "key": "journalist-promptugal"
+  },
+  {
+   "id": "dev@",
+   "status": "old",
+   "doing": "quality pass; story board, dashboard, notes to build",
+   "key": "dev-promptugal"
+  },
+  {
+   "id": "ontologist@",
+   "status": "old",
+   "doing": "flows, the story schema, the S9 data folder",
+   "key": "ontologist-promptugal"
+  },
+  {
+   "id": "designer@ (2)",
+   "status": "new",
+   "doing": "onboarding from the debrief; the top of the page",
+   "key": "(making its key)"
+  },
+  {
+   "id": "correspondent@",
+   "status": "new",
+   "doing": "the front page as data; the Brazil beat",
+   "key": "correspondent-promptugal"
+  },
+  {
+   "id": "security@",
+   "status": "new",
+   "doing": "threat models, messages, vaults, keys, recovery",
+   "key": "security-promptugal"
+  },
+  {
+   "id": "devops@",
+   "status": "new",
+   "doing": "deploys that wait over six minutes",
+   "key": "devops-promptugal"
+  },
+  {
+   "id": "sherpa@, synthetic@, librarian@, accountant@, historian@, observability@, outreach@, abp@",
+   "status": "new and old",
+   "doing": "reviews, readers, catalogue, budgets, history, traffic, drafts, policies",
+   "key": "in board/keys.json"
+  }
+ ],
+ "sections": [
+  {
+   "title": "Open passes",
+   "items": [
+    "the top of the page",
+    "the synthetic readers page",
+    "the newsroom search",
+    "the front page",
+    "the summit's days in time",
+    "becoming an official publication",
+    "the articles page",
+    "privacy first",
+    "and five queued: everything clickable, the updates section, sections as sub-sites, agents' reads, signed-in views"
+   ]
+  }
+ ],
+ "images": [
+  {
+   "path": "board/editor-briefs/img/2026-11-06-front.png",
+   "caption": "The front page at v0.1.119: the masthead and boxes Dinis called a mess; pass 1 and 4 work on it"
+  },
+  {
+   "path": "board/editor-briefs/img/2026-11-06-brazil.png",
+   "caption": "The Brazil article after round 1 of its story project"
+  },
+  {
+   "path": "board/editor-briefs/img/2026-11-06-front-phone.png",
+   "caption": "The front page on a phone"
+  }
+ ],
+ "next": "The 12:00 stand-up brief at 11:52 UTC: what the passes changed, the designer's mock-ups, Brazil round 2.",
+ "sources": [
+  "board/WS-177-plan.md",
+  "board/schedule.json",
+  "board/passes/",
+  "git log of dev since 00:00 UTC",
+  "https://promptugal.news/ at v0.1.119"
+ ]
+}
