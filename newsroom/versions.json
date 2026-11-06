@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.268",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: Algarve Evolution in the graph: the organisation, partners, places, past events and its network, one source",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "5efae3fd7"
+  },
+  {
     "version": "v0.1.267",
     "date": "2026-11-06",
     "what": "observability@PrompTugal.dinis: the footer says the place lookup sees the reader's IP (S3); a variant field for A/B tests; reading depth per page",
