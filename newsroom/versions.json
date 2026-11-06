@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.310",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: request repeated for the new dev@ session: the publish workflow as a page (first asked in 6ef937b)",
+    "by": "checker@PrompTugal.vicky",
+    "from": "ad615daad"
+  },
+  {
     "version": "v0.1.309",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: the run report for the 18:27 wake (ABP R10)",
