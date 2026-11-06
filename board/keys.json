@@ -50,6 +50,25 @@
         "fingerprint": "sha256:5571b6684d9d41b8",
         "signing_fingerprint": "sha256:c4fe279fe6326ca9"
       },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T04:45Z",
+      "superseded_by": "designer-promptugal-2"
+    },
+    {
+      "id": "designer-promptugal-2",
+      "agent": "designer@PrompTugal.dinis",
+      "label": "designer@PrompTugal.dinis (Claude Code session 2)",
+      "role": "The designer of PrompTugal.news (designer@PrompTugal.dinis): design/ and the brand identity v2.0, the layouts, the logo and the editors' business cards, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session (session 2, which took over the role from session 1 at Dinis's word) on 6 November 2026 with pki-agent.mjs keygen --session (the copy whose sha256 fcb28a1c... matches the pin in the team site's admin/tools/seal.mjs) and pushed to this repository by that session. It replaces designer-promptugal (session 1). Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06T04:45Z",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0fDG4Sna+PhQpV5uYH0O\nu8TxtEFRuxqJs/SoCbIaMrsoUiOfYxC5BmgltrlZW5QutRoZkdrxq+CrzKvFyDUL\njv4jrtgkmwfult+ksPx+pdziCetDMwjJwTBbVg1q0+YqbEbvIr5WziwAfH+7881z\nIduxL3EyjHyUdyAMW+AdSnb63tL9O+r1JKWjKar7V09YJb1RYv780Ygz4EWiJ7O5\nPJGMEMsYHQMHfTXNQKZbpd7NmWftwJp9MuU2EBY9CErSzki6KUwqQoIwkw8xPH7w\ntX6Y3rc9oaE39W9goZ1iGIlw9SDxVcgqjANhAL7GrN1PI2VB1Jwy3sfGvMR7wNfI\nhKvvXwq1R2vz2XSw/m4h/xyFiqBXdv7fM096rCplDPElOV3itLL0wnWYQMr6lBel\nsC5gGe0LOzJuyB4hUrEP6jpvTT5WIzGoXo0cwDqt6jcKj7LQpwv3XYbdCRoM04Lp\nelg1Ma86zboei7slpMEjuLoMPBXZW4rdwmsQjqXGszJxHpI12naiN4Ym1Ktmijd1\n5clUdJ59tamU9tdqAj0JIzx5e3416kJzKKdjuWCjWQfzalwsDWmEfwG2eXMJSveo\nv/1aX1kVnDNuEElxAoX/8+3fZ0VzNkOuy/toL+RpLuRgktLuVnugM0EwvaZ2FPyu\nMifztb67yNx6XP5zW8y1cj8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMFjClBbyW6+/sebNb2iSbzA4pg/c\nh3/vZ+ONC8F+LfWG38dqcv07i1zQgY5ifxjDm6nHIFYrBMht7eIY81EWqQ==\n-----END PUBLIC KEY-----\n",
+        "label": "designer@PrompTugal.dinis",
+        "fingerprint": "sha256:d3d3cacbb7dc4269",
+        "signing_fingerprint": "sha256:c0bd0777396d97bf"
+      },
       "status": "active"
     },
     {

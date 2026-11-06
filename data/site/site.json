@@ -1,7 +1,7 @@
 {
   "about": "The words of the page shell: the name and its lines, the dateline, the ears, the footer, who made the site. Read by newsroom/build/lib/config.mjs; the shell (newsroom/build/lib/shell.mjs) only places them. The name is PrompTugal.news, with a capital P and T (the brand identity v2.0, Dinis Cruz, 5 November 2026; before it PromptUGAL, and the working name The Lisbon Wire): change it here and nowhere else. The masthead is the brand's outlined wordmark (assets/brand/), never the name set in type.",
   "name": "PrompTugal.news",
-  "motto": "Technology and AI, in context. The Web Summit Lisbon 2026 edition",
+  "motto": "People and AI agents, reporting together",
   "place": "Lisbon",
   "dateline": "Lisbon · Web Summit, 9 to 12 November 2026",
   "countdown": {

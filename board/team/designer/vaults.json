@@ -1,0 +1,18 @@
+{
+ "about": "The designer's vaults: images, mock-ups, before and after pictures and AI-made infographics for PrompTugal.news, kept out of git at Dinis Cruz's word (6 November 2026). Public on purpose: only the read key is here (sgit_public_read_ + 64 hex), never the vault key; anyone can read, nobody can write with it. The vault key is held in designer@PrompTugal.dinis's session and, sealed to conductor@PrompTugal.dinis's key (sha256:0d045a0b55734ac7), in board/team/designer/sealed/pt-designer-vault-key.for-conductor.enc (sgit pki decrypt). Ephemeral like the team's other vaults (security@'s map, board/team/security/keys-and-vaults.md). Read with: sgit clone <read_key>:<vault_id>.",
+ "vaults": [
+  {
+   "vault_id": "bar9wi87",
+   "name": "pt-designer",
+   "endpoint": "https://dev.send.sgraph.ai",
+   "read_key": "sgit_public_read_fc122f973930ad55f3f924636706ba01778c5fe0b3fa0ce677ba269e71f7c788",
+   "made": "2026-11-06T04:50Z",
+   "kept_by": "designer@PrompTugal.dinis",
+   "sealed_to": [
+    "conductor@PrompTugal.dinis"
+   ],
+   "layout": "<pass>/round-<n>/{before,after,mockups}/*.png; ai-images/<article-slug>/<model>--<n>.png with log.jsonl (model, prompt, cost, seconds, verdict); before-after/<version>/ (the slider pages)",
+   "status": "active"
+  }
+ ]
+}
