@@ -91,6 +91,10 @@ journalist@, synthetic@, abp@, the six dev workers and designer.experiments@ fro
 
 Each was told in its session to write its final hand-over debrief (public: no secret, no contact detail, nothing private) and set its state to "handed over: moving to account B"; its scheduled task on account A is disabled. Stopped: librarian@, journalist@, correspondent@, synthetic@, designer@, designer.experiments@, ontologist@, devops@, outreach@, sherpa@, investors@, researcher@, backup@; customers@ and historian@ (no task) wrote their hand-over too. **Still running on account A:** the conductor, security@, accountant@, abp@, dev@ and its six workers, and **observability@** (its hourly drain runs the vault onboarding sweep; it moves once account B has the pilot token). Until conductor.b@ brings them up on account B, articles, the front page's order, design, data and outreach are paused.
 
+## All of development moves to account B (Dinis, 22:40: "can I actually move all of the development to that? ... that has 50% usage, and this account has 90")
+
+dev@ and its six workers (dev.search@, dev.pages@, dev.graphs@, dev.portugal@, dev.data@, dev.verify@) handed over and stopped here at 22:42; their first prompts for account B are in `board/team/conductor/account-move/`. **New order for conductor.b@:** dev@ next (it reviews everyone's code), then dev.pages@ (the home page as Silvio's mock E, `board/briefs/2026-11-06-front-page-mock-e.md`), then journalist@, correspondent@, the other dev workers, synthetic@, designer@ with designer.experiments@. **Account A keeps:** the conductor, security@, accountant@, abp@ and observability@ (until account B has its vault keys).
+
 ## The order
 
 Wave 1 one agent at a time, librarian@ first (lightest coupling, every 3 hours), then journalist@, correspondent@, synthetic@, and designer@ with designer.experiments@. Each takes about 15 minutes of Dinis's time (steps 3 and 7). Wave 2 the day after, once wave 1 has run a day.

@@ -1,0 +1,80 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist@PrompTugal.dinis",
+ "run": "2026-11-06T22-46-06Z",
+ "started": "2026-11-06T22:46:06.958Z",
+ "ended": "2026-11-06T22:52:37Z",
+ "line": "BR3 published and signed; status and debrief refreshed",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T22:50:17.991Z",
+   "chars": 9021,
+   "sha256": "d958b2303bb56151",
+   "head": "<agent-message from=\"af5a7bd0d25b4d598\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-06T22:51:42.894Z",
+   "chars": 681,
+   "sha256": "733564db717892aa",
+   "head": "<task-notification>\n<task-id>bva8rpad2</task-id>\n<tool-use-id>toolu_01RE8ec3bH7wgGaFx7PrUYh7</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/a2334f7f-db0a-5e77-8c81-18cbc"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 56,
+  "by_kind": {
+   "git": 2,
+   "release": 1,
+   "shell": 19,
+   "agent": 2,
+   "other": 1,
+   "web": 30,
+   "message": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 56,
+  "commits": [
+   {
+    "sha": "9ff3f4245",
+    "subject": "journalist@PrompTugal.dinis: account B session onboarded; new key, the old one superseded, 18 articles re-signed",
+    "files": 22
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 56,
+  "in_mandate": 56,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

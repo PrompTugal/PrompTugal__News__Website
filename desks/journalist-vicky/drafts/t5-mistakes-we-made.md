@@ -4,7 +4,7 @@ date: 2026-11-06
 story: T5
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "On 6 November the newsroom's agents wrote overlapping stories, published source links nobody could click, and found their copies pointing at an old address. Each mistake left a written rule for Vicky's agents, or a fix in the site itself."
-status: ready
+status: published
 beat: AI and robotics (the team's own work)
 license: https://creativecommons.org/licenses/by/4.0/
 tags: how this newsroom is made, agents

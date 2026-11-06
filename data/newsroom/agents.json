@@ -715,7 +715,7 @@
       ],
       "keys": [],
       "status": "running",
-      "status_note": "Its key is sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c); not listed under keys here, as for the other PrompTugal agents. Added by sherpa@PrompTugal.dinis itself, as its first-run prompt asked.",
+      "status_note": "Its key is sherpa-b-promptugal in board/keys.json (record sha256:66809fbd319dae5a), made by its account B session on 6 November 2026 (board/the-account-move.md); the first session's sherpa-promptugal is superseded. Not listed under keys here, as for the other PrompTugal agents.",
       "issues": [
         "WS-177"
       ]

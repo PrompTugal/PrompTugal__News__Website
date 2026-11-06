@@ -1,8 +1,8 @@
 {
   "agent": "devops@PrompTugal.dinis",
   "focus": "The health, quality and performance of CI, the release and tag scripts, every tool in newsroom/tools/ and every scheduled task of this site.",
-  "state": "handed over: moving to account B (conductor@'s message of 21:25 UTC, at Dinis's word as it reports; plan board/the-account-move.md, wave 2). This session stops after this run",
-  "updated": "2026-11-06T21:40Z",
+  "state": "running on account B (session e9df42b7, from 22:45 UTC); woken every two hours at :14 UTC by conductor.b@",
+  "updated": "2026-11-06T22:55Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as devops-promptugal; my row in data/newsroom/agents.json",
     "board/team/devops/ROLE.md and this status",
@@ -18,13 +18,14 @@
     "Wake 14:14: promptugal.news lagged on v0.1.261 from about 13:35 to 14:08; Pages stalled and refused deploys 'due to in progress deployment' at about one push a minute. A failed deploy is now tried once more after 45 s, and a red run dispatches only when its branch has not moved on. My inbox read (8 messages) with a read-only reader built on pki-agent.mjs, no install needed",
     "Wake 16:14: the cause of the afternoon's lag found in run 527: Pages queued deployments and my 2 minute limit cancelled them while queued. Deploys now wait up to 8 minutes and a run superseded by a newer push skips its deploy. release.sh refuses to push during a hold (dev@'s ask). The domains decision page written: /newsroom/decisions/promptugal-com-and-ai/",
     "Wake 18:14: 10 green runs in two hours, each mostly Pages' queue; a second deploy try only after a fast refusal (run 553 had held the queue 20 minutes); release.sh's 6 minute message says the release is done; the daily hand-over debrief written",
-    "Wake 20:14: nothing needed (27 of 28 runs green after dev@'s size cut, median 75 s to live); pushed nothing. 21:35: the final hand-over debrief, for the session on account B"
+    "Wake 20:14: nothing needed (27 of 28 runs green after dev@'s size cut, median 75 s to live); pushed nothing. 21:35: the final hand-over debrief, for the session on account B",
+    "Account B, 22:50: onboarded; new key devops-b-promptugal in board/keys.json (the account A key superseded); notes in board/team/devops/sessions/e9df42b7/; conductor.b@ and the conductor told on their inboxes. The GitHub Actions read tools work here. Runs 697 to 746 read: the 4 red on dev are Pages' queue past 8 minutes in the onboarding burst, each deployed by the next run, nothing lost (site on v0.1.369, the newest tag); median 100 s to live. Nothing changed in the workflow"
   ],
   "next": [
-    "The session on account B: the debrief's 'What the next session does first'"
+    "Next wake: drain my inbox once the conductor reissues it to the new key; read the runs after the onboarding burst; if a deploy waits over 5 minutes at normal load, the tree's size with dev@"
   ],
   "asks": [
-    "Dinis: this session still cannot install sgit-ai: the pinned 'pip install sgit-ai==0.27.0' (your setup script, 14:05) was refused by the session's permission check as code from outside, twice; this container predates the setup script. I read my inbox read-only with pki-agent.mjs instead, but cannot mark messages processed or archive them. A new session for devops@ (which gets the setup script) or a permission rule for that pip install would clear it",
+    "Dinis: (not blocked) my inbox is still sealed to the account A key until the conductor reissues it; asked at 22:50",
     "Dinis: conductor@ and security@ asked me for two tools in newsroom/tools/ (the inbox drain without the team site; the daily rotation of agent session keys). CLAUDE.md lists every tool in newsroom/tools/ as mine to keep healthy, but my ABP grant lets me write only release.sh there; may abp@ widen my grant to newsroom/tools/**, or should dev@ build them?",
     "Dinis: promptugal.com and promptugal.ai still show the registrar's parking page; your choice of three ways to point them is on /newsroom/decisions/promptugal-com-and-ai/ (it needs your registrar or AWS account)"
   ],
@@ -95,6 +96,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Final hand-over debrief; the role moves to account B"
+    },
+    {
+      "started": "2026-11-06T22:45Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Account B onboarding: key, notes, inboxes told; runs 697 to 746 read, burst stalls only, nothing changed"
     }
   ],
   "latest_debrief": "board/team/devops/debriefs/2026-11-06-handover.md"

@@ -42,7 +42,7 @@
    "company": "Air Apps",
    "kind": "company",
    "contact_request": "contact-requests/air-apps.json",
-   "topic": "Other",
+   "topic": "Portuguese startups",
    "flows": 0,
    "articles": [],
    "languages": [
@@ -76,7 +76,7 @@
    "kind": "company",
    "contact_request": "contact-requests/aisle.json",
    "topic": "Security",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
@@ -786,7 +786,7 @@
    "kind": "company",
    "contact_request": "contact-requests/trent-ai.json",
    "topic": "Security",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"

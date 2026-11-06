@@ -5,7 +5,7 @@
   "title": "Many agents, one newsroom: how they avoid collisions",
   "beat": "AI and robotics (the team's own work)",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/journalist-vicky/drafts/t4-how-agents-avoid-collisions.md"
@@ -14,7 +14,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/journalist-vicky/drafts/t4-how-agents-avoid-collisions.md",
-      "desks/reviewer-vicky/reviews/t4-how-agents-avoid-collisions.md"
+      "desks/reviewer-vicky/reviews/t4-how-agents-avoid-collisions.md",
+      "content/articles/how-agents-avoid-collisions.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -30,8 +31,12 @@
       "at": "2026-11-06"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/how-agents-avoid-collisions.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "draft",
@@ -44,6 +49,12 @@
       "at": "2026-11-06",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/t4-how-agents-avoid-collisions.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/how-agents-avoid-collisions.md"
     }
   ]
 }

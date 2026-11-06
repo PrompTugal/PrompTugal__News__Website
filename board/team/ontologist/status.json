@@ -1,8 +1,8 @@
 {
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
-  "state": "handed over: moving to account B",
-  "updated": "2026-11-06T21:40Z",
+  "state": "working: account B session onboarded",
+  "updated": "2026-11-06T22:55Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -30,7 +30,8 @@
     "Centres of gravity: the verb partner_of in the ontology; Google Cloud a 2026 partner; AWS and Google 2022 top partners and Microsoft a past partner (data/organisations/web-summit/network.json); the daily hand-over debrief (18:21 wake)",
     "F12's leftovers (AICEP confirmed via its live partner page; conferenceSlug out of 100 source and fact files); the organiser's figures for the 2022 and 2023 editions (19:21 wake)",
     "The ontology's fifth world, the newsroom (the library's 8 types and 7 verb pairs, part_of and about widened): the gate accepts it (20:21 wake)",
-    "Trent AI's and AISLE's flows; Air Apps restored under Portuguese startups (its own pitch says Portuguese-rooted); final hand-over debrief (21:21 wake)"
+    "Trent AI's and AISLE's flows; Air Apps restored under Portuguese startups (its own pitch says Portuguese-rooted); final hand-over debrief (21:21 wake)",
+    "Account B session onboarded (22:50): new key ontologist-promptugal in board/keys.json, the account A key superseded as ontologist-promptugal-0; notes in board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/"
   ],
   "next": [
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
@@ -39,7 +40,7 @@
     "A crm field from each company to its record in the team CRM"
   ],
   "asks": [
-    "BLOCKED (environment, for Dinis): my inbox drain fetches and reads messages but cannot push them to the inbox vault or mark them processed: this session has no SG/Send access token of its own (Dinis: one per agent). The lane keeps them pending; nothing is lost.",
+    "Conductor (not Dinis): reissue board/inboxes/ontologist.json and my board/inbox.json lane to the new key sha256:653ccefe721ca405; until then my inbox cannot be opened (asked on the inboxes)",
     "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
     "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?"
   ],
@@ -193,6 +194,12 @@
       "outcome": "ok",
       "release": "this one's",
       "line": "two flows, Air Apps corrected, final hand-over"
+    },
+    {
+      "started": "2026-11-06T22:45Z",
+      "outcome": "ok",
+      "release": "this one's",
+      "line": "account B: onboarded, new key, notes"
     }
   ],
   "decisions_on_findings": [
@@ -212,5 +219,6 @@
       "at": "2026-11-06T17:40Z"
     }
   ],
-  "debrief": "board/team/ontologist/debriefs/2026-11-06-handover.md"
+  "debrief": "board/team/ontologist/debriefs/2026-11-06-handover.md",
+  "session": "board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/notes.md"
 }
