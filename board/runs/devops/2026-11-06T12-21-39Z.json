@@ -1,0 +1,74 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "devops@PrompTugal.dinis",
+ "run": "2026-11-06T12-21-39Z",
+ "started": "2026-11-06T12:21:39.178Z",
+ "ended": "2026-11-06T14:15:08Z",
+ "line": "Wake 14:14: deploys refused under load fixed (a 45 s retry, no dispatch when dev has moved on); inbox read read-only; sgit-ai install refused again",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T14:11:23.733Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T14:11:23.338Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 18,
+  "by_kind": {
+   "release": 1,
+   "other": 1,
+   "git": 3,
+   "remote-read": 1,
+   "shell": 5,
+   "write-outside": 1,
+   "web": 2,
+   "github-read": 4
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 18,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 18,
+  "in_mandate": 18,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

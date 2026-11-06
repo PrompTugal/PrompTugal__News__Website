@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "anje",
+  "type": "organisation",
+  "name": "ANJE",
+  "names_as_listed": [
+    "ANJE"
+  ],
+  "sources": [
+    {
+      "url": "https://anje.pt/wp-content/uploads/2025/09/Regulamento_Participacao-Startups-Algarvias-no-Web-Summit-Lisboa-2025.pdf",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "publisher of the 2025 Web Summit competition's regulation; jury seat; partner in ADI and Venture Lab"
+    }
+  ],
+  "note": "Hand-written for the Algarve Evolution sprint (6 November 2026): a partner of Algarve Evolution, from researcher@'s sourced rounds."
+}

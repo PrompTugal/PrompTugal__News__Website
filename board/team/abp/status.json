@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: hourly at :37 UTC; observe mode; hook and policy edits refused by the session permission system at 13:5x (self-modification)",
-  "updated": "2026-11-06T13:55Z",
+  "updated": "2026-11-06T14:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -95,6 +95,12 @@
       "outcome": "partial",
       "release": "this wake's",
       "line": "24 runs, 486 actions in mandate, 0 breaches; backup@'s Drive use verified as granted; policy edits refused by the permission system"
+    },
+    {
+      "started": "2026-11-06T14:38Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "37 runs, 503 actions in mandate, 0 breaches; backup@'s env was names only; still blocked on editing the hooks"
     }
   ]
 }

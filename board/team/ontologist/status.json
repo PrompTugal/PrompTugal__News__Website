@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "running: hourly at :21 UTC; budgets are soft and in observe mode (Dinis, in this session, 6 November 2026: \"it is ok for an agent to do 20 commits (if relevant)\"), so I release each piece of work when it is ready",
-  "updated": "2026-11-06T13:45Z",
+  "updated": "2026-11-06T14:50Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -21,14 +21,21 @@
     "Flows for Feedzai (Farol, its AI agent for fraud teams), Mastra (building an agent) and Primitive (an agent on email) (10:21 wake); nine of the outreach list mapped",
     "Flows for Replit (an app built by telling its agent) and Qase (manual tests to automation, go or no-go); Polygraf AI held: its site serves a bot challenge (11:21 wake); eleven of the outreach list mapped",
     "Flows for Scrut Automation (AI teammates run compliance) and Hexamind (Hexgate: every tool call allowed, denied or sent for approval) (12:22 wake); thirteen of the outreach list mapped; KPMG Portugal, the Linux Foundation's AAIF, Startup Portugal and AICEP are organisations with no product flow to map",
-    "Flows for CrowdStrike (Charlotte AI triages, the team decides; actions only where granted) and ChatPlace (an AI manager answers messages and calls the creator in) (13:22 wake); fifteen of the outreach list mapped; cnext held (its page names Kairos but not how it works)"
+    "Flows for CrowdStrike (Charlotte AI triages, the team decides; actions only where granted) and ChatPlace (an AI manager answers messages and calls the creator in) (13:22 wake); fifteen of the outreach list mapped; cnext held (its page names Kairos but not how it works)",
+    "Algarve Evolution sprint (Dinis's meeting at 15:00): the organisation, 9 partners, 3 places, 5 past events and data/organisations/algarve-evolution/network.json (8 programmes, 2 roles without names, 6 figures marked fact, self-reported or target, 33 edges), all sourced, schema organisation-network in the gate",
+    "Inbox opened (signed by the conductor's key) and drained: 12 messages read (14:22 wake)"
   ],
   "next": [
+    "The night's 89 concepts from board/guidance/2026-11-06-the-ideas-ledger.md into the ontology (data/ontology.json and data/README.md)",
+    "Review librarian@'s ARCHITECTURE.md sections 2 and 2a (the card, the authority file) on the record",
+    "AWS, Google and Microsoft centres of gravity: the edges, once researcher@'s evidence is in",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
     "A crm field from each company to its record in the team CRM"
   ],
   "asks": [
+    "BLOCKED (environment, for Dinis): my inbox drain fetches and reads messages but cannot push them to the inbox vault or mark them processed: this session has no SG/Send access token of its own (Dinis: one per agent). The lane keeps them pending; nothing is lost.",
+    "Dinis: may the Algarve Evolution data name its executive director (every public source names him)? The decision page is open: content/newsroom/decisions/naming-people-on-algarve-evolution.md. One line to fill once you say.",
     "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
     "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?"
   ],
@@ -128,6 +135,18 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "CrowdStrike's and ChatPlace's flows; cnext held"
+    },
+    {
+      "started": "2026-11-06T14:12Z",
+      "outcome": "ok",
+      "release": "this one's",
+      "line": "Algarve Evolution's entities and network, for the 15:00 meeting"
+    },
+    {
+      "started": "2026-11-06T14:22Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "inbox opened and read (12); push blocked on an SG/Send token"
     }
   ]
 }

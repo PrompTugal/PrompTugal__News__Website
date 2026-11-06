@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
  "state": "running: hourly at :38 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
- "updated": "2026-11-06T13:55Z",
+ "updated": "2026-11-06T14:15Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -18,6 +18,7 @@
   "The Brazilian delegation's companies, when Dinis gives the word"
  ],
  "asks": [
+  "Dinis: this session cannot install sgit-ai==0.27.0: the permission check refused 'pip install' twice (12:45 and 14:12 UTC), so it cannot send to other agents' inboxes. It still reads its own inbox with its key (a small reader, no drain into a vault). To fix: allow that install in this session's permissions, or start a new outreach session, which gets it from the setup script.",
   "Dinis: who sends which company? The decision page: https://promptugal.news/newsroom/decisions/who-sends-which-company/ (B recommended).",
   "Dinis: may an email promise more than the disclosure, such as 'you approve your words before they go up' or 'this is not a sales call'?",
   "Dinis: the ABP grant (board/abp/outreach.md) covers desks/outreach/ and board/; the SEO pass you asked for at 03:30 wrote newsroom/build/, outside it. For more work like that, say so in the session and abp@ can widen the grant."
@@ -106,6 +107,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "rank, priority and ask out of the public desk (Dinis, S4); one ask for every company; the who-sends decision as a page under /newsroom/decisions/; ChatPlace's and CrowdStrike's flows"
+  },
+  {
+   "started": "2026-11-06T14:11Z",
+   "outcome": "partial",
+   "release": "this wake's",
+   "line": "conductor's message: sgit-ai install refused again; said to Dinis in asks"
   }
  ],
  "decisions_on_findings": [

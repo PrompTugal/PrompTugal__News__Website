@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "faro",
+  "type": "place",
+  "name": "Faro",
+  "kind": "city",
+  "located_in": "place:algarve",
+  "matches": [],
+  "source": "desks/researcher/algarve-evolution-round-1.md",
+  "note": "Where Algarve Evolution is based (Portugal Startup News, 1 November 2026)."
+}

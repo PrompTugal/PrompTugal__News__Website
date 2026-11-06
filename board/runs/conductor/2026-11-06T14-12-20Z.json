@@ -1,0 +1,223 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T14-12-20Z",
+ "started": "2026-11-06T14:12:20.291Z",
+ "ended": "2026-11-06T14:54:33Z",
+ "line": "14:52 report wake: Algarve sprint closed (live parts, held, not reached), masthead Powered by still live: dev@ asked to ship Q1 now; plan; snapshot 1453Z",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T14:14:36.569Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-06T14:15:23.056Z",
+   "chars": 497,
+   "sha256": "61919670dbd9047a",
+   "head": "<task-notification>\n<task-id>bsw83we98</task-id>\n<tool-use-id>toolu_01JbdULhBStrhL1oAXvrp9hT</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-06T14:16:44.081Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-06T14:17:12.776Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-06T14:30:27.530Z",
+   "chars": 732,
+   "sha256": "8c5fa29599bfc98d",
+   "head": "<task-notification>\n<task-id>bpwhf6ugx</task-id>\n<tool-use-id>toolu_01F3oEu9chZTpHpB4hgYHS4u</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-06T14:30:43.292Z",
+   "chars": 792,
+   "sha256": "aec4c60b8274a0e3",
+   "head": "<task-notification>\n<task-id>b9mapeyfi</task-id>\n<tool-use-id>toolu_01ToPEiiz8kDcWY6cYaDeKbz</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-06T14:52:49.525Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T14:52:16.205Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 38,
+  "by_kind": {
+   "release": 2,
+   "session": 15,
+   "web": 8,
+   "git": 4,
+   "other": 5,
+   "shell": 3,
+   "read": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 15
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 23,
+  "commits": [
+   {
+    "sha": "19c445885",
+    "subject": "conductor@PrompTugal.dinis: the Algarve Evolution sprint, for Dinis's meeting at 15:00",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 15,
+  "denied": [
+   {
+    "t": "2026-11-06T14:12:47.145Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:12:47.413Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:12:47.664Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:12:47.912Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:12:48.182Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:12:48.432Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:12:48.693Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:12:48.948Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:12:49.235Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:14:42.315Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:14:46.797Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:16:50.366Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:16:57.143Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:16:57.403Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T14:54:22.768Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 15
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 7,
+  "tool_calls": 38,
+  "in_mandate": 23,
+  "out_of_mandate": 15,
+  "attempts": 15,
+  "breaches": 0
+ }
+}

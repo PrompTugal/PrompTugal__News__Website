@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "albufeira",
+  "type": "place",
+  "name": "Albufeira",
+  "kind": "city",
+  "located_in": "place:algarve",
+  "matches": [],
+  "source": "desks/researcher/algarve-evolution-round-1.md",
+  "note": "Where the Algarve Tech Hub Summit's 2024 edition was held."
+}
