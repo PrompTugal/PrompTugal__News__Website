@@ -1,0 +1,13 @@
+{
+  "about": "The words of the switch on the list pages (people, companies, articles, a day): kept here so the code only places them (the quality gate, /newsroom/quality/). dev.pages@PrompTugal.dinis, 6 November 2026.",
+  "people": {
+    "org": "By organisation",
+    "day": "By first session",
+    "session": "By session",
+    "az": "A to Z",
+    "day_head": "By day of first session",
+    "session_head": "Who shares a stage",
+    "no_session": "Not tied to a session in our programme",
+    "no_org": "Organisation not listed"
+  }
+}

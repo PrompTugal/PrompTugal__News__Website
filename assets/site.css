@@ -895,3 +895,6 @@ main.wide details.toc li { margin: 0; }
 .body:has(#v-byday:target) .view-byday { display: block; }
 .body:has(#v-byday:target) .view-wire { display: none; }
 .body ul.rows.news.wire > li > em { display: block; }
+.body .view-session { display: none; }
+.body:has(#v-session:target) .view-session { display: block; }
+.body:has(#v-session:target) .view-org { display: none; }
