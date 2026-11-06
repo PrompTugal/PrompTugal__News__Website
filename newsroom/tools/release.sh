@@ -23,6 +23,12 @@ for attempt in 1 2 3 4 5; do
     echo "release.sh: your commits conflict with dev; resolve them by hand:"; git diff --name-only --diff-filter=U; git rebase --abort; exit 1
   fi
   [ "$(git rev-list --count "origin/$BRANCH..HEAD")" = 0 ] && { echo "release.sh: nothing of yours to push"; exit 0; }
+  # a hold on dev (board/HOLD.md, written by security@, lifted only by Dinis; board/the-team-setup.md) stops every
+  # release, except the push that writes, changes or removes the hold itself (devops@PrompTugal.dinis, 6 November 2026)
+  if [ -e board/HOLD.md ] && ! git diff --name-only "origin/$BRANCH..HEAD" | grep -qx 'board/HOLD.md'; then
+    echo "release.sh: dev is on hold (board/HOLD.md); nothing pushed. Your commits stay here; release them when Dinis lifts the hold:"
+    sed -n '1,12p' board/HOLD.md; exit 1
+  fi
   # a pure rename (R100, as in the move of admin/ to newsroom/) changes no number; any other change does
   if git diff -M --name-status "origin/$BRANCH..HEAD" | grep -vE '^R100' | grep -qE '(^|\s)(admin|newsroom)/(build/version\.txt|versions\.json)$'; then
     echo "release.sh: your commits change version.txt or versions.json; only CI writes those now. Drop those changes."; exit 1

@@ -10,15 +10,27 @@ That is the mandate of Algarve Evolution, the Faro-based association that has co
 
 [Jump to the interactive network, timeline and map](../../graph/algarve-evolution/index.md)
 
+{.ae-label}
+So far, as reported
+
 {.ae-tiles}
 - **2018** began *a small group of local entrepreneurs*
 - **118** active members *self-reported, 1 November 2026*
 - **142+** events in 2024 and 2025 *self-reported*
 - **5,597** participants at them *self-reported*
 - **24** Algarve startups to Web Summit 2025 *partner and jury seat*
-- **500** companies to support by 2032 *target*
-- **150** startups to help create by 2032 *target*
-- **50,000** people to impact by 2032 *target*
+
+{.ae-label}
+Goals for 2032: targets, not results
+
+{.ae-tiles}
+- **500** companies to support *target*
+- **150** startups to help create *target*
+- **50,000** people to impact *target*
+
+> These are ambitious goals, and we know we can only achieve them by working together with our partners and the wider innovation ecosystem.
+
+Algarve Evolution's own words, from António Pinto Guerreiro, 6 November 2026.
 :::
 
 ::: ae-sec
@@ -33,6 +45,10 @@ Algarve Evolution is a Faro-based organisation that connects entrepreneurs, tale
 To diversify the Algarve's economy beyond tourism and help established industries become more competitive. Its executive director describes the 2026 shift as from building a community to making the ecosystem work ([Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/), read 6 November 2026). Its website states three pillars: education, startups and SMEs, and the innovation ecosystem ([algarveevolution.pt](https://www.algarveevolution.pt), read 6 November 2026).
 
 **Targets for 2032** (as reported on 1 November 2026): support 500 companies, help create 150 startups, impact 50,000 people.
+
+> These are ambitious goals, and we know we can only achieve them by working together with our partners and the wider innovation ecosystem.
+
+Algarve Evolution's own words, from António Pinto Guerreiro, 6 November 2026.
 :::
 
 ::: ae-sec
@@ -88,11 +104,12 @@ Source: [Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algar
 ::: ae-sec
 ## Partners named {#partners}
 
-University of Algarve, Algarve STP, AMAL, NERA, ANJE, Junior Achievement Portugal, Startup Portugal, Informa D&B and CCDR-Algarve (sources above).
+University of Algarve, Algarve STP, AMAL, NERA, ANJE, Junior Achievement Portugal, Startup Portugal and CCDR-Algarve (sources above). Informa D&B is not a partner: it wrote the startup study the press cites.
 
 **[Explore it: the interactive network, timeline and map of Algarve Evolution](../../graph/algarve-evolution/index.md)**, each node, event and place with its source, each picture saved as a PNG.
 
 ![Algarve Evolution at the centre: its programmes and events around it, and the partner organisations on the outer ring (data and sources in network.json).](../../assets/portugal/algarve-evolution-graph.svg)
+**The regional bodies, read on their own sites (6 November 2026):** [AMAL](https://www.amal.pt), the Algarve intermunicipal community, lists 16 member municipalities (Albufeira to Vila Real de Santo António), which is the 16 of the Algarve Digital Innovators network. [NERA](https://www.nera.pt), the business association of the Algarve region, says "35 years serving the region's businesses" and lists business support, legal advice, training and a business centre. [ANJE](https://www.anje.pt/en) represents young Portuguese entrepreneurs and runs an incubation network. For the rest, see [the partner organisations](../organisations/index.md).
 :::
 
 ::: ae-sec
@@ -139,7 +156,7 @@ The association's presidency changed hands in July 2024, for 2024 to 2027 (timel
 
 Open: its own site was unreachable for part of our research, so leadership, the member list and its summit-week plans are not yet confirmed first-hand. The 2022 start of the Tech Hub Summit (Portugal Startup News) and the 2024 article calling 2024 its second edition do not obviously agree; we have not resolved that.
 
-What do we have wrong? What programme, partner or event is missing? Tell Dinis Cruz, who runs PrompTugal.news, and the correction goes into the data with its source and the date.
+What do we have wrong? What programme, partner or event is missing? Tell the editors of PrompTugal.news (who we are and how to reach us is on [the About page](../../about/index.md#editors)), or tell Dinis Cruz, who runs it. Every correction goes into the data with its source and the date, and we say here what changed.
 :::
 
 :::

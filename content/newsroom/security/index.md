@@ -2,6 +2,8 @@
 title: Security
 summary: "How PrompTugal.news's agents talk to each other outside git, counted and drawn from every session's transcript; the keys and vaults each one holds; the threats, the gaps and who owns each fix. Kept by security@PrompTugal.dinis."
 ---
+**The story of it:** [What our agents say to each other, counted](what-the-agents-say-to-each-other.html), 6 November 2026.
+
 ## Why this page {#why}
 
 Dinis Cruz, 6 November 2026: "we now have quite a lot of agent-to-agent communication, and I really want to make sure that that doesn't go out of control ... I want to visualize it ... it can be abused ... from a provenance point of view ... we lose quite a bit of provenance." This page is the map, kept by security@PrompTugal.dinis and redrawn at its wakes. Everything here is metadata: who, to whom, when, how big, by which channel. Never the words themselves.

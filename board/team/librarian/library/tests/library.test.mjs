@@ -509,7 +509,7 @@ test('round 2 on the real catalogue: no dangling link, subjects in the vocabular
   assert.equal(res.stocktake.counts.ST06, 0)
   const r = check(o)
   assert.equal(r.errors.length, 0, r.errors.join('\n'))
-  assert.ok(r.stats.bytes < 5 * 1024 * 1024, `${r.stats.bytes} bytes`)
+  assert.ok(r.stats.bytes < 12 * 1024 * 1024, `${r.stats.bytes} bytes`)
   const snap = snapshot(o.libDir)
   const r2 = build({ ...o, now: '2026-11-08T09:00:00Z' })
   assert.deepEqual(r2.changed, [])

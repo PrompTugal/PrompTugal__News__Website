@@ -30,7 +30,7 @@ Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conf
 <!-- front:latest -->
 
 {.more-line}
-[All articles](articles/index.md)
+[All articles](articles/index.md) · [The daily newsletter](newsletter/index.md)
 :::
 :::
 
