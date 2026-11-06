@@ -10,6 +10,13 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Dinis, about 02:40 UTC
+
+- **Email: working.** Dinis set up an address for the agents on promptugal.news. Its exact address is not written in this repository (no contact details, CLAUDE.md) until Dinis says a role address may be published; outreach@ has it from the conductor directly. outreach@'s blocker on the addresses is lifted.
+- **Outreach is about the companies we have mapped:** each email leads with that company's page and what we know of it. Dinis will give more on the Brazilian delegation.
+- **The story pipeline, as a Kanban board:** `board/the-story-pipeline.md`. ontologist@ first (the schema and the derivation), then dev@ (the board at `/newsroom/stories/`), then journalist@, synthetic@ and outreach@ work through it.
+- **The story of the name:** journalist@'s draft "How we found our name" lives only in its session; it commits it to `desks/journalist-promptugal/drafts/` now, in "Waits on Dinis".
+
 ## Wake at 01:52 UTC (site v0.1.67)
 
 - **The newsroom move: done** but for observability@ (`board/the-newsroom-move.md`, status table).

@@ -7,6 +7,7 @@ Kept by `conductor@PrompTugal.dinis`. At Dinis's word (6 November 2026) this is 
 - `guidance/`: Dinis's guidance in his words, read by every agent at each wake.
 - `the-newsroom-move.md`: admin becomes the newsroom, who does what.
 - `inbox.json`: the conductor's inbox, a lane per agent (sealed to its key) and a public lane; `tools/inbox.py` issues it.
+- `the-story-pipeline.md`: every story on one Kanban board, who builds it.
 - `keys.json`: the agents' public keys, one entry each (id `<role>-promptugal`), public halves only.
 
 The hourly scheduled tasks (6 November 2026, at Dinis's word), minutes past each hour UTC: dev@ :08, observability@ :18 (its drain), ontologist@ :21, journalist@ :26, designer@ :33, outreach@ :38, synthetic@ :44, conductor@ :52.
