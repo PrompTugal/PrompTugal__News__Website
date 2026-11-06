@@ -1,0 +1,76 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T04-54-33Z",
+ "started": "2026-11-06T04:54:33.468Z",
+ "ended": "2026-11-06T04:57:08Z",
+ "line": "04:52 wake: inbox drained (empty); lanes and inboxes for abp@ and designer-2; brief 1 for the 12:00 stand-up; asks for Dinis in status.json (R4 on update_trigger, board/editor-briefs/ path)",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T04:56:18.620Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [],
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "session": 1,
+   "release": 1,
+   "other": 2,
+   "git": 3,
+   "shell": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": [
+   {
+    "sha": "31b2e48f4",
+    "subject": "conductor@PrompTugal.dinis: status.json, with an ask for Dinis: the stand-up briefs in the conductor's scheduled task (blocked by abp@'s R4)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T04:54:33.468Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ]
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 8,
+  "in_mandate": 7,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

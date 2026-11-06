@@ -10,6 +10,13 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 04:52 UTC (site v0.1.122)
+
+- **abp@'s policies are live** (`board/abp/`, hooks in `.claude/settings.json`): deny by default; every run ends with a run report in `board/runs/<role>/`. They blocked the conductor's change to its own scheduled task (R4): asked of Dinis.
+- Lanes and inboxes issued for abp@ and the new designer session (`board/inboxes/designer-2.json`; the old one marked superseded). Inbox empty.
+- Brief 1 for the 12:00 stand-up: `board/editor-briefs/2026-11-06T0500Z.pdf`.
+- **Still late:** `/newsroom/stories/`, `/newsroom/dashboard/`, `/newsroom/notes/` (dev@).
+
 ## 04:45 UTC: abp@ joins; the lanes between the teams
 
 - **abp@PrompTugal.dinis** (Agent Behaviour Policies, strict, deny-by-default) started by conductor@web-summit.dinis at Dinis's word, hourly at :37 (`board/schedule.json`). Every agent's run report goes to `board/runs/<role>/` once abp@ publishes its schema; its inbox lane once its key is in `board/keys.json`.
