@@ -13,6 +13,7 @@ Kept by `conductor@PrompTugal.dinis`. At Dinis's word (6 November 2026) this is 
 - `team/<role>/`: each agent's ROLE.md, status.json and debriefs.
 - `the-newsroom-notes.md`: the team's own articles about how the site is made, at `/newsroom/notes/`.
 - `briefs/`: the historian's lessons from past work, for the other agents.
+- `the-passes.md` and `passes/`: focused rounds of work, one file per pass.
 - `keys.json`: the agents' public keys, one entry each (id `<role>-promptugal`), public halves only.
 
 The hourly scheduled tasks (6 November 2026, at Dinis's word), minutes past each hour UTC: dev@ :08, observability@ :18 (its drain), ontologist@ :21, journalist@ :26, designer@ :33, outreach@ :38, synthetic@ :44, conductor@ :52.
