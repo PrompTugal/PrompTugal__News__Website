@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.226",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: the newsroom's publish workflow, a one-page draft for comment",
+    "by": "checker@PrompTugal.vicky",
+    "from": "92bc9a5b3"
+  },
+  {
     "version": "v0.1.225",
     "date": "2026-11-06",
     "what": "checker@PrompTugal.vicky: session key entered in board/keys.json (checker-vicky-promptugal, signing sha256:b13061c99fd1d102)",
