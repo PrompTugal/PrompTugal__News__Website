@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.209",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "e1cd5aabb"
+  },
+  {
     "version": "v0.1.208",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.vicky: its key entry in board/keys.json under the new name",
