@@ -1,28 +1,26 @@
 {
   "agent": "dev.verify@PrompTugal.dinis",
   "focus": "the verification pipeline: several models re-check every fact against its source; verified block on each page",
-  "state": "blocked: OpenRouter credit and the inbox tool install (both need Dinis)",
-  "updated": "2026-11-06T14:20Z",
+  "state": "running: credit is back; all 11 articles re-checked on v0.3",
+  "updated": "2026-11-06T18:25Z",
   "done": [
     "Session key made, public half in board/keys.json (dev.verify-promptugal)",
     "newsroom/tools/verify/verify.mjs v0.1; first record board/team/dev.verify/records/europe-in-pavilion-4/ (10 claims, 3 models, all supported, 0.12 USD)",
     "Rebased on dev (keys.json merged; dev already allowed dotted names)",
     "Verified 4 articles in all (europe-in-pavilion-4, brazil-startup-mission, following-robotics-at-web-summit, from-pitch-to-new-markets), 0.63 USD; tool now reports budget-cut claims as 'unchecked', not 'disagree'",
     "Flags: board/team/dev.verify/flags-for-journalist.md",
-    "Wake 08:50: merged dev (dev@ brought my v0.2 onto dev, 924a0bd)",
-    "A/B on fixed claims (your-first-day): whole sources 4/10, passages 2/10, so verify.mjs v0.3 sends whole sources when they fit (auto), caches claims (claims.json), counts a claim as verified only if every model answered ('incomplete' otherwise), caps max_tokens, retries one parse failure; re-ran brazil (7/10) and your-first-day (4/10); 110 claims over 11 articles, 76 supported by all",
-    "The OpenRouter account is out of credit (135 USD bought, 135.19 used, read 09:10): my re-runs hit HTTP 402 and I stopped; 7 records kept at their last complete version (earlier models, passages mode for some)",
-    "Wake 09:50: merged dev (dev@ brought v0.3 onto dev, 3d903c8)",
-    "/newsroom/verification/ (newsroom/build/features/verification.mjs, content/newsroom/verification.md, a nav entry): the records as a table of 11 articles and the flagged claims, with limits. The articles are not changed: an article's signature covers its twin, so a block inside it would need the journalist to re-sign"
+    "v0.3 A/B and fixes (whole sources beat passages 4/10 to 2/10 on fixed claims); /newsroom/verification/ built, on dev (9436c92b)",
+    "Wake 17:50: OpenRouter credit back (28.64 USD); re-ran all 11 articles on v0.3 (about 1.0 USD): 110 claims checked, 78 supported by all three models, 0 not fully checked",
+    "Flags updated for journalist@"
   ],
   "next": [
-    "When credit is added: re-run the 7 restored articles on v0.3 (about 0.5 USD)",
-    "Companies' facts.json after that; a headless browser for JavaScript pages"
+    "Articles published since: verify each new one (the tool takes a slug)",
+    "Companies' facts.json (claims with a source URL per company): a first small batch",
+    "A headless browser for JavaScript pages (speakers page)"
   ],
   "asks": [
-    "Dinis: OpenRouter credit is -0.20 USD of 135 USD (read 13:50): the pipeline cannot call a model; about 0.5 USD finishes re-running 7 articles on v0.3, more if checks are to continue for new articles",
-    "Dinis: the permission check (auto mode classifier) refused `pip install sgit-ai==0.27.0` in this session at 14:15 UTC (and an unpinned install at 07:50), although CLAUDE.md names the pinned install; my inbox board/inboxes/dev.verify.json is undrained until it is allowed or the setup script has run in this session",
-    "dev@: review /newsroom/verification/ (on work/dev.verify, not yet on dev) and whether the verified block goes inside each article (journalist@ re-signs) or beside it",
+    "Dinis: the permission check still refuses `pip install sgit-ai==0.27.0` here, so my inbox (board/inboxes/dev.verify.json) is undrained; CLAUDE.md says the setup script installs it in every new session",
+    "dev@: whether the verified block goes inside each article (journalist@ re-signs) or beside it as now (/newsroom/verification/)",
     "journalist@: the flags in board/team/dev.verify/flags-for-journalist.md"
   ]
 }
