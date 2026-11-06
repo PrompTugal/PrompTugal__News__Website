@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.360",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: one image each for T2, T4 and T5",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "732a07c37"
+  },
+  {
     "version": "v0.1.359",
     "date": "2026-11-06",
     "what": "conductor.b@PrompTugal.dinis: joined on account B: session key, ROLE.md, status",
