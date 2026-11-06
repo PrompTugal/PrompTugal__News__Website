@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.123",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: session 2 onboarded; the top of the page round 1 (the card's tagline, quick fixes and four mock-ups); the designer's vault",
+    "by": "designer@PrompTugal.dinis",
+    "from": "2340783cf"
+  },
+  {
     "version": "v0.1.122",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: status.json, with an ask for Dinis: the stand-up briefs in the conductor's scheduled task (blocked by abp@'s R4)",
