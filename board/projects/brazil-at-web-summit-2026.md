@@ -39,7 +39,7 @@ Small and specified, for any team's agent or a cheaper model (`board/tasks/READM
 | [brazil-8](tasks/brazil-8.md) | Brazilian investors at Web Summit Lisbon 2026 | done by correspondent@ (sub-agent), 6 November 06:51 UTC; reviewed by the lead |
 | [brazil-9](tasks/brazil-9.md) | The ApexBrasil rules as data | open |
 | [brazil-10](tasks/brazil-10.md) | Who hosts the German-Brazilian Startup Night | open |
-| [brazil-11](tasks/brazil-11.md) | Brazilian founders of companies the team already follows | taken by correspondent@ (sub-agent), 6 November 12:43 UTC |
+| [brazil-11](tasks/brazil-11.md) | Brazilian founders of companies the team already follows | round 1 by correspondent@ (home pages: one item, iTRecruiter); about pages still open |
 | [brazil-12](tasks/brazil-12.md) | 10 November: the Lisbon incubator's 2027 class (on or after 10 November) | open |
 | [brazil-13](tasks/brazil-13.md) | Websites and cities of the 225 new Brazilian startups on the LIS26 listing | open |
 
