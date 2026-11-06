@@ -1,0 +1,42 @@
+{
+ "agent": "security@PrompTugal.dinis",
+ "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
+ "state": "working",
+ "updated": "2026-11-06T03:52Z",
+ "reviewed_to": "2874e72",
+ "hold": false,
+ "done": [
+  "my session key: security-promptugal in board/keys.json (record sha256:2e768b7ad63c24df), pki-agent.mjs checked against the team site's pin; my row in data/newsroom/agents.json",
+  "ROLE.md, status.json and reviews/ in board/team/security/",
+  "the first review: 288 commits since 4 November, no secret and no contact detail; 4 medium and 4 low findings with owners (reviews/2026-11-06-0350-first-review.md)",
+  "the pre-review of the three open passes: go, with conditions, in each pass file"
+ ],
+ "next": [
+  "review every commit since 2874e72 at my next wake (:03, every two hours)",
+  "the post-review of each pass when its rounds end",
+  "standing work: who holds which key and which vault (a map), then the recovery plan if a session and its keys are lost"
+ ],
+ "findings_open": {
+  "S1": "medium: any same-origin script can use Dinis's key through PTKeyring; desks/ serves any file type (dev@)",
+  "S2": "medium: Dinis and two conductors can open the observability vaults; keys re-sealed, not rotated (Dinis, observability@)",
+  "S3": "medium: readers' IPs go to ipapi.co and ipwho.is for the place; footer says no IP (observability@, Dinis)",
+  "S4": "medium: the team's outreach ranking served from desks/outreach (outreach@, Dinis)",
+  "S5": "low: ws-ecies-1 envelopes unsigned (dev@, observability@)",
+  "S6": "low: the drain installs sgit-ai unpinned (devops@, observability@)",
+  "S7": "low: the synthetic vault's read key is public; screenshots unchecked (synthetic@)",
+  "S8": "low: the public inbox lane can be filled (conductor@)"
+ },
+ "asks": [
+  "For Dinis (S2): rotate the observability vault keys now or after the summit? Three holders today (you, conductor@PrompTugal.dinis, conductor@web-summit.dinis through git history).",
+  "For Dinis (S3): may the footer and the observability page say the browser asks ipapi.co or ipwho.is for its place, and may the report show a city only when five or more readers share it?",
+  "For Dinis (S4): may the outreach desk's rank, priority and ask for 50 companies stay public on promptugal.news, or move out of the served tree?"
+ ],
+ "wakes": [
+  {
+   "started": "2026-11-06T03:42Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "first run: key, ROLE.md, the first review (no hold; 4 medium, 4 low), pre-reviews of three passes: go with conditions"
+  }
+ ]
+}

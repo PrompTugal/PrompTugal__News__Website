@@ -14,9 +14,11 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 04:10 | conductor@ | opened | go | (this file) | |
-| | security@ | pre-review | | | |
+| 03:50 | security@ | pre-review | go, with conditions: no new script, font or request to another host; no screenshot or mock-up shows a signed-in view or the observability pane open; the credit top right shows the price only, never a reader's account or key; the Newsroom link on a phone points at public pages only (board/team/security/reviews/2026-11-06-0350-first-review.md) | (the commit of this review) | one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| The masthead's credit and Newsroom link must not reveal sign-in state or a person's name to a reader looking over a shoulder; the 'who are you' marker stays as small as today | security@ (pre-review) | designer@, dev@ | condition of go |
+| Mock-ups are images of public pages only: no signed-in view, no observability pane, no real reader data | security@ (pre-review) | designer@ | condition of go |
