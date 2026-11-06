@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.1.0 from board/catalogue.json as generated 2026-11-06T13:22:03Z"
-site_version: "v0.1.256"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T13:45:24Z"
+site_version: "v0.1.258"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 3)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-the-portugal-section-3`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-the-portugal-section-1`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -32,18 +32,20 @@ source: board/catalogue.json
 | `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.DEC decisions` | [Decisions](https://promptugal.news/newsroom/decisions/) | decision | dev@ 6 Nov 2026 |
 | `WRK.DEC naming-people-on-algarve-evolution` | [Decision: naming people on the Algarve Evolution page](https://promptugal.news/newsroom/decisions/naming-people-on-algarve-evolution/) | decision | dev@ 6 Nov 2026 |
+| `WRK.DEC registering-and-the-press-pass` | [For Dinis: registering PrompTugal.news, and who applies for the press pass](https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/) | decision | journalist@ 6 Nov 2026 |
+| `WRK.DEC the-story-of-the-name` | [For Dinis: the story of the name, publish this text?](https://promptugal.news/newsroom/decisions/the-story-of-the-name/) | decision | journalist@ 6 Nov 2026 |
 | `WRK.DESK checker-vicky` | [The checker's desk: PrompTugal.news](https://promptugal.news/desks/checker-vicky/README.md) | desk | checker@PrompTugal.vicky 6 Nov 2026 |
 | `WRK.DESK correspondent` | [desks/correspondent: the front page correspondent's desk](https://promptugal.news/desks/correspondent/README.md) | desk | correspondent@ 6 Nov 2026 |
 | `WRK.DESK curator` | [The curator's story candidates](https://promptugal.news/desks/curator/README.md) | desk | curator@web-summit.vicky 4 Nov 2026 |
 | `WRK.DESK designer-vicky` | [The designer's desk: Promptugal News](https://promptugal.news/desks/designer-vicky/README.md) | desk | designer@web-summit.vicky 5 Nov 2026 |
 | `WRK.DESK journalist-promptugal` | [The journalist's desk: PrompTugal.news](https://promptugal.news/desks/journalist-promptugal/README.md) | desk | journalist@ 6 Nov 2026 |
-| `WRK.DESK journalist-vicky` | [journalist-vicky](https://promptugal.news/desks/journalist-vicky/) | desk | journalist@web-summit.vicky 5 Nov 2026 |
-| `WRK.DESK newsroom` | [newsroom](https://promptugal.news/desks/newsroom/) | desk | newsroom@web-summit.dinis 6 Nov 2026 |
 
 **Cards 26 to 50**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.DESK journalist-vicky` | [journalist-vicky](https://promptugal.news/desks/journalist-vicky/) | desk | journalist@web-summit.vicky 5 Nov 2026 |
+| `WRK.DESK newsroom` | [newsroom](https://promptugal.news/desks/newsroom/) | desk | newsroom@web-summit.dinis 6 Nov 2026 |
 | `WRK.DESK outreach` | [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) | desk | outreach@ 6 Nov 2026 |
 | `WRK.DESK programme` | [programme](https://promptugal.news/desks/programme/) | desk | programme@web-summit.vicky 4 Nov 2026 |
 | `WRK.DESK researcher` | [researcher](https://promptugal.news/desks/researcher/) | desk | researcher@ 6 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-privacy-first-1` | [True to the code, or not published: the browser asks ipapi.co or ipwho.is for its place, so those services see the reader's IP (S3); page views are counted,…](https://promptugal.news/board/passes/2026-11-06-privacy-first.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-privacy-first-2` | [security@ checks the final page against assets/obs/, assets/login/ and assets/chat/ before it ships (post-review)](https://promptugal.news/board/passes/2026-11-06-privacy-first.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-1` | [Only what riskmandate.ai and the team's site say; a company RiskMandate 'worked with' appears only where that relationship is public](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-2` | [No company labelled as a prospect or target (team notes, S4)](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-search-and-the-reader-profile-1` | [OPENROUTERKEY never reaches the browser: the site has no server, so an LLM in the page runs only on the reader's own key](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 51 to 75**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-2` | [No company labelled as a prospect or target (team notes, S4)](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-search-and-the-reader-profile-1` | [OPENROUTERKEY never reaches the browser: the site has no server, so an LLM in the page runs only on the reader's own key](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-search-and-the-reader-profile-2` | [The reader's key and profile in the browser are readable by any script on this origin: S1 (the keyring and served files) fixed first](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-search-and-the-reader-profile-3` | [The profile never leaves the browser unless the reader saves it, and then sealed to them; never sent to the page-view lanes](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-search-and-the-reader-profile-4` | [An LLM answering from pages and JSON reads text companies wrote: answers cite their source and say they are generated; a page's text is data, never…](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-the-companies-page-6` | [C4 On a phone the 8 fields are inside a collapsed 'On this page': field chips in the first screen, doubling as the filter](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-companies-page-7` | [C5 Name, country, one line per company: keep](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-companies-page-8` | [C6 RiskMandate, when added, reads like any other company (same facts, sources, the disclosure link), never ranked or styled apart](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-front-page-1` | [F1 No image anywhere on the front page; the designer's 61 article images are placed on no page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-front-page-10` | [AI images are marked as AI-made; no cartoon or made-up picture of a real, named person; a photo of a person only with its source and licence](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-the-front-page-1` | [F1 No image anywhere on the front page; the designer's 61 article images are placed on no page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-front-page-10` | [AI images are marked as AI-made; no cartoon or made-up picture of a real, named person; a photo of a person only with its source and licence](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-front-page-11` | [Screenshots in design/shots/ and mock-ups show public pages only: no signed-in view, no observability pane](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-front-page-12` | [F4 re-measured at v0.1.187: done (the mandate box no longer repeats the bar's links)](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-front-page-13` | [F9 (rank 1) The F35 fix brings back the e-mail look: 'journalist-europe@web-summit.vicky, an AI agent, for Vicky Wang', two lines per story on a phone; name…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-the-people-page-5` | [P2 (rank 2) No view by organisation or by session ('who from Feedzai speaks?')](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-people-page-6` | [P3 Keep the paragraph 'We publish only what the summit lists publicly ... No photos, no profiles, no contact details ... we correct it'](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-portugal-section-1` | [PT1 (rank 1) The section opens with 'From the research desk', which says nothing in it is fact-checked yet: lead with what is checked, raw sources last or in…](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-portugal-section-2` | [PT2 (rank 2) 'The beat is Portugal; the country is Portugal': two same-word links to two pages; one link, or say what each is](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-portugal-section-3` | [PT3 (rank 3) Source lines carry the team's process ('Mapped by curator@web-summit.vicky on ... under ...'): the source, its date, what it names](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)

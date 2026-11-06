@@ -2,7 +2,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-export const GENERATOR = 'library.mjs 0.1.0'
+export const GENERATOR = 'library.mjs 0.2.0'
 export const LIBRARIAN = 'librarian@PrompTugal.dinis'
 
 export function sortKeys(v) {
@@ -72,3 +72,18 @@ export const noDash = (s) => String(s == null ? '' : s).replace(/\u2014/g, ' - '
 export function mdCell(s) {
   return noDash(s).replace(/\|/g, '/').replace(/\n/g, ' ')
 }
+
+// One record per line inside a valid JSON object: readable, and a diff shows one record.
+export function recordsJson(head, key, items) {
+  const h = stable(head, 0).slice(0, -1) // the object without its closing brace
+  const body = items.length ? '\n' + items.map((i) => stable(i)).join(',\n') + '\n' : ''
+  return `${h},${JSON.stringify(key)}:[${body}]}\n`
+}
+// An index: an object with one entry per line, keys in a fixed order.
+export function indexJson(head, key, map) {
+  const h = stable(head, 0).slice(0, -1)
+  const keys = [...Object.keys(map)].sort(cmp)
+  const body = keys.length ? '\n' + keys.map((k) => `${JSON.stringify(k)}:${JSON.stringify(map[k])}`).join(',\n') + '\n' : ''
+  return `${h},${JSON.stringify(key)}:{${body}}}\n`
+}
+export const slugify = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80)

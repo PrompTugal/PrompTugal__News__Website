@@ -5,35 +5,24 @@ import { execFileSync } from 'node:child_process'
 import { readJson, readLines, walk, cmp } from './util.mjs'
 import { holdingsOf, readRegister } from './cards.mjs'
 import { ROWS_PER_TABLE } from './shelf.mjs'
+import { secretFindings } from './secrets.mjs'
+import { danglingLinks } from './links.mjs'
+import { REL, INVERSE } from './linktypes.mjs'
+import { loadDomains, readExists, MARK_BEGIN, MARK_END } from './reality.mjs'
 
-const SIZE_LIMIT = 3.5 * 1024 * 1024
-const AGENT_HANDLE = /@(PrompTugal|web-summit)\.(dinis|vicky|indi)$/i
-const SECRET_PATTERNS = [
-  [/-----BEGIN [A-Z ]*KEY-----/, 'a key block'],
-  [/\bsk-or-v1-[A-Za-z0-9]+/, 'an OpenRouter key'],
-  [/\bOPEN_ROUTER_KEY\s*[=:]\s*\S/, 'an OpenRouter key assignment'],
-  [/\bgh[pousr]_[A-Za-z0-9]{20,}/, 'a GitHub token'],
-  [/\bvault[_ -]?key\s*[:=]\s*\S{8,}/i, 'a vault key'],
-  [/\b[0-9a-f]{40,}\b/, 'a long hex string'],
-  [/\+\d[\d ()-]{8,}\d/, 'a phone number'],
-]
+const SIZE_LIMIT = 5 * 1024 * 1024
 
 export function libraryFiles(libDir) {
   const names = ['accession-register.jsonl', 'cards.json', 'shelf-list.md', 'classification.json']
   const out = names.map((n) => path.join(libDir, n)).filter((p) => fs.existsSync(p))
-  for (const d of ['catalogue', 'authority', 'shelf-list']) out.push(...walk(path.join(libDir, d), (p) => /\.(jsonl|json|md)$/.test(p)))
+  for (const d of ['catalogue', 'authority', 'shelf-list', 'indexes', 'vocabulary', 'stocktake', 'reality']) out.push(...walk(path.join(libDir, d), (p) => /\.(jsonl|json|md)$/.test(p)))
+  const weeding = path.join(libDir, 'weeding.md')
+  if (fs.existsSync(weeding)) out.push(weeding)
   return out
 }
 
-function scanSecrets(file, text, errors) {
-  for (const [re, what] of SECRET_PATTERNS) if (re.test(text)) errors.push(`${file}: contains ${what}`)
-  for (const m of text.matchAll(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g)) {
-    if (!AGENT_HANDLE.test(m[0])) { errors.push(`${file}: contains an address that is not an agent handle`); break }
-  }
-  for (const m of text.matchAll(/(?<![A-Za-z0-9+/_.-])[A-Za-z0-9+/]{40,}={0,2}(?![A-Za-z0-9+/_.-])/g)) {
-    if (/[0-9]/.test(m[0]) && /[A-Z]/.test(m[0]) && /[a-z]/.test(m[0])) { errors.push(`${file}: contains a key-shaped string`); break }
-  }
-  if (text.includes('\u2014')) errors.push(`${file}: contains an em-dash`)
+function scanSecrets(file, text, errors, root) {
+  for (const w of secretFindings(text, root)) errors.push(`${file}: ${w}`)
 }
 
 export function check(ctx) {
@@ -49,7 +38,7 @@ export function check(ctx) {
     total += Buffer.byteLength(text)
     if (/\.json$/.test(f)) { try { JSON.parse(text) } catch (e) { errors.push(`${rel(f)}: not valid JSON (${e.message})`) } }
     if (/\.jsonl$/.test(f)) { readLines(f).forEach((l, i) => { try { JSON.parse(l) } catch { errors.push(`${rel(f)} line ${i + 1}: not valid JSON`) } }) }
-    scanSecrets(rel(f), text, errors)
+    scanSecrets(rel(f), text, errors, root)
   }
   stats.files = files.length
   stats.bytes = total
@@ -87,7 +76,7 @@ export function check(ctx) {
     const pv = c.provenance
     if (!pv || !pv.catalogued || !pv.catalogued.rule || !Array.isArray(pv.evidence) || !pv.evidence.length) errors.push(`card ${c.id} has no provenance (evidence and catalogued are both needed)`)
     else if (!pv.made && c.status === 'current') warnings.push(`card ${c.id} has no maker recorded`)
-    if (!['current', 'withdrawn'].includes(c.status)) errors.push(`card ${c.id} has status ${c.status}`)
+    if (!['current', 'withdrawn', 'superseded', 'draft'].includes(c.status)) errors.push(`card ${c.id} has status ${c.status}`)
   }
 
   // classes
@@ -106,7 +95,7 @@ export function check(ctx) {
   const want = {}
   for (const h of holdingsOf(cat)) want[h.type] = (want[h.type] || 0) + 1
   const have = {}
-  for (const c of cards) if (c.status === 'current') have[c.type] = (have[c.type] || 0) + 1
+  for (const c of cards) if (c.status === 'current' || c.status === 'superseded') have[c.type] = (have[c.type] || 0) + 1
   for (const t of new Set([...Object.keys(want), ...Object.keys(have)])) {
     if ((want[t] || 0) !== (have[t] || 0)) errors.push(`type ${t}: ${have[t] || 0} current cards, the catalogue has ${want[t] || 0}`)
   }
@@ -129,7 +118,7 @@ export function check(ctx) {
     for (let i = 0; i < old.length; i++) if (now[i] !== old[i]) { errors.push(`accession-register.jsonl: line ${i + 1} differs from HEAD (the register only grows)`); break }
   } catch { /* not committed yet, or not a repository: nothing to compare */ }
 
-  // authority and links
+  // authority: the agents, then company, person, organisation, place, topic and concept
   const auth = readJson(path.join(libDir, 'authority/agent.json'), { records: [] })
   const aids = new Set()
   for (const r of auth.records) {
@@ -140,12 +129,82 @@ export function check(ctx) {
   }
   const keys = (readJson(path.join(root, 'board/keys.json'), { keys: [] }).keys) || []
   for (const k of keys) if (!aids.has(authIdOf(k.agent))) errors.push(`authority: no record for the agent of key ${k.id}`)
-  for (const c of cards) {
-    for (const l of c.links || []) {
-      const ok = l.to.startsWith('auth:') ? aids.has(l.to) : ids.has(l.to)
-      if (!ok) errors.push(`card ${c.id}: link ${l.rel} to ${l.to} does not resolve`)
+  stats.authority = { agent: auth.records.length }
+  for (const kind of ['company', 'person', 'organisation', 'place', 'topic', 'concept']) {
+    const fname = kind === 'concept' ? 'concepts' : kind
+    const f = path.join(libDir, `authority/${fname}.json`)
+    if (!fs.existsSync(f)) { errors.push(`authority/${fname}.json is missing`); continue }
+    const j = readJson(f, { records: [] })
+    if (j.count !== j.records.length) errors.push(`authority/${fname}.json: count ${j.count} for ${j.records.length} records`)
+    for (const r of j.records) {
+      if (aids.has(r.id)) errors.push(`authority: duplicate record ${r.id}`)
+      aids.add(r.id)
+      if (r.kind !== kind || !r.id.startsWith(`auth:${kind}:`)) errors.push(`authority ${r.id}: not a ${kind} record`)
+      if (!r.forms.includes(r.heading)) errors.push(`authority ${r.id}: the heading is not among its forms`)
+      if (kind === 'person') for (const k of Object.keys(r)) if (!['id', 'kind', 'heading', 'forms', 'see_from', 'see_also', 'ontology', 'page', 'role', 'organisation', 'org', 'established'].includes(k)) errors.push(`authority ${r.id}: a person record carries ${k}, which the site does not publish`)
+    }
+    stats.authority[kind] = j.records.length
+  }
+
+  // vocabulary
+  const subj = readJson(path.join(libDir, 'vocabulary/subjects.json'), null)
+  const sids = new Set()
+  if (!subj) errors.push('vocabulary/subjects.json is missing')
+  else {
+    for (const r of subj.records) {
+      if (sids.has(r.id)) errors.push(`vocabulary: duplicate subject ${r.id}`)
+      sids.add(r.id)
+      if (r.layer === 'team' && r.proposed_for !== 'ontologist@') errors.push(`vocabulary ${r.id}: a team heading not marked proposed for ontologist@`)
+    }
+    for (const r of subj.records) for (const x of [...r.broader, ...r.narrower, ...r.related]) if (!sids.has(x)) errors.push(`vocabulary ${r.id}: ${x} is not a heading`)
+  }
+  const lv = readJson(path.join(libDir, 'vocabulary/links.json'), null)
+  if (!lv) errors.push('vocabulary/links.json is missing')
+  else for (const t of lv.links) if (!REL[t.rel] || REL[t.rel].inverse !== t.inverse) errors.push(`vocabulary/links.json: ${t.rel} does not match the generator`)
+
+  // links: each resolves, each has its inverse, none of an unknown type
+  for (const b of danglingLinks(cards, aids, sids)) errors.push(`card ${b.card}: link ${b.rel} to ${b.to}: ${b.why}`)
+  const linkStats = {}
+  for (const c of cards) for (const l of c.links || []) linkStats[l.rel] = (linkStats[l.rel] || 0) + 1
+  stats.links = linkStats
+
+  // the indexes name only cards and records that exist
+  for (const [name, idKey] of [['title', null], ['subject', 'subj'], ['agent', 'auth'], ['series', null]]) {
+    const f = path.join(libDir, `indexes/${name}.json`)
+    if (!fs.existsSync(f)) { errors.push(`indexes/${name}.json is missing`); continue }
+    const j = readJson(f, { headings: {} })
+    for (const [h, v] of Object.entries(j.headings)) {
+      if (idKey === 'subj' && !sids.has(h)) errors.push(`indexes/subject.json: heading ${h} is not in the vocabulary`)
+      if (idKey === 'auth' && !aids.has(h)) errors.push(`indexes/agent.json: ${h} is not an authority record`)
+      const list = Array.isArray(v) ? v : [...(v.made || []), ...(v.changed || [])]
+      for (const id of list) if (!ids.has(id)) errors.push(`indexes/${name}.json: ${id} under "${h}" is not a card`)
     }
   }
+
+  // the reality tree: generated blocks present, files within limits, every EXISTS line with evidence
+  const { spec } = loadDomains(libDir)
+  for (const d of spec.domains) {
+    const f = path.join(libDir, 'reality', d.dir, 'index.md')
+    if (!fs.existsSync(f)) { if (d.id !== 'misc') errors.push(`reality/${d.dir}/index.md is missing`); continue }
+    const t = fs.readFileSync(f, 'utf8')
+    if (t.split(MARK_BEGIN).length !== 2 || t.split(MARK_END).length !== 2 || t.indexOf(MARK_BEGIN) > t.indexOf(MARK_END)) errors.push(`reality/${d.dir}/index.md: the generated block is missing or doubled`)
+  }
+  for (const f of walk(path.join(libDir, 'reality'), (p) => p.endsWith('.md'))) {
+    const n = fs.readFileSync(f, 'utf8').split('\n').length
+    if (n > 300) errors.push(`${rel(f)}: ${n} lines, over 300 (split it)`)
+    else if (n > 250) warnings.push(`${rel(f)}: ${n} lines, over 250`)
+  }
+  const exists = readExists({ root, libDir }, spec)
+  for (const e of exists) {
+    if (!e.evidenced) warnings.push(`${e.file} line ${e.line}: an EXISTS line without evidence (a claim, not counted)`)
+    else if (e.missing.length) warnings.push(`${e.file} line ${e.line}: evidence path missing: ${e.missing.join(', ')}`)
+  }
+  stats.exists = exists.length
+  const stock = readJson(path.join(libDir, 'stocktake/latest.json'), null)
+  if (!stock) errors.push('stocktake/latest.json is missing')
+  else if (stock.blockers) errors.push(`stocktake reports ${stock.blockers} blocker(s) (ST16: something that must not be published)`)
+  if (stock) stats.stocktake = stock.counts
+  if (!fs.existsSync(path.join(libDir, 'weeding.md'))) errors.push('weeding.md is missing')
 
   // shelf list: every card on a shelf page, tables and pages within limits
   const shelfIdx = path.join(libDir, 'shelf-list.md')

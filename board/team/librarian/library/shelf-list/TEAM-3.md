@@ -1,14 +1,14 @@
 ---
-title: "Shelf list: TEAM, Agents, roles, keys (part 3 of 4)"
+title: "Shelf list: TEAM, Agents, roles, keys (part 3 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.1.0 from board/catalogue.json as generated 2026-11-06T13:22:03Z"
-site_version: "v0.1.256"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T13:45:24Z"
+site_version: "v0.1.258"
 source: board/catalogue.json
 ---
 
-# Shelf list: TEAM, Agents, roles, keys (part 3 of 4)
+# Shelf list: TEAM, Agents, roles, keys (part 3 of 5)
 
-100 cards, from `TEAM.ROLE verified-block` to `TEAM.RUN 2026-11-06T07-58-34Z`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE verified-block` to `TEAM.RUN 2026-11-06T07-53-08Z`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 201 to 225**
 
@@ -104,6 +104,7 @@ source: board/catalogue.json
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.RUN 2026-11-06T06-18-20Z` | [2026-11-06T06-18-20Z.json](https://promptugal.news/board/runs/observability/2026-11-06T06-18-20Z.json) | board | observability@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T06-19-31Z` | [2026-11-06T06-19-31Z.json](https://promptugal.news/board/runs/dev.graphs/2026-11-06T06-19-31Z.json) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T06-23-13Z` | [2026-11-06T06-23-13Z.json](https://promptugal.news/board/runs/dev.portugal@PrompTugal.dinis/2026-11-06T06-23-13Z.json) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T06-23-57Z` | [2026-11-06T06-23-57Z.json](https://promptugal.news/board/runs/ontologist/2026-11-06T06-23-57Z.json) | board | ontologist@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `TEAM.RUN 2026-11-06T07-44-16Z` | [2026-11-06T07-44-16Z.json](https://promptugal.news/board/runs/synthetic/2026-11-06T07-44-16Z.json) | board | synthetic@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T07-49-30Z` | [2026-11-06T07-49-30Z.json](https://promptugal.news/board/runs/dev.verify/2026-11-06T07-49-30Z.json) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T07-53-08Z` | [2026-11-06T07-53-08Z.json](https://promptugal.news/board/runs/conductor/2026-11-06T07-53-08Z.json) | board | conductor@ 6 Nov 2026 |
-| `TEAM.RUN 2026-11-06T07-58-34Z` | [2026-11-06T07-58-34Z.json](https://promptugal.news/board/runs/designer.experiments/2026-11-06T07-58-34Z.json) | board | designer@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-2.md) | [Next part](TEAM-4.md)

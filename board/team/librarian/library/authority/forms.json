@@ -1,0 +1,14 @@
+{
+  "about": "The librarian's own hand file for the authority file and the links: extra concepts, and the owner's word for links no file states. A hand file, read by the generator and never written by it. Each entry names where it comes from.",
+  "extra_concepts": [
+    { "heading": "RiskMandate", "forms": ["Risk Mandate", "reach, mandate, gap"], "note": "The lens through which the first edition's articles are written: reach, mandate, gap. No claim beyond what riskmandate.ai and the team's site say.", "from": ["CLAUDE.md"] },
+    { "heading": "reality tree", "forms": ["the holdings by subject"], "note": "One directory per domain, each with what exists (with evidence) and what is proposed.", "from": ["board/team/librarian/library/ARCHITECTURE.md"] },
+    { "heading": "the fractal rule", "forms": ["fractal rule"], "note": "A domain file over about 300 lines is split before the next addition.", "from": ["board/team/librarian/library/ARCHITECTURE.md"] },
+    { "heading": "hold", "forms": ["HOLD.md", "board/HOLD.md"], "note": "If board/HOLD.md exists every agent stops after pulling and says why; only Dinis lifts it.", "from": ["CLAUDE.md"] },
+    { "heading": "pass", "forms": ["focused round"], "note": "A focused round of work on one thing, in a fixed order and within a budget; it never loops on its own findings.", "from": ["CLAUDE.md"] },
+    { "heading": "call slip", "forms": ["call slips"], "note": "One question to the library's desk, written down and answered on the record.", "from": ["board/team/librarian/library/ARCHITECTURE.md"] }
+  ],
+  "supersedes": [],
+  "see": [],
+  "see_also": []
+}

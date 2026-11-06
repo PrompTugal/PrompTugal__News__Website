@@ -1,12 +1,12 @@
 ---
-title: "Shelf list: TEAM, Agents, roles, keys (part 2 of 4)"
+title: "Shelf list: TEAM, Agents, roles, keys (part 2 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.1.0 from board/catalogue.json as generated 2026-11-06T13:22:03Z"
-site_version: "v0.1.256"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T13:45:24Z"
+site_version: "v0.1.258"
 source: board/catalogue.json
 ---
 
-# Shelf list: TEAM, Agents, roles, keys (part 2 of 4)
+# Shelf list: TEAM, Agents, roles, keys (part 2 of 5)
 
 100 cards, from `TEAM.INBOX researcher` to `TEAM.ROLE verified`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 

@@ -17,7 +17,7 @@ export function authId(name) {
   return 'auth:agent:' + (p.domain === DEFAULT_DOMAIN ? base : `${base}-${p.domain.replace(/\./g, '-').toLowerCase()}`)
 }
 
-function claudeTable(text) {
+export function claudeTable(text) {
   const rows = []
   for (const line of text.split('\n')) {
     const m = /^\| `([A-Za-z0-9.\-]+@[A-Za-z0-9.\-]+)`(?: \(([^)]*)\))? \| (.*?) \| (.*) \|\s*$/.exec(line)
