@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.54",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 01:00 UTC: key in board/keys.json, drafts revised; blocked on the addresses and on what the email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "37974b058"
+  },
+  {
     "version": "v0.1.53",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: hourly scheduled tasks for all eight agents; board/guidance/ for Dinis's words",
