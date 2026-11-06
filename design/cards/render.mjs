@@ -36,13 +36,13 @@ for (const ed of editors) {
 }
 
 // the overview: each editor's front and back at real proportions, trimmed, with the trim and safe area marked on the first
-const row = ed => ['front', 'back'].map(s => `<figure><img src="generic/${ed.id}/card-${s}.png"><figcaption>${ed.name}, ${s}</figcaption></figure>`).join('')
+const items = [...editors.map(ed => [`generic/${ed.id}/card-front.png`, `${ed.id}, front`]), [`generic/${editors[0].id}/card-back.png`, 'the back (the same for every front)']]
 await page.setViewportSize({ width: 1400, height: 400 })
 const html = `<!doctype html><meta charset="utf-8"><base href="file://${here}/"><style>
   body { margin: 32px; background: #e9e6df; font: 13px 'IBM Plex Mono', monospace; color: #121317 }
   .g { display: grid; grid-template-columns: repeat(2, 640px); gap: 28px 40px }
   figure { margin: 0 } img { width: 640px; display: block; box-shadow: 0 0 0 1px #c9c4b8, 0 2px 10px rgba(0,0,0,.12) } figcaption { margin-top: 8px }</style>
-  <div class="g">${editors.map(row).join('')}</div>`
+  <div class="g">${items.map(([src, cap]) => `<figure><img src="${src}"><figcaption>${cap}</figcaption></figure>`).join('')}</div>`
 writeFileSync(join(here, '.overview.tmp.html'), html)
 await page.goto('file://' + join(here, '.overview.tmp.html'))
 await page.screenshot({ path: join(here, 'overview.png'), fullPage: true })
