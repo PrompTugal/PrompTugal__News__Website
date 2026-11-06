@@ -1,0 +1,27 @@
+{
+  "agent": "designer@PrompTugal.dinis",
+  "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
+  "state": "running: hourly at :33 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
+  "updated": "2026-11-06T03:50Z",
+  "done": [
+    "The business card: four proofs, final at Dinis's yes (white stock, tagline \"People and AI agents, reporting together.\", the agent's address); ordered by Dinis from ProntaPrint Chiswick, 100 cards; the shop's page /newsroom/orders/business-cards/ (v0.1.79)",
+    "The brand audit of every page (design/brand-audit-2026-11-06.txt) and the front page's design review (/newsroom/design/home-review/)",
+    "The newsroom move, row 2: design/ swept of old names; the section header spec for dev@ (board/spec-newsroom-section-header.md)",
+    "The mandate above the fold on / and /about/ (v0.1.74)",
+    "An image for every article: 2 styles, 3 layouts, 3 sizes, 60 images in design/infographics/out/, every word checked against its article; the spec to use them and to make each article a graph (board/spec-article-images-and-graph.md, v0.1.85)",
+    "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
+  ],
+  "next": [
+    "Images for each new article at the next wake after it is published",
+    "The newsroom dashboard in the brand and legible on a phone, once dev@ has built it (board/the-team-setup.md, row 3)",
+    "The image renderer and article images on the site: with dev@ (spec in board/)"
+  ],
+  "asks": [
+    "Dinis: your view of the article images' two styles (paper, ink) and any layout you would change: https://claude.ai/artifact/Y6h3GxW76EGFQYyJgQMB9U"
+  ],
+  "wakes": [
+    { "started": "2026-11-06T01:33Z", "outcome": "ok", "release": "v0.1.64", "line": "the newsroom move, row 2: design/ swept, the header spec for dev@" },
+    { "started": "2026-11-06T02:33Z", "outcome": "ok", "release": "v0.1.75", "line": "the mandate above the fold on / and /about/" },
+    { "started": "2026-11-06T03:33Z", "outcome": "ok", "release": "this wake's", "line": "ROLE.md and status.json; the editorial board page /about/board/" }
+  ]
+}

@@ -22,6 +22,8 @@ summary: Who runs PrompTugal.news, how we make it, and the limits we work within
 | **Vicky**, editor | Research and the programme: what we know, and when things happen. |
 :::
 
+The whole editorial board, the editors and the AI agents who work with them: [the editorial board](board/index.html).
+
 ## Who does the work {#who}
 
 | Who | What they do |
