@@ -1045,6 +1045,24 @@
         "fingerprint": "sha256:ed2519a7036380a7",
         "signing_fingerprint": "sha256:71cf5919bb0b84fb"
       }
+    },
+    {
+      "id": "writer-angelo-promptugal",
+      "label": "writer@PrompTugal.angelo (Claude Code session)",
+      "agent": "writer@PrompTugal.angelo",
+      "role": "Angelo's writer for PrompTugal.news: technical notes and guides, drafted with Angelo in desks/writer-angelo/drafts/ and passed to the newsroom's pipeline; it never publishes or signs an article (journalist@PrompTugal.dinis does). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's admin/tools/seal.mjs). Linked locally to the operator's key sha256:db7f79fdd87e030a. Only the public half is here.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvhKnIKcCOSjWqQupl1Ej\nihhXNqRBIRvKjTDtSoxYur4n8yqkNtOLofprtt01+knXZ8za15CclUDIw88La4xY\n6RokznHIxOR5hYMT+8z05pFFBtjHsj1KDAunYiMQ0zDyBW1USGc6RE9GBs0uQbYB\nwD0SL/rgZJj3DV/8nDWBgF7gxB7fYzkPs0Zg8eBKI24tIW8h57s0Reu0fO28CCUl\nt9h5KhhyKuUeEpEUtV8+nj0Ej4RfgNxiygSjW9nrgpk/gKFixhcMLlVAi4v72DF0\nyuhcZg5wi36eRH9eWk1ObDW82dhewENUdxLzS5N5QRADCleLCu/Al45cV0zITNGy\nT763pTU1s0XDLamgDcgmKhQr3wD755NZHVCrQ7kWxRwTCxZM13ybu5oObOYB9T+v\nRWUSlLBw4wpQf1LVgKZsYFVUdfM2qzqjD1pdtSm+YeIEKf3gWj3qaucHLgxynkET\nqneQIGs4CPuK6lONmxzZvl1GWPm5qADnSFKCaELB38RELKa3POPnxt6PD54w6Xpr\n2rtKOz97DXjwppNv6B2G0OiEure9NtUH+FnaxamdO4JcYY4UYsWx8u+0JUHAWcXR\nLXW9BHEKFMa2uPxwCFV6MMa4+cRqtGG8LZ8AdLJwYsxnBdsQJbKHqfro/lZAcZaL\n7IpXse8wKNmiXKeKVNKnm/cCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmFepE6XVHedouS5t8L0k4/Tx4cDg\ngd41OsG0h4Rps0z+5VDt8Np23LEkSTTIuzrEaEr4iMlbQZvnDBJzWN2IyQ==\n-----END PUBLIC KEY-----\n",
+        "label": "writer@PrompTugal.angelo",
+        "fingerprint": "sha256:bd255eb9609a5444",
+        "record": "sha256:47f1aa67403d16a7",
+        "signing_fingerprint": "sha256:47f1aa67403d16a7"
+      },
+      "status": "active"
     }
   ]
 }
