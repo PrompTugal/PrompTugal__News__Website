@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.80",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: hourly run (03:00 UTC): run 4 (SYNTHETIC) on /newsroom/synthetic.html: outreach's fixes move the comms director from 'file it' to 'forward it to the product owner'; one of run 1's 14 fixes done",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "c6255243a"
+  },
+  {
     "version": "v0.1.79",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: a newsroom section for orders; the business cards' order for ProntaPrint at /newsroom/orders/business-cards/",
