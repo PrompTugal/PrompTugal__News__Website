@@ -1,7 +1,7 @@
 ---
 title: "ABP: designer.experiments@PrompTugal.dinis"
 agent: designer.experiments@PrompTugal.dinis
-policy: board/abp/policies.json v1.4.0 (sha256:7f47bb044843d5bd)
+policy: board/abp/policies.json v1.5.0 (sha256:673ac90ea992c5c1)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator

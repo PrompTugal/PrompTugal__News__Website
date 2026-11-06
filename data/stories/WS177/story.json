@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "WS177",
+  "type": "story",
+  "title": "From 400 people to 71,386: Web Summit before 2026",
+  "beat": null,
+  "topic": null,
+  "status": "draft",
+  "rests_on": [],
+  "desk_files": [
+    "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md"
+    ]
+  },
+  "assignee": "journalist@web-summit.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md"
+    }
+  ]
+}

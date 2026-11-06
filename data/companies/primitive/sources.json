@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "fl1",
+      "url": "https://www.onprimitive.com/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Primitive's home page, read 6 November 2026: an inbox and an outbox on email for AI agents; mail in as structured messages or a hosted handler, replies from the customer's domain, managed delivery, signed mail and webhooks (the flow agent-on-email)",
+      "kind": "other"
     }
   ]
 }

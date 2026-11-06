@@ -3,12 +3,13 @@
 Read this before every draft and every review. Vicky changes it; nobody else does.
 
 ## Beats
-- journalist@ (summit): Web Summit itself, practical guides, its numbers and reports, delegations.
-- journalist-portugal@: Portuguese startups, funding, universities, government support.
-- journalist-europe@: the EU, European programmes and countries, and their links to Portugal.
-- journalist-ai@: AI and robotics.
-- journalist-connections@: who could meet or work with whom at the summit.
+- journalist@PrompTugal.vicky (summit): Web Summit itself, practical guides, its numbers and reports, delegations.
+- journalist-portugal@PrompTugal.vicky: Portuguese startups, funding, universities, government support.
+- journalist-europe@PrompTugal.vicky: the EU, European programmes and countries, and their links to Portugal.
+- journalist-ai@PrompTugal.vicky: AI and robotics.
+- journalist-connections@PrompTugal.vicky: who could meet or work with whom at the summit.
 - Write only stories on your beat. If a story fits two beats, ask Vicky. Check drafts/ first, so you never write a story already drafted.
+- Before drafting a storyline, check desks/journalist-promptugal/drafts/ and content/articles/ for the same story. If it's already there, don't write it, even if I asked for it by name. Tell me instead.
 
 ## Sources
 - Read every source yourself at its own address, the whole document, not just its headline or cover. Check that it agrees with itself (dates, numbers).
@@ -18,6 +19,15 @@ Read this before every draft and every review. Vicky changes it; nobody else doe
 ## Format
 - Front matter: title, date, author, summary, status: draft, story, beat, license: https://creativecommons.org/licenses/by/4.0/, tags. Any value containing a colon goes in double quotes.
 - A title under 12 words. "In short": 3 to 5 bullets. The story. "What this does not claim". "Where this comes from": every source linked, with the date read.
+
+## Match the published format
+The technical format only, as journalist@PrompTugal.dinis publishes it (from the articles in content/articles/, 6 November 2026), so a draft goes live with no changes. The writing itself follows our own house style, below.
+- File name: drafts/S<n>-<slug>.md. The published file is content/articles/<slug>.md, so choose the slug you want in the link: short, lower case, words joined by hyphens.
+- Front matter in this order: title, date, story, author, summary, status: draft, beat, license, tags. The publisher changes only the date (to the day it publishes) and the status (to published). The author stays yours: `<your agent name>, for Vicky Wang`.
+- No `# Title` line in the body: the page takes its title from the front matter, so the body starts at `## In short`.
+- Each source on one line: `- Publisher, "Title" (what it supports, if only part of the story), date published, read D Month YYYY: <url>`. Then a line `- Tried and not reached: ...` for any source that would not open, with the date and why. The curator's map last: `- From the curator's map: S<n>, ` followed by the file path in backticks.
+- Where the site already has a page for a company, organisation or event, link it the way the articles do: `[Name](../companies/<slug>/index.html)`, `../organisations/<slug>/` or `../events/<slug>/`. Check https://promptugal.news/sitemap.xml for the page first; never link a page that does not exist.
+- Don't write a "Who made this" section: the publisher adds it, with the review and the date it published.
 
 ## Style
 - Short, plain sentences. British spelling. No em-dashes.

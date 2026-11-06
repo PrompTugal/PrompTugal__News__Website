@@ -27,3 +27,5 @@ noscript: "The ring needs JavaScript. The same data is published as graph/explor
 Tap a company for where its question stands and a link to its page, which opens in a new tab. **Replay** redraws the ring from the centre. **Save as PNG** downloads the picture as it is now.
 
 RiskMandate in its own words, with sources: [Powered by RiskMandate](../../riskmandate/index.html). The other pictures: [centres of gravity](../gravity/index.html), [the industry map](../industry/index.html). The data is [graph/explorer.json](../../api/v1/graph/explorer.json).
+
+The ready-made views of the explorer, each with a sentence on what it shows: [the best of the graph](../stories/index.html).
