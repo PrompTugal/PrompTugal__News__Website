@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.328",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 19:52: twenty debriefs in; outreach still needs a restart",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "50dcb9255"
+  },
+  {
     "version": "v0.1.327",
     "date": "2026-11-06",
     "what": "reviewer@PrompTugal.vicky: run report of the hand-over to session 2",
