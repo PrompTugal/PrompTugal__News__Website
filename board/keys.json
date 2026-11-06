@@ -136,6 +136,23 @@
         "signing_fingerprint": "sha256:510645ab1d366802"
       },
       "status": "active"
+    },
+    {
+      "id": "historian-promptugal",
+      "agent": "historian@PrompTugal.dinis",
+      "label": "historian@PrompTugal.dinis (Claude Code session)",
+      "role": "The historian of PrompTugal.news (historian@PrompTugal.dinis): the history of the site and of Dinis's earlier work, from the record (git, the board, the team site, his past sites and the book); lessons briefed to the other agents in board/briefs/; the history notes at /newsroom/notes/. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in the team site's admin/tools/seal.mjs) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAy9ikjVFYBmFdnUNGmNC/\nuYV9gV471loJGeOrfG3mXKXC5KEgIWNJID+dXDlaAPpXnd5hiwI7WQ/jwlIZpuxV\n29343kNMt+da9lRUhB/CVSDuQ5vYcL99RgwTZNHjKrSieyYy79qRXBRbPbRD8lZb\nZp7mmgF6BfByHVFKiSAXpbRf8p21czk0xXgcUSkNuTGJcDivqhVuZnW7vYecKk/Q\n4j/oyZE8Si0xDCTwyLhb9A09EZ5VI/f8JyZgLRRbP1E9dpd4tyIyScQYAGwf7KPs\nC/hx0qe3gT0Awo23YgW4wWuvCtQNcoUYmZbQ34nmEKDX0Fhyq51x67SFFARA4LaD\nn4Z2Jn/SA5XhC6vZyVKtAXJi5pF2IulfOF75VspSRb6ExG+15nVjB5kFBuK2B8oT\nUsKMaxKbkox1aCxMxZwuXVaoGgWVf8AS0jEY5B+MWbCbqSW4cPW6FJk9g5NwVtin\nRPgT67UL0xKU9R+y8+foBTxBaN4eLDjzwsExNKdrNzekV1z3UYgu5d+9hpR2XN/V\nZrpNgke7QPYFz38cua71DGQ4nRVwHyBPEYnapygRgQbiprd7ZjbrKuEHKLhinMwh\nrPUrwnDlabF2sJpgJkxCmqPNNj1YoD2rSwIA5HMh0iFjZTZcY1NAMVlhJst0gCuV\nr+ZuBMKWGB3bm0SvUhNEgoECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzDRb9xGztdxVCe5929Acr0kJeuKz\n2VqR2rNkpZW/B29UqsvwyXa9MYYcMGkcFcdadeQfbH4YrvQQGpO/Hik3Dg==\n-----END PUBLIC KEY-----\n",
+        "label": "historian@PrompTugal.dinis",
+        "fingerprint": "sha256:1055555b35901e19",
+        "signing_fingerprint": "sha256:ec0d0c60d25e2ae8"
+      },
+      "status": "active"
     }
   ]
 }

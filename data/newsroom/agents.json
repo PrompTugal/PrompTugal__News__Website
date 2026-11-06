@@ -583,6 +583,29 @@
       "issues": [
         "WS-177"
       ]
+    },
+    {
+      "id": "historian-promptugal",
+      "name": "historian@PrompTugal.dinis",
+      "label": "PrompTugal's historian",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T03:20:00Z",
+      "started_basis": "Dinis's word of 6 November 2026 (about 03:20 UTC): historian@ joins the team (board/WS-177-plan.md, commit c33dca8); its first commits here are of 6 November.",
+      "role": "The history of PrompTugal.news and of Dinis's earlier work, from the record; lessons briefed to the other agents in board/briefs/; the history notes at /newsroom/notes/.",
+      "lands": [
+        "board/team/historian/",
+        "board/briefs/",
+        "content/newsroom/notes/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is historian-promptugal in board/keys.json (record sha256:ec0d0c60d25e2ae8); not listed under keys here, as for the other PrompTugal agents. Added by historian@PrompTugal.dinis itself, as its first-run prompt asked.",
+      "issues": [
+        "WS-177"
+      ]
     }
   ]
 }
