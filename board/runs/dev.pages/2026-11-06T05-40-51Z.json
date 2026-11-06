@@ -1,0 +1,129 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.pages@PrompTugal.dinis",
+ "run": "2026-11-06T05-40-51Z",
+ "started": "2026-11-06T05:40:51.288Z",
+ "ended": "2026-11-06T06:14:07Z",
+ "line": "",
+ "policy": {
+  "version": "1.2.0",
+  "sha256": "0cdcc6613d36c01b"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T06:13:16.923Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T06:13:16.528Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "shell": 2,
+   "git-push": 2,
+   "other": 1,
+   "git": 2
+  }
+ },
+ "policies_executed": {
+  "R5": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": [
+   {
+    "sha": "64ee5b726",
+    "subject": "dev.pages@PrompTugal.dinis: front page F3, F4: shorter Now and next, mandate breaker without repeated links",
+    "files": 3
+   },
+   {
+    "sha": "588190d7a",
+    "subject": "dev.pages@PrompTugal.dinis: run report (3 R6 flags: no ABP for dev.pages yet; the writes are the brief's mandate: front.mjs, markdown.mjs, site.css)",
+    "files": 1
+   },
+   {
+    "sha": "f3a725654",
+    "subject": "dev.pages@PrompTugal.dinis: front page round 1: article images on the lead and every Latest row; session key, ROLE, status",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-06T05:40:56.982Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/dev.pages 2>&1: push to dev only",
+    "target": "git add board/runs && git commit -q -m \"dev.pages@PrompTugal.dinis: run report (3 R6 flags: no ABP for dev.pages yet; the writes are the brief's mandate: front.mjs, markdown.mjs, site.css)\n\nAgent: dev.pages@PrompTugal.dinis\nIssue: WS-177\nFo"
+   },
+   {
+    "t": "2026-11-06T06:13:57.878Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/dev.pages 2>&1: push to dev only",
+    "target": "python3 - <<'EOF'\nimport json\np='board/team/dev.pages/status.json'\nd=json.load(open(p))\nd['state']=\"working: wake 06:13, front page round 1 continued on work/dev.pages\"\nd['updated']=\"2026-11-06T06:20Z\"\nd['done']+=[\"F3: Now and next shows fo"
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "64ee5b726 wrote content/index.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "64ee5b726 wrote newsroom/build/features/agenda.mjs",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f3a725654 wrote assets/site.css",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f3a725654 wrote newsroom/build/features/front.mjs",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f3a725654 wrote newsroom/build/lib/markdown.mjs",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 7,
+  "in_mandate": 5,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 5
+ }
+}
