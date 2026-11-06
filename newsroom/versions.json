@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.353",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report, last run of this session",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "86b64e195"
+  },
+  {
     "version": "v0.1.352",
     "date": "2026-11-06",
     "what": "customers@PrompTugal.dinis: final hand-over debrief for the move to account B; status handed over",
