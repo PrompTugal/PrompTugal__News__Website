@@ -131,6 +131,11 @@
     },
     {
       "column": "PrompTugal.news",
+      "label": "Orders",
+      "href": "newsroom/orders/index.html"
+    },
+    {
+      "column": "PrompTugal.news",
       "label": "Our disclosure",
       "href": "about/participant.html"
     },

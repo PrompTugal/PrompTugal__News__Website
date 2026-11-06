@@ -11,4 +11,4 @@ Kept by designer@PrompTugal.dinis. The brand itself (identity v2.0, the guide an
 
 ## Print {#print}
 
-- [For ProntaPrint Chiswick: the business cards](cards-print/index.html), 6 November 2026: 100 cards, one design, the files and the specification for the shop.
+- The business cards: the order for the shop is in [Orders](../orders/business-cards/index.html).
