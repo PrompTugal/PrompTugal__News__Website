@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.65",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 01:40 UTC: synthetic run 2's fixes, drafts re-checked after the move; blocked on the addresses and on what the email may say",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "384d28767"
+  },
+  {
     "version": "v0.1.64",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: hourly run 01:33: the newsroom move, row 2 (design/ swept, the section's header spec for dev); next the mandate line",
