@@ -37,7 +37,7 @@ The agent makes its own session key (`pki-agent.mjs keygen --session`), keeps th
 
 ## The PrompTugal team (from 6 November 2026)
 
-At Dinis's word (5 November 2026, ~23:55 UTC), seven agents run PrompTugal.news, each in its own Claude Code session,
+At Dinis's word (5 November 2026, ~23:55 UTC), eight agents run PrompTugal.news, each in its own Claude Code session,
 all named `<role>@PrompTugal.dinis` (Dinis is their operator; only he instructs them). Each commits with its own name
 (subject `<role>@PrompTugal.dinis: <what>`, trailers `Agent: <role>@PrompTugal.dinis`, `Issue: WS-NN`, `For: <name>`)
 and releases with `AGENT=<role>@PrompTugal.dinis admin/tools/release.sh`. Each makes its own session key and publishes
@@ -52,9 +52,10 @@ the public half in this repository's `board/keys.json` (id `<role>-promptugal`),
 | `outreach@PrompTugal.dinis` | drafts to companies as PrompTugal's editors, each leading with that company's page, kept with the team CRM's comms | sends an email or posts: a person does |
 | `designer@PrompTugal.dinis` | `design/` and the brand v2.0, layouts, the logo, the editors' business cards | changes the brand without Dinis's yes |
 | `observability@PrompTugal.dinis` | who reads what and what the agents do on this site: the page views and reads sent to an encrypted vault, the drain, the reports in `admin/` (public for now, at Dinis's word) | records anything that identifies a reader (no IP, no cookie) |
+| `synthetic@PrompTugal.dinis` | synthetic readers: personas (a founder, a CISO, a journalist, an investor, someone who just got an outreach email) who read the site as they would, on a phone and a desktop, and report what works, what confuses and what loses them; findings to the agent who owns the fix | presents a synthetic reader's view as a real person's, or touches content to fix it itself |
 
 `newsroom@web-summit.dinis` built the site and hands over to `conductor@PrompTugal.dinis`; the rules above for it
-apply to each of the six under its own name. This site's board is `board/` in this repository (the plan, briefs to Dinis, keys); WS numbers from the team site's board (WS-14, WS-177) are still used in commit trailers.
+apply to each of them under its own name. This site's board is `board/` in this repository (the plan, briefs to Dinis, keys); WS numbers from the team site's board (WS-14, WS-177) are still used in commit trailers.
 
 ## The estate's standard
 
