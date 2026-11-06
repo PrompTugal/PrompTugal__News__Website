@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.238",
+    "date": "2026-11-06",
+    "what": "backup@PrompTugal.dinis: wake 12:12: found and fixed a defect (shallow clone gave incomplete bundles); real restore test and gate pass",
+    "by": "backup@PrompTugal.dinis",
+    "from": "21aa8f882"
+  },
+  {
     "version": "v0.1.237",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: wake 12:05: 102 commits and worker branches clean; the night's memos read; S16 closed",
