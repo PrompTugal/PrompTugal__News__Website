@@ -78,8 +78,21 @@
         root.append(where())
         const picks = load().picks
         if (!picks.length) { root.append(el('p', '', 'Nothing in your day yet: add sessions from any event page or the agenda.')); return }
-        let docs
-        try { docs = (await Site.fetchJSON('api/v1/search/docs.json')).docs } catch (e) { root.append(el('p', '', 'The programme did not load: ' + e.message)); return }
+        // the picked sessions' rows are kept on the device each time the programme loads, so the day still opens with no network
+        const CACHE = 'nr.schedule.cache.v1'
+        let docs, offline = false
+        try { docs = (await Site.fetchJSON('api/v1/search/docs.json')).docs } catch (e) {
+            let kept = null
+            try { kept = JSON.parse(w.localStorage.getItem(CACHE)) } catch (x) { /* none */ }
+            if (!kept || !Array.isArray(kept.rows)) { root.append(el('p', '', 'The programme did not load: ' + e.message)); return }
+            docs = kept.rows; offline = true
+            const p = el('p', 'meta nr-offline', 'Offline: the last saved programme, ' + String(kept.at).slice(0, 16).replace('T', ' ') + '.')
+            root.append(p)
+        }
+        if (!offline) {
+            const want = new Set(picks.map(p => 'event:' + p.id))
+            try { w.localStorage.setItem(CACHE, JSON.stringify({ v: 1, at: new Date().toISOString(), rows: docs.filter(r => want.has(r[0])) })) } catch (e) { /* none */ }
+        }
         const byId = new Map(docs.map(r => [r[0], r]))
         const days = new Map()
         for (const p of picks) {

@@ -1,5 +1,54 @@
 [
   {
+    "version": "v0.1.349",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: a second conductor for account B; ten agents every two hours",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "a169cc808"
+  },
+  {
+    "version": "v0.1.348",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: spec check of the live front page against A, eleven differences for dev@ and dev.pages@",
+    "by": "designer@PrompTugal.dinis",
+    "from": "4821bffa2"
+  },
+  {
+    "version": "v0.1.347",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "bbf908169"
+  },
+  {
+    "version": "v0.1.346",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8394b8c78"
+  },
+  {
+    "version": "v0.1.345",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "d5e43ebd6"
+  },
+  {
+    "version": "v0.1.344",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: T1, a clear link to the live view after each caption",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "8e499a96e"
+  },
+  {
+    "version": "v0.1.343",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: T1, two screenshots: the team map and Replay, with captions and alt text",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "0b02d0c21"
+  },
+  {
     "version": "v0.1.342",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 20:52: investors@'s first run; 24 debriefs in",

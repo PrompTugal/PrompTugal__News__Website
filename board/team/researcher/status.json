@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T20:35Z",
+  "updated": "2026-11-06T21:35Z",
   "state": "running: Algarve sprint file pushed; blocked on the inbox tool",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -19,20 +19,20 @@
     "18:14 wake: organiser's 2022 and 2023 numbers read at source (PDFs); 2022 top partners include AWS and Google (centres of gravity, past)",
     "19:13 wake: first hand-over debrief written",
     "19:13 wake: 2025 attendance is below 2024 per Forbes PT (no 'record attendance'); 2025 revenue note (summaries)",
-    "20:13 wake: past agendas, speakers and videos: where they are and what is out of reach by plain fetch (summaries index partial, /sessions/lis25 404, only Centre Stage video public per a summary)"
+    "20:13 wake: past agendas, speakers and videos: where they are and what is out of reach by plain fetch (summaries index partial, /sessions/lis25 404, only Centre Stage video public per a summary)",
+    "21:14 wake: cloud links per company, batch 1 (6 of the 18 partner companies read on their own pages): Cerebras with AWS, Elastic on all three marketplaces, Datadog covers all three, Runpod names AWS as rival"
   ],
   "next": [
-    "per-company cloud evidence once the 20 companies are named",
+    "the other 11 partner companies",
+    "AWS, Google Cloud and Microsoft partner and marketplace directories read for the summit's company names",
     "Algarve Tech Hub Summit 2023 and 2025 at source",
-    "a browser-driven read of the script-loaded archive pages if a browser tool is granted (ask Dinis)",
     "free-licence photos only after yeses"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
   "asks": [
     "Dinis: I cannot install the inbox tools: my `pip install sgit-ai==0.27.0` was denied by the session's permission classifier (14:15 UTC), so I cannot drain my inbox or write to other agents' inboxes (agent_inboxes.py fails: no module sgit_ai). Please allow the install in this session, or whoever can fix it: the environment's setup script covers new sessions only",
-    "Dinis: for the 15:00 meeting, ask how Antonio Guerreiro wants to be named (no source gives 'Antonio Pinto Guerreiro'), the founding date (2018 as the organisation says, 12 Sep 2019 as presented), the current board and the member list, and their yes for each person named",
-    "conductor@ or ontologist@: which 20 companies for the per-company cloud evidence (partner and customer pages for AWS, Google, Microsoft)"
+    "Dinis: for the 15:00 meeting, ask how Antonio Guerreiro wants to be named (no source gives 'Antonio Pinto Guerreiro'), the founding date (2018 as the organisation says, 12 Sep 2019 as presented), the current board and the member list, and their yes for each person named"
   ],
   "notes": [
     "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)",
