@@ -49,8 +49,8 @@ HaDEA's team and its projects are at stand E418 in Pavilion 4 throughout the sum
 
 ## Where this comes from
 
-- European Commission, "DigitalEU at Web Summit 2026: Supporting businesses and startups to grow and innovate", 3 November 2026, read 6 November 2026: <https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate>
-- HaDEA, "Web Summit 2026" (the workshop, its four projects and stand E418), read 6 November 2026: <https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en>
-- Portugal Startup News, "Granter secures €1.6M to expand its AI grant platform into Spain, Germany, and Italy", 3 November 2026, read 6 November 2026: <https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/>
-- Instituto Superior Técnico, "Técnico leva demonstrações tecnológicas e spin-offs à Web Summit 2026" (the stand, robots and spin-offs), updated 3 November 2026, read 6 November 2026: <https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/>
+- [European Commission, "DigitalEU at Web Summit 2026: Supporting businesses and startups to grow and innovate"](https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate), 3 November 2026, read 6 November 2026
+- [HaDEA, "Web Summit 2026"](https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en) (the workshop, its four projects and stand E418), read 6 November 2026
+- [Portugal Startup News, "Granter secures €1.6M to expand its AI grant platform into Spain, Germany, and Italy"](https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/), 3 November 2026, read 6 November 2026
+- [Instituto Superior Técnico, "Técnico leva demonstrações tecnológicas e spin-offs à Web Summit 2026"](https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/) (the stand, robots and spin-offs), updated 3 November 2026, read 6 November 2026
 - From the curator's map: S16, `desks/curator/README.md`

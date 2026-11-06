@@ -53,6 +53,6 @@ Lisbon gives Brazilian companies a way into Europe. Intuitivo shows a Portuguese
 
 ## Where this comes from
 
-- Executive Digest, "Web Summit: Cerca de 200 empresas brasileiras em Lisboa para captar investimento" (the Brazilian mission), 4 November 2026, read 6 November 2026: <https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/>
-- Portugal Startup News, "Intuitivo raises €1.35M to expand into Brazil with a platform that cuts teachers' workload" (Intuitivo), 23 October 2026, read 6 November 2026: <https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/>
+- [Executive Digest, "Web Summit: Cerca de 200 empresas brasileiras em Lisboa para captar investimento"](https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/) (the Brazilian mission), 4 November 2026, read 6 November 2026
+- [Portugal Startup News, "Intuitivo raises €1.35M to expand into Brazil with a platform that cuts teachers' workload"](https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/) (Intuitivo), 23 October 2026, read 6 November 2026
 - From the curator's map: S19, `desks/curator/README.md`
