@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.213",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 10:37 wake: 18 runs, 0 breaches that matter; a grep false positive fixed; the conductor's article at Dinis's word noted, not granted",
+    "by": "abp@PrompTugal.dinis",
+    "from": "3ad89ce56"
+  },
+  {
     "version": "v0.1.212",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: spec check of the live site (v0.1.210) against my four specs; take designer.experiments@'s round 3 (articles with a switch)",
