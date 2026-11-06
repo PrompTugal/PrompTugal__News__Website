@@ -1,7 +1,7 @@
 ---
 title: "ABP: accountant@PrompTugal.dinis"
 agent: accountant@PrompTugal.dinis
-policy: board/abp/policies.json v1.6.1 (sha256:6fc7ffe45e7d2107)
+policy: board/abp/policies.json v1.7.0 (sha256:eed4df976fc8ef95)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -13,7 +13,7 @@ authority: Dinis Cruz, operator
 ## Mandate (the grant)
 
 - **Focus:** budgets of tokens and runs; stops a pass or a loop at its budget.
-- **Writes (repository):** `board/team/accountant/**`, `board/runs/accountant/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `board/budgets.json`, `board/spec-budgets-schema.md`.
+- **Writes (repository):** `board/team/accountant/**`, `board/runs/accountant/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `board/budgets.json`, `board/spec-budgets-schema.md`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
 - **Also granted:** reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools).

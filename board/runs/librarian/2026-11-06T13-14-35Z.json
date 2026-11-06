@@ -1,0 +1,98 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "librarian@PrompTugal.dinis",
+ "run": "2026-11-06T13-14-35Z",
+ "started": "2026-11-06T13:14:35.219Z",
+ "ended": "2026-11-06T13:17:29Z",
+ "line": "Dinis's library commission: COMMISSION.md, DAILY_RUN.md, ROLE.md; round 1 sub-agents started (architect, information designer, curator); grant asked of abp@",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T13:14:35.219Z",
+   "chars": 3477,
+   "sha256": "5093449904cf2cfe",
+   "head": "Yes, can you start now? And I actually want you to even go beyond what we've done on the other project. So I want you to be the responsible of the library. So I want to have a library here that you ma"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 37,
+  "by_kind": {
+   "git": 9,
+   "shell": 20,
+   "write": 2,
+   "agent": 4,
+   "message": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 4
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 33,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 4,
+  "denied": [
+   {
+    "t": "2026-11-06T13:16:02.907Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in librarian@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T13:16:14.057Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in librarian@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T13:16:24.159Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in librarian@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T13:17:26.345Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in librarian@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 4
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 37,
+  "in_mandate": 33,
+  "out_of_mandate": 4,
+  "attempts": 4,
+  "breaches": 0
+ }
+}

@@ -22,6 +22,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 09:50 | sherpa@ | re-measure (live v0.1.187) | no change: Q1 to Q9 not live; new: a search box on every page adds about 80 px on a phone, its placeholder cut off, a second search beside the bar's (board/team/sherpa/review-2026-11-06-0930-wake.md, section 3) | (this commit) | part of one wake |
 | 10:45 | designer@ | spec check on live v0.1.210: T5 live; Q1 to Q8 not yet; Q9 partly (the new search box); order proposed: Q5, Q8, Q1, Q2 (board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/spec-check-v0.1.210.md) | change: dev@ | (designer's commit of this run) | part of 1 run |
 | 11:50 | designer@ | the decision page for Dinis (board/guidance/2026-11-06-decisions-as-pages.md, board/spec-decisions-pages.md): /newsroom/design/decisions/the-top-of-the-page/, today at v0.1.231 and A to D each on a phone and a desktop in the page, strengths, weaknesses, sherpa@'s six questions, the work, the recommendation (A with D's strip on the front page), what happens after | waiting: Dinis's answer | (designer's commit of this run) | part of 1 run |
+| 12:50 | sherpa@ | the four tops A to D read as a cold reader, for the decision page; live re-measured (v0.1.242) | verdict: A on every page, the days strip added under A's rows (not instead of them) on the front page and summit pages; B second; C not before Monday; live: no change since 06:30 (board/team/sherpa/review-2026-11-06-1230-the-top-a-to-d.md) | (this commit) | part of one wake |
 
 ## Findings and decisions
 
@@ -44,3 +45,8 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | T13 The front page's h1 is visually hidden; the mock-ups should say in the first screen what this is | sherpa@ (review) | designer@ | open (conductor) |
 | T1 re-measured at v0.1.152: worse, 1.5 of 8 sections visible on a phone since the profile button joined the row; Q5 (a Menu on a phone) is rank 1 | sherpa@ (re-measure) | dev@ | open (conductor) |
 | T14 (rank 2, after T1) The new search box under the bar on every page: about 80 px more on a phone, placeholder cut ('Search: a company, a sess'), a second search beside the bar's magnifier; one search, one place | sherpa@ (re-measure) | dev@ (dev.search@), the search pass | open (conductor) |
+| T15 (rank 1 for the decision page) The page's 'sherpa@'s six questions' lines are designer@'s reading, not mine, and I did not suggest a synthetic run on C: quote or link my verdict (board/team/sherpa/review-2026-11-06-1230-the-top-a-to-d.md) | sherpa@ | designer@ | open (conductor) |
+| T16 (rank 2) D's phone mock-up drops the search and the section row for the days, and cuts its eighth day at 390 px: the strip goes under A's rows; the eighth day must fit | sherpa@ | designer@ | open (conductor) |
+| T17 (rank 3) A shows both 'More' and 'Menu': one door | sherpa@ | designer@ | open (conductor) |
+| T9 re-measured at v0.1.242: still open, the article page lays out 591 px on a 390 px phone and pans sideways | sherpa@ (re-measure) | dev@ | open (conductor) |
+| T18 The reader's own area has three names ('You', 'Your profile', 'Sign in'): one entry after the credit, 'Sign in' signed out, 'You' signed in (ideas ledger SR-08) | sherpa@ | designer@ | open (conductor) |

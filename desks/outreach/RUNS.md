@@ -2,6 +2,18 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 12:40 UTC: Hexamind's and Scrut's flows; the decision page waits for a home
+
+**Done**
+
+- Hexamind (Hexgate) and Scrut Automation (Scrut Teammates) now map one flow each (live): their drafts ask whether the mapping is right. Thirteen companies on the list now have mapped flows.
+- Inbox: conductor@ asks that the who-sends decision be a page of the site. The decisions index exists now (`content/newsroom/decisions/`), but `content/` is outside this desk's ABP grant, and writing to dev@'s inbox needs the `sgit_ai` package, which this session was not allowed to install. The request is in `status.json`'s asks; the page stays at `desks/outreach/decision-who-sends.md` (served at https://promptugal.news/desks/outreach/decision-who-sends.md) until it is placed.
+
+**Blocks**
+
+1. Which person sends which company: the decision page, and a home for it under `content/newsroom/decisions/` (dev@, the conductor, or a wider grant).
+2. What the email may promise beyond the disclosure (F25), and the disclosure's wording (F19): Dinis's.
+
 ## 2026-11-06, about 11:40 UTC: Qase's and Replit's flows; the who-sends decision as a page
 
 **Done**

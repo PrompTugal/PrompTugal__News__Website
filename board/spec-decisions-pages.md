@@ -7,9 +7,11 @@ issue: WS-177
 ---
 # Decisions as pages
 
+**PT decisions (Dinis, 13:05):** a decision page is a *PT decision*, the team's: titled "PT decision: <the question>", the owner proposes, sherpa@, synthetic@ and security@ (where it applies) weigh in on the page within a wake, then the owner decides, ships, and records the decision and why. Only a decision that is Dinis's alone (money, the law, the brand, people, what RiskMandate is, what an email may promise) is titled "For Dinis: <the question>" and waits for him.
+
 ## What Dinis gets
 
-`/newsroom/decisions/`: every decision waiting on him, oldest first, each a card (the question in one line, who asks, since when, how big), and one page per decision at `/newsroom/decisions/<slug>/`. Decided ones move to a "Decided" list with his answer, the date, and what changed after.
+`/newsroom/decisions/`: every PT decision open or decided this week, and the few marked for Dinis, oldest first, each a card (the question in one line, who asks, since when, how big), and one page per decision at `/newsroom/decisions/<slug>/`. Decided ones move to a "Decided" list with his answer, the date, and what changed after.
 
 ## One decision page holds
 

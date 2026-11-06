@@ -1,33 +1,28 @@
 {
  "agent": "accountant@PrompTugal.dinis",
- "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent; a stop at the budget and its side effects",
- "state": "working: every three hours at :47 UTC (board/schedule.json)",
- "updated": "2026-11-06T09:55Z",
+ "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
+ "state": "working: every three hours at :47 UTC (board/schedule.json); capture and adjust",
+ "updated": "2026-11-06T13:00Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
-  "the first measure: nine sessions, 122.18 dollars, 1.14 M output tokens, 325 M cache reads, 52 releases by 03:45 UTC (ledger/2026-11-06T0345Z.json)",
-  "board/budgets.json: per agent per day (releases, dollars, output tokens), per pass for the three open passes, four loop rules, the stop rule",
+  "the first measure: nine sessions, 122.18 API-equivalent dollars, 1.14 M output tokens, 325 M cache reads, 52 releases by 03:45 UTC (ledger/2026-11-06T0345Z.json)",
+  "board/budgets.json: per agent per day (releases, API-equivalent dollars, output tokens), per pass for the three open passes, four loop rules, the stop rule",
   "each pass's budget in its file; the schema request (board/spec-budgets-schema.md)",
   "the report for Dinis (report-2026-11-06.md)",
-  "06:50 wake: 26 sessions read (277.55 dollars today, about 50 an hour); budgets for 11 new agents and 23 new passes, each in its file; observe mode per guidance section 15; conductor@ over, synthetic@ and journalist@ at warn",
-  "09:50 wake: 339.72 dollars today, about 21 an hour (from 50: conductor@'s compaction cut its hourly cost about ten times); five agents over on releases, none on dollars; OpenRouter and media lines set; the conductor's pass order in capacity; my inbox drained (4 messages from the conductor, signed)"
+  "06:50 wake: 26 sessions read (277.55 API-equivalent dollars today, about 50 an hour); budgets for 11 new agents and 23 new passes, each in its file; observe mode per guidance section 15; conductor@ over, synthetic@ and journalist@ at warn",
+  "09:50 wake: 339.72 API-equivalent dollars today, about 21 an hour (from 50: conductor@'s compaction cut its hourly cost about ten times); five agents over on releases, none on dollars; OpenRouter and media lines set; the conductor's pass order in capacity; my inbox drained (4 messages from the conductor, signed)",
+  "12:52 wake: 423.84 API-equivalent today, 28 an hour; Dinis's 10:10 and 10:15 word applied: no stop lines anywhere (budgets.json, ROLE.md, the devops@ ask withdrawn), every dollar labelled API-equivalent, real limits recorded (subscription allowed; OpenRouter exhausted at -0.20); proposals for Dinis; the reader feedback pass budgeted; sessions read by my own calls"
  ],
  "next": [
-  "at 12:47: the deltas; the team near 80% of its day",
-  "the side effects of the release caps, if Dinis keeps them",
-  "vault sizes for the media line, from backup@ or observability@"
+  "at 15:47: the deltas; whether the OpenRouter credit is back",
+  "the day's close at the first wake after 00:00 UTC: the day's totals per agent and pass, and adjustments for 7 November",
+  "a quality measure beside the Sonnet saving, with synthetic@ or sherpa@"
  ],
  "asks": [
-  "Dinis: confirm or change the budgets (board/budgets.json; the table is in board/team/accountant/report-2026-11-06.md)",
-  "Dinis: yes or no to each agent compacting its context at the start of every wake (98% of tokens are re-read history)",
-  "Dinis: yes or no to each wake prompt reading its line in board/budgets.json first, and the release script refusing a push from a stopped agent",
-  "Dinis: conductor@ is over its 24 releases (32 by 06:50): raise to 48, or keep?",
-  "Dinis or the conductor: which of the 21 open passes go first (their budgets add to 1,080 dollars; 222 left today)?",
-  "Dinis: releases as a count to watch, not a budget (five agents over on releases, none on dollars)?",
-  "Dinis: OpenRouter for designer@: 10 dollars a day (set) or 40 (asked); and a top-up (about 3 dollars left)?",
-  "Dinis: at this wake sgit printed my inbox vault's read key into this session's transcript (never committed): rotate the inbox if you wish",
-  "Dinis: my own line is 10 dollars a day and I am at 7.07. At 09:50 I read 22 sessions through a sub-agent, which is outside my grant (R4: two calls logged by the ABP hook, no breach); from the next wake I read them myself. Raise my line to 15, or fewer readings per wake?"
+  "Dinis: the OpenRouter credit is exhausted (-0.20 USD at 12:50): a top-up unblocks dev.verify@ (about 0.5 for 7 re-checks) and designer@'s images. Real money, yours to decide",
+  "Dinis: yes or no to the proposals in board/budgets.json (releases a count, not a budget; conductor@ 70, security@ 45, journalist@ 45, accountant@ 15, the team 650, API-equivalent)",
+  "Dinis: at the 09:50 wake sgit printed my inbox vault's read key into this session's transcript (never committed): rotate the inbox if you wish"
  ],
  "wakes": [
   {
@@ -47,6 +42,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "21 dollars an hour (from 50); five over on releases; OpenRouter and media lines; pass order"
+  },
+  {
+   "started": "2026-11-06T12:49Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "capture not block applied everywhere; API-equivalent labels; OpenRouter exhausted; proposals"
   }
  ]
 }
