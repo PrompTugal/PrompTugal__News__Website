@@ -9,7 +9,8 @@
 //   6. key-leak tripwire: no private key, sgit key, vault-key shape or API token in any file (newsroom/build/secrets.cjs)
 //   7. public forever: no email address or phone number in content/, data/ or desks/ (desks/ is served as is)
 //   8. articles: front matter complete (title, date, author, summary, license), a title under 12 words (brief 8),
-//      a markdown twin, and a .sig naming a signer
+//      a markdown twin, and a .sig by an active key in board/keys.json that verifies over the twin without its
+//      version (newsroom/build/signed-form.cjs); an older .sig over the twin as built is a warning until it is re-signed
 //   9. div balance, and no em-dash in prose
 //  10. the shape of the estate: CLAUDE.md, REALITY.md (with the version), BRIEF.md, BRIEF-CORRECTIONS.md, CNAME,
 //      the participant disclosure, and the about page naming the operator
@@ -22,9 +23,11 @@
 const fs = require('fs')
 const path = require('path')
 const { execFileSync } = require('child_process')
+const crypto = require('crypto')
+const SIGNED = require('./signed-form.cjs')
 
 const ROOT = path.resolve(__dirname, '..', '..')
-const errors = []
+const errors = [], warnings = []
 const rel = f => path.relative(ROOT, f).split(path.sep).join('/')
 const cache = new Map()
 const text = f => { if (!cache.has(f)) cache.set(f, fs.readFileSync(f, 'utf8')); return cache.get(f) }
@@ -126,7 +129,8 @@ for (const f of files.filter(f => /^(content|data|desks)\//.test(rel(f)) && !sec
     for (const m of text(f).matchAll(PHONE)) errors.push(`${rel(f)}: a phone-number shape`)
 }
 
-// 8. articles
+// 8. articles (signatures checked against board/keys.json; see newsroom/build/signed-form.cjs)
+const KEYS = (() => { try { return JSON.parse(read('board/keys.json')).keys || [] } catch { errors.push('board/keys.json: missing or not JSON'); return [] } })()
 for (const f of files.filter(f => /^content\/articles\/[^/]+\.md$/.test(rel(f)) && !rel(f).endsWith('/index.md'))) {
     const fm = (text(f).match(/^---\n([\s\S]*?)\n---/) || [, ''])[1]
     if (/^status:\s*draft/m.test(fm)) continue
@@ -137,10 +141,20 @@ for (const f of files.filter(f => /^content\/articles\/[^/]+\.md$/.test(rel(f)) 
     if (!exists(out + '.html') || !exists(out + '.md')) errors.push(`${rel(f)}: no page or markdown twin built`)
     const sig = `${out}.md.sig`
     if (!exists(sig)) { errors.push(`${out}.md: not signed (no ${sig})`); continue }
-    try {
-        const s = JSON.parse(read(sig))
-        if (!/^sha256:[0-9a-f]{16}$/.test(s.fingerprint || '') || !s.signature) errors.push(`${sig}: no signer fingerprint or signature`)
-    } catch { errors.push(`${sig}: not JSON`) }
+    let s
+    try { s = JSON.parse(read(sig)) } catch { errors.push(`${sig}: not JSON`); continue }
+    if (!/^sha256:[0-9a-f]{16}$/.test(s.fingerprint || '') || !s.signature) { errors.push(`${sig}: no signer fingerprint or signature`); continue }
+    // the signer must be a key in board/keys.json, active; a signature over the version-free form must verify
+    const key = KEYS.find(k => k.bundle && k.bundle.signing_fingerprint === s.fingerprint)
+    if (!key) { errors.push(`${sig}: signed by ${s.fingerprint}, which is not in board/keys.json`); continue }
+    if (key.status !== 'active') { errors.push(`${sig}: signed by ${key.id}, whose key is ${key.status || 'not active'} in board/keys.json`); continue }
+    if (s.form === SIGNED.FORM) {
+        if (!exists(out + '.md')) continue
+        let ok = false
+        try { ok = crypto.verify('sha256', Buffer.from(SIGNED.signedForm(read(out + '.md'))), { key: key.bundle.sign, dsaEncoding: 'ieee-p1363' }, Buffer.from(s.signature, 'base64')) } catch (e) { errors.push(`${sig}: cannot verify (${e.message})`); continue }
+        if (!ok) errors.push(`${sig}: the signature by ${key.id} does not verify against ${out}.md (the article changed since it was signed: sign it again with newsroom/tools/sign-article.mjs)`)
+    } else if (s.form) errors.push(`${sig}: unknown form "${s.form}"`)
+    else warnings.push(`${sig}: signed by ${key.id} over a twin with its version in it, so it cannot be verified after a release; sign it again with newsroom/tools/sign-article.mjs`)
 }
 
 // 9. div balance; no em-dash in prose
@@ -191,6 +205,7 @@ for (const f of html) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date || '')) errors.push(`${rel(f)}: page-date "${date}" is not a date`)
 }
 
+for (const w of warnings) console.error('WARN ' + w)
 if (errors.length) {
     for (const e of errors) console.error('FAIL ' + e)
     console.error(`${errors.length} problem(s); the gate is red`)
