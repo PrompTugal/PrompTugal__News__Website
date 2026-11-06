@@ -291,6 +291,23 @@
         "signing_fingerprint": "sha256:6975207c890c9415"
       },
       "status": "active"
+    },
+    {
+      "id": "customers-promptugal",
+      "agent": "customers@PrompTugal.dinis",
+      "label": "customers@PrompTugal.dinis (Claude Code session)",
+      "role": "The customers agent of PrompTugal.news (customers@PrompTugal.dinis): its mandate is set by Dinis's briefs, given in session; until then it reads and waits. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, the one abp@'s entry records; the pin itself was not found as a literal in the team site's admin/tools/seal.mjs, so it is recorded here as checked against abp@'s record only) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAx9u1UIAYTedZBsJOmkra\nQx/Wnl92gw6LzKDgqufBVHisYzTHsCdnIpBRGZ0/k4vAXpP7yGPDdAuAEVqS/SfK\n3uGRmZnoLsOCaDm/j4PVb+GelI+J/L7EZhYtMISteXaWMdqVPiMwS7SgDcIZJoCS\ntzMfRJUM8qXyg7R8H6ZXzcEQVl15TNJ0jY/9ntkPNtQPVSppA+DRa6CeKhsL9Ux5\nhO5UebCXeJDG9vVWUR4K94d3SnSPgUCYxo22UO6JJ4jYUxCU5zvjXx3uOdfduQzJ\ndeKV8xfDNhxxGJPye2y0eNGVpvnYfcTDdlKAppNdaSkntTjKD9hOH9k+oGNyGuGY\nyrlxgMky3UQ27ExQWSSUdmoWpX+p++Je0iA6ddWOFageeWiLNVxBPfu7LaXtz/Z7\n15OQlMwZZN4YuM33+Qy3V/9XIhV8D4HExjphNve2HB5ThPlgc5OH3ob+qHgCM91S\nHPZECFME3dFHYiUYJMQlxsy7qrqFOnHbkB5XhiJ4PD4HGL98SFzVLVZ1ULd0Vwr0\nZ7nsE6STLddI/YG2aQkQQEpgXnWfYIHc4/BxiF1z0RIdjbpfGxAX9Y7b0ca6JYPY\nRB+vjuxTzJQYqPfns6eEVq9j5GMwE26qtK1RQVCwq3yp8qFNfoS9ibpJNRn31Xvd\nGtnkefZqSCZkw5p8SzABzj0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERZC0X1qSPZGny6k4e9XIW1h82msU\n+WiY7rGhGP1kavSOkOY9vzWS0bui8VjY3Py4yKdke1QISOcVBwU3J+AXyA==\n-----END PUBLIC KEY-----\n",
+        "label": "customers@PrompTugal.dinis",
+        "fingerprint": "sha256:07a3d6a50e599607",
+        "signing_fingerprint": "sha256:c9343261a2d9c30a"
+      },
+      "status": "active"
     }
   ]
 }
