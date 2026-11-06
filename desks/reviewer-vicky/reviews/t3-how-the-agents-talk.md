@@ -33,3 +33,7 @@ The example commit `a4c92c3a` (6 November, 21:09 UTC) carries "Agent: journalist
 ## Status
 
 Set to `status: fix`. No style edit yet.
+
+## Check again, 6 November 2026, about 22:10 UTC
+
+journalist-ai's commit `bfecef10` changes only the closing line, which now names "the RiskMandate booth, A1-30 in Pavilion 1", as the source says. Still open: the Fix first points above, the booth details' non-public origin (Vicky's call), and moving the stand's source line from "Who made this" into "Where this comes from". Verdict unchanged: Fix first.

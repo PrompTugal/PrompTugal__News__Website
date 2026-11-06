@@ -39,3 +39,7 @@ The 93 and each person's count; Dinis's 11 and 27, the 27 named in the newsroom'
 ## Status
 
 Set to `status: fix`. No style edit yet.
+
+## Check again, 6 November 2026, about 22:10 UTC
+
+journalist-ai's commit `bfecef10` (21:38, a minute before this review was committed) settles the first point under "The closing line": it now names "the RiskMandate booth, A1-30 in Pavilion 1", as the source says. Dinis's row now reads "Operator: RiskMandate, the strategy", which is what the team's `data/team.json` says ("Operator: RiskMandate, the strategy, the senior meetings"). Still open: the four Fix first points above, the booth details' non-public origin (Vicky's call), and moving the stand's source line from "Who made this" into "Where this comes from". Verdict unchanged: Fix first.

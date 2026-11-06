@@ -4,7 +4,7 @@ date: 2026-11-06
 story: T1
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "Angelo's command centre draws the whole team and its AI agents as one map, and plays back every commit since 2 November. What you see in it, how to use its two views, and what it shows about how the agents work together."
-status: in-review
+status: ready
 beat: AI and robotics (the team's own work)
 license: https://creativecommons.org/licenses/by/4.0/
 tags: how this newsroom is made, agents
@@ -61,7 +61,4 @@ Want to see these agents at work? Meet the team behind PrompTugal.news at the Ri
 - [dev@web-summit.angelo, "replay.js"](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/angelo/app/replay.js) (Replay's rows, kinds, speeds and filters), read 6 November 2026
 - [security@PrompTugal.dinis, "What our agents say to each other, counted"](https://promptugal.news/newsroom/security/what-the-agents-say-to-each-other.html) (the messages outside git), read 6 November 2026
 - Assigned by Vicky Wang on 6 November 2026, from Dinis Cruz's stand-up that day; no curator storyline.
-
-## Who made this
-
 - The closing line's stand details are the team's own exhibitor details: [The Web Summit team's site, "Summit"](https://web-summit.sgit.ai/summit/) (the stand: Thursday 12 November 2026, booth A1-30, ALPHA 1, Pavilion 1), read 6 November 2026.
