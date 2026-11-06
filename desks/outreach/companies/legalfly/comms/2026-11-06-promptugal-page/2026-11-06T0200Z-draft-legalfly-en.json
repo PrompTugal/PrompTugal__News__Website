@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0200Z-draft-legalfly-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T02:00:00Z",
+ "from": "Vicky Wang, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "LEGALFLY: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "LEGALFLY on PrompTugal.news, before Web Summit",
+ "sha256": "da590c4819c2343cbe18987d3dc80e464e1ec1947317deec6653bda6bbc47ea8",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to LEGALFLY leading with its page (https://promptugal.news/companies/legalfly/); asks: write-about (company).",
+ "followups": {
+  "2026-11-09": "Hello again LEGALFLY team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/legalfly/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello LEGALFLY team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/legalfly/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

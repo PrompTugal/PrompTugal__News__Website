@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0200Z-draft-trent-ai-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T02:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Trent AI: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Trent AI on PrompTugal.news, before Web Summit",
+ "sha256": "503b7eb8da25a3d414dbd4c4381a13f1cbe02ae4a69854004a5f9ab906cf8034",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Trent AI leading with its page (https://promptugal.news/companies/trent-ai/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again Trent AI team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/trent-ai/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Trent AI team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/trent-ai/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

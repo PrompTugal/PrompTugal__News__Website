@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0200Z-draft-cnext-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T02:00:00Z",
+ "from": "Vicky Wang, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Cnext: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Cnext on PrompTugal.news, before Web Summit",
+ "sha256": "e256a5f74c9b23dda01dcc90f8d34472b8d655432f9633d6d3fb4ff84c1ae0ec",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Cnext leading with its page (https://promptugal.news/companies/cnext/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again Cnext team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/cnext/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Cnext team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/cnext/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

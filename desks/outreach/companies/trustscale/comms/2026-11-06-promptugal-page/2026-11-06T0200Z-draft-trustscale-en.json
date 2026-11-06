@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0200Z-draft-trustscale-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T02:00:00Z",
+ "from": "Vicky Wang, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "TrustScale: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "TrustScale on PrompTugal.news, before Web Summit",
+ "sha256": "bfc1c7dd9554664c6356039ea032eda75b12e98f4022bbe198e00f2c831aa78e",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to TrustScale leading with its page (https://promptugal.news/companies/trustscale/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again TrustScale team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/trustscale/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello TrustScale team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/trustscale/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

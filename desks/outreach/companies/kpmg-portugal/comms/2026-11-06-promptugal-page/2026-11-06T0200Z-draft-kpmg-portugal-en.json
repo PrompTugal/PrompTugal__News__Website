@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0200Z-draft-kpmg-portugal-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T02:00:00Z",
+ "from": "Dinis Cruz, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "KPMG: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "KPMG on PrompTugal.news, before Web Summit",
+ "sha256": "92cf36ef23e6ab133601dad1077eecd06fa4130a85daed3372c60ce6bf35cd71",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to KPMG leading with its page (https://promptugal.news/companies/kpmg-portugal/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again KPMG team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/kpmg-portugal/\n\nBest regards,\nDinis Cruz, PrompTugal.news",
+  "2026-11-11": "Hello KPMG team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/kpmg-portugal/\n\nThis is our last note. Best regards,\nDinis Cruz, PrompTugal.news"
+ }
+}
