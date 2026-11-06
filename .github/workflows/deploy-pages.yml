@@ -9,6 +9,11 @@
 #                 runs the gate again on that tree, commits as GitHub Actions ("site vX.Y.Z: <subject>"),
 #                 tags it and pushes; then deploys exactly that tree. A dropped pending run is harmless:
 #                 its commits ride the next release. A manual dispatch builds and deploys without a number.
+#   3. deploy:    actions/deploy-pages waits at most 4 minutes (a deploy takes about 10 seconds). If Pages sticks in
+#                 "syncing_files" (as v0.1.87's did on 6 November 2026, 03:21 to 03:30 UTC, until the job's timeout
+#                 cancelled it while five pushes waited), the stuck deployment is cancelled and the same artifact is
+#                 deployed once more; if that fails too, the job fails red rather than timing out. devops@PrompTugal.dinis,
+#                 board/team/devops/health-2026-11-06.md.
 name: deploy-pages
 on:
   push:
@@ -38,7 +43,8 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # tag and build about 30s, then up to two deploys of 4 minutes each (step 3 above)
+    timeout-minutes: 12
     needs: [validate]
     # Never from a PR. One release at a time; a pending run may be dropped, which is harmless.
     if: github.event_name != 'pull_request'
@@ -51,7 +57,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.redeploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -81,3 +87,19 @@ jobs:
           enablement: true
       - id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 240000
+      - name: The deploy failed or stuck; cancel that Pages deployment (it would block the retry)
+        if: steps.deployment.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "::warning::the Pages deploy of ${GITHUB_SHA:0:9} failed or did not finish in 4 minutes; cancelling it and deploying once more"
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/deployments/$GITHUB_SHA/cancel" >/dev/null || echo "nothing to cancel"
+          sleep 5
+      - id: redeploy
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 240000

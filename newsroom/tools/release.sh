@@ -50,9 +50,15 @@ for i in $(seq 1 36); do
   git fetch -q --tags origin "$BRANCH"
   TAG=$(git tag --contains "$MINE" --list 'v*' | sort -V | head -1 || true)
   if [ -n "$TAG" ]; then
-    LIVE=$(curl -s "https://$HOST/llms.txt" | grep -o 'v[0-9]*\.[0-9]*\.[0-9]*' | head -1 || true)
+    LIVE=$(curl -s -H 'Cache-Control: no-cache' "https://$HOST/llms.txt?release=${MINE:0:9}-$i" | grep -o 'v[0-9]*\.[0-9]*\.[0-9]*' | head -1 || true)
     if [ "$(printf '%s\n%s\n' "$TAG" "${LIVE:-v0.0.0}" | sort -V | tail -1)" = "${LIVE:-}" ]; then echo "live: $HOST serves $LIVE (your commit is in $TAG)"; exit 0; fi
   fi
   sleep 10
 done
-echo "release.sh: pushed, but no live release contains ${MINE:0:9} after 6 minutes: check the deploy-pages run"; exit 1
+# say which half is late: CI numbering it (a run queued or dropped: its commits ride the next one), or Pages serving it
+if [ -n "${TAG:-}" ]; then
+  echo "release.sh: CI released ${MINE:0:9} as $TAG, but $HOST still serves ${LIVE:-nothing readable} after 6 minutes: the Pages deploy is late or stuck (check the deploy-pages run; it retries once)"
+else
+  echo "release.sh: pushed ${MINE:0:9}, but no release contains it after 6 minutes: its deploy-pages run is queued behind another or was dropped (its commit rides the next release)"
+fi
+exit 1
