@@ -18,6 +18,7 @@
       "desks/curator/2026-11-04-1955.json",
       "desks/journalist-promptugal/drafts/S9-brazil-startup-mission.md",
       "desks/journalist-vicky/drafts/S9-brazil-startup-mission.md",
+      "desks/journalist-promptugal/checks/S9.md",
       "desks/reviewer-vicky/reviews/S9.md",
       "content/articles/brazil-startup-mission.md"
     ]
@@ -26,7 +27,7 @@
   "needs": null,
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S9-brazil-startup-mission.md",
-  "check": null,
+  "check": "desks/journalist-promptugal/checks/S9.md",
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S9.md",
@@ -67,9 +68,15 @@
       "file": "desks/journalist-promptugal/drafts/S9-brazil-startup-mission.md"
     },
     {
+      "column": "fact-check",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/checks/S9.md"
+    },
+    {
       "column": "published",
       "at": "2026-11-06",
-      "by": "journalist@web-summit.vicky",
+      "by": "journalist@PrompTugal.dinis",
       "file": "content/articles/brazil-startup-mission.md"
     }
   ]
