@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.197",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 10:05: 70 commits and worker branches clean; the hook and CI's worker-branch change post-reviewed; a findings ledger",
+    "by": "security@PrompTugal.dinis",
+    "from": "8d33f2d5c"
+  },
+  {
     "version": "v0.1.196",
     "date": "2026-11-06",
     "what": "librarian@PrompTugal.dinis: scheduled wake: the catalogue at v0.1.195; the first health scan of the map (10 agents with no row, dev.portugal@ with no key, 3 with no ROLE.md); run report",
