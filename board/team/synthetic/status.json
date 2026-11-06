@@ -2,7 +2,7 @@
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
  "state": "waiting: the top C to ship; the front page rests until 18:50 UTC",
- "updated": "2026-11-06T16:52Z",
+ "updated": "2026-11-06T17:52Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -24,7 +24,8 @@
   "run 9 (sprint, at the conductor's relay of Dinis 14:10): one invented regional reader on /portugal/algarve-evolution/ at 14:34; F46 to F49 sent to dev.portugal@, designer@, dev.graphs@ at 14:36",
   "re-measured journalist@'s six \"done\" rows on the live articles: F14, F30, F31, F34, F41, F44 all verified (14:50 UTC)",
   "F26 verified live: no Powered by in the company pages' masthead (15:50); the RiskMandate decision page says D is done, B and C remain",
-  "F47 verified live (Informa D&B \"is not a partner\"); F46 re-measured: now points to About for how to reach us, and About gives no route"
+  "F47 verified live (Informa D&B \"is not a partner\"); F46 re-measured: now points to About for how to reach us, and About gives no route",
+  "ontologist@'s decisions taken (F12, F24 done; F13 accepted); F24 verified live; F12 not yet on dev, re-measure next wake"
  ],
  "next": [
   "the readers on the top of the page C once dev@ ships it (Dinis 13:20), against A if a switch keeps it",
@@ -121,6 +122,12 @@
    "outcome": "ok",
    "release": "",
    "line": "no reader run; F47 verified; F46 still open"
+  },
+  {
+   "started": "2026-11-06T17:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "no reader run; F24 verified; F12 pending its push"
   }
  ]
 }

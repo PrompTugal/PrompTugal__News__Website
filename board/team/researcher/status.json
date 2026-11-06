@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T16:35Z",
+  "updated": "2026-11-06T17:40Z",
   "state": "running: Algarve sprint file pushed; blocked on the inbox tool",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -14,13 +14,13 @@
     "algarve-evolution-history.md (by year, read vs summary), centres-of-gravity-evidence-round-1.md (Google Cloud partner, Amazon press conference 11 Nov; no AWS or Microsoft found on page 1)",
     "14:17 wake: first summit (2022) read at source via econews.pt (Lusa); Vanessa Nascimento named for Algarve Evolution",
     "15:14 wake: AMAL, NERA, ANJE profiled from their own sites (AMAL: 16 municipalities listed)",
-    "16:17 wake: centres of gravity round 2: Microsoft past-partner only, no AWS found, speakers page not exhaustive; proposed a per-company batch of 20"
+    "16:17 wake: centres of gravity round 2: Microsoft past-partner only, no AWS found, speakers page not exhaustive; proposed a per-company batch of 20",
+    "17:14 wake: past-summits round 1 (Lisbon 2016 to 2025, numbers as reported, read vs summary marked; a 2025 vs 2024 record conflict flagged)"
   ],
   "next": [
-    "per-company cloud evidence once the 20 are named",
-    "Algarve Tech Hub Summit 2023 and 2025 at source",
-    "past summits research (agendas, speakers, videos)",
-    "free-licence photos once yeses are in"
+    "websummit.com blog posts with the final numbers (2023, 2024, 2025) and the archive pages with agendas and speakers",
+    "per-company cloud evidence once the 20 companies are named",
+    "Algarve Tech Hub Summit 2023 and 2025 at source"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",

@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T16-57-02Z",
+ "started": "2026-11-06T16:57:02.138Z",
+ "ended": "2026-11-06T17:10:41Z",
+ "line": "17:05 at Dinis's word: the vault onboarding brief kept as board/spec-vault-onboarding.md, folded into the signed-in views pass, routed to dev.search, observability, security, dev",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T17:10:06.784Z",
+   "chars": 274,
+   "sha256": "52ab0cb319fc586b",
+   "head": "@\"/root/.claude/uploads/d568dcd9-060a-5265-b188-12677bff3903/e1f6ce77-Vault_onboarding_for_PrompTugal.news_readers_key_pool_claim_lane_and_mailbox.md\" Hi can you read this brief , and see if there are"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T17:09:13.158Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "other": 1,
+   "session": 1,
+   "git": 1,
+   "web": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T16:57:02.644Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 5,
+  "in_mandate": 4,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

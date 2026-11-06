@@ -13,6 +13,14 @@
         "url": "https://www.portugalglobal.pt",
         "status": 200
       }
+    },
+    {
+      "checked_at": "2026-11-06T17:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/sessions/lis26/2f8c4adf-ebea-46d7-b876-1b9bd5a6c1dc/aicep-connecting-portuguese-startups-to-global-markets-hosted-by-aicep/",
+        "status": 404
+      }
     }
   ]
 }

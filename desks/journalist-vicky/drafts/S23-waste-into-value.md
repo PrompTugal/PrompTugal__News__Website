@@ -4,7 +4,7 @@ date: 2026-11-06
 story: S23
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: Two young Portuguese companies turn waste into something useful. AgroGrINTech makes a fish feed ingredient from pineapple by-products; Seamoretech recovers freshwater and minerals from desalination brine. Both build on university research.
-status: draft
+status: dropped
 beat: "Connections: Portugal"
 license: https://creativecommons.org/licenses/by/4.0/
 tags: connections, portugal, circular economy, agrogrintech, seamoretech, cleantech, aquaculture
