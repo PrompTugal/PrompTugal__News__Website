@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.348",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: spec check of the live front page against A, eleven differences for dev@ and dev.pages@",
+    "by": "designer@PrompTugal.dinis",
+    "from": "4821bffa2"
+  },
+  {
     "version": "v0.1.347",
     "date": "2026-11-06",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
