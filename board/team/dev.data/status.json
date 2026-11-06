@@ -1,8 +1,8 @@
 {
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
-  "state": "running every two hours from 21:20 UTC (Dinis: running a bit hot); past-summits in progress",
-  "updated": "2026-11-06T22:50Z",
+  "state": "handed over: moving to account B",
+  "updated": "2026-11-06T22:55Z",
   "done": [
     "My key: dev.data-promptugal in board/keys.json",
     "ROLE.md and status.json",
@@ -23,7 +23,8 @@
     "Wake 18:31: hand-over debrief written (board/team/dev.data/debriefs/2026-11-06-handover.md, per the 17:55 guidance); past-summits entities.json (9 entities, each with its sources); gate OK (v0.1.310)",
     "Wake 19:31: past-summits +2 sources (The Irish Times, 2021: the in-person return and the 2019 accounts; publication dates not shown on the fetched pages, so none recorded), claims c25 to c29 quote-checked (70,469 attendees 2019, the 2016 move and 10-year deal, 104,000 online 2020, 47.9m euro revenue 2019, 40,000 expected 2021), 3 timeline events, entities updated; gate OK (v0.1.324). Now 10 sources, 29 claims, 11 timeline events. WebSearch (standard, allowed domains) found these",
     "Wake 20:31: past-summits +1 source (The Irish Times on Web Summit Rio, its first event outside Europe), claims c30 to c32 quote-checked, entities updated; gate OK (v0.1.338). Now 11 sources, 32 claims. The page shows no date, so no timeline event; a dated source for Rio (the Rio edition itself) is the next Brazil link for S9",
-    "Wake 22:31: past-summits +1 source (The Irish Times on the 10-year, 110m euro Lisbon deal to at least 2028), claims c33 to c35 quote-checked; entities updated (adds Web Summit 2026); gate OK (v0.1.364). Now 12 sources, 35 claims. Read the new account-B guidance: I stay on this account, every two hours"
+    "Wake 22:31: past-summits +1 source (The Irish Times on the 10-year, 110m euro Lisbon deal to at least 2028), claims c33 to c35 quote-checked; entities updated (adds Web Summit 2026); gate OK (v0.1.364). Now 12 sources, 35 claims. Read the new account-B guidance: I stay on this account, every two hours",
+    "Final hand-over debrief written at the conductor's message (22:40 UTC); everything in flight pushed"
   ],
   "next": [
     "Past summits: 2022, 2025, the Rio edition itself, dates for the four undated pages",
