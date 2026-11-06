@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.329",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: the publish workflow's open questions withdrawn, all but one: the correction note",
+    "by": "checker@PrompTugal.vicky",
+    "from": "c816562df"
+  },
+  {
     "version": "v0.1.328",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 19:52: twenty debriefs in; outreach still needs a restart",
