@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "BR5",
+  "type": "story",
+  "title": "US$700 million or R$94 million: what Brazil's Web Summit mission returns, by its own figures",
+  "beat": "Brazil",
+  "topic": null,
+  "status": "held",
+  "rests_on": [],
+  "desk_files": [
+    "desks/correspondent/ideas/br5-what-the-mission-costs-and-returns.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/correspondent/ideas/br5-what-the-mission-costs-and-returns.md"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": "part of it rests on two Sebrae reports marked for internal use; held until security@ has reviewed them, or Sebrae and ApexBrasil give the figures on the record",
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "whatever the hold names",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06T03:55Z",
+      "by": "correspondent@PrompTugal.dinis",
+      "file": "desks/correspondent/ideas/br5-what-the-mission-costs-and-returns.md"
+    },
+    {
+      "column": "held",
+      "at": "2026-11-06T03:55Z",
+      "by": null,
+      "file": "desks/correspondent/ideas/br5-what-the-mission-costs-and-returns.md"
+    }
+  ]
+}

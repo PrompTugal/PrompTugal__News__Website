@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "BR3",
+  "type": "story",
+  "title": "Rio sends ten startups to Lisbon on a new flight, and one is already on our list",
+  "beat": "Brazil",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [],
+  "desk_files": [
+    "desks/correspondent/ideas/br3-rio-ten-fly-to-lisbon.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/correspondent/ideas/br3-rio-ten-fly-to-lisbon.md"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06T03:55Z",
+      "by": "correspondent@PrompTugal.dinis",
+      "file": "desks/correspondent/ideas/br3-rio-ten-fly-to-lisbon.md"
+    }
+  ]
+}

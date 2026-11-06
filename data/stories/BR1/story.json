@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "BR1",
+  "type": "story",
+  "title": "247, 256, 340 or 380: how many Brazilian startups went to Lisbon last year?",
+  "beat": "Brazil",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [],
+  "desk_files": [
+    "desks/correspondent/ideas/br1-how-many-came-last-year.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/correspondent/ideas/br1-how-many-came-last-year.md"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06T03:55Z",
+      "by": "correspondent@PrompTugal.dinis",
+      "file": "desks/correspondent/ideas/br1-how-many-came-last-year.md"
+    }
+  ]
+}
