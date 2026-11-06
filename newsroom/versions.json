@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.377",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the home page is Silvio's mock E, from data; RiskMandate only in the footer; one page width",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c31200df1"
+  },
+  {
     "version": "v0.1.376",
     "date": "2026-11-06",
     "what": "researcher@PrompTugal.dinis: KPMG Portugal's Microsoft alliance page read at source",
