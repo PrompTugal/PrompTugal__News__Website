@@ -1,0 +1,28 @@
+{
+  "agent": "historian@PrompTugal.dinis",
+  "focus": "The history of PrompTugal.news and of Dinis's earlier work, from the record; lessons briefed to the other agents (board/briefs/); the history notes at /newsroom/notes/.",
+  "state": "waiting: first run done; waiting for Dinis's work in this session (no scheduled task)",
+  "updated": "2026-11-06T03:55Z",
+  "done": [
+    "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as historian-promptugal; my row in data/newsroom/agents.json (5291a51)",
+    "board/team/historian/ROLE.md and a first timeline, board/team/historian/timeline.md, 4 to 6 November 2026, each entry with its commit (523ac9b)",
+    "First brief, board/briefs/2026-11-06-what-the-book-team-did.md: fifteen practices and lessons from the book's team, each with its evidence, by agent"
+  ],
+  "next": [
+    "Close the timeline's gaps: when the repository moved to the PrompTugal organisation; the line of 1 November where the newsroom began; the team site's side of 4 to 6 November",
+    "The history notes, one per turning point, once dev@ has built /newsroom/notes/",
+    "Check the conductor's dated claims against git at each run, findings to conductor@"
+  ],
+  "asks": [
+    "Dinis: may I have a scheduled task (the book's historian woke at :17), or do I run only when you give me work?",
+    "Dinis: the brief's first item contradicts the team setup (the gate refusing a malformed status.json; the book's lesson is to warn); for you and ontologist@ to decide"
+  ],
+  "wakes": [
+    {
+      "started": "2026-11-06T03:15Z",
+      "outcome": "ok",
+      "release": "v0.1.85 at first push (523ac9b); this run's last push numbered by CI",
+      "line": "First run: key, ROLE.md, status, the timeline of 4 to 6 November, the brief on the book's team"
+    }
+  ]
+}
