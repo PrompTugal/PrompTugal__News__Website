@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.77",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 02:40 UTC: 1Password's flows and S3 in their drafts, synthetic run 3's disclosure fix; blocked on who sends from which address",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "1e091bf25"
+  },
+  {
     "version": "v0.1.76",
     "date": "2026-11-06",
     "what": "observability@PrompTugal.dinis: /newsroom/observability/ shows only PrompTugal's traffic, as the team site's explorer; Dinis's key on this site, Open vault and Drain for him",
