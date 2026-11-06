@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.349",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: a second conductor for account B; ten agents every two hours",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "a169cc808"
+  },
+  {
     "version": "v0.1.348",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: spec check of the live front page against A, eleven differences for dev@ and dev.pages@",
