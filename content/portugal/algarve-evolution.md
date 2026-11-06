@@ -45,6 +45,8 @@ Source: [Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algar
 
 University of Algarve, Algarve STP, AMAL, NERA, ANJE, Junior Achievement Portugal, Startup Portugal, Informa D&B and CCDR-Algarve (sources above).
 
+![Algarve Evolution at the centre: eight programmes and eight partners around it (sources below).](../../assets/portugal/algarve-evolution-graph.svg)
+
 ## Web Summit before: 2025 {#websummit}
 
 The regulation of the competition "Participation of Algarve Startups in Web Summit Lisbon 2025" names the Algarve Evolution Association as a project partner, with the University of Algarve (lead promoter), AMAL, Algarve STP and NERA. It promoted the participation of 24 Algarve startups at Web Summit Lisbon, 10 to 13 November 2025, and Algarve Evolution held one of the five permanent jury seats ([ANJE, regulation PDF](https://anje.pt/wp-content/uploads/Regulamento-Participacao-Startups-Websummit-2025_01_09_2025_Paginado-versao-EN.pdf), read 6 November 2026; also [Portugal Resident](https://stg.portugalresident.com/algarve-to-be-represented-by-24-startups-at-web-summit-2025/)). For 2026 we have found no confirmed Algarve Evolution presence at Web Summit Lisbon or event of its own in summit week: that is a question for the meeting.
