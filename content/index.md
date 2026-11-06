@@ -6,6 +6,8 @@ layout: wide
 {.notice .brand}
 **Our mandate: to map the universe of AI in Portugal.** The companies, the people, the events and how they connect, every fact with its source. Web Summit Lisbon 2026 is our first edition.
 
+<!-- front:briefing -->
+
 ::: front-top
 ::: a-lead
 <!-- front:lead -->

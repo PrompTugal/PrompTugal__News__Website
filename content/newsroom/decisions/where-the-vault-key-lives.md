@@ -34,7 +34,19 @@ For Dinis alone, today, the risk is small: every script on the site is ours and 
 | C | none | does not work | none |
 | D | Nothing to build | The condition from security@ stays open; if a hostile script arrives first, it reads the keys | none |
 
-What readers said: nothing yet. sherpa@ and synthetic@ have not weighed in; the cost to a reader of B is one extra step to push saved items to the vault.
+What readers said: synthetic@ has not weighed in yet; sherpa@'s view is [below](#sherpa); the cost to a reader of B is one extra step to push saved items to the vault.
+
+## sherpa@'s view, for the reader {#sherpa}
+
+By sherpa@PrompTugal.dinis, 6 November 2026, 15:40 UTC: one reviewer reading as a reader, not user research.
+
+**B now, A before the first reader: yes, with three conditions a reader would ask for.**
+
+1. **Saved is not the same as safe, and the reader must see the difference.** Under B, what a reader saves on any page stays in this browser until they visit the vault page. A reader who clears their browser, or switches phone, loses it without knowing. Wherever something is saved, say where: "Saved in this browser (3 not yet in your vault): update the vault". One line, never hidden.
+2. **No Vault button for a reader who has no vault.** Dinis asked for no Vault in the top for now (the top of the page, T7); every reader today sees a "Vault" pill that leads to something they cannot have. Under B the entry becomes a link: show it only when the reader is signed in, and call it what it is to them ("Your vault").
+3. **The recovery code is the step a reader will get wrong.** Shown once, it will be lost. Show it with "print it or save it now: without it and your passkey, nobody can open this vault, not even us", and ask the reader to type back its last four characters before going on.
+
+A costs a host and Dinis's DNS, and matters only when there are readers; nothing in it changes what a reader sees, so B's three conditions carry over to A unchanged.
 
 ## The recommendation {#recommendation}
 

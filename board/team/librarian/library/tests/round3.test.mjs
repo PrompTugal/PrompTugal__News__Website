@@ -49,15 +49,25 @@ test('the graph files validate against the explorer shape: keys, index bounds, v
   const ex = path.join(root, 'api/v1/graph/explorer.json')
   if (fs.existsSync(ex)) {
     const site = readJ(ex)
-    assert.deepEqual(Object.keys(lib_), Object.keys(site))
+    assert.deepEqual(Object.keys(lib_).filter((k) => k !== 'presets'), Object.keys(site))
     assert.deepEqual(Object.keys(lib_.verbs[0]), Object.keys(site.verbs[0]))
     assert.deepEqual(Object.keys(lib_.worlds[0]), Object.keys(site.worlds[0]))
-    assert.deepEqual(Object.keys(lib_.types[0]), Object.keys(site.types[0]))
+    assert.deepEqual(Object.keys(lib_.types[0]).filter((k) => k !== 'shape' && k !== 'color'), Object.keys(site.types[0]))
     assert.equal(lib_.edges[0].length, site.edges[0].length)
     // every node field is one the explorer's node has, or one of the library's own named extras
     const allowed = new Set([...site.nodes.flatMap((n) => Object.keys(n)), 'call', 'date', 'by', 'status', 'category', 'kind', 'what'])
     for (const n of lib_.nodes) for (const k of Object.keys(n)) assert.ok(allowed.has(k), `node field ${k}`)
   }
+  // round 4: each type carries its look and each graph its own presets, in the shape of PRESETS in assets/graph/engine.js
+  for (const g of [lib_, tree]) {
+    for (const t of g.types) { assert.match(t.shape, /^[a-z-]+$/, t.id); assert.match(t.color, /^#[0-9a-fA-F]{6}$/, t.id) }
+    assert.ok(g.presets.length >= 3 && g.presets.every((p) => p.key && p.label && p.state && p.state.view === 'whole' && Object.keys(p).length === 3))
+  }
+  const handPresets = readJ(path.join(o.libDir, 'graph/presets.json')).presets
+  assert.deepEqual(lib_.presets.map((p) => p.key), Object.keys(handPresets).filter((k) => handPresets[k].data === 'library'))
+  assert.deepEqual(tree.presets.map((p) => p.key), Object.keys(handPresets).filter((k) => handPresets[k].data === 'reality'))
+  assert.equal(lib_.presets[0].state.top.n, 60, 'the desktop opens on the 60 most connected')
+  assert.equal(lib_.presets.find((p) => p.key === 'overview-phone').state.top.n, 30)
   // the facet fields the explorer reads are among the node fields it filters on
   const graphJs = fs.readFileSync(path.join(root, 'newsroom/build/features/graph.mjs'), 'utf8')
   const facet = /const FACET_FIELDS = \[(.*?)\]/.exec(graphJs)

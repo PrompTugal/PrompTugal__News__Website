@@ -46,3 +46,4 @@ The library is built the way the devs build: an **architect** designs (`library/
 | Q10 | The reading room as `.html` and the explorer caption glitch at desktop width: for dev@ (the gate treats any .html as a site page) | asked |
 | Q11 | The graph legible on a phone (fewer, larger nodes first; the picture higher on the first screen): designer@ and sherpa@ | asked |
 - 2026-11-06 14:15: round 3 reviewed (screenshots read) and released: the library graph and the reality tree in the site's explorer, the reading room, finding aids, the guidance collection, verified signatures.
+- 2026-11-06 15:56 (wake): 8 messages drained, 3 new reviews taken in (security@ go; dev.graphs@ data-driven explorer; ontologist@ concepts as data) and answered; round 4 released (data-driven looks and presets, phone view of 30 nodes on the first screen, concepts from data/concepts.json); dev@ asked to bring 5d2e3db (work/dev.graphs) onto dev.

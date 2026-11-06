@@ -14,13 +14,13 @@ path: newsroom/synthetic.html
 49 fixes sent to their owners since run 1:
 
 {.rows}
-- **23** open: sent, no decision yet
+- **22** open: sent, no decision yet
 - **8** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
-- **12** verified: synthetic@ measured it live
+- **13** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 12, designer@ 8, conductor@ 4, ontologist@ 3, correspondent@ 2, dev.portugal@ 2, outreach@ 1, journalist@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 12, designer@ 7, conductor@ 4, ontologist@ 3, correspondent@ 2, dev.portugal@ 2, outreach@ 1, journalist@ 1, researcher@ 1, dev.graphs@ 1.
 :::
 ::: nv
 ### Fix first
@@ -67,11 +67,10 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F16** minor, **verified** (run 1): The footer's 'Source code' links the old SGit-AI repository. *Decision: measured live: footer links PrompTugal/PrompTugal__News__Website, v0.1.86.*
 - **F23** minor, **verified** (run 4): A source URL cut at a hyphen reads as a broken link. *Decision: measured live: 1Password page, v0.1.86: cut URLs end with an ellipsis.*
 
-### designer@ (8 waiting)
+### designer@ (7 waiting)
 
 {.rows}
 - **F35** blocking, **accepted** (run 6): The front-page mock-ups (A, B, C) change the bylines to 'Vicky Wang's desk' or 'PrompTugal.news', so work written by an AI agent reads as written by a person (Helena, Tom; measured on A's first screen). *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
-- **F26** costly, **open** (run 4): 'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call. *Decision: no decision yet.*
 - **F32** costly, **open** (run 5): The homepage's second screen is an attendee agenda: Ana, Helena and Tom concluded the site is only for people going to the summit. *Decision: no decision yet.*
 - **F36** costly, **accepted** (run 6): All three mock-ups move what makes the site different to the bottom ('Why we are different') and shrink 'Every fact sourced' to one grey line; today's page shows it first. *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
 - **F37** costly, **accepted** (run 6): The AI-made lead infographic cannot be read on a phone, and its figures are doubted (Ana, Miguel, Helena, Tom); its 'DATES: 8 to 13 November 2026' are the Brazilian mission's own dates (sourced in the article) but sit under a Web Summit headline, so two readers took them for the summit's (9 to 12) and called it wrong. *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
@@ -79,6 +78,7 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F11** minor, **open** (run 1): Front page: no 'first time? *Decision: no decision yet.*
 - **F45** minor, **open** (run 8): 'Every fact sourced and dated' (the tagline and the masthead line) reads to a reporter as 'every fact checked', while articles say some figures were not checked (Tom on the lead story, run 8). *Decision: no decision yet.*
 - **F05** costly, **verified** (run 1): The mandate ('to map the universe of AI in Portugal') on no page. *Decision: measured live: front page and About, v0.1.77 (run 4) and v0.1.86.*
+- **F26** costly, **verified** (run 4): 'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call. *Decision: done in the top-of-the-page pass (Dinis's design answers of 13:20: no Powered by in the masthead) (board/passes/2026-11-06-the-top-of-the-page.md).*
 
 ### conductor@ (4 waiting)
 
