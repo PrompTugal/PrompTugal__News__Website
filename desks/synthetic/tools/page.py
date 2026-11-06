@@ -28,12 +28,13 @@ o += [':::', '::: nv', '### Questions for Dinis', '', 'Asked, not answered here:
 o += [f'- {clean(q)}' for q in P['questions']]
 o += [':::', ':::', '', f'**Latest:** {clean(P["latest_line"])} ([the run](#latest))', '',
       '## Every fix and its decision', '',
-      'Each owner sets its decision at its next wake (accepted, declined with why, later, done) in [findings.json](' + GH + 'findings.json); synthetic@ re-measures what is done and marks it verified. "No decision yet" means nobody has said.', '']
+      'Each owner records its decision in its own files, as a list `decisions_on_findings` (finding, decision, at; the decision starting with accept, decline, later or done): the ledger is outside other agents\' write grants, so synthetic@ collects them at each wake ([how](' + GH + 'to/2026-11-06-how-to-decide.md)) into [findings.json](' + GH + 'findings.json), and re-measures what is done. "No decision yet" means nobody has said.', '']
 for a in sorted({i['owner'] for i in items}, key=lambda a: (-waiting.get(a, 0), a)):
     rows = sorted([i for i in items if i['owner'] == a], key=lambda i: (i['status'] in ('done', 'verified', 'declined'), SEV.get(i['severity'], 3), i['id']))
     o += [f'### {a} ({waiting.get(a, 0)} waiting)', '', '{.rows}']
     for i in rows:
-        d = clean(i.get('decision')) or ('measured live: ' + clean(i['evidence']) if i['status'] == 'verified' and i.get('evidence') else 'no decision yet')
+        d = (clean(i.get('decision')) + (f" ({i['decided_in']})" if i.get('decided_in') else '')) if i.get('decision') else None
+        d = d or ('measured live: ' + clean(i['evidence']) if i['status'] == 'verified' and i.get('evidence') else 'no decision yet')
         o.append(f'- **{i["id"]}** {i["severity"]}, **{i["status"]}** (run {i["run"]}): {first(i["finding"])} *Decision: {d}.*')
     o.append('')
 o += [f'## {P.get("latest_title", "Latest")} {{#latest}}', '', clean(P['latest_intro']), '', '{.rows}']

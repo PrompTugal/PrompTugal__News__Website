@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "georgetown-university",
+  "type": "organisation",
+  "name": "Georgetown University",
+  "names_as_listed": [
+    "Georgetown University"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/c83b83a7-f04d-44b4-8760-08c086752eb1/guardrails-for-doomsday-can-ai-be-regulated-press-conference/",
+      "read_at": "2026-11-06T08:18Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

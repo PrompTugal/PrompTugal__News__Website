@@ -1,0 +1,87 @@
+{
+  "desk": "curator",
+  "agent": "curator@web-summit.vicky",
+  "run": "2026-11-06T07:45Z",
+  "for": "the journalist, via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9 (pack mode), read with its READ key as listed in people/vicky/vaults.json on the team's site; pulled 6 November 2026 at 07:47 UTC to the researcher's commit 3c0976877499 (07:30 run)",
+    "captures_in_vault": 31,
+    "new_mapped_here": 1,
+    "already_mapped": "30, in the earlier files of desks/curator/",
+    "researcher_report": "people/vicky/reports/researcher.md, Fri 6 Nov 07:30 UTC run"
+  },
+  "rules": "Every fact here is from a capture, as the researcher wrote it; the curator added none, checked none and rewrote no source. Connections are the curator's suggestions, never claims that organisations will meet. Public material only; organisations, not people; no contact details.",
+  "captures": [
+    {
+      "id": "v-octo-health-launch",
+      "file": "vault 41j3e9s9, captures/2026-11-06-octo-health-launch.md",
+      "source_url": "https://portugalstartupnews.com/2026/11/05/octo-health-launches-personalized-health-tracking-platform-in-portugal-and-u-s-after-earlier-e2-7m-raise/",
+      "beat": "portugal",
+      "names": [
+        "Octo Health",
+        "3xP Global",
+        "Jornal Económico"
+      ],
+      "what_is_new": "Octo Health, a Lisbon healthtech founded in 2023, has launched its personal health tracking platform in Portugal and the United States: medical records, lab results and device data in one place, clinical testing for more than 110 biomarkers across 11 health areas, recommendations meant to complement medical care. It follows a 2.7 million euro pre-seed round led by 3xP Global (as first reported by Jornal Económico). The company says users keep ownership of their records and the platform is HIPAA compliant and GDPR ready. Not tied to Web Summit in the article.",
+      "is_story": "yes: S20 (Portugal banner or short story), and a connection (S21)",
+      "group": "G13 3xP Global's portfolio"
+    }
+  ],
+  "groups": {
+    "G13 3xP Global's portfolio": [
+      "v-octo-health-launch",
+      "r1255-15",
+      "r1255-19"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "captures": [],
+      "verdict": "no noise dropped",
+      "why": "The one new capture is public, sourced and new."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "capture": "v-octo-health-launch",
+      "what": "The 2.7 million euro round is Portugal Startup News citing Jornal Económico; attribute it. HIPAA and GDPR are the company's own statements; attribute them as such."
+    },
+    {
+      "candidate": "S21",
+      "what": "Granter's round was led by 3xP Global's Impact Innovation Fund (r1255-15); Octo Health's by 3xP Global (this capture); Intuitivo's by Caixa Capital and 'the Impact Innovation Fund' (r1255-19), not named as 3xP's. Keep Intuitivo out of the 3xP link until checked (as for S14)."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S20",
+      "title": "Lisbon's Octo Health launches health tracking in Portugal and the US",
+      "beat": "portugal",
+      "angle": "A Lisbon healthtech founded in 2023 goes live on both sides of the Atlantic, bringing records, lab results and device data together with testing for 110+ biomarkers: Portuguese health innovation with international reach.",
+      "rests_on": [
+        "v-octo-health-launch"
+      ],
+      "note": "Fits the Portugal banner (S7) if not a story of its own. The article does not tie it to Web Summit; do not say it is at the summit.",
+      "words": 11
+    },
+    {
+      "id": "S21",
+      "kind": "connections",
+      "title": "One backer, two fields: 3xP Global's Granter and Octo Health",
+      "beat": "portugal",
+      "connection": "startups and the investor that backs them",
+      "angle": "3xP Global led the latest rounds of two Portuguese startups in different fields, Granter (AI for grants, PITCH winner) and Octo Health (health tracking), each growing beyond Portugal. A story about a Portuguese investor backing builders across fields, and a reason for startups in AI and health to know its portfolio.",
+      "rests_on": [
+        "v-octo-health-launch",
+        "r1255-15"
+      ],
+      "note": "Widens S14. The curator's suggestion: no capture says 3xP Global, Granter or Octo Health are at Web Summit 2026.",
+      "words": 10
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "Whether Octo Health or 3xP Global are at Web Summit 2026 (the Health Summit track is in r1255-07; the startups list by track would show it).",
+    "3xP Global's own page on its funds and portfolio, so S14 and S21 rest on the investor's own words.",
+    "Still open: which Portuguese startups exhibit or pitch this year, by field; speakers by day and stage; Técnico's six spin-offs; the transport pass's sales points; EY's report itself."
+  ],
+  "urgent": null
+}

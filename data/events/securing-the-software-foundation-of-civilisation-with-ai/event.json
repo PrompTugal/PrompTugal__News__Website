@@ -28,7 +28,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/",
-  "read_at": "2026-11-05T08:18Z",
+  "read_at": "2026-11-06T08:18Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -39,6 +39,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 190
+    "item": 198
   }
 }

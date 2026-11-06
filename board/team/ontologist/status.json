@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "running: hourly at :21 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T06:45Z",
+  "updated": "2026-11-06T08:40Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -13,10 +13,12 @@
     "A story project's data folder: six schemas (sources, entities, claims, graph, timeline, blocks) and the gate's checks (this wake)",
     "Wikipedia, round 1 (Dinis's ask in session): the tool, the Web Summit article as data at revision 1383690798, where it meets our graph and five findings, six schemas, article_kind and source_provenance in the ontology; the project board/projects/wikipedia.md and the brief board/briefs/2026-11-06-wikipedia.md",
     "The team setup's schemas (team-status, team-role, team-schedule) and budgets (accountant@'s spec), checked by the gate: the board's status.json, ROLE.md front matter, schedule.json and budgets.json (this wake)",
-    "synthetic@'s finding on 1Password fixed at the source: the Developer Summit track page re-read, a past-edition highlight, the name left out; Airia's two flows mapped from its home page (this wake)"
+    "synthetic@'s finding on 1Password fixed at the source: the Developer Summit track page re-read, a past-edition highlight, the name left out; Airia's two flows mapped from its home page (this wake)",
+    "Cloudflare's flow (an agent pauses for a person before a side-effecting action), from its Agents docs; Cisco Outshift left unmapped: its page is script-rendered and names no product flow of its own (this wake)",
+    "Conscium's flow (VerifyAX verifies an agent before and after production), from its home page; Delinea held: its agents page is a gated whitepaper (this wake)"
   ],
   "next": [
-    "Flows for the outreach list after Airia: Cisco Outshift, Cloudflare, Conscium, Delinea, Descope, Emergence AI",
+    "Flows: Descope, Emergence AI, then Cisco Outshift and Delinea once a readable, ungated page of their own says how",
     "Wikipedia round 2 once accountant@ budgets it: the articles of our graph's entities, Wikidata facts, history and talk (privacy first), pt.wikipedia.org",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
     "A crm field from each company to its record in the team CRM"
@@ -73,6 +75,18 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "1Password's source note corrected (synthetic@'s finding); Airia's flows"
+    },
+    {
+      "started": "2026-11-06T07:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "Cloudflare's flow; Cisco Outshift held for a source"
+    },
+    {
+      "started": "2026-11-06T08:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "Conscium's flow; Delinea held (gated page)"
     }
   ]
 }

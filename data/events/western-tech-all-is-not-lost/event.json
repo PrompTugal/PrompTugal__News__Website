@@ -30,12 +30,26 @@
       "role": "CEO",
       "organisation": "Jasper",
       "org": "organisation:jasper"
+    },
+    {
+      "person": "person:mikayel-vardanyan",
+      "as_listed": "Mikayel Vardanyan (Co Founder & COO, Picsart)",
+      "role": "Co Founder & COO",
+      "organisation": "Picsart",
+      "org": "organisation:picsart"
+    },
+    {
+      "person": "person:katie-collins",
+      "as_listed": "Katie Collins (Principal Writer, CNET)",
+      "role": "Principal Writer",
+      "organisation": "CNET",
+      "org": "organisation:cnet"
     }
   ],
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/f37463f8-5aab-4dfa-9c95-2c91596ebd38/western-tech-all-is-not-lost/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
-  "read_at": "2026-11-05T08:17Z",
+  "read_at": "2026-11-06T08:18Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -45,6 +59,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 196
+    "item": 204
   }
 }

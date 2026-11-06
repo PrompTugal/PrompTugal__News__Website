@@ -213,7 +213,7 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
             if (sub === 'push') {
                 const bad = rest.find(a => /^(-f|--force.*|--mirror|--delete|-d|--all|--tags|--prune|--follow-tags)$/.test(a) || /^\+/.test(a) || /^-[a-z]*f[a-z]*$/.test(a) && !/^-[a-z]*u$/.test(a))
                 if (bad) return deny('R5', `git push ${bad} is denied: no force-push, no branch deletion, no tags (CI tags), no mirror`, 'git-push')
-                const pos = []; for (let k = 0; k < rest.length; k++) { const a = rest[k]; if (/^-(o|-push-option|-repo)$/.test(a)) { k++; continue } if (!a.startsWith('-')) pos.push(a) }
+                const pos = []; for (let k = 0; k < rest.length; k++) { const a = rest[k]; if (/^-(o|-push-option|-repo)$/.test(a)) { k++; continue } if (!a.startsWith('-') && !/^\d*[<>]/.test(a) && !/^&>/.test(a)) pos.push(a) }   // 2>&1 is a redirect, not a branch (07:xx false positives)
                 const [remote, ...refs] = pos
                 if (remote && /:\/\//.test(remote) && !/promptugal__news__website/i.test(remote)) return deny('R5', `git push to ${remote}: only this repository's dev`, 'git-push')
                 if (refs.some(r => /(^|[:/])(main|master)$/.test(r))) return deny('R5', 'never push to main: a major release is a pull request from dev that only Dinis merges', 'git-push')
