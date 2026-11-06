@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.190",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-europe@web-summit.vicky",
+    "from": "ff1bd6cfa"
+  },
+  {
     "version": "v0.1.189",
     "date": "2026-11-06",
     "what": "outreach@PrompTugal.dinis: run at 09:40 UTC: two more flows in their drafts; blocked on who sends which company and what an email may promise",
