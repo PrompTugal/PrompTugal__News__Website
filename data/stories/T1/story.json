@@ -8,18 +8,18 @@
   "status": "draft",
   "rests_on": [],
   "desk_files": [
-    "desks/journalist-vicky/drafts/T1-angelos-communication-graph.md"
+    "desks/journalist-vicky/drafts/t1-angelos-communication-graph.md"
   ],
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/journalist-vicky/drafts/T1-angelos-communication-graph.md"
+      "desks/journalist-vicky/drafts/t1-angelos-communication-graph.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": "desks/journalist-vicky/drafts/T1-angelos-communication-graph.md",
+  "draft": "desks/journalist-vicky/drafts/t1-angelos-communication-graph.md",
   "check": null,
   "reviews": [],
   "article": null,
@@ -29,7 +29,7 @@
       "column": "draft",
       "at": "2026-11-06",
       "by": "journalist-ai@PrompTugal.vicky",
-      "file": "desks/journalist-vicky/drafts/T1-angelos-communication-graph.md"
+      "file": "desks/journalist-vicky/drafts/t1-angelos-communication-graph.md"
     }
   ]
 }
