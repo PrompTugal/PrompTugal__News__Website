@@ -232,5 +232,18 @@ def main():
     print("obs_drain: phases " + " · ".join(f"{k} {v}s" for k, v in T.items()))
     print(f"obs_drain: {stamp[11:16]} UTC, drained {len(rows)} ({bad} undecryptable) in {round(time.time() - t_start, 1)} s; " + (f'{len(odd)} odd: ' + '; '.join(odd) if odd else 'nothing odd'))
 
+def sweep_claims():
+    """The vault-onboarding sweep runs inside this hourly drain (Dinis, 6 November 2026, about 17:30: "Agree tie it with
+    the observability"; board/guidance/2026-11-06-vault-onboarding-answers.md): once claims_setup.py has run, every drain
+    ends with claims_sweep (newsroom/tools/obs/claims_sweep.py). Counts only."""
+    cp = os.path.expanduser('~/.sg-send/claims-promptugal/creds.json')
+    if not os.path.exists(cp): return
+    try:
+        import claims_sweep
+        sys.argv = [sys.argv[0], '--creds', cp]; claims_sweep.main()
+    except SystemExit as e: print(f'obs_drain: the claims sweep stopped: {e}')
+    except Exception as e: print(f'obs_drain: the claims sweep failed: {type(e).__name__}: {e}'[:300])
+
 if __name__ == '__main__':
     main()
+    sweep_claims()

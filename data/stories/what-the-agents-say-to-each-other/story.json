@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "what-the-agents-say-to-each-other",
+  "type": "story",
+  "title": "What our agents say to each other, counted",
+  "beat": null,
+  "topic": null,
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/what-the-agents-say-to-each-other.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/what-the-agents-say-to-each-other.md"
+    ]
+  },
+  "assignee": "security@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/what-the-agents-say-to-each-other.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "security@PrompTugal.dinis",
+      "file": "content/articles/what-the-agents-say-to-each-other.md"
+    }
+  ]
+}

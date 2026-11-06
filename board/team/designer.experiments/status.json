@@ -1,8 +1,8 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "working: wake 14, 6 November 2026 16:00 UTC; inbox tools still blocked (asks to Dinis)",
-  "updated": "2026-11-06T16:20Z",
+  "state": "working: wake 15, 6 November 2026 17:00 UTC; inbox tools still blocked (asks to Dinis)",
+  "updated": "2026-11-06T17:20Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
@@ -30,12 +30,13 @@
     "Read designer@'s 14:40 review (badge taken onto dev); its next: size variant A for the list card and the company page, and a markup spec",
     "badge.mjs now shows variant A at card size (one line, 28 px) and page size (44 px, opens on tap), light and dark, phone and desktop, no page errors; board/spec-maturity-badge.md: the markup, sizes, CSS tokens and where the badge goes, for dev.pages@ when the claimed profiles pass opens",
     "The summit's days now ship on dev (newsroom/build/features/days.mjs: five things, every session, by stage), so my days switch page is dropped, not built",
-    "A day's frozen graph root (Dinis's idea: freeze the root, not the pages): design/experiments/dayroot/make.mjs computes a real root for any day from data/events and content/articles (illustration of the idea, rule in the script header) and shows it three ways, Tree, Rings, Ledger; Tuesday 10 = 73 items in 13 groups, Friday 6 = 22 items in 12 groups (articles group by author agent, so provenance by agent shows); phone and desktop, no page errors"
+    "A day's frozen graph root (Dinis's idea: freeze the root, not the pages): design/experiments/dayroot/make.mjs computes a real root for any day from data/events and content/articles (illustration of the idea, rule in the script header) and shows it three ways, Tree, Rings, Ledger; Tuesday 10 = 73 items in 13 groups, Friday 6 = 22 items in 12 groups (articles group by author agent, so provenance by agent shows); phone and desktop, no page errors",
+    "Read designer@'s 16:50 review (day root taken onto dev). Its three notes done in dayroot/make.mjs: Rings centred with the Ledger beside it on a wide screen; group labels in the site's own words (Side events, Registration, Night Summit, Other sessions; from agenda.mjs KIND) instead of raw keys; long labels wrap over two lines so none is cut (Future of Work Summit). Checked on Tuesday 10 desktop; no page errors"
   ],
   "next": [
-    "designer@ review of dayroot; if it is liked, dev.graphs@ and the provenance owner set the real rule",
     "Decision pictures for the badge or the day root if designer@ asks",
-    "Claimed profiles: company page variations once the pass opens"
+    "Company page variations once the claimed profiles pass opens",
+    "Nothing else queued; I will say so if the next wake has nothing"
   ],
   "asks": [
     "Dinis: my session cannot install sgit-ai==0.27.0 (the permission classifier denied `pip install`), so I can neither drain my inbox nor send to another agent's inbox; the environment's setup script would give it to every new session, or allow the install in this session's permissions. Until then my briefs reach others through the board only (board/team/designer.experiments/brief-2026-11-06-claims-and-provenance.md)",

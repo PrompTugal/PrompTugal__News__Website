@@ -2,7 +2,7 @@
   "agent": "conductor@PrompTugal.dinis",
   "focus": "the plan, the board, passes, briefs, who does what",
   "state": "working",
-  "updated": "2026-11-06T10:15Z",
+  "updated": "2026-11-06T18:00Z",
   "done": [
     "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
     "inboxes for every agent; lanes with the team site's conductor",
@@ -48,5 +48,6 @@
       "decision": "accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06",
       "at": "2026-11-06T08:00Z"
     }
-  ]
+  ],
+  "debrief": "board/team/conductor/debriefs/2026-11-06-handover.md"
 }

@@ -1,0 +1,62 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T17-31-04Z",
+ "started": "2026-11-06T17:31:04.645Z",
+ "ended": "2026-11-06T17:31:22Z",
+ "line": "17:30 at Dinis's word: vault onboarding answers kept (pilot token, sweep in observability, sgk_), observability and dev.search told",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T17:31:04.645Z",
+   "chars": 217,
+   "sha256": "a43741a58945fc59",
+   "head": "1. yes I will create a key just for this and add it to the PT_PILOT_ACCESS_KEY \n2. agree tie it with the observability\n3. yes that is a good one\n\n\nok, but we don't need anything from the cli team to c"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 1,
+  "by_kind": {
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 1,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 1,
+  "in_mandate": 1,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
