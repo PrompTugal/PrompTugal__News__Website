@@ -2,7 +2,7 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T22:35Z",
+ "updated": "2026-11-06T22:45Z",
  "reviewed_to": "HEAD at 22:03, the work/* branches, 26 transcripts to 22:05",
  "hold": false,
  "done": [
@@ -27,6 +27,7 @@
   "the pre-review of the three open passes: go, with conditions, in each pass file"
  ],
  "next": [
+  "confirm the hash-checked install in the first fresh session (a SETUP line in its log, or sgit present)",
   "check each agent that moves to account B: its new key, its first commit, its inbox re-issued, its old task disabled",
   "18:03: review every commit and worker branch; scan the transcripts since 16:10 for secrets (event ids now recorded); count the messages",
   "the pilot rotation: my own key and inbox",
@@ -48,7 +49,7 @@
   "S14": "low: a schedule written into the wrong session (conductor@)",
   "S15": "high, half done: the hook loads no other code and checks its pin (abp@); the gate check on .claude/ commits is not built (dev@)",
   "S17": "granted by Dinis 12:30 (abp@ to write it)",
-  "S18": "decided yes: hashed requirements built; setup script change proposed",
+  "S18": "done 22:40: the setup script installs hash-checked; to confirm in a fresh session",
   "S19": "decided: stays in the environment; the ABP controls access (abp@)",
   "S21": "the gate's contact check misses board/ (dev@)",
   "S22": "account B's transcripts unscanned (conductor.b@)",
