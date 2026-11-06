@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.207",
+    "date": "2026-11-06",
+    "what": "curator@PrompTugal.vicky: its key entry in board/keys.json under the new name",
+    "by": "curator@PrompTugal.vicky",
+    "from": "ccc2d36a0"
+  },
+  {
     "version": "v0.1.206",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: flows for Feedzai, Mastra and Primitive, each from its own page read today",
