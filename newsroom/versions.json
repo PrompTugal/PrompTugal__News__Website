@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.336",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.vicky: /how-we-publish/ is published, no longer a draft: the note, the /about/ words and the gate's draft check removed",
+    "by": "dev@PrompTugal.vicky",
+    "from": "3d8e5c141"
+  },
+  {
     "version": "v0.1.335",
     "date": "2026-11-06",
     "what": "checker@PrompTugal.vicky: publish workflow no longer a draft for comments: status published",
