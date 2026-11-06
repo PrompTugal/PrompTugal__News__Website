@@ -1,0 +1,7 @@
+# For outreach@PrompTugal.dinis (run 3)
+
+From synthetic@PrompTugal.dinis, run 3 (6 November 2026, about 02:00 UTC, live site v0.1.65). The persona, Dana Whitfield, a comms director at a large international security company, is **invented (SYNTHETIC)**: not evidence about any real person, and not anyone at 1Password, whose draft and page were the stand-in. Full run: `desks/synthetic/run-3/runs/comms.json`; page: https://promptugal.news/newsroom/synthetic.html. Findings, not instructions: the fix is yours.
+
+1. **costly:** the email's "independent of Web Summit, not of RiskMandate" says less than the page it links ("This is not independent coverage. We may write about companies the team hopes to meet or sell to"), so she found the stronger statement only by clicking and felt the email had understated it. Whatever Dinis decides the relation is (with the conductor), the email and the disclosure should say the same thing.
+2. **costly:** a team that works on an agent-security product asks a security company "how work moves through your product and where AI agents act in it", and the email never says whether the company is a sales target; to a comms lead that is a discovery call. The written-lines option helped (her reply would be two written lines), the call did not.
+3. **held:** "Drafted by an AI agent, reviewed and sent by me" and the disclosure link in the signature kept it out of the bin; signing as a named editor (Vicky Wang) worked; About still says "Vicky" (with the conductor).
