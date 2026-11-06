@@ -100,6 +100,11 @@
     },
     {
       "column": "Find",
+      "label": "My day",
+      "href": "my-day/index.html"
+    },
+    {
+      "column": "Find",
       "label": "Your profile",
       "href": "profile/index.html"
     },

@@ -129,7 +129,7 @@ export function pages(ctx) {
             '- `activity/account.json`: the one starting credit of the account; totals are worked out from the records, never copied.',
             '- `apps/<feature>/...`: what other parts of this site save for you through the vault, such as conversations with the newsroom\'s agent. Each feature writes only under its own folder.',
             '',
-            `**The vault server** is ${V.endpoint}, the one newsroom.sgit.ai uses; the library is the pinned copy that runs dev.vault.sgraph.ai (${V.library}). The keys live in memory and, for the life of this tab, in its session storage; none is written to local storage, and none is sent anywhere but the vault server.`,
+            `**The vault server** is ${V.endpoint}, the one newsroom.sgit.ai uses; the library is the pinned copy that runs dev.vault.sgraph.ai (${V.library}). The keys live in the memory of this page only: leave it and they are gone, and you sign in again; none is written to session or local storage, and none is sent anywhere but the vault server.`,
             '',
             'This works like the reading vault on newsroom.sgit.ai, where it is a beta. Nothing about the vault is needed to read this site. [Your reading account](index.md).',
         ].join('\n'),

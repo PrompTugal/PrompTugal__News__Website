@@ -30,7 +30,7 @@ right of every page, opened by the **Vault** button in the top bar.
 4. **Open it on another device** with the same passkey or the recovery code: the other devices' reads and top-ups are
    brought into that browser and the page reloads with the whole account.
 
-Where the keys live: in memory, and for the life of the tab in `sessionStorage` (`web-summit.newsroom.vault.session`).
+Where the keys live: in the memory of the vault page only (the PT decision "where the vault key lives", option B, 6 November 2026): not in `sessionStorage`, not in `localStorage`, so a script on another page cannot read them. Leave the page and they are gone; sign in again. Every other page saves to the browser (`__vault.save` resolves `where: 'browser'`), the Vault button goes to the vault page (and is shown only to a signed-in person), and the vault page publishes what is waiting.
 None is written to `localStorage`, none to this repository, and none is sent anywhere but the vault server
 (`https://dev.send.sgraph.ai`, the one newsroom.sgit.ai uses). Everything leaves the browser encrypted.
 

@@ -16,8 +16,8 @@
  *   Keys     every vault of the account with its key, revealed only on request, to open any of them on your own.
  *
  * Left out of the port, for now: the reference's notes, lane, inbox ("connect with a link"), device chooser and
- * merging, shared viewer and Calls tab. Where the keys live: in memory, and for the life of this tab in
- * sessionStorage (so a page change does not ask for the passkey again); nothing is written to localStorage but this
+ * merging, shared viewer and Calls tab. Where the keys live:
+ * this page's memory only (PT decision "where the vault key lives", option B: leave the page and they are gone); nothing is written to localStorage but this
  * device's id and label, the saved items and the time of the last update. The library (assets/vendor/sg-vault, twelve
  * pinned files and one local extension) is loaded from this origin the first time it is needed. Every call goes to
  * the vault server in data/billing/vault.json and nowhere else.
@@ -68,10 +68,16 @@ const secret = (text, label) => {
     const btn = h('button', { type: 'button', class: 'btn quiet nr-sm', onclick: () => { shown = !shown; span.textContent = shown ? text : masked; btn.textContent = shown ? 'Hide' : `Reveal ${label}` } }, `Reveal ${label}`)
     return h('span', { class: 'nr-secret' }, span, ' ', btn, ' ', copyBtn(text))
 }
+// PT decision "where the vault key lives", option B: the keys (the door and the token) live in this page's memory only,
+// never in sessionStorage or localStorage, where a script on any other page could read them. Leave the vault page and
+// they are gone: sign in again. Other pages save to the browser; this page publishes.
+let sessionRec = null
 const session = {
-    get() { try { return JSON.parse(sessionStorage.getItem(K.session) || 'null') } catch (e) { return null } },
-    set(v) { try { if (v) sessionStorage.setItem(K.session, JSON.stringify(v)); else sessionStorage.removeItem(K.session) } catch (e) { /* memory only */ } },
+    get() { return sessionRec },
+    set(v) { sessionRec = v || null },
 }
+export const isOpen = () => !!sessionRec
+export const canWrite = () => !!(sessionRec && sessionRec.token)
 let libLoading = null
 export function loadLibrary() {
     if (typeof SGVault !== 'undefined' && typeof SGVault.createWithId === 'function') return Promise.resolve()
@@ -463,8 +469,8 @@ async function merge() {
     const c = state.consolidated || await readAll()
     const m = S.mergeInto(st, c, deviceId)
     try { localStorage.setItem(MCFG.storageKey, JSON.stringify(m.state)) } catch (e) { body.prepend(h('p', { class: 'nr-warn' }, 'This browser’s storage refused the write.')); return }
-    try { sessionStorage.setItem(K.merged, JSON.stringify({ at: Date.now(), added: m.added })); sessionStorage.setItem(K.open, 'vault') } catch (e) { /* fine */ }
-    location.reload()
+    // no reload any more: the keys live in this page's memory only (PT decision, option B), and a reload would lose them
+    body.prepend(h('p', { class: 'nr-ok', id: 'nr-vault-merged' }, `Brought in: ${m.added.reads} read(s), ${m.added.topups} top-up(s), ${m.added.personas} persona(s) from your other devices. The meter shows the whole account on the next page you open.`))
 }
 
 // ------------------------------------------------------------ the other tabs
