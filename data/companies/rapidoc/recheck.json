@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "rapidoc",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/f8b1c16b-ba5d-40d8-883b-2f14ed61fb4e/rapidoc",
+        "status": 200
+      },
+      "website": {
+        "url": "https://rapidocbrasil.com.br",
+        "status": 200
+      }
+    }
+  ]
+}

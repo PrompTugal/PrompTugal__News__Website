@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "ola-doutor",
+  "type": "company",
+  "name": "Olá Doutor",
+  "website": "https://oladoutor.app/websummit/",
+  "what": "Olá Doutor is a healthcare app that connects patients with licensed doctors through instant chat consultations, eliminating the need for appointments. The platform combines accessibility, speed, and affordability, allowing patients to receive medical guidance, prescriptions, and follow-up care directly from their phone.",
+  "category": "other",
+  "country": "Brazil",
+  "attending": "confirmed: a LIS26 appearance page on websummit.com (re-checked 6 November 2026)",
+  "attending_as": "startup (growth)",
+  "field_sources": {
+    "name": [
+      "r1"
+    ],
+    "website": [
+      "r1"
+    ],
+    "what": [
+      "r1"
+    ],
+    "category": [
+      "r1"
+    ],
+    "country": [
+      "r1"
+    ],
+    "attending": [
+      "r1"
+    ],
+    "attending_as": [
+      "r1"
+    ]
+  },
+  "field_sources_method": "Read by hand from the summit's appearance page (r1); the team CRM's record is the other sources.",
+  "aliases": [
+    {
+      "name": "Olá Doutor",
+      "source": "r1",
+      "how": "the name on the summit's appearance page"
+    }
+  ],
+  "from": {
+    "repository": "ws-team-crm-public (SG/Send vault pqm9vtul)",
+    "path": "companies/ola-doutor/company.json",
+    "read_on": "2026-11-06",
+    "by": "crm@web-summit.dinis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "mobile-brain",
+  "sources": [
+    {
+      "id": "r1",
+      "url": "https://websummit.com/appearances/lis26/91093bb6-fa22-477c-9a74-7bd74cd93ae8/mobile-brain",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "LIS26 appearance page, re-checked: name Mobile Brain, country Brazil, track Growth, industry Healthtech & wellness, website, and its elevator pitch (the \"what\" field)",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c1",
+      "url": "https://websummit.com/appearances/lis26/91093bb6-fa22-477c-9a74-7bd74cd93ae8/mobile-brain",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "LIS26 appearance: name, country Brazil, track Startup, industry",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c2",
+      "url": "https://websummit.com/startups/featured-startups/",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "listed among Web Summit's featured startups for LIS26, with its elevator pitch (the \"what\" field and the AI line)",
+      "kind": "summit-list"
+    }
+  ]
+}

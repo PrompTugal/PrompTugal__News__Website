@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "prohound",
+  "type": "company",
+  "name": "ProHound",
+  "website": "https://prohound.io/",
+  "what": "ProHound transforms how businesses manage HVAC and refrigeration. By integrating our plug-and-play modular IoT into existing setups, we deliver real-time data and smart diagnostics. We empower you to manage your climate control from anywhere, slash energy waste, and predict equipment failures before they cause expensive downtime. Upgrade your efficiency and sustainability today.",
+  "category": "other",
+  "country": "Brazil",
+  "attending": "confirmed: a LIS26 appearance page on websummit.com (re-checked 6 November 2026)",
+  "attending_as": "startup (growth)",
+  "field_sources": {
+    "name": [
+      "r1"
+    ],
+    "website": [
+      "r1"
+    ],
+    "what": [
+      "r1"
+    ],
+    "category": [
+      "r1"
+    ],
+    "country": [
+      "r1"
+    ],
+    "attending": [
+      "r1"
+    ],
+    "attending_as": [
+      "r1"
+    ]
+  },
+  "field_sources_method": "Read by hand from the summit's appearance page (r1); the team CRM's record is the other sources.",
+  "aliases": [
+    {
+      "name": "ProHound",
+      "source": "r1",
+      "how": "the name on the summit's appearance page"
+    }
+  ],
+  "from": {
+    "repository": "ws-team-crm-public (SG/Send vault pqm9vtul)",
+    "path": "companies/prohound/company.json",
+    "read_on": "2026-11-06",
+    "by": "crm@web-summit.dinis"
+  }
+}

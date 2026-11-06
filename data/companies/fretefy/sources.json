@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "fretefy",
+  "sources": [
+    {
+      "id": "r1",
+      "url": "https://websummit.com/appearances/lis26/c8356c12-968b-49a3-b910-a599c7b6658c/fretefy-tecnologia-s.a.",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "LIS26 appearance page, re-checked: name FRETEFY TECNOLOGIA S.A., country Brazil, track Growth, industry SaaS, website, and its elevator pitch (the \"what\" field)",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c1",
+      "url": "https://websummit.com/appearances/lis26/c8356c12-968b-49a3-b910-a599c7b6658c/fretefy-tecnologia-s.a.",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "LIS26 appearance: name, country Brazil, track Startup, industry",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c2",
+      "url": "https://websummit.com/startups/featured-startups/",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "listed among Web Summit's featured startups for LIS26, with its elevator pitch (the \"what\" field and the AI line)",
+      "kind": "summit-list"
+    }
+  ]
+}

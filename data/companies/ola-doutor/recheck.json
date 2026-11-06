@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "ola-doutor",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/2709a39c-3dfa-427e-ad7c-aebbdc052024/ol%C3%A1-doutor",
+        "status": 200
+      },
+      "website": {
+        "url": "https://oladoutor.app/websummit/",
+        "status": 200
+      }
+    }
+  ]
+}

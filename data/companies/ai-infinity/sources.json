@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "ai-infinity",
+  "sources": [
+    {
+      "id": "r1",
+      "url": "https://websummit.com/appearances/lis26/bb1ea8a4-b831-4875-8d07-dfae3296cef1/ai-infinity",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "LIS26 appearance page, re-checked: name AI Infinity, country Brazil, track Growth, industry AI & machine learning, website, and its elevator pitch (the \"what\" field)",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c1",
+      "url": "https://websummit.com/appearances/lis26/bb1ea8a4-b831-4875-8d07-dfae3296cef1/ai-infinity",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "LIS26 appearance: name, country Brazil, track Startup, industry",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c2",
+      "url": "https://websummit.com/startups/featured-startups/",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "listed among Web Summit's featured startups for LIS26, with its elevator pitch (the \"what\" field and the AI line)",
+      "kind": "summit-list"
+    }
+  ]
+}

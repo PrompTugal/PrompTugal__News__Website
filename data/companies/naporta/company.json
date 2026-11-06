@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "naporta",
+  "type": "company",
+  "name": "naPorta",
+  "website": "https://naporta.digital/",
+  "what": "We go where GPS gives up. naPorta is Brazil’s first social-impact logtech, connecting e-commerce to underserved communities where traditional delivery networks fall short. Combining technology, local delivery partners and our own operations, we make last-mile logistics more efficient, inclusive and reliable—ensuring every package reaches the customer’s door.",
+  "category": "other",
+  "country": "Brazil",
+  "attending": "confirmed: a LIS26 appearance page on websummit.com (re-checked 6 November 2026)",
+  "attending_as": "startup (growth)",
+  "field_sources": {
+    "name": [
+      "r1"
+    ],
+    "website": [
+      "r1"
+    ],
+    "what": [
+      "r1"
+    ],
+    "category": [
+      "r1"
+    ],
+    "country": [
+      "r1"
+    ],
+    "attending": [
+      "r1"
+    ],
+    "attending_as": [
+      "r1"
+    ]
+  },
+  "field_sources_method": "Read by hand from the summit's appearance page (r1); the team CRM's record is the other sources.",
+  "aliases": [
+    {
+      "name": "naPorta",
+      "source": "r1",
+      "how": "the name on the summit's appearance page"
+    }
+  ],
+  "from": {
+    "repository": "ws-team-crm-public (SG/Send vault pqm9vtul)",
+    "path": "companies/naporta/company.json",
+    "read_on": "2026-11-06",
+    "by": "crm@web-summit.dinis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "prohound",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/9baf44c9-b8a2-42db-8bb2-25c1c9e8f16f/prohound",
+        "status": 200
+      },
+      "website": {
+        "url": "https://prohound.io/",
+        "status": 200
+      }
+    }
+  ]
+}

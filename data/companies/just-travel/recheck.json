@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "just-travel",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/1c3a556f-ae2c-4d1e-9ac3-4e41936761a7/just-travel",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.justtraveltour.com",
+        "status": 200
+      }
+    }
+  ]
+}

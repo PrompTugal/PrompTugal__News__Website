@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "mobile-brain",
+  "type": "company",
+  "name": "Mobile Brain",
+  "website": "https://www.mobilebrain.com.br/",
+  "what": "Mobile Brain is an AI deep tech in computational neuroscience democratizing access to cognitive assessments by turning spontaneous speech into objective metrics. Using graph theory and NLP, we enable early screening and longitudinal monitoring for cognitive and emotional health across schools, healthcare, and enterprises—bridging the gap between the first signs and timely clinical care.",
+  "category": "other",
+  "country": "Brazil",
+  "attending": "confirmed: a LIS26 appearance page on websummit.com (re-checked 6 November 2026)",
+  "attending_as": "startup (growth)",
+  "field_sources": {
+    "name": [
+      "r1"
+    ],
+    "website": [
+      "r1"
+    ],
+    "what": [
+      "r1"
+    ],
+    "category": [
+      "r1"
+    ],
+    "country": [
+      "r1"
+    ],
+    "attending": [
+      "r1"
+    ],
+    "attending_as": [
+      "r1"
+    ]
+  },
+  "field_sources_method": "Read by hand from the summit's appearance page (r1); the team CRM's record is the other sources.",
+  "aliases": [
+    {
+      "name": "Mobile Brain",
+      "source": "r1",
+      "how": "the name on the summit's appearance page"
+    }
+  ],
+  "from": {
+    "repository": "ws-team-crm-public (SG/Send vault pqm9vtul)",
+    "path": "companies/mobile-brain/company.json",
+    "read_on": "2026-11-06",
+    "by": "crm@web-summit.dinis"
+  }
+}

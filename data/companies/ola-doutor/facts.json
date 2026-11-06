@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/company-facts.schema.json",
+  "company": "ola-doutor",
+  "facts": [
+    {
+      "id": "f-r1",
+      "claim": "Listed for Web Summit Lisbon 2026 (LIS26) on its own appearance page: Olá Doutor, Brazil, Healthtech & wellness, a startup in the Growth track.",
+      "source": "r1",
+      "read_on": "2026-11-06",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "id": "f-ai",
+      "claim": "Its Web Summit pitch (chat consultations with licensed doctors) does not mention AI or agents.",
+      "source": "c2",
+      "read_on": "2026-11-05",
+      "by": "crm@web-summit.dinis"
+    }
+  ]
+}

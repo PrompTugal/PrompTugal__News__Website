@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "mobile-brain",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/91093bb6-fa22-477c-9a74-7bd74cd93ae8/mobile-brain",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.mobilebrain.com.br/",
+        "status": 200
+      }
+    }
+  ]
+}

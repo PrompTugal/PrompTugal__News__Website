@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "just-travel",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:other",
+      "source": "r1",
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "the summit files it under Travel & hospitality, which is none of PrompTugal's eight fields"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:brazil",
+      "source": "r1",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

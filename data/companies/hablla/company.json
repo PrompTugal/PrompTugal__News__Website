@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "hablla",
+  "type": "company",
+  "name": "Hablla",
+  "website": "https://one.hablla.com/es",
+  "what": "Hablla One is a self-service platform that automates customer conversations with AI across WhatsApp, Instagram, Messenger, email and phone. Built for creators, SMBs and agencies, it is free to start. As an official Meta BSP, it also lets companies connect to the WhatsApp Business API quickly. Hablla One is built by Hablla, which handles over 2 million WhatsApp conversations a day.",
+  "category": "other",
+  "country": "Brazil",
+  "attending": "confirmed: a LIS26 appearance page on websummit.com (re-checked 6 November 2026)",
+  "attending_as": "startup (growth)",
+  "field_sources": {
+    "name": [
+      "r1"
+    ],
+    "website": [
+      "r1"
+    ],
+    "what": [
+      "r1"
+    ],
+    "category": [
+      "r1"
+    ],
+    "country": [
+      "r1"
+    ],
+    "attending": [
+      "r1"
+    ],
+    "attending_as": [
+      "r1"
+    ]
+  },
+  "field_sources_method": "Read by hand from the summit's appearance page (r1); the team CRM's record is the other sources.",
+  "aliases": [
+    {
+      "name": "Hablla",
+      "source": "r1",
+      "how": "the name on the summit's appearance page"
+    }
+  ],
+  "from": {
+    "repository": "ws-team-crm-public (SG/Send vault pqm9vtul)",
+    "path": "companies/hablla/company.json",
+    "read_on": "2026-11-06",
+    "by": "crm@web-summit.dinis"
+  }
+}

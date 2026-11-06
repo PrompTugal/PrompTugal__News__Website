@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "hablla",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/77006d8a-9361-4846-9f4b-2773290d495c/hablla",
+        "status": 200
+      },
+      "website": {
+        "url": "https://one.hablla.com/es",
+        "status": 200
+      }
+    }
+  ]
+}

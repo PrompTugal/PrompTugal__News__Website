@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "fido",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/c0a7d7f7-26b0-41ba-816b-8560a0ec93e2/fido",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.fido.com.vc",
+        "status": 200
+      }
+    }
+  ]
+}

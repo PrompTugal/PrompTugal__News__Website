@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "raras-health",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/71dafd73-9686-4b97-8d4f-db80e085725a/raras-health",
+        "status": 200
+      },
+      "website": {
+        "url": "https://www.raras.health",
+        "status": 200
+      }
+    }
+  ]
+}

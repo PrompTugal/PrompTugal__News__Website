@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "naporta",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/3751780f-874a-4893-8fd1-41d6a155f4fa/naporta",
+        "status": 200
+      },
+      "website": {
+        "url": "https://naporta.digital/",
+        "status": 200
+      }
+    }
+  ]
+}

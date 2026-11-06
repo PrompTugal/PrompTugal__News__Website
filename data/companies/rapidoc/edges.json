@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/company-edges.schema.json",
+  "company": "rapidoc",
+  "edges": [
+    {
+      "verb": "filed_under",
+      "to": "topic:other",
+      "source": "r1",
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "the summit files it under Healthtech & wellness, which is none of PrompTugal's eight fields"
+    },
+    {
+      "verb": "based_in",
+      "to": "place:brazil",
+      "source": "r1",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "fretefy",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/c8356c12-968b-49a3-b910-a599c7b6658c/fretefy-tecnologia-s.a.",
+        "status": 200
+      },
+      "website": {
+        "url": "https://fretefy.com.br",
+        "status": 200
+      }
+    }
+  ]
+}

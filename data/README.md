@@ -15,7 +15,8 @@ data/
   schemas/                 one JSON Schema per file kind (24); the gate validates every file here against its own HAND
   site/site.json           the shell's words (masthead, dateline, who made it)                                HAND
   site/nav.json            the navigation, the footer, the llms.txt groups                                    HAND
-  companies/<id>/          the 109 companies the team follows                                                 HAND
+  companies/<id>/          the 120 companies: the 109 the team follows, and 11 of the Brazilian delegation      HAND
+                           from the public team CRM (6 November, re-checked; `from` names the CRM record)
     company.json           identity: name, website, what, category, country, attending, attending_as; for each
                            field the sources that support it; aliases (the names the summit's pages use for it)
     sources.json           every source: url, read_on, read_by, what it supports, its kind (optional
@@ -71,9 +72,15 @@ data/
    re-check). It was run first on 5 November 2026 from the newsroom's earlier `data/companies.json` (the team's
    map of 1 November plus this newsroom's re-check), which it replaces; a run from the team's map itself gives the
    same files.
-6. **An id is a key, not a name**: ASCII, lowercase, hyphens; the folder's name is the id. Labels stay as the source
+6. **From the team CRM** (ws-team-crm-public, SG/Send vault pqm9vtul, its read key in the team site's `data/crm.json`):
+   a company the team's map does not have, but the CRM's own agent (crm@web-summit.dinis) completed with sources, comes
+   in as a hand-written company: the summit's page re-read first (source `r1`), the CRM record's sources kept as `cN`
+   with who read them, its "AI and agents" line as a fact that says only what the pitch says, and none of the CRM's
+   team notes. The first were the eleven Brazilian startups and ApexBrasil (an organisation), on 6 November 2026.
+   The 50 outreach targets (WS-26) were all among the 109 already; the outreach ranking and owners are team notes.
+7. **An id is a key, not a name**: ASCII, lowercase, hyphens; the folder's name is the id. Labels stay as the source
    wrote them, accents and all. A reference is `<type>:<id>` (`company:replit`, `place:centre-stage`).
-7. **Every node and edge in the graphs names its source**: the URL read and when, or the repository file it was
+8. **Every node and edge in the graphs names its source**: the URL read and when, or the repository file it was
    derived from. A fact without a source is not published.
 
 ## How names are matched (and when they are not)

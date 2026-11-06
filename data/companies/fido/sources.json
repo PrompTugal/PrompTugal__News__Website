@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "fido",
+  "sources": [
+    {
+      "id": "r1",
+      "url": "https://websummit.com/appearances/lis26/c0a7d7f7-26b0-41ba-816b-8560a0ec93e2/fido",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "LIS26 appearance page, re-checked: name FIDO, country Brazil, track Growth, industry Fintech & financial services, website, and its elevator pitch (the \"what\" field)",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c1",
+      "url": "https://websummit.com/appearances/lis26/c0a7d7f7-26b0-41ba-816b-8560a0ec93e2/fido",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "LIS26 appearance: name, country Brazil, track Startup, industry",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c2",
+      "url": "https://websummit.com/startups/featured-startups/",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "listed among Web Summit's featured startups for LIS26, with its elevator pitch (the \"what\" field and the AI line)",
+      "kind": "summit-list"
+    }
+  ]
+}

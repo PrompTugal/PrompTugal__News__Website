@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/company-recheck.schema.json",
+  "company": "ai-infinity",
+  "log": [
+    {
+      "checked_at": "2026-11-06T00:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/bb1ea8a4-b831-4875-8d07-dfae3296cef1/ai-infinity",
+        "status": 200
+      },
+      "website": {
+        "url": "https://ai-infinity.io/",
+        "status": 200
+      }
+    }
+  ]
+}

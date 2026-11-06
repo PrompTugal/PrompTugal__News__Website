@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schemas/company-sources.schema.json",
+  "company": "hablla",
+  "sources": [
+    {
+      "id": "r1",
+      "url": "https://websummit.com/appearances/lis26/77006d8a-9361-4846-9f4b-2773290d495c/hablla",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "LIS26 appearance page, re-checked: name Hablla, country Brazil, track Growth, industry Advertising, content & marketing, website, and its elevator pitch (the \"what\" field)",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c1",
+      "url": "https://websummit.com/appearances/lis26/77006d8a-9361-4846-9f4b-2773290d495c/hablla",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "LIS26 appearance: name, country Brazil, track Startup, industry",
+      "kind": "summit-appearance"
+    },
+    {
+      "id": "c2",
+      "url": "https://websummit.com/startups/featured-startups/",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "listed among Web Summit's featured startups for LIS26, with its elevator pitch (the \"what\" field and the AI line)",
+      "kind": "summit-list"
+    },
+    {
+      "id": "c3",
+      "url": "https://crm-apps.apexbrasil.com.br/orgbdeab873/inscricao-eventos/evento/web-summit-lisboa-2026/0714952e-98da-f011-8543-7ced8db0f987",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "ApexBrasil's approved list for its Web Summit Lisboa 2026 mission (status at 28/8/2026): CNPJ 07.145.678/0001-01, \"Confirmado\"",
+      "kind": "other"
+    },
+    {
+      "id": "c4",
+      "url": "https://brasilapi.com.br/api/cnpj/v1/07145678000101",
+      "read_on": "2026-11-05",
+      "read_by": "crm@web-summit.dinis",
+      "supports": "the public CNPJ register names that CNPJ HABLLA SERVICOS DIGITAIS LTDA (trade name HABLLA), São Paulo SP: the match to the ApexBrasil list",
+      "kind": "other"
+    }
+  ]
+}
