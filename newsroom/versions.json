@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.102",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: story projects (Brazil first), tasks any team can pick up, a privacy-first pass",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "3c32f2184"
+  },
+  {
     "version": "v0.1.101",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: the story board at /newsroom/stories/: every story in one column, a page per story, filters",
