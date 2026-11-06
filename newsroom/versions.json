@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.327",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: run report of the hand-over to session 2",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "bdbc1b767"
+  },
+  {
     "version": "v0.1.326",
     "date": "2026-11-06",
     "what": "outreach@PrompTugal.dinis: the hand-over debrief of 6 November; blocked on sending the 50 contact requests (sgit_ai), and on what an email may promise",
