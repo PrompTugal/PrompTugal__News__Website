@@ -28,8 +28,8 @@ export function pages(ctx) {
     const vs = ctx.readJSON(VAULTS).vaults
     for (const v of vs) if (!READ_KEY.test(v.read_key) || !VID.test(v.vault_id)) throw new Error(`${VAULTS}: "${v.name}" needs vault_id and a read_key of the form sgit_public_read_<64 hex> (never a vault key)`)
     const obs = ctx.readJSON('assets/obs/obs.json')
-    const tabsHtml = `<nav class="adm-tabs" aria-label="Control centre">${TABS.map(([r, l]) => `<a href="${href(REL, r)}"${r === REL ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>`
-    const tabsMd = `**Control centre:** ${TABS.map(([r, l]) => r === REL ? `**${l}**` : `[${l}](${ctx.link(REL, r)})`).join(' · ')}`
+    const tabsHtml = `<nav class="adm-tabs" aria-label="Newsroom">${TABS.map(([r, l]) => `<a href="${href(REL, r)}"${r === REL ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>`
+    const tabsMd = `**Newsroom:** ${TABS.map(([r, l]) => r === REL ? `**${l}**` : `[${l}](${ctx.link(REL, r)})`).join(' · ')}`
     const v = vs.find(x => x.id === 'promptugal')
     const widget = `<div class="obs-view" data-view="explore" data-base="../../" data-endpoint="https://dev.send.sgraph.ai" data-vault="${v.vault_id}" data-key="${v.read_key}">` +
         `<p class="meta" data-note>Opening vault <code>${v.vault_id}</code> with its published read key, decrypting in your browser…</p><div data-out></div>` +
@@ -73,7 +73,7 @@ It signs the record with your session key, so the drain names you once its publi
     return [{
         rel: REL, title: 'Observability: who reads what, and which agents ran', type: 'site', src: VAULTS, date: ctx.TODAY, toc: [],
         summary: 'Who reads promptugal.news and what its agents do: traffic by group and hour, pages, page-to-page flows, places, every agent\'s runs, read live in your browser from the public vault. Click anything. Public, at Dinis Cruz\'s word.',
-        crumbs: [['newsroom/index.html', 'Control centre'], [null, 'Observability']],
+        crumbs: [['newsroom/index.html', 'Newsroom'], [null, 'Observability']], layout: 'wide',
         assets: { css: ['assets/newsroom/newsroom.css'], js: ['assets/vendor/sgit-ai/2026-11-05/vault-embed.js', 'assets/obs/obs-view.js'] },
         md, twinMd: twin,
         postHtml: html => html.replace('<p>@@OBS:0@@</p>', tabsHtml).replace('<p>@@OBS:1@@</p>', widget),

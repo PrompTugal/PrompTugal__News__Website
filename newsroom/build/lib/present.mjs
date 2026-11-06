@@ -12,7 +12,7 @@ export function refLink(ctx, fromRel, ref, label) {
 }
 export const day10 = s => String(s || '').slice(0, 10)
 export const readOn = s => day10(s)
-export const shortUrl = (u, n = 70) => cell(String(u).replace(/^https?:\/\/(www\.)?/, '')).slice(0, n)
+export const shortUrl = (u, n = 70) => { const s = cell(String(u).replace(/^https?:\/\/(www\.)?/, '')); return s.length > n ? s.slice(0, n - 1) + '…' : s }
 // "[websummit.com/sessions/...](url), read 2026-11-04 by programme@web-summit.vicky"
 export const sourceLine = (url, read, by) => `[${shortUrl(url)}](${url})${read ? `, read ${readOn(read)}` : ''}${by ? ` by ${by}` : ''}`
 export const timeText = e => e.time ? e.time.replace('-', ' to ') : 'All day'

@@ -129,20 +129,6 @@
       "href": "about/index.html"
     },
     {
-      "label": "The newsroom",
-      "href": "newsroom/index.html"
-    },
-    {
-      "column": "PrompTugal.news",
-      "label": "Design",
-      "href": "newsroom/design/index.html"
-    },
-    {
-      "column": "PrompTugal.news",
-      "label": "Orders",
-      "href": "newsroom/orders/index.html"
-    },
-    {
       "column": "PrompTugal.news",
       "label": "Our disclosure",
       "href": "about/participant.html"
@@ -158,12 +144,27 @@
       "href": "brief/index.html"
     },
     {
-      "column": "PrompTugal.news",
+      "label": "The newsroom",
+      "href": "newsroom/index.html",
+      "column": "The newsroom"
+    },
+    {
+      "column": "The newsroom",
+      "label": "Design",
+      "href": "newsroom/design/index.html"
+    },
+    {
+      "column": "The newsroom",
+      "label": "Orders",
+      "href": "newsroom/orders/index.html"
+    },
+    {
+      "column": "The newsroom",
       "label": "Release history",
       "href": "newsroom/versions.html"
     },
     {
-      "column": "PrompTugal.news",
+      "column": "The newsroom",
       "label": "Synthetic readers",
       "href": "newsroom/synthetic.html"
     },
@@ -200,7 +201,7 @@
     {
       "column": "For agents",
       "label": "Source code",
-      "href": "https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit"
+      "href": "https://github.com/PrompTugal/PrompTugal__News__Website"
     },
     {
       "column": "For agents",

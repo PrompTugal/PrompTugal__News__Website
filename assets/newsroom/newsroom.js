@@ -1,4 +1,6 @@
-// The control centre's one script: the filters on the runs page. Without it, every run is shown.
+// The newsroom's one script: the current tab scrolled into view on a phone, and the filters on the runs page.
+// Without it, every tab and every run is shown.
+(function () { var t = document.querySelector('.adm-tabs [aria-current]'); if (t && t.parentNode.scrollWidth > t.parentNode.clientWidth) t.parentNode.scrollLeft = t.offsetLeft - 16 })()
 (function () {
     var form = document.querySelector('.adm-filters'); if (!form) return
     var table = document.getElementById(form.getAttribute('data-for')); if (!table) return

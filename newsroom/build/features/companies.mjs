@@ -2,7 +2,7 @@
 // A profile per company, and the navigators: its sessions at the summit, its people, the companies related to it
 // through a shared event or a shared field, and its graph as JSON. Fills <!-- companies:count --> and
 // <!-- companies:list --> in the prose.
-import { refLink, sourceLine, timeText, maxDate, dataLinks, plural, slotLine, slotList } from '../lib/present.mjs'
+import { shortUrl, refLink, sourceLine, timeText, maxDate, dataLinks, plural, slotLine, slotList } from '../lib/present.mjs'
 import { eventsOfCompany, relatedCompanies } from '../lib/graph.mjs'
 export const order = 30
 
@@ -54,9 +54,9 @@ function flowsSection(ctx, c) {
     const cite = ids => [ids].flat().filter(Boolean).map(id => src.get(id)).filter(Boolean).map(s => sourceLine(s.url, s.read_on)).join('; ')
     if (!c.flows.length) return `We have not mapped ${cell(c.name)}'s flows yet: how work moves through its product, from a request to a result, and at which steps an AI agent acts. We map them only from public pages (its own site and documentation, its talks), each step with its source, and never guess. If you are at ${cell(c.name)}, the quickest way to get this right is to tell us how it works.`
     const agents = c.flows.reduce((n, f) => n + (f.steps || []).filter(s => s.agent).length, 0)
-    return `How work moves through ${cell(c.name)}'s product, as its public pages describe it, and the steps where an AI agent acts (${plural(agents, 'step')} with an agent, marked **Agent**). Each step cites its source.\n\n` + c.flows.map(f =>
+    return `How work moves through ${cell(c.name)}'s product, as its public pages describe it, and the steps where an AI agent acts (${plural(agents, 'step')} with an AI agent in it, marked **AI agent here**). Each step cites its source.\n\n` + c.flows.map(f =>
         `### ${cell(f.name)} {#flow-${f.id}}\n\n${f.summary ? cell(f.summary) + ' ' : ''}(${cite(f.source)})\n\n` +
-        (f.steps || []).map((st, i) => `${i + 1}. ${st.actor ? `**${cell(st.actor)}**: ` : ''}${cell(st.what)}${st.agent ? ` **Agent:** ${cell(st.agent)}` : ''} (${cite(st.source)})`).join('\n')).join('\n\n')
+        (f.steps || []).map((st, i) => `${i + 1}. ${st.actor ? `**${cell(st.actor)}**: ` : ''}${cell(st.what)}${st.agent ? ` **AI agent here:** ${cell(st.agent)}` : ''} (${cite(st.source)})`).join('\n')).join('\n\n')
 }
 
 // What PrompTugal.news is, for a reader who arrives from an email: who makes it, what it is not, the disclosure.
@@ -88,7 +88,7 @@ export function pages(ctx) {
                 `## Its flows, and where AI agents are in them {#flows}\n\n${flowsSection(ctx, x)}\n\n` +
                 `## Our question for them {#question}\n\nAs for every company we follow, three questions, not claims. We have not asked ${cell(x.name)} yet. When they answer, it goes here.\n\n{.lens}\n1. **Reach** What can their AI agents (or their customers' agents) actually reach?\n2. **Mandate** What were they authorised to do?\n3. **Gap** Who controls the gap between the two?\n\n` +
                 `## Where this comes from {#sources}\n\n{.sources}\n` +
-                x.sources.map(s => `- [${cell(s.url).replace(/^https?:\/\//, '').slice(0, 70)}](${s.url}), read ${s.read_on} by the team's curator: ${cell(s.supports)}.`).join('\n') +
+                x.sources.map(s => `- [${shortUrl(s.url)}](${s.url}), read ${s.read_on} by the team's curator: ${cell(s.supports)}.`).join('\n') +
                 `\n\nRe-checked by ${AGENT}${chk.checked_at ? ` on ${chk.checked_at.slice(0, 10)} at ${chk.checked_at.slice(11, 16)} UTC` : ''}: ` +
                 [sp ? (sp.status === 200 ? `the summit's page answered and is still live` : sp.status ? `the summit's page answered with HTTP ${sp.status}, so its listing has moved or gone: until it is found again, treat its place at the summit as not re-confirmed` : `the summit's page did not answer in time; the listing is as the team read it on 1 November`) : `there is no summit page for it in the team's sources`,
                 ws ? `the company's website answered ${ws.status >= 200 && ws.status < 400 ? 'and is live' : ws.status ? `with HTTP ${ws.status} to an automated read` : 'not at all to an automated read'}` : ''].filter(Boolean).join('; ') + '.' +

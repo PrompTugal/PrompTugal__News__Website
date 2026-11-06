@@ -1,4 +1,4 @@
-/* The control centre (/newsroom/): the newsroom's back office. Same family as the site (paper, ink, azulejo cobalt,
+/* The newsroom (/newsroom/): PrompTugal.news's back end. Same family as the site (paper, ink, azulejo cobalt,
    rules not boxes), denser. Loaded on newsroom pages only. Every colour falls back from the design tokens
    (design/tokens.css: --brand, --paper-2, --sans ...) to today's stylesheet (--accent, --paper-sunk), so it works
    before and after the new shell. Chart series: the three validated categorical slots, by kind of agent. */
@@ -145,3 +145,5 @@ main .lead, main .body > p, main .body > ul, main .body > ol { max-width: 46em; 
     .adm-runs-t tr[hidden] { display: none; }
 }
 .body .table table { font: 14.5px/1.42 var(--a-sans); }
+/* the tabs on a phone (spec, 5): they scroll, and a fade at the right edge says so */
+@media (max-width: 720px) { .adm-tabs { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent); } }

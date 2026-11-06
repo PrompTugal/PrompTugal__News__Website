@@ -1,0 +1,5 @@
+/* On every page under /newsroom/ (features/newsroom.mjs, decorate). */
+/* the section's label (designer@'s spec, board/spec-newsroom-section-header.md, 2): where the reader is */
+.nr-label { margin: 0 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--hair); font: 400 var(--fs-label, 12px)/1.3 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.nr-label a { color: var(--brand); text-decoration: none; }
+main.wide .page-head .lead { max-width: var(--measure); }

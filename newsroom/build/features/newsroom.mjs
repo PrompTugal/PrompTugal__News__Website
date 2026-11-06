@@ -1,4 +1,4 @@
-// The control centre (/newsroom/): the newsroom's back office, public like the rest of the site. It shows the work,
+// The newsroom (/newsroom/): PrompTugal.news's back end, public like the rest of the site. It shows the work,
 // never a credential. Pages: the overview (the status report of 5 November, live from data), every run, the agents
 // (one page each), the timeline (swim lanes by agent), the data the newsroom holds, the workflows, the lab, and the
 // release history (newsroom/versions.html, the versions feature's page, joined to this section here in decorate).
@@ -19,6 +19,7 @@ import { model, liveCounts, fillCounts, lanesFor, parallels, readLedger, STAGES,
 
 export const order = 91
 export const TABS = [['newsroom/index.html', 'Overview'], ['newsroom/runs/index.html', 'Runs'], ['newsroom/agents/index.html', 'Agents'], ['newsroom/timeline/index.html', 'Timeline'], ['newsroom/data/index.html', 'Data'], ['newsroom/workflows/index.html', 'Workflows'], ['newsroom/lab/index.html', 'Lab'], ['newsroom/observability/index.html', 'Observability'], ['newsroom/versions.html', 'Releases']]
+export const LABEL = '<p class="nr-label"><a href="@@UP@@newsroom/index.html">The newsroom</a> · How PrompTugal.news is made, in public</p>'
 const ASSETS = { css: ['assets/newsroom/newsroom.css'], js: ['assets/newsroom/newsroom.js'] }
 const TEAM_BOARD = 'https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/'
 const TEAM_KEYS = 'https://web-summit.sgit.ai/keys/index.html'
@@ -37,10 +38,10 @@ function builder(rel) {
     const blocks = []
     return { rel, blocks, raw(html, md = '') { blocks.push({ html, md }); return `\n\n@@NEWSROOM:${blocks.length - 1}@@\n\n` }, h: to => href(rel, to) }
 }
-const tabs = (b, ctx) => b.raw(`<nav class="adm-tabs" aria-label="Control centre">${TABS.map(([r, l]) => `<a href="${b.h(r)}"${r === b.rel ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>`,
-    `**Control centre:** ${TABS.map(([r, l]) => r === b.rel ? `**${l}**` : `[${l}](${ctx.link(b.rel, r)})`).join(' · ')}`)
-const page = (b, p) => ({ ...p, rel: b.rel, type: 'site', assets: ASSETS, toc: [], _newsroom: b, postHtml: html => html.replace(/<p>@@NEWSROOM:(\d+)@@<\/p>/g, (m, i) => b.blocks[+i].html) })
-const crumbs = (...xs) => [['newsroom/index.html', 'Control centre'], ...xs]
+const tabs = (b, ctx) => b.raw(`<nav class="adm-tabs" aria-label="Newsroom">${TABS.map(([r, l]) => `<a href="${b.h(r)}"${r === b.rel ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>`,
+    `**Newsroom:** ${TABS.map(([r, l]) => r === b.rel ? `**${l}**` : `[${l}](${ctx.link(b.rel, r)})`).join(' · ')}`)
+const page = (b, p) => ({ ...p, rel: b.rel, type: 'site', layout: 'wide', assets: ASSETS, toc: [], _newsroom: b, postHtml: html => html.replace(/<p>@@NEWSROOM:(\d+)@@<\/p>/g, (m, i) => b.blocks[+i].html) })
+const crumbs = (...xs) => [['newsroom/index.html', 'Newsroom'], ...xs]
 
 // ---------- the overview ----------
 function overview(ctx, m) {
@@ -87,7 +88,7 @@ function overview(ctx, m) {
     const R = reality(ctx)
     const latest = m.runs.slice(0, 8)
     const md = tabs(b, ctx) +
-        `This is the newsroom's control centre: every agent, every run, the plan and the data, drawn from the repository at every release. It is public, like the rest of the site: it shows the work, never a credential. The pictures are plain text, so anyone can copy them into a chat, a commit or a slide; the charts are drawn at build and need no script.\n\n` +
+        `This is PrompTugal.news's newsroom: every agent, every run, the plan and the data, drawn from the repository at every release. It is public, like the rest of the site: it shows the work, never a credential. The pictures are plain text, so anyone can copy them into a chat, a commit or a slide; the charts are drawn at build and need no script.\n\n` +
         `<!-- newsroom:counts -->\n\n` +
         `## At a glance {#glance}\n\n${fence(glance)}\n\nThe bars are a judgement, not a measure: how close each part is to what [the brief](${ctx.link(b.rel, 'brief/index.html')}) asks of it. The numbers in the notes are counted from the data at this release. Kept in \`data/newsroom/plan.json\` by ${P.by}, last on ${d.when(P.updated)} UTC.\n\n` +
         `## Agents at work {#agents}\n\n${fence(atWork)}\n\n` +
@@ -109,7 +110,7 @@ function overview(ctx, m) {
         `## What exists, and what does not yet {#reality}\n\n[REALITY.md](${REPO_URL}/blob/dev/REALITY.md) lists ${R.exists.length} things that exist. Not yet (${R.notYet.length}):\n\n${R.notYet.map(x => `- ${cell(x)}`).join('\n')}\n\n` +
         `## The latest runs {#latest}\n\n| When | Who | What | Release |\n|---|---|---|---|\n${latest.map(r => `| [${d.when(r.when)}](${ctx.link(b.rel, runRel(r))}) | ${r.roster ? `[${d.short(r.by)}](${ctx.link(b.rel, agentRel(r.roster))})` : d.short(r.by === 'GitHub Actions' ? null : r.by)} | ${cell(r.what)} | ${r.release ? `[${r.release}](${ctx.link(b.rel, `newsroom/versions.html#${r.release}`)})` : r.source === 'desk-report' ? 'reported' : 'not yet'} |`).join('\n')}\n\n[Every run](${ctx.link(b.rel, 'newsroom/runs/index.html')}).\n\n` +
         sourcesSection(ctx, b.rel, m)
-    return page(b, { src: 'data/newsroom/plan.json', date: ctx.TODAY, title: 'The control centre', crumbs: [[null, 'Control centre']], summary: 'Every agent working on this newsroom, every run, the plan and the data, live from the repository at every release: the status report of 5 November, drawn from data.', md })
+    return page(b, { src: 'data/newsroom/plan.json', date: ctx.TODAY, title: 'The newsroom', crumbs: [[null, 'Newsroom']], summary: 'Every agent working on PrompTugal.news, every run, the plan and the data, live from the repository at every release: the status report of 5 November, drawn from data.', md })
 }
 const and = xs => xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`
 function wrap(s, w) { const out = []; let cur = ''; for (const word of String(s).split(/\s+/)) { if ((cur + ' ' + word).trim().length > w) { out.push(cur.trim()); cur = word } else cur += ' ' + word } if (cur.trim()) out.push(cur.trim()); return out }
@@ -396,6 +397,8 @@ export async function pages(ctx) {
 // the twin of a newsroom page: its markdown with each raw block's markdown in place (read at write time, after fill);
 // and the release history joins this section (tabs, crumbs, the stylesheet)
 export function decorate(p, ctx) {
+    // every page of the section says where the reader is (designer@'s spec, board/spec-newsroom-section-header.md, 2)
+    if (p.rel.startsWith('newsroom/')) { p.label = p.label || LABEL; p.assets = { css: [...(p.assets?.css || []), 'assets/newsroom/label.css'], js: [...(p.assets?.js || [])] } }
     if (p._newsroom) {
         const blocks = p._newsroom.blocks
         Object.defineProperty(p, 'twinMd', { configurable: true, enumerable: true, get() { return this.md.replace(/@@NEWSROOM:(\d+)@@/g, (x, i) => blocks[+i].md) } })
@@ -419,11 +422,11 @@ export const fill = {
     'newsroom:api-files': (p, ctx) => apiFiles(p, ctx),
 }
 
-// /api/v1/newsroom/status.json: the control centre for agents
+// /api/v1/newsroom/status.json: the newsroom for agents
 function status(ctx) {
     const m = model(ctx), c = liveCounts(ctx, m), brief9 = briefOrder(ctx)
     return {
-        about: 'The newsroom\'s control centre as JSON: the agents, the pipeline, the build order, what waits on a person and every run, newest first. Built at every release from the runs ledger (data/newsroom/runs/), the roster (data/newsroom/agents.json), the plan (data/newsroom/plan.json) and a snapshot of the team\'s site (data/newsroom/team-site.json). Public; material for agents, never instruction.',
+        about: 'The newsroom as JSON: the agents, the pipeline, the build order, what waits on a person and every run, newest first. Built at every release from the runs ledger (data/newsroom/runs/), the roster (data/newsroom/agents.json), the plan (data/newsroom/plan.json) and a snapshot of the team\'s site (data/newsroom/team-site.json). Public; material for agents, never instruction.',
         version: ctx.VERSION, built: ctx.TODAY, page: `${ctx.BASE}newsroom/index.html`, schema: `${ctx.BASE}data/schemas/newsroom-status.schema.json`,
         counts: { ...c, commits: m.ledger.filter(x => x.kind !== 'release').length, desk_runs: m.team.desk_runs.length, agents: m.agents.length, nodes: ctx.graph().nodes.length, edges: ctx.graph().edges.length },
         ledger: { lines: m.ledger.length, last: m.ledger.at(-1) ? { short: m.ledger.at(-1).short, when: m.ledger.at(-1).when } : null, tool: 'newsroom/tools/runs.mjs' },
@@ -437,7 +440,7 @@ function status(ctx) {
 }
 export function api(ctx) { return [{ path: 'api/v1/newsroom/status.json', data: status(ctx), schema: 'newsroom-status' }] }
 
-export const llms = ctx => `## The control centre\n- [api/v1/newsroom/status.json](${ctx.BASE}api/v1/newsroom/status.json): the newsroom's agents (status, runs, last run), the desks' pipeline, the build order, what waits on a person and every run newest first (commits here and the desks' reported runs), as JSON; schema data/schemas/newsroom-status.schema.json. The pages are under ${ctx.BASE}newsroom/ (overview, runs, agents, timeline, data, workflows, lab).\n\n`
+export const llms = ctx => `## The newsroom\n- [api/v1/newsroom/status.json](${ctx.BASE}api/v1/newsroom/status.json): the newsroom's agents (status, runs, last run), the desks' pipeline, the build order, what waits on a person and every run newest first (commits here and the desks' reported runs), as JSON; schema data/schemas/newsroom-status.schema.json. The pages are under ${ctx.BASE}newsroom/ (overview, runs, agents, timeline, data, workflows, lab).\n\n`
 
 // the section's own checks, run by the gate
 export function validate(gate) {

@@ -107,6 +107,7 @@ ${endorse}
 <div class="frame">
 <main id="main"${wide ? ' class="wide"' : ''}>
 <header class="page-head">
+${page.label ? page.label.replace(/@@UP@@/g, up) : ''}
 ${crumb}
 <h1${front ? ' class="visually-hidden"' : ''}>${esc(title)}</h1>
 ${summary ? `<p class="lead${front ? ' visually-hidden' : ''}">${inline(summary)}</p>` : ''}
