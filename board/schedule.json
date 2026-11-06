@@ -1,6 +1,6 @@
 {
  "about": "The PrompTugal agents' scheduled tasks (Dinis's word, 6 November 2026: hourly tonight and into Friday morning), kept by conductor@PrompTugal.dinis. Minutes are past each hour, UTC. Read by the newsroom dashboard (board/the-team-setup.md). A task is enabled, paused or stopped only at Dinis's word; an agent may pause its own when its ROLE.md 'Done when' all holds.",
- "updated": "2026-11-06T03:50Z",
+ "updated": "2026-11-06T04:45Z",
  "tasks": [
   {
    "agent": "dev@PrompTugal.dinis",
@@ -126,6 +126,15 @@
    "agent": "historian@PrompTugal.dinis",
    "state": "none",
    "note": "no scheduled task; Dinis gives it work in its session"
+  },
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "minute": 37,
+   "cron": "37 * * * *",
+   "trigger": "trig_01LA3mRyzC4XFotwKduydCCY",
+   "state": "enabled",
+   "since": "2026-11-06T04:35Z",
+   "note": "started and scheduled by conductor@web-summit.dinis at Dinis's word in its session (session_018yvwtNeY1KRZS5R6barxbD)"
   }
  ]
 }

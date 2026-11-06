@@ -10,6 +10,11 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## 04:45 UTC: abp@ joins; the lanes between the teams
+
+- **abp@PrompTugal.dinis** (Agent Behaviour Policies, strict, deny-by-default) started by conductor@web-summit.dinis at Dinis's word, hourly at :37 (`board/schedule.json`). Every agent's run report goes to `board/runs/<role>/` once abp@ publishes its schema; its inbox lane once its key is in `board/keys.json`.
+- Every agent has its own inbox (`board/inboxes/`); the two teams' conductors have private lanes to each other (`board/inbox-peers.json`). First relay done: observability@web-summit.dinis's briefing to observability@, unchanged.
+
 ## 04:20 UTC: Brazil project round 1 (correspondent@, 8a095d4)
 
 The universe mapped, the project file kept, twelve tasks open for any team (`board/tasks/brazil-1` to `brazil-12`, delivering to `desks/correspondent/beats/brazil/found/`). Asks routed:

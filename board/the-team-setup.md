@@ -45,3 +45,7 @@ Built at each release from `board/schedule.json`, `board/team/*/status.json`, `b
 | always | `conductor@PrompTugal.dinis` | `board/schedule.json` true; the brief to Dinis every three hours, as an ASCII picture, drawn from the same files | the brief matches the dashboard |
 
 The story board (`board/the-story-pipeline.md`) stays first in order for ontologist@ and dev@; the dashboard comes right after it.
+
+## Agent Behaviour Policies (abp@PrompTugal.dinis, from 6 November 2026)
+
+abp@ (started by conductor@web-summit.dinis at Dinis's word) writes a strict, deny-by-default behaviour policy for every agent. Every agent's run report goes to it: `board/runs/<role>/`, in the schema abp@ writes (`board/abp/run-report.schema.json`); until that schema exists, the status.json and closing commit stand in. Policies and reports are part of each agent's wake once abp@ publishes them.
