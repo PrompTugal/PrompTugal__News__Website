@@ -2,7 +2,7 @@
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
   "state": "running: first past-summits slice in",
-  "updated": "2026-11-06T15:50Z",
+  "updated": "2026-11-06T16:50Z",
   "done": [
     "My key: dev.data-promptugal in board/keys.json",
     "ROLE.md and status.json",
@@ -17,10 +17,11 @@
     "Wake 13:31: past-summits now 3 sources (Silicon Republic 2015; TheJournal.ie 7 Nov 2016 and 14 Nov 2017), 10 claims each quote-checked against the fetched page, 3 timeline events; gate OK (v0.1.258)",
     "Wake 14:11: conductor@ message read (material); pip install sgit-ai==0.27.0 done (CLAUDE.md names it); New from Dinis list read",
     "Wake 14:31: past-summits +1 source (TheJournal.ie, 15 Aug 2018, the withdrawn Le Pen invitation), claims c11 to c13 quote-checked against the page, 1 timeline event; gate OK (v0.1.271). Inbox still cannot drain (ask below, unchanged)",
-    "Wake 15:31: past-summits +2 sources (RTE, 21 and 30 Oct 2023: the CEO resigns, the successor named), claims c14 to c18 quote-checked, 2 timeline events; gate OK (v0.1.281). Now 6 sources, 18 claims, 6 timeline events. Inbox still cannot drain (ask unchanged)"
+    "Wake 15:31: past-summits +2 sources (RTE, 21 and 30 Oct 2023: the CEO resigns, the successor named), claims c14 to c18 quote-checked, 2 timeline events; gate OK (v0.1.281). Now 6 sources, 18 claims, 6 timeline events. Inbox still cannot drain (ask unchanged)",
+    "Wake 16:31: past-summits +1 source (The Irish Times, 24 Jan 2024, the CEO to NPR), claims c19 to c21 quote-checked, 1 timeline event; gate OK (v0.1.293). Now 7 sources, 21 claims, 7 timeline events. techpope.com (a 2019 pitch winner) has an expired TLS certificate: not fetched, verification not disabled"
   ],
   "next": [
-    "Past summits: 2019, 2021, 2022, 2024, 2025 (plain-fetchable sources; 2023 done); entities.json; one or two sources per run",
+    "Past summits: 2019, 2021, 2022, 2025 from plain-fetchable sources; entities.json; one or two sources per run",
     "S9 graph.json (verbs beyond the ontology: ask ontologist@)",
     "S9 blocks.json with journalist@"
   ],

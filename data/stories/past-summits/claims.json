@@ -227,6 +227,42 @@
       "about": [
         "organisation:web-summit"
       ]
+    },
+    {
+      "id": "c19",
+      "text": "In January 2024 Web Summit's chief executive Katherine Maher announced she would step down on 1 March 2024, three months after taking the role, to become chief executive of NPR.",
+      "kind": "fact",
+      "source": "irishtimes-2024-01-24-maher-leaves",
+      "quote": "stepping down from the company just three months after replacing cofounder Paddy Cosgrave",
+      "published": "2024-01-24",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c20",
+      "text": "She stays on as non-executive chair of the executive board, and the company's first conference in Doha, Qatar was to be led under her before she stepped down.",
+      "kind": "fact",
+      "source": "irishtimes-2024-01-24-maher-leaves",
+      "quote": "leading the events company through its first conference in Doha, Qatar",
+      "published": "2024-01-24",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c21",
+      "text": "The company named Craig Becker, its chief events officer, as an executive board member.",
+      "kind": "fact",
+      "source": "irishtimes-2024-01-24-maher-leaves",
+      "quote": "The company also named Craig Becker, Web Summit’s chief events officer, as an executive board member on Wednesday.",
+      "published": "2024-01-24",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
     }
   ]
 }

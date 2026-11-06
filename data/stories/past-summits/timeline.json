@@ -86,6 +86,20 @@
         "c17",
         "c18"
       ]
+    },
+    {
+      "at": "2024-01-24",
+      "what": "Web Summit announces its chief executive will step down on 1 March 2024 to lead NPR, remaining as non-executive chair.",
+      "kind": "change",
+      "about": [
+        "organisation:web-summit"
+      ],
+      "source": "irishtimes-2024-01-24-maher-leaves",
+      "claim": [
+        "c19",
+        "c20",
+        "c21"
+      ]
     }
   ]
 }
