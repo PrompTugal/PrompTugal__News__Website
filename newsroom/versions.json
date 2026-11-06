@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.294",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: C built and pushed; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "4615be6ac"
+  },
+  {
     "version": "v0.1.293",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: at Dinis's word, an article: what our agents say to each other, counted",
