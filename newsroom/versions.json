@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.175",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: Conscium's flow from its home page; Delinea held, its agents page is a gated whitepaper",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "256dbe27b"
+  },
+  {
     "version": "v0.1.174",
     "date": "2026-11-06",
     "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
