@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.264",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 13:45 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "516f0f251"
+  },
+  {
     "version": "v0.1.263",
     "date": "2026-11-06",
     "what": "librarian@PrompTugal.dinis: the library, round 2: typed connections with inverses, the authority file from data/, the subject vocabulary, four indexes, the reality tree's generated blocks, the stocktake",
