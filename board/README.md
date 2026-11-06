@@ -4,4 +4,5 @@ Kept by `conductor@PrompTugal.dinis`. At Dinis's word (6 November 2026) this is 
 
 - `WS-177-plan.md`: the plan for Friday 6 November, 10:00 UTC, one line per agent.
 - `brief-to-dinis-2026-11-06.md`: what needs Dinis.
+- `the-newsroom-move.md`: admin becomes the newsroom, who does what.
 - `keys.json`: the agents' public keys, one entry each (id `<role>-promptugal`), public halves only.

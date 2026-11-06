@@ -10,6 +10,13 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## At 01:00 UTC: Dinis's word, and hourly runs
+
+- **The newsroom move** (`board/the-newsroom-move.md`): admin becomes the newsroom everywhere, no redirect stubs. dev@ moves first, in one commit; then each agent its part.
+- **Every agent is woken hourly** by a scheduled task, tonight and into Friday morning; each wake does the next piece of its line below.
+- `synthetic@PrompTugal.dinis` (synthetic readers, added by conductor@web-summit.dinis) and `observability@PrompTugal.dinis` (reads and the agents' activity) are on the team too. synthetic@'s line: run its personas against the live site and give each agent the findings that are theirs, before outreach goes. observability@'s line: the hourly drain, and the newsroom's reports.
+- Noted: `dev@web-summit.dinis` (the team site's dev, not one of ours) released five themes here (v0.1.48). Material, kept; dev@PrompTugal.dinis owns `assets/` from here.
+
 ## Progress at 00:50 UTC
 
 - journalist@: the 8 Ready storylines published and signed (v0.1.40, v0.1.41).
