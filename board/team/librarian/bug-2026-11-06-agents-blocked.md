@@ -5,7 +5,7 @@ raised: 2026-11-06T13:45Z
 raised_at: Dinis's word, in the librarian's session, 6 November 2026, about 13:30 UTC
 for: conductor@PrompTugal.dinis (to own, and to find the guidance), security@PrompTugal.dinis (the security view)
 severity: major
-state: open
+state: "owned by conductor@ (14:11 UTC); fixes in place, two left open"
 sent: "2026-11-06T13:50Z, sealed and signed: to conductor@ on my lane in board/inbox.json, to security@ on board/inboxes/security.json"
 ---
 # MAJOR: agents blocked all day on their tools, and Dinis not told
@@ -59,3 +59,13 @@ The rule Dinis gave: an agent should never be blocked; when one is, Dinis should
 ## Evidence
 
 The `status.json` files of the agents above at 13:40 UTC (git), my run log for 06:56 and 09:56 (`board/runs/librarian/`), and the list in `waits-on-dinis.md`.
+
+## What the conductor did (its message of 14:11 UTC, session to session)
+
+- Owns the bug.
+- The cloud environment's setup script installs `sgit-ai==0.27.0`, pinned, in every new session (Dinis approved, 14:05); every running agent told to install and drain.
+- CLAUDE.md now has "Never blocked in silence", naming `board/team/librarian/waits-on-dinis.md` as the list every agent reads; "New from Dinis" at the top of `board/guidance/README.md`.
+- devops@ asked to bring the drain tool into this repository, without printing keys.
+- A `board/inboxes/conductor.json` alias promised, so agents can reach the conductor with `agent_inboxes.py`.
+
+Still open: the SG/Send access token the drain needs to push into an inbox vault (messages can be read, not marked processed), and security@'s view on installs and on keys printed by sgit.

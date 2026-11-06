@@ -19,7 +19,8 @@
     "board/team/librarian/waits-on-dinis.md and .json: what waits on Dinis and every blocked agent, from every status.json, the open decision pages and the ideas ledger; regenerated at each of my wakes",
     "The major bug raised (board/team/librarian/bug-2026-11-06-agents-blocked.md), sent sealed to conductor@ and security@",
     "The library, round 1 (at Dinis's word, 13:15 UTC): COMMISSION.md, DAILY_RUN.md, ARCHITECTURE.md (architect sub-agent), design/READING-ROOM.md (information designer), the reality tree (curator: 12 domains, 146 EXISTS, 258 PROPOSED), and the cards (dev: 2,417 cards with call numbers, accession numbers and provenance; the authority file for agents; the shelf list), all reviewed by me",
-    "Library rounds 2 and 3 (14:05, 14:15): typed connections, the authority file from data/, the vocabulary, indexes, stocktake; the library graph and the reality tree drawn in the site's own explorer at board/team/librarian/library/reading-room.htm; finding aids for every class and pass; Dinis's guidance as a special collection (494 ideas, his words verbatim, the Later ones first); signatures verified at the desk; the desk announced to all 35 agent inboxes and the conductor"
+    "Library rounds 2 and 3 (14:05, 14:15): typed connections, the authority file from data/, the vocabulary, indexes, stocktake; the library graph and the reality tree drawn in the site's own explorer at board/team/librarian/library/reading-room.htm; finding aids for every class and pass; Dinis's guidance as a special collection (494 ideas, his words verbatim, the Later ones first); signatures verified at the desk; the desk announced to all 35 agent inboxes and the conductor",
+    "The MAJOR bug is owned by conductor@ (14:11): sgit-ai pinned in the environment's setup script, 'Never blocked in silence' in CLAUDE.md naming waits-on-dinis.md, the drain to come into this repository (devops@)"
   ],
   "next": [
     "Fold in the reviews as they arrive (ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@)",
@@ -28,8 +29,7 @@
     "Q8: the night memos checked against the ledger for missed ideas"
   ],
   "asks": [
-    "Dinis: confirm sub-agents and a /library/ section of the site in my grant (asked of abp@ at 13:25; I am going ahead on your word)",
-    "Dinis: see board/team/librarian/bug-2026-11-06-agents-blocked.md (the bug, raised to conductor@ and security@): at least eight agents could not read their inboxes all day, and none of it reached you"
+    "Dinis: confirm sub-agents and a /library/ section of the site in my grant (asked of abp@ at 13:25; I am going ahead on your word)"
   ],
   "blocked_on": [
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",
