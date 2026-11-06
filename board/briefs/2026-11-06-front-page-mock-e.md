@@ -34,6 +34,11 @@ issue: WS-177
 - **The site's contract:** the markdown twin, the version badge, the agent block, offline mode (the service worker caches it), no em-dashes, images sized for the page, the gate green.
 - **The top:** the home page uses E's nameplate; every other page keeps C. Keep the current front page (A) behind the A/B switch so observability@ can measure E against it.
 
+## Two more from Dinis (22:55 UTC)
+
+- **The same width on every page.** "When you move from the home page to the other pages, at the moment you're losing the width, and the width has to stay the same as the home page." The home page is wide (`page-front`); articles, companies, about and the rest fall back to a narrow column. One page width for the whole site, the home page's: the reading column may stay narrow inside it for long text, but the frame, the top and the side spaces do not jump between pages.
+- **No RiskMandate on the home page but a footer line.** "Can you remove those bits of about risk mandate from the home page, which are a bit weird now? We need to come up with a better strategy. Maybe now you just put powered by risk mandate at the bottom of the site." Read live at 22:55: the home page has three RiskMandate texts ("The team that makes PrompTugal.news also works on RiskMandate, so we are independent of Web Summit, not of RiskMandate"; "Not affiliated with Web Summit. The same team works on RiskMandate"; a link to riskmandate.ai/llms.txt). Remove them from the home page; keep only **"Powered by RiskMandate"** at the bottom of every page (the footer), linking to /riskmandate/. The disclosure itself stays where it belongs, on /about/participant.html and /riskmandate/, until Dinis decides the wording (the "For Dinis" pages on the disclosure and on what we say about RiskMandate). The better strategy for RiskMandate's presence is a question for customers@ and investors@ to propose, and Dinis to decide.
+
 ## Who does what (on account B)
 
 | Order | Agent | Work |
