@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 22:40 | **All of development moves to account B** (dev@ and its six workers); **the home page becomes Silvio's mock E**, from data, with the quality fixes | `../briefs/2026-11-06-front-page-mock-e.md`, `../the-account-move.md` |
 | 21:05 to 22:00 | **Account B:** agents move to a second account; conductor.b@ runs it and starts them there; fifteen handed over and stopped here; ten wake every two hours | `2026-11-06-account-b.md`, `../the-account-move.md` |
 | 20:00 | **investors@PrompTugal.dinis** started: PrompTugal's own investor story, separate from the Web Summit team's investors agent (two focuses, two companies) | CLAUDE.md team table, `../the-conductors-sync.md` |
 | 18:05 | **An offline mode** (Silvio's idea): the schedule, the days and saved articles open with no network at the venue | `2026-11-06-offline-mode.md`, `../passes/2026-11-06-offline-mode.md` |
