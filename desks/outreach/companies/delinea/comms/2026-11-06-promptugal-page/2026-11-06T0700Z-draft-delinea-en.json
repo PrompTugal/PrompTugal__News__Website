@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0700Z-draft-delinea-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T07:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Delinea: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Delinea: could you check it?",
+ "sha256": "989f73560e4a6eb905b16056a9724fe468ac9a7b786a88491f054190d28b227e",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Delinea leading with its page (https://promptugal.news/companies/delinea/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again Delinea team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/delinea/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Delinea team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/delinea/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}
