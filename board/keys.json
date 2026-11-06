@@ -255,6 +255,23 @@
         "signing_fingerprint": "sha256:43e4a6764c635dfd"
       },
       "status": "active"
+    },
+    {
+      "id": "abp-promptugal",
+      "agent": "abp@PrompTugal.dinis",
+      "label": "abp@PrompTugal.dinis (Claude Code session)",
+      "role": "The Agent Behaviour Policy agent of Dinis Cruz's agents (abp@PrompTugal.dinis): strict, deny-by-default ABPs in board/abp/, the hooks that keep them through compaction and block what they deny (.claude/), the run reports (board/runs/) and the hourly ABP report. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in the team site's admin/tools/seal.mjs, fcb28a1c...) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAme36grFwUfwn2xdV8mBH\n0iKWhawW2O7aWGlwq855zNePArFz1jpWHQ2O3ZAoxI2XWSLNqTHyM3KqrA/MNghY\nzHlCKzENE5ZEnTbsurn5abfUgyTWzK6n7tf8fSt0vEB1dkkSF+YhJi2MFLwfeJMq\nO/ERLsu8WD/u0MIhOp/Ff1epuuxlmPeOipfsCtOnmxPVf1t8TL6G9kUpMCM+FzZu\nvrIVVL/SseHjczKadi0cIM2fe8RN/eKov+WxpjIrM3qHgS/G20rfsGpuu0gpGjBl\n9UuSCAR7wVKoV15joHReZVplIk0kwUy7zG9LiT6o/CeM7KeTP35iYXH9EX3Xa4+7\nKeJj1XejstNYwVJ8DzyIorNDb4+ng+Mx1LgG81/umqLIMZ8e4hFW+Ww+5otz7VtF\n6vBAg7z9fpIReCLRfG6ChQuEC5qt5qb2M5PItuCOvDCWtujkO0a9dwAopcPNC0AR\n5QKBjYywXbw4nK1CsIv3l3b2xTauwIdTuYgo4Y1J6A1z1zCG3/NIBTcqgTjkyfqT\nKKOM0vNf6NQGpUXN07UfqBJVaoKwu4fL/INXgPn/f9tjj4cAq/KzcXL6T1CRfiva\nzPEZrV6Fmb7P74hJm8kIuls9IcidQ8CJ5tc67SHuXJOzxCz7b6QHM1b8D3gQJt2o\n6ByeU9dCk4mJPvEGJiVfVnUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBukWeu8lw5FJU6Z7IDuq78rt4P5r\n2g2FO3Q2qBdP+5yPywiqC9z4sLcOxtiLC9r3pQnGI44ShKd14DFG9CY1DQ==\n-----END PUBLIC KEY-----\n",
+        "label": "abp@PrompTugal.dinis",
+        "fingerprint": "sha256:5c9ae094a4eda21f",
+        "signing_fingerprint": "sha256:6975207c890c9415"
+      },
+      "status": "active"
     }
   ]
 }
