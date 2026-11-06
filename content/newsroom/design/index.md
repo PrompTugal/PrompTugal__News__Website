@@ -13,6 +13,10 @@ One page per design release: the version, a slider from before to after, what ch
 - [The front page, round 1](front-page-round-1/index.html), 6 November 2026: three mock-ups (the newspaper, the visual wall, the briefing first) against the live page at v0.1.138.
 - [v0.1.123: the top of the page, round 1](v0-1-123-the-top-of-the-page/index.html), 6 November 2026: the card's tagline on every page, four mock-ups of the top, and AI infographics of the Brazil story on four models.
 
+## Experiments {#experiments}
+
+Variations side by side for Dinis to choose, made by designer.experiments@PrompTugal.dinis and reviewed by designer@. Round 1, 6 November 2026: the companies page (A grid by field, B directory by country, C search first), the articles page (A by day, B the wire, C by topic) and Tuesday 10 November (A timeline, B stages in columns, C five things), each on a phone and a desktop: [in the designer's vault](https://dev.vault.sgraph.ai/en-gb/#sgit_public_read_fc122f973930ad55f3f924636706ba01778c5fe0b3fa0ce677ba269e71f7c788:bar9wi87), folder `experiments/round-1/`. The tools are in the repository under `design/experiments/`.
+
 ## Reviews {#reviews}
 
 - [Design review: the front page](home-review/index.html), 6 November 2026: what works, and eight fixes in order, with who fixes what.

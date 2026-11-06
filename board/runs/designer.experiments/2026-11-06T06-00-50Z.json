@@ -1,0 +1,102 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "designer.experiments@PrompTugal.dinis",
+ "run": "2026-11-06T06-00-50Z",
+ "started": "2026-11-06T06:00:50.776Z",
+ "ended": "2026-11-06T06:59:51Z",
+ "line": "",
+ "policy": {
+  "version": "1.3.0",
+  "sha256": "ff545e59f636d8b5"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T06:58:42.001Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T06:58:41.679Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 9,
+  "by_kind": {
+   "git-push": 3,
+   "other": 1,
+   "git": 2,
+   "git-commit": 1,
+   "shell": 1,
+   "read": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 3
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": [
+   {
+    "sha": "64d2e21b6",
+    "subject": "designer.experiments@PrompTugal.dinis: articles page experiments A to C; role and status under their names",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 3,
+  "denied": [
+   {
+    "t": "2026-11-06T06:00:50.776Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/designer.experiments 2>&1: push to dev only",
+    "target": "python3 -c \"\nimport json;d=json.load(open('board/runs/designer.experiments/2026-11-06T05-58-55Z.json'));print({k:v for k,v in d.items() if 'breach' in k.lower()})\" | cut -c1-500\ngit add -A; git commit -q -F - <<'E'\ndesigner.experiments@Prom"
+   },
+   {
+    "t": "2026-11-06T06:00:56.548Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/designer.experiments 2>&1: push to dev only",
+    "target": "git fetch -q origin work/designer.experiments && git merge -s ours --no-edit origin/work/designer.experiments 2>&1 | tail -1; git push -u origin work/designer.experiments 2>&1 | tail -1"
+   },
+   {
+    "t": "2026-11-06T06:59:42.240Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/designer.experiments 2>&1: push to work/designer.experiments only (a worker never pushes to dev; its main agent reviews and brings its work)",
+    "target": "python3 - <<'E'\nimport json\np='board/team/designer.experiments/status.json'\nd=json.load(open(p))\nd['state']='working: wake 3, 6 November 2026 07:00 UTC'; d['updated']='2026-11-06T07:15Z'\nd['done'].append(\"The summit's days, round 1: three v"
+   }
+  ],
+  "blocked": 0,
+  "observed": 3
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 9,
+  "in_mandate": 6,
+  "out_of_mandate": 3,
+  "attempts": 3,
+  "breaches": 0
+ }
+}

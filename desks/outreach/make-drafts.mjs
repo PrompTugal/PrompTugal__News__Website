@@ -99,10 +99,10 @@ function pageExtras(id) {
 const articlesEn = () => cur.articles.length ? [`We have also written about it: "${cur.articles[0].title}"\n${cur.articles[0].url}`] : [];
 const articlesPt = () => cur.articles.length ? [`Também escrevemos sobre isto (em inglês): "${cur.articles[0].title}"\n${cur.articles[0].url}`] : [];
 const flowsEn = name => cur.flows.length
-  ? `The page maps ${cur.flows.length === 1 ? 'one of your flows' : `${cur.flows.length} of your flows`} from your public pages, starting with "${cur.flows[0].name}", and marks the ${cur.agentSteps} step${cur.agentSteps === 1 ? '' : 's'} where an AI agent acts. Did we get it right? A few lines from you would correct it.`
+  ? `The page maps ${cur.flows.length === 1 ? 'one of your flows' : `${cur.flows.length} of your flows`} from your public pages, ${cur.flows.length === 1 ? '' : 'starting with '}"${cur.flows[0].name}", and marks the ${cur.agentSteps} step${cur.agentSteps === 1 ? '' : 's'} where an AI agent acts. Did we get it right? A few lines from you would correct it.`
   : `One section is still empty: ${the(name)}'s flows, how work moves through your product and where AI agents act in it. We map them only from public pages and never guess, so a few lines from you would get it right faster.`;
 const flowsPt = name => cur.flows.length
-  ? `A página mapeia ${cur.flows.length === 1 ? 'um dos vossos fluxos' : `${cur.flows.length} dos vossos fluxos`} a partir das vossas páginas públicas, a começar por "${cur.flows[0].name}", e marca os ${cur.agentSteps} passos em que um agente de IA atua. Acertámos? Umas linhas vossas corrigem-no.`
+  ? `A página mapeia ${cur.flows.length === 1 ? 'um dos vossos fluxos' : `${cur.flows.length} dos vossos fluxos`} a partir das vossas páginas públicas, ${cur.flows.length === 1 ? '' : 'a começar por '}"${cur.flows[0].name}", e marca os ${cur.agentSteps} passos em que um agente de IA atua. Acertámos? Umas linhas vossas corrigem-no.`
   : `Há uma secção ainda vazia: os fluxos da ${name}, como o trabalho passa pelo vosso produto e onde os agentes de IA atuam. Só os mapeamos a partir de páginas públicas, sem adivinhar; umas linhas vossas acertam mais depressa.`;
 const OPT_EN = 'Answering is optional, and two lines in writing are as welcome as a call. If you would rather talk than publish, we can just talk.';
 const OPT_PT = 'Responder é opcional, e duas linhas por escrito valem tanto como uma chamada. Se preferirem conversar sem publicar, conversamos.';

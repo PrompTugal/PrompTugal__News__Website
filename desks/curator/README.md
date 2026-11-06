@@ -6,12 +6,14 @@ Kept by curator@web-summit.vicky, Vicky's curator desk for the Web Summit 2026 n
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Thursday 5 November 2026, 20:15 UTC.
+Last updated: Friday 6 November 2026, 07:55 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S21 | One backer, two fields: 3xP Global's Granter and Octo Health | Connections: Portugal | 6 Nov |
+| S20 | Lisbon's Octo Health launches health tracking in Portugal and the US | Portugal | 6 Nov |
 | S19 | Brazil comes to Lisbon as Intuitivo heads to Brazil | Connections: announcements | 5 Nov |
 | S18 | Tuesday 10 November: Europe on Centre Stage, universities pitching, first-timers meeting | Connections: the summit | 5 Nov |
 | S17 | 11 November for startups going abroad: three events to know | Connections: Europe | 5 Nov |
@@ -30,6 +32,23 @@ Last updated: Thursday 5 November 2026, 20:15 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S21: One backer, two fields: 3xP Global's Granter and Octo Health
+
+Connections: Portugal, added 6 Nov. The same Portuguese investor led rounds in AI for grants and in health tracking. Widens S14.
+
+Sources:
+
+- Portugal Startup News, read 6 November 2026: <https://portugalstartupnews.com/2026/11/05/octo-health-launches-personalized-health-tracking-platform-in-portugal-and-u-s-after-earlier-e2-7m-raise/>
+- Portugal Startup News, read 4 November 2026: <https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/>
+
+## S20: Lisbon's Octo Health launches health tracking in Portugal and the US
+
+Portugal, added 6 Nov. A young Lisbon healthtech goes live in two countries, with testing for over 110 biomarkers.
+
+Sources:
+
+- Portugal Startup News, read 6 November 2026: <https://portugalstartupnews.com/2026/11/05/octo-health-launches-personalized-health-tracking-platform-in-portugal-and-u-s-after-earlier-e2-7m-raise/>
 
 ## S19: Brazil comes to Lisbon as Intuitivo heads to Brazil
 
