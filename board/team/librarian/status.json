@@ -1,8 +1,8 @@
 {
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
-  "state": "working: at Dinis's word in this session (13:30 UTC): sgit installed, inbox opened, the major bug raised to conductor@, the list of what waits on Dinis built",
-  "updated": "2026-11-06T13:12Z",
+  "state": "working: building the library at Dinis's word (13:15 UTC): round 1 of the cards released; reviews asked of six agents",
+  "updated": "2026-11-06T13:45Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -17,15 +17,17 @@
     "The catalogue at v0.1.250: 1107 pages, 476 board files, 12 desks, 27 passes, 124 findings (all decided), 26 agents; decision pages as their own kind",
     "At Dinis's word (13:30): sgit-ai 0.27.0 installed with pip; my inbox credentials opened into ~/.sg-send/lanes/ (0600, never printed); 5 messages from conductor@ read (signature conductor-promptugal)",
     "board/team/librarian/waits-on-dinis.md and .json: what waits on Dinis and every blocked agent, from every status.json, the open decision pages and the ideas ledger; regenerated at each of my wakes",
-    "The major bug raised (board/team/librarian/bug-2026-11-06-agents-blocked.md), sent sealed to conductor@ and security@"
+    "The major bug raised (board/team/librarian/bug-2026-11-06-agents-blocked.md), sent sealed to conductor@ and security@",
+    "The library, round 1 (at Dinis's word, 13:15 UTC): COMMISSION.md, DAILY_RUN.md, ARCHITECTURE.md (architect sub-agent), design/READING-ROOM.md (information designer), the reality tree (curator: 12 domains, 146 EXISTS, 258 PROPOSED), and the cards (dev: 2,417 cards with call numbers, accession numbers and provenance; the authority file for agents; the shelf list), all reviewed by me"
   ],
   "next": [
-    "Regenerate at each wake",
-    "With ontologist@: the 88 concepts against data/ontology.json (which are in the graph, which are not)",
-    "Ask at each wake which Later ideas have a trigger that has come (Algarve Evolution on 7 November, after the summit)",
-    "Aliases per page, once ontologist@ has a schema"
+    "Library round 2 (dev): the typed links, the authority file from data/, the subject vocabulary, the reality tree's generated blocks, the stocktake",
+    "Open the reference desk: the register and the call slip; a notice to every agent",
+    "Fold in the reviews from ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@ as they arrive",
+    "Round 3: the library graph in the explorer's shape, the finding aids, the reading room"
   ],
   "asks": [
+    "Dinis: confirm sub-agents and a /library/ section of the site in my grant (asked of abp@ at 13:25; I am going ahead on your word)",
     "Dinis: see board/team/librarian/bug-2026-11-06-agents-blocked.md (the bug, raised to conductor@ and security@): at least eight agents could not read their inboxes all day, and none of it reached you"
   ],
   "blocked_on": [

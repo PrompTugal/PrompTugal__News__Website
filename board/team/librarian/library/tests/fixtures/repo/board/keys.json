@@ -1,0 +1,56 @@
+{
+ "about": "fixture",
+ "keys": [
+  {
+   "id": "alpha-promptugal",
+   "label": "alpha@PrompTugal.dinis (fixture)",
+   "agent": "alpha@PrompTugal.dinis",
+   "role": "fixture",
+   "how": "SECRET-HOW-TEXT",
+   "added": "2026-11-06",
+   "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nSECRETPEMBLOCK\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nSECRETPEMSIGN\n-----END PUBLIC KEY-----\n",
+    "label": "alpha@PrompTugal.dinis",
+    "fingerprint": "sha256:0123456789abcdef",
+    "signing_fingerprint": "sha256:fedcba9876543210"
+   },
+   "status": "superseded"
+  },
+  {
+   "id": "alpha-promptugal-2",
+   "label": "alpha@PrompTugal.dinis (fixture)",
+   "agent": "alpha@PrompTugal.dinis",
+   "role": "fixture",
+   "how": "SECRET-HOW-TEXT",
+   "added": "2026-11-06",
+   "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nSECRETPEMBLOCK\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nSECRETPEMSIGN\n-----END PUBLIC KEY-----\n",
+    "label": "alpha@PrompTugal.dinis",
+    "fingerprint": "sha256:0123456789abcdef",
+    "signing_fingerprint": "sha256:fedcba9876543210"
+   },
+   "status": "active"
+  },
+  {
+   "id": "alpha.sub-promptugal",
+   "label": "alpha.sub@PrompTugal.dinis (fixture)",
+   "agent": "alpha.sub@PrompTugal.dinis",
+   "role": "fixture",
+   "how": "SECRET-HOW-TEXT",
+   "added": "2026-11-06",
+   "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nSECRETPEMBLOCK\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nSECRETPEMSIGN\n-----END PUBLIC KEY-----\n",
+    "label": "alpha.sub@PrompTugal.dinis",
+    "fingerprint": "sha256:0123456789abcdef",
+    "signing_fingerprint": "sha256:fedcba9876543210"
+   },
+   "status": "active"
+  }
+ ]
+}

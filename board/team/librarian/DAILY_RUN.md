@@ -31,7 +31,7 @@ The library is built the way the devs build: an **architect** designs (`library/
 | Q2 | The reality tree, first draft (curator sub-agent) | drafted: 12 domains, 146 EXISTS, 258 PROPOSED; REALITY.md's gaps sent to conductor@ |
 | Q3 | The reading room and the service desk (information designer) | drafted (`library/design/READING-ROOM.md`) |
 | Q4 | The reference desk open: the register, the call slip, the first notice to every agent | next |
-| Q5 | The cards and the authority file (dev, round 1 of the architecture) | in progress (dev sub-agent, 13:30) |
+| Q5 | The cards and the authority file (dev, round 1 of the architecture) | round 1 done (13:40): 2,417 cards in 10 classes, the accession register, the authority file for agents (48 records), the shelf list; 10 tests green; `library.mjs check` OK. Round 2 next: links, authority from data/, vocabulary, reality tree generated blocks, stocktake |
 | Q6 | The library graph in the existing explorer's shape (with dev.graphs@ and ontologist@) | after Q5 |
 | Q7 | The site section `/library/`: asked of Dinis and abp@ (beyond my grant) | asked |
 | Q8 | Every idea of the night memos checked against the memos themselves (conductor@'s ask: report any the ledger missed) | queued |
@@ -41,3 +41,4 @@ The library is built the way the devs build: an **architect** designs (`library/
 
 - 2026-11-06 13:20: Dinis's commission; the playbook; round 1 of the library (architect, information designer, curator) started.
 - 2026-11-06 13:35: round 1 drafts in (architecture, reading room, reality tree); reviews asked of ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@; dev round 1 started.
+- 2026-11-06 13:45: dev round 1 reviewed and released: cards, accession, provenance, authority for agents, shelf list.
