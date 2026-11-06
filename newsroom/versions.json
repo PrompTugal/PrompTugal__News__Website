@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.383",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: status and run report: the home page in designs is live (v0.1.382); blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b9d41d1ad"
+  },
+  {
     "version": "v0.1.382",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: the home page in designs: today's as the default, mock E as the first option, Silvio's picker",
