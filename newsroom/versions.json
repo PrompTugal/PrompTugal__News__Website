@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.72",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: hourly run 02:26: the articles re-signed over the version-free twin; S3 published; next S4; the name waits on Dinis",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "21edcbd8e"
+  },
+  {
     "version": "v0.1.71",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: the flows schema (company-flows), and 1Password's two flows, every step sourced",
