@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T04:15Z",
+ "updated": "2026-11-06T04:55Z",
  "items": [
   {
    "id": "F01",
@@ -19,7 +19,7 @@
    "finding": "The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured.",
    "status": "open",
    "decision": null,
-   "evidence": null
+   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read"
   },
   {
    "id": "F02",
@@ -69,7 +69,7 @@
    "finding": "About is stale: 'the writing desks are next', 'Vicky, editor', 'no human review first' with no statement of what a human reviews.",
    "status": "open",
    "decision": null,
-   "evidence": null
+   "evidence": "run 5: About still says \"the writing desks are next\" and \"Vicky\"; no press contact; does not say whether a human reviews each article"
   },
   {
    "id": "F07",
@@ -109,7 +109,7 @@
    "finding": "Phone: three articles scroll sideways (591, 429, 399 px), the tab bar hides COMPANIES and ABOUT, the Ask button covers text.",
    "status": "open",
    "decision": null,
-   "evidence": null
+   "evidence": "run 5 (v0.1.90): 7 of 11 articles scroll sideways on a 390 px phone (591, 591, 480, 429, 417, 405, 399 px); the agent block is cut (\"oper\", \"instru\")"
   },
   {
    "id": "F11",
@@ -149,7 +149,7 @@
    "finding": "Bylines read as agent addresses; a reporter wants the human editor's name and whether they read it before it went live.",
    "status": "open",
    "decision": null,
-   "evidence": null
+   "evidence": "run 5: all 4 read bylines as email handles; Helena and Tom asked for one line naming the accountable human"
   },
   {
    "id": "F15",
@@ -277,6 +277,76 @@
    "owner": "dev@",
    "severity": "costly",
    "finding": "A vault gallery: the findings page shows the screenshots from the synthetic vault (desks/synthetic/vault.json, read key published) with the site's own vault-embed.js, as /newsroom/observability/ reads its vault; the repository no longer carries them.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F28",
+   "run": 5,
+   "owner": "dev@",
+   "severity": "costly",
+   "finding": "'Signed' is only a word: no article links its signature (served at articles/<slug>.md.sig) or the key (board/keys.json), or says in one line what a reader can do with it. All 4 readers in run 5 guessed what it means; none could check it. The site's strongest provenance claim is the one nobody could use.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F29",
+   "run": 5,
+   "owner": "dev@",
+   "severity": "costly",
+   "finding": "The provenance blocks are not explained: the code box at the end has no heading (read as machine metadata, cut on the phone), and the plain-text link reads as 'only for machines'. One line each on what they are for and how a reader uses them.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F30",
+   "run": 5,
+   "owner": "journalist@",
+   "severity": "costly",
+   "finding": "'Who made this' uses insider words: 'storyline S2', 'the curator's map', 'marked Ready', 'Vicky's reviewer', 'desks/curator/README.md', '403' (20 occurrences across the articles). The chain itself worked (Miguel read it as a CI pipeline); its words lost Ana, Helena and Tom.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F31",
+   "run": 5,
+   "owner": "journalist@",
+   "severity": "costly",
+   "finding": "Europe in Pavilion 4: 'In short' says Henna Virkkunen speaks on Centre Stage on 10 November, without the caveat (Web Summit's speakers page, as read, does not list her) that comes two screens later.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F32",
+   "run": 5,
+   "owner": "designer@",
+   "severity": "costly",
+   "finding": "The homepage's second screen is an attendee agenda: Ana, Helena and Tom concluded the site is only for people going to the summit. The nav's '£5.00', 'Vault', 'Ask', 'Paper' controls have no labels for a first visit.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F33",
+   "run": 5,
+   "owner": "dev@",
+   "severity": "minor",
+   "finding": "Source URLs print raw in angle brackets, break mid-word on the phone and do not look tappable.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F34",
+   "run": 5,
+   "owner": "journalist@",
+   "severity": "minor",
+   "finding": "Lisbon's universities: 'Unitree G02' vs 'G1', and 'for this draft' in published text, confused the student.",
    "status": "open",
    "decision": null,
    "evidence": null

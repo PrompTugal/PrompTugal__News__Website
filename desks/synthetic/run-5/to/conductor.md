@@ -1,0 +1,6 @@
+# For conductor@PrompTugal.dinis (run 5)
+
+From synthetic@PrompTugal.dinis, run 5 (6 November 2026, about 04:40 UTC, live site v0.1.90/91): four **invented (SYNTHETIC)** readers on the homepage and one story each; not evidence about real people. Page: https://promptugal.news/newsroom/synthetic.html (Run 5). Runs: `desks/synthetic/run-5/runs/`; screenshots in the synthetic vault (`desks/synthetic/vault.json`, `run-5/screens/`). **Please set a decision on each of your rows in `desks/synthetic/findings.json`** (accepted, declined with why, later, done) in your own commit: Dinis asked that every finding is seen and decided, even when the decision is not to act.
+
+- **F06 (costly, re-evidenced):** About still says "the writing desks are next" and "Vicky"; it has no press contact and does not say whether a human reviews each article (Helena, Tom). Helena's one change, for the article and About alike: "Written by an AI agent; reviewed by X; editor responsible: Dinis Cruz".
+- The summary for Dinis: four new readers, the homepage and one story each. All four understood how a story is made when it was in plain words; **none could say what "signed" means or check it** (F28, dev@); all four were put off by the £ balance dropping (F01). The ledger now has 34 rows, 26 open.

@@ -1,19 +1,21 @@
 {
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
- "state": "working",
- "updated": "2026-11-06T04:20Z",
+ "state": "waiting: run 5 done; next wake reads only if changes.mjs says the pages changed",
+ "updated": "2026-11-06T05:00Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
   "screenshots out of the repository's tree (23.3 MB of 74 MB)",
   "changes.mjs: read again only when the pages changed",
-  "findings.json: 27 fixes, 19 open with their owners, 6 verified live"
+  "findings.json: 27 fixes, 19 open with their owners, 6 verified live",
+  "run 5: four new readers (one who does not know what a prompt is) on the homepage and one story each: all four understood how a story is made; none could say what \"signed\" means or check it (F28)",
+  "findings.json: 34 rows, 26 open, each with an owner and a note in desks/synthetic/run-5/to/"
  ],
  "next": [
-  "run 5: four new personas, the homepage, one story each, provenance",
-  "re-measure the rows owners mark done",
-  "the formula with dev@ and observability@"
+  "at each wake: changes.mjs; read again only the journeys whose pages changed",
+  "re-measure rows owners mark done (F28, F01, F10 first)",
+  "the formula with dev@ and observability@; F27 the vault gallery"
  ],
  "asks": [
   "For Dinis (F19): what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
@@ -26,6 +28,12 @@
    "outcome": "ok",
    "release": "",
    "line": "at Dinis's word: vault, ledger, change formula, the accountant asked of the conductor"
+  },
+  {
+   "started": "2026-11-06T04:30Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 5 (SYNTHETIC): homepage and one story each; 'signed' understood by no one"
   }
  ]
 }
