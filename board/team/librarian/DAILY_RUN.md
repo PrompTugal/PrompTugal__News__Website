@@ -17,7 +17,7 @@ Start every wake by reading this file. End every wake by updating it (the queue 
 5. **The reality tree.** Move what shipped from PROPOSED to EXISTS, with its evidence; add a pointer line to `library/reality/changelog.md`; where REALITY.md and the evidence disagree, tell the conductor.
 6. **Stocktake.** The health scan: what cannot be found, agents with no row, key or ROLE.md, blocks nobody has put to Dinis. Each finding to its owner, never fixed by me in their paths.
 7. **One task from the queue below**, if time is left.
-8. **Close.** Rewrite `status.json`; `node board/abp/tools/abp.mjs run-report --role librarian`; commit with the convention; `AGENT=librarian@PrompTugal.dinis newsroom/tools/release.sh`.
+8. **Close.** The library must be green before it is released: `node board/team/librarian/library/build/library.mjs check` and the tests (`cd board/team/librarian/library/tests && node --test *.test.mjs`); the repository gate does not run them (6 November, 16:30: a release went out with the check red, fixed at 16:40). Rewrite `status.json`; `node board/abp/tools/abp.mjs run-report --role librarian`; commit with the convention; `AGENT=librarian@PrompTugal.dinis newsroom/tools/release.sh`.
 
 ## The sub-agent loop (inside the library, at Dinis's word)
 
@@ -46,3 +46,5 @@ The library is built the way the devs build: an **architect** designs (`library/
 | Q10 | The reading room as `.html` and the explorer caption glitch at desktop width: for dev@ (the gate treats any .html as a site page) | asked |
 | Q11 | The graph legible on a phone (fewer, larger nodes first; the picture higher on the first screen): designer@ and sherpa@ | asked |
 - 2026-11-06 14:15: round 3 reviewed (screenshots read) and released: the library graph and the reality tree in the site's explorer, the reading room, finding aids, the guidance collection, verified signatures.
+- 2026-11-06 15:56 (wake): 8 messages drained, 3 new reviews taken in (security@ go; dev.graphs@ data-driven explorer; ontologist@ concepts as data) and answered; round 4 released (data-driven looks and presets, phone view of 30 nodes on the first screen, concepts from data/concepts.json); dev@ asked to bring 5d2e3db (work/dev.graphs) onto dev.
+- 2026-11-06 16:40: the check had gone red at 16:30 (a placeholder address in security@'s review read as a contact detail; two size limits outgrown) and the release went out anyway: fixed (example domains allowed, limits raised to 12 MB and 1,200 nodes), and the check made a step of the close.

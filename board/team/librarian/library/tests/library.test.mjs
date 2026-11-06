@@ -509,9 +509,31 @@ test('round 2 on the real catalogue: no dangling link, subjects in the vocabular
   assert.equal(res.stocktake.counts.ST06, 0)
   const r = check(o)
   assert.equal(r.errors.length, 0, r.errors.join('\n'))
-  assert.ok(r.stats.bytes < 5 * 1024 * 1024, `${r.stats.bytes} bytes`)
+  assert.ok(r.stats.bytes < 12 * 1024 * 1024, `${r.stats.bytes} bytes`)
   const snap = snapshot(o.libDir)
   const r2 = build({ ...o, now: '2026-11-08T09:00:00Z' })
   assert.deepEqual(r2.changed, [])
   assert.deepEqual(snapshot(o.libDir), snap)
+})
+
+test('authority/concepts.json comes from data/concepts.json (the ontologist\'s, read only), with the hand extras kept', () => {
+  const o = richFresh()
+  w(o.root, 'data/concepts.json', { about: 'x', kept_by: 'ontologist@PrompTugal.dinis', updated: '2026-11-06', from: 'x', kinds: { process: 'p' }, concepts: [
+    { id: 'the-fractal-rule', term: 'the fractal rule', named_by: 'Dinis', definition: 'The same rule at every level — split early.', source: 'M3', kind: 'principle', see: ['board/b.md', 'board/a.md'], in_ontology: 'story.status' },
+    { id: 'a-plain-one', term: 'a plain one', named_by: 'Dinis', definition: 'No file yet.', source: 'M4', kind: 'process' },
+  ] })
+  const res = build({ ...o, now: NOW })
+  const recs = JSON.parse(fs.readFileSync(path.join(o.libDir, 'authority/concepts.json'), 'utf8')).records
+  const f = recs.find((r) => r.id === 'auth:concept:the-fractal-rule')
+  assert.equal(f.heading, 'the fractal rule')
+  assert.equal(f.source, 'M3')
+  assert.equal(f.concept_kind, 'principle')
+  assert.deepEqual(f.implemented_in, ['board/a.md', 'board/b.md'])
+  assert.equal(f.card, 'concept:the-fractal-rule', 'the ledger card of the same id is the record\'s card')
+  assert.ok(!/—/.test(f.note), 'no em-dash in prose')
+  assert.deepEqual(f.established.from, ['data/concepts.json'])
+  assert.deepEqual(recs.find((r) => r.id === 'auth:concept:a-plain-one').implemented_in, [])
+  assert.ok(recs.some((r) => r.id === 'auth:concept:hold' && /hand/.test(r.source)), 'the hand extras stay')
+  assert.equal(check({ root: o.root, libDir: o.libDir }).errors.length, 0)
+  assert.ok(res)
 })

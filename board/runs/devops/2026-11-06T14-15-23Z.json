@@ -1,0 +1,89 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "devops@PrompTugal.dinis",
+ "run": "2026-11-06T14-15-23Z",
+ "started": "2026-11-06T14:15:23.084Z",
+ "ended": "2026-11-06T16:20:14Z",
+ "line": "Wake 16:14: my 2 minute deploy limit cancelled queued Pages deploys (14:20 to 16:16, 5 of 46 green); deploys now wait 8 minutes and superseded runs skip; hold check in release.sh; the domains decision page",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T14:20:55.665Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-06T16:16:24.735Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T16:16:24.326Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 19,
+  "by_kind": {
+   "release": 6,
+   "other": 2,
+   "web": 1,
+   "github-read": 3,
+   "shell": 5,
+   "write": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 19,
+  "commits": [
+   {
+    "sha": "5dbce714e",
+    "subject": "devops@PrompTugal.dinis: release.sh refuses to push while board/HOLD.md is on dev, except the push that writes, changes or removes the hold",
+    "files": 1
+   },
+   {
+    "sha": "1dbd96921",
+    "subject": "devops@PrompTugal.dinis: deploys wait for Pages' own queue (8 minutes, was 2) and a run whose branch has moved on leaves the deploy to the newer run",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 19,
+  "in_mandate": 19,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

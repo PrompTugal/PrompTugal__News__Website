@@ -9,7 +9,8 @@
 #                 runs the gate again on that tree, commits as GitHub Actions ("site vX.Y.Z: <subject>"),
 #                 tags it and pushes; then deploys exactly that tree. A dropped pending run is harmless:
 #                 its commits ride the next release. A manual dispatch builds and deploys without a number.
-#   3. deploy:    actions/deploy-pages waits at most 2 minutes (a good deploy takes 7 to 12 seconds) and cancels
+#   3. deploy:    a run whose branch has moved on skips the deploy (the newer run deploys it; 16:13 UTC). Otherwise
+#                 actions/deploy-pages waits at most 8 minutes (a good deploy takes 7 to 12 seconds; Pages may queue it) and cancels
 #                 its own deployment when it gives up. Pages sometimes reports "syncing_files" for ever while the site
 #                 already serves the new files (6 November 2026: v0.1.87 at 03:21, v0.1.93 at 03:44, v0.1.96 at
 #                 03:57), or answers "cancelled" at once (v0.1.98 at 04:02). Pages names a deployment after the commit,
@@ -66,8 +67,8 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    # tag and build about 30s, two deploys of at most 2 minutes with a 45 s pause, then 30 s asking the live site (step 3)
-    timeout-minutes: 8
+    # tag and build about 30s, two deploys of at most 8 minutes with a 45 s pause, then 30 s asking the live site (step 3)
+    timeout-minutes: 20
     needs: [validate]
     # Never from a PR or a worker's branch. One release at a time; a pending run may be dropped, which is harmless.
     if: github.event_name != 'pull_request' && !startsWith(github.ref_name, 'work/')
@@ -110,32 +111,50 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
+      # Superseded: a newer push already on the branch has its own run (pending or next), which deploys everything,
+      # this release included. Deploying this one too only lengthens Pages' own queue (16:13 UTC, 6 November: a deploy
+      # waited "deployment_queued" past the old 2 minute limit, was cancelled, and the cancels kept the site behind).
+      - id: fresh
+        name: Is this still the branch's head? (if not, the newer run deploys it)
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          REMOTE=$(git ls-remote origin "refs/heads/$BRANCH" | cut -f1)
+          if [ -n "$REMOTE" ] && [ "$REMOTE" != "$(git rev-parse HEAD)" ]; then
+            echo "::notice::$BRANCH has moved on to ${REMOTE:0:9}; its own run deploys this release with it, so no deploy here"
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          fi
       - id: deployment
+        if: steps.fresh.outputs.deploy == 'true'
         uses: actions/deploy-pages@v4
         continue-on-error: true
         with:
-          timeout: 120000
+          # Pages queues deployments ("deployment_queued") when it is busy; a deploy cancelled while queued is lost,
+          # so wait for the queue (8 minutes) rather than cancel it at 2
+          timeout: 480000
       # Pages refuses a deployment while the previous one is still finishing ("due to in progress deployment"; 14:09
       # UTC, 6 November, with about one push a minute). That refusal creates no deployment, so the same commit can be
       # deployed once more after a pause. After a timeout the retry fails at once ("Deployment cancelled"): harmless.
       - name: The deploy was refused or stuck; wait 45 seconds before trying once more
-        if: steps.deployment.outcome == 'failure'
+        if: steps.fresh.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
         run: sleep 45
       - id: deployment2
-        if: steps.deployment.outcome == 'failure'
+        if: steps.fresh.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
         continue-on-error: true
         with:
-          timeout: 120000
+          timeout: 480000
       - name: The deploy failed or stuck; does the live site serve this release? If not, dispatch a fresh deploy
-        if: steps.deployment.outcome == 'failure' && steps.deployment2.outcome == 'failure'
+        if: steps.fresh.outputs.deploy == 'true' && steps.deployment.outcome == 'failure' && steps.deployment2.outcome == 'failure'
         env:
           GH_TOKEN: ${{ github.token }}
           EVENT: ${{ github.event_name }}
           BRANCH: ${{ github.ref_name }}
         run: |
           WANT=$(cat newsroom/build/version.txt); HOST=$(cat CNAME)
-          echo "::warning::the Pages deploy of $WANT (${GITHUB_SHA:0:9}) failed or did not finish in 2 minutes; asking https://$HOST/ for it"
+          echo "::warning::the Pages deploy of $WANT (${GITHUB_SHA:0:9}) failed or did not finish in 8 minutes; asking https://$HOST/ for it"
           for i in $(seq 1 3); do
             LIVE=$(curl -s --max-time 10 -H 'Cache-Control: no-cache' "https://$HOST/llms.txt?release=${GITHUB_SHA:0:9}-$i" | grep -o 'v[0-9]*\.[0-9]*\.[0-9]*' | head -1 || true)
             if [ -n "$LIVE" ] && [ "$(printf '%s\n%s\n' "$WANT" "$LIVE" | sort -V | tail -1)" = "$LIVE" ]; then

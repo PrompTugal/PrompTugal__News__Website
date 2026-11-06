@@ -26,6 +26,14 @@
       focus: v('--focus', '#ffbf1f'), live: v('--live', '#b42318'), ok: v('--ok', '#2b6a3c'), warn: v('--warn', '#8a5200') };
   }
   /* the vocabulary, after design/site.css's .n-* kinds (cf. the reader's cystyle.js graphStyle) */
+  /* a type may carry its own look in the data (types[].shape, types[].color), for graphs with types of their own (the library's) */
+  function typeRules() {
+    var types = (S.G && S.G.data.types) || [];
+    return types.filter(function (t) { return /^[a-z0-9_-]+$/.test(t.id) && ((t.shape && /^[a-z-]+$/.test(t.shape)) || (t.color && /^#[0-9a-fA-F]{3,8}$/.test(t.color))); }).map(function (t) {
+      var st = {}; if (t.shape) st.shape = t.shape; if (t.color) { st['background-color'] = t.color; st['border-color'] = t.color; }
+      return { selector: 'node[type = "' + t.id + '"]', style: st };
+    });
+  }
   function style(T) {
     return [
       { selector: 'node', style: { label: 'data(label)', width: 'data(size)', height: 'data(size)', 'font-family': 'IBM Plex Sans, system-ui, sans-serif',
@@ -44,6 +52,7 @@
       { selector: 'node[type = "evidence"]', style: { shape: 'triangle', 'background-color': T.paper2, 'border-color': T.warn } },
       { selector: 'node[type = "story"]', style: { shape: 'hexagon', 'background-color': T.paper2, 'border-color': T.warn } },
       { selector: 'node[type = "article"]', style: { shape: 'rectangle', 'background-color': T.ink, 'border-color': T.ink } },
+      ].concat(typeRules(), [
       { selector: 'edge', style: { width: 1, 'line-color': T.rule2, 'curve-style': 'haystack', 'haystack-radius': 0, opacity: 0.75 } },
       { selector: 'edge.top', style: { width: 'data(w)', 'line-color': T.ink2, opacity: 0.9 } },
       { selector: 'edge.lit', style: { width: 1.8, 'line-color': T.ink2, 'curve-style': 'bezier', 'target-arrow-shape': 'triangle', 'target-arrow-color': T.ink2, 'arrow-scale': 0.7,
@@ -56,16 +65,17 @@
       { selector: 'node.gx-focus', style: { 'min-zoomed-font-size': 0, 'border-width': 4, 'border-color': T.focus, 'font-weight': 700, 'font-size': 13, 'z-index': 10, label: 'data(label)' } },
       { selector: 'node.hood', style: { label: 'data(label)' } },
       { selector: '.dim', style: { opacity: 0.14 } },
-    ];
+    ]);
   }
 
   /* ------------------------------------------------------------ data */
   function loadView(view) {
     if (!view || view === 'whole') return Promise.resolve(null);
     if (S.views.has(view)) return Promise.resolve(S.views.get(view));
-    var file = /^(industry|summit|people)$/.test(view) || /^(companies|events|people)\/[a-z0-9-]+$/.test(view) ? view : null;
+    var dv = (S.G.data.views || []).filter(function (v) { return v.id === view && /^[\w\/.-]+\.json$/.test(v.file || ''); })[0];
+    var file = dv ? dv.file : /^(industry|summit|people)$/.test(view) || /^(companies|events|people)\/[a-z0-9-]+$/.test(view) ? 'api/v1/graph/' + view + '.json' : null;
     if (!file) return Promise.reject(new Error('unknown view: ' + view + ' (whole, industry, summit, people, companies/<slug>, events/<slug>, people/<slug>)'));
-    return fetch(ROOT + 'api/v1/graph/' + file + '.json').then(function (r) { if (!r.ok) throw new Error('no such view: ' + view + ' (HTTP ' + r.status + ')'); return r.json(); })
+    return fetch(ROOT + file).then(function (r) { if (!r.ok) throw new Error('no such view: ' + view + ' (HTTP ' + r.status + ')'); return r.json(); })
       .then(function (g) { var set = new Set(); g.nodes.forEach(function (n) { var i = S.G.byId.get(n.id); if (i != null) set.add(i); }); S.views.set(view, set); return set; });
   }
 
@@ -387,7 +397,7 @@
     clear: function () { S.st.sel = null; S.res.sel = -1; applyFocus(null); reflect(); syncUrl(); return summary(); },
     state: function () { var s = summary(); s.filters = { worlds: S.st.worlds, types: S.st.types, verbs: S.st.verbs, facets: S.st.facets }; s.expand = S.st.expand; s.path = S.st.path; s.draw_ms = S.lastDraw && S.lastDraw.ms; s.visible_sample = E.ranked(S.G, S.res.nodes, 'pagerank', 20).map(function (i) { return S.G.nodes[i].id; }); return s; },
     snapshot: function (a) { var T = tokens(); var data_url = S.cy.png({ output: 'base64uri', full: !!(a && a.full), scale: 1, maxWidth: 900, maxHeight: 700, bg: T.panel }); return { data_url: data_url, bytes: data_url.length, full: !!(a && a.full), note: 'attach as an image so the model sees the layout' }; },
-    reset: function () { S.viewSet = null; S.st = E.defaultState(); S.preset = 'overview'; draw(); return summary(); },
+    reset: function () { S.viewSet = null; S.st = E.defaultState(); S.preset = (E.PRESETS[0] || {}).key || 'overview'; draw(); return summary(); },
     preset: function (a) { var p = E.PRESETS.find(function (x) { return x.key === (a && a.key); }); if (!p) throw new Error('preset is one of ' + E.PRESETS.map(function (x) { return x.key; }).join(', ')); return loadView(p.state.view).then(function (vs) { S.viewSet = vs; var st = E.defaultState(); Object.keys(p.state).forEach(function (k) { st[k] = JSON.parse(JSON.stringify(p.state[k])); }); st.top = Object.assign({ n: 0, by: 'pagerank', what: 'nodes' }, st.top); S.st = st; S.preset = p.key; draw(); return summary(); }); },
     get engine() { return S.G; },
   };
@@ -473,8 +483,10 @@
   /* ------------------------------------------------------------ boot */
   function boot(data) {
     S.G = E.index(data);
+    if (data.presets && data.presets.length) { E.PRESETS.length = 0; data.presets.forEach(function (p) { E.PRESETS.push(p); }); }   /* a graph may bring its own presets, in the shape engine.js's PRESETS has */
     var st = E.parseState(location.search), want = /[?&]preset=([\w-]+)/.exec(location.search);
-    S.st = st; S.preset = st.fromUrl ? null : 'overview';
+    if (!want && !st.fromUrl && data.presets && data.presets.length) want = ['', data.presets[0].key];   /* a graph with presets of its own opens on its first */
+    S.st = st; S.preset = st.fromUrl ? null : ((E.PRESETS[0] || {}).key || 'overview');
     S.cy = window.cytoscape({ container: $('#gx-cy'), style: style(tokens()), minZoom: 0.05, maxZoom: 4, boxSelectionEnabled: false,
       textureOnViewport: true, hideEdgesOnViewport: false, motionBlur: false, pixelRatio: 'auto' });
     S.cy.on('tap', 'node', function (e) { api.select({ id: e.target.id(), center: false }); });

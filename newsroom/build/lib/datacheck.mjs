@@ -43,6 +43,7 @@ export const KINDS = [
     [/^data\/ontology\.json$/, 'ontology'],
     [/^data\/site\/site\.json$/, 'site'],
     [/^data\/site\/nav\.json$/, 'nav'],
+    [/^data\/site\/list-views\.json$/, 'list-views'],   // the switch's words on the list pages (dev.pages@)
     [/^data\/newsroom\/agents\.json$/, 'newsroom-agents'],        // the newsroom section's roster, plan and team-site snapshot
     [/^data\/newsroom\/plan\.json$/, 'newsroom-plan'],            // (its runs ledger is data/newsroom/runs/*.jsonl, checked by
     [/^data\/newsroom\/team-site\.json$/, 'newsroom-team-site'],  // features/newsroom.mjs against newsroom-run.schema.json)

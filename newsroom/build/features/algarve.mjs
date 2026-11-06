@@ -7,6 +7,7 @@ const REL = 'portugal/algarve-evolution/index.html'
 export function decorate(page) {
     if (page.rel !== REL) return
     page.layout = 'wide'
+    page.crumbs = [['portugal/index.html', 'Portugal'], [null, 'Algarve Evolution']]
     page.assets = { css: ['assets/portugal/algarve.css'], js: ['assets/portugal/algarve.js'] }
 }
 

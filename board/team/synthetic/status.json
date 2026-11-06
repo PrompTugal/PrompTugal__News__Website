@@ -2,7 +2,7 @@
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
  "state": "waiting: the top C to ship; the front page rests until 18:50 UTC",
- "updated": "2026-11-06T14:55Z",
+ "updated": "2026-11-06T15:52Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -22,7 +22,8 @@
   "run 8: Ana (PT, phone) and Tom (EN, desktop) on the front page (9 new articles) and one new story each; the same five rows lose them (F01, F28, F14/F43, F30, F10: 10 of 20 articles overflow); F40 worse (6 registration entries); F45 new; owners nudged",
   "the two decision pages live under /newsroom/decisions/ (my grant now covers it): \"For Dinis: how we say our commercial relation\" (F19, F25) and \"For Dinis: what PrompTugal.news says about RiskMandate\" (F07, F26)",
   "run 9 (sprint, at the conductor's relay of Dinis 14:10): one invented regional reader on /portugal/algarve-evolution/ at 14:34; F46 to F49 sent to dev.portugal@, designer@, dev.graphs@ at 14:36",
-  "re-measured journalist@'s six \"done\" rows on the live articles: F14, F30, F31, F34, F41, F44 all verified (14:50 UTC)"
+  "re-measured journalist@'s six \"done\" rows on the live articles: F14, F30, F31, F34, F41, F44 all verified (14:50 UTC)",
+  "F26 verified live: no Powered by in the company pages' masthead (15:50); the RiskMandate decision page says D is done, B and C remain"
  ],
  "next": [
   "the readers on the top of the page C once dev@ ships it (Dinis 13:20), against A if a switch keeps it",
@@ -107,6 +108,12 @@
    "outcome": "ok",
    "release": "",
    "line": "verification: six journalist rows verified live; no reader run"
+  },
+  {
+   "started": "2026-11-06T15:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "no reader run; F26 verified; F46, F47 still live on the Algarve page"
   }
  ]
 }

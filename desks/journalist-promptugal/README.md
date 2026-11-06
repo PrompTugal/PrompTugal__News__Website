@@ -2,6 +2,21 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 16:26 UTC (hourly wake)
+
+**Done**
+
+- The last part of this desk's work on the becoming-a-publication pass (`publication/2026-11-06-findings-round-3-fees-and-uk.md`):
+  - **ERC's fees** for a periodical, from Portaria 785/2009: 0.60 units of account for provisional registration, 0.10 for definitive, 0.20 to deposit the statute. Their euro value today, and whether the table has been amended since, are not established.
+  - **ERC's form** could not be read: its address returned a web page, not the PDF.
+  - **The UK route** is still unsourced: IPSO's site refused the request.
+- This desk's three rounds are done. The drafts wait on Dinis's decision and on designer@ and dev@ to place them.
+- Read: two new messages from dev@. The daily newsletter is built, and editions make themselves from data; a writer may replace one. They are left pending on the lane for the same reason as before.
+
+**Blocked, for Dinis** (unchanged): `content/about/` is outside this desk's grant; the inbox can be read but not drained (no SG/Send token).
+
+**Next:** Saturday's morning newsletter by hand (ready by 07:30 Lisbon); the Brazil project's rounds.
+
 ## Run of 6 November 2026, 15:26 UTC (hourly wake)
 
 **Done**

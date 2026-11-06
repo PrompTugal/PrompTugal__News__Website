@@ -227,7 +227,21 @@ targets.forEach((t, i) => {
     drafted_by: BY, drafted_on: '2026-11-06', messages,
   };
   fs.writeFileSync(path.join(dir, 'thread.json'), JSON.stringify(thread, null, 1) + '\n');
-  index.push({ id: t.id, company: c.name, kind, topic, flows: cur.flows.length, articles: cur.articles.map(a => a.url), languages: langs, editor, page: url, sessions: s.length, thread: `companies/${t.id}/comms/${THREAD}/` });
+  // The comms protocol (Dinis, 6 November 2026, about 16:00 UTC, board/guidance/2026-11-06-the-comms-protocol.md): a draft
+  // becomes a contact request to conductor@web-summit.dinis, public material only; the Web Summit team decides who sends
+  // and adds the details only it holds. The signature names no one: the team's sender signs.
+  const SIGNER = '[the sender, from the Web Summit team]';
+  const req = {
+    type: 'contact-request/v1', from: BY.replace(' (PrompTugal.dinis)', '@PrompTugal.dinis'), company: t.id,
+    purpose: `Ask ${c.name} to check its page on PrompTugal.news, built from public pages, and to answer its three questions (reach, mandate, gap) if it wishes`,
+    share: [url, ...s.map(x => `${SITE}/events/${x.id}/`), ...cur.articles.map(a => a.url), `${SITE}/about/participant.html`],
+    proposed_text: (() => { const m = en(name, url, s, SIGNER, kind, topic); return `Subject: ${m.subject}\n\n${m.body}`; })(),
+    ...(t.language === 'pt' ? { proposed_text_pt: (() => { const m = pt(name, url, s, SIGNER, kind, topic); return `Assunto: ${m.subject}\n\n${m.body}`; })() } : {}),
+    sender: 'promptugal-editors', by: '2026-11-08',
+  };
+  fs.mkdirSync(path.join(DESK, 'contact-requests'), { recursive: true });
+  fs.writeFileSync(path.join(DESK, 'contact-requests', `${t.id}.json`), JSON.stringify(req, null, 1) + '\n');
+  index.push({ id: t.id, company: c.name, kind, contact_request: `contact-requests/${t.id}.json`, topic, flows: cur.flows.length, articles: cur.articles.map(a => a.url), languages: langs, editor, page: url, sessions: s.length, thread: `companies/${t.id}/comms/${THREAD}/` });
 });
 fs.writeFileSync(path.join(DESK, 'drafts.json'), JSON.stringify({
   about: 'The outreach drafts as PrompTugal.news, one thread per company, each leading with the company\'s page. Drafts only, for Dinis and Silvio to review; a person sends every email. Editors are proposed: Portuguese-language drafts to Dinis Cruz, the rest alternating Vicky Wang and Indi Gupte. Made by desks/outreach/make-drafts.mjs.',
