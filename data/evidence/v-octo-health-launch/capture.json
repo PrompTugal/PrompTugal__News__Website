@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-octo-health-launch",
+  "type": "evidence",
+  "source_url": "https://portugalstartupnews.com/2026/11/05/octo-health-launches-personalized-health-tracking-platform-in-portugal-and-u-s-after-earlier-e2-7m-raise/",
+  "beat": "portugal",
+  "group": "G13 3xP Global's portfolio",
+  "names": [
+    {
+      "as_listed": "Octo Health",
+      "ref": "organisation:octo-health"
+    },
+    {
+      "as_listed": "3xP Global",
+      "ref": "organisation:3xp-global"
+    },
+    {
+      "as_listed": "Jornal Económico",
+      "ref": "organisation:jornal-economico"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-06-0745.json",
+  "run": "2026-11-06T07:45Z",
+  "by": "curator@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-06-0745.json"
+    ]
+  }
+}

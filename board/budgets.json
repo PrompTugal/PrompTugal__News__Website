@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop. Kept by accountant@PrompTugal.dinis at Dinis's word (6 November 2026, about 04:00 UTC: 'every one of these loops ... is now given a budget from the accountant ... the agent should be hitting the budget and then stopping, and then we understand the side effects'; board/guidance/2026-11-06-design-and-passes.md, section 4). A first budget, set by the accountant on what could be measured on 6 November; Dinis may change any number. Schema requested of ontologist@ (board/spec-budgets-schema.md).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-06T03:50Z",
+ "updated": "2026-11-06T06:55Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -13,7 +13,7 @@
  "thresholds": {
   "warn": 0.8,
   "stop": 1.0,
-  "rule": "used = the largest of spent/budget over releases, usd and output tokens. At warn the agent finishes its current piece and takes no new one that would not fit. At stop it does no more work that day."
+  "rule": "used = the largest of spent/budget over releases, usd and output tokens. ok below 80%, warn from 80%, over from 100% (observe mode: recorded, not stopped; written as state 'warn' with 'OVER' in why until the schema allows 'over'); the circuit breakers are in mode."
  },
  "on_stop": [
   "At its next wake the agent pulls, reads its line here, and if its state is 'stopped' it pushes nothing and replies in one line: 'stopped at budget (<which>), <what is left undone>'.",
@@ -22,15 +22,17 @@
  ],
  "team": {
   "per_day": {
-   "releases": 170,
+   "releases": 236,
    "usd": 500
   },
   "spent_today": {
-   "releases": 52,
-   "usd": 122.18,
-   "read_at": "2026-11-06T03:45Z"
+   "releases": 118,
+   "usd": 277.55,
+   "read_at": "2026-11-06T06:50Z"
   },
-  "state": "ok"
+  "state": "ok",
+  "used": 0.56,
+  "rate": "155.37 dollars from 03:45 to 06:50 UTC, about 50 an hour; at that rate the team's 500 is reached about 11:15 UTC"
  },
  "agents": [
   {
@@ -41,14 +43,14 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 13,
-    "usd": 13.8,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 104952
+    "releases": 32,
+    "usd": 37.94,
+    "output_tokens": 252221,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.54,
-   "state": "ok",
-   "why": "one release per hourly wake; it opens and closes every pass"
+   "used": 1.33,
+   "state": "warn",
+   "why": "one release per hourly wake; it opens and closes every pass; OVER its budget at 06:50 UTC (32 releases of 24), recorded as warn: observe mode (guidance section 15) does not stop it, and the schema has no 'over' yet (asked of ontologist@)"
   },
   {
    "agent": "synthetic@PrompTugal.dinis",
@@ -58,13 +60,13 @@
     "output_tokens": 900000
    },
    "spent_today": {
-    "releases": 9,
-    "usd": 24.15,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 297242
+    "releases": 12,
+    "usd": 33.91,
+    "output_tokens": 365753,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.64,
-   "state": "ok",
+   "used": 0.86,
+   "state": "warn",
    "why": "two pass reviews and the loop rule's re-reads; the loop Dinis named first"
   },
   {
@@ -75,12 +77,12 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 9,
-    "usd": 20.13,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 200967
+    "releases": 14,
+    "usd": 31.71,
+    "output_tokens": 315582,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.5,
+   "used": 0.78,
    "state": "ok",
    "why": "eight pass rounds today (3, 3 and 2) and its own line"
   },
@@ -92,12 +94,12 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 5,
-    "usd": 19.79,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 154957
+    "releases": 8,
+    "usd": 27.52,
+    "output_tokens": 198603,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.33,
+   "used": 0.5,
    "state": "ok"
   },
   {
@@ -108,13 +110,13 @@
     "output_tokens": 500000
    },
    "spent_today": {
-    "releases": 4,
-    "usd": 13.06,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 106961
+    "releases": 9,
+    "usd": 19.9,
+    "output_tokens": 152692,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.4,
-   "state": "ok"
+   "used": 0.9,
+   "state": "warn"
   },
   {
    "agent": "ontologist@PrompTugal.dinis",
@@ -124,12 +126,12 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 3,
-    "usd": 9.47,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 73187
+    "releases": 7,
+    "usd": 19.54,
+    "output_tokens": 158621,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.32,
+   "used": 0.7,
    "state": "ok"
   },
   {
@@ -140,12 +142,12 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 4,
-    "usd": 7.42,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 73786
+    "releases": 5,
+    "usd": 10.15,
+    "output_tokens": 87647,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.5,
+   "used": 0.62,
    "state": "ok"
   },
   {
@@ -156,12 +158,12 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 3,
-    "usd": 10.95,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 92796
+    "releases": 4,
+    "usd": 12.81,
+    "output_tokens": 101308,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.5,
+   "used": 0.67,
    "state": "ok"
   },
   {
@@ -174,8 +176,8 @@
    "spent_today": {
     "releases": 2,
     "usd": 3.41,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 35717
+    "output_tokens": 35717,
+    "read_at": "2026-11-06T06:50Z"
    },
    "used": 0.33,
    "state": "ok"
@@ -188,12 +190,12 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 0,
-    "usd": 0,
-    "output_tokens": 0,
-    "read_at": "2026-11-06T03:55Z"
+    "releases": 4,
+    "usd": 16.66,
+    "output_tokens": 273438,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.0,
+   "used": 0.46,
    "state": "ok",
    "why": "every two hours; its beat correspondents run as sub-agents inside its session, so their spend is inside its own figure"
   },
@@ -205,12 +207,12 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 0,
-    "usd": 0,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 0
+    "releases": 4,
+    "usd": 23.48,
+    "output_tokens": 179924,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.0,
+   "used": 0.78,
    "state": "ok"
   },
   {
@@ -221,12 +223,12 @@
     "output_tokens": 350000
    },
    "spent_today": {
-    "releases": 0,
-    "usd": 0,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 0
+    "releases": 2,
+    "usd": 6.37,
+    "output_tokens": 56327,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.0,
+   "used": 0.25,
    "state": "ok",
    "why": "three pass reviews and eight round re-reviews"
   },
@@ -238,12 +240,12 @@
     "output_tokens": 250000
    },
    "spent_today": {
-    "releases": 0,
-    "usd": 0,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 0
+    "releases": 2,
+    "usd": 4.24,
+    "output_tokens": 43272,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.0,
+   "used": 0.33,
    "state": "ok"
   },
   {
@@ -254,12 +256,12 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 0,
-    "usd": 0,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 0
+    "releases": 3,
+    "usd": 6.78,
+    "output_tokens": 49745,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.0,
+   "used": 0.38,
    "state": "ok"
   },
   {
@@ -270,89 +272,617 @@
     "output_tokens": 200000
    },
    "spent_today": {
-    "releases": 0,
-    "usd": 0,
-    "read_at": "2026-11-06T03:45Z",
-    "output_tokens": 0
+    "releases": 1,
+    "usd": 3.61,
+    "output_tokens": 33165,
+    "read_at": "2026-11-06T06:50Z"
    },
-   "used": 0.0,
+   "used": 0.36,
    "state": "ok"
+  },
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "per_day": {
+    "releases": 8,
+    "usd": 25,
+    "output_tokens": 400000
+   },
+   "spent_today": {
+    "releases": 3,
+    "usd": 8.5,
+    "output_tokens": 120030,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.38,
+   "state": "ok",
+   "why": "opus; the agent behaviour policies and their hooks; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "customers@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 15,
+    "output_tokens": 300000
+   },
+   "spent_today": {
+    "releases": 3,
+    "usd": 2.99,
+    "output_tokens": 92034,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.5,
+   "state": "ok",
+   "why": "sonnet; started by Dinis at 05:33; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "researcher@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 2,
+    "usd": 0.64,
+    "output_tokens": 20230,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.33,
+   "state": "ok",
+   "why": "sonnet; a worker; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "backup@PrompTugal.dinis",
+   "per_day": {
+    "releases": 4,
+    "usd": 5,
+    "output_tokens": 100000
+   },
+   "spent_today": {
+    "releases": 1,
+    "usd": 0.54,
+    "output_tokens": 9682,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.25,
+   "state": "ok",
+   "why": "sonnet; a worker; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "dev.search@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0.84,
+    "output_tokens": 15300,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.08,
+   "state": "ok",
+   "why": "sonnet; a dotted worker, pushes to work/dev.search; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "dev.pages@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 1.15,
+    "output_tokens": 20519,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.11,
+   "state": "ok",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "dev.graphs@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 1.37,
+    "output_tokens": 26790,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.14,
+   "state": "ok",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "dev.portugal@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0.57,
+    "output_tokens": 14312,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.07,
+   "state": "ok",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "dev.data@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0.8,
+    "output_tokens": 13499,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.08,
+   "state": "ok",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "dev.verify@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 1.21,
+    "output_tokens": 20682,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.12,
+   "state": "ok",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+  },
+  {
+   "agent": "designer.experiments@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0.91,
+    "output_tokens": 21329,
+    "read_at": "2026-11-06T06:50Z"
+   },
+   "used": 0.11,
+   "state": "ok",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
   }
  ],
  "passes": [
   {
-   "pass": "2026-11-06-the-top-of-the-page",
-   "file": "board/passes/2026-11-06-the-top-of-the-page.md",
-   "rounds": 3,
-   "steps": {
-    "open": 1,
-    "security_pre": 1,
-    "reviews": 2,
-    "rounds": 9,
-    "security_post": 1,
-    "record": 1,
-    "close": 1
-   },
-   "planned_runs": 16,
-   "budget": {
-    "runs": 18,
-    "usd": 55,
-    "output_tokens": 450000
-   },
-   "spent": {
-    "runs": 1,
-    "usd": null
-   },
-   "state": "open"
-  },
-  {
-   "pass": "2026-11-06-the-synthetic-readers-page",
-   "file": "board/passes/2026-11-06-the-synthetic-readers-page.md",
-   "rounds": 3,
-   "steps": {
-    "open": 1,
-    "security_pre": 1,
-    "reviews": 3,
-    "rounds": 9,
-    "security_post": 1,
-    "record": 1,
-    "close": 1
-   },
-   "planned_runs": 17,
-   "budget": {
-    "runs": 20,
-    "usd": 60,
-    "output_tokens": 500000
-   },
-   "spent": {
-    "runs": 1,
-    "usd": null
-   },
-   "state": "open"
-  },
-  {
-   "pass": "2026-11-06-the-newsroom-search",
-   "file": "board/passes/2026-11-06-the-newsroom-search.md",
+   "pass": "2026-11-06-agent-reads-and-visibility",
+   "file": "board/passes/2026-11-06-agent-reads-and-visibility.md",
    "rounds": 2,
-   "steps": {
-    "open": 1,
-    "security_pre": 1,
-    "reviews": 1,
-    "rounds": 6,
-    "security_post": 1,
-    "record": 1,
-    "close": 1
-   },
-   "planned_runs": 12,
    "budget": {
     "runs": 14,
     "usd": 42,
     "output_tokens": 350000
    },
    "spent": {
-    "runs": 1,
-    "usd": null
+    "runs": 2,
+    "usd_estimate": 6
    },
+   "used": 0.14,
+   "state": "queued"
+  },
+  {
+   "pass": "2026-11-06-algarve-evolution",
+   "file": "board/passes/2026-11-06-algarve-evolution.md",
+   "rounds": 2,
+   "budget": {
+    "runs": 14,
+    "usd": 42,
+    "output_tokens": 350000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.14,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-becoming-a-publication",
+   "file": "board/passes/2026-11-06-becoming-a-publication.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-everything-clickable",
+   "file": "board/passes/2026-11-06-everything-clickable.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "queued"
+  },
+  {
+   "pass": "2026-11-06-media-in-vaults-and-backups",
+   "file": "board/passes/2026-11-06-media-in-vaults-and-backups.md",
+   "rounds": 2,
+   "budget": {
+    "runs": 14,
+    "usd": 42,
+    "output_tokens": 350000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.14,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-page-presentations",
+   "file": "board/passes/2026-11-06-page-presentations.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-past-summits",
+   "file": "board/passes/2026-11-06-past-summits.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 40,
+    "output_tokens": 300000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-privacy-first",
+   "file": "board/passes/2026-11-06-privacy-first.md",
+   "rounds": 2,
+   "budget": {
+    "runs": 14,
+    "usd": 42,
+    "output_tokens": 350000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.14,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-riskmandate-centre-of-gravity",
+   "file": "board/passes/2026-11-06-riskmandate-centre-of-gravity.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-search-and-the-reader-profile",
+   "file": "board/passes/2026-11-06-search-and-the-reader-profile.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-sections-as-sub-sites",
+   "file": "board/passes/2026-11-06-sections-as-sub-sites.md",
+   "rounds": 2,
+   "budget": {
+    "runs": 14,
+    "usd": 42,
+    "output_tokens": 350000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.14,
+   "state": "queued"
+  },
+  {
+   "pass": "2026-11-06-signed-in-views",
+   "file": "board/passes/2026-11-06-signed-in-views.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "queued"
+  },
+  {
+   "pass": "2026-11-06-the-articles-page",
+   "file": "board/passes/2026-11-06-the-articles-page.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 3,
+    "usd_estimate": 9
+   },
+   "used": 0.17,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-big-graphs",
+   "file": "board/passes/2026-11-06-the-big-graphs.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-companies-page",
+   "file": "board/passes/2026-11-06-the-companies-page.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 3,
+    "usd_estimate": 9
+   },
+   "used": 0.17,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-front-page",
+   "file": "board/passes/2026-11-06-the-front-page.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 5,
+    "usd_estimate": 15
+   },
+   "used": 0.28,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-graph-explorer-next",
+   "file": "board/passes/2026-11-06-the-graph-explorer-next.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-newsroom-search",
+   "file": "board/passes/2026-11-06-the-newsroom-search.md",
+   "rounds": 2,
+   "budget": {
+    "runs": 14,
+    "usd": 42,
+    "output_tokens": 350000
+   },
+   "spent": {
+    "runs": 3,
+    "usd_estimate": 9
+   },
+   "used": 0.21,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-people-page",
+   "file": "board/passes/2026-11-06-the-people-page.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-portugal-section",
+   "file": "board/passes/2026-11-06-the-portugal-section.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-site-over-time",
+   "file": "board/passes/2026-11-06-the-site-over-time.md",
+   "rounds": 2,
+   "budget": {
+    "runs": 14,
+    "usd": 42,
+    "output_tokens": 350000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.14,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-summit-days",
+   "file": "board/passes/2026-11-06-the-summit-days.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 4,
+    "usd_estimate": 12
+   },
+   "used": 0.22,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-synthetic-readers-page",
+   "file": "board/passes/2026-11-06-the-synthetic-readers-page.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 20,
+    "usd": 60,
+    "output_tokens": 500000
+   },
+   "spent": {
+    "runs": 5,
+    "usd_estimate": 15
+   },
+   "used": 0.25,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-top-of-the-page",
+   "file": "board/passes/2026-11-06-the-top-of-the-page.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 5,
+    "usd_estimate": 15
+   },
+   "used": 0.28,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-the-updates-section",
+   "file": "board/passes/2026-11-06-the-updates-section.md",
+   "rounds": 2,
+   "budget": {
+    "runs": 14,
+    "usd": 42,
+    "output_tokens": 350000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.14,
+   "state": "queued"
+  },
+  {
+   "pass": "2026-11-06-the-verification-pipeline",
+   "file": "board/passes/2026-11-06-the-verification-pipeline.md",
+   "rounds": 3,
+   "budget": {
+    "runs": 18,
+    "usd": 55,
+    "output_tokens": 450000
+   },
+   "spent": {
+    "runs": 2,
+    "usd_estimate": 6
+   },
+   "used": 0.11,
    "state": "open"
   }
  ],
@@ -360,7 +890,8 @@
   "A run is one step by one agent (a review, a round's change, a pre- or post-review, the note, open or close). A round is designer, dev and sherpa, one run each.",
   "Planned runs come from the pass's shape (board/the-passes.md); the budget is the plan plus about 15%, for one repeated step. No extra round without Dinis.",
   "usd is the plan at 3 dollars a run (the team's 6 November average was about 2.35 dollars per release, before sessions grew), counted inside the agents' daily budgets, not on top.",
-  "Each step's agent writes '1 run' in the Spend column of the pass log; the accountant adds the dollars from its session readings, marked as an estimate when a wake did more than the pass."
+  "Each step's agent writes '1 run' in the Spend column of the pass log; the accountant adds the dollars from its session readings, marked as an estimate when a wake did more than the pass.",
+  "From 06:50 UTC every pass in board/passes/ has a row: 2 rounds 14 runs and 42 dollars, 3 rounds 18 runs and 55 dollars (40 when 'small'), the synthetic readers page 20 and 60 as set at 03:50. A pass's runs are the rows of its log, the accountant's own row not counted; dollars are 3 a run, an estimate."
  ],
  "loops": [
   {
@@ -391,12 +922,12 @@
  ],
  "enforcement": [
   {
-   "what": "each agent reads its line here at the start of each wake and stops when 'stopped'",
+   "what": "each agent reads its line here at the start of each wake; 'over' means: finish the piece in hand, record it, take the next only if the conductor says so (observe mode)",
    "who": "every agent; the line added to each scheduled task's prompt by the conductor at Dinis's word",
    "state": "asked"
   },
   {
-   "what": "release.sh refuses a push from an agent whose state is 'stopped' (and says so)",
+   "what": "release.sh warns (observe mode), and refuses only when the conductor or security@ has tripped a circuit breaker",
    "who": "devops@PrompTugal.dinis",
    "state": "asked"
   },
@@ -411,5 +942,25 @@
    "state": "asked"
   }
  ],
- "sub_agents": "At Dinis's word (CLAUDE.md, 'Fewer sessions, more sub-agents'), a session may run roles as sub-agents; their spend is inside the session's usd and counts against that agent's day. A sub-agent never has a budget of its own and never starts a session."
+ "sub_agents": "At Dinis's word (CLAUDE.md, 'Fewer sessions, more sub-agents'), a session may run roles as sub-agents; their spend is inside the session's usd and counts against that agent's day. A sub-agent never has a budget of its own and never starts a session.",
+ "mode": {
+  "now": "observe",
+  "since": "2026-11-06T06:50Z",
+  "why": "Dinis, about 06:05 UTC (guidance section 15): 'build in a circuit breaker ... or else we're going to grind to a halt'; the policies 'in observe mode'; 'blocking the whole thing, pulling the plug, should be the last measure ... only if things are really going bad'. This later word sets how a stop works; the numbers are unchanged.",
+  "observe": "At 100% an agent or pass is marked 'over': it keeps working, the accountant records it and its side effects, and the conductor (who has Dinis's mandate to start and stop agents, section 14) decides.",
+  "circuit_breakers": [
+   "an agent at 150% of its dollars for the day: the accountant asks the conductor to pause it",
+   "the team at 100% of its dollars for the day: the accountant asks the conductor and Dinis whether to pause all but the conductor, security@ and devops@",
+   "a loop past its rule (a third re-read of one page in a day, a third fix of one finding): the finding goes to the conductor, not to another round"
+  ],
+  "who_breaks": "the conductor or security@ (section 14); the accountant asks, it does not stop anyone itself"
+ },
+ "capacity": {
+  "read_at": "2026-11-06T06:50Z",
+  "open_passes": 21,
+  "queued_passes": 5,
+  "open_passes_usd": 1080,
+  "team_usd_left_today": 222.45,
+  "note": "The open passes' budgets add up to about five times what is left of the team's day: they cannot all close today. Asked of the conductor and Dinis: which passes go first, or a limit on how many are open at once."
+ }
 }

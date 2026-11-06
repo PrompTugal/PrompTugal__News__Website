@@ -33,6 +33,22 @@
       "read_by": "curator@web-summit",
       "supports": "The Portugal Guides, 10 Oct 2026: Matthew Prince listed among confirmed 2026 speakers",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://developers.cloudflare.com/agents/concepts/agentic-patterns/human-in-the-loop/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Cloudflare Agents docs, \"Human-in-the-loop patterns\" (last updated 27 October 2026): approval at three layers of an agent (MCP elicitation, Workflow approval, Code Mode approval) and its expense-approval example (the flow approval-gate)",
+      "kind": "other"
+    },
+    {
+      "id": "fl2",
+      "url": "https://developers.cloudflare.com/agents/concepts/what-are-agents/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Cloudflare Agents docs, \"What are agents?\" (last updated 29 October 2026): an agent decides its tool use and process flow, unlike a workflow or a co-pilot",
+      "kind": "other"
     }
   ]
 }

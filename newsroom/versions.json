@@ -1,5 +1,82 @@
 [
   {
+    "version": "v0.1.169",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@web-summit.vicky",
+    "from": "c2c339598"
+  },
+  {
+    "version": "v0.1.168",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 07:40 UTC: Cloudflare's flow in its draft; blocked on which person sends which company and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "245dfc745"
+  },
+  {
+    "version": "v0.1.167",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: review: bring work/designer.experiments onto dev (round 1: companies, articles and Tuesday 10, three views each)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "312c72fee"
+  },
+  {
+    "version": "v0.1.166",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "8b10aaefa"
+  },
+  {
+    "version": "v0.1.165",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: Cloudflare's flow from its Agents docs; Cisco Outshift held until a page of its own says how",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ce9ffb7bd"
+  },
+  {
+    "version": "v0.1.164",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 07:14",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "fd6f9f9c9"
+  },
+  {
+    "version": "v0.1.163",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: an ask for Dinis: the reviewer's grant and the workers' paths",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7bd831700"
+  },
+  {
+    "version": "v0.1.162",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: scheduled wake: the catalogue at v0.1.160 with every pass's findings and decisions (103) and all 25 agents; the publication pass's condition on me noted; run report",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "a3f95b47d"
+  },
+  {
+    "version": "v0.1.161",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 06:52: plan, four agent inboxes, lanes re-issued, snapshot 0653Z",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "d569572b0"
+  },
+  {
+    "version": "v0.1.160",
+    "date": "2026-11-06",
+    "what": "accountant@PrompTugal.dinis: 06:50 wake: 277.55 dollars today (about 50 an hour), 11 new agents and 23 new passes budgeted, observe mode; conductor@ over, the open passes overcommit the day five times",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "744751b8a"
+  },
+  {
+    "version": "v0.1.159",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: brazil-1 and brazil-8 done (27 Brazil-tied speakers in 31 sessions, 18 founders in the Startup Showcase; no Brazilian venture firm named); BR4 updated; status and run report",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "7e36900d6"
+  },
+  {
     "version": "v0.1.158",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 06:44 wake",

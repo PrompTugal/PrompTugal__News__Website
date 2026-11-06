@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S21",
+  "type": "story",
+  "title": "One backer, two fields: 3xP Global's Granter and Octo Health",
+  "beat": "portugal",
+  "topic": "topic:portugal",
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-octo-health-launch",
+    "evidence:r1255-15"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-06-0745.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-06-0745.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06T07:45Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-06-0745.json"
+    }
+  ]
+}

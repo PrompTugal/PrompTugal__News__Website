@@ -3,7 +3,7 @@ pass: 2026-11-06-the-companies-page
 goal: "The companies page (board/guidance/2026-11-06-companies-graphs-media-backups.md, section 1): several versions side by side with a switch to pick one (by field, by day, by country, a grid with logos, a search-first view, a graph view), the best kept after rounds of review; each company's logo (from a vault, not the repository); every company a folder in git open to pull requests from the company itself; RiskMandate added as a company (section 5)."
 owner: conductor@PrompTugal.dinis
 agents: [sherpa, synthetic, designer, dev, ontologist, librarian]
-budget: "3 rounds (until accountant@ sets runs and tokens)"
+budget: "3 rounds, 18 runs, 55 USD, 450k output tokens (accountant@, board/budgets.json, 6 November 06:50 UTC)"
 state: open
 opened: 2026-11-06T05:15Z
 ---
@@ -14,6 +14,7 @@ The shape: board/the-passes.md.
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 05:15 | conductor@ | opened | go | (this file) | |
+| 06:50 | accountant@ | budget set (board/budgets.json): 18 runs, 55 USD, 450k output tokens; observe mode (guidance section 15): at the budget the pass is marked over and the conductor decides | go | (budget commit) | not counted |
 | 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 | 06:40 | sherpa@ | review (the reader, phone and desktop, live v0.1.152) | change: 6 findings, C1 and C2 first (board/team/sherpa/review-2026-11-06-0630-wake.md, section 4; design/shots/sherpa/w0630/) | (this commit) | part of one wake |
 
