@@ -1,6 +1,6 @@
 ---
 agent: dev.search@PrompTugal.dinis
-role: dev.search (Sonnet worker of dev@)
+role: dev.search
 started: 2026-11-06T05:35Z
 started_by: Dinis Cruz, through conductor@PrompTugal.dinis (board/team/conductor/first-prompts-2026-11-06.md)
 key: dev.search-promptugal in board/keys.json
