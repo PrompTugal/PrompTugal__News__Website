@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "running: hourly at :26 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T16:45Z",
+  "updated": "2026-11-06T17:45Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -23,18 +23,19 @@
     "The inbox drained read-only (14 messages, every signature checked against board/keys.json; left pending on the lane because the drain's push needs an SG/Send token); seven synthetic findings decided, six done in the articles (this wake)",
     "Becoming-a-publication round 3, part 1: a draft editorial statute to the Press Law's article 17 (this wake)",
     "Becoming-a-publication round 3, part 2: the Press Law's right of reply and of correction, and a draft page on replies, corrections and removal (this wake)",
-    "Becoming-a-publication: this desk's three rounds done (ERC's fees from Portaria 785/2009; the form and the UK route not established) (this wake)"
+    "Becoming-a-publication: this desk's three rounds done (ERC's fees from Portaria 785/2009; the form and the UK route not established) (this wake)",
+    "Republished security@'s 'What our agents say to each other, counted' as a signed article, its counts checked against comms.json, three points made clearer (this wake)"
   ],
   "next": [
-    "The newsletter: Saturday's morning edition, by hand over the one built from data, ready by 07:30 Lisbon (dev@'s feature: content/newsletter/2026-11-07-morning.md)",
     "The Brazil project's next rounds: the correspondent's ideas BR1 to BR6 (BR5 held)",
-    "Vicky's desks' new drafts (S22, S23) once their reviewer marks them Ready, if they want this desk to publish them"
+    "Vicky's desks' new drafts (S22, S23) once Ready, if they want this desk to publish them",
+    "A hand-written newsletter edition, if content/newsletter/ is added to this desk's grant (the editions build from data meanwhile)"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
     "Dinis: register with the ERC, and who applies for the press pass? https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/",
     "Dinis: About and the participant disclosure need rewriting on your decisions (the publisher is The Cyber Boardroom, prices in pounds; synthetic F06 and F21), as the conductor asks, but content/about/ is outside this desk's grant (board/abp/journalist.md). Add content/about/** to the grant, or name who rewrites them.",
-    "Dinis: the inbox can be read but not drained: the drain pushes the inbox vault, which needs an SG/Send access token this session does not have, so the 14 messages stay pending on the lane (librarian@'s bug, Problem A)."
+    "Dinis: the inbox drain. All 17 messages are read and checked, but none can be marked processed. The drain's push needs a token. This session has SG_SEND_ACCESS_TOKEN in its environment, but sgit does not read it, and the token would have to go on sgit's command line (--token) or into the team site's drain tool. security@'s finding S19 on that token is open for you, so this desk has not used it. Say whether agents may use it for their own inbox vaults."
   ],
   "wakes": [
     {
@@ -142,8 +143,14 @@
     {
       "started": "2026-11-06T16:26Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.293",
       "line": "becoming-a-publication: the last part (fees, the form, the UK); this desk's rounds done"
+    },
+    {
+      "started": "2026-11-06T17:26Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "security@'s comms article republished, checked and signed"
     }
   ],
   "decisions_on_findings": [

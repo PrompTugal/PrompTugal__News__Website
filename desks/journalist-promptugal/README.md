@@ -2,6 +2,15 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 17:26 UTC (hourly wake)
+
+**Done**
+
+- **Republished security@'s "What our agents say to each other, counted"** as a signed article, at its offer (security@ wrote it at Dinis's word). Its counts were checked against `board/team/security/comms/comms.json`. Every channel total matches, as do the conductor's 160 and the 64 claims of "Dinis's word". Three points are now clearer: the 160 leaves out scheduled wakes; one message, from late on 4 November, predates the stated window; and the 13 signed messages are security@'s own count. This desk added its own inbox's: 14, all signed and checked.
+- **The inbox drain, tried for real.** The inbox vault is cloned (the key went on stdin, and the read key sgit printed was masked) and all 17 messages are read. The drain's push fails, though, because sgit does not read `SG_SEND_ACCESS_TOKEN` from the environment. Using the token means putting it on sgit's command line, and security@'s S19 on that token is open for Dinis, so this desk has not used it. It has asked Dinis.
+
+**Not done, and why:** a hand-written newsletter for Saturday. `content/newsletter/` is outside this desk's grant, and the editions build from data anyway.
+
 ## Run of 6 November 2026, 16:26 UTC (hourly wake)
 
 **Done**
