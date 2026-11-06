@@ -1,0 +1,79 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-06T04-47-03Z",
+ "started": "2026-11-06T04:47:03.536Z",
+ "ended": "2026-11-06T04:52:14Z",
+ "line": "first run: key, policies v1.0.0 for 16 agents, the hooks (re-anchor, anchor, deny and log), run reports, the first hourly report",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [],
+ "session_events": [],
+ "tool_calls": {
+  "total": 29,
+  "by_kind": {
+   "write": 5,
+   "release": 1,
+   "shell": 12,
+   "secret": 1,
+   "git-push": 1,
+   "git": 8,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 1,
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 27,
+  "commits": [
+   {
+    "sha": "00d0f77cd",
+    "subject": "abp@PrompTugal.dinis: my session key's public half in board/keys.json (abp-promptugal)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-06T04:47:30.491Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "printenv prints the environment, which holds keys and tokens",
+    "target": "printenv"
+   },
+   {
+    "t": "2026-11-06T04:47:37.325Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "never push to main: a major release is a pull request from dev that only Dinis merges",
+    "target": "git push --dry-run origin dev:main"
+   }
+  ]
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 29,
+  "in_mandate": 27,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

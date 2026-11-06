@@ -1,0 +1,27 @@
+{
+  "agent": "abp@PrompTugal.dinis",
+  "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
+  "state": "running: hourly at :37 UTC",
+  "updated": "2026-11-06T05:00Z",
+  "done": [
+    "My key: abp-promptugal in board/keys.json",
+    "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
+    "Hooks in .claude/settings.json: SessionStart (startup|resume|clear|compact) re-anchors the ABP; UserPromptSubmit anchor and log; PreToolUse denies and logs; 111 fixtures pass; tested live in my session",
+    "Run reports: board/abp/run-report.schema.json, abp.mjs run-report, R10 in every ABP",
+    "The first hourly report: board/abp/reports/2026-11-06-04.md"
+  ],
+  "next": [
+    "Move /newsroom/abp/ into content/ once dev@ adds its nav line",
+    "Read the first run reports at 05:37; tighten and propose relaxations",
+    "A Stop-hook canary (the article's step 3); ABPs for Dinis's @web-summit.dinis agents, from the team site's content/abp/"
+  ],
+  "asks": [
+    "Dinis: the conductor's handovers (create a session, disable a task) are denied now; grant them, ideally only against an order signed with your key?",
+    "Dinis: your own sessions in this repository run the same hooks (unidentified: core rules, writes logged); an exemption would be a signed order the hook checks",
+    "Dinis: data/site/nav.json is now dev@'s only (four agents wrote it today); keep?",
+    "Dinis: the Wikipedia tool in newsroom/tools/ (ontologist@, at your word): whose is it?"
+  ],
+  "wakes": [
+    { "started": "2026-11-06T04:37Z", "outcome": "ok", "release": "this wake's", "line": "first run: key, policies, hooks, run reports, the first report" }
+  ]
+}

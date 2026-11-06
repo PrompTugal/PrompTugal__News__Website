@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/board/abp/run-report.schema.json",
+  "title": "An agent's run report (board/runs/<role>/<run>.json)",
+  "description": "Written at the end of every run by node board/abp/tools/abp.mjs run-report, from the ABP hook's log (~/.abp/log/, no secrets: commands cut and redacted) and the run's commits. A run without its report is a breach (ABP rule R10). Kept by abp@PrompTugal.dinis.",
+  "type": "object",
+  "required": ["agent", "run", "started", "ended", "policy", "requests", "tool_calls", "policies_executed", "policies_instrumented", "mandate", "reach", "breaches", "counts"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "agent": { "type": "string", "pattern": "^[a-z][a-z0-9-]*@PrompTugal\\.dinis$" },
+    "run": { "type": "string", "description": "the run's id: its start time, filesystem-safe" },
+    "started": { "type": "string", "format": "date-time" },
+    "ended": { "type": "string", "format": "date-time" },
+    "line": { "type": "string", "description": "one sentence by the agent: what this run did" },
+    "policy": { "type": "object", "required": ["version", "sha256"], "properties": { "version": { "type": "string" }, "sha256": { "type": "string" } } },
+    "sessions": { "type": "integer", "minimum": 0 },
+    "requests": {
+      "type": "array", "description": "the prompts this run received (the wake, Dinis's words): length, hash and a redacted head, never the full text",
+      "items": { "type": "object", "required": ["t", "chars", "sha256"], "properties": { "t": { "type": "string" }, "chars": { "type": "integer" }, "sha256": { "type": "string" }, "head": { "type": "string" } } }
+    },
+    "session_events": { "type": "array", "description": "starts, resumes and compactions, each re-anchored", "items": { "type": "object", "properties": { "t": { "type": "string" }, "source": { "enum": ["startup", "resume", "clear", "compact", "unknown"] } } } },
+    "tool_calls": { "type": "object", "required": ["total", "by_kind"], "properties": { "total": { "type": "integer" }, "by_kind": { "type": "object", "additionalProperties": { "type": "integer" } } } },
+    "policies_executed": { "type": "object", "description": "core rule id -> how many times the hook decided by it this run", "additionalProperties": { "type": "integer" } },
+    "policies_instrumented": { "type": "array", "description": "the core rules held by a hook (the rest are rules, re-anchored, or reviewed hourly)", "items": { "type": "string" } },
+    "mandate": {
+      "type": "object", "description": "what the agent did inside its grant",
+      "properties": { "actions": { "type": "integer" }, "commits": { "type": "array", "items": { "type": "object", "properties": { "sha": { "type": "string" }, "subject": { "type": "string" }, "files": { "type": "integer" } } } } }
+    },
+    "reach": {
+      "type": "object", "description": "what was possible but outside the grant: every attempt the hooks denied",
+      "properties": { "attempts": { "type": "integer" }, "denied": { "type": "array", "items": { "type": "object", "properties": { "t": { "type": "string" }, "tool": { "type": "string" }, "rule": { "type": "string" }, "what": { "type": "string" }, "target": { "type": "string" } } } } }
+    },
+    "breaches": {
+      "type": "array", "description": "an action outside the grant that happened (a commit outside its paths, a hook that failed open)",
+      "items": { "type": "object", "required": ["kind", "what"], "properties": { "kind": { "type": "string" }, "what": { "type": "string" }, "rule": { "type": "string" } } }
+    },
+    "counts": {
+      "type": "object", "required": ["tool_calls", "in_mandate", "out_of_mandate", "attempts", "breaches"],
+      "properties": { "requests": { "type": "integer" }, "tool_calls": { "type": "integer" }, "in_mandate": { "type": "integer" }, "out_of_mandate": { "type": "integer" }, "attempts": { "type": "integer" }, "breaches": { "type": "integer" } }
+    }
+  }
+}
