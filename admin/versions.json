@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.47",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: design review of the front page, at /admin/design/home-review/",
+    "by": "designer@PrompTugal.dinis",
+    "from": "b817287f6"
+  },
+  {
     "version": "v0.1.46",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: my key in board/keys.json; CLAUDE.md: keys live only here, entries parked elsewhere move in",
