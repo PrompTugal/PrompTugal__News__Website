@@ -70,10 +70,30 @@
         tools.append(a)
     }
 
+    // a view shaped by who is signed in: shown only for a verified key (window.PTLogin); a preference, never a gate:
+    // nothing private is behind it (a static site sends every byte to every reader)
+    const PREFS = 'nr.profile.prefs.v1'
+    const prefs = () => { try { return JSON.parse(w.localStorage.getItem(PREFS)) || {} } catch (e) { return {} } }
+    const setPref = (k, v) => { try { w.localStorage.setItem(PREFS, JSON.stringify({ ...prefs(), [k]: v })) } catch (e) { /* none */ } }
+    function mine(root) {
+        const L = w.PTLogin
+        if (!L) return null
+        const st = L.state()
+        if (!st.verified) return null
+        const box = h('div', { class: 'profile-me' }, h('p', {}, 'Signed in as ', h('strong', {}, st.person), ` (key ${st.fingerprint}, verified).`))
+        const cb = h('input', { type: 'checkbox', id: 'nr-pref-nf' })
+        cb.checked = !!prefs().newsroomFirst
+        cb.addEventListener('change', () => setPref('newsroomFirst', cb.checked))
+        box.append(h('p', {}, cb, ' ', h('label', { for: 'nr-pref-nf' }, 'Search the newsroom first (the search page opens filtered to the newsroom pages)')))
+        return box
+    }
+
     function draw(root) {
         const render = () => {
             const p = store.load(), s = summary()
             root.replaceChildren()
+            const me = mine(root)
+            if (me) root.append(me)
             root.append(h('dl', { class: 'stats' },
                 [['Pages read', s.pages], ['Searches', s.searches], ['Days', new Set(p.views.map(v => day(v.t))).size], ['Since', p.since.slice(0, 10)]].map(([k, v]) => h('div', {}, h('dt', {}, k), h('dd', {}, v)))))
             root.append(h('p', { class: 'profile-controls' },
@@ -95,7 +115,7 @@
         icon()
         if (!watchSearch()) { let n = 0; const iv = setInterval(() => { if (watchSearch() || ++n > 40) clearInterval(iv) }, 250) }
         const root = d.querySelector('.pt-profile')
-        if (root) draw(root)
+        if (root) { draw(root); w.addEventListener('pt:login', () => draw(root)); if (w.PTLogin) w.PTLogin.ready.then(() => draw(root)) }
     }
     w.NRProfile = { summary, clear: store.clear, load: store.load }
     if (d.readyState === 'loading') d.addEventListener('DOMContentLoaded', init); else init()
