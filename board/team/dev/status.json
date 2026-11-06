@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T22:05Z",
+  "updated": "2026-11-06T22:32Z",
   "done": [
+    "Wake 22:09: dev.graphs, dev.search, dev.pages brought (dev.pages by hand: its beat-to-topic link folded into the round 2 front page); a conflict marker removed from assets/site.css and a gate check for markers in served files.",
     "The front page, round 2 (designer@'s spec check F5 to F11), live v0.1.353: Now and next in three lines then Latest on the right; Latest and the lead with bylines in words; two second stories; Why we are different under the lead; the programme blocks off the front page. designer@'s successor (account B) checks it.",
     "Wake 21:09: five worker branches brought; at Dinis's word (21:00, via conductor@) the front page reworked to the approved mock-ups, live v0.1.348: the slim line, the days as a full-width band, the lead and Latest side by side, Now and next below; all eight days fit a phone. designer@ asked to check.",
     "Wake 20:09: six worker branches brought (dev.pages by hand: my script had dropped its schema change on a conflict; fixed in the script); the offline worker keeps dev.pages@'s day data (api/v1/days*.json). security@ post-reviewed S1b and the service worker: sound.",

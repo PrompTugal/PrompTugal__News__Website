@@ -24,7 +24,9 @@
     function show(b) {
         sel = b; side.replaceChildren(el('h2', { textContent: `${b.c.label}: ${b.rel.label}` }), el('p', { className: 'gv-meta', textContent: D.ui.states[b.cell.state] }), el('p', { textContent: b.cell.text }))
         const s = D.sources[b.cell.src]; if (s) side.append(el('a', { href: s.url, target: '_blank', rel: 'noopener', textContent: `${D.ui.source}: ${s.label}` }), el('br'))
-        if (b.cell.page) side.append(el('a', { href: root.dataset.root + b.cell.page, target: '_blank', rel: 'noopener', textContent: D.ui.page })); draw()
+        if (b.cell.page) side.append(el('a', { href: root.dataset.root + b.cell.page, target: '_blank', rel: 'noopener', textContent: D.ui.page }))
+        if (b.cell.links) side.append(el('ul', { className: 'gw-list' }, ...b.cell.links.map(l => el('li', {}, el('a', { href: root.dataset.root + l.page, target: '_blank', rel: 'noopener', textContent: l.label }), ' ', ...(D.sources[l.src] ? [el('a', { href: D.sources[l.src].url, target: '_blank', rel: 'noopener', textContent: '(its page)' })] : [])))))
+        draw()
     }
     cv.addEventListener('click', ev => { const r = cv.getBoundingClientRect(), x = ev.clientX - r.left, y = ev.clientY - r.top, b = boxes.find(q => Math.hypot(q.x - x, q.y - y) < q.r); if (b) show(b) })
     cv.addEventListener('mousemove', ev => { const r = cv.getBoundingClientRect(); cv.style.cursor = boxes.some(q => Math.hypot(q.x - (ev.clientX - r.left), q.y - (ev.clientY - r.top)) < q.r) ? 'pointer' : 'default' })
