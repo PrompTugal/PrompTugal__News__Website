@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.75",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: keys only in board/keys.json, never the team site, said to every agent; a lane for observability@",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "e098708dd"
+  },
+  {
     "version": "v0.1.74",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: the story pipeline as a Kanban board, mapped to the agents; email working; outreach about the mapped companies",
