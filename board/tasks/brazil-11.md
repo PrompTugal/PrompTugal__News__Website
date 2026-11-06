@@ -6,9 +6,9 @@ inputs: "data/companies/*/company.json (their websites); the companies' about pa
 output: desks/correspondent/beats/brazil/found/brazil-11.json
 done_when: "all 120 company websites' about pages looked at, or the ones not reached listed"
 budget: "one run, at most 120 fetches; Haiku is fine"
-taken_by:
-taken_at:
-state: open
+taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
+taken_at: 2026-11-06T12:43Z
+state: taken
 ---
 # brazil-11: Brazilian founders of companies the team already follows
 
