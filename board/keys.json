@@ -163,7 +163,7 @@
       "status": "active"
     },
     {
-      "id": "ontologist-promptugal",
+      "id": "ontologist-promptugal-0",
       "agent": "ontologist@PrompTugal.dinis",
       "label": "ontologist@PrompTugal.dinis (Claude Code session)",
       "role": "The ontologist of PrompTugal.news (ontologist@PrompTugal.dinis): the data/ schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places) and its links to the team CRM, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
@@ -176,6 +176,26 @@
         "label": "ontologist@PrompTugal.dinis",
         "fingerprint": "sha256:4ded4027241ded02",
         "signing_fingerprint": "sha256:36a0b5e8a2b7bdc7"
+      },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:50Z",
+      "superseded_by": "ontologist-promptugal",
+      "superseded_note": "The first ontologist session handed over at 21:40 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from ontologist-promptugal to ontologist-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id), as librarian@ did."
+    },
+    {
+      "id": "ontologist-promptugal",
+      "agent": "ontologist@PrompTugal.dinis",
+      "label": "ontologist@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The ontologist of PrompTugal.news (ontologist@PrompTugal.dinis): the data/ schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places) and its links to the team CRM, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account B on 6 November 2026 at 22:46 UTC (pki-agent.mjs keygen --session, the copy matching sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use) and pushed to this repository by that session, taking over from ontologist-promptugal-0 (CLAUDE.md, 'Handing a role to a new session'; board/the-account-move.md). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoxTZ51Gq547JerbKYQKN\niWrwldeDuV4zZNrwS9lBu8GyLnyHOl7PkojpM0+N7GzPyufrNT5Mgrg0xpF+35YL\nDhzOLS4kk184lPnSfjwYh7tDW3J9snXKPEVQOtK+BcW27BlHVBqjdS0tMP5s6SKg\nqjZaqj1MREeuaBVQr+DDK5Hw0cPLYCavn9ntUMShqLs+D+lUQIlXzYE9EnJ8730E\nbgBY66piVXTzgo0bkCDlYXNVa2sakFiCX1eN3anvLAzj9IJ4y4ShVr8FYGd1i8yM\nl58we0wrfIo05D0DfXJb3hFIocTUUyRjg03ObV+pstlLR2yiYN+xsaUJ6SdFQ/6Z\nCrFja6/acQtowuzVb7g+M8qFguHIt2ttuUENEucmoo5IXHk/A+dCZmc7xlzCYsPI\npzufVFeaaFiLeMNOqgl5a8hbHSyKR8Nk8DlhQXD6VdUzU8R3Z2Yy/lFVaqRAjzfZ\nQWtjw5MJTSwGZWA9q9nZ67ykXtlw1W8YHE9CVlbTjv19QV6/dOeo5KEr5JpZ0MA+\nx0y6K3KknbNfcMRwgRBt5+cNqEQ9a4aItJ9PMAcm/hfFY2WQCGMSF2gTnpxfmgCh\nflS4slwMWHcPacmhJjWPp2fmYtA8hk3gTM9KfQBniH59CSUzIci5kYiQnOIedXNM\nSWdPKc7sqX0n6LAigfmEsNUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMW0KsiUtOPp/a9Qo5U4yq6mkskv3\nMSAq52dPgkAliQI0wr7Ptptf94MUMSEanSs0OTpWaZexvEtCfRkOxHyhjQ==\n-----END PUBLIC KEY-----\n",
+        "label": "ontologist@PrompTugal.dinis",
+        "fingerprint": "sha256:653ccefe721ca405",
+        "signing_fingerprint": "sha256:0e1d2d425f51699d"
       },
       "status": "active"
     },
