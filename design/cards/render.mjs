@@ -1,4 +1,4 @@
-// The PrompTugal.news cards (generic, proof 2), from the SVG masters (make_cards.py) to what the shop asks for (the team site's /cards/print/):
+// The PrompTugal.news card (proof 4), from the SVG masters (make_cards.py) to what the shop asks for (the team site's /cards/print/):
 // a PDF per variant (91 x 61 mm with 3 mm bleed, page 1 the front, page 2 the back) and a PNG per side
 // (300 dpi, trimmed to 85 x 55 mm, no bleed), plus one overview of the three. Chromium via Playwright, a design tool
 // (not the site's build): node design/cards/render.mjs
@@ -10,8 +10,8 @@ const require = createRequire(import.meta.url)
 const { chromium } = require('playwright')
 
 const here = dirname(fileURLToPath(import.meta.url))
-const out = join(here, 'generic')
-const editors = readdirSync(out).sort().map(id => ({ id, name: id }))
+const out = here
+const editors = [{ id: 'card', name: 'PrompTugal.news card' }]
 const PX = 300 / 25.4 // 300 dpi
 const browser = await chromium.launch()
 const page = await browser.newPage()
@@ -36,7 +36,7 @@ for (const ed of editors) {
 }
 
 // the overview: each editor's front and back at real proportions, trimmed, with the trim and safe area marked on the first
-const items = [...editors.map(ed => [`generic/${ed.id}/card-front.png`, `${ed.id}, front`]), [`generic/${editors[0].id}/card-back.png`, 'the back (the same for every front)']]
+const items = [['card/card-front.png', 'front'], ['card/card-back.png', 'back']]
 await page.setViewportSize({ width: 1400, height: 400 })
 const html = `<!doctype html><meta charset="utf-8"><base href="file://${here}/"><style>
   body { margin: 32px; background: #e9e6df; font: 13px 'IBM Plex Mono', monospace; color: #121317 }

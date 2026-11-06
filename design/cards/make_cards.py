@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """PrompTugal.news business cards (brand identity v2.0): generic, no names, printed on white stock.
 
-designer@PrompTugal.dinis, 6 November 2026 (WS-177), proof 3. At Dinis's word: white stock, no solid colours (no
+designer@PrompTugal.dinis, 6 November 2026 (WS-177), proof 4. At Dinis's word: white stock, no solid colours (no
 floods: ink, red and green type and hairlines only, so it prints cheaply); generic (PrompTugal.news, not a person);
 variant A of proof 2 (no Web Summit line); the agent's address agent@promptugal.news; and a back that makes whoever
-gets the card curious: people and AI agents together, sources and provenance, the graph, pay as you read. Three
-front taglines to choose from, one back. A design tool, not part of the site's build: it needs
+gets the card curious: people and AI agents together, provenance and explainability, the graph, pay as you read.
+Proof 4: tagline 1, the back tidied at his word (no "powered by", the address in the front's colours). A design tool, not part of the site's build: it needs
 Python 3 with fonttools, brotli, uharfbuzz and segno (pip install fonttools brotli uharfbuzz segno), and writes
 SVG masters with every letter outlined, to the print shop's rules (the team site's /cards/print/):
 85 x 55 mm trimmed, 3 mm bleed on every side (91 x 61 mm), all text at least 3 mm inside the trim, nothing under 7 pt.
@@ -22,7 +22,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 FONTS = os.path.join(ROOT, 'assets', 'fonts')
 BRAND = os.path.join(ROOT, 'assets', 'brand')
-OUT = os.path.join(HERE, 'generic')
+OUT = os.path.join(HERE, 'card')
 
 # brand v2.0 colours (design/brand/README.txt)
 PAPER, INK, RED, GREEN, MUTED, RULE = '#F6F3EC', '#121317', '#C52830', '#006600', '#666860', '#D8D4CB'
@@ -127,15 +127,11 @@ def svg(body, title, bg):
 M = 6.0  # the margin: twice the shop's 3 mm safe area
 WHITE = '#FFFFFF'  # the stock: nothing printed
 
-FRONTS = [
-    {'id': 'front-1-together', 'label': 'tagline 1', 'line': 'People and AI agents, reporting together.'},
-    {'id': 'front-2-context', 'label': 'tagline 2', 'line': 'Technology and AI, in context.'},
-    {'id': 'front-3-ask', 'label': 'tagline 3', 'line': 'Read it. Question it. Ask its agent.'},
-]
+TAGLINE = 'People and AI agents, reporting together.'  # tagline 1 of proof 3, Dinis's pick (6 November 2026)
 AGENT = 'agent@promptugal.news'  # the publication's agent, at Dinis's word (6 November 2026): a role, not a person
 CLAIMS = [  # what makes PrompTugal.news unusual, in a reader's words; each one true of the live site
     'AI agents do the legwork. Editors decide.',
-    'Every fact has its source and the date we read it.',
+    'Provenance for every fact: sourced and explainable.',
     'Every story is part of a graph you can explore.',
     'Pay as you read, only for what you read.',
 ]
@@ -145,43 +141,50 @@ def centre(face, text, size, y, fill, tracking=0.0):
     return face.path(text, size, W / 2, y, fill, anchor='middle', tracking=tracking)
 
 
-def front(f):
+def coloured(face, parts, size, x, y):
+    """One line in several colours, e.g. the address in the wordmark's colours: [(text, fill), ...]."""
+    out, cx = [], x
+    for text, fill in parts:
+        out.append(face.path(text, size, cx, y, fill))
+        cx += face.width(text, size)
+    return ''.join(out), cx - x
+
+
+def front():
     out = []
     mark, mh = embed('promptugal-wordmark-light.svg', (W - 66.0) / 2, 13.0, 66.0)
     out.append(mark)
     out.append(f'<rect x="{W / 2 - 9:.3f}" y="28.7" width="18" height="0.5" fill="{GREEN}"/>')
-    out.append(centre(SERIF_ITALIC, f['line'], 11, 37.5, INK))
-    return svg(''.join(out), f"PrompTugal.news card, {f['label']}: front", WHITE)
+    out.append(centre(SERIF_ITALIC, TAGLINE, 11, 37.5, INK))
+    return svg(''.join(out), 'PrompTugal.news card: front', WHITE)
 
 
 def back():
     out = []
-    out.append(MONO.path('HOW IT WORKS', 7, M, 10.4, GREEN, tracking=0.06))
+    out.append(MONO.path('HOW IT WORKS', 7, M, 8.6, GREEN, tracking=0.06))
     for i, c in enumerate(CLAIMS):
-        y = 15.6 + i * 4.3
+        y = 13.8 + i * 4.4
         out.append(f'<rect x="{M}" y="{y - 1.75:.3f}" width="1.1" height="1.1" fill="{GREEN}"/>')
         out.append(SANS.path(c, 8, M + 3.0, y, INK))
-    out.append(f'<rect x="{M}" y="32.2" width="{W - 2 * M}" height="0.25" fill="{INK}"/>')
+    out.append(f'<rect x="{M}" y="31.2" width="{W - 2 * M}" height="0.25" fill="{INK}"/>')
     qs = 19.5
-    code, ver, mod = qr(W - M - qs + 1.6, 33.0, qs, SITE)  # its quiet zone overhangs the margin, never the trim
+    code, ver, mod = qr(W - M - qs + 1.6, 32.4, qs, SITE)  # its quiet zone overhangs the margin, never the trim
     out.append(code)
-    out.append(SERIF_600.path('Talk to our agent', 11, M, 39.6, INK))
-    out.append(MONO.path(AGENT, 8, M, 44.2, INK))
-    out.append(SANS.path('or scan to read promptugal.news', 7, M, 47.9, MUTED))
-    out.append(MONO.path('Powered by RiskMandate', 7, M, 51.4, INK))
-    return svg(''.join(out), 'PrompTugal.news card: back', WHITE), ver, mod
+    out.append(SERIF_600.path('Talk to our agent', 11, M, 38.8, INK))
+    out.append(MONO.path(AGENT, 8, M, 43.8, INK))
+    url, uw = coloured(MONO, [('https://Promp', INK), ('T', RED), ('ugal', GREEN), ('.news', INK)], 8, M, 48.4)
+    out.append(url)  # the address in the front's colours (the wordmark's), the same size as the agent's
+    return svg(''.join(out), 'PrompTugal.news card: back', WHITE), ver, mod, uw
 
 
 def main():
-    b, ver, mod = back()
-    for f in FRONTS:
-        d = os.path.join(OUT, f['id']); os.makedirs(d, exist_ok=True)
-        open(os.path.join(d, 'card-front.svg'), 'w').write(front(f))
-        open(os.path.join(d, 'card-back.svg'), 'w').write(b)
+    os.makedirs(OUT, exist_ok=True)
+    open(os.path.join(OUT, 'card-front.svg'), 'w').write(front())
+    b, ver, mod, uw = back()
+    open(os.path.join(OUT, 'card-back.svg'), 'w').write(b)
     print(f"QR version {ver}, module {mod:.2f} mm")
-    print('fronts: ' + ', '.join(f"{SERIF_ITALIC.width(f['line'], 11):.1f}" for f in FRONTS) + f' mm of {W - 2 * M:.0f}')
     print('claims: ' + ', '.join(f"{SANS.width(c, 8):.1f}" for c in CLAIMS) + f' mm of {W - 2 * M - 3:.0f}')
-    print(f"bottom-left widest: {MONO.width('Powered by RiskMandate', 7):.1f} mm (QR starts at {W - M - 19.5 + 1.6 + 19.5/37*4:.1f})")
+    print(f"url {uw:.1f} mm, agent {MONO.width(AGENT, 8):.1f} mm; QR modules start at {W - M - 19.5 + 1.6 + 19.5 / 37 * 4:.1f} mm")
 
 
 if __name__ == '__main__':
