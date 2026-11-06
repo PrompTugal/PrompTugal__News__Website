@@ -1,0 +1,22 @@
+---
+pass: 2026-11-06-the-big-graphs
+goal: "The big graphs (section 2): the security industry as a graph, industry maps with centres of gravity, a world map with every company connected, where the risk and agentic companies are and which could be customers; JS-based dynamic infographics and animations in the style of ruv.sgit (ruv.sgit.ai, The Ultimate Insider's presentation and book) at the scale of the whole graph; several rounds."
+owner: conductor@PrompTugal.dinis
+agents: [ontologist, dev, designer, sherpa]
+budget: "3 rounds (until accountant@ sets runs and tokens)"
+state: open
+opened: 2026-11-06T05:15Z
+---
+# Pass: the-big-graphs
+
+The shape: board/the-passes.md.
+
+| Time (UTC) | Agent | Step | Verdict | Commit | Spend |
+|---|---|---|---|---|---|
+| 05:15 | conductor@ | opened | go | (this file) | |
+| | security@ | pre-review | | | |
+
+## Findings and decisions
+
+| Finding | From | Owner | Decision |
+|---|---|---|---|
