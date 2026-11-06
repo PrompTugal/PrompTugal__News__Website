@@ -23,6 +23,14 @@ def main():
         'vault_name':os.path.basename(VD),'append_token':secrets.token_hex(32),'enum_key':secrets.token_hex(32),'recipient':mine['fingerprint'],'lanes':{}}
     pair=PKI__Key_Store(keys_dir=os.path.expanduser('~/.sg-send/keys'),crypto=crypto).load_key_pair(c['recipient'],os.environ.get('SG_SEND_PASSPHRASE',''))
     live=[k for k in keys if k['id']!=ME and k.get('status') in (None,'','active') and (k.get('bundle') or {}).get('encrypt')]
+    # peers outside this repository (board/inbox-peers.json): another team's agent, its key read from its own register
+    pf=os.path.join(repo,'board','inbox-peers.json')
+    if os.path.exists(pf):
+        for pr in json.load(open(pf))['peers']:
+            src=json.load(open(os.path.expanduser(pr['register'])))['keys']
+            k=next(k for k in src if k['id']==pr['id'])
+            if k['bundle']['fingerprint']!=pr['fingerprint']: sys.exit(f"inbox: {pr['id']}'s fingerprint is not {pr['fingerprint']} in its register")
+            live.append({'id':'peer:'+pr['id'],'agent':pr['agent'],'bundle':k['bundle'],'peer_register':pr['register_url']})
     lanes=c.setdefault('lanes',{})
     for k in live: lanes.setdefault(k['id'],secrets.token_hex(32))
     for gone in [i for i in lanes if i not in {k['id'] for k in live}]: lanes.pop(gone)
@@ -43,7 +51,7 @@ def main():
     for k in live:
         b=k['bundle']
         env=crypto.hybrid_encrypt(crypto.import_public_key_pem(b['encrypt']),lanes[k['id']],signing_private_key=pair['signing_private'],signing_fingerprint=mine['signing_fingerprint'])
-        out['lanes'].append({'id':k['id'],'agent':k.get('agent') or b.get('label'),'to':b['fingerprint'],'sealed_token':env})
+        out['lanes'].append({'id':k['id'],'agent':k.get('agent') or b.get('label'),'to':b['fingerprint'],'sealed_token':env,**({'key_register':k['peer_register']} if k.get('peer_register') else {})})
     open(os.path.join(repo,'board','inbox.json'),'w').write(json.dumps(out,indent=1)+'\n')
     print(f"inbox: vault {c['vault_id']}, {len(lanes)} agent lanes + 1 public, configured")
 if __name__=='__main__': main()
