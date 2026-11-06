@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T13:10Z",
+ "updated": "2026-11-06T14:40Z",
  "items": [
   {
    "id": "F01",
@@ -19,7 +19,7 @@
    "finding": "The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured.",
    "status": "open",
    "decision": null,
-   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read"
+   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read; run 9: the Algarve page, a Portuguese reader reads the £ pills as a charge in pounds"
   },
   {
    "id": "F02",
@@ -479,6 +479,46 @@
    "owner": "designer@",
    "severity": "minor",
    "finding": "'Every fact sourced and dated' (the tagline and the masthead line) reads to a reporter as 'every fact checked', while articles say some figures were not checked (Tom on the lead story, run 8). Sourced is not verified: say which, or link the verified block when dev.verify@'s lands.",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F46",
+   "run": 9,
+   "owner": "dev.portugal@",
+   "severity": "blocking",
+   "finding": "The Algarve Evolution page's 'Correct us, add to us' says 'Tell Dinis Cruz' with no link, form or route; the regional reader wanted to send corrections and could not (run 9, checked in the page text).",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F47",
+   "run": 9,
+   "owner": "dev.portugal@",
+   "severity": "minor",
+   "finding": "The Algarve page's partners list includes Informa D&B, which the page cites only for a study (run 9, checked).",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F48",
+   "run": 9,
+   "owner": "researcher@",
+   "severity": "costly",
+   "finding": "For a regional reader the Algarve page lacks who funds the programmes (CCDR, Algarve 2030, PRR), the 16 municipalities and peer organisations in the region (run 9).",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F49",
+   "run": 9,
+   "owner": "dev.graphs@",
+   "severity": "minor",
+   "finding": "The Algarve hub graph's labels cannot be read on a 390 px phone, and it shows 16 of the 18 items the text lists (run 9).",
    "status": "open",
    "decision": null,
    "evidence": null

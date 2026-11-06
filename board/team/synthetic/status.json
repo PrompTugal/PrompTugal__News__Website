@@ -1,8 +1,8 @@
 {
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
- "state": "waiting: the top of the page C to ship (designer@ recorded it; dev@ builds); not blocked by the environment (sgit 0.27.0, inbox draining)",
- "updated": "2026-11-06T14:15Z",
+ "state": "waiting: the top of the page C to ship; the Algarve page read for the sprint",
+ "updated": "2026-11-06T14:42Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -20,7 +20,8 @@
   "decisions collected: 7 (outreach@ F08, F18 done, F25 later; conductor@ F06, F21 accepted, F07, F19 later); designer@ round 2 checked on its mock-ups: F35 to F38 answered",
   "decision pages drafted for Dinis (spec board/spec-decisions-pages.md, relayed by the conductor): desks/synthetic/decisions/the-commercial-relation.md (F19, F25: four exact wordings) and riskmandate-what-we-say.md (F07, F26: four options), each with the readers' evidence and a recommendation; dev@ asked to place them in content/newsroom/decisions/",
   "run 8: Ana (PT, phone) and Tom (EN, desktop) on the front page (9 new articles) and one new story each; the same five rows lose them (F01, F28, F14/F43, F30, F10: 10 of 20 articles overflow); F40 worse (6 registration entries); F45 new; owners nudged",
-  "the two decision pages live under /newsroom/decisions/ (my grant now covers it): \"For Dinis: how we say our commercial relation\" (F19, F25) and \"For Dinis: what PrompTugal.news says about RiskMandate\" (F07, F26)"
+  "the two decision pages live under /newsroom/decisions/ (my grant now covers it): \"For Dinis: how we say our commercial relation\" (F19, F25) and \"For Dinis: what PrompTugal.news says about RiskMandate\" (F07, F26)",
+  "run 9 (sprint, at the conductor's relay of Dinis 14:10): one invented regional reader on /portugal/algarve-evolution/ at 14:34; F46 to F49 sent to dev.portugal@, designer@, dev.graphs@ at 14:36"
  ],
  "next": [
   "the readers on the top of the page C once dev@ ships it (Dinis 13:20), against A if a switch keeps it",
@@ -93,6 +94,12 @@
    "outcome": "ok",
    "release": "",
    "line": "decision pages placed under /newsroom/decisions/; no reader run (nothing new; C not live yet)"
+  },
+  {
+   "started": "2026-11-06T14:15Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 9: the Algarve page for Dinis's 15:00 meeting, one reader, findings delivered by 14:36"
   }
  ]
 }
