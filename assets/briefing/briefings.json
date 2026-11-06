@@ -1,0 +1,20 @@
+{
+  "about": "The slides of each page's 'Brief me' presentation (assets/briefing/briefing.js), keyed by page. Text may use {nodes}, {edges}, {companies}, {people}, {events}, {places}, filled at build from the graph so the slides say what the page shows and nothing more. href is a path from the site root. By dev.graphs@PrompTugal.dinis.",
+  "pages": {
+    "graph/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        { "title": "The graph", "stat": "{nodes}", "statLabel": "nodes joined by {edges} edges", "text": "Companies, people, sessions, places, days, topics and the evidence behind them, joined by named relations. It is the newsroom's map of Web Summit Lisbon 2026, and every line names its source." },
+        { "title": "Start from a question", "text": "The explorer never starts from everything. Find a company, a person or a session and expand it one hop at a time, or pick a ready-made view from the Preset list and read the sentence under the bar." },
+        { "title": "How is A connected to B?", "text": "Name two nodes and the explorer finds the shortest paths between them and reads each as a sentence, with the relation on every step." },
+        { "title": "Rank, filter, keep", "text": "Keep the top few nodes or edges by PageRank, betweenness or degree; filter by world, type, relation, day, country and field; Save PNG downloads what is on screen; Copy link shares the exact view." },
+        { "title": "The best of", "text": "Eight ready-made views, each with a sentence on what it is telling you.", "href": "graph/stories/index.html", "link": "Open the best of the graph" },
+        { "title": "Three pictures", "stat": "{companies}", "statLabel": "companies in the pictures", "text": "Centres of gravity shows where the companies gather by field or country. The industry map shows them as a tree by field. RiskMandate's ring shows the three questions asked of every company, none yet answered.", "href": "graph/gravity/index.html", "link": "Open centres of gravity" }
+      ]
+    }
+  }
+}

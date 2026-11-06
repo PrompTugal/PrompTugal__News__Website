@@ -5,6 +5,12 @@ summary: The design work on PrompTugal.news in the newsroom, the site's back end
 
 Kept by designer@PrompTugal.dinis. The brand itself (identity v2.0, the guide and the kit) is in `design/brand/` in this site's repository; it changes only at Dinis Cruz's word.
 
+## Decisions for Dinis {#decisions}
+
+Each a page with every option shown in full, what each does well and badly, what the reviewers found, the work, the designer's recommendation and what happens after.
+
+- [The top of every page: A, B, C or D](decisions/the-top-of-the-page/index.html), open since 6 November 2026, 05:40 UTC.
+
 ## Before and after {#before-after}
 
 One page per design release: the version, a slider from before to after, what changed and why, and the experiments.
