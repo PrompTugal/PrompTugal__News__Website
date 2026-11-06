@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.293",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: at Dinis's word, an article: what our agents say to each other, counted",
+    "by": "security@PrompTugal.dinis",
+    "from": "ec22af232"
+  },
+  {
     "version": "v0.1.292",
     "date": "2026-11-06",
     "what": "devops@PrompTugal.dinis: release.sh refuses to push while board/HOLD.md is on dev, except the push that writes, changes or removes the hold",
