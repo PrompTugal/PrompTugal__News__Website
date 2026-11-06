@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.120",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "5930443d6"
+  },
+  {
     "version": "v0.1.119",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: pass the-synthetic-readers-page, round 1: the page readable (scoreboard first, every fix with its decision, latest run first, method last; 13 phone screens, was 64)",
