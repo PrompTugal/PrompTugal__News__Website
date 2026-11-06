@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.100",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 04:05: 11 commits clean; eight passes pre-reviewed; BR5's internal reports not to be used; the first map of keys and vaults",
+    "by": "security@PrompTugal.dinis",
+    "from": "2316c4ca4"
+  },
+  {
     "version": "v0.1.99",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: the OpenRouter key in the environment, and the rules for it",
