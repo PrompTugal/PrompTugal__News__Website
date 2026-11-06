@@ -25,7 +25,12 @@
       "name": "Reading credit top-up",
       "status": "live",
       "buyer": "any reader",
-      "price": { "amount": 5, "currency": "GBP", "unit": "one payment", "basis": "as newsroom.sgit.ai's meter: data/billing/topup.json" },
+      "price": {
+        "amount": 5,
+        "currency": "GBP",
+        "unit": "one payment",
+        "basis": "as newsroom.sgit.ai's meter: data/billing/topup.json"
+      },
       "what": "5 pounds of credit for the reading meter, which prices each page by kind and freshness and never blocks a page.",
       "not_included": "Nothing is blocked without it; credit is kept in the reader's own browser.",
       "delivered_by": "the site (newsroom/build/features/billing.mjs); no human step",
@@ -35,7 +40,11 @@
         "The link's after-payment redirect still returns to newsroom.sgit.ai, not here (REALITY.md, 'Not yet done'): a link of our own in Stripe fixes it.",
         "A static page cannot verify a payment (data/billing/topup.json, verified: false): credit is on the reader's own screen only. Fine for 5 pounds; not for anything bigger."
       ],
-      "stripe": { "kind": "payment_link", "link": "https://buy.stripe.com/6oUfZ9ez65vVgU2fY15os04", "note": "the existing public link in data/billing/topup.json" }
+      "stripe": {
+        "kind": "payment_link",
+        "link": "https://buy.stripe.com/6oUfZ9ez65vVgU2fY15os04",
+        "note": "the existing public link in data/billing/topup.json"
+      }
     },
     {
       "id": "A2-vault-month",
@@ -43,7 +52,12 @@
       "name": "Vault month: as many vaults as you want for a month",
       "status": "designed",
       "buyer": "a reader who wants to keep their schedule, notes, saved pages and personal views in an encrypted vault of their own; the people who build their own view from our data",
-      "price": { "amount": 5, "currency": "GBP", "unit": "per 30 days", "basis": "PROPOSAL: start small and raise it as the market shows (Dinis, 6 November 2026). The price is a Stripe setting, so raising it costs no release." },
+      "price": {
+        "amount": 5,
+        "currency": "GBP",
+        "unit": "per 30 days",
+        "basis": "PROPOSAL: start small and raise it as the market shows (Dinis, 6 November 2026). The price is a Stripe setting, so raising it costs no release."
+      },
       "what": "A vault access key that works for 30 days: create and update as many vaults as you like (the pane at /account/vault.html), open on any device with a passkey.",
       "not_included": "Vaults made earlier keep opening and reading after the month ends (opening needs no key); only creating and updating stops.",
       "delivered_by": "the vault server's token (SG/Send, dev.send.sgraph.ai) plus a person or a small service to issue it",
@@ -53,7 +67,11 @@
         "Whether the vault server's tokens can carry an expiry or a quota. Not known to this role; Dinis or the SG/Send team to say.",
         "data/billing/vault.json access_key.status is 'not-issued': the pane already says so; it changes when a key can be had."
       ],
-      "stripe": { "kind": "subscription_payment_link", "link": null, "note": "a recurring price with the Stripe customer portal switched on so buyers can cancel without writing to us" }
+      "stripe": {
+        "kind": "subscription_payment_link",
+        "link": null,
+        "note": "a recurring price with the Stripe customer portal switched on so buyers can cancel without writing to us"
+      }
     },
     {
       "id": "A3-top-up-sizes",
@@ -61,12 +79,22 @@
       "name": "Bigger top-ups and gifts",
       "status": "parked",
       "buyer": "a reader or a team that reads a lot; a company that wants to give its people credit",
-      "price": { "amount": 20, "currency": "GBP", "unit": "one payment", "basis": "PROPOSAL: a 20 pound and a 50 pound link beside the 5 pound one" },
+      "price": {
+        "amount": 20,
+        "currency": "GBP",
+        "unit": "one payment",
+        "basis": "PROPOSAL: a 20 pound and a 50 pound link beside the 5 pound one"
+      },
       "what": "The same credit in bigger steps, with a reference for the buyer's own books.",
       "delivered_by": "the site; no human step",
       "hours_to_deliver": 0,
-      "needs_before_live": [ "A payment check that is not the reader's own screen (see A1 open), or a limit small enough not to matter." ],
-      "stripe": { "kind": "payment_link", "link": null }
+      "needs_before_live": [
+        "A payment check that is not the reader's own screen (see A1 open), or a limit small enough not to matter."
+      ],
+      "stripe": {
+        "kind": "payment_link",
+        "link": null
+      }
     },
     {
       "id": "B1-your-schedule",
@@ -74,7 +102,12 @@
       "name": "Your schedule: a personal summit plan",
       "status": "designed",
       "buyer": "one attendee: a founder, a CISO, an investor, a journalist",
-      "price": { "amount": 50, "currency": "GBP", "unit": "per schedule", "basis": "Dinis, 6 November 2026: 'for 50 quid or 500 quid ... we'll create a customized schedule for somebody'" },
+      "price": {
+        "amount": 50,
+        "currency": "GBP",
+        "unit": "per schedule",
+        "basis": "Dinis, 6 November 2026: 'for 50 quid or 500 quid ... we'll create a customized schedule for somebody'"
+      },
       "what": "A schedule for the days they are at the summit (9 to 12 November), built from the programme and the graph for the person they say they are: which sessions, which stages, which companies to find, in order, with the reasons and the sources. Delivered as a page in their own vault and a calendar file. Up to three changes included.",
       "not_included": "Meetings arranged for them; any contact detail; coverage of their company.",
       "delivered_by": "dev.pages@ and ontologist@ (the personal-schedule pass), an agent run, a person checks and sends",
@@ -83,7 +116,11 @@
         "The personal-schedule pass (board/guidance/2026-11-06-events-variations-and-the-personal-schedule.md, section 4): personas to graph to schedule. Until it exists a schedule is made by hand from the agenda.",
         "A vault to deliver into (A2) or a plain page."
       ],
-      "stripe": { "kind": "payment_link", "link": null, "note": "quantity adjustable, so a buyer can order for a colleague" }
+      "stripe": {
+        "kind": "payment_link",
+        "link": null,
+        "note": "quantity adjustable, so a buyer can order for a colleague"
+      }
     },
     {
       "id": "B2-team-schedule",
@@ -91,13 +128,24 @@
       "name": "Your delegation's schedule (the Brazil formula, for your group)",
       "status": "designed",
       "buyer": "a delegation, a country team, a company sending several people, an agency",
-      "price": { "amount": 500, "currency": "GBP", "unit": "per delegation, up to 10 people", "basis": "Dinis, 6 November 2026; the Brazil story is the formula (board/guidance/2026-11-06-the-brazil-story-and-story-projects.md)" },
+      "price": {
+        "amount": 500,
+        "currency": "GBP",
+        "unit": "per delegation, up to 10 people",
+        "basis": "Dinis, 6 November 2026; the Brazil story is the formula (board/guidance/2026-11-06-the-brazil-story-and-story-projects.md)"
+      },
       "what": "Everything that matters to that group across the days: who from the group is where, the companies and sessions that touch them, a schedule per person and one for the group, a graph of how it connects, and the data as JSON. Up to ten changes included; more at the change rates.",
       "not_included": "Anything about a named person that is not already public and professional.",
       "delivered_by": "the story-project team (researcher@, ontologist@, dev.pages@, dev.graphs@, journalist@ for the words) with a person's check",
       "hours_to_deliver": 6,
-      "needs_before_live": [ "The first delegation done for real (Brazil), so the formula is proven and the price is a fact." ],
-      "stripe": { "kind": "invoice", "link": null, "note": "an invoice from the Stripe dashboard to the named buyer; scope sheet attached" }
+      "needs_before_live": [
+        "The first delegation done for real (Brazil), so the formula is proven and the price is a fact."
+      ],
+      "stripe": {
+        "kind": "invoice",
+        "link": null,
+        "note": "an invoice from the Stripe dashboard to the named buyer; scope sheet attached"
+      }
     },
     {
       "id": "B3-change-small",
@@ -105,12 +153,23 @@
       "name": "A change: small",
       "status": "designed",
       "buyer": "anyone who bought a B package, or asks for a tweak to something we made for them",
-      "price": { "amount": 25, "currency": "GBP", "unit": "per change", "basis": "PROPOSAL: the 'charge per change' option in Dinis's brief" },
+      "price": {
+        "amount": 25,
+        "currency": "GBP",
+        "unit": "per change",
+        "basis": "PROPOSAL: the 'charge per change' option in Dinis's brief"
+      },
       "what": "A change to words, data, order or one view of something we made for the buyer, delivered within a day.",
       "delivered_by": "an agent, checked by a person",
       "hours_to_deliver": 0.25,
-      "needs_before_live": [ "The change policy in operations.md, agreed (what counts as small)." ],
-      "stripe": { "kind": "payment_link", "link": null, "note": "quantity adjustable" }
+      "needs_before_live": [
+        "The change policy in operations.md, agreed (what counts as small)."
+      ],
+      "stripe": {
+        "kind": "payment_link",
+        "link": null,
+        "note": "quantity adjustable"
+      }
     },
     {
       "id": "B4-change-medium",
@@ -118,12 +177,23 @@
       "name": "A change: medium",
       "status": "designed",
       "buyer": "as B3",
-      "price": { "amount": 100, "currency": "GBP", "unit": "per change", "basis": "PROPOSAL" },
+      "price": {
+        "amount": 100,
+        "currency": "GBP",
+        "unit": "per change",
+        "basis": "PROPOSAL"
+      },
       "what": "A new view, section, graph or feed on something we made for the buyer, delivered within two days.",
       "delivered_by": "an agent run with a designer and dev check, then a person",
       "hours_to_deliver": 1.5,
-      "needs_before_live": [ "As B3." ],
-      "stripe": { "kind": "payment_link", "link": null, "note": "quantity adjustable" }
+      "needs_before_live": [
+        "As B3."
+      ],
+      "stripe": {
+        "kind": "payment_link",
+        "link": null,
+        "note": "quantity adjustable"
+      }
     },
     {
       "id": "B5-graph-infographic",
@@ -131,12 +201,22 @@
       "name": "A graph or animated infographic from your data",
       "status": "designed",
       "buyer": "a company, an agency, a researcher, a journalist with a story of their own",
-      "price": { "amount": 250, "currency": "GBP", "unit": "one graph; 1,000 for a set of five with animation", "basis": "PROPOSAL; the cost to us is small (designer@ logged 0.07 to 0.16 US dollars per AI image on 6 November, board/team/designer/status.json), so the price is for the judgement and the check, not the compute" },
+      "price": {
+        "amount": 250,
+        "currency": "GBP",
+        "unit": "one graph; 1,000 for a set of five with animation",
+        "basis": "PROPOSAL; the cost to us is small (designer@ logged 0.07 to 0.16 US dollars per AI image on 6 November, board/team/designer/status.json), so the price is for the judgement and the check, not the compute"
+      },
       "what": "One graph or infographic made from data the buyer supplies or that is public, every word checked, delivered as an image, an SVG and the data behind it.",
       "delivered_by": "dev.graphs@ and designer@, with the OpenRouter budget accountant@ sets",
       "hours_to_deliver": 2,
-      "needs_before_live": [ "dev.graphs@ has to exist and have shipped one (it is listed 'once started' in CLAUDE.md)." ],
-      "stripe": { "kind": "invoice", "link": null }
+      "needs_before_live": [
+        "dev.graphs@ has to exist and have shipped one (it is listed 'once started' in CLAUDE.md)."
+      ],
+      "stripe": {
+        "kind": "invoice",
+        "link": null
+      }
     },
     {
       "id": "C1-pro-starter",
@@ -144,13 +224,24 @@
       "name": "Professional services: Starter",
       "status": "designed",
       "buyer": "a company that saw our work and asks 'can you do this for us?'",
-      "price": { "amount": 500, "currency": "GBP", "unit": "fixed price", "basis": "Dinis, 6 November 2026: packs of 500, 1,500 or 5,000 pounds of professional services" },
+      "price": {
+        "amount": 500,
+        "currency": "GBP",
+        "unit": "fixed price",
+        "basis": "Dinis, 6 November 2026: packs of 500, 1,500 or 5,000 pounds of professional services"
+      },
       "what": "One agentic workflow looked at, written down and shown working once: what it does, what it may do, what stands in the way, and a first running version, in a week.",
       "not_included": "Running it for them afterwards; work on their private systems without their written grant.",
       "delivered_by": "the partner named on the pack, with this team's agents; a person signs it off",
       "hours_to_deliver": 8,
-      "needs_before_live": [ "The partners' own offers written down by them (Dinis named three people who want to sell professional services); this role will not invent their scope.", "Who contracts: which legal entity invoices (open question for Dinis)." ],
-      "stripe": { "kind": "invoice", "link": null }
+      "needs_before_live": [
+        "The partners' own offers written down by them (Dinis named three people who want to sell professional services); this role will not invent their scope.",
+        "Who contracts: which legal entity invoices (open question for Dinis)."
+      ],
+      "stripe": {
+        "kind": "invoice",
+        "link": null
+      }
     },
     {
       "id": "C2-pro-team",
@@ -158,12 +249,23 @@
       "name": "Professional services: Team",
       "status": "designed",
       "buyer": "as C1, for a team",
-      "price": { "amount": 1500, "currency": "GBP", "unit": "fixed price", "basis": "Dinis, 6 November 2026" },
+      "price": {
+        "amount": 1500,
+        "currency": "GBP",
+        "unit": "fixed price",
+        "basis": "Dinis, 6 November 2026"
+      },
       "what": "Three workflows or one workflow built to a team's standard: the agents, their written policies, the review steps and a hand-over so the team can run it, in two weeks.",
       "delivered_by": "as C1",
       "hours_to_deliver": 30,
-      "needs_before_live": [ "As C1." ],
-      "stripe": { "kind": "invoice", "link": null, "note": "half on acceptance of the scope, half on delivery" }
+      "needs_before_live": [
+        "As C1."
+      ],
+      "stripe": {
+        "kind": "invoice",
+        "link": null,
+        "note": "half on acceptance of the scope, half on delivery"
+      }
     },
     {
       "id": "C3-pro-build",
@@ -171,12 +273,23 @@
       "name": "Professional services: Build (a book, a deck or a newsroom the way it was done here)",
       "status": "designed",
       "buyer": "a company or person who wants what Dinis did with the book and presentation: agents that map, find evidence, visualise and review across hours, with every claim sourced",
-      "price": { "amount": 5000, "currency": "GBP", "unit": "fixed price", "basis": "Dinis, 6 November 2026" },
+      "price": {
+        "amount": 5000,
+        "currency": "GBP",
+        "unit": "fixed price",
+        "basis": "Dinis, 6 November 2026"
+      },
       "what": "A finished product built by the multi-pass method (map, evidence, visualise, review): a book, a deck or a small newsroom, with a hand-over of how it was made so the buyer can do the next one.",
       "delivered_by": "as C1, with the pass machinery (board/the-passes.md)",
       "hours_to_deliver": 80,
-      "needs_before_live": [ "As C1. A showable case: the Brazil story, finished, is the proof." ],
-      "stripe": { "kind": "invoice", "link": null, "note": "stage payments" }
+      "needs_before_live": [
+        "As C1. A showable case: the Brazil story, finished, is the proof."
+      ],
+      "stripe": {
+        "kind": "invoice",
+        "link": null,
+        "note": "stage payments"
+      }
     },
     {
       "id": "C4-workshop",
@@ -184,12 +297,22 @@
       "name": "Workshop or talk: how an agent newsroom is run",
       "status": "parked",
       "buyer": "a company, a conference, a school of journalism",
-      "price": { "amount": 1500, "currency": "GBP", "unit": "half day", "basis": "PROPOSAL, inside the 1,500 to 4,000 pound range one consultancy site gives for executive workshops (see benchmarks); indicative only" },
+      "price": {
+        "amount": 1500,
+        "currency": "GBP",
+        "unit": "half day",
+        "basis": "PROPOSAL, inside the 1,500 to 4,000 pound range one consultancy site gives for executive workshops (see benchmarks); indicative only"
+      },
       "what": "The method in a room: roles, policies that survive compaction, passes, budgets, hold.",
       "delivered_by": "a person (Dinis or a partner)",
       "hours_to_deliver": 8,
-      "needs_before_live": [ "A person's diary. Not an agent job." ],
-      "stripe": { "kind": "invoice", "link": null }
+      "needs_before_live": [
+        "A person's diary. Not an agent job."
+      ],
+      "stripe": {
+        "kind": "invoice",
+        "link": null
+      }
     },
     {
       "id": "D1-match-your-list",
@@ -197,13 +320,24 @@
       "name": "Match your list to the graph",
       "status": "parked",
       "buyer": "a sales or events team with its own list of companies or attendees",
-      "price": { "amount": 250, "currency": "GBP", "unit": "per run", "basis": "PROPOSAL" },
+      "price": {
+        "amount": 250,
+        "currency": "GBP",
+        "unit": "per run",
+        "basis": "PROPOSAL"
+      },
       "what": "The buyer's company list matched to our companies, sessions, people-as-listed and topics, returned as a sheet and a graph. Done in their own browser or vault so we never hold their list.",
       "not_included": "Contact details of anyone, ever.",
       "delivered_by": "dev@ (a matching tool), ontologist@ (the matching rules in data/matching.json)",
       "hours_to_deliver": 1,
-      "needs_before_live": [ "A browser-side tool that keeps the list on the buyer's machine (privacy first, Dinis, 6 November 2026).", "The public data's licence: what we publish is public, so the paid part is the match and the hand-holding, never the data." ],
-      "stripe": { "kind": "payment_link", "link": null }
+      "needs_before_live": [
+        "A browser-side tool that keeps the list on the buyer's machine (privacy first, Dinis, 6 November 2026).",
+        "The public data's licence: what we publish is public, so the paid part is the match and the hand-holding, never the data."
+      ],
+      "stripe": {
+        "kind": "payment_link",
+        "link": null
+      }
     },
     {
       "id": "E1-summit-brief",
@@ -211,13 +345,23 @@
       "name": "Summit brief for a company or an investor",
       "status": "designed",
       "buyer": "a company that wants to know who and what to see; an investor who wants the field mapped ('I got a service for you', Dinis, 5 November)",
-      "price": { "amount": 500, "currency": "GBP", "unit": "per brief", "basis": "PROPOSAL; briefing is the most compressed form of the work (data/billing/prices.json prices a briefing at 5 against an article's 6, per page)" },
+      "price": {
+        "amount": 500,
+        "currency": "GBP",
+        "unit": "per brief",
+        "basis": "PROPOSAL; briefing is the most compressed form of the work (data/billing/prices.json prices a briefing at 5 against an article's 6, per page)"
+      },
       "what": "A one-to-three page brief for one reader's decision: the companies in the field going to the summit, the sessions that matter, who is connected to whom, what is not known; every fact with its source and the date read.",
       "not_included": "Anything private; any promise of coverage; any RiskMandate pitch (not before Dinis says).",
       "delivered_by": "journalist@ and researcher@ with ontologist@; a person sends it",
       "hours_to_deliver": 3,
-      "needs_before_live": [ "The briefing page type exists on the meter; the brief itself is a document made to order." ],
-      "stripe": { "kind": "payment_link", "link": null }
+      "needs_before_live": [
+        "The briefing page type exists on the meter; the brief itself is a document made to order."
+      ],
+      "stripe": {
+        "kind": "payment_link",
+        "link": null
+      }
     },
     {
       "id": "E2-on-the-days",
@@ -225,12 +369,22 @@
       "name": "On the days: a schedule at the door",
       "status": "designed",
       "buyer": "someone standing in the queue with a phone",
-      "price": { "amount": 5, "currency": "GBP", "unit": "per scan: the A1 top-up, from a QR", "basis": "PROPOSAL; the business cards already carry a QR code (content/newsroom/orders/business-cards.md)" },
+      "price": {
+        "amount": 5,
+        "currency": "GBP",
+        "unit": "per scan: the A1 top-up, from a QR",
+        "basis": "PROPOSAL; the business cards already carry a QR code (content/newsroom/orders/business-cards.md)"
+      },
       "what": "A QR on the card and on screen leads to the top-up and the schedule builder, so a stranger can pay 5 pounds and have a plan in minutes.",
       "delivered_by": "the site",
       "hours_to_deliver": 0,
-      "needs_before_live": [ "B1 working, and a link that returns here (A1 open)." ],
-      "stripe": { "kind": "payment_link", "link": null }
+      "needs_before_live": [
+        "B1 working, and a link that returns here (A1 open)."
+      ],
+      "stripe": {
+        "kind": "payment_link",
+        "link": null
+      }
     },
     {
       "id": "E3-post-summit",
@@ -238,12 +392,75 @@
       "name": "Post-summit follow-up pack",
       "status": "designed",
       "buyer": "a company or delegation back home, 13 to 30 November",
-      "price": { "amount": 500, "currency": "GBP", "unit": "per pack", "basis": "PROPOSAL" },
+      "price": {
+        "amount": 500,
+        "currency": "GBP",
+        "unit": "per pack",
+        "basis": "PROPOSAL"
+      },
       "what": "What happened for them: the sessions they were part of or missed, who spoke on their field, the announcements about their companies, a follow-up list and the source for each, with the data as JSON and a graph.",
       "delivered_by": "as E1",
       "hours_to_deliver": 4,
-      "needs_before_live": [ "The summit having happened; the 'publish up to the last minute' pipeline keeping the record." ],
-      "stripe": { "kind": "payment_link", "link": null }
+      "needs_before_live": [
+        "The summit having happened; the 'publish up to the last minute' pipeline keeping the record."
+      ],
+      "stripe": {
+        "kind": "payment_link",
+        "link": null
+      }
+    },
+    {
+      "id": "E5-personal-newsreel",
+      "family": "E",
+      "name": "Your newsreel: a personal debrief of what happened",
+      "status": "designed",
+      "buyer": "someone at the summit, or not at the summit, who wants the core ideas and the videos worth watching for their own slice: an investor, a founder, a technologist, a CISO, a company",
+      "price": {
+        "amount": 25,
+        "currency": "GBP",
+        "unit": "per personal newsreel",
+        "basis": "PROPOSAL, a guess with no evidence behind it: Dinis asked 'how much would this be worth?' and the brief (briefs/2026-11-06-the-personal-newsreel.md) sets three tests (the ask, a pay-what-you-want link, a free first day) to find out"
+      },
+      "what": "A calendar for the person's days plus a newsreel of what was published about the summit in their slice: the core ideas, each with its source link, the videos they can watch (linked or click-to-load), what was announced, what could not be found, and a short debrief; the data as JSON; delivered sealed to the buyer's own vault.",
+      "not_included": "Anything not publicly published; any contact detail; any claim without its source; coverage of the buyer.",
+      "delivered_by": "researcher@ and the correspondent (capture), ontologist@ and dev.data@ (the map), dev.verify@ (the check), journalist@ (the debrief), dev@ (sealed delivery); a person sends it",
+      "hours_to_deliver": 0.5,
+      "needs_before_live": [
+        "The coverage map: past editions first, then this year's, from public sources only (briefs/2026-11-06-the-personal-newsreel.md, 'What this asks of the team').",
+        "security@'s ruling on sources and platform terms, and on embeds (click-to-load, not a standard embed).",
+        "A sample, by hand if need be, to test whether anyone asks for it.",
+        "Sealed delivery to a vault (A2's key issuing) or a page and a PDF handed over by a person."
+      ],
+      "stripe": {
+        "kind": "payment_link",
+        "link": null,
+        "note": "first a customer-chooses-price link on the sample, to find the range"
+      }
+    },
+    {
+      "id": "E6-slice",
+      "family": "E",
+      "name": "A slice for an investor, a founder or a company",
+      "status": "designed",
+      "buyer": "an investor (who raised, who announced, what the field said), a founder (peers, competitors), a technologist (one stack or topic), a company (everything said about it and its field)",
+      "price": {
+        "amount": 250,
+        "currency": "GBP",
+        "unit": "per slice (500 for a company's everything-about-us-and-our-field)",
+        "basis": "PROPOSAL, a guess; between E5 and the E1 summit brief"
+      },
+      "what": "E5 cut to one topic, one field or one company, with the cross-source map behind it: every public thing published on it, linked, dated and read, the core ideas and what is missing.",
+      "not_included": "As E5; and never a pitch for RiskMandate before Dinis says.",
+      "delivered_by": "as E5",
+      "hours_to_deliver": 2,
+      "needs_before_live": [
+        "As E5."
+      ],
+      "stripe": {
+        "kind": "payment_link",
+        "link": null,
+        "note": "an invoice for a named company"
+      }
     },
     {
       "id": "E4-standing-brief",
@@ -251,12 +468,22 @@
       "name": "A standing brief (monthly)",
       "status": "parked",
       "buyer": "a company or investor who wants the field watched after the summit",
-      "price": { "amount": 750, "currency": "GBP", "unit": "per month", "basis": "PROPOSAL, the bottom of the 750 to 3,000 pound monthly advisory range one consultancy site gives (see benchmarks); indicative only" },
+      "price": {
+        "amount": 750,
+        "currency": "GBP",
+        "unit": "per month",
+        "basis": "PROPOSAL, the bottom of the 750 to 3,000 pound monthly advisory range one consultancy site gives (see benchmarks); indicative only"
+      },
       "what": "A monthly brief on one field with the changes since last time, sourced.",
       "delivered_by": "journalist@ with a person",
       "hours_to_deliver": 4,
-      "needs_before_live": [ "Demand after the summit; a person who owns the relationship." ],
-      "stripe": { "kind": "subscription_payment_link", "link": null }
+      "needs_before_live": [
+        "Demand after the summit; a person who owns the relationship."
+      ],
+      "stripe": {
+        "kind": "subscription_payment_link",
+        "link": null
+      }
     },
     {
       "id": "X1-ads",
