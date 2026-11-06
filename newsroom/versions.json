@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.116",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the designer handed over: old task disabled, a new designer session on the same schedule",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "877bfe0b2"
+  },
+  {
     "version": "v0.1.115",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: /newsroom/security/: the picture as a link (the content markdown has no images yet)",
