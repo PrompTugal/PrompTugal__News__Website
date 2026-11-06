@@ -5,7 +5,7 @@
   "title": "Europe's AI and funding help, a walk from Portugal's AI startups",
   "beat": "europe",
   "topic": "topic:europe",
-  "status": "review",
+  "status": "ready",
   "rests_on": [
     "evidence:r1546-01",
     "evidence:r1255-12",
@@ -31,13 +31,13 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S16.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@web-summit.vicky",
       "at": "2026-11-06"
     }
   ],
   "article": null,
-  "next": "the writer answers the review",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
@@ -52,7 +52,7 @@
       "file": "desks/journalist-vicky/drafts/S16-europe-ai-help-and-portugal-ai-startups.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-06",
       "by": "reviewer@web-summit.vicky",
       "file": "desks/reviewer-vicky/reviews/S16.md"

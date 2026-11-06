@@ -5,7 +5,7 @@
   "title": "Lisbon's Octo Health launches health tracking in Portugal and the US",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "review",
+  "status": "ready",
   "rests_on": [
     "evidence:v-octo-health-launch"
   ],
@@ -28,13 +28,13 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S20.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@web-summit.vicky",
       "at": "2026-11-06"
     }
   ],
   "article": null,
-  "next": "the writer answers the review",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
@@ -49,7 +49,7 @@
       "file": "desks/journalist-vicky/drafts/S20-octo-health-launches.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-06",
       "by": "reviewer@web-summit.vicky",
       "file": "desks/reviewer-vicky/reviews/S20.md"

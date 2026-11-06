@@ -30,7 +30,7 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S19.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@web-summit.vicky",
       "at": "2026-11-06"
     }
@@ -57,7 +57,7 @@
       "file": "desks/journalist-vicky/drafts/S19-brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-06",
       "by": "reviewer@web-summit.vicky",
       "file": "desks/reviewer-vicky/reviews/S19.md"

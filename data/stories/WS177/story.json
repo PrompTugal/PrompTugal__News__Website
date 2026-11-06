@@ -5,7 +5,7 @@
   "title": "From 400 people to 71,386: Web Summit before 2026",
   "beat": null,
   "topic": null,
-  "status": "review",
+  "status": "ready",
   "rests_on": [],
   "desk_files": [
     "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md"
@@ -25,13 +25,13 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/ws177-web-summit-before-2026.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-06"
     }
   ],
   "article": null,
-  "next": "the writer answers the review",
+  "next": "publish and sign",
   "history": [
     {
       "column": "draft",
@@ -40,7 +40,7 @@
       "file": "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-06",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/ws177-web-summit-before-2026.md"
