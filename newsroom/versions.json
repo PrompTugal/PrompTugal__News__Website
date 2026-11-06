@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.153",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: 06:30 wake: the top re-measured (T5 done, T1 worse), the synthetic page re-read (64 to 18 phone screens), first reviews of the articles and companies pages; blocked on dev@'s quick fixes and Dinis's choice of top",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "6ebaee123"
+  },
+  {
     "version": "v0.1.152",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
