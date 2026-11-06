@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "get-real",
+  "type": "organisation",
+  "name": "Get Real",
+  "names_as_listed": [
+    "Get Real"
+  ],
+  "sources": [
+    {
+      "url": "https://postal.pt/algarve/impact-algarve-juntou-principais-intervenientes-locais-para-debaterem-o-futuro-da-regiao/",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "co-organiser with Algarve Evolution of Impact Algarve (2024)"
+    }
+  ],
+  "note": "Hand-written for the Algarve Evolution sprint (6 November 2026): a partner of Algarve Evolution, from researcher@'s sourced rounds."
+}

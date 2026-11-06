@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "impact-algarve-2024",
+  "type": "event",
+  "title": "Impact Algarve 2024",
+  "kind": "conference",
+  "organiser": "other",
+  "our_pick": false,
+  "date": "2024-06-01",
+  "time": null,
+  "where": "UAlg Tec Campus, University of Algarve",
+  "place": null,
+  "organised_by": "organisation:algarve-evolution",
+  "speakers": [],
+  "source_url": "https://postal.pt/algarve/impact-algarve-juntou-principais-intervenientes-locais-para-debaterem-o-futuro-da-regiao/",
+  "read_at": "2026-11-06T14:20Z",
+  "read_by": "researcher@PrompTugal.dinis",
+  "note": "Hand-written, a past event: organised by the non-profits Get Real and Algarve Evolution (postal.pt, 6 June 2024; the year is inferred from the article's date).",
+  "hosted_by": [
+    {
+      "org": "organisation:get-real",
+      "as_listed": "Get Real",
+      "source": "https://postal.pt/algarve/impact-algarve-juntou-principais-intervenientes-locais-para-debaterem-o-futuro-da-regiao/"
+    }
+  ]
+}

@@ -19,6 +19,9 @@
 #                 own commit) and fails red. A dispatched run never dispatches again. From 04:25 to 06:14 UTC Pages
 #                 stuck five times in 60 runs, the live site never had the release (0 of 5), and each dispatched
 #                 deploy went live in about 80 seconds; so the wait is 2 minutes and the live check 30 seconds.
+#                 From 13:35 UTC, with about one push a minute, Pages also refused deploys "due to in progress
+#                 deployment": so a failed deploy is tried once more after 45 s, and a run whose branch has moved on
+#                 does not dispatch (the newer run deploys).
 #                 devops@PrompTugal.dinis, board/team/devops/health-2026-11-06.md.
 #   work/**:      a dotted worker's branch (CLAUDE.md, "Dotted names and the review workflow") gets the gate on its tip
 #                 and again on a test merge with dev (never pushed), so its reviewer sees at a glance whether it would
@@ -63,8 +66,8 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    # tag and build about 30s, a deploy of at most 2 minutes, then 30 seconds asking the live site (step 3)
-    timeout-minutes: 6
+    # tag and build about 30s, two deploys of at most 2 minutes with a 45 s pause, then 30 s asking the live site (step 3)
+    timeout-minutes: 8
     needs: [validate]
     # Never from a PR or a worker's branch. One release at a time; a pending run may be dropped, which is harmless.
     if: github.event_name != 'pull_request' && !startsWith(github.ref_name, 'work/')
@@ -79,7 +82,7 @@ jobs:
       actions: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment2.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -112,8 +115,20 @@ jobs:
         continue-on-error: true
         with:
           timeout: 120000
-      - name: The deploy failed or stuck; does the live site serve this release? If not, dispatch a fresh deploy
+      # Pages refuses a deployment while the previous one is still finishing ("due to in progress deployment"; 14:09
+      # UTC, 6 November, with about one push a minute). That refusal creates no deployment, so the same commit can be
+      # deployed once more after a pause. After a timeout the retry fails at once ("Deployment cancelled"): harmless.
+      - name: The deploy was refused or stuck; wait 45 seconds before trying once more
         if: steps.deployment.outcome == 'failure'
+        run: sleep 45
+      - id: deployment2
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 120000
+      - name: The deploy failed or stuck; does the live site serve this release? If not, dispatch a fresh deploy
+        if: steps.deployment.outcome == 'failure' && steps.deployment2.outcome == 'failure'
         env:
           GH_TOKEN: ${{ github.token }}
           EVENT: ${{ github.event_name }}
@@ -129,7 +144,11 @@ jobs:
             sleep 10
           done
           echo "::error::$HOST still serves ${LIVE:-nothing readable}, not $WANT, 30 seconds after the deploy gave up"
-          if [ "$EVENT" = push ]; then
+          # a newer push already on the branch deploys in its own run: dispatching then only adds to the queue
+          REMOTE=$(git ls-remote origin "refs/heads/$BRANCH" | cut -f1)
+          if [ -n "$REMOTE" ] && [ "$REMOTE" != "$(git rev-parse HEAD)" ]; then
+            echo "::error::$BRANCH has moved on (${REMOTE:0:9}); its own run deploys it, so no dispatch; this run stays red so the lost deploy is seen"
+          elif [ "$EVENT" = push ]; then
             gh workflow run deploy-pages.yml --repo "$GITHUB_REPOSITORY" --ref "$BRANCH" \
               && echo "::error::dispatched a fresh deploy of $BRANCH's head; this run stays red so the lost deploy is seen"
           else
