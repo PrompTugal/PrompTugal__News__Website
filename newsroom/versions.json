@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.136",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: the run report for the 05:26 wake (ABP R10): 19 tool calls, all in mandate, no breach",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "3d36d321f"
+  },
+  {
     "version": "v0.1.135",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: hourly run 05:26: reference notes on S9's four key sources; the rules' formalisation date is the day the results page froze; next S7",
