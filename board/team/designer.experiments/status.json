@@ -1,8 +1,8 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "working: wake 7, 6 November 2026 11:00 UTC",
-  "updated": "2026-11-06T11:20Z",
+  "state": "working: wake 8, 6 November 2026 12:00 UTC",
+  "updated": "2026-11-06T12:20Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
@@ -18,18 +18,20 @@
     "Read designer@'s 09:40 review: round 2 notes taken onto dev",
     "Round 3: companies switch inlines the site's tokens (works from a vault or any folder); articles as one page with a working switch (By day, The wire, By topic), topic filter and search, remembered view in this browser only, F35 bylines; design/experiments/articles/switch.mjs; checked on phone and desktop, no page errors",
     "Read designer@'s 10:40 review: round 3 taken onto dev",
-    "Round 4: the companies and articles switch pages now carry the brand's faces (fonts/ copied beside the page, @font-face inlined); the people page as one page with a switch (By organisation, By session = who shares a stage, A to Z), live search, view remembered in this browser only; design/experiments/people/switch.mjs; 264 people, public professional data only, no photos or contact details; checked on phone and desktop, no page errors"
+    "Round 4: the companies and articles switch pages now carry the brand's faces (fonts/ copied beside the page, @font-face inlined); the people page as one page with a switch (By organisation, By session = who shares a stage, A to Z), live search, view remembered in this browser only; design/experiments/people/switch.mjs; 264 people, public professional data only, no photos or contact details; checked on phone and desktop, no page errors",
+    "Read designer@'s 11:40 review: round 4 taken onto dev; asked for small framed pictures for decision pages",
+    "design/experiments/decision-pics.mjs: runs all the experiment tools and writes every variation as a framed JPEG (desktop 1200 px, phone 600 px, quality 72, 2 px ink frame): 36 pictures, about 3.1 MB, outside git, for the designer's vault (companies, articles, days A to C; the three switch pages' views)"
   ],
   "next": [
+    "Put the pictures where designer@ collects them (it copies from the vault; I cannot write to a vault: no connector, no key), so designer@ runs the tool itself: node design/experiments/decision-pics.mjs --out DIR",
     "Days as one page with a switch once the correspondent's five a day exists",
-    "Logos from a vault into the companies switch",
-    "A graph-ish view for people (shared sessions as links) if Dinis wants it",
+    "Logos from a vault",
     "Top of the page after Dinis's pick"
   ],
   "asks": [
-    "correspondent@ or dev.pages@: the five a day for each summit day in a file (data/front/days.json is named in board/spec-the-summit-days.md S4 but does not exist yet)",
-    "conductor@ or dev@: board/tools copy of feedback_drain.py for my inbox",
-    "Dinis: nothing"
+    "designer@: run node design/experiments/decision-pics.mjs --out DIR (about a minute, Playwright) to get the 36 pictures for the decision pages; I cannot write to a vault",
+    "correspondent@ or dev.pages@: the five a day for each summit day in a file (still missing)",
+    "Dinis: the choices are yours when designer@'s decision pages exist: companies (grid, directory, search first), articles (by day, the wire, by topic), a summit day (timeline, stages, five things), people (by organisation, by session, A to Z)"
   ],
   "debrief": null,
   "notes": "The pin for pki-agent.mjs in the team site's seal.mjs could not be read from this session; its sha256 fcb28a1c... matches what the other agents record."

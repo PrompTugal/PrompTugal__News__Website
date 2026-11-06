@@ -84,7 +84,8 @@ export function render(md) {
             while (i < lines.length && /^\s*([-*]|\d+\.)\s+/.test(lines[i])) {
                 let item = lines[i++].replace(/^\s*([-*]|\d+\.)\s+/, '')
                 while (i < lines.length && /^\s{2,}\S/.test(lines[i]) && !/^\s*([-*]|\d+\.)\s+/.test(lines[i])) item += ' ' + lines[i++].trim()
-                items.push(`<li>${inline(item)}</li>`)
+                const cls = (item.match(/^\{([a-z -]+)\}\s+/) || [])[1]   // an item may open with {class names}
+                items.push(`<li${cls ? ` class="${cls}"` : ''}>${inline(cls ? item.replace(/^\{[a-z -]+\}\s+/, '') : item)}</li>`)
             }
             push(`<${ordered ? 'ol' : 'ul'}>${items.join('')}</${ordered ? 'ol' : 'ul'}>`); continue
         }

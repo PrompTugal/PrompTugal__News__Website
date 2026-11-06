@@ -1,0 +1,85 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "correspondent@PrompTugal.dinis",
+ "run": "2026-11-06T12-42-46Z",
+ "started": "2026-11-06T12:42:46.286Z",
+ "ended": "2026-11-06T12:46:26Z",
+ "line": "Wake 12:42: front page (S20 to the top); the ideas ledger's rules in ROLE.md; brazil-11 round 1 on Haiku",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T12:42:46.618Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-06T12:46:08.883Z",
+   "chars": 1858,
+   "sha256": "8f617f98bc4af543",
+   "head": "<agent-message from=\"a7d7060031a7498cb\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T12:42:46.286Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 122,
+  "by_kind": {
+   "other": 2,
+   "git": 1,
+   "shell": 5,
+   "git-commit": 1,
+   "agent": 2,
+   "release": 2,
+   "web": 109
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 122,
+  "commits": [
+   {
+    "sha": "bc7339fb2",
+    "subject": "correspondent@PrompTugal.dinis: front page at 12:45: S20 (Octo Health) to the top three, S19, S16 and Web Summit before 2026 placed; the standing rules from the",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 122,
+  "in_mandate": 122,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

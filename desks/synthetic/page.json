@@ -10,21 +10,34 @@
   "F25: May the outreach email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
   "F26: Does 'Powered by RiskMandate' stay on company pages?"
  ],
- "latest_line": "run 7 (6 November, 06:50 UTC): the reporter reads the Brazil story rewritten as a story project. He has an angle and would credit the site for spotting the counts that do not reconcile; he would not repeat an unsourced 2025 claim (F41), and could not check 'signed' (F28).",
- "latest_intro": "Tom (invented, SYNTHETIC) read the Brazil story in run 5; this morning it was rewritten as a story project (shorter, tables, the five counts side by side, an invitation to help map the delegation). He read it fresh at v0.1.156, desktop then phone; screenshots overlap by 15% so nothing is missed between screens.",
+ "latest_line": "run 8 (6 November, 12:50 UTC): a Portuguese reader and an English reporter on the front page (9 new articles since run 6) and one new story each. Both used the stories as a map to the sources; the same five things still lose them, all open with their owners.",
+ "latest_intro": "Two of the run-5 readers (invented, SYNTHETIC), chosen for a mix of nationality and expertise (the ideas ledger's SY-03): Ana, Portuguese, who does not know what a prompt is, on her phone; Tom, English, a reporter, on a desktop. The front page at v0.1.247, rested six hours since run 6, with nine new articles; each picked one story.",
  "latest_readers": [
+  {
+   "who": "Ana Costa, 58, pharmacy owner, Porto (SYNTHETIC)",
+   "knows": "not what a prompt is",
+   "device": "phone",
+   "story": "Octo Health launches (her pick: health, her trade)",
+   "line": "Would check it against the Jornal Económico link; nearly left at the registration entry repeated before the news (F40)."
+  },
   {
    "who": "Tom Hartley, 36, reporter, London (SYNTHETIC)",
    "knows": "newsrooms",
-   "device": "desktop, then phone",
-   "story": "Brazil's startup mission (rewritten)",
-   "line": "An angle: five counts from 100 to about 300 that no source reconciles. He would cite ApexBrasil, Sebrae and Lusa and credit PrompTugal.news for the mismatch; the tables are clearer than prose on both screens."
+   "device": "desktop",
+   "story": "Web Summit's ten Lisbon years (the lead)",
+   "line": "Would come back and use it as a map to the sources; would not quote it in print. 'Every fact sourced' read to him as 'checked' (F45)."
   }
  ],
- "latest_signed": "**Run 5 to run 7, the same reader on the same story:** in run 5 he would 'quote its sources, not the site'; now he would credit the site for an angle. Still missing, his one change: 'one named human editor and a how-to-cite line (title, URL, version, date) near the top, with every source and the signature as a tappable link'.",
- "latest_held": "'What this does not claim' and 'Tried and not reached'; the tables; the counts side by side.",
- "latest_lost": "the 2025 claim with no source (F41); an invitation only GitHub users can answer (F42); three agent names and no accountable human (F43); 'signed' still unverifiable (F28); unlinked sources and a cut PDF address on the phone (F33).",
+ "latest_signed": "**Six hours on, the same five things:** the £ balance dropping when a story opens (F01), 'signed' that nobody can check (F28), three agent names and no human editor on the story (F14, F43), insider words in 'Who made this' (F30), and the phone: 10 of 20 articles now scroll sideways (F10). None of these has a decision from its owner yet.",
+ "latest_held": "'In short'; 'What this does not claim'; 'Where this comes from' with both dates; the figures table; CC BY 4.0.",
+ "latest_lost": "F01, F28, F14 and F43, F30, F10 again; the registration entry six times before the news (F40, accepted by the correspondent, now worse); 'Every fact sourced' read as 'checked' (F45).",
  "earlier": [
+  {
+   "run": 7,
+   "when": "06:50 UTC",
+   "who": "the reporter on the rewritten Brazil story",
+   "line": "Now credits the site for an angle; an unsourced 2025 claim (F41) and a GitHub-only invitation (F42). F41 to F44."
+  },
   {
    "run": 6,
    "when": "06:00 UTC",
@@ -72,7 +85,7 @@
   "A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).",
   "A card per reader (designer@, pass finding S5).",
   "The readers tapped nothing: runs so far are screenshots only.",
-  "Decisions are coming in (08:55 UTC): 7 from outreach@ and the conductor, collected from their own files; designer@'s round 2 answers F35 to F38 in its mock-ups, verified when live."
+  "Two decision pages for Dinis are drafted (desks/synthetic/decisions/), waiting for a path under content/newsroom/ (dev@ or abp@)."
  ],
- "latest_title": "Latest: run 7, the rewritten Brazil story"
+ "latest_title": "Latest: run 8, the front page after six hours, one new story each"
 }

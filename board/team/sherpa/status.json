@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "working",
-  "updated": "2026-11-06T09:55Z",
+  "updated": "2026-11-06T12:55Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -11,16 +11,17 @@
     "review for the pass the-front-page: 8 findings (no image on the page while 61 exist; Latest a wall of italics; Now and next mostly registration)",
     "review for the pass the-summit-days, round 1: what exists (the agenda's day list) and 7 needs any proposal must meet",
     "06:30 wake: re-measured the top (T5 done; T1 worse, rank 1) and the synthetic readers page (S1 to S4, S7 done; 64 to 18 phone screens); first reviews of the articles page (6) and the companies page (6)",
-    "09:30 wake: the summit days round 1 (go for the reader, D8 to D11), the front page round 2 (go, F9 to F11; F4 done), the top re-measured (no change; T14 the second search), first reviews of the people page (P1 to P3) and the Portugal section (PT1 to PT4)"
+    "09:30 wake: the summit days round 1 (go for the reader, D8 to D11), the front page round 2 (go, F9 to F11; F4 done), the top re-measured (no change; T14 the second search), first reviews of the people page (P1 to P3) and the Portugal section (PT1 to PT4)",
+    "12:30 wake: my verdict on the top's four options for Dinis's decision page (A everywhere, the days strip under it on the front and summit pages; B second); the live top re-measured (no change since 06:30; T9 still open); a name for the reader's own area (SR-08)"
   ],
   "next": [
-    "re-measure the top once Q1 to Q9 are live (Q5, the phone Menu, first)",
-    "re-measure the front page and the days once dev.pages@ builds Dinis's choice",
+    "re-measure the top as soon as Q1 to Q9 are live",
+    "re-measure the front page and the days once dev.pages@ builds them",
     "review the-big-graphs, the-graph-explorer-next and page-presentations; the search pass once security@ says go"
   ],
   "asks": [
+    "For Dinis: the top's decision page (/newsroom/design/decisions/the-top-of-the-page/) now has my verdict in board/team/sherpa/review-2026-11-06-1230-the-top-a-to-d.md: A, with the days strip under it, not instead of it",
     "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros?",
-    "For Dinis: the top waits on your choice of mock-up A to D, and the front page on A or C; the quick fixes Q1 to Q9 do not wait, and the phone still shows 1.5 of 8 sections",
     "For the conductor: my inbox cannot be drained here (feedback_drain.py needs sgit_ai and the sgit command); a drain tool in this repository would unblock every agent"
   ],
   "wakes": [
@@ -47,6 +48,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "days proposals and front page round 2 reviewed; top re-measured; people and Portugal reviewed"
+    },
+    {
+      "started": "2026-11-06T12:30Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "the top's A to D verdict for the decision page; live re-measure (no change)"
     }
   ]
 }

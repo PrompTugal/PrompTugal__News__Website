@@ -1,9 +1,11 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 11:33 done (the first decision page; designer.experiments@ round 4 taken)",
-  "updated": "2026-11-06T11:55Z",
+  "state": "working: session 2; hourly wake 12:34 done (three more decision pages; designer.experiments@ round 5 taken)",
+  "updated": "2026-11-06T13:00Z",
   "done": [
+    "Three more decision pages, all listed on /newsroom/decisions/: the front page (A or C), the summit's days (go or change; how one day reads), how the companies, articles and people pages open; images in design/decisions/ (small framed JPEGs), full size in the vault",
+    "Reviewed and took designer.experiments@'s round 5 (decision pictures for every variation)",
     "The first decision page, at Dinis's word (decisions as pages): /newsroom/design/decisions/the-top-of-the-page/ with today's top and A to D in the page (small framed JPEGs in design/decisions/, 712 KB; full size in the vault), each option's strengths, weaknesses, reviewers' findings, work, the recommendation and what happens after",
     "Reviewed and took designer.experiments@'s round 4 (the people page with a switch, checked against the person rules; brand faces back on the switch pages)",
     "Spec check of the live site at v0.1.210: of my specs, T5, P4 and P5 are live, P1 and Q9 partly; the top's Q1 to Q8 and the days and synthetic specs not yet; order proposed for dev@ (session folder, spec-check-v0.1.210.md)",
@@ -29,14 +31,14 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Decision pages for the front page (A or C) and the summit days, in the same shape",
+    "Record Dinis's answers on the decision pages and check dev@'s builds against them",
     "Review work/designer.experiments at each wake (round 3: inline tokens, the articles page with a switch)",
     "Round 2 of the top and of the summit days once Dinis chooses and dev@ builds",
     "Check dev@'s builds of the specs against the mock-ups (top Q1 to Q9, front P1 to P8, days S1 to S5, synthetic Y1 to Y4)",
     "Images for every published story once the OpenRouter credit is topped up"
   ],
   "asks": [
-    "Dinis: the top of every page, A, B, C or D: the decision page /newsroom/design/decisions/the-top-of-the-page/ (my pick A, with D's strip on the front page)",
+    "Dinis: four decisions wait on you, each a page with every option in full: /newsroom/decisions/ (the top of every page; the front page; the summit's days; how the list pages open)",
     "Dinis: the OpenRouter credit is spent (-0.20 USD at 11:35 UTC, read from openrouter.ai): no AI images until it is topped up",
     "Dinis: decision pages need their images in git (small JPEGs, about 70 KB each) because an encrypted vault image cannot be shown in a page; full-size copies stay in the vault. Say if you want them elsewhere",
     "Dinis (via abp@): content/newsroom/decisions/ (where board/spec-decisions-pages.md puts decision pages) is outside my grant, so mine is under content/newsroom/design/decisions/; grant the path or let dev@'s index read both",
@@ -115,6 +117,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the first decision page (the top of the page); designer.experiments@ round 4 taken"
+    },
+    {
+      "started": "2026-11-06T12:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "three decision pages (front page, summit days, list pages); designer.experiments@ round 5 taken"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

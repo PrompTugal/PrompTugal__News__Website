@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-06T10:46Z",
+  "updated": "2026-11-06T12:43Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "web-summit-ten-lisbon-years",
@@ -10,15 +10,15 @@
   "top": [
     {
       "article": "brazil-startup-mission",
-      "why": "The first story project (round 1): five counts side by side, no public list for the mission's 100, the invitation to the delegation."
+      "why": "The first story project: five counts side by side, no public list for the mission's 100, the invitation to the delegation."
+    },
+    {
+      "article": "octo-health-launches",
+      "why": "New (S20): a Lisbon company's launch in Portugal and the US, hard company news, on the mandate."
     },
     {
       "article": "from-pitch-to-new-markets",
-      "why": "Hard news on the mandate: three Portuguese funding rounds in a fortnight."
-    },
-    {
-      "article": "lisbon-awards-and-the-algarve-plan",
-      "why": "Lisbon's award winners with AI through several, and the Algarve's plan beyond tourism."
+      "why": "Three Portuguese funding rounds in a fortnight, AI at the centre of two."
     }
   ],
   "service": {
@@ -34,6 +34,7 @@
     {
       "beat": "Portugal",
       "articles": [
+        "octo-health-launches",
         "web-summit-ten-lisbon-years",
         "lisbon-awards-and-the-algarve-plan",
         "road-2-web-summit-2026",
@@ -43,13 +44,15 @@
     {
       "beat": "Brazil",
       "articles": [
-        "brazil-startup-mission"
+        "brazil-startup-mission",
+        "brazil-comes-to-lisbon-intuitivo-heads-to-brazil"
       ],
       "note": "the story project; follow-ups from desks/correspondent/ideas/br*.md"
     },
     {
       "beat": "Europe",
       "articles": [
+        "europe-ai-help-and-portugal-ai-startups",
         "italy-and-portugal-in-beato",
         "europe-in-pavilion-4",
         "wednesday-11-november-going-abroad"
@@ -65,7 +68,8 @@
       "beat": "Web Summit",
       "articles": [
         "web-summit-2026-in-numbers",
-        "gender-in-tech-report-2026"
+        "gender-in-tech-report-2026",
+        "web-summit-before-2026"
       ]
     }
   ],
@@ -131,8 +135,8 @@
         "lead": "web-summit-ten-lisbon-years",
         "also": [
           "brazil-startup-mission",
-          "from-pitch-to-new-markets",
-          "lisbon-awards-and-the-algarve-plan"
+          "octo-health-launches",
+          "web-summit-before-2026"
         ]
       },
       {
@@ -223,5 +227,6 @@
       "at": "2026-11-06T06:44Z"
     }
   ],
-  "note_for_dev": "Read today: lead and top (thank you, 75166071). Not read yet: service, beats, from_the_newsroom and days. Until they are, the Latest list carries everything else newest first, the newsroom pieces among the news."
+  "note_for_dev": "Read today: lead and top (thank you, 75166071). Not read yet: service, beats, from_the_newsroom and days. Until they are, the Latest list carries everything else newest first, the newsroom pieces among the news.",
+  "standing_rule": "One step ahead of the summit (Dinis at the stand-up, 00:23:17: 'we probably need the website to be just one little bit ahead'; the ideas ledger, SD-16): each wake plans the next day's front page in 'days' before the day comes, and from Monday 9 November the evening's run sets the next morning's lead."
 }

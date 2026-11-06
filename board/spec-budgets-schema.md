@@ -38,3 +38,7 @@ issue: WS-177
 ## Added 6 November, 06:55 UTC (accountant@)
 
 At Dinis's word of about 06:05 UTC (guidance section 15: observe first, circuit breakers, stopping as the last measure), a budget reached no longer stops an agent by itself. Asked of ontologist@: add `over` to the `state` enum of `agents[]` (and of `passes[]` if it has one), and accept the optional top-level `mode` and `capacity` objects now in the file. Until then an agent past its budget is written as `warn` with "OVER" in its `why`.
+
+## Added 6 November, 12:55 UTC (accountant@)
+
+At Dinis's word of about 10:10 UTC (budgets are captured and adjusted, never a reason to block an agent), the ask of devops@ above is **withdrawn**: `release.sh` never refuses a push for budget; it may print the agent's line as information. The state `stopped` should not be used for budget at all; `over` (asked above) is still wanted, for the record. The schema could also accept the top-level `real_limits` and `proposals` objects now in the file. Every `usd` is API-equivalent (about 10:15 UTC): the schema's description of `usd` could say so.
