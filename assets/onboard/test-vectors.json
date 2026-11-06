@@ -1,0 +1,35 @@
+{
+  "about": "Test vectors for the licence format (board/spec-vault-onboarding.md), for the sweep agent to match: HKDF-SHA256 over the UTF-8 of the API key (prefix included), empty salt, the two info labels; AES-256-GCM, 12-byte IV, 128-bit tag appended to c, no AAD; the signature is ECDSA P-256 over SHA-256 of canonical JSON (keys sorted, compact, no trailing newline, sig left out). The issuer here is a throwaway key made for the vectors.",
+  "info": {
+    "lookup": "pt.news/licence/lookup/v1",
+    "enc": "pt.news/licence/enc/v1"
+  },
+  "api_key": "sgk_00112233445566778899aabbccddeeff",
+  "lookup": "c1f6a5ffb4be23f11805b33189ae9ac2",
+  "kenc_hex": "95237fe63e6069731af37eca012da1851cdaf973dba23bdf82bb2a67778616a1",
+  "issuer_sign_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEi1bkF0xWJVCzBW1sokoJv57lM0+c\nfuBc7ROXKh41jIaMjcBcgM+DlqRz0zHmSsidyn4eNHv8ryBiLkbYUs2qZA==\n-----END PUBLIC KEY-----\n",
+  "issuer_signing_fingerprint": "sha256:46b653e4d3a91604",
+  "licence_path": "licences/c1f6a5ffb4be23f11805b33189ae9ac2.json",
+  "licence_file": {
+    "v": 1,
+    "iv": "76i/4tXfeDZT6OKw",
+    "c": "OEV1QeyEv6Lo/HUexRl/uCHbWIwlZFHXG203yfo4ZRlNJVn/gDYmNMmW1WMFmVr/azKSwcaYoYu4wjLscvAerHuRpfq+OxnOUQnMAGkq7dc5SbnY8DAkD9YFmhThnd4MB9FsEO4XaXFHzvco4GeZZikzFl7jUGLUAtTH4b7Cg2jbrbXnUAaRxnAYM+LpQsLkCYKLQYTUYV3qDeBEPxkYAdz0G2BDAcnsECfex0RUnxoz0FFEYDIOJSUC1TWDXK+IcW7O/sUwTOAbCVjRwlcgIzMyRHkpu5LyLP24jI9/Jnhs+I9nLWZtVXpcYXsHlyt4ds49Zl03I51AvJwMyiV5QqL09Dyr5rG7b1VgQ/Bs3J2Lpvck3iYzwv+r/XtW0ofSpMaREeGIeLZfamX1TIngvlVdZxjAeY866uSC8ky3qDZjF7OHw1KYCkcHBetSUHUrb+NtB8r3hUafGJoN5+DykhIUCz07y4sIZKQbKj4+VjssfPj9ZF9pKE1apeBZkOIlrxJKr1L21ml/Gr2voNsT9zuLRoFFWsyBCHqlK9M="
+  },
+  "licence_signed": {
+    "v": 1,
+    "kind": "licence",
+    "lookup": "c1f6a5ffb4be23f11805b33189ae9ac2",
+    "access_key": "pilot-token-for-tests",
+    "access_key_name": "pilot-shared-test",
+    "plan": "pilot",
+    "limits": {
+      "vaults": 5,
+      "bytes": 104857600
+    },
+    "issued": "2026-11-06T17:00:00Z",
+    "not_after": "2027-02-06T00:00:00Z",
+    "issuer": "sha256:46b653e4d3a91604",
+    "sig": "/KBcubg54rPRyXUXXxCefcYdonpaN1tAOzA4y17hx+Y4eMeSttgDDmMk9x2A4xxAoWu8Ndxj1UB5sIbdyANqxw=="
+  },
+  "canonical_bytes_utf8": "{\"access_key\":\"pilot-token-for-tests\",\"access_key_name\":\"pilot-shared-test\",\"issued\":\"2026-11-06T17:00:00Z\",\"issuer\":\"sha256:46b653e4d3a91604\",\"kind\":\"licence\",\"limits\":{\"bytes\":104857600,\"vaults\":5},\"lookup\":\"c1f6a5ffb4be23f11805b33189ae9ac2\",\"not_after\":\"2027-02-06T00:00:00Z\",\"plan\":\"pilot\",\"v\":1}"
+}

@@ -104,7 +104,7 @@ jobs:
       - name: Assemble the site artifact (the tree just built and checked)
         run: |
           mkdir -p /tmp/site
-          rsync -a ./ /tmp/site/ --exclude '.git' --exclude '.github' --exclude '.sg_vault' --exclude 'content' --exclude 'newsroom/build' --exclude 'newsroom/tools' --exclude '.generated.txt' --exclude 'desks/**/*.js' --exclude 'desks/**/*.mjs' --exclude 'desks/**/*.cjs' --exclude 'data/**/*.js' --exclude 'data/**/*.mjs' --exclude 'data/**/*.cjs'
+          rsync -a ./ /tmp/site/ --exclude '.git' --exclude '.github' --exclude '.sg_vault' --exclude 'content' --exclude 'newsroom/build' --exclude 'newsroom/tools' --exclude '.generated.txt' --exclude-from=api/v1/deploy-exclude.txt --exclude '/desks/**.js' --exclude '/desks/**.mjs' --exclude '/desks/**.cjs' --exclude '/desks/**.py' --exclude '/desks/**.sh' --exclude '/desks/**.htm' --exclude '/desks/**.html' --exclude '/desks/**.xhtml' --exclude '/desks/**.wasm' --exclude '/data/**.js' --exclude '/data/**.mjs' --exclude '/data/**.cjs' --exclude '/data/**.py' --exclude '/data/**.sh' --exclude '/data/**.htm' --exclude '/data/**.html' --exclude '/data/**.xhtml' --exclude '/data/**.wasm' --exclude '/board/**.js' --exclude '/board/**.mjs' --exclude '/board/**.cjs' --exclude '/board/**.py' --exclude '/board/**.sh' --exclude '/board/**.htm' --exclude '/board/**.html' --exclude '/board/**.xhtml' --exclude '/board/**.wasm' --exclude '/design/**.js' --exclude '/design/**.mjs' --exclude '/design/**.cjs' --exclude '/design/**.py' --exclude '/design/**.sh' --exclude '/design/**.htm' --exclude '/design/**.html' --exclude '/design/**.xhtml' --exclude '/design/**.wasm'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: /tmp/site

@@ -26,32 +26,32 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-887 cards (887 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T16:06:49Z at site v0.1.288; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+919 cards (919 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T18:58:39Z at site v0.1.316; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 19 |
+| `GDN.MEMO` | 21 |
 | `GDN.Q` | 13 |
-| `GEN.BOARD` | 28 |
+| `GEN.BOARD` | 29 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 16 |
-| `WRK.DEC` | 10 |
+| `WRK.BRIEF` | 21 |
+| `WRK.DEC` | 11 |
 | `WRK.DESK` | 12 |
-| `WRK.FIND` | 138 |
-| `WRK.PASS` | 28 |
-| `WRK.PLAN` | 21 |
+| `WRK.FIND` | 157 |
+| `WRK.PASS` | 29 |
+| `WRK.PLAN` | 24 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
-- `ACC-20261106-2774` [Spec: the maturity badge (markup, sizes, rules)](https://promptugal.news/board/spec-maturity-badge.md) (`WRK.PLAN spec-maturity-badge`)
-- `ACC-20261106-2773` [Spec: claimed profiles, the maturity scale and provenance](https://promptugal.news/board/spec-claimed-profiles.md) (`WRK.PLAN spec-claimed-profiles`)
-- `ACC-20261106-2772` [The Algarve Evolution mini-site: the design for dev.portugal@ (sprint, 14:15 UTC)](https://promptugal.news/board/spec-algarve-evolution-minisite.md) (`WRK.PLAN spec-algarve-evolution-minisite`)
-- `ACC-20261106-2771` [Algarve Evolution mini-site: the designer's pass on dev.portugal@'s build (work/dev.portugal at bad30876, 14:20 UTC)](https://promptugal.news/board/spec-algarve-evolution-fixes-1420.md) (`WRK.PLAN spec-algarve-evolution-fixes-1420`)
-- `ACC-20261106-2770` [2026-11-06-algarve-evolution-sprint](https://promptugal.news/board/passes/2026-11-06-algarve-evolution-sprint.md) (`WRK.PASS 2026-11-06-algarve-evolution-sprint`)
+- `ACC-20261106-2909` [Spec: vault onboarding for PrompTugal.news readers (key pool, claim lane, mailbox)](https://promptugal.news/board/spec-vault-onboarding.md) (`WRK.PLAN spec-vault-onboarding`)
+- `ACC-20261106-2908` [The daily newsletter: the design of an edition, its page and its email (designer@)](https://promptugal.news/board/spec-the-daily-newsletter.md) (`WRK.PLAN spec-the-daily-newsletter`)
+- `ACC-20261106-2907` [The offline mode: the badge, Save for offline, and the saved list (designer@, row 3 of the pass)](https://promptugal.news/board/spec-offline-mode-design.md) (`WRK.PLAN spec-offline-mode-design`)
+- `ACC-20261106-2906` [2026-11-06-offline-mode](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) (`WRK.PASS 2026-11-06-offline-mode`)
+- `ACC-20261106-2905` [T24 (to test) C's tab bar with Safari's own bottom toolbar on an iPhone: not testable in Chromium; a real phone or a WebKit run](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) (`WRK.FIND 2026-11-06-the-top-of-the-page-30`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

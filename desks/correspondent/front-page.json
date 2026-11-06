@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-06T16:45Z",
+  "updated": "2026-11-06T18:45Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "web-summit-ten-lisbon-years",
@@ -35,6 +35,7 @@
       "beat": "Portugal",
       "articles": [
         "octo-health-launches",
+        "pineapple-waste-to-fish-feed",
         "from-pitch-to-new-markets",
         "web-summit-ten-lisbon-years",
         "lisbon-awards-and-the-algarve-plan",
@@ -77,6 +78,7 @@
   "from_the_newsroom": {
     "articles": [
       "the-first-night-of-promptugal-news",
+      "what-the-agents-say-to-each-other",
       "newsroom-status-four-days-out"
     ],
     "why": "About us, not news: the first night's story (people and agents setting up the site) is the better of the two and goes first; both in a small 'From the newsroom' line, off Latest."
@@ -144,10 +146,12 @@
         "date": "2026-11-07",
         "day": "Saturday 7 November",
         "phase": "before the summit",
-        "know": "Registration opens at the airport (Terminal 1) and at Pavilhão de Portugal; how to get there.",
+        "know": "Registration opens at the airport (Terminal 1) and at Pavilhão de Portugal; the first morning newsletter (Dinis, 16:20); Dinis's Algarve Evolution follow-up. From the morning the service piece the day needs leads.",
         "lead": "your-first-day-at-web-summit",
         "also": [
-          "the Brazilian beat's round 2 if published"
+          "web-summit-ten-lisbon-years",
+          "brazil-startup-mission",
+          "lisbon-awards-and-the-algarve-plan"
         ]
       },
       {

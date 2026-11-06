@@ -11,47 +11,53 @@
   "sources": [
     {
       "url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 6817
     },
     {
       "url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 8487
     },
     {
       "url": "https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/",
-      "status": 200
+      "status": 200,
+      "read": true,
+      "chars": 5677
     }
   ],
-  "spent_usd": 0.0727,
+  "spent_usd": 0.0745,
   "claims": [
     {
       "id": "c1",
-      "claim": "Three Portuguese startups announced rounds between 23 October and 3 November 2026, as reported by Portugal Startup News.",
+      "claim": "Three Portuguese startups announced funding rounds between 23 October and 3 November 2026, as reported by Portugal Startup News.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S1, S2, S3",
-          "quote": "October 23, 2026",
-          "note": "Three Portugal Startup News articles report funding rounds dated within the window: Intuitivo (S2, October 23), Seamoretech (S3, November 2), and Granter (S1, November 3)."
+          "source": "S2",
+          "quote": "has raised €1.35 million in seed funding",
+          "note": "Three Portugal Startup News articles fall within the window: Intuitivo (S2, 23 October 2026), Seamoretech (S3, 2 November 2026) and Granter (S1, 3 November 2026), each reporting a funding round."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "unsupported",
-          "source": null,
+          "verdict": "supported",
+          "source": "null",
           "quote": "",
-          "note": "No source states that three Portuguese startups announced funding rounds between 23 October and 3 November 2026."
+          "note": "Across the three articles from Portugal Startup News, Intuitivo (23 October), Seamoretech (2 November), and Granter (3 November) each announced funding rounds within the specified timeframe."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "November 3, 2026",
-          "note": "S1-S3 collectively report Granter, Seamoretech, and Intuitivo rounds within the 23 October–3 November 2026 window."
+          "quote": "has raised €1.6 million",
+          "note": "S1-S3 report Granter, Intuitivo, and Seamoretech funding rounds dated 3 Nov, 23 Oct, and 2 Nov 2026, respectively."
         }
       ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
+      "consensus": "supported",
+      "flag_to_journalist": false
     },
     {
       "id": "c2",
@@ -59,28 +65,28 @@
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "partly",
+          "verdict": "supported",
           "source": "S1",
-          "quote": "has raised €1.6 million in an investment round to support its international expansion",
-          "note": "S1 confirms the €1.6 million raise but says the money is for international expansion, not specifically for the AI grant platform."
+          "quote": "has raised €1.6 million in an investment round",
+          "note": "S1 reports Granter raised €1.6 million in an investment round to support its international expansion, which matches the claim's amount and company."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
           "quote": "Granter secures €1.6M to expand its AI grant platform",
-          "note": "Granter raised €1.6 million in an investment round to support and expand its AI grant platform."
+          "note": "The source directly states that Granter secured €1.6 million to expand its AI grant platform."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
           "quote": "Granter secures €1.6M to expand its AI grant platform",
-          "note": "S1 states Granter raised €1.6 million to expand its AI grant platform."
+          "note": "S1 states Granter raised €1.6M to expand its AI grant platform."
         }
       ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
+      "consensus": "supported",
+      "flag_to_journalist": false
     },
     {
       "id": "c3",
@@ -91,21 +97,21 @@
           "verdict": "supported",
           "source": "S2",
           "quote": "Portuguese edtech startup Intuitivo has raised €1.35 million in seed funding",
-          "note": "S2 states Intuitivo raised €1.35 million in seed funding to expand into Brazil, matching the claim exactly."
+          "note": "S2 states Intuitivo raised €1.35 million in seed funding, matching the claim exactly."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S2",
           "quote": "Intuitivo has raised €1.35 million in seed funding",
-          "note": "Source S2 directly confirms that Portuguese edtech startup Intuitivo raised €1.35 million in seed funding."
+          "note": "The source directly states that Intuitivo raised €1.35 million in seed funding."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S2",
-          "quote": "raised €1.35 million in seed funding",
-          "note": "S2 states that Intuitivo raised €1.35 million in seed funding."
+          "quote": "Intuitivo has raised €1.35 million in seed funding",
+          "note": "Source S2 directly states that Intuitivo raised €1.35 million in seed funding."
         }
       ],
       "consensus": "supported",
@@ -120,20 +126,20 @@
           "verdict": "supported",
           "source": "S3",
           "quote": "has raised €1.1 million in the first closing of its seed round",
-          "note": "S3 states Seamoretech raised €1.1 million in the first closing of its seed round, matching the claim exactly."
+          "note": "S3 states directly that Seamoretech raised €1.1 million in the first closing of its seed round."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S3",
           "quote": "has raised €1.1 million in the first closing of its seed round",
-          "note": "Source 3 explicitly states that Seamoretech raised €1.1 million in the first closing of its seed round."
+          "note": "Source 3 directly confirms that Seamoretech raised €1.1 million in the first closing of its seed round."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S3",
-          "quote": "raised €1.1 million in the first closing of its seed round",
+          "quote": "has raised €1.1 million in the first closing of its seed round",
           "note": "S3 directly states Seamoretech raised €1.1 million in the first closing of its seed round."
         }
       ],
@@ -142,21 +148,21 @@
     },
     {
       "id": "c5",
-      "claim": "Granter won PITCH in November 2025.",
+      "claim": "Granter won the PITCH competition in November 2025.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Granter won PITCH, Web Summit's startup competition, in November 2025.",
-          "note": "S1 states directly that Granter won PITCH in November 2025; its photo caption says only \"in 2025,\" which is consistent with the claim."
+          "quote": "Granter won PITCH, Web Summit's startup competition, in November 2025",
+          "note": "S1 states directly that Granter won the PITCH competition at Web Summit in November 2025, matching the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Granter won PITCH, Web Summit’s startup competition, in November 2025.",
-          "note": "Source 1 explicitly states that Granter won Web Summit's PITCH competition in November 2025."
+          "quote": "Granter won PITCH, Web Summit&#8217;s startup competition, in November 2025",
+          "note": "The source explicitly states that Granter won Web Summit's PITCH competition in November 2025."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
@@ -178,14 +184,14 @@
           "verdict": "supported",
           "source": "S2",
           "quote": "won the PITCH competition at Web Summit in 2024",
-          "note": "S2 states directly that Intuitivo won the PITCH competition at Web Summit in 2024, matching the claim."
+          "note": "S2 states that Intuitivo won the PITCH competition at Web Summit in 2024, which matches the claim exactly."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S2",
-          "quote": "won the PITCH competition at Web Summit in 2024",
-          "note": "Source 2 explicitly states that Intuitivo won the PITCH competition at Web Summit in 2024."
+          "quote": "Intuitivo, which supports teachers across all subjects from primary school to higher education, won the PITCH competition at Web Summit in 2024.",
+          "note": "The source directly states that Intuitivo won the PITCH competition at Web Summit in 2024."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
@@ -200,28 +206,28 @@
     },
     {
       "id": "c7",
-      "claim": "Seamoretech was founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP).",
+      "claim": "Intuitivo was founded in Porto in 2021.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "Founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP)",
-          "note": "S3 states Seamoretech was founded in 2021 as a spin-off of FEUP, matching the claim exactly."
+          "source": "S2",
+          "quote": "Founded in Porto in 2021",
+          "note": "S2 states Intuitivo was founded in Porto in 2021, matching the claim exactly."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "Founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP)",
-          "note": "The source directly confirms that Seamoretech was founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP)."
+          "source": "S2",
+          "quote": "Founded in Porto in 2021, Intuitivo",
+          "note": "The source directly states that Intuitivo was founded in Porto in 2021."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "Founded in 2021 as a spin-off of the University of Porto’s Faculty of Engineering (FEUP)",
-          "note": "Source S3 states the exact founding year and FEUP spin-off origin for Seamoretech."
+          "source": "S2",
+          "quote": "Founded in Porto in 2021",
+          "note": "Source S2 states that Intuitivo was founded in Porto in 2021."
         }
       ],
       "consensus": "supported",
@@ -229,28 +235,28 @@
     },
     {
       "id": "c8",
-      "claim": "Seamoretech plans a commercial launch in Spain in 2027.",
+      "claim": "Seamoretech was founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP).",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S3",
-          "quote": "a planned market launch in Spain in 2027",
-          "note": "S3 states Seamoretech plans a commercial launch in Spain in 2027, following a demonstration collaboration in the country, which matches the claim."
+          "quote": "Founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP)",
+          "note": "S3 states directly that Seamoretech was founded in 2021 as a spin-off of FEUP, matching the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S3",
-          "quote": "plans a commercial launch in Spain in 2027",
-          "note": "The source explicitly confirms that Seamoretech plans a commercial launch in Spain in 2027."
+          "quote": "Founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP)",
+          "note": "The source explicitly confirms that Seamoretech was founded in 2021 as a spin-off of FEUP."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S3",
-          "quote": "plans a commercial launch in Spain in 2027",
-          "note": "S3 directly states Seamoretech plans a commercial launch in Spain in 2027."
+          "quote": "Founded in 2021 as a spin-off of the University of Porto’s Faculty of Engineering (FEUP)",
+          "note": "Source S3 states exactly that Seamoretech was founded in 2021 as a FEUP spin-off."
         }
       ],
       "consensus": "supported",
@@ -258,28 +264,28 @@
     },
     {
       "id": "c9",
-      "claim": "Intuitivo counts more than 200 contracts covering more than 500 schools in Portugal and 75,000 registered teachers.",
+      "claim": "Seamoretech's total funding after the first seed closing is 3 million euros.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "signed more than 200 contracts with municipalities, school clusters, and private schools in Portugal, covering more than 500 schools",
-          "note": "S2 states that Intuitivo has signed more than 200 contracts covering more than 500 schools in Portugal and that the platform counts 75,000 registered teachers."
+          "source": "S3",
+          "quote": "This closing brings Seamoretech's total funding to €3 million",
+          "note": "S3 states that after the first seed closing of €1.1 million, Seamoretech's total funding reached €3 million."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "Intuitivo has signed more than 200 contracts with municipalities, school clusters, and private schools in Portugal, covering more than 500 schools. The platform now counts 75,000 registered teachers.",
-          "note": "The source directly confirms that Intuitivo has signed over 200 contracts covering more than 500 schools in Portugal and has 75,000 registered teachers."
+          "source": "S3",
+          "quote": "This closing brings Seamoretech's total funding to €3 million",
+          "note": "The text confirms that the first closing of Seamoretech's seed round brought its total funding to 3 million euros."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "Intuitivo has signed more than 200 contracts with municipalities, school clusters, and private schools in Portugal, covering more than 500 schools. The platform now counts 75,000 registered teachers.",
-          "note": "S2 directly states all three figures in the claim."
+          "source": "S3",
+          "quote": "total funding to €3 million",
+          "note": "S3 states that the first closing of Seamoretech's seed round brought its total funding to €3 million."
         }
       ],
       "consensus": "supported",
@@ -287,28 +293,28 @@
     },
     {
       "id": "c10",
-      "claim": "Since winning PITCH in November 2025, Granter says it has helped more than 140 businesses apply for over 30 million euros.",
+      "claim": "Granter's 1.6 million euro round was led by 3xP Global through its Impact Innovation Fund, under the Capitalization and Resilience Fund (FdCR) managed by Banco Português de Fomento.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Since then, the company says it has supported more than 140 businesses in applications for over €30 million in funding.",
-          "note": "S1 states both the November 2025 PITCH win and the company's own claim of helping more than 140 businesses with over €30 million in funding applications since then, matching the claim."
+          "quote": "the round was led by 3xP Global through its Impact Innovation Fund",
+          "note": "S1 states the €1.6 million round was led by 3xP Global through its Impact Innovation Fund, under the FdCR managed by Banco Português de Fomento, matching every element of the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Granter won PITCH, Web Summit’s startup competition, in November 2025. Since then, the company says it has supported more than 140 businesses in applications for over €30 million in funding.",
-          "note": "The source explicitly confirms that since winning PITCH in November 2025, Granter reports supporting over 140 businesses in applying for more than €30 million in funding."
+          "quote": "the round was led by 3xP Global through its Impact Innovation Fund, under the Venture Capital Program of the Capitalization and Resilience Fund (FdCR), managed by Banco Português de Fomento",
+          "note": "Source S1 explicitly confirms that Granter's €1.6 million round was led by 3xP Global via its Impact Innovation Fund under the FdCR managed by Banco Português de Fomento."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Granter won PITCH, Web Summit’s startup competition, in November 2025. Since then, the company says it has supported more than 140 businesses in applications for over €30 million in funding.",
-          "note": "S1 states both the PITCH win in November 2025 and Granter's claim of supporting over 140 businesses with applications for over €30 million in funding."
+          "quote": "the round was led by 3xP Global through its Impact Innovation Fund, under the Venture Capital Program of the Capitalization and Resilience Fund (FdCR), managed by Banco Português de Fomento",
+          "note": "S1 states Granter's €1.6M round was led by 3xP Global through its Impact Innovation Fund under the FdCR managed by Banco Português de Fomento."
         }
       ],
       "consensus": "supported",

@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-990 cards (990 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T16:06:49Z at site v0.1.288; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+995 cards (995 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T18:58:39Z at site v0.1.316; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
 | `DAT.EV` | 240 |
-| `DAT.ORG` | 232 |
+| `DAT.ORG` | 235 |
 | `DAT.PE` | 264 |
 | `DAT.PL` | 83 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 26 |
+| `PUB.SITE` | 28 |
 
 Newest five accessions:
 
-- `ACC-20261106-2642` [Friday 13 November: what is on](https://promptugal.news/days/2026-11-13/) (`PUB.SITE 2026-11-13`)
-- `ACC-20261106-2641` [Thursday 12 November: what is on](https://promptugal.news/days/2026-11-12/) (`PUB.SITE 2026-11-12`)
-- `ACC-20261106-2640` [Wednesday 11 November: what is on](https://promptugal.news/days/2026-11-11/) (`PUB.SITE 2026-11-11`)
-- `ACC-20261106-2639` [Tuesday 10 November: what is on](https://promptugal.news/days/2026-11-10/) (`PUB.SITE 2026-11-10`)
-- `ACC-20261106-2638` [Monday 9 November: what is on](https://promptugal.news/days/2026-11-09/) (`PUB.SITE 2026-11-09`)
+- `ACC-20261106-2794` [The daily newsletter](https://promptugal.news/newsletter/) (`PUB.SITE newsletter`)
+- `ACC-20261106-2793` [My day at the summit](https://promptugal.news/my-day/) (`PUB.SITE my-day`)
+- `ACC-20261106-2777` [Microsoft](https://promptugal.news/organisations/microsoft/) (`DAT.ORG microsoft`)
+- `ACC-20261106-2776` [Google](https://promptugal.news/organisations/google/) (`DAT.ORG google`)
+- `ACC-20261106-2775` [AWS](https://promptugal.news/organisations/aws/) (`DAT.ORG aws`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -3,7 +3,7 @@ pass: 2026-11-06-offline-mode
 goal: "PrompTugal.news works offline at the venue: the reader's schedule, the summit's days and agenda, the front page and the articles they saved (and the latest ones) are on their phone and open with no network; it says plainly when it is offline and when it last updated (Silvio's idea, Dinis 18:05; board/guidance/2026-11-06-offline-mode.md)"
 owner: conductor@PrompTugal.dinis
 agents: [security, dev, dev.pages, dev.search, designer, sherpa, synthetic]
-budget: "accountant@ to set; measured, never blocking"
+budget: "2 rounds, 14 runs, 42 API-equivalent USD, 350k output tokens (accountant@, board/budgets.json, 6 November 18:55 UTC); measured, never blocking"
 state: open
 priority: "before Monday 9 November (Opening Night): the Wi-Fi at the venue"
 opened: 2026-11-06T18:08Z
@@ -21,6 +21,7 @@ opened: 2026-11-06T18:08Z
 | Time (UTC) | Agent | Step |
 |---|---|---|
 | 18:08 | conductor@ | opened at Dinis's word |
+| 18:55 | accountant@ | budget set: 14 runs, 42 API-equivalent USD, 350k output tokens; a measure, never a stop | go | (budget commit) |
 | 18:15 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-1805-wake.md) | (the commit of this review) |
 
 ## Findings and decisions
@@ -32,3 +33,4 @@ opened: 2026-11-06T18:08Z
 | A way out, built in from the start: a 'Clear offline data' control that unregisters it and deletes its caches, and a kill switch (a small file it checks; if it says stop, it unregisters itself on every device at the next visit) | security@ (pre-review) | dev@, designer@ | condition of go |
 | The reader's own schedule and saved articles stay on the device; nothing of them goes to the page-view lanes; syncing to the reader's vault only sealed, through the vault-onboarding design | security@ (pre-review) | dev.pages@, observability@ | condition of go |
 | The offline badge says when the copy was made, so a stale page is never shown as current | security@ (pre-review) | designer@ | condition of go |
+| 18:55 | designer@ | row 3: the offline badge and band (the copy's own time always shown), Save for offline on an article, the saved list under You with Clear offline data; phone first in C's top: board/spec-offline-mode-design.md, design/decisions/offline/ |
