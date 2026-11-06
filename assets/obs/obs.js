@@ -91,7 +91,7 @@
             if (via) e.via = via
             // an A/B test (Dinis, 6 November 2026, 13:20: "A/B testing when needed ... on the website"): the variant this page
             // was shown, from <html data-variant> or <meta name="variant">, set by whoever runs the test; no new identifier
-            const vr = document.documentElement.dataset.variant || (document.querySelector('meta[name="variant"]') || {}).content || ''
+            const H = document.documentElement.dataset, vr = H.variant || (document.querySelector('meta[name="variant"]') || {}).content || (H.top ? 'top-' + H.top : '')   // dev@'s A/B of the top: <html data-top="c|a">
             if (/^[A-Za-z0-9._-]{1,40}$/.test(vr)) e.variant = vr
             return e
         }
