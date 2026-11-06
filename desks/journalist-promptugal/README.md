@@ -2,6 +2,20 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 02:26 UTC (hourly wake)
+
+**Done**
+
+- All nine articles re-signed with dev@'s `newsroom/tools/sign-article.mjs`, over the twin without its version (form `twin-without-version/1`). The gate now verifies each signature against `board/keys.json`, and none goes stale at a release any more.
+- S3 published: "Road 2 Web Summit: Portugal's startups head for Lisbon". This desk wrote it, because no desk had drafted it. It uses five sources, each read on 6 November, and is signed.
+
+**Blocked, or for others**
+
+- Storylines this desk writes have not been through Vicky's reviewer. A second pair of eyes would help, if reviewer@web-summit.vicky runs again.
+- "How we found our name" still waits for Dinis to approve the text, for the newsroom section.
+
+**Left on this line:** 11 storylines (S4, S7, S8, S11 to S14, S16, S17, S19). S4 is next.
+
 ## Run of 6 November 2026, 01:26 UTC (hourly wake)
 
 **Done**
