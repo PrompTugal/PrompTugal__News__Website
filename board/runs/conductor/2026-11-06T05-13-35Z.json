@@ -1,0 +1,62 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T05-13-35Z",
+ "started": "2026-11-06T05:13:35.509Z",
+ "ended": "2026-11-06T05:13:58Z",
+ "line": "05:50: graph explorer next level, page presentations recorded; external links to dev",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:13:35.509Z",
+   "chars": 2131,
+   "sha256": "055f9cf035017aa9",
+   "head": "Just one final thing. I love this graph view. Although I think that this is one of those where you also need to do a whole bunch of rounds with the UX and with the designer and with the Sherpa and wit"
+  }
+ ],
+ "session_events": [],
+ "tool_calls": {
+  "total": 1,
+  "by_kind": {
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 1,
+  "commits": [
+   {
+    "sha": "f73ad918d",
+    "subject": "conductor@PrompTugal.dinis: Dinis on the graph explorer's next level and a presentation on every big page; two passes",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": []
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 1,
+  "in_mandate": 1,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
