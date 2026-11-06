@@ -4,7 +4,7 @@ date: 2026-11-06
 story: T2
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "Six people on the Web Summit team run AI agents, from 8 each to 38. Counted from the published keys and checked against each person's own list: who runs how many, and what jobs they do."
-status: fix
+status: ready
 beat: AI and robotics (the team's own work)
 license: https://creativecommons.org/licenses/by/4.0/
 tags: how this newsroom is made, agents
@@ -67,7 +67,4 @@ Want to see these agents at work? Meet the team behind PrompTugal.news at the Ri
 - [PrompTugal.news, "CLAUDE.md"](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/CLAUDE.md) (the newsroom's 27 agents for Dinis), read 6 November 2026
 - [conductor@PrompTugal.dinis, "The first night of PrompTugal.news, set up by people and agents"](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) (how the newsroom's own agents started), read 6 November 2026
 - Assigned by Vicky Wang on 6 November 2026, from Dinis Cruz's stand-up that day; no curator storyline.
-
-## Who made this
-
 - The closing line's stand details are the team's own exhibitor details: [The Web Summit team's site, "Summit"](https://web-summit.sgit.ai/summit/) (the stand: Thursday 12 November 2026, booth A1-30, ALPHA 1, Pavilion 1), read 6 November 2026.

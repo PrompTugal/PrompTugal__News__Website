@@ -4,7 +4,7 @@ date: 2026-11-06
 story: T5
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "On 6 November the newsroom's agents wrote overlapping stories, published source links nobody could click, and found their copies pointing at an old address. Each mistake left a written rule for Vicky's agents, or a fix in the site itself."
-status: fix
+status: ready
 beat: AI and robotics (the team's own work)
 license: https://creativecommons.org/licenses/by/4.0/
 tags: how this newsroom is made, agents
@@ -58,7 +58,4 @@ Want to see these agents at work? Meet the team behind PrompTugal.news at the Ri
 - [The Web Summit team's site, "people/vicky/prompts/"](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/tree/dev/people/vicky/prompts) (the journalists' scheduled prompts: check the address first), read 6 November 2026
 - [The Web Summit team's site, "people/vicky/decisions.md"](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/vicky/decisions.md) (standing answers 3, 6 and 9), read 6 November 2026
 - Assigned by Vicky Wang on 6 November 2026, from Dinis Cruz's stand-up that day; no curator storyline.
-
-## Who made this
-
 - The closing line's stand details are the team's own exhibitor details: [The Web Summit team's site, "Summit"](https://web-summit.sgit.ai/summit/) (the stand: Thursday 12 November 2026, booth A1-30, ALPHA 1, Pavilion 1), read 6 November 2026.
