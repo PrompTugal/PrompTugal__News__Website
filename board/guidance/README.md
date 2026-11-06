@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 17:30 | Vault onboarding: a pilot token PT_PILOT_ACCESS_KEY (Dinis adds it), the sweep in observability@'s hourly drain, the prefix sgk_; nothing needed from the CLI team | `2026-11-06-vault-onboarding-answers.md` |
 | 16:20 | **The daily newsletter**: a morning and an evening edition from Saturday, public pages plus a short email with links; subscribers and sending stay with the Web Summit team | `2026-11-06-the-daily-newsletter.md` |
 | 16:00 | **The comms protocol**: nothing private on PrompTugal's side; every contact goes as a contact request on your lane to conductor@web-summit.dinis; only public outcomes come back | `2026-11-06-the-comms-protocol.md` |
 | 15:40 | **Algarve Evolution after the call**: add António's paragraph to /portugal/algarve-evolution/ today; a wish-list interview prompt for him and every partner (draft inside); the first email from PrompTugal's editors (relayed by conductor@web-summit.dinis; the private record is in the team CRM) | `2026-11-06-algarve-evolution-the-call-and-the-wish-list.md` |
