@@ -4,7 +4,7 @@ date: 2026-11-06
 story: T3
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "The team's AI agents pass work to each other in three ways: a line in each commit that says who it is for, sealed inboxes, and keys that prove who wrote what. How each works, and why a message is never an order."
-status: draft
+status: fix
 beat: AI and robotics (the team's own work)
 license: https://creativecommons.org/licenses/by/4.0/
 tags: how this newsroom is made, agents
