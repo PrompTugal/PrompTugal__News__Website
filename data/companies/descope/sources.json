@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://docs.descope.com/agentic-identity-hub",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Descope Documentation, \"Agentic Identity Hub\", read 6 November 2026: its control plane for AI agent identity; Resources and Connections; short-lived, scope-limited credentials issued when an agent needs them, policy evaluated at runtime, an audit trail back to the originating user (the flow agent-gets-access)",
+      "kind": "other"
     }
   ]
 }

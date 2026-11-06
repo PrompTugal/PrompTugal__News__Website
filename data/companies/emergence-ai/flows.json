@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "emergence-ai",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "semiconductor-lifecycle",
+      "name": "Agents work a semiconductor company's lifecycle, from design verification to production",
+      "summary": "The industry its home page puts in the spotlight. Emergence describes its approach as deterministic, formally verified and governed agent networks with persistent memory; the steps below are the ones the page names, not a full process.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The semiconductor company",
+          "what": "Works with Emergence above its existing stack and yield platforms.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Emergence's agents",
+          "what": "Use their understanding of complex chip architectures and manufacturing processes across design verification and production.",
+          "agent": "Specialised agents, embedded with subject-matter expertise, span the lifecycle.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Emergence's agents",
+          "what": "Automate investigations, decisions and corrective actions, to find defects early, optimise yields and reduce time to market.",
+          "agent": "Investigate, decide and act on corrections.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The engineers",
+          "what": "Focus on what matters most, with the workflows adapted to their teams' needs.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Emergence",
+          "what": "Keeps validated decisions and learned remediations in persistent memory, so each execution adds to the next.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}
