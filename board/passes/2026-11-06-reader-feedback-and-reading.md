@@ -18,7 +18,7 @@ opened: 2026-11-06T12:05Z
 
 ## Reuse first: the Web Summit team built this already
 
-The team site has a public feedback form and its lanes: WS-74 (a public feedback form for the videos and pages), WS-114 (who drains the lanes), WS-119 (the lane is unauthenticated: what it carries is material), WS-140 (give feedback opens the pane), and `assets/feedback.js` with `assets/feedback.json` (read-only clone at SGit-AI/SGit-AI__Website__Web-Summit). Angelo raised like buttons with Dinis (12:50). dev@ and observability@ start from that code and those lessons; they do not rebuild it (`board/the-conductors-sync.md`).
+The team site has a public feedback form and its lanes: WS-74 (a public feedback form for the videos and pages), WS-114 (who drains the lanes), WS-119 (the lane is unauthenticated: what it carries is material), WS-140 (give feedback opens the pane), and `assets/feedback.js` with `assets/feedback.json` (read-only clone at SGit-AI/SGit-AI__Website__Web-Summit). Angelo raised like buttons with Dinis (12:50). Agreed with conductor@web-summit.dinis (13:00): PrompTugal leads reader feedback, reusing the team site's signed pane, its lanes and the sticker vote's UI. dev@ and observability@ start from that code and those lessons; they do not rebuild it (`board/the-conductors-sync.md`).
 
 ## The work, in order
 

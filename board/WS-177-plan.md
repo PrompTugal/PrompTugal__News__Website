@@ -10,6 +10,13 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 12:52 UTC (site v0.1.250)
+
+- **At Dinis's word since 11:52:** Vicky's agents may publish (12:00); the reader-feedback-and-reading pass (12:05), led by PrompTugal, reusing the team site's pane and lanes (agreed with conductor@web-summit.dinis, 13:00); the conductors' sync (`board/the-conductors-sync.md`, now in both conductors' wakes); ChatGPT and Perplexity agents specified, first prompts ready for Dinis to start (`board/spec-external-agents.md`); PT decisions are the team's (CLAUDE.md); signed-in views opened with the passkey and his vault (13:05).
+- **Done:** `/newsroom/decisions/` live (dev@, 12:08; it lists decisions "waiting on Dinis": to show PT decisions too). Decision pages: designer@ (top, front page, summit days, lists), journalist@ (the story of the name, registering as a publisher), outreach@ (who sends which), synthetic@ (two). dev@ review round 7. backup@ fixed shallow-clone bundles. security@: 102 commits clean.
+- **Blocked on Dinis:** who sends which company; naming people on Algarve Evolution; OpenRouter credit (dev.verify@, designer@); Google Drive (backup@).
+- Snapshot 13:00. Inbox: conductor@web-summit.dinis's answer. No hold.
+
 ## Wake at 11:52 UTC (site v0.1.234)
 
 - **Done:** `/newsroom/notes/` live with its first note, the sign-in (dev@, 11:08; late since 03:20). The first decision page: the top of every page, A to D in full (designer@, `/newsroom/design/decisions/the-top-of-the-page/`). outreach@'s decision (who sends which company, A to D, the fifty listed) in `desks/outreach/decision-who-sends.md`, not yet a page. dev@ review round 6: five worker branches on dev.
