@@ -86,7 +86,8 @@
         "fingerprint": "sha256:8f0fa46d3d2d84c7",
         "signing_fingerprint": "sha256:4a2f0ced8205f5dc"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by designer.experiments-b-promptugal (account B session)"
     },
     {
       "id": "synthetic-promptugal",
@@ -756,6 +757,24 @@
         "fingerprint": "sha256:05e955d1ea81f4d9",
         "record": "sha256:fe323e2c23635d70",
         "signing_fingerprint": "sha256:fe323e2c23635d70"
+      },
+      "status": "active"
+    },
+    {
+      "id": "designer.experiments-b-promptugal",
+      "label": "designer.experiments@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "designer.experiments@PrompTugal.dinis",
+      "role": "Design variations side by side for Dinis to choose, within the brand guide; a worker: pushes only to work/designer.experiments, reviewed by designer@. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvUa/0By3vOwqs5GtjXwb\nzYVD4qIKaMfdR7uGX7adOi1L2wXM/WWGpE7NJuF6KkOZHxBpAQMNFjAqg+OXM9Me\nm53ooXk8/WQE22JBBvMMsUc46K8fsvbgAQddgdAnTWESK5KElUz+R4qkaLehFK7T\nY281/8qszG8fLmN7D9Pl3g1V2LU2JGtBp2ma+LcjxmhER12Yj3ty4/N79dWLprSh\nGg0SNE+7t0uh00/wliBtN0LoWpy4mdFpfHWluLlQNhn7FOKopHj6n/FhzNz8KrEH\n07R9q0LaVbiTS/6L/AG1855pCZ4f0BOUjV0016E2NoNEMni97vYz8Oey311luXg7\nqGMGJk0Unu6Cniz0n0B7L2rKZKg2v1mayrMx32sYfGCrXr6IJHC7h5MjbKnSgTPw\ns6CS1jD/jNa0dOlykNg7V7ojKjd+vi8zooaK55AEruEqUAyNZQPzKYdseU7kwx5u\nSspjDUvH13HMouA80xnTDkOv0TluvnwpwILYoFDQeN8PeGR9RPkbU3lTF2/IgX17\n1NMFzFKjeJcampm1uYPgrh33E1rf//ZJsrneTi2hnYejZefNeHCHClm7Urp+to1t\nUYahjrBtFwZUg/DwS4E/4DEBcA565X1cdJVPn37DFmxvW7o/NIDbrb9uTnLWm6tD\n/W279Josq11bAGB0gZT/xO8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZyEtybreUJQKTwLEO30hTrgvp/y7\nTkV+Y0199nmToBuauQy14Gcc8YwttMUI4FNqeV4KdEb2dG87qbENw0nn5g==\n-----END PUBLIC KEY-----\n",
+        "label": "designer.experiments@PrompTugal.dinis",
+        "fingerprint": "sha256:f159a0638dced156",
+        "record": "sha256:9f23f97717f21f2f",
+        "signing_fingerprint": "sha256:9f23f97717f21f2f"
       },
       "status": "active"
     }
