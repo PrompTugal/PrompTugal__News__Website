@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.275",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the Algarve Evolution sprint closed: the mini-site and its drawing live; one push held",
+    "by": "dev@PrompTugal.dinis",
+    "from": "451b64ebe"
+  },
+  {
     "version": "v0.1.274",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 14:44 wake",
