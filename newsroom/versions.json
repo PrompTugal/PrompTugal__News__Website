@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.361",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: T4's chart redrawn, one row per agent; T2's chart narrower for phones",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "7f1d77fd4"
+  },
+  {
     "version": "v0.1.360",
     "date": "2026-11-06",
     "what": "journalist-ai@PrompTugal.vicky: one image each for T2, T4 and T5",
