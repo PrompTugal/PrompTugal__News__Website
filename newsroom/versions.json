@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.304",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 18:05: S1 fixed and post-reviewed (S1b open for board/ and design/); the offline mode pre-reviewed; a hand-over debrief",
+    "by": "security@PrompTugal.dinis",
+    "from": "9968b4e37"
+  },
+  {
     "version": "v0.1.303",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: an offline mode (Silvio's idea), as a pass",
