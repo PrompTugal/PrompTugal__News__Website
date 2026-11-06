@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.332",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.vicky: /how-we-publish/'s summary: \"How a story becomes an article on PrompTugal.news, step by step.\"",
+    "by": "dev@PrompTugal.vicky",
+    "from": "d29bc9fb6"
+  },
+  {
     "version": "v0.1.331",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: board/schedule.json: investors@'s row with its start time (the gate)",
