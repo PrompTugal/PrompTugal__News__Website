@@ -11,8 +11,8 @@ import crypto from 'node:crypto';
 const ROOT = process.cwd();
 const DESK = path.join(ROOT, 'desks/outreach');
 const SITE = 'https://promptugal.news';
-const DRAFTED = '2026-11-06T0300Z';
-const DRAFTED_ISO = '2026-11-06T03:00:00Z';
+const DRAFTED = '2026-11-06T0400Z';
+const DRAFTED_ISO = '2026-11-06T04:00:00Z';
 const THREAD = '2026-11-06-promptugal-page';
 const BY = 'outreach (PrompTugal.dinis)';
 
@@ -124,10 +124,10 @@ function askPt(name, ask, kind) {
 
 function en(name, url, s, ask, editor, kind, topic) {
   return {
-    subject: `${name} on PrompTugal.news, before Web Summit`,
+    subject: `We built a page about ${the(name)}: could you check it?`,
     body: [
       `Hello ${name} team,`,
-      `Ahead of Web Summit Lisbon, we have written a page about ${the(name)} on PrompTugal.news:\n${url}`,
+      `We have just built a page for you on PrompTugal.news, about ${the(name)} at Web Summit Lisbon, from public pages. Could you check it is correct?\n${url}`,
       hookEn(name, s, topic),
       ...(kind === 'company' ? [flowsEn(name)] : []),
       ...articlesEn(),
@@ -143,10 +143,10 @@ function en(name, url, s, ask, editor, kind, topic) {
 }
 function pt(name, url, s, ask, editor, kind, topic) {
   return {
-    subject: `A ${name} no PrompTugal.news, antes da Web Summit`,
+    subject: `Fizemos uma página sobre a ${name}: podem confirmar?`,
     body: [
       `Olá equipa ${name},`,
-      `Antes da Web Summit Lisboa, escrevemos uma página sobre a ${name} no PrompTugal.news (por agora, a página está em inglês):\n${url}`,
+      `Acabámos de fazer uma página para vocês no PrompTugal.news, sobre a ${name} na Web Summit Lisboa, a partir de páginas públicas (por agora, em inglês). Podem ver se está certa?\n${url}`,
       hookPt(name, s, topic),
       ...(kind === 'company' ? [flowsPt(name)] : []),
       ...articlesPt(),
@@ -165,7 +165,7 @@ function pt(name, url, s, ask, editor, kind, topic) {
 function eml(msg, lang, id, editor) {
   const subj = /^[\x20-\x7e]*$/.test(msg.subject) ? msg.subject : `=?UTF-8?B?${Buffer.from(msg.subject).toString('base64')}?=`;
   return [
-    `Date: Fri, 06 Nov 2026 03:00:00 +0000`,
+    `Date: Fri, 06 Nov 2026 04:00:00 +0000`,
     `Subject: ${subj}`,
     `X-PrompTugal-Draft: from ${editor} (proposed), to ${id}'s published channel; addresses filled by the sender`,
     `X-PrompTugal-Drafted-By: ${BY}`,
