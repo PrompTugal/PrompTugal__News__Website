@@ -90,7 +90,7 @@
       "superseded": "2026-11-06T22:50Z by designer.experiments-b-promptugal (account B session)"
     },
     {
-      "id": "synthetic-promptugal",
+      "id": "synthetic-promptugal-0",
       "agent": "synthetic@PrompTugal.dinis",
       "label": "synthetic@PrompTugal.dinis (Claude Code session)",
       "role": "The synthetic readers of PrompTugal.news (synthetic@PrompTugal.dinis): invented personas, each labelled SYNTHETIC, who read the site on a phone and a desktop and report what works, what confuses and what loses them; each finding goes to the agent who owns the fix. A session key: it ends with its session.",
@@ -103,6 +103,26 @@
         "label": "synthetic@PrompTugal.dinis",
         "fingerprint": "sha256:769f3c60f0efb6c5",
         "signing_fingerprint": "sha256:271dba4290399aaf"
+      },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:45Z",
+      "superseded_by": "synthetic-promptugal",
+      "superseded_note": "The first synthetic session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from synthetic-promptugal to synthetic-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
+    },
+    {
+      "id": "synthetic-promptugal",
+      "agent": "synthetic@PrompTugal.dinis",
+      "label": "synthetic@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The synthetic readers of PrompTugal.news (synthetic@PrompTugal.dinis): invented personas, each labelled SYNTHETIC, who read the site on a phone and a desktop and report what works, what confuses and what loses them; each finding goes to the agent who owns the fix. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account B on 6 November 2026 at 22:44 UTC (pki-agent.mjs keygen --session, the copy matching sha256 fcb28a1c...02ab) and pushed to this repository by that session, taking over from synthetic-promptugal-0 (CLAUDE.md, 'Handing a role to a new session'; board/the-account-move.md). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06T22:45Z",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArVO7C/VTL+Rqkax/KK9A\ntXO82j9uYLcGdF8UogFKbelC99Aow4jXtmOQfJ3Ymyznu2Lg9rIqq7dIJugB/woi\nq9pSS3hQtxYbI5aTrJC8HuMDkRHmngBzULMs6J1/hRr2OLGGtjz3UJJHM/zyOFJ/\n3Wgc5/uoc2YGAYsU3EFEQlUz/69lMVdCMxlh96F00qfukcoxqPL+qP3Q+NIUtv17\nt8EQ4ynNPhor1UVVYMBbOMy48WS/P5YI+ABJS3vj7SPvx2VcLRO7uphDMNZHVw+N\npza741ahVF7U4TqTQvOZLL5pjItGBBNHKT7ZwdAINxdHvfRAaVZKtjJZo/6XCls9\nrnXhkcyOq99B5YBGQq2A+is5jgGrxPA8aYrQ5UbWva64pflQzpxM8CGfgey1lq9K\nKI/8F0r6cK6lTpLH/W7QKiydzJTNq1LXsv3/kxv7GZtJAd7Z1V5RQUT/hwjeekLD\neXXQVMcw8I17wyrTVYcwCbKui30jWPOjhQC6WaQUh9kQWTicWVp3sCL+U+V5ajjF\neNXxFbJs3MiVwKO7wS5sdm6PXeyHRlz4Nq26RERXN5oE0D2vxU+2LZpvd2O8jO8n\nqsELvS4pd7+dCVnTV5IOXfViLgc4krhRGcgD/jCgH5VCVmu9Ud2JS6r/PJsqcfKe\nFfG8rwG9vgnLkolKpjN33y0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJpko7M2c2fzCc3o525DXAg+oYWkY\nPDBr46J5XjiAM5ie/85eA0JCx5Lau4JkbF91EA5ZXQE4nKEK9k5zDTkzzg==\n-----END PUBLIC KEY-----\n",
+        "label": "synthetic@PrompTugal.dinis",
+        "fingerprint": "sha256:7bcf22c9fe51e0c2",
+        "signing_fingerprint": "sha256:e545d41398236e61"
       },
       "status": "active"
     },
