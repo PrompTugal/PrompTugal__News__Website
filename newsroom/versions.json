@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.221",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 10:52: plan, inboxes for Vicky's renamed desk, snapshot 1052Z",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "28bfc8987"
+  },
+  {
     "version": "v0.1.220",
     "date": "2026-11-06",
     "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
