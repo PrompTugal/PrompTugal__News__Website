@@ -1,15 +1,16 @@
 {
   "agent": "backup@PrompTugal.dinis",
   "focus": "regular full backups of the repository and every vault; the recovery plan with security@",
-  "state": "working: backups verified by a real restore now; still no durable destination (Drive not granted)",
-  "updated": "2026-11-06T12:25Z",
+  "state": "working: Drive granted by Dinis in session (\"Go\", 13:2x UTC); folder made, manifest uploaded; the bundle cannot go through the Drive tool",
+  "updated": "2026-11-06T13:30Z",
   "done": [
     "Session key backup-promptugal (record sha256:be79ffe28ee62bcb, encryption sha256:feab076b8f1d1683) in board/keys.json, linked to the operator key sha256:db7f79fdd87e030a; pki-agent.mjs sha256 fcb28a1c... matches abp@'s record",
     "ROLE.md, plan.md (tiers, verification, restore)",
     "tools/backup.sh: full repository bundle with sha256 manifest, verified; tested once (bundle in the container only)",
     "wake 06:10: full repository bundle (head bb9539e, 72.7 MB, verified, sha256:57ff26ba700b8b74...), kept in the container only; I hold no vault key, so no vault was backed up; ABP read (board/abp/backup.md): Drive and any connector stay outside my mandate",
     "wake 12:12: FOUND A DEFECT in my 06:10 backup: the session clone was shallow, so the bundle was incomplete although git bundle verify passed (a clone of it failed). backup.sh now unshallows first, clones the bundle, compares heads and runs fsck; the 06:10 bundle is void (it never left the container)",
-    "wake 12:12: full bundle at head 190aa764 (774 commits, ~78 MB), restored by clone and the gate on the clone prints OK (v0.1.237); sha256:512c87a7cbf87fe8...; container only. No vault key held, no vault backed up. security@'s review of plan.md read: agreed, with two additions (never read ~/.sg-send/ or lane files; run the gate on a restored clone), both now in practice"
+    "wake 12:12: full bundle at head 190aa764 (774 commits, ~78 MB), restored by clone and the gate on the clone prints OK (v0.1.237); sha256:512c87a7cbf87fe8...; container only. No vault key held, no vault backed up. security@'s review of plan.md read: agreed, with two additions (never read ~/.sg-send/ or lane files; run the gate on a restored clone), both now in practice",
+    "13:22 Dinis, in my session, answered 'Go' to using the Google Drive connector with a new folder PrompTugal-backups (his word; abp@ to write it into board/abp/backup.md). Folder created (id 1tf7Ko859LbitzA5Mn5jc3iOZCDhcEBhD, in the Drive of the connected agent account, not Dinis's personal one) and the 12:12 manifest uploaded as a test (file id 1waFe_Z_cd4-gfUyToghzj1s2wPuKvz9Q)"
   ],
   "next": [
     "Agree plan.md with security@, accountant@ and the conductor",
@@ -17,16 +18,18 @@
     "Vault archives once security@ lists which vaults matter and the holders give read access"
   ],
   "asks": [
-    "Dinis: grant the Google Drive connector in my ABP (folder, cadence), or name another destination; say which vaults cannot be lost",
     "security@: recovery steps per vault, the laptop copy, review of plan.md",
     "accountant@: a budget for backup runs",
     "conductor@: a schedule entry, a lane in board/inbox.json and an inbox",
-    "abp@: a grant for board/team/backup/"
+    "abp@: a grant for board/team/backup/",
+    "abp@: write Dinis's 'Go' for Google Drive (folder PrompTugal-backups, manifests only for now) into board/abp/backup.md",
+    "Dinis: the Drive connected here belongs to an agent account, not yours; is that the place you want? And the bundle needs another path: you or a laptop clone pull it (a clone is a full copy), or a way for a shell to upload to Drive (a credential through request_credential, which is yours to give), or a vault append lane you create"
   ],
   "notes": [
     "A bundle in this container is not a backup: the container is ephemeral. Nothing is durable until a destination is granted.",
     "The bundle is 72.7 MB: the repo is large, so deltas (git bundle --since) matter. Security@'s keys-and-vaults.md has no recovery steps for backups yet (its own gap 1).",
-    "An incremental bundle (git bundle create X..HEAD) was 4.9 MB against ~78 MB full: deltas are cheap, to use once there is a durable destination."
+    "An incremental bundle (git bundle create X..HEAD) was 4.9 MB against ~78 MB full: deltas are cheap, to use once there is a durable destination.",
+    "The Drive tool takes file content inside the tool call (text or base64), so the content passes through my context: a 78 MB bundle, or even the 5 MB delta, is not possible. Only manifests and small files fit. Drive therefore holds the record of each backup, not the backup."
   ],
   "wakes": [
     {
