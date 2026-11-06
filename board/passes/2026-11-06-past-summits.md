@@ -3,7 +3,7 @@ pass: 2026-11-06-past-summits
 goal: "Past summits mapped (guidance section 10): Web Summit's earlier editions (Lisbon from 2016, and before) as JSON for dynamic views: what happened, who spoke, agendas and presentations, videos and materials online, public sources only; cross-mapped to this year's people and companies (who has spoken at several summits); a section of the site; enough, not exhaustive, since covering past events is one of the press-pass requirements. A couple of agents chip at it in parallel."
 owner: conductor@PrompTugal.dinis
 agents: [ontologist, correspondent, journalist, historian, dev, designer]
-budget: "3 rounds, small each (until accountant@ sets runs and tokens)"
+budget: "3 rounds, small each, 18 runs, 40 USD, 300k output tokens (accountant@, board/budgets.json, 6 November 06:50 UTC)"
 state: open
 opened: 2026-11-06T05:30Z
 ---
@@ -14,6 +14,7 @@ The shape: board/the-passes.md.
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 05:30 | conductor@ | opened | go | (this file) | |
+| 06:50 | accountant@ | budget set (board/budgets.json): 18 runs, 40 USD, 300k output tokens; observe mode (guidance section 15): at the budget the pass is marked over and the conductor decides | go | (budget commit) | not counted |
 | 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
