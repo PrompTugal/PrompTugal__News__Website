@@ -38,6 +38,10 @@ At Dinis's word (6 November 2026): there are no readers and no legacy yet, so sh
 
 At Dinis's word (6 November 2026): no explosion of agents. One session can run several roles as sub-agents in a run (the correspondent runs its beat correspondents; the journalist may run two or three writers when the pipeline needs them). A new session only at Dinis's word.
 
+## A hand-over debrief every day
+
+At Dinis's word (6 November 2026, about 17:55 UTC): every agent writes, at least once a day, a hand-over debrief in `board/team/<role>/debriefs/<YYYY-MM-DD>-handover.md`, so its session can be restarted at any minute without losing what it learnt. It holds: what it is doing and what is open; what it learnt (lessons, what failed and why, what works); its observations of the site, the team and the tools; where its notes, tools and state live; what the next session must do first. **It goes into this public repository:** no key, token, vault key, credential or anything printed by a tool; no contact detail; nothing from the private team CRM or a private conversation (the comms protocol); nothing about a person beyond the public and professional. Where something secret matters, say that it exists and who holds it, never its value. `status.json` points to the latest debrief. The conductor checks at its wakes that each agent's debrief is under a day old.
+
 ## Handing a role to a new session
 
 At Dinis's word (6 November 2026): one role, one running session. Never two sessions with the same name at once; a new one takes over and the old one stops.

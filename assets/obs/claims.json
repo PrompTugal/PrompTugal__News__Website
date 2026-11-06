@@ -1,0 +1,22 @@
+{
+ "about": "Vault onboarding for PrompTugal.news readers (Dinis Cruz's brief, board/spec-vault-onboarding.md; made by observability@PrompTugal.dinis on 6 November 2026). Public on purpose: the pool vault's read key reads the pool and the mailbox; the append token only writes a claim; the encryption key only seals one; the issuer's signing key is what the browser checks everything against (pin issuer_fingerprint). Formats: newsroom/tools/obs/claims_lib.py.",
+ "api_key_prefix": "sgk_",
+ "claims": {
+  "append_token": "048a52f32a7dbb47cc32b629a8764a644bcc0947be042809e0e676ffa0bd8ab3",
+  "vault_id": "0hot12xv"
+ },
+ "enabled": false,
+ "endpoint": "https://dev.send.sgraph.ai",
+ "issuer": {
+  "fingerprint": "sha256:167f6342fe297d00",
+  "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELjTBOQ36tikAYDcxOfvjtIH9cnRI\nhaYVctTTbe4SS5NW01ALebfTlRt8QPIkD7oduZyrwVeWA0kCo5zVgJfrWw==\n-----END PUBLIC KEY-----\n"
+ },
+ "pool": {
+  "read_key": "sgit_public_read_7ae7b65ef14f10884ba9cfec24ba1f71fe573f5e6ffdb582cb082c45f4ea9aff",
+  "vault_id": "06gtj33k"
+ },
+ "sweep": {
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAj/ygILOcQFbwwHQY4eOO\nh3lqu9bI0IxPinRLeLYQAjudJdB+P5tUB83++lLpSiqMkdLrbP8zn/7974Vp0gTC\nwSH7uNJ3R/qKNBcuj5ELYgfVyU7cjnJb35CnCBnni85l37bkHeAU+P/T0S/kXirO\nx3i03Q/v6n1KJcuInYdRY/rUryVvD940lZ56quIoPXOCs4DT4HClrvXj60cuWGpr\nq6Kiyb0wiLV6EraxPXUxhXk1qmmMMUM6NH2xd1hohrp8nAi0T6Zg9Bwk9C5vm43X\ngl5Ha55AWOJ4proxqJTWtjMuDW1KqUCHC9R9ipWKUyPtAL8OWtlcK7qf1TqOHYu8\nuxUjpBWhDx3XPyIF1i3w+75ex8n8KdYk7Q7w8TgDwhWWd5N1OS09jy48XkQzpys7\nDfeF8f1xhjKLbPH1omHeNY98yVfg5+7UfJXcqXvH9+fU5KdMkwFFv1x1XQDHR9Hc\neydGWcjmfq4LXHgHUrEmMO6wg9/uY3nJoCV3IdbuyHlFdY/KTChtYCLdH3IejWQO\nPjgjEBeMjHaecjnqH+8vZuJAZj6QygAk4T/7kcP4nGqU8c6u3N+qeQ4CulS30KAD\n5uYq9B42NCHoBJ65eC8DwahhJ+yDQXleQe+kAchil67YzwOph9/LbJgLKkmID+mR\nhnC8hBqEjSsmUv7AbPMpyeECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+  "fingerprint": "sha256:b951b45354bf5563"
+ }
+}

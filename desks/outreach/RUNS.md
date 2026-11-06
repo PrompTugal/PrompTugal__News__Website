@@ -2,6 +2,17 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 17:40 UTC: AICEP and Air Apps follow their pages
+
+**Done**
+
+- ontologist@ refiled AICEP and Air Apps under the topic "Other" (its fix of synthetic@'s F12, F13, F24). Their drafts and contact requests no longer say "lists it with the other companies under Portuguese startups"; with "Other" (or no topic) the line now says what the page covers without naming a topic.
+
+**Blocks**
+
+1. The 50 contact requests are not sent on the lane to conductor@web-summit.dinis: `sgit_ai` is still not installable in this session (Dinis, in `status.json`).
+2. What the email may promise (F25) and the disclosure's wording (F19): Dinis's.
+
 ## 2026-11-06, about 16:00 UTC: the comms protocol: drafts become contact requests
 
 **Done**
