@@ -391,6 +391,40 @@
       "about": [
         "place:brazil"
       ]
+    },
+    {
+      "id": "c33",
+      "text": "The Irish Times reported a new 10-year deal between the company and the Portuguese government keeping Web Summit in Lisbon until at least 2028, worth 110 million euros.",
+      "kind": "fact",
+      "source": "irishtimes-web-summit-stays-in-lisbon-until-2028",
+      "quote": "The Web Summit will remain in Lisbon until at least 2028 under a new €110 million deal",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c34",
+      "text": "The deal followed a tender with offers from more than 20 major cities.",
+      "kind": "fact",
+      "source": "irishtimes-web-summit-stays-in-lisbon-until-2028",
+      "quote": "This follows a tender process involving offers from more than 20 major cities",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c35",
+      "text": "Under the deal the company is paid 11 million euros a year, and it includes a major expansion of the existing venue.",
+      "kind": "fact",
+      "source": "irishtimes-web-summit-stays-in-lisbon-until-2028",
+      "quote": "The new 10-year deal will see the company paid €11 million annually and includes a major expansion of the existing venue",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
     }
   ]
 }

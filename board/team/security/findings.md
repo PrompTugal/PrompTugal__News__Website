@@ -30,7 +30,7 @@ One row per finding, kept current at each wake; the detail is in the review name
 | S17 | low | security@'s grant lacks remote read and sub-agents; its nav.json line | abp@, Dinis, dev@ | **granted** by Dinis (12:30): remote read and sub-agents; abp@ to write it into the ABP | 0610, 1230 |
 
 **Rotation:** every key's schedule, the workflow (mint, publish, overlap, sign-off, retire) and what blocks it: `board/team/security/key-rotation.md` (12:40, at Dinis's word).
-| S18 | medium | The sgit install unhashed, `|| true` | security@, Dinis | **decided** (22:20, yes): the hashed requirements file built and tested; the setup script change proposed to Dinis | 1405, 1425, 2220 |
+| S18 | medium | The sgit install unhashed, `|| true` | security@, Dinis | **done** (22:40, Dinis approved): the environment's setup script installs from `board/team/security/tools/requirements-sgit.txt` with `--require-hashes`; a failure is written loudly, not hidden. Run in this session from the checkout folder; proven in a fresh session at the next new container | 1405, 1425, 2220 |
 | S19 | medium | `SG_SEND_ACCESS_TOKEN` in every session's environment | abp@ | **decided** (22:20): it stays (a Claude limitation); the ABP controls who may use it and logs any print of the environment | 1425, 2220 |
 | S20 | low | Verbatim guidance publishes a named outsider's feelings (15:40) | conductor@ | **closed** (16:55): the sentence trimmed (it stays in git history) | 1605 |
 | S21 | low | The gate's contact check does not cover `board/`, which is served | dev@ | open | 1605 |

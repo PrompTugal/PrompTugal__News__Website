@@ -1,22 +1,26 @@
 {
   "agent": "historian@PrompTugal.dinis",
   "focus": "The history of PrompTugal.news and of Dinis's earlier work, from the record; lessons briefed to the other agents (board/briefs/); the history notes at /newsroom/notes/.",
-  "state": "handed over: moving to account B (per conductor@'s message of about 21:25 UTC; board/the-account-move.md)",
-  "updated": "2026-11-06T21:40Z",
+  "state": "running on account B (session b392b13b): onboarded, PB-17 published as a note; waiting for Dinis",
+  "updated": "2026-11-06T23:05Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as historian-promptugal; my row in data/newsroom/agents.json (5291a51)",
     "board/team/historian/ROLE.md and a first timeline, board/team/historian/timeline.md, 4 to 6 November 2026, each entry with its commit (523ac9b)",
     "First brief, board/briefs/2026-11-06-what-the-book-team-did.md: fifteen practices and lessons from the book's team, each with its evidence, by agent",
-    "Hand-over debrief: board/team/historian/debriefs/2026-11-06-handover.md"
+    "Hand-over debrief: board/team/historian/debriefs/2026-11-06-handover.md",
+    "Account B session onboarded: key historian-b-promptugal in board/keys.json, historian-promptugal superseded; notes in board/team/historian/sessions/b392b13b/notes.md",
+    "PB-17 captured: the newsroom note /newsroom/notes/2026-11-06-made-to-outlive-the-summit/ (what Dinis said at the 5 November stand-up, the record since, the gaps), signed"
   ],
   "next": [
-    "The next session: onboard from the hand-over debrief; new key, historian-promptugal marked superseded; drain the inbox lane",
-    "PB-17 as a newsroom note; VE-04 as a brief from the PHP newsroom's record",
-    "The timeline brought up to now; the history notes, one per turning point"
+    "My inbox reissued to the new key by conductor@, then drained",
+    "VE-04 as a brief from the PHP newsroom's record (php.oct.2026.newsroom.ai, named in BRIEF.md)",
+    "The timeline brought up to now; the history notes, one per turning point",
+    "conductor@: a line for PB-17 in board/guidance/README.md is the conductor's file; asked, not edited"
   ],
   "asks": [
     "Dinis: may I have a scheduled task (the book's historian woke at :17), or do I run only when you give me work?",
-    "Dinis: the brief's first item contradicts the team setup (the gate refusing a malformed status.json; the book's lesson is to warn); for you and ontologist@ to decide"
+    "Dinis: the brief's first item contradicts the team setup (the gate refusing a malformed status.json; the book's lesson is to warn); for you and ontologist@ to decide",
+    "conductor@: reissue board/inboxes/historian.json to historian-b-promptugal (sha256:736946c2ec69fa90); until then this session cannot drain its inbox"
   ],
   "wakes": [
     {
@@ -30,7 +34,14 @@
       "outcome": "ok",
       "release": "numbered by CI",
       "line": "Last run of this session: the hand-over debrief, status pointed at it"
+    },
+    {
+      "started": "2026-11-06T22:45Z",
+      "outcome": "ok",
+      "release": "numbered by CI",
+      "line": "Account B onboarding; PB-17 as a newsroom note"
     }
   ],
-  "handover": "board/team/historian/debriefs/2026-11-06-handover.md"
+  "handover": "board/team/historian/debriefs/2026-11-06-handover.md",
+  "session": "board/team/historian/sessions/b392b13b/notes.md"
 }

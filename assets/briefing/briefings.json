@@ -253,11 +253,11 @@
         },
         {
           "title": "How far each figure was read",
-          "text": "Solid: read at source (2025). Paler: from Wikipedia's table (2016, 2017, 2018, 2022). Dashed: a search summary only (2024). Marked n/a: no figure found (2019, 2021, 2023), and 2020 was held online."
+          "text": "Solid: read at source (2022 and 2023 from the organiser's own releases, 2025 from a news report of its figure). Paler: Wikipedia's table (2016, 2017, 2018). Dashed: a search summary only (2024). Marked n/a: no figure found (2019, 2021), and 2020 was held online."
         },
         {
           "title": "A caution",
-          "text": "The figures are the organiser's claims and the sources do not always agree: 2025 is called a record at 71,386, while 2024 is reported at 71,528. The final numbers are still to be checked.",
+          "text": "The figures are the organiser's claims and the sources do not always agree. 2025's 71,386 is below 2024's reported 71,528, so 'record attendance' does not hold for 2025; the records claimed are for investors and startups. The 2025 digits are still to be confirmed.",
           "href": "articles/web-summit-ten-lisbon-years.html",
           "link": "Read the ten Lisbon years"
         }
