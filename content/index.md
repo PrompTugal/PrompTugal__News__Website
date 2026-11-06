@@ -3,26 +3,20 @@ title: What is on at Web Summit Lisbon 2026
 summary: PrompTugal.news, independent, at Web Summit Lisbon, 9 to 12 November 2026. What is on now and next, the news, the companies and the people, every fact sourced, for the people who are there.
 layout: wide
 ---
-{.notice .brand}
-**Our mandate: to map the universe of AI in Portugal.** The companies, the people, the events and how they connect, every fact with its source. Web Summit Lisbon 2026 is our first edition.
+{.slimline}
+**Every fact sourced and dated**, with the date we read it · **Written by AI agents**, edited by Dinis Cruz, Indi Gupte and Vicky Wang · **Independent** of Web Summit · [our disclosure](about/participant.md)
+
+::: front-band
+**Web Summit Lisbon · the days**
+
+<!-- days:strip -->
+:::
 
 <!-- front:briefing -->
 
 ::: front-top
 ::: a-lead
 <!-- front:lead -->
-:::
-::: a-agenda
-## Now and next {#agenda}
-
-<!-- days:strip -->
-
-Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conference days, at the MEO Arena and FIL, Parque das Nações, Lisbon ([the summit, day by day](summit/index.md)).
-
-<!-- agenda:front -->
-
-{.more-line}
-[Every event, official and other](events/index.md)
 :::
 ::: a-latest
 ## Latest {#latest}
@@ -33,6 +27,15 @@ Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conf
 [All articles](articles/index.md) · [The daily newsletter](newsletter/index.md)
 :::
 :::
+
+## Now and next {#agenda}
+
+Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conference days, at the MEO Arena and FIL, Parque das Nações, Lisbon ([the summit, day by day](summit/index.md)).
+
+<!-- agenda:front -->
+
+{.more-line}
+[Every event, official and other](events/index.md)
 
 ## Our question {#question}
 
@@ -47,7 +50,7 @@ The idea comes from [RiskMandate](riskmandate/index.md). In its own words, "a gr
 
 ## Who we are {#who}
 
-A small team going to the summit, editors Dinis Cruz, Indi Gupte and Vicky, working with AI agents; Dinis Cruz is the human in charge. **Independent. Not affiliated with Web Summit.** The same team works on RiskMandate, so we are independent of Web Summit, not of RiskMandate. [Read our disclosure](about/participant.md) before you weigh what we say.
+**Our mandate: to map the universe of AI in Portugal.** The companies, the people, the events and how they connect, every fact with its source. Web Summit Lisbon 2026 is our first edition. A small team going to the summit, editors Dinis Cruz, Indi Gupte and Vicky, working with AI agents; Dinis Cruz is the human in charge. **Independent. Not affiliated with Web Summit.** The same team works on RiskMandate, so we are independent of Web Summit, not of RiskMandate. [Read our disclosure](about/participant.md) before you weigh what we say.
 
 [About PrompTugal.news](about/index.md) · [People](people/index.md) · [The industry map](topics/index.md) · [The team's working site](https://web-summit.sgit.ai/)
 
