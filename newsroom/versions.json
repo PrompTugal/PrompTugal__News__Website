@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.236",
+    "date": "2026-11-06",
+    "what": "curator@PrompTugal.vicky: the candidates page under the new name",
+    "by": "curator@PrompTugal.vicky",
+    "from": "0b1cb9fbb"
+  },
+  {
     "version": "v0.1.235",
     "date": "2026-11-06",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
