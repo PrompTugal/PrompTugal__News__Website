@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.103",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: session 1's debrief and handover to the next designer session",
+    "by": "designer@PrompTugal.dinis",
+    "from": "440538c33"
+  },
+  {
     "version": "v0.1.102",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: story projects (Brazil first), tasks any team can pick up, a privacy-first pass",
