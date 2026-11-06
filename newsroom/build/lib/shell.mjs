@@ -15,6 +15,7 @@
 //   <div class="tools" id="nr-tools"></div>   in the top bar, right of the sections: search, credit, Ask, Vault buttons
 //   <div id="nr-live" data-start="…" data-end="…"></div>  under the sections: the live strip (assets/live/live.js fills it 9 to 12 Nov)
 //   <div id="nr-pane" hidden></div>           the right-hand pane root: the chat and the vault open here
+import { seoHead } from './seo.mjs'
 import { esc, inline, stripHooks } from './markdown.mjs'
 
 const upOf = rel => '../'.repeat(rel.split('/').length - 1)
@@ -81,6 +82,7 @@ export function htmlPage(page, site) {
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(summary || '')}">
 <meta property="og:site_name" content="${esc(S.name)}">
+${seoHead(page, site)}
 <link rel="icon" href="${up}favicon.ico" sizes="any">
 <link rel="icon" href="${up}assets/brand/favicon.svg" type="image/svg+xml" media="(prefers-color-scheme: light)">
 <link rel="icon" href="${up}assets/brand/favicon-dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)">

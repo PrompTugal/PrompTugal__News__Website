@@ -19,6 +19,8 @@
 /api/
 /llms.txt
 /sitemap.xml
+/news-sitemap.xml
+/feed.xml
 /robots.txt
 /.generated.txt
 

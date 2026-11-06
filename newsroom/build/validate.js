@@ -5,7 +5,7 @@
 //   2. version agreement: version.txt against every page's badge, llms.txt and every markdown twin
 //   3. internal links: every relative href/src in every page resolves; no page is an orphan
 //   4. canonical host: every page declares a canonical and og:url on the host in CNAME
-//   5. the agent surface: every page has its .md twin, is in llms.txt and in sitemap.xml, and ends with an agent block
+//   5. the agent surface: every page has its .md twin, is in llms.txt and in sitemap.xml (unless it says noindex), and ends with an agent block
 //   6. key-leak tripwire: no private key, sgit key, vault-key shape or API token in any file (newsroom/build/secrets.cjs)
 //   7. public forever: no email address or phone number in content/, data/ or desks/ (desks/ is served as is)
 //   8. articles: front matter complete (title, date, author, summary, license), a title under 12 words (brief 8),
@@ -108,7 +108,8 @@ for (const f of html) {
     if (!exists(r.replace(/\.html$/, '.md'))) errors.push(`${r}: no markdown twin`)
     if (!/class="agent-block"[\s\S]*<\/div>\s*<\/body>/.test(t)) errors.push(`${r}: does not end with an agent block`)
     if (r === '404.html') continue
-    if (!listed.includes(r)) errors.push(`sitemap.xml is missing ${r}`)
+    // a page kept out of search (<meta name="robots" content="noindex...">, newsroom/build/lib/seo.mjs) stays out of the sitemap too
+    if (!listed.includes(r) && !/<meta name="robots" content="noindex/.test(t)) errors.push(`sitemap.xml is missing ${r}`)
     if (!llms.includes(r.replace(/\.html$/, '.md'))) errors.push(`llms.txt does not name ${r.replace(/\.html$/, '.md')}`)
 }
 

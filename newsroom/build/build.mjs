@@ -14,7 +14,8 @@ import { loadData } from './lib/data.mjs'
 import { loadFeatures } from './lib/features.mjs'
 import { buildGraph } from './lib/graph.mjs'
 import { htmlPage, twinPage, twinOf } from './lib/shell.mjs'
-import { write, json, llmsTxt, sitemapXml, robotsTxt, finish, written } from './lib/writers.mjs'
+import { write, json, llmsTxt, finish, written } from './lib/writers.mjs'
+import { sitemapXml, newsSitemapXml, rssXml, robotsTxt } from './lib/seo.mjs'
 
 const { NAV, BASE, VERSION, matches, gitDate } = config
 const features = await loadFeatures()
@@ -104,8 +105,12 @@ const order = [...NAV.llms_groups.map(g => g.group), ...new Set(listed.map(p => 
 const groups = [...new Set(order)].map(group => ({ group, pages: listed.filter(p => p.group === group) }))
 const apiLines = features.flatMap(f => f.llms ? [f.llms(ctx)] : []).join('')
 write('llms.txt', llmsTxt(config, pages.find(p => p.rel === 'index.html'), groups, apiLines))
-write('sitemap.xml', sitemapXml(BASE, listed))
-write('robots.txt', robotsTxt(BASE))
+// the sitemaps, the feed and robots.txt: newsroom/build/lib/seo.mjs (with each page's head tags)
+const articlesNewest = pages.filter(p => p.type === 'article' && p.listed).sort((a, b) => String(b.meta?.date || '').localeCompare(String(a.meta?.date || '')))
+write('sitemap.xml', sitemapXml(site, listed))
+write('news-sitemap.xml', newsSitemapXml(site, articlesNewest))
+write('feed.xml', rssXml(site, articlesNewest))
+write('robots.txt', robotsTxt(site))
 
 finish()
 console.log(`built ${pages.length} pages (${written.size} files) at ${VERSION}`)

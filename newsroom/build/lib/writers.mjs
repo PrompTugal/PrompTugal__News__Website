@@ -1,4 +1,4 @@
-// Writing generated files: every page's HTML and twin, JSON, llms.txt, sitemap.xml, robots.txt, and the record of
+// Writing generated files: every page's HTML and twin, JSON, llms.txt (the sitemaps, feed and robots.txt: lib/seo.mjs), and the record of
 // what this build wrote (.generated.txt). Files an earlier build wrote and this one did not are deleted (never a
 // tracked file). Everything written here is gitignored: generated output is never committed.
 import fs from 'node:fs'
@@ -23,8 +23,6 @@ export function llmsTxt({ HOST, VERSION, AGENT, OPERATOR, REPO, BASE }, hub, gro
         groups.filter(g => g.pages.length).map(g => `## ${g.group}\n` + g.pages.map(p => `- [${p.title}](${BASE}${p.rel.replace(/\.html$/, '.md')}): ${p.summary || ''}`).join('\n') + '\n\n').join('') + extra
 }
 
-export const sitemapXml = (BASE, pages) => `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map(p => `<url><loc>${BASE}${p.rel}</loc></url>`).join('\n')}\n</urlset>\n`
-export const robotsTxt = BASE => `User-agent: *\nAllow: /\nSitemap: ${BASE}sitemap.xml\n`
 
 export function finish() {
     const listFile = R('.generated.txt')

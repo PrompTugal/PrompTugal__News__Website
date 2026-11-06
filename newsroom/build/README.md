@@ -98,6 +98,13 @@ agent block, page-type and page-date).
 **`gate`** (in `validate`) holds the same paths and constants, plus `generated` (the set of files the build wrote),
 `json(path)`, `text(path)` and `sha256(string)`.
 
+## Search and link previews (`lib/seo.mjs`)
+
+The shell calls `seoHead(page, site)` in every page's `<head>`: robots, Open Graph, the Twitter/X card, the RSS link, and JSON-LD (the organisation and the site on the front page, `NewsArticle` on an article, `BreadcrumbList` from the page's `crumbs`). The build writes `sitemap.xml` (with `lastmod` from each page's date), `news-sitemap.xml`, `feed.xml` and `robots.txt` from the same module.
+
+- **An article's image** (its mini infographic, its link preview, its Google Discover image): front matter `image:` (a repository path such as `assets/articles/<slug>.png`, or an absolute URL; 1200x630 is best, at least 1200 wide for Discover), `image_alt:`, and optionally `image_width:` and `image_height:`. Without one: `assets/brand/social-card.png`.
+- **Out of search:** `noindex: true` in a page's front matter, or `page.noindex` from a feature; `/login/` and the 404 by default. Such a page is left out of `sitemap.xml`, and the gate allows that.
+
 ## The page tool API (`window.__tool`)
 
 Every page publishes its commands on `window.__tool` (`assets/core/tool-api.js`, loaded first by the `tools` feature), for the chat, for agents driving a browser and for the reader's console. A feature adds a tool without caring about load order, by pushing to a queue that works before and after the registry has loaded:
