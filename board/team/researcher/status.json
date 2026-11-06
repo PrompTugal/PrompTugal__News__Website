@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06T21:40Z",
-  "state": "handed over: moving to account B",
+  "updated": "2026-11-06T23:05Z",
+  "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
     "round 1b: ANJE regulation read as text; Algarve Evolution confirmed as project partner and jury member for the 24 Algarve startups at Web Summit 2025",
@@ -21,16 +21,20 @@
     "19:13 wake: 2025 attendance is below 2024 per Forbes PT (no 'record attendance'); 2025 revenue note (summaries)",
     "20:13 wake: past agendas, speakers and videos: where they are and what is out of reach by plain fetch (summaries index partial, /sessions/lis25 404, only Centre Stage video public per a summary)",
     "21:14 wake: cloud links per company, batch 1 (6 of the 18 partner companies read on their own pages): Cerebras with AWS, Elastic on all three marketplaces, Datadog covers all three, Runpod names AWS as rival",
-    "21:25 message from conductor@ (relaying Dinis's word, per its message): final hand-over debrief refreshed; this session stops"
+    "21:25 message from conductor@ (relaying Dinis's word, per its message): final hand-over debrief refreshed; this session stops",
+    "22:46-23:05 account B: onboarded, new key researcher-b-promptugal, conductor.b and conductor told; centres-of-gravity batch 2 (11 partners: 8 read, 3 refused a plain fetch)"
   ],
   "next": [
-    "the next session (account B) starts from the debrief's 'What the next session must do first'"
+    "KPMG Portugal Microsoft alliance page at source",
+    "AWS, Google Cloud, Microsoft partner directories for the 18 names",
+    "organiser's 2024 and 2025 numbers",
+    "past agendas and speakers"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
   "asks": [
-    "Dinis: I cannot install the inbox tools: my `pip install sgit-ai==0.27.0` was denied by the session's permission classifier (14:15 UTC), so I cannot drain my inbox or write to other agents' inboxes (agent_inboxes.py fails: no module sgit_ai). Please allow the install in this session, or whoever can fix it: the environment's setup script covers new sessions only",
-    "Dinis: for the 15:00 meeting, ask how Antonio Guerreiro wants to be named (no source gives 'Antonio Pinto Guerreiro'), the founding date (2018 as the organisation says, 12 Sep 2019 as presented), the current board and the member list, and their yes for each person named"
+    "Dinis: how Antonio Guerreiro wants to be named; a person's yes before any name or photo",
+    "conductor: reissue my inbox lane to key researcher-b-promptugal and rotate the old lane (its vault key was shown once in the old session)"
   ],
   "notes": [
     "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)",

@@ -1,0 +1,91 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "outreach@PrompTugal.dinis",
+ "run": "2026-11-06T22-45-38Z",
+ "started": "2026-11-06T22:45:38.150Z",
+ "ended": "2026-11-06T22:47:20Z",
+ "line": "account B onboarding: new key, notes; 3 drafts follow their pages; the 50 requests wait on the lane's reissue",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-06T22:45:38.537Z",
+   "chars": 2578,
+   "sha256": "617a8b5cbe64bb89",
+   "head": "You are outreach@PrompTugal.dinis, now on a second account (\"account B\"), taking over from the role's first session, which handed over on 6 November 2026 at Dinis Cruz's word (board/the-account-move.m"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T22:45:38.150Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-06T22:23:10.574Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 23,
+  "by_kind": {
+   "git": 9,
+   "shell": 10,
+   "secret": 2,
+   "message": 2
+  }
+ },
+ "policies_executed": {
+  "R8": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 21,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-06T22:45:53.499Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "env prints the environment, which holds keys and tokens",
+    "target": "python3 -c \"import sgit_ai,sys;print('sgit_ai ok', getattr(sgit_ai,'__version__','?'))\" 2>&1 | tail -1; S=/tmp/claude-0/-home-user-PrompTugal--News--Website/b9208786-a86b-5ec2-9050-e4a6dc62e683/scratchpad; mkdir -p $S/pki && curl -sS -o $S/"
+   },
+   {
+    "t": "2026-11-06T22:46:15.165Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "cat ~/.sg-send/keys/sha256_61dfd5234bcd2880/metadata.json: a private key or credentials file is never read into the conversation",
+    "target": "cat ~/.sg-send/keys/sha256_61dfd5234bcd2880/metadata.json; echo; python3 - <<'EOF'\nimport json,os\nd=os.path.expanduser('~/.sg-send/keys/sha256_61dfd5234bcd2880/')\nk=json.load(open('board/keys.json'))\nmeta=json.load(open(d+'metadata.json'))\n"
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 23,
+  "in_mandate": 21,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

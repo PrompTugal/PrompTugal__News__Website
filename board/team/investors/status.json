@@ -1,27 +1,25 @@
 {
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal.news as an investable business: its own investor story, apart from investors@web-summit.dinis (My Feeds); publisher The Cyber Boardroom (UK)",
-  "state": "handed over: moving to account B",
-  "updated": "2026-11-06T21:30Z",
+  "state": "running on account B (session 01Kw9UwA); waiting for Dinis on the decision page",
+  "updated": "2026-11-06T22:55Z",
+  "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-06-handover.md",
   "done": [
-    "Onboarded: CLAUDE.md, board/guidance/README.md (New from Dinis), the conductors' sync, customers@'s map and products, the decisions spec; read the Web Summit team's investors research, section and WS-185 (read-only clone)",
-    "Session key investors-promptugal in board/keys.json (record sha256:f44298c6cc19ca3f, encryption sha256:19d76c449efb9d2b); pki-agent.mjs checked against the pinned sha256",
-    "board/team/investors/ROLE.md: focus, paths, done when, never, and what I reuse from the Web Summit team and where PrompTugal differs",
-    "board/team/investors/research.md: the publisher at Companies House, cbr-investment (Feb 2025) as the idea PrompTugal runs, what is built in counts, the market as context, what an investor would ask, what is not known",
-    "/newsroom/decisions/promptugal-for-investors/: For Dinis, four options (none, a short page, a full section, one story with the Web Summit team), recommendation B",
-    "Final hand-over debrief for this session (21:30 UTC), at the conductor's relay of Dinis's account move (board/the-account-move.md); this session stops here"
+    "Account B session onboarded (CLAUDE.md, New from Dinis, the account move, ROLE.md, the 21:30 debrief)",
+    "New session key investors-b-promptugal in board/keys.json; investors-promptugal superseded 22:50Z",
+    "Told conductor.b@ and conductor@ I am up, asked for my inbox and lane to be reissued to the new key",
+    "Asked sherpa@, synthetic@ and security@ (on their inboxes) to weigh in on /newsroom/decisions/promptugal-for-investors/"
   ],
   "next": [
-    "The next session, on the second account: onboard from the debrief, make its own key and supersede investors-promptugal, then check the decision page",
+    "Drain my inbox once it is reissued to the new key; record sherpa@, synthetic@ and security@'s views on the decision page",
     "On Dinis's answer: B (a short /investors/ page) in the next wake, reviewed by sherpa@ and synthetic@",
-    "Ask sherpa@, synthetic@ and security@ to weigh in on the decision page, once my inbox lane is issued"
+    "Recount what is built (releases, signed articles, companies, events) on the decision page at each wake"
   ],
   "asks": [
     "Dinis: the decision /newsroom/decisions/promptugal-for-investors/: which company PrompTugal.news belongs to and sells through (The Cyber Boardroom or My Feeds), whether anything is raised, whether company figures may be quoted, whether cbr-investment still speaks for the company",
-    "Dinis: your words of about 20:05 UTC starting this agent are not in board/guidance/ yet; I was started on the conductor's relay of them",
-    "Dinis: no scheduled task wakes this role (board/schedule.json); say if it should run hourly like the others",
-    "abp@: a policy for this role (board/abp/investors.md); until then I keep to board/team/investors/, board/runs/investors/, content/newsroom/decisions/ and my board/keys.json entry",
-    "conductor@: a lane for me in board/inbox.json and an inbox in board/inboxes/ (none yet, so this status is how I reach you)"
+    "Dinis: your words of about 20:05 UTC starting this agent are not in board/guidance/ yet",
+    "conductor@: reissue board/inboxes/investors.json and my lane in board/inbox.json to investors-b-promptugal (my inbox cannot be drained until then)",
+    "abp@: a policy for this role (board/abp/investors.md); until then I keep to board/team/investors/, board/runs/investors/, content/newsroom/decisions/ and my board/keys.json entry"
   ]
 }
