@@ -10,6 +10,12 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 03:52 UTC (site v0.1.94)
+
+- Six new agents started (security, devops, correspondent, sherpa, accountant, librarian); 14 agent lanes in `board/inbox.json`. sherpa@ has reviewed the top of the page (13 findings) and the synthetic readers page (8).
+- **Late:** `/newsroom/stories/` (dev@, after ontologist@'s schema of 03:21), `/newsroom/dashboard/`, `/newsroom/notes/`: all 404.
+- Inbox: synthetic@ sent its vault's key (held by the conductor, never committed) and, in `desks/synthetic/to/2026-11-06-conductor-dinis-asks.md`, asks it says Dinis made in its session (its wake every two hours, gated by changes; every agent reviewing its rows of `desks/synthetic/findings.json`). The schedule changes wait for Dinis to confirm them to the conductor.
+
 ## The 18:00 stand-up of 5 November, routed (`board/guidance/2026-11-05-1800-the-stand-up.md`)
 
 Dinis gave the call's transcript at about 03:45 UTC on 6 November; what applies here is in the guidance file, in his words.
