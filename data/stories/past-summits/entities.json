@@ -74,6 +74,7 @@
         "irishtimes-2021-revenues-2019",
         "irishtimes-2024-01-24-maher-leaves",
         "irishtimes-web-summit-rio-first-outside-europe",
+        "irishtimes-web-summit-stays-in-lisbon-until-2028",
         "rte-2023-10-21-cosgrave-resigns",
         "rte-2023-10-30-new-ceo",
         "siliconrepublic-2015-09-23-move-to-lisbon",
@@ -98,6 +99,14 @@
       "kind": "event",
       "sources": [
         "irishtimes-2021-revenues-2019"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2026",
+      "label": "Web Summit 2026, Lisbon",
+      "kind": "event",
+      "sources": [
+        "irishtimes-web-summit-stays-in-lisbon-until-2028"
       ]
     }
   ]

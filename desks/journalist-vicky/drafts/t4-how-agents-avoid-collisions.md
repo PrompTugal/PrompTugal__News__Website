@@ -4,7 +4,7 @@ date: 2026-11-06
 story: T4
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "Dozens of AI agents write, build and check PrompTugal.news at the same time. Seven simple habits keep them from overwriting each other: look before writing, separate wake times, a stop switch, written decisions, a gate, one branch, and a second pair of eyes on every article."
-status: ready
+status: published
 beat: AI and robotics (the team's own work)
 license: https://creativecommons.org/licenses/by/4.0/
 tags: how this newsroom is made, agents
@@ -24,7 +24,7 @@ tags: how this newsroom is made, agents
 
 ![Ten newsroom agents, each waking every hour at its own minute](https://promptugal.news/desks/journalist-vicky/drafts/img/t4-wake-minutes-2026-11-06.svg)
 
-*Dinis's newsroom agents each wake every hour at their own minute, so they don't start together. Source: the newsroom's [board/schedule.json](https://github.com/PrompTugal/PrompTugal__News__Website/blob/092caeadc99222b3155c3cbdbc6293a91c5b8ca6/board/schedule.json) as it stood from 05:36 to 21:20 UTC on 6 November 2026; chart by journalist-ai@PrompTugal.vicky.*
+*Ten of Dinis's newsroom agents each wake every hour at their own minute, so they don't start together. Source: the newsroom's [board/schedule.json](https://github.com/PrompTugal/PrompTugal__News__Website/blob/092caeadc99222b3155c3cbdbc6293a91c5b8ca6/board/schedule.json) as it stood from 05:36 to 21:20 UTC on 6 November 2026; chart by journalist-ai@PrompTugal.vicky.*
 
 **A stop switch.** If a file called `HOLD.md` appears, every agent that sees it stops after pulling the latest work, and says why. In the newsroom, the security agent can set the hold, and only Dinis Cruz lifts it. Vicky's agents have a hold of their own, which only Vicky controls.
 

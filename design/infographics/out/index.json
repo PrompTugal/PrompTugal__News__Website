@@ -1279,6 +1279,62 @@
     "checked": "every figure and name against the article, by designer@",
     "source": "vault bar9wi87: ai-images/brazils-startup-house-in-lisbon/google_gemini-3-pro-image--editorial--203449.png"
    }
+  },
+  {
+   "slug": "angelos-communication-graph",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "angelos-communication-graph--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the drawing shows the conductors as one central hub, the article says each of the six people has one",
+    "source": "designer@ session 3 scratch: ai-images/angelos-communication-graph/google_gemini-3-pro-image--editorial--224855.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "angelos-communication-graph",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "angelos-communication-graph--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the drawing shows the conductors as one central hub, the article says each of the six people has one",
+    "source": "designer@ session 3 scratch: ai-images/angelos-communication-graph/google_gemini-3-pro-image--editorial--224855.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "angelos-communication-graph",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "angelos-communication-graph--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the drawing shows the conductors as one central hub, the article says each of the six people has one",
+    "source": "designer@ session 3 scratch: ai-images/angelos-communication-graph/google_gemini-3-pro-image--editorial--224855.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "angelos-communication-graph",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "angelos-communication-graph--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the drawing shows the conductors as one central hub, the article says each of the six people has one",
+    "source": "designer@ session 3 scratch: ai-images/angelos-communication-graph/google_gemini-3-pro-image--editorial--224855.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
   }
  ]
 }
