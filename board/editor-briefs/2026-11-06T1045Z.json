@@ -1,0 +1,356 @@
+{
+ "number": 2,
+ "date": "2026-11-06",
+ "kicker": "PrompTugal.news · the conductor brief · the first-night debrief",
+ "title": "The first night of PrompTugal.news",
+ "when": "Friday 6 November 2026, 10:45 UTC (for the 12:00 stand-up)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "On 5 November PrompTugal.news was one site, one article and one agent. By 10:30 UTC on 6 November it is a publication run by 26 agents, each with its own session, key, inbox, behaviour policy and hourly wake, working with Vicky's desk through one board. 179 releases (v0.1.23 to v0.1.201), about 400 commits by agents, every one through the same gate. Dinis worked with the team until about 06:30 UTC; while he slept the team shipped about 40 more releases with no hold and no stop, and Algarve Evolution went live a day before his meeting.",
+ "stats": [
+  {
+   "n": "179",
+   "label": "releases, v0.1.23 to v0.1.201"
+  },
+  {
+   "n": "26",
+   "label": "agents, each with a key, inbox and policy"
+  },
+  {
+   "n": "15",
+   "label": "articles live and signed; 10 more drafted overnight"
+  },
+  {
+   "n": "26",
+   "label": "passes on the board; 50 outreach drafts"
+  }
+ ],
+ "for_you": [
+  {
+   "group": "Decisions"
+  },
+  {
+   "id": "1",
+   "ask": "The disclosure (synthetic F19): keep or reword?",
+   "detail": "'This is not independent coverage. We may write about companies the team hopes to meet or sell to.' synthetic@'s comms-lead persona will not forward an email carrying it. It blocks outreach.",
+   "options": [
+    "keep as is",
+    "reword (you give the words)"
+   ]
+  },
+  {
+   "id": "2",
+   "ask": "RiskMandate (F07): what it is, who owns it, whether it sells to the companies covered",
+   "detail": "About and the disclosure need it in your words; no claim beyond riskmandate.ai and the team's site.",
+   "options": [
+    "you write two lines",
+    "point us to a page that says it"
+   ]
+  },
+  {
+   "id": "3",
+   "ask": "Who sends which company's outreach?",
+   "detail": "Senders decided (Vicky, Indi, Silvio, Jose or you, from your agent address). outreach@ needs the split of the 50 drafts.",
+   "options": [
+    "by desk (Vicky Portugal, Indi Europe ...)",
+    "by company list you give"
+   ],
+   "recommend": "by desk, settled at the 12:00 stand-up"
+  },
+  {
+   "id": "4",
+   "ask": "The top of the page: mock-up A, B, C or D",
+   "detail": "designer@'s four options; the quick fixes go ahead without it.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ]
+  },
+  {
+   "group": "Grants"
+  },
+  {
+   "id": "5",
+   "ask": "Google Drive for backup@; a scheduled task for historian@",
+   "detail": "Both outside today's policies (R3, R4). Without the historian's task, /newsroom/notes/ waits.",
+   "options": [
+    "yes to both",
+    "one of them",
+    "not now"
+   ]
+  }
+ ],
+ "you_asked": [
+  {
+   "at": "00:40",
+   "said": "all your pushes and data and keys ... go into this repo",
+   "done": "keys in board/keys.json, the board in board/",
+   "where": "CLAUDE.md, Identity",
+   "status": "done"
+  },
+  {
+   "at": "01:00",
+   "said": "move everything on admin to newsroom ... fire up on an hourly schedule",
+   "done": "/newsroom/, hourly wakes for every agent",
+   "where": "board/the-newsroom-move.md, board/schedule.json",
+   "status": "done"
+  },
+  {
+   "at": "04:00",
+   "said": "passes ... security first and last ... a budget",
+   "done": "board/the-passes.md, 26 passes",
+   "where": "board/passes/",
+   "status": "done"
+  },
+  {
+   "at": "05:35",
+   "said": "Algarve Evolution ... prioritise that ... I'm meeting the guy tomorrow",
+   "done": "/portugal/algarve-evolution/ live, two research rounds",
+   "where": "board/passes/2026-11-06-algarve-evolution.md",
+   "status": "done"
+  },
+  {
+   "at": "06:00",
+   "said": "spin them up ... the ones that have the dot ... in Sonnet",
+   "done": "nine Sonnet workers; dev@ and designer@ review",
+   "where": "CLAUDE.md, Dotted names",
+   "status": "done"
+  },
+  {
+   "at": "06:05",
+   "said": "observe mode ... pulling the plug should be the last measure",
+   "done": "ABP in observe mode, v1.5.0",
+   "where": "board/abp/",
+   "status": "done"
+  },
+  {
+   "at": "06:20",
+   "said": "see every hour the homepage changing ... capture those screenshots",
+   "done": "7 hourly snapshot runs into the vault",
+   "where": "board/snapshots.json",
+   "status": "done"
+  },
+  {
+   "at": "10:10",
+   "said": "we shouldn't be blocking agents due to budget restrictions",
+   "done": "kept; accountant@ and ontologist@ told; dev.data@ unblocked",
+   "where": "board/guidance/2026-11-06-budgets-capture-not-block.md",
+   "status": "done"
+  },
+  {
+   "at": "10:20",
+   "said": "write a big one as debrief ... brief in detail the other humans and agents",
+   "done": "this brief, the article, the board debrief",
+   "where": "/articles/the-first-night-of-promptugal-news/",
+   "status": "done"
+  },
+  {
+   "at": "03:20",
+   "said": "a place for technical articles (newsroom notes)",
+   "done": "not yet: /newsroom/notes/ 404",
+   "where": "board/the-newsroom-notes.md",
+   "status": "late"
+  }
+ ],
+ "team": [
+  {
+   "id": "conductor@",
+   "status": "old",
+   "doing": "the plan, the board, routing, briefs; this debrief"
+  },
+  {
+   "id": "dev@",
+   "status": "old",
+   "doing": "4 review rounds since 06:08; all six dev workers' branches on dev"
+  },
+  {
+   "id": "designer@",
+   "status": "old",
+   "doing": "designer.experiments round 1 on dev; the top of the page waits on A to D"
+  },
+  {
+   "id": "journalist@",
+   "status": "old",
+   "doing": "15 articles signed; Vicky's ten new drafts through the story board"
+  },
+  {
+   "id": "correspondent@",
+   "status": "old",
+   "doing": "front page; Brazil project, 27 speakers in 31 sessions"
+  },
+  {
+   "id": "outreach@",
+   "status": "old",
+   "doing": "50 drafts with mapped flows; blocked on who sends which"
+  },
+  {
+   "id": "ontologist@",
+   "status": "old",
+   "doing": "flows sourced; fixed common.schema.json at 10:13"
+  },
+  {
+   "id": "synthetic@",
+   "status": "old",
+   "doing": "44 findings; owners now decide in their own files"
+  },
+  {
+   "id": "security@",
+   "status": "old",
+   "doing": "first and last in every pass"
+  },
+  {
+   "id": "abp@",
+   "status": "old",
+   "doing": "policies v1.5.0, observe mode, false positives fixed hourly"
+  },
+  {
+   "id": "accountant@",
+   "status": "old",
+   "doing": "budgets confirmed; dollars are API-equivalent"
+  },
+  {
+   "id": "sherpa@",
+   "status": "old",
+   "doing": "the cold reader on the summit days and front page"
+  },
+  {
+   "id": "librarian@",
+   "status": "old",
+   "doing": "the catalogue of every pass's findings"
+  },
+  {
+   "id": "devops@",
+   "status": "old",
+   "doing": "CI and the release script"
+  },
+  {
+   "id": "observability@",
+   "status": "old",
+   "doing": "reads, privately; status stale since 04:40"
+  },
+  {
+   "id": "historian@",
+   "status": "old",
+   "doing": "no scheduled task: /newsroom/notes/ waits"
+  },
+  {
+   "id": "customers@",
+   "status": "new",
+   "doing": "the personal newsreel and the coverage map"
+  },
+  {
+   "id": "backup@",
+   "status": "new",
+   "doing": "waits on Google Drive"
+  },
+  {
+   "id": "researcher@",
+   "status": "new",
+   "doing": "Algarve Evolution rounds 1 and 2"
+  },
+  {
+   "id": "dev.portugal@",
+   "status": "new",
+   "doing": "/portugal/algarve-evolution/ live"
+  },
+  {
+   "id": "dev.pages@ dev.graphs@ dev.search@",
+   "status": "new",
+   "doing": "layouts, graphs, search: reviewed by dev@"
+  },
+  {
+   "id": "dev.data@ dev.verify@",
+   "status": "new",
+   "doing": "data folders (unblocked 10:13), verification"
+  },
+  {
+   "id": "designer.experiments@",
+   "status": "new",
+   "doing": "variations side by side, reviewed by designer@"
+  }
+ ],
+ "sections": [
+  {
+   "title": "How the team works",
+   "items": [
+    "One focus per agent, its own paths and a 'never'; a session per role",
+    "An hourly wake at each agent's own minute: pull, read the rules and guidance, one piece of work, release, status, run report",
+    "dev is production: when in doubt, push; main untouched; CI owns the version; one gate of 14 checks",
+    "Dotted workers push to work/<role>.<speciality>; dev@ and designer@ review and bring them on",
+    "Keys in board/keys.json; every article signed; a sealed inbox per agent",
+    "ABP: deny-by-default grants, observe mode, circuit breakers; a run report every run",
+    "Budgets measured and adjusted, never blocking; dollars are API-equivalent",
+    "Passes: conductor, security, reviews, 2 or 3 designer and dev rounds, security, a note, conductor"
+   ]
+  },
+  {
+   "title": "Before Dinis went to bed (to 06:30 UTC)",
+   "items": [
+    "00:00 to 02:00: the plan; 8 storylines published, signed; 50 outreach drafts; the newsroom move",
+    "02:00 to 04:00: keys here only; email on promptugal.news; the story board; signatures verified by the gate; the team setup and dashboard",
+    "04:00 to 06:30: Dinis's page-by-page feedback, kept in his words in 8 guidance files; 6 agents, abp@, customers@, backup@ and 9 Sonnet workers started; decisions: pounds, The Cyber Boardroom, outreach by a person, the conductor holds the vault keys"
+   ]
+  },
+  {
+   "title": "While Dinis slept (06:30 to 10:00 UTC)",
+   "items": [
+    "About 40 releases, no hold, no stop",
+    "dev@ ran four review rounds; designer@ brought the experiments' round 1",
+    "Algarve Evolution live at /portugal/algarve-evolution/",
+    "Vicky's journalists drafted ten storylines (S3 to S21)",
+    "outreach@ worked Cloudflare's, Descope's and Emergence AI's flows into drafts",
+    "synthetic@ unblocked findings decisions; abp@ fixed false positives hourly",
+    "One block: dev.data@ on a schema, from 07:40 until ontologist@ fixed it at 10:13"
+   ]
+  },
+  {
+   "title": "What we learned",
+   "items": [
+    "Strict-first policies stall a team; observe-first lets it tune",
+    "Reviewed workers multiply one reviewer",
+    "A budget that stops an agent costs more than it saves",
+    "Keep Dinis's words verbatim: agents waking hours later still build what he asked",
+    "A write grant is also a workflow: shared state needs a path every owner can write",
+    "Hourly is the heartbeat: something ships every few minutes, a block is seen within the hour"
+   ]
+  },
+  {
+   "title": "For Vicky, Indi, Silvio and Jose",
+   "items": [
+    "Outreach goes from your own agent address on promptugal.news, one company each, once the split is agreed",
+    "The 50 drafts are in desks/outreach/, each leading with the company's page: read the page first",
+    "Silvio: media and large files go in vaults, never in the repository",
+    "The whole debrief: /articles/the-first-night-of-promptugal-news/"
+   ]
+  }
+ ],
+ "images": [
+  {
+   "path": "board/editor-briefs/img/2026-11-06T1045Z-then-and-now.jpg",
+   "caption": "The front page, then and now (snapshots 05:41 and 09:53 UTC)"
+  },
+  {
+   "path": "board/editor-briefs/img/2026-11-06T1045Z-front.jpg",
+   "caption": "The front page at v0.1.193 (09:53 UTC)"
+  },
+  {
+   "path": "board/editor-briefs/img/2026-11-06T1045Z-portugal.jpg",
+   "caption": "The Portugal section at v0.1.193"
+  },
+  {
+   "path": "board/editor-briefs/img/2026-11-06T1045Z-phone.jpg",
+   "caption": "The front page on a phone"
+  }
+ ],
+ "next": "The 18:00 stand-up brief at 16:52 UTC: the passes in order, outreach's first sends, the top of the page.",
+ "sources": [
+  "board/briefs/2026-11-06-the-first-night-debrief.md",
+  "board/WS-177-plan.md",
+  "board/guidance/",
+  "board/schedule.json",
+  "board/keys.json",
+  "git log of dev from 5 Nov 20:00 UTC",
+  "https://promptugal.news/ at v0.1.201"
+ ]
+}

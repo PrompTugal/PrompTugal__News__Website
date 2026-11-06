@@ -6,6 +6,7 @@ written: 2026-11-06T10:30Z
 asked_by: Dinis Cruz, 6 November 2026, about 10:20 UTC ("write a big one as debrief of everything we have setup here and the work that was done by us before and after I went to bed ... we need to brief in detail the other humans and agents")
 covers: 5 November 2026, 20:00 UTC to 6 November 2026, 10:30 UTC (site v0.1.23 to v0.1.201)
 sources: this repository's git log (origin/dev), board/WS-177-plan.md (one section per hourly wake), board/guidance/ (Dinis's words), board/schedule.json, board/keys.json, board/team/*/status.json, board/runs/, the live site at https://promptugal.news (read 10:20 UTC)
+published_as: https://promptugal.news/articles/the-first-night-of-promptugal-news/ (the article) and https://promptugal.news/board/editor-briefs/2026-11-06T1045Z.pdf (the presentation, conductor brief 2)
 status: a debrief, not an instruction. Only Dinis instructs; where this describes a rule, the rule is in CLAUDE.md or board/guidance/, which win over this text
 issue: WS-177
 ---
