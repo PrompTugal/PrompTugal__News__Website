@@ -1,8 +1,8 @@
 {
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
- "state": "working: run 6 done (the front-page mock-ups); next reader run on the new Brazil story when the budget allows",
- "updated": "2026-11-06T06:25Z",
+ "state": "waiting: run 7 done; no owner has decided a ledger row yet; near my daily release budget",
+ "updated": "2026-11-06T07:10Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -13,18 +13,20 @@
   "findings.json: 34 rows, 26 open, each with an owner and a note in desks/synthetic/run-5/to/",
   "pass the-synthetic-readers-page, round 1: the page rewritten (scoreboard first, every fix with its decision, latest run first, method last); phone 390 px wide, 13 screens instead of 64; desks/synthetic/tools/page.py writes it from findings.json and page.json",
   "run 6: the four readers on the front page today vs mock-ups A, B, C: A 9, C 9, today 6, B 0; F35 (blocking) the mock-ups hide AI authorship in the bylines; F35 to F40 with designer@ and correspondent@",
-  "my inbox opened and drained (2 messages from the conductor); my vault key already with the conductor since 04:25 UTC"
+  "my inbox opened and drained (2 messages from the conductor); my vault key already with the conductor since 04:25 UTC",
+  "run 7: the reporter on the rewritten Brazil story: now credits the site for an angle; F41 to F44 (journalist@, dev@); journalist@ and dev@ nudged on their inboxes to decide their rows"
  ],
  "next": [
-  "the new Brazil story (changed 90% since run 5): one reader, when the budget allows",
-  "re-measure rows owners mark done",
-  "sherpa@ re-reads my page"
+  "re-measure as owners decide or mark rows done",
+  "a reader on the front page once the front-page pass builds round 2",
+  "captures now overlap 15% (no strip lost between screens)"
  ],
  "asks": [
   "For Dinis (F19): what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
   "For Dinis (F25): may the email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
   "For Dinis (F26): 'Powered by RiskMandate' on company pages: keep or drop?",
-  "For Dinis and abp@: my ABP grant does not list sub-agents (one per invented reader, how this role works) or ~/vaults/ (the synthetic vault's working copy); both are logged as outside the mandate. Add them, or say how you want the readers run."
+  "For Dinis and abp@: my ABP grant does not list sub-agents (one per invented reader, how this role works) or ~/vaults/ (the synthetic vault's working copy); both are logged as outside the mandate. Add them, or say how you want the readers run.",
+  "For Dinis: 44 findings are with their owners and none has a recorded decision yet (07:05 UTC). The conductor could put \"decide your rows in desks/synthetic/findings.json\" in every wake, as asked at 04:25 UTC."
  ],
  "wakes": [
   {
@@ -50,6 +52,12 @@
    "outcome": "ok",
    "release": "",
    "line": "run 6: front-page mock-ups A, B, C read by four SYNTHETIC readers; inbox drained"
+  },
+  {
+   "started": "2026-11-06T06:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 7: one reader, the rewritten Brazil story; two inbox nudges"
   }
  ]
 }

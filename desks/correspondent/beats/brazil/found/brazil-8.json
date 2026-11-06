@@ -1,0 +1,194 @@
+{
+ "task": "brazil-8",
+ "by": "correspondent@PrompTugal.dinis (Brazilian beat, sub-agent)",
+ "done_at": "2026-11-06T06:51Z",
+ "method": "33 fetches. Web Summit has no public investor listing: https://websummit.com/investors/ is a marketing page ('Join investors at Web Summit') with no list, and https://websummit.com/partners/ shows only testimonials (no partner list). The public speaker listing gives 20 names, then needs login (see brazil-1). So Web Summit's own server-rendered schedule search (https://websummit.com/schedule/search/<term>/page/1/) was read for 17 firm names (kaszek, monashees, canary, valor capital, astella, bossa, domo invest, cubo, btg, atlantico, maya capital, anjos do brasil, sp ventures, inovabra, finep, bradesco, cventures); a hit counts only where the name appears in a speaker's company or the session text. 8 web searches (Portuguese and English, firm names combined) and 6 page reads (DN Brasil, ANBIMA, Mercado e Consumo, Itaú blog, Altss, Startups.com.br's Web Summit Lisboa 2026 tag). 18 firms checked: 2 found (inovabra via a Web Summit speaker; ANBIMA by its own page, an association not an investor), 3 listed only by a third-party aggregator (Itaú Unibanco, FINEP, CVentures), 13 not found. Context: the Brazilian Pavilion's three 'Pitch session' slots (E369, 10 to 12 Nov) are described by Web Summit as pitches 'to a selected audience of European investors', and the 'Brazil Innovation Happy Hour' (10 Nov) connects Brazilian startups with 'international investors': no Brazilian investor is named in either. Invest.Rio and InvestSP (on stage, see brazil-1) are investment promotion agencies, not investors. Press (DN Brasil 2024 list, Mercado e Consumo 29 Oct 2026) names no Brazilian investor for Lisbon. Absence of named Brazilian VCs is the finding; the schedule search covers only people on the programme, not attendees.",
+ "not_reached": [
+  {
+   "url": "https://blog.itau.com.br/privateinsights/ita-private-bank-oferece-experiencia-exclusiva-no-web-summit-em-lisboa",
+   "date": "2026-11-06",
+   "what_happened": "HTTP 403 Forbidden; the post's year could not be read."
+  },
+  {
+   "url": "https://websummit.com/investors/",
+   "date": "2026-11-06",
+   "what_happened": "Reached; a marketing page with no list of investors."
+  },
+  {
+   "url": "https://websummit.com/speakers/ beyond the first 20",
+   "date": "2026-11-06",
+   "what_happened": "Listing marked authRequired (20 free items); not crawled. Investors who attend without a session cannot be seen publicly on websummit.com."
+  },
+  {
+   "url": "https://altss.com/conferences/web-summit.md",
+   "date": "2026-11-06",
+   "what_happened": "Reached, but it is a third-party aggregator that names no source and, as read, gives odd dates for the event; its 'Sponsor'/'Attendee' tags are reported as unconfirmed. It says '+26 more firms tracked' that it does not show."
+  },
+  {
+   "url": "firms' own sites and newsrooms (Kaszek, monashees, Canary, Valor, Astella, BTG, Cubo)",
+   "date": "2026-11-06",
+   "what_happened": "Not opened one by one within the budget; covered by Web Summit's schedule search and web searches only."
+  }
+ ],
+ "items": [
+  {
+   "firm": "inovabra (Bradesco)",
+   "kind": "corporate innovation and venture arm of a bank",
+   "found": true,
+   "what_the_source_says": "According to Web Summit's schedule, Paulo Emediato, Head of Growth & Comms, 'Inovabra @Bradesco', speaks in 'The ultimate competitive edge: How companies can thrive through disruption', 11 November 2026, 10:45 UTC, Stage 7. Separately, the third-party aggregator Altss lists 'InovaBra Ventures' as 'Attendee' (not confirmed by Web Summit or Bradesco).",
+   "source_url": "https://websummit.com/sessions/lis26/232a0d67-8c17-4125-b3f5-746203238917/the-ultimate-competitive-edge-how-companies-can-thrive-through-disruption/",
+   "other_sources": [
+    "https://websummit.com/schedule/search/inovabra/page/1/",
+    "https://websummit.com/schedule/search/bradesco/page/1/",
+    "https://altss.com/conferences/web-summit.md"
+   ],
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Itaú Unibanco",
+   "kind": "bank (corporate investor)",
+   "found": "unconfirmed",
+   "what_the_source_says": "The third-party aggregator Altss lists 'Itaú Unibanco S.A' as 'Sponsor' of Web Summit 2026; Web Summit's schedule search for 'itau' (page 1 of 2) showed no Itaú session or speaker. An Itaú Private Bank blog post about a client experience at Web Summit in Lisbon could not be read (HTTP 403), so its year is unknown.",
+   "source_url": "https://altss.com/conferences/web-summit.md",
+   "other_sources": [
+    "https://websummit.com/schedule/search/itau/page/1/",
+    "https://blog.itau.com.br/privateinsights/ita-private-bank-oferece-experiencia-exclusiva-no-web-summit-em-lisboa"
+   ],
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "FINEP",
+   "kind": "public innovation funding agency (Brazil's federal innovation financier)",
+   "found": "unconfirmed",
+   "what_the_source_says": "The third-party aggregator Altss lists 'FINEP' as 'Sponsor' of Web Summit 2026. Web Summit's schedule search for 'finep' returned no session naming it.",
+   "source_url": "https://altss.com/conferences/web-summit.md",
+   "other_sources": [
+    "https://websummit.com/schedule/search/finep/page/1/"
+   ],
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "CVentures",
+   "kind": "venture firm (as named by the aggregator)",
+   "found": "unconfirmed",
+   "what_the_source_says": "The third-party aggregator Altss lists 'CVentures' as 'Attendee (as part of the APEX-Brasil delegation)'. Not confirmed: Web Summit's schedule search for 'cventures' named it nowhere and a web search found nothing.",
+   "source_url": "https://altss.com/conferences/web-summit.md",
+   "other_sources": [
+    "https://websummit.com/schedule/search/cventures/page/1/"
+   ],
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "ANBIMA",
+   "kind": "association of Brazil's financial and capital market institutions (not itself an investor)",
+   "found": true,
+   "what_the_source_says": "ANBIMA's own events page for Web Summit (9 to 12 November 2026, Lisbon) says 'Anbima will be among the attendees' and that it will follow debates on how technology and innovation shape financial services. It names no member firms.",
+   "source_url": "https://international.anbima.com.br/events/web-summit-2",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Cubo Itaú",
+   "kind": "corporate innovation hub (Itaú)",
+   "found": false,
+   "what_the_source_says": "Not found for Lisbon 2026. Web searches found Cubo Itaú only at Web Summit Rio 2026 (Afro Cubo); the schedule search for 'cubo' returned no session.",
+   "source_url": "https://websummit.com/schedule/search/cubo/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Kaszek",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'kaszek' returned no session naming Kaszek (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/kaszek/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "monashees",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'monashees' returned no session naming monashees (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/monashees/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Canary",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'canary' returned no session naming Canary (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/canary/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Valor Capital Group",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'valor capital' returned no session naming Valor Capital Group (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/valor%20capital/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Astella",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'astella' returned no session naming Astella (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/astella/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Bossa Invest",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'bossa' returned no session naming Bossa Invest (as speaker, company or description); a web search tied it only to a round linked to Web Summit Rio 2026, not Lisbon.",
+   "source_url": "https://websummit.com/schedule/search/bossa/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "DOMO Invest",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'domo invest' returned no session naming DOMO Invest (as speaker, company or description); a web search tied it only to a round linked to Web Summit Rio 2026, not Lisbon.",
+   "source_url": "https://websummit.com/schedule/search/domo%20invest/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "BTG Pactual",
+   "kind": "investment bank",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'btg' returned no session naming BTG Pactual (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/btg/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Atlantico",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'atlantico' returned no session naming Atlantico (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/atlantico/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Maya Capital",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'maya capital' returned no session naming Maya Capital (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/maya%20capital/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "Anjos do Brasil",
+   "kind": "angel investor network",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'anjos do brasil' returned no session naming Anjos do Brasil (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/anjos%20do%20brasil/page/1/",
+   "read_on": "2026-11-06"
+  },
+  {
+   "firm": "SP Ventures",
+   "kind": "venture capital firm",
+   "found": false,
+   "what_the_source_says": "Not found. Web Summit's public schedule search for 'sp ventures' returned no session naming SP Ventures (as speaker, company or description); web searches found nothing tying it to Web Summit Lisbon 2026.",
+   "source_url": "https://websummit.com/schedule/search/sp%20ventures/page/1/",
+   "read_on": "2026-11-06"
+  }
+ ]
+}

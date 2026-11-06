@@ -16,6 +16,14 @@ export function inline(s) {
     s = s.replace(/`([^`]+)`/g, (_, c) => { codes.push(`<code>${esc(c)}</code>`); return `\u0000${codes.length - 1}\u0000` })
     s = esc(s)
     // link text may hold one level of brackets (a session title such as "Make AI agents work [Hosted by Make]")
+    // an image: ![alt](src). A file named <slug>--paper--<thumb|card|banner>.png gets its size (no layout shift) and its
+    // ink twin for dark mode, in a <picture> (design/infographics/out/, the designer's article images).
+    s = s.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (_, alt, u) => {
+        const sz = { thumb: [480, 480], card: [1200, 630], banner: [1600, 560] }[(u.match(/--(thumb|card|banner)\.\w+$/) || [])[1]]
+        const tag = (name, o) => `<${name}` + Object.entries(o).filter(([, v]) => v !== undefined).map(([k, v]) => ` ${k}="${v}"`).join('') + '>'
+        const img = tag('img', { src: u, alt: esc(alt), width: sz?.[0], height: sz?.[1], loading: 'lazy', decoding: 'async' })
+        return /--paper--/.test(u) ? tag('picture', {}) + tag('source', { media: '(prefers-color-scheme: dark)', srcset: u.replace('--paper--', '--ink--') }) + img + '</picture>' : img
+    })
     s = s.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g, (_, t, u) => `<a href="${mdToHtmlLink(u)}">${t}</a>`)
     s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>')
     return s.replace(/\u0000(\d+)\u0000/g, (_, i) => codes[+i])

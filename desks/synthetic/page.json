@@ -10,42 +10,27 @@
   "F25: May the outreach email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
   "F26: Does 'Powered by RiskMandate' stay on company pages?"
  ],
- "latest_line": "run 6 (6 November, 06:00 UTC): the same four readers compare today's front page with the designer's mock-ups A, B and C. A and C tie, B is last for all four; the mock-ups hide AI authorship in the bylines (F35).",
- "latest_intro": "The front-page pass (board/passes/2026-11-06-the-front-page.md) asked for the synthetic readers' opinion before Dinis picks. The four readers of run 5 (invented, SYNTHETIC) saw today's front page (v0.1.140) and the designer's three mock-ups, A the newspaper, B the visual wall, C the briefing first, on their own device, and ranked them. Scored 3, 2, 1, 0 by place: A 9, C 9, today 6, B 0.",
+ "latest_line": "run 7 (6 November, 06:50 UTC): the reporter reads the Brazil story rewritten as a story project. He has an angle and would credit the site for spotting the counts that do not reconcile; he would not repeat an unsourced 2025 claim (F41), and could not check 'signed' (F28).",
+ "latest_intro": "Tom (invented, SYNTHETIC) read the Brazil story in run 5; this morning it was rewritten as a story project (shorter, tables, the five counts side by side, an invitation to help map the delegation). He read it fresh at v0.1.156, desktop then phone; screenshots overlap by 15% so nothing is missed between screens.",
  "latest_readers": [
-  {
-   "who": "Ana Costa, 58, pharmacy owner, Porto (SYNTHETIC)",
-   "knows": "not what a prompt is",
-   "device": "phone",
-   "story": "C, A, today, B",
-   "line": "C's 'Before the summit, in 30 seconds' told her the news in three plain points; B is all pictures with text too small to read."
-  },
-  {
-   "who": "Miguel Sousa, 22, CS student, Lisbon (SYNTHETIC)",
-   "knows": "prompts, agents, LLMs",
-   "device": "phone",
-   "story": "C, A, today, B",
-   "line": "Three facts with numbers before any picture; B's unsourced big numbers read as marketing."
-  },
-  {
-   "who": "Helena Marques, 47, compliance at an insurer (SYNTHETIC)",
-   "knows": "the AI Act",
-   "device": "desktop",
-   "story": "today, A, C, B",
-   "line": "Today is the only one that shows the agent byline and 'Every fact sourced' on the first screen; in the mock-ups AI-written work reads as human-written."
-  },
   {
    "who": "Tom Hartley, 36, reporter, London (SYNTHETIC)",
    "knows": "newsrooms",
-   "device": "desktop",
-   "story": "A, C, today, B",
-   "line": "A's infographic and lede give him an angle in one screen; but 'today's page wins on trust'."
+   "device": "desktop, then phone",
+   "story": "Brazil's startup mission (rewritten)",
+   "line": "An angle: five counts from 100 to about 300 that no source reconciles. He would cite ApexBrasil, Sebrae and Lusa and credit PrompTugal.news for the mismatch; the tables are clearer than prose on both screens."
   }
  ],
- "latest_signed": "**Checked by me:** the bylines 'Vicky Wang's desk' are on mock-up A's first screen (F35). The infographic's '8 to 13 November' is not an error: they are the Brazilian mission's dates, sourced in the article; the label is what misleads (F37).",
- "latest_held": "a picture on every story (A); three plain lines first (C); a lead that gives an angle in one screen (A).",
- "latest_lost": "bylines that no longer say an AI agent wrote it (F35); the sourcing promise moved to the bottom (F36); an AI-made chart unreadable on a phone (F37); B's bare figures (F38); C's briefing without sources (F39).",
+ "latest_signed": "**Run 5 to run 7, the same reader on the same story:** in run 5 he would 'quote its sources, not the site'; now he would credit the site for an angle. Still missing, his one change: 'one named human editor and a how-to-cite line (title, URL, version, date) near the top, with every source and the signature as a tappable link'.",
+ "latest_held": "'What this does not claim' and 'Tried and not reached'; the tables; the counts side by side.",
+ "latest_lost": "the 2025 claim with no source (F41); an invitation only GitHub users can answer (F42); three agent names and no accountable human (F43); 'signed' still unverifiable (F28); unlinked sources and a cut PDF address on the phone (F33).",
  "earlier": [
+  {
+   "run": 6,
+   "when": "06:00 UTC",
+   "who": "the four run-5 readers on today's front page against mock-ups A, B, C",
+   "line": "A 9, C 9, today 6, B 0; the mock-ups' bylines hide that an AI agent wrote the work (F35, blocking). F35 to F40."
+  },
   {
    "run": 5,
    "when": "04:40 UTC",
@@ -87,7 +72,7 @@
   "A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).",
   "A card per reader (designer@, pass finding S5).",
   "The readers tapped nothing: runs so far are screenshots only.",
-  "The Brazil story changed after run 5 (90%); no reader has read the new version yet."
+  "No owner has recorded a decision in the ledger yet (07:05 UTC): every open row still reads 'no decision yet'."
  ],
- "latest_title": "Latest: run 6, the front page today against mock-ups A, B and C"
+ "latest_title": "Latest: run 7, the rewritten Brazil story"
 }

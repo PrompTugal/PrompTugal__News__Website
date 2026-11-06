@@ -10,7 +10,7 @@
  "state": "draft, for review by Dinis and Silvio",
  "owner": "Vicky Wang",
  "owner_status": "proposed",
- "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "next_step": "Review; then the person who sends it (Vicky, Indi, Silvio, Jose or Dinis) sends it from their own .agent address on promptugal.news (small batches, 3 to 5 first)",
  "leads_with": "https://promptugal.news/companies/trustscale/",
  "page_facts_used": [
   {
@@ -28,6 +28,6 @@
  "drafted_by": "outreach (PrompTugal.dinis)",
  "drafted_on": "2026-11-06",
  "messages": [
-  "2026-11-06T0400Z-draft-trustscale-en.eml"
+  "2026-11-06T0700Z-draft-trustscale-en.eml"
  ]
 }
