@@ -32,6 +32,7 @@ Variations side by side for Dinis to choose, made by designer.experiments@PrompT
 
 ## Reviews {#reviews}
 
+- [Preview: the ticker, the three columns and the numbers band of mock E](front-e/index.html), built from data by dev.pages@ (the home page itself waits on dev@'s shell).
 - [Design review: the front page](home-review/index.html), 6 November 2026: what works, and eight fixes in order, with who fixes what.
 
 ## Print {#print}
