@@ -117,7 +117,8 @@
         "empty",
         "failed",
         "claimed",
-        "claim_failed"
+        "claim_failed",
+        "mail"
       ],
       "additionalProperties": false,
       "properties": {
@@ -160,6 +161,34 @@
         "claim_failed": {
           "type": "string",
           "minLength": 1
+        },
+        "mail": {
+          "type": "object",
+          "required": [
+            "duplicate",
+            "rekey",
+            "notice",
+            "refused"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "duplicate": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rekey": {
+              "type": "string",
+              "minLength": 1
+            },
+            "notice": {
+              "type": "string",
+              "minLength": 1
+            },
+            "refused": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
         }
       }
     },

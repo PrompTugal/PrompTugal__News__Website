@@ -29,7 +29,13 @@
     "empty": "The pool is empty for now. Try again in an hour, or tell us you are interested.",
     "failed": "No pilot key could be drawn: ",
     "claimed": "Your vault was made and your claim was posted.",
-    "claim_failed": "Your vault was made. The claim could not be posted, which does not affect your vault."
+    "claim_failed": "Your vault was made. The claim could not be posted, which does not affect your vault.",
+    "mail": {
+      "duplicate": "Another reader drew the same pilot key first, so a new one was given to you. Your vault is not affected.",
+      "rekey": "Your pilot key was replaced. Your vault is not affected.",
+      "notice": "A notice from the issuer.",
+      "refused": "A message could not be checked and was ignored."
+    }
   },
   "doorcode": {
     "button": "No passkey? Use a door code",

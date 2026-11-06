@@ -128,17 +128,32 @@ try {
 
     // the mailbox: a message for this reader is found when the vault is opened again, once
     const readerBundle = { v: 1, encrypt: claim.reader.encrypt_pub, sign: claim.reader.sign_pub, label: '', fingerprint: '', signing_fingerprint: '' }
-    await poolWrite(pg, pool.key, `/mailbox/${claim.mailbox}`, '1.json', await mintMessage(issuer, { bundle: readerBundle }, 1))
+    await poolWrite(pg, pool.key, `/mailbox/${claim.mailbox}`, '1.json', await mintMessage(issuer, { bundle: readerBundle }, 1, { text: 'Welcome, test reader.' }))
     await pg.goto(B + 'account/vault.html'); await pg.waitForSelector('#nr-vault-enable', { timeout: 20000 })
     await pg.evaluate(() => { window.__mail = []; window.addEventListener('pt:mailbox', e => window.__mail.push(e.detail)) })
     await pg.click('#nr-vault-enable')
     await pg.waitForFunction(() => window.__mail.length > 0, null, { timeout: 90000 })
     const mail = await pg.evaluate(() => window.__mail[0])
     check(mail.length === 1 && mail[0].kind === 'welcome' && mail[0].n === 1, 'the issuer’s message is found, opened and checked')
+    await pg.waitForSelector('#nr-vault-mail', { timeout: 30000 })
+    check((await pg.textContent('#nr-vault-mail')).includes('Welcome, test reader.'), 'the pane shows the welcome text')
+    // a second message (a duplicate draw, with a new API key): only it arrives next time, and its words come from data
+    await poolWrite(pg, pool.key, `/mailbox/${claim.mailbox}`, '2.json', await mintMessage(issuer, { bundle: readerBundle }, 2, { api_key: mintApiKey() }, { kind: 'duplicate' }))
     await pg.goto(B + 'account/vault.html'); await pg.waitForSelector('#nr-vault-enable', { timeout: 20000 })
     await pg.evaluate(() => { window.__mail = []; window.addEventListener('pt:mailbox', e => window.__mail.push(e.detail)) })
-    await pg.click('#nr-vault-enable'); await pg.waitForSelector('#nr-vault-pane:not([hidden])'); await pg.waitForTimeout(8000)
-    check((await pg.evaluate(() => window.__mail.length)) === 0, 'the same message is not delivered twice')
+    await pg.click('#nr-vault-enable')
+    await pg.waitForFunction(() => window.__mail.length > 0, null, { timeout: 90000 })
+    const mail2 = await pg.evaluate(() => window.__mail[0])
+    check(mail2.length === 1 && mail2[0].kind === 'duplicate' && mail2[0].n === 2, 'only the new message arrives, not the first again')
+    await pg.waitForSelector('#nr-vault-mail', { timeout: 30000 })
+    check(/not affected/.test(await pg.textContent('#nr-vault-mail')), 'a duplicate is explained from data')
+    // an unsigned message in the mailbox is refused and said so
+    await poolWrite(pg, pool.key, `/mailbox/${claim.mailbox}`, '3.json', await mintMessage(issuer, { bundle: readerBundle }, 3, undefined, { signWith: other }))
+    await pg.goto(B + 'account/vault.html'); await pg.waitForSelector('#nr-vault-enable', { timeout: 20000 })
+    await pg.evaluate(() => { window.__mail = []; window.addEventListener('pt:mailbox', e => window.__mail.push(e.detail)) })
+    await pg.click('#nr-vault-enable')
+    await pg.waitForFunction(() => window.__mail.length > 0, null, { timeout: 90000 })
+    check((await pg.evaluate(() => window.__mail[0]))[0].kind === 'refused', 'a message signed by another key is refused')
 
     // no passkey at all: a door code, shown once, typed back; no recovery door; the claim says door-secret
     const pg2 = await newPage()

@@ -439,16 +439,29 @@ async function joinWithCode(codeText, door, prf) {
 }
 
 /** After a sign-in: bring in what the vault holds that this browser does not, so the meter shows the whole account at once. */
+/** The issuer's messages, in the pane: the welcome carries its own text (signed by the pinned issuer, shown as plain text); the
+ *  others have words in data (data/billing/vault.json onboarding.mail). */
+function showMail(got) {
+    const M = (CFG.onboarding && CFG.onboarding.mail) || {}
+    const items = got.map(m => h('li', {}, m.kind === 'welcome' && m.body && typeof m.body.text === 'string' ? m.body.text.slice(0, 400) : (M[m.kind] || M.notice || '')))
+    body.prepend(h('ul', { class: 'notice nr-mail', id: 'nr-vault-mail' }, items))
+}
+
 async function afterUnlock(note) {
     const v = state.vaults
-    // the issuer's messages for a vault made through onboarding (the mailbox), best effort and silent when there are none
-    OB().then(async m => { const cfg = await m.loadConfig(); if (!m.isOpen(cfg) || !v.master) return; const got = await m.checkMailbox(v.master, cfg); if (got.length) window.dispatchEvent(new CustomEvent('pt:mailbox', { detail: got })) }).catch(() => { })
-    if (!v.reader) return drawUnlocked(note)
+    // the issuer's messages for a vault made through onboarding (the mailbox): best effort, at most 8 seconds, silent when none
+    let mail = []
+    try {
+        mail = await Promise.race([OB().then(async m => { const cfg = await m.loadConfig(); return !m.isOpen(cfg) || !v.master ? [] : m.checkMailbox(v.master, cfg) }), new Promise(r => setTimeout(() => r([]), 8000))])
+    } catch (e) { mail = [] }
+    if (mail.length) window.dispatchEvent(new CustomEvent('pt:mailbox', { detail: mail }))
+    const draw = async () => { await drawUnlocked(note); if (mail.length) showMail(mail) }
+    if (!v.reader) return draw()
     fill(note || null, h('p', { class: 'meta' }, 'Reading your devices’ files…'))
     let c = null
     try { try { await v.reader.pull() } catch (e) { /* fine */ } c = await readAll() } catch (e) { c = null }
     if (c && S.inbound(c, readState() || emptyState(), deviceId).any) return merge()
-    return drawUnlocked(note)
+    return draw()
 }
 
 async function drawUnlocked(note) {
