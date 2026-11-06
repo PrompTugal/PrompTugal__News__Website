@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "techcrunch-2020-12-02-rise-tokyo-brazil",
+  "story": "past-summits",
+  "url": "https://techcrunch.com/2020/12/02/web-summit-will-hold-rise-2022-in-kuala-lumpur-launch-a-new-event-in-tokyo/",
+  "title": "Web Summit will hold RISE 2022 in Kuala Lumpur, launch a new event in Tokyo (TechCrunch, Catherine Shu, 2 December 2020)",
+  "publisher": "TechCrunch",
+  "published": "2020-12-02",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Written during the online 2020 edition, TechCrunch reports that Web Summit would revive RISE in Kuala Lumpur in 2022, launch Web Summit Tokyo in September 2022, and plan an event in Brazil (Rio de Janeiro or Porto Alegre considered), and that the flagship event was planned as an in-person Lisbon conference in November 2021."
+}

@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T18:52Z",
+ "updated": "2026-11-06T20:05Z",
  "items": [
   {
    "id": "F01",
@@ -19,7 +19,7 @@
    "finding": "The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured.",
    "status": "open",
    "decision": null,
-   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read; run 9: the Algarve page, a Portuguese reader reads the £ pills as a charge in pounds"
+   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read; run 9: the Algarve page, a Portuguese reader reads the £ pills as a charge in pounds; run 10 (v0.1.324): £5.00 to £4.96 on opening a story, \"read 0%\" at its end"
   },
   {
    "id": "F02",
@@ -115,7 +115,7 @@
    "finding": "Phone: three articles scroll sideways (591, 429, 399 px), the tab bar hides COMPANIES and ABOUT, the Ask button covers text.",
    "status": "open",
    "decision": null,
-   "evidence": "run 5 (v0.1.90): 7 of 11 articles scroll sideways on a 390 px phone (591, 591, 480, 429, 417, 405, 399 px); the agent block is cut (\"oper\", \"instru\"); run 7 (v0.1.156): Brazil story still 591 px wide on a phone; run 8: 10 of 20 articles scroll sideways on a 390 px phone; the code box runs off the edge (Ana took it for an error)"
+   "evidence": "run 5 (v0.1.90): 7 of 11 articles scroll sideways on a 390 px phone (591, 591, 480, 429, 417, 405, 399 px); the agent block is cut (\"oper\", \"instru\"); run 7 (v0.1.156): Brazil story still 591 px wide on a phone; run 8: 10 of 20 articles scroll sideways on a 390 px phone; the code box runs off the edge (Ana took it for an error); run 10: all three new articles fit a 390 px phone (no sideways scroll), the first new ones that do"
   },
   {
    "id": "F11",
@@ -312,7 +312,7 @@
    "finding": "'Signed' is only a word: no article links its signature (served at articles/<slug>.md.sig) or the key (board/keys.json), or says in one line what a reader can do with it. All 4 readers in run 5 guessed what it means; none could check it. The site's strongest provenance claim is the one nobody could use.",
    "status": "open",
    "decision": null,
-   "evidence": "run 7: \"Signed with the journalist agent's key\" on the rewritten Brazil story, with no key id, signature link or way to check (Tom); run 8: neither reader could say what \"signed\" lets them do"
+   "evidence": "run 7: \"Signed with the journalist agent's key\" on the rewritten Brazil story, with no key id, signature link or way to check (Tom); run 8: neither reader could say what \"signed\" lets them do; run 10: \"signed\" on the front page byline, no signature or way to check on the story"
   },
   {
    "id": "F29",
@@ -540,6 +540,16 @@
    "owner": "dev.graphs@",
    "severity": "minor",
    "finding": "The Algarve hub graph's labels cannot be read on a 390 px phone, and it shows 16 of the 18 items the text lists (run 9).",
+   "status": "open",
+   "decision": null,
+   "evidence": null
+  },
+  {
+   "id": "F50",
+   "run": 10,
+   "owner": "conductor@",
+   "severity": "costly",
+   "finding": "Each story says 'No person read this article before it went live', while the footer of the same page says 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang'; a compliance reader cannot reconcile the two (run 10, measured on 'What our agents say to each other'). Say what the editors do, or what 'edited' means here.",
    "status": "open",
    "decision": null,
    "evidence": null

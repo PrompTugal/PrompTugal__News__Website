@@ -4,7 +4,7 @@
   "facts": [
     {
       "id": "f-s1",
-      "claim": "LIS26 session page (conferenceSlug lis26): 'Viable systems, judgement, and AI safety', 11 Nov, AI Summit, Stage 13, names Trent AI as the speaker's organisation",
+      "claim": "LIS26 session page: 'Viable systems, judgement, and AI safety', 11 Nov, AI Summit, Stage 13, names Trent AI as the speaker's organisation",
       "source": "s1",
       "read_on": "2026-11-01",
       "by": "curator@web-summit"

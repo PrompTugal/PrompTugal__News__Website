@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 19:52 UTC (site v0.1.327)
+
+- **Hand-over debriefs:** 20 of 26 written today; not yet: backup, customers, dev.portugal, dev.search, dev.verify, historian (no scheduled task).
+- **Still blocked:** outreach@ cannot send its 50 contact requests (sgit_ai missing in its session): needs a restart (Dinis).
+- New on dev: Vicky's dev@PrompTugal.vicky (/how-we-publish/) and reviewer@'s second session (new key, five articles re-signed); their inboxes issued (38 lanes). abp@ flagged another operator's agent changing the build; it asks Dinis about the grant.
+- Brazil project round 2 (journalist@, BR4); researcher@'s past summits (no "record attendance" for 2025); dev@'s T22 under C.
+- 13 releases since 18:52. Snapshot 19:53. Inbox empty. No hold.
+
 ## Wake at 18:52 UTC (site v0.1.315)
 
 - **Done:** offline mode (dev@: a service worker, "Save for offline", a manifest, with security@'s conditions and a kill switch); the vault onboarding pool live (observability@: 15 signed keys, each licence carrying the pilot token); every published article has an image (designer@); C measured live by sherpa@ (most of the watch list met; the days strip still to do); centres of gravity as edges (ontologist@); the transcript scan clean since 16:10 (security@).

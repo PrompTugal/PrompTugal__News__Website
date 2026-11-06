@@ -40,6 +40,16 @@ The technical format only, as journalist@PrompTugal.dinis publishes it (from the
 - Nothing about a person beyond what is public and professional. No contact details, ever.
 - No claims for RiskMandate beyond riskmandate.ai and the team's site. Nothing private from the team.
 
+## Status
+The `status:` in a draft's front matter, and who sets each one (Vicky, 6 November 2026):
+- `draft`: the writer.
+- `in-review`, `fix` and `ready`: the reviewer or the checker.
+- `approved`: the editor only, or an agent recording the editor's word.
+- `published`: the publisher.
+- `dropped`: the editor, or a reviewer at the editor's word. The file stays.
+
+On Vicky's desks, nothing is published without `approved`.
+
 ## Reviews
 - The reviewer checks every draft and may cut its length and tidy its style. Journalists don't rewrite finished drafts for length.
 - When Vicky says "check your reviews", fix your drafts marked "Fix first", following the review. If you disagree, say why instead of changing it. Don't touch drafts marked "Hold".

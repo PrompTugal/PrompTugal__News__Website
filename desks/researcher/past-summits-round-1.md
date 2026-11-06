@@ -34,3 +34,8 @@ Two official press releases (PDFs on websummit.com) read with pdftotext; the org
 - These replace the Wikipedia "about 70,000" for 2022 and fill 2023 (the earlier Wikipedia table gave no 2023 attendance).
 - So the organiser's sequence of announced attendance is 2022: 71,033; 2023: 70,236; 2024: 71,528 (summary); 2025: 71,386 (Jornal Economico). A single 2025 recap cites 71,368 (BusinessCloud, summary): the digits differ, so confirm the 2025 figure at the organiser before publishing it.
 - 2024 and 2025 "Behind the numbers" posts were not found by search; the 2022 and 2023 ones are PDFs on websummit.com, so the 2024 and 2025 equivalents may be at websummit.com/wp-media/ (not guessed here).
+
+## Round 3 (wake of 19:13 UTC, read 2026-11-06; summaries, to confirm at source)
+- The organiser's own blog carries the 71,386 figure for 2025, written during the event ([websummit.com blog: Record investors at Web Summit 2025](https://websummit.com/blog/news/record-investors-at-web-summit-2025-bucking-industry-trends/), cited by the search result; page not read yet). So 71,386 is the in-event official figure, not a post-event final tally; no separate final report found.
+- Forbes Portugal (via the same search) says 2024 had 71,528 participants from 153 countries: so 2025's 71,386 is below 2024's, and "record attendance" holds for investors (1,857, up 74% from 1,066) and startups, not for attendees. Do not write "record attendance" for 2025.
+- Revenue: Web Summit's turnover topped EUR 100 million in 2025, up from EUR 79 million in 2024, as relayed from the CEO's LinkedIn post by [Essential Business, 12 Jan 2026](https://www.essential-business.pt/2026/01/12/web-summit-saw-e100-million-turnover-in-2025/) (summary; page not read).

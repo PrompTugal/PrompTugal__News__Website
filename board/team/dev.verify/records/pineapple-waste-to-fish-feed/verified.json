@@ -1,0 +1,330 @@
+{
+  "$schema": "none",
+  "article": "pineapple-waste-to-fish-feed",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://pep4fish.pt/2026/10/19/o-que-sobra-do-ananas-passa-a-alimentar-peixes-agrogrintech-arranca-com-unidade-piloto-em-portugal/",
+      "status": 200,
+      "read": true,
+      "chars": 5319
+    },
+    {
+      "url": "https://www.portugalglobal.pt/en/news/2026/novembro/agrogrintech-turns-pineapple-waste-into-aquafeed-ingredient/",
+      "status": 200,
+      "read": true,
+      "chars": 2922
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/",
+      "status": 200,
+      "read": true,
+      "chars": 5677
+    },
+    {
+      "url": "https://www.agrogrintech.com",
+      "status": 200,
+      "read": true,
+      "chars": 7875
+    }
+  ],
+  "spent_usd": 0.0775,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Pep4Fish reported on 19 October that AgroGrINTech had started a pilot unit in Pedrouços, Maia.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "arrancou com uma unidade piloto em Pedrouços, na Maia",
+          "note": "The Pep4Fish post dated October 19, 2026 states that AgroGrINTech started a pilot unit in Pedrouços, Maia."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Posted on Outubro 19, 2026 Outubro 19, 2026 by Pep4Fish Toneladas de resíduos de ananás que antes iam para o lixo passam agora a ser transformadas em ingredientes de alto valor para a aquacultura. A AgroGrIN Tech , start-up portuguesa, arrancou com uma unidade piloto em Pedrouços, na Maia",
+          "note": "The article published by Pep4Fish on 19 October directly states that AgroGrIN Tech launched a pilot unit in Pedrouços, Maia."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "arrancou com uma unidade piloto em Pedrouços, na Maia",
+          "note": "S1 is a Pep4Fish post dated Outubro 19, 2026, and it states AgroGrINTech started a pilot unit in Pedrouços, Maia."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The AgroGrINTech unit can produce about 200kg of bromelain a year from about 120 tonnes of pineapple by-products.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "The unit has a stated annual capacity of around 200kg of bromelain, using approximately 120 tonnes of pineapple by-products.",
+          "note": "S2 states the same around-200kg-per-year bromelain capacity from around 120 tonnes of by-products, and S1 gives the same figures in Portuguese."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "The unit has a stated annual capacity of around 200kg of bromelain, using approximately 120 tonnes of pineapple by-products.",
+          "note": "The source directly confirms that the AgroGrINTech unit has an annual capacity to produce around 200kg of bromelain from approximately 120 tonnes of pineapple by-products."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "around 200kg of bromelain, using approximately 120 tonnes of pineapple by-products",
+          "note": "S2 states the unit has an annual capacity of around 200kg of bromelain from approximately 120 tonnes of pineapple by-products."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The planned 2025 production capacity was 50kg of bromelain, and the unit's capacity is four times that.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "quadrupled against the 50kg forecast for 2025",
+          "note": "The source says capacity quadrupled from the 50kg forecast for 2025 to a stated annual capacity of around 200kg of bromelain, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "permitiu multiplicar por quatro a capacidade produtiva prevista em 2025. A unidade passou de 50 quilos para cerca de 200 quilos de bromelaína por ano",
+          "note": "The source directly states that the unit's annual bromelain production capacity quadrupled from the planned 50 kg for 2025 to about 200 kg."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "multiplicar por quatro a capacidade produtiva prevista em 2025. A unidade passou de 50 quilos para cerca de 200 quilos de bromelaína por ano",
+          "note": "The source states the unit’s bromelain capacity is four times the 2025 forecast of 50 kg, reaching about 200 kg per year."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "Investment in the unit comes to about 1.2 million euros by the end of 2026, from Portugal's Recovery and Resilience Plan and private money.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "O investimento total na unidade ascende a cerca de 1,2 milhões de euros até ao final de 2026",
+          "note": "S1 states the unit's total investment is about €1.2 million by the end of 2026, combining PRR funds and private investment; S2 says a similar figure in English, though it describes it as project funding rather than unit investment."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "O investimento total na unidade ascende a cerca de 1,2 milhões de euros até ao final de 2026, combinando fundos do Plano de Recuperação e Resiliência (PRR), no âmbito do projeto Pep4Fish, e investimento privado",
+          "note": "Source S1 directly confirms that total investment in the unit amounts to about 1.2 million euros by late 2026 from the Recovery and Resilience Plan and private investment."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "O investimento total na unidade ascende a cerca de 1,2 milhões de euros até ao final de 2026, combinando fundos do Plano de Recuperação e Resiliência (PRR), no âmbito do projeto Pep4Fish, e investimento privado.",
+          "note": "S1 directly states the unit's total investment is about €1.2 million by end-2026, combining PRR funds and private investment."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "AICEP Portugal Global reported on 4 November on the aims of the Pep4Fish project.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "with the aim of improving digestibility and fish health",
+          "note": "The AICEP Portugal Global article, dated 04/11/2026, is mainly about AgroGrINTech but states the Pep4Fish project's aim of improving digestibility and fish health."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Pep4Fish is developing these ingredients for European seabass and gilthead seabream feed, with the aim of improving digestibility and fish health.",
+          "note": "AICEP Portugal Global published an article on 4 November describing the aims and developments of the Pep4Fish project."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "04/11/2026 ... Pep4Fish is developing these ingredients for European seabass and gilthead seabream feed, with the aim of improving digestibility and fish health.",
+          "note": "AICEP Portugal Global's page dated 04/11/2026 reports on Pep4Fish's aims for developing aquafeed ingredients."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "The ETSA Group leads the Pep4Fish project with nine partners.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "liderado pelo Grupo ETSA e conta com a participação de nove parceiros",
+          "note": "The source states that Pep4Fish is led by the ETSA Group with nine partners, and S2 says the same in English."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Led by the ETSA Group, Pep4Fish brings together nine business and research partners",
+          "note": "The source explicitly confirms that the ETSA Group leads the Pep4Fish project alongside nine partners."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Led by the ETSA Group, Pep4Fish brings together nine business and research partners",
+          "note": "Source S2 explicitly states the ETSA Group leads Pep4Fish and that it brings together nine partners."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "Débora Campos is the CEO and founder of AgroGrINTech.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "CEO & Founder",
+          "note": "The company's team page lists Débora Campos as CEO & Founder, and S1 independently calls her \"CEO e fundadora da AgroGrINTech.\""
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Débora Campos, CEO e fundadora da AgroGrINTech",
+          "note": "The source explicitly states that Débora Campos is the CEO and founder of AgroGrINTech."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Débora Campos, CEO e fundadora da AgroGrINTech",
+          "note": "The source explicitly identifies Débora Campos as CEO and founder of AgroGrINTech."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "The Portuguese Catholic University's Centre for Biotechnology and Fine Chemistry research underlying the process was licensed exclusively to AgroGrINTech in 2025.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "licensed exclusively to AgroGrINTech in 2025",
+          "note": "S2 states that the extraction process builds on research by the Centre for Biotechnology and Fine Chemistry at the Portuguese Catholic University, which was licensed exclusively to AgroGrINTech in 2025, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "The extraction process builds on research by the Centre for Biotechnology and Fine Chemistry at the Portuguese Catholic University, licensed exclusively to AgroGrINTech in 2025.",
+          "note": "The source directly states that the research underlying the process by the Centre for Biotechnology and Fine Chemistry at the Portuguese Catholic University was exclusively licensed to AgroGrINTech in 2025."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "The extraction process builds on research by the Centre for Biotechnology and Fine Chemistry at the Portuguese Catholic University, licensed exclusively to AgroGrINTech in 2025.",
+          "note": "S2 explicitly states the research was licensed exclusively to AgroGrINTech in 2025."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "AgroGrINTech aims to sign its first supply contracts in 2027 and plans to open an investment round early in 2027.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "No início de 2027, a empresa vai abrir uma ronda de investimento",
+          "note": "S1 says the 2027 goal is to celebrate the first supply contracts and that the company will open an investment round early in 2027, and S2 likewise says it plans to secure its first supply contracts in 2027 and raise investment."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "O objetivo para 2027 é consolidar as vendas e celebrar os primeiros contratos de fornecimento. No início de 2027, a empresa vai abrir uma ronda de investimento",
+          "note": "The source explicitly confirms that AgroGrINTech aims to secure its first supply contracts in 2027 and open an investment round at the beginning of 2027."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "O objetivo para 2027 é consolidar as vendas e celebrar os primeiros contratos de fornecimento. No início de 2027, a empresa vai abrir uma ronda de investimento",
+          "note": "S1 states the 2027 goal includes first supply contracts and an investment round at the start of 2027."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "Seamoretech is a 2021 spin-off of the University of Porto's Faculty of Engineering and plans to launch in Spain in 2027.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Founded in 2021 as a spin-off of the University of Porto’s Faculty of Engineering (FEUP); planned market launch in Spain in 2027",
+          "note": "S3 states both that Seamoretech was founded in 2021 as a spin-off of FEUP and that it has a planned market launch in Spain in 2027."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Founded in 2021 as a spin-off of the University of Porto’s Faculty of Engineering (FEUP), Seamoretech is led by co-founders Sofia Delgado (CEO) and Eva Sousa (CTO)... The Porto-based company plans a commercial launch in Spain in 2027",
+          "note": "The source directly confirms that Seamoretech was founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering and plans to launch commercially in Spain in 2027."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Founded in 2021 as a spin-off of the University of Porto’s Faculty of Engineering (FEUP) ... planned market launch in Spain in 2027",
+          "note": "S3 states Seamoretech was founded in 2021 as a FEUP spin-off and planned a commercial launch in Spain in 2027."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
