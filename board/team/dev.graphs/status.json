@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 22:17: past summits round 2 (organiser figures for 2022 and 2023) on work/dev.graphs; schedule now every two hours (account move)",
-  "updated": "2026-11-06T22:55Z",
+  "state": "handed over: moving to account B",
+  "updated": "2026-11-06T22:50Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -24,17 +24,15 @@
     "Algarve Evolution 'Brief me' brought onto dev earlier (6ac54e0a). Cloud centres round 2, from the ontologist's released edges (6cbb25cc: partner_of, data/organisations/web-summit/network.json): a fifth relation, 'partner of a past edition': Google and AWS named top partners of the 2022 edition in Web Summit's own numbers release, Microsoft shown as a past partner (edition not given); the Amazon and AWS cells now say what was read (page 1 of 8, the first 20 speakers); page and caption updated",
     "Cloud centres round 2 brought onto dev (f2195247). Phone check (iPhone 13 emulation) of all nine graph pages: no horizontal overflow except the explorer, fixed (filters and the actions row wrap); cloud centres column headings and state labels wrap on a narrow screen; past summits: compact figure labels (53k, 71.5k) and a wrapping legend on a narrow screen; 'Brief me' slides added for cloud centres and past summits (every graph picture except stories has one). Thumbnails on the best-of page dropped: committing images conflicts with Dinis's rule that images belong in a vault",
     "Phone-width fixes and two briefings brought onto dev (08b3ac28). Cloud centres round 3, from researcher@'s per-company batch 1 (6 of the 18 partner companies' own pages read): the 'built on' row is now 'Companies whose own pages name it': AWS 4 of 6 (Cerebras testimonial and joint setup, Elastic marketplace, Datadog monitoring page, Runpod as the rival in a customer's comparison, each line says which kind of tie), Google Cloud 2 (Elastic marketplace, Datadog monitoring), Azure 2 (the same two); the panel lists the companies with their pages and each company's own source; the page states 12 of 18 are not read and that a page not showing a tie is not absence; the gate now checks every company link on the page resolves; briefing slides updated",
-    "Cloud centres round 3 brought onto dev (bafe818b). Past summits round 2, from researcher@'s rounds 2 to 4: 2022 (71,033) and 2023 (70,236) now read at source from the organiser's own press releases (solid columns, replacing Wikipedia's 'about 70,000' and filling 2023); the caution now says 2025's 71,386 is below 2024's 71,528 so 'record attendance' does not hold (the records claimed are for investors and startups) and the 2025 digits are to be confirmed (one recap says 71,368); page words, caption and briefing slides updated together. Hand-over debrief updated at 22:30 (account move, new lessons)"
+    "Cloud centres round 3 brought onto dev (bafe818b). Past summits round 2, from researcher@'s rounds 2 to 4: 2022 (71,033) and 2023 (70,236) now read at source from the organiser's own press releases (solid columns, replacing Wikipedia's 'about 70,000' and filling 2023); the caution now says 2025's 71,386 is below 2024's 71,528 so 'record attendance' does not hold (the records claimed are for investors and startups) and the 2025 digits are to be confirmed (one recap says 71,368); page words, caption and briefing slides updated together. Hand-over debrief updated at 22:30 (account move, new lessons)",
+    "Final hand-over written (22:45): nothing in flight, everything pushed to work/dev.graphs; what the next session must do first is in the debrief (new key, inbox tools and token, merge dev, the open items in order). The instruction came by the conductor's relay of Dinis's word at 22:40; the repository's own record of it was not yet there"
   ],
   "next": [
-    "Past summits: the 2024 organiser figures and per-edition agendas and speakers (researcher@: not in a bulk public archive; a browser read or a third-party record marked as such)",
-    "Cloud centres: the other 12 of 18 partner pages (researcher@), edges from ontologist@",
-    "Algarve Evolution embed by dev.portugal@",
-    "Next debrief refresh within a day"
+    "For the next session on account B: see the debrief, 'The next session must do first' and 'Final hand-over'"
   ],
   "asks": [
-    "researcher@: 2024's own numbers release (the 2022 and 2023 ones are PDFs on websummit.com/wp-media/; the 2024 equivalent may be there), and the other twelve partner pages",
-    "Dinis: my inbox lane stays pending because sgit push needs an access token (sgit auth)",
+    "Dinis: my inbox lane stays pending because sgit push needs an access token (sgit auth); the next session needs one too",
+    "researcher@: 2024's own numbers release and the other twelve partner pages (for the next session)",
     "dev.portugal@: embed the Algarve Evolution pictures on /portugal/algarve-evolution/"
   ],
   "debrief": "board/team/dev.graphs/debriefs/2026-11-06-handover.md"
