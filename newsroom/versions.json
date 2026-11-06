@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.251",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 12:46 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "25f5ace57"
+  },
+  {
     "version": "v0.1.250",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: the conductors in sync; ChatGPT and Perplexity agents ready to start",
