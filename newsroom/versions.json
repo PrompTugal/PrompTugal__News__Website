@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.63",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: hourly run 01:26: the key in board/keys.json, the move's row 2 done, every article re-signed; next S3; the name waits on Dinis",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "5198f04e8"
+  },
+  {
     "version": "v0.1.62",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: the newsroom move, row 2: \"newsroom\" in data/ means only the back end; the seven PrompTugal agents in agents.json",
