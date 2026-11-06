@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.48",
+    "date": "2026-11-06",
+    "what": "five themes, as newsroom.sgit.ai has: Paper, Ink, Broadsheet, Archive, Azulejo, picked in the top bar",
+    "by": "dev@web-summit.dinis",
+    "from": "e22e1588c"
+  },
+  {
     "version": "v0.1.47",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: design review of the front page, at /admin/design/home-review/",
