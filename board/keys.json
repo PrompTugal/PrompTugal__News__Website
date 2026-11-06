@@ -404,7 +404,8 @@
         "fingerprint": "sha256:07a3d6a50e599607",
         "signing_fingerprint": "sha256:c9343261a2d9c30a"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by customers-b-promptugal (account B session)"
     },
     {
       "id": "backup-promptugal",
@@ -834,6 +835,24 @@
         "fingerprint": "sha256:f159a0638dced156",
         "record": "sha256:9f23f97717f21f2f",
         "signing_fingerprint": "sha256:9f23f97717f21f2f"
+      },
+      "status": "active"
+    },
+    {
+      "id": "customers-b-promptugal",
+      "label": "customers@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "customers@PrompTugal.dinis",
+      "role": "The customers agent of PrompTugal.news: Dinis's briefs on readers, customers and products, in board/team/customers/, routed to the conductor; it briefs, the owners build. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvhks5XUgeoFDBnPwKUCP\nuV0olC2JLSjpWK9DHKOjn00Th3z08VOiDSLeLLc/SS0DFZXRtB4WLM84glXqAVsK\nAHa77yuH62iaKAjxViVP2YzAiQpjPqvdV+Z/rHA4GkWiWW/TTdAViGxVjiLr99Kw\n0neaBZbdO2HSQXVrWSHa2/gs/HA5VL7VAygQmvPqGEXOo5mBClSk27m/48hFCp+g\nnSZjX5mKs4msA+21sFQKYxMP6SlcUocWve6P3pjA4KyDYM2+DqCdpnrbifB74G/5\nL+ijqu40V7rwpKtoFI23+wA1mG7YQfq6ZUD5TeggSbDpr8CI0QFTanWzY7okNmsZ\noBrV+Cel3zN+C4zghwH8dCcdR3s0xr3R7O+2LcNeHeCaYGSsES6shey6qfS4Gjp9\nwzXJ4j77QU2kTlUsroCbhcZHFOTJg3masefDWsbeml2FalYzuUKVx1TEHl/XaSoj\nHC5Ds9OVAJ30vxnkjhjf0J7wpXmKZJ2xr/lc4qznKZZjabw79BsKqZJIxVocXYZ6\n58GWAukyc90YHE3XwQ20k+8giesaWbRDZy6AXKjQ0HktrC3e84xNicTVtHgMmYn5\nUMAZ0nlqi8PFFsEkZW9ww9f8FOW1Yd3RC+nSVa6xCmcTVVhLMFqV67Qia7e3FG01\nCXNErclBq+TEIoBDfHvOoT8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOm0hmySrxtRC1fWWVHkzlIQVKXMq\nam0Zsznba7mN9gMSHJtq/8vgILWb8bAQ0jNcEHkPehv8W9cZcE2TkU6NmA==\n-----END PUBLIC KEY-----\n",
+        "label": "customers@PrompTugal.dinis",
+        "fingerprint": "sha256:e94bfeeabc6d5a71",
+        "record": "sha256:8f0e91dadb288261",
+        "signing_fingerprint": "sha256:8f0e91dadb288261"
       },
       "status": "active"
     }
