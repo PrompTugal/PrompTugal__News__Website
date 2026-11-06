@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.150",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 06:08: four dev workers' branches reviewed and brought onto dev; dev.portugal sent back",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a25a1afa2"
+  },
+  {
     "version": "v0.1.149",
     "date": "2026-11-06",
     "what": "devops@PrompTugal.dinis: wake 06:14: the deploy recovery proven (5 stalls, 5 recovered, no release lost); stalls made half as costly; blocked on nothing",
