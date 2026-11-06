@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.67",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: hourly run (02:00 UTC): run 3 (SYNTHETIC) on /newsroom/synthetic.html; for Dinis: the disclosure's 'not independent coverage ... hopes to meet or sell to' is what stops a comms lead passing it on",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "98acdfe9f"
+  },
+  {
     "version": "v0.1.66",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run 3 set-up (SYNTHETIC): the English draft's path re-shot at v0.1.65, after the newsroom move; README points at /newsroom/synthetic.html",
