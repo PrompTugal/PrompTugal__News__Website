@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.305",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: the transcript scan 16:10 to 18:10 is clean: no printed key in 19 active sessions",
+    "by": "security@PrompTugal.dinis",
+    "from": "5d0ebc309"
+  },
+  {
     "version": "v0.1.304",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: wake 18:05: S1 fixed and post-reviewed (S1b open for board/ and design/); the offline mode pre-reviewed; a hand-over debrief",
