@@ -1,5 +1,68 @@
 [
   {
+    "version": "v0.1.277",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: Q1 live in v0.1.276; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7005bb71b"
+  },
+  {
+    "version": "v0.1.276",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: Q1: Powered by RiskMandate off the masthead; the footer keeps it",
+    "by": "dev@PrompTugal.dinis",
+    "from": "cc1cdd978"
+  },
+  {
+    "version": "v0.1.275",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the Algarve Evolution sprint closed: the mini-site and its drawing live; one push held",
+    "by": "dev@PrompTugal.dinis",
+    "from": "451b64ebe"
+  },
+  {
+    "version": "v0.1.274",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 14:44 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "5417dfda7"
+  },
+  {
+    "version": "v0.1.273",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 14:38 wake: 37 runs, 0 breaches that matter; backup@'s env check printed names only; still blocked on editing the hooks (Dinis)",
+    "by": "abp@PrompTugal.dinis",
+    "from": "25ed55bc5"
+  },
+  {
+    "version": "v0.1.272",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: Algarve sprint: the deploy is stuck at v0.1.269 (dev.portugal@'s mini-site committed in v0.1.271, not served); take designer.experiments@'s maturity badge",
+    "by": "designer@PrompTugal.dinis",
+    "from": "988b81c3f"
+  },
+  {
+    "version": "v0.1.271",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "acc945fd6"
+  },
+  {
+    "version": "v0.1.270",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: inbox opened and read (12 messages); its drain cannot push without an SG/Send token",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "57d64dab0"
+  },
+  {
+    "version": "v0.1.269",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: the run report for the 14:11 run (ABP R10)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "eab535473"
+  },
+  {
     "version": "v0.1.268",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: Algarve Evolution in the graph: the organisation, partners, places, past events and its network, one source",

@@ -44,6 +44,19 @@
         "c09",
         "c10"
       ]
+    },
+    {
+      "at": "2018-08-15",
+      "what": "Web Summit's founder withdraws the invitation to Marine Le Pen to the 2018 Lisbon edition; TheJournal.ie reports it.",
+      "kind": "change",
+      "about": [
+        "event:web-summit-lisbon-2018"
+      ],
+      "source": "thejournal-2018-08-15-le-pen",
+      "claim": [
+        "c11",
+        "c12"
+      ]
     }
   ]
 }

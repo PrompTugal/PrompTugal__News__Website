@@ -9,3 +9,12 @@
 .gv-side h2 { margin: 0 0 4px; font-size: 18px; }
 .gv-meta { color: var(--ink-3); font-size: 13px; margin: 0 0 8px; }
 .gw-list { margin: 8px 0 0; padding-left: 18px; } .gw-list small { color: var(--ink-3, #666); }
+.ae-sec { margin: 22px 0 30px; }
+.ae-sec .gv-bar h2 { margin: 0 12px 0 0; font-size: 20px; }
+.ae-scroll { overflow-x: auto; border: 1px solid var(--hair); background: var(--panel); }
+.ae-scroll canvas { display: block; }
+.ae-sec .gv-side { margin-top: 10px; }
+.ae-figs { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+.ae-fig { border: 1px solid var(--hair); padding: 10px 12px; font: 400 14px/1.4 var(--sans, system-ui, sans-serif); display: flex; flex-direction: column; gap: 2px; }
+.ae-fig strong { font-size: 17px; line-height: 1.25; }
+.ae-fig small { color: var(--ink-3, #666); }

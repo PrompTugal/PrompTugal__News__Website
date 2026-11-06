@@ -1,0 +1,124 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-06T15-01-10Z",
+ "started": "2026-11-06T15:01:10.944Z",
+ "ended": "2026-11-06T15:12:55Z",
+ "line": "wake 15:09: 5 worker branches reviewed, all taken (dev.graphs round 2 unblocked); v0.1.277 deploy stuck, devops@ told",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T15:07:56.102Z",
+   "chars": 990,
+   "sha256": "513e8ee59ebe25d9",
+   "head": "<task-notification>\n<task-id>bf6y41ju6</task-id>\n<tool-use-id>toolu_01AxHAii3KXVkQ3BmtcK37sd</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/0d41f86b-3ccc-5cd4-9854-b4e5c"
+  },
+  {
+   "t": "2026-11-06T15:09:28.420Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-06T15:11:15.555Z",
+   "chars": 496,
+   "sha256": "f4ddc0d3259e0965",
+   "head": "<task-notification>\n<task-id>bihzfg1if</task-id>\n<tool-use-id>toolu_01H5hYcHabrLASUWU8SrgXKx</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/0d41f86b-3ccc-5cd4-9854-b4e5c"
+  },
+  {
+   "t": "2026-11-06T15:12:22.746Z",
+   "chars": 651,
+   "sha256": "0bbf54f21e016c49",
+   "head": "<task-notification>\n<task-id>bd51rgi72</task-id>\n<tool-use-id>toolu_01EERDCdQcLWJLnEcg8sSrxV</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/0d41f86b-3ccc-5cd4-9854-b4e5c"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 29,
+  "by_kind": {
+   "release": 1,
+   "git": 10,
+   "shell": 6,
+   "web": 3,
+   "other": 2,
+   "github-read": 3,
+   "message": 2,
+   "git-commit": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 29,
+  "commits": [
+   {
+    "sha": "16b0167b7",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs round 2 onto dev (one commit)",
+    "files": 5
+   },
+   {
+    "sha": "9436c92be",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "files": 2
+   },
+   {
+    "sha": "980e6aa67",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "files": 3
+   },
+   {
+    "sha": "45137ee38",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "files": 9
+   },
+   {
+    "sha": "f0417d92a",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 6
+   },
+   {
+    "sha": "7005bb71b",
+    "subject": "dev@PrompTugal.dinis: Q1 live in v0.1.276; status and run report",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "45137ee38 wrote content/index.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 29,
+  "in_mandate": 29,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}

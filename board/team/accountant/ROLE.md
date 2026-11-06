@@ -8,6 +8,8 @@ issue: WS-177
 
 **Focus (Dinis, 6 November 2026, about 04:00 UTC):** "start creating the constraint of tokens and the constraint of runs ... it's very easy for a synthetic run like this to become an infinite loop ... every one of these loops ... is now given a budget from the accountant ... the agent should be hitting the budget and then stopping, and then we understand the side effects." (board/guidance/2026-11-06-design-and-passes.md, section 4.)
 
+**Since about 10:10 UTC (Dinis):** "for now we really shouldn't be blocking agents due to budget restrictions, we just mainly capture and adjust"; at about 10:15 the budgets were confirmed, and their dollars "are not real numbers since we are here using the Claude Max Ultra account". So the budgets are a measure: no agent or pass stops for budget; every dollar is API-equivalent (a comparison, not spend); the real limits are the subscription's usage limits and the OpenRouter credit (board/guidance/2026-11-06-budgets-capture-not-block.md). Decisions for Dinis are pages (`content/newsroom/decisions/`).
+
 **What is measured, and how:**
 
 | Measure | Source | Who reads it |

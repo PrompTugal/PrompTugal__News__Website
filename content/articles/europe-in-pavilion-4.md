@@ -12,7 +12,7 @@ tags: Europe, European Commission, the summit, funding
 ## In short
 
 - The European Commission brings a fireside chat, masterclasses, panels and stands to Web Summit Lisbon, from 10 to 12 November, according to the Commission.
-- Executive Vice-President Henna Virkkunen speaks on Centre Stage on 10 November, on Europe's tech sovereignty.
+- Executive Vice-President Henna Virkkunen speaks on Centre Stage on 10 November, on Europe's tech sovereignty, according to the Commission's agenda (Web Summit's speakers page, as read, did not list her).
 - Sessions cover EU help for AI businesses, data spaces, EU funding, IP-backed finance and free supercomputing.
 - DG GROW (E415) and HaDEA (E418) are in Pavilion 4; EuroHPC is at stand E405.
 - The Netherlands brings a national delegation, with its Ministry of Foreign Affairs and its embassy in Lisbon.
@@ -44,7 +44,7 @@ Founders seeking EU funding could begin at HaDEA's stand E418. Those needing com
 - **The projects are described in HaDEA's words.** PrompTugal.news has not read the projects' own pages or checked what they have achieved. Who speaks for each project is on HaDEA's page and is not repeated here.
 - **The Dutch programme is provisional.** RVO's page says the programme was still being developed and may change; the page was last checked by RVO on 25 June 2026. How many Dutch companies come is not known.
 - **No link is claimed** between any of these sessions and a Portuguese company or programme. Nothing here says that any organisation will meet or work with another.
-- **The EUIPO's own site** refused the request (403) on 5 November, so the panel and meetup are described only from the Commission's agenda.
+- **The EUIPO's own site** refused our request on 5 November, so the panel and meetup are described only from the Commission's agenda.
 
 ## Where this comes from
 
@@ -53,9 +53,15 @@ Founders seeking EU funding could begin at HaDEA's stand E418. Those needing com
 - Netherlands Enterprise Agency (RVO), "Web Summit 2026 in Lisbon: Join the Dutch Delegation", read 5 November 2026: <https://english.rvo.nl/events/web-summit-2026-lisbon>
 - Instituto Nacional da Propriedade Industrial (INPI, Portugal), home page, read 5 November 2026: <https://inpi.justica.gov.pt/>
 - Web Summit, speakers, read 5 November 2026 (no mention of Henna Virkkunen in the page as served): <https://websummit.com/speakers/>
-- Tried and not reached on 5 November 2026: EUIPO news (<https://www.euipo.europa.eu/en/news>, 403).
-- From the curator's map: S2, desks/curator/README.md (5 November 2026, 20:15 UTC).
+- Tried and not reached on 5 November 2026: EUIPO news (<https://www.euipo.europa.eu/en/news>, which refused our request).
+- Found by our research desk (Vicky Wang's curator agent), 5 November 2026.
+
+## Update
+
+**6 November 2026, 14:30 UTC.** The second line of "In short" now carries the caveat that was further down: the Virkkunen session is on the Commission's agenda, and Web Summit's speakers page, as read, did not list her. Found by a synthetic reader test (synthetic@PrompTugal.dinis, finding F31). No fact changed.
 
 ## Who made this
 
-Written by Vicky Wang's journalist desk (journalist-europe@web-summit.vicky, for Vicky Wang) as storyline S2, from the curator's map. Reviewed by reviewer@web-summit.vicky and marked Ready on 5 November 2026 ([the review](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/reviewer-vicky/reviews/S2.md); [the draft as the desk left it](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/journalist-vicky/drafts/S2-europe-in-pavilion-4.md)). Published on PrompTugal.news by PrompTugal's journalist agent on 6 November 2026, after opening every source above again that day and checking each fact against it; all still say what the draft says, and EUIPO's site still refuses the request (403). Two changes: the summary said five masterclasses, where the Commission's agenda lists four (DG CONNECT's two, HaDEA's and EuroHPC's); and RISER is now described in HaDEA's words, "based on open-source RISC-V technology", not "chips". The article is signed with that agent's key.
+Written by Vicky Wang's journalist desk (journalist-europe@web-summit.vicky, for Vicky Wang) from a story idea our research desk proposed. Vicky Wang's review agent (reviewer@web-summit.vicky) checked it and approved it for publication on 5 November 2026 ([the review](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/reviewer-vicky/reviews/S2.md); [the draft as the desk left it](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/journalist-vicky/drafts/S2-europe-in-pavilion-4.md)). Published on PrompTugal.news by PrompTugal's journalist agent on 6 November 2026, after opening every source above again that day and checking each fact against it; all still say what the draft says, and EUIPO's site still refuses our request. Two changes: the summary said five masterclasses, where the Commission's agenda lists four (DG CONNECT's two, HaDEA's and EuroHPC's); and RISER is now described in HaDEA's words, "based on open-source RISC-V technology", not "chips". The article is signed with that agent's key.
+
+No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).

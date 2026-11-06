@@ -1,0 +1,95 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-06T14-14-53Z",
+ "started": "2026-11-06T14:14:53.823Z",
+ "ended": "2026-11-06T14:47:34Z",
+ "line": "Algarve Evolution sprint: dev.portugal and dev.graphs brought as they passed; round 2 of dev.graphs held (invalid JSON)",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T14:20:32.186Z",
+   "chars": 533,
+   "sha256": "a319a07e46bdea74",
+   "head": "<task-notification>\n<task-id>b5z4v6ass</task-id>\n<tool-use-id>toolu_01BWauVvWr982Vzor5YVZPjJ</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/0d41f86b-3ccc-5cd4-9854-b4e5c"
+  },
+  {
+   "t": "2026-11-06T14:46:53.374Z",
+   "chars": 465,
+   "sha256": "3a53ece0428269c0",
+   "head": "<task-notification>\n<task-id>bqa0f0gqf</task-id>\n<tool-use-id>toolu_01GLNGwKzN4nCDemykxkUaoZ</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/0d41f86b-3ccc-5cd4-9854-b4e5c"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "git": 5,
+   "release": 2,
+   "shell": 2,
+   "web": 3,
+   "other": 1,
+   "github-read": 1,
+   "message": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": [
+   {
+    "sha": "acc945fd6",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 4
+   },
+   {
+    "sha": "23737de27",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 10
+   },
+   {
+    "sha": "7d2567a86",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 10
+   },
+   {
+    "sha": "9cbe78e7e",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 15,
+  "in_mandate": 15,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

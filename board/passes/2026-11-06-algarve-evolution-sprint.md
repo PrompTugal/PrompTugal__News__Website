@@ -38,3 +38,36 @@ Public, professional facts only, each with its source. No contact details. Antó
 | Time (UTC) | Agent | Step |
 |---|---|---|
 | 14:12 | conductor@ | opened at Dinis's word; every agent told in its session |
+| 14:20 | designer@ | the design for dev.portugal@: board/spec-algarve-evolution-minisite.md and design/mockups/algarve/make.mjs (a self-contained page to lift: wide hero with the mandate and six tiles, a sticky left map with Everything/Short, a timeline 2018 to 2027, programme cards, partners grouped, the map, summit week, Correct us; phone and desktop); pictures design/decisions/algarve-evolution/ |
+| 14:22 | designer@ | the pass on dev.portugal@'s build (bad30876): keep its content and timeline; six fixes, 1 and 3 first (go wide with a full-bleed hero; goals for 2032 apart from what is done): board/spec-algarve-evolution-fixes-1420.md |
+| 14:30 | designer@ | the 14:30 check: live is still v0.1.269 (the old reading-column page, 666 px main on a 1440 screen, 8,277 px on a phone); dev.portugal@'s mini-site is on dev since 14:20 and waits for CI; its 14:24 push adds the network, timeline and map links; none of my six fixes is in yet: 1 (go wide, full-bleed hero) and 3 (goals for 2032 apart from what is done) still matter most (board/spec-algarve-evolution-fixes-1420.md) |
+
+| 14:37 | sherpa@ | the live page read as António Pinto Guerreiro would (head of the organisation, first time here, phone and desktop), v0.1.269 at 14:34 | change: none of the sprint's pushes live at 14:34; 3 keep, 6 fixes ranked below (screens: design/shots/sherpa/algarve/) |
+
+### sherpa@'s read at 14:34 (for dev.portugal@ and designer@)
+
+One reviewer reading as him, not his words. Measured live at v0.1.269: one image in 12.5 phone screens; on a desktop one 666 px column of a 1,440 px screen (not yet wide).
+
+**What makes him say "I want more of this" (keep):**
+- His own mandate told accurately and kindly: the three pillars, the 2026 shift "from building a community to making the ecosystem work", the 2032 targets, Algarve Digital Innovators with its 16 municipalities, 24 communities and 144 mentors. He sees that someone did the homework.
+- "Correct us, add to us" and "made for a conversation": an invitation, not a verdict. Keep it near the top.
+- Their past at the summit ("Web Summit before: 2025", "Their November in 2025"): memory he does not have to supply.
+
+**What loses him, ranked:**
+1. **"Powered by RiskMandate" sits above his organisation's name** (masthead, every size). Minutes before a meeting it reads as a vendor's page about him. Remove it from this page's top now (Q1), whatever else ships.
+2. **Nothing to look at:** no picture, map, timeline or graph live at 14:34; on a desktop two thirds of the screen are empty. One graph or the timeline above the fold is worth more than every other fix.
+3. **The numbers are buried in sentences** (500 companies, 150 startups, 50,000 people by 2032; 16 municipalities, 24 communities, 144 mentors): four to six tiles under the title.
+4. **Every sentence ends in "(source, read 6 November 2026)"**: for him the text stutters. Small linked source marks, and the date once ("all read 6 November 2026").
+5. **On a phone** the top shows "£5.00", "Vault" and a cut-off "AGEND", and the menu hides Portugal: if he taps around, he cannot get back to the Portugal section from the top.
+6. The breadcrumb says Home / Algarve Evolution and skips Portugal, while the bar highlights Portugal.
+
+| Finding | From | Owner | Decision |
+|---|---|---|---|
+| AE1 (rank 1) Powered by RiskMandate above his organisation's name: remove from this page's top now | sherpa@ | dev@, dev.portugal@ | open (conductor) |
+| AE2 (rank 2) Nothing visual live at 14:34; desktop one 666 px column: a graph or the timeline above the fold | sherpa@ | dev.portugal@, dev.graphs@, designer@ | open (conductor) |
+| AE3 (rank 3) Numbers in sentences: tiles under the title | sherpa@ | dev.portugal@, designer@ | open (conductor) |
+| AE4 (rank 4) A citation after every sentence: small source marks, the date once | sherpa@ | dev.portugal@ | open (conductor) |
+| AE5 (rank 5) Phone top: £5.00, Vault, Portugal out of reach | sherpa@ | dev@ | open (conductor) |
+| AE6 (rank 6) Breadcrumb skips Portugal | sherpa@ | dev.portugal@ | open (conductor) |
+| 14:36 | synthetic@ | read the live page at 14:34 (v0.1.269) as one invented regional innovation head (SYNTHETIC, not modelled on any real person), phone then laptop; checked against the page text; sent to dev.portugal@, designer@, dev.graphs@ at 14:36: F46 no route for 'Correct us' (blocking for her), F47 Informa D&B as a partner, F48 funding, municipalities, peers missing (researcher@), F49 the hub graph on a phone; kept: the checked calendar, primary sources, 'self-reported', the honest 'Open' |
+| 14:38 | designer@ | **the deploy is stuck at v0.1.269 (14:20)**: the page fetched fresh at 14:37 (cache-busted) is still v0.1.269, the old reading-column page; v0.1.270 (14:24) and v0.1.271 (14:30, dev.portugal@'s mini-site) are committed on dev but not served. For devops@ now: dev.portugal@'s page will not be live by 14:45 unless the Pages deploy goes through |

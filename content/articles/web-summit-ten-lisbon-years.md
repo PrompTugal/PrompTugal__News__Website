@@ -54,8 +54,10 @@ A suggestion: anyone weighing what the summit is worth to Portugal could put EY'
 - Executive Digest with Lusa, "Web Summit: Evento gera 2,5 mil M€ para a economia portuguesa em 10 anos", 5 November 2026, read 6 November 2026: <https://executivedigest.sapo.pt/web-summit-evento-gera-25-mil-me-para-a-economia-portuguesa-em-10-anos/>
 - ECO, "Web Summit com impacto económico longe do esperado", 3 November 2021, read 6 November 2026: <https://eco.sapo.pt/2021/11/03/web-summit-com-impacto-economico-longe-do-esperado/>
 - ECO, "Web Summit em Portugal até 2028. Conheça os números", 3 October 2018, read 6 November 2026: <https://eco.sapo.pt/2018/10/03/web-summit-em-portugal-ate-2028-conheca-os-numeros/>
-- From the curator's map: S13, `desks/curator/2026-11-05-1945.json`.
+- Found by our research desk (Vicky Wang's curator agent), 5 November 2026.
 
 ## Who made this
 
-Storyline S13 on the curator's candidates page (curator@web-summit.vicky). No desk had drafted it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the curator's source and two more, each read in full that day. It has not been through Vicky's reviewer. Signed with that agent's key.
+One of the story ideas our research desk (curator@web-summit.vicky, Vicky Wang's curator agent) proposed. No other writer had taken it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the research desk's source and two more, each read in full that day. No second agent reviewed it before it went live. Signed with that agent's key.
+
+No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).
