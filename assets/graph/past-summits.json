@@ -1,28 +1,141 @@
 {
   "about": "Web Summit's editions in Lisbon, 2016 to 2025, with the attendance figure where a source gives one, from desks/researcher/past-summits-round-1.md (researcher@PrompTugal.dinis, read 6 November 2026). The figures are the organiser's claims as the sources report them; status says how far we read: read (a page read at source), tertiary (Wikipedia's table), summary (only a search summary: not to be treated as read), none (no figure found). By dev.graphs@PrompTugal.dinis.",
   "ui": {
-    "png": "Save as PNG", "source": "Source (new tab)",
+    "png": "Save as PNG",
+    "source": "Source (new tab)",
     "empty": "Tap an edition to see its dates, venue, figure and where the figure comes from.",
-    "caption": "Attendance at Web Summit in Lisbon, as the organiser reports it and the sources repeat it. Solid: read at source. Paler: from Wikipedia's table. Dashed: a summary only, not yet read. Marked n/a: no figure found. The organiser's figures are claims, and the sources do not always agree.",
-    "legend": { "read": "Read at source", "tertiary": "Wikipedia's table", "summary": "Summary only", "none": "No figure found" },
-    "cautions": "In the sources, 2025's 71,386 is called a record while 2024's figure is 71,528: the final numbers are still to be checked. Web Summit Qatar (2024) is not a Lisbon edition.",
+    "caption": "Attendance at Web Summit in Lisbon, as the organiser reports it. Solid: read at source (the organiser's own releases for 2022 and 2023; a news report of the organiser's figure for 2025). Paler: from Wikipedia's table. Dashed: a summary only, not yet read. Marked n/a: no figure found. The organiser's figures are claims, and the sources do not always agree.",
+    "legend": {
+      "read": "Read at source",
+      "tertiary": "Wikipedia's table",
+      "summary": "Summary only",
+      "none": "No figure found"
+    },
+    "cautions": "2025's 71,386 is below 2024's reported 71,528, so 'record attendance' does not hold for 2025 in these sources; the records the sources claim are for investors (1,857) and startups. The 2025 digits are still to be confirmed at the organiser. Web Summit Qatar (2024) is not a Lisbon edition.",
     "fail": "The data could not be loaded."
   },
   "sources": {
-    "wiki": { "label": "Wikipedia, Web Summit (tertiary)", "url": "https://en.wikipedia.org/wiki/Web_Summit" },
-    "pg25": { "label": "portugalglobal.pt, 12 Nov 2025", "url": "https://portugalglobal.pt/noticias/2025/novembro/web-summit-evento-tecnologico-com-recorde-de-71386-participantes/" },
-    "blog23": { "label": "websummit.com, Web Summit 2023 numbers (not yet read)", "url": "https://websummit.com/blog/web-summit/web-summit-2023-numbers/" }
+    "wiki": {
+      "label": "Wikipedia, Web Summit (tertiary)",
+      "url": "https://en.wikipedia.org/wiki/Web_Summit"
+    },
+    "pg25": {
+      "label": "portugalglobal.pt, 12 Nov 2025",
+      "url": "https://portugalglobal.pt/noticias/2025/novembro/web-summit-evento-tecnologico-com-recorde-de-71386-participantes/"
+    },
+    "blog23": {
+      "label": "websummit.com, Web Summit 2023 numbers (not yet read)",
+      "url": "https://websummit.com/blog/web-summit/web-summit-2023-numbers/"
+    },
+    "press22": {
+      "label": "Web Summit, 2022 numbers press release (read at source)",
+      "url": "https://websummit.com/wp-media/2024/10/Web-Summit-2022-Numbers-Press-Release.pdf"
+    },
+    "num23": {
+      "label": "Web Summit, 2023 numbers (read at source)",
+      "url": "https://websummit.com/wp-media/2024/09/Web-Summit-2023-Numbers.pdf"
+    }
   },
   "editions": [
-    { "year": 2016, "dates": "7 to 10 Nov", "venue": "Altice Arena and the Lisbon Exhibition and Congress Centre", "value": 53056, "label": "53,056", "status": "tertiary", "note": "The first edition in Lisbon: 53,056 attendees from 150+ countries, 1,500+ startups, 600+ speakers.", "src": "wiki" },
-    { "year": 2017, "dates": "6 to 9 Nov", "venue": "Lisbon", "value": 59115, "label": "59,115", "status": "tertiary", "note": "Promised 60,000+; an organiser blog is cited for 59,115.", "src": "wiki" },
-    { "year": 2018, "dates": "5 to 8 Nov", "venue": "Lisbon", "value": 70000, "label": "about 70,000", "status": "tertiary", "note": "About 70,000.", "src": "wiki" },
-    { "year": 2019, "dates": "4 to 7 Nov", "venue": "Lisbon", "value": null, "label": "n/a", "status": "none", "note": "No attendance figure found; 900 startups in PITCH.", "src": "wiki" },
-    { "year": 2020, "dates": "2 to 4 Dec", "venue": "Online", "value": null, "label": "online", "status": "none", "note": "Held online; no figure stated.", "src": "wiki" },
-    { "year": 2021, "dates": "1 to 4 Nov", "venue": "Lisbon", "value": null, "label": "n/a", "status": "none", "note": "No figure stated.", "src": "wiki" },
-    { "year": 2022, "dates": "1 to 4 Nov", "venue": "Lisbon", "value": 70000, "label": "about 70,000", "status": "tertiary", "note": "About 70,000.", "src": "wiki" },
-    { "year": 2023, "dates": "13 to 16 Nov", "venue": "not listed in the table", "value": null, "label": "n/a", "status": "none", "note": "No attendance figure read. The organiser has a post, 'Behind the numbers of Web Summit 2023', not yet read; the dates are from Wikipedia's table.", "src": "blog23" },
-    { "year": 2024, "dates": "11 to 14 Nov", "venue": "MEO Arena and FIL, Parque das Nações", "value": 71528, "label": "71,528", "status": "summary", "note": "Organisers reported 71,528 attendees (Euronews and a press release, as a search summary reported; the page itself was not read). Investors: 1,066, read in the 2025 article.", "src": "pg25" },
-    { "year": 2025, "dates": "10 to 13 Nov", "venue": "MEO Arena and FIL", "value": 71386, "label": "71,386", "status": "read", "note": "71,386 attendees from 157 countries; 1,857 investors from 86 countries; 2,725 startups from 108 countries (organiser figures, as reported on 12 Nov 2025, midweek).", "src": "pg25" }
+    {
+      "year": 2016,
+      "dates": "7 to 10 Nov",
+      "venue": "Altice Arena and the Lisbon Exhibition and Congress Centre",
+      "value": 53056,
+      "label": "53,056",
+      "status": "tertiary",
+      "note": "The first edition in Lisbon: 53,056 attendees from 150+ countries, 1,500+ startups, 600+ speakers.",
+      "src": "wiki"
+    },
+    {
+      "year": 2017,
+      "dates": "6 to 9 Nov",
+      "venue": "Lisbon",
+      "value": 59115,
+      "label": "59,115",
+      "status": "tertiary",
+      "note": "Promised 60,000+; an organiser blog is cited for 59,115.",
+      "src": "wiki"
+    },
+    {
+      "year": 2018,
+      "dates": "5 to 8 Nov",
+      "venue": "Lisbon",
+      "value": 70000,
+      "label": "about 70,000",
+      "status": "tertiary",
+      "note": "About 70,000.",
+      "src": "wiki"
+    },
+    {
+      "year": 2019,
+      "dates": "4 to 7 Nov",
+      "venue": "Lisbon",
+      "value": null,
+      "label": "n/a",
+      "status": "none",
+      "note": "No attendance figure found; 900 startups in PITCH.",
+      "src": "wiki"
+    },
+    {
+      "year": 2020,
+      "dates": "2 to 4 Dec",
+      "venue": "Online",
+      "value": null,
+      "label": "online",
+      "status": "none",
+      "note": "Held online; no figure stated.",
+      "src": "wiki"
+    },
+    {
+      "year": 2021,
+      "dates": "1 to 4 Nov",
+      "venue": "Lisbon",
+      "value": null,
+      "label": "n/a",
+      "status": "none",
+      "note": "No figure stated.",
+      "src": "wiki"
+    },
+    {
+      "year": 2022,
+      "dates": "1 to 4 Nov",
+      "venue": "Lisbon",
+      "value": 71033,
+      "label": "71,033",
+      "status": "read",
+      "note": "As the organiser announced it on 2 November 2022: 71,033 attendees from 160 countries, sold out three weeks ahead; 2,296 startups and 342 partners from 94 countries; 1,050 speakers (34% women); 1,081 investors from 60 countries. This replaces Wikipedia's 'about 70,000'.",
+      "src": "press22"
+    },
+    {
+      "year": 2023,
+      "dates": "13 to 16 Nov",
+      "venue": "not listed in the table",
+      "value": 70236,
+      "label": "70,236",
+      "status": "read",
+      "note": "As the organiser announced it on 14 November 2023: 70,236 attendees from 153 countries; 2,608 startups from 93 countries; 321 partners; 43% of attendees and 38% of speakers women. The dates are from Wikipedia's table.",
+      "src": "num23"
+    },
+    {
+      "year": 2024,
+      "dates": "11 to 14 Nov",
+      "venue": "MEO Arena and FIL, Parque das Nações",
+      "value": 71528,
+      "label": "71,528",
+      "status": "summary",
+      "note": "Organisers reported 71,528 attendees (Euronews and a press release, as a search summary reported; the page itself was not read). Investors: 1,066, read in the 2025 article. The page itself was not read; the organiser's own figures for 2024 are not found yet.",
+      "src": "pg25"
+    },
+    {
+      "year": 2025,
+      "dates": "10 to 13 Nov",
+      "venue": "MEO Arena and FIL",
+      "value": 71386,
+      "label": "71,386",
+      "status": "read",
+      "note": "71,386 attendees from 157 countries; 1,857 investors from 86 countries; 2,725 startups from 108 countries (organiser figures, as reported on 12 Nov 2025, midweek). The figure is the in-event one (midweek); a single recap gives 71,368, so the digits are still to be confirmed at the organiser.",
+      "src": "pg25"
+    }
   ]
 }
