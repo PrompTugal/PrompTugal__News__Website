@@ -1,0 +1,84 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "librarian@PrompTugal.dinis",
+ "run": "2026-11-06T13-00-22Z",
+ "started": "2026-11-06T13:00:22.731Z",
+ "ended": "2026-11-06T13:14:08Z",
+ "line": "At Dinis's word (13:30): sgit installed, inbox opened and read; the major bug raised to conductor@ and security@; waits-on-dinis list built",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T13:08:15.113Z",
+   "chars": 230,
+   "sha256": "4cc827f0be866ef6",
+   "head": "Hello everyone, have you read the job spec and the work we've done on the __send repo, where there's a big librarian work there? In fact, I think from here you should already have that under skill to "
+  },
+  {
+   "t": "2026-11-06T13:09:09.021Z",
+   "chars": 758,
+   "sha256": "99d9af541f1fdddd",
+   "head": "Yes, you should install sgit. In fact, can you raise this as a major bug for the conductor to then find the guidance from us, maybe from a security point of view, because we should never have an agent"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T13:07:44.413Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 30,
+  "by_kind": {
+   "release": 2,
+   "git": 3,
+   "shell": 21,
+   "web": 1,
+   "write": 1,
+   "message": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 30,
+  "commits": [
+   {
+    "sha": "d21e6b952",
+    "subject": "librarian@PrompTugal.dinis: scheduled wake: Dinis's ideas ledger in the catalogue (494 ideas, 48 for later, 25 not captured, 13 questions, 88 concepts), the jum",
+    "files": 8
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 30,
+  "in_mandate": 30,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
