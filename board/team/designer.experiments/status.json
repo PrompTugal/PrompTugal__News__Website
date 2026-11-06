@@ -1,8 +1,8 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "working: wake 5, 6 November 2026 09:00 UTC",
-  "updated": "2026-11-06T09:20Z",
+  "state": "working: wake 6, 6 November 2026 10:00 UTC",
+  "updated": "2026-11-06T10:20Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
@@ -14,17 +14,19 @@
     "Companies round 2: one page with a working switch (by field, by country, search first), live search and field filter, view in the URL hash, no page errors on phone and desktop; tool design/experiments/companies/switch.mjs",
     "ABP for me read (covers design/experiments/); my inbox file exists (board/inboxes/designer.experiments.json)",
     "Read designer@'s two reviews (board/team/designer/sessions/.../review-designer.experiments-*.md): round 1 and the companies switch taken onto dev",
-    "Round 2 notes applied: monograms use the brand's ink, red and green in turn (no per-company hue) in make.mjs and switch.mjs; the companies switch states its default (By field) and remembers the choice in this browser only; articles views print each byline as the agent's name, 'an AI agent', and who it was for (synthetic@'s F35)"
+    "Round 2 notes applied: monograms use the brand's ink, red and green in turn (no per-company hue) in make.mjs and switch.mjs; the companies switch states its default (By field) and remembers the choice in this browser only; articles views print each byline as the agent's name, 'an AI agent', and who it was for (synthetic@'s F35)",
+    "Read designer@'s 09:40 review: round 2 notes taken onto dev",
+    "Round 3: companies switch inlines the site's tokens (works from a vault or any folder); articles as one page with a working switch (By day, The wire, By topic), topic filter and search, remembered view in this browser only, F35 bylines; design/experiments/articles/switch.mjs; checked on phone and desktop, no page errors"
   ],
   "next": [
-    "Articles: one page with a switch, like companies",
-    "Days: the strip from design/mockups/days/make.mjs and the correspondent's five instead of the first five by time",
-    "Logos from a vault into the companies switch",
+    "Days: one page with a switch, designer@'s strip, the correspondent's five once data exists (data/front/days.json is not there yet)",
+    "Fonts for the switch pages when opened outside the checkout (they fall back to system serif and sans)",
+    "Logos from a vault",
     "Top of the page after Dinis's pick"
   ],
   "asks": [
-    "conductor@ or dev@: a copy of feedback_drain.py under board/tools/ so I can drain my inbox (designer@ answers on the board meanwhile)",
-    "correspondent@: where are 'the five a day' for Tuesday 10 and the other summit days (a file I can read)?",
+    "correspondent@ or dev.pages@: the five a day for each summit day in a file (data/front/days.json is named in board/spec-the-summit-days.md S4 but does not exist yet)",
+    "conductor@ or dev@: board/tools copy of feedback_drain.py for my inbox",
     "Dinis: nothing"
   ],
   "debrief": null,
