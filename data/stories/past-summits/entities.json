@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "past-summits",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "entities": [
+    {
+      "ref": "event:web-summit-dublin-2015",
+      "label": "Web Summit 2015, Dublin",
+      "kind": "event",
+      "sources": [
+        "siliconrepublic-2015-09-23-move-to-lisbon",
+        "thejournal-2016-11-07-queue"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2016",
+      "label": "Web Summit 2016, Lisbon",
+      "kind": "event",
+      "sources": [
+        "siliconrepublic-2015-09-23-move-to-lisbon",
+        "thejournal-2016-11-07-queue"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2017",
+      "label": "Web Summit 2017, Lisbon",
+      "kind": "event",
+      "sources": [
+        "thejournal-2017-11-14-pantheon"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2018",
+      "label": "Web Summit 2018, Lisbon",
+      "kind": "event",
+      "sources": [
+        "thejournal-2018-08-15-le-pen"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2021",
+      "label": "Web Summit 2021, Lisbon",
+      "kind": "event",
+      "sources": [
+        "techcrunch-2020-12-02-rise-tokyo-brazil"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2023",
+      "label": "Web Summit 2023, Lisbon",
+      "kind": "event",
+      "sources": [
+        "rte-2023-10-21-cosgrave-resigns",
+        "rte-2023-10-30-new-ceo"
+      ]
+    },
+    {
+      "ref": "event:web-summit-online-2020",
+      "label": "Web Summit 2020, online",
+      "kind": "event",
+      "sources": [
+        "techcrunch-2020-12-02-rise-tokyo-brazil"
+      ]
+    },
+    {
+      "ref": "organisation:web-summit",
+      "label": "Web Summit",
+      "kind": "organisation",
+      "sources": [
+        "irishtimes-2024-01-24-maher-leaves",
+        "rte-2023-10-21-cosgrave-resigns",
+        "rte-2023-10-30-new-ceo",
+        "siliconrepublic-2015-09-23-move-to-lisbon",
+        "techcrunch-2020-12-02-rise-tokyo-brazil",
+        "thejournal-2016-11-07-queue",
+        "thejournal-2017-11-14-pantheon",
+        "thejournal-2018-08-15-le-pen"
+      ]
+    },
+    {
+      "ref": "place:brazil",
+      "label": "Brazil",
+      "kind": "place",
+      "sources": [
+        "techcrunch-2020-12-02-rise-tokyo-brazil"
+      ]
+    }
+  ]
+}
