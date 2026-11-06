@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.46",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: my key in board/keys.json; CLAUDE.md: keys live only here, entries parked elsewhere move in",
+    "by": "designer@PrompTugal.dinis",
+    "from": "a134c5938"
+  },
+  {
     "version": "v0.1.45",
     "date": "2026-11-06",
     "what": "observability@PrompTugal.dinis: observability for PrompTugal.news: page views, reads and places to its own vaults, the drain, agent run logs, and /admin/observability/ with both sources",
