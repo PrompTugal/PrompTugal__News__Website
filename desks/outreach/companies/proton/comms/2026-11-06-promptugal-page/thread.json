@@ -1,0 +1,36 @@
+{
+ "company": "proton",
+ "name": "Proton",
+ "subject": "Proton on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/proton/",
+ "page_facts_used": [
+  {
+   "session": "Big Tech detox",
+   "date": "2026-11-12",
+   "start": "11:30",
+   "page": "https://promptugal.news/events/big-tech-detox/",
+   "source": "https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 48,
+  "priority": 2,
+  "ask": "write-about",
+  "replaces": "people/silvio/outreach/messages.json#proton (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-proton-en.eml"
+ ]
+}

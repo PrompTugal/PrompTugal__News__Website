@@ -1,0 +1,43 @@
+{
+ "company": "linux-foundation-aaif",
+ "name": "Linux Foundation (Agentic AI Foundation)",
+ "subject": "Linux Foundation on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Vicky Wang"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Vicky Wang",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/linux-foundation-aaif/",
+ "page_facts_used": [
+  {
+   "session": "Why AI agents stall at the production line",
+   "date": "2026-11-11",
+   "start": "11:10",
+   "page": "https://promptugal.news/events/why-ai-agents-stall-at-the-production-line/",
+   "source": "https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/"
+  },
+  {
+   "session": "Open or Closed AI models: which types of future do they represent? (Press conference)",
+   "date": "2026-11-11",
+   "start": "12:30",
+   "page": "https://promptugal.news/events/open-or-closed-ai-models-which-types-of-future-do-they/",
+   "source": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/2/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 11,
+  "priority": 1,
+  "ask": "meet",
+  "replaces": "people/silvio/outreach/messages.json#linux-foundation-aaif (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-linux-foundation-aaif-en.eml"
+ ]
+}

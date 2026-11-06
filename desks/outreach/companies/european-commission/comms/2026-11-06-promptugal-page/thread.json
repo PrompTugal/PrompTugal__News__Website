@@ -1,0 +1,43 @@
+{
+ "company": "european-commission",
+ "name": "European Commission",
+ "subject": "European Commission on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/european-commission/",
+ "page_facts_used": [
+  {
+   "session": "Has Europe’s tech moment arrived?",
+   "date": "2026-11-10",
+   "start": "11:05",
+   "page": "https://promptugal.news/events/has-europe-s-tech-moment-arrived/",
+   "source": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/"
+  },
+  {
+   "session": "Building AI in Europe: Practical support for innovators [Hosted by European Commission - DG Connect]",
+   "date": "2026-11-11",
+   "start": "14:30",
+   "page": "https://promptugal.news/events/building-ai-in-europe-practical-support-for-innovators/",
+   "source": "https://websummit.com/sessions/lis26/9f18a423-b002-4d0f-b2ea-c85880ae8340/building-ai-in-europe-practical-support-for-innovators-hosted-by-european-commission-dg-connect/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 34,
+  "priority": 2,
+  "ask": "write-about",
+  "replaces": "people/silvio/outreach/messages.json#european-commission (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-european-commission-en.eml"
+ ]
+}

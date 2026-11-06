@@ -1,0 +1,36 @@
+{
+ "company": "scrut-automation",
+ "name": "Scrut Automation",
+ "subject": "Scrut Automation on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Vicky Wang"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Vicky Wang",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/scrut-automation/",
+ "page_facts_used": [
+  {
+   "session": "The biological bottleneck",
+   "date": "2026-11-12",
+   "start": "10:45",
+   "page": "https://promptugal.news/events/the-biological-bottleneck/",
+   "source": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 17,
+  "priority": 1,
+  "ask": "meet",
+  "replaces": "people/silvio/outreach/messages.json#scrut-automation (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-scrut-automation-en.eml"
+ ]
+}

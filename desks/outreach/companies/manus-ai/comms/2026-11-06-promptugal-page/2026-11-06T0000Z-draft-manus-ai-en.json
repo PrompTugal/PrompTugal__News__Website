@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0000Z-draft-manus-ai-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T00:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Manus AI: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Manus AI on PrompTugal.news: is your page right?",
+ "sha256": "f48efcae88811d4fdf8b416617b0aa006f9241be33497a8acc5a571593b8fc3c",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Manus AI leading with its page (https://promptugal.news/companies/manus-ai/); asks: write-about.",
+ "followups": {
+  "2026-11-09": "Hello again Manus AI team,\n\nWeb Summit opens tonight. Your page is here, and a correction or an answer from you is welcome all week:\nhttps://promptugal.news/companies/manus-ai/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Manus AI team,\n\nThe summit ends tomorrow, 12 November. If you would like your answer on your page, reply this week:\nhttps://promptugal.news/companies/manus-ai/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

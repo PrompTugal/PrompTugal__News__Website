@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0000Z-draft-airia-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T00:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Airia: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Airia on PrompTugal.news: is your page right?",
+ "sha256": "14a5ae88e1bad9e3f9f9a39b2b4df93ae02fb537eafaffc8af68dd5d58ee27c7",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Airia leading with its page (https://promptugal.news/companies/airia/); asks: meet.",
+ "followups": {
+  "2026-11-09": "Hello again Airia team,\n\nWeb Summit opens tonight. Your page is here, and a correction or an answer from you is welcome all week:\nhttps://promptugal.news/companies/airia/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Airia team,\n\nThe summit ends tomorrow, 12 November. If you would like your answer on your page, reply this week:\nhttps://promptugal.news/companies/airia/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

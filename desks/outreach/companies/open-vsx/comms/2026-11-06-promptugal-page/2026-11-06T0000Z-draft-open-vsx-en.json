@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0000Z-draft-open-vsx-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T00:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Open VSX (Eclipse Foundation): the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Open VSX on PrompTugal.news: is your page right?",
+ "sha256": "74adca8d445b0ee658491d1ea9bb152aac808bcc452ea319a196792495558f5e",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Open VSX leading with its page (https://promptugal.news/companies/open-vsx/); asks: write-about.",
+ "followups": {
+  "2026-11-09": "Hello again Open VSX team,\n\nWeb Summit opens tonight. Your page is here, and a correction or an answer from you is welcome all week:\nhttps://promptugal.news/companies/open-vsx/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Open VSX team,\n\nThe summit ends tomorrow, 12 November. If you would like your answer on your page, reply this week:\nhttps://promptugal.news/companies/open-vsx/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "company": "cloudflare",
+ "name": "Cloudflare",
+ "subject": "Cloudflare on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/cloudflare/",
+ "page_facts_used": [
+  {
+   "session": "The agentic internet: Who controls the web?",
+   "date": "2026-11-10",
+   "start": "11:50",
+   "page": "https://promptugal.news/events/the-agentic-internet-who-controls-the-web/",
+   "source": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 4,
+  "priority": 1,
+  "ask": "meet",
+  "replaces": "people/silvio/outreach/messages.json#cloudflare (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-cloudflare-en.eml"
+ ]
+}

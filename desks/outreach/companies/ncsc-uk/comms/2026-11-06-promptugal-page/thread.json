@@ -1,0 +1,36 @@
+{
+ "company": "ncsc-uk",
+ "name": "National Cyber Security Centre (UK)",
+ "subject": "National Cyber Security Centre on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Vicky Wang"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Vicky Wang",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/ncsc-uk/",
+ "page_facts_used": [
+  {
+   "session": "It takes two to trust: Operationalizing public-private security",
+   "date": "2026-11-12",
+   "start": "12:10",
+   "page": "https://promptugal.news/events/it-takes-two-to-trust-operationalizing-public-private/",
+   "source": "https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 45,
+  "priority": 2,
+  "ask": "write-about",
+  "replaces": "people/silvio/outreach/messages.json#ncsc-uk (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-ncsc-uk-en.eml"
+ ]
+}

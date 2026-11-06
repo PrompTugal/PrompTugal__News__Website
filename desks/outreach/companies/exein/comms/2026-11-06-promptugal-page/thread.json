@@ -1,0 +1,36 @@
+{
+ "company": "exein",
+ "name": "Exein",
+ "subject": "Exein on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/exein/",
+ "page_facts_used": [
+  {
+   "session": "Securing the AI frontline",
+   "date": "2026-11-12",
+   "start": "14:30",
+   "page": "https://promptugal.news/events/securing-the-ai-frontline/",
+   "source": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 36,
+  "priority": 2,
+  "ask": "write-about",
+  "replaces": "people/silvio/outreach/messages.json#exein (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-exein-en.eml"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0000Z-draft-firefox-enterprise-mozilla-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T00:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Firefox Enterprise by Mozilla: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Firefox Enterprise by Mozilla on PrompTugal.news: is your page right?",
+ "sha256": "abe653528d20b32a371d0fdb33abeaca7e751846d6936cb2dfcfd947919fa0bc",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Firefox Enterprise by Mozilla leading with its page (https://promptugal.news/companies/firefox-enterprise-mozilla/); asks: meet.",
+ "followups": {
+  "2026-11-09": "Hello again Firefox Enterprise by Mozilla team,\n\nWeb Summit opens tonight. Your page is here, and a correction or an answer from you is welcome all week:\nhttps://promptugal.news/companies/firefox-enterprise-mozilla/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Firefox Enterprise by Mozilla team,\n\nThe summit ends tomorrow, 12 November. If you would like your answer on your page, reply this week:\nhttps://promptugal.news/companies/firefox-enterprise-mozilla/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

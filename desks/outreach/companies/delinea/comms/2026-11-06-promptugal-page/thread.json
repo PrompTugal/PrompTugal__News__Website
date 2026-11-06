@@ -1,0 +1,43 @@
+{
+ "company": "delinea",
+ "name": "Delinea",
+ "subject": "Delinea on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/delinea/",
+ "page_facts_used": [
+  {
+   "session": "Trust issues: Letting AI agents into production safely [Hosted by Delinea]",
+   "date": "2026-11-10",
+   "start": "12:30",
+   "page": "https://promptugal.news/events/trust-issues-letting-ai-agents-into-production-safely/",
+   "source": "https://websummit.com/sessions/lis26/31ab2f9b-f8b1-4b73-b1e8-f686507c3aab/trust-issues-letting-ai-agents-into-production-safely-hosted-by-delinea/"
+  },
+  {
+   "session": "Beyond the front door: Identity, access, and user trust",
+   "date": "2026-11-12",
+   "start": "15:50",
+   "page": "https://promptugal.news/events/beyond-the-front-door-identity-access-and-user-trust/",
+   "source": "https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 6,
+  "priority": 1,
+  "ask": "meet",
+  "replaces": "people/silvio/outreach/messages.json#delinea (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-delinea-en.eml"
+ ]
+}

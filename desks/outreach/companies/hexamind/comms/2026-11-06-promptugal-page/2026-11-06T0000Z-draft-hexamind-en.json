@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0000Z-draft-hexamind-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T00:00:00Z",
+ "from": "Vicky Wang, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Hexamind: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Hexamind on PrompTugal.news: is your page right?",
+ "sha256": "67aa3823b8c3edfec4ac13d338cd87f16c3d612bdfcd839844a4e43bf3d8ce88",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Hexamind leading with its page (https://promptugal.news/companies/hexamind/); asks: meet.",
+ "followups": {
+  "2026-11-09": "Hello again Hexamind team,\n\nWeb Summit opens tonight. Your page is here, and a correction or an answer from you is welcome all week:\nhttps://promptugal.news/companies/hexamind/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Hexamind team,\n\nThe summit ends tomorrow, 12 November. If you would like your answer on your page, reply this week:\nhttps://promptugal.news/companies/hexamind/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

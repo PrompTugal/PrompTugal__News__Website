@@ -1,0 +1,33 @@
+{
+ "company": "risiq",
+ "name": "Risiq GmbH",
+ "subject": "Risiq GmbH on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/risiq/",
+ "page_facts_used": [
+  {
+   "page": "https://promptugal.news/companies/risiq/",
+   "what": "the page itself; no session names the company"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 26,
+  "priority": 2,
+  "ask": "meet",
+  "replaces": "people/silvio/outreach/messages.json#risiq (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-risiq-en.eml"
+ ]
+}

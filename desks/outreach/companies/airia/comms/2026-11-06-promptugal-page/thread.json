@@ -1,0 +1,36 @@
+{
+ "company": "airia",
+ "name": "Airia",
+ "subject": "Airia on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/airia/",
+ "page_facts_used": [
+  {
+   "session": "AI sprawl is exploding. Get ahead of governance and security challenges before it’s boo late",
+   "date": "2026-11-12",
+   "start": "15:26",
+   "page": "https://promptugal.news/events/ai-sprawl-is-exploding-get-ahead-of-governance-and-security/",
+   "source": "https://websummit.com/sessions/lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 2,
+  "priority": 1,
+  "ask": "meet",
+  "replaces": "people/silvio/outreach/messages.json#airia (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-airia-en.eml"
+ ]
+}

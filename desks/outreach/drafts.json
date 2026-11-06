@@ -1,0 +1,714 @@
+{
+ "about": "The outreach drafts as PrompTugal.news, one thread per company, each leading with the company's page. Drafts only, for Dinis and Silvio to review; a person sends every email. Editors are proposed: Portuguese-language drafts to Dinis Cruz, the rest alternating Vicky Wang and Indi Gupte. Made by desks/outreach/make-drafts.mjs.",
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "count": 50,
+ "drafts": [
+  {
+   "rank": 1,
+   "id": "1password",
+   "company": "1Password",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/1password/",
+   "sessions": 0,
+   "thread": "companies/1password/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 2,
+   "id": "airia",
+   "company": "Airia",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/airia/",
+   "sessions": 1,
+   "thread": "companies/airia/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 3,
+   "id": "cisco-outshift",
+   "company": "Cisco (Outshift by Cisco)",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/cisco-outshift/",
+   "sessions": 2,
+   "thread": "companies/cisco-outshift/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 4,
+   "id": "cloudflare",
+   "company": "Cloudflare",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/cloudflare/",
+   "sessions": 1,
+   "thread": "companies/cloudflare/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 5,
+   "id": "conscium",
+   "company": "Conscium",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/conscium/",
+   "sessions": 1,
+   "thread": "companies/conscium/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 6,
+   "id": "delinea",
+   "company": "Delinea",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/delinea/",
+   "sessions": 2,
+   "thread": "companies/delinea/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 7,
+   "id": "descope",
+   "company": "Descope",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/descope/",
+   "sessions": 1,
+   "thread": "companies/descope/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 8,
+   "id": "emergence-ai",
+   "company": "Emergence",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/emergence-ai/",
+   "sessions": 1,
+   "thread": "companies/emergence-ai/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 9,
+   "id": "feedzai",
+   "company": "Feedzai",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "pt",
+    "en"
+   ],
+   "editor": "Dinis Cruz",
+   "page": "https://promptugal.news/companies/feedzai/",
+   "sessions": 1,
+   "thread": "companies/feedzai/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 10,
+   "id": "kpmg-portugal",
+   "company": "KPMG",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "pt",
+    "en"
+   ],
+   "editor": "Dinis Cruz",
+   "page": "https://promptugal.news/companies/kpmg-portugal/",
+   "sessions": 2,
+   "thread": "companies/kpmg-portugal/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 11,
+   "id": "linux-foundation-aaif",
+   "company": "Linux Foundation (Agentic AI Foundation)",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/linux-foundation-aaif/",
+   "sessions": 2,
+   "thread": "companies/linux-foundation-aaif/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 12,
+   "id": "mastra",
+   "company": "Mastra",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/mastra/",
+   "sessions": 0,
+   "thread": "companies/mastra/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 13,
+   "id": "polygraf-ai",
+   "company": "Polygraf AI",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/polygraf-ai/",
+   "sessions": 0,
+   "thread": "companies/polygraf-ai/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 14,
+   "id": "primitive",
+   "company": "Primitive",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/primitive/",
+   "sessions": 1,
+   "thread": "companies/primitive/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 15,
+   "id": "qase",
+   "company": "Qase",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/qase/",
+   "sessions": 0,
+   "thread": "companies/qase/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 16,
+   "id": "replit",
+   "company": "Replit",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/replit/",
+   "sessions": 3,
+   "thread": "companies/replit/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 17,
+   "id": "scrut-automation",
+   "company": "Scrut Automation",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/scrut-automation/",
+   "sessions": 1,
+   "thread": "companies/scrut-automation/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 18,
+   "id": "startup-portugal",
+   "company": "Startup Portugal",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "pt",
+    "en"
+   ],
+   "editor": "Dinis Cruz",
+   "page": "https://promptugal.news/companies/startup-portugal/",
+   "sessions": 2,
+   "thread": "companies/startup-portugal/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 19,
+   "id": "hexamind",
+   "company": "Hexamind",
+   "priority": 1,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/hexamind/",
+   "sessions": 0,
+   "thread": "companies/hexamind/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 20,
+   "id": "crowdstrike",
+   "company": "CrowdStrike",
+   "priority": 1,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/crowdstrike/",
+   "sessions": 2,
+   "thread": "companies/crowdstrike/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 21,
+   "id": "aicep",
+   "company": "AICEP - Portugal Trade & Invest",
+   "priority": 2,
+   "ask": "meet",
+   "languages": [
+    "pt",
+    "en"
+   ],
+   "editor": "Dinis Cruz",
+   "page": "https://promptugal.news/companies/aicep/",
+   "sessions": 0,
+   "thread": "companies/aicep/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 22,
+   "id": "chatplace",
+   "company": "ChatPlace",
+   "priority": 2,
+   "ask": "meet",
+   "languages": [
+    "pt",
+    "en"
+   ],
+   "editor": "Dinis Cruz",
+   "page": "https://promptugal.news/companies/chatplace/",
+   "sessions": 0,
+   "thread": "companies/chatplace/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 23,
+   "id": "cnext",
+   "company": "Cnext",
+   "priority": 2,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/cnext/",
+   "sessions": 0,
+   "thread": "companies/cnext/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 24,
+   "id": "firefox-enterprise-mozilla",
+   "company": "Firefox Enterprise by Mozilla",
+   "priority": 2,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/firefox-enterprise-mozilla/",
+   "sessions": 0,
+   "thread": "companies/firefox-enterprise-mozilla/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 25,
+   "id": "melious-ai",
+   "company": "Melious AI GmbH",
+   "priority": 2,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/melious-ai/",
+   "sessions": 0,
+   "thread": "companies/melious-ai/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 26,
+   "id": "risiq",
+   "company": "Risiq GmbH",
+   "priority": 2,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/risiq/",
+   "sessions": 0,
+   "thread": "companies/risiq/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 27,
+   "id": "spacecomputer",
+   "company": "SpaceComputer",
+   "priority": 2,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/spacecomputer/",
+   "sessions": 0,
+   "thread": "companies/spacecomputer/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 28,
+   "id": "trent-ai",
+   "company": "Trent AI",
+   "priority": 2,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/trent-ai/",
+   "sessions": 2,
+   "thread": "companies/trent-ai/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 29,
+   "id": "trustscale",
+   "company": "TrustScale",
+   "priority": 2,
+   "ask": "meet",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/trustscale/",
+   "sessions": 0,
+   "thread": "companies/trustscale/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 30,
+   "id": "aisle",
+   "company": "AISLE",
+   "priority": 2,
+   "ask": "interview",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/aisle/",
+   "sessions": 1,
+   "thread": "companies/aisle/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 31,
+   "id": "kiggu",
+   "company": "Kiggu",
+   "priority": 2,
+   "ask": "interview",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/kiggu/",
+   "sessions": 0,
+   "thread": "companies/kiggu/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 32,
+   "id": "temporal",
+   "company": "Temporal",
+   "priority": 2,
+   "ask": "interview",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/temporal/",
+   "sessions": 0,
+   "thread": "companies/temporal/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 33,
+   "id": "air-apps",
+   "company": "Air Apps",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "pt",
+    "en"
+   ],
+   "editor": "Dinis Cruz",
+   "page": "https://promptugal.news/companies/air-apps/",
+   "sessions": 0,
+   "thread": "companies/air-apps/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 34,
+   "id": "european-commission",
+   "company": "European Commission",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/european-commission/",
+   "sessions": 2,
+   "thread": "companies/european-commission/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 35,
+   "id": "exa",
+   "company": "Exa",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/exa/",
+   "sessions": 1,
+   "thread": "companies/exa/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 36,
+   "id": "exein",
+   "company": "Exein",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/exein/",
+   "sessions": 1,
+   "thread": "companies/exein/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 37,
+   "id": "getvocal-ai",
+   "company": "GetVocal AI",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/getvocal-ai/",
+   "sessions": 0,
+   "thread": "companies/getvocal-ai/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 38,
+   "id": "jetbrains",
+   "company": "JetBrains",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/jetbrains/",
+   "sessions": 1,
+   "thread": "companies/jetbrains/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 39,
+   "id": "keewano",
+   "company": "Keewano",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/keewano/",
+   "sessions": 0,
+   "thread": "companies/keewano/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 40,
+   "id": "launchdarkly",
+   "company": "LaunchDarkly",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/launchdarkly/",
+   "sessions": 3,
+   "thread": "companies/launchdarkly/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 41,
+   "id": "lawvu",
+   "company": "LawVu",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/lawvu/",
+   "sessions": 1,
+   "thread": "companies/lawvu/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 42,
+   "id": "ledger",
+   "company": "Ledger",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/ledger/",
+   "sessions": 1,
+   "thread": "companies/ledger/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 43,
+   "id": "legalfly",
+   "company": "LEGALFLY",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/legalfly/",
+   "sessions": 0,
+   "thread": "companies/legalfly/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 44,
+   "id": "manus-ai",
+   "company": "Manus AI",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/manus-ai/",
+   "sessions": 0,
+   "thread": "companies/manus-ai/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 45,
+   "id": "ncsc-uk",
+   "company": "National Cyber Security Centre (UK)",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/ncsc-uk/",
+   "sessions": 1,
+   "thread": "companies/ncsc-uk/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 46,
+   "id": "open-vsx",
+   "company": "Open VSX (Eclipse Foundation)",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/open-vsx/",
+   "sessions": 1,
+   "thread": "companies/open-vsx/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 47,
+   "id": "persona",
+   "company": "Persona",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/persona/",
+   "sessions": 2,
+   "thread": "companies/persona/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 48,
+   "id": "proton",
+   "company": "Proton",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/proton/",
+   "sessions": 1,
+   "thread": "companies/proton/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 49,
+   "id": "roost",
+   "company": "ROOST (Robust Open Online Safety Tools)",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Vicky Wang",
+   "page": "https://promptugal.news/companies/roost/",
+   "sessions": 1,
+   "thread": "companies/roost/comms/2026-11-06-promptugal-page/"
+  },
+  {
+   "rank": 50,
+   "id": "rws",
+   "company": "RWS Group",
+   "priority": 2,
+   "ask": "write-about",
+   "languages": [
+    "en"
+   ],
+   "editor": "Indi Gupte",
+   "page": "https://promptugal.news/companies/rws/",
+   "sessions": 2,
+   "thread": "companies/rws/comms/2026-11-06-promptugal-page/"
+  }
+ ]
+}

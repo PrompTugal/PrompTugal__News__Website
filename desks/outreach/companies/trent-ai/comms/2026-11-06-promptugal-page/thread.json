@@ -1,0 +1,43 @@
+{
+ "company": "trent-ai",
+ "name": "Trent AI",
+ "subject": "Trent AI on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/trent-ai/",
+ "page_facts_used": [
+  {
+   "session": "Open vs closed: The debate defining the AI era",
+   "date": "2026-11-11",
+   "start": "11:55",
+   "page": "https://promptugal.news/events/open-vs-closed-the-debate-defining-the-ai-era/",
+   "source": "https://websummit.com/sessions/lis26/0a834d30-6d0c-49ed-986c-6e2eed88f8ab/open-vs-closed-the-debate-defining-the-ai-era/"
+  },
+  {
+   "session": "Viable systems, judgement, and AI safety",
+   "date": "2026-11-11",
+   "start": "15:20",
+   "page": "https://promptugal.news/events/viable-systems-judgement-and-ai-safety/",
+   "source": "https://websummit.com/sessions/lis26/3c980247-e062-492c-823a-11d388db1439/viable-systems-judgement-and-ai-safety/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 28,
+  "priority": 2,
+  "ask": "meet",
+  "replaces": "people/silvio/outreach/messages.json#trent-ai (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-trent-ai-en.eml"
+ ]
+}

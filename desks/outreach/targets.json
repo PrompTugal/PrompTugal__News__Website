@@ -1,0 +1,407 @@
+{
+ "about": "The 50 companies of the team's outreach (WS-26), as conductor@web-summit.silvio ranked them in people/silvio/outreach/messages.json on the team site (SGit-AI/SGit-AI__Website__Web-Summit, read 6 November 2026 by outreach (PrompTugal.dinis)): rank, priority, the kind of ask (meet, interview, write-about) and the language. Companies only. The emails themselves are rewritten as PrompTugal.news by make-drafts.mjs.",
+ "source": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/silvio/outreach/messages.json",
+ "read_on": "2026-11-06",
+ "targets": [
+  {
+   "rank": 1,
+   "id": "1password",
+   "company": "1Password",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 2,
+   "id": "airia",
+   "company": "Airia",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 3,
+   "id": "cisco-outshift",
+   "company": "Cisco (Outshift by Cisco)",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 4,
+   "id": "cloudflare",
+   "company": "Cloudflare",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 5,
+   "id": "conscium",
+   "company": "Conscium",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 6,
+   "id": "delinea",
+   "company": "Delinea",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 7,
+   "id": "descope",
+   "company": "Descope",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 8,
+   "id": "emergence-ai",
+   "company": "Emergence",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 9,
+   "id": "feedzai",
+   "company": "Feedzai",
+   "priority": 1,
+   "ask": "meet",
+   "language": "pt"
+  },
+  {
+   "rank": 10,
+   "id": "kpmg-portugal",
+   "company": "KPMG",
+   "priority": 1,
+   "ask": "meet",
+   "language": "pt"
+  },
+  {
+   "rank": 11,
+   "id": "linux-foundation-aaif",
+   "company": "Linux Foundation (Agentic AI Foundation)",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 12,
+   "id": "mastra",
+   "company": "Mastra",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 13,
+   "id": "polygraf-ai",
+   "company": "Polygraf AI",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 14,
+   "id": "primitive",
+   "company": "Primitive",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 15,
+   "id": "qase",
+   "company": "Qase",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 16,
+   "id": "replit",
+   "company": "Replit",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 17,
+   "id": "scrut-automation",
+   "company": "Scrut Automation",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 18,
+   "id": "startup-portugal",
+   "company": "Startup Portugal",
+   "priority": 1,
+   "ask": "meet",
+   "language": "pt"
+  },
+  {
+   "rank": 19,
+   "id": "hexamind",
+   "company": "Hexamind",
+   "priority": 1,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 20,
+   "id": "crowdstrike",
+   "company": "CrowdStrike",
+   "priority": 1,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 21,
+   "id": "aicep",
+   "company": "AICEP - Portugal Trade & Invest",
+   "priority": 2,
+   "ask": "meet",
+   "language": "pt"
+  },
+  {
+   "rank": 22,
+   "id": "chatplace",
+   "company": "ChatPlace",
+   "priority": 2,
+   "ask": "meet",
+   "language": "pt"
+  },
+  {
+   "rank": 23,
+   "id": "cnext",
+   "company": "Cnext",
+   "priority": 2,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 24,
+   "id": "firefox-enterprise-mozilla",
+   "company": "Firefox Enterprise by Mozilla",
+   "priority": 2,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 25,
+   "id": "melious-ai",
+   "company": "Melious AI GmbH",
+   "priority": 2,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 26,
+   "id": "risiq",
+   "company": "Risiq GmbH",
+   "priority": 2,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 27,
+   "id": "spacecomputer",
+   "company": "SpaceComputer",
+   "priority": 2,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 28,
+   "id": "trent-ai",
+   "company": "Trent AI",
+   "priority": 2,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 29,
+   "id": "trustscale",
+   "company": "TrustScale",
+   "priority": 2,
+   "ask": "meet",
+   "language": "en"
+  },
+  {
+   "rank": 30,
+   "id": "aisle",
+   "company": "AISLE",
+   "priority": 2,
+   "ask": "interview",
+   "language": "en"
+  },
+  {
+   "rank": 31,
+   "id": "kiggu",
+   "company": "Kiggu",
+   "priority": 2,
+   "ask": "interview",
+   "language": "en"
+  },
+  {
+   "rank": 32,
+   "id": "temporal",
+   "company": "Temporal",
+   "priority": 2,
+   "ask": "interview",
+   "language": "en"
+  },
+  {
+   "rank": 33,
+   "id": "air-apps",
+   "company": "Air Apps",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "pt"
+  },
+  {
+   "rank": 34,
+   "id": "european-commission",
+   "company": "European Commission",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 35,
+   "id": "exa",
+   "company": "Exa",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 36,
+   "id": "exein",
+   "company": "Exein",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 37,
+   "id": "getvocal-ai",
+   "company": "GetVocal AI",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 38,
+   "id": "jetbrains",
+   "company": "JetBrains",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 39,
+   "id": "keewano",
+   "company": "Keewano",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 40,
+   "id": "launchdarkly",
+   "company": "LaunchDarkly",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 41,
+   "id": "lawvu",
+   "company": "LawVu",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 42,
+   "id": "ledger",
+   "company": "Ledger",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 43,
+   "id": "legalfly",
+   "company": "LEGALFLY",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 44,
+   "id": "manus-ai",
+   "company": "Manus AI",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 45,
+   "id": "ncsc-uk",
+   "company": "National Cyber Security Centre (UK)",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 46,
+   "id": "open-vsx",
+   "company": "Open VSX (Eclipse Foundation)",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 47,
+   "id": "persona",
+   "company": "Persona",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 48,
+   "id": "proton",
+   "company": "Proton",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 49,
+   "id": "roost",
+   "company": "ROOST (Robust Open Online Safety Tools)",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  },
+  {
+   "rank": 50,
+   "id": "rws",
+   "company": "RWS Group",
+   "priority": 2,
+   "ask": "write-about",
+   "language": "en"
+  }
+ ]
+}

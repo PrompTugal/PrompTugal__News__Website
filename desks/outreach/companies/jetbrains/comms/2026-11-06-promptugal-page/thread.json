@@ -1,0 +1,36 @@
+{
+ "company": "jetbrains",
+ "name": "JetBrains",
+ "subject": "JetBrains on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/jetbrains/",
+ "page_facts_used": [
+  {
+   "session": "Taming the agent swarm",
+   "date": "2026-11-12",
+   "start": "10:30",
+   "page": "https://promptugal.news/events/taming-the-agent-swarm/",
+   "source": "https://websummit.com/sessions/lis26/9fd40607-9fe9-4805-9831-dfffb69c5e35/taming-the-agent-swarm/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 38,
+  "priority": 2,
+  "ask": "write-about",
+  "replaces": "people/silvio/outreach/messages.json#jetbrains (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-jetbrains-en.eml"
+ ]
+}

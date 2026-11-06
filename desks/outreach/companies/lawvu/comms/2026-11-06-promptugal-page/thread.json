@@ -1,0 +1,36 @@
+{
+ "company": "lawvu",
+ "name": "LawVu",
+ "subject": "LawVu on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Vicky Wang"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Vicky Wang",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/lawvu/",
+ "page_facts_used": [
+  {
+   "session": "Who takes the fall for autonomous AI?",
+   "date": "2026-11-10",
+   "start": "14:25",
+   "page": "https://promptugal.news/events/who-takes-the-fall-for-autonomous-ai/",
+   "source": "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 41,
+  "priority": 2,
+  "ask": "write-about",
+  "replaces": "people/silvio/outreach/messages.json#lawvu (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-lawvu-en.eml"
+ ]
+}

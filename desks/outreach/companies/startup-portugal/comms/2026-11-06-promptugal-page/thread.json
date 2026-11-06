@@ -1,0 +1,44 @@
+{
+ "company": "startup-portugal",
+ "name": "Startup Portugal",
+ "subject": "Startup Portugal on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Dinis Cruz"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Dinis Cruz",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/startup-portugal/",
+ "page_facts_used": [
+  {
+   "session": "A guide to Portugal's startup scene [Hosted by Startup Portugal]",
+   "date": "2026-11-10",
+   "start": "12:00",
+   "page": "https://promptugal.news/events/a-guide-to-portugal-s-startup-scene-hosted-by-startup/",
+   "source": "https://websummit.com/sessions/lis26/437ebaa7-ccc4-4e89-a01f-0ae1958e7726/a-guide-to-portugal-s-startup-scene-hosted-by-startup-portugal/"
+  },
+  {
+   "session": "Press conference: Road 2 Web Summit 2026 Winner",
+   "date": "2026-11-12",
+   "start": "12:30",
+   "page": "https://promptugal.news/events/press-conference-road-2-web-summit-2026-winner/",
+   "source": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/3/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 18,
+  "priority": 1,
+  "ask": "meet",
+  "replaces": "people/silvio/outreach/messages.json#startup-portugal (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-startup-portugal-pt.eml",
+  "2026-11-06T0000Z-draft-startup-portugal-en.eml"
+ ]
+}

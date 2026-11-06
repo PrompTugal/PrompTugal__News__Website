@@ -1,0 +1,43 @@
+{
+ "company": "crowdstrike",
+ "name": "CrowdStrike",
+ "subject": "CrowdStrike on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/crowdstrike/",
+ "page_facts_used": [
+  {
+   "session": "The best offense is a machine-speed defence",
+   "date": "2026-11-11",
+   "start": "14:25",
+   "page": "https://promptugal.news/events/the-best-offense-is-a-machine-speed-defence/",
+   "source": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/"
+  },
+  {
+   "session": "AI vs. AI: The battle for the cyber advantage",
+   "date": "2026-11-12",
+   "start": "10:05",
+   "page": "https://promptugal.news/events/ai-vs-ai-the-battle-for-the-cyber-advantage/",
+   "source": "https://websummit.com/sessions/lis26/26295ff3-84c1-4329-84cb-7ca7aaa18fac/ai-vs-ai-the-battle-for-the-cyber-advantage/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 20,
+  "priority": 1,
+  "ask": "write-about",
+  "replaces": "people/silvio/outreach/messages.json#crowdstrike (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-crowdstrike-en.eml"
+ ]
+}

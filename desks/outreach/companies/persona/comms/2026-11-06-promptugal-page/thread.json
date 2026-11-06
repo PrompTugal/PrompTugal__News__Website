@@ -1,0 +1,43 @@
+{
+ "company": "persona",
+ "name": "Persona",
+ "subject": "Persona on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Vicky Wang"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Vicky Wang",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/persona/",
+ "page_facts_used": [
+  {
+   "session": "In bots we trust: Defending money against AI-powered fraud",
+   "date": "2026-11-11",
+   "start": "11:15",
+   "page": "https://promptugal.news/events/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
+   "source": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/"
+  },
+  {
+   "session": "Beyond the front door: Identity, access, and user trust",
+   "date": "2026-11-12",
+   "start": "15:50",
+   "page": "https://promptugal.news/events/beyond-the-front-door-identity-access-and-user-trust/",
+   "source": "https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 47,
+  "priority": 2,
+  "ask": "write-about",
+  "replaces": "people/silvio/outreach/messages.json#persona (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-persona-en.eml"
+ ]
+}

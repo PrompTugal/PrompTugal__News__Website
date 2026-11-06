@@ -1,0 +1,36 @@
+{
+ "company": "aisle",
+ "name": "AISLE",
+ "subject": "AISLE on PrompTugal.news",
+ "channel": "email",
+ "our_people": [
+  "Indi Gupte"
+ ],
+ "their_contacts": "in the private team CRM only",
+ "state": "draft, for review by Dinis and Silvio",
+ "owner": "Indi Gupte",
+ "owner_status": "proposed",
+ "next_step": "Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)",
+ "leads_with": "https://promptugal.news/companies/aisle/",
+ "page_facts_used": [
+  {
+   "session": "Securing the software foundation of civilisation with AI",
+   "date": "2026-11-12",
+   "start": "13:40",
+   "page": "https://promptugal.news/events/securing-the-software-foundation-of-civilisation-with-ai/",
+   "source": "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/"
+  }
+ ],
+ "from": {
+  "targets": "desks/outreach/targets.json",
+  "rank": 30,
+  "priority": 2,
+  "ask": "interview",
+  "replaces": "people/silvio/outreach/messages.json#aisle (the RiskMandate-led draft)"
+ },
+ "drafted_by": "outreach (PrompTugal.dinis)",
+ "drafted_on": "2026-11-06",
+ "messages": [
+  "2026-11-06T0000Z-draft-aisle-en.eml"
+ ]
+}
