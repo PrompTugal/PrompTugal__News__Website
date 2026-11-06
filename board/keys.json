@@ -647,6 +647,23 @@
         "fingerprint": "sha256:b951b45354bf5563",
         "signing_fingerprint": "sha256:167f6342fe297d00"
       }
+    },
+    {
+      "id": "dev-vicky-promptugal",
+      "agent": "dev@PrompTugal.vicky",
+      "label": "dev@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky Wang's developer for PrompTugal.news: small changes to the newsroom site when Vicky asks, each through the build, the gate and newsroom/tools/release.sh, committed For: the agent that owns that part of the site. No scheduled task. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs), at Vicky's word. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA6NFeTdwnZqXyiOM6z6Ze\nGRKn3DpSTHcp2kjV6tSmBJoGGtNP4CZ4zH1sOWGJ8FWNBf4S9Sbe2coIScU6OM1Y\nHqZQ0fBmIGxdPEMc5qAZJwM7vFxlz7Drp1GUG7q03OxCxiLqjfT1Y3u6Q+93aBwb\n+TGrVwYrmgKiWdx9eV8yAYnuOF5yLrdSdjhJU0xxjwAmXKtYCaEhha20IaQET15D\nnJk8SIv2MoWMibbnRKZ/AQsBgRiNBxWK4spnlqzcdezVJu2+y+56HXTp8ZrV8D5q\nHMa/nYNKbScwTAQNA0uGJJjbF/zGJ4d5xxTFF/6WSnz8FXfe0AYBjiixUfB1AmQk\nO5/JhB+KVy05gNBXT2M1ZHwOxfM4quvOa8Uwa9XkNDFgalLb4x+aJjIUM5bTsvhC\nZ1XrMlHbuJ9gQscQK1BVPRqyPL734dhfhaYFv8YuFbbPa3P+hOtLmawc/t1+Yz6/\nG6g0z+clXI0EXX1+l1iNphXCCRh0f5yxi8uICO4vRFRmUENKkzrADJS9UVQKtdbs\nKee9A1P8G/maljpeGfmcoKcp2qnbXFan7ZFt3IHSvZD3ecWuSf4cjsOCDlY5thB4\nlC3HgRwewkWJx1GdzqA/4tMDBpYF9DY0NH2DjdFAeLYRA3kPA1bQalG2yrT4ph/e\njf4VQXYdtCjPWTF+YZz2aM8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEm+AdXgnr0yksrsYpFJA3m5n+s4/y\nUoBodEJSH+PaQ2ut63OLE5SMeJRjAQqiUvNJIOK8vulMYesSLISII3q66Q==\n-----END PUBLIC KEY-----\n",
+        "label": "dev@PrompTugal.vicky",
+        "fingerprint": "sha256:17d714aaca07c3e7",
+        "signing_fingerprint": "sha256:5795e1959875387e"
+      },
+      "status": "active"
     }
   ]
 }
