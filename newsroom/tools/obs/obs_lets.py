@@ -354,7 +354,8 @@ def transform(data_vault, pub_vault, dirty, now_hour, roster=()):
     for d, hh in hours:
         for r in hour_rows(data_vault, d, hh):
             if r.get('type') == 'view' and r.get('sid'):
-                tabs_at[r['sid']] = {'country': r.get('country') or '', 'cc': r.get('country_code') or '', 'region': r.get('region') or '', 'city': r.get('city') or '', 'g': groups.get(r['sid'], 'readers')}
+                tabs_at[r['sid']] = {'country': r.get('country') or '', 'cc': r.get('country_code') or '', 'region': r.get('region') or '', 'city': r.get('city') or '', 'g': groups.get(r['sid'], 'readers'),
+                                     'lat': r.get('lat'), 'lon': r.get('lon')}
     C, R, Y = collections.defaultdict(zero), collections.defaultdict(zero), collections.defaultdict(zero)
     for t in tabs_at.values():
         C[(t['cc'], t['country'] or 'unknown')][t['g']] += 1
@@ -368,10 +369,41 @@ def transform(data_vault, pub_vault, dirty, now_hour, roster=()):
                 for g in GROUPS: other[g] += v[g]
         return out, other
     cities, c_other = floor(Y); regions, r_other = floor(R)
+    # where on the map: each shown city's position (the mean of its tabs', already rounded to 0.1 degree in the browser)
+    pos = collections.defaultdict(list)
+    for t in tabs_at.values():
+        if t['city'] and isinstance(t.get('lat'), (int, float)) and isinstance(t.get('lon'), (int, float)): pos[(t['cc'], t['city'])].append((t['lat'], t['lon']))
+    for c in cities:
+        ps = pos.get((c[0], c[1]))
+        if ps: c.append([round(sum(p[0] for p in ps) / len(ps), 1), round(sum(p[1] for p in ps) / len(ps), 1)])
+    # links (Dinis, 6 November: "I just sent a link to somebody ... see if they open it ... and if they forward it"): every
+    # tab that arrived with a tag (?via=, utm_campaign or utm_source), counted per tag: tabs, views, reads, the pages read,
+    # the countries, how many different cities (a number, never which), the referring sites, first and last seen. One tab
+    # is one open; more tabs, from more places, is the link travelling.
+    L_ = collections.defaultdict(lambda: {'tabs': set(), 'views': 0, 'reads': 0, 'visible_s': 0, 'pages': collections.Counter(), 'countries': collections.Counter(),
+                                          'cities': set(), 'refs': collections.Counter(), 'groups': collections.Counter(), 'first': '', 'last': ''})
+    seen_tab = set()
+    for d, hh in hours:
+        for r in hour_rows(data_vault, d, hh):
+            v = r.get('via')
+            if not v or r.get('type') not in ('view', 'read') or not r.get('path'): continue
+            x = L_[v]; ts = str(r.get('ts', '')); sid = r.get('sid')
+            if (v, sid) not in seen_tab:
+                seen_tab.add((v, sid)); x['tabs'].add(sid); x['countries'][r.get('country') or 'unknown'] += 1; x['groups'][groups.get(sid, 'readers')] += 1
+                if r.get('city'): x['cities'].add((r.get('country_code'), r.get('city')))
+            if r['type'] == 'view':
+                x['views'] += 1; x['pages'][norm(r['path'])] += 1
+                if r.get('ref') and r['ref'] != SITE: x['refs'][r['ref']] += 1
+            else: x['reads'] += 1; x['visible_s'] += r.get('visible_s', 0)
+            x['first'] = min(x['first'] or ts, ts); x['last'] = max(x['last'], ts)
+    jsave(os.path.join(L, 'links.json'), {'v': 1, 'generated': gen, 'links': sorted(({'via': k, 'tabs': len(x['tabs']), 'views': x['views'], 'reads': x['reads'], 'visible_s': x['visible_s'],
+        'pages': x['pages'].most_common(20), 'countries': x['countries'].most_common(), 'cities': len(x['cities']), 'refs': x['refs'].most_common(10), 'groups': dict(x['groups']),
+        'first': x['first'], 'last': x['last']} for k, x in L_.items()), key=lambda e: e['last'], reverse=True),
+        'about': 'Tabs that arrived on a tagged link (?via=<tag>, or utm_campaign / utm_source), per tag. One tab is one open; more tabs from more countries and cities is the link being passed on. Counts only: the number of different cities, never which.'})
     jsave(os.path.join(L, 'places.json'), {'v': 1, 'generated': gen, 'tabs': len(tabs_at), 'city_min': CITY_MIN,
         'countries': [[cc, n, v] for (cc, n), v in sorted(C.items(), key=lambda x: -sum(x[1].values()))],
         'regions': regions, 'regions_other': r_other, 'cities': cities, 'cities_other': c_other,
-        'about': 'Tabs (not views) per place, per group, from the browser\'s own lookup (country, region, city; the IP is never read or kept). Every country; a region or city only when at least city_min tabs came from it, the rest summed as other.'})
+        'about': 'Tabs (not views) per place, per group, from the browser\'s own lookup (country, region, city; the IP is never read or kept). Every country; a region or city only when at least city_min tabs came from it, the rest summed as other. A shown city carries [lat, lon], its tabs\' mean, rounded to 0.1 degree.'})
     jsave(os.path.join(L, 'runs.json'), {'v': 1, 'generated': gen, 'runs': allstats['runs'][:200]})
     # timeline: every hour so far
     tl = []

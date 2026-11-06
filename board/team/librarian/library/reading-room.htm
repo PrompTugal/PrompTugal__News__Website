@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The reading room · the library of PrompTugal.news</title>
+<meta name="description" content="Search every card of the library of PrompTugal.news and draw how the cards connect: who made what, Dinis's guidance and where each idea went, the passes and their findings, and the reality tree.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/graph/graph.css">
+<style>
+/* The reading room is a plain page of the library, served as is: no site shell, no new font and no request to
+   another host. It borrows the site's own stylesheet, tokens and graph explorer by absolute path. */
+.rr { max-width: 1400px; margin: 0 auto; }
+.rr-head { padding: 18px 16px 6px; }
+.rr-kicker { margin: 0 0 4px; font: 600 12px/1.3 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+.rr-kicker a { color: inherit; }
+.rr h1 { margin: 0 0 6px; font-size: clamp(28px, 7vw, 40px); line-height: 1.1; }
+.rr-lede { margin: 0; max-width: 62ch; font: 400 16px/1.45 var(--sans); color: var(--ink-2); }
+.rr-find { padding: 12px 16px 4px; }
+.rr-find form { display: flex; gap: 8px; align-items: stretch; max-width: 720px; }
+.rr-find input { flex: 1 1 auto; min-width: 0; height: 44px; padding: 0 12px; border: 1px solid var(--ink-3); border-radius: 8px; background: var(--panel); font: 400 16px/1 var(--sans); }
+.rr-find button { flex: none; height: 44px; padding: 0 16px; border: 0; border-radius: 8px; background: var(--brand); color: var(--on-brand); font: 600 15px/1 var(--sans); cursor: pointer; }
+.rr-hint { margin: 6px 0 0; font: 400 13px/1.4 var(--sans); color: var(--ink-3); }
+.rr-results { list-style: none; margin: 10px 0 0; padding: 0; max-width: 720px; border-top: 1px solid var(--hair); }
+.rr-results:empty { display: none; }
+.rr-results li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; padding: 9px 0; border-bottom: 1px solid var(--hair); font: 400 15px/1.35 var(--sans); }
+.rr-results .t { overflow-wrap: anywhere; font-weight: 600; }
+.rr-results .m { grid-column: 1; color: var(--ink-3); font-size: 12.5px; overflow-wrap: anywhere; }
+.rr-results .go { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
+.rr-results .chip { min-height: 30px; font-size: 12.5px; }
+.rr-doors { display: flex; flex-wrap: wrap; gap: 6px 8px; padding: 10px 16px 4px; }
+.rr-views { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 10px 16px 12px; }
+.rr-views label { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; font: 600 12px/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+.rr-views select { height: 40px; max-width: 100%; padding: 0 10px; border: 1px solid var(--ink-3); border-radius: 8px; background: var(--panel); font: 500 15px/1 var(--sans); text-transform: none; letter-spacing: 0; color: var(--ink); }
+.rr-status { margin: 0; font: 400 13px/1.4 var(--sans); color: var(--ink-3); }
+.rr-note { padding: 8px 16px 20px; font: 400 13px/1.5 var(--sans); color: var(--ink-3); max-width: 80ch; }
+/* the explorer's own parts that the library graph does not use */
+.rr .gx-legend i { display: none; }
+.rr .gx-field:has(#gx-view) { display: none; }
+.rr .gx { margin: 0 0 12px; }
+.rr .gx > * { min-width: 0; }
+.rr .gx-caption { grid-column: 1 / -1; padding: 8px 16px; margin: 0; }
+.rr .gx-row, .rr .gx-actions, .rr .gx-depth, .rr .gx-field { flex-wrap: wrap; max-width: 100%; }
+.rr .gx-actions { display: flex; }
+@media (min-width: 900px) {
+  .rr-top { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 0 24px; align-items: start; }
+  .rr-right { padding-top: 22px; }
+  .rr-lede { font-size: 15px; }
+}
+/* on a phone the picture comes straight after the view, and the controls after the picture */
+@media (max-width: 899px) {
+  .rr .gx-caption { order: 0; }
+  .rr .gx-canvas { order: 1; }
+  .rr .gx-bar { order: 2; }
+  .rr .gx-side { order: 3; }
+}
+@media (max-width: 600px) { .rr .gx-canvas { height: 62vh; min-height: 340px; } }
+</style>
+</head>
+<body>
+<main class="rr">
+<div class="rr-top">
+<div class="rr-left">
+<header class="rr-head">
+<p class="rr-kicker"><a href="index.md">The library</a> of PrompTugal.news</p>
+<h1>The reading room</h1>
+<p class="rr-lede">Every card of the library, searched and drawn. Type to find a card and open its file; pick a view to see how the cards connect.</p>
+</header>
+
+<section class="rr-find" aria-label="Search the cards">
+<form id="rr-form" role="search" autocomplete="off">
+<label class="visually-hidden" for="rr-q">Search the cards by title, call number or kind</label>
+<input id="rr-q" type="search" placeholder="try: ideas ledger, WRK.PASS, sherpa" inputmode="search" enterkeyhint="search">
+<button type="submit">Open</button>
+</form>
+<p class="rr-hint" id="rr-hint">Loading the cards…</p>
+<ol class="rr-results" id="rr-results" aria-live="polite"></ol>
+</section>
+</div>
+<div class="rr-right">
+
+<nav class="rr-doors" aria-label="Doors of the library">
+<a class="chip" href="index.md">The front door</a>
+<a class="chip" href="notice-board.md">What is new and waiting</a>
+<a class="chip" href="finding-aids/index.md">Finding aids</a>
+<a class="chip" href="special/guidance.md">Dinis's guidance</a>
+<a class="chip" href="reality/index.md">The reality tree</a>
+<a class="chip" href="desk/index.md">Ask the desk</a>
+</nav>
+
+<section class="rr-views" aria-label="Choose a view">
+<label>View <select id="rr-view" aria-label="View"></select></label>
+<p class="rr-status" id="rr-status"></p>
+</section>
+</div>
+</div>
+
+<div class="gx" id="gx" data-root="/" data-data="./graph/library-graph.json" data-captions="./graph/presets.json">
+<div class="gx-bar">
+<form class="search gx-find" role="search" autocomplete="off"><label class="visually-hidden" for="gx-q">Find in the graph</label><svg class="s-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="gx-q" type="search" placeholder="Find a node in the graph" role="combobox" aria-expanded="false" aria-controls="gx-pop" aria-autocomplete="list"><button type="submit">Find</button><div class="search-pop" id="gx-pop" role="listbox" hidden></div></form>
+<div class="gx-row">
+<label class="gx-field"><span class="label">Preset</span><select id="gx-view" aria-label="Preset"><option value="">Preset view</option></select></label>
+<label class="gx-field"><span class="label">Layout</span><select id="gx-layout" aria-label="Layout"><option value="force">Force</option><option value="map">Map (whole graph)</option><option value="radial">Radial</option><option value="layered">Layered by world</option><option value="tree">Tree</option><option value="grid">Grid</option><option value="list">List</option></select></label>
+<span class="gx-field gx-depth" role="group" aria-label="Explore depth"><span class="label">Depth</span><button type="button" class="chip" data-deg="down" aria-label="One hop less">−</button><output id="gx-deg">1</output><button type="button" class="chip" data-deg="up" aria-label="One hop more">+</button><button type="button" class="chip" data-deg="max" aria-pressed="false" title="Everything connected">∞</button></span>
+<label class="gx-field"><span class="label">Top</span><select id="gx-topn" aria-label="Show the top"><option value="0">All</option><option>15</option><option>30</option><option>60</option><option>120</option><option>250</option></select><select id="gx-by" aria-label="Ranked by"><option value="pagerank">PageRank</option><option value="betweenness">betweenness</option><option value="degree">degree</option></select><select id="gx-what" aria-label="Of"><option value="nodes">nodes</option><option value="edges">edges</option></select></label>
+<span class="gx-field gx-actions"><button type="button" class="chip" id="gx-anchor" title="Pin the selected node as an anchor">Anchor</button><button type="button" class="chip" id="gx-expand" title="Add the selected node's neighbours">Expand</button><button type="button" class="chip" id="gx-reset">Reset</button><button type="button" class="chip" id="gx-share" title="Copy a link to this view">Copy link</button></span>
+</div>
+<details class="gx-more"><summary>Filters</summary>
+<div class="filters" role="group" aria-label="Worlds" id="rr-worlds"><span class="label">Worlds</span></div>
+<div class="filters" role="group" aria-label="Types" id="rr-types"><span class="label">Types</span></div>
+<div class="filters" role="group" aria-label="Verbs" id="rr-verbs"><span class="label">Verbs</span></div>
+<div class="filters gx-selects" role="group" aria-label="Clear"><button type="button" class="chip" id="gx-clearf">Clear filters</button></div>
+</details>
+<div hidden><div id="gx-days"></div><select id="gx-topic"><option value="">All</option></select><select id="gx-country"><option value="">All</option></select></div>
+<form class="gx-path" id="gx-pathf" autocomplete="off"><span class="label">How is</span><input id="gx-from" placeholder="a card or agent" aria-label="From"><span class="label">connected to</span><input id="gx-to" placeholder="another" aria-label="To"><button type="submit" class="chip">Find the path</button></form>
+</div>
+<div class="gx-canvas" id="gx-canvas"><div class="gx-cy" id="gx-cy" aria-label="The graph canvas" role="img"></div><div class="gx-list" id="gx-list" hidden></div><div class="gx-zoom"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-zoom="fit" aria-label="Fit">⤢</button></div><span class="gx-hint" id="gx-hint">Loading the graph…</span><noscript><p class="gx-noscript">The reading room's graph needs JavaScript. The same graph is published as data: <a href="graph/library-graph.json">library-graph.json</a>, <a href="graph/reality-tree.json">reality-tree.json</a>; the cards are in <a href="cards.json">cards.json</a> and the list of everything is the <a href="shelf-list.md">shelf list</a>.</p></noscript></div>
+<aside class="gx-side" id="gx-side" aria-live="polite"><p class="kicker">The graph</p><h2 class="gx-title">Pick a node</h2><p class="gx-note">Tap a node to read its record and open its file; double-tap to expand it.</p></aside>
+</div>
+
+<p class="rr-note">The graph is drawn by the site's own explorer (the same engine as <a href="/graph/">/graph/</a>) from <a href="graph/library-graph.json">library-graph.json</a> and <a href="graph/reality-tree.json">reality-tree.json</a>, generated from the cards and their typed links. A card that is an entity page (a company, a person, an organisation, a place) is not a node of its own: a connection to one ends at its collection. Everything is read from this folder and the site's own files; nothing is sent anywhere.</p>
+</main>
+
+<script src="/assets/vendor/cytoscape/cytoscape.min.js"></script>
+<script src="/assets/graph/engine.js"></script>
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var gx = $('gx');
+  var E = window.NRGraphEngine;
+  var DATASETS = { library: 'graph/library-graph.json', reality: 'graph/reality-tree.json' };
+  var m = /(?:^#|[#&])data=(library|reality)/.exec(location.hash || '');
+  var which = m ? m[1] : 'library';
+  gx.setAttribute('data-data', './' + DATASETS[which]);
+  var fold = function (s) { return String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); };
+  // everything that comes from data goes in with textContent, never as markup
+  var mk = function (tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  var json = function (u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + ': HTTP ' + r.status); return r.json(); }); };
+  var hint = function (t) { var h = $('gx-hint'); if (h) h.textContent = t; };
+
+  /* ------------------------------------------------------------ the node shapes of the library, added to the explorer's style */
+  function extraStyle() {
+    var cs = getComputedStyle(gx), v = function (n, f) { return (cs.getPropertyValue(n) || '').trim() || f; };
+    var brand = v('--brand', '#006600'), soft = v('--brand-soft', '#e2eedf'), ink = v('--ink', '#121317'), ink2 = v('--ink-2', '#3f424a'),
+      ink3 = v('--ink-3', '#595c64'), panel = v('--panel', '#fffdf8'), paper2 = v('--paper-2', '#ece7db'), hair = v('--hair', '#d9d2c1'),
+      ok = v('--ok', '#2b6a3c'), warn = v('--warn', '#8a5200'), red = v('--brand-red', '#c52830');
+    var t = function (type, st) { return { selector: 'node[type = "' + type + '"]', style: st }; };
+    return [
+      t('collection', { shape: 'round-rectangle', 'background-color': soft, 'border-color': brand, 'border-width': 2, 'font-weight': 600 }),
+      t('agent', { shape: 'ellipse', 'background-color': ink, 'border-color': ink, 'font-weight': 600 }),
+      t('pass', { shape: 'round-rectangle', 'background-color': paper2, 'border-color': ink2, 'border-width': 2 }),
+      t('finding', { shape: 'ellipse', 'background-color': hair, 'border-color': ink3, 'font-size': 9 }),
+      t('decision', { shape: 'diamond', 'background-color': brand, 'border-color': brand, 'font-weight': 600 }),
+      t('idea', { shape: 'ellipse', 'background-color': panel, 'border-color': warn, 'border-width': 2, 'font-size': 9 }),
+      t('question', { shape: 'triangle', 'background-color': panel, 'border-color': red, 'border-width': 2 }),
+      t('desk', { shape: 'hexagon', 'background-color': paper2, 'border-color': ink2 }),
+      t('board', { shape: 'rectangle', 'background-color': panel, 'border-color': ink3, 'font-size': 10 }),
+      t('page', { shape: 'rectangle', 'background-color': panel, 'border-color': ink3, 'border-style': 'dashed', 'font-size': 10 }),
+      t('subject', { shape: 'tag', 'background-color': soft, 'border-color': ink3, 'font-size': 10 }),
+      t('root', { shape: 'star', 'background-color': brand, 'border-color': ink, 'font-weight': 700 }),
+      t('domain', { shape: 'round-rectangle', 'background-color': soft, 'border-color': brand, 'border-width': 2, 'font-weight': 700 }),
+      t('exists', { shape: 'ellipse', 'background-color': ok, 'border-color': ok, 'font-size': 9 }),
+      t('proposed', { shape: 'ellipse', 'background-color': panel, 'border-color': warn, 'border-style': 'dashed', 'border-width': 2, 'font-size': 9 }),
+      t('card', { shape: 'rectangle', 'background-color': panel, 'border-color': ink3, 'font-size': 9 })
+    ];
+  }
+  // the explorer sets its style from its own list (and again when the theme changes): the wrapper appends ours to every one of them
+  function patchCytoscape() {
+    var orig = window.cytoscape;
+    if (typeof orig !== 'function') return;
+    var wrapped = function (opts) {
+      if (opts && Array.isArray(opts.style)) { try { opts.style = opts.style.concat(extraStyle()); } catch (e) { /* the explorer's own look stays */ } }
+      var cy = orig.apply(this, arguments);
+      var s0 = cy.style;
+      cy.style = function (a) {
+        if (arguments.length === 1 && Array.isArray(a)) { try { a = a.concat(extraStyle()); } catch (e) { /* as above */ } }
+        return s0.apply(cy, arguments.length ? [a] : []);
+      };
+      return cy;
+    };
+    Object.keys(orig).forEach(function (k) { wrapped[k] = orig[k]; });
+    wrapped.prototype = orig.prototype;
+    window.cytoscape = wrapped;
+  }
+
+  /* ------------------------------------------------------------ the presets: the library's own, in place of the site's */
+  var presets = {};
+  function setPresets(j) {
+    presets = (j && j.presets) || {};
+    var keys = Object.keys(presets);
+    if (E && Array.isArray(E.PRESETS)) {
+      E.PRESETS.length = 0;
+      keys.filter(function (k) { return presets[k].data === which; }).forEach(function (k) { E.PRESETS.push({ key: k, label: presets[k].label, state: presets[k].state }); });
+    }
+    var sel = $('rr-view');
+    sel.textContent = '';
+    var groups = { library: 'The library graph', reality: 'The reality tree' };
+    ['library', 'reality'].forEach(function (d) {
+      var og = document.createElement('optgroup'); og.label = groups[d];
+      keys.filter(function (k) { return presets[k].data === d; }).forEach(function (k) { var o = mk('option', null, presets[k].label); o.value = k; og.appendChild(o); });
+      if (og.children.length) sel.appendChild(og);
+    });
+    sel.addEventListener('change', function () {
+      var k = sel.value, p = presets[k];
+      if (!p) return;
+      if (p.data === which) {
+        if (window.NRGraphExplorer) window.NRGraphExplorer.ready.then(function (api) { if (api) api.preset({ key: k }); });
+      } else {
+        // the other graph is another file: reload with it and the preset (the explorer reads ?preset=)
+        location.href = location.pathname + '?preset=' + encodeURIComponent(k) + '#data=' + p.data;
+      }
+    });
+    var want = /[?&]preset=([\w-]+)/.exec(location.search);
+    var first = keys.filter(function (k) { return presets[k].data === which; })[0];
+    if (!want && which === 'reality' && first) { try { history.replaceState(null, '', location.pathname + '?preset=' + first + location.hash); } catch (e) { /* a sandboxed frame */ } want = [0, first]; }
+    sel.value = want && presets[want[1]] ? want[1] : first || '';
+  }
+
+  /* ------------------------------------------------------------ the filter chips, from the graph's own worlds, types and verbs */
+  function chips(g) {
+    var add = function (id, items, attr, withCount) {
+      var box = $(id);
+      items.forEach(function (it) {
+        var b = mk('button', 'chip', it.label); b.type = 'button'; b.setAttribute(attr, it.id); b.setAttribute('aria-pressed', 'true');
+        if (it.title) b.title = it.title;
+        if (withCount) b.appendChild(mk('span', 'n'));
+        box.appendChild(b);
+      });
+    };
+    add('rr-worlds', g.worlds, 'data-world', false);
+    add('rr-types', g.types, 'data-type', true);
+    add('rr-verbs', g.verbs.map(function (v) { return { id: v.verb, label: v.verb.replace(/_/g, ' '), title: v.reads }; }), 'data-verb', true);
+  }
+
+  /* ------------------------------------------------------------ the search box over cards.json */
+  var cards = null, ix = {};
+  function addr(r) {
+    var p = r[ix.path] === 0 ? r[ix.id].slice(r[ix.id].indexOf(':') + 1) : r[ix.path];
+    return '/' + String(p || '').replace(/^\/+/, '').replace(/(^|\/)index\.html$/, '$1');
+  }
+  function search(q) {
+    var terms = fold(q).split(/\s+/).filter(Boolean);
+    if (!terms.length || !cards) return [];
+    var out = [];
+    for (var i = 0; i < cards.rows.length; i++) {
+      var r = cards.rows[i];
+      var title = fold(r[ix.title]), call = fold(r[ix.call]), hay = title + ' ' + call + ' ' + fold(r[ix.type]) + ' ' + fold(r[ix.kind]) + ' ' + fold(r[ix.id]) + ' ' + fold(r[ix.made_by]);
+      var ok = true, score = 0;
+      for (var k = 0; k < terms.length; k++) {
+        if (hay.indexOf(terms[k]) === -1) { ok = false; break; }
+        if (title.indexOf(terms[k]) === 0) score += 6; else if (title.indexOf(' ' + terms[k]) !== -1) score += 4; else if (call.indexOf(terms[k]) === 0) score += 5; else score += 1;
+      }
+      if (ok) out.push({ r: r, s: score - Math.min(title.length, 120) / 200 });
+    }
+    out.sort(function (a, b) { return b.s - a.s; });
+    return out.slice(0, 25).map(function (x) { return x.r; });
+  }
+  function showInGraph(r) {
+    var api = window.NRGraphExplorer;
+    if (!api) return;
+    api.ready.then(function (a) {
+      if (!a) return;
+      var G = a.engine, id = r[ix.id];
+      if (which === 'library' && !G.byId.has(id)) id = 'coll:' + String(r[ix.call]).split(' ')[0];
+      if (G.byId.has(id)) { a.focus({ id: id, depth: 1 }); $('gx').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      else hint('That card is not a node of this graph.');
+    });
+  }
+  var current = [];
+  function render(list) {
+    var ol = $('rr-results');
+    ol.textContent = '';
+    current = list;
+    list.forEach(function (r) {
+      var li = mk('li');
+      var a = mk('a', 't', r[ix.title] || r[ix.id]); a.href = addr(r);
+      li.appendChild(a);
+      li.appendChild(mk('span', 'm', r[ix.call] + ' · ' + (r[ix.kind] || r[ix.type]) + (r[ix.made_by] ? ' · ' + String(r[ix.made_by]).replace(/@PrompTugal\.dinis$/, '@') : '') + (r[ix.status] !== 'current' ? ' · ' + r[ix.status] : '')));
+      var b = mk('button', 'chip go', 'In the graph'); b.type = 'button';
+      b.addEventListener('click', function () { showInGraph(r); });
+      li.appendChild(b);
+      ol.appendChild(li);
+    });
+    $('rr-hint').textContent = list.length ? list.length + (list.length === 25 ? ' or more' : '') + ' found. Enter opens the first.' : ($('rr-q').value.trim() ? 'Nothing found. Try the first letters of a title, a call number such as WRK.PASS, or a kind such as idea.' : cards ? cards.rows.length + ' cards. Type to search.' : '');
+  }
+  function bindSearch() {
+    var q = $('rr-q');
+    q.addEventListener('input', function () { render(search(q.value)); });
+    $('rr-form').addEventListener('submit', function (e) { e.preventDefault(); var l = current.length ? current : search(q.value); if (l.length) location.href = addr(l[0]); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === '/' && !/^(input|textarea|select)$/i.test((e.target.tagName || ''))) { e.preventDefault(); q.focus(); }
+    });
+  }
+
+  /* ------------------------------------------------------------ start */
+  function startExplorer() {
+    var s = document.createElement('script'); s.src = '/assets/graph/explorer.js';
+    s.onerror = function () { hint('The site\'s graph explorer did not load (/assets/graph/explorer.js).'); };
+    document.body.appendChild(s);
+  }
+  bindSearch();
+  json('cards.json').then(function (c) {
+    cards = c; c.columns.forEach(function (n, i) { ix[n] = i; });
+    render(search($('rr-q').value));
+  }).catch(function (e) { $('rr-hint').textContent = 'The cards did not load: ' + e.message; });
+  if (!E || typeof window.cytoscape !== 'function') { hint('The site\'s graph engine did not load; the data is in graph/library-graph.json.'); return; }
+  Promise.all([json('graph/presets.json').catch(function () { return null; }), json(DATASETS[which])]).then(function (r) {
+    setPresets(r[0]);
+    chips(r[1]);
+    $('rr-status').textContent = (which === 'reality' ? 'The reality tree: ' : 'The library graph: ') + r[1].counts.nodes + ' nodes and ' + r[1].counts.edges + ' connections, as at site ' + (r[1].version || 'unknown') + '.';
+    patchCytoscape();
+    startExplorer();
+  }).catch(function (e) { hint('The graph did not load: ' + e.message); });
+})();
+</script>
+</body>
+</html>

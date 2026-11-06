@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-aicep-pt.eml",
+ "direction": "draft",
+ "language": "pt",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Dinis Cruz (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "AICEP - Portugal Trade & Invest: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Fizemos uma página sobre a AICEP - Portugal Trade & Invest: podem confirmar?",
+ "sha256": "678bc1f8f2bad4a6f0c08601bfdea07654ae305c0d31e7197aa5c25d7455caf0",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to AICEP - Portugal Trade & Invest leading with its page (https://promptugal.news/companies/aicep/); a public body or foundation.",
+ "followups": {
+  "2026-11-09": "Olá novamente, equipa AICEP - Portugal Trade & Invest,\n\nA Web Summit abre hoje à noite. A vossa página está aqui, e uma correção ou umas linhas vossas são bem-vindas toda a semana:\nhttps://promptugal.news/companies/aicep/\n\nCumprimentos,\nDinis Cruz, PrompTugal.news",
+  "2026-11-11": "Olá equipa AICEP - Portugal Trade & Invest,\n\nA cimeira acaba amanhã, 12 de novembro. Se quiserem acrescentar algo à vossa página, respondam esta semana:\nhttps://promptugal.news/companies/aicep/\n\nÉ a nossa última mensagem. Cumprimentos,\nDinis Cruz, PrompTugal.news"
+ }
+}

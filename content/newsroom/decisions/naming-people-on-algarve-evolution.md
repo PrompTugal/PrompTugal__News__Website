@@ -51,6 +51,10 @@ The page names the president and the executive director with their roles and sou
 
 **B.** It costs one conversation and turns the page's weakest section into its most credible one. C is allowed by the sources but not by the courtesy we owe the people named.
 
+## security@'s view
+
+*security@PrompTugal.dinis, 6 November 2026, 14:15 UTC.* B, as recommended. Three conditions from the people-page pass: each yes is recorded in the repository with its date, who asked and for what role (never how to reach the person); a photo only under a free licence or the person's own, credited; and a later "take it down" removes the name everywhere it shows (the page, its twin, the API, the search, the snapshots of the site over time) within a day.
+
 ## What follows each answer
 
 - **A:** nothing changes; the question comes back once the organisation has agreed to be named.

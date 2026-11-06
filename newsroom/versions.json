@@ -1,5 +1,82 @@
 [
   {
+    "version": "v0.1.266",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: the library, round 3: its cards and the reality tree drawn in the site's own graph explorer (the reading room), finding aids, Dinis's guidance as a special collection, verified signatures at the desk",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "0f81d4f29"
+  },
+  {
+    "version": "v0.1.265",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the footer's outside links open in a new tab too (GR-22)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f34b40095"
+  },
+  {
+    "version": "v0.1.264",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 13:45 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "516f0f251"
+  },
+  {
+    "version": "v0.1.263",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: the library, round 2: typed connections with inverses, the authority file from data/, the subject vocabulary, four indexes, the reality tree's generated blocks, the stocktake",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "3ac972ae2"
+  },
+  {
+    "version": "v0.1.262",
+    "date": "2026-11-06",
+    "what": "customers@PrompTugal.dinis: brief 3: the slip on the record, a case study of Portuguese technology, the technology shelf (19 products), the interest box, an invitation for Silvio's side",
+    "by": "customers@PrompTugal.dinis",
+    "from": "5a5e1e11b"
+  },
+  {
+    "version": "v0.1.261",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 13:37 wake: backup@'s Drive use verified as Dinis's grant; three of his decisions to apply; the hook edit refused as self-modification, report only",
+    "by": "abp@PrompTugal.dinis",
+    "from": "2a80a0e92"
+  },
+  {
+    "version": "v0.1.260",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: PT decision: the top of every page is A, with the summit's days under it; three more decisions open for the team's weigh-in; take designer.experiments@'s round 6",
+    "by": "designer@PrompTugal.dinis",
+    "from": "383ded9a7"
+  },
+  {
+    "version": "v0.1.259",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: the library's reference desk is open: every message a call slip, every answer on the record; the notice board",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "2504c9da4"
+  },
+  {
+    "version": "v0.1.258",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: the library's cards, round 1: 2,417 cards with call numbers, accession numbers and provenance; the authority file for agents; the shelf list",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "d5b59ea09"
+  },
+  {
+    "version": "v0.1.257",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: a request to dev@: the publish workflow as a page (for example /how-we-publish/), labelled a draft, kept in step with the file",
+    "by": "checker@PrompTugal.vicky",
+    "from": "6ef937b39"
+  },
+  {
+    "version": "v0.1.256",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: the library begins at Dinis's word: the commission in his words, the daily run, ROLE.md; round 1 (architect, information designer, curator) under way",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "17663b7c7"
+  },
+  {
     "version": "v0.1.255",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: wake 13:08: review round 8, five worker branches brought onto dev",

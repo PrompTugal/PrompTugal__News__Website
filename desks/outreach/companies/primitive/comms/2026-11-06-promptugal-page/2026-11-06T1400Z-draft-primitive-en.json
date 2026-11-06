@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-primitive-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Primitive: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Primitive: could you check it?",
+ "sha256": "569d1e40be5ee67e865b3f74d6bc50df3dca1744773a4092c798ec90d357ea4e",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Primitive leading with its page (https://promptugal.news/companies/primitive/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Primitive team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/primitive/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Primitive team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/primitive/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

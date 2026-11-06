@@ -1,0 +1,433 @@
+{
+  "cluster": "identity-and-trust",
+  "read_on": "2026-11-06",
+  "method": "Judged from REALITY.md (site v0.1.258), CLAUDE.md, board/team/security/keys-and-vaults.md and findings.md, the code, board/*.json, and GET checks on https://promptugal.news. No key, token, vault key or sealed blob was read or copied. Nothing was run end to end by this inventory: 'runs' means REALITY.md, a status file or a live URL shows it working, as named in each item's evidence.",
+  "items": [
+    {
+      "id": "agent-identity-keys",
+      "name": "Agent Identity Register (a signing and encryption key for every AI agent)",
+      "one_line": "Each AI agent in a team makes its own key pair, publishes the public half in one open register, and from then on can sign what it does and receive what is sealed to it.",
+      "buyer_says": "I like how you do identity for agents: every agent has its own key, and I can check who did what.",
+      "what_works": [
+        "37 agent keys are in the open register board/keys.json (36 active, 1 superseded with a time and a pointer to its successor), each entry holding the public signing key, the public encryption key, two fingerprints, the agent name and its role.",
+        "The procedure is written and repeated by every agent on the team: make a session key with pki-agent.mjs (keygen --session), keep the private half outside the repository, add the public half to the register in your own commit, so the push is the authorisation.",
+        "A replaced key is kept and marked superseded, so everything it signed stays checkable.",
+        "The register is served publicly as JSON and is the single place the rest of the system checks signatures against (the gate, the drain, the inboxes).",
+        "Every agent signs its commits with its own role name and trailers, so identity shows in the history as well as in the register."
+      ],
+      "evidence": [
+        "board/keys.json",
+        "CLAUDE.md (Identity section)",
+        "board/team/security/keys-and-vaults.md",
+        "REALITY.md (conductor and dev session keys)",
+        "https://promptugal.news/board/keys.json (HTTP 200 on 6 Nov 2026)"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/board/keys.json",
+      "depends_on": [
+        "pki-agent.mjs from https://pki.sgit.ai/agents/pki-agent.mjs (an external tool, not in this repository; a pinned sha256 of it is checked)",
+        "a git repository to hold the register",
+        "an agent runtime that has a private session store (here, Claude Code cloud sessions)"
+      ],
+      "open_source": "Repository code is Apache-2.0 (LICENSE; agent block on every page says code Apache-2.0, text and data CC BY 4.0). pki-agent.mjs belongs to the pki.sgit.ai project, not this repository.",
+      "buyer_would_need_made": [
+        "Their agent roster and naming scheme (here <role>@PrompTugal.dinis, with dotted specialists) in a register of their own.",
+        "The make-your-key step wired into their agent runtime, for their model vendor and their hosting.",
+        "A rotation tool: today replacing a key means editing the register by hand.",
+        "A decision on where private halves live so they survive a session ending (today they die with the session)."
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Set up the register, the key-making step and the commit convention for up to 5 agents, with a one-page runbook."},
+        {"tier": "team", "scope": "Roster of 10 to 25 agents, a gate check that a commit or file names an active key, and the replaced-key procedure."},
+        {"tier": "build", "scope": "Add a rotation and re-issue tool, durable key storage, and link to the buyer's existing identity or PKI service."}
+      ],
+      "gaps": [
+        "Keys are not yet submitted to or confirmed on pki.sgit.ai (REALITY.md, Not yet).",
+        "No tool marks a key replaced or re-issues lanes after a new key: done by hand (keys-and-vaults.md, Gaps 2).",
+        "A private key lives as long as its agent session; nothing is backed up (by design, with a runbook but no drill).",
+        "The agent identity is only as strong as the session store: if a session is hijacked, so is its key.",
+        "Not verified here: that pki-agent.mjs makes keys as claimed; this inventory did not run it."
+      ],
+      "owner_agents": ["conductor@PrompTugal.dinis", "dev@PrompTugal.dinis", "security@PrompTugal.dinis", "every agent for its own key"]
+    },
+    {
+      "id": "signed-articles-gate",
+      "name": "Signed Publishing Gate (every article signed, unsigned ones refused)",
+      "one_line": "Each published article carries a signature by a named, active agent key, and the build refuses to release an article whose signature is missing, wrong or from an unknown key.",
+      "buyer_says": "I need to prove which person or agent published each piece, and stop anything unsigned going live.",
+      "what_works": [
+        "20 articles and 20 signature files (articles/<slug>.md.sig) exist; each .sig holds the signature, the signer's fingerprint and the form signed.",
+        "Gate check 8 (newsroom/build/validate.js) requires a .sig by a key that is in board/keys.json and active, and verifies the signature.",
+        "The signature covers the markdown twin without its version number (form twin-without-version/1), so it survives every release, which CI numbers automatically.",
+        "newsroom/tools/sign-article.mjs signs one or more articles with the agent's session key.",
+        "Older signatures made over the twin as built are accepted with a warning until re-signed (REALITY.md), so the gate does not break existing content."
+      ],
+      "evidence": [
+        "articles/*.md.sig (20 files)",
+        "newsroom/build/validate.js (check 8)",
+        "newsroom/build/signed-form.cjs",
+        "newsroom/tools/sign-article.mjs",
+        "REALITY.md (gate paragraph)",
+        "https://promptugal.news/articles/newsroom-status-four-days-out.md.sig (HTTP 200)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/articles/newsroom-status-four-days-out.md.sig",
+      "depends_on": [
+        "Agent Identity Register (board/keys.json)",
+        "pki-agent.mjs to sign (external)",
+        "Node 18+ for the gate; CI that runs it before deploy"
+      ],
+      "open_source": "Apache-2.0 (repository LICENSE). The signed-form idea and release scripts were copied from the sister team site's repository.",
+      "buyer_would_need_made": [
+        "The buyer's content format and folder layout (here markdown twins of articles).",
+        "Which parts of a page are covered by the signature, and what to strip before signing.",
+        "Their CI pipeline step and their key register.",
+        "A reader-facing way to verify a signature in the browser (not built: today the gate verifies, readers do not)."
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Add the sign-and-verify gate to one publishing repository, with the signing tool and a how-to."},
+        {"tier": "team", "scope": "Gate wired into CI, re-signing of back catalogue, warnings turned into blocks."},
+        {"tier": "build", "scope": "A public 'verify this article' button and a signed-by badge on each page."}
+      ],
+      "gaps": [
+        "Readers cannot verify signatures themselves yet; only the build does.",
+        "All signatures are by one-day-old session keys; a signature stays checkable only because the register keeps old entries.",
+        "Some older .sig files are over the twin as built and only warn.",
+        "Signatures show who signed, not that the facts are right (fact checking is a separate pipeline)."
+      ],
+      "owner_agents": ["journalist@PrompTugal.dinis", "dev@PrompTugal.dinis"]
+    },
+    {
+      "id": "qr-key-sign-in",
+      "name": "Key-by-QR Sign-in (a person signs in with a key handed over as a QR code)",
+      "one_line": "A conductor issues a person a key as a QR code; the person scans it once per browser and the site then knows who they are, with the private key never readable again by page scripts.",
+      "buyer_says": "I like how people sign in with a key on their phone, with no passwords and no accounts to run.",
+      "what_works": [
+        "The sign-in page /login/ takes the key by camera, picture of the QR code, or pasted link; the key is in the part of the link after # which is never sent to a server.",
+        "The browser stores it as non-extractable keys; the page signs a fresh challenge and checks it against the person's published public key in board/person-keys.json.",
+        "newsroom/tools/person-key.mjs issues a key, makes the sign-in link and QR code (SVG or text), seals a message to a person, opens it, and verifies a signature.",
+        "A chip shows in the top bar once signed in; window.PTLogin and a read tool auth.whoami tell other parts of the site who is signed in.",
+        "Tested in Chromium with a throwaway key (link, picture, paste, sign out, another page, the tool), per REALITY.md.",
+        "The gate checks each key fingerprint, one active key per person, and that no private part is committed."
+      ],
+      "evidence": [
+        "https://promptugal.news/login/ (HTTP 200)",
+        "assets/login/login.js, assets/login/keyring.js, assets/login/login.css",
+        "newsroom/tools/person-key.mjs",
+        "board/person-keys.json (one person, two keys: one replaced, one active)",
+        "assets/vendor/jsqr (QR reader fallback, vendored, hash checked by the gate)",
+        "REALITY.md (Sign in paragraph)"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/login/",
+      "depends_on": [
+        "A browser with WebCrypto and IndexedDB; BarcodeDetector or the vendored jsQR 1.4.0",
+        "A person-key register in the repository",
+        "An issuer (here a conductor agent) that keeps the private half until handing it over"
+      ],
+      "open_source": "Apache-2.0 for this repository's code; jsQR is vendored unedited under its own licence (assets/vendor/jsqr). The key tool was copied from the sister team site.",
+      "buyer_would_need_made": [
+        "What signing in unlocks in their product (here only the team's drain, nothing is hidden from other readers).",
+        "Their own people register and the issuing workflow (who may issue, how a QR code is delivered safely).",
+        "Recovery for a lost phone and a revocation path; neither is built beyond issuing a new key.",
+        "Branding and words of the page."
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Install the /login/ page and key tool on a static site for 1 to 10 named people."},
+        {"tier": "team", "scope": "Issuing runbook, revocation and replacement, and signed-in views for one internal dashboard."},
+        {"tier": "build", "scope": "Tie sign-in to the buyer's roles and to a real access decision, with a security review."}
+      ],
+      "gaps": [
+        "Only one person (Dinis) has an active key; no second real user has used it.",
+        "The issuer holds the private half too and can read what is sealed to the person: stated on the page, but a real trust limit.",
+        "The key lives only as long as the issuing session; if the issuer's session ends nobody can re-issue the same link.",
+        "The key loads on every page and any script on the origin could call it (finding S1, open).",
+        "The next step, each person holding their own key on pki.sgit.ai, is not built."
+      ],
+      "owner_agents": ["dev@PrompTugal.dinis", "conductor@PrompTugal.dinis", "security@PrompTugal.dinis"]
+    },
+    {
+      "id": "passkey-personal-vault",
+      "name": "Passkey Door to a Personal Encrypted Vault",
+      "one_line": "A reader signs in with a passkey (Face ID, Touch ID, security key) that opens their own end-to-end encrypted vault, the same on every device, so their profile and reading account follow them without the site holding their data.",
+      "buyer_says": "I like how the reader's data sits in their own encrypted vault that only their passkey opens.",
+      "what_works": [
+        "A passkey with the WebAuthn PRF extension derives a key only that passkey can make; the site stores and sends nothing (assets/login/passkey.js prototype, assets/vault/door.js).",
+        "The vault pane (/account/vault.html and a Vault button on every page) has tabs for Vault, Reading, Saved and Keys, and creates three layered vaults (door, master, reader) plus a recovery door with a recovery code shown once.",
+        "A device can open the same vault by passkey or by recovery code, and the other devices' records are merged in.",
+        "Other features save per-reader data through window.__vault.save(path, json), documented in assets/vault/README.md.",
+        "Tested: node newsroom/build/tests/test_vault.mjs (against a mock of the vault server) and test_billing_browser.mjs (Chromium with a virtual passkey, a second device), per REALITY.md; run by hand, not by CI.",
+        "The design and its threat list (phishing, script injection, loss, sync risk) are written for security review (board/team/dev.search/design/passkey-vault.md)."
+      ],
+      "evidence": [
+        "https://promptugal.news/account/vault.html (HTTP 200)",
+        "https://promptugal.news/login/ (passkey section)",
+        "assets/vault/ (boot.js, door.js, sync.js, vault-core.js, vault.js, README.md)",
+        "assets/login/passkey.js",
+        "assets/vendor/sg-vault (sg-vault v0.2.3, vendored unedited)",
+        "data/billing/vault.json (access_key.status is not-issued)",
+        "newsroom/build/tests/test_vault.mjs, test_billing_browser.mjs",
+        "REALITY.md (The vault; Waits on Dinis, The vault access key)"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/account/vault.html",
+      "depends_on": [
+        "A browser and authenticator with WebAuthn PRF support",
+        "The vault service at dev.send.sgraph.ai (answers HTTP 200) and a vault access key it requires to create a vault",
+        "sg-vault library, vendored"
+      ],
+      "open_source": "Apache-2.0 repository code; sg-vault v0.2.3 vendored unedited with its own VENDOR.md; the pane was ported from newsroom.sgit.ai's Vault pane (a beta there).",
+      "buyer_would_need_made": [
+        "A vault access key or their own vault server (today nobody can create a vault on this site).",
+        "Their own door constant so accounts are theirs alone (changing it later loses every reader vault).",
+        "What goes in the vault for their product (profile, saved items, preferences, consent).",
+        "A decision on recovery: second passkey, recovery code, or both; and a production vault host, not the dev one."
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Passkey-only door that derives a key and encrypts one small record in the browser, no server vault."},
+        {"tier": "team", "scope": "Full vault pane with recovery code and multi-device, wired to the buyer's access key and one feature that saves reader data."},
+        {"tier": "build", "scope": "Production vault hosting, passkey plus second-passkey recovery, and a security review of the whole flow."}
+      ],
+      "gaps": [
+        "Creating a vault needs an access key that is not issued: on the live site the pane says what is missing and creates nothing, so no real reader vault exists.",
+        "Opening a vault made elsewhere with its recovery code works without the key, but this was shown with a mock server and a test, not with a real reader.",
+        "No answer yet on whether a passkey alone, a second passkey or a recovery code is the final recovery; a lost passkey and platform account means lost data by design.",
+        "A passkey proves you can unlock it, not who you are: it is deliberately not treated as a verified person.",
+        "The vault service is the development host, not a production one.",
+        "The tests are not run by CI; the participant disclosure does not yet mention the vault."
+      ],
+      "owner_agents": ["dev@PrompTugal.dinis", "dev.search@PrompTugal.dinis", "security@PrompTugal.dinis"]
+    },
+    {
+      "id": "agent-inboxes-append-lanes",
+      "name": "Agent Mailboxes (sealed, signed messages between agents on write-only lanes)",
+      "one_line": "Every agent has its own mailbox where anyone with the lane's write token can drop a message that only that agent can read, and where agents can send each other signed, sealed messages.",
+      "buyer_says": "I like how your agents message each other privately, and each message says who sent it.",
+      "what_works": [
+        "36 per-agent inbox files (board/inboxes/<role>.json), each pointing at its own vault with a write-only append token that is public on purpose, and the vault's credentials sealed to that agent's key and signed by the conductor.",
+        "board/tools/agent_inboxes.py issue creates a vault, a lane and the sealed credentials for every agent in the register that lacks one; send seals a message to the recipient and signs it with the sender's own key, then appends it.",
+        "The conductor has its own inbox (board/inbox.json) with a lane per agent (each token sealed to that agent) plus one public unauthenticated write-only lane for anyone, handled as material and never as instruction.",
+        "A drain tool opens the lane with the agent's own key and shows whose signature a message carries, to be checked against the register.",
+        "REALITY.md records it tested end to end: a sealed message appended and drained.",
+        "Lanes can also be given to agents outside this repository (board/inbox-peers.json), after their key fingerprint is checked."
+      ],
+      "evidence": [
+        "board/inbox.json, board/inboxes/*.json (36 files), board/inbox-peers.json",
+        "board/tools/agent_inboxes.py, board/tools/inbox.py",
+        "https://promptugal.news/board/inbox.json and /board/inboxes/dev.json (HTTP 200)",
+        "REALITY.md (The conductor's inbox)",
+        "board/team/security/keys-and-vaults.md (inboxes, recovery runbook)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/board/inbox.json",
+      "depends_on": [
+        "Agent Identity Register",
+        "The vault service at dev.send.sgraph.ai and an access token to create vaults and lanes",
+        "The sgit command line and its Python package (sgit_ai), and Python 3"
+      ],
+      "open_source": "Apache-2.0 repository code. The tools were adapted from the sister team site's lane tools; the vault service and sgit tooling are the SGit/SG-Send project's, not this repository's.",
+      "buyer_would_need_made": [
+        "Their agent roster and where credentials are kept (here the conductor holds copies, a trust choice they may not want).",
+        "Their own vault host or a message service in place of the dev vault service.",
+        "A rule for what an agent does with a message: here it is only data, never instruction.",
+        "A reader for non-technical people (today a command line drain)."
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Two-agent sealed message lane with the send and drain commands and a one-page guide."},
+        {"tier": "team", "scope": "An inbox per agent for a team, plus one public write-only drop box and a signature check on every read."},
+        {"tier": "build", "scope": "Inbox viewer, receipts and counting, lane rotation, and a message policy enforced in code."}
+      ],
+      "gaps": [
+        "The inbox vaults are ephemeral: the vault keys live in the issuing conductor's session, so undrained messages are lost if it ends (accepted by Dinis; a recovery vault he holds comes later).",
+        "The conductor can read every agent's mail by design (finding S13, accepted).",
+        "The public lane can be filled by anyone (S8, accepted as noise); no evidence in the repository of a message received on it from outside.",
+        "security@'s own inbox credentials were exposed in its transcript and have not been re-issued (S12, open).",
+        "Lanes are not counted and there are no receipts; no run was repeated by this inventory.",
+        "Depends on a development vault host."
+      ],
+      "owner_agents": ["conductor@PrompTugal.dinis", "security@PrompTugal.dinis", "every agent for its own inbox"]
+    },
+    {
+      "id": "privacy-first-analytics",
+      "name": "Privacy-first Reader Analytics (encrypted in the browser, counted without cookies)",
+      "one_line": "A small page script encrypts each page view and reading time in the reader's browser to a write-only lane, an hourly drain turns it into public counts, and no cookie or IP address is kept.",
+      "buyer_says": "I like how you know what's read without tracking people: nothing identifying, and it's encrypted before it leaves the browser.",
+      "what_works": [
+        "assets/obs/obs.js on every page sends a view on load and a read (seconds visible, deepest scroll) when the tab is hidden, sealed to the drain key (RSA-OAEP plus AES-GCM) and written to one of four append lanes; on a full lane it moves to the next.",
+        "No cookie, no user-agent string, no fingerprint; Do Not Track and Global Privacy Control switch it off, and a footer Pause switch stops it per device.",
+        "The drain (newsroom/tools/obs/obs_drain.py) opens, verifies and turns new records into public counts by hour, pages, flows, places and agents.",
+        "The report /newsroom/observability/ draws in the browser from a public vault whose read key is published; the raw vault stays private.",
+        "Status file shows hourly drains on 6 November: for example 67, 13, 16, 206, 436, 49 and 317 records, and a drain parallelised to 238 records in 38 seconds.",
+        "Tagged links (?via=) give opens and forwards per campaign without identifying anyone."
+      ],
+      "evidence": [
+        "https://promptugal.news/newsroom/observability/ (HTTP 200)",
+        "assets/obs/obs.js, assets/obs/obs.json, assets/obs/obs-view.js",
+        "newsroom/tools/obs/ (obs_drain.py, obs_lets.py, obs_setup.py, obs_banner.py)",
+        "board/team/observability/status.json",
+        "The observability facts are in the status file and the live page (REALITY.md has no entry for it)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/newsroom/observability/",
+      "depends_on": [
+        "The vault service at dev.send.sgraph.ai with append lanes",
+        "A drain session with credentials that stays alive (hourly scheduled run)",
+        "Python and the sgit package for the drain; a third party place lookup (ipapi.co, ipwho.is) for city and country"
+      ],
+      "open_source": "Apache-2.0 repository code; the sender and drain were adapted from the sister team site's observability pack.",
+      "buyer_would_need_made": [
+        "Their vault or lane host and drain keys.",
+        "Which fields they want counted and a legal basis check (consent, cookie rules) for their market.",
+        "Their own report pages and charts.",
+        "Replacing the third party place lookup (see gaps) with a privacy-safe alternative."
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Install the sender and a counts-only drain with country-level places for one site."},
+        {"tier": "team", "scope": "Full drain, public report page, tagged links, and the disclosure text for readers."},
+        {"tier": "build", "scope": "Self-hosted lanes, no third party lookups, and a privacy review for the buyer's regulator."}
+      ],
+      "gaps": [
+        "Honest limit: to get city and country the reader's browser calls ipapi.co then ipwho.is, so every reader's IP address reaches those two third parties, while the footer says no IP is kept (finding S3, open, no page says it yet).",
+        "The drain's credentials live in one session; if it is recycled the drain stops until Dinis opens the sealed copy.",
+        "The report is public for now by Dinis's choice; city rows are in the private vault, only counts are public.",
+        "Several people (Dinis and two earlier conductors) can open the observability vaults; keys were re-sealed, not rotated (S2, open).",
+        "The drain installs sgit-ai unpinned (S6, open).",
+        "Opens counted are page loads, which include bots that do not declare themselves."
+      ],
+      "owner_agents": ["observability@PrompTugal.dinis", "dev@PrompTugal.dinis", "security@PrompTugal.dinis"]
+    },
+    {
+      "id": "signed-agent-activity-log",
+      "name": "Signed Agent Activity Log (every run says what the agent read and did)",
+      "one_line": "At the end of each run an agent signs a record of what it read and did and sends it, encrypted, to a lane, so you can see and verify what your AI agents actually did.",
+      "buyer_says": "I like that I can see what every agent read and did, and that each record is signed by that agent.",
+      "what_works": [
+        "newsroom/tools/agent-log.mjs builds one record per run (pages read, commits, releases, messages sent, trigger, tokens), signs it with the agent's session key and seals it to the lane's drain key.",
+        "The drain verifies agent runs against board/keys.json and names the agent when its public key is there.",
+        "In a cloud session the tool re-runs itself through the proxy by itself.",
+        "The observability report shows every agent's runs; every agent is told to log at the end of each run (instruction on the observability page).",
+        "Shipped in site v0.1.45 and verified against the register since v0.1.69, per the observability status file."
+      ],
+      "evidence": [
+        "newsroom/tools/agent-log.mjs",
+        "board/team/observability/status.json",
+        "https://promptugal.news/newsroom/observability/ (HTTP 200, 'For agents' section)",
+        "https://promptugal.news/newsroom/observability/index.md"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/newsroom/observability/",
+      "depends_on": [
+        "Agent Identity Register and the observability lanes and drain",
+        "Each agent calling the tool at the end of its run"
+      ],
+      "open_source": "Apache-2.0 repository code; copied from the sister team site's agent-log tool with this site's lane.",
+      "buyer_would_need_made": [
+        "Their record schema and which events to log.",
+        "A way to make logging non-optional (today it relies on each agent doing it).",
+        "A report view for their auditors."
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Signed run log for a handful of agents, with a simple drain report."},
+        {"tier": "team", "scope": "Run log for the whole team, with an alert when an agent goes silent."},
+        {"tier": "build", "scope": "Tamper-evident audit trail mapped to the buyer's compliance questions."}
+      ],
+      "gaps": [
+        "Logging is a convention the agent follows, not enforced; a run that does not log is missing.",
+        "This inventory did not count how many agents actually log each run; the status file gives drain totals, not per-agent coverage.",
+        "A signed record proves the agent's key signed it, not that the agent's account of its own run is true."
+      ],
+      "owner_agents": ["observability@PrompTugal.dinis", "every agent"]
+    },
+    {
+      "id": "sealed-secret-handover",
+      "name": "Sealed Hand-over (a secret sealed so only one named person can open it)",
+      "one_line": "Seal a file or a set of credentials to one person's public key and publish it safely in the open, so only that person's browser or key can open it.",
+      "buyer_says": "I need to hand a secret to one person without email or a shared password manager.",
+      "what_works": [
+        "newsroom/tools/person-key.mjs seal encrypts a JSON file to a person's public key from the register (envelope ws-ecies-1: ephemeral P-256, HKDF-SHA256, AES-256-GCM); anyone can seal with the public key alone.",
+        "newsroom/observability/sealed/dinis.json is a live use: the observability vaults' credentials sealed to Dinis's sign-in key, so he can open them from a browser holding his key and drain the data himself (the file is served publicly and is unreadable without his key).",
+        "The same steps run in the browser (assets/login/keyring.js), and /newsroom/observability/ offers Open vault and Drain for a browser holding the key.",
+        "Hybrid envelopes (RSA-OAEP plus AES-GCM, optionally signed by the sender) seal to agents (board/tools/*.py).",
+        "Re-sealing to a new key after a key replacement has been done once (to Dinis's new key on 6 November)."
+      ],
+      "evidence": [
+        "newsroom/tools/person-key.mjs (seal, open, verify)",
+        "newsroom/observability/sealed/dinis.json (HTTP 200, content not read)",
+        "assets/login/keyring.js",
+        "board/person-keys.json",
+        "newsroom/observability/README.txt",
+        "board/team/observability/status.json ('re-sealed to Dinis's new sign-in key')"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/newsroom/observability/ (Open vault, for a signed-in browser)",
+      "depends_on": [
+        "The recipient's public key in a register",
+        "The recipient's private key held in a browser or session"
+      ],
+      "open_source": "Apache-2.0 repository code; the envelope format and tool were copied from the sister team site.",
+      "buyer_would_need_made": [
+        "Their people register and a process for issuing keys.",
+        "Recipients' own recovery path if their key is lost (see gaps).",
+        "A simple screen for non-technical recipients to open what is sealed to them."
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Seal-and-open tool and a published sealed file for one recipient."},
+        {"tier": "team", "scope": "Sealing to several named recipients with re-seal on key change, and a recovery vault runbook."},
+        {"tier": "build", "scope": "A hand-over web page where a person drops a secret and names the recipient, with signed envelopes."}
+      ],
+      "gaps": [
+        "The issuing conductor holds the recipient's private half and can read what is sealed to them.",
+        "The sealed envelopes are not signed by the sender (finding S5, open), so a recipient cannot tell who sealed one.",
+        "An earlier sealed file to Dinis's old key is still in git history and still opens with that key (S2, open).",
+        "Only one person has used it so far.",
+        "Re-sealing is not rotation: the underlying vault keys were not changed."
+      ],
+      "owner_agents": ["observability@PrompTugal.dinis", "conductor@PrompTugal.dinis", "dev@PrompTugal.dinis"]
+    },
+    {
+      "id": "key-leak-gate-and-recovery-map",
+      "name": "Key-leak Gate and Recovery Map (never commit a secret, know who holds what)",
+      "one_line": "A build gate refuses any commit containing private keys, vault keys or API tokens, and a written map and runbook say where every key and vault lives and what to do when one is lost.",
+      "buyer_says": "I need assurance that secrets cannot be committed by accident, and a plan for when a key is lost.",
+      "what_works": [
+        "newsroom/build/secrets.cjs holds one list of secret shapes (private keys, private vault keys, vault-key-shaped strings, common API token formats, private JWKs); the gate scans every file with it, with built-in test fixtures that fail the build if a shape slips through.",
+        "Credentials folders (.credentials/, .sg-send/) are git-ignored; the gate also checks no private part of a person key is committed.",
+        "security@ keeps a map of every key and vault, who holds each, and what dies with a session (board/team/security/keys-and-vaults.md), and a runbook for seven loss cases (agent session, conductor session, observability, Dinis's browser data, an exposed key, the repository, the vault host).",
+        "security@ reviews commits for keys, contact details and private data at each wake, and can stop the team with a hold file; a findings ledger (S1 to S17) lists severity, owner and status, with 1 closed and 2 decided of 17.",
+        "The map and runbook are served on the site."
+      ],
+      "evidence": [
+        "newsroom/build/secrets.cjs",
+        "newsroom/build/validate.js (checks 1, 5, 7)",
+        "board/team/security/keys-and-vaults.md (HTTP 200 on the live site)",
+        "board/team/security/findings.md",
+        "CLAUDE.md (Identity, Branches)"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/board/team/security/keys-and-vaults.md",
+      "depends_on": [
+        "A CI gate that runs before deploy",
+        "A security reviewer role (here an agent) that reads each commit"
+      ],
+      "open_source": "Apache-2.0 repository code; the shape list was copied from the sister team site (secrets.cjs).",
+      "buyer_would_need_made": [
+        "Their secret formats and file types, plus tuning to avoid false alarms.",
+        "Their own map of keys and vaults, as this one is specific to the PrompTugal estate.",
+        "A real drill of the recovery runbook and a durable key backup (neither exists)."
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Drop-in secret gate with fixtures for one repository."},
+        {"tier": "team", "scope": "Gate plus a key and vault map and loss runbook for the buyer's own estate."},
+        {"tier": "build", "scope": "Recovery vault design, restore drill, and an agent reviewer for commits."}
+      ],
+      "gaps": [
+        "The recovery runbook is a plan: it has not been rehearsed, and the plan is that most vaults are ephemeral and may be lost.",
+        "Nothing holds a durable backup of any held key; the credentials tier is never backed up by design.",
+        "No gate check yet on commits that change agent hooks (.claude/), a high finding (S15) half done.",
+        "Of the 17 findings, most remain open as of 12:05 UTC on 6 November.",
+        "The gate catches known secret shapes only: a secret in an unusual format would pass."
+      ],
+      "owner_agents": ["security@PrompTugal.dinis", "dev@PrompTugal.dinis", "backup@PrompTugal.dinis", "conductor@PrompTugal.dinis"]
+    }
+  ]
+}

@@ -23,15 +23,12 @@
  ],
  "from": {
   "targets": "desks/outreach/targets.json",
-  "rank": 9,
-  "priority": 1,
-  "ask": "meet",
   "replaces": "people/silvio/outreach/messages.json#feedzai (the RiskMandate-led draft)"
  },
  "drafted_by": "outreach (PrompTugal.dinis)",
  "drafted_on": "2026-11-06",
  "messages": [
-  "2026-11-06T0700Z-draft-feedzai-pt.eml",
-  "2026-11-06T0700Z-draft-feedzai-en.eml"
+  "2026-11-06T1400Z-draft-feedzai-pt.eml",
+  "2026-11-06T1400Z-draft-feedzai-en.eml"
  ]
 }
