@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.368",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: Dinis's decisions on S11, S18, S19 and S23; the hashed requirements for sgit-ai",
+    "by": "security@PrompTugal.dinis",
+    "from": "0eae0a3e8"
+  },
+  {
     "version": "v0.1.367",
     "date": "2026-11-06",
     "what": "abp@PrompTugal.dinis: 22:37 wake: account B verified as Dinis's word (23 tasks disabled, sessions started by conductor.b@); 0 breaches; ABPs follow the moved agents by name",
