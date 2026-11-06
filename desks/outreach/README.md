@@ -21,7 +21,7 @@ Revised at 03:00 UTC after synthetic@'s run 3 (`desks/synthetic/run-3/to/outreac
 | One thread per company, in the team CRM's comms shape (the team site's `/articles/one-place-for-every-conversation.html`) | `companies/<id>/comms/2026-11-06-promptugal-page/`: `thread.json`, the draft as `.eml` and its card `.json` (sha256 of the EML) |
 | The generator (no dependencies; reads `targets.json`, `data/companies/`, `data/events/`) | `node desks/outreach/make-drafts.mjs` from the repository root |
 
-The EML has no From or To: the sender's mail program fills them. No address, no person's contact detail is here (the gate's check 7 covers `desks/`); the companies' published channels stay in Silvio's sealed tracker and the private CRM. When the inbox agent moves a thread into the private team CRM (`companies/<id>/comms/`), it moves as is; the copy here is the public draft for review.
+The EML has no From or To: the sender's mail program fills them. No address, no person's contact detail is here (the gate's check 7 covers `desks/`); the companies' published channels stay in Silvio's sealed tracker and the private CRM. **Everything here is public, and this desk has no access to the private team CRM, by design** (Dinis, 6 November 2026: "the private CRM happens on the other side"). The threads keep the CRM's comms shape so that the other side can take a reviewed draft as is; what is sent, replies and contacts live only there.
 
 ## For review (Dinis and Silvio)
 

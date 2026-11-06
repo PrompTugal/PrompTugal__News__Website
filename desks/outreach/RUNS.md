@@ -2,6 +2,18 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 03:30 UTC: at Dinis's word, no private CRM here; the SEO pass
+
+**Done**
+
+- Dinis (6 November 2026): this desk works in public and has no access to the private CRM, which happens on the other side. The CRM's key is no longer a block; README says so.
+- At Dinis's word, a pass on search and link previews for the whole site (`newsroom/build/lib/seo.mjs`, recorded in `REALITY.md`): Open Graph and Twitter/X cards with an image on every page (the site's card, or an article's own `image:`, where its infographic will go), JSON-LD (NewsArticle, the organisation and site search, breadcrumbs), `sitemap.xml` with `lastmod`, a Google News sitemap, an RSS feed, `noindex` for the sign-in page and the 404. Search Console is in `REALITY.md`. This touched dev@'s files (the shell, the build, one line of the gate's check 5), at Dinis's word to this session; dev@ owns them from here.
+
+**Blocks**
+
+1. Who sends from which address (Dinis).
+2. What the email may promise beyond the disclosure (Dinis).
+
 ## 2026-11-06, about 02:40 UTC: the drafts follow the first flows and articles; the disclosure in its own words
 
 **Done**
