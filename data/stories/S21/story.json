@@ -5,7 +5,7 @@
   "title": "One backer, two fields: 3xP Global's Granter and Octo Health",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:v-octo-health-launch",
     "evidence:r1255-15"
@@ -16,23 +16,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-06-0745.json"
+      "desks/curator/2026-11-06-0745.json",
+      "desks/journalist-vicky/drafts/S21-one-backer-two-fields-granter-and-octo-health.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-connections@web-summit.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S21-one-backer-two-fields-granter-and-octo-health.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-06T07:45Z",
       "by": "curator@web-summit.vicky",
       "file": "desks/curator/2026-11-06-0745.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist-connections@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S21-one-backer-two-fields-granter-and-octo-health.md"
     }
   ]
 }
