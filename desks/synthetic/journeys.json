@@ -1,0 +1,83 @@
+{
+ "about": "synthetic@PrompTugal.dinis's journeys from run 5 (6 November 2026, at Dinis Cruz's word: fewer personas, the first homepage experience, one story each, and how a story is made: its sources, its signature, what it does not claim). Each journey lists the pages a persona may read; desks/synthetic/tools/changes.mjs decides whether anything changed enough to read them again. 'story' pages are the articles a persona can pick from the front page; after each run the one it picked is listed first.",
+ "thresholds": {
+  "page": 0.2,
+  "top": 0.1,
+  "new_articles": 1
+ },
+ "journeys": [
+  {
+   "id": "curious",
+   "persona": "Ana Costa (SYNTHETIC): 58, runs a family pharmacy in Porto, reads the news on her phone, interested in technology and what is going on, has never heard the word 'prompt' used about AI; arrives from a link a friend sent on WhatsApp",
+   "pages": [
+    "",
+    "about/",
+    "articles/brazil-startup-mission.html",
+    "articles/europe-in-pavilion-4.html",
+    "articles/following-robotics-at-web-summit.html",
+    "articles/gender-in-tech-report-2026.html",
+    "articles/lisbon-universities-at-web-summit.html",
+    "articles/newsroom-status-four-days-out.html",
+    "articles/road-2-web-summit-2026.html",
+    "articles/tuesday-10-november-three-ways-in.html",
+    "articles/web-summit-2026-in-numbers.html",
+    "articles/your-first-day-at-web-summit.html"
+   ]
+  },
+  {
+   "id": "student",
+   "persona": "Miguel Sousa (SYNTHETIC): 22, computer science student in Lisbon, uses AI tools every day, going to Web Summit as a volunteer; arrives from a search for Web Summit 2026",
+   "pages": [
+    "",
+    "about/",
+    "articles/brazil-startup-mission.html",
+    "articles/europe-in-pavilion-4.html",
+    "articles/following-robotics-at-web-summit.html",
+    "articles/gender-in-tech-report-2026.html",
+    "articles/lisbon-universities-at-web-summit.html",
+    "articles/newsroom-status-four-days-out.html",
+    "articles/road-2-web-summit-2026.html",
+    "articles/tuesday-10-november-three-ways-in.html",
+    "articles/web-summit-2026-in-numbers.html",
+    "articles/your-first-day-at-web-summit.html"
+   ]
+  },
+  {
+   "id": "risk",
+   "persona": "Helena Marques (SYNTHETIC): 47, head of compliance at a Portuguese insurer, knows the AI Act, distrusts AI-written content, cares where every claim comes from; arrives from LinkedIn",
+   "pages": [
+    "",
+    "about/",
+    "about/participant.html",
+    "articles/brazil-startup-mission.html",
+    "articles/europe-in-pavilion-4.html",
+    "articles/following-robotics-at-web-summit.html",
+    "articles/gender-in-tech-report-2026.html",
+    "articles/lisbon-universities-at-web-summit.html",
+    "articles/newsroom-status-four-days-out.html",
+    "articles/road-2-web-summit-2026.html",
+    "articles/tuesday-10-november-three-ways-in.html",
+    "articles/web-summit-2026-in-numbers.html",
+    "articles/your-first-day-at-web-summit.html"
+   ]
+  },
+  {
+   "id": "reporter",
+   "persona": "Tom Hartley (SYNTHETIC): 36, technology reporter at a London weekly covering Web Summit, wants something he can cite and check; arrives from a colleague's link to the front page",
+   "pages": [
+    "",
+    "about/",
+    "articles/brazil-startup-mission.html",
+    "articles/europe-in-pavilion-4.html",
+    "articles/following-robotics-at-web-summit.html",
+    "articles/gender-in-tech-report-2026.html",
+    "articles/lisbon-universities-at-web-summit.html",
+    "articles/newsroom-status-four-days-out.html",
+    "articles/road-2-web-summit-2026.html",
+    "articles/tuesday-10-november-three-ways-in.html",
+    "articles/web-summit-2026-in-numbers.html",
+    "articles/your-first-day-at-web-summit.html"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "checked": "2026-11-06T03:31Z",
+ "base": "https://promptugal.news/",
+ "thresholds": {
+  "page": 0.2,
+  "top": 0.1,
+  "new_articles": 1
+ },
+ "pages": {
+  "": {
+   "sha256": "5f9090d021014829",
+   "chars": 13444,
+   "C": 0,
+   "first_seen": false,
+   "T": 0,
+   "N": 0
+  },
+  "about/": {
+   "sha256": "70d46a64042ca82b",
+   "chars": 6990,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/brazil-startup-mission.html": {
+   "sha256": "13cbada1565afa0d",
+   "chars": 7734,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/europe-in-pavilion-4.html": {
+   "sha256": "77f120f93de9e73a",
+   "chars": 7568,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/following-robotics-at-web-summit.html": {
+   "sha256": "1fc9bb818e950ce0",
+   "chars": 6619,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/gender-in-tech-report-2026.html": {
+   "sha256": "559ff9a541db4d4e",
+   "chars": 5483,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/lisbon-universities-at-web-summit.html": {
+   "sha256": "1bf8070afcf9376f",
+   "chars": 7257,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/newsroom-status-four-days-out.html": {
+   "sha256": "f87b47c003c36c12",
+   "chars": 9436,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/road-2-web-summit-2026.html": {
+   "sha256": "81349ce6a1ad645f",
+   "chars": 6555,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/tuesday-10-november-three-ways-in.html": {
+   "sha256": "ddd9dd159690784e",
+   "chars": 8822,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/web-summit-2026-in-numbers.html": {
+   "sha256": "1ca73bf602fbb0f2",
+   "chars": 7181,
+   "C": 0,
+   "first_seen": false
+  },
+  "articles/your-first-day-at-web-summit.html": {
+   "sha256": "05fa15c492a7bf85",
+   "chars": 8522,
+   "C": 0,
+   "first_seen": false
+  },
+  "about/participant.html": {
+   "sha256": "01fe71ea2156c058",
+   "chars": 2979,
+   "C": 0,
+   "first_seen": false
+  }
+ },
+ "journeys": {
+  "curious": {
+   "run": false,
+   "why": []
+  },
+  "student": {
+   "run": false,
+   "why": []
+  },
+  "risk": {
+   "run": false,
+   "why": []
+  },
+  "reporter": {
+   "run": false,
+   "why": []
+  }
+ }
+}
