@@ -1,7 +1,8 @@
 /* The Algarve Evolution page: hero, tiles, left map, collapsible sections. Scoped to .ae. */
 .ae { max-width: 1180px; margin: 0 auto; }
-.ae.js ~ .toc, .ae.js .toc { display: none; }
+body:has(.ae.js) .toc { display: none; }
 .ae-hero { padding: 8px 0 20px; border-bottom: 2px solid var(--ink); margin-bottom: 20px; }
+.ae-hero > p { max-width: 46em; font: 400 16.5px/1.55 var(--sans); margin: 0 0 12px; }
 .ae-hero > p:first-child { font: 500 clamp(21px, 3vw, 30px)/1.3 var(--serif); max-width: 36em; margin: 4px 0 14px; }
 .ae-hero ul.ae-tiles { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--hair); }
 .ae-hero ul.ae-tiles > li { margin: 0; padding: 12px 12px 12px 0; border-bottom: 1px solid var(--hair); font: 600 12px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .06em; }

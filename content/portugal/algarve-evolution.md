@@ -4,7 +4,9 @@ summary: The Faro-based association building the Algarve's innovation ecosystem 
 ---
 ::: ae
 ::: ae-hero
-**Diversify the Algarve's economy beyond tourism: help 500 companies, create 150 startups and reach 50,000 people by 2032.** That is the mandate of Algarve Evolution, the Faro-based association that has connected the region's entrepreneurs, talent, startups, SMEs and partners since 2018. This page gathers, in one place, who they are, what they run, who they work with and how they have met the world around Web Summit. Every fact has its public source and the date we read it (6 November 2026); figures marked self-reported are theirs, as reported, and we have not verified them. This page is meant to be corrected and added to by the people it is about: see the last section.
+**Diversify the Algarve's economy beyond tourism: help 500 companies, create 150 startups and reach 50,000 people by 2032.**
+
+That is the mandate of Algarve Evolution, the Faro-based association that has connected the region's entrepreneurs, talent, startups, SMEs and partners since 2018. This page gathers, in one place, who they are, what they run, who they work with and how they have met the world around Web Summit. Every fact has its public source and the date we read it (6 November 2026); figures marked self-reported are theirs, as reported, and we have not verified them. This page is meant to be corrected and added to by the people it is about: see the last section.
 
 {.ae-tiles}
 - **2018** began *a small group of local entrepreneurs*
