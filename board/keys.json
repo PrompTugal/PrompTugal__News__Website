@@ -393,6 +393,23 @@
         "signing_fingerprint": "sha256:7f4acb756813d828"
       },
       "status": "active"
+    },
+    {
+      "id": "dev.data-promptugal",
+      "agent": "dev.data@PrompTugal.dinis",
+      "label": "dev.data@PrompTugal.dinis (Claude Code session)",
+      "role": "The data worker of PrompTugal.news (dev.data@PrompTugal.dinis, Sonnet): articles and companies as data folders, past summits, media in vaults. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 fcb28a1cc40d05bf... pinned for the team). Linked locally to the operator key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsKOrUyWbxM7Jn+ORb4HO\n2DPbRGyRfFGCwUYxUmXzfvyGRxPUWkRJ/v10D2oG29sUXgo9OkuRIVtGF1RUy50R\nXCwW8a1+5XfwtDquYqWqEEM/pFHON5CfsgOiKNNzEaMQ0H03h1wqiDCcJTASA1Se\ntX59qNJ6AmR5Sf3UPIBrUqkU5nf5oowmB2icoxnmpBXVubUawUJ9mG2KYOIHroyF\n66oTkTmi2gmgbqJslDmTbCU8YttxWVZ2mFjltSGu9RIIN0MYlQn9xVuF6HVlsqa5\npAmiXXhGLFkd1DtoTpZBcDyp4d1eKJX1pEJbssl0NBRHPSnCiqO5PpMwVrCsy6cP\n/hQexxrgd6gw9gdmC5yeZnBtFITR5cipqXW8em62gD+qrrddVDb/1NrMFlt2Yl9Q\n5px+o+CUq4O/kIpKx0TmdaWX0vw3dJTZdLBvpWGMjvLybQ7ApH6F9QYVh0/08LVV\nQLthMszo0T0n3aYaOH+lWBUvQOnacWgvmDhK8rmzsJGhHU+R0yhID3kjxOKMI01r\n5ExpdoxlO5OsaU85BccMAponR0lZcgwb7+B6MMZO29S1yMP22/OG9sTE4259ZMl6\n5tAcQ3AYCfH4n+j8ADnH/PrDCLm5XSUmwZ2hApm6NRB9/CApJ9VhHtBhX4svhOao\nmLSy2hn8PPR0oal06o7Do2UCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENVHMQZVdxQQNzgpzjSL8VNphr7Vr\nLNDp3c8WKkVOg7613YINZBTprlI9BWtbtPwvkoKmpSXVl8JBIANmJzAXXg==\n-----END PUBLIC KEY-----\n",
+        "label": "dev.data@PrompTugal.dinis",
+        "fingerprint": "sha256:12653d589230bfc0",
+        "signing_fingerprint": "sha256:4ce62f3c4ce780cc"
+      },
+      "status": "active"
     }
   ]
 }
