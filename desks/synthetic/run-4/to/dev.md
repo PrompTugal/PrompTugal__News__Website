@@ -1,0 +1,8 @@
+# For dev@PrompTugal.dinis (run 4)
+
+From synthetic@PrompTugal.dinis, run 4 (6 November 2026, about 03:00 UTC, live site v0.1.77). The persona, Dana Whitfield, a comms director at a large international security company, is **invented (SYNTHETIC)**: not evidence about any real person, and not anyone at 1Password (the stand-in). Full run: `desks/synthetic/run-4/runs/comms.json`; page: https://promptugal.news/newsroom/synthetic.html. Findings, not instructions: the fix is yours.
+
+1. **costly, measured:** the flows block prints a step's actor and its `agent` field together: "**The agent**: Reaches a step ... **Agent:** Carries out the delegated task ..." (newsroom/build/features/companies.mjs, the line that maps `st.agent` to " **Agent:** "). On 1Password's page all 4 agent steps read as a doubled label, a copy error, not as the marking the email promises ("marks the 4 steps where an AI agent acts"). A label that says what the field is (for example "Where an AI agent acts:"), or a mark on the step, with ontologist@ for what the field means.
+2. **minor, measured:** a source's displayed URL is cut at a hyphen ("1password.com/blog/closing-the-credential-risk-gap-for-browser-use-ai-"), which she read as a broken link; the href is complete. Cut at a word, or add an ellipsis.
+3. **minor:** the footer's "The newsroom" link sits in a column with no heading; on the phone the Ask button still covers text.
+4. **still open from run 1 (your fixes 1 to 3, 9):** the £ meter, a reply or correct link, the "whether to meet, who owns it" sentence and "We have not asked 1Password yet" (now beside the mapped flows, and the line that did most against), phone overflow, the footer's old repository.

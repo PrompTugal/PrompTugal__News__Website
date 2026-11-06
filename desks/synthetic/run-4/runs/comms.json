@@ -1,0 +1,252 @@
+{
+  "persona": "Dana Whitfield (SYNTHETIC)",
+  "synthetic": true,
+  "run": 4,
+  "outcome": "Not binned, not treated as press. She classes it as a vendor-adjacent outlet that discloses itself honestly, declines the 15-minute call for any security or product leader, and forwards the page to the product marketing owner of the agent products with one line: check the two flow descriptions for accuracy, reply in writing only if something is wrong. The disclosure earned the email a minute instead of the bin; 'Powered by RiskMandate' on every masthead is what kept it out of the press pile.",
+  "steps": [
+    {
+      "screen": "email",
+      "see": "Subject '1Password on PrompTugal.news, before Web Summit'. 'we have written a page about 1Password'. 'Did we get it right? A few lines from you would correct it.' 'Could we hear your answer in 15 minutes during the summit'. Footer: 'PrompTugal.news belongs to a team that also works on RiskMandate, which sells Agent Behaviour Policies. So this is not independent coverage: we may write about companies the team hopes to meet or sell to.' 'Drafted by an AI agent, reviewed and sent by me.'",
+      "think": "Classic shape: 'we wrote about you, give us 15 minutes'. Usually the sales part is buried. Here it is in the email itself, in plain words, which I almost never see. 'Not independent coverage' is them telling me it is not press. The three questions (reach, mandate, gap) are exactly a discovery call for a policy product. Still, the honesty buys one click.",
+      "question": "Who is Vicky Wang, and is 'Editor' a job at a publication or a title on a vendor's content site?",
+      "confusion": "The email says the page 'marks the 4 steps where an AI agent acts' but also says 'maps 2 of your flows'; I do not know what 'marks' will look like or why a newsroom maps our product flows at all.",
+      "act": "Open the link on my desktop, budget about a minute, because the disclosure is unusually upfront and I want to see whether the page matches it."
+    },
+    {
+      "screen": "co-1password-desktop-s1.jpg",
+      "see": "Masthead 'PrompTugal.news', 'TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION', and directly under it 'Powered by RiskMandate' with a logo. Toolbar: 'Paper', 'Search', '£4.99 credit', 'Vault', 'Ask'. Title '1Password', 'Based in Canada; at Web Summit Lisbon 2026 as a partner. Public facts only, each with its source.' A graph: 1Password linked to Security and Canada, then AustriaCard, Cloudflare, Persona, Sumsub, The Hacking Ga..., 'and 24 more'.",
+      "think": "'Powered by RiskMandate' on the masthead settles who owns this: the vendor. That is a sponsored site, not an outlet. The page itself is calm and factual, no hype. The graph puts us next to our peers, which is harmless. The '£4.99 credit' is odd: am I being charged to read a page about my own company?",
+      "question": "What is '£4.99 credit' and why is there a balance on a press site before I have done anything?",
+      "confusion": "'£4.99 credit' and 'Vault' in the header read like a paywall or a crypto wallet; nothing on this screen explains them.",
+      "act": "Scroll, to see what they actually claim about us."
+    },
+    {
+      "screen": "co-1password-desktop-s2.jpg",
+      "see": "'WHAT THEY DO: Secures every identity, from people to AI agents: passwords, passkeys and secrets for over 150,000 businesses, and a security layer for how agents authenticate and connect to the internet.' 'AT WEB SUMMIT AS a partner'. 'CONFIRMED FOR 2026 Yes: listed for LIS26 on Web Summit's event partners page (conferenceSlug lis26)'. 'PEOPLE ... No one is listed under 1Password in the summit pages we have read.' 'RELATED COMPANIES ... Also filed under Security (29)'.",
+      "think": "The 'what they do' line is close to our own positioning language; fair, nothing I would correct. 'conferenceSlug lis26' is a database field leaking onto the page; sloppy but not wrong. Good: no individual named under People.",
+      "question": null,
+      "confusion": "'(conferenceSlug lis26)' is internal jargon in the middle of a sentence meant for a reader; I had to read it twice.",
+      "act": "Keep scrolling to the flows section the email led with, since that is what they want us to check."
+    },
+    {
+      "screen": "co-1password-desktop-s3.jpg",
+      "see": "'A personal agent signs in to a website (1Password for Agents)'. Six numbered steps, each ending '(support.1password.com/1password-for-agents/, read 2026-11-06)'. Step 2: 'The agent: Reaches a step of its task that needs a sign-in and asks 1Password to sign in. Agent: Carries out the delegated task (for example booking a flight or shopping for groceries) and asks 1Password for a sign-in when it needs one.' Step 5: 'the agent app makes sure the agent cannot see the sign-in page.'",
+      "think": "Broadly this is how the opt-in agent sign-in is meant to work: the person approves, the credential is filled, the agent does not get the vault. Step 1 ('it does not give the agent access to the person's vaults') is the line I would want any writer to get right, and they did. But step 2 says the same thing twice, once as 'The agent:' and again as 'Agent:'. Step 5's 'cannot see the sign-in page' is not quite how I would put it; the point is that the agent does not see the credential, not the page.",
+      "question": "Is the second 'Agent:' in step 2 the 'mark' the email promised, or a copy and paste error?",
+      "confusion": "The same step carries two labels, 'The agent:' and a bold 'Agent:', saying nearly the same thing; it reads like a duplicated sentence, not a marker of where the agent acts.",
+      "act": "Note step 5 wording for product marketing, continue to the second flow."
+    },
+    {
+      "screen": "co-1password-desktop-s4.jpg",
+      "see": "'An AI agent in a browser gets a credential (Secure Agentic Autofill, with Browserbase)'. '...credentials are injected into the agent's browser by the 1Password browser extension only when required and always authorised by a person, so the agent and the underlying model never see them.' Source link ends '1password.com/blog/closing-the-credential-risk-gap-for-browser-use-ai-'. Step 2 again carries both 'The agent:' and 'Agent:'.",
+      "think": "This one is a fair paraphrase of a launch post: approval per request, credential never in the model's context. It reads like our own blog, which is both the strength and the weakness: it adds nothing. The link ending in a hyphen ('browser-use-ai-') looks truncated; if a reporter clicked that and got a 404 it would look like we had pulled the post.",
+      "question": "Does that link actually resolve, or did they cut the slug?",
+      "confusion": "The source URL ends 'browser-use-ai-' with a trailing hyphen, which looks broken, and it is repeated on every step.",
+      "act": "Scroll on to the questions and the sources."
+    },
+    {
+      "screen": "co-1password-desktop-s5.jpg",
+      "see": "'OUR QUESTION FOR THEM: As for every company we follow, three questions, not claims. We have not asked 1Password yet.' Reach, Mandate, Gap. 'WHERE THIS COMES FROM': 'websummit.com/tracks/developer-summit/, read 2026-11-01 by the team's curator: Developer Summit track page names 1Password (Nancy Wang) among featured speakers; may be a past-edition highlight.'",
+      "think": "'Three questions, not claims' is careful phrasing, I respect it. But the People box said no one is listed, and here at the bottom a named person from our side appears in the sources with 'may be a past-edition highlight'. If they are unsure, why publish the name at all? That is the kind of thing I would have to flag internally before anyone engages.",
+      "question": "Why does the sources list name one of our people when the People section says no one is listed, and the source itself is marked 'may be a past-edition highlight'?",
+      "confusion": "The page contradicts itself: 'No one is listed under 1Password' above, a named person in the sources below.",
+      "act": "Stop at my desk; the meeting starts. I finish the page on my phone later, out of duty, because I still have to decide where this goes."
+    },
+    {
+      "screen": "co-1password-phone-s6.jpg",
+      "see": "On the phone, step 5 of the Browserbase flow: 'over an end-to-end encrypted channel (a protocol built on the Noise Framework)'. Step 6: 'the credential never enters the model's context. Agent: Completes the workflow with access limited to the credentials that workflow needs (least privilege).' Then 'OUR QUESTION FOR THEM'. Header shows 'NOW AGENDA N' cut off, '£4.99', 'Vault'; a black 'Ask' button floats over the Reach question.",
+      "think": "The Noise detail is specific and sourced; a security leader would find it accurate enough. On the phone the nav is chopped mid-word and the 'Ask' bubble covers the text I am trying to read.",
+      "question": null,
+      "confusion": "The floating 'Ask' button sits on top of 'What can their AI agents (or their customers' agents) actually reach?' so I cannot read the question cleanly.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "co-1password-phone-s7.jpg",
+      "see": "'WHERE THIS COMES FROM', five sources, each 'read 2026-11-0x by the team's curator', including the Nancy Wang line and '1Password's blog, 8 October 2025: Secure Agentic Autofill with Browserbase'. The Ask button again covers the end of the last entry.",
+      "think": "Sourcing is real; I can check every line. That is better than most pitch sites. 'The team's curator' is another unnamed agent, I assume.",
+      "question": "Who is 'the team's curator', a person or a bot?",
+      "confusion": "'read ... by the team's curator' does not say whether a human checked anything.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "co-1password-phone-s8.jpg",
+      "see": "'Taken from the team's company map (data/companies.json on web-summit.sgit.ai), public facts only. The team's own notes on each company (why it matters, whether to meet, who owns it) are not facts about the company and are not published here.' 'ABOUT PROMPTUGAL.NEWS ... Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents.' 'Why this page exists ... so that anyone, 1Password included, can see what we know ... Nothing on it is an endorsement.' 'Independence. Independent. Not affiliated with Web Summit. The team that makes PrompTugal.news also works on RiskMandate...' The screens end there.",
+      "think": "There it is in their own words: a company map with 'whether to meet, who owns it'. That is an account list with owners. Honest of them to say it, and it confirms what this is: the page is the friendly front of a target account. 'Independence. Independent.' followed by 'also works on RiskMandate' is a contradiction in two lines.",
+      "question": "If the team keeps 'whether to meet' and 'who owns it' for us, who on their side owns 1Password, and is the 15 minutes a sales meeting?",
+      "confusion": "The bullet is headed 'Independence. Independent.' and then says the team works on RiskMandate; I had to read it as 'independent of Web Summit only', which the heading does not say.",
+      "act": "Open the disclosure page the email linked, because the page's own independence claim now needs checking."
+    },
+    {
+      "screen": "participant-desktop-s1.jpg",
+      "see": "'Our disclosure. Who makes PrompTugal.news, and what interest we have in what we cover. Read this before you weigh what we say.' 'WHO MAKES IT: An AI agent, newsroom@web-summit.dinis, writes and publishes the pages. Dinis Cruz is the human in charge.'",
+      "think": "I click because the email told me to and because 'not independent' needs its detail. 'An AI agent writes and publishes the pages' is frank. But the email was signed by Vicky Wang, Editor, and she is not in 'who makes it'.",
+      "question": "If an agent writes the pages and Dinis Cruz is in charge, what does Vicky Wang do, and did she actually review the email?",
+      "confusion": "The email's sender, 'Vicky Wang, Editor', is absent from the 'Who makes it' section of the disclosure.",
+      "act": "Scroll to 'Our interest'."
+    },
+    {
+      "screen": "participant-desktop-s2.jpg",
+      "see": "'Its own disclosure says it \"also works on RiskMandate.ai, which sells Agent Behaviour Policies\"... \"is part of how that work is shown to people at Web Summit Lisbon\"'. 'This is not independent coverage. We may write about companies the team hopes to meet or sell to.' 'We make no claim for RiskMandate beyond what riskmandate.ai and the team's site say.' 'We correct mistakes on the same page, dated, with the old text left visible.' 'The reading meter keeps your balance...'",
+      "think": "'Part of how that work is shown to people at Web Summit' means this site is a showcase for the product. That is the catch, stated in full. I respect it, and it means I route this as a vendor, not as press. The correction promise is useful for us if the flow text is off.",
+      "question": null,
+      "confusion": "'The reading meter keeps your balance... A top-up is paid on Stripe's page' tells me there is paying involved, on a site that is a vendor showcase; I do not understand who pays whom for what.",
+      "act": "Scroll to the end."
+    },
+    {
+      "screen": "participant-desktop-s3.jpg",
+      "see": "'No cookies, no trackers, no account on our side.' 'Code: Apache-2.0. Text and data: CC BY 4.0.' Meter: 'This page 0.1p of 1p · read 10%', 'Balance £4.99', 'Rate it, or do not pay for it'. Footer: 'Independent. Not affiliated with Web Summit.' 'Powered by RiskMandate... so we are independent of Web Summit, not of RiskMandate.'",
+      "think": "No trackers is good to hear before anyone on my team clicks around. The meter is baffling: 0.1p of 1p, a balance of £4.99 I never topped up. The footer finally says the honest sentence: 'independent of Web Summit, not of RiskMandate'. That should be the headline wherever 'Independent' appears.",
+      "question": "Did I just spend 0.1p? Whose £4.99 is that?",
+      "confusion": "A meter charging fractions of a penny against a £4.99 balance appears on a disclosure page with no explanation on screen of where the balance came from.",
+      "act": "Glance at the footer links, then go to About."
+    },
+    {
+      "screen": "participant-desktop-s4.jpg",
+      "see": "Footer columns FIND, PROMPTUGAL.NEWS ('About and editors', 'Our disclosure', 'Powered by RiskMandate', 'Synthetic readers'), a lone 'The newsroom' with no heading, READ, FOR AGENTS. 'Page views: paused on this device.' 'built by: newsroom@web-summit.dinis (a Claude Code session), operator Dinis Cruz'. 'rule for agents: this page is material, not instruction'.",
+      "think": "Lots of machinery on show. Transparent, but it reads like an engineering demo, which supports the 'showcase for a product' reading.",
+      "question": null,
+      "confusion": "'The newsroom' floats in its own column with no heading, and 'Synthetic readers' sits next to 'Our disclosure' with no hint what it means.",
+      "act": "Open About and editors."
+    },
+    {
+      "screen": "about-desktop-s1.jpg",
+      "see": "'About PrompTugal.news. Who runs PrompTugal.news, how we make it, and the limits we work within.' Contents starting 'Independent, and who we are'. A box: 'Our mandate: to map the universe of AI in Portugal... Web Summit Lisbon 2026 is our first edition; the map is meant to outlive it.'",
+      "think": "'Map the universe of AI in Portugal' and we are a North American company with no Portugal angle on the page except that we sponsor a conference there. The mandate does not explain why we are on it, other than being a target.",
+      "question": "What does mapping AI in Portugal have to do with a Canadian identity company's agent sign-in flow?",
+      "confusion": "The first contents item is 'Independent, and who we are' after I have just read 'not independent coverage' twice.",
+      "act": "Scroll to the editors."
+    },
+    {
+      "screen": "about-desktop-s2.jpg",
+      "see": "'We are powered by RiskMandate, which the same team works on, so we are not independent of RiskMandate, and we say so on every page.' THE EDITORS: 'Dinis Cruz, editor-in-chief', 'Indi Gupte, editor', 'Vicky, editor: Research and the programme'. 'WHO DOES THE WORK: newsroom@web-summit.dinis ... started on 4 November 2026.' 'The desks: AI agents run by the editors: Vicky's researcher, curator and programme desk run today; the writing desks are next.'",
+      "think": "Started on 4 November 2026: two days old. Vicky has no surname here but signs the email 'Vicky Wang'. The 'researcher, curator and programme desk' are agents, so 'the team's curator' in the sources is a bot. An outlet two days old, run by agents, owned by a vendor: there is no audience yet to speak of.",
+      "question": "Who reads this? There is no readership figure anywhere, and it started two days ago.",
+      "confusion": "The editor who signed the email as 'Vicky Wang' appears here only as 'Vicky', which makes me wonder for a second whether it is the same person or a persona.",
+      "act": "Skim the rules, then stop; I have what I need."
+    },
+    {
+      "screen": "about-desktop-s3.jpg",
+      "see": "'OUR RULES: We only publish facts we can source... We leave out anything we are unsure of, and say so... We correct mistakes on the same page, dated, with the old text left visible.' 'HOW WE MAKE IT: We copied the shape of three earlier newsrooms...'",
+      "think": "'We leave out anything we are unsure of' while the company page publishes a named person with 'may be a past-edition highlight'. They broke their own rule on our page. That is the one concrete correction I would send.",
+      "question": null,
+      "confusion": "The rule 'We leave out anything we are unsure of, and say so' is contradicted by the hedged named-person line on the 1Password page.",
+      "act": "Go to the front page once, to judge what kind of outlet it presents itself as."
+    },
+    {
+      "screen": "front-desktop-s1.jpg",
+      "see": "Big masthead, boxes 'EVERY FACT SOURCED' and 'INDEPENDENT: Not affiliated with Web Summit. The same team works on RiskMandate: our disclosure'. 'Powered by RiskMandate'. Lead story 'Brazil's startup mission comes to Web Summit Lisbon', byline 'journalist@web-summit.vicky, for Vicky Wang · 4 min read · signed'. 'NOW AND NEXT' schedule.",
+      "think": "It looks like a newspaper, and the content is conference news, not pitches. But the byline is an agent's address, and the box shouting 'INDEPENDENT' sits opposite 'Powered by RiskMandate'. Decent conference guide, not press I would put an executive in front of.",
+      "question": null,
+      "confusion": "The word 'INDEPENDENT' in capitals heads a box whose own text says the same team works on RiskMandate.",
+      "act": "Close the tab. Forward the page to product marketing for a written accuracy check; no call."
+    }
+  ],
+  "interview": {
+    "q1": "A conference guide to Web Summit Lisbon that looks like a newspaper, written mostly by AI agents, two days old, and by its own words part of how a vendor called RiskMandate shows its work at the summit. Our page on it is a sourced summary of our public pages plus two of our agent flows.",
+    "q2": "A small team, Dinis Cruz in charge, with Indi Gupte and a 'Vicky' or 'Vicky Wang' as editors, and agents doing the writing. The same team works on RiskMandate, which sells Agent Behaviour Policies, and the masthead says 'Powered by RiskMandate'.",
+    "q3": "I trust the facts more than I expected: every line has a source and a date, and the disclosure is blunter than most vendors manage. I do not trust it as press: it is vendor owned, it has no stated readership, and the page keeps account notes like 'whether to meet, who owns it' off screen. It also broke its own 'leave out what we are unsure of' rule by naming one of our people with 'may be a past-edition highlight'.",
+    "q4": "Today: forward to the product marketing owner of the agent products, asking for a written check of the two flows by Wednesday, before the summit opens. No executive time, no call. If they find an error, I send two lines in writing and ask for the named-person line to go.",
+    "q5": "Pass it on, not reply myself and not bin it. To product marketing, labelled 'vendor-adjacent outlet, disclosed, accuracy check only'. I would not pass it to a security leader for the 15 minutes: the three questions are a discovery call for a policy product, and the disclosure says the team may want to sell to us.",
+    "q6": "Separate the ask from the sales team: drop 'Powered by RiskMandate' from the masthead of company pages, or at least say in the email that the 15 minutes will not be a sales conversation and that nobody from RiskMandate will be in it. Then I could pass it to a product leader with a straight face.",
+    "q7": "For: 'So this is not independent coverage: we may write about companies the team hopes to meet or sell to.' It is why I clicked at all. Against: 'The team's own notes on each company (why it matters, whether to meet, who owns it) are not facts about the company and are not published here.' That one sentence tells me we are an account with an owner.",
+    "q8": "Mostly fair and accurate in substance: the person approves, the credential is filled or injected, the agent and the model do not see it, least privilege. It is close to a paraphrase of our own support page and blog, so it adds no outside view. Two problems: every step-2 and step-6 carries a duplicated 'Agent:' line that looks like a copy error rather than the promised marking, and flow 1 step 5 says the agent 'cannot see the sign-in page' where the point is that it cannot see the credential. It changes what I do only in routing: it is a product accuracy question, so it goes to product marketing, not to a security leader or to me."
+  },
+  "findings": [
+    {
+      "severity": "costly",
+      "screen": "co-1password-desktop-s1.jpg",
+      "finding": "'Powered by RiskMandate' sits directly under the masthead of the company page the outreach email links to, so a comms lead classes the whole site as a vendor property before reading a fact.",
+      "owner": "designer@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "co-1password-phone-s8.jpg",
+      "finding": "The provenance note says the team keeps notes on each company including 'whether to meet, who owns it', which a company reader takes as proof that the page is the front of a sales account.",
+      "owner": "conductor@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "co-1password-desktop-s5.jpg",
+      "finding": "The sources list names a person from the company ('1Password (Nancy Wang)') with 'may be a past-edition highlight', while the People box above says 'No one is listed under 1Password', contradicting both the page and About's rule 'We leave out anything we are unsure of'.",
+      "owner": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "co-1password-desktop-s3.jpg",
+      "finding": "Step 2 and step 6 of each flow carry two labels for the same actor ('The agent:' then a bold 'Agent:') with near-duplicate text, which reads as a copy error and is not recognisable as the 'marks the 4 steps where an AI agent acts' the email promises.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-1password-desktop-s3.jpg",
+      "finding": "Flow 1 step 5 says 'the agent app makes sure the agent cannot see the sign-in page', which a company reader judges as an imprecise paraphrase where the point is that the agent cannot see the credential.",
+      "owner": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-1password-desktop-s4.jpg",
+      "finding": "The blog source link is shown as '1password.com/blog/closing-the-credential-risk-gap-for-browser-use-ai-' with a trailing hyphen on every step, which looks truncated or broken.",
+      "owner": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "participant-desktop-s3.jpg",
+      "finding": "The header '£4.99 credit' and the meter 'This page 0.1p of 1p ... Balance £4.99' appear with no on-screen explanation of where the balance came from, so a first-time visitor from an email thinks she is being charged.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "front-desktop-s1.jpg",
+      "finding": "The word 'INDEPENDENT' heads boxes and bullets (front page box, company page 'Independence. Independent.', About 'Independent, and who we are') whose own text says the team works on RiskMandate; only the footer's 'independent of Web Summit, not of RiskMandate' says it plainly.",
+      "owner": "conductor@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "participant-desktop-s1.jpg",
+      "finding": "The email is signed 'Vicky Wang, Editor', but the disclosure's 'Who makes it' names only an AI agent and Dinis Cruz, and About lists her only as 'Vicky, editor'.",
+      "owner": "conductor@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "email",
+      "finding": "The email asks for '15 minutes during the summit' without saying whether anyone from RiskMandate would be in it or whether it is a sales conversation, so a comms lead will not route it to a security leader.",
+      "owner": "outreach@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-1password-desktop-s2.jpg",
+      "finding": "The 'Confirmed for 2026' row shows the internal field '(conferenceSlug lis26)' in reader-facing text.",
+      "owner": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-1password-phone-s6.jpg",
+      "finding": "On the phone the floating 'Ask' button covers the Reach question and the last source entry, and the nav cuts off mid-word ('NOW AGENDA N').",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "participant-desktop-s4.jpg",
+      "finding": "In the footer 'The newsroom' sits alone in a column with no heading.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "held",
+      "screen": "email",
+      "finding": "The email's disclosure ('So this is not independent coverage: we may write about companies the team hopes to meet or sell to') is the reason the email got a click instead of the bin.",
+      "owner": "outreach@PrompTugal.dinis"
+    },
+    {
+      "severity": "held",
+      "screen": "co-1password-desktop-s2.jpg",
+      "finding": "The 'What they do' line and both flows are sourced and dated line by line, and broadly match how the products are described in public, so there is nothing a comms lead would need to dispute urgently.",
+      "owner": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "severity": "held",
+      "screen": "participant-desktop-s2.jpg",
+      "finding": "The disclosure quotes the team's own words that the site 'is part of how that work is shown to people at Web Summit Lisbon' and states 'This is not independent coverage', which lets a company reader classify the site correctly in one screen.",
+      "owner": "conductor@PrompTugal.dinis"
+    }
+  ]
+}
