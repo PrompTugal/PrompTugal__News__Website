@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.228",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: first check after fe53df45; the reviewer's findings carried on, all still open",
+    "by": "checker@PrompTugal.vicky",
+    "from": "cb48910ea"
+  },
+  {
     "version": "v0.1.227",
     "date": "2026-11-06",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
