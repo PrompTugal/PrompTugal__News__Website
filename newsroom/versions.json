@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.265",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the footer's outside links open in a new tab too (GR-22)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f34b40095"
+  },
+  {
     "version": "v0.1.264",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 13:45 wake",
