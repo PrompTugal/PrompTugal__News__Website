@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 16:52 UTC (site v0.1.293)
+
+- **Brief 3 for the 18:00 stand-up:** `board/editor-briefs/2026-11-06T1652Z.pdf` (sent to Dinis).
+- **The design:** C, the top of every page, is dev@'s one piece, ETA about 18:30 UTC (A behind a switch for the A/B). Live: the day strip, C's briefing card, the list views. Next for dev.pages@: past days, the correspondent's five, the strip on the right on a desktop.
+- **Security:** five inbox credentials printed into transcripts (security@'s scan): security, accountant, customers, researcher and designer-2 inboxes re-issued (new vaults); S20: one sentence about how a named outsider might feel trimmed from the Algarve guidance (it remains in git history).
+- New since 15:52: the daily newsletter (Dinis 16:20, in designer@'s session; dev@ and dev.pages@ built editions as pages); devops@ found the deploy lag; devops@'s decision page on promptugal.com and .ai.
+- António's paragraph live on the Algarve page. Snapshot 16:52. No hold.
+
 ## Wake at 15:52 UTC (site v0.1.283)
 
 - **Algarve Evolution after the call (Dinis, 15:40, relayed by conductor@web-summit.dinis):** António Pinto Guerreiro read the page and liked it; his paragraph beside the goals routed to dev.portugal@ (not live yet); the wish-list interview prompt owned by customers@ (version 2, filled for Algarve Evolution, pushed).
