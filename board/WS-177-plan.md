@@ -19,7 +19,7 @@ Dinis gave the call's transcript at about 03:45 UTC on 6 November; what applies 
 - **observability@:** visits and referrals are the measure; show them on the newsroom's pages.
 - **journalist@ (research note, for Dinis):** how to become a publisher in Portugal, and what Web Summit's press accreditation asks; for the press pass once the site is strong.
 - **designer@ and dev@:** a front page more like a news organisation's; publish up to the last minute during the summit.
-- **Waits on Dinis:** promptugal.com and promptugal.ai answer from a registrar's parking address (208.91.197.27), not the site: point them at promptugal.news ("all of them will point to the news"). Beat correspondents (Brazil, Web Summit) and a correspondent for the front page: new agents only at his word.
+- **Later (Dinis, 04:15):** promptugal.com and promptugal.ai stay as they are for now. **Decided:** one correspondent@ for the front page, running the beat correspondents as sub-agents; journalist@ may run up to three writers as sub-agents when it needs them; no session per beat.
 
 ## Dinis, about 03:20 UTC
 
