@@ -1,9 +1,12 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 12:34 done (three more decision pages; designer.experiments@ round 5 taken)",
-  "updated": "2026-11-06T13:00Z",
+  "state": "working: session 2; hourly wake 13:34 done (the top decided as a PT decision; three decisions open for weigh-in; designer.experiments@ round 6 taken)",
+  "updated": "2026-11-06T13:55Z",
   "done": [
+    "PT decision (Dinis, 13:05): the top of every page decided, A with the strip of days under it (sherpa@'s three refinements taken); decided picture on /newsroom/design/decisions/the-top-of-the-page/; my misattributions to sherpa@ corrected",
+    "The other three decision pages retitled as PT decisions, open for sherpa@'s and synthetic@'s weigh-in until 14:33 UTC; the band's first line reworded after synthetic@'s F45 ('Every fact links to its source, with the date we read it')",
+    "Reviewed and took designer.experiments@'s round 6 (claimed profiles, the maturity scale, provenance; search first leads with the box)",
     "Three more decision pages, all listed on /newsroom/decisions/: the front page (A or C), the summit's days (go or change; how one day reads), how the companies, articles and people pages open; images in design/decisions/ (small framed JPEGs), full size in the vault",
     "Reviewed and took designer.experiments@'s round 5 (decision pictures for every variation)",
     "The first decision page, at Dinis's word (decisions as pages): /newsroom/design/decisions/the-top-of-the-page/ with today's top and A to D in the page (small framed JPEGs in design/decisions/, 712 KB; full size in the vault), each option's strengths, weaknesses, reviewers' findings, work, the recommendation and what happens after",
@@ -31,19 +34,15 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Record Dinis's answers on the decision pages and check dev@'s builds against them",
-    "Review work/designer.experiments at each wake (round 3: inline tokens, the articles page with a switch)",
-    "Round 2 of the top and of the summit days once Dinis chooses and dev@ builds",
-    "Check dev@'s builds of the specs against the mock-ups (top Q1 to Q9, front P1 to P8, days S1 to S5, synthetic Y1 to Y4)",
-    "Images for every published story once the OpenRouter credit is topped up"
+    "14:33: decide the front page, the summit days and the list pages from the reviewers' weigh-in",
+    "Check dev@'s build of the decided top against design/decisions/the-top-of-the-page/decided--*.jpg and write the before and after",
+    "Review work/designer.experiments at each wake"
   ],
   "asks": [
-    "Dinis: four decisions wait on you, each a page with every option in full: /newsroom/decisions/ (the top of every page; the front page; the summit's days; how the list pages open)",
-    "Dinis: the OpenRouter credit is spent (-0.20 USD at 11:35 UTC, read from openrouter.ai): no AI images until it is topped up",
-    "Dinis: decision pages need their images in git (small JPEGs, about 70 KB each) because an encrypted vault image cannot be shown in a page; full-size copies stay in the vault. Say if you want them elsewhere",
-    "Dinis (via abp@): content/newsroom/decisions/ (where board/spec-decisions-pages.md puts decision pages) is outside my grant, so mine is under content/newsroom/design/decisions/; grant the path or let dev@'s index read both",
+    "Dinis: nothing waits on you from the designer: design questions are now PT decisions (the team's); the top is decided (A with the days under it) and three more are open for review on /newsroom/decisions/; overrule any at any time",
+    "Dinis: the OpenRouter credit is spent (-0.20 USD): no AI images until it is topped up",
     "conductor@: my inbox board/inboxes/designer.json is still sealed to session 1's key (sha256:5571b6684d9d41b8)",
-    "dev@ / dev.pages@: the top's quick fixes Q1 to Q8 are still not live at v0.1.231; the decisions index should include content/newsroom/design/decisions/"
+    "dev@ / dev.pages@: build the decided top now: Q1 to Q9 and A's bar (board/spec-the-top-of-the-page.md), then the strip of days (S1)"
   ],
   "wakes": [
     {
@@ -123,6 +122,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "three decision pages (front page, summit days, list pages); designer.experiments@ round 5 taken"
+    },
+    {
+      "started": "2026-11-06T13:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the top decided (PT decision); three decisions open for weigh-in; designer.experiments@ round 6 taken"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

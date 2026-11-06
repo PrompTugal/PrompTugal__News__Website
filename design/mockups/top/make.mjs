@@ -190,7 +190,18 @@ ${leadDesk(ink)}`,
     ],
 }
 
-const VARIANTS = { A, B, C, D }
+
+// ---- Decided (PT decision, 6 November 2026, 13:45 UTC): A, with sherpa@'s three refinements (its verdict of 12:50):
+// the strip of days under A's two rows (not instead of them), one door (the Menu, no "More"), all eight days fitting at 390 px.
+const stripFit = small => `<div style="display:grid;grid-template-columns:repeat(8,1fr);gap:${small ? 3 : 6}px">${DAYS.map(([d, n, k]) => `<a style="min-width:0;text-align:center;padding:${small ? '4px 0' : '6px 0'};border-radius:3px;border:1px solid ${k === 'today' ? 'var(--ink)' : 'var(--hair)'};background:${k === 'today' ? 'var(--ink)' : k === 'summit' || k === 'night' ? 'var(--brand-soft)' : 'transparent'};color:${k === 'today' ? 'var(--paper)' : 'var(--ink)'}"><span style="display:block;font-size:${small ? 9 : 10}px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;opacity:.8">${k === 'today' ? 'Today' : d}</span><span style="font-family:var(--serif);font-size:${small ? 16 : 19}px;font-weight:600">${n}</span></a>`).join('')}</div>`
+const DECIDED = {
+    title: 'Decided: A, with the days under it',
+    phone: ink => A.phone(ink).replace('<a style="color:var(--brand)">More ▾</a>', '<a>People</a>').replace('</nav>\n</header>', `</nav>\n<div style="padding:6px 16px 8px;border-top:1px solid var(--hair)">${stripFit(true)}</div>\n</header>`),
+    desktop: ink => A.desktop(ink).replace('Every fact sourced and dated.', 'Every fact links to its source, with the date we read it.').replace('</header>', `</header>\n<div style="border-bottom:1px solid var(--hair)"><div class="row" style="--g:24px;padding-top:8px;padding-bottom:8px;gap:24px"><p class="kicker" style="color:var(--ink);width:180px">Web Summit Lisbon · the days</p><div style="flex:1">${stripFit(false)}</div></div></div>`),
+    notes: ['The PT decision: A on every page, with the strip of days under its two rows on the front page and the summit pages until 13 November.',
+        'sherpa@\'s refinements: the strip under A, not instead of it (search and the sections stay); one door, the Menu (no "More" beside it); all eight days fit a 390 px phone.'],
+}
+const VARIANTS = { A, B, C, D, DECIDED }
 const page = (body, ink, label) => `<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><style>${css(ink)}</style></head><body>${body}<span class="note">Mock-up ${label}</span></body></html>`
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt-top-'))

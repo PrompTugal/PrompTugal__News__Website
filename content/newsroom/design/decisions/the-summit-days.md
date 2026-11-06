@@ -1,9 +1,9 @@
 ---
-title: "Decision for Dinis: the summit's days (the strip, the past and future days, and how one day reads)"
+title: "PT decision: the summit's days (the strip, the past and future days, and how one day reads)"
 summary: "Go or change on the site over time: a strip of the summit's eight days, a past day shown as the site really was, a future day as planned; and which of three views a single day uses. Each shown in full, with the work, the designer's recommendation and what happens after."
 decision: open
 asked_by: designer@PrompTugal.dinis
-asked_of: Dinis Cruz
+asked_of: the team (a PT decision, at Dinis's word of 13:05 UTC), reviewers sherpa@ and synthetic@
 since: 2026-11-06T06:55Z
 blocks: "dev@'s build of the strip and the day pages (board/spec-the-summit-days.md, S1 to S5) before Monday 9 November"
 answer: null
@@ -72,9 +72,9 @@ Made by designer.experiments@ from the same 69 sessions.
 - dev@ builds S1, the strip (one wake), then S4 and S5, the future and today views, then S2 and S3, the past days and the removals check; the correspondent picks the five each morning; the historian maps each day to its last release.
 - If you change a view, the designer re-draws it at the next wake and puts it back on this page.
 
-## How to answer {#answer}
+## How to weigh in {#answer}
 
-Tell the conductor or the designer: "the days: go, C" (or a change).
+sherpa@ and synthetic@: a review in your own folder naming this page, before the designer's wake at 14:33 UTC; Dinis: tell the conductor or the designer.
 
 ## Sources {#sources}
 

@@ -1,16 +1,33 @@
 ---
-title: "Decision for Dinis: the top of every page (A, B, C or D)"
+title: "PT decision: the top of every page (decided: A, with the days under it)"
 summary: "Which top should every page of PrompTugal.news have? Four mock-ups, each shown on a phone and a desktop, with what each does well and badly, what the reviewers found, the work it takes, the designer's recommendation and what happens after you choose."
-decision: open
+decision: decided
 asked_by: designer@PrompTugal.dinis
-asked_of: Dinis Cruz
+asked_of: the team (a PT decision, at Dinis's word of 13:05 UTC; first asked of Dinis at 05:40)
 since: 2026-11-06T05:40Z
 blocks: "dev@'s quick fixes Q1 to Q9 (they hold for every option) and round 2 of the pass the-top-of-the-page; the strip of days (the summit days pass) sits in option D"
-answer: null
-answered_at: null
+answer: "A on every page, with the strip of the summit's days under A's two rows on the front page and the summit pages until 13 November; one door (the Menu, no More); all eight days fit a 390 px phone"
+decided_by: designer@PrompTugal.dinis, as a PT decision (Dinis, 13:05 UTC), with sherpa@'s verdict of 12:50
+answered_at: 2026-11-06T13:45Z
 ---
 
-By designer@PrompTugal.dinis, Friday 6 November 2026 (WS-177). A decision page, at Dinis's word of about 11:00 UTC: "decisions like the one about the design ... should be done via a page in the site, with full details and explanations." The pass: the top of the page (in the repository, `board/passes/2026-11-06-the-top-of-the-page.md`).
+By designer@PrompTugal.dinis, Friday 6 November 2026 (WS-177). **Decided at 13:45 UTC as a PT decision**: at Dinis's word of about 13:05 UTC this "should not really be decision for me ... decision for the team", so the owner decided after the reviewers weighed in ([the decision](#decided)). A decision page, at Dinis's word of about 11:00 UTC: "decisions like the one about the design ... should be done via a page in the site, with full details and explanations." The pass: the top of the page (in the repository, `board/passes/2026-11-06-the-top-of-the-page.md`).
+
+## Decided: A, with the days under it {#decided}
+
+![The decided top on a phone](../../../../design/decisions/the-top-of-the-page/decided--phone.jpg)
+
+![The decided top on a desktop](../../../../design/decisions/the-top-of-the-page/decided--desktop.jpg)
+
+**A on every page; on the front page and the summit pages until 13 November, the strip of the summit's days under A's two rows, not instead of them.** Decided by designer@ at 13:45 UTC, from sherpa@'s verdict of 12:50 (in the repository, `board/team/sherpa/review-2026-11-06-1230-the-top-a-to-d.md`), which agreed with the recommendation below and refined it three ways, all taken:
+
+- the strip goes under A's search and sections, never in their place (D's phone mock-up had lost both);
+- one door: the Menu, with no "More" beside it, so the sections row shows sections only;
+- all eight days fit a 390 px phone (D's mock-up cut Friday 13 off).
+
+Why A: it answers every point Dinis made with the least work before Monday, and it is the only option where both things this site is for, the news and the companies, are in view on a phone. B is the tallest on a phone; C hides Companies under More and puts a second bar beside Safari's own at the bottom of an iPhone. synthetic@'s run 8 (F45) also changes one line: "Every fact sourced and dated" read to a reporter as "every fact checked", so the line under the top says what is true: **"Every fact links to its source, with the date we read it."**
+
+**What happens now:** dev@ (or dev.pages@) builds the quick fixes Q1 to Q9 and A's bar (`board/spec-the-top-of-the-page.md`), then the strip (S1 in `board/spec-the-summit-days.md`); the designer checks the build against these pictures at the next wake and writes the before and after.
 
 ## The question {#question}
 
@@ -34,7 +51,7 @@ The logo at the left; Search, the credit (labelled "credit") and a Menu at the r
 
 - **Does well:** the plainest answer to every one of your points; the shortest top on a desktop; the Menu answers T1 and T2 (every section and the Newsroom one tap away); the least work, since it is the quick fixes plus a layout.
 - **Does badly:** on a phone only four sections show in the second row (the rest under More); the front page loses the newspaper feel of a nameplate.
-- **sherpa@'s six questions:** every section one tap away (Menu); logo left, search and credit right in one row; the card's words once; the credit labelled; nothing of RiskMandate in the top; the page starts in the top third of a phone (yes, about 120 px).
+- **sherpa@'s answers to its six questions (12:50):** yes to all six: four sections in view and the rest in the Menu; logo, search, credit and Menu in about 56 px; the page starts at about 125 px of 664.
 - **Work:** dev@, about one wake: the bar's layout in `newsroom/build/lib/shell.mjs` and `assets/site.css`, the Menu, and Q1 to Q9.
 
 ## Option B: the slim nameplate {#b}
@@ -47,7 +64,7 @@ The front page keeps a nameplate, but left-aligned: the logo at the left, the ta
 
 - **Does well:** keeps a publication's front page, which matters for a press pass; every section visible on a phone with no menu; the credit always top right.
 - **Does badly:** the tallest of the four on a phone (168 px); two different tops to build and keep (front page and inner pages).
-- **sherpa@'s six questions:** all yes but the last: the first story starts lower on a phone.
+- **sherpa@'s answers (12:50):** best for every section one tap away (seven chips in view), but no search in the top row and the first story lowest of the four (about 165 px).
 - **Work:** dev@, about two wakes (two tops).
 
 ## Option C: the app, tabs at the bottom {#c}
@@ -60,8 +77,8 @@ On a phone, the PT.news stamp and the name with the date at the left and the cre
 
 - **Does well:** the most space for the page on a phone; Search and Ask where a thumb reaches; no floating Ask covering text (T11, F8); the big search Dinis asked for at 05:35 ("a big search bar ... at the top") built into the bar.
 - **Does badly:** least like a newspaper; a bottom bar must keep out of the way of each page's own end; the most work and the most risk before Monday.
-- **sherpa@'s six questions:** all yes; the page starts highest of the four.
-- **Work:** dev@, two to three wakes; sherpa@ suggested a synthetic readers' run on it before anyone builds it.
+- **sherpa@'s answers (12:50):** only partly for every section (Companies, People and Portugal under More); the page starts highest of the four; a bottom bar sits where Safari's toolbar is on an iPhone. "Not before Monday."
+- **Work:** dev@, two to three wakes; the designer (not sherpa@) suggested a synthetic readers' run on it first.
 
 ## Option D: the summit edition, A with the days {#d}
 
@@ -73,16 +90,16 @@ Option A's bar, and under it the summit's days, Friday 6 to Friday 13 November: 
 
 - **Does well:** your idea of the site over time ("a block on the right that has Web Summit, and then it has the days") in the top of every page; the past view is proven (Thursday 5 November rebuilt from its own release, v0.1.37: `/newsroom/design/summit-days-round-1/`).
 - **Does badly:** a second row on every page for a week; the past and future day pages must exist before the strip links to them.
-- **sherpa@'s six questions:** all yes; the page starts a little lower than A.
+- **sherpa@'s answers (12:50):** on a phone the strip replaced the search and the row of sections, and Friday 13 was cut off at 390 px; the strip itself meets its needs D1 to D6.
 - **Work:** A's work, plus the strip (S1 in `board/spec-the-summit-days.md`, about one wake) and the day pages (S2 to S5, more).
 
 ## What the readers found {#readers}
 
 The synthetic readers (invented, SYNTHETIC) have not yet read these four tops; they read the front page's mock-ups, which use A's bar, and did not object to the bar. On today's top, run 4's founder said "Powered by RiskMandate" on a company page kept the page from her leader (F26), which every option removes.
 
-## The recommendation {#recommendation}
+## The recommendation, before the decision {#recommendation}
 
-**A on every page, with D's strip of days on the front page and the summit pages until 13 November.** A answers every point you made with the least work before Monday; the strip carries your idea of the site over time where it matters most and leaves when the summit ends. C is worth a synthetic run after the summit; B keeps a nameplate, but two tops are more to build and keep than this week allows. No agent has dissented.
+**A on every page, with D's strip of days on the front page and the summit pages until 13 November.** A answers every point you made with the least work before Monday; the strip carries your idea of the site over time where it matters most and leaves when the summit ends. C is worth a synthetic run after the summit (the designer's suggestion); B keeps a nameplate, but two tops are more to build and keep than this week allows. sherpa@ agreed at 12:50, with the three refinements above.
 
 ## What happens after you choose {#after}
 
@@ -90,9 +107,9 @@ The synthetic readers (invented, SYNTHETIC) have not yet read these four tops; t
 - **A or D:** dev@ builds the bar (one wake). **D:** dev@ adds the strip and the day pages (the summit days pass). **B:** dev@ builds two tops (two wakes). **C:** a synthetic readers' run first, then dev@ (two to three wakes).
 - This page records your answer (front matter `answer`, `answered_at`) and moves to Decided; the conductor writes it into `board/guidance/`.
 
-## How to answer {#answer}
+## How to change it {#answer}
 
-For now, tell the conductor in your session (or the designer in its own): "the top: A" (or B, C, D, or a change). Later, signed in, a choice on this page itself.
+Decided as a PT decision. Dinis can overrule it at any time: tell the conductor or the designer.
 
 ## Sources {#sources}
 

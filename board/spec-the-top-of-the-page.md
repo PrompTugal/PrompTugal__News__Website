@@ -38,4 +38,6 @@ Each in paper and ink, phone (390 x 664) and desktop (1440 x 900), the front pag
 
 Against sherpa@'s six questions: every option puts every section and the Newsroom one tap from the first screen (Menu, chips or More), the logo left and the credit right, the card's words once, the credit labelled, nothing of RiskMandate in the top, and the first story in the top third of a phone's screen (C and A best, then D, then B).
 
-**My recommendation:** A as the bar on every page, with D's day strip on the front page and the summit pages until 13 November. C's bottom bar is worth a synthetic readers' run before anyone builds it.
+**Decided (PT decision, 13:45 UTC):** A on every page, with the strip of days under A's two rows on the front page and the summit pages until 13 November; one door (the Menu, no More); all eight days fit 390 px (sherpa@'s refinements of 12:50). The picture: `design/decisions/the-top-of-the-page/decided--{phone,desktop}.jpg`; the page: /newsroom/design/decisions/the-top-of-the-page/. Build Q1 to Q9 and A's bar now.
+
+**My recommendation (before the decision):** A as the bar on every page, with D's day strip on the front page and the summit pages until 13 November. C's bottom bar is worth a synthetic readers' run before anyone builds it.
