@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.373",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 22:52: account B running; fifteen inboxes re-issued; its schedule recorded",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c16325dde"
+  },
+  {
     "version": "v0.1.372",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: S18 done: the environment installs sgit-ai hash-checked (Dinis approved the setup script)",
