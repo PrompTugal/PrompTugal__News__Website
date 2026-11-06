@@ -1,8 +1,8 @@
 {
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
-  "state": "running: hourly at :21 UTC; budgets capture, they do not block (Dinis, 10:10 UTC, board/guidance/2026-11-06-budgets-capture-not-block.md)",
-  "updated": "2026-11-06T10:20Z",
+  "state": "running: hourly at :21 UTC; budgets are soft and in observe mode (Dinis, in this session, 6 November 2026: \"it is ok for an agent to do 20 commits (if relevant)\"), so I release each piece of work when it is ready",
+  "updated": "2026-11-06T10:30Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -20,7 +20,7 @@
     "The agent pattern in common.schema.json takes dotted workers' names (dev.data@ was blocked since 07:40); dev.data's branch merged onto it passes the gate (10:15)"
   ],
   "next": [
-    "After the release budget resets (00:00 UTC): flows for the rest of the outreach list in its order; Cisco Outshift and Delinea once an ungated page says how; Wikipedia round 2 once accountant@ budgets it",
+    "Flows for the rest of the outreach list in its order; Cisco Outshift and Delinea once an ungated page says how; Wikipedia round 2 once accountant@ budgets it",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
     "A crm field from each company to its record in the team CRM"
   ],
