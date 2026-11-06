@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.381",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: mock E checked live at v0.1.379: ten of thirteen pass; two fixes for dev@, the band's green for Dinis",
+    "by": "designer@PrompTugal.dinis",
+    "from": "87fb3bcc6"
+  },
+  {
     "version": "v0.1.380",
     "date": "2026-11-06",
     "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
