@@ -3,11 +3,11 @@
 Read this before every draft and every review. Vicky changes it; nobody else does.
 
 ## Beats
-- journalist@ (summit): Web Summit itself, practical guides, its numbers and reports, delegations.
-- journalist-portugal@: Portuguese startups, funding, universities, government support.
-- journalist-europe@: the EU, European programmes and countries, and their links to Portugal.
-- journalist-ai@: AI and robotics.
-- journalist-connections@: who could meet or work with whom at the summit.
+- journalist@PrompTugal.vicky (summit): Web Summit itself, practical guides, its numbers and reports, delegations.
+- journalist-portugal@PrompTugal.vicky: Portuguese startups, funding, universities, government support.
+- journalist-europe@PrompTugal.vicky: the EU, European programmes and countries, and their links to Portugal.
+- journalist-ai@PrompTugal.vicky: AI and robotics.
+- journalist-connections@PrompTugal.vicky: who could meet or work with whom at the summit.
 - Write only stories on your beat. If a story fits two beats, ask Vicky. Check drafts/ first, so you never write a story already drafted.
 - Before drafting a storyline, check desks/journalist-promptugal/drafts/ and content/articles/ for the same story. If it's already there, don't write it, even if I asked for it by name. Tell me instead.
 
