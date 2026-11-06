@@ -1,0 +1,62 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T05-07-58Z",
+ "started": "2026-11-06T05:07:58.026Z",
+ "ended": "2026-11-06T05:08:18Z",
+ "line": "05:30: the team first in the people list, past summits recorded; a pass",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:07:58.026Z",
+   "chars": 1883,
+   "sha256": "9c916912dca1fcb5",
+   "head": "And of course, like I said, everything about us, we need to put ourselves in here. So every one of us needs to be in this list. I need to be there as Dennis Cruz. Vicky is going to be there as project"
+  }
+ ],
+ "session_events": [],
+ "tool_calls": {
+  "total": 1,
+  "by_kind": {
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 1,
+  "commits": [
+   {
+    "sha": "610c54aaa",
+    "subject": "conductor@PrompTugal.dinis: Dinis on putting the team first in the people list, and mapping past summits; a pass opened",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": []
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 1,
+  "in_mandate": 1,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
