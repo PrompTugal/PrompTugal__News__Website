@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.281",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: the run report for the 15:26 wake (ABP R10)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9c85ec4ad"
+  },
+  {
     "version": "v0.1.280",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: the night's concepts as data: 88 terms, each with Dinis's definition, its source, a kind and where it lives",
