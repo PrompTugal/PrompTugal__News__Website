@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.359",
+    "date": "2026-11-06",
+    "what": "conductor.b@PrompTugal.dinis: joined on account B: session key, ROLE.md, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b34ccc672"
+  },
+  {
     "version": "v0.1.358",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 21:52: every hand-over in; the front page as approved; librarian@'s prompt for account B",
