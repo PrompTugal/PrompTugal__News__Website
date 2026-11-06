@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "conscium",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "verify-before-production",
+      "name": "An organisation verifies an AI agent before and after it reaches production (VerifyAX)",
+      "summary": "As Conscium's home page describes VerifyAX: \"Before an agent touches production, Verify ax tells you whether it does what you think it does.\" The page's reason: agents behave correctly in testing and incorrectly in production, drift over time and can be manipulated by malicious inputs.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The organisation",
+          "what": "Brings an AI agent it plans to deploy to the VerifyAX platform.",
+          "source": "fl1"
+        },
+        {
+          "actor": "VerifyAX",
+          "what": "Runs the agent through simulated environments to see how it behaves under a wide range of conditions.",
+          "agent": "The agent under test acts in the simulations as it would in production; that behaviour is what is measured.",
+          "source": "fl1"
+        },
+        {
+          "actor": "VerifyAX",
+          "what": "Tells the organisation whether the agent does what it thinks it does, before it touches production.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The organisation",
+          "what": "Deploys the agent, with the visibility and control to manage risk and meet compliance requirements.",
+          "agent": "Acts in production.",
+          "source": "fl1"
+        },
+        {
+          "actor": "VerifyAX",
+          "what": "Keeps testing, auditing and governing the agent after deployment, for the ways agents fail later (drift over time, manipulation by malicious inputs).",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}
