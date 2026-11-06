@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""The editors' business cards, PrompTugal.news (brand identity v2.0).
+"""PrompTugal.news business cards (brand identity v2.0): generic, no names, printed on white stock.
 
-designer@PrompTugal.dinis, 6 November 2026 (WS-177). A design tool, not part of the site's build: it needs
+designer@PrompTugal.dinis, 6 November 2026 (WS-177), proof 2. At Dinis's word: no solid colours (no floods, so
+the card prints cheaply: ink, red and green type and hairlines on white stock), generic (PrompTugal.news, not a
+person), with a tagline and a link to RiskMandate. Two variants: A with no Web Summit line, B with one. A design tool, not part of the site's build: it needs
 Python 3 with fonttools, brotli, uharfbuzz and segno (pip install fonttools brotli uharfbuzz segno), and writes
 SVG masters with every letter outlined, to the print shop's rules (the team site's /cards/print/):
 85 x 55 mm trimmed, 3 mm bleed on every side (91 x 61 mm), all text at least 3 mm inside the trim, nothing under 7 pt.
@@ -18,7 +20,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 FONTS = os.path.join(ROOT, 'assets', 'fonts')
 BRAND = os.path.join(ROOT, 'assets', 'brand')
-OUT = os.path.join(HERE, 'editors')
+OUT = os.path.join(HERE, 'generic')
 
 # brand v2.0 colours (design/brand/README.txt)
 PAPER, INK, RED, GREEN, MUTED, RULE = '#F6F3EC', '#121317', '#C52830', '#006600', '#666860', '#D8D4CB'
@@ -28,7 +30,6 @@ PT = 25.4 / 72      # mm per point
 BLEED, W, H = 3.0, 85.0, 55.0
 SITE = 'https://promptugal.news/'
 
-EDITORS = json.load(open(os.path.join(HERE, 'editors.json')))
 
 
 def ttf(name):
@@ -92,9 +93,11 @@ SANS_600 = Face('plex-sans-variable.woff2', wght=600)
 MONO = Face('plex-mono-400.woff2')
 
 
-def embed(svg_file, x, y, w):
-    """Place a brand master (outlined SVG) at (x, y) mm, w mm wide, unchanged."""
+def embed(svg_file, x, y, w, unfill=None):
+    """Place a brand master (outlined SVG) at (x, y) mm, w mm wide, unchanged but for `unfill`: a ground colour
+    left unprinted (the stamp's paper square, so white stock shows through and nothing floods)."""
     src = open(os.path.join(BRAND, svg_file)).read()
+    if unfill: src = src.replace(f'fill="{unfill}"', 'fill="none"')
     vb = [float(v) for v in src.split('viewBox="')[1].split('"')[0].split()]
     inner = src[src.index('>', src.index('<svg')) + 1: src.rindex('</svg>')]
     inner = inner.split('</title>', 1)[-1]
@@ -109,8 +112,7 @@ def qr(x, y, size, url):
     m = q.matrix; n = len(m); mod = size / (n + 8)
     rects = ''.join(f'M{x + (c + 4) * mod:.3f} {y + (r + 4) * mod:.3f}h{mod:.3f}v{mod:.3f}h-{mod:.3f}z'
                     for r, row in enumerate(m) for c, v in enumerate(row) if v)
-    return (f'<rect x="{x:.3f}" y="{y:.3f}" width="{size:.3f}" height="{size:.3f}" fill="#FFFFFF"/>'
-            f'<path fill="#000000" d="{rects}"/>'), q.version, mod
+    return f'<path fill="{INK}" d="{rects}"/>', q.version, mod  # the quiet zone is the unprinted white stock
 
 
 def svg(body, title, bg):
@@ -121,53 +123,58 @@ def svg(body, title, bg):
 
 
 M = 6.0  # the margin: twice the shop's 3 mm safe area
+WHITE = '#FFFFFF'  # the stock: nothing printed
+
+VARIANTS = [
+    {'id': 'a-generic', 'label': 'A, generic', 'edition': False},
+    {'id': 'b-web-summit', 'label': 'B, with the Web Summit line', 'edition': True},
+]
 
 
-def front(ed):
+def centre(face, text, size, y, fill, tracking=0.0):
+    return face.path(text, size, W / 2, y, fill, anchor='middle', tracking=tracking)
+
+
+def front(v):
     out = []
-    mark, mh = embed('promptugal-wordmark-light.svg', M - 0.8, M - 0.6, 52.0)  # the master carries its own clear space
+    mark, mh = embed('promptugal-wordmark-light.svg', (W - 66.0) / 2, 11.5, 66.0)
     out.append(mark)
-    out.append(SERIF_600.path(ed['name'], 15, M, 33.0, INK))
-    out.append(SANS.path(ed['role'], 8.5, M, 38.6, INK))
-    if ed.get('email'):
-        out.append(MONO.path(ed['email'], 7.5, M, 43.4, INK))
-    else:
-        out.append(MONO.path('email to come', 7.5, M, 43.4, MUTED))
-    out.append(f'<rect x="{M}" y="46.6" width="{W - 2 * M}" height="0.25" fill="{INK}"/>')
-    out.append(MONO.path('WEB SUMMIT LISBON 2026 EDITION', 7, M, 50.6, INK))
-    out.append(MONO.path('promptugal.news', 7, W - M, 50.6, INK, anchor='end'))
-    return svg(''.join(out), f"{ed['name']}, Editor, PrompTugal.news: front", PAPER)
+    out.append(f'<rect x="{W / 2 - 9:.3f}" y="27.2" width="18" height="0.5" fill="{GREEN}"/>')
+    out.append(centre(SERIF_ITALIC, 'Technology and AI, in context.', 12, 36.0, INK))
+    if v['edition']:
+        out.append(centre(MONO, 'THE WEB SUMMIT LISBON 2026 EDITION', 7, 47.5, INK, tracking=0.04))
+    return svg(''.join(out), f"PrompTugal.news card {v['label']}: front", WHITE)
 
 
-def back(ed):
+def back(v):
     out = []
-    stamp, sh = embed('pt-news-stamp-dark.svg', M, M, 24.0)
+    stamp, sh = embed('pt-news-stamp-light.svg', M, M, 22.0, unfill='#F6F3EC')
     out.append(stamp)
-    code, ver, mod = qr(W - M - 27.0, M, 27.0, SITE)
+    qs = 24.0
+    code, ver, mod = qr(W - M - qs + 2.2, M - 2.2, qs, SITE)  # its quiet zone overhangs the margin, never the trim
     out.append(code)
-    out.append(MONO.path('promptugal.news', 7, W - M - 13.5, M + 27.0 + 4.2, PAPER, anchor='middle'))
-    out.append(SERIF_ITALIC.path('Technology and AI, in context.', 9.5, M, 37.0, PAPER))
-    out.append(MONO.path('A PORTUGUESE PERSPECTIVE.', 7, M, 41.6, D_MUTED, tracking=0.04))
-    out.append(MONO.path('A EUROPEAN CONVERSATION.', 7, M, 44.9, D_MUTED, tracking=0.04))
-    out.append(f'<rect x="{M}" y="46.6" width="{W - 2 * M}" height="0.25" fill="{D_GREEN}"/>')
-    out.append(MONO.path('INDEPENDENT. NOT AFFILIATED WITH WEB SUMMIT.', 7, M, 50.6, PAPER, tracking=0.02))
-    return svg(''.join(out), f"{ed['name']}, Editor, PrompTugal.news: back", INK), ver, mod
+    out.append(MONO.path('promptugal.news', 7, W - M, M + qs - 2.2 + 3.2, INK, anchor='end'))
+    out.append(MONO.path('A PORTUGUESE PERSPECTIVE.', 7, M, 35.2, INK, tracking=0.04))
+    out.append(MONO.path('A EUROPEAN CONVERSATION.', 7, M, 38.5, INK, tracking=0.04))
+    up = 1.8 if v['edition'] else 0.0  # B makes room for the independence line
+    out.append(f'<rect x="{M}" y="{43.6 - up}" width="{W - 2 * M}" height="0.25" fill="{INK}"/>')
+    out.append(SANS_600.path('Powered by RiskMandate', 8, M, 48.6 - up, INK))
+    out.append(MONO.path('riskmandate.ai', 7, W - M, 48.6 - up, INK, anchor='end'))
+    if v['edition']:
+        out.append(MONO.path('INDEPENDENT. NOT AFFILIATED WITH WEB SUMMIT.', 7, M, 51.0, INK, tracking=0.02))
+    return svg(''.join(out), f"PrompTugal.news card {v['label']}: back", WHITE), ver, mod
 
 
 def main():
     report = []
-    for ed in EDITORS:
-        d = os.path.join(OUT, ed['id']); os.makedirs(d, exist_ok=True)
-        open(os.path.join(d, 'card-front.svg'), 'w').write(front(ed))
-        b, ver, mod = back(ed)
+    for v in VARIANTS:
+        d = os.path.join(OUT, v['id']); os.makedirs(d, exist_ok=True)
+        open(os.path.join(d, 'card-front.svg'), 'w').write(front(v))
+        b, ver, mod = back(v)
         open(os.path.join(d, 'card-back.svg'), 'w').write(b)
-        report.append(f"{ed['id']}: QR version {ver}, module {mod:.2f} mm")
-    w = MONO.width('INDEPENDENT. NOT AFFILIATED WITH WEB SUMMIT.', 7, 0.02)
-    report.append(f'widest line: {w:.1f} mm of {W - 2 * M:.1f} mm')
-    g = W - 2 * M - MONO.width('WEB SUMMIT LISBON 2026 EDITION', 7) - MONO.width('promptugal.news', 7)
-    report.append(f'front foot gap: {g:.1f} mm')
-    report.append(f"name widths: " + ', '.join(f"{e['name']} {SERIF_600.width(e['name'], 15):.1f} mm" for e in EDITORS))
-    report.append(f"tagline: {SERIF_ITALIC.width('Technology and AI, in context.', 9.5):.1f} mm (room {W - 2*M - 27 - 3:.1f})")
+        report.append(f"{v['id']}: QR version {ver}, module {mod:.2f} mm")
+    report.append(f"tagline {SERIF_ITALIC.width('Technology and AI, in context.', 12):.1f} mm; "
+                  f"independence line {MONO.width('INDEPENDENT. NOT AFFILIATED WITH WEB SUMMIT.', 7, 0.02):.1f} mm of {W - 2 * M:.0f}")
     print('\n'.join(report))
 
 

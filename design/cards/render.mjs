@@ -1,5 +1,5 @@
-// The editors' cards, from the SVG masters (make_cards.py) to what the shop asks for (the team site's /cards/print/):
-// a PDF per editor (91 x 61 mm with 3 mm bleed, page 1 the front, page 2 the back) and a PNG per side
+// The PrompTugal.news cards (generic, proof 2), from the SVG masters (make_cards.py) to what the shop asks for (the team site's /cards/print/):
+// a PDF per variant (91 x 61 mm with 3 mm bleed, page 1 the front, page 2 the back) and a PNG per side
 // (300 dpi, trimmed to 85 x 55 mm, no bleed), plus one overview of the three. Chromium via Playwright, a design tool
 // (not the site's build): node design/cards/render.mjs
 import { createRequire } from 'node:module'
@@ -10,8 +10,8 @@ const require = createRequire(import.meta.url)
 const { chromium } = require('playwright')
 
 const here = dirname(fileURLToPath(import.meta.url))
-const out = join(here, 'editors')
-const editors = JSON.parse(readFileSync(join(here, 'editors.json'), 'utf8'))
+const out = join(here, 'generic')
+const editors = readdirSync(out).sort().map(id => ({ id, name: id }))
 const PX = 300 / 25.4 // 300 dpi
 const browser = await chromium.launch()
 const page = await browser.newPage()
@@ -36,12 +36,12 @@ for (const ed of editors) {
 }
 
 // the overview: each editor's front and back at real proportions, trimmed, with the trim and safe area marked on the first
-const row = ed => ['front', 'back'].map(s => `<figure><img src="editors/${ed.id}/card-${s}.png"><figcaption>${ed.name}, ${s}</figcaption></figure>`).join('')
-await page.setViewportSize({ width: 1400, height: 1500 })
+const row = ed => ['front', 'back'].map(s => `<figure><img src="generic/${ed.id}/card-${s}.png"><figcaption>${ed.name}, ${s}</figcaption></figure>`).join('')
+await page.setViewportSize({ width: 1400, height: 400 })
 const html = `<!doctype html><meta charset="utf-8"><base href="file://${here}/"><style>
   body { margin: 32px; background: #e9e6df; font: 13px 'IBM Plex Mono', monospace; color: #121317 }
   .g { display: grid; grid-template-columns: repeat(2, 640px); gap: 28px 40px }
-  figure { margin: 0 } img { width: 640px; display: block; box-shadow: 0 2px 10px rgba(0,0,0,.18) } figcaption { margin-top: 8px }</style>
+  figure { margin: 0 } img { width: 640px; display: block; box-shadow: 0 0 0 1px #c9c4b8, 0 2px 10px rgba(0,0,0,.12) } figcaption { margin-top: 8px }</style>
   <div class="g">${editors.map(row).join('')}</div>`
 writeFileSync(join(here, '.overview.tmp.html'), html)
 await page.goto('file://' + join(here, '.overview.tmp.html'))
