@@ -1,0 +1,79 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "designer@PrompTugal.dinis",
+ "run": "2026-11-06T04-56-12Z",
+ "started": "2026-11-06T04:56:12.101Z",
+ "ended": "2026-11-06T05:24:47Z",
+ "line": "session 2 onboarded; top of the page round 1 (tagline v0.1.123, four mock-ups, quick fixes for dev@); the designer's vault; before and after; first AI infographics (0.325 USD)",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:24:25.319Z",
+   "chars": 1538,
+   "sha256": "592a17ac36081c0c",
+   "head": "<task-notification>\n<task-id>br52zhwx2</task-id>\n<tool-use-id>toolu_011eKzKwqXMD1jvXBo6XJX23</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/df32b42a-7e97-5733-9261-07c07"
+  }
+ ],
+ "session_events": [],
+ "tool_calls": {
+  "total": 32,
+  "by_kind": {
+   "web": 2,
+   "write": 3,
+   "shell": 15,
+   "read": 6,
+   "connector": 1,
+   "git": 3,
+   "release": 1,
+   "message": 1
+  }
+ },
+ "policies_executed": {
+  "R3": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 31,
+  "commits": [
+   {
+    "sha": "fa74783b6",
+    "subject": "designer@PrompTugal.dinis: before and after of v0.1.123 (the top of the page, round 1); the first AI infographics, Brazil story on four models",
+    "files": 9
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T05:00:07.082Z",
+    "tool": "mcp__claude-artifacts__guide",
+    "rule": "R3",
+    "what": "mcp__claude-artifacts__guide is a connector (claude-artifacts): no agent uses a connector unless Dinis grants it in writing in board/abp/policies.json",
+    "target": ""
+   }
+  ]
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 32,
+  "in_mandate": 31,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
