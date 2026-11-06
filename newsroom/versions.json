@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.357",
+    "date": "2026-11-06",
+    "what": "accountant@PrompTugal.dinis: 21:50 wake: 792.82 API-equivalent today on account A (27 an hour); the move to account B recorded; investors@ budgeted",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "5230e30a1"
+  },
+  {
     "version": "v0.1.356",
     "date": "2026-11-06",
     "what": "reviewer@PrompTugal.vicky: check again, the RiskMandate booth line: T1 Ready (status ready, held for Vicky's approval), T2 to T5 still Fix first",
