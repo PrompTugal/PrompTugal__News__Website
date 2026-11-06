@@ -480,6 +480,23 @@
       "status": "active"
     },
     {
+      "id": "journalist-connections-vicky-promptugal",
+      "agent": "journalist-connections@PrompTugal.vicky",
+      "label": "journalist-connections@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky Wang's Connections journalist for PrompTugal.news (journalist-connections@PrompTugal.vicky, until 6 November 2026 journalist-connections@web-summit.vicky): who could meet or work with whom at the summit; drafts in desks/journalist-vicky/drafts/, when Vicky asks. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 5 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs), first published as journalist-connections-vicky in the team site's data/keys.json under the name journalist-connections@web-summit.vicky. Renamed at Vicky's word (Dinis asked for new names) on 6 November 2026; the same key, now entered here by that session. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsOkksLx4UAAx8Rmu5ar6\neMIScKLAGiyPwHwlwZFk4MfQN216RQzvw+dJHLljW9g6iV1mEBX7DQ2i/iWLtMFz\nbCjWTN6IpeTiYHAXMo5vbY6Pp1VcwpFbgpDXoGx7G7MS1y2TYqyxNzSq0CE1Ctuc\naHodCy65p7j2xFaoBxILS272OpmWNtg1Y+60DYgmoWImK+st2tpXPo49xVBevKiM\nL4KZZr0NuR9qC7VdErLwacAAEtCALMd0sKpBFWudNqqb8xfog862xsCz+AzuuAse\nmFnbEMrv6xxK4aGxTDkv/lpsl+5s3kswF6q84/TnELk0gJlTEL2rOLHJ31qH6hKB\ns4VGVSDl8LvU0TYjg0vQdILxGAKXnWkCfpuv3QKQ9u+fIpmjtaVn0u/kKIXEjj1f\nWdUUCq0R6FKrsefp2XCiPcNd9+AC9dWBGgToggcDbzV1HyHwuuWKUaXPtsu6XDVG\niwlYJrk/FsCZMcCE42oVIX0m6f+9ZCVswWyUBvW6LsTLebF/gPqlFWSP8/1Ig9UY\nZDiw8X8Re7SiOnx7kvJEvpVJAYnotSpPEEKHtRKJUTpNzfFYBTzsHPoHI33EXqOR\neGtpWT6cNPuEf3qjCOakITr8wwkdsNULc24KAYTsRxPtxTLVJggn2L78AvoGzuxK\nT0i9+FgBMnPPLyn7scSTg1cCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvnSJaOj8s/n3YsV9/ucReTjNaa1H\nkif+e4n1K4EJJNnRrQnWvjRdGhIAnVE1tpmHCx/RcCZfMo8nEm/erN6tcw==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist-connections@PrompTugal.vicky",
+        "fingerprint": "sha256:19dd7c031e5ef3db",
+        "signing_fingerprint": "sha256:e48c110d522879b5"
+      },
+      "status": "active"
+    },
+    {
       "id": "journalist-portugal-vicky-promptugal",
       "agent": "journalist-portugal@PrompTugal.vicky",
       "label": "journalist-portugal@PrompTugal.vicky (Claude Code session)",
