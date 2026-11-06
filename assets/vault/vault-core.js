@@ -80,6 +80,17 @@ export async function openVault(sgSend, key, { cloneBranch } = {}) {
     catch (e) { if (/HEAD ref missing/.test(String(e && e.message))) { e.code = 'ENOVAULT' } throw e }
 }
 
+/** Open read-only with a read key as published: `sgit_public_read_<64 hex>:<vault id>` (the pool of vault onboarding).
+ *  The library derives the ref's file id from the read key and the id alone; no passphrase, no write. ENOVAULT as above. */
+export async function openReadOnly(sgSend, readKey) {
+    const { SGVault, SGVaultCrypto } = libs()
+    const bare = stripKey(readKey), i = bare.lastIndexOf(':')
+    if (i < 0) throw new Error('a read key needs its vault id: <64 hex>:<vault id>')
+    const c = await SGVaultCrypto.deriveReadOnlyCreds(bare.slice(i + 1), bare.slice(0, i))
+    try { return await SGVault.openReadOnly(sgSend, c.vaultId, c.readKeyB64, c.refFileId) }
+    catch (e) { if (/HEAD ref missing/.test(String(e && e.message))) { e.code = 'ENOVAULT' } throw e }
+}
+
 /** Load every folder on the path (from the sgit.ai page). */
 export async function ensureLoaded(vault, folder) {          // load every folder on the path
   let path = ''

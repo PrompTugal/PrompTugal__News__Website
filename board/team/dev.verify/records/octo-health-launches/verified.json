@@ -1,0 +1,330 @@
+{
+  "$schema": "none",
+  "article": "octo-health-launches",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://jornaleconomico.sapo.pt/noticias/octo-health-lanca-em-portugal-e-nos-eua-plataforma-que-centraliza-toda-a-informacao-de-saude/",
+      "status": 200,
+      "read": true,
+      "chars": 4893
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/11/05/octo-health-launches-personalized-health-tracking-platform-in-portugal-and-u-s-after-earlier-e2-7m-raise/",
+      "status": 200,
+      "read": true,
+      "chars": 5950
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
+      "status": 200,
+      "read": true,
+      "chars": 6817
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
+      "status": 200,
+      "read": true,
+      "chars": 8487
+    }
+  ],
+  "spent_usd": 0.0784,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Octo Health raised a 2.7 million euro pre-seed round.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "uma ronda de financiamento pré-seed de 2,7 milhões de euros",
+          "note": "S1 states Octo Health's launch followed a pre-seed funding round of 2.7 million euros led by 3xP Global, and S2 corroborates it citing Jornal Económico."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "earlier €2.7 million pre-seed funding round",
+          "note": "The source directly states that Octo Health completed a €2.7 million pre-seed funding round."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ronda de financiamento pré-seed de 2,7 milhões de euros",
+          "note": "S1 states Octo Health's launch followed a €2.7 million pre-seed funding round."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The pre-seed round was led by 3xP Global.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "liderada pela 3xP Global",
+          "note": "S1 says the pre-seed round of €2.7 million was led by 3xP Global, and S2 repeats this, citing Jornal Económico."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "pre-seed funding round led by 3xP Global",
+          "note": "The source directly states that the pre-seed funding round was led by 3xP Global."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "pre-seed funding round led by 3xP Global",
+          "note": "The source states the pre-seed funding round was led by 3xP Global."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "Octo Health was founded in 2023.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Founded in Lisbon in 2023",
+          "note": "Source S2 states the company was founded in Lisbon in 2023, and S1 says the same in Portuguese ('fundada em Lisboa em 2023')."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Founded in Lisbon in 2023, Octo Health",
+          "note": "The source explicitly confirms that Octo Health was founded in 2023 in Lisbon."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "fundada em Lisboa em 2023",
+          "note": "S1 states Octo Health was founded in Lisbon in 2023."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "Octo Health is based in Lisbon.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "Founded in Lisbon in 2023",
+          "note": "The sources say Octo Health was founded in Lisbon, but none states where it is currently based, so the claim goes beyond the text."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S2",
+          "quote": "Founded in Lisbon in 2023",
+          "note": "The sources confirm that Octo Health was founded in Lisbon in 2023, but do not state that it is currently based there."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "fundada em Lisboa",
+          "note": "The source says Octo Health was founded in Lisbon, but does not explicitly say it is based there."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "Octo Health's platform offers clinical testing for more than 110 biomarkers.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "offering clinical testing for more than 110 biomarkers",
+          "note": "S2 states directly that the platform offers clinical testing for more than 110 biomarkers, and S1 (Portuguese) says the same: \"realizar análises clínicas a mais de 110 biomarcadores.\""
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "offering clinical testing for more than 110 biomarkers",
+          "note": "The source explicitly states that the platform offers clinical testing for more than 110 biomarkers."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "offering clinical testing for more than 110 biomarkers",
+          "note": "The source explicitly states that Octo Health's platform offers clinical testing for more than 110 biomarkers."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "The platform covers 11 health areas.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "A plataforma cobre 11 áreas de saúde",
+          "note": "S1 (Jornal Económico) states the platform covers 11 health areas, and S2 repeats this in English as \"The platform covers 11 health areas.\""
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "The platform covers 11 health areas",
+          "note": "The source directly states that the platform covers 11 health areas."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "The platform covers 11 health areas",
+          "note": "The source explicitly states that the platform covers 11 health areas."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "In Portugal, Octo Health costs from 8 euros a month.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Em Portugal, a Octo Health está disponível a partir de 8 euros por mês.",
+          "note": "S1 states that in Portugal Octo Health is available from 8 euros per month, matching the claim; the claim's 'costs' wording is a close paraphrase of 'disponível a partir de 8 euros por mês'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Em Portugal, a Octo Health está disponível a partir de 8 euros por mês",
+          "note": "The source directly states that in Portugal, Octo Health is available starting from 8 euros per month."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Em Portugal, a Octo Health está disponível a partir de 8 euros por mês.",
+          "note": "S1 states that in Portugal Octo Health is available from 8 euros per month."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "The package with tests starts at 199 euros a year, according to Jornal Económico.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "tem preço a partir de 199 euros por ano",
+          "note": "Jornal Económico states that the package including analyses is priced from 199 euros per year, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "O pacote que inclui análises tem preço a partir de 199 euros por ano.",
+          "note": "Jornal Económico reports that the package including tests/analyses starts at 199 euros per year."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "O pacote que inclui análises tem preço a partir de 199 euros por ano.",
+          "note": "Jornal Económico states the package including tests starts at 199 euros per year."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "Octo Health announced its launch in Portugal and the United States on 4 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "anunciou o lançamento da sua solução tecnológica em Portugal e nos Estados Unidos",
+          "note": "S1 reports the announcement and is timestamped 4 Novembro 2026, 17h15, though the announcement itself is not separately dated, so the date rests on the article's publication date."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "A Octo Health, plataforma de saúde proativa fundada em Lisboa em 2023, anunciou o lançamento da sua solução tecnológica em Portugal e nos Estados Unidos.",
+          "note": "While the article reporting the announcement was published on 4 November, the source does not state that the announcement itself was made on that date."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "4 Novembro 2026, 17h15 A Octo Health, plataforma de saúde proativa fundada em Lisboa em 2023, anunciou o lançamento da sua solução em Portugal e nos Estados Unidos.",
+          "note": "S1 dates the article 4 November 2026 and states that Octo Health announced its launch in Portugal and the United States."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "Catarina Kemper is the founder and CEO of Octo Health.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "afirma Catarina Kemper, fundadora e CEO da Octo Health",
+          "note": "S1 (Jornal Económico) quotes Catarina Kemper as 'fundadora e CEO da Octo Health', and S2 likewise states Octo Health 'is led by founder and CEO Catarina Kemper'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Octo Health is led by founder and CEO Catarina Kemper",
+          "note": "The source directly states that Catarina Kemper is the founder and CEO of Octo Health."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Catarina Kemper, fundadora e CEO da Octo Health",
+          "note": "S1 identifies Catarina Kemper as founder and CEO of Octo Health."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

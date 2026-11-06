@@ -1,9 +1,11 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 18:33 done (every article has an image; the offline mode designed)",
-  "updated": "2026-11-06T19:00Z",
+  "state": "working: session 2; hourly wake 19:33 done (the daily hand-over debrief; an image for the new Brazil article)",
+  "updated": "2026-11-06T19:50Z",
   "done": [
+    "The daily hand-over debrief (CLAUDE.md, Dinis 17:55): board/team/designer/debriefs/2026-11-06-handover.md",
+    "An AI infographic for the new article brazil-on-the-stages (3 calls, 0.42 USD: one draft with duplicates and one with a misspelt company name rejected); every published article has an image",
     "Six more AI infographics, so every published article now has an image: google/gemini-3-pro-image, 10 calls, 1.46 USD (four first drafts rejected for a garbled word, a leaked style note, a misspelt agent name and a garbled line with a pronoun; redrawn and checked)",
     "The offline mode's design (row 3 of its pass): the badge and band with the copy's own time, Save for offline, the saved list with Clear offline data: board/spec-offline-mode-design.md, design/decisions/offline/",
     "Took designer.experiments@'s daily hand-over debrief",
@@ -186,7 +188,14 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "every article has an image (six more, 1.46 USD); the offline mode designed"
+    },
+    {
+      "started": "2026-11-06T19:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the hand-over debrief; an image for brazil-on-the-stages"
     }
   ],
-  "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"
+  "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)",
+  "debrief": "board/team/designer/debriefs/2026-11-06-handover.md"
 }

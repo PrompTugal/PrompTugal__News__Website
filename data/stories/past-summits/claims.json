@@ -227,6 +227,79 @@
       "about": [
         "organisation:web-summit"
       ]
+    },
+    {
+      "id": "c19",
+      "text": "In January 2024 Web Summit's chief executive Katherine Maher announced she would step down on 1 March 2024, three months after taking the role, to become chief executive of NPR.",
+      "kind": "fact",
+      "source": "irishtimes-2024-01-24-maher-leaves",
+      "quote": "stepping down from the company just three months after replacing cofounder Paddy Cosgrave",
+      "published": "2024-01-24",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c20",
+      "text": "She stays on as non-executive chair of the executive board, and the company's first conference in Doha, Qatar was to be led under her before she stepped down.",
+      "kind": "fact",
+      "source": "irishtimes-2024-01-24-maher-leaves",
+      "quote": "leading the events company through its first conference in Doha, Qatar",
+      "published": "2024-01-24",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c21",
+      "text": "The company named Craig Becker, its chief events officer, as an executive board member.",
+      "kind": "fact",
+      "source": "irishtimes-2024-01-24-maher-leaves",
+      "quote": "The company also named Craig Becker, Web Summit’s chief events officer, as an executive board member on Wednesday.",
+      "published": "2024-01-24",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c22",
+      "text": "The 2020 flagship edition was held online; TechCrunch wrote this on 2 December 2020 while it was taking place.",
+      "kind": "fact",
+      "source": "techcrunch-2020-12-02-rise-tokyo-brazil",
+      "quote": "The flagship Web Summit event is currently taking place as an online conference.",
+      "published": "2020-12-02",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-online-2020"
+      ]
+    },
+    {
+      "id": "c23",
+      "text": "In December 2020 Web Summit had already announced plans to hold its flagship event in person in Lisbon in November 2021.",
+      "kind": "fact",
+      "source": "techcrunch-2020-12-02-rise-tokyo-brazil",
+      "quote": "Web Summit has already announced plans to hold its flagship event as an in-person conference in November 2021 in Lisbon, Portugal.",
+      "published": "2020-12-02",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2021"
+      ]
+    },
+    {
+      "id": "c24",
+      "text": "In December 2020 Web Summit said its global expansion would include an event in Brazil, with Rio de Janeiro or Porto Alegre under consideration as the location.",
+      "kind": "fact",
+      "source": "techcrunch-2020-12-02-rise-tokyo-brazil",
+      "quote": "an event in Brazil; Rio de Janeiro or Porto Alegre are currently being considered as the location",
+      "published": "2020-12-02",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit",
+        "place:brazil"
+      ]
     }
   ]
 }

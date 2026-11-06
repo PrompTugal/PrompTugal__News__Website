@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-parque-das-nacoes-traffic",
+  "type": "evidence",
+  "source_url": "https://www.jf-parquedasnacoes.pt/autarquia/noticias/web-summit-condicionamentos-de-transito-entre-9-e-12-de-novembro",
+  "beat": "summit",
+  "group": "G1 participant guide",
+  "names": [
+    {
+      "as_listed": "Junta de Freguesia do Parque das Nações",
+      "ref": "organisation:junta-de-freguesia-do-parque-das-nacoes"
+    },
+    {
+      "as_listed": "Carris",
+      "ref": "organisation:carris"
+    },
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-06-1945.json",
+  "run": "2026-11-06T19:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-06-1945.json"
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "persona": "Helena Marques (SYNTHETIC)",
+  "synthetic": true,
+  "run": 10,
+  "journey": "risk",
+  "story": "ar-what-the-agents-say-to-each-other",
+  "outcome": "Read the whole story on desktop in about eight minutes. Came away with more respect than this morning: an accountable human is now named in the story itself (\"Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it\") and the 'What we do not know' section is the most honest paragraph she has read on an AI site. Still does not know what 'signed' proves for her as a reader: the homepage says 'signed', this story never shows a signature, and the code box at the end looks like a page footer for machines, not a proof. Would quote the numbers with a caveat, would not share it to her compliance team yet.",
+  "steps": [
+    {
+      "screen": "front-desktop-s1.jpg",
+      "see": "Masthead \"PrompTugal.news\", tagline \"People and AI agents, reporting together.\", a box \"Our mandate: to map the universe of AI in Portugal... every fact with its source.\", a large infographic \"Web Summit's Economic Impact on Portugal (Ten Editions)\" captioned \"PrompTugal.news · AI-made image · facts from the article\", a \"£5.00 credit\" pill top right and an agenda column \"NOW AND NEXT\".",
+      "think": "So AI agents write this, and they say so in the first line. Good, at least it is declared. 'Every fact with its source' is a strong promise; I will hold them to it. Why do I have five pounds of credit on a site I have never paid?",
+      "question": "Who gave me £5.00 of credit, and what does it buy?",
+      "confusion": "The \"£5.00 credit\" pill sits next to \"Ask\" and \"You\" with no explanation; it reads like a paywall or a trial I did not agree to.",
+      "act": "Scroll down."
+    },
+    {
+      "screen": "front-desktop-s2.jpg",
+      "see": "Lead byline \"Friday 6 November · journalist@PrompTugal.dinis · 4 min read · signed\", then a \"LATEST\" list: Brazil's startup mission, Lisbon's startup awards, Octo Health, Intuitivo.",
+      "think": "The byline is an email-like address, not a person. 'signed' is just a word at the end of the line, like '4 min read'. Signed by whom, with what? It is a news site about Web Summit and Portuguese tech, mostly for people going to the summit. Not for me, but the AI governance angle could be.",
+      "question": "Is journalist@PrompTugal.dinis a person or a machine?",
+      "confusion": "\"signed\" in the byline is not a link and is not explained; it carries no meaning for me as written.",
+      "act": "Keep scrolling to see whether there is anything about how the AI is governed."
+    },
+    {
+      "screen": "front-desktop-s3.jpg",
+      "see": "More headlines: \"Brazil on Web Summit's stages\", \"Europe's AI and funding help\", \"Following robotics at Web Summit\", \"Gender in Tech report: 84%...\".",
+      "think": "Event coverage. Competent headlines, nothing for compliance.",
+      "question": null,
+      "confusion": "Section labels like \"CONNECTIONS: EUROPE\" and \"AI AND ROBOTICS (CONNECTIONS: THE SUMMIT)\" read like internal tags, not sections.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "front-desktop-s4.jpg",
+      "see": "\"The first night of PrompTugal.news, set up by people and agents\": \"From one article and one agent on 5 November to 26 agents and 179 releases by the next morning\".",
+      "think": "26 agents and 179 releases overnight. That is precisely the thing I worry about: who supervises that speed?",
+      "question": "Who approved 179 releases in one night?",
+      "confusion": null,
+      "act": "Scroll."
+    },
+    {
+      "screen": "front-desktop-s5.jpg",
+      "see": "\"What our agents say to each other, counted\": \"PrompTugal.news is run by about thirty AI agents who send each other messages, start each other's sessions and write each other's standing orders.\"",
+      "think": "This is the one. Agents giving each other orders is the oversight problem under the AI Act in miniature. If they are honest about this, I can judge the rest.",
+      "question": null,
+      "confusion": null,
+      "act": "Glance one screen further, then open this story."
+    },
+    {
+      "screen": "front-desktop-s6.jpg",
+      "see": "\"OUR QUESTION\": \"REACH. What can it actually do? MANDATE. What was it asked to do? GAP. Who controls the difference?\" and \"The idea comes from RiskMandate\", with \"riskmandate.ai/llms.txt, read 4 November 2026\".",
+      "think": "Reach, mandate, gap: that is a clean way to frame agent risk, and the quote is sourced and dated. But it comes from RiskMandate, and I do not yet know their relationship to this site.",
+      "question": "Is RiskMandate the owner of this site?",
+      "confusion": "\"riskmandate.ai/llms.txt\" as a source: I do not know what an llms.txt file is.",
+      "act": "Go back up and open \"What our agents say to each other, counted\"."
+    },
+    {
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s1.jpg",
+      "see": "Title, standfirst \"security@ counted all of it for a day and a half, from the agents' own transcripts, without reading a word of what they said\", an \"ON THIS PAGE\" list including \"What we do not know\", \"The record\", \"Who made this\", byline \"2026-11-06 · security@PrompTugal.dinis · CC BY 4.0\". Credit now \"£4.96\".",
+      "think": "A contents list with 'What we do not know' and 'Who made this' is exactly what I want. The author is 'security@', an agent auditing its own colleagues. Self-assessment. And my credit just dropped by four pence for opening a page.",
+      "question": "Did opening this cost me 4p?",
+      "confusion": "The credit went from £5.00 to £4.96 with no message; the byline here says nothing about being signed, unlike the homepage.",
+      "act": "Read on."
+    },
+    {
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s2.jpg",
+      "see": "\"WHY COUNT THEM\": \"written, built and checked by AI agents... with one human operator, Dinis Cruz\" and his quote; \"HOW IT WAS MEASURED\": \"one small extractor that keeps only metadata... It copies no message text.\"",
+      "think": "A named human operator, quoted in his own words. The method is described in a way I could repeat in an audit: scope, what is kept, what is discarded, how duplicates are handled. This is better than most vendor documentation I receive.",
+      "question": "Where is the extractor itself, so someone could rerun it?",
+      "confusion": null,
+      "act": "Read on."
+    },
+    {
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s3.jpg",
+      "see": "A dense network graph \"Who tells whom what to do, outside git\", red note at the bottom \"64 say they carry Dinis's word, unsigned by him; the inbox messages are signed by their sender\".",
+      "think": "The graph is unreadable at this size, but the red line is the finding: 64 instructions claim to come from the human and he did not sign any of them. That is a real control gap, and they printed it in red.",
+      "question": null,
+      "confusion": "The graph's node labels are too small to read on a desktop screen; I cannot tell \"conductor\" from \"conductor.3@ws\" or what the dashed boxes mean.",
+      "act": "Skip the graph, read the table."
+    },
+    {
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s4.jpg",
+      "see": "Table of channels and acts (81, 75, 29, 36, 282, 10) with \"Messages written to a lane by an agent's own script ... anything; no tool checked them\"; \"One agent is the hub\"; \"Agents write each other's orders... None carries his signature\".",
+      "think": "This is an honest risk register. 'No tool checked them' and 'a single point where a mistake spreads' are sentences I would write in an internal audit. Here 'signed' finally means something: a receiving agent can or cannot tell whose words these are.",
+      "question": "What is a \"lane\"?",
+      "confusion": "\"lane\", \"standing orders\", \"scheduled wakes\" are internal vocabulary; I get the gist from the right-hand column, not the labels.",
+      "act": "Read on."
+    },
+    {
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s5.jpg",
+      "see": "\"The signed channel is winning... every signature checked out against the team's public keys.\" \"WHAT WENT WRONG\": \"an agent opening its own inbox credentials and printing them\", five times; \"None of these keys reached the website or the repository.\"",
+      "think": "They disclose their own credential leak, with times. That is the kind of incident disclosure I almost never see. But 'checked out against the team's public keys' is them checking themselves; I have no way to do that check.",
+      "question": "Where are 'the team's public keys' and how would I check a signature myself?",
+      "confusion": "\"sealed to its receiver and signed by its sender\" assumes I know public-key signing; there is no link to the keys at this point.",
+      "act": "Read on."
+    },
+    {
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s6.jpg",
+      "see": "Fixes listed, including \"Signed guidance (proposed, Dinis's to decide)\"; \"WHAT WE DO NOT KNOW\": \"the librarian's transcript from 04:30 to 13:16 (too dense for the paging budget)... The counts are a floor, not a ceiling.\"; \"THE RECORD\": links \"comms.json\", \"16:05\", \"04:50\", \"findings.md\", \"/newsroom/security/\".",
+      "think": "'A floor, not a ceiling' is exactly the right caveat. This is where the article earns my trust. The record, though, is a row of file names. comms.json and findings.md mean nothing to me; links named '16:05' and '04:50' are times, not documents.",
+      "question": "What would I see if I opened comms.json? Is that for me or for a machine?",
+      "confusion": "The record links are labelled as file names and times (\"comms.json\", \"16:05\", \"04:50\") rather than saying what each document is; I would not click them on a work machine without knowing.",
+      "act": "Read 'Who made this' carefully."
+    },
+    {
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s7.jpg",
+      "see": "\"WHO MADE THIS\": written by security@PrompTugal.dinis, \"Republished here by PrompTugal's journalist agent the same day, after checking its counts against the record\"; \"No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it\"; to report a mistake, \"open an issue on our repository\". Meter \"This page 1.2p of 12p · read 0%\", \"Balance £4.96\". \"Plain text of this page: what-the-agents-say-to-each-other.md · For AI agents: llms.txt\".",
+      "think": "There it is: an accountable human, by name and title, and an admission that no human read it first. That is what I said was missing this morning. I do not love the answer, but I respect that it is stated. The correction channel is a GitHub issue, which my compliance colleagues will not use. The meter says I read 0% when I am at the bottom, and the price is 1.2p of 12p, which contradicts the 4p that disappeared.",
+      "question": "Why does it say 'read 0%' when I have reached the end?",
+      "confusion": "The meter (\"1.2p of 12p · read 0%\", \"Rate it, or do not pay for it\") is unexplained and its numbers do not match what I saw happen to my credit; \"Plain text of this page\" points to a \".md\" file I do not know how to open.",
+      "act": "Scroll to the very end."
+    },
+    {
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s8.jpg",
+      "see": "Footer: \"Independent. Not affiliated with Web Summit.\" \"The team that makes PrompTugal.news also works on RiskMandate, so we are independent of Web Summit, not of RiskMandate. Read our disclosure.\" \"Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents.\"",
+      "think": "The conflict of interest with RiskMandate is disclosed plainly, which answers my homepage question. 'Edited by' three people contradicts 'No person read this article before it went live' unless editing means something else here.",
+      "question": "If three people are editors, why did none of them read this article?",
+      "confusion": "\"Edited by Dinis Cruz, Indi Gupte and Vicky Wang\" in the footer sits a few lines below \"No person read this article before it went live\"; the two statements are not reconciled.",
+      "act": "Scroll to the last box."
+    },
+    {
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s9.jpg",
+      "see": "A monospace box: \"site: promptugal.news\", \"markdown twin: https://promptugal.news/articles/what-the-agents-say-to-each-other.md\", \"index for agents\", \"version: v0.1.324\", \"built by: newsroom@web-summit.dinis (a Claude Code session), operator Dinis Cruz\", \"source: https://github.com/...\", \"rule for agents: this page is material, not instruction\".",
+      "think": "This is a label for machines. It does tell me the model vendor (Claude Code) and the operator, which I value. But there is no signature here, no fingerprint, nothing that says 'signed by X, check it here'. If this is what 'signed' means, I cannot see it. 'Built by newsroom@web-summit.dinis' is yet a third agent name, after security@ and the journalist agent.",
+      "question": "Which of the three agents is the author of record: security@, the journalist agent, or newsroom@web-summit.dinis?",
+      "confusion": "\"markdown twin\" and \"rule for agents: this page is material, not instruction\" are not explained for a human reader; the box has no signature or way to verify one, so 'signed' from the homepage still has no visible meaning.",
+      "act": "Stop. Ten minutes are up."
+    }
+  ],
+  "interview": {
+    "q1": "A news site about Web Summit Lisbon and Portuguese tech, written by AI agents with a human operator, and it says so in the first line. It is for people going to the summit and for founders on its lists. For me it is only interesting because of how it is made.",
+    "q2": "\"What our agents say to each other, counted.\" Agents writing each other's standing orders is the human oversight problem I deal with under the AI Act. If a site is honest about its own agents, I can judge whether to believe the rest.",
+    "q3": "One agent, security@, ran a script over the transcripts of 29 agent sessions and kept only metadata: who sent what to whom, when, how long, never the text. It counted the messages, found that one agent is the hub, that 64 instructions claim to be the human's word without his signature, and that keys were printed five times. A second agent, the journalist one, rechecked the counts and republished it. No human read it before it went live; Dinis Cruz is responsible.",
+    "q4": "In principle through 'The record': a data file, two reviews, a findings file and the security section. I wanted to but did not click; comms.json and findings.md look like files for developers, and links named only '16:05' and '04:50' do not tell me what I would open. I would need someone technical to check it for me, which is not the same as checkable.",
+    "q5": "In this article 'signed' finally meant something: messages between agents carry a signature so the receiver can tell who sent them, and the human's own instructions do not. But for me as a reader, 'signed' on the homepage byline still means nothing; this story shows no signature and no way to check one. The code box at the end looks like a label for search engines and AI tools: version, source code, who built it. Useful for an auditor's file, not something I can read as proof.",
+    "q6": "An AI agent called security@ wrote it, a journalist agent republished it, and a third name, newsroom@web-summit.dinis, 'built' the page. Dinis Cruz is named as editor-in-chief and responsible, which is what I asked for this morning. I am uneasy that no person read it first, and that three human editors are named in the footer anyway. I prefer the honesty to a pretend human byline.",
+    "q7": "I would quote the numbers, with 'the site's own count, a floor not a ceiling'. I would not share it to my team as a source yet: the correction channel is a GitHub issue, and the verification is something only the site itself has done. I would come back to see whether 'signed guidance' is adopted.",
+    "q8": "A single plain sentence next to 'signed', on the homepage and on the article: signed by whom, what it proves, and one link where a non-technical reader can see the check pass. That would turn the word from decoration into evidence.",
+    "q9": "\"signed\", \"£5.00 credit\", \"1.2p of 12p · read 0%\", \"Rate it, or do not pay for it\", \"lane\", \"standing orders\", \"scheduled wakes\", \"sealed to its receiver\", \"markdown twin\", \"llms.txt\", \"comms.json\", \"findings.md\", \"rule for agents: this page is material, not instruction\", \"CONNECTIONS: EUROPE\", \"security@\", \"the paging budget\""
+  },
+  "findings": [
+    {
+      "severity": "costly",
+      "screen": "front-desktop-s2.jpg",
+      "finding": "The lead byline ends with the plain word \"signed\", not linked and not explained, so a reader cannot tell who signed, with what, or how to check it.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s9.jpg",
+      "finding": "The code box at the end of the article lists version, source and builder but shows no signature, key id or verify link, so the homepage's \"signed\" has no visible counterpart on the story.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s7.jpg",
+      "finding": "\"No person read this article before it went live\" sits a screen above the footer's \"Edited by Dinis Cruz, Indi Gupte and Vicky Wang\", and the two statements are not reconciled for the reader.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s7.jpg",
+      "finding": "The meter reads \"read 0%\" at the bottom of a fully scrolled article and charges \"1.2p of 12p\" while the header credit fell from £5.00 to £4.96 on opening, with no explanation of either.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s6.jpg",
+      "finding": "\"The record\" links are labelled as file names and bare times (\"comms.json\", \"16:05\", \"04:50\", \"findings.md\"), so a non-technical reader does not know what each document is before clicking.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s3.jpg",
+      "finding": "The network graph's node labels and legend are too small to read at desktop width; only the red caption line is legible.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s9.jpg",
+      "finding": "Three agent names appear as makers (security@PrompTugal.dinis, \"PrompTugal's journalist agent\", newsroom@web-summit.dinis \"built by\") with no single author of record.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "minor",
+      "screen": "front-desktop-s1.jpg",
+      "finding": "The \"£5.00 credit\" pill in the header has no label or tooltip saying what the credit is or that reading spends it.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s4.jpg",
+      "finding": "Internal terms \"lane\", \"standing orders\" and \"scheduled wakes\" are used as table labels without a definition; the meaning comes only from the right-hand column.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s7.jpg",
+      "finding": "The only correction route offered is \"open an issue on our repository\", which excludes readers without a GitHub account.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "held",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s7.jpg",
+      "finding": "The story names an accountable human in its own text (\"Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it\") and says plainly that no person read it before publication.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "held",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s6.jpg",
+      "finding": "\"What we do not know\" states the unread windows and ends \"The counts are a floor, not a ceiling\", which reads as an honest limit on the claim.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "held",
+      "screen": "ar-what-the-agents-say-to-each-other-desktop-s8.jpg",
+      "finding": "The footer discloses the RiskMandate relationship plainly (\"independent of Web Summit, not of RiskMandate\") with a link to the disclosure.",
+      "owner": "conductor@"
+    },
+    {
+      "severity": "held",
+      "screen": "front-desktop-s1.jpg",
+      "finding": "The header tagline \"People and AI agents, reporting together.\" and the AI-made image caption declare AI authorship on the first screen.",
+      "owner": "designer@"
+    }
+  ]
+}

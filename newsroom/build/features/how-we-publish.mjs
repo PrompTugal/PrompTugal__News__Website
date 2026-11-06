@@ -12,7 +12,7 @@ export function pages(ctx) {
         `It is a draft by ${meta.author || 'Vicky Wang'}, kept by ${meta.committed_by || 'checker@PrompTugal.vicky'}; comments in a commit, For: checker@PrompTugal.vicky.`
     // the shell gives the page its <h1> from the title, so the file's own first heading is left out of the body
     const md = label + '\n\n' + body.replace(/^\s*# [^\n]*\n/, '')
-    return [{ rel: REL, title: String(meta.title || 'How we publish'), summary: `How an article goes from a desk's draft to promptugal.news: who does what, when, and who approves. ${status.charAt(0).toUpperCase() + status.slice(1)}.`, md, src: SRC, date: meta.date ? String(meta.date) : undefined, crumbs: [['about/index.html', 'About'], [null, 'How we publish']] }]
+    return [{ rel: REL, title: String(meta.title || 'How we publish'), summary: String(meta.summary || 'How a story becomes an article on PrompTugal.news, step by step.'), md, src: SRC, date: meta.date ? String(meta.date) : undefined, crumbs: [['about/index.html', 'About'], [null, 'How we publish']] }]
 }
 export function validate(gate) {
     if (!gate.generated.has(REL)) return [`how-we-publish: ${REL} was not built from ${SRC}`]

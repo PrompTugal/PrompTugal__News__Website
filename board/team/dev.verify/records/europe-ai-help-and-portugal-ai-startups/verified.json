@@ -1,0 +1,330 @@
+{
+  "$schema": "none",
+  "article": "europe-ai-help-and-portugal-ai-startups",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate",
+      "status": 200,
+      "read": true,
+      "chars": 5147
+    },
+    {
+      "url": "https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en",
+      "status": 200,
+      "read": true,
+      "chars": 3536
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
+      "status": 200,
+      "read": true,
+      "chars": 6817
+    },
+    {
+      "url": "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/",
+      "status": 200,
+      "read": true,
+      "chars": 8479
+    }
+  ],
+  "spent_usd": 0.0773,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "DG Connect runs the session 'Building AI in Europe: Practical Support for Innovators' on 11 November at 14:30.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "14:30-15:15 – DG CONNECT Masterclass Building AI in Europe: Practical Support for Innovators",
+          "note": "The agenda lists this DG CONNECT Masterclass at 14:30 under the '11 November' heading, which comes after the 10 November entries and before the 12 November entries."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "11 November 12:10 – 12:30 – EUIPO Panel The new financing frontier: How intellectual property unlocks capital. This discussion will examine how IP-backed finance can help innovative companies access capital and scale their businesses. 14:30-15:15 – DG CONNECT Masterclass Building AI in Europe: Practical Support for Innovators",
+          "note": "Source 1 explicitly lists the DG Connect masterclass 'Building AI in Europe: Practical Support for Innovators' on 11 November from 14:30 to 15:15."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "14:30-15:15 – DG CONNECT Masterclass Building AI in Europe: Practical Support for Innovators",
+          "note": "S1's agenda lists this DG CONNECT Masterclass under 11 November at 14:30-15:15."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "HaDEA hosts the session 'Investing in technological sovereignty: EU funding for your project' at 15:30.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "On 11 November at 15.30 , the European Health and Digital Executive Agency (HaDEA) will host a workshop entitled",
+          "note": "S2 states HaDEA hosts this exact workshop at 15:30, though S1 places the 15:30 HaDEA Masterclass under 10 November, a date conflict the claim does not address."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "On 11 November at 15.30 , the European Health and Digital Executive Agency (HaDEA) will host a workshop entitled “Investing in technological sovereignty: EU funding for your project”",
+          "note": "The source directly confirms that HaDEA hosts the specified session at 15:30 on 11 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "15:30-16:15 – HaDEA Masterclass Investing in technological sovereignty: EU funding for your project",
+          "note": "The source agenda lists HaDEA hosting that titled session at 15:30."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "EuroHPC runs the session 'Level up for free: Access EU supercomputing, AI & quantum resources' at 16:00.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources",
+          "note": "The DigitalEU Web Summit agenda lists this EuroHPC Masterclass at 16:00-16:45 under the 10 November heading, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "16:00-16:45 – EuroHPC Masterclass\nLevel up for free: Access EU supercomputing, AI & quantum resources",
+          "note": "Source S1 confirms that the EuroHPC Masterclass titled 'Level up for free: Access EU supercomputing, AI & quantum resources' is scheduled at 16:00."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources",
+          "note": "S1 lists the EuroHPC Masterclass with that exact title starting at 16:00."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "HaDEA has a stand at E418 in Pavilion 4 throughout the summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Throughout Web Summit, HaDEA representatives and EU-funded projects will also be available at stand E418 in Pavilion 4",
+          "note": "S2 states that HaDEA will be at stand E418 in Pavilion 4 throughout Web Summit, and S1 independently places HaDEA at stand E418 in Pavilion 4."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Throughout Web Summit, HaDEA representatives and EU-funded projects will also be available at stand E418 in Pavilion 4",
+          "note": "Source S2 confirms that HaDEA representatives will be available at stand E418 in Pavilion 4 throughout Web Summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Throughout Web Summit, HaDEA representatives and EU-funded projects will also be available at stand E418 in Pavilion 4",
+          "note": "S2 states HaDEA will be available at stand E418 in Pavilion 4 throughout Web Summit."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "Técnico shows robots at stand E272 in Pavilion 2 from 10 to 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Pavilhão 2, número E272 … De 10 a 12 de novembro",
+          "note": "The Técnico article places the school's stand at Pavilion 2, number E272, for 10 to 12 November, and says visitors can see several robots there, including the Unitree G02 and G1."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Pavilhão 2, número E272 – são estes os dados a memorizar para encontrar o Instituto Superior Técnico, Universidade de Lisboa, representado na edição de 2026 da Web Summit . De 10 a 12 de novembro, os visitantes que passarem pela banca da Escola terão a oportunidade de descobrir em primeira mão alguns dos projetos e tecnologias desenvolvidos pela comunidade da instituição. Ao longo dos três dias, os visitantes poderão conhecer diversos robôs",
+          "note": "Source 4 confirms that Técnico will be at stand E272 in Pavilion 2 from 10 to 12 November showcasing various robots."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Pavilhão 2, número E272 – são estes os dados a memorizar para encontrar o Instituto Superior Técnico, Universidade de Lisboa, representado na edição de 2026 da Web Summit . De 10 a 12 de novembro, os visitantes que passarem pela banca da Escola terão a oportunidade de descobrir em primeira mão alguns dos projetos e tecnologias desenvolvidos pela comunidade da instituição. Ao longo dos três dias, os visitantes poderão conhecer diversos robôs",
+          "note": "S4 states Técnico's Web Summit stand is E272 in Pavilion 2 and that robots are shown there from 10 to 12 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "Granter has just raised €1.6 million to expand into Spain, Germany and Italy.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "has raised €1.6 million in an investment round to support its international expansion",
+          "note": "The article says the new capital will let Granter accelerate its expansion into Spain, Germany, and Italy, though it also names the US as a medium-term priority, which the claim omits."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Granter secures €1.6M to expand its AI grant platform into Spain, Germany, and Italy",
+          "note": "The source directly confirms that Granter raised €1.6 million to expand into Spain, Germany, and Italy."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Granter secures €1.6M to expand its AI grant platform into Spain, Germany, and Italy",
+          "note": "The source states Granter raised €1.6 million and will accelerate expansion into Spain, Germany, and Italy."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "Granter won Web Summit's PITCH competition in 2025.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Granter won PITCH, Web Summit&#8217;s startup competition, in 2025.",
+          "note": "The Portugal Startup News article says Granter won Web Summit's PITCH startup competition in 2025, and it repeats this in a second passage that gives November 2025."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Granter won PITCH, Web Summit’s startup competition, in 2025.",
+          "note": "The source explicitly confirms that Granter won Web Summit's PITCH startup competition in 2025."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Granter won PITCH, Web Summit’s startup competition, in 2025.",
+          "note": "S3 directly states that Granter won Web Summit's PITCH competition in 2025."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Técnico brings six spin-offs to the summit: Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "o Técnico traz também seis spin-offs",
+          "note": "The Técnico article says the school brings six spin-offs to Web Summit and names the same six start-ups (Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves); a separate, not-yet-chosen start-up is mentioned for a different UniVerse project."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "o Técnico traz também seis spin-offs que tiveram origem no seio da instituição . As start-ups presentes serão Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew e Testwaves",
+          "note": "The source directly states that Técnico brings six spin-offs to Web Summit 2026, naming Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew, and Testwaves."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "seis spin-offs que tiveram origem no seio da instituição . As start-ups presentes serão Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew e Testwaves.",
+          "note": "S4 explicitly states Técnico brings six spin-offs and lists exactly those six startups."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "PERSEPHONE develops autonomous robots for safer mining of critical raw materials.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Developing autonomous robotic technologies and digital solutions to make the exploration and extraction of critical raw materials safer",
+          "note": "S2 describes PERSEPHONE as developing autonomous robotic technologies to make exploration and extraction of critical raw materials safer, which matches the claim's wording closely, though the source says \"extraction\" rather than \"mining\" and \"robotic technologies\" rather than \"robots.\""
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "PERSEPHONE project: Developing autonomous robotic technologies and digital solutions to make the exploration and extraction of critical raw materials safer",
+          "note": "The PERSEPHONE project is explicitly described as developing autonomous robotic technologies to make the extraction and exploration (mining) of critical raw materials safer."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Developing autonomous robotic technologies and digital solutions to make the exploration and extraction of critical raw materials safer",
+          "note": "S2 states the PERSEPHONE project develops autonomous robotic technologies and digital solutions to make critical raw material exploration and extraction safer."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "DG GROW is at stand E415 and EuroHPC is at stand E405.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "DG GROW at stand E415 and HaDEA at stand E418, both in Pavilion 4, and EuroHPC at stand E405",
+          "note": "S1 states both stand numbers directly, matching the claim exactly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "You can find DG GROW at stand E415 and HaDEA at stand E418, both in Pavilion 4, and EuroHPC at stand E405.",
+          "note": "The source directly states that DG GROW is at stand E415 and EuroHPC is at stand E405."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "You can find DG GROW at stand E415 and HaDEA at stand E418, both in Pavilion 4, and EuroHPC at stand E405.",
+          "note": "The source explicitly states both stand assignments in the claim."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

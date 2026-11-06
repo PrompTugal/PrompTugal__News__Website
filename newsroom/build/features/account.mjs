@@ -152,6 +152,8 @@ export function api(ctx) {
             about: `The vault pane's config for ${ctx.HOST}, from ${VAULT} by newsroom/build/features/account.mjs. Public facts only: no key, token or passphrase is ever here.`,
             endpoint: V.endpoint, door_constant: V.door_constant, library: V.library,
             access_key: { status: V.access_key.status, what: V.access_key.what, where: V.access_key.where },
+            recovery: V.recovery,
+            onboarding: V.onboarding,
             hook: 'window.__vault: save(path, json), load(path), list(prefix), status(), open(tab); see assets/vault/README.md',
         },
     }]
