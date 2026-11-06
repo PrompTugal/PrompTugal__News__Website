@@ -44,3 +44,17 @@ function dayPage(ctx, d, i) {
 }
 
 export function pages(ctx) { return STRIP_DAYS.map((d, i) => dayPage(ctx, d, i)) }
+
+// Offline-first data: one JSON file per day (api/v1/days/<date>.json) and an index of them (api/v1/days.json), small enough for the
+// service worker to cache whole (dev@), so a day's schedule and the reader's picks open with no network.
+export const api = ctx => {
+    const { itemsOn, TODAY, DAY } = load(ctx), W = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).offline
+    const days = STRIP_DAYS.map(d => {
+        const items = itemsOn(d).sort(byTime).map(e => ({ id: e.id, time: e.time || null, title: e.what, kind: KIND[e.kind] || e.kind, where: e.where || null, page: `${ctx.BASE}events/${e.id}/`, source: e.session_url || e.source_url || null }))
+        return { date: d, label: DAY(d), when: d < TODAY ? 'past' : d === TODAY ? 'today' : 'future', page: `${ctx.BASE}days/${d}/`, count: items.length, items }
+    })
+    return [
+        { path: 'api/v1/days.json', schema: null, data: { about: W.about, version: ctx.VERSION, updated: TODAY, days: days.map(({ items, ...d }) => ({ ...d, data: `${ctx.BASE}api/v1/days/${d.date}.json` })) } },
+        ...days.map(d => ({ path: `api/v1/days/${d.date}.json`, schema: null, data: { about: W.about, version: ctx.VERSION, ...d } })),
+    ]
+}

@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 17:13, the correspondent's five per day (data side) on work/dev.pages",
-  "updated": "2026-11-06T17:35Z",
+  "state": "working: wake 18:01, offline data and the hand-over debrief on work/dev.pages",
+  "updated": "2026-11-06T18:30Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
@@ -34,18 +34,20 @@
     "Past days as the site was (S2): newsroom/tools/past-day.mjs <date> <tag> <out>: rebuilds the site from the day's last release tag in a temporary worktree with the clock frozen at 23:00 UTC that day, writes it under days/<date>/as-was/ with a banner and noindex, without api/ and the repository's documents; proven on 5 Nov (v0.1.37): banner, 'Today, Thursday 5 November', 14 MB; NOT wired into the build or CI",
     "dev@'s combined newsletter taken as it is on dev (my conflicting copy dropped)",
     "The correspondent's five per day: the day pages read data/front/days.json ({ days: { '<date>': { picks: ['<event id>', ...] } } }, max five, schema front-days.schema.json, KINDS line in datacheck.mjs) and show those in place of the ranked five; the file exists empty (about only) for correspondent@ to fill; tested with one pick (shown) and reverted; a day without an entry shows the ranked five",
-    "Merged dev cleanly"
+    "Merged dev cleanly",
+    "Offline mode (my part): api/v1/days.json and api/v1/days/<date>.json, one small JSON per summit day (every session with time, place, page, source), 124 KB in all, for dev@'s service worker to cache; the reader's schedule (/my-day/, assets/schedule/schedule.js, picks in localStorage and the vault) was already on dev",
+    "Hand-over debrief written (board/team/dev.pages/debriefs/2026-11-06-handover.md), public"
   ],
   "next": [
+    "dev@'s service worker: precache api/v1/days.json and the day files and /my-day/ (tell me if the schedule needs a change for offline)",
     "Wire past days into CI once S3 is answered",
-    "Strip as a block on the right (fit to dev@'s C top when it lands); the strip's past days link to the as-was pages once wired",
-    "Newsletter editions to use the same picks (newsletter.mjs is dev@'s: it has its own five; to switch it to days.mjs's)",
-    "Companies: logos, search-first, By country; articles By topic; front F6"
+    "The correspondent's five; the strip on the right; companies logos and search-first; articles By topic; F6"
   ],
   "asks": [
     "correspondent@: fill data/front/days.json with your five event ids per day (schema data/schemas/front-days.schema.json); the day pages pick them up at the next build",
     "security@ and dev@: S3 still open (where the corrections and removals list lives) before the past days go into CI",
     "dev@: newsletter.mjs picks its own five by rank; to use the correspondent's picks, take them from data/front/days.json the way days.mjs does",
     "Dinis: I still cannot drain my inbox (the drain tool is on the team site, not an allowed repository in my session)"
-  ]
+  ],
+  "handover": "board/team/dev.pages/debriefs/2026-11-06-handover.md"
 }
