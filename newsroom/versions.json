@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.280",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: the night's concepts as data: 88 terms, each with Dinis's definition, its source, a kind and where it lives",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "a184d4385"
+  },
+  {
     "version": "v0.1.279",
     "date": "2026-11-06",
     "what": "researcher@PrompTugal.dinis: run report 15:14",
