@@ -1,7 +1,7 @@
 {
   "agent": "dev.search@PrompTugal.dinis",
-  "state": "ok: run 20: onboarding tests for an empty pool and a full lane; my day opens offline",
-  "updated": "2026-11-06T21:40Z",
+  "state": "ok: run 21: instant results on C's field in the top of every page",
+  "updated": "2026-11-06T22:40Z",
   "done": [
     "session key dev.search-promptugal in board/keys.json",
     "ROLE.md",
@@ -24,18 +24,19 @@
     "18:05 wake: claims.json now exists on dev (claims_setup.py ran: enabled:false). Piece 2 built: assets/onboard/onboard.js (draw a key from the pool through a read-only open, verify the pool, open the licence; after the vault is made, the reader's keys, API key and mailbox id into the master and the signed claim to the lane with 3 tries on 507; the mailbox check on every unlock); assets/vault/vault.js: a 'Get a pilot access key' button in the no-door step (only when the config says enabled), the drawn access key lands in the create field, the claim after creation, the mailbox on unlock (event pt:mailbox); assets/vault/vault-core.js: openReadOnly (the library's deriveReadOnlyCreds + openReadOnly, for a published read key); the words are data (data/billing/vault.json onboarding, schema, API). Tests: newsroom/build/tests/test_onboard_browser.mjs (13 checks, Chromium, virtual PRF passkey, the vault mock): a forged pool refused and nothing made; a drawn key opens a licence; door, master, reader, recovery door made; one claim on the lane, opened by the sweep's key, reader signature verified, no API or access key inside; a mailbox message found once, opened and checked, not delivered twice. Shared issuer fixtures in newsroom/build/tests/onboard-fixtures.mjs. Existing tests unchanged: test_vault passes; billing browser 32 ok with the same 6 old sideways-scroll failures; gate OK",
     "19:04 wake: the new rule (CLAUDE.md, 17:55): wrote my hand-over debrief board/team/dev.search/debriefs/2026-11-06-handover.md (public: no secrets). The no-PRF path of vault onboarding: 'No passkey? Use a door code' in the locked pane: a 26-character code made in the browser, shown once in a password-manager form with an optional download, last four characters typed back, the door derived like a passkey's PRF bytes, no recovery door in this mode, claim door_mode door-secret; opening later with the code on any device; 'no vault answers to this code'. Words are data (data/billing/vault.json doorcode, schema, API). test_onboard_browser.mjs grows to 20 checks, all pass; test_vault passes; billing browser 32 ok with the same 6 old failures; gate OK",
     "20:04 wake: dev@ brought my branch's earlier state onto dev (929e6b1d); merging origin/dev conflicted in my vault files (dev@'s copies are older versions of my own lines: I kept mine) and in design/shots/feature-billing-*.png, which my billing test runs had rewritten and my 'git add -A' had committed: I took dev's pictures (no diff against dev now) and will not commit screenshots again. Mailbox: the issuer's messages now show in the vault pane before anything else (a welcome with its own signed text as plain text; a duplicate or a rekey explained from data and the new API key kept in the master; a message that cannot be checked is said to be ignored); unlock waits at most 8 seconds for the mailbox; test_onboard_browser: 25 checks pass (welcome shown, second message only, duplicate explained, forged refused, door code path); core 30 and interop 7 pass; test_vault passes; gate OK",
-    "21:05 wake: dev@ brought my branch again (8be7298c); clean merge. test_onboard_browser.mjs: an empty pool says so; a full lane (507) is tried three times, the vault is made, the claim not posted and said so, the lane takes nothing more: 28 checks pass. The offline pass (board/passes/2026-11-06-offline-mode.md, dev@ builds the service worker, dev.pages@ the schedule data): my day now keeps the picked sessions' rows on the device each time the programme loads (localStorage nr.schedule.cache.v1) and opens from them when the programme file cannot be fetched, saying 'Offline: the last saved programme, <time>'; checked in Chromium with the service worker unregistered and the programme request blocked; gate OK"
+    "21:05 wake: dev@ brought my branch again (8be7298c); clean merge. test_onboard_browser.mjs: an empty pool says so; a full lane (507) is tried three times, the vault is made, the claim not posted and said so, the lane takes nothing more: 28 checks pass. The offline pass (board/passes/2026-11-06-offline-mode.md, dev@ builds the service worker, dev.pages@ the schedule data): my day now keeps the picked sessions' rows on the device each time the programme loads (localStorage nr.schedule.cache.v1) and opens from them when the programme file cannot be fetched, saying 'Offline: the last saved programme, <time>'; checked in Chromium with the service worker unregistered and the programme request blocked; gate OK",
+    "22:04 wake: dev@ brought my branch (0ca87b5d); clean merge. dev@'s next list asked me for 'instant results on C's field': the field in the top of every page (design C, .ctop-search, input #ctop-q) now has the instant dropdown (groups, arrows, Enter, /), hung from the field; where that field is hidden (a phone) or on the front page the big bar stays; chromium at 1280: 12 results for 'algarve' hang from the top field, no big bar on inner pages; at 390: the big bar, no overflow; screenshot looked at; search tests and gate OK"
   ],
   "next": [
-    "a real run of onboarding once observability@ enables claims.json (Dinis or conductor@ says when): nothing more to build without it",
-    "offline: the profile page works offline already (browser data only); the list of saved articles under the profile is designer@/dev@'s",
-    "signed-in view switch ('normal view / <name>'s view') with designer@: still to start, after the vault is in use",
-    "REALITY.md lines (conductor@): my status notes at 12:30 hold them; add onboarding, door code, mailbox, my day, offline"
+    "a real onboarding run once observability@ enables claims.json: nothing to build until then",
+    "the signed-in view switch with designer@ (after the vault is in use)",
+    "REALITY.md lines for conductor@ (still in my notes and the debrief)",
+    "wait: I have no other open item; if the next wake finds nothing new, say so in one line and push nothing"
   ],
   "asks": [
-    "dev@: review work/dev.search",
-    "conductor@: REALITY.md still lacks my features; the lines are in my status notes (12:30) and the debrief",
-    "observability@: enable claims.json only after pool_mint.py"
+    "dev@: review work/dev.search (instant results on C's field)",
+    "conductor@: REALITY.md lines",
+    "Dinis: the pilot token (PT_PILOT_ACCESS_KEY) is still what starts onboarding for real"
   ],
   "notes": [
     "For REALITY.md: (1) The reader's profile: /profile/, assets/profile/profile.js, localStorage nr.profile.v1 only (500 pages, 200 searches), Pause/Clear/Download, tool profile.summary; for a verified key also a newsroom-first preference. (2) /search/: 'Answer in words' (reader's own OpenRouter key, read-level tools), the newsroom type, did you mean. (3) The big search bar on every page but /search/. (4) Tools api.files and api.read over every file under api/v1/. Not yet: signed-in view switch, per-person sealed content, search over vaults."
@@ -143,6 +144,12 @@
       "outcome": "ok",
       "release": "branch work/dev.search",
       "line": "onboarding empty pool and full lane tests; my day offline"
+    },
+    {
+      "started": "2026-11-06T22:04Z",
+      "outcome": "ok",
+      "release": "branch work/dev.search",
+      "line": "instant results on the top field of design C"
     }
   ],
   "debrief": "board/team/dev.search/debriefs/2026-11-06-handover.md"

@@ -228,9 +228,18 @@
         main.insertBefore(form, main.firstChild)
         attachInstant(form, input, {})
     }
+    /* the field in the top of every page (design C, .ctop-search): the instant results hang from it; where it is hidden (a phone) or on
+       the front page, the big bar stays */
+    function topField() {
+        const form = d.querySelector('.ctop-search'), input = form && form.querySelector('input')
+        if (!form || !input || w.getComputedStyle(form).display === 'none') return false
+        attachInstant(form, input, {})
+        return true
+    }
     function init() {
         topBar()
-        bigBar()
+        const hung = topField()
+        if (!hung || d.body.classList.contains('page-front')) bigBar()
         const m = d.getElementById('nr-search-page')
         if (m) searchPageUI(m)
     }
