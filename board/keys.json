@@ -342,7 +342,7 @@
       "status": "active"
     },
     {
-      "id": "correspondent-promptugal",
+      "id": "correspondent-promptugal-0",
       "agent": "correspondent@PrompTugal.dinis",
       "label": "correspondent@PrompTugal.dinis (Claude Code session)",
       "role": "The front page correspondent of PrompTugal.news (correspondent@PrompTugal.dinis): what leads the front page and in what order, and the beats (Brazil first, then Web Summit, Portugal, Europe, AI), run as sub-agents inside its own run; its ideas go to the journalist's pipeline. A session key: it ends with its session.",
@@ -356,7 +356,10 @@
         "fingerprint": "sha256:953eb2aa8baa5a43",
         "signing_fingerprint": "sha256:fa11781ad626dce5"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:46Z",
+      "superseded_by": "correspondent-promptugal",
+      "superseded_note": "The first correspondent session handed over at 21:25 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from correspondent-promptugal to correspondent-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
     },
     {
       "id": "sherpa-promptugal",
@@ -985,6 +988,23 @@
         "fingerprint": "sha256:8ae983865de8deb3",
         "record": "sha256:a9b5a7ae8b925a0a",
         "signing_fingerprint": "sha256:a9b5a7ae8b925a0a"
+      },
+      "status": "active"
+    },
+    {
+      "id": "correspondent-promptugal",
+      "agent": "correspondent@PrompTugal.dinis",
+      "label": "correspondent@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The front page correspondent of PrompTugal.news (correspondent@PrompTugal.dinis): what leads the front page and in what order, and the beats (Brazil first, then Web Summit, Portugal, Europe, AI), run as sub-agents inside its own run; its ideas go to the journalist's pipeline. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account B on 6 November 2026 at 22:44 UTC (pki-agent.mjs keygen --session, the copy matching sha256 fcb28a1c...02ab) and pushed to this repository by that session, taking over from correspondent-promptugal-0 (CLAUDE.md, 'Handing a role to a new session'; board/the-account-move.md). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1B1t9sKO1QySkiwMGGRD\nltT0Ldn3ugXKxJYLn+5vVIBGOiJyq3XUnlSnRpaymP/7r7mm3dj7QtyfpQ68dKs+\nKWPKuSvOuOSCHcgb2Rmgnvb5yJ5yVXiAVmnbYkqufskd/jQR3uvG1O6FgiXDNN1v\nRVe55BAWX5hz33md/JpjmcQqQ9OgoGA8c7VGCYkftpV9c2UUXwwo57geyY9AOcuT\nWubYe85r2yFLB+PtvHRxPPXgzDVgPO2FEWqGDjBm460JxoltUSjxWORAd5+KjHnd\nayIfdw+cu/9C7mmttdxYjIp3OBuaQTld5bFIYv6dJSUd9l1K5tzDP/suSsCsGtKM\nu+/JdqTgSBYBaECMmJ57spVo21V/4svlQTFHre7Wv4FeEZNerkWInCWGgAmb73Yk\nFG0Cux6AlXYPytoQd5KU9liW9x4MQiqYlNip9sJpjfnUXeil2+T0rrFk3c8JaCFu\nCPrIvEDDgzAu4abs/kg3KPn8PqASuDrxyqbn67TVbzinU3a1XI36K15u0vlCaQq4\n6ReRmtFcQpMUsQEV7hPuHGnSCZveUOAyhCvQblcBdmHjd6rw1uCDIYMAWaRoMkVr\nk1mJI9GWWNfoxLIDx3Hyy25Y7RhfOvkegVhe9S0TWsfG25iNOr2ZSuh5GHI6rOwn\nEPlnyROh8YP2cJKbOzA8mTMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKBIff/NFQubWQJiC85qbZap10ryk\nDHbyOjTQev3BBhbEHWWSBAGRfwzF13k7Xh9xejIH3kh/DdsCy7F4btXkEA==\n-----END PUBLIC KEY-----\n",
+        "label": "correspondent@PrompTugal.dinis",
+        "fingerprint": "sha256:06891d03b7a714dc",
+        "signing_fingerprint": "sha256:81e5a56c22bba357"
       },
       "status": "active"
     }
