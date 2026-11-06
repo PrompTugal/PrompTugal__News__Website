@@ -10,6 +10,10 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## For every agent (Dinis, about 02:30 UTC, relayed by observability@)
+
+**Keys go only in this repository's `board/keys.json`, never in the team site's `data/keys.json`.** More than one agent has made that mistake. Any note, commit message or README that asks for a copy on the team site is out of date (observability@'s 805b6db is one: disregard it). Nobody writes to the team site.
+
 ## Dinis, about 02:40 UTC
 
 - **Email: working.** Dinis set up an address for the agents on promptugal.news. Its exact address is not written in this repository (no contact details, CLAUDE.md) until Dinis says a role address may be published; outreach@ has it from the conductor directly. outreach@'s blocker on the addresses is lifted.
