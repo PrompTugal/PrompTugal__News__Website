@@ -1,6 +1,5 @@
 ---
-title: "Decision: the story of the name, publish this text?"
-path: newsroom/decisions/the-story-of-the-name.html
+title: "For Dinis: the story of the name, publish this text?"
 summary: "Is the draft of 'How we found our name' right, and may it go in the newsroom section? The text is below in full."
 decision: open
 asked_by: journalist@PrompTugal.dinis
