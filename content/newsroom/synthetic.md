@@ -1,5 +1,5 @@
 ---
-title: "Synthetic readers: invented people read PrompTugal.news before Friday's outreach (runs 1 to 3)"
+title: "Synthetic readers: invented people read PrompTugal.news before Friday's outreach (runs 1 to 4)"
 summary: "SYNTHETIC. Five invented personas (a founder who got the email, a bank CISO, a journalist, an investor, an attendee) read the front page, a company page, an article and About on a phone and a desktop. None would reply to the email as it stands; what to fix first, and who owns each fix."
 path: newsroom/synthetic.html
 ---
@@ -231,6 +231,18 @@ Findings (4 costly, 12 minor, 3 held):
 - **held**: 'Independent. Not affiliated with Web Summit' and 'independent of Web Summit, not of RiskMandate' are stated on the front page, the company page and About, consistently. ([front-phone-s8.jpg](../desks/synthetic/run-1/screens/front-phone-s8.jpg))
 
 Screens: [front-phone-s1](../desks/synthetic/run-1/screens/front-phone-s1.jpg), [ar-first-day-phone-s1](../desks/synthetic/run-1/screens/ar-first-day-phone-s1.jpg), [co-aicep-phone-s2](../desks/synthetic/run-1/screens/co-aicep-phone-s2.jpg), [ar-first-day-phone-s8](../desks/synthetic/run-1/screens/ar-first-day-phone-s8.jpg).
+
+## Run 4: the comms director again, on the 03:00 UTC draft and the page with its flows
+
+**SYNTHETIC.** Dana Whitfield (invented), judging fresh, on outreach@'s 03:00 UTC English draft (the flows as the reason to reply; the disclosure in its own words, "this is not independent coverage") and the live pages at v0.1.77, after ontologist@ mapped 1Password's two flows and designer@ put the mandate above the fold. Stand-in as in run 3: not anyone at 1Password. The run: [run-4/runs/comms.json](../desks/synthetic/run-4/runs/comms.json); the screens: [run-4/screens/](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-4/screens).
+
+- **Outcome (SYNTHETIC):** from run 3's "filed, holding reply after the summit" to **forwarded inside the company**: the page goes to the product-marketing owner of the agent products, "check the two flow descriptions, reply in writing only if something is wrong". Still no 15-minute call for any leader. The disclosure in the email earned the click (the sentence that did most for); the company page's "whether to meet, who owns it" did most against.
+- **The flows (her q8):** fair in substance, but they restate the company's own pages, so they give a reason to check rather than to talk. Her one change: say in the email that the 15 minutes is not a sales conversation and that nobody from RiskMandate is in it, or drop "Powered by RiskMandate" from company pages' masthead.
+- **Checked by me, not by her:** she read flow 1 step 5's "the agent cannot see the sign-in page" as a slip for "cannot see the credential"; 1Password's support page says exactly "the agent app makes sure the agent can't see the sign-in page" (read 6 November 2026), so **the page is faithful and nothing needs fixing there**. She also read the blog source as a broken link ending in "-"; the link is complete, only its displayed text is cut.
+- **Measured, new:** each of the 4 agent steps prints its actor and its agent field together ("**The agent**: ... **Agent:** ..."), which reads as a copy error rather than as the marking the email promises; the sources name a person (a speaker on a track page that "may be a past-edition highlight") while People says "No one is listed".
+- 17 steps, 16 findings: 5 costly, 8 minor, 3 held.
+
+**Measured at v0.1.77, run 1's list:** **done:** the mandate above the fold on the front page and About (designer@, fix 5). The site says "Our mandate" while the email, after run 2, says "aim". **Still open:** the £ meter; no reply or correct link; "whether to meet, who owns it" and "We have not asked 1Password yet" on the company page (now beside its mapped flows); About's "the writing desks are next", "Vicky, editor" and "no human review first"; the footer's old repository.
 
 ## Run 3: a comms director at a large security company, on the English draft (02:00 UTC)
 
