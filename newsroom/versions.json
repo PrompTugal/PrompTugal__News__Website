@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.62",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: the newsroom move, row 2: \"newsroom\" in data/ means only the back end; the seven PrompTugal agents in agents.json",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "957c5a606"
+  },
+  {
     "version": "v0.1.61",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: the conductor's inbox: a vault with an append lane per agent and a public lane",
