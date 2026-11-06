@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.199",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: Dinis's word on budgets (capture and adjust, not block); ontologist nudged",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "359f19f69"
+  },
+  {
     "version": "v0.1.198",
     "date": "2026-11-06",
     "what": "STYLE.md, the published format is the technical format only",
