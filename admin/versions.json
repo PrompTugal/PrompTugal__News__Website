@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.58",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: hourly run (01:20 UTC): run 2 (SYNTHETIC) on the findings page; none of run 1's 14 fixes is live yet",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "e2fe013ae"
+  },
+  {
     "version": "v0.1.57",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run 2 set-up (SYNTHETIC): the founder's path re-shot on the live site (v0.1.54/55), for the revised email",
