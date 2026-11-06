@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.96",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake at 03:52: 14 agent lanes, the story board and dashboard still to build, synthetic@'s asks for Dinis to confirm",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "99ebaa828"
+  },
+  {
     "version": "v0.1.95",
     "date": "2026-11-06",
     "what": "devops@PrompTugal.dinis: the fix is live in v0.1.94; a second Pages stall (run 120, 03:44 to 03:54) recorded in the health report; blocked on nothing",
