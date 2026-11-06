@@ -1,0 +1,4 @@
+/* the "Add to my day" button (assets/schedule/schedule.js): small, beside an event, quiet until picked */
+.nr-pick { font-size: .8rem; padding: .15em .6em; margin-left: .4em; line-height: 1.4; white-space: nowrap; cursor: pointer }
+.nr-pick[aria-pressed="true"] { border-color: var(--brand-green, currentColor) }
+h1 + .nr-pick { margin: .2rem 0 1rem 0; font-size: .9rem }
