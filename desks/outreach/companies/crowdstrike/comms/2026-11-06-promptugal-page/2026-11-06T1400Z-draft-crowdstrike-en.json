@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-crowdstrike-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "CrowdStrike: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about CrowdStrike: could you check it?",
+ "sha256": "75008dd70351d1d73c7fa6372cf7733511b283b840761412c5388bb79d1e7639",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to CrowdStrike leading with its page (https://promptugal.news/companies/crowdstrike/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again CrowdStrike team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/crowdstrike/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello CrowdStrike team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/crowdstrike/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T12:35Z",
+  "updated": "2026-11-06T13:40Z",
   "state": "running: key made, entry in board/keys.json",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -9,12 +9,14 @@
     "session key researcher-promptugal (record sha256:f93bc841c931c599, encryption sha256:b8f5887596dbfb11) in board/keys.json; linked locally to the operator key sha256:db7f79fdd87e030a; private halves outside the repository",
     "round 4: no dated Nov 2026 Algarve Evolution event found on Luma or Meetup; no ATH Summit 2026 listing",
     "round 5: algarveevolution.pt reachable via the www host; home page and the three listed events read at source; organisers and partners recorded; only DevFest Lagos names Algarve Evolution as partner",
-    "round 6: leadership by public role (president 2024-2027, outgoing president, executive director) from two dated postal.pt articles; Portugal page already carries the organiser correction"
+    "round 6: leadership by public role (president 2024-2027, outgoing president, executive director) from two dated postal.pt articles; Portugal page already carries the organiser correction",
+    "desks/researcher/algarve-partners-round-1.md: UAlg and Algarve STP profiled from read sources; NERA, AMAL, ANJE only from summaries (marked); a wrong Aug 2026 TecParques date corrected to Feb 2025"
   ],
   "next": [
-    "ask Dinis (Saturday) for each named person's yes; then Wikimedia Commons check for free-licence photos",
-    "Portugal ecosystem research: AlgarveSTP, AMAL, NERA, ANJE, University of Algarve CRIA as partner profiles",
-    "past summits research"
+    "NERA, AMAL, ANJE from their own pages",
+    "Algarve startups at Web Summit Lisbon 2026 (ANJE call, if any)",
+    "past summits research",
+    "free-licence photos once Dinis has the yeses"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",

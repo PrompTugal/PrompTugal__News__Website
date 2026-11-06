@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "chatplace",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "ai-manager",
+      "name": "An AI manager answers a creator's messages and calls them in when needed (ChatPlace)",
+      "summary": "ChatPlace's home page, for creators and small businesses on Instagram, TikTok and Telegram: \"Let AI handle your messages\".",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "A follower or customer",
+          "what": "Sends a DM, a comment or a tag on the creator's account.",
+          "source": "fl1"
+        },
+        {
+          "actor": "ChatPlace's AI Manager",
+          "what": "Understands the context and replies, in the creator's manner (\"chats like you\"), keeping the audience engaged and selling around the clock.",
+          "agent": "Replies on the creator's behalf.",
+          "source": "fl1"
+        },
+        {
+          "actor": "ChatPlace's AI Manager",
+          "what": "Saves client data and tracks common and missed questions.",
+          "agent": "Keeps the record of the conversations.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The creator",
+          "what": "Is notified when to step into the conversation.",
+          "source": "fl1"
+        },
+        {
+          "actor": "ChatPlace",
+          "what": "Feeds the rest of the creator's system: points for engagement, sales funnels and broadcasts, audience segments exported to payment systems, Google Sheets and other services.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

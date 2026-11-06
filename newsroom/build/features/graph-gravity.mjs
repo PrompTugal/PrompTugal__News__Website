@@ -6,7 +6,7 @@ const PAGES = {
     'graph/gravity/index.html': { id: 'gv', name: 'gravity', ui: ['by_field', 'by_country', 'png', 'canvas', 'empty', 'fail', 'noscript'] },
     'graph/industry/index.html': { id: 'gi', name: 'industry', ui: ['replay', 'png', 'canvas', 'empty', 'fail', 'noscript', 'caption', 'open'] },
     'graph/riskmandate/index.html': { id: 'gr', name: 'riskmandate', ui: ['replay', 'png', 'canvas', 'empty', 'fail', 'noscript', 'caption', 'open', 'reach', 'mandate', 'gap', 'notasked'] },
-    'graph/world/index.html': { id: 'gw', name: 'world', ui: ['all', 'png', 'canvas', 'empty', 'fail', 'noscript', 'caption', 'lisbon', 'count'], extra: 'data-world="../../assets/graph/world.json" data-outline="../../assets/vendor/world-atlas/countries-110m.json"' },
+    'graph/world/index.html': { id: 'gw', name: 'world', ui: ['all', 'png', 'canvas', 'empty', 'fail', 'noscript', 'caption', 'lisbon', 'count', 'europe', 'worldv'], extra: 'data-world="../../assets/graph/world.json" data-outline="../../assets/vendor/world-atlas/countries-110m.json"' },
 }
 
 export function decorate(page, ctx) {

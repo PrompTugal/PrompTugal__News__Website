@@ -11,6 +11,8 @@ export const cell = s => String(s || '').replace(/\|/g, '/').replace(/\s+/g, ' '
 // content links point at .md twins where it makes sense for a reader of the markdown; the HTML points at .html
 export const mdToHtmlLink = u => /^(https?:|mailto:|#)/.test(u) ? u : u.replace(/\.md(#|$)/, '.html$1')
 
+// a link to the outside world opens in a new tab (Dinis, 6 November 2026: "I should never lose where I was"; GR-22)
+export const OUTSIDE = u => /^https?:\/\//.test(u) && !/^https?:\/\/(www\.)?promptugal\.news(\/|$)/.test(u)
 export function inline(s) {
     const codes = []
     s = s.replace(/`([^`]+)`/g, (_, c) => { codes.push(`<code>${esc(c)}</code>`); return `\u0000${codes.length - 1}\u0000` })
@@ -24,7 +26,7 @@ export function inline(s) {
         const img = tag('img', { src: u, alt: esc(alt), width: sz?.[0], height: sz?.[1], loading: 'lazy', decoding: 'async' })
         return /--paper--/.test(u) ? tag('picture', {}) + tag('source', { media: '(prefers-color-scheme: dark)', srcset: u.replace('--paper--', '--ink--') }) + img + '</picture>' : img
     })
-    s = s.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g, (_, t, u) => `<a href="${mdToHtmlLink(u)}">${t}</a>`)
+    s = s.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g, (_, t, u) => `<a href="${mdToHtmlLink(u)}"${OUTSIDE(u) ? ' target="_blank" rel="noopener"' : ''}>${t}</a>`)
     s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>')
     return s.replace(/\u0000(\d+)\u0000/g, (_, i) => codes[+i])
 }
@@ -84,7 +86,8 @@ export function render(md) {
             while (i < lines.length && /^\s*([-*]|\d+\.)\s+/.test(lines[i])) {
                 let item = lines[i++].replace(/^\s*([-*]|\d+\.)\s+/, '')
                 while (i < lines.length && /^\s{2,}\S/.test(lines[i]) && !/^\s*([-*]|\d+\.)\s+/.test(lines[i])) item += ' ' + lines[i++].trim()
-                items.push(`<li>${inline(item)}</li>`)
+                const cls = (item.match(/^\{([a-z -]+)\}\s+/) || [])[1]   // an item may open with {class names}
+                items.push(`<li${cls ? ` class="${cls}"` : ''}>${inline(cls ? item.replace(/^\{[a-z -]+\}\s+/, '') : item)}</li>`)
             }
             push(`<${ordered ? 'ol' : 'ul'}>${items.join('')}</${ordered ? 'ol' : 'ul'}>`); continue
         }

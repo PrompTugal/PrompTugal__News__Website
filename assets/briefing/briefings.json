@@ -8,12 +8,182 @@
       "next": "Next",
       "label": "Slide {n} of {total}",
       "slides": [
-        { "title": "The graph", "stat": "{nodes}", "statLabel": "nodes joined by {edges} edges", "text": "Companies, people, sessions, places, days, topics and the evidence behind them, joined by named relations. It is the newsroom's map of Web Summit Lisbon 2026, and every line names its source." },
-        { "title": "Start from a question", "text": "The explorer never starts from everything. Find a company, a person or a session and expand it one hop at a time, or pick a ready-made view from the Preset list and read the sentence under the bar." },
-        { "title": "How is A connected to B?", "text": "Name two nodes and the explorer finds the shortest paths between them and reads each as a sentence, with the relation on every step." },
-        { "title": "Rank, filter, keep", "text": "Keep the top few nodes or edges by PageRank, betweenness or degree; filter by world, type, relation, day, country and field; Save PNG downloads what is on screen; Copy link shares the exact view." },
-        { "title": "The best of", "text": "Eight ready-made views, each with a sentence on what it is telling you.", "href": "graph/stories/index.html", "link": "Open the best of the graph" },
-        { "title": "Three pictures", "stat": "{companies}", "statLabel": "companies in the pictures", "text": "Centres of gravity shows where the companies gather by field or country. The industry map shows them as a tree by field. RiskMandate's ring shows the three questions asked of every company, none yet answered.", "href": "graph/gravity/index.html", "link": "Open centres of gravity" }
+        {
+          "title": "The graph",
+          "stat": "{nodes}",
+          "statLabel": "nodes joined by {edges} edges",
+          "text": "Companies, people, sessions, places, days, topics and the evidence behind them, joined by named relations. It is the newsroom's map of Web Summit Lisbon 2026, and every line names its source."
+        },
+        {
+          "title": "Start from a question",
+          "text": "The explorer never starts from everything. Find a company, a person or a session and expand it one hop at a time, or pick a ready-made view from the Preset list and read the sentence under the bar."
+        },
+        {
+          "title": "How is A connected to B?",
+          "text": "Name two nodes and the explorer finds the shortest paths between them and reads each as a sentence, with the relation on every step."
+        },
+        {
+          "title": "Rank, filter, keep",
+          "text": "Keep the top few nodes or edges by PageRank, betweenness or degree; filter by world, type, relation, day, country and field; Save PNG downloads what is on screen; Copy link shares the exact view."
+        },
+        {
+          "title": "The best of",
+          "text": "Eight ready-made views, each with a sentence on what it is telling you.",
+          "href": "graph/stories/index.html",
+          "link": "Open the best of the graph"
+        },
+        {
+          "title": "Three pictures",
+          "stat": "{companies}",
+          "statLabel": "companies in the pictures",
+          "text": "Centres of gravity shows where the companies gather by field or country. The industry map shows them as a tree by field. RiskMandate's ring shows the three questions asked of every company, none yet answered.",
+          "href": "graph/gravity/index.html",
+          "link": "Open centres of gravity"
+        }
+      ]
+    },
+    "graph/gravity/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        {
+          "title": "Centres of gravity",
+          "stat": "{companies}",
+          "statLabel": "companies in wells",
+          "text": "Each well is a field, or a country if you switch. Its size is the combined weight of its companies in the graph, and each dot is one company, bigger the more connected it is."
+        },
+        {
+          "title": "What to look for",
+          "text": "A big well is where the graph's weight sits. A small well with a few big dots is a niche with a few well-connected names. Tap any dot for what the company does and a link to its page."
+        },
+        {
+          "title": "Keep it",
+          "text": "Save as PNG downloads the picture as it is now. The same companies are drawn as a tree by field on the industry map and on the world map.",
+          "href": "graph/industry/index.html",
+          "link": "Open the industry map"
+        }
+      ]
+    },
+    "graph/industry/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        {
+          "title": "The industry map",
+          "stat": "{companies}",
+          "statLabel": "companies as leaves",
+          "text": "The centre is the industry. Each wedge is a field, as the newsroom files its companies; the wider the wedge, the more companies it holds."
+        },
+        {
+          "title": "Near the centre, well connected",
+          "text": "A company drawn close to the centre has more connections in the graph than one at the rim. The squares on the rim are programme tracks, placed on the field they map to."
+        },
+        {
+          "title": "Keep going",
+          "text": "Replay redraws it from the centre; Save as PNG downloads it. For the three questions asked of every company, see RiskMandate's ring.",
+          "href": "graph/riskmandate/index.html",
+          "link": "Open RiskMandate's ring"
+        }
+      ]
+    },
+    "graph/riskmandate/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        {
+          "title": "RiskMandate's ring",
+          "stat": "3",
+          "statLabel": "questions, asked of every company",
+          "text": "Reach: what can the agent actually do? Mandate: what was it authorised to do? Gap: who controls the difference? They sit at the centre."
+        },
+        {
+          "title": "What it does not show",
+          "text": "No relationship with RiskMandate is drawn, because none is public. No ranking, no target list, no answers: for every company on the ring, we have not asked yet."
+        },
+        {
+          "title": "Why it is here",
+          "text": "PrompTugal.news is powered by RiskMandate and is not independent of it; we say so on every page. This picture shows the lens, nothing more.",
+          "href": "riskmandate/index.html",
+          "link": "Read how the lens is used"
+        }
+      ]
+    },
+    "graph/world/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        {
+          "title": "The world map",
+          "stat": "{companies}",
+          "statLabel": "companies, each joined to Lisbon",
+          "text": "Every country with companies in the graph has a bubble sized by how many. A line runs from each to Lisbon, where Web Summit is held on 9 to 12 November 2026."
+        },
+        {
+          "title": "Filter by field",
+          "text": "Pick a field and the bubbles shrink to its companies; some countries drop away. Tap a country for its companies, each linking to its page."
+        },
+        {
+          "title": "A caution on countries",
+          "text": "The country is the one the graph holds for a company; for some it is where the speaker's listing puts them, not a sourced headquarters. A company page shows its source."
+        }
+      ]
+    },
+    "graph/stories/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        {
+          "title": "The best of the graph",
+          "text": "Eight ready-made views of the explorer, each with a sentence on what it is telling you. Open one and keep exploring from it."
+        },
+        {
+          "title": "Three more pictures",
+          "text": "Beyond the explorer: centres of gravity, the industry map, the world map and RiskMandate's ring, each a picture of the same companies.",
+          "href": "graph/gravity/index.html",
+          "link": "Open centres of gravity"
+        }
+      ]
+    },
+    "companies/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        {
+          "title": "Companies at the summit",
+          "stat": "{companies}",
+          "statLabel": "companies we follow",
+          "text": "Each profile holds public facts only, each with its source and the date it was read. Being listed is not an endorsement, and not a sign that we have met them."
+        },
+        {
+          "title": "Three ways in",
+          "text": "By field groups them by what they do; by country by where the graph places them; A to Z is the plain list.",
+          "href": "companies/index.html#v-field",
+          "link": "Start with the fields"
+        },
+        {
+          "title": "See them as a picture",
+          "text": "The same companies as wells by field, as a tree, and on a world map.",
+          "href": "graph/gravity/index.html",
+          "link": "Open centres of gravity"
+        }
       ]
     }
   }

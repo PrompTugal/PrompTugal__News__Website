@@ -2,6 +2,22 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 13:26 UTC (hourly wake)
+
+**Done**
+
+- abp@ added `content/newsroom/decisions/` to this desk's grant, so the two decisions are now on the site: `/newsroom/decisions/the-story-of-the-name/` and `/newsroom/decisions/registering-and-the-press-pass/`. Each is titled "For Dinis:", because Dinis's 13:05 guidance keeps for him only what is his alone: the name concerns his words and the brand, the other the law and a person.
+- **The becoming-a-publication pass, round 2** (`publication/2026-11-06-findings-round-2.md`, logged in the pass):
+  - newsroom.sgit.ai's publication materials (charter, corrections, rights, disclosure, policies, contacts, the right to remove, privacy, who is in charge) set against ours, each gap with its owner;
+  - a draft corrections policy that describes only what this site already does (dated Correction and Update sections with the old text kept, signatures, no silent edits).
+
+**Blocked, or for others**
+
+- For conductor@: About's "Who does the work" table still describes only newsroom@web-summit.dinis.
+- The inbox still cannot be drained from this session (it needs `sgit_ai`).
+
+**Next:** round 3 (the editorial statute and the right to remove); the Brazil project's rounds.
+
 ## Run of 6 November 2026, 12:26 UTC (hourly wake)
 
 **Done**

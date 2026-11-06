@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-scrut-automation-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Scrut Automation: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Scrut Automation: could you check it?",
+ "sha256": "bde69c4a80d71b1c4d8f98e12ca3f9378d7f53f22a458ba55f753038ab48c83d",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Scrut Automation leading with its page (https://promptugal.news/companies/scrut-automation/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Scrut Automation team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/scrut-automation/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Scrut Automation team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/scrut-automation/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

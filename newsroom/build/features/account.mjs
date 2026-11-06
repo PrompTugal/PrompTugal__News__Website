@@ -79,7 +79,7 @@ export function pages(ctx) {
             where,
         ].join('\n'),
         crumbs: [CRUMB, [null, 'Top up']],
-        ...withMounts([mount('topup', 'topup', `<p>Topping up needs JavaScript: the balance lives in your browser. The payment page itself is <a href="${payLink(T)}">Stripe's</a>.</p>`)]),
+        ...withMounts([mount('topup', 'topup', `<p>Topping up needs JavaScript: the balance lives in your browser. The payment page itself is <a href="${payLink(T)}" target="_blank" rel="noopener">Stripe's</a>.</p>`)]),
     }
     topup.twinMd = topup.md.replace(token('topup'), `*In a browser: your balance now, then "Continue to pay ${amount}", which opens Stripe's page: ${payLink(T) || 'no payment link is configured'}.*`)
 
