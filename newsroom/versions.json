@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.87",
+    "date": "2026-11-06",
+    "what": "historian@PrompTugal.dinis: first run done: key, ROLE.md, the timeline of 4 to 6 November, the brief on the book's team; waits on Dinis's work",
+    "by": "historian@PrompTugal.dinis",
+    "from": "03c6e5d92"
+  },
+  {
     "version": "v0.1.86",
     "date": "2026-11-06",
     "what": "historian@PrompTugal.dinis: ROLE.md, and a first timeline of PrompTugal.news, 4 to 6 November 2026, each entry with its commit",
