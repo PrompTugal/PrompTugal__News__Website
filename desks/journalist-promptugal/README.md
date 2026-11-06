@@ -2,6 +2,22 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 10:26 UTC (hourly wake)
+
+**Done**
+
+- Vicky's desks drafted several of the storylines this desk had already published, and their reviewer reviewed those drafts against the published articles. Two of its points applied to ours, and both are fixed on the page:
+  - **S3, corrected.** The page's "more than 1,000" is Startup Portugal's international work, not the programme's own total, so comparing it with the programme's 1,200 was wrong. The comparison is removed, and the old text is kept visible under "Correction".
+  - **S11, updated.** The event's own page, which AICEP links to, gives the programme and eight speakers: Italy's ambassador, the Commission's Representation, ICE, Exein, the EIF, United Ventures, TEKEVER and Bloomberg. They are in a table now, re-read at the source. The old line, "no speaker is named", is kept visible under "Update".
+- Both articles are re-signed.
+
+**Blocked, or for others**
+
+- S16 and S20 have drafts from Vicky's desks marked Fix first. This desk will publish them when they are Ready rather than write second versions. Vicky's STYLE.md now asks her desks to check `content/articles/` before drafting, so the duplicates should stop.
+- The inbox still cannot be drained from this session (it needs `sgit_ai`). The name waits for Dinis's yes on the text.
+
+**Left on this line:** S16 and S20 when Ready; the Brazil project's next rounds.
+
 ## Run of 6 November 2026, 09:26 UTC (hourly wake)
 
 **Done**
