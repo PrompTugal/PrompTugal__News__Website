@@ -5,7 +5,7 @@ import { slotLine, slotList } from '../lib/present.mjs'
 export const order = 25
 
 let A
-const load = ctx => A || (A = (() => {
+export const load = ctx => A || (A = (() => {
     const { TODAY, DAY } = ctx
     // the agenda's items are the events derived from the programme desk's file (data/events/, newsroom/tools/derive.mjs)
     const items = ctx.store.events.filter(e => e.listed_as).map(e => ({ ...e, what: e.title, kind: e.listed_as, speakers: e.speakers.map(s => s.as_listed) }))
@@ -16,11 +16,11 @@ const load = ctx => A || (A = (() => {
     return { AGENDA, days, itemsOn, readSpan: `${r[0].slice(0, 10)} to ${r[r.length - 1].slice(0, 10)}`, TODAY, DAY }
 })())
 
-const KIND = { registration: 'Registration', summit: 'Summit', announcement: 'Press conference', pitch: 'PITCH', 'night-summit': 'Night Summit', 'side-event': 'Side event', 'team-pick': 'Our pick' }
+export const KIND = { registration: 'Registration', summit: 'Summit', announcement: 'Press conference', pitch: 'PITCH', 'night-summit': 'Night Summit', 'side-event': 'Side event', 'team-pick': 'Our pick' }
 const linkOf = i => i.session_url || i.source_url
 // the events page's day anchor for a day's list: the official programme's, unless the day has only other events
 const i0 = all => all.some(i => i.organiser === 'web-summit') ? 'web-summit' : 'other'
-const rank = i => i.kind === 'registration' || /opening night/i.test(i.what) ? 0
+export const rank = i => i.kind === 'registration' || /opening night/i.test(i.what) ? 0
     : i.kind === 'announcement' || (i.kind === 'pitch' && /final|winner/i.test(i.what)) ? 1
     : i.kind === 'summit' ? 2 : i.kind === 'side-event' ? 3 : i.kind === 'night-summit' ? 4 : 5
 
@@ -29,16 +29,19 @@ const rank = i => i.kind === 'registration' || /opening night/i.test(i.what) ? 0
 const STRIP = ['2026-11-06', '2026-11-07', '2026-11-08', '2026-11-09', '2026-11-10', '2026-11-11', '2026-11-12', '2026-11-13']
 const LABEL = { '2026-11-09': 'Opening', '2026-11-10': 'Day 1', '2026-11-11': 'Day 2', '2026-11-12': 'Day 3', '2026-11-13': 'After' }
 
+export const STRIP_DAYS = STRIP
+// the strip of days; `current` is the day being viewed (ringed), or none on the front page
+export function stripMd(ctx, rel, current) {
+    const { itemsOn, TODAY } = load(ctx)
+    return `{.day-strip}\n` + STRIP.map(d => {
+        const wd = new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { weekday: 'short', timeZone: 'UTC' }), n = itemsOn(d).length
+        const cls = [d === TODAY ? 'today' : d < TODAY ? 'past' : '', d >= '2026-11-09' && d <= '2026-11-12' ? 'summit' : '', d === current ? 'viewing' : ''].filter(Boolean).join(' ')
+        return `- ${cls ? `{${cls}} ` : ''}[**${wd} ${+d.slice(8)}** *${d === TODAY ? 'Today' : LABEL[d] || (n ? n + ' items' : '')}*](${ctx.link(rel, `days/${d}/index.html`)})`
+    }).join('\n')
+}
+
 export const fill = {
-    'days:strip': (page, ctx) => {
-        const { itemsOn, TODAY } = load(ctx)
-        const cells = STRIP.map(d => {
-            const wd = new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { weekday: 'short', timeZone: 'UTC' }), n = itemsOn(d).length
-            const cls = [d === TODAY ? 'today' : d < TODAY ? 'past' : '', d >= '2026-11-09' && d <= '2026-11-12' ? 'summit' : ''].filter(Boolean).join(' ')
-            return `- ${cls ? `{${cls}} ` : ''}[**${wd} ${+d.slice(8)}** *${d === TODAY ? 'Today' : LABEL[d] || (n ? n + ' items' : '')}*](${ctx.link(page.rel, 'summit/agenda.html')}#d-${d})`
-        })
-        return `{.day-strip}\n${cells.join('\n')}`
-    },
+    'days:strip': (page, ctx) => stripMd(ctx, page.rel),
     'agenda:front': (page, ctx) => {
         // today and the next three days with something on, three highlights a day (sherpa F3: the column was two phone screens), drawn as the design's agenda
         const { days, itemsOn, TODAY, DAY } = load(ctx)
