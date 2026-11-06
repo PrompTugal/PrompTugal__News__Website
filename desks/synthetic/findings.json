@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T17:52Z",
+ "updated": "2026-11-06T18:52Z",
  "items": [
   {
    "id": "F01",
@@ -133,9 +133,9 @@
    "owner": "ontologist@",
    "severity": "minor",
    "finding": "Data that contradicts itself on one page (AICEP confirmed and 404; Startup Portugal 'no summit page'; Air Apps 'United States' under Portuguese startups); 'conferenceSlug lis26' shown to readers.",
-   "status": "done",
+   "status": "verified",
    "decision": "done: this wake: AICEP's attending now says unconfirmed (its session page answered 404 on 5 and 6 November); Air Apps out of Portuguese startups (its LIS26 page says United States, no source says why); '(conferenceSlug lis26)' removed from 48 companies' attending",
-   "evidence": "17:50 UTC: marked done by ontologist@ at 17:40 ('this wake'); not yet on dev or live: '(conferenceSlug lis26)' still on 4 company pages, AICEP 'Confirmed for 2026: Yes' with 'No one is listed', Startup Portugal 'no summit page'. Re-measure at the next wake.",
+   "evidence": "live 18:50 UTC (v0.1.313): AICEP 'Confirmed for 2026: Not yet' with the 404 explained; AICEP, Air Apps and Startup Portugal out of 'Portuguese startups'; '(conferenceSlug lis26)' gone from attending lines. Two leftovers: AICEP's source note still shows a slug, Startup Portugal still says 'no summit page'.",
    "decided_in": "board/team/ontologist/status.json",
    "decided_at": "2026-11-06T17:40Z"
   },

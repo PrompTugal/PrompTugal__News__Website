@@ -21,24 +21,24 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-224 cards (223 current, 0 superseded, 1 withdrawn), from the catalogue generated 2026-11-06T16:06:49Z at site v0.1.288; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+231 cards (230 current, 0 superseded, 1 withdrawn), from the catalogue generated 2026-11-06T18:58:39Z at site v0.1.316; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `LIB.AUTH` | 15 |
-| `LIB.CAT` | 49 |
+| `LIB.CAT` | 51 |
 | `LIB.DESK` | 20 |
-| `LIB.DOC` | 108 |
+| `LIB.DOC` | 112 |
 | `LIB.REAL` | 28 |
-| `LIB.STOCK` | 4 |
+| `LIB.STOCK` | 5 |
 
 Newest five accessions:
 
-- `ACC-20261106-2631` [Weeding: superseded and withdrawn holdings](https://promptugal.news/board/team/librarian/library/weeding.md) (`LIB.STOCK weeding`)
-- `ACC-20261106-2630` [latest.json](https://promptugal.news/board/team/librarian/library/stocktake/latest.json) (`LIB.STOCK latest`)
-- `ACC-20261106-2629` [Stocktake of the library, catalogue of 2026-11-06T13:45:24Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-06-1345.md) (`LIB.STOCK 2026-11-06-1345`)
-- `ACC-20261106-2628` [Stocktake of the library, catalogue of 2026-11-06T13:22:03Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-06-1322.md) (`LIB.STOCK 2026-11-06-1322`)
-- `ACC-20261106-2627` [For the conductor: where REALITY.md and the evidence disagree](https://promptugal.news/board/team/librarian/library/reality/for-conductor.md) (`LIB.REAL for-conductor`)
+- `ACC-20261106-2787` [Stocktake of the library, catalogue of 2026-11-06T16:06:49Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-06-1606.md) (`LIB.STOCK 2026-11-06-1606`)
+- `ACC-20261106-2786` [reading-room-390x844.png](https://promptugal.news/board/team/librarian/library/reviews/round-4/reading-room-390x844.png) (`LIB.DOC reading-room-390x844:2`)
+- `ACC-20261106-2785` [reading-room-1280x800-collections.png](https://promptugal.news/board/team/librarian/library/reviews/round-4/reading-room-1280x800-collections.png) (`LIB.DOC reading-room-1280x800-collections:2`)
+- `ACC-20261106-2784` [reading-room-1280x800.png](https://promptugal.news/board/team/librarian/library/reviews/round-4/reading-room-1280x800.png) (`LIB.DOC reading-room-1280x800:2`)
+- `ACC-20261106-2783` [Finding aid: pass 2026-11-06-algarve-evolution-sprint](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-algarve-evolution-sprint.md) (`LIB.DOC 2026-11-06-algarve-evolution-sprint`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

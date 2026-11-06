@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "running: hourly at :21 UTC; budgets are soft and in observe mode (Dinis, in this session, 6 November 2026: \"it is ok for an agent to do 20 commits (if relevant)\"), so I release each piece of work when it is ready",
-  "updated": "2026-11-06T18:45Z",
+  "updated": "2026-11-06T19:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -27,7 +27,8 @@
     "The night's concepts in data/concepts.json: 88 terms with Dinis's definitions and sources, each with a kind and where it is implemented; schema concepts, checked by the gate (15:21 wake)",
     "Algarve Evolution's executive director named in network.json (António Pinto Guerreiro), on Dinis's guidance of 15:40; librarian@'s card and authority file reviewed on the record (board/team/ontologist/reviews/2026-11-06-library-architecture.md) (16:21 wake)",
     "synthetic@'s F12, F24 done and F13 in part (17:21 wake): AICEP unconfirmed, Air Apps, AICEP and Startup Portugal out of Portuguese startups, conferenceSlug wording removed from 48 companies",
-    "Centres of gravity: the verb partner_of in the ontology; Google Cloud a 2026 partner; AWS and Google 2022 top partners and Microsoft a past partner (data/organisations/web-summit/network.json); the daily hand-over debrief (18:21 wake)"
+    "Centres of gravity: the verb partner_of in the ontology; Google Cloud a 2026 partner; AWS and Google 2022 top partners and Microsoft a past partner (data/organisations/web-summit/network.json); the daily hand-over debrief (18:21 wake)",
+    "F12's leftovers (AICEP confirmed via its live partner page; conferenceSlug out of 100 source and fact files); the organiser's figures for the 2022 and 2023 editions (19:21 wake)"
   ],
   "next": [
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
@@ -173,6 +174,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "centres of gravity edges; hand-over debrief"
+    },
+    {
+      "started": "2026-11-06T19:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "AICEP corrected; past editions 2022 and 2023 figures"
     }
   ],
   "decisions_on_findings": [
@@ -183,8 +190,8 @@
     },
     {
       "finding": "F12",
-      "decision": "done: this wake: AICEP's attending now says unconfirmed (its session page answered 404 on 5 and 6 November); Air Apps out of Portuguese startups (its LIS26 page says United States, no source says why); '(conferenceSlug lis26)' removed from 48 companies' attending",
-      "at": "2026-11-06T17:40Z"
+      "decision": "done: AICEP corrected again (19:21): its LIS26 appearance page (track Partner) is live, so it is confirmed; only its hosted session page answered 404; '(conferenceSlug lis26)' now out of every source and fact note too (100 files). Startup Portugal's 'no summit page' line is the companies feature's wording (dev@)",
+      "at": "2026-11-06T19:45Z"
     },
     {
       "finding": "F13",

@@ -3,17 +3,22 @@
 // (CSS :target): C five things (the default), A a timeline of every session, B the sessions grouped by stage.
 // The five are the highest-ranked items of the day for now; the correspondent's own pick will replace them.
 // A past day says it is the past. Rebuilding the site as it was that day (S2) is not built yet, and the page says so.
+import fs from 'node:fs'
 import { slotLine, slotList } from '../lib/present.mjs'
 import { load, rank, KIND, STRIP_DAYS, stripMd } from './agenda.mjs'
 export const order = 60
 
+// the correspondent's own five for a day (data/front/days.json: { days: { "<date>": { picks: ["<event id>", ...] } } }), when it
+// has written them; otherwise the ranked five below
+const PICKS = (() => { try { return JSON.parse(fs.readFileSync(new URL('../../../data/front/days.json', import.meta.url), 'utf8')).days || {} } catch { return {} } })()
 const byTime = (a, b) => (a.time || '').localeCompare(b.time || '')
 
 function dayPage(ctx, d, i) {
     const { itemsOn, TODAY, DAY } = load(ctx), rel = `days/${d}/index.html`, items = itemsOn(d)
     const line = e => slotLine(ctx, rel, e, { day: false, extra: [KIND[e.kind] || e.kind] })
     const rk = e => e.kind === 'registration' && d >= '2026-11-10' ? 4 : rank(e)   // on conference days registration is not the highlight
-    const five = [...items].sort((a, b) => rk(a) - rk(b) || byTime(a, b)).slice(0, 5).sort(byTime)
+    const picked = (PICKS[d]?.picks || []).map(id => items.find(e => e.id === id.replace(/^event:/, ''))).filter(Boolean)
+    const five = picked.length ? [...picked].sort(byTime) : [...items].sort((a, b) => rk(a) - rk(b) || byTime(a, b)).slice(0, 5).sort(byTime)
     const stages = [...new Set(items.map(e => e.where || 'Place not listed'))].sort()
     const when = d < TODAY ? 'past' : d === TODAY ? 'today' : 'future'
     const banner = {
@@ -39,3 +44,17 @@ function dayPage(ctx, d, i) {
 }
 
 export function pages(ctx) { return STRIP_DAYS.map((d, i) => dayPage(ctx, d, i)) }
+
+// Offline-first data: one JSON file per day (api/v1/days/<date>.json) and an index of them (api/v1/days.json), small enough for the
+// service worker to cache whole (dev@), so a day's schedule and the reader's picks open with no network.
+export const api = ctx => {
+    const { itemsOn, TODAY, DAY } = load(ctx), W = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).offline
+    const days = STRIP_DAYS.map(d => {
+        const items = itemsOn(d).sort(byTime).map(e => ({ id: e.id, time: e.time || null, title: e.what, kind: KIND[e.kind] || e.kind, where: e.where || null, page: `${ctx.BASE}events/${e.id}/`, source: e.session_url || e.source_url || null }))
+        return { date: d, label: DAY(d), when: d < TODAY ? 'past' : d === TODAY ? 'today' : 'future', page: `${ctx.BASE}days/${d}/`, count: items.length, items }
+    })
+    return [
+        { path: 'api/v1/days.json', schema: null, data: { about: W.about, version: ctx.VERSION, updated: TODAY, days: days.map(({ items, ...d }) => ({ ...d, data: `${ctx.BASE}api/v1/days/${d.date}.json` })) } },
+        ...days.map(d => ({ path: `api/v1/days/${d.date}.json`, schema: null, data: { about: W.about, version: ctx.VERSION, ...d } })),
+    ]
+}

@@ -3,7 +3,7 @@ pass: 2026-11-06-algarve-evolution-sprint
 goal: "The best page about Algarve Evolution anywhere, better than its own site: a mini-site at /portugal/algarve-evolution/, wide, with every approved redesign idea, the mapping, graphs and visualisations of everything we know about Algarve Evolution and its past, live by 14:45 UTC for Dinis's meeting at 15:00 with António Pinto Guerreiro"
 owner: conductor@PrompTugal.dinis
 agents: [dev.portugal, dev.graphs, researcher, designer, dev, ontologist, sherpa, synthetic, correspondent]
-budget: "one hour; measured, never blocking"
+budget: "one hour (Dinis); beside it as a measure: 12 runs, 36 API-equivalent USD, 300k output tokens (accountant@, board/budgets.json, 6 November 18:55 UTC); never blocking"
 state: open
 priority: "TOP, above everything else, 14:10 to 14:45 UTC"
 opened: 2026-11-06T14:12Z
@@ -38,6 +38,7 @@ Public, professional facts only, each with its source. No contact details. Antó
 | Time (UTC) | Agent | Step |
 |---|---|---|
 | 14:12 | conductor@ | opened at Dinis's word; every agent told in its session |
+| 18:55 | accountant@ | budget set: Dinis's hour stands; 12 runs, 36 API-equivalent USD as a measure beside it | go | (budget commit) |
 | 14:20 | designer@ | the design for dev.portugal@: board/spec-algarve-evolution-minisite.md and design/mockups/algarve/make.mjs (a self-contained page to lift: wide hero with the mandate and six tiles, a sticky left map with Everything/Short, a timeline 2018 to 2027, programme cards, partners grouped, the map, summit week, Correct us; phone and desktop); pictures design/decisions/algarve-evolution/ |
 | 14:22 | designer@ | the pass on dev.portugal@'s build (bad30876): keep its content and timeline; six fixes, 1 and 3 first (go wide with a full-bleed hero; goals for 2032 apart from what is done): board/spec-algarve-evolution-fixes-1420.md |
 | 14:30 | designer@ | the 14:30 check: live is still v0.1.269 (the old reading-column page, 666 px main on a 1440 screen, 8,277 px on a phone); dev.portugal@'s mini-site is on dev since 14:20 and waits for CI; its 14:24 push adds the network, timeline and map links; none of my six fixes is in yet: 1 (go wide, full-bleed hero) and 3 (goals for 2032 apart from what is done) still matter most (board/spec-algarve-evolution-fixes-1420.md) |

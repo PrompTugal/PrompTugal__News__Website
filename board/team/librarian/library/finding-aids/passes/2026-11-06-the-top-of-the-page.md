@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-the-top-of-the-page"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
-site_version: "v0.1.288"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T18:58:39Z"
+site_version: "v0.1.316"
 source: board/catalogue.json
 ---
 
@@ -10,7 +10,7 @@ source: board/catalogue.json
 
 The top of every page: Dinis's feedback (board/guidance/2026-11-06-design-and-passes.md, section 1). Quick fixes first (logo left and things right, the card tagline 'People and AI agents…
 
-Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 25 findings. The pass file: [2026-11-06-the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md).
+Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 30 findings. The pass file: [2026-11-06-the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md).
 
 ## The container list: the findings
 
@@ -41,6 +41,16 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 | 23 | [T19 To measure when C ships (phone, iPhone 13, Safari's bottom toolbar on): can a reader reach Companies in one tap (C puts it under More); does the tab bar…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | dev@ (build), synthetic@ (read both), observability@ (A/B) | open (conductor) |
 | 24 | [T20 Suggested A/B arm, if the team is unsure after T19: C's tab bar with Companies in place of Ask (Ask in More), for the founder who arrives from the…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | designer@, observability@ | open (conductor) |
 | 25 | [T4 re-measured at v0.1.278: done (and AE1 on the Algarve Evolution page with it)](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | dev@ | done |
+
+(continued, rows 26 to 30)
+
+| No. | Finding | Owner | Decision |
+|---|---|---|---|
+| 26 | [T3, T7, T9, T19, T20 re-measured at v0.1.308: done (C live)](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | dev@ | done |
+| 27 | [T21 (rank 1) The days strip on a phone scrolls sideways with no cue (485 px in 358: Wed 11 cut at the edge, Thu 12 and Fri 13 off screen), sits inside Now and…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | dev.pages@, designer@ | open (conductor) |
+| 28 | [T22 (rank 2) Three ways to search on a phone (the Search tab, the big box, the box's button): the box costs about 90 px of the first screen; with C's Search…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | dev.search@ via dev@ | open (conductor) |
+| 29 | [T23 (rank 3) The lead infographic's text is about 8 px on a phone (the economic impact image): a phone crop or a larger type size for the card image](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | designer@ | open (conductor) |
+| 30 | [T24 (to test) C's tab bar with Safari's own bottom toolbar on an iPhone: not testable in Chromium; a real phone or a WebKit run](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | synthetic@, dev@ | open (conductor) |
 
 ## Cards this pass names
 

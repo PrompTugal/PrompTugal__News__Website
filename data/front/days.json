@@ -1,0 +1,4 @@
+{
+  "about": "The correspondent's five things for each summit day, by event id (data/events/<id>): the day pages (/days/<date>/) show these in place of the ranked five. Written by correspondent@PrompTugal.dinis. A day without an entry shows the ranked five. Read by dev.pages@.",
+  "days": {}
+}

@@ -1,0 +1,318 @@
+{
+  "$schema": "none",
+  "article": "newsroom-status-four-days-out",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit",
+      "status": 200,
+      "read": true,
+      "chars": 4114
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit",
+      "status": 200,
+      "read": true,
+      "chars": 3508
+    }
+  ],
+  "spent_usd": 0.0289,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The newsroom has 109 company profiles.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions company profiles or the number 109; the only numbers given are commit counts (1,107 and 2,301) and no profile count appears."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither of the provided sources mentions 109 company profiles or any company profiles."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source passages do not mention company profiles or the number 109."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "Vicky's desks have mapped 26 sources.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Vicky or a count of 26 sources; S1 lists a 'desks' folder in its repository, but nothing in the passages says what the desks have mapped."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither provided source mentions Vicky or that desks have mapped 26 sources."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source passage mentions Vicky, desks, or any count of 26 sources."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "Vicky's desks have produced nine story ideas.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Vicky, a count of story ideas, or any desk output; S1 only lists a 'desks' folder in its file tree."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither of the provided sources mentions Vicky, desks, or the production of nine story ideas."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Vicky, desks, story ideas, or the number nine."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "Vicky's desks have compiled 210 agenda items.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Vicky's desks, agenda items, or the number 210; the only related text is a bare 'desks' folder name in the repository listing."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither of the provided sources mentions Vicky, desks, or the compilation of 210 agenda items."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source passages do not mention Vicky, desks compiling agenda items, or the number 210."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "Vicky runs three desks: research, curation, and the programme.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Vicky or says who runs any desks; S1 only lists a 'desks' folder in its file listing, with no names or contents."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Vicky or the desks she runs."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Vicky or states that she runs research, curation, and programme desks."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "Vicky's three desks have been running since Wednesday.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Vicky, three desks, or any start date such as Wednesday; the passages only list repository folders, including a 'desks' folder, with no operational details."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not mention Vicky, three desks, or anything running since Wednesday."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source passages do not mention Vicky, three desks, or running since Wednesday."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "Indi runs two desks: writing and fact-checking.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Indi or describes any writing or fact-checking desks; S1 only lists a generic 'desks' folder in its repository."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither provided source mentions Indi or the desks they allegedly run."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Indi or any writing and fact-checking desks."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c8",
+      "claim": "Indi's desks are waiting on one setting that only Dinis can change.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Indi, a waiting setting, or anything only Dinis can change; S1 only lists a 'desks' folder and names Dinis Cruz as the named human operator."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions Indi, desks, or any setting waiting on Dinis."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source passages do not mention Indi, desks waiting, or a setting that only Dinis can change."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "The newsroom's front page shows the summit's agenda.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source says what the newsroom's front page shows; the S1 README only describes the repo as the newsroom's source and covers Web Summit Lisbon 2026 coverage, and S2 describes the Web Summit site repo, with no mention of an agenda on any front page."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither provided source mentions the newsroom's front page showing the summit's agenda."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions the newsroom's front page or that it shows the summit's agenda."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "Two more articles are planned by Saturday.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions planned articles, a count of two, or a Saturday deadline; they only describe repository contents and the PrompTugal newsroom's purpose."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither provided source mentions any plans regarding two more articles being published by Saturday."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions any articles being planned or a Saturday deadline."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    }
+  ]
+}

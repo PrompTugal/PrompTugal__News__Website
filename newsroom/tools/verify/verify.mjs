@@ -30,7 +30,7 @@ const body = raw.replace(/^---[\s\S]*?\n---\n/, '');
 const section = (h) => { const m = body.match(new RegExp('^## ' + h + '[^\\n]*\\n([\\s\\S]*?)(?=^## |$(?![\\s\\S]))', 'm')); return m ? m[1] : ''; };
 const story = [section('In short'), section('The story')].join('\n').trim();
 const sourcesBlock = section('Where this comes from');
-const urls = [...new Set([...sourcesBlock.matchAll(/<(https?:\/\/[^>\s]+)>/g)].map(m => m[1]))].filter(u => !/tried and not reached/i.test(sourcesBlock.split(u)[0].split('\n').pop()));
+const urls = [...new Set([...sourcesBlock.matchAll(/<(https?:\/\/[^>\s]+)>|\]\((https?:\/\/[^)\s]+)\)/g)].map(m => m[1] || m[2]))].filter(u => !/tried and not reached/i.test(sourcesBlock.split(u)[0].split('\n').pop()));
 
 const text = (html) => html.replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, ' ').replace(/<[^>]+>/g, ' ')
   .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();

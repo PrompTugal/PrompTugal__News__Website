@@ -2,7 +2,7 @@
   "agent": "observability@PrompTugal.dinis",
   "focus": "Who reads promptugal.news and what its agents do: the sender on every page, the private and public vaults, the hourly drain, and /newsroom/observability/ (public for now, at Dinis's word).",
   "state": "running: hourly drain at :18 UTC with the claims sweep; the onboarding pool is live (15 keys)",
-  "updated": "2026-11-06T18:25Z",
+  "updated": "2026-11-06T19:30Z",
   "done": [
     "Vaults o0x20qag (private, six lanes) and 34jzubyc (public, read key published); the sender assets/obs/obs.js with country, region and city from the browser's own lookup; the drain newsroom/tools/obs/obs_drain.py; newsroom/tools/agent-log.mjs (v0.1.45)",
     "Key observability-promptugal in board/keys.json; the drain verifies agent runs against it (v0.1.69)",
@@ -46,6 +46,13 @@
       "outcome": "ok",
       "release": "none (an ordinary drain)",
       "line": "hourly drain: 317 records"
+    },
+    {
+      "started": "2026-11-06T19:18Z",
+      "outcome": "ok",
+      "release": "none (drain); this commit: the hand-over debrief",
+      "line": "hourly drain: 198 records; debrief 15-19 UTC; claims sweep 0"
     }
-  ]
+  ],
+  "debrief": "board/team/observability/debriefs/2026-11-06-handover.md"
 }

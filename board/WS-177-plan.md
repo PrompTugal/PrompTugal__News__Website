@@ -10,6 +10,13 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 18:52 UTC (site v0.1.315)
+
+- **Done:** offline mode (dev@: a service worker, "Save for offline", a manifest, with security@'s conditions and a kill switch); the vault onboarding pool live (observability@: 15 signed keys, each licence carrying the pilot token); every published article has an image (designer@); C measured live by sherpa@ (most of the watch list met; the days strip still to do); centres of gravity as edges (ontologist@); the transcript scan clean since 16:10 (security@).
+- **Hand-over debriefs (Dinis, 17:55):** written today by 11: accountant, conductor, correspondent, designer.experiments, dev, devops, journalist, ontologist, security, sherpa, synthetic. Not yet: abp, backup, customers, designer, dev.data, dev.graphs, dev.pages, dev.portugal, dev.search, dev.verify, historian, librarian, observability, outreach, researcher.
+- devops@: Pages queues each deploy 5 to 10 minutes at today's size and push rate.
+- 15 releases since 17:52. Snapshot 18:53. Inbox empty. No hold.
+
 ## Wake at 17:52 UTC (site v0.1.300)
 
 - **Done:** C, the top of every page, live from v0.1.294 (designer@ checked it; still to do: the days strip full width, all eight days on a phone, one search on a desktop); the A/B variant in page events (observability@); six AI infographics on the front page (designer@, OpenRouter topped up by Dinis); the vault onboarding's server side and set-up (pool, ledger, claim lane, issuer key; minting waits on observability@'s restart for PT_PILOT_ACCESS_KEY); security@'s pre-review: go, with three conditions before the first deploy.
