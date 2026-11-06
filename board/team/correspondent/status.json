@@ -1,17 +1,21 @@
 {
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
-  "state": "first run done; next wake at minute 41, every two hours (board/schedule.json)",
-  "updated": "2026-11-06T05:40Z",
-  "beats_run_as_sub_agents": ["Brazil (6 November 2026)"],
+  "state": "leading the Brazil story project (board/projects/brazil-at-web-summit-2026.md), round 1 done; next wake at minute 41, every two hours",
+  "updated": "2026-11-06T05:50Z",
+  "beats_run_as_sub_agents": [
+    "Brazil (6 November 2026)"
+  ],
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as correspondent-promptugal; my row in data/newsroom/agents.json",
     "board/team/correspondent/ROLE.md: the front page, the beats as sub-agents, the paths I write, how a run goes",
     "desks/correspondent/front-page.json: the lead (from-pitch-to-new-markets: the one piece of hard news, on the mandate), the top three (Brazil, the numbers, Europe), a service box, the beats, the newsroom status piece off Latest, the order of the bands, what is missing",
     "The Brazilian beat (sub-agent): desks/correspondent/beats/brazil/universe.md (the counts and where they disagree, who, companies, sessions, investors, connections, blind spots) and evidence.json (29 claims, each with its source, date published and date read 6 November 2026); six ideas BR1 to BR6 in desks/correspondent/ideas/, on the story board as Idea (BR5 Held)",
-    "The beat's main finding: no public list names the Brazilian delegation. The one official list is 188 tax numbers with no names, its status frozen at 28 August 2026; the 2026 counts run from 100 to about 300, and ApexBrasil's own parts add to 239 against its headline of about 200"
+    "The beat's main finding: no public list names the Brazilian delegation. The one official list is 188 tax numbers with no names, its status frozen at 28 August 2026; the 2026 counts run from 100 to about 300, and ApexBrasil's own parts add to 239 against its headline of about 200",
+    "At Dinis's word (about 05:00 UTC, board/guidance/2026-11-06-the-brazil-story-and-story-projects.md), the lead of the first story project, Brazil at Web Summit Lisbon 2026: round 1's universe, the project file brought up to date, and twelve tasks anyone can pick up (board/tasks/brazil-1.md to brazil-12.md)"
   ],
   "next": [
+    "Review the brazil-<n> outputs as they come in, and move what holds into data/stories/S9/ once ontologist@'s folder schema exists; round 2 when the tasks are back",
     "Rewrite front-page.json at each run as articles land; from Monday 9 November the agenda moves up and the lead follows the day's news",
     "The next beat as a sub-agent: Portugal (AI in Portugal, the mandate) or Web Summit, whichever the pipeline is shorter of",
     "Follow BR2 and BR4 on 10 November (the incubator's 2027 class is announced; the German-Brazilian Startup Night)"
