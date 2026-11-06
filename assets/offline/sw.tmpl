@@ -1,0 +1,58 @@
+/* sw.js: PrompTugal.news offline (Dinis 18:05, Silvio's idea; board/passes/2026-11-06-offline-mode.md). Made by
+ * newsroom/build/features/offline.mjs from assets/offline/sw.tmpl at every release: the release and the list of
+ * pages to keep are filled in. No dependency.
+ *   - Public pages of this site only: a request to another origin, a request that is not GET, a request with an
+ *     Authorization header or a query string is never stored (the vaults, the chat and search pass straight through).
+ *   - Network first: the network answers when it can (and the answer is kept); the cache answers when it cannot,
+ *     or when a page takes more than a few seconds and a copy is kept.
+ *   - Three caches: pt-shell-<version> (what every visit keeps: the shell, the front page, the summit and its days,
+ *     the agenda data, the newest articles), pt-pages (the pages read, at most MAX), pt-saved (what the reader
+ *     saved). The page clears them all with PTOffline.clear() (assets/offline/offline.js). */
+const V = '__VERSION__', SHELL = 'pt-shell-' + V, PAGES = 'pt-pages', SAVED = 'pt-saved', MAX = 150, WAIT = 4000
+const KEEP = __PRECACHE__
+const scope = self.registration.scope
+const keyOf = u => u.origin + u.pathname
+
+async function stamp(res) {
+    const h = new Headers(res.headers); h.set('x-pt-saved', new Date().toISOString())
+    return new Response(await res.blob(), { status: res.status, statusText: res.statusText, headers: h })
+}
+async function trim(c) { const ks = await c.keys(); for (const k of ks.slice(0, Math.max(0, ks.length - MAX))) await c.delete(k) }
+
+self.addEventListener('install', e => e.waitUntil((async () => {
+    const c = await caches.open(SHELL)
+    await Promise.all(KEEP.map(async p => { try { const u = new URL(p, scope), r = await fetch(u, { cache: 'no-cache' }); if (r.ok) await c.put(keyOf(u), await stamp(r)) } catch (e) { } }))
+    await self.skipWaiting()
+})()))
+
+self.addEventListener('activate', e => e.waitUntil((async () => {
+    for (const k of await caches.keys()) if (k.startsWith('pt-shell-') && k !== SHELL) await caches.delete(k)
+    await self.clients.claim()
+})()))
+
+const OFFLINE = `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Offline · PrompTugal.news</title>
+<body style="font:17px/1.5 Georgia,serif;margin:0 auto;padding:24px 16px;max-width:36em;background:#f6f3ec;color:#121317">
+<h1 style="font-size:24px">You are offline</h1><p>This page was not kept on this device. These were:</p>
+<p><a href="${scope}">The front page</a> · <a href="${scope}summit/">The summit, day by day</a></p>
+<p>Articles you saved for offline open as usual. The site updates itself when the network is back.</p></body>`
+
+self.addEventListener('fetch', e => {
+    const r = e.request, u = new URL(r.url)
+    if (r.method !== 'GET' || u.origin !== self.location.origin || u.search || r.headers.has('authorization')) return
+    const key = keyOf(u)
+    e.respondWith((async () => {
+        const net = fetch(r).then(async res => {
+            if (res.ok && res.type === 'basic') { const c = await caches.open(PAGES); await c.put(key, await stamp(res.clone())); trim(c) }
+            return res
+        })
+        try {
+            return await Promise.race([net, new Promise((_, no) => setTimeout(() => no(new Error('slow')), WAIT))])
+        } catch (err) {
+            const kept = await caches.match(key)
+            if (kept) return kept
+            try { return await net } catch (e2) { }
+            if (r.mode === 'navigate') return new Response(OFFLINE, { status: 503, headers: { 'content-type': 'text/html; charset=utf-8' } })
+            return Response.error()
+        }
+    })())
+})

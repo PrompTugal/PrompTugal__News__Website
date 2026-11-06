@@ -2,10 +2,11 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T17:25Z",
- "reviewed_to": "HEAD at 16:05, the work/* branches, 29 transcripts to 16:10",
+ "updated": "2026-11-06T18:25Z",
+ "reviewed_to": "HEAD at 18:03 and the work/* branches",
  "hold": false,
  "done": [
+  "wake 18:05: 30 commits clean; S1 post-reviewed (fixed for desks/ and data/; S1b for board/ and design/); the offline mode pre-reviewed; a hand-over debrief; my tools moved into board/team/security/tools/",
   "17:20: the vault-onboarding brief pre-reviewed (go with conditions; three block the first deploy: a dedicated pilot token, S1 and a strict CSP, an issuer key that outlives a session)",
   "17:05: S12's five re-issues verified (my new inbox opened without printing); S20 closed",
   "wake 16:05: 57 commits clean; the first transcript scan (29 sessions): the printed-secret class in five agents, one false positive; the messages map redrawn (75 signed inbox messages); the comms protocol read (S20, S21); the Algarve Evolution sprint post-reviewed",
@@ -28,7 +29,6 @@
   "sign off observability@'s rotation when done"
  ],
  "findings_open": {
-  "S1": "medium: any same-origin script can use Dinis's key through PTKeyring; desks/ serves any file type (dev@)",
   "S2": "decided: rotate now (observability@)",
   "S3": "decided: the pages say it (observability@, journalist@)",
   "S4": "decided: ranking to the CRM (outreach@)",
@@ -46,7 +46,8 @@
   "S17": "granted by Dinis 12:30 (abp@ to write it)",
   "S18": "half done: sgit-ai pinned in the setup script (not hashed, deps unpinned, || true); the drain in the repo open",
   "S19": "SG_SEND_ACCESS_TOKEN in every session's environment (Dinis)",
-  "S21": "the gate's contact check misses board/ (dev@)"
+  "S21": "the gate's contact check misses board/ (dev@)",
+  "S1b": "board/ and design/ served unchecked (reading-room.htm runs scripts) (dev@)"
  },
  "asks": [
   "For Dinis (S11): may the agents treat only signed guidance as your word? (a signing page by dev@)",
@@ -112,8 +113,15 @@
    "outcome": "ok",
    "release": "v0.1.291",
    "line": "transcript scan: S12 in five agents; map redrawn; S20, S21"
+  },
+  {
+   "started": "2026-11-06T18:03Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "S1 post-review, S1b; offline mode pre-review; hand-over debrief"
   }
  ],
  "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",
- "blocks": []
+ "blocks": [],
+ "handover": "board/team/security/debriefs/2026-11-06-handover.md"
 }
