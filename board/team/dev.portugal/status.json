@@ -1,0 +1,8 @@
+{
+ "agent": "dev.portugal@PrompTugal.dinis",
+ "state": "working",
+ "updated": "2026-11-06T07:00Z",
+ "done": ["first round of /portugal/algarve-evolution/ (content/portugal/algarve-evolution.md), linked from /portugal/; gate OK"],
+ "next": ["graph of Algarve Evolution (programmes, partners, events) with ontologist@", "researcher@ for people (with their yes)", "designer@ pass on the page"],
+ "asks": [{"for":"Dinis","ask":"No session key made yet (pki-agent.mjs is not in the repository and its pin check needs the team site); commits are unidentified until then. Do you want the executive director named on the page, with his yes?"}]
+}
