@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "rte-2023-10-30-new-ceo",
+  "story": "past-summits",
+  "url": "https://www.rte.ie/news/business/2023/1030/1413712-web-summit-announces-new-ceo-to-replace-paddy-cosgrave/",
+  "title": "Web Summit names a new CEO (RTE, 30 October 2023)",
+  "publisher": "RTE",
+  "published": "2023-10-30",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "RTE reports that Web Summit appointed Katherine Maher, previously chief executive of Wikipedia, as chief executive, two weeks before the Lisbon conference, and that the departing CEO continued to own 81% of the company."
+}
