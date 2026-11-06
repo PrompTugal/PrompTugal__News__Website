@@ -26,11 +26,11 @@ const rank = i => i.kind === 'registration' || /opening night/i.test(i.what) ? 0
 
 export const fill = {
     'agenda:front': (page, ctx) => {
-        // today and the next two days with something on, at most six highlights a day, drawn as the design's agenda
+        // today and the next three days with something on, three highlights a day (sherpa F3: the column was two phone screens), drawn as the design's agenda
         const { days, itemsOn, TODAY, DAY } = load(ctx)
-        return days.filter(d => d >= TODAY).slice(0, 3).map(d => {
+        return days.filter(d => d >= TODAY).slice(0, 4).map(d => {
             const all = itemsOn(d)
-            const top = [...all].sort((a, b) => rank(a) - rank(b) || (a.time || '').localeCompare(b.time || '')).slice(0, 6)
+            const top = [...all].sort((a, b) => rank(a) - rank(b) || (a.time || '').localeCompare(b.time || '')).slice(0, 3)
                 .sort((a, b) => (a.time || '').localeCompare(b.time || ''))
             const more = all.length - top.length
             return `### ${d === TODAY ? 'Today, ' : ''}${DAY(d)}\n\n` + slotList(top.map(i => slotLine(ctx, page.rel, i, { day: false, extra: [KIND[i.kind] || i.kind] }))) +

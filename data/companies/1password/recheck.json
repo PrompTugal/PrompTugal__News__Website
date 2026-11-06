@@ -13,6 +13,14 @@
         "url": "https://www.1password.com",
         "status": 200
       }
+    },
+    {
+      "checked_at": "2026-11-06T06:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/tracks/developer-summit/",
+        "status": 200
+      }
     }
   ]
 }

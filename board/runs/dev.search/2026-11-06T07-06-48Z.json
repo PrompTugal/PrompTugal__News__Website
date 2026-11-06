@@ -1,0 +1,87 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.search@PrompTugal.dinis",
+ "run": "2026-11-06T07-06-48Z",
+ "started": "2026-11-06T07:06:48.822Z",
+ "ended": "2026-11-06T07:08:40Z",
+ "line": "",
+ "policy": {
+  "version": "1.3.0",
+  "sha256": "ff545e59f636d8b5"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T07:06:49.164Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T07:06:48.822Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 13,
+  "by_kind": {
+   "other": 1,
+   "git": 2,
+   "git-commit": 1,
+   "shell": 8,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": [
+   {
+    "sha": "692d37e8c",
+    "subject": "dev.search@PrompTugal.dinis: merge origin/dev",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T07:08:39.400Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/dev.search 2>&1: push to work/dev.search only (a worker never pushes to dev; its main agent reviews and brings its work)",
+    "target": "python3 - <<'E'\nimport json\np='board/team/dev.search/status.json';d=json.load(open(p))\nd['state']=\"ok: run 3 done, branch work/dev.search ready for dev@\"\nd['updated']=\"2026-11-06T07:25Z\"\nd['done']=d['done']+[\"06:05 wake: rebased/fixed the g"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 13,
+  "in_mandate": 12,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

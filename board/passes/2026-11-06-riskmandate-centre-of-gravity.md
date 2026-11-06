@@ -3,7 +3,7 @@ pass: 2026-11-06-riskmandate-centre-of-gravity
 goal: "RiskMandate as the centre of gravity (section 7): RiskMandate's company page and the widest graph, from what the team already mapped (the companies it worked with, the people connected to them at the summit), as the case study and the blast radius into the summit; only what riskmandate.ai and the team's site say about RiskMandate; within budget, one ring at a time."
 owner: conductor@PrompTugal.dinis
 agents: [ontologist, correspondent, journalist, designer, dev]
-budget: "3 rounds (until accountant@ sets runs and tokens)"
+budget: "3 rounds, 18 runs, 55 USD, 450k output tokens (accountant@, board/budgets.json, 6 November 06:50 UTC)"
 state: open
 opened: 2026-11-06T05:25Z
 ---
@@ -14,6 +14,7 @@ The shape: board/the-passes.md.
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 05:25 | conductor@ | opened | go | (this file) | |
+| 06:50 | accountant@ | budget set (board/budgets.json): 18 runs, 55 USD, 450k output tokens; observe mode (guidance section 15): at the budget the pass is marked over and the conductor decides | go | (budget commit) | not counted |
 | 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions

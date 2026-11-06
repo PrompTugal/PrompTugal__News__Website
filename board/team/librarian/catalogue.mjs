@@ -133,6 +133,20 @@ const passes = tracked.filter(f => /^board\/passes\/.+\.md$/.test(f)).map(f => {
     const findings = (findingsSec.match(/^\|(?!\s*-)(?!\s*Finding\s*\|)[^\n]*\|$/gm) || []).filter(r => r.replace(/[|\s]/g, '')).length
     return { id: `pass:${path.basename(f, '.md')}`, type: 'pass', path: f, url: SITE + f, source_url: REPO + f, title: fm.pass || path.basename(f, '.md'), what: fm.goal || null, owner: fm.owner || null, state: fm.state || null, agents: fm.agents || null, budget: fm.budget || null, opened: fm.opened || null, steps_logged: steps, findings, made: made([f]) }
 })
+// every finding and decision of every pass: one record per row of its "Findings and decisions" table
+const cells = row => row.replace(/^\||\|$/g, '').split(/(?<!\\)\|/).map(c => c.trim())
+const findings = []
+for (const f of tracked.filter(f => /^board\/passes\/.+\.md$/.test(f))) {
+    const sec = (read(f).split(/^## Findings[^\n]*$/m)[1] || '').split(/^## /m)[0]
+    const rows = (sec.match(/^\|[^\n]*\|$/gm) || []).filter(r => !/^\|\s*-/.test(r) && !/^\|\s*Finding\s*\|/.test(r))
+    const slug = path.basename(f, '.md')
+    rows.forEach((r, i) => {
+        const [finding, from, owner, decision] = cells(r)
+        if (!finding) return
+        findings.push({ id: `finding:${slug}#${i + 1}`, type: 'finding', pass: `pass:${slug}`, path: f, url: SITE + f, source_url: REPO + f, title: clip(finding.replace(/[*_`]/g, ''), 160), what: clip(finding.replace(/[*_`]/g, ''), 400), from: from || null, owner: owner || null, decision: decision || null, decided: !!(decision && decision.trim()), made: made([f]) })
+    })
+}
+
 let agentRows = []
 try { agentRows = JSON.parse(read('data/newsroom/agents.json')).agents } catch { }
 const keys = (() => { try { return JSON.parse(read('board/keys.json')).keys.map(k => k.id) } catch { return [] } })()
@@ -143,7 +157,7 @@ const agents = agentRows.filter(a => /@PrompTugal\.dinis$/.test(a.name)).map(a =
 
 // the team as CLAUDE.md names it: an agent there with no row in agents.json yet is listed too, so nobody is missing
 const claude = read('CLAUDE.md') || ''
-for (const m of claude.matchAll(/^\| `([\w-]+)@PrompTugal\.dinis` \| ([^|]+) \|/gm)) {
+for (const m of claude.matchAll(/^\| `([\w.-]+)@PrompTugal\.dinis`[^|]*\| ([^|]+) \|/gm)) {
     const name = `${m[1]}@PrompTugal.dinis`, id = `${m[1]}-promptugal`, dir = `board/team/${m[1]}`
     if (agents.some(a => a.name === name)) continue
     agents.push({ id: `agent:${id}`, type: 'agent', name, path: exists(dir) ? dir + '/' : null, url: null, title: name, what: clip(m[2], 220), lands: [], status: 'named in CLAUDE.md; no row in data/newsroom/agents.json yet', key: keys.includes(id) ? id : null, role_file: exists(`${dir}/ROLE.md`) ? `${dir}/ROLE.md` : null, status_file: exists(`${dir}/status.json`) ? `${dir}/status.json` : null, made: made(exists(dir) ? under(dir) : []) })
@@ -158,10 +172,10 @@ const cat = {
         common: ['id', 'type', 'path', 'url', 'title', 'what', 'made {by, on, commit, changed, changed_by, last_commit, agents}'],
         page: ['kind (site, list, article, newsroom, company, event, person, organisation, place, topic)', 'section', 'twin', 'source', 'source_url', 'feature', 'in_search'],
         board: ['kind (board, team, pass, guidance, brief, tool)', 'source_url'], desk: ['files', 'source_url'],
-        pass: ['owner', 'state', 'agents', 'budget', 'opened', 'steps_logged', 'findings'], agent: ['name', 'lands', 'status', 'key', 'role_file', 'status_file'],
+        pass: ['owner', 'state', 'agents', 'budget', 'opened', 'steps_logged', 'findings'], finding: ['pass', 'from', 'owner', 'decision', 'decided (a decision is written)'], agent: ['name', 'lands', 'status', 'key', 'role_file', 'status_file'],
     },
-    counts: { pages: pages.length, pages_by_kind: count(pages.map(p => p.kind)), board: board.length, desks: desks.length, passes: passes.length, agents: agents.length },
-    pages, board, desks, passes, agents,
+    counts: { pages: pages.length, pages_by_kind: count(pages.map(p => p.kind)), board: board.length, desks: desks.length, passes: passes.length, findings: findings.length, findings_undecided: findings.filter(x => !x.decided).length, agents: agents.length },
+    pages, board, desks, passes, findings, agents,
 }
 // one record per line, so that a run's diff shows which entries changed and nothing else
 const json = '{\n' + Object.entries(cat).map(([k, v]) => `"${k}": ` + (Array.isArray(v) ? '[\n' + v.map(r => '  ' + JSON.stringify(r)).join(',\n') + '\n]' : JSON.stringify(v))).join(',\n') + '\n}\n'
@@ -177,7 +191,7 @@ const md = []
 md.push('---', `title: "The catalogue of PrompTugal.news: every page, board file, desk, pass and agent"`, 'by: librarian@PrompTugal.dinis', `generated: ${cat.generated}`, `site_version: ${VERSION}`, 'source: board/catalogue.json (board/team/librarian/catalogue.mjs); never hand-edited', '---',
     '# The catalogue', '',
     `Where everything is, who made it and when, at site ${VERSION}. Generated from the build and git by librarian@PrompTugal.dinis; the data is \`board/catalogue.json\`. "Made" is the first commit that touched the source (its agent and time, UTC); "changed" the last. ${pages.length} pages (${Object.entries(cat.counts.pages_by_kind).map(([k, v]) => `${v} ${k}`).join(', ')}), ${board.length} board files, ${desks.length} desks, ${passes.length} passes, ${agents.length} PrompTugal agents.`, '',
-    'Contents: [The newsroom section](#the-newsroom-section) · [Site pages](#site-pages) · [Articles](#articles) · [Entity pages](#entity-pages) · [Passes](#passes) · [The board](#the-board) · [Desks](#desks) · [Agents](#agents)', '')
+    'Contents: [The newsroom section](#the-newsroom-section) · [Site pages](#site-pages) · [Articles](#articles) · [Entity pages](#entity-pages) · [Passes](#passes) · [Findings and decisions](#findings-and-decisions) · [The board](#the-board) · [Desks](#desks) · [Agents](#agents)', '')
 const pageTable = rows => {
     md.push('| Page | What it is | Source | Made | Changed |', '|---|---|---|---|---|')
     for (const p of rows) md.push(`| [${esc(p.title)}](${p.url}) \`${rel(p.url)}\`${p.in_search ? '' : ' (not in search)'} | ${esc(clip(p.what, 140))} | ${p.source ? `[${p.source}](${p.source_url})` : '(build)'} | ${who(p.made)} | ${p.made ? day(p.made.changed) : ''} |`)
@@ -190,6 +204,13 @@ md.push('## Entity pages', '', 'One page per entity, made by the build from `dat
 for (const [plural, kind] of Object.entries(ENT)) md.push(`| ${kind} | ${pages.filter(p => p.kind === kind).length} | [/${plural}/](${SITE}${plural}/) | [data/${plural}/](${REPO.replace('/blob/', '/tree/')}data/${plural}) |`)
 md.push('', '## Passes', '', '| Pass | Goal | State | Agents | Budget | Steps logged | Findings | Opened |', '|---|---|---|---|---|---|---|---|')
 for (const p of passes) md.push(`| [${esc(p.title)}](${p.source_url}) | ${esc(p.what)} | ${p.state || ''} | ${esc(p.agents)} | ${esc(p.budget)} | ${p.steps_logged} | ${p.findings} | ${p.opened || ''} |`)
+md.push('', '## Findings and decisions', '', `Every row of every pass's "Findings and decisions" table: ${findings.length} findings, ${findings.filter(x => !x.decided).length} with no decision written yet.`, '')
+for (const p of passes) {
+    const fs_ = findings.filter(x => x.pass === p.id); if (!fs_.length) continue
+    md.push(`### ${esc(p.title)}`, '', '| # | Finding | From | Owner | Decision |', '|---|---|---|---|---|')
+    for (const x of fs_) md.push(`| ${x.id.split('#')[1]} | ${esc(clip(x.what, 200))} | ${esc(x.from)} | ${esc(x.owner)} | ${x.decided ? esc(clip(x.decision, 120)) : '(none yet)'} |`)
+    md.push('')
+}
 md.push('', '## The board', '', 'Every file in `board/`, served as is at `/board/`.', '', '| File | What it is | Made | Changed |', '|---|---|---|---|')
 for (const b of board) md.push(`| [${b.path.replace('board/', '')}](${b.source_url}) | ${esc(clip(b.title !== path.basename(b.path) ? b.title : b.what || '', 160))} | ${who(b.made)} | ${b.made ? `${day(b.made.changed)} by ${b.made.changed_by.replace('@PrompTugal.dinis', '@')}` : ''} |`)
 md.push('', '## Desks', '', 'The editors\' and agents\' working folders, `desks/<desk>/`.', '', '| Desk | What it is | Files | Made | Changed |', '|---|---|---|---|---|')
@@ -198,4 +219,4 @@ md.push('', '## Agents', '', 'The PrompTugal team (CLAUDE.md), from `data/newsro
 for (const a of agents) md.push(`| ${a.url ? `[${a.name}](${a.url})` : a.name} | ${esc(clip(a.what, 160))} | ${a.path ? `[${a.path}](${REPO.replace('/blob/', '/tree/')}${a.path})` : '(none yet)'} | ${a.key || '(none)'} | ${a.status || ''} |`)
 md.push('')
 fs.writeFileSync('board/catalogue.md', md.join('\n'))
-console.log(`catalogue: ${pages.length} pages, ${board.length} board files, ${desks.length} desks, ${passes.length} passes, ${agents.length} agents (site ${VERSION})`)
+console.log(`catalogue: ${pages.length} pages, ${board.length} board files, ${desks.length} desks, ${passes.length} passes, ${findings.length} findings, ${agents.length} agents (site ${VERSION})`)

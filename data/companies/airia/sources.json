@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://airia.com/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Airia's home page, read 6 November 2026: the platform's cycle (discover, secure, govern, optimise), its five layers (enterprise data, models and tools, agents and orchestration, runtime security, governance and compliance) and enforcement at the execution layer (the flows govern-every-agent and build-and-launch)",
+      "kind": "other"
     }
   ]
 }

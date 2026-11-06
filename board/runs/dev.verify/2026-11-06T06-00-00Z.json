@@ -1,0 +1,110 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.verify@PrompTugal.dinis",
+ "run": "2026-11-06T06-00-00Z",
+ "started": "2026-11-06T06:00:00.436Z",
+ "ended": "2026-11-06T07:01:18Z",
+ "line": "",
+ "policy": {
+  "version": "1.3.0",
+  "sha256": "ff545e59f636d8b5"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T06:50:00.430Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T06:50:00.128Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 19,
+  "by_kind": {
+   "shell": 9,
+   "git-push": 3,
+   "git": 6,
+   "other": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 3
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 16,
+  "commits": [
+   {
+    "sha": "441acb213",
+    "subject": "dev.verify@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "398f2b92d",
+    "subject": "dev.verify@PrompTugal.dinis: merge my earlier branch state (no force-push)",
+    "files": 0
+   },
+   {
+    "sha": "0832e3c14",
+    "subject": "dev.verify@PrompTugal.dinis: hourly: three more articles verified, flags for journalist@",
+    "files": 10
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 3,
+  "denied": [
+   {
+    "t": "2026-11-06T06:00:07.492Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/dev.verify 2>&1: push to dev only",
+    "target": "git add -A board/runs/dev.verify board/team/dev.verify newsroom/tools/verify && git status --short | head -3; git -c user.name=\"dev.verify@PrompTugal.dinis\" -c user.email=\"dev.verify@promptugal.dinis\" commit -q -F - <<'E'\ndev.verify@PrompTu"
+   },
+   {
+    "t": "2026-11-06T06:00:17.166Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/dev.verify 2>&1: push to dev only",
+    "target": "git checkout --ours board/keys.json board/team/dev.verify/status.json data/schemas/team-role.schema.json data/schemas/team-status.schema.json newsroom/tools/verify/verify.mjs && git add -A board data newsroom && git -c user.name=\"dev.verify"
+   },
+   {
+    "t": "2026-11-06T07:01:17.487Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/dev.verify 2>&1: push to work/dev.verify only (a worker never pushes to dev; its main agent reviews and brings its work)",
+    "target": "node board/abp/tools/abp.mjs run-report --role dev.verify 2>&1 | tail -1; git add -A board/runs/dev.verify board/team/dev.verify && git -c user.name=\"dev.verify@PrompTugal.dinis\" -c user.email=\"dev.verify@promptugal.dinis\" commit -q -F - <<"
+   }
+  ],
+  "blocked": 0,
+  "observed": 3
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 19,
+  "in_mandate": 16,
+  "out_of_mandate": 3,
+  "attempts": 3,
+  "breaches": 0
+ }
+}

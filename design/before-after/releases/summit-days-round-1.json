@@ -1,0 +1,54 @@
+{
+ "version": "the summit days, round 1 (on v0.1.138)",
+ "date": "Friday 6 November 2026",
+ "title": "The summit's days, round 1: a strip of eight days, the past as it was, the future as planned",
+ "summary": "Dinis asked for the site over time: a block with the summit's days, today highlighted, a past day showing the site as it was then, a future day showing what will happen. Three proposals against the front page of v0.1.138: today with the strip, Thursday 5 November rebuilt from its own release (v0.1.37) with the clock frozen, and Tuesday 10 November as planned.",
+ "devices": [
+  "phone",
+  "desktop"
+ ],
+ "steps": [
+  {
+   "id": "before",
+   "label": "Before: v0.1.138",
+   "img": {
+    "phone": "before--front--phone.png",
+    "desktop": "before--front--desktop.png"
+   }
+  },
+  {
+   "id": "today",
+   "label": "Today, with the days",
+   "note": "The strip of eight days, Friday 6 to Friday 13: today filled, the summit tinted, Opening Night and Days 1 to 3 named. Under the bar on a phone, a block on the right on a desktop, the same everywhere (D1, D5). Today: what is on, then what is next.",
+   "img": {
+    "phone": "../../summit-days/round-1/mockups/today--phone.png",
+    "desktop": "../../summit-days/round-1/mockups/today--desktop.png"
+   }
+  },
+  {
+   "id": "past",
+   "label": "A past day: Thu 5 (v0.1.37)",
+   "note": "The real site of Thursday 5 November, built from its own release v0.1.37 with the clock frozen at 23:00 UTC, under a banner that says loudly it is the past, with today's date and the way back (D2, D6).",
+   "img": {
+    "phone": "../../summit-days/round-1/mockups/past--phone.png",
+    "desktop": "../../summit-days/round-1/mockups/past--desktop.png"
+   }
+  },
+  {
+   "id": "future",
+   "label": "A future day: Tue 10, planned",
+   "note": "Day 1 as planned: 'as listed on Friday 6 November', five things to start with, and all 69 events collapsed behind one button (D3, D4).",
+   "img": {
+    "phone": "../../summit-days/round-1/mockups/future--phone.png",
+    "desktop": "../../summit-days/round-1/mockups/future--desktop.png"
+   }
+  }
+ ],
+ "notes": [
+  "The strip answers D1 (all eight days on a phone, before, the summit and after told apart, today filled) and D5 (the same place everywhere).",
+  "The past is real, not today's site filtered (D6): v0.1.37 was rebuilt from its tag in a minute with no dependency. One thing learnt: the old page's own script rewrote its date to today and filtered 'Now and next' by today's clock, so the time view must freeze the clock (a fixed date in the build and in the page). security@'s condition holds: a rebuilt day must honour every correction and removal since; the build has to apply today's removals list to an old release.",
+  "The future is the site's own events data for that day, five shown and the rest collapsed (D3, D4); the correspondent chooses the five each morning.",
+  "Personalisation (D7) is left out until a pass with security@ designs it."
+ ],
+ "experiments": []
+}
