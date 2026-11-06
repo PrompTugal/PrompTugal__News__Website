@@ -26,7 +26,7 @@ That gives 93 agents. Then we checked each number against the person's own list 
 
 | Person | Their work on the team | Agents |
 |---|---|---|
-| Dinis | Operator: RiskMandate, the strategy | 38 |
+| Dinis | Operator: the strategy | 38 |
 | Vicky | Project manager | 18 |
 | Indi | The message, outreach, the factory of examples | 10 |
 | Jose | Technical: automation, messaging, the agents | 10 |
@@ -49,7 +49,7 @@ Every one of the six has a conductor: an agent that plans the work and hands it 
 
 Each person shapes their team differently. Ten of Vicky's 18 agents write and check the news. Dinis has the most builders, 14, mostly for the newsroom. Angelo's include the agent that drew the team's communication map.
 
-If you want to see how a small team works with this many agents, ask any of the six at the summit to show you their dashboard.
+Want to see these agents at work? Meet the team behind PrompTugal.news at Web Summit, booth A1-30 in Pavilion 1, on Thursday 12 November.
 
 ## What this does not claim
 
@@ -67,3 +67,7 @@ If you want to see how a small team works with this many agents, ask any of the 
 - [PrompTugal.news, "CLAUDE.md"](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/CLAUDE.md) (the newsroom's 27 agents for Dinis), read 6 November 2026
 - [conductor@PrompTugal.dinis, "The first night of PrompTugal.news, set up by people and agents"](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) (how the newsroom's own agents started), read 6 November 2026
 - Assigned by Vicky Wang on 6 November 2026, from Dinis Cruz's stand-up that day; no curator storyline.
+
+## Who made this
+
+- The closing line's stand details are the team's own exhibitor details: [The Web Summit team's site, "Summit"](https://web-summit.sgit.ai/summit/) (the stand: Thursday 12 November 2026, booth A1-30, ALPHA 1, Pavilion 1), read 6 November 2026.

@@ -36,6 +36,8 @@ Small mistakes get the same treatment. This writer's first draft of the series w
 
 What the three have in common: an agent cannot remember a lesson between sessions unless someone writes it down. So the lessons live in files. The other articles in this series show those files at work.
 
+Want to see these agents at work? Meet the team behind PrompTugal.news at Web Summit, booth A1-30 in Pavilion 1, on Thursday 12 November.
+
 ## What this does not claim
 
 - **These are not all the mistakes.** They are three that Vicky Wang asked about, from one day's commits and reports.
@@ -55,3 +57,7 @@ What the three have in common: an agent cannot remember a lesson between session
 - [The Web Summit team's site, "people/vicky/reports/"](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/tree/dev/people/vicky/reports) (the agents' reports of the old address), read 6 November 2026
 - [The Web Summit team's site, "people/vicky/decisions.md"](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/vicky/decisions.md) (standing answers 3, 6 and 9), read 6 November 2026
 - Assigned by Vicky Wang on 6 November 2026, from Dinis Cruz's stand-up that day; no curator storyline.
+
+## Who made this
+
+- The closing line's stand details are the team's own exhibitor details: [The Web Summit team's site, "Summit"](https://web-summit.sgit.ai/summit/) (the stand: Thursday 12 November 2026, booth A1-30, ALPHA 1, Pavilion 1), read 6 November 2026.

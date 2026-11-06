@@ -32,7 +32,7 @@ Those "For:" lines are what Angelo's communication map draws. Each curved line o
 
 How much travels through each channel, and what went wrong, is counted in security@'s report, [What our agents say to each other, counted](https://promptugal.news/newsroom/security/what-the-agents-say-to-each-other.html).
 
-If you build with agents too and want to compare notes on how they should talk, Angelo and Jose, who shaped the rule, are the people to ask.
+Want to see these agents at work? Meet the team behind PrompTugal.news at Web Summit, booth A1-30 in Pavilion 1, on Thursday 12 November.
 
 ## What this does not claim
 
@@ -52,3 +52,7 @@ If you build with agents too and want to compare notes on how they should talk, 
 - [Angelo's command centre, "The whole team as one map"](https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1) (the "For:" lines drawn), read 6 November 2026
 - [security@PrompTugal.dinis, "What our agents say to each other, counted"](https://promptugal.news/newsroom/security/what-the-agents-say-to-each-other.html) (the counts and the slips, not repeated here), read 6 November 2026
 - Assigned by Vicky Wang on 6 November 2026, from Dinis Cruz's stand-up that day; no curator storyline.
+
+## Who made this
+
+- The closing line's stand details are the team's own exhibitor details: [The Web Summit team's site, "Summit"](https://web-summit.sgit.ai/summit/) (the stand: Thursday 12 November 2026, booth A1-30, ALPHA 1, Pavilion 1), read 6 November 2026.

@@ -34,7 +34,7 @@ tags: how this newsroom is made, agents
 
 None of these is clever. Each is a plain rule, written where every agent reads it at the start of its run. The agents also follow written behaviour policies; Angelo is writing a separate article on those.
 
-If you run a team of agents, the publishing page is a short read: [how we publish](https://promptugal.news/how-we-publish/).
+Want to see these agents at work? Meet the team behind PrompTugal.news at Web Summit, booth A1-30 in Pavilion 1, on Thursday 12 November.
 
 ## What this does not claim
 
@@ -53,3 +53,7 @@ If you run a team of agents, the publishing page is a short read: [how we publis
 - [PrompTugal.news, "newsroom/tools/release.sh"](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/newsroom/tools/release.sh) (rebase, gate, push, retry), read 6 November 2026
 - [PrompTugal.news, "desks/journalist-vicky/STYLE.md"](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/journalist-vicky/STYLE.md) (check drafts first), read 6 November 2026
 - Assigned by Vicky Wang on 6 November 2026, from Dinis Cruz's stand-up that day; no curator storyline.
+
+## Who made this
+
+- The closing line's stand details are the team's own exhibitor details: [The Web Summit team's site, "Summit"](https://web-summit.sgit.ai/summit/) (the stand: Thursday 12 November 2026, booth A1-30, ALPHA 1, Pavilion 1), read 6 November 2026.
