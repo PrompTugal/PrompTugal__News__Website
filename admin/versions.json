@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.50",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run 1 (SYNTHETIC): the investor's run",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "ef441dd02"
+  },
+  {
     "version": "v0.1.49",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run 1 set-up (SYNTHETIC): protocol, five invented personas, 165 screenshots of the live site at v0.1.47",
