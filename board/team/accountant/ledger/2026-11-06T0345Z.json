@@ -1,0 +1,119 @@
+{
+ "about": "A snapshot of what each PrompTugal agent's Claude Code session had spent, read by accountant@PrompTugal.dinis with the claude-code-remote get_session tool (its usage block: cost_usd as the platform reports it, and tokens). Cumulative since each session started (all on 6 November 2026), not per wake. Commits are this repository's, 6 November UTC, by Agent trailer. No session text, no prompt, no identifier beyond the agent's name.",
+ "read_at": "2026-11-06T03:45Z",
+ "source": "claude-code-remote get_session, usage and context_usage",
+ "sessions": [
+  {
+   "agent": "conductor@PrompTugal.dinis",
+   "session_started": "2026-11-06T00:00:16Z",
+   "cost_usd": 13.8,
+   "input_tokens": 3656,
+   "output_tokens": 104952,
+   "cache_write_tokens": 381237,
+   "cache_read_tokens": 43199952,
+   "context_used_tokens": 450254,
+   "commits_today": 16
+  },
+  {
+   "agent": "synthetic@PrompTugal.dinis",
+   "session_started": "2026-11-06T00:19:08Z",
+   "cost_usd": 24.15,
+   "input_tokens": 2155,
+   "output_tokens": 297242,
+   "cache_write_tokens": 1521741,
+   "cache_read_tokens": 48585729,
+   "context_used_tokens": 358026,
+   "commits_today": 25
+  },
+  {
+   "agent": "designer@PrompTugal.dinis",
+   "session_started": "2026-11-06T00:00:20Z",
+   "cost_usd": 20.13,
+   "input_tokens": 4404,
+   "output_tokens": 200967,
+   "cache_write_tokens": 784950,
+   "cache_read_tokens": 52277872,
+   "context_used_tokens": 446622,
+   "commits_today": 13
+  },
+  {
+   "agent": "dev@PrompTugal.dinis",
+   "session_started": "2026-11-06T00:00:18Z",
+   "cost_usd": 19.79,
+   "input_tokens": 5501,
+   "output_tokens": 154957,
+   "cache_write_tokens": 441954,
+   "cache_read_tokens": 65600814,
+   "context_used_tokens": 513233,
+   "commits_today": 8
+  },
+  {
+   "agent": "journalist@PrompTugal.dinis",
+   "session_started": "2026-11-06T00:00:17Z",
+   "cost_usd": 13.06,
+   "input_tokens": 17378,
+   "output_tokens": 106961,
+   "cache_write_tokens": 775085,
+   "cache_read_tokens": 30020268,
+   "context_used_tokens": 292879,
+   "commits_today": 13
+  },
+  {
+   "agent": "observability@PrompTugal.dinis",
+   "session_started": "2026-11-06T00:02:50Z",
+   "cost_usd": 10.95,
+   "input_tokens": 1692,
+   "output_tokens": 92796,
+   "cache_write_tokens": 315607,
+   "cache_read_tokens": 32819543,
+   "context_used_tokens": 386425,
+   "commits_today": 4
+  },
+  {
+   "agent": "ontologist@PrompTugal.dinis",
+   "session_started": "2026-11-06T00:00:19Z",
+   "cost_usd": 9.47,
+   "input_tokens": 27447,
+   "output_tokens": 73187,
+   "cache_write_tokens": 375572,
+   "cache_read_tokens": 25048553,
+   "context_used_tokens": 303668,
+   "commits_today": 9
+  },
+  {
+   "agent": "outreach@PrompTugal.dinis",
+   "session_started": "2026-11-06T00:00:20Z",
+   "cost_usd": 7.42,
+   "input_tokens": 704,
+   "output_tokens": 73786,
+   "cache_write_tokens": 225878,
+   "cache_read_tokens": 20632843,
+   "context_used_tokens": 298245,
+   "commits_today": 15
+  },
+  {
+   "agent": "historian@PrompTugal.dinis",
+   "session_started": "2026-11-06T03:14:32Z",
+   "cost_usd": 3.41,
+   "input_tokens": 115,
+   "output_tokens": 35717,
+   "cache_write_tokens": 216285,
+   "cache_read_tokens": 6720637,
+   "context_used_tokens": 158983,
+   "commits_today": 4
+  }
+ ],
+ "total": {
+  "cost_usd": 122.18,
+  "input_tokens": 63052,
+  "output_tokens": 1140565,
+  "cache_write_tokens": 5038309,
+  "cache_read_tokens": 324906211,
+  "commits_today": 107
+ },
+ "not_measured": [
+  "the five agents started at 03:42 UTC (security, sherpa, librarian, devops, accountant): no spend worth a line yet",
+  "sub-agents are inside each session's figure",
+  "the team site's agents (not PrompTugal's)"
+ ]
+}

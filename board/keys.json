@@ -187,6 +187,23 @@
         "signing_fingerprint": "sha256:2e768b7ad63c24df"
       },
       "status": "active"
+    },
+    {
+      "id": "accountant-promptugal",
+      "agent": "accountant@PrompTugal.dinis",
+      "label": "accountant@PrompTugal.dinis (Claude Code session)",
+      "role": "The accountant of PrompTugal.news (accountant@PrompTugal.dinis): budgets of tokens and runs per agent per day, per pass and per loop, in board/budgets.json; reads what each run spent and stops a pass or a loop at its budget. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in the team site's admin/tools/seal.mjs) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0rc5OW+7wXYrXyoj3p8j\nG+0U7VQzYwdrI7YUQriuaCKR0uV4OfKnbTRya2iTOi28gPtfOZxmwJiHPrJxIbJD\n75d0G7W4Kr0AlANLHksADSgx5uVC1fZ3jtc5vtMM2b93QKHFxiy5cr3I1uHheUuo\n2SrwyyOGMgwbt8jEDW7yJl16F+o6U5MK5sCoG+vxUlO5kpl3V/qhS8lGykGGd4B8\nNVBzDIZMM4pOU2qUfc1QYPxQHM4XDyJD6rN73iSFlb0BJthJZGtiA78aJ5ow1FV1\nKglbjWKy2WhpHtPHCH4CEGLxYPdZfXAmnkqIsIfVyJikcaSao/2pgWBCdb6LY7Zd\nW1NIJbdPV0XOaCOpoSwD0sYPQKjXCK/2CfrzP8BWbfZg4vbWfFIOStDwMN4aPDDz\nrYsx2hjgOMiAMPQpBQ6800jTg0nUsZKZ7Yl++SLjKzTu6UjsqKuiYDdaM2sgqnwj\nfFID3Ac+00Ex/vI/r7G/n2/+zHFUJeqDa+CJIMwO3glq3x9oMvNunO0CIRjO+Ayv\n8EQSqXnwUvuzeqiMqxZIiE20fK3jooHHHzx8U1j6WGZ1h5FPAaQipNru2iwWQL5c\n4wf4JlmFwl3RtnkBjnU+sXHkRbtOZbVBB2IyynJIsEUxTz3ZC/0+dGp87mnPDyDq\n5MF7Ev65Nmu1cYMdDgf6EksCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfUESQ6WnEQ7npVSADFvH55gpFPAB\noKVxtlAdZpoIVjVcPEy16D1PuMmtJk/lAiyNSOhqUwAB9suSqIX2S1SIiw==\n-----END PUBLIC KEY-----\n",
+        "label": "accountant@PrompTugal.dinis",
+        "fingerprint": "sha256:9c1bb7158495c662",
+        "signing_fingerprint": "sha256:f9861b7b562fd76f"
+      },
+      "status": "active"
     }
   ]
 }

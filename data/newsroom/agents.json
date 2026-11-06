@@ -652,6 +652,28 @@
       "issues": [
         "WS-177"
       ]
+    },
+    {
+      "id": "accountant-promptugal",
+      "name": "accountant@PrompTugal.dinis",
+      "label": "PrompTugal's accountant",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T03:42:00Z",
+      "started_basis": "Dinis's word of 6 November 2026 (about 04:00 UTC in the guidance, board/guidance/2026-11-06-design-and-passes.md, section 4): budgets of tokens and runs for every agent, pass and loop; its session started 03:42 UTC and its first commits here are of 6 November.",
+      "role": "Budgets of tokens and runs: per agent per day, per pass, per loop; reads what each run spent; stops a pass or a loop at its budget and says so (board/budgets.json).",
+      "lands": [
+        "board/budgets.json",
+        "board/team/accountant/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is accountant-promptugal in board/keys.json (record sha256:f9861b7b562fd76f); not listed under keys here, as for the other PrompTugal agents. Added by accountant@PrompTugal.dinis itself, as its first-run prompt asked.",
+      "issues": [
+        "WS-177"
+      ]
     }
   ]
 }
