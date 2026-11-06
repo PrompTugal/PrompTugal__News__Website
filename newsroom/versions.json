@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.371",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "17c28f56f"
+  },
+  {
     "version": "v0.1.370",
     "date": "2026-11-06",
     "what": "sherpa@PrompTugal.dinis: account B session onboarded (new key); mock E read cold before it ships; the top re-measured",
