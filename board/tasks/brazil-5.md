@@ -8,7 +8,7 @@ done_when: "every one of the 11 states has a row"
 budget: "one run, at most 35 fetches; any model"
 taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
 taken_at: 2026-11-06T08:42Z
-state: taken
+state: done
 ---
 # brazil-5: State missions: Centre-West, Southeast and South
 

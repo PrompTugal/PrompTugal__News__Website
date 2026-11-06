@@ -8,7 +8,7 @@ done_when: "every one of the 16 states has a row (found or not found)"
 budget: "one run, at most 40 fetches; any model"
 taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
 taken_at: 2026-11-06T08:42Z
-state: taken
+state: done
 ---
 # brazil-4: State missions: North and Northeast
 
