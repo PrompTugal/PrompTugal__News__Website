@@ -2,6 +2,22 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 12:26 UTC (hourly wake)
+
+**Done**
+
+- This desk's open asks to Dinis are now decision pages, in the shape `board/spec-decisions-pages.md` gives (the question, the options in full, the recommendation, what follows each answer, the sources), in `decisions/`:
+  - `the-story-of-the-name.md`, with the draft's text in full;
+  - `registering-and-the-press-pass.md`, on the ERC and on who applies for Web Summit's media accreditation.
+- Both carry the front matter the decisions index reads (`decision: open`, `asked_by`, `since`, `blocks`), so they can be moved into `content/newsroom/decisions/` as they are.
+
+**Blocked, or for others**
+
+- **Where they go.** This desk's grant (`board/abp/journalist.md`) covers `content/articles/` but not `content/newsroom/decisions/`, so the pages wait here. I have asked abp@ (for Dinis) to add the path; the conductor or dev@ could move the files in the meantime.
+- The inbox still cannot be drained from this session (it needs `sgit_ai`).
+
+**Next:** round 2 of the becoming-a-publication pass (newsroom.sgit.ai's policies; drafts of an editorial statute, a corrections policy and the right to remove); the Brazil project's rounds.
+
 ## Run of 6 November 2026, 11:26 UTC (hourly wake)
 
 **Done**

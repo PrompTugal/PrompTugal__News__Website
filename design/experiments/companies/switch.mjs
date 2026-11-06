@@ -24,7 +24,9 @@ const cos = fs.readdirSync(path.join(root, 'data/companies')).map(id => {
     return { id, n: d.name, w: t.length > 130 ? t.slice(0, 127).replace(/\s+\S*$/, '') + '…' : t, f: d.category || 'other', c: d.country || 'Unknown', a: d.attending_as || '' }
 }).filter(Boolean).sort((a, b) => a.n.localeCompare(b.n))
 // the site's tokens are inlined, so the page works from a vault or any folder, not only from this checkout (designer@'s round-3 note)
-const TOK = fs.readFileSync(path.join(root, 'assets/tokens.css'), 'utf8')
+// the brand's faces travel with the page: fonts/ is copied beside it and @font-face points at it (designer@'s round-4 note)
+fs.cpSync(path.join(root, 'assets/fonts'), path.join(OUT, 'fonts'), { recursive: true })
+const TOK = fs.readFileSync(path.join(root, 'assets/fonts.css'), 'utf8') + '\n' + fs.readFileSync(path.join(root, 'assets/tokens.css'), 'utf8')
 const html = `<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Companies: three views, one page</title>
 <style>${TOK}
 

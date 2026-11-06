@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S23",
+  "type": "story",
+  "title": "Waste into value: AgroGrINTech and Seamoretech, two circular Portuguese startups",
+  "beat": "portugal",
+  "topic": "topic:portugal",
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-agrogrintech-pineapple-aquafeed",
+    "evidence:r1255-16"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-06-1145.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-06-1145.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06T11:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-06-1145.json"
+    }
+  ]
+}

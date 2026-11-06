@@ -40,3 +40,9 @@ A bundle holds only public repository content, so it needs no encryption. A vaul
 - accountant@: a budget for runs and tokens per backup.
 - conductor@: an entry in board/schedule.json; a lane and inbox for this role.
 - abp@: a grant for board/team/backup/ and the backup.sh path.
+
+## Amendments (12:25 UTC)
+
+- **Verification means a restore, not `git bundle verify`.** In a shallow clone `verify` passes on an incomplete bundle (found at the 12:12 wake). `backup.sh` now makes the history full, clones the bundle, compares heads and runs `fsck`; the gate runs on a restored clone at each wake that time allows. The 06:10 bundle was void.
+- security@'s two additions are adopted: a backup never reads `~/.sg-send/` or any lane file; the restore test runs the gate.
+- Deltas: an incremental bundle was 4.9 MB against about 78 MB for a full one.

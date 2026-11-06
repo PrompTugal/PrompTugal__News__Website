@@ -1,0 +1,84 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-06T11:45Z",
+  "for": "the journalists, via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9 (pack mode), read with its READ key as listed in people/vicky/vaults.json on the team's site; pulled 6 November 2026 at 11:48 UTC to the researcher's commit 30832c4dffcf (11:30 run)",
+    "captures_in_vault": 32,
+    "new_mapped_here": 1,
+    "already_mapped": "31, in the earlier files of desks/curator/",
+    "researcher_report": "people/vicky/reports/researcher.md, Fri 6 Nov 11:30 UTC run"
+  },
+  "rules": "Every fact here is from a capture, as the researcher wrote it; the curator added none, checked none and rewrote no source. Connections are the curator's suggestions, never claims that organisations will meet. Public material only; organisations, not people; no contact details.",
+  "captures": [
+    {
+      "id": "v-agrogrintech-pineapple-aquafeed",
+      "file": "vault 41j3e9s9, captures/2026-11-06-agrogrintech-pineapple-aquafeed.md",
+      "source_url": "https://www.portugalglobal.pt/en/news/2026/novembro/agrogrintech-turns-pineapple-waste-into-aquafeed-ingredient/",
+      "beat": "portugal",
+      "names": [
+        "AgroGrINTech",
+        "ETSA Group",
+        "Pep4Fish",
+        "Blue Bioeconomy Pact",
+        "Portuguese Catholic University",
+        "AICEP Portugal Global"
+      ],
+      "what_is_new": "Portuguese startup AgroGrINTech extracts bromelain, an enzyme from pineapple peel and core, at a pilot unit in Maia, for protein hydrolysates in farmed fish feed (seabass and gilthead seabream): about 200 kg of bromelain a year from about 120 tonnes of pineapple by-products, four times the 50 kg forecast for 2025 (the company's figure), plus pineapple flour. Part of Pep4Fish, led by the ETSA Group with nine partners under the Blue Bioeconomy Pact, funded through Portugal's Recovery and Resilience Plan (PRR); builds on Portuguese Catholic University research licensed to the startup in 2025. About 1.2 million euros of funding expected by the end of 2026; first supply contracts planned for 2027. Not tied to Web Summit in the article.",
+      "is_story": "yes: S22, and a connection (S23)",
+      "group": "G14 waste into value"
+    }
+  ],
+  "groups": {
+    "G14 waste into value": [
+      "v-agrogrintech-pineapple-aquafeed",
+      "r1255-16"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "captures": [],
+      "verdict": "no noise dropped",
+      "why": "The one new capture is public, sourced and new."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "capture": "v-agrogrintech-pineapple-aquafeed",
+      "what": "The capacity growth is the company's own figure ('According to the company'); credit it to the company. The 1.2 million euros is expected, not raised."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S22",
+      "title": "From pineapple waste to fish feed: AgroGrINTech's pilot in Maia",
+      "beat": "portugal",
+      "angle": "A Portuguese startup turns pineapple peel and core into an enzyme for fish feed, with university research behind it and a national blue bioeconomy project around it: circular innovation from Portugal, with output already four times its own forecast.",
+      "rests_on": [
+        "v-agrogrintech-pineapple-aquafeed"
+      ],
+      "note": "Fits the Portugal banner (S7) if not a story of its own. Not tied to Web Summit; do not say it is at the summit.",
+      "words": 10
+    },
+    {
+      "id": "S23",
+      "kind": "connections",
+      "title": "Waste into value: AgroGrINTech and Seamoretech, two circular Portuguese startups",
+      "beat": "portugal",
+      "connection": "startups in the same field",
+      "angle": "Two Portuguese startups that turn waste into resources: AgroGrINTech makes a fish feed ingredient from pineapple by-products, Seamoretech recovers freshwater and minerals from desalination brine. Both grew from university research (the Portuguese Catholic University; the University of Porto) and both plan to grow in the next two years.",
+      "rests_on": [
+        "v-agrogrintech-pineapple-aquafeed",
+        "r1255-16"
+      ],
+      "note": "The curator's suggestion: no capture links the two or says either is at Web Summit 2026.",
+      "words": 10
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "Circular economy, blue economy and food or agritech startups at Web Summit 2026 (the startups list by field), to tie S22 and S23 to the summit.",
+    "Still open: which Portuguese startups exhibit or pitch this year, by field; speakers by day and stage; Técnico's six spin-offs; the transport pass's sales points; EY's report itself; 3xP Global's own page."
+  ],
+  "urgent": null
+}
