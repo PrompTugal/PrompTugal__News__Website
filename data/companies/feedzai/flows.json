@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "feedzai",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "fraud-team-with-farol",
+      "name": "A bank stops fraud in real time, and an AI agent takes the fraud team's grunt work (Farol)",
+      "summary": "Feedzai, founded in Portugal, describes two kinds of AI: models that catch risk on each transaction, and Farol, an AI agent that works alongside analysts. Its home page names the agent's work (rules, alerts, SARs) but not each step it takes.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "Feedzai's AI",
+          "what": "Turns fragmented signals, with real-time behavioural and device intelligence, into real-time decisions on transactions, to stop fraud and scams with fewer false positives.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Farol, Feedzai's AI agent",
+          "what": "Works alongside the fraud team on rules, alerts and SARs (suspicious activity reports), taking on the admin.",
+          "agent": "Takes on the grunt work so the team can act and respond faster.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The analysts",
+          "what": "Focus on the calls only they can make.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Feedzai",
+          "what": "Turns global data into insight every customer benefits from (its \"collective intelligence\"), so a bank sees risks it could not see alone.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

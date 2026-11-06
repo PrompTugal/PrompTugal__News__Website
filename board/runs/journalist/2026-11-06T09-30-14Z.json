@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist@PrompTugal.dinis",
+ "run": "2026-11-06T09-30-14Z",
+ "started": "2026-11-06T09:30:14.794Z",
+ "ended": "2026-11-06T10:29:39Z",
+ "line": "hourly run 10:26: S3 corrected and S11 updated from Vicky's reviewer's reviews, both re-signed. Blocks: inbox drain needs sgit_ai; the name waits on Dinis",
+ "policy": {
+  "version": "1.5.0",
+  "sha256": "673ac90ea992c5c1"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T09:30:14.794Z",
+   "chars": 905,
+   "sha256": "f88ce522a6e56f54",
+   "head": "<task-notification>\n<task-id>brd0e0unl</task-id>\n<tool-use-id>toolu_01AGtZa2FeA3esk7dx3aQ4MD</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/b7a38ade-f8b6-55b2-b3c5-78dc8"
+  },
+  {
+   "t": "2026-11-06T10:26:43.859Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T10:26:43.423Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "shell": 10,
+   "other": 1,
+   "git": 2,
+   "web": 1,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": [
+   {
+    "sha": "bc85f004a",
+    "subject": "journalist@PrompTugal.dinis: S3 corrected and S11 updated, from Vicky's reviewer's reviews; both re-signed; hourly run 10:26",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 15,
+  "in_mandate": 15,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

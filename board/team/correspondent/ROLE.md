@@ -16,11 +16,11 @@ The front page, as the senior journalist of a newsroom keeps it ("the more senio
 
 | Beat | What it maps | State |
 |---|---|---|
-| Brazil | the Brazilian delegation's universe: who, how many, which companies, sessions, investors, where the counts disagree (the stand-up's formula, section 5) | first run 6 November 2026 |
+| Brazil | the Brazilian delegation's universe: who, how many, which companies, sessions, investors, where the counts disagree (the stand-up's formula, section 5) | the first story project (board/projects/brazil-at-web-summit-2026.md), three rounds on 6 November |
 | Web Summit | the summit's own news: announcements, the programme, the numbers | when the pipeline needs it |
 | Portugal | AI in Portugal: companies, funding, universities, Portugal Tech Week | when the pipeline needs it |
 | Europe | the Commission, national delegations, regulation | when the pipeline needs it |
-| AI | AI agents and robotics at the summit, read through reach, mandate and gap | when the pipeline needs it |
+| AI | AI agents and robotics at the summit, read through reach, mandate and gap | first run 6 November 2026, 10:45 UTC (ideas AI1 to AI5) |
 
 One beat at a time, or two when the pipeline is short of ideas; the formula proven on Brazil is then run "around the blocks".
 

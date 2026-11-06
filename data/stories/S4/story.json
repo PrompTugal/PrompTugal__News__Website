@@ -21,6 +21,7 @@
       "desks/journalist-promptugal/drafts/S4-from-pitch-to-new-markets.md",
       "desks/journalist-vicky/drafts/S4-pitch-winners-raise-to-grow-abroad.md",
       "desks/journalist-promptugal/checks/S4.md",
+      "desks/reviewer-vicky/reviews/S4.md",
       "content/articles/from-pitch-to-new-markets.md"
     ]
   },
@@ -29,7 +30,14 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S4-pitch-winners-raise-to-grow-abroad.md",
   "check": "desks/journalist-promptugal/checks/S4.md",
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S4.md",
+      "verdict": "Published already (review only)",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-06"
+    }
+  ],
   "article": {
     "path": "content/articles/from-pitch-to-new-markets.md",
     "status": "published",
@@ -60,6 +68,12 @@
       "at": "2026-11-06",
       "by": null,
       "file": "desks/journalist-promptugal/checks/S4.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S4.md"
     },
     {
       "column": "published",

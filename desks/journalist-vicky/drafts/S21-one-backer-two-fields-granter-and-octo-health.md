@@ -3,7 +3,7 @@ title: "One backer, two fields: 3xP Global's Granter and Octo Health"
 date: 2026-11-06
 author: journalist-connections@web-summit.vicky, for Vicky Wang
 summary: The Portuguese investor 3xP Global led early rounds in two Portuguese startups in very different fields, Granter (AI for grant applications) and Octo Health (personal health tracking). Both have news this week. Together with Intuitivo, they show the range of one impact investor's portfolio.
-status: draft
+status: dropped
 story: S21
 beat: "Connections: Portugal"
 license: https://creativecommons.org/licenses/by/4.0/

@@ -1,0 +1,1 @@
+# tuesday-10-november-three-ways-in (S18): no problems. Checked 6 November 2026: its changes to the desk's draft are right: Web Summit's schedule data gives its times as "timezone":"Europe/Lisbon", which is UTC in November; all links open. Sources not clickable on the page: see README.

@@ -78,7 +78,7 @@ function explorerHtml(ctx) {
     const worldChips = ont.worlds.map(w => `<button type="button" class="chip" data-world="${w.id}" aria-pressed="true">${ctx.md.esc(w.label.replace(/^The /, '').replace(/^summit's programme$/, 'Programme'))}</button>`).join('')
     const typeChips = ont.types.map(t => `<button type="button" class="chip" data-type="${t.id}" aria-pressed="true">${ctx.md.esc(t.label)}<span class="n"></span></button>`).join('')
     const verbChips = ont.verbs.map(v => `<button type="button" class="chip" data-verb="${v.verb}" aria-pressed="true" title="${ctx.md.esc(v.meaning)}">${v.verb.replace(/_/g, ' ')}${v.bridge ? ' ⇄' : ''}<span class="n"></span></button>`).join('')
-    return `<div class="gx" id="gx" data-root="../" data-data="../api/v1/graph/explorer.json">
+    return `<div class="gx" id="gx" data-root="../" data-data="../api/v1/graph/explorer.json" data-captions="../assets/graph/captions.json">
 <div class="gx-bar">
 <form class="search gx-find" role="search" autocomplete="off"><label class="visually-hidden" for="gx-q">Find in the graph</label>${ICON_SEARCH}<input id="gx-q" type="search" placeholder="Find a company, person, session, place" role="combobox" aria-expanded="false" aria-controls="gx-pop" aria-autocomplete="list"><button type="submit">Find</button><div class="search-pop" id="gx-pop" role="listbox" hidden></div></form>
 <div class="gx-row">

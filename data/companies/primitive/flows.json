@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "primitive",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "agent-on-email",
+      "name": "An AI agent answers a customer's email in the same thread (Primitive)",
+      "summary": "Primitive's case: customers and partners already email; connecting agents otherwise takes custom integration work business teams cannot maintain.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "A customer or partner",
+          "what": "Emails one of the company's addresses with a question or an order.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Primitive",
+          "what": "Delivers the email into the company's systems as a structured message, or runs a handler Primitive hosts; webhook deliveries are signed so the company can verify them.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The company's agent",
+          "what": "Handles the message; the agents and AI models stay the company's own.",
+          "agent": "Reads the email and decides the reply.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Replies in the same thread, from the company's own domain or one Primitive provides.",
+          "agent": "Sends the reply.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Primitive",
+          "what": "Runs the mail servers and manages SPF, DKIM and DMARC; outbound mail is signed and authenticated, traffic uses TLS, and each organisation's mail is kept apart.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

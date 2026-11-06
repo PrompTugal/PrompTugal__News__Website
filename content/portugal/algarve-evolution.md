@@ -51,6 +51,16 @@ University of Algarve, Algarve STP, AMAL, NERA, ANJE, Junior Achievement Portuga
 
 The regulation of the competition "Participation of Algarve Startups in Web Summit Lisbon 2025" names the Algarve Evolution Association as a project partner, with the University of Algarve (lead promoter), AMAL, Algarve STP and NERA. It promoted the participation of 24 Algarve startups at Web Summit Lisbon, 10 to 13 November 2025, and Algarve Evolution held one of the five permanent jury seats ([ANJE, regulation PDF](https://anje.pt/wp-content/uploads/Regulamento-Participacao-Startups-Websummit-2025_01_09_2025_Paginado-versao-EN.pdf), read 6 November 2026; also [Portugal Resident](https://stg.portugalresident.com/algarve-to-be-represented-by-24-startups-at-web-summit-2025/)). For 2026 we have found no confirmed Algarve Evolution presence at Web Summit Lisbon or event of its own in summit week: that is a question for the meeting.
 
+## Their November in 2025 {#november}
+
+Two community events show how the Algarve scene fills the weeks around Web Summit and Portugal Tech Week. Both are past, and both pages are on Luma, read 6 November 2026.
+
+{.rows}
+- **Algarve Tech Afterwork**, Tavira: Algarve Evolution is listed among the organisers with 351 Startup Association, LOFT Community, Local Foundation and Tavira Works, "in collaboration with Portugal Tech Week". The page shows no date; registration is closed ([Luma](https://luma.com/futhhudo)).
+- **Algarve Tech 2025 Wrap Party**, Faro: organised by LOFT Agenda and presented with FlourishMode and Algarve Evolution. It recaps a November series named on the page: Algarve Buildathon, GDG DevFest, Startup Weekend Lagos, Web Summit, Portugal Tech Week and the Algarve Tech Hub Summit ([Luma](https://luma.com/ydjwl98z)).
+
+We found no equivalent 2026 listing yet. We also found no public member list, so we cannot yet say which members are companies we follow.
+
 ## The Algarve in summit week {#events}
 
 Events in our programme that Algarve Evolution lists on its site, outside Web Summit's own programme (each page has its source):

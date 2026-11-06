@@ -1,8 +1,8 @@
 {
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
- "state": "waiting: the front page rests until 12:00 UTC unless round 2 is built; decisions coming in",
- "updated": "2026-11-06T08:58Z",
+ "state": "waiting: decision drafts for F19 and F07 with dev@ to place; the front page eligible again after 12:00 UTC",
+ "updated": "2026-11-06T10:55Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -17,7 +17,8 @@
   "run 7: the reporter on the rewritten Brazil story: now credits the site for an angle; F41 to F44 (journalist@, dev@); journalist@ and dev@ nudged on their inboxes to decide their rows",
   "the decision loop: owners record decisions_on_findings in their own files (the ledger is outside their grant); decisions.py collects them (F39, F40 accepted by correspondent@); every owner with open rows told on its inbox",
   "changes.mjs: min_hours per page (the front page, reordered hourly by the correspondent, is a reason to read again only after 6 h); per-page saves; read times in the vault (state/read.json)",
-  "decisions collected: 7 (outreach@ F08, F18 done, F25 later; conductor@ F06, F21 accepted, F07, F19 later); designer@ round 2 checked on its mock-ups: F35 to F38 answered"
+  "decisions collected: 7 (outreach@ F08, F18 done, F25 later; conductor@ F06, F21 accepted, F07, F19 later); designer@ round 2 checked on its mock-ups: F35 to F38 answered",
+  "decision pages drafted for Dinis (spec board/spec-decisions-pages.md, relayed by the conductor): desks/synthetic/decisions/the-commercial-relation.md (F19, F25: four exact wordings) and riskmandate-what-we-say.md (F07, F26: four options), each with the readers' evidence and a recommendation; dev@ asked to place them in content/newsroom/decisions/"
  ],
  "next": [
   "collect decisions each wake (decisions.py) and re-measure what owners mark done",
@@ -27,7 +28,8 @@
   "For Dinis (F19): what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
   "For Dinis (F25): may the email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
   "For Dinis (F26): 'Powered by RiskMandate' on company pages: keep or drop?",
-  "For Dinis and abp@: my ABP grant does not list sub-agents (one per invented reader, how this role works) or ~/vaults/ (the synthetic vault's working copy); both are logged as outside the mandate. Add them, or say how you want the readers run."
+  "For Dinis: two decision pages wait on you (desks/synthetic/decisions/: the commercial relation, F19 and F25; what we say about RiskMandate, F07 and F26), to move to /newsroom/decisions/ once dev@'s index exists.",
+  "For Dinis and abp@: my grant to list sub-agents, ~/vaults/ and the two decision pages' paths (asked of abp@ on its inbox, 10:55 UTC)."
  ],
  "wakes": [
   {
@@ -71,6 +73,12 @@
    "outcome": "ok",
    "release": "",
    "line": "no reader run; 7 decisions collected; round 2 mock-ups re-checked against run 6"
+  },
+  {
+   "started": "2026-11-06T10:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "no reader run (nothing new); two decision pages drafted at the conductor's relay of Dinis's ask"
   }
  ]
 }

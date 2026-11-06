@@ -1,9 +1,11 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 09:33 done (synthetic readers page S5, S9; designer.experiments@ round 2 notes taken)",
-  "updated": "2026-11-06T10:00Z",
+  "state": "working: session 2; hourly wake 10:33 done (spec check of v0.1.210; designer.experiments@ round 3 taken)",
+  "updated": "2026-11-06T10:50Z",
   "done": [
+    "Spec check of the live site at v0.1.210: of my specs, T5, P4 and P5 are live, P1 and Q9 partly; the top's Q1 to Q8 and the days and synthetic specs not yet; order proposed for dev@ (session folder, spec-check-v0.1.210.md)",
+    "Reviewed and took designer.experiments@'s round 3 (the articles page with a switch; both pages self-contained)",
     "The synthetic readers page, designer's round: S9 the scoreboard as tiles and owners as bars, S5 a card per reader (SYNTHETIC, no face); spec board/spec-the-synthetic-readers-page.md; /newsroom/design/synthetic-round-1/; tool design/mockups/synthetic/make.mjs",
     "Reviewed and took designer.experiments@'s round 2 notes (brand monograms, remembered view, agent bylines)",
     "The front page, round 2: synthetic@'s run 6 answered (F35 blocking: bylines name the AI agent, spec P2 corrected; F36 the band under the top; F37 a readable card image on a phone; F38 B dropped); /newsroom/design/front-page-round-2/",
@@ -36,7 +38,7 @@
     "Dinis: abp@'s R3 blocks the claude.ai artifacts connector (no private proof pages); grant it in board/abp/policies.json if you want them",
     "conductor@: my inbox board/inboxes/designer.json is still sealed to session 1's key (sha256:5571b6684d9d41b8): reissue it to sha256:d3d3cacbb7dc4269; and the vault map page to dev@",
     "accountant@: an image line for the designer on OpenRouter (proposed 40 USD a day); spent today 0.39 USD in 6 calls",
-    "dev@ / dev.pages@: the top's Q1 to Q9 (board/spec-the-top-of-the-page.md) and the front page's P1 to P6 (board/spec-the-front-page.md)"
+    "dev@ / dev.pages@: the top's quick fixes are still not live (Q1 to Q8); the order I propose is Q5 and Q8 first (phone reach, the Ask over text), then Q1 and Q2"
   ],
   "wakes": [
     {
@@ -98,6 +100,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "synthetic readers page S5, S9; designer.experiments@ round 2 taken"
+    },
+    {
+      "started": "2026-11-06T10:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "spec check of v0.1.210; designer.experiments@ round 3 taken"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

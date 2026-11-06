@@ -1,0 +1,66 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T10-43-49Z",
+ "started": "2026-11-06T10:43:49.581Z",
+ "ended": "2026-11-06T10:54:29Z",
+ "line": "10:52 wake: snapshot 1052Z, inbox empty, Vicky's renamed desk's 8 inboxes issued (35 lanes), plan updated; the 12:00 brief is brief 2",
+ "policy": {
+  "version": "1.6.0",
+  "sha256": "6805013ada685035"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T10:52:21.530Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 13,
+  "by_kind": {
+   "shell": 5,
+   "web": 2,
+   "other": 2,
+   "git": 3,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 13,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 13,
+  "in_mandate": 13,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "AI2",
+  "type": "story",
+  "title": "What these agents can reach, in their own words",
+  "beat": "AI",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [],
+  "desk_files": [
+    "desks/correspondent/ideas/ai2-what-these-agents-can-reach.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/correspondent/ideas/ai2-what-these-agents-can-reach.md"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "file": "desks/correspondent/ideas/ai2-what-these-agents-can-reach.md"
+    }
+  ]
+}
