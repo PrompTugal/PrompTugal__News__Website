@@ -25,7 +25,7 @@
    "company": "AICEP - Portugal Trade & Invest",
    "kind": "public",
    "contact_request": "contact-requests/aicep.json",
-   "topic": "Portuguese startups",
+   "topic": "Other",
    "flows": 0,
    "articles": [],
    "languages": [
@@ -42,7 +42,7 @@
    "company": "Air Apps",
    "kind": "company",
    "contact_request": "contact-requests/air-apps.json",
-   "topic": "Portuguese startups",
+   "topic": "Other",
    "flows": 0,
    "articles": [],
    "languages": [
@@ -750,7 +750,7 @@
    "company": "Startup Portugal",
    "kind": "public",
    "contact_request": "contact-requests/startup-portugal.json",
-   "topic": "Portuguese startups",
+   "topic": "Other",
    "flows": 0,
    "articles": [
     "https://promptugal.news/articles/road-2-web-summit-2026.html"
