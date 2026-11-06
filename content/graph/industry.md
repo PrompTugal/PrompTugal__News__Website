@@ -22,3 +22,5 @@ The centre is the industry. Each wedge is a field, as the newsroom files its com
 For the same companies as orbits, see [centres of gravity](../gravity/index.html). The data is [graph/explorer.json](../../api/v1/graph/explorer.json), the graph the [explorer](../index.html) loads.
 
 And the lens: [RiskMandate's ring](../riskmandate/index.html).
+
+The ready-made views of the explorer, each with a sentence on what it shows: [the best of the graph](../stories/index.html).
