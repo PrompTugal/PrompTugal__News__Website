@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 12:16, the days strip (S1) on the front page, on work/dev.pages",
-  "updated": "2026-11-06T12:40Z",
+  "state": "working: wake 13:18, front page F7 on work/dev.pages",
+  "updated": "2026-11-06T13:35Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
@@ -18,12 +18,14 @@
     "The summit's days: proposal written (board/team/dev.pages/proposal-the-summit-days.md): A a day strip on the front page, B a page per day, C front page by day not proposed; recommendation A with B",
     "Merged dev again; dev@'s merge commits keep leaving conflict markers in my status.json and assets/site.css: I resolved to my side",
     "The summit's days S1 (designer@'s spec): an eight-cell strip Fri 6 to Fri 13 above Now and next, today filled, the summit days tinted, count of items per day, each cell links to that day's agenda anchor; on a phone it scrolls sideways; days:strip in agenda.mjs; markdown list items may open with {class}",
-    "Merged dev again: the same conflict markers in site.css and status.json, resolved to my side, duplicate rules removed"
+    "Merged dev again: the same conflict markers in site.css and status.json, resolved to my side, duplicate rules removed",
+    "F7: Our question and Who we are now follow Latest, above Portugal and Companies (content/index.md)",
+    "Merged dev: the same triple-nested conflict markers in site.css (the same 3 rules repeated three times), resolved to one copy"
   ],
   "next": [
-    "The day pages /days/<date>/ (S2, S4, S5) once Dinis or conductor@ gives the go and the snapshot question (S2, S3 removals) is answered",
-    "The strip on every page and on the right on a desktop (D5)",
-    "People: ways to connect; companies: logos, search-first, graph views; articles round 2; front F6, F7"
+    "F6 kickers linked to topics (needs the beat to match a topic id: ask ontologist@); the strip on every page (D5)",
+    "People: ways to connect; companies: logos, search-first, graph views; articles round 2 (links from the graph needs article entities from ontologist@)",
+    "Day pages once there is a go"
   ],
   "asks": [
     "Dinis or conductor@: go for the day pages (board/spec-the-summit-days.md, my proposal in board/team/dev.pages/): only the strip is built",

@@ -62,7 +62,7 @@ export function htmlPage(page, site) {
     const css = [...(site.assets?.css || []), ...(page.assets?.css || [])].map(c => `\n<link rel="stylesheet" href="${href(c)}">`).join('')
     const js = [...(site.assets?.js || []), ...(page.assets?.js || [])].map(s => `\n<script defer src="${href(s)}"></script>`).join('')
     const E = S.endorse
-    const endorse = `<p class="endorse"><a href="${href(E.href)}">${esc(E.label)} <img class="rm-mark tone-light" src="${href(E.mark)}" alt="" width="24" height="24">${E.mark_dark ? `<img class="rm-mark tone-dark" src="${href(E.mark_dark)}" alt="" width="24" height="24">` : ''}<b>${esc(E.name)}</b></a></p>`
+    // the masthead no longer carries "Powered by RiskMandate" (Dinis, 6 November 2026, 03:39: "take away this Powered by RiskMandate"; FP-03); the footer keeps it
     const ears = front ? S.ears.map((e, i) => `<div class="ear ${i ? 'r' : 'l'}"><b>${esc(e.title)}</b>${esc(e.text)}${e.href ? ` <a href="${href(e.href)}">${esc(e.link)}</a>` : ''}</div>`).join('\n') : ''
     const columns = [...new Set(site.footer.map(f => f.column || ''))]
     const foot = columns.map(c => `<div>${c ? `<h3>${esc(c)}</h3>` : ''}<ul>${site.footer.filter(f => (f.column || '') === c).map(f => `<li><a href="${href(f.href)}"${/^https?:/.test(f.href) ? ' target="_blank" rel="noopener"' : ''}>${esc(f.label)}</a></li>`).join('')}</ul></div>`).join('')
@@ -100,7 +100,6 @@ ${seoHead(page, site)}
 ${ears}
 <a class="name" href="${up}index.html" aria-label="${esc(S.name)}, the front page">${WORDMARK(up)}</a>
 <p class="motto">${esc(S.motto)}</p>
-${endorse}
 </header>
 <nav class="site" aria-label="Sections"><div class="row"><div class="links">${nav}</div><div class="tools" id="nr-tools"></div></div></nav>
 <div id="nr-live" data-start="${S.countdown.start}" data-end="${S.countdown.end}"></div>

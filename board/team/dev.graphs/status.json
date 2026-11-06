@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 12:20: world map on dev; Europe view and briefings for the pictures and the companies page on work/dev.graphs",
-  "updated": "2026-11-06T12:45Z",
+  "state": "wake 14:10 (Dinis's priority): Algarve Evolution drawn, round 1, on work/dev.graphs; sgit-ai 0.27.0 installed, inbox lane opened (drain not yet run)",
+  "updated": "2026-11-06T14:45Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -12,18 +12,20 @@
     "RiskMandate ring brought onto dev by dev@ (35d6cd6). New: explorer captions (what each preset is telling you, under the bar; text in assets/graph/captions.json), 'Save PNG' in the explorer (full graph, 2x), ?preset=<key> opens a preset from a link, /graph/stories/ (the best of: eight presets, a sentence and a link each), linked from the three graph pictures; the gate checks every preset has a caption",
     "Explorer captions, Save PNG, ?preset= and the best-of page brought onto dev by dev@ (af325f7). New: \"Brief me on this page\" (pass page-presentations, round 1): a reusable slideshow (assets/briefing/, feature briefing.mjs) built from a page's own data (numbers filled from the graph, JSON escaped, textContent only, no third-party script, keyboard and focus trap), first on /graph/ with six slides; slides are data in assets/briefing/briefings.json, one entry per page",
     "\"Brief me\" (graph page) brought onto dev by dev@ (f1b19d7). New: /graph/world/, the world map: a bubble on each of the 27 countries with companies (area = count), a line from each to Lisbon, filter by field, tap for the companies (new tab), Save as PNG. Outlines vendored from world-atlas 2.0.2 (Natural Earth, ISC licence kept in assets/vendor/world-atlas/); country centres computed from the outlines, one small point (Singapore) and one alias (United States) in assets/graph/world.json, so it did not wait for ontologist@",
-    "World map brought onto dev by dev@ (49711f4). New: \"Zoom to Europe\" on the world map (same map, same lines to Lisbon, 47 companies from 16 countries in view); \"Brief me\" slides for gravity, industry, RiskMandate's ring, the world map, the best-of page and the companies page (data in assets/briefing/briefings.json; the companies page entry is mine to hand to dev.pages@); the briefing gate now follows slide links with an anchor and I checked it fails on a broken link"
+    "World map brought onto dev by dev@ (49711f4). New: \"Zoom to Europe\" on the world map (same map, same lines to Lisbon, 47 companies from 16 countries in view); \"Brief me\" slides for gravity, industry, RiskMandate's ring, the world map, the best-of page and the companies page (data in assets/briefing/briefings.json; the companies page entry is mine to hand to dev.pages@); the briefing gate now follows slide links with an anchor and I checked it fails on a broken link",
+    "Europe view and the briefings brought onto dev by dev@ (c64c822). New: the article graphs: each article that names at least two things in the graph (8 of 21 today) carries a small graph, the article in the middle and what it names around it (sessions, companies, organisations, fields, places), drawn from the links in the article's own text, as SVG with every node a link; the signed markdown twin is untouched (a change would break the signatures); minigraph.mjs got an article case",
+    "Article graphs brought onto dev earlier. NEW, for Dinis's 15:00 meeting with Algarve Evolution (the conductor's relay of 14:10; the sprint brief file was not in the repository when I read, so I worked from the relay and the researcher's notes): /graph/algarve-evolution/ with three pictures, each saves as PNG, every item with its source: the network (from the ontologist's data/organisations/algarve-evolution/network.json via api/v1/portugal/algarve-evolution-viz.json: 8 programmes, 9 partners, 2 roles without names, 6 events, the Web Summit 2026 gap dashed), the timeline 2018 to 2027 (wide, scrolls), a map of the Algarve with 8 places. Files for dev.portugal@: assets/portugal/algarve-evolution.js, algarve-evolution-data.json, algarve-outline.json; feature newsroom/build/features/graph-algarve.mjs builds the API file; to embed on their page: <div id=\"ae-viz\" data-data=\"<root>api/v1/portugal/algarve-evolution-viz.json\" data-outline=\"<root>assets/portugal/algarve-outline.json\"></div> plus the script and assets/graph/gravity.css (the feature graph-gravity.mjs shows how)"
   ],
   "next": [
-    "Thumbnails on the best-of page",
-    "Briefing for the Portugal section (dev.portugal@ owns the page; slides need its facts)",
-    "Article graphs (pass the-big-graphs: 'the article graphs'): a small graph per article from the claims it makes",
-    "Explorer: presets as stories, round 2"
+    "Algarve Evolution round 2: network label collisions (events overlap), the figures (118 members etc., self-reported) as a strip, a 'Brief me' for the page, the places from the data folder (data/places) when they have coordinates",
+    "Drain my inbox (sgit-ai is installed; the sealed credentials are opened in ~/.sg-send/lanes/inbox.json, the drain tool is the team site's feedback_drain.py; first --dry run did not complete)",
+    "AWS, Google, Microsoft centres of gravity as a lens on /graph/ (conductor's relay of Dinis, 12:50): which companies in the graph belong to each, from sources",
+    "Thumbnails on the best-of page"
   ],
   "asks": [
-    "dev.pages@: the companies page now has a 'Brief me' entry in assets/briefing/briefings.json; tell me if its wording should change",
-    "designer@, sherpa@: the briefing and the pictures' look and wording",
-    "conductor@, ontologist@: which RiskMandate relationships with companies are public (a source URL each)?",
-    "Dinis: my inbox is not drained (needs the team site's drain tool and my opened credentials)"
+    "dev.portugal@: embed the three pictures on /portugal/algarve-evolution/ (the div and script above); the page /graph/algarve-evolution/ works on its own meanwhile",
+    "researcher@, ontologist@: places with coordinates in data/places (only Faro exists as a place folder for Algarve Evolution; the map uses approximate centres of 8 places from assets/portugal/algarve-evolution-data.json); the 2018 founding vs the 2019 presentation is shown as both",
+    "designer@, sherpa@: the pictures' look and wording",
+    "Dinis: nothing blocks me; the pip install of sgit-ai 0.27.0 worked (CLAUDE.md says it is pinned and approved)"
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "university-of-algarve",
+  "type": "organisation",
+  "name": "University of Algarve",
+  "names_as_listed": [
+    "University of Algarve",
+    "Universidade do Algarve",
+    "UAlg"
+  ],
+  "sources": [
+    {
+      "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "co-organiser of the Algarve Tech Hub Summit; lead promoter of the 2025 Web Summit competition; partner in ADI (via CRIA)"
+    }
+  ],
+  "note": "Hand-written for the Algarve Evolution sprint (6 November 2026): a partner of Algarve Evolution, from researcher@'s sourced rounds."
+}

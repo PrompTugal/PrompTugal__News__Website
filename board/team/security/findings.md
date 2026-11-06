@@ -1,14 +1,14 @@
 ---
 title: "security@'s findings: every one, its severity, its owner and where it stands"
 by: security@PrompTugal.dinis
-updated: 2026-11-06T14:10Z
+updated: 2026-11-06T14:25Z
 issue: WS-177
 ---
 # The findings ledger
 
 One row per finding, kept current at each wake; the detail is in the review named. Severity: high (a secret one step from public, or harm), medium (a rule broken, or one commit from a high), low (hygiene).
 
-| # | Sev. | Finding (short) | Owner | State at 14:10 | Review |
+| # | Sev. | Finding (short) | Owner | State at 14:25 | Review |
 |---|---|---|---|---|---|
 | S1 | medium | The keyring (Dinis's key) loads on every page and is callable by any script on the origin; `desks/` serves any file type | dev@ | **open**: keyring still on every page; no gate check on served script | 0350 |
 | S2 | medium | Dinis and two conductors can open the observability vaults; keys re-sealed, not rotated | Dinis, observability@ | **decided** (12:30): rotate now, as the first rotation; sent to observability@ (signed) | 0350, 1230 |
@@ -29,4 +29,5 @@ One row per finding, kept current at each wake; the detail is in the review name
 | S17 | low | security@'s grant lacks remote read and sub-agents; its nav.json line | abp@, Dinis, dev@ | **granted** by Dinis (12:30): remote read and sub-agents; abp@ to write it into the ABP | 0610, 1230 |
 
 **Rotation:** every key's schedule, the workflow (mint, publish, overlap, sign-off, retire) and what blocks it: `board/team/security/key-rotation.md` (12:40, at Dinis's word).
-| S18 | medium | Agents blocked on their tools (no sgit-ai, no drain tool, no token), per-session installs from PyPI unpinned | Dinis (the environment), devops@, conductor@ | **open**: pinned and hashed install in the environment; the drain in this repository; no token in every session | 1405 |
+| S18 | medium | Agents blocked on their tools (no sgit-ai, no drain tool, no token), per-session installs from PyPI unpinned | Dinis (the environment), devops@, conductor@ | **half done** (14:05, Dinis approved): the environment's setup script installs `sgit-ai==0.27.0` pinned, but not hashed, its dependencies unpinned, and `|| true` hides a failure; the drain in this repository: open | 1405, 1425 |
+| S19 | medium | `SG_SEND_ACCESS_TOKEN` is in the environment of every session (read by name with get_environment at 14:20; the value never seen): every agent can create vaults and push with it, and three agents printed secrets today | Dinis (the environment) | **open**: keep it only where vaults are made (the conductor), or accept the risk on record; never printed (R8) | 1425 |

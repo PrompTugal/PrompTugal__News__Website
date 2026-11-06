@@ -4,22 +4,34 @@
   "type": "organisation",
   "name": "Algarve Evolution",
   "names_as_listed": [
-    "Algarve Evolution"
+    "Algarve Evolution",
+    "Algarve Evolution Association"
   ],
   "sources": [
+    {
+      "url": "https://www.algarveevolution.pt/",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "its own site: an association connecting entrepreneurs, talent, startups, SMBs and partners to co-create an innovation ecosystem in the Algarve; pillars Education, Startups/SMBs, Innovative Ecosystem"
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Faro-based; community building from 2018, business growth from 2026; 2032 targets; 118 active members (self-reported); programmes"
+    },
     {
       "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
       "read_at": "2026-11-04T19:45Z",
       "by": "curator@web-summit.vicky",
       "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://anje.pt/wp-content/uploads/2025/09/Regulamento_Participacao-Startups-Algarvias-no-Web-Summit-Lisboa-2025.pdf",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "named as project partner of the 2025 competition for Algarve startups at Web Summit Lisbon, with one of five permanent jury seats"
     }
   ],
-  "derived": {
-    "by": "newsroom/tools/derive.mjs",
-    "from": [
-      "desks/programme/agenda.json",
-      "desks/curator/",
-      "data/companies/"
-    ]
-  }
+  "note": "Hand-written by the ontologist for the Algarve Evolution sprint (6 November 2026) from researcher@'s rounds 1 to 6 (desks/researcher/algarve-evolution-round-1.md); its programmes, partners, figures and roles are in network.json beside this file. People are roles here, not names, until the decision on naming people (content/newsroom/decisions/naming-people-on-algarve-evolution.md) is taken."
 }

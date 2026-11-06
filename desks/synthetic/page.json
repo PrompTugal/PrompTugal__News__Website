@@ -1,7 +1,7 @@
 {
  "summary": "SYNTHETIC. Invented readers read PrompTugal.news on a phone and a desktop; every fix they found, its owner and its decision.",
  "top": [
-  "F35",
+  "F46",
   "F28",
   "F01"
  ],
@@ -10,28 +10,27 @@
   "F25: May the outreach email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
   "F26: Does 'Powered by RiskMandate' stay on company pages?"
  ],
- "latest_line": "run 8 (6 November, 12:50 UTC): a Portuguese reader and an English reporter on the front page (9 new articles since run 6) and one new story each. Both used the stories as a map to the sources; the same five things still lose them, all open with their owners.",
- "latest_intro": "Two of the run-5 readers (invented, SYNTHETIC), chosen for a mix of nationality and expertise (the ideas ledger's SY-03): Ana, Portuguese, who does not know what a prompt is, on her phone; Tom, English, a reporter, on a desktop. The front page at v0.1.247, rested six hours since run 6, with nine new articles; each picked one story.",
+ "latest_line": "run 9 (6 November, 14:34 UTC): one invented reader, the head of a regional innovation organisation, on /portugal/algarve-evolution/ for the sprint; findings to dev.portugal@, designer@ and dev.graphs@ by 14:36.",
+ "latest_intro": "At the conductor's relay of Dinis's sprint (board/passes/2026-11-06-algarve-evolution-sprint.md): one invented reader (SYNTHETIC), the executive director of a regional innovation organisation in southern Portugal, first visit, phone then laptop, minutes before meeting the publisher. She is not any real person and is not modelled on anyone at Algarve Evolution. Live page at v0.1.269.",
  "latest_readers": [
   {
-   "who": "Ana Costa, 58, pharmacy owner, Porto (SYNTHETIC)",
-   "knows": "not what a prompt is",
-   "device": "phone",
-   "story": "Octo Health launches (her pick: health, her trade)",
-   "line": "Would check it against the Jornal Económico link; nearly left at the registration entry repeated before the news (F40)."
-  },
-  {
-   "who": "Tom Hartley, 36, reporter, London (SYNTHETIC)",
-   "knows": "newsrooms",
-   "device": "desktop",
-   "story": "Web Summit's ten Lisbon years (the lead)",
-   "line": "Would come back and use it as a map to the sources; would not quote it in print. 'Every fact sourced' read to him as 'checked' (F45)."
+   "who": "Rita Pereira, 52, regional innovation director (SYNTHETIC)",
+   "knows": "the region far better than any website",
+   "device": "phone, then laptop",
+   "story": "the Algarve Evolution mini-site",
+   "line": "'I want more of this': the summit-week calendar checked against each event's own page, the 2025 regulation PDF as a primary source, the 'self-reported' labels."
   }
  ],
- "latest_signed": "**Six hours on, the same five things:** the £ balance dropping when a story opens (F01), 'signed' that nobody can check (F28), three agent names and no human editor on the story (F14, F43), insider words in 'Who made this' (F30), and the phone: 10 of 20 articles now scroll sideways (F10). None of these has a decision from its owner yet.",
- "latest_held": "'In short'; 'What this does not claim'; 'Where this comes from' with both dates; the figures table; CC BY 4.0.",
- "latest_lost": "F01, F28, F14 and F43, F30, F10 again; the registration entry six times before the news (F40, accepted by the correspondent, now worse); 'Every fact sourced' read as 'checked' (F45).",
+ "latest_signed": "**Checked by me before sending:** 'Tell Dinis Cruz' has no route (F46, blocking for her); Informa D&B in the partners list though cited only for a study (F47). Her note of an 'internal note' could not be found in the page text and was dropped; the Tech Hub Summit's 2022 vs 2024 dates are flagged openly by the page itself ('we have not resolved that'), which she read as honest.",
+ "latest_held": "the summit-week calendar, checked event by event; primary sources; 'self-reported' labels; the honest 'Open' paragraph.",
+ "latest_lost": "no way to send a correction (F46); funding, the municipalities and peer organisations missing (F48); the £ pills (F01); the hub graph unreadable on a phone (F49).",
  "earlier": [
+  {
+   "run": 8,
+   "when": "12:50 UTC",
+   "who": "Ana (PT, phone) and Tom (EN, desktop) on the front page and one new story each",
+   "line": "Both used the stories as a map to the sources; the same five rows lose them (F01, F28, F14/F43, F30, F10: 10 of 20 articles overflow); F40 worse; F45 new."
+  },
   {
    "run": 7,
    "when": "06:50 UTC",
@@ -85,7 +84,7 @@
   "A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).",
   "A card per reader (designer@, pass finding S5).",
   "The readers tapped nothing: runs so far are screenshots only.",
-  "Two decision pages for Dinis are drafted (desks/synthetic/decisions/), waiting for a path under content/newsroom/ (dev@ or abp@)."
+  "journalist@ fixed six findings (F14, F30, F31, F34, F41, F44), each checked on the live articles at 14:50 UTC and marked verified; F14 now names the editor responsible on every story."
  ],
- "latest_title": "Latest: run 8, the front page after six hours, one new story each"
+ "latest_title": "Latest: run 9, the Algarve Evolution page before Dinis's meeting"
 }

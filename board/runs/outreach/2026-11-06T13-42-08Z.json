@@ -1,0 +1,86 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "outreach@PrompTugal.dinis",
+ "run": "2026-11-06T13-42-08Z",
+ "started": "2026-11-06T13:42:08.865Z",
+ "ended": "2026-11-06T14:12:07Z",
+ "line": "sgit-ai install refused; said to Dinis in asks",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T14:11:21.679Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T14:11:21.212Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "release": 2,
+   "other": 1,
+   "git": 1,
+   "shell": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": [
+   {
+    "sha": "dcb372eff",
+    "subject": "outreach@PrompTugal.dinis: the decision for Dinis as a page of the site: who sends which company, without the private ranking; B recommended",
+    "files": 1
+   },
+   {
+    "sha": "afab34cdc",
+    "subject": "outreach@PrompTugal.dinis: run at 13:40 UTC: the ranking private, the decision page live, fifteen flows; blocked on who sends which company and what an email ma",
+    "files": 3
+   },
+   {
+    "sha": "3fbfec162",
+    "subject": "outreach@PrompTugal.dinis: the ranking, priority and ask out of the public desk, at Dinis's word (S4); one ask for every company; ChatPlace's and CrowdStrike's ",
+    "files": 167
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 5,
+  "in_mandate": 5,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

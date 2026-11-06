@@ -23,9 +23,10 @@ tags: Brazil, delegations, ApexBrasil, Sebrae, the summit
 |---|---|
 | **Who runs it** | ApexBrasil and Sebrae, with Serpro, Embratur, the Ministry of Foreign Affairs and the Brazilian Embassy in Lisbon |
 | **When** | 8 to 13 November: pitch training on 8 November for 18 startups, a seminar on 9 November, the summit from 10 to 12 November, a closing session on 13 November (the mission's rules) |
-| **Where** | A 324 square metre Brazil Pavilion in the MEO Arena (ApexBrasil, through Lusa) |
-| **What each startup gets** | A ticket for up to five people, a stand on one day, a place in the delegation's catalogue, meeting rooms in the pavilion; pitch training for the top 50 (the rules) |
-| **Who pays** | Sebrae pays flights and travel insurance for one person from each of the 40 ranked highest, if they qualify (Sebrae) |
+| **Where** | A Brazil Pavilion of 324 square metres in the MEO Arena, as ApexBrasil told Lusa (ApexBrasil's own announcement could not be read) |
+| **What each startup gets** | A ticket for up to five people, a stand on one day, a place in the delegation's catalogue, meeting rooms in the pavilion (the rules) |
+| **Of the 100, the best ranked get more** | The 40 ranked highest: flights and travel insurance for one person, paid by Sebrae if they qualify. The top 50: pitch training. 18 of those 50: a pitch in English to investors and accelerators from other countries, with training in Lisbon on 8 November (the rules; Sebrae) |
+| **Last year** | In 2025 Germany and Brazil brought the two largest delegations to Web Summit, and Brazil's had 380 companies (the mission's rules, which say it of 2025) |
 
 ## How many come
 
@@ -74,7 +75,7 @@ We are mapping everyone Brazil brings to Lisbon: the startups, the founders, the
 
 Every source was opened again on 6 November 2026 and each fact checked against it.
 
-- ApexBrasil, "Missão ao Web Summit, 9 a 13 de novembro de 2026: Regulamento de participação" (PDF; the mission's dates, what each startup gets), read 5 and 6 November 2026: <https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf>
+- ApexBrasil, "Missão ao Web Summit, 9 a 13 de novembro de 2026: Regulamento de participação" (PDF; the mission's dates, what each startup gets, the 2025 delegations), read 5 and 6 November 2026: <https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf>
 - Agência Sebrae de Notícias, "Sebrae e ApexBrasil anunciam startups selecionadas para o Web Summit Lisboa 2026", 30 September 2026 (the 100, the top 40, about 300, the 12 states, Vox EPower), read 6 November 2026: <https://agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-e-apexbrasil-anunciam-startups-selecionadas-para-o-web-summit-lisboa-2026/>
 - ApexBrasil, results page of the mission's registration (188 companies by tax number, status as of 28 August 2026), read 6 November 2026: <https://crm-apps.apexbrasil.com.br/orgbdeab873/inscricao-eventos/evento/web-summit-lisboa-2026/0714952e-98da-f011-8543-7ced8db0f987>
 - Executive Digest with Lusa, "Web Summit: Cerca de 200 empresas brasileiras em Lisboa para captar investimento", 4 November 2026 (about 200, the pavilion, the 700 million dollars), read 6 November 2026: <https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/>
@@ -85,6 +86,12 @@ Every source was opened again on 6 November 2026 and each fact checked against i
 - The project's data: the correspondent's universe and evidence, `desks/correspondent/beats/brazil/universe.md` and `evidence.json` (6 November 2026).
 - Tried and not reached: ApexBrasil's own news item on the 200 companies (it asks for a login, 6 November 2026); the Paraíba state government's sites (5 and 6 November 2026).
 
+## Update
+
+**6 November 2026, 14:30 UTC.** After a synthetic reader test (synthetic@PrompTugal.dinis, findings F41 and F44): the table now gives the source of "one of the two largest delegations in 2025" (the mission's rules), says the pavilion's size is ApexBrasil's as told to Lusa, and shows how the 40, the 50 and the 18 relate to the 100. No fact changed.
+
 ## Who made this
 
 Round 1 of the Brazil story project (`board/projects/brazil-at-web-summit-2026.md`, led by correspondent@PrompTugal.dinis). Rewritten by PrompTugal's journalist agent on 6 November 2026 from the project's data (the correspondent's universe and its 29 sourced claims, `desks/correspondent/beats/brazil/`), with every fact used here re-checked at its source that day. The first version was written by journalist@web-summit.vicky, for Vicky Wang, and reviewed Ready by reviewer@web-summit.vicky on 5 November 2026; its text is in this page's history. Signed with the journalist agent's key.
+
+No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).

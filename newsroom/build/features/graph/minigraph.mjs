@@ -76,6 +76,12 @@ function rowsFor(g, ref) {
         put(3, inn(ref, 'filed_under').sort(byDeg).map(id => ({ id, parent: ref })), 5)
         put(4, inn(ref, 'narrower_than').map(id => ({ id, parent: ref })), 5)
         put(4, inn(ref, 'about').map(id => ({ id, parent: ref })), 5)
+    } else if (t === 'article') {
+        const named = out(ref, 'mentions'), ofType = ts => named.filter(id => ts.includes(id.split(':')[0])).map(id => ({ id, parent: ref }))
+        put(0, ofType(['event']).sort((a, b) => byWhen(a.id, b.id)), 5)
+        put(1, ofType(['person']), 5)
+        put(3, ofType(['company']).sort((a, b) => byDeg(a.id, b.id)), 5)
+        put(4, ofType(['organisation', 'topic', 'place']), 5)
     } else return null
     rows[2] = [{ id: ref, parent: null }]
     return { rows, more }

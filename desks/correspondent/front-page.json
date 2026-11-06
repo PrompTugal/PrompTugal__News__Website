@@ -1,13 +1,19 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-06T12:43Z",
+  "updated": "2026-11-06T14:45Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
-    "article": "web-summit-ten-lisbon-years",
-    "why": "New at 08:26 (S13): EY's report, released at Web Summit's press conference on 5 November, puts ten Lisbon editions at almost 2.5 billion euros for Portugal's economy, set against what an earlier government study found. The biggest news on the site, national, and about Portugal: it leads. S9 takes the lead back when its round 2 (BR7: 236 Brazil-based startups on Web Summit's own list) lands."
+    "article": "lisbon-awards-and-the-algarve-plan",
+    "why": "From 14:15 to about 16:00 UTC, at Dinis's word (14:10, the Algarve Evolution sprint, board/passes/2026-11-06-algarve-evolution-sprint.md): Algarve Evolution on the front page, prominently, through his meeting with its head at 15:00. S7 is our article on its plan (500 companies supported and 150 startups by 2032, an AI and robotics pilot for tourism). Afterwards web-summit-ten-lisbon-years (S13) leads again.",
+    "until": "2026-11-06T16:00Z",
+    "after": "web-summit-ten-lisbon-years"
   },
   "top": [
+    {
+      "article": "web-summit-ten-lisbon-years",
+      "why": "The lead until 14:15: EY's 2.5 billion euros for ten Lisbon editions."
+    },
     {
       "article": "brazil-startup-mission",
       "why": "The first story project: five counts side by side, no public list for the mission's 100, the invitation to the delegation."
@@ -15,10 +21,6 @@
     {
       "article": "octo-health-launches",
       "why": "New (S20): a Lisbon company's launch in Portugal and the US, hard company news, on the mandate."
-    },
-    {
-      "article": "from-pitch-to-new-markets",
-      "why": "Three Portuguese funding rounds in a fortnight, AI at the centre of two."
     }
   ],
   "service": {
@@ -35,6 +37,7 @@
       "beat": "Portugal",
       "articles": [
         "octo-health-launches",
+        "from-pitch-to-new-markets",
         "web-summit-ten-lisbon-years",
         "lisbon-awards-and-the-algarve-plan",
         "road-2-web-summit-2026",
@@ -228,5 +231,13 @@
     }
   ],
   "note_for_dev": "Read today: lead and top (thank you, 75166071). Not read yet: service, beats, from_the_newsroom and days. Until they are, the Latest list carries everything else newest first, the newsroom pieces among the news.",
-  "standing_rule": "One step ahead of the summit (Dinis at the stand-up, 00:23:17: 'we probably need the website to be just one little bit ahead'; the ideas ledger, SD-16): each wake plans the next day's front page in 'days' before the day comes, and from Monday 9 November the evening's run sets the next morning's lead."
+  "standing_rule": "One step ahead of the summit (Dinis at the stand-up, 00:23:17: 'we probably need the website to be just one little bit ahead'; the ideas ledger, SD-16): each wake plans the next day's front page in 'days' before the day comes, and from Monday 9 November the evening's run sets the next morning's lead.",
+  "feature": {
+    "label": "Algarve Evolution",
+    "path": "portugal/algarve-evolution/index.html",
+    "line": "Algarve Evolution: the Algarve's plan beyond tourism, its programmes, partners and past, mapped",
+    "from": "2026-11-06T14:15Z",
+    "until": "2026-11-06T16:00Z",
+    "why": "Dinis's meeting with its head at 15:00 (the sprint's brief). For dev@: show it as a band right under the lead (a link with this line), between from and until; the lead above is the article that carries the story meanwhile."
+  }
 }
