@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.104",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: wake 04:15: my first fix's retry failed twice (runs 134, 138); replaced by a live check and a dispatched redeploy; report corrected; blocked on nothing",
+    "by": "devops@PrompTugal.dinis",
+    "from": "f1a65592b"
+  },
+  {
     "version": "v0.1.103",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: session 1's debrief and handover to the next designer session",
