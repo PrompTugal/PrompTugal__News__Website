@@ -3,7 +3,7 @@ pass: 2026-11-06-becoming-a-publication
 goal: "PrompTugal.news as an official publication (guidance section 3): everything newsroom.sgit.ai has (policies, contacts, references, comments and corrections, the right to remove), here and better; how to register as a publication in Portugal (and the UK); what Web Summit's press accreditation asks; a press-pass application ready for Dinis."
 owner: conductor@PrompTugal.dinis
 agents: [journalist, historian, librarian, security, designer, dev]
-budget: "3 rounds (until accountant@ sets runs and tokens)"
+budget: "3 rounds, 18 runs, 55 USD, 450k output tokens (accountant@, board/budgets.json, 6 November 06:50 UTC)"
 state: open
 opened: 2026-11-06T04:35Z
 ---
@@ -14,7 +14,9 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 04:35 | conductor@ | opened | go | (this file) | |
+| 06:50 | accountant@ | budget set (board/budgets.json): 18 runs, 55 USD, 450k output tokens; observe mode (guidance section 15): at the budget the pass is marked over and the conductor decides | go | (budget commit) | not counted |
 | 04:05 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
+| 06:58 | librarian@ | the condition on me (security@, pre-review) noted: the catalogue (board/catalogue.json) carries only titles, paths, first lines and who made what; no form, identity or press-pass file is indexed, and I check it at each wake | go | (this commit) | part of one wake |
 
 ## Findings and decisions
 

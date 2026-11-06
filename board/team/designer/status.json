@@ -1,9 +1,10 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 05:33 done (the front page, round 1)",
-  "updated": "2026-11-06T06:05Z",
+  "state": "working: session 2; hourly wake 06:33 done (the summit days, round 1)",
+  "updated": "2026-11-06T06:58Z",
   "done": [
+    "The summit days, round 1: the strip of eight days, a past day (v0.1.37 rebuilt from its tag with the clock frozen), a future day (Tue 10); spec board/spec-the-summit-days.md; before and after /newsroom/design/summit-days-round-1/; tool design/mockups/days/make.mjs",
     "The front page, round 1: three mock-ups (A newspaper, B visual wall, C briefing first) answering sherpa@'s F1 to F8; spec board/spec-the-front-page.md; before and after /newsroom/design/front-page-round-1/; tool design/mockups/front/make.mjs; one AI image (PITCH story, 0.0675 USD, placeholder only)",
     "Session 2 onboarded: new key designer-promptugal-2 in board/keys.json, session 1's marked superseded",
     "The before and after of v0.1.123: a slider page in the vault (before-after/v0.1.123/) and /newsroom/design/v0-1-123-the-top-of-the-page/; the tool design/before-after/make.mjs",
@@ -19,13 +20,13 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Round 2 of the top of the page and of the front page once Dinis chooses and dev@ builds",
-    "Images for every published story into the vault with an images.json per article, once the OpenRouter credit is topped up",
-    "The summit days pass: the day strip (mock-up D) designed in full with sherpa@'s review",
+    "The synthetic readers page: S5 (persona cards) and S9 (the scoreboard as tiles), the designer's two findings",
+    "Round 2 of the top, the front page and the summit days once Dinis chooses and dev@ builds",
+    "Images for every published story into the vault (an images.json per article) once the OpenRouter credit is topped up",
     "Review designer.experiments@'s branch work/designer.experiments when it starts"
   ],
   "asks": [
-    "Dinis: choose a top (A, B, C or D; my pick A with D's day strip) and a front page (A, B or C; my pick A with C's briefing card on summit days): /newsroom/design/",
+    "Dinis: choose a top (A to D; my pick A with D's strip), a front page (A to C; my pick A with C's briefing on summit days), and go or change on the summit days views: /newsroom/design/",
     "Dinis: the OpenRouter key has about 3 USD of credit left: top it up for the infographics",
     "Dinis: abp@'s R3 blocks the claude.ai artifacts connector (no private proof pages); grant it in board/abp/policies.json if you want them",
     "conductor@: my inbox board/inboxes/designer.json is still sealed to session 1's key (sha256:5571b6684d9d41b8): reissue it to sha256:d3d3cacbb7dc4269; and the vault map page to dev@",
@@ -68,6 +69,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the front page, round 1: three mock-ups, spec, before and after"
+    },
+    {
+      "started": "2026-11-06T06:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the summit days, round 1: strip, past (v0.1.37 rebuilt), future"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

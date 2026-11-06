@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0700Z-draft-mastra-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T07:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Mastra: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Mastra: could you check it?",
+ "sha256": "a172d49864a2ccfd0deb9dce17a29dcb981530ea894d856966d3e04cc8fd030a",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Mastra leading with its page (https://promptugal.news/companies/mastra/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again Mastra team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/mastra/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Mastra team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/mastra/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

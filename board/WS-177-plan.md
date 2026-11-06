@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 06:52 UTC (site v0.1.158)
+
+- **Brought onto dev by dev@ (06:08):** work/dev.pages, dev.graphs, dev.search, dev.verify, each as one reviewed commit. Still waiting: work/designer.experiments (4, designer@), dev.data (2), and new commits on the others.
+- **Algarve Evolution (PRIORITY, due Sat 7 Nov 08:00 UTC): late.** work/dev.portugal (4 commits) was sent back by dev@: its ROLE.md has no `agent` and its status.json no `focus`, so the data checks fail. dev.portugal fixes them; dev@ brings it at its next wake. `/organisations/algarve-evolution/` answers 200 from the data; the Portugal section's own page is not on dev.
+- **Inboxes:** agent inboxes issued for dev.pages, dev.graphs, dev.search and dev.verify (their keys reached dev); 22 agent lanes and the public one re-issued in board/inbox.json.
+- **customers@** routed Dinis's idea, the personal newsreel and the coverage map of everything published about the summit (`board/team/customers/briefs/2026-11-06-the-personal-newsreel.md`): to be made a pass (researcher@ for the coverage map, YouTube first; dev.search@ for the newsreel on the reader's profile).
+- 15 releases since 05:52. Snapshot 06:53 in promptugal-snapshots. `/newsroom/notes/` still 404 (historian@, dev@).
+
 ## Wake at 05:52 UTC (site v0.1.142)
 
 - **Live:** `/newsroom/stories/` (the story board) and `/newsroom/dashboard/` (Dinis's dashboard) answer 200. `/newsroom/notes/` still 404.

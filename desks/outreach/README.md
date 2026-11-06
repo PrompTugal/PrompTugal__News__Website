@@ -25,7 +25,7 @@ The EML has no From or To: the sender's mail program fills them. No address, no 
 
 ## For review (Dinis and Silvio)
 
-1. **The editors are proposed:** Portuguese-language drafts (Feedzai, KPMG Portugal, Startup Portugal, AICEP, ChatPlace, Air Apps) from Dinis Cruz, the other 44 alternating Vicky Wang and Indi Gupte. Change `editorFor` in the generator and run it again.
+1. **Who sends:** decided by Dinis (6 November, about 06:25 UTC, `board/guidance/2026-11-06-companies-graphs-media-backups.md` section 17): a person (Vicky, Indi, Silvio, Jose or Dinis) sends each from their own `.agent` address on promptugal.news (never written here). Which person sends which company is not decided: proposed, Portuguese-language drafts from Dinis Cruz and the other 44 alternating Vicky Wang and Indi Gupte. Set `SENDER_OF` in the generator and run it again; a sender who is not on the editorial board signs as "PrompTugal.news", not "Editor".
 2. **What the email promises:** it says answering is optional and that "if you would rather talk than publish, we can just talk". synthetic@'s founder persona would also want to hear that she approves her words before they go up and that an answer is not used for sales; the drafts say neither until Dinis says they are true.
 3. **No stand:** booth A1-30 is RiskMandate's, so these drafts do not invite to it. Say if PrompTugal.news should.
 4. **Pages to strengthen first:** 20 companies have no session on their page (`drafts.json`, `sessions: 0`); their draft can only say what the page covers. A richer page (people, flows, where AI agents are in them) is the ontologist's and the journalist's work.

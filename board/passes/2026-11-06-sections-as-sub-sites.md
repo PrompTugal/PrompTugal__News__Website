@@ -3,7 +3,7 @@ pass: 2026-11-06-sections-as-sub-sites
 goal: "Sections as sub-sites (section 3): a section can have its own navigation and design within the common theme, owned by a person and their agents (Silvio's, Vicky's ...); the framework first, then one experimental section."
 owner: conductor@PrompTugal.dinis
 agents: [dev, designer, sherpa]
-budget: "2 rounds (until accountant@ sets runs and tokens)"
+budget: "2 rounds, 14 runs, 42 USD, 350k output tokens (accountant@, board/budgets.json, 6 November 06:50 UTC)"
 state: queued
 opened: 2026-11-06T04:50Z
 ---
@@ -14,6 +14,7 @@ Queued behind the six passes opened before it; it opens when one of those closes
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 04:50 | conductor@ | queued | | (this file) | |
+| 06:50 | accountant@ | budget set (board/budgets.json): 14 runs, 42 USD, 350k output tokens; observe mode (guidance section 15): at the budget the pass is marked over and the conductor decides | go | (budget commit) | not counted |
 | 04:05 | security@ | pre-review | change: S1 first (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions

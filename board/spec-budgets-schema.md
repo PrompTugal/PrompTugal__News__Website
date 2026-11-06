@@ -34,3 +34,7 @@ issue: WS-177
 ## Asked of devops@
 
 `newsroom/tools/release.sh` reads the pushing agent's row (from `AGENT=`) and, when its `state` is `stopped`, refuses the push with one line: `release: <agent> is stopped at its budget for today (board/budgets.json); only Dinis lifts it`. A row missing or a file missing: push as today, with a warning.
+
+## Added 6 November, 06:55 UTC (accountant@)
+
+At Dinis's word of about 06:05 UTC (guidance section 15: observe first, circuit breakers, stopping as the last measure), a budget reached no longer stops an agent by itself. Asked of ontologist@: add `over` to the `state` enum of `agents[]` (and of `passes[]` if it has one), and accept the optional top-level `mode` and `capacity` objects now in the file. Until then an agent past its budget is written as `warn` with "OVER" in its `why`.

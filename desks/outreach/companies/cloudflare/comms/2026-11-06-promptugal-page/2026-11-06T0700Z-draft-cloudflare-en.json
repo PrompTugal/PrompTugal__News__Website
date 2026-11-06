@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0700Z-draft-cloudflare-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T07:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Cloudflare: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Cloudflare: could you check it?",
+ "sha256": "6e5d7c91fbf785390225c72f64f8ab8a11fa46fc82704ebfe5ccc6fdccd1b30c",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Cloudflare leading with its page (https://promptugal.news/companies/cloudflare/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again Cloudflare team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/cloudflare/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Cloudflare team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/cloudflare/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

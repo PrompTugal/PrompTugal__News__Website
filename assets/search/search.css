@@ -42,3 +42,7 @@
 :where(.res .r-meta) { margin: 4px 0 0; font: 400 12.5px/1.4 var(--sans); color: var(--ink-3); }
 a:where(.sp-item), a:where(.res .r-title) { color: var(--ink); text-decoration: none; }
 .nr-facets .chip[aria-pressed="true"]:hover { color: var(--paper); }   /* a pressed chip keeps its label under the pointer */
+
+.nr-answer { margin: 0.75rem 0; }
+.nr-answer-hint, .nr-answer-tools { font-size: 0.85em; opacity: 0.75; }
+.nr-answer-out:not(:empty) { border-left: 3px solid currentColor; padding: 0.25rem 0.75rem; margin: 0.5rem 0; }

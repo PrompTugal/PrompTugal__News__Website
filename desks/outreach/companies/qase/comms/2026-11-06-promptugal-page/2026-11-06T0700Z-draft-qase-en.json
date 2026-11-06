@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0700Z-draft-qase-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T07:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Qase: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Qase: could you check it?",
+ "sha256": "dc8be9ffa83a4d8fe64655c4554be5d1478ef78fb18d4cafd64b17e0b7ca0ecc",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Qase leading with its page (https://promptugal.news/companies/qase/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again Qase team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/qase/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Qase team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/qase/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

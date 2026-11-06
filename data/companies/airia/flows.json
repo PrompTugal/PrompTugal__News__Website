@@ -1,0 +1,71 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "airia",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "govern-every-agent",
+      "name": "An enterprise governs every AI agent it runs, approved or not",
+      "summary": "As Airia's home page describes it: once deployed, the same controls apply to agents that were purpose-built, commercially adopted or never approved. Its page says the product views it shows are illustrations with sample data.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "Airia",
+          "what": "Discovers every AI tool, model, agent and MCP server running across the organisation, including those nobody approved and personal AI subscriptions employees connect to corporate systems.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The security team",
+          "what": "Sees what was found (for example people using AI apps that were never onboarded) and is given the controls to act on it.",
+          "source": "fl1"
+        },
+        {
+          "actor": "An AI agent",
+          "what": "Attempts an action: a tool call, sending an email, a database query.",
+          "agent": "Acts inside the enterprise's systems; Airia's page puts it as \"agents don't generate, they act\".",
+          "source": "fl1"
+        },
+        {
+          "actor": "Airia",
+          "what": "Enforces policy at the execution layer before the action happens; guardrails inspect every action at runtime, and unauthorised agent actions are stopped (its example: access to customer records approved only when policy checks pass and an audit trail is active).",
+          "source": "fl1"
+        },
+        {
+          "actor": "Airia",
+          "what": "Keeps one inventory of every agent, model and tool in use, with risk classification, human approvals and audit evidence, and generates governance documentation mapped to the EU AI Act, NIST AI RMF, SR 11-7, HIPAA, ISO 42001 and SOC 2.",
+          "source": "fl1"
+        }
+      ]
+    },
+    {
+      "id": "build-and-launch",
+      "name": "Teams build and launch agents through one governed gateway",
+      "summary": "The building side of the same platform, in the five layers its home page lists.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The enterprise",
+          "what": "Connects the systems, warehouses and sources its agents act on, with permissions preserved.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Airia",
+          "what": "Routes every request through one governed gateway of approved models and tools, each tested and validated before it reaches production.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Business and technical teams",
+          "what": "Design, orchestrate and launch agents together, with policy controls configured before the agents reach production.",
+          "agent": "The agents the teams build run across any model, framework and data source, inside those controls.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Airia",
+          "what": "Inspects the agents' actions at runtime and keeps sensitive data protected across every connected system.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}
