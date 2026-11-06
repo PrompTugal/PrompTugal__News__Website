@@ -21,6 +21,12 @@ export const imageOf = (ctx, page, a, size) => {
     const alt = (w ? `${w.short_title}: ${w.figure?.value ? w.figure.value + ' ' + w.figure.label : w.points?.[0]?.text}` : a.meta.title).replace(/[\[\]()]/g, '')
     return `![${alt}](${ctx.link(page.rel, OUT + file)})`
 }
+// a beat as a link to its topic page (sherpa F6), when a topic of that name exists; else the plain words
+const beatLink = (ctx, page, beat) => {
+    const b = String(beat || '').replace(/["']/g, '').replace(/^connections:\s*/i, '').replace(/\s*\(.*\)$/, '').trim()
+    const t = ctx.store.topics.find(x => x.name.toLowerCase() === b.toLowerCase())
+    return b ? (t ? `[${t.name}](${ctx.link(page.rel, `topics/${t.id}/index.html`)})` : `\`${b}\``) : ''
+}
 export const firstSentence = (t, max = 150) => { const s = (t.match(/^.*?[.!?](?=\s|$)/) || [t])[0]; return s.length > max ? s.slice(0, max - 1).replace(/\s+\S*$/, '') + '…' : s }
 
 // the correspondent's choices (desks/correspondent/front-page.json, kept by correspondent@): its lead, then its top
@@ -56,7 +62,7 @@ export const fill = {
         const rest = frontOrder(ctx).slice(1)
         const row = a => {
             const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'thumb')
-            return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary)}* \`${[a.meta.beat, ctx.DAY(a.meta.date)].filter(Boolean).join(' · ')}\``
+            return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary)}* ${beatLink(ctx, page, a.meta.beat)} \`${ctx.DAY(a.meta.date)}\``
         }
         return rest.length ? `{.rows .news}\n${rest.map(row).join('\n')}` : 'The next articles will appear here, newest first. Each is written from the desks\' research, fact-checked, and signed with the newsroom\'s key.'
     },
