@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.250",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the conductors in sync; ChatGPT and Perplexity agents ready to start",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "9a4e13d27"
+  },
+  {
     "version": "v0.1.249",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: Vicky's agents may publish; the reader feedback and reading pass",
