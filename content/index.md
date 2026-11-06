@@ -1,6 +1,6 @@
 ---
 title: What is on at Web Summit Lisbon 2026
-summary: The independent newsroom at Web Summit Lisbon, 9 to 12 November 2026. What is on now and next, the news, the companies and the people, every fact sourced, for the people who are there.
+summary: PrompTugal.news, independent, at Web Summit Lisbon, 9 to 12 November 2026. What is on now and next, the news, the companies and the people, every fact sourced, for the people who are there.
 layout: wide
 ---
 ::: front-top
@@ -63,4 +63,4 @@ The idea comes from [RiskMandate](riskmandate/index.md). In its own words, "a gr
 
 A small team going to the summit, editors Dinis Cruz, Indi Gupte and Vicky, working with AI agents; Dinis Cruz is the human in charge. **Independent. Not affiliated with Web Summit.** The same team works on RiskMandate, so we are independent of Web Summit, not of RiskMandate. [Read our disclosure](about/participant.md) before you weigh what we say.
 
-[About the newsroom](about/index.md) · [People](people/index.md) · [The industry map](topics/index.md) · [The team's working site](https://web-summit.sgit.ai/)
+[About PrompTugal.news](about/index.md) · [People](people/index.md) · [The industry map](topics/index.md) · [The team's working site](https://web-summit.sgit.ai/)

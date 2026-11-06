@@ -41,7 +41,7 @@ Founders seeking EU funding could begin at HaDEA's stand E418. Those needing com
 
 - **The times are the organisers' own.** Every session, time and stand number comes from the Commission's and HaDEA's pages. They were not checked against Web Summit's schedule, and Web Summit's speakers page, as read here, did not list Henna Virkkunen. Times can change.
 - **Which INPI.** The Commission's agenda says "EUIPO & INPI" and does not say which INPI. Portugal's industrial property institute is called INPI, and so is France's. This article does not say which one hosts the meetup.
-- **The projects are described in HaDEA's words.** The newsroom has not read the projects' own pages or checked what they have achieved. Who speaks for each project is on HaDEA's page and is not repeated here.
+- **The projects are described in HaDEA's words.** PrompTugal.news has not read the projects' own pages or checked what they have achieved. Who speaks for each project is on HaDEA's page and is not repeated here.
 - **The Dutch programme is provisional.** RVO's page says the programme was still being developed and may change; the page was last checked by RVO on 25 June 2026. How many Dutch companies come is not known.
 - **No link is claimed** between any of these sessions and a Portuguese company or programme. Nothing here says that any organisation will meet or work with another.
 - **The EUIPO's own site** refused the request (403) on 5 November, so the panel and meetup are described only from the Commission's agenda.

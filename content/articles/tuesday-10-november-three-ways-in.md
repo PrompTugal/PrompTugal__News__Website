@@ -15,7 +15,7 @@ tags: the summit, Europe, Portugal, practical guide
 - Executive Vice-President Henna Virkkunen has a fireside chat, "Has Europe's tech moment arrived?", on Centre Stage from 11:05 to 11:25, the Commission says. A Commission masterclass on data spaces follows at 12:00.
 - Web Summit lists a "First timers at Web Summit meetup" from 11:00 to 11:55 in Meetup 4. It overlaps the fireside chat, so a newcomer has to pick one.
 - The University of Lisbon hosts UniVerse: Academia Empreendedora, with a pitch competition for startups from nine Portuguese universities. Its stand (Pavilion 1) and Técnico's (Pavilion 2, E272) open the same day.
-- The links are the newsroom's suggestions. No source says any of these organisations plan to meet.
+- The links are our suggestions. No source says any of these organisations plan to meet.
 
 ## The story
 
@@ -45,7 +45,7 @@ The fireside chat (11:05 to 11:25) falls inside the meetup (11:00 to 11:55): a n
 
 ### Who might get the most from the day
 
-These are the newsroom's suggestions, from the public listings above; none is planned by the organisations named.
+These are our suggestions, from the public listings above; none is planned by the organisations named.
 
 - **A first-time founder** could start at the first-timers meetup and go on to the data spaces masterclass at 12:00, which is aimed at small businesses.
 - **Anyone following EU tech policy** would want Centre Stage at 11:05, then the Commission's stands in Pavilion 4.
@@ -54,7 +54,7 @@ These are the newsroom's suggestions, from the public listings above; none is pl
 
 ## What this does not claim
 
-- **No meetings are planned that we know of.** Every link above is the newsroom's suggestion. No source says the Commission, the universities, Web Summit's meetup hosts or any startup plan to meet or work together.
+- **No meetings are planned that we know of.** Every link above is our suggestion. No source says the Commission, the universities, Web Summit's meetup hosts or any startup plan to meet or work together.
 - **Times are as each organiser lists them.** Web Summit's schedule data gives its times in Lisbon time (Europe/Lisbon, the same as UTC in November). The Commission's agenda does not say; we take its times to be Lisbon time too. Schedules can change; check Web Summit's app on the day.
 - **Where the masterclass is held is not given.** The Commission lists its time but not its stage or room, so we cannot say how far it is from Meetup 4.
 - **The Virkkunen fireside chat comes from the Commission's page.** We did not find it on the part of Web Summit's schedule page we read.

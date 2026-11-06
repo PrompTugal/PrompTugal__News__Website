@@ -43,7 +43,7 @@ Web Summit's SVP of Technology Operations, Nidhi Naithani, said the study shows 
 
 ## What this does not claim
 
-- **All the 2026 figures are Web Summit's own**, given before the event. The newsroom has not counted them. The final numbers will be known after the summit.
+- **All the 2026 figures are Web Summit's own**, given before the event. PrompTugal.news has not counted them. The final numbers will be known after the summit.
 - **"10,000 startups"** is Web Summit's figure for this year's attendees. It is a different measure from the about 2,700 startups accepted into the 2025 startup programme, and this article does not compare them.
 - **The 2025 figures** come from a Lusa report, which cites the organisers, and from ApexBrasil's mission rules, which name no source. This article did not find them on a Web Summit page.
 - **The survey's method.** Web Summit gives the number of respondents (1,455) and says they are from its global community. It does not say how they were chosen, so the findings describe that community, not the whole industry. The full report was not read for this article.

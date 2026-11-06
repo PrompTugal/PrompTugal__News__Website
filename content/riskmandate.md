@@ -1,10 +1,10 @@
 ---
 title: Powered by RiskMandate
-summary: This newsroom is powered by RiskMandate, which works on making AI agents insurable. What that means for what you read here, and RiskMandate in its own words.
+summary: PrompTugal.news is powered by RiskMandate, which works on making AI agents insurable. What that means for what you read here, and RiskMandate in its own words.
 ---
 ## What "powered by" means here {#means}
 
-The team that runs this newsroom also works on RiskMandate. The editors, not RiskMandate, decide what is published. What RiskMandate gives the newsroom is a lens. Every time we look at an AI agent at the summit, we ask RiskMandate's three questions:
+The team that runs PrompTugal.news also works on RiskMandate. The editors, not RiskMandate, decide what is published. What RiskMandate gives PrompTugal.news is a lens. Every time we look at an AI agent at the summit, we ask RiskMandate's three questions:
 
 1. **Reach.** What can the agent actually do?
 2. **Mandate.** What was it authorised to do?
@@ -33,6 +33,6 @@ Its central document is the Agent Behaviour Policy: "a written description, for 
 
 - On a company's profile, the question is asked, never answered for them: "We have not asked them yet. When they answer, it goes here."
 - In articles, the lens appears only where a story is about agents, and only as a question.
-- We apply it to ourselves first: [the newsroom's own reach, mandate and gap](../about/index.md#reach-mandate-gap).
+- We apply it to ourselves first: [our own reach, mandate and gap](../about/index.md#reach-mandate-gap).
 
-[riskmandate.ai](https://riskmandate.ai/) · [About the newsroom](../about/index.md)
+[riskmandate.ai](https://riskmandate.ai/) · [About PrompTugal.news](../about/index.md)

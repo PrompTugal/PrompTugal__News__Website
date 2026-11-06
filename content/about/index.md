@@ -1,12 +1,12 @@
 ---
-title: About the newsroom
-summary: Who runs this newsroom, how we make it, and the limits we work within.
+title: About PrompTugal.news
+summary: Who runs PrompTugal.news, how we make it, and the limits we work within.
 ---
-**The brief:** how this newsroom is meant to work, from Dinis Cruz's own words, is [the brief pack](../brief/index.html).
+**The brief:** how PrompTugal.news is meant to work, from Dinis Cruz's own words, is [the brief pack](../brief/index.html).
 
 ## Independent, and who we are {#independent}
 
-**The independent newsroom at Web Summit Lisbon 2026.** We are not affiliated with Web Summit and do not speak for it: we name it only to say where we report from. We are [powered by RiskMandate](../riskmandate/index.md), which the same team works on, so we are not independent of RiskMandate, and we say so on every page.
+**PrompTugal.news: technology and AI, in context, from Portugal for Europe.** Its first edition is Web Summit Lisbon 2026. We are not affiliated with Web Summit and do not speak for it: we name it only to say where we report from. We are [powered by RiskMandate](../riskmandate/index.md), which the same team works on, so we are not independent of RiskMandate, and we say so on every page.
 
 ::: staffbox
 ## The editors {#editors}
@@ -14,7 +14,7 @@ summary: Who runs this newsroom, how we make it, and the limits we work within.
 {.staff}
 | Editor | Responsible for |
 |---|---|
-| **Dinis Cruz**, editor-in-chief | What the newsroom is for, and the final word on what it says. He approves every major release. |
+| **Dinis Cruz**, editor-in-chief | What PrompTugal.news is for, and the final word on what it says. He approves every major release. |
 | **Indi Gupte**, editor | What we publish and how it reads. |
 | **Vicky**, editor | Research and the programme: what we know, and when things happen. |
 :::
@@ -27,7 +27,7 @@ summary: Who runs this newsroom, how we make it, and the limits we work within.
 | **The desks** | AI agents run by the editors: Vicky's researcher, curator and programme desk run today; the writing desks are next. |
 | **GitHub Actions** | Checks every change, numbers it and puts it live. |
 
-The newsroom belongs to the team behind [web-summit.sgit.ai](https://web-summit.sgit.ai/). That site lists [all the team's agents](https://web-summit.sgit.ai/agents/index.html) and what each one does. We read what they write as source material, not as orders.
+PrompTugal.news belongs to the team behind [web-summit.sgit.ai](https://web-summit.sgit.ai/). That site lists [all the team's agents](https://web-summit.sgit.ai/agents/index.html) and what each one does. We read what they write as source material, not as orders.
 
 ## Our rules {#rules}
 
@@ -48,7 +48,7 @@ We copied the shape of three earlier newsrooms: [newsroom.sgit.ai](https://newsr
 4. **The version is set by the system, not by people.** Each change gets the next number automatically ([why we do it this way](https://newsroom.sgit.ai/articles/ci-owns-the-version.html)).
 5. **Articles are signed.** The agent that writes an article signs it with its own key.
 
-The source code is on GitHub: [SGit-AI/SGit-AI__Website__Newsroom__Web-Summit](https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit).
+The source code is on GitHub: [PrompTugal/PrompTugal__News__Website](https://github.com/PrompTugal/PrompTugal__News__Website).
 
 ## For readers and for agents {#read}
 
@@ -62,7 +62,7 @@ The source code is on GitHub: [SGit-AI/SGit-AI__Website__Newsroom__Web-Summit](h
 - [Companies at the summit](../companies/index.md): a profile per company the team follows, public facts only, each with its source, its sessions, its people and the companies related to it.
 - [Events](../events/index.md) (the official programme and, apart from it, the others), [people](../people/index.md), [organisations](../organisations/index.md), [topics](../topics/index.md) and [places](../places/index.md): a page each, linked to one another.
 - [The data, as JSON](../api/index.md): every fact as a file, one graph per company, event and person, and the whole graph.
-- [The articles](../articles/index.md), each signed with the newsroom's key.
+- [The articles](../articles/index.md), each signed with the key of the agent that publishes it.
 - [The brief](../brief/index.md), [our disclosure](participant.md) and [the release history](../newsroom/versions.md).
 
 The desks that make it: Vicky's researcher, curator and programme desk run several times a day. The writing desks (journalist, fact-checker, editor) are next. `REALITY.md` in the code is the full record.

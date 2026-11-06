@@ -42,7 +42,7 @@ Women at the summit can look for Web Summit's women in tech community. Its 2026 
 - **How the survey was done.** Web Summit's women in tech page says it surveyed "more than 1,000 women"; the exact number, how they were chosen and when they answered are not given. The full report, on DocSend, could not be read.
 - **Who the respondents are.** The article says the report draws on Web Summit's global community of women in tech. It is not a survey of the whole industry, and the figures describe that community only.
 - **Last year's figure.** The 75% for 2025 is as Web Summit states it in this year's article. This article did not read last year's report.
-- **All figures are Web Summit's.** The newsroom has not checked them.
+- **All figures are Web Summit's.** PrompTugal.news has not checked them.
 
 ## Where this comes from
 

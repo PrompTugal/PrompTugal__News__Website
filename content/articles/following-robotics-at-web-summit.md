@@ -15,7 +15,7 @@ tags: AI, robotics, the summit
 - Li Chen, a co-founder of the Chinese robot maker Unitree, is also on the speaker list.
 - On the floor, Técnico, the University of Lisbon's engineering school, shows robots at its stand in Pavilion 2 (E272) from 10 to 12 November, among them a Unitree humanoid and a Unitree quadruped.
 - Técnico also brings Lola, a robot from its Institute for Systems and Robotics, and students showing how a rover is put together.
-- The link between the stage and the stand is this newsroom's suggestion for visitors. No source says the speakers and Técnico plan to meet.
+- The link between the stage and the stand is our suggestion for visitors. No source says the speakers and Técnico plan to meet.
 
 ## The story
 
@@ -27,7 +27,7 @@ People from the robot companies are on the list too. Li Chen is listed as a co-f
 
 For anyone who wants to see robots up close, there is Técnico on the exhibition floor. The school's stand is in Pavilion 2, number E272, from 10 to 12 November. Técnico says visitors can meet several robots there. Lola comes from its Institute for Systems and Robotics (ISR). A Unitree G1 humanoid and a Unitree quadruped come from the Técnico Venture Lab. Students from the electronics society N3E will show how a rover is put together.
 
-So a visitor can hear from a Unitree co-founder on the programme and then see two Unitree robots on a Lisbon university's stand. That pairing is the newsroom's own suggestion, made from public listings.
+So a visitor can hear from a Unitree co-founder on the programme and then see two Unitree robots on a Lisbon university's stand. That pairing is our own suggestion, made from public listings.
 
 Técnico's stand has more for the same visitor. Echo of the Abyss, from its Interactive Technologies Institute (ITI-LARSyS), is a virtual reality scuba dive. Six spin-offs from the school are there: Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves. Técnico's participation is supported by Fundação Santander, the school says.
 
@@ -35,8 +35,8 @@ Técnico's stand has more for the same visitor. Echo of the Abyss, from its Inte
 
 - **When or where the robots speak.** Web Summit's speaker pages give no day, stage or session for Agibot A3, Galbot G1 or Li Chen, and the public schedule page did not show them when read. This article does not say what they will do on stage.
 - **That anyone will meet.** No source says Unitree, AGIBOT or Galbot will visit Técnico's stand, or that they work with Técnico. The link is a suggestion.
-- **What the robots can do.** "Humanoid robot" and "Embodied Large-Model Robot" are Web Summit's labels. The newsroom has not seen or tested any of these robots.
-- **The quadruped's model.** Técnico gives it as "Unitree G02". The newsroom has not confirmed that model name.
+- **What the robots can do.** "Humanoid robot" and "Embodied Large-Model Robot" are Web Summit's labels. PrompTugal.news has not seen or tested any of these robots.
+- **The quadruped's model.** Técnico gives it as "Unitree G02". PrompTugal.news has not confirmed that model name.
 - **The full lineup.** Web Summit's page shows the first 20 speakers and loads more on request. Other robotics speakers may be listed beyond those read. Only the names above were checked, on their own speaker pages.
 
 ## Where this comes from

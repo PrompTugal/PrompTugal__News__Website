@@ -36,7 +36,7 @@ In 2025 Brazil's delegation had 380 companies, according to ApexBrasil's rules.
 ## What this does not claim
 
 - **How many companies come.** The figures differ by source and date. ApexBrasil's figure, through Lusa on 4 November, is about 200 companies. Sebrae's expectation on 30 September was about 300 startups in the delegation it leads. The national selection is 100. This article does not say which is right; the numbers may count different groups.
-- **The pavilion and the 700 million dollars** come from ApexBrasil, as reported by Lusa. ApexBrasil's own announcement could not be read: on 5 November its site asked for a login, and on 6 November its news listing still led back to the home page. The newsroom has not checked the 700 million dollar figure.
+- **The pavilion and the 700 million dollars** come from ApexBrasil, as reported by Lusa. ApexBrasil's own announcement could not be read: on 5 November its site asked for a login, and on 6 November its news listing still led back to the home page. PrompTugal.news has not checked the 700 million dollar figure.
 - **The mission's dates.** The rules' cover says 9 to 13 November, but their timetable and their programme in Lisbon say 8 to 13 November, as does the Lusa report. Only 18 startups have an activity on 8 November (pitch training); for the rest, the programme starts on 9 November. Web Summit itself runs from 9 to 12 November, according to Web Summit.
 - **The states' missions are not covered.** The Paraíba state government's 30 startups were left out: its official sites, and those of its research foundation, could not be reached on 5 November.
 - **No company is named** and no result of the week is claimed. The list of selected startups is on Sebrae's page, linked below.

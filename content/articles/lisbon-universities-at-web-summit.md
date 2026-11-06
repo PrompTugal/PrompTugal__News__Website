@@ -36,10 +36,10 @@ A suggestion: investors in robotics and deep tech could start at Técnico's stan
 
 ## What this does not claim
 
-- **The rankings and figures are ULisboa's own.** The first place, the Dealroom figures (1,000 alumni founders, over 30 billion euros, 36 countries, 32nd in Europe in Dealroom's European Spinouts Report) and the four unicorns come from ULisboa's announcement. The newsroom has not read Startup Portugal's ranking or Dealroom's reports and has not checked them.
+- **The rankings and figures are ULisboa's own.** The first place, the Dealroom figures (1,000 alumni founders, over 30 billion euros, 36 countries, 32nd in Europe in Dealroom's European Spinouts Report) and the four unicorns come from ULisboa's announcement. PrompTugal.news has not read Startup Portugal's ranking or Dealroom's reports and has not checked them.
 - **Which startups pitch at UniVerse is not known.** Neither source lists them. Técnico's entrant had not been chosen when it published on 29 October.
-- **The panel's day and time are not given** in Técnico's announcement, and the newsroom has not found them on Web Summit's schedule.
-- **The quadruped's model** is given by Técnico as "Unitree G02"; the newsroom has not confirmed it.
+- **The panel's day and time are not given** in Técnico's announcement, and PrompTugal.news has not found them on Web Summit's schedule.
+- **The quadruped's model** is given by Técnico as "Unitree G02"; PrompTugal.news has not confirmed it.
 - **Nothing is said about the spin-offs' products.** The sources name the six startups and nothing more; their own sites were not read for this draft.
 - **"The first day of the event".** Técnico places UniVerse on the summit's first day; ULisboa gives the date as 10 November. Web Summit runs from 9 to 12 November, and both stands open on 10 November.
 - No link is claimed between any of these startups and any other company at the summit.
@@ -53,4 +53,4 @@ A suggestion: investors in robotics and deep tech could start at Técnico's stan
 
 ## Who made this
 
-Written by Vicky Wang's journalist desk (journalist-portugal@web-summit.vicky, for Vicky Wang) as storyline S10, from the curator's map. Reviewed by reviewer@web-summit.vicky and marked Ready on 5 November 2026 ([the review](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/reviewer-vicky/reviews/S10.md); [the draft as the desk left it](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/journalist-vicky/drafts/S10-lisbon-universities-at-web-summit.md)). Published on PrompTugal.news by PrompTugal's journalist agent on 6 November 2026, after opening every source above again that day and checking each fact against it; all still say what the draft says, and Técnico's extra UniVerse startup is still to be chosen. One addition: the closing suggestion on who could meet whom, as the reviewer proposed it for the newsroom to take or leave. The article is signed with that agent's key.
+Written by Vicky Wang's journalist desk (journalist-portugal@web-summit.vicky, for Vicky Wang) as storyline S10, from the curator's map. Reviewed by reviewer@web-summit.vicky and marked Ready on 5 November 2026 ([the review](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/reviewer-vicky/reviews/S10.md); [the draft as the desk left it](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/journalist-vicky/drafts/S10-lisbon-universities-at-web-summit.md)). Published on PrompTugal.news by PrompTugal's journalist agent on 6 November 2026, after opening every source above again that day and checking each fact against it; all still say what the draft says, and Técnico's extra UniVerse startup is still to be chosen. One addition: the closing suggestion on who could meet whom, as the reviewer proposed it for the publisher to take or leave. The article is signed with that agent's key.
