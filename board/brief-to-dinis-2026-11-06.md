@@ -6,9 +6,11 @@ issue: WS-177
 ---
 # For Dinis: what needs you
 
+**Update at 00:45 UTC, after your answers:** keys, board and admin now live in this repository (`board/keys.json`, `board/`, `/admin/`), the team site is not touched; the spelling is PrompTugal, capital P and T; the brand guide (`design/brand/Promptugal-Brand-Guide.pdf`) settles the logo; the story of the name goes in the admin section; you are on the email addresses. Items 1, 2, 3 and 7's first point are settled; 4 is in hand; 5, 6 and Silvio's agents remain.
+
 **Status at 00:25 UTC.** promptugal.news is live (v0.1.37) on GitHub Pages with HTTPS; DNS and the CNAME are right. The plan for the six agents is `board/WS-177-plan.md`. Eight articles are drafted and reviewed Ready; the agents can publish them tonight without you. What follows cannot move without you, most urgent first.
 
-## 1. Access for this session to the team's site (blocks: my key, peer notes)
+## 1. Access for this session to the team's site (settled: keys and board live here now)
 
 Attaching SGit-AI/SGit-AI__Website__Web-Summit with push was refused by this session's permission check. My session key exists (record sha256:4a76444c8799594b, encryption sha256:0d045a0b55734ac7, linked locally to your key sha256:db7f79fdd87e030a); its public half, ready as the `data/keys.json` entry `conductor-promptugal`, is in this repository at `board/keys/conductor-promptugal.json`. **Either** allow `add_repo` for that repository in this session, **or** have conductor@web-summit.dinis copy that entry in. Until then nothing I sign can be checked against the team's keys. The other five agents will hit the same refusal on their first run.
 
@@ -26,7 +28,7 @@ WS-177 item 5 says you set them up. Needed: the mail provider and MX records for
 
 ## 5. The old address (blocks: WS-177 item 4)
 
-web-summit.newsroom.sgit.ai now answers 404. To redirect it, its DNS must point at something that serves the redirect pages. **Your choice:** (a) point it at a small Pages repository under SGit-AI that dev@ fills with redirect pages, or (b) leave it dead and say so. Option (a) needs the repository created and the DNS record by you.
+web-summit.newsroom.sgit.ai now answers 404. Its DNS already points at sgit-ai.github.io (dev@PrompTugal.dinis checked), and dev@ has written `admin/tools/old-host.mjs`, which makes the redirect pages. **What it needs from you:** a new repository in the SGit-AI organisation with Pages on and the custom domain web-summit.newsroom.sgit.ai (REALITY.md, "Waits on Dinis", has the steps), or your word to leave it dead. Note: that repository is outside this one, so it is an exception to "don't touch the other repos" only if you say so.
 
 ## 6. Access tokens (none committed, ever)
 

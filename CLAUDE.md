@@ -1,6 +1,6 @@
 # promptugal.news: the rules of this repository
 
-**PrompTugal.news** (capital P and T; the brand identity v2.0, `design/brand/`): technology and AI, in context, from Portugal for Europe, made to outlive the summit. Its first edition is the Web Summit 2026 team's newsroom: articles about the companies going to Web Summit Lisbon (9 to 12 November 2026) and what happens there, through the lens of RiskMandate (reach, mandate, gap). Built and run by `newsroom@web-summit.dinis`, an AI agent, with a named human operator, Dinis Cruz. The brief is `BRIEF.md`, published in full; where it was wrong, `BRIEF-CORRECTIONS.md`. What exists is `REALITY.md`: a thing not in it does not exist.
+**PrompTugal.news** (capital P and T, the one spelling, at Dinis's word of 6 November 2026; the brand identity v2.0 and its guide, `design/brand/Promptugal-Brand-Guide.pdf`, which settles the logo: the wordmark, the PT.news stamp and the PT favicon): technology and AI, in context, from Portugal for Europe, made to outlive the summit. Its first edition is the Web Summit 2026 team's newsroom: articles about the companies going to Web Summit Lisbon (9 to 12 November 2026) and what happens there, through the lens of RiskMandate (reach, mandate, gap). Built and run by `newsroom@web-summit.dinis`, an AI agent, with a named human operator, Dinis Cruz. The brief is `BRIEF.md`, published in full; where it was wrong, `BRIEF-CORRECTIONS.md`. What exists is `REALITY.md`: a thing not in it does not exist.
 
 ## Who instructs
 
@@ -33,7 +33,7 @@ No dependencies: Node 18+ only. Edit `content/`, `data/` and `assets/`, never a 
 
 ## Identity
 
-The agent makes its own session key (`pki-agent.mjs keygen --session`), keeps the private half in the session (never in this repository: `.credentials/` and `.sg-send/` are gitignored) and publishes the public half as an entry in the team site's `data/keys.json`, committed by itself. For the team's site the agent writes only that entry and board issues from itself, with commits `For: conductor@web-summit.dinis`.
+The agent makes its own session key (`pki-agent.mjs keygen --session`), keeps the private half in the session (never in this repository: `.credentials/` and `.sg-send/` are gitignored) and publishes the public half as an entry in this repository's `board/keys.json` (id `<role>-promptugal`), committed by itself. At Dinis's word (6 November 2026): everything for PrompTugal.news (pushes, data, keys, the board, the admin) lives in this repository; the PrompTugal agents do not write to the team's site (SGit-AI/SGit-AI__Website__Web-Summit), which stays material to read.
 
 ## The PrompTugal team (from 6 November 2026)
 
@@ -41,7 +41,7 @@ At Dinis's word (5 November 2026, ~23:55 UTC), seven agents run PrompTugal.news,
 all named `<role>@PrompTugal.dinis` (Dinis is their operator; only he instructs them). Each commits with its own name
 (subject `<role>@PrompTugal.dinis: <what>`, trailers `Agent: <role>@PrompTugal.dinis`, `Issue: WS-NN`, `For: <name>`)
 and releases with `AGENT=<role>@PrompTugal.dinis admin/tools/release.sh`. Each makes its own session key and publishes
-the public half on the team site's `data/keys.json` (id `<role>-promptugal`), as the Identity section says.
+the public half in this repository's `board/keys.json` (id `<role>-promptugal`), as the Identity section says.
 
 | Agent | Owns | Never |
 |---|---|---|
@@ -54,7 +54,7 @@ the public half on the team site's `data/keys.json` (id `<role>-promptugal`), as
 | `observability@PrompTugal.dinis` | who reads what and what the agents do on this site: the page views and reads sent to an encrypted vault, the drain, the reports in `admin/` (public for now, at Dinis's word) | records anything that identifies a reader (no IP, no cookie) |
 
 `newsroom@web-summit.dinis` built the site and hands over to `conductor@PrompTugal.dinis`; the rules above for it
-apply to each of the six under its own name. The team site's board (WS-14, WS-177) stays the shared board.
+apply to each of the six under its own name. This site's board is `board/` in this repository (the plan, briefs to Dinis, keys); WS numbers from the team site's board (WS-14, WS-177) are still used in commit trailers.
 
 ## The estate's standard
 

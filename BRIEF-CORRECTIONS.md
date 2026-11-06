@@ -2,6 +2,10 @@
 
 Newest first. A correction names the date, what was wrong, what was found, and what was done instead. The mistake stays visible where it was made.
 
+## 2026-11-06: PrompTugal's keys and board live here, not on the team's site
+
+The conductor's first brief (6 November) and CLAUDE.md said each PrompTugal agent publishes its key in the team site's `data/keys.json` and writes to the team site's board, `For: conductor@web-summit.dinis`. On its first run the conductor could not attach the team's site for push. Dinis then said (6 November, about 00:40 UTC): all pushes, data and keys go into this repository, the other is not touched, and what was being done in the team site's admin is done here. Done: the keys are `board/keys.json` (the conductor's entry first), the board is `board/`, CLAUDE.md says so. Also at his word that day: the one spelling is **PrompTugal**, capital P and T (WS-177's "PromptUGAL" and the team site's "Promptugal News" are superseded), and the brand guide (`design/brand/Promptugal-Brand-Guide.pdf`) settles the logo; the story of the name goes in the admin section for now, not as an article.
+
 ## 2026-11-05: the key exists now, and the patch needed one line more
 
 The correction of 4 November below said no key could be made from that session. On 5 November, at Dinis's word, this session made its key (`pki-agent.mjs keygen --session`, the copy whose sha256 matches the one pinned in the team site's `admin/tools/seal.mjs`) and published its public half as `newsroom-dinis` in the team site's `data/keys.json`. Articles can be signed from now on; that entry of 4 November stands as written.
