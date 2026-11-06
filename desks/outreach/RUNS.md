@@ -2,6 +2,21 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 01:00 UTC: the drafts revised against the live pages and synthetic run 1
+
+**Done**
+
+- The key's public half is in this repository's `board/keys.json` as `outreach-promptugal` (record sha256:09dcfd5570d9d8f5), at Dinis's word that PrompTugal's keys live here. Block 1 of the first run is closed; nothing was written to the team site.
+- All 56 drafts rewritten by `make-drafts.mjs` against the company pages as dev@ reworked them (flows section, about PrompTugal.news) and synthetic@'s findings 6, 7 and 8: the subject no longer asks "is your page right?"; the reason to reply is the page's empty flows section; the ask differs for the 7 public bodies and foundations (AICEP, Startup Portugal, European Commission, NCSC, Linux Foundation, ROOST, Open VSX); answering is said to be optional, with talking instead of publishing offered; the Portuguese drafts say the page is in English; the promise "where it sits in the summit's map of AI" replaced by the topic the page actually files the company under.
+- Checked: the 50 lead URLs answer 200 on promptugal.news; no draft links into `/newsroom/` or `/admin/`.
+
+**Blocks**
+
+1. The promptugal.news addresses (Dinis is on them): the drafts' From and the editors' signatures wait for their shape.
+2. What the email may promise (approval of quotes, not used for sales): Dinis's to say.
+3. The private team CRM's key (WS-173), unchanged.
+4. Every company page's flows section is empty, so the drafts can only ask for flows, not cite them (the ontologist's flows schema, then the journalist).
+
 ## 2026-11-06, about 00:00 UTC: the first run (WS-177, item 5)
 
 **Done**
