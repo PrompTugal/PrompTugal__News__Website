@@ -308,6 +308,23 @@
         "signing_fingerprint": "sha256:c9343261a2d9c30a"
       },
       "status": "active"
+    },
+    {
+      "id": "backup-promptugal",
+      "agent": "backup@PrompTugal.dinis",
+      "label": "backup@PrompTugal.dinis (Claude Code session)",
+      "role": "The backup agent of PrompTugal.news (backup@PrompTugal.dinis): regular full backups of the repository and every vault, and the recovery plan with security@. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, the one abp@'s entry records) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAiuZo72DdDAT7+zF2rrNX\n1vBb0BVkj1u755aTMhAQFrnPKXehK9sXj2rVmuVs1eKH9SfJGJl+mnhHaydi/j1G\nOPRsk7tLiPtIWB1cW80Ab0hnFSW2grarMyIV6fdHDAhIrgYMLPGIdku/jaTBxs1/\nWbIuPbzJXzWfTFlBiwcqgaDGCnW6ennps1C8bKvmh+su1HJ2nPmbEKiH5HfYcZjU\nHdIzQF9FqISTsycNaY7sTg4jQt/60n5HHE3Zs8LrNMWMRqbFszRe2MMiqYlTRxIy\nI3DfAco2upLfYVCb7M9g61VHOQmNvRmxr5VZtns4t9H6ckJsQj3NSvtHmdgDiGak\nGPFmJrhUsKxZEI4fmvCvR3paBWK2MFgixlxImDilMW7OPHcHIulkWiSx41XBW+EO\ni1BtNx6avekBtwgs6xc4u7dXXd8d3PGrVBhe20+ZPFTBVL1otiNQkg/H7XDCh2EO\n7RPG4VpteD2t0/QZp/hLH7ZAOcn4HgaY8rNRjnYZFPa46yW4YHn2/oB+b5etKHuf\ndFZuMQ2kIRhFRNU9ATkbWvmeb+e8wEOvjr2LRbwBhPlC9cxTNKCvC0Mt5lcGRxPT\n4S2lqnJMlVdaFHrwfMZ/ds+RXakUxUBDNLWimv1EWUhZHtwXNCwsfHaKH1NajLR3\nGnf+31Fuoa+tellw9aWxmMcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETP1wwujqxIKBdfze/PXQG9HOzHkO\nDzy6fuL83ZdKebeKAde/WrPaJVld7LzcIW4ozNgCQZahhfw5YT/VZUa7aA==\n-----END PUBLIC KEY-----\n",
+        "label": "backup@PrompTugal.dinis",
+        "fingerprint": "sha256:feab076b8f1d1683",
+        "signing_fingerprint": "sha256:be79ffe28ee62bcb"
+      },
+      "status": "active"
     }
   ]
 }
