@@ -55,3 +55,8 @@ University of Algarve, Algarve STP, AMAL, NERA, ANJE, Junior Achievement Portuga
 - So the Algarve scene's own November calendar (2025) is a month-long run around Web Summit and Portugal Tech Week. No equivalent 2026 listing found yet; the organisation's site is still unreachable (curl, 08:13 UTC).
 - Member companies: no public member list found, so no cross-check against data/companies is possible yet; the member list is something to ask the organisation for.
 - content/portugal/algarve-evolution.md exists (dev.portugal@): it should take the roles confirmed above (project partner and jury seat, 2025 Web Summit competition) from this note, with the sources.
+
+## Round 4 (wake of 10:15 UTC, read 2026-11-06)
+- Searched Luma and Meetup for Algarve Evolution events in summit week 2026: nothing dated November 2026 found, and no listing for an Algarve Tech Hub Summit 2026 (consistent with the 2027 return in Portugal Startup News). One Meetup listing mentions a 12 November evening (networking, STEPNGO, running a BTC node) but its page shows no year: unconfirmed, not to be published as 2026.
+- content/portugal/algarve-evolution.md already lists three events from the team's programme (TMCT'26 5 to 7 Nov Portimao; Private Wealth and Investment Gathering 6 Nov Almancil; DevFest Lagos 2026 7 Nov Lagos). Those come from the programme desk, not from my sources: I have not re-checked them at the source.
+- Still no first-hand page from the organisation (curl, 10:15 UTC: no response).

@@ -1,5 +1,124 @@
 [
   {
+    "version": "v0.1.202",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: status: budgets are soft and observed, at Dinis's word in my session",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "271d10d9e"
+  },
+  {
+    "version": "v0.1.201",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: Dinis's yes to the budgets; their dollars are API-equivalent, not spend",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "17047739a"
+  },
+  {
+    "version": "v0.1.200",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: the agent pattern takes dotted workers' names (dev.data@ unblocked)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "d07374974"
+  },
+  {
+    "version": "v0.1.199",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: Dinis's word on budgets (capture and adjust, not block); ontologist nudged",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "359f19f69"
+  },
+  {
+    "version": "v0.1.198",
+    "date": "2026-11-06",
+    "what": "STYLE.md, the published format is the technical format only",
+    "by": "reviewer@web-summit.vicky",
+    "from": "62b2ce9d0"
+  },
+  {
+    "version": "v0.1.197",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 10:05: 70 commits and worker branches clean; the hook and CI's worker-branch change post-reviewed; a findings ledger",
+    "by": "security@PrompTugal.dinis",
+    "from": "8d33f2d5c"
+  },
+  {
+    "version": "v0.1.196",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: scheduled wake: the catalogue at v0.1.195; the first health scan of the map (10 agents with no row, dev.portugal@ with no key, 3 with no ROLE.md); run report",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "4e409acac"
+  },
+  {
+    "version": "v0.1.195",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 09:53: plan, researcher's inbox, dev.data's block escalated",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "27beb8b8a"
+  },
+  {
+    "version": "v0.1.194",
+    "date": "2026-11-06",
+    "what": "accountant@PrompTugal.dinis: 09:50 wake: 339.72 dollars today, about 21 an hour (from 50); five agents over on releases, none on dollars; OpenRouter and media lines; blocked on Dinis for the release caps and the OpenRouter line",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "30af0a4a9"
+  },
+  {
+    "version": "v0.1.193",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 09:44 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "e89f7c8d3"
+  },
+  {
+    "version": "v0.1.192",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@web-summit.vicky",
+    "from": "fe9a3190c"
+  },
+  {
+    "version": "v0.1.191",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@web-summit.vicky",
+    "from": "c6277db6f"
+  },
+  {
+    "version": "v0.1.190",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-europe@web-summit.vicky",
+    "from": "ff1bd6cfa"
+  },
+  {
+    "version": "v0.1.189",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 09:40 UTC: two more flows in their drafts; blocked on who sends which company and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "aebaa91dd"
+  },
+  {
+    "version": "v0.1.188",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: 09:30 wake: the summit days' proposals and the front page's round 2 read as a cold reader (go, with small rows), the top re-measured (no change), the people and Portugal pages reviewed; blocked on the quick fixes going live and my inbox's drain",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "09d05fe61"
+  },
+  {
+    "version": "v0.1.187",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "ef3123066"
+  },
+  {
+    "version": "v0.1.186",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: Descope's and Emergence AI's flows, sourced; my last release of the day's budget",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "247bcfafa"
+  },
+  {
     "version": "v0.1.185",
     "date": "2026-11-06",
     "what": "researcher@PrompTugal.dinis: run report 09:13",

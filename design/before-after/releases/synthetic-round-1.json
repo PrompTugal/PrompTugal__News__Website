@@ -1,0 +1,42 @@
+{
+ "version": "synthetic readers page, round 1 (designer)",
+ "date": "Friday 6 November 2026",
+ "title": "The synthetic readers page: the scoreboard as tiles, a card per reader",
+ "summary": "sherpa@'s S5 and S9, the designer's part of the synthetic readers pass: the scoreboard as five tiles and a bar, who waits on what as bars, and each invented reader as a card (who, where they came from, what lost them most, their findings). The SYNTHETIC line stays on top, as one line.",
+ "devices": [
+  "phone",
+  "desktop",
+  "phone, whole page",
+  "desktop, whole page"
+ ],
+ "steps": [
+  {
+   "id": "before",
+   "label": "Before: the live page",
+   "img": {
+    "phone": "before--phone.png",
+    "desktop": "before--desktop.png",
+    "phone, whole page": "before--phone--full.png",
+    "desktop, whole page": "before--desktop--full.png"
+   }
+  },
+  {
+   "id": "after",
+   "label": "Mock-up: tiles and cards",
+   "note": "Five tiles (open, accepted, later, done, verified) counted live from synthetic@'s findings.json, a bar of the same, waiting by owner as bars; then one card per reader, each marked SYNTHETIC, with initials and no face.",
+   "img": {
+    "phone": "../../synthetic/round-1/synthetic--phone.png",
+    "desktop": "../../synthetic/round-1/synthetic--desktop.png",
+    "phone, whole page": "../../synthetic/round-1/synthetic--phone--full.png",
+    "desktop, whole page": "../../synthetic/round-1/synthetic--desktop--full.png"
+   }
+  }
+ ],
+ "notes": [
+  "S9: the scoreboard's numbers in sentences become five tiles and one bar; the colours are the brand's status colours.",
+  "S5: each persona was a paragraph; now a card: who, where they came from, their latest read if any, what lost them most (their most severe finding) and every finding they raised, as chips.",
+  "S10 kept as security@ asked: one SYNTHETIC line on top, every name marked SYNTHETIC, no face (initials on a dashed tile).",
+  "Built from synthetic@'s own files (desks/synthetic/), so the page can render it the same way: synthetic@ keeps the words, dev@ the two blocks."
+ ],
+ "experiments": []
+}

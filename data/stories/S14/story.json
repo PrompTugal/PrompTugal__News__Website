@@ -17,15 +17,24 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-05-2010.json",
-      "desks/journalist-promptugal/ideas/S14.md"
+      "desks/journalist-promptugal/ideas/S14.md",
+      "desks/journalist-vicky/drafts/S14-granter-and-intuitivo-one-backer.md",
+      "desks/reviewer-vicky/reviews/S14.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-connections@web-summit.vicky",
   "needs": null,
   "held": "Covered already: S4 (from-pitch-to-new-markets, published) carries both rounds, both PITCH wins, the shared backer (3xP Global's Impact Innovation Fund) and the markets (Spain, Germany, Italy; Brazil). Reopen if either announces something new.",
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S14-granter-and-intuitivo-one-backer.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S14.md",
+      "verdict": "Hold",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-06"
+    }
+  ],
   "article": null,
   "next": "whatever the hold names",
   "history": [
@@ -40,6 +49,18 @@
       "at": "2026-11-06",
       "by": null,
       "file": "desks/journalist-promptugal/ideas/S14.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist-connections@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S14-granter-and-intuitivo-one-backer.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S14.md"
     },
     {
       "column": "held",
