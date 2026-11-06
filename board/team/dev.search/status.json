@@ -1,7 +1,7 @@
 {
   "agent": "dev.search@PrompTugal.dinis",
-  "state": "ok: run 14 done, branch work/dev.search ready for dev@; next: vault onboarding (board/spec-vault-onboarding.md)",
-  "updated": "2026-11-06T17:35Z",
+  "state": "ok: run 15: vault onboarding piece 1 (the pure core and its tests) on work/dev.search",
+  "updated": "2026-11-06T18:20Z",
   "done": [
     "session key dev.search-promptugal in board/keys.json",
     "ROLE.md",
@@ -18,15 +18,18 @@
     "14:11 conductor@'s session message (material): the signed-in-views pass is open and I lead it (I already was working it); read security@'s 14:05 pre-review: go with conditions, two block the first deploy (S1: the vault key lives in the page, readable by any script; no SG/Send token in the page). Wrote the PT decision page /newsroom/decisions/where-the-vault-key-lives/ (options A separate origin, B same origin loaded on the vault page only (recommended now), C sandboxed frame (not possible with passkeys), D accept until readers; and how a vault is created without a token in the page: the conductor creates, the person opens with a recovery code). Not yet weighed by sherpa@, synthetic@, security@; dissent none recorded",
     "15:05 wake: dev@ brought the vault-key decision page onto dev (e882fde3); nobody has weighed in on it yet, so I did not touch assets/vault/ (billing@'s and dev@'s; option B changes keys in sessionStorage, boot.js and vault.js: wait for the reviewers). His schedule, first step (Dinis: start small, localStorage, a vault if they have one): 'Add to my day' button on every event page and beside every event link in lists and tables (218 on the full agenda); /my-day/ lists the picks by day in time order from the search index; kept in localStorage nr.schedule.v1 and, if the vault is open, in it (agenda/picks, merged by pick when the vault opens); tool schedule.picks; footer link 'My day'. Chromium over http: buttons on event page and agenda, picks persisted, grouped by day, vault merge with a stub; gate OK",
     "16:07 wake: dev@ brought my day onto dev (980e6aa6); sherpa@ weighed in on the vault-key page (B with three conditions). I decided B as the owner (page marked decided) and built it for dev@'s review: assets/vault/vault.js keeps the door and token in the page's memory only; boot.js loads the pane on the vault page only, the Vault button goes to that page elsewhere and shows only to a signed-in person; the vault merge no longer reloads; profile and my-day say where items are kept and how many wait for the vault; README and account page words updated. Tests: test_vault.mjs passes; test_billing_browser.mjs: the vault flow passes (30 ok), I changed its other-device step to not expect a reload; its 6 sideways-scroll failures at 390px are the same 6 as before my change; gate OK",
-    "17:06 wake: dev@ brought option B onto dev (49a99010). Condition 3 of the vault-key decision: the recovery code is shown once with 'type back its last four characters' before it is hidden (assets/vault/vault.js recoveryNotice; its words in data/billing/vault.json recovery, schema and the API file updated); billing browser test: two new checks (wrong tail keeps the code, right tail hides it), and two updated for B and for dev@'s top (Vault button hidden from a reader not signed in; the pane opens on the vault page); 32 ok, the same 6 old sideways-scroll failures; test_vault passes; gate OK"
+    "17:06 wake: dev@ brought option B onto dev (49a99010). Condition 3 of the vault-key decision: the recovery code is shown once with 'type back its last four characters' before it is hidden (assets/vault/vault.js recoveryNotice; its words in data/billing/vault.json recovery, schema and the API file updated); billing browser test: two new checks (wrong tail keeps the code, right tail hides it), and two updated for B and for dev@'s top (Vault button hidden from a reader not signed in; the pane opens on the vault page); 32 ok, the same 6 old sideways-scroll failures; test_vault passes; gate OK",
+    "17:07 wake (second part): conductor@'s message (material) with Dinis's brief board/spec-vault-onboarding.md and security@'s pre-review (go; 3 block the first deploy: a pilot token of its own, S1 + a strict CSP, an issuer key that outlives a session). Piece 1 of onboard.js: assets/vendor/pki/2026-11-06/ keys.js and message.js vendored unedited from pki.sgit.ai (Apache-2.0, hashes in VENDOR.md); assets/onboard/onboard-core.js (derive: HKDF-SHA256 lookup and key from the API key; pinned issuers from board/keys.json; verify the pool; open a licence: lookup bound, issuer signature, expiry; the reader's key pair; the claim, sealed to the agent and signed by the reader; the mailbox message, issuer signature and n); newsroom/build/tests/test_onboard_core.mjs, 30 checks pass (forged licence, copied licence, unpinned issuer, expired, replayed mailbox number, claim leaks no key); assets/onboard/test-vectors.json for the sweep agent's Python to match; gate OK"
   ],
   "next": [
-    "board/spec-vault-onboarding.md (conductor@'s message, 17:05): onboard.js: draw from the pool, verify the issuer's signature, open the licence, create door/master/book with door.js and create-with-id, the signed claim, the mailbox check; the no-PRF door-secret path; Chromium tests with a virtual PRF authenticator; port the signed seal from pki.sgit.ai's assets/people/message.js; agree with observability@ the pool vault's read key, the lane token and the issuer fingerprint in the site config; security@ pre-reviews; push in pieces",
-    "CSP on the vault page (inline scripts to move: dev@)"
+    "piece 2: onboard.js, the page flow: draw from the pool (needs the pool vault's id and read key in site config), create door/master/book with door.js and create-with-id, the claim POST to the lane (the lane token in site config), the mailbox check on open; the no-PRF door-secret path with the password-manager form and optional download",
+    "piece 3: Chromium tests with a virtual PRF authenticator and a mock pool and lane (vault-mock.mjs)",
+    "the strict CSP (security@ block 2): the inline script on every page must move to a file or be hashed: dev@"
   ],
   "asks": [
-    "dev@: review work/dev.search (vault.js recoveryNotice, vault.json data, account.mjs api line, billing browser test)",
-    "observability@: the pool vault's read key, the lane token and the issuer fingerprint for the site config (never in the page: say how they are to be held)"
+    "observability@: the formats are fixed in assets/onboard/onboard-core.js and assets/onboard/test-vectors.json (HKDF salt empty, IKM the UTF-8 of the API key with its sgk_ prefix; lookup the first 16 bytes as 32 hex; AES-GCM tag appended; canonical JSON = keys.js canon plus one newline, sig left out): match them in pool_mint.py and tell me where the pool vault's id and read key, the lane's append token and the issuer fingerprints (a set, current and next: security@ block 3) are to go in the site config (I propose data/onboarding/config.json)",
+    "Dinis: the pilot's own access token (conductor@ has asked); until it exists the browser flow can only be tested against a mock",
+    "dev@: review work/dev.search (the vendored keys.js and message.js, onboard-core.js, the test); CSP: move or hash the shell's inline script"
   ],
   "notes": [
     "For REALITY.md: (1) The reader's profile: /profile/, assets/profile/profile.js, localStorage nr.profile.v1 only (500 pages, 200 searches), Pause/Clear/Download, tool profile.summary; for a verified key also a newsroom-first preference. (2) /search/: 'Answer in words' (reader's own OpenRouter key, read-level tools), the newsroom type, did you mean. (3) The big search bar on every page but /search/. (4) Tools api.files and api.read over every file under api/v1/. Not yet: signed-in view switch, per-person sealed content, search over vaults."
@@ -98,6 +101,12 @@
       "outcome": "ok",
       "release": "branch work/dev.search",
       "line": "vault key in page memory only (option B)"
+    },
+    {
+      "started": "2026-11-06T17:07Z",
+      "outcome": "ok",
+      "release": "branch work/dev.search",
+      "line": "vault onboarding piece 1: the pure core"
     }
   ]
 }
