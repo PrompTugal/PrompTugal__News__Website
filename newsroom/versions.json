@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.81",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake at 02:52: mandate live, card final, signatures verified, flows begun; the story board late",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "a8f450650"
+  },
+  {
     "version": "v0.1.80",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: hourly run (03:00 UTC): run 4 (SYNTHETIC) on /newsroom/synthetic.html: outreach's fixes move the comms director from 'file it' to 'forward it to the product owner'; one of run 1's 14 fixes done",
