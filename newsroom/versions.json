@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.240",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 12:17",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "525bd7d1c"
+  },
+  {
     "version": "v0.1.239",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: wake 12:08: review round 7; the decisions index",
