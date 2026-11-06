@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.287",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 16:00 UTC: 50 contact requests ready; blocked on sending them (sgit_ai not installable in this session), said to Dinis",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "c4fd717e4"
+  },
+  {
     "version": "v0.1.286",
     "date": "2026-11-06",
     "what": "Dinis's guidance ~16:20: the daily newsletter (morning and evening editions, public; subscribers private)",
