@@ -4,7 +4,7 @@
   "facts": [
     {
       "id": "f-s1",
-      "claim": "LIS26 session page (conferenceSlug lis26): 'AICEP: Connecting Portuguese startups to global markets [Hosted by AICEP]', 11 Nov, Masterclasses, Masterclass 3, names AICEP - Portugal Trade & Invest as the speaker's organisation; the session is hosted by this company",
+      "claim": "LIS26 session page: 'AICEP: Connecting Portuguese startups to global markets [Hosted by AICEP]', 11 Nov, Masterclasses, Masterclass 3, names AICEP - Portugal Trade & Invest as the speaker's organisation; the session is hosted by this company",
       "source": "s1",
       "read_on": "2026-11-01",
       "by": "curator@web-summit"
