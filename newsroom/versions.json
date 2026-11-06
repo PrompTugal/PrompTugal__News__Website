@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.166",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "8b10aaefa"
+  },
+  {
     "version": "v0.1.165",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: Cloudflare's flow from its Agents docs; Cisco Outshift held until a page of its own says how",
