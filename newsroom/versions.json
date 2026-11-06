@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.108",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "3e09258a8"
+  },
+  {
     "version": "v0.1.107",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: a story project's data folder: six schemas and the gate's checks, ready for S9",
