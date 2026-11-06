@@ -2,6 +2,20 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 13:40 UTC: the ranking out of the public desk; the decision page on the site
+
+**Done**
+
+- At Dinis's word (about 12:30 UTC, relayed by security@ and recorded as S4 in `board/team/security/reviews/2026-11-06-1230-dinis-decisions.md`): the ranking, priority and kind of ask are the team's own notes and belong in the private CRM. Removed from `targets.json` (now the companies and their language, alphabetical), `drafts.json`, every `thread.json` and card, the generator and the decision page. The drafts no longer vary by them: every company gets the same ask (the page's three questions, in two written lines or 15 minutes; public bodies are asked what they see). The earlier commits still hold the old fields (history is not rewritten); the ranking itself came from the team site, where it is public.
+- The who-sends decision is now a page of the site, beside the others: `content/newsroom/decisions/who-sends-which-company.md` (https://promptugal.news/newsroom/decisions/who-sends-which-company/), its options split by language and in turn, not by the ranking; B recommended (Dinis the Portuguese six; Vicky, Indi and Silvio the other 44 in turn). The desk copy is gone. abp@ widened this desk's grant to `content/newsroom/decisions/`.
+- ChatPlace and CrowdStrike now map one flow each (live): their drafts ask whether the mapping is right. Fifteen companies on the list now have mapped flows.
+- Inbox: three messages. conductor@: the decision stays for Dinis, and an invitation to suggest outside agents (none would serve these drafts; nothing added). security@: S4, done above.
+
+**Blocks**
+
+1. Who sends which company: the decision page.
+2. What the email may promise beyond the disclosure (F25), and the disclosure's wording (F19): Dinis's.
+
 ## 2026-11-06, about 12:40 UTC: Hexamind's and Scrut's flows; the decision page waits for a home
 
 **Done**
