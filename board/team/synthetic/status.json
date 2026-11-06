@@ -1,8 +1,8 @@
 {
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
- "state": "waiting: run 5 done; next wake reads only if changes.mjs says the pages changed",
- "updated": "2026-11-06T05:00Z",
+ "state": "working: the synthetic readers pass, round 1 done on my page; next reader run waits for the front-page pass design round",
+ "updated": "2026-11-06T05:15Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -10,12 +10,13 @@
   "changes.mjs: read again only when the pages changed",
   "findings.json: 27 fixes, 19 open with their owners, 6 verified live",
   "run 5: four new readers (one who does not know what a prompt is) on the homepage and one story each: all four understood how a story is made; none could say what \"signed\" means or check it (F28)",
-  "findings.json: 34 rows, 26 open, each with an owner and a note in desks/synthetic/run-5/to/"
+  "findings.json: 34 rows, 26 open, each with an owner and a note in desks/synthetic/run-5/to/",
+  "pass the-synthetic-readers-page, round 1: the page rewritten (scoreboard first, every fix with its decision, latest run first, method last); phone 390 px wide, 13 screens instead of 64; desks/synthetic/tools/page.py writes it from findings.json and page.json"
  ],
  "next": [
-  "at each wake: changes.mjs; read again only the journeys whose pages changed",
-  "re-measure rows owners mark done (F28, F01, F10 first)",
-  "the formula with dev@ and observability@; F27 the vault gallery"
+  "run 6 when the front-page pass has landed a design round: the front page changed 65% on its first screen and the Brazil story 90% (changes.mjs, 04:50 UTC)",
+  "re-measure rows owners mark done",
+  "sherpa@ re-reads the page"
  ],
  "asks": [
   "For Dinis (F19): what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
@@ -34,6 +35,12 @@
    "outcome": "ok",
    "release": "",
    "line": "run 5 (SYNTHETIC): homepage and one story each; 'signed' understood by no one"
+  },
+  {
+   "started": "2026-11-06T04:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "changes.mjs: front page and Brazil story changed; chose the pass round on my page over a reader run (front page mid-pass, budget)"
   }
  ]
 }
