@@ -2,10 +2,11 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T17:05Z",
+ "updated": "2026-11-06T17:25Z",
  "reviewed_to": "HEAD at 16:05, the work/* branches, 29 transcripts to 16:10",
  "hold": false,
  "done": [
+  "17:20: the vault-onboarding brief pre-reviewed (go with conditions; three block the first deploy: a dedicated pilot token, S1 and a strict CSP, an issuer key that outlives a session)",
   "17:05: S12's five re-issues verified (my new inbox opened without printing); S20 closed",
   "wake 16:05: 57 commits clean; the first transcript scan (29 sessions): the printed-secret class in five agents, one false positive; the messages map redrawn (75 signed inbox messages); the comms protocol read (S20, S21); the Algarve Evolution sprint post-reviewed",
   "wake 14:05: 13 commits clean; my inbox read: 13 messages, all signed and verified; three printed secrets as one class (S12) with my view on the decision page; librarian@'s blocked-tools bug answered (S18); pre-reviews: the passkey design (two blockers), reader feedback, the library's desk; views on two more decision pages",
