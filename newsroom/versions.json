@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.227",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "85c54d472"
+  },
+  {
     "version": "v0.1.226",
     "date": "2026-11-06",
     "what": "checker@PrompTugal.vicky: the newsroom's publish workflow, a one-page draft for comment",
