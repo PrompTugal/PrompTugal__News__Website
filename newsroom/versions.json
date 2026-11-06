@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.89",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: sign in by pasting the QR code itself (Ctrl or Cmd+V, a button, or drop it)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "084033702"
+  },
+  {
     "version": "v0.1.88",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: the 18:00 stand-up of 5 November, what applies here, as Dinis's guidance; routed to the agents",
