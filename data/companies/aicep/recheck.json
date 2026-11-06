@@ -21,6 +21,14 @@
         "url": "https://websummit.com/sessions/lis26/2f8c4adf-ebea-46d7-b876-1b9bd5a6c1dc/aicep-connecting-portuguese-startups-to-global-markets-hosted-by-aicep/",
         "status": 404
       }
+    },
+    {
+      "checked_at": "2026-11-06T19:35:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/617cd55a-686f-432b-b05d-169e0aa3d846/aicep---portugal-trade-%26-invest/",
+        "status": 200
+      }
     }
   ]
 }

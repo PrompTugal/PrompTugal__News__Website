@@ -300,6 +300,62 @@
         "organisation:web-summit",
         "place:brazil"
       ]
+    },
+    {
+      "id": "c25",
+      "text": "The last in-person Web Summit before the pandemic, in November 2019, had 70,469 attendees (as the company's figure is reported).",
+      "kind": "fact",
+      "source": "irishtimes-2021-revenues-2019",
+      "quote": "The last in-person Web Summit event, which took place in November 2019, had 70,469 attendees.",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2019"
+      ]
+    },
+    {
+      "id": "c26",
+      "text": "Web Summit relocated to Lisbon in 2016 under a deal with the Portuguese government, with a 10-year agreement to host its flagship event there.",
+      "kind": "fact",
+      "source": "irishtimes-2021-revenues-2019",
+      "quote": "It relocated to Lisbon in 2016 under a deal with the Portuguese government.",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2016",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c27",
+      "text": "The online-only 2020 edition attracted 104,000 people.",
+      "kind": "fact",
+      "source": "irishtimes-2021-revenues-2019",
+      "quote": "attracting 104,000 people",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-online-2020"
+      ]
+    },
+    {
+      "id": "c28",
+      "text": "The group that operates Web Summit reported 2019 revenue of 47.9 million euros.",
+      "kind": "fact",
+      "source": "irishtimes-2021-revenues-2019",
+      "quote": "Revenues at the group that operates the Web Summit rose to €47.9 million in 2019.",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c29",
+      "text": "For the 2021 Lisbon edition more than 40,000 people were expected in person, which organisers said was sold out, with Covid restrictions in place.",
+      "kind": "estimate",
+      "source": "irishtimes-2021-web-summit-returns-in-person",
+      "quote": "more than 40,000 people expected to converge on the Portuguese capital",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2021"
+      ]
     }
   ]
 }

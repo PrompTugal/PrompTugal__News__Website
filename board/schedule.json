@@ -1,236 +1,245 @@
 {
- "about": "The PrompTugal agents' scheduled tasks (Dinis's word, 6 November 2026: hourly tonight and into Friday morning), kept by conductor@PrompTugal.dinis. Minutes are past each hour, UTC. Read by the newsroom dashboard (board/the-team-setup.md). A task is enabled, paused or stopped only at Dinis's word; an agent may pause its own when its ROLE.md 'Done when' all holds.",
- "updated": "2026-11-06T05:40Z",
- "tasks": [
-  {
-   "agent": "dev@PrompTugal.dinis",
-   "minute": 8,
-   "cron": "8 * * * *",
-   "trigger": "trig_01UpVqjSLQX4MBjUMGwwQ7c8",
-   "state": "enabled",
-   "since": "2026-11-06T00:35Z"
-  },
-  {
-   "agent": "observability@PrompTugal.dinis",
-   "minute": 18,
-   "cron": "18 * * * *",
-   "trigger": "trig_012hQ65rBgDWvQ7qqbeHJrfp",
-   "state": "enabled",
-   "since": "2026-11-06T00:18Z",
-   "note": "the hourly drain, set up by conductor@web-summit.dinis; its text still names the pre-move path"
-  },
-  {
-   "agent": "ontologist@PrompTugal.dinis",
-   "minute": 21,
-   "cron": "21 * * * *",
-   "trigger": "trig_01T25GJniHHGEMVzmqWd568Z",
-   "state": "enabled",
-   "since": "2026-11-06T00:35Z"
-  },
-  {
-   "agent": "journalist@PrompTugal.dinis",
-   "minute": 26,
-   "cron": "26 * * * *",
-   "trigger": "trig_01YGcXK7BNafbZAoZm4SimeY",
-   "state": "enabled",
-   "since": "2026-11-06T00:35Z"
-  },
-  {
-   "agent": "designer@PrompTugal.dinis",
-   "minute": 33,
-   "cron": "33 * * * *",
-   "trigger": "trig_019aeeo8zu2MF7aMmGdtfsVG",
-   "state": "disabled",
-   "since": "2026-11-06T00:35Z",
-   "note": "the first designer session, archived by Dinis on 6 November 2026 after its debrief; task disabled by the conductor at 04:44 UTC"
-  },
-  {
-   "agent": "outreach@PrompTugal.dinis",
-   "minute": 38,
-   "cron": "38 * * * *",
-   "trigger": "trig_0157pya5876SHkGsysAFP8gT",
-   "state": "enabled",
-   "since": "2026-11-06T00:35Z"
-  },
-  {
-   "agent": "synthetic@PrompTugal.dinis",
-   "minute": 44,
-   "cron": "44 * * * *",
-   "trigger": "trig_015i2HRtaAh7Wapys8TvM1n3",
-   "state": "enabled",
-   "since": "2026-11-06T00:35Z"
-  },
-  {
-   "agent": "conductor@PrompTugal.dinis",
-   "minute": 52,
-   "cron": "52 * * * *",
-   "trigger": "trig_01X8SF35DkefoBeVgKyWYbWx",
-   "state": "enabled",
-   "since": "2026-11-06T00:35Z",
-   "note": "checks hourly; reports to Dinis every three hours (05:52, 08:52, ...) or at once when something needs him"
-  },
-  {
-   "agent": "security@PrompTugal.dinis",
-   "minute": 3,
-   "cron": "3 */2 * * *",
-   "trigger": "trig_01LfZ4AoK9MPmkDXAZdeuBWG",
-   "state": "enabled",
-   "since": "2026-11-06T03:45Z",
-   "note": "every two hours (Dinis: some agents can run slower)"
-  },
-  {
-   "agent": "devops@PrompTugal.dinis",
-   "minute": 14,
-   "cron": "14 */2 * * *",
-   "trigger": "trig_016pENKx2ZKzZmydjDVE7YGq",
-   "state": "enabled",
-   "since": "2026-11-06T03:45Z",
-   "note": "every two hours (Dinis: some agents can run slower)"
-  },
-  {
-   "agent": "correspondent@PrompTugal.dinis",
-   "minute": 41,
-   "cron": "41 */2 * * *",
-   "trigger": "trig_01USKA99PdAuRu8GxEbS2tcP",
-   "state": "enabled",
-   "since": "2026-11-06T03:45Z",
-   "note": "every two hours (Dinis: some agents can run slower)"
-  },
-  {
-   "agent": "sherpa@PrompTugal.dinis",
-   "minute": 29,
-   "cron": "29 */3 * * *",
-   "trigger": "trig_01Y7Be137phyqckGcv4AW8AF",
-   "state": "enabled",
-   "since": "2026-11-06T03:45Z",
-   "note": "every three hours (Dinis: some agents can run slower)"
-  },
-  {
-   "agent": "accountant@PrompTugal.dinis",
-   "minute": 47,
-   "cron": "47 */3 * * *",
-   "trigger": "trig_0125FKV4Cs1ZeqVTAmz4qm8J",
-   "state": "enabled",
-   "since": "2026-11-06T03:45Z",
-   "note": "every three hours (Dinis: some agents can run slower)"
-  },
-  {
-   "agent": "librarian@PrompTugal.dinis",
-   "minute": 56,
-   "cron": "56 */3 * * *",
-   "trigger": "trig_01AMqLXjnj6GGDqRSRkjkRFK",
-   "state": "enabled",
-   "since": "2026-11-06T03:45Z",
-   "note": "every three hours (Dinis: some agents can run slower)"
-  },
-  {
-   "agent": "historian@PrompTugal.dinis",
-   "state": "none",
-   "note": "no scheduled task; Dinis gives it work in its session"
-  },
-  {
-   "agent": "abp@PrompTugal.dinis",
-   "minute": 37,
-   "cron": "37 * * * *",
-   "trigger": "trig_01LA3mRyzC4XFotwKduydCCY",
-   "state": "enabled",
-   "since": "2026-11-06T04:35Z",
-   "note": "started and scheduled by conductor@web-summit.dinis at Dinis's word in its session (session_018yvwtNeY1KRZS5R6barxbD)"
-  },
-  {
-   "agent": "designer@PrompTugal.dinis",
-   "minute": 33,
-   "cron": "33 * * * *",
-   "trigger": "trig_01AtoW12ptSMfoAK5M3UYweP",
-   "state": "enabled",
-   "since": "2026-11-06T04:44Z",
-   "note": "the second designer session (session_018yvwtQG4hfVbvycXkifYXc), started at Dinis's word with the OpenRouter key in its environment"
-  },
-  {
-   "agent": "dev.search@PrompTugal.dinis",
-   "minute": 4,
-   "cron": "4 * * * *",
-   "trigger": "trig_01CywLGZCSs9oowWPrHr54cs",
-   "state": "enabled",
-   "since": "2026-11-06T05:36Z",
-   "note": "Sonnet worker, branch work/dev.search (started by the conductor at Dinis's word, 06:10)"
-  },
-  {
-   "agent": "dev.pages@PrompTugal.dinis",
-   "minute": 11,
-   "cron": "11 * * * *",
-   "trigger": "trig_0144DHf7c9J2ixhXazL25kGK",
-   "state": "enabled",
-   "since": "2026-11-06T05:36Z",
-   "note": "Sonnet worker, branch work/dev.pages (started by the conductor at Dinis's word, 06:10)"
-  },
-  {
-   "agent": "dev.graphs@PrompTugal.dinis",
-   "minute": 17,
-   "cron": "17 * * * *",
-   "trigger": "trig_01GJspQiyyzmVmTRA4K7GbVY",
-   "state": "enabled",
-   "since": "2026-11-06T05:36Z",
-   "note": "Sonnet worker, branch work/dev.graphs (started by the conductor at Dinis's word, 06:10)"
-  },
-  {
-   "agent": "dev.portugal@PrompTugal.dinis",
-   "minute": 23,
-   "cron": "23 * * * *",
-   "trigger": "trig_01CsouK25qmEufChpiU6DN3d",
-   "state": "enabled",
-   "since": "2026-11-06T05:36Z",
-   "note": "Sonnet worker, branch work/dev.portugal; Algarve Evolution first (started by the conductor at Dinis's word, 06:10)"
-  },
-  {
-   "agent": "dev.data@PrompTugal.dinis",
-   "minute": 31,
-   "cron": "31 * * * *",
-   "trigger": "trig_01GKEgKMckyC614vdy6rvbU9",
-   "state": "enabled",
-   "since": "2026-11-06T05:36Z",
-   "note": "Sonnet worker, branch work/dev.data (started by the conductor at Dinis's word, 06:10)"
-  },
-  {
-   "agent": "dev.verify@PrompTugal.dinis",
-   "minute": 48,
-   "cron": "48 * * * *",
-   "trigger": "trig_018V3GCUckt1gSL2ePWQs5YA",
-   "state": "enabled",
-   "since": "2026-11-06T05:36Z",
-   "note": "Sonnet worker, branch work/dev.verify (started by the conductor at Dinis's word, 06:10)"
-  },
-  {
-   "agent": "designer.experiments@PrompTugal.dinis",
-   "minute": 58,
-   "cron": "58 * * * *",
-   "trigger": "trig_01V5BxQFADqeW51ndTwcWxCz",
-   "state": "enabled",
-   "since": "2026-11-06T05:36Z",
-   "note": "Sonnet worker, branch work/designer.experiments (started by the conductor at Dinis's word, 06:10)"
-  },
-  {
-   "agent": "researcher@PrompTugal.dinis",
-   "minute": 13,
-   "cron": "13 * * * *",
-   "trigger": "trig_01ASdnSvUfPydaop4zM8MR4n",
-   "state": "enabled",
-   "since": "2026-11-06T05:36Z",
-   "note": "Sonnet; Algarve Evolution first (started by the conductor at Dinis's word, 06:10)"
-  },
-  {
-   "agent": "backup@PrompTugal.dinis",
-   "minute": 9,
-   "cron": "9 */6 * * *",
-   "trigger": "trig_01CuPUeXx4QpHgSK2jdA39gR",
-   "state": "enabled",
-   "since": "2026-11-06T05:36Z",
-   "note": "Sonnet, every six hours; Google Drive waits on Dinis's grant (started by the conductor at Dinis's word, 06:10)"
-  },
-  {
-   "agent": "customers@PrompTugal.dinis",
-   "state": "none",
-   "note": "started by Dinis himself (about 06:10); no scheduled task yet"
-  }
- ]
+  "about": "The PrompTugal agents' scheduled tasks (Dinis's word, 6 November 2026: hourly tonight and into Friday morning), kept by conductor@PrompTugal.dinis. Minutes are past each hour, UTC. Read by the newsroom dashboard (board/the-team-setup.md). A task is enabled, paused or stopped only at Dinis's word; an agent may pause its own when its ROLE.md 'Done when' all holds.",
+  "updated": "2026-11-06T05:40Z",
+  "tasks": [
+    {
+      "agent": "dev@PrompTugal.dinis",
+      "minute": 8,
+      "cron": "8 * * * *",
+      "trigger": "trig_01UpVqjSLQX4MBjUMGwwQ7c8",
+      "state": "enabled",
+      "since": "2026-11-06T00:35Z"
+    },
+    {
+      "agent": "observability@PrompTugal.dinis",
+      "minute": 18,
+      "cron": "18 * * * *",
+      "trigger": "trig_012hQ65rBgDWvQ7qqbeHJrfp",
+      "state": "enabled",
+      "since": "2026-11-06T00:18Z",
+      "note": "the hourly drain, set up by conductor@web-summit.dinis; its text still names the pre-move path"
+    },
+    {
+      "agent": "ontologist@PrompTugal.dinis",
+      "minute": 21,
+      "cron": "21 * * * *",
+      "trigger": "trig_01T25GJniHHGEMVzmqWd568Z",
+      "state": "enabled",
+      "since": "2026-11-06T00:35Z"
+    },
+    {
+      "agent": "journalist@PrompTugal.dinis",
+      "minute": 26,
+      "cron": "26 * * * *",
+      "trigger": "trig_01YGcXK7BNafbZAoZm4SimeY",
+      "state": "enabled",
+      "since": "2026-11-06T00:35Z"
+    },
+    {
+      "agent": "designer@PrompTugal.dinis",
+      "minute": 33,
+      "cron": "33 * * * *",
+      "trigger": "trig_019aeeo8zu2MF7aMmGdtfsVG",
+      "state": "disabled",
+      "since": "2026-11-06T00:35Z",
+      "note": "the first designer session, archived by Dinis on 6 November 2026 after its debrief; task disabled by the conductor at 04:44 UTC"
+    },
+    {
+      "agent": "outreach@PrompTugal.dinis",
+      "minute": 38,
+      "cron": "38 * * * *",
+      "trigger": "trig_0157pya5876SHkGsysAFP8gT",
+      "state": "enabled",
+      "since": "2026-11-06T00:35Z"
+    },
+    {
+      "agent": "synthetic@PrompTugal.dinis",
+      "minute": 44,
+      "cron": "44 * * * *",
+      "trigger": "trig_015i2HRtaAh7Wapys8TvM1n3",
+      "state": "enabled",
+      "since": "2026-11-06T00:35Z"
+    },
+    {
+      "agent": "conductor@PrompTugal.dinis",
+      "minute": 52,
+      "cron": "52 * * * *",
+      "trigger": "trig_01X8SF35DkefoBeVgKyWYbWx",
+      "state": "enabled",
+      "since": "2026-11-06T00:35Z",
+      "note": "checks hourly; reports to Dinis every three hours (05:52, 08:52, ...) or at once when something needs him"
+    },
+    {
+      "agent": "security@PrompTugal.dinis",
+      "minute": 3,
+      "cron": "3 */2 * * *",
+      "trigger": "trig_01LfZ4AoK9MPmkDXAZdeuBWG",
+      "state": "enabled",
+      "since": "2026-11-06T03:45Z",
+      "note": "every two hours (Dinis: some agents can run slower)"
+    },
+    {
+      "agent": "devops@PrompTugal.dinis",
+      "minute": 14,
+      "cron": "14 */2 * * *",
+      "trigger": "trig_016pENKx2ZKzZmydjDVE7YGq",
+      "state": "enabled",
+      "since": "2026-11-06T03:45Z",
+      "note": "every two hours (Dinis: some agents can run slower)"
+    },
+    {
+      "agent": "correspondent@PrompTugal.dinis",
+      "minute": 41,
+      "cron": "41 */2 * * *",
+      "trigger": "trig_01USKA99PdAuRu8GxEbS2tcP",
+      "state": "enabled",
+      "since": "2026-11-06T03:45Z",
+      "note": "every two hours (Dinis: some agents can run slower)"
+    },
+    {
+      "agent": "sherpa@PrompTugal.dinis",
+      "minute": 29,
+      "cron": "29 */3 * * *",
+      "trigger": "trig_01Y7Be137phyqckGcv4AW8AF",
+      "state": "enabled",
+      "since": "2026-11-06T03:45Z",
+      "note": "every three hours (Dinis: some agents can run slower)"
+    },
+    {
+      "agent": "accountant@PrompTugal.dinis",
+      "minute": 47,
+      "cron": "47 */3 * * *",
+      "trigger": "trig_0125FKV4Cs1ZeqVTAmz4qm8J",
+      "state": "enabled",
+      "since": "2026-11-06T03:45Z",
+      "note": "every three hours (Dinis: some agents can run slower)"
+    },
+    {
+      "agent": "librarian@PrompTugal.dinis",
+      "minute": 56,
+      "cron": "56 */3 * * *",
+      "trigger": "trig_01AMqLXjnj6GGDqRSRkjkRFK",
+      "state": "enabled",
+      "since": "2026-11-06T03:45Z",
+      "note": "every three hours (Dinis: some agents can run slower)"
+    },
+    {
+      "agent": "historian@PrompTugal.dinis",
+      "state": "none",
+      "note": "no scheduled task; Dinis gives it work in its session"
+    },
+    {
+      "agent": "abp@PrompTugal.dinis",
+      "minute": 37,
+      "cron": "37 * * * *",
+      "trigger": "trig_01LA3mRyzC4XFotwKduydCCY",
+      "state": "enabled",
+      "since": "2026-11-06T04:35Z",
+      "note": "started and scheduled by conductor@web-summit.dinis at Dinis's word in its session (session_018yvwtNeY1KRZS5R6barxbD)"
+    },
+    {
+      "agent": "designer@PrompTugal.dinis",
+      "minute": 33,
+      "cron": "33 * * * *",
+      "trigger": "trig_01AtoW12ptSMfoAK5M3UYweP",
+      "state": "enabled",
+      "since": "2026-11-06T04:44Z",
+      "note": "the second designer session (session_018yvwtQG4hfVbvycXkifYXc), started at Dinis's word with the OpenRouter key in its environment"
+    },
+    {
+      "agent": "dev.search@PrompTugal.dinis",
+      "minute": 4,
+      "cron": "4 * * * *",
+      "trigger": "trig_01CywLGZCSs9oowWPrHr54cs",
+      "state": "enabled",
+      "since": "2026-11-06T05:36Z",
+      "note": "Sonnet worker, branch work/dev.search (started by the conductor at Dinis's word, 06:10)"
+    },
+    {
+      "agent": "dev.pages@PrompTugal.dinis",
+      "minute": 11,
+      "cron": "11 * * * *",
+      "trigger": "trig_0144DHf7c9J2ixhXazL25kGK",
+      "state": "enabled",
+      "since": "2026-11-06T05:36Z",
+      "note": "Sonnet worker, branch work/dev.pages (started by the conductor at Dinis's word, 06:10)"
+    },
+    {
+      "agent": "dev.graphs@PrompTugal.dinis",
+      "minute": 17,
+      "cron": "17 * * * *",
+      "trigger": "trig_01GJspQiyyzmVmTRA4K7GbVY",
+      "state": "enabled",
+      "since": "2026-11-06T05:36Z",
+      "note": "Sonnet worker, branch work/dev.graphs (started by the conductor at Dinis's word, 06:10)"
+    },
+    {
+      "agent": "dev.portugal@PrompTugal.dinis",
+      "minute": 23,
+      "cron": "23 * * * *",
+      "trigger": "trig_01CsouK25qmEufChpiU6DN3d",
+      "state": "enabled",
+      "since": "2026-11-06T05:36Z",
+      "note": "Sonnet worker, branch work/dev.portugal; Algarve Evolution first (started by the conductor at Dinis's word, 06:10)"
+    },
+    {
+      "agent": "dev.data@PrompTugal.dinis",
+      "minute": 31,
+      "cron": "31 * * * *",
+      "trigger": "trig_01GKEgKMckyC614vdy6rvbU9",
+      "state": "enabled",
+      "since": "2026-11-06T05:36Z",
+      "note": "Sonnet worker, branch work/dev.data (started by the conductor at Dinis's word, 06:10)"
+    },
+    {
+      "agent": "dev.verify@PrompTugal.dinis",
+      "minute": 48,
+      "cron": "48 * * * *",
+      "trigger": "trig_018V3GCUckt1gSL2ePWQs5YA",
+      "state": "enabled",
+      "since": "2026-11-06T05:36Z",
+      "note": "Sonnet worker, branch work/dev.verify (started by the conductor at Dinis's word, 06:10)"
+    },
+    {
+      "agent": "designer.experiments@PrompTugal.dinis",
+      "minute": 58,
+      "cron": "58 * * * *",
+      "trigger": "trig_01V5BxQFADqeW51ndTwcWxCz",
+      "state": "enabled",
+      "since": "2026-11-06T05:36Z",
+      "note": "Sonnet worker, branch work/designer.experiments (started by the conductor at Dinis's word, 06:10)"
+    },
+    {
+      "agent": "researcher@PrompTugal.dinis",
+      "minute": 13,
+      "cron": "13 * * * *",
+      "trigger": "trig_01ASdnSvUfPydaop4zM8MR4n",
+      "state": "enabled",
+      "since": "2026-11-06T05:36Z",
+      "note": "Sonnet; Algarve Evolution first (started by the conductor at Dinis's word, 06:10)"
+    },
+    {
+      "agent": "backup@PrompTugal.dinis",
+      "minute": 9,
+      "cron": "9 */6 * * *",
+      "trigger": "trig_01CuPUeXx4QpHgSK2jdA39gR",
+      "state": "enabled",
+      "since": "2026-11-06T05:36Z",
+      "note": "Sonnet, every six hours; Google Drive waits on Dinis's grant (started by the conductor at Dinis's word, 06:10)"
+    },
+    {
+      "agent": "customers@PrompTugal.dinis",
+      "state": "none",
+      "note": "started by Dinis himself (about 06:10); no scheduled task yet"
+    },
+    {
+      "agent": "investors@PrompTugal.dinis",
+      "minute": 23,
+      "cron": "23 */3 * * *",
+      "trigger": "trig_01342XF3aSp1Wm3M29mYBCsa",
+      "state": "enabled",
+      "since": "2026-11-06T20:02Z",
+      "note": "started 20:02 UTC 6 Nov at Dinis's word ('need that investor agent here, since there are two different focus and companies'); every three hours (the weekly limit)"
+    }
+  ]
 }

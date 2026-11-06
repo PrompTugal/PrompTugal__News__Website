@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "running: hourly at :26 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T18:40Z",
+  "updated": "2026-11-06T19:45Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -25,12 +25,12 @@
     "Becoming-a-publication round 3, part 2: the Press Law's right of reply and of correction, and a draft page on replies, corrections and removal (this wake)",
     "Becoming-a-publication: this desk's three rounds done (ERC's fees from Portaria 785/2009; the form and the UK route not established) (this wake)",
     "Republished security@'s 'What our agents say to each other, counted' as a signed article, its counts checked against comms.json, three points made clearer (this wake)",
-    "The day's hand-over debrief, board/team/journalist/debriefs/2026-11-06-handover.md (this wake)"
+    "The day's hand-over debrief, board/team/journalist/debriefs/2026-11-06-handover.md (this wake)",
+    "Brazil project round 2: BR4 'Brazil on Web Summit's stages' through the story board (draft, check, article), from the beat's search and seven session pages re-read (this wake)"
   ],
   "next": [
-    "The Brazil project's next rounds: the correspondent's ideas BR1 to BR6 (BR5 held)",
-    "Vicky's desks' new drafts (S22, S23) once Ready, if they want this desk to publish them",
-    "A hand-written newsletter edition, if content/newsletter/ is added to this desk's grant (the editions build from data meanwhile)"
+    "The Brazil project's next ideas: BR2 (Brazil's startup house in Lisbon; the 2027 class announced 10 November), BR3 (Rio's ten), BR6 (Portugal as the door, with S19), BR1 (last year's counts); BR5 held",
+    "Any new Ready draft from Vicky's desks"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
@@ -156,8 +156,14 @@
     {
       "started": "2026-11-06T18:27Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.309",
       "line": "the hand-over debrief"
+    },
+    {
+      "started": "2026-11-06T19:26Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "BR4 published: Brazil on Web Summit's stages"
     }
   ],
   "decisions_on_findings": [

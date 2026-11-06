@@ -1,0 +1,85 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-06T19:45Z",
+  "for": "the journalists, via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9 (pack mode), read with its READ key as listed in people/vicky/vaults.json on the team's site; pulled 6 November 2026 at 19:48 UTC to the researcher's commit 4c3965130775 (19:30 run)",
+    "captures_in_vault": 33,
+    "new_mapped_here": 1,
+    "already_mapped": "32, in the earlier files of desks/curator/ (the researcher's 15:30 run added none)",
+    "researcher_report": "people/vicky/reports/researcher.md, Fri 6 Nov 19:30 UTC run"
+  },
+  "rules": "Every fact here is from a capture, as the researcher wrote it; the curator added none, checked none and rewrote no source. Public material only; organisations, not people; no contact details.",
+  "captures": [
+    {
+      "id": "v-parque-das-nacoes-traffic",
+      "file": "vault 41j3e9s9, captures/2026-11-06-parque-das-nacoes-traffic.md",
+      "source_url": "https://www.jf-parquedasnacoes.pt/autarquia/noticias/web-summit-condicionamentos-de-transito-entre-9-e-12-de-novembro",
+      "beat": "summit",
+      "names": [
+        "Junta de Freguesia do Parque das Nações",
+        "Carris",
+        "Web Summit"
+      ],
+      "what_is_new": "The Parque das Nações parish council lists road closures around the venue: the surrounding area closed to traffic, some streets from 19:00 on Sunday 8 November to 23:00 on 12 November, residents' garage access kept; street by street times (for example Rua do Bojador closed from 06:00 on 8 November, Avenida da Boa Esperança and Avenida do Índico 07:00 to 22:00). Carris runs a temporary terminal on Avenida D. João II by Gare do Oriente from 8 to 12 November; drop-off and pick-up areas on Rua do Caribe and on Alameda dos Oceanos by the Rotunda dos Vice-Reis. The council notes the closures are not its own decision.",
+      "is_story": "yes: S24, a practical piece, and into S1 (the first-day guide)",
+      "group": "G1 participant guide"
+    }
+  ],
+  "groups": {
+    "G1 participant guide": [
+      "r1255-01",
+      "r1255-02",
+      "r1255-03",
+      "r1255-04",
+      "r1255-05",
+      "r1255-08",
+      "v-metro-web-summit-transport-pass",
+      "v-metro-web-summit-service",
+      "v-carris-web-summit-shuttle",
+      "v-parque-das-nacoes-traffic"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "captures": [
+        "v-parque-das-nacoes-traffic",
+        "v-carris-web-summit-shuttle"
+      ],
+      "verdict": "kept both, grouped",
+      "why": "Both about Carris during the summit, but different facts: the shuttle and the pass (Executive Digest), and a temporary terminal by Gare do Oriente (the parish council). Not a duplicate."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "capture": "v-parque-das-nacoes-traffic",
+      "what": "The page is undated and calls the arena by its former name, Altice Arena (now MEO Arena, as the capture notes); use MEO Arena and say the times come from the parish council. Street times differ from the general 19:00 on 8 November to 23:00 on 12 November window (Rua do Bojador from 06:00 on 8 November); quote each street as listed. The council says the closures are not its own decision; the capture does not say whose they are."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S24",
+      "title": "Driving to Web Summit? Road closures and drop-off points",
+      "beat": "summit",
+      "angle": "A short, practical guide for participants: which roads around the venue close and when, where to be dropped off and picked up, and Carris's temporary terminal by Gare do Oriente. Helps people arrive easily, and points them to public transport.",
+      "rests_on": [
+        "v-parque-das-nacoes-traffic",
+        "v-carris-web-summit-shuttle"
+      ],
+      "note": "Can also be a section of S1. Names streets and times only, from the parish council's page.",
+      "words": 9
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S1",
+      "change": "Now also rests on v-parque-das-nacoes-traffic: the drop-off areas and Carris's temporary terminal by Gare do Oriente."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "Who decided the closures (the council says not itself): the city's or the police's own notice, if public.",
+    "Still open: which Portuguese startups exhibit or pitch this year, by field; speakers by day and stage; Técnico's six spin-offs; the transport pass's sales points; EY's report itself; 3xP Global's own page; circular and agritech startups at the summit."
+  ],
+  "urgent": null
+}

@@ -1,7 +1,9 @@
 // Articles (brief 3): content/articles/<slug>.md, signed as markdown twins. This feature gives each article its type,
 // date, byline and breadcrumb, and fills the article lists the prose asks for (<!-- articles:list -->).
 import { imageOf, firstSentence } from './front.mjs'
+import fs from 'node:fs'
 export const order = 20
+const W = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).articles
 
 const isArticle = p => /^articles\/[^/]+\.html$/.test(p.rel) && p.rel !== 'articles/index.html'
 export const articlesOf = ctx => ctx.pages.filter(isArticle).sort((a, b) => (b.meta.date || '').localeCompare(a.meta.date || ''))
@@ -31,6 +33,13 @@ export const fill = {
             const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'card')
             return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary, 190)}* \`${[a.meta.beat, a.meta.author.replace(/@.*/, '')].filter(Boolean).join(' · ')}\``
         }).join('\n')).join('\n\n')
-        return `{.view-switch}\n[The wire](#v-wire) · [By day](#v-byday)\n\n::: view view-wire\n#### The wire {#v-wire}\n\n${wire}\n:::\n\n::: view view-byday\n#### By day {#v-byday}\n\n${byDay}\n:::`
+        // by topic: each article under every tag it carries (front matter `tags`), the busiest topics first
+        const tags = new Map()
+        for (const a of list) for (const t of String(a.meta.tags || a.meta.beat || '').split(',').map(x => x.trim()).filter(Boolean)) tags.set(t, [...(tags.get(t) || []), a])
+        const byTopic = [...tags].filter(([, a]) => a.length > 1).sort((x, y) => y[1].length - x[1].length || x[0].localeCompare(y[0])).map(([t, a]) => `### ${ctx.md.cell(t)} \`${a.length}\`\n\n{.rows .news .wire}\n` + a.map(x => {
+            const href = ctx.link(page.rel, x.rel), img = imageOf(ctx, page, x, 'thumb')
+            return `- ${img ? `[${img}](${href}) ` : ''}**[${x.meta.title}](${href})** *${firstSentence(x.meta.summary, 190)}* \`${ctx.DAY(x.meta.date)}\``
+        }).join('\n')).join('\n\n')
+        return `{.view-switch}\n[${W.wire}](#v-wire) · [${W.byday}](#v-byday) · [${W.bytopic}](#v-bytopic)\n\n::: view view-wire\n#### ${W.wire} {#v-wire}\n\n${wire}\n:::\n\n::: view view-byday\n#### ${W.byday} {#v-byday}\n\n${byDay}\n:::\n\n::: view view-bytopic\n#### ${W.bytopic} {#v-bytopic}\n\n${byTopic}\n:::`
     },
 }

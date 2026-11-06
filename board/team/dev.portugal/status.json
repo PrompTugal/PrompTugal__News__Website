@@ -2,7 +2,7 @@
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
  "state": "working: Algarve page live and shown; keeping it true",
- "updated": "2026-11-06T17:35Z",
+ "updated": "2026-11-06T19:40Z",
  "done": [
   "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
   "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)",
@@ -18,12 +18,14 @@
   "after sherpa@, synthetic@, designer@: goals for 2032 apart from what is done (two tile rows); Informa D&B removed from partners; breadcrumb through Portugal; a route for corrections (the About page); AMAL, NERA, ANJE from their own sites",
   "his paragraph on the goals, as Algarve Evolution's own words (Ant\u00f3nio Pinto Guerreiro, 6 November 2026), under the 2032 tiles and in the mandate section, goals' sources kept; checked against board/guidance/2026-11-06-algarve-evolution-the-call-and-the-wish-list.md",
   "the 16 municipalities named on the page (amal.pt, read 6 November 2026); read the comms protocol (no contact details, requests on lanes): nothing private on the page",
-  "a missing blank line fixed (the regional bodies paragraph was glued to the graph image); the masthead's Powered by line is off already (dev@, Q1)"
+  "a missing blank line fixed (the regional bodies paragraph was glued to the graph image); the masthead's Powered by line is off already (dev@, Q1)",
+  "the daily hand-over debrief (CLAUDE.md, 17:55 UTC rule)"
  ],
  "next": [
   "wait for dev@'s review of the municipalities push",
   "per-organisation pages once the researcher has read more (DOCAPESCA, funding)",
   "the Portugal section's other organisations: need the researcher's reads first"
  ],
- "asks": []
+ "asks": [],
+ "debrief": "board/team/dev.portugal/debriefs/2026-11-06-handover.md"
 }
