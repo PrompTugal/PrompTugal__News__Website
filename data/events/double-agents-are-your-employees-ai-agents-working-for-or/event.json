@@ -8,9 +8,9 @@
   "organiser": "web-summit",
   "our_pick": true,
   "date": "2026-11-10",
-  "time": "11:25-11:40",
+  "time": "11:25-11:45",
   "start": "11:25",
-  "end": "11:40",
+  "end": "11:45",
   "where": "Stage 4 (Future of Work Summit), MEO Arena and FIL",
   "place": "place:stage-4",
   "track": "Future of Work Summit",
@@ -28,7 +28,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/",
-  "read_at": "2026-11-05T08:17Z",
+  "read_at": "2026-11-06T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -39,6 +39,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 50
+    "item": 55
   }
 }

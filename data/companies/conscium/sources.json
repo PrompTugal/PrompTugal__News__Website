@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://conscium.com/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Conscium's home page, read 6 November 2026: VerifyAX, its AI agent verification platform, which tests, audits and governs agents before and after deployment by running them through simulated environments (the flow verify-before-production)",
+      "kind": "other"
     }
   ]
 }

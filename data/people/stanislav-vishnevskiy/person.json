@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "stanislav-vishnevskiy",
+  "type": "person",
+  "name": "Stanislav Vishnevskiy",
+  "role": "Co-founder & CTO",
+  "organisation": "Discord",
+  "org": "organisation:discord",
+  "listings": [
+    {
+      "role": "Co-founder & CTO",
+      "organisation": "Discord",
+      "org": "organisation:discord",
+      "event": "event:new-unicorn-in-lisbon-discord-announces-expansion-press",
+      "source": "https://websummit.com/sessions/lis26/64ee9e86-915d-4051-9d00-6a44a9b8ac54/new-unicorn-in-lisbon-discord-announces-expansion-press-conference/",
+      "read_at": "2026-11-06T08:18Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

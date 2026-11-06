@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "steve-cortes",
+  "type": "person",
+  "name": "Steve Cortes",
+  "role": "Campaign Strategist, Media Spokesman",
+  "organisation": "Trump & Vance Campaigns",
+  "org": "organisation:trump-and-vance-campaigns",
+  "listings": [
+    {
+      "role": "Campaign Strategist, Media Spokesman",
+      "organisation": "Trump & Vance Campaigns",
+      "org": "organisation:trump-and-vance-campaigns",
+      "event": "event:what-do-the-us-midterms-tell-us-about-the-future-of-america",
+      "source": "https://websummit.com/sessions/lis26/7b86b4b5-7090-432e-9af0-3a4651d96ad5/what-do-the-us-midterms-tell-us-about-the-future-of-america-press-conference/",
+      "read_at": "2026-11-06T08:18Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

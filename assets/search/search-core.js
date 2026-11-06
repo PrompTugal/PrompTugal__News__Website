@@ -28,8 +28,8 @@
     const FIELDS = { title: { w: 8, b: 0 }, alias: { w: 5, b: 0 }, heads: { w: 3, b: 0 }, facet: { w: 2, b: 0 }, body: { w: 1, b: 0.75 } }
     const K1 = 1.2
     const TYPE_BOOST = { topic: 1.15, article: 1.1, company: 1.05, event: 1, person: 1, story: 0.95, place: 0.9, site: 0.9, organisation: 0.85 }
-    const TYPE_LABEL = { company: 'Company', event: 'Event', person: 'Person', organisation: 'Organisation', topic: 'Topic', place: 'Place', article: 'Article', site: 'Page', story: 'Story' }
-    const TYPE_PLURAL = { company: 'Companies', event: 'Events', person: 'People', organisation: 'Organisations', topic: 'Topics', place: 'Places', article: 'Articles', site: 'Pages', story: 'Stories' }
+    const TYPE_LABEL = { company: 'Company', event: 'Event', person: 'Person', organisation: 'Organisation', topic: 'Topic', place: 'Place', article: 'Article', site: 'Page', newsroom: 'Newsroom page', story: 'Story' }
+    const TYPE_PLURAL = { company: 'Companies', event: 'Events', person: 'People', organisation: 'Organisations', topic: 'Topics', place: 'Places', article: 'Articles', site: 'Pages', newsroom: 'Newsroom', story: 'Stories' }
 
     const LETTERS = { 'ø': 'o', 'æ': 'ae', 'œ': 'oe', 'ß': 'ss', 'ł': 'l', 'đ': 'd', 'ð': 'd', 'þ': 'th', 'ı': 'i' }
     const fold = s => String(s == null ? '' : s).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[øæœßłđðþı]/g, c => LETTERS[c])
@@ -237,7 +237,7 @@
         return {
             level: 'read', owner: 'search',
             description: 'Search the whole newsroom (companies, sessions and other events, people, organisations, topics, places, articles, pages). Words are matched by prefix, accents ignored. Filters: type, topic (topic id), country, organiser (web-summit or other), day (YYYY-MM-DD). Returns refs to pass to get_entity or neighbours.',
-            params: { type: 'object', properties: { query: { type: 'string' }, type: { type: 'string', description: 'company, event, person, organisation, topic, place, article or site' }, topic: { type: 'string' }, country: { type: 'string' }, organiser: { type: 'string', enum: ['web-summit', 'other'] }, day: { type: 'string', description: 'YYYY-MM-DD' }, limit: { type: 'integer', description: 'default 8, at most 30' } }, required: ['query'] },
+            params: { type: 'object', properties: { query: { type: 'string' }, type: { type: 'string', description: 'company, event, person, organisation, topic, place, article, newsroom (the back-end pages) or site' }, topic: { type: 'string' }, country: { type: 'string' }, organiser: { type: 'string', enum: ['web-summit', 'other'] }, day: { type: 'string', description: 'YYYY-MM-DD' }, limit: { type: 'integer', description: 'default 8, at most 30' } }, required: ['query'] },
             example: { query: 'security', type: 'company' },
             async run(a) {
                 const r = await engine.query(a.query, { type: a.type, topic: a.topic, country: a.country, organiser: a.organiser, day: a.day, limit: Math.min(30, a.limit || 8) })

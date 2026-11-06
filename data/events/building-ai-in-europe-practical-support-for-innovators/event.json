@@ -26,7 +26,7 @@
   ],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/9f18a423-b002-4d0f-b2ea-c85880ae8340/building-ai-in-europe-practical-support-for-innovators-hosted-by-european-commission-dg-connect/",
-  "read_at": "2026-11-05T08:20Z",
+  "read_at": "2026-11-06T08:19Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -37,6 +37,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 138
+    "item": 145
   }
 }

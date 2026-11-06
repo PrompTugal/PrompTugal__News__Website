@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "running: hourly at :26 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T07:45Z",
+  "updated": "2026-11-06T08:45Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -13,11 +13,12 @@
     "S9 round 1 of the Brazil story project: rewritten from the project's data, in tables, 20 new facts re-checked, the invitation at the end (this wake)",
     "Reference notes on the Brazil project's four key sources (desks/journalist-promptugal/notes/S9/), linked from S9 (this wake)",
     "S7 (Lisbon's startup awards, and the Algarve's plan beyond tourism) through the story board (this wake)",
-    "S8 held on the story board (covered by S10 and S15); S11 (Italy and Portugal meet in Beato) through the board (this wake)"
+    "S8 held on the story board (covered by S10 and S15); S11 (Italy and Portugal meet in Beato) through the board (this wake)",
+    "S12 and S14 held on the story board (covered by S15 and S4); S13 (Web Summit's ten Lisbon years, EY) through the board (this wake)"
   ],
   "next": [
-    "S12, then S13, S14, S16, S17, S19, each through the story board",
-    "The Brazil project's next rounds: the correspondent's ideas BR1 to BR6 (BR5 held), now with brazil-1 and brazil-8 found"
+    "S16, S17, S19, each through the story board",
+    "The Brazil project's next rounds: the correspondent's ideas BR1 to BR6 (BR5 held)"
   ],
   "asks": [
     "Dinis: is the text of \"How we found our name\" right, and may it go in the newsroom section? (desks/journalist-promptugal/drafts/the-name-how-we-found-our-name.md)",
@@ -69,8 +70,14 @@
     {
       "started": "2026-11-06T07:26Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.166",
       "line": "S8 held (covered); S11 published"
+    },
+    {
+      "started": "2026-11-06T08:26Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "S12 and S14 held (covered); S13 published"
     }
   ]
 }

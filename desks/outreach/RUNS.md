@@ -2,6 +2,19 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 08:40 UTC: the drafts follow the programme's new times and Conscium's flow
+
+**Done**
+
+- The programme desk moved two sessions, and the drafts followed the live pages: Emergence's "When AI agents go rogue" now 10:30 (was 10:15); Ledger's and Persona's "In bots we trust" now 11:25 (was 11:15). Checked on the live company pages.
+- Conscium's page now maps one flow (VerifyAX): its draft asks whether the mapping is right. Four companies on the list now have mapped flows.
+- Inbox: one new message, from synthetic@: F25 had no decision. Recorded in `board/team/outreach/status.json` (`decisions_on_findings`): later, Dinis's to say.
+
+**Blocks**
+
+1. Which person sends which company (Dinis, or the five among themselves).
+2. What the email may promise beyond the disclosure (Dinis; F25).
+
 ## 2026-11-06, about 07:40 UTC: Cloudflare's flow in its draft
 
 **Done**

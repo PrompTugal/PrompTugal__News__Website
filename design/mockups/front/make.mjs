@@ -20,6 +20,9 @@ const root = path.resolve(here, '../../..')
 const arg = (k, d) => { const i = process.argv.indexOf('--' + k); return i > 0 ? process.argv[i + 1] : d }
 const OUT = path.resolve(arg('out', path.join(os.tmpdir(), 'pt-mockups-front')))
 const VAULT = path.resolve(arg('vault', '/root/.sg-send/designer/pt-designer'))
+// --round 2: synthetic@'s run 6 on round 1 (F35 bylines name the AI agent, F36 what makes us different first,
+// F37 a readable image on a phone, F38 drop B)
+const ROUND = +arg('round', '1')
 fs.mkdirSync(OUT, { recursive: true })
 const U = p => pathToFileURL(path.isAbsolute(p) ? p : path.join(root, p)).href
 
@@ -29,7 +32,12 @@ const fm = slug => {
     const o = {}; for (const l of s.split('\n')) { const m = l.match(/^(\w+):\s*(.*)$/); if (m) o[m[1]] = m[2].trim().replace(/^"|"$/g, '') }
     return o
 }
-const by = a => a.startsWith('journalist@PrompTugal') ? 'PrompTugal.news' : /vicky/.test(a) ? "Vicky Wang's desk" : 'PrompTugal.news'
+const by = a => {
+    if (ROUND < 2) return a.startsWith('journalist@PrompTugal') ? 'PrompTugal.news' : /vicky/.test(a) ? "Vicky Wang's desk" : 'PrompTugal.news'
+    const [agent, ...rest] = a.split(',').map(x => x.trim())
+    const forWhom = rest.find(x => /^for /.test(x))
+    return `<b style="font-weight:600;color:var(--ink-2)">${agent}</b>, an AI agent${forWhom ? ', ' + forWhom : ''}`
+}
 const thumb = (slug, size = 'card') => fs.existsSync(path.join(root, `design/infographics/out/${slug}--paper--${size}.png`)) ? U(`design/infographics/out/${slug}--paper--${size}.png`) : null
 const AI = {
     'brazil-startup-mission': 'ai-images/brazil-startup-mission/google_gemini-3-pro-image--editorial--045743.png',
@@ -39,7 +47,7 @@ const SLUGS = ['brazil-startup-mission', 'from-pitch-to-new-markets', 'europe-in
 const S = SLUGS.map(slug => {
     const f = fm(slug)
     const ai = AI[slug] && fs.existsSync(path.join(VAULT, AI[slug])) ? U(path.join(VAULT, AI[slug])) : null
-    return { slug, title: f.title, sum: f.summary, kicker: (f.beat || (f.topics || f.tags || '').split(',')[0] || 'The summit').replace(/\s*\(.*\)\s*/, '').trim(), by: by(f.author || ''), img: ai || thumb(slug, 'banner') || thumb(slug), thumb: ai || thumb(slug, 'thumb') || thumb(slug), ai: !!ai }
+    return { slug, title: f.title, sum: f.summary, kicker: (f.beat || (f.topics || f.tags || '').split(',')[0] || 'The summit').replace(/\s*\(.*\)\s*/, '').trim(), by: by(f.author || ''), img: ai || thumb(slug, 'banner') || thumb(slug), thumb: ai || thumb(slug, 'thumb') || thumb(slug), ai: !!ai, card: thumb(slug, 'card') || thumb(slug), aiImg: ai }
 })
 const short = s => s.length > 150 ? s.slice(0, s.lastIndexOf(' ', 145)) + '…' : s
 const NOW = [
@@ -71,11 +79,18 @@ h3.sec a{font-weight:500;letter-spacing:0;text-transform:none;color:var(--brand)
 `
 const wm = h => `<img class="wm" style="--h:${h}px" src="${U('assets/brand/promptugal-wordmark-light.svg')}" alt="PrompTugal.news">`
 const fig = (s, extra = '') => `<div class="fig"><img class="img" src="${s.img}" alt="" ${extra}>${s.ai ? '<span class="ai">AI-made</span>' : ''}</div>`
+// round 2 on a phone: the session 1 card image (large type, every word checked), never the dense AI infographic
+const figPhone = s => ROUND >= 2 && s.card ? `<div class="fig"><img class="img" src="${s.card}" alt="">${s.aiImg ? '<span class="ai" style="background:var(--brand)">AI infographic inside ›</span>' : ''}</div>` : fig(s)
+const figDesk = s => ROUND >= 2 && s.aiImg ? `${fig(s)}<p style="font-size:12px;color:var(--ink-3);margin-top:5px">AI-made infographic, every figure checked against the article; the dates on it are the mission's own. <u>Open full size</u></p>` : fig(s)
 const topPhone = `<header style="border-bottom:1px solid var(--rule-2)"><div class="row" style="height:56px;display:flex;align-items:center;justify-content:space-between">${wm(20)}<div style="display:flex;gap:5px"><span class="pill">⌕</span><span class="pill"><b style="font-family:'IBM Plex Mono';font-weight:400">£5.00</b> credit</span><span class="pill">☰ Menu</span></div></div></header>
 <p class="row" style="font-family:Newsreader;font-style:italic;color:var(--ink-2);padding-top:10px">People and AI agents, reporting together. <span style="font-style:normal;font-family:'IBM Plex Sans';font-size:12.5px;color:var(--ink-3)">Independent.</span></p>`
 const topDesk = `<header style="border-bottom:1px solid var(--rule-2)"><div class="row" style="--g:24px;height:64px;display:flex;align-items:center;gap:26px">${wm(32)}<nav style="display:flex;gap:20px;flex:1;font-size:12.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase">${['Now', 'Agenda', 'News', 'Companies', 'People', 'Portugal', 'The graph', 'About'].join('</span><span>').replace(/^/, '<span style="color:var(--brand)">').replace(/$/, '</span>')}</nav><span class="pill">⌕ Search</span><span class="pill"><b style="font-family:'IBM Plex Mono';font-weight:400">£5.00</b> credit</span><span class="pill solid">Ask</span></div></header>
 <div class="row" style="--g:24px;display:flex;justify-content:space-between;padding-top:8px;padding-bottom:8px;border-bottom:1px solid var(--hair)"><i style="font-family:Newsreader;color:var(--ink-2)">People and AI agents, reporting together.</i><span style="font-size:12.5px;color:var(--ink-3)">Every fact sourced and dated. Independent: not affiliated with Web Summit. <u style="color:var(--brand)">Our disclosure</u></span></div>`
 
+const TOP_P = ROUND >= 2 ? topPhone.replace(/ <span style="font-style:normal[^<]*Independent\.<\/span>/, '') : topPhone
+const TOP_D = ROUND >= 2 ? topDesk.replace(/<span style="font-size:12\.5px;color:var\(--ink-3\)">Every fact sourced and dated\. Independent[\s\S]*?<\/span><\/div>$/, '</div>') : topDesk
+const BAND_P = ROUND >= 2 ? `<div class="row" style="padding-top:8px;padding-bottom:8px;border-bottom:1px solid var(--hair);font-size:12.5px;line-height:1.45;color:var(--ink-2)"><b style="color:var(--ink)">Every fact sourced and dated.</b> Written by AI agents, edited by Dinis Cruz, Indi Gupte and Vicky Wang. Independent of Web Summit.</div>` : ''
+const BAND_D = ROUND >= 2 ? `<div style="background:var(--paper-2);border-bottom:1px solid var(--hair)"><div class="row" style="--g:24px;padding-top:9px;padding-bottom:9px;display:flex;gap:28px;font-size:13.5px;color:var(--ink-2)"><span><b style="color:var(--ink)">Every fact sourced and dated</b>, with the date we read it</span><span><b style="color:var(--ink)">Written by AI agents</b>, edited by Dinis Cruz, Indi Gupte and Vicky Wang</span><span><b style="color:var(--ink)">Independent</b> of Web Summit · <u style="color:var(--brand)">our disclosure</u></span></div></div>` : ''
 const latestRow = (s, w = 96) => `<div style="display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--hair)"><div class="fig" style="flex:0 0 ${w}px"><img src="${s.thumb}" style="width:${w}px;height:${Math.round(w * .72)}px;object-fit:cover;border:1px solid var(--hair);display:block">${s.ai ? '<span class="ai" style="font-size:8px">AI</span>' : ''}</div><div><p class="k">${s.kicker}</p><p class="hed" style="font-size:17px;margin-top:2px">${s.title}</p><p class="by">${s.by}</p></div></div>`
 const nowStrip = (wide) => `<div style="display:grid;grid-template-columns:${wide ? 'repeat(3,1fr)' : '1fr'};gap:${wide ? 12 : 0}px">${NOW.map(([d, n, t], i) => `<div style="display:flex;gap:10px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--hair)"><span style="font:600 11px 'IBM Plex Sans';letter-spacing:.06em;text-transform:uppercase;min-width:66px;color:${i ? 'var(--ink-3)' : 'var(--red)'}">${d} ${n}</span><span style="font-family:Newsreader;font-size:16px">${t}</span></div>`).join('')}</div>`
 const lens = `<div class="lens"><div><b>Reach.</b>What can an AI agent actually do?</div><div><b>Mandate.</b>What was it asked to do?</div><div><b>Gap.</b>Who controls the difference?</div></div>`
@@ -84,14 +99,15 @@ const mandate = `<p style="font-family:Newsreader;font-size:19px;line-height:1.3
 // ---- A. The newspaper: a lead with its picture, two seconds, Latest with thumbs, a compact Now, why we are different high. ----
 const A = {
     title: 'A. The newspaper',
-    phone: () => `${topPhone}<main class="row" style="padding-top:14px">
-${fig(S[0])}<p class="k" style="margin-top:12px">${S[0].kicker}</p><h2 class="hed" style="font-size:28px;margin-top:4px">${S[0].title}</h2><p class="dek" style="font-size:17px;margin-top:8px">${short(S[0].sum)}</p><p class="by">${S[0].by} · 5 min · signed</p>
+    phone: () => `${TOP_P}${BAND_P}<main class="row" style="padding-top:14px">
+${figPhone(S[0])}<p class="k" style="margin-top:12px">${S[0].kicker}</p><h2 class="hed" style="font-size:28px;margin-top:4px">${S[0].title}</h2><p class="dek" style="font-size:17px;margin-top:8px">${short(S[0].sum)}</p><p class="by">${S[0].by} · 5 min · signed</p>
+${ROUND >= 2 ? `<h3 class="sec">Why we are different</h3>${lens}` : ''}
 <h3 class="sec">Now and next <a>The summit, day by day</a></h3>${nowStrip(false)}
 <h3 class="sec">Latest <a>All articles</a></h3>${S.slice(1, 6).map(s => latestRow(s)).join('')}
-<h3 class="sec">Why we are different</h3>${mandate}<div style="margin-top:12px">${lens}</div>
+${ROUND >= 2 ? `<h3 class="sec">Our mandate</h3>${mandate}` : `<h3 class="sec">Why we are different</h3>${mandate}<div style="margin-top:12px">${lens}</div>`}
 </main>`,
-    desktop: () => `${topDesk}<main class="row" style="--g:24px;padding-top:24px;display:grid;grid-template-columns:1.75fr 1fr;gap:36px">
-<div>${fig(S[0])}<p class="k" style="margin-top:14px">${S[0].kicker}</p><h2 class="hed" style="font-size:42px;margin-top:6px">${S[0].title}</h2><p class="dek" style="font-size:19px;margin-top:10px">${S[0].sum}</p><p class="by">${S[0].by} · 5 min · signed</p>
+    desktop: () => `${TOP_D}${BAND_D}<main class="row" style="--g:24px;padding-top:24px;display:grid;grid-template-columns:1.75fr 1fr;gap:36px">
+<div>${figDesk(S[0])}<p class="k" style="margin-top:14px">${S[0].kicker}</p><h2 class="hed" style="font-size:42px;margin-top:6px">${S[0].title}</h2><p class="dek" style="font-size:19px;margin-top:10px">${S[0].sum}</p><p class="by">${S[0].by} · 5 min · signed</p>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px;border-top:1px solid var(--hair);padding-top:20px">${S.slice(1, 3).map(s => `<div>${fig(s)}<p class="k" style="margin-top:10px">${s.kicker}</p><h3 class="hed" style="font-size:22px;margin-top:4px">${s.title}</h3><p class="dek" style="font-size:16px;margin-top:6px">${short(s.sum)}</p></div>`).join('')}</div></div>
 <aside><h3 class="sec" style="margin-top:0">Now and next <a>Day by day</a></h3>${nowStrip(false)}
 <h3 class="sec">Latest <a>All</a></h3>${S.slice(3, 8).map(s => latestRow(s, 84)).join('')}
@@ -124,15 +140,15 @@ ${S.slice(1, 9).map(s => `<div>${fig(s)}<p class="k" style="margin-top:8px">${s.
 // ---- C. The briefing first: "Today in 30 seconds" above the lead (Dinis: a presentation on every big page). ----
 const C = {
     title: 'C. The briefing first',
-    phone: () => `${topPhone}<main class="row" style="padding-top:14px">
+    phone: () => `${TOP_P}${BAND_P}<main class="row" style="padding-top:14px">
 <section style="border:2px solid var(--ink);padding:14px"><p class="k" style="color:var(--red)">Friday 6 November · the briefing</p><h2 class="hed" style="font-size:24px;margin-top:4px">Before the summit, in 30 seconds</h2>
 <ol style="margin:10px 0 0 18px;font-family:Newsreader;font-size:16.5px;line-height:1.4;display:grid;gap:6px"><li>Brazil, one of 2025's two largest delegations, comes back with a mission; counts run from 100 to about 300, and no public list names the companies.</li><li>Three Portuguese startups raised 1.1 to 1.6 million euros each this fortnight.</li><li>The European Commission brings a fireside chat, four masterclasses and stands to Pavilion 4.</li></ol>
 <p style="margin-top:10px;font-size:13px;color:var(--brand)">▶ Play the briefing &nbsp;·&nbsp; Read the stories</p></section>
-<div style="margin-top:18px">${fig(S[0])}</div><p class="k" style="margin-top:10px">${S[0].kicker}</p><h2 class="hed" style="font-size:26px;margin-top:4px">${S[0].title}</h2><p class="by">${S[0].by} · 5 min · signed</p>
+<div style="margin-top:18px">${figPhone(S[0])}</div><p class="k" style="margin-top:10px">${S[0].kicker}</p><h2 class="hed" style="font-size:26px;margin-top:4px">${S[0].title}</h2><p class="by">${S[0].by} · 5 min · signed</p>
 <h3 class="sec">Latest <a>All articles</a></h3>${S.slice(1, 5).map(s => latestRow(s)).join('')}
 <h3 class="sec">Now and next</h3>${nowStrip(false)}
 <h3 class="sec">Why we are different</h3>${lens}</main>`,
-    desktop: () => `${topDesk}<main class="row" style="--g:24px;padding-top:24px;display:grid;grid-template-columns:1fr 1.5fr 1fr;gap:32px">
+    desktop: () => `${TOP_D}${BAND_D}<main class="row" style="--g:24px;padding-top:24px;display:grid;grid-template-columns:1fr 1.5fr 1fr;gap:32px">
 <section style="border:2px solid var(--ink);padding:18px;align-self:start"><p class="k" style="color:var(--red)">Friday 6 November · the briefing</p><h2 class="hed" style="font-size:26px;margin-top:6px">Before the summit, in 30 seconds</h2>
 <ol style="margin:12px 0 0 18px;font-family:Newsreader;font-size:17px;line-height:1.4;display:grid;gap:8px"><li>Brazil, one of 2025's two largest delegations, comes back with a mission; counts run from 100 to about 300, and no public list names the companies.</li><li>Three Portuguese startups raised 1.1 to 1.6 million euros each this fortnight.</li><li>The European Commission brings a fireside chat, four masterclasses and stands to Pavilion 4.</li></ol>
 <p style="margin-top:12px;font-size:13px;color:var(--brand)">▶ Play the briefing</p><h3 class="sec">Now and next</h3>${nowStrip(false)}</section>
@@ -145,7 +161,7 @@ const C = {
         'The most "newsroom" of the three; it needs the correspondent\'s daily lines and dev@\'s player.'],
 }
 
-const V = { A, B, C }
+const V = ROUND >= 2 ? { A, C } : { A, B, C }
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt-front-'))
 const browser = await chromium.launch()
 const made = []
