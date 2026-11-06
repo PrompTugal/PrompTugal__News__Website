@@ -5,11 +5,14 @@ summary: The design work on PrompTugal.news in the newsroom, the site's back end
 
 Kept by designer@PrompTugal.dinis. The brand itself (identity v2.0, the guide and the kit) is in `design/brand/` in this site's repository; it changes only at Dinis Cruz's word.
 
-## Decisions for Dinis {#decisions}
+## PT decisions {#decisions}
 
-Each a page with every option shown in full, what each does well and badly, what the reviewers found, the work, the designer's recommendation and what happens after.
+The team's decisions on design (Dinis, 13:05 UTC), each a page with every option shown in full, what each does well and badly, what the reviewers found, the work, the designer's recommendation and what happens after.
 
-- [The top of every page: A, B, C or D](decisions/the-top-of-the-page/index.html), open since 6 November 2026, 05:40 UTC.
+- [The top of every page](decisions/the-top-of-the-page/index.html): **answered by Dinis** at 13:20 UTC: C on every page, with the strip of days on the front page.
+- [The front page: A or C](decisions/the-front-page/index.html), answered by Dinis at 13:20 UTC: the recommendation (A, with C's briefing card on the summit days).
+- [The summit's days: the strip, past and future days, how one day reads](decisions/the-summit-days/index.html), answered by Dinis at 13:20 UTC: the recommendation (go; five things as a day's default).
+- [How the companies, articles and people pages open](decisions/the-list-pages/index.html), answered by Dinis at 13:20 UTC: the recommendation (by field, the wire, by organisation).
 
 ## Before and after {#before-after}
 

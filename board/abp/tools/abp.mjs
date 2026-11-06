@@ -194,6 +194,8 @@ function test() {
         [T('dev'), bash('grep -n KEY .env'), 'deny', 'grep inside a .env file'],
         [{ kind: 'external', role: 'reviewer', agent: 'reviewer@PrompTugal.vicky', person: 'vicky', how: 'test' }, w('board/keys.json'), 'allow', "Vicky's agent adds its key"],
         [T('conductor'), w('board/editor-briefs/x.pdf', 'Write'), 'allow', "conductor's brief to Dinis"],
+        [T('journalist'), w('content/newsroom/decisions/the-story-of-the-name.md', 'Write'), 'allow', 'a decision page by its owner (CLAUDE.md, Decisions are pages)'],
+        [T('dev'), w('newsroom/tests/search.test.mjs', 'Write'), 'allow', "dev's tests"],
         [T('dev'), bash('node pki-agent.mjs keygen --session --name conductor@PrompTugal.dinis'), 'deny', 'key in another name'],
         [T('dev'), bash('claude -p "do x"'), 'deny', 'claude CLI'],
         [T('dev'), bash('crontab -l'), 'deny', 'crontab'],

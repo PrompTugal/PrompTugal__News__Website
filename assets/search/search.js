@@ -63,6 +63,8 @@
             pop.innerHTML = (groups.length ? groups.map(([t, rs]) => `<div class="sp-group"><h4>${esc(TP[t] || t)}</h4>${rs.map(x => `<a class="sp-item" role="option" id="${pop.id}-${x.doc.i}" aria-selected="false" href="${esc(Site.url(x.doc.url))}"><span class="t1">${marked(x.doc.title, r.words)}</span><span class="t2">${esc(x.doc.summary)}</span><span class="k tag">${esc(TL[x.doc.type] || x.doc.type)}</span></a>`).join('')}</div>`).join('')
                 : `<div class="sp-group"><p class="sp-none">Nothing matches "${esc(q)}".</p></div>`) +
                 `<div class="sp-foot"><span><kbd>↑</kbd> <kbd>↓</kbd> move · <kbd>Enter</kbd> open · <kbd>Esc</kbd> close</span><a href="${esc(searchPage)}?q=${encodeURIComponent(q)}">All results for "${esc(q)}"${r.total ? ` (${r.total})` : ''}</a></div>`
+            const none = pop.querySelector('.sp-none')
+            if (none && r.suggest) none.textContent += ` Did you mean "${r.suggest}"?`
             pop.hidden = false
             input.setAttribute('aria-expanded', 'true')
             sel = -1
@@ -192,6 +194,13 @@
             status.textContent = `${r.total} result${r.total === 1 ? '' : 's'} for "${st.q}"` + (ld && ld.files ? ` · the index so far: ${ld.files} files, ${(ld.bytes / 1024).toFixed(0)} KB, from this site only` : '')
             mount.dataset.ready = 'full'
             mount.dataset.total = String(r.total)
+            if (r.suggest) {
+                const a = d.createElement('a')
+                a.href = `${searchPage}?q=${encodeURIComponent(r.suggest)}`
+                a.textContent = r.suggest
+                a.addEventListener('click', e => { e.preventDefault(); input.value = st.q = r.suggest; render() })
+                status.append(' Did you mean ', a, '?')
+            }
         }
         engine.docs().then(dd => { docsInfo = dd; labels = dd.facets || {}; if (!Core.words(st.q).length) render() }).catch(e => { status.textContent = `The index did not load: ${e.message}` })
         let timer = null

@@ -1,0 +1,64 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T12-56-29Z",
+ "started": "2026-11-06T12:56:29.075Z",
+ "ended": "2026-11-06T12:57:34Z",
+ "line": "13:10 at Dinis's word: PT decisions (spec, CLAUDE.md, designer/sherpa/synthetic/outreach/dev.portugal told), signed-in views opened with passkey + vault (dev, dev.search, security, observability), customers told of the platform",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T12:56:29.075Z",
+   "chars": 1294,
+   "sha256": "70bf4256b04455ac",
+   "head": "Note on “Decision for Dinis: the top of every page (A, B, C or D)” this should not really be decision for me. The next should be decision for the team, right? It's almost a prompt, you know, to go, a "
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 3,
+  "by_kind": {
+   "git": 1,
+   "shell": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 3,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 3,
+  "in_mandate": 3,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

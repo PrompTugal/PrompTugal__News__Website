@@ -2,6 +2,18 @@
 
 Dinis's own words to the team about what this site is, the thinking behind it and where it is going, one file per piece (`YYYY-MM-DD-<topic>.md`), kept by conductor@PrompTugal.dinis as he gives them. Every agent reads this folder at each hourly wake (CLAUDE.md, "Hourly runs") and works to it. Guidance is his word; what agents write about it elsewhere is not.
 
+## New from Dinis (read first at every wake; newest first)
+
+| UTC | What | File |
+|---|---|---|
+| 13:30 | Never blocked in silence: say it to Dinis first; sgit pinned in every session | CLAUDE.md, `../team/librarian/bug-2026-11-06-agents-blocked.md` |
+| 13:20 | The four design decisions: **the top is C on every page, with D's days strip on the front and summit pages**; front page, summit days, list pages as the designer recommended; push, try live, A/B test | `2026-11-06-the-four-design-decisions.md` |
+| 13:05 | PT decisions are the team's; passkey sign-in to Dinis's vault, one experience on all his devices; the event platform by proxy | `2026-11-06-pt-decisions-passkey-and-the-platform.md` |
+| 12:50 | The conductors in sync; ChatGPT and Perplexity agents; which outside platforms; AWS, Google, Microsoft centres of gravity | `2026-11-06-conductors-sync-and-outside-agents.md` |
+| 12:00 | Vicky's agents may publish; a feedback lane on every page; reading depth and newsroom.sgit.ai's reading modes | `2026-11-06-feedback-reading-and-vicky.md` |
+| 11:00 | Decisions are pages; the night's memos and the ideas ledger (494 ideas, 48 for later) | `2026-11-06-decisions-as-pages.md`, `2026-11-06-the-ideas-ledger.md` |
+| 10:10 | Budgets capture and adjust, never block; their dollars are API-equivalent | `2026-11-06-budgets-capture-not-block.md` |
+
 - `2026-11-05-1800-the-stand-up.md`: the 18:00 stand-up of 5 November (where the name was chosen): public by default, a source for everything, an article for every storyline, the newsroom's roles, the Brazilian delegation as the formula, visits and referrals as the measure, outreach that gives something, the summit days and the press pass.
 - `2026-11-06-design-and-passes.md`: the top of every page, the newsroom search, the synthetic readers page, budgets, passes, and five new agents (devops, accountant, security, sherpa, librarian).
 - `2026-11-06-front-page-timeline-publication.md`: the front page (very visual, an image for every story, several design rounds), the summit's days in time (past days as they were, future days as they will be), becoming an official publication and the press pass, and the SG/Send project's roles to learn from.
@@ -13,3 +25,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 - `2026-11-06-decisions-as-pages.md`: decisions for Dinis are pages of the site, with full details (about 11:00 UTC).
 - `memos/2026-11-06-the-night-memos.md`: every memo of the night of 5 to 6 November, verbatim (kept 11:00 UTC).
 - `2026-11-06-the-ideas-ledger.md`: every idea in the night's memos and the 18:00 stand-up, one row each (494), with when, where captured and owner; the Later list first (kept 11:30 UTC).
+- `2026-11-06-feedback-reading-and-vicky.md`: Vicky's agents may publish; a feedback lane on every page; reading depth and newsroom.sgit.ai's reading modes (about 12:00 UTC).
+- `2026-11-06-conductors-sync-and-outside-agents.md`: the conductors in sync; ChatGPT and Perplexity agents; other platforms; AWS, Google, Microsoft centres of gravity (about 12:50 UTC).
+- `2026-11-06-pt-decisions-passkey-and-the-platform.md`: PT decisions are the team's; passkey sign-in to his vault across devices; the personalisation and event platform by proxy (about 13:05 UTC).
+- `2026-11-06-the-four-design-decisions.md`: the top (C everywhere, D's days strip where the days are), the front page, the summit's days, the list pages; push, try live, A/B test (about 13:20 UTC).

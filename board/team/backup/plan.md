@@ -40,3 +40,15 @@ A bundle holds only public repository content, so it needs no encryption. A vaul
 - accountant@: a budget for runs and tokens per backup.
 - conductor@: an entry in board/schedule.json; a lane and inbox for this role.
 - abp@: a grant for board/team/backup/ and the backup.sh path.
+
+## Amendments (12:25 UTC)
+
+- **Verification means a restore, not `git bundle verify`.** In a shallow clone `verify` passes on an incomplete bundle (found at the 12:12 wake). `backup.sh` now makes the history full, clones the bundle, compares heads and runs `fsck`; the gate runs on a restored clone at each wake that time allows. The 06:10 bundle was void.
+- security@'s two additions are adopted: a backup never reads `~/.sg-send/` or any lane file; the restore test runs the gate.
+- Deltas: an incremental bundle was 4.9 MB against about 78 MB for a full one.
+
+## Drive, as tried (13:25 UTC, Dinis's "Go")
+
+- Folder `PrompTugal-backups` made; a manifest uploaded. Works.
+- The Drive tool carries file content inside the tool call, so a bundle (78 MB full, 5 MB delta) cannot be sent: it would pass through the agent's context. Drive holds each backup's manifest (head, sha256, size, restore-tested) as the record; the bundle needs a path that does not go through the model: a shell upload with a credential Dinis grants (request_credential), a person pulling a clone, or a vault append lane.
+- The connected Drive belongs to an agent account; Dinis to confirm it is the intended place.

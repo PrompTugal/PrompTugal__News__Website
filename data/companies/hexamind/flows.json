@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "hexamind",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "gate-every-tool-call",
+      "name": "Every tool call an agent makes is allowed, denied or sent for approval (Hexgate)",
+      "summary": "Hexamind's open-source product (MIT): \"Runtime authorization for AI agents\", for OpenAI Agents, LangChain, Google ADK, Pydantic AI or a native runtime; its home page sums it up as policies, an audit log and a kill-switch.",
+      "source": [
+        "fl1",
+        "fl2"
+      ],
+      "steps": [
+        {
+          "actor": "The company",
+          "what": "Writes a policy: per role, which tools are allowed and under what constraints on the arguments (its example: support may refund up to 50 USD, billing up to 500), with deny as the default.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The company",
+          "what": "Wraps its existing agent with the Hexgate SDK, or builds one natively, without rewriting it.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Calls a tool with arguments on a user's behalf.",
+          "agent": "Chooses the tool and its arguments.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Hexgate",
+          "what": "Resolves the caller's role at call time and decides: allow, deny, or approval required, for this user, this role, this tool and these arguments.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Hexgate",
+          "what": "Traces and audits every decision with the caller's identity; with the optional platform, decisions stream live to a dashboard and signed policy bundles ship to production.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The company",
+          "what": "Can stop an agent outright: Hexamind lists a kill-switch with the policies and the audit log.",
+          "source": "fl2"
+        }
+      ]
+    }
+  ]
+}

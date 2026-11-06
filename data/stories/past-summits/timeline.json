@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "past-summits",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "events": [
+    {"at": "2015-09-23", "what": "Web Summit announces it will leave Dublin for Lisbon from 2016; Silicon Republic reports infrastructure among the reasons.", "kind": "announcement", "about": ["organisation:web-summit", "event:web-summit-lisbon-2016"], "source": "siliconrepublic-2015-09-23-move-to-lisbon", "claim": ["c01", "c02", "c03"]}
+  ]
+}

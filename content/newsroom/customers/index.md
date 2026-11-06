@@ -29,12 +29,21 @@ summary: What PrompTugal.news could sell and how a sale would run: the menu in t
 
 An ask is logged by type and date (never a name). It is checked against the menu and the rule above, quoted on one page with what is in it, what is not, and what a change costs, and sent by Dinis as a Stripe Payment Link (for menu items) or an invoice (for a named job). Work starts when Dinis has seen the payment in Stripe, is reviewed for usability, for keys and private data, and for sources, and is handed over by a person. **The first five or six asks of a kind are one-off jobs; when a seventh person asks for the same thing it becomes a package with a link.**
 
+## The technology shelf {#shelf}
+
+The second half of the customers work: **the pieces of technology this team has made work, packaged as pieces of work** anyone can ask for. The code is open source (Apache-2.0); what we sell is making it work for you, from a first piece to a full build. A draft, not yet promoted:
+
+- [What we can package: the products](products/index.html): 19 products on three shelves (identity and trust, running agents, publishing, data and events), each with how much of it runs today, where to see it and three sizes of work, and a place to say you are interested.
+- [A case study: Portuguese technology sold abroad](portuguese-technology/index.html): Via Verde, Multibanco and MB WAY, ANA, and what the pattern teaches us about packaging ours.
+- [A slip, in the open](../decisions/an-agent-printed-its-own-lane-token/index.html): an agent printed its own inbox token into a transcript; what happened and eight ways to make it impossible. We keep these on the record.
+
 ## The papers {#papers}
 
 - [The map](https://promptugal.news/board/team/customers/monetisation-map.md): every family, what exists that people would pay for, the benchmarks used (directional, each with its source and date read) and the ten decisions that are Dinis's.
 - [The register](https://promptugal.news/board/team/customers/packages.json): one row per package, with its price, scope, owner and what must exist before it goes live.
 - [The runbook](https://promptugal.news/board/team/customers/operations.md): who does what at each step, the change policy and the quote template.
 - [The newsreel brief](https://promptugal.news/board/team/customers/briefs/2026-11-06-the-personal-newsreel.md): the idea, what exists, the sources checked, the rules, who does what, and the order.
+- [For Silvio and his agents](https://promptugal.news/board/team/customers/for-silvio-and-his-agents.md): the invitation to shape this section: sell it, design it, and say what they would sell.
 - [The deck](https://promptugal.news/board/team/customers/deck/monetisation-deck.pdf): 14 slides.
 
 ## What is not here {#not-here}

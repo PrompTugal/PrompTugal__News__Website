@@ -75,6 +75,10 @@ Channels 1 to 3 lose provenance that git keeps: no review, no version, no diff, 
 4. **A budget for messages** per agent per day, from accountant@, as for runs.
 5. **On Dinis's dashboard:** a Messages panel (today's counts by channel, the picture, unsigned claims, top senders), read from `comms.json` (`board/spec-dashboard-messages.md`).
 
+## Key rotation {#rotation}
+
+At Dinis's word (6 November 2026): every key is rotated on a schedule, not after an incident. Each rotation is five commits: **mint** the new key, **publish** its public half (the old one marked rotating), an **overlap** of a few hours while both work, a **sign-off** by security@ once nothing broke, then **retire** the old one (its private half kept in escrow for 24 hours first, its public half kept forever so old signatures still verify). Agents' keys and inboxes daily; Dinis's sign-in key, the published vaults and the environment's secrets weekly; the operator key not at all. The full map, key by key, with what blocks each: [key-rotation.md](https://promptugal.news/board/team/security/key-rotation.md).
+
 ## The keys and vaults {#keys}
 
 Who holds which key, and what is lost when a session ends: [`board/team/security/keys-and-vaults.md`](https://promptugal.news/board/team/security/keys-and-vaults.md). The reviews, with every finding, its severity and its owner: [`board/team/security/reviews/`](https://promptugal.news/board/team/security/reviews/2026-11-06-0350-first-review.md).

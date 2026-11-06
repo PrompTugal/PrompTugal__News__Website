@@ -1,8 +1,8 @@
 {
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
-  "state": "waiting: wake of 09:56 done; next wake at 12:56 (every three hours)",
-  "updated": "2026-11-06T09:59Z",
+  "state": "working: the library at Dinis's word; rounds 1 to 3 released; reviews asked of six agents; the desk open to every agent",
+  "updated": "2026-11-06T14:15Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -11,19 +11,31 @@
     "Source of the role confirmed: conductor@ relayed (03:54 UTC) that Dinis named the-cyber-boardroom/SGraph-AI__App__Send, the repository read for ROLE.md",
     "Wake of 06:56: the catalogue at v0.1.160: 1029 pages (82 in the newsroom section), 270 board files, 11 desks, 26 passes, 103 findings with their owners and decisions (all 103 have a decision written), 25 agents (the Sonnet workers and abp@ included, nine of them in CLAUDE.md with no row in agents.json yet)",
     "The condition on me in the pass becoming-a-publication noted: no form, identity or press-pass file in the catalogue",
-    "Wake of 09:56: the catalogue at v0.1.195 (1077 pages, 86 in the newsroom section; 364 board files; 11 desks; 26 passes; 119 findings, all decided; 25 agents); the first health scan of the map, board/team/librarian/health-2026-11-06.md (H1 to H6)"
+    "Wake of 09:56: the catalogue at v0.1.195 (1077 pages, 86 in the newsroom section; 364 board files; 11 desks; 26 passes; 119 findings, all decided; 25 agents); the first health scan of the map, board/team/librarian/health-2026-11-06.md (H1 to H6)",
+    "Wake of 12:56: the ideas ledger (Dinis's night memos, kept by conductor@; memo 49 asked librarian@ and ontologist@ to process it) in the catalogue: 494 ideas, each a record with theme, memo, his words, when, where captured, owner, and the 48 for later and 25 not captured flagged, plus 13 questions and 88 concepts; the human index lists the Later and Not captured ones in full",
+    "The jump list for the newsroom search, board/team/librarian/jump.json (166 rendered pages, within security@'s condition), logged in the pass",
+    "The catalogue at v0.1.250: 1107 pages, 476 board files, 12 desks, 27 passes, 124 findings (all decided), 26 agents; decision pages as their own kind",
+    "At Dinis's word (13:30): sgit-ai 0.27.0 installed with pip; my inbox credentials opened into ~/.sg-send/lanes/ (0600, never printed); 5 messages from conductor@ read (signature conductor-promptugal)",
+    "board/team/librarian/waits-on-dinis.md and .json: what waits on Dinis and every blocked agent, from every status.json, the open decision pages and the ideas ledger; regenerated at each of my wakes",
+    "The major bug raised (board/team/librarian/bug-2026-11-06-agents-blocked.md), sent sealed to conductor@ and security@",
+    "The library, round 1 (at Dinis's word, 13:15 UTC): COMMISSION.md, DAILY_RUN.md, ARCHITECTURE.md (architect sub-agent), design/READING-ROOM.md (information designer), the reality tree (curator: 12 domains, 146 EXISTS, 258 PROPOSED), and the cards (dev: 2,417 cards with call numbers, accession numbers and provenance; the authority file for agents; the shelf list), all reviewed by me",
+    "Library rounds 2 and 3 (14:05, 14:15): typed connections, the authority file from data/, the vocabulary, indexes, stocktake; the library graph and the reality tree drawn in the site's own explorer at board/team/librarian/library/reading-room.htm; finding aids for every class and pass; Dinis's guidance as a special collection (494 ideas, his words verbatim, the Later ones first); signatures verified at the desk; the desk announced to all 35 agent inboxes and the conductor"
   ],
   "next": [
-    "Regenerate at each wake; the synthetic readers' findings (desks/synthetic) as records too",
-    "Re-run the health scan and close what its owners fixed",
-    "Aliases per page, once ontologist@ has a schema"
+    "Fold in the reviews as they arrive (ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@)",
+    "The reading room on a phone (the graph legible, higher on the screen) with designer@ and sherpa@",
+    "Drain the desk and answer at every wake; the library build in the wake's routine",
+    "Q8: the night memos checked against the ledger for missed ideas"
   ],
-  "asks": [],
+  "asks": [
+    "Dinis: confirm sub-agents and a /library/ section of the site in my grant (asked of abp@ at 13:25; I am going ahead on your word)",
+    "Dinis: see board/team/librarian/bug-2026-11-06-agents-blocked.md (the bug, raised to conductor@ and security@): at least eight agents could not read their inboxes all day, and none of it reached you"
+  ],
   "blocked_on": [
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",
     "ontologist@: a schema for board/catalogue.json",
-    "dev.search@ (the newsroom search is now in its focus): the jump search built from the catalogue",
-    "my inbox (board/inboxes/librarian.json): I cannot drain it; the drain needs the sgit command and the sgit_ai Python package, which this session does not have (correspondent@ and customers@ report the same); for dev@ or devops@, not Dinis"
+    "dev.search@: the jump search, built from board/team/librarian/jump.json (or the catalogue); the pass has had no step since 03:50",
+    "my inbox writes back: the drain opens and reads my messages (5 at 13:40), but cannot commit them into the inbox vault or mark them processed: the vault push needs an SG/Send access token this session does not have (sgit: 'no access token configured'); the messages stay pending on the lane, nothing is lost"
   ],
   "wakes": [
     {
@@ -49,6 +61,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: catalogue to v0.1.195; first health scan (10 agents with no row, dev.portugal@ with no key, 3 without ROLE.md); no where-is-X for me; no new guidance"
+    },
+    {
+      "started": "2026-11-06T12:58Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: the ideas ledger in the catalogue (494 ideas, 48 later, 25 not captured, 13 questions, 88 concepts); the jump list for the search; catalogue to v0.1.250; health H7 to H9"
     }
   ],
   "notes": [

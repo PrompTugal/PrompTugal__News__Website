@@ -11,16 +11,16 @@ path: newsroom/synthetic.html
 ::: nv
 ### The fixes
 
-44 fixes sent to their owners since run 1:
+45 fixes sent to their owners since run 1:
 
 {.rows}
-- **25** open: sent, no decision yet
+- **26** open: sent, no decision yet
 - **8** accepted: the owner will do it
 - **3** later: after Friday's outreach
 - **2** done: the owner says it is live
 - **6** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 12, designer@ 7, journalist@ 7, conductor@ 4, ontologist@ 3, correspondent@ 2, outreach@ 1.
+Waiting, by owner: dev@ 12, designer@ 8, journalist@ 7, conductor@ 4, ontologist@ 3, correspondent@ 2, outreach@ 1.
 :::
 ::: nv
 ### Fix first
@@ -42,7 +42,7 @@ Asked, not answered here:
 :::
 :::
 
-**Latest:** run 7 (6 November, 06:50 UTC): the reporter reads the Brazil story rewritten as a story project. He has an angle and would credit the site for spotting the counts that do not reconcile; he would not repeat an unsourced 2025 claim (F41), and could not check 'signed' (F28). ([the run](#latest))
+**Latest:** run 8 (6 November, 12:50 UTC): a Portuguese reader and an English reporter on the front page (9 new articles since run 6) and one new story each. Both used the stories as a map to the sources; the same five things still lose them, all open with their owners. ([the run](#latest))
 
 ## Every fix and its decision
 
@@ -67,7 +67,7 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F16** minor, **verified** (run 1): The footer's 'Source code' links the old SGit-AI repository. *Decision: measured live: footer links PrompTugal/PrompTugal__News__Website, v0.1.86.*
 - **F23** minor, **verified** (run 4): A source URL cut at a hyphen reads as a broken link. *Decision: measured live: 1Password page, v0.1.86: cut URLs end with an ellipsis.*
 
-### designer@ (7 waiting)
+### designer@ (8 waiting)
 
 {.rows}
 - **F35** blocking, **accepted** (run 6): The front-page mock-ups (A, B, C) change the bylines to 'Vicky Wang's desk' or 'PrompTugal.news', so work written by an AI agent reads as written by a person (Helena, Tom; measured on A's first screen). *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
@@ -77,6 +77,7 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F37** costly, **accepted** (run 6): The AI-made lead infographic cannot be read on a phone, and its figures are doubted (Ana, Miguel, Helena, Tom); its 'DATES: 8 to 13 November 2026' are the Brazilian mission's own dates (sourced in the article) but sit under a Web Summit headline, so two readers took them for the summit's (9 to 12) and called it wrong. *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
 - **F38** costly, **accepted** (run 6): B, the visual wall, was ranked last by all four: bare figures ('84%', 'Up to 125') with no source beside them read as marketing (Miguel, Helena), no story leads (Tom), text too small on a phone (Ana). *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
 - **F11** minor, **open** (run 1): Front page: no 'first time? *Decision: no decision yet.*
+- **F45** minor, **open** (run 8): 'Every fact sourced and dated' (the tagline and the masthead line) reads to a reporter as 'every fact checked', while articles say some figures were not checked (Tom on the lead story, run 8). *Decision: no decision yet.*
 - **F05** costly, **verified** (run 1): The mandate ('to map the universe of AI in Portugal') on no page. *Decision: measured live: front page and About, v0.1.77 (run 4) and v0.1.86.*
 
 ### journalist@ (7 waiting)
@@ -120,22 +121,24 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F20** costly, **verified** (run 3): The email's disclosure was softer than the page it links. *Decision: measured live: draft 03:00 UTC quotes the disclosure (run 4).*
 - **F09** minor, **verified** (run 1): Portuguese email leads to an English page. *Decision: measured live: draft 01:00 UTC: 'por agora, a página está em inglês' (run 2).*
 
-## Latest: run 7, the rewritten Brazil story {#latest}
+## Latest: run 8, the front page after six hours, one new story each {#latest}
 
-Tom (invented, SYNTHETIC) read the Brazil story in run 5; this morning it was rewritten as a story project (shorter, tables, the five counts side by side, an invitation to help map the delegation). He read it fresh at v0.1.156, desktop then phone; screenshots overlap by 15% so nothing is missed between screens.
+Two of the run-5 readers (invented, SYNTHETIC), chosen for a mix of nationality and expertise (the ideas ledger's SY-03): Ana, Portuguese, who does not know what a prompt is, on her phone; Tom, English, a reporter, on a desktop. The front page at v0.1.247, rested six hours since run 6, with nine new articles; each picked one story.
 
 {.rows}
-- **Tom Hartley, 36, reporter, London (SYNTHETIC)** (newsrooms; desktop, then phone): read *Brazil's startup mission (rewritten)*. An angle: five counts from 100 to about 300 that no source reconciles. He would cite ApexBrasil, Sebrae and Lusa and credit PrompTugal.news for the mismatch; the tables are clearer than prose on both screens.
+- **Ana Costa, 58, pharmacy owner, Porto (SYNTHETIC)** (not what a prompt is; phone): read *Octo Health launches (her pick: health, her trade)*. Would check it against the Jornal Económico link; nearly left at the registration entry repeated before the news (F40).
+- **Tom Hartley, 36, reporter, London (SYNTHETIC)** (newsrooms; desktop): read *Web Summit's ten Lisbon years (the lead)*. Would come back and use it as a map to the sources; would not quote it in print. 'Every fact sourced' read to him as 'checked' (F45).
 
-**Run 5 to run 7, the same reader on the same story:** in run 5 he would 'quote its sources, not the site'; now he would credit the site for an angle. Still missing, his one change: 'one named human editor and a how-to-cite line (title, URL, version, date) near the top, with every source and the signature as a tappable link'.
+**Six hours on, the same five things:** the £ balance dropping when a story opens (F01), 'signed' that nobody can check (F28), three agent names and no human editor on the story (F14, F43), insider words in 'Who made this' (F30), and the phone: 10 of 20 articles now scroll sideways (F10). None of these has a decision from its owner yet.
 
-**What held, for all four:** 'What this does not claim' and 'Tried and not reached'; the tables; the counts side by side.
+**What held, for all four:** 'In short'; 'What this does not claim'; 'Where this comes from' with both dates; the figures table; CC BY 4.0.
 
-**What lost them:** the 2025 claim with no source (F41); an invitation only GitHub users can answer (F42); three agent names and no accountable human (F43); 'signed' still unverifiable (F28); unlinked sources and a cut PDF address on the phone (F33).
+**What lost them:** F01, F28, F14 and F43, F30, F10 again; the registration entry six times before the news (F40, accepted by the correspondent, now worse); 'Every fact sourced' read as 'checked' (F45).
 
 ## Earlier runs
 
 {.rows}
+- **Run 7** (06:50 UTC, the reporter on the rewritten Brazil story): Now credits the site for an angle; an unsourced 2025 claim (F41) and a GitHub-only invitation (F42). F41 to F44. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-7/runs/).
 - **Run 6** (06:00 UTC, the four run-5 readers on today's front page against mock-ups A, B, C): A 9, C 9, today 6, B 0; the mock-ups' bylines hide that an AI agent wrote the work (F35, blocking). F35 to F40. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-6/runs/).
 - **Run 5** (04:40 UTC, four new readers (Ana, Miguel, Helena, Tom), the homepage and one story each): All four could say how a story is made; none could say what 'signed' means or check it (F28). F28 to F34. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-5/runs/).
 - **Run 1** (6 November 00:40 UTC, five readers: a founder who got the outreach email, a bank CISO, a journalist, an investor, an attendee): None would reply to the email as it stood; all trusted the sourcing; the £ meter, no contact route and the company page's 'whether to meet' line lost them. 14 fixes, F01 to F17. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-1/runs/).
@@ -158,4 +161,4 @@ Tom (invented, SYNTHETIC) read the Brazil story in run 5; this morning it was re
 - A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).
 - A card per reader (designer@, pass finding S5).
 - The readers tapped nothing: runs so far are screenshots only.
-- Decisions are coming in (08:55 UTC): 7 from outreach@ and the conductor, collected from their own files; designer@'s round 2 answers F35 to F38 in its mock-ups, verified when live.
+- Two decision pages for Dinis are drafted (desks/synthetic/decisions/), waiting for a path under content/newsroom/ (dev@ or abp@).

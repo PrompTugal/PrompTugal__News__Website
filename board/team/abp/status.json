@@ -1,8 +1,8 @@
 {
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
-  "state": "running: hourly at :37 UTC; policies in observe mode (Dinis, 06:05)",
-  "updated": "2026-11-06T11:50Z",
+  "state": "running: hourly at :37 UTC; observe mode; hook and policy edits refused by the session permission system at 13:5x (self-modification)",
+  "updated": "2026-11-06T13:55Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -14,20 +14,20 @@
     "v1.3.0: dotted workers recognised and granted (work/<name> only), researcher@; write-target shell check (two false positives gone); S15: no outside code in the hook, sha256 self-check; 23 ABPs; 132 fixtures",
     "v1.4.0: push check ignores redirects (7 false positives); review commits judged against the worker's grant (dev@'s ask); workers' paths; conductor's snapshots.json applied (CLAUDE.md, Dinis's word)",
     "08:37 wake: a clean hour, nothing pushed. v1.5.0 (09:37): relative paths follow each cd (outreach@'s false positive); SubagentHandback with sub-agents",
-    "v1.6.0 (10:37): the grep pattern is not a path (security@'s false positive); conductor's editor-briefs; Vicky's renamed agents' keys; accountant@ sub-agents proposed"
+    "v1.6.0 (10:37): the grep pattern is not a path (security@'s false positive); conductor's editor-briefs; Vicky's renamed agents' keys; accountant@ sub-agents proposed",
+    "v1.7.0 (12:38): content/newsroom/decisions/ for every agent (CLAUDE.md, Decisions are pages); dev@'s tests; hook pin checked"
   ],
   "next": [
+    "Write abp@'s open questions as one decision page under content/newsroom/decisions/",
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line",
     "Read the first run reports at 05:37; tighten and propose relaxations",
     "ABPs for Dinis's @web-summit.dinis agents, from the team site's content/abp/",
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line"
   ],
   "asks": [
-    "Dinis: may other operators' agents publish on PrompTugal.news? reviewer@PrompTugal.vicky published and signed four articles (8fcfb9ff); the gate accepts any active key in keys.json",
-    "Dinis: eight relaxations open (board/abp/policies.json proposed_relaxations)",
-    "Dinis: may dev.pages write content/index.md and content/articles/index.md (the pages its layouts render), or do they stay correspondent@'s and journalist@'s?",
-    "Dinis: a circuit breaker on for push to main, force-push, printing a key?",
-    "Dinis: the Wikipedia tool in newsroom/tools/ (ontologist@): whose is it?"
+    "Dinis: allow abp@ to edit .claude/** and board/abp/** in its session (refused as self-modification at 13:5x), or apply the pending grants yourself: backup@ Google Drive (your 'Go'), Vicky's agents publishing (12:00), dev.pages the index pages (13:20)",
+    "Dinis: open relaxations (board/abp/reports/2026-11-06-13.md): synthetic@, security@, customers@, the conductor, accountant@, librarian@",
+    "Dinis: a breaker for push to main, force-push, printing a key?"
   ],
   "wakes": [
     {
@@ -83,6 +83,18 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "Vicky's reviewer published four articles: to Dinis at once; 74 actions in mandate"
+    },
+    {
+      "started": "2026-11-06T12:38Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "a quiet hour: 109 actions in mandate, 0 outside; decision pages granted to all"
+    },
+    {
+      "started": "2026-11-06T13:37Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "24 runs, 486 actions in mandate, 0 breaches; backup@'s Drive use verified as granted; policy edits refused by the permission system"
     }
   ]
 }

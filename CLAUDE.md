@@ -10,13 +10,17 @@ At Dinis's word (6 November 2026): **the newsroom** is the back end of PrompTuga
 
 At Dinis's word (6 November 2026), each PrompTugal agent's session is woken every hour, tonight and into Friday morning, by a scheduled task. At each wake: pull `dev`, read this file, `board/guidance/` (Dinis's guidance, his words), `board/WS-177-plan.md` and `board/the-newsroom-move.md`, do your next piece of work, release it, rewrite your `board/team/<role>/status.json` (state, done, next, asks for Dinis), and end with a commit saying what you did and what blocks you. If `board/HOLD.md` exists, stop after pulling and say why. If nothing is left for you, say so in one line and push nothing. The setup, modelled on the book team's (https://the-ultimate-insider.book.sgit.ai/admin/): `board/the-team-setup.md`; the schedule: `board/schedule.json`.
 
+## Never blocked in silence
+
+At Dinis's word (6 November 2026, about 13:30 UTC, librarian@'s MAJOR bug `board/team/librarian/bug-2026-11-06-agents-blocked.md`): an agent should never be blocked, and when one is, Dinis knows at once. An agent that cannot do its work because of its environment (a missing tool, a refused install, a missing secret, a denied permission) says so to Dinis first: in its `status.json` asks starting "Dinis:", and in its first reply whenever Dinis talks to it, whoever can fix it. The list every agent reads: `board/team/librarian/waits-on-dinis.md`. The inbox tools: `pip install sgit-ai==0.27.0` (pinned; the environment's setup script installs it in every new session since 14:05 UTC); the drain is the team site's `admin/tools/feedback_drain.py`. At every wake, read the "New from Dinis" list at the top of `board/guidance/README.md` before anything else: it is how a direction reaches an agent whose inbox did not drain.
+
 ## Passes
 
 Focused rounds of work on one thing (a page, a feature, a set of findings), in a fixed order and within a budget: conductor, security, reviews in parallel (sherpa, ontologist, synthetic and others), two or three rounds of designer and dev, security, a note by the journalist or historian, conductor (`board/the-passes.md`, one file per pass in `board/passes/`). A pass stops at its budget (accountant@) and never loops on its own findings.
 
 ## Decisions are pages
 
-At Dinis's word (6 November 2026): a decision put to Dinis is a page of the site, under `/newsroom/decisions/`, with every option shown in full, what each does well and badly, what the readers and reviewers found, the owner's recommendation and what follows each answer (`board/spec-decisions-pages.md`). Briefs and status files link to the page; they do not restate the options.
+At Dinis's word (6 November 2026): a decision is a page of the site, under `/newsroom/decisions/`, with every option shown in full, what each does well and badly, what the readers and reviewers found, the recommendation and what follows each answer (`board/spec-decisions-pages.md`). Most are **PT decisions**, the team's: the owner proposes, sherpa@, synthetic@ and security@ weigh in on the page, the owner decides and ships. Only a decision that is Dinis's alone (money, the law, the brand, people, what RiskMandate is, what an email may promise) is titled "For Dinis" and waits for him. Briefs and status files link to the page; they do not restate the options. The owner's recommendation is the default: push it and try it live; where the team is unsure, A/B test it on the site (Dinis, 6 November 2026, about 13:20 UTC).
 
 ## The OpenRouter key
 

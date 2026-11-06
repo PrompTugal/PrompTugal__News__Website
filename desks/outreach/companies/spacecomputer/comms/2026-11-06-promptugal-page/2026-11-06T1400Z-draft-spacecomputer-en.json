@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-spacecomputer-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "SpaceComputer: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about SpaceComputer: could you check it?",
+ "sha256": "1327da7a26c0f29bd18fbf009ddbaca3da9e99fb7408a6daf4bc977050e8fd62",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to SpaceComputer leading with its page (https://promptugal.news/companies/spacecomputer/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again SpaceComputer team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/spacecomputer/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello SpaceComputer team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/spacecomputer/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

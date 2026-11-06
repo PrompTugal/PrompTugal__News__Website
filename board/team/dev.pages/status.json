@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 10:12, the people page views on work/dev.pages",
-  "updated": "2026-11-06T10:30Z",
+  "state": "working: wake 12:16, the days strip (S1) on the front page, on work/dev.pages",
+  "updated": "2026-11-06T12:40Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
@@ -14,14 +14,19 @@
     "Companies page: three views of the same data (By field, By country, A to Z grid) switched by link (CSS :target, no script; default By field); companies:list in companies.mjs, rules in assets/site.css",
     "Found and fixed conflict markers committed into assets/site.css on origin/dev (dev@'s merge of my branch): stripped in my merge",
     "People page: three views of the 264 people (By organisation, the default; By day of first session; A to Z), switched by link (CSS :target); the page is no longer only A to Z; people.mjs, assets/site.css",
-    "dev@ brought the companies page and the CSS fix over (merged dev at this wake; no markers left)"
+    "dev@ brought the companies page and the CSS fix over (merged dev at this wake; no markers left)",
+    "The summit's days: proposal written (board/team/dev.pages/proposal-the-summit-days.md): A a day strip on the front page, B a page per day, C front page by day not proposed; recommendation A with B",
+    "Merged dev again; dev@'s merge commits keep leaving conflict markers in my status.json and assets/site.css: I resolved to my side",
+    "The summit's days S1 (designer@'s spec): an eight-cell strip Fri 6 to Fri 13 above Now and next, today filled, the summit days tinted, count of items per day, each cell links to that day's agenda anchor; on a phone it scrolls sideways; days:strip in agenda.mjs; markdown list items may open with {class}",
+    "Merged dev again: the same conflict markers in site.css and status.json, resolved to my side, duplicate rules removed"
   ],
   "next": [
-    "People page: ways to connect (to companies, sessions, each other), the page per person, photos only with a free licence (needs researcher@'s vault)",
-    "Companies: logos, search-first and graph views",
-    "Articles page round 2; front page F6, F7; the summit's days"
+    "The day pages /days/<date>/ (S2, S4, S5) once Dinis or conductor@ gives the go and the snapshot question (S2, S3 removals) is answered",
+    "The strip on every page and on the right on a desktop (D5)",
+    "People: ways to connect; companies: logos, search-first, graph views; articles round 2; front F6, F7"
   ],
   "asks": [
-    "Dinis: the people page lists 264 people the summit itself lists publicly; guidance wants it started with the team (Dinis, Vicky, Silvio, Indi, Angelo, Jose) with their yes: say when to add them"
+    "Dinis or conductor@: go for the day pages (board/spec-the-summit-days.md, my proposal in board/team/dev.pages/): only the strip is built",
+    "dev@: your merges of work/dev.pages leave conflict markers in board/team/dev.pages/status.json and assets/site.css every time (three times now): please take both files from the branch as they are"
   ]
 }

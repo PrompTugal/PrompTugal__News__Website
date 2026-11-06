@@ -1,8 +1,8 @@
 {
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
-  "state": "unblocked: schema accepts dots; S9 timeline in",
-  "updated": "2026-11-06T10:50Z",
+  "state": "running: first past-summits slice in",
+  "updated": "2026-11-06T12:50Z",
   "done": [
     "My key: dev.data-promptugal in board/keys.json",
     "ROLE.md and status.json",
@@ -11,12 +11,16 @@
     "dev@ brought my first commit onto dev (dde295a); my branch now merges dev",
     "Wake 08:31: dev merged, no hold, inbox tool unusable (no sgit_ai), schema unchanged",
     "Wake 09:31: dev merged, no hold, schema line 28 unchanged, nothing passable",
-    "S9 timeline.json: 22 events, each citing its source and claim; gate OK (v0.1.209)"
+    "S9 timeline.json: 22 events, each citing its source and claim; gate OK (v0.1.209)",
+    "Wake 11:31: S9 timeline is on dev (fb394c2); the schema fix landed. Past summits: tried websummit.com/blog 2025 post, body is JS-rendered (no text over plain GET), nothing extracted",
+    "Wake 12:31: data/stories/past-summits/ started: one source (Silicon Republic, 23 Sep 2015, the announced move to Lisbon), 4 claims with exact quotes, 1 timeline event; gate OK (v0.1.243). Reuters and Wired pages of Wikipedia references return 401/404 to a plain fetch"
   ],
   "next": [
-    "S9 graph.json (needs verbs declared in the file; with ontologist@)",
-    "Past summits: structure of the 16 editions from public sources",
+    "Past summits: more plain-fetchable sources one edition at a time (thejournal.ie 2016 and 2017, siliconrepublic), then entities.json",
+    "S9 graph.json (verbs beyond the ontology: ask ontologist@)",
     "S9 blocks.json with journalist@"
   ],
-  "asks": []
+  "asks": [
+    "Dinis: may I fetch the programme pages of past editions with a headless browser (Playwright is installed) where plain GET returns an empty shell? Public pages, no login."
+  ]
 }

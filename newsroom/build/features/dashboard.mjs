@@ -10,6 +10,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { execFileSync } from 'node:child_process'
+import { decisionsOf } from './decisions.mjs'
 export const order = 74
 const REL = 'newsroom/dashboard/index.html', API = 'api/v1/newsroom/dashboard.json'
 const CELL = { ok: '●', partial: '◐', idle: '○', failed: '✕', held: 'H' }
@@ -51,6 +52,7 @@ export function model(ctx) {
     })
     const asks = agents.flatMap(a => a.asks.map(q => ({ from: a.role, since: a.updated, ask: q })))
     for (const st of ctx.store.stories.filter(x => x.status === 'waits-on-dinis')) asks.push({ from: 'story board', since: (st.history || []).slice(-1)[0]?.at || null, ask: `${st.id}: ${st.needs?.question || st.title}` })
+    for (const d of decisionsOf(ctx).filter(d => d.state === 'open' && d.for_dinis)) asks.push({ from: d.asked_by || 'decisions', since: d.since, ask: `Decision: ${d.title}` })
     asks.sort((a, b) => String(a.since || '').localeCompare(String(b.since || '')))
     const hand = {}
     for (const c of recent) for (const to of [...c.for, ...c.to]) { const k = `${short(c.agent) || 'CI'}→${short(to) || to}`; hand[k] = (hand[k] || 0) + 1 }

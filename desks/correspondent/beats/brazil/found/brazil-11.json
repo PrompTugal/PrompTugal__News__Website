@@ -1,0 +1,187 @@
+{
+  "task": "brazil-11",
+  "by": "correspondent@PrompTugal.dinis (Brazilian beat, sub-agent)",
+  "done_at": "2026-11-06T13:05:00Z",
+  "method": "109 ordinary WebFetch page fetches (under the 130 cap): the home page of each of the 105 non-Brazil companies with a website, asking the same question of each page (Brazilian founder or founders, office or operations in Brazil, founded in Brazil); plus 4 extra pages where the home page was thin or a deeper page was tried (vtex /en-us/company/ returned 404, vtex home page read, kiggu /about read, genspark /about returned 403). Not done: a separate about or team page for every company, so a founder statement that sits only on a deeper page could be missed. Pages naming Brazil only as a customer, a language option (Portugues, pt-br, PT (BR)) or a tax-coverage list were not counted as a presence. The four companies with no website field (eversec, nisos, rws, whitespace) were not fetched. Founder nationality was recorded only where a page states it; no nationality was inferred from names.",
+  "not_reached": [
+    {
+      "company": "eversec",
+      "url": null,
+      "what_happened": "no website field in company.json; not fetched (read on 2026-11-06)"
+    },
+    {
+      "company": "nisos",
+      "url": null,
+      "what_happened": "no website field in company.json; not fetched (read on 2026-11-06)"
+    },
+    {
+      "company": "rws",
+      "url": null,
+      "what_happened": "no website field in company.json; not fetched (read on 2026-11-06)"
+    },
+    {
+      "company": "whitespace",
+      "url": null,
+      "what_happened": "no website field in company.json; not fetched (read on 2026-11-06)"
+    },
+    {
+      "company": "polygraf-ai",
+      "url": "https://www.polygraf.ai",
+      "what_happened": "HTTP 403 Forbidden (read on 2026-11-06)"
+    },
+    {
+      "company": "genspark",
+      "url": "https://genspark.ai",
+      "what_happened": "HTTP 403 on home page and on /about; no answer (read on 2026-11-06)"
+    },
+    {
+      "company": "nordvpn",
+      "url": "https://nordvpn.com/",
+      "what_happened": "HTTP 403 Forbidden (read on 2026-11-06)"
+    },
+    {
+      "company": "persona",
+      "url": "https://withpersona.com/",
+      "what_happened": "HTTP 403 Forbidden (read on 2026-11-06)"
+    },
+    {
+      "company": "pitchbook",
+      "url": "https://pitchbook.com/",
+      "what_happened": "HTTP 403 Forbidden (read on 2026-11-06)"
+    },
+    {
+      "company": "google-cloud",
+      "url": "https://cloud.google.com",
+      "what_happened": "reached, but only the title came back (content truncated); no statement either way (read on 2026-11-06)"
+    },
+    {
+      "company": "qualcomm",
+      "url": "https://www.qualcomm.com/",
+      "what_happened": "reached, but only the title came back; no statement either way (read on 2026-11-06)"
+    },
+    {
+      "company": "cisco-outshift",
+      "url": "https://outshift.cisco.com/",
+      "what_happened": "reached, but only the title came back; no statement either way (read on 2026-11-06)"
+    },
+    {
+      "company": "open-vsx",
+      "url": "https://open-vsx.org/",
+      "what_happened": "reached, but only the title came back; no statement either way (read on 2026-11-06)"
+    },
+    {
+      "company": "neo",
+      "url": "https://neo.com/",
+      "what_happened": "reached, but the page held only the word Neo and an empty image; no statement either way (read on 2026-11-06)"
+    },
+    {
+      "company": "sheerme",
+      "url": "https://sheerme.com/",
+      "what_happened": "reached, but only the title came back; no statement either way (read on 2026-11-06)"
+    }
+  ],
+  "checked_no_mention": [
+    "0xbow",
+    "1password",
+    "aicep",
+    "air-apps",
+    "airia",
+    "aisle",
+    "akamai",
+    "altegio",
+    "andreessen-horowitz",
+    "arima",
+    "atlassian",
+    "austriacard",
+    "c4ail",
+    "cerebras",
+    "chatplace",
+    "cloudflare",
+    "cnext",
+    "cognizant",
+    "conscium",
+    "contents",
+    "crowdstrike",
+    "crystal-intelligence",
+    "data-protection-commission",
+    "datadog",
+    "defined-ai",
+    "delinea",
+    "delta-labs",
+    "deque",
+    "descope",
+    "dig-in",
+    "directus",
+    "easydmarc",
+    "elastic",
+    "emergence-ai",
+    "european-commission",
+    "exa",
+    "exein",
+    "factorial",
+    "feedzai",
+    "firefox-enterprise-mozilla",
+    "gcore",
+    "getvocal-ai",
+    "hexamind",
+    "ibm",
+    "jetbrains",
+    "keewano",
+    "kiggu",
+    "kpmg-portugal",
+    "launchdarkly",
+    "lawvu",
+    "ledger",
+    "legalfly",
+    "legora",
+    "linux-foundation-aaif",
+    "make",
+    "manageengine",
+    "manus-ai",
+    "mastra",
+    "melious-ai",
+    "meo",
+    "mobbeel",
+    "ncsc-uk",
+    "neo4j",
+    "orb",
+    "polyai",
+    "prelude",
+    "primitive",
+    "prisma",
+    "proofpoint",
+    "proton",
+    "qase",
+    "replit",
+    "risiq",
+    "roost",
+    "runpod",
+    "sageox",
+    "scrut-automation",
+    "sensay",
+    "shakers",
+    "spacecomputer",
+    "sphere",
+    "startup-portugal",
+    "strawberry",
+    "sumsub",
+    "temporal",
+    "testmu-ai",
+    "the-hacking-games",
+    "topsec-cloud-solutions",
+    "trent-ai",
+    "trustscale",
+    "twilio",
+    "vtex",
+    "you-com"
+  ],
+  "items": [
+    {
+      "company": "itrecruiter",
+      "what_its_page_says": "O iTRTech Group tem operações em Portugal e no Brasil, com equipas e escritórios em Lisboa e São Paulo.",
+      "kind": "operations",
+      "source_url": "https://itrtechgroup.com/",
+      "read_on": "2026-11-06"
+    }
+  ]
+}

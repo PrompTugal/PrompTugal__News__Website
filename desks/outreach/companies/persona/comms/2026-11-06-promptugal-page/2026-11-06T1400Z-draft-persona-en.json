@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-persona-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Persona: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Persona: could you check it?",
+ "sha256": "b25455c4666ffd1b062e47450606021e1a3ac01d14dbf4a725d74e8076738465",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Persona leading with its page (https://promptugal.news/companies/persona/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Persona team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/persona/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Persona team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/persona/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

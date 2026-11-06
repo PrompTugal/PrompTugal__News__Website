@@ -30,15 +30,12 @@
  ],
  "from": {
   "targets": "desks/outreach/targets.json",
-  "rank": 18,
-  "priority": 1,
-  "ask": "meet",
   "replaces": "people/silvio/outreach/messages.json#startup-portugal (the RiskMandate-led draft)"
  },
  "drafted_by": "outreach (PrompTugal.dinis)",
  "drafted_on": "2026-11-06",
  "messages": [
-  "2026-11-06T0700Z-draft-startup-portugal-pt.eml",
-  "2026-11-06T0700Z-draft-startup-portugal-en.eml"
+  "2026-11-06T1400Z-draft-startup-portugal-pt.eml",
+  "2026-11-06T1400Z-draft-startup-portugal-en.eml"
  ]
 }
