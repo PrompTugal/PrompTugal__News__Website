@@ -1,8 +1,8 @@
 {
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
-  "state": "waiting: wake of 15:56 done; next wake at 18:56 (every three hours)",
-  "updated": "2026-11-06T16:30Z",
+  "state": "waiting: wake of 18:56 done; next wake at 21:56 (every three hours)",
+  "updated": "2026-11-06T19:15Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -21,7 +21,8 @@
     "The library, round 1 (at Dinis's word, 13:15 UTC): COMMISSION.md, DAILY_RUN.md, ARCHITECTURE.md (architect sub-agent), design/READING-ROOM.md (information designer), the reality tree (curator: 12 domains, 146 EXISTS, 258 PROPOSED), and the cards (dev: 2,417 cards with call numbers, accession numbers and provenance; the authority file for agents; the shelf list), all reviewed by me",
     "Library rounds 2 and 3 (14:05, 14:15): typed connections, the authority file from data/, the vocabulary, indexes, stocktake; the library graph and the reality tree drawn in the site's own explorer at board/team/librarian/library/reading-room.htm; finding aids for every class and pass; Dinis's guidance as a special collection (494 ideas, his words verbatim, the Later ones first); signatures verified at the desk; the desk announced to all 35 agent inboxes and the conductor",
     "The MAJOR bug is owned by conductor@ (14:11): sgit-ai pinned in the environment's setup script, 'Never blocked in silence' in CLAUDE.md naming waits-on-dinis.md, the drain to come into this repository (devops@)",
-    "Wake of 15:56: 8 messages drained and verified; reviews from security@ (go), dev.graphs@ and ontologist@ answered on the record (library/reviews/reviews-of-the-plan.md); library round 4 released: the graph's looks and presets as data for the explorer, a phone view of 30 nodes on the first screen, concepts from data/concepts.json"
+    "Wake of 15:56: 8 messages drained and verified; reviews from security@ (go), dev.graphs@ and ontologist@ answered on the record (library/reviews/reviews-of-the-plan.md); library round 4 released: the graph's looks and presets as data for the explorer, a phone view of 30 nodes on the first screen, concepts from data/concepts.json",
+    "Wake of 18:56: two reviews taken in and answered on the record (ontologist@: a 'newsroom' world in the ontology, accepted; dev@: the reading room no longer deployed under board/ for security@'s S1b, asked to make it a page of the build at /library/); the catalogue at v0.1.316 (1,156 pages, 933 board files, 29 passes, 157 findings); the library at 2,909 cards, check and 39 tests green; the hand-over debrief"
   ],
   "next": [
     "Fold in the reviews as they arrive (ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@)",
@@ -36,7 +37,8 @@
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",
     "ontologist@: a schema for board/catalogue.json",
     "my inbox writes back: the drain opens and reads my messages (5 at 13:40), but cannot commit them into the inbox vault or mark them processed: the vault push needs an SG/Send access token this session does not have (sgit: 'no access token configured'); the messages stay pending on the lane, nothing is lost",
-    "dev@: bring 5d2e3db (work/dev.graphs: presets and type looks as data) onto dev; until then the reading room shows the site's own presets and grey circles for the library's types"
+    "dev@: the reading room as a page of the build (/library/), since board/ no longer deploys HTML (SLIP-20261106-010)",
+    "ontologist@: the 'newsroom' world in data/ontology.json, once dev@ says the graph accepts a fifth world"
   ],
   "wakes": [
     {
@@ -73,5 +75,6 @@
   "notes": [
     "Self-reported for abp@ (R8): while reading board/inboxes/librarian.json this wake I printed its whole record into my session, append_token included. That token is public on purpose (write-only) and already in the repository, so nothing new is exposed, but R8 says never print a token; I now read only named fields of such files.",
     "For abp@: board/runs/dev.data/2026-11-06T06-33-03Z.json lists dev.data@'s commit 0b8920ae3 ('tree matches dev', on its own branch) as writing board/team/librarian/catalogue.mjs and status.json; on dev only my own commits have touched those files, so it looks like a branch brought level with dev, not a write into my folder."
-  ]
+  ],
+  "debrief": "board/team/librarian/debriefs/2026-11-06-handover.md"
 }

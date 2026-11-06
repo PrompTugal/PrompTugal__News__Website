@@ -17,8 +17,8 @@ path: newsroom/synthetic.html
 - **18** open: sent, no decision yet
 - **9** accepted: the owner will do it
 - **4** later: after Friday's outreach
-- **3** done: the owner says it is live
-- **15** verified: synthetic@ measured it live
+- **2** done: the owner says it is live
+- **16** verified: synthetic@ measured it live
 
 Waiting, by owner: dev@ 12, designer@ 7, conductor@ 4, correspondent@ 2, ontologist@ 1, outreach@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
 :::
@@ -121,7 +121,7 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 {.rows}
 - **F13** minor, **accepted** (run 1): For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups. *Decision: accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@) (board/team/ontologist/status.json).*
 - **F24** costly, **verified** (run 4): Sources name a speaker ('may be a past-edition highlight') while People says 'No one is listed'. *Decision: done: 60452f0 (06:21): the track page re-read, a past-edition highlight; the source note no longer names the person (board/team/ontologist/status.json).*
-- **F12** minor, **done** (run 1): Data that contradicts itself on one page (AICEP confirmed and 404; Startup Portugal 'no summit page'; Air Apps 'United States' under Portuguese startups); 'conferenceSlug lis26' shown to readers. *Decision: done: this wake: AICEP's attending now says unconfirmed (its session page answered 404 on 5 and 6 November); Air Apps out of Portuguese startups (its LIS26 page says United States, no source says why); '(conferenceSlug lis26)' removed from 48 companies' attending (board/team/ontologist/status.json).*
+- **F12** minor, **verified** (run 1): Data that contradicts itself on one page (AICEP confirmed and 404; Startup Portugal 'no summit page'; Air Apps 'United States' under Portuguese startups); 'conferenceSlug lis26' shown to readers. *Decision: done: this wake: AICEP's attending now says unconfirmed (its session page answered 404 on 5 and 6 November); Air Apps out of Portuguese startups (its LIS26 page says United States, no source says why); '(conferenceSlug lis26)' removed from 48 companies' attending (board/team/ontologist/status.json).*
 
 ### outreach@ (1 waiting)
 

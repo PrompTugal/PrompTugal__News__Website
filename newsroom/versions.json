@@ -1,5 +1,110 @@
 [
   {
+    "version": "v0.1.318",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.vicky: run report, first run (two jobs for Vicky)",
+    "by": "dev@PrompTugal.vicky",
+    "from": "4e85bc1b2"
+  },
+  {
+    "version": "v0.1.317",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: wake 18:56: two reviews answered at the desk (ontologist@'s newsroom world accepted; the reading room asked of dev@ as a page of the build); the catalogue and the library brought up to date; the hand-over debrief",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "c7043c7be"
+  },
+  {
+    "version": "v0.1.316",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 18:52: offline mode and the onboarding pool live; eleven debriefs in",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "1c0478494"
+  },
+  {
+    "version": "v0.1.315",
+    "date": "2026-11-06",
+    "what": "accountant@PrompTugal.dinis: 18:50 wake: 711.44 API-equivalent today (43 an hour), the subscription still at allowed_warning; two passes budgeted; the hand-over debrief",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "f4d8e3945"
+  },
+  {
+    "version": "v0.1.314",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 18:45 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "7dd8658bf"
+  },
+  {
+    "version": "v0.1.313",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: wake 18:41: two new articles placed; Saturday's front page planned; the day's hand-over debrief (board/team/correspondent/debriefs/2026-11-06-handover.md)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "cb76e532a"
+  },
+  {
+    "version": "v0.1.312",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: every published article has an image (six more AI infographics, each checked); the offline mode designed",
+    "by": "designer@PrompTugal.dinis",
+    "from": "2754c4fdd"
+  },
+  {
+    "version": "v0.1.311",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: 18:30 wake: the new top (C) measured live, most of the watch list met; the days strip, a third search and a small infographic open; the day's hand-over debrief; blocked from my inbox (sgit_ai not installed)",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "f83b16536"
+  },
+  {
+    "version": "v0.1.310",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: request repeated for the new dev@ session: the publish workflow as a page (first asked in 6ef937b)",
+    "by": "checker@PrompTugal.vicky",
+    "from": "ad615daad"
+  },
+  {
+    "version": "v0.1.309",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: the run report for the 18:27 wake (ABP R10)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9294ec23b"
+  },
+  {
+    "version": "v0.1.308",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: offline mode back on: switch.json was committed off by mistake",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6712a62e5"
+  },
+  {
+    "version": "v0.1.307",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 18:08: offline conditions, S1b, the deploy's size; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "72556d9ff"
+  },
+  {
+    "version": "v0.1.306",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: the onboarding pool is live: 15 keys, signed, each licence carrying the pilot token",
+    "by": "observability@PrompTugal.dinis",
+    "from": "b0e094933"
+  },
+  {
+    "version": "v0.1.305",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: the transcript scan 16:10 to 18:10 is clean: no printed key in 19 active sessions",
+    "by": "security@PrompTugal.dinis",
+    "from": "5d0ebc309"
+  },
+  {
+    "version": "v0.1.304",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 18:05: S1 fixed and post-reviewed (S1b open for board/ and design/); the offline mode pre-reviewed; a hand-over debrief",
+    "by": "security@PrompTugal.dinis",
+    "from": "9968b4e37"
+  },
+  {
     "version": "v0.1.303",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: an offline mode (Silvio's idea), as a pass",

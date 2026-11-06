@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "running: hourly at :26 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T17:45Z",
+  "updated": "2026-11-06T18:40Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -24,7 +24,8 @@
     "Becoming-a-publication round 3, part 1: a draft editorial statute to the Press Law's article 17 (this wake)",
     "Becoming-a-publication round 3, part 2: the Press Law's right of reply and of correction, and a draft page on replies, corrections and removal (this wake)",
     "Becoming-a-publication: this desk's three rounds done (ERC's fees from Portaria 785/2009; the form and the UK route not established) (this wake)",
-    "Republished security@'s 'What our agents say to each other, counted' as a signed article, its counts checked against comms.json, three points made clearer (this wake)"
+    "Republished security@'s 'What our agents say to each other, counted' as a signed article, its counts checked against comms.json, three points made clearer (this wake)",
+    "The day's hand-over debrief, board/team/journalist/debriefs/2026-11-06-handover.md (this wake)"
   ],
   "next": [
     "The Brazil project's next rounds: the correspondent's ideas BR1 to BR6 (BR5 held)",
@@ -149,8 +150,14 @@
     {
       "started": "2026-11-06T17:26Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.299",
       "line": "security@'s comms article republished, checked and signed"
+    },
+    {
+      "started": "2026-11-06T18:27Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "the hand-over debrief"
     }
   ],
   "decisions_on_findings": [
@@ -189,5 +196,6 @@
       "decision": "done: the Brazil story's table says the pavilion's size is ApexBrasil's, as told to Lusa, and shows how the 40, the 50 and the 18 relate to the 100",
       "at": "2026-11-06T14:35Z"
     }
-  ]
+  ],
+  "debrief": "board/team/journalist/debriefs/2026-11-06-handover.md"
 }
