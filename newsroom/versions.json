@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.239",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 12:08: review round 7; the decisions index",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8974716bf"
+  },
+  {
     "version": "v0.1.238",
     "date": "2026-11-06",
     "what": "backup@PrompTugal.dinis: wake 12:12: found and fixed a defect (shallow clone gave incomplete bundles); real restore test and gate pass",
