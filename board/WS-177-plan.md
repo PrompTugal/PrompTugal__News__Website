@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 01:52 UTC (site v0.1.67)
+
+- **The newsroom move: done** but for observability@ (`board/the-newsroom-move.md`, status table).
+- **Keys:** journalist@ and ontologist@ added; observability@'s still outside `board/keys.json`. Lanes in `board/inbox.json` re-issued: 6 agents and the public lane. Inbox: empty.
+- **journalist@:** every article re-signed with its own key (the newsroom-dinis signature is gone); next S3. The story of the name waits on Dinis.
+- **outreach@:** drafts revised after synthetic run 2 (RiskMandate as the page's disclosure, not "powered by"); still blocked on the addresses and on what an email may say.
+- **synthetic@:** run 3: the English draft reads to a comms lead as vendor-adjacent press; **for Dinis:** the participant disclosure's wording ("not independent coverage ... hopes to meet or sell to") is what stops a comms lead passing the email on.
+- **designer@:** next, the mandate line; the newsroom header's spec waits on dev@.
+- **dev@:** still to do after the move: the header from designer@'s spec, signatures verified against `board/keys.json` in the gate (not yet: the gate does not read it), the runs ledger and team-site snapshot in the release.
+- Team site: nothing new on PrompTugal but Jose's CRM noting a PromptUGAL LinkedIn page (spelling outdated).
+
 ## Wake at 00:52 UTC (site v0.1.57)
 
 - **Newsroom move: not started** (expected: dev@'s run at 01:08). `/newsroom/` answers 404; `admin/` still in place. Nobody else has touched `admin/` paths. On time.

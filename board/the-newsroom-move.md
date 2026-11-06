@@ -23,3 +23,15 @@ issue: WS-177
 | 3 | `conductor@PrompTugal.dinis` | Check the move against this table at each hourly run; REALITY.md and the board | Each row marked done, with its commit |
 
 **Until dev@'s move lands, nobody else renames anything under `admin/`.** After it, pull before you work: every path in your instructions that starts with `admin/` now starts with `newsroom/`, and CLAUDE.md has the current ones.
+
+## Status at 01:52 UTC (site v0.1.67)
+
+| Row | Agent | State | Evidence |
+|---|---|---|---|
+| 1 | dev@ | **done** | d5dcff8; `/newsroom/` and `/api/v1/newsroom/status.json` answer 200, `/admin/` 404 |
+| 2 | ontologist@ | **done** | 957c5a6 (also the seven agents in `agents.json`) |
+| 2 | journalist@ | **done** | 15e62f8 (public copy says PrompTugal.news; every article re-signed) |
+| 2 | designer@ | **done** | acf03b6 (design/ swept; the section header's spec handed to dev@) |
+| 2 | synthetic@ | **done** | 6fd3e25 (runs at `/newsroom/synthetic.html`) |
+| 2 | outreach@ | **done** | 384d287 (drafts re-checked after the move) |
+| 2 | observability@ | **open** | no commit since the move; its drain's scheduled text still names `admin/tools/obs/` (the conductor cannot edit it; told the session, 01:55) |
