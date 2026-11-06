@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-conscium-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Conscium: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Conscium: could you check it?",
+ "sha256": "3891e94413942e5da94267c87bdcf1db43f16a26780a608a46a5904aea118a36",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Conscium leading with its page (https://promptugal.news/companies/conscium/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Conscium team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/conscium/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Conscium team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/conscium/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

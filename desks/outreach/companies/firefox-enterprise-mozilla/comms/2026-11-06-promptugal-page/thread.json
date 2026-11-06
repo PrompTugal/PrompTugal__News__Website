@@ -4,11 +4,11 @@
  "subject": "Firefox Enterprise by Mozilla on PrompTugal.news",
  "channel": "email",
  "our_people": [
-  "Indi Gupte"
+  "Vicky Wang"
  ],
  "their_contacts": "in the private team CRM only",
  "state": "draft, for review by Dinis and Silvio",
- "owner": "Indi Gupte",
+ "owner": "Vicky Wang",
  "owner_status": "proposed",
  "next_step": "Review; then the person who sends it (Vicky, Indi, Silvio, Jose or Dinis) sends it from their own .agent address on promptugal.news (small batches, 3 to 5 first)",
  "leads_with": "https://promptugal.news/companies/firefox-enterprise-mozilla/",
@@ -20,14 +20,11 @@
  ],
  "from": {
   "targets": "desks/outreach/targets.json",
-  "rank": 24,
-  "priority": 2,
-  "ask": "meet",
   "replaces": "people/silvio/outreach/messages.json#firefox-enterprise-mozilla (the RiskMandate-led draft)"
  },
  "drafted_by": "outreach (PrompTugal.dinis)",
  "drafted_on": "2026-11-06",
  "messages": [
-  "2026-11-06T0700Z-draft-firefox-enterprise-mozilla-en.eml"
+  "2026-11-06T1400Z-draft-firefox-enterprise-mozilla-en.eml"
  ]
 }

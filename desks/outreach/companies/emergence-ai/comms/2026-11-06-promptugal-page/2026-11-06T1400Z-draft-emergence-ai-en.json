@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-emergence-ai-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Emergence: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Emergence: could you check it?",
+ "sha256": "14504355b08d0bd992962dac1f6a4411ed00b8cd18a224e1ae37ae2279f26d0a",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Emergence leading with its page (https://promptugal.news/companies/emergence-ai/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Emergence team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/emergence-ai/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Emergence team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/emergence-ai/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

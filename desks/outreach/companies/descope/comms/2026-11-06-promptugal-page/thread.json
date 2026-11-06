@@ -23,14 +23,11 @@
  ],
  "from": {
   "targets": "desks/outreach/targets.json",
-  "rank": 7,
-  "priority": 1,
-  "ask": "meet",
   "replaces": "people/silvio/outreach/messages.json#descope (the RiskMandate-led draft)"
  },
  "drafted_by": "outreach (PrompTugal.dinis)",
  "drafted_on": "2026-11-06",
  "messages": [
-  "2026-11-06T0700Z-draft-descope-en.eml"
+  "2026-11-06T1400Z-draft-descope-en.eml"
  ]
 }

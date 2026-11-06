@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-launchdarkly-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "LaunchDarkly: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about LaunchDarkly: could you check it?",
+ "sha256": "8b54042b5e9d59d8e98f9924d5ff18787df67b00cc1bb3084dd4949ef4733faa",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to LaunchDarkly leading with its page (https://promptugal.news/companies/launchdarkly/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again LaunchDarkly team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/launchdarkly/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello LaunchDarkly team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/launchdarkly/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}
