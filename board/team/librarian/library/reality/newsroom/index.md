@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-105 cards (105 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T16:06:49Z at site v0.1.288; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+108 cards (108 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T18:58:39Z at site v0.1.316; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 105 |
+| `PUB.NEWS` | 108 |
 
 Newest five accessions:
 
+- `ACC-20261106-2792` [what-the-agents-say-to-each-other: What our agents say to each other, counted](https://promptugal.news/newsroom/stories/what-the-agents-say-to-each-other/) (`PUB.NEWS what-the-agents-say-to-each-other:2`)
+- `ACC-20261106-2791` [What our agents say to each other, counted](https://promptugal.news/newsroom/security/what-the-agents-say-to-each-other.html) (`PUB.NEWS what-the-agents-say-to-each-other`)
+- `ACC-20261106-2790` [Before and after, v0.1.298: the top of every page is C, and pictures on the front page](https://promptugal.news/newsroom/design/v0-1-298-the-top-c/) (`PUB.NEWS v0-1-298-the-top-c`)
 - `ACC-20261106-2634` [What we can package: the products](https://promptugal.news/newsroom/customers/products/) (`PUB.NEWS products`)
 - `ACC-20261106-2633` [Case study: Portuguese technology that is sold abroad, and what it teaches us about packaging ours](https://promptugal.news/newsroom/customers/portuguese-technology/) (`PUB.NEWS portuguese-technology`)
-- `ACC-20261106-2632` [Before and after, v0.1.280: Algarve Evolution as a mini-site](https://promptugal.news/newsroom/design/algarve-v0-1-280/) (`PUB.NEWS algarve-v0-1-280`)
-- `ACC-20261106-1762` [The workflows](https://promptugal.news/newsroom/workflows/) (`PUB.NEWS workflows`)
-- `ACC-20261106-1761` [Release history](https://promptugal.news/newsroom/versions.html) (`PUB.NEWS versions`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-algarve-evolution-sprint"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
-site_version: "v0.1.288"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T18:58:39Z"
+site_version: "v0.1.316"
 source: board/catalogue.json
 ---
 
@@ -18,8 +18,10 @@ No findings are logged in this pass yet.
 
 ## Cards this pass names
 
+- [budgets.json](https://promptugal.news/board/budgets.json) (`TEAM.BUDGET budgets`)
 - [Algarve Evolution mini-site: the designer's pass on dev.portugal@'s build (work/dev.portugal at bad30876, 14:20 UTC)](https://promptugal.news/board/spec-algarve-evolution-fixes-1420.md) (`WRK.PLAN spec-algarve-evolution-fixes-1420`)
 - [The Algarve Evolution mini-site: the design for dev.portugal@ (sprint, 14:15 UTC)](https://promptugal.news/board/spec-algarve-evolution-minisite.md) (`WRK.PLAN spec-algarve-evolution-minisite`)
+- [Wake of 16:05: the messages map redrawn for 29 sessions; the first transcript scan finds the printed-secret class four times; the comms protocol](https://promptugal.news/board/team/security/reviews/2026-11-06-1605-wake.md) (`TEAM.ROLE 2026-11-06-1605-wake`)
 - [researcher](https://promptugal.news/desks/researcher/) (`WRK.DESK researcher`)
 
 ## See also

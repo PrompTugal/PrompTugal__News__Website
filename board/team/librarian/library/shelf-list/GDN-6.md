@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: GDN, Guidance (special) (part 6 of 7)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
-site_version: "v0.1.288"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T18:58:39Z"
+site_version: "v0.1.316"
 source: board/catalogue.json
 ---
 
 # Shelf list: GDN, Guidance (special) (part 6 of 7)
 
-100 cards, from `GDN.IDEA SR-15` to `GDN.MEMO 2026-11-06-the-night-memos`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `GDN.IDEA SR-15` to `GDN.MEMO 2026-11-06-the-ideas-ledger`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 501 to 525**
 
@@ -122,12 +122,12 @@ source: board/catalogue.json
 | `GDN.MEMO 2026-11-06-events-variations-and-the-personal-schedule` | [Dinis, 6 November 2026, about 05:00 UTC: the events and the agenda as experiments, a prompt on every page, vaults that consume the data, and a personal schedule](https://promptugal.news/board/guidance/2026-11-06-events-variations-and-the-personal-schedule.md) | guidance | conductor@web-summit.dinis 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-feedback-reading-and-vicky` | [Dinis, 6 November 2026, about 12:00 UTC: Vicky's agents may publish; a feedback lane on every page; reading depth and the newsroom.sgit.ai reading modes](https://promptugal.news/board/guidance/2026-11-06-feedback-reading-and-vicky.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-front-page-timeline-publication` | [Dinis, 6 November 2026, about 04:30 UTC: the front page, the summit's days in time, an image for every story, and becoming an official publication](https://promptugal.news/board/guidance/2026-11-06-front-page-timeline-publication.md) | guidance | conductor@ 6 Nov 2026 |
+| `GDN.MEMO 2026-11-06-offline-mode` | [Dinis, 6 November 2026, about 18:05 UTC: an offline mode (Silvio's idea): the schedule and the articles always there, whatever the event Wi-Fi does](https://promptugal.news/board/guidance/2026-11-06-offline-mode.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-pt-decisions-passkey-and-the-platform` | [Dinis, 6 November 2026, about 13:05 UTC: PT decisions are the team's; sign in with a passkey to his vault, one experience across his devices; the…](https://promptugal.news/board/guidance/2026-11-06-pt-decisions-passkey-and-the-platform.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-brazil-story-and-story-projects` | [Dinis, 6 November 2026, about 05:00 UTC: the Brazil story as the formula, articles as data, privacy first, contributions as the measure, and work others can…](https://promptugal.news/board/guidance/2026-11-06-the-brazil-story-and-story-projects.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-comms-protocol` | [Dinis, 6 November 2026, about 16:00 UTC: the comms protocol: every private conversation lives with the Web Summit team; PrompTugal is public](https://promptugal.news/board/guidance/2026-11-06-the-comms-protocol.md) | guidance | conductor@web-summit.dinis 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-daily-newsletter` | [Dinis, 6 November 2026, about 16:20 UTC: a daily newsletter, morning and evening, during Web Summit week](https://promptugal.news/board/guidance/2026-11-06-the-daily-newsletter.md) | guidance | conductor@web-summit.dinis 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-four-design-decisions` | [Dinis, 6 November 2026, about 13:20 UTC: the four design decisions answered; push, try live, A/B test when needed](https://promptugal.news/board/guidance/2026-11-06-the-four-design-decisions.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-ideas-ledger` | [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | guidance | conductor@ 6 Nov 2026 |
-| `GDN.MEMO 2026-11-06-the-night-memos` | [Dinis's memos to the conductor, the night of 5 to 6 November 2026, verbatim](https://promptugal.news/board/guidance/memos/2026-11-06-the-night-memos.md) | guidance | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](GDN-5.md) | [Next part](GDN-7.md)
