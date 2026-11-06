@@ -564,7 +564,9 @@
         "fingerprint": "sha256:8c0828de5f96176b",
         "signing_fingerprint": "sha256:6abb02a8e470be6a"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-06T20:19Z",
+      "superseded_note": "Replaced by a new session at Vicky's word (scout's P17), 6 November 2026; the new session makes and publishes its own key. This key signed nothing on this site."
     },
     {
       "id": "designer-vicky-promptugal",
