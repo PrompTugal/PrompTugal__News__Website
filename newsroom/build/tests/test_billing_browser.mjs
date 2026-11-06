@@ -100,7 +100,7 @@ try {
     check(e0 && e0.kind.startsWith('article_') && Math.abs(e0.cost - e0.price * 0.1) < 0.01, `opening the article charges a tenth of its price (${e0 && e0.kind}, ${e0 && e0.cost}p of ${e0 && e0.price}p)`)
     const chip = await pg.textContent('#nr-tools #nr-meter-chip')
     check(/^£4\.\d\d/.test(chip) && chip.includes('credit'), `the chip in the top bar shows the balance (${chip.trim()})`)
-    check(await pg.isVisible('#nr-vault-btn'), 'the Vault button sits beside it')
+    check((await pg.getAttribute('#nr-vault-btn', 'hidden')) !== null, 'the Vault button is hidden when signed out')
     await readSlowly(pg)
     s = await state(pg)
     check(s.log[0].depth > 0.5 && s.log[0].cost > e0.cost && s.balance < 500 - e0.cost, `reading the page, slowly, charges the share read (${Math.round(s.log[0].depth * 100)}%, ${s.log[0].cost}p, balance ${s.balance})`)
@@ -154,10 +154,9 @@ try {
     s = await state(pg)
     check(s.topups.length === 2 && s.topups[0].ref === 'cs_test_pasted', 'pasting the address Stripe returned to on newsroom.sgit.ai adds the credit here, once')
     // the vault pane
-    await pg.goto(B + 'index.html'); await ready(pg)
-    await pg.click('#nr-vault-btn')
+    await pg.goto(B + 'account/vault.html'); await ready(pg)   // the pane lives on the vault page only (PT decision, option B)
     await pg.waitForSelector('#nr-vault-pane:not([hidden]) #nr-vault-enable')
-    check(await pg.isVisible('#nr-pane #nr-vault-pane') && (await pg.getAttribute('#nr-vault-btn', 'aria-expanded')) === 'true', 'the Vault button opens the pane on the right, in #nr-pane')
+    check(await pg.isVisible('#nr-pane #nr-vault-pane') && (await pg.getAttribute('#nr-vault-btn', 'hidden')) === null, 'the vault page opens the pane in #nr-pane')
     check((await pg.textContent('#nr-vault-sec-vault')).includes('not issued yet'), 'the locked pane says the access key is not issued yet')
     await shot(pg, 'feature-billing-vault-1280.png')
     let code = null
@@ -174,6 +173,11 @@ try {
         await pg.click('#nr-vault-create'); await pg.waitForSelector('#nr-vault-recovery-shown', { timeout: 60000 })
         code = (await pg.textContent('#nr-vault-recovery-shown .nr-mono')).trim()
         check(/^[A-Z2-7]{4}(-[A-Z2-7]{1,4}){6}$/.test(code) && mock.vaults().length === vaultsBefore + 4, 'with the key: door, master, reader and recovery door made, the recovery code shown once')
+        // the recovery code must be typed back (its last four characters) before it is hidden (PT decision, condition 3)
+        await pg.fill('#nr-vault-recovery-tail', 'ZZZZ'); await pg.click('#nr-vault-recovery-done')
+        check(/does not match/.test(await pg.textContent('#nr-vault-recovery-shown')) && (await pg.textContent('#nr-vault-recovery-shown')).includes(code), 'a wrong tail keeps the code')
+        await pg.fill('#nr-vault-recovery-tail', code.replace(/-/g, '').slice(-4).toLowerCase()); await pg.click('#nr-vault-recovery-done')
+        check(!(await pg.textContent('#nr-vault-recovery-shown')).includes(code) && /confirmed/i.test(await pg.textContent('#nr-vault-recovery-shown')), 'the right tail hides the code')
         await pg.click('#nr-vault-sync'); await pg.waitForSelector('#nr-vault-synced', { timeout: 60000 })
         const nReads = (await state(pg)).log.length
         check(new RegExp(`^Updated: ${nReads} read\\(s\\), 2 top-up\\(s\\)`).test(await pg.textContent('#nr-vault-synced')), `Update the vault writes this device's ${nReads} reads and 2 top-ups`)

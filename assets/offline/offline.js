@@ -59,9 +59,24 @@
         })
         head.appendChild(btn)
     }
+    // the kill switch (assets/offline/switch.json): off, every worker and copy of this site goes
+    function off() {
+        return navigator.serviceWorker.getRegistrations().then(function (rs) { return Promise.all(rs.map(function (r) { return r.unregister() })) }).then(clear)
+    }
+    // the footer's control (security@'s condition): clear every copy this site kept on this device
+    function clearButton() {
+        var slot = document.querySelector('footer .small'); if (!slot || slot.querySelector('.pt-offline-clear')) return
+        var b = document.createElement('button'); b.type = 'button'; b.className = 'pt-offline-clear'; b.textContent = 'Clear offline copies'
+        b.addEventListener('click', function () { clear().then(function () { b.textContent = 'Offline copies cleared' }) })
+        slot.appendChild(document.createTextNode(' · ')); slot.appendChild(b)
+    }
     function start() {
         if (!document.querySelector('link[rel="manifest"]')) { var l = document.createElement('link'); l.rel = 'manifest'; l.href = url('assets/offline/manifest.webmanifest'); document.head.appendChild(l) }
-        navigator.serviceWorker.register(url('sw.js'), { scope: url('') }).catch(function () { })
+        fetch(url('assets/offline/switch.json'), { cache: 'no-store' }).then(function (r) { return r.json() }).then(function (sw) {
+            if (sw && sw.enabled === false) return off()
+            return navigator.serviceWorker.register(url('sw.js'), { scope: url('') })
+        }).catch(function () { })
+        clearButton()
         badge(); button()
         addEventListener('online', badge); addEventListener('offline', badge)
     }

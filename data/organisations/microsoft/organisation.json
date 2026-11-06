@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "microsoft",
+  "type": "organisation",
+  "name": "Microsoft",
+  "names_as_listed": [
+    "Microsoft"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/partners/",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "its logo and a testimonial under \"Some partners from our past events\" on Web Summit's partners page, with no edition given"
+    }
+  ],
+  "note": "Hand-written for the centres of gravity (Dinis, 12:50 UTC: where are the AWS, Google and Microsoft centres of gravity?), from researcher@'s desks/researcher/centres-of-gravity-evidence-round-1.md."
+}

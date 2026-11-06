@@ -1,0 +1,324 @@
+{
+  "$schema": "none",
+  "article": "italy-and-portugal-in-beato",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://www.portugalglobal.pt/en/news/2026/novembro/lisbon-event-explores-italian-portuguese-tech-growth/",
+      "status": 200,
+      "read": true,
+      "chars": 2814
+    },
+    {
+      "url": "https://luma.com/rp4tgcfu",
+      "status": 200,
+      "read": true,
+      "chars": 3412
+    },
+    {
+      "url": "https://www.assolombarda.it/servizi/startup/informazioni/ice-agenzia-porta-le-startup-italiane-al-web-summit-lisbona-2026",
+      "status": 200,
+      "read": true,
+      "chars": 7239
+    }
+  ],
+  "spent_usd": 0.0763,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The European Tech Champions event is on Wednesday 11 November, starting at 18:30, at the Unicorn Stage in Lisbon's Beato Innovation District.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "The event starts at 18:30",
+          "note": "The sources confirm the date (11 November 2026), the 18:30 start, and the Unicorn Stage in Beato Innovation District, but none states that the day is a Wednesday, so that detail cannot be verified from them."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "Lisbon will host European Tech Champions – Italy & Portugal on 11 November 2026",
+          "note": "The sources confirm the date, start time, and venue, but do not state that 11 November falls on a Wednesday."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "📅 11 November 2026 ​ 🕡 18:30 – 20:00+ ​ 📍 Unicorn Stage, Beato Innovation District, Lisbon",
+          "note": "Sources confirm the date, start time, and location, but do not state that 11 November is a Wednesday."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The event is organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE), as part of the programme around Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The event is organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE), as part of the programme taking place during Web Summit 2026.",
+          "note": "S1 states the three organisers and that the event is part of the Web Summit 2026 programme, matching the claim exactly; S2 corroborates the same hosts."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The event is organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE), as part of the programme taking place during Web Summit 2026.",
+          "note": "The source directly confirms the organizers and the event's context within Web Summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The event is organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE), as part of the programme taking place during Web Summit 2026.",
+          "note": "S1 states exactly that the event is organised by these three entities as part of the Web Summit 2026 programme."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The programme runs welcome and registration at 18:30, Panel 1 at 19:00, Panel 2 at 19:25, and networking at 20:00.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S2",
+          "quote": "19:20 – From Startup to Champion",
+          "note": "The Luma agenda lists the second panel at 19:20, not 19:25, while the other times (18:30 welcome, 19:00 first panel, 20:00 networking) match the source."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "19:20 – From Startup to Champion: How Europe's Unicorns are Doing it",
+          "note": "The agenda confirms the times for registration, the first panel, and networking, but sets the second panel at 19:20 instead of 19:25."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "19:20 – From Startup to Champion",
+          "note": "The agenda matches 18:30, 19:00, and 20:00, but the second panel is listed at 19:20, not 19:25."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "Claudio Miscia is Ambassador of Italy to Portugal and speaks on Panel 1, \"The Role of Institutions in Fostering European Innovation\".",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "19:00 – The Role of Institutions in Fostering European Innovation ​ With: ​ Claudio Miscia – Ambassador of Italy to Portugal",
+          "note": "S2 lists Miscia as Ambassador of Italy to Portugal speaking at the 19:00 session on this topic, and S1 says there are two panels, so this is the first; the sources do not use the label \"Panel 1\" themselves."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "19:00 – The Role of Institutions in Fostering European Innovation ​ With: ​ Claudio Miscia – Ambassador of Italy to Portugal",
+          "note": "Source S2 confirms Claudio Miscia is the Ambassador of Italy to Portugal and is featured in the first panel discussion on 'The Role of Institutions in Fostering European Innovation'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "The Role of Institutions in Fostering European Innovation ​ With: ​ Claudio Miscia – Ambassador of Italy to Portugal",
+          "note": "S2 lists Claudio Miscia as Ambassador of Italy to Portugal under the first panel titled \"The Role of Institutions in Fostering European Innovation.\""
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "ICE organises Italy's collective presence at Web Summit 2026, held from 9 to 12 November, with about 30 Italian startups and small and medium-sized companies in the Italian national pavilion.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Agenzia ICE organizza la partecipazione collettiva italiana al Web Summit 2026",
+          "note": "S3 states that ICE organises Italy's collective participation in Web Summit 2026 in Lisbon from 9 to 12 November, with about 30 Italian startups and SMEs presenting in the Italian national pavilion (Padiglione Nazionale italiano)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Agenzia ICE organizza la partecipazione collettiva italiana al Web Summit 2026, in programma a Lisbona dal 9 al 12 novembre 2026... L’iniziativa offrirà a circa 30 startup e PMI innovative italiane la possibilità di presentare prodotti e soluzioni innovative all’interno del Padiglione Nazionale italiano",
+          "note": "Source 3 directly confirms that ICE is organizing Italy's collective participation at Web Summit 2026 from 9 to 12 November with approximately 30 Italian startups and innovative SMEs in the Italian national pavilion."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Agenzia ICE organizza la partecipazione collettiva italiana al Web Summit 2026, in programma a Lisbona dal 9 al 12 novembre 2026 , uno degli eventi internazionali più importanti dedicati a tecnologia, innovazione e digitale . L’iniziativa offrirà a circa 30 startup e PMI innovative italiane la possibilità di presentare prodotti e soluzioni innovative all’interno del Padiglione Nazionale italiano",
+          "note": "S3 states that ICE organizes Italy’s collective participation at Web Summit 2026 on 9–12 November with about 30 innovative Italian startups and SMEs in the Italian national pavilion."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "Applications for the Italian national pavilion at Web Summit 2026 ran from 11 May to 8 June 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Le candidature saranno aperte dall’11 maggio all’8 giugno 2026",
+          "note": "S3 states that applications for the Italian national pavilion at Web Summit 2026 are open from 11 May to 8 June 2026, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Le candidature saranno aperte dall’11 maggio all’8 giugno 2026",
+          "note": "The source confirms that applications for Italian startups to participate in the Italian National Pavilion at Web Summit 2026 were open from 11 May to 8 June 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Le candidature saranno aperte dall’11 maggio all’8 giugno 2026",
+          "note": "S3 states applications will be open from 11 May to 8 June 2026 for the Italian pavilion at Web Summit 2026."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "Giovanni Alberto Falcione is co-founder and CTO of Exein, and Pedro Petiz is Director of Strategic Development at TEKEVER; both speak on Panel 2.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Co-Founder & CTO, Exein",
+          "note": "S2 lists Falcione as Co-Founder & CTO of Exein and Petiz as Director of Strategic Development at TEKEVER, both under the 19:20 session, which is the second of the two panels; S2 never uses the label 'Panel 2', so that part is inferred from agenda order."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Giovanni Alberto Falcione – Co-Founder & CTO, Exein ​ Alexandre Matoso – Senior Representative European Investment Fund ( EIF ) ​ Giulia Giovannini – Partner, Early Stage, United Ventures ​ Pedro Petiz – Director of Strategic Development, TEKEVER",
+          "note": "S2 confirms both Falcione's and Petiz's roles and places them together in the event's second panel session at 19:20."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "19:20 – From Startup to Champion: How Europe's Unicorns are Doing it ​ With: ​ Giovanni Alberto Falcione – Co-Founder & CTO, Exein ​ Alexandre Matoso – Senior Representative European Investment Fund ( EIF ) ​ Giulia Giovannini – Partner, Early Stage, United Ventures ​ Pedro Petiz – Director of Strategic Development, TEKEVER",
+          "note": "S2 lists both men with the stated titles in the event's second agenda panel."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "TEKEVER is one of the four Portuguese unicorns that the University of Lisbon counts as coming from its ecosystem.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources mention the University of Lisbon, a count of four Portuguese unicorns, or TEKEVER as one of them; S2 only lists a TEKEVER speaker on a panel about unicorns."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources mention TEKEVER participating in a panel discussion but do not mention the University of Lisbon, its ecosystem, or counting TEKEVER as one of four Portuguese unicorns."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources mention TEKEVER only as a participant in an event, and none states that TEKEVER is one of four Portuguese unicorns counted by the University of Lisbon as coming from its ecosystem."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "Unicorn Factory Lisboa named the winners of its 2026 Entrepreneurship Awards on 27 October.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the passages mention Unicorn Factory Lisboa's 2026 Entrepreneurship Awards, a winner announcement, or 27 October; the sources only cover a 11 November 2026 event."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention Unicorn Factory Lisboa's Entrepreneurship Awards or any winners announced on 27 October."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources discuss a Lisbon tech event on 11 November 2026 and do not mention the 2026 Entrepreneurship Awards or winners named on 27 October."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "Gian Volpicelli, a technology journalist at Bloomberg, moderates Panel 2, \"From Startup to Champion: How Europe's Unicorns Did It\".",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "Moderator: Gian Volpicelli – Technology Journalist, Bloomberg",
+          "note": "The source confirms Volpicelli as moderator of the 19:20 session, titled \"From Startup to Champion: How Europe's Unicorns are Doing it\" (not \"did It\"), and it never labels that session \"Panel 2\", which is only inferred from the agenda order and S1's note of two panels."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "19:20 – From Startup to Champion: How Europe's Unicorns are Doing it ​ With: ​ Giovanni Alberto Falcione – Co-Founder & CTO, Exein ​ Alexandre Matoso – Senior Representative European Investment Fund ( EIF ) ​ Giulia Giovannini – Partner, Early Stage, United Ventures ​ Pedro Petiz – Director of Strategic Development, TEKEVER ​ Moderator: Gian Volpicelli – Technology Journalist, Bloomberg",
+          "note": "Gian Volpicelli is listed as the moderator, but the panel is titled 'From Startup to Champion: How Europe's Unicorns are Doing it' rather than 'Did It'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "Moderator: Gian Volpicelli – Technology Journalist, Bloomberg",
+          "note": "S2 supports Gian Volpicelli as the Bloomberg technology journalist moderating the session, but the session title is 'From Startup to Champion: How Europe's Unicorns are Doing it' and it is not explicitly labeled Panel 2."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    }
+  ]
+}

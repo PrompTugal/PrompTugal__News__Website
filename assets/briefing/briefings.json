@@ -185,6 +185,37 @@
           "link": "Open centres of gravity"
         }
       ]
+    },
+    "graph/algarve-evolution/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        {
+          "title": "Algarve Evolution",
+          "text": "A Faro-based non-profit association that connects entrepreneurs, talent, startups and partners across the Algarve. The community began in 2018 and was officially presented in September 2019; today it reports 118 active members (its own figure)."
+        },
+        {
+          "title": "The network",
+          "text": "Eight programmes, nine partner organisations, the roles of its president and executive director, and the past events it ran or joined, each link with its source. Tap any node for what is known and where it comes from; dashed means nothing found yet or listed by it but organised by others."
+        },
+        {
+          "title": "Its past, 2018 to 2027",
+          "text": "From the first Algarve Tech Hub Summit in 2022 to the Algarve Digital Innovators network in 2025, and 24 Algarve startups at Web Summit 2025 with Algarve Evolution as a named partner. Nothing is found yet for Web Summit Lisbon 2026; the Tech Hub Summit is announced to return in 2027."
+        },
+        {
+          "title": "The map and the numbers",
+          "text": "The map places the events by town, from Lagos to Tavira, with Faro as the base. The numbers (members, turnover, events, the 2032 targets of 500 companies, 150 startups and 50,000 people) are the organisation's own, as the press reports them, and are marked as such."
+        },
+        {
+          "title": "The written profile",
+          "text": "Everything here is also written up, with its sources, on the Portugal section's page for Algarve Evolution.",
+          "href": "portugal/algarve-evolution/index.html",
+          "link": "Open the profile"
+        }
+      ]
     }
   }
 }

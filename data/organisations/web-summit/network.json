@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schemas/organisation-network.schema.json",
+  "organisation": "web-summit",
+  "kept_by": "ontologist@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "from": "desks/researcher/centres-of-gravity-evidence-round-1.md (rounds 1 to 3, read 6 November 2026): the three clouds among the summit's partners, by edition",
+  "programmes": [],
+  "roles": [],
+  "figures": [
+    {
+      "what": "Microsoft among Web Summit's partners",
+      "value": "shown under \"Some partners from our past events\", edition not given; no 2026 listing found",
+      "kind": "fact",
+      "sources": [
+        {
+          "url": "https://websummit.com/partners/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "what": "AWS at Web Summit 2026",
+      "value": "no partner or speaker found (partners page 1 of 8 read, first 20 speakers read); absence there is not absence at the summit",
+      "kind": "fact",
+      "sources": [
+        {
+          "url": "https://websummit.com/partners/event-partners-2026/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "what": "Amazon at Web Summit 2026",
+      "value": "a press conference with an Amazon vice president, 11 November, Stage 2 (in our events)",
+      "kind": "fact",
+      "sources": [
+        {
+          "url": "https://websummit.com/sessions/lis26/3f2286e3-46c8-46a8-8900-692ca0c3a8f9/press-conference-with-amazon-vice-president-people-experience-technology-j-ofori-agboka/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "organisation:aws",
+      "verb": "partner_of",
+      "to": "event:web-summit-lisbon-2022",
+      "note": "named among the 2022 edition's top partners, with Figma, Stripe and Binance",
+      "sources": [
+        {
+          "url": "https://websummit.com/wp-media/2024/10/Web-Summit-2022-Numbers-Press-Release.pdf",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:google",
+      "verb": "partner_of",
+      "to": "event:web-summit-lisbon-2022",
+      "note": "named among the 2022 edition's top partners",
+      "sources": [
+        {
+          "url": "https://websummit.com/wp-media/2024/10/Web-Summit-2022-Numbers-Press-Release.pdf",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "company:google-cloud",
+      "verb": "partner_of",
+      "to": "event:web-summit-lisbon-2026",
+      "note": "on the 2026 event partners list",
+      "sources": [
+        {
+          "url": "https://websummit.com/partners/event-partners-2026/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    }
+  ]
+}

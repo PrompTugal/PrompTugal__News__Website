@@ -26,7 +26,10 @@ export function inline(s) {
         const img = tag('img', { src: u, alt: esc(alt), width: sz?.[0], height: sz?.[1], loading: 'lazy', decoding: 'async' })
         return /--paper--/.test(u) ? tag('picture', {}) + tag('source', { media: '(prefers-color-scheme: dark)', srcset: u.replace('--paper--', '--ink--') }) + img + '</picture>' : img
     })
-    s = s.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g, (_, t, u) => `<a href="${mdToHtmlLink(u)}"${OUTSIDE(u) ? ' target="_blank" rel="noopener"' : ''}>${t}</a>`)
+    const link = (href, u, t) => `<a href="${href}"${OUTSIDE(u) ? ' target="_blank" rel="noopener"' : ''}>${t}</a>`
+    s = s.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g, (_, t, u) => link(mdToHtmlLink(u), u, t))
+    // an autolink: <https://...> (escaped by now; the &amp; in a query string stays right in the attribute)
+    s = s.replace(/&lt;(https?:\/\/[^\s<]+?)&gt;/g, (_, u) => link(u, u, u))
     s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>')
     return s.replace(/\u0000(\d+)\u0000/g, (_, i) => codes[+i])
 }

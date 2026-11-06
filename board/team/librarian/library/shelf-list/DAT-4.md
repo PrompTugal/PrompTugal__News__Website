@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 4 of 10)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
-site_version: "v0.1.288"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T18:58:39Z"
+site_version: "v0.1.316"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 4 of 10)
 
-100 cards, from `DAT.EV the-autonomous-enterprise-networks-cloud-and-ai-agents` to `DAT.ORG center-for-china-and-globalization`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.EV the-autonomous-enterprise-networks-cloud-and-ai-agents` to `DAT.ORG carris`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
@@ -114,6 +114,7 @@ source: board/catalogue.json
 | `DAT.ORG associated-press` | [Associated Press](https://promptugal.news/organisations/associated-press/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG atlantic` | [The Atlantic](https://promptugal.news/organisations/atlantic/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG atlassian-williams-f1-team` | [Atlassian Williams F1 Team](https://promptugal.news/organisations/atlassian-williams-f1-team/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG aws` | [AWS](https://promptugal.news/organisations/aws/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG axios` | [Axios](https://promptugal.news/organisations/axios/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG banco-portugues-de-fomento` | [Banco Português de Fomento](https://promptugal.news/organisations/banco-portugues-de-fomento/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG battery-ventures` | [Battery Ventures](https://promptugal.news/organisations/battery-ventures/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG caixa-capital` | [Caixa Capital](https://promptugal.news/organisations/caixa-capital/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG cal-com` | [Cal.com](https://promptugal.news/organisations/cal-com/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG carris` | [Carris](https://promptugal.news/organisations/carris/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG center-for-china-and-globalization` | [Center for China and Globalization (CCG)](https://promptugal.news/organisations/center-for-china-and-globalization/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-3.md) | [Next part](DAT-5.md)
