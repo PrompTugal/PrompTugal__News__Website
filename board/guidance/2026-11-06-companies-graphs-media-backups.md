@@ -86,3 +86,9 @@ kept_by: conductor@PrompTugal.dinis
 - "Add the option to save as a screenshot and download the PNG."
 - "I really like a lot of those presets ... a lot of those use cases and a lot of those stories that we can tell with the graphs ... keep experimenting ... a tree structure of the multiple ways to graphs ... a page with the best of: a graph and an explanation next to it."
 - "Just about every page, especially the bigger pages, should have a presentation, which is like a briefing of what's there ... created in JavaScript ... like the way we do the briefings ... quite visible: debrief of this page ... the best of what's happening here and an explanation ... I should not have to explore a pile of graphs, especially if I don't know the UI, to learn what is available here." Multiple rounds.
+
+## 14. Who may start and stop agents (about 06:00 UTC)
+
+- "I don't want to be the bottleneck ... give the mandate to the security and to you [the conductor] to pull the plug if you think something is wrong ... you and the security have the mandate to stop everything ... to stop specific agents, to quarantine them, or to stop specific things that you then feel I want to take a look at."
+- "You should be delegating this ... you might need a couple of sub-agents yourself ... now that we have a lot of work, you start to create a number of sub-agents, the ones that have the dot on it. So then you keep the independence and the focus, and then I shouldn't be the bottleneck ... maybe even the ABP can be the agent ... ABP and security become the ones that keep an eye and have the ability to pull the [plug]."
+- "Open up a new agent called customers@, which I want to give a couple of specific briefs."
