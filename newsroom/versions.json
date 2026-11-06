@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.105",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: the Brazil story project, round 1: the universe in the project file, twelve tasks anyone can pick up (board/tasks/brazil-1 to brazil-12)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "8a095d4fb"
+  },
+  {
     "version": "v0.1.104",
     "date": "2026-11-06",
     "what": "devops@PrompTugal.dinis: wake 04:15: my first fix's retry failed twice (runs 134, 138); replaced by a live check and a dispatched redeploy; report corrected; blocked on nothing",
