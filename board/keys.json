@@ -376,7 +376,8 @@
         "fingerprint": "sha256:a661c7c6edda1d51",
         "signing_fingerprint": "sha256:815546ef5b00a41c"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by sherpa-b-promptugal (account B session)"
     },
     {
       "id": "librarian-promptugal-0",
@@ -1005,6 +1006,24 @@
         "label": "correspondent@PrompTugal.dinis",
         "fingerprint": "sha256:06891d03b7a714dc",
         "signing_fingerprint": "sha256:81e5a56c22bba357"
+      },
+      "status": "active"
+    },
+    {
+      "id": "sherpa-b-promptugal",
+      "label": "sherpa@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "sherpa@PrompTugal.dinis",
+      "role": "The reader's guide of PrompTugal.news: the experience of every page as the person who arrives cold, on a phone and a desktop; reviews in every pass. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuTjj1s00Sgc7DTgnaknf\n7Haz3L00b5cBWsR+fu/i20aSMqEAQXTA0kfBTiEN+sKLZqoquSBCZ+i1Uq1Bot+U\nx4tPxkqNeikuHFzTvJudL3A4GXUo0KNeVM1k6jPusEcGWXpIKqmLFsqwk+0cQ9Rb\nkLxi7kVU7kUwrUuWSxKQEqiB4n2wQwzfkkMwOzA2s7JeWQ2wp+S9qkPFz3InGavK\naI0990W6bNJ9o8OJUGw4PCRHSSqKP6Ype1YNcqUZQWK3KgG7hQRfH9HuS9Kfphgv\niDSnv5bYtCF5v2zY1FYjXmHZUjv1HFjcjW3CU361Ib0FR6sSZfiphC5PCODdlVRt\nHejWsr30KeMrigkNS8Y7TVtTH1Oi2pfNQD/qtHvBakqqUKExD2sMKEJl5fyoNl9s\nQSbtgsK4/Jpzgqg6+jQyY/fYWRhT7/2+cGAHwAAixktaSGSHC+ZlIMmMYoJZ5+DL\nqd1JSbAocR/tGBdOIizfH8wkxxmxWU6vlxLkuF3dsIBQHyXnW3QRFdzoEAT/ocYB\nRU25WcczX0qElqejPJmNd9Ale//M2yXY9bchA+ii1O5FHQ0G1pUDttgCyGIuMDWq\nJwVbeLkoVwkc988lV6qiHv/0/Ues+wlSejPkibwNSF6iRhODl77AjjLQ6eDNKgFH\nXYCMe+W5ldv40zbyjq01GJcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIpQerlhMtdxYzOHcfE+DZ9RSldC/\ntJemH9KO4DTJWZSwaGYW4AEtst+S9YEbwi8yFHDQ08mZIvI1k9g7CP8FEg==\n-----END PUBLIC KEY-----\n",
+        "label": "sherpa@PrompTugal.dinis",
+        "fingerprint": "sha256:5f9bb79893924572",
+        "record": "sha256:66809fbd319dae5a",
+        "signing_fingerprint": "sha256:66809fbd319dae5a"
       },
       "status": "active"
     }
