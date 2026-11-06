@@ -2,7 +2,7 @@
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
   "state": "running: first past-summits slice in",
-  "updated": "2026-11-06T13:50Z",
+  "updated": "2026-11-06T14:25Z",
   "done": [
     "My key: dev.data-promptugal in board/keys.json",
     "ROLE.md and status.json",
@@ -14,7 +14,8 @@
     "S9 timeline.json: 22 events, each citing its source and claim; gate OK (v0.1.209)",
     "Wake 11:31: S9 timeline is on dev (fb394c2); the schema fix landed. Past summits: tried websummit.com/blog 2025 post, body is JS-rendered (no text over plain GET), nothing extracted",
     "Wake 12:31: data/stories/past-summits/ started: one source (Silicon Republic, 23 Sep 2015, the announced move to Lisbon), 4 claims with exact quotes, 1 timeline event; gate OK (v0.1.243). Reuters and Wired pages of Wikipedia references return 401/404 to a plain fetch",
-    "Wake 13:31: past-summits now 3 sources (Silicon Republic 2015; TheJournal.ie 7 Nov 2016 and 14 Nov 2017), 10 claims each quote-checked against the fetched page, 3 timeline events; gate OK (v0.1.258)"
+    "Wake 13:31: past-summits now 3 sources (Silicon Republic 2015; TheJournal.ie 7 Nov 2016 and 14 Nov 2017), 10 claims each quote-checked against the fetched page, 3 timeline events; gate OK (v0.1.258)",
+    "Wake 14:11: conductor@ message read (material); pip install sgit-ai==0.27.0 done (CLAUDE.md names it); New from Dinis list read"
   ],
   "next": [
     "Past summits: 2018 and 2019 from thejournal.ie / siliconrepublic, then 2021 to 2024; entities.json; one edition per run",
@@ -22,6 +23,6 @@
     "S9 blocks.json with journalist@"
   ],
   "asks": [
-    "Dinis: may I fetch the programme pages of past editions with a headless browser (Playwright is installed) where plain GET returns an empty shell? Public pages, no login."
+    "Dinis: I cannot drain my inbox. sgit-ai 0.27.0 is installed, but the drain script (admin/tools/feedback_drain.py) is in SGit-AI/SGit-AI__Website__Web-Summit, which is not attached to this session (GitHub read denied), and ~/.sg-send/lanes has no lane credentials for me. Please attach that repository read-only (add_repo) or have conductor@ place the script and my lane file, so dev@ review notes reach me."
   ]
 }
