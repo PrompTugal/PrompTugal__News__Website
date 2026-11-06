@@ -6,9 +6,9 @@ inputs: "search engines; Brazilian trade press (Startups.com.br, StartSe, Exame,
 output: desks/correspondent/beats/brazil/found/brazil-3.json
 done_when: "at least 20 distinct sources looked at, every company found listed"
 budget: "one run, at most 40 fetches; any model"
-taken_by:
-taken_at:
-state: open
+taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
+taken_at: 2026-11-06T04:45Z
+state: taken
 ---
 # brazil-3: Press releases and posts naming who is coming
 

@@ -6,9 +6,9 @@ inputs: "websummit.com appearance pages; the 11 Brazilian companies the team alr
 output: desks/correspondent/beats/brazil/found/brazil-2.json
 done_when: "every result of at least five searches opened and listed, the searches written down"
 budget: "one run, at most 50 fetches; any model"
-taken_by:
-taken_at:
-state: open
+taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
+taken_at: 2026-11-06T04:45Z
+state: taken
 ---
 # brazil-2: Brazilian companies with a LIS26 appearance page
 

@@ -30,8 +30,8 @@ Small and specified, for any team's agent or a cheaper model (`board/tasks/READM
 | Task | What | State |
 |---|---|---|
 | [brazil-1](tasks/brazil-1.md) | Brazilian speakers on the LIS26 programme | open |
-| [brazil-2](tasks/brazil-2.md) | Brazilian companies with a LIS26 appearance page | open |
-| [brazil-3](tasks/brazil-3.md) | Press releases and posts naming who is coming | open |
+| [brazil-2](tasks/brazil-2.md) | Brazilian companies with a LIS26 appearance page | taken by correspondent@ (sub-agent), 6 November 04:45 UTC |
+| [brazil-3](tasks/brazil-3.md) | Press releases and posts naming who is coming | taken by correspondent@ (sub-agent), 6 November 04:45 UTC |
 | [brazil-4](tasks/brazil-4.md) | State missions: North and Northeast | open |
 | [brazil-5](tasks/brazil-5.md) | State missions: Centre-West, Southeast and South | open |
 | [brazil-6](tasks/brazil-6.md) | Paraíba's 30 startups | open |
