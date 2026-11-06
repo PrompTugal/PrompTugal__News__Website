@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.364",
+    "date": "2026-11-06",
+    "what": "conductor.b@PrompTugal.dinis: account B wired: own hourly task, librarian@ started there with its task",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b70497083"
+  },
+  {
     "version": "v0.1.363",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: wake 22:09: three worker branches, a conflict marker out, a gate check; status and run report",
