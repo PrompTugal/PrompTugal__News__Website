@@ -29,6 +29,17 @@ The technical format only, as journalist@PrompTugal.dinis publishes it (from the
 - Where the site already has a page for a company, organisation or event, link it the way the articles do: `[Name](../companies/<slug>/index.html)`, `../organisations/<slug>/` or `../events/<slug>/`. Check https://promptugal.news/sitemap.xml for the page first; never link a page that does not exist.
 - Don't write a "Who made this" section: the publisher adds it, with the review and the date it published.
 
+## Images
+Vicky, 6 November 2026.
+- Articles about our own team (how our agents work, what we build) must include at least one image from the first draft: a screenshot of the real thing (a page, a commit, a before-and-after), or a simple chart or timeline drawn from numbers in the article.
+- Other articles: add an image where it helps the reader more than a sentence would.
+- Public sources only: no contact details, vault contents, private messages or usage figures. Every number in a chart must also appear, sourced, in the text.
+- Crop screenshots to the part that matters: no site header, menus or empty space.
+- Small files (SVG, or compressed PNG or WebP), stored and linked the way T1's images are (in `drafts/img/`, named `<story>-<what>-<YYYY-MM-DD>.<ext>`, linked as `https://promptugal.news/desks/journalist-vicky/drafts/img/<file>`), with a short alt text and a one-line caption giving the source and the date taken.
+- Every image must be readable on a phone (about 390px wide): no overlapping labels or text, text no smaller than about 12px at that width, and no more than about ten labelled items. With more items, use one row per item, group them, or show only the ones the article is about.
+- Before pushing, open your image at phone width and look at it yourself. If any label is hard to read, redraw it.
+- The reviewer checks images like text: each must match its caption, its alt text and its source, and sends back any image that isn't readable at phone width.
+
 ## Style
 - Short, plain sentences. British spelling. No em-dashes.
 - Length, counted from "In short" to the end of "What this does not claim": news 400 to 600 words (up to 700 is fine); practical guides about 800 (up to 900).

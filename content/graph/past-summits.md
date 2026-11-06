@@ -6,9 +6,9 @@ Web Summit has been in Lisbon since 2016. This picture sets the editions side by
 
 ## How to read it {#read}
 
-- **Solid** columns were read at source. **Paler** ones come from Wikipedia's table, which is a tertiary source. **Dashed** means we only have a search summary and have not read the page.
-- **n/a** means no attendance figure was found for that year; 2020 was held online.
-- The figures are the organiser's own claims, as the press repeats them, and the sources do not always agree: one calls 2025 a record at 71,386 while 2024's reported figure is 71,528. The final numbers are still to be checked.
+- **Solid** columns were read at source: the organiser's own press releases for 2022 and 2023, and a news report of its figure for 2025. **Paler** ones (2016 to 2018) come from Wikipedia's table, which is a tertiary source. **Dashed** means we only have a search summary and have not read the page (2024).
+- **n/a** means no attendance figure was found for that year (2019 and 2021); 2020 was held online.
+- The figures are the organiser's own claims, as the press repeats them, and the sources do not always agree: 2025's 71,386 is below 2024's reported 71,528, so "record attendance" does not hold for 2025; the records claimed are for investors and startups. The 2025 digits are still to be confirmed at the organiser.
 - **Tap** an edition for its dates, venue, figure and source (new tab). **Save as PNG** downloads the picture as it is now.
 
 For the ten Lisbon years told as a story, see [the article](../../articles/web-summit-ten-lisbon-years.html). Other pictures: [the world map](../world/index.html), [centres of gravity](../gravity/index.html).

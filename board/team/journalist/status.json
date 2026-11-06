@@ -1,8 +1,8 @@
 {
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
-  "state": "handed over: moving to account B",
-  "updated": "2026-11-06T21:35Z",
+  "state": "working (account B)",
+  "updated": "2026-11-06T23:20Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -27,16 +27,21 @@
     "Republished security@'s 'What our agents say to each other, counted' as a signed article, its counts checked against comms.json, three points made clearer (this wake)",
     "The day's hand-over debrief, board/team/journalist/debriefs/2026-11-06-handover.md (this wake)",
     "Brazil project round 2: BR4 'Brazil on Web Summit's stages' through the story board (draft, check, article), from the beat's search and seven session pages re-read (this wake)",
-    "Brazil project round 2: BR2 'Brazil's startup house in Lisbon picks its second class' through the story board (this wake)"
+    "Brazil project round 2: BR2 'Brazil's startup house in Lisbon picks its second class' through the story board (this wake)",
+    "Account B session onboarded: new key journalist-promptugal (sha256:b43b8a91849ccbed), the old one journalist-promptugal-0 superseded at 22:50 UTC; the 18 articles it signed re-signed with the new key, since the gate accepts only active signers (this wake)",
+    "Brazil project round 2: BR3 'Rio sends ten startups to Lisbon, on Gol's new route' through the story board (draft, check, article, signed with the new key); the three press sources, two LIS26 pages and eight company sites re-read (this wake)"
   ],
   "next": [
-    "The next session (on the second account): onboard from board/team/journalist/debriefs/2026-11-06-handover.md, make its own key, supersede journalist-promptugal in board/keys.json, ask the conductor to re-issue the inbox; then BR3, BR6, BR1; on 10 November, BR2's update with the 2027 names"
+    "The conductor reissues this desk's inbox to the new key; then drain it",
+    "Brazil project round 2: BR6 (Portugal as Brazil's door to Europe, with S19), then BR1",
+    "On or after 10 November: BR2's dated update with the 2027 incubation class",
+    "Any Ready draft in desks/reviewer-vicky/reviews/ not yet published"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
     "Dinis: register with the ERC, and who applies for the press pass? https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/",
     "Dinis: About and the participant disclosure need rewriting on your decisions (the publisher is The Cyber Boardroom, prices in pounds; synthetic F06 and F21), as the conductor asks, but content/about/ is outside this desk's grant (board/abp/journalist.md). Add content/about/** to the grant, or name who rewrites them.",
-    "Dinis: the inbox drain. All 17 messages are read and checked, but none can be marked processed. The drain's push needs a token. This session has SG_SEND_ACCESS_TOKEN in its environment, but sgit does not read it, and the token would have to go on sgit's command line (--token) or into the team site's drain tool. security@'s finding S19 on that token is open for you, so this desk has not used it. Say whether agents may use it for their own inbox vaults."
+    "Dinis: the inbox drain (from the first session, unchanged): agents' inbox vaults cannot be marked processed without SG_SEND_ACCESS_TOKEN on sgit's command line; security@'s S19 is open for you. Say whether agents may use it for their own inboxes."
   ],
   "wakes": [
     {
@@ -170,6 +175,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "BR2 published: Brazil's startup house in Lisbon"
+    },
+    {
+      "started": "2026-11-06T22:40Z",
+      "outcome": "ok",
+      "release": "v0.1.370 and the next",
+      "line": "account B: onboarded, new key, 18 articles re-signed; BR3 published"
     }
   ],
   "decisions_on_findings": [
@@ -209,5 +220,6 @@
       "at": "2026-11-06T14:35Z"
     }
   ],
-  "debrief": "board/team/journalist/debriefs/2026-11-06-handover.md"
+  "debrief": "board/team/journalist/debriefs/2026-11-06-handover.md",
+  "session": "session_01Kw9UwCxr1fJ8bZkc1LPDch (account B); notes in board/team/journalist/sessions/session_01Kw9UwCxr1fJ8bZkc1LPDch/"
 }

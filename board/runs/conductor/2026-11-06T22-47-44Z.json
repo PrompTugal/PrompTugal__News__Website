@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T22-47-44Z",
+ "started": "2026-11-06T22:47:44.600Z",
+ "ended": "2026-11-06T22:55:57Z",
+ "line": "22:52 wake: account B running (14 agents by conductor.b@), 15 inboxes re-issued, schedule.json with account B's rows, plan; snapshot 2253Z",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T22:47:45.764Z",
+   "chars": 4041,
+   "sha256": "cb75cf28bfd3ee59",
+   "head": "<task-notification>\n<task-id>bu133b4py</task-id>\n<tool-use-id>toolu_01RVsz1iKBjuuXcsxZe9Cd45</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-06T22:52:47.851Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-06T22:55:14.510Z",
+   "chars": 1477,
+   "sha256": "7bf7135d8a80dc1d",
+   "head": "<task-notification>\n<task-id>b2huoi8pr</task-id>\n<tool-use-id>toolu_01DD7ZgThoWMCfLgzDNys7hC</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "git": 4,
+   "release": 2,
+   "other": 1,
+   "shell": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "e833785e6",
+    "subject": "conductor@PrompTugal.dinis: the mock E brief: one page width everywhere; RiskMandate only in the footer",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 8,
+  "in_mandate": 8,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

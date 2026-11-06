@@ -69,6 +69,25 @@
         "fingerprint": "sha256:d3d3cacbb7dc4269",
         "signing_fingerprint": "sha256:c0bd0777396d97bf"
       },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:46Z",
+      "superseded_by": "designer-promptugal-3"
+    },
+    {
+      "id": "designer-promptugal-3",
+      "agent": "designer@PrompTugal.dinis",
+      "label": "designer@PrompTugal.dinis (Claude Code session 3, account B)",
+      "role": "The designer of PrompTugal.news (designer@PrompTugal.dinis): design/ and the brand identity v2.0, the layouts, the logo and the editors' business cards, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session (session 3, session_01Kw9UwBz3RCCiGVDcir6TJ4, on account B, which took over the role from session 2 at Dinis's word, board/the-account-move.md) on 6 November 2026 with pki-agent.mjs keygen --session (sha256 fcb28a1c... checked) and pushed to this repository by that session. It replaces designer-promptugal-2 (session 2). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06T22:46Z",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAkeTz5F0jm0bArv9SkKwZ\nJS5IWuuZ50/0Bjl/oIudvoBVEbRYGYzbgPs0BYyrm0nafFS0bMNt96/kPFAi0NES\nSXHCplYDPOf+PMAuDacoyK6YgIEsDxZRVpp9/9Z6cPBj7jRKqFU8cRKYk5HeXjAi\nHAAkIHVQosz2He1ND/nbaU5aaaaAda6uKnoG6QzWhS7J82kqQPSb9H2IL8tdNeIk\nLJXnkGeWP1sDI/z1RYm3k1zftU1DIyuKKxFb9cGmJFbwL6kYhdc7JK4mq/78/gTp\nBsYswOFFs+Mp435thKKL0cfaBAraeA1wujEkxpxBOKGF/S6BVxhZtGfwVvGpwKPC\nF6pJQ+gAq8jWqFmUz1/sH5Q5ud/S2TumTsvLX6COHwwTJTo5gyBYZFIz5M2a5Xzh\niWaWx3ddPqwQrr1tRYEpT8e6LmOZr2GWnZQ5DY0YZlpjwHEJU6FTZ6Twh+xF+sr7\nJNITSnAxAFZQYHbM+73nXyUFRubc6r5aPMCNBhcckhigbM1NbasKjOSYqwF2gDfe\nuQ365cRHv9ZiAS3vimqic3g8OyoalLNSp20V3Z2DFWaUtoFoonLQcu/ZE28XnPC0\n52WdOxmfSeGCs00JFXu3deGnx4VplZyV7IAh2m3j93zOOgA7uk+APUfRdnui7pMW\neygQFTjeem4dQkcsRD8eEe8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3cGIItSfPX280ZuS6M7s0ELC9JGb\nQirLM0Jzx8T5nh2lula6wxPFyXN8bOWOuu35+DD6OPHgcEgZcdisiCs5vA==\n-----END PUBLIC KEY-----\n",
+        "label": "designer@PrompTugal.dinis",
+        "fingerprint": "sha256:7fa146267766ccce",
+        "signing_fingerprint": "sha256:3342e582e3e28bf2"
+      },
       "status": "active"
     },
     {
@@ -86,10 +105,11 @@
         "fingerprint": "sha256:8f0fa46d3d2d84c7",
         "signing_fingerprint": "sha256:4a2f0ced8205f5dc"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by designer.experiments-b-promptugal (account B session)"
     },
     {
-      "id": "synthetic-promptugal",
+      "id": "synthetic-promptugal-0",
       "agent": "synthetic@PrompTugal.dinis",
       "label": "synthetic@PrompTugal.dinis (Claude Code session)",
       "role": "The synthetic readers of PrompTugal.news (synthetic@PrompTugal.dinis): invented personas, each labelled SYNTHETIC, who read the site on a phone and a desktop and report what works, what confuses and what loses them; each finding goes to the agent who owns the fix. A session key: it ends with its session.",
@@ -102,6 +122,26 @@
         "label": "synthetic@PrompTugal.dinis",
         "fingerprint": "sha256:769f3c60f0efb6c5",
         "signing_fingerprint": "sha256:271dba4290399aaf"
+      },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:45Z",
+      "superseded_by": "synthetic-promptugal",
+      "superseded_note": "The first synthetic session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from synthetic-promptugal to synthetic-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
+    },
+    {
+      "id": "synthetic-promptugal",
+      "agent": "synthetic@PrompTugal.dinis",
+      "label": "synthetic@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The synthetic readers of PrompTugal.news (synthetic@PrompTugal.dinis): invented personas, each labelled SYNTHETIC, who read the site on a phone and a desktop and report what works, what confuses and what loses them; each finding goes to the agent who owns the fix. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account B on 6 November 2026 at 22:44 UTC (pki-agent.mjs keygen --session, the copy matching sha256 fcb28a1c...02ab) and pushed to this repository by that session, taking over from synthetic-promptugal-0 (CLAUDE.md, 'Handing a role to a new session'; board/the-account-move.md). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06T22:45Z",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArVO7C/VTL+Rqkax/KK9A\ntXO82j9uYLcGdF8UogFKbelC99Aow4jXtmOQfJ3Ymyznu2Lg9rIqq7dIJugB/woi\nq9pSS3hQtxYbI5aTrJC8HuMDkRHmngBzULMs6J1/hRr2OLGGtjz3UJJHM/zyOFJ/\n3Wgc5/uoc2YGAYsU3EFEQlUz/69lMVdCMxlh96F00qfukcoxqPL+qP3Q+NIUtv17\nt8EQ4ynNPhor1UVVYMBbOMy48WS/P5YI+ABJS3vj7SPvx2VcLRO7uphDMNZHVw+N\npza741ahVF7U4TqTQvOZLL5pjItGBBNHKT7ZwdAINxdHvfRAaVZKtjJZo/6XCls9\nrnXhkcyOq99B5YBGQq2A+is5jgGrxPA8aYrQ5UbWva64pflQzpxM8CGfgey1lq9K\nKI/8F0r6cK6lTpLH/W7QKiydzJTNq1LXsv3/kxv7GZtJAd7Z1V5RQUT/hwjeekLD\neXXQVMcw8I17wyrTVYcwCbKui30jWPOjhQC6WaQUh9kQWTicWVp3sCL+U+V5ajjF\neNXxFbJs3MiVwKO7wS5sdm6PXeyHRlz4Nq26RERXN5oE0D2vxU+2LZpvd2O8jO8n\nqsELvS4pd7+dCVnTV5IOXfViLgc4krhRGcgD/jCgH5VCVmu9Ud2JS6r/PJsqcfKe\nFfG8rwG9vgnLkolKpjN33y0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJpko7M2c2fzCc3o525DXAg+oYWkY\nPDBr46J5XjiAM5ie/85eA0JCx5Lau4JkbF91EA5ZXQE4nKEK9k5zDTkzzg==\n-----END PUBLIC KEY-----\n",
+        "label": "synthetic@PrompTugal.dinis",
+        "fingerprint": "sha256:7bcf22c9fe51e0c2",
+        "signing_fingerprint": "sha256:e545d41398236e61"
       },
       "status": "active"
     },
@@ -120,10 +160,11 @@
         "fingerprint": "sha256:9ee27d587e7b8586",
         "signing_fingerprint": "sha256:09dcfd5570d9d8f5"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by outreach-b-promptugal (account B session)"
     },
     {
-      "id": "ontologist-promptugal",
+      "id": "ontologist-promptugal-0",
       "agent": "ontologist@PrompTugal.dinis",
       "label": "ontologist@PrompTugal.dinis (Claude Code session)",
       "role": "The ontologist of PrompTugal.news (ontologist@PrompTugal.dinis): the data/ schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places) and its links to the team CRM, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
@@ -137,10 +178,30 @@
         "fingerprint": "sha256:4ded4027241ded02",
         "signing_fingerprint": "sha256:36a0b5e8a2b7bdc7"
       },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:50Z",
+      "superseded_by": "ontologist-promptugal",
+      "superseded_note": "The first ontologist session handed over at 21:40 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from ontologist-promptugal to ontologist-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id), as librarian@ did."
+    },
+    {
+      "id": "ontologist-promptugal",
+      "agent": "ontologist@PrompTugal.dinis",
+      "label": "ontologist@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The ontologist of PrompTugal.news (ontologist@PrompTugal.dinis): the data/ schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places) and its links to the team CRM, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account B on 6 November 2026 at 22:46 UTC (pki-agent.mjs keygen --session, the copy matching sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use) and pushed to this repository by that session, taking over from ontologist-promptugal-0 (CLAUDE.md, 'Handing a role to a new session'; board/the-account-move.md). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoxTZ51Gq547JerbKYQKN\niWrwldeDuV4zZNrwS9lBu8GyLnyHOl7PkojpM0+N7GzPyufrNT5Mgrg0xpF+35YL\nDhzOLS4kk184lPnSfjwYh7tDW3J9snXKPEVQOtK+BcW27BlHVBqjdS0tMP5s6SKg\nqjZaqj1MREeuaBVQr+DDK5Hw0cPLYCavn9ntUMShqLs+D+lUQIlXzYE9EnJ8730E\nbgBY66piVXTzgo0bkCDlYXNVa2sakFiCX1eN3anvLAzj9IJ4y4ShVr8FYGd1i8yM\nl58we0wrfIo05D0DfXJb3hFIocTUUyRjg03ObV+pstlLR2yiYN+xsaUJ6SdFQ/6Z\nCrFja6/acQtowuzVb7g+M8qFguHIt2ttuUENEucmoo5IXHk/A+dCZmc7xlzCYsPI\npzufVFeaaFiLeMNOqgl5a8hbHSyKR8Nk8DlhQXD6VdUzU8R3Z2Yy/lFVaqRAjzfZ\nQWtjw5MJTSwGZWA9q9nZ67ykXtlw1W8YHE9CVlbTjv19QV6/dOeo5KEr5JpZ0MA+\nx0y6K3KknbNfcMRwgRBt5+cNqEQ9a4aItJ9PMAcm/hfFY2WQCGMSF2gTnpxfmgCh\nflS4slwMWHcPacmhJjWPp2fmYtA8hk3gTM9KfQBniH59CSUzIci5kYiQnOIedXNM\nSWdPKc7sqX0n6LAigfmEsNUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMW0KsiUtOPp/a9Qo5U4yq6mkskv3\nMSAq52dPgkAliQI0wr7Ptptf94MUMSEanSs0OTpWaZexvEtCfRkOxHyhjQ==\n-----END PUBLIC KEY-----\n",
+        "label": "ontologist@PrompTugal.dinis",
+        "fingerprint": "sha256:653ccefe721ca405",
+        "signing_fingerprint": "sha256:0e1d2d425f51699d"
+      },
       "status": "active"
     },
     {
-      "id": "journalist-promptugal",
+      "id": "journalist-promptugal-0",
       "agent": "journalist@PrompTugal.dinis",
       "label": "journalist@PrompTugal.dinis (Claude Code session)",
       "role": "The journalist of PrompTugal.news (journalist@PrompTugal.dinis): owns content/articles/ in PrompTugal/PrompTugal__News__Website, publishes the desks' Ready storylines and signs each article with this key (articles/<slug>.md.sig). A session key: it ends with its session.",
@@ -153,6 +214,26 @@
         "label": "journalist@PrompTugal.dinis",
         "fingerprint": "sha256:7235c8fe5fce5cb0",
         "signing_fingerprint": "sha256:41e0f9f183643c84"
+      },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:50Z",
+      "superseded_by": "journalist-promptugal",
+      "superseded_note": "The first journalist session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from journalist-promptugal to journalist-promptugal-0 so the active key keeps the role's id. The articles it signed are re-signed by the new key (the gate accepts only active signers)."
+    },
+    {
+      "id": "journalist-promptugal",
+      "agent": "journalist@PrompTugal.dinis",
+      "label": "journalist@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The journalist of PrompTugal.news (journalist@PrompTugal.dinis): owns content/articles/ in PrompTugal/PrompTugal__News__Website, publishes the desks' Ready storylines and signs each article with this key (articles/<slug>.md.sig). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account B on 6 November 2026 at 22:45 UTC (pki-agent.mjs keygen --session, the copy matching sha256 fcb28a1c...02ab) and pushed to this repository by that session, taking over from journalist-promptugal-0 (CLAUDE.md, 'Handing a role to a new session'; board/the-account-move.md). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtiEiQ3Squj/EUvdzCfCX\nU++mvn/K2M3TsIUDPozH6N36+acrLl4nZr6VFYt6velp9zaZHR2iGN8d+GAEGBP1\n+d2i5nOEeULfFADMKCjEjXWQYpGQIGsM+En/pWI2EG60r4xSbBDMarGAvcZXrvXU\nJxPtI9j21Dlaco2AJJizh9G3VT5E8jjj05REzE+KxXismD94OlSjBZEIDhxmEX+o\nlM5lBLMKn6I8NI+KundnTGfnRETBiJxfl1x+tUBz1DYHKyo9Lmhsykb9AjXY8QAJ\n48I6FteR+ZLhMQ1VuqAN64z6uzETKusJSa/dgKbX4KK/4EpRokBUAiS85mXFxf7I\nFJP6TmpmqkYBu7ciVaHYxTiWLhnHmd8S2ZjbkE/rtdB4le3JTfIVrZv9BSs8+1Op\nviPjnLhjYtufWgjQAQuOZ7k6jKs/z0E1/OGv7zaEP5QUALA1MXyWgI9dk2c+S9w6\nX0oNYmi4REIW8u6YplhzYrCnDTSo3nNeF2MuY25Fj5LSUB66e7jrnFy3gWNp+Lsq\n6Flup/TZb6pw+b2yP+m8TV0STQURAjjl0LQrmYmK2eVUnQq9iAzpF018SG7TJW6+\nufem+ArnzAV9AQ6TW6aYU4A/jJif/RYG54m1YR40cf/gRNFyrTlvnPOtdZRcY6wt\n0uJ8r0oHvN/R3bFlwDiqDIMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELkjiiySU7JRxcuXQKHiRaevzkVV8\nkiEs9+0IfEru/WyKXKlngSCwAM6OChePhk019kVNKEDcMSVJFJlXr2G5SQ==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist@PrompTugal.dinis",
+        "fingerprint": "sha256:a5ff882884960f87",
+        "signing_fingerprint": "sha256:b43b8a91849ccbed"
       },
       "status": "active"
     },
@@ -188,6 +269,24 @@
         "fingerprint": "sha256:1055555b35901e19",
         "signing_fingerprint": "sha256:ec0d0c60d25e2ae8"
       },
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by historian-b-promptugal (account B session)"
+    },
+    {
+      "id": "historian-b-promptugal",
+      "label": "historian@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "historian@PrompTugal.dinis",
+      "role": "The historian of PrompTugal.news (historian@PrompTugal.dinis): the history of the site and of Dinis's earlier work, from the record; lessons briefed to the other agents in board/briefs/; the history notes at /newsroom/notes/. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Identity record sha256:0d569717985c6923. Not linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4Wi1dTqeSu2gZWj7pj5V\nraXVMluKglrhreMQ1z+wEw2RsjpWLDLlIEvjcay8XTf8I41WEEwvPukh6YMesnhR\ngRaN707xy9zIZfxMJlH7WMUPuMWg+chfHilZaw1KtMdbNEzdza6HqeRukafTloCG\n6rhqI8F6Niwh04yjlIddzNMCJiEFZyV8FmRraaDCoJkPmdflq/L07iXm13cWw1XS\nZT0lLIrwPY/alXEpNrYsnQ4QWJ/57VcL/AyjkcbK8J1SeVVp51Lc8QWDbJkZkBYx\nJOd/DNyOdnot/SdcZlrZFAmN0tVyIPE9aNlgcQKvN2O0aYyjsAiDHLGyMfLqHgkk\nI6wtJUmc1QtHbqDpvCjwZ2cCDg20hCZNVTEyFHj7XW2s27Wt1BVc7yBaBw7V5au+\nGCHqFeYl93PsGo6rVxzP1riDgOFBGhINpLWCIh6ShOJQP2ewNqY7k54KMVqtJg6f\n9P++UtEQ3uGtd1pK4txxak+nK29sxaEnpcc917qMkLlYxGlDwLbnv5ERLofyQMrF\nhrsD1TPu4YutBfq7A4EzA46+oIYRHccUQOloSPdHrX8vLUaPslYKCkA+x0C44XsJ\n7GEdQ3sqpdoJt9fgld5qTZ7KgyQiAcRG3lu9pXMfVwo9BX+HmAfPYwS9zW1PX9z3\n5SF7EwDxrhWYxKz4twAb4X0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdwipRNSI1oI/+xDkY2cDbOUAtWET\nGAYNgaU9R4/Vebd0nMnQRhosCUvAPJZ+A3LamFPv7ey2Mc5MOXvExtOmBA==\n-----END PUBLIC KEY-----\n",
+        "label": "historian@PrompTugal.dinis",
+        "fingerprint": "sha256:736946c2ec69fa90",
+        "signing_fingerprint": "sha256:0d569717985c6923"
+      },
       "status": "active"
     },
     {
@@ -205,7 +304,8 @@
         "fingerprint": "sha256:fbc125d9f999f457",
         "signing_fingerprint": "sha256:daef48c7c5018fdc"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by devops-b-promptugal (account B session)"
     },
     {
       "id": "security-promptugal",
@@ -242,7 +342,7 @@
       "status": "active"
     },
     {
-      "id": "correspondent-promptugal",
+      "id": "correspondent-promptugal-0",
       "agent": "correspondent@PrompTugal.dinis",
       "label": "correspondent@PrompTugal.dinis (Claude Code session)",
       "role": "The front page correspondent of PrompTugal.news (correspondent@PrompTugal.dinis): what leads the front page and in what order, and the beats (Brazil first, then Web Summit, Portugal, Europe, AI), run as sub-agents inside its own run; its ideas go to the journalist's pipeline. A session key: it ends with its session.",
@@ -256,7 +356,10 @@
         "fingerprint": "sha256:953eb2aa8baa5a43",
         "signing_fingerprint": "sha256:fa11781ad626dce5"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:46Z",
+      "superseded_by": "correspondent-promptugal",
+      "superseded_note": "The first correspondent session handed over at 21:25 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from correspondent-promptugal to correspondent-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
     },
     {
       "id": "sherpa-promptugal",
@@ -273,7 +376,8 @@
         "fingerprint": "sha256:a661c7c6edda1d51",
         "signing_fingerprint": "sha256:815546ef5b00a41c"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by sherpa-b-promptugal (account B session)"
     },
     {
       "id": "librarian-promptugal-0",
@@ -344,7 +448,8 @@
         "fingerprint": "sha256:07a3d6a50e599607",
         "signing_fingerprint": "sha256:c9343261a2d9c30a"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by customers-b-promptugal (account B session)"
     },
     {
       "id": "backup-promptugal",
@@ -361,7 +466,8 @@
         "fingerprint": "sha256:feab076b8f1d1683",
         "signing_fingerprint": "sha256:be79ffe28ee62bcb"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by backup-b-promptugal (account B session)"
     },
     {
       "id": "dev.pages-promptugal",
@@ -463,7 +569,8 @@
         "fingerprint": "sha256:b8f5887596dbfb11",
         "signing_fingerprint": "sha256:f93bc841c931c599"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:55Z by researcher-b-promptugal (account B session)"
     },
     {
       "id": "dev.portugal-promptugal",
@@ -739,7 +846,8 @@
         "fingerprint": "sha256:19d76c449efb9d2b",
         "signing_fingerprint": "sha256:f44298c6cc19ca3f"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by investors-b-promptugal (account B session)"
     },
     {
       "id": "conductor.b-promptugal",
@@ -756,6 +864,166 @@
         "fingerprint": "sha256:05e955d1ea81f4d9",
         "record": "sha256:fe323e2c23635d70",
         "signing_fingerprint": "sha256:fe323e2c23635d70"
+      },
+      "status": "active"
+    },
+    {
+      "id": "designer.experiments-b-promptugal",
+      "label": "designer.experiments@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "designer.experiments@PrompTugal.dinis",
+      "role": "Design variations side by side for Dinis to choose, within the brand guide; a worker: pushes only to work/designer.experiments, reviewed by designer@. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvUa/0By3vOwqs5GtjXwb\nzYVD4qIKaMfdR7uGX7adOi1L2wXM/WWGpE7NJuF6KkOZHxBpAQMNFjAqg+OXM9Me\nm53ooXk8/WQE22JBBvMMsUc46K8fsvbgAQddgdAnTWESK5KElUz+R4qkaLehFK7T\nY281/8qszG8fLmN7D9Pl3g1V2LU2JGtBp2ma+LcjxmhER12Yj3ty4/N79dWLprSh\nGg0SNE+7t0uh00/wliBtN0LoWpy4mdFpfHWluLlQNhn7FOKopHj6n/FhzNz8KrEH\n07R9q0LaVbiTS/6L/AG1855pCZ4f0BOUjV0016E2NoNEMni97vYz8Oey311luXg7\nqGMGJk0Unu6Cniz0n0B7L2rKZKg2v1mayrMx32sYfGCrXr6IJHC7h5MjbKnSgTPw\ns6CS1jD/jNa0dOlykNg7V7ojKjd+vi8zooaK55AEruEqUAyNZQPzKYdseU7kwx5u\nSspjDUvH13HMouA80xnTDkOv0TluvnwpwILYoFDQeN8PeGR9RPkbU3lTF2/IgX17\n1NMFzFKjeJcampm1uYPgrh33E1rf//ZJsrneTi2hnYejZefNeHCHClm7Urp+to1t\nUYahjrBtFwZUg/DwS4E/4DEBcA565X1cdJVPn37DFmxvW7o/NIDbrb9uTnLWm6tD\n/W279Josq11bAGB0gZT/xO8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZyEtybreUJQKTwLEO30hTrgvp/y7\nTkV+Y0199nmToBuauQy14Gcc8YwttMUI4FNqeV4KdEb2dG87qbENw0nn5g==\n-----END PUBLIC KEY-----\n",
+        "label": "designer.experiments@PrompTugal.dinis",
+        "fingerprint": "sha256:f159a0638dced156",
+        "record": "sha256:9f23f97717f21f2f",
+        "signing_fingerprint": "sha256:9f23f97717f21f2f"
+      },
+      "status": "active"
+    },
+    {
+      "id": "customers-b-promptugal",
+      "label": "customers@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "customers@PrompTugal.dinis",
+      "role": "The customers agent of PrompTugal.news: Dinis's briefs on readers, customers and products, in board/team/customers/, routed to the conductor; it briefs, the owners build. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvhks5XUgeoFDBnPwKUCP\nuV0olC2JLSjpWK9DHKOjn00Th3z08VOiDSLeLLc/SS0DFZXRtB4WLM84glXqAVsK\nAHa77yuH62iaKAjxViVP2YzAiQpjPqvdV+Z/rHA4GkWiWW/TTdAViGxVjiLr99Kw\n0neaBZbdO2HSQXVrWSHa2/gs/HA5VL7VAygQmvPqGEXOo5mBClSk27m/48hFCp+g\nnSZjX5mKs4msA+21sFQKYxMP6SlcUocWve6P3pjA4KyDYM2+DqCdpnrbifB74G/5\nL+ijqu40V7rwpKtoFI23+wA1mG7YQfq6ZUD5TeggSbDpr8CI0QFTanWzY7okNmsZ\noBrV+Cel3zN+C4zghwH8dCcdR3s0xr3R7O+2LcNeHeCaYGSsES6shey6qfS4Gjp9\nwzXJ4j77QU2kTlUsroCbhcZHFOTJg3masefDWsbeml2FalYzuUKVx1TEHl/XaSoj\nHC5Ds9OVAJ30vxnkjhjf0J7wpXmKZJ2xr/lc4qznKZZjabw79BsKqZJIxVocXYZ6\n58GWAukyc90YHE3XwQ20k+8giesaWbRDZy6AXKjQ0HktrC3e84xNicTVtHgMmYn5\nUMAZ0nlqi8PFFsEkZW9ww9f8FOW1Yd3RC+nSVa6xCmcTVVhLMFqV67Qia7e3FG01\nCXNErclBq+TEIoBDfHvOoT8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOm0hmySrxtRC1fWWVHkzlIQVKXMq\nam0Zsznba7mN9gMSHJtq/8vgILWb8bAQ0jNcEHkPehv8W9cZcE2TkU6NmA==\n-----END PUBLIC KEY-----\n",
+        "label": "customers@PrompTugal.dinis",
+        "fingerprint": "sha256:e94bfeeabc6d5a71",
+        "record": "sha256:8f0e91dadb288261",
+        "signing_fingerprint": "sha256:8f0e91dadb288261"
+      },
+      "status": "active"
+    },
+    {
+      "id": "researcher-b-promptugal",
+      "agent": "researcher@PrompTugal.dinis",
+      "label": "researcher@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The researcher of PrompTugal.news (Sonnet), second session on account B: public research on a mandate per task. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; copy sha256 fcb28a1c...1002ab). Linked locally to the operator key sha256:db7f79fdd87e030a; not submitted.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2PNEyUu57ZpEC6wVAby1\nP/elKhW02UFqDXjBW+epBsJVIlpcFQRboTB9uuNYwpfMgz4LT//2L4brplrYd9Y4\n5Q+LFvjDLEY8kdG+oSNLIjMgSnrHBM5TB4xH7wahj5oVWyHikJN8Jz848I2zWYnj\nC7cNjUmnYKYacOeYKurIw+msdmNY8pdadD5QsBogHwcT6LUyi8v1ctY23R51Yenn\nfFIwpPOsGUhQSrXJWqBNFlOnWT4y5Vi3miPUyUQtaqpOfTM/V++eatQ6ngkyHoAL\ngGtQDmEK67/o3PiffT2T3pDMeyPSqwTC1JWoPOkQcAVx+g2N4Jvd6wWA9Mno3f/R\n9kf0aXSktpqFhXt+lBErFieQfVzNjwE5TegNzUPI7zsjkcxBqLuUfNfX3UzIP9nO\n1jHBmgFLHGU2WUWRTDx6VVdSgptSRQhtQJYTEWezTbny3g7hkVZ1qHD8RqPUvw8x\nE5PEe36u+s+0mNYxbaI7Z6zkAeNkrmxKMBnkyFU/milmrjyn/XrDQidV87lgJi8x\nde9K+sSCefluRYUl2apyrczuISwrIOyTY65w3cHgZcSKJ94LRv/wHjo0i/blkkAb\nBOPxby+qzO/QxOR9Q0aELWJ/61uKPxMhVIGlS+fk5wKwU1U8dUoZdNT7b09SVGfZ\nsfiY+6wdPQE8lYB9DNtWzCUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEktPtj7EqiklsphRdivGu61Tls+sB\nsnTNf8hQzgCCsQa6LMwHxxjzexT8//S64/LxMeH8dm+4y6GiJ3WQvjU84A==\n-----END PUBLIC KEY-----\n",
+        "label": "researcher@PrompTugal.dinis",
+        "fingerprint": "sha256:8b63c236511fdc0a",
+        "signing_fingerprint": "sha256:27e31c309115516e"
+      },
+      "status": "active"
+    },
+    {
+      "id": "devops-b-promptugal",
+      "label": "devops@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "devops@PrompTugal.dinis",
+      "role": "The devops agent of PrompTugal.news: the health, quality and performance of CI (.github/workflows/), the release and tag scripts, every tool in newsroom/tools/ and every automation of this site. Took over from the account A session (board/the-account-move.md, wave 2). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Not yet linked to the operator's key.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAu8UnU4gMiHogBryesx0Y\nMVIdt/d6IRkbhXa6V/xxrtHEv/XLwU/qwD+Eg09++dkNbRDCKOL8RnoJmSM1Y6G3\noL3CDT/O2EKmgtIsQxKGGXm12t8lOJw1tluERgMhSC8QPatEP6Fztja6SSTMrXzC\nBEgnw6xUz9vuSQIw9BeinGnVDRr3SC8h3RMhRIPeXaIbT4OXwWGmHGD3u+h23ev1\np4QwoIHoHuCI19ebKPorre9JDaeDwbWya4WlToFWe0ilUCoeGkHu+4YX9nK8wTyM\ndMMFqumpp3vkHWIOj7fE/qKU/DN3mcafiNPt+/LpE8AK0KtuI4yZymCEcjy6e07O\nXy9F4WNUsL2z9pSJY2+5eL2fLTddQtDYqxsfIKADFHUqxXum81JDohwmDzbHaQ2O\nkGnOlx1lNPepnRoRxeBfm5GrmTwCo4LcooTi6O0P31CkP/R9u/E0ZIstS06OQX7f\nierdOJOF+NlUpoNnbexk5COdHmp+UX+N4a12JfCHSOb89tD2ZDNApO92KEPUj2tj\nyO2EUhbTeBVGFA2K7H/KSxHM/PjcXPctaFlpFuJIPi5E4u2BMrk6IhFJebrJILb8\nzGZtiF0A9GYFvvzJvkeMqsbO0ffGHYAKi6JfFsc/9bioWERpjHGXWXBwwhSlv3IV\nvEKN66DXkfxC0YT6uk01FCUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAW6qXr0arEupimLC272G3JVVs5/y\nrX1GNC7RS2aLjoQAVTAMT6h0mOpNyJCSzLIHc00T3ZZLI7mbrkXAPKh66Q==\n-----END PUBLIC KEY-----\n",
+        "label": "devops@PrompTugal.dinis",
+        "fingerprint": "sha256:fa7366296dc6a3b3",
+        "record": "sha256:186832e486fc18ff",
+        "signing_fingerprint": "sha256:186832e486fc18ff"
+      },
+      "status": "active"
+    },
+    {
+      "id": "outreach-b-promptugal",
+      "label": "outreach@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "outreach@PrompTugal.dinis",
+      "role": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page, sent as contact requests to the Web Summit team under the comms protocol; never sends. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAujfpx2x4J1A9svdGngDd\nXLAiJMBihhFp51MU4VKUYY4IZBIFUuKTtkDEvfxcIvLUzUq0qEy7brQcaYGUfaY2\nwgfOMtR+GlR6VvKNtsofl/EkZWeVwMJRZqbp64s+QwLqXD6G2PtKFQMMVhiCMNr7\npFsHl1Qp0EE3sxzKIeOwbbtg1DjYMrdIOsNy5DHNnogf2yNE/+yPS9I8JeIm2Ix1\nrMb825nGkVjC2ErRAY9+gROOLiy9JZQhG5GaJ96N5lbkeH2ovA/tlS6Q8YxO94eb\nnCAJugDUIhUf6EOsU9y9hf34mhFS+7FB8zlcBB2ljhzgcPtuhslBTs2TOXePJ0hj\nuJl2qzV9UAqa+RKrcdQeahE9+3whEa+ipu4WCXO/SZXGEVfSP6w+aCgYhGggiBvG\nTgAWYLQ5xdXK+78aQFLcuJ8fvOKOcWVAAkeykJ4plUv9qK3cRY8sSCPYdTMkqRnZ\n/5NdAdwRf5w3LPMME4Vr2Pn5usWBHSE/T9+wea7HpFI3OuOtuE437WNin4SNp4xq\nAsqM9QJkdcCscxUNnjuAMmMYNS2nL5qfmeHCWe1E6sE9jhKRfq2jrK2B4JwFIRak\n4Y1UY0/ZnpDemIQat/gOfzBBpuq/9Avou8eM8egsIArEa5i0pQL5cwEozGD8xX77\ndSvc9pk3vM4MCxK2ujCYlKUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXLe1GI9EYAicR0ncgmcrnoeUVAHt\nBG6e7Zqlp6ITR4l5JTOYbmTfc1pZNOjhFrxY4oUg5c0ngbStsJFUL0u98w==\n-----END PUBLIC KEY-----\n",
+        "label": "outreach@PrompTugal.dinis",
+        "fingerprint": "sha256:61dfd5234bcd2880",
+        "record": "sha256:fd327f683fdeb6ad",
+        "signing_fingerprint": "sha256:fd327f683fdeb6ad"
+      },
+      "status": "active"
+    },
+    {
+      "id": "investors-b-promptugal",
+      "label": "investors@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "investors@PrompTugal.dinis",
+      "role": "PrompTugal.news as an investable business: its own investor story, apart from investors@web-summit.dinis; publisher The Cyber Boardroom. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApEEN9S7r/cBW64FyXmWn\nlU87NkDRYrAoWTtjgQFFDQps7OxsGn/Mu5iMG6X8DZdiDeg2kLRJeHNGqcQMJr4B\nctR/oHlbcWAmATfWXQngad/FKpoWvNH92f7m0f9gKfsSdDyo+dlXSSXXkoPRc5VB\nW4NyEmsVJWx5jiHHJbq4M1X46JyCvc/44c85TK0E4HZqlqPO1ymea77AvbCqjTXF\nUl7fBv9tuy/+0jqcK3GNmTnSa5MNuIgI7YWb2fZydtRJjSfqrhWTZXUmeO0eWu9s\nD52QiDMgAVYA/M2qot8B6/KoZsuUjUSkYc/59nnv/zJxsQuYWU6UjkLY/XQI2DHF\nRO+1bjfow7Pj8vloxpVoTmssU7mZ5flB3R4kl4C8nbYabwuqzQbZ4bFSuLY53ZSd\ngo4zJ2co7sYeB/nltm24/CKLie08/8vAiUf9yLSRE8okQUdHjQ86jmfrGaQFlMif\nOgNlAISf45wyZ3gI2FTpf1OT65aHIBaUX8QRhaoM43npmUCV+IB/5T0jP1oD3qbn\nAtDk0CEnGHbMhlIt6LpiBJ02k4cPz6AiIeDOI6+WjEkFaSkM1bu/r6asoKn0YSwI\nOSBcJz5XAoFQjlypifFHIIM8a8Z4DLWo3o4xQHfgUPETOdcf4JbLqi5PBj3XscXW\nhxhNs9obkD4yGdjjdfsqVR0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyktrR2yyQqHltCx2ce7dBdkR9zzn\nroHJXB9jO8MzYcGb08d03iNNt1m5d9WHQOi8kc2DwElQnyBCpedW/kH7CQ==\n-----END PUBLIC KEY-----\n",
+        "label": "investors@PrompTugal.dinis",
+        "fingerprint": "sha256:45a306a8b5220b6b",
+        "record": "sha256:200b5953c6c55d8e",
+        "signing_fingerprint": "sha256:200b5953c6c55d8e"
+      },
+      "status": "active"
+    },
+    {
+      "id": "backup-b-promptugal",
+      "label": "backup@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "backup@PrompTugal.dinis",
+      "role": "The backup agent of PrompTugal.news: regular full backups of the repository and every vault, and the recovery plan with security@. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnuyOiU7/0x2PYm1vwHt/\n7yKWrtI0guDMM+7eBkm4YdrNijbuD7TjsBBqlpAdAI9LeEG4wxUsJ6FdMff2Iy1l\nbCdAmHCy6DUPqE+WY0dNbnQ+HIfkSAW3neB7UGP+2dmO4+mpxyw2BDGs43/ieH0C\nr1QCogkeEgDKPJLbbPlQrPhGMlXHsCR8OU8DuVcPSc5lODC57pOkEQMKBQvUGAuE\nwQw/ef0KiAw23DIFhLoO3J3iz7PVdRM8h87BtC/8JCA0TiACFp4SQdKllYky6hhr\nC+ZRETWpz4cKdOdEOHEr8Yutz8Z8tnyGGCjf90HhXbzXqaKyrpQR0XIbIhrjFT/y\nlXbIyIMiFa+MqHi9rNG0tvhm53LsGfDbR3qScCKK9HAjJ1YHer2DUW5T1xRQx0Sa\nJLLMSEg0XEmuKztQpua3X21ECehfc2FC1BR2k3M/c8XscqIhi/KXJywQPxaN742o\ntP5deVDBT0QTTYfzBiaVELJdUxB5q4g99Jc0qbOn0SzS9Tl1OpsLaWrdlTOCTtDg\nhYxAhqQRap8sFPFomcdqbPSBQOIs3jp+mDhMWGtHxTAcq+lNQg9IkwoE6VCrZKn9\nWSjpVoLQKiGoGIV9WYMl99JhHCAVDwcMtSOj67OA0oSLdOO1k8i3D5c8CD5+Burz\nhhgMCSoP9hTVhb1a054ediMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEteQvnTBO/avsUBRFkBKF+QSR2Igw\nPrvmgfM2hBH88xjVG90qQwbpVOkBbAY0Y0PGBr7+IGOjbOlpTXMLbsPDnw==\n-----END PUBLIC KEY-----\n",
+        "label": "backup@PrompTugal.dinis",
+        "fingerprint": "sha256:8ae983865de8deb3",
+        "record": "sha256:a9b5a7ae8b925a0a",
+        "signing_fingerprint": "sha256:a9b5a7ae8b925a0a"
+      },
+      "status": "active"
+    },
+    {
+      "id": "correspondent-promptugal",
+      "agent": "correspondent@PrompTugal.dinis",
+      "label": "correspondent@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The front page correspondent of PrompTugal.news (correspondent@PrompTugal.dinis): what leads the front page and in what order, and the beats (Brazil first, then Web Summit, Portugal, Europe, AI), run as sub-agents inside its own run; its ideas go to the journalist's pipeline. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account B on 6 November 2026 at 22:44 UTC (pki-agent.mjs keygen --session, the copy matching sha256 fcb28a1c...02ab) and pushed to this repository by that session, taking over from correspondent-promptugal-0 (CLAUDE.md, 'Handing a role to a new session'; board/the-account-move.md). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1B1t9sKO1QySkiwMGGRD\nltT0Ldn3ugXKxJYLn+5vVIBGOiJyq3XUnlSnRpaymP/7r7mm3dj7QtyfpQ68dKs+\nKWPKuSvOuOSCHcgb2Rmgnvb5yJ5yVXiAVmnbYkqufskd/jQR3uvG1O6FgiXDNN1v\nRVe55BAWX5hz33md/JpjmcQqQ9OgoGA8c7VGCYkftpV9c2UUXwwo57geyY9AOcuT\nWubYe85r2yFLB+PtvHRxPPXgzDVgPO2FEWqGDjBm460JxoltUSjxWORAd5+KjHnd\nayIfdw+cu/9C7mmttdxYjIp3OBuaQTld5bFIYv6dJSUd9l1K5tzDP/suSsCsGtKM\nu+/JdqTgSBYBaECMmJ57spVo21V/4svlQTFHre7Wv4FeEZNerkWInCWGgAmb73Yk\nFG0Cux6AlXYPytoQd5KU9liW9x4MQiqYlNip9sJpjfnUXeil2+T0rrFk3c8JaCFu\nCPrIvEDDgzAu4abs/kg3KPn8PqASuDrxyqbn67TVbzinU3a1XI36K15u0vlCaQq4\n6ReRmtFcQpMUsQEV7hPuHGnSCZveUOAyhCvQblcBdmHjd6rw1uCDIYMAWaRoMkVr\nk1mJI9GWWNfoxLIDx3Hyy25Y7RhfOvkegVhe9S0TWsfG25iNOr2ZSuh5GHI6rOwn\nEPlnyROh8YP2cJKbOzA8mTMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKBIff/NFQubWQJiC85qbZap10ryk\nDHbyOjTQev3BBhbEHWWSBAGRfwzF13k7Xh9xejIH3kh/DdsCy7F4btXkEA==\n-----END PUBLIC KEY-----\n",
+        "label": "correspondent@PrompTugal.dinis",
+        "fingerprint": "sha256:06891d03b7a714dc",
+        "signing_fingerprint": "sha256:81e5a56c22bba357"
+      },
+      "status": "active"
+    },
+    {
+      "id": "sherpa-b-promptugal",
+      "label": "sherpa@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "sherpa@PrompTugal.dinis",
+      "role": "The reader's guide of PrompTugal.news: the experience of every page as the person who arrives cold, on a phone and a desktop; reviews in every pass. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuTjj1s00Sgc7DTgnaknf\n7Haz3L00b5cBWsR+fu/i20aSMqEAQXTA0kfBTiEN+sKLZqoquSBCZ+i1Uq1Bot+U\nx4tPxkqNeikuHFzTvJudL3A4GXUo0KNeVM1k6jPusEcGWXpIKqmLFsqwk+0cQ9Rb\nkLxi7kVU7kUwrUuWSxKQEqiB4n2wQwzfkkMwOzA2s7JeWQ2wp+S9qkPFz3InGavK\naI0990W6bNJ9o8OJUGw4PCRHSSqKP6Ype1YNcqUZQWK3KgG7hQRfH9HuS9Kfphgv\niDSnv5bYtCF5v2zY1FYjXmHZUjv1HFjcjW3CU361Ib0FR6sSZfiphC5PCODdlVRt\nHejWsr30KeMrigkNS8Y7TVtTH1Oi2pfNQD/qtHvBakqqUKExD2sMKEJl5fyoNl9s\nQSbtgsK4/Jpzgqg6+jQyY/fYWRhT7/2+cGAHwAAixktaSGSHC+ZlIMmMYoJZ5+DL\nqd1JSbAocR/tGBdOIizfH8wkxxmxWU6vlxLkuF3dsIBQHyXnW3QRFdzoEAT/ocYB\nRU25WcczX0qElqejPJmNd9Ale//M2yXY9bchA+ii1O5FHQ0G1pUDttgCyGIuMDWq\nJwVbeLkoVwkc988lV6qiHv/0/Ues+wlSejPkibwNSF6iRhODl77AjjLQ6eDNKgFH\nXYCMe+W5ldv40zbyjq01GJcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIpQerlhMtdxYzOHcfE+DZ9RSldC/\ntJemH9KO4DTJWZSwaGYW4AEtst+S9YEbwi8yFHDQ08mZIvI1k9g7CP8FEg==\n-----END PUBLIC KEY-----\n",
+        "label": "sherpa@PrompTugal.dinis",
+        "fingerprint": "sha256:5f9bb79893924572",
+        "record": "sha256:66809fbd319dae5a",
+        "signing_fingerprint": "sha256:66809fbd319dae5a"
       },
       "status": "active"
     }

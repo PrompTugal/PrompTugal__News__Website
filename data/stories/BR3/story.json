@@ -5,7 +5,7 @@
   "title": "Rio sends ten startups to Lisbon on a new flight, and one is already on our list",
   "beat": "Brazil",
   "topic": null,
-  "status": "idea",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/correspondent/ideas/br3-rio-ten-fly-to-lisbon.md"
@@ -13,23 +13,48 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/correspondent/ideas/br3-rio-ten-fly-to-lisbon.md"
+      "desks/correspondent/ideas/br3-rio-ten-fly-to-lisbon.md",
+      "desks/journalist-promptugal/drafts/BR3-rio-ten-fly-to-lisbon.md",
+      "desks/journalist-promptugal/checks/BR3.md",
+      "content/articles/rio-ten-startups-to-lisbon.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.dinis",
   "needs": null,
   "held": null,
-  "draft": null,
-  "check": null,
+  "draft": "desks/journalist-promptugal/drafts/BR3-rio-ten-fly-to-lisbon.md",
+  "check": "desks/journalist-promptugal/checks/BR3.md",
   "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "article": {
+    "path": "content/articles/rio-ten-startups-to-lisbon.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-06T03:55Z",
       "by": "correspondent@PrompTugal.dinis",
       "file": "desks/correspondent/ideas/br3-rio-ten-fly-to-lisbon.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "desks/journalist-promptugal/drafts/BR3-rio-ten-fly-to-lisbon.md"
+    },
+    {
+      "column": "fact-check",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/checks/BR3.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "content/articles/rio-ten-startups-to-lisbon.md"
     }
   ]
 }

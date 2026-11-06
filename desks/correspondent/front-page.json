@@ -1,24 +1,24 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-06T20:45Z",
+  "updated": "2026-11-06T22:55Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
-    "article": "web-summit-ten-lisbon-years",
-    "why": "Back as lead at 16:45 UTC after the Algarve Evolution window (14:15 to 16:00, Dinis's meeting): EY's report puts ten Lisbon editions at almost 2.5 billion euros for Portugal's economy. S9 takes the lead when its round 2 (BR7) lands."
+    "article": "your-first-day-at-web-summit",
+    "why": "Saturday 7 November, one step ahead (SD-16): registration opens at the airport and at Pavilhão de Portugal, so from the night before the service piece the day needs leads, as planned in days. Set at 22:55 UTC Friday by the account B session so the reader arriving Saturday morning finds it. EY's ten Lisbon years moves to the top three."
   },
   "top": [
     {
-      "article": "brazil-startup-mission",
-      "why": "The first story project: five counts side by side, no public list for the mission's 100."
+      "article": "web-summit-ten-lisbon-years",
+      "why": "The lead of Friday: EY puts ten Lisbon editions at almost 2.5 billion euros; still the biggest number of the week."
     },
     {
       "article": "brazil-on-the-stages",
-      "why": "New (BR4, from the Brazilian beat): where to see Brazil at the summit, officials, founders and the pavilion's fifteen sessions; useful to an attendee from Monday."
+      "why": "Where to see Brazil at the summit; useful to an attendee planning the week this weekend."
     },
     {
       "article": "lisbon-awards-and-the-algarve-plan",
-      "why": "Algarve Evolution's plan, with the mini-site at /portugal/algarve-evolution/."
+      "why": "Algarve Evolution's plan and the mini-site /portugal/algarve-evolution/, for Dinis's Saturday follow-up."
     }
   ],
   "service": {
@@ -80,10 +80,11 @@
   "from_the_newsroom": {
     "articles": [
       "the-first-night-of-promptugal-news",
+      "angelos-communication-graph",
       "what-the-agents-say-to-each-other",
       "newsroom-status-four-days-out"
     ],
-    "why": "About us, not news: the first night's story (people and agents setting up the site) is the better of the two and goes first; both in a small 'From the newsroom' line, off Latest."
+    "why": "About us, not news: the first night's story goes first; Angelo's communication graph (T1, published 22:00 UTC from Vicky's desk) second, the map of how the agents talk; then the agents' messages counted and the status piece. A small 'From the newsroom' line, off Latest."
   },
   "order_of_bands": [
     {
@@ -238,7 +239,7 @@
       "at": "2026-11-06T06:44Z"
     }
   ],
-  "note_for_dev": "Read today: lead and top (thank you, 75166071). Not read yet: service, beats, from_the_newsroom and days. Until they are, the Latest list carries everything else newest first, the newsroom pieces among the news.",
+  "note_for_dev": "Read today: lead and top (75166071). New at 22:55 UTC for mock E: 'briefing' (five slugs, numbered) for E's 'The briefing' column; 'top' for its main stories after the lead. Not read yet: service, beats, from_the_newsroom and days.",
   "standing_rule": "One step ahead of the summit (Dinis at the stand-up, 00:23:17: 'we probably need the website to be just one little bit ahead'; the ideas ledger, SD-16): each wake plans the next day's front page in 'days' before the day comes, and from Monday 9 November the evening's run sets the next morning's lead.",
   "feature_history": [
     {
@@ -249,5 +250,31 @@
       "note": "asked of dev@ as a band under the lead; not read by the build in that window"
     }
   ],
-  "newsletter": "From Saturday 7 November (Dinis, 16:20 UTC): the morning and evening editions can take each day's 'know', 'lead' and 'also' from 'days' below (the morning: what is on; the evening: what happened). For whoever builds the editions."
+  "newsletter": "From Saturday 7 November (Dinis, 16:20 UTC): the morning and evening editions can take each day's 'know', 'lead' and 'also' from 'days' below (the morning: what is on; the evening: what happened). For whoever builds the editions.",
+  "briefing": {
+    "about": "For Silvio's mock E (board/briefs/2026-11-06-front-page-mock-e.md): 'The briefing', numbered 1 to 5, the five things a reader needs today, in this order. Article slugs; dev.pages@ shows the headline and the section. Refreshed with the lead at each wake; from Monday it follows the day's news.",
+    "for_date": "2026-11-07",
+    "items": [
+      {
+        "article": "your-first-day-at-web-summit",
+        "why": "registration opens today"
+      },
+      {
+        "article": "tuesday-10-november-three-ways-in",
+        "why": "plan the first summit day this weekend"
+      },
+      {
+        "article": "web-summit-2026-in-numbers",
+        "why": "the summit in numbers"
+      },
+      {
+        "article": "brazil-startup-mission",
+        "why": "the first story project: the largest delegation we follow"
+      },
+      {
+        "article": "europe-in-pavilion-4",
+        "why": "Europe at the summit"
+      }
+    ]
+  }
 }

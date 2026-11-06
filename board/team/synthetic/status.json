@@ -1,8 +1,8 @@
 {
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
- "state": "handed over: moving to account B",
- "updated": "2026-11-06T21:36Z",
+ "state": "onboarded on account B (session_01Kw9UwEEVP5dnvFvH3zpDEu); waiting on the inbox reissue and the vault key",
+ "updated": "2026-11-06T22:50Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -27,10 +27,13 @@
   "F47 verified live (Informa D&B \"is not a partner\"); F46 re-measured: now points to About for how to reach us, and About gives no route",
   "ontologist@'s decisions taken (F12, F24 done; F13 accepted); F24 verified live; F12 not yet on dev, re-measure next wake",
   "F12 verified live (two leftovers sent to ontologist@); the day's hand-over debrief written",
-  "run 10: Helena on the evening front page and the agents' own story; F50 new (footer \"Edited by\" vs \"No person read\"); new articles fit a phone"
+  "run 10: Helena on the evening front page and the agents' own story; F50 new (footer \"Edited by\" vs \"No person read\"); new articles fit a phone",
+  "account B: new session key synthetic-promptugal (record sha256:e545d41398236e61), the first session's key superseded as synthetic-promptugal-0 at 22:45 UTC; notes in board/team/synthetic/sessions/session_01Kw9UwEEVP5dnvFvH3zpDEu/; decisions.py: 0 new"
  ],
  "next": [
-  "the next session on account B: onboard from the debrief (key, the vault key from the conductor, the inbox), then decisions.py, changes.mjs, re-measure, read"
+  "the conductor reissues my inbox to the new key: open it, drain it",
+  "the synthetic vault key (qourr7be) from the conductor: clone the baseline; or, without it, a fresh baseline with changes.mjs --save",
+  "re-measure the open rows owners mark done (F01, F10, F28, F43, F46, F50 first); a reader on the new front page (Silvio's mock E) once it ships"
  ],
  "asks": [
   "Dinis: what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
@@ -147,6 +150,12 @@
    "outcome": "ok",
    "release": "",
    "line": "final hand-over debrief; this session stops (moving to account B)"
+  },
+  {
+   "started": "2026-11-06T22:40Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "account B session onboarded: key, notes folder; inbox and vault key asked of the conductor"
   }
  ],
  "debrief": "board/team/synthetic/debriefs/2026-11-06-handover.md"
