@@ -29,7 +29,8 @@ export function validate(gate) {
             const t = gate.text(rel)
             if (!t.includes('id="briefing"')) out.push(`${rel} has no briefing block`)
             if (/\{(nodes|edges|companies|people|events|places)\}/.test(t)) out.push(`${rel}: a briefing placeholder was not filled`)
-            for (const s of pages[rel].slides) if (s.href && !gate.exists?.(s.href) && !gate.generated.includes(s.href)) out.push(`${rel}: a slide links to ${s.href}, which is not a page`)
+            const gen = gate.generated, has = f => (gen.has ? gen.has(f) : gen.includes(f))
+            for (const s of pages[rel].slides) if (s.href && !has(s.href.split('#')[0])) out.push(`${rel}: a slide links to ${s.href}, which is not a page`)
         }
     } catch (e) { out.push(`cannot check the briefings: ${e.message}`) }
     return out

@@ -23,14 +23,11 @@
  ],
  "from": {
   "targets": "desks/outreach/targets.json",
-  "rank": 49,
-  "priority": 2,
-  "ask": "write-about",
   "replaces": "people/silvio/outreach/messages.json#roost (the RiskMandate-led draft)"
  },
  "drafted_by": "outreach (PrompTugal.dinis)",
  "drafted_on": "2026-11-06",
  "messages": [
-  "2026-11-06T0700Z-draft-roost-en.eml"
+  "2026-11-06T1400Z-draft-roost-en.eml"
  ]
 }

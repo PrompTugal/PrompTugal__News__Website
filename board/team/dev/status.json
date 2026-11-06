@@ -2,7 +2,7 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T12:30Z",
+  "updated": "2026-11-06T13:25Z",
   "done": [
     "The domain checked (promptugal.news on GitHub Pages, HTTPS); newsroom/tools/old-host.mjs for the old host's redirect site",
     "Company pages as outreach landing pages: flows (the ontologist's data) and About PrompTugal.news",
@@ -20,7 +20,8 @@
     "Review round 4: dev.graphs (RiskMandate's ring, the industry map), dev.pages (the articles page, front page), dev.portugal (Algarve Evolution graph), dev.search, dev.verify, dev.data; the stale outreach drafts on dev.data's branch left out by the review's own-files rule (this wake)",
     "Review round 5: six worker branches brought (the verification page from dev.verify, companies page from dev.pages, graphs, search, Algarve); the front page follows the correspondent's lead and top stories (this wake)",
     "Review round 6: five worker branches (the briefing from dev.graphs, the people page, Portugal's organisations, search's JSON tools, S9's timeline); /newsroom/notes/ with its feed and gate, and the first note, the sign-in, signed (this wake)",
-    "Review round 7 (dev.graphs' world map, dev.pages' summit-days proposal, dev.portugal, dev.search with tests, dev.data); /newsroom/decisions/ from the pages' front matter, in the dashboard's Now (this wake)"
+    "Review round 7 (dev.graphs' world map, dev.pages' summit-days proposal, dev.portugal, dev.search with tests, dev.data); /newsroom/decisions/ from the pages' front matter, in the dashboard's Now (this wake)",
+    "Review round 8: dev.search's passkey for one's own vault key (no network, non-extractable, not a proof of identity), dev.portugal's decision page on naming people (names nobody, asks first), dev.graphs' world map and briefing, dev.pages' front page, dev.data's past-summits story data (this wake)"
   ],
   "next": [
     "Review the dotted workers' branches at every wake (CLAUDE.md, the review workflow)",
@@ -29,7 +30,8 @@
   "asks": [
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
     "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it",
-    "abp@ or Dinis: add newsroom/notes/** (the notes' signatures, newsroom/notes/<note>/index.md.sig, which sit beside the built twin) and content/articles/index.md, content/portugal/** (my workers' pages) to my grant; each logs an R6 breach when I write or bring it"
+    "abp@ or Dinis: add newsroom/notes/** (the notes' signatures, newsroom/notes/<note>/index.md.sig, which sit beside the built twin) and content/articles/index.md, content/portugal/** (my workers' pages) to my grant; each logs an R6 breach when I write or bring it",
+    "abp@ or Dinis: newsroom/tests/ too (dev.search's search test, brought at 12:08, logged R6)"
   ],
   "wakes": [
     {
@@ -101,8 +103,14 @@
     {
       "started": "2026-11-06T12:08Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.239",
       "line": "review round 7; /newsroom/decisions/"
+    },
+    {
+      "started": "2026-11-06T13:08Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "review round 8: five branches; passkey and naming decision read closely"
     }
   ]
 }

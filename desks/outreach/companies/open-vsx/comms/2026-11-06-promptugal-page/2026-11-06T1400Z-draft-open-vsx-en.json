@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-open-vsx-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Open VSX (Eclipse Foundation): the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Open VSX: could you check it?",
+ "sha256": "65bb543d64396d217a631332454bb0174b1b3d12e5b488f388171d59e41b72f6",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Open VSX leading with its page (https://promptugal.news/companies/open-vsx/); a public body or foundation.",
+ "followups": {
+  "2026-11-09": "Hello again Open VSX team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/open-vsx/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Open VSX team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/open-vsx/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

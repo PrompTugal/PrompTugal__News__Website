@@ -1,0 +1,640 @@
+{
+  "cluster": "publishing-data-events",
+  "read_on": "2026-11-06",
+  "method": "Read from REALITY.md (site v0.1.258), CLAUDE.md, the code and data files, the passes and guidance in board/, and the live site https://promptugal.news (GET only, status codes checked; the live version string was v0.1.258, the same as REALITY.md). The gate and the tests were not re-run in this read; their results are as the repository states them. Maturity: runs = works today with evidence; partial = works with a named gap; designed = not running.",
+  "items": [
+    {
+      "id": "static-publishing-machine",
+      "name": "The static publishing machine (build, gate, CI-owned version, one-command release)",
+      "one_line": "A website generator with no dependencies that turns markdown and JSON into a full site, refuses to publish if the checks fail, numbers every release automatically and shows the version on every page.",
+      "buyer_says": "I want to publish a website like this one, where every change is checked and versioned and nobody can ship a broken or unsourced page.",
+      "what_works": [
+        "node newsroom/build/build.mjs turns content/ (markdown) and data/ (JSON) into pages, markdown twins, llms.txt, sitemap and the JSON API; Node 18+, no npm dependencies",
+        "A small core plus one module per section in newsroom/build/features/ (about 40 feature files); a new section is one file plus at most one line in data/site/nav.json; the contract is newsroom/build/README.md",
+        "The gate, newsroom/build/validate.js, builds once and must print OK: schema validation of every data file, every reference between entities, derived files fresh, every page has page-type and page-date, no contact details in content or data, no leaked key shapes, article title length, signed articles, vendored files hash-checked, theme colour tokens complete, and a ratchet that stops code files from holding more prose than their baseline",
+        "CI (.github/workflows/deploy-pages.yml) runs the gate on every push and pull request; on a push to dev, newsroom/build/tag_release.sh numbers the release, writes the version into version.txt, versions.json and REALITY.md, builds, runs the gate again, commits as GitHub Actions, tags and deploys to GitHub Pages",
+        "newsroom/tools/release.sh: rebases on dev, re-derives data, runs the gate locally so a red gate never leaves the machine, pushes, then waits until the live site serves the new version",
+        "Live: 879+ pages at https://promptugal.news, release history page, 474 commits and 258 numbered releases in one working week",
+        "A version badge at the top of every page and an agent block at the end"
+      ],
+      "evidence": [
+        "newsroom/build/build.mjs",
+        "newsroom/build/validate.js",
+        "newsroom/build/checks.mjs",
+        "newsroom/build/tag_release.sh",
+        "newsroom/tools/release.sh",
+        ".github/workflows/deploy-pages.yml",
+        "newsroom/build/README.md",
+        "REALITY.md (The build, The gate, CI)",
+        "https://promptugal.news/newsroom/versions.html (200)",
+        "https://promptugal.news/newsroom/workflows/ (200)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/newsroom/versions.html (every release, numbered by CI) and newsroom/build/README.md in the repository",
+      "depends_on": [
+        "Node 18+",
+        "a GitHub repository with Pages enabled and Actions",
+        "a domain with DNS pointed at GitHub Pages (the live site has this working)"
+      ],
+      "open_source": "Code Apache-2.0 (LICENSE and README.md state it); text CC BY 4.0. The release and tag scripts are stated to be copied from the team's own earlier site (SGit-AI/SGit-AI__Website__Web-Summit).",
+      "buyer_would_need_made": [
+        "Replace the site's content, data schemas, navigation and brand with the buyer's",
+        "Decide which of the gate's checks apply (the contact-detail and no-em-dash rules are this publication's policy, not universal)",
+        "Point CI and the domain at the buyer's repository and Pages setup; train the buyer's people on the commit convention and the release script",
+        "Remove or keep the agent-run team features (run ledger, board, desks) depending on whether the buyer runs agents"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "Stand up the machine in the buyer's repository with their brand shell, one content section and the gate green, with a one-hour hand-over call." },
+        { "tier": "team", "scope": "Starter plus a data-driven section (for example their products or events), custom checks in the gate, the release script rolled out to their editors, and a runbook." },
+        { "tier": "build", "scope": "A full publication on the machine: data model, several sections, JSON API, markdown twins, signed articles, CI and domain, with a month of support." }
+      ],
+      "gaps": [
+        "The tests (search, chat, meter, vault, browser) are run by hand; CI runs only the gate",
+        "REALITY.md still lists 'not yet': branch protection on main, the review/ folder and an Agent Contact file from the estate standard",
+        "The system assumes agents and one repository; a buyer with a conventional editorial team would not use the board, desks or hourly-run parts",
+        "Some worker branches were seen to cause cancelled or untagged deploys (two releases on dev have no tag, per a comment in tag_release.sh); CI hardening is ongoing"
+      ],
+      "owner_agents": ["dev", "devops", "conductor", "newsroom (the original builder)"]
+    },
+    {
+      "id": "agent-readable-site-surface",
+      "name": "The site that AI agents and search engines can read (twins, llms.txt, JSON API, signed articles)",
+      "one_line": "Every page also exists as clean markdown, every entity as JSON, with llms.txt, sitemaps, an RSS feed, search-engine metadata and signed articles, all generated, never hand-kept.",
+      "buyer_says": "I want my site to be easy for ChatGPT, Claude and Google to read, and I want my articles signed so people can tell they are really ours.",
+      "what_works": [
+        "A markdown twin for every page (same path with .md), generated from the same content so the two cannot drift",
+        "llms.txt grouped by section, sitemap.xml with lastmod, news-sitemap.xml, feed.xml (RSS, latest 50 articles), robots.txt naming both sitemaps",
+        "A JSON API under /api/v1/: an index, a file per entity (120 companies, 235 events, 264 people, 223 organisations, 80 places, 17 topics, 39 stories, 33 captures), graphs, the ontology, search documents and a manifest listing every file's SHA-256 and schema",
+        "Open Graph, Twitter card and JSON-LD (NewsMediaOrganization, WebSite with SearchAction, NewsArticle, BreadcrumbList) on pages; noindex on the sign-in page and the 404",
+        "Articles signed by the publisher's key; the gate refuses an unsigned article and checks each signature against the public key register (board/keys.json); a sign-article tool makes a signature that survives version bumps",
+        "The site is a verified property in Google Search Console with the sitemap read (2026-11-06, 979 discovered pages, per REALITY.md)"
+      ],
+      "evidence": [
+        "newsroom/build/lib/seo.mjs",
+        "newsroom/build/features/api.mjs",
+        "newsroom/tools/sign-article.mjs",
+        "newsroom/build/signed-form.cjs",
+        "https://promptugal.news/llms.txt (200)",
+        "https://promptugal.news/index.md (200)",
+        "https://promptugal.news/summit/agenda.md (200)",
+        "https://promptugal.news/sitemap.xml (200)",
+        "https://promptugal.news/feed.xml (200)",
+        "https://promptugal.news/news-sitemap.xml (200)",
+        "https://promptugal.news/api/v1/index.json (200)",
+        "https://promptugal.news/api/v1/manifest.json (200)",
+        "https://promptugal.news/articles/brazil-startup-mission.md.sig (200)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/api/ and https://promptugal.news/llms.txt",
+      "depends_on": [
+        "the static publishing machine",
+        "a key register for article signing (the repository's own board/keys.json and the pki-agent tool from pki.sgit.ai)"
+      ],
+      "open_source": "Code Apache-2.0; the API's own index states data CC BY 4.0, code Apache-2.0",
+      "buyer_would_need_made": [
+        "Map the buyer's entities to API files and schemas",
+        "Set up the buyer's signing keys and register",
+        "Adjust JSON-LD types and organisation details to the buyer",
+        "Submit feeds to Search Console and any news programmes"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "Add markdown twins, llms.txt, sitemap and RSS to an existing static site, using this build's modules as the pattern." },
+        { "tier": "team", "scope": "Starter plus a JSON API with manifest and schemas for the buyer's entities and Search Console set-up." },
+        { "tier": "build", "scope": "Full agent-readable publication including signed articles, a key register, and a 'prompt on every page' pane so visitors can paste the page's data into their own AI." }
+      ],
+      "gaps": [
+        "No per-article image set in front matter yet (no article has image:), so social cards fall back to the site card",
+        "news-sitemap.xml and feed.xml were not yet submitted in Search Console as of REALITY.md",
+        "Older article signatures were over the twin as built; only newer ones survive releases (a warning, not a failure)",
+        "The 'use this data' prompt pane asked for on data pages (board/guidance, section 3) is not built",
+        "No hreflang; English only"
+      ],
+      "owner_agents": ["dev", "journalist", "security", "observability"]
+    },
+    {
+      "id": "knowledge-graph-and-sourced-data",
+      "name": "The sourced knowledge graph: entities as JSON folders with schemas, an ontology, derived data and re-checks",
+      "one_line": "A way to keep what you know about companies, people, events and places as plain JSON files, each fact with its source link and the date it was read, checked by schema, and joined into one graph.",
+      "buyer_says": "I want a database of my market (companies, people, events) where every fact has a source and a date and nothing unsourced can get published.",
+      "what_works": [
+        "One folder per entity (companies, places, topics, events, people, organisations, evidence captures, story projects), JSON only, 24 schemas in data/schemas/, checked by the gate",
+        "An ontology (data/ontology.json): 13 types in four worlds and 20 verbs, each with a distinct inverse and a list of forbidden verbs; the gate holds every graph to its grammar",
+        "Hand-edited versus derived files kept apart: derived entities (events, people, organisations, evidence, stories) are written by newsroom/tools/derive.mjs from desk files, committed so changes arrive as reviewable diffs, and the gate fails if they are stale",
+        "Companies as five-file folders (company, sources, facts, edges, recheck): each field names its supporting sources, each source carries url, read date, who read it and what it supports; a re-check log is appended, never rewritten; 120 companies live on the API",
+        "Public-fields-only import from a team CRM record, leaving out the team's private notes (data/README.md rule 6)",
+        "Story project folders (sources, entities, claims marked fact, estimate or opinion, graph, timeline, blocks) with citations resolved by the gate",
+        "A name-matching report (data/matching.json) listing matches, refused near misses and unmatched names, so data quality is visible",
+        "A multi-model fact re-check tool (newsroom/tools/verify/verify.mjs) with 11 article records and a /newsroom/verification/ page"
+      ],
+      "evidence": [
+        "data/README.md",
+        "data/ontology.json",
+        "data/schemas/ (24 schemas)",
+        "newsroom/tools/derive.mjs",
+        "newsroom/build/lib/datacheck.mjs",
+        "newsroom/build/lib/schema.mjs",
+        "newsroom/tools/companies.mjs",
+        "data/companies/ (120 folders)",
+        "board/team/dev.verify/records/ (11 verified.json records)",
+        "https://promptugal.news/api/v1/index.json (200: counts of 120 companies, 235 events, 264 people, 223 organisations)",
+        "https://promptugal.news/api/v1/ontology.json (200)",
+        "https://promptugal.news/newsroom/data/ (200)",
+        "https://promptugal.news/newsroom/verification/ (200)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/api/ for the data and https://promptugal.news/companies/ for the profiles built from it; data/README.md for the layout",
+      "depends_on": [
+        "Node 18+",
+        "the build and gate",
+        "a human or agent to read sources and write the source records"
+      ],
+      "open_source": "Code Apache-2.0; data CC BY 4.0 per the API index. The facts are public facts about companies with source links, not the team's private notes.",
+      "buyer_would_need_made": [
+        "Design the buyer's ontology (their entity types and verbs) and schemas",
+        "Load their existing records into the folder format and write the derivation for their desks or feeds",
+        "Choose which sources count and set the re-check cadence",
+        "Decide on matching rules for names"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "A schema and folder layout for one entity type from the buyer's data, with sources and read dates, validated by a gate." },
+        { "tier": "team", "scope": "A small ontology (about 5 types, 10 verbs), a derivation from their spreadsheets or CRM, the gate, and a JSON API." },
+        { "tier": "build", "scope": "A full sourced knowledge base for their market (hundreds of entities), with a re-check routine, a matching report, a verification pass and the graph on top." }
+      ],
+      "gaps": [
+        "Re-checks are a tool option run by hand (companies.mjs --recheck); nothing re-checks automatically on a schedule",
+        "Vault capture ids and SHA-256 fields on company sources are empty: no capture is tied to a source yet",
+        "Company flows (how AI agents sit in a company's work) are mapped for only a few companies so far",
+        "No graph file per organisation, place or topic yet; the search files have no schema",
+        "The fact re-check pipeline: 11 records exist, but how often models agree or catch real errors has not been published in what was read",
+        "Quality depends on the people or agents reading sources; the structure does not guarantee a fact is right"
+      ],
+      "owner_agents": ["ontologist", "dev", "dev.data", "dev.verify", "journalist", "researcher"]
+    },
+    {
+      "id": "graph-explorer",
+      "name": "The graph explorer",
+      "one_line": "An interactive map of everything in the data: start from a company, a session or a person, expand outward, filter, rank, and ask 'how is A connected to B?' with the answer read as sentences with sources.",
+      "buyer_says": "I want to explore my market as a graph and answer how two companies or people are connected, in the browser, with no backend.",
+      "what_works": [
+        "The explorer at /graph/: 1,642 nodes and 2,828 edges on the live page in four worlds; starts from a question (the most central nodes, a node, a view, or a path), never the whole graph",
+        "Explore walk by hops, depth stepper, pinned anchors, top N nodes or edges by PageRank, betweenness or degree, filters by world, type, verb and facet (day, organiser, field, country)",
+        "Layouts: force, a map computed at build (so the whole graph draws in about half a second), radial, layered, tree, grid, list",
+        "Up to three shortest routes between two nodes, read as sentences with their sources and read dates",
+        "State kept in the URL so a view can be shared; a panel with the node's record",
+        "Small prerendered graphs on company, event, person, organisation and topic pages with 'Open in the graph'",
+        "Ported from graphs.sgit.ai's universe reader (stated as Apache-2.0) with Cytoscape.js 3.30.2 vendored with its MIT licence; the gate checks the explorer file matches the whole graph edge for edge",
+        "Page tools for chat control of the graph (load, focus, expand, filter, path, snapshot)",
+        "Also live: an animated 'centres of gravity' view (/graph/gravity/) and a world map of companies (/graph/world/), both returned 200"
+      ],
+      "evidence": [
+        "newsroom/build/features/graph.mjs",
+        "newsroom/build/features/graph/ (layout, rank, minigraph)",
+        "assets/graph/ (explorer.js, engine.js, gravity.js, world.js)",
+        "assets/vendor/cytoscape/",
+        "https://promptugal.news/graph/ (200)",
+        "https://promptugal.news/graph/gravity/ (200)",
+        "https://promptugal.news/graph/world/ (200)",
+        "https://promptugal.news/api/v1/graph/explorer.json (200)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/graph/",
+      "depends_on": [
+        "the knowledge graph data",
+        "the build (computes ranks and the map layout at build time)",
+        "Cytoscape.js (vendored)"
+      ],
+      "open_source": "Site code Apache-2.0; Cytoscape.js vendored under MIT with its licence in assets/vendor/cytoscape/; the port's origin is stated in REALITY.md as graphs.sgit.ai (Apache-2.0)",
+      "buyer_would_need_made": [
+        "Map the buyer's entity types and verbs to the explorer's filters and facets",
+        "Style node shapes and colours to the buyer's brand",
+        "Tune ranking and the 'start question' for the buyer's use",
+        "Write the sentence templates for paths over the buyer's verbs"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "Put the explorer over a buyer's small graph (a CSV of nodes and edges converted to the data format), hosted on their site." },
+        { "tier": "team", "scope": "Starter plus custom filters, a branded style, preset views and a path-finding question set for their market." },
+        { "tier": "build", "scope": "A full interactive market map integrated with their pages (mini-graphs on each entity page), with animated centres-of-gravity and world views." }
+      ],
+      "gaps": [
+        "REALITY.md still quotes an earlier graph size (1,441 nodes); the live page says 1,642 nodes, so the document lags the site",
+        "The next level (story-shaped presets, article graphs, save as PNG) is designed in a pass that is still open (the-graph-explorer-next, the-big-graphs)",
+        "The chat control of the graph depends on the page tool API; no answer from a real model through it has been seen",
+        "Not tested on very large graphs (tens of thousands of nodes)"
+      ],
+      "owner_agents": ["dev.graphs", "dev", "ontologist", "newsroom-graph (original builder)"]
+    },
+    {
+      "id": "event-agenda-and-past-editions",
+      "name": "Event agenda and events pages, with past editions as data",
+      "one_line": "A full conference agenda as data: every session with its day, time, stage, speakers and source link, pages per event, a live 'on now and next' strip, and 16 past editions as structured records.",
+      "buyer_says": "I want an event site where every session, speaker, stage and company is a linked page generated from data, and past editions are kept as data too.",
+      "what_works": [
+        "Agenda as data: 235 events on the live API (195 official programme items and the rest side events), each with kind, date, time, place, track, speakers linked to a person and an organisation, source URL and the date it was read",
+        "Pages at every release: the agenda (/summit/agenda.html), the events index by day (/events/) and a page per event, each with a markdown twin and JSON",
+        "A live strip during the event, filled in the reader's browser from api/v1/live/agenda.json (what is on now and next)",
+        "A days strip on the front page (eight cells, 6 to 13 November, each linking to that day's agenda)",
+        "Company pages show their sessions, people and related companies; places (stages, rooms, venues) and topics are linked entities",
+        "Past editions as data: 16 events from Dublin 2010 to Lisbon 2025 with dates and venue (from Wikipedia's timeline at a pinned revision, 2025 from the Portuguese trade agency's figures), listed under 'Past editions' on /events/; each has a live page (checked: Dublin 2010 and Lisbon 2025)"
+      ],
+      "evidence": [
+        "newsroom/build/features/agenda.mjs",
+        "newsroom/build/features/events.mjs",
+        "newsroom/build/features/live.mjs",
+        "assets/live/live.js",
+        "data/events/ (235 folders including web-summit-dublin-2010 to web-summit-lisbon-2025)",
+        "desks/programme/agenda.json",
+        "https://promptugal.news/summit/agenda.html (200)",
+        "https://promptugal.news/events/ (200)",
+        "https://promptugal.news/events/web-summit-lisbon-2025/ (200)",
+        "https://promptugal.news/events/web-summit-dublin-2010/ (200)",
+        "https://promptugal.news/api/v1/live/agenda.json (200, the file the live strip reads)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/summit/agenda.html and https://promptugal.news/events/",
+      "depends_on": [
+        "an agenda source the buyer can read legally (here a human-supervised desk read the organiser's public programme pages)",
+        "the data folders and the build"
+      ],
+      "open_source": "Code Apache-2.0; event data CC BY 4.0 per the API index. The programme is the organiser's public information with source links, not a licensed feed.",
+      "buyer_would_need_made": [
+        "Get the buyer's own programme into the events format (their schedule feed or spreadsheet) and set the derivation",
+        "Set time zone and 'today' handling for their event",
+        "Brand the agenda and event page layouts; choose the facets (tracks, stages, days)",
+        "Decide how to keep the agenda current until the event (the build only moves on when a release happens)"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "Turn the buyer's schedule spreadsheet into an agenda page and an event page per session with JSON and markdown twins." },
+        { "tier": "team", "scope": "Starter plus speakers, places, topics as linked entities, the live now-and-next strip and a graph view." },
+        { "tier": "build", "scope": "A full event site over several editions: past editions as data, company and speaker pages, a refresh routine up to and during the event, and the graph." }
+      ],
+      "gaps": [
+        "'Today' is the build's day, so the front page moves on only when something is released",
+        "Past editions carry mostly dates and venue; the dev.data past-summits pass (open) is adding sources and entities one edition at a time",
+        "Wikipedia's timeline lacks 2025 and 2026 (a finding in data/wikipedia/web-summit/meets.json), so those rows rely on other sources",
+        "Day pages (/days/...) and the strip on every page await a decision by Dinis (pass the-summit-days); they returned 404 live",
+        "A buyer's agenda needs a source they may legally read; the organiser's feed is not an API"
+      ],
+      "owner_agents": ["dev.pages", "dev", "dev.data", "ontologist", "correspondent", "programme desk (Vicky's)"]
+    },
+    {
+      "id": "personal-schedule-from-personas",
+      "name": "Personal schedule from personas to graph to schedule",
+      "one_line": "Pick who you are (a CISO, a founder, an investor, a company), see the part of the graph that matters to you, and get a personal conference schedule kept in your own browser.",
+      "buyer_says": "I want attendees to pick who they are and get a personalised schedule of the sessions and people that matter to them.",
+      "what_works": [
+        "The ingredients exist: the agenda as data, the graph, topics and tracks linked to events, the explorer's filters by day, field and organiser, and the page tools that let a chat call the graph",
+        "The reader's own profile (pages read and searches kept only in the browser) exists and can be read by a page tool",
+        "Dinis's brief and the guidance describe the idea in his words (personas to graph to schedule, local storage first, a vault later); a customers brief extends it to a personal newsreel"
+      ],
+      "evidence": [
+        "board/guidance/2026-11-06-events-variations-and-the-personal-schedule.md (section 4)",
+        "board/team/customers/briefs/2026-11-06-the-personal-newsreel.md",
+        "board/passes/2026-11-06-the-summit-days.md (personalisation is finding D7, later, and gated by security@)",
+        "newsroom/build/features/profile.mjs",
+        "https://promptugal.news/profile/ (200: the reader's own profile)",
+        "Live check: no persona picker or personal schedule on /summit/agenda.html or /events/"
+      ],
+      "maturity": "designed",
+      "how_to_see_it": "Not live. Closest live pieces: https://promptugal.news/summit/agenda.html, https://promptugal.news/graph/ and https://promptugal.news/profile/",
+      "depends_on": [
+        "the event agenda and graph",
+        "a persona to topics mapping (to be designed)",
+        "security@'s review of how personalisation is kept (nothing that identifies a reader)",
+        "the reader vault (for keeping a schedule beyond one browser)"
+      ],
+      "open_source": "The parts it would build on are Apache-2.0 code; there is no code for the schedule itself yet",
+      "buyer_would_need_made": [
+        "Everything specific to this feature: the persona definitions for the buyer's audience, the persona to graph slice rules, the schedule interface and its storage",
+        "Agenda data in the format of the event module",
+        "A decision on privacy and where the schedule is kept"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "A hand-made personal schedule for one named person or delegation from the agenda data (a bespoke job, as the monetisation map proposes)." },
+        { "tier": "team", "scope": "A persona picker for three to five personas over the buyer's agenda, saved in the browser, with a printable or exportable schedule." },
+        { "tier": "build", "scope": "A full personalised schedule and debrief product on the buyer's event, with the graph, a vault delivery and a personal summary after the event." }
+      ],
+      "gaps": [
+        "No code exists for personas, schedule or newsreel; the pass for 'events to a personal schedule' is not in board/passes/",
+        "Personalisation from what a reader read is explicitly held by security@ until a pass designs it",
+        "The newsreel needs a coverage map of everything published about the event (not started); no video or YouTube is on the site",
+        "Price and demand are untested guesses in the customers briefs"
+      ],
+      "owner_agents": ["conductor", "dev.pages", "ontologist", "sherpa", "security", "customers (the scoping)"]
+    },
+    {
+      "id": "reading-meter-and-account",
+      "name": "Reading meter, account and pay-as-you-read top-up (with the reader vault)",
+      "one_line": "A meter in the reader's browser that prices each page by its kind and how fresh it is, never blocks reading, and lets the reader top up credit through a Stripe payment link, with a vault (beta) for keeping the history.",
+      "buyer_says": "I want readers to pay a little for what they read, with prices that depend on the kind of page and how new it is, without a paywall and without tracking them.",
+      "what_works": [
+        "sg-meter v1.5.0, vendored unedited with its hashes checked by the gate, with this site's storage key",
+        "One file, data/billing/prices.json, makes both the meter's config (/api/v1/billing/meter.json) and the published price table (/account/billing.html), so the table and the meter cannot disagree",
+        "Pricing: a base per page type (article 6, briefing 5, analysis 3, story 2, evidence 1, site 1, account 0 on a pence-scale credit) times a freshness tier (fresh x2, new x1.5, current x1, archive x0.5), times the share of the page actually read, never under a tenth; once per page per session; starts at 5.00 pounds; never blocking; balance can go below zero; a reader can rate to re-price or decline and say why",
+        "Everything stays in the reader's browser; no account is needed to read",
+        "Account pages (/account/: balance, history, receipts, export as JSON, restore) and a top-up page with a live Stripe Payment Link for 5.00 pounds",
+        "Features billing.mjs and account.mjs; a Node test for the pricing rules and a Chromium test of reading, the account, the top-up and the return (run by hand)",
+        "Reader vault (beta): sign in with a passkey, vault client sg-vault v0.2.3 vendored; tested against a mock vault server"
+      ],
+      "evidence": [
+        "data/billing/prices.json",
+        "data/billing/topup.json",
+        "newsroom/build/features/billing.mjs",
+        "newsroom/build/features/account.mjs",
+        "assets/meter/meter.js",
+        "assets/components/sg-meter/v1/v1.5/v1.5.0/",
+        "newsroom/build/tests/test_meter.mjs",
+        "newsroom/build/tests/test_billing_browser.mjs",
+        "https://promptugal.news/account/ (200)",
+        "https://promptugal.news/account/billing.html (200)",
+        "https://promptugal.news/account/top-up.html (200)",
+        "https://promptugal.news/api/v1/billing/meter.json (200)"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/account/billing.html (the price table) and https://promptugal.news/account/ (the meter's account)",
+      "depends_on": [
+        "a Stripe account and Payment Link in the buyer's name",
+        "the vendored sg-meter component",
+        "for the vault: a vault server and an access key issued by the operator"
+      ],
+      "open_source": "Site code Apache-2.0; sg-meter is vendored unedited (its licence terms are in its VENDOR.md; check before reselling); price model copied from the sister newsrooms (php.oct.2026 and newsroom.sgit.ai)",
+      "buyer_would_need_made": [
+        "A price table for the buyer's page kinds and freshness tiers",
+        "A Stripe Payment Link in their account with its return page; their legal entity and currency",
+        "Tuning of the freshness rules to their content",
+        "A decision whether the vault is wanted"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "Set up the meter and price table on the buyer's static site with their own Stripe Payment Link." },
+        { "tier": "team", "scope": "Starter plus page-kind pricing, freshness rules, an account page and a published billing page." },
+        { "tier": "build", "scope": "A full pay-as-you-read publication model including payment verification (not built here), a reader vault and receipts." }
+      ],
+      "gaps": [
+        "The top-up link's after-payment redirect is fixed in Stripe to newsroom.sgit.ai's page, so a payment from here lands there; a link of our own is waiting on Dinis in Stripe",
+        "The return page credits once per payment reference and trusts the reference: payments are not checked against Stripe",
+        "Creating a vault needs an access key that is not issued yet, so nobody can create one here",
+        "Sign-in with a person's key was tested only with a throwaway key; no real key had been issued as of REALITY.md",
+        "Paying a share to whoever created a fact (provenance payments) is designed, not built",
+        "Tests are run by hand, not by CI",
+        "The meter and vault storage is not yet covered by the participant disclosure page",
+        "Whether readers would actually pay is untested; the only live price is the 5 pound top-up"
+      ],
+      "owner_agents": ["newsroom-billing (original builder)", "dev", "dev.search (passkey work)", "security", "customers (monetisation map)"]
+    },
+    {
+      "id": "search-and-ask-chat",
+      "name": "Browser search and 'Ask the site' chat with the reader's own key",
+      "one_line": "Instant search over every page from a small sharded index in the browser, plus a chat that answers from the site's own data using the reader's own OpenRouter key, which never leaves their browser, showing every step.",
+      "buyer_says": "I want search on a static site with no server, and a chat that answers questions from my content without me paying for or holding my readers' keys.",
+      "what_works": [
+        "A sharded search index built at release: docs.json (one row per page with facets) plus 328 term shards; weighted by field with accent folding, light stemming, prefix matching and synonyms drawn from the data (company aliases, tracks, places); a query loads one docs file and one to three shards (under 7 KB)",
+        "Search button with instant dropdown (the slash key focuses it) and a /search/ page with facets and ?q=",
+        "Page tool API (window.__tool) with read, view and author levels, JSON Schema parameters and an interaction log, so any page tool can be used by a chat",
+        "Ask pane with the reader's OpenRouter key kept only in their browser and sent only to openrouter.ai, a Forget key button, a model picker (default anthropic/claude-sonnet-5), a tool loop showing every call and result, and a no-key mode that runs tools by hand",
+        "Tests: search.test.mjs (index size, query bytes), chat.test.mjs (the loop against a mocked OpenRouter), browser.check.cjs (Chromium)",
+        "Search and Ask pages return 200 live"
+      ],
+      "evidence": [
+        "newsroom/build/features/search.mjs",
+        "newsroom/build/features/chat.mjs",
+        "newsroom/build/features/tools.mjs",
+        "assets/search/search-core.js",
+        "assets/chat/chat-core.js",
+        "newsroom/tests/search.test.mjs",
+        "newsroom/tests/chat.test.mjs",
+        "https://promptugal.news/search/ (200)",
+        "https://promptugal.news/ask/ (200)",
+        "https://promptugal.news/api/v1/search/docs.json (200)"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/search/ (try a query) and https://promptugal.news/ask/",
+      "depends_on": [
+        "the build and the data",
+        "for Ask: the reader's own OpenRouter account and key",
+        "the page tool API"
+      ],
+      "open_source": "Code Apache-2.0 in this repository",
+      "buyer_would_need_made": [
+        "Index tuning to the buyer's content, facets and synonyms",
+        "System prompt and tool set for their questions",
+        "Decision on key handling (reader's key versus the buyer's own model access with a proxy), which is a different and costlier design",
+        "Wire search into their layout"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "Add the sharded browser search to the buyer's static site with their facets." },
+        { "tier": "team", "scope": "Starter plus the Ask chat over their data with the reader's-own-key pattern and the page tool API." },
+        { "tier": "build", "scope": "Full search, chat and signed-in reader views with the reader's profile and vault, and tests in CI." }
+      ],
+      "gaps": [
+        "No answer from a real model has been seen: the tests mock OpenRouter; it needs a reader's key (REALITY.md)",
+        "The chat runs only in the reader's tab; conversations are not kept beyond it",
+        "The three tests are not run by CI",
+        "No 'did you mean' for misspellings; search files have no schema",
+        "The newsroom-side search and the LLM answer over every JSON file are being built by dev.search and were not live when read",
+        "Readers must have their own OpenRouter key, which limits who can use Ask"
+      ],
+      "owner_agents": ["dev.search", "dev", "newsroom (original builder)"]
+    },
+    {
+      "id": "ai-article-images-and-infographics",
+      "name": "Article images and infographics (code-drawn set and AI-model set with a logged ladder of models)",
+      "one_line": "A way to give every article its own infographic in several styles and sizes, drawn from the article's own facts word for word, with an option to have AI image models make the picture from the whole article at a recorded cost.",
+      "buyer_says": "I want a branded infographic or cartoon for every article, using only the facts in the article, at a cost I can see.",
+      "what_works": [
+        "A code-drawn set: design/infographics/make.mjs (Chromium via Playwright) turns articles.json (each figure and point keeps the exact sentence it came from) into three layouts (figure, network, timeline), two styles (paper, ink) and three sizes (thumb, card, banner); 61 files committed in design/infographics/out/ (10 articles by 2 styles by 3 sizes plus an index)",
+        "An AI-model route: design/ai-images/gen.mjs sends the whole article to an image model through OpenRouter with the brand palette and strict rules (facts only from the article, exact spelling, no faces, no company logos, a footer marking the picture as AI-made); three styles in styles.json (editorial, cartoon, explainer)",
+        "Each call is logged to a vault outside the repository: model, style, prompt hash, cost from the provider's own usage figure, seconds, bytes and file; the key is read from the environment only",
+        "A ladder of models with prices read on 6 November (gemini-3.1-flash-lite-image about 0.03 USD, gemini-3.1-flash-image 0.07, gemini-3-pro-image 0.15), cheapest first for drafts and the top one for the image that ships; at most 3 tries per image; a daily budget set by the accountant (10 USD until Dinis decides)",
+        "The designer's session note records that the Pro model got every figure right first time on the whole-article prompt"
+      ],
+      "evidence": [
+        "design/infographics/README.txt",
+        "design/infographics/make.mjs",
+        "design/infographics/articles.json",
+        "design/infographics/out/ (61 files)",
+        "design/ai-images/gen.mjs",
+        "design/ai-images/styles.json",
+        "board/budgets.json (the OpenRouter section: ladder, tries, daily budget)",
+        "board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/README.md (model tests)",
+        "CLAUDE.md (The OpenRouter key rules)"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "Repository files in design/infographics/out/ (open any PNG); the live site does not yet use them as article images",
+      "depends_on": [
+        "Chromium and Playwright for the code-drawn set",
+        "an OpenRouter account and key with credit for the AI route",
+        "a vault or folder outside the repository for the generated images and the call log"
+      ],
+      "open_source": "Code Apache-2.0; the generated pictures are the publication's own, marked AI-made where an AI model made them (CC BY 4.0 text licence per the README; image licence not separately stated in what was read)",
+      "buyer_would_need_made": [
+        "Style system and brand palette for the buyer",
+        "A facts-per-article file extracted from the buyer's articles with quotes",
+        "A rules prompt for the buyer's sector (no faces, no logos, legal checks)",
+        "A cost budget, a model ladder and a place to keep the call log",
+        "Review process so a person approves each image"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "Ten branded infographics from ten of the buyer's articles, with the facts file and the generator." },
+        { "tier": "team", "scope": "Starter plus the generator and styles installed so the buyer can make more, with the logged-cost rule and a model ladder." },
+        { "tier": "build", "scope": "Images wired to every article page and social card, with a house style system and a cost-controlled AI route." }
+      ],
+      "gaps": [
+        "No article on the live site uses an image: yet (0 of 21 articles have image: in front matter), so the pictures are not shown to readers",
+        "The AI route's generated images and call log sit in the designer's vault, not in the repository, so cost and quality evidence could not be read from the repository",
+        "The code-drawn set covers only 10 articles and is checked word for word; the AI set was tested on a few articles and each needs human review",
+        "AI images must be marked and must not show a named real person (security's condition)",
+        "Spend depends on a key and credit set by Dinis"
+      ],
+      "owner_agents": ["designer", "dev", "accountant", "security"]
+    },
+    {
+      "id": "wikipedia-as-data",
+      "name": "Wikipedia read as data (pinned revisions, statements by wording, findings for an editor)",
+      "one_line": "A tool that reads a Wikipedia article at a fixed revision into structured files (every sentence classed by how it is worded, every reference, tables and links), joins it to your graph, and lists weak points for a person to take to the article's talk page.",
+      "buyer_says": "I want to use Wikipedia as a structured, citable data source for my sector and see where it is wrong or thin, without ever editing it by machine.",
+      "what_works": [
+        "newsroom/tools/wikipedia.mjs reads one English Wikipedia article through the MediaWiki API (named user agent, no key) and writes article.json, statements.json, references.json, tables.json and links.json; no editor's name is kept",
+        "Statements are classed by wording (record, stated, attributed, quote, hedged), never by whether they are true",
+        "One article read: Web Summit at revision 1383690798, with 79 statements, 63 references, a 17-row timeline table and 373 links; 14 links meet entities in the graph and 15 timeline rows became past-edition events",
+        "Five findings recorded for a person (W-01 to W-05: for example no 2025 row though the organiser published dates, nothing on 2026, 30 of 79 sentences uncited)",
+        "Six wikipedia schemas checked by the gate; two taxonomies added to the ontology (article kind, source provenance)",
+        "Rules of engagement: never edit Wikipedia, pin the revision (the revision id is the attribution under CC BY-SA 4.0), privacy first"
+      ],
+      "evidence": [
+        "newsroom/tools/wikipedia.mjs",
+        "data/wikipedia/web-summit/ (article, statements, references, tables, links, meets)",
+        "data/schemas/wikipedia-*.schema.json",
+        "board/projects/wikipedia.md",
+        "https://promptugal.news/events/web-summit-lisbon-2025/ (a past edition built on the pinned timeline plus other sources; 200)",
+        "Live check: /wikipedia/ and /api/v1/wikipedia/ returned 404, so the pages are not published"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "Repository files in data/wikipedia/web-summit/ and board/projects/wikipedia.md; the live site shows only its effects (past editions)",
+      "depends_on": [
+        "Wikipedia's public API",
+        "the data schemas and ontology",
+        "a person to carry findings to the talk page (agents never post)"
+      ],
+      "open_source": "Code Apache-2.0; the Wikipedia text read is CC BY-SA 4.0 and carries its revision id as attribution (the repository states this)",
+      "buyer_would_need_made": [
+        "The list of articles that matter to the buyer",
+        "Matching of Wikipedia links to the buyer's entities",
+        "Pages to show the statements, references and findings (the section is not built here)",
+        "A review routine for who takes findings to Wikipedia",
+        "Other languages (a Portuguese word list is proposed, not built)"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "Read three to five Wikipedia articles of the buyer's sector into data with a written findings list." },
+        { "tier": "team", "scope": "Starter plus matches to the buyer's graph and a provenance mark on pages whose facts come from Wikipedia." },
+        { "tier": "build", "scope": "A full Wikipedia section with pages per article, history and talk threads read as data, Wikidata statements and a review routine." }
+      ],
+      "gaps": [
+        "Only one article (Web Summit) has been read; the section of pages (/wikipedia/) and the API files are not live (404)",
+        "The tool reads the latest revision of an article; a re-read replaces the files, so history is not kept as deltas yet",
+        "Screenshots and hashed captures of cited pages, Wikidata, history and talk, and Portuguese Wikipedia are listed in the project as open",
+        "The sentence classes are by wording and carry no judgement of truth",
+        "The tool is marked for dev@ to own; no tests were seen for it"
+      ],
+      "owner_agents": ["ontologist", "dev", "researcher"]
+    },
+    {
+      "id": "newsroom-dashboard-and-quality-pages",
+      "name": "Operations dashboard and quality pages built from data",
+      "one_line": "Back-office pages generated at each release from the team's own files and git history: who worked when, what waits on a person, a run ledger, the release history, and a measure of how much prose still sits inside code.",
+      "buyer_says": "I want a live view of what my team and my agents are doing, what is blocked and waiting on me, and whether our content is really kept in data rather than in code.",
+      "what_works": [
+        "/newsroom/dashboard/: a load, extract, transform, save cycle at every build over board/schedule.json, each agent's status.json, any hold file, the story board and the last 24 hours of git commits, producing a row per agent, a grid of wakes by hour, what waits on Dinis oldest first and the hand-offs; the clock and next wakes run live in the browser",
+        "The same model as an API file (api/v1/newsroom/dashboard.json) and a status file (api/v1/newsroom/status.json)",
+        "The control centre: overview, every run (filterable), agents, a swim-lane timeline by agent, the data and its sources and read dates, workflows, a lab, release history and decision pages for the owner",
+        "A runs ledger (data/newsroom/runs/<day>.jsonl) written by a tool, one line per commit",
+        "The quality page (/newsroom/quality/): measures every build where code files hold prose or HTML in strings (about 120 KB in 68 files at the start) and the gate's ratchet only lets that number go down",
+        "Charts are SVG drawn at build time; no page needs a script apart from the live clock",
+        "Dashboard, quality, data, runs, timeline, desks, versions, workflows and verification pages all returned 200 live"
+      ],
+      "evidence": [
+        "newsroom/build/features/dashboard.mjs",
+        "newsroom/build/features/quality.mjs",
+        "newsroom/build/lib/codedata.mjs",
+        "newsroom/build/quality-baseline.json",
+        "newsroom/tools/runs.mjs",
+        "newsroom/tools/quality-baseline.mjs",
+        "https://promptugal.news/newsroom/dashboard/ (200)",
+        "https://promptugal.news/newsroom/quality/ (200)",
+        "https://promptugal.news/newsroom/runs/ (200)",
+        "https://promptugal.news/newsroom/timeline/ (200)",
+        "https://promptugal.news/api/v1/newsroom/status.json (200)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/newsroom/dashboard/ and https://promptugal.news/newsroom/quality/",
+      "depends_on": [
+        "the build",
+        "a roster, schedule and status.json per agent or team member",
+        "commit trailers (Agent, For, To) in the team's git convention"
+      ],
+      "open_source": "Code Apache-2.0",
+      "buyer_would_need_made": [
+        "Map the buyer's team, roles and status file format",
+        "Choose what counts as 'waits on me' for their owner",
+        "Adapt commit conventions or swap to their tracker",
+        "Decide which pages are public: here they are public for now by choice"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "A generated team status page from the buyer's git history and a status file per person or agent." },
+        { "tier": "team", "scope": "Starter plus a run ledger, wake grid, 'waiting on you' list and a code-versus-content quality ratchet in the gate." },
+        { "tier": "build", "scope": "A full control centre for an agent or editorial team: dashboard, timeline, release history, decision pages and API files." }
+      ],
+      "gaps": [
+        "The runs ledger and the team-site snapshot are not kept current automatically: the conductor runs the tools by hand before a release, so a release's own commit appears at the next one",
+        "The builders' branches show no run until merged",
+        "Time is HEAD's commit time, so the dashboard is only as fresh as the last release",
+        "Most of it assumes the agent-team conventions of this project",
+        "The quality page measures where prose sits in code but cannot judge whether content is good"
+      ],
+      "owner_agents": ["dev", "conductor", "newsroom-admin (original builder)", "devops", "accountant"]
+    },
+    {
+      "id": "backup-and-recovery-planning",
+      "name": "Backup and recovery plan with a restore-tested repository bundle",
+      "one_line": "A verified full backup of the whole repository as one file, proven by cloning it and running the site's checks on the clone, with a written plan for what else must be saved and how it is restored.",
+      "buyer_says": "I want to know my site and its data can be restored from a backup, and that the backup has been tested, not just made.",
+      "what_works": [
+        "tools/backup.sh makes a git bundle of all refs and a manifest (head, SHA-256, size); it now unshallows first, clones the bundle, compares heads and runs fsck, because an earlier shallow clone produced a bundle that passed 'verify' yet was incomplete (a defect the agent found and recorded)",
+        "A full bundle (774 commits, about 78 MB) was restored by clone and the gate printed OK on the clone (v0.1.237); an incremental bundle was 4.9 MB",
+        "plan.md: assets, tiers (repository, media vaults, deltas, destination), encryption rules (a vault archive keeps ciphertext, keys never stored beside it), verification and restore steps, and asks; security's review added: never read the agents' secret folders, and run the gate on a restored clone",
+        "A Google Drive folder was created with Dinis's word and a manifest uploaded as the record of each backup (the plan page returned 200 live)"
+      ],
+      "evidence": [
+        "board/team/backup/plan.md",
+        "board/team/backup/tools/backup.sh",
+        "board/team/backup/status.json",
+        "https://promptugal.news/board/team/backup/plan.md (200)"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/board/team/backup/plan.md",
+      "depends_on": [
+        "git and a place to keep the bundle",
+        "for vault backups: read access from each vault's holder",
+        "for Drive: a connector or credential granted by the owner"
+      ],
+      "open_source": "Script and plan live in the repository under its Apache-2.0 licence",
+      "buyer_would_need_made": [
+        "The buyer's own list of assets that cannot be lost",
+        "A durable destination and credentials",
+        "A schedule (the plan proposes every 6 hours and after major releases) and restore drills",
+        "Vault or database backup for anything beyond git"
+      ],
+      "package_ideas": [
+        { "tier": "starter", "scope": "Install the backup script, a restore test and a one-page plan for the buyer's repository." },
+        { "tier": "team", "scope": "Starter plus scheduled bundles to the buyer's storage, manifests, monthly restore drills and a recovery runbook." },
+        { "tier": "build", "scope": "A full backup and recovery programme for the site, its media and any encrypted vaults, with deltas and key-loss planning." }
+      ],
+      "gaps": [
+        "The bundle cannot be sent to Drive through the connector (it would pass through the model); only manifests reach Drive. A shell upload credential, a person pulling a clone or a vault lane is needed",
+        "No vault has been backed up: the backup agent holds no vault key, and security's per-vault recovery steps were still awaited",
+        "The scheduled run and a durable destination for the bundle are not in place; bundles lived in the container only",
+        "The connected Drive belongs to an agent account; whether it is the intended place was awaiting Dinis",
+        "Deltas and encrypted vault archives are planned, not built"
+      ],
+      "owner_agents": ["backup", "security", "accountant", "conductor"]
+    }
+  ]
+}

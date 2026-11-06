@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-firefox-enterprise-mozilla-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Firefox Enterprise by Mozilla: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Firefox Enterprise by Mozilla: could you check it?",
+ "sha256": "e272e1ed84e214aafa8a6e966f6e10f7c95d182f9fb09b1bddbc1ebd1ecaaf2c",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Firefox Enterprise by Mozilla leading with its page (https://promptugal.news/companies/firefox-enterprise-mozilla/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Firefox Enterprise by Mozilla team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/firefox-enterprise-mozilla/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Firefox Enterprise by Mozilla team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/firefox-enterprise-mozilla/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

@@ -16,3 +16,4 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 - `2026-11-06-feedback-reading-and-vicky.md`: Vicky's agents may publish; a feedback lane on every page; reading depth and newsroom.sgit.ai's reading modes (about 12:00 UTC).
 - `2026-11-06-conductors-sync-and-outside-agents.md`: the conductors in sync; ChatGPT and Perplexity agents; other platforms; AWS, Google, Microsoft centres of gravity (about 12:50 UTC).
 - `2026-11-06-pt-decisions-passkey-and-the-platform.md`: PT decisions are the team's; passkey sign-in to his vault across devices; the personalisation and event platform by proxy (about 13:05 UTC).
+- `2026-11-06-the-four-design-decisions.md`: the top (C everywhere, D's days strip where the days are), the front page, the summit's days, the list pages; push, try live, A/B test (about 13:20 UTC).

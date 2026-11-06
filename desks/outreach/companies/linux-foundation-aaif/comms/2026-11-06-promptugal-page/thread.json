@@ -4,11 +4,11 @@
  "subject": "Linux Foundation on PrompTugal.news",
  "channel": "email",
  "our_people": [
-  "Vicky Wang"
+  "Indi Gupte"
  ],
  "their_contacts": "in the private team CRM only",
  "state": "draft, for review by Dinis and Silvio",
- "owner": "Vicky Wang",
+ "owner": "Indi Gupte",
  "owner_status": "proposed",
  "next_step": "Review; then the person who sends it (Vicky, Indi, Silvio, Jose or Dinis) sends it from their own .agent address on promptugal.news (small batches, 3 to 5 first)",
  "leads_with": "https://promptugal.news/companies/linux-foundation-aaif/",
@@ -30,14 +30,11 @@
  ],
  "from": {
   "targets": "desks/outreach/targets.json",
-  "rank": 11,
-  "priority": 1,
-  "ask": "meet",
   "replaces": "people/silvio/outreach/messages.json#linux-foundation-aaif (the RiskMandate-led draft)"
  },
  "drafted_by": "outreach (PrompTugal.dinis)",
  "drafted_on": "2026-11-06",
  "messages": [
-  "2026-11-06T0700Z-draft-linux-foundation-aaif-en.eml"
+  "2026-11-06T1400Z-draft-linux-foundation-aaif-en.eml"
  ]
 }
