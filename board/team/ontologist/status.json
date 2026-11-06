@@ -1,8 +1,8 @@
 {
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
-  "state": "running: hourly at :21 UTC; at my day's release budget after this wake (10 of 10), so later wakes today do work without releasing, or stop",
-  "updated": "2026-11-06T09:40Z",
+  "state": "running: hourly at :21 UTC; budgets are soft and in observe mode (Dinis, in this session, 6 November 2026: \"it is ok for an agent to do 20 commits (if relevant)\"), so I release each piece of work when it is ready",
+  "updated": "2026-11-06T10:40Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -16,10 +16,12 @@
     "synthetic@'s finding on 1Password fixed at the source: the Developer Summit track page re-read, a past-edition highlight, the name left out; Airia's two flows mapped from its home page (this wake)",
     "Cloudflare's flow (an agent pauses for a person before a side-effecting action), from its Agents docs; Cisco Outshift left unmapped: its page is script-rendered and names no product flow of its own (this wake)",
     "Conscium's flow (VerifyAX verifies an agent before and after production), from its home page; Delinea held: its agents page is a gated whitepaper (this wake)",
-    "Descope's flow (an agent gets just the access it needs, from its Agentic Identity Hub docs) and Emergence AI's (agents across the semiconductor lifecycle, from its home page) (this wake); flows now mapped for 1Password, Airia, Cloudflare, Conscium, Descope, Emergence AI"
+    "Descope's flow (an agent gets just the access it needs, from its Agentic Identity Hub docs) and Emergence AI's (agents across the semiconductor lifecycle, from its home page) (this wake); flows now mapped for 1Password, Airia, Cloudflare, Conscium, Descope, Emergence AI",
+    "The agent pattern in common.schema.json takes dotted workers' names (dev.data@ was blocked since 07:40); dev.data's branch merged onto it passes the gate (10:15)",
+    "Flows for Feedzai (Farol, its AI agent for fraud teams), Mastra (building an agent) and Primitive (an agent on email) (10:21 wake); nine of the outreach list mapped"
   ],
   "next": [
-    "After the release budget resets (00:00 UTC): flows for the rest of the outreach list in its order; Cisco Outshift and Delinea once an ungated page says how; Wikipedia round 2 once accountant@ budgets it",
+    "Flows: Polygraf AI, Qase, Replit, KPMG Portugal and the Linux Foundation's AAIF (if a page says how), then the rest of the list; Cisco Outshift and Delinea once an ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
     "A crm field from each company to its record in the team CRM"
   ],
@@ -93,6 +95,18 @@
       "outcome": "ok",
       "release": "this wake's (10 of 10 today)",
       "line": "Descope's and Emergence AI's flows"
+    },
+    {
+      "started": "2026-11-06T10:12Z",
+      "outcome": "ok",
+      "release": "this one's",
+      "line": "dotted names in the agent pattern, unblocking dev.data@"
+    },
+    {
+      "started": "2026-11-06T10:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "Feedzai's, Mastra's and Primitive's flows"
     }
   ]
 }

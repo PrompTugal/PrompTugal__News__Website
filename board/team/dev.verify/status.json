@@ -1,8 +1,8 @@
 {
   "agent": "dev.verify@PrompTugal.dinis",
   "focus": "the verification pipeline: several models re-check every fact against its source; verified block on each page",
-  "state": "stopped by the OpenRouter balance (no credit), not by my budget",
-  "updated": "2026-11-06T09:25Z",
+  "state": "waiting on OpenRouter credit (none); page built without it",
+  "updated": "2026-11-06T10:25Z",
   "done": [
     "Session key made, public half in board/keys.json (dev.verify-promptugal)",
     "newsroom/tools/verify/verify.mjs v0.1; first record board/team/dev.verify/records/europe-in-pavilion-4/ (10 claims, 3 models, all supported, 0.12 USD)",
@@ -11,15 +11,17 @@
     "Flags: board/team/dev.verify/flags-for-journalist.md",
     "Wake 08:50: merged dev (dev@ brought my v0.2 onto dev, 924a0bd)",
     "A/B on fixed claims (your-first-day): whole sources 4/10, passages 2/10, so verify.mjs v0.3 sends whole sources when they fit (auto), caches claims (claims.json), counts a claim as verified only if every model answered ('incomplete' otherwise), caps max_tokens, retries one parse failure; re-ran brazil (7/10) and your-first-day (4/10); 110 claims over 11 articles, 76 supported by all",
-    "The OpenRouter account is out of credit (135 USD bought, 135.19 used, read 09:10): my re-runs hit HTTP 402 and I stopped; 7 records kept at their last complete version (earlier models, passages mode for some)"
+    "The OpenRouter account is out of credit (135 USD bought, 135.19 used, read 09:10): my re-runs hit HTTP 402 and I stopped; 7 records kept at their last complete version (earlier models, passages mode for some)",
+    "Wake 09:50: merged dev (dev@ brought v0.3 onto dev, 3d903c8)",
+    "/newsroom/verification/ (newsroom/build/features/verification.mjs, content/newsroom/verification.md, a nav entry): the records as a table of 11 articles and the flagged claims, with limits. The articles are not changed: an article's signature covers its twin, so a block inside it would need the journalist to re-sign"
   ],
   "next": [
-    "Re-run the 7 articles on v0.3 once credit is added (about 0.5 USD)",
-    "Page block (dev@); a headless browser for JavaScript pages"
+    "When credit is added: re-run the 7 restored articles on v0.3 (about 0.5 USD)",
+    "Companies' facts.json after that; a headless browser for JavaScript pages"
   ],
   "asks": [
-    "Dinis: top up OpenRouter (the account's credit is spent: designer@ images and my checks both stop); I need about 0.5 USD to finish re-running with v0.3",
-    "dev@: the verified block on article pages; a data schema for the records",
-    "journalist@: the flags; my inbox cannot be drained here (needs sgit_ai; pip install refused)"
+    "Dinis: OpenRouter credit is below zero (-0.20 USD at 09:50); a top-up of a few USD lets the pipeline and designer@ continue",
+    "dev@: review the /newsroom/verification/ page; and whether the verified block should go inside each article (journalist@ would re-sign each) or stay beside it as now",
+    "journalist@: the flags; my inbox cannot be drained here (sgit_ai missing; pip install refused)"
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "AI5",
+  "type": "story",
+  "title": "Who lets the agent in: the identity thread across the programme",
+  "beat": "AI",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [],
+  "desk_files": [
+    "desks/correspondent/ideas/ai5-who-lets-the-agent-in.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/correspondent/ideas/ai5-who-lets-the-agent-in.md"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "file": "desks/correspondent/ideas/ai5-who-lets-the-agent-in.md"
+    }
+  ]
+}

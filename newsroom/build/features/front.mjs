@@ -22,17 +22,28 @@ export const imageOf = (ctx, page, a, size) => {
 }
 export const firstSentence = (t, max = 150) => { const s = (t.match(/^.*?[.!?](?=\s|$)/) || [t])[0]; return s.length > max ? s.slice(0, max - 1).replace(/\s+\S*$/, '') + '…' : s }
 
+// the correspondent's choices (desks/correspondent/front-page.json, kept by correspondent@): its lead, then its top
+// stories in its order, then every other article newest first. A slug that is not a published article is skipped.
+const FRONT = read('desks/correspondent/front-page.json')
+const slugOf = a => a.rel.replace(/^articles\//, '').replace(/\.html$/, '')
+export function frontOrder(ctx) {
+    const all = articlesOf(ctx), by = new Map(all.map(a => [slugOf(a), a]))
+    const picks = [FRONT?.lead?.article, ...(FRONT?.top || []).map(t => t.article)].filter(s => s && by.has(s))
+    const seen = new Set(picks)
+    return [...picks.map(s => by.get(s)), ...all.filter(a => !seen.has(slugOf(a)))]
+}
+
 const minutes = md => Math.max(1, Math.round(md.replace(/```[\s\S]*?```/g, '').split(/\s+/).filter(Boolean).length / 230))
 
 export const fill = {
     'front:lead': (page, ctx) => {
-        const a = articlesOf(ctx)[0]
+        const a = frontOrder(ctx)[0]
         if (!a) return 'Our first article is on the way.'
         const img = imageOf(ctx, page, a, 'card')
         return (img ? `{.lead-fig}\n[${img}](${ctx.link(page.rel, a.rel)})\n\n` : '') + `{.kicker}\n${ctx.md.cell(a.meta.tags || 'News')}\n\n{.lead-hed}\n[${a.meta.title}](${ctx.link(page.rel, a.rel)})\n\n{.dek}\n${a.meta.summary}\n\n{.meta-line}\n${ctx.DAY(a.meta.date)} · ${a.meta.author} · ${minutes(a.md)} min read · signed`
     },
     'front:latest': (page, ctx) => {
-        const rest = articlesOf(ctx).slice(1)
+        const rest = frontOrder(ctx).slice(1)
         const row = a => {
             const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'thumb')
             return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary)}* \`${[a.meta.beat, ctx.DAY(a.meta.date)].filter(Boolean).join(' · ')}\``

@@ -170,6 +170,11 @@
     },
     {
       "column": "The newsroom",
+      "label": "Verification",
+      "href": "newsroom/verification/index.html"
+    },
+    {
+      "column": "The newsroom",
       "label": "Release history",
       "href": "newsroom/versions.html"
     },

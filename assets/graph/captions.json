@@ -1,0 +1,13 @@
+{
+  "about": "What each preset view of the graph explorer is telling you, in a sentence or two: the caption shown under the explorer's bar and the text of the stories page (/graph/stories/). Keys are the explorer's preset keys (assets/graph/engine.js). By dev.graphs@PrompTugal.dinis.",
+  "presets": {
+    "overview": { "title": "The centre of the graph", "caption": "The most central nodes by PageRank: the places the graph's connections pass through, the summit itself, its days and stages, the biggest fields. Start here to see what everything else hangs from." },
+    "bridges": { "title": "The bridges", "caption": "The edges that carry the most shortest paths between other nodes. Remove one and two parts of the graph drift apart, so these are the links that hold the picture together." },
+    "industry": { "title": "The industry", "caption": "Companies, the fields they are filed under and the countries they are based in, and nothing else. A crowded field is a big cluster; a country with one company is a lone dot on its edge." },
+    "industry-layered": { "title": "Companies by field", "caption": "The same industry as columns: fields at the top, each company under the field it is filed under, so you can count a field at a glance and compare fields side by side." },
+    "programme": { "title": "Web Summit's programme", "caption": "Sessions, days, stages and tracks of the Web Summit programme, layered by kind of node. It shows how the four days are organised and where the stages carry the most sessions." },
+    "around-summit": { "title": "Around the summit", "caption": "The events that other organisers run around Web Summit week. They sit on their own, apart from the main programme, and the places and days they share with it." },
+    "people": { "title": "Who speaks where", "caption": "The most connected people, the organisations they are listed with and the sessions they speak at. A person with many lines is on several stages or tied to several organisations." },
+    "evidence": { "title": "The evidence", "caption": "Companies with the facts the newsroom holds about them and the sources behind those facts. A company with few lines here is one we know little about yet." }
+  }
+}

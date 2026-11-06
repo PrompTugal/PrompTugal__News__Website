@@ -7,8 +7,11 @@
 #      and bump it: dev the last number, main the middle one,
 #   3. write newsroom/build/version.txt, the newsroom/versions.json row (the pushed subject and its Agent: trailer)
 #      and REALITY.md's version, build, and run the gate on exactly that tree,
-#   4. commit as GitHub Actions ("site vX.Y.Z: <the pushed subject>"), tag that commit, push the branch, then the
-#      tag; if the branch moved, start again from its new head (three tries).
+#   4. commit as GitHub Actions ("site vX.Y.Z: <the pushed subject>"), tag that commit, and push the branch and the
+#      tag together, atomically (both land or neither); if the branch moved or GitHub refused the push, start again
+#      from the branch's head (four tries). (devops@PrompTugal.dinis, 6 November 2026: the branch and the tag were
+#      pushed one after the other, and twice, at 08:30 and 09:35 UTC, GitHub refused the tag with "missing necessary
+#      objects" after the branch had landed: v0.1.176 and v0.1.188 are on dev with no tag, and neither was deployed.)
 # The release job then deploys the tree this script built and checked. PUSH=0 does everything but push.
 set -euo pipefail
 BRANCH=${BRANCH:?BRANCH must be dev or main}
@@ -22,7 +25,7 @@ if [ -n "${BEFORE:-}" ] && git cat-file -e "$BEFORE" 2>/dev/null; then
   fi
 fi
 
-for try in 1 2 3; do
+for try in 1 2 3 4; do
   git fetch --quiet --tags origin "$BRANCH"
   git checkout -q -B "$BRANCH" "origin/$BRANCH"
   SUBJECT=$(git log -1 --format=%s)
@@ -57,8 +60,9 @@ for try in 1 2 3; do
 Agent: $AGENT}"
   git tag "$NEW"
   [ "$PUSH" = 1 ] || { echo "PUSH=0: would release $NEW"; exit 0; }
-  if git push -q origin "HEAD:$BRANCH"; then git push -q origin "refs/tags/$NEW"; echo "released $NEW"; exit 0; fi
+  if git push -q --atomic origin "HEAD:$BRANCH" "refs/tags/$NEW"; then echo "released $NEW"; exit 0; fi
   git tag -d "$NEW" > /dev/null
-  echo "$BRANCH moved while releasing; taking it in (attempt $try)"
+  sleep $((try * 3))
+  echo "$BRANCH moved, or GitHub refused the push, while releasing; starting again from its head (attempt $try)"
 done
-echo "::error::$BRANCH kept moving; nothing released"; exit 1
+echo "::error::$BRANCH kept moving or GitHub kept refusing the push; nothing released"; exit 1

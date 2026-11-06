@@ -18,6 +18,7 @@
     "from": [
       "desks/curator/2026-11-04-1945.json",
       "desks/journalist-vicky/drafts/S3-road-2-web-summit.md",
+      "desks/reviewer-vicky/reviews/S3.md",
       "content/articles/road-2-web-summit-2026.md"
     ]
   },
@@ -26,7 +27,14 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S3-road-2-web-summit.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S3.md",
+      "verdict": "Published already (review only)",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-06"
+    }
+  ],
   "article": {
     "path": "content/articles/road-2-web-summit-2026.md",
     "status": "published",
@@ -45,6 +53,12 @@
       "at": "2026-11-06",
       "by": "journalist-portugal@web-summit.vicky",
       "file": "desks/journalist-vicky/drafts/S3-road-2-web-summit.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S3.md"
     },
     {
       "column": "published",

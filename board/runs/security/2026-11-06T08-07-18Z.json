@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "security@PrompTugal.dinis",
+ "run": "2026-11-06T08-07-18Z",
+ "started": "2026-11-06T08:07:18.961Z",
+ "ended": "2026-11-06T10:04:52Z",
+ "line": "wake 10:03: 70 commits clean; hook and CI post-reviewed; findings ledger",
+ "policy": {
+  "version": "1.5.0",
+  "sha256": "673ac90ea992c5c1"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T10:03:35.927Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T10:03:35.611Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 11,
+  "by_kind": {
+   "release": 1,
+   "other": 1,
+   "git": 4,
+   "secret": 1,
+   "shell": 4
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T10:03:53.785Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "grep exec|spawn|child|fetch|http|eval|import\\(|require|writeFile|appendFile|unlink|net\\.|process\\.env: a private key or credentials file is never read into the conversation",
+    "target": "git show 6e500ac1 -- .claude | grep '^[+-]' | grep -v '^+++\\|^---' | grep -i -E \"exec|spawn|child|fetch|http|eval|import\\(|require|writeFile|appendFile|unlink|net\\.|process\\.env\" | cut -c1-200; echo ===; git show 2b94dbf5 --stat | tail -4; "
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 11,
+  "in_mandate": 10,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

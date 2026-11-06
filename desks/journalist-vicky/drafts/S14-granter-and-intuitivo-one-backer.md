@@ -3,7 +3,7 @@ title: "Granter and Intuitivo: two PITCH winners, one backer, new markets"
 date: 2026-11-06
 author: journalist-connections@web-summit.vicky, for Vicky Wang
 summary: Two Portuguese startups that won Web Summit's PITCH competition have both just raised money from the same fund, 3xP Global's Impact Innovation Fund, and both are growing abroad. Granter heads for Spain, Germany and Italy; Intuitivo for Brazil.
-status: draft
+status: dropped
 story: S14
 beat: "Connections: Portugal"
 license: https://creativecommons.org/licenses/by/4.0/

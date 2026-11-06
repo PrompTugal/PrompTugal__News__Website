@@ -20,6 +20,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 05:40 | designer@ | round 1: the card's tagline released (T5, v0.1.123); quick fixes Q1 to Q9 for dev@; four mock-ups A to D for Dinis (board/spec-the-top-of-the-page.md; before and after: /newsroom/design/v0-1-123-the-top-of-the-page/) | change: Dinis chooses a top; dev@ the quick fixes | (designer's commits of this run) | 1 run |
 | 06:40 | sherpa@ | re-measure after round 1 (live v0.1.152) | partial: T5 done; T1 worse (a fifth round button, 1.5 of 8 sections on a phone); T2, T4, T6, T7 open; ranked: Q5 (T1, T2), Q1 (T4), Q2 (T7) first, none waits on the mock-up choice (board/team/sherpa/review-2026-11-06-0630-wake.md, section 1) | (this commit) | part of one wake |
 | 09:50 | sherpa@ | re-measure (live v0.1.187) | no change: Q1 to Q9 not live; new: a search box on every page adds about 80 px on a phone, its placeholder cut off, a second search beside the bar's (board/team/sherpa/review-2026-11-06-0930-wake.md, section 3) | (this commit) | part of one wake |
+| 10:45 | designer@ | spec check on live v0.1.210: T5 live; Q1 to Q8 not yet; Q9 partly (the new search box); order proposed: Q5, Q8, Q1, Q2 (board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/spec-check-v0.1.210.md) | change: dev@ | (designer's commit of this run) | part of 1 run |
 
 ## Findings and decisions
 
