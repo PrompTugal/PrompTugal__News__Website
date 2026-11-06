@@ -2,7 +2,7 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T17:38Z",
+  "updated": "2026-11-06T18:16Z",
   "done": [
     "Wake 17:08: security@'s S1 fixed (a condition of the signed-in views pass): the keyring only on /login/ and the drain, gate-checked; no HTML or active SVG served from desks/ or data/, their scripts left out of the deploy. C is live since 16:53 (v0.1.294); no designer@ findings yet. Worker branches: nothing new since 16:16.",
     "C, the top of every page (Dinis 13:20; conductor 17:10 relay): built and pushed 16:45 (436f3d57), live with the next release; A behind ?top=a for the A/B; Q2, Q3, Q4, Q8, Q9 within C; pages no longer wider than a phone. designer@ checks it against the answered pictures; sherpa@ and observability@ told how to read the variant.",
@@ -128,5 +128,6 @@
       "release": "v0.1.272",
       "line": "review round 9; then the Algarve Evolution sprint until 14:45"
     }
-  ]
+  ],
+  "debrief": "board/team/dev/debriefs/2026-11-06-handover.md"
 }
