@@ -5,7 +5,7 @@
   "title": "From the PITCH stage to new markets: Portuguese startups raising",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "idea",
+  "status": "published",
   "rests_on": [
     "evidence:r1255-15",
     "evidence:r1255-19",
@@ -17,23 +17,48 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-04-1945.json"
+      "desks/curator/2026-11-04-1945.json",
+      "desks/journalist-promptugal/drafts/S4-from-pitch-to-new-markets.md",
+      "desks/journalist-promptugal/checks/S4.md",
+      "content/articles/from-pitch-to-new-markets.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.dinis",
   "needs": null,
   "held": null,
-  "draft": null,
-  "check": null,
+  "draft": "desks/journalist-promptugal/drafts/S4-from-pitch-to-new-markets.md",
+  "check": "desks/journalist-promptugal/checks/S4.md",
   "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "article": {
+    "path": "content/articles/from-pitch-to-new-markets.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-04T19:45Z",
       "by": "curator@web-summit.vicky",
       "file": "desks/curator/2026-11-04-1945.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "desks/journalist-promptugal/drafts/S4-from-pitch-to-new-markets.md"
+    },
+    {
+      "column": "fact-check",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/checks/S4.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "content/articles/from-pitch-to-new-markets.md"
     }
   ]
 }
