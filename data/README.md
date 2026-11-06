@@ -25,6 +25,9 @@ data/
     edges.json             typed links: filed_under a topic, based_in a country, appears_in / hosts a session
                            (by its URL, resolved to the event by the build)
     recheck.json           PrompTugal.news's re-check log (appended, never rewritten)
+    flows.json             (when mapped) its flows: how work moves through its product, step by step, who acts,
+                           and where an AI agent acts, each flow and step citing sources.json; only what a source
+                           says (schema company-flows; the company page renders it, or says it is not mapped yet)
   places/<slug>/place.json the 77 places: countries, regions, cities, districts, venues, buildings, stages, rooms,
                            each located_in another, with the exact "where" strings that map to it            HAND
   topics/<slug>/topic.json the 17 topics: 8 fields (the company categories), 3 themes, 6 beats; broader topics;

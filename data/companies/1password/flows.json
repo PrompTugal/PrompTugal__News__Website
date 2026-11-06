@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "1password",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "agent-sign-in",
+      "name": "A personal agent signs in to a website (1Password for Agents)",
+      "summary": "For an individual or family account: a person delegates a task that needs a sign-in, such as booking a flight, and 1Password fills the login in the agent's browser instead of the person sharing the password with the agent. Opt-in, for supported agent apps.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The person",
+          "what": "Connects 1Password to a supported agent app. Connecting lets the agent ask 1Password to sign in; it does not give the agent access to the person's vaults.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Reaches a step of its task that needs a sign-in and asks 1Password to sign in.",
+          "agent": "Carries out the delegated task (for example booking a flight or shopping for groceries) and asks 1Password for a sign-in when it needs one.",
+          "source": "fl1"
+        },
+        {
+          "actor": "1Password",
+          "what": "Shows the person which agent is asking to sign in, with suggested logins for the website.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The person",
+          "what": "Reviews the request and chooses whether to approve it.",
+          "source": "fl1"
+        },
+        {
+          "actor": "1Password",
+          "what": "Fills the username, password and one-time password directly into the website's sign-in form in the agent's browser; the agent app makes sure the agent cannot see the sign-in page.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Continues the task, signed in. The person can disconnect the integration at any time.",
+          "agent": "Completes the task without the credentials entering its chat.",
+          "source": "fl1"
+        }
+      ]
+    },
+    {
+      "id": "agentic-autofill",
+      "name": "An AI agent in a browser gets a credential (Secure Agentic Autofill, with Browserbase)",
+      "summary": "1Password's first implementation for browser-use agents, through Browserbase: credentials are injected into the agent's browser by the 1Password browser extension only when required and always authorised by a person, so the agent and the underlying model never see them.",
+      "source": "fl2",
+      "steps": [
+        {
+          "actor": "The person",
+          "what": "Sets it up: 1Password shows a prompt that details what the agentic browser will be able to request from 1Password; Browserbase cannot access, see or modify anything in a vault without approval.",
+          "source": "fl2"
+        },
+        {
+          "actor": "The agent",
+          "what": "Runs a workflow in the browser and, when it needs to sign in, informs 1Password that a credential is being requested.",
+          "agent": "Executes the browser workflow and requests a credential from 1Password instead of receiving one in its prompt.",
+          "source": "fl2"
+        },
+        {
+          "actor": "1Password",
+          "what": "Identifies the appropriate credentials and asks the person for approval; where a site has more than one login, the person chooses which to use.",
+          "source": "fl2"
+        },
+        {
+          "actor": "The person",
+          "what": "Approves or refuses in real time; every credential request needs a person's approval by default.",
+          "source": "fl2"
+        },
+        {
+          "actor": "1Password",
+          "what": "If, and only if, the person approves, injects the credential into the browser over an end-to-end encrypted channel (a protocol built on the Noise Framework) between the approving 1Password device and the extension in the remote browser, just in time.",
+          "source": "fl2"
+        },
+        {
+          "actor": "The agent",
+          "what": "Carries on with the workflow, signed in; the credential never enters the model's context.",
+          "agent": "Completes the workflow with access limited to the credentials that workflow needs (least privilege).",
+          "source": "fl2"
+        }
+      ]
+    }
+  ]
+}

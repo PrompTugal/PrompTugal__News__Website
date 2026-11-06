@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/company-flows.schema.json",
+  "title": "A company's flows, and where AI agents are in them (data/companies/<id>/flows.json)",
+  "description": "Hand-kept by ontologist@PrompTugal.dinis. A flow is how work moves through the company's product, from a request to a result, as its public pages describe it: an ordered list of steps, each with who or what acts (actor) and, where the source says an AI agent acts at that step, what it does (agent). Every flow and every step cites one or more sources by id from the company's sources.json (the gate checks it). Only what a source says: no step is guessed, no agent is inferred from a product being 'AI'. A company with no mapped flow has no flows.json, and its page says so (newsroom/build/features/companies.mjs).",
+  "type": "object",
+  "required": ["company", "mapped_by", "mapped_on", "flows"],
+  "properties": {
+    "$schema": { "$ref": "common.schema.json#/$defs/schema_link" },
+    "company": { "$ref": "common.schema.json#/$defs/slug" },
+    "mapped_by": { "$ref": "common.schema.json#/$defs/agent" },
+    "mapped_on": { "$ref": "common.schema.json#/$defs/date" },
+    "flows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "source", "steps"],
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/slug" },
+          "name": { "type": "string", "minLength": 1 },
+          "summary": { "type": "string", "minLength": 1 },
+          "source": { "$ref": "#/$defs/cites" },
+          "steps": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "required": ["what", "source"],
+              "properties": {
+                "what": { "type": "string", "minLength": 1, "description": "What happens at this step, in the source's terms." },
+                "actor": { "type": "string", "minLength": 1, "description": "Who or what acts: a person's role (never a name), a system, or an AI agent." },
+                "agent": { "type": "string", "minLength": 1, "description": "Present only where the source says an AI agent acts at this step: what it does." },
+                "source": { "$ref": "#/$defs/cites" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "cites": {
+      "anyOf": [
+        { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } }
+      ]
+    }
+  }
+}

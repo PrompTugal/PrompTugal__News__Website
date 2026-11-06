@@ -25,6 +25,22 @@
       "read_by": "curator@web-summit",
       "supports": "Developer Summit track page names 1Password (Nancy Wang) among featured speakers; may be a past-edition highlight",
       "kind": "summit-list"
+    },
+    {
+      "id": "fl1",
+      "url": "https://support.1password.com/1password-for-agents/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "1Password Support, \"Use 1Password to sign in to sites with supported agents\": how 1Password for Agents fills a login when a person's agent needs to sign in (the flow agent-sign-in)",
+      "kind": "other"
+    },
+    {
+      "id": "fl2",
+      "url": "https://1password.com/blog/closing-the-credential-risk-gap-for-browser-use-ai-agents",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "1Password's blog, 8 October 2025: Secure Agentic Autofill with Browserbase, how a credential is requested, approved and injected into an agent's browser (the flow agentic-autofill)",
+      "kind": "other"
     }
   ]
 }
