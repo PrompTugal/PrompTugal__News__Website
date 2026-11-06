@@ -18,8 +18,9 @@ const gate = {
     text: p => fs.readFileSync(config.R(p), 'utf8'),
     sha256: s => crypto.createHash('sha256').update(s).digest('hex'),
 }
+const warnings = []   // a feature's warn(gate): printed by the gate, never a failure (another agent's lag must not block a release)
 for (const f of await loadFeatures()) {
-    if (!f.validate) continue
-    try { for (const e of await f.validate(gate)) problems.push(`${f.name}: ${e}`) } catch (e) { problems.push(`${f.name}: the check failed: ${e.stack || e}`) }
+    if (f.validate) try { for (const e of await f.validate(gate)) problems.push(`${f.name}: ${e}`) } catch (e) { problems.push(`${f.name}: the check failed: ${e.stack || e}`) }
+    if (f.warn) try { for (const w of await f.warn(gate)) warnings.push(`${f.name}: ${w}`) } catch (e) { warnings.push(`${f.name}: the warning check failed: ${e.message || e}`) }
 }
-process.stdout.write(JSON.stringify(problems))
+process.stdout.write(JSON.stringify({ problems, warnings }))

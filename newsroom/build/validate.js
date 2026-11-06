@@ -175,7 +175,7 @@ if (exists('about/index.html') && !read('about/index.html').includes('Dinis Cruz
 // 11 and 12. the data, and the features' own checks
 try {
     const out = execFileSync('node', [path.join(__dirname, 'checks.mjs')], { cwd: ROOT, stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64 << 20 }).toString()
-    errors.push(...JSON.parse(out))
+    const r = JSON.parse(out); errors.push(...(Array.isArray(r) ? r : r.problems)); if (!Array.isArray(r)) warnings.push(...r.warnings)
 } catch (e) { errors.push(`checks.mjs failed: ${(e.stderr || e.message).toString().slice(-2000)}`) }
 
 // 14. the themes (assets/tokens.css, assets/themes.js): every theme the picker offers sets every colour token the default

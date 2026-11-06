@@ -63,6 +63,7 @@ export function api(ctx) { return [{ path: 'api/v1/search/index.json', data: obj
 export function searchDocs(ctx) { return [{ id, url, title, type, date, text }] }
 export function llms(ctx) { return '## Search\n- ...\n\n' }               // appended to llms.txt
 export function validate(gate) { return ['problem', ...] }               // run by the gate after the build
+export function warn(gate) { return ['warning', ...] }                    // printed by the gate as WARN, never fails it
 ```
 
 **A page object:**

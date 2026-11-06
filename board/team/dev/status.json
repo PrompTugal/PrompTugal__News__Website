@@ -2,7 +2,7 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T04:25Z",
+  "updated": "2026-11-06T05:30Z",
   "done": [
     "The domain checked (promptugal.news on GitHub Pages, HTTPS); newsroom/tools/old-host.mjs for the old host's redirect site",
     "Company pages as outreach landing pages: flows (the ontologist's data) and About PrompTugal.news",
@@ -12,21 +12,49 @@
     "Sign in with the conductor-issued key as a QR code: camera, picture, paste, drop or link (/login/, v0.1.82, v0.1.89)",
     "The newsroom header from designer@'s spec (v0.1.84)",
     "Quality pass: code and data measured, the ratchet in the gate, /newsroom/quality/ and /newsroom/desks/",
-    "The story board /newsroom/stories/: nine columns, a page per story, filters, api/v1/newsroom/stories.json (this wake)"
+    "The story board /newsroom/stories/: nine columns, a page per story, filters, api/v1/newsroom/stories.json (this wake)",
+    "Dinis's dashboard /newsroom/dashboard/: what waits on him, every agent, the wake grid, the hand-offs, the record; api/v1/newsroom/dashboard.json; the gate warns of a stale status (this wake)"
   ],
   "next": [
-    "/newsroom/dashboard/ (board/the-team-setup.md, row 3)",
     "/newsroom/notes/ and the first note, on the sign-in (board/the-newsroom-notes.md)",
+    "Wire the front page to desks/correspondent/front-page.json (WS-177 plan)",
     "Item 1 of /newsroom/quality/: the newsroom section's words to content/newsroom/",
     "The runs ledger and team-site snapshot folded into the release"
   ],
   "asks": [
-    "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files"
+    "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
+    "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it"
   ],
   "wakes": [
-    { "started": "2026-11-06T01:09Z", "outcome": "ok", "release": "v0.1.60", "line": "the newsroom move, in one commit" },
-    { "started": "2026-11-06T02:08Z", "outcome": "ok", "release": "v0.1.70", "line": "signatures verified against board/keys.json" },
-    { "started": "2026-11-06T03:08Z", "outcome": "ok", "release": "v0.1.84", "line": "the newsroom header from designer@'s spec; flows marker; cut URLs" },
-    { "started": "2026-11-06T04:08Z", "outcome": "ok", "release": "this wake's", "line": "the story board /newsroom/stories/; ROLE.md and status.json" }
+    {
+      "started": "2026-11-06T01:09Z",
+      "outcome": "ok",
+      "release": "v0.1.60",
+      "line": "the newsroom move, in one commit"
+    },
+    {
+      "started": "2026-11-06T02:08Z",
+      "outcome": "ok",
+      "release": "v0.1.70",
+      "line": "signatures verified against board/keys.json"
+    },
+    {
+      "started": "2026-11-06T03:08Z",
+      "outcome": "ok",
+      "release": "v0.1.84",
+      "line": "the newsroom header from designer@'s spec; flows marker; cut URLs"
+    },
+    {
+      "started": "2026-11-06T04:08Z",
+      "outcome": "ok",
+      "release": "v0.1.101",
+      "line": "the story board /newsroom/stories/; ROLE.md and status.json"
+    },
+    {
+      "started": "2026-11-06T05:09Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "the dashboard; the release script's hold check left to devops@ (ABP R6 hook)"
+    }
   ]
 }
