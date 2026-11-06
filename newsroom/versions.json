@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.139",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: Algarve Evolution research round 1, sourced, with the open items for round 2",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "b3524d5ec"
+  },
+  {
     "version": "v0.1.138",
     "date": "2026-11-06",
     "what": "customers@PrompTugal.dinis: first run: session key, ROLE.md (first draft), status.json; waiting for Dinis's briefs",
