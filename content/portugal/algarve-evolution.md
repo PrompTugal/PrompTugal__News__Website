@@ -36,6 +36,7 @@ To diversify the Algarve's economy beyond tourism and help established industrie
 
 {.ae-timeline}
 - **2018** A small group of local entrepreneurs starts building the Algarve's innovation community ([Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/)).
+- **12 September 2019** Officially presented in Faro, on the terrace of the Centro Ciência Viva do Algarve, as a non-profit association of about 29 ICT companies. Its stated aims included building critical mass, mapping regional skills, internationalising, speaking with one voice at events such as Web Summit, keeping graduates in the region and diversifying beyond tourism ([Barlavento, 20 September 2019](https://www.barlavento.pt/mais/algarve-evolution-vai-promover-empresas-de-vanguarda-tecnologica); [postal.pt, 14 September 2019](https://postal.pt/nacional/empresas-juntam-se-para-fazer-do-algarve-um-destino-mais-tecnologico-e-competitivo/)).
 - **June 2023** The Algarve Innovation Hub publishes its internationalisation strategic plan (same source).
 - **1 June 2024** Impact Algarve, organised with the non-profit Get Real at the University of Algarve's UAlg Tec Campus, gathers the region's local players ([postal.pt, 6 June 2024](https://postal.pt/algarve/impact-algarve-juntou-principais-intervenientes-locais-para-debaterem-o-futuro-da-regiao/)).
 - **July 2024** A new president is elected to lead the association for 2024 to 2027 ([postal.pt, 11 July 2024](https://postal.pt/economia/joaquim-nascimento-e-o-novo-presidente-da-algarve-evolution/)).
@@ -76,6 +77,8 @@ Sources: [Portugal Startup News](https://portugalstartupnews.com/2026/11/01/alga
 | **The region** | An Informa D&B study (presented November 2025) found 115 startups in the Algarve in 2024, up 16%, 95% of them microenterprises. |
 
 Source: [Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/), read 6 November 2026.
+
+**Members over time, as reported (not like for like):** about 29 companies at the 2019 presentation ([Barlavento](https://www.barlavento.pt/mais/algarve-evolution-vai-promover-empresas-de-vanguarda-tecnologica)), about 70 companies and individuals in July 2024 ([postal.pt](https://postal.pt/economia/joaquim-nascimento-e-o-novo-presidente-da-algarve-evolution/)), 118 active members in November 2026 (Portugal Startup News). The Grow Algarve Meetup counts 1,623 members on [Meetup](https://www.meetup.com/grow-algarve-meetup/).
 :::
 
 ::: ae-sec
@@ -122,7 +125,7 @@ The wider week: [Portugal Tech Week](../index.md), 6 to 15 November, across the 
 
 - **António Guerreiro, executive director.** Named in that role by [postal.pt on 6 June 2024](https://postal.pt/algarve/impact-algarve-juntou-principais-intervenientes-locais-para-debaterem-o-futuro-da-regiao/) and by [Portugal Startup News on 1 November 2026](https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/), where he describes the 2026 shift from building a community to making the ecosystem work. He also presented the Algarve Digital Innovators network at its launch in Lagos ([postal.pt, 11 September 2025](https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/)).
 
-The association's presidency changed hands in July 2024, for 2024 to 2027 (timeline above). Its own website lists no leadership, so we name no one else here. We list a person only for a public professional role, with the source.
+The association's presidency changed hands in July 2024, for 2024 to 2027 (timeline above). Its own website lists no leadership, so we name no one else here; we have asked nobody else, and a person is named only with a public professional role and its source. We list a person only for a public professional role, with the source.
 :::
 
 ::: ae-sec
