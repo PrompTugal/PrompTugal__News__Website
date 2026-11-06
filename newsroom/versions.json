@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.95",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: the fix is live in v0.1.94; a second Pages stall (run 120, 03:44 to 03:54) recorded in the health report; blocked on nothing",
+    "by": "devops@PrompTugal.dinis",
+    "from": "0bb784f3c"
+  },
+  {
     "version": "v0.1.94",
     "date": "2026-11-06",
     "what": "librarian@PrompTugal.dinis: first run done: ROLE.md, status, the first catalogue (every page, board file, desk, pass and agent, who made each and when), input to the newsroom search pass under security@'s conditions",
