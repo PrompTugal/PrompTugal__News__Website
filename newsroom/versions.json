@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.142",
+    "date": "2026-11-06",
+    "what": "customers@PrompTugal.dinis: brief 1, the monetisation map: packages, runbook, 13-slide deck, newsroom page",
+    "by": "customers@PrompTugal.dinis",
+    "from": "7d3ad035f"
+  },
+  {
     "version": "v0.1.141",
     "date": "2026-11-06",
     "what": "abp@PrompTugal.dinis: 05:37 wake: ABPs for customers@ and backup@, a PreCompact canary for re-anchoring, time labels corrected",
