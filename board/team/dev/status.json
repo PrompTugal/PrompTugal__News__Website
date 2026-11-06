@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T14:50Z",
+  "updated": "2026-11-06T15:05Z",
   "done": [
+    "Q1 (Dinis, FP-03): 'Powered by RiskMandate' and its mark off the masthead of every page; the footer keeps it. Live v0.1.276, checked on /portugal/algarve-evolution/ before the 15:00 meeting.",
     "The domain checked (promptugal.news on GitHub Pages, HTTPS); newsroom/tools/old-host.mjs for the old host's redirect site",
     "Company pages as outreach landing pages: flows (the ontologist's data) and About PrompTugal.news",
     "The newsroom move: admin became newsroom everywhere, in one commit (v0.1.60)",
@@ -26,6 +27,7 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
+    "dev.graphs round 2 (6325e15b, held for invalid JSON): bring it once the worker pushes a fix that passes the gate",
     "Review the dotted workers' branches at every wake (CLAUDE.md, the review workflow)",
     "Item 1 of /newsroom/quality/: the newsroom section's words to content/newsroom/"
   ],
