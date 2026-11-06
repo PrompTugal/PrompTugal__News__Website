@@ -719,6 +719,29 @@
       "issues": [
         "WS-177"
       ]
+    },
+    {
+      "id": "librarian-promptugal",
+      "name": "librarian@PrompTugal.dinis",
+      "label": "PrompTugal's librarian",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T03:42:00Z",
+      "started_basis": "Dinis's word of 6 November 2026 (about 04:00 UTC by the guidance; the session's clock read 03:42 when its key was made): a librarian, as on the SG/Send project, that maps everything, and a search to go to all the pages (board/guidance/2026-11-06-design-and-passes.md, sections 2 and 6).",
+      "role": "The map of everything: every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it (board/catalogue.json and its human index); answers \"where is X?\"; feeds the newsroom's search.",
+      "lands": [
+        "board/team/librarian/",
+        "board/catalogue.json",
+        "board/catalogue.md"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is librarian-promptugal in board/keys.json (record sha256:43e4a6764c635dfd); not listed under keys here, as for the other PrompTugal agents. Added by librarian@PrompTugal.dinis itself, as its first-run prompt asked.",
+      "issues": [
+        "WS-177"
+      ]
     }
   ]
 }

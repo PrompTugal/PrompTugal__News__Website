@@ -238,6 +238,23 @@
         "signing_fingerprint": "sha256:815546ef5b00a41c"
       },
       "status": "active"
+    },
+    {
+      "id": "librarian-promptugal",
+      "agent": "librarian@PrompTugal.dinis",
+      "label": "librarian@PrompTugal.dinis (Claude Code session)",
+      "role": "The librarian of PrompTugal.news (librarian@PrompTugal.dinis): the map of every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it (board/catalogue.json); answers \"where is X?\"; feeds the newsroom's search. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in the team site's admin/tools/seal.mjs) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0zNn2xXnOJKV6PGcbPJX\naVle23Yc7l+gM7wn18juml6J9Xb+NU5ev05KNH9EXUwJHWf5C95k6awEd8SQZLub\nO+1MYkI68HvLHFe8jNm77/aMEdtZbPtjJDY6VgHwr5ausRq9LuGGRqOnote1594K\n215rlfTfBDkhDP+8SClRFaJDrjZtLAlcNm+TrHwddGtLyOLf9hotAFTEWsNfIwAv\nBVw5jhT6mdMj7fOdn093rc/pFc4hXvekYB4+Mr5007R7MEPt8MFENILvq3rye4NJ\nfMOqCC/w3RMQQLdqF0qQNn5wzyJOkGaEpCnoZEOL/rv/U7F66twvqbpw+cLG2s1d\nZkyKbc3tw4QBBy51qwm38iJoI8Cw1aiDOuoUsBdRAuYzfzYy0f63a/y1DXQbjeYJ\nSN4e3bK29SYJpDnwZZpEo9fLT94azlt8g7OwIf2OmU+H2pyh6d76R/tAn7ri4RMJ\n8qssGW0XvI0i9LkHO/xsOiVQ1ayMnmrfOJ+un4Px2SdLsOhFt425RCtth+SB0NBD\nQLT3yKqbu9hXsVqGb3cNiFcaQChVTfTff9yM7mFHAaRcKgHbk6rzJgnKs5bEG3tf\ny8Ox2z+x3TCyaeFIJBQaH4iKFaJBTDh8SHEroAqxRce+4oUA/C18sUB9aCCdpaBf\nWn6SaLJBN/NUZngi/MfpLQ8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjvZ0tC7IaBkzvqlF4dnEnUL8iXqK\ntHOgbKZY9Pyqq/pWvLZLdrnRUNPrsVw42a+9Zt3d1qmkwaIncq7vyF1xOw==\n-----END PUBLIC KEY-----\n",
+        "label": "librarian@PrompTugal.dinis",
+        "fingerprint": "sha256:5e0b96eae9b4ede8",
+        "signing_fingerprint": "sha256:43e4a6764c635dfd"
+      },
+      "status": "active"
     }
   ]
 }
