@@ -24,7 +24,7 @@ Pineapple peel and core usually end up as waste. In Maia, a small Portuguese com
 
 AgroGrINTech has started a pilot unit in Pedrouços, Maia, Pep4Fish reported on 19 October. It extracts bromelain, an enzyme found mainly in the parts of the pineapple that are thrown away. The enzyme is used to make protein hydrolysates: proteins broken into smaller parts that fish digest more easily.
 
-The scale-up worked, the company says. The unit kept the same extraction yields it had in the laboratory. "This optimisation multiplied by four the production capacity planned in 2025," said Débora Campos, AgroGrINTech's CEO and founder, quoted by Pep4Fish. The unit went from 50kg to about 200kg of bromelain a year, from about 120 tonnes of pineapple by-products. The same process also makes pineapple flour, so almost nothing is wasted.
+The scale-up worked, the company says. The unit kept the same extraction yields it had in the laboratory. "This optimisation ... multiplied by four the production capacity planned in 2025," said Débora Campos, AgroGrINTech's CEO and founder, quoted by Pep4Fish (translated from Portuguese). The unit went from 50kg to about 200kg of bromelain a year, from about 120 tonnes of pineapple by-products. The same process also makes pineapple flour, allowing more of the fruit to be used.
 
 The work is part of Pep4Fish, which develops new feeds for European seabass and gilthead seabream. The aim is better digestibility and fish health, AICEP Portugal Global reported on 4 November. The [ETSA Group](../organisations/etsa/index.html) leads the project with nine partners, including research centres and companies. It belongs to the [Blue Bioeconomy Pact](../organisations/blue-bioeconomy-pact/index.html), funded through Portugal's Recovery and Resilience Plan.
 
@@ -38,10 +38,11 @@ At the summit, investors following Portugal's circular economy and aquaculture c
 
 ## What this does not claim
 
-- **AgroGrINTech is not confirmed at Web Summit 2026.** Neither source says it attends.
+- **Neither AgroGrINTech nor Seamoretech is confirmed at Web Summit 2026.** The sources do not say they attend.
+- **No link between the two companies is claimed.** Pairing them is the newsroom's suggestion; no source says they work together.
 - **The 1.2 million euros.** Pep4Fish gives it as the total investment in the unit by the end of 2026; AICEP calls it the project's expected funding. This draft follows Pep4Fish, the project's own site.
 - **The capacity figures and the benefits for fish are the company's and the project's.** AICEP notes the benefits depend on how the feed is made and used. The newsroom has not checked them.
-- **The name** is spelt AgroGrINTech by both reports and AgroGrIN Tech on the company's own site.
+- **The name** is spelt AgroGrINTech by AICEP, both AgroGrIN Tech and AgroGrINTech by Pep4Fish, and AgroGrIN Tech on the company's own site.
 - The size of the investment round is not given.
 
 ## Where this comes from
