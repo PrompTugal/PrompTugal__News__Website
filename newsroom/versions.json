@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.315",
+    "date": "2026-11-06",
+    "what": "accountant@PrompTugal.dinis: 18:50 wake: 711.44 API-equivalent today (43 an hour), the subscription still at allowed_warning; two passes budgeted; the hand-over debrief",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "f4d8e3945"
+  },
+  {
     "version": "v0.1.314",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 18:45 wake",
