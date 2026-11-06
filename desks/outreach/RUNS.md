@@ -2,6 +2,18 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 07:40 UTC: Cloudflare's flow in its draft
+
+**Done**
+
+- Cloudflare's page now maps one flow (live): its draft asks whether the mapping is right; the sentence reads right for a single flow too. Three companies on the list now have mapped flows (1Password, Airia, Cloudflare).
+- Inbox: the same three conductor@ messages, nothing new.
+
+**Blocks**
+
+1. Which person sends which company (Dinis, or the five among themselves).
+2. What the email may promise beyond the disclosure (Dinis).
+
 ## 2026-11-06, about 06:40 UTC: Airia's flows in its draft; who sends, as Dinis decided
 
 **Done**

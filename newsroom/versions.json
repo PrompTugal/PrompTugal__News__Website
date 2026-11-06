@@ -1,5 +1,75 @@
 [
   {
+    "version": "v0.1.176",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "e8ef6c91b"
+  },
+  {
+    "version": "v0.1.175",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: Conscium's flow from its home page; Delinea held, its agents page is a gated whitepaper",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "256dbe27b"
+  },
+  {
+    "version": "v0.1.174",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@web-summit.vicky",
+    "from": "ecf0c947d"
+  },
+  {
+    "version": "v0.1.173",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: wake 08:14: dev quiet (28 of 29 green, one Pages stall recovered); CI for the workers' branches; run report; blocked on draining my inbox (sgit-ai install refused)",
+    "by": "devops@PrompTugal.dinis",
+    "from": "17ed72042"
+  },
+  {
+    "version": "v0.1.172",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 08:13",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "2ff34967f"
+  },
+  {
+    "version": "v0.1.171",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 08:05: 50 commits and seven worker branches clean; S15 half done; the recovery runbook",
+    "by": "security@PrompTugal.dinis",
+    "from": "ea7d26f54"
+  },
+  {
+    "version": "v0.1.170",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 07:53: Algarve live, pass order, synthetic decisions, two inboxes",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5a9e9b5aa"
+  },
+  {
+    "version": "v0.1.169",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@web-summit.vicky",
+    "from": "c2c339598"
+  },
+  {
+    "version": "v0.1.168",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 07:40 UTC: Cloudflare's flow in its draft; blocked on which person sends which company and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "245dfc745"
+  },
+  {
+    "version": "v0.1.167",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: review: bring work/designer.experiments onto dev (round 1: companies, articles and Tuesday 10, three views each)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "312c72fee"
+  },
+  {
     "version": "v0.1.166",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",

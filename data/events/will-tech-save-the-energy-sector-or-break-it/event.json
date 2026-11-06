@@ -18,11 +18,11 @@
   "organised_by": "organisation:web-summit",
   "speakers": [
     {
-      "person": "person:jake-jurewicz",
-      "as_listed": "Jake Jurewicz (Co-Founder & CEO, Blue Energy)",
-      "role": "Co-Founder & CEO",
-      "organisation": "Blue Energy",
-      "org": "organisation:blue-energy"
+      "person": "person:idalia-friedson",
+      "as_listed": "Idalia Friedson (Co-Founder, Sygaldry Technologies)",
+      "role": "Co-Founder",
+      "organisation": "Sygaldry Technologies",
+      "org": "organisation:sygaldry-technologies"
     },
     {
       "person": "person:greg-piefer",
@@ -48,8 +48,8 @@
   ],
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/a23706f0-40be-41f8-b6ca-9881732130f5/will-tech-save-the-energy-sector-or-break-it/",
-  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
-  "read_at": "2026-11-05T08:17Z",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
+  "read_at": "2026-11-06T08:18Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -59,6 +59,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 174
+    "item": 182
   }
 }

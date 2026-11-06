@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "paul-santarelli",
+  "type": "person",
+  "name": "Paul Santarelli",
+  "role": "Chief Solutions Officer",
+  "organisation": "PitchBook Data",
+  "org": "organisation:pitchbook-data",
+  "listings": [
+    {
+      "role": "Chief Solutions Officer",
+      "organisation": "PitchBook Data",
+      "org": "organisation:pitchbook-data",
+      "event": "event:press-conference-pitchbook-goes-free-for-startups-new",
+      "source": "https://websummit.com/sessions/lis26/3c456209-8f0b-41df-8c2e-f4a329945082/press-conference-pitchbook-goes-free-for-startups-new-platform-for-finding-them-first/",
+      "read_at": "2026-11-06T08:18Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "glean",
+  "type": "organisation",
+  "name": "Glean",
+  "names_as_listed": [
+    "Glean"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/a7f385ed-1ef1-4a73-8a5f-bb0c3cde833a/the-ai-paradox-smarter-models-disappointing-results/",
+      "read_at": "2026-11-06T08:18Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

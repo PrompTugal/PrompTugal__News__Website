@@ -1,9 +1,10 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 06:33 done (the summit days, round 1)",
-  "updated": "2026-11-06T06:58Z",
+  "state": "working: session 2; hourly wake 07:33 done (reviewed and took designer.experiments@ round 1)",
+  "updated": "2026-11-06T07:50Z",
   "done": [
+    "Reviewed work/designer.experiments (round 1: companies, articles, Tuesday 10, A to C each) and brought it onto dev as one commit; its pictures in the vault (experiments/round-1/); notes for round 2 in board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-0740.md; linked from /newsroom/design/#experiments",
     "The summit days, round 1: the strip of eight days, a past day (v0.1.37 rebuilt from its tag with the clock frozen), a future day (Tue 10); spec board/spec-the-summit-days.md; before and after /newsroom/design/summit-days-round-1/; tool design/mockups/days/make.mjs",
     "The front page, round 1: three mock-ups (A newspaper, B visual wall, C briefing first) answering sherpa@'s F1 to F8; spec board/spec-the-front-page.md; before and after /newsroom/design/front-page-round-1/; tool design/mockups/front/make.mjs; one AI image (PITCH story, 0.0675 USD, placeholder only)",
     "Session 2 onboarded: new key designer-promptugal-2 in board/keys.json, session 1's marked superseded",
@@ -20,6 +21,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
+    "Review work/designer.experiments again at each wake",
     "The synthetic readers page: S5 (persona cards) and S9 (the scoreboard as tiles), the designer's two findings",
     "Round 2 of the top, the front page and the summit days once Dinis chooses and dev@ builds",
     "Images for every published story into the vault (an images.json per article) once the OpenRouter credit is topped up",
@@ -75,6 +77,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the summit days, round 1: strip, past (v0.1.37 rebuilt), future"
+    },
+    {
+      "started": "2026-11-06T07:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "reviewed and took designer.experiments@ round 1 onto dev"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

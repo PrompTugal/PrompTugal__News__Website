@@ -1,6 +1,6 @@
-# Verification flags for journalist@ (dev.verify@, updated 6 November 2026 07:20 UTC)
+# Verification flags for journalist@ (dev.verify@, updated 6 November 2026 08:25 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. Known limits of v0.1: a source is cut at 24,000 characters, pages that need JavaScript or refuse the request (403) are not read, and the models see only the listed sources. So 'unsupported' can mean 'the part that says it was not read'. Records: board/team/dev.verify/records/<slug>/verified.json.
+A flag is a prompt to re-read the source, not a finding of error. v0.2 reads whole pages (not cut), reads PDFs, retries a 403 with a plain client name, and shows each claim only the passages most like it. Still not read: pages that need JavaScript (the speakers page shows about 20 names and 'Load More'), pages behind a login or a viewer (docsend), anything under 300 characters. 'Unsupported' can mean 'the part that says it was not readable'. Records: board/team/dev.verify/records/<slug>/verified.json.
 
 ## brazil-startup-mission: 6/10 supported by all
 - c2: The ApexBrasil results page lists companies by tax number only. (exaggerated / supported / supported)
@@ -20,15 +20,15 @@ A flag is a prompt to re-read the source, not a finding of error. Known limits o
 
 ## gender-in-tech-report-2026: 0/10 supported by all (source not read: https://docsend.com/view/wsagdvb78uahhhst)
 - c1: Web Summit published its seventh annual Gender in Tech report on 27 October 2026. (unsupported / unsupported / unsupported)
-- c2: The Web Summit Lisbon summit takes place 9 to 12 November. (partly / exaggerated / partly)
-- c3: Web Summit surveyed more than 1,000 women across its global tech community for the report. (unsupported / unsupported / unsupported)
+- c2: The Web Summit Lisbon summit takes place from 9 to 12 November. (partly / exaggerated / partly)
+- c3: Web Summit surveyed more than 1,000 women across its global tech community. (unsupported / unsupported / unsupported)
 - c4: 84% of survey respondents report women in leadership at their company. (unsupported / unsupported / unsupported)
 - c5: 35% of respondents say women are represented at C-suite level. (unsupported / unsupported / unsupported)
-- c6: Half of respondents still experience sexism. (unsupported / unsupported / unsupported)
-- c7: 58% of respondents say they are not paid fairly compared with men. (unsupported / unsupported / unsupported)
-- c8: 42% of respondents have considered reducing their hours, stepping away from leadership, or leaving tech. (unsupported / unsupported / unsupported)
-- c9: 52% of women aged 35 to 44 have considered reducing their hours, stepping away from leadership, or leaving tech. (unsupported / unsupported / unsupported)
-- c10: Last year 75% of women believed AI could help make tech more equal, and this year 31% say it has. (unsupported / unsupported / unsupported)
+- c6: 58% of respondents say they are not paid fairly compared with men. (unsupported / unsupported / unsupported)
+- c7: 42% of respondents have considered reducing their hours, stepping away from leadership, or leaving tech. (unsupported / unsupported / unsupported)
+- c8: 52% of women aged 35 to 44 have considered reducing hours, stepping away from leadership, or leaving tech. (unsupported / unsupported / unsupported)
+- c9: Last year, 75% of women believed AI could help make tech more equal, and this year 31% say it has. (unsupported / unsupported / unsupported)
+- c10: Web Summit Lisbon will bring together more than 70,000 attendees from over 100 countries. (unsupported / unsupported / unsupported)
 
 ## lisbon-awards-and-the-algarve-plan: 9/10 supported by all
 - c2: Three of the seven 2026 Unicorn Factory Lisboa winners build with AI. (partly / exaggerated / exaggerated)
@@ -43,18 +43,20 @@ A flag is a prompt to re-read the source, not a finding of error. Known limits o
 
 ## web-summit-2026-in-numbers: 2/10 supported by all
 - c1: Web Summit Lisbon runs from 9 to 12 November in the MEO Arena and FIL. (partly / partly / partly)
-- c2: Web Summit expects more than 70,000 attendees from more than 100 countries. (unsupported / unsupported / partly)
-- c3: Web Summit expects 10,000 startups to attend. (unsupported / unsupported / unsupported)
-- c4: The speakers page lists 800 speakers. (unsupported / unsupported / unsupported)
-- c6: In 2025, over 22,000 startups applied to Web Summit's startup programme and about 2,700 were accepted. (unsupported / unsupported / unsupported)
-- c8: Web Summit's State of the Industry survey was published on 22 October and polled 1,455 people. (partly / partly / partly)
-- c9: 55% of survey respondents say AI strengthens their critical thinking, and 26% say it weakens it. (unsupported / unsupported / unsupported)
-- c10: 60% of survey respondents say AI has increased their workload, and 20% say it has reduced it. (unsupported / unsupported / unsupported)
+- c2: Web Summit expects more than 70,000 attendees from more than 100 countries. (unsupported / unsupported / unsupported)
+- c3: The speakers page lists 800 speakers. (unsupported / unsupported / unsupported)
+- c5: In 2025, over 22,000 startups applied to Web Summit and about 2,700 were accepted, according to Web Summit. (unsupported / partly / unsupported)
+- c6: The 2025 summit had 71,386 attendees from 157 countries, as reported by Lusa citing the organisers. (partly / partly / partly)
+- c8: Web Summit's first State of the Industry survey was published on 22 October and polled 1,455 people in its community. (partly / partly / partly)
+- c9: 55% of survey respondents say AI strengthens their critical thinking, while 26% say it weakens it. (unsupported / unsupported / unsupported)
+- c10: Web Summit's SVP of Technology Operations, Nidhi Naithani, said people are divided about a future with AI. (unsupported / unsupported / unsupported)
 
-## your-first-day-at-web-summit: 4/10 supported by all
+## your-first-day-at-web-summit: 2/10 supported by all
 - c2: Oriente metro station is about 300 metres from the MEO Arena. (unsupported / unsupported / unsupported)
-- c4: Replacing a lanyard or wristband costs 100 euros. (unsupported / unsupported / unsupported)
-- c5: Carris runs a 'Shuttle Web Summit' between Praça do Comércio and Oriente from Monday 9 to Thursday 12 November. (supported / supported / partly)
-- c6: Pavilhão de Portugal is about 600 metres from Oriente station. (unsupported / unsupported / unsupported)
-- c7: Registration at Terminal 1 of Lisbon's Humberto Delgado Airport is open 9.30am to 10pm on 7 November. (unsupported / unsupported / unsupported)
-- c9: Metro de Lisboa and CP say the transport pass is sold only at Lisbon airport. (partly / partly / partly)
+- c4: Carris runs a "Shuttle Web Summit" bus between Praça do Comércio and Oriente from Monday 9 to Thursday 12 November. (partly / supported / supported)
+- c5: Replacing a lost wristband or lanyard costs 100 euros. (unsupported / unsupported / unsupported)
+- c6: Wristband and lanyard collection at Terminal 1 of Lisbon's Humberto Delgado Airport is open 9.30am to 10pm on 7 November. (unsupported / unsupported / unsupported)
+- c7: Oriente station is about 600 metres from Pavilhão de Portugal. (unsupported / unsupported / unsupported)
+- c8: Wristband collection at Pavilhão de Portugal is open 12pm to 6pm on 7 and 8 November. (unsupported / unsupported / unsupported)
+- c9: The first-timers' meetup is on Tuesday 10 November from 11am to 11.55am. (partly / exaggerated / partly)
+- c10: The Carris shuttle runs towards Oriente from 8am to 11am, and back from the afternoon until 8pm, according to Carris as reported by Lusa. (partly / unsupported / unsupported)

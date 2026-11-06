@@ -3,9 +3,9 @@
   "about": "The derivation's report (newsroom/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
   "counts": {
     "speaker_organisations_matched": 66,
-    "speaker_organisations_unmatched": 156,
-    "near_misses": 0,
-    "places_unmatched": 0,
+    "speaker_organisations_unmatched": 169,
+    "near_misses": 1,
+    "places_unmatched": 2,
     "tracks_mapped": 6,
     "tracks_unmapped": 9,
     "company_sessions_resolved": 49,
@@ -256,7 +256,7 @@
       {
         "as_listed": "Neo",
         "ref": "company:neo",
-        "count": 1,
+        "count": 2,
         "how": "alias \"Neo\" (the name in the team's map, source s1)"
       },
       {
@@ -282,6 +282,12 @@
         "ref": "company:open-vsx",
         "count": 1,
         "how": "alias \"Open VSX (Eclipse Foundation)\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "PItchBook",
+        "ref": "company:pitchbook",
+        "count": 1,
+        "how": "alias \"PitchBook\" (the name in the team's map, source s1)"
       },
       {
         "as_listed": "Persona",
@@ -402,23 +408,12 @@
         "ref": "company:twilio",
         "count": 1,
         "how": "alias \"Twilio\" (the name in the team's map, source s1)"
-      },
-      {
-        "as_listed": "Whitespace",
-        "ref": "company:whitespace",
-        "count": 1,
-        "how": "alias \"Whitespace\" (the name in the team's map, source s1)"
       }
     ],
     "unmatched": [
       {
         "as_listed": "AI-Curious",
         "ref": "organisation:ai-curious",
-        "count": 1
-      },
-      {
-        "as_listed": "Aaru",
-        "ref": "organisation:aaru",
         "count": 1
       },
       {
@@ -479,7 +474,7 @@
       {
         "as_listed": "Axios",
         "ref": "organisation:axios",
-        "count": 4
+        "count": 5
       },
       {
         "as_listed": "Banco Português de Fomento",
@@ -507,13 +502,13 @@
         "count": 2
       },
       {
-        "as_listed": "Blue Energy",
-        "ref": "organisation:blue-energy",
+        "as_listed": "Build Collective",
+        "ref": "organisation:build-collective",
         "count": 1
       },
       {
-        "as_listed": "Build Collective",
-        "ref": "organisation:build-collective",
+        "as_listed": "C-Lab",
+        "ref": "organisation:c-lab",
         "count": 1
       },
       {
@@ -525,6 +520,11 @@
         "as_listed": "CNBC",
         "ref": "organisation:cnbc",
         "count": 2
+      },
+      {
+        "as_listed": "CNET",
+        "ref": "organisation:cnet",
+        "count": 1
       },
       {
         "as_listed": "CNN",
@@ -539,6 +539,11 @@
       {
         "as_listed": "Center for China and Globalization (CCG)",
         "ref": "organisation:center-for-china-and-globalization",
+        "count": 1
+      },
+      {
+        "as_listed": "City of Lisbon",
+        "ref": "organisation:city-of-lisbon",
         "count": 1
       },
       {
@@ -579,6 +584,11 @@
       {
         "as_listed": "Digital Inside",
         "ref": "organisation:digital-inside",
+        "count": 1
+      },
+      {
+        "as_listed": "Discord",
+        "ref": "organisation:discord",
         "count": 1
       },
       {
@@ -664,11 +674,21 @@
       {
         "as_listed": "Future Government Institute",
         "ref": "organisation:future-government-institute",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "G Squared",
         "ref": "organisation:g-squared",
+        "count": 1
+      },
+      {
+        "as_listed": "Georgetown University",
+        "ref": "organisation:georgetown-university",
+        "count": 1
+      },
+      {
+        "as_listed": "Glean",
+        "ref": "organisation:glean",
         "count": 1
       },
       {
@@ -747,8 +767,8 @@
         "count": 1
       },
       {
-        "as_listed": "Idealab",
-        "ref": "organisation:idealab",
+        "as_listed": "Idealab.ai & ProRata",
+        "ref": "organisation:idealab-ai-and-prorata",
         "count": 1
       },
       {
@@ -759,6 +779,11 @@
       {
         "as_listed": "Inflect",
         "ref": "organisation:inflect",
+        "count": 1
+      },
+      {
+        "as_listed": "Instituto Caldeira",
+        "ref": "organisation:instituto-caldeira",
         "count": 1
       },
       {
@@ -857,6 +882,11 @@
         "count": 1
       },
       {
+        "as_listed": "Moonshot AI (Kimi)",
+        "ref": "organisation:moonshot-ai",
+        "count": 1
+      },
+      {
         "as_listed": "NXTPLAY Capital",
         "ref": "organisation:nxtplay-capital",
         "count": 4
@@ -899,6 +929,16 @@
       {
         "as_listed": "Parable",
         "ref": "organisation:parable",
+        "count": 1
+      },
+      {
+        "as_listed": "Picsart",
+        "ref": "organisation:picsart",
+        "count": 1
+      },
+      {
+        "as_listed": "PitchBook Data",
+        "ref": "organisation:pitchbook-data",
         "count": 1
       },
       {
@@ -987,6 +1027,11 @@
         "count": 1
       },
       {
+        "as_listed": "Sky Sports News",
+        "ref": "organisation:sky-sports-news",
+        "count": 1
+      },
+      {
         "as_listed": "SkyDeck Ventures",
         "ref": "organisation:skydeck-ventures",
         "count": 1
@@ -1024,6 +1069,11 @@
       {
         "as_listed": "Stanford University",
         "ref": "organisation:stanford-university",
+        "count": 1
+      },
+      {
+        "as_listed": "Sygaldry Technologies",
+        "ref": "organisation:sygaldry-technologies",
         "count": 1
       },
       {
@@ -1089,7 +1139,7 @@
       {
         "as_listed": "The US Government",
         "ref": "organisation:us-government",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "The Vatican",
@@ -1112,6 +1162,11 @@
         "count": 1
       },
       {
+        "as_listed": "Trump & Vance Campaigns",
+        "ref": "organisation:trump-and-vance-campaigns",
+        "count": 1
+      },
+      {
         "as_listed": "UAE Ministry of Investment",
         "ref": "organisation:uae-ministry-of-investment",
         "count": 1
@@ -1127,6 +1182,11 @@
         "count": 1
       },
       {
+        "as_listed": "Unicorn Factory Lisboa",
+        "ref": "organisation:unicorn-factory-lisboa",
+        "count": 2
+      },
+      {
         "as_listed": "Union Square Ventures",
         "ref": "organisation:union-square-ventures",
         "count": 1
@@ -1134,6 +1194,11 @@
       {
         "as_listed": "University of Austin Texas",
         "ref": "organisation:university-of-austin-texas",
+        "count": 2
+      },
+      {
+        "as_listed": "Unleash Football",
+        "ref": "organisation:unleash-football",
         "count": 1
       },
       {
@@ -1192,10 +1257,22 @@
         "count": 1
       }
     ],
-    "near_misses": []
+    "near_misses": [
+      {
+        "organisation": "organisation:pitchbook-data",
+        "names_as_listed": [
+          "PitchBook Data"
+        ],
+        "company": "company:pitchbook",
+        "why_not_linked": "the names share \"pitchbook\" but are not the same name; confirm in data/curation/organisations.json (same_as or not_same)"
+      }
+    ]
   },
   "places": {
-    "unmatched_where": []
+    "unmatched_where": [
+      "Disco Bar (Night Summit), MEO Arena and FIL",
+      "Social Club (Night Summit), MEO Arena and FIL"
+    ]
   },
   "tracks": {
     "mapped": [
@@ -1586,6 +1663,11 @@
     ],
     "unmatched": [
       {
+        "as_listed": "3xP Global",
+        "ref": "organisation:3xp-global",
+        "count": 1
+      },
+      {
         "as_listed": "3xP Global (Impact Innovation Fund)",
         "ref": "organisation:3xp-global",
         "count": 1
@@ -1741,6 +1823,11 @@
         "count": 1
       },
       {
+        "as_listed": "Jornal Económico",
+        "ref": "organisation:jornal-economico",
+        "count": 1
+      },
+      {
         "as_listed": "Keel",
         "ref": "organisation:keel",
         "count": 1
@@ -1763,6 +1850,11 @@
       {
         "as_listed": "Netherlands Enterprise Agency (RVO)",
         "ref": "organisation:netherlands-enterprise-agency",
+        "count": 1
+      },
+      {
+        "as_listed": "Octo Health",
+        "ref": "organisation:octo-health",
         "count": 1
       },
       {
@@ -1949,7 +2041,7 @@
       "ref": "company:open-vsx"
     }
   ],
-  "handles_dropped": 2,
+  "handles_dropped": 3,
   "not_same": [
     {
       "as_listed": "Atlassian Williams F1 Team",

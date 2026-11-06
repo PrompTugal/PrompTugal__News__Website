@@ -1,5 +1,5 @@
 {
- "about": "synthetic@PrompTugal.dinis's journeys from run 5 (6 November 2026, at Dinis Cruz's word: fewer personas, the first homepage experience, one story each, and how a story is made: its sources, its signature, what it does not claim). Each journey lists the pages a persona may read; desks/synthetic/tools/changes.mjs decides whether anything changed enough to read them again. 'story' pages are the articles a persona can pick from the front page; after each run the one it picked is listed first.",
+ "about": "synthetic@PrompTugal.dinis's journeys from run 5 (6 November 2026, at Dinis Cruz's word: fewer personas, the first homepage experience, one story each, and how a story is made: its sources, its signature, what it does not claim). Each journey lists the pages a persona may read; desks/synthetic/tools/changes.mjs decides whether anything changed enough to read them again. 'story' pages are the articles a persona can pick from the front page; after each run the one it picked is listed first. min_hours: a page that changes by design every hour (the front page, reordered by the correspondent) is a reason to read again only after that many hours since it was last read.",
  "thresholds": {
   "page": 0.2,
   "top": 0.1,
@@ -79,5 +79,8 @@
     "articles/your-first-day-at-web-summit.html"
    ]
   }
- ]
+ ],
+ "min_hours": {
+  "": 6
+ }
 }

@@ -3,17 +3,17 @@
   "id": "bill-gross",
   "type": "person",
   "name": "Bill Gross",
-  "role": "Founder & Executive Chairman",
-  "organisation": "Idealab",
-  "org": "organisation:idealab",
+  "role": "Founder",
+  "organisation": "Idealab.ai & ProRata",
+  "org": "organisation:idealab-ai-and-prorata",
   "listings": [
     {
-      "role": "Founder & Executive Chairman",
-      "organisation": "Idealab",
-      "org": "organisation:idealab",
+      "role": "Founder",
+      "organisation": "Idealab.ai & ProRata",
+      "org": "organisation:idealab-ai-and-prorata",
       "event": "event:reclaiming-human-agency-in-the-machine-era",
       "source": "https://websummit.com/sessions/lis26/9ea6a9b1-59e2-45e2-8f36-cb97527c939c/reclaiming-human-agency-in-the-machine-era/",
-      "read_at": "2026-11-05T08:17Z",
+      "read_at": "2026-11-06T08:18Z",
       "by": "programme@web-summit.vicky"
     }
   ],
