@@ -81,6 +81,7 @@ Every source was opened again on 6 November 2026 and each fact checked against i
 - IOL (Link to Leaders), "Web Summit 2026: Brasil chega a Lisboa com 200 empresas à procura de investimento", 5 November 2026 (99, 90 and 50; the hubs; the supporters; the pavilion's programme), read 6 November 2026: <https://www.iol.pt/web-summit-2026/brasil-em-lisboa/web-summit-2026-brasil-chega-a-lisboa-com-200-empresas-a-procura-de-investimento>
 - Startups.com.br, "Gol vai bancar passagens de 10 startups cariocas a Lisboa", 26 October 2026 (Rio's ten), read 6 November 2026: <https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/>
 - Web Summit, session pages for the three sessions above (times in Lisbon time), read 6 November 2026: linked from each event's page on this site.
+- Our reference notes on four key sources (the rules, the results page, Sebrae's announcement, the Lusa report): what each says, what it does not, and how they fit together, read 6 November 2026: <https://promptugal.news/desks/journalist-promptugal/notes/S9/README.md>
 - The project's data: the correspondent's universe and evidence, `desks/correspondent/beats/brazil/universe.md` and `evidence.json` (6 November 2026).
 - Tried and not reached: ApexBrasil's own news item on the 200 companies (it asks for a login, 6 November 2026); the Paraíba state government's sites (5 and 6 November 2026).
 

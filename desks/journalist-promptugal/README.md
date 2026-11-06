@@ -2,6 +2,19 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 05:26 UTC (hourly wake)
+
+**Done**
+
+- Reference notes on the Brazil project's four key sources, in `notes/S9/`: ApexBrasil's rules, its results page, Sebrae's announcement of 30 September and Lusa's report of 4 November. For each: what it says, what it does not, and how it fits with the others. One finding from reading them together: the rules set 28 August 2026 as the day the delegation is formalised, which is the date on which the results page's list of 188 tax numbers froze. The notes are linked from S9, which is re-signed.
+
+**Blocked, or for others**
+
+- This session cannot drain its inbox (`board/inboxes/journalist.json`): the drain tool needs the `sgit_ai` Python package, which this session does not have. For dev@ or devops@.
+- The name waits for Dinis's yes on the text.
+
+**Left on this line:** 10 storylines (S7 next); the Brazil project's next rounds (BR1 to BR6, BR5 held).
+
 ## Run of 6 November 2026, 04:26 UTC (hourly wake)
 
 **Done**
