@@ -2,14 +2,15 @@
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
   "state": "blocked: common.schema.json (line 28) still refuses dotted names; nothing of mine can pass the gate",
-  "updated": "2026-11-06T08:40Z",
+  "updated": "2026-11-06T09:40Z",
   "done": [
     "My key: dev.data-promptugal in board/keys.json",
     "ROLE.md and status.json",
     "S9 (Brazil) timeline.json drafted from the 29 sourced claims: 22 events, each citing its source and claim",
     "Rebased on dev; team-role and team-status schemas now accept dots, gate green for my role files",
     "dev@ brought my first commit onto dev (dde295a); my branch now merges dev",
-    "Wake 08:31: dev merged, no hold, inbox tool unusable (no sgit_ai), schema unchanged"
+    "Wake 08:31: dev merged, no hold, inbox tool unusable (no sgit_ai), schema unchanged",
+    "Wake 09:31: dev merged, no hold, schema line 28 unchanged, nothing passable"
   ],
   "next": [
     "Commit S9/timeline.json and graph.json once the schema accepts my name",
