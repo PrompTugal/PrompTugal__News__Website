@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.270",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: inbox opened and read (12 messages); its drain cannot push without an SG/Send token",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "57d64dab0"
+  },
+  {
     "version": "v0.1.269",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: the run report for the 14:11 run (ABP R10)",
