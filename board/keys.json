@@ -160,7 +160,8 @@
         "fingerprint": "sha256:9ee27d587e7b8586",
         "signing_fingerprint": "sha256:09dcfd5570d9d8f5"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:50Z by outreach-b-promptugal (account B session)"
     },
     {
       "id": "ontologist-promptugal-0",
@@ -910,6 +911,24 @@
         "fingerprint": "sha256:fa7366296dc6a3b3",
         "record": "sha256:186832e486fc18ff",
         "signing_fingerprint": "sha256:186832e486fc18ff"
+      },
+      "status": "active"
+    },
+    {
+      "id": "outreach-b-promptugal",
+      "label": "outreach@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "outreach@PrompTugal.dinis",
+      "role": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page, sent as contact requests to the Web Summit team under the comms protocol; never sends. Took over from the account A session (board/the-account-move.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Linked locally to the operator's key sha256:db7f79fdd87e030a.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAujfpx2x4J1A9svdGngDd\nXLAiJMBihhFp51MU4VKUYY4IZBIFUuKTtkDEvfxcIvLUzUq0qEy7brQcaYGUfaY2\nwgfOMtR+GlR6VvKNtsofl/EkZWeVwMJRZqbp64s+QwLqXD6G2PtKFQMMVhiCMNr7\npFsHl1Qp0EE3sxzKIeOwbbtg1DjYMrdIOsNy5DHNnogf2yNE/+yPS9I8JeIm2Ix1\nrMb825nGkVjC2ErRAY9+gROOLiy9JZQhG5GaJ96N5lbkeH2ovA/tlS6Q8YxO94eb\nnCAJugDUIhUf6EOsU9y9hf34mhFS+7FB8zlcBB2ljhzgcPtuhslBTs2TOXePJ0hj\nuJl2qzV9UAqa+RKrcdQeahE9+3whEa+ipu4WCXO/SZXGEVfSP6w+aCgYhGggiBvG\nTgAWYLQ5xdXK+78aQFLcuJ8fvOKOcWVAAkeykJ4plUv9qK3cRY8sSCPYdTMkqRnZ\n/5NdAdwRf5w3LPMME4Vr2Pn5usWBHSE/T9+wea7HpFI3OuOtuE437WNin4SNp4xq\nAsqM9QJkdcCscxUNnjuAMmMYNS2nL5qfmeHCWe1E6sE9jhKRfq2jrK2B4JwFIRak\n4Y1UY0/ZnpDemIQat/gOfzBBpuq/9Avou8eM8egsIArEa5i0pQL5cwEozGD8xX77\ndSvc9pk3vM4MCxK2ujCYlKUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXLe1GI9EYAicR0ncgmcrnoeUVAHt\nBG6e7Zqlp6ITR4l5JTOYbmTfc1pZNOjhFrxY4oUg5c0ngbStsJFUL0u98w==\n-----END PUBLIC KEY-----\n",
+        "label": "outreach@PrompTugal.dinis",
+        "fingerprint": "sha256:61dfd5234bcd2880",
+        "record": "sha256:fd327f683fdeb6ad",
+        "signing_fingerprint": "sha256:fd327f683fdeb6ad"
       },
       "status": "active"
     }
