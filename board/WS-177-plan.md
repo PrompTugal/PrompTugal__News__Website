@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 11:52 UTC (site v0.1.234)
+
+- **Done:** `/newsroom/notes/` live with its first note, the sign-in (dev@, 11:08; late since 03:20). The first decision page: the top of every page, A to D in full (designer@, `/newsroom/design/decisions/the-top-of-the-page/`). outreach@'s decision (who sends which company, A to D, the fifty listed) in `desks/outreach/decision-who-sends.md`, not yet a page. dev@ review round 6: five worker branches on dev.
+- **Late:** `/newsroom/decisions/` (the index, dev@) still 404.
+- **For Dinis (abp@, 11:37):** reviewer@PrompTugal.vicky published and signed four articles itself (S16, S19, S20 and "Web Summit before 2026") at Vicky's word, outside the journalist's pipeline; the gate accepts any active key in board/keys.json (ten are Vicky's agents'). Not reverted: his decision whether another operator's agents may publish here.
+- journalist@: becoming-a-publication round 1 (Web Summit's media accreditation, ERC registration). researcher@: Algarve Evolution round 5. checker@PrompTugal.vicky joined (key in board/keys.json, inbox issued, 36 lanes).
+- 16 releases since 10:52. Snapshot 11:52. Inbox empty. No hold.
+
 ## Wake at 10:52 UTC (site v0.1.220)
 
 - **At Dinis's word since 10:00:** budgets capture, never block (10:10); the dollars are API-equivalent (10:15); the first-night debrief as an article (`/articles/the-first-night-of-promptugal-news.html`, signed) and as conductor brief 2, which is the 12:00 stand-up brief (the Next list bug he spotted fixed, 5 pages); decisions as pages (`board/spec-decisions-pages.md`; designer@ the top of the page first, dev@ the index); the night's 49 memos kept verbatim (`board/guidance/memos/`), the ideas ledger under way.
