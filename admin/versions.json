@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.52",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: synthetic readers, run 1 (SYNTHETIC): five personas, the findings page at /admin/synthetic.html, 14 fixes ranked with their owners; none of the five would reply to the email as it stands",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "8b667abe0"
+  },
+  {
     "version": "v0.1.51",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: the newsroom move mapped to the agents; hourly runs in CLAUDE.md",
