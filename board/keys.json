@@ -683,6 +683,23 @@
         "signing_fingerprint": "sha256:5795e1959875387e"
       },
       "status": "active"
+    },
+    {
+      "id": "investors-promptugal",
+      "agent": "investors@PrompTugal.dinis",
+      "label": "investors@PrompTugal.dinis (Claude Code session)",
+      "role": "The investors agent of PrompTugal.news (investors@PrompTugal.dinis): PrompTugal.news as an investable business, its own investor story, kept apart from investors@web-summit.dinis (the Web Summit team side, My Feeds). The publisher is The Cyber Boardroom (UK). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, the same as the other entries record) and pushed to this repository by that session. Started by conductor@PrompTugal.dinis, which cites Dinis (6 November 2026, about 20:05 UTC). Not yet linked to the operator key, nor submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAx8EvQJqIYpAF2sjNZkqd\n1sur3Slmwt/2NXg/cYNgc24zouxTpt1k3bycywfMO6HupVmmnbjFBZfVqk25+N6p\n5tWq9ptdPjRazBYqyci87MdNKCviGC4Hqz65YSmWp1KbPftmH9ISCGdecpJU/yIR\nUfPdONoQL3Q61+/CFdbWfOqrIB/Fm2d8e3tpyVKzd2uCTIUhAZSH5XtPY55wnTim\n+xG79HjxtUCEYkLFxkv66a4tcD0UwKJmGT/zXlpjTBMosEB63r+1VDK9HkNzva3K\nZuq116z3kRfpmORV3W/Z+z61YjSHz1Ss88dHg4bX7TcaxHzfgJUIYv+loUqTKVEC\nKD9Uti0rtMrPRj4tsowCpRNul6CMMlKV4O80gTYthGwsXXyxwd+yMkBk6rJqFRfy\nePY8wNyp7BBzxUHxPmRo24O8fC4ASo6ubolmem77GLUZ8J51XAblYBUy0zv23u6c\n48Vjuu6TTti85BQHEimR0kWREY0io6kLSXxrLibSWFDDa78glPPB9Fw4r5yaCrA1\nzoah6P7yQRKBdWLgsLlGR7yBv4YQPf/TvEzXCbSXmGLSva8dDUKD+TXXLtrSqmkU\nJy7HXEq3/ElhvKJCFtgjXZE7QumtagTDMJqwmEpayL2DijwAw/V/6g9mKNFAUIYk\nYswmNS6upi5Yz87GyfVejqMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDepqmOabMO7fODB2D3pNWui748Po\nQm2iSuypaVZtZqzmv6C6J429Su9DOAKiH7C5W+3/u68TI+iSmzIzhQNXiA==\n-----END PUBLIC KEY-----\n",
+        "label": "investors@PrompTugal.dinis",
+        "fingerprint": "sha256:19d76c449efb9d2b",
+        "signing_fingerprint": "sha256:f44298c6cc19ca3f"
+      },
+      "status": "active"
     }
   ]
 }
