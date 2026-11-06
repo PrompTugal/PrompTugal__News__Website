@@ -1,9 +1,11 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 10:33 done (spec check of v0.1.210; designer.experiments@ round 3 taken)",
-  "updated": "2026-11-06T10:50Z",
+  "state": "working: session 2; hourly wake 11:33 done (the first decision page; designer.experiments@ round 4 taken)",
+  "updated": "2026-11-06T11:55Z",
   "done": [
+    "The first decision page, at Dinis's word (decisions as pages): /newsroom/design/decisions/the-top-of-the-page/ with today's top and A to D in the page (small framed JPEGs in design/decisions/, 712 KB; full size in the vault), each option's strengths, weaknesses, reviewers' findings, work, the recommendation and what happens after",
+    "Reviewed and took designer.experiments@'s round 4 (the people page with a switch, checked against the person rules; brand faces back on the switch pages)",
     "Spec check of the live site at v0.1.210: of my specs, T5, P4 and P5 are live, P1 and Q9 partly; the top's Q1 to Q8 and the days and synthetic specs not yet; order proposed for dev@ (session folder, spec-check-v0.1.210.md)",
     "Reviewed and took designer.experiments@'s round 3 (the articles page with a switch; both pages self-contained)",
     "The synthetic readers page, designer's round: S9 the scoreboard as tiles and owners as bars, S5 a card per reader (SYNTHETIC, no face); spec board/spec-the-synthetic-readers-page.md; /newsroom/design/synthetic-round-1/; tool design/mockups/synthetic/make.mjs",
@@ -27,18 +29,19 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
+    "Decision pages for the front page (A or C) and the summit days, in the same shape",
     "Review work/designer.experiments at each wake (round 3: inline tokens, the articles page with a switch)",
     "Round 2 of the top and of the summit days once Dinis chooses and dev@ builds",
     "Check dev@'s builds of the specs against the mock-ups (top Q1 to Q9, front P1 to P8, days S1 to S5, synthetic Y1 to Y4)",
     "Images for every published story once the OpenRouter credit is topped up"
   ],
   "asks": [
-    "Dinis: choose a top (A to D; my pick A with D's strip), a front page (A to C; my pick A with C's briefing on summit days), and go or change on the summit days views: /newsroom/design/",
-    "Dinis: the OpenRouter key has about 3 USD of credit left: top it up for the infographics",
-    "Dinis: abp@'s R3 blocks the claude.ai artifacts connector (no private proof pages); grant it in board/abp/policies.json if you want them",
-    "conductor@: my inbox board/inboxes/designer.json is still sealed to session 1's key (sha256:5571b6684d9d41b8): reissue it to sha256:d3d3cacbb7dc4269; and the vault map page to dev@",
-    "accountant@: an image line for the designer on OpenRouter (proposed 40 USD a day); spent today 0.39 USD in 6 calls",
-    "dev@ / dev.pages@: the top's quick fixes are still not live (Q1 to Q8); the order I propose is Q5 and Q8 first (phone reach, the Ask over text), then Q1 and Q2"
+    "Dinis: the top of every page, A, B, C or D: the decision page /newsroom/design/decisions/the-top-of-the-page/ (my pick A, with D's strip on the front page)",
+    "Dinis: the OpenRouter credit is spent (-0.20 USD at 11:35 UTC, read from openrouter.ai): no AI images until it is topped up",
+    "Dinis: decision pages need their images in git (small JPEGs, about 70 KB each) because an encrypted vault image cannot be shown in a page; full-size copies stay in the vault. Say if you want them elsewhere",
+    "Dinis (via abp@): content/newsroom/decisions/ (where board/spec-decisions-pages.md puts decision pages) is outside my grant, so mine is under content/newsroom/design/decisions/; grant the path or let dev@'s index read both",
+    "conductor@: my inbox board/inboxes/designer.json is still sealed to session 1's key (sha256:5571b6684d9d41b8)",
+    "dev@ / dev.pages@: the top's quick fixes Q1 to Q8 are still not live at v0.1.231; the decisions index should include content/newsroom/design/decisions/"
   ],
   "wakes": [
     {
@@ -106,6 +109,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "spec check of v0.1.210; designer.experiments@ round 3 taken"
+    },
+    {
+      "started": "2026-11-06T11:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the first decision page (the top of the page); designer.experiments@ round 4 taken"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

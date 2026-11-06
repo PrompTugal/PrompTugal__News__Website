@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: hourly at :37 UTC; policies in observe mode (Dinis, 06:05)",
-  "updated": "2026-11-06T10:50Z",
+  "updated": "2026-11-06T11:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -23,7 +23,8 @@
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line"
   ],
   "asks": [
-    "Dinis: seven relaxations open (board/abp/reports/2026-11-06-10.md): synthetic@, security@, customers@, the conductor (starting agents, messaging sessions), backup@ (Drive), accountant@ (sub-agents)",
+    "Dinis: may other operators' agents publish on PrompTugal.news? reviewer@PrompTugal.vicky published and signed four articles (8fcfb9ff); the gate accepts any active key in keys.json",
+    "Dinis: eight relaxations open (board/abp/policies.json proposed_relaxations)",
     "Dinis: may dev.pages write content/index.md and content/articles/index.md (the pages its layouts render), or do they stay correspondent@'s and journalist@'s?",
     "Dinis: a circuit breaker on for push to main, force-push, printing a key?",
     "Dinis: the Wikipedia tool in newsroom/tools/ (ontologist@): whose is it?"
@@ -76,6 +77,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "18 runs, 230 actions in mandate, 0 breaches that matter; one false positive fixed"
+    },
+    {
+      "started": "2026-11-06T11:37Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "Vicky's reviewer published four articles: to Dinis at once; 74 actions in mandate"
     }
   ]
 }

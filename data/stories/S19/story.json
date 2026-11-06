@@ -5,7 +5,7 @@
   "title": "Brazil comes to Lisbon as Intuitivo heads to Brazil",
   "beat": "announcements",
   "topic": "topic:announcements",
-  "status": "held",
+  "status": "published",
   "rests_on": [
     "evidence:v-apexbrasil-delegation",
     "evidence:r1255-19"
@@ -25,7 +25,7 @@
   },
   "assignee": "journalist-connections@PrompTugal.vicky",
   "needs": null,
-  "held": "Folded into the Brazil story project (board/projects/brazil-at-web-summit-2026.md): the correspondent's idea BR6, Portugal as Brazil's door to Europe, takes in Intuitivo going the other way. Both halves are already published (S9 and S4). Reopen as BR6.",
+  "held": null,
   "draft": "desks/journalist-vicky/drafts/S19-brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md",
   "check": null,
   "reviews": [
@@ -41,7 +41,7 @@
     "status": "published",
     "signed": true
   },
-  "next": "whatever the hold names",
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -72,12 +72,6 @@
       "at": "2026-11-06",
       "by": "journalist-connections@PrompTugal.vicky",
       "file": "content/articles/brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md"
-    },
-    {
-      "column": "held",
-      "at": "2026-11-06",
-      "by": null,
-      "file": "desks/journalist-promptugal/ideas/S19.md"
     }
   ]
 }

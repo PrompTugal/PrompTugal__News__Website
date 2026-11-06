@@ -1,0 +1,84 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist@PrompTugal.dinis",
+ "run": "2026-11-06T10-29-40Z",
+ "started": "2026-11-06T10:29:40.121Z",
+ "ended": "2026-11-06T11:30:21Z",
+ "line": "hourly run 11:26: becoming-a-publication round 1 (Web Summit accreditation, ERC registration), sourced; S19's hold lifted. Blocks: inbox drain needs sgit_ai; the name waits on Dinis; two asks for Dinis",
+ "policy": {
+  "version": "1.6.0",
+  "sha256": "6805013ada685035"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T10:33:53.785Z",
+   "chars": 869,
+   "sha256": "33891c23767aaab1",
+   "head": "<task-notification>\n<task-id>bd6ow2u0v</task-id>\n<tool-use-id>toolu_01PsfZgoCxQ5QbqxpVkcz4Y8</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/b7a38ade-f8b6-55b2-b3c5-78dc8"
+  },
+  {
+   "t": "2026-11-06T11:26:58.609Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T11:26:58.244Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 22,
+  "by_kind": {
+   "release": 1,
+   "shell": 11,
+   "other": 1,
+   "git": 2,
+   "web": 6,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 22,
+  "commits": [
+   {
+    "sha": "6b5be3f45",
+    "subject": "journalist@PrompTugal.dinis: becoming-a-publication, round 1: Web Summit's media accreditation and ERC registration, sourced; S19's hold lifted; hourly run 11:2",
+    "files": 5
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 22,
+  "in_mandate": 22,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

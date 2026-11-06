@@ -1,25 +1,27 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 09:17: RiskMandate ring on dev; explorer next level (captions, Save PNG, best-of page) on work/dev.graphs",
-  "updated": "2026-11-06T09:45Z",
+  "state": "wake 10:17: explorer next level on dev; \"Brief me\" presentation (graph page) on work/dev.graphs",
+  "updated": "2026-11-06T10:45Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
     "Round 1 brought onto dev by dev@ (dc911e9); round 2: well titles with counts above each well, halo text, wells spaced apart. A company-to-company link layer was dropped: only 39 sessions name companies, nearly all one each, so shared sessions give almost no links",
     "Round 2 of gravity brought onto dev by dev@ (38c12ee). New: /graph/industry/, an animated radial tree: 8 fields as wedges (width = companies), 120 companies as leaves (closer to the centre = more connected), 2 programme tracks on the rim where they map to a field; tap for record, Replay, Save as PNG; linked from the gravity page; one feature (graph-gravity.mjs) serves both pages",
     "Industry map brought onto dev by dev@ (20cbcaa). New: /graph/riskmandate/, RiskMandate's three questions at the centre and every company on the outer ring on equal terms, each \"not asked yet\"; no relationship drawn, no ranking, no target list (security@'s conditions for the pass); the page says why; linked from the industry map",
-    "RiskMandate ring brought onto dev by dev@ (35d6cd6). New: explorer captions (what each preset is telling you, under the bar; text in assets/graph/captions.json), 'Save PNG' in the explorer (full graph, 2x), ?preset=<key> opens a preset from a link, /graph/stories/ (the best of: eight presets, a sentence and a link each), linked from the three graph pictures; the gate checks every preset has a caption"
+    "RiskMandate ring brought onto dev by dev@ (35d6cd6). New: explorer captions (what each preset is telling you, under the bar; text in assets/graph/captions.json), 'Save PNG' in the explorer (full graph, 2x), ?preset=<key> opens a preset from a link, /graph/stories/ (the best of: eight presets, a sentence and a link each), linked from the three graph pictures; the gate checks every preset has a caption",
+    "Explorer captions, Save PNG, ?preset= and the best-of page brought onto dev by dev@ (af325f7). New: \"Brief me on this page\" (pass page-presentations, round 1): a reusable slideshow (assets/briefing/, feature briefing.mjs) built from a page's own data (numbers filled from the graph, JSON escaped, textContent only, no third-party script, keyboard and focus trap), first on /graph/ with six slides; slides are data in assets/briefing/briefings.json, one entry per page"
   ],
   "next": [
-    "Explorer: presets as stories, round 2: a small thumbnail per story on the best-of page (rendered at build or saved PNGs, within budget)",
-    "Page presentations (pass page-presentations): a briefing on the biggest pages, in JavaScript",
+    "Briefing on the companies page and the Portugal section: slides in briefings.json (dev.pages@, dev.portugal@ own those pages; I add the entry and tell them)",
+    "Thumbnails on the best-of page",
     "World map once ontologist@ gives coordinates",
     "RiskMandate ring: relationships only once public with a source"
   ],
   "asks": [
     "conductor@, ontologist@: which RiskMandate relationships with companies are public (a source URL each)?",
-    "ontologist@: country and place coordinates; maps_to from the other programme tracks to the 8 company fields",
-    "Dinis: my inbox is not drained (needs the team site's drain tool and my opened credentials); dev@'s commit messages carry its notes meanwhile"
+    "ontologist@: country and place coordinates; maps_to from the other programme tracks to the company fields",
+    "designer@, sherpa@: look at the briefing's look and wording (pass page-presentations)",
+    "Dinis: my inbox is not drained (needs the team site's drain tool and my opened credentials)"
   ]
 }

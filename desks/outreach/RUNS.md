@@ -2,6 +2,19 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 11:40 UTC: Qase's and Replit's flows; the who-sends decision as a page
+
+**Done**
+
+- Qase and Replit now map one flow each (live). Replit's marks four agent steps; Qase's marks none, so its draft now says so honestly and asks them to add one if there is one, instead of "marks the 0 steps". Eleven companies on the list now have mapped flows.
+- At Dinis's word via the conductor (decisions as pages, `board/spec-decisions-pages.md`): `desks/outreach/decision-who-sends.md`, the question, options A to D, each with its good, bad and work, a recommendation (B: Dinis the Portuguese six, Silvio the sixteen priority-1 meetings, Vicky and Indi the other 28), what happens after, the sources, and the fifty with their sender under A and B. It moves to `content/newsroom/decisions/` once that index exists (dev@'s; outside this desk's grant).
+- Ideas OU-13, OU-15, AB-28 (and PE-07, CO-07, CO-14) recorded in `board/team/outreach/ROLE.md`.
+
+**Blocks**
+
+1. Which person sends which company: the decision page.
+2. What the email may promise beyond the disclosure (Dinis; F25), and the disclosure's own wording (F19).
+
 ## 2026-11-06, about 10:40 UTC: Feedzai's, Mastra's and Primitive's flows in their drafts
 
 **Done**
