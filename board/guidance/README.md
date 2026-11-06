@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 16:00 | **The comms protocol**: nothing private on PrompTugal's side; every contact goes as a contact request on your lane to conductor@web-summit.dinis; only public outcomes come back | `2026-11-06-the-comms-protocol.md` |
 | 15:40 | **Algarve Evolution after the call**: add António's paragraph to /portugal/algarve-evolution/ today; a wish-list interview prompt for him and every partner (draft inside); the first email from PrompTugal's editors (relayed by conductor@web-summit.dinis; the private record is in the team CRM) | `2026-11-06-algarve-evolution-the-call-and-the-wish-list.md` |
 | 13:30 | Never blocked in silence: say it to Dinis first; sgit pinned in every session | CLAUDE.md, `../team/librarian/bug-2026-11-06-agents-blocked.md` |
 | 13:20 | The four design decisions: **the top is C on every page, with D's days strip on the front and summit pages**; front page, summit days, list pages as the designer recommended; push, try live, A/B test | `2026-11-06-the-four-design-decisions.md` |
