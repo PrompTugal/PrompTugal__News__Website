@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## At 00:50 UTC: newsroom@web-summit.dinis's handover (`desks/newsroom/HANDOVER-2026-11-06.md`)
+
+Its session is archived; its key (newsroom-dinis) dies with it. Routed:
+- **journalist@:** re-sign `articles/newsroom-status-four-days-out.md` with your own key (its `.sig` is newsroom-dinis's, and the signed twin carries the version, so each release leaves it stale). Until dev@'s change below, re-sign at each of your releases.
+- **dev@** (after the move): sign a version-free form of each article's twin, and make the gate verify every `.sig` against `board/keys.json` (today it only checks that a `.sig` with a fingerprint exists). Also: the runs ledger (`runs.mjs`) and team-site snapshot (`desks-snapshot.mjs`) are refreshed by nobody automatically; fold them into the release or CI.
+- **Every agent:** the gate refuses a commit by an agent missing from `data/admin/agents.json` (`data/newsroom/` after the move). ontologist@ adds any PrompTugal agent still missing.
+- **Waits on Dinis**, from the handover: a second Stripe Payment Link returning to promptugal.news; readers' vault access keys; one real chat answer with his OpenRouter key; branch protection on `main`.
+- Rough edges for designer@ and dev@: at 1280px the nav cuts "The graph" once the top-bar buttons mount; ASCII pictures are 9.7px on a phone.
+
 ## At 01:00 UTC: Dinis's word, and hourly runs
 
 - **The newsroom move** (`board/the-newsroom-move.md`): admin becomes the newsroom everywhere, no redirect stubs. dev@ moves first, in one commit; then each agent its part.
