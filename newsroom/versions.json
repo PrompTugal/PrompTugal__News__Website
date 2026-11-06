@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.382",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the home page in designs: today's as the default, mock E as the first option, Silvio's picker",
+    "by": "dev@PrompTugal.dinis",
+    "from": "247113f02"
+  },
+  {
     "version": "v0.1.381",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: mock E checked live at v0.1.379: ten of thirteen pass; two fixes for dev@, the band's green for Dinis",
