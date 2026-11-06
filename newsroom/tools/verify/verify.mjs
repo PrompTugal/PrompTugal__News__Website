@@ -75,8 +75,8 @@ for (const c of claims) {
   }));
   const vs = verdicts.filter(v => v.verdict !== 'error').map(v => v.verdict);
   const agree = vs.length > 0 && vs.every(v => v === vs[0]);
-  rows.push({ id: c.id, claim: c.claim, verdicts, consensus: agree ? vs[0] : 'disagree', flag_to_journalist: !agree || vs[0] !== 'supported' });
-  console.log(` ${c.id} ${agree ? vs[0] : 'DISAGREE ' + vs.join('/')}`);
+  rows.push({ id: c.id, claim: c.claim, verdicts, consensus: vs.length === 0 ? 'unchecked' : agree ? vs[0] : 'disagree', flag_to_journalist: vs.length > 0 && (!agree || vs[0] !== 'supported') });
+  console.log(` ${c.id} ${vs.length === 0 ? 'UNCHECKED (budget or errors)' : agree ? vs[0] : 'DISAGREE ' + vs.join('/')}`);
 }
 
 const date = new Date().toISOString().slice(0, 10);
@@ -85,7 +85,7 @@ const out = { $schema: 'none', article: slug, verified_on: date, by: 'dev.verify
 const dir = path.join(ROOT, 'board/team/dev.verify/records', slug);
 fs.mkdirSync(dir, { recursive: true });
 fs.writeFileSync(path.join(dir, 'verified.json'), JSON.stringify(out, null, 2) + '\n');
-const n = rows.length, good = rows.filter(r => !r.flag_to_journalist).length;
-const md = `## Verified\n\nOn ${date}, ${n} claims in this article were each checked against its public sources by ${MODELS.length} models (${MODELS.join(', ')}). All models agreed that ${good} are supported; ${n - good} are flagged to the journalist. Sources read: ${ok.length} of ${urls.length}. The record: board/team/dev.verify/records/${slug}/verified.json.\n`;
+const n = rows.filter(r => r.consensus !== 'unchecked').length, good = rows.filter(r => r.consensus === 'supported').length;
+const md = `## Verified\n\nOn ${date}, ${n} claims in this article were each checked against its public sources by ${MODELS.length} models (${MODELS.join(', ')}). All models agreed that ${good} are supported; ${n - good} are flagged to the journalist.${rows.length > n ? ` ${rows.length - n} could not be checked in this run.` : ''} Sources read: ${ok.length} of ${urls.length}. The record: board/team/dev.verify/records/${slug}/verified.json.\n`;
 fs.writeFileSync(path.join(dir, 'verified-block.md'), md);
 console.log(`wrote ${path.relative(ROOT, dir)}; ${good}/${n} supported by all; spent ${spent.toFixed(4)} USD`);

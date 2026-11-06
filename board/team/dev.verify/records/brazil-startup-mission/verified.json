@@ -1,0 +1,334 @@
+{
+  "$schema": "none",
+  "article": "brazil-startup-mission",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-e-apexbrasil-anunciam-startups-selecionadas-para-o-web-summit-lisboa-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://crm-apps.apexbrasil.com.br/orgbdeab873/inscricao-eventos/evento/web-summit-lisboa-2026/0714952e-98da-f011-8543-7ced8db0f987",
+      "status": 200
+    },
+    {
+      "url": "https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/",
+      "status": 200
+    },
+    {
+      "url": "https://www.iol.pt/web-summit-2026/brasil-em-lisboa/web-summit-2026-brasil-chega-a-lisboa-com-200-empresas-a-procura-de-investimento",
+      "status": 200
+    },
+    {
+      "url": "https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/",
+      "status": 200
+    },
+    {
+      "url": "https://promptugal.news/desks/journalist-promptugal/notes/S9/README.md",
+      "status": 200
+    }
+  ],
+  "spent_usd": 0.3707,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "ApexBrasil's results page lists 188 companies.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Lista das empresas APROVADAS com status em 28/8/2026.",
+          "note": "Counting the 188 CNPJ entries in the approved-company list on the ApexBrasil results page gives exactly 188, though the list is by tax number only and includes entries marked 'Desistência' (withdrawn)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "The results page shows 188 companies",
+          "note": "The reference notes confirm that the ApexBrasil results page lists 188 companies by their status on that day."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "shows 188 companies",
+          "note": "The reference note states that ApexBrasil's results page shows 188 companies."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The ApexBrasil results page lists companies by tax number only.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "exaggerated",
+          "source": "S3",
+          "quote": "CNPJ Status",
+          "note": "The results page identifies companies by CNPJ (tax number), but each entry also carries a status (Confirmado, Lista de espera, Desistência, Aguardando confirmação), so \"only\" overstates what it shows."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "by tax number only",
+          "note": "The reference note explicitly states that the results page lists the companies by tax number only."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "CNPJ Status",
+          "note": "The ApexBrasil results page lists approved companies by CNPJ (tax number) and status, with no company names."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The ApexBrasil results page shows a status dated 28 August.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "com status em 28/8/2026",
+          "note": "The ApexBrasil results page states that its list of approved companies has statuses dated 28/8/2026, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "status em 28/8/2026",
+          "note": "The ApexBrasil selection results page displays the list of approved companies with their status dated 28 August 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "com status em 28/8/2026",
+          "note": "The ApexBrasil results page states the approved companies' status is dated 28/8/2026."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "Ten startups from Rio de Janeiro are named for the Brazil delegation.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "Rio de Janeiro vai levar 10 startups",
+          "note": "S6 says the Gol airline is the official carrier of the Web Summit Lisboa 2026 mission and will cover flights for 10 selected Rio startups, and it lists their names (Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT and AllPetSenior)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S6",
+          "quote": "10 startups selecionadas para a viagem: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior",
+          "note": "Ten startups from Rio de Janeiro are named for a Web Summit Lisboa mission organized by Invest.Rio and Maravalley, not for the official Brazil delegation."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S6",
+          "quote": "Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior",
+          "note": "S6 names ten Rio startups for the Web Summit Lisboa mission, but does not explicitly call them the Brazil delegation."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "Five public figures for 2026 give delegation sizes ranging from 100 to about 300.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "cerca de 300 startups brasileiras",
+          "note": "S2 gives the 100 lower figure and an expected total of about 300, but no source shows five public figures; the other sources give about 200 (S4, S5) and 10 for a Rio subgroup (S6), so the five-figure count is unsupported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources states that five public figures for 2026 give delegation sizes ranging from 100 to about 300."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "100 startups brasileiras",
+          "note": "S2 gives 100 selected and cerca de 300 expected, supporting the range, but no source states five public figures."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "The Brazil pavilion at Web Summit Lisbon is in the MEO Arena.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "instalado na MEO Arena",
+          "note": "IOL reports that the Pavilhão Brasil, a 324 m² space, is installed in the MEO Arena, and S4 (Executive Digest/Lusa) independently says the Brazilian presence will centre on a 324 m² pavilion at the MEO Arena."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "Pavilhão Brasil, um espaço de 324 m² instalado na MEO Arena",
+          "note": "The source directly states that the Brazil Pavilion at the event is set up in the MEO Arena."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "Pavilhão Brasil, um espaço de 324 m² instalado na MEO Arena",
+          "note": "S5 states the Brazil Pavilion is installed in the MEO Arena."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "ApexBrasil is Brazil's trade and investment agency.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Agência Brasileira de Promoção de Exportações e Investimentos",
+          "note": "The source names ApexBrasil as the Brazilian Agency for Export and Investment Promotion, which matches the claim's description as Brazil's trade and investment agency (S4 gives the same name)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil)",
+          "note": "The Portuguese full name of ApexBrasil identifies it as the Brazilian Agency for the Promotion of Exports and Investments (Brazil's trade and investment agency)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil)",
+          "note": "The source identifies ApexBrasil as the Brazilian Agency for Promotion of Exports and Investments, matching the claim."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Sebrae is Brazil's small business service.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources mention Sebrae only in passing (as Sebrae Startups, the Sistema Sebrae, and the Agência Sebrae de Notícias) and never describe it as Brazil's small business service."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources define or describe Sebrae as Brazil's small business service."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source states that Sebrae is Brazil's small business service; they only mention Sebrae in the context of the Web Summit delegation."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "ApexBrasil and Sebrae bring a national mission to Web Summit Lisbon.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "A missão brasileira é liderada pela ApexBrasil, em parceria com o Sebrae Startups",
+          "note": "S5 says the Brazilian mission to Web Summit Lisbon is led by ApexBrasil in partnership with Sebrae Startups, and S2, S3, and S4 describe the same joint mission."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "A missão brasileira é liderada pela ApexBrasil, em parceria com o Sebrae Startups",
+          "note": "The source confirms that the Brazilian national mission to Web Summit Lisbon is led by ApexBrasil in partnership with Sebrae."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "O Sebrae e a Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil) concluíram a fase de seleção aberta para a Missão Internacional ao Web Summit Lisboa 2026.",
+          "note": "S2 states that Sebrae and ApexBrasil completed the selection for the international mission to Web Summit Lisbon 2026, supporting the claim."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "Four hubs are named in the delegation.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "entre os quais o Porto Digital, a ACATE, o SENAI CIMATEC e o Instituto Caldeira",
+          "note": "The IOL article names four of the ten Brazilian technology hubs (polos tecnológicos) that are part of the delegation, though it lists them only as examples from a larger group of ten."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "dez dos principais polos tecnológicos do Brasil, entre os quais o Porto Digital, a ACATE, o SENAI CIMATEC e o Instituto Caldeira",
+          "note": "The source names four technology hubs/poles whose linked companies are part of the Brazilian delegation."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "dez dos principais polos tecnológicos do Brasil, entre os quais o Porto Digital, a ACATE, o SENAI CIMATEC e o Instituto Caldeira",
+          "note": "S5 names four Brazilian tech hubs/polos in the delegation: Porto Digital, ACATE, SENAI CIMATEC, and Instituto Caldeira."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
