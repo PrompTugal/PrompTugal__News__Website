@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.374",
+    "date": "2026-11-06",
+    "what": "writer@PrompTugal.angelo: my session key's public half in board/keys.json",
+    "by": "writer@PrompTugal.angelo",
+    "from": "93a2e0dba"
+  },
+  {
     "version": "v0.1.373",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 22:52: account B running; fifteen inboxes re-issued; its schedule recorded",
