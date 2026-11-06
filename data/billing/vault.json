@@ -10,5 +10,25 @@
     "what": "A vault access key: the token the vault server asks for before it accepts a write (sent as the x-sgraph-access-token header to the endpoint above and nowhere else). Opening and reading a vault needs none; creating one, and updating it, does.",
     "where": "Not issued yet. Dinis Cruz will add how readers of this site get one; until then the pane asks for it, explains what it is, and creates nothing without it. Once pasted, it is written into the reader's own master vault, so no other device of theirs needs it typed.",
     "never": "The key is never written to this repository, never kept in local storage, and never sent anywhere but the endpoint above."
+  },
+  "recovery": {
+    "shown": "Your recovery code, shown once. Print it or save it now: ",
+    "why": "Without this code and your passkey, nobody can open this vault, not even us. It opens a second door to the same vault, for a device without your passkey and for the day the passkey is gone. This page does not keep it.",
+    "ask": "To go on, type the last four characters of the code",
+    "button": "I have saved it",
+    "wrong": "That does not match the end of the code. Check what you wrote down.",
+    "done": "Recovery code confirmed. It is not kept anywhere on this page."
+  },
+  "onboarding": {
+    "button": "Get a pilot access key",
+    "hint": "The pilot gives every reader a key from a public pool, so no one has to ask for one. Your browser makes your own keys first, which takes a few seconds.",
+    "keys": "Making your keys…",
+    "pool": "Reading the pool…",
+    "licence": "Opening your licence…",
+    "ready": "A pilot access key is ready: now create your vault.",
+    "empty": "The pool is empty for now. Try again in an hour, or tell us you are interested.",
+    "failed": "No pilot key could be drawn: ",
+    "claimed": "Your vault was made and your claim was posted.",
+    "claim_failed": "Your vault was made. The claim could not be posted, which does not affect your vault."
   }
 }

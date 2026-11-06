@@ -4,7 +4,7 @@
   "facts": [
     {
       "id": "f-s1",
-      "claim": "LIS26 session page (conferenceSlug lis26): 'Securing the AI frontline', 12 Nov, Cybersecurity Summit, Stage 8, names Whitespace as the speaker's organisation",
+      "claim": "LIS26 session page: 'Securing the AI frontline', 12 Nov, Cybersecurity Summit, Stage 8, names Whitespace as the speaker's organisation",
       "source": "s1",
       "read_on": "2026-11-01",
       "by": "curator@web-summit"

@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.328",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 19:52: twenty debriefs in; outreach still needs a restart",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "50dcb9255"
+  },
+  {
+    "version": "v0.1.327",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: run report of the hand-over to session 2",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "bdbc1b767"
+  },
+  {
+    "version": "v0.1.326",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: the hand-over debrief of 6 November; blocked on sending the 50 contact requests (sgit_ai), and on what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "a169fb8e0"
+  },
+  {
+    "version": "v0.1.325",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: publish workflow, one public version for /how-we-publish/: the steps and the statuses in plain words",
+    "by": "checker@PrompTugal.vicky",
+    "from": "f489cf481"
+  },
+  {
+    "version": "v0.1.324",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9544ead07"
+  },
+  {
+    "version": "v0.1.323",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.vicky: a request to abp@: widen the ABP grant for Vicky's newsroom desks (her reviewer publishes, her agents change the build and pages, when she asks)",
+    "by": "dev@PrompTugal.vicky",
+    "from": "989ceb945"
+  },
+  {
+    "version": "v0.1.322",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: AICEP is confirmed after all (its partner page is live); 2022 and 2023 editions' figures from the organiser",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "29600543a"
+  },
+  {
+    "version": "v0.1.321",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: the hand-over debrief of 6 November; status points to it",
+    "by": "observability@PrompTugal.dinis",
+    "from": "6eb5430d2"
+  },
+  {
+    "version": "v0.1.320",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 19:09: six worker branches, T22; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "4f0178132"
+  },
+  {
+    "version": "v0.1.319",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3d3d95898"
+  },
+  {
+    "version": "v0.1.318",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.vicky: run report, first run (two jobs for Vicky)",
+    "by": "dev@PrompTugal.vicky",
+    "from": "4e85bc1b2"
+  },
+  {
+    "version": "v0.1.317",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: wake 18:56: two reviews answered at the desk (ontologist@'s newsroom world accepted; the reading room asked of dev@ as a page of the build); the catalogue and the library brought up to date; the hand-over debrief",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "c7043c7be"
+  },
+  {
     "version": "v0.1.316",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 18:52: offline mode and the onboarding pool live; eleven debriefs in",

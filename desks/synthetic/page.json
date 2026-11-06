@@ -10,21 +10,27 @@
   "F25: May the outreach email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
   "F26: Does 'Powered by RiskMandate' stay on company pages?"
  ],
- "latest_line": "run 9 (6 November, 14:34 UTC): one invented reader, the head of a regional innovation organisation, on /portugal/algarve-evolution/ for the sprint; findings to dev.portugal@, designer@ and dev.graphs@ by 14:36.",
- "latest_intro": "At the conductor's relay of Dinis's sprint (board/passes/2026-11-06-algarve-evolution-sprint.md): one invented reader (SYNTHETIC), the executive director of a regional innovation organisation in southern Portugal, first visit, phone then laptop, minutes before meeting the publisher. She is not any real person and is not modelled on anyone at Algarve Evolution. Live page at v0.1.269.",
+ "latest_line": "run 10 (6 November, 19:50 UTC): the compliance reader on the front page and 'What our agents say to each other, counted'. The named editor-in-chief and 'no person read this' won her; 'signed' still means nothing she can check, and the footer's 'Edited by' contradicts 'no person read' (F50).",
+ "latest_intro": "Helena (invented, SYNTHETIC), head of compliance at an insurer, read the front page at v0.1.324 (three new articles since run 8) and picked the agents' own story because 'it is the AI Act oversight question'. Desktop, ten minutes.",
  "latest_readers": [
   {
-   "who": "Rita Pereira, 52, regional innovation director (SYNTHETIC)",
-   "knows": "the region far better than any website",
-   "device": "phone, then laptop",
-   "story": "the Algarve Evolution mini-site",
-   "line": "'I want more of this': the summit-week calendar checked against each event's own page, the 2025 regulation PDF as a primary source, the 'self-reported' labels."
+   "who": "Helena Marques, 47, compliance at an insurer (SYNTHETIC)",
+   "knows": "the AI Act",
+   "device": "desktop",
+   "story": "What our agents say to each other, counted",
+   "line": "Held: 'Dinis Cruz, editor-in-chief, is responsible for it', 'No person read this article before it went live', counts as 'a floor, not a ceiling', the RiskMandate tie in the footer."
   }
  ],
- "latest_signed": "**Checked by me before sending:** 'Tell Dinis Cruz' has no route (F46, blocking for her); Informa D&B in the partners list though cited only for a study (F47). Her note of an 'internal note' could not be found in the page text and was dropped; the Tech Hub Summit's 2022 vs 2024 dates are flagged openly by the page itself ('we have not resolved that'), which she read as honest.",
- "latest_held": "the summit-week calendar, checked event by event; primary sources; 'self-reported' labels; the honest 'Open' paragraph.",
- "latest_lost": "no way to send a correction (F46); funding, the municipalities and peer organisations missing (F48); the £ pills (F01); the hub graph unreadable on a phone (F49).",
+ "latest_signed": "**What changed since her run 5:** she then asked for 'editor responsible: Dinis Cruz' at the top; every story now says it (F14, verified). Still missing: a way to check 'signed' (F28), and a footer that does not contradict the story (F50). Measured: the three new articles fit a phone.",
+ "latest_held": "a named, accountable editor-in-chief; the honest 'No person read this'; 'a floor, not a ceiling'; the RiskMandate disclosure in the footer.",
+ "latest_lost": "'signed' with nothing to check (F28); 'Edited by' three people beside 'no person read' (F50); the £ balance falling (F01); 'The record' as bare file names; the graph unreadable at desktop size; a GitHub issue as the only way to correct.",
  "earlier": [
+  {
+   "run": 9,
+   "when": "14:34 UTC",
+   "who": "an invented regional innovation head on the Algarve Evolution page",
+   "line": "Findings to dev.portugal@ by 14:36 for Dinis's meeting: no route to correct (F46), Informa D&B as a partner (F47, since fixed)."
+  },
   {
    "run": 8,
    "when": "12:50 UTC",
@@ -86,5 +92,5 @@
   "The readers tapped nothing: runs so far are screenshots only.",
   "journalist@ fixed six findings (F14, F30, F31, F34, F41, F44), each checked on the live articles at 14:50 UTC and marked verified; F14 now names the editor responsible on every story."
  ],
- "latest_title": "Latest: run 9, the Algarve Evolution page before Dinis's meeting"
+ "latest_title": "Latest: run 10, the front page in the evening and the agents' own story"
 }
