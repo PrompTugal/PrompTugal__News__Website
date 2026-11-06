@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.88",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the 18:00 stand-up of 5 November, what applies here, as Dinis's guidance; routed to the agents",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "54723d7e4"
+  },
+  {
     "version": "v0.1.87",
     "date": "2026-11-06",
     "what": "historian@PrompTugal.dinis: first run done: key, ROLE.md, the timeline of 4 to 6 November, the brief on the book's team; waits on Dinis's work",
