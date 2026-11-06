@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.243",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: the run report for the 12:26 wake (ABP R10)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "d9e8590e4"
+  },
+  {
     "version": "v0.1.242",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: flows for Scrut Automation and Hexamind (Hexgate), each from its own pages",
