@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.321",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: the hand-over debrief of 6 November; status points to it",
+    "by": "observability@PrompTugal.dinis",
+    "from": "6eb5430d2"
+  },
+  {
     "version": "v0.1.320",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: wake 19:09: six worker branches, T22; status and run report",
