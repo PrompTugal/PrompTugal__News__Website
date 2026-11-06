@@ -1,0 +1,318 @@
+{
+  "$schema": "none",
+  "article": "lisbon-universities-at-web-summit",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ulisboa.pt/en/noticia/ulisboas-innovation-and-entrepreneurship-ecosystem-web-summit-2026",
+      "status": 200
+    },
+    {
+      "url": "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://websummit.com/essentials/venue-essentials/",
+      "status": 200
+    }
+  ],
+  "spent_usd": 0.0859,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The University of Lisbon (ULisboa) has a stand at Web Summit in Pavilion 1 from 10 to 12 November, its second year in a row.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "At the ULisboa stand in Web Summit’s Pavilion 1, from 10 to 12 November",
+          "note": "S1 states both the Pavilion 1 stand and the 10 to 12 November dates, and says ULisboa participates \"for the second consecutive year\"; S2's Pavilion 2 reference is for Técnico, a school within ULisboa, so it does not contradict the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "For the second consecutive year, the University of Lisbon (ULisboa) will participate in Web Summit, reaffirming its commitment to bringing the talent and technology developed in its classrooms and laboratories to one of the world’s leading global stages for innovation. ULisboa’s participation in the event reflects a vibrant culture of creativity, teamwork and entrepreneurial action across the diverse fields of knowledge represented by its Schools. At the ULisboa stand in Web Summit’s Pavilion 1, from 10 to 12 November",
+          "note": "Source S1 verifies that the University of Lisbon is participating in Web Summit for the second consecutive year with a stand located in Pavilion 1 from 10 to 12 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "For the second consecutive year, the University of Lisbon (ULisboa) will participate in Web Summit",
+          "note": "S1 also states the ULisboa stand is in Web Summit’s Pavilion 1 from 10 to 12 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "Técnico, ULisboa's engineering school, has its own stand at Web Summit in Pavilion 2, stand E272.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Pavilhão 2, número E272",
+          "note": "S2 gives Pavilion 2, stand E272 for Técnico's own stand (\"banca da Escola\") at Web Summit 2026, and S1 independently says Técnico will be represented in Pavilion 2."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Pavilhão 2, número E272 – são estes os dados a memorizar para encontrar o Instituto Superior Técnico, Universidade de Lisboa, representado na edição de 2026 da Web Summit",
+          "note": "The source confirms that Instituto Superior Técnico, ULisboa's engineering and technology school, is present at Web Summit with a stand in Pavilion 2 at number E272."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Pavilhão 2, número E272 – são estes os dados a memorizar para encontrar o Instituto Superior Técnico, Universidade de Lisboa",
+          "note": "S2 explicitly states Técnico ULisboa is at Web Summit in Pavilion 2, stand E272."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "Técnico brings six spin-offs to Web Summit: Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "seis spin-offs",
+          "note": "S2 says Técnico brings six spin-offs to Web Summit 2026 and names the same six start-ups: Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "o Técnico traz também seis spin-offs que tiveram origem no seio da instituição . As start-ups presentes serão Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew e Testwaves",
+          "note": "The source directly states that Técnico is bringing six spin-offs from the institution to Web Summit, explicitly naming Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew, and Testwaves."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "O Técnico traz também seis spin-offs que tiveram origem no seio da instituição . As start-ups presentes serão Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew e Testwaves.",
+          "note": "S2 directly states Técnico brings six spin-offs and lists exactly those six startups."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "ULisboa hosts the second UniVerse: Academia Empreendedora on 10 November at the Portugal Pavilion Congress Centre.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ULisboa will host the 2nd edition of UniVerse – Academia Empreendedora on 10 November at the Portugal Pavilion Congress Centre.",
+          "note": "S1 states directly that ULisboa will host the second edition of UniVerse on 10 November at the Portugal Pavilion Congress Centre, matching every element of the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ULisboa will host the 2nd edition of UniVerse – Academia Empreendedora on 10 November at the Portugal Pavilion Congress Centre.",
+          "note": "Source S1 explicitly confirms that ULisboa will host the second edition of UniVerse – Academia Empreendedora on 10 November at the Portugal Pavilion Congress Centre."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ULisboa will host the 2nd edition of UniVerse – Academia Empreendedora on 10 November at the Portugal Pavilion Congress Centre.",
+          "note": "S1 directly states ULisboa will host the second edition of UniVerse on 10 November at the Portugal Pavilion Congress Centre."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "UniVerse: Academia Empreendedora involves nine Portuguese higher education institutions, including the University of Lisbon and NOVA University Lisbon.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "brings together nine Portuguese higher education institutions",
+          "note": "S1 names nine institutions for UniVerse – Academia Empreendedora, including the University of Lisbon and NOVA University Lisbon, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "brings together nine Portuguese higher education institutions: the University of Lisbon, NOVA University Lisbon",
+          "note": "The source explicitly confirms that UniVerse brings together nine Portuguese higher education institutions, including the University of Lisbon and NOVA University Lisbon."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "brings together nine Portuguese higher education institutions: the University of Lisbon, NOVA University Lisbon",
+          "note": "S1 explicitly states that UniVerse brings together nine Portuguese higher education institutions and names both the University of Lisbon and NOVA University Lisbon among them."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "ULisboa took first place in Startup Portugal's 2025 Ranking of Entrepreneurial Universities.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ULisboa achieved 1st place in Portugal’s 2025 Ranking of Entrepreneurial Universities , a distinction awarded by Startup Portugal .",
+          "note": "S1 states directly that ULisboa achieved 1st place in Startup Portugal's 2025 Ranking of Entrepreneurial Universities, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ULisboa achieved 1st place in Portugal’s 2025 Ranking of Entrepreneurial Universities , a distinction awarded by Startup Portugal",
+          "note": "The source explicitly states that ULisboa secured first place in Portugal's 2025 Ranking of Entrepreneurial Universities awarded by Startup Portugal."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ULisboa achieved 1st place in Portugal’s 2025 Ranking of Entrepreneurial Universities",
+          "note": "S1 directly states that ULisboa achieved first place in Startup Portugal’s 2025 Ranking of Entrepreneurial Universities."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "Citing Dealroom, ULisboa is the only Portuguese higher education institution with more than 1,000 alumni who have founded startups, with a combined enterprise value over 30 billion euros across 36 countries.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "only Portuguese higher education institution with more than 1,000 alumni who have founded startups, generating a cumulative enterprise value of over €30 billion across 36 countries",
+          "note": "S1 attributes this to the Dealroom study and states every element of the claim: the only-institution status, over 1,000 startup-founding alumni, over €30 billion in combined value, and 36 countries."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "According to the Dealroom study , ULisboa is the only Portuguese higher education institution with more than 1,000 alumni who have founded startups, generating a cumulative enterprise value of over €30 billion across 36 countries.",
+          "note": "The source directly confirms that according to Dealroom, ULisboa is the only Portuguese institution meeting these criteria."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ULisboa is the only Portuguese higher education institution with more than 1,000 alumni who have founded startups, generating a cumulative enterprise value of over €30 billion across 36 countries.",
+          "note": "S1 directly states the claim, attributing it to the Dealroom study."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "ULisboa counts four of Portugal's six unicorns as coming from its ecosystem: OutSystems, TEKEVER, Talkdesk and Anchorage Digital.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "the ULisboa ecosystem has given rise to four of Portugal’s six unicorns: OutSystems, TEKEVER, Talkdesk and Anchorage Digital",
+          "note": "S1 states directly that the ULisboa ecosystem gave rise to these four of Portugal's six unicorns, matching the claim's names and counts."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "the ULisboa ecosystem has given rise to four of Portugal’s six unicorns: OutSystems , TEKEVER , Talkdesk and Anchorage Digital",
+          "note": "Source S1 explicitly confirms that four of Portugal's six unicorns originated from the ULisboa ecosystem, naming OutSystems, TEKEVER, Talkdesk, and Anchorage Digital."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "four of Portugal’s six unicorns: OutSystems , TEKEVER , Talkdesk and Anchorage Digital",
+          "note": "S1 states that the ULisboa ecosystem has given rise to four of Portugal’s six unicorns, naming exactly those four companies."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "Arlindo Oliveira, a professor at Técnico and president of the research institute INESC, joins a Future of Work Summit panel titled \"The Transformation of Post-Secondary Education in the AI Era\".",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "The Transformation of Post-Secondary Education in the AI Era",
+          "note": "S2 states that Arlindo Oliveira, professor catedrático at Técnico and president of INESC, will be part of this panel at the Future of Work Summit, though the source never describes INESC as a 'research institute'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Arlindo Oliveira , professor catedrático do Técnico e presidente do Instituto de Engenharia de Sistemas e Computadores (INESC), fará parte do painel The Transformation of Post-Secondary Education in the AI Era , do Future of Work Summit",
+          "note": "Source S2 confirms that Arlindo Oliveira, a professor at Técnico and president of INESC, is participating in the specified panel at the Future of Work Summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Arlindo Oliveira , professor catedrático do Técnico e presidente do Instituto de Engenharia de Sistemas e Computadores (INESC), fará parte do painel The Transformation of Post-Secondary Education in the AI Era , do Future of Work Summit",
+          "note": "S2 states exactly that Arlindo Oliveira, a Técnico professor and INESC president, will be part of the Future of Work Summit panel with that title."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "Fundação Santander supports Técnico's participation at Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "conta com o apoio da Fundação Santander",
+          "note": "S2 states that Técnico's participation in Web Summit 2026 is supported by Fundação Santander, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "A participação do Técnico no Web Summit 2026 conta com o apoio da Fundação Santander.",
+          "note": "The source directly states that Técnico's participation at Web Summit 2026 is supported by Fundação Santander."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "conta com o apoio da Fundação Santander",
+          "note": "S2 states that Técnico's participation in Web Summit 2026 has the support of Fundação Santander."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

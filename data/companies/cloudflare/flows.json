@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "cloudflare",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "approval-gate",
+      "name": "An agent built on Cloudflare pauses for a person before a side-effecting action",
+      "summary": "Cloudflare's Agents documentation describes approval at three layers of an agent, for payments, deletions, external communications, bulk data operations and access-control changes; this is its expense example, with the other two layers named.",
+      "source": [
+        "fl1",
+        "fl2"
+      ],
+      "steps": [
+        {
+          "actor": "The agent",
+          "what": "Takes a task and decides which tools to call and in what order, adapting to intermediate results.",
+          "agent": "Decides its own tool use and process flow; Cloudflare distinguishes this from a workflow (a fixed path) and a co-pilot (a person acts).",
+          "source": "fl2"
+        },
+        {
+          "actor": "The agent's workflow",
+          "what": "Validates the request (in the example, an expense) as a durable step.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent's workflow",
+          "what": "Reports that it is waiting for approval and pauses at a durable gate (waitForApproval), which can wait for days, months or longer without keeping anything running.",
+          "source": "fl1"
+        },
+        {
+          "actor": "A person",
+          "what": "Approves or rejects; the workflow records who approved.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent's workflow",
+          "what": "Only after approval, carries out the action and reports it complete.",
+          "agent": "Acts on the approved task.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The developer",
+          "what": "May instead put the pause at the other two layers the page names: an MCP server asking the agent's client for input (elicitation), or a connector call in model-generated code that needs approve() or reject() (Code Mode approval).",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

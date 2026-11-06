@@ -5,7 +5,7 @@
   "title": "Técnico brings robots and six spin-offs to Web Summit",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "idea",
+  "status": "held",
   "rests_on": [
     "evidence:v-tecnico-web-summit-2026",
     "evidence:r1255-18"
@@ -16,23 +16,36 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-04-1955.json"
+      "desks/curator/2026-11-04-1955.json",
+      "desks/journalist-promptugal/ideas/S8.md"
     ]
   },
   "assignee": null,
   "needs": null,
-  "held": null,
+  "held": "Covered already: the curator folded S8 into S10 (its candidates page says S10 takes in S8), and both published articles carry Técnico's stand, robots and six spin-offs: S10 (lisbon-universities-at-web-summit) and S15 (following-robotics-at-web-summit). A third article would repeat them. Reopen if Técnico publishes something new.",
   "draft": null,
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "whatever the hold names",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-04T19:45Z",
       "by": "curator@web-summit.vicky",
       "file": "desks/curator/2026-11-04-1955.json"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/ideas/S8.md"
+    },
+    {
+      "column": "held",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/ideas/S8.md"
     }
   ]
 }

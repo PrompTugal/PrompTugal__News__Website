@@ -1,0 +1,139 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-06T06-12-02Z",
+ "started": "2026-11-06T06:12:02.149Z",
+ "ended": "2026-11-06T07:12:34Z",
+ "line": "review round 2: dev.portugal, dev.pages, dev.graphs, dev.search, dev.verify, dev.data brought onto dev",
+ "policy": {
+  "version": "1.3.0",
+  "sha256": "ff545e59f636d8b5"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T07:09:46.087Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T07:09:45.512Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "release": 4,
+   "git": 3,
+   "git-commit": 3,
+   "web": 2,
+   "other": 2,
+   "github-read": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": [
+   {
+    "sha": "45175d600",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "files": 4
+   },
+   {
+    "sha": "dde295a82",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 6
+   },
+   {
+    "sha": "b29f710e0",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "files": 17
+   },
+   {
+    "sha": "50d510ed7",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "files": 5
+   },
+   {
+    "sha": "38c12ee49",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 3
+   },
+   {
+    "sha": "f8f75421d",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 5
+   },
+   {
+    "sha": "a25a1afa2",
+    "subject": "dev@PrompTugal.dinis: wake 06:08: four dev workers' branches reviewed and brought onto dev; dev.portugal sent back",
+    "files": 2
+   },
+   {
+    "sha": "666dcaa34",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.verify onto dev (its reviewed diff, as one commit)",
+    "files": 15
+   },
+   {
+    "sha": "0af0e45dd",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.search onto dev (its reviewed diff, as one commit)",
+    "files": 9
+   },
+   {
+    "sha": "dc911e949",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs onto dev (its reviewed diff, as one commit)",
+    "files": 9
+   },
+   {
+    "sha": "3089dfab6",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages onto dev (its reviewed diff, as one commit)",
+    "files": 7
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "45175d600 wrote content/index.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f8f75421d wrote content/portugal/algarve-evolution.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 15,
+  "in_mandate": 15,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 2
+ }
+}
