@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.101",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the story board at /newsroom/stories/: every story in one column, a page per story, filters",
+    "by": "dev@PrompTugal.dinis",
+    "from": "dafd4d8c4"
+  },
+  {
     "version": "v0.1.100",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: wake 04:05: 11 commits clean; eight passes pre-reviewed; BR5's internal reports not to be used; the first map of keys and vaults",
