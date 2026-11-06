@@ -9,6 +9,7 @@ import { fileURLToPath } from 'node:url'
 import { readJson, readLines, writeIfChanged, cmp, stable } from './lib/util.mjs'
 import { buildAuthority } from './lib/authority.mjs'
 import { buildCards, cardFiles, compactCards } from './lib/cards.mjs'
+import { readCards } from './lib/graph.mjs'
 import { shelfPages } from './lib/shelf.mjs'
 import { check } from './lib/check.mjs'
 import { buildEntityAuthority } from './lib/entities.mjs'
@@ -17,6 +18,8 @@ import { buildLinks } from './lib/links.mjs'
 import { buildIndexes } from './lib/indexes.mjs'
 import { buildReality } from './lib/reality.mjs'
 import { runStocktake, weedingPage } from './lib/stocktake.mjs'
+import { buildGraphs } from './lib/graph.mjs'
+import { buildAids, buildGuidance, buildFrontDoor } from './lib/aids.mjs'
 
 const here = path.dirname(fileURLToPath(import.meta.url))
 
@@ -91,15 +94,43 @@ export function build(opts) {
   return { cards, appended: lines.length, retro, changed, ctx, linkReport, stocktake: st, reality, indexes: idx.counts }
 }
 
-function main() {
+// Round 3: the graphs, the finding aids, the guidance collection and the front door. They read the cards the first
+// pass wrote (the catalogue files), so they run after build(); the engine's rank and layout are imported, hence async.
+export async function buildRound3(opts) {
+  const { root, libDir } = opts
+  const ctx = opts.ctx || { root, libDir, catalogue: readJson(path.join(root, 'board/catalogue.json')) }
+  ctx.classification = ctx.classification || readJson(path.join(libDir, 'classification.json'))
+  const cards = readCards(libDir)
+  const changed = []
+  const put = (rel, text) => { if (writeIfChanged(path.join(libDir, rel), text)) changed.push(rel) }
+  const g = await buildGraphs(ctx, cards, put)
+  const aids = buildAids(ctx, cards)
+  const guid = buildGuidance(ctx, cards)
+  const door = buildFrontDoor(ctx, cards)
+  const out = { ...aids.files, ...guid.files, ...door.files }
+  for (const [rel, text] of Object.entries(out)) put(rel, text)
+  // generated pages that no longer exist (a pass or a guidance part that went) are removed
+  for (const [dir, re] of [['finding-aids/passes', /\.md$/], ['finding-aids', /^[A-Z]+\.md$/], ['special', /^guidance-\d+\.md$/]]) {
+    const d = path.join(libDir, dir)
+    if (fs.existsSync(d)) for (const f of fs.readdirSync(d)) if (re.test(f) && !(`${dir}/${f}` in out)) { fs.unlinkSync(path.join(d, f)); changed.push(`${dir}/${f} (removed)`) }
+  }
+  return { cards, graphs: g, aids, guidance: guid, changed, files: Object.keys(out) }
+}
+
+async function main() {
   const a = parseArgs(process.argv.slice(2))
   if (a.cmd === 'build' || a.cmd === 'authority' || a.cmd === 'cards' || a.cmd === 'shelf') {
     // the steps share one pass: authority, accession and cards, shelf list
     const r = build(a)
+    const r3 = await buildRound3({ ...a, ctx: r.ctx })
+    for (const e of r3.graphs.errors) console.error(`graph: ${e}`)
+    r.changed.push(...r3.changed)
+    if (r3.graphs.errors.length) process.exitCode = 1
     const byType = {}
     for (const c of r.cards) byType[c.type] = (byType[c.type] || 0) + 1
     console.log(`links: ${r.linkReport.forward} forward and ${r.linkReport.inverse} inverse edges (${Object.entries(r.linkReport.byRel).sort((x, y) => cmp(x[0], y[0])).map(([k, v]) => `${k} ${v}`).join(', ')}); ${r.linkReport.superseded.length} superseded`)
     console.log(`stocktake: ${Object.entries(r.stocktake.counts).filter(([, v]) => v).map(([k, v]) => `${k} ${v}`).join(', ') || 'no findings'}; indexes: ${Object.entries(r.indexes).map(([k, v]) => `${k} ${v}`).join(', ')}; reality: ${r.reality.conductor.differ} differences still differ, ${r.reality.unplaced.length} cards in no domain`)
+    console.log(`round 3: library graph ${r3.graphs.library.data.counts.nodes} nodes and ${r3.graphs.library.data.counts.edges} edges; reality tree ${r3.graphs.reality.data.counts.nodes} nodes and ${r3.graphs.reality.data.counts.edges} edges (${r3.graphs.engine.rank ? 'ranks from rank.mjs' : 'degree only'}, ${r3.graphs.engine.layout ? 'layout from layout.mjs' : 'grid'}); ${r3.aids.classes} class finding aids, ${r3.aids.passes} pass finding aids, guidance in ${r3.guidance.parts} parts (${r3.guidance.ideas} ideas, ${r3.guidance.later} Later)`)
     console.log(`library: ${r.cards.length} cards (${Object.entries(byType).sort((x, y) => cmp(x[0], y[0])).map(([k, v]) => `${k} ${v}`).join(', ')}); ${r.appended} register lines appended${r.retro ? ' (retrospective accession)' : ''}; ${r.changed.length} files written`)
     return
   }
@@ -116,4 +147,4 @@ function main() {
   process.exit(2)
 }
 
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main()
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch((e) => { console.error(e); process.exit(1) })

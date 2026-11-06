@@ -36,13 +36,14 @@ Each is a claim no file backs (or a path since moved); the line is the line of R
 | 13 | `board/keys/dev-promptugal.json` |
 | 25 | `data/companies.json` |
 
-## 3. The tree's own EXISTS lines (146): 1 without evidence, 0 whose evidence path is missing
+## 3. The tree's own EXISTS lines (146): 1 without evidence, 1 whose evidence path is missing
 
 An EXISTS line without evidence is a claim and is not counted. A line whose evidence path is missing may have moved: reread it.
 
 | Domain file | Line | State | The line |
 |---|---|---|---|
 | `reality/publication/index.md` | 19 | no evidence | [S] Domain promptugal.news (CNAME in the repository; DNS and HTTPS checks recorded by conductor@ and dev@, S). |
+| `reality/agents/index.md` | 23 | evidence missing: `desks/outreach/decision-who-sends.md` | [F] Outreach: 50 companies, 56 drafts, a decision page on who sends. Evidence: `desks/outreach/drafts.json`, ` |
 
 ## 4. What the tree holds that REALITY.md does not say
 
