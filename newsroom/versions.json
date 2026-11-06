@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.171",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 08:05: 50 commits and seven worker branches clean; S15 half done; the recovery runbook",
+    "by": "security@PrompTugal.dinis",
+    "from": "ea7d26f54"
+  },
+  {
     "version": "v0.1.170",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 07:53: Algarve live, pass order, synthetic decisions, two inboxes",
