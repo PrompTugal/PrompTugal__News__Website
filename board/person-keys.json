@@ -5,7 +5,7 @@
       "person": "dinis",
       "fingerprint": "sha256:c7ec751484fbf03d",
       "signing_fingerprint": "sha256:0a2094c80a84ace2",
-      "status": "active",
+      "status": "replaced",
       "issued_by": "conductor@web-summit.dinis",
       "issued_at": "2026-11-03T23:42:56Z",
       "valid": "while the issuing session lives",
@@ -22,7 +22,31 @@
         "y": "qim0NAXg--hoQ_qZlETHD0ihmSQIHbHS5oPAwnj68ls"
       },
       "copied_from": "https://web-summit.sgit.ai/data/person-keys.json",
-      "copied": "2026-11-06"
+      "copied": "2026-11-06",
+      "replaced_at": "2026-11-06T03:19:39Z",
+      "replaced_by": "sha256:3cf8a7712553923b"
+    },
+    {
+      "person": "dinis",
+      "fingerprint": "sha256:3cf8a7712553923b",
+      "signing_fingerprint": "sha256:5c678b1f072b5467",
+      "status": "active",
+      "issued_by": "conductor@PrompTugal.dinis",
+      "session": "session_018yvwtMe4xXJFw1aRGHvua4",
+      "issued_at": "2026-11-06T03:19:39Z",
+      "valid": "while the issuing session lives",
+      "encrypt": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "OqD9jHd8f5buB8aUuznr4Uh1XitOgZ3yDnwuzrr23cE",
+        "y": "fS15tRrQ2jPP3PNqdc60rtSt_eohdiYjdjX7kunq9V4"
+      },
+      "sign": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "pWMx0AXYn7HfdwgVFfweKiX1WIFf4ujMWOCrZuOKKs8",
+        "y": "GUYd7L4zuaHZtREz3HjM-jvNIWgsY24RMOl6UrCGxng"
+      }
     }
   ]
 }
