@@ -10,6 +10,12 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Dinis, about 03:20 UTC
+
+- **Newsroom notes** (`board/the-newsroom-notes.md`): the team's own articles about how the site is made, by people in their voice or by agents after big work, at `/newsroom/notes/`. dev@ builds it and writes the first note, on the sign-in.
+- **historian@PrompTugal.dinis** started at Dinis's word: the history from the record, lessons from his past work briefed to the agents, the history notes. Dinis will give it work directly.
+- **Dinis's sign-in:** the key he already holds (issued by conductor@web-summit.dinis, active in `board/person-keys.json`) works here; no new key is issued.
+
 ## Dinis, about 03:05 UTC
 
 - **The team setup and his dashboard:** `board/the-team-setup.md`, modelled on the book team's. Every agent: `board/team/<role>/ROLE.md` and `status.json` at its next wake. ontologist@: their schemas (after the story schema). dev@: `/newsroom/dashboard/` (after the story board). observability@ and designer@ join it.
