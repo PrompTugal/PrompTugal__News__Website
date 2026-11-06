@@ -720,6 +720,24 @@
         "signing_fingerprint": "sha256:f44298c6cc19ca3f"
       },
       "status": "active"
+    },
+    {
+      "id": "conductor.b-promptugal",
+      "label": "conductor.b@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "conductor.b@PrompTugal.dinis",
+      "role": "The conductor's specialist for account B (board/the-account-move.md): starts, schedules and watches the PrompTugal agents moved to Dinis's second account. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 at 21:54 UTC (pki-agent.mjs keygen --session, the copy whose sha256 fcb28a1c...02ab matches the pin in the team site's admin/tools/seal.mjs), record sha256:fe323e2c23635d70, and pushed to this repository by that session; the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai. The first entry for this role: the first session on account B (21:20 UTC) made no key.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsHkVZwac4SDEDDuNW0hB\n+OCpK6LUKS1OWnexcec5yThIpiIGHf3YztfY3v/wmELaIMc4LqjgqDOop2tM6wLm\nBhdKnS3OOgJvqpdyZYU9zbfOBDlAYYcykCWn7choChs+iQDRZUQIMooJjemUp/iw\nGI9nZZTbPHzixgQe3vWEe5GEbsAVge3jPcoygJmoaztP/Vqk5cyWTUNf5OBn9DmL\niUD92/jjw+0sCNNQnZDELorkyGQiv5QaOpJCno15tXRfXhv0oQSvs5zYUDcFd+LL\nJSZHEpxhm/byYIS9jGNntQPgDrLIBU1jtRnNkCgSjcO6o6536VIpZzNfq8eTr/Ly\nWI5D+sptvqoi823/+nvVhzmzwKXoNG3nw1Q+wiEbn7RxV4Q+LDEP4jEC+IysehxR\ntTRtYmfd8zUakZSnxpt9N4uyurmizqHu5C5WqMgGwvitZNR1mdS03RZqVeuY2Oo5\n6qPeT7VoAjbfu6dzckHd7IqmtapW4j8IapX1vehQ6HG06C1ow6Iq+WjdzqG5gEaw\nhwPLF/Jq1SY0A1WgjeBuTx7Vx5AO5+qPAhtldgRsuazB1Y6lhpIKoPtEYgrQvnU6\nVJ5RibJHarqURliJKP/LI7goCPU4O3w4yYVtqN07+GdisVROzspSHJTaT4rX5IQs\n6M8wbu/yYLLk9suQ58ObO/8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUPkqqVigVh18GZFUvyn7FKoseB0n\npE76kOBXVkGGnFsYO7RLY+Nj9SxqDjtj4EbPhj1SYY+UcdW+mGRxf0oSYw==\n-----END PUBLIC KEY-----\n",
+        "label": "conductor.b@PrompTugal.dinis",
+        "fingerprint": "sha256:05e955d1ea81f4d9",
+        "record": "sha256:fe323e2c23635d70",
+        "signing_fingerprint": "sha256:fe323e2c23635d70"
+      },
+      "status": "active"
     }
   ]
 }

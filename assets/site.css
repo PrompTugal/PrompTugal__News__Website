@@ -905,15 +905,12 @@ main .body pre, .agent-block pre { white-space: pre-wrap; }
 .body .view-bytopic { display: none; }
 .body:has(#v-bytopic:target) .view-bytopic { display: block; }
 .body:has(#v-bytopic:target) .view-wire { display: none; }
-<<<<<<< HEAD
-=======
 
 /* the filter box on the long list pages (assets/filter/filter.js) */
 .pt-filter { margin: 8px 0 4px; }
 .pt-filter-input { width: 100%; max-width: 520px; box-sizing: border-box; padding: 10px 14px; border: 1px solid var(--rule-2); border-radius: var(--radius-pill, 999px); background: var(--paper); color: var(--ink); font: 400 16px/1.3 var(--sans); }
 .pt-filter-input:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
 [hidden] { display: none !important; }
->>>>>>> origin/work/dev.pages
 
 /* the front page as approved (Dinis 13:20; design/decisions/the-front-page/A--*.jpg and the-top-of-the-page/answered--*.jpg;
    his word at 21:00 that it did not match): the slim line under the top, the summit's days as a full-width band, then the
@@ -941,6 +938,29 @@ main .body pre, .agent-block pre { white-space: pre-wrap; }
 .page-front main .body p.slimline { margin: 0 0 4px; padding: 9px 0 10px; border-bottom: 1px solid var(--hair); font: 400 14px/1.45 var(--sans); color: var(--ink-2); }
 .page-front main .body p.slimline strong { font: 600 14px/1.45 var(--sans); color: var(--ink); }
 /* Latest as in the mock-ups: the thumbnail, the headline, the section and day; the summary stays on the article */
-.a-latest ul.rows.news > li > em { display: none; }
+/* (Latest: the byline shows, round 2) */
 .a-latest ul.rows.news > li strong a { font-size: 17px; line-height: 1.25; }
 .page-front main .body p.slimline { max-width: none; }
+/* the top row, round 2 (designer@'s spec check F5 to F10): lead | now and next, Latest; why we are different under the lead */
+.front-top { grid-template-areas: "lead" "next" "why" "latest"; }
+.a-next { grid-area: next; } .a-why { grid-area: why; } .a-latest { grid-area: latest; }
+.a-next h2, .a-latest h2, .a-why h2 { margin-top: 0; }
+.body ul.rows.next3 { margin: 0 0 6px; }
+.body ul.rows.next3 > li { display: flex; gap: 12px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--hair); }
+.body ul.rows.next3 > li > code { flex: none; width: 92px; font: 600 11.5px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); background: none; padding: 0; }
+.body ul.rows.next3 > li:first-child > code { color: var(--brand-red, #c8102e); }
+.body ul.rows.next3 > li > a { font: 400 17px/1.3 var(--serif); color: var(--ink); text-decoration: none; }
+.body ul.rows.seconds { display: grid; grid-template-columns: 1fr; gap: 0 24px; margin-top: 18px; border-top: 1px solid var(--rule-2); }
+.a-latest ul.rows.news > li > code, .body ul.rows.seconds > li > code { display: block; margin: 0 0 2px; padding: 0; background: none; font: 600 11.5px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--brand); }
+.a-latest ul.rows.news > li > em, .body ul.rows.seconds > li > em { display: block; font: 400 13px/1.4 var(--sans); font-style: normal; color: var(--ink-3); }
+@media (min-width: 768px) {
+    .front-top { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); grid-template-rows: auto auto 1fr; grid-template-areas: "lead next" "lead latest" "why latest"; }
+    .a-next, .a-latest { border-left: 1px solid var(--hair); padding-left: 28px; }
+    .a-latest { padding-top: 10px; }
+    .body ul.rows.seconds { grid-template-columns: 1fr 1fr; }
+}
+.body ul.rows.next3 .nr-pick { display: none; }
+.body ul.rows.next3 > li > a { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.body ul.rows.news > li > a:not(:first-child) { grid-column: 2; justify-self: start; }
+.body ul.rows.news > li > a:not(:first-child), .body ul.rows.news > li > a:first-child:not(:has(img)):not(:only-child) { font: 600 11.5px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--brand); text-decoration: none; }
+.a-latest ul.rows.news > li > a[href*="topics/"], .body ul.rows.seconds > li > a[href*="topics/"] { display: block; grid-column: auto; margin: 0 0 2px; font: 600 11.5px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--brand); text-decoration: none; }

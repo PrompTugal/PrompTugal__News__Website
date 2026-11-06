@@ -2,6 +2,10 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 21:30 UTC: this session hands over
+
+At Dinis's word (21:05 UTC, `board/the-account-move.md`), the role moves to a session on a second account. Final debrief: `board/team/outreach/debriefs/2026-11-06-handover.md`. Open: the 50 contact requests in `contact-requests/` are not yet sent to conductor@web-summit.dinis (they need `sgit_ai`, which the next session has); what an email may promise (F25) and the disclosure's wording (F19) wait on Dinis.
+
 ## 2026-11-06, about 17:40 UTC: AICEP and Air Apps follow their pages
 
 **Done**

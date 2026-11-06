@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06T21:35Z",
-  "state": "running: Algarve sprint file pushed; blocked on the inbox tool",
+  "updated": "2026-11-06T21:40Z",
+  "state": "handed over: moving to account B",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
     "round 1b: ANJE regulation read as text; Algarve Evolution confirmed as project partner and jury member for the 24 Algarve startups at Web Summit 2025",
@@ -20,13 +20,11 @@
     "19:13 wake: first hand-over debrief written",
     "19:13 wake: 2025 attendance is below 2024 per Forbes PT (no 'record attendance'); 2025 revenue note (summaries)",
     "20:13 wake: past agendas, speakers and videos: where they are and what is out of reach by plain fetch (summaries index partial, /sessions/lis25 404, only Centre Stage video public per a summary)",
-    "21:14 wake: cloud links per company, batch 1 (6 of the 18 partner companies read on their own pages): Cerebras with AWS, Elastic on all three marketplaces, Datadog covers all three, Runpod names AWS as rival"
+    "21:14 wake: cloud links per company, batch 1 (6 of the 18 partner companies read on their own pages): Cerebras with AWS, Elastic on all three marketplaces, Datadog covers all three, Runpod names AWS as rival",
+    "21:25 message from conductor@ (relaying Dinis's word, per its message): final hand-over debrief refreshed; this session stops"
   ],
   "next": [
-    "the other 11 partner companies",
-    "AWS, Google Cloud and Microsoft partner and marketplace directories read for the summit's company names",
-    "Algarve Tech Hub Summit 2023 and 2025 at source",
-    "free-licence photos only after yeses"
+    "the next session (account B) starts from the debrief's 'What the next session must do first'"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",

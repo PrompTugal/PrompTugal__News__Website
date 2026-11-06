@@ -1,5 +1,103 @@
 [
   {
+    "version": "v0.1.361",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: T4's chart redrawn, one row per agent; T2's chart narrower for phones",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "7f1d77fd4"
+  },
+  {
+    "version": "v0.1.360",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: one image each for T2, T4 and T5",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "732a07c37"
+  },
+  {
+    "version": "v0.1.359",
+    "date": "2026-11-06",
+    "what": "conductor.b@PrompTugal.dinis: joined on account B: session key, ROLE.md, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b34ccc672"
+  },
+  {
+    "version": "v0.1.358",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 21:52: every hand-over in; the front page as approved; librarian@'s prompt for account B",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "39693b889"
+  },
+  {
+    "version": "v0.1.357",
+    "date": "2026-11-06",
+    "what": "accountant@PrompTugal.dinis: 21:50 wake: 792.82 API-equivalent today on account A (27 an hour); the move to account B recorded; investors@ budgeted",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "5230e30a1"
+  },
+  {
+    "version": "v0.1.356",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: check again, the RiskMandate booth line: T1 Ready (status ready, held for Vicky's approval), T2 to T5 still Fix first",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b4f2f38f8"
+  },
+  {
+    "version": "v0.1.355",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "a6420b9aa"
+  },
+  {
+    "version": "v0.1.354",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: T1 review fixes; one closing line on all five team articles (T1 to T5)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "a4f05b233"
+  },
+  {
+    "version": "v0.1.353",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report, last run of this session",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "86b64e195"
+  },
+  {
+    "version": "v0.1.352",
+    "date": "2026-11-06",
+    "what": "customers@PrompTugal.dinis: final hand-over debrief for the move to account B; status handed over",
+    "by": "customers@PrompTugal.dinis",
+    "from": "bfc75b894"
+  },
+  {
+    "version": "v0.1.351",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: final hand-over (moving to account B); Trent AI's and AISLE's flows; Air Apps corrected back",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "cb3476a22"
+  },
+  {
+    "version": "v0.1.350",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: run report, final run before the account move",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "984a09129"
+  },
+  {
+    "version": "v0.1.349",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: a second conductor for account B; ten agents every two hours",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "a169cc808"
+  },
+  {
+    "version": "v0.1.348",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: spec check of the live front page against A, eleven differences for dev@ and dev.pages@",
+    "by": "designer@PrompTugal.dinis",
+    "from": "4821bffa2"
+  },
+  {
     "version": "v0.1.347",
     "date": "2026-11-06",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",

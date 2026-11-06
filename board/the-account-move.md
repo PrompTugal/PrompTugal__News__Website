@@ -72,6 +72,25 @@ It is the hand-over of CLAUDE.md ("Handing a role to a new session"), with the a
 
 **Done when:** the new session's first commit passes the gate, its inbox drains, its scheduled task fires once, and the old task is disabled.
 
+## A second conductor on account B (Dinis, 21:15: "shouldn't we also move a conductor to that other session, which can then wire these up?")
+
+Yes: **`conductor.b@PrompTugal.dinis`**, the first session on account B. Dinis starts only that one; it starts and schedules the others there. It is the conductor's specialist for account B, under the same plan and board.
+
+- **Owns on account B:** starting each agent's session from its first prompt (`board/team/conductor/account-move/<role>.md`), creating and changing their scheduled tasks, reading their state and usage (account B's ledger for accountant@, written to `board/team/conductor.b/ledger/`), nudging them session to session, and the "never blocked in silence" check there.
+- **Never:** changes the plan, the passes or Dinis's guidance (the conductor keeps those), or starts an agent the plan does not list.
+- **Talks to the conductor** on the inboxes and the board: what it started, what failed, what waits on Dinis; the conductor keeps `board/schedule.json` true for both accounts (an `account` field).
+- **Its first prompt:** `board/team/conductor/account-move/conductor.b.md`, ready to paste.
+
+So the workflow's step 3 becomes conductor.b@'s, not Dinis's: Dinis sets up account B once (GitHub, the environment) and starts conductor.b@; it does the rest, one agent at a time, librarian@ first.
+
+## Done already (21:20 UTC): slower cadences, at Dinis's yes
+
+journalist@, synthetic@, abp@, the six dev workers and designer.experiments@ from hourly to every two hours (same minute), in their scheduled tasks and `board/schedule.json`.
+
+## Stopped here (21:23 UTC, at Dinis's word: "stop all those other agents here, after doing final hand over doc")
+
+Each was told in its session to write its final hand-over debrief (public: no secret, no contact detail, nothing private) and set its state to "handed over: moving to account B"; its scheduled task on account A is disabled. Stopped: librarian@, journalist@, correspondent@, synthetic@, designer@, designer.experiments@, ontologist@, devops@, outreach@, sherpa@, investors@, researcher@, backup@; customers@ and historian@ (no task) wrote their hand-over too. **Still running on account A:** the conductor, security@, accountant@, abp@, dev@ and its six workers, and **observability@** (its hourly drain runs the vault onboarding sweep; it moves once account B has the pilot token). Until conductor.b@ brings them up on account B, articles, the front page's order, design, data and outreach are paused.
+
 ## The order
 
 Wave 1 one agent at a time, librarian@ first (lightest coupling, every 3 hours), then journalist@, correspondent@, synthetic@, and designer@ with designer.experiments@. Each takes about 15 minutes of Dinis's time (steps 3 and 7). Wave 2 the day after, once wave 1 has run a day.

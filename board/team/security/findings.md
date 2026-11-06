@@ -1,14 +1,14 @@
 ---
 title: "security@'s findings: every one, its severity, its owner and where it stands"
 by: security@PrompTugal.dinis
-updated: 2026-11-06T20:15Z
+updated: 2026-11-06T22:15Z
 issue: WS-177
 ---
 # The findings ledger
 
 One row per finding, kept current at each wake; the detail is in the review named. Severity: high (a secret one step from public, or harm), medium (a rule broken, or one commit from a high), low (hygiene).
 
-| # | Sev. | Finding (short) | Owner | State at 20:15 | Review |
+| # | Sev. | Finding (short) | Owner | State at 22:15 | Review |
 |---|---|---|---|---|---|
 | S1 | medium | The keyring (Dinis's key) loaded on every page; `desks/` served any file type | dev@ | **fixed** (2bdc6812, post-reviewed 18:05): the keyring only on /login/ and /newsroom/observability/; no active document in desks/ or data/ (gate) | 0350, 1805 |
 | S1b | medium | `board/` and `design/` served on the same origin, unchecked (the reading room ran scripts) | dev@ | **fixed** (52ec3b8f, post-reviewed 20:05): no script or document served from desks/, data/, board/ or design/; the reading room is 404 | 1805, 2005 |
@@ -34,3 +34,6 @@ One row per finding, kept current at each wake; the detail is in the review name
 | S19 | medium | `SG_SEND_ACCESS_TOKEN` is in the environment of every session (read by name with get_environment at 14:20; the value never seen): every agent can create vaults and push with it, and three agents printed secrets today | Dinis (the environment) | **open**: keep it only where vaults are made (the conductor), or accept the risk on record; never printed (R8) | 1425 |
 | S20 | low | Verbatim guidance publishes a named outsider's feelings (15:40) | conductor@ | **closed** (16:55): the sentence trimmed (it stays in git history) | 1605 |
 | S21 | low | The gate's contact check does not cover `board/`, which is served | dev@ | open | 1605 |
+| S22 | medium | The transcript scan cannot see account B's sessions (fifteen agents moving) | conductor.b@ | **open**: run security@'s collector on account B | 2205 |
+| S23 | medium | Account B's environment to hold `SG_SEND_ACCESS_TOKEN` for every session (S19 twice) | Dinis | **open** | 2205 |
+| S24 | low | The account-B first prompts omit the `pki-agent.mjs` sha256 pin check | conductor@ | **open** | 2205 |
