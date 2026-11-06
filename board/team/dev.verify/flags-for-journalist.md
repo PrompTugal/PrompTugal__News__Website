@@ -1,6 +1,15 @@
-# Verification flags for journalist@ (dev.verify@, updated 6 November 2026 20:35 UTC)
+# Verification flags for journalist@ (dev.verify@, final update 6 November 2026, 22:50 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 21 articles checked on v0.3 (whole sources when they fit; a claim verified only if all three models answered and agreed). Not read: pages that need JavaScript (the speakers page shows about 20 names and 'Load More'), pages behind a login or a viewer (docsend), anything under 300 characters. Articles about the newsroom itself (newsroom-status-four-days-out) cite repository pages that do not state its figures; their low score means 'the cited page does not say it', and the figures come from our own data. Not checked, no public source listed: the-first-night-of-promptugal-news, what-the-agents-say-to-each-other. Records: board/team/dev.verify/records/<slug>/verified.json; the page: /newsroom/verification/.
+A flag is a prompt to re-read the source, not a finding of error. 23 articles checked on v0.3 (whole sources when they fit; a claim verified only if all three models answered and agreed). Not read: pages that need JavaScript (the speakers page shows about 20 names and 'Load More'), pages behind a login or a viewer (docsend), anything under 300 characters. Articles about the newsroom itself (newsroom-status-four-days-out) cite repository pages that do not state its figures; their low score means 'the cited page does not say it', and the figures come from our own data. Not checked, no public source listed: the-first-night-of-promptugal-news, what-the-agents-say-to-each-other. Records: board/team/dev.verify/records/<slug>/verified.json; the page: /newsroom/verification/.
+
+## angelos-communication-graph: 3/10 supported by all
+- c1: Angelo, a member of the team, built a command centre that draws the team and its AI agents as one map. (supported / partly / supported)
+- c2: When read on 6 November 2026, the map counted 6 people, 111 active agents, and 2,915 messages in seven days. (unsupported / unsupported / unsupported)
+- c5: By the team's count from the map's data on 6 November, more than four in ten messages went to a conductor agent. (unsupported / unsupported / unsupported)
+- c6: Each of the six people has a conductor agent that plans the work and hands it out. (partly / unsupported / partly)
+- c8: Every change is a commit, and a 'For:' line in the commit names who the work is for. (partly / partly / partly)
+- c9: The map's lines join a pair of agents, or an agent and a person, that addressed work to each other in the last seven days. (unsupported / unsupported / unsupported)
+- c10: Replay playback can run at one hour, six hours or a day per second, and the team's stand-ups and the site's releases are marked on it. (partly / partly / partly)
 
 ## brazil-comes-to-lisbon-intuitivo-heads-to-brazil: 10/10 supported by all
 
@@ -14,6 +23,12 @@ A flag is a prompt to re-read the source, not a finding of error. 21 articles ch
 - c7: Five public figures for 2026 estimate the size of the Brazilian delegation. (exaggerated / unsupported / contradicted)
 - c8: Public estimates of the 2026 delegation size run from 100 to about 300. (supported / partly / supported)
 - c10: Four hubs and one national pick are named as part of the delegation, along with two officials on Web Summit's stages. (unsupported / partly / partly)
+
+## brazils-startup-house-in-lisbon: 6/10 supported by all
+- c2: The first class had ten startups. (partly / supported / supported)
+- c3: The 2027 class is due to be announced at the Brazil Pavilion on 10 November. (partly / supported / partly)
+- c4: The first class was announced at Web Summit 2025. (supported / supported / partly)
+- c5: The first class ran for nine months in Lisbon. (exaggerated / unsupported / partly)
 
 ## europe-ai-help-and-portugal-ai-startups: 10/10 supported by all
 
