@@ -146,10 +146,16 @@ def main():
             if r.returncode: raise SystemExit(f'obs_drain: could not clone {os.path.basename(d)} (exit {r.returncode})')
     from sgit_ai.crypto.PKI__Crypto import PKI__Crypto
     from concurrent.futures import ThreadPoolExecutor
-    pki, pool = PKI__Crypto(), ThreadPoolExecutor(max_workers=8)
+    pki, pool = PKI__Crypto(), ThreadPoolExecutor(max_workers=16)   # 16 requests in flight (6 November: was 8)
     T, tick, t_start, odd = {}, [time.time()], time.time(), []
     def phase(name):
         now = time.time(); T[name] = round(now - tick[0], 2); tick[0] = now
+    # parallel from the start (Dinis, 6 November: "most of these drains can happen in parallel"): both vaults pulled and
+    # the keys read while the lanes are listed
+    bg = ThreadPoolExecutor(max_workers=4)
+    f_data = bg.submit(sgit, data, 'pull'); f_pub = bg.submit(sgit, pub, 'pull')
+    f_repo = bg.submit(subprocess.run, ['git', 'pull', '-q', '--rebase', 'origin', 'dev'], cwd=ROOT, capture_output=True)   # a key added since the last drain
+    f_people = bg.submit(team_json, 'data/person-keys.json', o.team)
     # L: load the lanes
     entries, after = [], None
     while True:
@@ -163,12 +169,13 @@ def main():
     print(banner.start(by_lane, c.get('lane_names') or [f'lane {i}' for i in range(1, len(c['tokens']) + 1)], 0))
     phase('list')
     if o.dry: return
-    sgit(data, 'pull')
+    # fetch the records while the pulls finish (fetching does not touch the vaults)
+    batches = [(token, ids[i:i + 25]) for token, ids in lanes.items() for i in range(0, len(ids), 25)]
+    f_fetch = [pool.submit(lambda tb: (tb[0], post(c, 'fetch', {'inbox': tb[0], 'file_ids': tb[1]}).get('files', [])), b) for b in batches]
+    f_data.result(); f_repo.result()
     key = pki.import_private_key_pem(open(os.path.join(data, 'identity/private/private_key.pem')).read())
     keys = json.load(open(os.path.join(ROOT, 'board', 'keys.json')))['keys']          # the PrompTugal agents' keys (CLAUDE.md)
-    subprocess.run(['git', 'pull', '-q', '--rebase', 'origin', 'dev'], cwd=ROOT, capture_output=True)   # a key added since the last drain
-    keys = json.load(open(os.path.join(ROOT, 'board', 'keys.json')))['keys']
-    people = team_json('data/person-keys.json', o.team)['keys']
+    people = f_people.result()['keys']
     def extract(content):
         try:
             ev = json.loads(pki.hybrid_decrypt(key, base64.b64decode(content).decode())['plaintext'])
@@ -178,8 +185,7 @@ def main():
     phase('pull')
     rows, done, bad = [], collections.defaultdict(list), 0
     if entries:
-        batches = [(token, ids[i:i + 50]) for token, ids in lanes.items() for i in range(0, len(ids), 50)]
-        fetched = list(pool.map(lambda tb: (tb[0], post(c, 'fetch', {'inbox': tb[0], 'file_ids': tb[1]}).get('files', [])), batches))
+        fetched = [f.result() for f in f_fetch]
         phase('fetch')
         items = [(token, f) for token, files in fetched for f in files]
         for (token, f), ev in zip(items, pool.map(lambda tf: extract(tf[1]['content']), items)):
@@ -191,15 +197,20 @@ def main():
         touched |= lets.save_raw(data, rows)
     stamp = time.strftime('%Y-%m-%dT%H:%MZ', time.gmtime())
     now_hour = (stamp[:10], stamp[11:13])
-    if touched or rows:
-        sgit(data, 'commit', f'drain {stamp}: {len(rows)} record(s), {len(touched)} hour(s)')
-        sgit(data, 'push')
-    phase('save_and_push')
-    marks = [(token, ids[i:i + 100]) for token, ids in done.items() for i in range(0, len(ids), 100)]
-    list(pool.map(lambda m: post(c, 'mark-processed', {'inbox': m[0], 'file_ids': m[1]}), marks))   # only after the push
-    phase('mark_processed')
+    # S raw: commit now, push in the background; the records are marked processed only once that push is done, and
+    # meanwhile the transform and the public vault go ahead (they need the files on disk, not the push)
+    changed = bool(touched or rows)
+    if changed: sgit(data, 'commit', f'drain {stamp}: {len(rows)} record(s), {len(touched)} hour(s)')   # local, before the transform writes state/
+    phase('commit')
+    def push_then_mark():
+        if changed: sgit(data, 'push')
+        marks = [(token, ids[i:i + 25]) for token, ids in done.items() for i in range(0, len(ids), 25)]
+        list(pool.map(lambda m: post(c, 'mark-processed', {'inbox': m[0], 'file_ids': m[1]}), marks))   # only after the push
+        return time.time()
+    f_mark = bg.submit(push_then_mark)
     # T + S (public)
-    sgit(pub, 'pull')
+    f_pub.result()
+    phase('save_raw_started')
     dirty = set(lets.all_hours(data)) if o.all else touched
     got = lets.transform(data, pub, dirty, now_hour, roster(keys))
     phase('transform')
@@ -213,8 +224,12 @@ def main():
         p = subprocess.run(['sgit', 'push'], cwd=pub, capture_output=True, text=True)
         if p.returncode: print(f'obs_drain: push of the public vault failed (exit {p.returncode})'); odd.append('the public vault push failed')
     phase('publish')
+    try: f_mark.result()
+    except SystemExit as e: odd.append(str(e)); print(e)
+    phase('push_and_mark_waited')
     for line in oddities(data, pub, by_lane, odd): print('ODD: ' + line)
     print(banner.end(pub, len(rows), from_browser, bad, got, time.time() - t_start, by_lane, T))
+    print("obs_drain: phases " + " · ".join(f"{k} {v}s" for k, v in T.items()))
     print(f"obs_drain: {stamp[11:16]} UTC, drained {len(rows)} ({bad} undecryptable) in {round(time.time() - t_start, 1)} s; " + (f'{len(odd)} odd: ' + '; '.join(odd) if odd else 'nothing odd'))
 
 if __name__ == '__main__':

@@ -70,16 +70,25 @@
                     const j = await r.json(); if (j.success === false || j.error) continue
                     const g = { country: String(j.country_name || j.country || '').slice(0, 60), country_code: String(j.country_code || '').slice(0, 2).toUpperCase(),
                         region: String(j.region || '').slice(0, 60), city: String(j.city || '').slice(0, 60) }
+                    // the city's position for the world map, rounded to 0.1 degree (about 10 km): a town, never a street
+                    const la = +(j.latitude ?? j.lat), lo = +(j.longitude ?? j.lon)
+                    if (isFinite(la) && isFinite(lo) && (la || lo)) { g.lat = Math.round(la * 10) / 10; g.lon = Math.round(lo * 10) / 10 }
                     SS.set('geo', JSON.stringify(g)); return g
                 } catch { }
             }
             const g = { country: '', country_code: '', region: '', city: '' }; SS.set('geo', JSON.stringify(g)); return g
         }
+        // a link's tag (Dinis, 6 November: "I just sent a link to somebody ... I would like to see if they open it ... and
+        // forward it"): ?via=<tag> (or utm_source / utm_campaign) on the link you send. Kept for the tab, so the pages read
+        // after arriving count too; a tag names the link, never the person. Letters, digits, '.', '_' and '-', 40 at most.
+        const tagOf = () => { try { const q = new URLSearchParams(location.search); const t = q.get('via') || q.get('utm_campaign') || q.get('utm_source') || ''; return /^[A-Za-z0-9._-]{1,40}$/.test(t) ? t.toLowerCase() : '' } catch { return '' } }
+        let via = tagOf(); if (via) SS.set('via', via); else via = SS.get('via') || ''
         const common = () => {
             const e = { v: 1, src: 'promptugal', site: location.host, ver: ((document.querySelector('a.ver') || {}).textContent || '').trim(),
                 ts: new Date().toISOString().slice(0, 16) + 'Z', sid, path, ref, lang: nav.language || '',
                 screen: w < 600 ? 'phone' : w < 1000 ? 'tablet' : 'desktop', tz: (Intl.DateTimeFormat().resolvedOptions().timeZone || '') }
             if (agent) e.agent = agent
+            if (via) e.via = via
             return e
         }
 

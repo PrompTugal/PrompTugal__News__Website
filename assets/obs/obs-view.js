@@ -171,6 +171,53 @@
     }
     // PrompTugal (6 November): where readers are, from latest/places.json (tabs per country; a city or region only once
     // city_min tabs came from it). Bars per group, so readers can be told from our own synthetic traffic.
+    // PrompTugal (6 November): where readers are, from latest/places.json (tabs per country; a city or region only once
+    // city_min tabs came from it, with its position rounded to 0.1 degree). A world map first (Dinis: "we need to create
+    // that world map with everything"): the outlines are Natural Earth's (assets/vendor/world-atlas, ISC), drawn on a
+    // canvas; a country's shade is its tabs in the groups selected, a dot is a shown city. Then the lists, by group.
+    const ALIAS = { 'United States': 'United States of America', 'Dominican Republic': 'Dominican Rep.', 'Bosnia and Herzegovina': 'Bosnia and Herz.', 'North Macedonia': 'Macedonia', 'Czech Republic': 'Czechia', 'Russian Federation': 'Russia', 'Central African Republic': 'Central African Rep.', 'South Sudan': 'S. Sudan', 'Democratic Republic of the Congo': 'Dem. Rep. Congo', 'Republic of the Congo': 'Congo', 'Ivory Coast': "Côte d'Ivoire", 'Equatorial Guinea': 'Eq. Guinea', 'Eswatini': 'eSwatini', 'Solomon Islands': 'Solomon Is.', 'Western Sahara': 'W. Sahara', 'Falkland Islands': 'Falkland Is.' }
+    let ATLAS = null
+    const atlas = () => ATLAS || (ATLAS = fetch(BASE + 'assets/vendor/world-atlas/countries-110m.json').then(r => r.json()).then(t => {
+        const [sx, sy] = t.transform.scale, [tx, ty] = t.transform.translate
+        const arcs = t.arcs.map(a => { let x = 0, y = 0; return a.map(([dx, dy]) => { x += dx; y += dy; return [x * sx + tx, y * sy + ty] }) })
+        const ring = idx => idx.flatMap(i => i >= 0 ? arcs[i] : arcs[~i].slice().reverse())
+        return t.objects.countries.geometries.map(g => ({ name: g.properties.name, polys: (g.type === 'Polygon' ? [g.arcs] : g.arcs).map(pl => pl.map(ring)) }))
+    }))
+    function worldMap(P, sel) {
+        const wrap = h('div', { class: 'obsx-map' }), cv = h('canvas', { role: 'img', 'aria-label': 'tabs by country' }), tip = h('p', { class: 'obsv-m', text: '' })
+        wrap.append(cv, tip)
+        const tot = v => sel.reduce((a, g) => a + (v[g] || 0), 0)
+        const byC = new Map(P.countries.map(([cc, n, v]) => [ALIAS[n] || n, { n, v, t: tot(v) }]))
+        const max = Math.max(1, ...[...byC.values()].map(x => x.t))
+        atlas().then(land => {
+            const draw = () => {
+                const W = wrap.clientWidth || 900, H = Math.round(W * 0.5), dpr = window.devicePixelRatio || 1
+                cv.width = W * dpr; cv.height = H * dpr; cv.style.width = W + 'px'; cv.style.height = H + 'px'
+                const x = cv.getContext('2d'); x.setTransform(dpr, 0, 0, dpr, 0, 0)
+                const pr = (lon, lat) => [(lon + 180) / 360 * W, (90 - lat) / 180 * H]
+                const dark = matchMedia('(prefers-color-scheme: dark)').matches && !document.documentElement.dataset.theme || document.documentElement.dataset.theme === 'dark'
+                x.fillStyle = dark ? '#16181c' : '#eef2f6'; x.fillRect(0, 0, W, H)
+                const paths = []
+                for (const c of land) {
+                    const d = byC.get(c.name), p = new Path2D()
+                    for (const poly of c.polys) for (const r of poly) { let prev = null; r.forEach(([lo, la], i) => { if (prev !== null) { while (lo - prev > 180) lo -= 360; while (lo - prev < -180) lo += 360 } prev = lo; const [px, py] = pr(lo, la); i ? p.lineTo(px, py) : p.moveTo(px, py) }); p.closePath() }
+                    x.fillStyle = d && d.t ? `rgba(47,111,219,${(0.18 + 0.82 * Math.sqrt(d.t / max)).toFixed(2)})` : (dark ? '#2a2d33' : '#d9dee5')
+                    x.fill(p, 'evenodd'); x.strokeStyle = dark ? '#16181c' : '#ffffff'; x.lineWidth = 0.5; x.stroke(p)
+                    paths.push([p, c.name, d])
+                }
+                const dots = []
+                for (const c of P.cities) { const ll = c[3]; if (!ll) continue; const t = tot(c[2]); if (!t) continue
+                    const [px, py] = pr(ll[1], ll[0]), r = 3 + 9 * Math.sqrt(t / Math.max(1, ...P.cities.map(q => tot(q[2]))))
+                    x.beginPath(); x.arc(px, py, r, 0, 7); x.fillStyle = 'rgba(209,52,59,.75)'; x.fill(); x.strokeStyle = '#fff'; x.lineWidth = 1; x.stroke()
+                    dots.push([px, py, r, `${c[1]}${c[0] ? ', ' + c[0] : ''}: ${fmt(t)} tabs`]) }
+                cv.onmousemove = e => { const b = cv.getBoundingClientRect(), mx = e.clientX - b.left, my = e.clientY - b.top
+                    const dot = dots.find(([a, b2, r]) => (a - mx) ** 2 + (b2 - my) ** 2 <= r * r); if (dot) { tip.textContent = dot[3]; return }
+                    const hit = paths.find(([p]) => x.isPointInPath(p, mx * dpr, my * dpr, 'evenodd')); tip.textContent = hit ? `${hit[1]}: ${hit[2] ? fmt(hit[2].t) + ' tabs (' + sel.map(g => `${LABEL[g]} ${hit[2].v[g] || 0}`).join(', ') + ')' : 'no tabs'}` : '' }
+            }
+            draw(); let tm = null; window.addEventListener('resize', () => { clearTimeout(tm); tm = setTimeout(draw, 150) })
+        }).catch(e => { tip.textContent = e.message })
+        return wrap
+    }
     V.places = async (out, s) => {
         let P; try { P = await readJson('latest/places.json') } catch { out.append(h('p', { class: 'obsv-m', text: 'No places yet: the drain writes latest/places.json once readers arrive.' })); return }
         const sel = gsel(s), tot = v => sel.reduce((a, g) => a + (v[g] || 0), 0)
@@ -178,9 +225,21 @@
             return h('div', { class: 'obsx-hbars' }, list.filter(([, , v]) => tot(v)).map(([cc, n, v]) => h('div', {}, [h('span', { text: n + (cc ? ` (${cc})` : '') }),
                 h('span', { class: 'obsx-stack', style: `width:${(100 * tot(v) / mx).toFixed(1)}%` }, sel.filter(g => v[g]).map(g => h('i', { style: `flex:${v[g]};background:${COLOR[g]}`, title: `${LABEL[g]} ${v[g]}` }))), h('b', { text: fmt(tot(v)) })]))) }
         const other = o => tot(o) ? h('p', { class: 'obsv-m', text: `Other places with fewer than ${P.city_min} tabs each: ${fmt(tot(o))} tabs.` }) : null
-        out.append(h('p', { class: 'obsv-m', text: `${fmt(P.tabs)} tabs with a place, from the browser's own lookup (the IP in its answer is never read or kept). As of ${P.generated} UTC.` }), legend(),
+        out.append(h('p', { class: 'obsv-m', text: `${fmt(P.tabs)} tabs with a place. Red dots: cities with ${P.city_min}+ tabs. As of ${P.generated} UTC.` }),
+            worldMap(P, sel), legend(),
             h('div', { class: 'obsv-two' }, [h('div', {}, [h('h3', { text: `Countries (${P.countries.length})` }), rows(P.countries)]),
                 h('div', {}, [h('h3', { text: `Cities with ${P.city_min} tabs or more` }), rows(P.cities), other(P.cities_other), h('h3', { text: 'Regions' }), rows(P.regions), other(P.regions_other)])]))
+    }
+    // PrompTugal (6 November): the links you send. A link tagged ?via=<tag> (or utm_campaign / utm_source) is counted per
+    // tag: one tab is one open; more tabs from more countries and cities is the link passed on; the referrers say where
+    // it was opened from (lnkd.in for LinkedIn, a mail or chat app, or none).
+    V.links = async out => {
+        let J; try { J = await readJson('latest/links.json') } catch { J = { links: [] } }
+        out.append(h('p', { class: 'obsv-m' }, ['Add ', code('?via=<tag>'), ' to a link you send (', code('?via=linkedin-launch'), '). One tab is one open; more tabs from more places: passed on.']),
+            table(['Tag', 'Opens (tabs)', 'Views', 'Reads', 'Time read', 'Countries', 'Cities', 'Came from', 'Pages', 'First', 'Last'], J.links.map(l => [h('b', { text: l.via }), fmt(l.tabs), fmt(l.views), fmt(l.reads), secs(l.visible_s),
+                l.countries.map(([c, n]) => `${c} ${n}`).join(', '), fmt(l.cities), l.refs.map(([r, n]) => `${r} ${n}`).join(', ') || 'direct', h('span', {}, l.pages.slice(0, 5).flatMap(([p, n], i) => [i ? ', ' : '', pageLink(p), ` ${n}`])),
+                (l.first || '').slice(5).replace('T', ' '), (l.last || '').slice(5).replace('T', ' ')]), [1, 2, 3, 6]))
+        if (!J.links.length) out.append(h('p', { class: 'obsv-m', text: 'None yet.' }))
     }
     V.pages = async (out, s) => {
         const P = await readJson('latest/pages.json')
@@ -334,7 +393,7 @@
         const refresh = h('select', { class: 'obsx-ref', title: 'auto-refresh', onchange: e => { try { localStorage.setItem('pt.obsx.refresh', e.target.value) } catch { } armRefresh() } }, [['0', '⟳ off'], ['60', '⟳ 60 s'], ['300', '⟳ 5 min']].map(([v, l]) => h('option', { value: v, text: l, selected: refreshSecs() === +v ? '' : null })))
         const stamp = h('span', { class: 'obsx-stamp' })
         readJson('latest/summary.json').then(S => { stamp.textContent = `as of ${S.generated.slice(11)} · ${rel(S.generated)}`; if (Date.now() - Date.parse(S.generated.replace('Z', ':00Z')) > 70 * 60000) stamp.classList.add('old') })
-        const views = h('span', { class: 'obsx-views' }, [['', 'Overview'], ['dash', 'Policies'], ['graph', 'Graph'], ['agents', 'Agents'], ['pages', 'Pages'], ['places', 'Places'], ['people', 'People']].map(([v, l]) => h('a', { href: href(v ? { view: v } : {}), class: (s.view || '') === v ? 'on' : '', text: l })))
+        const views = h('span', { class: 'obsx-views' }, [['', 'Overview'], ['dash', 'Policies'], ['graph', 'Graph'], ['agents', 'Agents'], ['pages', 'Pages'], ['places', 'Places'], ['links', 'Links'], ['people', 'People']].map(([v, l]) => h('a', { href: href(v ? { view: v } : {}), class: (s.view || '') === v ? 'on' : '', text: l })))
         const keys = Object.keys(s).filter(k => !['view', 'range', 'groups'].includes(k))
         const chipsRow = keys.length ? h('span', { class: 'obsx-chips' }, keys.map(k => h('a', { href: href(Object.fromEntries(Object.entries(s).filter(([x]) => x !== k))), title: 'remove this filter', text: `${k}: ${s[k]} ✕` }))) : null
         return h('div', { class: 'obsx-bar' }, [h('div', { class: 'row' }, [seg, dayPick, pills, q, dl, h('span', { class: 'grow' }), refresh, stamp, openControl, drainControl]), h('div', { class: 'row' }, [views, chipsRow])])
@@ -702,7 +761,7 @@ body[data-section="newsroom"] .frame{max-width:none}body[data-section="newsroom"
 .obsx-mix{display:flex;width:90px;height:8px;border-radius:3px;overflow:hidden;background:var(--surface-2,#f2f0e9)}.obsx-mix i{display:block;height:100%}
 .obsx-checks{display:inline-flex;gap:2px}.obsx-checks i{display:inline-block;width:10px;height:10px;border-radius:2px;border:1px solid #1f9d6b}.obsx-checks i.y{background:#1f9d6b}
 .obsx-flow{width:100%;height:auto}.obsx-flow text{fill:currentColor;font:11px ui-monospace,monospace}.obsx-flow .e{fill:none;stroke:#2f6fdb;stroke-opacity:.35}.obsx-flow .e:hover{stroke-opacity:.8}
-.obsx-hbars>div{display:grid;grid-template-columns:minmax(80px,40%) 1fr auto;gap:6px;align-items:center;font-size:12px;margin:3px 0}.obsx-hbars i{display:block;height:8px;background:#2f6fdb;border-radius:2px}.obsx-hbars span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.obsx-map{margin:8px 0}.obsx-map canvas{display:block;width:100%;border-radius:8px}.obsx-hbars>div{display:grid;grid-template-columns:minmax(80px,40%) 1fr auto;gap:6px;align-items:center;font-size:12px;margin:3px 0}.obsx-hbars i{display:block;height:8px;background:#2f6fdb;border-radius:2px}.obsx-hbars span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .obsx-stack{display:flex;height:16px;border-radius:4px;overflow:hidden}.obsx-stack i{display:block;height:100%}
 .obsx-lanes{display:flex;gap:6px;align-items:flex-end;height:70px;margin:4px 0}.obsx-lanes span{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;font-size:10px;position:relative}.obsx-lanes i{display:block;width:100%;background:#2f6fdb;border-radius:2px 2px 0 0;min-height:2px}.obsx-lanes .hot i{background:#d1343b}.obsx-lanes b{font-weight:600}.obsx-lanes small{opacity:.6}
 .obsx-badge{font-size:11px;padding:1px 7px;border-radius:9px;background:var(--surface-2,#f2f0e9)}
