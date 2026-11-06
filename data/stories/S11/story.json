@@ -5,7 +5,7 @@
   "title": "Italy and Portugal meet in Beato on how European tech scales",
   "beat": "europe",
   "topic": "topic:europe",
-  "status": "candidate",
+  "status": "idea",
   "rests_on": [
     "evidence:v-aicep-italy-portugal-tech-champions"
   ],
@@ -17,5 +17,21 @@
     "from": [
       "desks/curator/2026-11-05-0745.json"
     ]
-  }
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-05T07:45Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-05-0745.json"
+    }
+  ]
 }

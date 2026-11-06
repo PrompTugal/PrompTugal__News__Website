@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "the-name",
+  "type": "story",
+  "title": "How we found our name",
+  "beat": null,
+  "topic": null,
+  "status": "waits-on-dinis",
+  "rests_on": [],
+  "desk_files": [
+    "desks/journalist-promptugal/drafts/the-name-how-we-found-our-name.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/journalist-promptugal/drafts/the-name-how-we-found-our-name.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.dinis",
+  "needs": {
+    "who": "dinis",
+    "question": "Dinis: is this text right, and may it be published? Anything to add on who first suggested the name, or the names considered?"
+  },
+  "held": null,
+  "draft": "desks/journalist-promptugal/drafts/the-name-how-we-found-our-name.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "Dinis's word",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "desks/journalist-promptugal/drafts/the-name-how-we-found-our-name.md"
+    },
+    {
+      "column": "waits-on-dinis",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "desks/journalist-promptugal/drafts/the-name-how-we-found-our-name.md"
+    }
+  ]
+}

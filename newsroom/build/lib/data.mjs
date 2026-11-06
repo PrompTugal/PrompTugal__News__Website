@@ -35,6 +35,26 @@ export function readCompanies() {
     })
 }
 
+// the story pipeline's evidence (board/the-story-pipeline.md): the desks' markdown files that move a story between
+// columns, each with its front matter (a flat "key: value" block; quotes stripped), and the articles with their .sig
+export function frontMatter(text) {
+    const m = /^---\n([\s\S]*?)\n---/.exec(text.replace(/\r\n/g, '\n'))
+    const fm = {}
+    if (m) for (const line of m[1].split('\n')) { const k = /^([A-Za-z_][A-Za-z0-9_-]*):\s*(.*)$/.exec(line); if (k) fm[k[1]] = k[2].trim().replace(/^"(.*)"$/, '$1').replace(/^'(.*)'$/, '$1') }
+    return fm
+}
+export function readPipeline() {
+    const rel = p => path.relative(R(''), p).split(path.sep).join('/')
+    const md = (dir, re) => fs.existsSync(R(dir)) ? walk(R(dir), p => p.endsWith('.md')).map(rel).filter(r => re.test(r)).sort().map(r => ({ path: r, fm: frontMatter(fs.readFileSync(R(r), 'utf8')) })) : []
+    return {
+        ideas: md('desks', /^desks\/[^/]+\/ideas\/[^/]+\.md$/),
+        drafts: md('desks', /^desks\/[^/]+\/drafts\/[^/]+\.md$/),
+        checks: md('desks', /^desks\/[^/]+\/checks\/[^/]+\.md$/),
+        reviews: md('desks', /^desks\/[^/]+\/reviews\/[^/]+\.md$/),
+        articles: md('content/articles', /^content\/articles\/(?!index\.md$)[^/]+\.md$/).map(a => ({ ...a, signed: fs.existsSync(R(`articles/${path.basename(a.path)}.sig`)) })),
+    }
+}
+
 export function derivationInputs() {
     const isHand = x => !x.derived
     return {
@@ -46,6 +66,7 @@ export function derivationInputs() {
         handEvents: readFolder('event').filter(isHand),
         handOrgs: readFolder('organisation').filter(isHand),
         handPeople: readFolder('person').filter(isHand),
+        pipeline: readPipeline(),
         curation: { organisations: readJSON('data/curation/organisations.json'), events: readJSON('data/curation/events.json'), speakers: readJSON('data/curation/speakers.json') },
     }
 }

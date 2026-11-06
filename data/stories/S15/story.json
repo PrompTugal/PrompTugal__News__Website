@@ -5,7 +5,7 @@
   "title": "From Técnico's stand to the lineup: following robotics at Web Summit",
   "beat": "summit",
   "topic": "topic:the-summit",
-  "status": "candidate",
+  "status": "published",
   "rests_on": [
     "evidence:v-websummit-speakers",
     "evidence:v-tecnico-web-summit-2026"
@@ -16,7 +16,55 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-05-2010.json"
+      "desks/curator/2026-11-05-2010.json",
+      "desks/journalist-vicky/drafts/S15-following-robotics-at-web-summit.md",
+      "desks/reviewer-vicky/reviews/S15.md",
+      "content/articles/following-robotics-at-web-summit.md"
     ]
-  }
+  },
+  "assignee": "journalist-ai@web-summit.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S15-following-robotics-at-web-summit.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S15.md",
+      "verdict": "Ready",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-05"
+    }
+  ],
+  "article": {
+    "path": "content/articles/following-robotics-at-web-summit.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-05T20:10Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-05-2010.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-05",
+      "by": "journalist-ai@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S15-following-robotics-at-web-summit.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-05",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S15.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist-ai@web-summit.vicky",
+      "file": "content/articles/following-robotics-at-web-summit.md"
+    }
+  ]
 }

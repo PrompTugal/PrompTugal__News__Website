@@ -5,7 +5,7 @@
   "title": "Web Summit's ten Lisbon years: 2.5 billion euros, says EY",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "candidate",
+  "status": "idea",
   "rests_on": [
     "evidence:v-ey-web-summit-economic-impact"
   ],
@@ -17,5 +17,21 @@
     "from": [
       "desks/curator/2026-11-05-1945.json"
     ]
-  }
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-05T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-05-1945.json"
+    }
+  ]
 }

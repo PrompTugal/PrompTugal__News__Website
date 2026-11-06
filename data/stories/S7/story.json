@@ -5,7 +5,7 @@
   "title": "The Portugal banner: awards, funding and the Algarve's plan",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "candidate",
+  "status": "idea",
   "rests_on": [
     "evidence:r1255-18",
     "evidence:r1255-17",
@@ -21,5 +21,21 @@
     "from": [
       "desks/curator/2026-11-04-1945.json"
     ]
-  }
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-04-1945.json"
+    }
+  ]
 }

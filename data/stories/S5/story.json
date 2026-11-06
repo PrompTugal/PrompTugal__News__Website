@@ -5,7 +5,7 @@
   "title": "Web Summit 2026 in numbers: 70,000 people, 10,000 startups",
   "beat": "announcements",
   "topic": "topic:announcements",
-  "status": "candidate",
+  "status": "published",
   "rests_on": [
     "evidence:r1255-09",
     "evidence:r1255-07",
@@ -20,7 +20,55 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-04-1945.json",
-      "desks/curator/2026-11-04-1955.json"
+      "desks/curator/2026-11-04-1955.json",
+      "desks/journalist-vicky/drafts/S5-web-summit-in-numbers.md",
+      "desks/reviewer-vicky/reviews/S5.md",
+      "content/articles/web-summit-2026-in-numbers.md"
     ]
-  }
+  },
+  "assignee": "journalist@web-summit.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S5-web-summit-in-numbers.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S5.md",
+      "verdict": "Ready",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-05"
+    }
+  ],
+  "article": {
+    "path": "content/articles/web-summit-2026-in-numbers.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-04-1945.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-05",
+      "by": "journalist@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S5-web-summit-in-numbers.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-05",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S5.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist@web-summit.vicky",
+      "file": "content/articles/web-summit-2026-in-numbers.md"
+    }
+  ]
 }

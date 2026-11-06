@@ -5,7 +5,7 @@
   "title": "Web Summit Lisbon: your first day, from airport to arena",
   "beat": "summit",
   "topic": "topic:the-summit",
-  "status": "candidate",
+  "status": "published",
   "rests_on": [
     "evidence:r1255-01",
     "evidence:r1255-02",
@@ -24,7 +24,55 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-04-1945.json",
-      "desks/curator/2026-11-04-1955.json"
+      "desks/curator/2026-11-04-1955.json",
+      "desks/journalist-vicky/drafts/S1-your-first-day.md",
+      "desks/reviewer-vicky/reviews/S1.md",
+      "content/articles/your-first-day-at-web-summit.md"
     ]
-  }
+  },
+  "assignee": "journalist@web-summit.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S1-your-first-day.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S1.md",
+      "verdict": "Ready",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-05"
+    }
+  ],
+  "article": {
+    "path": "content/articles/your-first-day-at-web-summit.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-04-1945.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-05",
+      "by": "journalist@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S1-your-first-day.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-05",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S1.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist@web-summit.vicky",
+      "file": "content/articles/your-first-day-at-web-summit.md"
+    }
+  ]
 }

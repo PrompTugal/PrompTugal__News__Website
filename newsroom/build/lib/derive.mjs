@@ -4,7 +4,8 @@
 //   data/people/<slug>/person.json          every person a summit page lists, as listed (name, role, organisation)
 //   data/organisations/<slug>/organisation.json   every organisation named that is not one of our companies
 //   data/evidence/<id>/capture.json         the curator's captures (source, beat, names)
-//   data/stories/<id>/story.json            the curator's story candidates, latest revision
+//   data/stories/<id>/story.json            every story and its column on the board (the curator's candidates, the
+//                                           desks' drafts, checks, reviews and the articles: storyPipeline() below)
 //   data/matching.json                      the report: what matched, what did not, and the near misses
 // Pure: derive(readers) returns { files: { path: object } }. newsroom/tools/derive.mjs writes them; the gate re-derives
 // in memory and fails if a committed derived file differs. A derived file carries "derived"; a hand-written entity
@@ -47,7 +48,7 @@ const sessionSlug = url => { const m = String(url || '').match(/websummit\.com\/
 const titleBase = what => ident(String(what).replace(/\s*[:(].*$/, '').trim() || what, 48)
 const byKey = (a, b) => a < b ? -1 : a > b ? 1 : 0
 
-export function derive({ agenda, curator, companies, places, topics, handEvents, handOrgs, handPeople, curation }) {
+export function derive({ agenda, curator, companies, places, topics, handEvents, handOrgs, handPeople, curation, pipeline = { ideas: [], drafts: [], checks: [], reviews: [], articles: [] } }) {
     const files = {}
     const report = { speaker_organisations: { matched: [], unmatched: [], near_misses: [] }, places: { unmatched_where: [] }, tracks: { mapped: [], unmapped: [] }, company_sessions: { resolved: [], unresolved: [] }, people: { merged_listings: [] }, evidence_names: { matched: [], unmatched: [] }, hosted_by: [], handles_dropped: 0 }
 
@@ -218,13 +219,15 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
             const was = stories.get(s.id)
             const topic = topics.find(t => t.beat === s.beat)
             stories.set(s.id, {
-                id: s.id, type: 'story', title: s.title, beat: s.beat, topic: topic ? `topic:${topic.id}` : null, status: 'candidate',
+                id: s.id, type: 'story', title: s.title, beat: s.beat, topic: topic ? `topic:${topic.id}` : null, status: 'idea',
                 rests_on: s.rests_on.map(r => `evidence:${r}`),
                 desk_files: [...(was ? was.desk_files : []), f.path],
                 derived: { by: BY, from: [...(was ? was.derived.from : []), f.path] },
             })
         }
     }
+
+    storyPipeline(stories, pipeline, topics, curator)
 
     // ---- assemble the files (sorted, so the output is stable)
     const handOrgIds = new Set(handOrgs.map(o => o.id)), handPeopleIds = new Set(handPeople.map(p => p.id))
@@ -290,4 +293,93 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
         derived: { by: BY, from: ['desks/', 'data/companies/', 'data/places/', 'data/topics/', 'data/curation/'] },
     }
     return { files }
+}
+
+// ---- the story pipeline (board/the-story-pipeline.md): each story's column follows its files, never a hand edit.
+// Evidence, by story id (front matter `story:`, else the file name: drafts `<id>-<slug>.md`, checks and reviews `<id>.md`):
+//   idea         a curator's candidate (desks/curator/*.json) or desks/<desk>/ideas/<id>.md
+//   drafting     an idea whose file names an `assignee`
+//   draft        desks/<desk>/drafts/<id>-<slug>.md
+//   fact-check   desks/<desk>/checks/<id>.md
+//   review       desks/<desk>/reviews/<id>.md (a reviewer desk's, or synthetic@'s on tone) with a verdict other than Ready
+//   ready        a review from a reviewer desk with verdict Ready
+//   waits-on-dinis  `needs: dinis` on the idea or the draft (with its `question`)
+//   published    content/articles/<slug>.md with status published and its articles/<slug>.md.sig
+//   held         `held: <why>` on the idea or the draft
+// Precedence, strongest first: held, published, waits-on-dinis, ready, review, fact-check, draft, drafting, idea.
+// An article with no `story:` is a story of its own, id = its slug. history: one move per evidence file, dated by
+// the file's own date field (curator run, draft date, check date, review date, article date) and its agent.
+const COLUMNS = ['idea', 'drafting', 'draft', 'fact-check', 'review', 'waits-on-dinis', 'ready', 'published', 'held']
+const NEXT = { idea: 'someone takes it (assignee)', drafting: 'the draft, as a file in the desk', draft: 'the fact-check: every fact re-opened at its source', 'fact-check': 'a review', review: 'the writer answers the review', 'waits-on-dinis': "Dinis's word", ready: 'publish and sign', published: 'nothing: live and signed', held: 'whatever the hold names' }
+function storyPipeline(stories, P, topics, curator) {
+    const agentOf = v => v ? String(v).split(',')[0].trim() : null
+    const day = v => (String(v || '').match(/^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}Z)?/) || [null])[0]
+    const base = p => p.split('/').pop().replace(/\.md$/, '')
+    const idOf = (f, kind) => f.fm.story || (kind === 'draft' ? (base(f.path).match(/^([A-Za-z0-9]+)-/) || [])[1] : base(f.path))
+    const ev = new Map()   // id -> what the files say
+    const of = id => { if (!ev.has(id)) ev.set(id, { history: [], reviews: [] }); return ev.get(id) }
+    const ensure = (id, f) => {
+        if (!stories.has(id)) {
+            const topic = f.fm.beat ? topics.find(t => t.beat === f.fm.beat || t.name === f.fm.beat) : null
+            stories.set(id, { id, type: 'story', title: f.fm.title || id, beat: f.fm.beat || null, topic: topic ? `topic:${topic.id}` : null, status: 'idea', rests_on: [], desk_files: [f.path], derived: { by: BY, from: [] } })   // the file it was first seen in
+        }
+        const s = stories.get(id)
+        if (!s.derived.from.includes(f.path)) s.derived.from.push(f.path)
+        return s
+    }
+    // the curator's candidates: an idea, dated by the run that first proposed it
+    for (const f of curator) for (const c of f.data.story_candidates || []) {
+        const e = of(c.id)
+        if (!e.history.some(h => h.column === 'idea')) e.history.push({ column: 'idea', at: day(f.data.run), by: f.data.agent || null, file: f.path })
+    }
+    for (const f of P.ideas) {
+        const id = idOf(f, 'idea'); if (!id) continue
+        ensure(id, f); const e = of(id)
+        e.idea = f
+        e.history.push({ column: 'idea', at: day(f.fm.date), by: agentOf(f.fm.author), file: f.path })
+        if (f.fm.assignee) e.history.push({ column: 'drafting', at: day(f.fm.assigned || f.fm.date), by: agentOf(f.fm.assignee), file: f.path })
+    }
+    for (const f of P.drafts) {
+        const id = idOf(f, 'draft'); if (!id) continue
+        ensure(id, f); const e = of(id)
+        e.draft = f
+        e.history.push({ column: 'draft', at: day(f.fm.date), by: agentOf(f.fm.author), file: f.path })
+        if (f.fm.needs === 'dinis') e.history.push({ column: 'waits-on-dinis', at: day(f.fm.date), by: agentOf(f.fm.author), file: f.path })
+    }
+    for (const f of P.checks) {
+        const id = idOf(f, 'check'); if (!id || !stories.has(id)) continue
+        const e = of(id); e.check = f; stories.get(id).derived.from.push(f.path)
+        e.history.push({ column: 'fact-check', at: day(f.fm.checked || f.fm.date), by: agentOf(f.fm.checker || f.fm.author), file: f.path })
+    }
+    for (const f of P.reviews) {
+        const id = idOf(f, 'review'); if (!id || !stories.has(id)) continue
+        const e = of(id); stories.get(id).derived.from.push(f.path)
+        const desk = f.path.split('/')[1], ready = /^reviewer-/.test(desk) && /^ready\b/i.test(f.fm.verdict || '')
+        e.reviews.push({ file: f.path, verdict: f.fm.verdict || null, by: agentOf(f.fm.reviewer || f.fm.author), at: day(f.fm.reviewed || f.fm.date) })
+        e.history.push({ column: ready ? 'ready' : 'review', at: day(f.fm.reviewed || f.fm.date), by: agentOf(f.fm.reviewer || f.fm.author), file: f.path })
+        if (ready) e.ready = true
+    }
+    for (const f of P.articles) {
+        const id = f.fm.story || base(f.path)
+        ensure(id, f); const e = of(id)
+        e.article = f
+        if (f.fm.status === 'published' && f.signed) { e.published = true; e.history.push({ column: 'published', at: day(f.fm.date), by: agentOf(f.fm.author), file: f.path }) }
+    }
+    for (const [id, s] of stories) {
+        const e = of(id), held = (e.draft && e.draft.fm.held) || (e.idea && e.idea.fm.held)
+        const needs = (e.draft && e.draft.fm.needs === 'dinis') ? e.draft : (e.idea && e.idea.fm.needs === 'dinis') ? e.idea : null
+        const assignee = (e.idea && agentOf(e.idea.fm.assignee)) || (e.draft && agentOf(e.draft.fm.author)) || (e.article && agentOf(e.article.fm.author)) || null
+        s.status = held ? 'held' : e.published ? 'published' : needs ? 'waits-on-dinis' : e.ready ? 'ready' : e.reviews.length ? 'review' : e.check ? 'fact-check' : e.draft ? 'draft' : assignee ? 'drafting' : 'idea'
+        s.assignee = assignee
+        s.needs = needs ? { who: 'dinis', question: needs.fm.question || null } : null
+        s.held = held || null
+        s.draft = e.draft ? e.draft.path : null
+        s.check = e.check ? e.check.path : null
+        s.reviews = e.reviews.sort((a, b) => byKey(a.file, b.file))
+        s.article = e.article ? { path: e.article.path, status: e.article.fm.status || null, signed: !!e.article.signed } : null
+        s.next = NEXT[s.status]
+        if (held) e.history.push({ column: 'held', at: day((e.draft || e.idea).fm.date), by: null, file: (e.draft && e.draft.fm.held ? e.draft : e.idea).path })
+        s.history = e.history.sort((a, b) => byKey((a.at || '').slice(0, 10), (b.at || '').slice(0, 10)) || COLUMNS.indexOf(a.column) - COLUMNS.indexOf(b.column) || byKey(a.at || '', b.at || ''))   // by day, then by column
+        s.derived.from = [...new Set(s.derived.from)]
+    }
 }

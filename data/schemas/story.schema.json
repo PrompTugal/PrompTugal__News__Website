@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://promptugal.news/data/schemas/story.schema.json",
-  "title": "A story candidate (data/stories/<id>/story.json)",
-  "description": "From the curator's maps; its angle and notes stay in the desk's file.",
+  "title": "A story on the board (data/stories/<id>/story.json)",
+  "description": "Derived by newsroom/tools/derive.mjs (storyPipeline in newsroom/build/lib/derive.mjs): every story, from the curator's candidates, the desks' ideas, drafts, checks and reviews, and the articles, with its column on the board (board/the-story-pipeline.md). The column follows the files; nobody edits it. The angle and notes stay in the desk's file.",
   "type": "object",
   "required": [
     "id",
@@ -12,7 +12,16 @@
     "topic",
     "status",
     "rests_on",
-    "desk_files"
+    "desk_files",
+    "assignee",
+    "needs",
+    "held",
+    "draft",
+    "check",
+    "reviews",
+    "article",
+    "next",
+    "history"
   ],
   "properties": {
     "$schema": {
@@ -29,7 +38,10 @@
       "minLength": 1
     },
     "beat": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "minLength": 1
     },
     "topic": {
@@ -44,11 +56,17 @@
     },
     "status": {
       "enum": [
-        "candidate",
-        "assigned",
+        "idea",
+        "drafting",
+        "draft",
+        "fact-check",
+        "review",
+        "waits-on-dinis",
+        "ready",
         "published",
-        "dropped"
-      ]
+        "held"
+      ],
+      "description": "The column: held, published, waits-on-dinis, ready, review, fact-check, draft, drafting, idea, the first that its files support."
     },
     "rests_on": {
       "type": "array",
@@ -66,6 +84,188 @@
     },
     "derived": {
       "$ref": "common.schema.json#/$defs/derived"
+    },
+    "assignee": {
+      "anyOf": [
+        {
+          "$ref": "common.schema.json#/$defs/agent"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "needs": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "who",
+            "question"
+          ],
+          "properties": {
+            "who": {
+              "const": "dinis"
+            },
+            "question": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "held": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "draft": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^(desks|content)/[A-Za-z0-9_./-]+\\.md$"
+    },
+    "check": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^(desks|content)/[A-Za-z0-9_./-]+\\.md$"
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "file",
+          "verdict",
+          "by",
+          "at"
+        ],
+        "properties": {
+          "file": {
+            "type": "string",
+            "pattern": "^(desks|content)/[A-Za-z0-9_./-]+\\.md$"
+          },
+          "verdict": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "by": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/agent"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}Z)?$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "article": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "path",
+            "status",
+            "signed"
+          ],
+          "properties": {
+            "path": {
+              "type": "string",
+              "pattern": "^content/articles/[a-z0-9-]+\\.md$"
+            },
+            "status": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "signed": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "next": {
+      "type": "string",
+      "minLength": 1
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "column",
+          "at",
+          "by",
+          "file"
+        ],
+        "properties": {
+          "column": {
+            "enum": [
+              "idea",
+              "drafting",
+              "draft",
+              "fact-check",
+              "review",
+              "waits-on-dinis",
+              "ready",
+              "published",
+              "held"
+            ]
+          },
+          "at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}Z)?$"
+          },
+          "by": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/agent"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "file": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false

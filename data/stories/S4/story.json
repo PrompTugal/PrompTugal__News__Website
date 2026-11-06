@@ -5,7 +5,7 @@
   "title": "From the PITCH stage to new markets: Portuguese startups raising",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "candidate",
+  "status": "idea",
   "rests_on": [
     "evidence:r1255-15",
     "evidence:r1255-19",
@@ -19,5 +19,21 @@
     "from": [
       "desks/curator/2026-11-04-1945.json"
     ]
-  }
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-04-1945.json"
+    }
+  ]
 }

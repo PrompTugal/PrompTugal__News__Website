@@ -5,7 +5,7 @@
   "title": "Gender in Tech report: 84% see women in leadership",
   "beat": "announcements",
   "topic": "topic:announcements",
-  "status": "candidate",
+  "status": "published",
   "rests_on": [
     "evidence:r1546-03"
   ],
@@ -15,7 +15,55 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-04-1945.json"
+      "desks/curator/2026-11-04-1945.json",
+      "desks/journalist-vicky/drafts/S6-gender-in-tech-report.md",
+      "desks/reviewer-vicky/reviews/S6.md",
+      "content/articles/gender-in-tech-report-2026.md"
     ]
-  }
+  },
+  "assignee": "journalist@web-summit.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S6-gender-in-tech-report.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S6.md",
+      "verdict": "Ready",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-05"
+    }
+  ],
+  "article": {
+    "path": "content/articles/gender-in-tech-report-2026.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-04-1945.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-05",
+      "by": "journalist@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S6-gender-in-tech-report.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-05",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S6.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist@web-summit.vicky",
+      "file": "content/articles/gender-in-tech-report-2026.md"
+    }
+  ]
 }

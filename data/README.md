@@ -50,8 +50,11 @@ data/
   organisations/<slug>/    the 188 organisations named by a source that are not our companies               DERIVED
     organisation.json      (+ web-summit, the organiser)                                                      HAND
   evidence/<id>/capture.json  the curator's 26 captures: source, beat, the names it carries                 DERIVED
-  stories/<id>/story.json  the curator's 9 story candidates (latest revision): title, beat, the captures it rests
-                           on; the angle and notes stay in the desk's file                                  DERIVED
+  stories/<id>/story.json  every story and its column on the board (board/the-story-pipeline.md): idea, drafting,
+                           draft, fact-check, review, waits-on-dinis, ready, published, held, read from its files
+                           (the curator's candidates, desks/<desk>/ideas|drafts|checks|reviews/, content/articles/
+                           and their .sig), with assignee, needs, held, the draft, check, reviews, article, the next
+                           step and the history of moves (dated by each file); the angle stays in the desk's file DERIVED
   matching.json            the derivation's report: names matched to a company and how, names that are not,
                            near misses, unmatched places, tracks with no topic, company sessions not found  DERIVED
 ```

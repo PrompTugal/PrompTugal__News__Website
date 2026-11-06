@@ -5,7 +5,7 @@
   "title": "Road 2 Web Summit: Portugal's startups head for Lisbon",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "candidate",
+  "status": "published",
   "rests_on": [
     "evidence:r1255-13",
     "evidence:r1255-14"
@@ -16,7 +16,34 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-04-1945.json"
+      "desks/curator/2026-11-04-1945.json",
+      "content/articles/road-2-web-summit-2026.md"
     ]
-  }
+  },
+  "assignee": "journalist@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/road-2-web-summit-2026.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-04T19:45Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-04-1945.json"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "content/articles/road-2-web-summit-2026.md"
+    }
+  ]
 }

@@ -5,7 +5,7 @@
   "title": "Tuesday 10 November: Europe on Centre Stage, universities pitching, first-timers meeting",
   "beat": "summit",
   "topic": "topic:the-summit",
-  "status": "candidate",
+  "status": "published",
   "rests_on": [
     "evidence:r1546-01",
     "evidence:r1255-08",
@@ -18,7 +18,55 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-05-2010.json"
+      "desks/curator/2026-11-05-2010.json",
+      "desks/journalist-vicky/drafts/S18-tuesday-10-november-three-ways-in.md",
+      "desks/reviewer-vicky/reviews/S18.md",
+      "content/articles/tuesday-10-november-three-ways-in.md"
     ]
-  }
+  },
+  "assignee": "journalist-connections@web-summit.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S18-tuesday-10-november-three-ways-in.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S18.md",
+      "verdict": "Ready",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-05"
+    }
+  ],
+  "article": {
+    "path": "content/articles/tuesday-10-november-three-ways-in.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-05T20:10Z",
+      "by": "curator@web-summit.vicky",
+      "file": "desks/curator/2026-11-05-2010.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-05",
+      "by": "journalist-connections@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S18-tuesday-10-november-three-ways-in.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-05",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S18.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist-connections@web-summit.vicky",
+      "file": "content/articles/tuesday-10-november-three-ways-in.md"
+    }
+  ]
 }
