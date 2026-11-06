@@ -544,7 +544,8 @@
         "fingerprint": "sha256:b8f5887596dbfb11",
         "signing_fingerprint": "sha256:f93bc841c931c599"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T22:55Z by researcher-b-promptugal (account B session)"
     },
     {
       "id": "dev.portugal-promptugal",
@@ -873,6 +874,23 @@
         "fingerprint": "sha256:e94bfeeabc6d5a71",
         "record": "sha256:8f0e91dadb288261",
         "signing_fingerprint": "sha256:8f0e91dadb288261"
+      },
+      "status": "active"
+    },
+    {
+      "id": "researcher-b-promptugal",
+      "agent": "researcher@PrompTugal.dinis",
+      "label": "researcher@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The researcher of PrompTugal.news (Sonnet), second session on account B: public research on a mandate per task. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; copy sha256 fcb28a1c...1002ab). Linked locally to the operator key sha256:db7f79fdd87e030a; not submitted.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2PNEyUu57ZpEC6wVAby1\nP/elKhW02UFqDXjBW+epBsJVIlpcFQRboTB9uuNYwpfMgz4LT//2L4brplrYd9Y4\n5Q+LFvjDLEY8kdG+oSNLIjMgSnrHBM5TB4xH7wahj5oVWyHikJN8Jz848I2zWYnj\nC7cNjUmnYKYacOeYKurIw+msdmNY8pdadD5QsBogHwcT6LUyi8v1ctY23R51Yenn\nfFIwpPOsGUhQSrXJWqBNFlOnWT4y5Vi3miPUyUQtaqpOfTM/V++eatQ6ngkyHoAL\ngGtQDmEK67/o3PiffT2T3pDMeyPSqwTC1JWoPOkQcAVx+g2N4Jvd6wWA9Mno3f/R\n9kf0aXSktpqFhXt+lBErFieQfVzNjwE5TegNzUPI7zsjkcxBqLuUfNfX3UzIP9nO\n1jHBmgFLHGU2WUWRTDx6VVdSgptSRQhtQJYTEWezTbny3g7hkVZ1qHD8RqPUvw8x\nE5PEe36u+s+0mNYxbaI7Z6zkAeNkrmxKMBnkyFU/milmrjyn/XrDQidV87lgJi8x\nde9K+sSCefluRYUl2apyrczuISwrIOyTY65w3cHgZcSKJ94LRv/wHjo0i/blkkAb\nBOPxby+qzO/QxOR9Q0aELWJ/61uKPxMhVIGlS+fk5wKwU1U8dUoZdNT7b09SVGfZ\nsfiY+6wdPQE8lYB9DNtWzCUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEktPtj7EqiklsphRdivGu61Tls+sB\nsnTNf8hQzgCCsQa6LMwHxxjzexT8//S64/LxMeH8dm+4y6GiJ3WQvjU84A==\n-----END PUBLIC KEY-----\n",
+        "label": "researcher@PrompTugal.dinis",
+        "fingerprint": "sha256:8b63c236511fdc0a",
+        "signing_fingerprint": "sha256:27e31c309115516e"
       },
       "status": "active"
     }
