@@ -21,7 +21,7 @@
 //   --dry      print the record, send nothing.
 //
 // The record is signed with your session key (~/.sg-send/keys, the one whose label is your agent name, or --key <fp>),
-// so the drain names you by the key published on the team site's data/keys.json; then sealed to the lane's drain key
+// so the drain names you by the key published in this repository's board/keys.json; then sealed to the lane's drain key
 // (sgit hybrid envelope v2) and written to the agents' lane named in assets/obs/obs.json (read from this clone, or
 // from https://promptugal.news/assets/obs/obs.json). The lane token only writes; the write is blind.
 // Nothing secret goes in a record: a URL's query string and fragment are dropped before it is logged.

@@ -16,7 +16,7 @@ T  transform each new hour once, then its day, then latest/ (newsroom/tools/obs/
 S  save public: into the PUBLIC vault (read key published, data/newsroom/observability/vaults.json): latest/*.json,
    <day>/day.json, <day>/<hh>/hour.json and data/public.json. No anonymous row, tab id, time zone or language there.
 Prints counts only, never a key or an event. Every record is an untrusted claim: the lanes' tokens are public.
-Python 3 with sgit-ai (pip install sgit-ai) for the crypto and the vaults; the keys are read from the team's site.
+Python 3 with sgit-ai (pip install sgit-ai) for the crypto and the vaults; the agents' keys are board/keys.json.
 """
 import argparse, base64, collections, json, os, subprocess, sys, time, urllib.error, urllib.request
 
@@ -96,7 +96,7 @@ def verify_page(ev, people):
     return ev
 
 def roster(keys):
-    """Every PrompTugal agent with an active key on the team's keys page: the agents expected to log."""
+    """Every PrompTugal agent with an active key on board/keys.json: the agents expected to log."""
     return sorted({agent_of(k) for k in keys if k.get('status') in (None, '', 'active') and not k.get('replaced_by') and '@promptugal.' in agent_of(k).lower()})
 
 def public(allrows, now):
@@ -145,7 +145,10 @@ def main():
     if o.dry: return
     sgit(data, 'pull')
     key = pki.import_private_key_pem(open(os.path.join(data, 'identity/private/private_key.pem')).read())
-    keys, people = team_json('data/keys.json', o.team)['keys'], team_json('data/person-keys.json', o.team)['keys']
+    keys = json.load(open(os.path.join(ROOT, 'board', 'keys.json')))['keys']          # the PrompTugal agents' keys (CLAUDE.md)
+    subprocess.run(['git', 'pull', '-q', '--rebase', 'origin', 'dev'], cwd=ROOT, capture_output=True)   # a key added since the last drain
+    keys = json.load(open(os.path.join(ROOT, 'board', 'keys.json')))['keys']
+    people = team_json('data/person-keys.json', o.team)['keys']
     def extract(content):
         try:
             ev = json.loads(pki.hybrid_decrypt(key, base64.b64decode(content).decode())['plaintext'])

@@ -34,7 +34,7 @@ export function pages(ctx) {
     const vaultRows = vs.map(v => `| ${v.site} | ${v.name} | \`${v.vault_id}\` | \`${v.read_key}\` | [open](https://dev.vault.sgraph.ai/#${v.read_key}:${v.vault_id}) |`).join('\n')
     const md = `@@OBS:0@@
 
-**Public, for now, at Dinis Cruz's word** (6 November 2026: *"for now all data is also public"*). Everything on this page is read straight out of two encrypted vaults, in your browser, from their published read keys: anyone can read what is here, and nothing here names a reader. Anonymous readers are only ever counts: no IP address, no cookie, no user-agent string and no fingerprint is collected, the lookup's IP is never read, and a city is shown only once five or more tabs came from it. The team is named only when a browser signs with a team member's site key (on web-summit.sgit.ai; PrompTugal.news has no keyring). Every record is an untrusted claim: the lanes' tokens are public, so rows can be forged or flooded; a signed agent run names a key on the team site's keys page.
+**Public, for now, at Dinis Cruz's word** (6 November 2026: *"for now all data is also public"*). Everything on this page is read straight out of two encrypted vaults, in your browser, from their published read keys: anyone can read what is here, and nothing here names a reader. Anonymous readers are only ever counts: no IP address, no cookie, no user-agent string and no fingerprint is collected, the lookup's IP is never read, and a city is shown only once five or more tabs came from it. The team is named only when a browser signs with a team member's site key (on web-summit.sgit.ai; PrompTugal.news has no keyring). Every record is an untrusted claim: the lanes' tokens are public, so rows can be forged or flooded; a signed agent run names a key on board/keys.json (the team site's agents, on its own keys page).
 
 - **web-summit.sgit.ai**, the team's site, as it is today: observability@web-summit.dinis's public vault, drained hourly by that agent ([its own section](https://web-summit.sgit.ai/observability/index.html)).
 - **promptugal.news**, this site, new on 6 November: every page sends a view and a read (time visible, deepest scroll) with the country, region and city of the browser's own lookup, sealed in the browser to the drain key; observability@PrompTugal.dinis drains them hourly into a private vault and publishes the counts to a public one. The PrompTugal agents log their runs to this site's agents lane.
@@ -67,7 +67,7 @@ At the end of every run, every agent of the PrompTugal team logs it (the team si
 node newsroom/tools/agent-log.mjs --agent <role>@PrompTugal.dinis --read repo:CLAUDE.md,repo:REALITY.md,<every URL read> --commits auto --did release:<vX.Y.Z> --trigger person --notes "one line"
 \`\`\`
 
-It signs the record with your session key, so the drain names you once its public half is on the team site's keys page. In a cloud session it uses the proxy by itself.
+It signs the record with your session key, so the drain names you once its public half is in this repository's board/keys.json (CLAUDE.md, Identity). In a cloud session it uses the proxy by itself.
 `
     const twin = md.replace('@@OBS:0@@', tabsMd).replace('@@OBS:1@@', 'The report itself is drawn in the browser from the vaults below.')
     return [{
