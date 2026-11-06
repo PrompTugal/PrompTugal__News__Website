@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.151",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: 1Password's past-edition source corrected (synthetic@'s finding); Airia's two flows, sourced",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "60452f0be"
+  },
+  {
     "version": "v0.1.150",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: wake 06:08: four dev workers' branches reviewed and brought onto dev; dev.portugal sent back",
