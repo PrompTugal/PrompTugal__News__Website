@@ -28,6 +28,8 @@ function personPage(ctx, p) {
 // the same people in three views, switched by the link a reader follows (CSS :target): by organisation (the default,
 // so the page is not an A to Z), by the day of their first session, and A to Z (dev.pages@, the-people-page)
 const line = (ctx, rel, p, cell) => `- ${refLink(ctx, rel, `person:${p.id}`)}${p.role ? `, ${cell(p.role)}` : ''}${p.organisation ? `, ${p.org ? refLink(ctx, rel, p.org, p.organisation) : cell(p.organisation)}` : ''}`
+const FILTER = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).filters.people
+export const assets = { js: ['assets/filter/filter.js'] }
 const W = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).people
 function views(ctx, rel, ps, cell) {
     const ln = p => line(ctx, rel, p, cell), rows = a => `{.rows .links-cols}\n${a.map(ln).join('\n')}`
@@ -46,7 +48,7 @@ function views(ctx, rel, ps, cell) {
     const letters = [...new Set(ps.map(p => p.name[0].toUpperCase()))]
     const az = letters.map(L => `### ${L} {#${L.toLowerCase().replace(/[^a-z]/g, 'x')}}\n\n${rows(ps.filter(p => p.name[0].toUpperCase() === L))}`).join('\n\n')
     const view = (k, id, head, body) => `::: view view-${k}\n#### ${head} {#v-${id}}\n\n${body}\n:::`
-    return `{.view-switch}\n[${W.org}](#v-org) · [${W.day}](#v-day) · [${W.session}](#v-session) · [${W.az}](#v-az)\n\n` +
+    return `::: pt-filter\n${FILTER}\n:::\n\n{.view-switch}\n[${W.org}](#v-org) · [${W.day}](#v-day) · [${W.session}](#v-session) · [${W.az}](#v-az)\n\n` +
         [view('org', 'org', W.org, byOrg), view('day', 'day', W.day_head, byDay), view('session', 'session', W.session_head, bySession), view('az', 'az', W.az, az)].join('\n\n')
 }
 

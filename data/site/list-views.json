@@ -42,5 +42,14 @@
     "wire": "The wire",
     "byday": "By day",
     "bytopic": "By topic"
+  },
+  "filters": {
+    "companies": "Filter the companies by name, country or what they do",
+    "people": "Filter the people by name, role or organisation"
+  },
+  "companies": {
+    "field": "By field",
+    "country": "By country",
+    "az": "A to Z"
   }
 }
