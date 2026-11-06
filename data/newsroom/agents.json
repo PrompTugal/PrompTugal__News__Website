@@ -674,6 +674,28 @@
       "issues": [
         "WS-177"
       ]
+    },
+    {
+      "id": "correspondent-promptugal",
+      "name": "correspondent@PrompTugal.dinis",
+      "label": "PrompTugal's front page correspondent",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T04:15:00Z",
+      "started_basis": "Dinis's word of 6 November 2026 (about 04:15 UTC): a front page correspondent that also runs the beat correspondents as sub-agents (CLAUDE.md, The PrompTugal team; commit a7f926f); its first commits here are of 6 November.",
+      "role": "What leads the front page, what is on it and in what order, through the summit to the last minute; runs the beat correspondents (Brazil first, then Web Summit, Portugal, Europe, AI) as sub-agents inside its own run; their ideas and evidence go to the journalist's pipeline (desks/correspondent/).",
+      "lands": [
+        "board/team/correspondent/",
+        "desks/correspondent/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is correspondent-promptugal in board/keys.json (record sha256:fa11781ad626dce5); not listed under keys here, as for the other PrompTugal agents. Added by correspondent@PrompTugal.dinis itself, as its first-run prompt asked.",
+      "issues": [
+        "WS-177"
+      ]
     }
   ]
 }

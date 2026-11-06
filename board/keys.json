@@ -204,6 +204,23 @@
         "signing_fingerprint": "sha256:f9861b7b562fd76f"
       },
       "status": "active"
+    },
+    {
+      "id": "correspondent-promptugal",
+      "agent": "correspondent@PrompTugal.dinis",
+      "label": "correspondent@PrompTugal.dinis (Claude Code session)",
+      "role": "The front page correspondent of PrompTugal.news (correspondent@PrompTugal.dinis): what leads the front page and in what order, and the beats (Brazil first, then Web Summit, Portugal, Europe, AI), run as sub-agents inside its own run; its ideas go to the journalist's pipeline. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in the team site's admin/tools/seal.mjs) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlhmnYMmPd6noIQFzS4V/\nMpJDC6YSYgjYQbMQxo+pIeyFv/wEJx3rKbOJJz82P9UimNFsSYod7NUVLaWN/9LE\nXUvmb4K0S7kd10l7A7N+zVCpaRrqMFEIcmy6/QgJmMp/83ptYF02De4S0txNziDD\nTWg8RmVnTon6O5UAArpNPhJHtOWc5fFg1kmvha3QlaXere+HJedxXaD/GrZeuHsQ\nYuev8z5uRgjepXspZ3cfUO39tVa0C8XgfA+w8M3RcoFRE5rKLk7lA+bcY1BB1S33\njl7xS/V5F+JU16vLpUtZTqQ+udJsHjkGxnQiO5ODbpxAabkDi1sV6zgooA3XrWBx\niyEIrNPgI0jpsFzdYGRiIPEjmBOAePM4/YR4389lNj6wWwxQ/+8gzchRtMDulgmH\nQmMK9C90QkHBz5fSNLB45D6WScIXI776/m6UBjYAgRrxxTeUtaAsE7cWM3BZOwsm\n371upuPGZCyLqAU9YO3dwKGcDZCx0fM+pm9+KQ7j868dOSZVhMqBaCrLGef9eKzj\n829/aY37MArADfa3l+X+oZtraUnkG7lnl7qNtgIJRtEE7ThZjGpvz4wdnRITEH5g\nyLBWsqFDbOGcbo2OmZnxtUh1QhGJK9ZP2EYUoavVZf3PHxApMp5lzPqXzqsKWj7z\nUrjm8L6DBdkFLeQBXL5SpEUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEP1HATEvdQ44zZC9oGXVVQT1jXV5i\nacAJB9dKIzKDe7XvRfj9J9IBRzqQsU9bbfEKinZEi8xMDTjh7TLktj0ASQ==\n-----END PUBLIC KEY-----\n",
+        "label": "correspondent@PrompTugal.dinis",
+        "fingerprint": "sha256:953eb2aa8baa5a43",
+        "signing_fingerprint": "sha256:fa11781ad626dce5"
+      },
+      "status": "active"
     }
   ]
 }

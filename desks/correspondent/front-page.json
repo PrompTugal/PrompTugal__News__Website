@@ -1,0 +1,51 @@
+{
+  "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
+  "by": "correspondent@PrompTugal.dinis",
+  "updated": "2026-11-06T05:10Z",
+  "edition": "the Web Summit edition, 9 to 12 November 2026",
+  "lead": {
+    "article": "from-pitch-to-new-markets",
+    "why": "The one piece of hard news on the site (three funding rounds in a fortnight, 1.1 to 1.6 million euros each), squarely on the mandate (AI in Portugal), and written and signed by PrompTugal's own journalist. It says what this publication is for better than the summit's own numbers do."
+  },
+  "top": [
+    { "article": "brazil-startup-mission", "why": "The formula story (board/guidance, the stand-up, section 5): a delegation whose size depends on who counts (100, about 200 or about 300). The Brazilian beat's follow-ups (desks/correspondent/ideas/BR*.md) will hang off it." },
+    { "article": "web-summit-2026-in-numbers", "why": "The scale of the week in Web Summit's own figures: the context a cold reader needs first." },
+    { "article": "europe-in-pavilion-4", "why": "From Portugal for Europe: the Commission's programme and the Dutch delegation, with dates a reader can act on." }
+  ],
+  "service": {
+    "label": "If you are going",
+    "articles": ["your-first-day-at-web-summit", "tuesday-10-november-three-ways-in"],
+    "why": "Practical pieces that keep their value until Tuesday morning; a box of their own so they do not push news down."
+  },
+  "beats": [
+    { "beat": "Portugal", "articles": ["road-2-web-summit-2026", "lisbon-universities-at-web-summit"] },
+    { "beat": "Brazil", "articles": ["brazil-startup-mission"], "note": "follow-ups from the Brazilian beat in the pipeline" },
+    { "beat": "Europe", "articles": ["europe-in-pavilion-4"] },
+    { "beat": "AI", "articles": ["following-robotics-at-web-summit"] },
+    { "beat": "Web Summit", "articles": ["web-summit-2026-in-numbers", "gender-in-tech-report-2026"] }
+  ],
+  "from_the_newsroom": {
+    "articles": ["newsroom-status-four-days-out"],
+    "why": "About us, not news, and its title ('four days out') is out of date from 6 November: off Latest, into a small 'From the newsroom' line."
+  },
+  "order_of_bands": [
+    { "band": "lead and top", "why": "news first" },
+    { "band": "service (If you are going)", "why": "small, beside or under the top" },
+    { "band": "the map: companies by field and a company search", "why": "the mandate and the outreach landing (designer's home review, item 1)" },
+    { "band": "by beat (in place of one flat Latest list)", "why": "a reader scans by interest; Latest stays as the archive link" },
+    { "band": "now and next", "why": "the agenda matters most from 9 November; until then it is registration rows and side events, so it sits lower now and moves to the top on Monday 9 November" },
+    { "band": "Portugal, as headlines (not the research log)", "why": "designer's home review, item 4" },
+    { "band": "around the summit", "why": "events others run" },
+    { "band": "our question; who we are", "why": "the lens and the disclosure, at the foot" }
+  ],
+  "summit_days": "From Monday 9 November the agenda's now-and-next moves up under the lead, and the lead changes as the day's news does. I rewrite this file at each run.",
+  "missing": [
+    "An article from the Brazilian beat that goes beyond the mission's announcement: the companies, the states, the investors (ideas filed in desks/correspondent/ideas/).",
+    "A service article Dinis asked for: 'if you are a startup and want to know which startups to meet, come to this website' (stand-up, 00:22:08).",
+    "Stories about named companies at the summit (120 profiles, no article leads with one): the outreach lands on company pages, the front page should show that the companies are the story.",
+    "One story read through the lens (reach, mandate, gap) on a named AI agent product, with RiskMandate as context, not as headline (stand-up, 00:19:05).",
+    "How we found our name (waits on Dinis in the pipeline).",
+    "Any picture: no article has an image yet (REALITY.md, search and link previews)."
+  ],
+  "not_mine": "The code that reads this file is dev@'s; the look of each band is designer@'s; the words of the bands in content/index.md are the conductor's and Dinis's (home review, item 1)."
+}
