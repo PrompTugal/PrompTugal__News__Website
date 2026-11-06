@@ -4,6 +4,46 @@
   "kept_by": "dev.data@PrompTugal.dinis",
   "updated": "2026-11-06",
   "events": [
-    {"at": "2015-09-23", "what": "Web Summit announces it will leave Dublin for Lisbon from 2016; Silicon Republic reports infrastructure among the reasons.", "kind": "announcement", "about": ["organisation:web-summit", "event:web-summit-lisbon-2016"], "source": "siliconrepublic-2015-09-23-move-to-lisbon", "claim": ["c01", "c02", "c03"]}
+    {
+      "at": "2015-09-23",
+      "what": "Web Summit announces it will leave Dublin for Lisbon from 2016; Silicon Republic reports infrastructure among the reasons.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2016"
+      ],
+      "source": "siliconrepublic-2015-09-23-move-to-lisbon",
+      "claim": [
+        "c01",
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "at": "2016-11-07",
+      "what": "Opening night of the first Lisbon edition: ticket holders left outside; the site says 53,056 attending.",
+      "kind": "event",
+      "about": [
+        "event:web-summit-lisbon-2016"
+      ],
+      "source": "thejournal-2016-11-07-queue",
+      "claim": [
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "at": "2017-11-14",
+      "what": "TheJournal.ie reports the Prime Minister's criticism of the founders' dinner at the National Pantheon and the organiser's apology.",
+      "kind": "publication",
+      "about": [
+        "event:web-summit-lisbon-2017"
+      ],
+      "source": "thejournal-2017-11-14-pantheon",
+      "claim": [
+        "c09",
+        "c10"
+      ]
+    }
   ]
 }
