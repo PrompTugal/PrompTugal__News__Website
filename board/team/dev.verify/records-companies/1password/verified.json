@@ -1,0 +1,191 @@
+{
+  "$schema": "none",
+  "article": "1password",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/3ba8a8ea-2e10-48d9-84e3-fada56f21fd4/1password",
+      "status": 200,
+      "read": true,
+      "chars": 1209
+    },
+    {
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "status": 200,
+      "read": true,
+      "chars": 3082
+    },
+    {
+      "url": "https://websummit.com/tracks/developer-summit/",
+      "status": 200,
+      "read": true,
+      "chars": 5218
+    },
+    {
+      "url": "https://support.1password.com/1password-for-agents/",
+      "status": 200,
+      "read": true,
+      "chars": 6275
+    },
+    {
+      "url": "https://1password.com/blog/closing-the-credential-risk-gap-for-browser-use-ai-agents",
+      "status": 200,
+      "read": true,
+      "chars": 8860
+    }
+  ],
+  "spent_usd": 0.0737,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named 1Password.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "© 2026 1Password. All rights reserved.",
+          "note": "The 1Password support page's copyright line names the company 1Password, and the S5 blog's footer repeats the same line."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Meet the world-leading companies joining us at Web Summit 2026",
+          "note": "The source lists 1Password under its roster of world-leading companies attending the summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "© 2026 1Password.",
+          "note": "The source footer identifies the company as 1Password."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.1password.com.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "1password.com",
+          "note": "Sources show the 1Password domain as 1password.com (without www), not the exact https://www.1password.com address in the claim, so only the domain is confirmed."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources state that the company's website is https://www.1password.com."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "1password.com",
+          "note": "S5 is an official 1Password page on 1password.com, supporting the domain but not the exact www URL claimed."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Secures every identity, from people to AI agents: passwords, passkeys and secrets for over 150,000 businesses, and a security layer for how agents authenticate and connect to the internet.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources contains the claimed self-description, including the \"150,000 businesses\" figure and the \"every identity, from people to AI agents\" wording; they only describe 1Password's agent-related features and events."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources contain this description or mention securing passwords, passkeys, and secrets for over 150,000 businesses."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources contains the claimed self-description, including the 'over 150,000 businesses' figure or the full 'every identity, from people to AI agents' phrasing."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Canada.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "1Password Canada Security",
+          "note": "The Web Summit listing shows 1Password with Canada as its country label, and S4 and S5 also give a Toronto, Canada address."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "1Password Canada Security",
+          "note": "The Web Summit partner page lists the company 1Password alongside Canada and Security."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "1Password Canada Security",
+          "note": "S1 lists 1Password with Canada directly beneath its name, indicating the company is listed under the country Canada."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (partner).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Meet the world-leading companies joining us at Web Summit 2026",
+          "note": "The S2 page of 2026 global partners lists 1Password (Security) among the companies joining Web Summit 2026, and S1 shows a 1Password page labelled PARTNER."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S2",
+          "quote": "Meet our global partners | Web Summit | November 9-12, 2026",
+          "note": "The sources confirm 1Password is listed as a partner for Web Summit 2026, but they do not explicitly state that the 2026 event takes place in Lisbon."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "PARTNER",
+          "note": "S1 is the 1Password page for Web Summit Lisbon 2026 and labels it PARTNER."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}

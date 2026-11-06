@@ -1,0 +1,324 @@
+{
+  "$schema": "none",
+  "article": "brazils-startup-house-in-lisbon",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://startups.com.br/eventos/web-summit/governo-abre-casa-brasileira-para-incubar-startups-em-lisboa/",
+      "status": 200,
+      "read": true,
+      "chars": 8929
+    },
+    {
+      "url": "https://dnbrasil.dn.pt/negcios-br/apexbrasil-e-sebrae-selecionam-20-startups-brasileiras-para-incubao-em-lisboa",
+      "status": 200,
+      "read": true,
+      "chars": 5257
+    },
+    {
+      "url": "https://www.iol.pt/web-summit-2026/brasil-em-lisboa/web-summit-2026-brasil-chega-a-lisboa-com-200-empresas-a-procura-de-investimento",
+      "status": 200,
+      "read": true,
+      "chars": 15517
+    }
+  ],
+  "spent_usd": 0.1479,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The 2027 class has 20 startups.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "O anúncio das 20 startups vencedoras está previsto",
+          "note": "S2 describes the 2027 cycle and says the 20 best-ranked startups advance, and S3 likewise says the second edition will select 20 companies, starting March 2027."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "o programa vai selecionar 20 empresas com soluções inovadoras e potencial de crescimento para um período de incubação presencial em Lisboa, com a duração máxima de nove meses, a partir de março de 2027",
+          "note": "The source confirms that the incubation program starting in March 2027 will select 20 companies."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "as 20 empresas mais bem classificadas avançarão",
+          "note": "S2 states that in the 2027 cycle, the 20 best-ranked companies advance in the incubation program."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The first class had ten startups.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "anunciaram dez startups",
+          "note": "S1 says ApexBrasil and Sebrae announced ten startups for a nine-month Lisbon incubation, but it never calls that group the first class; the 'first' label is only inferred from S3 calling the 2027 intake the program's second edition."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "a ApexBrasil e o Sebrae anunciaram dez startups que passarão por uma incubação de nove meses",
+          "note": "The sources confirm that the initial incubation class comprised ten selected startups, with subsequent classes planned annually."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "anunciaram dez startups",
+          "note": "S1 reports that ApexBrasil and Sebrae announced ten startups for the incubation program, which is the first class."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The 2027 class is due to be announced at the Brazil Pavilion on 10 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Na mesma data, serão anunciadas as start-ups selecionadas para o Programa de Incubação em Lisboa.",
+          "note": "S3 supports the 10 November date for announcing the Lisbon incubation selections, but it does not say the announcement takes place at the Brazil Pavilion, and S2 gives only the Web Summit week (9–13 November) for the announcement."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "no dia 10 de novembro. Na mesma data, serão anunciadas as start-ups selecionadas para o Programa de Incubação em Lisboa",
+          "note": "Source 3 confirms that at the Brazil Pavilion on 10 November, the selected startups for the incubation program running from March 2027 will be announced."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Na mesma data, serão anunciadas as start-ups selecionadas para o Programa de Incubação em Lisboa.",
+          "note": "S3 confirms the incubation-program selections will be announced on 10 November, but it does not state the announcement will be at the Brazil Pavilion."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The first class was announced at Web Summit 2025.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "anunciaram dez startups",
+          "note": "S1 says the ApexBrasil and Sebrae incubation cohort of ten startups was announced at Web Summit Lisboa, in an article dated 12/11/2025 that refers to Web Summit 2025; the word \"first\" is inferred, since S3 calls the 2026 programme its second edition."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Em evento durante o Web Summit Lisboa , a ApexBrasil e o Sebrae anunciaram dez startups que passarão por uma incubação de nove meses",
+          "note": "During Web Summit 2025 in Lisbon, ApexBrasil and Sebrae announced the inaugural cohort of ten startups for the incubation program."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "anunciaram dez startups",
+          "note": "S1 confirms a class of ten startups was announced during Web Summit Lisboa 2025, but it does not explicitly call it the first class, though S3 refers to the 2026 edition as the second."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The first class ran for nine months in Lisbon.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "um período de nove meses",
+          "note": "S1 says the first cohort's programme planned a nine-month stay ('prevê'), and says nothing confirming it actually ran for that length, while S2 and S3 describe later cycles with different durations."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": "S1",
+          "quote": "dez startups que passarão por uma incubação de nove meses no mercado português",
+          "note": "The sources state that the startups would undergo a nine-month incubation starting the following January, but they do not confirm that the first class actually ran for nine months."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "passarão por uma incubação de nove meses no mercado português",
+          "note": "S1 says the announced startups will undergo a nine-month incubation in Lisbon, not that the first class already ran."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "The 2027 class runs for three months in Lisbon starting March 2027.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "O programa será desenvolvido durante três meses, a partir de março de 2027.",
+          "note": "S2 states the 2027 cycle runs three months from March 2027; it also allows an optional extension of up to 180 days, and S3 gives a nine-month maximum, which the claim does not address."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "O programa será desenvolvido durante três meses, a partir de março de 2027",
+          "note": "Source S2 confirms that the 2027 cycle of the incubation program in Lisbon will run for three months starting in March 2027."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "O programa será desenvolvido durante três meses, a partir de março de 2027.",
+          "note": "S2 states the 2027 incubation program in Lisbon runs for three months starting March 2027."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "The 2027 class can be extended by up to 180 days.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "ampliado por até mais 180 dias",
+          "note": "S2 says the three-month 2027 programme can be extended by up to 180 more days, depending on results and an ApexBrasil and Sebrae evaluation, which the claim omits."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "o período poderá ser ampliado por até mais 180 dias",
+          "note": "Source 2 confirms that after the mandatory three months for the 2027 cycle, the period can be extended by up to 180 days."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "poderá ser ampliado por até mais 180 dias",
+          "note": "S2 states that after the mandatory three-month stay, the period can be extended by up to another 180 days for the 2027 program."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "The incubator is run by ApexBrasil and Sebrae.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Inciativa da ApexBrasil e Sebrae",
+          "note": "S1 describes the incubator as an initiative of ApexBrasil and Sebrae, and S2 and S3 likewise name both as the organisers, with S3 saying it is promoted by ApexBrasil in partnership with Sebrae Startups."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Promovido pela ApexBrasil, em parceria com o Sebrae Startups, o Programa de Incubação de Startups em Lisboa",
+          "note": "The sources confirm that the startup incubation initiative in Lisbon is promoted and operated by ApexBrasil in partnership with Sebrae."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "ApexBrasil, em parceria com o Sebrae, abriu o processo de seleção para o ciclo 2027 do Programa de Incubação de Startups em Lisboa",
+          "note": "The source states the Lisbon startup incubation program is run by ApexBrasil in partnership with Sebrae."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "The incubator occupies one floor of ApexBrasil's office in Lisbon.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Elas ocuparão um dos andares do prédio",
+          "note": "S1 says the incubated startups will occupy one floor of the building, which S1 identifies as the ApexBrasil headquarters in Lisbon, with the other floors used by Embratur and Fiocruz; S1 describes the startups rather than the incubator itself, but the substance matches."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Elas ocuparão um dos andares do prédio",
+          "note": "Source 1 states that the startups in the incubation program will occupy one floor of the historic Lisbon building, which the photo caption identifies as ApexBrasil's Lisbon headquarters."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Elas ocuparão um dos andares do prédio",
+          "note": "S1 states the incubated startups will occupy one of the floors of the building, in the context of ApexBrasil's Lisbon headquarters."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "The current cycle gives five extra points to health, energy, climate, travel, agriculture and biotech startups.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Empreendimentos destes segmentos recebem cinco pontos adicionais na classificação",
+          "note": "S2 states that in this cycle (the 2027 cycle) HealthTech, EnergyTech, ClimaTech, TravelTech, AgTech and Biotech startups get five extra points, though the source adds that this does not guarantee a place."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Neste ciclo, serão priorizadas startups das áreas de HealthTech, EnergyTech, ClimaTech, TravelTech, AgTech e Biotech. Empreendimentos destes segmentos recebem cinco pontos adicionais na classificação.",
+          "note": "The source confirms that startups in these specified sectors receive five additional points in classification during this cycle."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Neste ciclo, serão priorizadas startups das áreas de HealthTech, EnergyTech, ClimaTech, TravelTech, AgTech e Biotech. Empreendimentos destes segmentos recebem cinco pontos adicionais na classificação.",
+          "note": "S2 states the current cycle prioritizes those areas and gives them five additional classification points."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
