@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.51",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the newsroom move mapped to the agents; hourly runs in CLAUDE.md",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "42dd7e30d"
+  },
+  {
     "version": "v0.1.50",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run 1 (SYNTHETIC): the investor's run",
