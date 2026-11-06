@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.182",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 08:52: plan, dev.data's block routed, snapshot 0853Z",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "eece5e7bb"
+  },
+  {
     "version": "v0.1.181",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 08:44 wake",
