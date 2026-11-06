@@ -201,7 +201,9 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
     // a heredoc's body is data written somewhere, not commands: keep its first line (the redirect), drop the body
     command = command.replace(/(<<-?\s*['"]?([A-Za-z_][A-Za-z0-9_]*)['"]?[^\n]*)\n[\s\S]*?\n\s*\2\s*(?=\n|$)/g, '$1')
     const segs = splitSegments(command)
+    let here = cwd || PROJECT   // follows each cd in the command, so relative paths resolve where the shell will be
     for (const seg of segs) {
+        { const c = /^cd\s+(["']?)([^"'\s]+)\1\s*$/.exec(seg); if (c) { here = path.resolve(here, c[2].replace(/^~(?=\/|$)/, HOME)); continue } }
         const { verb, args } = verbOf(seg)
         // R5: git push, dev only
         const gitIdx = tokens(seg).indexOf('git')
@@ -266,13 +268,13 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
             return deny('R8', `${verb} prints the environment, which holds keys and tokens`, 'secret')
         if (['echo', 'printf'].includes(verb) && SECRET_VAR.test(seg)) return deny('R8', `${verb} of a secret variable`, 'secret')
         if (['cat', 'head', 'tail', 'less', 'more', 'xxd', 'od', 'hexdump', 'base64', 'strings', 'bat', 'nl', 'awk', 'sed', 'grep', 'jq'].includes(verb)) {
-            const hit = args.find(a => !a.startsWith('-') && /[/.~]/.test(a) && isSecretPath(a.replace(/^~(?=\/)/, HOME)))
+            const hit = args.find(a => !a.startsWith('-') && /[/.~]/.test(a) && isSecretPath(path.resolve(here, a.replace(/^~(?=\/)/, HOME))))
             if (hit) return deny('R8', `${verb} ${hit}: a private key or credentials file is never read into the conversation`, 'secret')
         }
         // R6: the hooks, the policy, the version and the brand
         // only the paths a command writes are checked: a cp from ~/.claude into scratch reads it, it does not write it
         for (const t of writeTargets(seg)) {
-            const abs = path.resolve(cwd || PROJECT, t.replace(/^~(?=\/|$)/, HOME))
+            const abs = path.resolve(here, t.replace(/^~(?=\/|$)/, HOME))
             const d = checkProtected(who, abs, P)
             if (d) return { ...d, kind: 'tamper' }
         }
