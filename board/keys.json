@@ -102,6 +102,23 @@
         "signing_fingerprint": "sha256:36a0b5e8a2b7bdc7"
       },
       "status": "active"
+    },
+    {
+      "id": "journalist-promptugal",
+      "agent": "journalist@PrompTugal.dinis",
+      "label": "journalist@PrompTugal.dinis (Claude Code session)",
+      "role": "The journalist of PrompTugal.news (journalist@PrompTugal.dinis): owns content/articles/ in PrompTugal/PrompTugal__News__Website, publishes the desks' Ready storylines and signs each article with this key (articles/<slug>.md.sig). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in the team site's admin/tools/seal.mjs) and added here by the same session; the push is the authorisation. Never on the team site (its attach was refused, and since Dinis's word of 6 November PrompTugal's keys live here). Not linked to an operator key; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtpa/JNKvLsIVHMyWIEdO\nqRixAbGH9ycO2vHxEc7/HFKZwFKp2BQ1Nd8q4NmSIYUaVHYLAp1Loixt6GBLBNX4\n4/mGi24iNkFk8JnNK0SbHMzlNjjqZ1RcXyco/B7JFTWRPLSGv0E3NYxmERzD1iVT\nPr6Vbruj1K7L5OHMHfVCShOnFBXQbKzj3uLGBY5gFl53Xkf5K5leCu3JzOAYWdV5\nUsRlyk5N40m6u9vBG7PxzzPUVatyDyh+mViEs7f/FPo3p3ngH87Jja5ZnAxHmTlf\n/QXtGSqj+PRkjg75n0NukXVsvA9IYhSwe1ZEhgkHBrff1E+cvMlqPCDDA+8Ojnk3\nZSo8cT3NxKBGGZsGxeCYH2ssUgBZO2hUbRkHpPeAbInvgaKVAgW+n5HpjESc+S9k\nzeQOWdfDfMZY4nnWXQABfnvWUHirTxq/cQlKoVWx7rjsXfkQggHUxalZEh5ydqbd\n3zg5cvvq/EV5ncMGR6VWgvedZkS5BEbUlJvXOe2gNlE56viHFKgmz4bdHK2fKskJ\nekSJ9jBvHZXhGOqQY9v0FZuszwdf3am45Vhr+M8NgoaUzJDzN1pGsG4Yg4AN0/gB\neeE4pxGaXi/Xzh+43Bz3ScpKaWe5F8ctWRDLO+zR+hNKx73Zj8Q4F0mw9wAKGuA6\noiER/QDWzOnide43AKGE9xUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEU1+V+x8qAjLQmgQ6FHcqR402R+Dg\nH+coTb4UTwgKktEhOCYPmb3Zb2AX5+SL/ADOAdtY182qqzj0Xk3+4nrQJQ==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist@PrompTugal.dinis",
+        "fingerprint": "sha256:7235c8fe5fce5cb0",
+        "signing_fingerprint": "sha256:41e0f9f183643c84"
+      },
+      "status": "active"
     }
   ]
 }
