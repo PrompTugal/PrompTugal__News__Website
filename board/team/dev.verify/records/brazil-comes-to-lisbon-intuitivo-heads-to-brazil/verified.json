@@ -1,0 +1,318 @@
+{
+  "$schema": "none",
+  "article": "brazil-comes-to-lisbon-intuitivo-heads-to-brazil",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/",
+      "status": 200,
+      "read": true,
+      "chars": 5293
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
+      "status": 200,
+      "read": true,
+      "chars": 8487
+    }
+  ],
+  "spent_usd": 0.0486,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "ApexBrasil announced on 4 November that about 200 Brazilian companies will take part in Web Summit Lisbon.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cerca de 200 empresas brasileiras vão participar na Web Summit Lisboa",
+          "note": "S1 says ApexBrasil announced 'hoje' (today), and its dateline is 'Novembro 4, 2026', so the 4 November date and the figure of about 200 companies are both confirmed."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cerca de 200 empresas brasileiras vão participar na Web Summit Lisboa para tentar captar investimento e procurar oportunidades de negócio no mercado europeu, anunciou hoje a Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil).",
+          "note": "Source S1, published on 4 November, reports that ApexBrasil announced today that around 200 Brazilian companies will participate in Web Summit Lisbon."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cerca de 200 empresas brasileiras vão participar na Web Summit Lisboa para tentar captar investimento e procurar oportunidades de negócio no mercado europeu, anunciou hoje a Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil).",
+          "note": "S1, dated 4 November 2026, reports ApexBrasil announcing that about 200 Brazilian companies will take part in Web Summit Lisbon."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "Brazil's pavilion at Web Summit Lisbon is 324 square metres and located in the MEO Arena.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "um pavilhão de 324 metros quadrados na MEO Arena",
+          "note": "The Executive Digest article states the Brazilian presence will centre on a 324-square-metre pavilion at the MEO Arena, matching both parts of the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "A presença brasileira terá como centro um pavilhão de 324 metros quadrados na MEO Arena",
+          "note": "The source confirms that the Brazilian presence at Web Summit Lisbon centers around a 324-square-meter pavilion located in the MEO Arena."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "pavilhão de 324 metros quadrados na MEO Arena",
+          "note": "The source states that the Brazilian presence will center on a 324-square-metre pavilion in the MEO Arena."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The Brazil pavilion programme runs from 10 to 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "programação entre 10 e 12 de novembro",
+          "note": "The article says the Brazil pavilion at MEO Arena has programming between 10 and 12 November, while the wider mission runs 08 to 13 November."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "A presença brasileira terá como centro um pavilhão de 324 metros quadrados na MEO Arena, com programação entre 10 e 12 de novembro",
+          "note": "The source directly states that the Brazilian pavilion's programming takes place between 10 and 12 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "com programação entre 10 e 12 de novembro",
+          "note": "S1 states the Brazilian pavilion programming runs between 10 and 12 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "ApexBrasil leads the Brazilian mission with Sebrae Startups, running from 8 to 13 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Entre 08 e 13 de novembro, a missão liderada pela ApexBrasil, em parceria com o Sebrae Startups",
+          "note": "The source states that the mission led by ApexBrasil, in partnership with Sebrae Startups, runs between 8 and 13 November."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Entre 08 e 13 de novembro, a missão liderada pela ApexBrasil, em parceria com o Sebrae Startups",
+          "note": "The source confirms that ApexBrasil leads the mission in partnership with Sebrae Startups between 8 and 13 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Entre 08 e 13 de novembro, a missão liderada pela ApexBrasil, em parceria com o Sebrae Startups",
+          "note": "S1 states the mission led by ApexBrasil in partnership with Sebrae Startups runs from 8 to 13 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The Brazilian mission includes representatives of ten Brazilian technology parks.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "representantes de dez parques tecnológicos brasileiros",
+          "note": "S1 says the ApexBrasil-led mission with Sebrae Startups includes representatives of ten Brazilian technology parks, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "a missão liderada pela ApexBrasil, em parceria com o Sebrae Startups, reúne empresas de todas as regiões do país e representantes de dez parques tecnológicos brasileiros",
+          "note": "Source 1 states that the mission brings together companies from across Brazil and representatives of ten Brazilian technology parks."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "representantes de dez parques tecnológicos brasileiros",
+          "note": "S1 states the mission includes representatives of ten Brazilian technology parks."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "Brazilian companies raised about 700 million US dollars at earlier Web Summit editions.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "empresas brasileiras captaram cerca de 700 milhões de dólares",
+          "note": "The article attributes the roughly 700 million dollar figure to the organisers, who said Brazilian companies raised it at earlier editions through contacts and negotiations started at the event."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "empresas brasileiras captaram cerca de 700 milhões de dólares (623 milhões de euros) nas edições anteriores",
+          "note": "The source directly states that Brazilian companies raised about 700 million dollars in previous editions through contacts and negotiations initiated at the event."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "empresas brasileiras captaram cerca de 700 milhões de dólares (623 milhões de euros) nas edições anteriores",
+          "note": "S1 states that Brazilian companies raised about 700 million dollars in previous editions through contacts and negotiations started at the event."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "Intuitivo was founded in Porto in 2021.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Founded in Porto in 2021",
+          "note": "S2 states directly that Intuitivo was founded in Porto in 2021, matching the claim exactly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Founded in Porto in 2021, Intuitivo",
+          "note": "The source directly states that Intuitivo was founded in Porto in 2021."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Founded in Porto in 2021",
+          "note": "S2 states that Intuitivo was founded in Porto in 2021."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Intuitivo covers more than 500 schools in Portugal and has 75,000 registered teachers, according to Portugal Startup News.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "covering more than 500 schools; The platform now counts 75,000 registered teachers",
+          "note": "The Portugal Startup News article states that Intuitivo's contracts cover more than 500 schools in Portugal and that the platform counts 75,000 registered teachers."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "covering more than 500 schools. The platform now counts 75,000 registered teachers.",
+          "note": "Portugal Startup News confirms that Intuitivo covers more than 500 schools in Portugal and has 75,000 registered teachers."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Already serving over 500 schools in Portugal, the startup has 75,000 registered teachers",
+          "note": "Portugal Startup News states both figures in the article."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "Intuitivo has raised €1.35 million in seed funding to grow in Brazil.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "has raised €1.35 million in seed funding to expand into Brazil",
+          "note": "S2 states that Intuitivo raised €1.35 million in seed funding to expand into Brazil, though it also says the funds will develop the platform, which the claim omits."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Intuitivo has raised €1.35 million in seed funding to expand into Brazil",
+          "note": "Source 2 explicitly states that Intuitivo raised €1.35 million in seed funding to expand into Brazil."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Intuitivo has raised €1.35 million in seed funding to expand into Brazil",
+          "note": "S2 directly reports the exact funding amount and purpose."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "Intuitivo estimates Brazil's market at 2.2 million teachers, about 12 times Portugal's.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "a potential market of 2.2 million teachers, around 12 times the Portuguese market",
+          "note": "The source attributes the estimate to Intuitivo and describes it as a potential market of 2.2 million teachers, about 12 times Portugal's."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "estimates a potential market of 2.2 million teachers, around 12 times the Portuguese market",
+          "note": "The source directly states that Intuitivo estimates Brazil's potential market at 2.2 million teachers, roughly 12 times the size of Portugal's."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "estimates a potential market of 2.2 million teachers, around 12 times the Portuguese market",
+          "note": "S2 directly states Intuitivo estimates Brazil's potential market at 2.2 million teachers, about 12 times Portugal's."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
