@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.345",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "d5e43ebd6"
+  },
+  {
     "version": "v0.1.344",
     "date": "2026-11-06",
     "what": "journalist-ai@PrompTugal.vicky: T1, a clear link to the live view after each caption",
