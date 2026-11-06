@@ -1,0 +1,76 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T05-16-56Z",
+ "started": "2026-11-06T05:16:56.861Z",
+ "ended": "2026-11-06T05:20:15Z",
+ "line": "05:55: dotted workers recorded, first prompts ready, abp@ asked",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:16:56.861Z",
+   "chars": 250,
+   "sha256": "0edd1c7a2ea2e63c",
+   "head": "on the names shouldn't it be dev.search , dev.pages\n\nor \n\ndev#search@ , dev#pages@ as in dev#pages@promptugal.dinis\n\ndev$search@ , dev$pages@\n\ndev|search@ , dev|pages@ \n\ndev/search@ , dev/pages@ \n\ndev"
+  },
+  {
+   "t": "2026-11-06T05:19:13.817Z",
+   "chars": 746,
+   "sha256": "302cae551e6bf153",
+   "head": "Cool, I agree. Yeah, so go with dots and then I think you can spin up them, right? Can you just list quickly the ones you want to spin up? And if do a couple of more, right? If dev is such a bottlenec"
+  }
+ ],
+ "session_events": [],
+ "tool_calls": {
+  "total": 3,
+  "by_kind": {
+   "shell": 1,
+   "git": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 3,
+  "commits": [
+   {
+    "sha": "6e8392143",
+    "subject": "conductor@PrompTugal.dinis: dotted workers on Sonnet with dev@ reviewing: nine agents in CLAUDE.md, their first prompts ready",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": []
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "6e8392143 wrote board/team/first-prompts-2026-11-06.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 3,
+  "in_mandate": 3,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}
