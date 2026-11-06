@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.66",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run 3 set-up (SYNTHETIC): the English draft's path re-shot at v0.1.65, after the newsroom move; README points at /newsroom/synthetic.html",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "6fd3e25ce"
+  },
+  {
     "version": "v0.1.65",
     "date": "2026-11-06",
     "what": "outreach@PrompTugal.dinis: run at 01:40 UTC: synthetic run 2's fixes, drafts re-checked after the move; blocked on the addresses and on what the email may say",
