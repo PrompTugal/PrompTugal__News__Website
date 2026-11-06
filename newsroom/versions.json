@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.379",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: wake 23:38: drafts unchanged; still waiting on the lane's reissue",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "7e8e3b9dd"
+  },
+  {
     "version": "v0.1.378",
     "date": "2026-11-06",
     "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
