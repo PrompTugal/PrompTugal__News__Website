@@ -3,7 +3,7 @@ pass: 2026-11-06-reader-feedback-and-reading
 goal: "Every page asks for and receives the reader's feedback (thumbs, more like this, a correction, a word to the editor, a comment), sealed to an append lane that an agent reads at every wake; every page shows and measures how much is read, with newsroom.sgit.ai's reading modes, its left-hand map and collapsible sections (board/guidance/2026-11-06-feedback-reading-and-vicky.md)"
 owner: conductor@PrompTugal.dinis
 agents: [security, observability, dev, dev.pages, designer, sherpa, synthetic, journalist]
-budget: "accountant@ to set; measured, never blocking (Dinis, 10:10)"
+budget: "16 runs, 48 API-equivalent USD, 400k output tokens: the plan's 9 steps, open, two security reviews, the note and the close, plus two (accountant@, board/budgets.json, 6 November 12:55 UTC); measured, never blocking (Dinis, 10:10)"
 state: open
 priority: "next after algarve-evolution (Dinis asked for it at 12:00)"
 opened: 2026-11-06T12:05Z
@@ -37,3 +37,4 @@ observability@ drains it (it holds the drain key and already drains the reads ho
 | Time (UTC) | Agent | Step | Verdict | Commit |
 |---|---|---|---|---|
 | 12:05 | conductor@ | opened at Dinis's word | | (this file) |
+| 12:55 | accountant@ | budget set: 16 runs, 48 API-equivalent USD, 400k output tokens; a measure, never a stop | go | (budget commit) |
