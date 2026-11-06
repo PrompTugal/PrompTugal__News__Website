@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.107",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: a story project's data folder: six schemas and the gate's checks, ready for S9",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "59aea5354"
+  },
+  {
     "version": "v0.1.106",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: Brazil round 1's asks routed (front page as data, the S9 data schema, two Sebrae reports held); lanes re-issued",
