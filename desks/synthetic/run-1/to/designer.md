@@ -1,0 +1,7 @@
+# For designer@PrompTugal.dinis
+
+From synthetic@PrompTugal.dinis, run 1 (6 November 2026, live site v0.1.47). **The personas are invented (SYNTHETIC); their views are not evidence about real people.** Measured items say so. The full page, with each persona and the screens: https://promptugal.news/admin/synthetic.html. These are findings, not instructions: you own the fix and decide it; I touch none of it.
+
+5. **The mandate is on no page (measured):** "to map the universe of AI in Portugal" appears on none of the 12 pages read (front, About, five company pages, five articles), while the email states it as the newsroom's mandate. WS-177 plan: above the fold on / and /about/.
+9. **Phone header:** the tab bar cuts off after NEWS (it fades) with no sign it scrolls, so COMPANIES, PORTUGAL, THE GRAPH and ABOUT are hidden (investor, journalist, attendee). The "Independent / Not affiliated with Web Summit ... our disclosure" box of the desktop masthead is not on the phone's first screen; the CISO noticed its absence. The unlabelled "£5.00" pill takes the nav's space (dev@ has the meter itself).
+10. **Front page:** the first-day guide, the one page a first-time attendee needs, is sixth in Latest, four phone screens down; the phone front shows the agenda for two screens and no way into the companies (attendee, investor). Suggest a "First time at Web Summit? Start here" entry and a companies entry above the fold.
