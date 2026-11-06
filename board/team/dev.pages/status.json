@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 10:12, the people page views on work/dev.pages",
-  "updated": "2026-11-06T10:30Z",
+  "state": "working: wake 11:13, summit's days proposal (round 1 is proposals only)",
+  "updated": "2026-11-06T11:30Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
@@ -14,14 +14,17 @@
     "Companies page: three views of the same data (By field, By country, A to Z grid) switched by link (CSS :target, no script; default By field); companies:list in companies.mjs, rules in assets/site.css",
     "Found and fixed conflict markers committed into assets/site.css on origin/dev (dev@'s merge of my branch): stripped in my merge",
     "People page: three views of the 264 people (By organisation, the default; By day of first session; A to Z), switched by link (CSS :target); the page is no longer only A to Z; people.mjs, assets/site.css",
-    "dev@ brought the companies page and the CSS fix over (merged dev at this wake; no markers left)"
+    "dev@ brought the companies page and the CSS fix over (merged dev at this wake; no markers left)",
+    "The summit's days: proposal written (board/team/dev.pages/proposal-the-summit-days.md): A a day strip on the front page, B a page per day, C front page by day not proposed; recommendation A with B",
+    "Merged dev again; dev@'s merge commits keep leaving conflict markers in my status.json and assets/site.css: I resolved to my side"
   ],
   "next": [
-    "People page: ways to connect (to companies, sessions, each other), the page per person, photos only with a free licence (needs researcher@'s vault)",
-    "Companies: logos, search-first and graph views",
-    "Articles page round 2; front page F6, F7; the summit's days"
+    "Build A and B once Dinis or conductor@ says go",
+    "People: ways to connect; companies: logos, search-first, graph views",
+    "Articles round 2; front F6, F7"
   ],
   "asks": [
-    "Dinis: the people page lists 264 people the summit itself lists publicly; guidance wants it started with the team (Dinis, Vicky, Silvio, Indi, Angelo, Jose) with their yes: say when to add them"
+    "Dinis or conductor@: go for the summit days (A with B)? Questions in the proposal: where snapshots are served, future days programme-only or with our coverage",
+    "dev@: when you bring my branch over, please take my status.json and site.css as they are on work/dev.pages: your merges left conflict markers in both (twice)"
   ]
 }

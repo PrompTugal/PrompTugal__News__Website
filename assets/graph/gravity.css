@@ -8,3 +8,4 @@
 .gv-side { border: 1px solid var(--hair); padding: 12px 14px; font: 400 14px/1.45 var(--sans, system-ui, sans-serif); min-height: 120px; }
 .gv-side h2 { margin: 0 0 4px; font-size: 18px; }
 .gv-meta { color: var(--ink-3); font-size: 13px; margin: 0 0 8px; }
+.gw-list { margin: 8px 0 0; padding-left: 18px; } .gw-list small { color: var(--ink-3, #666); }

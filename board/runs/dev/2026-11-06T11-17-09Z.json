@@ -1,0 +1,108 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-06T11-17-09Z",
+ "started": "2026-11-06T11:17:09.521Z",
+ "ended": "2026-11-06T12:17:21Z",
+ "line": "review round 7; /newsroom/decisions/ and the dashboard's open decisions",
+ "policy": {
+  "version": "1.6.1",
+  "sha256": "6fc7ffe45e7d2107"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T12:15:01.994Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T12:15:01.570Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "web": 1,
+   "other": 1,
+   "git": 1,
+   "shell": 3,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": [
+   {
+    "sha": "f75ebff4a",
+    "subject": "dev@PrompTugal.dinis: /newsroom/decisions/: every decision waiting on Dinis, from the pages' front matter",
+    "files": 4
+   },
+   {
+    "sha": "54ce4d9af",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "files": 5
+   },
+   {
+    "sha": "71f4f9d5f",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 3
+   },
+   {
+    "sha": "3d2f63ad5",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "files": 4
+   },
+   {
+    "sha": "49711f48e",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 10
+   },
+   {
+    "sha": "eb084ae49",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "54ce4d9af wrote newsroom/tests/search.test.mjs",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 7,
+  "in_mandate": 7,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}
