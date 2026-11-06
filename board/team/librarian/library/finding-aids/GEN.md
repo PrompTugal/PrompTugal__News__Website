@@ -40,7 +40,7 @@ Special collection: S2 (11 cards). Dinis's guidance has its own guide: [guidance
 
 - [Agents, roles, keys](TEAM.md) (65 connections from this collection)
 - [Work in hand](WRK.md) (64 connections from this collection)
-- [The library](LIB.md) (46 connections from this collection)
+- [The library](LIB.md) (47 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 
 Back to the front door: [the library](../index.md)

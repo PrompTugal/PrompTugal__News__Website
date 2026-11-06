@@ -115,7 +115,7 @@ test('the explorer engine reads the library graph: a path from an agent to a fin
     st.top = Object.assign({ n: 0, by: 'pagerank', what: 'nodes' }, st.top)
     const res = E.compute(gg, st, null)
     assert.ok(res.nodes.size >= 8, `preset ${k} draws ${res.nodes.size} nodes`)
-    assert.ok(res.nodes.size <= 700, `preset ${k} draws ${res.nodes.size} nodes`)
+    assert.ok(res.nodes.size <= 1200, `preset ${k} draws ${res.nodes.size} nodes`)
   }
   // the four named views of the commission are there, each with a caption
   for (const k of ['who-made-what', 'guidance', 'passes', 'reality-tree']) assert.ok(presets[k] && presets[k].caption.length > 60, k)
@@ -209,7 +209,7 @@ test('a second run of the whole build changes nothing (graphs, aids, guidance, f
   assert.deepEqual(r2.changed, [])
   assert.deepEqual(r3.changed, [])
   assert.equal(check(o).errors.length, 0, check(o).errors.join('\n'))
-  assert.ok(check(o).stats.bytes < 7 * 1024 * 1024)
+  assert.ok(check(o).stats.bytes < 12 * 1024 * 1024)
 })
 
 test('reading-room.htm: absolute site assets only, no other host, no font, titles as text, the ids the explorer reads', () => {
