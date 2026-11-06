@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-trustscale-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "TrustScale: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about TrustScale: could you check it?",
+ "sha256": "04557703610360c09f149c6c8d1334061d121585a61903d05ba801a4f99b3ec3",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to TrustScale leading with its page (https://promptugal.news/companies/trustscale/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again TrustScale team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/trustscale/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello TrustScale team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/trustscale/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

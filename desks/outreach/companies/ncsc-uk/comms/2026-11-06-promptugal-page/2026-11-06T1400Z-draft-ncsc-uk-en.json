@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-ncsc-uk-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "National Cyber Security Centre (UK): the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about the National Cyber Security Centre: could you check it?",
+ "sha256": "aa63e50073f8e84a1ba0f84b02ea58d9cdb09e6effa7ab23b2432526a7930e64",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to National Cyber Security Centre leading with its page (https://promptugal.news/companies/ncsc-uk/); a public body or foundation.",
+ "followups": {
+  "2026-11-09": "Hello again National Cyber Security Centre team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/ncsc-uk/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello National Cyber Security Centre team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/ncsc-uk/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

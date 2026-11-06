@@ -1,0 +1,232 @@
+{
+ "about": "The domains of the reality tree and the rules that put a card in one. A card goes to the first rule that matches (all its conditions): call_prefix and class read the call number, path_prefix and path_regex the card's path, type and kind the catalogue. A card no rule takes falls into \"misc\" and is flagged (ST18). To add a domain, add an entry and its rules; the generator reads this file and never rewrites it.",
+ "domains": [
+  {
+   "dir": "publication",
+   "id": "publication",
+   "name": "Publication",
+   "owner": "journalist@PrompTugal.dinis",
+   "takes_in": "articles, the brand, the brief"
+  },
+  {
+   "dir": "pages",
+   "id": "pages",
+   "name": "Pages",
+   "owner": "dev.pages@PrompTugal.dinis",
+   "takes_in": "the front page, site pages, lists, and the entity pages (companies, events, people, organisations, places, topics)"
+  },
+  {
+   "dir": "newsroom",
+   "id": "newsroom",
+   "name": "Newsroom",
+   "owner": "dev@PrompTugal.dinis",
+   "takes_in": "the pages under /newsroom/"
+  },
+  {
+   "dir": "data",
+   "id": "data",
+   "name": "Data",
+   "owner": "ontologist@PrompTugal.dinis",
+   "takes_in": "the ontology and the schemas"
+  },
+  {
+   "dir": "search",
+   "id": "search",
+   "name": "Search, ask and the page tool API",
+   "owner": "dev.search@PrompTugal.dinis",
+   "takes_in": "the search and ask pages"
+  },
+  {
+   "dir": "graphs",
+   "id": "graphs",
+   "name": "Graphs and visualisation",
+   "owner": "dev.graphs@PrompTugal.dinis",
+   "takes_in": "the graph, explorer and gravity pages"
+  },
+  {
+   "dir": "build-and-ci",
+   "id": "build-and-ci",
+   "name": "Build, gate, CI and release",
+   "owner": "dev@PrompTugal.dinis",
+   "takes_in": "build, tools, the gate, CI"
+  },
+  {
+   "dir": "agents",
+   "id": "agents",
+   "name": "Agents",
+   "owner": "conductor@PrompTugal.dinis",
+   "takes_in": "agents, roles, keys, inboxes, policies, run reports, reader findings"
+  },
+  {
+   "dir": "process",
+   "id": "process",
+   "name": "Passes, budgets, decisions and the story pipeline",
+   "owner": "conductor@PrompTugal.dinis",
+   "takes_in": "passes, findings, decisions, plans, tasks, desks, stories, guidance and the ideas ledger, the board's own files"
+  },
+  {
+   "dir": "vaults-and-media",
+   "id": "vaults-and-media",
+   "name": "Vaults, media, reader accounts, billing and backups",
+   "owner": "security@PrompTugal.dinis",
+   "takes_in": "evidence, captures, vaults"
+  },
+  {
+   "dir": "observability",
+   "id": "observability",
+   "name": "Observability",
+   "owner": "observability@PrompTugal.dinis",
+   "takes_in": "the read counter and its report"
+  },
+  {
+   "dir": "library",
+   "id": "library",
+   "name": "Library",
+   "owner": "librarian@PrompTugal.dinis",
+   "takes_in": "everything of the library"
+  },
+  {
+   "dir": "misc",
+   "id": "misc",
+   "name": "Not yet placed",
+   "owner": "librarian@PrompTugal.dinis",
+   "takes_in": "cards no rule takes (flagged, ST18)"
+  }
+ ],
+ "fallback": "misc",
+ "rules": [
+  {
+   "domain": "library",
+   "id": "d-library",
+   "when": {
+    "call_prefix": "LIB."
+   }
+  },
+  {
+   "domain": "observability",
+   "id": "d-observability",
+   "when": {
+    "call_prefix": "RDR.OBS"
+   }
+  },
+  {
+   "domain": "agents",
+   "id": "d-team",
+   "when": {
+    "class": "TEAM"
+   }
+  },
+  {
+   "domain": "agents",
+   "id": "d-readers",
+   "when": {
+    "class": "RDR"
+   }
+  },
+  {
+   "domain": "vaults-and-media",
+   "id": "d-evidence",
+   "when": {
+    "class": "EVD"
+   }
+  },
+  {
+   "domain": "build-and-ci",
+   "id": "d-build",
+   "when": {
+    "class": "BLD"
+   }
+  },
+  {
+   "domain": "process",
+   "id": "d-work",
+   "when": {
+    "class": "WRK"
+   }
+  },
+  {
+   "domain": "process",
+   "id": "d-guidance",
+   "when": {
+    "class": "GDN"
+   }
+  },
+  {
+   "domain": "publication",
+   "id": "d-brief",
+   "when": {
+    "call_prefix": "GEN.BRIEF"
+   }
+  },
+  {
+   "domain": "process",
+   "id": "d-gen",
+   "when": {
+    "class": "GEN"
+   }
+  },
+  {
+   "domain": "search",
+   "id": "d-search",
+   "when": {
+    "path_regex": "^(search|ask)(/|\\.|$)"
+   }
+  },
+  {
+   "domain": "graphs",
+   "id": "d-graphs",
+   "when": {
+    "path_regex": "^(graph|explorer|gravity|world|industry)(/|\\.|$)"
+   }
+  },
+  {
+   "domain": "data",
+   "id": "d-schemas",
+   "when": {
+    "call_prefix": "DAT.SCH"
+   }
+  },
+  {
+   "domain": "data",
+   "id": "d-ontology",
+   "when": {
+    "call_prefix": "DAT.ONT"
+   }
+  },
+  {
+   "domain": "pages",
+   "id": "d-entities",
+   "when": {
+    "class": "DAT"
+   }
+  },
+  {
+   "domain": "newsroom",
+   "id": "d-newsroom",
+   "when": {
+    "call_prefix": "PUB.NEWS"
+   }
+  },
+  {
+   "domain": "publication",
+   "id": "d-articles",
+   "when": {
+    "call_prefix": "PUB.ART"
+   }
+  },
+  {
+   "domain": "publication",
+   "id": "d-brand",
+   "when": {
+    "call_prefix": "PUB.BRAND"
+   }
+  },
+  {
+   "domain": "pages",
+   "id": "d-pub",
+   "when": {
+    "class": "PUB"
+   }
+  }
+ ]
+}

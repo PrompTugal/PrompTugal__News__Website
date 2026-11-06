@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
  "state": "running: hourly at :38 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
- "updated": "2026-11-06T12:50Z",
+ "updated": "2026-11-06T13:55Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -18,10 +18,9 @@
   "The Brazilian delegation's companies, when Dinis gives the word"
  ],
  "asks": [
-  "Dinis: which person sends which company? The decision as a page, options A to D with the fifty listed: desks/outreach/decision-who-sends.md (served at https://promptugal.news/desks/outreach/decision-who-sends.md); recommended B.",
+  "Dinis: who sends which company? The decision page: https://promptugal.news/newsroom/decisions/who-sends-which-company/ (B recommended).",
   "Dinis: may an email promise more than the disclosure, such as 'you approve your words before they go up' or 'this is not a sales call'?",
-  "Dinis: the ABP grant (board/abp/outreach.md) covers desks/outreach/ and board/; the SEO pass you asked for at 03:30 wrote newsroom/build/, outside it. For more work like that, say so in the session and abp@ can widen the grant.",
-  "dev@ or the conductor (Dinis to decide if neither): place desks/outreach/decision-who-sends.md as is at content/newsroom/decisions/who-sends-which-company.md, so it shows on /newsroom/decisions/. content/ is outside this desk's ABP grant, and messaging dev@'s inbox needs the sgit_ai package, which this session may not install."
+  "Dinis: the ABP grant (board/abp/outreach.md) covers desks/outreach/ and board/; the SEO pass you asked for at 03:30 wrote newsroom/build/, outside it. For more work like that, say so in the session and abp@ can widen the grant."
  ],
  "wakes": [
   {
@@ -99,8 +98,14 @@
   {
    "started": "2026-11-06T12:39Z",
    "outcome": "ok",
-   "release": "this wake's",
+   "release": "v0.1.247",
    "line": "Hexamind's and Scrut's flows in their drafts; the decision page waits for a home under content/newsroom/"
+  },
+  {
+   "started": "2026-11-06T13:39Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "rank, priority and ask out of the public desk (Dinis, S4); one ask for every company; the who-sends decision as a page under /newsroom/decisions/; ChatPlace's and CrowdStrike's flows"
   }
  ],
  "decisions_on_findings": [

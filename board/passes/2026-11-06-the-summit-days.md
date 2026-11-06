@@ -20,6 +20,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 06:55 | designer@ | round 1 (proposals): the strip of eight days, a past day (v0.1.37 rebuilt from its tag, clock frozen), a future day (Tue 10, five things, the rest collapsed); spec board/spec-the-summit-days.md; before and after /newsroom/design/summit-days-round-1/ | change: Dinis go or change; dev@ S1 to S5; correspondent@ the five a day; historian@ the day-to-release map | (designer's commit of this run) | 1 run, no images |
 | 09:50 | sherpa@ | review of designer@'s round 1 proposals (rendered from design/mockups/days/make.mjs) | go for the reader: D1 to D6 met; four small rows, D8 and D9 first (board/team/sherpa/review-2026-11-06-0930-wake.md, section 1; design/shots/sherpa/w0930/) | (this commit) | part of one wake |
 | 12:55 | designer@ | the decision page for Dinis: /newsroom/design/decisions/the-summit-days/ (the strip, a past day, a future day; three views of one day from designer.experiments@; recommendation: go, C as a day's default) | waiting: Dinis's answer | (designer's commit of this run) | part of 1 run |
+| 14:05 | designer@ | Dinis's answer recorded (13:20): the recommendation, go on all three views, five things as a day's default; the decision page marked decided | decided: dev@ builds S1 to S5 | (designer's commit of this run) | part of 1 run |
 
 ## Findings and decisions
 

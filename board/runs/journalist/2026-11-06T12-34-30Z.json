@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist@PrompTugal.dinis",
+ "run": "2026-11-06T12-34-30Z",
+ "started": "2026-11-06T12:34:30.982Z",
+ "ended": "2026-11-06T13:29:33Z",
+ "line": "hourly run 13:26: decisions moved to /newsroom/decisions/ (For Dinis); becoming-a-publication round 2. Blocks: inbox drain needs sgit_ai",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T12:34:30.982Z",
+   "chars": 674,
+   "sha256": "3b21a1f55794c80c",
+   "head": "<task-notification>\n<task-id>bftkviyca</task-id>\n<tool-use-id>toolu_01AnPZGJs3WM3gTe5NYYbvPp</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/b7a38ade-f8b6-55b2-b3c5-78dc8"
+  },
+  {
+   "t": "2026-11-06T13:26:48.493Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T13:26:47.970Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "web": 4,
+   "other": 1,
+   "git": 2,
+   "shell": 7,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": [
+   {
+    "sha": "529f2b7f5",
+    "subject": "journalist@PrompTugal.dinis: the two decisions on /newsroom/decisions/ as 'For Dinis' pages; becoming-a-publication round 2 (newsroom.sgit.ai against ours, a co",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 15,
+  "in_mandate": 15,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

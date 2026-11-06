@@ -24,4 +24,31 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 - [F] Synthetic readers' desk. Evidence: `desks/synthetic`; first added `b948267f` on 2026-11-06.
 - [F] Correspondent's beats and ideas folders. Evidence: `desks/correspondent/beats`; first added `52f7f545` on 2026-11-06.
 
+<!-- library:generated -->
+## The library's cards in this domain (generated)
+
+416 cards (416 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T13:45:24Z at site v0.1.258; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+
+| Call class | Cards |
+|---|---|
+| `RDR.SHERPA` | 9 |
+| `RDR.SYN` | 2 |
+| `TEAM.ABP` | 39 |
+| `TEAM.AGENT` | 26 |
+| `TEAM.BUDGET` | 2 |
+| `TEAM.INBOX` | 38 |
+| `TEAM.KEY` | 2 |
+| `TEAM.ROLE` | 114 |
+| `TEAM.RUN` | 183 |
+| `TEAM.SCHED` | 1 |
+
+Newest five accessions:
+
+- `ACC-20261106-2505` [2026-11-06T13-22-12Z.json](https://promptugal.news/board/runs/librarian/2026-11-06T13-22-12Z.json) (`TEAM.RUN 2026-11-06T13-22-12Z`)
+- `ACC-20261106-2504` [2026-11-06T13-20-18Z.json](https://promptugal.news/board/runs/backup/2026-11-06T13-20-18Z.json) (`TEAM.RUN 2026-11-06T13-20-18Z`)
+- `ACC-20261106-2503` [2026-11-06T12-34-30Z.json](https://promptugal.news/board/runs/journalist/2026-11-06T12-34-30Z.json) (`TEAM.RUN 2026-11-06T12-34-30Z`)
+- `ACC-20261106-2502` [2026-11-06T12-23-30Z.json](https://promptugal.news/board/runs/ontologist/2026-11-06T12-23-30Z.json) (`TEAM.RUN 2026-11-06T12-23-30Z`)
+- `ACC-20261106-2501` [2026-11-06T06-18-20Z.json](https://promptugal.news/board/runs/observability/2026-11-06T06-18-20Z.json) (`TEAM.RUN 2026-11-06T06-18-20Z`)
+<!-- /library:generated -->
+
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

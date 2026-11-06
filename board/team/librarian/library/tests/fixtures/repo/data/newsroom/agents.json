@@ -1,0 +1,12 @@
+{
+ "about": "fixture",
+ "updated": "2026-11-05",
+ "agents": [
+  {
+   "id": "alpha-dinis",
+   "name": "alpha@PrompTugal.dinis",
+   "role": "Does alpha things.",
+   "started": "2026-11-05T06:00:00Z"
+  }
+ ]
+}

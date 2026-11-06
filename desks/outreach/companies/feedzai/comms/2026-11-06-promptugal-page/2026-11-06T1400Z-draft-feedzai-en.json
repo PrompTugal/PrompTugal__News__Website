@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-feedzai-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Dinis Cruz (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Feedzai: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Feedzai: could you check it?",
+ "sha256": "c366bebc4697ff1027f8d456c71f19c327a42039b04a48d2108f56df94955f8a",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Feedzai leading with its page (https://promptugal.news/companies/feedzai/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Feedzai team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/feedzai/\n\nBest regards,\nDinis Cruz, PrompTugal.news",
+  "2026-11-11": "Hello Feedzai team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/feedzai/\n\nThis is our last note. Best regards,\nDinis Cruz, PrompTugal.news"
+ }
+}
