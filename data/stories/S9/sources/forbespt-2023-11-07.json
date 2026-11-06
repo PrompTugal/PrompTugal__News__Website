@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "forbespt-2023-11-07",
+  "story": "S9",
+  "url": "https://www.forbespt.com/agencia-de-investimento-brasileira-leva-delegacao-recorde-a-web-summit-lisboa",
+  "title": "Agência de investimento brasileira leva delegação recorde à Web Summit Lisboa (Forbes Portugal / Lusa)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "published": "2023-11-07",
+  "what_it_says": "2023: ApexBrasil planned a record delegation of 85 startups and 100 companies, more than double the 80 companies of 2022, the year the Brazil Pavilion debuted."
+}

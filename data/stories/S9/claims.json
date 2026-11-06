@@ -1,0 +1,374 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S9",
+  "kept_by": "correspondent@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Sebrae and ApexBrasil chose 100 Brazilian startups for the official delegation to Web Summit Lisboa 2026.",
+      "kind": "fact",
+      "source": "sebrae-2026-09-30-selected",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Foram escolhidas 100 startups brasileiras para integrar a delegação oficial",
+      "published": "2026-09-30",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "The 40 best-ranked startups get financial support from Sebrae.",
+      "kind": "fact",
+      "source": "sebrae-2026-09-30-selected",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "as 40 empresas mais bem classificadas contarão com apoio financeiro do Sebrae",
+      "published": "2026-09-30",
+      "about": [
+        "organisation:sebrae-startups"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "Sebrae expects about 300 Brazilian startups in the delegation it leads in 2026.",
+      "kind": "estimate",
+      "source": "sebrae-2026-09-30-selected",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "a expectativa é reunir cerca de 300 startups brasileiras na delegação liderada pelo Sistema Sebrae em 2026",
+      "published": "2026-09-30",
+      "about": [
+        "organisation:sebrae-startups"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "12 states (unidades da federação) organise their own missions; the article does not name them.",
+      "kind": "fact",
+      "source": "sebrae-2026-09-30-selected",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "missões estaduais organizadas por 12 unidades da federação",
+      "published": "2026-09-30"
+    },
+    {
+      "id": "c05",
+      "text": "The Sebrae announcement does not list the 100 startups; it links to an ApexBrasil page and names one startup, Vox EPower (Nova Iguaçu, Rio de Janeiro), quoting its co-founder Renan Verli.",
+      "kind": "fact",
+      "source": "sebrae-2026-09-30-selected",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Renan Verli, co-fundador da Vox EPower",
+      "published": "2026-09-30",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "ApexBrasil's results page lists 188 approved companies by tax number (CNPJ) only, no names: 105 confirmed, 33 on the waiting list, 26 awaiting confirmation, 24 withdrawn, with status as of 28 August 2026.",
+      "kind": "fact",
+      "source": "apexbrasil-results-page",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Lista das empresas APROVADAS com status em 28/8/2026.",
+      "note": "published: status as of 2026-08-28",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "ApexBrasil, via Lusa, says about 200 Brazilian companies take part, with a 324 m2 pavilion in the MEO Arena.",
+      "kind": "estimate",
+      "source": "lusa-2026-11-04-200-companies",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Cerca de 200 empresas brasileiras",
+      "published": "2026-11-04",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "IOL (with Link to Leaders, from an ApexBrasil statement) splits the delegation: 99 companies selected for Web Summit's official programme, 90 nominated by partner entities, 50 linked to ten tech hubs. These add to 239, not the headline 200.",
+      "kind": "fact",
+      "source": "iol-brasil-chega-a-lisboa",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "99 empresas ... 90 ... 50",
+      "note": "published: 2026-11-05 (page says 'Ontem às 09:59', read 6 Nov)",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "IOL names four hubs: Porto Digital, ACATE, SENAI CIMATEC and Instituto Caldeira.",
+      "kind": "fact",
+      "source": "iol-brasil-chega-a-lisboa",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Porto Digital, ACATE, SENAI CIMATEC e Instituto Caldeira",
+      "note": "published: 2026-11-05 (approx.)"
+    },
+    {
+      "id": "c10",
+      "text": "ApexBrasil says Brazil has more than 13,000 active startups; Brazilian companies raised about US$700 million at earlier editions through contacts made there.",
+      "kind": "estimate",
+      "source": "iol-brasil-chega-a-lisboa",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "mais de 13 mil start-ups em atividade",
+      "note": "published: 2026-11-05 (approx.)",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "On 10 November an AI pitch competition with representatives of Brazil, France, Portugal and Germany; the startups for the second Lisbon Incubation Programme are announced the same day.",
+      "kind": "fact",
+      "source": "iol-brasil-chega-a-lisboa",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "10 de novembro",
+      "note": "published: 2026-11-05 (approx.)"
+    },
+    {
+      "id": "c12",
+      "text": "Sebrae, 4 November: 100 startups prepared since September, 40 funded, 12 states with their own missions, about 300 startups expected in Lisbon; Cristina Mieko, head of Startups at Sebrae Nacional, quoted.",
+      "kind": "estimate",
+      "source": "starten-2026-11-04",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Atualmente, 12 estados organizaram missões próprias para o evento.",
+      "published": "2026-11-04",
+      "about": [
+        "organisation:sebrae-startups"
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "Cristina Mieko (Sebrae) lists Brazil's strengths: agribusiness, bioeconomy, energy, sustainability, financial services, health, artificial intelligence and productive inclusion.",
+      "kind": "fact",
+      "source": "brasil247-2026-11-03",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "inteligência artificial",
+      "published": "2026-11-03",
+      "about": [
+        "organisation:sebrae-startups"
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "ApexBrasil's innovation-environment call for 2026: up to 10 hubs, each nominating 5 startups (up to 50 startups); registration to 30 Aug, startups named by 2 Oct 2026.",
+      "kind": "fact",
+      "source": "apexbrasil-hub-rules-2026",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "até 10 Ambientes de Inovação brasileiros ... até 50 startups",
+      "note": "published: 2026 (registration to 2026-08-30)",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "The same 2026 rules say the 2025 Brazilian delegation had almost 380 companies, 247 of them supported by ApexBrasil, Sebrae Nacional and Serpro, the rest by state Sebraes; Germany and Brazil had the two largest delegations.",
+      "kind": "estimate",
+      "source": "apexbrasil-hub-rules-2026",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "A delegação brasileira contou com quase 380 empresas, sendo 247 startups",
+      "note": "published: 2026",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups",
+        "organisation:serpro"
+      ]
+    },
+    {
+      "id": "c16",
+      "text": "The 2026 rules contain a date slip: the mission bullet reads 'Data: 9 a 12 de novembro de 2025' in a document for 2026.",
+      "kind": "fact",
+      "source": "apexbrasil-hub-rules-2026",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Data: 9 a 12 de novembro de 2025",
+      "note": "published: 2026"
+    },
+    {
+      "id": "c17",
+      "text": "For 2025, Startups.com.br reported 340 startups: 256 selected by ApexBrasil and Sebrae, 84 by Softex, Anprotec and Serpro; 226 the year before; 123 first-timers. Jorge Viana (ApexBrasil president) said Brazil has more than 20,000 startups.",
+      "kind": "fact",
+      "source": "startups-2025-11-03-340",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "256 foram selecionadas pela ApexBrasil e o Sebrae",
+      "published": "2025-11-03",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups",
+        "organisation:serpro"
+      ]
+    },
+    {
+      "id": "c18",
+      "text": "For 2025, DN Brasil reported more than 370 Brazil-based startups and 151 participants selected by ApexBrasil (80 Southeast, 35 Northeast, 27 South, 6 North, 3 Center-West), and nearly R$94 million in deals in recent years.",
+      "kind": "estimate",
+      "source": "dnbrasil-2025-11-10-370",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "mais de 370 startups sediadas no Brasil",
+      "published": "2025-11-10",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c19",
+      "text": "In November 2025 Startups.com.br named ten startups for the Lisbon incubation house: Aiper, Biolinker, Beeviral, 593ican, Hope, SST, Just Travel, SleepUp, Wood Chat, PixNow; chosen from 112 exhibitors with Plug and Play; one floor of a historic building near Avenida da Liberdade shared with Embratur and Fiocruz.",
+      "kind": "fact",
+      "source": "startups-2025-11-12-incubator",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Just Travel",
+      "published": "2025-11-12",
+      "about": [
+        "company:just-travel"
+      ]
+    },
+    {
+      "id": "c20",
+      "text": "The 2027 cycle of the Lisbon incubation programme: up to 40 to a strategic exploration stage, top 20 onward, announced during Web Summit; bonus points for HealthTech, EnergyTech, ClimaTech, TravelTech, AgTech, Biotech.",
+      "kind": "fact",
+      "source": "dnbrasil-2026-09-04-incubation",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Up to 40 ... top 20",
+      "published": "2026-09-04"
+    },
+    {
+      "id": "c21",
+      "text": "Invest.Rio (Rio city's investment agency) and the Maravalley hub take 10 Rio startups to Web Summit Lisboa 2026, second year; Daniel Barros (CEO, Maravalley) and Sidney Levy (president, Invest.Rio) quoted.",
+      "kind": "fact",
+      "source": "startups-2026-09-18-invest-rio",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "10 startups",
+      "published": "2026-09-18",
+      "about": [
+        "local:invest-rio",
+        "local:maravalley"
+      ]
+    },
+    {
+      "id": "c22",
+      "text": "Gol pays flights for the 10 Rio startups: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT, AllPetSenior. Luiz Borrego, CIO of Gol, quoted.",
+      "kind": "fact",
+      "source": "startups-2026-10-26-gol",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Mobile Brain",
+      "published": "2026-10-26",
+      "about": [
+        "company:mobile-brain",
+        "company:sheerme",
+        "local:gol"
+      ]
+    },
+    {
+      "id": "c23",
+      "text": "Correio da Manhã gives the same ten Rio startups and dates the event 8 to 12 November 2026.",
+      "kind": "fact",
+      "source": "correio-2026-10-25-invest-rio",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "dez startups cariocas",
+      "published": "2026-10-25"
+    },
+    {
+      "id": "c24",
+      "text": "Session 'Brazil's blueprint for cyber resilience', 12 November 16:10 to 16:20, Stage 8 (Cybersecurity Summit), speaker Wilton Itaiguara Gonçalves Mota, President and CEO, Serpro.",
+      "kind": "fact",
+      "source": "ws-session-brazil-cyber-resilience",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Wilton Itaiguara Gonçalves Mota, President and CEO, Serpro",
+      "note": "published: programme page",
+      "about": [
+        "event:brazil-s-blueprint-for-cyber-resilience",
+        "organisation:serpro"
+      ]
+    },
+    {
+      "id": "c25",
+      "text": "Session 'The next digital frontier', 11 November 10:30, Stage 11 (Policy Summit): Vahan Agopyan (Secretary of Science, Technology and Innovation, State of São Paulo), with Bernardo Correia (Secretary of State for Digitalisation, Portugal), Tariq Al Tayer (UAE) and Eleanor Pringle (Fortune). Read by the programme desk 5 Nov.",
+      "kind": "fact",
+      "source": "ws-session-next-digital-frontier",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Vahan Agopyan",
+      "note": "published: programme page",
+      "about": [
+        "event:the-next-digital-frontier"
+      ]
+    },
+    {
+      "id": "c26",
+      "text": "'German-Brazilian Startup Night', a meetup on 10 November 17:30 to 22:30 at the Gale patio; no hosts, speakers or description on the page.",
+      "kind": "fact",
+      "source": "ws-session-german-brazilian-night",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "German-Brazilian Startup Night",
+      "note": "published: programme page",
+      "about": [
+        "event:german-brazilian-startup-night"
+      ]
+    },
+    {
+      "id": "c27",
+      "text": "ApexBrasil survey: over 13,000 startups, more than 120 investment funds, over 250 innovation hubs, over 30 unicorns; US$2.135 billion VC in 2024 across 386 deals; ApexBrasil supported nearly 100 startups at Web Summit Rio 2026.",
+      "kind": "estimate",
+      "source": "abes-2026-08-21-apexbrasil-survey",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "over 13,000 startups and more than 120 investment funds",
+      "published": "2026-08-21",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c28",
+      "text": "2023: ApexBrasil planned a record delegation of 85 startups and 100 companies, more than double the 80 companies of 2022, the year the Brazil Pavilion debuted.",
+      "kind": "estimate",
+      "source": "forbespt-2023-11-07",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "vai levar 85 startups e 100 empresas à Web Summit Lisboa",
+      "published": "2023-11-07",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c29",
+      "text": "Opinion by Brazil's ambassador to Portugal, Raimundo Carreiro Silva: about 600 Brazilian participants at Web Summit Lisbon in 2022 and about 1,000 in 2023; Porto Digital Europa in Aveiro's innovation hub offers soft landing to Brazilian startups (10 companies); Unicorn Factory Lisboa ran a competition for Brazilian scaleups.",
+      "kind": "opinion",
+      "source": "dn-2024-11-10-ambassador",
+      "read_on": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "quote": "Porto Digital Europa",
+      "published": "2024-11-10"
+    }
+  ]
+}

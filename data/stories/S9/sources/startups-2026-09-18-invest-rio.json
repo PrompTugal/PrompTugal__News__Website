@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "startups-2026-09-18-invest-rio",
+  "story": "S9",
+  "url": "https://startups.com.br/eventos/web-summit/invest-rio-e-maravalley-vao-levar-10-startups-para-o-web-summit-lisboa/",
+  "title": "Invest.Rio e Maravalley vão levar 10 startups para o Web Summit Lisboa (Startups.com.br)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "published": "2026-09-18",
+  "what_it_says": "Invest.Rio (Rio city's investment agency) and the Maravalley hub take 10 Rio startups to Web Summit Lisboa 2026, second year; Daniel Barros (CEO, Maravalley) and Sidney Levy (president, Invest.Rio) quoted."
+}

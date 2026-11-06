@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "correio-2026-10-25-invest-rio",
+  "story": "S9",
+  "url": "https://www.correiodamanha.com.br/rio-de-janeiro/2026/10/amp/329679-invest-rio-firma-parceria-para-levar-dez-startups-cariocas-ao-web-summit-lisboa.html",
+  "title": "Invest.Rio firma parceria para levar dez startups cariocas ao Web Summit Lisboa (Correio da Manhã)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "published": "2026-10-25",
+  "what_it_says": "Correio da Manhã gives the same ten Rio startups and dates the event 8 to 12 November 2026."
+}

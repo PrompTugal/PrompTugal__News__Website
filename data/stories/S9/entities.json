@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S9",
+  "kept_by": "correspondent@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "entities": [
+    {
+      "ref": "organisation:apexbrasil",
+      "label": "ApexBrasil",
+      "kind": "organisation",
+      "sources": [
+        "abes-2026-08-21-apexbrasil-survey",
+        "apexbrasil-hub-rules-2026",
+        "apexbrasil-results-page",
+        "dnbrasil-2025-11-10-370",
+        "forbespt-2023-11-07",
+        "iol-brasil-chega-a-lisboa",
+        "lusa-2026-11-04-200-companies",
+        "sebrae-2026-09-30-selected",
+        "startups-2025-11-03-340"
+      ],
+      "note": "Brazil's trade and investment agency; leads the national mission"
+    },
+    {
+      "ref": "organisation:sebrae-startups",
+      "label": "Sebrae",
+      "kind": "organisation",
+      "sources": [
+        "apexbrasil-hub-rules-2026",
+        "brasil247-2026-11-03",
+        "sebrae-2026-09-30-selected",
+        "starten-2026-11-04",
+        "startups-2025-11-03-340"
+      ],
+      "note": "Brazil's small business service; co-runs the mission"
+    },
+    {
+      "ref": "organisation:serpro",
+      "label": "Serpro",
+      "kind": "organisation",
+      "sources": [
+        "apexbrasil-hub-rules-2026",
+        "startups-2025-11-03-340",
+        "ws-session-brazil-cyber-resilience"
+      ],
+      "note": "the federal data service; supports the mission; its CEO speaks on 12 November"
+    },
+    {
+      "ref": "company:mobile-brain",
+      "label": "Mobile Brain",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "one of Rio de Janeiro city's ten startups; the team already follows it"
+    },
+    {
+      "ref": "company:just-travel",
+      "label": "Just Travel",
+      "kind": "company",
+      "sources": [
+        "startups-2025-11-12-incubator"
+      ],
+      "note": "in the first class of ApexBrasil and Sebrae's Lisbon incubator (November 2025)"
+    },
+    {
+      "ref": "company:sheerme",
+      "label": "sheerME",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "named among Rio's ten startups; the team's record has it as Portuguese"
+    },
+    {
+      "ref": "event:german-brazilian-startup-night",
+      "label": "German-Brazilian Startup Night",
+      "kind": "event",
+      "sources": [
+        "ws-session-german-brazilian-night"
+      ]
+    },
+    {
+      "ref": "event:brazil-s-blueprint-for-cyber-resilience",
+      "label": "Brazil's blueprint for cyber resilience",
+      "kind": "event",
+      "sources": [
+        "ws-session-brazil-cyber-resilience"
+      ]
+    },
+    {
+      "ref": "event:the-next-digital-frontier",
+      "label": "The next digital frontier",
+      "kind": "event",
+      "sources": [
+        "ws-session-next-digital-frontier"
+      ]
+    },
+    {
+      "ref": "local:invest-rio",
+      "label": "Invest.Rio",
+      "kind": "organisation",
+      "sources": [
+        "startups-2026-09-18-invest-rio"
+      ],
+      "note": "Rio de Janeiro city's investment agency"
+    },
+    {
+      "ref": "local:maravalley",
+      "label": "Maravalley",
+      "kind": "organisation",
+      "sources": [
+        "startups-2026-09-18-invest-rio"
+      ],
+      "note": "a Rio hub"
+    },
+    {
+      "ref": "local:gol",
+      "label": "Gol",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "the airline paying the Rio startups' flights",
+      "country": "Brazil"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "dnbrasil-2025-11-10-370",
+  "story": "S9",
+  "url": "https://dnbrasil.dn.pt/web-summit-brasil-chega-com-mais-de-370-startups-e-programao-intensa",
+  "title": "Web Summit: Brasil chega com mais de 370 startups e programação intensa (DN Brasil)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "published": "2025-11-10",
+  "what_it_says": "For 2025, DN Brasil reported more than 370 Brazil-based startups and 151 participants selected by ApexBrasil (80 Southeast, 35 Northeast, 27 South, 6 North, 3 Center-West), and nearly R$94 million in deals in recent years."
+}

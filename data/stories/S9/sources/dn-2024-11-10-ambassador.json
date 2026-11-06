@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "dn-2024-11-10-ambassador",
+  "story": "S9",
+  "url": "https://www.dn.pt/282683814/a-integracao-dos-ecossistemas-de-inovacao-do-brasil-e-de-portugal-no-contexto-do-web-summit/",
+  "title": "A integração dos ecossistemas de inovação do Brasil e de Portugal no contexto do Web Summit (Diário de Notícias, opinion)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "published": "2024-11-10",
+  "what_it_says": "Opinion by Brazil's ambassador to Portugal, Raimundo Carreiro Silva: about 600 Brazilian participants at Web Summit Lisbon in 2022 and about 1,000 in 2023; Porto Digital Europa in Aveiro's innovation hub offers soft landing to Brazilian startups (10 companies); Unicorn Factory Lisboa ran a competition for Brazilian scaleups."
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "brasil247-2026-11-03",
+  "story": "S9",
+  "url": "https://www.brasil247.com/sebrae/startups-brasileiras-buscam-clientes-e-investidores-no-web-summit-lisboa/",
+  "title": "Startups brasileiras buscam clientes e investidores no Web Summit Lisboa (Brasil 247, from Sebrae)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "published": "2026-11-03",
+  "what_it_says": "Cristina Mieko (Sebrae) lists Brazil's strengths: agribusiness, bioeconomy, energy, sustainability, financial services, health, artificial intelligence and productive inclusion."
+}

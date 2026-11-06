@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-session-german-brazilian-night",
+  "story": "S9",
+  "url": "https://websummit.com/sessions/lis26/8614a78e-c6b7-4c95-8f7b-a52a4cc38885/german-brazilian-startup-night/",
+  "title": "German-Brazilian Startup Night (Web Summit)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "'German-Brazilian Startup Night', a meetup on 10 November 17:30 to 22:30 at the Gale patio; no hosts, speakers or description on the page.",
+  "status": "date as read: programme page"
+}

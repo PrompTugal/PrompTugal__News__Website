@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "sebrae-2026-09-30-selected",
+  "story": "S9",
+  "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-e-apexbrasil-anunciam-startups-selecionadas-para-o-web-summit-lisboa-2026/",
+  "title": "Sebrae e ApexBrasil anunciam startups selecionadas para o Web Summit Lisboa 2026 (Agência Sebrae)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "published": "2026-09-30",
+  "what_it_says": "Sebrae and ApexBrasil chose 100 Brazilian startups for the official delegation to Web Summit Lisboa 2026. The 40 best-ranked startups get financial support from Sebrae. Sebrae expects about 300 Brazilian startups in the delegation it leads in 2026."
+}

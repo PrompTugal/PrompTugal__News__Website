@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "apexbrasil-results-page",
+  "story": "S9",
+  "url": "https://crm-apps.apexbrasil.com.br/orgbdeab873/inscricao-eventos/evento/web-summit-lisboa-2026/0714952e-98da-f011-8543-7ced8db0f987",
+  "title": "ApexBrasil | Web Summit Lisboa 2026 [EE-003616]",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "registry",
+  "what_it_says": "ApexBrasil's results page lists 188 approved companies by tax number (CNPJ) only, no names: 105 confirmed, 33 on the waiting list, 26 awaiting confirmation, 24 withdrawn, with status as of 28 August 2026.",
+  "status": "date as read: status as of 2026-08-28"
+}

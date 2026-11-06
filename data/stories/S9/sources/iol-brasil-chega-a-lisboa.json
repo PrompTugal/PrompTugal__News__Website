@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "iol-brasil-chega-a-lisboa",
+  "story": "S9",
+  "url": "https://www.iol.pt/web-summit-2026/brasil-em-lisboa/web-summit-2026-brasil-chega-a-lisboa-com-200-empresas-a-procura-de-investimento",
+  "title": "Web Summit 2026: Brasil chega a Lisboa com 200 empresas à procura de investimento (IOL)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "IOL (with Link to Leaders, from an ApexBrasil statement) splits the delegation: 99 companies selected for Web Summit's official programme, 90 nominated by partner entities, 50 linked to ten tech hubs. These add to 239, not the headline 200. IOL names four hubs: Porto Digital, ACATE, SENAI CIMATEC and Instituto Caldeira. ApexBrasil says Brazil has more than 13,000 active startups; Brazilian companies raised about US$700 million at earlier editions through contacts made there.",
+  "status": "date as read: 2026-11-05 (page says 'Ontem às 09:59', read 6 Nov)"
+}

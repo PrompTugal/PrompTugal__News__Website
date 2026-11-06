@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "startups-2025-11-12-incubator",
+  "story": "S9",
+  "url": "https://startups.com.br/eventos/web-summit/governo-abre-casa-brasileira-para-incubar-startups-em-lisboa/",
+  "title": "Governo abre casa brasileira para incubar startups em Lisboa (Startups.com.br)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "published": "2025-11-12",
+  "what_it_says": "In November 2025 Startups.com.br named ten startups for the Lisbon incubation house: Aiper, Biolinker, Beeviral, 593ican, Hope, SST, Just Travel, SleepUp, Wood Chat, PixNow; chosen from 112 exhibitors with Plug and Play; one floor of a historic building near Avenida da Liberdade shared with Embratur and Fiocruz."
+}

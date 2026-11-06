@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "abes-2026-08-21-apexbrasil-survey",
+  "story": "S9",
+  "url": "https://abes.org.br/en/apexbrasil-conecta-inovacao-brasileira-a-ecossistemas-globais-com-missoes-em-lisboa-e-dubai/",
+  "title": "ApexBrasil conecta inovação brasileira a ecossistemas globais com missões em Lisboa e Dubai (ABES)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "published": "2026-08-21",
+  "what_it_says": "ApexBrasil survey: over 13,000 startups, more than 120 investment funds, over 250 innovation hubs, over 30 unicorns; US$2.135 billion VC in 2024 across 386 deals; ApexBrasil supported nearly 100 startups at Web Summit Rio 2026."
+}

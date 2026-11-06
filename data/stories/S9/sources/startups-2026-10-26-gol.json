@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "startups-2026-10-26-gol",
+  "story": "S9",
+  "url": "https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/",
+  "title": "Gol vai bancar passagens de 10 startups cariocas a Lisboa (Startups.com.br)",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "published": "2026-10-26",
+  "what_it_says": "Gol pays flights for the 10 Rio startups: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT, AllPetSenior. Luiz Borrego, CIO of Gol, quoted."
+}

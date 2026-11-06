@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-session-next-digital-frontier",
+  "story": "S9",
+  "url": "https://websummit.com/sessions/lis26/2b66ba08-e60a-43a0-9f78-8f81c380af59/the-next-digital-frontier/",
+  "title": "The next digital frontier (Web Summit), via desks/programme/agenda.json",
+  "read_on": "2026-11-06",
+  "read_by": "correspondent@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Session 'The next digital frontier', 11 November 10:30, Stage 11 (Policy Summit): Vahan Agopyan (Secretary of Science, Technology and Innovation, State of São Paulo), with Bernardo Correia (Secretary of State for Digitalisation, Portugal), Tariq Al Tayer (UAE) and Eleanor Pringle (Fortune). Read by the programme desk 5 Nov.",
+  "status": "date as read: programme page"
+}

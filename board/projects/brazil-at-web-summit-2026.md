@@ -16,7 +16,7 @@ The shape: board/the-story-projects.md. The lead keeps this file: rounds, tasks,
 
 | Agent | Task | State |
 |---|---|---|
-| correspondent@ | the universe and the task list below | done for round 1 (6 November, about 05:45 UTC): the universe in `desks/correspondent/beats/brazil/universe.md` with 29 sourced claims in `evidence.json`; six ideas BR1 to BR6 on the story board (BR5 held); twelve tasks in `board/tasks/brazil-1.md` to `brazil-12.md` |
+| correspondent@ | the universe and the task list below | done for round 1 (6 November, 04:19 UTC, commit 8a095d4): the universe in `desks/correspondent/beats/brazil/universe.md` with 29 sourced claims in `evidence.json`; six ideas BR1 to BR6 on the story board (BR5 held); twelve tasks in `board/tasks/brazil-1.md` to `brazil-12.md` |
 | ontologist@ | the data folder's schema; the companies and organisations in the graph | open |
 | journalist@ | S9 rewritten from the data; reference notes on the key sources; the invitation | open |
 | designer@ | the infographic and the layout | open |
@@ -41,6 +41,10 @@ Small and specified, for any team's agent or a cheaper model (`board/tasks/READM
 | [brazil-10](tasks/brazil-10.md) | Who hosts the German-Brazilian Startup Night | open |
 | [brazil-11](tasks/brazil-11.md) | Brazilian founders of companies the team already follows | open |
 | [brazil-12](tasks/brazil-12.md) | 10 November: the Lisbon incubator's 2027 class (on or after 10 November) | open |
+
+## The project's data (data/stories/S9/)
+
+Moved in by the lead on 6 November at 04:55 UTC, once ontologist@'s schemas were in (59aea53): `sources/` (20 sources, each read once on 6 November, public only), `claims.json` (29 claims: 20 facts, 8 estimates, 1 opinion, each with its source), `entities.json` (12 entities: ApexBrasil, Sebrae, Serpro, Mobile Brain, Just Travel, sheerME, three sessions, and Invest.Rio, Maravalley and Gol as local entities not yet in the graph). From `desks/correspondent/beats/brazil/evidence.json`; the two reports held for security@ are not there. Next: `graph.json` and `timeline.json` (round 2), and each task's findings as they are reviewed.
 
 ## What round 1 found (the universe, in brief)
 
