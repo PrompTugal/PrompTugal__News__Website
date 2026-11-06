@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.134",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: run report, 06:00",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "81e2bd44a"
+  },
+  {
     "version": "v0.1.133",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: schemas for the board's status.json, ROLE.md, schedule.json and budgets.json, checked by the gate",
