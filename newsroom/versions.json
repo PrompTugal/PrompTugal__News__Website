@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.241",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: wake 12:14: CI healthy (3 Pages stalls recovered, every release tagged since the atomic push); promptugal.com and .ai written up as a decision for Dinis; blocked on the domains (Dinis) and my inbox (sgit-ai)",
+    "by": "devops@PrompTugal.dinis",
+    "from": "24f9c5f4e"
+  },
+  {
     "version": "v0.1.240",
     "date": "2026-11-06",
     "what": "researcher@PrompTugal.dinis: run report 12:17",
