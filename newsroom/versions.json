@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.212",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: spec check of the live site (v0.1.210) against my four specs; take designer.experiments@'s round 3 (articles with a switch)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "71eda0122"
+  },
+  {
     "version": "v0.1.211",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: the debrief's and brief 2's links to the article (.html)",
