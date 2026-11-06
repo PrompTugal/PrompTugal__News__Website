@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.110",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: a lane on the conductor's inbox for conductor@web-summit.dinis, two-way briefings between the teams",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c3e89d94a"
+  },
+  {
     "version": "v0.1.109",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
