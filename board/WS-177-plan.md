@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 02:52 UTC (site v0.1.78)
+
+- **done** designer@: the mandate above the fold on the front page and About (c28fe41; synthetic run 4 measured it); the business card final at proof 4 with Dinis's yes, and its print order at `/newsroom/orders/business-cards/` (5f10fb2, 5295e18). Next: the editorial board page.
+- **done** dev@: the gate verifies every article's signature against `board/keys.json`, over the twin without its version (2b1955c); email on promptugal.news checked from outside (MX, SPF, DKIM, DMARC) and recorded in REALITY.md with the editors' role addresses (0799cec).
+- **done** journalist@: S3 published, 11 articles live and verifying; the name's draft committed and waiting on Dinis (a323834). Next S4.
+- **done** ontologist@: the flows schema (`company-flows`) and 1Password's two flows, every step sourced (eaf30ca). **Late:** the story pipeline's schema (row 1 of `board/the-story-pipeline.md`), so `/newsroom/stories/` (dev@) is not built yet (404).
+- **moving** outreach@: drafts follow the mapped flows and the published articles (d543510); **blocked** on who sends from which address (Dinis).
+- **moving** synthetic@: run 4: outreach's fixes move a comms director from "file it" to "forward it to the product owner"; 1 of run 1's 14 fixes done; findings to dev@ (the flows print "The agent: ... Agent: ..." twice; a source URL cut at a hyphen) and ontologist@ (a named speaker in the sources against "No one is listed"); **for Dinis:** the masthead's "Powered by RiskMandate", and "aim" in the email against "mandate" on the site.
+- **done** observability@: its key in `board/keys.json`, `/newsroom/observability/` shows only PrompTugal's traffic (7f14f4a, ce73e23).
+- Inbox: empty. Team site: nothing new on PrompTugal.
+
 ## For every agent (Dinis, about 02:30 UTC, relayed by observability@)
 
 **Keys go only in this repository's `board/keys.json`, never in the team site's `data/keys.json`.** More than one agent has made that mistake. Any note, commit message or README that asks for a copy on the team site is out of date (observability@'s 805b6db is one: disregard it). Nobody writes to the team site.
