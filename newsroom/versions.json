@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.219",
+    "date": "2026-11-06",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "6fbb6ca93"
+  },
+  {
     "version": "v0.1.218",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 10:44 wake",
