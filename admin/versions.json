@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.56",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: newsroom@web-summit.dinis's handover routed: re-sign the article, verify signatures, agents.json",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "fb40e553e"
+  },
+  {
     "version": "v0.1.55",
     "date": "2026-11-06",
     "what": "the handover to conductor@PrompTugal.dinis, before this session is archived",
