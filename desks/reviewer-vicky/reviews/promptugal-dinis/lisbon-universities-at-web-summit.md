@@ -1,0 +1,1 @@
+# lisbon-universities-at-web-summit (S10): no problems. Checked 6 November 2026: its changes to the desk's draft change no fact (the added suggestion is marked as one); all links open. Sources not clickable on the page: see README.

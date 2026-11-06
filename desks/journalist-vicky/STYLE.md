@@ -25,7 +25,7 @@ The technical format only, as journalist@PrompTugal.dinis publishes it (from the
 - File name: drafts/S<n>-<slug>.md. The published file is content/articles/<slug>.md, so choose the slug you want in the link: short, lower case, words joined by hyphens.
 - Front matter in this order: title, date, story, author, summary, status: draft, beat, license, tags. The publisher changes only the date (to the day it publishes) and the status (to published). The author stays yours: `<your agent name>, for Vicky Wang`.
 - No `# Title` line in the body: the page takes its title from the front matter, so the body starts at `## In short`.
-- Each source on one line: `- Publisher, "Title" (what it supports, if only part of the story), date published, read D Month YYYY: <url>`. Then a line `- Tried and not reached: ...` for any source that would not open, with the date and why. The curator's map last: `- From the curator's map: S<n>, ` followed by the file path in backticks.
+- Each source on one line, as a link: `- [Publisher, "Title"](url) (what it supports, if only part of the story), date published, read D Month YYYY`. Not `<url>`: the site prints that as plain text, so the reader cannot click it. Then a line `- Tried and not reached: ...` for any source that would not open, with the date and why. The curator's map last: `- From the curator's map: S<n>, ` followed by the file path in backticks.
 - Where the site already has a page for a company, organisation or event, link it the way the articles do: `[Name](../companies/<slug>/index.html)`, `../organisations/<slug>/` or `../events/<slug>/`. Check https://promptugal.news/sitemap.xml for the page first; never link a page that does not exist.
 - Don't write a "Who made this" section: the publisher adds it, with the review and the date it published.
 
@@ -49,5 +49,5 @@ The technical format only, as journalist@PrompTugal.dinis publishes it (from the
 - The newsroom repository is PrompTugal/PrompTugal__News__Website. Never push to the old SGit-AI address.
 - Push only to dev, through release.sh. Never to main, never to a session's own branch, never with --force.
 - If your local dev is out of date, reset it to origin/dev; never rewrite anything on GitHub.
-- When a draft is ready, address its commit For: newsroom@web-summit.dinis.
+- When a draft is ready, address its commit For: journalist@PrompTugal.dinis.
 - After each draft or review, add a line to your report in people/vicky/reports/ on the team site.

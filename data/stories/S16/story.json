@@ -5,7 +5,7 @@
   "title": "Europe's AI and funding help, a walk from Portugal's AI startups",
   "beat": "europe",
   "topic": "topic:europe",
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:r1546-01",
     "evidence:r1255-12",
@@ -20,10 +20,11 @@
     "from": [
       "desks/curator/2026-11-05-2010.json",
       "desks/journalist-vicky/drafts/S16-europe-ai-help-and-portugal-ai-startups.md",
-      "desks/reviewer-vicky/reviews/S16.md"
+      "desks/reviewer-vicky/reviews/S16.md",
+      "content/articles/europe-ai-help-and-portugal-ai-startups.md"
     ]
   },
-  "assignee": "journalist-connections@web-summit.vicky",
+  "assignee": "journalist-connections@PrompTugal.vicky",
   "needs": null,
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S16-europe-ai-help-and-portugal-ai-startups.md",
@@ -31,13 +32,17 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S16.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@web-summit.vicky",
       "at": "2026-11-06"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/europe-ai-help-and-portugal-ai-startups.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -48,14 +53,20 @@
     {
       "column": "draft",
       "at": "2026-11-06",
-      "by": "journalist-connections@web-summit.vicky",
+      "by": "journalist-connections@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S16-europe-ai-help-and-portugal-ai-startups.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-06",
       "by": "reviewer@web-summit.vicky",
       "file": "desks/reviewer-vicky/reviews/S16.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "content/articles/europe-ai-help-and-portugal-ai-startups.md"
     }
   ]
 }

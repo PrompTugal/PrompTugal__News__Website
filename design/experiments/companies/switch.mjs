@@ -23,8 +23,11 @@ const cos = fs.readdirSync(path.join(root, 'data/companies')).map(id => {
     const t = (d.what || '').split(/(?<=[.;:])\s/)[0].replace(/[:;,]$/, '')
     return { id, n: d.name, w: t.length > 130 ? t.slice(0, 127).replace(/\s+\S*$/, '') + '…' : t, f: d.category || 'other', c: d.country || 'Unknown', a: d.attending_as || '' }
 }).filter(Boolean).sort((a, b) => a.n.localeCompare(b.n))
+// the site's tokens are inlined, so the page works from a vault or any folder, not only from this checkout (designer@'s round-3 note)
+const TOK = fs.readFileSync(path.join(root, 'assets/tokens.css'), 'utf8')
 const html = `<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Companies: three views, one page</title>
-<style>@import url("${U('assets/fonts.css')}"); @import url("${U('assets/tokens.css')}");
+<style>${TOK}
+
 *{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 var(--sans)} .wrap{max-width:var(--page);margin:0 auto;padding:0 var(--gutter)}
 .bar{border-bottom:3px double var(--rule);padding:12px 0} .bar b{font:700 20px var(--serif)}
 h1{font:600 var(--fs-h1)/1.1 var(--serif);margin:16px 0 4px} .lede{color:var(--ink-2);margin:0 0 12px}

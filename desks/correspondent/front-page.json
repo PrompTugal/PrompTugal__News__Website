@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-06T08:45Z",
+  "updated": "2026-11-06T10:46Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "web-summit-ten-lisbon-years",
@@ -25,9 +25,10 @@
     "label": "If you are going",
     "articles": [
       "your-first-day-at-web-summit",
-      "tuesday-10-november-three-ways-in"
+      "tuesday-10-november-three-ways-in",
+      "wednesday-11-november-going-abroad"
     ],
-    "why": "Practical pieces that keep their value until Tuesday morning; a box of their own so they do not push news down."
+    "why": "Practical pieces that keep their value until the day they describe; a box of their own so they do not push news down. Tuesday's and Wednesday's day guides in date order."
   },
   "beats": [
     {
@@ -50,7 +51,8 @@
       "beat": "Europe",
       "articles": [
         "italy-and-portugal-in-beato",
-        "europe-in-pavilion-4"
+        "europe-in-pavilion-4",
+        "wednesday-11-november-going-abroad"
       ]
     },
     {
@@ -69,9 +71,10 @@
   ],
   "from_the_newsroom": {
     "articles": [
+      "the-first-night-of-promptugal-news",
       "newsroom-status-four-days-out"
     ],
-    "why": "About us, not news, and its title ('four days out') is out of date from 6 November: off Latest, into a small 'From the newsroom' line."
+    "why": "About us, not news: the first night's story (people and agents setting up the site) is the better of the two and goes first; both in a small 'From the newsroom' line, off Latest."
   },
   "order_of_bands": [
     {
@@ -180,6 +183,7 @@
         "know": "51 official items: the AI agent economy, a UN AI treaty, monitoring GenAI; the Policy Summit (São Paulo and Portugal on one stage). European Tech Champions, Italy and Portugal, in Beato (italy-and-portugal-in-beato).",
         "lead": "the day's news",
         "also": [
+          "wednesday-11-november-going-abroad",
           "now and next"
         ]
       },
@@ -218,5 +222,6 @@
       "decision": "accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them.",
       "at": "2026-11-06T06:44Z"
     }
-  ]
+  ],
+  "note_for_dev": "Read today: lead and top (thank you, 75166071). Not read yet: service, beats, from_the_newsroom and days. Until they are, the Latest list carries everything else newest first, the newsroom pieces among the news."
 }

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "AI4",
+  "type": "story",
+  "title": "One agent, read through reach, mandate and gap: Strawberry",
+  "beat": "AI",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [],
+  "desk_files": [
+    "desks/correspondent/ideas/ai4-one-agent-read-through-reach-mandate-gap.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/correspondent/ideas/ai4-one-agent-read-through-reach-mandate-gap.md"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06",
+      "by": "correspondent@PrompTugal.dinis",
+      "file": "desks/correspondent/ideas/ai4-one-agent-read-through-reach-mandate-gap.md"
+    }
+  ]
+}

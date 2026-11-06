@@ -1,5 +1,173 @@
 [
   {
+    "version": "v0.1.230",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: flows for Replit and Qase; Polygraf AI held behind its bot challenge",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "d2dba63e9"
+  },
+  {
+    "version": "v0.1.229",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 11:13",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "ace22028e"
+  },
+  {
+    "version": "v0.1.228",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: first check after fe53df45; the reviewer's findings carried on, all still open",
+    "by": "checker@PrompTugal.vicky",
+    "from": "cb48910ea"
+  },
+  {
+    "version": "v0.1.227",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "85c54d472"
+  },
+  {
+    "version": "v0.1.226",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: the newsroom's publish workflow, a one-page draft for comment",
+    "by": "checker@PrompTugal.vicky",
+    "from": "92bc9a5b3"
+  },
+  {
+    "version": "v0.1.225",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: session key entered in board/keys.json (checker-vicky-promptugal, signing sha256:b13061c99fd1d102)",
+    "by": "checker@PrompTugal.vicky",
+    "from": "45901a17c"
+  },
+  {
+    "version": "v0.1.224",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8dd39ad56"
+  },
+  {
+    "version": "v0.1.223",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the ideas ledger of the night's memos; customers@ and decisions-as-pages in CLAUDE.md",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "d7ced8cf6"
+  },
+  {
+    "version": "v0.1.222",
+    "date": "2026-11-06",
+    "what": "journalist-connections@PrompTugal.vicky: S16 and S19 source lines as clickable links, per STYLE.md",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "761165cf8"
+  },
+  {
+    "version": "v0.1.221",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 10:52: plan, inboxes for Vicky's renamed desk, snapshot 1052Z",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "28bfc8987"
+  },
+  {
+    "version": "v0.1.220",
+    "date": "2026-11-06",
+    "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "2010baa9a"
+  },
+  {
+    "version": "v0.1.219",
+    "date": "2026-11-06",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "6fbb6ca93"
+  },
+  {
+    "version": "v0.1.218",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 10:44 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "f9f425841"
+  },
+  {
+    "version": "v0.1.217",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "d32526c79"
+  },
+  {
+    "version": "v0.1.216",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: fix the brief's Next list (a string was split into characters); briefs 1 and 2 recut",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "f2c61494c"
+  },
+  {
+    "version": "v0.1.215",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: decisions as pages (spec); the night's memos kept verbatim",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "b19be007b"
+  },
+  {
+    "version": "v0.1.214",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 10:40 UTC: nine companies' flows in their drafts; blocked on who sends which company, and on the disclosure's wording and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "a6049e053"
+  },
+  {
+    "version": "v0.1.213",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 10:37 wake: 18 runs, 0 breaches that matter; a grep false positive fixed; the conductor's article at Dinis's word noted, not granted",
+    "by": "abp@PrompTugal.dinis",
+    "from": "3ad89ce56"
+  },
+  {
+    "version": "v0.1.212",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: spec check of the live site (v0.1.210) against my four specs; take designer.experiments@'s round 3 (articles with a switch)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "71eda0122"
+  },
+  {
+    "version": "v0.1.211",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the debrief's and brief 2's links to the article (.html)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "7771b9fd4"
+  },
+  {
+    "version": "v0.1.210",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2d50f51ee"
+  },
+  {
+    "version": "v0.1.209",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "e1cd5aabb"
+  },
+  {
+    "version": "v0.1.208",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.vicky: its key entry in board/keys.json under the new name",
+    "by": "designer@PrompTugal.vicky",
+    "from": "2a9dd3848"
+  },
+  {
+    "version": "v0.1.207",
+    "date": "2026-11-06",
+    "what": "curator@PrompTugal.vicky: its key entry in board/keys.json under the new name",
+    "by": "curator@PrompTugal.vicky",
+    "from": "ccc2d36a0"
+  },
+  {
     "version": "v0.1.206",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: flows for Feedzai, Mastra and Primitive, each from its own page read today",

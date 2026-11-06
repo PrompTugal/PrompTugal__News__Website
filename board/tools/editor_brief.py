@@ -139,7 +139,8 @@ def render(b):
                 out.append(f"<figure><img src='{src}' alt='{e(i.get('caption', ''))}'><figcaption>{e(i.get('caption', ''))}</figcaption></figure>")
         out.append("</div>")
     if b.get("next"):
-        out.append("<h2>Next</h2><ul>" + "".join(f"<li>{e(n)}</li>" for n in b["next"]) + "</ul>")
+        nxt = [b["next"]] if isinstance(b["next"], str) else b["next"]   # a string is one item, not a list of characters (the bug in briefs 1 and 2, Dinis, 6 Nov 10:39)
+        out.append("<h2>Next</h2><ul>" + "".join(f"<li>{e(n)}</li>" for n in nxt) + "</ul>")
     if b.get("sources"):
         out.append("<h2>Where this came from</h2><p class='src'>" + " · ".join(e(s) for s in b["sources"]) + "</p>")
     out.append("</body></html>")
