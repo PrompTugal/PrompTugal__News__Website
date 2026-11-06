@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.308",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: offline mode back on: switch.json was committed off by mistake",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6712a62e5"
+  },
+  {
     "version": "v0.1.307",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: wake 18:08: offline conditions, S1b, the deploy's size; status and run report",
