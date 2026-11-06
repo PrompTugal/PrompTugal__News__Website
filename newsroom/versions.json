@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.378",
+    "date": "2026-11-06",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "04f8421c2"
+  },
+  {
     "version": "v0.1.377",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: the home page is Silvio's mock E, from data; RiskMandate only in the footer; one page width",
