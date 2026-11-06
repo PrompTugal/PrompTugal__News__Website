@@ -1,0 +1,23 @@
+<!-- C, the top of every page: the component's markup, filled by newsroom/build/lib/top.mjs ({{name}} is a value,
+     {{#name}} a list made from the matching item below). The look: top.css; the switch and More: top.js. -->
+<!-- part:head -->
+<header class="ctop">
+<div class="ctop-row">
+<a class="ctop-home" href="{{up}}index.html" aria-label="{{name}}, the front page"><img class="ctop-stamp tone-light" src="{{up}}assets/brand/pt-news-stamp-light.svg" alt="" width="40" height="40"><img class="ctop-stamp tone-dark" src="{{up}}assets/brand/pt-news-stamp-dark.svg" alt="" width="40" height="40"><span class="ctop-name"><b>{{name}}</b><time datetime="{{today}}">{{date}}</time></span><span class="ctop-wm">{{wordmark}}</span></a>
+<form class="ctop-search" role="search" action="{{up}}search/index.html" method="get"><label for="ctop-q"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg><span class="visually-hidden">Search</span></label><input id="ctop-q" name="q" type="search" placeholder="Search companies, people, events" autocomplete="off"><kbd>/</kbd></form>
+<p class="ctop-when"><span><time datetime="{{today}}">{{date}}</time>{{go}}</span><span>{{#util}}</span></p>
+<div class="ctop-tools"></div>
+</div>
+<nav class="ctop-nav" aria-label="Sections"><div class="links">{{#nav}}</div><p class="ctop-motto">{{motto}}.</p></nav>
+</header>
+<p class="ctop-tagline">{{motto}}.</p>
+<!-- part:tabs -->
+<nav class="ctabs" aria-label="Sections, at the bottom">{{#tabs}}<a href="{{up}}search/index.html"{{search_cur}}><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg><span>Search</span></a><button type="button" class="ctabs-more" aria-expanded="false" aria-controls="ctop-more"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>More</span></button></nav>
+<div class="cmore" id="ctop-more" hidden><nav aria-label="Every section">{{#all}}</nav></div>
+<!-- item:link --><a href="{{href}}"{{cur}}>{{label}}</a>
+<!-- item:go --> · <b>{{text}}</b>
+<!-- item:tab-now --><a href="{{href}}"{{cur}}><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>{{label}}</span></a>
+<!-- item:tab-agenda --><a href="{{href}}"{{cur}}><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="5" width="16" height="15" rx="1"/><path d="M4 10h16M9 3v4M15 3v4"/></svg><span>{{label}}</span></a>
+<!-- item:tab-news --><a href="{{href}}"{{cur}}><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="4" width="14" height="16" rx="1"/><path d="M8 8h8M8 12h8M8 16h5"/></svg><span>{{label}}</span></a>
+<!-- item:tab-companies --><a href="{{href}}"{{cur}}><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 20V10h6v10M10 20V5h6v15M16 20v-7h4v7M3 20h18"/></svg><span>{{label}}</span></a>
+<!-- end -->

@@ -6,3 +6,5 @@ Checked 6 November 2026 against its five sources and Web Summit's session page, 
 2. **One of its two speakers.** "Web Summit's schedule lists "Press conference: Road 2 Web Summit 2026 Winner" ... with Miguel d'Aguiar." The page lists two speakers: Margarida David, Startups Manager, Web Summit, and Miguel d'Aguiar, Executive Director, Startup Portugal.
 
 Everything else matches (the 11th edition, up to 125, the bootcamp, 50% off ALPHA or BETA, Galp's prizes and last year's winners, 1,200 since 2016, 115 and 40 million euros in 2025, the PITCH winners, both quotes, the 2024 figures from Jornal de Negócios, Thursday 12 November, 12:30 to 12:50 on Stage 2, in Lisbon time as Web Summit's schedule data gives it). All links open; the old Startup Portugal address does return 404, as the article says. Sources not clickable on the page: see README.
+
+**Second check, 6 November 2026:** finding 2 fixed (both speakers named). Finding 1 still open: the article still suggests investors go to the press conference "to hear who won"; the session page says "Media event only".

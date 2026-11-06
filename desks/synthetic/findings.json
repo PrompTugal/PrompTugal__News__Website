@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T15:50Z",
+ "updated": "2026-11-06T16:52Z",
  "items": [
   {
    "id": "F01",
@@ -506,7 +506,7 @@
    "finding": "The Algarve Evolution page's 'Correct us, add to us' says 'Tell Dinis Cruz' with no link, form or route; the regional reader wanted to send corrections and could not (run 9, checked in the page text).",
    "status": "open",
    "decision": null,
-   "evidence": null
+   "evidence": "16:50 UTC: the line now reads 'Tell the editors ... (who we are and how to reach us is on the About page)', but About's editors section gives no way to reach anyone; the promise points at a route that is not there (with F02, the editors' address, waiting on Dinis)"
   },
   {
    "id": "F47",
@@ -514,9 +514,9 @@
    "owner": "dev.portugal@",
    "severity": "minor",
    "finding": "The Algarve page's partners list includes Informa D&B, which the page cites only for a study (run 9, checked).",
-   "status": "open",
+   "status": "verified",
    "decision": null,
-   "evidence": null
+   "evidence": "live 16:50 UTC (v0.1.293): 'Informa D&B is not a partner: it wrote the startup study the press cites.'"
   },
   {
    "id": "F48",

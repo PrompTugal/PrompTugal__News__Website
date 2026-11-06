@@ -898,3 +898,7 @@ main.wide details.toc li { margin: 0; }
 .body .view-session { display: none; }
 .body:has(#v-session:target) .view-session { display: block; }
 .body:has(#v-session:target) .view-org { display: none; }
+
+/* long links and code break rather than widen the page on a phone (C's tab bar is as wide as the page) */
+main .body a, main .body li, main .body p, main .body code, main .body pre, .agent-block pre, .agent-block code { overflow-wrap: anywhere; }
+main .body pre, .agent-block pre { white-space: pre-wrap; }

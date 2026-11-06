@@ -10,6 +10,10 @@ opened: 2026-11-06T04:50Z
 ---
 # Pass: signed-in-views
 
+## The build plan for every reader (Dinis's brief, 17:05 UTC)
+
+`board/spec-vault-onboarding.md`: a key pool, a signed licence holding the SG/Send access key, a claim lane and a sealed mailbox; door, master and book vaults in the browser (passkey PRF, or a door secret). dev.search@ builds the browser side, observability@ the claim lane and the sweep (inside its hourly wake), security@ pre-reviews, dev@ reviews.
+
 ## Opened now (Dinis, 13:05 UTC): sign in with a passkey, his vault, one experience on every device
 
 His words: `board/guidance/2026-11-06-pt-decisions-passkey-and-the-platform.md`. Today the sign-in (`assets/login/keyring.js`, `/login/`) imports a person's key from a link into one browser's IndexedDB: each device needs its own link, and nothing he does on one device follows him to the next.

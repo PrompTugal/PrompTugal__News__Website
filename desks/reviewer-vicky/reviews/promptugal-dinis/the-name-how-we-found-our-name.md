@@ -8,3 +8,5 @@ Checked 6 November 2026 against the board issues and commits it cites, and the l
 4. **"Late on 5 November the brand identity v2.0 settled it: PrompTugal.news."** The brand is dated 5 November (d269561a, 23:55 UTC), but the spelling is recorded as settled on 6 November ("the one spelling, at Dinis's word of 6 November 2026", CLAUDE.md; REALITY.md: "Settled 6 November"). Smaller: "Portugal's two colours" is not in `design/brand/README.txt`, which says only that the T is red and "ugal" green.
 
 Everything else matches: both Dinis quotes, word for word, from WS-177; the domain bought that night; the mandate; the newsroom created on 4 November; The Lisbon Wire as the working name; PromptUGAL for a few hours. Both links (WS-177 and WS-14 on the team site) open.
+
+**Second check, 6 November 2026:** unchanged; all four findings still open (21:45 UTC; 109 companies; the record of who asked; the date the spelling was settled).
