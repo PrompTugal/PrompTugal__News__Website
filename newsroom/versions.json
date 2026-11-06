@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.200",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: the agent pattern takes dotted workers' names (dev.data@ unblocked)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "d07374974"
+  },
+  {
     "version": "v0.1.199",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: Dinis's word on budgets (capture and adjust, not block); ontologist nudged",
