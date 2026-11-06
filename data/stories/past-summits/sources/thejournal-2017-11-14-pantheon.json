@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "thejournal-2017-11-14-pantheon",
+  "story": "past-summits",
+  "url": "https://www.thejournal.ie/web-summit-national-pantheon-dinner-3695517-Nov2017/",
+  "title": "Web Summit organiser apologises over 'offensive' dinner at Portugal's National Pantheon (TheJournal.ie, 14 November 2017)",
+  "publisher": "TheJournal.ie",
+  "published": "2017-11-14",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "During the 2017 Lisbon edition, TheJournal.ie reports that Portugal's Prime Minister criticised a Web Summit founders' and investors' dinner held at the National Pantheon as unworthy of the respect due to the monument, that the organiser apologised on Twitter, and that the Pantheon's rules would be changed. It notes the Dublin founders' dinner had been held in the crypt of Christ Church Cathedral."
+}
