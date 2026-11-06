@@ -45,6 +45,31 @@ function relatedSection(ctx, rel, c) {
     return out.length ? `How we get from one company to the next: through an event both are at, or a field both are filed under. Each line says which.\n\n{.rows}\n${out.join('\n')}` : 'None in our data yet.'
 }
 
+// Its flows and where AI agents are in them (data/companies/<id>/flows.json, kept by the ontologist). A flow is
+// { id, name, summary?, source, steps: [{ what, actor?, agent?, source }] }; a step's agent, when present, says what
+// an AI agent does at that step, as the source says it. Every flow and step cites a source in sources.json (the gate
+// checks it). Without a mapped flow the section says so and asks; it never guesses one.
+function flowsSection(ctx, c) {
+    const cell = ctx.md.cell, src = new Map(c.sources.map(s => [s.id, s]))
+    const cite = ids => [ids].flat().filter(Boolean).map(id => src.get(id)).filter(Boolean).map(s => sourceLine(s.url, s.read_on)).join('; ')
+    if (!c.flows.length) return `We have not mapped ${cell(c.name)}'s flows yet: how work moves through its product, from a request to a result, and at which steps an AI agent acts. We map them only from public pages (its own site and documentation, its talks), each step with its source, and never guess. If you are at ${cell(c.name)}, the quickest way to get this right is to tell us how it works.`
+    const agents = c.flows.reduce((n, f) => n + (f.steps || []).filter(s => s.agent).length, 0)
+    return `How work moves through ${cell(c.name)}'s product, as its public pages describe it, and the steps where an AI agent acts (${plural(agents, 'step')} with an agent, marked **Agent**). Each step cites its source.\n\n` + c.flows.map(f =>
+        `### ${cell(f.name)} {#flow-${f.id}}\n\n${f.summary ? cell(f.summary) + ' ' : ''}(${cite(f.source)})\n\n` +
+        (f.steps || []).map((st, i) => `${i + 1}. ${st.actor ? `**${cell(st.actor)}**: ` : ''}${cell(st.what)}${st.agent ? ` **Agent:** ${cell(st.agent)}` : ''} (${cite(st.source)})`).join('\n')).join('\n\n')
+}
+
+// What PrompTugal.news is, for a reader who arrives from an email: who makes it, what it is not, the disclosure.
+// Words from data/site/site.json, so this block and the shell's footer cannot disagree.
+function aboutSection(ctx, rel, c) {
+    const S = ctx.SITE, cell = ctx.md.cell
+    return `**${cell(S.name)}**: ${cell(S.motto)}. ${cell(S.promise)} ${cell(S.footer_note)}\n\n` +
+        `- **Why this page exists.** We keep a page on every company we follow at the summit, built only from public pages, so that anyone, ${cell(c.name)} included, can see what we know and where it comes from. Nothing on it is an endorsement.\n` +
+        `- **Independence.** ${cell(S.independence)} ${cell(S.disclosure)} [Our disclosure](${ctx.link(rel, 'about/participant.html')}) says it in full; please weigh what we say with it in mind.\n` +
+        `- **Corrections.** If something here is wrong or out of date, we correct it on this page, dated. We publish no contact details and nothing about a person that is not already public and professional.\n` +
+        `- **More.** [About ${cell(S.name)}](${ctx.link(rel, 'about/index.html')}), [all the companies](${ctx.link(rel, 'companies/index.html')}), [the summit](${ctx.link(rel, 'summit/index.html')}).`
+}
+
 export function pages(ctx) {
     const { AGENT, TEAM_SITE } = ctx, cell = ctx.md.cell
     return ctx.store.companies.map(x => {
@@ -60,6 +85,7 @@ export function pages(ctx) {
                 `::: navigator n3\n::: nv\n## At the summit {#summit}\n\n${summitSection(ctx, rel, x)}\n:::\n` +
                 `::: nv\n## People {#people}\n\nPeople the summit's pages list under ${cell(x.name)}, by name, role and organisation only.\n\n${peopleSection(ctx, rel, x)}\n:::\n` +
                 `::: nv\n## Related companies {#related}\n\n${relatedSection(ctx, rel, x)}\n:::\n:::\n\n` +
+                `## Its flows, and where AI agents are in them {#flows}\n\n${flowsSection(ctx, x)}\n\n` +
                 `## Our question for them {#question}\n\nAs for every company we follow, three questions, not claims. We have not asked ${cell(x.name)} yet. When they answer, it goes here.\n\n{.lens}\n1. **Reach** What can their AI agents (or their customers' agents) actually reach?\n2. **Mandate** What were they authorised to do?\n3. **Gap** Who controls the gap between the two?\n\n` +
                 `## Where this comes from {#sources}\n\n{.sources}\n` +
                 x.sources.map(s => `- [${cell(s.url).replace(/^https?:\/\//, '').slice(0, 70)}](${s.url}), read ${s.read_on} by the team's curator: ${cell(s.supports)}.`).join('\n') +
@@ -67,6 +93,7 @@ export function pages(ctx) {
                 [sp ? (sp.status === 200 ? `the summit's page answered and is still live` : sp.status ? `the summit's page answered with HTTP ${sp.status}, so its listing has moved or gone: until it is found again, treat its place at the summit as not re-confirmed` : `the summit's page did not answer in time; the listing is as the team read it on 1 November`) : `there is no summit page for it in the team's sources`,
                 ws ? `the company's website answered ${ws.status >= 200 && ws.status < 400 ? 'and is live' : ws.status ? `with HTTP ${ws.status} to an automated read` : 'not at all to an automated read'}` : ''].filter(Boolean).join('; ') + '.' +
                 `\n\nTaken from the team's company map (\`data/companies.json\` on [web-summit.sgit.ai](${TEAM_SITE})), public facts only. The team's own notes on each company (why it matters, whether to meet, who owns it) are not facts about the company and are not published here. Something wrong? Tell us and we correct it on this page, dated.\n\n` +
+                `## About ${cell(ctx.SITE.name)} {#about}\n\n${aboutSection(ctx, rel, x)}\n\n` +
                 `${dataLinks(ctx, rel, 'companies', x.id)}\n\n[All companies](../index.md)`,
         }
     })

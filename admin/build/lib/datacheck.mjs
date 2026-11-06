@@ -15,6 +15,7 @@ export const KINDS = [
     [/^data\/companies\/[^/]+\/facts\.json$/, 'company-facts'],
     [/^data\/companies\/[^/]+\/edges\.json$/, 'company-edges'],
     [/^data\/companies\/[^/]+\/recheck\.json$/, 'company-recheck'],
+    [/^data\/companies\/[^/]+\/flows\.json$/, 'company-flows'],     // its schema is the ontologist's (data/schemas/)
     [/^data\/events\/[^/]+\/event\.json$/, 'event'],
     [/^data\/people\/[^/]+\/person\.json$/, 'person'],
     [/^data\/organisations\/[^/]+\/organisation\.json$/, 'organisation'],
@@ -63,6 +64,7 @@ export function checkData() {
         const ids = new Set(c.sources.map(x => x.id))
         for (const [field, list] of Object.entries(c.field_sources)) for (const id of list) if (!ids.has(id)) errors.push(`data/companies/${c.id}: field ${field} cites ${id}, which is not in sources.json`)
         for (const a of c.aliases) if (a.source && !ids.has(a.source)) errors.push(`data/companies/${c.id}: alias "${a.name}" cites ${a.source}, which is not in sources.json`)
+        for (const fl of c.flows) for (const st of [fl, ...(fl.steps || [])]) for (const id of [st.source].flat().filter(Boolean)) if (!ids.has(id)) errors.push(`data/companies/${c.id}/flows.json: flow "${fl.id}" cites ${id}, which is not in sources.json`)
         for (const f of c.facts) if (!ids.has(f.source)) errors.push(`data/companies/${c.id}/facts.json: ${f.id} cites ${f.source}, which is not in sources.json`)
         for (const e of c.edges) {
             if (!ids.has(e.source)) errors.push(`data/companies/${c.id}/edges.json: ${e.verb} cites ${e.source}, which is not in sources.json`)

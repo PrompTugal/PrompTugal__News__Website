@@ -26,11 +26,12 @@ export function readFolder(type) {
         .map(d => strip(JSON.parse(fs.readFileSync(path.join(root, d, file), 'utf8'))))
 }
 
-// a company is five files; merged here (sources, facts, edges, the re-check log)
+// a company is five files, and a sixth when its flows are mapped; merged here (sources, facts, edges, the re-check log,
+// the flows: data/companies/<id>/flows.json, kept by the ontologist, read by features/companies.mjs)
 export function readCompanies() {
     return readFolder('company').map(c => {
         const f = n => { const p = R(`data/companies/${c.id}/${n}.json`); return fs.existsSync(p) ? strip(JSON.parse(fs.readFileSync(p, 'utf8'))) : {} }
-        return { ...c, sources: f('sources').sources || [], facts: f('facts').facts || [], edges: f('edges').edges || [], recheck: f('recheck').log || [] }
+        return { ...c, sources: f('sources').sources || [], facts: f('facts').facts || [], edges: f('edges').edges || [], recheck: f('recheck').log || [], flows: f('flows').flows || [] }
     })
 }
 
