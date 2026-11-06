@@ -696,6 +696,29 @@
       "issues": [
         "WS-177"
       ]
+    },
+    {
+      "id": "sherpa-promptugal",
+      "name": "sherpa@PrompTugal.dinis",
+      "label": "PrompTugal's sherpa",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T04:00:00Z",
+      "started_basis": "Dinis's word of 6 November 2026 (about 04:00 UTC): an agent that represents the user, a Sherpa, as on the SG/Send project (board/guidance/2026-11-06-design-and-passes.md, section 6); its first commits here are of 6 November.",
+      "role": "The reader's guide and voice: the experience of every page as the person who arrives cold, on a phone and a desktop; reviews in every pass; works with synthetic@ and designer@. Reviews and guides; never redesigns or writes pages itself.",
+      "lands": [
+        "board/team/sherpa/",
+        "design/shots/sherpa/",
+        "board/passes/ (its review rows)"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c); not listed under keys here, as for the other PrompTugal agents. Added by sherpa@PrompTugal.dinis itself, as its first-run prompt asked.",
+      "issues": [
+        "WS-177"
+      ]
     }
   ]
 }

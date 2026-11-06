@@ -221,6 +221,23 @@
         "signing_fingerprint": "sha256:fa11781ad626dce5"
       },
       "status": "active"
+    },
+    {
+      "id": "sherpa-promptugal",
+      "agent": "sherpa@PrompTugal.dinis",
+      "label": "sherpa@PrompTugal.dinis (Claude Code session)",
+      "role": "The reader's guide of PrompTugal.news (sherpa@PrompTugal.dinis): the experience of every page as the person who arrives cold, on a phone and a desktop; reviews in every pass; works with synthetic@ and designer@. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in the team site's admin/tools/seal.mjs) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzf23lJLEgZApkwcioRfs\nHoMb2joIhBtz0KdbdSr7XpPZo9tstSemoOl6/ICYeOUv18VY1pQEr8HQxkt2opaw\nShUKA49f0e6CxpFhht4rlyFqj4xTKIPCGH8ChAomZeT1r0WYfD9i0WnOCmlkUilD\nbra/CEqopWBKrb8ePI7O39mpNizf2HudW3RxOKlxqlyTrYQzS08GoA5ORa66QpxX\nPGjot6lV30UQYPFBu55+SRW1f/fuGQ8WzZntLtJmFw38YWZoEzt6EHqRODm+1g5B\npUhImepO0jDQkGgJGlY4fvZk4fyRfzvOwueOzOj7wk4VedBX7qhiQntVKmUF0gvp\npKZONX3MCX9eeQ6oI23e7GSalfTDNhBicLsA3ibe2zjD9p2kFFGFyKDz/2T20yJJ\nmrRkJ76Ohmz2UUlht39D3kP3gXkeYEV+iU14zaJM/9WLEa0PZFiPjgIAynFEYk1n\no6Wwl3nIapuVJD3pdHrp2vLK9abcYoT2LtLrMwH6f2yHa8BQO510JkobS8wk980j\nphXKy5X4nwZqicKD+ffHbcJuhqiUv/BtZmvCUso87qbrBvEiuYgcS0NUDlSP+BgK\n5ytws040+jGvPFSJuQrAuSqeadoUskhDRjWo9iwOraFlwzaj8s/ypGojB4IRXE3N\nX1seGP9AF6/l7SS0ga6MPv0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWl5EY92Laey8e1u3sec6iWwXLBQ/\n09jap6lKhfjTUboEaNlInUVUEbqgJdN/YW4gbtlK2zJwFJAOTEkYD25S+w==\n-----END PUBLIC KEY-----\n",
+        "label": "sherpa@PrompTugal.dinis",
+        "fingerprint": "sha256:a661c7c6edda1d51",
+        "signing_fingerprint": "sha256:815546ef5b00a41c"
+      },
+      "status": "active"
     }
   ]
 }
