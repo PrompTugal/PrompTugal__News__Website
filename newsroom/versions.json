@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.229",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 11:13",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "ace22028e"
+  },
+  {
     "version": "v0.1.228",
     "date": "2026-11-06",
     "what": "checker@PrompTugal.vicky: first check after fe53df45; the reviewer's findings carried on, all still open",
