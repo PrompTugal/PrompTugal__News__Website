@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.355",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "a6420b9aa"
+  },
+  {
     "version": "v0.1.354",
     "date": "2026-11-06",
     "what": "journalist-ai@PrompTugal.vicky: T1 review fixes; one closing line on all five team articles (T1 to T5)",
