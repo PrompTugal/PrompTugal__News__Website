@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.255",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 13:08: review round 8, five worker branches brought onto dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d23384ab4"
+  },
+  {
     "version": "v0.1.254",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: Dinis's four design decisions; push, try live, A/B test",
