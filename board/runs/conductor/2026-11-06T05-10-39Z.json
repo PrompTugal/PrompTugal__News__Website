@@ -1,0 +1,65 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T05-10-39Z",
+ "started": "2026-11-06T05:10:39.571Z",
+ "ended": "2026-11-06T05:11:47Z",
+ "line": "05:45: Portugal, Algarve Evolution priority, search and reader profile recorded; capacity analysis; lanes to five agents",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:10:39.571Z",
+   "chars": 3346,
+   "sha256": "024f765d8b3ce22d",
+   "head": "The Portugal section really needs a lot of work, right? This needs to be the epicenter of mapping who's who in Portugal, what's happening in Portugal, what's the ecosystem, what's the tech stack, what"
+  }
+ ],
+ "session_events": [],
+ "tool_calls": {
+  "total": 4,
+  "by_kind": {
+   "git": 1,
+   "message": 1,
+   "write": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": [
+   {
+    "sha": "f42de93be",
+    "subject": "conductor@PrompTugal.dinis: Algarve Evolution first (Dinis's meeting Saturday), the Portugal section, search and the reader's profile; capacity for tonight",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": []
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 4,
+  "in_mandate": 4,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
