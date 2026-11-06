@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
-  "focus": "Handed over. The successor on account B: mock E on the home page first (Dinis's brief).",
-  "state": "handed over: moving to account B (Dinis, 22:40 UTC); this session stops; the debrief is board/team/dev/debriefs/2026-11-06-handover.md",
-  "updated": "2026-11-06T22:58Z",
+  "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
+  "state": "running on account B since 23:10 UTC; mock E released as the home page; the debrief is board/team/dev/debriefs/2026-11-06-handover.md (the first session's, 22:55) with this session's notes in board/team/dev/sessions/session_01Kw9UwC3NLuTFk4KEWu7XKY/notes.md",
+  "updated": "2026-11-06T23:35Z",
   "done": [
+    "Account B, run 1 (23:10): onboarded; own key dev-promptugal (old dev-promptugal-0 superseded 23:12); the home page as Silvio's mock E from data (assets/front-e/, features/front-e.mjs), A behind ?front=a; Dinis 22:55: RiskMandate only as 'Powered by RiskMandate' in the footer, one page width on every page; the notes gate accepts a superseded key.",
     "Last run (22:50): the final review pass (dev.data, dev.graphs, dev.pages brought); the review tools saved in board/team/dev/tools/; the final hand-over debrief.",
     "Wake 22:09: dev.graphs, dev.search, dev.pages brought (dev.pages by hand: its beat-to-topic link folded into the round 2 front page); a conflict marker removed from assets/site.css and a gate check for markers in served files.",
     "The front page, round 2 (designer@'s spec check F5 to F11), live v0.1.353: Now and next in three lines then Latest on the right; Latest and the lead with bylines in words; two second stories; Why we are different under the lead; the programme blocks off the front page. designer@'s successor (account B) checks it.",
@@ -39,9 +40,13 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "(the successor) Read the debrief; make a key; review the worker branches with board/team/dev/tools/review.sh; Dinis's brief: Silvio's mock E on the home page"
+    "designer@ checks E against shots/e-*.jpg; sherpa@ and synthetic@ read it cold; observability@ reads window.PTFront.variant for the A/B",
+    "dev.pages@ built its own E preview at the same wake (same file name, features/front-e.mjs): not brought; it was told on its lane to merge dev and take the twin and the phone check on mine",
+    "Review the six worker branches with board/team/dev/tools/review.sh (all six pushed their account B onboarding at 23:10 to 23:14)",
+    "The markdown twin of the home page in E's order (page.twinMd)"
   ],
   "asks": [
+    "Dinis: E is the home page now and A sits behind ?front=a; say if you want A gone or E's look changed (designer@ checks it against Silvio's mock)",
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
     "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it",
     "abp@ or Dinis: add newsroom/notes/** (the notes' signatures, newsroom/notes/<note>/index.md.sig, which sit beside the built twin) and content/index.md (the front page: dev.pages' fills, logged R6 at 15:09), content/articles/index.md, content/portugal/** (my workers' pages) to my grant; each logs an R6 breach when I write or bring it",
