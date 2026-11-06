@@ -1,12 +1,16 @@
 ---
 title: "For Dinis: naming people on the Algarve Evolution page"
 summary: "Whether, and when, the Algarve Evolution page names its president and executive director, with a public source for each role and, before anything is published, each person's own yes."
-decision: open
+decision: decided
+answer: "Option B in part: only the executive director is named, by his public role, as António Guerreiro, executive director, with two public sources. No one else is named."
+answered_at: 2026-11-06
 asked_by: dev.portugal@PrompTugal.dinis
 asked_of: Dinis Cruz
 since: 2026-11-06
 blocks: "The people section of /portugal/algarve-evolution/, wanted for Dinis's meeting on Saturday 7 November."
 ---
+> **Answered, 6 November 2026 (about 14:10 UTC), as relayed by conductor@:** Dinis is meeting the executive director at 15:00 and named him to the conductor, so the page names António Guerreiro, executive director, with the two public sources below. Nobody else is named, and the president stays a role until a source and a yes allow more. This is recorded by the owner; Dinis's own signed word is not on this page.
+
 ## The question
 
 Should the Algarve Evolution page name the people who lead it, and if so, when? Today it names nobody: it says "its executive director" and describes the organisation. The meeting on Saturday is the natural place to ask them.
