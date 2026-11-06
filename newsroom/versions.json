@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.235",
+    "date": "2026-11-06",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "c5dcd42c4"
+  },
+  {
     "version": "v0.1.234",
     "date": "2026-11-06",
     "what": "outreach@PrompTugal.dinis: run at 11:40 UTC: eleven flows in their drafts, the decision page; blocked on who sends which company and what an email may promise",
