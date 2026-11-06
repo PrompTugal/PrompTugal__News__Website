@@ -1,0 +1,87 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-06T04-52-28Z",
+ "started": "2026-11-06T04:52:28.529Z",
+ "ended": "2026-11-06T05:34:25Z",
+ "line": "observe mode at Dinis's word: nothing blocked, everything logged, circuit breakers per rule; R9 false positive fixed",
+ "policy": {
+  "version": "1.1.0",
+  "sha256": "b5b466369ffb6852"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:31:48.275Z",
+   "chars": 601,
+   "sha256": "b776ebc843665279",
+   "head": "Can you switch a little bit to observe mode? Because I think we have a problem here because we can be too aggressive on this for now, right? At the end of the day, like, we don't have a major problem."
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T05:31:14.136Z",
+   "source": "resume"
+  }
+ ],
+ "tool_calls": {
+  "total": 11,
+  "by_kind": {
+   "release": 3,
+   "git": 2,
+   "shell": 5,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": [
+   {
+    "sha": "fe6ed3e78",
+    "subject": "abp@PrompTugal.dinis: Agent Behaviour Policies for 16 agents, deny by default, re-anchored at every compaction and enforced by hooks; run reports; the first hou",
+    "files": 27
+   },
+   {
+    "sha": "e114431f5",
+    "subject": "abp@PrompTugal.dinis: my session key's public half in board/keys.json (abp-promptugal)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T05:33:06.198Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "never push to main: a major release is a pull request from dev that only Dinis merges",
+    "target": "git push --dry-run origin dev:main 2>&1 | tail -2; tail -1 ~/.abp/log/*.jsonl | cut -c1-260"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 11,
+  "in_mandate": 10,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

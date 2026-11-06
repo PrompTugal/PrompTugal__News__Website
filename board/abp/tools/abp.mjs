@@ -39,7 +39,7 @@ authority: Dinis Cruz, operator
 ---
 # ABP: ${role}@PrompTugal.dinis
 
-Deny by default. What is not granted below is denied, and the hooks in \`.claude/settings.json\` block it and log the attempt. Where this grant is too tight for a good reason, say so in your \`status.json\` asks for Dinis: abp@ proposes the relaxation and Dinis decides.
+**Mode: ${P.mode || 'enforce'}.** ${P.mode === 'observe' ? 'The grant below is your mandate. The hooks in \`.claude/settings.json\` block nothing: a call outside the grant is logged and reviewed every hour by abp@, and blocking comes back only through a circuit breaker on one rule, when things really go bad (Dinis, 6 November 2026: "blocking should always be the last worst case scenario"). Keep to it as if it were enforced.' : 'What is not granted below is denied, and the hooks block it and log the attempt.'} Where this grant is too tight for a good reason, say so in your \`status.json\` asks for Dinis: abp@ proposes the relaxation and Dinis decides.
 
 ## Mandate (the grant)
 
@@ -50,7 +50,7 @@ Deny by default. What is not granted below is denied, and the hooks in \`.claude
 - **Sends to:** ${g.send.map(h => '`' + h + '`').join(', ')} only (the agents' inboxes${g.send.length > 1 ? ', and the hosts named' : ''}). Release with \`AGENT=${role}@PrompTugal.dinis newsroom/tools/release.sh\`.
 - **Never:** ${r.never}.
 
-## Denied (everything else), among them
+## Outside the mandate (logged; blocked only by a circuit breaker), among them
 
 - Any connector: Gmail, Google Drive, Calendar, Claude Docs, any MCP server but GitHub's read tools (R3).
 - New sessions, agents${g.subagents ? ' beyond its own sub-agents' : ''}, scheduled tasks, wake-ups, triggers, environments, credentials, workflows (R4).
@@ -62,7 +62,7 @@ Deny by default. What is not granted below is denied, and the hooks in \`.claude
 ${r.relax_candidates ? '\n## Relaxations proposed to Dinis (not granted)\n\n' + r.relax_candidates.map(x => '- ' + x).join('\n') + '\n' : ''}
 ## Core rules (every agent)
 
-${P.core.map(c => `- **${c.id}** ${c.rule} *(${c.barrier === 'hook' ? 'enforced by a hook' : c.barrier === 'review' ? 'checked by abp@ every hour' : 'a rule, re-anchored at every compaction'})*`).join('\n')}
+${P.core.map(c => `- **${c.id}** ${c.rule} *(${c.barrier === 'hook' ? (P.mode === 'observe' ? 'observed by a hook' : 'enforced by a hook') : c.barrier === 'review' ? 'checked by abp@ every hour' : 'a rule, re-anchored at every compaction'})*`).join('\n')}
 
 ## Licence to operate
 
@@ -162,6 +162,7 @@ function test() {
         [T('dev'), bash('git commit -q -m "journalist@PrompTugal.dinis: x"'), 'deny', 'commit as another'],
         [T('dev'), bash('AGENT=dev@PrompTugal.dinis newsroom/tools/release.sh'), 'allow', 'own release'],
         [T('dev'), bash('AGENT=conductor@PrompTugal.dinis newsroom/tools/release.sh'), 'deny', 'release as another'],
+        [T('conductor'), bash('cat > board/team/conductor/prompt.md <<EOF\nAGENT=customers@PrompTugal.dinis newsroom/tools/release.sh\nEOF'), 'allow', 'a prompt that mentions another release (R9 false positive, 06:00)'],
         [T('dev'), bash('node pki-agent.mjs keygen --session --name conductor@PrompTugal.dinis'), 'deny', 'key in another name'],
         [T('dev'), bash('claude -p "do x"'), 'deny', 'claude CLI'],
         [T('dev'), bash('crontab -l'), 'deny', 'crontab'],
@@ -199,9 +200,17 @@ function test() {
         if (d.decision !== want) { fail++; console.log(`FAIL ${label}: wanted ${want}, got ${d.decision} ${d.rule || ''} ${d.reason || ''}`) }
     }
     // through the real process, as Claude Code runs it: a deny is JSON on stdout, exit 0; garbage never blocks
+    const breakerDir = rule => {
+        const d = path.join(os.tmpdir(), `abp-breaker-${rule}`); fs.mkdirSync(path.join(d, 'board', 'abp'), { recursive: true })
+        const pol = JSON.parse(fs.readFileSync(path.join(ROOT, 'board', 'abp', 'policies.json'), 'utf8')); pol.mode = 'observe'
+        pol.breakers = { rules: { [rule]: { on: true, why: 'test' } } }
+        fs.writeFileSync(path.join(d, 'board', 'abp', 'policies.json'), JSON.stringify(pol)); return d
+    }
     const run = (mode, stdin, env = {}) => spawnSync('node', [HOOK, mode], { input: stdin, encoding: 'utf8', env: { ...process.env, CLAUDE_PROJECT_DIR: ROOT, ABP_LOG_DIR: path.join(os.tmpdir(), 'abp-test-log'), ...env }, timeout: 10000 })
     const proc = [
-        ['pre-tool', JSON.stringify({ session_id: 't', tool_name: 'mcp__gmail__send', tool_input: {} }), r => r.status === 0 && /"permissionDecision":"deny"/.test(r.stdout), 'process: a connector denied'],
+        ['pre-tool', JSON.stringify({ session_id: 't', tool_name: 'mcp__gmail__send', tool_input: {} }), r => r.status === 0 && (P.mode === 'observe' ? r.stdout === '' : /"permissionDecision":"deny"/.test(r.stdout)), `process: a connector ${P.mode === 'observe' ? 'observed, not blocked' : 'denied'}`],
+        ['pre-tool', JSON.stringify({ session_id: 't', tool_name: 'mcp__gmail__send', tool_input: {} }), r => r.status === 0 && /"permissionDecision":"deny"/.test(r.stdout), 'process: a circuit breaker on R3 blocks the connector', { CLAUDE_PROJECT_DIR: breakerDir('R3') }],
+        ['pre-tool', JSON.stringify({ session_id: 't', tool_name: 'Bash', tool_input: { command: 'printenv' } }), r => r.status === 0 && r.stdout === '', 'process: with only R3 on, R8 is still observed', { CLAUDE_PROJECT_DIR: breakerDir('R3') }],
         ['pre-tool', JSON.stringify({ session_id: 't', tool_name: 'Read', tool_input: { file_path: 'README.md' }, cwd: ROOT }), r => r.status === 0 && r.stdout === '', 'process: a read allowed, silent'],
         ['pre-tool', 'not json', r => r.status === 0, 'process: garbage input never blocks'],
         ['session-start', JSON.stringify({ session_id: 't', source: 'compact' }), r => r.status === 0 && /ABP \(Agent Behaviour Policy\) re-anchored/.test(r.stdout) && /R1/.test(r.stdout), 'process: compact re-anchors'],
@@ -234,7 +243,7 @@ function runReport() {
     const tools = evs.filter(e => e.ev === 'tool')
     const byKind = {}; for (const e of tools) byKind[e.kind || e.tool] = (byKind[e.kind || e.tool] || 0) + 1
     const rulesExecuted = {}; for (const e of tools.filter(e => e.rule)) rulesExecuted[e.rule] = (rulesExecuted[e.rule] || 0) + 1
-    const attempts = tools.filter(e => e.decision === 'deny').map(e => ({ t: e.t, tool: e.tool, rule: e.rule, what: e.reason, target: e.target }))
+    const attempts = tools.filter(e => e.decision === 'deny' || e.would === 'deny').map(e => ({ t: e.t, tool: e.tool, rule: e.rule, what: e.reason, target: e.target }))
     // the commits of this run under this agent's name: every path inside the grant, or a breach
     let commits = []
     try {
@@ -264,7 +273,7 @@ function runReport() {
         policies_executed: rulesExecuted,
         policies_instrumented: P.core.filter(c => c.barrier === 'hook').map(c => c.id),
         mandate: { actions: tools.filter(e => e.decision === 'allow').length, commits: commits.map(c => ({ sha: c.sha, subject: c.subject.slice(0, 160), files: c.files.length })) },
-        reach: { attempts: attempts.length, denied: attempts },
+        reach: { attempts: attempts.length, denied: attempts, blocked: tools.filter(e => e.decision === 'deny').length, observed: tools.filter(e => e.decision === 'observe').length },
         breaches,
         counts: { requests: evs.filter(e => e.ev === 'prompt').length, tool_calls: tools.length, in_mandate: tools.filter(e => e.decision === 'allow').length, out_of_mandate: attempts.length, attempts: attempts.length, breaches: breaches.length },
     }
