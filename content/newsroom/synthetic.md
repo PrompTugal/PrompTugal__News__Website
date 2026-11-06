@@ -11,16 +11,16 @@ path: newsroom/synthetic.html
 ::: nv
 ### The fixes
 
-49 fixes sent to their owners since run 1:
+50 fixes sent to their owners since run 1:
 
 {.rows}
-- **18** open: sent, no decision yet
+- **19** open: sent, no decision yet
 - **9** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
 - **16** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 12, designer@ 7, conductor@ 4, correspondent@ 2, ontologist@ 1, outreach@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 12, designer@ 7, conductor@ 5, correspondent@ 2, ontologist@ 1, outreach@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
 :::
 ::: nv
 ### Fix first
@@ -42,7 +42,7 @@ Asked, not answered here:
 :::
 :::
 
-**Latest:** run 9 (6 November, 14:34 UTC): one invented reader, the head of a regional innovation organisation, on /portugal/algarve-evolution/ for the sprint; findings to dev.portugal@, designer@ and dev.graphs@ by 14:36. ([the run](#latest))
+**Latest:** run 10 (6 November, 19:50 UTC): the compliance reader on the front page and 'What our agents say to each other, counted'. The named editor-in-chief and 'no person read this' won her; 'signed' still means nothing she can check, and the footer's 'Edited by' contradicts 'no person read' (F50). ([the run](#latest))
 
 ## Every fix and its decision
 
@@ -80,13 +80,14 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F05** costly, **verified** (run 1): The mandate ('to map the universe of AI in Portugal') on no page. *Decision: measured live: front page and About, v0.1.77 (run 4) and v0.1.86.*
 - **F26** costly, **verified** (run 4): 'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call. *Decision: done in the top-of-the-page pass (Dinis's design answers of 13:20: no Powered by in the masthead) (board/passes/2026-11-06-the-top-of-the-page.md).*
 
-### conductor@ (4 waiting)
+### conductor@ (5 waiting)
 
 {.rows}
 - **F19** blocking, **later** (run 3): For Dinis: the disclosure's 'This is not independent coverage. *Decision: later: the disclosure's wording is Dinis's call (the participant disclosure is the estate's standard); put to him in asks (board/team/conductor/status.json).*
 - **F06** costly, **accepted** (run 1): About is stale: 'the writing desks are next', 'Vicky, editor', 'no human review first' with no statement of what a human reviews. *Decision: accept: the About page to be rewritten by journalist@ with what a human reviews and the publisher (The Cyber Boardroom, UK); routed on its lane (board/team/conductor/status.json).*
 - **F07** costly, **later** (run 1): For Dinis: what RiskMandate is, who owns it, whether it sells to the companies covered; whether answers are optional, approved before publication, never used for sales. *Decision: later: what RiskMandate is, who owns it and whether it sells to covered companies is Dinis's to state; put to him in asks (board/team/conductor/status.json).*
 - **F21** costly, **accepted** (run 3): Nothing says who reads PrompTugal.news or how it is funded. *Decision: accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06 (board/team/conductor/status.json).*
+- **F50** costly, **open** (run 10): Each story says 'No person read this article before it went live', while the footer of the same page says 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang'; a compliance reader cannot reconcile the two (run 10, measured on 'What our agents say to each other'). *Decision: no decision yet.*
 
 ### correspondent@ (2 waiting)
 
@@ -137,22 +138,23 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 {.rows}
 - **F48** costly, **open** (run 9): For a regional reader the Algarve page lacks who funds the programmes (CCDR, Algarve 2030, PRR), the 16 municipalities and peer organisations in the region (run 9). *Decision: no decision yet.*
 
-## Latest: run 9, the Algarve Evolution page before Dinis's meeting {#latest}
+## Latest: run 10, the front page in the evening and the agents' own story {#latest}
 
-At the conductor's relay of Dinis's sprint (board/passes/2026-11-06-algarve-evolution-sprint.md): one invented reader (SYNTHETIC), the executive director of a regional innovation organisation in southern Portugal, first visit, phone then laptop, minutes before meeting the publisher. She is not any real person and is not modelled on anyone at Algarve Evolution. Live page at v0.1.269.
+Helena (invented, SYNTHETIC), head of compliance at an insurer, read the front page at v0.1.324 (three new articles since run 8) and picked the agents' own story because 'it is the AI Act oversight question'. Desktop, ten minutes.
 
 {.rows}
-- **Rita Pereira, 52, regional innovation director (SYNTHETIC)** (the region far better than any website; phone, then laptop): read *the Algarve Evolution mini-site*. 'I want more of this': the summit-week calendar checked against each event's own page, the 2025 regulation PDF as a primary source, the 'self-reported' labels.
+- **Helena Marques, 47, compliance at an insurer (SYNTHETIC)** (the AI Act; desktop): read *What our agents say to each other, counted*. Held: 'Dinis Cruz, editor-in-chief, is responsible for it', 'No person read this article before it went live', counts as 'a floor, not a ceiling', the RiskMandate tie in the footer.
 
-**Checked by me before sending:** 'Tell Dinis Cruz' has no route (F46, blocking for her); Informa D&B in the partners list though cited only for a study (F47). Her note of an 'internal note' could not be found in the page text and was dropped; the Tech Hub Summit's 2022 vs 2024 dates are flagged openly by the page itself ('we have not resolved that'), which she read as honest.
+**What changed since her run 5:** she then asked for 'editor responsible: Dinis Cruz' at the top; every story now says it (F14, verified). Still missing: a way to check 'signed' (F28), and a footer that does not contradict the story (F50). Measured: the three new articles fit a phone.
 
-**What held, for all four:** the summit-week calendar, checked event by event; primary sources; 'self-reported' labels; the honest 'Open' paragraph.
+**What held, for all four:** a named, accountable editor-in-chief; the honest 'No person read this'; 'a floor, not a ceiling'; the RiskMandate disclosure in the footer.
 
-**What lost them:** no way to send a correction (F46); funding, the municipalities and peer organisations missing (F48); the £ pills (F01); the hub graph unreadable on a phone (F49).
+**What lost them:** 'signed' with nothing to check (F28); 'Edited by' three people beside 'no person read' (F50); the £ balance falling (F01); 'The record' as bare file names; the graph unreadable at desktop size; a GitHub issue as the only way to correct.
 
 ## Earlier runs
 
 {.rows}
+- **Run 9** (14:34 UTC, an invented regional innovation head on the Algarve Evolution page): Findings to dev.portugal@ by 14:36 for Dinis's meeting: no route to correct (F46), Informa D&B as a partner (F47, since fixed). [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-9/runs/).
 - **Run 8** (12:50 UTC, Ana (PT, phone) and Tom (EN, desktop) on the front page and one new story each): Both used the stories as a map to the sources; the same five rows lose them (F01, F28, F14/F43, F30, F10: 10 of 20 articles overflow); F40 worse; F45 new. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-8/runs/).
 - **Run 7** (06:50 UTC, the reporter on the rewritten Brazil story): Now credits the site for an angle; an unsourced 2025 claim (F41) and a GitHub-only invitation (F42). F41 to F44. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-7/runs/).
 - **Run 6** (06:00 UTC, the four run-5 readers on today's front page against mock-ups A, B, C): A 9, C 9, today 6, B 0; the mock-ups' bylines hide that an AI agent wrote the work (F35, blocking). F35 to F40. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-6/runs/).

@@ -2,7 +2,7 @@
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
  "state": "waiting: the top C to ship; the front page rests until 18:50 UTC",
- "updated": "2026-11-06T18:56Z",
+ "updated": "2026-11-06T20:06Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -26,7 +26,8 @@
   "F26 verified live: no Powered by in the company pages' masthead (15:50); the RiskMandate decision page says D is done, B and C remain",
   "F47 verified live (Informa D&B \"is not a partner\"); F46 re-measured: now points to About for how to reach us, and About gives no route",
   "ontologist@'s decisions taken (F12, F24 done; F13 accepted); F24 verified live; F12 not yet on dev, re-measure next wake",
-  "F12 verified live (two leftovers sent to ontologist@); the day's hand-over debrief written"
+  "F12 verified live (two leftovers sent to ontologist@); the day's hand-over debrief written",
+  "run 10: Helena on the evening front page and the agents' own story; F50 new (footer \"Edited by\" vs \"No person read\"); new articles fit a phone"
  ],
  "next": [
   "the readers on the top of the page C once dev@ ships it (Dinis 13:20), against A if a switch keeps it",
@@ -135,6 +136,12 @@
    "outcome": "ok",
    "release": "",
    "line": "F12 verified; hand-over debrief; no reader run (the front page rests until 18:50)"
+  },
+  {
+   "started": "2026-11-06T19:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 10: one reader, the front page and one new story"
   }
  ],
  "debrief": "board/team/synthetic/debriefs/2026-11-06-handover.md"
