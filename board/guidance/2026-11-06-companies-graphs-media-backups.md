@@ -92,3 +92,9 @@ kept_by: conductor@PrompTugal.dinis
 - "I don't want to be the bottleneck ... give the mandate to the security and to you [the conductor] to pull the plug if you think something is wrong ... you and the security have the mandate to stop everything ... to stop specific agents, to quarantine them, or to stop specific things that you then feel I want to take a look at."
 - "You should be delegating this ... you might need a couple of sub-agents yourself ... now that we have a lot of work, you start to create a number of sub-agents, the ones that have the dot on it. So then you keep the independence and the focus, and then I shouldn't be the bottleneck ... maybe even the ABP can be the agent ... ABP and security become the ones that keep an eye and have the ability to pull the [plug]."
 - "Open up a new agent called customers@, which I want to give a couple of specific briefs."
+
+## 15. Observe first, circuit breakers, stopping as the last measure (about 06:05 UTC)
+
+- "Let's not shoot ourselves in the foot by being too aggressive ... build in a circuit breaker into a lot of this stuff, or else we're going to grind to a halt."
+- "Think of even some of the ABP policies that we're going to do as in observe mode ... we don't have a major problem right now ... it's not like we're losing control, but I want to put the roots of the place and start to connect the dots. So let's not go too crazy."
+- "You have my mandate to override some of this stuff ... blocking the whole thing, pulling the plug, should be the last measure ... only if things are really going bad ... if a lot of this stuff is things that happen normally, we shouldn't be stopping."
