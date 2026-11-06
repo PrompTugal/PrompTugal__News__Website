@@ -1,0 +1,122 @@
+{
+ "co-chatplace-phone": {
+  "url": "https://promptugal.news/companies/chatplace/",
+  "status": 200,
+  "ms": 5003,
+  "height": 5452,
+  "scrollWidth": 390,
+  "screens_total": 7,
+  "screens_shot": 7,
+  "version": "v0.1.54"
+ },
+ "front-phone": {
+  "url": "https://promptugal.news/",
+  "status": 200,
+  "ms": 4653,
+  "height": 8197,
+  "scrollWidth": 390,
+  "screens_total": 10,
+  "screens_shot": 8,
+  "version": "v0.1.54"
+ },
+ "about-phone": {
+  "url": "https://promptugal.news/about/",
+  "status": 200,
+  "ms": 4567,
+  "height": 6344,
+  "scrollWidth": 390,
+  "screens_total": 8,
+  "screens_shot": 8,
+  "version": "v0.1.54"
+ },
+ "ar-tuesday-phone": {
+  "url": "https://promptugal.news/articles/tuesday-10-november-three-ways-in.html",
+  "status": 200,
+  "ms": 4599,
+  "height": 8454,
+  "scrollWidth": 399,
+  "screens_total": 11,
+  "screens_shot": 8,
+  "version": "v0.1.54"
+ },
+ "ar-in-numbers-phone": {
+  "url": "https://promptugal.news/articles/web-summit-2026-in-numbers.html",
+  "status": 200,
+  "ms": 4491,
+  "height": 7129,
+  "scrollWidth": 591,
+  "screens_total": 9,
+  "screens_shot": 8,
+  "version": "v0.1.54"
+ },
+ "ar-first-day-phone": {
+  "url": "https://promptugal.news/articles/your-first-day-at-web-summit.html",
+  "status": 200,
+  "ms": 4656,
+  "height": 7892,
+  "scrollWidth": 429,
+  "screens_total": 10,
+  "screens_shot": 8,
+  "version": "v0.1.55"
+ },
+ "co-chatplace-desktop": {
+  "url": "https://promptugal.news/companies/chatplace/",
+  "status": 200,
+  "ms": 3704,
+  "height": 3985,
+  "scrollWidth": 1280,
+  "screens_total": 5,
+  "screens_shot": 5,
+  "version": "v0.1.55"
+ },
+ "front-desktop": {
+  "url": "https://promptugal.news/",
+  "status": 200,
+  "ms": 3737,
+  "height": 4787,
+  "scrollWidth": 1280,
+  "screens_total": 6,
+  "screens_shot": 5,
+  "version": "v0.1.55"
+ },
+ "about-desktop": {
+  "url": "https://promptugal.news/about/",
+  "status": 200,
+  "ms": 3839,
+  "height": 4883,
+  "scrollWidth": 1280,
+  "screens_total": 7,
+  "screens_shot": 5,
+  "version": "v0.1.55"
+ },
+ "ar-tuesday-desktop": {
+  "url": "https://promptugal.news/articles/tuesday-10-november-three-ways-in.html",
+  "status": 200,
+  "ms": 3751,
+  "height": 6052,
+  "scrollWidth": 1280,
+  "screens_total": 8,
+  "screens_shot": 5,
+  "version": "v0.1.55"
+ },
+ "ar-in-numbers-desktop": {
+  "url": "https://promptugal.news/articles/web-summit-2026-in-numbers.html",
+  "status": 200,
+  "ms": 3764,
+  "height": 5116,
+  "scrollWidth": 1280,
+  "screens_total": 7,
+  "screens_shot": 5,
+  "version": "v0.1.55"
+ },
+ "ar-first-day-desktop": {
+  "url": "https://promptugal.news/articles/your-first-day-at-web-summit.html",
+  "status": 200,
+  "ms": 3730,
+  "height": 5628,
+  "scrollWidth": 1280,
+  "screens_total": 8,
+  "screens_shot": 5,
+  "version": "v0.1.55"
+ }
+}
