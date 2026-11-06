@@ -48,3 +48,11 @@ In his words, close to verbatim:
 - A **librarian** agent, as on the SG/Send project, "that maps all this stuff".
 - "Some of these agents don't need to run every hour ... they can run slower, but important that they start to do the stuff ... and they map everything."
 - The security agent runs first and last in every pass (section 5).
+
+## 7. The articles page (about 05:00 UTC, with a screenshot of /articles/ at v0.1.113)
+
+- "This is actually a very important page, but it's wrongly called the news ... a page that I can go to see all the articles that have been published ... the whole publications."
+- "If you look at newsroom.sgit.ai, the homepage already does a good job of what this might even look like: the raw list of sequential publications ... and then the mapping of this."
+- "All of these need to have a little icon, a little infographic, a little description. All of them need to be powered by graphs ... a good place for me to find a lot of those links and that correlation."
+- "The very bad use of space ... use as much width as you can ... different visual sections, visual elements."
+- "Break it by day, like we're doing with the other one ... learn from newsroom.sgit.ai."
