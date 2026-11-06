@@ -9,6 +9,7 @@ Read this before every draft and every review. Vicky changes it; nobody else doe
 - journalist-ai@: AI and robotics.
 - journalist-connections@: who could meet or work with whom at the summit.
 - Write only stories on your beat. If a story fits two beats, ask Vicky. Check drafts/ first, so you never write a story already drafted.
+- Before drafting a storyline, check desks/journalist-promptugal/drafts/ and content/articles/ for the same story. If it's already there, don't write it, even if I asked for it by name. Tell me instead.
 
 ## Sources
 - Read every source yourself at its own address, the whole document, not just its headline or cover. Check that it agrees with itself (dates, numbers).
