@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://promptugal.news/data/schemas/newsroom-observability-vaults.schema.json",
-  "title": "The observability vaults the control centre reads in the browser (data/newsroom/observability/vaults.json): published read keys only",
+  "title": "The observability vaults the newsroom section reads in the browser (data/newsroom/observability/vaults.json): published read keys only",
   "type": "object",
   "required": [
     "about",

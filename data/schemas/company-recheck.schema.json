@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://promptugal.news/data/schemas/company-recheck.schema.json",
-  "title": "The newsroom's re-check log for a company (data/companies/<id>/recheck.json)",
+  "title": "PrompTugal.news's re-check log for a company (data/companies/<id>/recheck.json)",
   "type": "object",
   "required": [
     "company",

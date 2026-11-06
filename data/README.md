@@ -24,7 +24,7 @@ data/
     facts.json             one dated claim per source note (more may be added by hand)
     edges.json             typed links: filed_under a topic, based_in a country, appears_in / hosts a session
                            (by its URL, resolved to the event by the build)
-    recheck.json           the newsroom's re-check log (appended, never rewritten)
+    recheck.json           PrompTugal.news's re-check log (appended, never rewritten)
   places/<slug>/place.json the 77 places: countries, regions, cities, districts, venues, buildings, stages, rooms,
                            each located_in another, with the exact "where" strings that map to it            HAND
   topics/<slug>/topic.json the 17 topics: 8 fields (the company categories), 3 themes, 6 beats; broader topics;
@@ -72,8 +72,8 @@ data/
 5. **Companies** come from the team's company map, public fields only: `node newsroom/tools/companies.mjs --from
    <the team's data/companies.json> [--recheck]`. A re-run keeps what was added by hand (sources whose id is not
    `sN`, facts whose id is not `f-sN`, edges whose `by` is not the tool, aliases marked `"hand": true`, and every
-   re-check). It was run first on 5 November 2026 from the newsroom's earlier `data/companies.json` (the team's
-   map of 1 November plus this newsroom's re-check), which it replaces; a run from the team's map itself gives the
+   re-check). It was run first on 5 November 2026 from this site's earlier `data/companies.json` (the team's
+   map of 1 November plus this site's re-check), which it replaces; a run from the team's map itself gives the
    same files.
 6. **From the team CRM** (ws-team-crm-public, SG/Send vault pqm9vtul, its read key in the team site's `data/crm.json`):
    a company the team's map does not have, but the CRM's own agent (crm@web-summit.dinis) completed with sources, comes
@@ -111,7 +111,7 @@ company by provenance. People are merged by name; a person listed under two orga
   with a profile, a re-check, sources for every field and the RiskMandate question. The organisations come from a
   name on a speaker card or in a capture: no website, no country, often not a company at all (the European
   Parliament, a university, a newspaper, "Freelance"). Folding them in would turn 188 names into thin company
-  profiles and blur what the newsroom has checked. Both types are targets of the same verbs (`listed_under`,
+  profiles and blur what PrompTugal.news has checked. Both types are targets of the same verbs (`listed_under`,
   `hosts`, `names`), so the graph does not care, and a name moves from organisation to company with one decision.
 - **Countries are places** (kind `country`), not a separate type: a company is `based_in` a place, and the place
   tree runs from the stage to the country, so a company in Portugal and a session on Centre Stage meet at
@@ -139,14 +139,14 @@ Built from this folder at every release, never committed: `/api/v1/index.json` l
 `{id, type, label, source, ...}`, an edge `{id, from, to, verb, source, read}`; `whole.cytoscape.json` carries the same
 graph as Cytoscape elements (`data.family` is the type, `data.kind` the verb), the shape graphs.sgit.ai's viewers load.
 
-## data/newsroom/: the control centre's record
+## data/newsroom/: the newsroom section's record
 
 `/newsroom/` (the feature `newsroom`) is built from four things here, none of them generated at build:
 
 - `runs/<YYYY-MM-DD>.jsonl`: the runs ledger, one line per commit of this repository (when, agent, what, issues, for,
   the release that carried it, files and lines by area), appended only by `node newsroom/tools/runs.mjs` from the full git
   history; re-running adds only new commits. Schema `newsroom-run`, checked by the feature's own gate check.
-- `agents.json`: every agent working on the newsroom (who fired it up, when and how we know, kind, desk, status, where
+- `agents.json`: every agent working on PrompTugal.news (who fired it up, when and how we know, kind, desk, status, where
   its work lands, its key ids on the team's keys page). Hand-kept; schema `newsroom-agents`. An agent that commits must be
   in it, or the gate fails.
 - `plan.json`: the plan at a glance, the build order's states, what waits on a person, the run's schedule and the lab's

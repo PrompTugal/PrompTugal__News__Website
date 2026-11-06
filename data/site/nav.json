@@ -116,41 +116,41 @@
       "href": "organisations/index.html"
     },
     {
-      "column": "The newsroom",
+      "column": "PrompTugal.news",
       "label": "About and editors",
       "href": "about/index.html"
     },
     {
-      "label": "Control centre",
+      "label": "The newsroom",
       "href": "newsroom/index.html"
     },
     {
-      "column": "The newsroom",
+      "column": "PrompTugal.news",
       "label": "Design review",
       "href": "newsroom/design/home-review/index.html"
     },
     {
-      "column": "The newsroom",
+      "column": "PrompTugal.news",
       "label": "Our disclosure",
       "href": "about/participant.html"
     },
     {
-      "column": "The newsroom",
+      "column": "PrompTugal.news",
       "label": "Powered by RiskMandate",
       "href": "riskmandate/index.html"
     },
     {
-      "column": "The newsroom",
+      "column": "PrompTugal.news",
       "label": "The brief",
       "href": "brief/index.html"
     },
     {
-      "column": "The newsroom",
+      "column": "PrompTugal.news",
       "label": "Release history",
       "href": "newsroom/versions.html"
     },
     {
-      "column": "The newsroom",
+      "column": "PrompTugal.news",
       "label": "Synthetic readers",
       "href": "newsroom/synthetic.html"
     },
@@ -197,7 +197,7 @@
   ],
   "llms_groups": [
     {
-      "group": "The newsroom",
+      "group": "PrompTugal.news",
       "match": [
         "index.html"
       ]

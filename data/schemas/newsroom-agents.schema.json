@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://promptugal.news/data/schemas/newsroom-agents.schema.json",
-  "title": "The agents working on this newsroom (data/newsroom/agents.json), hand-kept",
+  "title": "The agents working on PrompTugal.news (data/newsroom/agents.json), hand-kept",
   "type": "object",
   "required": [
     "about",

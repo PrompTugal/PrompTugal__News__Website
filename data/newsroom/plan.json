@@ -1,5 +1,5 @@
 {
-  "about": "The newsroom's plan and its state, hand-kept by the conductor (newsroom@web-summit.dinis); schema data/schemas/newsroom-plan.schema.json. The newsroom overview draws it live. A note may name a live count in braces, filled at build from the data: {companies}, {articles}, {agenda}, {captures}, {stories}, {people}, {pages}, {releases}, {runs}, {agents_running}. States are a judgement, not a measure; the evidence says why.",
+  "about": "PrompTugal.news's plan and its state, hand-kept by the conductor (newsroom@web-summit.dinis); schema data/schemas/newsroom-plan.schema.json. The newsroom overview draws it live. A note may name a live count in braces, filled at build from the data: {companies}, {articles}, {agenda}, {captures}, {stories}, {people}, {pages}, {releases}, {runs}, {agents_running}. States are a judgement, not a measure; the evidence says why.",
   "updated": "2026-11-05T03:05:00Z",
   "by": "newsroom-admin@web-summit.dinis",
   "glance": [
@@ -128,7 +128,7 @@
   ],
   "waiting": [
     {
-      "what": "Indi's write access to the newsroom repository",
+      "what": "Indi's write access to this repository",
       "who": "Dinis",
       "issue": "WS-145",
       "unblocks": "Indi's desks start: journalist, fact-checker, editor",

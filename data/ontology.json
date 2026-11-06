@@ -1,7 +1,7 @@
 {
   "id": "web-summit-newsroom-ontology",
   "version": "1.0.0",
-  "about": "The grammar of this newsroom's graphs: the node types, the typed verbs (edge kinds) and the taxonomies. Hand-edited. Every verb has a distinct, named inverse (no verb is its own inverse, so there is no related_to); a path must read as an English sentence, forwards with the verb and backwards with the inverse. Every node and every edge names the source it came from. Types are grouped in worlds: each world has its own types and verbs, and the worlds are joined by named bridge verbs, so zooming into a node (a company into its facts and sources, the summit into its programme) lands in a different vocabulary under the same grammar. The graphs at /api/v1/graph/ are views of one whole graph: the same node ids and the same edge objects at every zoom.",
+  "about": "The grammar of PrompTugal.news's graphs: the node types, the typed verbs (edge kinds) and the taxonomies. Hand-edited. Every verb has a distinct, named inverse (no verb is its own inverse, so there is no related_to); a path must read as an English sentence, forwards with the verb and backwards with the inverse. Every node and every edge names the source it came from. Types are grouped in worlds: each world has its own types and verbs, and the worlds are joined by named bridge verbs, so zooming into a node (a company into its facts and sources, the summit into its programme) lands in a different vocabulary under the same grammar. The graphs at /api/v1/graph/ are views of one whole graph: the same node ids and the same edge objects at every zoom.",
   "rules": [
     "A node carries no meaning by itself: what a thing is comes from the edges traceable from it.",
     "Every edge is a verb with a distinct inverse; the inverse is never stored, it is the same edge read backwards.",
@@ -13,23 +13,23 @@
   "worlds": [
     { "id": "summit", "label": "The summit's programme", "types": ["event", "place", "day", "track"], "meaning": "What happens when and where, in the summit's own vocabulary (its stages, its tracks, its days)." },
     { "id": "people", "label": "The people", "types": ["person", "organisation"], "meaning": "People as the summit lists them (name, role, organisation), and the organisations they are listed under." },
-    { "id": "industry", "label": "The industry", "types": ["company", "topic"], "meaning": "The companies this newsroom follows and the fields and themes it files them under (this newsroom's taxonomy, not the summit's)." },
-    { "id": "evidence", "label": "The evidence", "types": ["fact", "source", "evidence", "story", "article"], "meaning": "What is claimed, where it was read, what the desks captured, and what the newsroom writes from it." }
+    { "id": "industry", "label": "The industry", "types": ["company", "topic"], "meaning": "The companies PrompTugal.news follows and the fields and themes it files them under (PrompTugal.news's taxonomy, not the summit's)." },
+    { "id": "evidence", "label": "The evidence", "types": ["fact", "source", "evidence", "story", "article"], "meaning": "What is claimed, where it was read, what the desks captured, and what PrompTugal.news writes from it." }
   ],
   "types": [
-    { "id": "company", "label": "Company", "world": "industry", "page": "companies/{slug}/index.html", "meaning": "A company this newsroom follows at the summit, from the team's company map: public facts only, each with its source." },
+    { "id": "company", "label": "Company", "world": "industry", "page": "companies/{slug}/index.html", "meaning": "A company PrompTugal.news follows at the summit, from the team's company map: public facts only, each with its source." },
     { "id": "organisation", "label": "Organisation", "world": "people", "page": "organisations/{slug}/index.html", "meaning": "An organisation named by a source (a speaker's card, a curator's capture) that is not one of the companies we follow: an employer, an institution, a delegation, a publisher. Named as listed, never merged by guesswork." },
     { "id": "person", "label": "Person", "world": "people", "page": "people/{slug}/index.html", "meaning": "A person named by the summit's public pages, in their professional capacity only: name, role and organisation as listed. Never a photo, a profile link or a contact." },
     { "id": "event", "label": "Event", "world": "summit", "page": "events/{slug}/index.html", "meaning": "A dated thing that happens: the summit itself, a session, a PITCH round, a press conference, registration, a side event or a conference elsewhere in Portugal. Its organiser is either Web Summit (the official programme) or other." },
     { "id": "place", "label": "Place", "world": "summit", "page": "places/{slug}/index.html", "meaning": "Somewhere things happen or companies are based: a country, a city, a district, a venue, a stage or a room. A place is not a person, so its address may be kept." },
     { "id": "day", "label": "Day", "world": "summit", "page": null, "meaning": "A calendar day of the summit week (Lisbon time, which is UTC in November)." },
     { "id": "track", "label": "Track", "world": "summit", "page": null, "meaning": "A track as the summit names it on a stage (Cybersecurity Summit, AI Summit, PITCH...): the summit's vocabulary, kept verbatim." },
-    { "id": "topic", "label": "Topic", "world": "industry", "page": "topics/{slug}/index.html", "meaning": "A field, beat or theme in this newsroom's taxonomy (AI agents, security, Portugal, Europe...)." },
+    { "id": "topic", "label": "Topic", "world": "industry", "page": "topics/{slug}/index.html", "meaning": "A field, beat or theme in PrompTugal.news's taxonomy (AI agents, security, Portugal, Europe...)." },
     { "id": "fact", "label": "Fact", "world": "evidence", "page": null, "meaning": "One dated claim about a company, as a source supports it." },
     { "id": "source", "label": "Source", "world": "evidence", "page": null, "meaning": "A public page that was read on a stated date: the thing a claim walks back to." },
     { "id": "evidence", "label": "Capture", "world": "evidence", "page": null, "meaning": "A capture by the research desk, as the curator mapped it: a source, a beat and the names it carries." },
     { "id": "story", "label": "Story candidate", "world": "evidence", "page": null, "meaning": "A story the curator proposes, resting on captures; a candidate, not a published article." },
-    { "id": "article", "label": "Article", "world": "evidence", "page": "articles/{slug}.html", "meaning": "An article this newsroom published, signed with its key." }
+    { "id": "article", "label": "Article", "world": "evidence", "page": "articles/{slug}.html", "meaning": "An article PrompTugal.news published, signed with its key." }
   ],
   "verbs": [
     { "verb": "listed_under", "inverse": "lists", "from": ["person"], "to": ["company", "organisation"], "world": "people", "reads": "{from} is listed under {to}", "reads_inverse": "{to} lists {from}", "meaning": "A source lists the person under this organisation (a speaker card, an attendee page). Not an employment claim: it is what the listing says." },
@@ -40,7 +40,7 @@
     { "verb": "on_day", "inverse": "day_of", "from": ["event"], "to": ["day"], "world": "summit", "reads": "{from} is on {to}", "reads_inverse": "{to} is the day of {from}", "meaning": "The day the event happens (for a multi-day event, the day it starts)." },
     { "verb": "in_track", "inverse": "track_of", "from": ["event"], "to": ["track"], "world": "summit", "reads": "{from} is in the track {to}", "reads_inverse": "{to} is the track of {from}", "meaning": "The track the summit's schedule puts the session in." },
     { "verb": "organised_by", "inverse": "organises", "from": ["event"], "to": ["organisation", "company"], "world": "summit", "bridge": true, "reads": "{from} is organised by {to}", "reads_inverse": "{to} organises {from}", "meaning": "Who runs the event, where a source says so (Web Summit for its official programme)." },
-    { "verb": "filed_under", "inverse": "classifies", "from": ["company"], "to": ["topic"], "world": "industry", "reads": "{from} is filed under {to}", "reads_inverse": "{to} classifies {from}", "meaning": "The field the team's company map files the company in (this newsroom's taxonomy)." },
+    { "verb": "filed_under", "inverse": "classifies", "from": ["company"], "to": ["topic"], "world": "industry", "reads": "{from} is filed under {to}", "reads_inverse": "{to} classifies {from}", "meaning": "The field the team's company map files the company in (PrompTugal.news's taxonomy)." },
     { "verb": "based_in", "inverse": "is_base_of", "from": ["company"], "to": ["place"], "world": "industry", "bridge": true, "reads": "{from} is based in {to}", "reads_inverse": "{to} is the base of {from}", "meaning": "The country a source gives for the company." },
     { "verb": "narrower_than", "inverse": "broader_than", "from": ["topic"], "to": ["topic"], "world": "industry", "reads": "{from} is narrower than {to}", "reads_inverse": "{to} is broader than {from}", "meaning": "The taxonomy pointing upward: a field inside a theme." },
     { "verb": "maps_to", "inverse": "is_mapped_from", "from": ["track"], "to": ["topic"], "world": "industry", "bridge": true, "reads": "{from} maps to {to}", "reads_inverse": "{to} is mapped from {from}", "meaning": "A declared bridge from the summit's vocabulary (a track) to ours (a topic). Our judgement, published so it can be disagreed with; the vocabularies are bridged, never merged." },
@@ -77,7 +77,7 @@
     "place_kind": ["country", "region", "city", "district", "street", "venue", "building", "stage", "room"],
     "topic_kind": [
       { "id": "field", "label": "Field", "meaning": "An industry field: the category the team's company map files each company under." },
-      { "id": "beat", "label": "Beat", "meaning": "One of the newsroom's beats (brief 3)." },
+      { "id": "beat", "label": "Beat", "meaning": "One of PrompTugal.news's beats (brief 3)." },
       { "id": "theme", "label": "Theme", "meaning": "A broader theme that fields and summit tracks are bridged to." }
     ]
   }

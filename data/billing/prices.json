@@ -19,7 +19,7 @@
     { "type": "account", "base": 0, "decays": false, "why": "The meter's own pages. Charging a reader to see their bill is not a price." }
   ],
   "types": [
-    { "type": "article", "as": "article", "base": 6, "decays": true, "pages": "the signed, dated articles", "why": "A signed article is the newsroom's own judgement, with its limits and sources: the reference's article, unchanged." },
+    { "type": "article", "as": "article", "base": 6, "decays": true, "pages": "the signed, dated articles", "why": "A signed article is PrompTugal.news's own judgement, with its limits and sources: the reference's article, unchanged." },
     { "type": "company", "as": "analysis", "base": 3, "decays": true, "pages": "a profile per company (/companies/<id>/)", "why": "A profile is assembled from several sources, re-checked at the source, with the company's sessions, people and related companies: work a reader cannot do from one page." },
     { "type": "topic", "as": "analysis", "base": 3, "decays": true, "pages": "a field, theme or beat (/topics/<id>/)", "why": "Every company in a field, counted and compared, with the field's sessions: the same kind of work as a profile." },
     { "type": "story", "as": "story", "base": 2, "decays": true, "pages": "the curator's story candidates", "why": "Assembled from the curator's captures by agents: the reference's story." },

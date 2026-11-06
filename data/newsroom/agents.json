@@ -1,5 +1,5 @@
 {
-  "about": "Every agent working on this newsroom, hand-kept by the conductor (newsroom@web-summit.dinis) and its builders; schema data/schemas/newsroom-agents.schema.json. A run of an agent is a commit here (data/newsroom/runs/, from git by newsroom/tools/runs.mjs) or a run line in its report on the team's site (data/newsroom/team-site.json, by newsroom/tools/desks-snapshot.mjs). Key ids are entries on the team's keys page; no key, token or session link is ever kept here.",
+  "about": "Every agent working on PrompTugal.news, hand-kept by the conductor (newsroom@web-summit.dinis) and its builders; schema data/schemas/newsroom-agents.schema.json. A run of an agent is a commit here (data/newsroom/runs/, from git by newsroom/tools/runs.mjs) or a run line in its report on the team's site (data/newsroom/team-site.json, by newsroom/tools/desks-snapshot.mjs). Key ids are entries on the team's keys page; no key, token or session link is ever kept here.",
   "updated": "2026-11-05",
   "agents": [
     {
@@ -67,7 +67,7 @@
       "started_by": "newsroom@web-summit.dinis",
       "started": "2026-11-05T02:19:02Z",
       "started_basis": "Fired up by newsroom@web-summit.dinis at Dinis's word: its branch work/design was created from dev at 02:19:02 (the conductor's local reflog), with newsroom-dev's, in parallel; its design commit is 22c967d at 02:50. Its second branch, work/look, was created at 03:00:26 to apply the design.",
-      "role": "Designed the newsroom's look (as The Lisbon Wire, a working name; PromptUGAL from 5 November): tokens, faces, components, 15 mockups and their screenshots (design/). Now restyles the page shell and the stylesheet with it.",
+      "role": "Designed the site's look (as The Lisbon Wire, a working name; PromptUGAL from 5 November): tokens, faces, components, 15 mockups and their screenshots (design/). Now restyles the page shell and the stylesheet with it.",
       "lands": [
         "design/",
         "newsroom/build/lib/shell.mjs",
@@ -273,7 +273,7 @@
       "started_by": "Dinis Cruz",
       "started": "2026-11-01",
       "started_basis": "Holds the team's conductor seat from 1 November at the operator's word (its key, conductor-3, on the team's keys page).",
-      "role": "Conducts the team's site; for this newsroom it wrote the brief pack (v0.1.2) and receives the newsroom's run lines.",
+      "role": "Conducts the team's site; for this site it wrote the brief pack (v0.1.2) and receives the newsroom's run lines.",
       "lands": [
         "the team's site",
         "content/brief/ (here, once)"
@@ -429,6 +429,157 @@
       ],
       "status": "running",
       "status_note": "First run done (6 November): the Brazilian delegation from the public team CRM (11 companies, ApexBrasil) and Web Summit's 16 past editions. Next: past side events, a verb for delegation membership, the CRM link from each company.",
+      "issues": [
+        "WS-177"
+      ]
+    },
+    {
+      "id": "conductor-promptugal",
+      "name": "conductor@PrompTugal.dinis",
+      "label": "PrompTugal's conductor",
+      "person": "dinis",
+      "kind": "conductor",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T00:00:00Z",
+      "started_basis": "Dinis's word of 5 November 2026 (~23:55 UTC): the PrompTugal team, each agent in its own Claude Code session (CLAUDE.md, The PrompTugal team); its first commits here are of 6 November.",
+      "role": "The plan, the board for this site, REALITY.md, who does what; a short brief to Dinis after each run; routes work to the others.",
+      "lands": [
+        "board/",
+        "REALITY.md"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is conductor-promptugal in board/keys.json (record sha256:4a76444c8799594b); not listed under keys here because the gate checks keys against the team-site snapshot, and PrompTugal's keys live in this repository (for dev@). Added by ontologist@PrompTugal.dinis.",
+      "issues": [
+        "WS-177"
+      ]
+    },
+    {
+      "id": "journalist-promptugal",
+      "name": "journalist@PrompTugal.dinis",
+      "label": "PrompTugal's journalist",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T00:00:00Z",
+      "started_basis": "Dinis's word of 5 November 2026 (~23:55 UTC): the PrompTugal team, each agent in its own Claude Code session (CLAUDE.md, The PrompTugal team); its first commits here are of 6 November.",
+      "role": "content/articles/, with the desks' drafts; each fact sourced, each article signed.",
+      "lands": [
+        "content/articles/",
+        "articles/*.md.sig"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "No key in board/keys.json yet (journalist-promptugal). Added by ontologist@PrompTugal.dinis.",
+      "issues": [
+        "WS-177"
+      ]
+    },
+    {
+      "id": "dev-promptugal",
+      "name": "dev@PrompTugal.dinis",
+      "label": "PrompTugal's dev",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T00:00:00Z",
+      "started_basis": "Dinis's word of 5 November 2026 (~23:55 UTC): the PrompTugal team, each agent in its own Claude Code session (CLAUDE.md, The PrompTugal team); its first commits here are of 6 November.",
+      "role": "newsroom/build/, newsroom/tools/, assets/ code, the gate, the features, the domain and CI.",
+      "lands": [
+        "newsroom/",
+        "assets/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is dev-promptugal in board/keys.json (record sha256:15adb76778ecdb55); not listed under keys here because the gate checks keys against the team-site snapshot, and PrompTugal's keys live in this repository (for dev@). Added by ontologist@PrompTugal.dinis.",
+      "issues": [
+        "WS-177"
+      ]
+    },
+    {
+      "id": "outreach-promptugal",
+      "name": "outreach@PrompTugal.dinis",
+      "label": "PrompTugal's outreach",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T00:00:00Z",
+      "started_basis": "Dinis's word of 5 November 2026 (~23:55 UTC): the PrompTugal team, each agent in its own Claude Code session (CLAUDE.md, The PrompTugal team); its first commits here are of 6 November.",
+      "role": "Drafts to companies as PrompTugal's editors, each leading with that company's page; never sends or posts.",
+      "lands": [
+        "desks/outreach/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is outreach-promptugal in board/keys.json (record sha256:09dcfd5570d9d8f5); not listed under keys here because the gate checks keys against the team-site snapshot, and PrompTugal's keys live in this repository (for dev@). Added by ontologist@PrompTugal.dinis.",
+      "issues": [
+        "WS-177"
+      ]
+    },
+    {
+      "id": "designer-promptugal",
+      "name": "designer@PrompTugal.dinis",
+      "label": "PrompTugal's designer",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T00:00:00Z",
+      "started_basis": "Dinis's word of 5 November 2026 (~23:55 UTC): the PrompTugal team, each agent in its own Claude Code session (CLAUDE.md, The PrompTugal team); its first commits here are of 6 November.",
+      "role": "design/ and the brand v2.0, layouts, the logo, the editors' business cards.",
+      "lands": [
+        "design/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is designer-promptugal in board/keys.json (record sha256:c4fe279fe6326ca9); not listed under keys here because the gate checks keys against the team-site snapshot, and PrompTugal's keys live in this repository (for dev@). Added by ontologist@PrompTugal.dinis.",
+      "issues": [
+        "WS-177"
+      ]
+    },
+    {
+      "id": "observability-promptugal",
+      "name": "observability@PrompTugal.dinis",
+      "label": "PrompTugal's observability",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T00:00:00Z",
+      "started_basis": "Dinis's word of 5 November 2026 (~23:55 UTC): the PrompTugal team, each agent in its own Claude Code session (CLAUDE.md, The PrompTugal team); its first commits here are of 6 November.",
+      "role": "Who reads what and what the agents do on this site: page views and reads to an encrypted vault, the drain, the reports in the newsroom section; nothing that identifies a reader.",
+      "lands": [
+        "newsroom/observability/",
+        "data/newsroom/observability/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "No key in board/keys.json yet (observability-promptugal). Added by ontologist@PrompTugal.dinis.",
+      "issues": [
+        "WS-177"
+      ]
+    },
+    {
+      "id": "synthetic-promptugal",
+      "name": "synthetic@PrompTugal.dinis",
+      "label": "PrompTugal's synthetic",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T00:00:00Z",
+      "started_basis": "Dinis's word of 5 November 2026 (~23:55 UTC): the PrompTugal team, each agent in its own Claude Code session (CLAUDE.md, The PrompTugal team); its first commits here are of 6 November.",
+      "role": "Synthetic readers, each labelled SYNTHETIC, who read the site and report what works and what loses them; each finding to the agent who owns the fix.",
+      "lands": [
+        "desks/synthetic/"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is synthetic-promptugal in board/keys.json (record sha256:271dba4290399aaf); not listed under keys here because the gate checks keys against the team-site snapshot, and PrompTugal's keys live in this repository (for dev@). Added by ontologist@PrompTugal.dinis.",
       "issues": [
         "WS-177"
       ]

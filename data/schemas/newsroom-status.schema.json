@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://promptugal.news/data/schemas/newsroom-status.schema.json",
-  "title": "The control centre as JSON (/api/v1/newsroom/status.json): runs, agents, the pipeline and the plan",
+  "title": "The newsroom section as JSON (/api/v1/newsroom/status.json): runs, agents, the pipeline and the plan",
   "type": "object",
   "required": [
     "about",
