@@ -245,6 +245,123 @@
       "state": "disabled",
       "since": "2026-11-06T20:02Z",
       "note": "started 20:02 UTC 6 Nov at Dinis's word ('need that investor agent here, since there are two different focus and companies'); every three hours (the weekly limit) Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
+    },
+    {
+      "agent": "librarian@PrompTugal.dinis",
+      "minute": 56,
+      "cron": "56 */3 * * *",
+      "trigger": "trig_019oFFeYYbd5pXKrM6Lmzjb6",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwDA6Bcb7hgYc9kVbZK"
+    },
+    {
+      "agent": "journalist@PrompTugal.dinis",
+      "minute": 26,
+      "cron": "26 */2 * * *",
+      "trigger": "trig_01Fti3q1AN73Fn82ZdJmgGGN",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwCxr1fJ8bZkc1LPDch"
+    },
+    {
+      "agent": "correspondent@PrompTugal.dinis",
+      "minute": 41,
+      "cron": "41 */2 * * *",
+      "trigger": "trig_01VmHTK48ncgjxhYgfDkdxXS",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwBo8qpbApP4teBf7qK"
+    },
+    {
+      "agent": "synthetic@PrompTugal.dinis",
+      "minute": 44,
+      "cron": "44 */2 * * *",
+      "trigger": "trig_01CTqt1qH5nVcWoGpGXk7j3x",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwEEVP5dnvFvH3zpDEu"
+    },
+    {
+      "agent": "designer@PrompTugal.dinis",
+      "minute": 33,
+      "cron": "33 * * * *",
+      "trigger": "trig_01AiuiCa9HMfdETkeYjU3rrP",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwBz3RCCiGVDcir6TJ4"
+    },
+    {
+      "agent": "designer.experiments@PrompTugal.dinis",
+      "minute": 58,
+      "cron": "58 */2 * * *",
+      "trigger": "trig_01T7yZ7X94PuBV4gcCUNofj8",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwCj6XNpp9uriM22mwC"
+    },
+    {
+      "agent": "ontologist@PrompTugal.dinis",
+      "minute": 21,
+      "cron": "21 * * * *",
+      "trigger": "trig_01JtywHmsrju1iCBtYSEERTT",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwBtpQ2smdiLE2DEkEc"
+    },
+    {
+      "agent": "devops@PrompTugal.dinis",
+      "minute": 14,
+      "cron": "14 */2 * * *",
+      "trigger": "trig_01JcRrW5XgAd2pDMu8RaeJ2r",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwFGicLjZRFQ7Dgidnx"
+    },
+    {
+      "agent": "outreach@PrompTugal.dinis",
+      "minute": 38,
+      "cron": "38 * * * *",
+      "trigger": "trig_012iE7v2783ye6RVTr2GUG9w",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwDeUFNidtpsw5BVQGW"
+    },
+    {
+      "agent": "sherpa@PrompTugal.dinis",
+      "minute": 29,
+      "cron": "29 */3 * * *",
+      "trigger": "trig_01UasQn6f62gr8nLnBmVG89z",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwBoVfeDFocNhLzBz78"
+    },
+    {
+      "agent": "investors@PrompTugal.dinis",
+      "minute": 23,
+      "cron": "23 */3 * * *",
+      "trigger": "trig_01677gSigivKe6fVfL5vZaj6",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwAwwtLyvVLdRjxsXKD"
+    },
+    {
+      "agent": "researcher@PrompTugal.dinis",
+      "minute": 13,
+      "cron": "13 * * * *",
+      "trigger": "trig_01Wwd5KzbsFY3HivhfZuqRfA",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwBGGhxCXsAbhR7Fiw6"
+    },
+    {
+      "agent": "backup@PrompTugal.dinis",
+      "minute": 9,
+      "cron": "9 */6 * * *",
+      "trigger": "trig_01SDCWupdXeTmesSyPX7yR3f",
+      "state": "enabled",
+      "since": "2026-11-06T22:50Z",
+      "note": "account B, started by conductor.b@ at Dinis's word ('accelerate and fire up everything here'); session session_01Kw9UwDW1zw35SzymGERXsH"
     }
   ]
 }
