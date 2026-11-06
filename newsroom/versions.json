@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.191",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@web-summit.vicky",
+    "from": "c6277db6f"
+  },
+  {
     "version": "v0.1.190",
     "date": "2026-11-06",
     "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
