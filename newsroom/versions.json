@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.214",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 10:40 UTC: nine companies' flows in their drafts; blocked on who sends which company, and on the disclosure's wording and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "a6049e053"
+  },
+  {
     "version": "v0.1.213",
     "date": "2026-11-06",
     "what": "abp@PrompTugal.dinis: 10:37 wake: 18 runs, 0 breaches that matter; a grep false positive fixed; the conductor's article at Dinis's word noted, not granted",
