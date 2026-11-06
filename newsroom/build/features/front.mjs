@@ -34,9 +34,37 @@ export function frontOrder(ctx) {
     return [...picks.map(s => by.get(s)), ...all.filter(a => !seen.has(slugOf(a)))]
 }
 
+// a byline that names the agent in words (designer@'s F6, F10; sherpa@'s F9: the address stays on the article):
+// journalist-portugal@web-summit.vicky, for Vicky Wang -> "the Portugal desk, an AI agent, for Vicky Wang"
+const OWNER = { dinis: 'Dinis Cruz', vicky: 'Vicky Wang', indi: 'Indi Gupte' }
+const ROLE = { security: 'the security agent', newsroom: 'the newsroom', conductor: 'the conductor' }
+export function byline(author) {
+    const first = String(author || '').split(',')[0].trim(), forr = (String(author).match(/, for ([^,]+)/) || [])[1]
+    const [local, domain = ''] = first.split('@'), [role, desk] = local.split('-')
+    const who = ROLE[role] && !desk ? ROLE[role] : desk ? `the ${desk === 'ai' ? 'AI' : desk.charAt(0).toUpperCase() + desk.slice(1)} desk` : `the ${role}`
+    const owner = forr || OWNER[domain.split('.').pop()]
+    return `${who}, an AI agent${owner ? `, for ${owner}` : ''}`
+}
 const minutes = md => Math.max(1, Math.round(md.replace(/```[\s\S]*?```/g, '').split(/\s+/).filter(Boolean).length / 230))
 
+// two second stories under the lead (designer@'s F8, A): a picture, the kicker, the headline
+function seconds(ctx, page) {
+    const two = frontOrder(ctx).slice(1, 3); if (!two.length) return ''
+    return '\n\n{.rows .seconds}\n' + two.map(a => { const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'thumb')
+        return `- ${img ? `[${img}](${href}) ` : ''}\`${ctx.md.cell(a.meta.beat || String(a.meta.tags || 'News').split(',')[0])}\` **[${a.meta.title}](${href})** *${byline(a.meta.author)}*` }).join('\n')
+}
+
 export const fill = {
+    // now and next in three lines (designer@'s F5, A): today's first thing, then the next two moments
+    'front:next': (page, ctx) => {
+        const { days, itemsOn, TODAY, DAY } = load(ctx), out = []
+        for (const d of days.filter(d => d >= TODAY)) {
+            const top = [...itemsOn(d)].sort((a, b) => rank(a) - rank(b) || (a.time || '').localeCompare(b.time || ''))[0]
+            if (top) out.push(`- \`${d === TODAY ? 'Today ' : ''}${DAY(d).split(' ')[0].slice(0, 3)} ${DAY(d).split(' ')[1]}\` [${ctx.md.cell(String(top.what).split(/:\s|\s\(/)[0])}](${ctx.link(page.rel, `events/${top.id}/index.html`)})`)
+            if (out.length === 3) break
+        }
+        return out.length ? `{.rows .next3}\n${out.join('\n')}` : ''
+    },
     // C's briefing card above the lead on the summit days (9 to 12 November): today's five things, and the way to the day
     // page. Empty on every other day (guidance 6 Nov 13:20, the front page: A now, C's card on the summit days).
     'front:briefing': (page, ctx) => {
@@ -50,13 +78,13 @@ export const fill = {
         const a = frontOrder(ctx)[0]
         if (!a) return 'Our first article is on the way.'
         const img = imageOf(ctx, page, a, 'card')
-        return (img ? `{.lead-fig}\n[${img}](${ctx.link(page.rel, a.rel)})\n\n` : '') + `{.kicker}\n${ctx.md.cell(a.meta.tags || 'News')}\n\n{.lead-hed}\n[${a.meta.title}](${ctx.link(page.rel, a.rel)})\n\n{.dek}\n${a.meta.summary}\n\n{.meta-line}\n${ctx.DAY(a.meta.date)} · ${a.meta.author} · ${minutes(a.md)} min read · signed`
+        return (img ? `{.lead-fig}\n[${img}](${ctx.link(page.rel, a.rel)})\n\n` : '') + `{.kicker}\n${ctx.md.cell(a.meta.tags || 'News')}\n\n{.lead-hed}\n[${a.meta.title}](${ctx.link(page.rel, a.rel)})\n\n{.dek}\n${a.meta.summary}\n\n{.meta-line}\n${byline(a.meta.author)} · ${minutes(a.md)} min · signed` + seconds(ctx, page)
     },
     'front:latest': (page, ctx) => {
-        const rest = frontOrder(ctx).slice(1)
+        const rest = frontOrder(ctx).slice(3)
         const row = a => {
             const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'thumb')
-            return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary)}* \`${[a.meta.beat, ctx.DAY(a.meta.date)].filter(Boolean).join(' · ')}\``
+            return `- ${img ? `[${img}](${href}) ` : ''}\`${ctx.md.cell(a.meta.beat || String(a.meta.tags || 'News').split(',')[0])}\` **[${a.meta.title}](${href})** *${byline(a.meta.author)}*`
         }
         return rest.length ? `{.rows .news}\n${rest.map(row).join('\n')}` : 'The next articles will appear here, newest first. Each is written from the desks\' research, fact-checked, and signed with the newsroom\'s key.'
     },
