@@ -17,14 +17,20 @@ export function decorate(p) {
 
 export const fill = {
     // the list of articles, newest first, with links relative to the page that asks for it
-    // the list of articles, newest day first, one band per day, a picture card for each (dev.pages@, the-articles-page)
+    // the articles in two views, switched by the link followed (CSS :target): the wire (the default: newest first, a
+    // thumbnail, the kicker, the summary, the byline) and by day (one band a day, picture cards). dev.pages@, the-articles-page
     'articles:list': (page, ctx) => {
         const list = articlesOf(ctx)
         if (!list.length) return '- Our first articles are on the way. They will appear here, newest first.'
+        const wire = `{.rows .news .wire}\n` + list.map(a => {
+            const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'thumb')
+            return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${a.meta.summary.replace(/[*`]/g, '')}* \`${[a.meta.beat, ctx.DAY(a.meta.date), a.meta.author.replace(/@.*/, '')].filter(Boolean).join(' · ')}\``
+        }).join('\n')
         const days = [...new Set(list.map(a => a.meta.date))]
-        return days.map(d => `## ${ctx.DAY(d)} {#d-${d}}\n\n{.cards}\n` + list.filter(a => a.meta.date === d).map(a => {
+        const byDay = days.map(d => `### ${ctx.DAY(d)} {#d-${d}}\n\n{.cards}\n` + list.filter(a => a.meta.date === d).map(a => {
             const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'card')
             return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary, 190)}* \`${[a.meta.beat, a.meta.author.replace(/@.*/, '')].filter(Boolean).join(' · ')}\``
         }).join('\n')).join('\n\n')
+        return `{.view-switch}\n[The wire](#v-wire) · [By day](#v-byday)\n\n::: view view-wire\n#### The wire {#v-wire}\n\n${wire}\n:::\n\n::: view view-byday\n#### By day {#v-byday}\n\n${byDay}\n:::`
     },
 }

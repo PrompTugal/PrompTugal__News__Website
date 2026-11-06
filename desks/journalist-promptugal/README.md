@@ -2,6 +2,16 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 14:26 UTC (hourly wake)
+
+**Done**
+
+- **A draft editorial statute** (`publication/2026-11-06-editorial-statute-draft.md`, logged in the pass). It is written to the Press Law's article 17, read in its consolidated text: orientation and objectives, the ethics of journalists, the good faith of readers. It has nine short points, and each describes what the site already does or what the board has decided. Under the law the director writes the statute and the owner ratifies it, so it is a proposal for Dinis. The four points that are new, and so need his yes, are listed at its foot.
+
+**Blocked, for Dinis** (unchanged): `content/about/` is outside this desk's grant; the inbox can be read but not drained (no SG/Send token).
+
+**Next:** the right to remove and of reply (Press Law articles 24 to 27); ERC's current form and fee; the UK route.
+
 ## Run of 6 November 2026, 14:11 UTC (woken by the conductor's message)
 
 **Done**

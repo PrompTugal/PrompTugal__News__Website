@@ -1,8 +1,8 @@
 {
   "agent": "backup@PrompTugal.dinis",
   "focus": "regular full backups of the repository and every vault; the recovery plan with security@",
-  "state": "working: Dinis asked for pack-mode vault backups, a restore workflow and read-only; designed and partly tested; blocked on an SG/Send token and an upload path",
-  "updated": "2026-11-06T14:20Z",
+  "state": "working: pack-mode vault backup with built-in restore test works locally (no push, no token); zip stays in the container; no upload path yet",
+  "updated": "2026-11-06T14:35Z",
   "done": [
     "Session key backup-promptugal (record sha256:be79ffe28ee62bcb, encryption sha256:feab076b8f1d1683) in board/keys.json, linked to the operator key sha256:db7f79fdd87e030a; pki-agent.mjs sha256 fcb28a1c... matches abp@'s record",
     "ROLE.md, plan.md (tiers, verification, restore)",
@@ -11,7 +11,8 @@
     "wake 12:12: FOUND A DEFECT in my 06:10 backup: the session clone was shallow, so the bundle was incomplete although git bundle verify passed (a clone of it failed). backup.sh now unshallows first, clones the bundle, compares heads and runs fsck; the 06:10 bundle is void (it never left the container)",
     "wake 12:12: full bundle at head 190aa764 (774 commits, ~78 MB), restored by clone and the gate on the clone prints OK (v0.1.237); sha256:512c87a7cbf87fe8...; container only. No vault key held, no vault backed up. security@'s review of plan.md read: agreed, with two additions (never read ~/.sg-send/ or lane files; run the gate on a restored clone), both now in practice",
     "13:22 Dinis, in my session, answered 'Go' to using the Google Drive connector with a new folder PrompTugal-backups (his word; abp@ to write it into board/abp/backup.md). Folder created (id 1tf7Ko859LbitzA5Mn5jc3iOZCDhcEBhD, in the Drive of the connected agent account, not Dinis's personal one) and the 12:12 manifest uploaded as a test (file id 1waFe_Z_cd4-gfUyToghzj1s2wPuKvz9Q)",
-    "14:1x pack-mode design tested with sgit-ai 0.27.0 (init --packs, commit; zip of bare/ only, never local/ which holds the keys); found: packs form on push and push needs an access token; restore from a loose zip fails; Drive tool cannot carry the zip; Drive update_file can set readOnly (a lock, not a retention). All in plan.md"
+    "14:1x pack-mode design tested with sgit-ai 0.27.0 (init --packs, commit; zip of bare/ only, never local/ which holds the keys); found: packs form on push and push needs an access token; restore from a loose zip fails; Drive tool cannot carry the zip; Drive update_file can set readOnly (a lock, not a retention). All in plan.md",
+    "14:3x board/team/backup/tools/backup-vault.sh: pack vault (sgit 0.27.0), 59 MB zip of bare/ only (git bundle was 78 MB), key kept outside the zip, restore test (fresh dir, verify, fsck, byte-identical, 3376 files) passes, zip made read-only with chmod. Not used: SG_SEND_ACCESS_TOKEN (set in my environment; Dinis said not needed; nothing pushed)"
   ],
   "next": [
     "Agree plan.md with security@, accountant@ and the conductor",
@@ -24,9 +25,9 @@
     "conductor@: a schedule entry, a lane in board/inbox.json and an inbox",
     "abp@: a grant for board/team/backup/",
     "abp@: write Dinis's 'Go' for Google Drive (folder PrompTugal-backups, manifests only for now) into board/abp/backup.md",
-    "Dinis: an SG/Send access token for dev.send.sgraph.ai (request_credential), so I can push the pack vault (packs form on push) and test the restore from the host",
-    "Dinis: an upload path for the zip that skips the model: a Drive credential for a shell upload, or push the vault to dev.send.sgraph.ai as the offsite copy (my preference, with the vault key sealed to your key)",
-    "Dinis: lock each uploaded zip read-only after its restore test passes and a day has passed? (Drive readOnly stops edits, not deletes)"
+    "Dinis: lock each uploaded zip read-only after its restore test passes and a day has passed? (Drive readOnly stops edits, not deletes)",
+    "Dinis: the 59 MB zip has nowhere durable: the Drive tool cannot carry it. Options: a Drive credential for a shell upload; or you pull it from a place I can serve; or push the pack vault to dev.send.sgraph.ai after all (needs the token; packs and dedup between backups only form that way)",
+    "Dinis: the vault key of each backup must be sealed to your key; tell me which key (pki-agent seal --to), else it dies with this container"
   ],
   "notes": [
     "A bundle in this container is not a backup: the container is ephemeral. Nothing is durable until a destination is granted.",

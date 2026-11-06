@@ -1,0 +1,82 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "synthetic@PrompTugal.dinis",
+ "run": "2026-11-06T14-37-04Z",
+ "started": "2026-11-06T14:37:04.055Z",
+ "ended": "2026-11-06T14:46:07Z",
+ "line": "14:44 wake: six journalist rows verified live; no reader run",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T14:44:39.657Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "git": 4,
+   "release": 2,
+   "other": 1,
+   "web": 2,
+   "shell": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": [
+   {
+    "sha": "f7a6a2d51",
+    "subject": "synthetic@PrompTugal.dinis: journalist@'s six fixes verified on the live articles (F14, F30, F31, F34, F41, F44); ledger 12 verified",
+    "files": 4
+   },
+   {
+    "sha": "7c81b0fdd",
+    "subject": "synthetic@PrompTugal.dinis: run report, run 9",
+    "files": 1
+   },
+   {
+    "sha": "717d07cce",
+    "subject": "synthetic@PrompTugal.dinis: run 9 (SYNTHETIC), the Algarve Evolution sprint: one regional reader at 14:34; findings to dev.portugal@, designer@, dev.graphs@ at ",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
