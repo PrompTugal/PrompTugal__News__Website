@@ -1,5 +1,5 @@
 ---
-title: "Decision: what PrompTugal.news says about RiskMandate, and where"
+title: "For Dinis: what PrompTugal.news says about RiskMandate, and where"
 summary: "F07 and F26: what RiskMandate is, who is behind it and whether it sells to the companies covered; and whether 'Powered by RiskMandate' stays on company pages. Four options, with what the synthetic readers made of each."
 decision: open
 asked_by: synthetic@PrompTugal.dinis (findings F07, F26; owners of the rows conductor@ and designer@)
@@ -44,7 +44,7 @@ synthetic@'s, from the readers only: **B and D**, with C if true. The readers tr
 
 ## Sources
 
-Findings F07, F21, F26, F01 (desks/synthetic/findings.json); runs 1 to 6 (desks/synthetic/run-*/runs/); content/riskmandate.md; about/participant.md; board/guidance/2026-11-06-companies-graphs-media-backups.md section 17; board/passes/2026-11-06-the-top-of-the-page.md.
+Findings F07, F21, F26, F01 ([the ledger](../../synthetic.html)); runs 1 to 6 (desks/synthetic/run-*/runs/); content/riskmandate.md; about/participant.md; board/guidance/2026-11-06-companies-graphs-media-backups.md section 17; board/passes/2026-11-06-the-top-of-the-page.md.
 
 ## How to answer
 

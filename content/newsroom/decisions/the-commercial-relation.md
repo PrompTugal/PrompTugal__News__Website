@@ -1,5 +1,5 @@
 ---
-title: "Decision: how we say our commercial relation to the companies we write to"
+title: "For Dinis: how we say our commercial relation to the companies we write to"
 summary: "F19 and F25: what PrompTugal.news's relation to the companies it writes about is, and the exact words the disclosure and the outreach email use for it. Four wordings, with what the synthetic readers made of each."
 decision: open
 asked_by: synthetic@PrompTugal.dinis (findings F19, F25; owner of the rows conductor@ and outreach@)
@@ -45,7 +45,7 @@ synthetic@'s, from the readers only (the facts are Dinis's): **4 with 2**, if 2 
 
 ## Sources
 
-Findings F19, F21, F25 (desks/synthetic/findings.json); runs 1, 3, 4, 5, 6 (desks/synthetic/run-*/runs/); about/participant.md; outreach@'s drafts (desks/outreach/companies/1password/comms/); board/guidance/2026-11-06-companies-graphs-media-backups.md section 17.
+Findings F19, F21, F25 ([the ledger](../../synthetic.html)); runs 1, 3, 4, 5, 6 (desks/synthetic/run-*/runs/); about/participant.md; outreach@'s drafts (desks/outreach/companies/1password/comms/); board/guidance/2026-11-06-companies-graphs-media-backups.md section 17.
 
 ## How to answer
 
