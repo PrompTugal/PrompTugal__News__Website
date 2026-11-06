@@ -1,0 +1,173 @@
+{
+  "$schema": "none",
+  "article": "0xbow",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/d7b617c6-9510-47f4-8325-96053a07d258/0xbow-",
+      "status": 200,
+      "read": true,
+      "chars": 1203
+    },
+    {
+      "url": "https://websummit.com/startups/featured-startups/",
+      "status": 200,
+      "read": true,
+      "chars": 5900
+    }
+  ],
+  "spent_usd": 0.0296,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named 0xbow.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "0xbow United States Web3",
+          "note": "The S1 startup profile page is titled and headed '0xbow' and S2's featured startup list also names '0xbow', so the company is named 0xbow."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Meet our 2026 startups Apply for 2027 0xbow",
+          "note": "The sources list 0xbow as one of the featured startups."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "0xbow 0xbow Web3",
+          "note": "S2 lists 0xbow as a featured startup, confirming the company name."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://0xbow.io.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source gives 0xbow's website address; S1 and S2 only list the company name and Web Summit pages, so https://0xbow.io cannot be confirmed from them."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions the company's website URL."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source provides the company's website URL or mentions https://0xbow.io."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Plug-and-play on-chain privacy with built-in compliance.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Both sources list 0xbow only as a Web3 company in Web Summit listings and contain no self-description, so neither 'plug-and-play' nor 'built-in compliance' appears."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither of the provided sources contains the claimed description or mention of plug-and-play on-chain privacy."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source contains the claimed description of 0xbow."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "United States",
+          "note": "The 0xbow profile page lists its country as United States, next to the sector Web3."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "0xbow United States Web3",
+          "note": "The startup profile for 0xbow directly lists 'United States'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "0xbow United States",
+          "note": "The source lists 0xbow with United States as its country."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (startup (growth)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "GROWTH",
+          "note": "The 0xbow page is listed under the Web Summit 2026 Lisbon appearances URL (/appearances/lis26/) with a GROWTH label, and S2 lists 0xbow among the \"2026 startups\" at Web Summit."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "The source lists 0xbow as an attendee in the Growth startup category for Web Summit 2026, but the Lisbon venue is only indicated by the URL slug 'lis26' rather than explicitly stated."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "S1's Lisbon 2026 0xbow page labels it under startups GROWTH."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}
