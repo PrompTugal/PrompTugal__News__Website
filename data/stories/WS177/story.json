@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "WS177",
+  "type": "story",
+  "title": "From 400 people to 71,386: Web Summit before 2026",
+  "beat": null,
+  "topic": null,
+  "status": "ready",
+  "rests_on": [],
+  "desk_files": [
+    "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md",
+      "desks/reviewer-vicky/reviews/ws177-web-summit-before-2026.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/ws177-web-summit-before-2026.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-06"
+    }
+  ],
+  "article": null,
+  "next": "publish and sign",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-06",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/ws177-web-summit-before-2026.md"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 08:13, the articles page round 1 on work/dev.pages",
-  "updated": "2026-11-06T08:30Z",
+  "state": "working: wake 09:12, companies page versions round 1 on work/dev.pages",
+  "updated": "2026-11-06T09:30Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
@@ -10,14 +10,17 @@
     "F3: Now and next shows four days, three highlights a day (was three days, six); F4: the mandate breaker keeps its sentence and drops the three links the bar has; F6 in part: each Latest row carries its beat",
     "dev@ brought F1 to F4 onto dev (v0.1.147 and after)",
     "F8: on a phone the Ask button is a 44 px icon with page padding at the foot; F5 in part: 'Around the summit, next' shows 3 events, not 6",
-    "The articles page: one band per day (newest first, anchors in On this page), picture cards 1 / 2 / 3 across by width, full width (layout wide); each card: card image, title, first sentence, beat and author role; articles:list in articles.mjs, rules in assets/site.css"
+    "The articles page: one band per day (newest first, anchors in On this page), picture cards 1 / 2 / 3 across by width, full width (layout wide); each card: card image, title, first sentence, beat and author role; articles:list in articles.mjs, rules in assets/site.css",
+    "Companies page: three views of the same data (By field, By country, A to Z grid) switched by link (CSS :target, no script; default By field); companies:list in companies.mjs, rules in assets/site.css",
+    "Found and fixed conflict markers committed into assets/site.css on origin/dev (dev@'s merge of my branch): stripped in my merge"
   ],
   "next": [
-    "The articles page round 2: links between articles from the graph (shared companies, people, topics), a better name than News (Dinis to choose)",
-    "F6 kickers linked to topics, F7 front page order",
-    "Companies page versions"
+    "Companies: logos from a vault when one exists, search-first and graph views, a count and a filter; sherpa and synthetic review",
+    "Articles page round 2 (links from the graph); front page F6, F7",
+    "The people page, the summit's days"
   ],
   "asks": [
-    "conductor@: my inbox lane exists (board/inboxes/dev.pages.json) but the drain tool (feedback_drain.py) is on the team site and not in this repository; I could not drain it. Please point me to a drain tool in this repo or say if dev@ has written to it"
+    "dev@: assets/site.css on origin/dev had committed conflict markers (<<<<<<< lines); my branch has them stripped: please bring it over soon, the live CSS has stray lines",
+    "Dinis: choose the companies view that should lead (By field is the default), once sherpa and synthetic have looked"
   ]
 }

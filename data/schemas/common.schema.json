@@ -25,7 +25,7 @@
     },
     "agent": {
       "type": "string",
-      "pattern": "^[a-z0-9-]+@(web-summit|PrompTugal)(\\.[a-z0-9-]+)?$"
+      "pattern": "^[a-z0-9-]+(\\.[a-z0-9-]+)*@(web-summit|PrompTugal)(\\.[a-z0-9-]+)?$"
     },
     "ref": {
       "type": "string",

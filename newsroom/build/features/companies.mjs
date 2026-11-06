@@ -101,12 +101,19 @@ export function pages(ctx) {
 
 export const fill = {
     'companies:count': (page, ctx) => String(ctx.store.companies.length),
+    // three views of the same companies, switched by the link a reader follows (CSS :target, no script):
+    // by field (the default), by country, and a compact A to Z grid (dev.pages@, the-companies-page)
     'companies:list': (page, ctx) => {
         const cats = ctx.store.companies, cell = ctx.md.cell
         const fields = ctx.store.topics.filter(t => t.kind === 'field')
-        return fields.filter(t => cats.some(x => x.category === t.category)).map(t =>
-            `## ${t.name} {#${t.category}}\n\n{.rows .links-cols}\n` + cats.filter(x => x.category === t.category).sort((a, b) => a.name.localeCompare(b.name))
-                .map(x => `- **[${cell(x.name)}](${x.id}/index.md)** (${cell(x.country)}). ${cell(x.what)}`).join('\n')).join('\n\n')
+        const line = x => `- **[${cell(x.name)}](${x.id}/index.md)** (${cell(x.country)}). ${cell(x.what)}`
+        const byName = (a, b) => a.name.localeCompare(b.name)
+        const byField = fields.filter(t => cats.some(x => x.category === t.category)).map(t =>
+            `### ${t.name} {#${t.category}}\n\n{.rows .links-cols}\n` + cats.filter(x => x.category === t.category).sort(byName).map(line).join('\n')).join('\n\n')
+        const countries = [...new Set(cats.map(x => x.country))].sort((a, b) => cats.filter(x => x.country === b).length - cats.filter(x => x.country === a).length || a.localeCompare(b))
+        const byCountry = countries.map(k => `### ${cell(k)} \`${cats.filter(x => x.country === k).length}\`\n\n{.rows .links-cols}\n` + cats.filter(x => x.country === k).sort(byName).map(line).join('\n')).join('\n\n')
+        const grid = `{.tiles}\n` + [...cats].sort(byName).map(x => `- **[${cell(x.name)}](${x.id}/index.md)** *${cell(x.country)}*`).join('\n')
+        return `{.view-switch}\n[By field](#v-field) · [By country](#v-country) · [A to Z](#v-grid)\n\n::: view view-field\n#### By field {#v-field}\n\n${byField}\n:::\n\n::: view view-country\n#### By country {#v-country}\n\n${byCountry}\n:::\n\n::: view view-grid\n#### A to Z {#v-grid}\n\n${grid}\n:::`
     },
 }
 

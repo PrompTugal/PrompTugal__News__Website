@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://www.feedzai.com/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Feedzai's home page, read 6 November 2026: real-time AI that stops fraud and financial crime, and Farol, its AI agent for fraud teams, for rules, alerts and SARs (the flow fraud-team-with-farol)",
+      "kind": "other"
     }
   ]
 }

@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "outreach@PrompTugal.dinis",
+ "run": "2026-11-06T10-14-30Z",
+ "started": "2026-11-06T10:14:30.995Z",
+ "ended": "2026-11-06T10:39:53Z",
+ "line": "three more flows in their drafts; one-step grammar",
+ "policy": {
+  "version": "1.5.0",
+  "sha256": "673ac90ea992c5c1"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T10:38:44.652Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T10:14:30.995Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-06T10:38:44.345Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "web": 1,
+   "shell": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": [
+   {
+    "sha": "3a3ed5765",
+    "subject": "outreach@PrompTugal.dinis: Feedzai's, Mastra's and Primitive's mapped flows in their drafts; one agent step reads right in both languages",
+    "files": 10
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 5,
+  "in_mandate": 5,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

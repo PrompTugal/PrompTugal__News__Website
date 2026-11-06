@@ -2,7 +2,7 @@
   "agent": "conductor@PrompTugal.dinis",
   "focus": "the plan, the board, passes, briefs, who does what",
   "state": "working",
-  "updated": "2026-11-06T08:00Z",
+  "updated": "2026-11-06T10:15Z",
   "done": [
     "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
     "inboxes for every agent; lanes with the team site's conductor",
@@ -25,8 +25,7 @@
       "ask": "Add board/editor-briefs/** to the conductor's write paths in its ABP (board/abp/conductor.md): the stand-up briefs Dinis asked for at about 05:00 UTC live there (brief 1 committed before the policy took effect)."
     },
     "Dinis: synthetic F07, what RiskMandate is, who owns it, and whether it sells to the companies we cover (for About and the disclosure)",
-    "Dinis: synthetic F19 (blocking for outreach): keep or reword 'This is not independent coverage. We may write about companies the team hopes to meet or sell to'",
-    "Dinis: accountant@ asks whether the conductor's release budget goes from 24 to 48 a day; the conductor now releases once per wake"
+    "Dinis: synthetic F19 (blocking for outreach): keep or reword 'This is not independent coverage. We may write about companies the team hopes to meet or sell to'"
   ],
   "decisions_on_findings": [
     {

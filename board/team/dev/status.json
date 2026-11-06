@@ -2,7 +2,7 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T09:20Z",
+  "updated": "2026-11-06T10:25Z",
   "done": [
     "The domain checked (promptugal.news on GitHub Pages, HTTPS); newsroom/tools/old-host.mjs for the old host's redirect site",
     "Company pages as outreach landing pages: flows (the ontologist's data) and About PrompTugal.news",
@@ -17,11 +17,11 @@
     "Reviewed the dev workers' branches and brought four onto dev: work/dev.pages (article images on the front page), dev.graphs (/graph/gravity/), dev.search (the reader's own profile, browser only), dev.verify (the verification tool and its records); dev.portugal left on its branch: its ROLE.md and status.json fail the data checks (this wake)",
     "Second review round: brought work/dev.portugal (Algarve Evolution, fixed), dev.pages (front page F3, F4), dev.graphs (gravity round 2), dev.search (an answer in words on /search/ with the reader's own key), dev.verify (12 of 13 articles verified), dev.data (key, role, the S9 timeline draft) (this wake)",
     "Review round 3: brought dev.graphs (industry graph, gravity), dev.pages (front page), dev.portugal, dev.search, dev.verify; from dev.data only its own files: 112 superseded outreach drafts on its branch left out, the worker told on its lane (this wake)",
-    "Review round 4: dev.graphs (RiskMandate's ring, the industry map), dev.pages (the articles page, front page), dev.portugal (Algarve Evolution graph), dev.search, dev.verify, dev.data; the stale outreach drafts on dev.data's branch left out by the review's own-files rule (this wake)"
+    "Review round 4: dev.graphs (RiskMandate's ring, the industry map), dev.pages (the articles page, front page), dev.portugal (Algarve Evolution graph), dev.search, dev.verify, dev.data; the stale outreach drafts on dev.data's branch left out by the review's own-files rule (this wake)",
+    "Review round 5: six worker branches brought (the verification page from dev.verify, companies page from dev.pages, graphs, search, Algarve); the front page follows the correspondent's lead and top stories (this wake)"
   ],
   "next": [
     "Review the dotted workers' branches at every wake (CLAUDE.md, the review workflow)",
-    "Wire the front page to desks/correspondent/front-page.json (WS-177 plan)",
     "/newsroom/notes/ and the first note, on the sign-in",
     "Item 1 of /newsroom/quality/: the newsroom section's words to content/newsroom/"
   ],
@@ -82,8 +82,14 @@
     {
       "started": "2026-11-06T09:09Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.183",
       "line": "review round 4: six branches brought; stale files filtered"
+    },
+    {
+      "started": "2026-11-06T10:09Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "review round 5; the front page reads the correspondent's choices"
     }
   ]
 }

@@ -9,3 +9,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 - `2026-11-06-the-brazil-story-and-story-projects.md`: the Brazil story as the formula (go deep, connect the companies, a section per country), articles as navigable data with a folder each, privacy first, contributions as the measure, tasks others can pick up.
 - `2026-11-06-events-variations-and-the-personal-schedule.md`: experiment on the page (a fixed top, variations below), a prompt on every page (the page's own llms.txt), vaults that consume the data and let people personalise, and from events to a personal schedule (personas, the graph, local storage first).
 - `2026-11-06-companies-graphs-media-backups.md`: the companies page as experiments, the big graphs with ruv.sgit, media in vaults, recovery and a backup agent, RiskMandate as a company and at the foot of every page.
+- `2026-11-06-budgets-capture-not-block.md`: budgets are captured and adjusted, never a reason to stop an agent (about 10:10 UTC).
+- `2026-11-06-decisions-as-pages.md`: decisions for Dinis are pages of the site, with full details (about 11:00 UTC).
+- `memos/2026-11-06-the-night-memos.md`: every memo of the night of 5 to 6 November, verbatim (kept 11:00 UTC).
+- `2026-11-06-the-ideas-ledger.md`: every idea in the night's memos and the 18:00 stand-up, one row each (494), with when, where captured and owner; the Later list first (kept 11:30 UTC).

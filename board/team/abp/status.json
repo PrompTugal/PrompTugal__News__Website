@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: hourly at :37 UTC; policies in observe mode (Dinis, 06:05)",
-  "updated": "2026-11-06T09:50Z",
+  "updated": "2026-11-06T10:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -13,7 +13,8 @@
     "ABPs for customers@ and backup@ (v1.2.0); PreCompact logs compactions and run reports check each was re-anchored",
     "v1.3.0: dotted workers recognised and granted (work/<name> only), researcher@; write-target shell check (two false positives gone); S15: no outside code in the hook, sha256 self-check; 23 ABPs; 132 fixtures",
     "v1.4.0: push check ignores redirects (7 false positives); review commits judged against the worker's grant (dev@'s ask); workers' paths; conductor's snapshots.json applied (CLAUDE.md, Dinis's word)",
-    "08:37 wake: a clean hour, nothing pushed. v1.5.0 (09:37): relative paths follow each cd (outreach@'s false positive); SubagentHandback with sub-agents"
+    "08:37 wake: a clean hour, nothing pushed. v1.5.0 (09:37): relative paths follow each cd (outreach@'s false positive); SubagentHandback with sub-agents",
+    "v1.6.0 (10:37): the grep pattern is not a path (security@'s false positive); conductor's editor-briefs; Vicky's renamed agents' keys; accountant@ sub-agents proposed"
   ],
   "next": [
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line",
@@ -22,7 +23,7 @@
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line"
   ],
   "asks": [
-    "Dinis: five relaxations still open (board/abp/reports/2026-11-06-07.md): synthetic@ sub-agents and ~/vaults/, security@ remote read, customers@ its page, the conductor starting agents, backup@ the Drive connector",
+    "Dinis: seven relaxations open (board/abp/reports/2026-11-06-10.md): synthetic@, security@, customers@, the conductor (starting agents, messaging sessions), backup@ (Drive), accountant@ (sub-agents)",
     "Dinis: may dev.pages write content/index.md and content/articles/index.md (the pages its layouts render), or do they stay correspondent@'s and journalist@'s?",
     "Dinis: a circuit breaker on for push to main, force-push, printing a key?",
     "Dinis: the Wikipedia tool in newsroom/tools/ (ontologist@): whose is it?"
@@ -69,6 +70,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "two false positives fixed (cd, SubagentHandback); dev.pages and the index pages to Dinis"
+    },
+    {
+      "started": "2026-11-06T10:37Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "18 runs, 230 actions in mandate, 0 breaches that matter; one false positive fixed"
     }
   ]
 }

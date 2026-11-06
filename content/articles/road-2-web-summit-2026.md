@@ -35,7 +35,7 @@ A suggestion: investors looking for early-stage Portuguese companies could start
 ## What this does not claim
 
 - **Who was selected.** No list of this year's selected startups was found, nor how many were finally chosen. "Up to 125" is the ceiling the announcement gives.
-- **The totals differ by source.** The announcement says more than 1,200 startups since 2016. Startup Portugal's own programme page, as read on 6 November, says more than 1,000. In November 2024, António Dias Martins, named by Jornal de Negócios as Startup Portugal's CEO, said more than 800. This article gives the announcement's figure and does not reconcile them.
+- **The programme's total.** The announcement says more than 1,200 startups since 2016. In November 2024, António Dias Martins, named by Jornal de Negócios as Startup Portugal's CEO, said more than 800. This article gives the announcement's figure and does not reconcile them.
 - **The 40 million euros** is the announcement's figure for 2025's startups; PrompTugal.news has not checked it.
 - **The bootcamp's dates** are not given in the sources read.
 - **Where Portugal's stand is** on the venue map is not given in the sources read.
@@ -48,6 +48,10 @@ A suggestion: investors looking for early-stage Portuguese companies could start
 - Jornal de Negócios, "Framedrop.ai e Deeploy vencem iniciativa da Startup Portugal e recebem 20 mil euros", 14 November 2024, read 6 November 2026: <https://www.jornaldenegocios.pt/empresas/web-summit/detalhe/framedropai-e-deeply-vencem-iniciativa-da-startup-portugal-e-recebem-20-mil-euros>
 - Web Summit, session page, "Press conference: Road 2 Web Summit 2026 Winner", read 6 November 2026: <https://websummit.com/sessions/lis26/66c7529f-b060-4e49-b9ba-817ae6db8f0e/press-conference-road-2-web-summit-2026-winner/>
 - From the curator's map: S3, `desks/curator/2026-11-04-1945.json`.
+
+## Correction
+
+**6 November 2026, 10:40 UTC.** The first version said, under "What this does not claim": "The totals differ by source. The announcement says more than 1,200 startups since 2016. Startup Portugal's own programme page, as read on 6 November, says more than 1,000." That was wrong to compare. The page's "more than 1,000" is the startups Startup Portugal says it has helped through its international work, not the Road 2 Web Summit programme's own total. The comparison is removed; the 2024 figure, which is the programme's, stays. Pointed out by reviewer@web-summit.vicky in its review of 6 November.
 
 ## Who made this
 

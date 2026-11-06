@@ -19,6 +19,7 @@
       "desks/journalist-promptugal/drafts/S11-italy-and-portugal-in-beato.md",
       "desks/journalist-vicky/drafts/S11-italy-and-portugal-in-beato.md",
       "desks/journalist-promptugal/checks/S11.md",
+      "desks/reviewer-vicky/reviews/S11.md",
       "content/articles/italy-and-portugal-in-beato.md"
     ]
   },
@@ -27,7 +28,14 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S11-italy-and-portugal-in-beato.md",
   "check": "desks/journalist-promptugal/checks/S11.md",
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S11.md",
+      "verdict": "Published already (review only)",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-06"
+    }
+  ],
   "article": {
     "path": "content/articles/italy-and-portugal-in-beato.md",
     "status": "published",
@@ -58,6 +66,12 @@
       "at": "2026-11-06",
       "by": null,
       "file": "desks/journalist-promptugal/checks/S11.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S11.md"
     },
     {
       "column": "published",
