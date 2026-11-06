@@ -427,6 +427,23 @@
         "signing_fingerprint": "sha256:4ce62f3c4ce780cc"
       },
       "status": "active"
+    },
+    {
+      "id": "researcher-promptugal",
+      "agent": "researcher@PrompTugal.dinis",
+      "label": "researcher@PrompTugal.dinis (Claude Code session)",
+      "role": "The researcher of PrompTugal.news (researcher@PrompTugal.dinis, Sonnet): public research on a mandate per task, sources without login, each fact with its URL and date read. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, the one abp@'s entry records). Linked locally to the operator's key sha256:db7f79fdd87e030a, awaiting his confirmation. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation, at Dinis's word (6 November 2026: PrompTugal's keys live here).",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtc8KSOTWfPivdYhoRZCy\nSJ2xbeiyLeAUaM6BKQRbOwS612vuVWdeK5eXosYK3ZjA8xX983n/3BxayJZm21jw\n4PjEhKdIrM8jQ+d2lVnHNzt6HyxG6Tg0TfneP4LlqycDVujU3Vhn5jfZAjJO+P99\nDkUnNutTefpFPt+rTpPR95R9QRN5K/VMU0A+NjGav5N/Y6JOFDyn9PMMqmPBDfX+\nsIhg7qiTVTlnJ02LKuvjARfAKMled3N4xa2zRpAT8ZQwBj9DmzefomIFclLwe9pF\nH+UgcqQJcvamPvyLFpiEB4JTers4rN+5CNc0QrerB+OFkQ3+onnbGQH7EZySHjug\nc/R9dStjwsSXeZbuUScFE4ibr2Sqe/kJidqWVcfxTljUvyEoye1pUJ1p35izskkJ\nWXR8ylEtoBeowlLFnHt02+JkL8SiDRcPAMA8MZDk1il29RdRgaNY31uBD9OQ7OCC\nI3fu6QsiD8iuQJaIBM41EP9wF22wHPYRGm4lc1xh0I1nW73kMwLfr+jbnSuV29U8\nKb2tYCnvYlcqsv56x/wRKdE82Yp3NIhwJYFALmoIjQMidYyFMzp9g1d+UmjNu8EP\nHqQC7FfWzsbfloT9DGdW3xlCCH9WQ5mWPhz9k9J0JCkrFEsbeLlEK+TBXPVnwD/0\nYBfuFfzWcH2P2rgqmgPjPLcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE6OkKG2jo1NdEV2XSRCf55zNGX7sG\nRdWysHtjQnKDyPp/Ob+IwZl/BE8WF7SL4TnsWKCYhVF9Edq+d5P5B5hSzQ==\n-----END PUBLIC KEY-----\n",
+        "label": "researcher@PrompTugal.dinis",
+        "fingerprint": "sha256:b8f5887596dbfb11",
+        "signing_fingerprint": "sha256:f93bc841c931c599"
+      },
+      "status": "active"
     }
   ]
 }

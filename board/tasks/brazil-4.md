@@ -6,9 +6,9 @@ inputs: "search 'Web Summit Lisboa 2026' with each state's name and 'missão'; t
 output: desks/correspondent/beats/brazil/found/brazil-4.md
 done_when: "every one of the 16 states has a row (found or not found)"
 budget: "one run, at most 40 fetches; any model"
-taken_by:
-taken_at:
-state: open
+taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
+taken_at: 2026-11-06T08:42Z
+state: done
 ---
 # brazil-4: State missions: North and Northeast
 

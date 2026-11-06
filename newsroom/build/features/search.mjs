@@ -51,7 +51,7 @@ function makeIndex(ctx) {
     for (const p of ctx.pages) {
         if (!p.listed || p.rel === 'search/index.html' || p.rel === '404.html') continue
         const m = ENTITY.exec(p.rel)
-        const type = m ? TYPE_OF_PLURAL[m[1]] : (p.type === 'article' ? 'article' : 'site')
+        const type = m ? TYPE_OF_PLURAL[m[1]] : (p.type === 'article' ? 'article' : p.rel.startsWith('newsroom/') ? 'newsroom' : 'site')
         const x = m ? byRef.get(`${type}:${m[2]}`) : null
         const row = { id: x ? `${type}:${x.id}` : `page:${p.rel}`, type, title: p.title, url: p.rel, summary: '', facets: {}, extra: {}, fields: { title: p.title } }
         if (x && type === 'company') {

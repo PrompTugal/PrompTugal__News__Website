@@ -2,15 +2,17 @@
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
  "state": "working",
- "updated": "2026-11-06T07:35Z",
+ "updated": "2026-11-06T08:40Z",
  "done": [
   "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
-  "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)"
+  "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)",
+  "graph of Algarve Evolution (programmes left, partners right) as assets/portugal/algarve-evolution-graph.svg, on the page"
  ],
  "next": [
-  "graph of programmes, partners, events with ontologist@",
+  "ontologist@: partners and programmes as organisations in data/ so the graph is data-driven",
   "people only with their yes",
-  "designer@ pass; Portugal section page for other organisations"
+  "designer@ pass on the page",
+  "a Portugal organisations index"
  ],
  "asks": [
   {

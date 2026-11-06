@@ -1,19 +1,20 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 07:14, front page round 1 (F5, F8) on work/dev.pages",
-  "updated": "2026-11-06T07:25Z",
+  "state": "working: wake 08:13, the articles page round 1 on work/dev.pages",
+  "updated": "2026-11-06T08:30Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
     "Markdown renderer: ![alt](src) is now an image (it rendered as a link); files named <slug>--paper--<size>.png get width and height and an ink twin for dark mode in a <picture>",
     "F3: Now and next shows four days, three highlights a day (was three days, six); F4: the mandate breaker keeps its sentence and drops the three links the bar has; F6 in part: each Latest row carries its beat",
     "dev@ brought F1 to F4 onto dev (v0.1.147 and after)",
-    "F8: on a phone the Ask button is a 44 px icon with page padding at the foot; F5 in part: 'Around the summit, next' shows 3 events, not 6"
+    "F8: on a phone the Ask button is a 44 px icon with page padding at the foot; F5 in part: 'Around the summit, next' shows 3 events, not 6",
+    "The articles page: one band per day (newest first, anchors in On this page), picture cards 1 / 2 / 3 across by width, full width (layout wide); each card: card image, title, first sentence, beat and author role; articles:list in articles.mjs, rules in assets/site.css"
   ],
   "next": [
-    "F6 kickers linked to topics, F7 (Our question and Who we are higher)",
-    "The articles page by day, full width",
+    "The articles page round 2: links between articles from the graph (shared companies, people, topics), a better name than News (Dinis to choose)",
+    "F6 kickers linked to topics, F7 front page order",
     "Companies page versions"
   ],
   "asks": [
