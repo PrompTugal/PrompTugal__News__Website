@@ -53,3 +53,16 @@ kept_by: conductor@PrompTugal.dinis
 ## 8. A verification pipeline with several models
 
 - "We need to create a verification pipeline that uses multiple LLMs, continuously checking every fact, checking every page ... every time we do one of these, we add that reference and that link and that information to the bottom of the page: this is what was verified ... independent verifications that we don't have hallucinations ... things that are exaggerated ... we hold ourselves to a very, very high standard, and we use multiple models to maintain that."
+
+## 9. Ourselves first (about 05:25 UTC)
+
+- "Everything about us, we need to put ourselves in here. So every one of us needs to be in this list. I need to be there as Dinis Cruz. Vicky is going to be there as project manager. Silvio's going to be there. Everybody's going to be there ... we're part of the creators, and this should also help to amplify us."
+- "Our ones should always be the ones that we start with, because we can experiment a lot, and also the ones that will say yes."
+- "Imagine you do something big about a person and they go: I don't like that, get rid of it. So we need to support that." Removal on request, for anyone.
+- "For every person ... it's all about facts, all about evidence, but it needs to be as rich as we can make it, especially as we start to add past summits."
+
+## 10. Past summits
+
+- "Another big piece of work that needs to happen in parallel ... a couple of agents chipping at this ... a whole section or a mapping ... all JSON because it should be visualised dynamically ... map the past summits: what happened, what person ... find the agenda or presentation ... cross mappings: this person already presented at five summits."
+- "See if there's videos online about past summits or some of the materials that were said."
+- "Let's not go completely deep into it, but it's very important ... it was one of the requirements for being press and part of the media: to have covered past events. So let's learn from what happened at past events here."
