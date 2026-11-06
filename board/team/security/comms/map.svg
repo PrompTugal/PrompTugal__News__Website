@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 830" width="1100" height="830" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<title>How PrompTugal's agents talk to each other, 5 to 6 November 2026</title>
+<rect width="1100" height="830" fill="#fbfaf7"/>
+<defs><marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#2563eb"/></marker><marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#b91c1c"/></marker><marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#b45309"/></marker></defs>
+<line x1="264" y1="121" x2="97" y2="349" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="269" y1="127" x2="88" y2="499" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="281" y1="133" x2="100" y2="505" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="312" y1="139" x2="523" y2="455" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="332" y1="133" x2="749" y2="316" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="331" y1="133" x2="514" y2="222" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="328" y1="135" x2="807" y2="413" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="324" y1="137" x2="809" y2="520" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="333" y1="132" x2="644" y2="249" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="311" y1="139" x2="654" y2="680" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="318" y1="138" x2="754" y2="615" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="542" y1="498" x2="291" y2="775" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="546" y1="444" x2="546" y2="248" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="597" y1="451" x2="807" y2="406" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="586" y1="444" x2="750" y2="318" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="568" y1="440" x2="656" y2="262" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="602" y1="461" x2="812" y2="507" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="601" y1="473" x2="766" y2="599" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="131" y1="242" x2="521" y2="457" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="599" y1="475" x2="809" y2="520" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="593" y1="456" x2="758" y2="330" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="761" y1="329" x2="597" y2="455" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="546" y1="496" x2="546" y2="692" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="519" y1="473" x2="354" y2="599" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="518" y1="461" x2="308" y2="507" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="523" y1="451" x2="313" y2="406" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="534" y1="444" x2="370" y2="318" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="552" y1="440" x2="464" y2="262" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="521" y1="465" x2="311" y2="420" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="528" y1="486" x2="440" y2="664" stroke="#b91c1c" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m1)"/>
+<line x1="518" y1="479" x2="308" y2="433" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="534" y1="496" x2="370" y2="622" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="552" y1="500" x2="464" y2="678" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="519" y1="467" x2="354" y2="341" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="523" y1="489" x2="313" y2="534" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="528" y1="454" x2="440" y2="276" stroke="#b45309" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m2)"/>
+<line x1="527" y1="456" x2="362" y2="330" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="540" y1="447" x2="452" y2="269" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="580" y1="447" x2="668" y2="269" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="359" y1="329" x2="523" y2="455" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="670" y1="267" x2="582" y2="446" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="540" y1="493" x2="452" y2="671" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="450" y1="673" x2="538" y2="494" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="323" y1="131" x2="534" y2="447" stroke="#2563eb" stroke-opacity="0.75" stroke-width="2.3" marker-end="url(#m0)"/>
+<line x1="286" y1="134" x2="110" y2="654" stroke="#2563eb" stroke-opacity="0.75" stroke-width="3.4" marker-end="url(#m0)"/>
+<line x1="265" y1="123" x2="133" y2="216" stroke="#2563eb" stroke-opacity="0.75" stroke-width="3.4" marker-end="url(#m0)"/>
+<line x1="580" y1="493" x2="668" y2="671" stroke="#2563eb" stroke-opacity="0.75" stroke-width="3.4" marker-end="url(#m0)"/>
+<line x1="670" y1="673" x2="582" y2="494" stroke="#2563eb" stroke-opacity="0.75" stroke-width="3.4" marker-end="url(#m0)"/>
+<line x1="930" y1="132" x2="630" y2="448" stroke="#6b7280" stroke-dasharray="6 5" stroke-width="2" marker-end="url(#m0)"/>
+<text x="800" y="160" font-size="12" fill="#4b5563">his words, spoken in the conductor's session,</text><text x="800" y="175" font-size="12" fill="#4b5563">relayed as "at Dinis's word": unsigned</text>
+<rect x="485" y="450" width="150" height="40" rx="8" fill="#7c2d12" stroke="#111827" stroke-width="1.5"/>
+<text x="560" y="468" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">conductor</text>
+<text x="560" y="483" text-anchor="middle" font-size="10.5" fill="#ffffff" opacity="0.8">45 acts</text>
+<rect x="501" y="200" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="560" y="218" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">dev</text>
+<text x="560" y="233" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">2 acts</text>
+<rect x="631" y="225" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="690" y="243" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">designer</text>
+<text x="690" y="258" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">4 acts</text>
+<rect x="736" y="294" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="795" y="312" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">journalist</text>
+<text x="795" y="327" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">4 acts</text>
+<rect x="793" y="394" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="852" y="412" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">ontologist</text>
+<text x="852" y="427" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">2 acts</text>
+<rect x="793" y="506" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="852" y="524" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">outreach</text>
+<text x="852" y="539" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">3 acts</text>
+<rect x="736" y="606" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="795" y="624" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">synthetic</text>
+<text x="795" y="639" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">2 acts</text>
+<rect x="631" y="675" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="690" y="693" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">observability</text>
+<text x="690" y="708" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">5 acts</text>
+<rect x="501" y="700" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="560" y="718" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">historian</text>
+<text x="560" y="733" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">1 acts</text>
+<rect x="371" y="675" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="430" y="693" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">correspondent</text>
+<text x="430" y="708" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">4 acts</text>
+<rect x="266" y="606" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="325" y="624" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">devops</text>
+<text x="325" y="639" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">2 acts</text>
+<rect x="209" y="506" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="268" y="524" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">accountant</text>
+<text x="268" y="539" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">2 acts</text>
+<rect x="209" y="394" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="268" y="412" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">security</text>
+<text x="268" y="427" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">3 acts</text>
+<rect x="266" y="294" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="325" y="312" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">sherpa</text>
+<text x="325" y="327" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">4 acts</text>
+<rect x="371" y="225" width="118" height="40" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="430" y="243" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">librarian</text>
+<text x="430" y="258" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">3 acts</text>
+<rect x="225" y="90" width="150" height="40" rx="8" fill="#7c2d12" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="300" y="108" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">conductor.3@ws</text>
+<text x="300" y="123" text-anchor="middle" font-size="10.5" fill="#ffffff" opacity="0.8">16 acts</text>
+<rect x="36" y="210" width="118" height="40" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="95" y="228" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">newsroom@ws</text>
+<text x="95" y="243" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">3 acts</text>
+<rect x="21" y="360" width="118" height="40" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="80" y="378" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">observability@ws</text>
+<text x="80" y="393" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">5 acts</text>
+<rect x="21" y="510" width="118" height="40" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="80" y="528" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">crm@ws</text>
+<text x="80" y="543" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">2 acts</text>
+<rect x="36" y="660" width="118" height="40" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="95" y="678" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">designer@ws</text>
+<text x="95" y="693" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">2 acts</text>
+<rect x="191" y="765" width="118" height="40" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="250" y="783" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">journalist@ws</text>
+<text x="250" y="798" text-anchor="middle" font-size="10.5" fill="#111827" opacity="0.8">1 acts</text>
+<rect x="885" y="90" width="150" height="40" rx="8" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<text x="960" y="108" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">Dinis Cruz</text>
+<text x="24" y="40" font-size="20" font-weight="700" fill="#111827">Who tells whom what to do, outside git</text>
+<text x="24" y="62" font-size="12.5" fill="#4b5563">5 Nov 00:00 to 6 Nov 04:30 UTC, from the session transcripts; line width = number of acts; dashed boxes: the team site's agents</text>
+<line x1="620" y1="740" x2="650" y2="740" stroke="#2563eb" stroke-width="3"/><text x="658" y="744" font-size="12" fill="#111827">sends a message (send_message)</text>
+<line x1="620" y1="758" x2="650" y2="758" stroke="#b91c1c" stroke-width="3"/><text x="658" y="762" font-size="12" fill="#111827">creates a session (writes its first prompt)</text>
+<line x1="620" y1="776" x2="650" y2="776" stroke="#b45309" stroke-width="3"/><text x="658" y="780" font-size="12" fill="#111827">writes or rewrites a schedule (its standing prompt)</text>
+<text x="620" y="798" font-size="12" fill="#111827">22 messages · 17 sessions created · 22 schedule writes · 57 wakes</text>
+<text x="620" y="814" font-size="12" font-weight="600" fill="#b91c1c">39 of them say they carry Dinis's word; none is signed</text>
+</svg>

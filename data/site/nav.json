@@ -169,6 +169,11 @@
       "href": "newsroom/synthetic.html"
     },
     {
+      "column": "The newsroom",
+      "label": "Security",
+      "href": "newsroom/security/index.html"
+    },
+    {
       "column": "Read",
       "label": "Articles",
       "href": "articles/index.html"

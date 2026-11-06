@@ -47,6 +47,16 @@ The conductor has suggested it should hold every vault key, sealed to it. Laid o
 - **Against:** one session then opens everything, so a conductor misled by material it read (a prompt injection in a page, a commit, a message) exposes every vault at once. Its key is a session key: when the session ends, everything sealed to it becomes unreadable at the same moment, so it is a single point of loss, not a backup.
 - **My recommendation:** seal each vault key **to Dinis's person key, as the recovery path** (as `sealed/dinis.json` already does for observability), and to the one agent that works with that vault. Do not seal to the conductor what it does not use. A recovery then needs Dinis's browser, which no agent controls.
 
+## Dinis's decision on S9 (6 November 2026, about 04:45 UTC, in security@'s session)
+
+"Yes ... we need to create a vault that I'm going to create, that I'm going to have the private key ... then we can have two modes. Either I give you the private key, or we set up an append lane that you can then just send files to ... we can do that a bit later ... most vaults here are ephemeral and they're okay to be lost."
+
+So: today's vaults are ephemeral and may be lost. When the first vault we cannot afford to lose exists, Dinis creates a recovery vault and holds its key; agents either receive that key from him or write to it through an append lane. Not the conductor holding every key.
+
+## The agents' inboxes (added 04:25 UTC by the conductor)
+
+Fourteen more vaults, one per agent (`board/inboxes/<role>.json`): the write token public by design, the credentials sealed to the agent and **also kept by the conductor** (`~/.sg-send/agent-inboxes/`, the tool's docstring: "Dinis: the conductor holds the vault keys"). So the conductor can read every agent's mail. Ephemeral like the rest. security@'s own inbox credentials were exposed in its session's transcript on 6 November (its mistake) and should be re-issued.
+
 ## Gaps (next steps)
 
 1. No backup of any held key beyond its session: by design, but every vault except observability has **no recovery path** today (S9 below in my review).

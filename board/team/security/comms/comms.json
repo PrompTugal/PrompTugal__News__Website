@@ -1,0 +1,1352 @@
+{
+ "about": "Every act by which one agent tells another what to do or what happened, outside git and the board, from the session transcripts (list_events), 5 November 00:00 to 6 November 04:30 UTC. Metadata only: never the text. Made by security@PrompTugal.dinis (board/team/security/comms/make.py).",
+ "made": "2026-11-06T04:38Z",
+ "coverage": "Read in full: both conductors, dev, designer, journalist, ontologist, historian, devops, accountant, sherpa, librarian, correspondent, observability@web-summit. Read in part: outreach (from 01:40 on 6 November), crm@web-summit (from 17:50 on 5 November), newsroom@web-summit (from 03:00 on 5 November). Not read yet: synthetic, observability@PrompTugal, security (its one message is counted from the sender). Not countable from transcripts: the append-lane inboxes (sealed; counted from receipts once they exist).",
+ "totals": {
+  "message": 22,
+  "creates a session": 17,
+  "writes a schedule": 15,
+  "scheduled wake": 57,
+  "rewrites a schedule": 6,
+  "deletes a schedule": 1
+ },
+ "claims_dinis": 39,
+ "chars_by_sender": {
+  "conductor@PrompTugal": 41676,
+  "conductor.3@web-summit": 38272,
+  "newsroom@web-summit": 5341,
+  "observability@web-summit": 3876,
+  "observability@PrompTugal": 1179,
+  "sherpa@PrompTugal": 827,
+  "designer@PrompTugal": 677,
+  "correspondent@PrompTugal": 586,
+  "journalist@PrompTugal": 476
+ },
+ "edges": [
+  {
+   "from": "conductor@PrompTugal",
+   "to": "a schedule",
+   "channel": "rewrites a schedule",
+   "n": 4
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "designer@web-summit",
+   "channel": "message",
+   "n": 2
+  },
+  {
+   "from": "observability@web-summit",
+   "to": "a schedule",
+   "channel": "rewrites a schedule",
+   "n": 2
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "newsroom@web-summit",
+   "channel": "message",
+   "n": 2
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "observability@PrompTugal",
+   "channel": "message",
+   "n": 2
+  },
+  {
+   "from": "observability@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "channel": "message",
+   "n": 2
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "observability@web-summit",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "observability@web-summit",
+   "to": "observability@web-summit",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "crm@web-summit",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "crm@web-summit",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "conductor@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "journalist@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "dev@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "ontologist@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "outreach@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "designer@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "observability@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "synthetic@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "journalist@web-summit",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "a schedule",
+   "channel": "deletes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "dev@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "ontologist@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "journalist@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "designer@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "outreach@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "synthetic@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "newsroom@web-summit",
+   "to": "conductor@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "outreach@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "journalist@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "journalist@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "historian@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "devops@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "accountant@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "security@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "sherpa@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "librarian@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "security@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "correspondent@PrompTugal",
+   "channel": "creates a session",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "security@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "devops@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "correspondent@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "sherpa@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "accountant@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "librarian@PrompTugal",
+   "channel": "writes a schedule",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "sherpa@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "librarian@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "designer@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "sherpa@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "designer@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "conductor@PrompTugal",
+   "to": "correspondent@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "correspondent@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "channel": "message",
+   "n": 1
+  },
+  {
+   "from": "conductor.3@web-summit",
+   "to": "conductor@PrompTugal",
+   "channel": "message",
+   "n": 1
+  }
+ ],
+ "rows": [
+  {
+   "at": "2026-11-04T23:52Z",
+   "channel": "message",
+   "from": "conductor.3@web-summit",
+   "to": "designer@web-summit",
+   "chars": 876,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-05T01:08Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "observability@web-summit",
+   "chars": 2615,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-05T01:47Z",
+   "channel": "writes a schedule",
+   "from": "observability@web-summit",
+   "to": "observability@web-summit",
+   "chars": 874,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-05T02:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T03:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T04:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T05:09Z",
+   "channel": "rewrites a schedule",
+   "from": "observability@web-summit",
+   "to": "a schedule",
+   "chars": 1172,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-05T05:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T06:48Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T07:48Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T08:28Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor.3@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T08:48Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T09:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T10:27Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor.3@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T10:49Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T11:49Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T12:27Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor.3@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T12:49Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T13:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T14:27Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor.3@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T14:48Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T15:48Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T16:47Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "crm@web-summit",
+   "chars": 3490,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-05T16:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T17:27Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor.3@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T17:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T18:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T19:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T20:27Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor.3@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T20:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T21:46Z",
+   "channel": "message",
+   "from": "conductor.3@web-summit",
+   "to": "newsroom@web-summit",
+   "chars": 3171,
+   "claims_dinis": true,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-05T21:46Z",
+   "channel": "message",
+   "from": "conductor.3@web-summit",
+   "to": "designer@web-summit",
+   "chars": 1237,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-05T21:46Z",
+   "channel": "message",
+   "from": "conductor.3@web-summit",
+   "to": "crm@web-summit",
+   "chars": 870,
+   "claims_dinis": true,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-05T21:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T22:27Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor.3@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T22:28Z",
+   "channel": "message",
+   "from": "conductor.3@web-summit",
+   "to": "newsroom@web-summit",
+   "chars": 418,
+   "claims_dinis": false,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-05T22:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T23:48Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-05T23:59Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "conductor@PrompTugal",
+   "chars": 2986,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-05T23:59Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "journalist@PrompTugal",
+   "chars": 3023,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-05T23:59Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "dev@PrompTugal",
+   "chars": 2837,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-05T23:59Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "ontologist@PrompTugal",
+   "chars": 2903,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:00Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "outreach@PrompTugal",
+   "chars": 2976,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:00Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "designer@PrompTugal",
+   "chars": 2810,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:02Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "observability@PrompTugal",
+   "chars": 3722,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:19Z",
+   "channel": "creates a session",
+   "from": "conductor.3@web-summit",
+   "to": "synthetic@PrompTugal",
+   "chars": 3062,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:34Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "journalist@web-summit",
+   "chars": 11,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:34Z",
+   "channel": "rewrites a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "a schedule",
+   "chars": 0,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:34Z",
+   "channel": "deletes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "a schedule",
+   "chars": 0,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:34Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "dev@PrompTugal",
+   "chars": 874,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:35Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "ontologist@PrompTugal",
+   "chars": 976,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:35Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "journalist@PrompTugal",
+   "chars": 1101,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:35Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "designer@PrompTugal",
+   "chars": 1203,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:35Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "outreach@PrompTugal",
+   "chars": 1030,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:35Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "synthetic@PrompTugal",
+   "chars": 850,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:35Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "chars": 598,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T00:46Z",
+   "channel": "message",
+   "from": "newsroom@web-summit",
+   "to": "conductor@PrompTugal",
+   "chars": 5341,
+   "claims_dinis": true,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T00:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T00:52Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T01:09Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "dev@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T01:17Z",
+   "channel": "rewrites a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "a schedule",
+   "chars": 1072,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T01:21Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "ontologist@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T01:26Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "journalist@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T01:33Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "designer@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T01:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T01:52Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T01:53Z",
+   "channel": "rewrites a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "a schedule",
+   "chars": 1240,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T01:53Z",
+   "channel": "message",
+   "from": "conductor@PrompTugal",
+   "to": "observability@PrompTugal",
+   "chars": 904,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T02:08Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "dev@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T02:21Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "ontologist@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T02:26Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "journalist@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T02:33Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "designer@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T02:34Z",
+   "channel": "message",
+   "from": "conductor@PrompTugal",
+   "to": "outreach@PrompTugal",
+   "chars": 779,
+   "claims_dinis": true,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T02:34Z",
+   "channel": "message",
+   "from": "conductor@PrompTugal",
+   "to": "journalist@PrompTugal",
+   "chars": 533,
+   "claims_dinis": true,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T02:34Z",
+   "channel": "message",
+   "from": "observability@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "chars": 571,
+   "claims_dinis": true,
+   "seen_by": "receiver"
+  },
+  {
+   "at": "2026-11-06T02:36Z",
+   "channel": "message",
+   "from": "journalist@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "chars": 476,
+   "claims_dinis": false,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T02:38Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "outreach@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T02:47Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T02:52Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T03:08Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "dev@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T03:14Z",
+   "channel": "creates a session",
+   "from": "conductor@PrompTugal",
+   "to": "historian@PrompTugal",
+   "chars": 3004,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:14Z",
+   "channel": "rewrites a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "a schedule",
+   "chars": 1417,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:20Z",
+   "channel": "message",
+   "from": "conductor@PrompTugal",
+   "to": "observability@PrompTugal",
+   "chars": 616,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:21Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "ontologist@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T03:26Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "journalist@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T03:32Z",
+   "channel": "message",
+   "from": "observability@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "chars": 608,
+   "claims_dinis": false,
+   "seen_by": "receiver"
+  },
+  {
+   "at": "2026-11-06T03:33Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "designer@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T03:38Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "outreach@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T03:41Z",
+   "channel": "creates a session",
+   "from": "conductor@PrompTugal",
+   "to": "devops@PrompTugal",
+   "chars": 2679,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:41Z",
+   "channel": "creates a session",
+   "from": "conductor@PrompTugal",
+   "to": "accountant@PrompTugal",
+   "chars": 2587,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:41Z",
+   "channel": "creates a session",
+   "from": "conductor@PrompTugal",
+   "to": "security@PrompTugal",
+   "chars": 2329,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:41Z",
+   "channel": "creates a session",
+   "from": "conductor@PrompTugal",
+   "to": "sherpa@PrompTugal",
+   "chars": 2357,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:41Z",
+   "channel": "creates a session",
+   "from": "conductor@PrompTugal",
+   "to": "librarian@PrompTugal",
+   "chars": 2160,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:44Z",
+   "channel": "message",
+   "from": "conductor@PrompTugal",
+   "to": "security@PrompTugal",
+   "chars": 2981,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:44Z",
+   "channel": "creates a session",
+   "from": "conductor@PrompTugal",
+   "to": "correspondent@PrompTugal",
+   "chars": 2763,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:44Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "security@PrompTugal",
+   "chars": 1066,
+   "claims_dinis": false,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:44Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "devops@PrompTugal",
+   "chars": 821,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:44Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "correspondent@PrompTugal",
+   "chars": 839,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:44Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "sherpa@PrompTugal",
+   "chars": 843,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:44Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "accountant@PrompTugal",
+   "chars": 817,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:44Z",
+   "channel": "writes a schedule",
+   "from": "conductor@PrompTugal",
+   "to": "librarian@PrompTugal",
+   "chars": 825,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T03:48Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "observability@web-summit",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T03:51Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "accountant@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T03:54Z",
+   "channel": "message",
+   "from": "conductor@PrompTugal",
+   "to": "sherpa@PrompTugal",
+   "chars": 498,
+   "claims_dinis": false,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T03:54Z",
+   "channel": "message",
+   "from": "conductor@PrompTugal",
+   "to": "librarian@PrompTugal",
+   "chars": 293,
+   "claims_dinis": false,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T03:55Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "conductor@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T03:56Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "librarian@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T04:04Z",
+   "channel": "message",
+   "from": "conductor@PrompTugal",
+   "to": "designer@PrompTugal",
+   "chars": 813,
+   "claims_dinis": false,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T04:05Z",
+   "channel": "message",
+   "from": "sherpa@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "chars": 827,
+   "claims_dinis": false,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T04:06Z",
+   "channel": "message",
+   "from": "designer@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "chars": 677,
+   "claims_dinis": false,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T04:09Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "dev@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T04:15Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "devops@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T04:17Z",
+   "channel": "message",
+   "from": "conductor@PrompTugal",
+   "to": "correspondent@PrompTugal",
+   "chars": 797,
+   "claims_dinis": true,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T04:18Z",
+   "channel": "rewrites a schedule",
+   "from": "observability@web-summit",
+   "to": "a schedule",
+   "chars": 1830,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T04:19Z",
+   "channel": "message",
+   "from": "correspondent@PrompTugal",
+   "to": "conductor@PrompTugal",
+   "chars": 586,
+   "claims_dinis": false,
+   "seen_by": "both"
+  },
+  {
+   "at": "2026-11-06T04:21Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "ontologist@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  },
+  {
+   "at": "2026-11-06T04:23Z",
+   "channel": "message",
+   "from": "conductor.3@web-summit",
+   "to": "conductor@PrompTugal",
+   "chars": 1276,
+   "claims_dinis": true,
+   "seen_by": "sender"
+  },
+  {
+   "at": "2026-11-06T04:26Z",
+   "channel": "scheduled wake",
+   "from": "the scheduler",
+   "to": "journalist@PrompTugal",
+   "chars": null,
+   "claims_dinis": null
+  }
+ ]
+}
