@@ -1,0 +1,347 @@
+{
+ "about": "Fixture catalogue for the library tests: a small fake repository.",
+ "by": "fixture",
+ "site_version": "v0.0.1",
+ "generated": "2026-11-06T10:00:00Z",
+ "host": "promptugal.news",
+ "pages": [
+  {
+   "id": "page:companies/acme/index.html",
+   "type": "page",
+   "kind": "company",
+   "section": "companies",
+   "path": "companies/acme/index.html",
+   "url": "https://promptugal.news/companies/acme/",
+   "twin": "https://promptugal.news/companies/acme/index.md",
+   "title": "Acme",
+   "what": "Based in Portugal; at Web Summit Lisbon 2026. Public facts only.",
+   "source": "data/companies/acme/",
+   "made": {
+    "by": "newsroom@web-summit.dinis",
+    "on": "2026-11-04T00:00:00Z",
+    "commit": "aaaaaaa",
+    "changed": "2026-11-04T00:00:00Z",
+    "changed_by": "newsroom@web-summit.dinis",
+    "last_commit": "aaaaaaa",
+    "agents": [
+     "newsroom@web-summit.dinis"
+    ]
+   }
+  },
+  {
+   "id": "page:articles/hello.html",
+   "type": "page",
+   "kind": "article",
+   "section": "articles",
+   "path": "articles/hello.html",
+   "url": "https://promptugal.news/articles/hello.html",
+   "twin": "https://promptugal.news/articles/hello.md",
+   "title": "Hello",
+   "what": "A first article.",
+   "source": "content/articles/hello.md",
+   "made": {
+    "by": "journalist@PrompTugal.dinis",
+    "on": "2026-11-05T00:00:00Z",
+    "commit": "bbbbbbb",
+    "changed": "2026-11-05T00:00:00Z",
+    "changed_by": "journalist@PrompTugal.dinis",
+    "last_commit": "bbbbbbb",
+    "agents": [
+     "journalist@PrompTugal.dinis"
+    ]
+   }
+  },
+  {
+   "id": "page:index.html",
+   "type": "page",
+   "kind": "site",
+   "section": "(home)",
+   "path": "index.html",
+   "url": "https://promptugal.news/",
+   "title": "Front page",
+   "what": "The front page.",
+   "source": "content/index.md",
+   "made": {
+    "by": "dev@PrompTugal.dinis",
+    "on": "2026-11-05T01:00:00Z",
+    "commit": "ccccccc",
+    "changed": "2026-11-05T01:00:00Z",
+    "changed_by": "dev@PrompTugal.dinis",
+    "last_commit": "ccccccc",
+    "agents": [
+     "dev@PrompTugal.dinis"
+    ]
+   }
+  }
+ ],
+ "board": [
+  {
+   "id": "board:board/team/alpha/README.md",
+   "type": "board",
+   "kind": "team",
+   "path": "board/team/alpha/README.md",
+   "url": "https://promptugal.news/board/team/alpha/README.md",
+   "title": "Alpha readme",
+   "what": "Alpha.",
+   "made": {
+    "by": "conductor@PrompTugal.dinis",
+    "on": "2026-11-05T02:00:00Z",
+    "commit": "ddddddd",
+    "changed": "2026-11-05T02:00:00Z",
+    "changed_by": "conductor@PrompTugal.dinis",
+    "last_commit": "ddddddd",
+    "agents": [
+     "conductor@PrompTugal.dinis"
+    ]
+   }
+  },
+  {
+   "id": "board:board/team/beta/README.md",
+   "type": "board",
+   "kind": "team",
+   "path": "board/team/beta/README.md",
+   "url": "https://promptugal.news/board/team/beta/README.md",
+   "title": "Beta readme",
+   "what": "Beta, with a variant name of its maker.",
+   "made": {
+    "by": "alpha@",
+    "on": "2026-11-05T03:00:00Z",
+    "commit": "eeeeeee",
+    "changed": "2026-11-05T03:00:00Z",
+    "changed_by": "alpha@",
+    "last_commit": "eeeeeee",
+    "agents": [
+     "alpha@"
+    ]
+   }
+  },
+  {
+   "id": "board:board/spec-thing.md",
+   "type": "board",
+   "kind": "board",
+   "path": "board/spec-thing.md",
+   "url": "https://promptugal.news/board/spec-thing.md",
+   "title": "A spec",
+   "what": "A spec that a later one supersedes.",
+   "made": {
+    "by": "conductor@PrompTugal.dinis",
+    "on": "2026-11-05T04:00:00Z",
+    "commit": "fffffff",
+    "changed": "2026-11-05T04:00:00Z",
+    "changed_by": "conductor@PrompTugal.dinis",
+    "last_commit": "fffffff",
+    "agents": [
+     "conductor@PrompTugal.dinis"
+    ]
+   }
+  }
+ ],
+ "desks": [
+  {
+   "id": "desk:fix-desk",
+   "type": "desk",
+   "path": "desks/fix-desk/",
+   "url": "https://promptugal.news/desks/fix-desk/README.md",
+   "title": "The fixture desk",
+   "what": "A desk.",
+   "files": 3,
+   "made": {
+    "by": "alpha@PrompTugal.dinis",
+    "on": "2026-11-05T05:00:00Z",
+    "commit": "1111111",
+    "changed": "2026-11-05T05:00:00Z",
+    "changed_by": "alpha@PrompTugal.dinis",
+    "last_commit": "1111111",
+    "agents": [
+     "alpha@PrompTugal.dinis"
+    ]
+   }
+  }
+ ],
+ "passes": [
+  {
+   "id": "pass:2026-11-06-fixture",
+   "type": "pass",
+   "path": "board/passes/2026-11-06-fixture.md",
+   "url": "https://promptugal.news/board/passes/2026-11-06-fixture.md",
+   "title": "2026-11-06-fixture",
+   "what": "A pass.",
+   "owner": "conductor@PrompTugal.dinis",
+   "state": "open",
+   "made": {
+    "by": "conductor@PrompTugal.dinis",
+    "on": "2026-11-06T03:00:00Z",
+    "commit": "2222222",
+    "changed": "2026-11-06T03:00:00Z",
+    "changed_by": "conductor@PrompTugal.dinis",
+    "last_commit": "2222222",
+    "agents": [
+     "conductor@PrompTugal.dinis"
+    ]
+   }
+  }
+ ],
+ "findings": [
+  {
+   "id": "finding:2026-11-06-fixture#1",
+   "type": "finding",
+   "pass": "pass:2026-11-06-fixture",
+   "path": "board/passes/2026-11-06-fixture.md",
+   "url": "https://promptugal.news/board/passes/2026-11-06-fixture.md",
+   "title": "First finding",
+   "what": "First finding",
+   "from": "security@",
+   "decided": true,
+   "made": {
+    "by": "conductor@PrompTugal.dinis",
+    "on": "2026-11-06T03:10:00Z",
+    "commit": "2222222",
+    "changed": "2026-11-06T03:10:00Z",
+    "changed_by": "conductor@PrompTugal.dinis",
+    "last_commit": "2222222",
+    "agents": [
+     "conductor@PrompTugal.dinis"
+    ]
+   }
+  },
+  {
+   "id": "finding:2026-11-06-fixture#2",
+   "type": "finding",
+   "pass": "pass:2026-11-06-fixture",
+   "path": "board/passes/2026-11-06-fixture.md",
+   "url": "https://promptugal.news/board/passes/2026-11-06-fixture.md",
+   "title": "Second finding",
+   "what": "Second finding",
+   "from": "sherpa@",
+   "decided": false,
+   "made": {
+    "by": "conductor@PrompTugal.dinis",
+    "on": "2026-11-06T03:11:00Z",
+    "commit": "2222222",
+    "changed": "2026-11-06T03:11:00Z",
+    "changed_by": "conductor@PrompTugal.dinis",
+    "last_commit": "2222222",
+    "agents": [
+     "conductor@PrompTugal.dinis"
+    ]
+   }
+  }
+ ],
+ "ideas": [
+  {
+   "id": "idea:PB-01",
+   "type": "idea",
+   "theme": "1. Fixture",
+   "path": "board/guidance/ledger.md",
+   "url": "https://promptugal.news/board/guidance/ledger.md",
+   "title": "An idea",
+   "memo": "M1 00:00",
+   "words": "\"An idea, in words.\"",
+   "owner": "designer@",
+   "later": false,
+   "made": {
+    "by": "conductor@PrompTugal.dinis",
+    "on": "2026-11-06T10:00:00Z",
+    "commit": "3333333",
+    "changed": "2026-11-06T10:00:00Z",
+    "changed_by": "conductor@PrompTugal.dinis",
+    "last_commit": "3333333",
+    "agents": [
+     "conductor@PrompTugal.dinis"
+    ]
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "question:Q1",
+   "type": "question",
+   "path": "board/guidance/ledger.md",
+   "url": "https://promptugal.news/board/guidance/ledger.md",
+   "title": "Is this a question",
+   "memo": "M2 00:01",
+   "words": "\"Is this a question?\"",
+   "answered": false,
+   "made": {
+    "by": "conductor@PrompTugal.dinis",
+    "on": "2026-11-06T10:00:00Z",
+    "commit": "3333333",
+    "changed": "2026-11-06T10:00:00Z",
+    "changed_by": "conductor@PrompTugal.dinis",
+    "last_commit": "3333333",
+    "agents": [
+     "conductor@PrompTugal.dinis"
+    ]
+   }
+  }
+ ],
+ "concepts": [
+  {
+   "id": "concept:fractal",
+   "type": "concept",
+   "path": "board/guidance/ledger.md",
+   "url": "https://promptugal.news/board/guidance/ledger.md",
+   "title": "the fractal rule",
+   "what": "The same rule at every level.",
+   "source": "M3",
+   "made": {
+    "by": "conductor@PrompTugal.dinis",
+    "on": "2026-11-06T10:00:00Z",
+    "commit": "3333333",
+    "changed": "2026-11-06T10:00:00Z",
+    "changed_by": "conductor@PrompTugal.dinis",
+    "last_commit": "3333333",
+    "agents": [
+     "conductor@PrompTugal.dinis"
+    ]
+   }
+  }
+ ],
+ "agents": [
+  {
+   "id": "agent:alpha-promptugal",
+   "type": "agent",
+   "name": "alpha@PrompTugal.dinis",
+   "path": "board/team/alpha/",
+   "url": "https://promptugal.news/newsroom/agents/alpha-promptugal.html",
+   "title": "PrompTugal alpha",
+   "what": "Does alpha things.",
+   "key": "alpha-promptugal",
+   "role_file": "board/team/alpha/ROLE.md",
+   "made": {
+    "by": "alpha@PrompTugal.dinis",
+    "on": "2026-11-05T06:00:00Z",
+    "commit": "4444444",
+    "changed": "2026-11-05T06:00:00Z",
+    "changed_by": "alpha@PrompTugal.dinis",
+    "last_commit": "4444444",
+    "agents": [
+     "alpha@PrompTugal.dinis"
+    ]
+   }
+  },
+  {
+   "id": "agent:alpha.sub-promptugal",
+   "type": "agent",
+   "name": "alpha.sub@PrompTugal.dinis",
+   "path": "board/team/alpha.sub/",
+   "url": "https://promptugal.news/newsroom/agents/alpha.sub-promptugal.html",
+   "title": "PrompTugal alpha.sub",
+   "what": "A Sonnet worker.",
+   "key": "alpha.sub-promptugal",
+   "role_file": "board/team/alpha.sub/ROLE.md",
+   "made": {
+    "by": "alpha.sub@PrompTugal.dinis",
+    "on": "2026-11-05T07:00:00Z",
+    "commit": "5555555",
+    "changed": "2026-11-05T07:00:00Z",
+    "changed_by": "alpha.sub@PrompTugal.dinis",
+    "last_commit": "5555555",
+    "agents": [
+     "alpha.sub@PrompTugal.dinis"
+    ]
+   }
+  }
+ ],
+ "counts": {}
+}

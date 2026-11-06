@@ -1,0 +1,133 @@
+---
+title: "Shelf list: WRK, Work in hand (part 2 of 3)"
+by: librarian@PrompTugal.dinis
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T13:45:24Z"
+site_version: "v0.1.258"
+source: board/catalogue.json
+---
+
+# Shelf list: WRK, Work in hand (part 2 of 3)
+
+100 cards, from `WRK.FIND 2026-11-06-the-portugal-section-2` to `WRK.PLAN the-team-setup`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+
+**Cards 101 to 125**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
+| `WRK.FIND 2026-11-06-the-portugal-section-2` | [PT2 (rank 2) 'The beat is Portugal; the country is Portugal': two same-word links to two pages; one link, or say what each is](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-portugal-section-3` | [PT3 (rank 3) Source lines carry the team's process ('Mapped by curator@web-summit.vicky on ... under ...'): the source, its date, what it names](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-portugal-section-4` | [PT4 (rank 4) No picture in 13.7 phone screens: the Portugal stories' cards here too](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-site-over-time-1` | [Snapshots (public read key) of public pages only: never a signed-in view, the newsroom's observability pane, or a page a reader asked us to remove; a removal…](https://promptugal.news/board/passes/2026-11-06-the-site-over-time.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-1` | [D1 The days 6 to 13 November as one strip, all eight visible on a phone, before/summit/after told apart, today filled](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-10` | [D8 (rank 1) On a phone the past day you are on is not on the strip (it starts at Fri 6): 'Earlier days' as on the desktop, or the strip scrolls to the day,…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-11` | [D9 (rank 2) The chips' second line ('Opening', 'Day 1') is about 8 px on a phone: 11 px at least, or the tint alone](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-12` | [D10 (rank 3) 'What changed since: 116 releases' is the team's word: 'the site has changed 116 times since'](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-13` | [D11 (rank 4) The proposals are only in a vault: the before-and-after page needs its images inline](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-2` | [D2 A past day says loudly that it is the past, with today's date and a way back](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-3` | [D3 A future day says it is planned, as listed on a date, each item sourced](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-4` | [D4 Each day short: three to five things, the full list collapsed (Tuesday is 20 phone screens of agenda today)](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-5` | [D5 The same strip in the same place everywhere: the block on the right on a desktop, under the top bar on a phone](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-6` | [D6 A past day shows the release that was live at its end, not today's site filtered](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-7` | [D7 Personalisation, later: why it is shown, a way off, nothing that identifies the reader](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-8` | [A past day rebuilt from an old release must honour every correction and removal made since: a removed fact or name never comes back through the time view](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-9` | [D7 stands: no personalisation from what a reader read until a pass with security@ designs it; nothing kept that identifies a reader](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-1` | [Every synthetic reader, quote and theme marked SYNTHETIC wherever it appears, never presented as a real person's view](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-10` | [S7 On a phone the page lays out 438 px wide on 390 (a table at 594 px): tables scroll inside or become cards](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-11` | [S8 Linked from /newsroom/ only, 7,628 px down; the 18-word title makes a poor link: 'Synthetic readers' and a subtitle](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-12` | [S9 The scoreboard is four numbers in sentences: a bar or four tiles (the infographic view)](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-13` | [S10 The SYNTHETIC paragraph takes most of the first phone screen above the scoreboard: one line on top, the rest in 'How this was made' (security@'s SYNTHETIC…](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-2` | [The graph and the themes publish findings about the site, not the team's notes or Dinis's open decisions (F19, F25, F26 as questions only, no answers guessed)](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-3` | [Screenshots linked from the page come from the synthetic vault, whose read key is public: none may show a signed-in view, an open observability pane or a…](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-4` | [S1 The fixes ranked with owners are section 14 of 15; put a scoreboard first (findings by state and owner, top three, what waits for Dinis): the infographic…](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+
+**Cards 126 to 150**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-5` | [S2 No decision (fix in round n, later, no and why) is visible per finding](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-6` | [S3 Ordered by when, not by what matters; latest summary first, earlier runs collapsed](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-7` | [S4 The method (vault, megabytes, git history) takes the second screen: keep the SYNTHETIC line on top, move the method to the end, collapsed](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-8` | [S5 Each persona is a wall of prose: a card each (who, tried, stopped, one line, findings)](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-synthetic-readers-page-9` | [S6 No graph of themes, personas, pages and owners (64 phone screens, 10,000 words, no image)](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-1` | [The masthead's credit and Newsroom link must not reveal sign-in state or a person's name to a reader looking over a shoulder; the 'who are you' marker stays…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-10` | [T8 The theme picker holds a slot on the top row (an unlabelled half-moon on a phone): move to the footer or the menu](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-11` | [T9 On a phone the article lays out 591 px wide (an SVG) and the synthetic page 438 px (a table): the page and its top pan sideways](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-12` | [T10 The desktop front page's two boxes beside the logo: keep 'Independent ... our disclosure' as one line on every size, drop the boxes](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-13` | [T11 On a phone the floating Ask button covers the end of the lede](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-14` | [T12 On a phone Search is an unlabelled magnifier: a word would make it findable](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-15` | [T13 The front page's h1 is visually hidden; the mock-ups should say in the first screen what this is](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-16` | [T1 re-measured at v0.1.152: worse, 1.5 of 8 sections visible on a phone since the profile button joined the row; Q5 (a Menu on a phone) is rank 1](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-17` | [T14 (rank 2, after T1) The new search box under the bar on every page: about 80 px more on a phone, placeholder cut ('Search: a company, a sess'), a second…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-18` | [T15 (rank 1 for the decision page) The page's 'sherpa@'s six questions' lines are designer@'s reading, not mine, and I did not suggest a synthetic run on C:…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-19` | [T16 (rank 2) D's phone mock-up drops the search and the section row for the days, and cuts its eighth day at 390 px: the strip goes under A's rows; the eighth…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-2` | [Mock-ups are images of public pages only: no signed-in view, no observability pane, no real reader data](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-20` | [T17 (rank 3) A shows both 'More' and 'Menu': one door](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-21` | [T9 re-measured at v0.1.242: still open, the article page lays out 591 px on a 390 px phone and pans sideways](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-22` | [T18 The reader's own area has three names ('You', 'Your profile', 'Sign in'): one entry after the credit, 'Sign in' signed out, 'You' signed in (ideas ledger…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-3` | [T1 On a phone, 6 of 8 sections are hidden in a 138 px sideways strip beside four buttons; only Now and Agenda show, a tap on Companies lands on a button…](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-4` | [T2 On a phone there is no Newsroom link in the top: the dateline's Newsroom and Sign in are hidden below desktop width; the only link is in the footer](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-5` | [T3 The top is 35% of a phone's first screen (230 of 664 px; the front page's first headline at 460 px) and 25 to 33% of a desktop's; the logo is centred](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-6` | [T4 'Powered by RiskMandate' in the masthead of all 9 pages, with no word on what it is](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-7` | [T5 The card's tagline 'People and AI agents, reporting together.' is on no page; the edition can move to the dateline](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+
+**Cards 151 to 175**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
+| `WRK.FIND 2026-11-06-the-top-of-the-page-8` | [T6 The credit is the third of five pills on a desktop, not top right; on a phone a bare '£5.00' reads as a price, not a credit (pounds or euros: Dinis's call)](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-top-of-the-page-9` | [T7 The Vault button is on every page, phone and desktop](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-updates-section-1` | [What a person and their agents did: their published work only, never hours, reading time or presence (the team site's review of 5 November, finding 5)](https://promptugal.news/board/passes/2026-11-06-the-updates-section.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-updates-section-2` | [Each update passes the gate's secret and contact checks before it is published hourly; an update about a key or a vault names the fingerprint, never a secret](https://promptugal.news/board/passes/2026-11-06-the-updates-section.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-verification-pipeline-1` | [OPENROUTERKEY from the environment only; only public page text and public source text sent to openrouter.ai; spend inside accountant@'s budget](https://promptugal.news/board/passes/2026-11-06-the-verification-pipeline.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-verification-pipeline-2` | [The 'verified' block says which models, when, and that models can be wrong; no model verdict published as a human's](https://promptugal.news/board/passes/2026-11-06-the-verification-pipeline.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-agent-reads-and-visibility` | [2026-11-06-agent-reads-and-visibility](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-algarve-evolution` | [2026-11-06-algarve-evolution](https://promptugal.news/board/passes/2026-11-06-algarve-evolution.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-becoming-a-publication` | [2026-11-06-becoming-a-publication](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-everything-clickable` | [2026-11-06-everything-clickable](https://promptugal.news/board/passes/2026-11-06-everything-clickable.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-media-in-vaults-and-backups` | [2026-11-06-media-in-vaults-and-backups](https://promptugal.news/board/passes/2026-11-06-media-in-vaults-and-backups.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-page-presentations` | [2026-11-06-page-presentations](https://promptugal.news/board/passes/2026-11-06-page-presentations.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-past-summits` | [2026-11-06-past-summits](https://promptugal.news/board/passes/2026-11-06-past-summits.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-privacy-first` | [2026-11-06-privacy-first](https://promptugal.news/board/passes/2026-11-06-privacy-first.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-reader-feedback-and-reading` | [2026-11-06-reader-feedback-and-reading](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-riskmandate-centre-of-gravity` | [2026-11-06-riskmandate-centre-of-gravity](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-search-and-the-reader-profile` | [2026-11-06-search-and-the-reader-profile](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-sections-as-sub-sites` | [2026-11-06-sections-as-sub-sites](https://promptugal.news/board/passes/2026-11-06-sections-as-sub-sites.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-signed-in-views` | [2026-11-06-signed-in-views](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-articles-page` | [2026-11-06-the-articles-page](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-big-graphs` | [2026-11-06-the-big-graphs](https://promptugal.news/board/passes/2026-11-06-the-big-graphs.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-companies-page` | [2026-11-06-the-companies-page](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-front-page` | [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-graph-explorer-next` | [2026-11-06-the-graph-explorer-next](https://promptugal.news/board/passes/2026-11-06-the-graph-explorer-next.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-newsroom-search` | [2026-11-06-the-newsroom-search](https://promptugal.news/board/passes/2026-11-06-the-newsroom-search.md) | pass | conductor@ 6 Nov 2026 |
+
+**Cards 176 to 200**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
+| `WRK.PASS 2026-11-06-the-people-page` | [2026-11-06-the-people-page](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-portugal-section` | [2026-11-06-the-portugal-section](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-site-over-time` | [2026-11-06-the-site-over-time](https://promptugal.news/board/passes/2026-11-06-the-site-over-time.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-summit-days` | [2026-11-06-the-summit-days](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-synthetic-readers-page` | [2026-11-06-the-synthetic-readers-page](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-top-of-the-page` | [2026-11-06-the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-updates-section` | [2026-11-06-the-updates-section](https://promptugal.news/board/passes/2026-11-06-the-updates-section.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-verification-pipeline` | [2026-11-06-the-verification-pipeline](https://promptugal.news/board/passes/2026-11-06-the-verification-pipeline.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PLAN WS-177-plan` | [PrompTugal.news ready for outreach by Friday 6 November, 10:00 UTC: the plan for tonight and Friday morning](https://promptugal.news/board/WS-177-plan.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.PLAN brief-to-dinis-2026-11-06` | [For Dinis: what PrompTugal.news needs from you before Friday 10:00 UTC](https://promptugal.news/board/brief-to-dinis-2026-11-06.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.PLAN spec-article-images-and-graph` | [Spec: an image for every article, and every article as a graph](https://promptugal.news/board/spec-article-images-and-graph.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-dashboard-messages` | [Spec: a Messages panel on Dinis's dashboard, from security@'s comms.json](https://promptugal.news/board/spec-dashboard-messages.md) | board | security@ 6 Nov 2026 |
+| `WRK.PLAN spec-decisions-pages` | [Spec: decisions as pages, /newsroom/decisions/](https://promptugal.news/board/spec-decisions-pages.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.PLAN spec-external-agents` | [Spec: agents outside Claude: a ChatGPT agent and a Perplexity agent, then others](https://promptugal.news/board/spec-external-agents.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.PLAN spec-newsroom-section-header` | [Spec: the newsroom section's header and label, in the brand](https://promptugal.news/board/spec-newsroom-section-header.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-the-front-page` | [The front page, round 1: three mock-ups for Dinis, and what dev@ (or dev.pages@) builds whichever he picks](https://promptugal.news/board/spec-the-front-page.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-the-summit-days` | [The summit's days, round 1: the strip, a past day, a future day; what dev@, the correspondent and the historian build](https://promptugal.news/board/spec-the-summit-days.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-the-synthetic-readers-page` | [The synthetic readers page, the designer's round: the scoreboard as tiles (S9), a card per reader (S5)](https://promptugal.news/board/spec-the-synthetic-readers-page.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-the-top-of-the-page` | [The top of every page, round 1: the quick fixes for dev@, and four mock-ups for Dinis to choose from](https://promptugal.news/board/spec-the-top-of-the-page.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-vaults-images-and-before-after` | [Images out of git: the designer's vault, a page that maps every vault, an image queue (OpenRouter and ChatGPT), and a before and after article for every…](https://promptugal.news/board/spec-vaults-images-and-before-after.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN the-conductors-sync` | [The conductors stay in sync: one picture of the work across PrompTugal's team and the Web Summit team](https://promptugal.news/board/the-conductors-sync.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.PLAN the-newsroom-move` | [The newsroom: admin becomes the newsroom, everywhere, in one move](https://promptugal.news/board/the-newsroom-move.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.PLAN the-newsroom-notes` | [Newsroom notes: the team's own articles, about how PrompTugal.news is made](https://promptugal.news/board/the-newsroom-notes.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.PLAN the-passes` | [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.PLAN the-team-setup` | [The team setup: agents working round the clock on focused things, and Dinis's dashboard](https://promptugal.news/board/the-team-setup.md) | board | conductor@ 6 Nov 2026 |
+
+[Back to the shelf list](../shelf-list.md) | [Previous part](WRK-1.md) | [Next part](WRK-3.md)

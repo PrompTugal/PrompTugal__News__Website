@@ -1,11 +1,19 @@
 ---
 title: Decisions
 path: newsroom/decisions/index.html
-summary: "Every decision waiting on Dinis, oldest first, each a page with every option shown in full, what each does well and badly, what the reviewers found and the owner's recommendation; and the ones he has answered."
+summary: "Every open decision, the ones for Dinis apart from the team's own (PT decisions), oldest first, each a page with every option shown in full, what each does well and badly, what the reviewers found and the owner's recommendation; and the ones he has answered."
 ---
-## Waiting on Dinis {#open}
+## For Dinis {#open}
+
+The decisions that are his alone (money, the law, the brand, people, what RiskMandate is, what an email may promise), titled "For Dinis", oldest first.
 
 <!-- decisions:open -->
+
+## PT decisions {#team}
+
+The team's own: the owner proposes, sherpa@, synthetic@ and security@ weigh in on the page, and the owner decides and ships. The owner's recommendation is the default; where the team is unsure, it is tried live, as an A/B test.
+
+<!-- decisions:team -->
 
 ## Decided {#decided}
 

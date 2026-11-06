@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "crowdstrike",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "detection-triage",
+      "name": "An AI analyst triages a security detection, and the team decides (Charlotte AI)",
+      "summary": "CrowdStrike's page: Charlotte AI \"reasons, decides, and acts at machine speed\", but its FAQ is precise about the limits: by default its prebuilt agents only generate information, summaries and recommendations, and any action that affects the environment needs explicit configuration and approval by an authorised member of the security team.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The Falcon platform",
+          "what": "Raises a first-party security detection.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Charlotte AI",
+          "what": "Evaluates the detection (Detection Triage) and produces a verdict, a confidence score, a recommendation and an explanation of its reasoning; CrowdStrike reports over 98% agreement with its own managed-detection team's decisions.",
+          "agent": "Triages, enriches and does routine investigation steps.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The security team",
+          "what": "Decides whether to escalate, close or route the detection, on its own criteria and configured playbooks.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The security team",
+          "what": "Configures, in Charlotte AI AgentWorks, which agent actions run automatically and which need a person's review before they run.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Charlotte AI",
+          "what": "Acts on the environment only where that has been configured and approved; every run sits inside role-based permissions, execution traces, audit logs, agent version history and rollback, and credit caps.",
+          "agent": "Takes the actions it has been granted.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}
