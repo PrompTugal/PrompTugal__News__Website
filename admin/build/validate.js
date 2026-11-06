@@ -119,7 +119,7 @@ for (const f of files) {
 // 7. public forever: no contact details in what we author
 const EMAIL = /[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z0-9.-]*[A-Za-z]{2,}/g
 const PHONE = /(?:\+|00)\d[\d ()-]{8,}\d/g
-const AGENT_NAME = /@web-summit\.[a-z0-9-]+$/   // agent names (newsroom@web-summit.dinis) are names, not mail
+const AGENT_NAME = /@(web-summit|PrompTugal)\.[a-z0-9-]+$/   // agent names (newsroom@web-summit.dinis, ontologist@PrompTugal.dinis) are names, not mail
 for (const f of files.filter(f => /^(content|data|desks)\//.test(rel(f)) && !secrets.BINARY.test(f))) {   // desks/ is served as is, so it is checked too
     for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !/^actions@github\.com$/.test(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)
     for (const m of text(f).matchAll(PHONE)) errors.push(`${rel(f)}: a phone-number shape`)

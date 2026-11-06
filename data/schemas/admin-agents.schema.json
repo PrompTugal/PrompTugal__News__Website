@@ -53,7 +53,7 @@
             "anyOf": [
               {
                 "type": "string",
-                "pattern": "^[a-z0-9.-]+@web-summit\\.[a-z0-9-]+$"
+                "pattern": "^[a-z0-9.-]+@(web-summit|PrompTugal)\\.[a-z0-9-]+$"
               },
               {
                 "type": "null"

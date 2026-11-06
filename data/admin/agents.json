@@ -405,6 +405,33 @@
       "status": "planned",
       "status_note": "No owner yet; until then the gate's checks 6 and 7 (keys, contact details) stand in.",
       "issues": []
+    },
+    {
+      "id": "ontologist-promptugal",
+      "name": "ontologist@PrompTugal.dinis",
+      "label": "PrompTugal's ontologist",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T00:00:00Z",
+      "started_basis": "Dinis's word of 5 November 2026 (~23:55 UTC): six agents run PrompTugal.news, each in its own Claude Code session (CLAUDE.md, The PrompTugal team). Its first run began just after midnight on 6 November.",
+      "role": "The data/ schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places) and its links to the team CRM.",
+      "lands": [
+        "data/"
+      ],
+      "keys": [
+        {
+          "id": "ontologist-promptugal",
+          "status": "current",
+          "note": "made 6 November in its own session; record sha256:36a0b5e8a2b7bdc7"
+        }
+      ],
+      "status": "running",
+      "status_note": "First run: the Brazilian delegation from the public team CRM as company entities; past events next.",
+      "issues": [
+        "WS-177"
+      ]
     }
   ]
 }
