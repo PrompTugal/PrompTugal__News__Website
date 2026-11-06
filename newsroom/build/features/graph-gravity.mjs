@@ -9,6 +9,7 @@ const PAGES = {
     'graph/world/index.html': { id: 'gw', name: 'world', ui: ['all', 'png', 'canvas', 'empty', 'fail', 'noscript', 'caption', 'lisbon', 'count', 'europe', 'worldv'], extra: 'data-world="../../assets/graph/world.json" data-outline="../../assets/vendor/world-atlas/countries-110m.json"' },
     'graph/algarve-evolution/index.html': { id: 'ae-viz', name: 'algarve-evolution', dir: 'portugal', ui: [], extra: 'data-data="../../api/v1/portugal/algarve-evolution-viz.json" data-outline="../../assets/portugal/algarve-outline.json"', plain: true },
     'graph/cloud-centres/index.html': { id: 'gc', name: 'cloud', cls: 'gv', ui: [], extra: 'data-root="../../" data-data="../../assets/graph/cloud-centres.json"', plain: true },
+    'graph/past-summits/index.html': { id: 'gp', name: 'past', cls: 'gv', ui: [], extra: 'data-data="../../assets/graph/past-summits.json"', plain: true },
 }
 
 export function decorate(page, ctx) {
@@ -24,7 +25,7 @@ export function decorate(page, ctx) {
 
 export function validate(gate) {
     const out = []
-    for (const f of ['assets/graph/gravity.js', 'assets/graph/industry.js', 'assets/graph/riskmandate.js', 'assets/graph/world.js', 'assets/graph/world.json', 'assets/vendor/world-atlas/countries-110m.json', 'assets/vendor/world-atlas/LICENSE.txt', 'assets/graph/gravity.css', 'assets/graph/cloud.js', 'assets/graph/cloud-centres.json', 'assets/portugal/algarve-evolution.js', 'assets/portugal/algarve-evolution-data.json', 'assets/portugal/algarve-outline.json']) { try { gate.text(f) } catch { out.push(`missing ${f}`) } }
+    for (const f of ['assets/graph/gravity.js', 'assets/graph/industry.js', 'assets/graph/riskmandate.js', 'assets/graph/world.js', 'assets/graph/world.json', 'assets/vendor/world-atlas/countries-110m.json', 'assets/vendor/world-atlas/LICENSE.txt', 'assets/graph/gravity.css', 'assets/graph/cloud.js', 'assets/graph/cloud-centres.json', 'assets/graph/past.js', 'assets/graph/past-summits.json', 'assets/portugal/algarve-evolution.js', 'assets/portugal/algarve-evolution-data.json', 'assets/portugal/algarve-outline.json']) { try { gate.text(f) } catch { out.push(`missing ${f}`) } }
     for (const [rel, P] of Object.entries(PAGES)) { try { if (!gate.text(rel).includes(`id="${P.id}"`)) out.push(`${rel} does not carry the infographic`) } catch { out.push(`missing ${rel}`) } }
     return out
 }
