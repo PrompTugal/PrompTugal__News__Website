@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0700Z-draft-melious-ai-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T07:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Melious AI GmbH: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Melious AI GmbH: could you check it?",
+ "sha256": "2ce1e15f414987b76eda0082b7dd35f35799c19a804fdca7db7c91faff04cfa1",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Melious AI GmbH leading with its page (https://promptugal.news/companies/melious-ai/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again Melious AI GmbH team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/melious-ai/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Melious AI GmbH team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/melious-ai/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

@@ -1,15 +1,16 @@
 {
-  "updated": "2026-11-06T06:20Z",
+  "updated": "2026-11-06T07:25Z",
   "state": "running",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
-    "round 1b: ANJE regulation read as text; Algarve Evolution confirmed as project partner and jury member for the 24 Algarve startups at Web Summit 2025"
+    "round 1b: ANJE regulation read as text; Algarve Evolution confirmed as project partner and jury member for the 24 Algarve startups at Web Summit 2025",
+    "round 2: Grow Algarve Meetup (organiser, 1,623 members), Algarve Tech Hub Summit history corrected; no 2026 summit-week event found"
   ],
   "next": [
-    "retry algarveevolution.pt (unreachable twice)",
-    "check Algarve Evolution events in Portugal Tech Week and summit week 2026",
-    "session key: not made yet",
-    "people research once the section's shape is set"
+    "retry algarveevolution.pt",
+    "read the Luma Algarve Tech Afterwork and Wrap Party pages for Portugal Tech Week links",
+    "cross-check member companies against data/companies",
+    "session key: not made yet"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",

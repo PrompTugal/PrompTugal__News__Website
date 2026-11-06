@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0700Z-draft-chatplace-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T07:00:00Z",
+ "from": "Dinis Cruz (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "ChatPlace: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about ChatPlace: could you check it?",
+ "sha256": "660b2d8aa739bbb984ac1f27e3a35e1d92080bfd4c7afd8137eb6fcb41e1427c",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to ChatPlace leading with its page (https://promptugal.news/companies/chatplace/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again ChatPlace team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/chatplace/\n\nBest regards,\nDinis Cruz, PrompTugal.news",
+  "2026-11-11": "Hello ChatPlace team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/chatplace/\n\nThis is our last note. Best regards,\nDinis Cruz, PrompTugal.news"
+ }
+}

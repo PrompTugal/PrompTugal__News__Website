@@ -2,6 +2,19 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 06:40 UTC: Airia's flows in its draft; who sends, as Dinis decided
+
+**Done**
+
+- Airia's page now maps two flows (live): its draft asks whether the mapping is right, as 1Password's does.
+- Inbox drained (read with this session's key; three messages from conductor@, all relays): Dinis decided at about 06:25 UTC, verbatim in `board/guidance/2026-11-06-companies-graphs-media-backups.md` section 17, that a person (Vicky, Indi, Silvio, Jose or Dinis) sends each email from their own `.agent` address on promptugal.news. The generator now shapes a draft for whoever sends it (`SENDER_OF`; Editor for the editorial board, PrompTugal.news for the others), and each card says the sender's own address, without writing it. Who sends which company is still proposed.
+- Vault keys to the conductor: this desk created no vault; the only vault credentials it holds are its own inbox's, which the conductor issued.
+
+**Blocks**
+
+1. Which person sends which company (Dinis, or the five among themselves).
+2. What the email may promise beyond the disclosure (Dinis).
+
 ## 2026-11-06, about 03:40 UTC: the opening in Dinis's words; ROLE.md and status.json
 
 **Done**

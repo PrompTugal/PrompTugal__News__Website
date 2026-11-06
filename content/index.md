@@ -4,7 +4,7 @@ summary: PrompTugal.news, independent, at Web Summit Lisbon, 9 to 12 November 20
 layout: wide
 ---
 {.notice .brand}
-**Our mandate: to map the universe of AI in Portugal.** The companies, the people, the events and how they connect, every fact with its source. Web Summit Lisbon 2026 is our first edition. Start with [the companies](companies/index.md), [Portugal](portugal/index.html) or [the graph](graph/index.html).
+**Our mandate: to map the universe of AI in Portugal.** The companies, the people, the events and how they connect, every fact with its source. Web Summit Lisbon 2026 is our first edition.
 
 ::: front-top
 ::: a-lead

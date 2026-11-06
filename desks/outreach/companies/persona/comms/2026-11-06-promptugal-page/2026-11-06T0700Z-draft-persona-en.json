@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0700Z-draft-persona-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T07:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Persona: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Persona: could you check it?",
+ "sha256": "5866f00852497b5dd63732875203ffeb2bcbb6023d6e0ead569da8c41b822642",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Persona leading with its page (https://promptugal.news/companies/persona/); asks: write-about (company).",
+ "followups": {
+  "2026-11-09": "Hello again Persona team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/persona/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Persona team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/persona/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

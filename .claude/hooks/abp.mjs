@@ -17,7 +17,6 @@ import path from 'node:path'
 import crypto from 'node:crypto'
 import { execFileSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
-import { createRequire } from 'node:module'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 export const PROJECT = process.env.CLAUDE_PROJECT_DIR || path.resolve(HERE, '..', '..')
@@ -40,9 +39,9 @@ export function loadPolicy(dir = PROJECT) {
 // Two different agent labels in one key store is ambiguous: treated as unidentified.
 export function whoAmI(keysDir = process.env.ABP_KEYS_DIR || path.join(HOME, '.sg-send', 'keys')) {
     const fromLabel = label => {
-        let m = /^([a-z][a-z0-9-]*)@PrompTugal\.dinis$/i.exec(label || '')
+        let m = /^([a-z][a-z0-9.-]*)@PrompTugal\.dinis$/i.exec(label || '')
         if (m) return { kind: 'team', role: m[1].toLowerCase(), agent: `${m[1].toLowerCase()}@PrompTugal.dinis` }
-        m = /^([a-z][a-z0-9-]*)@([a-z0-9-]+)\.([a-z]+)$/i.exec(label || '')
+        m = /^([a-z][a-z0-9.-]*)@([a-z0-9-]+)\.([a-z]+)$/i.exec(label || '')
         if (m) return { kind: 'external', role: m[1].toLowerCase(), agent: label, person: m[3].toLowerCase() }
         return null
     }
@@ -87,7 +86,9 @@ export function rel(abs, project = PROJECT) {
 export function grantOf(who, P = loadPolicy()) {
     const g = { writes: [], send: [...P.common.send_hosts], subagents: false, notify_dinis: false, remote_read: false }
     if (who.kind === 'team') {
-        const r = P.roles[who.role] || {}
+        const base = who.role.includes('.') ? who.role.split('.')[0] : null
+        const r = P.roles[who.role] || (base && P.roles[base] && { ...P.roles[base], writes: [...(P.roles[base].writes || []), ...((P.workers && P.workers.extra_writes && P.workers.extra_writes[who.role]) || [])], subagents: false, notify_dinis: false, remote_read: false }) || {}
+        g.worker = !!base
         g.writes = [...P.common.writes, ...(r.writes || [])]
         g.send.push(...(r.send_hosts || []))
         g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read
@@ -161,7 +162,39 @@ function currentBranch(cwd) {
 
 const SEND_FLAGS = /^(-d|--data.*|-F|--form.*|-T|--upload-file|--json|--post-data.*|--post-file.*|--body-data.*|--body-file.*)$/
 const SECRET_VAR = /\$\{?[A-Z0-9_]*(KEY|TOKEN|SECRET|PASSPHRASE|PASSWORD|CREDENTIAL)[A-Z0-9_]*\}?/
+// kept for reference: the verbs writeTargets reads
 const WRITE_VERBS = /(^|\s)(>|>>)|\btee\b|\bsed\s+(-[a-z]*i|--in-place)|\bperl\s+-[a-z]*i|^\s*(rm|mv|cp|truncate|ln|chmod|chown|unlink|install|rsync|dd)\b|\bgit\s+(rm|mv|checkout|restore|apply)\b/
+
+// the files a shell segment writes: redirect targets, tee, sed -i / perl -i files, rm/truncate/chmod/unlink arguments,
+// the destination of cp/mv/ln/install, and git rm/mv/checkout/restore paths
+export function writeTargets(seg) {
+    const out = []
+    for (const m of seg.matchAll(/(?:^|[^0-9&<>])>>?\s*([^\s;&|<>]+)/g)) if (!/^&|^\/dev\//.test(m[1])) out.push(m[1].replace(/^["']|["']$/g, ''))
+    const { verb, args } = verbOf(seg)
+    const files = args.filter(a => !a.startsWith('-') && !/^>/.test(a))
+    if (verb === 'tee') out.push(...files)
+    else if (verb === 'sed' && args.some(a => /^(-[a-z]*i|--in-place)/.test(a))) out.push(...files.slice(1))
+    else if (verb === 'perl' && args.some(a => /^-[a-z]*i/.test(a))) out.push(...files.slice(1))
+    else if (['rm', 'rmdir', 'truncate', 'unlink', 'chmod', 'chown', 'touch', 'mkdir'].includes(verb)) out.push(...files.slice(['chmod', 'chown'].includes(verb) ? 1 : 0))
+    else if (['cp', 'mv', 'ln', 'install', 'rsync'].includes(verb) && files.length > 1) out.push(files[files.length - 1])
+    else if (verb === 'dd') { const o = args.find(a => a.startsWith('of=')); if (o) out.push(o.slice(3)) }
+    else if (verb === 'git' && /^(rm|mv|checkout|restore)$/.test(args[0] || '')) out.push(...args.slice(1).filter(a => !a.startsWith('-') && /[/.]/.test(a)))
+    return out.filter(Boolean)
+}
+// the protected paths (the hooks, the policy, the hold, the version, the brand, user settings), whoever writes
+export function checkProtected(who, abs, P = loadPolicy()) {
+    const r = rel(abs), target = r ?? path.resolve(abs)
+    for (const pr of P.common.protected) {
+        const re = globToRe(fill(pr.glob, who.role))
+        if (re.test(target) || re.test(target + '/x')) {   // a folder (rm -rf .claude) counts as its contents
+            if (pr.owner && who.kind === 'team' && who.role === pr.owner) return null
+            return deny('R6', `${target} is protected: ${pr.why}${pr.owner ? ` (only ${pr.owner}@PrompTugal.dinis writes it)` : ''}`)
+        }
+    }
+    // the repository's .claude/ seen from another checkout path is still the hooks
+    if (r === null && /\/\.claude\/(settings[^/]*\.json|hooks\/)/.test(target) && !target.startsWith(path.join(HOME, '.claude', 'projects'))) return deny('R6', `${target}: hooks or settings, which switch the policy off`)
+    return null
+}
 
 export function checkBash(who, command, cwd, P = loadPolicy()) {
     const g = grantOf(who, P)
@@ -184,23 +217,25 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
                 const [remote, ...refs] = pos
                 if (remote && /:\/\//.test(remote) && !/promptugal__news__website/i.test(remote)) return deny('R5', `git push to ${remote}: only this repository's dev`, 'git-push')
                 if (refs.some(r => /(^|[:/])(main|master)$/.test(r))) return deny('R5', 'never push to main: a major release is a pull request from dev that only Dinis merges', 'git-push')
-                const okRef = r => /^(HEAD:)?(refs\/heads\/)?dev$/.test(r) || r === 'dev:dev' || r === 'HEAD:refs/heads/dev'
-                if (refs.length && !refs.every(okRef)) return deny('R5', `git push ${refs.join(' ')}: push to dev only`, 'git-push')
-                if (!refs.length) { const b = currentBranch(cwd); if (b !== 'dev') return deny('R5', `git push from branch ${b || 'unknown'}: push to dev only`, 'git-push') }
+                const target = g.worker ? `work/${who.role}` : 'dev'
+                const esc = target.replace(/[.\/]/g, '\\$&')
+                const okRef = r => new RegExp(`^(HEAD:|${esc}:)?(refs/heads/)?${esc}$`).test(r)
+                if (refs.length && !refs.every(okRef)) return deny('R5', `git push ${refs.join(' ')}: push to ${target} only${g.worker ? ' (a worker never pushes to dev; its main agent reviews and brings its work)' : ''}`, 'git-push')
+                if (!refs.length) { const b = currentBranch(cwd); if (b !== target) return deny('R5', `git push from branch ${b || 'unknown'}: push to ${target} only`, 'git-push') }
             }
             if (sub === 'commit') {
                 if (rest.includes('--allow-empty')) return deny('R5', 'no empty commits', 'git-commit')
-                const m = /(?:^|\s)(?:-m|--message)(?:=|\s+)["']?([a-z][a-z0-9-]*)@PrompTugal\.dinis:/i.exec(seg)
+                const m = /(?:^|\s)(?:-m|--message)(?:=|\s+)["']?([a-z][a-z0-9.-]*)@PrompTugal\.dinis:/i.exec(seg)
                 if (who.kind === 'team' && m && m[1].toLowerCase() !== who.role) return deny('R9', `commit under ${m[1]}@PrompTugal.dinis from ${who.agent}: commit only under your own name`, 'git-commit')
             }
             if (['filter-branch', 'filter-repo', 'replace', 'update-ref'].includes(sub)) return deny('R5', `git ${sub} rewrites history`, 'git')
             if (sub === 'config' && rest.some(a => /^(core\.hooksPath|--global|--system)$/.test(a))) return deny('R6', `git config ${rest.join(' ')} changes more than this clone`, 'git')
         }
         // R9: release under your own name
-        const ag = /(?:^|\s)AGENT=["']?([a-z][a-z0-9-]*)@PrompTugal\.dinis/i.exec(seg)
+        const ag = /(?:^|\s)AGENT=["']?([a-z][a-z0-9.-]*)@PrompTugal\.dinis/i.exec(seg)
         if (ag && /release\.sh/.test(verbOf(seg).verb + ' ' + verbOf(seg).args.slice(0, 2).join(' ')) && who.kind === 'team' && ag[1].toLowerCase() !== who.role) return deny('R9', `AGENT=${ag[1]}@PrompTugal.dinis from ${who.agent}: release only under your own name`, 'release')
         if (/pki-agent\.mjs/.test(seg) && /\bkeygen\b/.test(seg) && who.kind === 'team') {
-            const n = /--name\s+["']?([a-z][a-z0-9-]*)@PrompTugal\.dinis/i.exec(seg)
+            const n = /--name\s+["']?([a-z][a-z0-9.-]*)@PrompTugal\.dinis/i.exec(seg)
             if (n && n[1].toLowerCase() !== who.role) return deny('R9', `a key labelled ${n[1]}@PrompTugal.dinis from ${who.agent}`, 'key')
         }
         // R4: no sessions, schedules or daemons from the shell
@@ -235,11 +270,11 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
             if (hit) return deny('R8', `${verb} ${hit}: a private key or credentials file is never read into the conversation`, 'secret')
         }
         // R6: the hooks, the policy, the version and the brand
-        if (WRITE_VERBS.test(seg)) {
-            if (/(^|[\s'"=/])\.claude(\/|['"\s]|$)|board\/abp(\/|['"\s]|$)/.test(seg) && !(who.kind === 'team' && who.role === 'abp')) return deny('R6', 'the hooks (.claude/) and the policies (board/abp/) are abp@PrompTugal.dinis\'s', 'tamper')
-            if (/newsroom\/build\/version\.txt|newsroom\/versions\.json/.test(seg)) return deny('R6', 'CI owns the version', 'tamper')
-            if (/(^|[\s'"])design\/brand\//.test(seg)) return deny('R6', 'design/brand/ changes only with Dinis\'s yes', 'tamper')
-            if (/board\/HOLD\.md/.test(seg) && !(who.kind === 'team' && who.role === 'security') && !/^\s*(cat|test|ls)\b/.test(seg)) return deny('R6', 'board/HOLD.md is security@\'s to write and only Dinis lifts it', 'tamper')
+        // only the paths a command writes are checked: a cp from ~/.claude into scratch reads it, it does not write it
+        for (const t of writeTargets(seg)) {
+            const abs = path.resolve(cwd || PROJECT, t.replace(/^~(?=\/|$)/, HOME))
+            const d = checkProtected(who, abs, P)
+            if (d) return { ...d, kind: 'tamper' }
         }
     }
     return allow(bashKind(command))
@@ -300,13 +335,13 @@ export function decide(input, who = whoAmI(), P = loadPolicy()) {
 }
 
 // ---------- logging (no secrets) ----------
-let keyHits = null
+// the hook loads no other code (security@'s S15): the secret shapes are its own, a copy of newsroom/build/secrets.cjs's
+const SECRET_SHAPES = [/-----BEGIN [A-Z ]*PRIVATE KEY-----[\s\S]*?(-----END [A-Z ]*PRIVATE KEY-----|$)/g, /sgit_private_(vault|read)_[A-Za-z0-9]+/g,
+    /(?<![A-Za-z0-9_-])[A-Za-z0-9_-]{20,}:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/g,
+    /\b(sk-(ant-)?[A-Za-z0-9_-]{20,}|gh[pos]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}|xox[abprs]-[A-Za-z0-9-]{10,}|AIza[0-9A-Za-z_-]{35})/g]
 function redact(s) {
     s = String(s ?? '').slice(0, 400)
-    try {
-        if (!keyHits) { const req = createRequire(import.meta.url); keyHits = req(path.join(PROJECT, 'newsroom', 'build', 'secrets.cjs')).KEY_RULES }
-        for (const [re] of keyHits) s = s.replace(new RegExp(re.source, 'g'), '[redacted]')
-    } catch { /* fall back to the shapes below */ }
+    for (const re of SECRET_SHAPES) s = s.replace(re, '[redacted]')
     return s.replace(/-----BEGIN [^-]*-----[\s\S]*?(-----END [^-]*-----|$)/g, '[redacted]')
         .replace(/\b[0-9a-f]{32,}\b/gi, '[hex]')
         .replace(/\b(sk-|ghp_|gho_|ghs_|github_pat_|xox[abprs]-)[A-Za-z0-9_-]{8,}/g, '[redacted]')
@@ -326,6 +361,13 @@ function targetOf(input) {
 }
 
 // ---------- the ABP as text ----------
+export function selfCheck(P = loadPolicy()) {
+    try {
+        const sha = crypto.createHash('sha256').update(fs.readFileSync(fileURLToPath(import.meta.url))).digest('hex')
+        const pin = P.hook_sha256 || null
+        return { sha: sha.slice(0, 16), pinned: pin, ok: !pin || pin === sha.slice(0, 16) || pin === sha }
+    } catch (e) { return { sha: null, pinned: P.hook_sha256 || null, ok: false } }
+}
 export function abpText(who, P = loadPolicy()) {
     const on = Object.entries((P.breakers && P.breakers.rules) || {}).filter(([, b]) => b.on).map(([r]) => r)
     const head = `ABP (Agent Behaviour Policy) re-anchored by .claude/hooks/abp.mjs: policy v${P.version}, sha256:${P._sha}, ${P.core.length} core rules, mode ${P.mode || 'enforce'}${P.mode === 'observe' ? ` (nothing is blocked${on.length ? ' except the circuit breakers on: ' + on.join(', ') : ''}; every call outside your grant is logged and reviewed every hour, so keep to the grant)` : ''}. ` +
@@ -359,8 +401,11 @@ async function main() {
         const P = loadPolicy()
         const sid = input.session_id
         if (mode === 'session-start') {
-            logEvent(sid, { ev: 'session-start', source: input.source || 'unknown', agent: who.agent, kind: who.kind, policy: P.version, sha: P._sha })
-            process.stdout.write(JSON.stringify({ hookSpecificOutput: { hookEventName: 'SessionStart', additionalContext: abpText(who, P) } }))
+            const sc = selfCheck(P)
+            logEvent(sid, { ev: 'session-start', source: input.source || 'unknown', agent: who.agent, kind: who.kind, policy: P.version, sha: P._sha, hook: sc.sha, hook_ok: sc.ok })
+            if (!sc.ok) logEvent(sid, { ev: 'hook-changed', hook: sc.sha, pinned: sc.pinned })
+            const warn = sc.ok ? '' : `\n\n**The ABP hook (.claude/hooks/abp.mjs, sha256:${sc.sha}) does not match the sha256 pinned in board/abp/policies.json (${sc.pinned}): someone changed it outside abp@'s release. Say so in your commit and to security@.**`
+            process.stdout.write(JSON.stringify({ hookSpecificOutput: { hookEventName: 'SessionStart', additionalContext: abpText(who, P) + warn } }))
         } else if (mode === 'pre-compact') {
             // the canary's other half: every compaction logged here must be followed by a session-start with source compact
             logEvent(sid, { ev: 'compact', trigger: input.trigger || 'unknown', agent: who.agent })

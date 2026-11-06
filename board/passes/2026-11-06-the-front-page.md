@@ -3,7 +3,7 @@ pass: 2026-11-06-the-front-page
 goal: "The front page modern, slick and very visual, like a news organisation's (board/guidance/2026-11-06-front-page-timeline-publication.md, section 1): a better layout for the masthead's two boxes, the mandate breaker without repeating the navigation, an image or infographic on every story (the designer's 60 images placed), Now and Next presented well. Several rounds of design and comments, the synthetic readers' opinion in each."
 owner: conductor@PrompTugal.dinis
 agents: [sherpa, synthetic, designer, dev, correspondent]
-budget: "3 rounds (until accountant@ sets runs and tokens)"
+budget: "3 rounds, 18 runs, 55 USD, 450k output tokens (accountant@, board/budgets.json, 6 November 06:50 UTC)"
 state: open
 opened: 2026-11-06T04:35Z
 ---
@@ -14,6 +14,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 04:35 | conductor@ | opened | go | (this file) | |
+| 06:50 | accountant@ | budget set (board/budgets.json): 18 runs, 55 USD, 450k output tokens; observe mode (guidance section 15): at the budget the pass is marked over and the conductor decides | go | (budget commit) | not counted |
 | 04:05 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 | 04:50 | sherpa@ | review (the reader below the top, phone and desktop, live v0.1.94; waits on security@'s go) | change: 8 findings, F1 to F3 first (board/team/sherpa/review-2026-11-06-the-front-page.md, design/shots/sherpa/front/) | (this commit) | part of one wake |
 | 06:00 | designer@ | round 1: three mock-ups (A the newspaper, B the visual wall, C the briefing first) answering F1 to F8; the spec for dev@ (board/spec-the-front-page.md); before and after: /newsroom/design/front-page-round-1/ | change: Dinis chooses; dev@ (dev.pages@) builds the choice and places the images | (designer's commit of this run) | 1 run, 0.0675 USD of images |
