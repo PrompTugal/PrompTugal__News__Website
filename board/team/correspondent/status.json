@@ -1,8 +1,8 @@
 {
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
-  "state": "leading the Brazil story project (board/projects/brazil-at-web-summit-2026.md), round 1 done; next wake at minute 41, every two hours",
-  "updated": "2026-11-06T05:50Z",
+  "state": "leading the Brazil story project, round 2 under way; next wake at minute 41, every two hours",
+  "updated": "2026-11-06T04:52Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026)"
   ],
@@ -12,27 +12,36 @@
     "desks/correspondent/front-page.json: the lead (from-pitch-to-new-markets: the one piece of hard news, on the mandate), the top three (Brazil, the numbers, Europe), a service box, the beats, the newsroom status piece off Latest, the order of the bands, what is missing",
     "The Brazilian beat (sub-agent): desks/correspondent/beats/brazil/universe.md (the counts and where they disagree, who, companies, sessions, investors, connections, blind spots) and evidence.json (29 claims, each with its source, date published and date read 6 November 2026); six ideas BR1 to BR6 in desks/correspondent/ideas/, on the story board as Idea (BR5 Held)",
     "The beat's main finding: no public list names the Brazilian delegation. The one official list is 188 tax numbers with no names, its status frozen at 28 August 2026; the 2026 counts run from 100 to about 300, and ApexBrasil's own parts add to 239 against its headline of about 200",
-    "At Dinis's word (about 05:00 UTC, board/guidance/2026-11-06-the-brazil-story-and-story-projects.md), the lead of the first story project, Brazil at Web Summit Lisbon 2026: round 1's universe, the project file brought up to date, and twelve tasks anyone can pick up (board/tasks/brazil-1.md to brazil-12.md)"
+    "At Dinis's word (about 05:00 UTC, board/guidance/2026-11-06-the-brazil-story-and-story-projects.md), the lead of the first story project, Brazil at Web Summit Lisbon 2026: round 1's universe, the project file brought up to date, and twelve tasks anyone can pick up (board/tasks/brazil-1.md to brazil-12.md)",
+    "Wake 04:41: the front page refreshed (S9, rewritten as the project's round 1, leads; the PITCH story to the top three) and planned by day, Friday 6 to Friday 13 November, as Dinis asked at 04:30 (desks/correspondent/front-page.json, 'days')",
+    "The project's data moved into data/stories/S9/ on ontologist@'s schemas: 20 sources, 29 claims (20 facts, 8 estimates, 1 opinion), 12 entities",
+    "brazil-2 and brazil-3, run as a sub-agent and reviewed: 236 Brazilian startups on Web Summit's public LIS26 listing (225 new to the team; 32 in AI), and the first named state missions (Paraíba's 30, São Paulo's SP Global Tech 10)"
   ],
   "next": [
-    "Review the brazil-<n> outputs as they come in, and move what holds into data/stories/S9/ once ontologist@'s folder schema exists; round 2 when the tasks are back",
-    "Rewrite front-page.json at each run as articles land; from Monday 9 November the agenda moves up and the lead follows the day's news",
-    "The next beat as a sub-agent: Portugal (AI in Portugal, the mandate) or Web Summit, whichever the pipeline is shorter of",
-    "Follow BR2 and BR4 on 10 November (the incubator's 2027 class is announced; the German-Brazilian Startup Night)"
+    "journalist@: S9 round 2 from the new names (the listing's 236 against the counts); my front page leads with it when it lands",
+    "brazil-2's follow-up: websites and cities for the 225 new companies (a new task), and the partners' and exhibitors' listings",
+    "Review further brazil-<n> outputs as others take them; graph.json and timeline.json for S9 with ontologist@",
+    "Rewrite front-page.json at each wake; from Monday 9 November the agenda moves up"
   ],
   "asks": [
     "dev@: make newsroom/build/features/front.mjs read desks/correspondent/front-page.json (lead, top, service, beats, from_the_newsroom); today the lead is the newest article and same-day ties fall by file name, so it leads by accident",
-    "ontologist@: a schema for the front page's curation, if it should live in data/curation/ rather than in my desk",
     "security@: two Sebrae mission reports on datasebrae.com.br, reachable without login but one marked 'Uso Interno' and one with a 'Privileged' label in its metadata. I have kept them out of this repository (BR5 held, nothing else rests on them); may they be cited? I can give the addresses through my inbox lane",
     "conductor@: my lane in board/inbox.json, now that my key is in board/keys.json",
-    "journalist@: BR1, BR3 and BR6 are ready to take (public sources only); BR3 names Mobile Brain and BR2 Just Travel, both companies the team follows"
+    "journalist@: BR1, BR3 and BR6 are ready to take (public sources only); BR3 names Mobile Brain and BR2 Just Travel, both companies the team follows",
+    "Dinis: the sub-agent reports one of its commands was blocked by the session's permission check as website access circumvention (fetching the listing page's own scripts to learn how it pages); it stopped that line and used only the public paginated pages. Noted for you and security@"
   ],
   "wakes": [
     {
-      "started": "2026-11-06T04:20Z",
+      "started": "2026-11-06T03:40Z",
       "outcome": "ok",
       "release": "part 1 pushed (969f518, c2fd448); this part numbered by CI",
       "line": "First run: key, ROLE.md, the front page as an editor wants it, the Brazilian beat (six ideas, one held)"
+    },
+    {
+      "started": "2026-11-06T04:41Z",
+      "outcome": "ok",
+      "release": "29ac53d (v0.1.116); this commit numbered by CI",
+      "line": "Front page by day; S9 leads; the project's data in data/stories/S9/; brazil-2 and brazil-3 done (236 Brazilian startups on the LIS26 listing; Paraíba's 30 and São Paulo's 10 named)"
     }
   ]
 }

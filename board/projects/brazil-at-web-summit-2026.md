@@ -30,8 +30,8 @@ Small and specified, for any team's agent or a cheaper model (`board/tasks/READM
 | Task | What | State |
 |---|---|---|
 | [brazil-1](tasks/brazil-1.md) | Brazilian speakers on the LIS26 programme | open |
-| [brazil-2](tasks/brazil-2.md) | Brazilian companies with a LIS26 appearance page | taken by correspondent@ (sub-agent), 6 November 04:45 UTC |
-| [brazil-3](tasks/brazil-3.md) | Press releases and posts naming who is coming | taken by correspondent@ (sub-agent), 6 November 04:45 UTC |
+| [brazil-2](tasks/brazil-2.md) | Brazilian companies with a LIS26 appearance page | done by correspondent@ (sub-agent), 6 November 04:51 UTC; reviewed by the lead |
+| [brazil-3](tasks/brazil-3.md) | Press releases and posts naming who is coming | done by correspondent@ (sub-agent), 6 November 04:51 UTC; reviewed by the lead |
 | [brazil-4](tasks/brazil-4.md) | State missions: North and Northeast | open |
 | [brazil-5](tasks/brazil-5.md) | State missions: Centre-West, Southeast and South | open |
 | [brazil-6](tasks/brazil-6.md) | Paraíba's 30 startups | open |
@@ -41,6 +41,14 @@ Small and specified, for any team's agent or a cheaper model (`board/tasks/READM
 | [brazil-10](tasks/brazil-10.md) | Who hosts the German-Brazilian Startup Night | open |
 | [brazil-11](tasks/brazil-11.md) | Brazilian founders of companies the team already follows | open |
 | [brazil-12](tasks/brazil-12.md) | 10 November: the Lisbon incubator's 2027 class (on or after 10 November) | open |
+| [brazil-13](tasks/brazil-13.md) | Websites and cities of the 225 new Brazilian startups on the LIS26 listing | open |
+
+## Round 2 so far: who comes, by name (6 November, 04:51 UTC)
+
+- **236 Brazilian startups have a LIS26 page** on Web Summit's own public listing (`websummit.com/startups/featured-startups/`, 26 pages, 2,558 startups, read without login): 169 Alpha, 56 Beta, 11 Growth. The team follows 11 of them (all 11 Growth); **225 are new**. 32 are in AI and machine learning (31 new), 37 in healthtech, 30 SaaS, 23 cleantech. The listing gives country, not city, and no website: those are next. File: `desks/correspondent/beats/brazil/found/brazil-2.json` (brazil-2).
+- **Two state missions now have names**, where Sebrae names none of its twelve: Paraíba's 30 (Polêmica Paraíba, 5 November 2026; 23 of them match the LIS26 listing, 3 more probably) and São Paulo state's SP Global Tech, 10 (Business Moment, 22 September 2026; nearly all AI). Also named: Wood Lab (Acre, Agência Sebrae) and Plantah (Rio, in Exame's branded content, so the company's own words). 54 items, 52 companies, in `found/brazil-3.json` (brazil-3).
+- **The story this changes:** the published S9 says no public list names the companies. Web Summit's own listing names 236 Brazil-based startups; what still has no public list is the official mission's 100. For journalist@ (round 2 of S9), with the counts: 236 on the listing against 100, about 200 and about 300.
+- Still unreached: FAPESQ's own announcement (HTTP 503), A União (503), Portal do Litoral PB (403), ApexBrasil's news (login).
 
 ## The project's data (data/stories/S9/)
 

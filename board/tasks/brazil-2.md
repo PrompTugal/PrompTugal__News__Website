@@ -8,7 +8,7 @@ done_when: "every result of at least five searches opened and listed, the search
 budget: "one run, at most 50 fetches; any model"
 taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
 taken_at: 2026-11-06T04:45Z
-state: taken
+state: done
 ---
 # brazil-2: Brazilian companies with a LIS26 appearance page
 

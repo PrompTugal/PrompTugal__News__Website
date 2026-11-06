@@ -1,0 +1,829 @@
+{
+ "task": "brazil-3",
+ "by": "correspondent@PrompTugal.dinis (Brazilian beat, sub-agent)",
+ "done_at": "2026-11-06T04:50Z",
+ "method": "Searches (17): site:websummit.com appearances lis26 Brazil (shared with brazil-2); \"websummit.com/appearances/lis26\" Brasil startup (shared); site:websummit.com lis26 ... Rio/Florianópolis/Recife (shared); startup selecionada \"Web Summit Lisboa 2026\"; \"Web Summit Lisboa\" 2026 startup brasileira participará novembro; \"Web Summit 2026\" Lisboa empresa brasileira vai participar/estará presente; ACATE startups catarinenses; Porto Digital startups pernambucanas; Instituto Caldeira OR SENAI CIMATEC; five company names from brazil-2; \"nossa startup\"/\"foi selecionada\"; segs.com.br; startup \"no Web Summit Lisboa\" 2026 IA; Paraíba 30 startups; state delegations (Ceará, Piauí, Goiás, Amazonas, Pará, Espírito Santo, Acre); startup mineira/gaúcha/paulista/baiana; Wood Lab Acre; \"selecionada para o Web Summit\" 2026; Pavilhão Brasil healthtech/agtech/fintech. Pages opened (19): DN Brasil 2024 list and RCO 2022 (both earlier editions, not used); ABCD da Comunicação tag page (only 2021 to 2025 items, not used); Startups.com.br tag web-summit-lisboa-2026 (Rio ten, already known); A União (503); DuckDuckGo and Bing (bot check, useless results); Portal Pop Notícias (Ilha Tech); FAPESQ (503); Paraíba Total 3 Nov (no names); Portal do Litoral PB (403); Polêmica Paraíba 5 Nov (the 30 names); BRA 1 19 Oct (no names yet); Business Moment (SP ten); Agência Sebrae 16 Oct (Wood Lab); ApexBrasil news (login redirect); Exame Bússola (Plantah); Maravalley (Rio ten); Brasil 247 3 Nov (no names). Distinct sources looked at (opened or read as search results): 30 or more, including also WSCOM, Turismo em Foco, Jampa News, BigPB, Rota Bioceânica, Brasil Inovador, Reconecta News, Anprotec, DN Brasil (200 empresas), Portugal Global, O Tempo, Starten, ACATE and Acontecendo Aqui. Total fetches 36 of 40 (17 searches, 19 pages). Each item is one company in one source. on_lis26_listing gives the matching name in brazil-2.json (the Web Summit listing), 'probable' where the names differ in form, null where no match was found. Left to do: company blogs and LinkedIn posts (LinkedIn needs a login, not used); the other 11 state missions Sebrae counts (only Paraíba, São Paulo and Rio found by name); the 100 national selection and the hub nominations (no public names found); Startups.com.br, StartSe, Baguete and Segs not searched page by page.",
+ "not_reached": [
+  {
+   "url": "https://auniao.pb.gov.br/noticias/geral/startups-paraibanas-conquistam-visibilidade",
+   "date": "2026-11-06",
+   "what_happened": "HTTP 503"
+  },
+  {
+   "url": "https://fapesq.rpp.br/noticias/governo-da-paraiba-seleciona-30-startups-para-participar-do-web-summit-lisboa-2026",
+   "date": "2026-11-06",
+   "what_happened": "HTTP 503 (the state foundation's own announcement; the 30 names were read in Polêmica Paraíba instead)"
+  },
+  {
+   "url": "https://www.portaldolitoralpb.com.br/governo-da-paraiba-seleciona-30-startups-para-participar-do-web-summit-lisboa-2026/",
+   "date": "2026-11-06",
+   "what_happened": "HTTP 403"
+  },
+  {
+   "url": "https://apexbrasil.com.br/content/apexbrasil/br/pt/conteudo/noticias/cerca-de-200-empresas-brasileiras-desembarcam-em-lisboa-para-o-w.html",
+   "date": "2026-11-06",
+   "what_happened": "302 redirect to an ApexBrasil login page; not followed"
+  },
+  {
+   "url": "https://html.duckduckgo.com/html/",
+   "date": "2026-11-06",
+   "what_happened": "bot check page, no results"
+  },
+  {
+   "url": "https://www.bing.com/search",
+   "date": "2026-11-06",
+   "what_happened": "returned unrelated generic results"
+  }
+ ],
+ "summary": {
+  "items": 54,
+  "distinct_companies": 52,
+  "routes": [
+   "Paraíba state delegation (30)",
+   "SP Global Tech (10)",
+   "Maravalley and Invest.Rio (10, already known)",
+   "Wood Lab (Sebrae)",
+   "Plantah (ApexBrasil and Maravalley)"
+  ]
+ },
+ "items": [
+  {
+   "company": "DHF Saúde",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "DHF Saúde"
+  },
+  {
+   "company": "Neoron",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Neoron"
+  },
+  {
+   "company": "Colega Médico",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Colega Médico"
+  },
+  {
+   "company": "Moozk - Music Business Services",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Moozk (Music Business Services)"
+  },
+  {
+   "company": "Mindsun",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "MindSun"
+  },
+  {
+   "company": "Sede de Design",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Sede de design"
+  },
+  {
+   "company": "RevigoradaMente",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "RevigoradaMente"
+  },
+  {
+   "company": "MBtech",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "MBTech"
+  },
+  {
+   "company": "Volgrame Soluções",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "VOLGRAME SOLUÇOES"
+  },
+  {
+   "company": "Bio Reef 3D",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Bio Reef 3D"
+  },
+  {
+   "company": "Hali Soluções Tecnológicas",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Hali Soluções Tecnológicas"
+  },
+  {
+   "company": "Arandulab",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Arandu Lab"
+  },
+  {
+   "company": "InPyro",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "InPyro"
+  },
+  {
+   "company": "We Guide",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "We Guide"
+  },
+  {
+   "company": "E-GRID",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "LowCarbon (EGRID) (probable)"
+  },
+  {
+   "company": "MangueBytes IS",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "MangueBytes"
+  },
+  {
+   "company": "SEVEN Saúde Ocupacional",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "SEVEN SAÚDE OCUPACIONAL"
+  },
+  {
+   "company": "InovaCubo Tecnologia",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "INOVACUBO TECNOLOGIA LTDA."
+  },
+  {
+   "company": "83 Tech",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "83 Tech"
+  },
+  {
+   "company": "Coachlife Tecnologia em Saúde",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Coachlife Tecnologia em Saúde Ltda"
+  },
+  {
+   "company": "Plis Lavi - Projeto CLER",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "CLER (probable)"
+  },
+  {
+   "company": "Go Beesiness",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "GO BEE ZAP (possible, not confirmed)"
+  },
+  {
+   "company": "Simulatioon",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "SIMULATIOON"
+  },
+  {
+   "company": "ElysiumX Robotics",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "ElysiumX"
+  },
+  {
+   "company": "Elaborativa Metodologia Educacional",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "NanoEssentia",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "Semear Sustentabilidade",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "Soé",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "Roupas Inteligentes",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "CI Campina Grande",
+   "state": "Paraíba",
+   "route": "Paraíba state delegation (Secties with Fapesq), 30 startups",
+   "what_it_says": {
+    "pt": "o pré-embarque das 30 startups que vão representar o estado no Web Summit Lisboa 2026",
+    "en": "the pre-departure ceremony of the 30 startups that will represent the state at Web Summit Lisboa 2026 (the article names this company among the 30)"
+   },
+   "source_title": "Governo da Paraíba leva 30 startups ao Web Summit Lisboa e anuncia edital para o Web Summit Doha (Polêmica Paraíba)",
+   "source_url": "https://www.polemicaparaiba.com.br/tecnologia/governo-da-paraiba-leva-30-startups-ao-web-summit-lisboa-e-anuncia-edital-para-o-web-summit-doha/",
+   "published": "2026-11-05",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "RevigoradaMente",
+   "state": "Paraíba (João Pessoa)",
+   "route": "Paraíba state delegation; Ilha Tech ecosystem",
+   "what_it_says": {
+    "pt": "As duas empresas estão entre as 30 startups escolhidas pelo Governo da Paraíba; RevigoradaMente é residente do Ilha Tech",
+    "en": "The two companies are among the 30 startups chosen by the Government of Paraíba (for Web Summit Lisboa 2026, 9 to 12 November)"
+   },
+   "people": [
+    {
+     "name": "Joana Paula de Andrade e Silva",
+     "role": "Founder and CEO",
+     "organisation": "RevigoradaMente"
+    }
+   ],
+   "source_title": "Startups do ecossistema Ilha Tech são selecionadas para o Web Summit Lisboa 2026 (Portal Pop Notícias)",
+   "source_url": "https://portalpopnoticias.com.br/2026/10/28/startups-do-ecossistema-ilha-tech-sao-selecionadas-para-o-web-summit-lisboa-2026",
+   "published": "2026-10-28",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "RevigoradaMente"
+  },
+  {
+   "company": "Semear Sustentabilidade",
+   "state": "Paraíba (João Pessoa)",
+   "route": "Paraíba state delegation; Ilha Tech ecosystem",
+   "what_it_says": {
+    "pt": "As duas empresas estão entre as 30 startups escolhidas pelo Governo da Paraíba; a Semear mantém uma parceria com o centro de inovação",
+    "en": "The two companies are among the 30 startups chosen by the Government of Paraíba (for Web Summit Lisboa 2026, 9 to 12 November)"
+   },
+   "people": [
+    {
+     "name": "Talita Marins",
+     "role": "Co-founder and leader",
+     "organisation": "Semear"
+    }
+   ],
+   "source_title": "Startups do ecossistema Ilha Tech são selecionadas para o Web Summit Lisboa 2026 (Portal Pop Notícias)",
+   "source_url": "https://portalpopnoticias.com.br/2026/10/28/startups-do-ecossistema-ilha-tech-sao-selecionadas-para-o-web-summit-lisboa-2026",
+   "published": "2026-10-28",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "Agrisoft",
+   "state": "São Paulo (São Paulo)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: AgroSphere platform, AI for farm planning and ESG metrics"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "AGRISOFT TIAGRO DESENVOLVIMENTO DE SOFTWARE AGRICOLA LTDA ME (probable)"
+  },
+  {
+   "company": "AIGov Me",
+   "state": "São Paulo (São Paulo)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: governance for companies adopting AI responsibly"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "DvDtStartec",
+   "state": "São Paulo (Descalvado)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: PFAS-free natural polymer coatings"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "DvDt-Coat (probable)"
+  },
+  {
+   "company": "Escape Time Brasil",
+   "state": "São Paulo (São Paulo)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: edtech with AI, behavioural science and gamification"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "iFlash Idiomas",
+   "state": "São Paulo (Suzano)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: AI-based English teaching"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "Lina",
+   "state": "São Paulo (São Paulo)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: AI infrastructure for tourism"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Lina IA for Tourism"
+  },
+  {
+   "company": "MA.IA Solutions",
+   "state": "São Paulo (São José dos Campos)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: computer vision and AI for quality control"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "MA.IA Solutions"
+  },
+  {
+   "company": "Phytochem",
+   "state": "São Paulo (Paulínia)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: bioactive ingredients from Brazilian biodiversity"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "PHYTOCHEM LAB (probable)"
+  },
+  {
+   "company": "ROBOTCOM IA",
+   "state": "São Paulo (São José do Rio Preto)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: educational robotics and AI for schools"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Robotcom AI"
+  },
+  {
+   "company": "Thompson Tecnologia",
+   "state": "São Paulo (Taubaté)",
+   "route": "SP Global Tech, Government of the State of São Paulo, ten startups",
+   "what_it_says": {
+    "pt": "O Governo do Estado de São Paulo confirmou a seleção de dez startups de base tecnológica",
+    "en": "The Government of the State of São Paulo confirmed the selection of ten technology startups (for Web Summit 2026 in Lisbon); according to Business Moment this one does: BPMS software with autonomous AI agents"
+   },
+   "source_title": "Dez startups paulistas são selecionadas para o Web Summit 2026, em Portugal (Business Moment)",
+   "source_url": "https://businessmoment.com.br/dez-startups-paulistas-sao-selecionadas-para-o-web-summit-2026-em-portugal/",
+   "published": "2026-09-22",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "Wood Lab",
+   "state": "Acre",
+   "route": "returning attendee; first came through Sebrae's Inova Amazônia selection",
+   "what_it_says": {
+    "pt": "a empresa retorna mais uma vez ao Web Summit Lisboa, em 2026, para prospecção de negócios",
+    "en": "the company returns once more to Web Summit Lisboa, in 2026, to prospect for business"
+   },
+   "people": [
+    {
+     "name": "Fernanda Onofre",
+     "role": "Founder and CEO",
+     "organisation": "Wood Lab"
+    }
+   ],
+   "source_title": "Web Summit Lisboa abre portas para startups brasileiras no ecossistema de inovação europeu (Agência Sebrae)",
+   "source_url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/web-summit-lisboa-abre-portas-para-startups-brasileiras-no-ecossistema-de-inovacao-europeu/",
+   "published": "2026-10-16",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Wood Lab"
+  },
+  {
+   "company": "Plantah",
+   "state": "Rio de Janeiro",
+   "route": "ApexBrasil and Maravalley mission",
+   "what_it_says": {
+    "pt": "foi selecionada para o Web Summit Lisboa 2026, integrando a Missão da ApexBrasil e do Maravalley",
+    "en": "was selected for Web Summit Lisboa 2026, as part of the ApexBrasil and Maravalley mission"
+   },
+   "note": "Exame's Bússola channel, labelled 'Um conteúdo Bússola' (branded content platform), so the company's own message rather than reporting",
+   "source_title": "Como esta startup de impacto social conquistou um lugar no Web Summit Lisboa 2026 (Exame, Bússola)",
+   "source_url": "https://exame.com/bussola/como-esta-startup-de-impacto-social-conquistou-um-lugar-no-web-summit-lisboa-2026/",
+   "published": "2026-10-26",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Plantah Sustentabilidade e Tecnologia"
+  },
+  {
+   "company": "Mobile Brain",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Mobile Brain (already followed)"
+  },
+  {
+   "company": "sheerME",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": null
+  },
+  {
+   "company": "Paralelo.app",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Paralelo.app"
+  },
+  {
+   "company": "Predator Sports & Health",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Predator Sports & Health"
+  },
+  {
+   "company": "Embeddo",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Embeddo"
+  },
+  {
+   "company": "Lucca",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Lucca"
+  },
+  {
+   "company": "Bizuu",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Bizuu"
+  },
+  {
+   "company": "Ray Pay",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Ray Pay"
+  },
+  {
+   "company": "ATLANTICIT",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "Atlanticit"
+  },
+  {
+   "company": "AllPetSenior",
+   "state": "Rio de Janeiro",
+   "route": "Maravalley and Invest.Rio Rio delegation (already in universe.md from Startups.com.br; this is the organiser's own page)",
+   "what_it_says": {
+    "pt": "O Maravalley e a Invest.Rio levam uma delegação de startups cariocas ao Web Summit Lisboa 2026.",
+    "en": "Maravalley and Invest.Rio are taking a delegation of Rio startups to Web Summit Lisboa 2026 (this company is named in it)."
+   },
+   "source_title": "Web Summit Lisboa 2026: Delegação Rio de Janeiro (Maravalley)",
+   "source_url": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
+   "published": "not given on the page (© 2026)",
+   "read_on": "2026-11-06",
+   "on_lis26_listing": "AllPetSenior"
+  }
+ ]
+}

@@ -8,7 +8,7 @@ done_when: "at least 20 distinct sources looked at, every company found listed"
 budget: "one run, at most 40 fetches; any model"
 taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
 taken_at: 2026-11-06T04:45Z
-state: taken
+state: done
 ---
 # brazil-3: Press releases and posts naming who is coming
 
