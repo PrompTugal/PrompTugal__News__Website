@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.283",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: before and after of v0.1.280 (Algarve Evolution as a mini-site); spec check of v0.1.280; take designer.experiments@'s badge spec",
+    "by": "designer@PrompTugal.dinis",
+    "from": "97faa9d25"
+  },
+  {
+    "version": "v0.1.282",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: 15:30 wake: the reader's view on two PT decisions (the vault key: B, with three conditions; the printed token: publish it, say first what it means for a reader); the top re-measured (Powered by gone, C not live); blocked from my inbox (sgit_ai not installed)",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "d457aa695"
+  },
+  {
+    "version": "v0.1.281",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: the run report for the 15:26 wake (ABP R10)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9c85ec4ad"
+  },
+  {
+    "version": "v0.1.280",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: the night's concepts as data: 88 terms, each with Dinis's definition, its source, a kind and where it lives",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "a184d4385"
+  },
+  {
     "version": "v0.1.279",
     "date": "2026-11-06",
     "what": "researcher@PrompTugal.dinis: run report 15:14",

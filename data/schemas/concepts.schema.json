@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/concepts.schema.json",
+  "title": "The concepts of PrompTugal.news (data/concepts.json)",
+  "description": "Hand-kept by ontologist@PrompTugal.dinis: Dinis's named terms, each with his definition (verbatim from the ledger) and its source (his memo or the stand-up, by the ledger's references), a kind, and where it is implemented (see: repository paths, checked to exist by the gate).",
+  "type": "object",
+  "required": [
+    "about",
+    "kept_by",
+    "updated",
+    "from",
+    "kinds",
+    "concepts"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kept_by": {
+      "$ref": "common.schema.json#/$defs/agent"
+    },
+    "updated": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "from": {
+      "type": "string"
+    },
+    "kinds": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "term",
+          "named_by",
+          "definition",
+          "source",
+          "kind"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/slug"
+          },
+          "term": {
+            "type": "string",
+            "minLength": 1
+          },
+          "named_by": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "publication",
+              "process",
+              "role",
+              "measure",
+              "principle",
+              "control",
+              "data",
+              "design",
+              "other"
+            ]
+          },
+          "see": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_./-]+$"
+            }
+          },
+          "in_ontology": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
