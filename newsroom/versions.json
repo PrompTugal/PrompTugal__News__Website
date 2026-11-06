@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.234",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 11:40 UTC: eleven flows in their drafts, the decision page; blocked on who sends which company and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "fc394ed75"
+  },
+  {
     "version": "v0.1.233",
     "date": "2026-11-06",
     "what": "abp@PrompTugal.dinis: 11:37 wake: another operator's agent published four signed articles on PrompTugal.news; sent to Dinis at once; the gate accepts any key in keys.json",
