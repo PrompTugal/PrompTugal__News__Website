@@ -1,0 +1,254 @@
+[
+ {
+  "claim": "riskmandate.ai defines reach as everything the agent can actually access in a deployment",
+  "source_url": "https://www.riskmandate.ai",
+  "source_title": "RiskMandate",
+  "read_on": "2026-11-06",
+  "quote": "Everything the agent can actually access in this deployment, including what nobody thought to check."
+ },
+ {
+  "claim": "riskmandate.ai defines mandate as the job written down",
+  "source_url": "https://www.riskmandate.ai",
+  "source_title": "RiskMandate",
+  "read_on": "2026-11-06",
+  "quote": "The job, written down: what the business authorised it to do. The one part only you can supply."
+ },
+ {
+  "claim": "riskmandate.ai defines gap as reach minus mandate",
+  "source_url": "https://www.riskmandate.ai",
+  "source_title": "RiskMandate",
+  "read_on": "2026-11-06",
+  "quote": "Reach minus mandate. Never written by hand, and recomputed whenever either side moves."
+ },
+ {
+  "claim": "According to Make, its agents take action and trigger workflows across many integrations",
+  "source_url": "https://www.make.com/en/ai-agents",
+  "source_title": "Make AI Agents",
+  "read_on": "2026-11-06",
+  "quote": "trigger real workflows with access to over 3500+ integrations"
+ },
+ {
+  "claim": "According to Make, users can add approvals and stop an agent at set points",
+  "source_url": "https://www.make.com/en/ai-agents",
+  "source_title": "Make AI Agents",
+  "read_on": "2026-11-06",
+  "quote": "set clear rules, add manual approvals, or stop the Agent at specific points"
+ },
+ {
+  "claim": "According to Make, a Reasoning panel shows each decision step by step",
+  "source_url": "https://www.make.com/en/ai-agents",
+  "source_title": "Make AI Agents",
+  "read_on": "2026-11-06",
+  "quote": "See every decision an agent makes, step by step, in the Reasoning panel."
+ },
+ {
+  "claim": "Make's page does not describe permission scopes, credential storage or spend limits (absence on the page, not evidence about the product)",
+  "source_url": "https://www.make.com/en/ai-agents",
+  "source_title": "Make AI Agents",
+  "read_on": "2026-11-06",
+  "quote": "(no quote: statement about what the page does not say, or session listing)"
+ },
+ {
+  "claim": "According to PolyAI, its agent changes a booking and texts the details",
+  "source_url": "https://poly.ai/",
+  "source_title": "PolyAI",
+  "read_on": "2026-11-06",
+  "quote": "the agent identifies him, changes it to 8pm for five, texts the details and resolves the call"
+ },
+ {
+  "claim": "According to PolyAI, nothing goes live without human approval",
+  "source_url": "https://poly.ai/",
+  "source_title": "PolyAI",
+  "read_on": "2026-11-06",
+  "quote": "Nothing goes live without you."
+ },
+ {
+  "claim": "According to PolyAI, guardrails, PII redaction and human-in-the-loop govern every turn",
+  "source_url": "https://poly.ai/",
+  "source_title": "PolyAI",
+  "read_on": "2026-11-06",
+  "quote": "Guardrails, PII redaction, human-in-the-loop"
+ },
+ {
+  "claim": "PolyAI lists SOC 2+ Type 2, ISO 27001, PCI DSS and GDPR",
+  "source_url": "https://poly.ai/",
+  "source_title": "PolyAI",
+  "read_on": "2026-11-06",
+  "quote": "SOC 2+ Type 2, ISO 27001, PCI DSS, GDPR"
+ },
+ {
+  "claim": "According to Strawberry, any browser work can be done by its companions",
+  "source_url": "https://strawberrybrowser.com",
+  "source_title": "Strawberry",
+  "read_on": "2026-11-06",
+  "quote": "Any work that can be done in a browser can be done with Strawberry."
+ },
+ {
+  "claim": "According to Strawberry, companions can take actions on the user's behalf, including behind logins",
+  "source_url": "https://strawberrybrowser.com",
+  "source_title": "Strawberry",
+  "read_on": "2026-11-06",
+  "quote": "take actions on your behalf; Even behind login walls"
+ },
+ {
+  "claim": "According to Strawberry, passwords are encrypted on the device and not visible to the company",
+  "source_url": "https://strawberrybrowser.com",
+  "source_title": "Strawberry",
+  "read_on": "2026-11-06",
+  "quote": "Encrypted on your device, never visible to us"
+ },
+ {
+  "claim": "According to Strawberry, users choose per app and per action what companions may do without asking",
+  "source_url": "https://strawberrybrowser.com",
+  "source_title": "Strawberry",
+  "read_on": "2026-11-06",
+  "quote": "Choose per app and per action what companions may do without asking."
+ },
+ {
+  "claim": "Strawberry's page does not describe audit logs, spending limits or confirmation before sending (absence on the page)",
+  "source_url": "https://strawberrybrowser.com",
+  "source_title": "Strawberry",
+  "read_on": "2026-11-06",
+  "quote": "(no quote: statement about what the page does not say, or session listing)"
+ },
+ {
+  "claim": "According to Emergence, its agents automate investigations, decisions and corrective actions in semiconductor manufacturing",
+  "source_url": "https://www.emergence.ai/",
+  "source_title": "Emergence",
+  "read_on": "2026-11-06",
+  "quote": "investigations, decisions, and corrective actions"
+ },
+ {
+  "claim": "According to Emergence, agent networks are formally verified and risk-managed",
+  "source_url": "https://www.emergence.ai/",
+  "source_title": "Emergence",
+  "read_on": "2026-11-06",
+  "quote": "Formally verified, risk-managed agent networks that enforce constraints and safety across the entire enterprise stack."
+ },
+ {
+  "claim": "According to Emergence, every insight is traceable and auditable",
+  "source_url": "https://www.emergence.ai/",
+  "source_title": "Emergence",
+  "read_on": "2026-11-06",
+  "quote": "Every insight is fully traceable; Built-in auditability"
+ },
+ {
+  "claim": "According to Legora, its Agent plans, executes, reviews and delivers",
+  "source_url": "https://legora.com/",
+  "source_title": "Legora",
+  "read_on": "2026-11-06",
+  "quote": "The Agent plans, executes, reviews and delivers, so you can focus on the decisions that require your judgment."
+ },
+ {
+  "claim": "According to Legora, no AI training on customer data",
+  "source_url": "https://legora.com/",
+  "source_title": "Legora",
+  "read_on": "2026-11-06",
+  "quote": "Zero AI training on your data."
+ },
+ {
+  "claim": "According to Primitive, it gives agents an email inbox and outbox",
+  "source_url": "https://www.onprimitive.com/",
+  "source_title": "Primitive",
+  "read_on": "2026-11-06",
+  "quote": "Give your AI agents an inbox and outbox on email"
+ },
+ {
+  "claim": "According to Primitive, access is scoped to the organisation's keys",
+  "source_url": "https://www.onprimitive.com/",
+  "source_title": "Primitive",
+  "read_on": "2026-11-06",
+  "quote": "Access is scoped to your organization's keys."
+ },
+ {
+  "claim": "According to GetVocal AI, a high-value return is flagged for human approval in its demo",
+  "source_url": "https://www.getvocal.ai",
+  "source_title": "GetVocal AI",
+  "read_on": "2026-11-06",
+  "quote": "Flagged for Human Approval"
+ },
+ {
+  "claim": "According to GetVocal AI, its Control Tower lets operators override any agent and audit every decision",
+  "source_url": "https://www.getvocal.ai",
+  "source_title": "GetVocal AI",
+  "read_on": "2026-11-06",
+  "quote": "override any agent and audit every decision"
+ },
+ {
+  "claim": "According to GetVocal AI, it enforces traceability, audit logs and human override",
+  "source_url": "https://www.getvocal.ai",
+  "source_title": "GetVocal AI",
+  "read_on": "2026-11-06",
+  "quote": "enforces full traceability, audit logs and human override at every interaction"
+ },
+ {
+  "claim": "According to Exa, it provides search for AI agents with zero data retention",
+  "source_url": "https://exa.ai/",
+  "source_title": "Exa",
+  "read_on": "2026-11-06",
+  "quote": "your queries and results are never stored or trained on"
+ },
+ {
+  "claim": "According to You.com, spend caps are available on every API key",
+  "source_url": "https://you.com/",
+  "source_title": "You.com",
+  "read_on": "2026-11-06",
+  "quote": "spend caps on every API key"
+ },
+ {
+  "claim": "According to SageOx, its tool loads team decisions into coding agent sessions; its page describes no controls",
+  "source_url": "https://sageox.ai/",
+  "source_title": "SageOx",
+  "read_on": "2026-11-06",
+  "quote": "loaded 12 team decisions"
+ },
+ {
+  "claim": "According to the Agentic AI Foundation, a working group aims to set the benchmark for secure agentic operations",
+  "source_url": "https://aaif.io/",
+  "source_title": "Agentic AI Foundation",
+  "read_on": "2026-11-06",
+  "quote": "Establishing the industry benchmark for secure agentic operations"
+ },
+ {
+  "claim": "According to Manus's home page, it lists task types (slides, websites, games, video, design) and describes no controls",
+  "source_url": "https://manus.im/",
+  "source_title": "Manus",
+  "read_on": "2026-11-06",
+  "quote": "(no quote: statement about what the page does not say, or session listing)"
+ },
+ {
+  "claim": "Web Summit lists the session 'When AI agents go rogue' on 12 Nov 2026, 10:30 to 10:50, Stage 13 (AI Summit), with Satya Nitta, Co-founder, Executive Chairman & Chief Scientist, Emergence; the page has no description",
+  "source_url": "https://websummit.com/sessions/lis26/afe1fd71-2a98-41e4-8707-9101353797b3/when-ai-agents-go-rogue/",
+  "source_title": "When AI agents go rogue (Web Summit Lisbon 2026)",
+  "read_on": "2026-11-06",
+  "quote": "(no quote: statement about what the page does not say, or session listing)"
+ },
+ {
+  "claim": "Web Summit lists the session 'The AI agent economy' on 11 Nov 2026, 10:10 to 10:30, Stage 13 (AI Summit), with Dr. Durga Malladi, Qualcomm Technologies; Dayana Sarkisova, TIME; the page has no description",
+  "source_url": "https://websummit.com/sessions/lis26/7bd19b8b-b399-42d5-b94f-df528a27696a/the-ai-agent-economy/",
+  "source_title": "The AI agent economy (Web Summit Lisbon 2026)",
+  "read_on": "2026-11-06",
+  "quote": "(no quote: statement about what the page does not say, or session listing)"
+ },
+ {
+  "claim": "Web Summit lists the session 'Who let the agent in?' on 12 Nov 2026, 12:00 to 12:20, Stage 7 (SaaS Summit), with Diogo Guerra, CTO, Feedzai; Shrikesh Laxmidas, ECO; the page has no description",
+  "source_url": "https://websummit.com/sessions/lis26/1de6a591-ec17-4399-8f28-13f4bff1cae1/who-let-the-agent-in/",
+  "source_title": "Who let the agent in? (Web Summit Lisbon 2026)",
+  "read_on": "2026-11-06",
+  "quote": "(no quote: statement about what the page does not say, or session listing)"
+ },
+ {
+  "claim": "Web Summit lists the session 'Your AI agent just got a passport' on 10 Nov 2026, 10:50 to 11:10, Stage 7 (Corporate Innovation Summit), with Benjamin Faes, CEO, RWS Group; Elena Poughia, Dataconomy Media; the page has no description",
+  "source_url": "https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/",
+  "source_title": "Your AI agent just got a passport (Web Summit Lisbon 2026)",
+  "read_on": "2026-11-06",
+  "quote": "(no quote: statement about what the page does not say, or session listing)"
+ },
+ {
+  "claim": "Outshift (Cisco) page returned no body text to the fetch; Genspark returned HTTP 403: not reached",
+  "source_url": "https://outshift.cisco.com/",
+  "source_title": "Outshift by Cisco",
+  "read_on": "2026-11-06",
+  "quote": "(no quote: statement about what the page does not say, or session listing)"
+ }
+]

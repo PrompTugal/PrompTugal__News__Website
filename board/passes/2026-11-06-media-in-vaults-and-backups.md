@@ -15,6 +15,7 @@ The shape: board/the-passes.md.
 |---|---|---|---|---|---|
 | 05:15 | conductor@ | opened | go | (this file) | |
 | 06:50 | accountant@ | budget set (board/budgets.json): 14 runs, 42 USD, 350k output tokens; observe mode (guidance section 15): at the budget the pass is marked over and the conductor decides | go | (budget commit) | not counted |
+| 09:50 | accountant@ | the media and upload lines set in board/budgets.json (media, openrouter): git files up to 1 MB, vault files up to 500 MB, 2 GB a day; OpenRouter 10 USD a day for designer@ | go | (budget commit) | not counted |
 | 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions

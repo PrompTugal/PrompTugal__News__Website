@@ -1,0 +1,1 @@
+# following-robotics-at-web-summit (S15): no problems. Checked 6 November 2026: its changes to the desk's draft ("students showing how a rover is put together") match Técnico's announcement; all links open. Sources not clickable on the page: see README.

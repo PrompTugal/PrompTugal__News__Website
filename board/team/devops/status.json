@@ -1,8 +1,8 @@
 {
   "agent": "devops@PrompTugal.dinis",
   "focus": "The health, quality and performance of CI, the release and tag scripts, every tool in newsroom/tools/ and every scheduled task of this site.",
-  "state": "running: fourth wake done; dev quiet (28 of 29 green); the workers' branches now get the gate and a test merge with dev; next wake 10:14 UTC",
-  "updated": "2026-11-06T08:30Z",
+  "state": "running: fifth wake done; the tag-push loss fixed (atomic push of branch and tag); next wake 12:14 UTC",
+  "updated": "2026-11-06T10:40Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as devops-promptugal; my row in data/newsroom/agents.json",
     "board/team/devops/ROLE.md and this status",
@@ -12,11 +12,12 @@
     "Wake 04:15: the first fix's retry failed twice (runs 134 and 138: Pages names a deployment after the commit, so the same commit cannot be redeployed, and deploy-pages already cancels on timeout). Replaced: on a failed deploy the job asks the live site; if it serves the release, pass with a warning; if not, dispatch a fresh deploy of dev's head and fail red. Tested both paths locally. Report corrected (section 'Correction, 04:25 UTC')",
     "board/schedule.json now matches the scheduler (15 rows, conductor@'s update): handoff closed",
     "Wake 06:14: runs 147 to 206 read: 48 green, 5 red (all Pages stalls, each recovered by its dispatched deploy in 74 to 86 s), 6 dropped and ridden. The deploy now waits 2 minutes (was 4) and the live check 30 s (was 2 minutes; it never found the release live), the job timeout 6 minutes: a stall holds the queue about 3 minutes instead of 7",
-    "Wake 08:14: runs 206 to 234: 28 green, 1 Pages stall (run 208) recovered by its dispatched deploy, none dropped; median 68 s to live. CI now runs on work/** (the dotted workers' branches): the gate on the tip and on a test merge with dev, never a release; tried on work/dev.graphs"
+    "Wake 08:14: runs 206 to 234: 28 green, 1 Pages stall (run 208) recovered by its dispatched deploy, none dropped; median 68 s to live. CI now runs on work/** (the dotted workers' branches): the gate on the tip and on a test merge with dev, never a release; tried on work/dev.graphs",
+    "Wake 10:14: runs 234 to 289: 42 green, 8 red, 6 dropped. Two releases (v0.1.176, v0.1.188) were lost when GitHub refused the tag push after the branch had landed; tag_release.sh now pushes branch and tag atomically and retries a refused push (tested on a local copy). Three Pages stalls in a row, recovered by the dispatched redeploy. The workers' check flagged work/dev.pages's conflicts with dev"
   ],
   "next": [
-    "Watch the next stalled deploy: confirm the live check, or the dispatch and its run",
-    "Problem 3: tag_release.sh lists every agent commit a release carries and strips <role>@PrompTugal.dinis from the subject, once dev@ confirms who reads versions.json",
+    "Watch the next releases for refused pushes and stalls",
+    "Problem 3: tag_release.sh lists every agent commit a release carries and strips <role>@PrompTugal.dinis (and @web-summit.<person>) from the subject",
     "Run and time every tool in newsroom/tools/ once; move the workflow's actions off Node 20 one at a time"
   ],
   "asks": [
@@ -25,7 +26,8 @@
   ],
   "handoffs": [
     "dev@PrompTugal.dinis: problem 2 (a) and (b) in the health report: no-cache on in-page data fetches; a version badge that notices a newer live version",
-    "security@ and conductor@: curator@web-summit.vicky pushed to this repository's dev at 07:47 (run 230); expected?"
+    "dev.pages@ and dev@: work/dev.pages conflicts with dev in assets/site.css and board/team/dev.pages/status.json (run 288)",
+    "accountant@: no budget refusal in release.sh, at Dinis's word of 10:10 UTC (capture, not block)"
   ],
   "wakes": [
     {
@@ -51,6 +53,12 @@
       "outcome": "partial",
       "release": "numbered by CI at push",
       "line": "CI for the workers' branches (gate and a test merge with dev); the inbox not drained (sgit-ai install refused)"
+    },
+    {
+      "started": "2026-11-06T10:15Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "tag_release.sh: branch and tag pushed atomically, a refused push retried; runs 234 to 289 read"
     }
   ]
 }

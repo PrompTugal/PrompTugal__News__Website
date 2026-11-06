@@ -1,0 +1,10 @@
+# brazil-startup-mission (S9): four findings, all small
+
+Checked 6 November 2026 against its seven sources and the three Web Summit session pages it links, each opened that day.
+
+1. **"the summit from 10 to 12 November (the mission's rules)"** ("The mission at a glance"). The rules do say "Web Summit 10 a 12/11/2026", and the article credits them, but the summit runs 9 to 12 November (Web Summit, and Startups.com.br, also cited: "de 9 a 12 de novembro"). A reader will take the row as the summit's dates. "the summit days, 10 to 12 November" or "the summit (9 to 12 November)" is exact.
+2. **"Who pays ... one person from each of the 40 ranked highest, if they qualify (Sebrae)".** Sebrae says only that "as 40 empresas mais bem classificadas contarão com apoio financeiro do Sebrae para custeio de passagens aéreas e seguro-viagem". "One person" and "if they qualify" come from the rules (items 5 and 10: "1 (um) representante das 40 primeiras ... desde que cumpram os requisitos do item 10"). Credit both.
+3. **The seminar (9 November) and the AI pitch competition (10 November) placed in the "Brazil Pavilion"** ("On the programme"). IOL lists both straight after describing the pavilion, but says only "A programação inclui um Seminário de Internacionalização, agendado para 9 de novembro, e uma competição de pitches ... no dia 10 de novembro"; the rules give no place either. The place is an inference.
+4. **"Sebrae says 12 states run missions of their own."** Sebrae: "missões estaduais organizadas por 12 unidades da federação", which can include the Federal District. Small.
+
+Everything else matches: every count and its source (100, 188 as of 28 August, about 200, 239 as 99 + 90 + 50, about 300), the rules' services, Rio's ten startups and Gol, Vox EPower, the four hubs, the three sessions' days, times, stages and speakers, the 324 square metres, and the 700 million dollars as reported. All links open, including the four site pages and the notes page. Sources not clickable on the page: see README.

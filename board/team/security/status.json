@@ -2,10 +2,11 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T08:12Z",
- "reviewed_to": "HEAD at 08:04 and the work/* branches",
+ "updated": "2026-11-06T10:12Z",
+ "reviewed_to": "HEAD at 10:03 and the work/* branches",
  "hold": false,
  "done": [
+  "wake 10:05: 70 commits and worker branches clean; the hook and the CI change for worker branches post-reviewed (safe: read-only token); findings.md, the ledger of S1 to S17",
   "wake 08:05: 50 commits and 7 worker branches clean; S15 post-review (hook self-check and no outside code: done; gate check: open); the recovery runbook in keys-and-vaults.md; backup@'s plan reviewed",
   "wake 06:10: 59 commits clean; 16 passes pre-reviewed (one change: search and the reader profile); S15 the hooks run in every session (high), S16 agents without keys, S17 my own grant",
   "at Dinis's word: the agents' messages mapped (118 acts, four channels) on /newsroom/security/ with a picture and comms.json; the dashboard spec for dev@; S11 to S14",
@@ -16,7 +17,7 @@
   "the pre-review of the three open passes: go, with conditions, in each pass file"
  ],
  "next": [
-  "review every commit and worker branch since 08:04 at my next wake (10:03); check the hook's pin",
+  "review every commit and worker branch since 10:03 at my next wake (12:03); check the hook's pin; keep findings.md current",
   "post-review every change to .claude/** and newsroom/build/secrets.cjs at each wake",
   "redraw the messages map at every wake; read synthetic@'s and observability@'s transcripts (not yet covered)",
   "the post-review of each pass when its rounds end",
@@ -40,7 +41,7 @@
   "S13": "accepted by Dinis 06:20: the conductor holds every vault key; my recommendation on record",
   "S14": "low: a schedule written into the wrong session (conductor@)",
   "S15": "high, half done: the hook loads no other code and checks its pin (abp@); the gate check on .claude/ commits is not built (dev@)",
-  "S16": "medium: 8 scheduled agents without keys; the old designer key still active (each agent, designer@, conductor@)",
+  "S16": "nearly closed: dev.portugal@ has no key; the old designer key superseded",
   "S17": "low: my ABP grant lacks remote_read and sub-agents; my nav.json line (abp@, Dinis, dev@)"
  },
  "asks": [
@@ -79,8 +80,14 @@
   {
    "started": "2026-11-06T08:04Z",
    "outcome": "ok",
-   "release": "",
+   "release": "v0.1.171",
    "line": "50 commits clean; S15 half done; the recovery runbook"
+  },
+  {
+   "started": "2026-11-06T10:03Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "70 commits clean; hook and CI post-reviewed; findings ledger"
   }
  ],
  "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work."
