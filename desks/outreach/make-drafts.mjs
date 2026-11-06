@@ -69,6 +69,7 @@ function hookEn(name, s, topic) {
     const more = s.length > 1 ? `, and ${s.length - 1} more session${s.length > 2 ? 's' : ''} on the page` : '';
     return `It follows ${the(name)} at the summit: "${s[0].title}", ${DAY_EN[s[0].date]} at ${s[0].start}${more}.`;
   }
+  if (!topic || topic === 'Other') return `It says what ${the(name)} does, from public pages, and which companies it connects to at the summit.`;
   return `It says what ${the(name)} does, from public pages, and lists it with the other companies under ${topic || 'its field'} at the summit.`;
 }
 function hookPt(name, s, topic) {
@@ -76,6 +77,7 @@ function hookPt(name, s, topic) {
     const more = s.length > 1 ? `, e mais ${s.length - 1} ${s.length > 2 ? 'sessões' : 'sessão'} na página` : '';
     return `Acompanha a ${name} na cimeira: "${s[0].title}", ${DAY_PT[s[0].date]}, às ${s[0].start}${more}.`;
   }
+  if (!topic || topic === 'Other') return `Diz o que a ${name} faz, a partir de páginas públicas, e com que empresas se liga na cimeira.`;
   return `Diz o que a ${name} faz, a partir de páginas públicas, e junta-a às outras empresas em "${topic || 'o seu setor'}" na cimeira.`;
 }
 // The page's flows section is empty for every company (no flows mapped yet): the honest reason to reply.
