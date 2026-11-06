@@ -238,7 +238,7 @@
       "cron": "23 */3 * * *",
       "trigger": "trig_01342XF3aSp1Wm3M29mYBCsa",
       "state": "enabled",
-      "since": null,
+      "since": "2026-11-06T20:02Z",
       "note": "started 20:02 UTC 6 Nov at Dinis's word ('need that investor agent here, since there are two different focus and companies'); every three hours (the weekly limit)"
     }
   ]
