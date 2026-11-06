@@ -19,7 +19,8 @@
       "desks/curator/2026-11-05-2010.json",
       "desks/journalist-promptugal/ideas/S19.md",
       "desks/journalist-vicky/drafts/S19-brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md",
-      "desks/reviewer-vicky/reviews/S19.md"
+      "desks/reviewer-vicky/reviews/S19.md",
+      "content/articles/brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md"
     ]
   },
   "assignee": "journalist-connections@PrompTugal.vicky",
@@ -35,7 +36,11 @@
       "at": "2026-11-06"
     }
   ],
-  "article": null,
+  "article": {
+    "path": "content/articles/brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md",
+    "status": "published",
+    "signed": true
+  },
   "next": "whatever the hold names",
   "history": [
     {
@@ -61,6 +66,12 @@
       "at": "2026-11-06",
       "by": "reviewer@web-summit.vicky",
       "file": "desks/reviewer-vicky/reviews/S19.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "content/articles/brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md"
     },
     {
       "column": "held",
