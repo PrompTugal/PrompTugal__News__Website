@@ -25,6 +25,22 @@
       "read_by": "curator@web-summit",
       "supports": "Hexgate package: runtime authorization for AI agents",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://pypi.org/project/hexgate/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Hexgate on PyPI (version 0.3.4, MIT), read 6 November 2026: runtime authorization for AI agents; on every tool call a decision (allow, deny, approval required) for this user, this role, this tool and these arguments; traced and audited; an optional control plane (the flow gate-every-tool-call)",
+      "kind": "other"
+    },
+    {
+      "id": "fl2",
+      "url": "https://www.hexamind.ai/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Hexamind's home page, read 6 November 2026: Hexgate, its open-source governance for AI agents: policies, an audit log and a kill-switch",
+      "kind": "other"
     }
   ]
 }

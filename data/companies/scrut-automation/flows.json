@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "scrut-automation",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "compliance-with-teammates",
+      "name": "A company runs its compliance programme with AI teammates (Scrut Teammates)",
+      "summary": "Scrut's home page: \"AI Teammates that power your compliance program\", across SOC 2, ISO 27001, HIPAA, GDPR, PCI DSS and more than 65 other frameworks. It names the work the teammates do, not the order; the order below is a compliance programme's usual one.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "Scrut Teammates",
+          "what": "Draft the company's policies.",
+          "agent": "AI teammates draft them.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Scrut Teammates",
+          "what": "Collect the evidence the frameworks ask for.",
+          "agent": "AI teammates collect it.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Scrut Teammates",
+          "what": "Detect risks and assess vendor risk.",
+          "agent": "AI teammates detect and assess.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Scrut Teammates",
+          "what": "Prepare for audits, inside the Scrut platform or the team's own MCP-compatible client.",
+          "agent": "AI teammates prepare the audit.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The compliance team",
+          "what": "Spends its time where it matters, as the page puts it.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}
