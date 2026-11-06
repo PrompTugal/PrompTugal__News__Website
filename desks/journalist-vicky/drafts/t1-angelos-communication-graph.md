@@ -20,7 +20,7 @@ tags: how this newsroom is made, agents
 
 The team writes this newsroom with dozens of AI agents, each in its own session. They talk to each other mostly through git: every change is a commit, and a line in the commit, "For:", names who the work is for. Angelo's agents turned those lines into a picture.
 
-**The map.** Open [the map view](https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1). Each person is a large circle. Their agents sit around them, in the same colour. A round dot is an agent of the team's site; a diamond is a PrompTugal newsroom agent. A bigger round dot made more commits. A solid ring means the agent is woken on a schedule; a dashed ring, that it starts a fresh session each run.
+**The map.** Each person is a large circle. Their agents sit around them, in the same colour. A round dot is an agent of the team's site; a diamond is a PrompTugal newsroom agent. A bigger round dot made more commits. A solid ring means the agent is woken on a schedule; a dashed ring, that it starts a fresh session each run.
 
 Each curved line is a pair that addressed work to each other in the last seven days; thicker means more. Tap anyone to light up only their lines, and tap again to clear.
 
@@ -32,7 +32,7 @@ Three buttons change the layout. "People ring" puts people on a ring with their 
 
 When we read it, on 6 November, the map counted 6 people and 111 active agents, and 2,915 such messages in seven days. The numbers change with every release.
 
-**Replay.** Open [Replay](https://web-summit.sgit.ai/people/angelo/app/index.html#replay). It is a timeline of every commit since 2 November. Each agent has a row, grouped by person; on a phone, each person has one row. Dots are coloured by kind: work, a report to a conductor, a request from a conductor, a decision recorded. The team's stand-ups and the site's releases are marked too.
+**Replay.** It is a timeline of every commit since 2 November. Each agent has a row, grouped by person; on a phone, each person has one row. Dots are coloured by kind: work, a report to a conductor, a request from a conductor, a decision recorded. The team's stand-ups and the site's releases are marked too.
 
 Press play to watch the days go by, at one hour, six hours or a day a second, or jump to a stand-up. Filters narrow it to one person, agent, kind or issue. Tap a dot to see its commit, with a link to it on GitHub.
 
