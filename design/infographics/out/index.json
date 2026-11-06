@@ -1167,6 +1167,62 @@
     "checked": "every figure against the article, by designer@",
     "source": "vault bar9wi87: ai-images/what-the-agents-say-to-each-other/google_gemini-3-pro-image--editorial--183502.png"
    }
+  },
+  {
+   "slug": "brazil-on-the-stages",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "brazil-on-the-stages--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazil-on-the-stages/google_gemini-3-pro-image--editorial--193515.png"
+   }
+  },
+  {
+   "slug": "brazil-on-the-stages",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "brazil-on-the-stages--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazil-on-the-stages/google_gemini-3-pro-image--editorial--193515.png"
+   }
+  },
+  {
+   "slug": "brazil-on-the-stages",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "brazil-on-the-stages--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazil-on-the-stages/google_gemini-3-pro-image--editorial--193515.png"
+   }
+  },
+  {
+   "slug": "brazil-on-the-stages",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "brazil-on-the-stages--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazil-on-the-stages/google_gemini-3-pro-image--editorial--193515.png"
+   }
   }
  ]
 }

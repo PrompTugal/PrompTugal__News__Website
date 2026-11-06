@@ -29,7 +29,9 @@ async function shellOf(ctx) {
 export async function keep(ctx) {
     const days = ctx.pages.filter(p => /^days\/[^/]+\/index\.html$/.test(p.rel)).map(p => dir(p.rel))
     const news = articlesOf(ctx).slice(0, 10).map(a => a.rel)
-    return [...new Set(['', 'summit/', ...days, ...news, ...await shellOf(ctx), ...DATA, MANIFEST])]
+    // dev.pages@'s offline-first data: the index of the days and one JSON per day (features/days.mjs)
+    const dayData = ['api/v1/days.json', ...days.map(d => `api/v1/days/${d.split('/')[1]}.json`)]
+    return [...new Set(['', 'summit/', ...days, ...news, ...await shellOf(ctx), ...DATA, ...dayData, MANIFEST])]
 }
 export const api = async ctx => {
     const on = JSON.parse(fs.readFileSync(ctx.R(SWITCH), 'utf8')).enabled !== false

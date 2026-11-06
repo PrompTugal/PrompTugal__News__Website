@@ -520,7 +520,7 @@
       "role": "Vicky Wang's reviewer and copy editor for PrompTugal.news (reviewer@PrompTugal.vicky, until 6 November 2026 reviewer@web-summit.vicky): checks her journalists' drafts in desks/journalist-vicky/drafts/ against their sources, writes a review per draft in desks/reviewer-vicky/reviews/, and makes style edits only once a draft is clear. Never publishes or signs an article. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 5 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs), first published as reviewer-vicky in the team site's data/keys.json under the name reviewer@web-summit.vicky. Renamed at Vicky's word (Dinis asked for new names) on 6 November 2026; the same key, now entered here by that session. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
       "added": "2026-11-06",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt+vA4m0wSSGA+qRYtTTe\nRqu8fyjZNG6/wFvp9iJAKhzOCqhEOqZUW+chw9AZDwKJQvxW2LW9VNlPV8kCDyl9\nXBIgLRCqFkDlJkIRtasOE53pdEdOFlThxD270r1nt2ahkEQ18u/h3IIAtHbk4n/E\ntaNI3p8VSe/BAmdP1OXlOvOy4ODdKD4S0029craa3p4DIaIr4U4aqGFjcDjDkH6A\nvAcXJn1mBAtF0UYxQzeRyWRvV/qqGmAswPpTFbqTdugUJDdOT0U346LIpvQlo1xE\n03cLEcm5VrMwV6EAw7CwYBqzQqvt7Q98c5xQCkIYAhKMhI/o67KH7EcQXwR1J2cm\nVsjteHmXDZtH8D9w17d/o63goV/mnJ/R9dGUukGMYQMUCl5NfzHyaI6ZZNwNVfKD\n4C//UAWfU9QeBNBxbUf8u61MVyk6gr01PRjNVlrB0rytIQ5f9NNb1BrC1Xcu8cd5\n7tp3GDSqx+KcYj+qlFFq/MUIZtEnQ+L755UA82JbgBv+Cclqu0Aovt/ka37639D2\n4bLfygU9lRyIXx5uCYB5jwwh9fHmyQGk+Gf0OTq8GcWKTxSEnrO6jEDtzizzbdz0\nnWT+XMWYKZuCLfk8YCeK9VKZykjzei3ZWnKV0dvb66VWIvMRCAcunld3HTPjWDsm\noEQOVW+f08YCNYXIL5jutUcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -528,6 +528,25 @@
         "label": "reviewer@web-summit.vicky (Claude Code session)",
         "fingerprint": "sha256:8dfc8f144f816d68",
         "signing_fingerprint": "sha256:d26f3e5ec1db676c"
+      },
+      "superseded_at": "2026-11-06T19:50Z",
+      "superseded_by": "reviewer-vicky-promptugal-2"
+    },
+    {
+      "id": "reviewer-vicky-promptugal-2",
+      "agent": "reviewer@PrompTugal.vicky",
+      "label": "reviewer@PrompTugal.vicky (Claude Code session 2)",
+      "role": "Vicky Wang's reviewer and copy editor for PrompTugal.news (reviewer@PrompTugal.vicky): checks her journalists' drafts in desks/journalist-vicky/drafts/ against their sources, writes a review per draft in desks/reviewer-vicky/reviews/, makes style edits only once a draft is clear, and publishes and signs Ready drafts only when Vicky asks (decisions.md, standing answer 7). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session (Claude Code session 2 of the role) on 6 November 2026 at 19:47 UTC with pki-agent.mjs keygen --session (the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs), at Vicky's word, when this session took over the role from the previous one (scout's P17). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation. It replaces reviewer-vicky-promptugal (session 1) and re-signs the five articles that key signed.",
+      "added": "2026-11-06T19:47Z",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArsllpLCWSKmI7iW2hIcE\naf1eKEaF4svwZcuYU3GyEVp0SuB7APWJYhA9alJ3vVOulNgYRmBCRxGa9IC5i5IV\nS7mlVkkaOplYXf/xfDv5jPWfslP4hkmGWuLtfj0pRcaL29dr82DJUDyIpU06xw8Z\nZBsyRPnaNlgueS3f5FGx2gaW2FODTT6zs3iZJ55Nlj5D8qwFDOXkRDSvSVEdfc/N\nQFa962CPFsus00ReeytQUfZz1wNWpnJALguaD4d4G5sRJaimOfa976cWBi45txPt\nwL2s6dGNy3fZK/WQYibv4uZn9mu+CmnWCjd6u9469QNAvf2Wsb9RtL1TtylykM61\ngVybQCYtnz419Q2kKckJJ+u9k1wTW7EhgqIYBw4+G5Ebd2Xwtqx1T9k0zkqd9BHt\ncfZ+6/L8klyXWS5uCq1+65CTXlL2vA3pvaxIYVe2ARG5y5enqgln/1hMgUvuXKO9\nIgHqqTKbo7etG9S4RYpfAvqnTKx81FhRMEn4cei7CrMU6uBgy+jPWJoUrvfi+uUu\n58Zx+CFeXrd1Ao+KEebvoZ6Hg2LtPhi51SJJgjmvj1j6cbvvitfunPrFWwfwnxMt\nTDF942irQoVa1A+P7vzIzq2MBBP3a5gKaNy1zrKb4FULN/hVtGFHHVUmGhWT933k\n79Xl5PemwayYa7iorIndwZMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE6tUsv6ZQy1oQJOFiWukLxgwK7MMf\n/6SVEOcqxIEAzYxQ8E7dTs/vt105GCfBt3JMe4kGY8ldvB3xKLGgLUGWkw==\n-----END PUBLIC KEY-----\n",
+        "label": "reviewer@PrompTugal.vicky",
+        "fingerprint": "sha256:c1ae3cc07544d361",
+        "signing_fingerprint": "sha256:e08d700e4e0db741"
       }
     },
     {
@@ -545,7 +564,9 @@
         "fingerprint": "sha256:8c0828de5f96176b",
         "signing_fingerprint": "sha256:6abb02a8e470be6a"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-06T20:19Z",
+      "superseded_note": "Replaced by a new session at Vicky's word (scout's P17), 6 November 2026; the new session makes and publishes its own key. This key signed nothing on this site."
     },
     {
       "id": "designer-vicky-promptugal",
@@ -662,6 +683,23 @@
         "label": "dev@PrompTugal.vicky",
         "fingerprint": "sha256:17d714aaca07c3e7",
         "signing_fingerprint": "sha256:5795e1959875387e"
+      },
+      "status": "active"
+    },
+    {
+      "id": "investors-promptugal",
+      "agent": "investors@PrompTugal.dinis",
+      "label": "investors@PrompTugal.dinis (Claude Code session)",
+      "role": "The investors agent of PrompTugal.news (investors@PrompTugal.dinis): PrompTugal.news as an investable business, its own investor story, kept apart from investors@web-summit.dinis (the Web Summit team side, My Feeds). The publisher is The Cyber Boardroom (UK). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, the same as the other entries record) and pushed to this repository by that session. Started by conductor@PrompTugal.dinis, which cites Dinis (6 November 2026, about 20:05 UTC). Not yet linked to the operator key, nor submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAx8EvQJqIYpAF2sjNZkqd\n1sur3Slmwt/2NXg/cYNgc24zouxTpt1k3bycywfMO6HupVmmnbjFBZfVqk25+N6p\n5tWq9ptdPjRazBYqyci87MdNKCviGC4Hqz65YSmWp1KbPftmH9ISCGdecpJU/yIR\nUfPdONoQL3Q61+/CFdbWfOqrIB/Fm2d8e3tpyVKzd2uCTIUhAZSH5XtPY55wnTim\n+xG79HjxtUCEYkLFxkv66a4tcD0UwKJmGT/zXlpjTBMosEB63r+1VDK9HkNzva3K\nZuq116z3kRfpmORV3W/Z+z61YjSHz1Ss88dHg4bX7TcaxHzfgJUIYv+loUqTKVEC\nKD9Uti0rtMrPRj4tsowCpRNul6CMMlKV4O80gTYthGwsXXyxwd+yMkBk6rJqFRfy\nePY8wNyp7BBzxUHxPmRo24O8fC4ASo6ubolmem77GLUZ8J51XAblYBUy0zv23u6c\n48Vjuu6TTti85BQHEimR0kWREY0io6kLSXxrLibSWFDDa78glPPB9Fw4r5yaCrA1\nzoah6P7yQRKBdWLgsLlGR7yBv4YQPf/TvEzXCbSXmGLSva8dDUKD+TXXLtrSqmkU\nJy7HXEq3/ElhvKJCFtgjXZE7QumtagTDMJqwmEpayL2DijwAw/V/6g9mKNFAUIYk\nYswmNS6upi5Yz87GyfVejqMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDepqmOabMO7fODB2D3pNWui748Po\nQm2iSuypaVZtZqzmv6C6J429Su9DOAKiH7C5W+3/u68TI+iSmzIzhQNXiA==\n-----END PUBLIC KEY-----\n",
+        "label": "investors@PrompTugal.dinis",
+        "fingerprint": "sha256:19d76c449efb9d2b",
+        "signing_fingerprint": "sha256:f44298c6cc19ca3f"
       },
       "status": "active"
     }
