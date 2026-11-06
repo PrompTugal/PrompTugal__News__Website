@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.326",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: the hand-over debrief of 6 November; blocked on sending the 50 contact requests (sgit_ai), and on what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "a169fb8e0"
+  },
+  {
     "version": "v0.1.325",
     "date": "2026-11-06",
     "what": "checker@PrompTugal.vicky: publish workflow, one public version for /how-we-publish/: the steps and the statuses in plain words",
