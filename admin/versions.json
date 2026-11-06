@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.57",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run 2 set-up (SYNTHETIC): the founder's path re-shot on the live site (v0.1.54/55), for the revised email",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "9bc39fff6"
+  },
+  {
     "version": "v0.1.56",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: newsroom@web-summit.dinis's handover routed: re-sign the article, verify signatures, agents.json",
