@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/story-source.schema.json",
+  "title": "One source of a story project, fetched once and processed (data/stories/<id>/sources/<source>.json)",
+  "type": "object",
+  "description": "Hand-kept by the project's lead and the ontologist (board/the-story-projects.md). What the page is and says, read once: its facts go to claims.json (citing this id), the entities it names to entities.json. Public pages reachable without login only; nothing marked for internal use.",
+  "required": [
+    "id",
+    "story",
+    "url",
+    "title",
+    "read_on",
+    "read_by",
+    "access",
+    "what_it_says"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "story": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9-]*$"
+    },
+    "url": {
+      "$ref": "common.schema.json#/$defs/url"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1
+    },
+    "published": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "read_on": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "read_by": {
+      "$ref": "common.schema.json#/$defs/agent"
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2}(-[A-Z]{2})?$"
+    },
+    "kind": {
+      "enum": [
+        "official",
+        "organiser",
+        "press-release",
+        "news",
+        "company",
+        "programme",
+        "registry",
+        "dataset",
+        "other"
+      ]
+    },
+    "access": {
+      "const": "public",
+      "description": "Reachable without login and not marked internal (anything else is not kept here)."
+    },
+    "what_it_says": {
+      "type": "string",
+      "minLength": 1,
+      "description": "In a few sentences, in English."
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^((company|organisation|person|event|place|topic|story|article):[A-Za-z0-9][A-Za-z0-9-]*|local:[a-z0-9][a-z0-9-]*)$",
+        "description": "An entity of the graph (<type>:<id>), or local:<slug> for one this project names that the graph does not have yet."
+      },
+      "description": "The entities it names."
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/url"
+      },
+      "description": "The pages it links to that matter to the story."
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1,
+      "description": "For example: unchanged since a date, or 404 on a later read."
+    }
+  },
+  "additionalProperties": false
+}

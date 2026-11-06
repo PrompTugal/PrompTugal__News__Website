@@ -55,6 +55,17 @@ data/
                            (the curator's candidates, desks/<desk>/ideas|drafts|checks|reviews/, content/articles/
                            and their .sig), with assignee, needs, held, the draft, check, reviews, article, the next
                            step and the history of moves (dated by each file); the angle stays in the desk's file DERIVED
+  stories/<id>/ (a story project's data folder, board/the-story-projects.md; HAND, beside the derived story.json):
+    sources/<source>.json  one per source, fetched once: url, title, publisher, published, read_on, read_by, kind,
+                           access (public only), what it says, the entities it names, the links that matter
+    entities.json          who and what the story is about: a graph entity (<type>:<id>) or local:<slug> for one
+                           not in the graph yet, each with the sources that name it
+    claims.json            every claim, marked fact, estimate or opinion, with its source (and its words)
+    graph.json             edges between the entities: an ontology verb (types checked) or one declared in the file
+    timeline.json          what happened when, with its source
+    blocks.json            the article as linkable blocks, each with the claims it carries
+                           The gate: each file against its story-* schema; every citation resolves in the folder,
+                           every edge's ends are in entities.json, every <type>:<id> exists
   matching.json            the derivation's report: names matched to a company and how, names that are not,
                            near misses, unmatched places, tracks with no topic, company sessions not found  DERIVED
 ```

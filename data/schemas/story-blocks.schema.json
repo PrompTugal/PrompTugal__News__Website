@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/story-blocks.schema.json",
+  "title": "A story project's article as blocks (data/stories/<id>/blocks.json)",
+  "type": "object",
+  "required": [
+    "story",
+    "kept_by",
+    "article",
+    "blocks"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "story": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9-]*$",
+      "description": "The story's id: the folder's name (data/stories/<id>/)."
+    },
+    "kept_by": {
+      "$ref": "common.schema.json#/$defs/agent"
+    },
+    "updated": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "article": {
+      "type": "string",
+      "pattern": "^content/articles/[a-z0-9-]+\\.md$"
+    },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]*$"
+          },
+          "type": {
+            "enum": [
+              "heading",
+              "paragraph",
+              "list",
+              "quote",
+              "table",
+              "figure",
+              "data",
+              "invitation"
+            ]
+          },
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "src": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "about": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^((company|organisation|person|event|place|topic|story|article):[A-Za-z0-9][A-Za-z0-9-]*|local:[a-z0-9][a-z0-9-]*)$",
+              "description": "An entity of the graph (<type>:<id>), or local:<slug> for one this project names that the graph does not have yet."
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "description": "The article as structured, linkable blocks (a heading, a paragraph, a list, a quote, a table, a figure, a data download), each with the claims it carries, so a reader or an agent can link to a block and follow it to its sources."
+}

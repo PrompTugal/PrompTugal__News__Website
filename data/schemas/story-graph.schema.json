@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/story-graph.schema.json",
+  "title": "How a story project's entities connect (data/stories/<id>/graph.json)",
+  "type": "object",
+  "required": [
+    "story",
+    "kept_by",
+    "edges"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "story": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9-]*$",
+      "description": "The story's id: the folder's name (data/stories/<id>/)."
+    },
+    "kept_by": {
+      "$ref": "common.schema.json#/$defs/agent"
+    },
+    "updated": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "verbs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "verb",
+          "inverse",
+          "meaning"
+        ],
+        "properties": {
+          "verb": {
+            "type": "string",
+            "pattern": "^[a-z][a-z_]*$"
+          },
+          "inverse": {
+            "type": "string",
+            "pattern": "^[a-z][a-z_]*$"
+          },
+          "meaning": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from",
+          "verb",
+          "to"
+        ],
+        "properties": {
+          "from": {
+            "type": "string",
+            "pattern": "^((company|organisation|person|event|place|topic|story|article):[A-Za-z0-9][A-Za-z0-9-]*|local:[a-z0-9][a-z0-9-]*)$",
+            "description": "An entity of the graph (<type>:<id>), or local:<slug> for one this project names that the graph does not have yet."
+          },
+          "verb": {
+            "type": "string",
+            "pattern": "^[a-z][a-z_]*$"
+          },
+          "to": {
+            "type": "string",
+            "pattern": "^((company|organisation|person|event|place|topic|story|article):[A-Za-z0-9][A-Za-z0-9-]*|local:[a-z0-9][a-z0-9-]*)$",
+            "description": "An entity of the graph (<type>:<id>), or local:<slug> for one this project names that the graph does not have yet."
+          },
+          "source": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-z0-9][a-z0-9-]*$"
+              },
+              {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*$"
+                }
+              }
+            ]
+          },
+          "claim": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-z0-9][a-z0-9-]*$"
+              },
+              {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*$"
+                }
+              }
+            ]
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false,
+        "anyOf": [
+          {
+            "required": [
+              "source"
+            ]
+          },
+          {
+            "required": [
+              "claim"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": false,
+  "description": "Edges between the project's entities: a verb from data/ontology.json, or one declared here (with its inverse and meaning) for this project; every edge cites a source or a claim."
+}

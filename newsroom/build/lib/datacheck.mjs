@@ -23,6 +23,13 @@ export const KINDS = [
     [/^data\/topics\/[^/]+\/topic\.json$/, 'topic'],
     [/^data\/stories\/[^/]+\/story\.json$/, 'story'],
     [/^data\/evidence\/[^/]+\/capture\.json$/, 'evidence'],
+    // a story project's data folder (board/the-story-projects.md; schemas by the ontologist), beside the derived story.json
+    [/^data\/stories\/[^/]+\/sources\/[^/]+\.json$/, 'story-source'],
+    [/^data\/stories\/[^/]+\/entities\.json$/, 'story-entities'],
+    [/^data\/stories\/[^/]+\/claims\.json$/, 'story-claims'],
+    [/^data\/stories\/[^/]+\/graph\.json$/, 'story-graph'],
+    [/^data\/stories\/[^/]+\/timeline\.json$/, 'story-timeline'],
+    [/^data\/stories\/[^/]+\/blocks\.json$/, 'story-blocks'],
     [/^data\/matching\.json$/, 'matching'],
     [/^data\/ontology\.json$/, 'ontology'],
     [/^data\/site\/site\.json$/, 'site'],
@@ -56,6 +63,9 @@ export function checkData() {
         const m = r.match(/^data\/[^/]+\/([^/]+)\/[^/]+\.json$/)
         if (m && v.id && v.id !== m[1] && !r.startsWith('data/site/')) errors.push(`${r}: id "${v.id}" is not its folder's name`)
         if (m && v.company && v.company !== m[1]) errors.push(`${r}: company "${v.company}" is not its folder's name`)
+        const sm = r.match(/^data\/stories\/([^/]+)\/(?:sources\/[^/]+|entities|claims|graph|timeline|blocks)\.json$/)
+        if (sm && v.story !== sm[1]) errors.push(`${r}: story "${v.story}" is not its folder's name`)
+        if (/\/sources\/[^/]+\.json$/.test(r) && sm && v.id !== path.basename(r, '.json')) errors.push(`${r}: id "${v.id}" is not its file's name`)
     }
     if (errors.length) return errors
     // 2. references
@@ -84,6 +94,30 @@ export function checkData() {
     for (const t of s.topics) for (const b of t.broader) need(`data/topics/${t.id}`, b)
     for (const x of s.stories) { need(`data/stories/${x.id}`, x.topic); for (const r of x.rests_on) need(`data/stories/${x.id}`, r) }
     for (const x of s.evidence) for (const n of x.names) need(`data/evidence/${x.id}`, n.ref)
+    // a story project's folder: every citation resolves inside the folder, every graph ref exists
+    for (const x of s.stories) {
+        const dir = R(`data/stories/${x.id}`), w = `data/stories/${x.id}`
+        const j = n => fs.existsSync(path.join(dir, n)) ? JSON.parse(fs.readFileSync(path.join(dir, n), 'utf8')) : null
+        const srcDir = path.join(dir, 'sources'), srcs = new Set(fs.existsSync(srcDir) ? fs.readdirSync(srcDir).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5)) : [])
+        const ent = j('entities.json'), cl = j('claims.json'), gr = j('graph.json'), tl = j('timeline.json'), bl = j('blocks.json')
+        if (!(srcs.size || ent || cl || gr || tl || bl)) continue
+        const claims = new Set((cl?.claims || []).map(c => c.id)), ents = new Set((ent?.entities || []).map(e => e.ref))
+        const cite = (where, ids, set, what) => { for (const id of [ids].flat().filter(Boolean)) if (!set.has(id)) errors.push(`${w}/${where}: cites ${what} ${id}, which is not in the folder`) }
+        const ref = (where, r) => { if (r && !r.startsWith('local:')) need(`${w}/${where}`, r) }
+        for (const e of ent?.entities || []) { cite('entities.json', e.sources, srcs, 'source'); ref('entities.json', e.ref) }
+        for (const c of cl?.claims || []) { cite('claims.json', c.source, srcs, 'source'); for (const a of c.about || []) ref('claims.json', a) }
+        const verbs = new Set([...s.ontology.verbs.flatMap(v => [v.verb, v.inverse]), ...(gr?.verbs || []).flatMap(v => [v.verb, v.inverse])])
+        for (const e of gr?.edges || []) {
+            if (!verbs.has(e.verb)) errors.push(`${w}/graph.json: verb ${e.verb} is neither in data/ontology.json nor declared in the file`)
+            for (const end of [e.from, e.to]) if (!ents.has(end)) errors.push(`${w}/graph.json: ${end} is not in entities.json`)
+            const ov = s.ontology.verbs.find(v => v.verb === e.verb), ty = r => r.split(':')[0]
+            if (ov) for (const [end, ok] of [[e.from, ov.from], [e.to, ov.to]]) if (ty(end) !== 'local' && !ok.includes(ty(end))) errors.push(`${w}/graph.json: ${e.verb} takes ${ok.join(' or ')} there, not ${end}`)
+            cite('graph.json', e.source, srcs, 'source'); cite('graph.json', e.claim, claims, 'claim')
+        }
+        for (const t of tl?.events || []) { cite('timeline.json', t.source, srcs, 'source'); cite('timeline.json', t.claim, claims, 'claim'); for (const a of t.about || []) ref('timeline.json', a) }
+        for (const b of bl?.blocks || []) cite('blocks.json', b.claims, claims, 'claim')
+        if (bl && !fs.existsSync(R(bl.article))) errors.push(`${w}/blocks.json: ${bl.article} does not exist`)
+    }
     // no social handle in what we publish about a person (the derivation drops them; this catches a hand edit)
     const HANDLE = /(^|[\s(,;])@[A-Za-z0-9_]{2,}/
     for (const p of s.people) for (const v of [p.role, p.organisation, ...p.listings.flatMap(l => [l.role, l.organisation])]) if (v && HANDLE.test(v)) errors.push(`data/people/${p.id}: a social handle in "${v}"`)

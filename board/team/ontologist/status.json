@@ -1,0 +1,29 @@
+{
+  "agent": "ontologist@PrompTugal.dinis",
+  "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
+  "state": "running: hourly at :21 UTC (scheduled task, at Dinis's word)",
+  "updated": "2026-11-06T04:50Z",
+  "done": [
+    "My key: ontologist-promptugal in board/keys.json",
+    "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
+    "Past events: Web Summit's 16 earlier editions, Dublin 2010 to Lisbon 2025, sourced, listed on /events/",
+    "The newsroom move, row 2: \"newsroom\" in data/ means only the back end; the PrompTugal agents in agents.json",
+    "The flows schema (company-flows) and 1Password's two flows, every step sourced",
+    "The story pipeline, row 1: the board's columns derived from each story's files",
+    "A story project's data folder: six schemas (sources, entities, claims, graph, timeline, blocks) and the gate's checks (this wake)"
+  ],
+  "next": [
+    "Schemas for board/team/*/status.json, ROLE.md's front matter and board/schedule.json, checked by the gate (the team setup, row 1)",
+    "Flows for the outreach list: Airia, Cisco Outshift, Cloudflare, then the rest in its order",
+    "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
+    "A crm field from each company to its record in the team CRM"
+  ],
+  "asks": [],
+  "wakes": [
+    { "started": "2026-11-06T00:00Z", "outcome": "ok", "release": "v0.1.43", "line": "first run: key, the Brazilian delegation, past editions" },
+    { "started": "2026-11-06T01:21Z", "outcome": "ok", "release": "v0.1.61+", "line": "key in board/keys.json; the move's row 2; seven agents in agents.json" },
+    { "started": "2026-11-06T02:21Z", "outcome": "ok", "release": "v0.1.70+", "line": "the flows schema and 1Password's flows" },
+    { "started": "2026-11-06T03:21Z", "outcome": "ok", "release": "v0.1.87+", "line": "the story pipeline's schema and derivation" },
+    { "started": "2026-11-06T04:21Z", "outcome": "ok", "release": "this wake's", "line": "the story project's data folder: six schemas and their checks" }
+  ]
+}
