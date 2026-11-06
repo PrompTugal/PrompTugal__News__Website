@@ -501,6 +501,25 @@
         "fingerprint": "sha256:3ae94e83f1624b76",
         "signing_fingerprint": "sha256:82630989545a043f"
       },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T23:12Z",
+      "superseded_by": "dev.graphs-promptugal-2"
+    },
+    {
+      "id": "dev.graphs-promptugal-2",
+      "label": "dev.graphs@PrompTugal.dinis (Claude Code session 2, account B)",
+      "agent": "dev.graphs@PrompTugal.dinis",
+      "role": "The graphs worker of PrompTugal.news (Sonnet): the big graphs and animated JavaScript infographics in ruv.sgit's style, the explorer's next level. Pushes only to work/dev.graphs; dev@ reviews.",
+      "how": "Made by the agent in its own session (session 2, on account B, which took over the role from session 1 at Dinis's word, board/the-account-move.md) on 6 November 2026 with pki-agent.mjs keygen --session (sha256 fcb28a1c... checked against the pin). It replaces dev.graphs-promptugal (session 1). Not yet linked to the operator.",
+      "added": "2026-11-06T23:12Z",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5+VEjDq3vhR4SHpkb6KR\neXQPtv3PLFzEx7oLWhC9YUtNQoFmP2XCiVodTNgT3l2mjKlNjcJhRGYEviju2gNu\n5bu0vDrcipPMJd3Gxuc10uaBbYHr7DZ4nIj7ef8X40ghRAK3lt+LS5xwRI8AmrHQ\nOpXag73TclcJseSpEKJQbY/diR4Ij91t0AcEHm6ByOiAcM3r3SdA1ZaTiaCIDFtY\nzib0MPCx/7ELXod3aqCh38GMU0pPhubMhKNWgKdheYQl44NOPsdLo4h7MSDHn28Z\n2xgi9eePELkeb7ZGcJxtmmVmxvbXCX3R9uMvuQaMcYnrMVtFi9b+J/9a77eMgHWp\nZvwojywmQA2em4rUBCy12kMrXY71OlfNBiOGWwHJ5+l3hHxvipfBau5sSgFIgQkl\nldh3yMSt4s10P8IDIV1Pb+xmTCxI/bwJDY+b90mBOIR0Qw/SaFhTaHFSuCA2zf0Q\ng5OwRLA8bFAIIR8a1bUtYxyMic4v9X2fDt7SB5WNNEnmC5HKireRnC6+yt5jRByw\n/Wr6VqF1Z5RMZ5DVt770RWtyyU2dD43a57QppP/JXKqX8MUAe4D67WvP9Dqc0BG8\nfcm414aiH7z9r33xRlG5k9eCymH4dOeLq8ifMicDzof99Iwh9j1UzJGhc5YqJGWb\n/9nVSoXX/a7peIJrVijwd4cCAwEAAQ==\n-----END PUBLIC KEY-----",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAElkkWaAc1ThdENM31nf9enbO8B2Mb\nuXx3zh1QZqT7zdGTVJQxG/eQ0r+SfkpkACoAwzYs4IyH5hpON5NLm64lqg==\n-----END PUBLIC KEY-----",
+        "label": "dev.graphs@PrompTugal.dinis",
+        "fingerprint": "sha256:e37bb680909f180c",
+        "signing_fingerprint": "sha256:23825302a54f3ba6"
+      },
       "status": "active"
     },
     {
