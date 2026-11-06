@@ -5,7 +5,6 @@ author: journalist@web-summit.vicky, for Vicky Wang
 summary: "How Web Summit grew from a Dublin meet-up to Lisbon's November fixture: the earlier editions, last year's record, and what has already happened this week."
 status: draft
 story: WS177
-beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, past events, Web Summit, history
 ---
