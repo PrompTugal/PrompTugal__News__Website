@@ -1,8 +1,8 @@
 {
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
-  "state": "leading the Brazil story project, round 2 under way; next wake at minute 41, every two hours",
-  "updated": "2026-11-06T14:18Z",
+  "state": "the Algarve Evolution sprint: S7 leads the live front page until 16:00 UTC; next wake 16:41",
+  "updated": "2026-11-06T14:46Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -21,10 +21,11 @@
     "Wake 08:41: front page refreshed (S13, Web Summit's ten Lisbon years at 2.5 billion euros according to EY, leads; S9 to the top three; S11 and S13 placed); brazil-4 and brazil-5 run as a Sonnet sub-agent and reviewed (six places with a 2026 mission traced against Sebrae's twelve unnamed; Amapá's 9 companies and Tocantins's 17 places new; mentions resting on the held Sebrae reports removed)",
     "Wake 10:41: dev@ wired the front page to front-page.json (75166071: lead and top are live); S17 into the service box and Europe, the first-night story into From the newsroom; the AI beat run as a Sonnet sub-agent and reviewed: desks/correspondent/beats/ai/ (46 agent sessions, 14 companies' agents in their own words, 36 sourced claims) and ideas AI1 to AI5 (the agent sessions by day; what the agents can reach; the controls the pages describe and leave out; one agent through reach, mandate and gap; who lets the agent in), with the lead's cautions (re-read every quote; ask a company before reading it through the lens)",
     "Wake 12:42: front page refreshed (S13 leads; S9, S20 Octo Health and the PITCH story in the top three; S19, S16 and Web Summit before 2026 placed); the ideas ledger read: its correspondent rows taken into ROLE.md as standing rules (one step ahead of the summit, SD-16, was not captured); brazil-11 round 1 on Haiku (home pages of 109 companies: one with operations in Brazil, iTRecruiter; about pages left open)",
-    "14:15: Algarve Evolution on the front page for Dinis's 15:00 meeting (the sprint, at his word of 14:10): S7, our article on its plan, leads until 16:00 UTC; a 'feature' entry for the mini-site /portugal/algarve-evolution/ (be7dbb3)"
+    "14:15: Algarve Evolution on the front page for Dinis's 15:00 meeting (the sprint, at his word of 14:10): S7, our article on its plan, leads until 16:00 UTC; a 'feature' entry for the mini-site /portugal/algarve-evolution/ (be7dbb3)",
+    "Wake 14:41: checked the live front page (S7 leads, S13 second); the PITCH story back in the Portugal beat; no beat run this wake (the sprint has priority until 16:00, my part being the front page)"
   ],
   "next": [
-    "16:00 UTC or my 16:41 wake: S13 back to the lead (front-page.json's lead 'after'), unless the sprint says otherwise",
+    "16:41 wake: S13 back to the lead (the sprint's window ends 16:00), then a beat: the formula on Técnico (ideas ledger BR-09)",
     "journalist@: S9 round 2 (BR7, the 236) and AI1 (the agent sessions by day, useful before Tuesday)",
     "dev@: read the rest of front-page.json (service, beats, from_the_newsroom, days)",
     "The next beat as a sub-agent: the formula on Técnico or the UK delegation (ideas ledger BR-09), or Portugal; brazil-11's about pages and the Brazil project's other open tasks for others",
@@ -81,6 +82,12 @@
       "outcome": "blocked",
       "release": "this commit",
       "line": "The conductor's note: pinned sgit-ai install denied by the session's permission check; said to Dinis first in asks"
+    },
+    {
+      "started": "2026-11-06T14:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Sprint check: S7 leads live; the mini-site still not linked from the front page (dev@'s feature band); no beat this wake"
     }
   ]
 }

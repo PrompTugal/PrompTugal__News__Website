@@ -1,0 +1,805 @@
+{
+  "$schema": "schemas/concepts.schema.json",
+  "about": "The concepts of PrompTugal.news: the terms Dinis named in his memos of 5 and 6 November 2026 and the 18:00 stand-up, each with his definition and where he said it, as the conductor kept them (board/guidance/2026-11-06-the-ideas-ledger.md, 'Concepts for the ontologist'), with a kind and links to where the team implements it. Kept by the ontologist; a term not yet implemented has no see.",
+  "kept_by": "ontologist@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "from": "board/guidance/2026-11-06-the-ideas-ledger.md",
+  "kinds": {
+    "publication": "what PrompTugal.news is and its sections",
+    "process": "how the team works",
+    "role": "who does the work",
+    "measure": "how success is measured",
+    "principle": "rules the work keeps",
+    "control": "how loops and agents are kept in check",
+    "data": "how facts are kept and shaped",
+    "design": "how readers see and use it",
+    "other": "not yet placed"
+  },
+  "concepts": [
+    {
+      "id": "promptugal",
+      "term": "PrompTugal",
+      "named_by": "Dinis",
+      "definition": "\"Prompt\" plus \"Tugal\" (Portugal, and \"Tuga\", a Portuguese person): the publication for technology and AI from Portugal",
+      "source": "SU 00:31 to 00:49, M2",
+      "kind": "publication"
+    },
+    {
+      "id": "the-web-summit-edition",
+      "term": "the Web Summit edition",
+      "named_by": "Dinis",
+      "definition": "The first edition of a wider publication, focused on the summit this week",
+      "source": "SU 00:27:11, M17",
+      "kind": "publication"
+    },
+    {
+      "id": "the-newsroom",
+      "term": "the newsroom",
+      "named_by": "Dinis",
+      "definition": "The back end of PrompTugal.news (\"where I started\")",
+      "source": "M4, M5",
+      "kind": "publication",
+      "see": [
+        "board/the-newsroom-move.md"
+      ]
+    },
+    {
+      "id": "newsroom-notes",
+      "term": "newsroom notes",
+      "named_by": "Dinis",
+      "definition": "The team's own articles about how the site is made, in the humans' voices or by agents",
+      "source": "M10",
+      "kind": "publication"
+    },
+    {
+      "id": "the-updates-section",
+      "term": "the updates section",
+      "named_by": "Dinis",
+      "definition": "A section, run by a journalist, of what changed and who did it",
+      "source": "M18",
+      "kind": "publication"
+    },
+    {
+      "id": "the-dashboard",
+      "term": "the dashboard",
+      "named_by": "Dinis",
+      "definition": "Dinis's page of what every agent does, how they coordinate, when they fire",
+      "source": "M9",
+      "kind": "publication",
+      "see": [
+        "board/the-team-setup.md"
+      ]
+    },
+    {
+      "id": "pass",
+      "term": "pass",
+      "named_by": "the team, from Dinis's words",
+      "definition": "His \"projects ... or a run\": a focused round on one page or feature, conductor and security first and last, two or three designer-dev rounds",
+      "source": "M13",
+      "kind": "process",
+      "see": [
+        "board/the-passes.md"
+      ]
+    },
+    {
+      "id": "round",
+      "term": "round",
+      "named_by": "Dinis",
+      "definition": "One turn of designer then dev (or add, refactor, simplify) within a pass or project",
+      "source": "M13, M20",
+      "kind": "process"
+    },
+    {
+      "id": "story-project",
+      "term": "story project",
+      "named_by": "the team, from Dinis's words",
+      "definition": "\"maybe we call it stories ... a topic, and then it has a budget, and then we do the research, and then we publish\"",
+      "source": "M20",
+      "kind": "process",
+      "see": [
+        "board/the-story-projects.md",
+        "data/schemas/story-blocks.schema.json"
+      ],
+      "in_ontology": "story-entities"
+    },
+    {
+      "id": "the-story-pipeline",
+      "term": "the story pipeline",
+      "named_by": "Dinis",
+      "definition": "Drafts to release \"as a Kanban board\"",
+      "source": "M8",
+      "kind": "process",
+      "see": [
+        "board/the-story-pipeline.md",
+        "data/schemas/story.schema.json"
+      ],
+      "in_ontology": "story.status"
+    },
+    {
+      "id": "the-formula",
+      "term": "the formula",
+      "named_by": "Dinis",
+      "definition": "Do one story deep (Brazil), then let the agents repeat it on others",
+      "source": "SU 00:11:14, M20",
+      "kind": "process",
+      "see": [
+        "board/projects/brazil-at-web-summit-2026.md"
+      ]
+    },
+    {
+      "id": "go-deep",
+      "term": "go deep",
+      "named_by": "Dinis",
+      "definition": "Map the universe of one story: things, people, companies, connections",
+      "source": "SU 00:10:36, M20",
+      "kind": "process",
+      "see": [
+        "board/projects/brazil-at-web-summit-2026.md"
+      ]
+    },
+    {
+      "id": "a-signal-in-itself",
+      "term": "a signal in itself",
+      "named_by": "Dinis",
+      "definition": "When little public data exists, that absence is a finding",
+      "source": "SU 00:10:44",
+      "kind": "principle"
+    },
+    {
+      "id": "blind-spots",
+      "term": "blind spots",
+      "named_by": "Dinis",
+      "definition": "What the passes find: wrong reports, data that did not update",
+      "source": "SU 00:12:20",
+      "kind": "principle"
+    },
+    {
+      "id": "maximum-provenance",
+      "term": "maximum provenance",
+      "named_by": "Dinis",
+      "definition": "Every fact with its source, so the data is explainable",
+      "source": "SU 00:11:28",
+      "kind": "principle",
+      "see": [
+        "data/ontology.json"
+      ],
+      "in_ontology": "source_provenance"
+    },
+    {
+      "id": "the-superpower",
+      "term": "the superpower",
+      "named_by": "Dinis",
+      "definition": "Everything posted has a source and is linked to everything",
+      "source": "SU 00:08:24",
+      "kind": "principle"
+    },
+    {
+      "id": "width",
+      "term": "width",
+      "named_by": "Dinis",
+      "definition": "The model only impresses when its breadth is massive",
+      "source": "SU 00:08:54",
+      "kind": "principle"
+    },
+    {
+      "id": "public-by-default",
+      "term": "public by default",
+      "named_by": "Dinis",
+      "definition": "\"anything that we discover publicly is public\"; only sources reachable without login",
+      "source": "SU 00:00:21 to 00:00:46",
+      "kind": "principle",
+      "see": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "id": "the-public-versus-private-line",
+      "term": "the public versus private line",
+      "named_by": "Dinis",
+      "definition": "The line between this site (public) and the team CRM (private)",
+      "source": "SU 00:20:02",
+      "kind": "principle"
+    },
+    {
+      "id": "the-vault-as-glue",
+      "term": "the vault as glue",
+      "named_by": "Dinis",
+      "definition": "\"the vault is the glue of all our activities\"",
+      "source": "SU 00:01:37",
+      "kind": "principle"
+    },
+    {
+      "id": "digital-twin-of-the-inbox",
+      "term": "digital twin of the inbox",
+      "named_by": "Dinis",
+      "definition": "A Gmail-like copy of each outreach inbox in the CRM, threads tied to companies",
+      "source": "SU 00:15:42",
+      "kind": "data"
+    },
+    {
+      "id": "give-them-something",
+      "term": "give them something",
+      "named_by": "Dinis",
+      "definition": "Outreach offers each company something (\"we just built this for you\"), not a sale",
+      "source": "SU 00:16:19 to 00:17:13",
+      "kind": "principle"
+    },
+    {
+      "id": "the-signal-outreach",
+      "term": "the signal (outreach)",
+      "named_by": "Dinis",
+      "definition": "A reply asking \"can you add more?\" rather than \"what are you doing?\"",
+      "source": "SU 00:12:53",
+      "kind": "measure",
+      "see": [
+        "board/WS-177-plan.md"
+      ]
+    },
+    {
+      "id": "contributions-as-the-kpi",
+      "term": "contributions as the KPI",
+      "named_by": "Dinis",
+      "definition": "\"our measure of success is how many humans we're able to involve\" and the agents they bring",
+      "source": "M20",
+      "kind": "measure"
+    },
+    {
+      "id": "visits-and-referrals",
+      "term": "visits and referrals",
+      "named_by": "Dinis",
+      "definition": "The other measures: visits to the site, referrals from others",
+      "source": "SU 00:12:20, 00:22:22",
+      "kind": "measure"
+    },
+    {
+      "id": "network-effect",
+      "term": "network effect",
+      "named_by": "Dinis",
+      "definition": "\"the more you do it, the more valuable the network becomes\"",
+      "source": "SU 00:11:28",
+      "kind": "measure"
+    },
+    {
+      "id": "escape-velocity",
+      "term": "escape velocity",
+      "named_by": "Dinis",
+      "definition": "What the Portuguese newsroom never reached: momentum and credibility",
+      "source": "SU 00:17:53",
+      "kind": "measure"
+    },
+    {
+      "id": "ai-slop",
+      "term": "AI slop",
+      "named_by": "Dinis",
+      "definition": "What the site must never look like, if the press office is to take it seriously",
+      "source": "SU 00:53:25",
+      "kind": "principle"
+    },
+    {
+      "id": "press-pass",
+      "term": "press pass",
+      "named_by": "Dinis",
+      "definition": "Accreditation to the summit as press, which needs a credible publication and coverage of past events",
+      "source": "M16, M30, SU 00:45:16",
+      "kind": "publication"
+    },
+    {
+      "id": "official-publication",
+      "term": "official publication",
+      "named_by": "Dinis",
+      "definition": "A registered publication with policies, contacts, references, comments, the right to remove",
+      "source": "M16",
+      "kind": "publication"
+    },
+    {
+      "id": "desk",
+      "term": "desk",
+      "named_by": "Dinis",
+      "definition": "\"the overall boss\" of the newsroom's agents",
+      "source": "SU 00:05:01",
+      "kind": "role"
+    },
+    {
+      "id": "researcher-curator-journalist",
+      "term": "researcher, curator, journalist",
+      "named_by": "Dinis",
+      "definition": "Finds materials; maps and picks; writes and publishes",
+      "source": "SU 00:04:18",
+      "kind": "role"
+    },
+    {
+      "id": "correspondent",
+      "term": "correspondent",
+      "named_by": "Dinis",
+      "definition": "\"the more senior journalist\" who maintains the homepage and curates",
+      "source": "SU 00:04:48, M14",
+      "kind": "role"
+    },
+    {
+      "id": "beats-beat-correspondents",
+      "term": "beats, beat correspondents",
+      "named_by": "Dinis",
+      "definition": "Correspondents on a topic (Brazil, Web Summit), run as sub-agents of one correspondent",
+      "source": "SU 00:05:33, M14",
+      "kind": "role"
+    },
+    {
+      "id": "ontologist-and-the-murder-board",
+      "term": "ontologist and the murder board",
+      "named_by": "Dinis",
+      "definition": "The science of connecting things: \"this guy connects to that\"",
+      "source": "SU 00:09:18",
+      "kind": "role"
+    },
+    {
+      "id": "sherpa",
+      "term": "sherpa",
+      "named_by": "Dinis",
+      "definition": "The agent that represents the user",
+      "source": "M13",
+      "kind": "role"
+    },
+    {
+      "id": "synthetic-readers-personas",
+      "term": "synthetic readers, personas",
+      "named_by": "Dinis",
+      "definition": "Synthetic agents that read as given personas and give independent validation",
+      "source": "SU 00:56:17 to 00:57:42, M13",
+      "kind": "role"
+    },
+    {
+      "id": "calibration-of-personas",
+      "term": "calibration (of personas)",
+      "named_by": "Dinis",
+      "definition": "Telling the synthetic agent who the audience is (\"if you don't get the joke ... this is not for you\")",
+      "source": "SU 00:57:12",
+      "kind": "role"
+    },
+    {
+      "id": "historian",
+      "term": "historian",
+      "named_by": "Dinis",
+      "definition": "An agent that learns from Dinis's past work and briefs the team",
+      "source": "M6, M10",
+      "kind": "role"
+    },
+    {
+      "id": "librarian",
+      "term": "librarian",
+      "named_by": "Dinis",
+      "definition": "The agent \"that maps all this stuff\"",
+      "source": "M13",
+      "kind": "role"
+    },
+    {
+      "id": "dotted-names",
+      "term": "dotted names",
+      "named_by": "Dinis",
+      "definition": "`<role>.<speciality>@`: a specialist of a role, on Sonnet, reviewed by the main agent",
+      "source": "M33, M34",
+      "kind": "process",
+      "see": [
+        "data/schemas/common.schema.json"
+      ]
+    },
+    {
+      "id": "sub-agents",
+      "term": "sub-agents",
+      "named_by": "Dinis",
+      "definition": "Several agents run inside one parent session, to avoid an explosion of agents",
+      "source": "M14, M35",
+      "kind": "process",
+      "see": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "id": "one-role-one-session",
+      "term": "one role, one session",
+      "named_by": "Dinis",
+      "definition": "\"we can never have two ages with the same name running at the same time\"",
+      "source": "M21",
+      "kind": "process",
+      "see": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "id": "a-folder-per-session",
+      "term": "a folder per session",
+      "named_by": "Dinis",
+      "definition": "Each new session keeps its own folder so nothing is lost",
+      "source": "M21",
+      "kind": "process"
+    },
+    {
+      "id": "the-non-functional-requirement-group",
+      "term": "the non-functional requirement group",
+      "named_by": "Dinis",
+      "definition": "The agents that own backups and similar concerns",
+      "source": "M26",
+      "kind": "role"
+    },
+    {
+      "id": "budget",
+      "term": "budget",
+      "named_by": "Dinis",
+      "definition": "A constraint of tokens and runs per loop, set by the accountant; captured, not blocking; API-equivalent dollars",
+      "source": "M13, M45, M46",
+      "kind": "control",
+      "see": [
+        "board/budgets.json",
+        "data/schemas/budgets.schema.json"
+      ]
+    },
+    {
+      "id": "infinite-loop",
+      "term": "infinite loop",
+      "named_by": "Dinis",
+      "definition": "What a review loop becomes without a budget",
+      "source": "M13",
+      "kind": "control"
+    },
+    {
+      "id": "the-state-machine",
+      "term": "the state machine",
+      "named_by": "Dinis",
+      "definition": "\"if this then that\": the flow of loops, each given a budget",
+      "source": "M13",
+      "kind": "process"
+    },
+    {
+      "id": "diminishing-returns",
+      "term": "diminishing returns",
+      "named_by": "Dinis",
+      "definition": "The accountant's sign that a round has done enough",
+      "source": "M20",
+      "kind": "measure"
+    },
+    {
+      "id": "circuit-breaker",
+      "term": "circuit breaker",
+      "named_by": "Dinis",
+      "definition": "A built-in stop so the work does not \"grind to a halt\"",
+      "source": "M37",
+      "kind": "control"
+    },
+    {
+      "id": "observe-mode",
+      "term": "observe mode",
+      "named_by": "Dinis",
+      "definition": "ABP policies that watch and record before they block",
+      "source": "M37",
+      "kind": "control",
+      "see": [
+        "board/abp/README.md"
+      ]
+    },
+    {
+      "id": "breach",
+      "term": "breach",
+      "named_by": "Dinis",
+      "definition": "A policy crossed; \"we should have tons of breaches\"; usually the policy needs tweaking",
+      "source": "M38",
+      "kind": "control",
+      "see": [
+        "board/abp/README.md"
+      ]
+    },
+    {
+      "id": "pull-the-plug-quarantine",
+      "term": "pull the plug, quarantine",
+      "named_by": "Dinis",
+      "definition": "Stopping everything or an agent; security@, the conductor, abp@; the last measure",
+      "source": "M35, M37",
+      "kind": "control"
+    },
+    {
+      "id": "push-to-production",
+      "term": "push to production",
+      "named_by": "Dinis",
+      "definition": "\"when in doubt, push to production\": no readers, no legacy",
+      "source": "M42",
+      "kind": "process",
+      "see": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "id": "everything-clickable",
+      "term": "everything clickable",
+      "named_by": "Dinis",
+      "definition": "Every entity a link into the graph",
+      "source": "M18",
+      "kind": "design"
+    },
+    {
+      "id": "modes",
+      "term": "modes",
+      "named_by": "Dinis",
+      "definition": "Reading modes the reader flicks: links, claims (facts, hypotheses, opinions), focus, data",
+      "source": "M18, M20",
+      "kind": "design"
+    },
+    {
+      "id": "semantic-graphs-semantic-paragraphs",
+      "term": "semantic graphs, semantic paragraphs",
+      "named_by": "Dinis",
+      "definition": "Earlier work reused for the links and claims modes",
+      "source": "M18",
+      "kind": "design"
+    },
+    {
+      "id": "focus-mode",
+      "term": "focus mode",
+      "named_by": "Dinis",
+      "definition": "\"everything becomes just the article\"",
+      "source": "M20",
+      "kind": "design"
+    },
+    {
+      "id": "articles-as-data",
+      "term": "articles as data",
+      "named_by": "Dinis",
+      "definition": "A folder per article, JSON blocks, every block and section linkable, process once and consume",
+      "source": "M20",
+      "kind": "data",
+      "see": [
+        "data/schemas/story-blocks.schema.json",
+        "data/schemas/story-claims.schema.json"
+      ],
+      "in_ontology": "story-blocks"
+    },
+    {
+      "id": "reference-article",
+      "term": "reference article",
+      "named_by": "Dinis",
+      "definition": "An article on each source document, as newsroom.sgit.ai does",
+      "source": "M20",
+      "kind": "data",
+      "see": [
+        "data/ontology.json"
+      ],
+      "in_ontology": "article_kind:reference"
+    },
+    {
+      "id": "the-article-s-graph",
+      "term": "the article's graph",
+      "named_by": "Dinis",
+      "definition": "A graph of each article's entities",
+      "source": "M20",
+      "kind": "data"
+    },
+    {
+      "id": "information-design",
+      "term": "information design",
+      "named_by": "Dinis",
+      "definition": "How to present materials so they are consumable",
+      "source": "M18",
+      "kind": "design"
+    },
+    {
+      "id": "wall-of-text",
+      "term": "wall of text",
+      "named_by": "Dinis",
+      "definition": "What articles and pages must stop being",
+      "source": "M20, M24, M26",
+      "kind": "principle"
+    },
+    {
+      "id": "centre-of-gravity",
+      "term": "centre of gravity",
+      "named_by": "Dinis",
+      "definition": "Where the graph concentrates (by industry); RiskMandate is ours",
+      "source": "M26, M29",
+      "kind": "data",
+      "see": [
+        "board/guidance/2026-11-06-conductors-sync-and-outside-agents.md"
+      ]
+    },
+    {
+      "id": "blast-radius",
+      "term": "blast radius",
+      "named_by": "Dinis",
+      "definition": "RiskMandate's existing connections as our reach into the summit",
+      "source": "M29",
+      "kind": "data"
+    },
+    {
+      "id": "reach-mandate-gap",
+      "term": "reach, mandate, gap",
+      "named_by": "Dinis",
+      "definition": "RiskMandate's lens through which the summit is covered",
+      "source": "CLAUDE.md (not in these memos)",
+      "kind": "principle",
+      "see": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "id": "ruv-sgit-the-queen",
+      "term": "ruv.sgit, the queen",
+      "named_by": "Dinis",
+      "definition": "ruv.sgit's agents and JS-based dynamic infographics, as used in The Ultimate Insider",
+      "source": "M26, M27",
+      "kind": "role"
+    },
+    {
+      "id": "presets-as-stories",
+      "term": "presets as stories",
+      "named_by": "Dinis",
+      "definition": "Graph presets, each a use case or a story told with the graph",
+      "source": "M32",
+      "kind": "design"
+    },
+    {
+      "id": "best-of-page",
+      "term": "best-of page",
+      "named_by": "Dinis",
+      "definition": "A graph and its explanation side by side",
+      "source": "M32",
+      "kind": "design"
+    },
+    {
+      "id": "tree-of-graphs",
+      "term": "tree of graphs",
+      "named_by": "Dinis",
+      "definition": "A tree of the many ways into the graph",
+      "source": "M32",
+      "kind": "design"
+    },
+    {
+      "id": "page-presentation",
+      "term": "page presentation",
+      "named_by": "Dinis",
+      "definition": "\"Debrief of this page\": a JavaScript presentation on every big page",
+      "source": "M32",
+      "kind": "design"
+    },
+    {
+      "id": "timing-the-summit-s-days",
+      "term": "timing (the summit's days)",
+      "named_by": "Dinis",
+      "definition": "From the PHP newsroom: days before, during and after; past as it was, future as it will be",
+      "source": "M17",
+      "kind": "design"
+    },
+    {
+      "id": "the-site-over-time",
+      "term": "the site over time",
+      "named_by": "Dinis",
+      "definition": "The site seen hour by hour, back and forward",
+      "source": "M17, M42",
+      "kind": "design"
+    },
+    {
+      "id": "personalisation-dinis-s-view",
+      "term": "personalisation, Dinis's view",
+      "named_by": "Dinis",
+      "definition": "A switch between the normal view and a signed-in person's own view; the start of super-personalisation",
+      "source": "M18",
+      "kind": "design"
+    },
+    {
+      "id": "persona-per-reader",
+      "term": "persona per reader",
+      "named_by": "Dinis",
+      "definition": "A profile created when a reader connects: pages, searches, graphs, navigation",
+      "source": "M31",
+      "kind": "data"
+    },
+    {
+      "id": "observability-for-the-user",
+      "term": "observability for the user",
+      "named_by": "Dinis",
+      "definition": "Showing readers their own navigation and history",
+      "source": "M31",
+      "kind": "design"
+    },
+    {
+      "id": "privacy-first",
+      "term": "privacy first",
+      "named_by": "Dinis",
+      "definition": "No cookies, no tracking, nothing sold; only city and region",
+      "source": "M20",
+      "kind": "principle",
+      "see": [
+        "board/passes/2026-11-06-privacy-first.md"
+      ]
+    },
+    {
+      "id": "sub-sites",
+      "term": "sub-sites",
+      "named_by": "Dinis",
+      "definition": "Sections with their own navigation and design, owned by a person and their agents",
+      "source": "M18",
+      "kind": "publication"
+    },
+    {
+      "id": "experiments-with-a-selector",
+      "term": "experiments with a selector",
+      "named_by": "Dinis",
+      "definition": "Several versions of a page and a UI to pick one",
+      "source": "M26",
+      "kind": "process"
+    },
+    {
+      "id": "people-management-not-a-crm",
+      "term": "people management (not a CRM)",
+      "named_by": "Dinis",
+      "definition": "A people vault, a folder and a graph per person, public facts only",
+      "source": "M29",
+      "kind": "data"
+    },
+    {
+      "id": "ourselves-first",
+      "term": "ourselves first",
+      "named_by": "Dinis",
+      "definition": "The team's own pages first: they will say yes",
+      "source": "M30",
+      "kind": "publication"
+    },
+    {
+      "id": "the-verified-block",
+      "term": "the verified block",
+      "named_by": "Dinis",
+      "definition": "A dated note at the foot of a page of what several models checked",
+      "source": "M29",
+      "kind": "data",
+      "see": [
+        "data/README.md"
+      ]
+    },
+    {
+      "id": "pack-mode",
+      "term": "pack mode",
+      "named_by": "Dinis",
+      "definition": "sgit's efficient mode for large research vaults",
+      "source": "M11",
+      "kind": "data"
+    },
+    {
+      "id": "deltas",
+      "term": "deltas",
+      "named_by": "Dinis",
+      "definition": "Backups that store only what changed",
+      "source": "M26",
+      "kind": "data"
+    },
+    {
+      "id": "agent-power",
+      "term": "agent power",
+      "named_by": "Dinis",
+      "definition": "The person's agent drafts; the person sends (\"vicky.agent\" format)",
+      "source": "M43",
+      "kind": "role"
+    },
+    {
+      "id": "decisions-as-pages",
+      "term": "decisions as pages",
+      "named_by": "Dinis",
+      "definition": "A decision for Dinis made on a page with full details",
+      "source": "M49",
+      "kind": "process",
+      "see": [
+        "board/spec-decisions-pages.md"
+      ]
+    },
+    {
+      "id": "the-personal-newsreel",
+      "term": "the personal newsreel",
+      "named_by": "Dinis",
+      "definition": "A personalised debrief of the summit from everything published about it (from customers@'s brief, not these memos)",
+      "source": "`board/team/customers/briefs/2026-11-06-the-personal-newsreel.md`",
+      "kind": "design"
+    },
+    {
+      "id": "prompt-on-every-page",
+      "term": "prompt on every page",
+      "named_by": "Dinis",
+      "definition": "A page's own llms.txt: a prompt to paste into one's own AI (from the events guidance, not these memos)",
+      "source": "`board/guidance/2026-11-06-events-variations-and-the-personal-schedule.md`",
+      "kind": "design"
+    }
+  ]
+}

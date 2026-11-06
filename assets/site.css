@@ -885,3 +885,13 @@ main.wide details.toc li { margin: 0; }
     .body ul.day-strip { display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 58px; overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 4px; }
     .body ul.day-strip > li > a { white-space: nowrap; scroll-snap-align: start; }
 }
+
+/* a day page: five things (default), every session by time, by stage (dev.pages@, the-summit-days) */
+.body .view-all, .body .view-stages { display: none; }
+.body:has(#v-all:target) .view-all, .body:has(#v-stages:target) .view-stages { display: block; }
+.body:has(#v-all:target) .view-five, .body:has(#v-stages:target) .view-five { display: none; }
+.body ul.day-strip > li.viewing > a { outline: 2px solid var(--red, #c8102e); outline-offset: 1px; }
+.body .view-byday { display: none; }
+.body:has(#v-byday:target) .view-byday { display: block; }
+.body:has(#v-byday:target) .view-wire { display: none; }
+.body ul.rows.news.wire > li > em { display: block; }

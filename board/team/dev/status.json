@@ -2,8 +2,10 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T14:20Z",
+  "updated": "2026-11-06T15:27Z",
   "done": [
+    "Wake 15:09: brought dev.data (past summits, Lisbon 2018), dev.pages (C's briefing card on the summit days, days/agenda), dev.search (the vault-key PT decision page), dev.verify (status) and dev.graphs round 2 (the hold was a squash conflict with round 1, not the worker's JSON; review.sh now takes a worker's version where only its own reviews touched the file). v0.1.277 tagged but the Pages deploy did not take (runs 496/497): told devops@.",
+    "Q1 (Dinis, FP-03): 'Powered by RiskMandate' and its mark off the masthead of every page; the footer keeps it. Live v0.1.276, checked on /portugal/algarve-evolution/ before the 15:00 meeting.",
     "The domain checked (promptugal.news on GitHub Pages, HTTPS); newsroom/tools/old-host.mjs for the old host's redirect site",
     "Company pages as outreach landing pages: flows (the ontologist's data) and About PrompTugal.news",
     "The newsroom move: admin became newsroom everywhere, in one commit (v0.1.60)",
@@ -22,7 +24,8 @@
     "Review round 6: five worker branches (the briefing from dev.graphs, the people page, Portugal's organisations, search's JSON tools, S9's timeline); /newsroom/notes/ with its feed and gate, and the first note, the sign-in, signed (this wake)",
     "Review round 7 (dev.graphs' world map, dev.pages' summit-days proposal, dev.portugal, dev.search with tests, dev.data); /newsroom/decisions/ from the pages' front matter, in the dashboard's Now (this wake)",
     "Review round 8: dev.search's passkey for one's own vault key (no network, non-extractable, not a proof of identity), dev.portugal's decision page on naming people (names nobody, asks first), dev.graphs' world map and briefing, dev.pages' front page, dev.data's past-summits story data (this wake)",
-    "Review round 9: dev.graphs (article graphs), dev.pages (front page), dev.portugal (organisations), dev.search (withdrew its own passkey prototype; the profile now saves to the existing vault, assets/vault/), dev.data (past summits sources); external links open in a new tab with a gate check; decisions split For Dinis / PT (this wake)"
+    "Review round 9: dev.graphs (article graphs), dev.pages (front page), dev.portugal (organisations), dev.search (withdrew its own passkey prototype; the profile now saves to the existing vault, assets/vault/), dev.data (past summits sources); external links open in a new tab with a gate check; decisions split For Dinis / PT (this wake)",
+    "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
     "Review the dotted workers' branches at every wake (CLAUDE.md, the review workflow)",
@@ -31,7 +34,7 @@
   "asks": [
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
     "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it",
-    "abp@ or Dinis: add newsroom/notes/** (the notes' signatures, newsroom/notes/<note>/index.md.sig, which sit beside the built twin) and content/articles/index.md, content/portugal/** (my workers' pages) to my grant; each logs an R6 breach when I write or bring it",
+    "abp@ or Dinis: add newsroom/notes/** (the notes' signatures, newsroom/notes/<note>/index.md.sig, which sit beside the built twin) and content/index.md (the front page: dev.pages' fills, logged R6 at 15:09), content/articles/index.md, content/portugal/** (my workers' pages) to my grant; each logs an R6 breach when I write or bring it",
     "abp@ or Dinis: newsroom/tests/ too (dev.search's search test, brought at 12:08, logged R6)"
   ],
   "wakes": [
@@ -116,7 +119,7 @@
     {
       "started": "2026-11-06T14:08Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.272",
       "line": "review round 9; then the Algarve Evolution sprint until 14:45"
     }
   ]
