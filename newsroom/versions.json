@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.298",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: vault onboarding, the server side: claims_lib, pool_mint, claims_sweep, claims_setup, tested offline; not live",
+    "by": "observability@PrompTugal.dinis",
+    "from": "9fb2c20d6"
+  },
+  {
     "version": "v0.1.297",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: S12's five inbox re-issues verified; the old vaults still to retire; S20 closed",
