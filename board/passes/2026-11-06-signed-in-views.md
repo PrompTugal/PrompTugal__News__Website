@@ -10,6 +10,10 @@ opened: 2026-11-06T04:50Z
 ---
 # Pass: signed-in-views
 
+## The build plan for every reader (Dinis's brief, 17:05 UTC)
+
+`board/spec-vault-onboarding.md`: a key pool, a signed licence holding the SG/Send access key, a claim lane and a sealed mailbox; door, master and book vaults in the browser (passkey PRF, or a door secret). dev.search@ builds the browser side, observability@ the claim lane and the sweep (inside its hourly wake), security@ pre-reviews, dev@ reviews.
+
 ## Opened now (Dinis, 13:05 UTC): sign in with a passkey, his vault, one experience on every device
 
 His words: `board/guidance/2026-11-06-pt-decisions-passkey-and-the-platform.md`. Today the sign-in (`assets/login/keyring.js`, `/login/`) imports a person's key from a link into one browser's IndexedDB: each device needs its own link, and nothing he does on one device follows him to the next.
@@ -32,6 +36,7 @@ Queued behind the six passes opened before it; it opens when one of those closes
 | 06:50 | accountant@ | budget set (board/budgets.json): 18 runs, 55 USD, 450k output tokens; observe mode (guidance section 15): at the budget the pass is marked over and the conductor decides | go | (budget commit) | not counted |
 | 04:05 | security@ | pre-review | change: S1 first, and a signature, not a flag (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 | 14:10 | security@ | pre-review of the passkey design (Dinis, 13:05) | go, with conditions; two block the first deploy: S1 fixed, and no SG/Send token in the page (board/team/security/reviews/2026-11-06-1405-wake.md) | (the commit of this review) | part of one wake |
+| 17:20 | security@ | pre-review of the vault-onboarding brief (board/spec-vault-onboarding.md, Dinis 17:05) | go, with conditions; three block the first deploy: a dedicated pilot token, S1 fixed with a strict CSP, and an issuer key that is not a session key (board/team/security/reviews/2026-11-06-1720-vault-onboarding.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
@@ -47,3 +52,11 @@ Queued behind the six passes opened before it; it opens when one of those closes
 | 'Dinis's view' switches on the vault opening (cryptographic), never on a flag; this answers my 04:05 change | security@ (pre-review) | dev.pages@ | condition of go |
 | A device that leaves (lost, sold) has its wrapper removed and the vault re-keyed (sgit vault rekey), per key-rotation.md; the key link fallback is retired for Dinis once the passkey works on two devices | security@ (pre-review) | dev.search@, Dinis | condition of go |
 | Readers later: one vault per reader on the vault server is a record of each reader there (id, size, times); the privacy page says so, and nothing links it to the page-view events | security@ (pre-review) | observability@, journalist@ | condition of go |
+| Blocks the first deploy: the access key in every pilot licence is a **new token made for the pilot only**, never SG_SEND_ACCESS_TOKEN (the one in every agent's environment, S19). Dinis accepts it being public; a dedicated token is what lets it be revoked alone if abuse comes, without stopping the agents | security@ (pre-review) | Dinis (mint it), observability@ | change |
+| Blocks the first deploy: S1 fixed and a strict CSP before onboard.js ships. Today every page carries one inline script and talks to dev.send.sgraph.ai, dev.vault.sgraph.ai, openrouter.ai, ipapi.co and ipwho.is. GitHub Pages sends no headers, so a meta CSP: default-src 'self'; script-src 'self' 'sha256-<the inline script>'; connect-src 'self' plus those hosts; object-src 'none'; base-uri 'none'; form-action 'self'. A meta CSP cannot stop framing or report; and it does not stop a same-origin file served from desks/ or board/ (S1), which could read the door derivation in sessionStorage. Long term: the vault code on its own origin, as the brief says | security@ (pre-review) | dev@, dev.search@ | change |
+| Blocks the first deploy: the issuer signing key is its own key, not observability@'s session key: a session key dies with its session and is rotated daily (key-rotation.md), and every browser pins the issuer. Pin a set (the current key and the next), hand over by a signed statement from the old key, and seal the issuer's private half to Dinis for recovery | security@ (pre-review) | observability@, dev.search@ | change |
+| The sweep holds five secrets in one session (pool write key, enum key, its encryption key, the issuer key, the ledger key). Five agents printed their own credentials today by opening them in a script: the sweep opens every credential inside its tool, pipes keys on stdin, prints counts only (as the brief says), and its transcript is in security@'s scan at every wake | security@ (pre-review) | observability@ | condition of go |
+| Running the sweep inside observability@'s hourly wake puts the page-view vaults and the vault-onboarding secrets in one session; better its own role key and credentials file, even if it runs in the same wake | security@ (pre-review) | observability@, conductor@ | condition of go |
+| The ledger (lookup, reader fingerprints, mailbox id, door mode, time) is a record of every reader: private, sealed to Dinis, never published; the privacy page says that a vault on the vault server exists per reader and what the ledger keeps | security@ (pre-review) | observability@, journalist@ | condition of go |
+| The kill switch is two steps, both written down before launch: N=0 stops new draws; revoking the pilot token (which only a dedicated token allows) stops vault creation. Revocation is out of scope for the pilot's build, not for its runbook | security@ (pre-review) | observability@, Dinis | condition of go |
+| Good as written: issuer signatures pinned in the browser, claims signed, mailbox ids random and unlinkable, n bound inside the signature, the door-secret download holding one secret only, licences carry no reader data | security@ (pre-review) | security@ | noted |

@@ -9,7 +9,7 @@ kept_by: conductor@PrompTugal.dinis
 
 - "I just had a really good meeting with António, or a call with António, that he took some time off an event that he's doing, and the meeting went very well."
 - "He read it, he liked it, and what he did was exactly what I would hope there is going to be a reaction to everybody that we talk to, which is one of our milestones: he moved beyond the content, the structure, and he just accepted it and took it at face value and started to look at the content ... and he was like, oh, okay, can you change this paragraph?"
-- "He's sensitive sometimes that if he says, I'm going to create 150 companies, there might be people who ... feel a little bit sensitive. So he wants to add that paragraph, which is brilliant, because what he's doing is basically he reacted with the content."
+- (One sentence of Dinis's about how the goals might read to others is kept in the private team CRM, not here: security@'s S20, the comms protocol.) He wanted to add a paragraph beside the goals: "what he's doing is basically he reacted with the content."
 
 ## 2. His paragraph, to add on /portugal/algarve-evolution/ where the goals are (500 companies, 150 startups, 50,000 people)
 

@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "running: hourly at :21 UTC; budgets are soft and in observe mode (Dinis, in this session, 6 November 2026: \"it is ok for an agent to do 20 commits (if relevant)\"), so I release each piece of work when it is ready",
-  "updated": "2026-11-06T16:45Z",
+  "updated": "2026-11-06T17:40Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -25,7 +25,8 @@
     "Algarve Evolution sprint (Dinis's meeting at 15:00): the organisation, 9 partners, 3 places, 5 past events and data/organisations/algarve-evolution/network.json (8 programmes, 2 roles without names, 6 figures marked fact, self-reported or target, 33 edges), all sourced, schema organisation-network in the gate",
     "Inbox opened (signed by the conductor's key) and drained: 12 messages read (14:22 wake)",
     "The night's concepts in data/concepts.json: 88 terms with Dinis's definitions and sources, each with a kind and where it is implemented; schema concepts, checked by the gate (15:21 wake)",
-    "Algarve Evolution's executive director named in network.json (António Pinto Guerreiro), on Dinis's guidance of 15:40; librarian@'s card and authority file reviewed on the record (board/team/ontologist/reviews/2026-11-06-library-architecture.md) (16:21 wake)"
+    "Algarve Evolution's executive director named in network.json (António Pinto Guerreiro), on Dinis's guidance of 15:40; librarian@'s card and authority file reviewed on the record (board/team/ontologist/reviews/2026-11-06-library-architecture.md) (16:21 wake)",
+    "synthetic@'s F12, F24 done and F13 in part (17:21 wake): AICEP unconfirmed, Air Apps, AICEP and Startup Portugal out of Portuguese startups, conferenceSlug wording removed from 48 companies"
   ],
   "next": [
     "Add the world newsroom, its types and the accepted verbs to data/ontology.json once dev@ confirms the graph features take a fifth world",
@@ -159,6 +160,29 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "executive director named (Dinis's guidance); the library's architecture reviewed"
+    },
+    {
+      "started": "2026-11-06T17:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "synthetic@'s findings F12, F13, F24 decided and fixed"
+    }
+  ],
+  "decisions_on_findings": [
+    {
+      "finding": "F24",
+      "decision": "done: 60452f0 (06:21): the track page re-read, a past-edition highlight; the source note no longer names the person",
+      "at": "2026-11-06T17:40Z"
+    },
+    {
+      "finding": "F12",
+      "decision": "done: this wake: AICEP's attending now says unconfirmed (its session page answered 404 on 5 and 6 November); Air Apps out of Portuguese startups (its LIS26 page says United States, no source says why); '(conferenceSlug lis26)' removed from 48 companies' attending",
+      "at": "2026-11-06T17:40Z"
+    },
+    {
+      "finding": "F13",
+      "decision": "accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@)",
+      "at": "2026-11-06T17:40Z"
     }
   ]
 }

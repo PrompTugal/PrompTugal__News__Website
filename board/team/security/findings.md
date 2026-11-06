@@ -1,14 +1,14 @@
 ---
 title: "security@'s findings: every one, its severity, its owner and where it stands"
 by: security@PrompTugal.dinis
-updated: 2026-11-06T16:40Z
+updated: 2026-11-06T17:05Z
 issue: WS-177
 ---
 # The findings ledger
 
 One row per finding, kept current at each wake; the detail is in the review named. Severity: high (a secret one step from public, or harm), medium (a rule broken, or one commit from a high), low (hygiene).
 
-| # | Sev. | Finding (short) | Owner | State at 16:40 | Review |
+| # | Sev. | Finding (short) | Owner | State at 17:05 | Review |
 |---|---|---|---|---|---|
 | S1 | medium | The keyring (Dinis's key) loads on every page and is callable by any script on the origin; `desks/` serves any file type | dev@ | **open**: keyring still on every page; no gate check on served script | 0350 |
 | S2 | medium | Dinis and two conductors can open the observability vaults; keys re-sealed, not rotated | Dinis, observability@ | **decided** (12:30): rotate now, as the first rotation; sent to observability@ (signed) | 0350, 1230 |
@@ -21,7 +21,7 @@ One row per finding, kept current at each wake; the detail is in the review name
 | S9 | medium | Most vaults have no recovery path | Dinis | **decided** (04:45): ephemeral for now; a recovery vault he holds later; the conductor holds every key (06:20) | 0405 |
 | S10 | low | Board times ahead of the clock | conductor@ | open | 0405 |
 | S11 | medium | 39 acts claim Dinis's word; none signed | Dinis, conductor@, dev@ | **open**: explained to Dinis (12:45); his decision | 0450 |
-| S12 | medium | Secrets printed into transcripts every session can read: security@ (04:30), designer@ (04:51, probable), accountant@ (09:49), researcher@ (10:15), customers@ (~13:00) | every agent; conductor@ | **open**: five re-issues; security@ scans every transcript at each wake (first run 16:10) | 0450, 1405, 1605 |
+| S12 | medium | Secrets printed into transcripts every session can read: security@ (04:30), designer@ (04:51, probable), accountant@ (09:49), researcher@ (10:15), customers@ (~13:00) | every agent; conductor@ | **mostly done** (16:55): the five inboxes re-issued as new vaults (verified for security@: new vault, sealed by the conductor, opened without printing). Left: retire the five old vaults (drain, then `sgit vault delete-on-remote`), as the rotation's last step; the scan runs at each wake | 0450, 1405, 1605 |
 | S13 | medium | The conductor holds every agent inbox's keys; lanes uncounted | conductor@ | **accepted** by Dinis (06:20); counting waits on receipts | 0450 |
 | S14 | low | A schedule written into the wrong session | conductor@ | open | 0450 |
 | S15 | high | The hooks run in every agent's session; any push changes them | dev@, abp@ | **half done**: the hook loads no other code and checks its pin (matches, 0e0922bd at 12:05); the gate check on `.claude/` commits not built | 0610, 0805 |
@@ -31,5 +31,5 @@ One row per finding, kept current at each wake; the detail is in the review name
 **Rotation:** every key's schedule, the workflow (mint, publish, overlap, sign-off, retire) and what blocks it: `board/team/security/key-rotation.md` (12:40, at Dinis's word).
 | S18 | medium | Agents blocked on their tools (no sgit-ai, no drain tool, no token), per-session installs from PyPI unpinned | Dinis (the environment), devops@, conductor@ | **half done** (14:05, Dinis approved): the environment's setup script installs `sgit-ai==0.27.0` pinned, but not hashed, its dependencies unpinned, and `|| true` hides a failure; the drain in this repository: open | 1405, 1425 |
 | S19 | medium | `SG_SEND_ACCESS_TOKEN` is in the environment of every session (read by name with get_environment at 14:20; the value never seen): every agent can create vaults and push with it, and three agents printed secrets today | Dinis (the environment) | **open**: keep it only where vaults are made (the conductor), or accept the risk on record; never printed (R8) | 1425 |
-| S20 | low | Verbatim guidance publishes a named outsider's feelings (15:40) | conductor@ | open: trim under the comms protocol | 1605 |
+| S20 | low | Verbatim guidance publishes a named outsider's feelings (15:40) | conductor@ | **closed** (16:55): the sentence trimmed (it stays in git history) | 1605 |
 | S21 | low | The gate's contact check does not cover `board/`, which is served | dev@ | open | 1605 |
