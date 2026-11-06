@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.38",
+    "date": "2026-11-06",
+    "what": "CLAUDE.md: observability@PrompTugal.dinis joins the PrompTugal team",
+    "by": "conductor@web-summit.dinis",
+    "from": "e55f617fb"
+  },
+  {
     "version": "v0.1.37",
     "date": "2026-11-05",
     "what": "CLAUDE.md: the PrompTugal team, six agents named <role>@PrompTugal.dinis, what each owns",
