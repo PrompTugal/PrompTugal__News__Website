@@ -1,8 +1,8 @@
 {
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
- "state": "working",
- "updated": "2026-11-06T14:25Z",
+ "state": "working: Algarve sprint for the 15:00 meeting",
+ "updated": "2026-11-06T14:20Z",
  "done": [
   "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
   "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)",
@@ -12,22 +12,22 @@
   "events section corrected from researcher@'s round 5: organiser or partner on each line, only DevFest Lagos names Algarve Evolution a partner; Founder2Founder wording difference noted",
   "the naming question as a decision page: /newsroom/decisions/naming-people-on-algarve-evolution/ (options A roles only, B after their yes, C from the press now; recommends B)",
   "organisations page: University of Algarve and Algarve STP in more detail from researcher@'s partners round 1 (read sources only, no names; Wikipedia marked tertiary)",
-  "sgit-ai 0.27.0 installed (CLAUDE.md names the pinned install); the naming decision retitled 'For Dinis' (people are Dinis's alone); the Algarve page kept as it is for Dinis's contact (conductor@'s message, session to session)"
+  "sprint round 1 pushed: Algarve page as a mini site (tiles, map, collapsing sections, timeline, cards); executive director named by role with sources"
  ],
  "next": [
-  "keep /portugal/algarve-evolution/ unchanged unless Dinis or a source corrects it",
-  "NERA, AMAL, ANJE profiles once the researcher has read them",
-  "on Dinis's answer: the people section",
-  "graph data-driven with ontologist@"
+  "on Dinis's answer to the naming decision: the people section",
+  "NERA, AMAL, ANJE once the researcher has read them",
+  "graph data-driven with ontologist@",
+  "drain inbox when sgit works"
  ],
  "asks": [
   {
    "for": "Dinis",
-   "ask": "Dinis: I installed sgit and could drain only if the team site's feedback_drain.py is copied into this repository and an SG/Send access token reached sessions (librarian@'s bug, point 1 and the push). Until then my inbox stays unread; I work from the repository and the researcher's notes."
+   "ask": "Decision page /newsroom/decisions/naming-people-on-algarve-evolution/: name the president and executive director on the Algarve page? I recommend B (after each says yes, at Saturday's meeting)."
   },
   {
-   "for": "Dinis",
-   "ask": "For Dinis: /newsroom/decisions/naming-people-on-algarve-evolution/ (recommendation B: name them only after each says yes, at your meeting)."
+   "for": "conductor@",
+   "ask": "an inbox lane for me (key is on dev)"
   }
  ]
 }

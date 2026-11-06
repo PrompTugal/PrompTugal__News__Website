@@ -9,12 +9,21 @@
   "seen_by_report": false,
   "why_unseen": "The run report counts writes outside the grant and calls inside it; it does not read what a tool prints.",
   "what": "While sending a message on the conductor's inbox lane, a debugging line printed the whole result of decrypting the agent's own sealed lane token. The result holds the token in plain text. It went into the session transcript.",
-  "secret": { "kind": "append token (write-only), one lane of board/inbox.json", "owner": "customers@PrompTugal.dinis lane on conductor@PrompTugal.dinis's inbox", "value": "withheld" },
+  "secret": {
+    "kind": "append token (write-only), one lane of board/inbox.json",
+    "owner": "customers@PrompTugal.dinis lane on conductor@PrompTugal.dinis's inbox",
+    "value": "withheld"
+  },
   "exposure": {
     "allows": "append a payload to that one lane; cannot read it, any other lane, or any key",
     "worst_case": "noise (a full lane answers 507) or a message claiming to be customers@, which would not verify against board/keys.json because real messages are sealed and signed",
     "where": "the session transcript only; not committed (searched the repository), not pushed, not sent to a host",
-    "not_exposed": ["private keys", "vault keys", "the conductor's inbox contents", "contact details"]
+    "not_exposed": [
+      "private keys",
+      "vault keys",
+      "the conductor's inbox contents",
+      "contact details"
+    ]
   },
   "response": [
     "searched the repository for the token: no hit",
@@ -23,7 +32,10 @@
     "asked the conductor in status.json to reissue the lane",
     "wrote the page /newsroom/decisions/an-agent-printed-its-own-lane-token/"
   ],
-  "open": ["the lane's reissue (conductor@)", "which preventive control to build (Dinis)"],
+  "open": [
+    "the lane's reissue (conductor@)",
+    "which preventive control to build (Dinis)"
+  ],
   "options": [
     "1 a token alone writes nothing: the server requires a signature from a listed key",
     "2 short-lived or single-use tokens",
@@ -35,5 +47,10 @@
     "8 deny inline decrypt-and-print in the command"
   ],
   "recommended_first": "1 or 2 for lanes; 3 for every secret an agent handles; 5 with 6 to catch the rest within the hour",
-  "page": "content/newsroom/decisions/an-agent-printed-its-own-lane-token.md"
+  "page": "content/newsroom/decisions/an-agent-printed-its-own-lane-token.md",
+  "related": {
+    "note": "security@ added its view on the page at 14:10 UTC: this is the third case of a secret printed by a library call (security@ at 04:30, sgit printing accountant@'s inbox key at 09:50, then this one), with one cause: the send tool had no file for the conductor's inbox, so agents wrote their own decrypt scripts. Its plan: the conductor's inbox file (option 3), a transcript scan (option 6) now, daily key rotation (option 2), a register of hashes (option 5) next.",
+    "page": "content/newsroom/decisions/an-agent-printed-its-own-lane-token.md"
+  },
+  "decision": "a PT decision, the team's: abp@ owns it (Dinis, 6 November, 13:05: decisions go to him only when they are his alone)"
 }

@@ -4,9 +4,129 @@
   "kept_by": "dev.data@PrompTugal.dinis",
   "updated": "2026-11-06",
   "claims": [
-    {"id": "c01", "text": "Web Summit's organisers announced in September 2015 that the event would move from Dublin to Lisbon from 2016.", "kind": "fact", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "The Web Summit in Dublin will be no more from 2016 with the organisers confirming that the event is to up sticks and move to Lisbon", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["event:web-summit-lisbon-2016", "organisation:web-summit"]},
-    {"id": "c02", "text": "The organisers cited infrastructure as one of their reasons for leaving Dublin (as Silicon Republic reports it).", "kind": "fact", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "with the organisation citing infrastructure as one of the reasons for its decision", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["organisation:web-summit"]},
-    {"id": "c03", "text": "Founder Paddy Cosgrave said the move was made to take the next step in international growth.", "kind": "fact", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "We are going because we want to take the next step on our journey to international growth.", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["organisation:web-summit"]},
-    {"id": "c04", "text": "The article reports a venue in Lisbon with capacity for more than 80,000 attendees, and expected more than 30,000 people at the 2015 edition in Dublin's RDS.", "kind": "estimate", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "This November, the Web Summit expects more than 30,000 people to attend the event in the RDS.", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["event:web-summit-dublin-2015", "event:web-summit-lisbon-2016"]}
+    {
+      "id": "c01",
+      "text": "Web Summit's organisers announced in September 2015 that the event would move from Dublin to Lisbon from 2016.",
+      "kind": "fact",
+      "source": "siliconrepublic-2015-09-23-move-to-lisbon",
+      "quote": "The Web Summit in Dublin will be no more from 2016 with the organisers confirming that the event is to up sticks and move to Lisbon",
+      "published": "2015-09-23",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2016",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "The organisers cited infrastructure as one of their reasons for leaving Dublin (as Silicon Republic reports it).",
+      "kind": "fact",
+      "source": "siliconrepublic-2015-09-23-move-to-lisbon",
+      "quote": "with the organisation citing infrastructure as one of the reasons for its decision",
+      "published": "2015-09-23",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "Founder Paddy Cosgrave said the move was made to take the next step in international growth.",
+      "kind": "fact",
+      "source": "siliconrepublic-2015-09-23-move-to-lisbon",
+      "quote": "We are going because we want to take the next step on our journey to international growth.",
+      "published": "2015-09-23",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "The article reports a venue in Lisbon with capacity for more than 80,000 attendees, and expected more than 30,000 people at the 2015 edition in Dublin's RDS.",
+      "kind": "estimate",
+      "source": "siliconrepublic-2015-09-23-move-to-lisbon",
+      "quote": "This November, the Web Summit expects more than 30,000 people to attend the event in the RDS.",
+      "published": "2015-09-23",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-dublin-2015",
+        "event:web-summit-lisbon-2016"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "On the first Lisbon edition's opening night in 2016, ticket holders were left outside the venue.",
+      "kind": "fact",
+      "source": "thejournal-2016-11-07-queue",
+      "quote": "People who paid thousands for tickets left waiting outside Web Summit",
+      "published": "2016-11-07",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2016"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "TheJournal.ie reported that Web Summit's website confirmed the 2016 edition sold out, with 53,056 people attending.",
+      "kind": "fact",
+      "source": "thejournal-2016-11-07-queue",
+      "quote": "The Web Summit website confirms that the event is sold out with 53,056 people attending.",
+      "published": "2016-11-07",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2016"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "As TheJournal.ie recalls it, the organiser cited unreliable Wi-Fi at the RDS, traffic management, public transport and hotel costs as factors in leaving Dublin.",
+      "kind": "fact",
+      "source": "thejournal-2016-11-07-queue",
+      "quote": "he cited unreliable WiFi at the RDS, issues with traffic management, public transport and hotel costs as influential factors",
+      "published": "2016-11-07",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-dublin-2015",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "In 2016 the late-late ticket prices ran from 1,000 euros (exhibition floor only) to 3,000 (General Attendee), 4,245 (Premium) and 5,245 (Platinum).",
+      "kind": "fact",
+      "source": "thejournal-2016-11-07-queue",
+      "quote": "Late late ticket prices started at €1,000 for exhibition floor only and rose to €3,000 for a General Attendee, €4,245 for Premium and €5,245 for the Platinum ticket.",
+      "published": "2016-11-07",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2016"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "In November 2017 Portugal's Prime Minister criticised a Web Summit dinner held at the National Pantheon in Lisbon as 'offensive'; the organiser apologised.",
+      "kind": "fact",
+      "source": "thejournal-2017-11-14-pantheon",
+      "quote": "Paddy Cosgrave has apologised after Portugal’s Prime Minister criticised him for holding an “offensive” summit dinner at Lisbon’s National Pantheon",
+      "published": "2017-11-14",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2017",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "The Prime Minister said laws would be amended to prevent the Pantheon being used for similar events (as TheJournal.ie reports it).",
+      "kind": "fact",
+      "source": "thejournal-2017-11-14-pantheon",
+      "quote": "Laws will be amended to prevent the Pantheon from being used for similar events in the future, according to Costa",
+      "published": "2017-11-14",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2017"
+      ]
+    }
   ]
 }

@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "working",
-  "updated": "2026-11-06T12:55Z",
+  "updated": "2026-11-06T14:20Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -12,17 +12,17 @@
     "review for the pass the-summit-days, round 1: what exists (the agenda's day list) and 7 needs any proposal must meet",
     "06:30 wake: re-measured the top (T5 done; T1 worse, rank 1) and the synthetic readers page (S1 to S4, S7 done; 64 to 18 phone screens); first reviews of the articles page (6) and the companies page (6)",
     "09:30 wake: the summit days round 1 (go for the reader, D8 to D11), the front page round 2 (go, F9 to F11; F4 done), the top re-measured (no change; T14 the second search), first reviews of the people page (P1 to P3) and the Portugal section (PT1 to PT4)",
-    "12:30 wake: my verdict on the top's four options for Dinis's decision page (A everywhere, the days strip under it on the front and summit pages; B second); the live top re-measured (no change since 06:30; T9 still open); a name for the reader's own area (SR-08)"
+    "12:30 wake: my verdict on the top's four options for Dinis's decision page (A everywhere, the days strip under it on the front and summit pages; B second); the live top re-measured (no change since 06:30; T9 still open); a name for the reader's own area (SR-08)",
+    "14:15 (on the conductor's note): Dinis's design decisions read (the top is C, with D's days strip); the watch list for C's first live measure (T19) and an A/B arm (T20)"
   ],
   "next": [
-    "re-measure the top as soon as Q1 to Q9 are live",
-    "re-measure the front page and the days once dev.pages@ builds them",
-    "review the-big-graphs, the-graph-explorer-next and page-presentations; the search pass once security@ says go"
+    "measure C on the live site as soon as it ships (T19)",
+    "drain my inbox once sgit_ai is installed",
+    "review the-big-graphs, the-graph-explorer-next and page-presentations at the 15:30 wake"
   ],
   "asks": [
-    "For Dinis: the top's decision page (/newsroom/design/decisions/the-top-of-the-page/) now has my verdict in board/team/sherpa/review-2026-11-06-1230-the-top-a-to-d.md: A, with the days strip under it, not instead of it",
-    "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros?",
-    "For the conductor: my inbox cannot be drained here (feedback_drain.py needs sgit_ai and the sgit command); a drain tool in this repository would unblock every agent"
+    "Dinis: I am blocked from my inbox. `pip install sgit-ai==0.27.0` (the environment's setup script since 14:05 UTC) was refused in this session by the permission check (auto mode classifier), so the messages waiting since 04:30 cannot be drained; a restart of this session (which runs the setup script) or an allow rule for that one pinned install would unblock it",
+    "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros?"
   ],
   "wakes": [
     {
@@ -54,6 +54,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "the top's A to D verdict for the decision page; live re-measure (no change)"
+    },
+    {
+      "started": "2026-11-06T14:11Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "the conductor's note: decisions read, C's watch list; inbox blocked (install refused)"
     }
   ]
 }

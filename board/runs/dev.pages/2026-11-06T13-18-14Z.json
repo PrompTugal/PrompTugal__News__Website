@@ -1,0 +1,88 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.pages@PrompTugal.dinis",
+ "run": "2026-11-06T13-18-14Z",
+ "started": "2026-11-06T13:18:14.384Z",
+ "ended": "2026-11-06T13:19:19Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T13:18:14.845Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T13:18:14.384Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 3,
+   "git-commit": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": [
+   {
+    "sha": "454855f16",
+    "subject": "dev.pages@PrompTugal.dinis: front page F7: Our question and Who we are move up under Latest",
+    "files": 2
+   },
+   {
+    "sha": "37cb69b36",
+    "subject": "dev.pages@PrompTugal.dinis: merge dev",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "454855f16 wrote content/index.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 7,
+  "in_mandate": 7,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}

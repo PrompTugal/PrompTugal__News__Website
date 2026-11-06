@@ -243,6 +243,30 @@
       ]
     },
     {
+      "id": "event-platform",
+      "shelf": "publishing",
+      "name": "A personalisation and event management platform, for your event",
+      "maturity": "partial",
+      "buyer_says": "I want an event where every attendee gets their own schedule, saved on all their devices, and a debrief afterwards.",
+      "what": "The whole of what this team is making for the Web Summit week, offered for other events once it is right for this one (Dinis, 6 November 2026: \"something that we could sell for other events, but let's get it right for this event\"): the agenda as linked data, a schedule made for each person from who they say they are, a passkey vault so it follows them from browser to tablet, and a debrief of what happened for them afterwards, each point with its source.",
+      "today": "The agenda and event pages run (more than 200 items, past editions as data). The passkey vault is built and the personalisation is designed: no code yet for personas, schedule or debrief. It is being made right for this summit first.",
+      "limits": "Not for sale as a product yet: it is sold as a bespoke piece of work until this summit has shown that it works. The vault cannot be created on the live site until an access key is issued.",
+      "proof": [
+        "summit/agenda.html",
+        "account/vault.html",
+        "board/guidance/2026-11-06-pt-decisions-passkey-and-the-platform.md"
+      ],
+      "starter": "Your schedule turned into an agenda site, and a hand-made personal schedule for one person or delegation from it.",
+      "team": "The agenda site, a persona picker for three to five personas saved in the browser, printable schedules, and the passkey vault when it is ready.",
+      "build": "The full platform made for your event: agenda, personalisation across devices, debrief, and a hand-over so you can run the next edition.",
+      "ask": "What would make an attendee of your event open a personal schedule every morning, and would they pay for it?",
+      "refs": [
+        "event-agenda-and-past-editions",
+        "personal-schedule-from-personas",
+        "passkey-personal-vault"
+      ]
+    },
+    {
       "id": "publish-a-site",
       "shelf": "publishing",
       "name": "Publish a site like this one, that people and AI both read",
