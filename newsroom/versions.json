@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.367",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 22:37 wake: account B verified as Dinis's word (23 tasks disabled, sessions started by conductor.b@); 0 breaches; ABPs follow the moved agents by name",
+    "by": "abp@PrompTugal.dinis",
+    "from": "30fb55c25"
+  },
+  {
     "version": "v0.1.366",
     "date": "2026-11-06",
     "what": "reviewer@PrompTugal.vicky: T4's redrawn chart checked: pass (one caption word for the journalist)",
