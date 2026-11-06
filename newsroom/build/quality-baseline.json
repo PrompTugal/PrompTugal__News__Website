@@ -1,0 +1,271 @@
+{
+  "about": "The ratchet of newsroom/build/features/quality.mjs: the most prose (bytes of string literals of eight words or more) and HTML tags each code file may hold. Made and lowered by newsroom/tools/quality-baseline.mjs; it only goes down, except a line raised with --accept and its reason. The aim is zero: words in content/ (markdown), data in data/ (JSON), code in newsroom/build/, newsroom/tools/ and assets/.",
+  "measured_at": "2026-11-06T03:23Z",
+  "version": "v0.1.83",
+  "files": {
+    "assets/obs/obs-view.js": {
+      "prose": 17183,
+      "tags": 0
+    },
+    "newsroom/build/features/graph.mjs": {
+      "prose": 12394,
+      "tags": 103
+    },
+    "newsroom/build/features/newsroom.mjs": {
+      "prose": 12141,
+      "tags": 94
+    },
+    "newsroom/build/features/account.mjs": {
+      "prose": 7990,
+      "tags": 8
+    },
+    "newsroom/build/features/api.mjs": {
+      "prose": 5045,
+      "tags": 0
+    },
+    "newsroom/build/lib/shell.mjs": {
+      "prose": 4751,
+      "tags": 67
+    },
+    "newsroom/build/features/observability.mjs": {
+      "prose": 4668,
+      "tags": 9
+    },
+    "assets/chat/chat.js": {
+      "prose": 4622,
+      "tags": 83
+    },
+    "assets/vault/vault.js": {
+      "prose": 3525,
+      "tags": 0
+    },
+    "newsroom/build/features/companies.mjs": {
+      "prose": 2957,
+      "tags": 0
+    },
+    "newsroom/build/features/billing.mjs": {
+      "prose": 2779,
+      "tags": 0
+    },
+    "newsroom/build/features/chat.mjs": {
+      "prose": 2684,
+      "tags": 3
+    },
+    "newsroom/build/features/search.mjs": {
+      "prose": 2222,
+      "tags": 3
+    },
+    "assets/graph/commands.js": {
+      "prose": 2175,
+      "tags": 0
+    },
+    "assets/core/tools.js": {
+      "prose": 2103,
+      "tags": 0
+    },
+    "assets/search/search.js": {
+      "prose": 2004,
+      "tags": 46
+    },
+    "newsroom/build/features/portugal.mjs": {
+      "prose": 1570,
+      "tags": 0
+    },
+    "newsroom/build/features/newsroom-draw.mjs": {
+      "prose": 1525,
+      "tags": 18
+    },
+    "assets/meter/meter.js": {
+      "prose": 1520,
+      "tags": 0
+    },
+    "newsroom/build/tests/test_billing_browser.mjs": {
+      "prose": 1519,
+      "tags": 0
+    },
+    "assets/chat/chat-core.js": {
+      "prose": 1491,
+      "tags": 0
+    },
+    "newsroom/build/features/events.mjs": {
+      "prose": 1337,
+      "tags": 0
+    },
+    "newsroom/build/lib/seo.mjs": {
+      "prose": 1256,
+      "tags": 0
+    },
+    "newsroom/build/tests/test_vault.mjs": {
+      "prose": 1209,
+      "tags": 0
+    },
+    "assets/graph/explorer.js": {
+      "prose": 1083,
+      "tags": 70
+    },
+    "newsroom/tools/old-host.mjs": {
+      "prose": 1052,
+      "tags": 4
+    },
+    "newsroom/build/features/topics.mjs": {
+      "prose": 1028,
+      "tags": 0
+    },
+    "newsroom/build/features/tools.mjs": {
+      "prose": 1013,
+      "tags": 0
+    },
+    "newsroom/build/features/organisations.mjs": {
+      "prose": 998,
+      "tags": 0
+    },
+    "assets/login/login.js": {
+      "prose": 991,
+      "tags": 0
+    },
+    "newsroom/build/tests/test_meter.mjs": {
+      "prose": 958,
+      "tags": 0
+    },
+    "assets/search/search-core.js": {
+      "prose": 740,
+      "tags": 0
+    },
+    "newsroom/build/lib/derive.mjs": {
+      "prose": 708,
+      "tags": 0
+    },
+    "newsroom/build/lib/datacheck.mjs": {
+      "prose": 673,
+      "tags": 0
+    },
+    "newsroom/tools/person-key.mjs": {
+      "prose": 611,
+      "tags": 0
+    },
+    "newsroom/build/validate.js": {
+      "prose": 610,
+      "tags": 1
+    },
+    "newsroom/build/features/login.mjs": {
+      "prose": 454,
+      "tags": 0
+    },
+    "newsroom/build/features/people.mjs": {
+      "prose": 449,
+      "tags": 0
+    },
+    "newsroom/tools/desks-snapshot.mjs": {
+      "prose": 427,
+      "tags": 0
+    },
+    "assets/vault/vault-core.js": {
+      "prose": 386,
+      "tags": 0
+    },
+    "newsroom/build/features/places.mjs": {
+      "prose": 385,
+      "tags": 0
+    },
+    "newsroom/build/features/live.mjs": {
+      "prose": 372,
+      "tags": 0
+    },
+    "newsroom/tools/runs.mjs": {
+      "prose": 316,
+      "tags": 0
+    },
+    "newsroom/build/lib/writers.mjs": {
+      "prose": 312,
+      "tags": 0
+    },
+    "newsroom/build/lib/companies-map.mjs": {
+      "prose": 247,
+      "tags": 0
+    },
+    "assets/obs/obs.js": {
+      "prose": 242,
+      "tags": 0
+    },
+    "newsroom/build/features/agenda.mjs": {
+      "prose": 241,
+      "tags": 0
+    },
+    "newsroom/tools/agent-log.mjs": {
+      "prose": 225,
+      "tags": 0
+    },
+    "newsroom/build/features/front.mjs": {
+      "prose": 220,
+      "tags": 0
+    },
+    "assets/chat/boot.js": {
+      "prose": 213,
+      "tags": 1
+    },
+    "assets/themes.js": {
+      "prose": 201,
+      "tags": 10
+    },
+    "newsroom/build/features/versions.mjs": {
+      "prose": 178,
+      "tags": 2
+    },
+    "newsroom/build/build.mjs": {
+      "prose": 174,
+      "tags": 0
+    },
+    "newsroom/tools/companies.mjs": {
+      "prose": 160,
+      "tags": 0
+    },
+    "assets/live/live.js": {
+      "prose": 157,
+      "tags": 8
+    },
+    "newsroom/tools/sign-article.mjs": {
+      "prose": 144,
+      "tags": 0
+    },
+    "newsroom/tools/derive.mjs": {
+      "prose": 130,
+      "tags": 0
+    },
+    "newsroom/build/tests/vault-mock.mjs": {
+      "prose": 113,
+      "tags": 1
+    },
+    "newsroom/build/lib/markdown.mjs": {
+      "prose": 79,
+      "tags": 15
+    },
+    "newsroom/build/features/articles.mjs": {
+      "prose": 73,
+      "tags": 0
+    },
+    "assets/core/tool-api.js": {
+      "prose": 70,
+      "tags": 0
+    },
+    "newsroom/build/features/graph/minigraph.mjs": {
+      "prose": 67,
+      "tags": 2
+    },
+    "assets/vault/boot.js": {
+      "prose": 62,
+      "tags": 0
+    },
+    "newsroom/build/features/notfound.mjs": {
+      "prose": 53,
+      "tags": 0
+    },
+    "assets/graph/engine.js": {
+      "prose": 50,
+      "tags": 0
+    },
+    "assets/login/keyring.js": {
+      "prose": 46,
+      "tags": 0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/* /newsroom/desks/: the map of captures, story candidates and articles (features/desks.mjs). Tokens from assets/tokens.css. */
+.dk-map { margin: 1rem 0 1.5rem; overflow-x: auto; }
+.dk-map svg { width: 100%; min-width: 760px; height: auto; font: 11px/1 var(--mono, monospace); }
+.dk-map text { fill: var(--ink-2, var(--ink)); }
+.dk-map .dk-h { font-weight: 600; text-transform: uppercase; letter-spacing: .06em; fill: var(--ink-3, var(--ink)); }
+.dk-map .dk-l { fill: none; stroke: var(--rule); stroke-width: 1; opacity: .7; }
+.dk-map .dk-l.on { stroke: var(--brand); opacity: .9; }
+.dk-map circle { fill: var(--paper); stroke: var(--ink-3, var(--ink)); stroke-width: 1.2; }
+.dk-map .dk-c.idle text { fill: var(--ink-3, var(--ink)); opacity: .7; }
+.dk-map .dk-s.on circle, .dk-map .dk-a circle { fill: var(--brand); stroke: var(--brand); }
+.dk-map .dk-a text { fill: var(--brand); text-decoration: underline; }

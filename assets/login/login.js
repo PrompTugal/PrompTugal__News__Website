@@ -10,7 +10,7 @@
 //            'mismatch' | 'no-crypto'), entry (the public record, or null) }
 //   event 'pt:login' on window, with the state, whenever it changes; tool auth.whoami (read) on window.__tool.
 //
-// On every page: a small chip in #nr-tools once you are signed in. On /login/: the sign-in panel (#pt-login): scan the
+// On every page: a small chip in #nr-tools once you are signed in. On /login/: the sign-in panel (.pt-login, a layout hook in content/login.md): scan the
 // QR code with the camera, choose a picture of it, or paste the link. QR codes are read with the browser's
 // BarcodeDetector where it has one, else with jsQR (assets/vendor/jsqr/1.4.0/, loaded only then).
 (() => {
@@ -78,7 +78,7 @@
     }
     let panel = null, msg = null, video = null, stream = null
     function drawPanel() {
-        panel = document.getElementById('pt-login'); if (!panel) return
+        panel = document.querySelector('#pt-login, .pt-login'); if (!panel) return
         stopCamera(); panel.textContent = ''
         const st = state
         panel.append(h('div', { class: 'pt-login-state ' + (st.verified ? 'ok' : st.person ? 'warn' : '') }, [

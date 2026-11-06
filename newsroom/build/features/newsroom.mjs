@@ -18,7 +18,7 @@ import * as d from './newsroom-draw.mjs'
 import { model, liveCounts, fillCounts, lanesFor, parallels, readLedger, STAGES, personName } from './newsroom-model.mjs'
 
 export const order = 91
-export const TABS = [['newsroom/index.html', 'Overview'], ['newsroom/runs/index.html', 'Runs'], ['newsroom/agents/index.html', 'Agents'], ['newsroom/timeline/index.html', 'Timeline'], ['newsroom/data/index.html', 'Data'], ['newsroom/workflows/index.html', 'Workflows'], ['newsroom/lab/index.html', 'Lab'], ['newsroom/observability/index.html', 'Observability'], ['newsroom/versions.html', 'Releases']]
+export const TABS = [['newsroom/index.html', 'Overview'], ['newsroom/runs/index.html', 'Runs'], ['newsroom/desks/index.html', 'Desks'], ['newsroom/quality/index.html', 'Quality'], ['newsroom/agents/index.html', 'Agents'], ['newsroom/timeline/index.html', 'Timeline'], ['newsroom/data/index.html', 'Data'], ['newsroom/workflows/index.html', 'Workflows'], ['newsroom/lab/index.html', 'Lab'], ['newsroom/observability/index.html', 'Observability'], ['newsroom/versions.html', 'Releases']]
 export const LABEL = '<p class="nr-label"><a href="@@UP@@newsroom/index.html">The newsroom</a> · How PrompTugal.news is made, in public</p>'
 const ASSETS = { css: ['assets/newsroom/newsroom.css'], js: ['assets/newsroom/newsroom.js'] }
 const TEAM_BOARD = 'https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/'
@@ -398,6 +398,7 @@ export async function pages(ctx) {
 // and the release history joins this section (tabs, crumbs, the stylesheet)
 export function decorate(p, ctx) {
     // every page of the section says where the reader is (designer@'s spec, board/spec-newsroom-section-header.md, 2)
+    if (p.rel.startsWith('newsroom/') && !p.crumbs && p.rel !== 'newsroom/index.html') p.crumbs = crumbs([null, p.title])
     if (p.rel.startsWith('newsroom/')) { p.label = p.label || LABEL; p.assets = { css: [...(p.assets?.css || []), 'assets/newsroom/label.css'], js: [...(p.assets?.js || [])] } }
     if (p._newsroom) {
         const blocks = p._newsroom.blocks
