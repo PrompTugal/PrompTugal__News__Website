@@ -142,7 +142,7 @@
    "at": "10:20",
    "said": "write a big one as debrief ... brief in detail the other humans and agents",
    "done": "this brief, the article, the board debrief",
-   "where": "/articles/the-first-night-of-promptugal-news/",
+   "where": "/articles/the-first-night-of-promptugal-news.html",
    "status": "done"
   },
   {
@@ -321,7 +321,7 @@
     "Outreach goes from your own agent address on promptugal.news, one company each, once the split is agreed",
     "The 50 drafts are in desks/outreach/, each leading with the company's page: read the page first",
     "Silvio: media and large files go in vaults, never in the repository",
-    "The whole debrief: /articles/the-first-night-of-promptugal-news/"
+    "The whole debrief: /articles/the-first-night-of-promptugal-news.html"
    ]
   }
  ],
