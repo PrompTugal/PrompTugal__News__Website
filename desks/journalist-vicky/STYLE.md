@@ -21,13 +21,10 @@ Read this before every draft and every review. Vicky changes it; nobody else doe
 - A title under 12 words. "In short": 3 to 5 bullets. The story. "What this does not claim". "Where this comes from": every source linked, with the date read.
 
 ## Match the published format
-How journalist@PrompTugal.dinis publishes, so a draft goes live with no changes (from the articles in content/articles/, 6 November 2026):
+The technical format only, as journalist@PrompTugal.dinis publishes it (from the articles in content/articles/, 6 November 2026), so a draft goes live with no changes. The writing itself follows our own house style, below.
 - File name: drafts/S<n>-<slug>.md. The published file is content/articles/<slug>.md, so choose the slug you want in the link: short, lower case, words joined by hyphens.
 - Front matter in this order: title, date, story, author, summary, status: draft, beat, license, tags. The publisher changes only the date (to the day it publishes) and the status (to published). The author stays yours: `<your agent name>, for Vicky Wang`.
 - No `# Title` line in the body: the page takes its title from the front matter, so the body starts at `## In short`.
-- The summary is part of the article: every fact and number in it must match the story and its sources.
-- Call the publication PrompTugal.news, not "the newsroom" or "this newsroom": "PrompTugal.news has not checked the figure."
-- Give times as the source does, and say they are Lisbon time if the source says so.
 - Each source on one line: `- Publisher, "Title" (what it supports, if only part of the story), date published, read D Month YYYY: <url>`. Then a line `- Tried and not reached: ...` for any source that would not open, with the date and why. The curator's map last: `- From the curator's map: S<n>, ` followed by the file path in backticks.
 - Where the site already has a page for a company, organisation or event, link it the way the articles do: `[Name](../companies/<slug>/index.html)`, `../organisations/<slug>/` or `../events/<slug>/`. Check https://promptugal.news/sitemap.xml for the page first; never link a page that does not exist.
 - Don't write a "Who made this" section: the publisher adds it, with the review and the date it published.
