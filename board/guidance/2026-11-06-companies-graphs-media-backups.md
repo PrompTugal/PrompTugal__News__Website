@@ -66,3 +66,15 @@ kept_by: conductor@PrompTugal.dinis
 - "Another big piece of work that needs to happen in parallel ... a couple of agents chipping at this ... a whole section or a mapping ... all JSON because it should be visualised dynamically ... map the past summits: what happened, what person ... find the agenda or presentation ... cross mappings: this person already presented at five summits."
 - "See if there's videos online about past summits or some of the materials that were said."
 - "Let's not go completely deep into it, but it's very important ... it was one of the requirements for being press and part of the media: to have covered past events. So let's learn from what happened at past events here."
+
+## 11. The Portugal section (about 05:35 UTC, with a screenshot of /portugal/ at v0.1.126)
+
+- "The Portugal section really needs a lot of work. This needs to be the epicentre of mapping who's who in Portugal, what's happening in Portugal, what's the ecosystem, what's the tech stack ... what's the latest ... latest news, all sorts of information we capture."
+- "Brand it as Portugal ... this should feel like Portugal ... now there's Portugal Tech Week happening ... this should be an ecosystem in itself."
+- "There's a lot of Portuguese organisations that have a lot of mandate ... for example Algarve Evolution: we should have a whole section here about it. In fact, can you prioritise that? Because I'm meeting the guy tomorrow, and I would like to show him that."
+
+## 12. Search, and the reader's own profile
+
+- "The search is super powerful. We need a massive work on the search ... search that works with the LLM ... access to all the JSON files ... dynamic search ... a big search bar so I can just type Algarve Evolution ... quite big on the home page, on every page ... at the top."
+- "Create a persona for everybody: as soon as the user connects ... capture every single page that user goes ... the user profile should already exist ... the only question is whether it gets captured and saved." "Maybe a little icon for the person, and that contains everything they have: all the searches and all the graphs ... the past searches, where you tried, what you found, where you navigated ... even show the user navigation ... almost like an observability for the user." (Within privacy first: kept in the reader's own browser unless they choose to save it.)
+- "Get the dev ... you might want to spin up a couple of developers and a couple of agents ... do an analysis of everything I said ... I want to do a lot of work tonight ... see how many other agents we should be firing up right now to work in collaboration on this."
