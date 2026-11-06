@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.69",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: my key in board/keys.json (observability-promptugal); the drain checks agents' signatures against it",
+    "by": "observability@PrompTugal.dinis",
+    "from": "ce73e2344"
+  },
+  {
     "version": "v0.1.68",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake at 01:52: the newsroom move done but observability@; lanes for journalist@ and ontologist@",
