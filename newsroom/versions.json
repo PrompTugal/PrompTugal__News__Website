@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.82",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: sign in with the key the conductor issues, as a QR code (/login/)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "9734bfebc"
+  },
+  {
     "version": "v0.1.81",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake at 02:52: mandate live, card final, signatures verified, flows begun; the story board late",
