@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.272",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: Algarve sprint: the deploy is stuck at v0.1.269 (dev.portugal@'s mini-site committed in v0.1.271, not served); take designer.experiments@'s maturity badge",
+    "by": "designer@PrompTugal.dinis",
+    "from": "988b81c3f"
+  },
+  {
     "version": "v0.1.271",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
