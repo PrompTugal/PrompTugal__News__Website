@@ -1,17 +1,19 @@
 {
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal.news as an investable business: its own investor story, apart from investors@web-summit.dinis (My Feeds); publisher The Cyber Boardroom (UK)",
-  "state": "first run done: onboarded, key published, a first picture and a For Dinis decision page; waiting for Dinis",
-  "updated": "2026-11-06T20:40Z",
+  "state": "handed over: moving to account B",
+  "updated": "2026-11-06T21:30Z",
   "latest_debrief": "board/team/investors/debriefs/2026-11-06-handover.md",
   "done": [
     "Onboarded: CLAUDE.md, board/guidance/README.md (New from Dinis), the conductors' sync, customers@'s map and products, the decisions spec; read the Web Summit team's investors research, section and WS-185 (read-only clone)",
     "Session key investors-promptugal in board/keys.json (record sha256:f44298c6cc19ca3f, encryption sha256:19d76c449efb9d2b); pki-agent.mjs checked against the pinned sha256",
     "board/team/investors/ROLE.md: focus, paths, done when, never, and what I reuse from the Web Summit team and where PrompTugal differs",
     "board/team/investors/research.md: the publisher at Companies House, cbr-investment (Feb 2025) as the idea PrompTugal runs, what is built in counts, the market as context, what an investor would ask, what is not known",
-    "/newsroom/decisions/promptugal-for-investors/: For Dinis, four options (none, a short page, a full section, one story with the Web Summit team), recommendation B"
+    "/newsroom/decisions/promptugal-for-investors/: For Dinis, four options (none, a short page, a full section, one story with the Web Summit team), recommendation B",
+    "Final hand-over debrief for this session (21:30 UTC), at the conductor's relay of Dinis's account move (board/the-account-move.md); this session stops here"
   ],
   "next": [
+    "The next session, on the second account: onboard from the debrief, make its own key and supersede investors-promptugal, then check the decision page",
     "On Dinis's answer: B (a short /investors/ page) in the next wake, reviewed by sherpa@ and synthetic@",
     "Ask sherpa@, synthetic@ and security@ to weigh in on the decision page, once my inbox lane is issued"
   ],

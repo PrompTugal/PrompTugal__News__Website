@@ -27,6 +27,9 @@ export function validate(gate) {
     const wf = gate.text('.github/workflows/deploy-pages.yml')
     for (const d of DIRS) for (const e of EXT) if (!wf.includes(`--exclude '/${d}/**.${e}'`)) out.push(`.github/workflows/deploy-pages.yml: the artifact step must leave out /${d}/**.${e} (S1, S1b)`)
     if (!wf.includes(`--exclude-from=${DROP}`)) out.push(`.github/workflows/deploy-pages.yml: the artifact step must leave out what ${DROP} lists (the unlinked screenshots)`)
+    // no merge conflict left in a served text file (a stray marker in site.css swallowed a rule on 6 November)
+    for (const f of execFileSync('git', ['ls-files', 'assets/', 'content/', 'data/'], { cwd: gate.ROOT }).toString().split('\n').filter(f => /\.(css|js|mjs|json|md|tmpl)$/.test(f)))
+        if (/^(<<<<<<< |>>>>>>> )/m.test(gate.text(f))) out.push(`${f}: a merge conflict marker is left in it`)
     // nothing the site links to is left out
     const drop = new Set(gate.text(DROP).split('\n').filter(Boolean).map(l => l.slice(1)))
     for (const f of gate.generated) if (f.endsWith('.html')) for (const m of gate.text(f).matchAll(/(?:src|href)="([^"#?]+)"/g)) {

@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-06T18:55Z",
+ "updated": "2026-11-06T21:55Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -26,13 +26,13 @@
    "usd": 500
   },
   "spent_today": {
-   "releases": 248,
-   "usd": 711.44,
-   "read_at": "2026-11-06T18:50Z"
+   "releases": 272,
+   "usd": 792.82,
+   "read_at": "2026-11-06T21:50Z"
   },
   "state": "warn",
-  "used": 1.42,
-  "rate": "API-equivalent, Opus sessions: 128.6 from 15:52 to 18:50 UTC, about 43 an hour (53, 28, 21 and 50 in the windows before)"
+  "used": 1.59,
+  "rate": "API-equivalent: 81.38 from 18:50 to 21:50 UTC on account A, about 27 an hour; the move stopped fifteen agents here at about 21:25"
  },
  "agents": [
   {
@@ -43,14 +43,14 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 53,
-    "usd": 66.53,
-    "output_tokens": 540309,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 58,
+    "usd": 74.1,
+    "output_tokens": 581170,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 1.33,
+   "used": 1.48,
    "state": "warn",
-   "why": "one release per hourly wake; it opens and closes every pass; OVER at 18:50 UTC on usd (used 1.33); keeps working (capture, not block)"
+   "why": "one release per hourly wake; it opens and closes every pass; OVER at 21:50 UTC on usd (used 1.48); keeps working (capture, not block); account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "synthetic@PrompTugal.dinis",
@@ -61,13 +61,13 @@
    },
    "spent_today": {
     "releases": 21,
-    "usd": 59.31,
-    "output_tokens": 493637,
-    "read_at": "2026-11-06T18:50Z"
+    "usd": 63.66,
+    "output_tokens": 517452,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 0.99,
+   "used": 1.06,
    "state": "warn",
-   "why": "two pass reviews and the loop rule's re-reads; the loop Dinis named first"
+   "why": "two pass reviews and the loop rule's re-reads; the loop Dinis named first; OVER at 21:50 UTC on usd (used 1.06); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "designer@PrompTugal.dinis",
@@ -77,14 +77,14 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 23,
-    "usd": 63.04,
-    "output_tokens": 496751,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 24,
+    "usd": 68.89,
+    "output_tokens": 531209,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 1.26,
+   "used": 1.38,
    "state": "warn",
-   "why": "eight pass rounds today (3, 3 and 2) and its own line; OVER at 18:50 UTC on usd (used 1.26); keeps working (capture, not block)"
+   "why": "eight pass rounds today (3, 3 and 2) and its own line; OVER at 21:50 UTC on usd (used 1.38); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "dev@PrompTugal.dinis",
@@ -94,14 +94,14 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 22,
-    "usd": 60.18,
-    "output_tokens": 415356,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 24,
+    "usd": 66.68,
+    "output_tokens": 450009,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 1.0,
+   "used": 1.11,
    "state": "warn",
-   "why": "OVER at 18:50 UTC on usd (used 1.0); keeps working (capture, not block)"
+   "why": "OVER at 21:50 UTC on usd (used 1.11); keeps working (capture, not block); account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "journalist@PrompTugal.dinis",
@@ -111,14 +111,14 @@
     "output_tokens": 500000
    },
    "spent_today": {
-    "releases": 17,
-    "usd": 53.17,
-    "output_tokens": 294786,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 20,
+    "usd": 58.56,
+    "output_tokens": 324248,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 1.52,
+   "used": 1.67,
    "state": "warn",
-   "why": "OVER at 18:50 UTC on usd (used 1.52); keeps working (capture, not block)"
+   "why": "OVER at 21:50 UTC on usd (used 1.67); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "ontologist@PrompTugal.dinis",
@@ -128,14 +128,14 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 18,
-    "usd": 37.35,
-    "output_tokens": 252687,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 21,
+    "usd": 42.11,
+    "output_tokens": 274736,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 1.25,
+   "used": 1.4,
    "state": "warn",
-   "why": "side effect seen: it stopped for the day on its budget before Dinis's 10:10 word; the conductor nudged it back; OVER at 18:50 UTC on usd (used 1.25); keeps working (capture, not block)"
+   "why": "side effect seen: it stopped for the day on its budget before Dinis's 10:10 word; the conductor nudged it back; OVER at 21:50 UTC on usd (used 1.4); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "outreach@PrompTugal.dinis",
@@ -145,14 +145,14 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 11,
-    "usd": 24.06,
-    "output_tokens": 141871,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 12,
+    "usd": 25.59,
+    "output_tokens": 148408,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 1.2,
+   "used": 1.28,
    "state": "warn",
-   "why": "OVER at 18:50 UTC on usd (used 1.2); keeps working (capture, not block)"
+   "why": "OVER at 21:50 UTC on usd (used 1.28); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "observability@PrompTugal.dinis",
@@ -162,14 +162,14 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 8,
-    "usd": 34.23,
-    "output_tokens": 185856,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 9,
+    "usd": 36.22,
+    "output_tokens": 192681,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 1.14,
+   "used": 1.21,
    "state": "warn",
-   "why": "OVER at 18:50 UTC on usd (used 1.14); keeps working (capture, not block)"
+   "why": "OVER at 21:50 UTC on usd (used 1.21); keeps working (capture, not block); account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "historian@PrompTugal.dinis",
@@ -182,10 +182,11 @@
     "releases": 2,
     "usd": 4.24,
     "output_tokens": 36386,
-    "read_at": "2026-11-06T18:50Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.28,
-   "state": "ok"
+   "state": "ok",
+   "why": "account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "correspondent@PrompTugal.dinis",
@@ -195,14 +196,14 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 11,
-    "usd": 39.66,
-    "output_tokens": 472093,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 12,
+    "usd": 43.48,
+    "output_tokens": 478084,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 0.99,
+   "used": 1.09,
    "state": "warn",
-   "why": "every two hours; its beat correspondents run as sub-agents inside its session, so their spend is inside its own figure"
+   "why": "every two hours; its beat correspondents run as sub-agents inside its session, so their spend is inside its own figure; OVER at 21:50 UTC on usd (used 1.09); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "security@PrompTugal.dinis",
@@ -212,14 +213,14 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 11,
-    "usd": 77.59,
-    "output_tokens": 460121,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 12,
+    "usd": 86.43,
+    "output_tokens": 486650,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 2.59,
+   "used": 2.88,
    "state": "warn",
-   "why": "OVER at 18:50 UTC on usd, output_tokens (used 2.59); keeps working (capture, not block)"
+   "why": "OVER at 21:50 UTC on usd, output_tokens (used 2.88); keeps working (capture, not block); account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "sherpa@PrompTugal.dinis",
@@ -230,13 +231,13 @@
    },
    "spent_today": {
     "releases": 6,
-    "usd": 23.11,
-    "output_tokens": 112709,
-    "read_at": "2026-11-06T18:50Z"
+    "usd": 26.5,
+    "output_tokens": 115334,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 0.92,
+   "used": 1.06,
    "state": "warn",
-   "why": "three pass reviews and eight round re-reviews"
+   "why": "three pass reviews and eight round re-reviews; OVER at 21:50 UTC on usd (used 1.06); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "librarian@PrompTugal.dinis",
@@ -246,14 +247,14 @@
     "output_tokens": 250000
    },
    "spent_today": {
-    "releases": 12,
-    "usd": 37.58,
-    "output_tokens": 582575,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 13,
+    "usd": 45.6,
+    "output_tokens": 593635,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 2.51,
+   "used": 3.04,
    "state": "warn",
-   "why": "OVER at 18:50 UTC on usd, output_tokens (used 2.51); keeps working (capture, not block)"
+   "why": "OVER at 21:50 UTC on usd, output_tokens (used 3.04); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "devops@PrompTugal.dinis",
@@ -264,13 +265,13 @@
    },
    "spent_today": {
     "releases": 7,
-    "usd": 31.78,
-    "output_tokens": 122800,
-    "read_at": "2026-11-06T18:50Z"
+    "usd": 40.48,
+    "output_tokens": 129642,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 1.59,
+   "used": 2.02,
    "state": "warn",
-   "why": "OVER at 18:50 UTC on usd (used 1.59); keeps working (capture, not block)"
+   "why": "OVER at 21:50 UTC on usd (used 2.02); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "accountant@PrompTugal.dinis",
@@ -280,14 +281,14 @@
     "output_tokens": 200000
    },
    "spent_today": {
-    "releases": 2,
-    "usd": 26.25,
-    "output_tokens": 115769,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 3,
+    "usd": 31.56,
+    "output_tokens": 126305,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 2.62,
+   "used": 3.16,
    "state": "warn",
-   "why": "OVER at 18:50 UTC on usd (used 2.62); keeps working (capture, not block)"
+   "why": "OVER at 21:50 UTC on usd (used 3.16); keeps working (capture, not block); account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "abp@PrompTugal.dinis",
@@ -297,14 +298,14 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 8,
-    "usd": 17.9,
-    "output_tokens": 182201,
-    "read_at": "2026-11-06T18:50Z"
+    "releases": 9,
+    "usd": 19.9,
+    "output_tokens": 194417,
+    "read_at": "2026-11-06T21:50Z"
    },
-   "used": 0.72,
-   "state": "ok",
-   "why": "opus; the agent behaviour policies and their hooks; budget set at 06:50 UTC, first seen this wake"
+   "used": 0.8,
+   "state": "warn",
+   "why": "opus; the agent behaviour policies and their hooks; budget set at 06:50 UTC, first seen this wake; account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "customers@PrompTugal.dinis",
@@ -314,14 +315,14 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 5,
+    "releases": 6,
     "usd": 13.09,
     "output_tokens": 304824,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 1.02,
    "state": "warn",
-   "why": "sonnet; started by Dinis at 05:33; budget set at 06:50 UTC, first seen this wake; OVER at 18:50 UTC on output_tokens (used 1.02); keeps working (capture, not block)"
+   "why": "sonnet; started by Dinis at 05:33; budget set at 06:50 UTC, first seen this wake; OVER at 21:50 UTC on output_tokens (used 1.02); keeps working (capture, not block); account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "researcher@PrompTugal.dinis",
@@ -331,14 +332,14 @@
     "output_tokens": 200000
    },
    "spent_today": {
-    "releases": 9,
+    "releases": 10,
     "usd": 4.27,
     "output_tokens": 94522,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.47,
    "state": "ok",
-   "why": "sonnet; a worker; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a worker; budget set at 06:50 UTC, first seen this wake; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "backup@PrompTugal.dinis",
@@ -351,11 +352,11 @@
     "releases": 2,
     "usd": 2.38,
     "output_tokens": 32763,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.48,
    "state": "ok",
-   "why": "sonnet; a worker; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a worker; budget set at 06:50 UTC, first seen this wake; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   },
   {
    "agent": "dev.search@PrompTugal.dinis",
@@ -368,11 +369,11 @@
     "releases": 0,
     "usd": 5.58,
     "output_tokens": 86170,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.56,
    "state": "ok",
-   "why": "sonnet; a dotted worker, pushes to work/dev.search; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a dotted worker, pushes to work/dev.search; budget set at 06:50 UTC, first seen this wake; account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "dev.pages@PrompTugal.dinis",
@@ -385,11 +386,11 @@
     "releases": 0,
     "usd": 4.94,
     "output_tokens": 70234,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.49,
    "state": "ok",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "dev.graphs@PrompTugal.dinis",
@@ -402,11 +403,11 @@
     "releases": 0,
     "usd": 8.56,
     "output_tokens": 153637,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.86,
    "state": "warn",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "dev.portugal@PrompTugal.dinis",
@@ -419,11 +420,11 @@
     "releases": 0,
     "usd": 4.64,
     "output_tokens": 83038,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.46,
    "state": "ok",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "dev.data@PrompTugal.dinis",
@@ -436,11 +437,11 @@
     "releases": 0,
     "usd": 2.94,
     "output_tokens": 43700,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.29,
    "state": "ok",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "dev.verify@PrompTugal.dinis",
@@ -453,11 +454,11 @@
     "releases": 0,
     "usd": 4.96,
     "output_tokens": 62748,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.5,
    "state": "ok",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account A: stays (board/the-account-move.md)"
   },
   {
    "agent": "designer.experiments@PrompTugal.dinis",
@@ -470,11 +471,28 @@
     "releases": 0,
     "usd": 4.1,
     "output_tokens": 92663,
-    "read_at": "2026-11-06T15:52Z"
+    "read_at": "2026-11-06T21:50Z"
    },
    "used": 0.46,
    "state": "ok",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
+  },
+  {
+   "agent": "investors@PrompTugal.dinis",
+   "per_day": {
+    "releases": 6,
+    "usd": 15,
+    "output_tokens": 250000
+   },
+   "spent_today": {
+    "releases": 1,
+    "usd": 3.36,
+    "output_tokens": 29160,
+    "read_at": "2026-11-06T21:50Z"
+   },
+   "used": 0.22,
+   "state": "ok",
+   "why": "Opus, every three hours; started by Dinis at 20:02 UTC; budget set at 21:55; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/"
   }
  ],
  "passes": [
@@ -1069,14 +1087,15 @@
   "measured": "not yet: the accountant has no reading of vault sizes; asked of backup@ and observability@ for one number a day"
  },
  "real_limits": {
-  "read_at": "2026-11-06T18:50Z",
+  "read_at": "2026-11-06T21:50Z",
   "subscription": {
    "rate_limit_type": "seven_day",
    "status": "allowed_warning",
    "using_overage": false,
    "source": "rate_limit_info of every PrompTugal session (claude-code-remote get_session), all the same",
    "watch": "the accountant reports at once if the status leaves 'allowed' or overage starts",
-   "changed": "from 'allowed' at 12:52 UTC; reported to Dinis at once (status.json asks, the decision page, the commit)"
+   "changed": "from 'allowed' at 12:52 UTC; reported to Dinis at once (status.json asks, the decision page, the commit)",
+   "note": "account A; account B's limit is read on account B"
   },
   "openrouter": {
    "credit_usd": -0.2,
@@ -1156,5 +1175,25 @@
     "owner": "accountant@ (decided)"
    }
   ]
+ },
+ "accounts": {
+  "read_at": "2026-11-06T21:55Z",
+  "why": "Dinis, about 21:05 UTC: 'we are running a bit hot ... the better way is to move agents to another account I have' (board/the-account-move.md)",
+  "A": {
+   "agents": [
+    "conductor",
+    "security",
+    "accountant",
+    "abp",
+    "dev and its six workers",
+    "observability (until its move)"
+   ],
+   "measured_by": "accountant@ (get_session on account A)"
+  },
+  "B": {
+   "agents": "the fifteen that handed over, in waves",
+   "measured_by": "conductor.b@ into board/team/conductor.b/ledger/ (accountant@ cannot read account B's sessions); accountant@ folds it into the team's day when it is there"
+  },
+  "budgets": "one line per role whatever its account; the subscription limit is per account, so each account's real limit is watched separately"
  }
 }

@@ -2,10 +2,11 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T20:15Z",
- "reviewed_to": "HEAD at 20:03 and the work/* branches",
+ "updated": "2026-11-06T22:15Z",
+ "reviewed_to": "HEAD at 22:03, the work/* branches, 26 transcripts to 22:05",
  "hold": false,
  "done": [
+  "wake 22:05: 83 commits clean; the third clean transcript window; the account move reviewed (S22 blind spot, S23 the token on account B, S24 the pin missing from the first prompts)",
   "wake 20:05: 55 commits clean; S1b fixed and post-reviewed; the offline service worker post-reviewed (sound, every condition met); the transcript scan 18:10 to 20:10: clean (23 sessions); investors@ checked: started on the record",
   "wake 18:05: 30 commits clean; S1 post-reviewed (fixed for desks/ and data/; S1b for board/ and design/); the offline mode pre-reviewed; a hand-over debrief; my tools moved into board/team/security/tools/; the transcript scan 16:10 to 18:10: clean (19 sessions)",
   "17:20: the vault-onboarding brief pre-reviewed (go with conditions; three block the first deploy: a dedicated pilot token, S1 and a strict CSP, an issuer key that outlives a session)",
@@ -25,6 +26,7 @@
   "the pre-review of the three open passes: go, with conditions, in each pass file"
  ],
  "next": [
+  "check each agent that moves to account B: its new key, its first commit, its inbox re-issued, its old task disabled",
   "18:03: review every commit and worker branch; scan the transcripts since 16:10 for secrets (event ids now recorded); count the messages",
   "the pilot rotation: my own key and inbox",
   "sign off observability@'s rotation when done"
@@ -47,7 +49,10 @@
   "S17": "granted by Dinis 12:30 (abp@ to write it)",
   "S18": "half done: sgit-ai pinned in the setup script (not hashed, deps unpinned, || true); the drain in the repo open",
   "S19": "SG_SEND_ACCESS_TOKEN in every session's environment (Dinis)",
-  "S21": "the gate's contact check misses board/ (dev@)"
+  "S21": "the gate's contact check misses board/ (dev@)",
+  "S22": "account B's transcripts unscanned (conductor.b@)",
+  "S23": "SG_SEND_ACCESS_TOKEN on account B too (Dinis)",
+  "S24": "first prompts omit the pki-agent pin (conductor@)"
  },
  "asks": [
   "For Dinis (S11): may the agents treat only signed guidance as your word? (a signing page by dev@)",
@@ -123,8 +128,14 @@
   {
    "started": "2026-11-06T20:03Z",
    "outcome": "ok",
-   "release": "",
+   "release": "v0.1.334",
    "line": "S1b fixed; offline worker post-reviewed"
+  },
+  {
+   "started": "2026-11-06T22:03Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "83 commits clean; transcripts clean; the account move: S22, S23, S24"
   }
  ],
  "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",

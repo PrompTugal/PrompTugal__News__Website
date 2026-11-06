@@ -183,6 +183,27 @@ try {
     await pg3.click('#nr-vault-code-mode'); await pg3.fill('#nr-vault-doorcode', 'AAAA-BBBB-CCCC-DDDD-EEEE-FFFF-GG'); await pg3.click('#nr-vault-doorcode-open')
     await pg3.waitForSelector('#nr-vault-doorcode-none', { timeout: 60000 })
     check(true, 'a code that opens no vault says so')
+
+    // an empty pool says so; a full lane (507) is tried three times and the vault is made all the same
+    const pg4 = await newPage()
+    await pg4.goto(B + 'account/vault.html'); await pg4.waitForSelector('#nr-vault-code-mode', { timeout: 20000 })
+    await pg4.click('#nr-vault-code-mode'); await pg4.click('#nr-vault-doorcode-make')
+    const code4 = await pg4.inputValue('#nr-vault-doorcode-shown')
+    await pg4.fill('#nr-vault-doorcode-tail', code4.replace(/-/g, '').slice(-4)); await pg4.click('#nr-vault-doorcode-go')
+    await pg4.waitForSelector('#nr-vault-nodoor', { timeout: 60000 })
+    await poolWrite(pg4, pool.key, '/pool', 'available.json', await mintPool(issuer, []))
+    await pg4.click('#nr-vault-pilot-draw')
+    await pg4.waitForFunction(() => /empty/.test(document.getElementById('nr-vault-pilot-msg').textContent), null, { timeout: 120000 })
+    check((await pg4.inputValue('#nr-vault-access')) === '', 'an empty pool says so')
+    await poolWrite(pg4, pool.key, '/pool', 'available.json', goodPool)
+    const full = mock.lanes.get(`${LANE}/${APPEND}`)
+    for (let i = 0; full.pending.size < 1000; i++) full.pending.set(`${String(i).padStart(13, '0')}_filler.enc`, { payload: 'x', received: '' })
+    await pg4.click('#nr-vault-pilot-draw')
+    await pg4.waitForFunction(() => document.getElementById('nr-vault-access').value.length > 0, null, { timeout: 120000 })
+    const before4 = mock.vaults().length
+    await pg4.click('#nr-vault-create'); await pg4.waitForSelector('#nr-vault-claimed', { timeout: 120000 })
+    check(/could not be posted/.test(await pg4.textContent('#nr-vault-claimed')) && mock.vaults().length === before4 + 3, 'a full lane: vault made, claim not posted, said so')
+    check(full.pending.size === 1000, 'the full lane took nothing more')
 } catch (e) {
     console.log('FAIL: ' + (e && e.stack || e)); failed++
     try { console.log('pilot message: ' + await pg.textContent('#nr-vault-pilot-msg', { timeout: 2000 })) } catch (x) { /* none */ }

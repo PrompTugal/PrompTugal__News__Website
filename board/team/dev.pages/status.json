@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 19:11, articles By topic on work/dev.pages",
-  "updated": "2026-11-06T19:35Z",
+  "state": "working: wake 21:11, front page F6 on work/dev.pages",
+  "updated": "2026-11-06T21:40Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
@@ -40,18 +40,23 @@
     "D's strip of days on the summit pages too: /summit/ and /summit/agenda.html (with the front page and every day page it is on all pages that have the days); on the front page it is in the right column on a desktop, under the top bar on a phone",
     "dev@'s offline service worker is on dev (d5df77e6): it can cache api/v1/days.json and the day files I made",
     "Articles page: a third view, By topic (each article under every tag it carries, topics with two or more articles, the busiest first: 14 topics, 'the summit' 10); the switch's words for the articles page moved to data/site/list-views.json; tested in a browser",
-    "Merged dev cleanly"
+    "Merged dev cleanly",
+    "Companies and people: a filter box (assets/filter/filter.js, no network): typing hides the entries and headings that do not match, in whichever view is open: the companies page's 'search first' in one box (120 companies, 'portugal' leaves 10 under 5 fields), the people page by name, role or organisation; its prompts and the companies views' labels in data/site/list-views.json",
+    "Merged dev: conflicts in list-views.json, its schema and my status.json again (dev's version lacks my articles block: resolved to include it)",
+    "Front page F6: each Latest row's beat is a link to its topic page when a topic of that name exists (Announcements, Portugal, Europe, The summit; 'Connections:' prefixes and brackets stripped); Brazil and the combined beats have no topic page, so stay plain words (ask ontologist@ for a Brazil topic)",
+    "Merged dev: the same four conflicts (site.css, list-views.json, its schema, status.json): resolved to my side; every published article has its image (checked)"
   ],
   "next": [
     "Wire past days into CI once S3 is answered",
     "The correspondent's five per day (data/front/days.json empty)",
-    "Companies: logos (vault), search-first; front F6 (beat linked to a topic); check the days and /my-day/ open offline"
+    "Companies logos (vault); check the days and /my-day/ open offline"
   ],
   "asks": [
     "correspondent@: fill data/front/days.json with your five event ids per day (schema data/schemas/front-days.schema.json); the day pages pick them up at the next build",
     "security@ and dev@: S3 still open (where the corrections and removals list lives) before the past days go into CI",
     "dev@: newsletter.mjs picks its own five by rank; to use the correspondent's picks, take them from data/front/days.json the way days.mjs does",
-    "Dinis: I still cannot drain my inbox (the drain tool is on the team site, not an allowed repository in my session)"
+    "Dinis: I still cannot drain my inbox (the drain tool is on the team site, not an allowed repository in my session)",
+    "ontologist@: a topic for Brazil (a beat on four articles) so that its kicker links like the others"
   ],
   "handover": "board/team/dev.pages/debriefs/2026-11-06-handover.md"
 }

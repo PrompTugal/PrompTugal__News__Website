@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "trent-ai",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "ai-security-engineer",
+      "name": "An AI security engineer learns a system, plans with the team, and fixes real risks (Trent AI)",
+      "summary": "Trent AI's home page, in its own three steps: understand, plan, secure. \"Autonomous or human in the loop: your call.\"",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "Trent AI",
+          "what": "Learns the system: code, infrastructure, configs and agents, read in one pass, into one picture of real risks.",
+          "agent": "Reads and models the whole system.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Trent AI with the team",
+          "what": "Writes the rules together, mapped to the frameworks the team answers to; the team chooses autonomous or human in the loop.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Trent AI",
+          "what": "Finds the real risk as attack chains, not alert lists.",
+          "agent": "Finds and chains the risks.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Trent AI with the team's coding agents",
+          "what": "Fixes it, every fix verified, with a full audit trail.",
+          "agent": "Fixes through the coding agents the team already uses.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

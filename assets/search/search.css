@@ -53,3 +53,7 @@ a:where(.sp-item), a:where(.res .r-title) { color: var(--ink); text-decoration: 
 .page-front .search.nr-big input, .page-front .search.nr-big button { height: 60px; font-size: 20px; }
 .page-front .search.nr-big .s-icon { top: 20px; width: 20px; height: 20px; }
 .page-front .search.nr-big input { padding-left: 48px; }
+
+/* the instant results hang from the field in the top of every page (design C) */
+.ctop-search { position: relative; }
+.ctop-search .search-pop { min-width: min(520px, 92vw); max-height: min(70vh, 560px); }

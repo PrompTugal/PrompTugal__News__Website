@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "T2",
+  "type": "story",
+  "title": "Who does the work: six people and their 93 agents",
+  "beat": "AI and robotics (the team's own work)",
+  "topic": null,
+  "status": "review",
+  "rests_on": [],
+  "desk_files": [
+    "desks/journalist-vicky/drafts/t2-who-does-the-work.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/journalist-vicky/drafts/t2-who-does-the-work.md",
+      "desks/reviewer-vicky/reviews/t2-who-does-the-work.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/t2-who-does-the-work.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/t2-who-does-the-work.md",
+      "verdict": "Fix first",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-06"
+    }
+  ],
+  "article": null,
+  "next": "the writer answers the review",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/t2-who-does-the-work.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/t2-who-does-the-work.md"
+    }
+  ]
+}
