@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-proton-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Proton: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Proton: could you check it?",
+ "sha256": "efc49e579f9dabf6d8508195ef910edbcc2dc7e56a4470b8c9178574565c0c7d",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Proton leading with its page (https://promptugal.news/companies/proton/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Proton team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/proton/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Proton team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/proton/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

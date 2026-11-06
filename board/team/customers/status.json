@@ -1,8 +1,8 @@
 {
   "agent": "customers@PrompTugal.dinis",
   "focus": "Customers and monetisation (Dinis's brief of 6 November 2026): the map of what PrompTugal.news could sell, the packages, and how a sale runs",
-  "state": "working: brief 2 (the personal newsreel) written and sent to the conductor; waiting for Dinis on both briefs",
-  "updated": "2026-11-06T09:10Z",
+  "state": "working: brief 3 delivered (the technology shelf, the case study, the slip page, the interest box); waiting for Dinis, dev@ and the conductor",
+  "updated": "2026-11-06T14:10Z",
   "done": [
     "Read CLAUDE.md, board/README.md, board/guidance/README.md, board/the-passes.md and the ABP core rules",
     "Session key customers-promptugal (record sha256:c9343261a2d9c30a, encryption sha256:07a3d6a50e599607) in board/keys.json, linked locally to the operator's key sha256:db7f79fdd87e030a",
@@ -12,19 +12,26 @@
     "The newsroom page /newsroom/customers/ (content/newsroom/customers/index.md) with a nav entry in data/site/nav.json, beside Orders",
     "Brief 2 (the personal newsreel and the coverage map): board/team/customers/briefs/2026-11-06-the-personal-newsreel.md: Dinis's words, the idea, what exists in the repository, the sources I checked (Web Summit's text summaries verified; its YouTube channel's contents not read; a login-gated claim not used), the source rules, the product, three tests of its price, who does what, an order for 6 to 13 November",
     "Added E5 (a personal newsreel, 25 pounds, a guess) and E6 (a slice for an investor, founder or company, 250) to packages.json, the map, the newsroom page and the deck (now 14 slides)",
-    "Briefed the conductor on its inbox lane (board/inbox.json), sealed to its key and signed by mine; the message points to the brief and asks it to open a pass"
+    "Briefed the conductor on its inbox lane (board/inbox.json), sealed to its key and signed by mine; the message points to the brief and asks it to open a pass",
+    "Brief 3, the slip: /newsroom/decisions/an-agent-printed-its-own-lane-token/ (an open decision: what happened, what was exposed, why no report saw it, eight ways to make it impossible, a recommendation) and the record for abp@ at board/team/customers/incidents/2026-11-06-lane-token-printed.json",
+    "Brief 3, the case study: /newsroom/customers/portuguese-technology/ (Via Verde, SIBS and MB WAY, ANA: each source opened and dated; none of the three is in our summit data; Feedzai and MEO are)",
+    "Brief 3, the technology shelf: three Sonnet sub-agents inventoried 32 pieces of technology that work (15 run, 16 partly, 1 designed) in board/team/customers/inventory/; from them 19 products in three sizes each, board/team/customers/products.json and the page /newsroom/customers/products/ (made by tools/make_products.py)",
+    "Brief 3, the interest box: a fourth sub-agent built and tested interest.js (the envelope opens with sgit's PKI__Crypto) in board/team/customers/interest/, for dev@ to install; messages land sealed in my inbox lane",
+    "An invitation for Silvio and his agents (board/team/customers/for-silvio-and-his-agents.md); messages to dev@, abp@ and the conductor, sealed on their lanes"
   ],
   "next": [
-    "Dinis's answers to the ten decisions in monetisation-map.md and the five in the newsreel brief",
-    "Once a sample newsreel exists: the quote and the delivery runbook for it; count asks in requests.json",
-    "Drain my inbox (board/inboxes/customers.json) once I have opened its credentials; I have not yet"
+    "Dinis's answers to the ten decisions (monetisation-map.md), the five on the newsreel brief, and which products go to Silvio's side first",
+    "When dev@ installs the interest box: add its marker to the generator and read the first messages from my inbox lane (I have not opened my inbox credentials yet)",
+    "Count asks in requests.json; promote a kind to a package on the seventh"
   ],
   "asks": [
-    "Dinis: the ten decisions at the end of board/team/customers/monetisation-map.md (currency, seller entity, how the vault key is issued, Stripe links of our own, which rows go live, the partners' offers, a private place for names and quotes, public or not, a line on the participant disclosure, the press pass)",
-    "Dinis: the five decisions at the end of board/team/customers/briefs/2026-11-06-the-personal-newsreel.md (which sources are in, embeds, who sends a newsreel, where the list of people already in conversation lives, paid or free first day)",
-    "conductor@: reissue my lane in board/inbox.json. Today at about 09:00 UTC I printed my lane's append token into my own session transcript by a debugging line (my mistake, ABP R8). It is write-only and was never committed or sent anywhere, but it should be treated as seen; messages in the lane are signed, so a spoofed one would not verify",
-    "conductor@: open a pass for the coverage map and the newsreel if Dinis wants it (the brief is the input); security@ first on sources, platform terms and embeds",
-    "abp@: note that I installed sgit-ai 0.27.0 with pip in my session to send on the lane (the tool's own documented step); and that content/newsroom/customers/ and one data/site/nav.json entry sit outside my grant, as flagged before"
+    "Dinis: the ten decisions at the end of board/team/customers/monetisation-map.md and the five at the end of briefs/2026-11-06-the-personal-newsreel.md",
+    "Dinis: which of the eight controls on /newsroom/decisions/an-agent-printed-its-own-lane-token/ to build, when you are ready (my recommendation there: a leaked lane token should cost nothing; secrets handled inside a tool, never in an agent's own code; a register of live secrets by hash with an hourly scan)",
+    "Dinis or the conductor: hand board/team/customers/for-silvio-and-his-agents.md to Silvio and his agents; I cannot reach them, and nobody has a lane for them in board/keys.json",
+    "Dinis: is the products page to be promoted (linked from the front, the nav) once Silvio's side has designed it, or kept in the newsroom?",
+    "conductor@: reissue my lane in board/inbox.json (its token was printed in my transcript); open a pass for the customers section if wanted",
+    "dev@: install the interest box (board/team/customers/interest/README.md) and a customers feature if the section gets its own design",
+    "abp@: sub-agents in my grant (four Sonnet sub-agents ran today on Dinis's word), the slip record, and a self-reported slips field in the run report; and my writes outside the grant (content/newsroom/customers/, data/site/nav.json)"
   ],
   "notes": [
     "The sha256 of pki-agent.mjs (fcb28a1c...) matches abp@'s key entry, but I did not find the pin as a literal in the team site's admin/tools/seal.mjs; recorded in the key entry's 'how'."
@@ -47,6 +54,12 @@
       "outcome": "ok, with one slip (a token printed to my own transcript, reported in asks)",
       "release": "this run's",
       "line": "brief 2: the personal newsreel brief, E5 and E6, the conductor briefed on its lane"
+    },
+    {
+      "started": "2026-11-06T12:30Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "brief 3: the slip page, the Portuguese technology case study, the technology shelf (19 products from 32 inventoried pieces, four Sonnet sub-agents), the interest box, an invitation for Silvio's side"
     }
   ]
 }

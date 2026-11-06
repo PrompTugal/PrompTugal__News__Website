@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-cisco-outshift-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Cisco (Outshift by Cisco): the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Cisco: could you check it?",
+ "sha256": "fa4dec68de28b3c6f8a954ad4c7595d4c3ce74bc001a762e804c8fc280f45495",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Cisco leading with its page (https://promptugal.news/companies/cisco-outshift/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Cisco team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/cisco-outshift/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Cisco team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/cisco-outshift/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

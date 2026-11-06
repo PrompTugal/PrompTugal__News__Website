@@ -26,6 +26,8 @@
     { "id": "r-lib-authority", "when": { "path_prefix": "board/team/librarian/library/authority/" }, "class": "LIB", "sub": "AUTH" },
     { "id": "r-lib-desk", "when": { "path_prefix": "board/team/librarian/library/desk/" }, "class": "LIB", "sub": "DESK" },
     { "id": "r-lib-stocktake", "when": { "path_prefix": "board/team/librarian/library/stocktake/" }, "class": "LIB", "sub": "STOCK" },
+    { "id": "r-lib-vocab", "when": { "path_regex": "^board/team/librarian/library/(indexes|vocabulary)/" }, "class": "LIB", "sub": "AUTH" },
+    { "id": "r-lib-weeding", "when": { "path_exact": "board/team/librarian/library/weeding.md" }, "class": "LIB", "sub": "STOCK" },
     { "id": "r-lib-catalogue", "when": { "path_regex": "^board/team/librarian/(catalogue\\.mjs|jump\\.json|library/(catalogue/|cards\\.json|shelf-list|accession-register))" }, "class": "LIB", "sub": "CAT" },
     { "id": "r-lib-any", "when": { "path_prefix": "board/team/librarian/" }, "class": "LIB", "sub": "DOC" },
 

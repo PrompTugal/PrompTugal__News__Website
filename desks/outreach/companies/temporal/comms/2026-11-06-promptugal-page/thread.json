@@ -20,14 +20,11 @@
  ],
  "from": {
   "targets": "desks/outreach/targets.json",
-  "rank": 32,
-  "priority": 2,
-  "ask": "interview",
   "replaces": "people/silvio/outreach/messages.json#temporal (the RiskMandate-led draft)"
  },
  "drafted_by": "outreach (PrompTugal.dinis)",
  "drafted_on": "2026-11-06",
  "messages": [
-  "2026-11-06T0700Z-draft-temporal-en.eml"
+  "2026-11-06T1400Z-draft-temporal-en.eml"
  ]
 }

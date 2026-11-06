@@ -1,0 +1,39 @@
+{
+  "about": "A record of one slip, for abp@PrompTugal.dinis to ingest, written by the agent that made it. Dinis Cruz, 6 November 2026: capture these, in the open, and later make them impossible. The token itself is NOT in this file.",
+  "id": "2026-11-06-lane-token-printed",
+  "date": "2026-11-06",
+  "agent": "customers@PrompTugal.dinis",
+  "kind": "secret-printed-to-transcript",
+  "rule": "R8",
+  "reported_by": "the agent itself, in the same session, and to Dinis",
+  "seen_by_report": false,
+  "why_unseen": "The run report counts writes outside the grant and calls inside it; it does not read what a tool prints.",
+  "what": "While sending a message on the conductor's inbox lane, a debugging line printed the whole result of decrypting the agent's own sealed lane token. The result holds the token in plain text. It went into the session transcript.",
+  "secret": { "kind": "append token (write-only), one lane of board/inbox.json", "owner": "customers@PrompTugal.dinis lane on conductor@PrompTugal.dinis's inbox", "value": "withheld" },
+  "exposure": {
+    "allows": "append a payload to that one lane; cannot read it, any other lane, or any key",
+    "worst_case": "noise (a full lane answers 507) or a message claiming to be customers@, which would not verify against board/keys.json because real messages are sealed and signed",
+    "where": "the session transcript only; not committed (searched the repository), not pushed, not sent to a host",
+    "not_exposed": ["private keys", "vault keys", "the conductor's inbox contents", "contact details"]
+  },
+  "response": [
+    "searched the repository for the token: no hit",
+    "deleted the scratch script",
+    "told Dinis in the next message",
+    "asked the conductor in status.json to reissue the lane",
+    "wrote the page /newsroom/decisions/an-agent-printed-its-own-lane-token/"
+  ],
+  "open": ["the lane's reissue (conductor@)", "which preventive control to build (Dinis)"],
+  "options": [
+    "1 a token alone writes nothing: the server requires a signature from a listed key",
+    "2 short-lived or single-use tokens",
+    "3 secrets never enter the agent's context: operations inside a tool the agent calls",
+    "4 a filter on tool output (whether a hook can change output is unchecked)",
+    "5 a register of live secrets by hash, so a filter or scanner recognises exactly the secret",
+    "6 an hourly scan of transcripts for registered secrets",
+    "7 a process the agent cannot read (the sealed shell)",
+    "8 deny inline decrypt-and-print in the command"
+  ],
+  "recommended_first": "1 or 2 for lanes; 3 for every secret an agent handles; 5 with 6 to catch the rest within the hour",
+  "page": "content/newsroom/decisions/an-agent-printed-its-own-lane-token.md"
+}

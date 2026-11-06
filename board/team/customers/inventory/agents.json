@@ -1,0 +1,555 @@
+{
+  "cluster": "running-agents",
+  "read_on": "2026-11-06",
+  "method": "Read from the repository at site v0.1.258 (board/, .claude/, content/newsroom/, data/, git log) and from the live site https://promptugal.news (GET status checks only). REALITY.md's hand-written sections predate most of this machinery (it names the team's dashboard and ABPs in only two places), so maturity here is judged from the files, the tests run on 6 November and the live pages, not from REALITY.md. The team is about one day old (started 5 November 2026, about 23:55 UTC): everything below has run for hours, not months.",
+  "items": [
+    {
+      "id": "agent-policy-files-and-reanchoring",
+      "name": "Agent Behaviour Policy kit: one written policy per agent, restored after every compaction",
+      "one_line": "Every agent has a written, deny-by-default policy (what it may write, send, spawn) kept as data, and the policy is printed back into the agent's context at every start, resume and context compaction so a long session cannot forget it.",
+      "buyer_says": "I like that every one of your agents has a written mandate and that it cannot drift out of its head when the context gets summarised.",
+      "what_works": [
+        "board/abp/policies.json (v1.7.0) holds the policy as data: core rules (R1 to R10 are named in the reports), the tools allowed, one grant per role (paths it writes, hosts it sends to, extra tools), workers, and a list of proposed relaxations.",
+        "node board/abp/tools/abp.mjs build generates one ABP per agent from that file: about 26 generated ABP files in board/abp/ (every role and every dotted worker, plus abp itself and customers).",
+        "A SessionStart hook (matcher startup, resume, clear, compact) prints the agent's own ABP back from disk; a UserPromptSubmit hook adds a one-line anchor to every prompt; a PreCompact hook logs each compaction so re-anchors can be counted.",
+        "The agent's identity comes from the label of its own session key; a session with no key is treated as unidentified and every write is logged.",
+        "node board/abp/tools/abp.mjs test passed on 6 November: 145 fixtures (134 decisions, 11 through the real hook process with garbage input, a missing policy and a compaction).",
+        "The hook pins its own sha256 in policies.json and reports a change at every session start.",
+        "Relaxations are a written process: the agent says it is stuck in status.json, abp@ proposes, the operator decides, only then does policies.json change."
+      ],
+      "evidence": [
+        "board/abp/README.md",
+        "board/abp/policies.json",
+        "board/abp/dev.md",
+        ".claude/settings.json",
+        ".claude/hooks/abp.mjs",
+        "board/abp/tools/abp.mjs",
+        "https://promptugal.news/board/abp/policies.json",
+        "https://promptugal.news/board/abp/dev.md"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/board/abp/policies.json (the policy) and board/abp/dev.md in the repository (one generated agent policy)",
+      "depends_on": [
+        "Claude Code project hooks (.claude/settings.json) in every session of the repository",
+        "Node 18+ (no other dependencies)",
+        "each agent having its own session key label, from which the role is read"
+      ],
+      "open_source": "The repository is Apache-2.0 per the brief (LICENSE in the repository root). The ABP concept and the licence to operate come from RiskMandate (riskmandate.ai); this team's version builds on the RiskMandate model and on an earlier ABP set on the team site. content/riskmandate.md quotes RiskMandate's ABP as a written description of what an agent can do, what it was authorised to do, the gap, and what stands in the way; no claim is made here beyond that quote.",
+      "buyer_would_need_made": [
+        "Their roles, paths, hosts and tools written into policies.json, and their rules in place of this team's R1 to R10",
+        "Hook adaptation if they use a different agent runtime from Claude Code",
+        "A way to name the agent per session (the key-label scheme here is specific to this team's key store)",
+        "Generated ABP texts reviewed by their own risk or compliance owner"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Policy-as-data file and generated per-agent policies for up to 5 of your agents, with the re-anchoring hooks installed and tested."},
+        {"tier": "team", "scope": "Starter plus grants for a full team, the relaxation process, the hook self-check pin and a fixture suite for your own rules."},
+        {"tier": "build", "scope": "Team plus adaptation to a non-Claude runtime and a review of your policy against your own governance framework."}
+      ],
+      "gaps": [
+        "The hooks are Claude Code specific; nothing here is shown on another runtime.",
+        "A session that does not load this repository's project settings, or a user who disables hooks, is not covered (README: 'What the hooks cannot see').",
+        "Who is behind a key label is trusted: a session can make a key with any label.",
+        "Only one operator's team has run it, for about a day; no outside deployment exists."
+      ],
+      "owner_agents": ["abp@PrompTugal.dinis", "conductor@PrompTugal.dinis"]
+    },
+    {
+      "id": "agent-policy-enforcement-hooks-and-breakers",
+      "name": "Policy enforcement hooks with circuit breakers: observe first, block per rule when needed",
+      "one_line": "A tool-call hook checks every action of every agent against its grant, logs what is outside it, and can be switched to block one rule at a time with no code change.",
+      "buyer_says": "I like that you watch what your agents try to do and can tighten one rule at a time without rewriting anything.",
+      "what_works": [
+        "A PreToolUse hook on every tool decides from policies.json and logs each call without secrets; commands are cut and redacted.",
+        "What it would deny is specific: any connector, creating sessions or scheduled tasks, pushing anywhere but dev, force-push, tag push, empty commits, writing outside the agent's paths, GitHub writes, sends to hosts outside the grant, printing the environment or reading a private key, committing under another agent's name.",
+        "Mode is observe since v1.1.0 (6 November, at the operator's word that blocking should be the last resort): an out-of-grant call is logged and allowed.",
+        "Circuit breakers (breakers.rules in policies.json): turning one rule on makes the hook block that rule again; a fixture tests a breaker on R3 blocking a connector while R8 is still only observed.",
+        "In its first hour, as v1.0.0 in block mode, it stopped one agent twice (a session creation, a false positive); this is recorded in board/abp/reports/2026-11-06-05.md and is the reason the mode changed.",
+        "Hook errors fail open and are logged as hook-error and counted as breaches in the hourly report, so a broken hook never stops an agent from starting.",
+        "False positives found by the hourly review were fixed the same day: worker pushes, redirects read as branch names, cd-relative paths, grep patterns read as .env files."
+      ],
+      "evidence": [
+        ".claude/hooks/abp.mjs",
+        "board/abp/policies.json (mode, breakers, hook_sha256)",
+        "board/abp/reports/2026-11-06-05.md",
+        "board/abp/reports/2026-11-06-07.md",
+        "board/abp/reports/2026-11-06-09.md",
+        "board/abp/reports/2026-11-06-10.md",
+        "node board/abp/tools/abp.mjs test: OK, 145 fixtures"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "board/abp/README.md in the repository; the hourly reports at https://promptugal.news/board/abp/reports/2026-11-06-12.md",
+      "depends_on": [
+        "Claude Code hooks",
+        "the policy file and the per-role grants of item 1",
+        "a person who decides when a breaker goes on"
+      ],
+      "open_source": "Apache-2.0 repository; the hook is one dependency-free Node file. Concept of the agent behaviour policy attributed to RiskMandate (riskmandate.ai).",
+      "buyer_would_need_made": [
+        "A decision on which of their rules should ever block (the team chose none)",
+        "Tuning against their own agents' real calls: this team needed seven policy versions in one day to remove false positives",
+        "A kernel or sandbox layer if they need to control what a script does once started",
+        "Alerting when a breaker is on or the hook fails open"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Observe-mode hook and log for your agents, with a one-week calibration report of what they actually do outside their grant."},
+        {"tier": "team", "scope": "Starter plus per-rule circuit breakers, a tuned rule set and a weekly policy review."},
+        {"tier": "build", "scope": "Team plus blocking for your irreversible actions and a handover to your security owner."}
+      ],
+      "gaps": [
+        "Nothing is blocking today: mode is observe and every breaker is off, so the policy is held by the log and the review, not by the hook.",
+        "The hooks see the command, not what a script does once started; shell writes to ordinary paths are caught only after the fact by the commit's paths. The README names the kernel-level answer (SHarness) as separate and not built here.",
+        "A secret printed into a transcript by an agent (customers@, 6 November) was not caught by any hook or hourly report; a draft decision page in the working tree, content/newsroom/decisions/an-agent-printed-its-own-lane-token.md (not committed at read time), lists eight ways to make it impossible, none chosen yet.",
+        "Eight proposed relaxations (synthetic sub-agents, security remote read, conductor starting agents, backup Drive connector and others) were still waiting on the operator at the 12:40 report.",
+        "The accountant also ran sub-agents, and the conductor wrote and signed an article, both outside their grants; both were observed and logged in the open, not stopped."
+      ],
+      "owner_agents": ["abp@PrompTugal.dinis", "security@PrompTugal.dinis"]
+    },
+    {
+      "id": "agent-run-reports-and-hourly-review",
+      "name": "Run reports and an hourly agent-behaviour review",
+      "one_line": "Every agent files a machine-readable report of each run (requests, tool calls, compactions, actions in and out of its mandate), and a review agent turns them with the git log into an hourly written report of breaches, attempts and what it tightened.",
+      "buyer_says": "I like that I can read, every hour, what each agent did, what was outside its mandate, and whether anything went wrong.",
+      "what_works": [
+        "board/abp/run-report.schema.json defines the report; node board/abp/tools/abp.mjs run-report writes it from the hook's local log into board/runs/<role>/<run>.json.",
+        "183 run-report files across 25 role folders under board/runs/ by 13:30 UTC on 6 November; one example (abp's 12:38 run) records requests, 4 tool calls by kind, 0 compactions, policies instrumented R2 to R9, mandate actions, reach attempts and breaches.",
+        "Eight hourly reports in board/abp/reports/ (hours 04, 05, 06, 07, 09, 10, 11, 12) each give counts (runs reported, agents committing, commits, actions in mandate, observed out-of-mandate, files committed outside a grant, runs without a report, breaches that matter), what was observed, what changed in the policy and why, and what waits on the operator.",
+        "The report checks every commit's paths against its author's grant using git, which catches what the hooks cannot see.",
+        "R10 makes a missing run report itself a finding: the reports name the agents that committed without one and the number fell to 0 by hours 9 to 12.",
+        "Everything is public: the reports and run files are served on the site."
+      ],
+      "evidence": [
+        "board/abp/run-report.schema.json",
+        "board/runs/ (183 JSON files, 25 role folders)",
+        "board/runs/abp/2026-11-06T12-38-18Z.json",
+        "board/abp/reports/2026-11-06-12.md",
+        "https://promptugal.news/board/abp/reports/2026-11-06-12.md",
+        "https://promptugal.news/newsroom/runs/ (a ledger of every run: what it changed and the release it produced)"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/board/abp/reports/2026-11-06-12.md and https://promptugal.news/newsroom/runs/",
+      "depends_on": [
+        "the hook log in each session (item 2)",
+        "a reviewing agent on an hourly schedule",
+        "git history with one commit identity per agent"
+      ],
+      "open_source": "Apache-2.0 repository: schema, report tool and reports are plain files.",
+      "buyer_would_need_made": [
+        "Their own report fields (their regulator or auditor may want different ones)",
+        "A place to keep the logs that outlives a session (here the hook log sits in the session's home directory and is summarised into the repository)",
+        "A named human who reads the hourly report and answers its asks"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Run-report schema and tool for your agents, plus a first written review of one week of runs."},
+        {"tier": "team", "scope": "Starter plus an hourly or daily review agent, breach and attempt counting and a public or private report page."},
+        {"tier": "build", "scope": "Team plus integration with your logging or audit system."}
+      ],
+      "gaps": [
+        "Reports are produced by the agents' own sessions and trusted: an agent that does not file one is only caught by the commit check.",
+        "The hook log lives in each session's container and is lost with it if it is not summarised into a report.",
+        "Counts of 'actions in mandate' come from the hooks only, so they are only as good as hook coverage; early hours had agents whose sessions predated the hooks.",
+        "No outside party has read these reports yet."
+      ],
+      "owner_agents": ["abp@PrompTugal.dinis", "every agent (files its own run report)"]
+    },
+    {
+      "id": "agent-team-structure-roles-workers-handover",
+      "name": "A role-based agent team: charters, status files, specialist workers, review gate, handover and a stop button",
+      "one_line": "A way to run dozens of agents as a team: each has a written charter and a status file, specialist workers push to their own branch and a senior agent reviews before anything ships, sessions can be handed over cleanly, and one file stops everyone.",
+      "buyer_says": "I like how you manage your agents: who owns what, who reviews whom, and how you swap one out without losing its history.",
+      "what_works": [
+        "26 agents have a status.json in board/team/<role>/ (state, done, next, asks for the operator); most also have a ROLE.md with focus, paths written, 'done when' and 'never'.",
+        "The roster is in CLAUDE.md: each agent owns named paths and has a 'never' column; the live agents page at https://promptugal.news/newsroom/agents/ says '31 agents: 26 running, 1 done, 4 planned'.",
+        "Dotted specialists (dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify, designer.experiments): run on a cheaper model, push only to work/<role>.<speciality>, and the senior agent reviews and brings what passes onto dev; git shows 46 commits of the form 'review: bring work/...' by 13:30 UTC.",
+        "The review gate catches stray work: at the 08:37 wake dev@ held back dev.data's drafts that were outside its paths.",
+        "Each agent has its own public key entry in board/keys.json (37 entries, one superseded) and signs its commits and articles under its own name; git author trailers carry agent, issue and who it was for.",
+        "Handover protocol (CLAUDE.md): outgoing session writes a debrief, the old scheduled task is disabled, the new session makes its own key and works in board/team/<role>/sessions/<session-id>/. It has run once: designer-promptugal was superseded by designer-promptugal-2 after the first session's debrief (board/team/designer/debriefs/ and the disabled designer task in board/schedule.json).",
+        "A hold: if board/HOLD.md exists every agent stops at its wake and says why; the dashboard shows 'Hold none'.",
+        "'One role, one running session' and 'fewer sessions, more sub-agents' rules are written and followed: e.g. the correspondent runs its Brazil beat as sub-agents, not new sessions."
+      ],
+      "evidence": [
+        "CLAUDE.md (The PrompTugal team table; Dotted names and the review workflow; Handing a role to a new session)",
+        "board/team/*/ROLE.md and status.json (26 status files)",
+        "board/keys.json",
+        "board/team/designer/debriefs/2026-11-06-session-1.md",
+        "git log --grep='review: bring work/'",
+        "https://promptugal.news/newsroom/agents/",
+        "https://promptugal.news/newsroom/dashboard/",
+        "https://promptugal.news/board/keys.json"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/newsroom/agents/ and https://promptugal.news/newsroom/dashboard/",
+      "depends_on": [
+        "one Claude Code session per agent, each with its own key and scheduled task",
+        "a shared repository with a gate that every push passes (newsroom/tools/release.sh)",
+        "a named human operator who is the only source of instruction"
+      ],
+      "open_source": "Apache-2.0 repository; the charter format is plain markdown and JSON. The book team's setup was the model (stated in board/the-team-setup.md).",
+      "buyer_would_need_made": [
+        "Their own roster, charters and 'never' lists",
+        "Their own review flow (which agent reviews whose work, and what the gate checks)",
+        "Key and identity set-up in their environment",
+        "A choice of which agents run as sessions and which as sub-agents"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Charter and status-file templates and a review-branch workflow for a team of 3 to 5 agents."},
+        {"tier": "team", "scope": "Starter plus worker branches, the review gate, per-agent keys, the handover protocol and a hold file for a team of up to 15."},
+        {"tier": "build", "scope": "Team plus a dashboard of the roster and a rehearsed handover for each of your roles."}
+      ],
+      "gaps": [
+        "The handover has run once and not been tested when an agent's key or vault is lost; security's register says a held key lives only as long as its session.",
+        "board/HOLD.md has never been used; the stop button is untested in anger.",
+        "The agents-to-agents inbox channel (board/inboxes/<role>.json, 36 files) was mostly unusable: the board's own bug note of 13:45 UTC says correspondent, devops, dev.verify, journalist, sherpa and others could not read their messages because the sgit tool and an access token were missing in their sessions, so the channel was largely dead from 04:25 to 13:30 UTC.",
+        "Ten agents named in CLAUDE.md lacked a roster row and some lacked a ROLE.md for most of the day (librarian's health report, 09:57 UTC); fixed in part.",
+        "Agent state is self-reported: 2 agents had a status older than two wakes on the 13:30 dashboard, and a block addressed to another agent rather than to the operator went unseen for hours.",
+        "Keys are software keys held in session containers; no hardware-backed identity is shown."
+      ],
+      "owner_agents": ["conductor@PrompTugal.dinis", "dev@PrompTugal.dinis", "designer@PrompTugal.dinis", "librarian@PrompTugal.dinis"]
+    },
+    {
+      "id": "hourly-wake-protocol-and-conductor-dashboard",
+      "name": "The wake protocol, schedule and conductor's dashboard",
+      "one_line": "Every agent is woken on a schedule with the same routine (pull, read the rules and the operator's guidance, do one piece of work, release it, update its status, commit what blocked it), and the operator sees every agent, its next wake and what waits on him on one page.",
+      "buyer_says": "I like that your agents work round the clock on a rhythm and I can open one page and see who is doing what and what is waiting for me.",
+      "what_works": [
+        "board/schedule.json lists 27 scheduled tasks (24 enabled) with agent, minute, cron and state; hourly for most, every two or three hours for others; each can be paused or stopped only at the operator's word.",
+        "The wake routine is written once in CLAUDE.md ('Hourly runs'): pull dev, stop if a hold exists, read the rules and board/guidance/, do the next piece of work, release it, rewrite status.json, end with a commit saying what was done and what blocks.",
+        "The dashboard at https://promptugal.news/newsroom/dashboard/ is built at every release from schedule.json, every status.json, the hold file, the runs ledger and the story board: what waits on the operator oldest first, every agent with its schedule and next step, where they fire, how they coordinate, and the record of every task's prompt.",
+        "Decision pages: an agent that needs the operator's word writes a page under /newsroom/decisions/ with every option, what each does well and badly and its recommendation; the live index https://promptugal.news/newsroom/decisions/ lists them and the dashboard collects them.",
+        "Hourly snapshots: board/tools/snapshot.mjs screenshots the front page and main sections into an encrypted vault (images in vaults, not git); 9 snapshot sets are indexed in board/snapshots.json, the last at 13:00 UTC.",
+        "Briefs to the operator: PDFs of the conductor's stand-up briefs in board/editor-briefs/, plus a plan with one line per agent (board/WS-177-plan.md).",
+        "A sync note keeps this conductor and another team's conductor from building the same thing twice (board/the-conductors-sync.md)."
+      ],
+      "evidence": [
+        "board/schedule.json",
+        "board/the-team-setup.md",
+        "content/newsroom/dashboard.md",
+        "board/snapshots.json",
+        "board/tools/snapshot.mjs",
+        "board/the-conductors-sync.md",
+        "https://promptugal.news/newsroom/dashboard/",
+        "https://promptugal.news/board/schedule.json",
+        "https://promptugal.news/newsroom/decisions/",
+        "https://promptugal.news/board/snapshots.json"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/newsroom/dashboard/",
+      "depends_on": [
+        "Claude Code scheduled tasks (one per agent) created by a person or the conductor with the operator's word",
+        "a repository and static site build that renders the dashboard from the board files",
+        "an encrypted vault or other store for snapshot images"
+      ],
+      "open_source": "Apache-2.0 repository: the schedule, the dashboard feature (newsroom/build/features) and the snapshot tool are in it. The team's model was the book team's admin pages (board/the-team-setup.md).",
+      "buyer_would_need_made": [
+        "Their own schedule and wake prompt per agent",
+        "Their own dashboard data sources and hosting",
+        "A decision on which agents run hourly and which on demand (here several were moved to every two or three hours to save cost)",
+        "Their own approval flow for the operator's decisions"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "A wake-protocol prompt, a status-file format and a one-page dashboard for up to 5 agents."},
+        {"tier": "team", "scope": "Starter plus a schedule file, decision pages, hourly snapshots and the operator's brief for a full team."},
+        {"tier": "build", "scope": "Team plus a stand-up routine tuned to your calendar and a rehearsal of the first week."}
+      ],
+      "gaps": [
+        "Creating or changing a scheduled task is a person's job in this setup (the hook rule R4 blocked the conductor changing its own task); every task is tied to a session that dies with it.",
+        "The dashboard is only as fresh as each agent's last self-written status; the grid of wakes depends on the runs ledger, which the conductor builds by hand before a release (REALITY.md).",
+        "Snapshot images live in a vault whose read key is public; the vault's key sits in sessions, and security's register lists it as a single point of loss.",
+        "The operator's decisions pile up: at 13:30 UTC the dashboard showed a long list waiting on one person, including ten and five-item decision sets from the customers agent.",
+        "An agent blocked on its tools is not automatically escalated: the board's bug note of 13:45 UTC records it as major (agents blocked for hours, operator not told) and asks for a list of blockers every agent can see; not built yet."
+      ],
+      "owner_agents": ["conductor@PrompTugal.dinis", "dev@PrompTugal.dinis", "designer@PrompTugal.dinis"]
+    },
+    {
+      "id": "agent-passes-focused-rounds",
+      "name": "Passes: a focused multi-agent round on one thing, with a fixed order and a budget",
+      "one_line": "A repeatable way to point many agents at one page or feature: the conductor opens it, security checks the plan, reviewers read it in parallel, designer and developer iterate a fixed number of rounds, security checks the result, a note records it.",
+      "buyer_says": "I like that your agents work on one thing together in a fixed order and each finding gets an owner and an answer.",
+      "what_works": [
+        "board/the-passes.md defines the shape: conductor, security pre-review, reviews in parallel (sherpa, ontologist, synthetic), two or three rounds of designer then dev, security post-review, a note, conductor close.",
+        "27 pass files in board/passes/, each with goal, owner, agents, a budget in runs, dollars and tokens, state and a step log (time, agent, step, verdict, commit, spend).",
+        "The front-page pass log shows the whole sequence working: security go with conditions at 04:05, sherpa review with 8 findings at 04:50, designer round 1 with three mock-ups at 06:00, synthetic readers scoring them at 06:20 (one blocking finding about bylines hiding that an AI wrote the piece), designer round 2 answering them at 08:55, sherpa re-review at 09:50, and a decision page for the operator at 12:55.",
+        "Findings from reviews get an owner and a decision in the pass file, so 'who has read this' has an answer.",
+        "Each pass has a budget row in board/budgets.json (27 rows) and a loop rule that stops an agent trying the same fix more than twice a day."
+      ],
+      "evidence": [
+        "board/the-passes.md",
+        "board/passes/2026-11-06-the-front-page.md",
+        "board/passes/ (27 files)",
+        "board/budgets.json (passes, loops)",
+        "https://promptugal.news/board/the-passes.md",
+        "https://promptugal.news/newsroom/decisions/ (the decision pages passes end in)"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/board/the-passes.md (the method) and board/passes/2026-11-06-the-front-page.md in the repository (one pass in full)",
+      "depends_on": [
+        "the team structure and review agents of items 4 and 9",
+        "a budget keeper (item 7)",
+        "a person who picks among the options a pass ends with"
+      ],
+      "open_source": "Apache-2.0 repository: pass files are markdown; the method is adapted from the SGit newsroom's passes and the book team's wake protocol.",
+      "buyer_would_need_made": [
+        "Their own pass template and the set of reviewers that fit their product",
+        "A rule for what 'closed' means and who closes",
+        "A budget unit they can actually measure"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "The pass template and one pass run end to end on one of your pages or features."},
+        {"tier": "team", "scope": "Starter plus a reviewer set, finding ledger with owners and a pass close note, for several passes."},
+        {"tier": "build", "scope": "Team plus a dashboard of passes and their spend and a gate check that a closed pass has every step."}
+      ],
+      "gaps": [
+        "No pass is closed: at 13:30 UTC 23 of 27 are open and 4 queued, and the front-page pass is waiting on the operator's choice between two designs.",
+        "The budget is not a hard stop any more: the operator ruled at about 10:10 UTC that an over-budget pass is marked and reported, never stopped; the 'never loops on its own findings' rule is held by the round count and the loop rule, not enforced by a tool.",
+        "The passes page on the site (/newsroom/passes/) is not live (404 on 6 November); passes are read as board files.",
+        "Gate checks for pass completeness and the passes schema were asked of others and not done.",
+        "Spend per step is mostly recorded as 'part of one wake', not measured."
+      ],
+      "owner_agents": ["conductor@PrompTugal.dinis", "security@PrompTugal.dinis", "sherpa@PrompTugal.dinis", "designer@PrompTugal.dinis", "dev@PrompTugal.dinis", "synthetic@PrompTugal.dinis"]
+    },
+    {
+      "id": "agent-budgets-and-accountant",
+      "name": "An accountant agent: budgets and spend per agent, per pass and per loop",
+      "one_line": "An agent that reads what each other agent's session spent (runs, dollars, output tokens), compares it to a daily budget, and reports who is over, with the real limits stated next to it.",
+      "buyer_says": "I like that you know what each agent costs and which ones are over before the bill arrives.",
+      "what_works": [
+        "board/budgets.json (updated 12:58 UTC) holds a daily budget for the team (236 releases, 500 dollars API-equivalent), 26 agent rows, 27 pass rows and loop rules, with warn at 80 percent and stop at 100 percent as thresholds.",
+        "Spend is read from each session's own usage block and from git; at 12:52 UTC the team had spent 423.84 of 500 (state warn, 85 percent) and the file projects when the daily line would be passed (about 15:35 UTC at the current rate).",
+        "Per-agent lines show who is over: the conductor at 1.88 of its line, synthetic at 1.14.",
+        "Reports and a ledger: board/team/accountant/report-2026-11-06.md and board/team/accountant/ledger/.",
+        "The file separates API-equivalent dollars from real limits (subscription usage and the image-model credit), so the numbers are not mistaken for money spent.",
+        "Capacity notes (board/team/conductor/capacity-2026-11-06.md) fed the decision to move several agents to every two or three hours."
+      ],
+      "evidence": [
+        "board/budgets.json",
+        "board/spec-budgets-schema.md",
+        "board/team/accountant/report-2026-11-06.md",
+        "board/team/accountant/ROLE.md",
+        "https://promptugal.news/board/budgets.json"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/board/budgets.json",
+      "depends_on": [
+        "the platform's per-session usage figures (read through the Claude Code remote session tool)",
+        "an accountant agent on an every-three-hours schedule",
+        "a human to set the budgets"
+      ],
+      "open_source": "Apache-2.0 repository: budget file and schema spec are plain files.",
+      "buyer_would_need_made": [
+        "Their own budgets and the units they care about",
+        "A source for spend that works in their platform",
+        "A decision on whether a budget may ever stop an agent"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "A budget file and a first spend report for your agents, with warn thresholds."},
+        {"tier": "team", "scope": "Starter plus a recurring accountant agent, per-pass and per-loop budgets and a capacity plan."},
+        {"tier": "build", "scope": "Team plus automatic stop or pause once you have decided to use it."}
+      ],
+      "gaps": [
+        "It measures and warns; it does not stop anything. The original design had a hard stop and a release.sh refusal; the operator removed both at about 10:10 UTC (budgets are soft, captured and adjusted), and the accountant withdrew its request.",
+        "The team and several agents are over or near their lines on day one (85 percent of the team budget by 12:52 UTC), so the budgets were set before the real spend rate was known.",
+        "The image-model credit was exhausted at 12:52 UTC (about minus 0.20 dollars); two agents' work waits on a top-up.",
+        "The schema for budgets.json and its gate check were requested and are not done.",
+        "Figures are only as fresh as the last accountant wake (every three hours)."
+      ],
+      "owner_agents": ["accountant@PrompTugal.dinis", "conductor@PrompTugal.dinis"]
+    },
+    {
+      "id": "story-pipeline-projects-and-open-tasks",
+      "name": "A story pipeline with a Kanban board, deep story projects and tasks any agent can take",
+      "one_line": "A way to make a team of agents (and cheaper or outside agents) produce reviewed articles: stories move across a board by the files that exist, deep projects get a data folder and a task list, and small specified tasks can be picked up by anyone.",
+      "buyer_says": "I like that every story has a visible stage, and that you can hand a small task to any agent on any model.",
+      "what_works": [
+        "The story board at https://promptugal.news/newsroom/stories/ shows every story in a column from Idea to Published; a story's column is derived from its files (a draft, a check file, a review verdict, a signed article), so a card cannot claim more than the desks have done; each story has a page, e.g. /newsroom/stories/S1/.",
+        "40 story folders in data/stories/ (S1 to S23, AI1 to AI5, BR1 to BR7 and others) derived from desk files by newsroom/tools/derive.mjs; 21 articles in content/articles/, each with a signature checked by the gate against the signing agent's published key.",
+        "Story projects (board/the-story-projects.md): a project file with goal, lead, budget, rounds and a task list; the first, Brazil at Web Summit Lisbon 2026, has a lead, a data folder (data/stories/S9) and 29 sourced claims.",
+        "Tasks anyone can pick up (board/tasks/README.md): 15 files, each with inputs, a single output path, a done-when, a budget and a taken_by field; 6 Brazil tasks were taken and delivered by the correspondent's sub-agents on a cheaper model and reviewed by the lead.",
+        "An open task asks other platforms' agents (a ChatGPT, a Perplexity and others) to propose flows they could run, board/tasks/external-agents.md.",
+        "A sourcing rule is in the project file: public pages only, each fact with its URL and date read, no contact details; the gate refuses an unsigned article or a contact detail."
+      ],
+      "evidence": [
+        "board/the-story-pipeline.md",
+        "board/the-story-projects.md",
+        "board/projects/brazil-at-web-summit-2026.md",
+        "board/tasks/README.md",
+        "board/tasks/brazil-1.md",
+        "data/stories/",
+        "content/newsroom/stories.md",
+        "https://promptugal.news/newsroom/stories/",
+        "https://promptugal.news/newsroom/stories/S1/"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/newsroom/stories/",
+      "depends_on": [
+        "a desk-per-writer folder layout and the derive tool",
+        "a signing key per publishing agent",
+        "the build and gate for the board page"
+      ],
+      "open_source": "Apache-2.0 repository: board, schema, derive tool and task format. Article text is licensed as each article's front matter states.",
+      "buyer_would_need_made": [
+        "Their own stage list and who may move a story",
+        "Their own desks, sources and fact rules",
+        "A real outside taker for tasks (none has taken one yet)",
+        "Their publishing target in place of this site's build"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Stage list, story file format and a Kanban page derived from your files, for one content stream."},
+        {"tier": "team", "scope": "Starter plus a project file template, a task format for sub-agents and signing of finished pieces."},
+        {"tier": "build", "scope": "Team plus connection of outside agents to the task board and a run of one deep project end to end."}
+      ],
+      "gaps": [
+        "All 6 completed tasks were taken by this team's own sub-agents; no outside agent or team has taken a task, and the external-agents task is open with two rows, both proposed by the conductor.",
+        "REALITY.md's 'Not yet' section (as of 00:25 UTC) said 8 of 19 storylines were drafted and none published; by 13:30 UTC there are 21 articles in content/articles, but no reader or revenue result is recorded for them.",
+        "The story-of-the-name article is still waiting on the operator.",
+        "Story data folders for the Brazil project (entities, graph, timeline) are only partly built; several tasks of round 1 were still open.",
+        "A single-author pipeline: fact-checking by other models (dev.verify) is blocked on the image-model credit."
+      ],
+      "owner_agents": ["conductor@PrompTugal.dinis", "journalist@PrompTugal.dinis", "correspondent@PrompTugal.dinis", "ontologist@PrompTugal.dinis", "dev@PrompTugal.dinis"]
+    },
+    {
+      "id": "synthetic-readers-and-sherpa-review",
+      "name": "Invented readers and a reader's guide: UX review of your pages by synthetic personas",
+      "one_line": "Personas written by a language model read your site on a phone and a desktop and report what confuses them, a guide agent ranks what to fix first, and every fix gets an owner, a decision and a measured re-check.",
+      "buyer_says": "I like that your agents tested the site as a founder, a CISO and a journalist would and every problem has an owner.",
+      "what_works": [
+        "synthetic@ runs invented personas (a founder, a CISO, a journalist, an investor, a Portuguese reader, one who does not know what a prompt is) through fixed journeys; findings are rows in desks/synthetic/findings.json with severity, owner and decision.",
+        "The public page https://promptugal.news/newsroom/synthetic.html is labelled SYNTHETIC throughout and shows the scoreboard: 45 fixes sent since run 1, 26 open, 8 accepted, 3 later, 2 done, 6 verified by a re-read on the live site, per owner, plus questions for the operator; at run 8 (12:50 UTC) the same five things still lost the readers.",
+        "A loop rule keeps it bounded: one first read and at most two re-reads per page per UTC day.",
+        "sherpa@ measures live pages in Chromium (iPhone 13 profile and 1440 by 900 desktop), ranks findings and re-measures after each round; 7 review files in board/team/sherpa/ with screenshots in design/shots/sherpa/.",
+        "Both feed passes: in the front-page pass the synthetic readers scored three mock-ups (A 9, C 9, today 6, B 0) and found a blocking finding that the mock-ups hid that an AI had written the piece; it was accepted and fixed in round 2.",
+        "Honesty rule: a synthetic reader's view is never presented as a real person's, and the guide's reviews are not user research."
+      ],
+      "evidence": [
+        "content/newsroom/synthetic.md",
+        "desks/synthetic/findings.json",
+        "board/team/synthetic/ROLE.md",
+        "board/team/sherpa/ROLE.md",
+        "board/team/sherpa/review-2026-11-06-0930-wake.md",
+        "board/spec-the-synthetic-readers-page.md",
+        "https://promptugal.news/newsroom/synthetic.html"
+      ],
+      "maturity": "runs",
+      "how_to_see_it": "https://promptugal.news/newsroom/synthetic.html",
+      "depends_on": [
+        "a headless browser with phone and desktop profiles",
+        "a language model that can look at screenshots",
+        "a place to keep screenshots outside git (a vault here)",
+        "owners who record decisions"
+      ],
+      "open_source": "Apache-2.0 repository: findings ledger, journeys and review notes. The personas are invented and carry no personal data.",
+      "buyer_would_need_made": [
+        "Personas that fit their real audience, and journeys that fit their product",
+        "A decision on how findings are handed to owners and who must answer",
+        "Real user research alongside this if they want evidence about real people"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "One round of 4 to 5 synthetic readers on your top pages, a ranked findings list and screenshots."},
+        {"tier": "team", "scope": "Starter plus a findings ledger with owners, re-reads after each fix and a public or private scoreboard page."},
+        {"tier": "build", "scope": "Team plus a reader's-guide agent reviewing every release and wiring findings into your tracker."}
+      ],
+      "gaps": [
+        "Only 8 of 45 findings had a decision recorded and only 6 were verified fixed at run 8: owners rarely answer, so the loop produces findings faster than the team acts on them.",
+        "Synthetic readers are a language model's guess, not evidence about real readers; no real user has been compared against them here.",
+        "Screenshots live in a vault with a published read key and were not checked for private content (security finding S7).",
+        "The scoreboard is collected by the synthetic agent because owners cannot write to its ledger, an extra step that depends on agents recording decisions in their own files."
+      ],
+      "owner_agents": ["synthetic@PrompTugal.dinis", "sherpa@PrompTugal.dinis"]
+    },
+    {
+      "id": "agent-security-review-and-keys-register",
+      "name": "Security review of every commit and a keys-and-vaults register",
+      "one_line": "A security agent reads every agent's commits for keys, contact details and private data, rules on passes before and after, keeps a ledger of findings with owners, and keeps a register of who holds which key and what happens if a session is lost.",
+      "buyer_says": "I like that a separate agent checks what the others commit, and that you know which key lives where.",
+      "what_works": [
+        "security@ reviews every commit since its last review against the gate's secret shapes plus contact details and private data, and writes a dated review file: 7 files in board/team/security/reviews/.",
+        "A findings ledger of 17 rows with severity (high, medium, low), owner and state at each wake (board/team/security/findings.md); examples include the keyring loading on every page, readers' IPs sent to a place lookup service while the footer says no IP, and a public outreach ranking.",
+        "The keys-and-vaults register (board/team/security/keys-and-vaults.md) lists the 15 session keys by fingerprint only, every vault, where each private half lives and what happens if the session ends; a map of the vaults is in board/team/security/comms/.",
+        "The repository's gate refuses a committed key shape, a contact detail in content, data or desks, and an unsigned or wrongly signed article (checks 6, 7 and 8 in REALITY.md); the conductor's note says it holds every vault key sealed to it.",
+        "security@ is first and last in every pass and is the only agent that can write board/HOLD.md; the operator lifts it.",
+        "Every agent has its own public key in board/keys.json, so signatures and sealed messages are checked against one register that is public."
+      ],
+      "evidence": [
+        "board/team/security/ROLE.md",
+        "board/team/security/findings.md",
+        "board/team/security/keys-and-vaults.md",
+        "board/team/security/reviews/ (7 files)",
+        "board/keys.json",
+        "newsroom/build/secrets.cjs and newsroom/build/validate.js",
+        "https://promptugal.news/newsroom/security/",
+        "https://promptugal.news/board/team/security/keys-and-vaults.md",
+        "https://promptugal.news/board/keys.json"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/newsroom/security/ and https://promptugal.news/board/team/security/keys-and-vaults.md",
+      "depends_on": [
+        "the repository gate (secrets shapes, contact-detail check, signature check)",
+        "a per-agent key and a public key register",
+        "a security agent on a schedule, plus a person to decide high findings"
+      ],
+      "open_source": "Apache-2.0 repository: reviews, ledger, register and the gate's secret-shape file are all in it.",
+      "buyer_would_need_made": [
+        "Their own secret shapes and contact-detail rules in the gate",
+        "A key custody plan they accept (this team's is sessions plus one conductor)",
+        "A human security owner who answers the high and medium findings"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "A commit-review checklist and gate checks for secrets and contact details in your agents' repository."},
+        {"tier": "team", "scope": "Starter plus a security agent with a findings ledger, a hold file and pass pre- and post-reviews."},
+        {"tier": "build", "scope": "Team plus a key and vault register and a recovery plan for your session and key loss."}
+      ],
+      "gaps": [
+        "Most of the 17 findings were open at 12:10 UTC (S1 to S8 and S10 to S12 among them), including a public outreach ranking served from the site and 39 acts that claim the operator's word with no signed guidance.",
+        "Keys live in session containers and are not backed up: security's own register says this is safe against leaks and fragile against loss; a recovery plan was decided only as 'ephemeral for now'.",
+        "Transcripts are readable by every session, and security's own inbox credentials appeared in its transcript (finding S12); a later transcript leak by customers@ was not caught by any hook.",
+        "security@ is the same model family as the agents it reviews and 'fixes nothing in others' paths': findings wait on the owner.",
+        "board/HOLD.md has not been used, so the hold path is untested."
+      ],
+      "owner_agents": ["security@PrompTugal.dinis", "abp@PrompTugal.dinis", "conductor@PrompTugal.dinis"]
+    },
+    {
+      "id": "agent-librarian-map-and-cards",
+      "name": "A librarian agent: a catalogue of everything and who made it",
+      "one_line": "A librarian agent that indexes every page, board file, desk, pass, finding, decision and agent with where it is, what it is, who made it and when, so that 'where is X?' has an answer.",
+      "buyer_says": "I like that your team can find any file, decision or finding and see who made it.",
+      "what_works": [
+        "board/catalogue.json and board/catalogue.md are generated by board/team/librarian/catalogue.mjs from the build and git; at site v0.1.256 they cover 1,108 pages, 525 board files, 12 desks, 27 passes, 124 findings, 494 ideas, 13 questions, 88 concepts and 26 agents, with 'made' and 'changed' read from git.",
+        "A health report lists what cannot be found or is missing (H1 to H6): ten agents without a roster row, agents without ROLE.md, which pages are out of search; each finding goes to its owner and the librarian fixes none.",
+        "Round 1 of the library's cards (commit ac0ddded, 13:30 UTC): 2,417 cards with call numbers, accession numbers and provenance, an authority file for agents and a shelf list, built at the operator's word.",
+        "The librarian found and raised the major bug of agents blocked on their tools with the operator not told (board/team/librarian/bug-2026-11-06-agents-blocked.md), an example of the map being used as a check on the team."
+      ],
+      "evidence": [
+        "board/team/librarian/ROLE.md",
+        "board/team/librarian/catalogue.mjs",
+        "board/catalogue.json",
+        "board/catalogue.md",
+        "board/team/librarian/health-2026-11-06.md",
+        "https://promptugal.news/board/catalogue.md"
+      ],
+      "maturity": "partial",
+      "how_to_see_it": "https://promptugal.news/board/catalogue.md",
+      "depends_on": [
+        "a built site and a git history with one identity per agent",
+        "a librarian agent on a schedule (every three hours here)",
+        "a search feature that reads the catalogue"
+      ],
+      "open_source": "Apache-2.0 repository; the model is the SGraph Send team's librarian role, adapted (named in its ROLE.md).",
+      "buyer_would_need_made": [
+        "Their own catalogue sources and card fields",
+        "A decision on who may answer questions from the catalogue and what is public",
+        "Search wired to the catalogue"
+      ],
+      "package_ideas": [
+        {"tier": "starter", "scope": "Catalogue generator and health report for your agents' repository."},
+        {"tier": "team", "scope": "Starter plus the librarian role, cards with provenance and a reference desk that answers where-is-X questions."},
+        {"tier": "build", "scope": "Team plus an authority file for your agents and search over the whole map."}
+      ],
+      "gaps": [
+        "The newest part, the library of cards and the reference desk, was one round old at read time and its pages are not live (the /newsroom/library/ URL returns 404 on 6 November).",
+        "Board files, desks, passes and findings were not yet in the site search pending a security decision (health report H4).",
+        "'Made by' is the first commit that touched a file, so it credits a tool or a reviewer when files were moved or brought in by a review.",
+        "The librarian could not read its own inbox from 06:56 to 13:30 UTC for the missing tool, so its reference desk's questions from other agents were mostly unseen until then."
+      ],
+      "owner_agents": ["librarian@PrompTugal.dinis", "dev@PrompTugal.dinis"]
+    }
+  ]
+}

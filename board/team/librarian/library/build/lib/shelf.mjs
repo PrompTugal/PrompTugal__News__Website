@@ -24,7 +24,7 @@ function row(c) {
   const url = cardUrl(c)
   const title = url ? `[${mdCell(c.title)}](${url})` : mdCell(c.title)
   const made = c.provenance.made && c.provenance.made.by ? `${short(c.provenance.made.by)} ${dateWords(c.provenance.made.on)}`.trim() : ''
-  const flag = c.status === 'withdrawn' ? ' (withdrawn)' : ''
+  const flag = c.status === 'withdrawn' ? ' (withdrawn)' : c.status === 'superseded' ? ' (superseded)' : ''
   return `| \`${c.call}\` | ${title}${flag} | ${c.kind || c.type} | ${mdCell(made)} |`
 }
 

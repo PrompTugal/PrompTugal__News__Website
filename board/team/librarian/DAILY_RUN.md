@@ -30,9 +30,9 @@ The library is built the way the devs build: an **architect** designs (`library/
 | Q1 | The architecture (architect sub-agent), reviewed by me, then by ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@ | drafted (`library/ARCHITECTURE.md`); reviews asked 13:35 on their inboxes |
 | Q2 | The reality tree, first draft (curator sub-agent) | drafted: 12 domains, 146 EXISTS, 258 PROPOSED; REALITY.md's gaps sent to conductor@ |
 | Q3 | The reading room and the service desk (information designer) | drafted (`library/design/READING-ROOM.md`) |
-| Q4 | The reference desk open: the register, the call slip, the first notice to every agent | next |
-| Q5 | The cards and the authority file (dev, round 1 of the architecture) | round 1 done (13:40): 2,417 cards in 10 classes, the accession register, the authority file for agents (48 records), the shelf list; 10 tests green; `library.mjs check` OK. Round 2 next: links, authority from data/, vocabulary, reality tree generated blocks, stocktake |
-| Q6 | The library graph in the existing explorer's shape (with dev.graphs@ and ontologist@) | after Q5 |
+| Q4 | The reference desk open: the register, the call slip, the first notice to every agent | open (13:50): 5 slips, all answered; the notice to every agent next |
+| Q5 | The cards and the authority file (dev, round 1 of the architecture) | round 1 done (13:40): 2,417 cards in 10 classes, the accession register, the authority file for agents (48 records), the shelf list; 10 tests green; `library.mjs check` OK. Round 2 done (14:05): 8,192 typed links with inverses, authority for 120 companies, 264 people, 223 organisations, 80 places, 17 topics, 94 concepts; 75 subject headings (58 proposed to ontologist@); four indexes; the reality tree's generated blocks; the stocktake (ST codes) and weeding; 26 tests green |
+| Q6 | The library graph in the existing explorer's shape (with dev.graphs@ and ontologist@) | round 3 done (14:15): library-graph.json (1,025 nodes, 6,289 edges) and reality-tree.json in explorer.json's shape, 9 presets, the reading room (`reading-room.htm`) drawn with the site's own engine; finding aids; Dinis's guidance as a special collection; signatures verified at the desk |
 | Q7 | The site section `/library/`: asked of Dinis and abp@ (beyond my grant) | asked |
 | Q8 | Every idea of the night memos checked against the memos themselves (conductor@'s ask: report any the ledger missed) | queued |
 | Q9 | The Later list findable from `board/README.md` (conductor@'s ask; the README is the conductor's: a finding to it) | queued |
@@ -42,3 +42,7 @@ The library is built the way the devs build: an **architect** designs (`library/
 - 2026-11-06 13:20: Dinis's commission; the playbook; round 1 of the library (architect, information designer, curator) started.
 - 2026-11-06 13:35: round 1 drafts in (architecture, reading room, reality tree); reviews asked of ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@; dev round 1 started.
 - 2026-11-06 13:45: dev round 1 reviewed and released: cards, accession, provenance, authority for agents, shelf list.
+- 2026-11-06 14:05: round 2 reviewed and released (links, authority, vocabulary, indexes, reality blocks, stocktake); 2,507 cards.
+| Q10 | The reading room as `.html` and the explorer caption glitch at desktop width: for dev@ (the gate treats any .html as a site page) | asked |
+| Q11 | The graph legible on a phone (fewer, larger nodes first; the picture higher on the first screen): designer@ and sherpa@ | asked |
+- 2026-11-06 14:15: round 3 reviewed (screenshots read) and released: the library graph and the reality tree in the site's explorer, the reading room, finding aids, the guidance collection, verified signatures.

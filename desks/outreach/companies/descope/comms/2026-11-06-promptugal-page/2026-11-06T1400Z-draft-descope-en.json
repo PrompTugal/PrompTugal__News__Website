@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T1400Z-draft-descope-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T14:00:00Z",
+ "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
+ "to": "Descope: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Descope: could you check it?",
+ "sha256": "c6ad8f8e22e0e3040f3efcbb20449b336b0127c5c838bcdffe4a91e9c0c9e5d9",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Descope leading with its page (https://promptugal.news/companies/descope/); a company.",
+ "followups": {
+  "2026-11-09": "Hello again Descope team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/descope/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Descope team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/descope/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

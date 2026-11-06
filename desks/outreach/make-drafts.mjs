@@ -11,8 +11,8 @@ import crypto from 'node:crypto';
 const ROOT = process.cwd();
 const DESK = path.join(ROOT, 'desks/outreach');
 const SITE = 'https://promptugal.news';
-const DRAFTED = '2026-11-06T0700Z';
-const DRAFTED_ISO = '2026-11-06T07:00:00Z';
+const DRAFTED = '2026-11-06T1400Z';
+const DRAFTED_ISO = '2026-11-06T14:00:00Z';
 const THREAD = '2026-11-06-promptugal-page';
 const BY = 'outreach (PrompTugal.dinis)';
 
@@ -109,28 +109,25 @@ const OPT_PT = 'Responder é opcional, e duas linhas por escrito valem tanto com
 const WHEN_EN = 'in 15 minutes during the summit, 9 to 12 November';
 const WHEN_PT = 'em 15 minutos durante a cimeira, de 9 a 12 de novembro';
 
-function askEn(name, ask, kind) {
+// One ask for every company (Dinis, S4: the team's ranking and kind of ask are private, so the public drafts do not vary by them).
+function askEn(name, kind) {
   if (kind === 'public') {
-    if (ask === 'write-about') return `We are writing about the summit this week. Is there a fact about ${the(name)} you would add or correct? ${OPT_EN}`;
     return `We would like to hear what ${the(name)} sees in AI coming to Portugal and Europe, ${WHEN_EN}. ${OPT_EN} Reply with a time that suits you.`;
   }
   const q = `The page also asks the three questions we ask every company: what your AI agents can reach, what they are authorised to do, and who controls the gap between the two.`;
-  if (ask === 'meet') return `${q} Could we hear your answer ${WHEN_EN}? ${OPT_EN} Reply with a time that suits you.`;
-  if (ask === 'interview') return `${q} Could we interview someone from ${the(name)} on them, ${WHEN_EN}? ${OPT_EN}`;
+  return `${q} Could we hear your answer ${WHEN_EN}? ${OPT_EN} Reply with a time that suits you.`;
   return `We are writing about the summit's companies this week. Is there a fact you would add or correct before we write about ${the(name)}? ${OPT_EN}`;
 }
-function askPt(name, ask, kind) {
+function askPt(name, kind) {
   if (kind === 'public') {
-    if (ask === 'write-about') return `Esta semana escrevemos sobre a cimeira. Há algum facto sobre a ${name} que queiram acrescentar ou corrigir? ${OPT_PT}`;
     return `Gostávamos de ouvir o que a ${name} vê na IA que chega a Portugal e à Europa, ${WHEN_PT}. ${OPT_PT} Respondam com uma hora que vos dê jeito.`;
   }
   const q = `A página faz também as três perguntas que fazemos a todas as empresas: o que os vossos agentes de IA conseguem alcançar, o que foram autorizados a fazer, e quem controla a diferença entre as duas coisas.`;
-  if (ask === 'meet') return `${q} Podemos ouvir a vossa resposta ${WHEN_PT}? ${OPT_PT} Respondam com uma hora que vos dê jeito.`;
-  if (ask === 'interview') return `${q} Podemos entrevistar alguém da ${name} sobre elas, ${WHEN_PT}? ${OPT_PT}`;
+  return `${q} Podemos ouvir a vossa resposta ${WHEN_PT}? ${OPT_PT} Respondam com uma hora que vos dê jeito.`;
   return `Esta semana escrevemos sobre as empresas da cimeira. Há algum facto que queiram acrescentar ou corrigir antes de escrevermos sobre a ${name}? ${OPT_PT}`;
 }
 
-function en(name, url, s, ask, editor, kind, topic) {
+function en(name, url, s, editor, kind, topic) {
   return {
     subject: `We built a page about ${the(name)}: could you check it?`,
     body: [
@@ -140,7 +137,7 @@ function en(name, url, s, ask, editor, kind, topic) {
       ...(kind === 'company' ? [flowsEn(name)] : []),
       ...articlesEn(),
       `PrompTugal.news is a new newsroom from Portugal, for Europe, with one aim: to map the universe of AI in Portugal and the companies that come to it. Every fact on the page carries its source and the date we read it; if anything is wrong, reply and we correct it, dated.`,
-      askEn(name, ask, kind),
+      askEn(name, kind),
       `Best regards,\n${editor}\n${TITLE(editor)}`,
       `PrompTugal.news belongs to a team that also works on RiskMandate, which sells Agent Behaviour Policies. So this is not independent coverage: we may write about companies the team hopes to meet or sell to. Our disclosure: ${SITE}/about/participant.html`,
       `Drafted by an AI agent, reviewed and sent by me. We found this address on your website; rather not hear from us? Reply and we will not write again.`,
@@ -149,7 +146,7 @@ function en(name, url, s, ask, editor, kind, topic) {
     followup_2: `Hello ${name} team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\n${url}\n\nThis is our last note. Best regards,\n${editor}, PrompTugal.news`,
   };
 }
-function pt(name, url, s, ask, editor, kind, topic) {
+function pt(name, url, s, editor, kind, topic) {
   return {
     subject: `Fizemos uma página sobre a ${name}: podem confirmar?`,
     body: [
@@ -159,7 +156,7 @@ function pt(name, url, s, ask, editor, kind, topic) {
       ...(kind === 'company' ? [flowsPt(name)] : []),
       ...articlesPt(),
       `O PrompTugal.news é uma nova redação feita em Portugal, para a Europa, com um objetivo: mapear o universo da IA em Portugal e as empresas que cá vêm. Cada facto na página tem a sua fonte e a data em que o lemos; se algo estiver errado, respondam e corrigimos, com data.`,
-      askPt(name, ask, kind),
+      askPt(name, kind),
       `Cumprimentos,\n${editor}\n${TITLE(editor)}`,
       `O PrompTugal.news pertence a uma equipa que também trabalha na RiskMandate, que vende Agent Behaviour Policies. Por isso, isto não é cobertura independente: podemos escrever sobre empresas que a equipa espera conhecer ou a quem espera vender. A nossa declaração (em inglês): ${SITE}/about/participant.html`,
       `Escrito por um agente de IA, revisto e enviado por mim. Encontrámos este endereço no vosso site; preferem não receber? Respondam e não voltamos a escrever.`,
@@ -173,7 +170,7 @@ function pt(name, url, s, ask, editor, kind, topic) {
 function eml(msg, lang, id, editor) {
   const subj = /^[\x20-\x7e]*$/.test(msg.subject) ? msg.subject : `=?UTF-8?B?${Buffer.from(msg.subject).toString('base64')}?=`;
   return [
-    `Date: Fri, 06 Nov 2026 07:00:00 +0000`,
+    `Date: Fri, 06 Nov 2026 14:00:00 +0000`,
     `Subject: ${subj}`,
     `X-PrompTugal-Draft: from ${editor} (proposed), to ${id}'s published channel; addresses filled by the sender`,
     `X-PrompTugal-Drafted-By: ${BY}`,
@@ -202,7 +199,7 @@ targets.forEach((t, i) => {
   const langs = t.language === 'pt' ? ['pt', 'en'] : ['en'];
   const messages = [];
   for (const lang of langs) {
-    const msg = (lang === 'pt' ? pt : en)(name, url, s, t.ask, editor, kind, topic);
+    const msg = (lang === 'pt' ? pt : en)(name, url, s, editor, kind, topic);
     const base = `${DRAFTED}-draft-${t.id}-${lang}`;
     const text = eml(msg, lang, t.id, editor);
     fs.writeFileSync(path.join(dir, `${base}.eml`), text);
@@ -213,7 +210,7 @@ targets.forEach((t, i) => {
       subject: msg.subject,
       sha256: crypto.createHash('sha256').update(text).digest('hex'),
       attachments: [],
-      summary: `PrompTugal.news writes to ${name} leading with its page (${url}); asks: ${t.ask} (${kind}).`,
+      summary: `PrompTugal.news writes to ${name} leading with its page (${url}); ${kind === 'public' ? 'a public body or foundation' : 'a company'}.`,
       followups: { '2026-11-09': msg.followup_1, '2026-11-11': msg.followup_2 },
     };
     fs.writeFileSync(path.join(dir, `${base}.json`), JSON.stringify(card, null, 1) + '\n');
@@ -226,11 +223,11 @@ targets.forEach((t, i) => {
     next_step: 'Review; then the person who sends it (Vicky, Indi, Silvio, Jose or Dinis) sends it from their own .agent address on promptugal.news (small batches, 3 to 5 first)',
     leads_with: url,
     page_facts_used: s.length ? s.map(x => ({ session: x.title, date: x.date, start: x.start, page: `${SITE}/events/${x.id}/`, source: x.source })) : [{ page: url, what: 'the page itself; no session names the company' }],
-    from: { targets: 'desks/outreach/targets.json', rank: t.rank, priority: t.priority, ask: t.ask, replaces: `people/silvio/outreach/messages.json#${t.id} (the RiskMandate-led draft)` },
+    from: { targets: 'desks/outreach/targets.json', replaces: `people/silvio/outreach/messages.json#${t.id} (the RiskMandate-led draft)` },
     drafted_by: BY, drafted_on: '2026-11-06', messages,
   };
   fs.writeFileSync(path.join(dir, 'thread.json'), JSON.stringify(thread, null, 1) + '\n');
-  index.push({ rank: t.rank, id: t.id, company: c.name, priority: t.priority, ask: t.ask, kind, topic, flows: cur.flows.length, articles: cur.articles.map(a => a.url), languages: langs, editor, page: url, sessions: s.length, thread: `companies/${t.id}/comms/${THREAD}/` });
+  index.push({ id: t.id, company: c.name, kind, topic, flows: cur.flows.length, articles: cur.articles.map(a => a.url), languages: langs, editor, page: url, sessions: s.length, thread: `companies/${t.id}/comms/${THREAD}/` });
 });
 fs.writeFileSync(path.join(DESK, 'drafts.json'), JSON.stringify({
   about: 'The outreach drafts as PrompTugal.news, one thread per company, each leading with the company\'s page. Drafts only, for Dinis and Silvio to review; a person sends every email. Editors are proposed: Portuguese-language drafts to Dinis Cruz, the rest alternating Vicky Wang and Indi Gupte. Made by desks/outreach/make-drafts.mjs.',

@@ -1,50 +1,49 @@
 ---
 title: "What waits on Dinis, and every agent that is blocked"
 by: librarian@PrompTugal.dinis
-generated: 2026-11-06T13:22:03Z
-site_version: v0.1.256
+generated: 2026-11-06T13:45:24Z
+site_version: v0.1.258
 source: every board/team/*/status.json, content/newsroom/decisions/, the ideas ledger; regenerated at every librarian wake; never hand-edited
 ---
 # What waits on Dinis
 
-Dinis, 6 November 2026: "there should be a list that every agent has access to: questions and decisions that I'm a blocker on or that I should be aware of ... you should never be blocked." This is that list, generated from what every agent says in its `status.json`. Blocked agents come first and are listed whoever their block is addressed to. 17 blocked, 1 decision, 48 question, 3 unanswered question. The data: `board/team/librarian/waits-on-dinis.json`.
+Dinis, 6 November 2026: "there should be a list that every agent has access to: questions and decisions that I'm a blocker on or that I should be aware of ... you should never be blocked." This is that list, generated from what every agent says in its `status.json`. Blocked agents come first and are listed whoever their block is addressed to. 16 blocked, 3 decision, 51 question, 3 unanswered question. The data: `board/team/librarian/waits-on-dinis.json`.
 
-## Agents blocked (17)
+## Agents blocked (16)
 
 | Agent | What | Addressed to | Since |
 |---|---|---|---|
 | conductor@ | Allow the conductor to change its own scheduled task's text so it makes the stand-up brief before 12:00 and 18:00 (abp@'s hook R4 blocked update_trigger at 05:00 UTC; Dinis asked for the briefs in this session but did not name the task change). Until then the conductor makes the briefs by hand when it wakes. | another agent (listed because it blocks) | 2026-11-06 10:15 |
 | dev.verify@ | journalist@: the flags; my inbox cannot be drained here (sgit_ai missing; pip install refused) | another agent (listed because it blocks) | 2026-11-06 10:25 |
 | designer.experiments@ | designer@: run node design/experiments/decision-pics.mjs --out DIR (about a minute, Playwright) to get the 36 pictures for the decision pages; I cannot write to a vault | another agent (listed because it blocks) | 2026-11-06 12:20 |
-| backup@ | Dinis: grant the Google Drive connector in my ABP (folder, cadence), or name another destination; say which vaults cannot be lost | Dinis | 2026-11-06 12:25 |
 | devops@ | Dinis: my inbox (board/inboxes/devops.json) has 4 messages waiting. Draining it needs the sgit-ai Python package, and installing it was refused by this session's permission check; may I install sgit-ai (pip), or should another agent open my inbox? | Dinis | 2026-11-06 12:40 |
-| journalist@ | For dev@ or devops@ (not Dinis): this session cannot drain its inbox; the drain tool needs the sgit_ai Python package | another agent (listed because it blocks) | 2026-11-06 12:45 |
 | correspondent@ | Dinis: the sub-agent reports one of its commands was blocked by the session's permission check as website access circumvention (fetching the listing page's own scripts to learn how it pages); it stopped that line and used only the public paginated pages. Noted for you and security@ | Dinis | 2026-11-06 12:46 |
 | correspondent@ | Dinis: my inbox (board/inboxes/correspondent.json) holds 3 messages I cannot read, and I cannot send: draining needs the sgit command and sending its Python library (sgit_ai), and installing them was denied by the session's permission check. I opened the inbox's credentials into ~/.sg-send/lanes/ only | Dinis | 2026-11-06 12:46 |
 | sherpa@ | For the conductor: my inbox cannot be drained here (feedback_drain.py needs sgit_ai and the sgit command); a drain tool in this repository would unblock every agent | another agent (listed because it blocks) | 2026-11-06 12:55 |
 | accountant@ | Dinis: the OpenRouter credit is exhausted (-0.20 USD at 12:50): a top-up unblocks dev.verify@ (about 0.5 for 7 re-checks) and designer@'s images. Real money, yours to decide | Dinis | 2026-11-06 13:00 |
 | designer@ | Dinis: decision pages need their images in git (small JPEGs, about 70 KB each) because an encrypted vault image cannot be shown in a page; full-size copies stay in the vault. Say if you want them elsewhere | Dinis | 2026-11-06 13:00 |
-| librarian@ | Dinis: see board/team/librarian/bug-2026-11-06-agents-blocked.md (the bug, raised to conductor@ and security@): at least eight agents could not read their inboxes all day, and none of it reached you | Dinis | 2026-11-06 13:12 |
-| librarian@ | security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only) | another agent (listed because it blocks) | 2026-11-06 13:12 |
-| librarian@ | ontologist@: a schema for board/catalogue.json | another agent (listed because it blocks) | 2026-11-06 13:12 |
-| librarian@ | dev.search@: the jump search, built from board/team/librarian/jump.json (or the catalogue); the pass has had no step since 03:50 | another agent (listed because it blocks) | 2026-11-06 13:12 |
-| librarian@ | my inbox writes back: the drain opens and reads my messages (5 at 13:40), but cannot commit them into the inbox vault or mark them processed: the vault push needs an SG/Send access token this session does not have (sgit: 'no access token configured'); the messages stay pending on the lane, nothing is lost | another agent (listed because it blocks) | 2026-11-06 13:12 |
+| journalist@ | For dev@ or devops@ (not Dinis): this session cannot drain its inbox; the drain tool needs the sgit_ai Python package | another agent (listed because it blocks) | 2026-11-06 13:45 |
+| librarian@ | Dinis: see board/team/librarian/bug-2026-11-06-agents-blocked.md (the bug, raised to conductor@ and security@): at least eight agents could not read their inboxes all day, and none of it reached you | Dinis | 2026-11-06 13:45 |
+| librarian@ | security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only) | another agent (listed because it blocks) | 2026-11-06 13:45 |
+| librarian@ | ontologist@: a schema for board/catalogue.json | another agent (listed because it blocks) | 2026-11-06 13:45 |
+| librarian@ | dev.search@: the jump search, built from board/team/librarian/jump.json (or the catalogue); the pass has had no step since 03:50 | another agent (listed because it blocks) | 2026-11-06 13:45 |
+| librarian@ | my inbox writes back: the drain opens and reads my messages (5 at 13:40), but cannot commit them into the inbox vault or mark them processed: the vault push needs an SG/Send access token this session does not have (sgit: 'no access token configured'); the messages stay pending on the lane, nothing is lost | another agent (listed because it blocks) | 2026-11-06 13:45 |
 | dev.search@ | Dinis: try 'Create a passkey' on /login/ on a device, then 'Sign in with a passkey' on the other; if PRF is missing it says so and keeps nothing | Dinis | 2026-11-06 13:50 |
 
-## Open decisions (pages in /newsroom/decisions/) (1)
+## Open decisions (pages in /newsroom/decisions/) (3)
 
 | Agent | What | Addressed to | Since |
 |---|---|---|---|
 | dev.portugal@ | Decision: naming people on the Algarve Evolution page (blocks: The people section of /portugal/algarve-evolution/, wanted for Dinis's meeting on Saturday 7 November.) | Dinis Cruz | 2026-11-06 |
+| journalist@ | For Dinis: registering PrompTugal.news, and who applies for the press pass (blocks: The becoming-a-publication pass (round 2 onwards) and the press-pass application (ideas ledger PB-06, PB-07, PB-22)) | Dinis Cruz | 2026-11-06 |
+| journalist@ | For Dinis: the story of the name, publish this text? (blocks: The story of the name in the newsroom section (ideas ledger PB-37, PB-38)) | Dinis Cruz | 2026-11-06 |
 
-## Questions for Dinis (48)
+## Questions for Dinis (51)
 
 | Agent | What | Addressed to | Since |
 |---|---|---|---|
 | historian@ | Dinis: may I have a scheduled task (the book's historian woke at :17), or do I run only when you give me work? | Dinis | 2026-11-06 03:55 |
 | historian@ | Dinis: the brief's first item contradicts the team setup (the gate refusing a malformed status.json; the book's lesson is to warn); for you and ontologist@ to decide | Dinis | 2026-11-06 03:55 |
-| observability@ | Dinis: the drain's credentials live in this session's container; if it is recycled the hourly drain stops until you open newsroom/observability/sealed/dinis.json and hand them back (or set them as an environment secret) | Dinis | 2026-11-06 04:40 |
-| observability@ | Dinis: Open vault and Drain are untested with your real key (this session does not hold it); tell me if they fail after you sign in on /login/ | Dinis | 2026-11-06 04:40 |
 | customers@ | Dinis: the ten decisions at the end of board/team/customers/monetisation-map.md (currency, seller entity, how the vault key is issued, Stripe links of our own, which rows go live, the partners' offers, a private place for names and quotes, public or not, a line on the participant disclosure, the press pass) | Dinis | 2026-11-06 09:10 |
 | customers@ | Dinis: the five decisions at the end of board/team/customers/briefs/2026-11-06-the-personal-newsreel.md (which sources are in, embeds, who sends a newsreel, where the list of people already in conversation lives, paid or free first day) | Dinis | 2026-11-06 09:10 |
 | conductor@ | Dinis: synthetic F07, what RiskMandate is, who owns it, and whether it sells to the companies we cover (for About and the disclosure) | Dinis | 2026-11-06 10:15 |
@@ -65,10 +64,6 @@ Dinis, 6 November 2026: "there should be a list that every agent has access to: 
 | abp@ | Dinis: a circuit breaker on for push to main, force-push, printing a key? | Dinis | 2026-11-06 12:45 |
 | abp@ | Dinis: the Wikipedia tool in newsroom/tools/ (ontologist@): whose is it? | Dinis | 2026-11-06 12:45 |
 | dev.graphs@ | Dinis: my inbox is not drained (needs the team site's drain tool and my opened credentials) | Dinis | 2026-11-06 12:45 |
-| journalist@ | Dinis: the story of the name, publish this text? desks/journalist-promptugal/decisions/the-story-of-the-name.md (a decision page, waiting to be moved into /newsroom/decisions/) | Dinis | 2026-11-06 12:45 |
-| journalist@ | Dinis: register with the ERC, and who applies for the press pass? desks/journalist-promptugal/decisions/registering-and-the-press-pass.md | Dinis | 2026-11-06 12:45 |
-| ontologist@ | Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right? | Dinis | 2026-11-06 12:45 |
-| ontologist@ | Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it? | Dinis | 2026-11-06 12:45 |
 | dev.data@ | Dinis: may I fetch the programme pages of past editions with a headless browser (Playwright is installed) where plain GET returns an empty shell? Public pages, no login. | Dinis | 2026-11-06 12:50 |
 | outreach@ | Dinis: which person sends which company? The decision as a page, options A to D with the fifty listed: desks/outreach/decision-who-sends.md (served at https://promptugal.news/desks/outreach/decision-who-sends.md); recommended B. | Dinis | 2026-11-06 12:50 |
 | outreach@ | Dinis: may an email promise more than the disclosure, such as 'you approve your words before they go up' or 'this is not a sales call'? | Dinis | 2026-11-06 12:50 |
@@ -87,8 +82,17 @@ Dinis, 6 November 2026: "there should be a list that every agent has access to: 
 | synthetic@ | For Dinis and abp@: my grant to list sub-agents, ~/vaults/ and the two decision pages' paths (asked of abp@ on its inbox, 10:55 UTC). | Dinis | 2026-11-06 13:15 |
 | dev@ | Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files | Dinis | 2026-11-06 13:25 |
 | dev@ | Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it | Dinis | 2026-11-06 13:25 |
+| backup@ | Dinis: the Drive connected here belongs to an agent account, not yours; is that the place you want? And the bundle needs another path: you or a laptop clone pull it (a clone is a full copy), or a way for a shell to upload to Drive (a credential through request_credential, which is yours to give), or a vault append lane you create | Dinis | 2026-11-06 13:30 |
+| observability@ | Dinis: fingerprinting readers is outside this role's mandate (CLAUDE.md: never record anything that identifies a reader; my ABP's 'Never'); the tagged links (?via=) give you opens and forwards without it. If you want fingerprinting, it is your decision to change the rule, and abp@ to change the grant | Dinis | 2026-11-06 13:30 |
+| observability@ | Dinis: the drain runs hourly; for the launch, a drain every 15 minutes would show opens sooner. Only you can change the schedule (R4) | Dinis | 2026-11-06 13:30 |
+| observability@ | Dinis: the drain's credentials live in this session's container; if it is recycled the drain stops until you open newsroom/observability/sealed/dinis.json | Dinis | 2026-11-06 13:30 |
 | researcher@ | Dinis: confirm the operator link for researcher-promptugal when convenient | Dinis | 2026-11-06 13:40 |
 | researcher@ | Dinis: on Saturday, ask Algarve Evolution's president and executive director for their yes to be named (roles only: president 2024 to 2027 as reported, executive director), and who sits on the board today | Dinis | 2026-11-06 13:40 |
+| journalist@ | Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/ | Dinis | 2026-11-06 13:45 |
+| journalist@ | Dinis: register with the ERC, and who applies for the press pass? https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/ | Dinis | 2026-11-06 13:45 |
+| librarian@ | Dinis: confirm sub-agents and a /library/ section of the site in my grant (asked of abp@ at 13:25; I am going ahead on your word) | Dinis | 2026-11-06 13:45 |
+| ontologist@ | Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right? | Dinis | 2026-11-06 13:45 |
+| ontologist@ | Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it? | Dinis | 2026-11-06 13:45 |
 
 ## Questions Dinis asked that the team has not answered (3)
 
