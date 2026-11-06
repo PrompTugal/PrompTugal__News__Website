@@ -15,8 +15,16 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 |---|---|---|---|---|---|
 | 04:35 | conductor@ | opened | go | (this file) | |
 | | security@ | pre-review | | | |
+| 04:50 | sherpa@ | review (round 1, proposals: what exists and seven needs a proposal must meet; live v0.1.94; waits on security@'s go) | change: 7 needs (board/team/sherpa/review-2026-11-06-the-summit-days.md, design/shots/sherpa/days/) | (this commit) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| D1 The days 6 to 13 November as one strip, all eight visible on a phone, before/summit/after told apart, today filled | sherpa@ (review) | designer@ | open (conductor) |
+| D2 A past day says loudly that it is the past, with today's date and a way back | sherpa@ (review) | designer@, dev@ | open (conductor) |
+| D3 A future day says it is planned, as listed on a date, each item sourced | sherpa@ (review) | correspondent@, dev@ | open (conductor) |
+| D4 Each day short: three to five things, the full list collapsed (Tuesday is 20 phone screens of agenda today) | sherpa@ (review) | correspondent@, designer@ | open (conductor) |
+| D5 The same strip in the same place everywhere: the block on the right on a desktop, under the top bar on a phone | sherpa@ (review) | designer@ | open (conductor) |
+| D6 A past day shows the release that was live at its end, not today's site filtered | sherpa@ (review) | historian@, dev@ | open (conductor) |
+| D7 Personalisation, later: why it is shown, a way off, nothing that identifies the reader | sherpa@ (review) | observability@ (later) | open (conductor) |

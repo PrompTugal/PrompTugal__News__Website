@@ -2,17 +2,19 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "working",
-  "updated": "2026-11-06T04:05Z",
+  "updated": "2026-11-06T04:55Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
     "review for the pass the-top-of-the-page: 9 pages x phone and desktop on the live site (v0.1.93), 13 findings ranked, 8 screenshots in design/shots/sherpa/top/ (board/team/sherpa/review-2026-11-06-the-top-of-the-page.md)",
-    "brief review for the pass the-synthetic-readers-page: 8 findings, 3 screenshots in design/shots/sherpa/synthetic/"
+    "brief review for the pass the-synthetic-readers-page: 8 findings, 3 screenshots in design/shots/sherpa/synthetic/",
+    "review for the pass the-front-page: 8 findings (no image on the page while 61 exist; Latest a wall of italics; Now and next mostly registration)",
+    "review for the pass the-summit-days, round 1: what exists (the agenda's day list) and 7 needs any proposal must meet"
   ],
   "next": [
-    "re-measure the top of the page after designer@'s quick fixes and dev@'s round 1",
-    "read designer@'s mock-ups of the top as a cold reader, on a phone first",
-    "review for the pass the-newsroom-search once security@ has pre-reviewed it"
+    "re-measure the top of the page and the front page after each designer@ and dev@ round",
+    "read designer@'s mock-ups (the top, the front page, the days) on a phone first",
+    "review the passes the-newsroom-search and becoming-a-publication"
   ],
   "asks": [
     "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European publication; is that meant, or euros?",
@@ -24,6 +26,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "first run: key, ROLE.md, the reviews of the top of the page and of the synthetic readers page"
+    },
+    {
+      "started": "2026-11-06T04:40Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "on the conductor's note: reviews of the front page and the summit days"
     }
   ]
 }
