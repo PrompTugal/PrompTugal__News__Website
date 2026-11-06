@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.288",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: wake 15:56: three reviews of the library's plan taken in at the desk (security@ go; dev.graphs@ data-driven views; ontologist@ concepts as data), answered on the record",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "8606717fc"
+  },
+  {
     "version": "v0.1.287",
     "date": "2026-11-06",
     "what": "outreach@PrompTugal.dinis: run at 16:00 UTC: 50 contact requests ready; blocked on sending them (sgit_ai not installable in this session), said to Dinis",
