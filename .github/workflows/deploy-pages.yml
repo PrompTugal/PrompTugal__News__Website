@@ -9,11 +9,15 @@
 #                 runs the gate again on that tree, commits as GitHub Actions ("site vX.Y.Z: <subject>"),
 #                 tags it and pushes; then deploys exactly that tree. A dropped pending run is harmless:
 #                 its commits ride the next release. A manual dispatch builds and deploys without a number.
-#   3. deploy:    actions/deploy-pages waits at most 4 minutes (a deploy takes about 10 seconds). If Pages sticks in
-#                 "syncing_files" (as v0.1.87's did on 6 November 2026, 03:21 to 03:30 UTC, until the job's timeout
-#                 cancelled it while five pushes waited), the stuck deployment is cancelled and the same artifact is
-#                 deployed once more; if that fails too, the job fails red rather than timing out. devops@PrompTugal.dinis,
-#                 board/team/devops/health-2026-11-06.md.
+#   3. deploy:    actions/deploy-pages waits at most 4 minutes (a good deploy takes about 10 seconds) and cancels
+#                 its own deployment when it gives up. Pages sometimes reports "syncing_files" for ever while the site
+#                 already serves the new files (6 November 2026: v0.1.87 at 03:21, v0.1.93 at 03:44, v0.1.96 at
+#                 03:57), or answers "cancelled" at once (v0.1.98 at 04:02). Pages names a deployment after the commit,
+#                 so the same commit cannot be deployed again in this run. So when the deploy fails, the job asks the
+#                 live site: if it serves this release's version, the deploy landed and the job passes with a warning;
+#                 if not, it dispatches this workflow on the branch (a fresh deployment of its head, under the head's
+#                 own commit) and fails red. A dispatched run never dispatches again.
+#                 devops@PrompTugal.dinis, board/team/devops/health-2026-11-06.md.
 name: deploy-pages
 on:
   push:
@@ -43,8 +47,8 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    # tag and build about 30s, then up to two deploys of 4 minutes each (step 3 above)
-    timeout-minutes: 12
+    # tag and build about 30s, a deploy of at most 4 minutes, then up to 2 minutes asking the live site (step 3)
+    timeout-minutes: 10
     needs: [validate]
     # Never from a PR. One release at a time; a pending run may be dropped, which is harmless.
     if: github.event_name != 'pull_request'
@@ -55,9 +59,11 @@ jobs:
       contents: write
       pages: write
       id-token: write
+      # only to dispatch a fresh deploy when Pages loses one (step 3)
+      actions: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url || steps.redeploy.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -90,16 +96,27 @@ jobs:
         continue-on-error: true
         with:
           timeout: 240000
-      - name: The deploy failed or stuck; cancel that Pages deployment (it would block the retry)
+      - name: The deploy failed or stuck; does the live site serve this release? If not, dispatch a fresh deploy
         if: steps.deployment.outcome == 'failure'
         env:
           GH_TOKEN: ${{ github.token }}
+          EVENT: ${{ github.event_name }}
+          BRANCH: ${{ github.ref_name }}
         run: |
-          echo "::warning::the Pages deploy of ${GITHUB_SHA:0:9} failed or did not finish in 4 minutes; cancelling it and deploying once more"
-          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/deployments/$GITHUB_SHA/cancel" >/dev/null || echo "nothing to cancel"
-          sleep 5
-      - id: redeploy
-        if: steps.deployment.outcome == 'failure'
-        uses: actions/deploy-pages@v4
-        with:
-          timeout: 240000
+          WANT=$(cat newsroom/build/version.txt); HOST=$(cat CNAME)
+          echo "::warning::the Pages deploy of $WANT (${GITHUB_SHA:0:9}) failed or did not finish in 4 minutes; asking https://$HOST/ for it"
+          for i in $(seq 1 12); do
+            LIVE=$(curl -s --max-time 10 -H 'Cache-Control: no-cache' "https://$HOST/llms.txt?release=${GITHUB_SHA:0:9}-$i" | grep -o 'v[0-9]*\.[0-9]*\.[0-9]*' | head -1 || true)
+            if [ -n "$LIVE" ] && [ "$(printf '%s\n%s\n' "$WANT" "$LIVE" | sort -V | tail -1)" = "$LIVE" ]; then
+              echo "::warning::Pages never reported success, but $HOST serves $LIVE (at or after $WANT): the deploy landed"; exit 0
+            fi
+            sleep 10
+          done
+          echo "::error::$HOST still serves ${LIVE:-nothing readable}, not $WANT, two minutes after the deploy gave up"
+          if [ "$EVENT" = push ]; then
+            gh workflow run deploy-pages.yml --repo "$GITHUB_REPOSITORY" --ref "$BRANCH" \
+              && echo "::error::dispatched a fresh deploy of $BRANCH's head; this run stays red so the lost deploy is seen"
+          else
+            echo "::error::this run was itself a dispatched deploy: not dispatching again; the next push deploys"
+          fi
+          exit 1
