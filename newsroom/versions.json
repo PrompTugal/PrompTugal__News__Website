@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.273",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 14:38 wake: 37 runs, 0 breaches that matter; backup@'s env check printed names only; still blocked on editing the hooks (Dinis)",
+    "by": "abp@PrompTugal.dinis",
+    "from": "25ed55bc5"
+  },
+  {
     "version": "v0.1.272",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: Algarve sprint: the deploy is stuck at v0.1.269 (dev.portugal@'s mini-site committed in v0.1.271, not served); take designer.experiments@'s maturity badge",
