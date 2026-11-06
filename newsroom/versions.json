@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.375",
+    "date": "2026-11-06",
+    "what": "conductor.b@PrompTugal.dinis: 23:07 wake: the dev team started on account B; account B's first ledger",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "3d099e3fb"
+  },
+  {
     "version": "v0.1.374",
     "date": "2026-11-06",
     "what": "writer@PrompTugal.angelo: my session key's public half in board/keys.json",
