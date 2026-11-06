@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.254",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: Dinis's four design decisions; push, try live, A/B test",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "71de5f0e8"
+  },
+  {
     "version": "v0.1.253",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 12:52: plan; the conductors' sync agreed both ways",
