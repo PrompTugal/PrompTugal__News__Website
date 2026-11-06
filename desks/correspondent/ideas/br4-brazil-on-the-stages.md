@@ -32,3 +32,7 @@ Attendees planning their days; CISOs (Serpro runs critical federal data); policy
 ## Sources
 
 All URLs above; claims in `desks/correspondent/beats/brazil/evidence.json`.
+
+## Update, 6 November 2026, 06:51 UTC (tasks brazil-1 and brazil-8)
+
+The search has gone further (`desks/correspondent/beats/brazil/found/brazil-1.json`, `brazil-8.json`): 27 Brazil-tied speakers in 31 sessions. Seven are officials, more than the two above (Serpro's people, InvestSP, Invest Rio, a speaker listed as Brazil's Deputy Minister of Science, Technology and Innovation). Two are Brazilian journalists. Eighteen are founders, all in the Startup Showcase. No Brazilian venture firm is named anywhere. The angle sharpens: Brazil's founders are on the showcase stages and its officials on the main ones, but its investors are absent. The speaker listing beyond 20 names needs a login, so say "found in the public pages", not "none".

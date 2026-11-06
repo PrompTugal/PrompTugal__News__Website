@@ -1,5 +1,124 @@
 [
   {
+    "version": "v0.1.162",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: scheduled wake: the catalogue at v0.1.160 with every pass's findings and decisions (103) and all 25 agents; the publication pass's condition on me noted; run report",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "a3f95b47d"
+  },
+  {
+    "version": "v0.1.161",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 06:52: plan, four agent inboxes, lanes re-issued, snapshot 0653Z",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "d569572b0"
+  },
+  {
+    "version": "v0.1.160",
+    "date": "2026-11-06",
+    "what": "accountant@PrompTugal.dinis: 06:50 wake: 277.55 dollars today (about 50 an hour), 11 new agents and 23 new passes budgeted, observe mode; conductor@ over, the open passes overcommit the day five times",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "744751b8a"
+  },
+  {
+    "version": "v0.1.159",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: brazil-1 and brazil-8 done (27 Brazil-tied speakers in 31 sessions, 18 founders in the Startup Showcase; no Brazilian venture firm named); BR4 updated; status and run report",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "7e36900d6"
+  },
+  {
+    "version": "v0.1.158",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 06:44 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "967e39c3c"
+  },
+  {
+    "version": "v0.1.157",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: front page at 06:55: S7 (Lisbon's awards, the Algarve's plan) to the top three; decisions on synthetic@'s F39 and F40",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "7f7e95a02"
+  },
+  {
+    "version": "v0.1.156",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 06:38 wake: dotted workers recognised and granted, a write-target shell check, the hook checks its own sha256 (S15); six relaxations proposed",
+    "by": "abp@PrompTugal.dinis",
+    "from": "f0e0ef4c6"
+  },
+  {
+    "version": "v0.1.155",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 06:40 UTC: who sends as Dinis decided, Airia's flows; blocked on which person sends which company and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "3eed4366a"
+  },
+  {
+    "version": "v0.1.154",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: the summit's days, round 1: a strip of eight days, a past day as the site really was (v0.1.37), a future day as planned",
+    "by": "designer@PrompTugal.dinis",
+    "from": "ce25a42f3"
+  },
+  {
+    "version": "v0.1.153",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: 06:30 wake: the top re-measured (T5 done, T1 worse), the synthetic page re-read (64 to 18 phone screens), first reviews of the articles and companies pages; blocked on dev@'s quick fixes and Dinis's choice of top",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "6ebaee123"
+  },
+  {
+    "version": "v0.1.152",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "43b3f9777"
+  },
+  {
+    "version": "v0.1.151",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: 1Password's past-edition source corrected (synthetic@'s finding); Airia's two flows, sourced",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "60452f0be"
+  },
+  {
+    "version": "v0.1.150",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 06:08: four dev workers' branches reviewed and brought onto dev; dev.portugal sent back",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a25a1afa2"
+  },
+  {
+    "version": "v0.1.149",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: wake 06:14: the deploy recovery proven (5 stalls, 5 recovered, no release lost); stalls made half as costly; blocked on nothing",
+    "by": "devops@PrompTugal.dinis",
+    "from": "42e287992"
+  },
+  {
+    "version": "v0.1.148",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: hourly wake 06:13: Algarve Evolution's 2025 Web Summit roles confirmed from the ANJE regulation (partner, one of five jury seats). Blocked: their own site unreachable, no session key yet",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "ead1cd3bb"
+  },
+  {
+    "version": "v0.1.147",
+    "date": "2026-11-06",
+    "what": "backup@PrompTugal.dinis: wake 06:10: full repository bundle made and verified (72.7 MB, container only); status rewritten",
+    "by": "backup@PrompTugal.dinis",
+    "from": "6f1425278"
+  },
+  {
+    "version": "v0.1.146",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 06:10: 59 commits clean; 16 passes pre-reviewed; the hooks run in every agent's session (S15, high)",
+    "by": "security@PrompTugal.dinis",
+    "from": "ad606fe59"
+  },
+  {
     "version": "v0.1.145",
     "date": "2026-11-06",
     "what": "customers@PrompTugal.dinis: brief 2, the personal newsreel and the map of everything published; E5 and E6 in the register; the conductor briefed",

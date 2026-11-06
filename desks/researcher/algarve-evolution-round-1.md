@@ -1,6 +1,6 @@
 # Algarve Evolution: research round 1
 
-By researcher@PrompTugal.dinis, read 6 November 2026 (UTC). Public sources only, no login. Each fact carries its source. Figures are as the source reports them (many are self-reported by the organisation). Nothing here is yet checked against the organisation's own site: algarveevolution.pt returned HTTP 503 on 6 November 2026, so first-hand confirmation is open. Names of people appear only in the professional capacity the source gives. No contact details.
+By researcher@PrompTugal.dinis, read 6 November 2026 (UTC). Public sources only, no login. Each fact carries its source. Figures are as the source reports them (many are self-reported by the organisation). Nothing here is yet checked against the organisation's own site: algarveevolution.pt returned HTTP 503 (WebFetch) and a connection reset (curl) on 6 November 2026, so first-hand confirmation is open. Names of people appear only in the professional capacity the source gives. No contact details.
 
 ## Who they are
 - A Faro-based organisation strengthening southern Portugal's innovation ecosystem; a small group of local entrepreneurs began building the community in 2018; in 2026 it shifted focus from community building to business growth. Source: [Portugal Startup News, 1 Nov 2026](https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/), read 2026-11-06.
@@ -27,7 +27,7 @@ Source: Portugal Startup News, above.
 | Venture Lab by AlgarveSTP | One of six partners (AlgarveSTP, University of Algarve, AMAL, NERA, ANJE, Algarve Evolution); 12 startups and SMEs selected for mentoring; published 10 Jul 2026; specific role of Algarve Evolution not described. | [postal.pt](https://postal.pt/algarve/venture-lab-by-algarvestp-seleciona-12-empresas-para-acelerar-crescimento/), read 2026-11-06 |
 
 ## Web Summit and Portugal Tech Week links
-- 2025: ANJE ran the project that took 24 Algarve startups to Web Summit Lisbon 2025, co-financed by Algarve 2030; a search summary says Algarve Evolution sat on its committee (the regulation PDF could not be read as text: open, needs an OCR pass). Sources: [ANJE regulation (PDF)](https://anje.pt/wp-content/uploads/Regulamento-Participacao-Startups-Websummit-2025_01_09_2025_Paginado-versao-EN.pdf); [Portugal Resident](https://stg.portugalresident.com/algarve-to-be-represented-by-24-startups-at-web-summit-2025/).
+- 2025, confirmed from the primary document: the regulation of the competition "Participation of Algarve Startups in Web Summit Lisbon 2025" (FEDER-00952200) names the Algarve Evolution Association (AE) as a project partner, with the University of Algarve (lead promoter), AMAL, Algarve STP and NERA, and promotes the participation of 24 Algarve startups at Web Summit Lisbon, 10 to 13 November 2025. Algarve Evolution holds one of the five permanent jury seats (with ANJE, NERA, University of Algarve CRIA, Algarve STP). Source: [ANJE regulation (PDF), text read with pdftotext](https://anje.pt/wp-content/uploads/Regulamento-Participacao-Startups-Websummit-2025_01_09_2025_Paginado-versao-EN.pdf), read 2026-11-06. Also reported by [Portugal Resident](https://stg.portugalresident.com/algarve-to-be-represented-by-24-startups-at-web-summit-2025/).
 - 2026: no confirmed Algarve Evolution presence or Algarve startup list at Web Summit Lisbon 2026 found yet. A listing gives Portugal Tech Week as 6 to 15 Nov 2026 (single listing, unverified).
 
 ## Context numbers (from the same article)
@@ -38,7 +38,7 @@ University of Algarve, Algarve STP, AMAL, NERA, ANJE, Junior Achievement Portuga
 
 ## Open for round 2
 1. The organisation's own site and event pages (503 today; retry), to confirm leadership, member list and the summit-week events.
-2. The ANJE PDF text (OCR) for Algarve Evolution's committee role.
+2. (Done in round 1b: the ANJE PDF is text and confirms the partner and jury roles.)
 3. Whether Algarve Evolution has events in Portugal Tech Week or Web Summit week 2026.
 4. Public, professional people (leadership, board) with a free-licence photo: none collected yet; asking each for their yes is Dinis's to do.
 5. Member companies that are also in data/companies (cross-check for the graph; ontologist@).
