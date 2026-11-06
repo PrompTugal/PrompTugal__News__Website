@@ -27,6 +27,8 @@
 import * as NV from './vault-core.js'
 import { doorFrom, prfBytes, recoveryBytes, recoveryCode, PRF_INPUT_TEXT, sha256 } from './door.js'
 import * as S from './sync.js'
+const OB = () => import('../onboard/onboard.js')   // vault onboarding: loaded only when needed
+let onboardCtx = null
 
 const ROOT = new URL('../../', import.meta.url)
 const at = p => new URL(p, ROOT).href
@@ -280,11 +282,14 @@ function drawNoDoor(door, prf) {
     const access = h('input', { type: 'password', class: 'input', id: 'nr-vault-access', autocomplete: 'off', spellcheck: 'false', placeholder: 'kept in memory, then inside your master vault' })
     const code = h('input', { type: 'text', class: 'input', id: 'nr-vault-code', autocomplete: 'off', placeholder: 'XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XX' })
     const missingSlot = h('div', { id: 'nr-vault-missing-slot' })
+    const pilot = h('div', { id: 'nr-vault-pilot' })
+    offerPilotKey(pilot, access)
     fill(
         h('p', { class: 'notice', id: 'nr-vault-nodoor' }, `No vault answers to this passkey yet (door ${door.vaultId}, ${prf.path}). Either this is your first device, or your vault was made with another passkey.`),
         h('h3', {}, 'Create your vault'),
         h('p', { class: 'meta' }, 'Three vaults are made: this door, a master that keeps your keys, and your reader vault for your data. The vault server accepts a new vault only with a vault access key; it is written into your master, so no other device of yours needs it typed.'),
         h('div', { class: 'field' }, h('label', { for: 'nr-vault-access' }, 'Vault access key'), access, h('span', { class: 'hint' }, `Status: ${accessKeyWords()}. Sent only to ${ENDPOINT}.`)),
+        pilot,
         missingSlot,
         h('p', {}, h('button', { type: 'button', class: 'btn primary', id: 'nr-vault-create', onclick: () => createAccount(door, prf, access.value.trim(), missingSlot) }, 'Create your vault')),
         h('h3', {}, 'Another device of an existing vault'),
@@ -324,6 +329,26 @@ function recoveryNotice(shown) {
     return box
 }
 
+/** Vault onboarding (board/spec-vault-onboarding.md): where the site config says it is open, a reader with no access key can
+ *  draw a pilot key from the public pool instead of asking for one; their browser makes their keys, opens the licence, and
+ *  the access key lands in the field the create step reads. The words are data (data/billing/vault.json onboarding). */
+async function offerPilotKey(slot, access) {
+    const W = CFG.onboarding
+    if (!W) return
+    let ob, cfg
+    try { ob = await OB(); cfg = await ob.loadConfig() } catch (e) { return }
+    if (!ob.isOpen(cfg)) return
+    const msg = h('p', { class: 'meta', id: 'nr-vault-pilot-msg', role: 'status' })
+    const btn = h('button', { type: 'button', class: 'btn quiet', id: 'nr-vault-pilot-draw', onclick: async () => {
+        btn.disabled = true
+        try {
+            const r = await ob.drawKey(cfg, step => { msg.textContent = W[step] || '' })
+            access.value = r.accessKey; onboardCtx = r.ctx; msg.textContent = W.ready
+        } catch (e) { msg.textContent = e && e.code === 'EEMPTY' ? W.empty : W.failed + err(e) } finally { btn.disabled = false }
+    } }, W.button)
+    slot.replaceChildren(h('p', { class: 'meta' }, W.hint), h('p', {}, btn), msg)
+}
+
 /** The account in one go: three vaults, the access key in the master, a recovery door, the account file. As newsroom.sgit.ai's createAccount. */
 export async function createAccount(door, prf, token, slot) {
     if (!token) { (slot || body).replaceChildren(missingKeyBox()); return }
@@ -341,8 +366,14 @@ export async function createAccount(door, prf, token, slot) {
             await NV.writeFile(a.reader, '/activity', 'account.json', JSON.stringify(S.accountFile(MCFG, deviceId), null, 1))
             await NV.publish(a.reader)
             state.vaults = { door: a.door, master: a.master, reader: a.reader, doors: added.doors || a.doors, record: a.record, token }
+            let claimNote = null
+            if (onboardCtx) {
+                const W = CFG.onboarding || {}
+                try { const r = await (await OB()).afterCreate(onboardCtx, a.master); claimNote = h('p', { class: 'meta', id: 'nr-vault-claimed' }, r.posted ? W.claimed : W.claim_failed) } catch (e) { claimNote = h('p', { class: 'meta', id: 'nr-vault-claimed' }, W.claim_failed) }
+                onboardCtx = null
+            }
             session.set({ door, path: prf.path, credId: prf.credId, token }); status()
-            await drawUnlocked(recoveryNotice(rc.shown))
+            await drawUnlocked(h('div', {}, recoveryNotice(rc.shown), claimNote))
         } catch (e) { st.replaceWith(h('p', { class: 'nr-warn' }, e.code === 'EEXISTS' ? 'A vault already exists at this door: sign in again to open it.' : /401|403|access token/i.test(String(e && e.message)) ? `The vault server refused that access key (${err(e)}). Nothing was created.` : err(e))) }
     })
 }
@@ -370,6 +401,8 @@ async function joinWithCode(codeText, door, prf) {
 /** After a sign-in: bring in what the vault holds that this browser does not, so the meter shows the whole account at once. */
 async function afterUnlock(note) {
     const v = state.vaults
+    // the issuer's messages for a vault made through onboarding (the mailbox), best effort and silent when there are none
+    OB().then(async m => { const cfg = await m.loadConfig(); if (!m.isOpen(cfg) || !v.master) return; const got = await m.checkMailbox(v.master, cfg); if (got.length) window.dispatchEvent(new CustomEvent('pt:mailbox', { detail: got })) }).catch(() => { })
     if (!v.reader) return drawUnlocked(note)
     fill(note || null, h('p', { class: 'meta' }, 'Reading your devices’ files…'))
     let c = null

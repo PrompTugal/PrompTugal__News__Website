@@ -18,5 +18,17 @@
     "button": "I have saved it",
     "wrong": "That does not match the end of the code. Check what you wrote down.",
     "done": "Recovery code confirmed. It is not kept anywhere on this page."
+  },
+  "onboarding": {
+    "button": "Get a pilot access key",
+    "hint": "The pilot gives every reader a key from a public pool, so no one has to ask for one. Your browser makes your own keys first, which takes a few seconds.",
+    "keys": "Making your keys…",
+    "pool": "Reading the pool…",
+    "licence": "Opening your licence…",
+    "ready": "A pilot access key is ready: now create your vault.",
+    "empty": "The pool is empty for now. Try again in an hour, or tell us you are interested.",
+    "failed": "No pilot key could be drawn: ",
+    "claimed": "Your vault was made and your claim was posted.",
+    "claim_failed": "Your vault was made. The claim could not be posted, which does not affect your vault."
   }
 }

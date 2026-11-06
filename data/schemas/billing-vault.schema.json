@@ -104,6 +104,64 @@
           "minLength": 1
         }
       }
+    },
+    "onboarding": {
+      "type": "object",
+      "required": [
+        "button",
+        "hint",
+        "keys",
+        "pool",
+        "licence",
+        "ready",
+        "empty",
+        "failed",
+        "claimed",
+        "claim_failed"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "button": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hint": {
+          "type": "string",
+          "minLength": 1
+        },
+        "keys": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pool": {
+          "type": "string",
+          "minLength": 1
+        },
+        "licence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ready": {
+          "type": "string",
+          "minLength": 1
+        },
+        "empty": {
+          "type": "string",
+          "minLength": 1
+        },
+        "failed": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claimed": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_failed": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   }
 }
