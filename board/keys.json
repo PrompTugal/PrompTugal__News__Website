@@ -153,6 +153,23 @@
         "signing_fingerprint": "sha256:ec0d0c60d25e2ae8"
       },
       "status": "active"
+    },
+    {
+      "id": "devops-promptugal",
+      "agent": "devops@PrompTugal.dinis",
+      "label": "devops@PrompTugal.dinis (Claude Code session)",
+      "role": "The devops agent of PrompTugal.news (devops@PrompTugal.dinis): the health, quality and performance of CI (.github/workflows/), the release and tag scripts, every tool in newsroom/tools/ and every automation and scheduled task of this site. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in the team site's admin/tools/seal.mjs) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxeRYzH/9HFn5Az17jxCY\nz3yoF5hkllbfKsqLhvsn1jpRCQmwXsQPNOvkkbSVtp/FhjpeAAZ5M/IIMOLB/gpa\nH74TMCVqK5omZiHqrmkn6tDKo/NettaKteaITcCDJKha+g2jk7ah7N3V0DRhiBI2\nvfz8kf7M3ymQdbQ7rwNKtOETcamQhvqSothnWCGttiFJsG6jKRZFbKJjty2H++VB\nSRV6AnehBuTeZmfqOdsk92A7DWIwGiU9PJqMbPR7nynItU7TvzNFYtOP4B4McNEb\njD2Z4LygFSRGYD1xOgBScE20G7w7yLSIOtP+592wPjIhMg31N6YSZY522MY2NOkf\nuWyafWslyPmXVBtvWQ64PrieH3nvff6I3bA/27yPjZa5F7klHWXAOcHM0gx5yA+f\nxpwylOu8aYmNmsceVWV5vPff1HwtBqBeaPokH3VUb4Ie1HLHVnazNTuhdgGVLQLl\nOh4YzmyBaZhyeu6Mrmj4qPbTtduZWDKhTlpJow6/txNZ7WYByIyYl6IWs33CM9Tc\niUISnk1CzTpSTNJHGq3C+rWKxeavvUZa3dzfOEqfdL3uh0+4j5l+AyFSoSmOqNxR\nQSHC/FBVC1pK4BZ9CuOyzLjuQxn/rS12WnKU5YZLPtRdGHwLMz6GeODEL1u/o6mT\nBIB4BNBPZ1UYOiu1yZ1K/0sCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgmEXfguRo0NGQ/w+V5fKLpn/6/ov\n8A4sabjtZ4OFbngYu7AeJ/xjNBdh9nWkbhmbE8h405G/Xg/qJdA5InCEyA==\n-----END PUBLIC KEY-----\n",
+        "label": "devops@PrompTugal.dinis",
+        "fingerprint": "sha256:fbc125d9f999f457",
+        "signing_fingerprint": "sha256:daef48c7c5018fdc"
+      },
+      "status": "active"
     }
   ]
 }

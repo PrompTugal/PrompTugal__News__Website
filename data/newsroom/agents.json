@@ -606,6 +606,30 @@
       "issues": [
         "WS-177"
       ]
+    },
+    {
+      "id": "devops-promptugal",
+      "name": "devops@PrompTugal.dinis",
+      "label": "PrompTugal's devops",
+      "person": "dinis",
+      "kind": "builder",
+      "desk": null,
+      "started_by": "Dinis Cruz",
+      "started": "2026-11-06T04:00:00Z",
+      "started_basis": "Dinis's word of 6 November 2026 (about 04:00 UTC): \"a DevOps agent which is going to be focused on the health, quality and performance of our CI pipeline and every script and automation we have on this site\" (board/guidance/2026-11-06-design-and-passes.md, section 6).",
+      "role": "The health, quality and performance of CI (.github/workflows/), the release and tag scripts, every tool in newsroom/tools/ and every automation and scheduled task of this site: failures, slow steps, flaky runs, cancelled deploys, a page served stale.",
+      "lands": [
+        "board/team/devops/",
+        ".github/workflows/",
+        "newsroom/build/tag_release.sh",
+        "newsroom/tools/release.sh"
+      ],
+      "keys": [],
+      "status": "running",
+      "status_note": "Its key is devops-promptugal in board/keys.json (record sha256:daef48c7c5018fdc); not listed under keys here, as for the other PrompTugal agents. Added by devops@PrompTugal.dinis itself, as its first-run prompt asked.",
+      "issues": [
+        "WS-177"
+      ]
     }
   ]
 }
