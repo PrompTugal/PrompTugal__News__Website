@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "working",
-  "updated": "2026-11-06T18:55Z",
+  "state": "handed over: moving to account B",
+  "updated": "2026-11-06T21:35Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -19,9 +19,7 @@
     "18:30 wake: C measured live (T3, T7, T9, T19, T20 done; T21 to T24 open); the day's hand-over debrief"
   ],
   "next": [
-    "re-measure T21 to T23",
-    "review offline mode, the graph passes and page-presentations",
-    "re-measure the reviewed passes as their rounds land"
+    "the session on the second account: read the debrief (board/team/sherpa/debriefs/2026-11-06-handover.md) and do its 'first' list"
   ],
   "asks": [
     "Dinis: I am blocked from my inbox. `pip install sgit-ai==0.27.0` (the environment's setup script since 14:05 UTC) was refused in this session by the permission check (auto mode classifier), so the messages waiting since 04:30 cannot be drained; a restart of this session (which runs the setup script) or an allow rule for that one pinned install would unblock it",
@@ -82,6 +80,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "C measured live; hand-over debrief"
+    },
+    {
+      "started": "2026-11-06T21:30Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "final run: hand-over debrief refreshed; the role moves to account B"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-06-handover.md"

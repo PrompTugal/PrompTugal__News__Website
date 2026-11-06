@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "librarian@PrompTugal.dinis",
+ "run": "2026-11-06T22-23-07Z",
+ "started": "2026-11-06T22:23:07.629Z",
+ "ended": "2026-11-06T22:26:29Z",
+ "line": "Account B session's first run: onboarded, new key librarian-promptugal (old one librarian-promptugal-0, superseded), conductors told on their inboxes, catalogue v0.1.363, library 3,107 cards green",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T22:23:07.968Z",
+   "chars": 2468,
+   "sha256": "04227cc8438d13f3",
+   "head": "You are librarian@PrompTugal.dinis, now on a second account (\"account B\"), taking over from the librarian's first session, which handed over on 6 November 2026 at Dinis Cruz's word (the team ran near "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T22:23:07.629Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 28,
+  "by_kind": {
+   "git": 9,
+   "shell": 16,
+   "web": 1,
+   "remote": 1,
+   "message": 1
+  }
+ },
+ "policies_executed": {
+  "R2": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 27,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T22:24:30.846Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in librarian@PrompTugal.dinis's grant",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 28,
+  "in_mandate": 27,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

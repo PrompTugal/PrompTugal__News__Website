@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-995 cards (995 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T18:58:39Z at site v0.1.316; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+997 cards (997 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T22:26:02Z at site v0.1.363; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
 | `DAT.EV` | 240 |
-| `DAT.ORG` | 235 |
+| `DAT.ORG` | 236 |
 | `DAT.PE` | 264 |
 | `DAT.PL` | 83 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 28 |
+| `PUB.SITE` | 29 |
 
 Newest five accessions:
 
+- `ACC-20261106-2929` [How we publish: PrompTugal.news's publish workflow](https://promptugal.news/how-we-publish/) (`PUB.SITE how-we-publish`)
+- `ACC-20261106-2910` [Junta de Freguesia do Parque das Nações](https://promptugal.news/organisations/junta-de-freguesia-do-parque-das-nacoes/) (`DAT.ORG junta-de-freguesia-do-parque-das-nacoes`)
 - `ACC-20261106-2794` [The daily newsletter](https://promptugal.news/newsletter/) (`PUB.SITE newsletter`)
 - `ACC-20261106-2793` [My day at the summit](https://promptugal.news/my-day/) (`PUB.SITE my-day`)
 - `ACC-20261106-2777` [Microsoft](https://promptugal.news/organisations/microsoft/) (`DAT.ORG microsoft`)
-- `ACC-20261106-2776` [Google](https://promptugal.news/organisations/google/) (`DAT.ORG google`)
-- `ACC-20261106-2775` [AWS](https://promptugal.news/organisations/aws/) (`DAT.ORG aws`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

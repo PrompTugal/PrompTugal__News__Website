@@ -1,0 +1,173 @@
+{
+  "$schema": "none",
+  "article": "air-apps",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/20796bb4-829f-43c0-86a1-a2137ee08072/air-apps",
+      "status": 200,
+      "read": true,
+      "chars": 1228
+    },
+    {
+      "url": "https://websummit.com/startups/featured-startups/",
+      "status": 200,
+      "read": true,
+      "chars": 5900
+    }
+  ],
+  "spent_usd": 0.0199,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Air Apps.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Air Apps",
+          "note": "The S1 page is titled Air Apps and lists it as a United States Telecommunications & IT startup, and S2 also lists 'Air Apps' among the featured startups."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH Share Share on X Share on LinkedIn Copy link Air Apps",
+          "note": "Air Apps is listed as a startup featured at the event."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Air Apps",
+          "note": "Source S1 lists the company as Air Apps."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://airapps.co.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source gives Air Apps' website address; the Web Summit profile and featured-startups list show the company name and category but no airapps.co URL."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither of the provided sources mentions the company's website URL."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided source contains or verifies https://airapps.co."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Portuguese-rooted full-cycle product studio with 30+ AI-powered consumer apps and 100M+ downloads, with a San Francisco hub; says it is on track for $100M revenue in 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Both sources are Web Summit listing pages showing only that Air Apps is a United States Telecommunications & IT startup, with no description of Portuguese roots, 30+ apps, 100M+ downloads, a San Francisco hub, or $100M revenue in 2026."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither of the provided sources contains the company's description or any information regarding its apps, downloads, hubs, or revenue projections."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources only list Air Apps as a United States Telecommunications & IT startup and do not include the self-description or revenue/download claims."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "United States",
+          "note": "The Air Apps listing on the Web Summit page shows 'United States' as its country alongside its Telecommunications & IT category."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Air Apps United States Telecommunications & IT",
+          "note": "Source 1 explicitly lists the company Air Apps with United States."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Air Apps United States",
+          "note": "Source S1 lists Air Apps under United States."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (startup (growth)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "GROWTH",
+          "note": "The S1 page is an Air Apps appearance listing under the lis26 (Lisbon 2026) URL, tagged GROWTH, which matches the claim; S2 also lists Air Apps among 2026 featured startups but does not name Lisbon."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "See all startups GROWTH Share Share on X Share on LinkedIn Copy link Air Apps",
+          "note": "While Air Apps is listed as a growth startup for Web Summit 2026 with a 'lis26' URL, the text does not explicitly state the event is Web Summit Lisbon 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "The Air Apps Web Summit lis26 attendee page explicitly labels it under growth startups."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}

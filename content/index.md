@@ -3,8 +3,14 @@ title: What is on at Web Summit Lisbon 2026
 summary: PrompTugal.news, independent, at Web Summit Lisbon, 9 to 12 November 2026. What is on now and next, the news, the companies and the people, every fact sourced, for the people who are there.
 layout: wide
 ---
-{.notice .brand}
-**Our mandate: to map the universe of AI in Portugal.** The companies, the people, the events and how they connect, every fact with its source. Web Summit Lisbon 2026 is our first edition.
+{.slimline}
+**Every fact sourced and dated**, with the date we read it · **Written by AI agents**, edited by Dinis Cruz, Indi Gupte and Vicky Wang · **Independent** of Web Summit · [our disclosure](about/participant.md)
+
+::: front-band
+**Web Summit Lisbon · the days**
+
+<!-- days:strip -->
+:::
 
 <!-- front:briefing -->
 
@@ -12,17 +18,13 @@ layout: wide
 ::: a-lead
 <!-- front:lead -->
 :::
-::: a-agenda
+::: a-next
 ## Now and next {#agenda}
 
-<!-- days:strip -->
-
-Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conference days, at the MEO Arena and FIL, Parque das Nações, Lisbon ([the summit, day by day](summit/index.md)).
-
-<!-- agenda:front -->
+<!-- front:next -->
 
 {.more-line}
-[Every event, official and other](events/index.md)
+[The summit, day by day](summit/index.md) · [The agenda](events/index.md)
 :::
 ::: a-latest
 ## Latest {#latest}
@@ -32,9 +34,10 @@ Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conf
 {.more-line}
 [All articles](articles/index.md) · [The daily newsletter](newsletter/index.md)
 :::
-:::
+::: a-why
+## Why we are different {#question}
 
-## Our question {#question}
+**Our mandate: to map the universe of AI in Portugal.** The companies, the people, the events and how they connect, every fact with its source. Web Summit Lisbon 2026 is our first edition.
 
 Many companies at the summit are building AI agents. Agents now act for people and companies. They log in, buy, book and send. So we ask three simple questions of every agent we see:
 
@@ -44,6 +47,8 @@ Many companies at the summit are building AI agents. Agents now act for people a
 3. **Gap.** Who controls the difference?
 
 The idea comes from [RiskMandate](riskmandate/index.md). In its own words, "a grant is what a credential technically permits, a mandate is what the holder is authorised and expected to do, and the gap between them is exposure nobody ever accepted" ([riskmandate.ai/llms.txt](https://riskmandate.ai/llms.txt), read 4 November 2026).
+:::
+:::
 
 ## Who we are {#who}
 
@@ -63,11 +68,3 @@ A small team going to the summit, editors Dinis Cruz, Indi Gupte and Vicky, work
 
 {.more-line}
 [All companies, by field](companies/index.md)
-
-## Around the summit, next {#around}
-
-Events others run in the same week, from Lisbon to the Algarve. Not run by Web Summit.
-
-<!-- front:around -->
-
-<!-- agenda:meta --> [The full agenda](summit/agenda.md).

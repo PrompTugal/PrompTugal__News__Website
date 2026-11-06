@@ -276,7 +276,7 @@
       "status": "active"
     },
     {
-      "id": "librarian-promptugal",
+      "id": "librarian-promptugal-0",
       "agent": "librarian@PrompTugal.dinis",
       "label": "librarian@PrompTugal.dinis (Claude Code session)",
       "role": "The librarian of PrompTugal.news (librarian@PrompTugal.dinis): the map of every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it (board/catalogue.json); answers \"where is X?\"; feeds the newsroom's search. A session key: it ends with its session.",
@@ -289,6 +289,26 @@
         "label": "librarian@PrompTugal.dinis",
         "fingerprint": "sha256:5e0b96eae9b4ede8",
         "signing_fingerprint": "sha256:43e4a6764c635dfd"
+      },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:30Z",
+      "superseded_by": "librarian-promptugal",
+      "superseded_note": "The first librarian session handed over at 21:30 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from librarian-promptugal to librarian-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
+    },
+    {
+      "id": "librarian-promptugal",
+      "agent": "librarian@PrompTugal.dinis",
+      "label": "librarian@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The librarian of PrompTugal.news (librarian@PrompTugal.dinis): the map of every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it (board/catalogue.json); answers \"where is X?\"; feeds the newsroom's search. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account B on 6 November 2026 at 22:23 UTC (pki-agent.mjs keygen --session, the copy matching sha256 fcb28a1c...02ab) and pushed to this repository by that session, taking over from librarian-promptugal-0 (CLAUDE.md, 'Handing a role to a new session'; board/the-account-move.md). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAjNXT/LAz9i5vB5+um2Vk\nRbVbq2jNomJwf8AkNTTRdAxIdhsKFTBp/s17Ng8mZb1OHl/qaFWGCpcIUCXW5xFU\nh9Er4VYUVsgOZ3CZJqoIB81d1tNOF0o1fG/3aAAUC6La1ZbXdcLzo3/cgJxYyQwc\n136tPA+PTSmPAtViPzJgV9GwNYQbaI3tAnEH89dCsIDeE/uaGcKr0hZyZqRgckUi\nqV97QtQkm7HSa6i8Q1gSVYQmlIaoaXhNq/8nJs72qB/wjVfMMXNB+FJKzhShS14I\nS0zIMqaAcHw1PTrk/uK4XmROo4Q1ojQYJWiEOh5Z1NtutXEC66+g7QWqdDdkSqBI\nrQxoGUkgtq0RC/kXX/dsYYS+ghuXOUPP4YKDwc49zbXeiNHn/8awtv0xYvwhF+rk\n6hCyfgxt7PHkapV3Rv7cSdJoovHrBtt6jMBE1Eaakx4XAteJz4Lb8R7D+944BKUi\nA8cvy25cvxSqlKdUz3/kbEXS7vZ8u4Ho7bLbFdSCOhc727+5XpDR6sKgPjIF6tYW\n+MRtFtEdhKByb61gRO7OqMhdP95eoSCGbOkzRdQMOFtTcxd+2WyZzbK2ExoLETPw\nhbijZJij3b/m0H8kuyJnIm3EMtg67C9EZT3u+6aTuid2PihtMnyz+fROt9BB4X4e\ndD0OlSBn//1Lbfr7Zyq7WZkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqkS3c5fSJu5bJIDuvXwfnb8MHPBe\nSViLX92k9DJA6VysfSkxgPgMFjxF7e0CyllvKfL7k8OLTKqjQwaaGqa6Kg==\n-----END PUBLIC KEY-----\n",
+        "label": "librarian@PrompTugal.dinis",
+        "fingerprint": "sha256:a1bcc67afa9970d6",
+        "signing_fingerprint": "sha256:b7d903294669247b"
       },
       "status": "active"
     },
@@ -569,6 +589,24 @@
       "superseded_note": "Replaced by a new session at Vicky's word (scout's P17), 6 November 2026; the new session makes and publishes its own key. This key signed nothing on this site."
     },
     {
+      "id": "curator-vicky-2-promptugal",
+      "agent": "curator@PrompTugal.vicky",
+      "label": "curator@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky's curator desk for PrompTugal.news (curator@PrompTugal.vicky, until 6 November 2026 curator@web-summit.vicky): maps the research desk's captures in the research vault 41j3e9s9 (beat, organisation, what is new, story candidates and connections, each with its sources) in desks/curator/. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs). A new session that replaces the one whose key was curator-vicky-promptugal, at Vicky's word (scout's P17), 6 November 2026. Not confirmed on pki.sgit.ai. The private half stays in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-06",
+      "replaces": "curator-vicky-promptugal",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtj40dA58p+S2AgLpifMQ\no09ON8mFUfmcQAHLEvyuRkj2wGVEmMBb6n3R9MZ7BzAvJOKGmeLfaip6x19KrZO2\nrx+i0aWPz4/LedClbwOFW67CMFFun2Fu48FRAmy48D8NiAfqQozoGzXKvqYpbIlf\nbQGHB9jkzsn5C+/a4bL3mOFfnsNtaOwW4oGZzdb1MPtW9zuJR15caLfLJ/UrmJ7j\ntofjIkVJ2ekeA4XdgHwEh6Tq6JRbfoE/qRZFOaQvtDCAY1xrJtlN4yenDeycYoH9\nmuguBFW2X4BD16QKdwY7qtG6p4yw16JtSFtV/mnp3PZhpYaxagbu46hIXIpyMNKH\nppqZnHg/Okf190Uhm5cly7mp7pBTB3mhexUpXpW6yuyS2hiVUcKzLaP/+1H5Eki8\nS5gvN1NX/F7dBm2kzKvqOIQv4lhGjTVpmz8pfrfNO36lyvXEZe36L0d+OAKFZyUq\nYGs+zl9HUcwcwYdPrS5DMA1/YcfniWj56VfkMVbQvauiYIjj6UG3oqfox5VlSEAf\njZAYYAuKivBd7QMrwLqu0W79+P0TrdOTlOJEsZKTHH74JohEohkBE0MNnXePAm3X\ndFWj5Xkk2ruCfoCEAhBFD/1r9W+KUBzgJZZU/ffYWRaZg0dIDlnOuyn2Ot3zjyDD\nQz8o/XBk807XilLKsUPE7UkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYzfKWIzmUskEGY7sJgifzXpisGMK\nRYpuek/jipp7mQ/fKmI+9AWkIsfiPegsdLQCb3ioV82n0c4JmoUfvZuLZQ==\n-----END PUBLIC KEY-----\n",
+        "label": "curator@PrompTugal.vicky",
+        "fingerprint": "sha256:990f9a2b383fb585",
+        "signing_fingerprint": "sha256:785c4b7b689e6c29"
+      },
+      "status": "active"
+    },
+    {
       "id": "designer-vicky-promptugal",
       "agent": "designer@PrompTugal.vicky",
       "label": "designer@PrompTugal.vicky (Claude Code session)",
@@ -700,6 +738,24 @@
         "label": "investors@PrompTugal.dinis",
         "fingerprint": "sha256:19d76c449efb9d2b",
         "signing_fingerprint": "sha256:f44298c6cc19ca3f"
+      },
+      "status": "active"
+    },
+    {
+      "id": "conductor.b-promptugal",
+      "label": "conductor.b@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "conductor.b@PrompTugal.dinis",
+      "role": "The conductor's specialist for account B (board/the-account-move.md): starts, schedules and watches the PrompTugal agents moved to Dinis's second account. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 at 21:54 UTC (pki-agent.mjs keygen --session, the copy whose sha256 fcb28a1c...02ab matches the pin in the team site's admin/tools/seal.mjs), record sha256:fe323e2c23635d70, and pushed to this repository by that session; the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai. The first entry for this role: the first session on account B (21:20 UTC) made no key.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsHkVZwac4SDEDDuNW0hB\n+OCpK6LUKS1OWnexcec5yThIpiIGHf3YztfY3v/wmELaIMc4LqjgqDOop2tM6wLm\nBhdKnS3OOgJvqpdyZYU9zbfOBDlAYYcykCWn7choChs+iQDRZUQIMooJjemUp/iw\nGI9nZZTbPHzixgQe3vWEe5GEbsAVge3jPcoygJmoaztP/Vqk5cyWTUNf5OBn9DmL\niUD92/jjw+0sCNNQnZDELorkyGQiv5QaOpJCno15tXRfXhv0oQSvs5zYUDcFd+LL\nJSZHEpxhm/byYIS9jGNntQPgDrLIBU1jtRnNkCgSjcO6o6536VIpZzNfq8eTr/Ly\nWI5D+sptvqoi823/+nvVhzmzwKXoNG3nw1Q+wiEbn7RxV4Q+LDEP4jEC+IysehxR\ntTRtYmfd8zUakZSnxpt9N4uyurmizqHu5C5WqMgGwvitZNR1mdS03RZqVeuY2Oo5\n6qPeT7VoAjbfu6dzckHd7IqmtapW4j8IapX1vehQ6HG06C1ow6Iq+WjdzqG5gEaw\nhwPLF/Jq1SY0A1WgjeBuTx7Vx5AO5+qPAhtldgRsuazB1Y6lhpIKoPtEYgrQvnU6\nVJ5RibJHarqURliJKP/LI7goCPU4O3w4yYVtqN07+GdisVROzspSHJTaT4rX5IQs\n6M8wbu/yYLLk9suQ58ObO/8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUPkqqVigVh18GZFUvyn7FKoseB0n\npE76kOBXVkGGnFsYO7RLY+Nj9SxqDjtj4EbPhj1SYY+UcdW+mGRxf0oSYw==\n-----END PUBLIC KEY-----\n",
+        "label": "conductor.b@PrompTugal.dinis",
+        "fingerprint": "sha256:05e955d1ea81f4d9",
+        "record": "sha256:fe323e2c23635d70",
+        "signing_fingerprint": "sha256:fe323e2c23635d70"
       },
       "status": "active"
     }

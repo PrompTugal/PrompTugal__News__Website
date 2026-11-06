@@ -1,8 +1,8 @@
 {
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
- "state": "working: every three hours at :47 UTC (board/schedule.json); capture and adjust",
- "updated": "2026-11-06T19:00Z",
+ "state": "working on account A (stays, board/the-account-move.md): every three hours at :47 UTC; capture and adjust",
+ "updated": "2026-11-06T22:00Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -15,15 +15,16 @@
   "12:52 wake: 423.84 API-equivalent today, 28 an hour; Dinis's 10:10 and 10:15 word applied: no stop lines anywhere (budgets.json, ROLE.md, the devops@ ask withdrawn), every dollar labelled API-equivalent, real limits recorded (subscription allowed; OpenRouter exhausted at -0.20); proposals for Dinis; the reader feedback pass budgeted; sessions read by my own calls",
   "14:15 (the conductor's relay, not a wake): sgit-ai 0.27.0 already in place, inbox drains; the budget proposals and the OpenRouter top-up as a decision page, /newsroom/decisions/the-budgets-after-the-first-day/; ROLE.md carries Dinis's 10:10 and 10:15 word",
   "15:52 wake: 582.84 API-equivalent today (53 an hour since 12:52); the subscription at allowed_warning, reported; choices 1 to 4 of my decision page decided as the owner (releases a count; no higher lines while the real limit warns); my own reading cut to the Opus sessions per wake",
-  "18:50 wake: the 16 Opus sessions read (711.44 API-equivalent today, about 43 an hour since 15:52; security@ +32 the most); the subscription still allowed_warning; the offline-mode and Algarve sprint passes budgeted; the hand-over debrief written"
+  "18:50 wake: the 16 Opus sessions read (711.44 API-equivalent today, about 43 an hour since 15:52; security@ +32 the most); the subscription still allowed_warning; the offline-mode and Algarve sprint passes budgeted; the hand-over debrief written",
+  "21:50 wake: account A read (792.82 API-equivalent today, about 27 an hour since 18:50); fifteen agents handed over to account B at about 21:25 and their figures here are final; investors@ budgeted; budgets.json carries which account each role is on; the subscription still allowed_warning on account A"
  ],
  "next": [
-  "at 21:47: the Opus sessions; the subscription first",
-  "the day's close at the first wake after 00:00 UTC: every session once, the day's totals, the lines for 7 November",
-  "the-top-of-the-page pass at 15 of 18 runs"
+  "the day's close at the first wake after 00:00 UTC: every account A session once, the day's totals per role, and account B's from conductor.b@'s ledger when it exists",
+  "the lines for 7 November, per role, whatever the account",
+  "account A's subscription status: whether the move lifts it from allowed_warning"
  ],
  "asks": [
-  "Dinis: the subscription's seven-day limit reads allowed_warning in every PrompTugal session since 12:52 UTC (it read allowed before). The team spent about 53 API-equivalent an hour from 12:52 to 15:52. What I recommend is on /newsroom/decisions/the-budgets-after-the-first-day/ (compaction at every wake, idle wakes push nothing); fewer wakes is yours to decide",
+  "Dinis: account A's seven-day limit still reads allowed_warning at 21:50 UTC; the move to account B (about 21:25) should lower its rate (27 an hour from 18:50, before most of the move). For account B's spend I need conductor.b@'s ledger (board/team/conductor.b/ledger/): I cannot read account B's sessions",
   "Dinis: the OpenRouter credit is still exhausted (-0.20 USD): dev.verify@ and designer@ wait on a top-up. For Dinis on the same page, choice 5",
   "Dinis: at the 09:50 wake sgit printed my inbox vault's read key into this session's transcript (never committed; the same kind of slip as /newsroom/decisions/an-agent-printed-its-own-lane-token/): rotate my inbox if you wish"
  ],
@@ -63,6 +64,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "Opus sessions only; 711.44 today; two passes budgeted; debrief"
+  },
+  {
+   "started": "2026-11-06T21:48Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "account A read; fifteen moved to B; investors@ budgeted; accounts in budgets.json"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-06-handover.md"
