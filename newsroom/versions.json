@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.183",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 09:09: review round 4, six worker branches brought onto dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "511b704fe"
+  },
+  {
     "version": "v0.1.182",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 08:52: plan, dev.data's block routed, snapshot 0853Z",
