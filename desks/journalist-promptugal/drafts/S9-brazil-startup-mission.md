@@ -3,7 +3,7 @@ title: Brazil's startup mission comes to Web Summit Lisbon
 story: S9
 date: 2026-11-06
 author: journalist@PrompTugal.dinis, round 1 of the Brazil story project, from the first version by journalist@web-summit.vicky
-summary: "Brazil brings one of the two largest national delegations to Web Summit Lisbon, led by ApexBrasil and Sebrae. Five public counts for 2026 run from 100 to about 300, and no public list names the companies. What is known, who is named, where to find them, and how to help us map the rest."
+summary: "Brazil, which brought one of the two largest national delegations to Web Summit in 2025, comes back to Lisbon with a mission led by ApexBrasil and Sebrae. Five public counts for 2026 run from 100 to about 300, and no public list names the companies. What is known, who is named, where to find them, and how to help us map the rest."
 status: draft
 beat: Announcements
 license: https://creativecommons.org/licenses/by/4.0/
@@ -45,7 +45,7 @@ The figures may count different groups. None of the sources reconciles them, and
 
 - **Rio de Janeiro's ten.** Gol pays the flights of ten startups from the city, through Invest.Rio and Maravalley, as reported by Startups.com.br: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT and AllPetSenior. [Mobile Brain](../companies/mobile-brain/index.html) has a page here.
 - **One national pick.** Sebrae's announcement names one of the 100: Vox EPower, from Nova Iguaçu.
-- **Four hubs.** Porto Digital (Recife), ACATE (Santa Catarina), SENAI CIMATEC (Bahia) and Instituto Caldeira (Porto Alegre), as IOL reports from ApexBrasil.
+- **Four hubs.** Porto Digital, ACATE, SENAI CIMATEC and Instituto Caldeira, among the ten hubs whose 50 companies come, as IOL reports from ApexBrasil.
 - **The states.** Sebrae says 12 states run missions of their own. It does not name them.
 
 ## On the programme
@@ -53,9 +53,9 @@ The figures may count different groups. None of the sources reconciles them, and
 | When | What | Where |
 |---|---|---|
 | 9 November | The mission's internationalisation seminar | Brazil Pavilion |
-| 10 November | An AI pitch competition; the Lisbon incubator's 2027 class announced | Brazil Pavilion |
+| 10 November | An AI pitch competition between startups from Brazil, France, Portugal and Germany; the startups chosen for the second edition of ApexBrasil and Sebrae's incubation programme in Lisbon announced | Brazil Pavilion |
 | 10 November, 17:30 to 22:30 | [German-Brazilian Startup Night](../events/german-brazilian-startup-night/index.html) | Gale patio |
-| 11 November, 10:30 | ["The next digital frontier"](../events/the-next-digital-frontier/index.html), with São Paulo state's Secretary of Science, Technology and Innovation | Stage 11 |
+| 11 November, 10:30 | ["The next digital frontier"](../events/the-next-digital-frontier/index.html), with São Paulo state's Secretary of Science, Technology and Innovation and Portugal's Secretary of State for Digitalisation, among others | Stage 11 |
 | 12 November, 16:10 | ["Brazil's blueprint for cyber resilience"](../events/brazil-s-blueprint-for-cyber-resilience/index.html), with Serpro's President and CEO | Stage 8 |
 
 A suggestion: investors and accelerators interested in Latin America, and Portuguese startups selling into Brazil, could start at the Brazil Pavilion, and the AI pitch competition on 10 November is one place to see several Brazilian startups at once.
@@ -74,7 +74,17 @@ We are mapping everyone Brazil brings to Lisbon: the startups, the founders, the
 
 ## Where this comes from
 
-(The source list is added once every fact above has been re-checked at its source; the published version keeps its sources until then.)
+Every source was opened again on 6 November 2026 and each fact checked against it.
+
+- ApexBrasil, "Missão ao Web Summit, 9 a 13 de novembro de 2026: Regulamento de participação" (PDF; the mission's dates, what each startup gets), read 5 and 6 November 2026: <https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf>
+- Agência Sebrae de Notícias, "Sebrae e ApexBrasil anunciam startups selecionadas para o Web Summit Lisboa 2026", 30 September 2026 (the 100, the top 40, about 300, the 12 states, Vox EPower), read 6 November 2026: <https://agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-e-apexbrasil-anunciam-startups-selecionadas-para-o-web-summit-lisboa-2026/>
+- ApexBrasil, results page of the mission's registration (188 companies by tax number, status as of 28 August 2026), read 6 November 2026: <https://crm-apps.apexbrasil.com.br/orgbdeab873/inscricao-eventos/evento/web-summit-lisboa-2026/0714952e-98da-f011-8543-7ced8db0f987>
+- Executive Digest with Lusa, "Web Summit: Cerca de 200 empresas brasileiras em Lisboa para captar investimento", 4 November 2026 (about 200, the pavilion, the 700 million dollars), read 6 November 2026: <https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/>
+- IOL (Link to Leaders), "Web Summit 2026: Brasil chega a Lisboa com 200 empresas à procura de investimento", 5 November 2026 (99, 90 and 50; the hubs; the supporters; the pavilion's programme), read 6 November 2026: <https://www.iol.pt/web-summit-2026/brasil-em-lisboa/web-summit-2026-brasil-chega-a-lisboa-com-200-empresas-a-procura-de-investimento>
+- Startups.com.br, "Gol vai bancar passagens de 10 startups cariocas a Lisboa", 26 October 2026 (Rio's ten), read 6 November 2026: <https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/>
+- Web Summit, session pages for the three sessions above (times in Lisbon time), read 6 November 2026: linked from each event's page on this site.
+- The project's data: the correspondent's universe and evidence, `desks/correspondent/beats/brazil/universe.md` and `evidence.json` (6 November 2026).
+- Tried and not reached: ApexBrasil's own news item on the 200 companies (it asks for a login, 6 November 2026); the Paraíba state government's sites (5 and 6 November 2026).
 
 ## Who made this
 

@@ -2,6 +2,21 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 04:26 UTC (hourly wake)
+
+**Done**
+
+- S9, round 1 of the Brazil story project (`board/projects/brazil-at-web-summit-2026.md`, as Dinis's guidance of 6 November asks: go deep, less wall of text). It is rewritten from the correspondent's universe: the mission at a glance, the five 2026 counts side by side, who is named (Rio's ten, Vox EPower, four hubs), the programme linked to its event pages, and an invitation to the delegation to contribute.
+- All 20 new facts were re-checked at their sources (`checks/S9.md`). Two were corrected before publishing: the hubs' cities are not in the source, and what is announced on 10 November is the incubator's selected startups, not a "2027 class".
+- The first status file, `board/team/journalist/status.json`.
+
+**Blocked, or for others**
+
+- The name waits for Dinis's yes on the text.
+- For designer@ and dev@ (the project's round 1): S9's infographic, its modes and the `/brazil/` section. The article's tables are ready to draw from.
+
+**Left on this line:** the project's reference notes on its key sources; 10 storylines (S7 next).
+
 ## Run of 6 November 2026, 03:26 UTC (hourly wake)
 
 **Done**
