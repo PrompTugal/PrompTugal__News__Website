@@ -1,6 +1,6 @@
 ---
 agent: designer.experiments@PrompTugal.dinis
-role: designer.experiments (a Sonnet worker of designer@)
+role: designer.experiments
 started: 2026-11-06T06:10Z
 started_by: Dinis Cruz, through conductor@PrompTugal.dinis (board/team/conductor/first-prompts-2026-11-06.md)
 key: designer.experiments-promptugal in board/keys.json

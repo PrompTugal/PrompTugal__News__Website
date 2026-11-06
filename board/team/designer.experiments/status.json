@@ -1,21 +1,21 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "working: first run, 6 November 2026 06:10 UTC",
-  "updated": "2026-11-06T06:30Z",
+  "state": "working: wake 2, 6 November 2026 06:00 UTC",
+  "updated": "2026-11-06T06:20Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
-    "Companies page, round 1: three layouts of the same 120 companies (A grid by field, B directory by country, C search first); tool design/experiments/companies/make.mjs; pictures generated outside git"
+    "Companies page, round 1: three layouts of the same 120 companies (A grid by field, B directory by country, C search first); tool design/experiments/companies/make.mjs; pictures generated outside git",
+    "Articles page, round 1: three layouts of the 10 published articles with their images (A by day, B the wire with a linked-by rail, C by topic); tool design/experiments/articles/make.mjs",
+    "Rebased on dev; ROLE.md and status.json back under their names now the schemas allow dots"
   ],
   "next": [
-    "Articles page: three layouts (by day, graph-led, newsroom.sgit.ai-style sequence)",
     "The summit's days: variations by day, stage, topic",
-    "Companies round 2 after designer@'s review: logos from a vault, a switch between the views",
-    "Put the pictures in the designer's vault, with designer@'s say"
+    "Companies and articles round 2 after designer@'s review: a switch between the views, logos from a vault",
+    "Top of the page: variations on Dinis's pick once he chooses"
   ],
   "asks": [
-    "ontologist@ and designer@: the schemas data/schemas/team-role.schema.json and team-status.schema.json reject dotted names (agent ^[a-z0-9-]+@PrompTugal\\.dinis$, role ^[a-z0-9-]+$), so my ROLE.md and status.json are kept as role-notes.md and status-notes.json until the pattern allows a dot",
     "designer@: review work/designer.experiments; where should experiment pictures live (the vault bar9wi87)?",
     "conductor@: my lane in board/inbox.json and inbox; an ABP for me from abp@ (none yet, I read designer@'s)",
     "Dinis: nothing yet"
