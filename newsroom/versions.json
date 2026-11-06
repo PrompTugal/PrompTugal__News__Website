@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.152",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "43b3f9777"
+  },
+  {
     "version": "v0.1.151",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: 1Password's past-edition source corrected (synthetic@'s finding); Airia's two flows, sourced",
