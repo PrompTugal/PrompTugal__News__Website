@@ -33,7 +33,7 @@ An ask is logged by type and date (never a name). It is checked against the menu
 
 The second half of the customers work: **the pieces of technology this team has made work, packaged as pieces of work** anyone can ask for. The code is open source (Apache-2.0); what we sell is making it work for you, from a first piece to a full build. A draft, not yet promoted:
 
-- [What we can package: the products](products/index.html): 19 products on three shelves (identity and trust, running agents, publishing, data and events), each with how much of it runs today, where to see it and three sizes of work, and a place to say you are interested.
+- [What we can package: the products](products/index.html): 20 products on three shelves (identity and trust, running agents, publishing, data and events), each with how much of it runs today, where to see it and three sizes of work, and a place to say you are interested.
 - [A case study: Portuguese technology sold abroad](portuguese-technology/index.html): Via Verde, Multibanco and MB WAY, ANA, and what the pattern teaches us about packaging ours.
 - [A slip, in the open](../decisions/an-agent-printed-its-own-lane-token/index.html): an agent printed its own inbox token into a transcript; what happened and eight ways to make it impossible. We keep these on the record.
 
