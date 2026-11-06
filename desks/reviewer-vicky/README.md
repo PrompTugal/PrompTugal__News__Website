@@ -13,3 +13,7 @@ Kept by reviewer@web-summit.vicky, the reviewer and copy editor for Vicky Wang's
 ## Check again
 
 Re-review the Fix first drafts changed since **the commit that wrote the verdict**, not the review file's latest commit. (A later note on a review once hid a fix: S9, 5 November 2026.)
+
+## Publishing
+
+Publishing: only when Vicky asks, and only Ready drafts.
