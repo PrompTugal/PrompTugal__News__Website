@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: GDN, Guidance (special) (part 6 of 7)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T13:45:24Z"
-site_version: "v0.1.258"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
+site_version: "v0.1.288"
 source: board/catalogue.json
 ---
 
 # Shelf list: GDN, Guidance (special) (part 6 of 7)
 
-100 cards, from `GDN.IDEA SR-15` to `GDN.Q Q10`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `GDN.IDEA SR-15` to `GDN.MEMO 2026-11-06-the-night-memos`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 501 to 525**
 
@@ -112,6 +112,7 @@ source: board/catalogue.json
 | `GDN.IDEA VE-11` | [Missing data is itself a signal](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | idea | conductor@ 6 Nov 2026 |
 | `GDN.IDEA VE-12` | [Maximum provenance](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | idea | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-05-1800-the-stand-up` | [Dinis at the 18:00 stand-up of 5 November 2026: what applies to PrompTugal.news](https://promptugal.news/board/guidance/2026-11-05-1800-the-stand-up.md) | guidance | conductor@ 6 Nov 2026 |
+| `GDN.MEMO 2026-11-06-algarve-evolution-the-call-and-the-wish-list` | [Dinis, 6 November 2026, about 15:40 UTC: the call with António Pinto Guerreiro (Algarve Evolution), his paragraph, and a wish-list interview for every partner](https://promptugal.news/board/guidance/2026-11-06-algarve-evolution-the-call-and-the-wish-list.md) | guidance | conductor@web-summit.dinis 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-budgets-capture-not-block` | [Dinis, 6 November 2026, about 10:10 UTC: budgets are captured and adjusted, not used to block agents](https://promptugal.news/board/guidance/2026-11-06-budgets-capture-not-block.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-clickable-updates-sections-views` | [Dinis, 6 November 2026, about 04:45 UTC: everything clickable, modes, a section for updates, sub-sites, visibility of every agent's reads, and signed-in views](https://promptugal.news/board/guidance/2026-11-06-clickable-updates-sections-views.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-companies-graphs-media-backups` | [Dinis, 6 November 2026, about 05:10 UTC: the companies page, the big graphs (ruv.sgit), media in vaults, backups, and RiskMandate's place](https://promptugal.news/board/guidance/2026-11-06-companies-graphs-media-backups.md) | guidance | conductor@ 6 Nov 2026 |
@@ -123,11 +124,10 @@ source: board/catalogue.json
 | `GDN.MEMO 2026-11-06-front-page-timeline-publication` | [Dinis, 6 November 2026, about 04:30 UTC: the front page, the summit's days in time, an image for every story, and becoming an official publication](https://promptugal.news/board/guidance/2026-11-06-front-page-timeline-publication.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-pt-decisions-passkey-and-the-platform` | [Dinis, 6 November 2026, about 13:05 UTC: PT decisions are the team's; sign in with a passkey to his vault, one experience across his devices; the…](https://promptugal.news/board/guidance/2026-11-06-pt-decisions-passkey-and-the-platform.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-brazil-story-and-story-projects` | [Dinis, 6 November 2026, about 05:00 UTC: the Brazil story as the formula, articles as data, privacy first, contributions as the measure, and work others can…](https://promptugal.news/board/guidance/2026-11-06-the-brazil-story-and-story-projects.md) | guidance | conductor@ 6 Nov 2026 |
+| `GDN.MEMO 2026-11-06-the-comms-protocol` | [Dinis, 6 November 2026, about 16:00 UTC: the comms protocol: every private conversation lives with the Web Summit team; PrompTugal is public](https://promptugal.news/board/guidance/2026-11-06-the-comms-protocol.md) | guidance | conductor@web-summit.dinis 6 Nov 2026 |
+| `GDN.MEMO 2026-11-06-the-daily-newsletter` | [Dinis, 6 November 2026, about 16:20 UTC: a daily newsletter, morning and evening, during Web Summit week](https://promptugal.news/board/guidance/2026-11-06-the-daily-newsletter.md) | guidance | conductor@web-summit.dinis 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-four-design-decisions` | [Dinis, 6 November 2026, about 13:20 UTC: the four design decisions answered; push, try live, A/B test when needed](https://promptugal.news/board/guidance/2026-11-06-the-four-design-decisions.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-ideas-ledger` | [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-night-memos` | [Dinis's memos to the conductor, the night of 5 to 6 November 2026, verbatim](https://promptugal.news/board/guidance/memos/2026-11-06-the-night-memos.md) | guidance | conductor@ 6 Nov 2026 |
-| `GDN.MEMO README` | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) | guidance | conductor@ 6 Nov 2026 |
-| `GDN.Q Q1` | [how many files and gigabytes of data they already have, and the runs, and how often they're doing the runs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
-| `GDN.Q Q10` | [who actually has read this?" (the synthetic findings)](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](GDN-5.md) | [Next part](GDN-7.md)

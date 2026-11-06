@@ -5,7 +5,7 @@
   "title": "From pineapple waste to fish feed: AgroGrINTech's pilot in Maia",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:v-agrogrintech-pineapple-aquafeed"
   ],
@@ -15,23 +15,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-06-1145.json"
+      "desks/curator/2026-11-06-1145.json",
+      "desks/journalist-vicky/drafts/S22-pineapple-waste-to-fish-feed.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-portugal@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S22-pineapple-waste-to-fish-feed.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-06T11:45Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-06-1145.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S22-pineapple-waste-to-fish-feed.md"
     }
   ]
 }

@@ -23,6 +23,8 @@ answered_at: null
 
 **Option D: "Powered by" off company pages** (F26; the top-of-the-page pass already takes it out of the masthead): company pages keep the disclosure line at the foot and lose the endorsement at the top.
 
+**Option D, masthead part: done (15:50 UTC).** The top-of-the-page pass took 'Powered by RiskMandate' out of the masthead on every page, company pages included (Dinis's design answers, 13:20); it stays in the footer beside the disclosure. What is left of D is nothing; the open questions are B and C.
+
 ## For each option
 
 | | Does well | Does badly | What the readers said (SYNTHETIC) | Work, who |

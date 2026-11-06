@@ -1,0 +1,15 @@
+{
+ "type": "contact-request/v1",
+ "from": "outreach@PrompTugal.dinis",
+ "company": "european-commission",
+ "purpose": "Ask European Commission to check its page on PrompTugal.news, built from public pages, and to answer its three questions (reach, mandate, gap) if it wishes",
+ "share": [
+  "https://promptugal.news/companies/european-commission/",
+  "https://promptugal.news/events/has-europe-s-tech-moment-arrived/",
+  "https://promptugal.news/events/building-ai-in-europe-practical-support-for-innovators/",
+  "https://promptugal.news/about/participant.html"
+ ],
+ "proposed_text": "Subject: We built a page about the European Commission: could you check it?\n\nHello European Commission team,\n\nWe have just built a page for you on PrompTugal.news, about the European Commission at Web Summit Lisbon, from public pages. Could you check it is correct?\nhttps://promptugal.news/companies/european-commission/\n\nIt follows the European Commission at the summit: \"Has Europe’s tech moment arrived?\", Tuesday 10 November at 11:05, and 1 more session on the page.\n\nPrompTugal.news is a new newsroom from Portugal, for Europe, with one aim: to map the universe of AI in Portugal and the companies that come to it. Every fact on the page carries its source and the date we read it; if anything is wrong, reply and we correct it, dated.\n\nWe would like to hear what the European Commission sees in AI coming to Portugal and Europe, in 15 minutes during the summit, 9 to 12 November. Answering is optional, and two lines in writing are as welcome as a call. If you would rather talk than publish, we can just talk. Reply with a time that suits you.\n\nBest regards,\n[the sender, from the Web Summit team]\nPrompTugal.news\n\nPrompTugal.news belongs to a team that also works on RiskMandate, which sells Agent Behaviour Policies. So this is not independent coverage: we may write about companies the team hopes to meet or sell to. Our disclosure: https://promptugal.news/about/participant.html\n\nDrafted by an AI agent, reviewed and sent by me. We found this address on your website; rather not hear from us? Reply and we will not write again.",
+ "sender": "promptugal-editors",
+ "by": "2026-11-08"
+}

@@ -1,6 +1,7 @@
 // People (brief 3, house rules): every person a public summit page lists, in their professional capacity only: name,
 // role and organisation as listed, the events they speak at, and where each listing was read. No photo, no profile
 // link, no contact detail: the data has no field for one (data/schemas/person.schema.json).
+import fs from 'node:fs'
 import { refLink, sourceLine, timeText, dataLinks, plural, maxDate, slotLine, slotList } from '../lib/present.mjs'
 export const order = 50
 
@@ -27,17 +28,26 @@ function personPage(ctx, p) {
 // the same people in three views, switched by the link a reader follows (CSS :target): by organisation (the default,
 // so the page is not an A to Z), by the day of their first session, and A to Z (dev.pages@, the-people-page)
 const line = (ctx, rel, p, cell) => `- ${refLink(ctx, rel, `person:${p.id}`)}${p.role ? `, ${cell(p.role)}` : ''}${p.organisation ? `, ${p.org ? refLink(ctx, rel, p.org, p.organisation) : cell(p.organisation)}` : ''}`
+const W = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).people
 function views(ctx, rel, ps, cell) {
     const ln = p => line(ctx, rel, p, cell), rows = a => `{.rows .links-cols}\n${a.map(ln).join('\n')}`
     const orgs = new Map()
-    for (const p of ps) { const k = p.organisation || 'Organisation not listed'; orgs.set(k, [...(orgs.get(k) || []), p]) }
+    for (const p of ps) { const k = p.organisation || W.no_org; orgs.set(k, [...(orgs.get(k) || []), p]) }
     const byOrg = [...orgs].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).map(([k, a]) => `### ${cell(k)} \`${a.length}\`\n\n${rows(a)}`).join('\n\n')
     const day = p => p.listings.map(l => (ctx.store.get(l.event) || {}).date).filter(Boolean).sort()[0] || 'none'
     const days = [...new Set(ps.map(day))].sort()
-    const byDay = days.map(d => `### ${d === 'none' ? 'Not tied to a session in our programme' : ctx.DAY(d)}\n\n${rows(ps.filter(p => day(p) === d))}`).join('\n\n')
+    const byDay = days.map(d => `### ${d === 'none' ? W.no_session : ctx.DAY(d)}\n\n${rows(ps.filter(p => day(p) === d))}`).join('\n\n')
+    // who shares a stage: each session with two or more people listed, its people under it, in time order
+    const sess = new Map()
+    for (const p of ps) for (const l of p.listings) if (l.event) sess.set(l.event, [...new Set([...(sess.get(l.event) || []), p])])
+    const bySession = [...sess].filter(([, a]) => a.length > 1).map(([id, a]) => [ctx.store.get(id), a]).filter(([e]) => e)
+        .sort((x, y) => (x[0].date + (x[0].time || '')).localeCompare(y[0].date + (y[0].time || '')))
+        .map(([e, a]) => `### ${refLink(ctx, rel, `event:${e.id}`)} \`${a.length}\`\n\n*${ctx.DAY(e.date)}${e.time ? `, ${e.time}` : ''}*\n\n${rows(a)}`).join('\n\n')
     const letters = [...new Set(ps.map(p => p.name[0].toUpperCase()))]
     const az = letters.map(L => `### ${L} {#${L.toLowerCase().replace(/[^a-z]/g, 'x')}}\n\n${rows(ps.filter(p => p.name[0].toUpperCase() === L))}`).join('\n\n')
-    return `{.view-switch}\n[By organisation](#v-org) · [By first session](#v-day) · [A to Z](#v-az)\n\n::: view view-org\n#### By organisation {#v-org}\n\n${byOrg}\n:::\n\n::: view view-day\n#### By day of first session {#v-day}\n\n${byDay}\n:::\n\n::: view view-az\n#### A to Z {#v-az}\n\n${az}\n:::`
+    const view = (k, id, head, body) => `::: view view-${k}\n#### ${head} {#v-${id}}\n\n${body}\n:::`
+    return `{.view-switch}\n[${W.org}](#v-org) · [${W.day}](#v-day) · [${W.session}](#v-session) · [${W.az}](#v-az)\n\n` +
+        [view('org', 'org', W.org, byOrg), view('day', 'day', W.day_head, byDay), view('session', 'session', W.session_head, bySession), view('az', 'az', W.az, az)].join('\n\n')
 }
 
 export function pages(ctx) {

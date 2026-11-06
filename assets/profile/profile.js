@@ -115,10 +115,19 @@
         return box
     }
 
+    // where it is kept, always said (sherpa@, PT decision condition 1): saved here is not yet safe in the vault
+    function where() {
+        const V = w.__vault, n = V ? V.status().pending : 0
+        const p = d.createElement('p')
+        p.className = 'meta nr-where'
+        p.textContent = n ? `Kept in this browser. ${n} item${n === 1 ? '' : 's'} not yet in your vault: open your vault page to update it.` : 'Kept in this browser.'
+        return p
+    }
     function draw(root) {
         const render = () => {
             const p = store.load(), s = summary()
             root.replaceChildren()
+            root.append(where())
             const me = mine(root)
             if (me) root.append(me)
             root.append(h('dl', { class: 'stats' },

@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-965 cards (965 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T13:45:24Z at site v0.1.258; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+990 cards (990 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T16:06:49Z at site v0.1.288; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
-| `DAT.EV` | 235 |
-| `DAT.ORG` | 223 |
+| `DAT.EV` | 240 |
+| `DAT.ORG` | 232 |
 | `DAT.PE` | 264 |
-| `DAT.PL` | 80 |
+| `DAT.PL` | 83 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 18 |
+| `PUB.SITE` | 26 |
 
 Newest five accessions:
 
-- `ACC-20261106-1787` [Your vault](https://promptugal.news/account/vault.html) (`PUB.SITE vault`)
-- `ACC-20261106-1786` [Topped up](https://promptugal.news/account/topped-up.html) (`PUB.SITE topped-up`)
-- `ACC-20261106-1785` [Top up](https://promptugal.news/account/top-up.html) (`PUB.SITE top-up`)
-- `ACC-20261106-1784` [The summit](https://promptugal.news/summit/) (`PUB.SITE summit`)
-- `ACC-20261106-1781` [Powered by RiskMandate](https://promptugal.news/riskmandate/) (`PUB.SITE riskmandate:2`)
+- `ACC-20261106-2642` [Friday 13 November: what is on](https://promptugal.news/days/2026-11-13/) (`PUB.SITE 2026-11-13`)
+- `ACC-20261106-2641` [Thursday 12 November: what is on](https://promptugal.news/days/2026-11-12/) (`PUB.SITE 2026-11-12`)
+- `ACC-20261106-2640` [Wednesday 11 November: what is on](https://promptugal.news/days/2026-11-11/) (`PUB.SITE 2026-11-11`)
+- `ACC-20261106-2639` [Tuesday 10 November: what is on](https://promptugal.news/days/2026-11-10/) (`PUB.SITE 2026-11-10`)
+- `ACC-20261106-2638` [Monday 9 November: what is on](https://promptugal.news/days/2026-11-09/) (`PUB.SITE 2026-11-09`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

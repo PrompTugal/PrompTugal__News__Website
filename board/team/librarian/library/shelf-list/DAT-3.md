@@ -1,19 +1,24 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 3 of 10)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T13:45:24Z"
-site_version: "v0.1.258"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
+site_version: "v0.1.288"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 3 of 10)
 
-100 cards, from `DAT.EV making-useful-intelligence-accessible-to-everyone` to `DAT.EV the-future-of-enterprise-software-has-no-middleman`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.EV latin-america-meet-greet` to `DAT.EV the-attackers-are-open-source-the-defences-aren-t`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 201 to 225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV latin-america-meet-greet` | [Latin America meet & greet](https://promptugal.news/events/latin-america-meet-greet/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV let-s-talk-ai-ethics-responsible-tech-meetup` | [Let's talk AI ethics & responsible tech meetup](https://promptugal.news/events/let-s-talk-ai-ethics-responsible-tech-meetup/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV lisbon-founders-ceos-meetup` | [Lisbon founders & CEOs meetup](https://promptugal.news/events/lisbon-founders-ceos-meetup/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV maintaining-the-human-in-an-ai-world` | [Maintaining the human in an AI world](https://promptugal.news/events/maintaining-the-human-in-an-ai-world/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV make-ai-agents-work-beyond-the-demo-hosted-by-make` | [Make AI agents work beyond the demo [Hosted by Make]](https://promptugal.news/events/make-ai-agents-work-beyond-the-demo-hosted-by-make/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV making-useful-intelligence-accessible-to-everyone` | [Making useful intelligence accessible to everyone](https://promptugal.news/events/making-useful-intelligence-accessible-to-everyone/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV mena-meet-greet` | [MENA meet & greet](https://promptugal.news/events/mena-meet-greet/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV monitoring-in-the-age-of-genai-beyond-golden-signals-hosted` | [Monitoring in the age of GenAI: Beyond golden signals [Hosted by Datadog]](https://promptugal.news/events/monitoring-in-the-age-of-genai-beyond-golden-signals-hosted/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -34,16 +39,16 @@ source: board/catalogue.json
 | `DAT.EV opening-remarks-405fbb59` | [Opening remarks](https://promptugal.news/events/opening-remarks-405fbb59/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV opening-remarks-d52f1575` | [Opening remarks](https://promptugal.news/events/opening-remarks-d52f1575/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV outsmarting-ai-defence-at-machine-speed` | [Outsmarting AI: Defence at machine speed](https://promptugal.news/events/outsmarting-ai-defence-at-machine-speed/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV people-in-cybersecurity-meetup` | [People in cybersecurity meetup](https://promptugal.news/events/people-in-cybersecurity-meetup/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV pitch-final` | [PITCH final](https://promptugal.news/events/pitch-final/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV pitch-group-round-1` | [PITCH group round 1](https://promptugal.news/events/pitch-group-round-1/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV pitch-group-round-10` | [PITCH group round 10](https://promptugal.news/events/pitch-group-round-10/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV pitch-group-round-11` | [PITCH group round 11](https://promptugal.news/events/pitch-group-round-11/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 226 to 250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV people-in-cybersecurity-meetup` | [People in cybersecurity meetup](https://promptugal.news/events/people-in-cybersecurity-meetup/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV pitch-final` | [PITCH final](https://promptugal.news/events/pitch-final/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV pitch-group-round-1` | [PITCH group round 1](https://promptugal.news/events/pitch-group-round-1/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV pitch-group-round-10` | [PITCH group round 10](https://promptugal.news/events/pitch-group-round-10/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV pitch-group-round-11` | [PITCH group round 11](https://promptugal.news/events/pitch-group-round-11/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV pitch-group-round-12` | [PITCH group round 12](https://promptugal.news/events/pitch-group-round-12/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV pitch-group-round-13` | [PITCH group round 13](https://promptugal.news/events/pitch-group-round-13/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV pitch-group-round-14` | [PITCH group round 14](https://promptugal.news/events/pitch-group-round-14/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -64,16 +69,16 @@ source: board/catalogue.json
 | `DAT.EV press-conference-otter-ai-announces-its-biggest` | [Press conference: Otter.ai Announces Its Biggest Multilingual Leap Yet](https://promptugal.news/events/press-conference-otter-ai-announces-its-biggest/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV press-conference-pitchbook-goes-free-for-startups-new` | [Press conference: PitchBook Goes Free for Startups + New Platform for Finding Them First](https://promptugal.news/events/press-conference-pitchbook-goes-free-for-startups-new/) | event | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.EV press-conference-rewriting-the-rules-of-female-longevity` | [Press conference: Rewriting the Rules of Female Longevity](https://promptugal.news/events/press-conference-rewriting-the-rules-of-female-longevity/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV press-conference-road-2-web-summit-2026-winner` | [Press conference: Road 2 Web Summit 2026 Winner](https://promptugal.news/events/press-conference-road-2-web-summit-2026-winner/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV press-conference-rws-launches-the-world-s-first-culturally` | [Press conference: RWS launches the world’s first culturally intelligent content platform](https://promptugal.news/events/press-conference-rws-launches-the-world-s-first-culturally/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV press-conference-unicorn-factory-lisboa-hub-71-instituto` | [Press conference: Unicorn Factory Lisboa, Hub 71, Instituto Caldeira & Q Branch launch a Global Program for Scaleups](https://promptugal.news/events/press-conference-unicorn-factory-lisboa-hub-71-instituto/) | event | programme@web-summit.vicky 6 Nov 2026 |
-| `DAT.EV press-conference-with-amazon-vice-president-people` | [Press conference with Amazon Vice President People Experience & Technology, J. Ofori Agboka](https://promptugal.news/events/press-conference-with-amazon-vice-president-people/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV press-conference-with-gravitee-ceo-rory-blundell-collapsing` | [Press conference with Gravitee CEO Rory Blundell: Collapsing confidence in agent AI security after six months of reality](https://promptugal.news/events/press-conference-with-gravitee-ceo-rory-blundell-collapsing/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 251 to 275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV press-conference-road-2-web-summit-2026-winner` | [Press conference: Road 2 Web Summit 2026 Winner](https://promptugal.news/events/press-conference-road-2-web-summit-2026-winner/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV press-conference-rws-launches-the-world-s-first-culturally` | [Press conference: RWS launches the world’s first culturally intelligent content platform](https://promptugal.news/events/press-conference-rws-launches-the-world-s-first-culturally/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV press-conference-unicorn-factory-lisboa-hub-71-instituto` | [Press conference: Unicorn Factory Lisboa, Hub 71, Instituto Caldeira & Q Branch launch a Global Program for Scaleups](https://promptugal.news/events/press-conference-unicorn-factory-lisboa-hub-71-instituto/) | event | programme@web-summit.vicky 6 Nov 2026 |
+| `DAT.EV press-conference-with-amazon-vice-president-people` | [Press conference with Amazon Vice President People Experience & Technology, J. Ofori Agboka](https://promptugal.news/events/press-conference-with-amazon-vice-president-people/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV press-conference-with-gravitee-ceo-rory-blundell-collapsing` | [Press conference with Gravitee CEO Rory Blundell: Collapsing confidence in agent AI security after six months of reality](https://promptugal.news/events/press-conference-with-gravitee-ceo-rory-blundell-collapsing/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV press-conference-with-nordvpn-cto-marijus-briedis` | [Press conference with NordVPN CTO Marijus Briedis](https://promptugal.news/events/press-conference-with-nordvpn-cto-marijus-briedis/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV press-conference-with-nxtplay-capital-co-founder` | [Press Conference with NXTPLAY Capital Co-Founder & Professional Football Player, Thibaut Courtois, and NXTPLAY Co-founder & Managing Partner, Gonzalo Vila](https://promptugal.news/events/press-conference-with-nxtplay-capital-co-founder/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV press-conference-with-qualcomm-svp-general-manager-durga` | [Press conference with Qualcomm SVP & General Manager, Durga Malladi](https://promptugal.news/events/press-conference-with-qualcomm-svp-general-manager-durga/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -94,16 +99,16 @@ source: board/catalogue.json
 | `DAT.EV registration-2026-11-09-pavilhao-de-portugal` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-09-pavilhao-de-portugal/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV registration-2026-11-10` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-10/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV registration-2026-11-10-pavilhao-de-portugal` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-10-pavilhao-de-portugal/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV registration-2026-11-11` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-11/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV registration-2026-11-12` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-12/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV regulating-big-tech` | [Regulating big tech](https://promptugal.news/events/regulating-big-tech/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV reporting-at-the-speed-of-news` | [Reporting at the speed of news](https://promptugal.news/events/reporting-at-the-speed-of-news/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV rewriting-the-rules-of-female-longevity` | [Rewriting the rules of female longevity](https://promptugal.news/events/rewriting-the-rules-of-female-longevity/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 276 to 300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV registration-2026-11-11` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-11/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV registration-2026-11-12` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-12/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV regulating-big-tech` | [Regulating big tech](https://promptugal.news/events/regulating-big-tech/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV reporting-at-the-speed-of-news` | [Reporting at the speed of news](https://promptugal.news/events/reporting-at-the-speed-of-news/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV rewriting-the-rules-of-female-longevity` | [Rewriting the rules of female longevity](https://promptugal.news/events/rewriting-the-rules-of-female-longevity/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV romanian-tech-night-at-web-summit-lisbon-2026` | [Romanian Tech Night at Web Summit Lisbon 2026](https://promptugal.news/events/romanian-tech-night-at-web-summit-lisbon-2026/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV search-built-for-ai-agents` | [Search built for AI agents](https://promptugal.news/events/search-built-for-ai-agents/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV securing-the-ai-frontline` | [Securing the AI frontline](https://promptugal.news/events/securing-the-ai-frontline/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -124,10 +129,5 @@ source: board/catalogue.json
 | `DAT.EV the-ai-paradox-smarter-models-disappointing-results` | [The AI paradox: Smarter models, disappointing results](https://promptugal.news/events/the-ai-paradox-smarter-models-disappointing-results/) | event | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.EV the-attack-has-started-now-what-see-log360-zia-ai-in-action` | [The attack has started, now what? See Log360 & Zia AI in action [Hosted by ManageEngine]](https://promptugal.news/events/the-attack-has-started-now-what-see-log360-zia-ai-in-action/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV the-attackers-are-open-source-the-defences-aren-t` | [The attackers are open source. The defences aren't.](https://promptugal.news/events/the-attackers-are-open-source-the-defences-aren-t/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV the-autonomous-enterprise-networks-cloud-and-ai-agents` | [The autonomous enterprise: Networks, cloud and AI agents](https://promptugal.news/events/the-autonomous-enterprise-networks-cloud-and-ai-agents/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV the-best-offense-is-a-machine-speed-defence` | [The best offense is a machine-speed defence](https://promptugal.news/events/the-best-offense-is-a-machine-speed-defence/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV the-biological-bottleneck` | [The biological bottleneck](https://promptugal.news/events/the-biological-bottleneck/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV the-enterprise-reality-check-who-s-controlling-data-and-ai` | [The enterprise reality check: Who’s controlling data and AI?](https://promptugal.news/events/the-enterprise-reality-check-who-s-controlling-data-and-ai/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV the-future-of-enterprise-software-has-no-middleman` | [The future of enterprise software has no middleman](https://promptugal.news/events/the-future-of-enterprise-software-has-no-middleman/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-2.md) | [Next part](DAT-4.md)
