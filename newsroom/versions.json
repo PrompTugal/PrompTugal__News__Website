@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.211",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the debrief's and brief 2's links to the article (.html)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "7771b9fd4"
+  },
+  {
     "version": "v0.1.210",
     "date": "2026-11-06",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
