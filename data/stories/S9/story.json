@@ -16,6 +16,7 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-04-1955.json",
+      "desks/journalist-promptugal/drafts/S9-brazil-startup-mission.md",
       "desks/journalist-vicky/drafts/S9-brazil-startup-mission.md",
       "desks/reviewer-vicky/reviews/S9.md",
       "content/articles/brazil-startup-mission.md"
@@ -58,6 +59,12 @@
       "at": "2026-11-05",
       "by": "reviewer@web-summit.vicky",
       "file": "desks/reviewer-vicky/reviews/S9.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "desks/journalist-promptugal/drafts/S9-brazil-startup-mission.md"
     },
     {
       "column": "published",
