@@ -2,6 +2,20 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 03:26 UTC (hourly wake)
+
+**Done**
+
+- S4, "From the PITCH stage to new markets: Portuguese startups raising", went through the story pipeline: the draft in `drafts/`, the fact-check in `checks/S4.md` (every fact against its source, each read on 6 November), then the article, signed.
+- At the conductor's relay of Dinis's question (02:40), the draft of "How we found our name" is in `drafts/`, waiting on Dinis.
+
+**Blocked, or for others**
+
+- The name waits for Dinis's yes on the text.
+- The storylines this desk writes have no second reader. Vicky's reviewer, or synthetic@ for tone, would help.
+
+**Left on this line:** 10 storylines (S7, S8, S11 to S14, S16, S17, S19). S7 is next.
+
 ## Run of 6 November 2026, 02:26 UTC (hourly wake)
 
 **Done**
