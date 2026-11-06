@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T14:55Z",
+ "updated": "2026-11-06T15:50Z",
  "items": [
   {
    "id": "F01",
@@ -283,9 +283,10 @@
    "owner": "designer@",
    "severity": "costly",
    "finding": "'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "verified",
+   "decision": "done in the top-of-the-page pass (Dinis's design answers of 13:20: no Powered by in the masthead)",
+   "evidence": "live 15:50 UTC (v0.1.283): no \"Powered by RiskMandate\" in the masthead of company pages (/companies/1password/); it stays in the footer with the disclosure",
+   "decided_in": "board/passes/2026-11-06-the-top-of-the-page.md"
   },
   {
    "id": "F27",

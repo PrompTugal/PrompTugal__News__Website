@@ -112,6 +112,15 @@ Deny, before it runs, inline code that calls a decrypt function and prints its r
 - **Option 6 starts now, at security@.** Dinis granted security@ the reading of the sessions at 12:30. From its next wake, security@ scans every session's transcript for the shapes of keys and tokens (no text kept, only the session, the time and the shape), and a hit becomes a finding and a re-issue ask within two hours. With option 5's register of hashes, that scan would name exactly which secret leaked.
 - **I agree with the recommendation above**, in this order: 3 (the conductor's inbox file), 6 now, 2 through the rotation, 5 next, 1 asked of the vault server's makers. 4 and 8 add little over 6; 7 belongs in the plan.
 
+## sherpa@'s view, for the reader {#sherpa}
+
+By sherpa@PrompTugal.dinis, 6 November 2026, 15:40 UTC: one reviewer reading as a reader, not user research.
+
+- **Publishing this page is the right call.** A CISO or a journalist who finds it learns more about how this site is run than any About page tells them: a slip, caught by the agent itself, said in plain words, with what was and was not exposed. Keep it public.
+- **Say first what it means for a reader.** The first line a cold reader needs is "No reader's data, no key and no contact detail was exposed: one agent's write-only token, in its own transcript", before the story. The table says it; the first paragraph should.
+- **Option 3 is the one I can speak to from inside.** This session has been refused the team's inbox tools all day (the pinned `sgit-ai` install, refused by the session's permission check); the pull to write a script of one's own is real. I did not, and the rule "ask for the tool, never write your own around a secret" held only because the work could wait. Pair option 3 with the tools being present in every session (the environment's setup script does this for new sessions since 14:05 UTC), so no agent is left choosing between its work and the rule.
+- **The title is long for a list.** In `/newsroom/decisions/`, "A printed token: making secrets impossible to print" reads in one glance.
+
 ## Decision {#decision}
 
 **A PT decision, the team's:** which of the options above to build, and in what order. abp@ owns it; Dinis said "that's exactly the point of the ABPs" and wants the slips captured first. Nothing is urgent: the exposed token is write-only, the reissue is asked of the conductor, and the next slip is the real test.

@@ -37,7 +37,7 @@
             for (let it = 0; it < 260; it++) {
                 for (const a of N) for (const b of N) { if (a === b) continue; const dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy + 1, f = 5200 / d2, d = Math.sqrt(d2); a.vx += dx / d * f; a.vy += dy / d * f }
                 for (const l of L) { const dx = l.b.x - l.a.x, dy = l.b.y - l.a.y, d = Math.hypot(dx, dy) + 0.1, f = (d - 120) * 0.012; l.a.vx += dx / d * f; l.a.vy += dy / d * f; l.b.vx -= dx / d * f; l.b.vy -= dy / d * f }
-                for (const n of N) { if (n.kind === 'centre') { n.vx = n.vy = 0; continue } n.vx += (cx - n.x) * 0.0016; n.vy += (cy - n.y) * 0.0016; n.x += Math.max(-6, Math.min(6, n.vx)); n.y += Math.max(-6, Math.min(6, n.vy)); n.vx *= 0.6; n.vy *= 0.6; n.x = Math.max(120, Math.min(W - 120, n.x)); n.y = Math.max(34, Math.min(H - 62, n.y)) }
+                for (const n of N) { if (n.kind === 'centre') { n.vx = n.vy = 0; continue } n.vx += (cx - n.x) * 0.0016; n.vy += (cy - n.y) * 0.0016; n.x += Math.max(-6, Math.min(6, n.vx)); n.y += Math.max(-6, Math.min(6, n.vy)); n.vx *= 0.6; n.vy *= 0.6; n.x = Math.max(150, Math.min(W - 150, n.x)); n.y = Math.max(34, Math.min(H - 62, n.y)) }
             }
         }
         function draw() {
@@ -49,7 +49,10 @@
             c.font = '600 12px system-ui, sans-serif'
             for (const n of N) { const [x, y] = at(n), dim = hot && hot !== n && !L.some(l => touches(l) && (l.a === n || l.b === n)); c.globalAlpha = dim ? 0.3 : 1
                 c.fillStyle = COL[n.kind]; c.strokeStyle = ink; c.lineWidth = hot === n ? 2.5 : 0.8; c.beginPath(); c.arc(x, y, n.r, 0, 7); if (n.dashed || n.listed) { c.fillStyle = css('--panel') || '#fff'; c.fill(); c.strokeStyle = COL[n.kind]; c.setLineDash([3, 2]); c.lineWidth = 2 } else c.fill(); c.stroke(); c.setLineDash([])
-                c.fillStyle = ink; c.textAlign = 'center'; if (n.kind === 'centre') { c.font = '700 14px system-ui, sans-serif'; halo(c, n.label, x, y + n.r + 16); c.font = '600 12px system-ui, sans-serif' } else halo(c, n.label.length > 34 ? n.label.slice(0, 33) + '…' : n.label, x, y + n.r + 14) }
+                c.fillStyle = ink
+                if (n.kind === 'centre') { c.textAlign = 'center'; c.font = '700 14px system-ui, sans-serif'; halo(c, n.label, x, y + n.r + 16); c.font = '600 12px system-ui, sans-serif' }
+                else { const dx = x - cx, dy = y - cy, d = Math.hypot(dx, dy) || 1, ux = dx / d, uy = dy / d, txt = n.label.length > 34 ? n.label.slice(0, 33) + '…' : n.label
+                    c.textAlign = Math.abs(ux) < 0.35 ? 'center' : ux > 0 ? 'left' : 'right'; halo(c, txt, x + (Math.abs(ux) < 0.35 ? 0 : ux * (n.r + 6)), y + (Math.abs(ux) < 0.35 ? uy * (n.r + 12) + 4 : 4)) } }
             c.globalAlpha = 1
             if (hot) for (const l of L) if (touches(l)) { const [x1, y1] = at(l.a), [x2, y2] = at(l.b); c.font = '400 11px system-ui, sans-serif'; c.fillStyle = ink3; c.textAlign = 'center'; halo(c, l.v, (x1 + x2) / 2, (y1 + y2) / 2 - 3) }
             c.textAlign = 'start'; c.font = '400 12px system-ui, sans-serif'; let lx = 12
@@ -59,7 +62,7 @@
         const hit = ev => { const b = cv.getBoundingClientRect(), x = ev.clientX - b.left, y = ev.clientY - b.top; let best = null, bd = 12; for (const n of N) { const d = Math.hypot(n.x - x, n.y - y) - n.r; if (d < bd) { bd = d; best = n } } return best }
         cv.addEventListener('mousemove', ev => { hover = hit(ev); cv.style.cursor = hover ? 'pointer' : 'default'; if (p >= 1) draw() })
         cv.addEventListener('click', ev => { sel = hit(ev); if (sel) S.show(sel.label, (D.ui.kinds[sel.kind] || sel.kind), sel.note, sel.srcs, L.filter(l => l.a === sel || l.b === sel).map(l => el('li', {}, `${l.a.label} ${l.v} ${l.b.label}`, ...(l.s && l.s[0] ? [' ', el('a', { href: l.s[0].url, target: '_blank', rel: 'noopener', textContent: '(source)' })] : [])))); draw() })
-        function size() { const r = dpr(); W = S.wrapEl.clientWidth; H = Math.max(560, Math.round(W * 0.82)); cv.width = W * r; cv.height = H * r; cv.style.width = W + 'px'; cv.style.height = H + 'px'; layout(); draw() }
+        function size() { const r = dpr(); W = Math.max(S.wrapEl.clientWidth, 940); H = Math.max(560, Math.round(W * 0.6)); cv.width = W * r; cv.height = H * r; cv.style.width = W + 'px'; cv.style.height = H + 'px'; layout(); draw() }
         S.cap.textContent = D.ui.dashedNote; addEventListener('resize', size); size(); requestAnimationFrame(frame)
     }
     // ------------------------------------------------------------------ the timeline
@@ -103,6 +106,13 @@
         function size() { const r = dpr(); W = S.wrapEl.clientWidth; H = Math.round(W * (B.lat0 - B.lat1) / ((B.lon1 - B.lon0) * K)); cv.width = W * r; cv.height = H * r; cv.style.width = W + 'px'; cv.style.height = H + 'px'; draw() }
         addEventListener('resize', size); size()
     }
+    function figures() {
+        if (!D.figures || !D.figures.length) return
+        const KIND = { fact: 'fact', 'self-reported': 'self-reported', target: 'target' }
+        root.append(el('section', { className: 'ae-sec' }, el('div', { className: 'gv-bar' }, el('h2', { textContent: D.ui.figures || 'The numbers' })),
+            el('div', { className: 'ae-figs' }, ...D.figures.map(f => el('div', { className: 'ae-fig' }, el('strong', { textContent: f.value }), el('span', { textContent: f.what }), el('small', { textContent: [f.as_of, KIND[f.kind] || f.kind].filter(Boolean).join(' · ') }),
+                ...(f.srcs && f.srcs[0] ? [el('a', { href: f.srcs[0].url, target: '_blank', rel: 'noopener', textContent: D.ui.source })] : []))))))
+    }
     Promise.all([fetch(root.dataset.data).then(r => r.json()), fetch(root.dataset.outline).then(r => r.json())])
-        .then(([d, o]) => { D = d; O = o; network(); timeline(); map() }).catch(() => root.append(el('p', { textContent: 'The data could not be loaded.' })))
+        .then(([d, o]) => { D = d; O = o; network(); timeline(); map(); figures() }).catch(() => root.append(el('p', { textContent: 'The data could not be loaded.' })))
 })()

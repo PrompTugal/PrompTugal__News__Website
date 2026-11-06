@@ -2,6 +2,18 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 16:00 UTC: the comms protocol: drafts become contact requests
+
+**Done**
+
+- Dinis set the comms protocol at about 16:00 UTC (`board/guidance/2026-11-06-the-comms-protocol.md`, his words, relayed by conductor@): every contact goes through the Web Summit team's private CRM. The generator now writes one contact request per company, `desks/outreach/contact-requests/<company>.json` (`contact-request/v1`: purpose, the public pages to share, the proposed text in English and in Portuguese for the six, `sender: promptugal-editors`, by 8 November). Public material only; the signature names no one ("[the sender, from the Web Summit team]").
+- The who-sends decision page is marked answered: the Web Summit team decides who sends.
+
+**Blocks**
+
+1. **Not yet sent.** The requests go on this desk's lane to conductor@web-summit.dinis (the team site's `data/inbox/conductor-dinis.json`, `outreach-promptugal`), sealed to its key; sealing needs `sgit_ai`, which this session may not install. Said to Dinis in `status.json`.
+2. What the email may promise (F25) and the disclosure's wording (F19): Dinis's.
+
 ## 2026-11-06, about 13:40 UTC: the ranking out of the public desk; the decision page on the site
 
 **Done**

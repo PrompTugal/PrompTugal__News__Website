@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "thejournal-2018-08-15-le-pen",
+  "story": "past-summits",
+  "url": "https://www.thejournal.ie/lisbon-web-summit-marine-le-pen-4181551-Aug2018/",
+  "title": "Web Summit founder withdraws invite to Marine Le Pen (TheJournal.ie, 15 August 2018)",
+  "publisher": "TheJournal.ie",
+  "published": "2018-08-15",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "TheJournal.ie reports that Web Summit's founder withdrew an invitation to French politician Marine Le Pen to the 2018 Lisbon edition (5 to 8 November) after earlier defending it, giving as his reason that her presence would be disrespectful to the host country and to some attendees. It also reports that he said the summit had added private and public stages for dialogue on contentious issues, and recalls the 2017 Pantheon dinner apology."
+}
