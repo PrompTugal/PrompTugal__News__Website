@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "siliconrepublic-2015-09-23-move-to-lisbon",
+  "story": "past-summits",
+  "url": "https://www.siliconrepublic.com/business/2015/09/23/web-summit-lisbon-2016",
+  "title": "Web Summit to move to Lisbon in 2016, cites infrastructure reasons (Silicon Republic, Colm Gorey)",
+  "publisher": "Silicon Republic",
+  "published": "2015-09-23",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Silicon Republic reports that Web Summit, first held in 2010, would leave Dublin and move to Lisbon from 2016, with the organisers citing infrastructure among the reasons. It quotes founder Paddy Cosgrave thanking Ireland and saying the move is the next step in international growth, and a quote praising Lisbon's start-up community, transport and hotels and a venue with capacity for more than 80,000 attendees. It says the 2015 edition expected more than 30,000 people at the RDS in Dublin."
+}
