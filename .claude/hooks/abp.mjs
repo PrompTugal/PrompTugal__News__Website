@@ -5,6 +5,7 @@
 //                                              back into context, so a long session never loses it (re-anchoring:
 //                                              https://newsroom.sgit.ai/articles/re-anchoring-agent-behaviour-policies.html)
 //   node .claude/hooks/abp.mjs prompt          UserPromptSubmit: logs the request, adds a one-line anchor
+//   node .claude/hooks/abp.mjs pre-compact     PreCompact: logs the compaction (re-anchors must follow, one each)
 //   node .claude/hooks/abp.mjs pre-tool        PreToolUse: denies what board/abp/policies.json denies, logs every call
 // Every decision is appended to ~/.abp/log/<session>.jsonl (no secrets: commands are cut and redacted), which
 // board/abp/tools/abp.mjs run-report turns into board/runs/<role>/<run>.json.
@@ -360,6 +361,9 @@ async function main() {
         if (mode === 'session-start') {
             logEvent(sid, { ev: 'session-start', source: input.source || 'unknown', agent: who.agent, kind: who.kind, policy: P.version, sha: P._sha })
             process.stdout.write(JSON.stringify({ hookSpecificOutput: { hookEventName: 'SessionStart', additionalContext: abpText(who, P) } }))
+        } else if (mode === 'pre-compact') {
+            // the canary's other half: every compaction logged here must be followed by a session-start with source compact
+            logEvent(sid, { ev: 'compact', trigger: input.trigger || 'unknown', agent: who.agent })
         } else if (mode === 'prompt') {
             const p = String(input.prompt || '')
             logEvent(sid, { ev: 'prompt', agent: who.agent, chars: p.length, sha: crypto.createHash('sha256').update(p).digest('hex').slice(0, 16), head: redact(p.slice(0, 200)) })

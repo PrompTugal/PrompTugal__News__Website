@@ -2,19 +2,21 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: hourly at :37 UTC; policies in observe mode (Dinis, 06:05)",
-  "updated": "2026-11-06T06:20Z",
+  "updated": "2026-11-06T05:45Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
     "Hooks in .claude/settings.json: SessionStart (startup|resume|clear|compact) re-anchors the ABP; UserPromptSubmit anchor and log; PreToolUse denies and logs; 111 fixtures pass; tested live in my session",
     "Run reports: board/abp/run-report.schema.json, abp.mjs run-report, R10 in every ABP",
     "The first hourly report: board/abp/reports/2026-11-06-04.md",
-    "Observe mode (v1.1.0): the hooks block nothing, log everything, re-anchor as before; circuit breakers per rule, all off; R9 false positive fixed; 114 fixtures pass"
+    "Observe mode (v1.1.0): the hooks block nothing, log everything, re-anchor as before; circuit breakers per rule, all off; R9 false positive fixed; 114 fixtures pass",
+    "ABPs for customers@ and backup@ (v1.2.0); PreCompact logs compactions and run reports check each was re-anchored"
   ],
   "next": [
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line",
     "Read the first run reports at 05:37; tighten and propose relaxations",
-    "A Stop-hook canary (the article's step 3); ABPs for Dinis's @web-summit.dinis agents, from the team site's content/abp/"
+    "ABPs for Dinis's @web-summit.dinis agents, from the team site's content/abp/",
+    "Move /newsroom/abp/ into content/ once dev@ adds its nav line"
   ],
   "asks": [
     "Dinis: full observe as asked; keep any breaker on for the irreversible ones (push to main, force-push, printing a key)?",
@@ -29,10 +31,16 @@
       "line": "first run: key, policies, hooks, run reports, the first report"
     },
     {
-      "started": "2026-11-06T06:10Z",
+      "started": "2026-11-06T05:20Z",
       "outcome": "ok",
       "release": "this wake's",
       "line": "observe mode at Dinis's word; circuit breakers; R9 false positive fixed"
+    },
+    {
+      "started": "2026-11-06T05:37Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "ABPs for customers@ and backup@; PreCompact canary; time labels corrected"
     }
   ]
 }
