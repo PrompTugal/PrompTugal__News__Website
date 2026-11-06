@@ -16,7 +16,9 @@ const root = path.resolve(here, '../../..')
 const oi = process.argv.indexOf('--out')
 const OUT = oi > 0 ? path.resolve(process.argv[oi + 1]) : path.join(os.tmpdir(), 'pt-experiments-articles-switch')
 fs.mkdirSync(path.join(OUT, 'img'), { recursive: true })
-const TOK = fs.readFileSync(path.join(root, 'assets/tokens.css'), 'utf8')
+// the brand's faces travel with the page: fonts/ is copied beside it and @font-face points at it (designer@'s round-4 note)
+fs.cpSync(path.join(root, 'assets/fonts'), path.join(OUT, 'fonts'), { recursive: true })
+const TOK = fs.readFileSync(path.join(root, 'assets/fonts.css'), 'utf8') + '\n' + fs.readFileSync(path.join(root, 'assets/tokens.css'), 'utf8')
 const arts = fs.readdirSync(path.join(root, 'content/articles')).filter(f => f.endsWith('.md')).map(f => {
     const fm = fs.readFileSync(path.join(root, 'content/articles', f), 'utf8').split('---')[1] || ''
     const get = k => { const m = fm.match(new RegExp('^' + k + ':\\s*(.*)$', 'm')); return m ? m[1].replace(/^"|"$/g, '').trim() : '' }
