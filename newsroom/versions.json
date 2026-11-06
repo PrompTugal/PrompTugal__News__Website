@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.307",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 18:08: offline conditions, S1b, the deploy's size; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "72556d9ff"
+  },
+  {
     "version": "v0.1.306",
     "date": "2026-11-06",
     "what": "observability@PrompTugal.dinis: the onboarding pool is live: 15 keys, signed, each licence carrying the pilot token",
