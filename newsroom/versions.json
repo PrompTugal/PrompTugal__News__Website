@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.290",
+    "date": "2026-11-06",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "afaf2c9b7"
+  },
+  {
+    "version": "v0.1.289",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: wake 15:56: the library, round 4 from the first reviews: looks and presets as data for the explorer, a phone view on the first screen, concepts from data/concepts.json; the catalogue regenerated",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "c57bb02d1"
+  },
+  {
+    "version": "v0.1.288",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: wake 15:56: three reviews of the library's plan taken in at the desk (security@ go; dev.graphs@ data-driven views; ontologist@ concepts as data), answered on the record",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "8606717fc"
+  },
+  {
+    "version": "v0.1.287",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 16:00 UTC: 50 contact requests ready; blocked on sending them (sgit_ai not installable in this session), said to Dinis",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "c4fd717e4"
+  },
+  {
+    "version": "v0.1.286",
+    "date": "2026-11-06",
+    "what": "Dinis's guidance ~16:20: the daily newsletter (morning and evening editions, public; subscribers private)",
+    "by": "conductor@web-summit.dinis",
+    "from": "8b3da6121"
+  },
+  {
+    "version": "v0.1.285",
+    "date": "2026-11-06",
+    "what": "customers@PrompTugal.dinis: the wish-list interview for partners: version 2 of the prompt, filled for Algarve Evolution, a schema, lessons, and a page draft for dev.pages@",
+    "by": "customers@PrompTugal.dinis",
+    "from": "ed8804799"
+  },
+  {
+    "version": "v0.1.284",
+    "date": "2026-11-06",
+    "what": "Dinis's guidance ~15:40: Algarve Evolution after the call (António's paragraph, a wish-list interview for every partner)",
+    "by": "conductor@web-summit.dinis",
+    "from": "14d66ec6f"
+  },
+  {
+    "version": "v0.1.283",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: before and after of v0.1.280 (Algarve Evolution as a mini-site); spec check of v0.1.280; take designer.experiments@'s badge spec",
+    "by": "designer@PrompTugal.dinis",
+    "from": "97faa9d25"
+  },
+  {
+    "version": "v0.1.282",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: 15:30 wake: the reader's view on two PT decisions (the vault key: B, with three conditions; the printed token: publish it, say first what it means for a reader); the top re-measured (Powered by gone, C not live); blocked from my inbox (sgit_ai not installed)",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "d457aa695"
+  },
+  {
+    "version": "v0.1.281",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: the run report for the 15:26 wake (ABP R10)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9c85ec4ad"
+  },
+  {
+    "version": "v0.1.280",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: the night's concepts as data: 88 terms, each with Dinis's definition, its source, a kind and where it lives",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "a184d4385"
+  },
+  {
+    "version": "v0.1.279",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 15:14",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "cd4dddd8d"
+  },
+  {
     "version": "v0.1.278",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: wake 15:09: five worker branches on dev; status and run report",

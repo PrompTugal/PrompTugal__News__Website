@@ -34,6 +34,8 @@ export function secretFindings(text, root) {
   const gh = root ? gateHits(root) : null
   if (gh) for (const what of gh(text)) out.push(`contains ${what} (the gate's shape)`)
   for (const m of text.matchAll(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g)) {
+    // the domains reserved for examples (RFC 2606) are placeholders, never contact details
+    if (/@(example\.(com|org|net)|[a-z0-9.-]+\.(example|test|invalid))$/i.test(m[0])) continue
     if (!AGENT_HANDLE.test(m[0])) { out.push('contains an address that is not an agent handle'); break }
   }
   for (const m of text.matchAll(/(?<![A-Za-z0-9+/_.-])[A-Za-z0-9+/]{40,}={0,2}(?![A-Za-z0-9+/_.-])/g)) {

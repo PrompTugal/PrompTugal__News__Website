@@ -1,19 +1,24 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 4 of 10)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T13:45:24Z"
-site_version: "v0.1.258"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
+site_version: "v0.1.288"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 4 of 10)
 
-100 cards, from `DAT.EV the-knowledge-your-agents-can-t-see-building-visual-context` to `DAT.ORG council-of-europe`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.EV the-autonomous-enterprise-networks-cloud-and-ai-agents` to `DAT.ORG center-for-china-and-globalization`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV the-autonomous-enterprise-networks-cloud-and-ai-agents` | [The autonomous enterprise: Networks, cloud and AI agents](https://promptugal.news/events/the-autonomous-enterprise-networks-cloud-and-ai-agents/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV the-best-offense-is-a-machine-speed-defence` | [The best offense is a machine-speed defence](https://promptugal.news/events/the-best-offense-is-a-machine-speed-defence/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV the-biological-bottleneck` | [The biological bottleneck](https://promptugal.news/events/the-biological-bottleneck/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV the-enterprise-reality-check-who-s-controlling-data-and-ai` | [The enterprise reality check: Who’s controlling data and AI?](https://promptugal.news/events/the-enterprise-reality-check-who-s-controlling-data-and-ai/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV the-future-of-enterprise-software-has-no-middleman` | [The future of enterprise software has no middleman](https://promptugal.news/events/the-future-of-enterprise-software-has-no-middleman/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV the-knowledge-your-agents-can-t-see-building-visual-context` | [The knowledge your agents can't see: Building visual context](https://promptugal.news/events/the-knowledge-your-agents-can-t-see-building-visual-context/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV the-last-days-of-the-rules-based-order` | [The last days of the rules-based order?](https://promptugal.news/events/the-last-days-of-the-rules-based-order/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV the-new-battle-for-brand-influence` | [The new battle for brand influence](https://promptugal.news/events/the-new-battle-for-brand-influence/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -34,16 +39,16 @@ source: board/catalogue.json
 | `DAT.EV web-summit-dublin-2010` | [Web Summit 2010, Dublin](https://promptugal.news/events/web-summit-dublin-2010/) | event | ontologist@ 6 Nov 2026 |
 | `DAT.EV web-summit-dublin-2011` | [Web Summit 2011, Dublin](https://promptugal.news/events/web-summit-dublin-2011/) | event | ontologist@ 6 Nov 2026 |
 | `DAT.EV web-summit-dublin-2012` | [Web Summit 2012, Dublin](https://promptugal.news/events/web-summit-dublin-2012/) | event | ontologist@ 6 Nov 2026 |
-| `DAT.EV web-summit-dublin-2013` | [Web Summit 2013, Dublin](https://promptugal.news/events/web-summit-dublin-2013/) | event | ontologist@ 6 Nov 2026 |
-| `DAT.EV web-summit-dublin-2014` | [Web Summit 2014, Dublin](https://promptugal.news/events/web-summit-dublin-2014/) | event | ontologist@ 6 Nov 2026 |
-| `DAT.EV web-summit-dublin-2015` | [Web Summit 2015, Dublin](https://promptugal.news/events/web-summit-dublin-2015/) | event | ontologist@ 6 Nov 2026 |
-| `DAT.EV web-summit-lisbon-2016` | [Web Summit 2016, Lisbon](https://promptugal.news/events/web-summit-lisbon-2016/) | event | ontologist@ 6 Nov 2026 |
-| `DAT.EV web-summit-lisbon-2017` | [Web Summit 2017, Lisbon](https://promptugal.news/events/web-summit-lisbon-2017/) | event | ontologist@ 6 Nov 2026 |
 
 **Cards 326 to 350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV web-summit-dublin-2013` | [Web Summit 2013, Dublin](https://promptugal.news/events/web-summit-dublin-2013/) | event | ontologist@ 6 Nov 2026 |
+| `DAT.EV web-summit-dublin-2014` | [Web Summit 2014, Dublin](https://promptugal.news/events/web-summit-dublin-2014/) | event | ontologist@ 6 Nov 2026 |
+| `DAT.EV web-summit-dublin-2015` | [Web Summit 2015, Dublin](https://promptugal.news/events/web-summit-dublin-2015/) | event | ontologist@ 6 Nov 2026 |
+| `DAT.EV web-summit-lisbon-2016` | [Web Summit 2016, Lisbon](https://promptugal.news/events/web-summit-lisbon-2016/) | event | ontologist@ 6 Nov 2026 |
+| `DAT.EV web-summit-lisbon-2017` | [Web Summit 2017, Lisbon](https://promptugal.news/events/web-summit-lisbon-2017/) | event | ontologist@ 6 Nov 2026 |
 | `DAT.EV web-summit-lisbon-2018` | [Web Summit 2018, Lisbon](https://promptugal.news/events/web-summit-lisbon-2018/) | event | ontologist@ 6 Nov 2026 |
 | `DAT.EV web-summit-lisbon-2019` | [Web Summit 2019, Lisbon](https://promptugal.news/events/web-summit-lisbon-2019/) | event | ontologist@ 6 Nov 2026 |
 | `DAT.EV web-summit-lisbon-2021` | [Web Summit 2021, Lisbon](https://promptugal.news/events/web-summit-lisbon-2021/) | event | ontologist@ 6 Nov 2026 |
@@ -64,16 +69,16 @@ source: board/catalogue.json
 | `DAT.EV when-software-meets-matter` | [When software meets matter](https://promptugal.news/events/when-software-meets-matter/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV who-gets-a-say-in-football-s-future` | [Who gets a say in football’s future?](https://promptugal.news/events/who-gets-a-say-in-football-s-future/) | event | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.EV who-holds-the-kill-switch` | [Who holds the kill switch?](https://promptugal.news/events/who-holds-the-kill-switch/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV who-let-the-agent-in` | [Who let the agent in?](https://promptugal.news/events/who-let-the-agent-in/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV who-takes-the-fall-for-autonomous-ai` | [Who takes the fall for autonomous AI?](https://promptugal.news/events/who-takes-the-fall-for-autonomous-ai/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV who-wins-in-the-age-of-agentic-ai` | [Who wins in the age of agentic AI?](https://promptugal.news/events/who-wins-in-the-age-of-agentic-ai/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV who-wins-when-ai-does-the-shopping-press-conference` | [Who Wins When AI Does the Shopping? (Press conference)](https://promptugal.news/events/who-wins-when-ai-does-the-shopping-press-conference/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV why-ai-agents-stall-at-the-production-line` | [Why AI agents stall at the production line](https://promptugal.news/events/why-ai-agents-stall-at-the-production-line/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 351 to 375**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV who-let-the-agent-in` | [Who let the agent in?](https://promptugal.news/events/who-let-the-agent-in/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV who-takes-the-fall-for-autonomous-ai` | [Who takes the fall for autonomous AI?](https://promptugal.news/events/who-takes-the-fall-for-autonomous-ai/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV who-wins-in-the-age-of-agentic-ai` | [Who wins in the age of agentic AI?](https://promptugal.news/events/who-wins-in-the-age-of-agentic-ai/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV who-wins-when-ai-does-the-shopping-press-conference` | [Who Wins When AI Does the Shopping? (Press conference)](https://promptugal.news/events/who-wins-when-ai-does-the-shopping-press-conference/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV why-ai-agents-stall-at-the-production-line` | [Why AI agents stall at the production line](https://promptugal.news/events/why-ai-agents-stall-at-the-production-line/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV why-your-ai-agents-don-t-understand-your-business-and-how` | [Why your AI agents don’t understand your business – and how to fix it](https://promptugal.news/events/why-your-ai-agents-don-t-understand-your-business-and-how/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV will-tech-save-the-energy-sector-or-break-it` | [Will tech save the energy sector or break it?](https://promptugal.news/events/will-tech-save-the-energy-sector-or-break-it/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV work-in-finland-side-event` | [Work in Finland side event](https://promptugal.news/events/work-in-finland-side-event/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -88,22 +93,25 @@ source: board/catalogue.json
 | `DAT.ORG ai-curious` | [AI-Curious](https://promptugal.news/organisations/ai-curious/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG aicep-portugal-global` | [AICEP Portugal Global](https://promptugal.news/organisations/aicep-portugal-global/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG algarve-evolution` | [Algarve Evolution](https://promptugal.news/organisations/algarve-evolution/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG algarve-stp` | [Algarve STP](https://promptugal.news/organisations/algarve-stp/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG alqem` | [alqem](https://promptugal.news/organisations/alqem/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG altair-capital` | [AltaIR Capital](https://promptugal.news/organisations/altair-capital/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG amal` | [AMAL](https://promptugal.news/organisations/amal/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG amazon` | [Amazon](https://promptugal.news/organisations/amazon/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG amino-capital` | [Amino Capital](https://promptugal.news/organisations/amino-capital/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+
+**Cards 376 to 400**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `DAT.ORG anchorage-digital` | [Anchorage Digital](https://promptugal.news/organisations/anchorage-digital/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
+| `DAT.ORG anje` | [ANJE](https://promptugal.news/organisations/anje/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG apexbrasil` | [ApexBrasil](https://promptugal.news/organisations/apexbrasil/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG applied-intuition` | [Applied Intuition](https://promptugal.news/organisations/applied-intuition/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG archive` | [Archive](https://promptugal.news/organisations/archive/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG arm` | [Arm Ltd.](https://promptugal.news/organisations/arm/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG aspen-institute-central-europe` | [Aspen Institute Central Europe](https://promptugal.news/organisations/aspen-institute-central-europe/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG associated-press` | [Associated Press](https://promptugal.news/organisations/associated-press/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-
-**Cards 376 to 400**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `DAT.ORG atlantic` | [The Atlantic](https://promptugal.news/organisations/atlantic/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG atlassian-williams-f1-team` | [Atlassian Williams F1 Team](https://promptugal.news/organisations/atlassian-williams-f1-team/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG axios` | [Axios](https://promptugal.news/organisations/axios/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -121,13 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG cal-com` | [Cal.com](https://promptugal.news/organisations/cal-com/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG carris` | [Carris](https://promptugal.news/organisations/carris/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG center-for-china-and-globalization` | [Center for China and Globalization (CCG)](https://promptugal.news/organisations/center-for-china-and-globalization/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG cgtn-europe` | [CGTN Europe](https://promptugal.news/organisations/cgtn-europe/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG city-of-lisbon` | [City of Lisbon](https://promptugal.news/organisations/city-of-lisbon/) | organisation | programme@web-summit.vicky 6 Nov 2026 |
-| `DAT.ORG cleo-capital` | [Cleo Capital](https://promptugal.news/organisations/cleo-capital/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG cnbc` | [CNBC](https://promptugal.news/organisations/cnbc/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG cnet` | [CNET](https://promptugal.news/organisations/cnet/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG cnn` | [CNN](https://promptugal.news/organisations/cnn/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG coelius-capital` | [Coelius Capital](https://promptugal.news/organisations/coelius-capital/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG council-of-europe` | [Council of Europe](https://promptugal.news/organisations/council-of-europe/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-3.md) | [Next part](DAT-5.md)

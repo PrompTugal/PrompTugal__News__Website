@@ -1,0 +1,44 @@
+{
+ "version": "v0.1.280",
+ "date": "Friday 6 November 2026",
+ "title": "Before and after, v0.1.280: Algarve Evolution as a mini-site",
+ "summary": "The Algarve Evolution page for Dinis's meeting at 15:00: the reading-column page of v0.1.269 against dev.portugal@'s wide mini-site, live at v0.1.280 (its deploy waited from 14:20), and the designer's mock-up as the next step.",
+ "devices": [
+  "phone",
+  "desktop"
+ ],
+ "steps": [
+  {
+   "id": "before",
+   "label": "Before: v0.1.269",
+   "img": {
+    "phone": "before--phone.png",
+    "desktop": "before--desktop.png"
+   }
+  },
+  {
+   "id": "after",
+   "label": "After: v0.1.280",
+   "note": "dev.portugal@'s mini-site: the page uses the full width, a left-hand map of the sections, the figures as tiles, a timeline from 2018 to 2027 with the 2019 launch and the 2024 presidency, programme cards and the interactive network, timeline and map.",
+   "img": {
+    "phone": "after--phone.png",
+    "desktop": "after--desktop.png"
+   }
+  },
+  {
+   "id": "design",
+   "label": "Next: the designer's mock-up",
+   "note": "What is still to take from the design: a full-bleed hero band; the mandate said once; the 2032 goals in a row of their own, apart from what is done; on a phone, the map as a sticky row and sections collapsed.",
+   "img": {
+    "phone": "design--phone.png",
+    "desktop": "design--desktop.png"
+   }
+  }
+ ],
+ "notes": [
+  "Built in one sprint at Dinis's word (14:10): dev.portugal@ built it, dev.graphs@ the interactive graph, the researcher the past, the designer the mock-up and six fixes (board/spec-algarve-evolution-fixes-1420.md).",
+  "Live from v0.1.280: fixes 1 (wide) and 4 (the map) in part; 2 (say the mandate once), 3 (goals apart from what is done), 5 (one-line programme cards) and 6 (no floating Ask) still to do.",
+  "The deploy stalled from v0.1.269 (14:20) to after 14:45; the page was not live for the start of the meeting."
+ ],
+ "experiments": []
+}

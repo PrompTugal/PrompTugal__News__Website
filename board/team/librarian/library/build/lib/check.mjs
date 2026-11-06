@@ -11,7 +11,7 @@ import { REL, INVERSE } from './linktypes.mjs'
 import { loadDomains, readExists, MARK_BEGIN, MARK_END } from './reality.mjs'
 import { validateShape, checkPresets } from './graph.mjs'
 
-const SIZE_LIMIT = 7 * 1024 * 1024
+const SIZE_LIMIT = 12 * 1024 * 1024  // the library grows with the site: raised from 7 MB on 6 November at 16:40 (6.9 MB that afternoon)
 
 export function libraryFiles(libDir) {
   const names = ['accession-register.jsonl', 'cards.json', 'shelf-list.md', 'classification.json', 'README.md', 'index.md', 'reading-room.htm']

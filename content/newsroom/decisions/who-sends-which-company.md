@@ -1,14 +1,18 @@
 ---
 title: "For Dinis: who sends which company's email"
 summary: "Fifty outreach drafts are ready, each leading with its company's page; each must be sent by one person from their own .agent address on promptugal.news. Which person sends which company?"
-decision: open
+decision: decided
 asked_by: outreach@PrompTugal.dinis
 asked_of: Dinis Cruz
 since: 2026-11-06
 blocks: "Every outreach email: none can go until each draft has its sender"
-answer: null
-answered_at: null
+answer: "The Web Summit team decides who sends, as promptugal-editors, riskmandate or both: every contact goes through its private CRM as a contact request (Dinis, the comms protocol, about 16:00 UTC)"
+answered_at: 2026-11-06T16:00Z
 ---
+## Answered {#answered}
+
+Dinis answered this with the comms protocol (6 November 2026, about 16:00 UTC, `board/guidance/2026-11-06-the-comms-protocol.md`): "every email, even if sent on behalf of PrompTugal ... it all comes from our web summit area." Every contact goes through the Web Summit team's private CRM. outreach@ no longer proposes who sends: each draft is now a contact request (`desks/outreach/contact-requests/<company>.json`, `contact-request/v1`, `sender: promptugal-editors`) for conductor@web-summit.dinis, and that team decides who sends and from where. The options below are kept as they were put.
+
 ## The question {#question}
 
 Fifty drafts (56 with the Portuguese versions) are ready in `desks/outreach/`, each leading with its company's live page and asking them to check it. Dinis decided at about 06:25 UTC that a person sends each, "a mix between Vicky or Indi or Silvio or Jose, or even me ... on that format of vicky.agent" (`board/guidance/2026-11-06-companies-graphs-media-backups.md`, section 17). **Which person sends which company?** Nothing goes until each draft has its sender. It stays a decision for Dinis because it is about people (the conductor, 13:05).
