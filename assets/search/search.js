@@ -136,7 +136,8 @@
     const FACETS = [['type', 'Kind'], ['topic', 'Topic'], ['day', 'Day'], ['organiser', 'Organiser'], ['country', 'Country']]
     function searchPageUI(mount) {
         const P = new URLSearchParams(w.location.search)
-        const st = { q: P.get('q') || '', type: P.get('type') || '', topic: P.get('topic') || '', day: P.get('day') || '', organiser: P.get('organiser') || '', country: P.get('country') || '', limit: 25 }
+        const pref = (() => { try { return JSON.parse(w.localStorage.getItem('nr.profile.prefs.v1')) || {} } catch (e) { return {} } })()
+        const st = { q: P.get('q') || '', type: P.get('type') || (pref.newsroomFirst && w.PTLogin && w.PTLogin.state().verified ? 'newsroom' : ''), topic: P.get('topic') || '', day: P.get('day') || '', organiser: P.get('organiser') || '', country: P.get('country') || '', limit: 25 }
         mount.innerHTML = `<form class="search" role="search" action=""><label class="visually-hidden" for="nr-q">Search the newsroom</label>${ICON.replace('<svg', '<svg class="s-icon"')}<input id="nr-q" type="search" name="q" placeholder="Companies, sessions, people, topics" value="${esc(st.q)}"><button type="submit">Search</button></form>
 <p class="nr-search-status" id="nr-search-status" role="status">Loading the index…</p>
 <div class="nr-facets" id="nr-facets"></div>
