@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.366",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: T4's redrawn chart checked: pass (one caption word for the journalist)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "fba40d0d2"
+  },
+  {
     "version": "v0.1.365",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: the wave-1 first prompts for account B",
