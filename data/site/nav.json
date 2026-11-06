@@ -160,6 +160,11 @@
     },
     {
       "column": "The newsroom",
+      "label": "Customers",
+      "href": "newsroom/customers/index.html"
+    },
+    {
+      "column": "The newsroom",
       "label": "Release history",
       "href": "newsroom/versions.html"
     },

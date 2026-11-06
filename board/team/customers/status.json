@@ -1,21 +1,26 @@
 {
   "agent": "customers@PrompTugal.dinis",
-  "focus": "set by Dinis's briefs in session; none yet",
-  "state": "waiting: onboarded, key made, ROLE.md drafted; no brief yet",
-  "updated": "2026-11-06T05:40Z",
+  "focus": "Customers and monetisation (Dinis's brief of 6 November 2026): the map of what PrompTugal.news could sell, the packages, and how a sale runs",
+  "state": "working: first brief delivered (the monetisation map); waiting for Dinis to decide",
+  "updated": "2026-11-06T07:45Z",
   "done": [
     "Read CLAUDE.md, board/README.md, board/guidance/README.md, board/the-passes.md and the ABP core rules",
     "Session key customers-promptugal (record sha256:c9343261a2d9c30a, encryption sha256:07a3d6a50e599607) in board/keys.json, linked locally to the operator's key sha256:db7f79fdd87e030a",
-    "ROLE.md (first draft) and this status.json"
+    "ROLE.md (first draft) and this status.json",
+    "Brief 1 (monetisation): board/team/customers/monetisation-map.md (families A to E, what exists that people would pay for, benchmarks with sources, ten decisions for Dinis), packages.json (21 rows; only the 5 pound top-up is live; every other price a proposal), operations.md (runbook, change policy, quote template, how a package goes live), requests.json (the ledger for the rule of seven)",
+    "A 13-slide deck: board/team/customers/deck/monetisation-deck.pdf (source monetisation-deck.src.htm, renamed from .html because the gate treats every .html as a page)",
+    "The newsroom page /newsroom/customers/ (content/newsroom/customers/index.md) with a nav entry in data/site/nav.json, beside Orders"
   ],
   "next": [
-    "Wait for Dinis's first brief; then write it into ROLE.md and work to it",
-    "Read the individual guidance files, and my ABP in board/abp/ once abp@ writes it"
+    "Dinis's answers to the ten decisions in monetisation-map.md; then prepare the Stripe rows (text, return address) for whichever packages he puts live",
+    "Log each ask in requests.json as it arrives (no names); promote a kind to a package at the seventh",
+    "Read my ABP when abp@ writes it"
   ],
   "asks": [
-    "abp@: a grant for customers@ in board/abp/policies.json (until then the hooks treat my writes by the core rules only; I write only board/team/customers/ and my own key entry)",
-    "conductor@: a lane in board/inbox.json and an inbox in board/inboxes/ once my key is on dev (I have none yet, so I have drained nothing)",
-    "Dinis: the first brief; and whether the work is to be on dev (CLAUDE.md, your message) or on the session's branch claude/charming-goldberg-r5zkgs, which the harness named; I am treating dev as the rule"
+    "Dinis: the ten decisions at the end of board/team/customers/monetisation-map.md: currency (GBP or EUR), which entity invoices, how the vault key is issued, Stripe links of our own, which rows go live, the partners' offers, a private place for names and quotes, whether the newsroom page stays public, a line on the participant disclosure, and the press pass",
+    "abp@: a grant for customers@ in board/abp/policies.json. This run also wrote content/newsroom/customers/ and one entry in data/site/nav.json, outside board/team/customers/, because Dinis asked for the material in the newsroom section and the gate refuses an orphan page; widen the grant or tell me to move it",
+    "dev@: the vault key's issuing (a Stripe webhook to a small function, only on Dinis's yes) and a Stripe link that returns to this site",
+    "conductor@: a lane in board/inbox.json and an inbox in board/inboxes/ for customers@ (none yet); accountant@: a cost per delivery once a package has been delivered"
   ],
   "notes": [
     "The sha256 of pki-agent.mjs (fcb28a1c...) matches abp@'s key entry, but I did not find the pin as a literal in the team site's admin/tools/seal.mjs; recorded in the key entry's 'how'."
@@ -26,6 +31,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "first run: key, ROLE.md, status.json; waiting for briefs"
+    },
+    {
+      "started": "2026-11-06T06:00Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "brief 1: the monetisation map, the register, the runbook, a 13-slide deck, the newsroom page /newsroom/customers/"
     }
   ]
 }
