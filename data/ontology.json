@@ -79,6 +79,21 @@
       { "id": "field", "label": "Field", "meaning": "An industry field: the category the team's company map files each company under." },
       { "id": "beat", "label": "Beat", "meaning": "One of PrompTugal.news's beats (brief 3)." },
       { "id": "theme", "label": "Theme", "meaning": "A broader theme that fields and summit tracks are bridged to." }
+    ],
+    "article_kind": [
+      { "id": "report", "label": "Report", "meaning": "What happened or what is, in our voice: facts only, each with its source, no view of ours. Wikipedia's neutral point of view is the standard: a contested point is attributed (X says A, Y says B)." },
+      { "id": "reference", "label": "Reference", "meaning": "A Wikipedia-style entry on a company, an organisation, an event or a topic: what is known about it, structured, every statement cited, kept current and dated, never argued. The company pages and the past editions are reference; so is a Wikipedia article read as data (data/wikipedia/)." },
+      { "id": "explainer", "label": "Explainer", "meaning": "How something works or how to do it (your first day, how a delegation is chosen): facts arranged for a reader, still no view of ours." },
+      { "id": "analysis", "label": "Analysis", "meaning": "What the facts mean, through the RiskMandate lens (reach, mandate, gap): our reading, marked as ours, every fact under it sourced. The reading is a claim of kind opinion; the facts stay facts." },
+      { "id": "opinion", "label": "Opinion", "meaning": "A view, signed by whoever holds it and said to be a view; never presented as fact, never unsigned." },
+      { "id": "how-we-work", "label": "How we work", "meaning": "About PrompTugal.news itself: its agents, its rules, its data, its corrections." }
+    ],
+    "source_provenance": [
+      { "id": "primary", "label": "Primary", "meaning": "The organiser, the company, a registry or a record: the thing itself, or its own words." },
+      { "id": "press", "label": "Press", "meaning": "A news report: who reported it and when. Breaking news is treated as primary until better-researched accounts exist (Wikipedia's rule)." },
+      { "id": "wikipedia", "label": "Wikipedia", "meaning": "A Wikipedia article at a pinned revision (its oldid is the attribution, CC BY-SA 4.0): a secondary source we may quote and a graph we may walk. Its references lead to the primary sources; a reference we have read ourselves is cited as that page, not as Wikipedia." },
+      { "id": "shadow", "label": "Shadow reading", "meaning": "A page we could not read in full (a paywall, a teaser) that a reputable source we can read has reported on, Wikipedia among them: we cite what that source says the page says, and say so." },
+      { "id": "ours", "label": "Ours", "meaning": "Something PrompTugal.news derived or decided (a count, a match, a mapping), with how." }
     ]
   }
 }

@@ -1,0 +1,688 @@
+{
+  "$schema": "../../schemas/wikipedia-statements.schema.json",
+  "article": "web-summit",
+  "revid": 1383690798,
+  "read_at": "2026-11-06T04:35:40Z",
+  "read_by": "ontologist@PrompTugal.dinis",
+  "licence": "CC BY-SA 4.0, by the contributors to the English Wikipedia article \"Web Summit\"; revision 1383690798 is the attribution (https://en.wikipedia.org/w/index.php?oldid=1383690798)",
+  "statements": [
+    {
+      "id": "54d509b1",
+      "section": "Lead",
+      "class": "stated",
+      "text": "Web Summit is an annual technology conference held in Lisbon, Portugal.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "a7cc4ab5",
+      "section": "Lead",
+      "class": "record",
+      "text": "Founded in 2009 by Paddy Cosgrave, Web Summit was held in Dublin, Ireland until 2016, when it moved to Lisbon.",
+      "refs": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "d361016e",
+      "section": "Lead",
+      "class": "stated",
+      "text": "The conference's topics center on internet technology, emerging technologies, marketing and venture capitalism.",
+      "refs": []
+    },
+    {
+      "id": "5ff28d91",
+      "section": "Lead",
+      "class": "record",
+      "text": "Web Summit's partners range from Fortune 500 companies to start-ups, with attendees representing all levels and sectors of the global high technology industry.",
+      "refs": []
+    },
+    {
+      "id": "92f04cc0",
+      "section": "Lead",
+      "class": "stated",
+      "text": "Web Summit runs events throughout the world including F.ounders, RISE conference in Hong Kong, Collision in Toronto, SURGE in Bangalore, MoneyConf in Dublin and Web Summit Rio in Rio de Janeiro.",
+      "refs": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "0975bf42",
+      "section": "Speakers",
+      "class": "stated",
+      "text": "Speakers included a mix of CEOs, subject-matter experts, celebrities, and politicians, including Stephen Hawking, Elon Musk, Al Gore, Bono, and U.N Secretary-General António Guterres.",
+      "refs": []
+    },
+    {
+      "id": "c95377a5",
+      "section": "Partners",
+      "class": "record",
+      "text": "Web Summit's partners include Fortune 500 companies, government entities, and private foundations, such as Google, Meta, Amazon, Cisco Systems and Microsoft.",
+      "refs": [
+        9
+      ]
+    },
+    {
+      "id": "d42ccf52",
+      "section": "2025",
+      "class": "record",
+      "text": "A court-case in the Irish Business courts between Cosgrave, Hickey and Kelly began in March 2025.",
+      "refs": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "58203ec5",
+      "section": "2024",
+      "class": "stated",
+      "text": "In February, Web Summit debuted a new event in Doha, Qatar.",
+      "refs": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "171425aa",
+      "section": "2024",
+      "class": "stated",
+      "text": "The exhibition took place at the DECC.",
+      "refs": [
+        15
+      ]
+    },
+    {
+      "id": "800a95d8",
+      "section": "2024",
+      "class": "attributed",
+      "text": "On January 24, 2024, Katherine Maher announced her departure as CEO of Web Summit to become CEO of National Public Radio (NPR).",
+      "refs": [
+        16
+      ]
+    },
+    {
+      "id": "fb009e34",
+      "section": "2024",
+      "class": "attributed",
+      "text": "In April 2024, Web Summit staff were told Cosgrave had decided to return as CEO.",
+      "refs": [
+        17
+      ]
+    },
+    {
+      "id": "0a1f6b31",
+      "section": "2023",
+      "class": "quote",
+      "text": "In October 2023, a number of sponsors and technology companies like Meta, Google, and Amazon cancelled their participation due to the founder's statement on X (formerly Twitter) regarding the Gaza war, in which he asserted that he was \"shocked at the rhetoric and actions of so many Western leaders and governments, with the exception in particular of Ireland's government, who for once are doing the right thing\" following the Irish Taoiseach, Leo Varadkar, saying that solidarity with Israel \"will fall apart\" if the response to Hamas' assault \"goes too far.\"",
+      "refs": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "3692dbc2",
+      "section": "2023",
+      "class": "stated",
+      "text": "Hours after Cosgrave's tweets, Israel's ambassador in Lisbon, Dor Shapira, vehemently repudiated Cosgrave and publicly informed the city's mayor that his country would boycott the event.",
+      "refs": [
+        21
+      ]
+    },
+    {
+      "id": "7bbfb76a",
+      "section": "2023",
+      "class": "quote",
+      "text": "Cosgrave later apologized, defending \"Israel's right to exist and to defend itself\", thus condemning Hamas.",
+      "refs": [
+        22
+      ]
+    },
+    {
+      "id": "09df05be",
+      "section": "2023",
+      "class": "quote",
+      "text": "Cosgrave resigned as CEO on October 21, 2023, stating that \"my personal comments have become a distraction from the event, and our team, our sponsors, our startups and the people who attend\".",
+      "refs": [
+        23,
+        24
+      ]
+    },
+    {
+      "id": "39344ece",
+      "section": "2023",
+      "class": "stated",
+      "text": "Katherine Maher was later appointed CEO to replace Cosgrave.",
+      "refs": [
+        25
+      ]
+    },
+    {
+      "id": "2d11eb78",
+      "section": "2023",
+      "class": "attributed",
+      "text": "In January 2024 it was announced that Maher would cease to be CEO on March 1st to take up the position of chief executive at NPR.",
+      "refs": [
+        26
+      ]
+    },
+    {
+      "id": "b012835a",
+      "section": "2023",
+      "class": "attributed",
+      "text": "In November 2023, Web Summit announced the launch of a new conference in Doha, Web Summit Qatar.",
+      "refs": []
+    },
+    {
+      "id": "62de2df2",
+      "section": "2023",
+      "class": "record",
+      "text": "The conference took place February 26–29, 2024.",
+      "refs": [
+        27
+      ]
+    },
+    {
+      "id": "c3dcfe2b",
+      "section": "2020",
+      "class": "attributed",
+      "text": "In December 2020, Web Summit announced the launch of a new conference in Japan, Web Summit Tokyo.",
+      "refs": []
+    },
+    {
+      "id": "02ab5f08",
+      "section": "2020",
+      "class": "attributed",
+      "text": "The company also announced that the Asia-focused RISE Conference will be moving to Kuala Lumpur, Malaysia.",
+      "refs": []
+    },
+    {
+      "id": "b4eb55b9",
+      "section": "2020",
+      "class": "record",
+      "text": "Both conferences were scheduled to be held as in-person events in 2022.",
+      "refs": [
+        28,
+        29
+      ]
+    },
+    {
+      "id": "a134738b",
+      "section": "2019",
+      "class": "record",
+      "text": "Web Summit 2019 took place in Portugal, from November 4th to 7th at the Altice Arena & Fil in Lisbon, Portugal.",
+      "refs": [
+        30
+      ]
+    },
+    {
+      "id": "e99a1afa",
+      "section": "2019",
+      "class": "hedged",
+      "text": "Some of the speakers included Edward Snowden; former UK Prime Minister Tony Blair; former professional boxer Wladimir Klitschko; Jaden Smith; Guo Ping (Rotating Chairman of Huawei) and Katherine Maher (former CEO of Wikimedia Foundation).",
+      "refs": [
+        31
+      ]
+    },
+    {
+      "id": "f7200cc6",
+      "section": "2019",
+      "class": "record",
+      "text": "Nutrix won Web Summit PITCH competition for the most ambitious early-stage startups. 900 startups participated.",
+      "refs": [
+        32
+      ]
+    },
+    {
+      "id": "f03ce5fb",
+      "section": "2018",
+      "class": "record",
+      "text": "Web Summit 2018 took place in Lisbon from November 5 to November 8.",
+      "refs": []
+    },
+    {
+      "id": "ed01bc97",
+      "section": "2018",
+      "class": "stated",
+      "text": "Attendance was at 70,000 participants.",
+      "refs": []
+    },
+    {
+      "id": "0937fc98",
+      "section": "2018",
+      "class": "hedged",
+      "text": "Some of the speakers include Medium Founder & CEO Ev Williams, President Microsoft Corporation Brad Smith, and CEO at Booking.com Gillian Tans.",
+      "refs": [
+        33
+      ]
+    },
+    {
+      "id": "130d3299",
+      "section": "2018",
+      "class": "attributed",
+      "text": "It was announced that Marine Le Pen of the National Rally would be one of the speakers, which caused controversy.",
+      "refs": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "25c9648b",
+      "section": "2018",
+      "class": "attributed",
+      "text": "Paddy Consgrave initially argued that despite her \"wrongheaded\" politics, he felt that her views would be adequately challenged by professional journalists.",
+      "refs": [
+        38,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "868e0bb4",
+      "section": "2018",
+      "class": "attributed",
+      "text": "As a result of criticism, Paddy Cosgrave announced on Twitter that the invitation to her would be rescinded.",
+      "refs": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "879a7969",
+      "section": "2017",
+      "class": "record",
+      "text": "Web Summit 2017 took place in the Altice Arena in Lisbon from November 6–9.",
+      "refs": []
+    },
+    {
+      "id": "6092f7b8",
+      "section": "2017",
+      "class": "record",
+      "text": "The event promised to bring 60,000 attendees from over 160 countries together.",
+      "refs": [
+        39
+      ]
+    },
+    {
+      "id": "d3db1df7",
+      "section": "2017",
+      "class": "stated",
+      "text": "1,000 speakers were initially confirmed for the conference and, ultimately, over 1,200 spoke.",
+      "refs": [
+        40
+      ]
+    },
+    {
+      "id": "07a00335",
+      "section": "2017",
+      "class": "attributed",
+      "text": "From the political sphere, speakers such as Former Vice President of the United States of America Al Gore, European Commissioner for Competition Margrethe Vestager, and former president of France François Hollande were announced early.",
+      "refs": []
+    },
+    {
+      "id": "bb393be2",
+      "section": "2017",
+      "class": "stated",
+      "text": "In addition to these speakers, big names in tech attending were Intel CEO Brian Krzanich, Oracle CEO Mark Hurd, Microsoft president Brad Smith, Reddit CEO Steve Huffman, Arm Holdings CEO Simon Segars, Slack co-founder and CEO Stewart Butterfield, Asana co-founder and CEO and Facebook co-founder Dustin Moskovitz, Alexander Nix of Cambridge Analytica and Booking.com president and CEO Gillian Tans.",
+      "refs": []
+    },
+    {
+      "id": "ec30e0b8",
+      "section": "2017",
+      "class": "stated",
+      "text": "Speakers included former world heavyweight champion Wladimir Klitschko, actress and activist Sophia Bush, former Portuguese professional football player and Ballon D'Or winner Luis Figo, Vogue international editor Suzy Menkes, former chess world champion Garry Kasparov, musician Wyclef Jean, and Game of Thrones actor Liam Cunningham.",
+      "refs": [
+        41
+      ]
+    },
+    {
+      "id": "fe83125e",
+      "section": "2017",
+      "class": "quote",
+      "text": "A dinner that was held in the National Pantheon was criticised by Portuguese Prime Minister António Costa who said it was \"unworthy of the respect due\" to the National Monument.",
+      "refs": [
+        42
+      ]
+    },
+    {
+      "id": "1092f09b",
+      "section": "2017",
+      "class": "quote",
+      "text": "He said that although it was legal, it was because the previous government had allowed what he called \"offensive use of this monument\".",
+      "refs": [
+        42
+      ]
+    },
+    {
+      "id": "3b5ae65e",
+      "section": "2017",
+      "class": "stated",
+      "text": "Paddy Cosgrave tweeted his apologies.",
+      "refs": [
+        42
+      ]
+    },
+    {
+      "id": "4c75fae9",
+      "section": "2016",
+      "class": "attributed",
+      "text": "In September 2015 Web Summit co-founder and CEO Paddy Cosgrave announced that the event would be held in Lisbon for three consecutive editions, from 2016 to 2018.",
+      "refs": [
+        43
+      ]
+    },
+    {
+      "id": "80c46628",
+      "section": "2016",
+      "class": "quote",
+      "text": "Cosgrave cited the local startup scene and a \"cosmopolitan city with better infrastructure conditions and a larger number of hotel rooms\" for the decision.",
+      "refs": [
+        44
+      ]
+    },
+    {
+      "id": "6cc929f6",
+      "section": "2016",
+      "class": "record",
+      "text": "The three-day event held from November 7–10 at the Altice Arena, site of Expo '98, drew 53,056 attendees from more than 150 countries and more than 1,500 start-ups spread over 21 venues.",
+      "refs": [
+        45
+      ]
+    },
+    {
+      "id": "b6441f02",
+      "section": "2016",
+      "class": "stated",
+      "text": "Among the more than 600 speakers were tech executives from around the world, including John Chambers of Cisco, Facebook CTO Mike Schroepfer, and Amazon CTO Werner Vogels.",
+      "refs": []
+    },
+    {
+      "id": "c0ea8753",
+      "section": "2016",
+      "class": "stated",
+      "text": "Also speaking at the event were prominent figures from non-tech areas, such as actor Joseph Gordon-Levitt, Salil Shetty of Amnesty International, and Mogens Lykketoft, president of the general assembly at the United Nations.",
+      "refs": []
+    },
+    {
+      "id": "08c2bbac",
+      "section": "2016",
+      "class": "stated",
+      "text": "Footballer Luís Figo and both the Portuguese President Marcelo Rebelo de Sousa and Prime Minister António Costa spoke as well.",
+      "refs": [
+        44,
+        45,
+        46
+      ]
+    },
+    {
+      "id": "716b107b",
+      "section": "2016",
+      "class": "attributed",
+      "text": "The percentage of women among speakers at the Web Summit was 47% according to independent estimates.",
+      "refs": [
+        47
+      ]
+    },
+    {
+      "id": "e0191a5a",
+      "section": "2016",
+      "class": "hedged",
+      "text": "Some of those who had paid up to €5,000 for tickets into the event were unable to get into the event and had to watch it on a screen outside.",
+      "refs": [
+        48
+      ]
+    },
+    {
+      "id": "fb06001a",
+      "section": "2015",
+      "class": "record",
+      "text": "Web Summit 2015 was held over three days from 3 November until the 5 November at the RDS in Dublin.",
+      "refs": []
+    },
+    {
+      "id": "c89441ee",
+      "section": "2015",
+      "class": "record",
+      "text": "Over 42,000 people attended the event over the three days.",
+      "refs": []
+    },
+    {
+      "id": "fb16e277",
+      "section": "2015",
+      "class": "stated",
+      "text": "Speakers included Ed Catmull of Pixar, Michael Dell, Bill Ford and Chris Froome.",
+      "refs": []
+    },
+    {
+      "id": "856387c7",
+      "section": "2015",
+      "class": "attributed",
+      "text": "In September 2015, Web Summit announced that they would be moving the event from Dublin to Lisbon.",
+      "refs": []
+    },
+    {
+      "id": "8f1d243c",
+      "section": "2015",
+      "class": "stated",
+      "text": "Following the announcement, organisers released email correspondence between the Irish Government and Web Summit CEO Paddy Cosgrave about hotel costs, traffic, and other issues surrounding the infrastructure in Dublin.",
+      "refs": []
+    },
+    {
+      "id": "8004fe02",
+      "section": "2015",
+      "class": "hedged",
+      "text": "This led to a debate in the Irish media about the support the Government had provided to the event since it began and what future promises they could make.",
+      "refs": [
+        49
+      ]
+    },
+    {
+      "id": "d5384fa2",
+      "section": "2015",
+      "class": "record",
+      "text": "Problems arose with the Wi-Fi, but on a lesser scale than in 2014.",
+      "refs": [
+        50
+      ]
+    },
+    {
+      "id": "870c875e",
+      "section": "2015",
+      "class": "stated",
+      "text": "The invitation to the Taoiseach was sent after 9pm on the Friday, with the event opening on the following Monday evening.",
+      "refs": [
+        51
+      ]
+    },
+    {
+      "id": "ce10bed7",
+      "section": "2014",
+      "class": "record",
+      "text": "Web Summit 2014 was held over three days and consisted of nine stages or Summits as they are known; Centre, Machine, Enterprise, Marketing, Builders, Society, Sport, Film, and Music.",
+      "refs": []
+    },
+    {
+      "id": "a76e3b67",
+      "section": "2014",
+      "class": "record",
+      "text": "Eva Longoria, Peter Thiel, and Bono were among the speakers that spoke over the three-day event, with attendance of 22,000 people from 109 countries.",
+      "refs": [
+        52,
+        53
+      ]
+    },
+    {
+      "id": "485bc529",
+      "section": "2014",
+      "class": "stated",
+      "text": "On Day 1 there were problems with the Wi-Fi network and Web Summit founder Paddy Cosgrave took to the stage on two occasions to apologise for the connectivity problems.",
+      "refs": []
+    },
+    {
+      "id": "eb16c5c1",
+      "section": "2014",
+      "class": "stated",
+      "text": "The RDS defended their technical set-up with CEO Michael Duffy saying, \"The Wi-Fi has successfully responded to the exceptional demands placed on it.",
+      "refs": []
+    },
+    {
+      "id": "e6dc41c9",
+      "section": "2014",
+      "class": "stated",
+      "text": "This is an unprecedented Wi-Fi density compared to similar European tech events.\"",
+      "refs": []
+    },
+    {
+      "id": "caf7f3fc",
+      "section": "2014",
+      "class": "quote",
+      "text": "Attendees were mostly disparaging in their remarks, with some deriding it on social media as \"the most Irish thing ever\".",
+      "refs": [
+        54
+      ]
+    },
+    {
+      "id": "aed210b3",
+      "section": "2014",
+      "class": "stated",
+      "text": "International broadcasters including CNBC, CNN, Fox Business News, Bloomberg, Sky News, Al Jazeera and the BBC all covered the event.",
+      "refs": []
+    },
+    {
+      "id": "b013c326",
+      "section": "2014",
+      "class": "hedged",
+      "text": "After the announcement of the decision to move the 2016 Web Summit to Lisbon, several Irish technology correspondents cited the Wi-Fi debacle as one major push factor behind the move.",
+      "refs": [
+        55,
+        56
+      ]
+    },
+    {
+      "id": "6e126e1f",
+      "section": "2013",
+      "class": "record",
+      "text": "In 2013, over 10,000 people attended the Web Summit, the vast majority from outside Ireland.",
+      "refs": [
+        57
+      ]
+    },
+    {
+      "id": "fc6086fa",
+      "section": "2013",
+      "class": "stated",
+      "text": "Speakers included Elon Musk, Shane Smith, Tony Hawk, Drew Houston, and Niklas Zennström.",
+      "refs": []
+    },
+    {
+      "id": "c9d11790",
+      "section": "2013",
+      "class": "stated",
+      "text": "The event was expanded in its scope with a number of side-events launching as part of it, including the Night Summit, a series of after-hours events featuring musicians from throughout the world, and the Food Summit, a two-day showcase of gourmet Irish Food.",
+      "refs": [
+        58,
+        59
+      ]
+    },
+    {
+      "id": "d7c09955",
+      "section": "2013",
+      "class": "stated",
+      "text": "Irish Prime Minister, Enda Kenny, also opened the NASDAQ Market from the Web Summit, the first time it was opened outside of New York since the Facebook IPO.",
+      "refs": [
+        60
+      ]
+    },
+    {
+      "id": "ec7c3abb",
+      "section": "2013",
+      "class": "stated",
+      "text": "The event was covered substantially in the international media with Bloomberg Television, CNN, the Wall Street Journal, and Wired covering the event.",
+      "refs": [
+        57
+      ]
+    },
+    {
+      "id": "70f76823",
+      "section": "2012",
+      "class": "hedged",
+      "text": "In 2012, 4,200 people attended Web Summit. approximately 40% of these came from companies based in Ireland (which provides a European HQ for several major tech companies) and 60% came from companies based elsewhere in Europe.",
+      "refs": []
+    },
+    {
+      "id": "8007f744",
+      "section": "2012",
+      "class": "stated",
+      "text": "Speakers included Tim Armstrong, Wael Ghonim, and Arkady Volozh.",
+      "refs": []
+    },
+    {
+      "id": "c3812a05",
+      "section": "2012",
+      "class": "stated",
+      "text": "A number of companies from across the world also launched their new products or made announcements as part of the event.",
+      "refs": [
+        61
+      ]
+    },
+    {
+      "id": "48f80d7f",
+      "section": "2009–2011",
+      "class": "stated",
+      "text": "The first Web Summit was a mix of bloggers, journalists, and technologists in a hotel on the outskirts of Dublin.",
+      "refs": [
+        62
+      ]
+    },
+    {
+      "id": "84f31944",
+      "section": "2009–2011",
+      "class": "stated",
+      "text": "Panelists and speakers included Iain Dale, the political blogger, Ben Hammersley of the Guardian, and Ian Douglas of the Daily Telegraph.",
+      "refs": []
+    },
+    {
+      "id": "b35cd973",
+      "section": "2009–2011",
+      "class": "record",
+      "text": "In 2010 it was a meet-up for 400 or so of the local technology community in the Chartered Accountants House in Dublin.",
+      "refs": []
+    },
+    {
+      "id": "2405c5e4",
+      "section": "2009–2011",
+      "class": "stated",
+      "text": "Speakers were mainly local entrepreneurs, business people, and investors.",
+      "refs": [
+        63
+      ]
+    },
+    {
+      "id": "de5fcbde",
+      "section": "2009–2011",
+      "class": "record",
+      "text": "In 2011, the event tripled in size and moved to the Royal Dublin Society.",
+      "refs": []
+    },
+    {
+      "id": "6cffb744",
+      "section": "2009–2011",
+      "class": "stated",
+      "text": "Speakers included Chad Hurley, Jack Dorsey, and Matt Mullenweg.",
+      "refs": []
+    }
+  ]
+}

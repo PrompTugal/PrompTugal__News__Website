@@ -1,0 +1,905 @@
+{
+  "$schema": "../../schemas/wikipedia-references.schema.json",
+  "article": "web-summit",
+  "revid": 1383690798,
+  "read_at": "2026-11-06T04:35:40Z",
+  "read_by": "ontologist@PrompTugal.dinis",
+  "licence": "CC BY-SA 4.0, by the contributors to the English Wikipedia article \"Web Summit\"; revision 1383690798 is the attribution (https://en.wikipedia.org/w/index.php?oldid=1383690798)",
+  "references": [
+    {
+      "n": 1,
+      "note": "1",
+      "url": "https://portuguese-american-journal.com/web-summit-lisbon-hosting-the-largest-tech-event-in-the-world-portugal/",
+      "title": "Portuguese American Journal - Web Summit: Lisbon hosting the largest tech event in the world",
+      "work": null,
+      "date": null,
+      "accessed": null,
+      "archive": null,
+      "text": "Portuguese American Journal - Web Summit: Lisbon hosting the largest tech event in the world",
+      "cited_by": [
+        "54d509b1"
+      ]
+    },
+    {
+      "n": 2,
+      "note": "2",
+      "url": "https://www.forbes.com/sites/jasonbloomberg/2018/11/09/seven-enterprise-startup-standouts-at-massive-websummit-conference/",
+      "title": "Forbes - Seven Enterprise Startup Standouts At Massive WebSummit, Conference UI EU",
+      "work": null,
+      "date": null,
+      "accessed": null,
+      "archive": null,
+      "text": "Forbes - Seven Enterprise Startup Standouts At Massive WebSummit, Conference UI EU",
+      "cited_by": [
+        "54d509b1"
+      ]
+    },
+    {
+      "n": 3,
+      "note": "Temperton-3",
+      "url": "https://www.wired.co.uk/news/archive/2015-09/23/web-summit-dublin-lisbon-2016",
+      "title": "Web Summit 2016 will ditch Dublin for Lisbon",
+      "work": "Wired UK",
+      "date": "9 September 2015",
+      "accessed": "29 September 2015",
+      "archive": null,
+      "text": "Temperton, James (9 September 2015). \"Web Summit 2016 will ditch Dublin for Lisbon\". Wired UK. Retrieved 29 September 2015.",
+      "cited_by": [
+        "a7cc4ab5"
+      ]
+    },
+    {
+      "n": 4,
+      "note": "4",
+      "url": "https://www.reuters.com/article/us-portugal-websummit/web-summit-to-stay-in-lisbon-for-10-years-idUSKCN1MD11C",
+      "title": "Reuters - Web Summit to stay in Lisbon for 10 years",
+      "work": null,
+      "date": null,
+      "accessed": null,
+      "archive": null,
+      "text": "Reuters - Web Summit to stay in Lisbon for 10 years",
+      "cited_by": [
+        "a7cc4ab5"
+      ]
+    },
+    {
+      "n": 5,
+      "note": "5",
+      "url": "https://blogs.wsj.com/tech-europe/2011/10/28/dublin-hosts-worlds-technology-elite/?mg=blogs-wsj&url=http%253A%252F%252Fblogs.wsj.com%252Ftech-europe%252F2011%252F10%252F28%252Fdublin-hosts-worlds-technology-elite",
+      "title": "Dublin Hosts World's Technology Elite",
+      "work": "Wall Street Journal",
+      "date": null,
+      "accessed": "26 November 2013",
+      "archive": null,
+      "text": "\"Dublin Hosts World's Technology Elite\". Wall Street Journal. 28 October 2011. Retrieved 26 November 2013.",
+      "cited_by": [
+        "92f04cc0"
+      ]
+    },
+    {
+      "n": 6,
+      "note": "6",
+      "url": "http://tood.org/blog/index.php/2016/06/08/tood-rise-conference-2016/",
+      "title": "the original",
+      "work": "TOOD",
+      "date": null,
+      "accessed": "8 June 2016",
+      "archive": "https://web.archive.org/web/20160817004334/http://tood.org/blog/index.php/2016/06/08/tood-rise-conference-2016/",
+      "text": "\"TOOD at RISE Conference 2016, Hong Kong\". TOOD. 8 June 2016. Archived from the original on 17 August 2016. Retrieved 8 June 2016.",
+      "cited_by": [
+        "92f04cc0"
+      ]
+    },
+    {
+      "n": 7,
+      "note": "7",
+      "url": "https://collisionconf.com/",
+      "title": "Collision 2019",
+      "work": null,
+      "date": null,
+      "accessed": "20 May 2019",
+      "archive": null,
+      "text": "\"Collision 2019\". Collision. Retrieved 20 May 2019.",
+      "cited_by": [
+        "92f04cc0"
+      ]
+    },
+    {
+      "n": 8,
+      "note": "8",
+      "url": "https://rio.websummit.com/",
+      "title": "Web Summit Rio",
+      "work": null,
+      "date": null,
+      "accessed": "17 June 2024",
+      "archive": null,
+      "text": "\"Web Summit Rio\". Retrieved 17 June 2024.",
+      "cited_by": [
+        "92f04cc0"
+      ]
+    },
+    {
+      "n": 9,
+      "note": "9",
+      "url": "https://websummit.com/partners/event-partners",
+      "title": "Meet Web Summit's global partners | Lisbon, November 1–4, 2022",
+      "work": "Web Summit | Lisbon",
+      "date": null,
+      "accessed": "2022-10-23",
+      "archive": null,
+      "text": "\"Meet Web Summit's global partners | Lisbon, November 1–4, 2022\". Web Summit | Lisbon. Retrieved 2022-10-23.",
+      "cited_by": [
+        "c95377a5"
+      ]
+    },
+    {
+      "n": 10,
+      "note": "10",
+      "url": "https://extra.ie/2025/03/19/news/courts/paddy-cosgrave-web-summit-case",
+      "title": "Cosgrave's Web Summit battle has 'a level of bitterness akin to the worst family law cases'",
+      "work": "Extra.ie",
+      "date": null,
+      "accessed": "2025-03-19",
+      "archive": null,
+      "text": "\"Cosgrave's Web Summit battle has 'a level of bitterness akin to the worst family law cases'\". Extra.ie. 2025-03-19. Retrieved 2025-03-19.",
+      "cited_by": [
+        "d42ccf52"
+      ]
+    },
+    {
+      "n": 11,
+      "note": "11",
+      "url": "https://www.irishexaminer.com/news/courtandcrime/arid-41596651.html",
+      "title": "Paddy Cosgrave ran 'campaign to 'destroy' former Web Summit director, court hears",
+      "work": "IrishExaminer.com",
+      "date": "2025-03-19",
+      "accessed": "2025-03-19",
+      "archive": null,
+      "text": "O'Loughlin, Ann (2025-03-19). \"Paddy Cosgrave ran 'campaign to 'destroy' former Web Summit director, court hears\". IrishExaminer.com. Retrieved 2025-03-19.",
+      "cited_by": [
+        "d42ccf52"
+      ]
+    },
+    {
+      "n": 12,
+      "note": "12",
+      "url": "https://www.irishtimes.com/business/2025/03/19/paddy-cosgraves-cost-may-be-exceeding-7m-high-court-hears/",
+      "title": "Web Summit may be funding part of Paddy Cosgrave's estimated '€7m legal bill', court told",
+      "work": "The Irish Times",
+      "date": null,
+      "accessed": "2025-03-19",
+      "archive": null,
+      "text": "\"Web Summit may be funding part of Paddy Cosgrave's estimated '€7m legal bill', court told\". The Irish Times. Retrieved 2025-03-19.",
+      "cited_by": [
+        "d42ccf52"
+      ]
+    },
+    {
+      "n": 13,
+      "note": "13",
+      "url": "https://www.rasmal.com/web-summit-qatar-2024/",
+      "title": "Qatar to Host Biggest International Tech Event in 2024: Web Summit",
+      "work": null,
+      "date": null,
+      "accessed": null,
+      "archive": null,
+      "text": "\"Qatar to Host Biggest International Tech Event in 2024: Web Summit\". Rasmal. 26 January 2024.",
+      "cited_by": [
+        "58203ec5"
+      ]
+    },
+    {
+      "n": 14,
+      "note": "14",
+      "url": "https://techcrunch.com/2023/10/23/cosgrave-web-summit-event/",
+      "title": "Web Summit confirms Lisbon and Qatar events still on, ex-CEO Paddy Cosgrave has 80% ownership of business",
+      "work": null,
+      "date": null,
+      "accessed": null,
+      "archive": null,
+      "text": "\"Web Summit confirms Lisbon and Qatar events still on, ex-CEO Paddy Cosgrave has 80% ownership of business\". Tech Crunch.",
+      "cited_by": [
+        "58203ec5"
+      ]
+    },
+    {
+      "n": 15,
+      "note": "15",
+      "url": null,
+      "title": null,
+      "work": "Web Summit Qatar to Debut in February 2024",
+      "date": null,
+      "accessed": null,
+      "archive": null,
+      "text": "Web Summit Qatar to Debut in February 2024. 2024-06-04.",
+      "cited_by": [
+        "171425aa"
+      ]
+    },
+    {
+      "n": 16,
+      "note": "16",
+      "url": "https://techcrunch.com/2024/01/24/in-shock-move-web-summit-ceo-katherine-maher-jumps-web-summits-ship-to-head-up-npr/",
+      "title": "Web Summit CEO jumps ship to head up NPR after just 3 months",
+      "work": null,
+      "date": null,
+      "accessed": null,
+      "archive": null,
+      "text": "\"Web Summit CEO jumps ship to head up NPR after just 3 months\". TechCrunch. 24 January 2024.",
+      "cited_by": [
+        "800a95d8"
+      ]
+    },
+    {
+      "n": 17,
+      "note": "17",
+      "url": "https://www.independent.ie/irish-news/paddy-cosgrave-back-to-top-at-web-summit-as-he-resumes-ceo-role-after-quitting-over-online-posts-on-israel-hamas-war/a180917198.html",
+      "title": "Paddy Cosgrave back to top at Web Summit as he resumes CEO role after quitting over online posts on Israel-Hamas war",
+      "work": "The Sunday Independent",
+      "date": "April 7, 2024",
+      "accessed": null,
+      "archive": null,
+      "text": "Horan, Niamh (April 7, 2024). \"Paddy Cosgrave back to top at Web Summit as he resumes CEO role after quitting over online posts on Israel-Hamas war\". The Sunday Independent.",
+      "cited_by": [
+        "fb009e34"
+      ]
+    },
+    {
+      "n": 18,
+      "note": "18",
+      "url": "https://www.rte.ie/news/business/2023/1020/1411927-intel-and-siemens-out-of-web-summit/",
+      "title": "Google and Meta latest to withdraw from Web Summit",
+      "work": null,
+      "date": null,
+      "accessed": null,
+      "archive": null,
+      "text": "\"Google and Meta latest to withdraw from Web Summit\". RTÉ News. 2023-10-20.",
+      "cited_by": [
+        "0a1f6b31"
+      ]
+    },
+    {
+      "n": 19,
+      "note": "19",
+      "url": "https://apnews.com/article/web-summit-paddy-cosgrave-gaza-israel-hamas-war-0b085e4004f6d87974975d275eac9ef7",
+      "title": "CEO of a prominent tech conference resigns amid backlash for public statements over Israel-Hamas war",
+      "work": "AP News",
+      "date": null,
+      "accessed": "2023-10-22",
+      "archive": null,
+      "text": "\"CEO of a prominent tech conference resigns amid backlash for public statements over Israel-Hamas war\". AP News. 2023-10-21. Retrieved 2023-10-22.",
+      "cited_by": [
+        "0a1f6b31"
+      ]
+    },
+    {
+      "n": 20,
+      "note": "20",
+      "url": "https://www.independent.ie/irish-news/solidarity-for-israel-will-fall-apart-if-response-goes-too-far-taoiseach-leo-varadkar-says/a1014791452.html",
+      "title": "Solidarity for Israel 'will fall apart' if response 'goes too far', Taoiseach Leo Varadkar says",
+      "work": "Independent.ie",
+      "date": null,
+      "accessed": "2023-10-22",
+      "archive": null,
+      "text": "\"Solidarity for Israel 'will fall apart' if response 'goes too far', Taoiseach Leo Varadkar says\". Independent.ie. 2023-10-10. Retrieved 2023-10-22.",
+      "cited_by": [
+        "0a1f6b31"
+      ]
+    },
+    {
+      "n": 21,
+      "note": "21",
+      "url": "https://expresso.pt/economia/economia_tecnologia/2023-10-16-Israel-vai-boicotar-Web-Summit-anuncia-embaixador-035e9109",
+      "title": "Israel vai boicotar Web Summit, anuncia embaixador",
+      "work": "Expresso",
+      "date": null,
+      "accessed": "2023-10-22",
+      "archive": null,
+      "text": "\"Israel vai boicotar Web Summit, anuncia embaixador\". Expresso (in Portuguese). 2023-10-16. Retrieved 2023-10-22.",
+      "cited_by": [
+        "3692dbc2"
+      ]
+    },
+    {
+      "n": 22,
+      "note": "22",
+      "url": "https://en.globes.co.il/en/article-web-summit-ceo-apologizes-and-condemns-hamas-1001460489",
+      "title": "Web Summit CEO apologizes and condemns Hamas",
+      "work": "Globes",
+      "date": null,
+      "accessed": "2023-10-20",
+      "archive": null,
+      "text": "\"Web Summit CEO apologizes and condemns Hamas\". Globes. 2023-10-18. Retrieved 2023-10-20.",
+      "cited_by": [
+        "7bbfb76a"
+      ]
+    },
+    {
+      "n": 23,
+      "note": "23",
+      "url": "https://www.rte.ie/news/business/2023/1021/1412190-web-summit-cosgrave/",
+      "title": "Cosgrave announces resignation as CEO of Web Summit",
+      "work": null,
+      "date": null,
+      "accessed": null,
+      "archive": null,
+      "text": "\"Cosgrave announces resignation as CEO of Web Summit\". RTÉ News. 2023-10-21.",
+      "cited_by": [
+        "09df05be"
+      ]
+    },
+    {
+      "n": 24,
+      "note": "24",
+      "url": "https://www.reuters.com/technology/web-summit-ceo-resigns-after-recent-comments-israeli-conflict-2023-10-21/",
+      "title": "Web Summit CEO resigns after comments on Israel-Hamas conflict",
+      "work": "Reuters",
+      "date": null,
+      "accessed": "2023-10-22",
+      "archive": null,
+      "text": "\"Web Summit CEO resigns after comments on Israel-Hamas conflict\". Reuters. 2023-10-21. Retrieved 2023-10-22.",
+      "cited_by": [
+        "09df05be"
+      ]
+    },
+    {
+      "n": 25,
+      "note": "25",
+      "url": "https://www.rte.ie/news/business/2023/1030/1413712-web-summit-announces-new-ceo-to-replace-paddy-cosgrave/",
+      "title": "Web Summit announces new CEO to replace Paddy Cosgrave",
+      "work": null,
+      "date": "30 October 2023",
+      "accessed": "30 October 2023",
+      "archive": null,
+      "text": "Goodbody, Will (30 October 2023). \"Web Summit announces new CEO to replace Paddy Cosgrave\". RTÉ News. Retrieved 30 October 2023.",
+      "cited_by": [
+        "39344ece"
+      ]
+    },
+    {
+      "n": 26,
+      "note": "Curran-26",
+      "url": "https://www.irishtimes.com/business/2024/01/24/web-summit-boss-katherine-maher-to-leave-role-after-three-months/",
+      "title": "Web Summit boss Katherine Maher to leave role after three months",
+      "work": "The Irish Times",
+      "date": "24 January 2024",
+      "accessed": "25 January 2024",
+      "archive": null,
+      "text": "Curran, Ian (24 January 2024). \"Web Summit boss Katherine Maher to leave role after three months\". The Irish Times. Retrieved 25 January 2024.",
+      "cited_by": [
+        "2d11eb78"
+      ]
+    },
+    {
+      "n": 27,
+      "note": "27",
+      "url": "https://www.tradearabia.com/news/IT_416737.html",
+      "title": "Qatar to host Web Summit in Mena for the first time",
+      "work": "www.tradearabia.com",
+      "date": null,
+      "accessed": "2023-12-12",
+      "archive": null,
+      "text": "\"Qatar to host Web Summit in Mena for the first time\". www.tradearabia.com. Retrieved 2023-12-12.",
+      "cited_by": [
+        "62de2df2"
+      ]
+    },
+    {
+      "n": 28,
+      "note": "28",
+      "url": "https://techcrunch.com/2020/12/02/web-summit-will-hold-rise-2022-in-kuala-lumpur-launch-a-new-event-in-tokyo/",
+      "title": "Web Summit will hold RISE 2022 in Kuala Lumpur, launch a new event in Tokyo",
+      "work": "TechCrunch",
+      "date": null,
+      "accessed": "2020-12-03",
+      "archive": null,
+      "text": "\"Web Summit will hold RISE 2022 in Kuala Lumpur, launch a new event in Tokyo\". TechCrunch. 3 December 2020. Retrieved 2020-12-03.",
+      "cited_by": [
+        "b4eb55b9"
+      ]
+    },
+    {
+      "n": 29,
+      "note": "29",
+      "url": "https://beamstart.com/content/128497/web-summit-rise-2022-kuala-lumpur",
+      "title": "Web Summit will hold RISE 2022 in Kuala Lumpur and launch new conference in Tokyo",
+      "work": "BEAMSTART - Uplifting Lives Through Entrepreneurship",
+      "date": null,
+      "accessed": "2020-12-03",
+      "archive": null,
+      "text": "\"Web Summit will hold RISE 2022 in Kuala Lumpur and launch new conference in Tokyo\". BEAMSTART - Uplifting Lives Through Entrepreneurship. Retrieved 2020-12-03.",
+      "cited_by": [
+        "b4eb55b9"
+      ]
+    },
+    {
+      "n": 30,
+      "note": "30",
+      "url": "https://websummit.com/",
+      "title": "Web Summit | Lisbon 2019 | Where the tech world meets",
+      "work": "Web Summit | Lisbon",
+      "date": null,
+      "accessed": "2019-04-23",
+      "archive": null,
+      "text": "\"Web Summit | Lisbon 2019 | Where the tech world meets\". Web Summit | Lisbon. Retrieved 2019-04-23.",
+      "cited_by": [
+        "a134738b"
+      ]
+    },
+    {
+      "n": 31,
+      "note": "31",
+      "url": "https://websummit.com/blog/top-speakers-web-summit-2019",
+      "title": "the original",
+      "work": null,
+      "date": null,
+      "accessed": "2021-02-12",
+      "archive": "https://web.archive.org/web/20200220224251/https://websummit.com/blog/top-speakers-web-summit-2019",
+      "text": "\"The Web Summit speakers our attendees can't wait to see\". 2019-11-03. Archived from the original on 2020-02-20. Retrieved 2021-02-12.",
+      "cited_by": [
+        "e99a1afa"
+      ]
+    },
+    {
+      "n": 32,
+      "note": "32",
+      "url": "https://techpope.com/startups/nutrix-named-winner-of-web-summits-2019-pitch-competition/",
+      "title": "the original",
+      "work": "TechPope",
+      "date": "7 November 2019",
+      "accessed": "19 December 2019",
+      "archive": "https://web.archive.org/web/20201001225926/https://techpope.com/startups/nutrix-named-winner-of-web-summits-2019-pitch-competition/",
+      "text": "Callejas, Eder (7 November 2019). \"Nutrix Named Winner of Web Summit's 2019 PITCH Competition\". TechPope. Archived from the original on 1 October 2020. Retrieved 19 December 2019.",
+      "cited_by": [
+        "f7200cc6"
+      ]
+    },
+    {
+      "n": 33,
+      "note": "33",
+      "url": "https://medium.com/@WebSummitHQ/web-summit-2018-by-the-numbers-5d4c00fa074b",
+      "title": "Web Summit 2018 — by the numbers",
+      "work": "Web Summit 2018 — by the numbers",
+      "date": null,
+      "accessed": "6 December 2024",
+      "archive": null,
+      "text": "\"Web Summit 2018 — by the numbers\". Web Summit 2018 — by the numbers. Medium. 5 November 2018. Retrieved 6 December 2024.",
+      "cited_by": [
+        "0937fc98"
+      ]
+    },
+    {
+      "n": 34,
+      "note": "tj-lisbon-web-summit-marine-le-pen-34",
+      "url": "https://www.thejournal.ie/lisbon-web-summit-marine-le-pen-4181551-Aug2018/",
+      "title": "Web Summit founder withdraws invite for far-right leader Marine Le Pen to 2018 event",
+      "work": "TheJournal.ie",
+      "date": "15 August 2018",
+      "accessed": "19 January 2021",
+      "archive": null,
+      "text": "McDermott, Stephen (15 August 2018). \"Web Summit founder withdraws invite for far-right leader Marine Le Pen to 2018 event\". TheJournal.ie. Retrieved 19 January 2021.",
+      "cited_by": [
+        "130d3299",
+        "25c9648b",
+        "868e0bb4"
+      ]
+    },
+    {
+      "n": 35,
+      "note": "bbc-marine-le-pens-presence-deemed-disrespectful-35",
+      "url": "https://www.bbc.com/news/world-europe-45201888",
+      "title": "Marine Le Pen's presence deemed 'disrespectful' at Web Summit",
+      "work": null,
+      "date": "16 August 2018",
+      "accessed": "19 January 2021",
+      "archive": null,
+      "text": "McSorley, Christina (16 August 2018). \"Marine Le Pen's presence deemed 'disrespectful' at Web Summit\". BBC News. Retrieved 19 January 2021.",
+      "cited_by": [
+        "130d3299",
+        "25c9648b",
+        "868e0bb4"
+      ]
+    },
+    {
+      "n": 36,
+      "note": "ii-web-summit-chief-in-u-turn-as-invitation-to-far-right-leader-le-pen-is-withdrawn-36",
+      "url": "https://www.independent.ie/irish-news/web-summit-chief-in-u-turn-as-invitation-to-far-right-leader-le-pen-is-withdrawn-37221128.html",
+      "title": "Web Summit chief in U-turn as invitation to far-right leader Le Pen is withdrawn",
+      "work": "Irish Independent",
+      "date": "16 August 2018",
+      "accessed": "19 January 2021",
+      "archive": null,
+      "text": "O'Donovan, Donal (16 August 2018). \"Web Summit chief in U-turn as invitation to far-right leader Le Pen is withdrawn\". Irish Independent. Retrieved 19 January 2021.",
+      "cited_by": [
+        "130d3299",
+        "25c9648b",
+        "868e0bb4"
+      ]
+    },
+    {
+      "n": 37,
+      "note": "ie-web-summit-withdraw-le-pen-invitation-37",
+      "url": "https://www.irishexaminer.com/business/arid-30862314.html",
+      "title": "Latest: Web Summit withdraw Le Pen invitation saying it is 'disrespectful' to Portugal and attendees",
+      "work": "Irish Examiner",
+      "date": "15 August 2018",
+      "accessed": "19 January 2021",
+      "archive": null,
+      "text": "Murphy, Greg (15 August 2018). \"Latest: Web Summit withdraw Le Pen invitation saying it is 'disrespectful' to Portugal and attendees\". Irish Examiner. Retrieved 19 January 2021.",
+      "cited_by": [
+        "130d3299",
+        "25c9648b",
+        "868e0bb4"
+      ]
+    },
+    {
+      "n": 38,
+      "note": "38",
+      "url": "https://medium.com/@WebSummitHQ/what-are-militant-anarchists-leftist-trade-union-leaders-right-wing-populists-and-libertarians-3fe7b1ecc7b2",
+      "title": "What are militant anarchists, leftist trade union leaders, right-wing populists and libertarians all doing at a tech conference?",
+      "work": null,
+      "date": "14 August 2018",
+      "accessed": "12 February 2021",
+      "archive": null,
+      "text": "Cosgrave, Paddy (14 August 2018). \"What are militant anarchists, leftist trade union leaders, right-wing populists and libertarians all doing at a tech conference?\". Retrieved 12 February 2021.",
+      "cited_by": [
+        "25c9648b"
+      ]
+    },
+    {
+      "n": 39,
+      "note": "39",
+      "url": "https://websummit.com/",
+      "title": "WEB SUMMIT | LISBON 2017 | WHERE THE TECH WORLD MEETS",
+      "work": "WEB SUMMIT | LISBON 2017",
+      "date": null,
+      "accessed": "2017-08-24",
+      "archive": null,
+      "text": "\"WEB SUMMIT | LISBON 2017 | WHERE THE TECH WORLD MEETS\". WEB SUMMIT | LISBON 2017. Retrieved 2017-08-24.",
+      "cited_by": [
+        "6092f7b8"
+      ]
+    },
+    {
+      "n": 40,
+      "note": "40",
+      "url": "https://blog.websummit.com/heres-incredible-week-59115-people/",
+      "title": "the original",
+      "work": null,
+      "date": null,
+      "accessed": "10 April 2018",
+      "archive": "https://web.archive.org/web/20190301185230/https://blog.websummit.com/heres-incredible-week-59115-people/",
+      "text": "\"Web Summit Blog 2017\". 6 November 2017. Archived from the original on 1 March 2019. Retrieved 10 April 2018.",
+      "cited_by": [
+        "d3db1df7"
+      ]
+    },
+    {
+      "n": 41,
+      "note": "41",
+      "url": "https://websummit.com/speakers",
+      "title": "Speakers - The biggest names in tech | Web Summit",
+      "work": "WEB SUMMIT | LISBON 2017",
+      "date": null,
+      "accessed": "2017-08-24",
+      "archive": null,
+      "text": "\"Speakers - The biggest names in tech | Web Summit\". WEB SUMMIT | LISBON 2017. Retrieved 2017-08-24.",
+      "cited_by": [
+        "ec30e0b8"
+      ]
+    },
+    {
+      "n": 42,
+      "note": "tj-web-summit-national-pantheon-dinner-42",
+      "url": "https://www.thejournal.ie/web-summit-national-pantheon-dinner-3695517-Nov2017/",
+      "title": "Web Summit organiser apologises over 'offensive' dinner at Portugal's National Pantheon",
+      "work": "TheJournal.ie",
+      "date": "14 November 2017",
+      "accessed": "19 January 2021",
+      "archive": null,
+      "text": "Halpin, Hayley (14 November 2017). \"Web Summit organiser apologises over 'offensive' dinner at Portugal's National Pantheon\". TheJournal.ie. Retrieved 19 January 2021.",
+      "cited_by": [
+        "fe83125e",
+        "1092f09b",
+        "3b5ae65e"
+      ]
+    },
+    {
+      "n": 43,
+      "note": "43",
+      "url": "https://www.wired.co.uk/article/web-summit-dublin-lisbon-2016",
+      "title": "Web Summit ditches Dublin for Lisbon",
+      "work": "Wired UK",
+      "date": null,
+      "accessed": "10 November 2016",
+      "archive": null,
+      "text": "\"Web Summit ditches Dublin for Lisbon\". Wired UK. 23 September 2015. Retrieved 10 November 2016.",
+      "cited_by": [
+        "4c75fae9"
+      ]
+    },
+    {
+      "n": 44,
+      "note": "Global-44",
+      "url": "http://www.globalcorporationssociety.com/single-post/2016/09/26/PLEASE-WELCOME-THE-WEB-SUMMIT-2016-IN-LISBON",
+      "title": "PLEASE WELCOME THE WEB SUMMIT 2016 IN LISBON",
+      "work": null,
+      "date": null,
+      "accessed": "11 November 2016",
+      "archive": null,
+      "text": "\"PLEASE WELCOME THE WEB SUMMIT 2016 IN LISBON\". Global Corporations Society. 26 September 2016. Retrieved 11 November 2016.",
+      "cited_by": [
+        "80c46628",
+        "08c2bbac"
+      ]
+    },
+    {
+      "n": 45,
+      "note": "Attendees-45",
+      "url": "https://websummit.net/attendees/featured-attendees",
+      "title": "Meet 53,056 attendees with tickets",
+      "work": null,
+      "date": null,
+      "accessed": "11 November 2016",
+      "archive": null,
+      "text": "\"Meet 53,056 attendees with tickets\". WebSummit. 20 June 2016. Retrieved 11 November 2016.",
+      "cited_by": [
+        "6cc929f6",
+        "08c2bbac"
+      ]
+    },
+    {
+      "n": 46,
+      "note": "46",
+      "url": "https://tek.sapo.pt/mobile/android/artigo/o_web_summit_ja_acabou_no_proximo_ano_ha_mais-49536afe.html",
+      "title": "the original",
+      "work": null,
+      "date": null,
+      "accessed": "29 July 2018",
+      "archive": "https://web.archive.org/web/20161114155547/http://tek.sapo.pt/mobile/android/artigo/o_web_summit_ja_acabou_no_proximo_ano_ha_mais-49536afe.html",
+      "text": "\"O Web Summit já acabou. No próximo ano há mais\". 10 November 2016. Archived from the original on 14 November 2016. Retrieved 29 July 2018.",
+      "cited_by": [
+        "08c2bbac"
+      ]
+    },
+    {
+      "n": 47,
+      "note": "47",
+      "url": "https://blog.namsor.com/2016/11/10/gender-in-research-and-innovation/",
+      "title": "the original",
+      "work": null,
+      "date": null,
+      "accessed": "10 November 2016",
+      "archive": "https://web.archive.org/web/20170824215753/https://blog.namsor.com/2016/11/10/gender-in-research-and-innovation/",
+      "text": "\"Gender in Research and Innovation\". 10 November 2016. Archived from the original on 24 August 2017. Retrieved 10 November 2016.",
+      "cited_by": [
+        "716b107b"
+      ]
+    },
+    {
+      "n": 48,
+      "note": "tj-web-summit-thousands-queue-48",
+      "url": "https://www.thejournal.ie/web-summit-thousands-queue-3068789-Nov2016/",
+      "title": "People who paid thousands for tickets left waiting outside Web Summit",
+      "work": "TheJournal.ie",
+      "date": "7 November 2016",
+      "accessed": "19 January 2021",
+      "archive": null,
+      "text": "Russell, Cliodhna (7 November 2016). \"People who paid thousands for tickets left waiting outside Web Summit\". TheJournal.ie. Retrieved 19 January 2021.",
+      "cited_by": [
+        "e0191a5a"
+      ]
+    },
+    {
+      "n": 49,
+      "note": "49",
+      "url": "http://www.irishtimes.com/business/technology/criticism-over-government-handling-of-web-summit-grows-1.2394418",
+      "title": "Criticism over Government handling of Web Summit grows",
+      "work": null,
+      "date": null,
+      "accessed": "19 March 2017",
+      "archive": null,
+      "text": "\"Criticism over Government handling of Web Summit grows\". The Irish Times. Retrieved 19 March 2017.",
+      "cited_by": [
+        "8004fe02"
+      ]
+    },
+    {
+      "n": 50,
+      "note": "50",
+      "url": "http://www.irishtimes.com/business/technology/old-problems-surface-one-last-time-at-web-summit-1.2416018",
+      "title": "Old problems surface one last time at Web Summit",
+      "work": null,
+      "date": null,
+      "accessed": "19 March 2017",
+      "archive": null,
+      "text": "\"Old problems surface one last time at Web Summit\". The Irish Times. Retrieved 19 March 2017.",
+      "cited_by": [
+        "d5384fa2"
+      ]
+    },
+    {
+      "n": 51,
+      "note": "51",
+      "url": "https://www.irishtimes.com/news/ireland/irish-news/taoiseach-s-web-summit-invite-sent-at-9pm-on-friday-1.2414314",
+      "title": "Taoiseach's Web Summit invite sent at 9pm on Friday",
+      "work": null,
+      "date": null,
+      "accessed": "12 February 2021",
+      "archive": null,
+      "text": "\"Taoiseach's Web Summit invite sent at 9pm on Friday\". The Irish Times. 2 November 2015. Retrieved 12 February 2021.",
+      "cited_by": [
+        "870c875e"
+      ]
+    },
+    {
+      "n": 52,
+      "note": "52",
+      "url": "http://www.independent.ie/business/technology/web-summit/live-blog-web-summit-2014-30714271.html",
+      "title": "Live Blog: Web Summit 2014",
+      "work": "Irish Independent",
+      "date": null,
+      "accessed": "4 November 2014",
+      "archive": null,
+      "text": "\"Live Blog: Web Summit 2014\". Irish Independent. 4 November 2014. Retrieved 4 November 2014.",
+      "cited_by": [
+        "a76e3b67"
+      ]
+    },
+    {
+      "n": 53,
+      "note": "53",
+      "url": "https://www.independent.ie/regionals/herald/web-summit-guests-to-spend-100m-in-city/30714966.html",
+      "title": "Web Summit guests to spend €100m in city",
+      "work": "Herald",
+      "date": null,
+      "accessed": "4 November 2014",
+      "archive": null,
+      "text": "\"Web Summit guests to spend €100m in city\". Herald. 4 November 2014. Retrieved 4 November 2014.",
+      "cited_by": [
+        "a76e3b67"
+      ]
+    },
+    {
+      "n": 54,
+      "note": "54",
+      "url": "http://www.thejournal.ie/dublin-web-summit-wifi-1762398-Nov2014/",
+      "title": "'The most Irish thing ever': WiFi trouble at Dublin's Web Summit",
+      "work": "TheJournal.ie",
+      "date": null,
+      "accessed": "30 September 2015",
+      "archive": null,
+      "text": "\"'The most Irish thing ever': WiFi trouble at Dublin's Web Summit\". TheJournal.ie. 4 November 2014. Retrieved 30 September 2015.",
+      "cited_by": [
+        "caf7f3fc"
+      ]
+    },
+    {
+      "n": 55,
+      "note": "55",
+      "url": "https://www.siliconrepublic.com/business/2015/09/23/web-summit-lisbon-2016",
+      "title": "Web Summit to move to Lisbon in 2016, cites infrastructure reasons",
+      "work": "Silicon Republic",
+      "date": null,
+      "accessed": "30 September 2015",
+      "archive": null,
+      "text": "\"Web Summit to move to Lisbon in 2016, cites infrastructure reasons\". Silicon Republic. 23 Sep 2015. Retrieved 30 September 2015.",
+      "cited_by": [
+        "b013c326"
+      ]
+    },
+    {
+      "n": 56,
+      "note": "56",
+      "url": "http://www.irishexaminer.com/business/smallbusiness/harsh-reality-for-irish-technology-scene-356186.html",
+      "title": "Harsh reality for Irish technology scene",
+      "work": "Irish Examiner",
+      "date": null,
+      "accessed": "30 September 2015",
+      "archive": null,
+      "text": "\"Harsh reality for Irish technology scene\". Irish Examiner. 28 September 2015. Retrieved 30 September 2015.",
+      "cited_by": [
+        "b013c326"
+      ]
+    },
+    {
+      "n": 57,
+      "note": "BloombergTV-57",
+      "url": "https://www.bloomberg.com/video/dublin-becomes-center-of-european-tech-world-k5J0ApPeRk6AIEsei5Rdjw.html",
+      "title": "Dublin Becomes Center of European Tech World",
+      "work": "BloombergTV",
+      "date": null,
+      "accessed": "31 October 2013",
+      "archive": null,
+      "text": "\"Dublin Becomes Center of European Tech World\". BloombergTV. 31 October 2013. Retrieved 31 October 2013.",
+      "cited_by": [
+        "6e126e1f",
+        "ec7c3abb"
+      ]
+    },
+    {
+      "n": 58,
+      "note": "58",
+      "url": "http://blog.websummit.net/2013/10/22/the-story-behind-the-night-summit/",
+      "title": "the original",
+      "work": "Web Summit",
+      "date": null,
+      "accessed": "26 November 2013",
+      "archive": "https://web.archive.org/web/20131203030320/http://blog.websummit.net/2013/10/22/the-story-behind-the-night-summit/",
+      "text": "\"Dublin The story behind The Night Summit\". Web Summit. 22 October 2013. Archived from the original on 3 December 2013. Retrieved 26 November 2013.",
+      "cited_by": [
+        "c9d11790"
+      ]
+    },
+    {
+      "n": 59,
+      "note": "59",
+      "url": "http://www.agriland.ie/news/food-summit-a-unique-opportunity-to-promote-irish-food/",
+      "title": "the original",
+      "work": "Web Summit",
+      "date": null,
+      "accessed": "26 November 2013",
+      "archive": "https://web.archive.org/web/20131203012220/http://www.agriland.ie/news/food-summit-a-unique-opportunity-to-promote-irish-food/",
+      "text": "\"Food Summit a unique opportunity to promote Irish food\". Web Summit. 30 October 2013. Archived from the original on 3 December 2013. Retrieved 26 November 2013.",
+      "cited_by": [
+        "c9d11790"
+      ]
+    },
+    {
+      "n": 60,
+      "note": "60",
+      "url": "https://www.rte.ie/news/business/2013/1030/483582-web-summit-nasdaq/",
+      "title": "Trading on NASDAQ opened in Ireland for the first time",
+      "work": "Web Summit",
+      "date": null,
+      "accessed": "26 November 2013",
+      "archive": null,
+      "text": "\"Trading on NASDAQ opened in Ireland for the first time\". Web Summit. 31 October 2013. Retrieved 26 November 2013.",
+      "cited_by": [
+        "d7c09955"
+      ]
+    },
+    {
+      "n": 61,
+      "note": "61",
+      "url": "https://techcrunch.com/2012/10/20/dublin-web-summit-picks-smartthings-out-of-100-strong-startup-competition/",
+      "title": "Web Summit Picks SmartThings Out Of 100-Strong Startup Competition",
+      "work": "TechCrunch",
+      "date": null,
+      "accessed": "26 November 2013",
+      "archive": null,
+      "text": "\"Web Summit Picks SmartThings Out Of 100-Strong Startup Competition\". TechCrunch. 20 October 2012. Retrieved 26 November 2013.",
+      "cited_by": [
+        "c3812a05"
+      ]
+    },
+    {
+      "n": 62,
+      "note": "62",
+      "url": "https://www.siliconrepublic.com/life/revolution-in-media-and-politics-to-dominate-dublin-web-summit",
+      "title": "Revolution in media and politics to dominate Dublin Web Summit",
+      "work": null,
+      "date": null,
+      "accessed": "5 October 2016",
+      "archive": null,
+      "text": "\"Revolution in media and politics to dominate Dublin Web Summit\". 21 October 2009. Retrieved 5 October 2016.",
+      "cited_by": [
+        "48f80d7f"
+      ]
+    },
+    {
+      "n": 63,
+      "note": "63",
+      "url": "http://www.realexpayments.ie/realex-payments-at-the-dublin-web-summit",
+      "title": "the original",
+      "work": "Realex Payments",
+      "date": null,
+      "accessed": "26 November 2013",
+      "archive": "https://web.archive.org/web/20131202221532/http://www.realexpayments.ie/realex-payments-at-the-dublin-web-summit",
+      "text": "\"Payments at the Web Summit\". Realex Payments. 20 October 2010. Archived from the original on 2 December 2013. Retrieved 26 November 2013.",
+      "cited_by": [
+        "2405c5e4"
+      ]
+    }
+  ]
+}

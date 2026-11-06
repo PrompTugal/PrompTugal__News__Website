@@ -1,0 +1,239 @@
+{
+  "$schema": "../../schemas/wikipedia-meets.schema.json",
+  "article": "web-summit",
+  "revid": 1383690798,
+  "kept_by": "ontologist@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "links": [
+    {
+      "wikipedia": "CNBC",
+      "ref": "organisation:cnbc",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "CNN",
+      "ref": "organisation:cnn",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "Intel",
+      "ref": "organisation:intel",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "Reddit",
+      "ref": "organisation:reddit",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "Sky News",
+      "ref": "organisation:sky-news",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "Paddy Cosgrave",
+      "ref": "person:paddy-cosgrave",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "Dublin",
+      "ref": "place:dublin",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "Estádio da Tapadinha",
+      "ref": "place:estadio-da-tapadinha",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "Israel",
+      "ref": "place:israel",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "Lisbon",
+      "ref": "place:lisbon",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "MEO Arena",
+      "ref": "place:meo-arena-and-fil",
+      "how": "by hand",
+      "why": "the arena is half of the summit's venue as the summit names it, MEO Arena and FIL"
+    },
+    {
+      "wikipedia": "Parque das Nações",
+      "ref": "place:parque-das-nacoes",
+      "how": "exact name"
+    },
+    {
+      "wikipedia": "Portugal",
+      "ref": "place:portugal",
+      "how": "by hand",
+      "why": "the country; our topic of the same name is a beat"
+    },
+    {
+      "wikipedia": "Royal Dublin Society",
+      "ref": "place:royal-dublin-society",
+      "how": "exact name"
+    }
+  ],
+  "rows": [
+    {
+      "table": 1,
+      "row": 2,
+      "ref": "event:web-summit-dublin-2010",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 3,
+      "ref": "event:web-summit-dublin-2011",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 4,
+      "ref": "event:web-summit-dublin-2012",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 5,
+      "ref": "event:web-summit-dublin-2013",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 6,
+      "ref": "event:web-summit-dublin-2014",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 7,
+      "ref": "event:web-summit-dublin-2015",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 8,
+      "ref": "event:web-summit-lisbon-2016",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 9,
+      "ref": "event:web-summit-lisbon-2017",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 10,
+      "ref": "event:web-summit-lisbon-2018",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 11,
+      "ref": "event:web-summit-lisbon-2019",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 12,
+      "ref": "event:web-summit-online-2020",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 13,
+      "ref": "event:web-summit-lisbon-2021",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 14,
+      "ref": "event:web-summit-lisbon-2022",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 15,
+      "ref": "event:web-summit-lisbon-2023",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    },
+    {
+      "table": 1,
+      "row": 17,
+      "ref": "event:web-summit-lisbon-2024",
+      "agrees": true,
+      "note": "our past edition was written from this table (revision 1383690798), so they agree by construction; a second source per edition is open"
+    }
+  ],
+  "findings": [
+    {
+      "id": "W-01",
+      "kind": "inconsistency",
+      "statement": "a7cc4ab5",
+      "text": "The lead says Web Summit \"was held in Dublin, Ireland until 2016, when it moved to Lisbon\"; the article's own timeline lists 2015 as the last edition at the Royal Dublin Society and 2016 (November 7 to 10) as the first in Lisbon.",
+      "rests_on": [
+        "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798"
+      ],
+      "proposal": "\"was held in Dublin, Ireland, until 2015, and has been held in Lisbon since 2016\", citing a source for the move."
+    },
+    {
+      "id": "W-02",
+      "kind": "gap",
+      "table_row": 17,
+      "text": "The timeline ends at the November 2024 edition, though the article has a section headed 2025. AICEP's Portugal Global (12 November 2025, from Jornal Económico) reports that the 2025 edition began on the Monday night in Lisbon and ended on the Thursday, with the organiser's figures: 71,386 attendees from 157 countries, 1,857 investors and 2,725 startups; Web Summit's own post of 13 November 2025 gives the same figures.",
+      "rests_on": [
+        "https://portugalglobal.pt/noticias/2025/novembro/web-summit-evento-tecnologico-com-recorde-de-71386-participantes/",
+        "https://websummit.com/blog/news/record-investors-at-web-summit-2025-bucking-industry-trends/"
+      ],
+      "proposal": "A 2025 row: November 10 to 13, MEO Arena and Lisbon Exhibition & Congress Centre, citing the organiser's post; the figures in the 2025 section."
+    },
+    {
+      "id": "W-03",
+      "kind": "gap",
+      "text": "Nothing on the 2026 edition: Web Summit's venue page gives 9 to 12 November 2026 at the MEO Arena and FIL.",
+      "rests_on": [
+        "https://websummit.com/essentials/venue-essentials/"
+      ],
+      "proposal": "A 2026 row, citing the organiser; whether it goes in before the edition takes place is for the article's editors to weigh (WP:CRYSTAL allows a scheduled event that is almost certain to take place)."
+    },
+    {
+      "id": "W-04",
+      "kind": "gap",
+      "table_row": 1,
+      "text": "The 2009 row has dates (October 30 to November 1) but no venue, and no reference.",
+      "rests_on": [
+        "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798"
+      ],
+      "proposal": "A venue with a source, or a note that the first edition's venue is not known."
+    },
+    {
+      "id": "W-05",
+      "kind": "uncited",
+      "text": "30 of the article's 79 sentences carry no reference marker, most of them in the year sections 2012 to 2018 (for example the 2014 and 2015 sections, five each) and two in the lead.",
+      "rests_on": [
+        "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798"
+      ],
+      "proposal": "Each uncited sentence cited or removed, as WP:V asks; our list of them is statements.json (refs empty)."
+    }
+  ]
+}

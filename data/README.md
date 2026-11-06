@@ -66,6 +66,11 @@ data/
     blocks.json            the article as linkable blocks, each with the claims it carries
                            The gate: each file against its story-* schema; every citation resolves in the folder,
                            every edge's ends are in entities.json, every <type>:<id> exists
+  wikipedia/<slug>/        a Wikipedia article read as data at one revision (newsroom/tools/wikipedia.mjs; never hand-
+                           edited, re-run the tool): article.json, statements.json (classed by wording: record,
+                           stated, attributed, quote, hedged), references.json, tables.json, links.json; CC BY-SA 4.0,
+                           the revision id is the attribution; no editor's name kept. meets.json (HAND, ontologist):
+                           where it meets our graph and the findings for a person to take to its talk page
   matching.json            the derivation's report: names matched to a company and how, names that are not,
                            near misses, unmatched places, tracks with no topic, company sessions not found  DERIVED
 ```

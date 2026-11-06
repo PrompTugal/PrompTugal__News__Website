@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/wikipedia-article.schema.json",
+  "article": "web-summit",
+  "revid": 1383690798,
+  "read_at": "2026-11-06T04:35:40Z",
+  "read_by": "ontologist@PrompTugal.dinis",
+  "licence": "CC BY-SA 4.0, by the contributors to the English Wikipedia article \"Web Summit\"; revision 1383690798 is the attribution (https://en.wikipedia.org/w/index.php?oldid=1383690798)",
+  "id": "web-summit",
+  "type": "wikipedia-article",
+  "title": "Web Summit",
+  "url": "https://en.wikipedia.org/wiki/Web_Summit",
+  "oldid_url": "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798",
+  "revision_at": "2026-11-04T05:10:42Z",
+  "length": 34561,
+  "wikidata": "Q16967344",
+  "history": {
+    "revisions_read": 434,
+    "complete": true,
+    "first_edit": "2013-03-23T10:44:10Z",
+    "per_year": {
+      "2013": 30,
+      "2014": 24,
+      "2015": 41,
+      "2016": 58,
+      "2017": 28,
+      "2018": 17,
+      "2019": 49,
+      "2020": 8,
+      "2021": 38,
+      "2022": 21,
+      "2023": 53,
+      "2024": 41,
+      "2025": 23,
+      "2026": 3
+    }
+  },
+  "categories": [
+    "Technology conferences",
+    "International business conferences",
+    "Web-related conferences",
+    "Annual events in Lisbon"
+  ],
+  "languages": [
+    "ar",
+    "es",
+    "fr",
+    "ga",
+    "hy",
+    "it",
+    "pt",
+    "ru",
+    "uk",
+    "vi",
+    "zh"
+  ],
+  "sections": [
+    {
+      "level": 1,
+      "title": "Speakers"
+    },
+    {
+      "level": 1,
+      "title": "Partners"
+    },
+    {
+      "level": 1,
+      "title": "History"
+    },
+    {
+      "level": 2,
+      "title": "2025"
+    },
+    {
+      "level": 2,
+      "title": "2024"
+    },
+    {
+      "level": 2,
+      "title": "2023"
+    },
+    {
+      "level": 2,
+      "title": "2020"
+    },
+    {
+      "level": 2,
+      "title": "2019"
+    },
+    {
+      "level": 2,
+      "title": "2018"
+    },
+    {
+      "level": 2,
+      "title": "2017"
+    },
+    {
+      "level": 2,
+      "title": "2016"
+    },
+    {
+      "level": 2,
+      "title": "2015"
+    },
+    {
+      "level": 2,
+      "title": "2014"
+    },
+    {
+      "level": 2,
+      "title": "2013"
+    },
+    {
+      "level": 2,
+      "title": "2012"
+    },
+    {
+      "level": 2,
+      "title": "2009–2011"
+    },
+    {
+      "level": 1,
+      "title": "See also"
+    },
+    {
+      "level": 1,
+      "title": "References"
+    },
+    {
+      "level": 1,
+      "title": "Bibliography"
+    },
+    {
+      "level": 1,
+      "title": "External links"
+    }
+  ],
+  "counts": {
+    "statements": 79,
+    "by_class": {
+      "stated": 33,
+      "record": 20,
+      "attributed": 13,
+      "quote": 7,
+      "hedged": 6
+    },
+    "uncited": 30,
+    "references": 63,
+    "tables": 1,
+    "links_to_articles": 373,
+    "links_to_web": 76
+  }
+}

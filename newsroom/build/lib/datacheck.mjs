@@ -30,6 +30,13 @@ export const KINDS = [
     [/^data\/stories\/[^/]+\/graph\.json$/, 'story-graph'],
     [/^data\/stories\/[^/]+\/timeline\.json$/, 'story-timeline'],
     [/^data\/stories\/[^/]+\/blocks\.json$/, 'story-blocks'],
+    // Wikipedia, read as data (newsroom/tools/wikipedia.mjs; schemas by the ontologist; board/projects/wikipedia.md)
+    [/^data\/wikipedia\/[^/]+\/article\.json$/, 'wikipedia-article'],
+    [/^data\/wikipedia\/[^/]+\/statements\.json$/, 'wikipedia-statements'],
+    [/^data\/wikipedia\/[^/]+\/references\.json$/, 'wikipedia-references'],
+    [/^data\/wikipedia\/[^/]+\/tables\.json$/, 'wikipedia-tables'],
+    [/^data\/wikipedia\/[^/]+\/links\.json$/, 'wikipedia-links'],
+    [/^data\/wikipedia\/[^/]+\/meets\.json$/, 'wikipedia-meets'],
     [/^data\/matching\.json$/, 'matching'],
     [/^data\/ontology\.json$/, 'ontology'],
     [/^data\/site\/site\.json$/, 'site'],
@@ -117,6 +124,17 @@ export function checkData() {
         for (const t of tl?.events || []) { cite('timeline.json', t.source, srcs, 'source'); cite('timeline.json', t.claim, claims, 'claim'); for (const a of t.about || []) ref('timeline.json', a) }
         for (const b of bl?.blocks || []) cite('blocks.json', b.claims, claims, 'claim')
         if (bl && !fs.existsSync(R(bl.article))) errors.push(`${w}/blocks.json: ${bl.article} does not exist`)
+    }
+    // Wikipedia, read as data: where an article meets our graph, every ref exists and every statement is the article's
+    const wroot = R('data/wikipedia')
+    if (fs.existsSync(wroot)) for (const a of fs.readdirSync(wroot)) {
+        const f = n => path.join(wroot, a, n), w = `data/wikipedia/${a}`
+        if (!fs.existsSync(f('meets.json'))) continue
+        const m = JSON.parse(fs.readFileSync(f('meets.json'), 'utf8')), art = fs.existsSync(f('article.json')) ? JSON.parse(fs.readFileSync(f('article.json'), 'utf8')) : null
+        const ids = new Set(fs.existsSync(f('statements.json')) ? JSON.parse(fs.readFileSync(f('statements.json'), 'utf8')).statements.map(x => x.id) : [])
+        if (art && m.revid !== art.revid) errors.push(`${w}/meets.json: written against revision ${m.revid}, the capture is ${art.revid}; read the findings again`)
+        for (const x of [...m.links, ...m.rows]) need(`${w}/meets.json`, x.ref)
+        for (const x of m.findings) if (x.statement && !ids.has(x.statement)) errors.push(`${w}/meets.json: ${x.id} names statement ${x.statement}, which is not in statements.json`)
     }
     // no social handle in what we publish about a person (the derivation drops them; this catches a hand edit)
     const HANDLE = /(^|[\s(,;])@[A-Za-z0-9_]{2,}/

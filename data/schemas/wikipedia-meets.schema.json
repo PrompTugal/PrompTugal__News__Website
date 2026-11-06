@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/wikipedia-meets.schema.json",
+  "title": "Where a Wikipedia article meets PrompTugal.news's graph (data/wikipedia/<slug>/meets.json)",
+  "description": "Hand-kept by ontologist@PrompTugal.dinis against one revision of the article. links: an article it links to that is one of our entities (exact name, or by hand with the reason); rows: a row of one of its tables that is one of our entities, and whether the two agree; findings: where the article and our sources differ, each resting on the article's own text or a source we hold, with a change proposed for a person to take to the article's talk page. An agent never edits Wikipedia.",
+  "type": "object",
+  "required": [
+    "article",
+    "revid",
+    "kept_by",
+    "updated",
+    "links",
+    "rows",
+    "findings"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "article": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "revid": {
+      "type": "integer"
+    },
+    "kept_by": {
+      "$ref": "common.schema.json#/$defs/agent"
+    },
+    "updated": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "wikipedia",
+          "ref",
+          "how"
+        ],
+        "properties": {
+          "wikipedia": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(company|organisation|person|event|place|topic):[a-z0-9-]+$"
+          },
+          "how": {
+            "enum": [
+              "exact name",
+              "by hand"
+            ]
+          },
+          "why": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "table",
+          "row",
+          "ref",
+          "agrees"
+        ],
+        "properties": {
+          "table": {
+            "type": "integer"
+          },
+          "row": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(company|organisation|person|event|place|topic):[a-z0-9-]+$"
+          },
+          "agrees": {
+            "type": "boolean"
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "text",
+          "rests_on",
+          "proposal"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^W-\\d{2}$"
+          },
+          "kind": {
+            "enum": [
+              "inconsistency",
+              "gap",
+              "uncited",
+              "outdated"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}$"
+          },
+          "table_row": {
+            "type": "integer"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rests_on": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "proposal": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/wikipedia-tables.schema.json",
+  "article": "web-summit",
+  "revid": 1383690798,
+  "read_at": "2026-11-06T04:35:40Z",
+  "read_by": "ontologist@PrompTugal.dinis",
+  "licence": "CC BY-SA 4.0, by the contributors to the English Wikipedia article \"Web Summit\"; revision 1383690798 is the attribution (https://en.wikipedia.org/w/index.php?oldid=1383690798)",
+  "tables": [
+    {
+      "n": 1,
+      "caption": "Timeline of events",
+      "header": [
+        "Year",
+        "Dates",
+        "Venue"
+      ],
+      "rows": [
+        [
+          "2009",
+          "October 30–November 1",
+          ""
+        ],
+        [
+          "2010",
+          "October 28–29",
+          "Chartered Accountants House"
+        ],
+        [
+          "2011",
+          "October 27–28",
+          "Royal Dublin Society"
+        ],
+        [
+          "2012",
+          "October 17–18",
+          "Royal Dublin Society"
+        ],
+        [
+          "2013",
+          "October 30–31",
+          "Royal Dublin Society"
+        ],
+        [
+          "2014",
+          "November 4–6",
+          "Royal Dublin Society"
+        ],
+        [
+          "2015",
+          "November 3–5",
+          "Royal Dublin Society"
+        ],
+        [
+          "2016",
+          "November 7–10",
+          "MEO Arena and Lisbon Exhibition & Congress Centre"
+        ],
+        [
+          "2017",
+          "November 6–9",
+          "MEO Arena and Lisbon Exhibition & Congress Centre"
+        ],
+        [
+          "2018",
+          "November 5–8",
+          "MEO Arena and Lisbon Exhibition & Congress Centre"
+        ],
+        [
+          "2019",
+          "November 4–7",
+          "MEO Arena and Lisbon Exhibition & Congress Centre"
+        ],
+        [
+          "2020",
+          "December 2–4",
+          "Online"
+        ],
+        [
+          "2021",
+          "November 1–4",
+          "MEO Arena and Lisbon Exhibition & Congress Centre"
+        ],
+        [
+          "2022",
+          "November 1–4",
+          "MEO Arena and Lisbon Exhibition & Congress Centre"
+        ],
+        [
+          "2023",
+          "November 13–16",
+          "MEO Arena and Lisbon Exhibition & Congress Centre"
+        ],
+        [
+          "2024",
+          "February 26–29",
+          "Doha Exhibition and Convention Center (DECC)"
+        ],
+        [
+          "2024",
+          "November 11–14",
+          "MEO Arena and Lisbon Exhibition & Congress Centre"
+        ]
+      ]
+    }
+  ]
+}
