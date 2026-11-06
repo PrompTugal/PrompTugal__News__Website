@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.49",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run 1 set-up (SYNTHETIC): protocol, five invented personas, 165 screenshots of the live site at v0.1.47",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "b948267ff"
+  },
+  {
     "version": "v0.1.48",
     "date": "2026-11-06",
     "what": "five themes, as newsroom.sgit.ai has: Paper, Ink, Broadsheet, Archive, Azulejo, picked in the top bar",
