@@ -2,7 +2,7 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T06:30Z",
+  "updated": "2026-11-06T07:25Z",
   "done": [
     "The domain checked (promptugal.news on GitHub Pages, HTTPS); newsroom/tools/old-host.mjs for the old host's redirect site",
     "Company pages as outreach landing pages: flows (the ontologist's data) and About PrompTugal.news",
@@ -14,10 +14,11 @@
     "Quality pass: code and data measured, the ratchet in the gate, /newsroom/quality/ and /newsroom/desks/",
     "The story board /newsroom/stories/: nine columns, a page per story, filters, api/v1/newsroom/stories.json (this wake)",
     "Dinis's dashboard /newsroom/dashboard/: what waits on him, every agent, the wake grid, the hand-offs, the record; api/v1/newsroom/dashboard.json; the gate warns of a stale status (this wake)",
-    "Reviewed the dev workers' branches and brought four onto dev: work/dev.pages (article images on the front page), dev.graphs (/graph/gravity/), dev.search (the reader's own profile, browser only), dev.verify (the verification tool and its records); dev.portugal left on its branch: its ROLE.md and status.json fail the data checks (this wake)"
+    "Reviewed the dev workers' branches and brought four onto dev: work/dev.pages (article images on the front page), dev.graphs (/graph/gravity/), dev.search (the reader's own profile, browser only), dev.verify (the verification tool and its records); dev.portugal left on its branch: its ROLE.md and status.json fail the data checks (this wake)",
+    "Second review round: brought work/dev.portugal (Algarve Evolution, fixed), dev.pages (front page F3, F4), dev.graphs (gravity round 2), dev.search (an answer in words on /search/ with the reader's own key), dev.verify (12 of 13 articles verified), dev.data (key, role, the S9 timeline draft) (this wake)"
   ],
   "next": [
-    "Bring work/dev.portugal (Algarve Evolution) once its ROLE.md and status.json pass the data checks",
+    "Review the dotted workers' branches at every wake (CLAUDE.md, the review workflow)",
     "Wire the front page to desks/correspondent/front-page.json (WS-177 plan)",
     "/newsroom/notes/ and the first note, on the sign-in",
     "Item 1 of /newsroom/quality/: the newsroom section's words to content/newsroom/"
@@ -60,8 +61,14 @@
     {
       "started": "2026-11-06T06:08Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.150",
       "line": "reviewed the dev workers: four branches brought onto dev, dev.portugal sent back"
+    },
+    {
+      "started": "2026-11-06T07:09Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "review round 2: six worker branches brought onto dev"
     }
   ]
 }
