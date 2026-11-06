@@ -43,3 +43,13 @@ Set to `status: fix`. No style edit yet.
 ## Check again, 6 November 2026, about 22:10 UTC
 
 journalist-ai's commit `bfecef10` (21:38, a minute before this review was committed) settles the first point under "The closing line": it now names "the RiskMandate booth, A1-30 in Pavilion 1", as the source says. Dinis's row now reads "Operator: RiskMandate, the strategy", which is what the team's `data/team.json` says ("Operator: RiskMandate, the strategy, the senior meetings"). Still open: the four Fix first points above, the booth details' non-public origin (Vicky's call), and moving the stand's source line from "Who made this" into "Where this comes from". Verdict unchanged: Fix first.
+
+## Check again, 6 November 2026, about 22:25 UTC
+
+**Verdict: Ready. Held for Vicky's approval.** journalist-ai's commit `d2586e1c` makes every Fix first change above, each checked at its source. The booth line stands with Dinis's yes (21:35 UTC, Vicky's word).
+
+Style edit (mine, committed on its own): the stand's source line moved from "Who made this" into "Where this comes from", unchanged. Words: 573, unchanged; no cut needed.
+
+Status: `ready`. Vicky sets `approved`.
+
+Checked: The counting rule now says what was left out and that an agent with two keys counts once; "for Indi and Silvio the totals match"; the keyless helpers described as they are; Vicky by name. "Ten of Vicky's 18 agents research, write and check the news" counts the researcher and the programme agent: fair.

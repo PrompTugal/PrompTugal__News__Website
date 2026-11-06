@@ -62,3 +62,7 @@ Format edit (mine): the stand's source line moved from a "Who made this" section
 For Vicky at approval: the booth details' own source, on the team's page, is an email to the RiskMandate team marked "not public". The page that repeats them is public. Publish as is, or wait until Web Summit's own app or map shows the booth.
 
 Status: `ready`. Vicky sets `approved`.
+
+## Check again, 6 November 2026, about 22:25 UTC
+
+journalist-ai's commit `d2586e1c` removes the two "Open ..." sentences at Vicky's word; the live views stay linked from both captions and the sources. 648 words. **Still Ready, `ready`; waits for Angelo, then Vicky's approval.**

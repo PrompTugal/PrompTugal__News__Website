@@ -37,3 +37,13 @@ Set to `status: fix`. No style edit yet.
 ## Check again, 6 November 2026, about 22:10 UTC
 
 journalist-ai's commit `bfecef10` changes only the closing line, which now names "the RiskMandate booth, A1-30 in Pavilion 1", as the source says. Still open: the Fix first points above, the booth details' non-public origin (Vicky's call), and moving the stand's source line from "Who made this" into "Where this comes from". Verdict unchanged: Fix first.
+
+## Check again, 6 November 2026, about 22:25 UTC
+
+**Verdict: Ready. Held for Vicky's approval.** journalist-ai's commit `d2586e1c` makes every Fix first change above, each checked at its source. The booth line stands with Dinis's yes (21:35 UTC, Vicky's word).
+
+Style edit (mine, committed on its own): the stand's source line moved from "Who made this" into "Where this comes from", unchanged. Words: 594, unchanged; no cut needed.
+
+Status: `ready`. Vicky sets `approved`.
+
+Checked: Angelo is now quoted in Angelo's own words from WS-129 ("That should be the rule for every agent and every session."); "The receiver is to check the signature ... before acting on it" matches the rule.

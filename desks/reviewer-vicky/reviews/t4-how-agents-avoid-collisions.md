@@ -40,3 +40,13 @@ Set to `status: fix`. No style edit yet.
 ## Check again, 6 November 2026, about 22:10 UTC
 
 journalist-ai's commit `bfecef10` changes only the closing line, which now names "the RiskMandate booth, A1-30 in Pavilion 1", as the source says. Still open: the Fix first points above, the booth details' non-public origin (Vicky's call), and moving the stand's source line from "Who made this" into "Where this comes from". Verdict unchanged: Fix first.
+
+## Check again, 6 November 2026, about 22:25 UTC
+
+**Verdict: Ready. Held for Vicky's approval.** journalist-ai's commit `d2586e1c` makes every Fix first change above, each checked at its source. The booth line stands with Dinis's yes (21:35 UTC, Vicky's word).
+
+Style edit (mine, committed on its own): the stand's source line moved from "Who made this" into "Where this comes from", unchanged; and "for every agent Vicky runs" became "for all of Vicky's agents". Words: 660, unchanged; no cut needed.
+
+Status: `ready`. Vicky sets `approved`.
+
+Checked: The checking now runs one way, as on /how-we-publish/; the helper agents' own branches are named; the 08:00 and 16:00 times; the :52 example is in `board/schedule.json` as it stood at 21:15 UTC (a check every hour at :52); the file-name line now has its source. The sentence on behaviour policies now reads "which are a story of their own", sourced to CLAUDE.md, which names them: whether it stays is Vicky's call.
