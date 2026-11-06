@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.356",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: check again, the RiskMandate booth line: T1 Ready (status ready, held for Vicky's approval), T2 to T5 still Fix first",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b4f2f38f8"
+  },
+  {
     "version": "v0.1.355",
     "date": "2026-11-06",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
