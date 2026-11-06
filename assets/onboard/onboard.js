@@ -95,7 +95,12 @@ export async function checkMailbox(master, cfg) {
     for (; n < (mine.last_read || 0) + 50; n++) {
         let file; try { file = await NV.readJson(pool, `mailbox/${mine.mailbox}/${n}.json`) } catch (e) { file = null }
         if (!file) break
-        try { out.push(await O.openMailbox(file, { reader, issuers, n })) } catch (e) { out.push({ kind: 'refused', n, reason: String(e && e.message || e) }) }
+        try {
+            const m = await O.openMailbox(file, { reader, issuers, n })
+            // a duplicate draw or a rekey brings a fresh API key: the master keeps the current one
+            if ((m.kind === 'duplicate' || m.kind === 'rekey') && m.body && O.API_KEY.test(String(m.body.api_key))) mine.api_key = m.body.api_key
+            out.push(m)
+        } catch (e) { out.push({ kind: 'refused', n, reason: String(e && e.message || e) }) }
     }
     if (out.length) { mine.last_read = (mine.last_read || 0) + out.length; await NV.writeFile(master, FILE.folder, FILE.name, JSON.stringify(mine)); await NV.publish(master) }
     return out

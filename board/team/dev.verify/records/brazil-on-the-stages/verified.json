@@ -1,0 +1,318 @@
+{
+  "$schema": "none",
+  "article": "brazil-on-the-stages",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/373f91ce-f8c5-4051-98be-853651521f4a/official-opening-ceremony-of-the-brazilian-pavilion/",
+      "status": 200,
+      "read": true,
+      "chars": 1275
+    },
+    {
+      "url": "https://promptugal.news/desks/correspondent/beats/brazil/found/brazil-1.json",
+      "status": 200,
+      "read": true,
+      "chars": 35511
+    }
+  ],
+  "spent_usd": 0.2039,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "A search of Web Summit's public session pages found 27 Brazil-tied speakers.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "\"items\": 31",
+          "note": "S2's own count is 31 items, which lists 27 distinct people (Vahan Agopyan, Amanda Lima and Lu Rodrigues each appear more than once), so 27 can be derived but S2 never states it, and it describes a partial search that may have missed Brazilian speakers."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"officials\": 7, \"journalists\": 2, \"startup_people\": 18",
+          "note": "The JSON breakdown of confirmed Brazil-tied speakers found across the public sessions consists of 7 officials, 2 journalists, and 18 startup personnel, totaling 27 unique speakers."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"officials\": 7, \"journalists\": 2, \"startup_people\": 18",
+          "note": "These confirmed Brazil-tied categories sum to 27, matching the claim."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The 27 Brazil-tied speakers made 31 appearances.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"items\": 31",
+          "note": "S2 lists 31 speaker appearances across 27 distinct people (7 officials, 2 journalists, 18 startup people), though its method missed some Brazilian speakers, so the count is a floor rather than a complete total."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"counts\": { \"items\": 31, \"officials\": 7, \"journalists\": 2, \"startup_people\": 18",
+          "note": "The source tallies 31 total appearance items across 27 distinct Brazil-tied speakers (7 officials, 2 journalists, and 18 startup representatives)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"items\": 31",
+          "note": "S2's items array contains 31 appearances and 27 distinct speaker names."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "Of the Brazil-tied appearances, 7 were officials, 2 were journalists, and 18 were founders or team members.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"officials\": 7, \"journalists\": 2, \"startup_people\": 18",
+          "note": "The S2 report's counts match the claim, but they count distinct people, not the 31 session-listing entries, which repeat some people across sessions (8 official entries, 5 journalist entries, 18 startup entries), and the search was not exhaustive."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "\"items\": 31, \"officials\": 7, \"journalists\": 2, \"startup_people\": 18",
+          "note": "While there were 18 appearances by startup founders or team members, the figures of 7 officials and 2 journalists refer to unique people rather than appearances, which totaled 8 and 5 respectively across 31 items."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"officials\": 7, \"journalists\": 2, \"startup_people\": 18",
+          "note": "S2's counts match the claimed breakdown of Brazil-tied appearances."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The Brazil Pavilion has stand E369 at Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "E369 - Stand events Official Opening Ceremony of the Brazilian Pavilion",
+          "note": "The S1 listing places the Official Opening Ceremony of the Brazilian Pavilion at E369 under Stand events, which supports the claim, though the source ties the place to the ceremony rather than stating the stand number directly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"place\": \"E369\", \"track\": \"Stand events\", \"what_the_listing_says\": \"Connect with technology leaders, innovators, and ecosystem stakeholders at the Brazil Pavilion",
+          "note": "The schedule data confirms that stand events taking place at the Brazil Pavilion are located at stand E369."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "E369 - Stand events Official Opening Ceremony of the Brazilian Pavilion",
+          "note": "The official Web Summit page lists the Brazilian Pavilion opening ceremony at E369 under Stand events."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The Brazil Pavilion runs its own programme from 10 to 12 November, with pitch sessions every morning, panels and happy hours.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Connect with technology leaders, innovators, and ecosystem stakeholders at the Brazil Pavilion",
+          "note": "S2 lists Brazil-pavilion pitch sessions at 10:00 or 11:00 on each of 10, 11 and 12 November, a panel on Startup Internationalization, and happy hours on 10, 11 and 12 November, all at E369 stand events; S1 confirms E369 is the Brazilian Pavilion, though only one panel is named."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "",
+          "note": "S2 lists events at the Brazil Pavilion (stand E369) running 10–12 November, featuring pitch sessions each morning, panels such as 'Panel: Startup Internationalization', and happy hours on all three days."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Pitch session; Panel: Startup Internationalization; Brazil Innovation Happy Hour",
+          "note": "S2 lists pitch sessions on 10, 11, and 12 November, a panel, and happy hours at the Brazil Pavilion (E369)."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "A speaker at Web Summit is listed as Brazil's Deputy Minister of Science, Technology and Innovation.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Deputy Minister of Science, Technology and Innovation (Brazil)",
+          "note": "S2 lists Luis Fernandes with the role 'Deputy Minister of Science, Technology and Innovation' and organisation 'Brazil' for a Web Summit session on 10 November 2026, though this is the correspondent's transcription of the schedule rather than a direct view of the speaker page, and S1 does not mention him."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"role\": \"Deputy Minister of Science, Technology and Innovation\", \"organisation\": \"Brazil\"",
+          "note": "Source S2 documents that speaker Luis Fernandes is listed on the Web Summit schedule with the role of Deputy Minister of Science, Technology and Innovation for Brazil."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Deputy Minister of Science, Technology and Innovation (Brazil)",
+          "note": "S2 lists Luis Fernandes with the role 'Deputy Minister of Science, Technology and Innovation' and organisation 'Brazil'."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "Serpro, the federal data service, is among the Brazilian officials speaking on the main and masterclass stages.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "Hosted by Serpro",
+          "note": "S2 shows Serpro officials speaking at Masterclass 2 and Stage 8, but no source calls either stage the main stage, so the 'main stage' part is unsupported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "\"organisation\": \"SERPRO\", \"why_brazilian\": \"Session hosted by Serpro, described as 'Brazil’s infrastructure' and GOV.BR\", \"kind\": \"official\", \"session_title\": \"Digital sovereignty in action: Brazil’s infrastructure [Hosted by Serpro]\", \"session_url\": \"https://websummit.com/sessions/lis26/708864cd-0e9b-4a98-8d65-b1351b70f07b/digital-sovereignty-in-action-brazil-s-infrastructure-hosted-by-serpro/\", \"day\": \"2026-11-12\", \"time_utc\": \"15:00\", \"stage\": \"Masterclass 2\"",
+          "note": "The source confirms Serpro speakers are classified as Brazilian officials appearing on a masterclass stage, but it does not identify Serpro as the federal data service or place them on a main stage."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "\"organisation\": \"SERPRO\", \"stage\": \"Masterclass 2\"",
+          "note": "S2 lists SERPRO officials on Stage 8 and Masterclass 2, but it does not call Serpro the federal data service or Stage 8 a main stage."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c8",
+      "claim": "São Paulo state and its investment agency have speakers at Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Government of the State of Sao Paulo, Brazil",
+          "note": "S2 lists Vahan Agopyan, Secretary of Science, Technology and Innovation for the São Paulo state government, and Thiago Camargo, Director at InvestSP, as Web Summit speakers, though S2 is a secondhand sub-agent report and S1 names no speakers."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "another session page calls InvestSP 'the state's investment promotion agency' of São Paulo, Brazil",
+          "note": "Source S2 lists speakers from both the Government of the State of São Paulo and its investment promotion agency, InvestSP."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Government of the State of Sao Paulo, Brazil",
+          "note": "S2 lists Vahan Agopyan as a speaker for the Government of the State of Sao Paulo and Thiago Camargo as a speaker for InvestSP."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "Invest Rio has a speaker at Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Invest Rio",
+          "note": "S2 lists Sidney Levy, President of Invest Rio, as a speaker in the Web Summit session \"The new geography of growth\" on 10 November 2026."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"name\": \"Sidney Levy\", \"role\": \"President\", \"organisation\": \"Invest Rio\"",
+          "note": "Invest Rio's president, Sidney Levy, is identified in Web Summit's schedule data as a session speaker."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "\"name\": \"Sidney Levy\", \"role\": \"President\", \"organisation\": \"Invest Rio\"",
+          "note": "S2 lists Sidney Levy as President of Invest Rio with a Web Summit session, so Invest Rio has a speaker at Web Summit."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "All founder or team-member speakers with Brazil ties are in the Startup Showcase, including two of Rio de Janeiro's ten startups.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S2",
+          "quote": "A full pass over the schedule (about 52 pages of 7 a day, four days) was not possible in budget",
+          "note": "S2 lists Startup Showcase founders with Brazil ties but admits it did not read the full schedule or the gated speaker listing, so 'all' cannot be confirmed, and nothing in the sources mentions Rio de Janeiro's ten startups or any Rio startups among those speakers."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "\"startup_people\": 18",
+          "note": "The sources show that all 18 identified startup founder or team-member speakers are in the Startup Showcase track, but they make no mention of Rio de Janeiro having ten startups or two of them participating."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "exaggerated",
+          "source": "S2",
+          "quote": "can be missed",
+          "note": "The source only lists 18 startup people in Startup Showcase and admits a full schedule pass was not possible, so it does not establish that all Brazil-tied founders/team speakers are there, nor does it mention two of Rio de Janeiro's ten startups."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}

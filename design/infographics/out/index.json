@@ -1223,6 +1223,62 @@
     "checked": "every figure and name against the article, by designer@",
     "source": "vault bar9wi87: ai-images/brazil-on-the-stages/google_gemini-3-pro-image--editorial--193515.png"
    }
+  },
+  {
+   "slug": "brazils-startup-house-in-lisbon",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "brazils-startup-house-in-lisbon--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazils-startup-house-in-lisbon/google_gemini-3-pro-image--editorial--203449.png"
+   }
+  },
+  {
+   "slug": "brazils-startup-house-in-lisbon",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "brazils-startup-house-in-lisbon--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazils-startup-house-in-lisbon/google_gemini-3-pro-image--editorial--203449.png"
+   }
+  },
+  {
+   "slug": "brazils-startup-house-in-lisbon",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "brazils-startup-house-in-lisbon--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazils-startup-house-in-lisbon/google_gemini-3-pro-image--editorial--203449.png"
+   }
+  },
+  {
+   "slug": "brazils-startup-house-in-lisbon",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "brazils-startup-house-in-lisbon--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure and name against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazils-startup-house-in-lisbon/google_gemini-3-pro-image--editorial--203449.png"
+   }
   }
  ]
 }

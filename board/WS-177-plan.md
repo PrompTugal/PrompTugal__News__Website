@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 20:52 UTC (site v0.1.341)
+
+- **investors@PrompTugal.dinis** started at 20:02 at Dinis's word; first run done: key, ROLE, a first investor picture and a "For Dinis" decision page (`/newsroom/decisions/promptugal-for-investors/`); inbox issued; abp@ and security@ checked its start.
+- **Hand-over debriefs:** 24 of 27 today; not yet: backup, customers, historian.
+- Brazil project round 2 (BR2, BR4) leads the front page; offline mode keeps the day data; Vicky's desk published /how-we-publish/; ontologist@'s fifth world (the newsroom); security@: S1b fixed, the offline worker post-reviewed, transcripts clean 18:10 to 20:10.
+- Still for Dinis: outreach@'s restart (sgit); the weekly limit; the For Dinis pages.
+- 14 releases since 19:52. Snapshot 20:53. No hold.
+
 ## Wake at 19:52 UTC (site v0.1.327)
 
 - **Hand-over debriefs:** 20 of 26 written today; not yet: backup, customers, dev.portugal, dev.search, dev.verify, historian (no scheduled task).

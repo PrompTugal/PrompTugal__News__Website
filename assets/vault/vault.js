@@ -226,7 +226,7 @@ function drawLocked(note) {
                     h('button', { type: 'button', class: 'btn quiet', id: 'nr-vault-make', disabled: !passkeys, onclick: makePasskey }, 'Make a passkey for this site'))),
             h('li', {}, h('strong', {}, 'Create your vault, once'), h('br'), h('span', { class: 'meta' }, `This browser makes the keys; the vault keeps them, sealed to your passkey. It needs a vault access key, ${accessKeyWords()}.`)),
             h('li', {}, h('strong', {}, 'Update it from each device'), h('br'), h('span', { class: 'meta' }, 'One encrypted file per device; your totals are worked out from them. Open it on another device with the same passkey.'))),
-        h('p', {}, h('button', { type: 'button', class: 'btn quiet', id: 'nr-vault-recover', onclick: () => drawRecover() }, 'I have a recovery code')),
+        h('p', {}, h('button', { type: 'button', class: 'btn quiet', id: 'nr-vault-recover', onclick: () => drawRecover() }, 'I have a recovery code'), ' ', CFG.doorcode ? h('button', { type: 'button', class: 'btn quiet', id: 'nr-vault-code-mode', onclick: () => drawDoorCode() }, CFG.doorcode.button) : null),
         kv([
             ['In this browser only', `${(st.log || []).length} pages · ${money(st.balance)}${savedList().length ? ` · ${savedList().length} saved item(s)` : ''}`],
             ['Vault', 'not open on this device'],
@@ -278,12 +278,12 @@ async function makePasskey() {
     } catch (e) { drawLocked(h('p', { class: 'nr-warn' }, `The passkey was not made: ${err(e)}`)) }
 }
 
-function drawNoDoor(door, prf) {
+function drawNoDoor(door, prf, mode) {
     const access = h('input', { type: 'password', class: 'input', id: 'nr-vault-access', autocomplete: 'off', spellcheck: 'false', placeholder: 'kept in memory, then inside your master vault' })
     const code = h('input', { type: 'text', class: 'input', id: 'nr-vault-code', autocomplete: 'off', placeholder: 'XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XX' })
     const missingSlot = h('div', { id: 'nr-vault-missing-slot' })
     const pilot = h('div', { id: 'nr-vault-pilot' })
-    offerPilotKey(pilot, access)
+    offerPilotKey(pilot, access, mode)
     fill(
         h('p', { class: 'notice', id: 'nr-vault-nodoor' }, `No vault answers to this passkey yet (door ${door.vaultId}, ${prf.path}). Either this is your first device, or your vault was made with another passkey.`),
         h('h3', {}, 'Create your vault'),
@@ -291,7 +291,7 @@ function drawNoDoor(door, prf) {
         h('div', { class: 'field' }, h('label', { for: 'nr-vault-access' }, 'Vault access key'), access, h('span', { class: 'hint' }, `Status: ${accessKeyWords()}. Sent only to ${ENDPOINT}.`)),
         pilot,
         missingSlot,
-        h('p', {}, h('button', { type: 'button', class: 'btn primary', id: 'nr-vault-create', onclick: () => createAccount(door, prf, access.value.trim(), missingSlot) }, 'Create your vault')),
+        h('p', {}, h('button', { type: 'button', class: 'btn primary', id: 'nr-vault-create', onclick: () => createAccount(door, prf, access.value.trim(), missingSlot, mode) }, 'Create your vault')),
         h('h3', {}, 'Another device of an existing vault'),
         h('p', { class: 'meta' }, 'Type the recovery code once: it opens the recovery door, the master comes with its access key, and this passkey gets a door of its own.'),
         h('div', { class: 'field' }, h('label', { for: 'nr-vault-code' }, 'Recovery code'), code),
@@ -329,10 +329,50 @@ function recoveryNotice(shown) {
     return box
 }
 
+/** A door code in place of a passkey (the no-PRF path of vault onboarding): 128 random bits as 26 characters, the same form as
+ *  a recovery code, from which the door is derived exactly as from a passkey's PRF bytes. Made here, shown once in a form a
+ *  password manager offers to save, with an optional download; its last four characters are typed back before it is hidden.
+ *  There is no recovery door in this mode: the code is the way in. The words are data (data/billing/vault.json doorcode). */
+const DOOR_PATH = { path: 'door-secret', credId: '' }
+function drawDoorCode(note) {
+    const W = CFG.doorcode
+    const code = h('input', { type: 'text', class: 'input', id: 'nr-vault-doorcode', autocomplete: 'off', spellcheck: 'false', placeholder: 'XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XX' })
+    fill(note || null, h('h3', {}, W.title), h('p', { class: 'meta' }, W.hint),
+        h('div', { class: 'field' }, h('label', { for: 'nr-vault-doorcode' }, W.open_label), code),
+        h('p', { class: 'nr-acts' }, h('button', { type: 'button', class: 'btn primary', id: 'nr-vault-doorcode-open', onclick: () => enterWithDoorCode(code.value) }, W.open),
+            h('button', { type: 'button', class: 'btn quiet', id: 'nr-vault-doorcode-make', onclick: makeDoorCode }, W.make), h('button', { type: 'button', class: 'btn quiet', onclick: () => drawLocked() }, 'Back')))
+}
+async function enterWithDoorCode(text) {
+    const W = CFG.doorcode, bytes = recoveryBytes(text)
+    if (!bytes) { drawDoorCode(h('p', { class: 'nr-warn', id: 'nr-vault-doorcode-bad' }, W.bad)); return }
+    const door = await doorFrom(bytes)
+    try { await openAll({ door, ...DOOR_PATH }); await afterUnlock() }
+    catch (e) { if (e.code === 'ENOVAULT') drawDoorCode(h('p', { class: 'nr-warn', id: 'nr-vault-doorcode-none' }, W.novault)); else drawDoorCode(h('p', { class: 'nr-warn' }, err(e))) }
+}
+function makeDoorCode() {
+    const W = CFG.doorcode, rc = recoveryCode()
+    const tail = rc.shown.replace(/[^A-Za-z0-9]/g, '').slice(-4).toUpperCase()
+    const typed = h('input', { type: 'text', id: 'nr-vault-doorcode-tail', class: 'input', maxlength: '8', autocomplete: 'off', spellcheck: 'false', 'aria-label': W.ask })
+    const msg = h('p', { class: 'meta', role: 'status' })
+    const user = h('input', { type: 'text', name: 'username', value: 'promptugal.news vault', autocomplete: 'username', readonly: true, hidden: true })
+    const secret = h('input', { type: 'password', name: 'password', id: 'nr-vault-doorcode-shown', value: rc.shown, autocomplete: 'new-password', readonly: true, class: 'input nr-mono' })
+    const href = URL.createObjectURL(new Blob([rc.shown + '\n\n' + W.file + '\n'], { type: 'text/plain' }))
+    fill(h('h3', {}, W.title),
+        h('form', { onsubmit: e => e.preventDefault() }, h('p', {}, h('strong', {}, W.shown)), user, h('div', { class: 'field' }, secret),
+            h('p', { class: 'nr-acts' }, secret && h('a', { class: 'btn quiet', href, download: 'promptugal-vault-key.txt', id: 'nr-vault-doorcode-download' }, W.download))),
+        h('div', { class: 'field' }, h('label', { for: 'nr-vault-doorcode-tail' }, W.ask), typed),
+        h('p', { class: 'nr-acts' }, h('button', { type: 'button', class: 'btn primary', id: 'nr-vault-doorcode-go', onclick: async () => {
+            if (typed.value.replace(/[^A-Za-z0-9]/g, '').toUpperCase() !== tail) { msg.textContent = W.wrong; return }
+            const door = await doorFrom(rc.bytes)
+            try { await openAll({ door, ...DOOR_PATH }); await afterUnlock() }
+            catch (e) { if (e.code === 'ENOVAULT') drawNoDoor(door, DOOR_PATH, 'door-secret'); else msg.textContent = err(e) }
+        } }, W.go)), msg)
+}
+
 /** Vault onboarding (board/spec-vault-onboarding.md): where the site config says it is open, a reader with no access key can
  *  draw a pilot key from the public pool instead of asking for one; their browser makes their keys, opens the licence, and
  *  the access key lands in the field the create step reads. The words are data (data/billing/vault.json onboarding). */
-async function offerPilotKey(slot, access) {
+async function offerPilotKey(slot, access, mode) {
     const W = CFG.onboarding
     if (!W) return
     let ob, cfg
@@ -342,7 +382,7 @@ async function offerPilotKey(slot, access) {
     const btn = h('button', { type: 'button', class: 'btn quiet', id: 'nr-vault-pilot-draw', onclick: async () => {
         btn.disabled = true
         try {
-            const r = await ob.drawKey(cfg, step => { msg.textContent = W[step] || '' })
+            const r = await ob.drawKey(cfg, step => { msg.textContent = W[step] || '' }, mode || 'passkey-prf')
             access.value = r.accessKey; onboardCtx = r.ctx; msg.textContent = W.ready
         } catch (e) { msg.textContent = e && e.code === 'EEMPTY' ? W.empty : W.failed + err(e) } finally { btn.disabled = false }
     } }, W.button)
@@ -350,7 +390,7 @@ async function offerPilotKey(slot, access) {
 }
 
 /** The account in one go: three vaults, the access key in the master, a recovery door, the account file. As newsroom.sgit.ai's createAccount. */
-export async function createAccount(door, prf, token, slot) {
+export async function createAccount(door, prf, token, slot, mode) {
     if (!token) { (slot || body).replaceChildren(missingKeyBox()); return }
     await withBusy('nr-vault-create', async () => {
         const st = h('p', { class: 'meta' }, 'Creating three vaults: six key derivations and three first commits…'); body.prepend(st)
@@ -358,11 +398,11 @@ export async function createAccount(door, prf, token, slot) {
             const sg = await client(token)
             const a = await NV.createAccount({ sgSend: sg, door, record: { kind: 'passkey', path: prf.path, credential_id: prf.credId, device: label || deviceId } })
             await NV.writeFile(a.master, TOKEN_FILE.folder, TOKEN_FILE.name, JSON.stringify({ token }))
-            await NV.writeFile(a.master, '/', 'recovery.json', JSON.stringify({ v: 1, note: 'the recovery code is shown once and kept by the reader; this file records only that one exists', made: new Date().toISOString() }))
+            const byCode = mode === 'door-secret'      // a door code: no recovery door, the code is the way in
+            if (!byCode) await NV.writeFile(a.master, '/', 'recovery.json', JSON.stringify({ v: 1, note: 'the recovery code is shown once and kept by the reader; this file records only that one exists', made: new Date().toISOString() }))
             await NV.publish(a.master)
-            const rc = recoveryCode()
-            const rdoor = await doorFrom(rc.bytes)
-            const added = await NV.addDoor({ sgSend: sg, master: a.master, door: rdoor, record: { kind: 'recovery', device: label || deviceId } })
+            const rc = byCode ? null : recoveryCode()
+            const added = byCode ? { doors: a.doors } : await NV.addDoor({ sgSend: sg, master: a.master, door: await doorFrom(rc.bytes), record: { kind: 'recovery', device: label || deviceId } })
             await NV.writeFile(a.reader, '/activity', 'account.json', JSON.stringify(S.accountFile(MCFG, deviceId), null, 1))
             await NV.publish(a.reader)
             state.vaults = { door: a.door, master: a.master, reader: a.reader, doors: added.doors || a.doors, record: a.record, token }
@@ -373,7 +413,7 @@ export async function createAccount(door, prf, token, slot) {
                 onboardCtx = null
             }
             session.set({ door, path: prf.path, credId: prf.credId, token }); status()
-            await drawUnlocked(h('div', {}, recoveryNotice(rc.shown), claimNote))
+            await drawUnlocked(h('div', {}, rc ? recoveryNotice(rc.shown) : null, claimNote))
         } catch (e) { st.replaceWith(h('p', { class: 'nr-warn' }, e.code === 'EEXISTS' ? 'A vault already exists at this door: sign in again to open it.' : /401|403|access token/i.test(String(e && e.message)) ? `The vault server refused that access key (${err(e)}). Nothing was created.` : err(e))) }
     })
 }
@@ -399,16 +439,29 @@ async function joinWithCode(codeText, door, prf) {
 }
 
 /** After a sign-in: bring in what the vault holds that this browser does not, so the meter shows the whole account at once. */
+/** The issuer's messages, in the pane: the welcome carries its own text (signed by the pinned issuer, shown as plain text); the
+ *  others have words in data (data/billing/vault.json onboarding.mail). */
+function showMail(got) {
+    const M = (CFG.onboarding && CFG.onboarding.mail) || {}
+    const items = got.map(m => h('li', {}, m.kind === 'welcome' && m.body && typeof m.body.text === 'string' ? m.body.text.slice(0, 400) : (M[m.kind] || M.notice || '')))
+    body.prepend(h('ul', { class: 'notice nr-mail', id: 'nr-vault-mail' }, items))
+}
+
 async function afterUnlock(note) {
     const v = state.vaults
-    // the issuer's messages for a vault made through onboarding (the mailbox), best effort and silent when there are none
-    OB().then(async m => { const cfg = await m.loadConfig(); if (!m.isOpen(cfg) || !v.master) return; const got = await m.checkMailbox(v.master, cfg); if (got.length) window.dispatchEvent(new CustomEvent('pt:mailbox', { detail: got })) }).catch(() => { })
-    if (!v.reader) return drawUnlocked(note)
+    // the issuer's messages for a vault made through onboarding (the mailbox): best effort, at most 8 seconds, silent when none
+    let mail = []
+    try {
+        mail = await Promise.race([OB().then(async m => { const cfg = await m.loadConfig(); return !m.isOpen(cfg) || !v.master ? [] : m.checkMailbox(v.master, cfg) }), new Promise(r => setTimeout(() => r([]), 8000))])
+    } catch (e) { mail = [] }
+    if (mail.length) window.dispatchEvent(new CustomEvent('pt:mailbox', { detail: mail }))
+    const draw = async () => { await drawUnlocked(note); if (mail.length) showMail(mail) }
+    if (!v.reader) return draw()
     fill(note || null, h('p', { class: 'meta' }, 'Reading your devices’ files…'))
     let c = null
     try { try { await v.reader.pull() } catch (e) { /* fine */ } c = await readAll() } catch (e) { c = null }
     if (c && S.inbound(c, readState() || emptyState(), deviceId).any) return merge()
-    return drawUnlocked(note)
+    return draw()
 }
 
 async function drawUnlocked(note) {
