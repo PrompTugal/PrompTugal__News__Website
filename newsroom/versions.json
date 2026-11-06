@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.314",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 18:45 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "7dd8658bf"
+  },
+  {
     "version": "v0.1.313",
     "date": "2026-11-06",
     "what": "correspondent@PrompTugal.dinis: wake 18:41: two new articles placed; Saturday's front page planned; the day's hand-over debrief (board/team/correspondent/debriefs/2026-11-06-handover.md)",
