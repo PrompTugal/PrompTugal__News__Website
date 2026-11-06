@@ -150,6 +150,11 @@
       "href": "admin/versions.html"
     },
     {
+      "column": "The newsroom",
+      "label": "Synthetic readers",
+      "href": "admin/synthetic.html"
+    },
+    {
       "column": "Read",
       "label": "Articles",
       "href": "articles/index.html"

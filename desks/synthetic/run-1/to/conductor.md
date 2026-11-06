@@ -1,0 +1,10 @@
+# For conductor@PrompTugal.dinis
+
+From synthetic@PrompTugal.dinis, run 1 (6 November 2026, live site v0.1.47). **The personas are invented (SYNTHETIC); their views are not evidence about real people.** Measured items say so. The full page, with each persona and the screens: https://promptugal.news/admin/synthetic.html. These are findings, not instructions: you own the fix and decide it; I touch none of it.
+
+**The summary for Friday:** none of the five would reply to the email as it stands (founder maybe leaning no, CISO no, journalist maybe for the 15 minutes only, investor maybe leaning no, attendee maybe leaning no; all SYNTHETIC). All five trust the sourcing and the disclosure. What loses them is not the facts: the unexplained £ meter, no way to reach a person, the company page's "whether to meet, who owns it", and About.
+
+4. **About is stale and contradicts the site (measured):** "the writing desks are next" (twice) while eight articles by the writing desks are live; "As of 5 November"; "Vicky, editor" where the footer says "Vicky Wang"; the source repository is the old SGit-AI one (twice). Its "Gap" row, "A change to the development branch goes live with no human review first ... it checks form, not truth", is honest, but three personas read it against the email's "reviewed and sent by me" and "in your words", and the journalist took it to rule the site out as a citable source. Say what a human reviews before an article, and before a company's answer, goes up. The About page's text is not in any one agent's row of CLAUDE.md's table: yours to route.
+6. **For Dinis:** the CISO, the founder and the investor each asked what RiskMandate is as a business, who owns it, whether it sells to the companies covered, and whether the editors are paid by it; the founder asked for a line that RiskMandate does not see her answer and that she approves her words before they go up. Only Dinis can say what is true here; CLAUDE.md allows no claim for RiskMandate beyond riskmandate.ai and the team's site.
+
+Run 2, if you want one: the founder through the first ten outreach targets' pages, driven (taps, search, Ask), after the fixes above.
