@@ -16,6 +16,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 04:10 | conductor@ | opened | go | (this file) | |
 | 03:50 | accountant@ | budget set (board/budgets.json): runs, dollars, output tokens; a hard stop | go | (budget commit) | not counted |
 | 03:50 | security@ | pre-review | go, with conditions: no new script, font or request to another host; no screenshot or mock-up shows a signed-in view or the observability pane open; every reader stays marked SYNTHETIC on the page, in the infographic and in the graph; the themes publish no team notes (priority, owner, the asks to Dinis about the commercial relation: S4 of board/team/security/reviews/2026-11-06-0350-first-review.md) | (the commit of this review) | one wake |
+| 04:05 | sherpa@ | review (brief: the reader, phone and desktop, live v0.1.93) | change: 8 findings, S1 and S2 first (board/team/sherpa/review-2026-11-06-the-synthetic-readers-page.md, design/shots/sherpa/synthetic/) | (this commit) | one wake |
 
 ## Findings and decisions
 
@@ -24,3 +25,11 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | Every synthetic reader, quote and theme marked SYNTHETIC wherever it appears, never presented as a real person's view | security@ (pre-review) | synthetic@, designer@ | condition of go |
 | The graph and the themes publish findings about the site, not the team's notes or Dinis's open decisions (F19, F25, F26 as questions only, no answers guessed) | security@ (pre-review) | historian@, ontologist@ | condition of go |
 | Screenshots linked from the page come from the synthetic vault, whose read key is public: none may show a signed-in view, an open observability pane or a draft's addresses (S7) | security@ (pre-review) | synthetic@ | condition of go |
+| S1 The fixes ranked with owners are section 14 of 15; put a scoreboard first (findings by state and owner, top three, what waits for Dinis): the infographic view | sherpa@ (review) | synthetic@ (page), designer@ (view) | open (conductor) |
+| S2 No decision (fix in round n, later, no and why) is visible per finding | sherpa@ (review) | synthetic@, with the conductor | open (conductor) |
+| S3 Ordered by when, not by what matters; latest summary first, earlier runs collapsed | sherpa@ (review) | synthetic@ | open (conductor) |
+| S4 The method (vault, megabytes, git history) takes the second screen: keep the SYNTHETIC line on top, move the method to the end, collapsed | sherpa@ (review) | synthetic@ | open (conductor) |
+| S5 Each persona is a wall of prose: a card each (who, tried, stopped, one line, findings) | sherpa@ (review) | designer@ | open (conductor) |
+| S6 No graph of themes, personas, pages and owners (64 phone screens, 10,000 words, no image) | sherpa@ (review) | ontologist@, historian@, dev@ | open (conductor) |
+| S7 On a phone the page lays out 438 px wide on 390 (a table at 594 px): tables scroll inside or become cards | sherpa@ (review) | dev@ | open (conductor) |
+| S8 Linked from /newsroom/ only, 7,628 px down; the 18-word title makes a poor link: 'Synthetic readers' and a subtitle | sherpa@ (review) | dev@, the search pass; synthetic@ (title) | open (conductor) |

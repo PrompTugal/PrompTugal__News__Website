@@ -1,0 +1,5806 @@
+{
+ "phone:home": {
+  "vw": 390,
+  "vh": 664,
+  "scrollW": 390,
+  "title": "What is on at Web Summit Lisbon 2026 · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 182,
+   "h": 149
+  },
+  "h1": {
+   "top": 259,
+   "bottom": 260,
+   "h": 1
+  },
+  "h1text": "What is on at Web Summit Lisbon 2026",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": false,
+    "y": 0
+   },
+   {
+    "t": "The newsroom four days out, in",
+    "vis": true,
+    "y": 3807
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 8022
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 8049
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 8075
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 8102
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 8129
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 8406
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 8406
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 8445
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "newsroom/versions.html#v0.1.93",
+    "x": 322,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "index.html",
+    "x": 70,
+    "y": 47,
+    "w": 250,
+    "h": 41
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "riskmandate/index.html",
+    "x": 106,
+    "y": 142,
+    "w": 177,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "index.html",
+    "x": 16,
+    "y": 182,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "events/index.html",
+    "x": 68,
+    "y": 182,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "articles/index.html",
+    "x": 144,
+    "y": 182,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "companies/index.html",
+    "x": 203,
+    "y": 182,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "people/index.html",
+    "x": 303,
+    "y": 182,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "portugal/index.html",
+    "x": 375,
+    "y": 182,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "graph/index.html",
+    "x": 466,
+    "y": 182,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "about/index.html",
+    "x": 563,
+    "y": 182,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "",
+    "href": null,
+    "x": 164,
+    "y": 188,
+    "w": 34,
+    "h": 34
+   },
+   {
+    "t": "Search",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 204,
+    "y": 188,
+    "w": 36,
+    "h": 34
+   },
+   {
+    "t": "£5.00",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 246,
+    "y": 188,
+    "w": 58,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 309,
+    "y": 188,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "the companies",
+    "href": "companies/index.html",
+    "x": 65,
+    "y": 373,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "t": "Portugal",
+    "href": "portugal/index.html",
+    "x": 168,
+    "y": 373,
+    "w": 55,
+    "h": 19
+   },
+   {
+    "t": "the graph",
+    "href": "graph/index.html",
+    "x": 242,
+    "y": 373,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "t": "Brazil's startup mission comes to Web Su",
+    "href": "articles/brazil-startup-mission.html",
+    "x": 16,
+    "y": 460,
+    "w": 335,
+    "h": 56
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 290,
+    "y": 602,
+    "w": 86,
+    "h": 48
+   }
+  ],
+  "smallTargets": 4,
+  "status": 200,
+  "path": "/"
+ },
+ "phone:article": {
+  "vw": 591,
+  "vh": 1007,
+  "scrollW": 591,
+  "title": "Brazil's startup mission comes to Web Summit Lisbon · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 166,
+   "h": 134
+  },
+  "h1": {
+   "top": 282,
+   "bottom": 381,
+   "h": 99
+  },
+  "h1text": "Brazil's startup mission comes to Web Summit Lisbon",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": false,
+    "y": 0
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 6584
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 6611
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 6638
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 6664
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 6691
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 6969
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 6969
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 7007
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 322,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 75,
+    "y": 43,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 108,
+    "y": 130,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 16,
+    "y": 167,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 68,
+    "y": 167,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 144,
+    "y": 167,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 203,
+    "y": 167,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 303,
+    "y": 167,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 375,
+    "y": 167,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 466,
+    "y": 167,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 563,
+    "y": 167,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "",
+    "href": null,
+    "x": 164,
+    "y": 172,
+    "w": 34,
+    "h": 34
+   },
+   {
+    "t": "Search",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 204,
+    "y": 172,
+    "w": 36,
+    "h": 34
+   },
+   {
+    "t": "£4.99",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 246,
+    "y": 172,
+    "w": 58,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 309,
+    "y": 172,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 16,
+    "y": 235,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "Articles",
+    "href": "../articles/index.html",
+    "x": 60,
+    "y": 235,
+    "w": 43,
+    "h": 16
+   },
+   {
+    "t": "In short",
+    "href": "#in-short",
+    "x": 36,
+    "y": 587,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "t": "The story",
+    "href": "#the-story",
+    "x": 36,
+    "y": 612,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "t": "What this does not claim",
+    "href": "#what-this-does-not-claim",
+    "x": 36,
+    "y": 636,
+    "w": 165,
+    "h": 19
+   },
+   {
+    "t": "Where this comes from",
+    "href": "#where-this-comes-from",
+    "x": 36,
+    "y": 661,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "t": "Who made this",
+    "href": "#who-made-this",
+    "x": 36,
+    "y": 686,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "t": "CC BY 4.0",
+    "href": "https://creativecommons.org/licenses/by/4.0/",
+    "x": 109,
+    "y": 772,
+    "w": 75,
+    "h": 18
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 491,
+    "y": 945,
+    "w": 86,
+    "h": 48
+   }
+  ],
+  "smallTargets": 9,
+  "status": 200,
+  "path": "/articles/brazil-startup-mission.html"
+ },
+ "phone:company": {
+  "vw": 390,
+  "vh": 664,
+  "scrollW": 390,
+  "title": "Feedzai · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 166,
+   "h": 134
+  },
+  "h1": {
+   "top": 265,
+   "bottom": 298,
+   "h": 33
+  },
+  "h1text": "Feedzai",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": false,
+    "y": 0
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 5174
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 5201
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 5228
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 5255
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 5281
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 5559
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 5559
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 5597
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../../newsroom/versions.html#v0.1.93",
+    "x": 322,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../../index.html",
+    "x": 75,
+    "y": 43,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../../riskmandate/index.html",
+    "x": 108,
+    "y": 130,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../../index.html",
+    "x": 16,
+    "y": 167,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../../events/index.html",
+    "x": 68,
+    "y": 167,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../../articles/index.html",
+    "x": 144,
+    "y": 167,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../../companies/index.html",
+    "x": 203,
+    "y": 167,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../../people/index.html",
+    "x": 303,
+    "y": 167,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../../portugal/index.html",
+    "x": 375,
+    "y": 167,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../../graph/index.html",
+    "x": 466,
+    "y": 167,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../../about/index.html",
+    "x": 563,
+    "y": 167,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "",
+    "href": null,
+    "x": 164,
+    "y": 172,
+    "w": 34,
+    "h": 34
+   },
+   {
+    "t": "Search",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 204,
+    "y": 172,
+    "w": 36,
+    "h": 34
+   },
+   {
+    "t": "£4.98",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 246,
+    "y": 172,
+    "w": 58,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 309,
+    "y": 172,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../../index.html",
+    "x": 16,
+    "y": 235,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "Companies",
+    "href": "../../companies/index.html",
+    "x": 60,
+    "y": 235,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "t": "",
+    "href": "#summit",
+    "x": 16,
+    "y": 441,
+    "w": 95,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#people",
+    "x": 129,
+    "y": 441,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#related",
+    "x": 193,
+    "y": 441,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#flows",
+    "x": 16,
+    "y": 464,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#question",
+    "x": 16,
+    "y": 488,
+    "w": 148,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#sources",
+    "x": 182,
+    "y": 488,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#about",
+    "x": 16,
+    "y": 512,
+    "w": 164,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "../../events/who-let-the-agent-in/index.html",
+    "x": 155,
+    "y": 485,
+    "w": 80,
+    "h": 27
+   },
+   {
+    "t": "",
+    "href": "../../people/diogo-guerra/index.html",
+    "x": 170,
+    "y": 529,
+    "w": 50,
+    "h": 28
+   },
+   {
+    "t": "",
+    "href": "../../topics/security/index.html",
+    "x": 90,
+    "y": 618,
+    "w": 32,
+    "h": 27
+   },
+   {
+    "t": "",
+    "href": "../../places/portugal/index.html",
+    "x": 268,
+    "y": 618,
+    "w": 33,
+    "h": 27
+   },
+   {
+    "t": "",
+    "href": "../../companies/austriacard/index.html",
+    "x": 30,
+    "y": 662,
+    "w": 45,
+    "h": 28
+   },
+   {
+    "t": "",
+    "href": "../../companies/cloudflare/index.html",
+    "x": 98,
+    "y": 662,
+    "w": 52,
+    "h": 28
+   },
+   {
+    "t": "",
+    "href": "../../companies/persona/index.html",
+    "x": 169,
+    "y": 662,
+    "w": 52,
+    "h": 28
+   },
+   {
+    "t": "",
+    "href": "../../companies/sumsub/index.html",
+    "x": 238,
+    "y": 662,
+    "w": 56,
+    "h": 28
+   },
+   {
+    "t": "",
+    "href": "../../companies/the-hacking-games/index.html",
+    "x": 304,
+    "y": 662,
+    "w": 67,
+    "h": 28
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 290,
+    "y": 602,
+    "w": 86,
+    "h": 48
+   }
+  ],
+  "smallTargets": 10,
+  "status": 200,
+  "path": "/companies/feedzai/"
+ },
+ "phone:events": {
+  "vw": 390,
+  "vh": 664,
+  "scrollW": 390,
+  "title": "Events · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 166,
+   "h": 134
+  },
+  "h1": {
+   "top": 265,
+   "bottom": 298,
+   "h": 33
+  },
+  "h1text": "Events",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "Night Summit: speed networking",
+    "x": 82,
+    "y": 8445
+   },
+   {
+    "t": "Night Summit: speed networking",
+    "x": 82,
+    "y": 13301
+   },
+   {
+    "t": "Pricing SaaS when users are ag",
+    "x": 82,
+    "y": 17251
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": false,
+    "y": 0
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 24056
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 24083
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 24110
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 24136
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 24163
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 24441
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 24441
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 24479
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 322,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 75,
+    "y": 43,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 108,
+    "y": 130,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 16,
+    "y": 167,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 68,
+    "y": 167,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 144,
+    "y": 167,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 203,
+    "y": 167,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 303,
+    "y": 167,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 375,
+    "y": 167,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 466,
+    "y": 167,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 563,
+    "y": 167,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "",
+    "href": null,
+    "x": 164,
+    "y": 172,
+    "w": 34,
+    "h": 34
+   },
+   {
+    "t": "Search",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 204,
+    "y": 172,
+    "w": 36,
+    "h": 34
+   },
+   {
+    "t": "£4.98",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 246,
+    "y": 172,
+    "w": 58,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 309,
+    "y": 172,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 16,
+    "y": 235,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "The official programme",
+    "href": "#web-summit",
+    "x": 16,
+    "y": 474,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "t": "Other events",
+    "href": "#other",
+    "x": 190,
+    "y": 474,
+    "w": 86,
+    "h": 19
+   },
+   {
+    "t": "Past editions",
+    "href": "#past",
+    "x": 16,
+    "y": 497,
+    "w": 87,
+    "h": 19
+   },
+   {
+    "t": "Web Summit",
+    "href": "../organisations/web-summit/index.html",
+    "x": 205,
+    "y": 552,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 290,
+    "y": 602,
+    "w": 86,
+    "h": 48
+   }
+  ],
+  "smallTargets": 6,
+  "status": 200,
+  "path": "/events/"
+ },
+ "phone:agenda": {
+  "vw": 390,
+  "vh": 664,
+  "scrollW": 390,
+  "title": "The agenda, day by day · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 166,
+   "h": 134
+  },
+  "h1": {
+   "top": 265,
+   "bottom": 298,
+   "h": 33
+  },
+  "h1text": "The agenda, day by day",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "Night Summit: speed networking",
+    "x": 75,
+    "y": 20301
+   },
+   {
+    "t": "Night Summit: speed networking",
+    "x": 75,
+    "y": 33892
+   },
+   {
+    "t": "Pricing SaaS when users are ag",
+    "x": 75,
+    "y": 44609
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": false,
+    "y": 0
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 48366
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 48393
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 48420
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 48446
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 48473
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 48751
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 48751
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 48789
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 322,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 75,
+    "y": 43,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 108,
+    "y": 130,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 16,
+    "y": 167,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 68,
+    "y": 167,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 144,
+    "y": 167,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 203,
+    "y": 167,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 303,
+    "y": 167,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 375,
+    "y": 167,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 466,
+    "y": 167,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 563,
+    "y": 167,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "",
+    "href": null,
+    "x": 164,
+    "y": 172,
+    "w": 34,
+    "h": 34
+   },
+   {
+    "t": "Search",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 204,
+    "y": 172,
+    "w": 36,
+    "h": 34
+   },
+   {
+    "t": "£4.98",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 246,
+    "y": 172,
+    "w": 58,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 309,
+    "y": 172,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 16,
+    "y": 235,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "The summit",
+    "href": "../summit/index.html",
+    "x": 60,
+    "y": 235,
+    "w": 67,
+    "h": 16
+   },
+   {
+    "t": "",
+    "href": "#d-2026-11-05",
+    "x": 36,
+    "y": 498,
+    "w": 191,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#d-2026-11-06",
+    "x": 36,
+    "y": 522,
+    "w": 179,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#d-2026-11-07",
+    "x": 36,
+    "y": 547,
+    "w": 146,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#d-2026-11-08",
+    "x": 36,
+    "y": 572,
+    "w": 136,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#d-2026-11-09",
+    "x": 36,
+    "y": 597,
+    "w": 139,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#d-2026-11-10",
+    "x": 36,
+    "y": 621,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#d-2026-11-11",
+    "x": 36,
+    "y": 646,
+    "w": 173,
+    "h": 19
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 290,
+    "y": 602,
+    "w": 86,
+    "h": 48
+   }
+  ],
+  "smallTargets": 10,
+  "status": 200,
+  "path": "/summit/agenda.html"
+ },
+ "phone:about": {
+  "vw": 390,
+  "vh": 664,
+  "scrollW": 390,
+  "title": "About PrompTugal.news · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 166,
+   "h": 134
+  },
+  "h1": {
+   "top": 265,
+   "bottom": 298,
+   "h": 33
+  },
+  "h1text": "About PrompTugal.news",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": false,
+    "y": 0
+   },
+   {
+    "t": "newsroom.sgit.ai",
+    "vis": true,
+    "y": 2508
+   },
+   {
+    "t": "php.oct.2026.newsroom.sgit.ai",
+    "vis": true,
+    "y": 2508
+   },
+   {
+    "t": "pt.newsroom.sgit.ai",
+    "vis": true,
+    "y": 2536
+   },
+   {
+    "t": "why we do it this way",
+    "vis": true,
+    "y": 3048
+   },
+   {
+    "t": "the release history",
+    "vis": true,
+    "y": 3390
+   },
+   {
+    "t": "the release history",
+    "vis": true,
+    "y": 4047
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 5882
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 5908
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 5935
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 5962
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 5989
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 6266
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 6266
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 6305
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 322,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 75,
+    "y": 43,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 108,
+    "y": 130,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 16,
+    "y": 167,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 68,
+    "y": 167,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 144,
+    "y": 167,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 203,
+    "y": 167,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 303,
+    "y": 167,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 375,
+    "y": 167,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 466,
+    "y": 167,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 563,
+    "y": 167,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "",
+    "href": null,
+    "x": 164,
+    "y": 172,
+    "w": 34,
+    "h": 34
+   },
+   {
+    "t": "Search",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 204,
+    "y": 172,
+    "w": 36,
+    "h": 34
+   },
+   {
+    "t": "£4.98",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 246,
+    "y": 172,
+    "w": 58,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 309,
+    "y": 172,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 16,
+    "y": 235,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "",
+    "href": "#independent",
+    "x": 36,
+    "y": 417,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#editors",
+    "x": 36,
+    "y": 441,
+    "w": 76,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#who",
+    "x": 36,
+    "y": 466,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#rules",
+    "x": 36,
+    "y": 491,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#how",
+    "x": 36,
+    "y": 516,
+    "w": 107,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#read",
+    "x": 36,
+    "y": 540,
+    "w": 177,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#what-exists",
+    "x": 36,
+    "y": 565,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "#reach-mandate-gap",
+    "x": 36,
+    "y": 590,
+    "w": 150,
+    "h": 19
+   },
+   {
+    "t": "the brief pack",
+    "href": "../brief/index.html",
+    "x": 16,
+    "y": 625,
+    "w": 315,
+    "h": 46
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 290,
+    "y": 602,
+    "w": 86,
+    "h": 48
+   }
+  ],
+  "smallTargets": 10,
+  "status": 200,
+  "path": "/about/"
+ },
+ "phone:newsroom": {
+  "vw": 390,
+  "vh": 664,
+  "scrollW": 390,
+  "title": "The newsroom · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 166,
+   "h": 134
+  },
+  "h1": {
+   "top": 313,
+   "bottom": 346,
+   "h": 33
+  },
+  "h1text": "The newsroom",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": false,
+    "y": 0
+   },
+   {
+    "t": "THE NEWSROOM",
+    "vis": true,
+    "y": 235
+   },
+   {
+    "t": "newsroom@dinis",
+    "vis": true,
+    "y": 3992
+   },
+   {
+    "t": "WS-145",
+    "vis": true,
+    "y": 5381
+   },
+   {
+    "t": "api/v1/newsroom/status.json",
+    "vis": true,
+    "y": 7925
+   },
+   {
+    "t": "index.md",
+    "vis": true,
+    "y": 8121
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 8767
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 8794
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 8820
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 8847
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 8874
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 9151
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 9151
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 9190
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 322,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 75,
+    "y": 43,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 108,
+    "y": 130,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 16,
+    "y": 167,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 68,
+    "y": 167,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 144,
+    "y": 167,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 203,
+    "y": 167,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 303,
+    "y": 167,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 375,
+    "y": 167,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 466,
+    "y": 167,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 563,
+    "y": 167,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "",
+    "href": null,
+    "x": 164,
+    "y": 172,
+    "w": 34,
+    "h": 34
+   },
+   {
+    "t": "Search",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 204,
+    "y": 172,
+    "w": 36,
+    "h": 34
+   },
+   {
+    "t": "£4.98",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 246,
+    "y": 172,
+    "w": 58,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 309,
+    "y": 172,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "THE NEWSROOM",
+    "href": "../newsroom/index.html",
+    "x": 16,
+    "y": 235,
+    "w": 95,
+    "h": 15
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 16,
+    "y": 283,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "OVERVIEW",
+    "href": "index.html",
+    "x": 16,
+    "y": 486,
+    "w": 70,
+    "h": 33
+   },
+   {
+    "t": "RUNS",
+    "href": "runs/index.html",
+    "x": 104,
+    "y": 486,
+    "w": 36,
+    "h": 33
+   },
+   {
+    "t": "DESKS",
+    "href": "desks/index.html",
+    "x": 158,
+    "y": 486,
+    "w": 43,
+    "h": 33
+   },
+   {
+    "t": "QUALITY",
+    "href": "quality/index.html",
+    "x": 219,
+    "y": 486,
+    "w": 57,
+    "h": 33
+   },
+   {
+    "t": "AGENTS",
+    "href": "agents/index.html",
+    "x": 294,
+    "y": 486,
+    "w": 52,
+    "h": 33
+   },
+   {
+    "t": "TIMELINE",
+    "href": "timeline/index.html",
+    "x": 364,
+    "y": 486,
+    "w": 64,
+    "h": 33
+   },
+   {
+    "t": "DATA",
+    "href": "data/index.html",
+    "x": 446,
+    "y": 486,
+    "w": 33,
+    "h": 33
+   },
+   {
+    "t": "WORKFLOWS",
+    "href": "workflows/index.html",
+    "x": 497,
+    "y": 486,
+    "w": 84,
+    "h": 33
+   },
+   {
+    "t": "LAB",
+    "href": "lab/index.html",
+    "x": 599,
+    "y": 486,
+    "w": 25,
+    "h": 33
+   },
+   {
+    "t": "OBSERVABILITY",
+    "href": "observability/index.html",
+    "x": 643,
+    "y": 486,
+    "w": 105,
+    "h": 33
+   },
+   {
+    "t": "RELEASES",
+    "href": "versions.html",
+    "x": 766,
+    "y": 486,
+    "w": 66,
+    "h": 33
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 290,
+    "y": 602,
+    "w": 86,
+    "h": 48
+   }
+  ],
+  "smallTargets": 3,
+  "status": 200,
+  "path": "/newsroom/"
+ },
+ "phone:synthetic": {
+  "vw": 438,
+  "vh": 746,
+  "scrollW": 438,
+  "title": "Synthetic readers: invented people read PrompTugal.news before Friday's outreach (runs 1 to 5) · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 166,
+   "h": 134
+  },
+  "h1": {
+   "top": 330,
+   "bottom": 495,
+   "h": 164
+  },
+  "h1text": "Synthetic readers: invented people read PrompTugal.news before Friday's outreach (runs 1 t",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": false,
+    "y": 0
+   },
+   {
+    "t": "THE NEWSROOM",
+    "vis": true,
+    "y": 235
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 283
+   },
+   {
+    "t": "synthetic.md",
+    "vis": true,
+    "y": 46353
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 46998
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 47025
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 47052
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 47078
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 47105
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 47383
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 47383
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 47421
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 322,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 75,
+    "y": 43,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 108,
+    "y": 130,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 16,
+    "y": 167,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 68,
+    "y": 167,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 144,
+    "y": 167,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 203,
+    "y": 167,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 303,
+    "y": 167,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 375,
+    "y": 167,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 466,
+    "y": 167,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 563,
+    "y": 167,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "",
+    "href": null,
+    "x": 164,
+    "y": 172,
+    "w": 34,
+    "h": 34
+   },
+   {
+    "t": "Search",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 204,
+    "y": 172,
+    "w": 36,
+    "h": 34
+   },
+   {
+    "t": "£4.98",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 246,
+    "y": 172,
+    "w": 58,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 309,
+    "y": 172,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "THE NEWSROOM",
+    "href": "../newsroom/index.html",
+    "x": 16,
+    "y": 235,
+    "w": 95,
+    "h": 15
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 16,
+    "y": 283,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "Newsroom",
+    "href": "../newsroom/index.html",
+    "x": 60,
+    "y": 283,
+    "w": 61,
+    "h": 16
+   },
+   {
+    "t": "",
+    "href": "#how-this-works-now-from-6-november-about-04-00-utc",
+    "x": 36,
+    "y": 722,
+    "w": 306,
+    "h": 41
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 338,
+    "y": 684,
+    "w": 86,
+    "h": 48
+   }
+  ],
+  "smallTargets": 4,
+  "status": 200,
+  "path": "/newsroom/synthetic.html"
+ },
+ "phone:login": {
+  "vw": 390,
+  "vh": 664,
+  "scrollW": 390,
+  "title": "Sign in · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 166,
+   "h": 134
+  },
+  "h1": {
+   "top": 265,
+   "bottom": 298,
+   "h": 33
+  },
+  "h1text": "Sign in",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": false,
+    "y": 0
+   },
+   {
+    "t": "Observability",
+    "vis": true,
+    "y": 1868
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 3243
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 3270
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 3297
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 3324
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 3350
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 3628
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 3628
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 3666
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 322,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 75,
+    "y": 43,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 108,
+    "y": 130,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 16,
+    "y": 167,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 68,
+    "y": 167,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 144,
+    "y": 167,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 203,
+    "y": 167,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 303,
+    "y": 167,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 375,
+    "y": 167,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 466,
+    "y": 167,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 563,
+    "y": 167,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "",
+    "href": null,
+    "x": 164,
+    "y": 172,
+    "w": 34,
+    "h": 34
+   },
+   {
+    "t": "Search",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 204,
+    "y": 172,
+    "w": 36,
+    "h": 34
+   },
+   {
+    "t": "£4.98",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 246,
+    "y": 172,
+    "w": 58,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 309,
+    "y": 172,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 16,
+    "y": 235,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "Scan it with the camera",
+    "href": null,
+    "x": 16,
+    "y": 601,
+    "w": 200,
+    "h": 46
+   },
+   {
+    "t": "Choose a picture of it",
+    "href": null,
+    "x": 16,
+    "y": 655,
+    "w": 187,
+    "h": 46
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 290,
+    "y": 602,
+    "w": 86,
+    "h": 48
+   }
+  ],
+  "smallTargets": 2,
+  "status": 200,
+  "path": "/login/"
+ },
+ "desktop:home": {
+  "vw": 1440,
+  "vh": 900,
+  "scrollW": 1440,
+  "title": "What is on at Web Summit Lisbon 2026 · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 248,
+   "h": 215
+  },
+  "h1": {
+   "top": 325,
+   "bottom": 326,
+   "h": 1
+  },
+  "h1text": "What is on at Web Summit Lisbon 2026",
+  "mastText": "EVERY FACT SOURCED | Each one links to a public page, with the date we read it. | INDEPENDENT | Not affiliated with Web Summit. The same team works on RiskMandate: our disclosure | TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "£5.00\n credit",
+    "x": 1055,
+    "y": 254
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "The newsroom four days out, in",
+    "vis": true,
+    "y": 1637
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 4252
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 4278
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 4305
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 4332
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 4359
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 4625
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 4625
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 4625
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "newsroom/versions.html#v0.1.93",
+    "x": 866,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "Newsroom",
+    "href": "newsroom/index.html",
+    "x": 1179,
+    "y": 10,
+    "w": 59,
+    "h": 15
+   },
+   {
+    "t": "Sign in",
+    "href": "login/index.html",
+    "x": 1259,
+    "y": 10,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "t": "our disclosure",
+    "href": "about/participant.html",
+    "x": 1115,
+    "y": 146,
+    "w": 146,
+    "h": 32
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "index.html",
+    "x": 380,
+    "y": 53,
+    "w": 680,
+    "h": 111
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "riskmandate/index.html",
+    "x": 631,
+    "y": 206,
+    "w": 177,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "index.html",
+    "x": 144,
+    "y": 248,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "events/index.html",
+    "x": 196,
+    "y": 248,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "articles/index.html",
+    "x": 272,
+    "y": 248,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "companies/index.html",
+    "x": 331,
+    "y": 248,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "people/index.html",
+    "x": 431,
+    "y": 248,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "portugal/index.html",
+    "x": 503,
+    "y": 248,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "graph/index.html",
+    "x": 594,
+    "y": 248,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "about/index.html",
+    "x": 691,
+    "y": 248,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "Paper ▾",
+    "href": null,
+    "x": 849,
+    "y": 254,
+    "w": 86,
+    "h": 34
+   },
+   {
+    "t": "Search /",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 941,
+    "y": 254,
+    "w": 108,
+    "h": 34
+   },
+   {
+    "t": "£5.00 credit",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 1055,
+    "y": 254,
+    "w": 100,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 1161,
+    "y": 254,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 1232,
+    "y": 254,
+    "w": 64,
+    "h": 34
+   },
+   {
+    "t": "the companies",
+    "href": "companies/index.html",
+    "x": 487,
+    "y": 395,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "t": "Portugal",
+    "href": "portugal/index.html",
+    "x": 590,
+    "y": 395,
+    "w": 55,
+    "h": 19
+   },
+   {
+    "t": "the graph",
+    "href": "graph/index.html",
+    "x": 178,
+    "y": 417,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "t": "Brazil's startup mission comes to Web Su",
+    "href": "articles/brazil-startup-mission.html",
+    "x": 144,
+    "y": 490,
+    "w": 641,
+    "h": 82
+   },
+   {
+    "t": "the summit, day by day",
+    "href": "summit/index.html",
+    "x": 953,
+    "y": 552,
+    "w": 326,
+    "h": 39
+   },
+   {
+    "t": "Portugal Tech Week 2026 begins (6 to 15 ",
+    "href": "events/portugal-tech-week-2026-begins/index.html",
+    "x": 1027,
+    "y": 648,
+    "w": 269,
+    "h": 83
+   },
+   {
+    "t": "Portugal",
+    "href": "places/portugal/index.html",
+    "x": 1027,
+    "y": 734,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "t": "Private Wealth and Investment Gathering ",
+    "href": "events/private-wealth-and-investment-gathering/index.html",
+    "x": 1027,
+    "y": 775,
+    "w": 269,
+    "h": 62
+   },
+   {
+    "t": "Almancil",
+    "href": "places/almancil/index.html",
+    "x": 1104,
+    "y": 840,
+    "w": 53,
+    "h": 18
+   },
+   {
+    "t": "Europe in Pavilion 4: the Commission's w",
+    "href": "articles/europe-in-pavilion-4.html",
+    "x": 144,
+    "y": 747,
+    "w": 432,
+    "h": 16
+   },
+   {
+    "t": "Following robotics at Web Summit: from t",
+    "href": "articles/following-robotics-at-web-summit.html",
+    "x": 144,
+    "y": 859,
+    "w": 492,
+    "h": 16
+   }
+  ],
+  "smallTargets": 10,
+  "status": 200,
+  "path": "/"
+ },
+ "desktop:article": {
+  "vw": 1440,
+  "vh": 900,
+  "scrollW": 1440,
+  "title": "Brazil's startup mission comes to Web Summit Lisbon · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 180,
+   "h": 147
+  },
+  "h1": {
+   "top": 279,
+   "bottom": 385,
+   "h": 106
+  },
+  "h1text": "Brazil's startup mission comes to Web Summit Lisbon",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "£4.99\n credit",
+    "x": 1055,
+    "y": 186
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 4513
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 4540
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 4567
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 4593
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 4620
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 4886
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 4886
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 4886
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 866,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "Newsroom",
+    "href": "../newsroom/index.html",
+    "x": 1179,
+    "y": 10,
+    "w": 59,
+    "h": 15
+   },
+   {
+    "t": "Sign in",
+    "href": "../login/index.html",
+    "x": 1259,
+    "y": 10,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 520,
+    "y": 43,
+    "w": 400,
+    "h": 65
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 633,
+    "y": 144,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 144,
+    "y": 180,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 196,
+    "y": 180,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 272,
+    "y": 180,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 331,
+    "y": 180,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 431,
+    "y": 180,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 503,
+    "y": 180,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 594,
+    "y": 180,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 691,
+    "y": 180,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "Paper ▾",
+    "href": null,
+    "x": 849,
+    "y": 186,
+    "w": 86,
+    "h": 34
+   },
+   {
+    "t": "Search /",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 941,
+    "y": 186,
+    "w": 108,
+    "h": 34
+   },
+   {
+    "t": "£4.99 credit",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 1055,
+    "y": 186,
+    "w": 100,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 1161,
+    "y": 186,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 1232,
+    "y": 186,
+    "w": 64,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 387,
+    "y": 249,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "Articles",
+    "href": "../articles/index.html",
+    "x": 431,
+    "y": 249,
+    "w": 43,
+    "h": 16
+   },
+   {
+    "t": "In short",
+    "href": "#in-short",
+    "x": 407,
+    "y": 537,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "t": "The story",
+    "href": "#the-story",
+    "x": 407,
+    "y": 561,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "t": "What this does not claim",
+    "href": "#what-this-does-not-claim",
+    "x": 407,
+    "y": 586,
+    "w": 165,
+    "h": 19
+   },
+   {
+    "t": "Where this comes from",
+    "href": "#where-this-comes-from",
+    "x": 407,
+    "y": 611,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "t": "Who made this",
+    "href": "#who-made-this",
+    "x": 407,
+    "y": 636,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "t": "CC BY 4.0",
+    "href": "https://creativecommons.org/licenses/by/4.0/",
+    "x": 829,
+    "y": 694,
+    "w": 79,
+    "h": 19
+   }
+  ],
+  "smallTargets": 11,
+  "status": 200,
+  "path": "/articles/brazil-startup-mission.html"
+ },
+ "desktop:company": {
+  "vw": 1440,
+  "vh": 900,
+  "scrollW": 1440,
+  "title": "Feedzai · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 180,
+   "h": 147
+  },
+  "h1": {
+   "top": 279,
+   "bottom": 332,
+   "h": 53
+  },
+  "h1text": "Feedzai",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "£4.98\n credit",
+    "x": 1055,
+    "y": 186
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 3619
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 3646
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 3673
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 3700
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 3726
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 3992
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 3992
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 3992
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../../newsroom/versions.html#v0.1.93",
+    "x": 866,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "Newsroom",
+    "href": "../../newsroom/index.html",
+    "x": 1179,
+    "y": 10,
+    "w": 59,
+    "h": 15
+   },
+   {
+    "t": "Sign in",
+    "href": "../../login/index.html",
+    "x": 1259,
+    "y": 10,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../../index.html",
+    "x": 520,
+    "y": 43,
+    "w": 400,
+    "h": 65
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../../riskmandate/index.html",
+    "x": 633,
+    "y": 144,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../../index.html",
+    "x": 144,
+    "y": 180,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../../events/index.html",
+    "x": 196,
+    "y": 180,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../../articles/index.html",
+    "x": 272,
+    "y": 180,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../../companies/index.html",
+    "x": 331,
+    "y": 180,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../../people/index.html",
+    "x": 431,
+    "y": 180,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../../portugal/index.html",
+    "x": 503,
+    "y": 180,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../../graph/index.html",
+    "x": 594,
+    "y": 180,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../../about/index.html",
+    "x": 691,
+    "y": 180,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "Paper ▾",
+    "href": null,
+    "x": 849,
+    "y": 186,
+    "w": 86,
+    "h": 34
+   },
+   {
+    "t": "Search /",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 941,
+    "y": 186,
+    "w": 108,
+    "h": 34
+   },
+   {
+    "t": "£4.98 credit",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 1055,
+    "y": 186,
+    "w": 100,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 1161,
+    "y": 186,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 1232,
+    "y": 186,
+    "w": 64,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../../index.html",
+    "x": 144,
+    "y": 249,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "Companies",
+    "href": "../../companies/index.html",
+    "x": 188,
+    "y": 249,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "t": "At the summit",
+    "href": "#summit",
+    "x": 144,
+    "y": 454,
+    "w": 95,
+    "h": 19
+   },
+   {
+    "t": "People",
+    "href": "#people",
+    "x": 257,
+    "y": 454,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "t": "Related companies",
+    "href": "#related",
+    "x": 321,
+    "y": 454,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "t": "Its flows, and where AI agents are in th",
+    "href": "#flows",
+    "x": 468,
+    "y": 454,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "t": "Our question for them",
+    "href": "#question",
+    "x": 770,
+    "y": 454,
+    "w": 148,
+    "h": 19
+   },
+   {
+    "t": "Where this comes from",
+    "href": "#sources",
+    "x": 936,
+    "y": 454,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "t": "About PrompTugal.news",
+    "href": "#about",
+    "x": 1109,
+    "y": 454,
+    "w": 164,
+    "h": 19
+   },
+   {
+    "t": "",
+    "href": "../../events/who-let-the-agent-in/index.html",
+    "x": 423,
+    "y": 535,
+    "w": 162,
+    "h": 54
+   },
+   {
+    "t": "",
+    "href": "../../people/diogo-guerra/index.html",
+    "x": 454,
+    "y": 623,
+    "w": 101,
+    "h": 56
+   },
+   {
+    "t": "",
+    "href": "../../topics/security/index.html",
+    "x": 293,
+    "y": 804,
+    "w": 64,
+    "h": 54
+   },
+   {
+    "t": "",
+    "href": "../../places/portugal/index.html",
+    "x": 651,
+    "y": 804,
+    "w": 65,
+    "h": 54
+   },
+   {
+    "t": "",
+    "href": "../../companies/austriacard/index.html",
+    "x": 171,
+    "y": 893,
+    "w": 91,
+    "h": 56
+   },
+   {
+    "t": "",
+    "href": "../../companies/cloudflare/index.html",
+    "x": 308,
+    "y": 893,
+    "w": 105,
+    "h": 56
+   },
+   {
+    "t": "",
+    "href": "../../companies/persona/index.html",
+    "x": 452,
+    "y": 893,
+    "w": 105,
+    "h": 56
+   },
+   {
+    "t": "",
+    "href": "../../companies/sumsub/index.html",
+    "x": 591,
+    "y": 893,
+    "w": 113,
+    "h": 56
+   },
+   {
+    "t": "",
+    "href": "../../companies/the-hacking-games/index.html",
+    "x": 724,
+    "y": 893,
+    "w": 134,
+    "h": 56
+   }
+  ],
+  "smallTargets": 12,
+  "status": 200,
+  "path": "/companies/feedzai/"
+ },
+ "desktop:events": {
+  "vw": 1440,
+  "vh": 900,
+  "scrollW": 1440,
+  "title": "Events · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 180,
+   "h": 147
+  },
+  "h1": {
+   "top": 279,
+   "bottom": 332,
+   "h": 53
+  },
+  "h1text": "Events",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "£4.98\n credit",
+    "x": 1055,
+    "y": 186
+   },
+   {
+    "t": "Night Summit: speed networking",
+    "x": 218,
+    "y": 7371
+   },
+   {
+    "t": "Night Summit: speed networking",
+    "x": 218,
+    "y": 11434
+   },
+   {
+    "t": "Pricing SaaS when users are ag",
+    "x": 218,
+    "y": 14746
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 17138
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 17165
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 17191
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 17218
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 17245
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 17511
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 17511
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 17511
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 866,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "Newsroom",
+    "href": "../newsroom/index.html",
+    "x": 1179,
+    "y": 10,
+    "w": 59,
+    "h": 15
+   },
+   {
+    "t": "Sign in",
+    "href": "../login/index.html",
+    "x": 1259,
+    "y": 10,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 520,
+    "y": 43,
+    "w": 400,
+    "h": 65
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 633,
+    "y": 144,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 144,
+    "y": 180,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 196,
+    "y": 180,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 272,
+    "y": 180,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 331,
+    "y": 180,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 431,
+    "y": 180,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 503,
+    "y": 180,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 594,
+    "y": 180,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 691,
+    "y": 180,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "Paper ▾",
+    "href": null,
+    "x": 849,
+    "y": 186,
+    "w": 86,
+    "h": 34
+   },
+   {
+    "t": "Search /",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 941,
+    "y": 186,
+    "w": 108,
+    "h": 34
+   },
+   {
+    "t": "£4.98 credit",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 1055,
+    "y": 186,
+    "w": 100,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 1161,
+    "y": 186,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 1232,
+    "y": 186,
+    "w": 64,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 144,
+    "y": 249,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "The official programme",
+    "href": "#web-summit",
+    "x": 144,
+    "y": 454,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "t": "Other events",
+    "href": "#other",
+    "x": 318,
+    "y": 454,
+    "w": 86,
+    "h": 19
+   },
+   {
+    "t": "Past editions",
+    "href": "#past",
+    "x": 422,
+    "y": 454,
+    "w": 87,
+    "h": 19
+   },
+   {
+    "t": "Web Summit",
+    "href": "../organisations/web-summit/index.html",
+    "x": 342,
+    "y": 509,
+    "w": 98,
+    "h": 19
+   },
+   {
+    "t": "the summit",
+    "href": "../summit/index.html",
+    "x": 461,
+    "y": 568,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "t": "the agenda",
+    "href": "../summit/agenda.html",
+    "x": 144,
+    "y": 598,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "t": "Thu 5 · 1",
+    "href": "#other-2026-11-05",
+    "x": 144,
+    "y": 641,
+    "w": 80,
+    "h": 39
+   },
+   {
+    "t": "Fri 6 · 2",
+    "href": "#other-2026-11-06",
+    "x": 224,
+    "y": 641,
+    "w": 72,
+    "h": 39
+   },
+   {
+    "t": "Sat 7 · 4",
+    "href": "#web-summit-2026-11-07",
+    "x": 296,
+    "y": 641,
+    "w": 77,
+    "h": 39
+   },
+   {
+    "t": "Sun 8 · 3",
+    "href": "#web-summit-2026-11-08",
+    "x": 373,
+    "y": 641,
+    "w": 80,
+    "h": 39
+   },
+   {
+    "t": "Mon 9 · 25",
+    "href": "#web-summit-2026-11-09",
+    "x": 453,
+    "y": 641,
+    "w": 91,
+    "h": 39
+   },
+   {
+    "t": "Tue 10 · 69",
+    "href": "#web-summit-2026-11-10",
+    "x": 544,
+    "y": 641,
+    "w": 96,
+    "h": 39
+   },
+   {
+    "t": "Wed 11 · 56",
+    "href": "#web-summit-2026-11-11",
+    "x": 640,
+    "y": 641,
+    "w": 101,
+    "h": 39
+   },
+   {
+    "t": "Thu 12 · 49",
+    "href": "#web-summit-2026-11-12",
+    "x": 741,
+    "y": 641,
+    "w": 97,
+    "h": 39
+   },
+   {
+    "t": "Web Summit Lisbon 2026",
+    "href": "web-summit-lisbon-2026/index.html",
+    "x": 284,
+    "y": 776,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "t": "websummit.com/schedule",
+    "href": "https://websummit.com/schedule/",
+    "x": 170,
+    "y": 797,
+    "w": 167,
+    "h": 18
+   },
+   {
+    "t": "Registration: collect your lanyard and w",
+    "href": "registration-2026-11-07/index.html",
+    "x": 218,
+    "y": 894,
+    "w": 670,
+    "h": 44
+   }
+  ],
+  "smallTargets": 12,
+  "status": 200,
+  "path": "/events/"
+ },
+ "desktop:agenda": {
+  "vw": 1440,
+  "vh": 900,
+  "scrollW": 1440,
+  "title": "The agenda, day by day · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 180,
+   "h": 147
+  },
+  "h1": {
+   "top": 279,
+   "bottom": 332,
+   "h": 53
+  },
+  "h1text": "The agenda, day by day",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "£4.98\n credit",
+    "x": 1055,
+    "y": 186
+   },
+   {
+    "t": "Night Summit: speed networking",
+    "x": 449,
+    "y": 10264
+   },
+   {
+    "t": "Night Summit: speed networking",
+    "x": 448,
+    "y": 16789
+   },
+   {
+    "t": "Pricing SaaS when users are ag",
+    "x": 449,
+    "y": 21180
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 22822
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 22848
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 22875
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 22902
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 22929
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 23195
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 23195
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 23195
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 866,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "Newsroom",
+    "href": "../newsroom/index.html",
+    "x": 1179,
+    "y": 10,
+    "w": 59,
+    "h": 15
+   },
+   {
+    "t": "Sign in",
+    "href": "../login/index.html",
+    "x": 1259,
+    "y": 10,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 520,
+    "y": 43,
+    "w": 400,
+    "h": 65
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 633,
+    "y": 144,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 144,
+    "y": 180,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 196,
+    "y": 180,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 272,
+    "y": 180,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 331,
+    "y": 180,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 431,
+    "y": 180,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 503,
+    "y": 180,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 594,
+    "y": 180,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 691,
+    "y": 180,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "Paper ▾",
+    "href": null,
+    "x": 849,
+    "y": 186,
+    "w": 86,
+    "h": 34
+   },
+   {
+    "t": "Search /",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 941,
+    "y": 186,
+    "w": 108,
+    "h": 34
+   },
+   {
+    "t": "£4.98 credit",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 1055,
+    "y": 186,
+    "w": 100,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 1161,
+    "y": 186,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 1232,
+    "y": 186,
+    "w": 64,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 387,
+    "y": 249,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "The summit",
+    "href": "../summit/index.html",
+    "x": 431,
+    "y": 249,
+    "w": 67,
+    "h": 16
+   },
+   {
+    "t": "Thursday 5 November (past)",
+    "href": "#d-2026-11-05",
+    "x": 407,
+    "y": 484,
+    "w": 191,
+    "h": 19
+   },
+   {
+    "t": "Friday 6 November (today)",
+    "href": "#d-2026-11-06",
+    "x": 407,
+    "y": 508,
+    "w": 179,
+    "h": 19
+   },
+   {
+    "t": "Saturday 7 November",
+    "href": "#d-2026-11-07",
+    "x": 407,
+    "y": 533,
+    "w": 146,
+    "h": 19
+   },
+   {
+    "t": "Sunday 8 November",
+    "href": "#d-2026-11-08",
+    "x": 407,
+    "y": 558,
+    "w": 136,
+    "h": 19
+   },
+   {
+    "t": "Monday 9 November",
+    "href": "#d-2026-11-09",
+    "x": 407,
+    "y": 583,
+    "w": 139,
+    "h": 19
+   },
+   {
+    "t": "Tuesday 10 November",
+    "href": "#d-2026-11-10",
+    "x": 407,
+    "y": 607,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "t": "Wednesday 11 November",
+    "href": "#d-2026-11-11",
+    "x": 407,
+    "y": 632,
+    "w": 173,
+    "h": 19
+   },
+   {
+    "t": "Thursday 12 November",
+    "href": "#d-2026-11-12",
+    "x": 407,
+    "y": 657,
+    "w": 158,
+    "h": 19
+   },
+   {
+    "t": "websummit.com/schedule",
+    "href": "https://websummit.com/schedule/",
+    "x": 780,
+    "y": 882,
+    "w": 203,
+    "h": 19
+   }
+  ],
+  "smallTargets": 14,
+  "status": 200,
+  "path": "/summit/agenda.html"
+ },
+ "desktop:about": {
+  "vw": 1440,
+  "vh": 900,
+  "scrollW": 1440,
+  "title": "About PrompTugal.news · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 180,
+   "h": 147
+  },
+  "h1": {
+   "top": 279,
+   "bottom": 332,
+   "h": 53
+  },
+  "h1text": "About PrompTugal.news",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "£4.98\n credit",
+    "x": 1055,
+    "y": 186
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "newsroom.sgit.ai",
+    "vis": true,
+    "y": 2208
+   },
+   {
+    "t": "php.oct.2026.newsroom.sgit.ai",
+    "vis": true,
+    "y": 2238
+   },
+   {
+    "t": "pt.newsroom.sgit.ai",
+    "vis": true,
+    "y": 2238
+   },
+   {
+    "t": "why we do it this way",
+    "vis": true,
+    "y": 2600
+   },
+   {
+    "t": "the release history",
+    "vis": true,
+    "y": 2868
+   },
+   {
+    "t": "the release history",
+    "vis": true,
+    "y": 3320
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 4446
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 4473
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 4499
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 4526
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 4553
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 4819
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 4819
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 4819
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 866,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "Newsroom",
+    "href": "../newsroom/index.html",
+    "x": 1179,
+    "y": 10,
+    "w": 59,
+    "h": 15
+   },
+   {
+    "t": "Sign in",
+    "href": "../login/index.html",
+    "x": 1259,
+    "y": 10,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 520,
+    "y": 43,
+    "w": 400,
+    "h": 65
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 633,
+    "y": 144,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 144,
+    "y": 180,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 196,
+    "y": 180,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 272,
+    "y": 180,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 331,
+    "y": 180,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 431,
+    "y": 180,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 503,
+    "y": 180,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 594,
+    "y": 180,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 691,
+    "y": 180,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "Paper ▾",
+    "href": null,
+    "x": 849,
+    "y": 186,
+    "w": 86,
+    "h": 34
+   },
+   {
+    "t": "Search /",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 941,
+    "y": 186,
+    "w": 108,
+    "h": 34
+   },
+   {
+    "t": "£4.98 credit",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 1055,
+    "y": 186,
+    "w": 100,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 1161,
+    "y": 186,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 1232,
+    "y": 186,
+    "w": 64,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 387,
+    "y": 249,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "Independent, and who we are",
+    "href": "#independent",
+    "x": 407,
+    "y": 430,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "t": "The editors",
+    "href": "#editors",
+    "x": 407,
+    "y": 454,
+    "w": 76,
+    "h": 19
+   },
+   {
+    "t": "Who does the work",
+    "href": "#who",
+    "x": 407,
+    "y": 479,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "t": "Our rules",
+    "href": "#rules",
+    "x": 407,
+    "y": 504,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "t": "How we make it",
+    "href": "#how",
+    "x": 407,
+    "y": 529,
+    "w": 107,
+    "h": 19
+   },
+   {
+    "t": "For readers and for agents",
+    "href": "#read",
+    "x": 407,
+    "y": 553,
+    "w": 177,
+    "h": 19
+   },
+   {
+    "t": "What is live today",
+    "href": "#what-exists",
+    "x": 407,
+    "y": 578,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "t": "The agent's own limits",
+    "href": "#reach-mandate-gap",
+    "x": 407,
+    "y": 603,
+    "w": 150,
+    "h": 19
+   },
+   {
+    "t": "the brief pack",
+    "href": "../brief/index.html",
+    "x": 387,
+    "y": 768,
+    "w": 651,
+    "h": 49
+   }
+  ],
+  "smallTargets": 12,
+  "status": 200,
+  "path": "/about/"
+ },
+ "desktop:newsroom": {
+  "vw": 1440,
+  "vh": 900,
+  "scrollW": 1440,
+  "title": "The newsroom · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 180,
+   "h": 147
+  },
+  "h1": {
+   "top": 311,
+   "bottom": 364,
+   "h": 53
+  },
+  "h1text": "The newsroom",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "£4.98\n credit",
+    "x": 1055,
+    "y": 186
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "THE NEWSROOM",
+    "vis": true,
+    "y": 249
+   },
+   {
+    "t": "newsroom@dinis",
+    "vis": true,
+    "y": 3839
+   },
+   {
+    "t": "WS-145",
+    "vis": true,
+    "y": 5379
+   },
+   {
+    "t": "api/v1/newsroom/status.json",
+    "vis": true,
+    "y": 7033
+   },
+   {
+    "t": "index.md",
+    "vis": true,
+    "y": 7201
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 7521
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 7548
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 7575
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 7602
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 7628
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 7894
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 7894
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 7894
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 866,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "Newsroom",
+    "href": "../newsroom/index.html",
+    "x": 1179,
+    "y": 10,
+    "w": 59,
+    "h": 15
+   },
+   {
+    "t": "Sign in",
+    "href": "../login/index.html",
+    "x": 1259,
+    "y": 10,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 520,
+    "y": 43,
+    "w": 400,
+    "h": 65
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 633,
+    "y": 144,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 144,
+    "y": 180,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 196,
+    "y": 180,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 272,
+    "y": 180,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 331,
+    "y": 180,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 431,
+    "y": 180,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 503,
+    "y": 180,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 594,
+    "y": 180,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 691,
+    "y": 180,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "Paper ▾",
+    "href": null,
+    "x": 849,
+    "y": 186,
+    "w": 86,
+    "h": 34
+   },
+   {
+    "t": "Search /",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 941,
+    "y": 186,
+    "w": 108,
+    "h": 34
+   },
+   {
+    "t": "£4.98 credit",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 1055,
+    "y": 186,
+    "w": 100,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 1161,
+    "y": 186,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 1232,
+    "y": 186,
+    "w": 64,
+    "h": 34
+   },
+   {
+    "t": "THE NEWSROOM",
+    "href": "../newsroom/index.html",
+    "x": 144,
+    "y": 249,
+    "w": 95,
+    "h": 15
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 144,
+    "y": 282,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "OVERVIEW",
+    "href": "index.html",
+    "x": 144,
+    "y": 450,
+    "w": 70,
+    "h": 33
+   },
+   {
+    "t": "RUNS",
+    "href": "runs/index.html",
+    "x": 232,
+    "y": 450,
+    "w": 36,
+    "h": 33
+   },
+   {
+    "t": "DESKS",
+    "href": "desks/index.html",
+    "x": 286,
+    "y": 450,
+    "w": 43,
+    "h": 33
+   },
+   {
+    "t": "QUALITY",
+    "href": "quality/index.html",
+    "x": 347,
+    "y": 450,
+    "w": 57,
+    "h": 33
+   },
+   {
+    "t": "AGENTS",
+    "href": "agents/index.html",
+    "x": 422,
+    "y": 450,
+    "w": 52,
+    "h": 33
+   },
+   {
+    "t": "TIMELINE",
+    "href": "timeline/index.html",
+    "x": 492,
+    "y": 450,
+    "w": 64,
+    "h": 33
+   },
+   {
+    "t": "DATA",
+    "href": "data/index.html",
+    "x": 574,
+    "y": 450,
+    "w": 33,
+    "h": 33
+   },
+   {
+    "t": "WORKFLOWS",
+    "href": "workflows/index.html",
+    "x": 625,
+    "y": 450,
+    "w": 84,
+    "h": 33
+   },
+   {
+    "t": "LAB",
+    "href": "lab/index.html",
+    "x": 727,
+    "y": 450,
+    "w": 25,
+    "h": 33
+   },
+   {
+    "t": "OBSERVABILITY",
+    "href": "observability/index.html",
+    "x": 771,
+    "y": 450,
+    "w": 105,
+    "h": 33
+   },
+   {
+    "t": "RELEASES",
+    "href": "versions.html",
+    "x": 894,
+    "y": 450,
+    "w": 66,
+    "h": 33
+   },
+   {
+    "t": "v0.1.93",
+    "href": "versions.html",
+    "x": 144,
+    "y": 668,
+    "w": 114,
+    "h": 37
+   },
+   {
+    "t": "50",
+    "href": "runs/index.html",
+    "x": 720,
+    "y": 668,
+    "w": 32,
+    "h": 37
+   },
+   {
+    "t": "11",
+    "href": "versions.html",
+    "x": 1008,
+    "y": 668,
+    "w": 32,
+    "h": 37
+   },
+   {
+    "t": "20 of 25",
+    "href": "agents/index.html",
+    "x": 144,
+    "y": 740,
+    "w": 130,
+    "h": 37
+   },
+   {
+    "t": "1,569",
+    "href": "data/index.html",
+    "x": 432,
+    "y": 740,
+    "w": 81,
+    "h": 37
+   },
+   {
+    "t": "2,719",
+    "href": "data/index.html#graph",
+    "x": 720,
+    "y": 740,
+    "w": 81,
+    "h": 37
+   },
+   {
+    "t": "11 of 3",
+    "href": "../articles/index.html",
+    "x": 1008,
+    "y": 740,
+    "w": 114,
+    "h": 37
+   }
+  ],
+  "smallTargets": 5,
+  "status": 200,
+  "path": "/newsroom/"
+ },
+ "desktop:synthetic": {
+  "vw": 1440,
+  "vh": 900,
+  "scrollW": 1440,
+  "title": "Synthetic readers: invented people read PrompTugal.news before Friday's outreach (runs 1 to 5) · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 180,
+   "h": 147
+  },
+  "h1": {
+   "top": 311,
+   "bottom": 523,
+   "h": 212
+  },
+  "h1text": "Synthetic readers: invented people read PrompTugal.news before Friday's outreach (runs 1 t",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "£4.98\n credit",
+    "x": 1055,
+    "y": 186
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "THE NEWSROOM",
+    "vis": true,
+    "y": 249
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 282
+   },
+   {
+    "t": "synthetic.md",
+    "vis": true,
+    "y": 28260
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 28581
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 28607
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 28634
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 28661
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 28688
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 28954
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 28954
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 28954
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 866,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "Newsroom",
+    "href": "../newsroom/index.html",
+    "x": 1179,
+    "y": 10,
+    "w": 59,
+    "h": 15
+   },
+   {
+    "t": "Sign in",
+    "href": "../login/index.html",
+    "x": 1259,
+    "y": 10,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 520,
+    "y": 43,
+    "w": 400,
+    "h": 65
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 633,
+    "y": 144,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 144,
+    "y": 180,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 196,
+    "y": 180,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 272,
+    "y": 180,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 331,
+    "y": 180,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 431,
+    "y": 180,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 503,
+    "y": 180,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 594,
+    "y": 180,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 691,
+    "y": 180,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "Paper ▾",
+    "href": null,
+    "x": 849,
+    "y": 186,
+    "w": 86,
+    "h": 34
+   },
+   {
+    "t": "Search /",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 941,
+    "y": 186,
+    "w": 108,
+    "h": 34
+   },
+   {
+    "t": "£4.98 credit",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 1055,
+    "y": 186,
+    "w": 100,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 1161,
+    "y": 186,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 1232,
+    "y": 186,
+    "w": 64,
+    "h": 34
+   },
+   {
+    "t": "THE NEWSROOM",
+    "href": "../newsroom/index.html",
+    "x": 387,
+    "y": 249,
+    "w": 95,
+    "h": 15
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 387,
+    "y": 282,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "Newsroom",
+    "href": "../newsroom/index.html",
+    "x": 431,
+    "y": 282,
+    "w": 61,
+    "h": 16
+   },
+   {
+    "t": "How this works now (from 6 November, abo",
+    "href": "#how-this-works-now-from-6-november-about-04-00-utc",
+    "x": 407,
+    "y": 702,
+    "w": 387,
+    "h": 19
+   },
+   {
+    "t": "Run 5: the first homepage, one story eac",
+    "href": "#run-5-the-first-homepage-one-story-each-and-provenance-04-40-utc",
+    "x": 407,
+    "y": 727,
+    "w": 480,
+    "h": 19
+   },
+   {
+    "t": "In short",
+    "href": "#in-short",
+    "x": 407,
+    "y": 752,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "t": "Measured",
+    "href": "#measured",
+    "x": 407,
+    "y": 777,
+    "w": 67,
+    "h": 19
+   },
+   {
+    "t": "Waiting for a decision",
+    "href": "#waiting-for-a-decision",
+    "x": 407,
+    "y": 801,
+    "w": 144,
+    "h": 19
+   },
+   {
+    "t": "The founder who got the email: Inês Vale",
+    "href": "#the-founder-who-got-the-email-in-s-valente-synthetic",
+    "x": 407,
+    "y": 826,
+    "w": 391,
+    "h": 19
+   },
+   {
+    "t": "The CISO at a large Portuguese bank: Rui",
+    "href": "#the-ciso-at-a-large-portuguese-bank-rui-barata-synthetic",
+    "x": 407,
+    "y": 851,
+    "w": 417,
+    "h": 19
+   },
+   {
+    "t": "The journalist from another outlet: Tomá",
+    "href": "#the-journalist-from-another-outlet-tom-s-iglesias-synthetic",
+    "x": 407,
+    "y": 876,
+    "w": 428,
+    "h": 19
+   }
+  ],
+  "smallTargets": 14,
+  "status": 200,
+  "path": "/newsroom/synthetic.html"
+ },
+ "desktop:login": {
+  "vw": 1440,
+  "vh": 900,
+  "scrollW": 1440,
+  "title": "Sign in · PrompTugal.news",
+  "mast": {
+   "top": 33,
+   "bottom": 180,
+   "h": 147
+  },
+  "h1": {
+   "top": 279,
+   "bottom": 332,
+   "h": 53
+  },
+  "h1text": "Sign in",
+  "mastText": "TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION | Powered by | RiskMandate",
+  "powered": true,
+  "poweredInMast": true,
+  "vault": true,
+  "credit": [
+   {
+    "t": "£4.97\n credit",
+    "x": 1055,
+    "y": 186
+   }
+  ],
+  "tagline": false,
+  "newsroomLinks": [
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 10
+   },
+   {
+    "t": "Observability",
+    "vis": true,
+    "y": 1382
+   },
+   {
+    "t": "The newsroom",
+    "vis": true,
+    "y": 2284
+   },
+   {
+    "t": "Design",
+    "vis": true,
+    "y": 2311
+   },
+   {
+    "t": "Orders",
+    "vis": true,
+    "y": 2338
+   },
+   {
+    "t": "Release history",
+    "vis": true,
+    "y": 2364
+   },
+   {
+    "t": "Synthetic readers",
+    "vis": true,
+    "y": 2391
+   },
+   {
+    "t": "Newsroom",
+    "vis": true,
+    "y": 2657
+   },
+   {
+    "t": "v0.1.93",
+    "vis": true,
+    "y": 2657
+   },
+   {
+    "t": "what is counted",
+    "vis": true,
+    "y": 2657
+   }
+  ],
+  "aboveFold": [
+   {
+    "t": "Skip to the content",
+    "href": "#main",
+    "x": -999,
+    "y": 8,
+    "w": 147,
+    "h": 30
+   },
+   {
+    "t": "v0.1.93",
+    "href": "../newsroom/versions.html#v0.1.93",
+    "x": 866,
+    "y": 10,
+    "w": 52,
+    "h": 15
+   },
+   {
+    "t": "Newsroom",
+    "href": "../newsroom/index.html",
+    "x": 1179,
+    "y": 10,
+    "w": 59,
+    "h": 15
+   },
+   {
+    "t": "Sign in",
+    "href": "../login/index.html",
+    "x": 1259,
+    "y": 10,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "t": "PrompTugal.news, the front page",
+    "href": "../index.html",
+    "x": 520,
+    "y": 43,
+    "w": 400,
+    "h": 65
+   },
+   {
+    "t": "Powered by RiskMandate",
+    "href": "../riskmandate/index.html",
+    "x": 633,
+    "y": 144,
+    "w": 174,
+    "h": 24
+   },
+   {
+    "t": "NOW",
+    "href": "../index.html",
+    "x": 144,
+    "y": 180,
+    "w": 32,
+    "h": 46
+   },
+   {
+    "t": "AGENDA",
+    "href": "../events/index.html",
+    "x": 196,
+    "y": 180,
+    "w": 55,
+    "h": 46
+   },
+   {
+    "t": "NEWS",
+    "href": "../articles/index.html",
+    "x": 272,
+    "y": 180,
+    "w": 40,
+    "h": 46
+   },
+   {
+    "t": "COMPANIES",
+    "href": "../companies/index.html",
+    "x": 331,
+    "y": 180,
+    "w": 80,
+    "h": 46
+   },
+   {
+    "t": "PEOPLE",
+    "href": "../people/index.html",
+    "x": 431,
+    "y": 180,
+    "w": 52,
+    "h": 46
+   },
+   {
+    "t": "PORTUGAL",
+    "href": "../portugal/index.html",
+    "x": 503,
+    "y": 180,
+    "w": 72,
+    "h": 46
+   },
+   {
+    "t": "THE GRAPH",
+    "href": "../graph/index.html",
+    "x": 594,
+    "y": 180,
+    "w": 77,
+    "h": 46
+   },
+   {
+    "t": "ABOUT",
+    "href": "../about/index.html",
+    "x": 691,
+    "y": 180,
+    "w": 46,
+    "h": 46
+   },
+   {
+    "t": "Paper ▾",
+    "href": null,
+    "x": 849,
+    "y": 186,
+    "w": 86,
+    "h": 34
+   },
+   {
+    "t": "Search /",
+    "href": "https://promptugal.news/search/index.html",
+    "x": 941,
+    "y": 186,
+    "w": 108,
+    "h": 34
+   },
+   {
+    "t": "£4.97 credit",
+    "href": "https://promptugal.news/account/index.html",
+    "x": 1055,
+    "y": 186,
+    "w": 100,
+    "h": 34
+   },
+   {
+    "t": "Vault",
+    "href": null,
+    "x": 1161,
+    "y": 186,
+    "w": 65,
+    "h": 34
+   },
+   {
+    "t": "Ask",
+    "href": "https://promptugal.news/ask/index.html",
+    "x": 1232,
+    "y": 186,
+    "w": 64,
+    "h": 34
+   },
+   {
+    "t": "Home",
+    "href": "../index.html",
+    "x": 387,
+    "y": 249,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "t": "Scan it with the camera",
+    "href": null,
+    "x": 387,
+    "y": 584,
+    "w": 209,
+    "h": 48
+   },
+   {
+    "t": "Choose a picture of it",
+    "href": null,
+    "x": 604,
+    "y": 584,
+    "w": 196,
+    "h": 48
+   },
+   {
+    "t": "Paste the QR code",
+    "href": null,
+    "x": 808,
+    "y": 584,
+    "w": 171,
+    "h": 48
+   },
+   {
+    "t": "Sign in",
+    "href": null,
+    "x": 387,
+    "y": 768,
+    "w": 88,
+    "h": 48
+   }
+  ],
+  "smallTargets": 4,
+  "status": 200,
+  "path": "/login/"
+ }
+}
