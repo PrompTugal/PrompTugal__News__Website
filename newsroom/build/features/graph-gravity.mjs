@@ -7,7 +7,7 @@ const PAGES = {
     'graph/industry/index.html': { id: 'gi', name: 'industry', ui: ['replay', 'png', 'canvas', 'empty', 'fail', 'noscript', 'caption', 'open'] },
     'graph/riskmandate/index.html': { id: 'gr', name: 'riskmandate', ui: ['replay', 'png', 'canvas', 'empty', 'fail', 'noscript', 'caption', 'open', 'reach', 'mandate', 'gap', 'notasked'] },
     'graph/world/index.html': { id: 'gw', name: 'world', ui: ['all', 'png', 'canvas', 'empty', 'fail', 'noscript', 'caption', 'lisbon', 'count', 'europe', 'worldv'], extra: 'data-world="../../assets/graph/world.json" data-outline="../../assets/vendor/world-atlas/countries-110m.json"' },
-    'graph/algarve-evolution/index.html': { id: 'ae-viz', name: 'algarve-evolution', dir: 'portugal', ui: [], extra: 'data-data="../../assets/portugal/algarve-evolution-data.json" data-outline="../../assets/portugal/algarve-outline.json"', plain: true },
+    'graph/algarve-evolution/index.html': { id: 'ae-viz', name: 'algarve-evolution', dir: 'portugal', ui: [], extra: 'data-data="../../api/v1/portugal/algarve-evolution-viz.json" data-outline="../../assets/portugal/algarve-outline.json"', plain: true },
 }
 
 export function decorate(page, ctx) {

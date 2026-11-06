@@ -6,7 +6,7 @@
     const root = document.getElementById('ae-viz'); if (!root) return
     const el = (t, props, ...kids) => { const x = Object.assign(document.createElement(t), props); x.append(...kids); return x }
     const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim()
-    const COL = { centre: '#1a7f37', programme: '#1f6feb', partner: '#bf8700', municipality: '#8250df', summit: '#d1242f', event: '#0a8a8a' }
+    const COL = { role: '#57606a', centre: '#1a7f37', programme: '#1f6feb', partner: '#bf8700', municipality: '#8250df', summit: '#d1242f', event: '#0a8a8a' }
     const still = matchMedia('(prefers-reduced-motion: reduce)').matches
     let D, O
     const dpr = () => Math.min(2, devicePixelRatio || 1)
@@ -19,37 +19,37 @@
         const wrapEl = el('div', { className: 'ae-scroll' }, cv)
         root.append(el('section', { className: 'ae-sec' }, el('div', { className: 'gv-bar' }, el('h2', { textContent: title }), png), wrapEl, cap, side))
         side.append(el('p', { textContent: D.ui.empty }))
-        const show = (heading, meta, text, src) => { side.replaceChildren(el('h2', { textContent: heading }), el('p', { className: 'gv-meta', textContent: meta || '' }), el('p', { textContent: text || '' })); const s = D.sources[src]; if (s) side.append(el('a', { href: s.url, target: '_blank', rel: 'noopener', textContent: `${D.ui.source}: ${s.label}` })) }
+        const show = (heading, meta, text, srcs, extra) => { side.replaceChildren(el('h2', { textContent: heading }), el('p', { className: 'gv-meta', textContent: meta || '' }), el('p', { textContent: text || '' })); for (const s of srcs || []) side.append(el('a', { href: s.url, target: '_blank', rel: 'noopener', textContent: `${D.ui.source}: ${s.label}${s.read ? ', read ' + s.read : ''}` }), el('br')); if (extra && extra.length) side.append(el('ul', { className: 'gw-list' }, ...extra)) }
         return { cv, c: cv.getContext('2d'), cap, show, wrapEl }
     }
     // ------------------------------------------------------------------ the network
     function network() {
         const S = section(D.ui.network, 'network'), { cv, c } = S
         const N = D.nodes.map((n, i) => ({ ...n, x: 0, y: 0, vx: 0, vy: 0, r: n.kind === 'centre' ? 22 : 9 })), byId = new Map(N.map(n => [n.id, n]))
-        const L = D.links.map(([a, b, v]) => ({ a: byId.get(a), b: byId.get(b), v })), kinds = ['programme', 'partner', 'municipality', 'summit', 'event']
+        const L = D.links.map(([a, b, v, s]) => ({ a: byId.get(a), b: byId.get(b), v, s })), kinds = ['programme', 'partner', 'role', 'summit', 'event']
         let W, H, sel = null, hover = null, t0 = 0, p = 1
-        const ring = { programme: 0.3, partner: 0.62, municipality: 0.7, summit: 0.55, event: 0.85 }
+        const ring = { programme: 0.3, partner: 0.62, role: 0.5, summit: 0.55, event: 0.85 }
         function layout() {
             const R = Math.min(W, H) / 2 - 70, cx = W / 2, cy = H / 2, per = {}
             N.forEach(n => { if (n.kind === 'centre') { n.x = cx; n.y = cy; return } const k = (per[n.kind] = (per[n.kind] || 0) + 1); n._k = k })
-            const kindAng = { programme: -1.9, partner: 0.2, municipality: 1.9, summit: -0.6, event: 2.9 }, span = { programme: 2.2, partner: 3.0, municipality: 0.8, summit: 0.9, event: 2.2 }
+            const kindAng = { programme: -1.9, partner: 0.2, role: 1.9, summit: -0.6, event: 2.9 }, span = { programme: 2.2, partner: 3.0, role: 0.8, summit: 0.9, event: 2.2 }
             N.forEach(n => { if (n.kind === 'centre') return; const a = kindAng[n.kind] + (n._k / (per[n.kind] + 1) - 0.5) * span[n.kind]; n.x = cx + Math.cos(a) * R * ring[n.kind] * (W / H > 1.3 ? 1.35 : 1); n.y = cy + Math.sin(a) * R * ring[n.kind] })
             for (let it = 0; it < 260; it++) {
                 for (const a of N) for (const b of N) { if (a === b) continue; const dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy + 1, f = 5200 / d2, d = Math.sqrt(d2); a.vx += dx / d * f; a.vy += dy / d * f }
                 for (const l of L) { const dx = l.b.x - l.a.x, dy = l.b.y - l.a.y, d = Math.hypot(dx, dy) + 0.1, f = (d - 120) * 0.012; l.a.vx += dx / d * f; l.a.vy += dy / d * f; l.b.vx -= dx / d * f; l.b.vy -= dy / d * f }
-                for (const n of N) { if (n.kind === 'centre') { n.vx = n.vy = 0; continue } n.vx += (cx - n.x) * 0.0016; n.vy += (cy - n.y) * 0.0016; n.x += Math.max(-6, Math.min(6, n.vx)); n.y += Math.max(-6, Math.min(6, n.vy)); n.vx *= 0.6; n.vy *= 0.6; n.x = Math.max(60, Math.min(W - 60, n.x)); n.y = Math.max(30, Math.min(H - 30, n.y)) }
+                for (const n of N) { if (n.kind === 'centre') { n.vx = n.vy = 0; continue } n.vx += (cx - n.x) * 0.0016; n.vy += (cy - n.y) * 0.0016; n.x += Math.max(-6, Math.min(6, n.vx)); n.y += Math.max(-6, Math.min(6, n.vy)); n.vx *= 0.6; n.vy *= 0.6; n.x = Math.max(120, Math.min(W - 120, n.x)); n.y = Math.max(34, Math.min(H - 62, n.y)) }
             }
         }
         function draw() {
             const r = dpr(); c.setTransform(r, 0, 0, r, 0, 0); c.fillStyle = css('--panel') || '#fff'; c.fillRect(0, 0, W, H)
             const ink = css('--ink') || '#111', ink3 = css('--ink-3') || '#666', e = Math.min(1, p), cx = W / 2, cy = H / 2, at = n => [cx + (n.x - cx) * e, cy + (n.y - cy) * e]
             const hot = sel || hover, touches = l => hot && (l.a === hot || l.b === hot)
-            for (const l of L) { const [x1, y1] = at(l.a), [x2, y2] = at(l.b); c.strokeStyle = ink3; c.globalAlpha = hot ? (touches(l) ? 0.9 : 0.12) : 0.35; c.lineWidth = touches(l) ? 2 : 1; c.setLineDash(l.b.dashed || l.a.dashed || l.b.listed ? [5, 4] : []); c.beginPath(); c.moveTo(x1, y1); c.lineTo(x2, y2); c.stroke() }
+            for (const l of L) { const [x1, y1] = at(l.a), [x2, y2] = at(l.b); c.strokeStyle = ink3; c.globalAlpha = hot ? (touches(l) ? 0.9 : 0.12) : 0.35; c.lineWidth = touches(l) ? 2 : 1; c.setLineDash(l.b.dashed || l.a.dashed ? [5, 4] : []); c.beginPath(); c.moveTo(x1, y1); c.lineTo(x2, y2); c.stroke() }
             c.setLineDash([]); c.globalAlpha = 1
             c.font = '600 12px system-ui, sans-serif'
             for (const n of N) { const [x, y] = at(n), dim = hot && hot !== n && !L.some(l => touches(l) && (l.a === n || l.b === n)); c.globalAlpha = dim ? 0.3 : 1
                 c.fillStyle = COL[n.kind]; c.strokeStyle = ink; c.lineWidth = hot === n ? 2.5 : 0.8; c.beginPath(); c.arc(x, y, n.r, 0, 7); if (n.dashed || n.listed) { c.fillStyle = css('--panel') || '#fff'; c.fill(); c.strokeStyle = COL[n.kind]; c.setLineDash([3, 2]); c.lineWidth = 2 } else c.fill(); c.stroke(); c.setLineDash([])
-                c.fillStyle = ink; c.textAlign = 'center'; if (n.kind === 'centre') { c.font = '700 14px system-ui, sans-serif'; halo(c, n.label, x, y + n.r + 16); c.font = '600 12px system-ui, sans-serif' } else halo(c, n.label.length > 26 ? n.label.slice(0, 25) + '…' : n.label, x, y + n.r + 14) }
+                c.fillStyle = ink; c.textAlign = 'center'; if (n.kind === 'centre') { c.font = '700 14px system-ui, sans-serif'; halo(c, n.label, x, y + n.r + 16); c.font = '600 12px system-ui, sans-serif' } else halo(c, n.label.length > 34 ? n.label.slice(0, 33) + '…' : n.label, x, y + n.r + 14) }
             c.globalAlpha = 1
             if (hot) for (const l of L) if (touches(l)) { const [x1, y1] = at(l.a), [x2, y2] = at(l.b); c.font = '400 11px system-ui, sans-serif'; c.fillStyle = ink3; c.textAlign = 'center'; halo(c, l.v, (x1 + x2) / 2, (y1 + y2) / 2 - 3) }
             c.textAlign = 'start'; c.font = '400 12px system-ui, sans-serif'; let lx = 12
@@ -58,8 +58,8 @@
         function frame(ts) { if (!t0) t0 = ts; p = still ? 1 : Math.min(1, (ts - t0) / 1200); draw(); if (p < 1) requestAnimationFrame(frame) }
         const hit = ev => { const b = cv.getBoundingClientRect(), x = ev.clientX - b.left, y = ev.clientY - b.top; let best = null, bd = 12; for (const n of N) { const d = Math.hypot(n.x - x, n.y - y) - n.r; if (d < bd) { bd = d; best = n } } return best }
         cv.addEventListener('mousemove', ev => { hover = hit(ev); cv.style.cursor = hover ? 'pointer' : 'default'; if (p >= 1) draw() })
-        cv.addEventListener('click', ev => { sel = hit(ev); if (sel) S.show(sel.label, D.ui.kinds[sel.kind], sel.note, sel.src); draw() })
-        function size() { const r = dpr(); W = S.wrapEl.clientWidth; H = Math.max(520, Math.round(W * 0.68)); cv.width = W * r; cv.height = H * r; cv.style.width = W + 'px'; cv.style.height = H + 'px'; layout(); draw() }
+        cv.addEventListener('click', ev => { sel = hit(ev); if (sel) S.show(sel.label, (D.ui.kinds[sel.kind] || sel.kind), sel.note, sel.srcs, L.filter(l => l.a === sel || l.b === sel).map(l => el('li', {}, `${l.a.label} ${l.v} ${l.b.label}`, ...(l.s && l.s[0] ? [' ', el('a', { href: l.s[0].url, target: '_blank', rel: 'noopener', textContent: '(source)' })] : [])))); draw() })
+        function size() { const r = dpr(); W = S.wrapEl.clientWidth; H = Math.max(560, Math.round(W * 0.82)); cv.width = W * r; cv.height = H * r; cv.style.width = W + 'px'; cv.style.height = H + 'px'; layout(); draw() }
         S.cap.textContent = D.ui.dashedNote; addEventListener('resize', size); size(); requestAnimationFrame(frame)
     }
     // ------------------------------------------------------------------ the timeline
@@ -81,7 +81,7 @@
         }
         const hit = ev => { const b = cv.getBoundingClientRect(), px = ev.clientX - b.left, py = ev.clientY - b.top; return T.find(e => e._box && px >= e._box[0] && px <= e._box[0] + e._box[2] && py >= e._box[1] && py <= e._box[1] + e._box[3]) }
         cv.addEventListener('mousemove', ev => { cv.style.cursor = hit(ev) ? 'pointer' : 'default' })
-        cv.addEventListener('click', ev => { sel = hit(ev) || null; if (sel) { const s = sel.srcOverride || D.sources[sel.src]; S.show(sel.title, sel.when, sel.text + (sel.stat ? ' (' + sel.stat + ', self-reported)' : ''), sel.src); if (sel.srcOverride) { D.sources._o = sel.srcOverride; S.show(sel.title, sel.when, sel.text, '_o') } } draw() })
+        cv.addEventListener('click', ev => { sel = hit(ev) || null; if (sel) S.show(sel.title, sel.when, sel.text + (sel.stat ? ' (' + sel.stat + ', self-reported)' : ''), sel.srcs); draw() })
         const r = dpr(); W = Math.max(S.wrapEl.clientWidth, 80 + T.length * (CARD + GAP)); cv.width = W * r; cv.height = H * r; cv.style.width = W + 'px'; cv.style.height = H + 'px'; draw()
     }
     // ------------------------------------------------------------------ the map
@@ -99,7 +99,7 @@
         }
         const hit = ev => { const b = cv.getBoundingClientRect(), x = ev.clientX - b.left, y = ev.clientY - b.top; return D.places.find(p => p._xy && Math.hypot(p._xy[0] - x, p._xy[1] - y) < 14) }
         cv.addEventListener('mousemove', ev => { cv.style.cursor = hit(ev) ? 'pointer' : 'default' })
-        cv.addEventListener('click', ev => { sel = hit(ev) || null; if (sel) S.show(sel.name, sel.hq ? D.ui.kinds.centre : '', sel.note, sel.src); draw() })
+        cv.addEventListener('click', ev => { sel = hit(ev) || null; if (sel) S.show(sel.name, sel.hq ? D.ui.kinds.centre : '', sel.note, sel.srcs); draw() })
         function size() { const r = dpr(); W = S.wrapEl.clientWidth; H = Math.round(W * (B.lat0 - B.lat1) / ((B.lon1 - B.lon0) * K)); cv.width = W * r; cv.height = H * r; cv.style.width = W + 'px'; cv.style.height = H + 'px'; draw() }
         addEventListener('resize', size); size()
     }
