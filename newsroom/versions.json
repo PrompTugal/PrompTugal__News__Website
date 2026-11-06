@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.111",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: the drain reports what is odd (lanes near full, a new claimed key, an agent gone silent, a failed push), one line above its banner",
+    "by": "observability@PrompTugal.dinis",
+    "from": "1f755c9f4"
+  },
+  {
     "version": "v0.1.110",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: a lane on the conductor's inbox for conductor@web-summit.dinis, two-way briefings between the teams",
