@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: GEN, The repository"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
-site_version: "v0.1.288"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T18:58:39Z"
+site_version: "v0.1.316"
 source: board/catalogue.json
 ---
 
 # Shelf list: GEN, The repository
 
-40 cards, from `GEN.BOARD 2026-11-06-agent-reads-and-visibility` to `GEN.README README`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+41 cards, from `GEN.BOARD 2026-11-06-agent-reads-and-visibility` to `GEN.README README`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -20,6 +20,7 @@ source: board/catalogue.json
 | `GEN.BOARD 2026-11-06-becoming-a-publication` | [Pass: becoming-a-publication](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-everything-clickable` | [Pass: everything-clickable](https://promptugal.news/board/passes/2026-11-06-everything-clickable.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-media-in-vaults-and-backups` | [Pass: media-in-vaults-and-backups](https://promptugal.news/board/passes/2026-11-06-media-in-vaults-and-backups.md) | pass | conductor@ 6 Nov 2026 |
+| `GEN.BOARD 2026-11-06-offline-mode` | [Pass: offline mode](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-page-presentations` | [Pass: page-presentations](https://promptugal.news/board/passes/2026-11-06-page-presentations.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-past-summits` | [Pass: past-summits](https://promptugal.news/board/passes/2026-11-06-past-summits.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-privacy-first` | [Pass: privacy-first](https://promptugal.news/board/passes/2026-11-06-privacy-first.md) | pass | conductor@ 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `GEN.BOARD 2026-11-06-the-portugal-section` | [Pass: the-portugal-section](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-the-site-over-time` | [Pass: the-site-over-time](https://promptugal.news/board/passes/2026-11-06-the-site-over-time.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-the-summit-days` | [Pass: the-summit-days](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | pass | conductor@ 6 Nov 2026 |
-| `GEN.BOARD 2026-11-06-the-synthetic-readers-page` | [Pass: the-synthetic-readers-page](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | pass | conductor@ 6 Nov 2026 |
 
-**Cards 26 to 40**
+**Cards 26 to 41**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `GEN.BOARD 2026-11-06-the-synthetic-readers-page` | [Pass: the-synthetic-readers-page](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-the-top-of-the-page` | [Pass: the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-the-updates-section` | [Pass: the-updates-section](https://promptugal.news/board/passes/2026-11-06-the-updates-section.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-the-verification-pipeline` | [Pass: the-verification-pipeline](https://promptugal.news/board/passes/2026-11-06-the-verification-pipeline.md) | pass | conductor@ 6 Nov 2026 |

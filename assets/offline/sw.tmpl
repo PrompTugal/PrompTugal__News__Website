@@ -2,7 +2,8 @@
  * newsroom/build/features/offline.mjs from assets/offline/sw.tmpl at every release: the release and the list of
  * pages to keep are filled in. No dependency.
  *   - Public pages of this site only: a request to another origin, a request that is not GET, a request with an
- *     Authorization header or a query string is never stored (the vaults, the chat and search pass straight through).
+ *     Authorization header or a query string is never stored (the vaults, the chat and search pass straight through),
+ *     and neither is a page that uses a person's key (/login/, the drain: NEVER).
  *   - Network first: the network answers when it can (and the answer is kept); the cache answers when it cannot,
  *     or when a page takes more than a few seconds and a copy is kept.
  *   - Three caches: pt-shell-<version> (what every visit keeps: the shell, the front page, the summit and its days,
@@ -10,6 +11,7 @@
  *     saved). The page clears them all with PTOffline.clear() (assets/offline/offline.js). */
 const V = '__VERSION__', SHELL = 'pt-shell-' + V, PAGES = 'pt-pages', SAVED = 'pt-saved', MAX = 150, WAIT = 4000
 const KEEP = __PRECACHE__
+const NEVER = __NEVER__   // the pages that use a person's key (security@): never kept, never answered from a copy
 const scope = self.registration.scope
 const keyOf = u => u.origin + u.pathname
 
@@ -39,6 +41,7 @@ const OFFLINE = `<!doctype html><meta charset="utf-8"><meta name="viewport" cont
 self.addEventListener('fetch', e => {
     const r = e.request, u = new URL(r.url)
     if (r.method !== 'GET' || u.origin !== self.location.origin || u.search || r.headers.has('authorization')) return
+    if (NEVER.some(p => u.href.startsWith(new URL(p, scope).href))) return
     const key = keyOf(u)
     e.respondWith((async () => {
         const net = fetch(r).then(async res => {

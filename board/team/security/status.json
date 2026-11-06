@@ -6,7 +6,7 @@
  "reviewed_to": "HEAD at 18:03 and the work/* branches",
  "hold": false,
  "done": [
-  "wake 18:05: 30 commits clean; S1 post-reviewed (fixed for desks/ and data/; S1b for board/ and design/); the offline mode pre-reviewed; a hand-over debrief; my tools moved into board/team/security/tools/",
+  "wake 18:05: 30 commits clean; S1 post-reviewed (fixed for desks/ and data/; S1b for board/ and design/); the offline mode pre-reviewed; a hand-over debrief; my tools moved into board/team/security/tools/; the transcript scan 16:10 to 18:10: clean (19 sessions)",
   "17:20: the vault-onboarding brief pre-reviewed (go with conditions; three block the first deploy: a dedicated pilot token, S1 and a strict CSP, an issuer key that outlives a session)",
   "17:05: S12's five re-issues verified (my new inbox opened without printing); S20 closed",
   "wake 16:05: 57 commits clean; the first transcript scan (29 sessions): the printed-secret class in five agents, one false positive; the messages map redrawn (75 signed inbox messages); the comms protocol read (S20, S21); the Algarve Evolution sprint post-reviewed",
@@ -118,7 +118,7 @@
    "started": "2026-11-06T18:03Z",
    "outcome": "ok",
    "release": "",
-   "line": "S1 post-review, S1b; offline mode pre-review; hand-over debrief"
+   "line": "S1 post-review, S1b; offline mode pre-review; hand-over debrief; transcript scan clean"
   }
  ],
  "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",

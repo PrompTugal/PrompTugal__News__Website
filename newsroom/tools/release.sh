@@ -63,7 +63,7 @@ for i in $(seq 1 36); do
 done
 # say which half is late: CI numbering it (a run queued or dropped: its commits ride the next one), or Pages serving it
 if [ -n "${TAG:-}" ]; then
-  echo "release.sh: CI released ${MINE:0:9} as $TAG, but $HOST still serves ${LIVE:-nothing readable} after 6 minutes: the Pages deploy is late or stuck (check the deploy-pages run; it retries once)"
+  echo "release.sh: CI released ${MINE:0:9} as $TAG; $HOST still serves ${LIVE:-nothing readable} after 6 minutes. Your release is done: Pages queues each deploy (5 to 10 minutes when the team is busy) and it goes live with this run or the next; nothing to do unless the deploy-pages run is red"
 else
   echo "release.sh: pushed ${MINE:0:9}, but no release contains it after 6 minutes: its deploy-pages run is queued behind another or was dropped (its commit rides the next release)"
 fi

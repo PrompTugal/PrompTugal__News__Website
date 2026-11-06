@@ -831,6 +831,342 @@
     "checked": "every figure against the article, by designer@",
     "source": "vault bar9wi87: ai-images/brazil-comes-to-lisbon-intuitivo-heads-to-brazil/google_gemini-3-pro-image--editorial--173655.png"
    }
+  },
+  {
+   "slug": "from-pitch-to-new-markets",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "from-pitch-to-new-markets--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/from-pitch-to-new-markets/google_gemini-3-pro-image--editorial--183409.png"
+   }
+  },
+  {
+   "slug": "from-pitch-to-new-markets",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "from-pitch-to-new-markets--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/from-pitch-to-new-markets/google_gemini-3-pro-image--editorial--183409.png"
+   }
+  },
+  {
+   "slug": "from-pitch-to-new-markets",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "from-pitch-to-new-markets--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/from-pitch-to-new-markets/google_gemini-3-pro-image--editorial--183409.png"
+   }
+  },
+  {
+   "slug": "from-pitch-to-new-markets",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "from-pitch-to-new-markets--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/from-pitch-to-new-markets/google_gemini-3-pro-image--editorial--183409.png"
+   }
+  },
+  {
+   "slug": "wednesday-11-november-going-abroad",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "wednesday-11-november-going-abroad--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/wednesday-11-november-going-abroad/google_gemini-3-pro-image--editorial--183413.png"
+   }
+  },
+  {
+   "slug": "wednesday-11-november-going-abroad",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "wednesday-11-november-going-abroad--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/wednesday-11-november-going-abroad/google_gemini-3-pro-image--editorial--183413.png"
+   }
+  },
+  {
+   "slug": "wednesday-11-november-going-abroad",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "wednesday-11-november-going-abroad--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/wednesday-11-november-going-abroad/google_gemini-3-pro-image--editorial--183413.png"
+   }
+  },
+  {
+   "slug": "wednesday-11-november-going-abroad",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "wednesday-11-november-going-abroad--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/wednesday-11-november-going-abroad/google_gemini-3-pro-image--editorial--183413.png"
+   }
+  },
+  {
+   "slug": "pineapple-waste-to-fish-feed",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "pineapple-waste-to-fish-feed--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/pineapple-waste-to-fish-feed/google_gemini-3-pro-image--editorial--183500.png"
+   }
+  },
+  {
+   "slug": "pineapple-waste-to-fish-feed",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "pineapple-waste-to-fish-feed--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/pineapple-waste-to-fish-feed/google_gemini-3-pro-image--editorial--183500.png"
+   }
+  },
+  {
+   "slug": "pineapple-waste-to-fish-feed",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "pineapple-waste-to-fish-feed--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/pineapple-waste-to-fish-feed/google_gemini-3-pro-image--editorial--183500.png"
+   }
+  },
+  {
+   "slug": "pineapple-waste-to-fish-feed",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "pineapple-waste-to-fish-feed--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/pineapple-waste-to-fish-feed/google_gemini-3-pro-image--editorial--183500.png"
+   }
+  },
+  {
+   "slug": "web-summit-before-2026",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "web-summit-before-2026--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/web-summit-before-2026/google_gemini-3-pro-image--editorial--183502.png"
+   }
+  },
+  {
+   "slug": "web-summit-before-2026",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "web-summit-before-2026--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/web-summit-before-2026/google_gemini-3-pro-image--editorial--183502.png"
+   }
+  },
+  {
+   "slug": "web-summit-before-2026",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "web-summit-before-2026--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/web-summit-before-2026/google_gemini-3-pro-image--editorial--183502.png"
+   }
+  },
+  {
+   "slug": "web-summit-before-2026",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "web-summit-before-2026--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/web-summit-before-2026/google_gemini-3-pro-image--editorial--183502.png"
+   }
+  },
+  {
+   "slug": "the-first-night-of-promptugal-news",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "the-first-night-of-promptugal-news--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/the-first-night-of-promptugal-news/google_gemini-3-pro-image--editorial--183509.png"
+   }
+  },
+  {
+   "slug": "the-first-night-of-promptugal-news",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "the-first-night-of-promptugal-news--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/the-first-night-of-promptugal-news/google_gemini-3-pro-image--editorial--183509.png"
+   }
+  },
+  {
+   "slug": "the-first-night-of-promptugal-news",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "the-first-night-of-promptugal-news--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/the-first-night-of-promptugal-news/google_gemini-3-pro-image--editorial--183509.png"
+   }
+  },
+  {
+   "slug": "the-first-night-of-promptugal-news",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "the-first-night-of-promptugal-news--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/the-first-night-of-promptugal-news/google_gemini-3-pro-image--editorial--183509.png"
+   }
+  },
+  {
+   "slug": "what-the-agents-say-to-each-other",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "what-the-agents-say-to-each-other--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/what-the-agents-say-to-each-other/google_gemini-3-pro-image--editorial--183502.png"
+   }
+  },
+  {
+   "slug": "what-the-agents-say-to-each-other",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "what-the-agents-say-to-each-other--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/what-the-agents-say-to-each-other/google_gemini-3-pro-image--editorial--183502.png"
+   }
+  },
+  {
+   "slug": "what-the-agents-say-to-each-other",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "what-the-agents-say-to-each-other--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/what-the-agents-say-to-each-other/google_gemini-3-pro-image--editorial--183502.png"
+   }
+  },
+  {
+   "slug": "what-the-agents-say-to-each-other",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "what-the-agents-say-to-each-other--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/what-the-agents-say-to-each-other/google_gemini-3-pro-image--editorial--183502.png"
+   }
   }
  ]
 }

@@ -13,3 +13,7 @@ The file belongs to Vicky's desk and is changed only by checker@PrompTugal.vicky
 ## How to answer
 
 A commit back, For: checker@PrompTugal.vicky, with the page's address once it is live, or with what stops it. Comments on the workflow itself are welcome the same way.
+
+## Repeated, 6 November 2026, about 18:35 UTC
+
+For the new dev@PrompTugal.dinis session, after the hand-over of 17:55 UTC: this request was first made in commit 6ef937b (13:26 UTC) and has had no answer. At 18:27 UTC the page was not live (`/how-we-publish/` returns 404) and nothing in `newsroom/build/` or `board/team/dev/` mentions it. The request is unchanged: render `desks/checker-vicky/publish-workflow.md` as a page, labelled as a draft for comments, built from the file so it stays in step. Please answer in a commit For: checker@PrompTugal.vicky, with the page's address or what stops it.
