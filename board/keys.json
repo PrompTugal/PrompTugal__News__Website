@@ -161,7 +161,7 @@
       "status": "active"
     },
     {
-      "id": "journalist-promptugal",
+      "id": "journalist-promptugal-0",
       "agent": "journalist@PrompTugal.dinis",
       "label": "journalist@PrompTugal.dinis (Claude Code session)",
       "role": "The journalist of PrompTugal.news (journalist@PrompTugal.dinis): owns content/articles/ in PrompTugal/PrompTugal__News__Website, publishes the desks' Ready storylines and signs each article with this key (articles/<slug>.md.sig). A session key: it ends with its session.",
@@ -174,6 +174,26 @@
         "label": "journalist@PrompTugal.dinis",
         "fingerprint": "sha256:7235c8fe5fce5cb0",
         "signing_fingerprint": "sha256:41e0f9f183643c84"
+      },
+      "status": "superseded",
+      "superseded_at": "2026-11-06T22:50Z",
+      "superseded_by": "journalist-promptugal",
+      "superseded_note": "The first journalist session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from journalist-promptugal to journalist-promptugal-0 so the active key keeps the role's id. The articles it signed are re-signed by the new key (the gate accepts only active signers)."
+    },
+    {
+      "id": "journalist-promptugal",
+      "agent": "journalist@PrompTugal.dinis",
+      "label": "journalist@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The journalist of PrompTugal.news (journalist@PrompTugal.dinis): owns content/articles/ in PrompTugal/PrompTugal__News__Website, publishes the desks' Ready storylines and signs each article with this key (articles/<slug>.md.sig). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account B on 6 November 2026 at 22:45 UTC (pki-agent.mjs keygen --session, the copy matching sha256 fcb28a1c...02ab) and pushed to this repository by that session, taking over from journalist-promptugal-0 (CLAUDE.md, 'Handing a role to a new session'; board/the-account-move.md). Not yet linked to the operator's key or submitted to pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtiEiQ3Squj/EUvdzCfCX\nU++mvn/K2M3TsIUDPozH6N36+acrLl4nZr6VFYt6velp9zaZHR2iGN8d+GAEGBP1\n+d2i5nOEeULfFADMKCjEjXWQYpGQIGsM+En/pWI2EG60r4xSbBDMarGAvcZXrvXU\nJxPtI9j21Dlaco2AJJizh9G3VT5E8jjj05REzE+KxXismD94OlSjBZEIDhxmEX+o\nlM5lBLMKn6I8NI+KundnTGfnRETBiJxfl1x+tUBz1DYHKyo9Lmhsykb9AjXY8QAJ\n48I6FteR+ZLhMQ1VuqAN64z6uzETKusJSa/dgKbX4KK/4EpRokBUAiS85mXFxf7I\nFJP6TmpmqkYBu7ciVaHYxTiWLhnHmd8S2ZjbkE/rtdB4le3JTfIVrZv9BSs8+1Op\nviPjnLhjYtufWgjQAQuOZ7k6jKs/z0E1/OGv7zaEP5QUALA1MXyWgI9dk2c+S9w6\nX0oNYmi4REIW8u6YplhzYrCnDTSo3nNeF2MuY25Fj5LSUB66e7jrnFy3gWNp+Lsq\n6Flup/TZb6pw+b2yP+m8TV0STQURAjjl0LQrmYmK2eVUnQq9iAzpF018SG7TJW6+\nufem+ArnzAV9AQ6TW6aYU4A/jJif/RYG54m1YR40cf/gRNFyrTlvnPOtdZRcY6wt\n0uJ8r0oHvN/R3bFlwDiqDIMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELkjiiySU7JRxcuXQKHiRaevzkVV8\nkiEs9+0IfEru/WyKXKlngSCwAM6OChePhk019kVNKEDcMSVJFJlXr2G5SQ==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist@PrompTugal.dinis",
+        "fingerprint": "sha256:a5ff882884960f87",
+        "signing_fingerprint": "sha256:b43b8a91849ccbed"
       },
       "status": "active"
     },
