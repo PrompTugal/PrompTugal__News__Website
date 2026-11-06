@@ -325,6 +325,23 @@
         "signing_fingerprint": "sha256:be79ffe28ee62bcb"
       },
       "status": "active"
+    },
+    {
+      "id": "dev.search-promptugal",
+      "agent": "dev.search@PrompTugal.dinis",
+      "label": "dev.search@PrompTugal.dinis (Claude Code session)",
+      "role": "The search worker of PrompTugal.news (Sonnet): search over every page and JSON file with an LLM answer, the reader profile, the newsroom search, signed-in views. Pushes only to work/dev.search; dev@ reviews. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, the one abp@ and customers@ record), linked locally to the operator key sha256:db7f79fdd87e030a. Record sha256:47b7df5432b65035, encryption sha256:69f900736c808aca.",
+      "added": "2026-11-06T05:40Z",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsvHguD2bGn8tZbzZoNX3\nLjRyP+eywEmai92K4maYhtVu/MC2cwTzXObRjdCelbnsF+s9R/LQn58uuga6o99t\nTziLjuCXtJcXE/gnaWYvLqLdxrC7v1ONbUEypw5LdqBd9xpIqCEHNgQbCrOVaj9I\nXn8aaRIXsI2JwYjdoe/t/JwLIcI9Va+qsSSvuxs/4WIIj56aJJy6HSHJARV/RtcS\nQ5GaDaAbwdyKJECm78vATT7+kzwu2g5clnnYVIMVJqG3qhHBYR2L2jM0ehD6QtlX\n+IrUEk53R4QTBhHpXErdqH1OVl+zewK+JxDKyLBxucBcCM4sEmrQhXHWXq/RrtVJ\nm0R9J0xYp7kAqpDrcmvY95NSFSs3c7pzOy3CVQ8nFE0EiJiPMmYroO1oVBE8lJki\nHBa0un6KCFEFWVL5um0H5qbJyXrFjqy7SCORMc34RxD1Y3OONBAd8scWyBzBEGi2\np/r2aJDSP/ToamH1uRZFBWcgaEYqYpIgQ5p8D8ZUCxiy0dMQEnGA5pCcZ2qxwBEg\nJZt3E+DmHD8bLL1D8MBOIo2Q1XA+FqTETXRA/Vm3IzP6BmknP4M8e6kN/4GLHMBR\nVE/GCqIV8M0+EWVKc6K4PV/slk2eapUr5ocA0QBwKRBiM9pftXO0hbs+9GKf3Oh6\n7RsFSn2ucvA/oTBHzKWvAMMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdSx+oeUT36VejheJ1EkLZ0KngHOf\nbucgjhLdFG2FbC5wUD7qBegGfiFNyWZpKvkhuJgAfm1thUFlYFsbED0Cvw==\n-----END PUBLIC KEY-----\n",
+        "label": "dev.search@PrompTugal.dinis",
+        "fingerprint": "sha256:69f900736c808aca",
+        "signing_fingerprint": "sha256:47b7df5432b65035"
+      },
+      "status": "active"
     }
   ]
 }
