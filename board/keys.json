@@ -563,6 +563,23 @@
         "signing_fingerprint": "sha256:194e6c8be0ed0acc"
       },
       "status": "active"
+    },
+    {
+      "id": "journalist-ai-vicky-promptugal",
+      "agent": "journalist-ai@PrompTugal.vicky",
+      "label": "journalist-ai@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky Wang's AI and robotics journalist for PrompTugal.news (journalist-ai@PrompTugal.vicky, until 6 November 2026 journalist-ai@web-summit.vicky): the technology itself, AI companies and robots at the summit; drafts in desks/journalist-vicky/drafts/, when Vicky asks and at its scheduled runs. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 5 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs), first published as journalist-ai-vicky in the team site's data/keys.json under the name journalist-ai@web-summit.vicky. Renamed at Vicky's word (Dinis asked for new names) on 6 November 2026; the same key, now entered here by that session. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2CWIy4MHJXJ3mYFUA5UL\n5i+V/jSKz8UTCP51cfzMy29kCVW5uqVC0bDT3tjbEqwe961Va77JzGUzmrpfbOLz\n+HYn1RiTIEBKl+dIHXDSTHPuaJzM/ePpiAa/3vu1/9Kpl6AHNvaJumCVKvfltEr1\nwfF3yEwRS9xOx1lqq/+FPjaMurXpqQz9tkEY9jgSv52wxcDbbXuE6DFT3zF/Tz6V\naMkomKt1r7SnWuBFbMKeKUJLgFvvIDYexH4GqBqsNtCFEO/bp5Tw+zJBMvYR8/q/\nLtb8G78F9T11yQrXmMHq2mhcqO6725sK4zKOyxEn+HBsI3zGK3b4Z/uNTm2nUzPi\nUo6Sca49cx5rcwT0tOR2rEKDsCplNmwHkX3EAG83yL65+u3Xs9Yz0K2MNFWn2tEC\n9mAUuPjFFmy62TNjNN+9TtZEW7xDt8z3l409A92qsOivgHTpj4PmhWx9hDAFsX6U\nhak0FsNWvBgumpOY7yNIVFJQYWsZJMjg/Y0hOP0Q20ZICnd1YVQLm6lBTmX+Zm0o\nJrXy4WQXs4p7HdCbq+co8OoW+vnk+SMHjaFQQ1PKKSJ9DtmfCI2e/8Z2ePSmZD7x\ndtW5zu9zw9TxhcjHVXCOTtkHvGz6VfaxGlnE9YLtKBhU65H6lltWp+oB4PqbJja3\naO+bGsgPHtv9bU61kjS7Bl8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2Dd9vT/6Z3ZF+hIq1caS/RJqWj4z\nu3eJxgHealBx8Ps5Fxgd7gbvPo2z9L6nRbe3D99leWdLuiiU4E2TaqS0YQ==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist-ai@web-summit.vicky",
+        "fingerprint": "sha256:96301f62bfbdb04c",
+        "signing_fingerprint": "sha256:c173f1bc39a2ab0d"
+      },
+      "status": "active"
     }
   ]
 }
