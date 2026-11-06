@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.266",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: the library, round 3: its cards and the reality tree drawn in the site's own graph explorer (the reading room), finding aids, Dinis's guidance as a special collection, verified signatures at the desk",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "0f81d4f29"
+  },
+  {
     "version": "v0.1.265",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: the footer's outside links open in a new tab too (GR-22)",

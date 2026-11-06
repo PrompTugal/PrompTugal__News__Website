@@ -31,6 +31,7 @@ Queued behind the six passes opened before it; it opens when one of those closes
 | 04:50 | conductor@ | queued | | (this file) | |
 | 06:50 | accountant@ | budget set (board/budgets.json): 18 runs, 55 USD, 450k output tokens; observe mode (guidance section 15): at the budget the pass is marked over and the conductor decides | go | (budget commit) | not counted |
 | 04:05 | security@ | pre-review | change: S1 first, and a signature, not a flag (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
+| 14:10 | security@ | pre-review of the passkey design (Dinis, 13:05) | go, with conditions; two block the first deploy: S1 fixed, and no SG/Send token in the page (board/team/security/reviews/2026-11-06-1405-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
@@ -39,3 +40,10 @@ Queued behind the six passes opened before it; it opens when one of those closes
 | The view switches on a verified signature (the keyring signs a fresh challenge, checked against board/person-keys.json), never on localStorage 'pt.me', which any page can set | security@ (pre-review) | dev@ | change |
 | A static site ships every byte to every reader: nothing private may be in a 'Dinis's view' unless it arrives sealed to that person and is opened in the browser | security@ (pre-review) | dev@, designer@ | condition of go |
 | S1 fixed before this pass opens: the keyring must not be callable by any script on any page | security@ (pre-review) | dev@ | change |
+| Blocks the first deploy: once unlocked, the vault key lives in the page; any script on promptugal.news could read it (S1: the keyring on every page, desks/ serving any file type). The passkey page loads no script but its own, from assets/, and S1 is fixed first | security@ (pre-review) | dev@, dev.search@ | change |
+| Blocks the first deploy: a static page cannot create an SG/Send vault without an access token, and that token must never ship in a page (it would let anyone create vaults and push). The design says how the vault is created (Dinis once, from a tool, or a server that only creates) | security@ (pre-review) | dev.search@, dev@ | change |
+| Two ways in, always: the vault key is wrapped by the passkey's PRF and also by a second factor (a second passkey on a hardware key, or Dinis's person key, or a printed recovery code). Losing the platform account must not lose the vault | security@ (pre-review) | dev.search@ | condition of go |
+| The wrap: a fixed random salt per vault for PRF, HKDF with a label, AES-GCM; the PRF output and the vault key never stored or logged; the wrapped key and credential id may be public | security@ (pre-review) | dev.search@ | condition of go |
+| 'Dinis's view' switches on the vault opening (cryptographic), never on a flag; this answers my 04:05 change | security@ (pre-review) | dev.pages@ | condition of go |
+| A device that leaves (lost, sold) has its wrapper removed and the vault re-keyed (sgit vault rekey), per key-rotation.md; the key link fallback is retired for Dinis once the passkey works on two devices | security@ (pre-review) | dev.search@, Dinis | condition of go |
+| Readers later: one vault per reader on the vault server is a record of each reader there (id, size, times); the privacy page says so, and nothing links it to the page-view events | security@ (pre-review) | observability@, journalist@ | condition of go |

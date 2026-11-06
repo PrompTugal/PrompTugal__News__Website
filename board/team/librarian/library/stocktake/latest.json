@@ -14,7 +14,7 @@
   "ST08": 6,
   "ST09": 0,
   "ST10": 0,
-  "ST11": 1,
+  "ST11": 2,
   "ST12": 0,
   "ST13": 0,
   "ST14": 14,
@@ -117,12 +117,17 @@
    ]
   },
   "ST11": {
-   "count": 1,
+   "count": 2,
    "examples": [
     {
      "code": "ST11",
      "subject": "reality/publication/index.md:19",
      "text": "EXISTS line without evidence: [S] Domain promptugal.news (CNAME in the repository; DNS and HTTPS checks recorded by conductor@ and dev@, S)."
+    },
+    {
+     "code": "ST11",
+     "subject": "reality/agents/index.md:23",
+     "text": "evidence path missing: desks/outreach/decision-who-sends.md"
     }
    ]
   },
