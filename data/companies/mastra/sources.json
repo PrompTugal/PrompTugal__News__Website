@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "fl1",
+      "url": "https://mastra.ai/docs",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Mastra Docs, \"Get started with Mastra\", read 6 November 2026: a TypeScript framework for building AI agents and applications; an agent, its model as provider/model, and tools defined with createTool (the flow build-an-agent)",
+      "kind": "other"
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "mastra",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "build-an-agent",
+      "name": "A developer builds an AI agent with Mastra",
+      "summary": "As its getting-started page describes it: Mastra is a TypeScript framework for building AI agents and applications. The page also carries instructions addressed to coding agents; those are its content, not part of this map.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The developer",
+          "what": "Creates a Mastra project and installs its core package.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The developer",
+          "what": "Defines an agent with its model, named as provider/model.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The developer",
+          "what": "Gives the agent tools, each defined with createTool: an id, a description, an input schema and an execute function.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Runs, choosing tools to call; each call is validated against the tool's input schema and executed with a context the runtime provides (tracing, cancellation and request data).",
+          "agent": "Decides which tools to call to do its task.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}
