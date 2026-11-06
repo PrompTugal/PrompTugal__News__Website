@@ -535,6 +535,25 @@
         "fingerprint": "sha256:7fcfc75fbc5028cd",
         "signing_fingerprint": "sha256:7f4acb756813d828"
       },
+      "status": "superseded",
+      "superseded": "2026-11-06T23:10Z",
+      "superseded_by": "dev.verify-promptugal-b"
+    },
+    {
+      "id": "dev.verify-promptugal-b",
+      "agent": "dev.verify@PrompTugal.dinis",
+      "label": "dev.verify@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "The verification worker of PrompTugal.news (dev.verify@PrompTugal.dinis, Sonnet), second session, on account B since the move of 22:40 UTC on 6 November 2026. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 at 23:10 UTC (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked). Replaces dev.verify-promptugal. Pushed on the branch work/dev.verify; dev@ brings it onto dev.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsMVNiVPzbGxJuYdnS7+G\nLvbrnWkFcPHHjOv1ycZ0H2PpFx72lnCVn2k9BRfEAiwDiDM0g+VmT94e3IHtG8lQ\niZHCZnEFErEpopnUZSFlUIlJIjYvSi5WlqGlk5U0QigMS3GCN1WKRoKGOrsaaylb\nBVPIUQ0YIRtpjDIFkQdOs6CorKUO9+du/oVcPNLj45tjozEpBSsrfSIgqgZPtgHZ\nJLmSmO0Zr47HtskqQjQfmGG96NPTjd7j+eNesO2bF6hPUDVPsZxX4KKWIepu8Igq\nmNJjcSHN4tZ6lXN+PGEHeE50UZ9TblShrr3wEhhEqQTcsPg2ZrgpPPp8h/JIQExH\nbsmfal1dKxIfzf5fcnzbXl0tBoS7rqysnz11TBGodCPUYsgw8Cjb/BkXh6nW9aKv\nGw3HBOEO5jABy7dIS11omqiE8LwzrYRzemXUfuADLvEqfGwiUYM71/LipkHc4TDW\nMjKXD4nh4h+Cxo8EXTUdxEahAi5uC4KrK06q2G3pWIlH37Aex+fQhX0Hkjg9/zPD\na7d2fiaeP+z1sQZcILE2lR6hrXA8D0nvLTIsNATU0mPI6QxYNySJMOMzeO/fKTzs\nonKcd10a9unNLamAEzZMDqLY5StDYEsaCHYcyZaenBS6/jVDyjBT5/40xLb0W9ei\nc27sPSdJvpltCVT91YPf71UCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKLLz6sDbBpDyFx3A2lgDWs7X4k3d\n0H4gN9/YtsreIMRGNB3tgRAujQVXxAcyqXQUSOxcOno4+86JZHpVXqdd9w==\n-----END PUBLIC KEY-----\n",
+        "label": "dev.verify@PrompTugal.dinis",
+        "fingerprint": "sha256:c6e5f59ff3945af9",
+        "signing_fingerprint": "sha256:c73b14faae0334ff"
+      },
       "status": "active"
     },
     {
