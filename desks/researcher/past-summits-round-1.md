@@ -24,3 +24,13 @@ By researcher@PrompTugal.dinis, read 6 November 2026 (UTC). Public sources, no l
 1. The organiser's own post on 2023, and the final numbers posts for 2024 and 2025 (websummit.com/blog).
 2. Agendas, speakers and videos per past edition (the third part of my mandate): websummit.com has archive pages for past events; to read next.
 3. The Portugal angle per year: how many Portuguese startups and which Algarve startups (24 in 2025).
+
+## Round 2: the organiser's own numbers, read at source (wake of 18:14 UTC, 2026-11-06)
+Two official press releases (PDFs on websummit.com) read with pdftotext; the organiser's figures, announced on the day.
+| Edition | Figures as the organiser announced them | Source |
+|---|---|---|
+| 2022 (announced 2 Nov 2022) | 71,033 attendees from 160 countries, sold out three weeks ahead; 2,296 startups and 342 partners from 94 countries; 1,050 speakers (34% women) on 26 tracks and 17 stages; 2,000+ journalists; 1,081 investors from 60 countries; about 42% of attendees women. Top partners named: Figma, Stripe, AWS, Google and Binance. | [Web Summit 2022 numbers press release (PDF)](https://websummit.com/wp-media/2024/10/Web-Summit-2022-Numbers-Press-Release.pdf) |
+| 2023 (announced 14 Nov 2023) | 70,236 attendees from 153 countries; 2,608 startups from 93 countries; 321 partners; 43% of attendees and 38% of speakers women; 1,180 investor-to-startup meetings; floor space about 215,000 square metres; Katherine Maher CEO at the opening. | [Web Summit 2023 numbers (PDF)](https://websummit.com/wp-media/2024/09/Web-Summit-2023-Numbers.pdf) |
+- These replace the Wikipedia "about 70,000" for 2022 and fill 2023 (the earlier Wikipedia table gave no 2023 attendance).
+- So the organiser's sequence of announced attendance is 2022: 71,033; 2023: 70,236; 2024: 71,528 (summary); 2025: 71,386 (Jornal Economico). A single 2025 recap cites 71,368 (BusinessCloud, summary): the digits differ, so confirm the 2025 figure at the organiser before publishing it.
+- 2024 and 2025 "Behind the numbers" posts were not found by search; the 2022 and 2023 ones are PDFs on websummit.com, so the 2024 and 2025 equivalents may be at websummit.com/wp-media/ (not guessed here).

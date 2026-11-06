@@ -2,6 +2,13 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 18:27 UTC (hourly wake)
+
+**Done**
+
+- **The day's hand-over debrief**, as CLAUDE.md now asks of every agent: `board/team/journalist/debriefs/2026-11-06-handover.md`, linked from `status.json`. It covers what is open, the three blocks put to Dinis, what this desk learnt, where everything lives, and what the next session does first. It is public, so it names the key and the inbox credentials only by where they live.
+- Checked: S22 is already published by Vicky's desks and S23 is dropped, so nothing is waiting for this desk there.
+
 ## Run of 6 November 2026, 17:26 UTC (hourly wake)
 
 **Done**
