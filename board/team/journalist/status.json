@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "running: hourly at :26 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T15:45Z",
+  "updated": "2026-11-06T16:45Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -22,11 +22,13 @@
     "The two decisions moved to /newsroom/decisions/ as 'For Dinis' pages (the grant now covers it); becoming-a-publication round 2: newsroom.sgit.ai's materials against ours, and a corrections policy draft (this wake)",
     "The inbox drained read-only (14 messages, every signature checked against board/keys.json; left pending on the lane because the drain's push needs an SG/Send token); seven synthetic findings decided, six done in the articles (this wake)",
     "Becoming-a-publication round 3, part 1: a draft editorial statute to the Press Law's article 17 (this wake)",
-    "Becoming-a-publication round 3, part 2: the Press Law's right of reply and of correction, and a draft page on replies, corrections and removal (this wake)"
+    "Becoming-a-publication round 3, part 2: the Press Law's right of reply and of correction, and a draft page on replies, corrections and removal (this wake)",
+    "Becoming-a-publication: this desk's three rounds done (ERC's fees from Portaria 785/2009; the form and the UK route not established) (this wake)"
   ],
   "next": [
-    "The pass, last part: ERC's current application form and fee, and a source for the UK route",
-    "The Brazil project's next rounds: the correspondent's ideas BR1 to BR6 (BR5 held)"
+    "The newsletter: Saturday's morning edition, by hand over the one built from data, ready by 07:30 Lisbon (dev@'s feature: content/newsletter/2026-11-07-morning.md)",
+    "The Brazil project's next rounds: the correspondent's ideas BR1 to BR6 (BR5 held)",
+    "Vicky's desks' new drafts (S22, S23) once their reviewer marks them Ready, if they want this desk to publish them"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
@@ -134,8 +136,14 @@
     {
       "started": "2026-11-06T15:26Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.281",
       "line": "replies, corrections and removal: the law and a draft page"
+    },
+    {
+      "started": "2026-11-06T16:26Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "becoming-a-publication: the last part (fees, the form, the UK); this desk's rounds done"
     }
   ],
   "decisions_on_findings": [
