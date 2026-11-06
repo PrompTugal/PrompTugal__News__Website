@@ -2,13 +2,14 @@
   "agent": "observability@PrompTugal.dinis",
   "focus": "Who reads promptugal.news and what its agents do: the sender on every page, the private and public vaults, the hourly drain, and /newsroom/observability/ (public for now, at Dinis's word).",
   "state": "running: hourly drain at :18 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T04:00Z",
+  "updated": "2026-11-06T04:40Z",
   "done": [
     "Vaults o0x20qag (private, six lanes) and 34jzubyc (public, read key published); the sender assets/obs/obs.js with country, region and city from the browser's own lookup; the drain newsroom/tools/obs/obs_drain.py; newsroom/tools/agent-log.mjs (v0.1.45)",
     "Key observability-promptugal in board/keys.json; the drain verifies agent runs against it (v0.1.69)",
     "/newsroom/observability/ shows only this site's traffic, as the team site's explorer (overview, policies, graph, agents, pages, places, people, Behind the scenes); Open vault and Drain for a browser holding Dinis's key (v0.1.76)",
     "Vault keys re-sealed to Dinis's new sign-in key sha256:3cf8a7712553923b (newsroom/observability/sealed/dinis.json)",
-    "Hourly drains since 01:18 UTC: 67, 13, 0, 16, 206 records"
+    "Hourly drains since 01:18 UTC: 67, 13, 0, 16, 206, 436, 49 records",
+    "The drain reports itself as observability@web-summit.dinis's briefing (relayed at Dinis's word) says: an 'ODD:' line above the banner for a lane at 800+, a new claimed key, an agent silent 24 h after logging, a failed push; one line most hours, a debrief at 03, 07, 11, 15, 19 and 23 UTC"
   ],
   "next": [
     "Keep draining hourly; watch the lanes' fill (1,000 each) and add lanes if traffic grows",
@@ -19,6 +20,17 @@
     "Dinis: Open vault and Drain are untested with your real key (this session does not hold it); tell me if they fail after you sign in on /login/"
   ],
   "wakes": [
-    { "started": "2026-11-06T03:18Z", "outcome": "ok", "release": "none (an ordinary drain)", "line": "hourly drain: 206 records" }
+    {
+      "started": "2026-11-06T03:18Z",
+      "outcome": "ok",
+      "release": "none (an ordinary drain)",
+      "line": "hourly drain: 206 records"
+    },
+    {
+      "started": "2026-11-06T04:18Z",
+      "outcome": "ok",
+      "release": "none (an ordinary drain)",
+      "line": "hourly drain: 436 records"
+    }
   ]
 }

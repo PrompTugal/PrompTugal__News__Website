@@ -110,6 +110,26 @@ def public(allrows, now):
             'agents': {'runs': len(runs), 'signed': sum(1 for r in runs if r.get('signed')), 'recent': [{k: r[k] for k in keep if k in r} for r in runs[:200]]},
             'about': f'Published by {AGENT} (newsroom/tools/obs/obs_drain.py) from the private vault. Counts only for anonymous readers; every record is an untrusted claim. The per-group files are latest/*.json.'}
 
+def oddities(data, pub, by_lane, odd):
+    """What is odd this run, one line each, printed ABOVE the done banner (observability@web-summit.dinis's briefing
+    "How the drain reports itself", relayed at Dinis's word on 6 November 2026): a lane at 800 or more pending (full at
+    1,000: 507), a claimed key never seen before, an agent that logged before and has been silent for 24 hours, a failed
+    push. The keys and agents already seen are kept in the private vault (state/seen.json). Counts and names only."""
+    for lane, n in sorted(by_lane.items()):
+        if n >= 800: odd.append(f'lane {lane} holds {n} pending: ' + ('FULL (507)' if n >= 1000 else 'near full'))
+    seen_p = os.path.join(data, 'state', 'seen.json')
+    seen = lets.jload(seen_p, {'keys': [], 'agents': []})
+    f = lets.jload(os.path.join(pub, 'latest', 'findings.json'), {'by_key': []})
+    for k, n in f.get('by_key', []):
+        if k and k not in seen['keys']: odd.append(f'a new claimed key {k} ({n} signature finding(s))'); seen['keys'].append(k)
+    w = lets.jload(os.path.join(pub, 'latest', 'widgets.json'), {'silent_24h': []})
+    for name, last, hrs in w.get('silent_24h', []):
+        if last and name in seen['agents']: odd.append(f'{name} has not logged for {hrs} h (last {last})')
+    a = lets.jload(os.path.join(pub, 'latest', 'agents.json'), {'agents': []})
+    seen['agents'] = sorted(set(seen['agents']) | {x['agent'] for x in a.get('agents', []) if x.get('runs')})
+    lets.jsave(seen_p, seen)
+    return odd
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--creds', default=os.path.expanduser('~/.sg-send/obs-promptugal/creds.json'))
@@ -127,7 +147,7 @@ def main():
     from sgit_ai.crypto.PKI__Crypto import PKI__Crypto
     from concurrent.futures import ThreadPoolExecutor
     pki, pool = PKI__Crypto(), ThreadPoolExecutor(max_workers=8)
-    T, tick, t_start = {}, [time.time()], time.time()
+    T, tick, t_start, odd = {}, [time.time()], time.time(), []
     def phase(name):
         now = time.time(); T[name] = round(now - tick[0], 2); tick[0] = now
     # L: load the lanes
@@ -191,10 +211,11 @@ def main():
     r = subprocess.run(['sgit', 'commit', f'publish {stamp}'], cwd=pub, capture_output=True, text=True)
     if not any(w in (r.stdout + r.stderr).lower() for w in ('nothing', 'no changes')):
         p = subprocess.run(['sgit', 'push'], cwd=pub, capture_output=True, text=True)
-        if p.returncode: print(f'obs_drain: push of the public vault failed (exit {p.returncode})')
+        if p.returncode: print(f'obs_drain: push of the public vault failed (exit {p.returncode})'); odd.append('the public vault push failed')
     phase('publish')
+    for line in oddities(data, pub, by_lane, odd): print('ODD: ' + line)
     print(banner.end(pub, len(rows), from_browser, bad, got, time.time() - t_start, by_lane, T))
-    print(f"obs_drain: drained {len(rows)} ({bad} undecryptable); {round(time.time() - t_start, 1)} s " + str(T))
+    print(f"obs_drain: {stamp[11:16]} UTC, drained {len(rows)} ({bad} undecryptable) in {round(time.time() - t_start, 1)} s; " + (f'{len(odd)} odd: ' + '; '.join(odd) if odd else 'nothing odd'))
 
 if __name__ == '__main__':
     main()
