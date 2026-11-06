@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/team-schedule.schema.json",
+  "title": "The agents' scheduled tasks (board/schedule.json)",
+  "description": "Kept by conductor@PrompTugal.dinis. A task is enabled, paused or stopped only at Dinis's word. state none: the agent has no scheduled task (Dinis gives it work in its session). An agent may have more than one row (a handover: the old task disabled, the new one enabled), but at most one enabled.",
+  "type": "object",
+  "required": [
+    "about",
+    "updated",
+    "tasks"
+  ],
+  "properties": {
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updated": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?Z$"
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "agent",
+          "state"
+        ],
+        "properties": {
+          "agent": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+@PrompTugal\\.dinis$"
+          },
+          "minute": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "cron": {
+            "type": "string",
+            "pattern": "^\\S+ \\S+ \\S+ \\S+ \\S+$"
+          },
+          "trigger": {
+            "type": "string",
+            "pattern": "^trig_[A-Za-z0-9]+$"
+          },
+          "state": {
+            "enum": [
+              "enabled",
+              "disabled",
+              "paused",
+              "none"
+            ]
+          },
+          "since": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?Z$"
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

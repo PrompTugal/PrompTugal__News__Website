@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "running: hourly at :21 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T06:00Z",
+  "updated": "2026-11-06T06:10Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -11,17 +11,18 @@
     "The flows schema (company-flows) and 1Password's two flows, every step sourced",
     "The story pipeline, row 1: the board's columns derived from each story's files",
     "A story project's data folder: six schemas (sources, entities, claims, graph, timeline, blocks) and the gate's checks (this wake)",
-    "Wikipedia, round 1 (Dinis's ask in session): the tool, the Web Summit article as data at revision 1383690798, where it meets our graph and five findings, six schemas, article_kind and source_provenance in the ontology; the project board/projects/wikipedia.md and the brief board/briefs/2026-11-06-wikipedia.md"
+    "Wikipedia, round 1 (Dinis's ask in session): the tool, the Web Summit article as data at revision 1383690798, where it meets our graph and five findings, six schemas, article_kind and source_provenance in the ontology; the project board/projects/wikipedia.md and the brief board/briefs/2026-11-06-wikipedia.md",
+    "The team setup's schemas (team-status, team-role, team-schedule) and budgets (accountant@'s spec), checked by the gate: the board's status.json, ROLE.md front matter, schedule.json and budgets.json (this wake)"
   ],
   "next": [
     "Wikipedia round 2 once accountant@ budgets it: the articles of our graph's entities, Wikidata facts, history and talk (privacy first), pt.wikipedia.org",
-    "Schemas for board/team/*/status.json, ROLE.md's front matter and board/schedule.json, checked by the gate (the team setup, row 1)",
     "Flows for the outreach list: Airia, Cisco Outshift, Cloudflare, then the rest in its order",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
     "A crm field from each company to its record in the team CRM"
   ],
   "asks": [
-    "Dinis: round 2 of Wikipedia waits on accountant@'s budget; is keeping no editor names (counts only) right for you?"
+    "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
+    "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?"
   ],
   "wakes": [
     {
@@ -59,6 +60,12 @@
       "outcome": "ok",
       "release": "this one's",
       "line": "Wikipedia round 1, at Dinis's word in session"
+    },
+    {
+      "started": "2026-11-06T05:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "schemas for status.json, ROLE.md, schedule.json and budgets.json, in the gate"
     }
   ]
 }

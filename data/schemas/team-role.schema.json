@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/team-role.schema.json",
+  "title": "The front matter of an agent's ROLE.md (board/team/<role>/ROLE.md)",
+  "description": "The block between the --- lines at the top of ROLE.md, read as flat key: value pairs. The body (Focus, Paths I write, Done when, Never) is prose. Only agent is required; role, started, started_by, schedule and key are read when present.",
+  "type": "object",
+  "required": [
+    "agent"
+  ],
+  "properties": {
+    "agent": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+@PrompTugal\\.dinis$"
+    },
+    "role": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "started": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}(:\\d{2})?Z)?$"
+    },
+    "started_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schedule": {
+      "type": "string",
+      "minLength": 1
+    },
+    "key": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

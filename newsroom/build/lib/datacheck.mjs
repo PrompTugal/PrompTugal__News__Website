@@ -136,6 +136,25 @@ export function checkData() {
         for (const x of [...m.links, ...m.rows]) need(`${w}/meets.json`, x.ref)
         for (const x of m.findings) if (x.statement && !ids.has(x.statement)) errors.push(`${w}/meets.json: ${x.id} names statement ${x.statement}, which is not in statements.json`)
     }
+    // the board's machine-read files (board/the-team-setup.md, board/spec-budgets-schema.md), against data/schemas/
+    const board = (r, kind) => { if (!fs.existsSync(R(r))) return null; let v; try { v = JSON.parse(fs.readFileSync(R(r), 'utf8')) } catch { errors.push(`${r}: not JSON`); return null } for (const e of validate(v, `${kind}.schema.json`, reg)) errors.push(`${r}: ${e}`); return v }
+    const mine = (r, a, role) => { if (a && a !== `${role}@PrompTugal.dinis`) errors.push(`${r}: agent ${a} != folder`) }
+    const teamDir = R('board/team')
+    if (fs.existsSync(teamDir)) for (const role of fs.readdirSync(teamDir).filter(d => fs.statSync(path.join(teamDir, d)).isDirectory())) {
+        const sr = `board/team/${role}/status.json`, rr = `board/team/${role}/ROLE.md`
+        mine(sr, board(sr, 'team-status')?.agent, role)
+        if (!fs.existsSync(R(rr))) continue
+        const fm = {}, m = /^---\n([\s\S]*?)\n---/.exec(fs.readFileSync(R(rr), 'utf8').replace(/\r\n/g, '\n'))
+        for (const l of (m ? m[1] : '').split('\n')) { const k = /^([a-z_]+):\s*(.*)$/.exec(l); if (k) fm[k[1]] = k[2].trim() }
+        for (const e of validate(fm, 'team-role.schema.json', reg)) errors.push(`${rr}: ${e}`)
+        mine(rr, fm.agent, role)
+    }
+    const sched = board('board/schedule.json', 'team-schedule'), on = new Set()
+    for (const t of sched?.tasks || []) if (t.state === 'enabled') { if (on.has(t.agent) || !t.trigger) errors.push(`board/schedule.json: ${t.agent}`); on.add(t.agent) }
+    const bud = board('board/budgets.json', 'budgets'), rows = new Set()
+    if (bud && !(bud.thresholds.warn < bud.thresholds.stop)) errors.push('board/budgets.json: warn >= stop')
+    for (const a of bud?.agents || []) { if (rows.has(a.agent)) errors.push(`board/budgets.json: ${a.agent}`); rows.add(a.agent) }
+    for (const p of bud?.passes || []) if (p.file !== `board/passes/${p.pass}.md` || !fs.existsSync(R(p.file))) errors.push(`board/budgets.json: ${p.pass}`)
     // no social handle in what we publish about a person (the derivation drops them; this catches a hand edit)
     const HANDLE = /(^|[\s(,;])@[A-Za-z0-9_]{2,}/
     for (const p of s.people) for (const v of [p.role, p.organisation, ...p.listings.flatMap(l => [l.role, l.organisation])]) if (v && HANDLE.test(v)) errors.push(`data/people/${p.id}: a social handle in "${v}"`)

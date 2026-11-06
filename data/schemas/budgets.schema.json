@@ -1,0 +1,352 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/budgets.schema.json",
+  "title": "The budgets of PrompTugal.news (board/budgets.json)",
+  "description": "Kept by accountant@PrompTugal.dinis only (board/spec-budgets-schema.md): per agent per day, per pass, per loop. The gate also checks: warn below stop, one row per agent at most, every pass row names a file in board/passes/.",
+  "type": "object",
+  "required": [
+    "about",
+    "by",
+    "written",
+    "updated",
+    "units",
+    "thresholds",
+    "team",
+    "agents",
+    "passes",
+    "loops"
+  ],
+  "properties": {
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "by": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+@PrompTugal\\.dinis$"
+    },
+    "written": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?Z$"
+    },
+    "updated": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?Z$"
+    },
+    "issue": {
+      "type": "string",
+      "minLength": 1
+    },
+    "units": {
+      "type": "object",
+      "required": [
+        "day",
+        "releases",
+        "usd",
+        "output_tokens"
+      ],
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "thresholds": {
+      "type": "object",
+      "required": [
+        "warn",
+        "stop",
+        "rule"
+      ],
+      "properties": {
+        "warn": {
+          "type": "number",
+          "minimum": 0
+        },
+        "stop": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rule": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "on_stop": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "team": {
+      "type": "object",
+      "required": [
+        "per_day",
+        "state"
+      ],
+      "properties": {
+        "per_day": {
+          "type": "object",
+          "required": [
+            "releases",
+            "usd"
+          ],
+          "properties": {
+            "releases": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "usd": {
+              "type": "number",
+              "minimum": 0
+            }
+          }
+        },
+        "spent_today": {
+          "type": "object"
+        },
+        "state": {
+          "enum": [
+            "ok",
+            "warn",
+            "stopped"
+          ]
+        }
+      }
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "agent",
+          "per_day",
+          "used",
+          "state"
+        ],
+        "properties": {
+          "agent": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+@PrompTugal\\.dinis$"
+          },
+          "per_day": {
+            "type": "object",
+            "required": [
+              "releases",
+              "usd",
+              "output_tokens"
+            ],
+            "properties": {
+              "releases": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "usd": {
+                "type": "number",
+                "minimum": 0.01
+              },
+              "output_tokens": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          },
+          "spent_today": {
+            "type": "object",
+            "properties": {
+              "releases": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "usd": {
+                "type": "number",
+                "minimum": 0
+              },
+              "output_tokens": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "read_at": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "used": {
+            "type": "number",
+            "minimum": 0
+          },
+          "state": {
+            "enum": [
+              "ok",
+              "warn",
+              "stopped"
+            ]
+          },
+          "why": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "passes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pass",
+          "file",
+          "budget",
+          "state"
+        ],
+        "properties": {
+          "pass": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^board/passes/[a-z0-9-]+\\.md$"
+          },
+          "rounds": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "steps": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "planned_runs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "budget": {
+            "type": "object",
+            "required": [
+              "runs"
+            ],
+            "properties": {
+              "runs": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "usd": {
+                "type": "number",
+                "minimum": 0
+              },
+              "output_tokens": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          },
+          "spent": {
+            "type": "object",
+            "properties": {
+              "runs": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "usd": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            }
+          },
+          "state": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "pass_rules": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "sub_agents": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "loops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "loop",
+          "rule"
+        ],
+        "properties": {
+          "loop": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rule": {
+            "type": "string",
+            "minLength": 1
+          },
+          "max_rounds_per_day": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "enforcement": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "what",
+          "who",
+          "state"
+        ],
+        "properties": {
+          "what": {
+            "type": "string",
+            "minLength": 1
+          },
+          "who": {
+            "type": "string",
+            "minLength": 1
+          },
+          "state": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}
