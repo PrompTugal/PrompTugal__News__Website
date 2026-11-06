@@ -1,8 +1,8 @@
 {
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
-  "state": "handed over: moving to account B",
-  "updated": "2026-11-06T21:30Z",
+  "state": "working (account B session, onboarded 22:35 UTC); waiting for my inbox to be reissued to the new key",
+  "updated": "2026-11-06T22:40Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -22,20 +22,25 @@
     "Library rounds 2 and 3 (14:05, 14:15): typed connections, the authority file from data/, the vocabulary, indexes, stocktake; the library graph and the reality tree drawn in the site's own explorer at board/team/librarian/library/reading-room.htm; finding aids for every class and pass; Dinis's guidance as a special collection (494 ideas, his words verbatim, the Later ones first); signatures verified at the desk; the desk announced to all 35 agent inboxes and the conductor",
     "The MAJOR bug is owned by conductor@ (14:11): sgit-ai pinned in the environment's setup script, 'Never blocked in silence' in CLAUDE.md naming waits-on-dinis.md, the drain to come into this repository (devops@)",
     "Wake of 15:56: 8 messages drained and verified; reviews from security@ (go), dev.graphs@ and ontologist@ answered on the record (library/reviews/reviews-of-the-plan.md); library round 4 released: the graph's looks and presets as data for the explorer, a phone view of 30 nodes on the first screen, concepts from data/concepts.json",
-    "Wake of 18:56: two reviews taken in and answered on the record (ontologist@: a 'newsroom' world in the ontology, accepted; dev@: the reading room no longer deployed under board/ for security@'s S1b, asked to make it a page of the build at /library/); the catalogue at v0.1.316 (1,156 pages, 933 board files, 29 passes, 157 findings); the library at 2,909 cards, check and 39 tests green; the hand-over debrief"
+    "Wake of 18:56: two reviews taken in and answered on the record (ontologist@: a 'newsroom' world in the ontology, accepted; dev@: the reading room no longer deployed under board/ for security@'s S1b, asked to make it a page of the build at /library/); the catalogue at v0.1.316 (1,156 pages, 933 board files, 29 passes, 157 findings); the library at 2,909 cards, check and 39 tests green; the hand-over debrief",
+    "Account B session onboarded (22:23 to 22:35 UTC): new session key (record sha256:b7d903294669247b, encryption sha256:a1bcc67afa9970d6) as librarian-promptugal in board/keys.json, the first session's entry renamed librarian-promptugal-0 and marked superseded at 22:30; agents.json note updated; conductor.b@ and conductor@ told on their inboxes and asked to reissue mine; the catalogue at v0.1.363 (1,170 pages, 1,114 board files, 13 desks, 29 passes, 158 findings, 27 agents); the library at 3,107 cards, check OK, 39 tests green; waits-on-Dinis regenerated (25 blocked, 8 decisions, 52 questions)"
   ],
   "next": [
-    "The new session on account B: onboard from the debrief (its own key, the inbox reissued to it by the conductor, drain, the desk, DAILY_RUN.md)"
+    "Drain my inbox once the conductor reissues board/inboxes/librarian.json to the new key; take the slips in at the desk (desk.mjs intake, verify) and answer them",
+    "The open slips: SLIP-20261106-009 (ontologist@'s newsroom world) and -010 (the reading room as /library/, dev@)",
+    "Queue Q8 (the night memos against the ideas ledger) and Q9 (the Later list from board/README.md)",
+    "Reality tree: the two warnings in library check (publication line 19 without evidence; agents line 23 names desks/outreach/decision-who-sends.md, which is gone)"
   ],
   "asks": [
     "Dinis: confirm sub-agents and a /library/ section of the site in my grant (asked of abp@ at 13:25; I am going ahead on your word)"
   ],
   "blocked_on": [
+    "conductor@ or conductor.b@: my inbox (board/inboxes/librarian.json) is sealed to the superseded key; reissue it to sha256:a1bcc67afa9970d6 (asked on both inboxes at 22:35)",
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",
     "ontologist@: a schema for board/catalogue.json",
-    "my inbox writes back: the drain opens and reads my messages (5 at 13:40), but cannot commit them into the inbox vault or mark them processed: the vault push needs an SG/Send access token this session does not have (sgit: 'no access token configured'); the messages stay pending on the lane, nothing is lost",
     "dev@: the reading room as a page of the build (/library/), since board/ no longer deploys HTML (SLIP-20261106-010)",
-    "ontologist@: the 'newsroom' world in data/ontology.json, once dev@ says the graph accepts a fifth world"
+    "ontologist@: the 'newsroom' world in data/ontology.json, once dev@ says the graph accepts a fifth world",
+    "my inbox writes back: the drain cannot mark messages processed without an SG/Send access token (sgit: 'no access token configured'); messages stay pending on the lane, nothing is lost"
   ],
   "wakes": [
     {
@@ -73,11 +78,18 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Last run of this session: hand-over debrief refreshed; state handed over (role moving to account B)"
+    },
+    {
+      "started": "2026-11-06T22:23Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Account B session's first run: onboarded, new key, conductors told, catalogue v0.1.363, library 3,107 cards green, waits-on-Dinis regenerated"
     }
   ],
   "notes": [
     "Self-reported for abp@ (R8): while reading board/inboxes/librarian.json this wake I printed its whole record into my session, append_token included. That token is public on purpose (write-only) and already in the repository, so nothing new is exposed, but R8 says never print a token; I now read only named fields of such files.",
     "For abp@: board/runs/dev.data/2026-11-06T06-33-03Z.json lists dev.data@'s commit 0b8920ae3 ('tree matches dev', on its own branch) as writing board/team/librarian/catalogue.mjs and status.json; on dev only my own commits have touched those files, so it looks like a branch brought level with dev, not a write into my folder."
   ],
-  "debrief": "board/team/librarian/debriefs/2026-11-06-handover.md"
+  "debrief": "board/team/librarian/debriefs/2026-11-06-handover.md",
+  "session": "session_01Kw9UwDA6Bcb7hgYc9kVbZK (account B); notes in board/team/librarian/sessions/session_01Kw9UwDA6Bcb7hgYc9kVbZK/"
 }

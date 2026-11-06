@@ -738,7 +738,7 @@
       ],
       "keys": [],
       "status": "running",
-      "status_note": "Its key is librarian-promptugal in board/keys.json (record sha256:43e4a6764c635dfd); not listed under keys here, as for the other PrompTugal agents. Added by librarian@PrompTugal.dinis itself, as its first-run prompt asked.",
+      "status_note": "Its key is librarian-promptugal in board/keys.json (record sha256:b7d903294669247b, the account B session since 22:23 UTC on 6 November 2026; the first session's key is librarian-promptugal-0, superseded); not listed under keys here, as for the other PrompTugal agents. Added by librarian@PrompTugal.dinis itself, as its first-run prompt asked.",
       "issues": [
         "WS-177"
       ]

@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: GEN, The repository"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T18:58:39Z"
-site_version: "v0.1.316"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T22:26:02Z"
+site_version: "v0.1.363"
 source: board/catalogue.json
 ---
 

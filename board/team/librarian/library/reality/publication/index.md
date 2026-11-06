@@ -27,20 +27,20 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-33 cards (33 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T18:58:39Z at site v0.1.316; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+36 cards (36 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T22:26:02Z at site v0.1.363; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GEN.BRIEF` | 11 |
-| `PUB.ART` | 22 |
+| `PUB.ART` | 25 |
 
 Newest five accessions:
 
+- `ACC-20261106-2921` [Brazil's startup house in Lisbon picks its second class](https://promptugal.news/articles/brazils-startup-house-in-lisbon.html) (`PUB.ART brazils-startup-house-in-lisbon`)
+- `ACC-20261106-2920` [Brazil on Web Summit's stages: officials, founders and a pavilion](https://promptugal.news/articles/brazil-on-the-stages.html) (`PUB.ART brazil-on-the-stages`)
+- `ACC-20261106-2919` [Angelo's communication graph: watch our agents talk](https://promptugal.news/articles/angelos-communication-graph.html) (`PUB.ART angelos-communication-graph`)
 - `ACC-20261106-2789` [What our agents say to each other, counted](https://promptugal.news/articles/what-the-agents-say-to-each-other.html) (`PUB.ART what-the-agents-say-to-each-other`)
 - `ACC-20261106-2788` [From pineapple waste to fish feed: AgroGrINTech's pilot in Maia](https://promptugal.news/articles/pineapple-waste-to-fish-feed.html) (`PUB.ART pineapple-waste-to-fish-feed`)
-- `ACC-20261106-1652` [Web Summit Lisbon: your first day, from airport to arena](https://promptugal.news/articles/your-first-day-at-web-summit.html) (`PUB.ART your-first-day-at-web-summit`)
-- `ACC-20261106-1651` [Wednesday 11 November: a day for startups going abroad](https://promptugal.news/articles/wednesday-11-november-going-abroad.html) (`PUB.ART wednesday-11-november-going-abroad`)
-- `ACC-20261106-1650` [Web Summit's ten Lisbon years: 2.5 billion euros, says EY](https://promptugal.news/articles/web-summit-ten-lisbon-years.html) (`PUB.ART web-summit-ten-lisbon-years`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

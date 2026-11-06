@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T18:58:39Z"
-site_version: "v0.1.316"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T22:26:02Z"
+site_version: "v0.1.363"
 source: board/catalogue.json
 ---
 
@@ -15,15 +15,15 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | Collection | Class | Cards |
 |---|---|---|
 | [Build, code and release](BLD.md) | `BLD` | 4 |
-| [Data and the ontology](DAT.md) | `DAT` | 959 |
+| [Data and the ontology](DAT.md) | `DAT` | 960 |
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
-| [Guidance (special)](GDN.md) | `GDN` | 616 |
+| [Guidance (special)](GDN.md) | `GDN` | 617 |
 | [The repository](GEN.md) | `GEN` | 41 |
-| [The library](LIB.md) | `LIB` | 231 |
-| [The publication](PUB.md) | `PUB` | 175 |
-| [Readers and observability](RDR.md) | `RDR` | 14 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 595 |
-| [Work in hand](WRK.md) | `WRK` | 273 |
+| [The library](LIB.md) | `LIB` | 238 |
+| [The publication](PUB.md) | `PUB` | 187 |
+| [Readers and observability](RDR.md) | `RDR` | 15 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 767 |
+| [Work in hand](WRK.md) | `WRK` | 277 |
 
 ## Passes
 
@@ -47,7 +47,7 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [2026-11-06-the-articles-page](passes/2026-11-06-the-articles-page.md) | open | 6 |
 | [2026-11-06-the-big-graphs](passes/2026-11-06-the-big-graphs.md) | open | 1 |
 | [2026-11-06-the-companies-page](passes/2026-11-06-the-companies-page.md) | open | 8 |
-| [2026-11-06-the-front-page](passes/2026-11-06-the-front-page.md) | open | 15 |
+| [2026-11-06-the-front-page](passes/2026-11-06-the-front-page.md) | open | 16 |
 | [2026-11-06-the-graph-explorer-next](passes/2026-11-06-the-graph-explorer-next.md) | open | 0 |
 | [2026-11-06-the-newsroom-search](passes/2026-11-06-the-newsroom-search.md) | open | 3 |
 | [2026-11-06-the-people-page](passes/2026-11-06-the-people-page.md) | open | 6 |
