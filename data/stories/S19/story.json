@@ -17,15 +17,24 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-05-2010.json",
-      "desks/journalist-promptugal/ideas/S19.md"
+      "desks/journalist-promptugal/ideas/S19.md",
+      "desks/journalist-vicky/drafts/S19-brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md",
+      "desks/reviewer-vicky/reviews/S19.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-connections@web-summit.vicky",
   "needs": null,
   "held": "Folded into the Brazil story project (board/projects/brazil-at-web-summit-2026.md): the correspondent's idea BR6, Portugal as Brazil's door to Europe, takes in Intuitivo going the other way. Both halves are already published (S9 and S4). Reopen as BR6.",
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S19-brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S19.md",
+      "verdict": "Fix first",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-06"
+    }
+  ],
   "article": null,
   "next": "whatever the hold names",
   "history": [
@@ -40,6 +49,18 @@
       "at": "2026-11-06",
       "by": null,
       "file": "desks/journalist-promptugal/ideas/S19.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist-connections@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S19-brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S19.md"
     },
     {
       "column": "held",

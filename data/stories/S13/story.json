@@ -17,16 +17,25 @@
     "from": [
       "desks/curator/2026-11-05-1945.json",
       "desks/journalist-promptugal/drafts/S13-web-summit-ten-lisbon-years.md",
+      "desks/journalist-vicky/drafts/S13-web-summit-ten-years-ey.md",
       "desks/journalist-promptugal/checks/S13.md",
+      "desks/reviewer-vicky/reviews/S13.md",
       "content/articles/web-summit-ten-lisbon-years.md"
     ]
   },
-  "assignee": "journalist@PrompTugal.dinis",
+  "assignee": "journalist-portugal@web-summit.vicky",
   "needs": null,
   "held": null,
-  "draft": "desks/journalist-promptugal/drafts/S13-web-summit-ten-lisbon-years.md",
+  "draft": "desks/journalist-vicky/drafts/S13-web-summit-ten-years-ey.md",
   "check": "desks/journalist-promptugal/checks/S13.md",
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S13.md",
+      "verdict": "Published already (review only)",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-06"
+    }
+  ],
   "article": {
     "path": "content/articles/web-summit-ten-lisbon-years.md",
     "status": "published",
@@ -47,10 +56,22 @@
       "file": "desks/journalist-promptugal/drafts/S13-web-summit-ten-lisbon-years.md"
     },
     {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist-portugal@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S13-web-summit-ten-years-ey.md"
+    },
+    {
       "column": "fact-check",
       "at": "2026-11-06",
       "by": null,
       "file": "desks/journalist-promptugal/checks/S13.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S13.md"
     },
     {
       "column": "published",

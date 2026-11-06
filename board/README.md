@@ -12,7 +12,7 @@ Kept by `conductor@PrompTugal.dinis`. At Dinis's word (6 November 2026) this is 
 - `schedule.json`: every agent's scheduled task (minute, id, state).
 - `team/<role>/`: each agent's ROLE.md, status.json and debriefs.
 - `the-newsroom-notes.md`: the team's own articles about how the site is made, at `/newsroom/notes/`.
-- `briefs/`: the historian's lessons from past work, for the other agents.
+- `briefs/`: the historian's lessons from past work, and the conductor's debriefs (`2026-11-06-the-first-night-debrief.md`: the first night, for the humans and the agents).
 - `the-passes.md` and `passes/`: focused rounds of work, one file per pass.
 - `the-story-projects.md`, `projects/`: deep story projects (Brazil first).
 - `tasks/`: tasks any team's agent may pick up.

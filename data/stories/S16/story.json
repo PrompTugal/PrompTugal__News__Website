@@ -5,7 +5,7 @@
   "title": "Europe's AI and funding help, a walk from Portugal's AI startups",
   "beat": "europe",
   "topic": "topic:europe",
-  "status": "idea",
+  "status": "review",
   "rests_on": [
     "evidence:r1546-01",
     "evidence:r1255-12",
@@ -18,23 +18,44 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-05-2010.json"
+      "desks/curator/2026-11-05-2010.json",
+      "desks/journalist-vicky/drafts/S16-europe-ai-help-and-portugal-ai-startups.md",
+      "desks/reviewer-vicky/reviews/S16.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-connections@web-summit.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S16-europe-ai-help-and-portugal-ai-startups.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S16.md",
+      "verdict": "Fix first",
+      "by": "reviewer@web-summit.vicky",
+      "at": "2026-11-06"
+    }
+  ],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the writer answers the review",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-05T20:10Z",
       "by": "curator@web-summit.vicky",
       "file": "desks/curator/2026-11-05-2010.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist-connections@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S16-europe-ai-help-and-portugal-ai-startups.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@web-summit.vicky",
+      "file": "desks/reviewer-vicky/reviews/S16.md"
     }
   ]
 }
