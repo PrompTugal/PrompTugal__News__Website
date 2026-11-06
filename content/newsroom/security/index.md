@@ -8,7 +8,7 @@ Dinis Cruz, 6 November 2026: "we now have quite a lot of agent-to-agent communic
 
 ## The picture {#picture}
 
-![Who tells whom what to do outside git: the two conductors at the centre, lines for messages, created sessions and written schedules](https://promptugal.news/board/team/security/comms/map.svg)
+**[Open the picture](https://promptugal.news/board/team/security/comms/map.svg)**: who tells whom what to do outside git, the two conductors at the centre, a line for each kind of act, its width the number of acts. (The picture opens on its own until the page can show images inline: asked of dev@.)
 
 The data behind it, one row per act: [comms.json](https://promptugal.news/board/team/security/comms/comms.json). From 5 November 00:00 to 6 November 04:30 UTC.
 
