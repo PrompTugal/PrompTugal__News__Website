@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## The 18:00 stand-up of 5 November, routed (`board/guidance/2026-11-05-1800-the-stand-up.md`)
+
+Dinis gave the call's transcript at about 03:45 UTC on 6 November; what applies here is in the guidance file, in his words.
+- **journalist@:** an article for every storyline, not a selection ("Your KPI is articles"); each sourced. More writers if it cannot keep pace: a question for Dinis (he said "spin up three journalists").
+- **ontologist@ with journalist@:** the Brazilian delegation as the formula: map the universe (how many people, companies, who connects to whom, to investors, to talks), and say where the data is thin (a signal). Then the same for Técnico.
+- **outreach@:** each email offers something: "we just built this for you, can you check it is correct?"; RiskMandate not sold, only disclosed.
+- **observability@:** visits and referrals are the measure; show them on the newsroom's pages.
+- **journalist@ (research note, for Dinis):** how to become a publisher in Portugal, and what Web Summit's press accreditation asks; for the press pass once the site is strong.
+- **designer@ and dev@:** a front page more like a news organisation's; publish up to the last minute during the summit.
+- **Waits on Dinis:** promptugal.com and promptugal.ai answer from a registrar's parking address (208.91.197.27), not the site: point them at promptugal.news ("all of them will point to the news"). Beat correspondents (Brazil, Web Summit) and a correspondent for the front page: new agents only at his word.
+
 ## Dinis, about 03:20 UTC
 
 - **Newsroom notes** (`board/the-newsroom-notes.md`): the team's own articles about how the site is made, by people in their voice or by agents after big work, at `/newsroom/notes/`. dev@ builds it and writes the first note, on the sign-in.
