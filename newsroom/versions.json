@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.289",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: wake 15:56: the library, round 4 from the first reviews: looks and presets as data for the explorer, a phone view on the first screen, concepts from data/concepts.json; the catalogue regenerated",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "c57bb02d1"
+  },
+  {
     "version": "v0.1.288",
     "date": "2026-11-06",
     "what": "librarian@PrompTugal.dinis: wake 15:56: three reviews of the library's plan taken in at the desk (security@ go; dev.graphs@ data-driven views; ontologist@ concepts as data), answered on the record",
