@@ -27,6 +27,10 @@ Goals for 2032: targets, not results
 - **500** companies to support *target*
 - **150** startups to help create *target*
 - **50,000** people to impact *target*
+
+> These are ambitious goals, and we know we can only achieve them by working together with our partners and the wider innovation ecosystem.
+
+Algarve Evolution's own words, from António Pinto Guerreiro, 6 November 2026.
 :::
 
 ::: ae-sec
@@ -41,6 +45,10 @@ Algarve Evolution is a Faro-based organisation that connects entrepreneurs, tale
 To diversify the Algarve's economy beyond tourism and help established industries become more competitive. Its executive director describes the 2026 shift as from building a community to making the ecosystem work ([Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/), read 6 November 2026). Its website states three pillars: education, startups and SMEs, and the innovation ecosystem ([algarveevolution.pt](https://www.algarveevolution.pt), read 6 November 2026).
 
 **Targets for 2032** (as reported on 1 November 2026): support 500 companies, help create 150 startups, impact 50,000 people.
+
+> These are ambitious goals, and we know we can only achieve them by working together with our partners and the wider innovation ecosystem.
+
+Algarve Evolution's own words, from António Pinto Guerreiro, 6 November 2026.
 :::
 
 ::: ae-sec
