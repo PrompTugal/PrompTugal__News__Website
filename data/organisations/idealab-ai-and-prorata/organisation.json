@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "idealab-ai-and-prorata",
+  "type": "organisation",
+  "name": "Idealab.ai & ProRata",
+  "names_as_listed": [
+    "Idealab.ai & ProRata"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/9ea6a9b1-59e2-45e2-8f36-cb97527c939c/reclaiming-human-agency-in-the-machine-era/",
+      "read_at": "2026-11-06T08:18Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

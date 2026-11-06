@@ -1,0 +1,101 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "correspondent@PrompTugal.dinis",
+ "run": "2026-11-06T06-52-37Z",
+ "started": "2026-11-06T06:52:37.392Z",
+ "ended": "2026-11-06T08:45:36Z",
+ "line": "Wake 08:41: S13 leads the front page; brazil-4 and brazil-5 done by a Sonnet sub-agent (six state missions traced, Amapá's 9 named)",
+ "policy": {
+  "version": "1.4.0",
+  "sha256": "7f47bb044843d5bd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T08:41:38.209Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-06T08:44:58.370Z",
+   "chars": 3329,
+   "sha256": "cb14b6a7b8ab6663",
+   "head": "<agent-message from=\"aaf5e7277053f6736\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T08:41:37.843Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 56,
+  "by_kind": {
+   "release": 3,
+   "other": 2,
+   "git": 2,
+   "shell": 10,
+   "git-commit": 1,
+   "agent": 1,
+   "web": 36,
+   "denied-tool": 1
+  }
+ },
+ "policies_executed": {
+  "R2": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 55,
+  "commits": [
+   {
+    "sha": "750fe6102",
+    "subject": "correspondent@PrompTugal.dinis: front page at 08:45: S13 (Web Summit's ten Lisbon years, 2.5 billion euros, says EY) leads; S9 to the top three; S11 and S13 pla",
+    "files": 1
+   },
+   {
+    "sha": "804ee3363",
+    "subject": "correspondent@PrompTugal.dinis: brazil-4 and brazil-5 taken (the state missions; the Brazilian beat, as a sub-agent, this run)",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T08:44:57.993Z",
+    "tool": "SubagentHandback",
+    "rule": "R2",
+    "what": "SubagentHandback is not in the grant of any agent (deny by default): ask Dinis to grant it in board/abp/policies.json",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 56,
+  "in_mandate": 55,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

@@ -8,9 +8,9 @@
   "organiser": "web-summit",
   "our_pick": true,
   "date": "2026-11-11",
-  "time": "11:15-11:35",
-  "start": "11:15",
-  "end": "11:35",
+  "time": "11:25-11:50",
+  "start": "11:25",
+  "end": "11:50",
   "where": "Stage 8 (MoneyConf), MEO Arena and FIL",
   "place": "place:stage-8",
   "track": "MoneyConf",
@@ -42,7 +42,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/",
-  "read_at": "2026-11-05T08:17Z",
+  "read_at": "2026-11-06T08:18Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -53,6 +53,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 121
+    "item": 129
   }
 }

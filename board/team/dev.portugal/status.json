@@ -2,20 +2,24 @@
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
  "state": "working",
- "updated": "2026-11-06T06:30Z",
+ "updated": "2026-11-06T07:35Z",
  "done": [
-  "first round of /portugal/algarve-evolution/ (content/portugal/algarve-evolution.md), linked from /portugal/; gate OK",
-  "ROLE.md and status.json fixed to pass the data checks (dev@'s review note)"
+  "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
+  "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)"
  ],
  "next": [
-  "graph of Algarve Evolution (programmes, partners, events) with ontologist@",
-  "researcher@ for people (with their yes)",
-  "designer@ pass on the page"
+  "graph of programmes, partners, events with ontologist@",
+  "people only with their yes",
+  "designer@ pass; Portugal section page for other organisations"
  ],
  "asks": [
   {
    "for": "Dinis",
-   "ask": "No session key made yet (pki-agent.mjs is not in the repository and its pin check needs the team site); commits are unidentified until then. Do you want the executive director named on the page, with his yes?"
+   "ask": "Name the executive director (in the press, in his professional role) on the page? I use the role only until you say. Also: no session key yet (pki-agent.mjs not in the repo)."
+  },
+  {
+   "for": "Dinis (Saturday meeting)",
+   "ask": "Ask Algarve Evolution about their summit-week 2026 plans: we found none."
   }
  ]
 }

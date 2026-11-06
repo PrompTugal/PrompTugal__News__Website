@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T07:05Z",
+ "updated": "2026-11-06T08:55Z",
  "items": [
   {
    "id": "F01",
@@ -67,9 +67,11 @@
    "owner": "conductor@",
    "severity": "costly",
    "finding": "About is stale: 'the writing desks are next', 'Vicky, editor', 'no human review first' with no statement of what a human reviews.",
-   "status": "open",
-   "decision": null,
-   "evidence": "run 5: About still says \"the writing desks are next\" and \"Vicky\"; no press contact; does not say whether a human reviews each article"
+   "status": "accepted",
+   "decision": "accept: the About page to be rewritten by journalist@ with what a human reviews and the publisher (The Cyber Boardroom, UK); routed on its lane",
+   "evidence": "run 5: About still says \"the writing desks are next\" and \"Vicky\"; no press contact; does not say whether a human reviews each article",
+   "decided_in": "board/team/conductor/status.json",
+   "decided_at": "2026-11-06T08:00Z"
   },
   {
    "id": "F07",
@@ -77,9 +79,11 @@
    "owner": "conductor@",
    "severity": "costly",
    "finding": "For Dinis: what RiskMandate is, who owns it, whether it sells to the companies covered; whether answers are optional, approved before publication, never used for sales.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "later",
+   "decision": "later: what RiskMandate is, who owns it and whether it sells to covered companies is Dinis's to state; put to him in asks",
+   "evidence": null,
+   "decided_in": "board/team/conductor/status.json",
+   "decided_at": "2026-11-06T08:00Z"
   },
   {
    "id": "F08",
@@ -88,8 +92,10 @@
    "severity": "costly",
    "finding": "Tailor the ask to the kind of organisation (bank, fund, media do not run agents in that sense).",
    "status": "done",
-   "decision": null,
-   "evidence": "outreach@'s drafts from 01:00 UTC: an ask by kind of organisation"
+   "decision": "done: v0.1.54, the ask differs for public bodies and foundations; v0.1.77, the disclosure in its own words",
+   "evidence": "outreach@'s drafts from 01:00 UTC: an ask by kind of organisation",
+   "decided_in": "board/team/outreach/status.json",
+   "decided_at": "2026-11-06T08:50Z"
   },
   {
    "id": "F09",
@@ -188,8 +194,10 @@
    "severity": "costly",
    "finding": "'powered by RiskMandate' with no line on what it is; no greeting; 'mandato' blurs mission and question.",
    "status": "done",
-   "decision": null,
-   "evidence": "drafts 01:40 UTC: the disclosure's own words, 'aim', greeting restored"
+   "decision": "done: v0.1.65, the disclosure line instead of 'powered by', a greeting in every draft (CRLF throughout), 'aim' not 'mandate'",
+   "evidence": "drafts 01:40 UTC: the disclosure's own words, 'aim', greeting restored",
+   "decided_in": "board/team/outreach/status.json",
+   "decided_at": "2026-11-06T08:50Z"
   },
   {
    "id": "F19",
@@ -197,9 +205,11 @@
    "owner": "conductor@",
    "severity": "blocking",
    "finding": "For Dinis: the disclosure's 'This is not independent coverage. We may write about companies the team hopes to meet or sell to' stops a comms lead passing the email to leaders. Not a case for softening it: what is the commercial relation, and can the email say it plainly?",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "later",
+   "decision": "later: the disclosure's wording is Dinis's call (the participant disclosure is the estate's standard); put to him in asks",
+   "evidence": null,
+   "decided_in": "board/team/conductor/status.json",
+   "decided_at": "2026-11-06T08:00Z"
   },
   {
    "id": "F20",
@@ -217,9 +227,11 @@
    "owner": "conductor@",
    "severity": "costly",
    "finding": "Nothing says who reads PrompTugal.news or how it is funded.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "accepted",
+   "decision": "accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06",
+   "evidence": null,
+   "decided_in": "board/team/conductor/status.json",
+   "decided_at": "2026-11-06T08:00Z"
   },
   {
    "id": "F22",
@@ -257,9 +269,11 @@
    "owner": "outreach@",
    "severity": "costly",
    "finding": "No line that the 15 minutes is not a sales conversation and nobody from RiskMandate is in it (the comms director's one change, twice); for Dinis via the conductor.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "later",
+   "decision": "later: whether an email may say the 15 minutes is not a sales conversation and that nobody from RiskMandate is in it is Dinis's to say (asks, below); until he does, the email says only what the disclosure says",
+   "evidence": null,
+   "decided_in": "board/team/outreach/status.json",
+   "decided_at": "2026-11-06T08:50Z"
   },
   {
    "id": "F26",
@@ -357,9 +371,10 @@
    "owner": "designer@",
    "severity": "blocking",
    "finding": "The front-page mock-ups (A, B, C) change the bylines to 'Vicky Wang's desk' or 'PrompTugal.news', so work written by an AI agent reads as written by a person (Helena, Tom; measured on A's first screen). Run 5's readers asked for both: the AI agent that wrote it and the human editor accountable.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "accepted",
+   "decision": "accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8)",
+   "evidence": "round-2 mock-ups A and C: bylines read 'journalist@web-summit.vicky, an AI agent, for Vicky Wang' (measured by synthetic@ on the images, 08:50 UTC)",
+   "decided_in": "board/passes/2026-11-06-the-front-page.md (designer@, round 2)"
   },
   {
    "id": "F36",
@@ -367,9 +382,10 @@
    "owner": "designer@",
    "severity": "costly",
    "finding": "All three mock-ups move what makes the site different to the bottom ('Why we are different') and shrink 'Every fact sourced' to one grey line; today's page shows it first. Helena ranked today above every mock-up for that reason; Tom: 'today's page wins on trust'.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "accepted",
+   "decision": "accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8)",
+   "evidence": "round-2 mock-ups: a band under the top: 'Every fact sourced and dated · Written by AI agents, edited by Dinis Cruz, Indi Gupte and Vicky Wang · Independent of Web Summit'",
+   "decided_in": "board/passes/2026-11-06-the-front-page.md (designer@, round 2)"
   },
   {
    "id": "F37",
@@ -377,9 +393,10 @@
    "owner": "designer@",
    "severity": "costly",
    "finding": "The AI-made lead infographic cannot be read on a phone, and its figures are doubted (Ana, Miguel, Helena, Tom); its 'DATES: 8 to 13 November 2026' are the Brazilian mission's own dates (sourced in the article) but sit under a Web Summit headline, so two readers took them for the summit's (9 to 12) and called it wrong. Label them as the mission's.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "accepted",
+   "decision": "accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8)",
+   "evidence": "round-2 mock-ups: the phone card says 'AI infographic inside'; the desktop caption 'the dates on it are the mission's own'",
+   "decided_in": "board/passes/2026-11-06-the-front-page.md (designer@, round 2)"
   },
   {
    "id": "F38",
@@ -387,9 +404,10 @@
    "owner": "designer@",
    "severity": "costly",
    "finding": "B, the visual wall, was ranked last by all four: bare figures ('84%', 'Up to 125') with no source beside them read as marketing (Miguel, Helena), no story leads (Tom), text too small on a phone (Ana).",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "accepted",
+   "decision": "accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8)",
+   "evidence": "round-2: option B dropped",
+   "decided_in": "board/passes/2026-11-06-the-front-page.md (designer@, round 2)"
   },
   {
    "id": "F39",
@@ -456,5 +474,5 @@
    "evidence": null
   }
  ],
- "updated_decisions": "2026-11-06T07:45Z"
+ "updated_decisions": "2026-11-06T08:45Z"
 }

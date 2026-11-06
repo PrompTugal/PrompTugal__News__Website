@@ -1,0 +1,6 @@
+{
+ "extract": "List the factual claims in this article text, each atomic and checkable (a date, a time, a number, a name, a place, an attribution). Skip opinions and advice. Reply with JSON only: [{\"id\":\"c1\",\"claim\":\"...\"}]. At most {{max}}, the most checkable first.\n\n{{story}}",
+ "judge": "You verify one claim from a news article against its sources only. Use nothing else you know.\nClaim: {{claim}}\n\nPassages of the sources (the most relevant to the claim; the sources are longer):\n{{corpus}}\n\nReply with JSON only: {\"verdict\":\"supported|partly|unsupported|contradicted|exaggerated\",\"source\":\"S<n> or null\",\"quote\":\"the shortest exact words from the source that decide it, or empty\",\"note\":\"one sentence\"}. \"supported\" only if a source says it; \"exaggerated\" if the claim says more than the source.",
+ "block": "## Verified\n\nOn {{date}}, {{n}} claims in this article were each checked against its public sources by {{nmodels}} models ({{models}}). All models agreed that {{good}} are supported; {{flagged}} are flagged to the journalist.{{unchecked}} Sources read: {{read}} of {{listed}}. The record: board/team/dev.verify/records/{{slug}}/verified.json.\n",
+ "unchecked": " {{count}} could not be checked in this run."
+}

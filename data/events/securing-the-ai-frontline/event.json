@@ -18,13 +18,6 @@
   "organised_by": "organisation:web-summit",
   "speakers": [
     {
-      "person": "person:paul-jenkinson",
-      "as_listed": "Paul Jenkinson (Co-founder & CEO, Whitespace)",
-      "role": "Co-founder & CEO",
-      "organisation": "Whitespace",
-      "org": "company:whitespace"
-    },
-    {
       "person": "person:giovanni-alberto-falcione",
       "as_listed": "Giovanni Alberto Falcione (Co-founder & CTO, Exein)",
       "role": "Co-founder & CTO",
@@ -49,7 +42,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
-  "read_at": "2026-11-05T08:19Z",
+  "read_at": "2026-11-06T08:18Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -60,6 +53,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 194
+    "item": 202
   }
 }

@@ -5,7 +5,7 @@
   "title": "Granter and Intuitivo: two PITCH winners, one backer, new markets",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "idea",
+  "status": "held",
   "rests_on": [
     "evidence:r1255-15",
     "evidence:r1255-19"
@@ -16,23 +16,36 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-05-2010.json"
+      "desks/curator/2026-11-05-2010.json",
+      "desks/journalist-promptugal/ideas/S14.md"
     ]
   },
   "assignee": null,
   "needs": null,
-  "held": null,
+  "held": "Covered already: S4 (from-pitch-to-new-markets, published) carries both rounds, both PITCH wins, the shared backer (3xP Global's Impact Innovation Fund) and the markets (Spain, Germany, Italy; Brazil). Reopen if either announces something new.",
   "draft": null,
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "whatever the hold names",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-05T20:10Z",
       "by": "curator@web-summit.vicky",
       "file": "desks/curator/2026-11-05-2010.json"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/ideas/S14.md"
+    },
+    {
+      "column": "held",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/ideas/S14.md"
     }
   ]
 }

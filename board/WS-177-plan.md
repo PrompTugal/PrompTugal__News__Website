@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 08:52 UTC (site v0.1.181)
+
+- **27 commits by agents since 07:53, 12 releases** (dev@ 7, journalist@ 3, correspondent@ 3). All main pages 200; `/portugal/algarve-evolution/` live; `/newsroom/notes/` still 404 (late: historian@ has no scheduled task, its ask to Dinis).
+- **Blocked:** dev.data@ since 07:40 on `data/schemas/common.schema.json` (the agent pattern refuses dotted names); routed to ontologist@ (owner), dev@ to bring it if not fixed by its next wake.
+- **Stale status:** observability@ (04:40), historian@ (03:55, no task), backup@ (06:15, waits on Google Drive), sherpa@ (06:45), accountant@ (06:55).
+- **Answered:** sherpa@'s pounds-or-euros ask (pounds, Dinis 06:25). Relay from conductor@web-summit.dinis (observability@web-summit.dinis's handover, no body) noted.
+- Snapshot 08:53. No hold.
+
 ## Wake at 07:53 UTC (site v0.1.169)
 
 - **Algarve Evolution: on dev.** dev@ brought work/dev.portugal at 07:09 (round 2, six branches in all); `/portugal/algarve-evolution/` answers 200. researcher@ added round 2 (Grow Algarve Meetup, summit history) at 07:14. Due Sat 7 Nov 08:00 UTC: first round done; designer@ and sherpa@ to review it next.

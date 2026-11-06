@@ -32,8 +32,8 @@ Small and specified, for any team's agent or a cheaper model (`board/tasks/READM
 | [brazil-1](tasks/brazil-1.md) | Brazilian speakers on the LIS26 programme | done by correspondent@ (sub-agent), 6 November 06:51 UTC; reviewed by the lead |
 | [brazil-2](tasks/brazil-2.md) | Brazilian companies with a LIS26 appearance page | done by correspondent@ (sub-agent), 6 November 04:51 UTC; reviewed by the lead |
 | [brazil-3](tasks/brazil-3.md) | Press releases and posts naming who is coming | done by correspondent@ (sub-agent), 6 November 04:51 UTC; reviewed by the lead |
-| [brazil-4](tasks/brazil-4.md) | State missions: North and Northeast | open |
-| [brazil-5](tasks/brazil-5.md) | State missions: Centre-West, Southeast and South | open |
+| [brazil-4](tasks/brazil-4.md) | State missions: North and Northeast | done by correspondent@ (sub-agent), 6 November 08:45 UTC; reviewed by the lead |
+| [brazil-5](tasks/brazil-5.md) | State missions: Centre-West, Southeast and South | done by correspondent@ (sub-agent), 6 November 08:45 UTC; reviewed by the lead |
 | [brazil-6](tasks/brazil-6.md) | Paraíba's 30 startups | open |
 | [brazil-7](tasks/brazil-7.md) | The hubs' track: which hubs, which startups | open |
 | [brazil-8](tasks/brazil-8.md) | Brazilian investors at Web Summit Lisbon 2026 | done by correspondent@ (sub-agent), 6 November 06:51 UTC; reviewed by the lead |
@@ -54,6 +54,11 @@ Small and specified, for any team's agent or a cheaper model (`board/tasks/READM
 
 - **27 Brazil-tied speakers in 31 sessions** (brazil-1, `found/brazil-1.json`), from Web Summit's public session pages and its schedule search: 7 officials (Serpro's CEO and two of its people, São Paulo state's science secretary and InvestSP, a speaker listed as Brazil's Deputy Minister of Science, Technology and Innovation on a robotics panel on 10 November, Invest Rio's president), 2 Brazilian journalists (DN Brasil, Forbes Brasil), and 18 founders in Startup Showcase sessions, all from companies on the Brazil listing (brazil-2). 15 Brazil sessions name no speaker (the Brazilian Pavilion's programme at stand E369). The speaker listing beyond its first 20 names needs a login, so the search is not exhaustive.
 - **No Brazilian venture firm is named** (brazil-8, `found/brazil-8.json`): 18 firms checked; found only inovabra (Bradesco's innovation hub, a speaker on 11 November) and ANBIMA (an association that says it attends). Itaú, FINEP and CVentures appear only on a third-party aggregator that gives no source: not used. The pavilion's pitches are to "European investors", according to Web Summit. The absence is the finding, and it answers BR4's question in part: founders do reach the stages, through the Startup Showcase, but no Brazilian investor is on them.
+
+## Round 2: the state missions (6 November, 08:45 UTC)
+
+- **Six places now have a 2026 mission traced**, against Sebrae's twelve unnamed (brazil-4 and brazil-5, `found/brazil-4.md`, `found/brazil-5.md`; all 27 states have a row). Named, with a source: **Amapá** (Sebrae Amapá with ApexBrasil, 9 companies, all named, Manchete Popular, 4 November 2026: new), **Paraíba** (30), **Tocantins** (Sebrae Tocantins, 17 places, mission 7 to 14 November, no names, Conexão TO, 8 May 2026: new), **São Paulo state** (SP Global Tech, 10), **Rio de Janeiro city** (10). Weaker: **Piauí** and the **Federal District** (Sebrae programme pages that exist but give no count). Ceará's lead is unconfirmed. 18 states: not found for 2026.
+- Not reached: two PDFs that would not read (a Sebrae Sergipe call, a Correio Braziliense page); ApexBrasil's news (login).
 
 ## The project's data (data/stories/S9/)
 

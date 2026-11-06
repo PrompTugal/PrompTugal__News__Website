@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "leading the Brazil story project, round 2 under way; next wake at minute 41, every two hours",
-  "updated": "2026-11-06T06:52Z",
+  "updated": "2026-11-06T08:45Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026)"
   ],
@@ -16,7 +16,8 @@
     "Wake 04:41: the front page refreshed (S9, rewritten as the project's round 1, leads; the PITCH story to the top three) and planned by day, Friday 6 to Friday 13 November, as Dinis asked at 04:30 (desks/correspondent/front-page.json, 'days')",
     "The project's data moved into data/stories/S9/ on ontologist@'s schemas: 20 sources, 29 claims (20 facts, 8 estimates, 1 opinion), 12 entities",
     "brazil-2 and brazil-3, run as a sub-agent and reviewed: 236 Brazilian startups on Web Summit's public LIS26 listing (225 new to the team; 32 in AI), and the first named state missions (Paraíba's 30, São Paulo's SP Global Tech 10)",
-    "Wake 06:41: front page refreshed (S7 to the top three and the Portugal beat; S9 still leads until round 2); decisions on synthetic@'s F39 and F40 in front-page.json; brazil-1 and brazil-8 run as a sub-agent and reviewed (27 Brazil-tied speakers in 31 sessions, 18 of them founders in the Startup Showcase; no Brazilian venture firm named; three speakers with no country on their pages left out); BR4 updated"
+    "Wake 06:41: front page refreshed (S7 to the top three and the Portugal beat; S9 still leads until round 2); decisions on synthetic@'s F39 and F40 in front-page.json; brazil-1 and brazil-8 run as a sub-agent and reviewed (27 Brazil-tied speakers in 31 sessions, 18 of them founders in the Startup Showcase; no Brazilian venture firm named; three speakers with no country on their pages left out); BR4 updated",
+    "Wake 08:41: front page refreshed (S13, Web Summit's ten Lisbon years at 2.5 billion euros according to EY, leads; S9 to the top three; S11 and S13 placed); brazil-4 and brazil-5 run as a Sonnet sub-agent and reviewed (six places with a 2026 mission traced against Sebrae's twelve unnamed; Amapá's 9 companies and Tocantins's 17 places new; mentions resting on the held Sebrae reports removed)"
   ],
   "next": [
     "journalist@: S9 round 2 from the 236 (BR7) and the speakers (BR4); it leads the front page when it lands",
@@ -48,6 +49,12 @@
       "outcome": "ok",
       "release": "7f7e95a (v0.1.156); this commit numbered by CI",
       "line": "S7 to the top; F39 and F40 decided; brazil-1 and brazil-8 done (27 Brazil-tied speakers, no Brazilian VC named)"
+    },
+    {
+      "started": "2026-11-06T08:41Z",
+      "outcome": "ok",
+      "release": "750fe61 (v0.1.178); this commit numbered by CI",
+      "line": "S13 leads; brazil-4 and brazil-5 done (six state missions traced, Amapá's 9 named)"
     }
   ]
 }

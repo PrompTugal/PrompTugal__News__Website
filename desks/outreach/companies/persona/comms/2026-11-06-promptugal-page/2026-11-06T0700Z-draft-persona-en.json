@@ -6,7 +6,7 @@
  "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
  "to": "Persona: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
  "subject": "We built a page about Persona: could you check it?",
- "sha256": "5866f00852497b5dd63732875203ffeb2bcbb6023d6e0ead569da8c41b822642",
+ "sha256": "590b62d8c0a11b6ae548d1fd9dbd29e60f2e3d2e1262c2d13d0c08d598caf3c5",
  "attachments": [],
  "summary": "PrompTugal.news writes to Persona leading with its page (https://promptugal.news/companies/persona/); asks: write-about (company).",
  "followups": {
