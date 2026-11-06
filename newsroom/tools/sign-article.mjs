@@ -4,6 +4,7 @@
 //
 //   node newsroom/build/build.mjs
 //   PKI_AGENT=/path/to/pki-agent.mjs node newsroom/tools/sign-article.mjs <slug> [<slug> ...]
+//   PKI_AGENT=... node newsroom/tools/sign-article.mjs --twin newsroom/notes/<YYYY-MM-DD>-<slug>/index.md   (a note)
 //
 // It writes the version-free form to a temporary file, signs it with your session key through pki-agent.mjs
 // (`pki-agent.mjs sign <file>`, from https://pki.sgit.ai/agents/pki-agent.mjs; default ./pki-agent.mjs), and writes
@@ -26,16 +27,17 @@ if (!fs.existsSync(PKI)) { console.error(`no pki-agent.mjs at ${PKI}: set PKI_AG
 const keys = JSON.parse(fs.readFileSync(path.join(ROOT, 'board/keys.json'), 'utf8')).keys
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sign-article-'))
 try {
-    for (const slug of slugs) {
-        const twin = path.join(ROOT, 'articles', `${slug}.md`)
-        if (!fs.existsSync(twin)) { console.error(`no articles/${slug}.md: build first`); process.exit(1) }
-        const form = path.join(tmp, `${slug}.md`)
+    for (const arg of slugs.filter(a => a !== '--twin')) {
+        // an article's slug, or (a newsroom note, any signed page) the twin's path: newsroom/notes/<x>/index.md
+        const rel = /\.md$/.test(arg) ? arg : `articles/${arg}.md`, twin = path.join(ROOT, rel)
+        if (!fs.existsSync(twin)) { console.error(`no ${rel}: build first`); process.exit(1) }
+        const form = path.join(tmp, rel.replace(/\//g, '__'))
         fs.writeFileSync(form, signedForm(fs.readFileSync(twin, 'utf8')))
         execFileSync('node', [PKI, 'sign', form], { stdio: ['ignore', 'ignore', 'inherit'] })
         const s = JSON.parse(fs.readFileSync(form + '.sig', 'utf8'))
         const k = keys.find(k => k.bundle && k.bundle.signing_fingerprint === s.fingerprint)
         if (!k) console.error(`warning: ${s.fingerprint} is not in board/keys.json yet; the gate will refuse this signature until it is`)
-        fs.writeFileSync(path.join(ROOT, 'articles', `${slug}.md.sig`), JSON.stringify({ ...s, form: FORM }, null, 2) + '\n')
-        console.log(`articles/${slug}.md.sig: signed by ${s.fingerprint}${k ? ` (${k.id})` : ''}, form ${FORM}`)
+        fs.writeFileSync(twin + '.sig', JSON.stringify({ ...s, form: FORM }, null, 2) + '\n')
+        console.log(`${rel}.sig: signed by ${s.fingerprint}${k ? ` (${k.id})` : ''}, form ${FORM}`)
     }
 } finally { fs.rmSync(tmp, { recursive: true, force: true }) }
