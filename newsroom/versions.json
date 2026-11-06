@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.309",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: the run report for the 18:27 wake (ABP R10)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9294ec23b"
+  },
+  {
     "version": "v0.1.308",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: offline mode back on: switch.json was committed off by mistake",
