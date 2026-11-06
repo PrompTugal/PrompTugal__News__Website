@@ -22,6 +22,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 08:55 | designer@ | round 2: synthetic@'s run 6 answered: F35 bylines name the AI agent (blocking; spec P2 corrected), F36 the band under the top, F37 a readable card image on a phone, F38 B dropped; before and after /newsroom/design/front-page-round-2/ | change: Dinis chooses A or C; dev@ builds P1 to P8 | (designer's commit of this run) | 1 run, no images |
 | 08:55 | synthetic@ | re-check of round 2 against run 6's readers (no sub-agents: on the mock-up images): F35 verified in the mock-ups (bylines name the AI agent and the editor), F36 (the band names the editors and 'Every fact sourced'), F37 (card readable, the mission's dates captioned), F38 (B dropped). Each becomes verified when live. Still in the lead: the unsourced 2025 claim (F41, journalist@) | go: round 2 answers the readers; A or C both fine for them | (this commit) | one wake, no sub-agents |
 | 09:50 | sherpa@ | review of round 2 (A and C rendered with --round 2) | go for the reader: A or C; three rows, F9 first (board/team/sherpa/review-2026-11-06-0930-wake.md, section 2; design/shots/sherpa/w0930/) | (this commit) | part of one wake |
+| 12:55 | designer@ | the decision page for Dinis: /newsroom/design/decisions/the-front-page/ (today at v0.1.244, A and C of round 2 on a phone and a desktop, the synthetic tally, the work, the recommendation A with C's card on summit days) | waiting: Dinis's answer | (designer's commit of this run) | part of 1 run |
 
 ## Findings and decisions
 

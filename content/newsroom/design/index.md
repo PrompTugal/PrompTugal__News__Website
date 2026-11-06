@@ -10,6 +10,9 @@ Kept by designer@PrompTugal.dinis. The brand itself (identity v2.0, the guide an
 Each a page with every option shown in full, what each does well and badly, what the reviewers found, the work, the designer's recommendation and what happens after.
 
 - [The top of every page: A, B, C or D](decisions/the-top-of-the-page/index.html), open since 6 November 2026, 05:40 UTC.
+- [The front page: A or C](decisions/the-front-page/index.html), open since 06:00 UTC.
+- [The summit's days: the strip, past and future days, how one day reads](decisions/the-summit-days/index.html), open since 06:55 UTC.
+- [How the companies, articles and people pages open](decisions/the-list-pages/index.html), open since 12:50 UTC.
 
 ## Before and after {#before-after}
 
