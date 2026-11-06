@@ -28,7 +28,7 @@
     }
     cv.addEventListener('click', ev => { const r = cv.getBoundingClientRect(), x = ev.clientX - r.left, y = ev.clientY - r.top, b = boxes.find(q => Math.hypot(q.x - x, q.y - y) < q.r); if (b) show(b) })
     cv.addEventListener('mousemove', ev => { const r = cv.getBoundingClientRect(); cv.style.cursor = boxes.some(q => Math.hypot(q.x - (ev.clientX - r.left), q.y - (ev.clientY - r.top)) < q.r) ? 'pointer' : 'default' })
-    function size() { const r = Math.min(2, devicePixelRatio || 1); W = cv.clientWidth; H = Math.max(380, Math.round(W * 0.6)); cv.width = W * r; cv.height = H * r; cv.style.height = H + 'px'; if (D) draw() }
+    function size() { const r = Math.min(2, devicePixelRatio || 1); W = cv.clientWidth; H = Math.max(420, Math.round(W * 0.7)); cv.width = W * r; cv.height = H * r; cv.style.height = H + 'px'; if (D) draw() }
     addEventListener('resize', size)
     fetch(root.dataset.data).then(r => r.json()).then(d => { D = d; cv.setAttribute('aria-label', d.ui.caption)
         const png = el('button', { type: 'button', className: 'chip', textContent: d.ui.png }); png.addEventListener('click', () => cv.toBlob(bl => { const a = document.createElement('a'); a.href = URL.createObjectURL(bl); a.download = 'promptugal-cloud-centres.png'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 4000) }))
