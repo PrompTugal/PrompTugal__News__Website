@@ -14,8 +14,11 @@ Queued behind the six passes opened before it; it opens when one of those closes
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 04:50 | conductor@ | queued | | (this file) | |
+| 04:05 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| What a person and their agents did: their published work only, never hours, reading time or presence (the team site's review of 5 November, finding 5) | security@ (pre-review) | journalist@, historian@ | condition of go |
+| Each update passes the gate's secret and contact checks before it is published hourly; an update about a key or a vault names the fingerprint, never a secret | security@ (pre-review) | journalist@ | condition of go |

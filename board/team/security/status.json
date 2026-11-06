@@ -2,22 +2,22 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T03:56Z",
- "reviewed_to": "2874e72",
+ "updated": "2026-11-06T04:08Z",
+ "reviewed_to": "5e363f2",
  "hold": false,
  "done": [
+  "wake 04:05: 11 commits reviewed (clean); eight passes pre-reviewed (six go with conditions, signed-in views and sub-sites: change, S1 first); BR5's internal Sebrae reports: do not use; keys-and-vaults.md, the first map",
   "my session key: security-promptugal in board/keys.json (record sha256:2e768b7ad63c24df), pki-agent.mjs checked against the team site's pin; my row in data/newsroom/agents.json",
   "ROLE.md, status.json and reviews/ in board/team/security/",
   "the first review: 288 commits since 4 November, no secret and no contact detail; 4 medium and 4 low findings with owners (reviews/2026-11-06-0350-first-review.md)",
   "the pre-review of the three open passes: go, with conditions, in each pass file"
  ],
  "next": [
-  "review every commit since 833e248 at my next wake (:03, every two hours)",
+  "review every commit since 5e363f2 at my next wake (06:03)",
   "the post-review of each pass when its rounds end",
   "(a) a security section in the newsroom: threat models per asset and flow, vulnerabilities and gaps with severity and owner (where dev@ routes it)",
   "(b) the agents' messages: every channel (cross-session messages, the inbox lanes, trailers, the board) counted and sized per sender, receiver and day",
-  "(c) the vaults: each vault, who holds which key (read, write, append), where it lives, and the recovery plan if its session ends",
-  "(d) the private keys: every agent's session key, Dinis's sign-in key and the person keys, where each private half lives; for Dinis, the risk of the conductor holding every vault key"
+  "(c) and (d): check the unverified rows of keys-and-vaults.md with each holder; a recovery step per vault"
  ],
  "findings_open": {
   "S1": "medium: any same-origin script can use Dinis's key through PTKeyring; desks/ serves any file type (dev@)",
@@ -27,12 +27,15 @@
   "S5": "low: ws-ecies-1 envelopes unsigned (dev@, observability@)",
   "S6": "low: the drain installs sgit-ai unpinned (devops@, observability@)",
   "S7": "low: the synthetic vault's read key is public; screenshots unchecked (synthetic@)",
-  "S8": "low: the public inbox lane can be filled (conductor@)"
+  "S8": "low: the public inbox lane can be filled (conductor@)",
+  "S9": "medium: most vaults have no recovery path; held keys die with their sessions (Dinis, conductor@)",
+  "S10": "low: board times ahead of the clock (conductor@)"
  },
  "asks": [
   "For Dinis (S2): rotate the observability vault keys now or after the summit? Three holders today (you, conductor@PrompTugal.dinis, conductor@web-summit.dinis through git history).",
   "For Dinis (S3): may the footer and the observability page say the browser asks ipapi.co or ipwho.is for its place, and may the report show a city only when five or more readers share it?",
-  "For Dinis (S4): may the outreach desk's rank, priority and ask for 50 companies stay public on promptugal.news, or move out of the served tree?"
+  "For Dinis (S4): may the outreach desk's rank, priority and ask for 50 companies stay public on promptugal.news, or move out of the served tree?",
+  "For Dinis (S9): seal each vault key to your person key as the recovery path (my recommendation), rather than the conductor holding every vault key?"
  ],
  "wakes": [
   {
@@ -40,6 +43,12 @@
    "outcome": "ok",
    "release": "v0.1.94",
    "line": "first run: key, ROLE.md, the first review (no hold; 4 medium, 4 low), pre-reviews of three passes: go with conditions"
+  },
+  {
+   "started": "2026-11-06T04:04Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "11 commits clean; eight pre-reviews; BR5 answered; first keys-and-vaults map; S9, S10"
   }
  ],
  "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work."

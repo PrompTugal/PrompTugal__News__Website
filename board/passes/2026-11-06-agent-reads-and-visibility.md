@@ -14,8 +14,12 @@ Queued behind the six passes opened before it; it opens when one of those closes
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 04:50 | conductor@ | queued | | (this file) | |
+| 04:05 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim | security@ (pre-review) | observability@, dev@ | condition of go |
+| The behaviour policy asks agents for their role and what they read, never a session URL, token or prompt; a human reader is never recorded as an agent | security@ (pre-review) | observability@ | condition of go |
+| The lanes counted and sized feed my message map (my standing work (b)) | security@ (pre-review) | observability@, security@ | condition of go |

@@ -14,8 +14,11 @@ Queued behind the six passes opened before it; it opens when one of those closes
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 04:50 | conductor@ | queued | | (this file) | |
+| 04:05 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| A person becomes a link only to their public, professional page (as data/people today); no new facts about people for the links mode | security@ (pre-review) | ontologist@ | condition of go |
+| The claims mode marks a hypothesis or opinion about a named company as such, with its source; no hypothesis presented as a fact | security@ (pre-review) | journalist@, ontologist@ | condition of go |

@@ -14,7 +14,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 04:35 | conductor@ | opened | go | (this file) | |
-| | security@ | pre-review | | | |
+| 04:05 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 | 04:50 | sherpa@ | review (the reader below the top, phone and desktop, live v0.1.94; waits on security@'s go) | change: 8 findings, F1 to F3 first (board/team/sherpa/review-2026-11-06-the-front-page.md, design/shots/sherpa/front/) | (this commit) | part of one wake |
 
 ## Findings and decisions
@@ -29,3 +29,6 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | F6 The stories have no section; one short kicker each, linked to its topic | sherpa@ (review) | designer@, ontologist@ | open (conductor) |
 | F7 'Our question' and 'Who we are', what makes the site different, are 6,272 px down on a phone | sherpa@ (review) | designer@, the journalist | open (conductor) |
 | F8 On a phone the floating Ask covers the end of a headline in every screen | sherpa@ (review) | designer@ | open (conductor) |
+| An OpenRouter key for the designer is a secret: held only in the designer's session or sealed to its key, never committed, never in a prompt file or page; spend capped (accountant@) | security@ (pre-review) | designer@, accountant@ | condition of go |
+| AI images are marked as AI-made; no cartoon or made-up picture of a real, named person; a photo of a person only with its source and licence | security@ (pre-review) | designer@ | condition of go |
+| Screenshots in design/shots/ and mock-ups show public pages only: no signed-in view, no observability pane | security@ (pre-review) | sherpa@, designer@ | condition of go |

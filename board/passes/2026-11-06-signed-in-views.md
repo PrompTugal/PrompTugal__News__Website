@@ -14,8 +14,12 @@ Queued behind the six passes opened before it; it opens when one of those closes
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 04:50 | conductor@ | queued | | (this file) | |
+| 04:05 | security@ | pre-review | change: S1 first, and a signature, not a flag (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| The view switches on a verified signature (the keyring signs a fresh challenge, checked against board/person-keys.json), never on localStorage 'pt.me', which any page can set | security@ (pre-review) | dev@ | change |
+| A static site ships every byte to every reader: nothing private may be in a 'Dinis's view' unless it arrives sealed to that person and is opened in the browser | security@ (pre-review) | dev@, designer@ | condition of go |
+| S1 fixed before this pass opens: the keyring must not be callable by any script on any page | security@ (pre-review) | dev@ | change |
