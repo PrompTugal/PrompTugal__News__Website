@@ -1675,7 +1675,7 @@
       {
         "as_listed": "AICEP Portugal Global",
         "ref": "organisation:aicep-portugal-global",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Acubic",
@@ -1685,6 +1685,11 @@
       {
         "as_listed": "AgiBot",
         "ref": "organisation:agibot",
+        "count": 1
+      },
+      {
+        "as_listed": "AgroGrINTech",
+        "ref": "organisation:agrogrintech",
         "count": 1
       },
       {
@@ -1713,6 +1718,11 @@
         "count": 1
       },
       {
+        "as_listed": "Blue Bioeconomy Pact",
+        "ref": "organisation:blue-bioeconomy-pact",
+        "count": 1
+      },
+      {
         "as_listed": "CP",
         "ref": "organisation:cp",
         "count": 3
@@ -1735,6 +1745,11 @@
       {
         "as_listed": "Dutch Ministry of Foreign Affairs",
         "ref": "organisation:dutch-ministry-of-foreign-affairs",
+        "count": 1
+      },
+      {
+        "as_listed": "ETSA Group",
+        "ref": "organisation:etsa",
         "count": 1
       },
       {
@@ -1868,8 +1883,18 @@
         "count": 1
       },
       {
+        "as_listed": "Pep4Fish",
+        "ref": "organisation:pep4fish",
+        "count": 1
+      },
+      {
         "as_listed": "Pony.ai",
         "ref": "organisation:pony-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "Portuguese Catholic University",
+        "ref": "organisation:portuguese-catholic-university",
         "count": 1
       },
       {
