@@ -2,6 +2,9 @@
 title: About PrompTugal.news
 summary: Who runs PrompTugal.news, how we make it, and the limits we work within.
 ---
+{.notice .brand}
+**Our mandate: to map the universe of AI in Portugal.** The companies, the people, the events and how they connect, every fact with its source and the date we read it. Web Summit Lisbon 2026 is our first edition; the map is meant to outlive it.
+
 **The brief:** how PrompTugal.news is meant to work, from Dinis Cruz's own words, is [the brief pack](../brief/index.html).
 
 ## Independent, and who we are {#independent}
