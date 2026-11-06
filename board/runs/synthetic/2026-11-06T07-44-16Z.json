@@ -1,0 +1,77 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "synthetic@PrompTugal.dinis",
+ "run": "2026-11-06T07-44-16Z",
+ "started": "2026-11-06T07:44:16.313Z",
+ "ended": "2026-11-06T07:47:20Z",
+ "line": "07:44 wake: no reader run; decisions.py (owners' decisions from their own files), changes.mjs min_hours; 6 inbox sends",
+ "policy": {
+  "version": "1.4.0",
+  "sha256": "7f47bb044843d5bd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T07:44:16.652Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T07:44:16.313Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "other": 1,
+   "git": 4,
+   "shell": 5,
+   "message": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": [
+   {
+    "sha": "0fb2bc547",
+    "subject": "synthetic@PrompTugal.dinis: hourly run (07:44 UTC): owners can now decide findings (in their own files; decisions.py collects them); the front page rests 6 h be",
+    "files": 8
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

@@ -183,6 +183,10 @@ function test() {
         [T('dev'), bash('git checkout -- .claude/settings.json'), 'deny', 'git checkout the hooks'],
         [T('dev'), bash('echo x >> board/HOLD.md'), 'deny', 'append to HOLD'],
         [T('dev'), bash('ls 2>&1 >/dev/null'), 'allow', 'redirects to /dev/null'],
+        [T('dev.verify'), bash('git push origin work/dev.verify 2>&1 | tail -3'), 'allow', 'a worker push with 2>&1 (07:xx false positive)'],
+        [T('dev.portugal'), w('content/portugal/algarve-evolution.md'), 'allow', 'dev.portugal writes the Portugal section'],
+        [T('dev.pages'), w('content/index.md'), 'deny', 'dev.pages writes the front page words (correspondent desk, dev builds)'],
+        [T('conductor'), w('board/snapshots.json'), 'allow', 'conductor writes the snapshots index (CLAUDE.md)'],
         [T('dev'), bash('node pki-agent.mjs keygen --session --name conductor@PrompTugal.dinis'), 'deny', 'key in another name'],
         [T('dev'), bash('claude -p "do x"'), 'deny', 'claude CLI'],
         [T('dev'), bash('crontab -l'), 'deny', 'crontab'],
@@ -255,6 +259,13 @@ function readLogs() {
     let files = []; try { files = fs.readdirSync(LOG_DIR).filter(f => f.endsWith('.jsonl')) } catch { }
     return files.map(f => ({ f, lines: fs.readFileSync(path.join(LOG_DIR, f), 'utf8').split('\n').filter(Boolean).map(l => { try { return JSON.parse(l) } catch { return null } }).filter(Boolean) }))
 }
+// a main agent's review commit ("review: bring work/<worker> ...", CLAUDE.md's review workflow) carries the worker's
+// work: its paths are judged against the worker's grant, not the reviewer's (dev@'s ask, 7bd8317)
+function reviewedAs(who, subject) {
+    const m = /\breview: bring work\/([a-z][a-z0-9.-]*)/.exec(subject || '')
+    if (!m || !m[1].startsWith(who.role + '.')) return who
+    return { kind: 'team', role: m[1], agent: `${m[1]}@PrompTugal.dinis`, how: 'review' }
+}
 function inGrant(who, file) { const d = abp.checkWrite(who, path.join(ROOT, file), {}, P); return d.decision === 'allow' }
 function runReport() {
     const who = arg('--role') ? { kind: 'team', role: arg('--role'), agent: `${arg('--role')}@PrompTugal.dinis`, how: '--role' } : abp.whoAmI()
@@ -281,7 +292,7 @@ function runReport() {
     const breaches = []
     for (const c of commits) for (const f of c.files) {
         if (/derived data brought up to date/.test(c.subject) && /^data\//.test(f)) continue   // release.sh's derive commit
-        if (!inGrant(who, f)) breaches.push({ kind: 'write-outside-grant', what: `${c.sha} wrote ${f}`, rule: 'R6' })
+        if (!inGrant(who, f) && !inGrant(reviewedAs(who, c.subject), f)) breaches.push({ kind: 'write-outside-grant', what: `${c.sha} wrote ${f}`, rule: 'R6' })
     }
     const compactions = evs.filter(e => e.ev === 'compact').length, reanchors = evs.filter(e => e.ev === 'session-start' && e.source === 'compact').length
     if (reanchors < compactions) breaches.push({ kind: 'not-re-anchored', what: `${compactions} compaction(s), ${reanchors} re-anchor(s): the SessionStart compact hook did not fire every time`, rule: 'R1' })
@@ -342,7 +353,7 @@ function hourly() {
         for (const f of c.files) {
             a.files++
             if (derived && /^data\//.test(f)) continue
-            if (!inGrant(who, f)) a.outside.push({ f: `${c.sha} ${f}`, after: isAfter })
+            if (!inGrant(who, f) && !inGrant(reviewedAs(who, c.subject), f)) a.outside.push({ f: `${c.sha} ${f}`, after: isAfter, review: reviewedAs(who, c.subject) !== who })
         }
     }
     const reported = new Set(runs.map(r => r.agent))

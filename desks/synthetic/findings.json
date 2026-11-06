@@ -397,9 +397,11 @@
    "owner": "correspondent@",
    "severity": "costly",
    "finding": "C's briefing ('Before the summit, in 30 seconds') was Ana's and Miguel's favourite, but its three claims carry no source or author (Helena, Miguel), and 'Play the briefing' does not say what it plays.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "accepted",
+   "decision": "accept: each briefing line is the headline of a published article and links it (so each carries that article's sources and byline); a line with no article behind it is not in the briefing. The words of the lines come from front-page.json's lead and top; the layout and the play button are designer@'s and dev@'s.",
+   "evidence": null,
+   "decided_in": "desks/correspondent/front-page.json",
+   "decided_at": "2026-11-06T06:44Z"
   },
   {
    "id": "F40",
@@ -407,9 +409,11 @@
    "owner": "correspondent@",
    "severity": "minor",
    "finding": "Today's front page lists 'Registration: collect your lanyard and wristband' three times under the same title (the airport, Pavilhão de Portugal), which reads as a duplicate; the place belongs in the title.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "accepted",
+   "decision": "accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them.",
+   "evidence": null,
+   "decided_in": "desks/correspondent/front-page.json",
+   "decided_at": "2026-11-06T06:44Z"
   },
   {
    "id": "F41",
@@ -451,5 +455,6 @@
    "decision": null,
    "evidence": null
   }
- ]
+ ],
+ "updated_decisions": "2026-11-06T07:45Z"
 }

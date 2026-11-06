@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
  "state": "running: hourly at :38 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
- "updated": "2026-11-06T06:55Z",
+ "updated": "2026-11-06T07:45Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -62,8 +62,14 @@
   {
    "started": "2026-11-06T06:39Z",
    "outcome": "ok",
-   "release": "this wake's",
+   "release": "v0.1.155",
    "line": "Airia's flows in its draft; drafts shaped for the person who sends, as Dinis decided"
+  },
+  {
+   "started": "2026-11-06T07:38Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "Cloudflare's mapped flow in its draft"
   }
  ]
 }

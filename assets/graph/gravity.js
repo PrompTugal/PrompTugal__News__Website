@@ -32,10 +32,10 @@
         })
         for (let k = 0; k < 200; k++) for (const a of wells) for (const b of wells) {
             if (a === b) continue
-            const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1, min = a.r + b.r + 44
+            const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1, min = a.r + b.r + 64
             if (d < min) { const f = (min - d) / 2 / d; a.x -= dx * f; a.y -= dy * f; b.x += dx * f; b.y += dy * f }
         }
-        for (const w of wells) { const m = w.r + 40; w.x = Math.max(m, Math.min(W - m, w.x)); w.y = Math.max(m + 20, Math.min(H - m, w.y)) }
+        for (const w of wells) { const m = w.r + 50; w.x = Math.max(m, Math.min(W - m, w.x)); w.y = Math.max(m + 30, Math.min(H - m, w.y)) }
         bodies = []
         for (const w of wells) w.m.sort((a, b) => b.deg - a.deg).forEach((n, j) => {
             const ring = w.r * (0.35 + 0.65 * Math.sqrt((j + 1) / w.m.length)) + 8
@@ -67,8 +67,12 @@
         ctx.globalAlpha = 1
         const pick = sel || hover
         if (pick) { const p = P.get(pick); ctx.strokeStyle = ink; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(p.x, p.y, pick.r + 4, 0, 7); ctx.stroke(); ctx.fillStyle = ink; ctx.font = '600 13px system-ui, sans-serif'; ctx.fillText(pick.n.label, p.x + pick.r + 8, p.y + 4) }
-        ctx.font = '700 14px system-ui, sans-serif'; ctx.textAlign = 'center'
-        for (const w of wells) { ctx.fillStyle = ink; ctx.fillText(w.k.toUpperCase(), w.x, w.y - w.r - 14); ctx.fillStyle = ink3; ctx.font = '400 12px system-ui, sans-serif'; ctx.fillText(w.m.length + ' companies', w.x, w.y - w.r - 0); ctx.font = '700 14px system-ui, sans-serif' }
+        const halo = (txt, x, y) => { ctx.strokeStyle = css('--panel') || '#fff'; ctx.lineWidth = 4; ctx.lineJoin = 'round'; ctx.strokeText(txt, x, y); ctx.fillText(txt, x, y) }
+        ctx.textAlign = 'center'
+        for (const w of wells) {
+            const y = w.y - (w.r + 8) * 0.78 - 10
+            ctx.font = '700 14px system-ui, sans-serif'; ctx.fillStyle = ink; halo(w.k.toUpperCase() + ' · ' + w.m.length, w.x, y)
+        }
         ctx.textAlign = 'start'
         cv._P = P
     }

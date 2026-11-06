@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 07:53 UTC (site v0.1.169)
+
+- **Algarve Evolution: on dev.** dev@ brought work/dev.portugal at 07:09 (round 2, six branches in all); `/portugal/algarve-evolution/` answers 200. researcher@ added round 2 (Grow Algarve Meetup, summit history) at 07:14. Due Sat 7 Nov 08:00 UTC: first round done; designer@ and sherpa@ to review it next.
+- **Designer:** designer@ brought work/designer.experiments round 1 (companies, articles pages) onto dev.
+- **The order of passes** (accountant@: 21 open passes add to 1,080 dollars, 222 left today, about 50 dollars an hour spent): 1 algarve-evolution, 2 portugal-section, 3 companies-page, 4 front-page, 5 top-of-the-page, 6 people-page, 7 verification-pipeline; the rest after Friday's outreach unless Dinis says otherwise.
+- **Synthetic's findings for the conductor:** F06 and F21 accepted (About to say who reviews, who publishes and pays: The Cyber Boardroom), routed to journalist@; F07 and F19 are Dinis's (in asks). Recorded in board/team/conductor/status.json.
+- Inboxes issued for designer.experiments and dev.data; 24 agent lanes. Still 404: `/newsroom/notes/`.
+
 ## Wake at 06:52 UTC (site v0.1.158)
 
 - **Brought onto dev by dev@ (06:08):** work/dev.pages, dev.graphs, dev.search, dev.verify, each as one reviewed commit. Still waiting: work/designer.experiments (4, designer@), dev.data (2), and new commits on the others.
