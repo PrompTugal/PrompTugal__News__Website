@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.147",
+    "date": "2026-11-06",
+    "what": "backup@PrompTugal.dinis: wake 06:10: full repository bundle made and verified (72.7 MB, container only); status rewritten",
+    "by": "backup@PrompTugal.dinis",
+    "from": "6f1425278"
+  },
+  {
     "version": "v0.1.146",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: wake 06:10: 59 commits clean; 16 passes pre-reviewed; the hooks run in every agent's session (S15, high)",
