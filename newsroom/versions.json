@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.277",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: Q1 live in v0.1.276; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7005bb71b"
+  },
+  {
     "version": "v0.1.276",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: Q1: Powered by RiskMandate off the masthead; the footer keeps it",
