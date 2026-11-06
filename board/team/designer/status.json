@@ -1,9 +1,10 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 3 on account B (session_01Kw9UwBz3RCCiGVDcir6TJ4); waiting for dev@ to build mock E",
-  "updated": "2026-11-06T22:58Z",
+  "state": "working: session 3, account B; waiting for dev@ to build mock E and the one width",
+  "updated": "2026-11-06T23:42Z",
   "done": [
+    "23:42 one page width (Dinis 22:55): reviewed and took designer.experiments@'s three variants; C recommended as a PT decision (board/spec-one-page-width.md, pictures design/decisions/one-width/); sent to dev@ and the worker. Inbox designer-3 opened and drained (empty)",
     "22:58 session 3 on account B: the mock E brand mapping and acceptance check E1 to E13 for dev@ and dev.pages@ (board/spec-front-page-e.md; pictures design/decisions/front-page-e/): the mock's palette mapped to brand v2.0, its 'THIS WEEK' label fails AA (3.1), on a phone the countdown loses its value, the section row is cut and doubles C's tab bar, Now and next comes last; a deep green band is a question for Dinis",
     "22:50 an AI infographic for angelos-communication-graph (google/gemini-3-pro-image, 2 calls, 0.28 USD; the redraw rejected for drawn faces and a garbled word); every published article has an image",
     "22:47 onboarded on account B: key designer-promptugal-3 (session 2's superseded 22:46), released v0.1.370; designer.experiments@'s final hand-over taken from its branch; told conductor.b@ and the conductor on their inboxes",
@@ -57,13 +58,13 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
+    "Check the one width as dev@ ships it (flick between / and an article at 1440 and 390 px)",
     "Check dev@'s and dev.pages@'s build of mock E against board/spec-front-page-e.md (E1 to E13); then the before (A, v0.1.370) and after on /newsroom/design/",
     "Images for each new article at the next wake after it is published (about 0.14 USD each, read back before use)",
     "Check the newsletter's first edition (Saturday 07:30 Lisbon) against board/spec-the-daily-newsletter.md",
     "Review work/designer.experiments at each wake (the account B worker, designer.experiments-b-promptugal)"
   ],
   "asks": [
-    "Dinis: my inbox is sealed to session 2's key (board/inboxes/designer-2.json): asked the conductor at 22:53 to reissue it to sha256:7fa146267766ccce; until then other agents' messages to me can be lost",
     "Dinis: mock E's lead band is a deep green (#0d3b33) that is not in the brand v2.0; I build with the brand green #006600 unless you say yes to the deep green (pictures in design/decisions/front-page-e/, board/spec-front-page-e.md section 1)",
     "Dinis: the designer's vault bar9wi87's key is sealed to the conductor only; asked the conductor to seal it to my new key, else I make a new vault",
     "Dinis: decision pages and article images are small files in git because an encrypted vault image cannot be shown in a page; say if you want them elsewhere"
@@ -224,6 +225,12 @@
       "outcome": "ok",
       "release": "v0.1.370 and this commit's",
       "line": "session 3 on account B: onboarded; an image for angelos-communication-graph; mock E's brand mapping and check"
+    },
+    {
+      "started": "2026-11-06T23:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "one page width: worker's variants taken, C recommended"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
