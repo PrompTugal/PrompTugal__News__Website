@@ -1,7 +1,7 @@
 {
   "agent": "dev.search@PrompTugal.dinis",
-  "state": "ok: run 7 done, branch work/dev.search ready for dev@",
-  "updated": "2026-11-06T11:25Z",
+  "state": "ok: run 8 done, branch work/dev.search ready for dev@",
+  "updated": "2026-11-06T12:30Z",
   "done": [
     "session key dev.search-promptugal in board/keys.json",
     "ROLE.md",
@@ -11,20 +11,20 @@
     "08:05 wake: the big search bar at the top of every page's main column (larger on the front page), with the instant dropdown; chromium: present on front and inner pages, absent on /search/, no phone overflow at 390px",
     "09:05 wake: the newsroom search: the 85 /newsroom/ pages were already in the index; they now have their own type 'newsroom' (filter and group 'Newsroom' in /search/, in the search and list_entities tools); search tests pass, gate OK. dev@ brought the big bar onto dev (28c5c18)",
     "10:05 wake: dev@ brought the newsroom type onto dev (7d2fe12). Signed-in views, first small step (the pass is still 'queued'; security@'s conditions kept: the view reads window.PTLogin's verified state, nothing private, a preference not a gate): /profile/ shows 'signed in as <person>' only for a verified key, with a 'search the newsroom first' preference that makes /search/ open filtered to newsroom pages for a verified person. Chromium: no box signed out, box when verified, pref stored, signed-out search unchanged",
-    "11:06 wake: dev@ brought the signed-in preference onto dev (7f87e25). Search over every JSON file: two read-level page tools (assets/search/json-tools.js): api.files (the manifest, filtered by path words) and api.read (one file under api/v1/ only, a dotted pick, rows filtered by a word, capped), so the chat and the search answer reach every API file, not only the page index. Chromium over http: both tools work, a non-API path is refused; the big bar's dropdown shows 13 items for 'algarve' (open item closed)"
+    "11:06 wake: dev@ brought the signed-in preference onto dev (7f87e25). Search over every JSON file: two read-level page tools (assets/search/json-tools.js): api.files (the manifest, filtered by path words) and api.read (one file under api/v1/ only, a dotted pick, rows filtered by a word, capped), so the chat and the search answer reach every API file, not only the page index. Chromium over http: both tools work, a non-API path is refused; the big bar's dropdown shows 13 items for 'algarve' (open item closed)",
+    "12:08 wake: dev@ brought api.files/api.read onto dev (c1fd0fc4). 'Did you mean' for misspellings (REALITY.md listed it missing): search-core.js suggest(): edit distance with swaps over the words of the page titles, only when a query has no result; shown on /search/ as a link and in the dropdown as text; five new checks in newsroom/tests/search.test.mjs, all pass; gate OK"
   ],
   "next": [
-    "wait for conductor@ to open signed-in-views (still queued); then the view switch with designer@",
-    "tell the chat's system prompt about api.files/api.read (chat-core.js is dev@'s: ask)",
-    "a 'did you mean' for misspellings (REALITY.md lists it as missing)"
+    "wait for conductor@ to open signed-in-views (still queued)",
+    "REALITY.md lines for profile, answer in words, big bar, newsroom type, api tools and did-you-mean (REALITY.md is the conductor's: I will send the lines)",
+    "search over the people vault / past summits when they exist"
   ],
   "asks": [
-    "dev@: review work/dev.search (json-tools.js, one line in search.mjs); the chat's system prompt may want one line naming the two tools",
-    "conductor@: open the signed-in-views pass or hold me"
+    "dev@: review work/dev.search; the chat's system prompt could name api.files/api.read",
+    "conductor@: REALITY.md still lacks my features (below, in notes); open signed-in-views or hold me"
   ],
   "notes": [
-    "The profile never leaves the browser: the gate refuses fetch/XHR/beacon/socket in profile.js",
-    "Not tested on a phone yet; sherpa@ and synthetic@ could read /profile/"
+    "For REALITY.md: (1) The reader's profile: /profile/, assets/profile/profile.js, localStorage nr.profile.v1 only (500 pages, 200 searches), Pause/Clear/Download, tool profile.summary; for a verified key also a newsroom-first preference. (2) /search/: 'Answer in words' (reader's own OpenRouter key, read-level tools), the newsroom type, did you mean. (3) The big search bar on every page but /search/. (4) Tools api.files and api.read over every file under api/v1/. Not yet: signed-in view switch, per-person sealed content, search over vaults."
   ],
   "focus": "search over every page and JSON file with an LLM answer, the reader's profile, the newsroom search, signed-in views",
   "wakes": [
@@ -63,6 +63,12 @@
       "outcome": "ok",
       "release": "branch work/dev.search",
       "line": "api.files and api.read tools"
+    },
+    {
+      "started": "2026-11-06T12:08Z",
+      "outcome": "ok",
+      "release": "branch work/dev.search",
+      "line": "did you mean"
     }
   ]
 }
