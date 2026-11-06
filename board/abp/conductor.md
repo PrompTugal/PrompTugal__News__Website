@@ -1,7 +1,7 @@
 ---
 title: "ABP: conductor@PrompTugal.dinis"
 agent: conductor@PrompTugal.dinis
-policy: board/abp/policies.json v1.1.0 (sha256:b5b466369ffb6852)
+policy: board/abp/policies.json v1.2.0 (sha256:0cdcc6613d36c01b)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator

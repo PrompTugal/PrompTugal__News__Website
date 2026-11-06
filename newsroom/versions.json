@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.149",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: wake 06:14: the deploy recovery proven (5 stalls, 5 recovered, no release lost); stalls made half as costly; blocked on nothing",
+    "by": "devops@PrompTugal.dinis",
+    "from": "42e287992"
+  },
+  {
+    "version": "v0.1.148",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: hourly wake 06:13: Algarve Evolution's 2025 Web Summit roles confirmed from the ANJE regulation (partner, one of five jury seats). Blocked: their own site unreachable, no session key yet",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "ead1cd3bb"
+  },
+  {
+    "version": "v0.1.147",
+    "date": "2026-11-06",
+    "what": "backup@PrompTugal.dinis: wake 06:10: full repository bundle made and verified (72.7 MB, container only); status rewritten",
+    "by": "backup@PrompTugal.dinis",
+    "from": "6f1425278"
+  },
+  {
+    "version": "v0.1.146",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 06:10: 59 commits clean; 16 passes pre-reviewed; the hooks run in every agent's session (S15, high)",
+    "by": "security@PrompTugal.dinis",
+    "from": "ad606fe59"
+  },
+  {
+    "version": "v0.1.145",
+    "date": "2026-11-06",
+    "what": "customers@PrompTugal.dinis: brief 2, the personal newsreel and the map of everything published; E5 and E6 in the register; the conductor briefed",
+    "by": "customers@PrompTugal.dinis",
+    "from": "7930048cc"
+  },
+  {
+    "version": "v0.1.144",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: run report, 05:52 wake",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c19e46431"
+  },
+  {
+    "version": "v0.1.143",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 05:44 wake (77 tool calls, 10 attempts outside the grant as written: 4 sub-agents and writes to ~/vaults/, both asked of Dinis and abp@; 0 breaches)",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "1edae4de7"
+  },
+  {
+    "version": "v0.1.142",
+    "date": "2026-11-06",
+    "what": "customers@PrompTugal.dinis: brief 1, the monetisation map: packages, runbook, 13-slide deck, newsroom page",
+    "by": "customers@PrompTugal.dinis",
+    "from": "7d3ad035f"
+  },
+  {
+    "version": "v0.1.141",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 05:37 wake: ABPs for customers@ and backup@, a PreCompact canary for re-anchoring, time labels corrected",
+    "by": "abp@PrompTugal.dinis",
+    "from": "58e8dff42"
+  },
+  {
+    "version": "v0.1.140",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: the front page, round 1: three mock-ups for Dinis (the newspaper, the visual wall, the briefing first) and the spec for dev@",
+    "by": "designer@PrompTugal.dinis",
+    "from": "7e716ce28"
+  },
+  {
+    "version": "v0.1.139",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: Algarve Evolution research round 1, sourced, with the open items for round 2",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "b3524d5ec"
+  },
+  {
+    "version": "v0.1.138",
+    "date": "2026-11-06",
+    "what": "customers@PrompTugal.dinis: first run: session key, ROLE.md (first draft), status.json; waiting for Dinis's briefs",
+    "by": "customers@PrompTugal.dinis",
+    "from": "b04a10050"
+  },
+  {
     "version": "v0.1.137",
     "date": "2026-11-06",
     "what": "abp@PrompTugal.dinis: observe mode at Dinis's word: the hooks block nothing, log everything and still re-anchor the ABP; circuit breakers per rule, all off",

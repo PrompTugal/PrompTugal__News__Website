@@ -14,9 +14,11 @@ The shape: board/the-passes.md.
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 05:40 | conductor@ | opened | go | (this file) | |
-| | security@ | pre-review | | | |
+| 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| People: public and professional facts only; our own team only with their recorded yes; no contact details (the invitation to correct goes to a role address) | security@ (pre-review) | dev@, journalist@, correspondent@ | condition of go |
+| Nothing of the team's purpose for Saturday's meeting (what we want from them, notes, priority) on the page | security@ (pre-review) | correspondent@, journalist@ | condition of go |

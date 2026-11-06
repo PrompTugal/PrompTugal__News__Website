@@ -23,7 +23,7 @@
     },
     "by": {
       "type": "string",
-      "pattern": "^[a-z0-9-]+@PrompTugal\\.dinis$"
+      "pattern": "^[a-z0-9-]+(\\.[a-z0-9-]+)*@PrompTugal\\.dinis$"
     },
     "written": {
       "type": "string",
@@ -127,7 +127,7 @@
         "properties": {
           "agent": {
             "type": "string",
-            "pattern": "^[a-z0-9-]+@PrompTugal\\.dinis$"
+            "pattern": "^[a-z0-9-]+(\\.[a-z0-9-]+)*@PrompTugal\\.dinis$"
           },
           "per_day": {
             "type": "object",

@@ -1,0 +1,12 @@
+{
+  "about": "The ledger for Dinis's rule of seven: one line per ask for something we could sell, by type and date, so the seventh ask for the same thing promotes it from a one-off job to a package row in packages.json. NO name, NO company, NO contact detail, NO price a buyer was quoted: who asked lives with Dinis (the team's CRM), not in this public repository. Kept by customers@PrompTugal.dinis.",
+  "rule": "The first five or six asks of a kind are done as one-off jobs. At the seventh, the kind becomes a package row with a Payment Link (Dinis, 6 November 2026).",
+  "fields": {
+    "date": "ISO date the ask arrived",
+    "kind": "the id of the nearest package in packages.json, or 'new:<short label>' for something not on the menu",
+    "how": "how it arrived: inbound lane, reply, mention, in person, other (no name)",
+    "outcome": "open, quoted, paid, delivered, declined, refused-by-rules",
+    "note": "one line about what was asked, with no name and no contact detail"
+  },
+  "asks": []
+}

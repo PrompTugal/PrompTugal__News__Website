@@ -1,0 +1,73 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "designer@PrompTugal.dinis",
+ "run": "2026-11-06T05-24-51Z",
+ "started": "2026-11-06T05:24:51.875Z",
+ "ended": "2026-11-06T05:39:08Z",
+ "line": "hourly wake 05:33: the front page round 1 (three mock-ups, spec, before and after); one AI image (0.0675 USD)",
+ "policy": {
+  "version": "1.0.0",
+  "sha256": "c3f841facb039122"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:33:55.302Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T05:33:54.865Z",
+   "source": "resume"
+  }
+ ],
+ "tool_calls": {
+  "total": 26,
+  "by_kind": {
+   "shell": 13,
+   "release": 2,
+   "other": 1,
+   "git": 3,
+   "web": 1,
+   "read": 5,
+   "write": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 26,
+  "commits": [
+   {
+    "sha": "b385db92f",
+    "subject": "designer@PrompTugal.dinis: run report of session 2's first run (32 tool calls, 1 attempt: the artifacts connector, refused by abp@'s R3)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": []
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 26,
+  "in_mandate": 26,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

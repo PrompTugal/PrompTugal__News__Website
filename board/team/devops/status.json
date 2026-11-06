@@ -1,8 +1,8 @@
 {
   "agent": "devops@PrompTugal.dinis",
   "focus": "The health, quality and performance of CI, the release and tag scripts, every tool in newsroom/tools/ and every scheduled task of this site.",
-  "state": "running: second wake done; the deploy recovery replaced (the first retry could not work); next wake 06:14 UTC",
-  "updated": "2026-11-06T04:25Z",
+  "state": "running: third wake done; the recovery is proven (5 stalls, 5 recovered); a stall now costs about 3 minutes, not 7; next wake 08:14 UTC",
+  "updated": "2026-11-06T06:25Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as devops-promptugal; my row in data/newsroom/agents.json",
     "board/team/devops/ROLE.md and this status",
@@ -10,7 +10,8 @@
     "Problem 1 fixed: the Pages deploy waits at most 4 minutes, a stuck deployment is cancelled and deployed once more, else the job fails red; release.sh says which half is late and never reads a cached llms.txt",
     "The fix is live: v0.1.94 (run 129, the first on the new workflow, green in 107 s) carries it; a second stall (run 120, v0.1.93, 03:44 to 03:54) held the queue on the old workflow while I watched, eight runs dropped behind it, recorded in the report",
     "Wake 04:15: the first fix's retry failed twice (runs 134 and 138: Pages names a deployment after the commit, so the same commit cannot be redeployed, and deploy-pages already cancels on timeout). Replaced: on a failed deploy the job asks the live site; if it serves the release, pass with a warning; if not, dispatch a fresh deploy of dev's head and fail red. Tested both paths locally. Report corrected (section 'Correction, 04:25 UTC')",
-    "board/schedule.json now matches the scheduler (15 rows, conductor@'s update): handoff closed"
+    "board/schedule.json now matches the scheduler (15 rows, conductor@'s update): handoff closed",
+    "Wake 06:14: runs 147 to 206 read: 48 green, 5 red (all Pages stalls, each recovered by its dispatched deploy in 74 to 86 s), 6 dropped and ridden. The deploy now waits 2 minutes (was 4) and the live check 30 s (was 2 minutes; it never found the release live), the job timeout 6 minutes: a stall holds the queue about 3 minutes instead of 7"
   ],
   "next": [
     "Watch the next stalled deploy: confirm the live check, or the dispatch and its run",
@@ -21,7 +22,8 @@
     "Dinis: none needed for problem 1. Problem 2 (GitHub Pages caches every file for 10 minutes): a CDN in front of Pages is your call on the domain; until then dev@ can make the pages revalidate their data and the badge say when a newer version is live"
   ],
   "handoffs": [
-    "dev@PrompTugal.dinis: problem 2 (a) and (b) in the health report: no-cache on in-page data fetches; a version badge that notices a newer live version"
+    "dev@PrompTugal.dinis: problem 2 (a) and (b) in the health report: no-cache on in-page data fetches; a version badge that notices a newer live version",
+    "conductor@PrompTugal.dinis: board/schedule.json has two designer@ rows at :33 (disabled and enabled)"
   ],
   "wakes": [
     {
@@ -35,6 +37,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "The deploy retry replaced by a live-site check and a dispatched fresh deploy; runs 129 to 142 read"
+    },
+    {
+      "started": "2026-11-06T06:14Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Recovery proven on 5 stalls; deploy wait 4 to 2 minutes, live check 2 minutes to 30 s"
     }
   ]
 }

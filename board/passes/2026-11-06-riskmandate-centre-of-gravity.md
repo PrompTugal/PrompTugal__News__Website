@@ -14,9 +14,11 @@ The shape: board/the-passes.md.
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 05:25 | conductor@ | opened | go | (this file) | |
-| | security@ | pre-review | | | |
+| 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| Only what riskmandate.ai and the team's site say; a company RiskMandate 'worked with' appears only where that relationship is public | security@ (pre-review) | ontologist@, correspondent@ | condition of go |
+| No company labelled as a prospect or target (team notes, S4) | security@ (pre-review) | ontologist@, designer@ | condition of go |

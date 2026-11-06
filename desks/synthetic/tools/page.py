@@ -36,8 +36,8 @@ for a in sorted({i['owner'] for i in items}, key=lambda a: (-waiting.get(a, 0), 
         d = clean(i.get('decision')) or ('measured live: ' + clean(i['evidence']) if i['status'] == 'verified' and i.get('evidence') else 'no decision yet')
         o.append(f'- **{i["id"]}** {i["severity"]}, **{i["status"]}** (run {i["run"]}): {first(i["finding"])} *Decision: {d}.*')
     o.append('')
-o += ['## Latest: run 5, the first homepage and one story each {#latest}', '', clean(P['latest_intro']), '', '{.rows}']
-o += [f'- **{clean(p["who"])}** ({clean(p["knows"])}; {clean(p["device"])}): picked *{clean(p["story"])}*. {clean(p["line"])}' for p in P['latest_readers']]
+o += [f'## {P.get("latest_title", "Latest")} {{#latest}}', '', clean(P['latest_intro']), '', '{.rows}']
+o += [f'- **{clean(p["who"])}** ({clean(p["knows"])}; {clean(p["device"])}): {"ranked" if "run 6" in P["latest_line"] else "picked"} *{clean(p["story"])}*. {clean(p["line"])}' for p in P['latest_readers']]
 o += ['', clean(P['latest_signed']), '', '**What held, for all four:** ' + clean(P['latest_held']), '', '**What lost them:** ' + clean(P['latest_lost']), '',
       '## Earlier runs', '', '{.rows}']
 o += [f'- **Run {r["run"]}** ({clean(r["when"])}, {clean(r["who"])}): {clean(r["line"])} [The runs]({GH}run-{r["run"]}/runs/).' for r in P['earlier']]

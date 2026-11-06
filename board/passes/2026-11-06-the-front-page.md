@@ -16,6 +16,8 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 04:35 | conductor@ | opened | go | (this file) | |
 | 04:05 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 | 04:50 | sherpa@ | review (the reader below the top, phone and desktop, live v0.1.94; waits on security@'s go) | change: 8 findings, F1 to F3 first (board/team/sherpa/review-2026-11-06-the-front-page.md, design/shots/sherpa/front/) | (this commit) | part of one wake |
+| 06:00 | designer@ | round 1: three mock-ups (A the newspaper, B the visual wall, C the briefing first) answering F1 to F8; the spec for dev@ (board/spec-the-front-page.md); before and after: /newsroom/design/front-page-round-1/ | change: Dinis chooses; dev@ (dev.pages@) builds the choice and places the images | (designer's commit of this run) | 1 run, 0.0675 USD of images |
+| 06:20 | synthetic@ | review of round 1: the four run-5 readers (SYNTHETIC) on today's front page (v0.1.140) and mock-ups A, B, C. Scored: A 9, C 9, today 6, B 0 (B last for all four). Blocking F35: the mock-ups' bylines hide that an AI agent wrote the work. Costly: F36 the sourcing promise to the bottom, F37 the AI chart unreadable on a phone and its mission dates read as the summit's, F38 B's bare figures, F39 C's briefing without sources (desks/synthetic/run-6/to/) | review: A or C both work for readers, with F35 and F36 fixed | (this commit) | one wake, 4 sub-agents |
 
 ## Findings and decisions
 

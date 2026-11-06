@@ -1,0 +1,75 @@
+{
+ "version": "front-page round 1 (on v0.1.138)",
+ "date": "Friday 6 November 2026",
+ "title": "The front page, round 1: three ways to make it visual",
+ "summary": "The front page as it is at v0.1.138, against three mock-ups for Dinis to choose from: A, the newspaper; B, the visual wall; C, the briefing first. Each puts a picture on every story (F1), turns Latest into rows a reader can scan (F2), keeps one time block (F3, F5) and brings what makes PrompTugal.news different up the page (F4, F7). Nothing is released yet: this is a design round.",
+ "devices": [
+  "phone",
+  "desktop",
+  "phone, whole page",
+  "desktop, whole page"
+ ],
+ "steps": [
+  {
+   "id": "before",
+   "label": "Before: v0.1.138",
+   "img": {
+    "phone": "before--front--phone.png",
+    "desktop": "before--front--desktop.png",
+    "phone, whole page": "before--front--phone--full.png",
+    "desktop, whole page": "before--front--desktop--full.png"
+   }
+  },
+  {
+   "id": "A",
+   "label": "Mock-up A: the newspaper",
+   "note": "A lead with its picture and two seconds; Latest as rows with a thumbnail, a kicker, the headline and a small byline; Now and next as three lines; Why we are different right after Latest.",
+   "img": {
+    "phone": "../../front-page/round-1/mockups/A--phone.png",
+    "desktop": "../../front-page/round-1/mockups/A--desktop.png",
+    "phone, whole page": "../../front-page/round-1/mockups/A--phone--full.png",
+    "desktop, whole page": "../../front-page/round-1/mockups/A--desktop--full.png"
+   }
+  },
+  {
+   "id": "B",
+   "label": "Mock-up B: the visual wall",
+   "note": "Every story a picture card, the lead across two columns; Now and next as one dark band at the top; Why we are different as a tinted panel.",
+   "img": {
+    "phone": "../../front-page/round-1/mockups/B--phone.png",
+    "desktop": "../../front-page/round-1/mockups/B--desktop.png",
+    "phone, whole page": "../../front-page/round-1/mockups/B--phone--full.png",
+    "desktop, whole page": "../../front-page/round-1/mockups/B--desktop--full.png"
+   }
+  },
+  {
+   "id": "C",
+   "label": "Mock-up C: the briefing first",
+   "note": "The day in three lines with a play button, then the lead, Latest and Now and next: Dinis's 'presentation on every big page' applied to the front page.",
+   "img": {
+    "phone": "../../front-page/round-1/mockups/C--phone.png",
+    "desktop": "../../front-page/round-1/mockups/C--desktop.png",
+    "phone, whole page": "../../front-page/round-1/mockups/C--phone--full.png",
+    "desktop, whole page": "../../front-page/round-1/mockups/C--desktop--full.png"
+   }
+  }
+ ],
+ "notes": [
+  "sherpa@'s findings answered: F1 a picture on every story; F2 Latest with picture, headline, one line, small byline (no ISO date, no agent address); F3 and F5 one time block of three lines; F4 the mandate's first sentence only, without the links the bar already has; F6 a kicker per story (its beat); F7 Reach, Mandate, Gap within about two phone screens; F8 no floating Ask.",
+  "The top is option A of the top-of-the-page round 1 in all three, so the two choices can be made separately.",
+  "The pictures: the article images made in session 1 and two AI-made infographics (marked AI-made). The one for the PITCH story is a placeholder: it invents two logo marks and is not for publication.",
+  "My pick: A for the summit week (fast to scan, every story with a picture), with C's briefing card added on the summit days once the correspondent writes its lines."
+ ],
+ "experiments_intro": "One more AI image this round: the PITCH story (from-pitch-to-new-markets), which had no image yet, on the model that was best value last round.",
+ "experiments": [
+  {
+   "img": "../../ai-images/from-pitch-to-new-markets/google_gemini-3.1-flash-image--editorial--053452.png",
+   "model": "google/gemini-3.1-flash-image",
+   "style": "editorial",
+   "cost_usd": 0.0675,
+   "seconds": 9.1,
+   "use": false,
+   "verdict": "figures right (1.6, 1.35 and 1.1 million euros, the expansions, 3xP's fund), but it invented logo marks for Granter and Intuitivo and put a named founder's quote on the image: the rules need 'no quotes of named people' and the next prompt says so"
+  }
+ ]
+}

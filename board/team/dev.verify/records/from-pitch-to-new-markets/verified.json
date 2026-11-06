@@ -1,0 +1,318 @@
+{
+  "$schema": "none",
+  "article": "from-pitch-to-new-markets",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
+      "status": 200
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
+      "status": 200
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/",
+      "status": 200
+    }
+  ],
+  "spent_usd": 0.0727,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Three Portuguese startups announced rounds between 23 October and 3 November 2026, as reported by Portugal Startup News.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1, S2, S3",
+          "quote": "October 23, 2026",
+          "note": "Three Portugal Startup News articles report funding rounds dated within the window: Intuitivo (S2, October 23), Seamoretech (S3, November 2), and Granter (S1, November 3)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source states that three Portuguese startups announced funding rounds between 23 October and 3 November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "November 3, 2026",
+          "note": "S1-S3 collectively report Granter, Seamoretech, and Intuitivo rounds within the 23 October–3 November 2026 window."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "Granter raised 1.6 million euros for its AI grant platform.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "has raised €1.6 million in an investment round to support its international expansion",
+          "note": "S1 confirms the €1.6 million raise but says the money is for international expansion, not specifically for the AI grant platform."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Granter secures €1.6M to expand its AI grant platform",
+          "note": "Granter raised €1.6 million in an investment round to support and expand its AI grant platform."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Granter secures €1.6M to expand its AI grant platform",
+          "note": "S1 states Granter raised €1.6 million to expand its AI grant platform."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "Intuitivo raised 1.35 million euros in seed funding.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Portuguese edtech startup Intuitivo has raised €1.35 million in seed funding",
+          "note": "S2 states Intuitivo raised €1.35 million in seed funding to expand into Brazil, matching the claim exactly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Intuitivo has raised €1.35 million in seed funding",
+          "note": "Source S2 directly confirms that Portuguese edtech startup Intuitivo raised €1.35 million in seed funding."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "raised €1.35 million in seed funding",
+          "note": "S2 states that Intuitivo raised €1.35 million in seed funding."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "Seamoretech raised 1.1 million euros in the first closing of its seed round.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "has raised €1.1 million in the first closing of its seed round",
+          "note": "S3 states Seamoretech raised €1.1 million in the first closing of its seed round, matching the claim exactly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "has raised €1.1 million in the first closing of its seed round",
+          "note": "Source 3 explicitly states that Seamoretech raised €1.1 million in the first closing of its seed round."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "raised €1.1 million in the first closing of its seed round",
+          "note": "S3 directly states Seamoretech raised €1.1 million in the first closing of its seed round."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "Granter won PITCH in November 2025.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Granter won PITCH, Web Summit's startup competition, in November 2025.",
+          "note": "S1 states directly that Granter won PITCH in November 2025; its photo caption says only \"in 2025,\" which is consistent with the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Granter won PITCH, Web Summit’s startup competition, in November 2025.",
+          "note": "Source 1 explicitly states that Granter won Web Summit's PITCH competition in November 2025."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Granter won PITCH, Web Summit’s startup competition, in November 2025.",
+          "note": "S1 directly states that Granter won PITCH in November 2025."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "Intuitivo was a PITCH winner in 2024.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "won the PITCH competition at Web Summit in 2024",
+          "note": "S2 states directly that Intuitivo won the PITCH competition at Web Summit in 2024, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "won the PITCH competition at Web Summit in 2024",
+          "note": "Source 2 explicitly states that Intuitivo won the PITCH competition at Web Summit in 2024."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "won the PITCH competition at Web Summit in 2024",
+          "note": "Source S2 states that Intuitivo won the PITCH competition at Web Summit in 2024."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "Seamoretech was founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP)",
+          "note": "S3 states Seamoretech was founded in 2021 as a spin-off of FEUP, matching the claim exactly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP)",
+          "note": "The source directly confirms that Seamoretech was founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Founded in 2021 as a spin-off of the University of Porto’s Faculty of Engineering (FEUP)",
+          "note": "Source S3 states the exact founding year and FEUP spin-off origin for Seamoretech."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Seamoretech plans a commercial launch in Spain in 2027.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "a planned market launch in Spain in 2027",
+          "note": "S3 states Seamoretech plans a commercial launch in Spain in 2027, following a demonstration collaboration in the country, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "plans a commercial launch in Spain in 2027",
+          "note": "The source explicitly confirms that Seamoretech plans a commercial launch in Spain in 2027."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "plans a commercial launch in Spain in 2027",
+          "note": "S3 directly states Seamoretech plans a commercial launch in Spain in 2027."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "Intuitivo counts more than 200 contracts covering more than 500 schools in Portugal and 75,000 registered teachers.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "signed more than 200 contracts with municipalities, school clusters, and private schools in Portugal, covering more than 500 schools",
+          "note": "S2 states that Intuitivo has signed more than 200 contracts covering more than 500 schools in Portugal and that the platform counts 75,000 registered teachers."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Intuitivo has signed more than 200 contracts with municipalities, school clusters, and private schools in Portugal, covering more than 500 schools. The platform now counts 75,000 registered teachers.",
+          "note": "The source directly confirms that Intuitivo has signed over 200 contracts covering more than 500 schools in Portugal and has 75,000 registered teachers."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Intuitivo has signed more than 200 contracts with municipalities, school clusters, and private schools in Portugal, covering more than 500 schools. The platform now counts 75,000 registered teachers.",
+          "note": "S2 directly states all three figures in the claim."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "Since winning PITCH in November 2025, Granter says it has helped more than 140 businesses apply for over 30 million euros.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Since then, the company says it has supported more than 140 businesses in applications for over €30 million in funding.",
+          "note": "S1 states both the November 2025 PITCH win and the company's own claim of helping more than 140 businesses with over €30 million in funding applications since then, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Granter won PITCH, Web Summit’s startup competition, in November 2025. Since then, the company says it has supported more than 140 businesses in applications for over €30 million in funding.",
+          "note": "The source explicitly confirms that since winning PITCH in November 2025, Granter reports supporting over 140 businesses in applying for more than €30 million in funding."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Granter won PITCH, Web Summit’s startup competition, in November 2025. Since then, the company says it has supported more than 140 businesses in applications for over €30 million in funding.",
+          "note": "S1 states both the PITCH win in November 2025 and Granter's claim of supporting over 140 businesses with applications for over €30 million in funding."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

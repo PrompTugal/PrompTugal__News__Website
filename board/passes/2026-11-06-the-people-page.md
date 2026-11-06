@@ -14,9 +14,12 @@ The shape: board/the-passes.md.
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 05:25 | conductor@ | opened | go | (this file) | |
-| | security@ | pre-review | | | |
+| 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| Every fact public, professional and sourced; photos only under a free licence, credited; nothing in the people vault that is not public, even encrypted | security@ (pre-review) | correspondent@, ontologist@ | condition of go |
+| Our team only with each person's yes, recorded in the repository with its date; removal or change on request within a day, including the summit-days and site-over-time views | security@ (pre-review) | journalist@, dev@ | condition of go |
+| Connections between people only where public and professional (a shared session, a shared company), never inferred private ties; no contact details | security@ (pre-review) | ontologist@ | condition of go |

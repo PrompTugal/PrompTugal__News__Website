@@ -1,0 +1,114 @@
+{
+  "persona": "Ana Costa (SYNTHETIC)",
+  "synthetic": true,
+  "run": 6,
+  "journey": "curious",
+  "ranking": ["C", "A", "today", "B"],
+  "outcome": "SYNTHETIC. Ana would stay on C: the numbered 'Before the summit, in 30 seconds' box tells her in plain words what is happening, and she would tap the Brazil story. On today's page she reads the Brazil lead but stops at the long list of registration times. B looks pretty but she cannot tell what to read first, and the small text inside the pictures is too small for her. She never quite works out what 'PrompTugal' means or why there is a '5.00 credit' button.",
+  "steps": [
+    {
+      "screen": "screens/front-phone-s1.jpg",
+      "see": "The name 'PrompTugal.news', 'PEOPLE AND AI AGENTS, REPORTING TOGETHER', 'Powered by RiskMandate', a green box 'Our mandate: to map the universe of AI in Portugal', then the headline 'Brazil's startup mission comes to Web Summit Lisbon' and a long paragraph. Buttons '£5.00' and 'Vault' at the top.",
+      "think": "So it is about technology in Portugal and the Web Summit. The Brazil headline is clear and the paragraph is written properly. But 'mandate', 'the graph', 'Vault' and pounds on a Portuguese site? And the byline 'journalist@PrompTugal.dinis, round 1 of the Brazil story project' reads like an email address, not a person.",
+      "question": "Why does it say £5.00, am I going to be charged?",
+      "confusion": "'Powered by RiskMandate' and 'Vault' mean nothing to me; I do not know if I am on a news site or a company's advertising.",
+      "act": "Scroll down past the box to see what else there is."
+    },
+    {
+      "screen": "screens/front-phone-s2.jpg",
+      "see": "A diary: 'Today, Friday 6 November', 'Portugal Tech Week 2026 begins', 'Private Wealth and Investment Gathering (invitation only)', 'Saturday 7 November', 'DevFest Lagos', 'Registration: collect your lanyard and wristband' twice.",
+      "think": "This is an agenda for people who are going. I am not going. The same 'Registration' line twice looks like a mistake. Portugal Tech Week is interesting though.",
+      "question": null,
+      "confusion": "Two identical 'Registration' entries one after the other; I thought the page had repeated itself.",
+      "act": "Scroll a little more, losing patience."
+    },
+    {
+      "screen": "mockups/A--phone.png",
+      "see": "'MOCK-UP A', a big chart picture labelled 'AI-MADE' about 'Brazil's startup mission to Web Summit Lisbon 2026: the uncertain delegation count', then the same Brazil headline, a short summary ending 'ApexBrasil...', '5 min · signed', and 'NOW AND NEXT' with three dated lines.",
+      "think": "This looks like a real newspaper on the phone. The headline and three dates fit on one screen, much tidier than today. The chart is too small to read on my phone, and 'AI-MADE' on a chart makes me wonder if the numbers are invented.",
+      "question": "Is the chart made by a computer from the real figures, or did the computer make up the figures too?",
+      "confusion": "'signed' after '5 min': signed by whom?",
+      "act": "Tap the Brazil headline."
+    },
+    {
+      "screen": "mockups/B--phone.png",
+      "see": "A black strip 'NOW Portugal Tech Week begins today · Opening Night Monday 9 November', the same AI-made chart, the Brazil headline with no summary, then two small picture cards side by side, 'From the PITCH stage to new markets' and 'Europe in Pavilion 4'.",
+      "think": "The black strip is useful, I see straight away what is happening. But then it is pictures and more pictures, like Instagram. There is no little paragraph telling me what the Brazil story is about.",
+      "question": null,
+      "confusion": "The writing inside the small picture cards is tiny; I tried to read 'Europe in Pavilion 4' card and could not.",
+      "act": "Scroll the wall of pictures, then leave without tapping."
+    },
+    {
+      "screen": "mockups/C--phone.png",
+      "see": "A framed box 'FRIDAY 6 NOVEMBER · THE BRIEFING', 'Before the summit, in 30 seconds', three numbered points (Brazil's delegation, 'Three Portuguese startups raised 1.1 to 1.6 million euros each this fortnight', the European Commission in Pavilion 4), 'Play the briefing · Read the stories'.",
+      "think": "This is what I want. Like the summary on the radio in the morning. Three things, in plain words, and I can decide. 'Play the briefing' sounds like I could listen while I am at the counter.",
+      "question": "Does 'Play the briefing' read it out loud?",
+      "confusion": null,
+      "act": "Tap point 2, the Portuguese startups raising money."
+    }
+  ],
+  "interview": {
+    "q1": "Today: a site about technology and AI in Portugal around the Web Summit, but full of words for insiders ('mandate', 'Vault', '£5.00'), so I think it is for people in that world, not me. A: a technology newspaper about the Web Summit in Lisbon, for people who follow technology. B: a magazine of pictures about the Web Summit, for young people who scroll. C: a short morning summary of what is happening at the Web Summit, for someone like me who has five minutes.",
+    "q2": "1. C, because the three points tell me the news before I have to choose anything. 2. A, because it looks like a proper newspaper and each story has a few words under it. 3. Today, because the Brazil story is well written but then I fall into a long list of registration times. 4. B, because it is all pictures and I cannot read the small writing or tell which story matters most.",
+    "q3": "C makes me want to read. I would tap 'Three Portuguese startups raised 1.1 to 1.6 million euros each this fortnight', because it is about Portugal and about real money, and I want to know who they are.",
+    "q4": "Honestly, I did not notice it on the first screen of any of them. In A and C there is 'WHY WE ARE DIFFERENT' at the very bottom, with 'Reach', 'Mandate', 'Gap', but those questions ('What can an AI agent actually do?') did not tell me that every fact has a source. On today's page the green box says 'every fact with its source' at the top, which is the clearest of the four, but it is mixed with 'the graph' and 'mandate'. The word 'signed' I saw, but nobody told me what it means.",
+    "q5": "The 'AI-MADE' label on the big chart. I appreciate that you tell me, but a chart with numbers that a computer drew makes me check twice whether the numbers are true. And the bylines like 'journalist@PrompTugal.dinis' and 'Vicky Wang's desk': is Vicky a person or a computer? The '£5.00 credit' button on every version made me think I would have to pay.",
+    "q6": "In C, put one line under the briefing box that says in normal words who writes this and how: something like 'Written by AI agents, checked by Dinis Cruz, every fact links to where it came from'. And take away or explain the '£5.00 credit' button."
+  },
+  "findings": [
+    {
+      "severity": "costly",
+      "screen": "mockups/C--phone.png",
+      "finding": "The briefing box 'Before the summit, in 30 seconds' with three numbered points is the only first screen that tells a newcomer what the news is without needing to choose a story.",
+      "owner": "correspondent@"
+    },
+    {
+      "severity": "costly",
+      "screen": "mockups/A--phone--full.png",
+      "finding": "The 'WHY WE ARE DIFFERENT' block (Reach, Mandate, Gap) sits at the very bottom in A, B and C, and its three questions do not say in plain words that every fact is sourced and who wrote the page, so a cold reader never sees it.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "mockups/A--phone.png",
+      "finding": "The lead image is a dense chart labelled 'AI-MADE' whose text is unreadable at phone width, and the label makes a non-technical reader doubt the numbers in it.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "mockups/B--phone--full.png",
+      "finding": "B's lead story has no summary and the grid cards carry their titles inside small images, so there is no clear order of importance and the card text cannot be read on a phone.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "costly",
+      "screen": "screens/front-phone-s1.jpg",
+      "finding": "The header buttons '£5.00' (and '£5.00 credit' in the mock-ups) and 'Vault' have no label explaining them, and a reader takes them as a charge on a news site.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "screens/front-phone-s2.jpg",
+      "finding": "The agenda lists 'Registration: collect your lanyard and wristband' twice in a row on the same day at two places, which reads as a repeat to someone not attending.",
+      "owner": "correspondent@"
+    },
+    {
+      "severity": "minor",
+      "screen": "screens/front-phone-s1.jpg",
+      "finding": "The byline 'journalist@PrompTugal.dinis, round 1 of the Brazil story project, from the first version by journalist@web-summit.vicky' reads like email addresses and does not say whether the writer is a person or an AI.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "mockups/C--phone.png",
+      "finding": "'Play the briefing' does not say whether it plays audio, video or slides, or how long it lasts.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "minor",
+      "screen": "mockups/A--phone.png",
+      "finding": "The word 'signed' after '5 min' is shown with no explanation of who signed or what it proves.",
+      "owner": "designer@"
+    }
+  ]
+}
