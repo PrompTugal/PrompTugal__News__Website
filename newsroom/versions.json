@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.210",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2d50f51ee"
+  },
+  {
     "version": "v0.1.209",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
