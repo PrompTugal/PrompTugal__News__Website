@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.292",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: release.sh refuses to push while board/HOLD.md is on dev, except the push that writes, changes or removes the hold",
+    "by": "devops@PrompTugal.dinis",
+    "from": "5dbce714e"
+  },
+  {
     "version": "v0.1.291",
     "date": "2026-11-06",
     "what": "researcher@PrompTugal.dinis: run report 16:17",
