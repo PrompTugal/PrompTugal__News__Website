@@ -444,6 +444,23 @@
         "signing_fingerprint": "sha256:f93bc841c931c599"
       },
       "status": "active"
+    },
+    {
+      "id": "dev.portugal-promptugal",
+      "agent": "dev.portugal@PrompTugal.dinis",
+      "label": "dev.portugal@PrompTugal.dinis (Claude Code session)",
+      "role": "The Portugal section's builder (dev.portugal@PrompTugal.dinis, Sonnet worker): the Portugal section and its organisations' sections, Algarve Evolution first. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, the one abp@'s entry records; the pin in the team site's seal.mjs was not checked). Linked locally to the operator's key sha256:db7f79fdd87e030a, awaiting his confirmation. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation, at Dinis's word (6 November 2026: PrompTugal's keys live here).",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt5N+yxKybw4eH7ruzFKg\nWRnWokyIQCp7HHD/Y/dEkE/VZ+YlcxQvmKRSS4os12g/43/Brp9brxaAox6LnWxr\nKdSntiS45++uVQmm22ezDT3sPh0qWXEb1fRdNc4lo7v2JZn/rNuLZwaqCgaTfGjN\nQmUsu02tX1jKDrtl4aOT4WKqOgn7L5xkvHNSLPrRj/cawblYb61b90ZP1xtrMsun\n3lDKio0q43lfoSalCHd7hBdMzSBEeqEyqhIoOkaRXWyAEz/2ctiCk6Lblf6YW5TQ\nhM3ahPutB27pswuU9iedqHVakelFxbIqGg2eccj99j5uVyKdfnVs+0uLzpHeVBJG\nljm8UWs/gnKafKGWAJCyCOvPKSUv6KyzJ1D9YRQ7A3gj00iK7n7QJsYP6ud1m5+j\nglOf0TD2xqZb6wqxdipD6NBThHvuJF/OPwL+MAORVXAna9uVQOKoFwcxQZQOeGka\nMHOyhnjRN30KznE1AeqhJLr0ZhkBW5Y6K/PUGsT2Y7EnDlsnzPWOfr3g2rKQJ4UA\nkTs19awXs+WVFcPM0yEkkhTMy+5kJDLR7M1p/HPLoQJIzWMFlkUiRmU0rZvCPI1h\nENspT70TGlevfWd3rZyklsTgCyrpep+7UTKup8bCnhVV2UlZSFy3sQ8nJt2kf7Bu\nFmDEXQgMxExEDm8jIJBcy4ECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFx8/+CH/iMvkVprq/izJDRNTjXUH\nIz5FL7gRYRBe23W2c7tOeYhZKvPiRsVRLUiO3zz7end6WQpRTjfP/RPB4w==\n-----END PUBLIC KEY-----\n",
+        "label": "dev.portugal@PrompTugal.dinis",
+        "fingerprint": "sha256:5a58fdd79f4f8cb4",
+        "signing_fingerprint": "sha256:e712d2d2c9069311"
+      },
+      "status": "active"
     }
   ]
 }
