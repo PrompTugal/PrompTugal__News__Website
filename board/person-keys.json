@@ -1,0 +1,28 @@
+{
+  "about": "The people's site keys on PrompTugal.news (public halves only), at Dinis Cruz's word (6 November 2026: \"add my key to this site, the keys of this site, so that I can drain the vault\"). Copied unchanged from the team site's data/person-keys.json, where the key was issued; the private half lives only in the person's browser. Sealed things on this site addressed to a person (ws-ecies-1) are sealed to the key here: newsroom/observability/sealed/<person>.json opens the observability vaults for them on /newsroom/observability/. Agents' keys are board/keys.json.",
+  "keys": [
+    {
+      "person": "dinis",
+      "fingerprint": "sha256:c7ec751484fbf03d",
+      "signing_fingerprint": "sha256:0a2094c80a84ace2",
+      "status": "active",
+      "issued_by": "conductor@web-summit.dinis",
+      "issued_at": "2026-11-03T23:42:56Z",
+      "valid": "while the issuing session lives",
+      "encrypt": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "ykDuwR9cDHVPWNO5QnohO6LvUvRBuVkfQDcmDuxyHt8",
+        "y": "iRqoPZXsQb4vsXUGCr5usF-TLE7xWqQgJRk8g4sUPoQ"
+      },
+      "sign": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "epmfiNTpAamg1QDbPTtXNYsW2hF1Tma35pdrdIqX-Ms",
+        "y": "qim0NAXg--hoQ_qZlETHD0ihmSQIHbHS5oPAwnj68ls"
+      },
+      "copied_from": "https://web-summit.sgit.ai/data/person-keys.json",
+      "copied": "2026-11-06"
+    }
+  ]
+}
