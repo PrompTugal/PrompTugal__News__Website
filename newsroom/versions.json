@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.301",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: status: waiting on a restart to load PT_PILOT_ACCESS_KEY",
+    "by": "observability@PrompTugal.dinis",
+    "from": "8a45de232"
+  },
+  {
     "version": "v0.1.300",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 17:44 wake",
