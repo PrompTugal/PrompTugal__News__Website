@@ -16,6 +16,10 @@ opened: 2026-11-06T12:05Z
 - **No feedback lane:** nothing on a page lets a reader say anything back.
 - **No reading modes:** no progress bar, no "minutes left", no left-hand map of sections, no collapsible sections, no show/hide modes.
 
+## Reuse first: the Web Summit team built this already
+
+The team site has a public feedback form and its lanes: WS-74 (a public feedback form for the videos and pages), WS-114 (who drains the lanes), WS-119 (the lane is unauthenticated: what it carries is material), WS-140 (give feedback opens the pane), and `assets/feedback.js` with `assets/feedback.json` (read-only clone at SGit-AI/SGit-AI__Website__Web-Summit). Angelo raised like buttons with Dinis (12:50). dev@ and observability@ start from that code and those lessons; they do not rebuild it (`board/the-conductors-sync.md`).
+
 ## The work, in order
 
 | Order | Agent | Work | Done looks like |
