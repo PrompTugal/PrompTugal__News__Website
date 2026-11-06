@@ -13,6 +13,8 @@ layout: wide
 ::: a-agenda
 ## Now and next {#agenda}
 
+<!-- days:strip -->
+
 Monday 9 November is Opening Night. Tuesday 10 to Thursday 12 are the three conference days, at the MEO Arena and FIL, Parque das Nações, Lisbon ([the summit, day by day](summit/index.md)).
 
 <!-- agenda:front -->
