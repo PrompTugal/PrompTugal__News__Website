@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.172",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 08:13",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "2ff34967f"
+  },
+  {
     "version": "v0.1.171",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: wake 08:05: 50 commits and seven worker branches clean; S15 half done; the recovery runbook",
