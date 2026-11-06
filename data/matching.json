@@ -1735,7 +1735,7 @@
       {
         "as_listed": "Carris",
         "ref": "organisation:carris",
-        "count": 4
+        "count": 5
       },
       {
         "as_listed": "Dealroom",
@@ -1840,6 +1840,11 @@
       {
         "as_listed": "Jornal Económico",
         "ref": "organisation:jornal-economico",
+        "count": 1
+      },
+      {
+        "as_listed": "Junta de Freguesia do Parque das Nações",
+        "ref": "organisation:junta-de-freguesia-do-parque-das-nacoes",
         "count": 1
       },
       {
@@ -1980,7 +1985,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 20
+        "count": 21
       },
       {
         "as_listed": "Xiaomi",
