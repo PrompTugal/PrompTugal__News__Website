@@ -91,10 +91,10 @@
             list_entities: {
                 level: 'read',
                 description: 'List entities of one type, optionally filtered by topic (a topic id such as security or ai-agents), country, organiser (web-summit or other) or day (YYYY-MM-DD). Compact rows; use get_entity for one in full.',
-                params: { type: 'object', properties: { type: { type: 'string', description: 'company, event, person, organisation, place, topic, article or site' }, topic: { type: 'string' }, country: { type: 'string' }, organiser: { type: 'string', enum: ['web-summit', 'other'] }, day: { type: 'string', description: 'YYYY-MM-DD' }, limit: { type: 'integer', description: 'default 40, at most 200' } }, required: ['type'] },
+                params: { type: 'object', properties: { type: { type: 'string', description: 'company, event, person, organisation, place, topic, article, newsroom (the back-end pages) or site' }, topic: { type: 'string' }, country: { type: 'string' }, organiser: { type: 'string', enum: ['web-summit', 'other'] }, day: { type: 'string', description: 'YYYY-MM-DD' }, limit: { type: 'integer', description: 'default 40, at most 200' } }, required: ['type'] },
                 example: { type: 'company', topic: 'security', country: 'Portugal' },
                 async run(a) {
-                    const t = a.type === 'article' || a.type === 'site' ? a.type : typeOf(a.type)
+                    const t = a.type === 'article' || a.type === 'site' || a.type === 'newsroom' ? a.type : typeOf(a.type)
                     if (!t) throw new Error(`unknown type "${a.type}"`)
                     const d = await docsFile()
                     const f = (s => s ? String(s).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase() : '')

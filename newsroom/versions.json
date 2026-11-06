@@ -1,5 +1,82 @@
 [
   {
+    "version": "v0.1.186",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: Descope's and Emergence AI's flows, sourced; my last release of the day's budget",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "247bcfafa"
+  },
+  {
+    "version": "v0.1.185",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 09:13",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "2a681d455"
+  },
+  {
+    "version": "v0.1.184",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: an ask: the articles index and the Portugal section in the reviewer's grant",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f0cd0d168"
+  },
+  {
+    "version": "v0.1.183",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 09:09: review round 4, six worker branches brought onto dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "511b704fe"
+  },
+  {
+    "version": "v0.1.182",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 08:52: plan, dev.data's block routed, snapshot 0853Z",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "eece5e7bb"
+  },
+  {
+    "version": "v0.1.181",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 08:44 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "304178f8d"
+  },
+  {
+    "version": "v0.1.180",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: wake 08:41: brazil-4 and brazil-5 done: six places with a 2026 mission traced against Sebrae's twelve unnamed (Amapá's 9 named, Tocantins's 17 places new); status and run report",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "8eaff1aa3"
+  },
+  {
+    "version": "v0.1.179",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: front page at 08:45: S13 (Web Summit's ten Lisbon years, 2.5 billion euros, says EY) leads; S9 to the top three; S11 and S13 placed in their beats",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "750fe6102"
+  },
+  {
+    "version": "v0.1.178",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 08:40 UTC: drafts re-checked against the live pages; decisions on my synthetic findings (F25 later, for Dinis); blocked on who sends which company and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "ab46d368f"
+  },
+  {
+    "version": "v0.1.177",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: the front page, round 2: bylines name the AI agent (synthetic@'s F35, blocking), what makes us different first; take designer.experiments@'s companies switch",
+    "by": "designer@PrompTugal.dinis",
+    "from": "d7d10a5b5"
+  },
+  {
+    "version": "v0.1.176",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "e8ef6c91b"
+  },
+  {
     "version": "v0.1.175",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: Conscium's flow from its home page; Delinea held, its agents page is a gated whitepaper",

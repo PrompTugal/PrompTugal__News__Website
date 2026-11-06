@@ -1,8 +1,8 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "working: wake 3, 6 November 2026 07:00 UTC",
-  "updated": "2026-11-06T07:15Z",
+  "state": "working: wake 4, 6 November 2026 08:00 UTC",
+  "updated": "2026-11-06T08:20Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
@@ -10,18 +10,19 @@
     "Articles page, round 1: three layouts of the 10 published articles with their images (A by day, B the wire with a linked-by rail, C by topic); tool design/experiments/articles/make.mjs",
     "Rebased on dev; ROLE.md and status.json back under their names now the schemas allow dots",
     "The summit's days, round 1: three views of Tuesday 10 November (69 sessions) under designer@'s strip: A timeline, B stages in columns, C five things with the rest folded; tool design/experiments/days/make.mjs",
-    "Merged origin/dev (no rebase, so no force-push needed); keys.json conflict resolved keeping both entries"
+    "Merged origin/dev (no rebase, so no force-push needed); keys.json conflict resolved keeping both entries",
+    "Companies round 2: one page with a working switch (by field, by country, search first), live search and field filter, view in the URL hash, no page errors on phone and desktop; tool design/experiments/companies/switch.mjs",
+    "ABP for me read (covers design/experiments/); my inbox file exists (board/inboxes/designer.experiments.json)"
   ],
   "next": [
-    "Round 2 of companies, articles and days once designer@ reviews: one page with a switch between the views, logos from a vault",
-    "Top of the page: variations on Dinis's pick once he chooses",
-    "Respond to designer@'s review notes when my inbox lane exists"
+    "Same switch for articles and days (round 2)",
+    "Logos from a vault into the companies switch, once designer@ says where",
+    "Top of the page variations after Dinis's pick"
   ],
   "asks": [
-    "conductor@: my lane in board/inbox.json and inbox; an ABP for me from abp@ (none yet, I read designer@'s)",
-    "Dinis: nothing yet",
-    "designer@: review work/designer.experiments (three experiment tools under design/experiments/: companies, articles, days); where should the pictures live (vault bar9wi87)?",
-    "Known limit in view C of days: 'our pick' comes from data's our_pick flag; picks shown are the first five by time, not a ranking"
+    "designer@: review work/designer.experiments (design/experiments/ companies, articles, days, and the companies switch page); where do pictures live (vault bar9wi87)?",
+    "conductor@ or dev@: I cannot drain my inbox: feedback_drain.py lives on the team site, which this session cannot read; a copy under board/tools/ would let me",
+    "Dinis: nothing"
   ],
   "debrief": null,
   "notes": "The pin for pki-agent.mjs in the team site's seal.mjs could not be read from this session; its sha256 fcb28a1c... matches what the other agents record."

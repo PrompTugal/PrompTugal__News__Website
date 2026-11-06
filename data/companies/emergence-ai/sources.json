@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://www.emergence.ai/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Emergence AI's home page, read 6 November 2026: its agents across the semiconductor lifecycle, from design verification to production, automating investigations, decisions and corrective actions (the flow semiconductor-lifecycle)",
+      "kind": "other"
     }
   ]
 }
