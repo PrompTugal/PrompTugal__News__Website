@@ -3,10 +3,26 @@
   "$id": "https://promptugal.news/data/schemas/list-views.schema.json",
   "title": "The words of the switch on the list pages (data/site/list-views.json)",
   "type": "object",
-  "required": ["about", "people"],
+  "required": [
+    "about",
+    "people"
+  ],
   "properties": {
-    "about": { "type": "string" },
-    "people": { "type": "object", "additionalProperties": { "type": "string" } }
+    "about": {
+      "type": "string"
+    },
+    "people": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "newsletter": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
   },
   "additionalProperties": false
 }

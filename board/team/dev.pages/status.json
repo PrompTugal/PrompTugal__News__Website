@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 15:13, people By session on work/dev.pages",
-  "updated": "2026-11-06T15:35Z",
+  "state": "working: wake 16:11, the daily newsletter editions on work/dev.pages",
+  "updated": "2026-11-06T16:40Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
@@ -28,15 +28,18 @@
     "C's briefing card (front:briefing in front.mjs, above the lead): on 9 to 12 November the front page opens with today's five things and a link to the day page; empty on other days; tested by building with the date set to 10 November",
     "Merged dev (status.json conflict again: took my side)",
     "People page: a fourth view, By session (who shares a stage: each session with two or more people listed); the switch's words moved to data/site/list-views.json (schema list-views.schema.json, KINDS entry in datacheck.mjs: flag for ontologist@ and dev@) to keep the quality baseline",
-    "Installed sgit-ai==0.27.0 as CLAUDE.md now says (Dinis's 13:30 word); sgit v0.27.0 works"
+    "Installed sgit-ai==0.27.0 as CLAUDE.md now says (Dinis's 13:30 word); sgit v0.27.0 works",
+    "The daily newsletter (guidance 16:20): /newsletter/ and, from Saturday 7 November, /newsletter/<date>-morning/ and -evening/ (newsletter.mjs): morning = five things for those there + the latest for those following from afar; evening = published today + the latest + tomorrow's five; each page's markdown twin is the short plain-text email with links; an edition exists once its day has come (tested by building with the date set to 10 November); the words are in data/site/list-views.json; linked from the front page's Latest",
+    "Merged dev cleanly"
   ],
   "next": [
     "Past days as the site was (dev@, historian@)",
-    "The correspondent's five per day",
+    "The correspondent's five and the angle (in person or remote) per day, which will replace the ranked five",
     "Strip as a block on the right on a desktop (dev@'s C top)",
     "Companies: logos, search-first, By country; articles By topic; front F6"
   ],
   "asks": [
-    "Dinis: I cannot drain my inbox: the drain tool is the team site's admin/tools/feedback_drain.py and sgit-ai/sgit-ai__website__web-summit is not an allowed repository in my session (the GitHub read is denied). Please add it to this session or put the tool in this repository (newsroom/tools/)"
+    "conductor@: the newsletter editions exist as pages from the build; telling conductor@web-summit.dinis on its lane when one is ready is outside my grant: please route (the first edition is 07:30 Lisbon on Saturday, from the 07:08 build onwards)",
+    "Dinis: I still cannot drain my inbox: the drain tool is the team site's admin/tools/feedback_drain.py and that repository is not allowed in my session; add it or put the tool in newsroom/tools/"
   ]
 }

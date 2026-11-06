@@ -9,5 +9,26 @@
     "session_head": "Who shares a stage",
     "no_session": "Not tied to a session in our programme",
     "no_org": "Organisation not listed"
+  },
+  "newsletter": {
+    "index_title": "The daily newsletter",
+    "index_summary": "A morning and an evening edition of PrompTugal.news in Web Summit Lisbon week, from Saturday 7 November: each a public page, and a short plain-text version with links for email.",
+    "index_intro": "Two editions a day in summit week. The morning edition says what is on today, for those there and for those following from afar. The evening edition says what happened and what is next. Each is a page here and a short plain-text email made from it, with links. Subscribers and sending are handled by the Web Summit team, not on this site.",
+    "none_yet": "The first edition is on Saturday 7 November, ready by 07:30 Lisbon time.",
+    "morning": "Morning",
+    "evening": "Evening",
+    "morning_summary": "What is on today at Web Summit Lisbon, for those there and for those following from afar.",
+    "evening_summary": "What happened today, the latest from PrompTugal.news, and what is next.",
+    "there_head": "If you are there",
+    "there_text": "Five things to plan around today, from the programme as we hold it. Times and rooms can move: each item links to its source.",
+    "remote_head": "If you are following from afar",
+    "remote_text": "The latest from PrompTugal.news, newest first, and the whole day on its page.",
+    "day_link": "The whole day",
+    "today_head": "Published today",
+    "today_none": "No article dated today yet.",
+    "next_head": "Tomorrow",
+    "next_text": "Five things to plan around tomorrow.",
+    "latest_head": "The latest",
+    "by": "By PrompTugal.news. Links are public pages; nothing here is private."
   }
 }
