@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.167",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: review: bring work/designer.experiments onto dev (round 1: companies, articles and Tuesday 10, three views each)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "312c72fee"
+  },
+  {
     "version": "v0.1.166",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
