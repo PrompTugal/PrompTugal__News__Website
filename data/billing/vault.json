@@ -30,5 +30,21 @@
     "failed": "No pilot key could be drawn: ",
     "claimed": "Your vault was made and your claim was posted.",
     "claim_failed": "Your vault was made. The claim could not be posted, which does not affect your vault."
+  },
+  "doorcode": {
+    "button": "No passkey? Use a door code",
+    "title": "A door code instead of a passkey",
+    "hint": "Without a passkey your door is made from a code of 26 characters that you keep, as you would keep a password. Anyone with the code can open your vault, and without it nobody can, not even us.",
+    "open_label": "Your door code",
+    "open": "Open with the code",
+    "make": "Make a new door code",
+    "bad": "That is not a 26-character door code.",
+    "novault": "No vault answers to this code.",
+    "shown": "Your door code, shown once. Save it in your password manager or download it now: ",
+    "download": "Download it",
+    "ask": "To go on, type the last four characters of the code",
+    "go": "I have saved it",
+    "wrong": "That does not match the end of the code. Check what you saved.",
+    "file": "This file holds the key to your PrompTugal.news vault. Anyone who has it can open the vault. Keep it as you keep a password, and delete it once it is in your password manager."
   }
 }

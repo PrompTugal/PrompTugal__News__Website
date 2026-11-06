@@ -139,6 +139,35 @@ try {
     await pg.evaluate(() => { window.__mail = []; window.addEventListener('pt:mailbox', e => window.__mail.push(e.detail)) })
     await pg.click('#nr-vault-enable'); await pg.waitForSelector('#nr-vault-pane:not([hidden])'); await pg.waitForTimeout(8000)
     check((await pg.evaluate(() => window.__mail.length)) === 0, 'the same message is not delivered twice')
+
+    // no passkey at all: a door code, shown once, typed back; no recovery door; the claim says door-secret
+    const pg2 = await newPage()
+    await pg2.goto(B + 'account/vault.html'); await pg2.waitForSelector('#nr-vault-code-mode', { timeout: 20000 })
+    await pg2.click('#nr-vault-code-mode'); await pg2.click('#nr-vault-doorcode-make')
+    const doorCode = await pg2.inputValue('#nr-vault-doorcode-shown')
+    check(/^[A-Z2-7]{4}(-[A-Z2-7]{1,4}){6}$/.test(doorCode), 'a door code is shown once')
+    await pg2.fill('#nr-vault-doorcode-tail', 'ZZZZ'); await pg2.click('#nr-vault-doorcode-go')
+    check(await pg2.isVisible('#nr-vault-doorcode-shown'), 'a wrong tail keeps the door code')
+    await pg2.fill('#nr-vault-doorcode-tail', doorCode.replace(/-/g, '').slice(-4).toLowerCase()); await pg2.click('#nr-vault-doorcode-go')
+    await pg2.waitForSelector('#nr-vault-nodoor', { timeout: 60000 })
+    const before2 = mock.vaults().length
+    await pg2.click('#nr-vault-pilot-draw')
+    await pg2.waitForFunction(() => document.getElementById('nr-vault-access').value.length > 0, null, { timeout: 120000 })
+    await pg2.click('#nr-vault-create'); await pg2.waitForSelector('#nr-vault-claimed', { timeout: 90000 })
+    check(mock.vaults().length === before2 + 3 && (await pg2.locator('#nr-vault-recovery-shown').count()) === 0, 'door, master, reader: no recovery door in this mode')
+    const lane2 = mock.lanes.get(`${LANE}/${APPEND}`)
+    check(lane2.pending.size === 2, 'a second claim is on the lane')
+    const second = JSON.parse((await K.unseal(sweep.private.encrypt, Buffer.from([...lane2.pending.values()][1].payload, 'base64').toString('utf8'))).text)
+    check(second.door_mode === 'door-secret', 'its claim says door-secret')
+    const pg3 = await newPage()
+    await pg3.goto(B + 'account/vault.html'); await pg3.waitForSelector('#nr-vault-code-mode', { timeout: 20000 })
+    await pg3.click('#nr-vault-code-mode'); await pg3.fill('#nr-vault-doorcode', doorCode.toLowerCase()); await pg3.click('#nr-vault-doorcode-open')
+    await pg3.waitForSelector('#nr-vault-sync', { timeout: 60000 })
+    check(true, 'the door code opens the vault on another device')
+    await pg3.goto(B + 'account/vault.html'); await pg3.waitForSelector('#nr-vault-code-mode', { timeout: 20000 })
+    await pg3.click('#nr-vault-code-mode'); await pg3.fill('#nr-vault-doorcode', 'AAAA-BBBB-CCCC-DDDD-EEEE-FFFF-GG'); await pg3.click('#nr-vault-doorcode-open')
+    await pg3.waitForSelector('#nr-vault-doorcode-none', { timeout: 60000 })
+    check(true, 'a code that opens no vault says so')
 } catch (e) {
     console.log('FAIL: ' + (e && e.stack || e)); failed++
     try { console.log('pilot message: ' + await pg.textContent('#nr-vault-pilot-msg', { timeout: 2000 })) } catch (x) { /* none */ }

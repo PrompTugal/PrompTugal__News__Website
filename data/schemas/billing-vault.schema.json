@@ -162,6 +162,84 @@
           "minLength": 1
         }
       }
+    },
+    "doorcode": {
+      "type": "object",
+      "required": [
+        "button",
+        "title",
+        "hint",
+        "open_label",
+        "open",
+        "make",
+        "bad",
+        "novault",
+        "shown",
+        "download",
+        "ask",
+        "go",
+        "wrong",
+        "file"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "button": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hint": {
+          "type": "string",
+          "minLength": 1
+        },
+        "open_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "open": {
+          "type": "string",
+          "minLength": 1
+        },
+        "make": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bad": {
+          "type": "string",
+          "minLength": 1
+        },
+        "novault": {
+          "type": "string",
+          "minLength": 1
+        },
+        "shown": {
+          "type": "string",
+          "minLength": 1
+        },
+        "download": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ask": {
+          "type": "string",
+          "minLength": 1
+        },
+        "go": {
+          "type": "string",
+          "minLength": 1
+        },
+        "wrong": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   }
 }
