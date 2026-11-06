@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "past-summits",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "claims": [
+    {"id": "c01", "text": "Web Summit's organisers announced in September 2015 that the event would move from Dublin to Lisbon from 2016.", "kind": "fact", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "The Web Summit in Dublin will be no more from 2016 with the organisers confirming that the event is to up sticks and move to Lisbon", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["event:web-summit-lisbon-2016", "organisation:web-summit"]},
+    {"id": "c02", "text": "The organisers cited infrastructure as one of their reasons for leaving Dublin (as Silicon Republic reports it).", "kind": "fact", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "with the organisation citing infrastructure as one of the reasons for its decision", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["organisation:web-summit"]},
+    {"id": "c03", "text": "Founder Paddy Cosgrave said the move was made to take the next step in international growth.", "kind": "fact", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "We are going because we want to take the next step on our journey to international growth.", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["organisation:web-summit"]},
+    {"id": "c04", "text": "The article reports a venue in Lisbon with capacity for more than 80,000 attendees, and expected more than 30,000 people at the 2015 edition in Dublin's RDS.", "kind": "estimate", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "This November, the Web Summit expects more than 30,000 people to attend the event in the RDS.", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["event:web-summit-dublin-2015", "event:web-summit-lisbon-2016"]}
+  ]
+}
