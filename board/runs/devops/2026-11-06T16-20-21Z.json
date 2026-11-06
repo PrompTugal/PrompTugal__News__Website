@@ -1,0 +1,82 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "devops@PrompTugal.dinis",
+ "run": "2026-11-06T16-20-21Z",
+ "started": "2026-11-06T16:20:21.706Z",
+ "ended": "2026-11-06T18:17:38Z",
+ "line": "Wake 18:14: a second deploy try only after a fast refusal; release.sh's 6 minute message; the hand-over debrief; Pages' queue handed to dev@ (site size) and conductor@ (push rate)",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T16:27:32.565Z",
+   "chars": 686,
+   "sha256": "bfaaae31902ff784",
+   "head": "<task-notification>\n<task-id>bbj1br381</task-id>\n<tool-use-id>toolu_01ADCneBdn7KR2kdhN4EJ5Kk</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/6b0aeb73-6db4-52c3-8ee7-d231b"
+  },
+  {
+   "t": "2026-11-06T18:15:10.951Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T17:50:29.300Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-06T18:15:10.556Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "release": 5,
+   "github-read": 4,
+   "web": 1,
+   "shell": 3,
+   "other": 1,
+   "git": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 15,
+  "in_mandate": 15,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
