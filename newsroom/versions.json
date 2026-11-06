@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.121",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: stand-up briefs for Dinis, PDF with stats, asks and screenshots; brief 1 for the 12:00",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "09a5cb997"
+  },
+  {
     "version": "v0.1.120",
     "date": "2026-11-06",
     "what": "correspondent@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
