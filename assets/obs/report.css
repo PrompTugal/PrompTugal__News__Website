@@ -1,0 +1,13 @@
+/* the observability report (/admin/observability/), observability@PrompTugal.dinis; the control centre's tokens */
+.obs-report .obs-m { color: var(--ink-2); font: 14px/1.5 var(--a-sans, sans-serif); }
+.obs-cards { display: grid; gap: 16px 24px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 900px) { .obs-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.obs-card h3 { margin: 0 0 4px; font: 600 13px/1.3 var(--a-sans, sans-serif); text-transform: uppercase; letter-spacing: .06em; }
+.obs-card .adm-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.obs-scroll { overflow-x: auto; max-width: 100%; }
+.obs-t { border-collapse: collapse; font: 13px/1.4 var(--a-sans, sans-serif); width: 100%; }
+.obs-t th, .obs-t td { text-align: left; padding: 4px 10px 4px 0; border-bottom: 1px solid var(--a-hair, #ddd); vertical-align: top; }
+.obs-t th { font-weight: 600; color: var(--ink-3); text-transform: uppercase; font-size: 11px; letter-spacing: .06em; }
+.obs-bar { display: inline-block; height: 8px; background: var(--a-brand, #1f7a4d); border-radius: 2px; }
+.obs-sec { margin: 28px 0; }
+.obs-log { font: 12px/1.5 var(--a-mono, monospace); color: var(--ink-2); max-height: 240px; overflow: auto; padding-left: 18px; }

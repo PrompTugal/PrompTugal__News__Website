@@ -1,0 +1,20 @@
+{
+  "about": "The public half of observability@PrompTugal.dinis's session key, as the entry it belongs in on the team site's data/keys.json (SGit-AI/SGit-AI__Website__Web-Summit). Kept here because this session could not attach the team site for push on 6 November 2026; the conductor (or the agent, once allowed) copies the entry there unchanged. Public keys only.",
+  "entry": {
+    "id": "observability-promptugal",
+    "agent": "observability@PrompTugal.dinis",
+    "label": "observability@PrompTugal.dinis (Claude Code session)",
+    "role": "The observability agent of PrompTugal.news (observability@PrompTugal.dinis): the page views and reads sent to an encrypted vault, the drain, and the reports in admin/, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
+    "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in admin/tools/seal.mjs), at Dinis's word (5 November 2026, the PrompTugal team). Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+    "added": "2026-11-06",
+    "bundle": {
+      "v": 1,
+      "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt3ouX7gKQLvuyZOAadmC\nhjWsYwufrH9x8BahY8sKW/9GekzuBg2MYC8vPNlj6fZam9Ujj0sEUg9lwgNGs/YN\nqrldx57Q8Xh08Q+pmp+vlYW0K7vlFhbjOcyT5V902DlRx0K3deHx4Z82QdS5N+MD\nvzrW9r+QKN9dutg8g1egmy2abZyOj81IwGm8oF0DeRc2Au6mfAp8INzXD4nw8AFy\nqhguCI3gA/unQdifgn4Jh3ETeHifFzGaVv7urfxhwohOKUnsJd1ZxT8ZO1nUO9h7\nreOK6QhZGOjSvzTNpwKqS3Ufz1mG7Xp0sQm9MvA+341KEPY8M20GNFCfQxGxvPV8\npbNj5EvQevZm6PrNWzgM90TGw5u3F4Wq+ADWeVf/j0HYmZLlBXap6Sb4BySNkrYb\nXylpmP35LpideM2/G/OgmclOTBVG8XhzQlxoU7fAl16XdRiDrg5OK7cCDSgM6Isy\nS6QsDHvHeU1IfOv052jUodcw1lHoO3ivXbynFtLmhq8PM6gvuRQkS1g6CSIObAkp\ncUFFhQqTsCAok+5ZtiAIagRw6oV7DwLB8Wb/mNvxGohOO909n+r31FgRBaTYUMQX\nZsyltKoyRAjwHHOzXopQbT1dbwmF87wK+O+CD/lGEe3cYqX02tDO0t/F60lGU1PP\nNwi8UYS1JNzqjkh6TaK9OE8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+      "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAED0QEfkqqrwuai+1flPMXOB7fDANX\nLUU1MqqrDud/Q/V0NpvEp4nhxCkhX0QKh2uKlxR7WTogJ7/zptNA+sBzXg==\n-----END PUBLIC KEY-----\n",
+      "label": "observability@PrompTugal.dinis",
+      "fingerprint": "sha256:2be4372a9ba5de94",
+      "signing_fingerprint": "sha256:510645ab1d366802"
+    },
+    "status": "active"
+  }
+}

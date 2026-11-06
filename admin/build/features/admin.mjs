@@ -18,7 +18,7 @@ import * as d from './admin-draw.mjs'
 import { model, liveCounts, fillCounts, lanesFor, parallels, readLedger, STAGES, personName } from './admin-model.mjs'
 
 export const order = 91
-const TABS = [['admin/index.html', 'Overview'], ['admin/runs/index.html', 'Runs'], ['admin/agents/index.html', 'Agents'], ['admin/timeline/index.html', 'Timeline'], ['admin/data/index.html', 'Data'], ['admin/workflows/index.html', 'Workflows'], ['admin/lab/index.html', 'Lab'], ['admin/versions.html', 'Releases']]
+export const TABS = [['admin/index.html', 'Overview'], ['admin/runs/index.html', 'Runs'], ['admin/agents/index.html', 'Agents'], ['admin/timeline/index.html', 'Timeline'], ['admin/data/index.html', 'Data'], ['admin/workflows/index.html', 'Workflows'], ['admin/lab/index.html', 'Lab'], ['admin/observability/index.html', 'Observability'], ['admin/versions.html', 'Releases']]
 const ASSETS = { css: ['assets/admin/admin.css'], js: ['assets/admin/admin.js'] }
 const TEAM_BOARD = 'https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/'
 const TEAM_KEYS = 'https://web-summit.sgit.ai/keys/index.html'

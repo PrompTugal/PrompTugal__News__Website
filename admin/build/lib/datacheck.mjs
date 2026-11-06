@@ -30,6 +30,7 @@ export const KINDS = [
     [/^data\/admin\/agents\.json$/, 'admin-agents'],        // the admin section's roster, plan and team-site snapshot
     [/^data\/admin\/plan\.json$/, 'admin-plan'],            // (its runs ledger is data/admin/runs/*.jsonl, checked by
     [/^data\/admin\/team-site\.json$/, 'admin-team-site'],  // features/admin.mjs against admin-run.schema.json)
+    [/^data\/admin\/observability\/vaults\.json$/, 'admin-observability-vaults'],   // the observability report's sources
     [/^data\/curation\/organisations\.json$/, 'curation-organisations'],
     [/^data\/curation\/events\.json$/, 'curation-events'],
     [/^data\/curation\/speakers\.json$/, 'curation-speakers'],

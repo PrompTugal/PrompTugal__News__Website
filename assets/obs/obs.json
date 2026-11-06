@@ -1,0 +1,27 @@
+{
+  "about": "PrompTugal.news's observability lanes (observability@PrompTugal.dinis, 6 November 2026, at Dinis Cruz's word; the team site's model, assets/obs-dinis.json). Public on purpose: each append token can only write to its lane, and the key can only encrypt. 'site' is used by assets/obs/obs.js on every page; 'agents' by admin/tools/agent-log.mjs, which every PrompTugal agent runs at the end of each run. The data vault is private; its drain is observability@PrompTugal.dinis's.",
+  "enabled": true,
+  "endpoint": "https://dev.send.sgraph.ai",
+  "vault_id": "o0x20qag",
+  "lanes": {
+    "site": [
+      "ae3cddc9811ac05b160d24af149ddd253a1db4c66a53dab8451a0b1e219ee26f",
+      "e638486fea652eb59b1a50e3311d01cfce5c649dc950c0f093aeabc9c66e2b5c",
+      "06fe1b6d75251228f2b77559c5ac9af73f68cb786c415a6ed66553cefea15ad7",
+      "1f6bfdb8d3d584f79f3ff23714cfdea2c9b41be067b3fb5947ce7d86697ea637"
+    ],
+    "agents": [
+      "bf04a42173292776b9c8bd0ae59a65337dcba3e6815ec7d0f13b4b997194aaa2",
+      "d0ac9f0af52a658dec37769f595fd34fcf505ac65efca1cf584959f74253ddd0"
+    ]
+  },
+  "recipient": {
+    "fingerprint": "sha256:683a6ff73afc3a4a",
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArStwqrYIJkJazPRt1lZe\nEUXhuQrJPSSTj9DxGXAg++VBwWPDQStPaazWkB/SIJPBTrLPnfFb8fwrFpLmv9jW\nsVRPBEJmhMqWN5sq7y5ioZIeiHLuGLcJLPMUtHoIxvMPBVaKoExsIJoEa2plgJDp\nsU4MiULFZ1Grv3J4yU3llZkvBF5n+DA41oxENFzOF0iqEJ3vBwQNqkSrsM6KQLPz\nJfcztM1dwEL4Nzl4sSt+PN92r3vsQxJ1/ZFn+Edd0aFxAA/xsknceSAsX5rEjqsK\nxR7hJp24VBBES7Oz7LGlrbzw9T/cTDPUJVlRLGSl1IamjwhJnTCXVfKKOVkK/VQ6\nqBVPrzhnOiNmRjSTJMi793kXy/vh7ocWNhjy90QYZaLy/JqvaJegdLX/aRjwDv4Z\niBVfvwzBrHyhDT04XXfSJwAFmWoO+b+bzyonC2ZSvPRVTllNLLuTcdCkoyiXamEy\nrws1NDgDIc8SGWX5j5D4VYwEDVekWzflzVvfo++eSUdQO5nfTpdjAqTCK6Y39fnr\n4pY9y+MfdTfR8V5fA+yNuBRnUkwqLpeA1SqktEpDTnLiU0ksuucVHALyYqic9569\naiBqlZJWWNTo59KWz6QOLp77sOfuO+hKAisLPQkkPY0LIYZ9J+D9y5I/11R7Wdul\np6tKYLOOJxCAJZn5UU0e3d0CAwEAAQ==\n-----END PUBLIC KEY-----\n"
+  },
+  "geo": [
+    "https://ipapi.co/json/",
+    "https://ipwho.is/"
+  ],
+  "what": "This site counts page views and reading time to learn what is read. Each event says: the page, the referring site (host only), the time to the minute, the site version, a random id that ends with the tab, the screen size class, the browser's language and time zone, the country, region and city from the browser's own lookup (the IP address in the lookup's answer is never read), and an automation class if a bot declares itself. No IP address, no cookie, no user-agent string, no fingerprint. Do Not Track, Global Privacy Control and Pause in the footer turn it off."
+}
