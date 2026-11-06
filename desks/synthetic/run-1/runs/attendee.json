@@ -1,0 +1,260 @@
+{
+  "persona": "Daniel Okafor (SYNTHETIC)",
+  "synthetic": true,
+  "outcome": "SYNTHETIC: Daniel got what he came for from one article (wristband, metro, transport pass, first-timers meetup) and screenshotted it, but the front page buried that article under news and the AICEP page told him nothing he could act on; he would not reply to the email in its current form.",
+  "steps": [
+    {
+      "screen": "front-phone-s1.jpg",
+      "see": "Header 'PrompTugal.news', '4 days to the summit', 'Powered by RiskMandate'. Tabs 'NOW AGENDA NEWS' with 'NEWS' fading out at the right edge, then a search icon, a pill saying '£5.00' and one saying 'Vault'. Lead story 'Brazil's startup mission comes to Web Summit Lisbon'. Below: 'NOW AND NEXT', 'Tuesday 10 to Thursday 12 are the three conference days, at the MEO Arena and FIL, Parque das Nações, Lisbon'. A floating 'Ask' button covers the end of the first agenda line.",
+      "think": "OK, the 'Now and next' paragraph is the useful bit: MEO Arena and FIL, Parque das Nações, Tuesday to Thursday. The Brazil story is not for me.",
+      "question": "Why is there a '£5.00' balance on a news site? Am I paying for this? And why pounds in Lisbon?",
+      "confusion": "The '£5.00' and 'Vault' pills look like a wallet or a login; nothing says what they are. The lead story about Brazil's trade agency is the first thing a first-timer sees, not how to get there.",
+      "act": "Scroll: the agenda below 'Today, Friday 6 November' looks like the what-and-when I want."
+    },
+    {
+      "screen": "front-phone-s2.jpg",
+      "see": "Saturday 7 November: '09:30 Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID) until 22:00, Humberto Delgado Airport, Terminal 1'. '12:00 Registration ... Pavilhão de Portugal'. Also 'DevFest Lagos 2026' and a '7-a-side startup football tournament'. Sunday: 'Tech Run Lisboa', registration again.",
+      "think": "This is gold: I land Monday morning, so I can grab the wristband at Terminal 1 right off the plane. Lagos is the Algarve though, not useful.",
+      "question": "Is airport registration open on Monday too, or only on Saturday and Sunday?",
+      "confusion": "Registration appears again and again as separate rows, mixed with side events in other cities (Lagos, Almancil), so it is hard to see the one thing I need.",
+      "act": "Scroll to see if Monday is listed."
+    },
+    {
+      "screen": "front-phone-s3.jpg",
+      "see": "'Every event, official and other' link. Then 'LATEST': long italic blocks, 'Europe in Pavilion 4', 'Following robotics at Web Summit', 'Gender in Tech report: 84% see women in leadership', each with a byline like 'journalist-europe@web-summit.vicky, for Vicky Wang'.",
+      "think": "The agenda stopped at Sunday. Now it is a wall of news in italics. The bylines are email-like addresses, odd.",
+      "question": "Where did Monday go? Is that behind 'Every event'?",
+      "confusion": "The agenda on the front page stops before the days I am there; the bylines 'journalist-ai@web-summit.vicky' read like email addresses or robots, not people.",
+      "act": "Keep scrolling for a few seconds more; the titles are long and the italic summaries are hard to skim on a moving train."
+    },
+    {
+      "screen": "front-phone-s4.jpg",
+      "see": "'Tuesday 10 November: Europe on stage, universities pitching, first-timers meeting'. 'Web Summit 2026 in numbers'. 'Web Summit Lisbon: your first day, from airport to arena ... how to get to the MEO Arena by metro, bus or Carris's shuttle, where to buy the transport pass, and what to bring.' Then 'The newsroom four days out, in pictures'.",
+      "think": "THAT is my article. 'Your first day, from airport to arena'. Also 'first-timers meeting' on Tuesday, that is me.",
+      "question": null,
+      "confusion": "The one article written for someone like me is the sixth item in 'Latest', four screens down, with no picture or label like 'Start here' to make it stand out.",
+      "act": "Note it to tap; first skim the rest of the front page quickly in case there is an obvious 'getting there' section."
+    },
+    {
+      "screen": "front-phone-s5.jpg",
+      "see": "'PORTUGAL' heading, entries 'portugalstartupnews.com, 3 November 2026 (the date in its address): names Granter, 3xP Global ... Mapped by curator@web-summit.vicky on 2026-11-04 under \"Portuguese startups raising\"'. Then 'PORTUGUESE COMPANIES WE FOLLOW' chips: AICEP, Air Apps, ChatPlace, Feedzai, KPMG, MEO and others.",
+      "think": "This reads like someone's internal research log. 'Mapped by curator@...' means nothing to me.",
+      "question": "What does 'the date in its address' mean?",
+      "confusion": "Link lists with 'Mapped by curator@web-summit.vicky' are written for the people who made the site, not for a reader.",
+      "act": "Scroll past quickly. I notice 'AICEP - Portugal Trade & Invest' as a chip; maybe later."
+    },
+    {
+      "screen": "front-phone-s6.jpg",
+      "see": "'COMPANIES AT THE SUMMIT: 120 companies we follow ... Every fact links to its public source'. Grid: 'Security 30', 'AI agents 22', 'Governance, risk and compliance 1 5' (the 15 wraps onto two lines). Then 'AROUND THE SUMMIT, NEXT: Events others run in the same week ... Not run by Web Summit.' with Portugal Tech Week again.",
+      "think": "Security and AI agents, fine, maybe that is where the fintech stuff is. But I see Portugal Tech Week a second time.",
+      "question": null,
+      "confusion": "The count for 'Governance, risk and compliance' breaks into '1' over '5' and reads like 1 then 5. Side events appear in two different lists on the same page.",
+      "act": "Scroll once more."
+    },
+    {
+      "screen": "front-phone-s7.jpg",
+      "see": "'Portugal Tech Week Palace (until 13 November) Mon 9 Nov, PTW Palace' with a green 'OUR PICK' tag. '209 items ... Times are Lisbon time (UTC in November) and may change: check the summit's own schedule before you go. The full agenda.' Then 'OUR QUESTION: Many companies at the summit are building AI agents ... REACH. What can it actually do?'",
+      "think": "209 items and Lisbon is UTC in November, so same as Dublin, nice. 'The full agenda' is what I would tap if I had more time. The 'Our question' bit is not for me.",
+      "question": "Why is 'Our pick' a side event and not something at the summit itself?",
+      "confusion": "'OUR PICK' is on a non-Web-Summit event with no reason given; I do not know whose pick or why.",
+      "act": "One more scroll to see the end, then go to the first-day article."
+    },
+    {
+      "screen": "front-phone-s8.jpg",
+      "see": "'GAP. Who controls the difference?' Quote from RiskMandate about grants and mandates. 'WHO WE ARE: A small team going to the summit, editors Dinis Cruz, Indi Gupte and Vicky, working with AI agents ... Independent. Not affiliated with Web Summit. The same team works on RiskMandate'. Box: 'This page 0.1p of 1p, read 10%, Balance £5.00, Rate it, or do not pay for it'.",
+      "think": "So it is not the official Web Summit site, it is a small team plus AI. Fair enough, they say it up front. And the box says this page costs 0.1p? Out of my £5?",
+      "question": "Am I being charged per page? Did I sign up for something?",
+      "confusion": "'This page 0.1p of 1p' and 'Balance £5.00' with 'Rate it, or do not pay for it' suggest real money with no explanation of where the £5 came from.",
+      "act": "Leave the front page; go back up and tap 'Web Summit Lisbon: your first day, from airport to arena'."
+    },
+    {
+      "screen": "ar-first-day-phone-s1.jpg",
+      "see": "Title 'Web Summit Lisbon: your first day, from airport to arena'. Summary about wristband, metro, bus, Carris's shuttle, transport pass. 'ON THIS PAGE: In short, The story, What this does not claim, Where this comes from, Who made this'. Byline '2026-11-06 journalist@web-summit.vicky, for Vicky Wang, CC BY 4.0'. Balance pill now '£4.91'.",
+      "think": "Exactly what I need. 'In short' first, great for the train.",
+      "question": "The balance went from £5.00 to £4.91: did reading the front page cost me 9p?",
+      "confusion": "The wallet number changed without me doing anything.",
+      "act": "Tap 'In short'."
+    },
+    {
+      "screen": "ar-first-day-phone-s2.jpg",
+      "see": "Bullets: 'Collect your lanyard and wristband at Lisbon airport or Pavilhão de Portugal, from Saturday 7 November. Bring your ticket and photo ID.' 'Oriente metro station is about 300 metres from the arena.' 'Carris runs a \"Shuttle Web Summit\" bus between Praça do Comércio and Oriente, from Monday 9 to Thursday 12 November.' 'The transport pass costs 23 euros for 3 days or 31.50 euros for 5, sold in person only.' 'Bring a bank card and clothes for rain.' Then 'THE STORY': airport hours '8 and 9 November, 7.30am to 10pm; 10 November, 7.30am to 3pm'.",
+      "think": "Brilliant: Monday 9 at the airport, 7.30am to 10pm, I can collect it off the plane. Oriente is 300 metres from the arena. Pass is 23 euros for 3 days. This is the screen I screenshot.",
+      "question": null,
+      "confusion": "The first 'In short' bullet is half hidden under the sticky header ('Collect your lanyard and wristband at Lisbon' is cut through).",
+      "act": "Screenshot this screen, then keep reading for the metro route from the airport."
+    },
+    {
+      "screen": "ar-first-day-phone-s3.jpg",
+      "see": "'Wear both every day: replacing one costs 100 euros.' 'By metro. Oriente station ... From the airport, the red line goes straight there, CP says.' 'By bus. Carris runs a \"Shuttle Web Summit\" ... towards Oriente from 8am to 11am and back from the afternoon until 8pm.' 'The transport pass ... 23 euros for 3 days or 31.50 euros for 5'.",
+      "think": "Red line from the airport straight to Oriente. That is my whole route. 100 euros to replace a wristband, noted.",
+      "question": "Does the transport pass cover the metro from the airport, or is the airport an extra fare?",
+      "confusion": "It says the pass 'does not cover tourist routes or airport transport services' (cut at the bottom), which makes me unsure whether my airport-to-Oriente ride counts.",
+      "act": "Scroll to see where the pass is sold."
+    },
+    {
+      "screen": "ar-first-day-phone-s4.jpg",
+      "see": "'sold only at Lisbon airport, next to the Web Summit accreditation area: ... 7.30am to 9.30pm on 8 and 9 November'. 'There is no online sale and no one-day pass this year'. 'Without the pass, pay contactless with a bank card on the Metro'. 'What to bring': no bags, bag drops at South and North entrances, 'Food and drink stands are cashless', lost and found in Pavilion 5.",
+      "think": "So: land, wristband and pass at the same spot in the airport, red line to Oriente. Contactless if I miss it. No bags, cashless. Done.",
+      "question": null,
+      "confusion": null,
+      "act": "Scroll: 'Use the app' and the first-timers bit are next."
+    },
+    {
+      "screen": "ar-first-day-phone-s5.jpg",
+      "see": "'First time? The schedule lists a first-timers' meetup on Tuesday 10 November, from 11am to 11.55am: a room of people who are new to the summit too.' Then 'WHAT THIS DOES NOT CLAIM': where the pass is sold, 'Two pages are out of date on the pass', 'The shuttle's details come from Carris through Lusa'.",
+      "think": "First-timers meetup, Tuesday 11am. I want that. But where is it? It does not say which room or stage.",
+      "question": "Where is the first-timers' meetup? Which pavilion or stage?",
+      "confusion": "The one event aimed at me has a time but no place and no link to the session. The 'does not claim' section is honest but long for a three-minute read.",
+      "act": "Skim the 'does not claim' bullets; I like that they flag the out-of-date pages, but I scroll fast."
+    },
+    {
+      "screen": "ar-first-day-phone-s6.jpg",
+      "see": "'Times can change. Web Summit says so for registration. Check the app on the day.' 'WHERE THIS COMES FROM': 'Web Summit, \"Registration: how, when and where\", read 5 November 2026: <https://websummit.com/essentials/registration/>' and more Web Summit and Metro de Lisboa links. The first URL runs off the right edge of the screen.",
+      "think": "Sources are real Web Summit and Metro pages, read yesterday. That is why I believe the times. I am not going to open them now.",
+      "question": null,
+      "confusion": "The source URLs are shown raw in angle brackets and the first one is cut off on the right, so the page scrolls sideways a little on my phone.",
+      "act": "Scroll to the end."
+    },
+    {
+      "screen": "ar-first-day-phone-s7.jpg",
+      "see": "Long raw URLs for cp.pt and executivedigest.sapo.pt, one cut on the right ('desdob'). 'From the curator's map: S1, desks/curator/README.md (5 November 2026, 20:15 UTC).' 'WHO MADE THIS: Written by Vicky Wang's journalist desk (journalist@web-summit.vicky, for Vicky Wang)'.",
+      "think": "'desks/curator/README.md' is a file in their code, not a source I can read. Whatever.",
+      "question": "What is 'the curator's map: S1'?",
+      "confusion": "A repository file path listed among public sources means nothing to a reader; another URL overflows the right edge.",
+      "act": "Scroll to the last screen."
+    },
+    {
+      "screen": "ar-first-day-phone-s8.jpg",
+      "see": "'Published on PrompTugal.news by PrompTugal's journalist agent on 6 November 2026, after opening every source above again that day and checking each fact against it ... The article is signed with that agent's key.' Box: 'This page 1.2p of 12p, read 5%, Balance £4.91'. 'Plain text of this page: your-first-day-at-web-summit.md, For AI agents: llms.txt'.",
+      "think": "An AI wrote and checked this, they say so plainly, and it re-checked the sources this morning. Good enough for metro times. But 'read 5%'? I read all of it.",
+      "question": "Why does it say I read 5% when I scrolled to the end?",
+      "confusion": "'read 5%' contradicts the fact that I reached the bottom; '1.2p of 12p' again implies charging with no explanation.",
+      "act": "Go back and tap the 'AICEP - Portugal Trade & Invest' chip from the front page: a Portuguese government agency might run something useful for visitors."
+    },
+    {
+      "screen": "co-aicep-phone-s1.jpg",
+      "see": "'AICEP - Portugal Trade & Invest. Based in Portugal; at Web Summit Lisbon 2026 as a speaker's company (masterclass host). Public facts only, each with its source.' A small graph with nodes 'Portuguese startups', 'Startup Portug...', 'Air Apps', 'ChatPlace', 'DIG-IN', 'iTRecruiter', 'Portugal'. 'WHAT THEY DO: Portugal's public trade and investment agency'. Balance pill '£4.97'.",
+      "think": "A masterclass host. When and where is the masterclass? The graph is tiny and I do not know what to do with it.",
+      "question": "When is the masterclass, and where?",
+      "confusion": "The balance is now £4.97, higher than £4.91 on the article: it went up. The graph labels are too small to read on a phone and the 'Ask' button covers 'WHAT THEY DO' text.",
+      "act": "Scroll for the masterclass time."
+    },
+    {
+      "screen": "co-aicep-phone-s2.jpg",
+      "see": "'CONFIRMED FOR 2026: Yes: Alexandra Ferreira Leite (Foreign Delegate/Trade Comissioner) is listed on the LIS26 session page'. 'AT THE SUMMIT: A session page in its sources that is not in our programme ... The programme desk found it answering 404 on 4 November, so it is left out until it is found again.' 'PEOPLE: No one is listed under AICEP - Portugal Trade & Invest in the summit pages we have read.'",
+      "think": "Wait. 'Confirmed: Yes' with a named person, then 'answering 404', then 'No one is listed'. Which is it?",
+      "question": "Is the AICEP masterclass happening or not?",
+      "confusion": "Three statements on one screen disagree: 'Confirmed for 2026: Yes' naming a speaker, the session page '404', and 'No one is listed' under People. Also 'Comissioner' is misspelt.",
+      "act": "Scroll once more hoping for a time and place."
+    },
+    {
+      "screen": "co-aicep-phone-s3.jpg",
+      "see": "'ITS FLOWS, AND WHERE AI AGENTS ARE IN THEM: We have not mapped AICEP ... flows yet'. 'OUR QUESTION FOR THEM: ... REACH What can their AI agents actually reach? MANDATE What were they authorised to do? GAP Who controls the gap between the two?'",
+      "think": "A trade agency's AI agents? This is not for attendees at all. This section is about something I do not care about.",
+      "question": null,
+      "confusion": "Two sections say what has not been done yet ('not mapped', 'not asked yet'); for a visitor that is empty space.",
+      "act": "Stop reading this page properly; one fast flick to the sources to see if there is a date."
+    },
+    {
+      "screen": "co-aicep-phone-s4.jpg",
+      "see": "'WHERE THIS COMES FROM: websummit.com/sessions/lis26/... read 2026-11-01 ... 'AICEP: Connecting Portuguese startups to global markets [Hosted by AICEP]', 11 Nov, Masterclasses, Masterclass 3'. Then 'Re-checked by newsroom@web-summit.dinis on 2026-11-05 at 01:49 UTC: the summit's page answered with HTTP 404 ... treat its place at the summit as not re-confirmed'.",
+      "think": "There it is, buried in the sources: 11 November, Masterclass 3. But it is a 404 now. So maybe not. I will not plan around it.",
+      "question": "Why is the date only in the small print and not at the top?",
+      "confusion": "The only 'when and where' (11 Nov, Masterclass 3) is hidden in the source notes, and the same screen says it may be gone.",
+      "act": "STOP reading this page (about 2.5 minutes in). Pretend I come back later, at the hotel, and flick to the end."
+    },
+    {
+      "screen": "co-aicep-phone-s5.jpg",
+      "see": "(Later, at the hotel.) 'ABOUT PROMPTUGAL.NEWS: Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents.' Bullets 'Why this page exists ... Nothing on it is an endorsement', 'Independence ... independent of Web Summit, not of RiskMandate', 'Corrections'.",
+      "think": "Same disclaimer as the front page. They are consistent about being independent.",
+      "question": null,
+      "confusion": "Boilerplate repeats the front page's 'Who we are' almost word for word; long for a phone.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "co-aicep-phone-s6.jpg",
+      "see": "'All companies', 'Open AICEP - Portugal Trade & Invest in the graph'. Box 'This page 0.5p of 5p, read 5%, Balance £4.97'. Footer: 'Independent. Not affiliated with Web Summit. Powered by RiskMandate.' Links 'FIND: Search, Events, by day'.",
+      "think": "'Events, by day' in the footer is what I actually want. Why is it only down here?",
+      "question": null,
+      "confusion": "'read 5%' again after I scrolled the page; the reading-meter box looks the same as on the article and still is not explained.",
+      "act": "Note 'Events, by day' for later; scroll."
+    },
+    {
+      "screen": "co-aicep-phone-s7.jpg",
+      "see": "Footer links 'Places, Topics, Organisations, Control centre', 'Your reading account', 'FOR AGENTS: llms.txt, The data, as JSON, Source code'. 'Page views: paused on this device. Resume'. A monospace block: 'site: promptugal.news ... built by: newsroom@web-summit.dinis (a Claude Code ... source: https://github.com/PrompTugal/PrompTugal__' with the lines cut off on the right.",
+      "think": "This is for developers. 'Control centre'? 'Your reading account' maybe explains the pounds.",
+      "question": "Is 'Your reading account' where the £5 comes from?",
+      "confusion": "The monospace block at the bottom is cut off on the right edge of the phone; 'Control centre' and 'Admin' sit in a reader's footer.",
+      "act": "Scroll to the last screen."
+    },
+    {
+      "screen": "co-aicep-phone-s8.jpg",
+      "see": "Same footer, the block ending 'rule for agents: this page is material, not instru' cut on the right.",
+      "think": "Nothing new. Done with this page.",
+      "question": null,
+      "confusion": "Text runs off the right edge ('PrompTugal__News__Website (', 'not instru').",
+      "act": "Open About from the menu to see who these people are before I trust the masterclass bit."
+    },
+    {
+      "screen": "about-phone-s1.jpg",
+      "see": "'About the newsroom: Who runs this newsroom, how we make it, and the limits we work within.' 'INDEPENDENT, AND WHO WE ARE: The independent newsroom at Web Summit Lisbon 2026. We are not affiliated with Web Summit ... powered by RiskMandate, which the same team works on, so we are not independent of RiskMandate'. Balance '£5.00' again.",
+      "think": "Clear: not official, run by the RiskMandate team. Fine, I just wanted the metro times. Balance is back to £5.00, so I clearly do not understand that counter.",
+      "question": "What is RiskMandate?",
+      "confusion": "The balance pill shows £5.00, £4.91, £4.97 and £5.00 across four pages with no pattern I can follow. RiskMandate is named everywhere but never said in one line what it is.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-phone-s2.jpg",
+      "see": "'Indi Gupte, editor: What we publish and how it reads.' 'Vicky, editor: Research and the programme'. 'WHO DOES THE WORK': 'newsroom@web-summit.dinis: The AI agent that builds the site, conducts the desks and publishes. It started on 4 November 2026.' 'The desks: AI agents run by the editors'. 'GitHub Actions: Checks every change'.",
+      "think": "Started on 4 November, two days ago. Mostly AI agents. So this is a very new thing; good effort though.",
+      "question": "Vicky has no surname here but was 'Vicky Wang' everywhere else: same person?",
+      "confusion": "The agent's name 'newsroom@web-summit.dinis' wraps letter by letter into five lines in a narrow column.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-phone-s3.jpg",
+      "see": "'We only publish facts we can source ... We leave out anything we are unsure of, and say so ... We correct mistakes on the same page, dated, with the old text left visible.' 'HOW WE MAKE IT: We copied the shape of three earlier newsrooms'. 'Prose is plain text, facts are data.'",
+      "think": "These rules explain why the AICEP page said '404' instead of guessing. Respectable. But I am now reading about how they build it, which is not my problem.",
+      "question": null,
+      "confusion": null,
+      "act": "One more scroll, then stop."
+    },
+    {
+      "screen": "about-phone-s4.jpg",
+      "see": "'The version is set by the system, not by people', 'Articles are signed'. 'The source code is on GitHub: SGit-AI/SGit-AI__Website__Newsroom__Web-Summit.' 'FOR READERS AND FOR AGENTS ... llms.txt'. 'WHAT IS LIVE TODAY: The front page, with the summit's agenda from today to Thursday 12 November'.",
+      "think": "Too much plumbing. I have what I need. Closing the tab.",
+      "question": null,
+      "confusion": "About names the source as 'SGit-AI/SGit-AI__Website__Newsroom__Web-Summit' while the AICEP page footer said 'github.com/PrompTugal/PrompTugal__News__Website': two different places for the same code.",
+      "act": "STOP. Close the site; keep the screenshot of the first-day 'In short'."
+    }
+  ],
+  "interview": {
+    "q1": "SYNTHETIC: It is an unofficial news site about Web Summit Lisbon, made by a small team with AI agents. The part that helped me is a practical guide to getting from the airport to the arena; the rest is news, company profiles and some AI-agent questions I did not need.",
+    "q2": "SYNTHETIC: Dinis Cruz, Indi Gupte and Vicky (Wang, I think), plus a lot of AI agents with email-looking names. The same team works on something called RiskMandate. It says clearly that it is not Web Summit.",
+    "q3": "SYNTHETIC: For the transport stuff, mostly yes: every time and price had a Web Summit or Metro de Lisboa link read yesterday, and it even listed which official pages are out of date. For the AICEP page, no: it said 'Confirmed: Yes' and '404' and 'No one is listed' at the same time, so I would not plan my day on it. The pounds balance that kept changing also made me a bit wary.",
+    "q4": "SYNTHETIC: Monday 9 November: land, collect wristband and buy the 23-euro 3-day pass at the Terminal 1 accreditation area (7.30am to 10pm), red line to Oriente. Tuesday 10 at 11am: the first-timers' meetup, if I can find out where it is. Before that, open the official app, because the site itself says times can change.",
+    "q5": "SYNTHETIC: Maybe, leaning no. A page about my company with every fact sourced and an open 'tell us if it is wrong' is a decent reason to check it, and I like that it says an AI drafted it and a named person sent it. But I am a PM at my first summit, not the person who decides about our AI agents' permissions, and three questions plus a 15-minute meeting from a site 'powered by RiskMandate' reads like a polite sales lead. I would forward it to our CTO or security lead and not reply myself.",
+    "q6": "SYNTHETIC: Put a 'First time at Web Summit? Start here' card at the very top of the front page that links to the first-day guide and shows Monday to Thursday with where each thing is; and drop or explain the '£5.00' balance."
+  },
+  "findings": [
+    {"severity": "held", "screen": "ar-first-day-phone-s2.jpg", "finding": "The 'In short' list answers a first-timer's whole commute in five bullets: where to collect the wristband, Oriente 300 metres from the arena, the Carris shuttle, the 23 / 31.50 euro pass, bring a card."},
+    {"severity": "held", "screen": "ar-first-day-phone-s5.jpg", "finding": "'What this does not claim' openly flags two out-of-date official pages on the transport pass, which made the article's times more believable, not less."},
+    {"severity": "held", "screen": "front-phone-s8.jpg", "finding": "'Independent. Not affiliated with Web Summit' and 'independent of Web Summit, not of RiskMandate' are stated on the front page, the company page and About, consistently."},
+    {"severity": "costly", "screen": "front-phone-s4.jpg", "finding": "The first-day article, the one a first-time attendee needs, is the sixth item in 'Latest', four phone screens down, with no visual weight; the lead slot goes to Brazil's trade mission."},
+    {"severity": "costly", "screen": "co-aicep-phone-s2.jpg", "finding": "One screen says 'Confirmed for 2026: Yes' naming a speaker, says the session page answered 404 and is left out, and says 'No one is listed' under People, so a reader cannot tell if the masterclass is happening."},
+    {"severity": "costly", "screen": "co-aicep-phone-s4.jpg", "finding": "The only date and place for AICEP's session ('11 Nov, Masterclasses, Masterclass 3') appears inside a source note, not in the 'At the summit' section at the top."},
+    {"severity": "costly", "screen": "front-phone-s1.jpg", "finding": "The '£5.00' pill in the top bar, and the '0.1p of 1p' / 'Balance' box at the end of pages, look like a charge with no explanation; the balance shows £5.00, £4.91, £4.97 and £5.00 across four pages, once going up."},
+    {"severity": "minor", "screen": "ar-first-day-phone-s5.jpg", "finding": "The first-timers' meetup (Tuesday 10 November, 11am to 11.55am) is given a time but no room, stage or link."},
+    {"severity": "minor", "screen": "ar-first-day-phone-s8.jpg", "finding": "The reading meter says 'read 5%' at the bottom of an article the reader scrolled to the end of (and 'read 5%' again at the end of the AICEP page)."},
+    {"severity": "minor", "screen": "ar-first-day-phone-s6.jpg", "finding": "Raw source URLs in angle brackets overflow the 390 px screen on the right ('registration/>', 'desdob'), and a repository path 'desks/curator/README.md' is listed among the public sources."},
+    {"severity": "minor", "screen": "co-aicep-phone-s7.jpg", "finding": "The monospace agent block at the foot of the page is cut off on the right ('PrompTugal__News__Website (', 'not instru') on a phone."},
+    {"severity": "minor", "screen": "front-phone-s1.jpg", "finding": "The 'NEWS' tab fades out at the right edge of the top bar and the floating 'Ask' button covers the end of text lines on most screens."},
+    {"severity": "minor", "screen": "front-phone-s3.jpg", "finding": "The front-page agenda stops at Sunday 8 November with registration repeated as separate rows; the conference days themselves are only behind 'Every event' or the footer link 'Events, by day'."},
+    {"severity": "minor", "screen": "front-phone-s7.jpg", "finding": "An 'OUR PICK' tag sits on a non-Web-Summit side event (Portugal Tech Week Palace) with no reason given."},
+    {"severity": "minor", "screen": "front-phone-s6.jpg", "finding": "The count for 'Governance, risk and compliance' wraps as '1' over '5' on a phone."},
+    {"severity": "minor", "screen": "about-phone-s4.jpg", "finding": "About names the source code 'SGit-AI/SGit-AI__Website__Newsroom__Web-Summit' while the AICEP page footer names 'github.com/PrompTugal/PrompTugal__News__Website'."},
+    {"severity": "minor", "screen": "about-phone-s2.jpg", "finding": "About lists 'Vicky, editor' without a surname while bylines say 'Vicky Wang', and the agent name 'newsroom@web-summit.dinis' wraps into five broken lines in the table."},
+    {"severity": "minor", "screen": "co-aicep-phone-s2.jpg", "finding": "'Trade Comissioner' is misspelt in the 'Confirmed for 2026' row."},
+    {"severity": "minor", "screen": "about-phone-s1.jpg", "finding": "RiskMandate is named on every page ('Powered by RiskMandate') but no screen Daniel saw says in one plain line what it is."}
+  ]
+}

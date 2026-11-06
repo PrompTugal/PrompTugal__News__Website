@@ -1,0 +1,234 @@
+{
+  "persona": "Sophie Laurent (SYNTHETIC)",
+  "synthetic": true,
+  "outcome": "Left with a shortlist of three names (Air Apps, Opsivision.ai, Tecnico's stand E272) but no stage, funding or founder for any of them; would use the site as a sourced map of who is there, not as a deal-flow list, and would not reply to the email on a first read.",
+  "steps": [
+    {
+      "screen": "front-desktop-s1.jpg",
+      "see": "Masthead \"PrompTugal.news\", \"4 days to the summit\", \"Edition v0.1.47\". Two boxes: \"EVERY FACT SOURCED\" and \"INDEPENDENT: Not affiliated with Web Summit. The same team works on RiskMandate\". \"Powered by RiskMandate\" under the title. Lead story \"Brazil's startup mission comes to Web Summit Lisbon\". A \"£5.00 credit\" button and \"Vault\" next to Search.",
+      "think": "A news site for the summit, fine. The independence box is honest and I like that it flags RiskMandate up front. But the lead is Brazil, not Portugal, and nothing on this screen is about which Portuguese AI companies are worth a coffee.",
+      "question": "Why do I have £5.00 of credit on a news site I have never visited, and what does it buy?",
+      "confusion": "\"£5.00 credit\" and \"Vault\" sit in the header like a wallet; it reads as if reading costs money, which I did not expect and nothing on this screen explains.",
+      "act": "Scroll down, looking for a Portugal or startups section."
+    },
+    {
+      "screen": "front-desktop-s2.jpg",
+      "see": "LATEST list continues: \"Lisbon's universities at Web Summit: two stands and a pitch day\", \"Tuesday 10 November: Europe on stage, universities pitching\", \"Web Summit 2026 in numbers: 70,000 people, 10,000 startups\", \"The newsroom four days out, in pictures\". Bylines like \"journalist-portugal@web-summit.vicky, for Vicky Wang\". Right column: three identical \"Registration: collect your lanyard and wristband\" entries.",
+      "think": "The universities piece mentions spin-offs and a pitch day on 10 November: that is the closest thing to deal flow so far. Noted. The bylines are email-shaped agent names; odd, but at least they are labelled.",
+      "question": null,
+      "confusion": "The right column repeats the same registration item three times on one screen, which looks like a bug and wastes the space where I would want companies.",
+      "act": "Keep scrolling; mark the universities article to open later."
+    },
+    {
+      "screen": "front-desktop-s3.jpg",
+      "see": "PORTUGAL block: links to portugalstartupnews.com items that \"names Granter, 3xP Global (Impact Innovation Fund), Banco Portugues de Fomento\", \"Seamoretech\", \"Unicorn Factory Lisboa, BloodFlow, knok, RTBeamTech\", each \"Mapped by curator@web-summit.vicky ... under 'Portuguese startups raising'\". Right: \"PORTUGUESE COMPANIES WE FOLLOW\": AICEP, Air Apps, ChatPlace, DIG-IN, Feedzai, iTRecruiter, KPMG, MEO, sheerME, Startup Portugal, VTEX. Below: \"120 companies we follow\", categories \"Security 30\", \"AI agents 22\", \"Portuguese startups 8\", \"Investors 3\".",
+      "think": "Now we are talking. \"Portuguese startups raising\" is exactly my tag. But the list I actually want, Portuguese AI startups, is 11 chips and half are not startups (KPMG, MEO, AICEP, Startup Portugal, VTEX). Only 8 under \"Portuguese startups\" out of 120. Feedzai I know already. Air Apps, ChatPlace, DIG-IN, sheerME are new to me.",
+      "question": "Which of these are raising, at what stage? \"Portuguese startups raising\" is a tag, but the lines only say a company is \"named\" in an article.",
+      "confusion": "The \"companies we follow\" chips mix a Big Four firm, a telco and a trade agency with startups, so as an investor I cannot tell which are investable.",
+      "act": "Click Air Apps (the chip I do not recognise that sounds like a product company); first finish the front page quickly."
+    },
+    {
+      "screen": "front-desktop-s4.jpg",
+      "see": "\"AROUND THE SUMMIT, NEXT\": Portugal Tech Week, \"Private Wealth and Investment Gathering (invitation only)\", DevFest Lagos, a football tournament, Tech Run Lisboa, \"Portugal Tech Week Palace\" with \"OUR PICK\". Then \"OUR QUESTION: Many companies at the summit are building AI agents ... three simple questions\".",
+      "think": "Side events are mildly useful; the invitation-only investor gathering in Almancil is not where I am. The \"our question\" section is about agent security, a lens I did not come for.",
+      "question": null,
+      "confusion": null,
+      "act": "Skim past."
+    },
+    {
+      "screen": "front-desktop-s5.jpg",
+      "see": "RiskMandate quote: \"a grant is what a credential technically permits, a mandate is what the holder is authorised ... to do\". \"WHO WE ARE: A small team ... editors Dinis Cruz, Indi Gupte and Vicky, working with AI agents; Dinis Cruz is the human in charge ... independent of Web Summit, not of RiskMandate.\" A bar \"This page 0.1p of 1p, read 10%\", \"Rate it, or do not pay for it\".",
+      "think": "So it is a small team plus AI agents, and the lens is their own product. Honest, and the disclosure is clear. This is a content-marketing newsroom with unusual discipline, not a VC research desk.",
+      "question": "Am I being charged 0.1p for reading this? By whom?",
+      "confusion": "The micro-payment bar (\"0.1p of 1p\", \"do not pay for it\") is unexplained; I do not know if money leaves my card.",
+      "act": "Open the Air Apps page from the chip."
+    },
+    {
+      "screen": "co-air-apps-desktop-s1.jpg",
+      "see": "\"Air Apps. Based in United States; at Web Summit Lisbon 2026 as a startup (GROWTH programme). Public facts only, each with its source.\" A graph: Air Apps linked to \"Portuguese startups\" and \"United States\", with Startup Portugal, AICEP, ChatPlace, DIG-IN, iTRecruiter below. Credit now \"£4.98\".",
+      "think": "GROWTH programme is a useful stage signal: that is Web Summit's later-stage startup track, so not my seed stage necessarily. Based in United States but filed under Portuguese startups; interesting.",
+      "question": "Is it Portuguese or American? Where is HQ and where are the founders?",
+      "confusion": "The graph spends half the screen telling me Air Apps is connected to AICEP and a recruiter only because they share a tag; it looks like insight but carries none, and the credit dropped 2p without me agreeing to anything.",
+      "act": "Scroll to the facts."
+    },
+    {
+      "screen": "co-air-apps-desktop-s2.jpg",
+      "see": "\"WHAT THEY DO: Portuguese-rooted full-cycle product studio with 30+ AI-powered consumer apps and 100M+ downloads, with a San Francisco hub; says it is on track for $100M revenue in 2026.\" \"CONFIRMED FOR 2026: Yes: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)\". \"PEOPLE: No one is listed under Air Apps in the summit pages we have read.\" \"AT THE SUMMIT: No session in our programme names Air Apps yet.\"",
+      "think": "This is the first real traction line: 100M+ downloads, $100M revenue target, and the page is careful to say \"says it is\". Good. But at that revenue this is not seed; it is not my cheque. And no founders, no funding, no team size.",
+      "question": "Who founded it and has it raised? The page says nothing on either.",
+      "confusion": "\"conferenceSlug lis26\" is a raw database field in a sentence meant for me; and \"People: no one is listed\" reads as if the company has no people rather than that the summit pages do not name them.",
+      "act": "Scroll to see the sources and whether there is anything on funding further down."
+    },
+    {
+      "screen": "co-air-apps-desktop-s3.jpg",
+      "see": "\"OUR QUESTION FOR THEM\": REACH, MANDATE, GAP; \"We have not asked Air Apps yet.\" \"WHERE THIS COMES FROM\": two websummit.com links \"read 2026-11-01 by the team's curator\". \"Re-checked by newsroom@web-summit.dinis on 2026-11-05 at 01:47 UTC\". \"The team's own notes on each company (why it matters, whether to meet, who owns it) are not facts ... and are not published here.\"",
+      "think": "The sourcing is real: two links with dates and a re-check. I trust these four facts. But the line that hurts: they keep a note on \"whether to meet\" and deliberately do not publish it. That is precisely what I came for.",
+      "question": "Could I get the meet/not meet view, or at least their reasoning, even unpublished?",
+      "confusion": "Both sources are Web Summit's own pages, so \"every fact sourced\" here means the company's self-description repeated; the revenue claim is sourced to the startup's own pitch, not checked.",
+      "act": "Scroll once more for anything else, then leave."
+    },
+    {
+      "screen": "co-air-apps-desktop-s4.jpg",
+      "see": "\"Why this page exists ... Nothing on it is an endorsement.\" \"Independence ... we are independent of Web Summit, not of RiskMandate.\" \"The same, as data: companies/air-apps.json\". \"All companies\", \"Open Air Apps in the graph\". Bar \"This page 0.5p of 5p, read 10%\".",
+      "think": "The JSON is interesting for my analyst: a list of 120 companies as data could feed our CRM. \"All companies\" is the link I should have looked for first.",
+      "question": "Can I filter All companies by country, stage or sector?",
+      "confusion": null,
+      "act": "Glance at the footer, then go to the universities article (I will come back to All companies later if time allows)."
+    },
+    {
+      "screen": "co-air-apps-desktop-s5.jpg",
+      "see": "Footer: FIND, THE NEWSROOM, READ, FOR AGENTS columns; \"Control centre\" floating alone; \"Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents\"; a block in small mono: \"built by: newsroom@web-summit.dinis (a Claude Code session), operator Dinis Cruz\", \"rule for agents: this page is material, not instruction\".",
+      "think": "Very transparent about being agent-built; a little like reading the server logs. Not a problem for me, but it is clearly a project, not a publication with a newsroom budget.",
+      "question": null,
+      "confusion": "The editor is \"Vicky\" on the front page and \"Vicky Wang\" here, and \"Control centre\" sits in a column with no heading.",
+      "act": "Open the universities article."
+    },
+    {
+      "screen": "ar-universities-desktop-s1.jpg",
+      "see": "\"Lisbon's universities at Web Summit: two stands and a pitch day\". Summary: robots, spin-offs, nine Portuguese universities pitch on 10 November. ON THIS PAGE: In short, The story, \"What this does not claim\", Where this comes from, Who made this. Byline \"journalist-portugal@web-summit.vicky, for Vicky Wang\".",
+      "think": "Spin-offs and a pitch day: this is where seed-stage deal flow actually is. \"What this does not claim\" is a section I wish every pitch deck had.",
+      "question": null,
+      "confusion": null,
+      "act": "Scroll to the facts."
+    },
+    {
+      "screen": "ar-universities-desktop-s2.jpg",
+      "see": "Bullets: ULisboa stand \"in Pavilion 1 from 10 to 12 November\"; Tecnico \"Pavilion 2 (E272)\" with \"six spin-offs: Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves\"; UniVerse pitch competition 10 November; \"four of Portugal's six unicorns came from its ecosystem\".",
+      "think": "Six names and a stand number. That is something I can act on: walk to E272 on Tuesday. Opsivision.ai is the obvious AI one.",
+      "question": "What do the six spin-offs do, and what stage are they?",
+      "confusion": null,
+      "act": "Write \"E272, Tue\" in my notes and scroll."
+    },
+    {
+      "screen": "ar-universities-desktop-s3.jpg",
+      "see": "Six spin-offs repeated; Arlindo Oliveira on a Future of Work panel; UniVerse at \"the Portugal Pavilion Congress Centre\" with nine universities named; \"over 1,000 alumni who have founded startups ... over 30 billion euros\"; unicorns \"OutSystems, TEKEVER, Talkdesk and Anchorage Digital\". \"A suggestion: investors in robotics and deep tech could start at Tecnico's stand E272\".",
+      "think": "The closing suggestion speaks to me directly; nice. But the alumni numbers are a university's marketing, and the page knows it.",
+      "question": "Which startups actually pitch at UniVerse?",
+      "confusion": "The spin-off list appears in both the bullets and the story, word for word, and still says nothing about any of them; repetition without depth.",
+      "act": "Scroll to see what they admit not knowing."
+    },
+    {
+      "screen": "ar-universities-desktop-s4.jpg",
+      "see": "\"WHAT THIS DOES NOT CLAIM\": \"The rankings and figures are ULisboa's own ... The newsroom has not read Startup Portugal's ranking or Dealroom's reports\"; \"Which startups pitch at UniVerse is not known\"; \"Nothing is said about the spin-offs' products ... their own sites were not read for this draft.\"",
+      "think": "This is the most trustworthy thing I have read today, and also the most frustrating: the one thing I need, what the spin-offs make, they explicitly did not look at.",
+      "question": "Why not read six websites before publishing a piece that suggests investors visit them?",
+      "confusion": "The article tells investors to start at E272 but says it has not read the spin-offs' sites, so the suggestion has nothing under it.",
+      "act": "Skim sources, then decide whether to stay."
+    },
+    {
+      "screen": "ar-universities-desktop-s5.jpg",
+      "see": "Sources with dates (Tecnico, \"read 5 November 2026\"; Web Summit venue essentials). \"From the curator's map: S10, desks/curator/README.md\". WHO MADE THIS: \"Written by Vicky Wang's journalist desk ... Reviewed by reviewer@web-summit.vicky ... Published ... by PrompTugal's journalist agent ... signed with that agent's key.\" Bar \"1.2p of 12p\".",
+      "think": "Three agents and a human name in one byline paragraph. I believe it was checked. I do not need to know how.",
+      "question": null,
+      "confusion": "\"S10, desks/curator/README.md\" is an internal file path offered to me as a source, which means nothing to a reader.",
+      "act": "Open About to see who is really behind this before I decide whether it is worth my time in Lisbon."
+    },
+    {
+      "screen": "about-desktop-s1.jpg",
+      "see": "\"About the newsroom: Who runs this newsroom, how we make it, and the limits we work within.\" Contents including \"The agent's own limits\". \"The brief: how this newsroom is meant to work, from Dinis Cruz's own words\". Credit shows \"£5.00\" again.",
+      "think": "Clear contents. I want The editors, nothing else.",
+      "question": null,
+      "confusion": "The credit was £4.94 on the article and is £5.00 here; so is it a real balance or decoration?",
+      "act": "Scroll to the editors."
+    },
+    {
+      "screen": "about-desktop-s2.jpg",
+      "see": "\"we are not independent of RiskMandate, and we say so on every page.\" THE EDITORS: \"Dinis Cruz, editor-in-chief\", \"Indi Gupte, editor\", \"Vicky, editor\". WHO DOES THE WORK: \"newsroom@web-summit.dinis: The AI agent that builds the site\", \"The desks ... the writing desks are next\", \"GitHub Actions\". \"The newsroom belongs to the team behind web-summit.sgit.ai.\"",
+      "think": "Three people, no bios, no links, no background. As an investor I would want one line on who Dinis is and what RiskMandate is as a company: is it a startup? Raised? That is the obvious first meeting for me, and it is not here.",
+      "question": "Is RiskMandate itself a company raising? Who are these three people professionally?",
+      "confusion": "\"The writing desks are next\" contradicts the articles I just read, which were written by journalist desks; the page looks out of date.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-desktop-s3.jpg",
+      "see": "Rules: \"We leave out anything we are unsure of, and say so.\" \"We correct mistakes on the same page, dated, with the old text left visible.\" HOW WE MAKE IT: \"We copied the shape of three earlier newsrooms\", \"Prose is plain text, facts are data\", \"A check before anything goes live\", \"The version is set by the system, not by people\".",
+      "think": "Sound rules. The build process is for engineers; I am skimming.",
+      "question": null,
+      "confusion": null,
+      "act": "Skim down."
+    },
+    {
+      "screen": "about-desktop-s4.jpg",
+      "see": "\"The source code is on GitHub: SGit-AI/SGit-AI__Website__Newsroom__Web-Summit\". WHAT IS LIVE TODAY: front page, the summit, \"Companies at the summit: a profile per company\", events, people, \"The data, as JSON\", \"The articles, each signed\".",
+      "think": "Companies at the summit is the page I should go to next, with a filter by Portuguese startups.",
+      "question": null,
+      "confusion": "The source repository named here (SGit-AI/...Newsroom__Web-Summit) is different from the one in the Air Apps footer (PrompTugal/PrompTugal__News__Website); which one is real?",
+      "act": "One more scroll, then close the laptop."
+    },
+    {
+      "screen": "about-desktop-s5.jpg",
+      "see": "\"THE AGENT'S OWN LIMITS\": Reach, Mandate, Gap table. Gap: \"A change to the development branch goes live with no human review first. The automatic check ... checks form, not truth. Sourcing is a rule the agent follows, not something a machine checks.\"",
+      "think": "Remarkably candid: they say nothing a human reviews goes live before publication. That lowers my trust in any single number, raises my trust in the people. It also shows me what RiskMandate sells better than the pitch does.",
+      "question": null,
+      "confusion": "This contradicts \"Reviewed by reviewer@web-summit.vicky\" on the article; review by an agent is not human review, and I had to work that out myself.",
+      "act": "Close the laptop; come back on the phone in the taxi to re-check Air Apps."
+    },
+    {
+      "screen": "front-phone-s1.jpg",
+      "see": "Phone, in the taxi. Masthead, \"4 days to the summit\", nav \"NOW AGENDA NEWS\" cut off at the right, search icon, \"£5.00\", \"Vault\". Brazil lead. NOW AND NEXT. A floating \"Ask\" button covering the end of an agenda line.",
+      "think": "Same front page. I want Companies, and it is not in the visible nav.",
+      "question": "Where is Companies on the phone?",
+      "confusion": "The nav is clipped at \"NEWS\"; Companies, Portugal and About are hidden with no visible sign the bar scrolls, and \"Ask\" covers text.",
+      "act": "Scroll, hoping the Portugal block comes up."
+    },
+    {
+      "screen": "front-phone-s2.jpg",
+      "see": "Agenda only: Saturday 7 November DevFest Lagos, two \"Registration: collect your lanyard\" items, football tournament, Sunday Tech Run, another \"Registration\". \"Ask\" button over \"Humberto Delgado Airport\".",
+      "think": "On the phone the agenda pushes everything I care about far down. Three registration items again.",
+      "question": null,
+      "confusion": "Two screens in and no company or Portugal block in sight; on a phone this is an events listing first.",
+      "act": "Stop scrolling the front page; open Air Apps from my browser history instead."
+    },
+    {
+      "screen": "co-air-apps-phone-s1.jpg",
+      "see": "\"Air Apps ... Based in United States ... startup (GROWTH programme)\". Small graph. \"WHAT THEY DO: Portuguese-rooted full-cycle product studio with 30+ AI-powered consumer apps and 100M+ downloads ... says it is on track for $100M revenue in 2026.\" \"Ask\" button over the last line.",
+      "think": "The traction line is visible on the first phone screen; good, that is what I came back for.",
+      "question": null,
+      "confusion": "\"Ask\" sits on top of \"says it is on\", the exact words that tell me the revenue is a claim.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "co-air-apps-phone-s2.jpg",
+      "see": "\"CONFIRMED FOR 2026: Yes ... (conferenceSlug lis26)\", \"airapps.co\", \"No session in our programme names Air Apps yet\", \"No one is listed under Air Apps\", related companies list.",
+      "think": "Confirmed, website, no session, no people. I will look at airapps.co myself.",
+      "question": "Is anyone from Air Apps actually in Lisbon, and where is their stand?",
+      "confusion": "Nothing tells me where to find them at the venue: no pavilion or stand, unlike the universities article.",
+      "act": "Scroll once more."
+    },
+    {
+      "screen": "co-air-apps-phone-s3.jpg",
+      "see": "\"We have not mapped Air Apps's flows yet ... If you are at Air Apps, the quickest way to get this right is to tell us how it works.\" OUR QUESTION FOR THEM: reach, mandate, gap. WHERE THIS COMES FROM: websummit.com link.",
+      "think": "The rest of the page is about their question, not my question. I have what there is.",
+      "question": null,
+      "confusion": null,
+      "act": "Stop. Taxi is at the hotel. Open airapps.co and Tecnico's spin-offs myself tonight."
+    }
+  ],
+  "interview": {
+    "q1": "A summit newsroom for Web Summit Lisbon: the agenda, a profile for each of about 120 companies, and some careful articles. It looks at AI through one particular lens, agent permissions, which is RiskMandate's lens. It is not a deal-flow list, even if the Portugal block made me hope for one.",
+    "q2": "A small team, Dinis Cruz in charge with two editors, Indi Gupte and Vicky, and a lot of AI agents doing the writing and the building. They say plainly that the same team works on RiskMandate. I could not tell you who any of them is professionally, because the About page gives names and roles and nothing else.",
+    "q3": "For the facts they print, yes, more than most trade press: each one has a link and a date, and they publish what they did not check. For the judgement I need, there is nothing to trust or distrust, because they do not publish it. They even say they keep a note on whether to meet each company and hold it back. And the About page admits nothing a human reviews goes live before publication, so I would check any number before quoting it to my partners.",
+    "q4": "Tonight at the hotel: open airapps.co and look up the six Tecnico spin-offs, especially Opsivision.ai. Tuesday 10 November: Tecnico's stand E272, and the UniVerse pitch day if I can find out who pitches. I might come back to the Companies page once, filtered to Portuguese startups, before Tuesday. That is all.",
+    "q5": "Maybe, leaning no. The tone is unusually honest, the page about my fund would have sources, and 'reply if anything is wrong' is a fair offer. But the three questions are about our AI agents' permissions, which is a security vendor's discovery call, and 'powered by RiskMandate' tells me who the 15 minutes are for. A seed fund has no agents worth discussing. I would reply only to correct a fact on our page, and I would decline the meeting unless RiskMandate itself were raising.",
+    "q6": "On each company page, one block for investors: stage (programme is a start, funding round if public), founders by name with a source, team size, and the stand or pavilion, sourced like everything else. And a Portuguese AI startups list I can filter by stage. Then I would book meetings from it."
+  },
+  "findings": [
+    {"severity": "costly", "screen": "front-desktop-s3.jpg", "finding": "\"Portuguese companies we follow\" mixes KPMG, MEO, AICEP, Startup Portugal and VTEX with startups, and only 8 of 120 are filed under Portuguese startups, so an investor cannot get a list of investable Portuguese AI companies from the front page.", "owner": "ontologist@PrompTugal.dinis"},
+    {"severity": "costly", "screen": "co-air-apps-desktop-s2.jpg", "finding": "The company page has no founders, no funding or stage beyond \"GROWTH programme\", and no stand location, the three things an investor looks for first.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "costly", "screen": "ar-universities-desktop-s4.jpg", "finding": "The article suggests investors start at Tecnico's stand E272 while stating the spin-offs' own sites were not read, so the six names come with no product, stage or team.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "costly", "screen": "front-desktop-s1.jpg", "finding": "\"£5.00 credit\", \"Vault\" and the per-page \"0.1p of 1p ... Rate it, or do not pay for it\" bar are unexplained, and the balance changes between pages (£4.98, £4.94, back to £5.00 on About), so a reader cannot tell whether reading costs money.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "costly", "screen": "front-phone-s1.jpg", "finding": "On the phone the nav is clipped after \"NEWS\" with no sign it scrolls, so Companies, Portugal and About are hidden, and the floating \"Ask\" button covers text on every phone screen seen.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "front-phone-s2.jpg", "finding": "On the phone the agenda runs at least two full screens before any company or Portugal block, with near-identical \"Registration: collect your lanyard\" entries repeated.", "owner": "designer@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "co-air-apps-desktop-s1.jpg", "finding": "The company graph takes half the first screen to show links that exist only because companies share a tag (Air Apps to AICEP, iTRecruiter), which looks like insight but carries none.", "owner": "ontologist@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "co-air-apps-desktop-s2.jpg", "finding": "Raw field text \"(conferenceSlug lis26)\" appears in reader-facing copy, and \"No one is listed under Air Apps\" reads as if the company has no people.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "about-desktop-s2.jpg", "finding": "About says \"the writing desks are next\" while the articles are bylined to journalist desks, and the third editor is \"Vicky\" there but \"Vicky Wang\" in the footer.", "owner": "conductor@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "about-desktop-s4.jpg", "finding": "About names the source code as SGit-AI/SGit-AI__Website__Newsroom__Web-Summit while the page footer names PrompTugal/PrompTugal__News__Website.", "owner": "conductor@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "ar-universities-desktop-s5.jpg", "finding": "\"From the curator's map: S10, desks/curator/README.md\" is an internal file path listed as a reader-facing source.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "about-desktop-s5.jpg", "finding": "\"Goes live with no human review first\" sits against \"Reviewed by reviewer@web-summit.vicky\" on the article, and the reader has to work out that the reviewer is an agent.", "owner": "conductor@PrompTugal.dinis"},
+    {"severity": "held", "screen": "ar-universities-desktop-s4.jpg", "finding": "\"What this does not claim\" (rankings are ULisboa's own, UniVerse pitchers not known) was the most trust-building section in the run.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "held", "screen": "co-air-apps-desktop-s2.jpg", "finding": "\"says it is on track for $100M revenue\" marks a company claim as a claim, and the traction line is visible on the first phone screen.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "held", "screen": "front-desktop-s1.jpg", "finding": "The \"INDEPENDENT ... The same team works on RiskMandate\" box and \"independent of Web Summit, not of RiskMandate\" disclosure are clear and repeated, so the interest is never hidden.", "owner": "designer@PrompTugal.dinis"},
+    {"severity": "held", "screen": "ar-universities-desktop-s3.jpg", "finding": "A concrete, actionable pointer (stand E272, UniVerse on 10 November, \"investors in robotics and deep tech could start at\") gave the investor her only calendar entry.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "held", "screen": "co-air-apps-desktop-s3.jpg", "finding": "Each fact carries a source link, the date read and a re-check timestamp, and the page says the team's own notes are deliberately not published.", "owner": "ontologist@PrompTugal.dinis"}
+  ]
+}
