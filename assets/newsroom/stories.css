@@ -1,0 +1,12 @@
+/* /newsroom/stories/: the Kanban board (features/stories.mjs; the columns are layout hooks in the filled markdown) */
+.kb { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(230px, 1fr); gap: 12px; overflow-x: auto; padding-bottom: 8px; margin: 1rem 0 2rem; }
+.kb-col { border-top: 3px solid var(--rule); background: color-mix(in srgb, var(--paper) 92%, var(--ink) 8%); padding: 8px 10px; min-height: 120px; }
+.kb-col h3 { margin: 0 0 8px; font: 600 var(--fs-label, 12px)/1.3 var(--mono, monospace); text-transform: uppercase; letter-spacing: .06em; }
+.kb-col ul { list-style: none; margin: 0; padding: 0; }
+.kb-col li { background: var(--paper); border: 1px solid var(--hair, var(--rule)); padding: 8px; margin: 0 0 8px; font-size: .9em; line-height: 1.35; }
+.kb-col li[hidden] { display: none; }
+.kb-waits-on-dinis { border-top-color: var(--warn); }
+.kb-published { border-top-color: var(--brand); }
+.kb-held { border-top-color: var(--brand-red, var(--warn)); }
+.kb-filters { display: flex; flex-wrap: wrap; gap: 12px; margin: .5rem 0; font-size: .9em; }
+.kb-filters select { font: inherit; }
