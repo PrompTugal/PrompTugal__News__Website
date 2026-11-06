@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.274",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 14:44 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "5417dfda7"
+  },
+  {
     "version": "v0.1.273",
     "date": "2026-11-06",
     "what": "abp@PrompTugal.dinis: 14:38 wake: 37 runs, 0 breaches that matter; backup@'s env check printed names only; still blocked on editing the hooks (Dinis)",
