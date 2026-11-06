@@ -1,0 +1,99 @@
+PROMPTUGAL.NEWS - THE SITE AGAINST THE BRAND IDENTITY v2.0, 6 NOVEMBER 2026
+designer@PrompTugal.dinis, WS-177. For dev@PrompTugal.dinis (code) and the journalist (content). Read on the build of
+v0.1.37 (926 pages): every page type checked by hand, the systematic issues counted across all built files, screenshots
+light and dark at 1280 and 390 px. Spot-checked by the designer: no og:image in shell.mjs, the blue/orange/teal admin
+series, the old repository in nav.json and about, the cobalt in core.css. The designer agrees with fix 2: map the admin
+series to brand green, red, ink and ink-3, telling kinds apart by shape and label as well as colour.
+
+# PrompTugal.news brand audit (identity v2.0), site v0.1.37, 6 Nov 2026
+
+Read-only audit of the built site (926 HTML pages, 3,769 generated html/md/txt/json files). Nothing in the repository was edited.
+Screenshots (10 pages x light/dark x 1280/390, plus 6 full-page shots): `/tmp/claude-0/-home-user-PrompTugal--News--Website/067e7201-80f1-5c04-9f6a-5905301b5607/scratchpad/shots/` (computed-style report in `shots/report.json`).
+
+Page counts by type: person 249, event 210, organisation 204, company 109, place 77, site 54, topic 17, account 4, data 1, article 1.
+
+## Fixes for dev, most important first
+
+1. **No social card on any page (og:image missing).**
+   Where: `admin/build/lib/shell.mjs:80-83`, where the head has og:url, og:title, og:description and og:site_name only. There is no `og:image`, `og:type` or `twitter:card`, and no rasterised card exists in `assets/`.
+   Pages: 926 of 926.
+   Fix: render `design/brand/templates/social-card-1200x630.svg` to a PNG (e.g. `assets/brand/social-card.png`; the template's text uses Newsreader/Plex, so render it with the fonts available, for instance with Playwright at build time or once by hand). Then add `og:image` (absolute URL, from `site.BASE`), `og:image:width` 1200, `og:image:height` 630, `og:image:alt`, `og:type` (`article` for type=article, else `website`) and `<meta name="twitter:card" content="summary_large_image">`. Per-page cards with the title are optional, and are a later step.
+
+2. **Off-palette blue/orange/teal series on the admin charts (the only blue a reader actually sees).**
+   Where: `assets/admin/admin.css:14` (`--k-conductor: #1baf7a; --k-desk: #eb6834; --k-builder: #2a78d6`), and the dark versions at `:19` and `:24` (`#199e70`, `#d95926`, `#3987e5`). Used by `:75` (matrix heat `color-mix` on `--k-builder`, so the whole activity matrix is tinted blue), `:92` and `:103`, and drawn by `admin/build/features/admin-draw.mjs:161` and the admin charts.
+   Pages: 2 confirmed by markup (`admin/index.html`, `admin/timeline/index.html`). The matrix may also be on other admin pages; 24 pages load admin.css. Confirmed in the computed styles: rgb(42,120,214) light and rgb(57,135,229) dark.
+   Fix: map the agent kinds to the brand. Suggested: builder = `var(--brand-green)`, desk = `var(--brand-red)`, conductor = `var(--ink)`, ci = `var(--ink-3)`, with shapes still told apart as they are now (circle/square/diamond). Base the matrix `color-mix` on `--brand`. If the designer wants a separate data-viz palette, it belongs in `assets/tokens.css` and needs a yes from `designer@`.
+
+3. **Footer "Source code" link points to the old repository on every page.**
+   Where: `data/site/nav.json:180` (`https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit`). `data/site/site.json` `repo` and `git remote` are both `PrompTugal/PrompTugal__News__Website`, and the agent block and llms.txt already use the new one.
+   Pages: 926.
+   Fix: set it to `https://github.com/PrompTugal/PrompTugal__News__Website`. Better, have the shell/config take it from `site.json` `repo` so the two cannot drift. (GitHub may redirect the old URL; uncertain, not checked.)
+
+4. **Dead cobalt fallback tokens in core.css (not visible today, but the old accent is still in the shipped CSS).**
+   Where: `assets/core/core.css:12` (`--brand: #1b4597; --brand-2: #10306d; --brand-soft: #e3e9f5`) and `:21` (dark `#93b1ff; #bccfff; #1a2440; #0b1530`), inside `:where(:root)`. `tokens.css` `:root` outranks them, so the computed colours are the brand's (checked on 10 page types).
+   Pages: core.css loads on all 926. If tokens.css ever fails to load, links go cobalt.
+   Fix: replace with the brand values (`#006600 / #004d00 / #e2eedf / #ffffff`, dark `#6dbb7e / #9bd3a7 / #16281c / #0b1a0e`), or delete the block. Same for the cobalt `var()` fallbacks in `assets/admin/admin.css:6` and `:64`, `assets/meter/meter.css:28` and `:36`, `assets/vault/vault.css:14` and `assets/graph/explorer.js:23` (`'#1b4597'`, `'#e3e9f5'`). These are fallbacks only, low risk.
+
+5. **Old azulejo mark still shipped and exported.**
+   Where: `assets/brand/mark.svg` (cobalt `#1b4597` tile, `<title>PromptUGAL</title>`, publicly served); `admin/build/lib/shell.mjs:24` and `:28-29` (`MARK` export and its comment, unused by any feature); `assets/site.css:59-62` and `:462` (`.mark` rules); `admin/build/README.md:152` still calls mark.svg "our tile, the favicon".
+   Pages: 0 render it (no page references it). It is dead code plus a public file with the old name and colour.
+   Fix: delete `mark.svg`, the `MARK` export and the `.mark` CSS, and update the README row to list the v2.0 assets.
+
+6. **Type weights outside the brand (Plex Sans 400/600, Plex Mono 400, Newsreader 600 for heads).**
+   - Sans 700: `assets/site.css:106, 124, 127, 142, 262, 324, 328, 358, 369, 464, 527, 561, 698, 765`; `assets/search/search.css:26, 37`; `assets/graph/graph.css:18` (all the small uppercase labels, the h2s, kickers and footer heads). Move these to 600.
+   - Mono 500: about 30 rules (`site.css` 20, e.g. `:63` the motto; `chat.css` 1, `core.css` 2, `graph.css` 3, `meter.css` 3, `search.css` 1, `vault.css` 1). Use 400, and `plex-mono-500.woff2` can then be dropped from `assets/fonts.css:7`.
+   - Mono 600: `site.css` (2 rules), `graph.css:74`, `meter.css` (1). There is no 600 mono face, so the browser fakes the bold. Use 400.
+   - Sans 500: 14 in site.css (e.g. `:43` and `:647`, the dateline links), plus a few in the feature CSS. Use 400 or 600.
+   Pages: all 926 (site.css). These are visual-nuance issues, not breakage. Confirm with designer@ before the sweep.
+   No foreign families were found: only Newsreader, IBM Plex Sans and IBM Plex Mono are used, with system stacks only as fallbacks in `tokens.css:46-48`. The `monospace` in the computed styles is the UA default on `<pre>`, whose `<code>` child is set in Plex Mono.
+
+7. **Dark theme-color does not match the dark page.**
+   Where: `admin/build/lib/shell.mjs:89` (`#121317`), while the dark paper in `tokens.css` is `#111214`.
+   Pages: 926.
+   Fix: use `#111214`, or move the dark paper to `#121317` (brand ink). Cosmetic.
+
+8. **Footer: "Control centre" sits alone under an untitled column.**
+   Where: `data/site/nav.json:124-125` (no `column`), rendered by `shell.mjs` `foot`. On the phone screenshot it appears as an orphan link between FIND and READ.
+   Pages: 926.
+   Fix: give it a column (e.g. "The newsroom"), or leave it out of `footer`, since it is already in the utility links.
+
+9. **Brand assets unused: PT stamp, app icons, no web manifest.**
+   Where: `assets/brand/pt-news-stamp-light.svg` and `-dark.svg`, `icon-192.png` and `icon-512.png` are not referenced anywhere, and there is no `site.webmanifest`.
+   Fix (optional): add a manifest with the 192/512 icons and `theme_color #f6f3ec`, linked from `shell.mjs` near `:84-87`. The stamp could serve as the RiskMandate-free square mark where one is wanted, but that is the designer's call.
+
+10. **Minor:**
+   - The `.endorse` `<picture>` (`shell.mjs:59`) swaps on `prefers-color-scheme` only, so it ignores a forced `[data-theme]` while the wordmark honours it (`site.css:56-58`). This only matters for the mockups.
+   - Stale comments still say "cobalt" or "azulejo": `assets/site.css:24` and `:634`, `assets/admin/admin.css:1`, `shell.mjs:24`. Reword them.
+   - On the phone, the agent block's lines are clipped at the right (`site.css:471`, `pre` with overflow). This is not brand, just noted.
+   - On admin pages the page head sits in a narrower centred column than the body (see `shots/admin_index-d-light.png`; `admin.css:28` `main { max-width: min(1100px,100%) }` against the shell's head). Layout, uncertain whether intended.
+
+## Content, not code (journalist / ontologist / designer)
+
+- `content/about/index.md:51` says "The source code is on GitHub" and links to `SGit-AI/SGit-AI__Website__Newsroom__Web-Summit`. It should be `PrompTugal/PrompTugal__News__Website`, unless the old repository is meant (uncertain).
+- `content/articles/newsroom-status-four-days-out.md:190` links to the old repo as "This newsroom's repository". This is a signed, dated article from 5 Nov, so it is historical. Leave it, or add a dated correction note (journalist's call).
+- `content/brief/*.md` (index, 01, 10 and others) link to the old repo and `web-summit.newsroom.sgit.ai`, and call it "the Web Summit newsroom". This is the brief pack, published in full as history, so it is legitimate. Do not edit (brief 1 is verbatim).
+- Spaced en-dashes ` – ` on 10 pages come from verbatim official session titles in `data/events/universe-2026-entrepreneurial-academy-where-innovation-is/event.json` and `data/events/why-your-ai-agents-don-t-understand-your-business-and-how/event.json`, and from facts in `data/companies/neo4j/*.json`. These are quoted titles, so they are acceptable. The ontologist may decide whether to keep the source punctuation.
+- Brand artwork `<title>`s read "Promptugal PT favicon - Editorial PT" (`assets/brand/favicon.svg`, `favicon-dark.svg`, `pt-news-stamp-*.svg`), and the template is titled "Promptugal social card template". These are the supplied files and the titles are not visible in a browser tab. Raise it with designer@ and Dinis rather than edit the brand masters.
+- "Ask the newsroom" (chat label, `admin/build/features/chat.mjs`, `assets/chat/*.js`) and "the independent newsroom" in summaries describe the site, not the brand, so they are not a violation. Note: `assets/chat/chat.js:296` falls back to `'Newsroom'` if `site.name` is missing (harmless).
+
+## Fine / checked
+
+- **Name:** `<title>` and `og:site_name` read "· PrompTugal.news" on all 926 pages. llms.txt opens "PrompTugal.news (promptugal.news)". No "The Lisbon Wire", "PromptUGAL" or "Promptugal" in reader-facing text except history:
+  - `admin/versions.*` rows v0.1.18, v0.1.20 and v0.1.21
+  - `admin/agents/newsroom-designer-dinis.*`
+  - `admin/runs`, `admin/timeline`, `admin/index`
+  - `api/v1/admin/status.json`
+
+  All of these describe past runs or releases and are legitimate. `newsroom.sgit.ai` (37 files) always refers to the sister site (meter, vault, the CI article), never to this site's own name. Lowercase `promptugal.news` appears only as the domain.
+- **Masthead:** the supplied outlined wordmark on all 926 pages (`shell.mjs:27`), as `<img>` and not text. Light and dark swap correctly (verified on screenshots). The ratio is 1600x261, matching the viewBox (8002x1306), with no distortion.
+- **Wordmark widths:** front page 680px desktop and 250px phone; compact 400px desktop and 240px phone; footer 240px. Never under 240.
+- **Wordmark dot:** ink `#121317` in light, paper `#F6F3EC` in dark, so it is neutral. T is `#C52830` / `#F07278` and ugal is `#006600` / `#6DBB7E`.
+- **Favicons:** `favicon.ico` (root), `favicon.svg` (light), `favicon-dark.svg` (dark) and `apple-touch-icon.png` on 926 of 926 pages. theme-color is set for light (`#f6f3ec`) on all of them.
+- **Tokens:** `assets/tokens.css` matches the brand (paper `#f6f3ec`, ink `#121317`, red `#c52830`, green `#006600`, dark accents `#f07278` / `#6dbb7e`).
+- **Computed colours:** body background rgb(246,243,236) light and rgb(17,18,20) dark. Links are green. No blue anywhere outside the admin series, across 10 page types x 2 themes x 2 widths. No inline colours in any built page (the only hex values in the HTML are the two theme-color metas).
+- **Every page** has the version badge in the dateline (and footer), "Independent. Not affiliated with Web Summit.", the RiskMandate disclosure with "Read our disclosure", and the motto "Technology and AI, in context. The Web Summit Lisbon 2026 edition": 926 of 926.
+- **Em-dashes:** 0 in all generated html, md and txt, and none in the source JS, MJS or site JSON.
+- **Fonts:** self-hosted (`assets/fonts.css`), Newsreader / IBM Plex Sans / IBM Plex Mono only, with no runtime fetch.
+- **Layout:** no horizontal page scroll at 390px on any page tested.
+- **sg-meter vendored CSS** (teal `#0f766e`): the `<sg-meter>` element is not used on any page (meter.js loads only the core), so it is not visible. The vendor copy stays unedited by rule.
+- **Pages screenshotted:** front, article, company (neo4j), person, events, admin, admin timeline, account/vault, graph, ask, about/participant, search and 404.
