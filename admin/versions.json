@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.44",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: past events: Web Summit's 16 earlier editions, Dublin 2010 to Lisbon 2025, sourced",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "d5e49d2a9"
+  },
+  {
     "version": "v0.1.43",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: the site against the brand v2.0, ten fixes for dev; end of run 1",
