@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.115",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: /newsroom/security/: the picture as a link (the content markdown has no images yet)",
+    "by": "security@PrompTugal.dinis",
+    "from": "45f1a192f"
+  },
+  {
     "version": "v0.1.114",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: the agents' messages mapped: four channels, 118 acts, a picture on /newsroom/security/ and a Messages panel spec for Dinis's dashboard",
