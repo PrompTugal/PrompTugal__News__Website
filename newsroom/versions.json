@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.173",
+    "date": "2026-11-06",
+    "what": "devops@PrompTugal.dinis: wake 08:14: dev quiet (28 of 29 green, one Pages stall recovered); CI for the workers' branches; run report; blocked on draining my inbox (sgit-ai install refused)",
+    "by": "devops@PrompTugal.dinis",
+    "from": "17ed72042"
+  },
+  {
     "version": "v0.1.172",
     "date": "2026-11-06",
     "what": "researcher@PrompTugal.dinis: run report 08:13",
