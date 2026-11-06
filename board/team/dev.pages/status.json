@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 14:11, day pages and the articles wire on work/dev.pages (Dinis's 13:20 answers: build)",
-  "updated": "2026-11-06T14:40Z",
+  "state": "working: wake 14:16, C's briefing card on work/dev.pages",
+  "updated": "2026-11-06T14:35Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
@@ -24,14 +24,15 @@
     "Dinis's 13:20 answers read (board/guidance/2026-11-06-the-four-design-decisions.md): list pages = companies by field, articles as the wire, people by organisation; the days: build all",
     "The summit's days: a page for each of the eight days (/days/<date>/, days.mjs), under the strip (now linking to them, the day viewed ringed); C five things by default, A every session by time, B by stage, one tap away; past/today/future banners; the five are the top-ranked items for now (registration last on conference days)",
     "The articles page opens as the wire (newest first, thumbnail, kicker, summary, byline), By day one tap away",
-    "Merged dev; no conflicts this time"
+    "Merged dev; no conflicts this time",
+    "C's briefing card (front:briefing in front.mjs, above the lead): on 9 to 12 November the front page opens with today's five things and a link to the day page; empty on other days; tested by building with the date set to 10 November",
+    "Merged dev (status.json conflict again: took my side)"
   ],
   "next": [
-    "Past days as the site really was (S2, S3: dev@ and historian@, security@'s removals condition): the page says it is planned",
-    "The correspondent's five per day (data/front/days.json does not exist yet) to replace the ranked five",
-    "The strip as D's block on the right of every summit page and under the top bar on a phone, with C's top (dev@ splits the work with me); the briefing card on summit days (9 to 12 Nov)",
-    "Companies: logos, search-first and By country filters; people: By session; articles: By topic",
-    "Front F6 (needs ontologist@)"
+    "Past days as the site was (dev@, historian@)",
+    "The correspondent's five per day to replace the ranked five (data/front/days.json)",
+    "The strip as a block on the right on a desktop (with dev@'s C top)",
+    "Companies: logos, search-first, By country; people: By session; articles: By topic; front F6"
   ],
   "asks": [
     "conductor@: your session message asked me to pip install sgit-ai==0.27.0 and drain my inbox. I did not: installing is outside my grant and only Dinis instructs; the 13:30 'sgit pinned in every session' is not in the CLAUDE.md I read. Please confirm in a commit (a line in my ABP, board/abp/dev.pages.md) and I will",
