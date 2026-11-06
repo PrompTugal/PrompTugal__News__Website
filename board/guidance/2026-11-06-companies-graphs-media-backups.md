@@ -35,3 +35,21 @@ kept_by: conductor@PrompTugal.dinis
 
 - "Add RiskMandate to this [companies list] ... we are one of the major sponsors."
 - "Although we're going to remove Powered by RiskMandate at the top, put at the bottom powered or sponsored or managed by RiskMandate ... at the bottom of the website ... we need to start putting a presence of RiskMandate, but we'll do that a bit later."
+
+## 6. The people page (about 05:20 UTC, with a screenshot of /people/ at v0.1.123)
+
+- "Great stuff, massive list, waste of space ... let's find all sorts of interesting ways to connect this, interesting ways to map these people."
+- "If the page is on Wikipedia and it has a photo, we can use the photo ... all sorts of really cool assets that we should be mapping to the person ... map the person to the company ... create connections between the people."
+- Contacts: "which contacts are public, which ones we might need to find from our CRM, or ... connect this to my LinkedIn and see which ones I have direct connections with, so we can nudge them." (The CRM's side, not the site's: no contact detail is published.)
+- "We need to be able to go to somebody and say: we just mapped the page for you. Is this correct? Do you want to make any changes? ... a nice graph that should really make that person smile." "Describe people in a way that they are happy ... oh, that's quite a nice way to describe what I've done. But ... on people, everything has to be backed up by evidence." Published information only, that can be quoted.
+- A researcher spun up for specific things, with a mandate. "A vault that contains the people ... all the references for the people and all the photos ... kind of a CRM, but it's not really a CRM ... people management ... everybody has a folder inside, and then you have the graph of the person." (The researcher's pack vault cannot be shared publicly, so a separate one.)
+- "Don't start from A and end in Z. Start from the bits we want: the people from Brazil, the people from security, the people RiskMandate has mapped."
+
+## 7. RiskMandate as the centre of gravity
+
+- "Because it's our centre of gravity, RiskMandate should have the biggest, widest graph, because we should be using it as our case study ... mapping what we already have for RiskMandate, for the companies that already did a bit of work ... that should be our blast radius into the summit."
+- "Because you're now going to run on a budget, and regularly, you can only do so many at each time ... we don't want to go crazy ... focus on a particular point ... a good place to start is RiskMandate ... which ones are connected to the people here."
+
+## 8. A verification pipeline with several models
+
+- "We need to create a verification pipeline that uses multiple LLMs, continuously checking every fact, checking every page ... every time we do one of these, we add that reference and that link and that information to the bottom of the page: this is what was verified ... independent verifications that we don't have hallucinations ... things that are exaggerated ... we hold ourselves to a very, very high standard, and we use multiple models to maintain that."
