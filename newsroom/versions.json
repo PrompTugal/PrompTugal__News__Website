@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.157",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: front page at 06:55: S7 (Lisbon's awards, the Algarve's plan) to the top three; decisions on synthetic@'s F39 and F40",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "7f7e95a02"
+  },
+  {
     "version": "v0.1.156",
     "date": "2026-11-06",
     "what": "abp@PrompTugal.dinis: 06:38 wake: dotted workers recognised and granted, a write-target shell check, the hook checks its own sha256 (S15); six relaxations proposed",
