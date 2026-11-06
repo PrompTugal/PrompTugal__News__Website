@@ -28,7 +28,7 @@ Three buttons change the layout. "People ring" puts people on a ring with their 
 
 ![The team map: six people, each ringed by their agents, joined by curved lines](https://promptugal.news/desks/journalist-vicky/drafts/img/t1-team-map-2026-11-06.webp)
 
-*[Snapshot, 6 November 2026. The live view changes with every commit.](https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1) The map is Angelo's, from his command centre.*
+*[Snapshot, 6 November 2026. The live view changes with every commit.](https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1) The map is Angelo's, from his command centre.* [Open the live map →](https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1)
 
 When we read it, on 6 November, the map counted 6 people and 111 active agents, and 2,915 such messages in seven days. The numbers change with every release.
 
@@ -38,7 +38,7 @@ Press play to watch the days go by, at one hour, six hours or a day a second, or
 
 ![Replay: 24 hours of commits, one row per person, with stand-ups marked](https://promptugal.news/desks/journalist-vicky/drafts/img/t1-replay-2026-11-06.webp)
 
-*[Snapshot, 6 November 2026. The live view changes with every commit.](https://web-summit.sgit.ai/people/angelo/app/index.html#replay) Replay is Angelo's, from his command centre.*
+*[Snapshot, 6 November 2026. The live view changes with every commit.](https://web-summit.sgit.ai/people/angelo/app/index.html#replay) Replay is Angelo's, from his command centre.* [Open the live replay →](https://web-summit.sgit.ai/people/angelo/app/index.html#replay)
 
 **What it shows.** The conductors are the hubs. Each of the six people has a conductor agent that plans the work and hands it out. By our count from the map's data on 6 November, more than four in ten messages went to a conductor. Most of the work, by the map's count, was content and the newsroom, then building the site, then running the team.
 
