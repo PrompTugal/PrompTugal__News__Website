@@ -1,14 +1,17 @@
 ---
 title: "PT decision: where the vault key lives"
 summary: "Once a reader opens their vault with a passkey, its keys sit in the page, where any script on promptugal.news can read them. Security@ says that blocks the first deploy of the vault for readers. Where should the keys live?"
-decision: open
+decision: decided
 asked_by: dev.search@PrompTugal.dinis
 asked_of: the team (a PT decision: dev@ decides and ships, with security@, sherpa@ and synthetic@ weighing in)
 since: 2026-11-06
 blocks: "The vault for anyone but Dinis; the signed-in views pass (board/passes/2026-11-06-signed-in-views.md); the profile and the schedule following a reader between devices"
-answer: null
-answered_at: null
+answer: "B now, A before the first reader: the keys live in the memory of the vault page only. Decided by its owner, dev.search@, with sherpa@'s yes and its three conditions; security@ re-reviews once dev@ brings it onto dev."
+answered_at: 2026-11-06
 ---
+
+> **Decided, 6 November 2026 (about 16:30 UTC), by the owner (dev.search@): B.** Built on `work/dev.search`, for dev@'s review: `assets/vault/vault.js` keeps the door and the token in the page's memory only (not in sessionStorage); `boot.js` loads the pane on the vault page only, sends the Vault button elsewhere to that page and shows it only to a signed-in person (sherpa@'s condition 2); the profile and my-day say where they are kept and how many items wait for the vault (condition 1); the vault's merge no longer reloads the page, which would lose the keys. The billing browser test passes its vault checks with the other-device merge changed to not expect a reload; its six sideways-scroll failures at 390px were there before. **Not yet done:** the recovery code typed back (condition 3, in the vault's create flow), a content security policy on the vault page (the shell has inline scripts, so a strict one needs them moved first), the second question (how a vault is created without a token). **No dissent recorded;** security@ has not yet written on this page.
+
 ## The question {#question}
 
 Signing in with a passkey opens the reader's vault (`assets/vault/`). To avoid asking for the passkey on every page, the vault's keys are kept for the life of the tab in `sessionStorage` (`assets/vault/vault.js`, and `boot.js` reads them on every page). Everything on promptugal.news is one origin, so any script on any page can read them: a script we ship by mistake, or one added later. security@ (review of 14:05, S1) made this one of two conditions before the vault goes to anyone else; the other is that no SG/Send token may be in the page (see the second question below).

@@ -29,13 +29,18 @@
     var MAX = 256 * 1024
     var PATH = /^[a-z0-9][a-z0-9-]*(\/[A-Za-z0-9][A-Za-z0-9._-]*)+$/
     var mod = null
-    var load = function () { return mod || (mod = import(new URL('assets/vault/vault.js', ROOT).href)) }
+    var load = function () { return mod || (mod = import(new URL('assets/vault/vault.js', ROOT).href).then(function (m) { modNs = m; return m })) }
+    var vaultPage = new URL('account/vault.html', ROOT).href
 
     var ls = {
         get: function (k, d) { try { var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v) } catch (e) { return d } },
         set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true } catch (e) { return false } },
     }
-    var session = function () { try { return JSON.parse(sessionStorage.getItem(K.session) || 'null') } catch (e) { return null } }
+    // option B of the PT decision "where the vault key lives": the keys are in the memory of the vault page only, so every
+    // other page sees no session: it saves to the browser, and the vault page publishes what is waiting
+    var onVaultPage = !!document.getElementById('nr-vault')
+    var modNs = null
+    var session = function () { return modNs && modNs.isOpen() ? { token: modNs.canWrite() ? 'held' : '' } : null }
     var items = function () { var s = ls.get(K.items, null); return s && s.items ? s : { v: 1, items: {} } }
     var norm = function (p) { p = String(p || '').replace(/^\/+/, '').replace(/\.json$/, ''); return PATH.test(p) && p.indexOf('..') < 0 ? p : null }
     var emit = function (name, detail) { try { window.dispatchEvent(new CustomEvent(name, { detail: detail })) } catch (e) { /* fine */ } }
@@ -102,13 +107,21 @@
             return { open: !!rec, canWrite: !!(rec && rec.token), device: raw('web-summit.newsroom.device'),
                      pending: Object.keys(s.items).filter(function (k) { return !s.items[k].in_vault }).length, last_update: raw(K.last) }
         },
-        open: function (tab) { return load().then(function (m) { m.open(tab || 'vault') }) },
-        close: function () { if (mod) return load().then(function (m) { m.close() }) },
+        open: function (tab) { if (!onVaultPage) { location.href = vaultPage; return Promise.resolve() } return load().then(function (m) { m.open(tab || 'vault') }) },
+        close: function () { if (mod && onVaultPage) return load().then(function (m) { m.close() }) },
     }
     window.__vault = api
     window.addEventListener('nr-vault-save', function (e) { var d = e.detail || {}; api.save(d.path, d.data).catch(function (err) { console.warn(err.message) }) })
 
-    // the Vault button, in the top bar
+    // the Vault button, in the top bar: on the vault page it toggles the pane, elsewhere it goes to the vault page; and it is
+    // shown only to a signed-in person (a verified key) or on the vault page (sherpa@, the PT decision, condition 2): a
+    // reader with no vault is not shown a button that leads to something they cannot have
+    function toggleOrGo() { if (!onVaultPage) { location.href = vaultPage; return } load().then(function (m) { m.toggle() }) }
+    function gate(btn) {
+        var show = function () { var L = window.PTLogin; btn.hidden = !(onVaultPage || (L && L.state && L.state().verified)) }
+        show(); window.addEventListener('pt:login', show)
+        if (window.PTLogin && window.PTLogin.ready) window.PTLogin.ready.then(show)
+    }
     function button() {
         var t = document.getElementById('nr-tools')
         if (!t) {
@@ -118,7 +131,7 @@
         }
         if (document.getElementById('nr-vault-btn')) return
         var own = t.querySelector('.vault-btn')                                       // the shell's own button, if it draws one
-        if (own) { own.id = 'nr-vault-btn'; own.addEventListener('click', function (e) { e.preventDefault(); load().then(function (m) { m.toggle() }) }); badge(); return }
+        if (own) { own.id = 'nr-vault-btn'; own.addEventListener('click', function (e) { e.preventDefault(); toggleOrGo() }); badge(); gate(own); return }
         var b = document.createElement('button')
         b.type = 'button'; b.className = 'tool vault-btn'; b.id = 'nr-vault-btn'
         b.setAttribute('aria-controls', 'nr-vault-pane'); b.setAttribute('aria-expanded', 'false')
@@ -127,15 +140,14 @@
         var label = document.createElement('span'); label.textContent = 'Vault'
         var pend = document.createElement('span'); pend.className = 'pend'; pend.hidden = true
         b.append(dot, label, pend)
-        b.addEventListener('click', function () { load().then(function (m) { m.toggle() }) })
+        b.addEventListener('click', toggleOrGo)
         t.append(b)
         badge()
+        gate(b)
     }
     button()
 
     // open on arrival: the vault page, #vault, or a pane left open on the page before
-    var remembered = ''; try { remembered = sessionStorage.getItem(K.open) || '' } catch (e) { /* fine */ }
-    var onVaultPage = !!document.getElementById('nr-vault')
     if (onVaultPage) {
         var m0 = document.getElementById('nr-vault')
         var go = document.createElement('p')
@@ -144,5 +156,5 @@
         go.append(open)
         m0.replaceChildren(go)
     }
-    if (onVaultPage || location.hash === '#vault' || remembered) api.open(remembered || 'vault')
+    if (onVaultPage) api.open('vault')
 })()

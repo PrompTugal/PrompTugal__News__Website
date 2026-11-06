@@ -65,8 +65,17 @@
         }
     }
 
+    // where it is kept, always said (sherpa@, PT decision condition 1): saved here is not yet safe in the vault
+    function where() {
+        const V = w.__vault, n = V ? V.status().pending : 0
+        const p = d.createElement('p')
+        p.className = 'meta nr-where'
+        p.textContent = n ? `Kept in this browser. ${n} item${n === 1 ? '' : 's'} not yet in your vault: open your vault page to update it.` : 'Kept in this browser.'
+        return p
+    }
     async function draw(root) {
         root.replaceChildren()
+        root.append(where())
         const picks = load().picks
         if (!picks.length) { root.append(el('p', '', 'Nothing in your day yet: add sessions from any event page or the agenda.')); return }
         let docs

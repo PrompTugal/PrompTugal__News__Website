@@ -1,7 +1,7 @@
 {
   "agent": "dev.search@PrompTugal.dinis",
-  "state": "ok: run 12 done, branch work/dev.search ready for dev@; the vault-key PT decision awaits its reviewers",
-  "updated": "2026-11-06T15:40Z",
+  "state": "ok: run 13 done, branch work/dev.search ready for dev@: option B of the vault-key decision built",
+  "updated": "2026-11-06T16:45Z",
   "done": [
     "session key dev.search-promptugal in board/keys.json",
     "ROLE.md",
@@ -16,18 +16,19 @@
     "13:09 wake: dev@ brought 'did you mean' onto dev (54ce4d9a). The signed-in-views pass is open, Dinis's 13:05 word: passkey first. Done: the design note for security@'s pre-review (board/team/dev.search/design/passkey-vault.md: PRF-derived vault key, nothing stored, what a passkey does not prove, recovery, threats, 3 questions); a prototype, assets/login/passkey.js, on /login/ only (hook .pt-passkey in content/login.md): create a discoverable passkey with PRF, sign in, derive a non-extractable AES-GCM key (HKDF), seal/open envelopes; it proves no person and replaces nothing. Chromium with a virtual authenticator with PRF over http://localhost: register, sign in, seal/open work, and after a reload and a new sign-in the same passkey opens what the earlier key sealed (the 'second device' case); other pages define nothing; gate OK",
     "14:05 wake: dev@ brought the passkey prototype onto dev (a143b31f). I then found assets/vault/ (billing@'s): a passkey (PRF) vault with window.__vault already exists, so my passkey.js duplicated it: REMOVED (file, login.md section, login.mjs line) and my design note rewritten as a correction. The profile now keeps itself in the reader's vault through window.__vault ('profile/reader', 300 pages and all searches, 5 s after a change, never while paused) and merges the vault copy in when the vault opens (nr-vault-status); content/profile.md says so. Chromium with a stub vault: saved, then merged an 'iPad' page and search; gate OK",
     "14:11 conductor@'s session message (material): the signed-in-views pass is open and I lead it (I already was working it); read security@'s 14:05 pre-review: go with conditions, two block the first deploy (S1: the vault key lives in the page, readable by any script; no SG/Send token in the page). Wrote the PT decision page /newsroom/decisions/where-the-vault-key-lives/ (options A separate origin, B same origin loaded on the vault page only (recommended now), C sandboxed frame (not possible with passkeys), D accept until readers; and how a vault is created without a token in the page: the conductor creates, the person opens with a recovery code). Not yet weighed by sherpa@, synthetic@, security@; dissent none recorded",
-    "15:05 wake: dev@ brought the vault-key decision page onto dev (e882fde3); nobody has weighed in on it yet, so I did not touch assets/vault/ (billing@'s and dev@'s; option B changes keys in sessionStorage, boot.js and vault.js: wait for the reviewers). His schedule, first step (Dinis: start small, localStorage, a vault if they have one): 'Add to my day' button on every event page and beside every event link in lists and tables (218 on the full agenda); /my-day/ lists the picks by day in time order from the search index; kept in localStorage nr.schedule.v1 and, if the vault is open, in it (agenda/picks, merged by pick when the vault opens); tool schedule.picks; footer link 'My day'. Chromium over http: buttons on event page and agenda, picks persisted, grouped by day, vault merge with a stub; gate OK"
+    "15:05 wake: dev@ brought the vault-key decision page onto dev (e882fde3); nobody has weighed in on it yet, so I did not touch assets/vault/ (billing@'s and dev@'s; option B changes keys in sessionStorage, boot.js and vault.js: wait for the reviewers). His schedule, first step (Dinis: start small, localStorage, a vault if they have one): 'Add to my day' button on every event page and beside every event link in lists and tables (218 on the full agenda); /my-day/ lists the picks by day in time order from the search index; kept in localStorage nr.schedule.v1 and, if the vault is open, in it (agenda/picks, merged by pick when the vault opens); tool schedule.picks; footer link 'My day'. Chromium over http: buttons on event page and agenda, picks persisted, grouped by day, vault merge with a stub; gate OK",
+    "16:07 wake: dev@ brought my day onto dev (980e6aa6); sherpa@ weighed in on the vault-key page (B with three conditions). I decided B as the owner (page marked decided) and built it for dev@'s review: assets/vault/vault.js keeps the door and token in the page's memory only; boot.js loads the pane on the vault page only, the Vault button goes to that page elsewhere and shows only to a signed-in person; the vault merge no longer reloads; profile and my-day say where items are kept and how many wait for the vault; README and account page words updated. Tests: test_vault.mjs passes; test_billing_browser.mjs: the vault flow passes (30 ok), I changed its other-device step to not expect a reload; its 6 sideways-scroll failures at 390px are the same 6 as before my change; gate OK"
   ],
   "next": [
-    "persona to schedule (CISO, founder, investor ... pick a persona, a suggested day): with sherpa@/ontologist@, after dev.pages@' summit-days layout",
-    "the view switch and 'Dinis's view' (designer@) once the vault-key decision is made",
-    "if dev@ decides B: the boot.js/vault.js change on my branch, with the billing browser test (it already fails 6 checks on sideways scroll at 390px for account pages: not mine)"
+    "condition 3: the recovery code shown once with 'type back its last four characters' (vault.js create flow)",
+    "a CSP on the vault page: the shell's inline scripts must move to files first (dev@)",
+    "the second question: how a vault is created without a token (billing@/dev@ to say whether the master's own key suffices)",
+    "persona to schedule; the view switch with designer@"
   ],
   "asks": [
-    "dev@: review work/dev.search (schedule feature, my-day page, nav footer line); decide the vault-key page (B recommended)",
-    "dev.pages@: your summit-days layout can show my picks (window.NRSchedule.picks(), event 'nr:schedule')",
-    "sherpa@: read /my-day/ and the buttons on a phone",
-    "Dinis: nothing new; the vault access key is still the block for the vault"
+    "dev@: review work/dev.search: it edits your and billing@'s files assets/vault/boot.js, vault.js, README, account.mjs wording and the billing browser test; bring it if you agree with B",
+    "security@: re-review the vault page now (keys in memory only): board S1 for the vault, and write on the decision page",
+    "Dinis: nothing new (the vault access key is still not issued)"
   ],
   "notes": [
     "For REALITY.md: (1) The reader's profile: /profile/, assets/profile/profile.js, localStorage nr.profile.v1 only (500 pages, 200 searches), Pause/Clear/Download, tool profile.summary; for a verified key also a newsroom-first preference. (2) /search/: 'Answer in words' (reader's own OpenRouter key, read-level tools), the newsroom type, did you mean. (3) The big search bar on every page but /search/. (4) Tools api.files and api.read over every file under api/v1/. Not yet: signed-in view switch, per-person sealed content, search over vaults."
@@ -93,6 +94,12 @@
       "outcome": "ok",
       "release": "branch work/dev.search",
       "line": "my day: add to my day, /my-day/, vault merge"
+    },
+    {
+      "started": "2026-11-06T16:07Z",
+      "outcome": "ok",
+      "release": "branch work/dev.search",
+      "line": "vault key in page memory only (option B)"
     }
   ]
 }
