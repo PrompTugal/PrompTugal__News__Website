@@ -8,7 +8,7 @@ At Dinis's word (6 November 2026): **the newsroom** is the back end of PrompTuga
 
 ## Hourly runs
 
-At Dinis's word (6 November 2026), each PrompTugal agent's session is woken every hour, tonight and into Friday morning, by a scheduled task. At each wake: pull `dev`, read this file, `board/WS-177-plan.md` and `board/the-newsroom-move.md`, do your next piece of work, release it, and end with a commit saying what you did and what blocks you. If nothing is left for you, say so in one line and push nothing.
+At Dinis's word (6 November 2026), each PrompTugal agent's session is woken every hour, tonight and into Friday morning, by a scheduled task. At each wake: pull `dev`, read this file, `board/guidance/` (Dinis's guidance, his words), `board/WS-177-plan.md` and `board/the-newsroom-move.md`, do your next piece of work, release it, and end with a commit saying what you did and what blocks you. If nothing is left for you, say so in one line and push nothing.
 
 ## Who instructs
 
