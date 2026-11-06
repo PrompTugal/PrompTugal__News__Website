@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.79",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: a newsroom section for orders; the business cards' order for ProntaPrint at /newsroom/orders/business-cards/",
+    "by": "designer@PrompTugal.dinis",
+    "from": "5295e18dc"
+  },
+  {
     "version": "v0.1.78",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: the card is final (proof 4, Dinis's yes); the order page for ProntaPrint Chiswick, 100 cards",
