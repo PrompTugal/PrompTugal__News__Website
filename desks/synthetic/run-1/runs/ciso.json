@@ -1,0 +1,349 @@
+{
+  "persona": "Rui Barata (SYNTHETIC)",
+  "synthetic": true,
+  "outcome": "Read to the end on desktop because the disclosure is up front and honest, judged it a well-sourced RiskMandate lead list with a newspaper front, and would not reply to the email himself: he would forward it to comms to check the page for errors.",
+  "steps": [
+    {
+      "screen": "front-desktop-s1.jpg",
+      "see": "Masthead 'PrompTugal.news', 'Powered by RiskMandate' with a logo right under it. Two boxes either side: 'EVERY FACT SOURCED' and 'INDEPENDENT: Not affiliated with Web Summit. The same team works on RiskMandate: our disclosure'. Lead story 'Brazil's startup mission comes to Web Summit Lisbon', byline 'journalist@web-summit.vicky, for Vicky Wang', 'signed'. A '£5.00 credit' pill, 'Vault' and 'Ask' in the nav.",
+      "think": "First thing I look for is who pays, and they put it in the masthead. 'Powered by RiskMandate' means a vendor. At least the box says so in the first screen instead of hiding it in a footer. The byline is an email-looking agent name, so a machine wrote this for a person.",
+      "question": "What is RiskMandate: a company, a product, who owns it?",
+      "confusion": "Why is there a credit balance in pounds sterling on a Lisbon news site, and what am I being charged for? On a bank PC, a payment widget on an unknown site is a reason to close the tab.",
+      "act": "Keep reading, but with the vendor flag up: the disclosure being in the first screen buys it one more scroll."
+    },
+    {
+      "screen": "front-desktop-s2.jpg",
+      "see": "A list of articles, all dated 2026-11-06 or 05, bylined 'journalist-portugal@web-summit.vicky', 'journalist-connections@web-summit.vicky', 'journalist@web-summit.vicky', 'newsroom@web-summit.dinis'. Right column: the agenda, 'Registration: collect your lanyard and wristband' repeated for several days and places.",
+      "think": "Every byline is an agent. Nothing here is about security or banking: universities, first-day logistics, numbers. This is a summit guide.",
+      "question": null,
+      "confusion": "The same registration line appears again and again in the right column; it pushes anything useful off the screen.",
+      "act": "Scroll fast, looking for anything about security or finance."
+    },
+    {
+      "screen": "front-desktop-s3.jpg",
+      "see": "'PORTUGAL' section: links to portugalstartupnews.com naming 'Banco Português de Fomento' among others, 'Mapped by curator@web-summit.vicky on 2026-11-04'. 'PORTUGUESE COMPANIES WE FOLLOW' including Feedzai and KPMG. 'COMPANIES AT THE SUMMIT: 120 companies we follow', 'Security 30', 'Governance, risk and compliance 15'.",
+      "think": "'Companies we follow' is the phrase a sales team uses for accounts. Security and GRC are the two biggest categories after agents. That matches what a risk vendor would want to map.",
+      "question": "Who decides which 120 companies are 'followed', and why those?",
+      "confusion": "'Mapped by curator@web-summit.vicky under \"Portuguese startups raising\"': I do not know what a curator agent is or what list that label belongs to.",
+      "act": "Click Feedzai later; keep scrolling for the 'who we are' part first."
+    },
+    {
+      "screen": "front-desktop-s4.jpg",
+      "see": "'AROUND THE SUMMIT, NEXT': side events, an 'OUR PICK' tag on 'Portugal Tech Week Palace'. A note that 209 items were 'read at its public source between 2026-11-01 to 2026-11-05 by programme@web-summit.vicky'. Then 'OUR QUESTION': 'Agents now act for people and companies. They log in, buy, book and send. So we ask three simple questions of every agent we see'.",
+      "think": "Good that they tell me when the agenda was read and to check the official schedule. 'Our question' is the pitch arriving: log in, buy, send, that is my world.",
+      "question": "Is 'our question' editorial or is it RiskMandate's product framing?",
+      "confusion": "'OUR PICK' on an event: whose pick, and on what basis, if this is meant to be neutral reporting?",
+      "act": "Scroll to see the three questions and who is behind them."
+    },
+    {
+      "screen": "front-desktop-s5.jpg",
+      "see": "'The idea comes from RiskMandate. In its own words, \"a grant is what a credential technically permits, a mandate is what the holder is authorised and expected to do, and the gap between them is exposure nobody ever accepted\"'. 'WHO WE ARE': 'editors Dinis Cruz, Indi Gupte and Vicky... Dinis Cruz is the human in charge. Independent. Not affiliated with Web Summit... so we are independent of Web Summit, not of RiskMandate. Read our disclosure before you weigh what we say.' A bar: 'This page 0.1p of 1p, read 10%', 'Rate it, or do not pay for it'.",
+      "think": "That is the most honest sentence I have read on a vendor site: 'independent of Web Summit, not of RiskMandate'. Fine. Now I know how to read it. The grant versus mandate line is actually a correct description of entitlement drift; I would say it to my own team.",
+      "question": "Who is 'Vicky' without a surname, and who is the human named Dinis Cruz professionally?",
+      "confusion": "'This page 0.1p of 1p' and 'Rate it, or do not pay for it': am I paying per page? Nothing says where the money comes from or goes.",
+      "act": "Go to the Feedzai page: a company I know well, so I can test their accuracy."
+    },
+    {
+      "screen": "co-feedzai-desktop-s1.jpg",
+      "see": "'Feedzai. Based in Portugal; at Web Summit Lisbon 2026 as a speaker's company. Public facts only, each with its source.' An 'ON THIS PAGE' row ending with 'Our question for them'. A graph: session 'Who let the agent in? Thu 12, 12:00', 'Diogo Guerra CTO', 'Feedzai Portugal'.",
+      "think": "Short and sober so far. The credit pill now says £4.99: reading a page cost me a cent of something.",
+      "question": null,
+      "confusion": "The credit went from £5.00 to £4.99 between pages and nothing explained it.",
+      "act": "Scroll to the facts."
+    },
+    {
+      "screen": "co-feedzai-desktop-s2.jpg",
+      "see": "Table: 'AI-native fraud and financial crime prevention platform; founded in Portugal (its CTO, the first employee, is listed by Web Summit from Portugal)'. 'CONFIRMED FOR 2026: Yes'. Source URLs on websummit.com with 'read 2026-11-01 by the team's curator'. 'OUR PICK' tag on the session. 'RELATED COMPANIES: Also filed under Security (29)' with a long list.",
+      "think": "The description matches what I know of the company. Dates on every source, good. But 'founded in Portugal' is backed by where the CTO is listed, which is an inference, not a source. 'Related companies' is just everyone tagged Security: that is not a relation.",
+      "question": "Why is founding country deduced from a speaker listing instead of cited?",
+      "confusion": "'OUR PICK' again, on a vendor session, on a page that later says 'Nothing on it is an endorsement'.",
+      "act": "Keep going: I want the section called 'Our question for them'."
+    },
+    {
+      "screen": "co-feedzai-desktop-s3.jpg",
+      "see": "'We have not mapped Feedzai's flows yet... If you are at Feedzai, the quickest way to get this right is to tell us how it works.' 'OUR QUESTION FOR THEM: three questions, not claims. We have not asked Feedzai yet.' 1 REACH, 2 MANDATE, 3 GAP. 'WHERE THIS COMES FROM' with three dated sources and 'Re-checked by newsroom@web-summit.dinis on 2026-11-05 at 01:49 UTC'.",
+      "think": "'Tell us how it works' is an invitation to describe your product internals to a vendor. For a fraud platform, or a bank, that is the opposite of what I want in public. The three questions are fair questions. They are also exactly the discovery call script.",
+      "question": "If Feedzai answers, is the answer published here or does it go into RiskMandate's pipeline?",
+      "confusion": "'Tell us' with no visible way to tell them: no form, no address on this screen.",
+      "act": "Scroll to see where the data comes from."
+    },
+    {
+      "screen": "co-feedzai-desktop-s4.jpg",
+      "see": "'Taken from the team's company map (data/companies.json on web-summit.sgit.ai), public facts only. The team's own notes on each company (why it matters, whether to meet, who owns it) are not published here. Something wrong? Tell us and we correct it on this page, dated.' Then 'Why this page exists... Nothing on it is an endorsement', 'Independence', 'Corrections... We publish no contact details'.",
+      "think": "There it is in their own words: a list of companies with 'whether to meet' and 'who owns it'. That is a CRM. The page is the public face of an account record. They are honest about it, I will give them that, but I now read every company page as a lead.",
+      "question": "Is my bank in that companies.json with a 'whether to meet' note, and who can read it?",
+      "confusion": "'Something wrong? Tell us' and 'We publish no contact details' side by side: how exactly do I tell you?",
+      "act": "Glance at the footer for who runs this, then move to the article."
+    },
+    {
+      "screen": "co-feedzai-desktop-s5.jpg",
+      "see": "Footer: 'Independent. Not affiliated with Web Summit.' 'Powered by RiskMandate... independent of Web Summit, not of RiskMandate.' Links: 'Our disclosure', 'Powered by RiskMandate', 'The brief', 'Release history', 'Source code', 'Control centre'. Bottom line: 'Admin', 'v0.1.47', 'Page views: paused on this device'.",
+      "think": "Source code public and a release history: unusual for media, and something I can check. 'Control centre' and 'Admin' links in a public footer make me twitch.",
+      "question": "What is behind 'Control centre' and 'Admin', and are they protected?",
+      "confusion": "'Page views: paused on this device': so they do count views; what do they record about me?",
+      "act": "Open the article the front page led with in Latest, Europe in Pavilion 4."
+    },
+    {
+      "screen": "ar-pavilion-4-desktop-s1.jpg",
+      "see": "'Europe in Pavilion 4: the Commission's week at Web Summit'. Summary about a fireside chat, masterclasses, IP panel, free supercomputing, a Dutch delegation. 'ON THIS PAGE' includes 'What this does not claim' and 'Who made this'. Byline '2026-11-06, journalist-europe@web-summit.vicky, for Vicky Wang, CC BY 4.0'.",
+      "think": "Not my topic. The regulators I care about are not in this summary. But 'What this does not claim' is a section I have never seen in a news piece.",
+      "question": null,
+      "confusion": null,
+      "act": "Skim the story, then jump to 'What this does not claim'."
+    },
+    {
+      "screen": "ar-pavilion-4-desktop-s2.jpg",
+      "see": "Bullets: 'Executive Vice-President Henna Virkkunen speaks on Centre Stage on 10 November, on Europe's tech sovereignty', 'DG GROW (E415) and HaDEA (E418) are in Pavilion 4; EuroHPC is at stand E405'. 'THE STORY': times and session titles, each with 'it says' or 'the Commission says'.",
+      "think": "Attributed sentence by sentence. Dry, but nothing I would object to. Nothing on DORA, the AI Act supervision or anything a bank needs.",
+      "question": "Is anyone from the AI Office or the supervisors speaking, or only funding agencies?",
+      "confusion": null,
+      "act": "Skim one more screen."
+    },
+    {
+      "screen": "ar-pavilion-4-desktop-s3.jpg",
+      "see": "Workshop details: HaDEA's projects 'PERSEPHONE', 'RISER', 'AI-TranspWood', 'GreenChips-EDU'; EuroHPC free supercomputing 'first-come, first-served'; EUIPO panel; the Dutch delegation, 'Registration is closed'.",
+      "think": "Useful for a startup, not for me. I would have stopped here on a normal site.",
+      "question": null,
+      "confusion": "No link from this article to anything about security or regulation, though the site's own question is about agents and authority.",
+      "act": "Jump to the caveats instead of reading the rest."
+    },
+    {
+      "screen": "ar-pavilion-4-desktop-s4.jpg",
+      "see": "'WHAT THIS DOES NOT CLAIM': 'The times are the organisers' own... Web Summit's speakers page, as read here, did not list Henna Virkkunen', 'Which INPI... does not say which', 'No link is claimed between any of these sessions and a Portuguese company', 'The EUIPO's own site refused the request (403) on 5 November'.",
+      "think": "This is the part that earns trust. They tell me where their own sourcing failed, including a 403. A vendor brochure would never write that.",
+      "question": null,
+      "confusion": null,
+      "act": "Look at the sources and who made it."
+    },
+    {
+      "screen": "ar-pavilion-4-desktop-s5.jpg",
+      "see": "Sources as raw URLs with 'read 5 November 2026'; 'Tried and not reached on 5 November 2026: EUIPO news (403)'; 'From the curator's map: S2, desks/curator/README.md'. 'WHO MADE THIS: Written by Vicky Wang's journalist desk... Reviewed by reviewer@web-summit.vicky and marked Ready... Published on PrompTugal.news by PrompTugal's journalist agent on 6 November 2026'.",
+      "think": "Written by an agent, reviewed by an agent, published by an agent. Where is the human in this chain? The sources are checkable, which matters more to me than the byline.",
+      "question": "Did a human read this before it went live?",
+      "confusion": "'S2, desks/curator/README.md' as a source means nothing to a reader; it is an internal file path.",
+      "act": "Go to About to find out who is accountable."
+    },
+    {
+      "screen": "about-desktop-s1.jpg",
+      "see": "'About the newsroom. Who runs this newsroom, how we make it, and the limits we work within.' Contents including 'The agent's own limits'. 'The brief: how this newsroom is meant to work, from Dinis Cruz's own words'.",
+      "think": "'The agent's own limits' is the section I want: they are going to answer their own question.",
+      "question": null,
+      "confusion": null,
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-desktop-s2.jpg",
+      "see": "'we are powered by RiskMandate, which the same team works on, so we are not independent of RiskMandate, and we say so on every page.' THE EDITORS: 'Dinis Cruz, editor-in-chief... He approves every major release', 'Indi Gupte, editor', 'Vicky, editor'. WHO DOES THE WORK: 'newsroom@web-summit.dinis: The AI agent that builds the site... It started on 4 November 2026', 'GitHub Actions: Checks every change, numbers it and puts it live.' 'The newsroom belongs to the team behind web-summit.sgit.ai'.",
+      "think": "Consistent with every other page, which is something. But it never says what RiskMandate is as a business: who owns it, whether it sells to banks, whether the editors are paid by it. 'Approves every major release' means minor ones go out without him.",
+      "question": "What is the legal entity, and are the editors RiskMandate's founders or staff?",
+      "confusion": "'Vicky' has no surname here, but bylines elsewhere say 'Vicky Wang'. Small, but inconsistency is what I look for.",
+      "act": "Keep reading the rules."
+    },
+    {
+      "screen": "about-desktop-s3.jpg",
+      "see": "'We leave out anything we are unsure of, and say so.' 'We correct mistakes on the same page, dated, with the old text left visible.' 'Read our disclosure'. HOW WE MAKE IT: 'A check before anything goes live... It also blocks leaked keys and contact details, and any article that is not signed.' 'The version is set by the system, not by people.'",
+      "think": "Visible corrections and signed articles: those are controls I understand. Better hygiene than most trade press.",
+      "question": "Signed with whose key, and how do I verify one?",
+      "confusion": null,
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-desktop-s4.jpg",
+      "see": "Source code on GitHub, 'SGit-AI/SGit-AI__Website__Newsroom__Web-Summit'. 'Every page has a plain-text copy... ending in .md'. WHAT IS LIVE TODAY: front page, companies, 'The data, as JSON', 'The articles, each signed with the newsroom's key', 'The brief, our disclosure and the release history'. 'REALITY.md in the code is the full record.'",
+      "think": "Open code, open data, release history. I could have a junior check it in an afternoon. That is a real point in their favour.",
+      "question": null,
+      "confusion": "Front page and footer say the brand is PrompTugal.news, but the code repository name says 'Newsroom__Web-Summit'. Which is the real owner?",
+      "act": "Scroll to the agent's limits."
+    },
+    {
+      "screen": "about-desktop-s5.jpg",
+      "see": "'THE AGENT'S OWN LIMITS: We ask companies whether their agents have a mandate. So we answer for ours first.' Reach: 'Change the site's development branch... its own session key, which signs the articles'. Mandate: 'Build and run this newsroom. Publish only sourced facts.' Gap: 'A change to the development branch goes live with no human review first. The automatic check is the only barrier, and it checks form, not truth... Nothing technical stops a change to the main branch yet. Protecting it is an open task for the team.'",
+      "think": "This is the best and the worst screen. Best: they practise what they ask, and the gap is stated plainly. Worst: a company selling agent-authority risk publishes, under its own name, content that goes live with no human review and an unprotected main branch. If my team wrote that in an audit I would open a finding.",
+      "question": "When will the main branch be protected, and who signs off on that?",
+      "confusion": "Page says the key 'dies with the session': so how do I verify an article signed by a key that no longer exists?",
+      "act": "Close for now. Look again on the phone going home."
+    },
+    {
+      "screen": "front-phone-s1.jpg",
+      "see": "Same masthead, 'Powered by RiskMandate', 'v0.1.47', '£5.00' and 'Vault' pills. Lead 'Brazil's startup mission comes to Web Summit Lisbon'. 'NOW AND NEXT'. A floating black 'Ask' button covering the end of 'innovation'.",
+      "think": "Reads cleanly on the phone. The independence box from desktop is not here: on the phone the only signal is 'Powered by RiskMandate'.",
+      "question": null,
+      "confusion": "The 'Ask' button sits on top of the text; and on the phone I lose the 'INDEPENDENT ... our disclosure' box that won me over on desktop.",
+      "act": "Scroll once."
+    },
+    {
+      "screen": "front-phone-s2.jpg",
+      "see": "A long agenda: 'Registration: collect your lanyard and wristband' at the airport, at Pavilhão de Portugal, again on Sunday. Side events.",
+      "think": "On the train this is a wall of registration lines. Nothing for me.",
+      "question": null,
+      "confusion": "The same registration item three times in one screen; I cannot tell what is news and what is the timetable.",
+      "act": "Stop the front page and open the Feedzai page from the history."
+    },
+    {
+      "screen": "co-feedzai-phone-s1.jpg",
+      "see": "'Feedzai. Based in Portugal; at Web Summit Lisbon 2026 as a speaker's company.' 'ON THIS PAGE' collapsed with '+'. The graph shrunk: labels 'Who let the agent in?', 'Diogo Guerra CTO', 'The Hacking Ga...', '£4.99'.",
+      "think": "The graph is unreadable at this size; it is decoration on a phone.",
+      "question": null,
+      "confusion": "Tiny graph labels, one truncated ('The Hacking Ga...'), and the credit dropped again to £4.99.",
+      "act": "Scroll past the graph."
+    },
+    {
+      "screen": "co-feedzai-phone-s2.jpg",
+      "see": "'CONFIRMED FOR 2026: Yes: Diogo Guerra (CTO) is listed'. 'AT THE SUMMIT: Who let the agent in?' with full websummit.com session URLs in the text, 'read 2026-11-01 by the team's curator', 'OUR PICK'. 'PEOPLE' with the URL again, partly under the 'Ask' button.",
+      "think": "Sources inline are good on desktop; on a phone they are long hexadecimal URLs breaking every line.",
+      "question": null,
+      "confusion": "The same session URL is printed three times in one screen, and the 'Ask' button hides the 'read' date of the last one.",
+      "act": "Scroll to the questions."
+    },
+    {
+      "screen": "co-feedzai-phone-s3.jpg",
+      "see": "'Also filed under Security (29)' as a long run of links. 'We have not mapped Feedzai's flows yet... If you are at Feedzai, the quickest way to get this right is to tell us how it works.' 'OUR QUESTION FOR THEM... We have not asked Feedzai yet.' '1 REACH What can their AI agents (or their customers' agents) actually reach?' half hidden by 'Ask'.",
+      "think": "Same impression as at the desk: fair facts, and then the pitch. On the phone the pitch is what fills the screen.",
+      "question": "What happens to the answers if a company replies?",
+      "confusion": "The 'Ask' button covers the first question itself.",
+      "act": "Stop. Decide what to do with the email tomorrow."
+    }
+  ],
+  "interview": {
+    "q1": "A Web Summit guide for Lisbon written mostly by AI agents, with a page on each company they 'follow', every fact linked and dated. Underneath, it is RiskMandate's way of putting its three questions, reach, mandate, gap, in front of 120 companies, security and GRC first.",
+    "q2": "A small team, Dinis Cruz as editor-in-chief with Indi Gupte and someone called Vicky, and a set of AI agents doing the writing, reviewing and publishing. The same team works on RiskMandate. What I could not find on these screens is what RiskMandate is as a company and who owns it.",
+    "q3": "The facts, mostly yes: every one has a URL and a date, the article says what it does not claim and even records a 403, and the code and data are public. The framing, no more than any vendor content: by their own admission they are 'not independent of RiskMandate', the company pages come from a list with 'whether to meet' notes, and the About page says changes go live with no human review and the main branch is unprotected.",
+    "q4": "Nothing this week for me. I would ask our comms team to read whatever page they have on the bank and flag errors, and I might have one of my people look at the signing and the repository out of professional curiosity. If RiskMandate is at the summit I would not seek them out.",
+    "q5": "No, not myself. A bank answering in public what its agents can reach and who controls the gap is handing out a map of its attack surface, and under DORA that goes through our third-party and communications process, not a 15-minute chat with a vendor. I would forward it to comms to check the facts on the page, and if the email had a clear corrections address I would let them use it. The line 'Drafted by an AI agent, reviewed and sent by me' I respect; 'powered by RiskMandate' in the signature is what makes it a sales email.",
+    "q6": "Separate the newsroom from the sale in writing: a short, plain statement of what RiskMandate is, who owns it and pays the editors, and a promise that answers to the three questions are optional, never used for sales and can be given in general terms, plus a real corrections address on every company page. And protect your own main branch before asking me about my gap."
+  },
+  "findings": [
+    {
+      "severity": "held",
+      "screen": "front-desktop-s1.jpg",
+      "finding": "The 'INDEPENDENT ... The same team works on RiskMandate: our disclosure' box is in the first desktop screen, so the vendor tie is disclosed before any article is read.",
+      "owner": "designer@PrompTugal.dinis"
+    },
+    {
+      "severity": "held",
+      "screen": "front-desktop-s5.jpg",
+      "finding": "'we are independent of Web Summit, not of RiskMandate. Read our disclosure before you weigh what we say' is stated plainly and repeated identically on the company page footer and About, which a sceptical reader checks for and finds consistent.",
+      "owner": "conductor@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "about-desktop-s2.jpg",
+      "finding": "No screen says what RiskMandate is as a business (legal entity, owner, whether it sells to the companies covered, whether the editors are paid by it), so a reader cannot weigh the disclosure the site asks him to weigh.",
+      "owner": "conductor@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "co-feedzai-desktop-s4.jpg",
+      "finding": "The note 'The team's own notes on each company (why it matters, whether to meet, who owns it) are not published here' tells a reader that every company page is backed by a sales-style account record, which turns the page into a lead in his eyes.",
+      "owner": "journalist@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "co-feedzai-desktop-s4.jpg",
+      "finding": "'Something wrong? Tell us and we correct it' sits next to 'We publish no contact details', and no screen shows how to tell them, so the promised correction route has no visible door.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "about-desktop-s5.jpg",
+      "finding": "'A change to the development branch goes live with no human review first... Nothing technical stops a change to the main branch yet' is honest, but read by a CISO it is an open control gap at the very vendor asking him about his gap.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "held",
+      "screen": "about-desktop-s5.jpg",
+      "finding": "'The agent's own limits' answers reach, mandate and gap for the site's own agent before asking companies, which reads as practising what it preaches.",
+      "owner": "conductor@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "front-desktop-s1.jpg",
+      "finding": "A '£5.00 credit' pill that drops to £4.99 on the next page and a 'This page 0.1p of 1p ... Rate it, or do not pay for it' bar are never explained on the screens read, and look like a payment mechanism to a bank reader.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-feedzai-desktop-s2.jpg",
+      "finding": "'founded in Portugal (its CTO, the first employee, is listed by Web Summit from Portugal)' backs a founding fact with an inference from a speaker listing rather than a cited source.",
+      "owner": "journalist@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-feedzai-desktop-s2.jpg",
+      "finding": "An 'OUR PICK' tag on a vendor's session contradicts 'Nothing on it is an endorsement' two screens later, with no stated basis for the pick.",
+      "owner": "journalist@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-feedzai-desktop-s3.jpg",
+      "finding": "'If you are at Feedzai, the quickest way to get this right is to tell us how it works' reads as a request for product internals, which a security or fraud company will not give in public.",
+      "owner": "journalist@PrompTugal.dinis"
+    },
+    {
+      "severity": "held",
+      "screen": "ar-pavilion-4-desktop-s4.jpg",
+      "finding": "'WHAT THIS DOES NOT CLAIM', including 'did not list Henna Virkkunen' and the EUIPO '403 on 5 November', shows the limits of the sourcing and is what moved this reader from suspicion to provisional trust in the facts.",
+      "owner": "journalist@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-pavilion-4-desktop-s5.jpg",
+      "finding": "'Who made this' lists an agent writer, an agent reviewer and an agent publisher with no human named as having read the article before it went live.",
+      "owner": "journalist@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-pavilion-4-desktop-s5.jpg",
+      "finding": "A source given as 'S2, desks/curator/README.md' is an internal file path that a reader cannot open or interpret.",
+      "owner": "journalist@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "about-desktop-s2.jpg",
+      "finding": "The editor is 'Vicky' on About and the front page but 'Vicky Wang' in bylines and the company page footer, an inconsistency a reader checking who is behind the site notices.",
+      "owner": "conductor@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "about-desktop-s5.jpg",
+      "finding": "The key that signs articles 'dies with the session', and no screen says how a reader verifies a signature after that.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "held",
+      "screen": "about-desktop-s4.jpg",
+      "finding": "Public source code, data as JSON, a release history and a version on every page give a technical reader something he can audit himself.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "front-desktop-s2.jpg",
+      "finding": "'Registration: collect your lanyard and wristband' repeats for each day and place in the agenda column, crowding out everything else on desktop and phone.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "costly",
+      "screen": "front-phone-s1.jpg",
+      "finding": "On the phone the 'INDEPENDENT ... our disclosure' box is absent from the first screen, so the only ownership signal a phone reader gets is 'Powered by RiskMandate'.",
+      "owner": "designer@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-feedzai-phone-s3.jpg",
+      "finding": "The floating 'Ask' button covers text on every phone screen read, including the first of the three questions and a source's 'read' date.",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-feedzai-phone-s1.jpg",
+      "finding": "The company graph on the phone has labels too small to read and one truncated ('The Hacking Ga...').",
+      "owner": "dev@PrompTugal.dinis"
+    },
+    {
+      "severity": "minor",
+      "screen": "co-feedzai-phone-s2.jpg",
+      "finding": "The same long websummit.com session URL is printed three times in one phone screen, breaking the text into hexadecimal fragments.",
+      "owner": "dev@PrompTugal.dinis"
+    }
+  ]
+}

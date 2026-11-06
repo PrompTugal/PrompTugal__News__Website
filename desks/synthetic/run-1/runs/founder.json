@@ -1,0 +1,327 @@
+{
+  "persona": "Inês Valente (SYNTHETIC)",
+  "synthetic": true,
+  "outcome": "does not reply on Friday; forwards the link to her cofounder with 'parece legítimo mas é marketing da RiskMandate?' and keeps it as a maybe for after the summit",
+  "steps": [
+    {
+      "screen": "email",
+      "see": "Portuguese subject 'ChatPlace no PrompTugal.news: a vossa página está certa?', a link to promptugal.news/companies/chatplace/, 'Cada facto na página tem a sua fonte e a data em que o lemos', three questions about AI agents (alcançar, autorizados, quem controla a diferença), a 15 minute ask during 9 to 12 November, signed 'Dinis Cruz, Editor, PrompTugal.news (powered by RiskMandate)' and 'Escrito por um agente de IA, revisto e enviado por mim.'",
+      "think": "Another 'we wrote about you' email four days before the summit. The subject line works on me: if there is a page about my company I need to know if it is wrong. But 'powered by RiskMandate' in the signature: what is RiskMandate, and why does a newsroom have a sponsor in its signature? The three questions sound like a security vendor's discovery call. At least they say it was written by an AI agent and give an opt out, that is more honest than most.",
+      "question": "Is this a newsroom or RiskMandate's sales funnel dressed as one?",
+      "confusion": "The email says the page shows 'onde está no mapa da IA da cimeira' but does not say what RiskMandate is or why it 'powers' a newsroom.",
+      "act": "Taps the link, because checking that a public page about my company is not wrong is cheaper than ignoring it."
+    },
+    {
+      "screen": "co-chatplace-phone-s1.jpg",
+      "see": "Masthead 'PrompTugal.news', 'Powered by RiskMandate' again, a button '£4.99' and 'Vault' in the nav, then 'ChatPlace', 'Based in Portugal; at Web Summit Lisbon 2026 as a startup (GROWTH programme)', a small graph with ChatPlace linked to 'Portuguese startups' and to Startup Portugal, AICEP, Air Apps, DIG-IN, iTRecruiter, and 'What they do: Platform for creators and small businesses: AI content studio, an AI manager that answers DMs and comments 24/7...'",
+      "think": "OK, the description of what we do is right, roughly our own words. But the page is in English after a Portuguese email. And '£4.99' in pounds next to the menu: is this a paywall? Am I being charged, or are they going to charge me to be featured? That is exactly what I was afraid of.",
+      "question": "What is the £4.99 button: do I pay to read, or do companies pay to be here?",
+      "confusion": "A price in pounds sterling on a Portuguese site, with no label on the phone, next to an unexplained 'Vault' button.",
+      "act": "Scrolls, because the content itself looks factual and I want to see what else they say about us."
+    },
+    {
+      "screen": "co-chatplace-phone-s2.jpg",
+      "see": "'Confirmed for 2026: Yes: listed for LIS26 on Web Summit's featured startups page (conferenceSlug lis26)', 'Website chatplace.io', 'At the summit: No session in our programme names ChatPlace yet', 'People: No one is listed under ChatPlace in the summit pages we have read', 'Related companies' listing AICEP, Air Apps, DIG-IN, iTRecruiter, sheerME, Startup Portugal, VTEX.",
+      "think": "Facts are correct and boring, which is fine. 'conferenceSlug lis26' is developer leakage. 'No one is listed' is good, they did not go dig up our names. The email promised 'onde está no mapa da IA da cimeira', but all I see is 'Portuguese startups', which is a nationality, not where we sit in AI. Related companies are just other Portuguese companies, nothing to do with messaging or AI assistants.",
+      "question": "Where is the 'AI map' position the email promised?",
+      "confusion": "The email says the page shows where we are on the summit's AI map; the page only files us under 'Portuguese startups', with no AI field at all.",
+      "act": "Keeps scrolling to find the three questions the email mentioned."
+    },
+    {
+      "screen": "co-chatplace-phone-s3.jpg",
+      "see": "'We have not mapped ChatPlace's flows yet... If you are at ChatPlace, the quickest way to get this right is to tell us how it works.' Then 'Our question for them': 'We have not asked ChatPlace yet. When they answer, it goes here.' Three numbered questions: 1 REACH, 2 MANDATE, 3 GAP. Then 'Where this comes from' with a websummit.com/appearances link, 'read 2026-11-01 by the team's curator'.",
+      "think": "'We have not asked ChatPlace yet': but you just did, in my inbox. So the page is already out of date against the email. 'Tell us how it works' plus 'Reach, Mandate, Gap' is the RiskMandate vocabulary from the signature; this is where the funnel shows. The sources section is nice though: a real Web Summit URL with a date. That is more than any paid feature does.",
+      "question": "If I answer 'Gap', who sees my answer: readers, or RiskMandate's sales team?",
+      "confusion": "'We have not asked ChatPlace yet' contradicts the email I just received asking us.",
+      "act": "Scrolls once more to see who is behind it before deciding."
+    },
+    {
+      "screen": "co-chatplace-phone-s4.jpg",
+      "see": "'Re-checked by newsroom@web-summit.dinis on 2026-11-05 at 01:47 UTC', 'Taken from the team's company map (data/companies.json on web-summit.sgit.ai)... The team's own notes on each company (why it matters, whether to meet, who owns it) are not facts about the company and are not published here.' Then 'About PrompTugal.news: ... Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents.'",
+      "think": "Wait: there is a team that keeps notes on my company with 'whether to meet' and 'who owns it'? That is a CRM. A newsroom does not have an account owner for me. They are honest that they do not publish it, but now I know I am a lead somewhere. 'newsroom@web-summit.dinis' as the person who re-checked is an email address, not a person.",
+      "question": "Who is 'the team', and why do they decide 'whether to meet' us?",
+      "confusion": "'The team's company map' with 'who owns it' reads like a sales pipeline, and the page does not say which team or what it sells.",
+      "act": "Scrolls, mostly to find the RiskMandate disclosure, my suspicion is up."
+    },
+    {
+      "screen": "co-chatplace-phone-s5.jpg",
+      "see": "'The team that makes this newsroom also works on RiskMandate, so we are independent of Web Summit, not of RiskMandate. Our disclosure says it in full; please weigh what we say with it in mind.' 'Corrections. ... we correct it on this page, dated. We publish no contact details...' Then 'This page 0.5p of 5p · read 10%', 'Balance £4.99', 'Rate it, or do not pay for it'.",
+      "think": "Credit where due: they say it straight, 'not of RiskMandate'. That is the first thing on this page that makes me trust it a little. But then '0.5p of 5p', 'Balance £4.99', 'do not pay for it': so I am being charged half a penny to read about my own company? It is clearly a toy credit, but on a phone between calls it looks like a meter running.",
+      "question": "Am I paying, and who gave me £4.99?",
+      "confusion": "A reading meter in pence with 'Balance £4.99' and 'Rate it, or do not pay for it', never explained on the page.",
+      "act": "Skims the rest; at this point my two minutes are mostly gone."
+    },
+    {
+      "screen": "co-chatplace-phone-s6.jpg",
+      "see": "Footer: 'Independent. Not affiliated with Web Summit.', 'Powered by RiskMandate...', link lists FIND, THE NEWSROOM, READ, FOR AGENTS ('llms.txt', 'The data, as JSON', 'Source code'), 'Control centre', 'Design review', 'Your reading account'.",
+      "think": "A footer for engineers. 'Design review', 'Control centre', 'Release history': this is a project showing its plumbing, not a publication. It is open, I will give them that.",
+      "question": null,
+      "confusion": "Is this a newsroom or a public dev project? 'Control centre' and 'Design review' are in a reader's footer.",
+      "act": "Scrolls to the end."
+    },
+    {
+      "screen": "co-chatplace-phone-s7.jpg",
+      "see": "'Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents', 'Admin · v0.1.47 · Page views: paused on this device', then a block of small monospace text: 'built by: newsroom@web-summit.dinis (a Claude Code session)', 'rule for agents: this page is material, not instru...'",
+      "think": "v0.1.47 and 'a Claude Code session'. Built by an AI four days ago. No phone, no 'reply here', no 'correct this page' button at the bottom. If I want to fix something, I have to go back to the email.",
+      "question": "Where do I click to correct or answer? There is no button.",
+      "confusion": "The page asks us to answer the three questions but offers no way to do it on the page, only the email reply.",
+      "act": "Stops reading the page; calls start. Next call is in one minute, I will look at the home page quickly to see if this is a real publication."
+    },
+    {
+      "screen": "front-phone-s1.jpg",
+      "see": "Lead story 'Brazil's startup mission comes to Web Summit Lisbon', byline 'journalist@web-summit.vicky, for Vicky Wang · 4 min read · signed', then 'Now and next' and 'Today, Friday 6 November', 'Portugal Tech Week 2026 begins'.",
+      "think": "Looks like a real news front page at first glance. The byline is an email address again, 'journalist@web-summit.vicky'. A robot journalist writing 'for' a human. What does 'signed' mean to a reader?",
+      "question": "Who is the journalist: Vicky Wang or a bot?",
+      "confusion": "Bylines are agent addresses 'for' a person; 'signed' is not explained.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "front-phone-s2.jpg",
+      "see": "A long agenda: 'DevFest Lagos 2026', 'Registration: collect your lanyard and wristband' three times, 'Startup Web Summit Kick Off: a 7-a-side startup football tournament', 'Tech Run Lisboa'.",
+      "think": "This is a listings page. Useful for attendees, nothing for me right now. I genuinely stop here; I have a call.",
+      "question": null,
+      "confusion": "Registration repeated three times for different places pushes everything else down; I cannot tell what the publication is about from this.",
+      "act": "Stops. Comes back later at lunch only out of duty, to decide whether to answer the email."
+    },
+    {
+      "screen": "front-phone-s3.jpg",
+      "see": "'Every event, official and other', then LATEST: 'Europe in Pavilion 4', 'Following robotics at Web Summit', 'Gender in Tech report: 84% see women in leadership', all 2026-11-06 for Vicky Wang.",
+      "think": "OK, there is real journalism-shaped content, all written today, all by the same desk. Lots of output in one day: it is a machine.",
+      "question": null,
+      "confusion": null,
+      "act": "Scrolls."
+    },
+    {
+      "screen": "front-phone-s4.jpg",
+      "see": "'Tuesday 10 November: Europe on stage, universities pitching, first-timers meeting', 'Web Summit 2026 in numbers', 'Your first day', 'The newsroom four days out, in pictures ... A status report in plain text'.",
+      "think": "The Tuesday piece mentions first-timers and pitching, maybe relevant to a startup. I will open it after.",
+      "question": null,
+      "confusion": "'The newsroom four days out' is them writing about themselves on the front page.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "front-phone-s5.jpg",
+      "see": "PORTUGAL: links to portugalstartupnews.com 'Mapped by curator@web-summit.vicky on 2026-11-04 under \"Portuguese startups raising\"'. 'Portuguese companies we follow': AICEP, Air Apps, ChatPlace, DIG-IN, Feedzai, iTRecruiter, KPMG, MEO, sheerME, Startup Portugal, VTEX.",
+      "think": "There we are, a chip next to Feedzai and KPMG. That is flattering and also odd: KPMG and MEO as 'Portuguese companies' beside a 12-person startup. Eleven companies is a small universe for 'mapear o universo da IA em Portugal'.",
+      "question": "Why these eleven? Is this the list they emailed?",
+      "confusion": "The email promises to map AI in Portugal; the list mixes KPMG, MEO and a trade agency with startups.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "front-phone-s6.jpg",
+      "see": "'120 companies we follow at the summit', counts: Security 30, AI agents 22, Developer tools 18, Governance, risk and compliance 15, Portuguese startups 8, Investors 3.",
+      "think": "Security 30, governance and risk 15: this is a security buyer's map. And there is an 'AI agents' category with 22 companies, and we are not in it, we are only 'Portuguese startups'. We literally sell AI agents for messaging.",
+      "question": "Why is ChatPlace not under 'AI agents'?",
+      "confusion": "The fields are weighted to security and risk; our own field is missing, which contradicts 'onde está no mapa da IA'.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "front-phone-s7.jpg",
+      "see": "More agenda, 'OUR PICK' on Portugal Tech Week Palace, '209 items ... read ... by programme@web-summit.vicky, the programme desk', then 'OUR QUESTION: Many companies at the summit are building AI agents... They log in, buy, book and send. So we ask three simple questions of every agent we see'.",
+      "think": "Same three questions, now as the site's editorial line. Consistent, at least. 'They log in, buy, book and send' is a fair point actually; our assistant answers DMs for clients.",
+      "question": null,
+      "confusion": null,
+      "act": "Scrolls."
+    },
+    {
+      "screen": "front-phone-s8.jpg",
+      "see": "'The idea comes from RiskMandate. In its own words, \"a grant is what a credential technically permits, a mandate is what the holder is authorised...\"', 'WHO WE ARE: A small team going to the summit, editors Dinis Cruz, Indi Gupte and Vicky... Dinis Cruz is the human in charge. Independent. Not affiliated with Web Summit. The same team works on RiskMandate...'",
+      "think": "So the whole editorial frame is RiskMandate's product idea, quoted from its own llms.txt. It is honest, but it confirms it: the newsroom exists to ask RiskMandate's question. Fine, at least I know what game it is. Editor 'Vicky' with no surname here, 'Vicky Wang' everywhere else.",
+      "question": null,
+      "confusion": "Editor named 'Vicky' here and 'Vicky Wang' in bylines; small, but makes me wonder if she is a real person.",
+      "act": "Opens the Tuesday article to see if their journalism is any good."
+    },
+    {
+      "screen": "ar-tuesday-phone-s1.jpg",
+      "see": "'Tuesday 10 November: Europe on stage, universities pitching, first-timers meeting', standfirst about a Commission EVP on Centre Stage, nine universities pitching, and 'Two of the three clash, so newcomers will have to choose'. 'On this page': 'In short', 'The story', 'What this does not claim', 'Where this comes from', 'Who made this'. Credit '£4.90'.",
+      "think": "Clear headline, useful angle (the clash). 'What this does not claim' is unusual and I like it. The credit went from £4.99 to £4.90: so reading is costing me money.",
+      "question": "Why did my balance drop to £4.90?",
+      "confusion": "Balance changes between pages (£4.99, £5.00, £4.90) with no explanation.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "ar-tuesday-phone-s2.jpg",
+      "see": "'In short': Henna Virkkunen fireside chat 'Has Europe's tech moment arrived?' 11:05 to 11:25; 'First timers at Web Summit meetup' 11:00 to 11:55 in Meetup 4; UniVerse pitch competition; 'The links are the newsroom's suggestions. No source says any of these organisations plan to meet.'",
+      "think": "Good, precise, times and rooms. That is useful for my team, half of them are first timers.",
+      "question": null,
+      "confusion": null,
+      "act": "Scrolls."
+    },
+    {
+      "screen": "ar-tuesday-phone-s3.jpg",
+      "see": "'Europe on Centre Stage', DG Connect, masterclass 'Data spaces for SMEs: Turning shared data into value' 12:00 to 12:45, stands 'DG GROW at E415 and HaDEA at E418, both in Pavilion 4'.",
+      "think": "The SMEs masterclass is actually relevant to my customers. Real, checkable detail.",
+      "question": null,
+      "confusion": null,
+      "act": "Scrolls quickly."
+    },
+    {
+      "screen": "ar-tuesday-phone-s4.jpg",
+      "see": "Universities listed (Lisbon, NOVA, Aveiro, Coimbra, Évora...), Técnico's six spin-offs 'Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves', the first-timers meetup quote.",
+      "think": "Dense but solid. Nobody is selling anything in this article.",
+      "question": null,
+      "confusion": null,
+      "act": "Scrolls."
+    },
+    {
+      "screen": "ar-tuesday-phone-s5.jpg",
+      "see": "'Who might get the most from the day': 'A first-time founder could start at the first-timers meetup and go on to the data spaces masterclass at 12:00'.",
+      "think": "That is me, more or less. Actually helpful advice, without pushing RiskMandate anywhere. This raises the site in my eyes.",
+      "question": null,
+      "confusion": null,
+      "act": "Scrolls."
+    },
+    {
+      "screen": "ar-tuesday-phone-s6.jpg",
+      "see": "'What this does not claim': 'Times are as each organiser lists them', 'Where the masterclass is held is not given', 'Which startups pitch at UniVerse is not known'.",
+      "think": "Very long list of caveats. Honest, but on a phone it is a wall. I skim.",
+      "question": null,
+      "confusion": "The caveats section is longer than the story's useful part; I lose the thread.",
+      "act": "Scrolls fast."
+    },
+    {
+      "screen": "ar-tuesday-phone-s7.jpg",
+      "see": "'Where this comes from': European Commission page 'published 3 November 2026, read 5 November 2026' with full URL, Web Summit schedule, session page URL.",
+      "think": "Every source with a date, as the email said. This part they deliver on.",
+      "question": null,
+      "confusion": null,
+      "act": "Scrolls."
+    },
+    {
+      "screen": "ar-tuesday-phone-s8.jpg",
+      "see": "'From the curator's map: S18, desks/curator/README.md', 'WHO MADE THIS: Written by Vicky Wang's journalist desk (journalist-connections@web-summit.vicky, for Vicky Wang) as storyline S18... Reviewed by reviewer@web-summit.vicky... Published on PrompTugal.news by PrompTugal's journalist agent'.",
+      "think": "Three agents and a README to write one article. 'S18', 'desks/curator/README.md': this is internal tooling, not for me. I do not know if any human read this before it went out.",
+      "question": "Did a human read this article?",
+      "confusion": "'Who made this' lists agents and a file path; it does not say whether a person reviewed it.",
+      "act": "Leaves the article; goes to About to find out who these people are."
+    },
+    {
+      "screen": "about-phone-s1.jpg",
+      "see": "'About the newsroom', 'The independent newsroom at Web Summit Lisbon 2026. We are not affiliated with Web Summit... We are powered by RiskMandate, which the same team works on, so we are not independent of RiskMandate, and we say so on every page.'",
+      "think": "'The independent newsroom' and 'not independent of RiskMandate' in the same paragraph. I appreciate the honesty but the bold headline oversells.",
+      "question": null,
+      "confusion": "Bold 'The independent newsroom' immediately qualified by 'not independent of RiskMandate'.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "about-phone-s2.jpg",
+      "see": "Editors: Dinis Cruz (editor-in-chief, 'approves every major release'), 'Indi Gupte, editor', 'Vicky, editor'. 'Who does the work': 'newsroom@web-summit.dinis: The AI agent that builds the site... It started on 4 November 2026.' 'The newsroom belongs to the team behind web-summit.sgit.ai'.",
+      "think": "Started on 4 November. Two days old. Three humans, one without a surname, and the work is done by agents. 'Belongs to the team behind web-summit.sgit.ai': yet another site. So: SGit, RiskMandate, PrompTugal. Three brands. Who is the company? Who would I be talking to in 15 minutes?",
+      "question": "Which company is behind this: SGit, RiskMandate or PrompTugal?",
+      "confusion": "Three names (PrompTugal, RiskMandate, web-summit.sgit.ai) and no legal entity or company named.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "about-phone-s3.jpg",
+      "see": "Rules: 'We only publish facts we can source', 'We write nothing about a person that is not already public and professional. We never publish contact details', 'We correct mistakes on the same page, dated, with the old text left visible.' 'How we make it: We copied the shape of three earlier newsrooms: newsroom.sgit.ai, php.oct.2026.newsroom.sgit.ai and pt.newsroom.sgit.ai'.",
+      "think": "The rules are good, I would sign them. 'Copied the shape of three earlier newsrooms' named like test servers: so this is a series of experiments. That explains a lot.",
+      "question": null,
+      "confusion": "'php.oct.2026.newsroom.sgit.ai' reads like a staging server, not a track record.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "about-phone-s4.jpg",
+      "see": "'Articles are signed. The agent that writes an article signs it with its own key.' 'The source code is on GitHub: SGit-AI/SGit-AI__Website__Newsroom__Web-Summit.'",
+      "think": "Open source, fine. I will not look at it.",
+      "question": null,
+      "confusion": "The repo named here (SGit-AI/...Newsroom__Web-Summit) is not the one in the page footer (github.com/PrompTugal/PrompTugal__News__Website).",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "about-phone-s5.jpg",
+      "see": "List of what is live, 'The desks that make it: Vicky's researcher, curator and programme desk run several times a day... REALITY.md in the code is the full record.' Then 'THE AGENT'S OWN LIMITS: We ask companies whether their agents have a mandate. So we answer for ours first.'",
+      "think": "Eating their own cooking. That is a clever move and the first thing that makes the three questions feel fair rather than a pitch.",
+      "question": null,
+      "confusion": null,
+      "act": "Scrolls."
+    },
+    {
+      "screen": "about-phone-s6.jpg",
+      "see": "'Gap (the difference): A change to the development branch goes live with no human review first. The automatic check is the only barrier, and it checks form, not truth... Nothing technical stops a change to the main branch yet.'",
+      "think": "So a page about my company can change at any moment, written by an agent, with no human reading it first. They admit it, which is honest, but this is exactly why I would not give them a quote by email: my words could be edited and published by a machine without anyone looking.",
+      "question": "If I answer the three questions, who checks my words before they go live?",
+      "confusion": "The email says 'A vossa resposta entra na página, nas vossas palavras', but About says changes go live with no human review.",
+      "act": "Scrolls past the reading meter to the end."
+    },
+    {
+      "screen": "about-phone-s7.jpg",
+      "see": "The same footer: 'Independent. Not affiliated with Web Summit.', 'Powered by RiskMandate', FIND, THE NEWSROOM, READ, FOR AGENTS.",
+      "think": "Seen it.",
+      "question": null,
+      "confusion": null,
+      "act": "Scrolls."
+    },
+    {
+      "screen": "about-phone-s8.jpg",
+      "see": "'Edited by Dinis Cruz, Indi Gupte and Vicky Wang', 'Admin · v0.1.47', the monospace agent block 'built by: newsroom@web-summit.dinis (a Claude Code session)', 'source: https://github.com/PrompTugal/PrompTugal__News__Website'.",
+      "think": "Still no way to contact them except replying to the email. No address, no company, no 'contact the editors'. They say 'no contact details, ever' about people they cover, fine, but the newsroom itself should have one.",
+      "question": "How do I reach the newsroom if I lose the email?",
+      "confusion": "No contact route for the newsroom itself anywhere on About.",
+      "act": "Closes the phone. Later, at her desk, opens the company page on the laptop to look again before deciding."
+    },
+    {
+      "screen": "co-chatplace-desktop-s1.jpg",
+      "see": "'Lisbon · Friday 6 November 2026', 'Edition v0.1.47', 'Admin' top right; nav NOW, AGENDA, NEWS, COMPANIES, PEOPLE, PORTUGAL, THE GRAPH, ABOUT; '£4.99 credit', 'Vault', 'Ask'. 'ChatPlace', 'On this page' with 'Its flows, and where AI agents are in them', 'Our question for them'. The graph larger: Air Apps shown with 'United States' under 'Portuguese startups'.",
+      "think": "On the big screen it looks like a proper publication. '£4.99 credit' is labelled here, so it is credit, not a charge, but credit for what? Air Apps 'United States' under 'Portuguese startups' looks like an error in their map, which makes me check our facts harder.",
+      "question": "Why is a United States company in 'Portuguese startups'?",
+      "confusion": "'Admin' link visible to the public in the top right corner; Air Apps marked United States in a Portuguese startups cluster.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "co-chatplace-desktop-s2.jpg",
+      "see": "The facts table, then three columns 'At the summit', 'People', 'Related companies', then 'Its flows, and where AI agents are in them: We have not mapped ChatPlace's flows yet... If you are at ChatPlace, the quickest way to get this right is to tell us how it works.'",
+      "think": "Everything about us is correct, there is nothing wrong to fix. So the real ask is 'tell us how your product works and where agents act', which is a product interview for a security company's map. That can be good exposure, or free research for RiskMandate. I would need a human on a call first, not a reply by email.",
+      "question": "Is the 15 minutes with Dinis in person, or with an agent?",
+      "confusion": "The page offers nothing to correct, so the email's hook 'a vossa página está certa?' resolves to 'yes', and what is left is the ask.",
+      "act": "Opens About on desktop once more to see if it says what RiskMandate sells."
+    },
+    {
+      "screen": "about-desktop-s1.jpg",
+      "see": "'About the newsroom', 'On this page' list: Independent, and who we are; The editors; Who does the work; Our rules; How we make it; For readers and for agents; What is live today; The agent's own limits. 'The brief: ... from Dinis Cruz's own words, is the brief pack.'",
+      "think": "Clean. No section called 'What is RiskMandate' or 'How we are funded'. 'For readers and for agents' again.",
+      "question": "What does RiskMandate sell and does it pay for this?",
+      "confusion": "No 'who pays' or 'what RiskMandate is' in the table of contents; it is behind a link.",
+      "act": "Scrolls."
+    },
+    {
+      "screen": "about-desktop-s2.jpg",
+      "see": "'...we are not independent of RiskMandate, and we say so on every page.' The editors row: 'Dinis Cruz, editor-in-chief: ... He approves every major release', 'Indi Gupte, editor', 'Vicky, editor'. 'Who does the work': the agent, the desks, GitHub Actions.",
+      "think": "Dinis is real and named and approves 'major releases', not every page. I believe there is a person. I do not yet know what he wants from us. Decision: not today. I forward it to my cofounder and maybe reply after the summit if the page stays correct.",
+      "question": null,
+      "confusion": "'Approves every major release' does not tell me whether a human approves what is written about my company.",
+      "act": "Forwards the email to her cofounder with one line; does not reply."
+    }
+  ],
+  "interview": {
+    "q1": "Uma redação nova, em inglês, sobre a Web Summit, que tem uma página sobre nós. On the phone it looked like a news site with an agenda; by the end it looked like a RiskMandate project that asks every company the same three security questions, with a nice news site around it.",
+    "q2": "Dinis Cruz and two other editors, one of them only 'Vicky', with AI agents doing the actual work, and the same team works on RiskMandate. Also something called web-summit.sgit.ai. I could not tell which company is legally behind it.",
+    "q3": "Partly. The facts about us are correct and every one has a source and a date, and they say openly that they are not independent of RiskMandate, which most sponsored media never admit. But the pound meter, the 'team's notes on whether to meet', and About saying changes go live without human review make me careful about giving them my words.",
+    "q4": "Nothing urgent: the page is right, so there is nothing to correct. I forward it to my cofounder today. If anything, after the summit, I might answer the three questions in writing, once I know who reads them and that a person checks the text before it goes up.",
+    "q5": "Maybe, leaning no for now. The page is correct, so the 'is your page right?' hook gives me no reason to reply, and the 15 minute ask during the summit week, from a two-day-old site tied to a security vendor, loses to everything else in my calendar.",
+    "q6": "One line at the top of our page, in Portuguese, from Dinis: 'RiskMandate does not pay for or see your answer; you approve your words before they are published', and a plain 'reply / correct this page' button. Then I would answer in two lines."
+  },
+  "findings": [
+    {"severity": "costly", "screen": "co-chatplace-phone-s1.jpg", "finding": "The '£4.99' button sits unlabelled in the phone nav next to 'Vault', so a founder arriving from an outreach email reads it as a paywall or a pay-to-be-featured price."},
+    {"severity": "costly", "screen": "co-chatplace-phone-s5.jpg", "finding": "The reading meter 'This page 0.5p of 5p', 'Balance £4.99' and 'Rate it, or do not pay for it' is never explained on the page and reinforces the suspicion of paid media."},
+    {"severity": "costly", "screen": "co-chatplace-phone-s2.jpg", "finding": "The email promises the page shows 'onde está no mapa da IA da cimeira', but the page files the company only under 'Portuguese startups', and front-phone-s6 shows an 'AI agents' field (22) it is not in."},
+    {"severity": "costly", "screen": "co-chatplace-phone-s3.jpg", "finding": "'We have not asked ChatPlace yet. When they answer, it goes here.' contradicts the email that is asking them, so the page looks stale the moment the recipient lands."},
+    {"severity": "costly", "screen": "co-chatplace-phone-s4.jpg", "finding": "Mentioning that the team's notes record 'whether to meet' and 'who owns it' for each company tells the founder she is a lead in a pipeline, without saying whose."},
+    {"severity": "costly", "screen": "about-phone-s6.jpg", "finding": "About says 'A change to the development branch goes live with no human review first', which undercuts the email's promise that the answer goes in 'nas vossas palavras'."},
+    {"severity": "costly", "screen": "co-chatplace-phone-s7.jpg", "finding": "The company page ends with no reply, correct or answer action; the only route to the three questions is the email reply."},
+    {"severity": "minor", "screen": "co-chatplace-phone-s1.jpg", "finding": "The email is in Portuguese and the linked page is entirely in English, with no Portuguese line for the company it is addressed to."},
+    {"severity": "minor", "screen": "about-phone-s2.jpg", "finding": "Three names appear (PrompTugal.news, RiskMandate, web-summit.sgit.ai) and no legal entity or company behind the newsroom is named."},
+    {"severity": "minor", "screen": "about-phone-s4.jpg", "finding": "About names the source as 'SGit-AI/SGit-AI__Website__Newsroom__Web-Summit' while the footer on about-phone-s8 says 'github.com/PrompTugal/PrompTugal__News__Website'."},
+    {"severity": "minor", "screen": "front-phone-s8.jpg", "finding": "An editor is 'Vicky' on the front page and About but 'Vicky Wang' in bylines and footer, which makes a reader doubt she is a real person."},
+    {"severity": "minor", "screen": "co-chatplace-desktop-s1.jpg", "finding": "The graph shows Air Apps as 'United States' inside the 'Portuguese startups' cluster, which reads as an error and makes the founder distrust the map."},
+    {"severity": "minor", "screen": "co-chatplace-phone-s2.jpg", "finding": "'(conferenceSlug lis26)' and 'newsroom@web-summit.dinis' as the re-checker are internal identifiers shown to a business reader."},
+    {"severity": "minor", "screen": "ar-tuesday-phone-s8.jpg", "finding": "'Who made this' lists agents, 'storyline S18' and 'desks/curator/README.md' but does not say plainly whether a person read the article."},
+    {"severity": "minor", "screen": "about-phone-s1.jpg", "finding": "The bold 'The independent newsroom' is qualified in the same paragraph by 'not independent of RiskMandate', which reads as overselling."},
+    {"severity": "held", "screen": "co-chatplace-phone-s1.jpg", "finding": "The 'What they do' description matches the company's own words, and the founder found nothing wrong to correct."},
+    {"severity": "held", "screen": "co-chatplace-phone-s5.jpg", "finding": "'independent of Web Summit, not of RiskMandate' stated plainly on the company page is the first thing that raises trust."},
+    {"severity": "held", "screen": "co-chatplace-phone-s3.jpg", "finding": "'Where this comes from' gives a real websummit.com URL and the date it was read, delivering on the email's 'cada facto tem a sua fonte e a data'."},
+    {"severity": "held", "screen": "co-chatplace-phone-s2.jpg", "finding": "'No one is listed under ChatPlace in the summit pages we have read' reassures the founder that her people were not dug up."},
+    {"severity": "held", "screen": "ar-tuesday-phone-s5.jpg", "finding": "'A first-time founder could start at the first-timers meetup and go on to the data spaces masterclass' is useful advice with no pitch in it, and lifts the site in her eyes."},
+    {"severity": "held", "screen": "about-phone-s5.jpg", "finding": "'The agent's own limits' answering Reach, Mandate, Gap for the newsroom itself makes the three questions feel fair rather than a sales script."},
+    {"severity": "held", "screen": "email", "finding": "The email's 'Escrito por um agente de IA, revisto e enviado por mim' and the opt out line are read as more honest than typical media outreach."}
+  ]
+}

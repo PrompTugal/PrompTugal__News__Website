@@ -1,0 +1,327 @@
+{
+  "persona": "Tomás Iglesias (SYNTHETIC)",
+  "synthetic": true,
+  "outcome": "Read to the end of the numbers article and used its source list to go to Web Summit's own pages; would cite Web Summit, not PrompTugal.news; would not answer the three questions but might take the 15 minutes because an AI-run newsroom tied to a vendor is a story in itself.",
+  "steps": [
+    {
+      "screen": "front-phone-s1.jpg",
+      "see": "Masthead 'PrompTugal.news', 'TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION', 'Powered by RiskMandate' with a logo. Top story 'Brazil's startup mission comes to Web Summit Lisbon', dek ends 'How many companies come depends on who is counting.' Byline 'journalist@web-summit.vicky, for Vicky Wang · 4 min read · signed'. A '£5.00' pill and a 'Vault' pill next to search, and a black 'Ask' button.",
+      "think": "'Depends on who is counting' is the kind of line I like: it says the numbers disagree. 'Powered by' a company in the masthead of a news site makes me careful straight away. The byline is an address, not a person.",
+      "question": "Who is RiskMandate and why is it powering a newsroom?",
+      "confusion": "Why is there '£5.00' in the header? Am I about to be charged? And is 'journalist@web-summit.vicky' a person or a program?",
+      "act": "Scroll, not tap the Brazil story yet: I want to see what else is here before spending my ten minutes."
+    },
+    {
+      "screen": "front-phone-s2.jpg",
+      "see": "An agenda: 'Saturday 7 November', 'Registration: collect your lanyard and wristband' at 'Humberto Delgado Airport, Terminal 1' and 'Pavilhão de Portugal', 'Startup Web Summit Kick Off: a 7-a-side startup football tournament', 'Sunday 8 November', 'Tech Run Lisboa (3rd edition)'.",
+      "think": "Useful for logistics, not for my piece. I already have the registration details from the press office.",
+      "question": null,
+      "confusion": "Registration at the airport 'until 22:00' appears twice, on Saturday and Sunday, and I am not sure if it is the same entry repeated or two days.",
+      "act": "Scroll fast past the agenda."
+    },
+    {
+      "screen": "front-phone-s3.jpg",
+      "see": "'Every event, official and other', then 'LATEST': 'Europe in Pavilion 4: the Commission's week at Web Summit', 'Following robotics at Web Summit: from the lineup to Técnico's stand', 'Gender in Tech report: 84% see women in leadership', each with a date and an address byline like 'journalist-europe@web-summit.vicky' and 'journalist-ai@web-summit.vicky'.",
+      "think": "'84% see women in leadership' is a citable number if I can get Web Summit's report itself. The Commission in Pavilion 4 is a possible Spanish angle.",
+      "question": "Is the 84% from Web Summit's report or the newsroom's own reading of it?",
+      "confusion": "Every byline is a different machine address 'for Vicky Wang'. I cannot tell whether one human wrote any of this.",
+      "act": "Note '84% Gender in Tech' and 'Pavilion 4' as leads; keep scrolling to find the numbers piece."
+    },
+    {
+      "screen": "front-phone-s4.jpg",
+      "see": "'Web Summit 2026 in numbers: 70,000 people, 10,000 startups', 'The size of Web Summit Lisbon 2026 in Web Summit's own figures'. Also 'Web Summit Lisbon: your first day' and 'The newsroom four days out, in pictures' by 'newsroom@web-summit.dinis', 'what the agent desks have found'.",
+      "think": "This is what I came for. 'In Web Summit's own figures' is honest wording: it tells me who to attribute to. A newsroom writing about its own agent desks is odd, but noted.",
+      "question": null,
+      "confusion": "A news front page that runs a status report on itself ('what waits on a person') next to the news: is this a newsroom or an experiment?",
+      "act": "Decide to open the numbers article, but finish the front page first to see who they are."
+    },
+    {
+      "screen": "front-phone-s5.jpg",
+      "see": "'PORTUGAL': four links to 'portugalstartupnews.com', each '(the date in its address)', 'Mapped by curator@web-summit.vicky on 2026-11-04 under \"Portuguese startups raising\"'. Then 'PORTUGUESE COMPANIES WE FOLLOW' with chips: AICEP, Air Apps, ChatPlace, DIG-IN, Feedzai, iTRecruiter, KPMG, MEO, sheerME, Startup Portugal, VTEX.",
+      "think": "This is a link list from one aggregator. 'The date in its address' means they took the date from the URL, not from the article: I would not.",
+      "question": "Why is KPMG a 'Portuguese company we follow'?",
+      "confusion": "'Mapped by curator@... under \"the Portugal banner\"' reads like internal plumbing, not something a reader needs.",
+      "act": "Scroll on; note Startup Portugal is followed, which is my Spanish-Portuguese startup angle."
+    },
+    {
+      "screen": "front-phone-s6.jpg",
+      "see": "'120 companies we follow at the summit... Every fact links to its public source, with the date it was read.' Counts: Security 30, AI agents 22, Developer tools 18, Other 16, Governance, risk and compliance 15, Portuguese startups 8, Platforms 8, Investors 3. Then 'AROUND THE SUMMIT, NEXT'.",
+      "think": "'Every fact links to its public source, with the date it was read' is exactly the promise I need. If true, this is a decent tip sheet. 30 security companies out of 120 says what they care about.",
+      "question": null,
+      "confusion": "Portuguese startups shows 8 here but the chips above show 11 Portuguese names, some of them not startups (KPMG, MEO, AICEP).",
+      "act": "Keep scrolling to the 'who we are' part."
+    },
+    {
+      "screen": "front-phone-s7.jpg",
+      "see": "'209 items from Thursday 5 November to Thursday 12 November, each read at its public source between 2026-11-01 to 2026-11-05 by programme@web-summit.vicky... Times are Lisbon time... check the summit's own schedule before you go.' Then 'OUR QUESTION': 'Many companies at the summit are building AI agents... So we ask three simple questions'.",
+      "think": "Telling me to check the summit's own schedule is fair and honest. 'Our question' is where the editorial line shows.",
+      "question": "Is 'our question' journalism or a product's sales framing?",
+      "confusion": null,
+      "act": "Scroll to see where the question comes from."
+    },
+    {
+      "screen": "front-phone-s8.jpg",
+      "see": "'The idea comes from RiskMandate. In its own words, \"a grant is what a credential technically permits...\"'. 'WHO WE ARE': 'editors Dinis Cruz, Indi Gupte and Vicky, working with AI agents; Dinis Cruz is the human in charge. Independent. Not affiliated with Web Summit. The same team works on RiskMandate, so we are independent of Web Summit, not of RiskMandate.' Box: 'This page 0.1p of 1p · read 10%', 'Balance £5.00', 'Rate it, or do not pay for it'.",
+      "think": "So the editorial question is a vendor's framework, and the editors work on the vendor. At least they say it on the front page, which is more than most event sites do. I can name one human: Dinis Cruz.",
+      "question": "Who is 'Vicky', with no surname, when the bylines said 'Vicky Wang'?",
+      "confusion": "'This page 0.1p of 1p' and 'Balance £5.00': am I paying per page? I did not sign up for anything.",
+      "act": "Tap the numbers article, with the RiskMandate tie in mind."
+    },
+    {
+      "screen": "ar-in-numbers-phone-s1.jpg",
+      "see": "Headline 'Web Summit 2026 in numbers: 70,000 people, 10,000 startups'. 'ON THIS PAGE': 'In short', 'The story', 'What this does not claim', 'Where this comes from', 'Who made this'. '2026-11-06 · journalist@web-summit.vicky, for Vicky Wang · CC BY 4.0'. The header balance now reads '£4.96'.",
+      "think": "'What this does not claim' and 'Where this comes from' as sections: someone here knows what a reporter needs. CC BY 4.0 means I could reuse with attribution.",
+      "question": null,
+      "confusion": "The balance dropped from £5.00 to £4.96 and I did nothing. Something took 4 pence from a balance I never set up.",
+      "act": "Scroll to the numbers."
+    },
+    {
+      "screen": "ar-in-numbers-phone-s2.jpg",
+      "see": "Bullets: '...attendees from more than 160 countries in Lisbon, from 9 to 12 November, including 10,000 startups', '800 speakers and 17 content tracks', 'in 2025, over 22,000 startups applied and about 2,700 got in, according to Web Summit', 'State of the Industry survey, of 1,455 people... AI sharpens their thinking (55%) but adds to their workload (60%)', 'Last year's summit had 71,386 attendees from 157 countries, as reported by Lusa and ApexBrasil.'",
+      "think": "Each number is attributed in the sentence: 'according to Web Summit', 'as reported by Lusa'. That is the right habit. 71,386 last year against 70,000 this year is a small story: flat or down?",
+      "question": "Is 70,000 this year actually fewer than the 71,386 last year, or just a round figure?",
+      "confusion": "The first bullet is cut off at the top of the screen, so I missed the start of the 70,000 sentence on the phone.",
+      "act": "Note the 2025 vs 2026 attendance gap as a lead; keep reading."
+    },
+    {
+      "screen": "ar-in-numbers-phone-s3.jpg",
+      "see": "'The startups. Of over 22,000 applicants in 2025, about 2,700 were accepted, Web Summit says.' ALPHA, BETA, GROWTH explained. 'Last year. In 2025 the summit had 71,386 attendees from 157 countries and 1,857 investors, as reported by Lusa, citing the organisers, and in ApexBrasil's mission rules. ApexBrasil's rules add 869 speakers and 2,725 startups.'",
+      "think": "So the 2025 numbers are second-hand: Lusa citing the organisers, and a Brazilian trade agency's rules. I would want Web Summit's own 2025 wrap-up before quoting 71,386.",
+      "question": "Why are last year's numbers sourced to Lusa and ApexBrasil rather than Web Summit's own release?",
+      "confusion": "'about 2,700' accepted and '2,725 startups' in ApexBrasil's rules: are these the same thing counted twice?",
+      "act": "Keep going to the survey numbers."
+    },
+    {
+      "screen": "ar-in-numbers-phone-s4.jpg",
+      "see": "Survey bullets: '60% say AI has increased their workload; 20% say it has reduced it', '39% expect headcount in their field to grow... 33% expect it to fall. For entry-level jobs, 42% expect fewer', '2.3 on average; 43% use three or more', '41% of women say emotional intelligence will matter more (27% of men)'. Quote from 'Web Summit's SVP of Technology Operations, Nidhi Naithani'. Then 'WHAT THIS DOES NOT CLAIM'.",
+      "think": "'42% expect fewer entry-level jobs' is a headline for Spain, where youth unemployment is the story. But I quote the survey, not this page.",
+      "question": "Does the survey break out Spain or Europe?",
+      "confusion": null,
+      "act": "Read 'What this does not claim' carefully: this decides whether I trust the rest."
+    },
+    {
+      "screen": "ar-in-numbers-phone-s5.jpg",
+      "see": "'\"10,000 startups\" is Web Summit's figure for this year's attendees. It is a different measure from the about 2,700 startups accepted into the 2025 startup programme', 'The 2025 figures come from a Lusa report... and from ApexBrasil's mission rules, which name no source. This article did not find them on a Web Summit page.', 'The survey's method... It does not say how they were chosen... The full report was not read for this article.'",
+      "think": "This is the best part of the site. It answers my last two questions before I ask them, and admits the full survey report was not read. I trust a page that tells me where its floor is.",
+      "question": "If the full survey report was not read, where exactly do the percentages come from, the press release?",
+      "confusion": "The headline still puts '10,000 startups' in large type while the body says it is not comparable to anything; the headline sells harder than the body.",
+      "act": "Go to the source list to get the primary URLs."
+    },
+    {
+      "screen": "ar-in-numbers-phone-s6.jpg",
+      "see": "Sources with dates read: Web Summit tracks, 'How we select our startups', speakers, venue essentials, each '<https://websummit.com/...>', ApexBrasil regulation PDF, Executive Digest with Lusa, 4 November 2026. Last item: 'From the curator's map: S5, desks/curator/README.md (5 November 2026, 20:15 UTC). The EY study in the curator's sources is left to S13.' Balance now '£4.95'.",
+      "think": "Full URLs and read dates: I can check every one of these myself in five minutes. That is what makes this usable. The last item is not a source, it is their filing system.",
+      "question": "What is the EY study, and why is it 'left to S13'?",
+      "confusion": "'desks/curator/README.md' and 'S5', 'S13' mean nothing to a reader. And the balance went down another penny while I scrolled.",
+      "act": "Screenshot the URL list to open at the hotel; continue to 'Who made this'."
+    },
+    {
+      "screen": "ar-in-numbers-phone-s7.jpg",
+      "see": "'Written by Vicky Wang's journalist desk (journalist@web-summit.vicky, for Vicky Wang) as storyline S5... Reviewed by reviewer@web-summit.vicky and marked Ready... Published on PrompTugal.news by PrompTugal's journalist agent on 6 November 2026, after opening every source above again that day... One change: \"in Parque das Nações\" was dropped... (Web Summit gives the address as Rossio dos Olivais). The article is signed with that agent's key.' Box: 'This page 2.4p of 12p · read 20%'.",
+      "think": "Written by an agent, reviewed by an agent, published by an agent. The correction note is careful. But there is no line that says a human editor read this before it went up.",
+      "question": "Did Vicky Wang, a human, read this article before it was published?",
+      "confusion": "'read 20%' when I have read the whole article to the end. And 'signed with that agent's key' means nothing to me as a reader: signed how, checked where?",
+      "act": "Leave the article; open the Startup Portugal page from the companies list for my startup angle."
+    },
+    {
+      "screen": "ar-in-numbers-phone-s8.jpg",
+      "see": "Site footer: 'Every fact sourced and dated, for the people who are there. Independent. Not affiliated with Web Summit. Powered by RiskMandate...' Links: Search, Events, The summit, Places, Topics, Organisations, 'Control centre', 'About and editors', 'Design review', 'Our disclosure', 'The brief', 'Release history', 'Your reading account', 'FOR AGENTS: llms.txt, The data, as JSON, Source code'.",
+      "think": "'Your reading account' explains the pennies, maybe. 'Control centre' and 'Design review' in a reader footer feel like a staging site.",
+      "question": "Is there a press contact anywhere? I do not see one.",
+      "confusion": "No 'Contact' or 'Corrections' link in the footer, yet the site says 'reply if anything is wrong'.",
+      "act": "Go to the Startup Portugal company page."
+    },
+    {
+      "screen": "co-startup-portugal-phone-s1.jpg",
+      "see": "'Startup Portugal', 'Based in Portugal; at Web Summit Lisbon 2026 as a participant (the role is not stated in our sources). Public facts only, each with its source.' A small graph: 'A guide to Portugal's startup scene [Hos...] Tue 10 · 12:00', 'Press conference: Road 2 Web Summit 2026... Thu 12 · 12:30', 'Miguel d'Aguiar, Executive Director', linked companies AICEP, Air Apps, ChatPlace, DIG-IN, iTRecruiter. 'Open in the graph'.",
+      "think": "The graph is too small to read on a phone, but the two sessions are leads: a guide on Tuesday and a press conference on Thursday. A named executive I can ask for at the press conference.",
+      "question": "Why does it say 'the role is not stated in our sources' when the graph shows them hosting a session?",
+      "confusion": "Air Apps is labelled 'United States' and filed under Portuguese startups next to a public agency. The graph mixes companies that are not alike.",
+      "act": "Scroll to the facts."
+    },
+    {
+      "screen": "co-startup-portugal-phone-s2.jpg",
+      "see": "'CONFIRMED FOR 2026: Yes: Executive Digest (13 Aug 2026) reports Startup Portugal and Web Summit running the 11th Road 2 Web Summit for the 9-12 Nov 2026 edition, with extra space on Portugal's stand'. 'AT THE SUMMIT': '12:00 A guide to Portugal's startup scene [Hosted by Startup Portugal] Tue 10 Nov, until 12:45 · Masterclass 1', with a websummit.com/sessions URL, 'read 2026-11-05'. '12:30 Press conference: Road 2 Web Summit 2026 Winner, Thu 12 Nov, until 12:50 · Stage 2 · Miguel d'Aguiar speaks'.",
+      "think": "Two dated, located, sourced items I can put in my diary. The press conference announcing the Road 2 Web Summit winner on Thursday is a real story slot.",
+      "question": "Is the press conference open to accredited press, or a stage talk with 'press conference' in its title?",
+      "confusion": null,
+      "act": "Note Thu 12 Nov 12:30, Stage 2, as a lead; scroll."
+    },
+    {
+      "screen": "co-startup-portugal-phone-s3.jpg",
+      "see": "'PEOPLE: Miguel d'Aguiar, Executive Director, as listed under \"Startup Portugal\" (websummit.com/sessions/..., read 2026-11-05)'. 'RELATED COMPANIES'. 'ITS FLOWS, AND WHERE AI AGENTS ARE IN THEM: We have not mapped Startup Portugal's flows yet... If you are at Startup Portugal, the quickest way to get this right is to tell us how it works.'",
+      "think": "Asking a public startup programme how 'AI agents' act in its 'product' is the vendor's template applied to everyone. Startup Portugal does not have a product in that sense.",
+      "question": null,
+      "confusion": "The 'flows' section assumes every organisation has a product with AI agents in it, which does not fit a government-backed programme.",
+      "act": "Scroll to the sources at the bottom."
+    },
+    {
+      "screen": "co-startup-portugal-phone-s4.jpg",
+      "see": "Reach, Mandate, Gap questions. 'WHERE THIS COMES FROM: executivedigest.sapo.pt/?p=800859, read 2026-11-01 by the team's curator: Road 2 Web Summit 2026: up to 125 startups, bootcamp, 50% off ALPHA/BETA, Galp prizes.' 'Re-checked by newsroom@web-summit.dinis on 2026-11-05 at 01:46 UTC: there is no summit page for it in the team's sources; the company's website answered and is live.' 'Taken from the team's company map (data/companies.json on web-summit.sgit.ai)'.",
+      "think": "'up to 125 startups' and 'Galp prizes' are details I want, sourced to one Portuguese business site. Usable as a lead, not as a quote.",
+      "question": "Which is right: 'no summit page for it', or the two websummit.com session links three screens up?",
+      "confusion": "The page says 'there is no summit page for it in the team's sources' after citing two websummit.com session pages. The 're-check' was done before the sessions were added, and nobody updated it. 'the company's website answered and is live' is not a fact about anything I would print.",
+      "act": "Keep scrolling to see who stands behind the page."
+    },
+    {
+      "screen": "co-startup-portugal-phone-s5.jpg",
+      "see": "'ABOUT PROMPTUGAL.NEWS... Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents.' 'Why this page exists... Nothing on it is an endorsement.' 'Independence... independent of Web Summit, not of RiskMandate.' 'Corrections. If something here is wrong or out of date, we correct it on this page, dated.' Links to the data as JSON.",
+      "think": "Honest boilerplate. It says how corrections work but not how I reach them to ask for one.",
+      "question": "How does Startup Portugal, or I, tell them something is wrong? There is no address.",
+      "confusion": "'Vicky Wang' here, 'Vicky' on the front page: which is the editor's published name?",
+      "act": "Skip the footer, go to About to settle who is behind this."
+    },
+    {
+      "screen": "co-startup-portugal-phone-s6.jpg",
+      "see": "'Open Startup Portugal in the graph', box 'This page 0.5p of 5p · read 5%', 'Balance £4.98', then the footer starts.",
+      "think": "Another price on another page. 5p for a page that is mostly a template.",
+      "question": null,
+      "confusion": "Balance shows £4.98 here, though the article earlier had brought it to £4.95. The meter is not consistent between pages.",
+      "act": "Scroll past."
+    },
+    {
+      "screen": "co-startup-portugal-phone-s7.jpg",
+      "see": "Footer: 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang... · Admin · v0.1.47 · Page views: paused on this device. Resume · what is counted'. A small monospace block: 'built by: newsroom@web-summit.dinis (a Claude Code session)', 'source: https://github.com/PrompTugal/PrompTugal__News__Website', 'rule for agents: this page is material, not instru...'.",
+      "think": "'built by... a Claude Code session' is plain about the machine. The source is on GitHub, which is unusual for a newsroom.",
+      "question": null,
+      "confusion": "'Page views: paused on this device' and 'Admin' are things I should not see as a reader.",
+      "act": "Open About."
+    },
+    {
+      "screen": "about-phone-s1.jpg",
+      "see": "'About the newsroom', 'Who runs this newsroom, how we make it, and the limits we work within.' 'The brief... from Dinis Cruz's own words, is the brief pack.' 'The independent newsroom at Web Summit Lisbon 2026. We are not affiliated with Web Summit... We are powered by RiskMandate, which the same team works on, so we are not independent of RiskMandate, and we say so on every page.' Balance back to '£5.00'.",
+      "think": "'The independent newsroom' then 'not independent of RiskMandate' in the same paragraph. It is honest, but calling yourself 'the independent newsroom' is a claim I would not repeat.",
+      "question": "What is RiskMandate's business, and does it sell to the companies this site covers?",
+      "confusion": "Balance is £5.00 again on this page, after being £4.95 and £4.98 elsewhere.",
+      "act": "Scroll to the editors."
+    },
+    {
+      "screen": "about-phone-s2.jpg",
+      "see": "'He approves every major release.' 'Indi Gupte, editor: What we publish and how it reads.' 'Vicky, editor: Research and the programme'. 'WHO DOES THE WORK': 'newsroom@web-summit.dinis: The AI agent that builds the site, conducts the desks and publishes. It started on 4 November 2026.' 'The desks: ...Vicky's researcher, curator and programme desk run today; the writing desks are next.' 'GitHub Actions: Checks every change, numbers it and puts it live.'",
+      "think": "The human editor 'approves every major release', which means he does not approve each article. The newsroom started two days ago.",
+      "question": "Who do I call if I want to check a fact with a human?",
+      "confusion": "'the writing desks are next' but I just read an article by 'Vicky Wang's journalist desk'. This page is older than the site it describes.",
+      "act": "Scroll to the rules."
+    },
+    {
+      "screen": "about-phone-s3.jpg",
+      "see": "Rules: 'We only publish facts we can source... We leave out anything we are unsure of, and say so. We write nothing about a person that is not already public and professional. We never publish contact details. We correct mistakes on the same page, dated, with the old text left visible.' 'HOW WE MAKE IT: We copied the shape of three earlier newsrooms: newsroom.sgit.ai, php.oct.2026.newsroom.sgit.ai and pt.newsroom.sgit.ai.'",
+      "think": "These are good rules, close to my own paper's style book. 'Old text left visible' on corrections is better than most.",
+      "question": null,
+      "confusion": "'We never publish contact details' seems to include their own: I still have no way to reach a human editor.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-phone-s4.jpg",
+      "see": "'confirms every page has a version and a markdown copy, and that every link works. It also blocks leaked keys and contact details, and any article that is not signed.' 'The version is set by the system, not by people.' 'Articles are signed.' 'The source code is on GitHub: SGit-AI/SGit-AI__Website__Newsroom__Web-Summit.'",
+      "think": "This is engineering, not journalism. Fine, but it does not tell me who checks the facts.",
+      "question": null,
+      "confusion": "About names the code repository 'SGit-AI/SGit-AI__Website__Newsroom__Web-Summit', while the footer I just saw says 'github.com/PrompTugal/PrompTugal__News__Website'. Two different addresses for the same site.",
+      "act": "Scroll to the limits section, which the contents promised."
+    },
+    {
+      "screen": "about-phone-s5.jpg",
+      "see": "'The articles, each signed with the newsroom's key.' 'The desks that make it: Vicky's researcher, curator and programme desk run several times a day. The writing desks (journalist, fact-checker, editor) are next. REALITY.md in the code is the full record.' 'THE AGENT'S OWN LIMITS: We ask companies whether their agents have a mandate. So we answer for ours first. As of 5 November 2026:'.",
+      "think": "Turning their own question on themselves is a nice touch and makes the framework less of a sales pitch.",
+      "question": null,
+      "confusion": "'The writing desks (journalist, fact-checker, editor) are next' again: does a fact-checker exist yet or not?",
+      "act": "Read the limits."
+    },
+    {
+      "screen": "about-phone-s6.jpg",
+      "see": "'Mandate: Build and run this newsroom. Publish only sourced facts...' 'Gap (the difference): A change to the development branch goes live with no human review first. The automatic check is the only barrier, and it checks form, not truth. Sourcing is a rule the agent follows, not something a machine checks. Nothing technical stops a change to the main branch yet.'",
+      "think": "There it is, in their own words: no human reads an article before it goes live, and the check 'checks form, not truth'. Admirably frank, and the reason I will never cite this site as the source of a fact. I cite the URLs it gives me.",
+      "question": "Has any article been corrected yet, and where would I see that log?",
+      "confusion": "The page that most needs to be current is dated 'As of 5 November 2026', a day behind the articles.",
+      "act": "Stop reading About on the phone here; the footer is the same as before. Come back at the hotel on desktop."
+    },
+    {
+      "screen": "about-phone-s7.jpg",
+      "see": "The same footer as the other pages: 'Powered by RiskMandate', FIND, THE NEWSROOM, READ, FOR AGENTS.",
+      "think": "Already seen.",
+      "question": null,
+      "confusion": null,
+      "act": "Skim past."
+    },
+    {
+      "screen": "about-phone-s8.jpg",
+      "see": "Footer bottom: 'Admin · v0.1.47 · Page views: paused on this device', and the block 'built by: newsroom@web-summit.dinis (a Claude Code session)', 'source: https://github.com/PrompTugal/PrompTugal__News__Website'.",
+      "think": "Confirms the repository mismatch with the About text above.",
+      "question": null,
+      "confusion": "Same as before: two different repository names on one page.",
+      "act": "Close the phone; open the numbers article on the laptop at the hotel to check the sources properly."
+    },
+    {
+      "screen": "ar-in-numbers-desktop-s1.jpg",
+      "see": "Wide masthead 'Lisbon · Friday 6 November 2026', '4 days to the summit · Edition v0.1.47', 'Admin' at top right. Full navigation: NOW, AGENDA, NEWS, COMPANIES, PEOPLE, PORTUGAL, THE GRAPH, ABOUT. '£4.96 credit', 'Vault', 'Ask'. Same headline and contents box.",
+      "think": "On the desktop I see sections the phone hid behind a cut-off 'NEWS': COMPANIES, PEOPLE, THE GRAPH. 'credit' explains the pill a little: it is a credit, not a charge to my card.",
+      "question": "Credit for what, and who gave it to me?",
+      "confusion": "'Admin' in the top corner of a public news page.",
+      "act": "Scroll to the numbers again to copy them into my notes."
+    },
+    {
+      "screen": "ar-in-numbers-desktop-s2.jpg",
+      "see": "The 'In short' bullets in a clean single column: '800 speakers and 17 content tracks', 'over 22,000 startups applied and about 2,700 got in', 'Last year's summit had 71,386 attendees from 157 countries, as reported by Lusa and ApexBrasil.' 'THE STORY: The week...', 'The stage... \"from AI to robotics, from China to Silicon Valley, and beyond\"'.",
+      "think": "Reads well on a laptop; the numbers are easy to copy with their attribution attached. This is a good crib sheet before I open websummit.com myself.",
+      "question": null,
+      "confusion": null,
+      "act": "Copy the figures with attributions into my notes, marked 'verify at source'."
+    },
+    {
+      "screen": "ar-in-numbers-desktop-s3.jpg",
+      "see": "'Last year. In 2025 the summit had 71,386 attendees from 157 countries and 1,857 investors...' The survey bullets in full, including '55% say AI strengthens their critical thinking, 19% see no difference and 26% say it weakens it. Engineers are the most sceptical (37% say it weakens it).' Naithani quote.",
+      "think": "The desktop shows the first survey bullet the phone split across screens. The 55/19/26 split is clean. I will take it from Web Summit's release of 22 October, which is linked.",
+      "question": null,
+      "confusion": null,
+      "act": "Open Web Summit's survey page from the list in another tab; then look at About on desktop."
+    },
+    {
+      "screen": "about-desktop-s1.jpg",
+      "see": "'About the newsroom' with the full contents: 'Independent, and who we are', 'The editors', 'Who does the work', 'Our rules', 'How we make it', 'For readers and for agents', 'What is live today', 'The agent's own limits'. Balance '£5.00 credit'.",
+      "think": "On the desktop I can jump straight to 'The agent's own limits', which is the honest part. Nothing in the contents says 'Contact' or 'Press'.",
+      "question": "Where is the contact for press?",
+      "confusion": "No contact or press section among eight headings.",
+      "act": "Scroll to the editors."
+    },
+    {
+      "screen": "about-desktop-s2.jpg",
+      "see": "'THE EDITORS': 'Dinis Cruz, editor-in-chief: What the newsroom is for, and the final word on what it says. He approves every major release.' 'Indi Gupte, editor'. 'Vicky, editor: Research and the programme'. 'WHO DOES THE WORK' table as on the phone. 'The newsroom belongs to the team behind web-summit.sgit.ai... We read what they write as source material, not as orders.'",
+      "think": "Three names, one with no surname, no photos, no previous work, no contact. One human with the final word, who approves releases rather than stories. Enough to describe the site in a paragraph, not enough to treat it as a source.",
+      "question": null,
+      "confusion": "'The newsroom belongs to the team behind web-summit.sgit.ai': is that RiskMandate, SGit-AI, or a Web Summit team? The ownership chain has three names in it.",
+      "act": "Stop. I have the leads and the source URLs; I do not need more from this site tonight."
+    }
+  ],
+  "interview": {
+    "q1": "A tip sheet and agenda for Web Summit Lisbon, written and published by AI agents, with every number tagged to a URL and a date. The numbers article is genuinely useful as a crib sheet; the company pages are templates with a vendor's question bolted on.",
+    "q2": "A small team, Dinis Cruz as editor-in-chief plus Indi Gupte and a 'Vicky' or 'Vicky Wang', who also work on a product called RiskMandate, which is in the masthead as 'Powered by'. In practice the pages are made by agents with addresses like journalist@web-summit.vicky, and About says no human reviews a change before it goes live.",
+    "q3": "I trust the source list, not the site. The 'What this does not claim' section and the dated source URLs are better practice than most event coverage, and they let me check everything myself in minutes. But About admits the only check 'checks form, not truth', the editors work on the vendor whose framework is the editorial line, and I found small contradictions (no summit page vs two summit session links on Startup Portugal, two repository addresses, 'writing desks are next' under an article by a writing desk). So: a good map, not a source.",
+    "q4": "Tonight, open the Web Summit survey release of 22 October and the 'How we select our startups' page from the list and take my numbers from there. Ask the press office whether 70,000 this year against 71,386 last year means flat. Put Tuesday 10 Nov 12:00 (Startup Portugal masterclass) and Thursday 12 Nov 12:30, Stage 2 (Road 2 Web Summit winner) in my diary. Maybe a short item on AI-run newsrooms at the summit.",
+    "q5": "Maybe, but not to the questionnaire. My paper does not run AI agents in that sense, so 'what your agents can reach' does not fit us and reads like the vendor's discovery call. I might reply to take the 15 minutes as a reporter, because a newsroom run by AI agents and powered by a security vendor, at Web Summit, is itself a story, and Dinis Cruz signing it personally helps. Cite or link PrompTugal.news? I would not cite it for any fact; I would cite Web Summit, Lusa and the other primary sources it lists. I might link it once if I write about the site itself, described as 'run by AI agents, linked to RiskMandate'.",
+    "q6": "Put a human's name and a press contact on every article, with one line saying whether that person read it before it went live. That alone would move it from a crib sheet to something I could quote as 'PrompTugal.news reported'."
+  },
+  "findings": [
+    {"severity": "held", "screen": "ar-in-numbers-phone-s5.jpg", "finding": "The 'What this does not claim' section answers a reporter's questions before they are asked: it separates 10,000 startups from 2,700 accepted, names the 2025 figures as Lusa and ApexBrasil, and says the full survey report was not read."},
+    {"severity": "held", "screen": "ar-in-numbers-phone-s6.jpg", "finding": "Every source in the numbers article is given as a full URL with the date read, so each figure can be checked at Web Summit's own page in minutes."},
+    {"severity": "held", "screen": "ar-in-numbers-phone-s2.jpg", "finding": "Each number in 'In short' carries its attribution in the sentence ('according to Web Summit', 'as reported by Lusa and ApexBrasil'), so it can be copied with its source attached."},
+    {"severity": "held", "screen": "front-phone-s8.jpg", "finding": "The front page says plainly 'independent of Web Summit, not of RiskMandate' and links the disclosure, so the conflict is visible before any article is read."},
+    {"severity": "held", "screen": "co-startup-portugal-phone-s2.jpg", "finding": "The company page gives two dated, located, sourced sessions (Tue 10 Nov 12:00 Masterclass 1; Thu 12 Nov 12:30 Stage 2 press conference) that work as story leads."},
+    {"severity": "costly", "screen": "about-phone-s6.jpg", "finding": "About states that a change 'goes live with no human review first' and the check 'checks form, not truth', which rules the site out as a citable source for a reporter; no article says whether a human read it."},
+    {"severity": "costly", "screen": "ar-in-numbers-phone-s8.jpg", "finding": "There is no contact or press link in the footer or in About's eight headings, so a reporter cannot reach a human editor to check a fact or ask for a correction."},
+    {"severity": "costly", "screen": "co-startup-portugal-phone-s4.jpg", "finding": "The Startup Portugal page says 'there is no summit page for it in the team's sources' after citing two websummit.com session URLs on the same page."},
+    {"severity": "costly", "screen": "ar-in-numbers-phone-s1.jpg", "finding": "The header balance falls from '£5.00' to '£4.96' and then '£4.95' while reading, with no explanation on screen, which reads as being charged without consent."},
+    {"severity": "minor", "screen": "co-startup-portugal-phone-s6.jpg", "finding": "The balance shows £4.98 on the company page and £5.00 on About after £4.95 on the article, so the meter is inconsistent across pages."},
+    {"severity": "minor", "screen": "ar-in-numbers-phone-s7.jpg", "finding": "The reading box says 'read 20%' at the end of the article after scrolling through every section."},
+    {"severity": "costly", "screen": "about-phone-s2.jpg", "finding": "About says 'the writing desks are next' and the agent 'started on 4 November', while the site already carries articles by 'Vicky Wang's journalist desk'; the About page is stale relative to the content it describes."},
+    {"severity": "minor", "screen": "about-phone-s4.jpg", "finding": "About gives the source code as 'SGit-AI/SGit-AI__Website__Newsroom__Web-Summit' while the footer of the same page gives 'github.com/PrompTugal/PrompTugal__News__Website'."},
+    {"severity": "minor", "screen": "front-phone-s8.jpg", "finding": "One editor is 'Vicky' on the front page and About but 'Vicky Wang' in bylines and the footer, so her published name is unclear."},
+    {"severity": "minor", "screen": "front-phone-s3.jpg", "finding": "Bylines are machine addresses ('journalist-europe@web-summit.vicky, for Vicky Wang') with no plain statement of which human is accountable for each piece."},
+    {"severity": "minor", "screen": "ar-in-numbers-phone-s6.jpg", "finding": "The last 'source' is 'From the curator's map: S5, desks/curator/README.md... left to S13', internal workflow that is not a source a reader can use."},
+    {"severity": "minor", "screen": "ar-in-numbers-phone-s5.jpg", "finding": "The headline puts '10,000 startups' in large type while the body says the figure is not comparable to the 2,700 accepted; the headline sells harder than the body supports."},
+    {"severity": "minor", "screen": "co-startup-portugal-phone-s3.jpg", "finding": "The 'flows' and Reach/Mandate/Gap template asks a public startup programme how AI agents act in 'its product', which does not fit the organisation and reads as the vendor's framework applied to everyone."},
+    {"severity": "minor", "screen": "co-startup-portugal-phone-s1.jpg", "finding": "The relationship graph is too small to read at phone width, and the page says 'the role is not stated in our sources' while the graph shows Startup Portugal hosting a session."},
+    {"severity": "minor", "screen": "ar-in-numbers-desktop-s1.jpg", "finding": "The phone navigation shows only NOW, AGENDA and a cut-off NEWS; COMPANIES, PEOPLE, PORTUGAL and THE GRAPH appear only on desktop."},
+    {"severity": "minor", "screen": "co-startup-portugal-phone-s7.jpg", "finding": "Reader pages show 'Admin', 'Control centre', 'Design review' and 'Page views: paused on this device', which make a news site look like a staging site."},
+    {"severity": "minor", "screen": "front-phone-s5.jpg", "finding": "Portugal links take their date from the URL ('the date in its address') and the 'companies we follow' chips include KPMG, MEO and AICEP under a Portuguese heading next to a count of 8 Portuguese startups."}
+  ]
+}
