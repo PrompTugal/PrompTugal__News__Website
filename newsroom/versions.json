@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.130",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: Dinis's dashboard at /newsroom/dashboard/: what waits on him, every agent, the wake grid",
+    "by": "dev@PrompTugal.dinis",
+    "from": "54f1f3ef3"
+  },
+  {
     "version": "v0.1.129",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: run report, 05:45",
