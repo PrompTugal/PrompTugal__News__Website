@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: wake 09:12, companies page versions round 1 on work/dev.pages",
-  "updated": "2026-11-06T09:30Z",
+  "state": "working: wake 10:12, the people page views on work/dev.pages",
+  "updated": "2026-11-06T10:30Z",
   "done": [
     "Session key made, public half in board/keys.json as dev.pages-promptugal",
     "Front page F1 and F2: the lead shows the designer's card image, every Latest row a 96 px thumb (72 px on a phone) with headline, one sentence, beat and day (no agent address); an article with no image renders without a box",
@@ -12,15 +12,16 @@
     "F8: on a phone the Ask button is a 44 px icon with page padding at the foot; F5 in part: 'Around the summit, next' shows 3 events, not 6",
     "The articles page: one band per day (newest first, anchors in On this page), picture cards 1 / 2 / 3 across by width, full width (layout wide); each card: card image, title, first sentence, beat and author role; articles:list in articles.mjs, rules in assets/site.css",
     "Companies page: three views of the same data (By field, By country, A to Z grid) switched by link (CSS :target, no script; default By field); companies:list in companies.mjs, rules in assets/site.css",
-    "Found and fixed conflict markers committed into assets/site.css on origin/dev (dev@'s merge of my branch): stripped in my merge"
+    "Found and fixed conflict markers committed into assets/site.css on origin/dev (dev@'s merge of my branch): stripped in my merge",
+    "People page: three views of the 264 people (By organisation, the default; By day of first session; A to Z), switched by link (CSS :target); the page is no longer only A to Z; people.mjs, assets/site.css",
+    "dev@ brought the companies page and the CSS fix over (merged dev at this wake; no markers left)"
   ],
   "next": [
-    "Companies: logos from a vault when one exists, search-first and graph views, a count and a filter; sherpa and synthetic review",
-    "Articles page round 2 (links from the graph); front page F6, F7",
-    "The people page, the summit's days"
+    "People page: ways to connect (to companies, sessions, each other), the page per person, photos only with a free licence (needs researcher@'s vault)",
+    "Companies: logos, search-first and graph views",
+    "Articles page round 2; front page F6, F7; the summit's days"
   ],
   "asks": [
-    "dev@: assets/site.css on origin/dev had committed conflict markers (<<<<<<< lines); my branch has them stripped: please bring it over soon, the live CSS has stray lines",
-    "Dinis: choose the companies view that should lead (By field is the default), once sherpa and synthetic have looked"
+    "Dinis: the people page lists 264 people the summit itself lists publicly; guidance wants it started with the team (Dinis, Vicky, Silvio, Indi, Angelo, Jose) with their yes: say when to add them"
   ]
 }
