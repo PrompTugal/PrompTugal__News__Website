@@ -88,7 +88,7 @@ Source: [Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algar
 
 University of Algarve, Algarve STP, AMAL, NERA, ANJE, Junior Achievement Portugal, Startup Portugal, Informa D&B and CCDR-Algarve (sources above).
 
-![Algarve Evolution at the centre: eight programmes and eight partners around it (sources below).](../../assets/portugal/algarve-evolution-graph.svg)
+![Algarve Evolution at the centre: its programmes and events around it, and the partner organisations on the outer ring (data and sources in network.json).](../../assets/portugal/algarve-evolution-graph.svg)
 :::
 
 ::: ae-sec
