@@ -1,0 +1,912 @@
+{
+  "read": "2026-11-06T03:08:02.093Z",
+  "articles": [
+    {
+      "slug": "brazil-startup-mission",
+      "title": "Brazil's startup mission comes to Web Summit Lisbon",
+      "short_title": "Brazil's startup mission",
+      "beat": "Announcements",
+      "date": "2026-11-06",
+      "figure": {
+        "value": "100",
+        "label": "startups in Brazil's national selection",
+        "quote": "Its national selection is 100 startups."
+      },
+      "points": [
+        {
+          "text": "ApexBrasil and Sebrae run a joint mission to Lisbon",
+          "quote": "Brazil's trade and investment agency, ApexBrasil, and Sebrae, its small business service, run a joint mission to Web Summit Lisbon, from 8 to 13 November (9 to 13 for most of the delegation)."
+        },
+        {
+          "text": "National selection of 100 startups; Sebrae helps top 40",
+          "quote": "Its national selection is 100 startups. Sebrae pays flights and travel insurance for one person from each of the top 40, if they qualify."
+        },
+        {
+          "text": "About 200 companies, says ApexBrasil; Sebrae expected 300",
+          "quote": "ApexBrasil says about 200 Brazilian companies take part, around a 324 square metre pavilion in the MEO Arena. In September Sebrae expected about 300 startups in the delegation it leads."
+        },
+        {
+          "text": "Training, meeting rooms, investor meetings and follow-up",
+          "quote": "The mission offers training before the trip, meeting rooms in the Brazil Pavilion, investor meetings and follow-up after the summit."
+        }
+      ],
+      "entities": [
+        {
+          "name": "ApexBrasil",
+          "type": "organisation",
+          "role": "Brazil's trade and investment agency"
+        },
+        {
+          "name": "Sebrae",
+          "type": "organisation",
+          "role": "Small business service, co-runs mission"
+        },
+        {
+          "name": "Brazil Pavilion",
+          "type": "place",
+          "role": "324 square metre base"
+        },
+        {
+          "name": "MEO Arena",
+          "type": "place",
+          "role": "Where the pavilion stands"
+        },
+        {
+          "name": "Lusa",
+          "type": "organisation",
+          "role": "News agency reporting the figures"
+        },
+        {
+          "name": "Serpro",
+          "type": "organisation",
+          "role": "Federal data service, supports mission"
+        },
+        {
+          "name": "Web Summit Lisbon",
+          "type": "event",
+          "role": "The summit the mission joins"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "30 September",
+          "what": "100 selected startups announced"
+        },
+        {
+          "when": "8 November",
+          "what": "Pitch training for 18 startups"
+        },
+        {
+          "when": "9 November",
+          "what": "Internationalisation seminar"
+        },
+        {
+          "when": "10 to 12 November",
+          "what": "Three summit days"
+        },
+        {
+          "when": "13 November",
+          "what": "Closing session on putting learning into practice"
+        }
+      ],
+      "kind": "network",
+      "sources": [
+        "https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf",
+        "https://agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-e-apexbrasil-anunciam-startups-selecionadas-para-o-web-summit-lisboa-2026/",
+        "https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/",
+        "https://websummit.com/essentials/venue/",
+        "https://paraiba.pb.gov.br/noticias",
+        "https://fapesq.rpp.br/",
+        "https://apexbrasil.com.br/"
+      ],
+      "kind_note": "designer: the article says the counts disagree (100, about 200, about 300), so no single count is drawn"
+    },
+    {
+      "slug": "europe-in-pavilion-4",
+      "title": "Europe in Pavilion 4: the Commission's week at Web Summit",
+      "short_title": "Europe in Pavilion 4",
+      "beat": "Europe",
+      "date": "2026-11-06",
+      "figure": {
+        "value": "10 to 12 November",
+        "label": "The Commission's digital department in Lisbon",
+        "quote": "The Commission's digital department, DG CONNECT, will be in Lisbon from 10 to 12 November, it says."
+      },
+      "points": [
+        {
+          "text": "Henna Virkkunen on Centre Stage, 10 November",
+          "quote": "Executive Vice-President Henna Virkkunen speaks on Centre Stage on 10 November, on Europe's tech sovereignty."
+        },
+        {
+          "text": "Sessions on AI, data spaces, funding, supercomputing",
+          "quote": "Sessions cover EU help for AI businesses, data spaces, EU funding, IP-backed finance and free supercomputing."
+        },
+        {
+          "text": "DG GROW (E415), HaDEA (E418), EuroHPC (E405)",
+          "quote": "DG GROW (E415) and HaDEA (E418) are in Pavilion 4; EuroHPC is at stand E405."
+        },
+        {
+          "text": "The Netherlands brings a national delegation",
+          "quote": "The Netherlands brings a national delegation, with its Ministry of Foreign Affairs and its embassy in Lisbon."
+        }
+      ],
+      "entities": [
+        {
+          "name": "European Commission",
+          "type": "organisation",
+          "role": "Brings sessions and stands"
+        },
+        {
+          "name": "Henna Virkkunen",
+          "type": "person",
+          "role": "Executive Vice-President, Centre Stage"
+        },
+        {
+          "name": "HaDEA",
+          "type": "organisation",
+          "role": "EU funding workshop, stand E418"
+        },
+        {
+          "name": "EuroHPC",
+          "type": "organisation",
+          "role": "Free supercomputing masterclass, E405"
+        },
+        {
+          "name": "EUIPO",
+          "type": "organisation",
+          "role": "IP-backed finance panel"
+        },
+        {
+          "name": "DG GROW",
+          "type": "organisation",
+          "role": "Stand E415, Pavilion 4"
+        },
+        {
+          "name": "RVO",
+          "type": "organisation",
+          "role": "Organises the Dutch delegation"
+        },
+        {
+          "name": "Pavilion 4",
+          "type": "place",
+          "role": "Home of the EU stands"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "10 November, from 11:05 to 11:25",
+          "what": "Virkkunen fireside chat, Centre Stage"
+        },
+        {
+          "when": "10 November",
+          "what": "DG CONNECT masterclass on data spaces"
+        },
+        {
+          "when": "11 November at 12:10",
+          "what": "EUIPO panel on IP-backed finance"
+        },
+        {
+          "when": "11 November at 15:30",
+          "what": "HaDEA workshop on EU funding"
+        },
+        {
+          "when": "11 November from 16:00",
+          "what": "EuroHPC masterclass on free supercomputing"
+        },
+        {
+          "when": "12 November at 13:00",
+          "what": "EUIPO and INPI meetup on IP"
+        }
+      ],
+      "kind": "schedule",
+      "sources": [
+        "https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate",
+        "https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en",
+        "https://english.rvo.nl/events/web-summit-2026-lisbon",
+        "https://inpi.justica.gov.pt/",
+        "https://websummit.com/speakers/",
+        "https://www.euipo.europa.eu/en/news"
+      ]
+    },
+    {
+      "slug": "following-robotics-at-web-summit",
+      "title": "Following robotics at Web Summit: from the lineup to Técnico's stand",
+      "short_title": "Following robotics at Web Summit",
+      "beat": "AI and robotics (Connections: the summit)",
+      "date": "2026-11-06",
+      "figure": {
+        "value": "Two",
+        "label": "of Web Summit's listed speakers are robots",
+        "quote": "Two of the speakers it lists are robots: AGIBOT's humanoid Agibot A3 and Galbot's G1."
+      },
+      "points": [
+        {
+          "text": "Two listed speakers are robots: Agibot A3, Galbot G1",
+          "quote": "Web Summit says 800 speakers come to Lisbon, \"from AI to robotics\". Two of the speakers it lists are robots: AGIBOT's humanoid Agibot A3 and Galbot's G1."
+        },
+        {
+          "text": "Unitree co-founder Li Chen is on the list",
+          "quote": "Li Chen, a co-founder of the Chinese robot maker Unitree, is also on the speaker list."
+        },
+        {
+          "text": "Técnico shows Unitree robots at stand E272",
+          "quote": "On the floor, Técnico, the University of Lisbon's engineering school, shows robots at its stand in Pavilion 2 (E272) from 10 to 12 November, among them a Unitree humanoid and a Unitree quadruped."
+        },
+        {
+          "text": "The stage to stand link is our suggestion",
+          "quote": "The link between the stage and the stand is our suggestion for visitors. No source says the speakers and Técnico plan to meet."
+        }
+      ],
+      "entities": [
+        {
+          "name": "AGIBOT",
+          "type": "company",
+          "role": "Maker of Agibot A3 humanoid"
+        },
+        {
+          "name": "Galbot",
+          "type": "company",
+          "role": "Maker of the Galbot G1"
+        },
+        {
+          "name": "Unitree",
+          "type": "company",
+          "role": "Chinese robot maker"
+        },
+        {
+          "name": "Li Chen",
+          "type": "person",
+          "role": "Unitree co-founder, listed speaker"
+        },
+        {
+          "name": "Técnico",
+          "type": "organisation",
+          "role": "Shows robots at stand E272"
+        },
+        {
+          "name": "Institute for Systems and Robotics",
+          "type": "organisation",
+          "role": "Brings the robot Lola"
+        },
+        {
+          "name": "Pavilion 2",
+          "type": "place",
+          "role": "Técnico's stand, E272"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "10 to 12 November",
+          "what": "Técnico's robots, Pavilion 2, E272"
+        }
+      ],
+      "kind": "network",
+      "sources": [
+        "https://websummit.com/speakers/",
+        "https://websummit.com/attendees/lis26/dfb44138-a865-48d1-8c1e-857dfa87cb2e/agibot-a3",
+        "https://websummit.com/attendees/lis26/23e2dc6e-fe0f-4594-a2e1-b3d56a638b78/galbot-g1",
+        "https://websummit.com/attendees/lis26/4dfde31c-9ab3-4585-8b31-6241fd2d918e/li-chen",
+        "https://websummit.com/schedule/",
+        "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/"
+      ]
+    },
+    {
+      "slug": "gender-in-tech-report-2026",
+      "title": "Gender in Tech report: 84% see women in leadership",
+      "short_title": "Gender in Tech report",
+      "beat": "Announcements",
+      "date": "2026-11-06",
+      "figure": {
+        "value": "84%",
+        "label": "report women in leadership at their company",
+        "quote": "84% of respondents report women in leadership at their company."
+      },
+      "points": [
+        {
+          "text": "84% see women in leadership; 35% at C-suite",
+          "quote": "84% of respondents report women in leadership at their company, and 35% say women are represented at C-suite level."
+        },
+        {
+          "text": "Half experience sexism; 58% say pay is unfair",
+          "quote": "The old barriers remain: half still experience sexism, and 58% say they are not paid fairly compared with men."
+        },
+        {
+          "text": "42% considered stepping back; 52% aged 35 to 44",
+          "quote": "42% have considered cutting their hours, stepping back from leadership or leaving tech. Among women aged 35 to 44, it is 52%."
+        },
+        {
+          "text": "75% hoped AI would help; 31% say it has",
+          "quote": "Hope in AI has cooled: last year 75% believed AI could help make tech more equal; this year 31% say it has."
+        }
+      ],
+      "entities": [
+        {
+          "name": "Web Summit",
+          "type": "organisation",
+          "role": "Publishes the seventh report"
+        },
+        {
+          "name": "Carolyn Quinlan",
+          "type": "person",
+          "role": "Web Summit's VP of Community"
+        },
+        {
+          "name": "Gender in Tech report",
+          "type": "topic",
+          "role": "Survey of over 1,000 women"
+        },
+        {
+          "name": "Web Summit Lisbon",
+          "type": "event",
+          "role": "Summit the report precedes"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "27 October 2026",
+          "what": "Seventh Gender in Tech report published"
+        },
+        {
+          "when": "9 to 12 November",
+          "what": "Web Summit Lisbon"
+        }
+      ],
+      "kind": "numbers",
+      "sources": [
+        "https://websummit.com/blog/news/women-are-leading-in-tech-so-why-are-so-many-considering-leaving/",
+        "https://websummit.com/women-in-tech/",
+        "https://docsend.com/view/wsagdvb78uahhhst"
+      ]
+    },
+    {
+      "slug": "lisbon-universities-at-web-summit",
+      "title": "Lisbon's universities at Web Summit: two stands and a pitch day",
+      "short_title": "Lisbon's universities at Web Summit",
+      "beat": "Portugal",
+      "date": "2026-11-06",
+      "figure": {
+        "value": "nine",
+        "label": "Portuguese universities at the UniVerse pitch day",
+        "quote": "On 10 November ULisboa hosts the second UniVerse: Academia Empreendedora, with a pitch competition for startups from nine Portuguese universities."
+      },
+      "points": [
+        {
+          "text": "ULisboa stand in Pavilion 1, 10 to 12 November",
+          "quote": "The University of Lisbon (ULisboa) has a stand in Pavilion 1 from 10 to 12 November, its second Web Summit in a row, with projects from its faculties and its incubator."
+        },
+        {
+          "text": "Técnico's stand E272: robots, VR dive, six spin-offs",
+          "quote": "Técnico, ULisboa's engineering school, has its own stand in Pavilion 2 (E272), with robots, a virtual reality dive and six spin-offs: Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves."
+        },
+        {
+          "text": "UniVerse pitch day for nine universities, 10 November",
+          "quote": "On 10 November ULisboa hosts the second UniVerse: Academia Empreendedora, with a pitch competition for startups from nine Portuguese universities."
+        },
+        {
+          "text": "ULisboa says four of six unicorns came from it",
+          "quote": "ULisboa says it ranked first in Startup Portugal's 2025 ranking of entrepreneurial universities, and that four of Portugal's six unicorns came from its ecosystem."
+        }
+      ],
+      "entities": [
+        {
+          "name": "University of Lisbon (ULisboa)",
+          "type": "organisation",
+          "role": "Pavilion 1 stand, hosts UniVerse"
+        },
+        {
+          "name": "Técnico",
+          "type": "organisation",
+          "role": "Engineering school, stand E272"
+        },
+        {
+          "name": "Arlindo Oliveira",
+          "type": "person",
+          "role": "Técnico professor, INESC president, panellist"
+        },
+        {
+          "name": "UniVerse: Academia Empreendedora",
+          "type": "event",
+          "role": "Pitch day, 10 November"
+        },
+        {
+          "name": "Startup Portugal",
+          "type": "organisation",
+          "role": "Ranked ULisboa first in 2025"
+        },
+        {
+          "name": "Fundação Santander",
+          "type": "organisation",
+          "role": "Supports Técnico's participation"
+        },
+        {
+          "name": "OutSystems",
+          "type": "company",
+          "role": "Unicorn ULisboa counts as its"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "10 to 12 November",
+          "what": "ULisboa stand in Pavilion 1"
+        },
+        {
+          "when": "10 November",
+          "what": "UniVerse pitch day, nine universities"
+        }
+      ],
+      "kind": "network",
+      "sources": [
+        "https://www.ulisboa.pt/en/noticia/ulisboas-innovation-and-entrepreneurship-ecosystem-web-summit-2026",
+        "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/",
+        "https://websummit.com/essentials/venue-essentials/"
+      ]
+    },
+    {
+      "slug": "road-2-web-summit-2026",
+      "title": "Road 2 Web Summit: Portugal's startups head for Lisbon",
+      "short_title": "Road 2 Web Summit",
+      "beat": "Portugal",
+      "date": "2026-11-06",
+      "figure": {
+        "value": "Up to 125",
+        "label": "Portuguese companies to be selected",
+        "quote": "Up to 125 Portuguese companies are to be selected."
+      },
+      "points": [
+        {
+          "text": "Eleventh edition selects up to 125 Portuguese startups",
+          "quote": "Road 2 Web Summit, run by [Startup Portugal](../companies/startup-portugal/index.html) and Web Summit, is in its eleventh edition and selects up to 125 Portuguese startups for this year's summit."
+        },
+        {
+          "text": "Bootcamp, 50% off packages, space on Portugal's stand",
+          "quote": "The selected startups get a bootcamp in Porto and Lisbon, 50% off Web Summit's ALPHA or BETA startup packages and extra exhibition space on Portugal's stand."
+        },
+        {
+          "text": "Galp prizes: 15,000 euros and 5,000 euros",
+          "quote": "Galp sponsors two prizes: 15,000 euros for the Most Promising Startup and 5,000 euros for the Best Performing Startup."
+        },
+        {
+          "text": "Winner announced 12 November, 12:30, Stage 2",
+          "quote": "The 2026 winner is announced at a press conference on Thursday 12 November, at 12:30 on Stage 2."
+        }
+      ],
+      "entities": [
+        {
+          "name": "Startup Portugal",
+          "type": "organisation",
+          "role": "Runs the programme"
+        },
+        {
+          "name": "Web Summit",
+          "type": "organisation",
+          "role": "Co-runs the programme"
+        },
+        {
+          "name": "Galp",
+          "type": "company",
+          "role": "Sponsors two prizes"
+        },
+        {
+          "name": "Miguel d'Aguiar",
+          "type": "person",
+          "role": "Executive Director, Startup Portugal"
+        },
+        {
+          "name": "Margarida David",
+          "type": "person",
+          "role": "Startups Manager, Web Summit"
+        },
+        {
+          "name": "Granter",
+          "type": "company",
+          "role": "Latest Portuguese PITCH winner"
+        },
+        {
+          "name": "Portugal's stand",
+          "type": "place",
+          "role": "Extra exhibition space for startups"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "9 to 12 November",
+          "what": "Web Summit in Lisbon"
+        },
+        {
+          "when": "Thursday 12 November, from 12:30 to 12:50",
+          "what": "Winner press conference, Stage 2"
+        }
+      ],
+      "kind": "numbers",
+      "sources": [
+        "https://executivedigest.sapo.pt/portugal-vai-levar-125-startups-a-corrida-pelo-palco-global-da-web-summit/",
+        "https://tek.sapo.pt/extras/site-do-dia/artigos/road-2-web-summit-2026-ja-aceita-candidaturas-de-startups-portuguesas-para-mais-uma-edicao/",
+        "https://startupportugal.com/pt/programa/road-2-web-summit/",
+        "https://www.jornaldenegocios.pt/empresas/web-summit/detalhe/framedropai-e-deeply-vencem-iniciativa-da-startup-portugal-e-recebem-20-mil-euros",
+        "https://websummit.com/sessions/lis26/66c7529f-b060-4e49-b9ba-817ae6db8f0e/press-conference-road-2-web-summit-2026-winner/"
+      ]
+    },
+    {
+      "slug": "tuesday-10-november-three-ways-in",
+      "title": "Tuesday 10 November: Europe on stage, universities pitching, first-timers meeting",
+      "short_title": "Tuesday 10 November",
+      "beat": "Connections: the summit",
+      "date": "2026-11-06",
+      "figure": {
+        "value": "three",
+        "label": "events stand out on Tuesday",
+        "quote": "On Tuesday the 10th, three events stand out."
+      },
+      "points": [
+        {
+          "text": "Three Tuesday picks: policy, pitch day, first-timers meetup",
+          "quote": "Three things on Tuesday 10 November suit different people: Europe's tech policy on Centre Stage, a pitch day for university startups, and a meetup for first-timers."
+        },
+        {
+          "text": "Virkkunen fireside chat, Centre Stage, 11:05 to 11:25",
+          "quote": "Executive Vice-President Henna Virkkunen has a fireside chat, \"Has Europe's tech moment arrived?\", on Centre Stage from 11:05 to 11:25, the Commission says. A Commission masterclass on data spaces follows at 12:00."
+        },
+        {
+          "text": "First-timers meetup 11:00 to 11:55 overlaps the chat",
+          "quote": "Web Summit lists a \"First timers at Web Summit meetup\" from 11:00 to 11:55 in Meetup 4. It overlaps the fireside chat, so a newcomer has to pick one."
+        },
+        {
+          "text": "UniVerse pitch day for nine Portuguese universities",
+          "quote": "The University of Lisbon hosts UniVerse: Academia Empreendedora, with a pitch competition for startups from nine Portuguese universities. Its stand (Pavilion 1) and Técnico's (Pavilion 2, E272) open the same day."
+        }
+      ],
+      "entities": [
+        {
+          "name": "Henna Virkkunen",
+          "type": "person",
+          "role": "Executive Vice-President, fireside chat"
+        },
+        {
+          "name": "European Commission",
+          "type": "organisation",
+          "role": "Fireside chat and masterclass"
+        },
+        {
+          "name": "DG Connect",
+          "type": "organisation",
+          "role": "Data spaces masterclass"
+        },
+        {
+          "name": "University of Lisbon (ULisboa)",
+          "type": "organisation",
+          "role": "Hosts UniVerse pitch day"
+        },
+        {
+          "name": "Técnico",
+          "type": "organisation",
+          "role": "Stand E272, six spin-offs"
+        },
+        {
+          "name": "Web Summit",
+          "type": "organisation",
+          "role": "Lists the first-timers meetup"
+        },
+        {
+          "name": "Centre Stage",
+          "type": "place",
+          "role": "Venue of the fireside chat"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "11:00 to 11:55",
+          "what": "First timers meetup, Meetup 4"
+        },
+        {
+          "when": "11:05 to 11:25",
+          "what": "Virkkunen fireside chat, Centre Stage"
+        },
+        {
+          "when": "12:00, until 12:45",
+          "what": "Data spaces masterclass for SMEs"
+        },
+        {
+          "when": "10 November",
+          "what": "UniVerse: Academia Empreendedora pitch day"
+        },
+        {
+          "when": "until 12 November",
+          "what": "ULisboa and Técnico stands open"
+        }
+      ],
+      "kind": "schedule",
+      "sources": [
+        "https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate",
+        "https://websummit.com/schedule/",
+        "https://websummit.com/sessions/lis26/a0f9cc27-ad2c-43c5-b67e-bb417ac20e0e/first-timers-at-web-summit-meetup/",
+        "https://www.ulisboa.pt/en/noticia/ulisboas-innovation-and-entrepreneurship-ecosystem-web-summit-2026",
+        "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/"
+      ]
+    },
+    {
+      "slug": "web-summit-2026-in-numbers",
+      "title": "Web Summit 2026 in numbers: 70,000 people, 10,000 startups",
+      "short_title": "Web Summit 2026 in numbers",
+      "beat": "Announcements",
+      "date": "2026-11-06",
+      "figure": {
+        "value": "more than 70,000",
+        "label": "attendees expected in Lisbon",
+        "quote": "Web Summit expects more than 70,000 attendees from more than 100 countries in Lisbon, from 9 to 12 November, including 10,000 startups."
+      },
+      "points": [
+        {
+          "text": "Over 70,000 attendees expected, including 10,000 startups",
+          "quote": "Web Summit expects more than 70,000 attendees from more than 100 countries in Lisbon, from 9 to 12 November, including 10,000 startups."
+        },
+        {
+          "text": "800 speakers and 17 content tracks",
+          "quote": "It lists 800 speakers and 17 content tracks over four days, from AI and cybersecurity to health, energy and sport."
+        },
+        {
+          "text": "2025: over 22,000 applied, about 2,700 got in",
+          "quote": "The startup programme is selective: in 2025, over 22,000 startups applied and about 2,700 got in, according to Web Summit."
+        },
+        {
+          "text": "AI sharpens thinking (55%), adds workload (60%)",
+          "quote": "Its first State of the Industry survey, of 1,455 people in its community, found most think AI sharpens their thinking (55%) but adds to their workload (60%)."
+        }
+      ],
+      "entities": [
+        {
+          "name": "Web Summit",
+          "type": "organisation",
+          "role": "Gives the 2026 figures"
+        },
+        {
+          "name": "Nidhi Naithani",
+          "type": "person",
+          "role": "SVP of Technology Operations"
+        },
+        {
+          "name": "State of the Industry survey",
+          "type": "topic",
+          "role": "1,455 people polled on AI"
+        },
+        {
+          "name": "MEO Arena",
+          "type": "place",
+          "role": "Summit venue"
+        },
+        {
+          "name": "FIL",
+          "type": "place",
+          "role": "Summit venue"
+        },
+        {
+          "name": "Lusa",
+          "type": "organisation",
+          "role": "Reported the 2025 figures"
+        },
+        {
+          "name": "ApexBrasil",
+          "type": "organisation",
+          "role": "Mission rules give 2025 figures"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "22 October",
+          "what": "State of the Industry survey published"
+        },
+        {
+          "when": "9 to 12 November",
+          "what": "Web Summit Lisbon, MEO Arena and FIL"
+        }
+      ],
+      "kind": "numbers",
+      "sources": [
+        "https://websummit.com/blog/news/web-summits-first-state-of-the-industry-survey-finds-tech-torn-on-ai/",
+        "https://websummit.com/tracks/",
+        "https://websummit.com/blog/startups-investors/how-we-select-our-startups/",
+        "https://websummit.com/speakers/",
+        "https://websummit.com/essentials/venue/",
+        "https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf",
+        "https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/"
+      ]
+    },
+    {
+      "slug": "your-first-day-at-web-summit",
+      "title": "Web Summit Lisbon: your first day, from airport to arena",
+      "short_title": "Your first day, airport to arena",
+      "beat": "The summit",
+      "date": "2026-11-06",
+      "figure": {
+        "value": "23 euros",
+        "label": "transport pass for 3 days",
+        "quote": "The transport pass costs 23 euros for 3 days or 31.50 euros for 5, sold in person only."
+      },
+      "points": [
+        {
+          "text": "Collect wristband at airport or Pavilhão de Portugal",
+          "quote": "Collect your lanyard and wristband at Lisbon airport or Pavilhão de Portugal, from Saturday 7 November. Bring your ticket and photo ID."
+        },
+        {
+          "text": "Oriente metro is about 300 metres from arena",
+          "quote": "Web Summit runs from 9 to 12 November at the MEO Arena and FIL. Oriente metro station is about 300 metres from the arena."
+        },
+        {
+          "text": "Carris \"Shuttle Web Summit\" bus, 9 to 12 November",
+          "quote": "Carris runs a \"Shuttle Web Summit\" bus between Praça do Comércio and Oriente, from Monday 9 to Thursday 12 November."
+        },
+        {
+          "text": "Pass: 23 euros (3 days), 31.50 euros (5)",
+          "quote": "The transport pass costs 23 euros for 3 days or 31.50 euros for 5, sold in person only."
+        }
+      ],
+      "entities": [
+        {
+          "name": "Web Summit",
+          "type": "organisation",
+          "role": "Registration, venue and app"
+        },
+        {
+          "name": "MEO Arena",
+          "type": "place",
+          "role": "Main venue"
+        },
+        {
+          "name": "Pavilhão de Portugal",
+          "type": "place",
+          "role": "Registration next to venue"
+        },
+        {
+          "name": "Humberto Delgado Airport",
+          "type": "place",
+          "role": "Registration at Terminal 1"
+        },
+        {
+          "name": "Carris",
+          "type": "company",
+          "role": "Runs the Shuttle Web Summit"
+        },
+        {
+          "name": "Metro de Lisboa",
+          "type": "company",
+          "role": "Sells the transport pass"
+        },
+        {
+          "name": "CP",
+          "type": "company",
+          "role": "Urban trains, pass partner"
+        },
+        {
+          "name": "Oriente",
+          "type": "place",
+          "role": "Metro station near arena"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "Saturday 7 November",
+          "what": "Wristband collection opens"
+        },
+        {
+          "when": "7 November, 9.30am to 10pm",
+          "what": "Registration at airport Terminal 1"
+        },
+        {
+          "when": "7 and 8 November, 12pm to 6pm",
+          "what": "Registration at Pavilhão de Portugal"
+        },
+        {
+          "when": "9 to 12 November",
+          "what": "Web Summit at MEO Arena and FIL"
+        },
+        {
+          "when": "Monday 9 to Thursday 12 November",
+          "what": "Carris Shuttle Web Summit runs"
+        },
+        {
+          "when": "Tuesday 10 November, from 11am to 11.55am",
+          "what": "First-timers meetup"
+        }
+      ],
+      "kind": "schedule",
+      "sources": [
+        "https://websummit.com/essentials/registration/",
+        "https://websummit.com/essentials/venue/",
+        "https://websummit.com/essentials/the-city/",
+        "https://websummit.com/essentials/app/",
+        "https://websummit.com/schedule/",
+        "https://www.metrolisboa.pt/2026/11/02/passe-de-transporte-para-web-summit/",
+        "https://www.cp.pt/info/documents/d/cp/desdobravel-digital-passe-transporte-web-summit-2026-eng-1",
+        "https://executivedigest.sapo.pt/web-summit-2026-metro-de-lisboa-prepara-reforco-de-comboios-e-vigilancia-para-receber-75-mil-participantes/",
+        "https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/"
+      ]
+    },
+    {
+      "slug": "newsroom-status-four-days-out",
+      "title": "The newsroom four days out, in pictures",
+      "short_title": "The newsroom four days out",
+      "beat": "how this newsroom is made",
+      "date": "2026-11-05",
+      "figure": {
+        "value": "109",
+        "label": "company profiles, each fact with its source",
+        "quote": "The newsroom now looks like a publication, with the summit's agenda on the front page and 109 company profiles, each fact with its source."
+      },
+      "points": [
+        {
+          "text": "Agenda on the front page, 109 sourced company profiles",
+          "quote": "The newsroom now looks like a publication, with the summit's agenda on the front page and 109 company profiles, each fact with its source."
+        },
+        {
+          "text": "26 sources mapped, nine story ideas, 210 agenda items",
+          "quote": "Vicky's three desks (research, curation, the programme) have run since Wednesday: 26 sources mapped, nine story ideas, 210 agenda items."
+        },
+        {
+          "text": "Indi's desks wait on one setting Dinis controls",
+          "quote": "Indi's desks (writing and fact-checking) wait on one setting that only Dinis can change."
+        },
+        {
+          "text": "First article signed with the newsroom's own key",
+          "quote": "This is the first article, signed with the newsroom's own key. Two more are planned by Saturday."
+        }
+      ],
+      "entities": [
+        {
+          "name": "Dinis Cruz",
+          "type": "person",
+          "role": "Operator, asked for the report"
+        },
+        {
+          "name": "Vicky's desks",
+          "type": "organisation",
+          "role": "Research, curation, the programme"
+        },
+        {
+          "name": "Indi's desks",
+          "type": "organisation",
+          "role": "Writing and fact-checking, waiting"
+        },
+        {
+          "name": "Metro de Lisboa",
+          "type": "company",
+          "role": "Page in the transport conflict"
+        },
+        {
+          "name": "WS-151",
+          "type": "topic",
+          "role": "Near-miss incident, now fixed"
+        }
+      ],
+      "schedule": [
+        {
+          "when": "Thu 5",
+          "what": "The publication look, live"
+        },
+        {
+          "when": "Fri 6",
+          "what": "Company pages, 109 profiles"
+        },
+        {
+          "when": "Fri 6",
+          "what": "The research run, 3 of 7 desks"
+        },
+        {
+          "when": "Sat 7",
+          "what": "First three articles, 1 of 3"
+        },
+        {
+          "when": "Sun 8",
+          "what": "Reader meter, traffic: not started"
+        },
+        {
+          "when": "Mon 9",
+          "what": "Summit mode, every 2h"
+        }
+      ],
+      "kind": "numbers",
+      "sources": [
+        "https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit",
+        "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit"
+      ]
+    }
+  ]
+}
