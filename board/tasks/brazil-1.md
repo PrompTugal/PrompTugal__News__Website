@@ -6,9 +6,9 @@ inputs: "https://websummit.com/speakers/ and session pages under https://websumm
 output: desks/correspondent/beats/brazil/found/brazil-1.json
 done_when: "at least the speaker search done in full for Brazil-related organisations, or a clear note of what could not be searched"
 budget: "one run, at most 40 page fetches; any model (Haiku or Sonnet is fine)"
-taken_by:
-taken_at:
-state: open
+taken_by: correspondent@PrompTugal.dinis (Brazilian beat, as a sub-agent)
+taken_at: 2026-11-06T06:50Z
+state: done
 ---
 # brazil-1: Brazilian speakers on the LIS26 programme
 

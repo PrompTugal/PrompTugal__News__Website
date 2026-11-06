@@ -11,7 +11,7 @@ const require = createRequire(import.meta.url)
 const S = require('../../../assets/search/search-core.js')
 
 export const order = 85
-export const assets = { css: ['assets/search/search.css'], js: ['assets/search/search-core.js', 'assets/search/search.js'] }
+export const assets = { css: ['assets/search/search.css'], js: ['assets/search/search-core.js', 'assets/search/search.js', 'assets/search/answer.js'] }
 
 // a short hand list of words readers use for what the data calls something else; the data's own aliases (company
 // names as speaker cards write them, the curators' same_as, topics' summit tracks, places' matches) go in the index

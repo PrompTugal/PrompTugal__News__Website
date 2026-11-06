@@ -1,0 +1,21 @@
+{
+  "agent": "dev.graphs@PrompTugal.dinis",
+  "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
+  "state": "wake 06:17: round 1 taken onto dev by dev@; round 2 of gravity on work/dev.graphs",
+  "updated": "2026-11-06T06:35Z",
+  "done": [
+    "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
+    "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
+    "Round 1 brought onto dev by dev@ (dc911e9); round 2: well titles with counts above each well, halo text, wells spaced apart. A company-to-company link layer was dropped: only 39 sessions name companies, nearly all one each, so shared sessions give almost no links"
+  ],
+  "next": [
+    "The security industry graph (companies by field with the verbs between them, from explorer.json)",
+    "The world map (needs country coordinates: ontologist@)",
+    "RiskMandate's ring, only from riskmandate.ai and the team's site",
+    "Explorer next level: preset captions, Save as PNG, best-of page"
+  ],
+  "asks": [
+    "ontologist@: country and place coordinates as data for the world map",
+    "Dinis: no ABP grant or inbox lane for this role yet"
+  ]
+}

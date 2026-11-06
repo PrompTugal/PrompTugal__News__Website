@@ -1,0 +1,326 @@
+{
+  "$schema": "none",
+  "article": "europe-in-pavilion-4",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate",
+      "status": 200
+    },
+    {
+      "url": "https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en",
+      "status": 200
+    },
+    {
+      "url": "https://english.rvo.nl/events/web-summit-2026-lisbon",
+      "status": 200
+    },
+    {
+      "url": "https://inpi.justica.gov.pt/",
+      "status": 200
+    },
+    {
+      "url": "https://websummit.com/speakers/",
+      "status": 200
+    }
+  ],
+  "spent_usd": 0.1209,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The European Commission is present at Web Summit Lisbon from 10 to 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "DG Connect will be at Web Summit in Lisbon from 10 to 12 November",
+          "note": "S1 says the Commission's DG Connect, not the whole Commission, is at the event on those dates, though it also says other Commission services will be present without giving dates."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "DG Connect will be at Web Summit in Lisbon from 10 to 12 November",
+          "note": "Source S1 confirms that DG Connect, along with other European Commission services and leadership, is present at Web Summit in Lisbon from 10 to 12 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "DG Connect will be at Web Summit in Lisbon from 10 to 12 November",
+          "note": "S1 states DG Connect, a European Commission directorate, will be at Web Summit in Lisbon from 10 to 12 November and other Commission services will also be present."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "Executive Vice-President Henna Virkkunen holds a fireside chat on Centre Stage on 10 November from 11:05 to 11:25.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "10 November 11:05-11:25 – Fireside chat with EVP Virkkunen",
+          "note": "S1's agenda gives the 11:05-11:25 slot on 10 November, and its introduction places the fireside chat on Centre Stage on 10 November."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Executive Vice-President Henna Virkkunen will also be present, taking part in a fireside chat on Europe’s technological sovereignty on Centre Stage on 10 November.",
+          "note": "S1 confirms Henna Virkkunen's fireside chat on Centre Stage on 10 November, with the agenda specifying the time slot from 11:05 to 11:25."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "on Centre Stage on 10 November; 10 November 11:05-11:25 – Fireside chat with EVP Virkkunen",
+          "note": "S1 states EVP Virkkunen takes part in a fireside chat on Centre Stage on 10 November and its agenda lists the fireside chat at 11:05-11:25."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "HaDEA runs a workshop, 'Investing in technological sovereignty: EU funding for your project', on 11 November at 15:30.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "On 11 November at 15.30 , the European Health and Digital Executive Agency (HaDEA) will host a workshop entitled “Investing in technological sovereignty: EU funding for your project”",
+          "note": "HaDEA's own event page gives the title, date and start time exactly as claimed, and S1's agenda (15:30-16:15, HaDEA Masterclass) is consistent with it."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "On 11 November at 15.30 , the European Health and Digital Executive Agency (HaDEA) will host a workshop entitled “Investing in technological sovereignty: EU funding for your project”",
+          "note": "Source S2 confirms that HaDEA will host the specified workshop on 11 November at 15:30."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "On 11 November at 15.30 , the European Health and Digital Executive Agency (HaDEA) will host a workshop entitled “Investing in technological sovereignty: EU funding for your project”",
+          "note": "S2 directly confirms HaDEA hosted the named workshop on 11 November at 15:30."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "EuroHPC runs a masterclass on 11 November from 16:00 on using Europe's supercomputers, AI Factories and quantum computers for free.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources Discover how industry can access Europe’s supercomputers, AI Factories and quantum computers for free.",
+          "note": "S1's agenda lists the EuroHPC Masterclass at 16:00-16:45 under 11 November, covering free access to Europe's supercomputers, AI Factories and quantum computers."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources Discover how industry can access Europe’s supercomputers, AI Factories and quantum computers for free.",
+          "note": "The source confirms that on 11 November at 16:00, EuroHPC hosts a masterclass on accessing Europe's supercomputers, AI Factories, and quantum computers for free."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources Discover how industry can access Europe’s supercomputers, AI Factories and quantum computers for free.",
+          "note": "S1's 11 November agenda lists the EuroHPC masterclass at 16:00-16:45 and says industry can access Europe’s supercomputers, AI Factories and quantum computers for free."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "EUIPO holds a panel on 11 November at 12:10 on how IP-backed finance can help companies raise money and scale.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "11 November 12:10 – 12:30 – EUIPO Panel",
+          "note": "S1's agenda lists an EUIPO panel on 11 November from 12:10 to 12:30 on IP-backed finance helping innovative companies access capital and scale, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "11 November 12:10 – 12:30 – EUIPO Panel The new financing frontier: How intellectual property unlocks capital. This discussion will examine how IP-backed finance can help innovative companies access capital and scale their businesses.",
+          "note": "The agenda in S1 confirms that EUIPO will hold a panel on 11 November at 12:10 discussing how IP-backed finance can help companies access capital and scale."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "11 November 12:10 – 12:30 – EUIPO Panel The new financing frontier: How intellectual property unlocks capital. This discussion will examine how IP-backed finance can help innovative companies access capital and scale their businesses.",
+          "note": "Source S1 lists an EUIPO panel on 11 November at 12:10 about IP-backed finance helping companies access capital and scale."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "EUIPO and INPI host an informal meetup on intellectual property for startups and creators on 12 November at 13:00.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "12 November 13:00 – 13:25 – EUIPO & INPI Meetup",
+          "note": "S1's Web Summit agenda lists an informal EUIPO & INPI meetup on startups, entrepreneurs and creators on 12 November from 13:00 to 13:25, matching the claim's date, time and purpose."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "12 November 13:00 – 13:25 – EUIPO & INPI Meetup Startup & Creator IP Meetup This informal gathering will bring together startups, entrepreneurs and creators to exchange views on intellectual property",
+          "note": "S1 confirms that EUIPO and INPI are hosting an informal meetup on intellectual property for startups, entrepreneurs, and creators on 12 November at 13:00."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "12 November 13:00 – 13:25 – EUIPO & INPI Meetup Startup & Creator IP Meetup This informal gathering will bring together startups, entrepreneurs and creators to exchange views on intellectual property",
+          "note": "S1 directly lists the EUIPO & INPI informal IP meetup for startups and creators on 12 November at 13:00."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "DG GROW is at stand E415, HaDEA at stand E418, both in Pavilion 4, and EuroHPC at stand E405.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "You can find DG GROW at stand E415 and HaDEA at stand E418, both in Pavilion 4, and EuroHPC at stand E405.",
+          "note": "S1 states all three stand locations and that both DG GROW and HaDEA are in Pavilion 4, and S2 independently confirms HaDEA at stand E418 in Pavilion 4."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "You can find DG GROW at stand E415 and HaDEA at stand E418, both in Pavilion 4, and EuroHPC at stand E405.",
+          "note": "The source explicitly confirms the stand locations for DG GROW, HaDEA, and EuroHPC, including that the first two are located in Pavilion 4."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "You can find DG GROW at stand E415 and HaDEA at stand E418, both in Pavilion 4, and EuroHPC at stand E405.",
+          "note": "Source S1 states exactly the stand locations and Pavilion 4 for DG GROW and HaDEA, plus EuroHPC at E405."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Four EU-funded projects join HaDEA's workshop: PERSEPHONE, RISER, AI-TranspWood and GreenChips-EDU.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "representatives of four EU-funded projects",
+          "note": "S2 says HaDEA's Web Summit workshop will include representatives of four EU-funded projects, and it names PERSEPHONE, RISER, AI-TranspWood and GreenChips-EDU."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "representatives of four EU-funded projects: Anton Koval - PERSEPHONE project: Developing autonomous robotic technologies and digital solutions to make the exploration and extraction of critical raw materials safer, more efficient and sustainable. Manolis Marazakis - RISER project: Developing a European, energy-efficient cloud infrastructure based on open-source RISC-V technology to strengthen Europe's digital autonomy. Susana Otero Belmar - AI-TranspWood project: Using artificial intelligence and advanced modelling to develop sustainable transparent wood materials with potential applications in construction, automotive, electronics and other industries. Jorge Fernandes - GreenChips-EDU project",
+          "note": "Source S2 confirms that representatives of these four EU-funded projects will speak at HaDEA's workshop."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "representatives of four EU-funded projects: Anton Koval - PERSEPHONE project: Developing autonomous robotic technologies and digital solutions to make the exploration and extraction of critical raw materials safer, more efficient and sustainable. Manolis Marazakis - RISER project: Developing a European, energy-efficient cloud infrastructure based on open-source RISC-V technology to strengthen Europe's digital autonomy. Susana Otero Belmar - AI-TranspWood project: Using artificial intelligence and advanced modelling to develop sustainable transparent wood materials with potential applications in construction, automotive, electronics and other industries. Jorge Fernandes - GreenChips-EDU project: Building Europe's next generation of microelectronics experts through innovative education and training programmes focused on sustainable semiconductor technologies.",
+          "note": "S2 states the HaDEA workshop speakers include representatives of four EU-funded projects named PERSEPHONE, RISER, AI-TranspWood, and GreenChips-EDU."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "The Netherlands Enterprise Agency (RVO) organises a Dutch delegation together with the Dutch Ministry of Foreign Affairs and the Embassy of the Netherlands in Lisbon.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "This mission is organised by the Netherlands Enterprise Agency (RVO) in cooperation with the Dutch Ministry of Foreign Affairs and the Embassy of the Kingdom of the Netherlands in Lisbon.",
+          "note": "S3, the RVO page for the Web Summit 2026 Dutch delegation, states that RVO organises the mission in cooperation with the Ministry of Foreign Affairs and the Embassy in Lisbon, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "This mission is organised by the Netherlands Enterprise Agency (RVO) in cooperation with the Dutch Ministry of Foreign Affairs and the Embassy of the Kingdom of the Netherlands in Lisbon.",
+          "note": "The source directly confirms that the mission is organised by the RVO alongside the Dutch Ministry of Foreign Affairs and the Embassy of the Kingdom of the Netherlands in Lisbon."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "organised by the Netherlands Enterprise Agency (RVO) in cooperation with the Dutch Ministry of Foreign Affairs and the Embassy of the Kingdom of the Netherlands in Lisbon",
+          "note": "S3 states the mission is organised by RVO in cooperation with the Dutch Ministry of Foreign Affairs and the Embassy in Lisbon."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "RVO's provisional programme lists a Dutch networking event on 11 November, and registration for the Dutch delegation is closed.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "A Dutch networking event (11 November). ... Registration is closed.",
+          "note": "S3 lists 'A Dutch networking event (11 November)' under the provisional programme and states 'Registration is closed' in the How to apply section, so both parts of the claim are supported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Registration is closed ... The provisional programme includes: ... A Dutch networking event (11 November).",
+          "note": "S3 confirms that RVO's provisional programme includes a Dutch networking event on 11 November and that registration for the delegation is closed."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "A Dutch networking event (11 November). ... Registration is closed.",
+          "note": "S3's provisional programme lists a Dutch networking event on 11 November and states registration is closed."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

@@ -2,6 +2,20 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 06:26 UTC (hourly wake)
+
+**Done**
+
+- S7, "Lisbon's startup awards, and the Algarve's plan beyond tourism", went through the story board: the draft, the check (`checks/S7.md`), then the article, signed. It covers the seven Unicorn Factory Lisboa winners (three of them build with AI; RTBeamTech is also on Técnico's stand at the summit) and Algarve Evolution's 2032 targets, including its AI and robotics pilot for 20 tourism businesses. The curator's three funding items had already gone into S4, and the article links there.
+
+**Blocked, or for others**
+
+- The inbox still cannot be drained from this session (it needs `sgit_ai`).
+- The name waits for Dinis's yes on the text.
+- For dev.portugal@: Algarve Evolution's organisation page could use what S7 sources (Dinis's meeting is on Saturday).
+
+**Left on this line:** 9 storylines (S8 next); the Brazil project's next rounds.
+
 ## Run of 6 November 2026, 05:26 UTC (hourly wake)
 
 **Done**

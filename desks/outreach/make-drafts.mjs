@@ -11,16 +11,24 @@ import crypto from 'node:crypto';
 const ROOT = process.cwd();
 const DESK = path.join(ROOT, 'desks/outreach');
 const SITE = 'https://promptugal.news';
-const DRAFTED = '2026-11-06T0400Z';
-const DRAFTED_ISO = '2026-11-06T04:00:00Z';
+const DRAFTED = '2026-11-06T0700Z';
+const DRAFTED_ISO = '2026-11-06T07:00:00Z';
 const THREAD = '2026-11-06-promptugal-page';
 const BY = 'outreach (PrompTugal.dinis)';
 
 const targets = JSON.parse(fs.readFileSync(path.join(DESK, 'targets.json'), 'utf8')).targets;
 
 // The editors (WS-177): proposed, for Dinis to confirm. Portuguese-language drafts to Dinis; the rest alternate.
+// Who sends (Dinis, 6 November 2026, about 06:25 UTC, board/guidance/2026-11-06-companies-graphs-media-backups.md
+// section 17): a person, "a mix between Vicky or Indi or Silvio or Jose, or even me ... on that format of vicky.agent.
+// So it's their agent power, but they send the emails." Each sends from their own .agent address on promptugal.news
+// (never written here). Which person sends which company is not decided: the editors below are proposed, and a
+// draft is reshaped for any other sender by changing SENDER_OF and running this again.
 const EDITORS = ['Vicky Wang', 'Indi Gupte'];
-function editorFor(t, i) { return t.language === 'pt' ? 'Dinis Cruz' : EDITORS[i % 2]; }
+const SENDER_OF = {};   // company id -> sender's name, once decided
+// The editorial board (/about/board/) signs as Editor; anyone else who sends signs as PrompTugal.news.
+const TITLE = name => (['Dinis Cruz', 'Vicky Wang', 'Indi Gupte'].includes(name) ? 'Editor, PrompTugal.news' : 'PrompTugal.news');
+function editorFor(t, i) { return SENDER_OF[t.id] || (t.language === 'pt' ? 'Dinis Cruz' : EDITORS[i % 2]); }
 
 // The sessions on each company's page: an event lists the company as a speaker's or a host's organisation.
 const sessions = {};
@@ -133,7 +141,7 @@ function en(name, url, s, ask, editor, kind, topic) {
       ...articlesEn(),
       `PrompTugal.news is a new newsroom from Portugal, for Europe, with one aim: to map the universe of AI in Portugal and the companies that come to it. Every fact on the page carries its source and the date we read it; if anything is wrong, reply and we correct it, dated.`,
       askEn(name, ask, kind),
-      `Best regards,\n${editor}\nEditor, PrompTugal.news`,
+      `Best regards,\n${editor}\n${TITLE(editor)}`,
       `PrompTugal.news belongs to a team that also works on RiskMandate, which sells Agent Behaviour Policies. So this is not independent coverage: we may write about companies the team hopes to meet or sell to. Our disclosure: ${SITE}/about/participant.html`,
       `Drafted by an AI agent, reviewed and sent by me. We found this address on your website; rather not hear from us? Reply and we will not write again.`,
     ].join('\n\n'),
@@ -152,7 +160,7 @@ function pt(name, url, s, ask, editor, kind, topic) {
       ...articlesPt(),
       `O PrompTugal.news é uma nova redação feita em Portugal, para a Europa, com um objetivo: mapear o universo da IA em Portugal e as empresas que cá vêm. Cada facto na página tem a sua fonte e a data em que o lemos; se algo estiver errado, respondam e corrigimos, com data.`,
       askPt(name, ask, kind),
-      `Cumprimentos,\n${editor}\nEditor, PrompTugal.news`,
+      `Cumprimentos,\n${editor}\n${TITLE(editor)}`,
       `O PrompTugal.news pertence a uma equipa que também trabalha na RiskMandate, que vende Agent Behaviour Policies. Por isso, isto não é cobertura independente: podemos escrever sobre empresas que a equipa espera conhecer ou a quem espera vender. A nossa declaração (em inglês): ${SITE}/about/participant.html`,
       `Escrito por um agente de IA, revisto e enviado por mim. Encontrámos este endereço no vosso site; preferem não receber? Respondam e não voltamos a escrever.`,
     ].join('\n\n'),
@@ -165,7 +173,7 @@ function pt(name, url, s, ask, editor, kind, topic) {
 function eml(msg, lang, id, editor) {
   const subj = /^[\x20-\x7e]*$/.test(msg.subject) ? msg.subject : `=?UTF-8?B?${Buffer.from(msg.subject).toString('base64')}?=`;
   return [
-    `Date: Fri, 06 Nov 2026 04:00:00 +0000`,
+    `Date: Fri, 06 Nov 2026 07:00:00 +0000`,
     `Subject: ${subj}`,
     `X-PrompTugal-Draft: from ${editor} (proposed), to ${id}'s published channel; addresses filled by the sender`,
     `X-PrompTugal-Drafted-By: ${BY}`,
@@ -200,7 +208,7 @@ targets.forEach((t, i) => {
     fs.writeFileSync(path.join(dir, `${base}.eml`), text);
     const card = {
       file: `${base}.eml`, direction: 'draft', language: lang, date: DRAFTED_ISO,
-      from: `${editor}, editor, PrompTugal.news (proposed; the address once Dinis creates it)`,
+      from: `${editor} (${SENDER_OF[t.id] ? 'decided' : 'proposed'}), from their own .agent address on promptugal.news (not written here)`,
       to: `${c.name}: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)`,
       subject: msg.subject,
       sha256: crypto.createHash('sha256').update(text).digest('hex'),
@@ -214,8 +222,8 @@ targets.forEach((t, i) => {
   const thread = {
     company: t.id, name: c.name, subject: `${name} on PrompTugal.news`, channel: 'email',
     our_people: [editor], their_contacts: 'in the private team CRM only',
-    state: 'draft, for review by Dinis and Silvio', owner: editor, owner_status: 'proposed',
-    next_step: 'Review; then the editor sends it from their promptugal.news address once it exists (small batches, 3 to 5 first)',
+    state: 'draft, for review by Dinis and Silvio', owner: editor, owner_status: SENDER_OF[t.id] ? 'decided' : 'proposed',
+    next_step: 'Review; then the person who sends it (Vicky, Indi, Silvio, Jose or Dinis) sends it from their own .agent address on promptugal.news (small batches, 3 to 5 first)',
     leads_with: url,
     page_facts_used: s.length ? s.map(x => ({ session: x.title, date: x.date, start: x.start, page: `${SITE}/events/${x.id}/`, source: x.source })) : [{ page: url, what: 'the page itself; no session names the company' }],
     from: { targets: 'desks/outreach/targets.json', rank: t.rank, priority: t.priority, ask: t.ask, replaces: `people/silvio/outreach/messages.json#${t.id} (the RiskMandate-led draft)` },

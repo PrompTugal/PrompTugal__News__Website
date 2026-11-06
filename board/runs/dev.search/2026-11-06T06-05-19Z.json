@@ -1,0 +1,107 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.search@PrompTugal.dinis",
+ "run": "2026-11-06T06-05-19Z",
+ "started": "2026-11-06T06:05:19.151Z",
+ "ended": "2026-11-06T06:06:13Z",
+ "line": "",
+ "policy": {
+  "version": "1.2.0",
+  "sha256": "0cdcc6613d36c01b"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T06:05:19.659Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T06:05:19.151Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "other": 1,
+   "git": 3,
+   "shell": 2,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": [
+   {
+    "sha": "cd6cecedd",
+    "subject": "dev.search@PrompTugal.dinis: key, ROLE.md and the reader's own profile (browser-only: pages read, searches, /profile/, tool profile.summary); gate OK; blocked o",
+    "files": 8
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T06:06:11.141Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/dev.search 2>&1: push to dev only",
+    "target": "node board/abp/tools/abp.mjs run-report --role dev.search 2>&1|tail -1; git add -A && git commit -q -m \"dev.search@PrompTugal.dinis: wake 06:05: rebased on origin/dev, fixed the new data checks on my ROLE.md and status.json; the big search "
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "cd6cecedd wrote assets/profile/profile.js",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "cd6cecedd wrote content/profile.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "cd6cecedd wrote data/site/nav.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "cd6cecedd wrote newsroom/build/features/profile.mjs",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 7,
+  "in_mandate": 6,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 4
+ }
+}

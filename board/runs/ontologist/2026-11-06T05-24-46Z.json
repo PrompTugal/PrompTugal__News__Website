@@ -3,15 +3,19 @@
  "agent": "ontologist@PrompTugal.dinis",
  "run": "2026-11-06T05-24-46Z",
  "started": "2026-11-06T05:24:46Z",
- "ended": "2026-11-06T05:24:46Z",
- "line": "05:21 wake: schemas for the board's status.json, ROLE.md, schedule.json and budgets.json, checked by the gate",
+ "ended": "2026-11-06T06:23:57Z",
+ "line": "06:21 wake: 1Password's past-edition source corrected for synthetic@; Airia's two flows",
  "policy": {
-  "version": "1.0.0",
-  "sha256": "c3f841facb039122"
+  "version": "1.2.0",
+  "sha256": "0cdcc6613d36c01b"
  },
  "sessions": 0,
  "requests": [],
  "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
  "tool_calls": {
   "total": 0,
   "by_kind": {}
@@ -29,11 +33,19 @@
  ],
  "mandate": {
   "actions": 0,
-  "commits": []
+  "commits": [
+   {
+    "sha": "fbcfdda29",
+    "subject": "ontologist@PrompTugal.dinis: schemas for the board's status.json, ROLE.md, schedule.json and budgets.json, checked by the gate",
+    "files": 7
+   }
+  ]
  },
  "reach": {
   "attempts": 0,
-  "denied": []
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
  },
  "breaches": [],
  "counts": {
