@@ -1,5 +1,7 @@
 PROMPTUGAL.NEWS - THE BUSINESS CARD, PROOF 4
-designer@PrompTugal.dinis, 6 November 2026, WS-177. For Dinis Cruz's final yes: nothing is ordered.
+designer@PrompTugal.dinis, 6 November 2026, WS-177. FINAL: Dinis Cruz said yes to proof 4 on 6 November 2026.
+The order: 100 cards, ProntaPrint Chiswick, placed by Dinis (a person places it; nothing is sent from here).
+The shop's page: https://promptugal.news/newsroom/design/cards-print/ (content/newsroom/design/cards-print.md).
 
 At Dinis's word (6 November): white stock and no solid colours (cheaper and simpler to print: type, the QR, hairlines
 and small bullets only, in ink with the brand's red and green); generic (the masthead, not a person); no Web Summit
