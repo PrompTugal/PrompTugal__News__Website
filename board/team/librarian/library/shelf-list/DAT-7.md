@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 7 of 10)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T18:58:39Z"
-site_version: "v0.1.316"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T22:26:02Z"
+site_version: "v0.1.363"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 7 of 10)
 
-100 cards, from `DAT.PE albert-wenger` to `DAT.PE jamie-ayala`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.PE adam-schwartz` to `DAT.PE james-vowles`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE adam-schwartz` | [Adam Schwartz](https://promptugal.news/people/adam-schwartz/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE albert-wenger` | [Albert Wenger](https://promptugal.news/people/albert-wenger/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE alexandra-geese` | [Alexandra Geese](https://promptugal.news/people/alexandra-geese/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE alexandre-neves` | [Alexandre Neves](https://promptugal.news/people/alexandre-neves/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.PE art-gilliland` | [Art Gilliland](https://promptugal.news/people/art-gilliland/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE arvind-jain` | [Arvind Jain](https://promptugal.news/people/arvind-jain/) | person | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.PE astrid-maier` | [Astrid Maier](https://promptugal.news/people/astrid-maier/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE babak-hodjat` | [Babak Hodjat](https://promptugal.news/people/babak-hodjat/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 626 to 650**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE babak-hodjat` | [Babak Hodjat](https://promptugal.news/people/babak-hodjat/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE bailey-pumfleet` | [Bailey Pumfleet](https://promptugal.news/people/bailey-pumfleet/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE balazs-orban` | [Balázs Orban](https://promptugal.news/people/balazs-orban/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE basma-ahmed-albadi` | [BASMA AHMED ALBADI](https://promptugal.news/people/basma-ahmed-albadi/) | person | programme@web-summit.vicky 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.PE clara-jacintho` | [Clara Jacintho](https://promptugal.news/people/clara-jacintho/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE conor-freeman` | [Conor Freeman](https://promptugal.news/people/conor-freeman/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE cristina-ferreira` | [Cristina Ferreira](https://promptugal.news/people/cristina-ferreira/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE cristina-nascimento` | [Cristina Nascimento](https://promptugal.news/people/cristina-nascimento/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 651 to 675**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE cristina-nascimento` | [Cristina Nascimento](https://promptugal.news/people/cristina-nascimento/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE dahai-li` | [Dahai Li](https://promptugal.news/people/dahai-li/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE daniela-braga` | [Daniela Braga](https://promptugal.news/people/daniela-braga/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE david-rhodes` | [David Rhodes](https://promptugal.news/people/david-rhodes/) | person | programme@web-summit.vicky 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.PE georja-calvin-smith` | [Georja Calvin-Smith](https://promptugal.news/people/georja-calvin-smith/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE gerasim-hovhannisyan` | [Gerasim Hovhannisyan](https://promptugal.news/people/gerasim-hovhannisyan/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE giacomo-ficari` | [Giacomo Ficari](https://promptugal.news/people/giacomo-ficari/) | person | programme@web-summit.vicky 6 Nov 2026 |
-| `DAT.PE gian-m-volpicelli` | [Gian M. Volpicelli](https://promptugal.news/people/gian-m-volpicelli/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 676 to 700**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE gian-m-volpicelli` | [Gian M. Volpicelli](https://promptugal.news/people/gian-m-volpicelli/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE gigi-danziger` | [Gigi Danziger](https://promptugal.news/people/gigi-danziger/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE gil-azevedo` | [Gil Azevedo](https://promptugal.news/people/gil-azevedo/) | person | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.PE giovanna-faggionato` | [Giovanna Faggionato](https://promptugal.news/people/giovanna-faggionato/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.PE james-ball` | [James Ball](https://promptugal.news/people/james-ball/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE james-galbraith` | [James Galbraith](https://promptugal.news/people/james-galbraith/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE james-vowles` | [James Vowles](https://promptugal.news/people/james-vowles/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE jamie-ayala` | [Jamie Ayala](https://promptugal.news/people/jamie-ayala/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-6.md) | [Next part](DAT-8.md)

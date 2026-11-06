@@ -1,0 +1,74 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T22-17-02Z",
+ "started": "2026-11-06T22:17:02.413Z",
+ "ended": "2026-11-06T22:30:08Z",
+ "line": "22:35: wave-1 first prompts for account B (journalist, correspondent, synthetic, designer, designer.experiments)",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T22:17:02.413Z",
+   "chars": 3759,
+   "sha256": "9f0f87c936828ad6",
+   "head": "<task-notification>\n<task-id>bw0bjmhjy</task-id>\n<tool-use-id>toolu_01DDPBbEU9yBtziU8WuhJzBX</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-06T22:29:46.462Z",
+   "chars": 128,
+   "sha256": "41caabebef381b2d",
+   "head": "Ok, the other agent and session had started, so what agents are we going to move there and which ones we are going to keep here?"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T22:29:02.796Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 3,
+  "by_kind": {
+   "git": 2,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 3,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 3,
+  "in_mandate": 3,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

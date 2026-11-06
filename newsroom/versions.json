@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.368",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: Dinis's decisions on S11, S18, S19 and S23; the hashed requirements for sgit-ai",
+    "by": "security@PrompTugal.dinis",
+    "from": "0eae0a3e8"
+  },
+  {
+    "version": "v0.1.367",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 22:37 wake: account B verified as Dinis's word (23 tasks disabled, sessions started by conductor.b@); 0 breaches; ABPs follow the moved agents by name",
+    "by": "abp@PrompTugal.dinis",
+    "from": "30fb55c25"
+  },
+  {
+    "version": "v0.1.366",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: T4's redrawn chart checked: pass (one caption word for the journalist)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "fba40d0d2"
+  },
+  {
+    "version": "v0.1.365",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the wave-1 first prompts for account B",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "4a7e46190"
+  },
+  {
+    "version": "v0.1.364",
+    "date": "2026-11-06",
+    "what": "conductor.b@PrompTugal.dinis: account B wired: own hourly task, librarian@ started there with its task",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b70497083"
+  },
+  {
     "version": "v0.1.363",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: wake 22:09: three worker branches, a conflict marker out, a gate check; status and run report",
