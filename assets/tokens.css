@@ -77,8 +77,26 @@
     :root { --fs-body: 18.5px; --gutter: 24px; }
 }
 
+/* ---------- the five themes (dev@web-summit.dinis, 6 November 2026, at Dinis's word, after newsroom.sgit.ai's five) ----------
+   assets/themes.js sets data-theme on <html> before the first paint: the reader's choice, kept in this browser, or with
+   none the system's (Paper by day, Ink by night). Each theme below sets every colour token, so none is half applied; the
+   gate's check reads this file and fails on a token a theme leaves out. Whatever the theme, colour belongs to the name:
+   the wordmark keeps its red T and green "ugal" (the light artwork on light themes, the dark on dark ones, by data-tone),
+   and every text colour holds 4.5:1 on its page and on the sunk panel.
+     paper       the default: the brand's paper and ink, links green          (light)
+     ink         the brand's own dark mode, paper on ink, the lifted accents   (dark)
+     broadsheet  brighter: white, near-black ink, the most contrast            (light)
+     archive     sepia, a newspaper kept in a drawer, for long reads          (light)
+     azulejo     night blue, the cobalt of Lisbon's tiles                      (dark)
+   Before 6 November there was one dark mode, by the system only; "dark" and "light" still work as names (the mockups). */
+
+/* each theme says which way it leans, so form controls and scrollbars follow */
+:root[data-theme="paper"], :root[data-theme="light"], :root[data-theme="broadsheet"], :root[data-theme="archive"] { color-scheme: light; }
+:root[data-theme="ink"], :root[data-theme="dark"], :root[data-theme="azulejo"] { color-scheme: dark; }
+
+/* Ink: the brand's dark mode. Also what a page gets with no script, when the system is dark. */
 @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
+    :root:not([data-theme]) {
         --paper: #111214; --paper-2: #1a1b1e; --panel: #1e1f23;
         --ink: #eceae4; --ink-2: #c3c0b7; --ink-3: #a6a39a;
         --rule: #eceae4; --rule-2: #5f5b51; --hair: #2e2f34;
@@ -87,11 +105,11 @@
         --ok: #84cf9c; --ok-soft: #16281c;
         --warn: #e9b55e; --warn-soft: #2f2412;
         --focus: #ffcf4d; --focus-ink: #111214;
-        --band: #1e1f23; --on-band: #eceae4; --on-band-2: #a6a39a;
+        --band: #1e1f23; --on-band: #eceae4; --on-band-2: #a6a39a; --live-on-band: #ff8f7d;
         --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .5);
-    }
 }
-:root[data-theme="dark"] {
+}
+:root[data-theme="ink"], :root[data-theme="dark"] {
     --paper: #111214; --paper-2: #1a1b1e; --panel: #1e1f23;
     --ink: #eceae4; --ink-2: #c3c0b7; --ink-3: #a6a39a;
     --rule: #eceae4; --rule-2: #5f5b51; --hair: #2e2f34;
@@ -100,6 +118,48 @@
     --ok: #84cf9c; --ok-soft: #16281c;
     --warn: #e9b55e; --warn-soft: #2f2412;
     --focus: #ffcf4d; --focus-ink: #111214;
-    --band: #1e1f23; --on-band: #eceae4; --on-band-2: #a6a39a;
+    --band: #1e1f23; --on-band: #eceae4; --on-band-2: #a6a39a; --live-on-band: #ff8f7d;
     --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .5);
+}
+
+/* Broadsheet: brighter. White page, near-black ink, the brand's green for links (7.2:1). */
+:root[data-theme="broadsheet"] {
+    --paper: #ffffff; --paper-2: #f1f1ee; --panel: #ffffff;
+    --ink: #0b0c0f; --ink-2: #33363d; --ink-3: #575b63;
+    --rule: #0b0c0f; --rule-2: #a6a6a1; --hair: #e3e3df;
+    --brand-red: #c52830; --brand-green: #006600; --brand: #006600; --brand-2: #004d00; --brand-soft: #e3f0e3; --on-brand: #ffffff;
+    --live: #b42318; --live-soft: #fbe7e4;
+    --ok: #2b6a3c; --ok-soft: #e3f1e6;
+    --warn: #8a5200; --warn-soft: #f8eedc;
+    --focus: #ffbf1f; --focus-ink: #0b0c0f;
+    --band: #0b0c0f; --on-band: #ffffff; --on-band-2: #c9c9c4; --live-on-band: #ff8f7d;
+    --shadow: 0 1px 2px rgba(11, 12, 15, .06), 0 8px 24px rgba(11, 12, 15, .10);
+}
+
+/* Archive: sepia. A warm page and a brown ink, for reading long pieces. */
+:root[data-theme="archive"] {
+    --paper: #efe6d2; --paper-2: #e5d9bf; --panel: #f7f0e1;
+    --ink: #2a2119; --ink-2: #4a3d30; --ink-3: #5f5244;
+    --rule: #2a2119; --rule-2: #a8977a; --hair: #d8caad;
+    --brand-red: #b0262d; --brand-green: #005c00; --brand: #005c00; --brand-2: #004400; --brand-soft: #e0e3c8; --on-brand: #fffaf0;
+    --live: #a3201a; --live-soft: #f1d9cc;
+    --ok: #2a6338; --ok-soft: #dfe3c9;
+    --warn: #7a4800; --warn-soft: #ecdcbc;
+    --focus: #ffbf1f; --focus-ink: #2a2119;
+    --band: #2a2119; --on-band: #efe6d2; --on-band-2: #cbbfa6; --live-on-band: #ff9b85;
+    --shadow: 0 1px 2px rgba(60, 44, 24, .08), 0 8px 24px rgba(60, 44, 24, .12);
+}
+
+/* Azulejo: night blue, the cobalt of Lisbon's tiles (the newsroom's first accent), with the brand's lifted red and green. */
+:root[data-theme="azulejo"] {
+    --paper: #0f1c36; --paper-2: #16274a; --panel: #172a4d;
+    --ink: #eef1f7; --ink-2: #c6cedd; --ink-3: #a3afc6;
+    --rule: #eef1f7; --rule-2: #3d5179; --hair: #233659;
+    --brand-red: #f5848a; --brand-green: #7cc98c; --brand: #7cc98c; --brand-2: #a8dcb2; --brand-soft: #173a33; --on-brand: #0b1a12;
+    --live: #ff9a8a; --live-soft: #3a1f2a;
+    --ok: #8fd6a6; --ok-soft: #17342c;
+    --warn: #f0c06e; --warn-soft: #33301f;
+    --focus: #ffcf4d; --focus-ink: #0f1c36;
+    --band: #0a1428; --on-band: #eef1f7; --on-band-2: #a3afc6; --live-on-band: #ff9a8a;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .45), 0 8px 24px rgba(0, 0, 0, .5);
 }

@@ -61,7 +61,7 @@ export function htmlPage(page, site) {
     const css = [...(site.assets?.css || []), ...(page.assets?.css || [])].map(c => `\n<link rel="stylesheet" href="${href(c)}">`).join('')
     const js = [...(site.assets?.js || []), ...(page.assets?.js || [])].map(s => `\n<script defer src="${href(s)}"></script>`).join('')
     const E = S.endorse
-    const endorse = `<p class="endorse"><a href="${href(E.href)}">${esc(E.label)} <picture>${E.mark_dark ? `<source srcset="${href(E.mark_dark)}" media="(prefers-color-scheme: dark)">` : ''}<img class="rm-mark" src="${href(E.mark)}" alt="" width="24" height="24"></picture><b>${esc(E.name)}</b></a></p>`
+    const endorse = `<p class="endorse"><a href="${href(E.href)}">${esc(E.label)} <img class="rm-mark tone-light" src="${href(E.mark)}" alt="" width="24" height="24">${E.mark_dark ? `<img class="rm-mark tone-dark" src="${href(E.mark_dark)}" alt="" width="24" height="24">` : ''}<b>${esc(E.name)}</b></a></p>`
     const ears = front ? S.ears.map((e, i) => `<div class="ear ${i ? 'r' : 'l'}"><b>${esc(e.title)}</b>${esc(e.text)}${e.href ? ` <a href="${href(e.href)}">${esc(e.link)}</a>` : ''}</div>`).join('\n') : ''
     const columns = [...new Set(site.footer.map(f => f.column || ''))]
     const foot = columns.map(c => `<div>${c ? `<h3>${esc(c)}</h3>` : ''}<ul>${site.footer.filter(f => (f.column || '') === c).map(f => `<li><a href="${href(f.href)}">${esc(f.label)}</a></li>`).join('')}</ul></div>`).join('')
@@ -89,6 +89,7 @@ export function htmlPage(page, site) {
 <meta name="theme-color" content="#121317" media="(prefers-color-scheme: dark)">
 <link rel="alternate" type="text/markdown" href="${up}${mdRel}">
 <link rel="stylesheet" href="${up}assets/site.css">${css}
+<script src="${up}assets/themes.js"></script>
 </head>
 <body class="type-${esc(type || 'site')}${front ? ' page-front' : ''}">
 <a class="skip" href="#main">Skip to the content</a>

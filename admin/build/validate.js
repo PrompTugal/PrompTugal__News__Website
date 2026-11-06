@@ -16,6 +16,7 @@
 //  11. the data (admin/build/checks.mjs): every file under data/ follows its schema (data/schemas/), every reference
 //      between entities resolves, and the derived files are what admin/tools/derive.mjs makes now
 //  12. the features' own checks (admin/build/checks.mjs): each feature's validate(gate) hook, e.g. the graphs and the API
+//  14. the five themes: each sets every colour token, and the picker and the stylesheet agree
 //  13. every page declares its page-type and page-date (the billing meter prices pages by them)
 'use strict'
 const fs = require('fs')
@@ -162,6 +163,25 @@ try {
     errors.push(...JSON.parse(out))
 } catch (e) { errors.push(`checks.mjs failed: ${(e.stderr || e.message).toString().slice(-2000)}`) }
 
+// 14. the themes (assets/tokens.css, assets/themes.js): every theme the picker offers sets every colour token the default
+// sets, so none ships half applied; and the picker's list and the stylesheet's agree
+{
+    const css = read('assets/tokens.css'), js = read('assets/themes.js')
+    const rules = [...css.replace(/\/\*[\s\S]*?\*\//g, '').matchAll(/([^{}]+)\{([^{}]*)\}/g)]
+    const block = sel => { const bs = rules.filter(m => m[1].includes(sel)).map(m => m[2]); return bs.length ? bs.join(';') : null }
+    const names = b => new Set([...b.matchAll(/(--[a-z0-9-]+)\s*:/g)].map(m => m[1]))
+    const root = css.slice(css.indexOf(':root {'), css.indexOf('}', css.indexOf(':root {')))
+    const colour = [...names(root)].filter(n => new RegExp(`${n}:\\s*(#|rgba?\\()`).test(root) || /^--(shadow|focus)/.test(n))
+    const offered = [...js.matchAll(/^\s*([a-z]+):\s*\{\s*label:/gm)].map(m => m[1])
+    if (offered.length !== 5) errors.push(`assets/themes.js: expected five themes, found ${offered.length}`)
+    for (const t of offered.filter(t => t !== 'paper')) {
+        const b = block(`:root[data-theme="${t}"]`)
+        if (!b) { errors.push(`assets/tokens.css: the theme "${t}" the picker offers has no block`); continue }
+        const has = names(b), miss = colour.filter(n => !has.has(n))
+        if (miss.length) errors.push(`assets/tokens.css: the theme "${t}" leaves out ${miss.join(', ')}`)
+    }
+}
+
 // 13. page-type and page-date on every page
 const TYPES = ['article', 'company', 'event', 'person', 'organisation', 'topic', 'place', 'story', 'evidence', 'site', 'account', 'index', 'data']
 for (const f of html) {
@@ -176,4 +196,4 @@ if (errors.length) {
     console.error(`${errors.length} problem(s); the gate is red`)
     process.exit(1)
 }
-console.log(`OK (${VERSION}: ${html.length} pages, ${files.length} files, 13 checks)`)
+console.log(`OK (${VERSION}: ${html.length} pages, ${files.length} files, 14 checks)`)

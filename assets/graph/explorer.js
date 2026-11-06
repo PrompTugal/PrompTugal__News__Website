@@ -480,6 +480,7 @@
     var zt = 0; S.cy.on('zoom', function () { if (zt) return; zt = setTimeout(function () { zt = 0; rootEl.classList.toggle('gx-zoomed', S.cy.zoom() > 1.4); if (S.cy.zoom() > 1.4) S.cy.nodes('.nl').addClass('hood'); else if (!S.st.sel) S.cy.nodes('.hood').removeClass('hood'); }, 120); });
     var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
     if (mq && mq.addEventListener) mq.addEventListener('change', function () { S.cy.style(style(tokens())); });
+    window.addEventListener('promptugal:theme-changed', function () { S.cy.style(style(tokens())); });   // the theme picker (assets/themes.js)
     bindBar();
     var viewErr = null;
     return loadView(st.view).catch(function (err) { viewErr = err.message; S.st.view = 'whole'; if (!/[?&]top=/.test(location.search)) S.st.top.n = 60; return null; }).then(function (vs) {

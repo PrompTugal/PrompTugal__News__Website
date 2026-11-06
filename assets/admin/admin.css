@@ -14,12 +14,12 @@
     --k-conductor: #1baf7a; --k-desk: #eb6834; --k-builder: #2a78d6; --k-ci: #595c64;
 }
 @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
+    :root:not([data-tone]) {
         --a-ok: #84cf9c; --a-ok-soft: #16281c; --a-warn: #e9b55e; --a-warn-soft: #2f2412; --a-plan: #a6a39a; --a-plan-soft: #1a1b1e;
         --k-conductor: #199e70; --k-desk: #d95926; --k-builder: #3987e5; --k-ci: #a6a39a;
     }
 }
-:root[data-theme="dark"] {
+:root[data-tone="dark"] {
     --a-ok: #84cf9c; --a-ok-soft: #16281c; --a-warn: #e9b55e; --a-warn-soft: #2f2412; --a-plan: #a6a39a; --a-plan-soft: #1a1b1e;
     --k-conductor: #199e70; --k-desk: #d95926; --k-builder: #3987e5; --k-ci: #a6a39a;
 }

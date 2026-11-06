@@ -54,8 +54,11 @@ a:focus-visible { background: var(--focus); color: var(--focus-ink); box-shadow:
 .mast.compact .wordmark { width: clamp(240px, 36vw, 400px); }
 .foot-brand .wordmark { width: 240px; }
 .wm-dark { display: none; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .wm-light { display: none; } :root:not([data-theme="light"]) .wm-dark { display: block; } }
-:root[data-theme="dark"] .wm-light { display: none; } :root[data-theme="dark"] .wm-dark { display: block; }
+/* artwork for the theme's tone (data-tone, set by assets/themes.js with the theme): light artwork on Paper, Broadsheet and
+   Archive, dark on Ink and Azulejo; with no script, the system's preference */
+.tone-dark { display: none; }
+@media (prefers-color-scheme: dark) { :root:not([data-tone]) .wm-light, :root:not([data-tone]) .tone-light { display: none; } :root:not([data-tone]) .wm-dark { display: block; } :root:not([data-tone]) .tone-dark { display: inline; } }
+:root[data-tone="dark"] .wm-light, :root[data-tone="dark"] .tone-light { display: none; } :root[data-tone="dark"] .wm-dark { display: block; } :root[data-tone="dark"] .tone-dark { display: inline; }
 .mark { width: .62em; height: .62em; flex: none; color: var(--brand); }
 .mark .tile { fill: currentColor; }
 .mark .glaze { fill: none; stroke: var(--paper); stroke-width: 1.6; }
@@ -605,9 +608,9 @@ details.toc[open] > summary { margin-bottom: 6px; }
 }
 
 /* the RiskMandate lockup: the published file for the reader's theme, never redrawn */
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .endorse-card .lockup.on-light { display: none; } :root:not([data-theme="light"]) .endorse-card .lockup.on-dark { display: block; } }
-:root[data-theme="dark"] .endorse-card .lockup.on-light { display: none; }
-:root[data-theme="dark"] .endorse-card .lockup.on-dark { display: block; }
+@media (prefers-color-scheme: dark) { :root:not([data-tone]) .endorse-card .lockup.on-light { display: none; } :root:not([data-tone]) .endorse-card .lockup.on-dark { display: block; } }
+:root[data-tone="dark"] .endorse-card .lockup.on-light { display: none; }
+:root[data-tone="dark"] .endorse-card .lockup.on-dark { display: block; }
 
 /* agenda hour markers, the explorer's dimmed nodes, two-column company lists */
 .agenda .hour { list-style: none; padding: 16px 0 4px; font: 500 11px/1 var(--mono); letter-spacing: .06em; color: var(--ink-3); border-top: 1px solid var(--rule-2); }
@@ -798,5 +801,23 @@ main.wide details.toc li { margin: 0; }
 .table.dense td { font-family: var(--sans); }
 .chip.fail { color: var(--live); border-color: currentColor; background: var(--live-soft); cursor: default; }
 @media (min-width: 768px) { .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-@media (prefers-color-scheme: dark) { .body p.rm-lockup::before { background-image: url(brand/riskmandate-mark-knockout.svg); } }
+@media (prefers-color-scheme: dark) { :root:not([data-tone]) .body p.rm-lockup::before { background-image: url(brand/riskmandate-mark-knockout.svg); } }
+:root[data-tone="dark"] .body p.rm-lockup::before { background-image: url(brand/riskmandate-mark-knockout.svg); }
 .mast .endorse picture { display: inline-flex; }
+
+/* the theme picker (assets/themes.js): a chip in the top bar's tools, a menu of five with a swatch each */
+.theme-pick { position: relative; }
+.theme-pick .sw { display: inline-block; width: 14px; height: 14px; border-radius: 50%; border: 1px solid var(--rule-2); flex: none; }
+.theme-pick .caret { font-size: 10px; color: var(--ink-3); }
+.theme-pick ul { position: absolute; right: 0; top: calc(100% + 6px); z-index: 60; list-style: none; margin: 0; padding: 6px; min-width: 230px; background: var(--panel); border: 1px solid var(--rule-2); border-radius: var(--radius); box-shadow: var(--shadow); }
+.theme-pick li button { display: flex; align-items: center; gap: 10px; width: 100%; padding: 8px; border: 0; background: none; color: var(--ink); font: 600 14px/1.2 var(--sans); text-align: left; cursor: pointer; border-radius: var(--radius); }
+.theme-pick li button:hover, .theme-pick li button:focus-visible { background: var(--paper-2); }
+.theme-pick li button[aria-checked="true"] { background: var(--brand-soft); }
+.theme-pick li .n { display: block; font: 400 12px/1.3 var(--sans); color: var(--ink-3); }
+.theme-pick .sw-paper { background: linear-gradient(135deg, #f6f3ec 50%, #006600 50%); }
+.theme-pick .sw-ink { background: linear-gradient(135deg, #111214 50%, #6dbb7e 50%); }
+.theme-pick .sw-broadsheet { background: linear-gradient(135deg, #ffffff 50%, #0b0c0f 50%); }
+.theme-pick .sw-archive { background: linear-gradient(135deg, #efe6d2 50%, #5f5244 50%); }
+.theme-pick .sw-azulejo { background: linear-gradient(135deg, #0f1c36 50%, #7cc98c 50%); }
+@media (max-width: 640px) { .theme-pick .name, .theme-pick .caret { display: none; } }
+@media print { .theme-pick { display: none; } }
