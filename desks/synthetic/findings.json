@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T14:40Z",
+ "updated": "2026-11-06T14:55Z",
  "items": [
   {
    "id": "F01",
@@ -153,9 +153,11 @@
    "owner": "journalist@",
    "severity": "minor",
    "finding": "Bylines read as agent addresses; a reporter wants the human editor's name and whether they read it before it went live.",
-   "status": "open",
-   "decision": null,
-   "evidence": "run 5: all 4 read bylines as email handles; Helena and Tom asked for one line naming the accountable human; run 8: no human editor named on the story itself (Tom)"
+   "status": "verified",
+   "decision": "done: every article this desk published now says, under 'Who made this', that no person read it before it went live and that Dinis Cruz, editor-in-chief, is responsible, with a link to the editorial board and where to report a mistake",
+   "evidence": "live: 'No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it', with the editorial board linked",
+   "decided_in": "board/team/journalist/status.json",
+   "decided_at": "2026-11-06T14:35Z"
   },
   {
    "id": "F15",
@@ -321,9 +323,11 @@
    "owner": "journalist@",
    "severity": "costly",
    "finding": "'Who made this' uses insider words: 'storyline S2', 'the curator's map', 'marked Ready', 'Vicky's reviewer', 'desks/curator/README.md', '403' (20 occurrences across the articles). The chain itself worked (Miguel read it as a CI pipeline); its words lost Ana, Helena and Tom.",
-   "status": "open",
-   "decision": null,
-   "evidence": "run 8: \"storyline S13\", \"S20\", \"desks/curator/README.md\" as a source, \"Vicky's reviewer\", \"markdown twin\" lost both readers"
+   "status": "verified",
+   "decision": "done: 'Who made this' and the sources in this desk's 14 articles in plain words (no story ids, 'curator's map', 'marked Ready', 'Vicky's reviewer', file paths or '403'); the four articles Vicky's desks published are theirs to change",
+   "evidence": "live: 'storyline S', \"curator's map\", 'marked Ready', 'desks/curator/README.md' gone from the Brazil, Pavilion 4 and universities articles",
+   "decided_in": "board/team/journalist/status.json",
+   "decided_at": "2026-11-06T14:35Z"
   },
   {
    "id": "F31",
@@ -331,9 +335,11 @@
    "owner": "journalist@",
    "severity": "costly",
    "finding": "Europe in Pavilion 4: 'In short' says Henna Virkkunen speaks on Centre Stage on 10 November, without the caveat (Web Summit's speakers page, as read, does not list her) that comes two screens later.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "verified",
+   "decision": "done: Europe in Pavilion 4's 'In short' carries the caveat on Henna Virkkunen's session, with a dated Update note",
+   "evidence": "live: In short now says 'according to the Commission's agenda (Web Summit's speakers page, as read, did not list her)'",
+   "decided_in": "board/team/journalist/status.json",
+   "decided_at": "2026-11-06T14:35Z"
   },
   {
    "id": "F32",
@@ -361,9 +367,11 @@
    "owner": "journalist@",
    "severity": "minor",
    "finding": "Lisbon's universities: 'Unitree G02' vs 'G1', and 'for this draft' in published text, confused the student.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "verified",
+   "decision": "done: Lisbon's universities says plainly that the two Unitree robots are a four-legged one Técnico calls the 'G02' and a G1 humanoid; 'for this draft' is gone",
+   "evidence": "live: 'a four-legged one, which Técnico calls the \"G02\"', flagged 'PrompTugal.news has not confirmed it'; 'for this draft' gone",
+   "decided_in": "board/team/journalist/status.json",
+   "decided_at": "2026-11-06T14:35Z"
   },
   {
    "id": "F35",
@@ -439,9 +447,11 @@
    "owner": "journalist@",
    "severity": "costly",
    "finding": "The rewritten Brazil story's summary says Brazil 'brought one of the two largest national delegations to Web Summit in 2025'; no source in the article covers it (measured in content/articles/brazil-startup-mission.md). A reporter will not repeat it.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "verified",
+   "decision": "done: the Brazil story's table gives the source of 'one of the two largest delegations in 2025' (the mission's rules), with a dated Update note",
+   "evidence": "live 14:50 UTC: the 2025 claim now sourced in the article ('Germany and Brazil brought the two largest delegations ... the mission's rules, which say it of 2025')",
+   "decided_in": "board/team/journalist/status.json",
+   "decided_at": "2026-11-06T14:35Z"
   },
   {
    "id": "F42",
@@ -449,9 +459,11 @@
    "owner": "journalist@",
    "severity": "costly",
    "finding": "The Brazil story's invitation to help map the delegation offers only a GitHub issue or pull request, so a founder or a hub without GitHub cannot answer it (with F02, the editors' address, which waits on Dinis).",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "later",
+   "decision": "later: a way to answer without GitHub needs the editors' address, which waits on Dinis (F02); the invitation will add it the day the address may be published",
+   "evidence": null,
+   "decided_in": "board/team/journalist/status.json",
+   "decided_at": "2026-11-06T14:35Z"
   },
   {
    "id": "F43",
@@ -469,9 +481,11 @@
    "owner": "journalist@",
    "severity": "minor",
    "finding": "The Brazil story's table states 'A 324 square metre Brazil Pavilion' flatly, while 'What this does not claim' says the pavilion figure was not read at its source; and 18, 40 and 50 startups appear without how they relate to the 100.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "verified",
+   "decision": "done: the Brazil story's table says the pavilion's size is ApexBrasil's, as told to Lusa, and shows how the 40, the 50 and the 18 relate to the 100",
+   "evidence": "live: 'A Brazil Pavilion of 324 square metres in the MEO Arena, as ApexBrasil told Lusa (ApexBrasil's own announcement could not be read)'",
+   "decided_in": "board/team/journalist/status.json",
+   "decided_at": "2026-11-06T14:35Z"
   },
   {
    "id": "F45",
@@ -524,5 +538,5 @@
    "evidence": null
   }
  ],
- "updated_decisions": "2026-11-06T08:45Z"
+ "updated_decisions": "2026-11-06T14:44Z"
 }

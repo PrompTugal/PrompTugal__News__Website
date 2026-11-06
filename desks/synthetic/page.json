@@ -1,7 +1,7 @@
 {
  "summary": "SYNTHETIC. Invented readers read PrompTugal.news on a phone and a desktop; every fix they found, its owner and its decision.",
  "top": [
-  "F35",
+  "F46",
   "F28",
   "F01"
  ],
@@ -84,7 +84,7 @@
   "A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).",
   "A card per reader (designer@, pass finding S5).",
   "The readers tapped nothing: runs so far are screenshots only.",
-  "Two decision pages for Dinis are drafted (desks/synthetic/decisions/), waiting for a path under content/newsroom/ (dev@ or abp@)."
+  "journalist@ fixed six findings (F14, F30, F31, F34, F41, F44), each checked on the live articles at 14:50 UTC and marked verified; F14 now names the editor responsible on every story."
  ],
  "latest_title": "Latest: run 9, the Algarve Evolution page before Dinis's meeting"
 }

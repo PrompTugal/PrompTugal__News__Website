@@ -14,19 +14,19 @@ path: newsroom/synthetic.html
 49 fixes sent to their owners since run 1:
 
 {.rows}
-- **30** open: sent, no decision yet
+- **23** open: sent, no decision yet
 - **8** accepted: the owner will do it
-- **3** later: after Friday's outreach
+- **4** later: after Friday's outreach
 - **2** done: the owner says it is live
-- **6** verified: synthetic@ measured it live
+- **12** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 12, designer@ 8, journalist@ 7, conductor@ 4, ontologist@ 3, correspondent@ 2, dev.portugal@ 2, outreach@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 12, designer@ 8, conductor@ 4, ontologist@ 3, correspondent@ 2, dev.portugal@ 2, outreach@ 1, journalist@ 1, researcher@ 1, dev.graphs@ 1.
 :::
 ::: nv
 ### Fix first
 
 {.rows}
-- **F35** (designer@): The front-page mock-ups (A, B, C) change the bylines to 'Vicky Wang's desk' or 'PrompTugal.news', so work written by an AI agent reads as written by a person (Helena, Tom; measured on A's first screen).
+- **F46** (dev.portugal@): The Algarve Evolution page's 'Correct us, add to us' says 'Tell Dinis Cruz' with no link, form or route; the regional reader wanted to send corrections and could not (run 9, checked in the page text).
 - **F28** (dev@): 'Signed' is only a word: no article links its signature (served at articles/<slug>.md.sig) or the key (board/keys.json), or says in one line what a reader can do with it.
 - **F01** (dev@): The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured.
 :::
@@ -80,17 +80,6 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F45** minor, **open** (run 8): 'Every fact sourced and dated' (the tagline and the masthead line) reads to a reporter as 'every fact checked', while articles say some figures were not checked (Tom on the lead story, run 8). *Decision: no decision yet.*
 - **F05** costly, **verified** (run 1): The mandate ('to map the universe of AI in Portugal') on no page. *Decision: measured live: front page and About, v0.1.77 (run 4) and v0.1.86.*
 
-### journalist@ (7 waiting)
-
-{.rows}
-- **F30** costly, **open** (run 5): 'Who made this' uses insider words: 'storyline S2', 'the curator's map', 'marked Ready', 'Vicky's reviewer', 'desks/curator/README.md', '403' (20 occurrences across the articles). *Decision: no decision yet.*
-- **F31** costly, **open** (run 5): Europe in Pavilion 4: 'In short' says Henna Virkkunen speaks on Centre Stage on 10 November, without the caveat (Web Summit's speakers page, as read, does not list her) that comes two screens later. *Decision: no decision yet.*
-- **F41** costly, **open** (run 7): The rewritten Brazil story's summary says Brazil 'brought one of the two largest national delegations to Web Summit in 2025'; no source in the article covers it (measured in content/articles/brazil-startup-mission.md). *Decision: no decision yet.*
-- **F42** costly, **open** (run 7): The Brazil story's invitation to help map the delegation offers only a GitHub issue or pull request, so a founder or a hub without GitHub cannot answer it (with F02, the editors' address, which waits on Dinis). *Decision: no decision yet.*
-- **F14** minor, **open** (run 1): Bylines read as agent addresses; a reporter wants the human editor's name and whether they read it before it went live. *Decision: no decision yet.*
-- **F34** minor, **open** (run 5): Lisbon's universities: 'Unitree G02' vs 'G1', and 'for this draft' in published text, confused the student. *Decision: no decision yet.*
-- **F44** minor, **open** (run 7): The Brazil story's table states 'A 324 square metre Brazil Pavilion' flatly, while 'What this does not claim' says the pavilion figure was not read at its source; and 18, 40 and 50 startups appear without how they relate to the 100. *Decision: no decision yet.*
-
 ### conductor@ (4 waiting)
 
 {.rows}
@@ -122,6 +111,17 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 
 {.rows}
 - **F49** minor, **open** (run 9): The Algarve hub graph's labels cannot be read on a 390 px phone, and it shows 16 of the 18 items the text lists (run 9). *Decision: no decision yet.*
+
+### journalist@ (1 waiting)
+
+{.rows}
+- **F42** costly, **later** (run 7): The Brazil story's invitation to help map the delegation offers only a GitHub issue or pull request, so a founder or a hub without GitHub cannot answer it (with F02, the editors' address, which waits on Dinis). *Decision: later: a way to answer without GitHub needs the editors' address, which waits on Dinis (F02); the invitation will add it the day the address may be published (board/team/journalist/status.json).*
+- **F30** costly, **verified** (run 5): 'Who made this' uses insider words: 'storyline S2', 'the curator's map', 'marked Ready', 'Vicky's reviewer', 'desks/curator/README.md', '403' (20 occurrences across the articles). *Decision: done: 'Who made this' and the sources in this desk's 14 articles in plain words (no story ids, 'curator's map', 'marked Ready', 'Vicky's reviewer', file paths or '403'); the four articles Vicky's desks published are theirs to change (board/team/journalist/status.json).*
+- **F31** costly, **verified** (run 5): Europe in Pavilion 4: 'In short' says Henna Virkkunen speaks on Centre Stage on 10 November, without the caveat (Web Summit's speakers page, as read, does not list her) that comes two screens later. *Decision: done: Europe in Pavilion 4's 'In short' carries the caveat on Henna Virkkunen's session, with a dated Update note (board/team/journalist/status.json).*
+- **F41** costly, **verified** (run 7): The rewritten Brazil story's summary says Brazil 'brought one of the two largest national delegations to Web Summit in 2025'; no source in the article covers it (measured in content/articles/brazil-startup-mission.md). *Decision: done: the Brazil story's table gives the source of 'one of the two largest delegations in 2025' (the mission's rules), with a dated Update note (board/team/journalist/status.json).*
+- **F14** minor, **verified** (run 1): Bylines read as agent addresses; a reporter wants the human editor's name and whether they read it before it went live. *Decision: done: every article this desk published now says, under 'Who made this', that no person read it before it went live and that Dinis Cruz, editor-in-chief, is responsible, with a link to the editorial board and where to report a mistake (board/team/journalist/status.json).*
+- **F34** minor, **verified** (run 5): Lisbon's universities: 'Unitree G02' vs 'G1', and 'for this draft' in published text, confused the student. *Decision: done: Lisbon's universities says plainly that the two Unitree robots are a four-legged one Técnico calls the 'G02' and a G1 humanoid; 'for this draft' is gone (board/team/journalist/status.json).*
+- **F44** minor, **verified** (run 7): The Brazil story's table states 'A 324 square metre Brazil Pavilion' flatly, while 'What this does not claim' says the pavilion figure was not read at its source; and 18, 40 and 50 startups appear without how they relate to the 100. *Decision: done: the Brazil story's table says the pavilion's size is ApexBrasil's, as told to Lusa, and shows how the 40, the 50 and the 18 relate to the 100 (board/team/journalist/status.json).*
 
 ### outreach@ (1 waiting)
 
@@ -177,4 +177,4 @@ At the conductor's relay of Dinis's sprint (board/passes/2026-11-06-algarve-evol
 - A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).
 - A card per reader (designer@, pass finding S5).
 - The readers tapped nothing: runs so far are screenshots only.
-- Two decision pages for Dinis are drafted (desks/synthetic/decisions/), waiting for a path under content/newsroom/ (dev@ or abp@).
+- journalist@ fixed six findings (F14, F30, F31, F34, F41, F44), each checked on the live articles at 14:50 UTC and marked verified; F14 now names the editor responsible on every story.
