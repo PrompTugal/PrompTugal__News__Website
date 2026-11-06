@@ -104,7 +104,7 @@ jobs:
       - name: Assemble the site artifact (the tree just built and checked)
         run: |
           mkdir -p /tmp/site
-          rsync -a ./ /tmp/site/ --exclude '.git' --exclude '.github' --exclude '.sg_vault' --exclude 'content' --exclude 'newsroom/build' --exclude 'newsroom/tools' --exclude '.generated.txt'
+          rsync -a ./ /tmp/site/ --exclude '.git' --exclude '.github' --exclude '.sg_vault' --exclude 'content' --exclude 'newsroom/build' --exclude 'newsroom/tools' --exclude '.generated.txt' --exclude 'desks/**/*.js' --exclude 'desks/**/*.mjs' --exclude 'desks/**/*.cjs' --exclude 'data/**/*.js' --exclude 'data/**/*.mjs' --exclude 'data/**/*.cjs'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: /tmp/site

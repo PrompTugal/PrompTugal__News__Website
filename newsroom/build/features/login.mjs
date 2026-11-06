@@ -2,11 +2,14 @@
 // of the sign-in link (newsroom/tools/person-key.mjs). The page /login/ (its words: content/login.md) takes it in;
 // assets/login/keyring.js holds it in the browser (window.PTKeyring, non-extractable, IndexedDB) and
 // assets/login/login.js proves it against board/person-keys.json (window.PTLogin, tool auth.whoami, the chip in
-// #nr-tools once signed in). Both scripts are on every page, so a person signed in once is known everywhere: the
-// drain on /newsroom/observability/ uses it. Nothing on the site is hidden from readers who are not signed in.
+// #nr-tools once signed in). The keyring loads only on the pages that use the key (security@'s S1: a key callable by
+// any script on every page): /login/ and the drain on /newsroom/observability/ (KEYRING_PAGES); login.js is on every
+// page and finds no key elsewhere. Nothing on the site is hidden from readers who are not signed in.
 import crypto from 'node:crypto'
 export const order = 6
-export const assets = { css: ['assets/login/login.css'], js: ['assets/login/keyring.js', 'assets/login/login.js'] }
+export const assets = { css: ['assets/login/login.css'], js: ['assets/login/login.js'] }
+export const KEYRING_PAGES = ['login/index.html', 'newsroom/observability/index.html']
+export function decorate(p) { if (KEYRING_PAGES.includes(p.rel)) p.assets = { css: [...(p.assets?.css || [])], js: ['assets/login/keyring.js', ...(p.assets?.js || [])] } }
 const REGISTER = 'board/person-keys.json', JSQR = 'assets/vendor/jsqr/1.4.0/jsQR.js', JSQR_VENDOR = 'assets/vendor/jsqr/1.4.0/VENDOR.md'
 const fp = jwk => 'sha256:' + crypto.createHash('sha256').update(`${jwk.crv}:${jwk.x}:${jwk.y}`).digest('hex').slice(0, 16)
 
@@ -36,6 +39,8 @@ export function validate(gate) {
             if (k.status === 'active') { if (active[k.person]) out.push(`${REGISTER}: two active keys for ${k.person}`); active[k.person] = 1 }
         }
     }
+    // S1: the keyring only on the pages that use the key
+    for (const f of gate.generated) if (f.endsWith('.html') && !KEYRING_PAGES.includes(f) && gate.text(f).includes('login/keyring.js')) out.push(`${f}: loads assets/login/keyring.js; the key is for ${KEYRING_PAGES.join(' and ')} only (security@'s S1)`)
     // the vendored QR reader is unedited
     const want = (gate.text(JSQR_VENDOR).match(/`jsQR\.js` \| `([0-9a-f]{64})`/) || [])[1]
     if (!want || gate.sha256(gate.text(JSQR)) !== want) out.push(`${JSQR}: its SHA-256 differs from ${JSQR_VENDOR}: a vendored file was edited`)
