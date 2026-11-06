@@ -1,5 +1,5 @@
 {
-  "about": "The reading meter's prices: one table that both the meter in the reader's browser (api/v1/billing/meter.json, made by admin/build/features/billing.mjs) and the published billing page (/account/billing.html) are generated from, so the page and the meter cannot disagree. The model is the one php.oct.2026.newsroom.sgit.ai runs (its data/billing.json, read 5 November 2026) and newsroom.sgit.ai's meter (sg-meter v1.5.0): a base price per kind of page, a multiplier for how fresh the page is, times the share of it read, never under a tenth. Edited by hand; the gate checks it against its schema and the feature's own rules.",
+  "about": "The reading meter's prices: one table that both the meter in the reader's browser (api/v1/billing/meter.json, made by newsroom/build/features/billing.mjs) and the published billing page (/account/billing.html) are generated from, so the page and the meter cannot disagree. The model is the one php.oct.2026.newsroom.sgit.ai runs (its data/billing.json, read 5 November 2026) and newsroom.sgit.ai's meter (sg-meter v1.5.0): a base price per kind of page, a multiplier for how fresh the page is, times the share of it read, never under a tenth. Edited by hand; the gate checks it against its schema and the feature's own rules.",
   "meter": "sg-meter v1.5.0",
   "storage_key": "web-summit.newsroom.meter.v1",
   "start": 500,

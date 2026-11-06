@@ -6,19 +6,19 @@
       "verb": "filed_under",
       "to": "topic:security",
       "source": "s3",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:austria",
       "source": "s3",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "hosts",
       "to_url": "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "about": "The top-up: one payment of £5.00 on Stripe's own page, through a Stripe Payment Link. A Payment Link URL is public by design (anyone can open it, and it is printed on newsroom.sgit.ai's pages); it is not a credential. No Stripe key, webhook secret or account detail belongs in this repository, ever. Read by admin/build/features/billing.mjs, which puts it in the meter's config and on the top-up page.",
+  "about": "The top-up: one payment of £5.00 on Stripe's own page, through a Stripe Payment Link. A Payment Link URL is public by design (anyone can open it, and it is printed on newsroom.sgit.ai's pages); it is not a credential. No Stripe key, webhook secret or account detail belongs in this repository, ever. Read by newsroom/build/features/billing.mjs, which puts it in the meter's config and on the top-up page.",
   "amount": 500,
   "currency": "GBP",
   "link": "https://buy.stripe.com/6oUfZ9ez65vVgU2fY15os04",

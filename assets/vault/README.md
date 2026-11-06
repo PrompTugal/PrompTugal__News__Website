@@ -71,6 +71,6 @@ window.__vault.open('saved')   // open the pane on a tab: 'vault', 'reading', 's
 
 ## Tests
 
-`node admin/build/tests/test_vault.mjs` (the library, the account, two devices, a saved item, the recovery door,
-against `admin/build/tests/vault-mock.mjs`) and `node admin/build/tests/test_billing_browser.mjs` (the whole pane in
+`node newsroom/build/tests/test_vault.mjs` (the library, the account, two devices, a saved item, the recovery door,
+against `newsroom/build/tests/vault-mock.mjs`) and `node newsroom/build/tests/test_billing_browser.mjs` (the whole pane in
 Chromium with a virtual passkey, the vault server routed to the mock).

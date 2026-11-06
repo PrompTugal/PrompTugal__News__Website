@@ -6,19 +6,19 @@
       "verb": "filed_under",
       "to": "topic:platform",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:united-states",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "appears_in",
       "to_url": "https://websummit.com/sessions/lis26/7bd19b8b-b399-42d5-b94f-df528a27696a/the-ai-agent-economy/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

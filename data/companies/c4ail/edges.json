@@ -6,19 +6,19 @@
       "verb": "filed_under",
       "to": "topic:grc",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:singapore",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "appears_in",
       "to_url": "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

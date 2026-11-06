@@ -24,7 +24,7 @@
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, not re-checked today (the page did not show it to a plain read)",
   "derived": {
-    "by": "admin/tools/derive.mjs",
+    "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/programme/agenda.json",
       "data/places/",

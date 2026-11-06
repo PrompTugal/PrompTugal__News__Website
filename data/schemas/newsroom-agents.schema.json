@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/newsroom-agents.schema.json",
+  "title": "The agents working on this newsroom (data/newsroom/agents.json), hand-kept",
+  "type": "object",
+  "required": [
+    "about",
+    "updated",
+    "agents"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "agents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "label",
+          "person",
+          "kind",
+          "desk",
+          "started_by",
+          "started",
+          "started_basis",
+          "role",
+          "lands",
+          "keys",
+          "status",
+          "status_note",
+          "issues"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-z0-9.-]+@(web-summit|PrompTugal)\\.[a-z0-9-]+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "person": {
+            "anyOf": [
+              {
+                "enum": [
+                  "dinis",
+                  "vicky",
+                  "indi",
+                  "angelo",
+                  "jose",
+                  "silvio",
+                  "daniela",
+                  "nimay",
+                  "sarah"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "kind": {
+            "enum": [
+              "conductor",
+              "builder",
+              "desk"
+            ]
+          },
+          "desk": {
+            "anyOf": [
+              {
+                "enum": [
+                  "research",
+                  "curate",
+                  "write",
+                  "check",
+                  "publish",
+                  "edit",
+                  "security",
+                  "programme"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "started_by": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "started": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "started_basis": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lands": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "keys": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "status"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9-]+$"
+                },
+                "status": {
+                  "enum": [
+                    "current",
+                    "retired"
+                  ]
+                },
+                "note": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "status": {
+            "enum": [
+              "running",
+              "done",
+              "planned",
+              "retired",
+              "waiting"
+            ]
+          },
+          "status_note": {
+            "type": "string",
+            "minLength": 1
+          },
+          "issues": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^WS-\\d+$"
+            }
+          },
+          "branch": {
+            "type": "string",
+            "pattern": "^work/[a-z0-9-]+$"
+          }
+        }
+      }
+    }
+  }
+}

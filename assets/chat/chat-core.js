@@ -1,6 +1,6 @@
 /* chat-core.js: the chat's pure half, with no DOM: the system prompt, the OpenRouter request (streamed), and the tool
  * loop. Ported from graphs.sgit.ai's universe chat (chat-core.js, tool-loop.js), without its component bus: here the
- * loop is one function with its network (complete) and its tools (callTool) passed in, so admin/tests/chat.test.mjs
+ * loop is one function with its network (complete) and its tools (callTool) passed in, so newsroom/tests/chat.test.mjs
  * runs it in Node against a mocked OpenRouter.
  *
  * The reader's key is passed to complete() for one request and goes in one header to openrouter.ai; nothing here

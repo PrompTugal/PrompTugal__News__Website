@@ -6,19 +6,19 @@
       "verb": "filed_under",
       "to": "topic:ai-agents",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:united-states",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "appears_in",
       "to_url": "https://websummit.com/sessions/lis26/e2d68390-d300-42d0-ac9a-bb730e4f5988/agents-don-t-need-prompts-they-need-context/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

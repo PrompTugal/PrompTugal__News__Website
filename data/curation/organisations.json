@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/curation-organisations.schema.json",
-  "about": "Hand-made decisions about organisation names that the automatic match (admin/build/lib/derive.mjs) cannot make: same_as links a name as listed to one of our companies, with the reason; not_same records a near miss that was looked at and is not the company. Every entry names who decided and why. When unsure, leave it out: an unlinked name is honest, a wrong link is not.",
+  "about": "Hand-made decisions about organisation names that the automatic match (newsroom/build/lib/derive.mjs) cannot make: same_as links a name as listed to one of our companies, with the reason; not_same records a near miss that was looked at and is not the company. Every entry names who decided and why. When unsure, leave it out: an unlinked name is honest, a wrong link is not.",
   "same_as": [
     { "as_listed": "Cisco Systems, Inc.", "company": "cisco-outshift", "decided_by": "newsroom-dev@web-summit.dinis", "decided_on": "2026-11-05", "why": "The company's own summit appearance page (its source s1) is the page of \"Cisco Systems, Inc.\"; the same key covers \"Cisco Systems\" and \"CIsco Systems\" as speaker cards write it." },
     { "as_listed": "European Commission - DG Connect", "company": "european-commission", "decided_by": "newsroom-dev@web-summit.dinis", "decided_on": "2026-11-05", "why": "DG CONNECT is a directorate-general of the European Commission; the curator's capture already names the Commission as \"European Commission (DG CONNECT, DG GROW)\"." }

@@ -1,5 +1,5 @@
 {
-  "about": "Your vault: the reading account (and other features' data) carried between devices in an encrypted vault, after newsroom.sgit.ai's Vault pane (a beta there). Read by admin/build/features/account.mjs into the pane's config. Nothing here is secret: the endpoint is the public vault server newsroom.sgit.ai uses, and the access key itself is never written to this repository.",
+  "about": "Your vault: the reading account (and other features' data) carried between devices in an encrypted vault, after newsroom.sgit.ai's Vault pane (a beta there). Read by newsroom/build/features/account.mjs into the pane's config. Nothing here is secret: the endpoint is the public vault server newsroom.sgit.ai uses, and the access key itself is never written to this repository.",
   "endpoint": "https://dev.send.sgraph.ai",
   "endpoint_source": "newsroom.sgit.ai, assets/vault-pane/vault-pane.js (ENDPOINT), read 5 November 2026",
   "library": "sg-vault v0.2.3 (assets/vendor/sg-vault/v0.2.3, unedited) and its one local extension (assets/vendor/sg-vault/local/sg-vault--create-with-id.js)",

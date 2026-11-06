@@ -1,5 +1,5 @@
 {
-  "about": "PrompTugal.news's observability lanes (observability@PrompTugal.dinis, 6 November 2026, at Dinis Cruz's word; the team site's model, assets/obs-dinis.json). Public on purpose: each append token can only write to its lane, and the key can only encrypt. 'site' is used by assets/obs/obs.js on every page; 'agents' by admin/tools/agent-log.mjs, which every PrompTugal agent runs at the end of each run. The data vault is private; its drain is observability@PrompTugal.dinis's.",
+  "about": "PrompTugal.news's observability lanes (observability@PrompTugal.dinis, 6 November 2026, at Dinis Cruz's word; the team site's model, assets/obs-dinis.json). Public on purpose: each append token can only write to its lane, and the key can only encrypt. 'site' is used by assets/obs/obs.js on every page; 'agents' by newsroom/tools/agent-log.mjs, which every PrompTugal agent runs at the end of each run. The data vault is private; its drain is observability@PrompTugal.dinis's.",
   "enabled": true,
   "endpoint": "https://dev.send.sgraph.ai",
   "vault_id": "o0x20qag",

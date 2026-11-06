@@ -9,7 +9,7 @@ Every page of the newsroom publishes its commands on `window.__tool`, for the ch
 | `tools.js` | the core tools, registered through the queue; `makeCoreTools(env)` is pure and runs in Node |
 | `core.css` | `.nr-hl` (what `highlight` draws), and a no-specificity fallback of the designer's shared components |
 
-They load on every page, in this order, from `admin/build/features/tools.mjs`. Search adds `search` (`assets/search/`); the chat (`assets/chat/`) consumes the API.
+They load on every page, in this order, from `newsroom/build/features/tools.mjs`. Search adds `search` (`assets/search/`); the chat (`assets/chat/`) consumes the API.
 
 ## Registering a tool, from any feature, in any order
 

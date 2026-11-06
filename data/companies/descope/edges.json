@@ -6,19 +6,19 @@
       "verb": "filed_under",
       "to": "topic:security",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:united-states",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "hosts",
       "to_url": "https://websummit.com/sessions/lis26/2701a938-524f-4c24-b0da-cb8fdd4e030b/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

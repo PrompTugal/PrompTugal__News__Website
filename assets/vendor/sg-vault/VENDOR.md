@@ -10,7 +10,7 @@ the format itself. The library is loaded only when the vault pane needs it, neve
 **Licence:** Apache License 2.0, the code licence of the repository it was copied from (newsroom.sgit.ai); upstream
 is the-cyber-boardroom/SGraph-AI__App__Send (see `v0.2.3/VENDOR.md`), whose own licence was not re-read for this copy.
 
-The gate (admin/build/features/account.mjs, check 12) recomputes the hashes below and those in `v0.2.3/VENDOR.md`.
+The gate (newsroom/build/features/account.mjs, check 12) recomputes the hashes below and those in `v0.2.3/VENDOR.md`.
 
 | File | SHA-256 |
 |---|---|

@@ -1,6 +1,6 @@
 /* search-core.js: the newsroom's search, the half that has no DOM.
  *
- * One file, two homes: the build (admin/build/features/search.mjs) requires it to tokenise the pages and write the
+ * One file, two homes: the build (newsroom/build/features/search.mjs) requires it to tokenise the pages and write the
  * index; the browser loads it as a plain script (window.NRSearchCore) to read the index and rank. Ported from
  * newsroom.sgit.ai's assets/search/search.js (fold, stem, BM25 over weighted fields), changed for a sharded index:
  *
@@ -231,7 +231,7 @@
         return out
     }
 
-    /** The `search` tool for window.__tool (registered by search.js; used as is by admin/tests/chat.test.mjs). */
+    /** The `search` tool for window.__tool (registered by search.js; used as is by newsroom/tests/chat.test.mjs). */
     function searchTool(engine, base) {
         base = base || ''
         return {

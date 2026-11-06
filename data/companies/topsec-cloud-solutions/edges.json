@@ -6,19 +6,19 @@
       "verb": "filed_under",
       "to": "topic:security",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:ireland",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "appears_in",
       "to_url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

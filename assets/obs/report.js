@@ -1,8 +1,8 @@
-// The observability report of the control centre (/admin/observability/), observability@PrompTugal.dinis, 6 November
+// The observability report of the control centre (/newsroom/observability/), observability@PrompTugal.dinis, 6 November
 // 2026, at Dinis Cruz's word: "report in that admin section, both what we have today, and the new promptugal site".
-// Two sources, read live in this browser from their published read keys (data/admin/observability/vaults.json):
+// Two sources, read live in this browser from their published read keys (data/newsroom/observability/vaults.json):
 // the team site's public observability vault (aym98gsm, web-summit.sgit.ai, observability@web-summit.dinis) and
-// PrompTugal.news's (made with admin/tools/obs/obs_setup.py). Both drains write the same files (obs_lets.py), so
+// PrompTugal.news's (made with newsroom/tools/obs/obs_setup.py). Both drains write the same files (obs_lets.py), so
 // this page reads latest/summary.json, pages.json, agents.json and runs.json from each (and places.json from
 // PrompTugal's) and draws them side by side and combined. sgit.ai's vault reader (assets/vendor/sgit-ai/2026-11-05/
 // vault-embed.js, unmodified) derives each address from the read key, fetches ciphertext and decrypts it here; this
@@ -108,7 +108,7 @@
         const pt = A.filter(a => /@promptugal\./i.test(a.agent)), rest = A.filter(a => !/@promptugal\./i.test(a.agent) && a.runs)
         const arow = a => [a.agent, a.site, a.runs ? fmt(a.runs) : 'never logged', a.runs ? `${fmt(a.signed)} of ${fmt(a.runs)}` : '', a.last || '', `${fmt(a.read_md)} / ${fmt(a.read_html)} / ${fmt(a.read_repo)}`, fmt(a.did),
             Object.entries(a.checklist || {}).map(([k, v]) => (v ? '✓ ' : '✗ ') + k).join(' ')]
-        out.append(sec('agents', 'Which agents ran', 'Every agent logs each run (what it read, what it did), signed with its own session key: the PrompTugal team into PrompTugal\'s agents lane (admin/tools/agent-log.mjs), the team site\'s agents into theirs (WS-160). A run is signed when the drain verified it against an active key on the team site\'s keys page whose label is that agent. "Never logged" is an agent with a key that has not logged a run yet.',
+        out.append(sec('agents', 'Which agents ran', 'Every agent logs each run (what it read, what it did), signed with its own session key: the PrompTugal team into PrompTugal\'s agents lane (newsroom/tools/agent-log.mjs), the team site\'s agents into theirs (WS-160). A run is signed when the drain verified it against an active key on the team site\'s keys page whose label is that agent. "Never logged" is an agent with a key that has not logged a run yet.',
             h('div', {}, [h('h3', { text: 'The PrompTugal team' }), pt.length ? table(['Agent', 'Lane', 'Runs', 'Signed', 'Last run (UTC)', 'Read md / html / repo', 'Did', 'Read this run set'], pt.sort((a, b) => (b.last || '').localeCompare(a.last || '')).map(arow)) : h('p', { class: 'obs-m', text: 'No PrompTugal agent has logged a run yet.' }),
                 h('h3', { text: 'The team site\'s agents' }), table(['Agent', 'Lane', 'Runs', 'Signed', 'Last run (UTC)', 'Read md / html / repo', 'Did', 'Checklist'], rest.sort((a, b) => (b.last || '').localeCompare(a.last || '')).map(arow))])))
 

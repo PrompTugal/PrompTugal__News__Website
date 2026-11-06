@@ -6,20 +6,20 @@
       "verb": "filed_under",
       "to": "topic:security",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:france",
       "source": "s2",
-      "by": "admin/tools/companies.mjs",
+      "by": "newsroom/tools/companies.mjs",
       "note": "France (the speaker's Web Summit listing; headquarters not sourced)"
     },
     {
       "verb": "appears_in",
       "to_url": "https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

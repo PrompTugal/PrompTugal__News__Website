@@ -1,4 +1,4 @@
-/* the observability report (/admin/observability/), observability@PrompTugal.dinis; the control centre's tokens */
+/* the observability report (/newsroom/observability/), observability@PrompTugal.dinis; the control centre's tokens */
 .obs-report .obs-m { color: var(--ink-2); font: 14px/1.5 var(--a-sans, sans-serif); }
 .obs-cards { display: grid; gap: 16px 24px; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 900px) { .obs-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); } }

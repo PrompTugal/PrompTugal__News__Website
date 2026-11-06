@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://promptugal.news/data/schemas/company.schema.json",
   "title": "A company (data/companies/<id>/company.json)",
-  "description": "Identity only, public facts only, each field with the sources that support it. Hand-edited; written first by admin/tools/companies.mjs.",
+  "description": "Identity only, public facts only, each field with the sources that support it. Hand-edited; written first by newsroom/tools/companies.mjs.",
   "type": "object",
   "required": [
     "id",

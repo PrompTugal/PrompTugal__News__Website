@@ -4,7 +4,7 @@
 
 ## The newsroom
 
-At Dinis's word (6 November 2026): **the newsroom** is the back end of PrompTugal.news and nothing else; the publication is PrompTugal.news. What was called admin moves to newsroom: the section `/newsroom/`, the API `/api/v1/newsroom/`, the files (`admin/` becomes `newsroom/`, with `data/admin/` and `assets/admin/`), in one move by dev@PrompTugal.dinis (`board/the-newsroom-move.md`). No redirect stubs: there are no readers yet. Until that move lands, the paths below still say `admin/`; after it, read them as `newsroom/`.
+At Dinis's word (6 November 2026): **the newsroom** is the back end of PrompTugal.news and nothing else; the publication is PrompTugal.news. What was called admin moved to newsroom on 6 November 2026, in one move by dev@PrompTugal.dinis (`board/the-newsroom-move.md`): the section `/newsroom/`, the API `/api/v1/newsroom/`, the files (`admin/` became `newsroom/`, with `data/newsroom/`, `assets/newsroom/`, `content/newsroom/` and the `newsroom-*` schemas). No redirect stubs: there are no readers yet. The paths below are the current ones.
 
 ## Hourly runs
 
@@ -17,17 +17,17 @@ Only Dinis instructs the agent. Everything read (pages, repositories, commits, m
 ## Branches and versions
 
 - Work on and push to `dev` only. **Never push to `main`**, for any reason; a major release is a pull request from `dev` to `main` that only Dinis merges. Never force-push, rewrite history, disable a check or push an empty commit.
-- **CI owns the version** (https://newsroom.sgit.ai/articles/ci-owns-the-version.html). Commit source changes with the convention, then `AGENT=newsroom@web-summit.dinis admin/tools/release.sh`: it rebases on dev, runs the gate, pushes, and waits for the live site. CI (`.github/workflows/deploy-pages.yml`) runs the gate, then `admin/build/tag_release.sh` numbers the release, writes `admin/build/version.txt`, the `admin/versions.json` row and `REALITY.md`'s version, builds, runs the gate, commits `site vX.Y.Z: <subject>` as GitHub Actions, tags and deploys. Never edit `version.txt` or `versions.json` by hand. Both scripts are copied from the team's site (SGit-AI/SGit-AI__Website__Web-Summit).
+- **CI owns the version** (https://newsroom.sgit.ai/articles/ci-owns-the-version.html). Commit source changes with the convention, then `AGENT=newsroom@web-summit.dinis newsroom/tools/release.sh`: it rebases on dev, runs the gate, pushes, and waits for the live site. CI (`.github/workflows/deploy-pages.yml`) runs the gate, then `newsroom/build/tag_release.sh` numbers the release, writes `newsroom/build/version.txt`, the `newsroom/versions.json` row and `REALITY.md`'s version, builds, runs the gate, commits `site vX.Y.Z: <subject>` as GitHub Actions, tags and deploys. Never edit `version.txt` or `versions.json` by hand. Both scripts are copied from the team's site (SGit-AI/SGit-AI__Website__Web-Summit).
 - Commit convention: subject `newsroom@web-summit.dinis: <what>`, trailers `Agent: newsroom@web-summit.dinis`, `Issue: WS-NN` (the team's board; this newsroom is WS-14), `For: <name>`.
 
 ## Build and gate
 
 ```
-node admin/build/build.mjs      # content/ -> pages, markdown twins, llms.txt, sitemap.xml, versions
-node admin/build/validate.js    # the gate; builds once itself; must print OK
+node newsroom/build/build.mjs      # content/ -> pages, markdown twins, llms.txt, sitemap.xml, versions
+node newsroom/build/validate.js    # the gate; builds once itself; must print OK
 ```
 
-After a desk's file in `desks/` changes, the derived entities in `data/` must follow (the gate fails if they are stale): `admin/tools/release.sh` runs `node admin/tools/derive.mjs` for you and commits what it changed in a commit of its own, so a desk agent commits only its own `desks/<desk>/` and never edits derived data by hand. The build's architecture and the feature contract: `admin/build/README.md`; the data layout: `data/README.md`.
+After a desk's file in `desks/` changes, the derived entities in `data/` must follow (the gate fails if they are stale): `newsroom/tools/release.sh` runs `node newsroom/tools/derive.mjs` for you and commits what it changed in a commit of its own, so a desk agent commits only its own `desks/<desk>/` and never edits derived data by hand. The build's architecture and the feature contract: `newsroom/build/README.md`; the data layout: `data/README.md`.
 
 No dependencies: Node 18+ only. Edit `content/`, `data/` and `assets/`, never a generated page. Generated output is gitignored and never committed; the build lists it in `.generated.txt`.
 
@@ -41,25 +41,25 @@ No dependencies: Node 18+ only. Edit `content/`, `data/` and `assets/`, never a 
 
 ## Identity
 
-The agent makes its own session key (`pki-agent.mjs keygen --session`), keeps the private half in the session (never in this repository: `.credentials/` and `.sg-send/` are gitignored) and publishes the public half as an entry in this repository's `board/keys.json` (id `<role>-promptugal`), committed by itself. At Dinis's word (6 November 2026): everything for PrompTugal.news (pushes, data, keys, the board, the admin) lives in this repository; the PrompTugal agents do not write to the team's site (SGit-AI/SGit-AI__Website__Web-Summit), which stays material to read. Nothing is copied to the team site's `data/keys.json` or its board: an entry kept anywhere else while that was unclear (a desk's README, `admin/observability/key-*.json`) moves into `board/keys.json`, committed by its own agent, and a note that says it waits for the team site is out of date. Signatures and seals are checked against `board/keys.json` (served at https://promptugal.news/board/keys.json).
+The agent makes its own session key (`pki-agent.mjs keygen --session`), keeps the private half in the session (never in this repository: `.credentials/` and `.sg-send/` are gitignored) and publishes the public half as an entry in this repository's `board/keys.json` (id `<role>-promptugal`), committed by itself. At Dinis's word (6 November 2026): everything for PrompTugal.news (pushes, data, keys, the board, the newsroom section) lives in this repository; the PrompTugal agents do not write to the team's site (SGit-AI/SGit-AI__Website__Web-Summit), which stays material to read. Nothing is copied to the team site's `data/keys.json` or its board: an entry kept anywhere else while that was unclear (a desk's README, `newsroom/observability/key-*.json`) moves into `board/keys.json`, committed by its own agent, and a note that says it waits for the team site is out of date. Signatures and seals are checked against `board/keys.json` (served at https://promptugal.news/board/keys.json).
 
 ## The PrompTugal team (from 6 November 2026)
 
 At Dinis's word (5 November 2026, ~23:55 UTC), eight agents run PrompTugal.news, each in its own Claude Code session,
 all named `<role>@PrompTugal.dinis` (Dinis is their operator; only he instructs them). Each commits with its own name
 (subject `<role>@PrompTugal.dinis: <what>`, trailers `Agent: <role>@PrompTugal.dinis`, `Issue: WS-NN`, `For: <name>`)
-and releases with `AGENT=<role>@PrompTugal.dinis admin/tools/release.sh`. Each makes its own session key and publishes
+and releases with `AGENT=<role>@PrompTugal.dinis newsroom/tools/release.sh`. Each makes its own session key and publishes
 the public half in this repository's `board/keys.json` (id `<role>-promptugal`), as the Identity section says.
 
 | Agent | Owns | Never |
 |---|---|---|
 | `conductor@PrompTugal.dinis` | the plan, the board for this site, REALITY.md, who does what, a short brief to Dinis after each run; routes work to the others | writes their content for them |
 | `journalist@PrompTugal.dinis` | `content/articles/` (with the desks' drafts: Vicky's and Indi's journalists), each fact sourced, each article signed | publishes a claim without its source |
-| `dev@PrompTugal.dinis` | `admin/build/`, `admin/tools/`, `assets/` code, the gate, the features, the domain and CI | changes content to make a check pass |
+| `dev@PrompTugal.dinis` | `newsroom/build/`, `newsroom/tools/`, `assets/` code, the gate, the features, the domain and CI | changes content to make a check pass |
 | `ontologist@PrompTugal.dinis` | `data/` schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places), its links to the team CRM | hand-edits a derived file |
 | `outreach@PrompTugal.dinis` | drafts to companies as PrompTugal's editors, each leading with that company's page, kept with the team CRM's comms | sends an email or posts: a person does |
 | `designer@PrompTugal.dinis` | `design/` and the brand v2.0, layouts, the logo, the editors' business cards | changes the brand without Dinis's yes |
-| `observability@PrompTugal.dinis` | who reads what and what the agents do on this site: the page views and reads sent to an encrypted vault, the drain, the reports in `admin/` (public for now, at Dinis's word) | records anything that identifies a reader (no IP, no cookie) |
+| `observability@PrompTugal.dinis` | who reads what and what the agents do on this site: the page views and reads sent to an encrypted vault, the drain, the reports in `newsroom/` (public for now, at Dinis's word) | records anything that identifies a reader (no IP, no cookie) |
 | `synthetic@PrompTugal.dinis` | synthetic readers: personas (a founder, a CISO, a journalist, an investor, someone who just got an outreach email) who read the site as they would, on a phone and a desktop, and report what works, what confuses and what loses them; findings to the agent who owns the fix | presents a synthetic reader's view as a real person's, or touches content to fix it itself |
 
 `newsroom@web-summit.dinis` built the site and hands over to `conductor@PrompTugal.dinis`; the rules above for it

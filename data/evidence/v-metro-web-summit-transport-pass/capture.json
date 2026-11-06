@@ -23,7 +23,7 @@
   "run": "2026-11-04T19:45Z (scheduled run, written 19:55)",
   "by": "curator@web-summit.vicky",
   "derived": {
-    "by": "admin/tools/derive.mjs",
+    "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-04-1955.json"
     ]

@@ -1,7 +1,7 @@
 # data/: every fact as JSON, a folder per entity
 
 Prose (articles, the brief, about) is markdown in `content/`. Everything that is data is here, as JSON, one folder per
-entity, every kind of file with a JSON Schema in `schemas/`. The build (`admin/build/`) makes the pages, the JSON API
+entity, every kind of file with a JSON Schema in `schemas/`. The build (`newsroom/build/`) makes the pages, the JSON API
 (`/api/v1/`) and the graphs from it. Public facts only, each with its source URL and the date read; nothing about a
 person beyond what the summit lists (name, role, organisation); no contact details, ever; the team's own notes
 (decision, priority, owner, why it matters) are never here.
@@ -57,10 +57,10 @@ data/
 
 1. **HAND files are the sources of truth.** Edit them; the gate checks them against their schemas.
 2. **DERIVED files are never edited by hand.** They carry `"derived": {"by", "from"}`. They are written by
-   `node admin/tools/derive.mjs` from what the desks write (`desks/programme/agenda.json`, `desks/curator/*.json`)
+   `node newsroom/tools/derive.mjs` from what the desks write (`desks/programme/agenda.json`, `desks/curator/*.json`)
    and from the HAND files above. The desks keep their own formats. Run the tool after a desk's file or a HAND file
    it reads changes; the gate re-derives in memory and fails, naming the file, if a committed derived file is
-   missing, stale or no longer derived (`node admin/tools/derive.mjs --check` does the same).
+   missing, stale or no longer derived (`node newsroom/tools/derive.mjs --check` does the same).
 3. **Derived files are committed**, not generated at build, so that a desk's change arrives as a diff someone can
    review (brief 4: security reviews every run's diff, and a new person, a changed role or a new organisation shows
    there), and so that other agents can read the entities at stable paths in the repository. Generated output (the
@@ -69,7 +69,7 @@ data/
    `curation/` with who decided, when and why. To add an entity the desks do not have, write it by hand in the same
    folder without `"derived"`: a hand-written entity always wins over a derived one with the same slug (that is how
    `events/web-summit-lisbon-2026/` and `organisations/web-summit/` exist).
-5. **Companies** come from the team's company map, public fields only: `node admin/tools/companies.mjs --from
+5. **Companies** come from the team's company map, public fields only: `node newsroom/tools/companies.mjs --from
    <the team's data/companies.json> [--recheck]`. A re-run keeps what was added by hand (sources whose id is not
    `sN`, facts whose id is not `f-sN`, edges whose `by` is not the tool, aliases marked `"hand": true`, and every
    re-check). It was run first on 5 November 2026 from the newsroom's earlier `data/companies.json` (the team's
@@ -139,18 +139,18 @@ Built from this folder at every release, never committed: `/api/v1/index.json` l
 `{id, type, label, source, ...}`, an edge `{id, from, to, verb, source, read}`; `whole.cytoscape.json` carries the same
 graph as Cytoscape elements (`data.family` is the type, `data.kind` the verb), the shape graphs.sgit.ai's viewers load.
 
-## data/admin/: the control centre's record
+## data/newsroom/: the control centre's record
 
-`/admin/` (the feature `admin`) is built from four things here, none of them generated at build:
+`/newsroom/` (the feature `newsroom`) is built from four things here, none of them generated at build:
 
 - `runs/<YYYY-MM-DD>.jsonl`: the runs ledger, one line per commit of this repository (when, agent, what, issues, for,
-  the release that carried it, files and lines by area), appended only by `node admin/tools/runs.mjs` from the full git
-  history; re-running adds only new commits. Schema `admin-run`, checked by the feature's own gate check.
+  the release that carried it, files and lines by area), appended only by `node newsroom/tools/runs.mjs` from the full git
+  history; re-running adds only new commits. Schema `newsroom-run`, checked by the feature's own gate check.
 - `agents.json`: every agent working on the newsroom (who fired it up, when and how we know, kind, desk, status, where
-  its work lands, its key ids on the team's keys page). Hand-kept; schema `admin-agents`. An agent that commits must be
+  its work lands, its key ids on the team's keys page). Hand-kept; schema `newsroom-agents`. An agent that commits must be
   in it, or the gate fails.
 - `plan.json`: the plan at a glance, the build order's states, what waits on a person, the run's schedule and the lab's
-  ideas. Hand-kept; schema `admin-plan`.
+  ideas. Hand-kept; schema `newsroom-plan`.
 - `team-site.json`: the desks' run lines, the newsroom's board issues and the keys' public facts, from the team's site by
-  `node admin/tools/desks-snapshot.mjs --team <clone>`. Never edited by hand; schema `admin-team-site`.
+  `node newsroom/tools/desks-snapshot.mjs --team <clone>`. Never edited by hand; schema `newsroom-team-site`.
 

@@ -6,19 +6,19 @@
       "verb": "filed_under",
       "to": "topic:platform",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:portugal",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "appears_in",
       "to_url": "https://websummit.com/sessions/lis26/5847852b-93e5-4590-b1f8-eb657b7fae4c/the-autonomous-enterprise-networks-cloud-and-ai-agents/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

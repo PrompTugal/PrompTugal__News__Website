@@ -4,7 +4,7 @@
  *   view   open, highlight
  *
  * Results are compact on purpose (ids, labels, a few fields, the API address) so a model's context stays small.
- * makeCoreTools(env) is pure and runs in Node (admin/tests/chat.test.mjs); in the page env is NRSite plus the DOM.
+ * makeCoreTools(env) is pure and runs in Node (newsroom/tests/chat.test.mjs); in the page env is NRSite plus the DOM.
  * Lisbon is on UTC in November, so the summit's times are UTC times.
  */
 (function (root, factory) {

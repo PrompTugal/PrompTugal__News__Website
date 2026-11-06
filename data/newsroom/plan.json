@@ -1,0 +1,229 @@
+{
+  "about": "The newsroom's plan and its state, hand-kept by the conductor (newsroom@web-summit.dinis); schema data/schemas/newsroom-plan.schema.json. The newsroom overview draws it live. A note may name a live count in braces, filled at build from the data: {companies}, {articles}, {agenda}, {captures}, {stories}, {people}, {pages}, {releases}, {runs}, {agents_running}. States are a judgement, not a measure; the evidence says why.",
+  "updated": "2026-11-05T03:05:00Z",
+  "by": "newsroom-admin@web-summit.dinis",
+  "glance": [
+    {
+      "part": "The plan",
+      "of10": 10,
+      "note": "the brief pack, 10 pages"
+    },
+    {
+      "part": "Research",
+      "of10": 7,
+      "note": "3 desks, {captures} captures mapped"
+    },
+    {
+      "part": "Agenda",
+      "of10": 9,
+      "note": "{agenda} items, on the front page"
+    },
+    {
+      "part": "The look",
+      "of10": 8,
+      "note": "designed; being applied"
+    },
+    {
+      "part": "Companies",
+      "of10": 6,
+      "note": "{companies} profiles, sourced"
+    },
+    {
+      "part": "Data and API",
+      "of10": 8,
+      "note": "JSON, graphs, schemas"
+    },
+    {
+      "part": "Articles",
+      "of10": 1,
+      "note": "{articles} of 3, signed"
+    },
+    {
+      "part": "Interviews",
+      "of10": 1,
+      "note": "a shortlist, held privately"
+    },
+    {
+      "part": "Reader meter",
+      "of10": 1,
+      "note": "being built"
+    },
+    {
+      "part": "Control centre",
+      "of10": 5,
+      "note": "this section, first cut"
+    }
+  ],
+  "build_order": [
+    {
+      "step": 1,
+      "short": "The publication look",
+      "state": "done",
+      "note": "live, v0.1.6",
+      "evidence": "Indi's patch, released v0.1.6 (dcdac37)"
+    },
+    {
+      "step": 2,
+      "short": "The brief pack",
+      "state": "done",
+      "note": "live, v0.1.2",
+      "evidence": "the brief pack, released v0.1.2 (9437805)"
+    },
+    {
+      "step": 3,
+      "short": "Company pages",
+      "state": "done",
+      "note": "{companies} profiles",
+      "evidence": "data/companies/, one folder per company"
+    },
+    {
+      "step": 4,
+      "short": "The research run",
+      "state": "started",
+      "note": "3 of 7 desks run",
+      "evidence": "researcher, curator and programme run; the writing desks wait on WS-145"
+    },
+    {
+      "step": 5,
+      "short": "Front page and agenda",
+      "state": "done",
+      "note": "live",
+      "evidence": "the agenda feature, released v0.1.7"
+    },
+    {
+      "step": 6,
+      "short": "First three articles",
+      "state": "started",
+      "note": "{articles} of 3",
+      "evidence": "content/articles/"
+    },
+    {
+      "step": 7,
+      "short": "The Portugal banner",
+      "state": "not yet",
+      "note": "story S7 ready",
+      "evidence": "the curator's story candidate S7"
+    },
+    {
+      "step": 8,
+      "short": "Reader meter, traffic",
+      "state": "started",
+      "note": "meter being built",
+      "evidence": "newsroom-billing@web-summit.dinis, branch work/billing, from 5 November 03:00"
+    },
+    {
+      "step": 9,
+      "short": "The interview workflow",
+      "state": "started",
+      "note": "shortlist only",
+      "evidence": "programme desk, 4 November 20:45: the shortlist is in its confidential vault"
+    },
+    {
+      "step": 10,
+      "short": "Summit mode, every 2h",
+      "state": "not yet",
+      "note": "Mon 9",
+      "evidence": "the run's schedule waits on brief 9, decision 5"
+    }
+  ],
+  "waiting": [
+    {
+      "what": "Indi's write access to the newsroom repository",
+      "who": "Dinis",
+      "issue": "WS-145",
+      "unblocks": "Indi's desks start: journalist, fact-checker, editor",
+      "then": "a full run, research to front page, then articles two and three (brief 9, steps 4 and 6)"
+    },
+    {
+      "what": "Who owns which desks",
+      "who": "Dinis",
+      "ref": "brief 9, decision 3",
+      "unblocks": "the writing desks' names and owners"
+    },
+    {
+      "what": "The run's schedule",
+      "who": "Dinis",
+      "ref": "brief 9, decision 5",
+      "unblocks": "four runs a day now, every two hours at the summit"
+    },
+    {
+      "what": "The first five interview names",
+      "who": "Dinis",
+      "ref": "brief 9, decision 6",
+      "unblocks": "the interview workflow (step 9)"
+    }
+  ],
+  "schedule": {
+    "status": "proposed in brief 4; waits on brief 9, decision 5",
+    "phases": [
+      {
+        "label": "Now to Sunday 8 November",
+        "from": "2026-11-05",
+        "to": "2026-11-08",
+        "times": [
+          "07:30",
+          "11:30",
+          "15:30",
+          "19:30"
+        ]
+      },
+      {
+        "label": "The summit, Monday 9 to Thursday 12",
+        "from": "2026-11-09",
+        "to": "2026-11-12",
+        "times": [
+          "07:30",
+          "09:30",
+          "11:30",
+          "13:30",
+          "15:30",
+          "17:30",
+          "19:30",
+          "21:30"
+        ],
+        "plus": "a run after each big announcement"
+      }
+    ],
+    "order": [
+      "research",
+      "curate",
+      "write",
+      "check",
+      "publish",
+      "edit",
+      "security"
+    ]
+  },
+  "lab": [
+    {
+      "title": "Replay a run",
+      "state": "idea",
+      "what": "Step through one run's commits in order, with the files each touched, as a slideshow built from the ledger."
+    },
+    {
+      "title": "Who touches what",
+      "state": "trying",
+      "what": "A matrix of agents against the repository's areas, from the ledger: where agents collide, and where nobody goes. First cut on the agents page."
+    },
+    {
+      "title": "Freshness alarms",
+      "state": "idea",
+      "what": "Mark every source older than a day during the summit, from the read dates the data already carries."
+    },
+    {
+      "title": "Run lines as a feed",
+      "state": "idea",
+      "what": "The runs as an Atom feed, so a person can follow the agents in a reader."
+    },
+    {
+      "title": "Ask the control centre",
+      "state": "idea",
+      "what": "The chat pane reading /api/v1/newsroom/status.json to answer \"what is the newsroom doing now?\""
+    },
+    {
+      "title": "The status report, from data",
+      "state": "trying",
+      "what": "The plain-text pictures of the first article, drawn from data on every release: the overview of this section."
+    }
+  ]
+}

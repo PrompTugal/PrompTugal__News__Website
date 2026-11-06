@@ -6,19 +6,19 @@
       "verb": "filed_under",
       "to": "topic:devtools",
       "source": "s3",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:canada",
       "source": "s3",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "hosts",
       "to_url": "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

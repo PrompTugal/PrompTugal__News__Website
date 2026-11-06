@@ -3,7 +3,7 @@
 Copied unedited on 5 November 2026 from newsroom.sgit.ai (repository SGit-AI/SGit-AI__Website__Newsroom, local clone
 read the same day), where it runs the reading meter on every page. The version is in the path and a path is never
 reused: a new version is a new folder beside this one, and the old one stays, so a page that names a version always
-gets the same bytes. Nothing in these files is edited; the gate (admin/build/features/billing.mjs, check 12) recomputes
+gets the same bytes. Nothing in these files is edited; the gate (newsroom/build/features/billing.mjs, check 12) recomputes
 every hash below and fails if one differs.
 
 **What this site uses.** Only `sg-meter-core.js` (the meter's state and rules: open, reach, settle, rate, decline,
@@ -24,5 +24,5 @@ classes (`.meter`, `.balance-card`, `.ledger`, `.meter-line`) instead of the ele
 | `base/v1/v1.0/v1.0.0/sg-component.js` | `e566a78ad98fbd184058eed2a6b435c2c386066a0743de5efdbd0ef99348e677` |
 
 **To move to a new version:** copy the new folder from newsroom.sgit.ai beside this one (never over it), add its rows
-here, point `METER` in admin/build/features/billing.mjs and the import in assets/meter/meter.js at it, run
-`node admin/build/tests/test_meter.mjs` and the gate.
+here, point `METER` in newsroom/build/features/billing.mjs and the import in assets/meter/meter.js at it, run
+`node newsroom/build/tests/test_meter.mjs` and the gate.

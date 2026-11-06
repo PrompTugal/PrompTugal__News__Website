@@ -45,7 +45,7 @@
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
-    "by": "admin/tools/derive.mjs",
+    "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/programme/agenda.json",
       "data/places/",

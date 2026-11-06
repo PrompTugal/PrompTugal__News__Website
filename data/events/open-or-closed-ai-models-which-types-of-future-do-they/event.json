@@ -45,7 +45,7 @@
   "read_at": "2026-11-05T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
-    "by": "admin/tools/derive.mjs",
+    "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/programme/agenda.json",
       "data/places/",

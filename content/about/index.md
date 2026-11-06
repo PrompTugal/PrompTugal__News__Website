@@ -53,7 +53,7 @@ The source code is on GitHub: [SGit-AI/SGit-AI__Website__Newsroom__Web-Summit](h
 ## For readers and for agents {#read}
 
 - Every page has a plain-text copy at the same address, ending in `.md`. Agents can start at [llms.txt](../llms.txt).
-- The version at the top of each page links to [the release history](../admin/versions.md).
+- The version at the top of each page links to [the release history](../newsroom/versions.md).
 
 ## What is live today {#what-exists}
 
@@ -63,7 +63,7 @@ The source code is on GitHub: [SGit-AI/SGit-AI__Website__Newsroom__Web-Summit](h
 - [Events](../events/index.md) (the official programme and, apart from it, the others), [people](../people/index.md), [organisations](../organisations/index.md), [topics](../topics/index.md) and [places](../places/index.md): a page each, linked to one another.
 - [The data, as JSON](../api/index.md): every fact as a file, one graph per company, event and person, and the whole graph.
 - [The articles](../articles/index.md), each signed with the newsroom's key.
-- [The brief](../brief/index.md), [our disclosure](participant.md) and [the release history](../admin/versions.md).
+- [The brief](../brief/index.md), [our disclosure](participant.md) and [the release history](../newsroom/versions.md).
 
 The desks that make it: Vicky's researcher, curator and programme desk run several times a day. The writing desks (journalist, fact-checker, editor) are next. `REALITY.md` in the code is the full record.
 

@@ -1,5 +1,5 @@
 {
-  "about": "The site's navigation, its utility links, the footer and the llms.txt groups, in order. A page belongs to the first nav (or utility) entry whose match fits its path (a match ending in / is a prefix, otherwise the exact path). The sections are Dinis Cruz's of 5 November 2026: Now, Agenda, News, Companies, People, Portugal, About. Utility links (Admin) sit discreetly in the dateline and the footer, and show only once their page exists. A new feature adds itself with one line here.",
+  "about": "The site's navigation, its utility links, the footer and the llms.txt groups, in order. A page belongs to the first nav (or utility) entry whose match fits its path (a match ending in / is a prefix, otherwise the exact path). The sections are Dinis Cruz's of 5 November 2026: Now, Agenda, News, Companies, People, Portugal, About. Utility links (Newsroom) sit discreetly in the dateline and the footer, and show only once their page exists. A new feature adds itself with one line here.",
   "nav": [
     {
       "id": "now",
@@ -70,17 +70,17 @@
         "riskmandate/",
         "brief/",
         "api/",
-        "admin/versions.html"
+        "newsroom/versions.html"
       ]
     }
   ],
   "utility": [
     {
-      "id": "admin",
-      "label": "Admin",
-      "href": "admin/index.html",
+      "id": "newsroom",
+      "label": "Newsroom",
+      "href": "newsroom/index.html",
       "match": [
-        "admin/"
+        "newsroom/"
       ]
     }
   ],
@@ -122,12 +122,12 @@
     },
     {
       "label": "Control centre",
-      "href": "admin/index.html"
+      "href": "newsroom/index.html"
     },
     {
       "column": "The newsroom",
       "label": "Design review",
-      "href": "admin/design/home-review/index.html"
+      "href": "newsroom/design/home-review/index.html"
     },
     {
       "column": "The newsroom",
@@ -147,12 +147,12 @@
     {
       "column": "The newsroom",
       "label": "Release history",
-      "href": "admin/versions.html"
+      "href": "newsroom/versions.html"
     },
     {
       "column": "The newsroom",
       "label": "Synthetic readers",
-      "href": "admin/synthetic.html"
+      "href": "newsroom/synthetic.html"
     },
     {
       "column": "Read",
@@ -275,9 +275,9 @@
       ]
     },
     {
-      "group": "Admin",
+      "group": "Newsroom",
       "match": [
-        "admin/"
+        "newsroom/"
       ]
     },
     {

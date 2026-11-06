@@ -42,7 +42,7 @@
       "s5"
     ]
   },
-  "field_sources_method": "Keyword match on each source's \"supports\" note (admin/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
+  "field_sources_method": "Keyword match on each source's \"supports\" note (newsroom/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
   "aliases": [
     {
       "name": "Open VSX (Eclipse Foundation)",

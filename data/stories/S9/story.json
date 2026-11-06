@@ -13,7 +13,7 @@
     "desks/curator/2026-11-04-1955.json"
   ],
   "derived": {
-    "by": "admin/tools/derive.mjs",
+    "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-04-1955.json"
     ]

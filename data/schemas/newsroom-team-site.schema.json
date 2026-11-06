@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/newsroom-team-site.schema.json",
+  "title": "A snapshot of the team's site for the newsroom section (data/newsroom/team-site.json), written by newsroom/tools/desks-snapshot.mjs",
+  "type": "object",
+  "required": [
+    "about",
+    "read_at",
+    "from",
+    "desk_runs",
+    "board",
+    "keys"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "read_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "from": {
+      "type": "object",
+      "required": [
+        "repo",
+        "branch",
+        "commit"
+      ],
+      "properties": {
+        "repo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "branch": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "desk_runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "desk",
+          "agent",
+          "when",
+          "title",
+          "lines",
+          "source"
+        ],
+        "properties": {
+          "desk": {
+            "enum": [
+              "researcher",
+              "curator",
+              "programme"
+            ]
+          },
+          "agent": {
+            "type": "string",
+            "pattern": "^[a-z0-9.-]+@web-summit\\.[a-z0-9-]+$"
+          },
+          "when": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lines": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "captures": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "board": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "status",
+          "file"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^WS-\\d+$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "minLength": 1
+          },
+          "due": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "for": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "picked_by": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "only": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "file": {
+            "type": "string",
+            "minLength": 1
+          },
+          "updated": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "keys": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "added"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "added": {
+            "type": "string",
+            "format": "date"
+          },
+          "fingerprint": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{16}$"
+          },
+          "signing_fingerprint": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{16}$"
+          }
+        }
+      }
+    }
+  }
+}

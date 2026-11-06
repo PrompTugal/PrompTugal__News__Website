@@ -1,6 +1,6 @@
 {
   "$schema": "schemas/matching.schema.json",
-  "about": "The derivation's report (admin/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
+  "about": "The derivation's report (newsroom/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
   "counts": {
     "speaker_organisations_matched": 66,
     "speaker_organisations_unmatched": 156,
@@ -1958,7 +1958,7 @@
     }
   ],
   "derived": {
-    "by": "admin/tools/derive.mjs",
+    "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/",
       "data/companies/",

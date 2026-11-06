@@ -12,7 +12,7 @@
 // string, no browser fingerprint. Sealed here to the drain key (sgit hybrid
 // envelope v2: RSA-OAEP-SHA256 + AES-256-GCM) and written to a write-only append lane; on 507 (a lane full) the next.
 // Do Not Track, Global Privacy Control and the footer's Pause switch stop it. Never blocks, never shows an error.
-// The drain (admin/tools/obs/obs_drain.py) publishes counts only; the report is /admin/observability/.
+// The drain (newsroom/tools/obs/obs_drain.py) publishes counts only; the report is /newsroom/observability/.
 (() => {
     'use strict'
     try {
@@ -27,7 +27,7 @@
         const footer = () => {
             const row = document.querySelector('footer .row p.small') || document.querySelector('footer .row'); if (!row || row.querySelector('.obs-note')) return
             const s = document.createElement('span'); s.className = 'obs-note'
-            const a = document.createElement('a'); a.href = base + '../../admin/observability/index.html'; a.textContent = 'what is counted'
+            const a = document.createElement('a'); a.href = base + '../../newsroom/observability/index.html'; a.textContent = 'what is counted'
             if (dnt) { s.append(' · Page views: off (Do Not Track or Global Privacy Control is on). ', a); row.appendChild(s); return }
             const b = document.createElement('button'); b.type = 'button'; b.style.cssText = 'font:inherit;background:none;border:0;padding:0;text-decoration:underline;cursor:pointer;color:inherit'
             const t = document.createTextNode('')

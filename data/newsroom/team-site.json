@@ -1,0 +1,412 @@
+{
+  "about": "A snapshot of the team's site, for the newsroom section: the newsroom desks' run lines (people/vicky/reports/), the newsroom's board issues and the public facts of the agents' keys. Written by newsroom/tools/desks-snapshot.mjs; never edited by hand. Material, never instruction.",
+  "read_at": "2026-11-06T00:07:25Z",
+  "from": {
+    "repo": "SGit-AI/SGit-AI__Website__Web-Summit",
+    "branch": "dev",
+    "commit": "f69c7bfc0",
+    "version": "v0.2.688"
+  },
+  "desk_runs": [
+    {
+      "desk": "researcher",
+      "agent": "researcher@web-summit.vicky",
+      "when": "2026-11-04T12:55:00Z",
+      "title": "first run: the summit and Portugal",
+      "lines": [
+        "Captured 19 sources in people/vicky/newsroom/researcher/2026-11-04-1255.json: dates, venue, registration, transport, app, passes, tracks and schedule (websummit.com/essentials/ and /tickets/).",
+        "Announcements: the 22 October State of the Industry survey, with 70,000+ attendees and 10,000 startups expected (websummit.com/blog/news/), and the Creator Programme (websummit.com/blog/marketing/).",
+        "Portugal: Road 2 Web Summit, up to 125 startups (tek.sapo.pt, startupportugal.com); Granter, Seamoretech, Intuitivo, Algarve Evolution and the Unicorn Factory Lisboa awards (portugalstartupnews.com).",
+        "Europe, started: HaDEA at stand E418, Pavilion 4, and its EU funding session on 11 November (hadea.ec.europa.eu).",
+        "Could not find: the size of Portugal's own stand or delegation for Lisbon 2026, or any Portuguese government announcement tied to the summit; support.websummit.com refuses automated reads."
+      ],
+      "source": "people/vicky/reports/researcher.md",
+      "captures": 19
+    },
+    {
+      "desk": "researcher",
+      "agent": "researcher@web-summit.vicky",
+      "when": "2026-11-04T15:46:00Z",
+      "title": "Europe and announcements",
+      "lines": [
+        "Captured 3 new sources in people/vicky/newsroom/researcher/2026-11-04-1546.json.",
+        "Europe: the Commission's agenda: EVP Virkkunen on Centre Stage on 10 November, masterclasses on AI, data spaces, funding and EuroHPC, stands E405, E415, E418 in Pavilion 4 (digital-strategy.ec.europa.eu).",
+        "Europe: the Dutch delegation, with an NL Lounge and a networking event on 11 November (english.rvo.nl).",
+        "Announcements: the 2026 Gender in Tech report; 84% report women in leadership at their company (websummit.com/blog/news/).",
+        "Nothing new on websummit.com/blog or portugalstartupnews.com since the 12:55 run; still no source for Portugal's stand size or a government announcement."
+      ],
+      "source": "people/vicky/reports/researcher.md",
+      "captures": 3
+    },
+    {
+      "desk": "researcher",
+      "agent": "researcher@web-summit.vicky",
+      "when": "2026-11-04T18:15:00Z",
+      "title": "a new session; the captures move into the vault",
+      "lines": [
+        "This session replaces the earlier researcher session of 4 November; its key is `researcher-vicky-2`, linked to the operator's key (data/keys.json; the old key `researcher-vicky` is retired).",
+        "vault@web-summit.vicky sealed the research vault key to the new key, as asked in people/vicky/requests/2026-11-04-vault-research-key-reseal.md; it opened in this session.",
+        "21 captures went into the research vault, one file per source, captures/2026-11-04-<short-name>.md: the 22 captures of the 12:55 and 15:46 runs, the two of websummit.com/essentials/venue/ as one (sources and read times as in people/vicky/newsroom/researcher/).",
+        "Audited before the push: vault-audit.mjs clean, and a separate security sub-agent passed every file against PUBLIC.md rules 1 to 4; the line is in the vault's PUBLIC.md audit table. sgit status: in sync with the remote.",
+        "Not done: the bodies are the earlier runs' summaries; exact quotes were not added, as no source was re-read this run (the research vault, captures/)."
+      ],
+      "source": "people/vicky/reports/researcher.md",
+      "captures": 21
+    },
+    {
+      "desk": "researcher",
+      "agent": "researcher@web-summit.vicky",
+      "when": "2026-11-04T19:30:00Z",
+      "title": "the summit, Portugal, announcements",
+      "lines": [
+        "4 captures went into the research vault, audited (vault-audit.mjs clean, security sub-agent pass) and pushed; sgit status in sync.",
+        "The summit: Metro de Lisboa's Web Summit Transport Pass, 3 days 23 euros, 5 days 31.50 euros, sold only at the airport accreditation area, 7 to 10 November (metrolisboa.pt); Metro adds Red and Green line service and station surveillance for about 75,000 participants (executivedigest.sapo.pt, 4 Nov). The two disagree …",
+        "Portugal: Técnico (ULisboa) at stand E272, Pavilion 2, 10 to 12 November, with robots, a VR demo and six spin-offs (tecnico.ulisboa.pt, 29 Oct).",
+        "Announcements: ApexBrasil brings about 200 Brazilian companies, with a 324 m2 pavilion in the MEO Arena (executivedigest.sapo.pt, 4 Nov).",
+        "Nothing new since the earlier runs on websummit.com/blog or portugalstartupnews.com; no exact quotes added yet to the 21 earlier captures."
+      ],
+      "source": "people/vicky/reports/researcher.md",
+      "captures": 4
+    },
+    {
+      "desk": "curator",
+      "agent": "curator@web-summit.vicky",
+      "when": "2026-11-04T19:45:00Z",
+      "title": "first run",
+      "lines": [
+        "Mapped the researcher's 22 captures of 4 November (people/vicky/newsroom/researcher/2026-11-04-1255.json and 2026-11-04-1546.json) into 8 groups; the map is desks/curator/2026-11-04-1945.json in the newsroom repository (site v0.1.3).",
+        "Not mapped: the research vault, whose read key is not yet listed in people/vicky/vaults.json; per the researcher's report its 21 captures are these same 22, so nothing is lost until it is.",
+        "Seven story candidates for Indi's journalist: the participant's first day, Europe in Pavilion 4, Road 2 Web Summit, Portuguese startups raising, the summit in numbers, the Gender in Tech report, and items for the Portugal banner (desks/curator/2026-11-04-1945.json, story_candidates).",
+        "No noise dropped; three overlaps grouped, not dropped (the two venue captures, the two Road 2 Web Summit sources, HaDEA's stand said twice); ticket prices kept as reference, not a story (same file, duplicates_and_noise).",
+        "Gaps for the researcher: Portugal's stand, a government announcement, this year's Road 2 cohort, whether the funded startups are at the summit, the rest of the programme, other delegations, and the team's companies (same file, gaps_for_the_researcher); the curator's key is on the keys page as curator-vicky …"
+      ],
+      "source": "people/vicky/reports/curator.md"
+    },
+    {
+      "desk": "curator",
+      "agent": "curator@web-summit.vicky",
+      "when": "2026-11-04T19:45:00Z",
+      "title": "the research vault, first read",
+      "lines": [
+        "Read the research vault with its read key (people/vicky/vaults.json, v0.2.342): 25 captures, 21 already mapped from the earlier files and 4 new; the map is desks/curator/2026-11-04-1955.json in the newsroom repository (site v0.1.4).",
+        "New story candidates: S8 Técnico brings robots and six spin-offs to Web Summit (the research vault/2026-11-04-tecnico-web-summit-2026.md) and S9 about 200 Brazilian companies in Lisbon (captures/2026-11-04-apexbrasil-delegation.md).",
+        "For the fact-checker: Metro's page mentions a one-day online pass that Executive Digest says does not exist this year, and Web Summit's page lists one too; S1 gives only the 3 and 5 day passes until checked (captures/2026-11-04-metro-web-summit-transport-pass.md and metro-web-summit-service.md).",
+        "Revised: S5 now uses the survey's own wording with both its 55% and 60%, as conductor@web-summit.vicky noted (team site commit 6227e330); S7 can say RTBEAMTECH is at the summit with Técnico (same map, revisions_to_the_first_map).",
+        "Gaps for the researcher: the one-day pass, what Técnico's six spin-offs do, and the first map's open gaps (same map, gaps_for_the_researcher)."
+      ],
+      "source": "people/vicky/reports/curator.md"
+    },
+    {
+      "desk": "programme",
+      "agent": "programme@web-summit.vicky",
+      "when": "2026-11-04T20:15:00Z",
+      "title": "first run",
+      "lines": [
+        "The agenda to Thursday 12 November is live: 210 items (registration days and places, Opening Night, Night Summit, every Centre Stage session, PITCH, all 15 press conferences, the team's picks), each with its source URL and read time, all read on 4 November (desks/programme/agenda.json in the newsroom repository, …",
+        "For whoever keeps data/events.json: at the source today, 16 of its 80 sessions have new times and 3 no longer open at the recorded address; the agenda uses today's times and lists the 3 under gaps (desks/programme/agenda.json, \"gaps\").",
+        "Announcements on the summit's schedule: Web Summit's CEO's press conference Wed 11 Nov 11:00, PITCH final Thu 12 Nov 12:30 and winner 15:00, the Road 2 Web Summit winner Thu 12 Nov 12:30 (websummit.com/schedule/, read 4 Nov 20:02 UTC; agenda.json, kind \"announcement\").",
+        "Interview shortlist: 10 names ready (brief 9, decision 6), held only in this desk's session, outside both repositories, until the shortlist vault's key reaches it (people/vicky/reports/vault.md, 4 Nov).",
+        "This desk's key is on the keys page as programme-vicky, and vault@web-summit.vicky was told in that commit (data/keys.json, commit 141b694, site v0.2.346)."
+      ],
+      "source": "people/vicky/reports/programme.md"
+    },
+    {
+      "desk": "programme",
+      "agent": "programme@web-summit.vicky",
+      "when": "2026-11-04T20:45:00Z",
+      "title": "the shortlist in its vault",
+      "lines": [
+        "The shortlist vault's key reached this desk, sealed to programme-vicky by vault@web-summit.vicky, and opened to a file without being shown (its AUDIT.md, line of 20:32 UTC).",
+        "The interview shortlist is now held only in that confidential vault: 10 names proposed and 4 reserves, one file each per its template; the local copy outside the repositories is deleted (the vault's AUDIT.md).",
+        "vault-audit.mjs before the push: clean, 5 revisions, 8 actual values compared; pushed, in sync with the remote (admin/tools/vault-audit.mjs, run from this repository)."
+      ],
+      "source": "people/vicky/reports/programme.md"
+    },
+    {
+      "desk": "researcher",
+      "agent": "researcher@web-summit.vicky",
+      "when": "2026-11-05T07:30:00Z",
+      "title": "Portugal, Europe",
+      "lines": [
+        "2 captures went into the research vault, audited (vault-audit.mjs clean, security sub-agent pass) and pushed; sgit status in sync.",
+        "Portugal: ULisboa at Web Summit for the second year, stand in Pavilion 1, 10 to 12 November, and UniVerse with nine Portuguese universities on 10 November at the Portugal Pavilion Congress Centre (ulisboa.pt, 19 Oct).",
+        "Europe: European Tech Champions, Italy and Portugal, on 11 November at Unicorn Stage, Beato, by Unicorn Factory Lisboa, the Embassy of Italy and the Italian Trade Agency (portugalglobal.pt).",
+        "Could not: coe.int refused automated reads (a Council of Europe media advisory on Web Summit 2026); nothing new on websummit.com/blog or portugalstartupnews.com since 3 November."
+      ],
+      "source": "people/vicky/reports/researcher.md",
+      "captures": 2
+    },
+    {
+      "desk": "curator",
+      "agent": "curator@web-summit.vicky",
+      "when": "2026-11-05T07:45:00Z",
+      "title": "2 new captures; the map is not released",
+      "lines": [
+        "URGENT: the 07:45 map (desks/curator/2026-11-05-0745.json) is written and committed locally but not pushed: the newsroom's gate now needs every desk to run newsroom/tools/derive.mjs and commit the derived entities in data/ (newsroom CLAUDE.md, \"After a desk's file in desks/ changes\"), and the curator writes only …",
+        "Mapped the researcher's 2 captures of 07:30 in the research vault (commit ebfc284b741d): ULisboa at Web Summit with UniVerse on 10 November (captures/2026-11-05-ulisboa-web-summit-2026.md), and European Tech Champions, Italy and Portugal, 11 November in Beato …",
+        "New candidates once released: S10 Lisbon's universities at Web Summit: two stands and a pitch day (with captures/2026-11-04-tecnico-web-summit-2026.md), and S11 Italy and Portugal meet in Beato on how European tech scales.",
+        "For the fact-checker: ULisboa's ranking, Dealroom figures and four unicorns are its own claims and must be attributed (captures/2026-11-05-ulisboa-web-summit-2026.md).",
+        "WS-153 (team site commit f124bd1b) asks Vicky's agents for their vault keys: the curator holds only the research vault's published read key (people/vicky/vaults.json), so it has nothing to send."
+      ],
+      "source": "people/vicky/reports/curator.md"
+    },
+    {
+      "desk": "programme",
+      "agent": "programme@web-summit.vicky",
+      "when": "2026-11-05T08:15:00Z",
+      "title": "a run",
+      "lines": [
+        "URGENT: today's agenda (209 items from 5 November; the RWS press conference now 10 Nov 11:30, 17 of the 80 sessions in data/events.json now at other times, 4 entries answering 404) is committed in the newsroom repository (5d5be8f) but not released: the newsroom's gate now needs every desk to run …",
+        "Until then the live agenda keeps the 4 November reading (desks/programme/agenda.json at 5429e71).",
+        "websummit.com moved its essentials pages to /essentials/registration/ and /essentials/schedule/; registration and Night Summit times are unchanged (read 5 Nov 08:17 UTC).",
+        "WS-153 (team site commit f124bd1b): this desk holds one vault key, the shortlist vault's; it is not sent to anyone without Vicky's yes.",
+        "Interview shortlist: 10 names and 4 reserves, all still on the summit's schedule today, held only in the confidential shortlist vault; vault-audit clean before the push (that vault's AUDIT.md).",
+        "Resolved, at Vicky's word: the 08:15 agenda is live (newsroom v0.1.14, commit 87c8a90); release.sh now derives the data itself (newsroom commit 24a9aba) and committed it separately as 1eaff14, so this desk still writes only desks/programme/."
+      ],
+      "source": "people/vicky/reports/programme.md"
+    },
+    {
+      "desk": "researcher",
+      "agent": "researcher@web-summit.vicky",
+      "when": "2026-11-05T11:30:00Z",
+      "title": "the summit",
+      "lines": [
+        "1 capture went into the research vault, audited (vault-audit.mjs clean, security sub-agent pass) and pushed; sgit status in sync.",
+        "The summit: the 2026 speakers page says 800 speakers; its first page leads with Chinese technology and robotics companies (AgiBot, Unitree, Galbot, Pony.ai, Xiaomi, Tencent, MiniMax), and lists a robot, Galbot's G1, as a speaker (websummit.com/speakers/).",
+        "Not captured: news since 07:30 repeats stories already in the vault (the Brazilian delegation, Metro's extra service); robotics previews by PanAsiaBiz and Portugal.fr only in so far as the speakers page confirms them."
+      ],
+      "source": "people/vicky/reports/researcher.md",
+      "captures": 1
+    },
+    {
+      "desk": "curator",
+      "agent": "curator@web-summit.vicky",
+      "when": "2026-11-05T11:45:00Z",
+      "title": "1 new capture; the 07:45 map released",
+      "lines": [
+        "Resolved, no longer urgent: the 07:45 map is live (desks/curator/2026-11-05-0745.json, newsroom v0.1.15), now that release.sh derives the data itself (newsroom commit 24a9aba); S10 and S11 are in data/stories/.",
+        "Mapped the researcher's 11:30 capture in the research vault (commit f9d8757b5a26): Web Summit's 2026 speakers page, 800 speakers, a first page led by robotics and AI companies, a robot (Galbot's G1) listed as a speaker (captures/2026-11-05-websummit-speakers.md); the map is desks/curator/2026-11-05-1145.json …",
+        "New candidate S12: A robot among 800 speakers: Web Summit 2026 turns to robotics, grouped with Técnico's robots (captures/2026-11-04-tecnico-web-summit-2026.md).",
+        "For the fact-checker: only the lineup's first page was read; the AgiBot A3 robot reported by PanAsiaBiz is not confirmed (same capture).",
+        "Gaps for the researcher: the rest of the lineup, Portuguese and European speakers' companies, and when Galbot's G1 is on stage (desks/curator/2026-11-05-1145.json, gaps_for_the_researcher)."
+      ],
+      "source": "people/vicky/reports/curator.md"
+    },
+    {
+      "desk": "curator",
+      "agent": "curator@web-summit.vicky",
+      "when": "2026-11-05T18:30:00Z",
+      "title": "sources under every storyline, from the 18:00 stand-up",
+      "lines": [
+        "At Vicky's word from the 18:00 stand-up: desks/curator/README.md in the newsroom repository (v0.1.19) now lists, under each of the 11 open storylines, its sources with the URL, the publisher and the date the researcher read it.",
+        "The 33 source lines are copied from the researcher's captures in the research vault (captures/*.md, fields source, publisher and read_on); the curator did not open or check them (that stays with Indi's fact-checker).",
+        "All are public pages from the captures, which vault@ audited before publishing the read key and which list only public URLs (the research vault, PUBLIC.md audit table); no storyline is without a source today, so none says \"no source yet\".",
+        "S8 (Técnico) stays merged into S10, and its source is listed there (desks/curator/README.md).",
+        "From now on every curator run keeps the sources under each storyline (the curator's scheduled task, updated 5 Nov 18:35 UTC). The 15:45 run found no new research and wrote nothing (people/vicky/reports/researcher.md has no entry after 11:30)."
+      ],
+      "source": "people/vicky/reports/curator.md"
+    },
+    {
+      "desk": "researcher",
+      "agent": "researcher@web-summit.vicky",
+      "when": "2026-11-05T19:30:00Z",
+      "title": "the summit, Portugal",
+      "lines": [
+        "2 captures went into the research vault, audited (vault-audit.mjs clean, security sub-agent pass) and pushed; sgit status in sync.",
+        "The summit: Carris runs a dedicated Shuttle Web Summit between Praça do Comércio (Sul e Sueste) and Oriente, 9 to 12 November, and says the transport pass is also sold at the Web Summit Welcome Center, not only the airport (executivedigest.sapo.pt, 5 Nov). Differs from Metro's page; flagged for the curator.",
+        "Portugal: an EY report puts Web Summit's contribution at about 250 million euros a year, nearly 2.5 billion over ten editions, with Portuguese startups up from 2,193 in 2016 to 5,091 in 2025 (executivedigest.sapo.pt, 5 Nov; the EY report itself not read).",
+        "Not captured: the event's future in Lisbon after 2028 and remarks on protests (observador.pt, expresso.pt), outside the positive line; Público's count of 300 Brazilian startups, which differs from ApexBrasil's 200."
+      ],
+      "source": "people/vicky/reports/researcher.md",
+      "captures": 2
+    },
+    {
+      "desk": "curator",
+      "agent": "curator@web-summit.vicky",
+      "when": "2026-11-05T19:45:00Z",
+      "title": "2 new captures",
+      "lines": [
+        "Mapped the researcher's 2 captures of 19:30 in the research vault (commit 74c72dd8aaf8); the map is desks/curator/2026-11-05-1945.json and the candidates page desks/curator/README.md now has 12 storylines and 36 source lines (newsroom v0.1.22).",
+        "New candidate S13, Web Summit's ten Lisbon years: 2.5 billion euros, says EY, every figure attributed to EY as Executive Digest reports it (captures/2026-11-05-ey-web-summit-economic-impact.md).",
+        "S1, the participant guide, adds the Carris Shuttle Web Summit between Praça do Comércio and Oriente (captures/2026-11-05-carris-web-summit-shuttle.md).",
+        "For the fact-checker: Carris names the Welcome Center as a second place to buy the transport pass, Metro names only the airport, and the bus lines differ from Web Summit's page (same capture; captures/2026-11-04-metro-web-summit-transport-pass.md).",
+        "Correction to the 18:30 entry above: the candidates page went live at about 19:15 UTC, not 18:30, and the scheduled task was updated at 19:19 UTC, not 18:35 (newsroom commit e5f429c; desks/curator/README.md now says 19:55)."
+      ],
+      "source": "people/vicky/reports/curator.md"
+    },
+    {
+      "desk": "curator",
+      "agent": "curator@web-summit.vicky",
+      "when": "2026-11-05T20:15:00Z",
+      "title": "connections, at Dinis's direction from the stand-up",
+      "lines": [
+        "Six new story candidates marked \"connections\", S14 to S19, read across the 30 captures already in the research vault; the map is desks/curator/2026-11-05-2010.json and each is on desks/curator/README.md with its sources (newsroom v0.1.23).",
+        "They link: a shared backer for Granter and Intuitivo (S14); robotics on stage and on Técnico's stand (S15); the Commission's AI and funding help and Portuguese AI startups (S16); three 11 November events for startups going abroad (S17); Tuesday 10 November (S18); Brazil and Portugal (S19) (same map, story_candidates).",
+        "Each link is the curator's suggestion from public facts: no capture says any of these organisations will meet, and the map asks the journalist never to say so; organisations only, nothing private about anyone (same map, rules).",
+        "For the fact-checker: whether Granter's and Intuitivo's Impact Innovation Fund is the same fund (captures/2026-11-04-granter-funding.md and intuitivo-funding.md).",
+        "Gap for the researcher, the main input for more connections: which Portuguese startups exhibit or pitch this year, by field, and the public schedule's speakers by day and stage (same map, gaps_for_the_researcher)."
+      ],
+      "source": "people/vicky/reports/curator.md"
+    }
+  ],
+  "board": [
+    {
+      "id": "WS-14",
+      "title": "newsroom.web-summit.sgit.ai: who runs it",
+      "status": "picked",
+      "due": "Tue 3 Nov",
+      "for": [
+        "dinis"
+      ],
+      "picked_by": "newsroom@web-summit.dinis",
+      "only": [],
+      "blocks": [],
+      "file": "board/WS-14-newsroom-web-summit-sgit-ai-who-runs-it.md",
+      "updated": "2026-11-06T00:00:40Z"
+    },
+    {
+      "id": "WS-141",
+      "title": "The newsroom: a reader-first patch, and six publishing roles to decide",
+      "status": "open",
+      "due": "Thu 5 Nov",
+      "for": [
+        "dinis",
+        "indi"
+      ],
+      "picked_by": "Indi, conductor@web-summit.indi",
+      "only": [],
+      "blocks": [],
+      "file": "board/WS-141-the-newsroom-reader-first-pass-a-patch-and-the-roles.md",
+      "updated": "2026-11-06T00:00:40Z"
+    },
+    {
+      "id": "WS-145",
+      "title": "Give Indi write access to the newsroom repository",
+      "status": "done",
+      "due": "Wed 4 Nov",
+      "for": [
+        "dinis"
+      ],
+      "picked_by": null,
+      "only": [
+        "dinis"
+      ],
+      "blocks": [
+        "indi",
+        "vicky"
+      ],
+      "file": "board/WS-145-give-indi-write-access-to-the-newsroom-repository.md",
+      "updated": "2026-11-06T00:00:40Z"
+    },
+    {
+      "id": "WS-151",
+      "title": "Incident: WS-145 (Indi's write access to the newsroom) sat unpicked and buried in Dinis's dashboard list",
+      "status": "open",
+      "due": "Thu 5 Nov, 13:00",
+      "for": [
+        "dinis"
+      ],
+      "picked_by": "dashboard@web-summit.dinis (investigates), project-manager@web-summit.dinis (reviews)",
+      "only": [],
+      "blocks": [],
+      "file": "board/WS-151-incident-ws-145-not-surfaced-to-dinis.md",
+      "updated": "2026-11-06T00:00:40Z"
+    },
+    {
+      "id": "WS-168",
+      "title": "From a conversation with a lead to an article: the process, on the spot or just after",
+      "status": "open",
+      "due": "Sun 8 Nov",
+      "for": [
+        "dinis",
+        "nimay",
+        "indi",
+        "everyone"
+      ],
+      "picked_by": null,
+      "only": [],
+      "blocks": [],
+      "file": "board/WS-168-articles-from-a-conversation-with-a-lead.md",
+      "updated": "2026-11-06T00:00:40Z"
+    },
+    {
+      "id": "WS-177",
+      "title": "PromptUGAL, Web Summit Edition: the site ready for outreach by Friday 6 November",
+      "status": "picked",
+      "due": "Fri 6 Nov, 10:00",
+      "for": [
+        "everyone"
+      ],
+      "picked_by": "conductor@web-summit.dinis",
+      "only": [],
+      "blocks": [],
+      "file": "board/WS-177-promptugal-ready-for-outreach-by-friday.md",
+      "updated": "2026-11-06T00:00:40Z"
+    }
+  ],
+  "keys": [
+    {
+      "id": "conductor-3",
+      "label": "conductor@web-summit.dinis (Claude Code session)",
+      "added": "2026-11-01",
+      "fingerprint": "sha256:ecbb2756634ba022",
+      "signing_fingerprint": "sha256:62eb11234d3237d5"
+    },
+    {
+      "id": "conductor-indi",
+      "label": "conductor@web-summit.indi (Claude Code session)",
+      "added": "2026-11-03",
+      "fingerprint": "sha256:870bd65bd9223d06",
+      "signing_fingerprint": "sha256:beb5f57bc1b3d0c1"
+    },
+    {
+      "id": "conductor-indi-2",
+      "label": "conductor@web-summit.indi (Claude Code session, second)",
+      "added": "2026-11-04",
+      "fingerprint": "sha256:6af242af55ef7980",
+      "signing_fingerprint": "sha256:10ede272aaccf89e"
+    },
+    {
+      "id": "researcher-vicky",
+      "label": "researcher@web-summit.vicky (Claude Code session)",
+      "added": "2026-11-04",
+      "fingerprint": "sha256:538d72626ffe8014",
+      "signing_fingerprint": "sha256:49fe50d2a5e63d67"
+    },
+    {
+      "id": "researcher-vicky-2",
+      "label": "researcher@web-summit.vicky (Claude Code session, second)",
+      "added": "2026-11-04",
+      "fingerprint": "sha256:31fb7a64de9a7606",
+      "signing_fingerprint": "sha256:cf8c30d9ca05502a"
+    },
+    {
+      "id": "curator-vicky",
+      "label": "curator@web-summit.vicky (Claude Code session)",
+      "added": "2026-11-04",
+      "fingerprint": "sha256:8c0828de5f96176b",
+      "signing_fingerprint": "sha256:6abb02a8e470be6a"
+    },
+    {
+      "id": "programme-vicky",
+      "label": "programme@web-summit.vicky (Claude Code session)",
+      "added": "2026-11-04",
+      "fingerprint": "sha256:d43b8829162e23a0",
+      "signing_fingerprint": "sha256:2d1801d4d6b81aef"
+    },
+    {
+      "id": "newsroom-dinis",
+      "label": "newsroom@web-summit.dinis (Claude Code session)",
+      "added": "2026-11-05",
+      "fingerprint": "sha256:aea91e7f8f429363",
+      "signing_fingerprint": "sha256:2cbb6cfafdcbbce7"
+    },
+    {
+      "id": "ontologist-promptugal",
+      "label": "ontologist@PrompTugal.dinis (Claude Code session)",
+      "added": "2026-11-06",
+      "fingerprint": "sha256:4ded4027241ded02",
+      "signing_fingerprint": "sha256:36a0b5e8a2b7bdc7"
+    }
+  ]
+}

@@ -45,7 +45,7 @@
     }
   ],
   "derived": {
-    "by": "admin/tools/derive.mjs",
+    "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/programme/agenda.json",
       "data/companies/"

@@ -15,7 +15,7 @@
  *   write key        = PBKDF2-HMAC-SHA256(passphrase, "sg-vault-v1:write:" + vault id, 600000, 32 bytes)  (sgit)
  *   recovery door    = the same, with the 16 bytes of the recovery code as the ikm
  *
- * newsroom.sgit.ai checks the derivation against sgit's own Python (its passkey/vectors.json); admin/build/tests/test_vault.mjs
+ * newsroom.sgit.ai checks the derivation against sgit's own Python (its passkey/vectors.json); newsroom/build/tests/test_vault.mjs
  * checks this copy round-trips through the vault library.
  *
  * @module door

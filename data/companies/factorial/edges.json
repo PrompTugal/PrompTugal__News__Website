@@ -6,19 +6,19 @@
       "verb": "filed_under",
       "to": "topic:other",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "based_in",
       "to": "place:spain",
       "source": "s2",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     },
     {
       "verb": "appears_in",
       "to_url": "https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/",
       "source": "s1",
-      "by": "admin/tools/companies.mjs"
+      "by": "newsroom/tools/companies.mjs"
     }
   ]
 }

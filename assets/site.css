@@ -642,7 +642,7 @@ mark { background: var(--brand-soft); color: inherit; padding: 0 1px; border-rad
 
 
 /* ================================================================== the build's hooks: what the markdown and the shell emit
-   (admin/build/README.md, "Layout hooks"). The markdown has no HTML, so components arrive as classes on plain blocks. */
+   (newsroom/build/README.md, "Layout hooks"). The markdown has no HTML, so components arrive as classes on plain blocks. */
 
 /* the shell */
 .page-head { max-width: var(--measure); }
@@ -789,7 +789,7 @@ main.wide details.toc li { margin: 0; }
 .body p.rm-lockup { display: flex; align-items: center; gap: 12px; margin: 8px 0 14px; font: 600 22px/1 var(--sans); letter-spacing: -.01em; }
 .body p.rm-lockup::before { content: ""; width: 48px; height: 48px; flex: none; background: url(brand/riskmandate-mark.svg) center / contain no-repeat; }
 
-/* ================================================================== admin views (/admin/, built by its own feature)
+/* ================================================================== newsroom views (/newsroom/, built by its own feature)
    <dl class="stats"><div><dt>Pages</dt><dd>879</dd></div>…</dl>, {.dense} tables, states as <span class="chip ok|warn|fail"> */
 .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 12px 0 24px; border-top: 2px solid var(--rule); }
 .stats > div { padding: 12px 14px 12px 0; border-bottom: 1px solid var(--hair); }
