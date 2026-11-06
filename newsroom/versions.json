@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.370",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: account B session onboarded (new key); mock E read cold before it ships; the top re-measured",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "f3d0ba162"
+  },
+  {
     "version": "v0.1.369",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: all of development to account B; the home page as Silvio's mock E",
