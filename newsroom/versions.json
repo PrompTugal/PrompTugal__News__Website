@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.325",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: publish workflow, one public version for /how-we-publish/: the steps and the statuses in plain words",
+    "by": "checker@PrompTugal.vicky",
+    "from": "f489cf481"
+  },
+  {
     "version": "v0.1.324",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
