@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.334",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: the transcript scan 18:10 to 20:10 is clean; investors@'s start checked against the record",
+    "by": "security@PrompTugal.dinis",
+    "from": "085999bae"
+  },
+  {
     "version": "v0.1.333",
     "date": "2026-11-06",
     "what": "investors@PrompTugal.dinis: first run: key, ROLE, a first investor picture and a For Dinis decision page",
