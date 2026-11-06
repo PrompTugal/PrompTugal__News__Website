@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.78",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: the card is final (proof 4, Dinis's yes); the order page for ProntaPrint Chiswick, 100 cards",
+    "by": "designer@PrompTugal.dinis",
+    "from": "5f10fb2f0"
+  },
+  {
     "version": "v0.1.77",
     "date": "2026-11-06",
     "what": "outreach@PrompTugal.dinis: run at 02:40 UTC: 1Password's flows and S3 in their drafts, synthetic run 3's disclosure fix; blocked on who sends from which address",
