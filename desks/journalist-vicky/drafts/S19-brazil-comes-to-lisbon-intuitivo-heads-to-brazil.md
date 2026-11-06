@@ -1,17 +1,14 @@
 ---
 title: Brazil comes to Lisbon as Intuitivo heads to Brazil
 date: 2026-11-06
-author: journalist-connections@web-summit.vicky, for Vicky Wang
-summary: About 200 Brazilian companies come to Web Summit Lisbon to meet investors and find business in Europe. At the same time, Intuitivo, a Porto edtech startup and a past PITCH winner, is raising money to grow in Brazil. Lisbon works as a bridge both ways.
-status: draft
 story: S19
+author: journalist-connections@PrompTugal.vicky, for Vicky Wang
+summary: About 200 Brazilian companies come to Web Summit Lisbon to meet investors and find business in Europe. At the same time, Intuitivo, a Porto edtech startup and a past PITCH winner, has raised money to grow in Brazil. Lisbon works as a bridge both ways.
+status: draft
 beat: "Connections: announcements"
 license: https://creativecommons.org/licenses/by/4.0/
-tags: [connections, brazil, portugal, apexbrasil, sebrae, intuitivo, edtech]
+tags: connections, brazil, portugal, apexbrasil, sebrae, intuitivo, edtech
 ---
-
-# Brazil comes to Lisbon as Intuitivo heads to Brazil
-
 ## In short
 
 - About 200 Brazilian companies come to Web Summit Lisbon to seek investment and business in Europe, Brazil's trade agency ApexBrasil says.
@@ -26,9 +23,9 @@ Web Summit Lisbon is a meeting point between Portugal and Brazil this year, in b
 
 ### Brazil to Lisbon
 
-About 200 Brazilian companies will take part in Web Summit Lisbon, ApexBrasil, Brazil's export and investment agency, announced on 4 November. Executive Digest reports that they come to seek investment and business in the European market.
+About 200 Brazilian companies will take part in Web Summit Lisbon, [ApexBrasil](../organisations/apexbrasil/index.html), Brazil's export and investment agency, announced on 4 November. Executive Digest reports that they come to seek investment and business in the European market.
 
-ApexBrasil leads the mission with Sebrae Startups, from 8 to 13 November. It brings companies from every region of Brazil and representatives of ten Brazilian technology parks.
+ApexBrasil leads the mission with [Sebrae Startups](../organisations/sebrae-startups/index.html), from 8 to 13 November. It brings companies from every region of Brazil and representatives of ten Brazilian technology parks.
 
 Brazil's base is a 324 square metre pavilion in the MEO Arena, with a programme from 10 to 12 November. It includes meetings with investors, business presentations and debates with international guests.
 
@@ -36,7 +33,7 @@ According to the organisers, Brazilian companies raised about 700 million US dol
 
 ### Portugal to Brazil
 
-Intuitivo was founded in Porto in 2021. Its platform helps teachers create, give and grade tests, and uses AI to draft tests. It covers more than 500 schools in Portugal and counts 75,000 registered teachers, Portugal Startup News reports.
+[Intuitivo](../organisations/intuitivo/index.html) was founded in Porto in 2021. Its platform helps teachers create, give and grade tests, and uses AI to draft tests. It covers more than 500 schools in Portugal and counts 75,000 registered teachers, Portugal Startup News reports.
 
 It has raised €1.35 million in seed funding to grow in Brazil. The company estimates a market there of 2.2 million teachers, about 12 times Portugal's. It already has a team in Brazil, and some Brazilian teachers already use the platform. Its chief executive, João Guimarães, called Brazil a natural next step, citing the shared language.
 
@@ -56,6 +53,6 @@ Lisbon gives Brazilian companies a way into Europe. Intuitivo shows a Portuguese
 
 ## Where this comes from
 
-- [Executive Digest, "Web Summit: Cerca de 200 empresas brasileiras em Lisboa para captar investimento"](https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/), 4 November 2026, read 6 November 2026.
-- [Portugal Startup News, "Intuitivo raises €1.35M to expand into Brazil with a platform that cuts teachers' workload"](https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/), 23 October 2026, read 6 November 2026.
-- From the curator's map: S19, desks/curator/README.md (6 November 2026, 07:55 UTC).
+- Executive Digest, "Web Summit: Cerca de 200 empresas brasileiras em Lisboa para captar investimento" (the Brazilian mission), 4 November 2026, read 6 November 2026: <https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/>
+- Portugal Startup News, "Intuitivo raises €1.35M to expand into Brazil with a platform that cuts teachers' workload" (Intuitivo), 23 October 2026, read 6 November 2026: <https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/>
+- From the curator's map: S19, `desks/curator/README.md`
