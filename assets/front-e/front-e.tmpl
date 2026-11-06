@@ -1,0 +1,38 @@
+<!-- E, the home page (Silvio's mock E, "The Front Page", by design@web-summit.silvio; Dinis, 6 November 2026, about
+     22:40 UTC; board/briefs/2026-11-06-front-page-mock-e.md). The component's markup and words, filled from data by
+     newsroom/build/features/front-e.mjs ({{name}} is a value, {{#name}} a list made from the matching item below).
+     The look: front-e.css; the switch (A behind ?front=a), the countdown and the ticker's pause: front-e.js. -->
+<!-- part:page -->
+<div class="fe" data-variant="e">
+<div class="fe-w"><div class="fe-dl"><time datetime="{{today}}">{{date}}</time><span class="fe-cd" data-at="{{opening_at}}">Opening Night in <b data-cd>{{opening_in}}</b></span><span class="fe-where">Lisbon · Independent</span></div>
+<header class="fe-mast"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a></header>
+<nav class="fe-nav" aria-label="Sections">{{#nav}}</nav></div>
+{{lead}}
+<section class="fe-live" aria-label="This week"><h2>This week</h2><div class="fe-tk" tabindex="0" aria-label="This week, scrolling; hover or focus to pause"><div class="fe-tk-in"><ul>{{#week}}</ul><ul aria-hidden="true">{{#week_again}}</ul></div></div></section>
+<div class="fe-w"><div class="fe-cols">
+<section class="fe-brf"><h2 class="fe-h">The briefing</h2><ol>{{#briefing}}</ol></section>
+<section class="fe-stories"><h2 class="visually-hidden">The stories</h2>{{#stories}}</section>
+<section class="fe-nx"><h2 class="fe-h">Now and next</h2><ul>{{#next}}</ul><p class="fe-more"><a href="summit/index.html">The summit, day by day</a> · <a href="events/index.html">The agenda</a></p>
+<div class="fe-radar"><p class="fe-rh"><b>The companies we follow</b><span>by field</span></p>{{#radar}}<p class="fe-more"><a href="companies/index.html">All companies, by field</a></p></div></section>
+</div></div>
+<section class="fe-nums" aria-label="In numbers"><div class="fe-w">{{#nums}}</div></section>
+<div class="fe-w fe-ask"><form class="fe-pb" role="search" action="search/index.html" method="get"><span class="fe-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form><p class="fe-pcs">{{#asks}}</p></div>
+</div>
+<!-- part:lead -->
+<section class="fe-band" aria-label="The lead story"><div class="fe-w"><div><p class="fe-kk">{{kicker}}</p><h2 class="fe-hed"><a href="{{href}}">{{headline}}</a></h2><p class="fe-dek">{{dek}}</p><p class="fe-by">{{byline}} · {{minutes}} min read</p>{{pill}}</div>{{figure}}</div></section>
+<!-- part:none -->
+<section class="fe-band" aria-label="The lead story"><div class="fe-w"><div><h2 class="fe-hed">Our first article is on the way.</h2></div></div></section>
+<!-- item:figure --><figure><a href="{{href}}" tabindex="-1">{{picture}}</a><figcaption>AI-made image</figcaption></figure>
+<!-- item:picture --><picture><source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
+<!-- item:mark --><mark>{{text}}</mark>
+<!-- item:pill --><span class="fe-pill" title="{{title}}">{{text}}</span>
+<!-- item:nav --><a href="{{href}}"{{cur}}>{{label}}</a>
+<!-- item:week --><li><a href="{{href}}"{{tab}}><time datetime="{{date}}">{{when}}</time> {{what}}</a></li>
+<!-- item:brief --><li><a href="{{href}}">{{title}}</a><small>{{beat}}</small></li>
+<!-- item:story --><article class="fe-st{{big}}"><div><p class="fe-k">{{beat}}</p><h3><a href="{{href}}">{{title}}</a></h3><p>{{dek}}</p>{{pill}}</div>{{thumb}}</article>
+<!-- item:thumb --><a class="fe-thumb" href="{{href}}" tabindex="-1">{{picture}}<span>AI-made</span></a>
+<!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a></li>
+<!-- item:radar --><a class="fe-rr" href="{{href}}"><span>{{name}}</span><i><u style="width:{{pct}}%"></u></i><code>{{n}}</code></a>
+<!-- item:num --><div><b>{{value}}</b><span>{{label}}</span></div>
+<!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
+<!-- end -->
