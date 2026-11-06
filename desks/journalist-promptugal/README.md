@@ -2,6 +2,22 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 01:26 UTC (hourly wake)
+
+**Done**
+
+- The key's public half is in this repository's `board/keys.json` as `journalist-promptugal`, where keys live now (CLAUDE.md, Identity). The blocker of the first run below, about the team site, is out of date: nothing goes to the team site.
+- The newsroom move, row 2: "the newsroom" meaning the publication is now PrompTugal.news, "we" or "our" in About ("About PrompTugal.news"), the disclosure, the front page, the companies index, the RiskMandate page, the articles index and the eight desk articles. Left as written, on purpose: the brief pack (dated records; brief 1 is Dinis's words verbatim) and the status article of 5 November.
+- All nine articles re-signed with `journalist-promptugal`, the status piece included (its signature was newsroom-dinis's).
+
+**Blocked, or for others**
+
+- The signatures still go stale at each release, because the signed twin carries the version. That fix is dev@'s (a version-free twin to sign, and the gate verifying each `.sig` against `board/keys.json`). Until it lands, this desk re-signs at each of its releases.
+- "How we found our name" goes in the newsroom section (`content/newsroom/the-name.md`, or wherever dev@ routes it), not as an article. It still waits for Dinis to approve the text.
+- For dev@: the chat is still labelled "Ask the newsroom". For conductor@: About's agents table and reach-mandate-gap table describe only newsroom@web-summit.dinis.
+
+**Left on this line:** 12 storylines (S3, S4, S7, S8, S11 to S14, S16, S17, S19). None has a desk draft, so this desk writes them from the curator's sources, one per wake, in that order, starting with S3.
+
 ## Run of 6 November 2026, about 00:00 to 00:30 UTC
 
 **Done**
