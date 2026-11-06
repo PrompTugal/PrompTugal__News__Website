@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.351",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: final hand-over (moving to account B); Trent AI's and AISLE's flows; Air Apps corrected back",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "cb3476a22"
+  },
+  {
     "version": "v0.1.350",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: run report, final run before the account move",
