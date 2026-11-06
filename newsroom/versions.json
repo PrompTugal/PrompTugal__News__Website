@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.141",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 05:37 wake: ABPs for customers@ and backup@, a PreCompact canary for re-anchoring, time labels corrected",
+    "by": "abp@PrompTugal.dinis",
+    "from": "58e8dff42"
+  },
+  {
     "version": "v0.1.140",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: the front page, round 1: three mock-ups for Dinis (the newspaper, the visual wall, the briefing first) and the spec for dev@",
