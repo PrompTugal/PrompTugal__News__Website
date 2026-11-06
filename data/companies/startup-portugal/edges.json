@@ -4,9 +4,10 @@
   "edges": [
     {
       "verb": "filed_under",
-      "to": "topic:portugal-startup",
+      "to": "topic:other",
       "source": "s1",
-      "by": "newsroom/tools/companies.mjs"
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "an agency, not a startup (synthetic@ F13)"
     },
     {
       "verb": "based_in",

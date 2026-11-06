@@ -13,6 +13,14 @@
         "url": "https://airapps.co",
         "status": 200
       }
+    },
+    {
+      "checked_at": "2026-11-06T17:30:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/appearances/lis26/20796bb4-829f-43c0-86a1-a2137ee08072/air-apps",
+        "status": 200
+      }
     }
   ]
 }
