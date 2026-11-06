@@ -486,7 +486,7 @@
         "signing_fingerprint": "sha256:051118dcdff18e56"
       },
       "superseded_at": "2026-11-06T23:10Z",
-      "superseded_by": "dev.pages-promptugal-b"
+      "superseded_by": "dev.pages-b-promptugal"
     },
     {
       "id": "dev.graphs-promptugal",
@@ -1030,7 +1030,7 @@
       "status": "active"
     },
     {
-      "id": "dev.pages-promptugal-b",
+      "id": "dev.pages-b-promptugal",
       "agent": "dev.pages@PrompTugal.dinis",
       "label": "dev.pages@PrompTugal.dinis (Claude Code session, Sonnet, account B)",
       "role": "Page layouts from data for PrompTugal.news: the front page, the articles page, the companies page versions, the people page, the summit's days. A worker: pushes only to work/dev.pages; dev@ reviews. A session key: it ends with its session.",
