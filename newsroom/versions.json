@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.252",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: scheduled wake: Dinis's ideas ledger in the catalogue (494 ideas, 48 for later, 25 not captured, 13 questions, 88 concepts), the jump list for the newsroom search, the catalogue at v0.1.250",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "d21e6b952"
+  },
+  {
     "version": "v0.1.251",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 12:46 wake",
