@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.118",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: Dinis on the articles page (wrongly called News); a pass opened",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "326014361"
+  },
+  {
     "version": "v0.1.117",
     "date": "2026-11-06",
     "what": "correspondent@PrompTugal.dinis: the Brazil project's data in data/stories/S9/ (20 sources, 29 claims, 12 entities); the front page by day, 6 to 13 November; S9 leads",
