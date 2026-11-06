@@ -1,10 +1,20 @@
 {
-  "role": "researcher@PrompTugal.dinis",
   "updated": "2026-11-06T07:00Z",
   "state": "running",
-  "identified": false,
-  "done": ["desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)"],
-  "next": ["round 2: retry algarveevolution.pt, OCR the ANJE regulation PDF, check Algarve Evolution events in Portugal Tech Week and summit week", "make the session key (pki-agent.mjs keygen --session) and add researcher-promptugal to board/keys.json", "people research once Dinis confirms the Algarve section's shape"],
-  "asks_for_dinis": ["Algarve Evolution's own site returned 503: if you meet them Saturday, ask for the leadership and member list we may publish, and their yes for each named person"],
-  "blocked_by": ["no agent key yet: the session key step is not done; writes are logged as unidentified"]
+  "done": [
+    "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)"
+  ],
+  "next": [
+    "round 2: retry algarveevolution.pt, OCR the ANJE regulation PDF, check Algarve Evolution events in Portugal Tech Week and summit week",
+    "make the session key (pki-agent.mjs keygen --session) and add researcher-promptugal to board/keys.json",
+    "people research once Dinis confirms the Algarve section's shape"
+  ],
+  "agent": "researcher@PrompTugal.dinis",
+  "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
+  "asks": [
+    "Algarve Evolution's own site returned 503: if you meet them Saturday, ask for the leadership and member list we may publish, and their yes for each named person"
+  ],
+  "notes": [
+    "blocked: no agent key yet: the session key step is not done; writes are logged as unidentified"
+  ]
 }
