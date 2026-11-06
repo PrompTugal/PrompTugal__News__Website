@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "irishtimes-2021-revenues-2019",
+  "story": "past-summits",
+  "url": "https://www.irishtimes.com/business/technology/web-summit-revenues-climb-to-nearly-48m-in-2019-1.4520204",
+  "title": "Web Summit revenues climb to nearly 48m in 2019 (The Irish Times, 2021)",
+  "publisher": "The Irish Times",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "The Irish Times reports the Web Summit group's 2019 revenue of 47.9 million euros from newly filed accounts, the 70,469 attendees of the last in-person event in November 2019, the relocation to Lisbon in 2016 under a deal with the Portuguese government, a 10-year hosting agreement, and the 104,000 who joined the online 2020 event.",
+  "status": "publication date not shown on the page as fetched; the text places it in 2021"
+}

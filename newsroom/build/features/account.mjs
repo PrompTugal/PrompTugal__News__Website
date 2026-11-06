@@ -154,6 +154,7 @@ export function api(ctx) {
             access_key: { status: V.access_key.status, what: V.access_key.what, where: V.access_key.where },
             recovery: V.recovery,
             onboarding: V.onboarding,
+            doorcode: V.doorcode,
             hook: 'window.__vault: save(path, json), load(path), list(prefix), status(), open(tab); see assets/vault/README.md',
         },
     }]

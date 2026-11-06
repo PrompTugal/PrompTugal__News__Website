@@ -18,6 +18,7 @@
       "label": "Web Summit 2016, Lisbon",
       "kind": "event",
       "sources": [
+        "irishtimes-2021-revenues-2019",
         "siliconrepublic-2015-09-23-move-to-lisbon",
         "thejournal-2016-11-07-queue"
       ]
@@ -43,6 +44,7 @@
       "label": "Web Summit 2021, Lisbon",
       "kind": "event",
       "sources": [
+        "irishtimes-2021-web-summit-returns-in-person",
         "techcrunch-2020-12-02-rise-tokyo-brazil"
       ]
     },
@@ -60,6 +62,7 @@
       "label": "Web Summit 2020, online",
       "kind": "event",
       "sources": [
+        "irishtimes-2021-revenues-2019",
         "techcrunch-2020-12-02-rise-tokyo-brazil"
       ]
     },
@@ -68,6 +71,7 @@
       "label": "Web Summit",
       "kind": "organisation",
       "sources": [
+        "irishtimes-2021-revenues-2019",
         "irishtimes-2024-01-24-maher-leaves",
         "rte-2023-10-21-cosgrave-resigns",
         "rte-2023-10-30-new-ceo",
@@ -84,6 +88,14 @@
       "kind": "place",
       "sources": [
         "techcrunch-2020-12-02-rise-tokyo-brazil"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2019",
+      "label": "Web Summit 2019, Lisbon",
+      "kind": "event",
+      "sources": [
+        "irishtimes-2021-revenues-2019"
       ]
     }
   ]

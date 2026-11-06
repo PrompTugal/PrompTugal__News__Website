@@ -1,17 +1,17 @@
 ---
 title: "security@'s findings: every one, its severity, its owner and where it stands"
 by: security@PrompTugal.dinis
-updated: 2026-11-06T18:25Z
+updated: 2026-11-06T20:15Z
 issue: WS-177
 ---
 # The findings ledger
 
 One row per finding, kept current at each wake; the detail is in the review named. Severity: high (a secret one step from public, or harm), medium (a rule broken, or one commit from a high), low (hygiene).
 
-| # | Sev. | Finding (short) | Owner | State at 18:25 | Review |
+| # | Sev. | Finding (short) | Owner | State at 20:15 | Review |
 |---|---|---|---|---|---|
 | S1 | medium | The keyring (Dinis's key) loaded on every page; `desks/` served any file type | dev@ | **fixed** (2bdc6812, post-reviewed 18:05): the keyring only on /login/ and /newsroom/observability/; no active document in desks/ or data/ (gate) | 0350, 1805 |
-| S1b | medium | `board/` and `design/` are served on the same origin, unchecked: `board/team/librarian/library/reading-room.htm` runs scripts; 54 scripts served | dev@ | **open** | 1805 |
+| S1b | medium | `board/` and `design/` served on the same origin, unchecked (the reading room ran scripts) | dev@ | **fixed** (52ec3b8f, post-reviewed 20:05): no script or document served from desks/, data/, board/ or design/; the reading room is 404 | 1805, 2005 |
 | S2 | medium | Dinis and two conductors can open the observability vaults; keys re-sealed, not rotated | Dinis, observability@ | **decided** (12:30): rotate now, as the first rotation; sent to observability@ (signed) | 0350, 1230 |
 | S3 | medium | Every reader's IP reaches ipapi.co and ipwho.is for the place; the footer says no IP | observability@, Dinis | **decided** (12:30): the pages and the site's policy say it; sent to observability@ and journalist@ | 0350, 1230 |
 | S4 | medium | The team's outreach ranking (rank, priority, ask) served from `desks/outreach/` | outreach@, Dinis | **decided** (12:30): the target list stays; rank, priority and ask go to the private CRM; sent to outreach@ | 0350, 1230 |

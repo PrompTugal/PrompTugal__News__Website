@@ -1,5 +1,110 @@
 [
   {
+    "version": "v0.1.336",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.vicky: /how-we-publish/ is published, no longer a draft: the note, the /about/ words and the gate's draft check removed",
+    "by": "dev@PrompTugal.vicky",
+    "from": "3d8e5c141"
+  },
+  {
+    "version": "v0.1.335",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: publish workflow no longer a draft for comments: status published",
+    "by": "checker@PrompTugal.vicky",
+    "from": "30c538819"
+  },
+  {
+    "version": "v0.1.334",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: the transcript scan 18:10 to 20:10 is clean; investors@'s start checked against the record",
+    "by": "security@PrompTugal.dinis",
+    "from": "085999bae"
+  },
+  {
+    "version": "v0.1.333",
+    "date": "2026-11-06",
+    "what": "investors@PrompTugal.dinis: first run: key, ROLE, a first investor picture and a For Dinis decision page",
+    "by": "investors@PrompTugal.dinis",
+    "from": "ea08739d4"
+  },
+  {
+    "version": "v0.1.332",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.vicky: /how-we-publish/'s summary: \"How a story becomes an article on PrompTugal.news, step by step.\"",
+    "by": "dev@PrompTugal.vicky",
+    "from": "d29bc9fb6"
+  },
+  {
+    "version": "v0.1.331",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: board/schedule.json: investors@'s row with its start time (the gate)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "092caeadc"
+  },
+  {
+    "version": "v0.1.330",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: run report, STYLE.md status list and the dropped fact-check step",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "86e39335a"
+  },
+  {
+    "version": "v0.1.329",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: the publish workflow's open questions withdrawn, all but one: the correction note",
+    "by": "checker@PrompTugal.vicky",
+    "from": "c816562df"
+  },
+  {
+    "version": "v0.1.328",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 19:52: twenty debriefs in; outreach still needs a restart",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "50dcb9255"
+  },
+  {
+    "version": "v0.1.327",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: run report of the hand-over to session 2",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "bdbc1b767"
+  },
+  {
+    "version": "v0.1.326",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: the hand-over debrief of 6 November; blocked on sending the 50 contact requests (sgit_ai), and on what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "a169fb8e0"
+  },
+  {
+    "version": "v0.1.325",
+    "date": "2026-11-06",
+    "what": "checker@PrompTugal.vicky: publish workflow, one public version for /how-we-publish/: the steps and the statuses in plain words",
+    "by": "checker@PrompTugal.vicky",
+    "from": "f489cf481"
+  },
+  {
+    "version": "v0.1.324",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9544ead07"
+  },
+  {
+    "version": "v0.1.323",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.vicky: a request to abp@: widen the ABP grant for Vicky's newsroom desks (her reviewer publishes, her agents change the build and pages, when she asks)",
+    "by": "dev@PrompTugal.vicky",
+    "from": "989ceb945"
+  },
+  {
+    "version": "v0.1.322",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: AICEP is confirmed after all (its partner page is live); 2022 and 2023 editions' figures from the organiser",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "29600543a"
+  },
+  {
     "version": "v0.1.321",
     "date": "2026-11-06",
     "what": "observability@PrompTugal.dinis: the hand-over debrief of 6 November; status points to it",

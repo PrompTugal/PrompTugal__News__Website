@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 20:00 | **investors@PrompTugal.dinis** started: PrompTugal's own investor story, separate from the Web Summit team's investors agent (two focuses, two companies) | CLAUDE.md team table, `../the-conductors-sync.md` |
 | 18:05 | **An offline mode** (Silvio's idea): the schedule, the days and saved articles open with no network at the venue | `2026-11-06-offline-mode.md`, `../passes/2026-11-06-offline-mode.md` |
 | 17:55 | **Every agent writes a hand-over debrief at least once a day** (`board/team/<role>/debriefs/<date>-handover.md`), so any session can be restarted; it is public: no secrets, no contact details, nothing private | CLAUDE.md, "A hand-over debrief every day" |
 | 17:30 | Vault onboarding: a pilot token PT_PILOT_ACCESS_KEY (Dinis adds it), the sweep in observability@'s hourly drain, the prefix sgk_; nothing needed from the CLI team | `2026-11-06-vault-onboarding-answers.md` |

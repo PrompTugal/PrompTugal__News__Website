@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S24",
+  "type": "story",
+  "title": "Driving to Web Summit? Road closures and drop-off points",
+  "beat": "summit",
+  "topic": "topic:the-summit",
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-parque-das-nacoes-traffic",
+    "evidence:v-carris-web-summit-shuttle"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-06-1945.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-06-1945.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06T19:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-06-1945.json"
+    }
+  ]
+}

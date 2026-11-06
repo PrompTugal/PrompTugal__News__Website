@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 18:18: hand-over debrief written (Dinis 17:55); past summits and cloud centres on dev",
-  "updated": "2026-11-06T18:35Z",
+  "state": "wake 19:17: cloud centres round 2 (past partners from the ontologist's edges) on work/dev.graphs",
+  "updated": "2026-11-06T19:50Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -20,16 +20,19 @@
     "Explorer made data-driven brought onto dev earlier (rounds on dev: Algarve round 2). NEW: /graph/cloud-centres/ (the AWS, Google and Microsoft lens Dinis asked for at 12:50): a matrix of three centres by four relations (partner of the summit, speaker or session, companies built on it, companies it invests in), each cell found with its source (Google Cloud as a partner; Amazon's press conference on 11 Nov), searched and not found (AWS and Microsoft partners, Microsoft speakers, Amazon partner), or not looked at yet (built on, invested by: the data has no such field); tap for the evidence and source; Save as PNG; from desks/researcher/centres-of-gravity-evidence-round-1.md, data in assets/graph/cloud-centres.json. It shows what is known and no more; absence on page 1 is stated as not absence at the summit",
     "Cloud centres brought onto dev by dev@ (20a6956). NEW: /graph/past-summits/ (Web Summit in Lisbon, 2016 to 2025): a column per edition with the attendance the organiser reports, drawn by how far each figure was read (read at source: 2025; Wikipedia's table: 2016, 2017, 2018, 2022; a summary only, dashed: 2024; no figure: 2019, 2021, 2023, and 2020 online), dates, venue and source on tap, the caution that 2025's 71,386 is called a record while 2024's 71,528 is reported, Save as PNG; from desks/researcher/past-summits-round-1.md, data in assets/graph/past-summits.json",
     "Hand-over debrief for 6 November written (what is done and open, what I learnt, observations, where things live, what the next session must do first), public, no secret; past summits and cloud centres were already on dev",
-    "A 'Brief me' for /graph/algarve-evolution/ (5 slides, sourced, self-reported figures marked as such, ending on the written profile); when dev.portugal@ embeds the pictures on its page, the same entry in assets/briefing/briefings.json can be keyed to that page"
+    "A 'Brief me' for /graph/algarve-evolution/ (5 slides, sourced, self-reported figures marked as such, ending on the written profile); when dev.portugal@ embeds the pictures on its page, the same entry in assets/briefing/briefings.json can be keyed to that page",
+    "Algarve Evolution 'Brief me' brought onto dev earlier (6ac54e0a). Cloud centres round 2, from the ontologist's released edges (6cbb25cc: partner_of, data/organisations/web-summit/network.json): a fifth relation, 'partner of a past edition': Google and AWS named top partners of the 2022 edition in Web Summit's own numbers release, Microsoft shown as a past partner (edition not given); the Amazon and AWS cells now say what was read (page 1 of 8, the first 20 speakers); page and caption updated"
   ],
   "next": [
-    "Past summits round 2 when researcher@ has speakers and agendas; cloud centres round 2 when it and ontologist@ have the edges",
-    "Thumbnails on the best-of page; librarian@'s views, presets and card-type rows once it says which"
+    "Cloud centres: when researcher@ has the other seven partner pages and speakers by employer, turn the 'not looked at' and 'nothing found' cells; when ontologist@ has built-on and invested-by edges, draw the companies around each centre; read the cells from the data files rather than by hand",
+    "Past summits round 2 (speakers and agendas per edition); Algarve Evolution embed by dev.portugal@",
+    "Thumbnails on the best-of page; librarian@'s views, presets and card-type rows once it says which",
+    "Refresh the hand-over debrief before the day ends (daily rule)"
   ],
   "asks": [
-    "researcher@: the 2023 numbers post, final 2024 and 2025 figures, agendas and speakers per past edition (to draw who spoke at several summits); tell me the file",
-    "Dinis: my inbox lane stays pending because sgit push needs an access token (sgit auth)",
-    "researcher@, ontologist@: partner pages and built-on, invested-by edges for the cloud centres",
+    "researcher@: the other seven pages of Web Summit's 2026 event partners list and speakers by employer for Google, Amazon, AWS and Microsoft; agendas and speakers per past edition",
+    "ontologist@: built-on and invested-by edges for the 120 companies; thank you for the partner_of edges, now drawn",
+    "Dinis: my inbox lane stays pending because sgit push needs an access token (sgit auth); the ontologist reports the same",
     "dev.portugal@: embed the Algarve Evolution pictures on /portugal/algarve-evolution/"
   ],
   "debrief": "board/team/dev.graphs/debriefs/2026-11-06-handover.md"

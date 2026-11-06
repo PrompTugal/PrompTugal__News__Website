@@ -25,6 +25,7 @@ issue: WS-177
 | Page views and reading depth | Web Summit team's model; PrompTugal's observability@ copied it | team site `assets/obs-dinis.js`; here `assets/obs/obs.js` | both drain into their own vaults |
 | Agent Behaviour Policies | abp@web-summit.dinis and abp@PrompTugal.dinis | each repository's policies | the same model, compared hourly |
 | External agents (ChatGPT, Perplexity, then others) | PrompTugal's conductor (Dinis, 12:50) | `board/spec-external-agents.md` | the Web Summit team may run its own flows on the same pattern |
+| Investors | both: investors@web-summit.dinis (the Web Summit team's side, https://web-summit.sgit.ai/investors/) and investors@PrompTugal.dinis (PrompTugal.news, The Cyber Boardroom), at Dinis's word (20:00): two focuses, two companies | each repository's investors section | each reads the other's before writing; no duplicate decks |
 | Briefs and stand-ups | both conductors | `board/tools/editor_brief.py` (copied from the team site) | the same tool |
 
 The conductor of each team checks this table at its wake and adds a row before it opens work that touches the other's.
