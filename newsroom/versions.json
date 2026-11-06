@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.300",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 17:44 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "e9e653145"
+  },
+  {
     "version": "v0.1.299",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: Dinis's three answers on vault onboarding",
