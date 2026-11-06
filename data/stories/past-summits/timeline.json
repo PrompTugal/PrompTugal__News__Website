@@ -59,6 +59,21 @@
       ]
     },
     {
+      "at": "2020-12-02",
+      "what": "During the online 2020 edition, Web Summit's expansion plans are reported: RISE in Kuala Lumpur and Web Summit Tokyo in 2022, an event in Brazil to be placed, and an in-person Lisbon edition planned for November 2021.",
+      "kind": "announcement",
+      "about": [
+        "event:web-summit-online-2020",
+        "event:web-summit-lisbon-2021"
+      ],
+      "source": "techcrunch-2020-12-02-rise-tokyo-brazil",
+      "claim": [
+        "c22",
+        "c23",
+        "c24"
+      ]
+    },
+    {
       "at": "2023-10-21",
       "what": "Web Summit's CEO resigns after remarks about the Israel-Hamas conflict; several companies had withdrawn from the 2023 Lisbon edition; the company says it will go ahead.",
       "kind": "change",

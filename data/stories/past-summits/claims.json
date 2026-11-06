@@ -263,6 +263,43 @@
       "about": [
         "organisation:web-summit"
       ]
+    },
+    {
+      "id": "c22",
+      "text": "The 2020 flagship edition was held online; TechCrunch wrote this on 2 December 2020 while it was taking place.",
+      "kind": "fact",
+      "source": "techcrunch-2020-12-02-rise-tokyo-brazil",
+      "quote": "The flagship Web Summit event is currently taking place as an online conference.",
+      "published": "2020-12-02",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-online-2020"
+      ]
+    },
+    {
+      "id": "c23",
+      "text": "In December 2020 Web Summit had already announced plans to hold its flagship event in person in Lisbon in November 2021.",
+      "kind": "fact",
+      "source": "techcrunch-2020-12-02-rise-tokyo-brazil",
+      "quote": "Web Summit has already announced plans to hold its flagship event as an in-person conference in November 2021 in Lisbon, Portugal.",
+      "published": "2020-12-02",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2021"
+      ]
+    },
+    {
+      "id": "c24",
+      "text": "In December 2020 Web Summit said its global expansion would include an event in Brazil, with Rio de Janeiro or Porto Alegre under consideration as the location.",
+      "kind": "fact",
+      "source": "techcrunch-2020-12-02-rise-tokyo-brazil",
+      "quote": "an event in Brazil; Rio de Janeiro or Porto Alegre are currently being considered as the location",
+      "published": "2020-12-02",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit",
+        "place:brazil"
+      ]
     }
   ]
 }
