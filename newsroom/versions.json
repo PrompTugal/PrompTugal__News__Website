@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.196",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: scheduled wake: the catalogue at v0.1.195; the first health scan of the map (10 agents with no row, dev.portugal@ with no key, 3 with no ROLE.md); run report",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "4e409acac"
+  },
+  {
     "version": "v0.1.195",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 09:53: plan, researcher's inbox, dev.data's block escalated",
