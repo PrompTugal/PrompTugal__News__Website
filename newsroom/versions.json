@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.324",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9544ead07"
+  },
+  {
     "version": "v0.1.323",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.vicky: a request to abp@: widen the ABP grant for Vicky's newsroom desks (her reviewer publishes, her agents change the build and pages, when she asks)",
