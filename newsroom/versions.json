@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.162",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: scheduled wake: the catalogue at v0.1.160 with every pass's findings and decisions (103) and all 25 agents; the publication pass's condition on me noted; run report",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "a3f95b47d"
+  },
+  {
     "version": "v0.1.161",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 06:52: plan, four agent inboxes, lanes re-issued, snapshot 0653Z",
