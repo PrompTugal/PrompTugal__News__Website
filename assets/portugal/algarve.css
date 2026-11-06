@@ -35,3 +35,7 @@ body:has(.ae.js) .toc { display: none; }
     .ae.js > .ae-sec { grid-column: 2; }
     .ae ul.ae-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
+.ae-hero > p.ae-label { margin: 18px 0 0; font: 700 11.5px/1.4 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.ae-hero > p.ae-label + ul.ae-tiles { margin-top: 6px; }
+.ae blockquote { margin: 14px 0 4px; padding: 4px 0 4px 14px; border-left: 3px solid var(--brand); font: italic 400 18px/1.45 var(--serif); }
+.ae blockquote + p { margin: 0 0 12px 17px; font: 400 13px/1.4 var(--sans); color: var(--ink-3); }
