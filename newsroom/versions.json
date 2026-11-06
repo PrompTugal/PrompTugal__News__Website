@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.146",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 06:10: 59 commits clean; 16 passes pre-reviewed; the hooks run in every agent's session (S15, high)",
+    "by": "security@PrompTugal.dinis",
+    "from": "ad606fe59"
+  },
+  {
     "version": "v0.1.145",
     "date": "2026-11-06",
     "what": "customers@PrompTugal.dinis: brief 2, the personal newsreel and the map of everything published; E5 and E6 in the register; the conductor briefed",
