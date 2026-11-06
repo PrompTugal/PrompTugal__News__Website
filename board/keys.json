@@ -495,6 +495,23 @@
         "fingerprint": "sha256:8dfc8f144f816d68",
         "signing_fingerprint": "sha256:d26f3e5ec1db676c"
       }
+    },
+    {
+      "id": "curator-vicky-promptugal",
+      "agent": "curator@PrompTugal.vicky",
+      "label": "curator@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky's curator desk for PrompTugal.news (curator@PrompTugal.vicky, until 6 November 2026 curator@web-summit.vicky): maps the research desk's captures in the research vault 41j3e9s9 (beat, organisation, what is new, story candidates and connections, each with its sources) in desks/curator/. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 4 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs), first published as curator-vicky in the team site's data/keys.json under the name curator@web-summit.vicky, linked locally to the operator's key sha256:db7f79fdd87e030a. Renamed at Vicky's word (Dinis asked for new names) on 6 November 2026; the same key, now entered here by that session. Not confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlYKAtgll5InS/gVqZh9q\n8CFith3q+OEmDZB0aJKEUHtaUNb/tKofVNeUZ3dTVA9CEAnsj7yVtYVLIG/mhbNh\nHu/6cQKgw6jemDU2GOHgCb7u0YP9+zFW+xWLH/NWnwmS4eLe0s0ivL3eHn/06AtG\nLoVKMZ5ZpCvCps5/AfrOylm6TXaonTtRqPSmm1H8p4UWgaPuoaGndeXXx4AKrsvl\ngYyUsOwYdC3Lo9BES80e1j52Sp7MMINGJvSVyOX+JvXtJW/YatpIdqoUVbhFhTvq\nE5KEqJlnrMqq3WAQ3JEzjwobIxvgrWknGvdkSYB67PICOIuJTAm4Bc30HVv8/a9t\nbwrK9/NvKFeD2F9sv86oHeXqgHpAziy+/sBPkXG8m5SgLb+et+Am3+OhQA7f15F6\nUSDkpV9OlFhFhd1W1qQuBA/TxqKOl0i4PohTqZVULUqgPztPvpcoZYkmSFjAc+c8\njaUIPBdDjeqD+khciYO3j2z6I4250nu9evOZ5IHGEfRoGli0Narmrbrkh4bMGsXt\nDtxvRrLavu1uwG+oybO0CmIcLPQy78Q0gDhK56rqWf2hSNwPzhHz6cQ3/6cIs0w1\nWoGMWV7zHx4N1dh07gbJ3xhOwB+QutmcWNNvMg9db+gCcRUN5A5plDprXTEtCvW9\nhY252EFaIKKT/tCC9e9ZZ8cCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErCr1HxpZbfDCIqbH70s8PdKzpyVl\nqzPhViWlLIs3qNYSvwVqeAqbkF+OBhh4HutaOK7ZZbfy8CbUtgD15LHrtA==\n-----END PUBLIC KEY-----\n",
+        "label": "curator@web-summit.vicky",
+        "fingerprint": "sha256:8c0828de5f96176b",
+        "signing_fingerprint": "sha256:6abb02a8e470be6a"
+      },
+      "status": "active"
     }
   ]
 }
