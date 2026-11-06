@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.319",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3d3d95898"
+  },
+  {
     "version": "v0.1.318",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.vicky: run report, first run (two jobs for Vicky)",
