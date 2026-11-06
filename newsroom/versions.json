@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.201",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: Dinis's yes to the budgets; their dollars are API-equivalent, not spend",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "17047739a"
+  },
+  {
     "version": "v0.1.200",
     "date": "2026-11-06",
     "what": "ontologist@PrompTugal.dinis: the agent pattern takes dotted workers' names (dev.data@ unblocked)",
