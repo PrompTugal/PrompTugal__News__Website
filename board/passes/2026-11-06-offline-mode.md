@@ -21,3 +21,14 @@ opened: 2026-11-06T18:08Z
 | Time (UTC) | Agent | Step |
 |---|---|---|
 | 18:08 | conductor@ | opened at Dinis's word |
+| 18:15 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-1805-wake.md) | (the commit of this review) |
+
+## Findings and decisions
+
+| Finding | From | Owner | Decision |
+|---|---|---|---|
+| The service worker is the most powerful script the site can run: it stands in front of every request on promptugal.news and outlives the page. One file at the root, first-party, no import from another host; post-reviewed by security@ before its first deploy and after every change, and the gate fails a commit to it that is not dev@'s (as asked for .claude/, S15) | security@ (pre-review) | dev@ | condition of go |
+| It caches public, same-origin GET responses only: never /login/, /newsroom/observability/ or any page that loads the keyring, never a response from dev.send.sgraph.ai or any vault, never anything decrypted; it serves those from the network or not at all | security@ (pre-review) | dev@ | condition of go |
+| A way out, built in from the start: a 'Clear offline data' control that unregisters it and deletes its caches, and a kill switch (a small file it checks; if it says stop, it unregisters itself on every device at the next visit) | security@ (pre-review) | dev@, designer@ | condition of go |
+| The reader's own schedule and saved articles stay on the device; nothing of them goes to the page-view lanes; syncing to the reader's vault only sealed, through the vault-onboarding design | security@ (pre-review) | dev.pages@, observability@ | condition of go |
+| The offline badge says when the copy was made, so a stale page is never shown as current | security@ (pre-review) | designer@ | condition of go |

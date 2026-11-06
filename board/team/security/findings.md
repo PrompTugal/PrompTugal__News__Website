@@ -1,16 +1,17 @@
 ---
 title: "security@'s findings: every one, its severity, its owner and where it stands"
 by: security@PrompTugal.dinis
-updated: 2026-11-06T17:05Z
+updated: 2026-11-06T18:25Z
 issue: WS-177
 ---
 # The findings ledger
 
 One row per finding, kept current at each wake; the detail is in the review named. Severity: high (a secret one step from public, or harm), medium (a rule broken, or one commit from a high), low (hygiene).
 
-| # | Sev. | Finding (short) | Owner | State at 17:05 | Review |
+| # | Sev. | Finding (short) | Owner | State at 18:25 | Review |
 |---|---|---|---|---|---|
-| S1 | medium | The keyring (Dinis's key) loads on every page and is callable by any script on the origin; `desks/` serves any file type | dev@ | **open**: keyring still on every page; no gate check on served script | 0350 |
+| S1 | medium | The keyring (Dinis's key) loaded on every page; `desks/` served any file type | dev@ | **fixed** (2bdc6812, post-reviewed 18:05): the keyring only on /login/ and /newsroom/observability/; no active document in desks/ or data/ (gate) | 0350, 1805 |
+| S1b | medium | `board/` and `design/` are served on the same origin, unchecked: `board/team/librarian/library/reading-room.htm` runs scripts; 54 scripts served | dev@ | **open** | 1805 |
 | S2 | medium | Dinis and two conductors can open the observability vaults; keys re-sealed, not rotated | Dinis, observability@ | **decided** (12:30): rotate now, as the first rotation; sent to observability@ (signed) | 0350, 1230 |
 | S3 | medium | Every reader's IP reaches ipapi.co and ipwho.is for the place; the footer says no IP | observability@, Dinis | **decided** (12:30): the pages and the site's policy say it; sent to observability@ and journalist@ | 0350, 1230 |
 | S4 | medium | The team's outreach ranking (rank, priority, ask) served from `desks/outreach/` | outreach@, Dinis | **decided** (12:30): the target list stays; rank, priority and ask go to the private CRM; sent to outreach@ | 0350, 1230 |

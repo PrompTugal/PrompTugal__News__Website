@@ -1,0 +1,166 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "security@PrompTugal.dinis",
+ "run": "2026-11-06T17-50-29Z",
+ "started": "2026-11-06T17:50:29.148Z",
+ "ended": "2026-11-06T18:06:55Z",
+ "line": "wake 18:03: S1 post-review, S1b; offline pre-review; hand-over debrief; tools into the repo",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T18:03:54.868Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T17:50:29.148Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-06T18:03:54.541Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 33,
+  "by_kind": {
+   "other": 2,
+   "release": 2,
+   "git": 4,
+   "web": 1,
+   "shell": 11,
+   "agent": 1,
+   "read": 1,
+   "remote": 11
+  }
+ },
+ "policies_executed": {
+  "R4": 1,
+  "R2": 11
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 21,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 12,
+  "denied": [
+   {
+    "t": "2026-11-06T18:05:33.992Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in security@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-06T18:05:51.066Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:11.904Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:23.032Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:33.449Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:34.536Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:35.370Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:36.152Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:50.131Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:51.000Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:51.794Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T18:06:52.586Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads other sessions: not in security@PrompTugal.dinis's grant",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 12
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 33,
+  "in_mandate": 21,
+  "out_of_mandate": 12,
+  "attempts": 12,
+  "breaches": 0
+ }
+}
