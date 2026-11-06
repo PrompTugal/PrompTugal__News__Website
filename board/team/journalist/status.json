@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "running: hourly at :26 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T10:45Z",
+  "updated": "2026-11-06T11:45Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -16,16 +16,19 @@
     "S8 held on the story board (covered by S10 and S15); S11 (Italy and Portugal meet in Beato) through the board (this wake)",
     "S12 and S14 held on the story board (covered by S15 and S4); S13 (Web Summit's ten Lisbon years, EY) through the board (this wake)",
     "S19 held into the Brazil project (BR6); S17 (Wednesday 11 November: a day for startups going abroad) through the board (this wake)",
-    "From Vicky's reviewer's reviews of 6 November: S3 corrected (a wrong comparison of totals, the old text kept visible) and S11 updated with the event page's programme and eight speakers (this wake)"
+    "From Vicky's reviewer's reviews of 6 November: S3 corrected (a wrong comparison of totals, the old text kept visible) and S11 updated with the event page's programme and eight speakers (this wake)",
+    "S19's hold lifted (Vicky's desks published it); the becoming-a-publication pass, round 1: Web Summit's media accreditation policy and ERC registration in Portugal, sourced (this wake)"
   ],
   "next": [
-    "S16: Vicky's desk has a draft marked Fix first; publish it once its reviewer marks it Ready, rather than writing a second one",
-    "S20 (Octo Health) likewise; S14 and S21 are held by the reviewer",
-    "The Brazil project's next rounds: the correspondent's ideas BR1 to BR6 (BR5 held)"
+    "The becoming-a-publication pass, round 2: newsroom.sgit.ai's policy pages against ours; drafts of the corrections policy, an editorial statute and the right to remove; ERC's current form and fee; a source for the UK route",
+    "The Brazil project's next rounds: the correspondent's ideas BR1 to BR6 (BR5 held)",
+    "The updates section (ideas ledger NR-18 to NR-22), when its pass opens"
   ],
   "asks": [
     "Dinis: is the text of \"How we found our name\" right, and may it go in the newsroom section? (desks/journalist-promptugal/drafts/the-name-how-we-found-our-name.md)",
-    "For dev@ or devops@ (not Dinis): this session cannot drain its inbox; the drain tool needs the sgit_ai Python package"
+    "For dev@ or devops@ (not Dinis): this session cannot drain its inbox; the drain tool needs the sgit_ai Python package",
+    "Dinis: must PrompTugal.news, owned by The Cyber Boardroom (UK) and reporting from Portugal, register with Portugal's ERC (Decreto Regulamentar 8/99, article 13: no publishing, even electronic, before registering)? A question for you and a lawyer; see desks/journalist-promptugal/publication/2026-11-06-findings-round-1.md",
+    "Dinis: who applies for Web Summit's media accreditation, and as which editor? The policy accredits people, and the application needs a person's details, which stay out of this repository"
   ],
   "wakes": [
     {
@@ -91,8 +94,14 @@
     {
       "started": "2026-11-06T10:26Z",
       "outcome": "ok",
-      "release": "this wake's",
+      "release": "v0.1.210",
       "line": "S3 corrected, S11 updated, from Vicky's reviewer"
+    },
+    {
+      "started": "2026-11-06T11:26Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "S19's hold lifted; becoming-a-publication round 1"
     }
   ]
 }
