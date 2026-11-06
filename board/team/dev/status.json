@@ -25,7 +25,8 @@
   ],
   "asks": [
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
-    "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it"
+    "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it",
+    "Dinis or abp@: my grant (board/abp/dev.md) lacks the workers' paths, so bringing their reviewed work onto dev (CLAUDE.md, the review workflow) logs R6 breaches (07:09: content/index.md from dev.pages, content/portugal/ from dev.portugal). Either widen my grant to what my workers write, or say the reviewer's merge does not count as my write"
   ],
   "wakes": [
     {
