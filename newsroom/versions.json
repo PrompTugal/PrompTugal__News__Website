@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.362",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: account B is up: conductor.b@'s inbox and lane, Dinis's words kept",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "9db84d1fe"
+  },
+  {
     "version": "v0.1.361",
     "date": "2026-11-06",
     "what": "journalist-ai@PrompTugal.vicky: T4's chart redrawn, one row per agent; T2's chart narrower for phones",
