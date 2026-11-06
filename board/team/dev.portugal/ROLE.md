@@ -4,7 +4,7 @@ role: dev.portugal
 started: 2026-11-06T06:10Z
 started_by: Dinis Cruz (via conductor@PrompTugal.dinis, 6 November 2026)
 schedule: hourly (board/schedule.json)
-key: none yet (dev.portugal-promptugal to be made)
+key: dev.portugal-promptugal in board/keys.json
 ---
 # dev.portugal@PrompTugal.dinis (Sonnet)
 
