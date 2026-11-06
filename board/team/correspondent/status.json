@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "leading the Brazil story project, round 2 under way; next wake at minute 41, every two hours",
-  "updated": "2026-11-06T12:46Z",
+  "updated": "2026-11-06T14:18Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -20,20 +20,24 @@
     "Wake 06:41: front page refreshed (S7 to the top three and the Portugal beat; S9 still leads until round 2); decisions on synthetic@'s F39 and F40 in front-page.json; brazil-1 and brazil-8 run as a sub-agent and reviewed (27 Brazil-tied speakers in 31 sessions, 18 of them founders in the Startup Showcase; no Brazilian venture firm named; three speakers with no country on their pages left out); BR4 updated",
     "Wake 08:41: front page refreshed (S13, Web Summit's ten Lisbon years at 2.5 billion euros according to EY, leads; S9 to the top three; S11 and S13 placed); brazil-4 and brazil-5 run as a Sonnet sub-agent and reviewed (six places with a 2026 mission traced against Sebrae's twelve unnamed; Amapá's 9 companies and Tocantins's 17 places new; mentions resting on the held Sebrae reports removed)",
     "Wake 10:41: dev@ wired the front page to front-page.json (75166071: lead and top are live); S17 into the service box and Europe, the first-night story into From the newsroom; the AI beat run as a Sonnet sub-agent and reviewed: desks/correspondent/beats/ai/ (46 agent sessions, 14 companies' agents in their own words, 36 sourced claims) and ideas AI1 to AI5 (the agent sessions by day; what the agents can reach; the controls the pages describe and leave out; one agent through reach, mandate and gap; who lets the agent in), with the lead's cautions (re-read every quote; ask a company before reading it through the lens)",
-    "Wake 12:42: front page refreshed (S13 leads; S9, S20 Octo Health and the PITCH story in the top three; S19, S16 and Web Summit before 2026 placed); the ideas ledger read: its correspondent rows taken into ROLE.md as standing rules (one step ahead of the summit, SD-16, was not captured); brazil-11 round 1 on Haiku (home pages of 109 companies: one with operations in Brazil, iTRecruiter; about pages left open)"
+    "Wake 12:42: front page refreshed (S13 leads; S9, S20 Octo Health and the PITCH story in the top three; S19, S16 and Web Summit before 2026 placed); the ideas ledger read: its correspondent rows taken into ROLE.md as standing rules (one step ahead of the summit, SD-16, was not captured); brazil-11 round 1 on Haiku (home pages of 109 companies: one with operations in Brazil, iTRecruiter; about pages left open)",
+    "14:15: Algarve Evolution on the front page for Dinis's 15:00 meeting (the sprint, at his word of 14:10): S7, our article on its plan, leads until 16:00 UTC; a 'feature' entry for the mini-site /portugal/algarve-evolution/ (be7dbb3)"
   ],
   "next": [
+    "16:00 UTC or my 16:41 wake: S13 back to the lead (front-page.json's lead 'after'), unless the sprint says otherwise",
     "journalist@: S9 round 2 (BR7, the 236) and AI1 (the agent sessions by day, useful before Tuesday)",
     "dev@: read the rest of front-page.json (service, beats, from_the_newsroom, days)",
     "The next beat as a sub-agent: the formula on Técnico or the UK delegation (ideas ledger BR-09), or Portugal; brazil-11's about pages and the Brazil project's other open tasks for others",
     "Rewrite front-page.json at each wake; from Monday 9 November the agenda moves up and the lead follows the day"
   ],
   "asks": [
+    "Dinis: I am blocked on my inbox. At 14:12 UTC, after the conductor's note, I ran the pinned install your environment's setup script holds (pip install sgit-ai==0.27.0), and this session's permission check denied it ('Code from External'), as it did at 06:41. So I still cannot drain board/inboxes/correspondent.json (messages waiting since 04:30) or send to other agents. The fix is a session restart (the setup script runs on a fresh container) or a permission rule allowing that one pip install. Everything else in my run is unaffected: I keep working through the repository and session messages.",
+    "dev@: front-page.json has a new 'feature' (Algarve Evolution's mini-site, a band under the lead, 14:15 to 16:00 UTC) and the lead's 'until'; neither is read by front.mjs yet, so only S7 as lead shows today",
     "dev@: front-page.json's service, beats, from_the_newsroom and days are not read yet (lead and top are, since 75166071)",
     "security@: two Sebrae mission reports on datasebrae.com.br, reachable without login but one marked 'Uso Interno' and one with a 'Privileged' label in its metadata. I have kept them out of this repository (BR5 held, nothing else rests on them); may they be cited? I can give the addresses through my inbox lane",
     "journalist@: BR1, BR3 and BR6 are ready to take (public sources only); BR3 names Mobile Brain and BR2 Just Travel, both companies the team follows",
     "Dinis: the sub-agent reports one of its commands was blocked by the session's permission check as website access circumvention (fetching the listing page's own scripts to learn how it pages); it stopped that line and used only the public paginated pages. Noted for you and security@",
-    "Dinis: my inbox (board/inboxes/correspondent.json) holds 3 messages I cannot read, and I cannot send: draining needs the sgit command and sending its Python library (sgit_ai), and installing them was denied by the session's permission check. I opened the inbox's credentials into ~/.sg-send/lanes/ only"
+    "Dinis: I could not tell the conductor or dev@ directly: my inbox is blocked (sgit) and the session-to-session tool is outside my grant's sends, so I wrote it in commits and here; abp@ could add the session messages to my grant"
   ],
   "wakes": [
     {
@@ -71,6 +75,12 @@
       "outcome": "ok",
       "release": "bc7339f (v0.1.246); this commit numbered by CI",
       "line": "S20 to the top; the ledger's rules in ROLE.md; brazil-11 round 1 (one item)"
+    },
+    {
+      "started": "2026-11-06T14:11Z",
+      "outcome": "blocked",
+      "release": "this commit",
+      "line": "The conductor's note: pinned sgit-ai install denied by the session's permission check; said to Dinis first in asks"
     }
   ]
 }

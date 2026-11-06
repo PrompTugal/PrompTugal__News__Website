@@ -72,7 +72,10 @@
       { "id": "night-summit", "label": "Night Summit", "meaning": "The summit's evening programme." },
       { "id": "registration", "label": "Registration", "meaning": "Where and when to collect a lanyard and wristband." },
       { "id": "side-event", "label": "Side event", "meaning": "An event run by someone other than Web Summit during the summit week." },
-      { "id": "festival", "label": "Festival", "meaning": "A multi-day umbrella of events, such as Portugal Tech Week." }
+      { "id": "festival", "label": "Festival", "meaning": "A multi-day umbrella of events, such as Portugal Tech Week." },
+      { "id": "conference", "label": "Conference", "meaning": "A conference run by others, outside the summit week or the summit's city (the Algarve Tech Hub Summit)." },
+      { "id": "programme", "label": "Programme", "meaning": "A programme's public moment: a launch, a cohort, a roadshow." },
+      { "id": "competition", "label": "Competition", "meaning": "A selection run by others, such as a regional call to send startups to the summit."}
     ],
     "place_kind": ["country", "region", "city", "district", "street", "venue", "building", "stage", "room"],
     "topic_kind": [

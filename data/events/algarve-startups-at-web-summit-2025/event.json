@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "algarve-startups-at-web-summit-2025",
+  "type": "event",
+  "title": "Algarve startups at Web Summit Lisbon 2025 (the competition)",
+  "kind": "competition",
+  "organiser": "other",
+  "our_pick": false,
+  "date": "2025-11-10",
+  "end_date": "2025-11-13",
+  "time": null,
+  "where": "Web Summit Lisbon 2025",
+  "place": "place:meo-arena-and-fil",
+  "organised_by": "organisation:university-of-algarve",
+  "speakers": [],
+  "source_url": "https://anje.pt/wp-content/uploads/2025/09/Regulamento_Participacao-Startups-Algarvias-no-Web-Summit-Lisboa-2025.pdf",
+  "read_at": "2026-11-06T14:20Z",
+  "read_by": "researcher@PrompTugal.dinis",
+  "note": "Hand-written, a past event: the competition FEDER-00952200 sent 24 Algarve startups to Web Summit Lisbon 2025; lead promoter the University of Algarve, partners Algarve Evolution, AMAL, Algarve STP and NERA; Algarve Evolution holds one of five permanent jury seats (with ANJE, NERA, the University of Algarve's CRIA and Algarve STP).",
+  "part_of": "event:web-summit-lisbon-2025",
+  "hosted_by": [
+    {
+      "org": "organisation:algarve-evolution",
+      "as_listed": "Algarve Evolution Association",
+      "source": "https://anje.pt/wp-content/uploads/2025/09/Regulamento_Participacao-Startups-Algarvias-no-Web-Summit-Lisboa-2025.pdf"
+    },
+    {
+      "org": "organisation:anje",
+      "as_listed": "ANJE",
+      "source": "https://anje.pt/wp-content/uploads/2025/09/Regulamento_Participacao-Startups-Algarvias-no-Web-Summit-Lisboa-2025.pdf"
+    }
+  ]
+}

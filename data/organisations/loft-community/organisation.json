@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "loft-community",
+  "type": "organisation",
+  "name": "LOFT Community",
+  "names_as_listed": [
+    "LOFT Community",
+    "LOFT Agenda"
+  ],
+  "sources": [
+    {
+      "url": "https://luma.com/ydjwl98z",
+      "read_on": "2026-11-06",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "organiser of Algarve Tech events (Afterwork, the 2025 Wrap Party) with Algarve Evolution among the co-presenters"
+    }
+  ],
+  "note": "Hand-written for the Algarve Evolution sprint (6 November 2026): a partner of Algarve Evolution, from researcher@'s sourced rounds."
+}

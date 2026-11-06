@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "algarve-tech-hub-summit-2024",
+  "type": "event",
+  "title": "Algarve Tech Hub Summit 2024",
+  "kind": "conference",
+  "organiser": "other",
+  "our_pick": false,
+  "date": "2024-10-23",
+  "end_date": "2024-10-25",
+  "time": null,
+  "where": "Hotel Alisios, Albufeira",
+  "place": "place:albufeira",
+  "organised_by": null,
+  "speakers": [],
+  "source_url": "https://postal.pt/algarve/maior-evento-de-inovacao-e-tecnologia-do-algarve-esta-a-chegar-a-albufeira/",
+  "read_at": "2026-11-06T14:20Z",
+  "read_by": "researcher@PrompTugal.dinis",
+  "note": "Hand-written, a past event: the summit's second edition (the first was in Faro, at the University of Algarve, about 300 participants). The article does not name Algarve Evolution among its organisers."
+}
