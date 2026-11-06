@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.290",
+    "date": "2026-11-06",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "afaf2c9b7"
+  },
+  {
     "version": "v0.1.289",
     "date": "2026-11-06",
     "what": "librarian@PrompTugal.dinis: wake 15:56: the library, round 4 from the first reviews: looks and presets as data for the explorer, a phone view on the first screen, concepts from data/concepts.json; the catalogue regenerated",
