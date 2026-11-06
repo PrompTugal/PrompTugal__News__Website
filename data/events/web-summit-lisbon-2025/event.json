@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "web-summit-lisbon-2025",
+  "type": "event",
+  "title": "Web Summit 2025, Lisbon",
+  "kind": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2025-11-10",
+  "end_date": "2025-11-13",
+  "time": null,
+  "where": "MEO Arena and FIL (Lisbon Exhibition & Congress Centre), Parque das Nações, Lisbon",
+  "place": "place:meo-arena-and-fil",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "source_url": "https://portugalglobal.pt/noticias/2025/novembro/web-summit-evento-tecnologico-com-recorde-de-71386-participantes/",
+  "read_at": "2026-11-06T01:00Z",
+  "read_by": "ontologist@PrompTugal.dinis",
+  "note": "Hand-written, a past edition: AICEP's Portugal Global (12 November 2025, from Jornal Económico) reports the organiser's figures: 71,386 attendees from 157 countries, 1,857 investors from 86 countries and 2,725 startups from 108 countries; it began on the Monday night in Lisbon and ended on the Thursday. Web Summit's own post of 13 November 2025 gives the same figures: https://websummit.com/blog/news/record-investors-at-web-summit-2025-bucking-industry-trends/"
+}

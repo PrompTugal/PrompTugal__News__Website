@@ -38,7 +38,10 @@ data/
                            other: side events, Portugal Tech Week, conferences elsewhere in Portugal), with kind,
                            date, time, where and its place, track, part_of, organised_by, speakers (each linked to
                            a person and an organisation), hosted_by, our_pick, source_url, read_at         DERIVED
-                           (+ web-summit-lisbon-2026, the summit itself)                                      HAND
+                           (+ web-summit-lisbon-2026, the summit itself, and its 16 past editions,
+                           web-summit-dublin-2010 to web-summit-lisbon-2025: dates and venue from Wikipedia's
+                           timeline at a pinned revision, 2025 from AICEP with the organiser's figures; listed
+                           under "Past editions" on /events/)                                                 HAND
   people/<slug>/person.json the 248 people the summit's pages list: name, role, organisation (as listed and as a
                            link), and every listing with its source and when it was read                    DERIVED
   organisations/<slug>/    the 188 organisations named by a source that are not our companies               DERIVED

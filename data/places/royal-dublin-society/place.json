@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "royal-dublin-society",
+  "type": "place",
+  "name": "Royal Dublin Society",
+  "kind": "venue",
+  "located_in": "place:dublin",
+  "matches": [],
+  "source": "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798",
+  "note": "The venue of Web Summit from 2011 to 2015, in the timeline of Wikipedia's Web Summit article (past events, 6 November 2026)."
+}

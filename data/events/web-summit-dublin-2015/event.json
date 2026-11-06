@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "web-summit-dublin-2015",
+  "type": "event",
+  "title": "Web Summit 2015, Dublin",
+  "kind": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2015-11-03",
+  "end_date": "2015-11-05",
+  "time": null,
+  "where": "Royal Dublin Society, Dublin",
+  "place": "place:royal-dublin-society",
+  "organised_by": "organisation:web-summit",
+  "speakers": [],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798",
+  "read_at": "2026-11-06T01:00Z",
+  "read_by": "ontologist@PrompTugal.dinis",
+  "note": "Hand-written, a past edition: the dates and venue as the timeline table in Wikipedia's Web Summit article gives them (revision 1383690798, read 6 November 2026), a secondary source."
+}

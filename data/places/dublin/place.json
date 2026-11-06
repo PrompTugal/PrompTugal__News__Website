@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "dublin",
+  "type": "place",
+  "name": "Dublin",
+  "kind": "city",
+  "located_in": "place:ireland",
+  "matches": [],
+  "source": "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798",
+  "note": "Where Web Summit was held from 2010 to 2015, before it moved to Lisbon (past events, 6 November 2026)."
+}
