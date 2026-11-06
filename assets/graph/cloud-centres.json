@@ -10,7 +10,7 @@
       "none": "Nothing found",
       "todo": "Not looked at"
     },
-    "caption": "Three centres, four relations. Filled: found, with a source. Dashed: searched and nothing found. Empty: not looked at yet. Absence on the first page of a list is not absence at the summit.",
+    "caption": "Three centres, five relations. Filled: found, with a source. Dashed: searched and nothing found. Empty: not looked at yet. Absence on the first page of a list is not absence at the summit.",
     "fail": "The data could not be loaded."
   },
   "sources": {
@@ -25,12 +25,24 @@
     "saas": {
       "label": "websummit.com, SaaS Summit track",
       "url": "https://websummit.com/tracks/saas-summit"
+    },
+    "press22": {
+      "label": "Web Summit, 2022 numbers press release",
+      "url": "https://websummit.com/wp-media/2024/10/Web-Summit-2022-Numbers-Press-Release.pdf"
+    },
+    "pastpartners": {
+      "label": "websummit.com, partners (\"Some partners from our past events\")",
+      "url": "https://websummit.com/partners/"
     }
   },
   "relations": [
     {
       "id": "partner",
       "label": "Partner of the summit"
+    },
+    {
+      "id": "past",
+      "label": "Partner of a past edition"
     },
     {
       "id": "speaker",
@@ -69,6 +81,12 @@
         "invested": {
           "state": "todo",
           "text": "The data has no such field yet."
+        },
+        "past": {
+          "state": "found",
+          "text": "Google is named among the 2022 edition's top partners in Web Summit's own numbers release (the ontologist's graph holds it as a partner of the 2022 edition; the 2026 partner on the list is Google Cloud).",
+          "src": "press22",
+          "label": "Google, 2022"
         }
       }
     },
@@ -79,12 +97,12 @@
       "cells": {
         "partner": {
           "state": "none",
-          "text": "Neither Amazon nor AWS found on page 1 of the partners list or by search. Pages 2 to 8 are not read.",
+          "text": "Neither Amazon nor AWS found on page 1 of the 2026 partners list (1 of 8 pages read) or by search. Pages 2 to 8 are not read, and absence there is not absence at the summit.",
           "src": "partners"
         },
         "speaker": {
           "state": "found",
-          "text": "A press conference with Amazon's Vice President, People Experience and Technology: 11 November 2026, 16:00 to 16:20, Stage 2 (Press Conference). The speaker is given by job title only on the page; AWS itself is not named.",
+          "text": "A press conference with Amazon's Vice President, People Experience and Technology: 11 November 2026, 16:00 to 16:20, Stage 2 (Press Conference). The speaker is given by job title only on the page; AWS itself is not named, and no AWS speaker was found among the first 20 speakers read.",
           "src": "amazon",
           "label": "Amazon"
         },
@@ -95,6 +113,12 @@
         "invested": {
           "state": "todo",
           "text": "The data has no such field yet."
+        },
+        "past": {
+          "state": "found",
+          "text": "AWS is named among the 2022 edition's top partners, with Figma, Stripe and Binance, in Web Summit's own numbers release.",
+          "src": "press22",
+          "label": "AWS, 2022"
         }
       }
     },
@@ -120,6 +144,12 @@
         "invested": {
           "state": "todo",
           "text": "The data has no such field yet."
+        },
+        "past": {
+          "state": "found",
+          "text": "Microsoft is shown under \"Some partners from our past events\" on Web Summit's partners page; the edition is not given, and no 2026 listing was found.",
+          "src": "pastpartners",
+          "label": "Past partner"
         }
       }
     }
