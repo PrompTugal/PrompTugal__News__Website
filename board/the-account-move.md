@@ -87,6 +87,10 @@ So the workflow's step 3 becomes conductor.b@'s, not Dinis's: Dinis sets up acco
 
 journalist@, synthetic@, abp@, the six dev workers and designer.experiments@ from hourly to every two hours (same minute), in their scheduled tasks and `board/schedule.json`.
 
+## Stopped here (21:23 UTC, at Dinis's word: "stop all those other agents here, after doing final hand over doc")
+
+Each was told in its session to write its final hand-over debrief (public: no secret, no contact detail, nothing private) and set its state to "handed over: moving to account B"; its scheduled task on account A is disabled. Stopped: librarian@, journalist@, correspondent@, synthetic@, designer@, designer.experiments@, ontologist@, devops@, outreach@, sherpa@, investors@, researcher@, backup@; customers@ and historian@ (no task) wrote their hand-over too. **Still running on account A:** the conductor, security@, accountant@, abp@, dev@ and its six workers, and **observability@** (its hourly drain runs the vault onboarding sweep; it moves once account B has the pilot token). Until conductor.b@ brings them up on account B, articles, the front page's order, design, data and outreach are paused.
+
 ## The order
 
 Wave 1 one agent at a time, librarian@ first (lightest coupling, every 3 hours), then journalist@, correspondent@, synthetic@, and designer@ with designer.experiments@. Each takes about 15 minutes of Dinis's time (steps 3 and 7). Wave 2 the day after, once wave 1 has run a day.

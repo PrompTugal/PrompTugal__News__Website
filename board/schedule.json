@@ -24,17 +24,18 @@
       "minute": 21,
       "cron": "21 * * * *",
       "trigger": "trig_01T25GJniHHGEMVzmqWd568Z",
-      "state": "enabled",
-      "since": "2026-11-06T00:35Z"
+      "state": "disabled",
+      "since": "2026-11-06T00:35Z",
+      "note": " Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "journalist@PrompTugal.dinis",
       "minute": 26,
       "cron": "26 */2 * * *",
       "trigger": "trig_01YGcXK7BNafbZAoZm4SimeY",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T00:35Z",
-      "note": " Every two hours from 21:20 UTC 6 Nov (Dinis: 'running a bit hot')."
+      "note": " Every two hours from 21:20 UTC 6 Nov (Dinis: 'running a bit hot'). Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "designer@PrompTugal.dinis",
@@ -50,17 +51,18 @@
       "minute": 38,
       "cron": "38 * * * *",
       "trigger": "trig_0157pya5876SHkGsysAFP8gT",
-      "state": "enabled",
-      "since": "2026-11-06T00:35Z"
+      "state": "disabled",
+      "since": "2026-11-06T00:35Z",
+      "note": " Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "synthetic@PrompTugal.dinis",
       "minute": 44,
       "cron": "44 */2 * * *",
       "trigger": "trig_015i2HRtaAh7Wapys8TvM1n3",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T00:35Z",
-      "note": " Every two hours from 21:20 UTC 6 Nov (Dinis: 'running a bit hot')."
+      "note": " Every two hours from 21:20 UTC 6 Nov (Dinis: 'running a bit hot'). Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "conductor@PrompTugal.dinis",
@@ -85,27 +87,27 @@
       "minute": 14,
       "cron": "14 */2 * * *",
       "trigger": "trig_016pENKx2ZKzZmydjDVE7YGq",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T03:45Z",
-      "note": "every two hours (Dinis: some agents can run slower)"
+      "note": "every two hours (Dinis: some agents can run slower) Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "correspondent@PrompTugal.dinis",
       "minute": 41,
       "cron": "41 */2 * * *",
       "trigger": "trig_01USKA99PdAuRu8GxEbS2tcP",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T03:45Z",
-      "note": "every two hours (Dinis: some agents can run slower)"
+      "note": "every two hours (Dinis: some agents can run slower) Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "sherpa@PrompTugal.dinis",
       "minute": 29,
       "cron": "29 */3 * * *",
       "trigger": "trig_01Y7Be137phyqckGcv4AW8AF",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T03:45Z",
-      "note": "every three hours (Dinis: some agents can run slower)"
+      "note": "every three hours (Dinis: some agents can run slower) Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "accountant@PrompTugal.dinis",
@@ -121,9 +123,9 @@
       "minute": 56,
       "cron": "56 */3 * * *",
       "trigger": "trig_01AMqLXjnj6GGDqRSRkjkRFK",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T03:45Z",
-      "note": "every three hours (Dinis: some agents can run slower)"
+      "note": "every three hours (Dinis: some agents can run slower) Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "historian@PrompTugal.dinis",
@@ -144,9 +146,9 @@
       "minute": 33,
       "cron": "33 * * * *",
       "trigger": "trig_01AtoW12ptSMfoAK5M3UYweP",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T04:44Z",
-      "note": "the second designer session (session_018yvwtQG4hfVbvycXkifYXc), started at Dinis's word with the OpenRouter key in its environment"
+      "note": "the second designer session (session_018yvwtQG4hfVbvycXkifYXc), started at Dinis's word with the OpenRouter key in its environment Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "dev.search@PrompTugal.dinis",
@@ -207,27 +209,27 @@
       "minute": 58,
       "cron": "58 */2 * * *",
       "trigger": "trig_01V5BxQFADqeW51ndTwcWxCz",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T05:36Z",
-      "note": "Sonnet worker, branch work/designer.experiments (started by the conductor at Dinis's word, 06:10) Every two hours from 21:20 UTC 6 Nov (Dinis: 'running a bit hot')."
+      "note": "Sonnet worker, branch work/designer.experiments (started by the conductor at Dinis's word, 06:10) Every two hours from 21:20 UTC 6 Nov (Dinis: 'running a bit hot'). Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "researcher@PrompTugal.dinis",
       "minute": 13,
       "cron": "13 * * * *",
       "trigger": "trig_01ASdnSvUfPydaop4zM8MR4n",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T05:36Z",
-      "note": "Sonnet; Algarve Evolution first (started by the conductor at Dinis's word, 06:10)"
+      "note": "Sonnet; Algarve Evolution first (started by the conductor at Dinis's word, 06:10) Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "backup@PrompTugal.dinis",
       "minute": 9,
       "cron": "9 */6 * * *",
       "trigger": "trig_01CuPUeXx4QpHgSK2jdA39gR",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T05:36Z",
-      "note": "Sonnet, every six hours; Google Drive waits on Dinis's grant (started by the conductor at Dinis's word, 06:10)"
+      "note": "Sonnet, every six hours; Google Drive waits on Dinis's grant (started by the conductor at Dinis's word, 06:10) Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     },
     {
       "agent": "customers@PrompTugal.dinis",
@@ -239,9 +241,9 @@
       "minute": 23,
       "cron": "23 */3 * * *",
       "trigger": "trig_01342XF3aSp1Wm3M29mYBCsa",
-      "state": "enabled",
+      "state": "disabled",
       "since": "2026-11-06T20:02Z",
-      "note": "started 20:02 UTC 6 Nov at Dinis's word ('need that investor agent here, since there are two different focus and companies'); every three hours (the weekly limit)"
+      "note": "started 20:02 UTC 6 Nov at Dinis's word ('need that investor agent here, since there are two different focus and companies'); every three hours (the weekly limit) Disabled 21:23 UTC 6 Nov at Dinis's word: final hand-over, then moves to account B (board/the-account-move.md)."
     }
   ]
 }
