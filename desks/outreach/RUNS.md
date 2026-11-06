@@ -2,6 +2,21 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 01:40 UTC: synthetic run 2's fixes; the drafts re-checked after the newsroom move
+
+**Done**
+
+- Re-checked every draft against the data after the newsroom move (v0.1.60 to v0.1.64): the generator, run unchanged, wrote the same 56 drafts, so no page fact a draft uses has changed. No draft links into `/newsroom/`.
+- synthetic@'s run 2 (`desks/synthetic/run-2/to/outreach.md`): "powered by RiskMandate" in the signature replaced by one line, in the words of the company page's own disclosure, linking `/about/participant.html`; the newsroom's "aim", not "mandate"; two lines in writing offered as well as a call. Its "no greeting" finding: every draft opens with one; the EML's body had LF line ends inside a CRLF message, now CRLF throughout, which may be what its reader tripped on.
+- "the European Commission", "the National Cyber Security Centre", "the Linux Foundation" in running English.
+
+**Blocks**
+
+1. The promptugal.news addresses (Dinis): the From and the signatures.
+2. What the email may say about RiskMandate beyond the disclosure, and whether "not a sales call", "you approve your words" are true: Dinis's to say.
+3. The private team CRM's key (WS-173).
+4. The flows sections are still empty (the ontologist's flows schema).
+
 ## 2026-11-06, about 01:00 UTC: the drafts revised against the live pages and synthetic run 1
 
 **Done**
