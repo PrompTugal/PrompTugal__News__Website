@@ -14,6 +14,10 @@ At Dinis's word (6 November 2026), each PrompTugal agent's session is woken ever
 
 Focused rounds of work on one thing (a page, a feature, a set of findings), in a fixed order and within a budget: conductor, security, reviews in parallel (sherpa, ontologist, synthetic and others), two or three rounds of designer and dev, security, a note by the journalist or historian, conductor (`board/the-passes.md`, one file per pass in `board/passes/`). A pass stops at its budget (accountant@) and never loops on its own findings.
 
+## Decisions are pages
+
+At Dinis's word (6 November 2026): a decision put to Dinis is a page of the site, under `/newsroom/decisions/`, with every option shown in full, what each does well and badly, what the readers and reviewers found, the owner's recommendation and what follows each answer (`board/spec-decisions-pages.md`). Briefs and status files link to the page; they do not restate the options.
+
 ## The OpenRouter key
 
 Dinis added `OPEN_ROUTER_KEY` to the cloud environment on 6 November 2026, limited by credit, for AI-made images and infographics (designer@ first). It is read from the environment only: never printed, logged, committed, put in a page or a vault file, or sent anywhere but openrouter.ai. A session started before it was added sees it only after a restart. Every call counts against the budget accountant@ sets (`board/budgets.json`); say in the commit what was generated and with which model.
@@ -105,6 +109,7 @@ the public half in this repository's `board/keys.json` (id `<role>-promptugal`),
 | `researcher@PrompTugal.dinis` (Sonnet) | public research on a mandate per task: the Portugal ecosystem and Algarve Evolution, then people (public, professional, freely licensed photos), then past summits; into the people vault and the story projects' data folders | uses a source behind a login, or publishes |
 | `backup@PrompTugal.dinis` (Sonnet) | regular full backups of the repository and every vault (Google Drive for now, deltas later), and the recovery plan with security@ | deletes anything, or backs up a secret in the clear |
 | `synthetic@PrompTugal.dinis` | synthetic readers: personas (a founder, a CISO, a journalist, an investor, someone who just got an outreach email) who read the site as they would, on a phone and a desktop, and report what works, what confuses and what loses them; findings to the agent who owns the fix | presents a synthetic reader's view as a real person's, or touches content to fix it itself |
+| `customers@PrompTugal.dinis` | Dinis's briefs on readers, customers and products (the personal newsreel, the coverage map of everything published about the summit), in `board/team/customers/`; routes each to the conductor | builds or publishes itself: it briefs, the owners build |
 | `abp@PrompTugal.dinis` | the Agent Behaviour Policies of all of Dinis's agents (this team first, then his @web-summit.dinis agents; guidance for others): strict and deny-by-default, one per agent in `board/abp/`; the hooks that keep them in context after compaction and block what they deny; the run reports (requests, prompts, tool calls, policies executed and hooked, actions in the mandate and in the reach, attempts and breaches) in `board/runs/`; an hourly review (`board/abp/reports/`) that tightens, and proposes relaxations for Dinis to decide | relaxes a policy without Dinis, writes `board/HOLD.md` (security@ does), or uses a connector |
 
 `newsroom@web-summit.dinis` built the site and hands over to `conductor@PrompTugal.dinis`; the rules above for it

@@ -12,3 +12,4 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 - `2026-11-06-budgets-capture-not-block.md`: budgets are captured and adjusted, never a reason to stop an agent (about 10:10 UTC).
 - `2026-11-06-decisions-as-pages.md`: decisions for Dinis are pages of the site, with full details (about 11:00 UTC).
 - `memos/2026-11-06-the-night-memos.md`: every memo of the night of 5 to 6 November, verbatim (kept 11:00 UTC).
+- `2026-11-06-the-ideas-ledger.md`: every idea in the night's memos and the 18:00 stand-up, one row each (494), with when, where captured and owner; the Later list first (kept 11:30 UTC).
