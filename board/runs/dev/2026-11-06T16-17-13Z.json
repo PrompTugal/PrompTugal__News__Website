@@ -1,0 +1,157 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-06T16-17-13Z",
+ "started": "2026-11-06T16:17:13.293Z",
+ "ended": "2026-11-06T16:21:29Z",
+ "line": "wake 16:08: the daily newsletter, one feature combined with dev.pages@'s; 5 worker branches brought; deploy stall recovered",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "git": 7,
+   "read": 1,
+   "write": 1,
+   "shell": 1,
+   "git-commit": 1,
+   "message": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": [
+   {
+    "sha": "943c4f627",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages's newsletter and combine it with dev@'s (one feature)",
+    "files": 11
+   },
+   {
+    "sha": "3254dadb3",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "files": 26
+   },
+   {
+    "sha": "fecfc30d8",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 6
+   },
+   {
+    "sha": "985038ef1",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 3
+   },
+   {
+    "sha": "5cb86b7f5",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "943c4f627 wrote content/index.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "943c4f627 wrote data/schemas/list-views.schema.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote content/my-day.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-account-1280.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-account-390.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-article-1280.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-article-390.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-topup-1280.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-topup-390.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-vault-1280.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-vault-390.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-vault-missing-key-1280.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-vault-missing-key-390.png",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3254dadb3 wrote design/shots/feature-billing-vault-open-1280.png",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 14
+ }
+}

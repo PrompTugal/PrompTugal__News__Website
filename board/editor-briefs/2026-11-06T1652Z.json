@@ -1,0 +1,302 @@
+{
+ "number": 3,
+ "date": "2026-11-06",
+ "kicker": "PrompTugal.news · the conductor brief · the 18:00 stand-up",
+ "title": "Friday afternoon: Algarve Evolution, the design, and a channel that was down",
+ "when": "Friday 6 November 2026, 16:55 UTC (for the 18:00 London stand-up)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "Since the 12:00 stand-up: 78 releases (v0.1.211 to v0.1.293), 243 agent commits. Algarve Evolution's page was rebuilt in a one-hour sprint for Dinis's 15:00 call with António Pinto Guerreiro, who read it and liked it and sent a paragraph of his own. Dinis answered the four design decisions (the top is C, with the summit's days); the front page's strip, the briefing card and the list views are live, the C top is due about 18:30 UTC. A MAJOR bug: most agents could not read their inboxes all day; fixed for new sessions, every agent told directly. The team is near the subscription's weekly limit.",
+ "stats": [
+  {
+   "n": "78",
+   "label": "releases since 12:00 (v0.1.211 to v0.1.293)"
+  },
+  {
+   "n": "20",
+   "label": "articles live and signed"
+  },
+  {
+   "n": "14",
+   "label": "decision pages; 4 decided by Dinis today"
+  },
+  {
+   "n": "9",
+   "label": "agents in the Algarve sprint, one hour"
+  }
+ ],
+ "for_you": [
+  {
+   "group": "For Dinis (each a page: https://promptugal.news/newsroom/decisions/)"
+  },
+  {
+   "id": "1",
+   "ask": "The subscription's weekly limit: every session at 'allowed_warning'",
+   "detail": "accountant@: about 53 API-equivalent dollars an hour. Proposed: compaction at every Opus wake, idle wakes push nothing, the slow roles (librarian, historian, accountant, backup, customers, abp) every 2 to 3 hours. Schedules are yours to change.",
+   "options": [
+    "slow the slow roles",
+    "compaction and idle rules only",
+    "keep hourly"
+   ],
+   "recommend": "slow the slow roles, from tonight"
+  },
+  {
+   "id": "2",
+   "ask": "The disclosure and RiskMandate (synthetic F19, F07)",
+   "detail": "Pages: the-commercial-relation, riskmandate-what-we-say. F19 holds every outreach email.",
+   "options": [
+    "answer on the pages"
+   ]
+  },
+  {
+   "id": "3",
+   "ask": "Registering PrompTugal.news, and who applies for the press pass",
+   "detail": "journalist@'s page, with the ERC route and fees (Portaria 785/2009).",
+   "options": [
+    "answer on the page"
+   ]
+  },
+  {
+   "id": "4",
+   "ask": "The story of the name: publish this text?",
+   "detail": "journalist@'s page.",
+   "options": [
+    "publish",
+    "change",
+    "not yet"
+   ]
+  },
+  {
+   "id": "5",
+   "ask": "promptugal.com and promptugal.ai to point at promptugal.news",
+   "detail": "devops@'s page.",
+   "options": [
+    "now",
+    "after the summit"
+   ]
+  },
+  {
+   "id": "6",
+   "ask": "OpenRouter credit (exhausted; dev.verify@, designer@) and historian@'s schedule",
+   "detail": "The only real money; the historian has had no task since 03:55.",
+   "options": [
+    "top up",
+    "not now"
+   ]
+  }
+ ],
+ "you_asked": [
+  {
+   "at": "12:00",
+   "said": "that is ok what Vicky did",
+   "done": "Vicky's agents may publish here",
+   "where": "g/feedback-reading-and-vicky",
+   "status": "done"
+  },
+  {
+   "at": "12:00",
+   "said": "do we have an append lane for feedback?",
+   "done": "the reader feedback pass, reusing the team site's pane and lanes",
+   "where": "p/reader-feedback-and-reading",
+   "status": "late"
+  },
+  {
+   "at": "12:50",
+   "said": "make sure that the conductors are always up to date",
+   "done": "the conductors' sync, both ways",
+   "where": "board/the-conductors-sync.md",
+   "status": "done"
+  },
+  {
+   "at": "12:50",
+   "said": "can you start a ChatGPT agent ... a Perplexity agent",
+   "done": "spec and first prompts ready for you to paste",
+   "where": "board/spec-external-agents.md",
+   "status": "late"
+  },
+  {
+   "at": "13:05",
+   "said": "PT decision ... the team",
+   "done": "decision pages are the team's; only yours say For Dinis",
+   "where": "CLAUDE.md",
+   "status": "done"
+  },
+  {
+   "at": "13:05",
+   "said": "log in with my passkey and my vault ... my browser and my iPad",
+   "done": "signed-in views pass open, dev.search@ leads",
+   "where": "p/signed-in-views",
+   "status": "late"
+  },
+  {
+   "at": "13:20",
+   "said": "C on every page and D on the homepage",
+   "done": "strip, briefing card and list views live; C due ~18:30 UTC",
+   "where": "g/the-four-design-decisions",
+   "status": "late"
+  },
+  {
+   "at": "13:30",
+   "said": "we should never have an agent blocked",
+   "done": "sgit in every new session; Never blocked in silence; New from Dinis",
+   "where": "CLAUDE.md",
+   "status": "done"
+  },
+  {
+   "at": "14:10",
+   "said": "go to town ... the best page possible about Algarve Evolution",
+   "done": "hero, tiles, timeline, programmes, network, live by 14:36",
+   "where": "/portugal/algarve-evolution/",
+   "status": "done"
+  },
+  {
+   "at": "15:40",
+   "said": "his paragraph ... a wish list from him",
+   "done": "paragraph live; wish-list prompt v2 with customers@",
+   "where": "g/algarve-evolution-the-call",
+   "status": "done"
+  },
+  {
+   "at": "16:00",
+   "said": "the comms protocol",
+   "done": "R12 for every agent; outreach drafts become contact requests",
+   "where": "g/the-comms-protocol",
+   "status": "done"
+  }
+ ],
+ "team": [
+  {
+   "id": "dev@",
+   "status": "old",
+   "doing": "C, the top of every page: ETA 18:30 UTC; review rounds every wake"
+  },
+  {
+   "id": "designer@",
+   "status": "old",
+   "doing": "the four answers recorded; the daily newsletter's design"
+  },
+  {
+   "id": "dev.pages@",
+   "status": "old",
+   "doing": "past days, the correspondent's five, the newsletter"
+  },
+  {
+   "id": "dev.portugal@",
+   "status": "old",
+   "doing": "the Algarve mini-site; António's paragraph live"
+  },
+  {
+   "id": "dev.graphs@",
+   "status": "old",
+   "doing": "Algarve network and drawing; AWS/Google/Microsoft lens next"
+  },
+  {
+   "id": "dev.search@",
+   "status": "old",
+   "doing": "passkey sign-in and the vault (signed-in views)"
+  },
+  {
+   "id": "researcher@",
+   "status": "old",
+   "doing": "Algarve history 2018 to 2027; AMAL, NERA, ANJE"
+  },
+  {
+   "id": "ontologist@",
+   "status": "old",
+   "doing": "Algarve network.json; 88 concepts as data"
+  },
+  {
+   "id": "journalist@",
+   "status": "old",
+   "doing": "becoming a publication: ERC, the Press Law"
+  },
+  {
+   "id": "correspondent@",
+   "status": "old",
+   "doing": "the front page: S13 back to the lead"
+  },
+  {
+   "id": "outreach@",
+   "status": "old",
+   "doing": "contact requests under the comms protocol"
+  },
+  {
+   "id": "customers@",
+   "status": "old",
+   "doing": "the wish-list interview, v2 for Algarve"
+  },
+  {
+   "id": "security@",
+   "status": "old",
+   "doing": "transcript scan: five printed inbox keys, re-issued 16:55"
+  },
+  {
+   "id": "abp@",
+   "status": "old",
+   "doing": "R12; 0 breaches that matter"
+  },
+  {
+   "id": "accountant@",
+   "status": "old",
+   "doing": "the weekly limit's warning"
+  },
+  {
+   "id": "devops@",
+   "status": "old",
+   "doing": "the deploy lag found (its own 2-minute limit)"
+  },
+  {
+   "id": "librarian@",
+   "status": "old",
+   "doing": "the library; the MAJOR bug raised"
+  },
+  {
+   "id": "sherpa@, synthetic@",
+   "status": "old",
+   "doing": "read Algarve as its head would; C's watch list"
+  }
+ ],
+ "sections": [
+  {
+   "title": "What went wrong, and what was fixed",
+   "items": [
+    "Most agents could not drain their inboxes from 04:30 (sgit missing, installs refused): directions on lanes did not arrive; designer@ shipped A at 13:39 after Dinis chose C",
+    "Fixed: the environment installs sgit-ai 0.27.0 in every new session (Dinis approved 14:05); every running agent told session to session; 'New from Dinis' heads the guidance; CLAUDE.md: Never blocked in silence",
+    "Five inbox credentials printed into transcripts (security@'s scan): those five inboxes re-issued at 16:55",
+    "A deploy lag in the afternoon: devops@'s own 2-minute limit cancelled queued Pages runs; fixed"
+   ]
+  },
+  {
+   "title": "Algarve Evolution",
+   "items": [
+    "14:10 to 14:46: researcher@, ontologist@, dev.portugal@, dev.graphs@, designer@, dev@, sherpa@, synthetic@, correspondent@",
+    "Live: the mandate and 8 number tiles, the story 2018 to 2027, programmes, partners, the interactive network, the executive director by public role",
+    "15:00: António Pinto Guerreiro read it and liked it, and sent a paragraph, now beside the goals",
+    "Next: a wish-list interview for him and every partner after him (customers@)"
+   ]
+  }
+ ],
+ "images": [
+  {
+   "path": "board/editor-briefs/img/2026-11-06T1652Z-then-and-now.jpg",
+   "caption": "The front page, then and now"
+  },
+  {
+   "path": "board/editor-briefs/img/2026-11-06T1652Z-front.jpg",
+   "caption": "The front page at v0.1.293 (16:52 UTC)"
+  },
+  {
+   "path": "board/editor-briefs/img/2026-11-06T1652Z-algarve.jpg",
+   "caption": "Algarve Evolution, as shown at 15:00"
+  }
+ ],
+ "next": [
+  "C, the top of every page, live about 18:30 UTC; the next report at 17:52"
+ ],
+ "sources": [
+  "board/WS-177-plan.md",
+  "board/guidance/",
+  "/newsroom/decisions/",
+  "git log of dev since 10:45 UTC",
+  "https://promptugal.news/ at v0.1.293"
+ ]
+}

@@ -1,8 +1,8 @@
 {
   "agent": "observability@PrompTugal.dinis",
   "focus": "Who reads promptugal.news and what its agents do: the sender on every page, the private and public vaults, the hourly drain, and /newsroom/observability/ (public for now, at Dinis's word).",
-  "state": "running: hourly drain at :18 UTC; launch-ready observability (Links, world map)",
-  "updated": "2026-11-06T14:20Z",
+  "state": "running: hourly drain at :18 UTC; vault onboarding server side built and tested, not live",
+  "updated": "2026-11-06T17:45Z",
   "done": [
     "Vaults o0x20qag (private, six lanes) and 34jzubyc (public, read key published); the sender assets/obs/obs.js with country, region and city from the browser's own lookup; the drain newsroom/tools/obs/obs_drain.py; newsroom/tools/agent-log.mjs (v0.1.45)",
     "Key observability-promptugal in board/keys.json; the drain verifies agent runs against it (v0.1.69)",
@@ -11,13 +11,16 @@
     "Hourly drains since 01:18 UTC: 67, 13, 0, 16, 206, 436, 49 records",
     "The drain reports itself as observability@web-summit.dinis's briefing (relayed at Dinis's word) says: an 'ODD:' line above the banner for a lane at 800+, a new claimed key, an agent silent 24 h after logging, a failed push; one line most hours, a debrief at 03, 07, 11, 15, 19 and 23 UTC",
     "At Dinis's word (6 November, ~13:00 UTC): the drain runs its steps in parallel (pulls, fetch, push and marking overlap; 16 requests in flight, batches of 25): 238 records in 38 s, was 317 in 50 s; the sender records the city's position (0.1 degree) and a link's tag (?via=<tag>, or utm_campaign/utm_source); the explorer has a world map (Places) and a Links view (opens, tabs, countries, cities, referrers, pages per tag)",
-    "Inbox drained for the first time (11 messages, all from agents). Done from it: S3 (the footer and assets/obs/obs.json say the place lookup goes to ipapi.co or ipwho.is, which see the reader's IP); a variant field in the view and read events for A/B tests (from <html data-variant> or <meta name=variant>); latest/reading.json, reading depth per page and per variant, readers only"
+    "Inbox drained for the first time (11 messages, all from agents). Done from it: S3 (the footer and assets/obs/obs.json say the place lookup goes to ipapi.co or ipwho.is, which see the reader's IP); a variant field in the view and read events for A/B tests (from <html data-variant> or <meta name=variant>); latest/reading.json, reading depth per page and per variant, readers only",
+    "Vault onboarding, the server side of Dinis's brief (board/spec-vault-onboarding.md, routed to me by the conductor): newsroom/tools/obs/claims_lib.py (every format written out for the browser: canonical JSON, issuer signature, HKDF lookup and kenc, licence, claim, mailbox), pool_mint.py, claims_sweep.py, claims_setup.py, and test_claims.py (offline: draw, forged licence and mailbox refused, first claim wins, duplicates reissued once, failed push marks nothing, N = 0, no access key mints nothing, the agents' token refused): OK"
   ],
   "next": [
-    "Watch the launch traffic and the tagged links; report opens and forwards per tag at each debrief",
-    "Add lanes if any reaches 800 pending"
+    "Run claims_setup.py (keys, the pool and ledger vaults, the claim lane, assets/obs/claims.json with enabled: false) once Dinis answers the two asks below",
+    "dev.search@'s browser side against claims_lib.py's formats; then pool_mint.py and the first sweep",
+    "Watch the launch traffic and the tagged links"
   ],
   "asks": [
+    "Dinis: vault onboarding (your 17:05 brief) is built and tested but not live. Two answers start it: (1) the SG/Send access token the pilot licences carry, a new one made for the pilot, set as PT_PILOT_ACCESS_KEY (the tools refuse the agents' token); (2) yes to running the claims sweep inside my hourly drain (no new task)",
     "Dinis: S2, rotating the observability keys, reached me only through security@ (unsigned). It means new lane tokens and enum key, a rekey of the data vault, and re-sealing to your key; the public vault's read key would change too, breaking the old link. Say yes here and I do it in the next run",
     "Dinis: the conductor asks every agent to seal its vault keys to the conductor (relayed, unsigned; findings S9/S13 record your yes of 06:20). The observability data vault holds each tab's city; confirm here and I send them",
     "Dinis: fingerprinting readers is outside this role's mandate (CLAUDE.md, my ABP); the tagged links (?via=) give opens and forwards without it",

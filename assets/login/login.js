@@ -7,7 +7,7 @@
 //
 //   window.PTLogin: { ready (a promise of the state), state(), signIn(text), signOut() }
 //   state: { person, fingerprint, verified (true | false), status ('signed-out' | 'verified' | 'replaced' | 'unknown' |
-//            'mismatch' | 'no-crypto'), entry (the public record, or null) }
+//            'mismatch' | 'no-crypto' | 'elsewhere'), entry (the public record, or null) }
 //   event 'pt:login' on window, with the state, whenever it changes; tool auth.whoami (read) on window.__tool.
 //
 // On every page: a small chip in #nr-tools once you are signed in. On /login/: the sign-in panel (.pt-login, a layout hook in content/login.md): scan the
@@ -22,7 +22,10 @@
     const title = p => p ? p.charAt(0).toUpperCase() + p.slice(1) : ''
     let state = { person: '', fingerprint: '', verified: false, status: 'signed-out', entry: null }
 
+    // the keyring loads only on the pages that use the key (S1): elsewhere there is no key to wait for
+    const HERE = !!document.querySelector('script[src*="login/keyring.js"]')
     async function keyring() {
+        if (!HERE) return null
         for (let i = 0; i < 50 && !window.PTKeyring; i++) await new Promise(r => setTimeout(r, 50))
         const KR = window.PTKeyring; if (KR) await KR.ready.catch(() => { }); return KR
     }
@@ -32,6 +35,7 @@
     // the proof: the browser's private key signs a fresh challenge; the published public key must verify it
     async function check() {
         const KR = await keyring()
+        if (!HERE) return set({ person: '', fingerprint: '', verified: false, status: 'elsewhere', entry: null })
         if (!S || !KR) return set({ person: '', fingerprint: '', verified: false, status: 'no-crypto', entry: null })
         if (!KR.person) return set({ person: '', fingerprint: '', verified: false, status: 'signed-out', entry: null })
         const keys = await register(), entry = keys.find(k => k.fingerprint === KR.fingerprint) || null
@@ -74,6 +78,7 @@
         replaced: 'This browser holds a key that has since been replaced: ask the conductor for your new QR code, then sign in again.',
         unknown: 'This browser holds a key that is not in board/person-keys.json: it may have been issued on another site. Sign out and sign in with the QR code the conductor gave you.',
         mismatch: 'This browser holds a key whose signature does not match its published key. Sign out and sign in again.',
+        'elsewhere': 'Your key is not used on this page.',
         'no-crypto': 'This browser cannot hold a key here (it needs IndexedDB and Web Crypto, over HTTPS).',
     }
     let panel = null, msg = null, video = null, stream = null

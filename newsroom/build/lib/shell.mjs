@@ -16,6 +16,7 @@
 //   <div id="nr-live" data-start="…" data-end="…"></div>  under the sections: the live strip (assets/live/live.js fills it 9 to 12 Nov)
 //   <div id="nr-pane" hidden></div>           the right-hand pane root: the chat and the vault open here
 import { seoHead } from './seo.mjs'
+import { ctopHead, ctabs } from './top.mjs'
 import { esc, inline, stripHooks } from './markdown.mjs'
 
 const upOf = rel => '../'.repeat(rel.split('/').length - 1)
@@ -91,10 +92,13 @@ ${seoHead(page, site)}
 <meta name="theme-color" content="#121317" media="(prefers-color-scheme: dark)">
 <link rel="alternate" type="text/markdown" href="${up}${mdRel}">
 <link rel="stylesheet" href="${up}assets/site.css">${css}
+<link rel="stylesheet" href="${up}assets/top/top.css">
 <script src="${up}assets/themes.js"></script>
+<script src="${up}assets/top/top.js"></script>
 </head>
 <body class="type-${esc(type || 'site')}${front ? ' page-front' : ''}">
 <a class="skip" href="#main">Skip to the content</a>
+${ctopHead({ up, href, site, section, shortDate, WORDMARK })}
 <div class="dateline"><div class="row"><span class="dl-where"><span class="dl-long">${esc(S.place)} · </span><time class="dl-date" datetime="${site.TODAY}"><span class="dl-long">${site.DAY(site.TODAY)} ${y}</span><span class="dl-short">${shortDate}</span></time></span><span class="dl-right"><span class="countdown" data-start="${S.countdown.start}" data-end="${S.countdown.end}" data-day1="${S.countdown.day1}"></span> · <span class="dl-long">Edition </span>${ver}</span>${utility ? `<span class="dl-util">${utility}</span>` : ''}</div></div>
 <header class="mast${front ? '' : ' compact'}">
 ${ears}
@@ -122,8 +126,9 @@ ${bodyHtml}
 <footer><div class="row">
 <div class="foot-brand"><a class="name" href="${up}index.html" aria-label="${esc(S.name)}, the front page">${WORDMARK(up)}</a><span>${esc(S.motto)}. ${esc(S.promise)}</span><span class="independence">${esc(S.independence)}</span><span>${esc(E.label)} <a href="${href(E.href)}">${esc(E.name)}</a>. ${esc(S.disclosure)} <a href="${href(S.disclosure_href)}">Read our disclosure</a>.</span></div>
 <div class="foot-cols">${foot}</div>
-<p class="small">${esc(S.footer_note)}${utility ? ` · ${utility}` : ''} · ${ver}</p>
+<p class="small">${esc(S.footer_note)}${utility ? ` · ${utility}` : ''} · ${ver}<span class="foot-theme"></span></p>
 </div></footer>
+${ctabs({ up, href, site, section })}
 <script>(function(){var c=document.querySelector('details.toc');if(c&&innerWidth<1000&&c.querySelectorAll('li').length>5)c.removeAttribute('open');})();(function(){var e=document.querySelector('.countdown');if(!e)return;var n=Date.now(),s=Date.parse(e.dataset.start),f=Date.parse(e.dataset.end),d1=Date.parse(e.dataset.day1+'T00:00:00Z'),d=Math.ceil((s-n)/864e5),k=Math.floor((n-d1)/864e5)+1;e.textContent=n<s?(d===1?'Starts tomorrow':d+' days to the summit'):n<f?(k<1?'Opening Night':'Day '+k+' of 3'):'The summit is over';var t=document.querySelector('.dl-date'),i=new Date(n).toISOString().slice(0,10);if(t&&t.getAttribute('datetime')!==i){t.setAttribute('datetime',i);var o={timeZone:'Europe/Lisbon'};t.querySelector('.dl-long').textContent=new Date(n).toLocaleDateString('en-GB',Object.assign({weekday:'long',day:'numeric',month:'long',year:'numeric'},o)).replace(',','');t.querySelector('.dl-short').textContent=new Date(n).toLocaleDateString('en-GB',Object.assign({weekday:'short',day:'numeric',month:'short'},o)).replace(',','');}})();</script>${js}
 <div class="agent-block"><pre><code>${esc(agentBlock(page, site))}</code></pre></div>
 </body>

@@ -7,3 +7,5 @@ Checked 6 November 2026 against its four sources and the two Web Summit session 
 Smaller: "the European Commission and its agencies run most of their sessions that day" counts EUIPO and EuroHPC (a joint undertaking) as the Commission's agencies; four of the seven EU items on the agenda are on 11 November, so "most" holds.
 
 Everything else matches ("The next digital frontier" at 10:30 on Stage 11 with both speakers, the AI masterclass at 14:30, HaDEA's session and stand, EuroHPC free and first come, first served, RVO's networking event, the Beato event at 18:30; 11 November 2026 is a Wednesday). All links open, including the two event pages and three sibling articles. Sources not clickable on the page: see README.
+
+**Second check, 6 November 2026:** wording only; the finding is still open ("come from their own pages").

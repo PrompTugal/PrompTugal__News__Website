@@ -6,3 +6,5 @@ Checked 6 November 2026 against its three sources, each opened that day.
 2. **"Lisbon's contract with Web Summit runs to 2028" ("In short").** ECO, 2018: "O acordo entre o Governo, o Web Summit e a Câmara de Lisboa"; the deal is with the government and the city, as the story itself says ("In 2018 Portugal agreed to pay ..."). Small.
 
 Every EY figure matches Executive Digest with Lusa (5 November 2026), and the 2018 deal (11 million euros a year to 2028, split between Lisbon's tourism fund and the ministry) matches ECO. All links open. Sources not clickable on the page: see README.
+
+**Second check, 6 November 2026:** wording only; both findings still open (the 2021 study credited to ECO, which credits Jornal de Negócios).
