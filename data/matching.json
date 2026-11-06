@@ -1586,6 +1586,11 @@
     ],
     "unmatched": [
       {
+        "as_listed": "3xP Global",
+        "ref": "organisation:3xp-global",
+        "count": 1
+      },
+      {
         "as_listed": "3xP Global (Impact Innovation Fund)",
         "ref": "organisation:3xp-global",
         "count": 1
@@ -1741,6 +1746,11 @@
         "count": 1
       },
       {
+        "as_listed": "Jornal Económico",
+        "ref": "organisation:jornal-economico",
+        "count": 1
+      },
+      {
         "as_listed": "Keel",
         "ref": "organisation:keel",
         "count": 1
@@ -1763,6 +1773,11 @@
       {
         "as_listed": "Netherlands Enterprise Agency (RVO)",
         "ref": "organisation:netherlands-enterprise-agency",
+        "count": 1
+      },
+      {
+        "as_listed": "Octo Health",
+        "ref": "organisation:octo-health",
         "count": 1
       },
       {

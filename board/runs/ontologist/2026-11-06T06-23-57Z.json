@@ -1,0 +1,59 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "ontologist@PrompTugal.dinis",
+ "run": "2026-11-06T06-23-57Z",
+ "started": "2026-11-06T06:23:57Z",
+ "ended": "2026-11-06T07:24:15Z",
+ "line": "07:21 wake: Cloudflare's flow; Cisco Outshift held for a source",
+ "policy": {
+  "version": "1.3.0",
+  "sha256": "ff545e59f636d8b5"
+ },
+ "sessions": 0,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 0,
+  "by_kind": {}
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 0,
+  "commits": [
+   {
+    "sha": "60452f0be",
+    "subject": "ontologist@PrompTugal.dinis: 1Password's past-edition source corrected (synthetic@'s finding); Airia's two flows, sourced",
+    "files": 8
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 0,
+  "in_mandate": 0,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
