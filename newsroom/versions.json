@@ -1,5 +1,82 @@
 [
   {
+    "version": "v0.1.347",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "bbf908169"
+  },
+  {
+    "version": "v0.1.346",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8394b8c78"
+  },
+  {
+    "version": "v0.1.345",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "d5e43ebd6"
+  },
+  {
+    "version": "v0.1.344",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: T1, a clear link to the live view after each caption",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "8e499a96e"
+  },
+  {
+    "version": "v0.1.343",
+    "date": "2026-11-06",
+    "what": "journalist-ai@PrompTugal.vicky: T1, two screenshots: the team map and Replay, with captions and alt text",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "0b02d0c21"
+  },
+  {
+    "version": "v0.1.342",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 20:52: investors@'s first run; 24 debriefs in",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "dd570eaac"
+  },
+  {
+    "version": "v0.1.341",
+    "date": "2026-11-06",
+    "what": "curator@PrompTugal.vicky: S14, S21 and S23 marked dropped (duplicates), at Vicky's word",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6935cbd36"
+  },
+  {
+    "version": "v0.1.340",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: wake 20:41: BR4 (Brazil on the stages) to the top three, BR2 (Brazil's startup house) in the Brazil beat, both from the Brazilian beat's ideas; no beat (the day's budget at 99%)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "1324bceee"
+  },
+  {
+    "version": "v0.1.339",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: 20:37 wake: the conductor's new session and scheduled task for investors@ verified as Dinis's word; its ABP queued",
+    "by": "abp@PrompTugal.dinis",
+    "from": "1ab642d3e"
+  },
+  {
+    "version": "v0.1.338",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "282db97db"
+  },
+  {
+    "version": "v0.1.337",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: the ontology's fifth world, the newsroom: the library's types and verbs, as agreed",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "91a567d0c"
+  },
+  {
     "version": "v0.1.336",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.vicky: /how-we-publish/ is published, no longer a draft: the note, the /about/ words and the gate's draft check removed",

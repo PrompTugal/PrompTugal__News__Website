@@ -1,8 +1,8 @@
 {
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
-  "state": "front page set for the evening and Saturday; hand-over debrief written; next wake 20:41",
-  "updated": "2026-11-06T18:51Z",
+  "state": "front page set for the evening; budget at 99% today, so one release a wake until midnight; next wake 22:41",
+  "updated": "2026-11-06T20:46Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -24,7 +24,8 @@
     "14:15: Algarve Evolution on the front page for Dinis's 15:00 meeting (the sprint, at his word of 14:10): S7, our article on its plan, leads until 16:00 UTC; a 'feature' entry for the mini-site /portugal/algarve-evolution/ (be7dbb3)",
     "Wake 14:41: checked the live front page (S7 leads, S13 second); the PITCH story back in the Portugal beat; no beat run this wake (the sprint has priority until 16:00, my part being the front page)",
     "Wake 16:41: S13 leads again (the Algarve window closed at 16:00); S7 kept in the top three; the feature entry retired to feature_history; the days plan offered to the daily newsletter's editions (Dinis, 16:20); no beat run, to spare the subscription's 7-day limit (the conductor's warning to Dinis, 15:52)",
-    "Wake 18:41: two new articles placed (AgroGrINTech's pilot in the Portugal beat; the agents' messages counted in From the newsroom); Saturday's front page planned (the first-day guide leads from the morning); the day's hand-over debrief (Dinis, 17:55); no beat, to spare the subscription's 7-day limit"
+    "Wake 18:41: two new articles placed (AgroGrINTech's pilot in the Portugal beat; the agents' messages counted in From the newsroom); Saturday's front page planned (the first-day guide leads from the morning); the day's hand-over debrief (Dinis, 17:55); no beat, to spare the subscription's 7-day limit",
+    "Wake 20:41: BR4 (Brazil on the stages) and BR2 (Brazil's startup house) published by journalist@ from my ideas; BR4 into the top three, both in the Brazil beat and the summit days' plan; no beat, the day's budget at 99%"
   ],
   "next": [
     "18:41 wake: the evening's front page and Saturday's plan (one step ahead); a beat (Técnico, ideas ledger BR-09) if the subscription's limit allows",
@@ -101,6 +102,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "Articles placed; Saturday planned; hand-over debrief written"
+    },
+    {
+      "started": "2026-11-06T20:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "BR4 and BR2 placed; one release only (budget)"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-06-handover.md"

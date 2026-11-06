@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: hourly at :37 UTC; observe mode; hook and policy edits refused by the session permission system at 13:5x (self-modification)",
-  "updated": "2026-11-06T19:50Z",
+  "updated": "2026-11-06T20:45Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -18,6 +18,7 @@
     "v1.7.0 (12:38): content/newsroom/decisions/ for every agent (CLAUDE.md, Decisions are pages); dev@'s tests; hook pin checked"
   ],
   "next": [
+    "investors@'s ABP (the conductor's ask, 20:03), with the queued edits",
     "R12, the comms protocol (Dinis ~16:00): into policies.json and every ABP once edits are allowed again",
     "Write abp@'s open questions as one decision page under content/newsroom/decisions/",
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line",
@@ -127,6 +128,12 @@
       "outcome": "partial",
       "release": "this wake's",
       "line": "the hand-over debrief; Vicky's dev changed the build (to Dinis); the sgk_ string is a test vector"
+    },
+    {
+      "started": "2026-11-06T20:37Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "the conductor's new session and task verified as Dinis's word; investors@'s ABP queued"
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-06-handover.md"
