@@ -268,7 +268,10 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
             return deny('R8', `${verb} prints the environment, which holds keys and tokens`, 'secret')
         if (['echo', 'printf'].includes(verb) && SECRET_VAR.test(seg)) return deny('R8', `${verb} of a secret variable`, 'secret')
         if (['cat', 'head', 'tail', 'less', 'more', 'xxd', 'od', 'hexdump', 'base64', 'strings', 'bat', 'nl', 'awk', 'sed', 'grep', 'jq'].includes(verb)) {
-            const hit = args.find(a => !a.startsWith('-') && /[/.~]/.test(a) && isSecretPath(path.resolve(here, a.replace(/^~(?=\/)/, HOME))))
+            // grep, sed, awk and jq take a pattern or a script first (unless given with -e/-f): that is not a path (security@'s grep, 10:xx)
+            let pos = args.filter(a => !a.startsWith('-'))
+            if (['grep', 'sed', 'awk', 'jq'].includes(verb) && !args.some(a => /^-(e|f|-regexp|-file)$/.test(a))) pos = pos.slice(1)
+            const hit = pos.find(a => /[/.~]/.test(a) && isSecretPath(path.resolve(here, a.replace(/^~(?=\/)/, HOME))))
             if (hit) return deny('R8', `${verb} ${hit}: a private key or credentials file is never read into the conversation`, 'secret')
         }
         // R6: the hooks, the policy, the version and the brand

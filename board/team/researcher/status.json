@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T10:25Z",
+  "updated": "2026-11-06T11:30Z",
   "state": "running: key made, entry in board/keys.json",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -7,13 +7,13 @@
     "round 2: Grow Algarve Meetup (organiser, 1,623 members), Algarve Tech Hub Summit history corrected; no 2026 summit-week event found",
     "round 3: Algarve Tech Afterwork (Tavira) and Wrap Party (Faro) read; Algarve Evolution organiser or presenter of both; no 2026 listing found",
     "session key researcher-promptugal (record sha256:f93bc841c931c599, encryption sha256:b8f5887596dbfb11) in board/keys.json; linked locally to the operator key sha256:db7f79fdd87e030a; private halves outside the repository",
-    "round 4: no dated Nov 2026 Algarve Evolution event found on Luma or Meetup; no ATH Summit 2026 listing"
+    "round 4: no dated Nov 2026 Algarve Evolution event found on Luma or Meetup; no ATH Summit 2026 listing",
+    "round 5: algarveevolution.pt reachable via the www host; home page and the three listed events read at source; organisers and partners recorded; only DevFest Lagos names Algarve Evolution as partner"
   ],
   "next": [
-    "re-check the three programme-desk events at their sources",
-    "retry algarveevolution.pt",
-    "people research once the section shape is set",
-    "inbox: drain with the team site's feedback_drain.py once the lane credential is rotated"
+    "tell dev.portugal@ and correspondent@ about the organiser correction (inbox send)",
+    "people research once the section shape is set (the site lists no leadership: only the news article names the executive director, by role)",
+    "past summits research"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",

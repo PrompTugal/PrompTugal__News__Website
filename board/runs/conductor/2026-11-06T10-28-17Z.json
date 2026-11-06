@@ -1,0 +1,116 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T10-28-17Z",
+ "started": "2026-11-06T10:28:17.963Z",
+ "ended": "2026-11-06T10:34:19Z",
+ "line": "10:55: the article's link fixed to .html in the debrief and brief 2",
+ "policy": {
+  "version": "1.5.0",
+  "sha256": "673ac90ea992c5c1"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T10:34:03.946Z",
+   "chars": 796,
+   "sha256": "3b866899504959a3",
+   "head": "<task-notification>\n<task-id>b5ricdzi0</task-id>\n<tool-use-id>toolu_01CfUKCLKtLhoVdGhfJb4PM5</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "release": 2,
+   "shell": 1,
+   "web": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": [
+   {
+    "sha": "e1cd5aabb",
+    "subject": "conductor@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "files": 1
+   },
+   {
+    "sha": "e66e4920e",
+    "subject": "conductor@PrompTugal.dinis: the first-night debrief on the site, as an article and a presentation",
+    "files": 10
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "e66e4920e wrote articles/the-first-night-of-promptugal-news.md.sig",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e66e4920e wrote board/editor-briefs/2026-11-06T1045Z.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e66e4920e wrote board/editor-briefs/2026-11-06T1045Z.pdf",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e66e4920e wrote board/editor-briefs/img/2026-11-06T1045Z-front.jpg",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e66e4920e wrote board/editor-briefs/img/2026-11-06T1045Z-phone.jpg",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e66e4920e wrote board/editor-briefs/img/2026-11-06T1045Z-portugal.jpg",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e66e4920e wrote board/editor-briefs/img/2026-11-06T1045Z-then-and-now.jpg",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e66e4920e wrote content/articles/the-first-night-of-promptugal-news.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 5,
+  "in_mandate": 5,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 8
+ }
+}

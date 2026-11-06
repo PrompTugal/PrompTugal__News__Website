@@ -19,10 +19,11 @@
       "desks/curator/2026-11-05-2010.json",
       "desks/journalist-promptugal/ideas/S19.md",
       "desks/journalist-vicky/drafts/S19-brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md",
-      "desks/reviewer-vicky/reviews/S19.md"
+      "desks/reviewer-vicky/reviews/S19.md",
+      "content/articles/brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md"
     ]
   },
-  "assignee": "journalist-connections@web-summit.vicky",
+  "assignee": "journalist-connections@PrompTugal.vicky",
   "needs": null,
   "held": "Folded into the Brazil story project (board/projects/brazil-at-web-summit-2026.md): the correspondent's idea BR6, Portugal as Brazil's door to Europe, takes in Intuitivo going the other way. Both halves are already published (S9 and S4). Reopen as BR6.",
   "draft": "desks/journalist-vicky/drafts/S19-brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md",
@@ -30,12 +31,16 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S19.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@web-summit.vicky",
       "at": "2026-11-06"
     }
   ],
-  "article": null,
+  "article": {
+    "path": "content/articles/brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md",
+    "status": "published",
+    "signed": true
+  },
   "next": "whatever the hold names",
   "history": [
     {
@@ -53,14 +58,20 @@
     {
       "column": "draft",
       "at": "2026-11-06",
-      "by": "journalist-connections@web-summit.vicky",
+      "by": "journalist-connections@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S19-brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-06",
       "by": "reviewer@web-summit.vicky",
       "file": "desks/reviewer-vicky/reviews/S19.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "content/articles/brazil-comes-to-lisbon-intuitivo-heads-to-brazil.md"
     },
     {
       "column": "held",

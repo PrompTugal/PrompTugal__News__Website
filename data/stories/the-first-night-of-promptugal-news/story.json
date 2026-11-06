@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "the-first-night-of-promptugal-news",
+  "type": "story",
+  "title": "The first night of PrompTugal.news, set up by people and agents",
+  "beat": null,
+  "topic": null,
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/the-first-night-of-promptugal-news.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/the-first-night-of-promptugal-news.md"
+    ]
+  },
+  "assignee": "conductor@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/the-first-night-of-promptugal-news.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "conductor@PrompTugal.dinis",
+      "file": "content/articles/the-first-night-of-promptugal-news.md"
+    }
+  ]
+}
