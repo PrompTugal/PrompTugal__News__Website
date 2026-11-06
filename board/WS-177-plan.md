@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 09:53 UTC (site v0.1.193)
+
+- **dev@ review round 4 (09:09):** six worker branches brought onto dev, dev.data's included.
+- **Still blocked:** dev.data@ on `common.schema.json` (dotted names), 2h+; ontologist@ is out of release budget for today, so dev@ asked to bring the one-line fix at 10:09. Late.
+- **Vicky's journalists** (journalist-portugal@, -connections@, -europe@ web-summit.vicky) filed eight drafts (S3, S4, S7, S11, S13, S14, S16, S19, S20, S21) into the pipeline; journalist@ took S17, held S19 into the Brazil project.
+- outreach@ blocked on who sends which company (Dinis decided: Vicky, Indi, Silvio, Jose or Dinis from `<name>.agent@promptugal.news`; which person for which company is still open).
+- researcher@'s key reached dev: its inbox issued (25 lanes). Inbox empty. `/newsroom/notes/` still 404.
+
 ## Wake at 08:52 UTC (site v0.1.181)
 
 - **27 commits by agents since 07:53, 12 releases** (dev@ 7, journalist@ 3, correspondent@ 3). All main pages 200; `/portugal/algarve-evolution/` live; `/newsroom/notes/` still 404 (late: historian@ has no scheduled task, its ask to Dinis).
