@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 10:52 UTC (site v0.1.220)
+
+- **At Dinis's word since 10:00:** budgets capture, never block (10:10); the dollars are API-equivalent (10:15); the first-night debrief as an article (`/articles/the-first-night-of-promptugal-news.html`, signed) and as conductor brief 2, which is the 12:00 stand-up brief (the Next list bug he spotted fixed, 5 pages); decisions as pages (`board/spec-decisions-pages.md`; designer@ the top of the page first, dev@ the index); the night's 49 memos kept verbatim (`board/guidance/memos/`), the ideas ledger under way.
+- **Unblocked:** dev.data@ (ontologist@ fixed common.schema.json at 10:13 after a nudge).
+- **New:** Vicky's desk renamed to `@PrompTugal.vicky` (programme, reviewer, journalist, journalist-portugal, -connections, -europe, -ai; "at Vicky's word, Dinis asked for new names"), their keys in `board/keys.json`; 35 agent lanes and their inboxes issued. To confirm with Dinis: CLAUDE.md's team table still names them @web-summit.vicky.
+- **Late:** `/newsroom/notes/` 404; `/newsroom/decisions/` not built yet (asked 11:00).
+- Snapshot 10:52. Inbox empty. No hold.
+
 ## Wake at 09:53 UTC (site v0.1.193)
 
 - **dev@ review round 4 (09:09):** six worker branches brought onto dev, dev.data's included.

@@ -24,14 +24,29 @@ function personPage(ctx, p) {
     }
 }
 
+// the same people in three views, switched by the link a reader follows (CSS :target): by organisation (the default,
+// so the page is not an A to Z), by the day of their first session, and A to Z (dev.pages@, the-people-page)
+const line = (ctx, rel, p, cell) => `- ${refLink(ctx, rel, `person:${p.id}`)}${p.role ? `, ${cell(p.role)}` : ''}${p.organisation ? `, ${p.org ? refLink(ctx, rel, p.org, p.organisation) : cell(p.organisation)}` : ''}`
+function views(ctx, rel, ps, cell) {
+    const ln = p => line(ctx, rel, p, cell), rows = a => `{.rows .links-cols}\n${a.map(ln).join('\n')}`
+    const orgs = new Map()
+    for (const p of ps) { const k = p.organisation || 'Organisation not listed'; orgs.set(k, [...(orgs.get(k) || []), p]) }
+    const byOrg = [...orgs].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).map(([k, a]) => `### ${cell(k)} \`${a.length}\`\n\n${rows(a)}`).join('\n\n')
+    const day = p => p.listings.map(l => (ctx.store.get(l.event) || {}).date).filter(Boolean).sort()[0] || 'none'
+    const days = [...new Set(ps.map(day))].sort()
+    const byDay = days.map(d => `### ${d === 'none' ? 'Not tied to a session in our programme' : ctx.DAY(d)}\n\n${rows(ps.filter(p => day(p) === d))}`).join('\n\n')
+    const letters = [...new Set(ps.map(p => p.name[0].toUpperCase()))]
+    const az = letters.map(L => `### ${L} {#${L.toLowerCase().replace(/[^a-z]/g, 'x')}}\n\n${rows(ps.filter(p => p.name[0].toUpperCase() === L))}`).join('\n\n')
+    return `{.view-switch}\n[By organisation](#v-org) · [By first session](#v-day) · [A to Z](#v-az)\n\n::: view view-org\n#### By organisation {#v-org}\n\n${byOrg}\n:::\n\n::: view view-day\n#### By day of first session {#v-day}\n\n${byDay}\n:::\n\n::: view view-az\n#### A to Z {#v-az}\n\n${az}\n:::`
+}
+
 export function pages(ctx) {
     const ps = [...ctx.store.people].sort((a, b) => a.name.localeCompare(b.name))
     const rel = 'people/index.html', cell = ctx.md.cell
-    const letters = [...new Set(ps.map(p => p.name[0].toUpperCase()))]
     return [{
         src: 'data/people/', rel, type: 'site', date: maxDate(ps.flatMap(p => p.listings.map(l => l.read_at))),
         title: 'People', summary: `${ps.length} people the summit's public pages list as speakers in our programme or in our companies' sources, by name, role and organisation only.`,
-        md: `${RULE}\n\n` + letters.map(L => `## ${L} {#${L.toLowerCase().replace(/[^a-z]/g, 'x')}}\n\n{.rows .links-cols}\n` + ps.filter(p => p.name[0].toUpperCase() === L).map(p => `- ${refLink(ctx, rel, `person:${p.id}`)}${p.role ? `, ${cell(p.role)}` : ''}${p.organisation ? `, ${p.org ? refLink(ctx, rel, p.org, p.organisation) : cell(p.organisation)}` : ''}`).join('\n')).join('\n\n'),
+        md: `${RULE}\n\n` + views(ctx, rel, ps, cell, line),
     }, ...ps.map(p => personPage(ctx, p))]
 }
 

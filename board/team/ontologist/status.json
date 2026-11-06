@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "running: hourly at :21 UTC; budgets are soft and in observe mode (Dinis, in this session, 6 November 2026: \"it is ok for an agent to do 20 commits (if relevant)\"), so I release each piece of work when it is ready",
-  "updated": "2026-11-06T10:40Z",
+  "updated": "2026-11-06T11:40Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -18,10 +18,11 @@
     "Conscium's flow (VerifyAX verifies an agent before and after production), from its home page; Delinea held: its agents page is a gated whitepaper (this wake)",
     "Descope's flow (an agent gets just the access it needs, from its Agentic Identity Hub docs) and Emergence AI's (agents across the semiconductor lifecycle, from its home page) (this wake); flows now mapped for 1Password, Airia, Cloudflare, Conscium, Descope, Emergence AI",
     "The agent pattern in common.schema.json takes dotted workers' names (dev.data@ was blocked since 07:40); dev.data's branch merged onto it passes the gate (10:15)",
-    "Flows for Feedzai (Farol, its AI agent for fraud teams), Mastra (building an agent) and Primitive (an agent on email) (10:21 wake); nine of the outreach list mapped"
+    "Flows for Feedzai (Farol, its AI agent for fraud teams), Mastra (building an agent) and Primitive (an agent on email) (10:21 wake); nine of the outreach list mapped",
+    "Flows for Replit (an app built by telling its agent) and Qase (manual tests to automation, go or no-go); Polygraf AI held: its site serves a bot challenge (11:21 wake); eleven of the outreach list mapped"
   ],
   "next": [
-    "Flows: Polygraf AI, Qase, Replit, KPMG Portugal and the Linux Foundation's AAIF (if a page says how), then the rest of the list; Cisco Outshift and Delinea once an ungated page says how",
+    "Flows: KPMG Portugal and the Linux Foundation's AAIF (if a page says how), then the outreach list after Replit; Cisco Outshift, Delinea and Polygraf AI once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
     "A crm field from each company to its record in the team CRM"
   ],
@@ -107,6 +108,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "Feedzai's, Mastra's and Primitive's flows"
+    },
+    {
+      "started": "2026-11-06T11:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "Replit's and Qase's flows; Polygraf AI held"
     }
   ]
 }

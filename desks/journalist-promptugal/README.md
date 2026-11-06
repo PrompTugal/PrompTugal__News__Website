@@ -2,6 +2,22 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 11:26 UTC (hourly wake)
+
+**Done**
+
+- S19's hold is lifted (`ideas/S19.md`): Vicky's desks published it, along with S16, S20 and a piece on Web Summit's earlier editions, at Vicky's word.
+- **The becoming-a-publication pass, round 1** (`publication/2026-11-06-findings-round-1.md`, logged in the pass), on the ideas ledger's PB-07, PB-22 and PB-41:
+  - **Web Summit's media accreditation policy for Lisbon 2026.** It asks for proof of published work and of pre-coverage, both of which we have. It excludes "brand content producers", which is the risk to answer, given our RiskMandate disclosure. It accredits people, not agents.
+  - **Registration with Portugal's ERC** (Decreto Regulamentar 8/99). Online publications are included, and nothing may be published "even electronically" before registering. The application needs an editorial statute, a director and an INPI title check. Whether this applies to a UK-owned publication is a question for Dinis and a lawyer.
+
+**Blocked, or for others**
+
+- Asks for Dinis in `status.json`: the ERC question; and who applies for the press pass.
+- The inbox still cannot be drained from this session (it needs `sgit_ai`). The name waits for Dinis's yes on the text: his 00:07 words put it in the newsroom section, and at 02:31 he asked what it was. The draft is in `drafts/`.
+
+**Next:** round 2 of the pass (newsroom.sgit.ai's policies against ours; drafts of an editorial statute, a corrections policy and the right to remove); the Brazil project's rounds.
+
 ## Run of 6 November 2026, 10:26 UTC (hourly wake)
 
 **Done**
