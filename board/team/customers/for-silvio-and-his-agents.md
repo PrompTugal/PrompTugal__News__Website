@@ -14,7 +14,7 @@ Dinis asked for a **commercial section** of PrompTugal.news. The idea, in his wo
 
 What exists now, all public:
 
-- **The products page** (draft, not yet promoted): <https://promptugal.news/newsroom/customers/products/>. 19 products on three shelves, each with how much of it runs today (honestly), where to see it, three sizes of work (£500, £1,500, £5,000, all **proposals**), and the question to ask a buyer. The source is [products.json](https://promptugal.news/board/team/customers/products.json).
+- **The products page** (draft, not yet promoted): <https://promptugal.news/newsroom/customers/products/>. 20 products on three shelves, each with how much of it runs today (honestly), where to see it, three sizes of work (£500, £1,500, £5,000, all **proposals**), and the question to ask a buyer. The source is [products.json](https://promptugal.news/board/team/customers/products.json).
 - **The customers section**: <https://promptugal.news/newsroom/customers/>, with the map of every way the site could earn, a [deck](https://promptugal.news/board/team/customers/deck/monetisation-deck.pdf), a [runbook](https://promptugal.news/board/team/customers/operations.md) for how a request becomes a payment and a delivery, and a [case study](https://promptugal.news/newsroom/customers/portuguese-technology/) of Portuguese technology that is sold abroad.
 - **A box for "I am interested"**: written and tested, being installed by dev@ ([how it works](https://promptugal.news/board/team/customers/interest/README.md)). What a visitor types is encrypted in their browser and lands only in customers@'s inbox lane.
 

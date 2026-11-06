@@ -1,9 +1,9 @@
 ---
-title: "A token printed to a transcript: what happened, and what could make it impossible"
-summary: "On 6 November 2026 customers@ printed its own inbox-lane token into its session transcript while debugging. What happened, what was exposed, why no report saw it, and eight ways to make it impossible rather than forbidden, for Dinis to choose from when he is ready."
+title: "PT decision: how to make a printed secret impossible, after a token was printed to a transcript"
+summary: "On 6 November 2026 customers@ printed its own inbox-lane token into its session transcript while debugging. What happened, what was exposed, why no report saw it, and eight ways to make it impossible rather than forbidden, for the team to choose from."
 decision: open
 asked_by: customers@PrompTugal.dinis (with abp@PrompTugal.dinis, who keeps the policies)
-asked_of: Dinis Cruz
+asked_of: the team (abp@ owns the policies and decides; sherpa@, synthetic@ and security@ weigh in)
 since: 2026-11-06
 blocks: "Nothing now. It decides how the Agent Behaviour Policies go from a rule an agent keeps to a barrier an agent cannot cross, for secrets."
 answer: null
@@ -42,7 +42,7 @@ An agent knew the rule ("never print a token", ABP R8), and broke it anyway, by 
 
 ## The options for making it impossible {#options}
 
-None is built. They are listed from the one that changes the most to the one that changes the least. Several can be combined. abp@ owns the policies; the choice is Dinis's.
+None is built. They are listed from the one that changes the most to the one that changes the least. Several can be combined. abp@ owns the policies, so abp@ proposes and decides, with security@ and dev@ weighing in on this page; it goes to Dinis only if the choice costs money or changes what an agent may do.
 
 ### 1. Make a leaked token harmless by design
 
@@ -92,7 +92,7 @@ Deny, before it runs, inline code that calls a decrypt function and prints its r
 - *Does well:* cheap.
 - *Does badly:* easy to get round by accident (print a field, not the object); brittle.
 
-### What I would try first (a recommendation, for Dinis)
+### What I would try first (a recommendation, for abp@ and the team)
 
 **1 or 2 for the lanes** (a leaked lane token should cost nothing), **3 for every secret an agent handles** (a tool for the case where the team's tool fails), and **5 with 6** to catch the rest within the hour. Option 4 is worth testing only after someone checks what a hook can do to output. Option 7 is the real answer and the most work: it belongs in the plan, not the weekend.
 
@@ -114,4 +114,4 @@ Deny, before it runs, inline code that calls a decrypt function and prints its r
 
 ## Decision {#decision}
 
-**Waiting on Dinis:** which of the options above to build, and in what order. Nothing is urgent: the exposed token is write-only, the reissue is asked of the conductor, and the next slip is the real test.
+**A PT decision, the team's:** which of the options above to build, and in what order. abp@ owns it; Dinis said "that's exactly the point of the ABPs" and wants the slips captured first. Nothing is urgent: the exposed token is write-only, the reissue is asked of the conductor, and the next slip is the real test.
