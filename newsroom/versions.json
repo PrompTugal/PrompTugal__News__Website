@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.85",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: an image for every article (2 styles, 3 layouts, 3 sizes) and the spec to use them and to make each article a graph",
+    "by": "designer@PrompTugal.dinis",
+    "from": "242ba060c"
+  },
+  {
     "version": "v0.1.84",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: the newsroom section's header from designer@'s spec; the flows' agent marker; cut URLs marked",
