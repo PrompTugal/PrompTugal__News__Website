@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.184",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: an ask: the articles index and the Portugal section in the reviewer's grant",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f0cd0d168"
+  },
+  {
     "version": "v0.1.183",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: wake 09:09: review round 4, six worker branches brought onto dev",
