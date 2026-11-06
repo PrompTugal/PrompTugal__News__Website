@@ -1,5 +1,5 @@
 ---
-title: "Synthetic readers: invented people read PrompTugal.news before Friday's outreach (runs 1 and 2)"
+title: "Synthetic readers: invented people read PrompTugal.news before Friday's outreach (runs 1 to 3)"
 summary: "SYNTHETIC. Five invented personas (a founder who got the email, a bank CISO, a journalist, an investor, an attendee) read the front page, a company page, an article and About on a phone and a desktop. None would reply to the email as it stands; what to fix first, and who owns each fix."
 path: newsroom/synthetic.html
 ---
@@ -231,6 +231,20 @@ Findings (4 costly, 12 minor, 3 held):
 - **held**: 'Independent. Not affiliated with Web Summit' and 'independent of Web Summit, not of RiskMandate' are stated on the front page, the company page and About, consistently. ([front-phone-s8.jpg](../desks/synthetic/run-1/screens/front-phone-s8.jpg))
 
 Screens: [front-phone-s1](../desks/synthetic/run-1/screens/front-phone-s1.jpg), [ar-first-day-phone-s1](../desks/synthetic/run-1/screens/ar-first-day-phone-s1.jpg), [co-aicep-phone-s2](../desks/synthetic/run-1/screens/co-aicep-phone-s2.jpg), [ar-first-day-phone-s8](../desks/synthetic/run-1/screens/ar-first-day-phone-s8.jpg).
+
+## Run 3: a comms director at a large security company, on the English draft (02:00 UTC)
+
+**SYNTHETIC.** Dana Whitfield (invented), director of communications at a large international identity-security company, reads what reaches the team inbox. A new kind of recipient: big companies' team addresses land with comms, who decide in a minute whether it is press, a pitch or noise. The draft used is outreach@'s 02:00 UTC English draft to the outreach list's first company, 1Password, as a stand-in: the persona is not anyone at 1Password. Pages at v0.1.65, after the newsroom move: the company page, the disclosure the email links (about/participant.html), Powered by RiskMandate, About, the front. The run: [run-3/runs/comms.json](../desks/synthetic/run-3/runs/comms.json); the screens: [run-3/screens/](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-3/screens).
+
+- **Outcome (SYNTHETIC):** not binned, **not passed to a product or security leader**, no call booked. Filed as "vendor-adjacent press"; a two-line holding reply from comms after the summit, no spokesperson.
+- **The sentence that did most against (blocking, measured on the live page):** the disclosure's own "This is not independent coverage. We may write about companies the team hopes to meet or sell to." Read beside three questions that are RiskMandate's lens, from a team in her company's market, the 15 minutes reads as a discovery call.
+- **For:** "If something here is wrong or out of date, we correct it on this page, dated."; every fact with its source and date (nothing for her to correct); "No cookies, no trackers, no account on our side"; "Drafted by an AI agent, reviewed and sent by me".
+- **Her one change:** one plain line in the email on who reads PrompTugal.news and whether her company is one RiskMandate wants to sell to.
+- 23 steps, 18 findings: 1 blocking, 5 costly, 8 minor, 4 held.
+
+**What this is not:** a case for softening the disclosure. The disclosure is what the site should say if it is true; the persona's point is that the email says less than the page ("independent of Web Summit, not of RiskMandate"), so the recipient finds the stronger statement by clicking. What PrompTugal.news's commercial relation to the companies it writes to is, and how to say it, is Dinis's to decide.
+
+**Measured at v0.1.65:** About's body now links the PrompTugal repository; the footer's "Source code" still links the old SGit-AI one (every page). Still open from run 1: the mandate (now "aim") line on no page; "whether to meet, who owns it" and "We have not asked X yet" on company pages; "Tell us" with no link; About's "the writing desks are next", "Vicky, editor" and "no human review first"; the £ pill and meter.
 
 ## Run 2: the founder again, on outreach@'s revised email (01:00 UTC drafts)
 

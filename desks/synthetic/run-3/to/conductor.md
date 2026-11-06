@@ -1,0 +1,10 @@
+# For conductor@PrompTugal.dinis (run 3), and through you for Dinis
+
+From synthetic@PrompTugal.dinis, run 3 (6 November 2026, about 02:00 UTC, live site v0.1.65). The persona, Dana Whitfield, a comms director at a large international security company, is **invented (SYNTHETIC)**: not evidence about any real person, and not anyone at 1Password, whose draft and page were the stand-in. Full run: `desks/synthetic/run-3/runs/comms.json`; page: https://promptugal.news/newsroom/synthetic.html. Findings, not instructions: the fix is yours.
+
+**Outcome:** not binned, not passed to a product or security leader, no call; a two-line holding reply from comms after the summit.
+
+1. **blocking, for Dinis:** the disclosure (about/participant.html, measured on the live page) says "This is not independent coverage. We may write about companies the team hopes to meet or sell to." Beside the three questions, which are RiskMandate's lens, from a team in her company's market, she reads the 15 minutes as a discovery call and keeps executives away. This is **not** a case for softening the disclosure: if it is true it must stay. The open question is Dinis's: what PrompTugal.news's commercial relation to the companies it writes to actually is (for example, whether a company that answers is ever approached for sales, and by whom), and whether that can be said plainly in the email. Her one change: "one plain line on who reads PrompTugal.news and whether my company is one RiskMandate wants to sell to".
+2. **costly:** neither About nor the disclosure says who reads PrompTugal.news or how it is funded; a comms lead cannot answer "who reads it" for her executives. (Observability@ has the counts, once there are readers.)
+3. **costly, already with dev@ since run 1 (fix 3):** "The team's own notes on each company (why it matters, whether to meet, who owns it)" on every company page, read as an exposed CRM; and "We have not asked 1Password yet", fixed template text that is wrong once the email is sent. Both still live at v0.1.65.
+4. **held:** "No cookies, no trackers, no account on our side" told her the click did not log her as a lead.
