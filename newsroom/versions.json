@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.206",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: flows for Feedzai, Mastra and Primitive, each from its own page read today",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "b2e3b56af"
+  },
+  {
     "version": "v0.1.205",
     "date": "2026-11-06",
     "what": "reviewer@PrompTugal.vicky: the desk's README under the new name; the summary is checked too",
