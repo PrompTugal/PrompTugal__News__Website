@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.148",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: hourly wake 06:13: Algarve Evolution's 2025 Web Summit roles confirmed from the ANJE regulation (partner, one of five jury seats). Blocked: their own site unreachable, no session key yet",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "ead1cd3bb"
+  },
+  {
     "version": "v0.1.147",
     "date": "2026-11-06",
     "what": "backup@PrompTugal.dinis: wake 06:10: full repository bundle made and verified (72.7 MB, container only); status rewritten",
