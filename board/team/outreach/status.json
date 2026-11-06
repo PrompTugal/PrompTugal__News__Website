@@ -1,8 +1,8 @@
 {
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
- "state": "running: hourly at :38 UTC; under the comms protocol (16:00 UTC), drafts are contact requests for conductor@web-summit.dinis",
- "updated": "2026-11-06T19:50Z",
+ "state": "handed over: moving to account B",
+ "updated": "2026-11-06T21:30Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -131,6 +131,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "the day's hand-over debrief"
+  },
+  {
+   "started": "2026-11-06T21:25Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "final run of this session: the debrief refreshed for the move to account B"
   }
  ],
  "decisions_on_findings": [

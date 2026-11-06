@@ -1,0 +1,96 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-06T20-55-48Z",
+ "started": "2026-11-06T20:55:48.289Z",
+ "ended": "2026-11-06T21:15:26Z",
+ "line": "21:10 at Dinis's word: the account move plan (list, waves, onboarding workflow) in board/the-account-move.md",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T21:12:58.129Z",
+   "chars": 118,
+   "sha256": "8d2f0d692fb980af",
+   "head": "Can you ping the dev to review the home page since it doesn’t look like the mockups created for the design we approved"
+  },
+  {
+   "t": "2026-11-06T21:14:24.532Z",
+   "chars": 233,
+   "sha256": "6c060c7d009befff",
+   "head": "Also we are running a bit hot so we will need to move some agents to sonnet or slow them down a bit, \n\nActually the better way is to move agents to another account I have, can you make a list and then"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T21:12:07.595Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "other": 1,
+   "git": 2,
+   "shell": 2,
+   "read": 3,
+   "session": 2,
+   "write": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-06T21:13:34.398Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-06T21:13:38.581Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 12,
+  "in_mandate": 10,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

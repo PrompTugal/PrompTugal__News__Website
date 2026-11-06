@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "aicep",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/2f8c4adf-ebea-46d7-b876-1b9bd5a6c1dc/aicep-connecting-portuguese-startups-to-global-markets-hosted-by-aicep/",
+      "status": 404,
+      "read": false,
+      "chars": 0
+    },
+    {
+      "url": "https://websummit.com/appearances/lis26/617cd55a-686f-432b-b05d-169e0aa3d846/aicep---portugal-trade-%26-invest/",
+      "status": 200,
+      "read": true,
+      "chars": 1289
+    },
+    {
+      "url": "https://www.portugalglobal.pt",
+      "status": 200,
+      "read": true,
+      "chars": 6837
+    }
+  ],
+  "spent_usd": 0.0377,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named AICEP - Portugal Trade & Invest.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "AICEP - Portugal Trade & Invest",
+          "note": "The Web Summit page lists the company under this exact name, though S2 gives the official Portuguese name as Agência para o Investimento e Comércio Externo de Portugal, which the claim does not address."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "AICEP - Portugal Trade & Invest",
+          "note": "While S1 refers to the entity as AICEP - Portugal Trade & Invest, S2 clarifies that it is a public entity rather than a company."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "AICEP - Portugal Trade & Invest",
+          "note": "S1 gives the name AICEP - Portugal Trade & Invest, but S2 describes AICEP as a public entity, not a company."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.portugalglobal.pt.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "https://www.portugalglobal.pt",
+          "note": "S2 is the page at that exact URL and is AICEP's site, though the claim does not name the company, so the match assumes the company is AICEP."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "AICEP - Agência para o Investimento e Comércio Externo de Portugal é a entidade pública",
+          "note": "The source indicates that https://www.portugalglobal.pt is the website of AICEP, but it specifies that AICEP is a public entity rather than a company."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "https://www.portugalglobal.pt",
+          "note": "S2 is the AICEP page located at the claimed URL."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Portugal's public trade and investment agency: attracts inward investment and helps Portuguese companies expand abroad; offices in about 50 countries.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "entidade pública que promove a captação de investimento produtivo e a internacionalização da economia portuguesa, fomentando o aumento das exportações e a expansão internacional das empresas, através dos seus escritórios em Portugal e da sua rede externa em cerca de 50 mercados",
+          "note": "The source's own description matches the claim's public-agency, inward-investment and outward-expansion points, and its network of about 50 external markets matches the claim's 'about 50 countries', though the source says 'mercados' (markets) rather than 'countries'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "AICEP - Agência para o Investimento e Comércio Externo de Portugal é a entidade pública que promove a captação de investimento produtivo e a internacionalização da economia portuguesa, fomentando o aumento das exportações e a expansão internacional das empresas, através dos seus escritórios em Portugal e da sua rede externa em cerca de 50 mercados",
+          "note": "AICEP defines itself as Portugal's public trade and investment agency dedicated to attracting investment, assisting Portuguese companies in expanding abroad, and operating across around 50 external markets."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "rede externa em cerca de 50 mercados",
+          "note": "S2 supports the public agency, inward investment, and helping Portuguese companies abroad, but it says an external network in about 50 markets, not offices in about 50 countries."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Portugal.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Portugal Politics, government & international trade",
+          "note": "The S1 Web Summit listing for AICEP - Portugal Trade & Invest shows 'Portugal' as a field beside the organisation's name and before its sector, which reads as a country listing, though the page does not label the field explicitly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "AICEP - Portugal Trade & Invest Portugal Politics, government & international trade",
+          "note": "The Web Summit listing records Portugal as the location for AICEP - Portugal Trade & Invest."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "AICEP - Portugal Trade & Invest Portugal",
+          "note": "S1 lists AICEP - Portugal Trade & Invest with Portugal as the associated country."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company (masterclass host)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "AICEP - Portugal Trade & Invest",
+          "note": "S1, a Web Summit Lisbon 2026 (lis26) page, lists AICEP as an attendee, but it does not say the company is a speaker or masterclass host as the claim's parenthetical states."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "See all partners PARTNER Share Share on X Share on LinkedIn Copy link AICEP - Portugal Trade & Invest",
+          "note": "While the source confirms AICEP is listed as a partner for Web Summit Lisbon 2026, it does not state that it is taking part as a speaker's company or masterclass host."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "AICEP - Portugal Trade & Invest",
+          "note": "S1 is a Web Summit Lisbon 2026 appearances page listing AICEP - Portugal Trade & Invest as a partner."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}

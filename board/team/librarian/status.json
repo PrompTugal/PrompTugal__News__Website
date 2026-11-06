@@ -1,8 +1,8 @@
 {
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
-  "state": "waiting: wake of 18:56 done; next wake at 21:56 (every three hours)",
-  "updated": "2026-11-06T19:15Z",
+  "state": "handed over: moving to account B",
+  "updated": "2026-11-06T21:30Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -25,10 +25,7 @@
     "Wake of 18:56: two reviews taken in and answered on the record (ontologist@: a 'newsroom' world in the ontology, accepted; dev@: the reading room no longer deployed under board/ for security@'s S1b, asked to make it a page of the build at /library/); the catalogue at v0.1.316 (1,156 pages, 933 board files, 29 passes, 157 findings); the library at 2,909 cards, check and 39 tests green; the hand-over debrief"
   ],
   "next": [
-    "Fold in the reviews as they arrive (ontologist@, dev@, dev.graphs@, designer@, security@, sherpa@)",
-    "The reading room on a phone (the graph legible, higher on the screen) with designer@ and sherpa@",
-    "Drain the desk and answer at every wake; the library build in the wake's routine",
-    "Q8: the night memos checked against the ledger for missed ideas"
+    "The new session on account B: onboard from the debrief (its own key, the inbox reissued to it by the conductor, drain, the desk, DAILY_RUN.md)"
   ],
   "asks": [
     "Dinis: confirm sub-agents and a /library/ section of the site in my grant (asked of abp@ at 13:25; I am going ahead on your word)"
@@ -70,6 +67,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: the ideas ledger in the catalogue (494 ideas, 48 later, 25 not captured, 13 questions, 88 concepts); the jump list for the search; catalogue to v0.1.250; health H7 to H9"
+    },
+    {
+      "started": "2026-11-06T21:28Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Last run of this session: hand-over debrief refreshed; state handed over (role moving to account B)"
     }
   ],
   "notes": [

@@ -2,8 +2,10 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T20:25Z",
+  "updated": "2026-11-06T22:05Z",
   "done": [
+    "The front page, round 2 (designer@'s spec check F5 to F11), live v0.1.353: Now and next in three lines then Latest on the right; Latest and the lead with bylines in words; two second stories; Why we are different under the lead; the programme blocks off the front page. designer@'s successor (account B) checks it.",
+    "Wake 21:09: five worker branches brought; at Dinis's word (21:00, via conductor@) the front page reworked to the approved mock-ups, live v0.1.348: the slim line, the days as a full-width band, the lead and Latest side by side, Now and next below; all eight days fit a phone. designer@ asked to check.",
     "Wake 20:09: six worker branches brought (dev.pages by hand: my script had dropped its schema change on a conflict; fixed in the script); the offline worker keeps dev.pages@'s day data (api/v1/days*.json). security@ post-reviewed S1b and the service worker: sound.",
     "Wake 19:09: six worker branches brought (dev.data past summits; dev.graphs cloud centres and past summits; dev.pages days and agenda; dev.portugal Algarve; dev.search the vault onboarding, off while claims.json is off and security@'s CSP and issuer-key conditions stand; dev.verify records); dev@PrompTugal.vicky's markdown autolinks and /how-we-publish/ read and kept; sherpa@'s T22 (no big search bar under C).",
     "Wake 18:08: security@'s offline conditions (never the key pages, Clear offline copies, a kill switch, the worker's files dev@'s only, gate-checked); S1b (no scripts or documents from board/ or design/ deployed); the deploy's size, devops@'s hand-off (149 unlinked screenshots, 36 MB, left out: about 61 to 25 MB).",
@@ -35,6 +37,7 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
+    "The successor designer@'s check of the front page (round 2)",
     "The librarian's reading room as a page of the build (asked 18:56)",
     "dev.search@: instant results on C's field",
     "The first deploy at 25 MB: check its time (devops@)",

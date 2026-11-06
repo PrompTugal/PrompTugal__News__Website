@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "aisle",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "find-fix-verify",
+      "name": "Agents find, fix and verify vulnerabilities in a codebase (AISLE)",
+      "summary": "AISLE's home page, in its four steps; the figures are its own (91% true positive rate, 85% of proposed fixes accepted, detection to remediation in under 4 days). It runs wherever the code lives, cloud to air-gapped, with the AI model of the customer's choice.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "AISLE's agents",
+          "what": "Analyze: thousands of agents reason in parallel across the codebase, dependencies and architecture to pinpoint exploitable vulnerabilities, prioritised by business impact.",
+          "agent": "Analyse the code in parallel.",
+          "source": "fl1"
+        },
+        {
+          "actor": "AISLE's fix agents",
+          "what": "Fix: generate patches like those the engineers write, from the context gained in analysis.",
+          "agent": "Write the patches.",
+          "source": "fl1"
+        },
+        {
+          "actor": "AISLE",
+          "what": "Verify: CI and agent-generated sandboxed tests check each fix fixes the issue without breaking anything downstream.",
+          "agent": "Generate the tests.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The engineers",
+          "what": "Review only proposals already verified; issues needing a person's decision are flagged for human review.",
+          "source": "fl1"
+        },
+        {
+          "actor": "AISLE's agents",
+          "what": "Improve: evaluate the team's feedback and custom context to do better on each issue.",
+          "agent": "Learn from feedback.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

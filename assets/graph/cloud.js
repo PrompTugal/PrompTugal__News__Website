@@ -12,12 +12,12 @@
         const r = Math.min(2, devicePixelRatio || 1); ctx.setTransform(r, 0, 0, r, 0, 0); ctx.fillStyle = css('--panel') || '#fff'; ctx.fillRect(0, 0, W, H)
         const ink = css('--ink') || '#111', ink3 = css('--ink-3') || '#666', rowW = Math.min(170, W * 0.24), colW = (W - rowW - 20) / D.centres.length, top = 64, rowH = (H - top - 14) / D.relations.length
         boxes = []; ctx.textAlign = 'center'
-        D.centres.forEach((c, i) => { const x = rowW + 10 + i * colW + colW / 2; ctx.fillStyle = c.color; ctx.globalAlpha = 0.14; ctx.fillRect(x - colW / 2 + 4, 6, colW - 8, H - 12); ctx.globalAlpha = 1; ctx.fillStyle = ink; ctx.font = '700 16px system-ui, sans-serif'; ctx.fillText(c.label, x, 36) })
+        D.centres.forEach((c, i) => { const x = rowW + 10 + i * colW + colW / 2; ctx.fillStyle = c.color; ctx.globalAlpha = 0.14; ctx.fillRect(x - colW / 2 + 4, 6, colW - 8, H - 12); ctx.globalAlpha = 1; ctx.fillStyle = ink; ctx.font = (colW < 130 ? '700 13px' : '700 16px') + ' system-ui, sans-serif'; wrap(c.label, colW - 10).forEach((ln, k, a) => ctx.fillText(ln, x, 36 - (a.length - 1) * 8 + k * 16)) })
         D.relations.forEach((rel, j) => { const y = top + j * rowH; ctx.textAlign = 'left'; ctx.fillStyle = ink; ctx.font = '600 13px system-ui, sans-serif'; wrap(rel.label, rowW - 8).forEach((ln, k) => ctx.fillText(ln, 8, y + rowH / 2 - 6 + k * 16))
             D.centres.forEach((c, i) => { const cell = c.cells[rel.id], x = rowW + 10 + i * colW + colW / 2, cy = y + rowH / 2, on = sel && sel.cell === cell
                 ctx.lineWidth = on ? 3 : 1.5; ctx.strokeStyle = on ? ink : c.color; ctx.setLineDash(cell.state === 'none' ? [5, 4] : []); ctx.beginPath(); ctx.arc(x, cy - 8, 17, 0, 7)
                 if (cell.state === 'found') { ctx.fillStyle = c.color; ctx.fill() } ctx.stroke(); ctx.setLineDash([])
-                ctx.textAlign = 'center'; ctx.fillStyle = ink3; ctx.font = '400 12px system-ui, sans-serif'; ctx.fillText(cell.state === 'found' ? (cell.label || D.ui.states.found) : D.ui.states[cell.state], x, cy + 28)
+                ctx.textAlign = 'center'; ctx.fillStyle = ink3; ctx.font = (colW < 130 ? '400 10.5px' : '400 12px') + ' system-ui, sans-serif'; wrap(cell.state === 'found' ? (cell.label || D.ui.states.found) : D.ui.states[cell.state], colW - 8).slice(0, 2).forEach((ln, k) => ctx.fillText(ln, x, cy + 26 + k * 12))
                 boxes.push({ x, y: cy - 8, r: 22, cell, c, rel }) }) })
         ctx.textAlign = 'start'
     }
