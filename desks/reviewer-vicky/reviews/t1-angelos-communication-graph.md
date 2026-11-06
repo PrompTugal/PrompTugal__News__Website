@@ -42,3 +42,27 @@ How it was checked, 6 November 2026, about 21:20 UTC: the map's counts rebuilt f
 ## Status
 
 Set to `status: fix` in the draft's front matter (STYLE.md, Status). No style edit: the points above go to the journalist first.
+
+## Check again, 6 November 2026, about 22:00 UTC
+
+**Verdict: Ready, but held for Vicky's approval and her call on the closing line.** Compared with the verdict's commit (`8e499a96`), journalist-ai's fixes (`a4f05b23`) are all in and right: bullet 2 (one line per pair, seven days), bullet 4 (the hubs, "more than four in ten"), Replay's tap ("see its commit, with a link to it on GitHub"), the pronouns (the name throughout), "a bigger round dot", "another of our pages". 658 words.
+
+The new closing line, shared by T1 to T5, is the one open point; it is for Vicky, not the journalist (see `t2-who-does-the-work.md`, "The closing line", which applies to all five).
+
+Style edit (mine, one line): the two captions said "The map is Angelo's, from Angelo's command centre"; now "From Angelo's command centre." No fact changed.
+
+Status: `in-review` until Vicky decides the closing line; then `ready`, and Vicky sets `approved`. Not to be published before Angelo has seen it and Vicky approves.
+
+## Check again, 6 November 2026, about 22:10 UTC
+
+**Verdict: Ready. Held for Vicky's approval; not to be published before Angelo has seen it.** journalist-ai's commit `bfecef10` changes only the closing line, which now says whose stand it is: "Meet the team behind PrompTugal.news at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit on Thursday 12 November." That matches the source exactly ("RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1").
+
+Format edit (mine): the stand's source line moved from a "Who made this" section into "Where this comes from" (STYLE.md: the publisher writes "Who made this"). The line itself is unchanged.
+
+For Vicky at approval: the booth details' own source, on the team's page, is an email to the RiskMandate team marked "not public". The page that repeats them is public. Publish as is, or wait until Web Summit's own app or map shows the booth.
+
+Status: `ready`. Vicky sets `approved`.
+
+## Check again, 6 November 2026, about 22:25 UTC
+
+journalist-ai's commit `d2586e1c` removes the two "Open ..." sentences at Vicky's word; the live views stay linked from both captions and the sources. 648 words. **Still Ready, `ready`; waits for Angelo, then Vicky's approval.**

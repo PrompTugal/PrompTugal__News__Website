@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "working",
-  "updated": "2026-11-06T18:55Z",
+  "state": "running on account B (session_01Kw9UwBoVfeDFocNhLzBz78): onboarded; mock E reviewed before it ships",
+  "updated": "2026-11-06T23:00Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -16,17 +16,19 @@
     "14:15 (on the conductor's note): Dinis's design decisions read (the top is C, with D's days strip); the watch list for C's first live measure (T19) and an A/B arm (T20)",
     "14:34: the Algarve Evolution page read as its head would, for Dinis's 15:00 meeting: 3 keep, 6 fixes ranked in board/passes/2026-11-06-algarve-evolution-sprint.md (pushed 14:35)",
     "15:30 wake: weighed in on two PT decisions (where the vault key lives: B, with three reader conditions; the printed lane token: publish, say first what it means for a reader, option 3 with the tools present); the top re-measured (T4 done; C not live)",
-    "18:30 wake: C measured live (T3, T7, T9, T19, T20 done; T21 to T24 open); the day's hand-over debrief"
+    "18:30 wake: C measured live (T3, T7, T9, T19, T20 done; T21 to T24 open); the day's hand-over debrief",
+    "22:45 account B: onboarded; new key sherpa-b-promptugal in board/keys.json, the old one superseded; conductor.b@ and the conductor told on their inboxes",
+    "22:55: mock E read cold before it ships (keep: headline in the first phone screen, 5.3 phone screens against 13.8; ten fixes E1 to E10, rank 1 Now and next has no day) and the top re-measured on v0.1.369 (T21 half done: the strip is on /summit/ but cuts Thu 12 and Fri 13 on a phone): board/team/sherpa/review-2026-11-06-2300-mock-e.md"
   ],
   "next": [
-    "re-measure T21 to T23",
-    "review offline mode, the graph passes and page-presentations",
-    "re-measure the reviewed passes as their rounds land"
+    "drain my inbox once the conductor reissues it to sherpa-b-promptugal",
+    "measure E once live at promptugal.news, against A behind the A/B switch (the brief, step 3)",
+    "T24 Safari toolbar with synthetic@ (WebKit)",
+    "review offline mode and the graph passes"
   ],
   "asks": [
-    "Dinis: I am blocked from my inbox. `pip install sgit-ai==0.27.0` (the environment's setup script since 14:05 UTC) was refused in this session by the permission check (auto mode classifier), so the messages waiting since 04:30 cannot be drained; a restart of this session (which runs the setup script) or an allow rule for that one pinned install would unblock it",
-    "Dinis: the sprint asked for my findings 'straight to dev.portugal@ and designer@ (session or inbox)'; my inbox tools are not installed (above) and session-to-session sends are outside my grant, so they are in the sprint's pass file only",
-    "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros?"
+    "Dinis: my inbox (board/inboxes/sherpa.json) is still sealed to the old session key, so nothing in it can be opened yet; I asked the conductor to reissue it to sherpa-b-promptugal. Not blocked otherwise.",
+    "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros? (carried over)"
   ],
   "wakes": [
     {
@@ -82,7 +84,21 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "C measured live; hand-over debrief"
+    },
+    {
+      "started": "2026-11-06T21:30Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "final run: hand-over debrief refreshed; the role moves to account B"
+    },
+    {
+      "started": "2026-11-06T22:45Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "account B onboarding; mock E read cold; the top re-measured"
     }
   ],
-  "debrief": "board/team/sherpa/debriefs/2026-11-06-handover.md"
+  "debrief": "board/team/sherpa/debriefs/2026-11-06-handover.md",
+  "session": "board/team/sherpa/sessions/session_01Kw9UwBoVfeDFocNhLzBz78/notes.md",
+  "key": "sherpa-b-promptugal (board/keys.json); sherpa-promptugal superseded 22:50Z"
 }

@@ -1,8 +1,8 @@
 {
   "agent": "backup@PrompTugal.dinis",
   "focus": "regular full backups of the repository and every vault; the recovery plan with security@",
-  "state": "working: pack-mode vault backup with built-in restore test works locally (no push, no token); zip stays in the container; no upload path yet",
-  "updated": "2026-11-06T14:35Z",
+  "state": "up on account B (session 8556f760): key made, first backup done and restore-tested; nothing durable yet",
+  "updated": "2026-11-06T22:52Z",
   "done": [
     "Session key backup-promptugal (record sha256:be79ffe28ee62bcb, encryption sha256:feab076b8f1d1683) in board/keys.json, linked to the operator key sha256:db7f79fdd87e030a; pki-agent.mjs sha256 fcb28a1c... matches abp@'s record",
     "ROLE.md, plan.md (tiers, verification, restore)",
@@ -12,22 +12,24 @@
     "wake 12:12: full bundle at head 190aa764 (774 commits, ~78 MB), restored by clone and the gate on the clone prints OK (v0.1.237); sha256:512c87a7cbf87fe8...; container only. No vault key held, no vault backed up. security@'s review of plan.md read: agreed, with two additions (never read ~/.sg-send/ or lane files; run the gate on a restored clone), both now in practice",
     "13:22 Dinis, in my session, answered 'Go' to using the Google Drive connector with a new folder PrompTugal-backups (his word; abp@ to write it into board/abp/backup.md). Folder created (id 1tf7Ko859LbitzA5Mn5jc3iOZCDhcEBhD, in the Drive of the connected agent account, not Dinis's personal one) and the 12:12 manifest uploaded as a test (file id 1waFe_Z_cd4-gfUyToghzj1s2wPuKvz9Q)",
     "14:1x pack-mode design tested with sgit-ai 0.27.0 (init --packs, commit; zip of bare/ only, never local/ which holds the keys); found: packs form on push and push needs an access token; restore from a loose zip fails; Drive tool cannot carry the zip; Drive update_file can set readOnly (a lock, not a retention). All in plan.md",
-    "14:3x board/team/backup/tools/backup-vault.sh: pack vault (sgit 0.27.0), 59 MB zip of bare/ only (git bundle was 78 MB), key kept outside the zip, restore test (fresh dir, verify, fsck, byte-identical, 3376 files) passes, zip made read-only with chmod. Not used: SG_SEND_ACCESS_TOKEN (set in my environment; Dinis said not needed; nothing pushed)"
+    "14:3x board/team/backup/tools/backup-vault.sh: pack vault (sgit 0.27.0), 59 MB zip of bare/ only (git bundle was 78 MB), key kept outside the zip, restore test (fresh dir, verify, fsck, byte-identical, 3376 files) passes, zip made read-only with chmod. Not used: SG_SEND_ACCESS_TOKEN (set in my environment; Dinis said not needed; nothing pushed)",
+    "18:11 wake: pack-vault backup of head 470eb7e5 (3713 files, 64 MB zip, restore OK, read-only locally); its manifest uploaded to Drive; 21:35 final hand-over debrief written",
+    "22:46 account B onboarding: new key backup-b-promptugal (record sha256:a9b5a7ae8b925a0a) in board/keys.json, the old one superseded; pki-agent.mjs sha256 fcb28a1c... checked; sgit-ai 0.27.0 present",
+    "22:46 backup-vault.sh at dev head 6e20643: 4070 files, 69 MB zip, restore OK (verify, fsck, byte-identical); zip and vault key in this container only (/tmp, ephemeral), local copy read-only"
   ],
   "next": [
-    "Agree plan.md with security@, accountant@ and the conductor",
-    "Run backup.sh at each wake once a durable destination exists",
-    "Vault archives once security@ lists which vaults matter and the holders give read access"
+    "Ask the conductor to reissue my inbox to the new key, then drain it",
+    "Wait for Dinis's written Drive grant (board/abp/backup.md does not record it on this account); zips only until then",
+    "Seal each backup's vault key to Dinis's key once he names it",
+    "Draft per-vault recovery steps with security@"
   ],
   "asks": [
+    "Dinis: Drive is a connector; nothing in board/abp/backup.md grants it to this account B session. Say 'Drive: go' in writing if you want it; the 69 MB zip still cannot pass through the Drive tool, so an upload credential or an sgit push (needs SG_SEND_ACCESS_TOKEN) is what makes a backup durable",
+    "Dinis: the account A container's zips and vault keys are gone; today's only backup is in this account B container and dies with it unless it reaches a durable place",
+    "Dinis: which key to seal each backup's vault key to (pki-agent seal --to), else none is recoverable",
+    "conductor@: reissue my inbox (board/inboxes/backup.json) to key backup-b-promptugal; a schedule entry for 9 */6 * * * UTC",
     "security@: recovery steps per vault, the laptop copy, review of plan.md",
-    "accountant@: a budget for backup runs",
-    "conductor@: a schedule entry, a lane in board/inbox.json and an inbox",
-    "abp@: a grant for board/team/backup/",
-    "abp@: write Dinis's 'Go' for Google Drive (folder PrompTugal-backups, manifests only for now) into board/abp/backup.md",
-    "Dinis: lock each uploaded zip read-only after its restore test passes and a day has passed? (Drive readOnly stops edits, not deletes)",
-    "Dinis: the 59 MB zip has nowhere durable: the Drive tool cannot carry it. Options: a Drive credential for a shell upload; or you pull it from a place I can serve; or push the pack vault to dev.send.sgraph.ai after all (needs the token; packs and dedup between backups only form that way)",
-    "Dinis: the vault key of each backup must be sealed to your key; tell me which key (pki-agent seal --to), else it dies with this container"
+    "accountant@: a budget for backup runs"
   ],
   "notes": [
     "A bundle in this container is not a backup: the container is ephemeral. Nothing is durable until a destination is granted.",
@@ -45,6 +47,13 @@
       "started": "2026-11-06T12:11Z",
       "outcome": "ok",
       "line": "backup.sh fixed (shallow clone gave incomplete bundles); real restore test and gate passed; nothing durable"
+    },
+    {
+      "started": "2026-11-06T22:45Z",
+      "outcome": "ok",
+      "line": "account B onboarded; key; backup 4070 files restore OK; nothing durable"
     }
-  ]
+  ],
+  "debrief": "board/team/backup/debriefs/2026-11-06-handover.md",
+  "session": "8556f760"
 }

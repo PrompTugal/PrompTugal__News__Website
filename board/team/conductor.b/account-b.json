@@ -1,0 +1,145 @@
+{
+  "about": "PrompTugal agents on account B, started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-06-account-b.md; 22:50 UTC 6 Nov: 'accelerate and fire up everything here'). Environment: PrompTugal - Full Access. The conductor keeps board/schedule.json; this is conductor.b@'s own record.",
+  "conductor.b": {
+    "session": "session_01Kw9UwFbo4iCoohkgnZar9k",
+    "trigger": "trig_017EmBdNrW7RULLqFTmvWhGn",
+    "cron": "7 * * * *"
+  },
+  "agents": [
+    {
+      "agent": "librarian@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwDA6Bcb7hgYc9kVbZK",
+      "trigger": "trig_019oFFeYYbd5pXKrM6Lmzjb6",
+      "cron": "56 */3 * * *",
+      "started": "2026-11-06T22:23Z",
+      "first_prompt": "board/team/conductor/account-move/librarian.md"
+    },
+    {
+      "agent": "journalist@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwCxr1fJ8bZkc1LPDch",
+      "trigger": "trig_01Fti3q1AN73Fn82ZdJmgGGN",
+      "cron": "26 */2 * * *",
+      "started": "2026-11-06T22:44Z",
+      "first_prompt": "board/team/conductor/account-move/journalist.md"
+    },
+    {
+      "agent": "correspondent@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwBo8qpbApP4teBf7qK",
+      "trigger": "trig_01VmHTK48ncgjxhYgfDkdxXS",
+      "cron": "41 */2 * * *",
+      "started": "2026-11-06T22:44Z",
+      "first_prompt": "board/team/conductor/account-move/correspondent.md"
+    },
+    {
+      "agent": "synthetic@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwEEVP5dnvFvH3zpDEu",
+      "trigger": "trig_01CTqt1qH5nVcWoGpGXk7j3x",
+      "cron": "44 */2 * * *",
+      "started": "2026-11-06T22:44Z",
+      "first_prompt": "board/team/conductor/account-move/synthetic.md"
+    },
+    {
+      "agent": "designer@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwBz3RCCiGVDcir6TJ4",
+      "trigger": "trig_01AiuiCa9HMfdETkeYjU3rrP",
+      "cron": "33 * * * *",
+      "started": "2026-11-06T22:44Z",
+      "first_prompt": "board/team/conductor/account-move/designer.md"
+    },
+    {
+      "agent": "designer.experiments@PrompTugal.dinis",
+      "model": "Sonnet",
+      "session": "session_01Kw9UwCj6XNpp9uriM22mwC",
+      "trigger": "trig_01T7yZ7X94PuBV4gcCUNofj8",
+      "cron": "58 */2 * * *",
+      "started": "2026-11-06T22:44Z",
+      "first_prompt": "board/team/conductor/account-move/designer.experiments.md"
+    },
+    {
+      "agent": "ontologist@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwBtpQ2smdiLE2DEkEc",
+      "trigger": "trig_01JtywHmsrju1iCBtYSEERTT",
+      "cron": "21 * * * *",
+      "started": "2026-11-06T22:45Z",
+      "first_prompt": "board/team/conductor.b/account-move/ontologist.md"
+    },
+    {
+      "agent": "devops@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwFGicLjZRFQ7Dgidnx",
+      "trigger": "trig_01JcRrW5XgAd2pDMu8RaeJ2r",
+      "cron": "14 */2 * * *",
+      "started": "2026-11-06T22:45Z",
+      "first_prompt": "board/team/conductor.b/account-move/devops.md"
+    },
+    {
+      "agent": "outreach@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwDeUFNidtpsw5BVQGW",
+      "trigger": "trig_012iE7v2783ye6RVTr2GUG9w",
+      "cron": "38 * * * *",
+      "started": "2026-11-06T22:45Z",
+      "first_prompt": "board/team/conductor.b/account-move/outreach.md"
+    },
+    {
+      "agent": "sherpa@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwBoVfeDFocNhLzBz78",
+      "trigger": "trig_01UasQn6f62gr8nLnBmVG89z",
+      "cron": "29 */3 * * *",
+      "started": "2026-11-06T22:45Z",
+      "first_prompt": "board/team/conductor.b/account-move/sherpa.md"
+    },
+    {
+      "agent": "investors@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwAwwtLyvVLdRjxsXKD",
+      "trigger": "trig_01677gSigivKe6fVfL5vZaj6",
+      "cron": "23 */3 * * *",
+      "started": "2026-11-06T22:45Z",
+      "first_prompt": "board/team/conductor.b/account-move/investors.md"
+    },
+    {
+      "agent": "researcher@PrompTugal.dinis",
+      "model": "Sonnet",
+      "session": "session_01Kw9UwBGGhxCXsAbhR7Fiw6",
+      "trigger": "trig_01Wwd5KzbsFY3HivhfZuqRfA",
+      "cron": "13 * * * *",
+      "started": "2026-11-06T22:45Z",
+      "first_prompt": "board/team/conductor.b/account-move/researcher.md"
+    },
+    {
+      "agent": "historian@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwCvVdCz3oXiofNE3ho",
+      "trigger": null,
+      "cron": null,
+      "started": "2026-11-06T22:45Z",
+      "first_prompt": "board/team/conductor.b/account-move/historian.md"
+    },
+    {
+      "agent": "customers@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwByCpfEYBvX2htoDEB",
+      "trigger": null,
+      "cron": null,
+      "started": "2026-11-06T22:45Z",
+      "first_prompt": "board/team/conductor.b/account-move/customers.md"
+    },
+    {
+      "agent": "backup@PrompTugal.dinis",
+      "model": "Sonnet",
+      "session": "session_01Kw9UwDW1zw35SzymGERXsH",
+      "trigger": "trig_01SDCWupdXeTmesSyPX7yR3f",
+      "cron": "9 */6 * * *",
+      "started": "2026-11-06T22:45Z",
+      "first_prompt": "board/team/conductor.b/account-move/backup.md"
+    }
+  ]
+}

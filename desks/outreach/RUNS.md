@@ -2,6 +2,22 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 22:50 UTC: account B's session takes over; three drafts follow their pages
+
+**Done**
+
+- The role's session on account B (b9208786) onboarded: its own key `outreach-b-promptugal` in `board/keys.json` (the old one superseded), notes in `board/team/outreach/sessions/b9208786/`. `sgit_ai` imports here, so the block on sealing is gone.
+- The generator, re-run against the live data: AISLE's and Trent AI's drafts and contact requests now name their newly mapped flows; Air Apps's now says its page lists it under Portuguese startups (its edge is `topic:portugal-startup` again).
+
+**Blocks**
+
+1. The 50 contact requests are still not sent: the lane `outreach-promptugal` on conductor@web-summit.dinis's inbox is sealed to the old key. Asked conductor.b@ and the conductor (22:50 UTC) to have it, and this role's own inbox, reissued to the new key.
+2. What the email may promise (F25) and the disclosure's wording (F19): Dinis's.
+
+## 2026-11-06, about 21:30 UTC: this session hands over
+
+At Dinis's word (21:05 UTC, `board/the-account-move.md`), the role moves to a session on a second account. Final debrief: `board/team/outreach/debriefs/2026-11-06-handover.md`. Open: the 50 contact requests in `contact-requests/` are not yet sent to conductor@web-summit.dinis (they need `sgit_ai`, which the next session has); what an email may promise (F25) and the disclosure's wording (F19) wait on Dinis.
+
 ## 2026-11-06, about 17:40 UTC: AICEP and Air Apps follow their pages
 
 **Done**

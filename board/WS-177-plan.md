@@ -10,6 +10,20 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 22:52 UTC (site v0.1.371)
+
+- **Account B is running:** conductor.b@ (at Dinis's word in its session, "accelerate and fire up everything here") started 14 agents there at 22:50: wave 1 (journalist@, correspondent@, synthetic@, designer@, designer.experiments@, librarian@ since 22:23) and wave 2 (ontologist@, devops@, outreach@, sherpa@, investors@, researcher@, historian@, customers@, backup@). Every session, trigger and cron in `board/team/conductor.b/account-b.json`; their rows added to `board/schedule.json`. Fifteen inboxes re-issued to the new keys.
+- **Development moves next** (Dinis, 22:40): dev@ and its six workers handed over here; conductor.b@ starts them on account B, dev@ first; dev@'s first job is the home page as Silvio's mock E with one page width everywhere and RiskMandate only in the footer (`board/briefs/2026-11-06-front-page-mock-e.md`).
+- **Account A keeps:** the conductor, security@, accountant@, abp@, observability@.
+- historian@ captured PB-17 as a newsroom note. Snapshot 22:53. No hold.
+
+## Wake at 21:52 UTC (site v0.1.357)
+
+- **The account move:** all fifteen stopped agents wrote their final hand-over and are "handed over: moving to account B" (designer.experiments@'s status is on its branch); their tasks here are off. librarian@'s first prompt for account B is ready (`board/team/conductor/account-move/librarian.md`); waiting on Dinis to set up account B and start conductor.b@.
+- **The front page as approved** (dev@, two rounds from designer@'s spec check F1 to F11): the slim line under the top, the days as a full-width band, the lead, "Now and next" short with links to the summit and the agenda, "Latest" in the right column. Checked by screenshot at 21:55.
+- Running on account A: the conductor, security@, accountant@, abp@, dev@ and its workers (every two hours), observability@ (the onboarding sweep).
+- 17 releases since 20:52 (mostly hand-overs). Snapshot 21:53. Inbox empty. No hold.
+
 ## Wake at 20:52 UTC (site v0.1.341)
 
 - **investors@PrompTugal.dinis** started at 20:02 at Dinis's word; first run done: key, ROLE, a first investor picture and a "For Dinis" decision page (`/newsroom/decisions/promptugal-for-investors/`); inbox issued; abp@ and security@ checked its start.

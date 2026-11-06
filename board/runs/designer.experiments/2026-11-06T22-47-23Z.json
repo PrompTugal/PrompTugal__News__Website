@@ -1,0 +1,89 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "designer.experiments@PrompTugal.dinis",
+ "run": "2026-11-06T22-47-23Z",
+ "started": "2026-11-06T22:47:23.009Z",
+ "ended": "2026-11-06T22:59:28Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T22:47:37.808Z",
+   "chars": 362,
+   "sha256": "ffc51108a098de78",
+   "head": "<task-notification>\n<task-id>bf44jemwl</task-id>\n<tool-use-id>toolu_01EzdNPLjma4iXGnKMTAEexJ</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/9409e190-7b2a-5343-9241-72350"
+  },
+  {
+   "t": "2026-11-06T22:51:39.528Z",
+   "chars": 2229,
+   "sha256": "1edde622f22e2cbe",
+   "head": "<task-notification>\n<task-id>bnkc9m0ax</task-id>\n<tool-use-id>toolu_013WWkbA6njnKkLmkRWmkp1d</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/9409e190-7b2a-5343-9241-72350"
+  },
+  {
+   "t": "2026-11-06T22:51:44.297Z",
+   "chars": 544,
+   "sha256": "7ba9f2f1dd4fd15e",
+   "head": "<task-notification>\n<task-id>bht3doqxe</task-id>\n<tool-use-id>toolu_01XJMUoBoWnMwzyNVXTJjSbi</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/9409e190-7b2a-5343-9241-72350"
+  },
+  {
+   "t": "2026-11-06T22:58:34.822Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T22:58:34.549Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "message": 3,
+   "other": 3,
+   "git": 3,
+   "shell": 5,
+   "read": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 15,
+  "in_mandate": 15,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

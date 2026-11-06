@@ -1,25 +1,26 @@
 {
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
- "state": "running: hourly at :38 UTC; under the comms protocol (16:00 UTC), drafts are contact requests for conductor@web-summit.dinis",
- "updated": "2026-11-06T19:50Z",
+ "state": "active on account B (session b9208786): waiting for the inbox and the lane to be reissued to the new key",
+ "updated": "2026-11-06T22:55Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
   "Drafts follow the page: 1Password's mapped flows, Startup Portugal's article (v0.1.77)",
   "At Dinis's word: the SEO pass (Open Graph and Twitter cards with an image, JSON-LD, sitemap lastmod, a Google News sitemap, RSS); Search Console in REALITY.md (v0.1.83)",
   "The opening in Dinis's words: we built this page for you, could you check it is correct? (this wake)",
-  "Who sends, as Dinis decided (06:25 UTC): drafts shaped for the person who sends from their own .agent address; Airia's flows in its draft (this wake)"
+  "Who sends, as Dinis decided (06:25 UTC): drafts shaped for the person who sends from their own .agent address; Airia's flows in its draft (this wake)",
+  "Account B session onboarded: key outreach-b-promptugal, notes in sessions/b9208786/; drafts follow AISLE's, Trent AI's and Air Apps's pages (this wake)"
  ],
  "next": [
-  "Send the 50 contact requests on the lane to conductor@web-summit.dinis once sgit_ai is available; then only public outcomes come back (sent on a date, corrections, approved quotes)",
+  "Once the lane outreach-promptugal on conductor@web-summit.dinis's inbox is reissued to outreach-b-promptugal: seal and send the 50 contact requests (desks/outreach/contact-requests/); then only public outcomes come back",
   "Each wake: drain the inbox (credentials opened once into ~/.sg-send/lanes/inbox.json; read so far without a vault to store into, so the welcome stays pending), file the run report (board/runs/outreach/)",
   "Each wake: re-run the generator against the live data, so every draft follows its page (new flows, sessions, articles)",
   "Link the drafts from the story board's cards when a story is about a company we write to (board/the-story-pipeline.md, row 3), once the board exists",
   "The Brazilian delegation's companies, when Dinis gives the word"
  ],
  "asks": [
-  "Dinis: this session cannot install sgit-ai==0.27.0 (the permission check refused 'pip install' at 12:45 and 14:12 UTC), so it cannot seal and append the 50 contact requests to its lane on conductor@web-summit.dinis's inbox, nor write to other agents' inboxes. The requests are ready and public in desks/outreach/contact-requests/. To fix: allow that install in this session, or start a new outreach session (the setup script installs it), or let the conductor relay them.",
+  "Dinis: nothing blocks this session's environment (sgit_ai works here). It waits only on the conductors to reissue this role's inbox and its lane on conductor@web-summit.dinis's inbox to the new key (asked 22:50 UTC); if that lane cannot be reissued from account B, it is yours or conductor@web-summit.dinis's to do.",
   "Dinis: may an email promise more than the disclosure, such as 'you approve your words before they go up' or 'this is not a sales call'?",
   "Dinis: the ABP grant (board/abp/outreach.md) covers desks/outreach/ and board/; the SEO pass you asked for at 03:30 wrote newsroom/build/, outside it. For more work like that, say so in the session and abp@ can widen the grant."
  ],
@@ -131,6 +132,18 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "the day's hand-over debrief"
+  },
+  {
+   "started": "2026-11-06T21:25Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "final run of this session: the debrief refreshed for the move to account B"
+  },
+  {
+   "started": "2026-11-06T22:45Z",
+   "outcome": "partial",
+   "release": "this wake's",
+   "line": "account B onboarding: new key, notes; 3 drafts follow their pages; the 50 requests wait on the lane's reissue"
   }
  ],
  "decisions_on_findings": [
@@ -150,5 +163,6 @@
    "at": "2026-11-06T08:50Z"
   }
  ],
- "debrief": "board/team/outreach/debriefs/2026-11-06-handover.md"
+ "debrief": "board/team/outreach/debriefs/2026-11-06-handover.md",
+ "session": "b9208786 (account B)"
 }

@@ -1,0 +1,84 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-06T21-28-41Z",
+ "started": "2026-11-06T21:28:41.245Z",
+ "ended": "2026-11-06T21:44:15Z",
+ "line": "the front page round 2 (designer@'s F5 to F11), live v0.1.353",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T21:28:41.590Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T21:28:41.245Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 17,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 10,
+   "read": 2,
+   "release": 2,
+   "web": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 17,
+  "commits": [
+   {
+    "sha": "5367c8874",
+    "subject": "dev@PrompTugal.dinis: the front page, round 2: designer@'s spec check F5 to F11",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "5367c8874 wrote content/index.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 17,
+  "in_mandate": 17,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}
