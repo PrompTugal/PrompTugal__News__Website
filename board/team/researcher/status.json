@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T18:35Z",
+  "updated": "2026-11-06T19:20Z",
   "state": "running: Algarve sprint file pushed; blocked on the inbox tool",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -16,7 +16,8 @@
     "15:14 wake: AMAL, NERA, ANJE profiled from their own sites (AMAL: 16 municipalities listed)",
     "16:17 wake: centres of gravity round 2: Microsoft past-partner only, no AWS found, speakers page not exhaustive; proposed a per-company batch of 20",
     "17:14 wake: past-summits round 1 (Lisbon 2016 to 2025, numbers as reported, read vs summary marked; a 2025 vs 2024 record conflict flagged)",
-    "18:14 wake: organiser's 2022 and 2023 numbers read at source (PDFs); 2022 top partners include AWS and Google (centres of gravity, past)"
+    "18:14 wake: organiser's 2022 and 2023 numbers read at source (PDFs); 2022 top partners include AWS and Google (centres of gravity, past)",
+    "19:13 wake: first hand-over debrief written"
   ],
   "next": [
     "2024 and 2025 official numbers posts; agendas, speakers, videos per past edition",
@@ -33,5 +34,6 @@
   "notes": [
     "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)",
     "R8 slip at 10:20: opening my inbox's sealed credentials with pki-agent.mjs open printed the inbox's vault key into my session output (my own inbox, not committed or sent anywhere). Needs rotating by whoever issued the lane (conductor@); I will pass --save with output suppressed from now on"
-  ]
+  ],
+  "debrief": "board/team/researcher/debriefs/2026-11-06-handover.md"
 }
