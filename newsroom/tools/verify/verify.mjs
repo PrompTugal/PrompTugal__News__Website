@@ -18,6 +18,8 @@ const MAX_CLAIMS = Number(flag('max-claims', 12));
 const MAX_USD = Number(flag('max-usd', 0.5));
 const MODELS = String(flag('models', 'anthropic/claude-haiku-5.5,google/gemini-3.8-flash,deepseek/deepseek-v4.1-flash')).split(',');
 const EXTRACTOR = MODELS[0];
+const CONTEXT = String(flag('context', 'auto'));  // whole sources when they fit (A/B on your-first-day: 4/10 whole, 2/10 passages), else the passages most like the claim
+const OUT = flag('out', '');
 const PROMPTS = JSON.parse(fs.readFileSync(new URL('./prompts.json', import.meta.url), 'utf8'));
 const fill = (t, v) => t.replace(/\{\{(\w+)\}\}/g, (_, k) => String(v[k]));
 if (!slug) { console.error('usage: verify.mjs <article-slug> [--dry-run]'); process.exit(2); }
@@ -75,7 +77,7 @@ async function ask(model, prompt) {
   if (spent >= MAX_USD) throw new Error('budget reached: ' + spent.toFixed(4) + ' USD');
   const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
     method: 'POST', headers: { authorization: 'Bearer ' + key, 'content-type': 'application/json' },
-    body: JSON.stringify({ model, temperature: 0, usage: { include: true }, messages: [{ role: 'user', content: prompt }] }),
+    body: JSON.stringify({ model, temperature: 0, max_tokens: 3000, usage: { include: true }, messages: [{ role: 'user', content: prompt }] }),
     signal: AbortSignal.timeout(120000),
   });
   const j = await r.json();
@@ -91,32 +93,40 @@ console.log(`article ${slug}: ${urls.length} source urls, ${ok.length} fetched, 
 if (DRY) { for (const s of sources) console.log(' ', s.status, s.url, s.text.length); process.exit(0); }
 if (!ok.length) { console.error('no source could be read: nothing to verify against'); process.exit(1); }
 
-const claims = json(await ask(EXTRACTOR,
+const cacheFile = path.join(ROOT, 'board/team/dev.verify/records', slug, 'claims.json');
+let claims;
+if (!args.includes('--reextract') && fs.existsSync(cacheFile)) claims = JSON.parse(fs.readFileSync(cacheFile, 'utf8')).slice(0, MAX_CLAIMS);
+else {
+  claims = json(await ask(EXTRACTOR,
   fill(PROMPTS.extract, { max: MAX_CLAIMS, story }))).slice(0, MAX_CLAIMS);
+  fs.mkdirSync(path.dirname(cacheFile), { recursive: true });
+  fs.writeFileSync(cacheFile, JSON.stringify(claims, null, 1) + '\n');
+}
 
 const rows = [];
 for (const c of claims) {
-  const corpus = passagesFor(c.claim, ok);
+  const corpus = (CONTEXT === 'whole' || (CONTEXT === 'auto' && ok.reduce((n, x) => n + Math.min(x.text.length, 40000), 0) <= 120000)) ? ok.map((x, i) => `[S${i + 1}] ${x.url}\n${x.text.slice(0, 40000)}`).join('\n\n') : passagesFor(c.claim, ok);
   const verdicts = await Promise.all(MODELS.map(async (m) => {
     try {
-      const v = json(await ask(m,
-        fill(PROMPTS.judge, { claim: c.claim, corpus })));
+      const prompt = fill(PROMPTS.judge, { claim: c.claim, corpus });
+      let v;
+      try { v = json(await ask(m, prompt)); } catch (e) { if (/budget|HTTP/.test(String(e.message))) throw e; v = json(await ask(m, prompt)); }
       return { model: m, ...v };
     } catch (e) { return { model: m, verdict: 'error', note: String(e.message).slice(0, 160) }; }
   }));
   const vs = verdicts.filter(v => v.verdict !== 'error').map(v => v.verdict);
   const agree = vs.length > 0 && vs.every(v => v === vs[0]);
-  rows.push({ id: c.id, claim: c.claim, verdicts, consensus: vs.length === 0 ? 'unchecked' : agree ? vs[0] : 'disagree', flag_to_journalist: vs.length > 0 && (!agree || vs[0] !== 'supported') });
-  console.log(` ${c.id} ${vs.length === 0 ? 'UNCHECKED (budget or errors)' : agree ? vs[0] : 'DISAGREE ' + vs.join('/')}`);
+  rows.push({ id: c.id, claim: c.claim, verdicts, consensus: vs.length === 0 ? 'unchecked' : vs.length < MODELS.length ? 'incomplete' : agree ? vs[0] : 'disagree', flag_to_journalist: vs.length > 0 && (!agree || vs[0] !== 'supported') });
+  console.log(` ${c.id} ${vs.length === 0 ? 'UNCHECKED (budget or errors)' : vs.length < MODELS.length ? 'INCOMPLETE ' + vs.join('/') : agree ? vs[0] : 'DISAGREE ' + vs.join('/')}`);
 }
 
 const date = new Date().toISOString().slice(0, 10);
 const out = { $schema: 'none', article: slug, verified_on: date, by: 'dev.verify@PrompTugal.dinis', models: MODELS,
   sources: sources.map(({ url, status, text }) => ({ url, status, read: text.length >= 300, chars: text.length })), spent_usd: Number(spent.toFixed(4)), claims: rows };
-const dir = path.join(ROOT, 'board/team/dev.verify/records', slug);
+const dir = OUT ? path.resolve(ROOT, String(OUT), slug) : path.join(ROOT, 'board/team/dev.verify/records', slug);
 fs.mkdirSync(dir, { recursive: true });
 fs.writeFileSync(path.join(dir, 'verified.json'), JSON.stringify(out, null, 2) + '\n');
-const n = rows.filter(r => r.consensus !== 'unchecked').length, good = rows.filter(r => r.consensus === 'supported').length;
+const n = rows.filter(r => r.consensus !== 'unchecked' && r.consensus !== 'incomplete').length, good = rows.filter(r => r.consensus === 'supported').length;
 const md = fill(PROMPTS.block, { date, n, nmodels: MODELS.length, models: MODELS.join(', '), good, flagged: n - good, unchecked: rows.length > n ? fill(PROMPTS.unchecked, { count: rows.length - n }) : '', read: ok.length, listed: urls.length, slug });
 fs.writeFileSync(path.join(dir, 'verified-block.md'), md);
 console.log(`wrote ${path.relative(ROOT, dir)}; ${good}/${n} supported by all; spent ${spent.toFixed(4)} USD`);
