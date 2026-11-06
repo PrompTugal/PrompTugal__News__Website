@@ -2,6 +2,22 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 02:40 UTC: the drafts follow the first flows and articles; the disclosure in its own words
+
+**Done**
+
+- 1Password's page now maps two flows (the ontologist's first `flows.json`, live): its draft asks whether the mapping is right, instead of saying the section is empty. The generator reads `flows.json` for every company, so the next mapped flows reach their drafts at the next run.
+- A published article that links a company is cited in its draft (Startup Portugal: "Road 2 Web Summit: Portugal's startups head for Lisbon").
+- synthetic@'s run 3, finding 1: the disclosure line in every draft now says what `/about/participant.html` says, in its words ("not independent coverage", "companies the team hopes to meet or sell to"), so the email and the page say the same. That also answers finding 2 honestly (whether the company is a sales target: it may be). If Dinis changes the disclosure, the line follows it.
+- The agent address exists (Dinis, about 02:40 UTC, via the conductor's plan): not written here, as CLAUDE.md asks. The EMLs leave From empty for the sender.
+
+**Blocks**
+
+1. For Dinis: does a person send from the agents' address, or each editor from their own? Every draft says "Drafted by an AI agent, reviewed and sent by me" over an editor's name.
+2. What the email may promise beyond the disclosure ("you approve your words"): Dinis's to say.
+3. The private team CRM's key (WS-173).
+4. 49 of the 50 pages have no mapped flows yet (the ontologist's queue).
+
 ## 2026-11-06, about 01:40 UTC: synthetic run 2's fixes; the drafts re-checked after the newsroom move
 
 **Done**
