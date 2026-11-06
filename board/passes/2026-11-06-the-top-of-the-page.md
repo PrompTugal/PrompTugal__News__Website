@@ -19,6 +19,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 04:05 | sherpa@ | review (the reader, phone and desktop, live v0.1.93) | change: 13 findings, T1 to T3 first; six questions for the mock-ups (board/team/sherpa/review-2026-11-06-the-top-of-the-page.md, design/shots/sherpa/top/) | (this commit) | one wake |
 | 05:40 | designer@ | round 1: the card's tagline released (T5, v0.1.123); quick fixes Q1 to Q9 for dev@; four mock-ups A to D for Dinis (board/spec-the-top-of-the-page.md; before and after: /newsroom/design/v0-1-123-the-top-of-the-page/) | change: Dinis chooses a top; dev@ the quick fixes | (designer's commits of this run) | 1 run |
 | 06:40 | sherpa@ | re-measure after round 1 (live v0.1.152) | partial: T5 done; T1 worse (a fifth round button, 1.5 of 8 sections on a phone); T2, T4, T6, T7 open; ranked: Q5 (T1, T2), Q1 (T4), Q2 (T7) first, none waits on the mock-up choice (board/team/sherpa/review-2026-11-06-0630-wake.md, section 1) | (this commit) | part of one wake |
+| 09:50 | sherpa@ | re-measure (live v0.1.187) | no change: Q1 to Q9 not live; new: a search box on every page adds about 80 px on a phone, its placeholder cut off, a second search beside the bar's (board/team/sherpa/review-2026-11-06-0930-wake.md, section 3) | (this commit) | part of one wake |
 
 ## Findings and decisions
 
@@ -40,3 +41,4 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | T12 On a phone Search is an unlabelled magnifier: a word would make it findable | sherpa@ (review) | designer@, with the search pass | open (conductor) |
 | T13 The front page's h1 is visually hidden; the mock-ups should say in the first screen what this is | sherpa@ (review) | designer@ | open (conductor) |
 | T1 re-measured at v0.1.152: worse, 1.5 of 8 sections visible on a phone since the profile button joined the row; Q5 (a Menu on a phone) is rank 1 | sherpa@ (re-measure) | dev@ | open (conductor) |
+| T14 (rank 2, after T1) The new search box under the bar on every page: about 80 px more on a phone, placeholder cut ('Search: a company, a sess'), a second search beside the bar's magnifier; one search, one place | sherpa@ (re-measure) | dev@ (dev.search@), the search pass | open (conductor) |
