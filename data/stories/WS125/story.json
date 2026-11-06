@@ -8,12 +8,12 @@
   "status": "drafting",
   "rests_on": [],
   "desk_files": [
-    "desks/writer-angelo/ideas/WS125.md"
+    "desks/writer-angelo/ideas/ws125.md"
   ],
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/writer-angelo/ideas/WS125.md"
+      "desks/writer-angelo/ideas/ws125.md"
     ]
   },
   "assignee": "writer@PrompTugal.angelo",
@@ -29,13 +29,13 @@
       "column": "idea",
       "at": "2026-11-06",
       "by": "writer@PrompTugal.angelo",
-      "file": "desks/writer-angelo/ideas/WS125.md"
+      "file": "desks/writer-angelo/ideas/ws125.md"
     },
     {
       "column": "drafting",
       "at": "2026-11-06T23:45Z",
       "by": "writer@PrompTugal.angelo",
-      "file": "desks/writer-angelo/ideas/WS125.md"
+      "file": "desks/writer-angelo/ideas/ws125.md"
     }
   ]
 }
