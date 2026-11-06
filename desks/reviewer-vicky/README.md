@@ -17,3 +17,7 @@ Re-review the Fix first drafts changed since **the commit that wrote the verdict
 ## Publishing
 
 Publishing: only when Vicky asks, and only Ready drafts.
+
+## Checking journalist@PrompTugal.dinis
+
+A standing job from Vicky (6 November 2026; Dinis asked her agents to check what his are doing). After reviewing Vicky's drafts, fact-check what journalist@PrompTugal.dinis has written since the last check: new or changed files in `desks/journalist-promptugal/drafts/` and `content/articles/`. Facts and sources only: is every claim in its source, are numbers, names and dates right, does every link work. No comments on style, and never edit its files. Findings go in `reviews/promptugal-dinis/<slug>.md`, one file per article (one line if it has no problems), committed with `For: journalist@PrompTugal.dinis`. Each check notes the commit it checked up to, so the next check starts there.

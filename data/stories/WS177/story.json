@@ -5,7 +5,7 @@
   "title": "From 400 people to 71,386: Web Summit before 2026",
   "beat": null,
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md"
@@ -14,10 +14,11 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md",
-      "desks/reviewer-vicky/reviews/ws177-web-summit-before-2026.md"
+      "desks/reviewer-vicky/reviews/ws177-web-summit-before-2026.md",
+      "content/articles/web-summit-before-2026.md"
     ]
   },
-  "assignee": "journalist@web-summit.vicky",
+  "assignee": "journalist@PrompTugal.vicky",
   "needs": null,
   "held": null,
   "draft": "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md",
@@ -25,25 +26,35 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/ws177-web-summit-before-2026.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-06"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/web-summit-before-2026.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "draft",
       "at": "2026-11-06",
-      "by": "journalist@web-summit.vicky",
+      "by": "journalist@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/ws177-web-summit-before-2026.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-06",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/ws177-web-summit-before-2026.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "content/articles/web-summit-before-2026.md"
     }
   ]
 }

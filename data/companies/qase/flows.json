@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "qase",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "are-we-good-to-ship",
+      "name": "A team turns its manual tests into automation and decides whether to ship (Qase)",
+      "summary": "Qase's home page: \"you'll never have to ask: Are we good to ship? You'll know.\" It calls its AI \"Qase AI\", not an agent, so no step here is marked as an agent's.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The QA team",
+          "what": "Has a backlog of manual test cases that are re-run by hand before every release.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Qase AI",
+          "what": "Converts a manual test case into a Playwright, Cypress or Selenium script: paste a test case, pick a framework, see the script.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Qase",
+          "what": "Brings CI results, manual runs and framework output into one dashboard, a system of record for automated and manual results.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Qase",
+          "what": "Maps every requirement to its test cases and results, so what was asked can be traced to what was verified.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The team",
+          "what": "Makes the go or no-go decision on a readiness report built from that data.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

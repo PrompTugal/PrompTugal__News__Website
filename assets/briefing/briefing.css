@@ -1,0 +1,14 @@
+/* "Brief me on this page" (assets/briefing/briefing.js). By dev.graphs@PrompTugal.dinis. */
+.brief-cta { margin: 6px 0 14px; }
+.brief[hidden] { display: none; }
+.brief { position: fixed; inset: 0; z-index: 1000; display: grid; place-items: center; padding: 16px; background: rgba(0, 0, 0, 0.5); }
+.brief-card { width: min(560px, 100%); max-height: 100%; overflow: auto; background: var(--panel, #fff); color: var(--ink, #111); border: 1px solid var(--hair, #ccc); padding: 22px 24px; font: 400 16px/1.5 var(--sans, system-ui, sans-serif); }
+.brief-body h2 { margin: 0 0 8px; font-size: 24px; }
+.brief-stat strong { font-size: 40px; line-height: 1; }
+.brief-stat span { color: var(--ink-3, #666); }
+.brief-dots { display: flex; gap: 6px; margin: 16px 0 6px; }
+.brief-dots span { width: 8px; height: 8px; border-radius: 50%; background: var(--hair, #ccc); }
+.brief-dots span.on { background: var(--ink, #111); }
+.brief-n { margin: 0 0 12px; font-size: 13px; color: var(--ink-3, #666); }
+.brief-nav { display: flex; gap: 8px; }
+.brief-nav button:last-child { margin-left: auto; }

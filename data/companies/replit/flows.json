@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "replit",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "build-through-chat",
+      "name": "Someone builds an app by telling Replit Agent what they want",
+      "summary": "Replit's page: \"like having an engineering team on demand, with no coding experience required\". Almost every step is the agent's; the person's part is to describe and to give feedback.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The person",
+          "what": "Tells Replit Agent the app, website or agent they want to build.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Replit Agent",
+          "what": "Builds it, searching the web as needed for the latest information; for complex requests the person can turn on Extended Thinking and high-power models.",
+          "agent": "Writes the application.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Replit Agent",
+          "what": "Connects the built-in database and user authentication, or third-party services such as Stripe and OpenAI, keeping the keys secure.",
+          "agent": "Wires up the services the app needs.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Replit Agent",
+          "what": "Periodically tests the app in a browser while building, writes a report and fixes the issues it finds, in a reflection loop.",
+          "agent": "Tests and fixes its own code.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The person",
+          "what": "Keeps improving the app by giving the agent feedback.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Replit Agent",
+          "what": "Can also build other agents and workflows, which the person can connect to apps such as Slack or email.",
+          "agent": "Builds agents and automations from natural language.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}
