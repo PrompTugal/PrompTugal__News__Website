@@ -16,7 +16,7 @@ Focused rounds of work on one thing (a page, a feature, a set of findings), in a
 
 ## Decisions are pages
 
-At Dinis's word (6 November 2026): a decision put to Dinis is a page of the site, under `/newsroom/decisions/`, with every option shown in full, what each does well and badly, what the readers and reviewers found, the owner's recommendation and what follows each answer (`board/spec-decisions-pages.md`). Briefs and status files link to the page; they do not restate the options.
+At Dinis's word (6 November 2026): a decision is a page of the site, under `/newsroom/decisions/`, with every option shown in full, what each does well and badly, what the readers and reviewers found, the recommendation and what follows each answer (`board/spec-decisions-pages.md`). Most are **PT decisions**, the team's: the owner proposes, sherpa@, synthetic@ and security@ weigh in on the page, the owner decides and ships. Only a decision that is Dinis's alone (money, the law, the brand, people, what RiskMandate is, what an email may promise) is titled "For Dinis" and waits for him. Briefs and status files link to the page; they do not restate the options. The owner's recommendation is the default: push it and try it live; where the team is unsure, A/B test it on the site (Dinis, 6 November 2026, about 13:20 UTC).
 
 ## The OpenRouter key
 

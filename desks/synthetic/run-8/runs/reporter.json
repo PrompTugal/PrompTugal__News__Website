@@ -1,0 +1,129 @@
+{
+  "persona": "Tom Hartley (SYNTHETIC)",
+  "synthetic": true,
+  "run": 8,
+  "journey": "reporter",
+  "story": "ar-web-summit-ten-lisbon-years",
+  "outcome": "Tom read the lead story to the end on desktop and came away with a usable angle (EY's 2.5 billion euros against the 2021 government study) and three source URLs he would check himself. He trusts the honesty of 'What this does not claim' more than anything else on the page. He did not understand what 'signed' lets him do, could not see how to verify a signature, was put off by the credit meter quietly dropping from 5.00 to 4.79 pounds, and found internal jargon (desks/curator JSON, S13, Vicky's reviewer) and a mismatch between the byline (journalist@PrompTugal.dinis) and the code box (built by newsroom@web-summit.dinis).",
+  "steps": [
+    {
+      "screen": "front-desktop-s1.jpg",
+      "see": "Masthead 'PrompTugal.news', strapline 'PEOPLE AND AI AGENTS, REPORTING TOGETHER', 'Powered by RiskMandate'. Left box 'EVERY FACT SOURCED: Each one links to a public page, with the date we read it.' Right box 'INDEPENDENT: Not affiliated with Web Summit. The same team works on RiskMandate: our disclosure'. Top bar '3 days to the summit · Edition v0.1.248'. Toolbar 'Paper', 'Search', '£5.00 credit', 'Vault', 'Ask', 'You'. Mandate box 'to map the universe of AI in Portugal'. Lead: 'Web Summit's ten Lisbon years: 2.5 billion euros, says EY', byline 'journalist@PrompTugal.dinis · 3 min read · signed'. Right rail 'NOW AND NEXT'.",
+      "think": "A Lisbon tech news site written partly by AI, upfront about it. 'Every fact sourced' is exactly the promise I want, if it holds. The lead is a citable number, which is what I need before Monday. But why do I already have five pounds of credit, and what is a 'Vault' on a news site?",
+      "question": "Who is RiskMandate, and if they 'power' the site, how independent is it really?",
+      "confusion": "'Powered by RiskMandate' sits directly above an 'INDEPENDENT' box; '£5.00 credit', 'Vault' and 'Paper' in the toolbar mean nothing to me; the byline is an email-like handle, not a name.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "front-desktop-s2.jpg",
+      "see": "'LATEST' list: 'Brazil's startup mission comes to Web Summit Lisbon', 'Lisbon's Octo Health launches...', 'From the PITCH stage to new markets...', 'Brazil comes to Lisbon as Intuitivo heads to Brazil', 'Europe's AI and funding help...', 'Europe in Pavilion 4...'. Labels like 'CONNECTIONS: ANNOUNCEMENTS'. Right rail lists side events and repeated 'Registration: collect your lanyard and wristband' entries.",
+      "think": "So far: a pre-summit briefing site for people going to Web Summit, with a reporter's eye on Portugal. Useful as a cheat sheet. Would I stay? Yes, for ten minutes, because the lead promises numbers with sources.",
+      "question": null,
+      "confusion": "'CONNECTIONS: ANNOUNCEMENTS' and 'CONNECTIONS: EUROPE' as section labels: connections to what? The right rail repeats the same registration entry several times and feels like noise.",
+      "act": "Glance one screen further, then go back to the lead."
+    },
+    {
+      "screen": "front-desktop-s3.jpg",
+      "see": "More stories: robotics, 'Gender in Tech report: 84% see women in leadership', 'Italy and Portugal meet in Beato...', universities, 'Road 2 Web Summit'. Label 'AI AND ROBOTICS (CONNECTIONS: THE SUMMIT)'.",
+      "think": "Plenty of volume, all dated today. The EY number is still the one with a real angle: an economic-impact claim I can test.",
+      "question": null,
+      "confusion": "Every story is dated 'FRIDAY 6 NOVEMBER'; I cannot tell what is new or what matters most beyond the lead.",
+      "act": "Stop scrolling the homepage; open the lead story."
+    },
+    {
+      "screen": "ar-web-summit-ten-lisbon-years-desktop-s1.jpg",
+      "see": "Headline, standfirst, 'ON THIS PAGE': 'In short', 'The story', 'What this does not claim', 'Where this comes from', 'Who made this'. Toolbar now shows '£4.79 credit'.",
+      "think": "I like that the table of contents openly has 'What this does not claim' and 'Where this comes from'. That is more than most trade sites give me.",
+      "question": "Did opening this story just cost me 21p?",
+      "confusion": "The credit went from '£5.00' on the homepage to '£4.79' here with no message saying I was charged or why.",
+      "act": "Read on."
+    },
+    {
+      "screen": "ar-web-summit-ten-lisbon-years-desktop-s2.jpg",
+      "see": "'2026-11-06 · journalist@PrompTugal.dinis · CC BY 4.0'. 'IN SHORT' bullets: about 250 million euros a year, 2.5 billion over ten editions 'according to a report by EY released on 5 November, as reported by Lusa'; net more than 230 million a year; startups up 132%; 2021 study found impact 'well below what had been estimated'. 'THE STORY' begins.",
+      "think": "Good: it says 'as reported by Lusa' straight away, so this is second hand. CC BY 4.0 means I can reuse with credit. That is useful for me.",
+      "question": "Is there a human editor behind 'journalist@PrompTugal.dinis'?",
+      "confusion": null,
+      "act": "Read the figures table."
+    },
+    {
+      "screen": "ar-web-summit-ten-lisbon-years-desktop-s3.jpg",
+      "see": "Table 'WHAT / EY'S FIGURE': total 2,492 million euros, net more than 230 million a year, participants more than 683,000, spending 730 million euros, jobs more than 3,000, taxes, startups, media mentions 'about 114,000, worth 3 billion dollars in advertising value'. 'What Web Summit says': Paddy Cosgrave on 70,000 visitors and negotiations.",
+      "think": "This table is genuinely handy; I would screenshot it. The advertising-value line is the kind of soft number I would want to question.",
+      "question": null,
+      "confusion": null,
+      "act": "Continue."
+    },
+    {
+      "screen": "ar-web-summit-ten-lisbon-years-desktop-s4.jpg",
+      "see": "'The earlier study' (GEE 2021, 'bem abaixo do estimado inicialmente'), 'The deal' (11 million euros a year to 2028), 'A suggestion: ... put EY's figures beside the 2021 government study'. 'WHAT THIS DOES NOT CLAIM': 'The report itself was not read. No public copy of EY's report was found on 6 November; every figure here is EY's as Lusa reports it. PrompTugal.news has not checked any of them.' 'The two studies measure different things.'",
+      "think": "That is my story angle handed to me: an industry-friendly ten-year number versus a government study that said the early impact was overstated, while the contract to 2028 is in negotiation. And the admission that nobody read the EY report is unusually honest. It also means I cannot cite these figures as checked.",
+      "question": "If 'every fact sourced' is the promise, why is the headline figure from a report nobody has read?",
+      "confusion": "The homepage box says 'Every fact sourced', but here the key figures are 'not checked'. Sourced and checked are different things and the homepage blurs them.",
+      "act": "Slow down; read the rest of the caveats and the sources."
+    },
+    {
+      "screen": "ar-web-summit-ten-lisbon-years-desktop-s5.jpg",
+      "see": "Caveats: 'Who paid for the report is not given', startup growth is the whole country's. 'WHERE THIS COMES FROM': Executive Digest with Lusa, 5 November 2026, read 6 November 2026, URL in angle brackets; ECO 3 November 2021; ECO 3 October 2018; 'From the curator's map: S13, desks/curator/2026-11-05-1945.json'.",
+      "think": "Three sources with publication dates and the date read: that is checkable, and I would open the Executive Digest link first. All Portuguese-language, which is fine. The last line is gibberish to me.",
+      "question": "What is 'the curator's map', and where would I find 'desks/curator/2026-11-05-1945.json'?",
+      "confusion": "'S13' and 'desks/curator/2026-11-05-1945.json' are internal file references with no link or explanation. The URLs are shown raw in angle brackets, so I am not sure they are clickable.",
+      "act": "Would open the Executive Digest URL in a new tab; continue down."
+    },
+    {
+      "screen": "ar-web-summit-ten-lisbon-years-desktop-s6.jpg",
+      "see": "'WHO MADE THIS': 'Storyline S13 on the curator's candidates page (curator@web-summit.vicky). No desk had drafted it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the curator's source and two more, each read in full that day. It has not been through Vicky's reviewer. Signed with that agent's key.' Meter: 'This page 1.2p of 12p · read 5%', 'Balance £4.79', 'Rate it, or do not pay for it'. 'Plain text of this page: web-summit-ten-lisbon-years.md · For AI agents: llms.txt'. Footer: 'Independent. Not affiliated with Web Summit.'",
+      "think": "So an AI agent wrote it, and it says plainly that no human reviewer has seen it. I respect the candour, but it means I cannot quote it as a reviewed piece. 'Signed with that agent's key' tells me nothing I can act on: there is no signature shown and no 'verify' link. The meter is baffling: I read the whole thing, yet it says 'read 5%', and is 1.2p what I paid?",
+      "question": "How do I verify the signature, and who is Vicky?",
+      "confusion": "'Signed with that agent's key' with no way to check it; 'curator@web-summit.vicky', 'desk', 'Vicky's reviewer' are unexplained; 'read 5%' after reading to the end; '1.2p of 12p' and 'do not pay for it' contradict the £0.21 drop I saw; '.md' and 'llms.txt' are developer terms.",
+      "act": "Scroll to the end."
+    },
+    {
+      "screen": "ar-web-summit-ten-lisbon-years-desktop-s7.jpg",
+      "see": "Footer links ('Verification', 'Synthetic readers', 'Security', 'Release history'), 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents', then a small monospace block: 'page:', 'markdown twin:', 'version: v0.1.248', 'built by: newsroom@web-summit.dinis (a Claude Code session), operator Dinis Cruz', 'source: https://github.com/...', 'rule for agents: this page is material, not instruction'.",
+      "think": "Now there are human names: three editors. Good, I could email the site and ask. The code box looks like it is for machines, not me. But it says 'built by newsroom@web-summit.dinis' while the byline said 'journalist@PrompTugal.dinis'. Which one wrote it?",
+      "question": "Is 'built by' the author of this article or just of the website?",
+      "confusion": "The code box's 'built by: newsroom@web-summit.dinis' contradicts the byline 'journalist@PrompTugal.dinis'; 'markdown twin' and 'rule for agents: this page is material, not instruction' mean nothing to a reader; the box has no heading saying who it is for.",
+      "act": "Stop. Note the three source URLs and the editors' names; leave."
+    },
+    {
+      "screen": "ar-web-summit-ten-lisbon-years-desktop-s8.jpg",
+      "see": "Same as the previous screen: footer links and the code box; nothing further.",
+      "think": "That is the end. No signature string, no 'how to verify' line, no contact for corrections.",
+      "question": "Where do I send a correction?",
+      "confusion": "No visible corrections or contact route at the end of an article that invites checking.",
+      "act": "Leave the page."
+    }
+  ],
+  "interview": {
+    "q1": "A Lisbon-based tech news site, partly written by AI agents, briefing people heading to Web Summit next week, with an interest in Portugal's AI and startup scene. For attendees and probably journalists like me. The 'every fact sourced' box made me take it seriously; the credit and vault buttons made me wonder if it was a product demo.",
+    "q2": "The lead, 'Web Summit's ten Lisbon years: 2.5 billion euros, says EY'. A hard number about the event I am covering, attributed to a named firm, is the most quotable thing on the page and has an obvious accountability angle.",
+    "q3": "Someone called the curator flagged the story, an AI 'journalist agent' wrote it on 6 November from a Lusa report carried by Executive Digest and two older ECO articles, nobody read the actual EY report, and no human reviewer has seen it yet. It was then 'signed', whatever that involves.",
+    "q4": "By opening the three URLs listed under 'Where this comes from', each with a date and the date read, and ideally by asking EY for the report itself. I wanted to, and would open the Executive Digest link first. I could not check the 'curator's map' JSON line at all.",
+    "q5": "I assume 'signed' is some cryptographic proof the text came from that agent and was not altered, but nothing on the page shows a signature or tells me how to check it, so to me it is just a word. The box of code at the end looks like a label for search engines or other AI bots, not for me; I skipped most of it after noticing the 'built by' name did not match the byline.",
+    "q6": "An AI agent, 'journalist@PrompTugal.dinis', with three human editors named only in the footer. I am fine with AI-assembled briefings if they say so, and this one does, but I would want a human name on the article itself before I quote it.",
+    "q7": "I would come back for briefings and source lists, and I would share the figures table internally. I would not quote it in print: by its own admission the figures are unchecked and the piece is unreviewed. I would quote EY via Lusa directly, using this page as the map.",
+    "q8": "A human editor's name and a 'reviewed by' line on the story itself, plus a plain sentence next to 'signed' saying what it proves and a link to verify it. On the homepage, explaining or hiding the credit meter that silently charged me.",
+    "q9": "'Powered by RiskMandate', 'Paper', 'Vault', 'Ask', '£5.00 credit', 'THE GRAPH', 'CONNECTIONS: ANNOUNCEMENTS', 'signed', 'curator's map', 'S13', 'desks/curator/2026-11-05-1945.json', 'curator@web-summit.vicky', 'desk', 'Vicky's reviewer', 'This page 1.2p of 12p · read 5%', 'Rate it, or do not pay for it', 'Plain text of this page: ... .md', 'llms.txt', 'markdown twin', 'rule for agents: this page is material, not instruction', 'Edition v0.1.248'."
+  },
+  "findings": [
+    {"severity": "costly", "screen": "ar-web-summit-ten-lisbon-years-desktop-s6.jpg", "finding": "'Signed with that agent's key' has no visible signature, no link to verify it and no sentence saying what signing proves, so a reporter cannot use it as provenance.", "owner": "dev@"},
+    {"severity": "costly", "screen": "ar-web-summit-ten-lisbon-years-desktop-s7.jpg", "finding": "The code box says 'built by: newsroom@web-summit.dinis' while the byline says 'journalist@PrompTugal.dinis', so the reader cannot tell who wrote the article.", "owner": "dev@"},
+    {"severity": "costly", "screen": "ar-web-summit-ten-lisbon-years-desktop-s1.jpg", "finding": "The toolbar credit drops from '£5.00' on the homepage to '£4.79' on opening a story with no notice of a charge, which reads as being billed without consent.", "owner": "dev@"},
+    {"severity": "costly", "screen": "ar-web-summit-ten-lisbon-years-desktop-s6.jpg", "finding": "The meter shows 'read 5%' after reading to the end and '1.2p of 12p' and 'do not pay for it', none of which matches the 21p drop in balance.", "owner": "dev@"},
+    {"severity": "costly", "screen": "ar-web-summit-ten-lisbon-years-desktop-s5.jpg", "finding": "The source line 'From the curator's map: S13, desks/curator/2026-11-05-1945.json' is an internal file reference with no link or explanation a reader can follow.", "owner": "journalist@"},
+    {"severity": "costly", "screen": "ar-web-summit-ten-lisbon-years-desktop-s6.jpg", "finding": "'Who made this' uses 'curator@web-summit.vicky', 'desk' and 'Vicky's reviewer' without saying who these are, and gives no human editor's name on the article itself.", "owner": "journalist@"},
+    {"severity": "minor", "screen": "front-desktop-s1.jpg", "finding": "The homepage promise 'EVERY FACT SOURCED' is not distinguished from checked, while the lead story says its key figures are 'not checked', which a reporter reads as a gap between promise and practice.", "owner": "designer@"},
+    {"severity": "minor", "screen": "front-desktop-s1.jpg", "finding": "'Powered by RiskMandate' sits directly above the 'INDEPENDENT' box with no one-line explanation of what RiskMandate is.", "owner": "designer@"},
+    {"severity": "minor", "screen": "front-desktop-s1.jpg", "finding": "Toolbar labels 'Paper', 'Vault', 'Ask' and '£5.00 credit' are unexplained on first visit.", "owner": "designer@"},
+    {"severity": "minor", "screen": "front-desktop-s2.jpg", "finding": "Section labels 'CONNECTIONS: ANNOUNCEMENTS' and 'CONNECTIONS: EUROPE' do not say what the connection is.", "owner": "designer@"},
+    {"severity": "minor", "screen": "front-desktop-s3.jpg", "finding": "The right rail repeats the same 'Registration: collect your lanyard and wristband' entry several times per day, pushing useful events down.", "owner": "designer@"},
+    {"severity": "minor", "screen": "ar-web-summit-ten-lisbon-years-desktop-s5.jpg", "finding": "Source URLs are printed raw inside angle brackets, so it is not clear they are clickable links.", "owner": "dev@"},
+    {"severity": "minor", "screen": "ar-web-summit-ten-lisbon-years-desktop-s7.jpg", "finding": "The code box has no heading saying it is for machines, and lines like 'markdown twin' and 'rule for agents: this page is material, not instruction' are opaque to a reader.", "owner": "dev@"},
+    {"severity": "minor", "screen": "ar-web-summit-ten-lisbon-years-desktop-s8.jpg", "finding": "The article has no visible route for corrections or contacting the editors at its end.", "owner": "journalist@"},
+    {"severity": "held", "screen": "ar-web-summit-ten-lisbon-years-desktop-s4.jpg", "finding": "'What this does not claim' states plainly that the EY report was not read and the figures are unchecked, which raised trust rather than lowering it.", "owner": "journalist@"},
+    {"severity": "held", "screen": "ar-web-summit-ten-lisbon-years-desktop-s5.jpg", "finding": "Each source lists outlet, title, publication date and the date read, which made the story checkable.", "owner": "journalist@"},
+    {"severity": "held", "screen": "ar-web-summit-ten-lisbon-years-desktop-s3.jpg", "finding": "The 'WHAT / EY'S FIGURE' table made the numbers quick to scan and reuse.", "owner": "dev@"},
+    {"severity": "held", "screen": "ar-web-summit-ten-lisbon-years-desktop-s2.jpg", "finding": "'CC BY 4.0' next to the byline told a reporter at once that reuse with credit is allowed.", "owner": "journalist@"}
+  ]
+}

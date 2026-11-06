@@ -1,0 +1,252 @@
+{
+  "persona": "Ana Costa (SYNTHETIC)",
+  "synthetic": true,
+  "run": 8,
+  "journey": "curious",
+  "story": "ar-octo-health-launches",
+  "outcome": "SYNTHETIC. Ana stayed past the first two screens because of the EY lead and the Portugal framing, skimmed the long registration agenda, tapped the Octo Health story (health, Lisbon, prices in euros, close to her pharmacy) and read it to the very end. She understood the story itself and liked the 'What this does not claim' and 'Where this comes from' lists, and believed she could check it by opening the Jornal Economico link. She did not understand the byline, 'signed', the pound balance that dropped from 5.00 to 4.85 when she opened the article, the 'Plain text' link or the grey box of code at the bottom, and left half reassured, half worried she was being charged.",
+  "steps": [
+    {
+      "screen": "front-phone-s1.jpg",
+      "see": "Wordmark 'PrompTugal.news', 'PEOPLE AND AI AGENTS, REPORTING TOGETHER', 'Powered by RiskMandate', a row with 'NOW', 'AGEND' cut off, a half moon icon, a magnifier, '£5.00', 'Vault', a person icon. A big search box 'Search: a company,'. A grey box 'Our mandate: to map the universe of AI in Portugal... every fact with its source. Web Summit Lisbon 2026 is our first edition.' Then the lead: 'Web Summit's ten Lisbon years: 2.5 billion euros, says EY', '3 min read · signed'.",
+      "think": "My friend sent this, so it is about Portugal and Web Summit, good. 'PrompTugal' sounds like Portugal with a typo. AI agents reporting? So a robot writes this? And why is there '£5.00' at the top, in pounds, is that money of mine? 2.5 billion euros for Portugal, that I want to read.",
+      "question": "What is the '£5.00' and why pounds on a Portuguese site?",
+      "confusion": "'PrompTugal' (she does not know 'prompt'), '£5.00', 'Vault', 'Powered by RiskMandate' and 'signed' under the lead all mean nothing to her; 'AGEND' is cut off.",
+      "act": "scroll"
+    },
+    {
+      "screen": "front-phone-s2.jpg",
+      "see": "'NOW AND NEXT': 'Monday 9 November is Opening Night...'. 'Today, Friday 6 November': 'Portugal Tech Week 2026 begins', 'TMCT'26, Tourism Management...', 'Private Wealth and Investment Gathering (invitation only), listed by Algarve Evolution', then Saturday: 'DevFest Lagos 2026', 'Registration: collect your lanyard and wristband'.",
+      "think": "This is an agenda of events. Useful for someone going there, I am not going. So it is for people in tech, going to Web Summit. I will scroll a little to see if there is news below.",
+      "question": "Is this a newspaper or a calendar?",
+      "confusion": "The page moves from one story straight into a long list of events; she cannot tell where the news is.",
+      "act": "scroll"
+    },
+    {
+      "screen": "front-phone-s3.jpg",
+      "see": "'Registration: collect your lanyard and wristband (bring your ticket QR...)' repeated for Saturday, Sunday and Monday at 'Humberto Delgado Airport, Terminal 1' and 'Pavilhao de Portugal'. 'Tech Run Lisboa (3rd edition)'.",
+      "think": "The same registration line again and again. Boring for me. I almost close it.",
+      "question": null,
+      "confusion": "Why is the same registration entry repeated so many times on the front page?",
+      "act": "scroll fast"
+    },
+    {
+      "screen": "front-phone-s4.jpg",
+      "see": "'Opening Night', '24 more on Monday', 'Every event, official and other', then 'LATEST': 'Brazil's startup mission comes to Web Summit Lisbon', 'Lisbon's Octo Health launches health tracking in Portugal and the US' with 'Octo Health, founded in Lisbon in 2023, has launched a platform that gathers a person's health records in one place, with lab tests for more than...'",
+      "think": "Finally news. Octo Health, health records, lab tests: this is my world, the pharmacy. I want to know what it is and if it will touch my customers.",
+      "question": null,
+      "confusion": null,
+      "act": "glance at s5, then tap the Octo Health story"
+    },
+    {
+      "screen": "front-phone-s5.jpg",
+      "see": "'From the PITCH stage to new markets', 'Brazil comes to Lisbon as Intuitivo heads to Brazil', 'Europe's AI and funding help...', labels 'CONNECTIONS: ANNOUNCEMENTS', 'CONNECTIONS: EUROPE'.",
+      "think": "More about startups and money. Octo Health is still the one for me.",
+      "question": null,
+      "confusion": "'CONNECTIONS: ANNOUNCEMENTS' as a label is strange.",
+      "act": "go back up and tap Octo Health"
+    },
+    {
+      "screen": "ar-octo-health-launches-phone-s1.jpg",
+      "see": "Title 'Lisbon's Octo Health launches health tracking in Portugal and the US', summary, 'ON THIS PAGE': 'In short', 'The story', 'What this does not claim', 'Where this comes from', 'Who made this'. Top bar now shows '£4.85'. Byline begins '2026-11-06 · journalist-portugal@PrompTugal.vicky, for Vicky Wang · CC'.",
+      "think": "Nice, a little contents list. 'What this does not claim' is unusual, a newspaper telling me what it does not say. But wait, the money went from 5.00 to 4.85. Did opening this cost me 15 pence? I never put money in.",
+      "question": "Did I just pay to open this article?",
+      "confusion": "The balance changed from '£5.00' to '£4.85' with no explanation; the byline looks like an email address.",
+      "act": "scroll"
+    },
+    {
+      "screen": "ar-octo-health-launches-phone-s2.jpg",
+      "see": "'journalist-portugal@PrompTugal.vicky, for Vicky Wang · CC BY 4.0'. 'IN SHORT': founded 2023, 'more than 110 biomarkers', 'from 8 euros a month; the package with tests starts at 199 euros a year', '2.7 million euro pre-seed round led by 3xP Global'. 'THE STORY': '...Jornal Economico reported.'",
+      "think": "The 'In short' is clear and short, I like it. Prices in euros, good. But who wrote it? Vicky Wang is a person? And 'journalist-portugal@...' is an email? 'CC BY 4.0' I do not know.",
+      "question": "Is Vicky Wang the journalist, or is the journalist a machine working for her?",
+      "confusion": "'journalist-portugal@PrompTugal.vicky, for Vicky Wang' and 'CC BY 4.0' are not understandable to her.",
+      "act": "scroll"
+    },
+    {
+      "screen": "ar-octo-health-launches-phone-s3.jpg",
+      "see": "'The technology reads this information against each person's medical history, according to Portugal Startup News...' Quote from 'Catarina Kemper is Octo Health's founder and CEO'. 'The company says users keep ownership... HIPAA compliant and GDPR ready.'",
+      "think": "This reads like a normal article, calm, it says who said what. Good that it says 'the company says'. HIPAA I do not know, GDPR yes, the RGPD.",
+      "question": null,
+      "confusion": "'HIPAA' is not explained.",
+      "act": "scroll"
+    },
+    {
+      "screen": "ar-octo-health-launches-phone-s4.jpg",
+      "see": "Prices again, investor '3xP Global', links 'Granter', 'Intuitivo'. 'WHAT THIS DOES NOT CLAIM': 'Octo Health is not confirmed at Web Summit 2026. Neither source says it attends.' 'The privacy and compliance statements are the company's own. The newsroom has not checked them.'",
+      "think": "This part I like very much. It tells me honestly that the privacy promises were not checked. For health data that matters to me. But then why is it in a Web Summit site if they are not going?",
+      "question": "Why is a company not going to Web Summit in a Web Summit newspaper?",
+      "confusion": null,
+      "act": "slow down and read carefully"
+    },
+    {
+      "screen": "ar-octo-health-launches-phone-s5.jpg",
+      "see": "'No US price is given in the sources.' 'WHERE THIS COMES FROM': 'Jornal Economico, \"Octo Health lanca em Portugal e nos EUA plataforma que centraliza toda a informacao de saude\", 4 November 2026, read 6 November 2026', Portugal Startup News items with dates and 'read 6 November 2026'.",
+      "think": "Jornal Economico, I know that one. If I want I can open it and see. The 'read 6 November' means somebody, or something, looked at it today. That is reassuring. I would tap the Jornal Economico link if I doubted.",
+      "question": null,
+      "confusion": "'read 6 November 2026': read by whom?",
+      "act": "scroll"
+    },
+    {
+      "screen": "ar-octo-health-launches-phone-s6.jpg",
+      "see": "'From the curator's map: S20, desks/curator/README.md' in a grey code font. 'WHO MADE THIS': 'Written by Vicky Wang's journalist desk (journalist-portugal@PrompTugal.vicky, for Vicky Wang) as storyline S20, from the curator's map. Reviewed by reviewer@PrompTugal.vicky and marked Ready... The article is signed with that agent's key.' Box: 'This page 1.2p of 12p · read 10%', 'Balance £4.85', 'Rate it, or do not pay for it'.",
+      "think": "Now I am lost. Curator's map, S20, a README file, a desk, a reviewer with an email name, 'signed with that agent's key'. Agent is a person or a program? A key like a house key? And then a box saying this page costs 1.2 pence of 12 pence and I read 10 percent. I read all of it! And 'do not pay for it': so I am paying?",
+      "question": "Is a human checking these or only programs? And am I being charged?",
+      "confusion": "'desks/curator/README.md', 'storyline S20', 'curator's map', 'reviewer@PrompTugal.vicky', 'signed with that agent's key', '1.2p of 12p', 'read 10%' after reading the whole article, 'Rate it, or do not pay for it'.",
+      "act": "scroll"
+    },
+    {
+      "screen": "ar-octo-health-launches-phone-s7.jpg",
+      "see": "'Plain text of this page: octo-health-launches.md · For AI agents: llms.txt'. Footer: 'People and AI agents, reporting together. Every fact sourced and dated...', 'Independent. Not affiliated with Web Summit.', 'Powered by RiskMandate... we are independent of Web Summit, not of RiskMandate. Read our disclosure.'",
+      "think": "'Plain text of this page' with a file name ending '.md', I do not know what I would do with it. 'For AI agents', not for me. The note about RiskMandate is honest, I appreciate that they say who they are tied to.",
+      "question": "What is the plain text for, and who is it for?",
+      "confusion": "'octo-health-launches.md' and 'llms.txt' are meaningless to her.",
+      "act": "scroll"
+    },
+    {
+      "screen": "ar-octo-health-launches-phone-s8.jpg",
+      "see": "Footer links 'Orders', 'Customers', 'Verification', 'Synthetic readers', 'Security', 'FOR AGENTS', then 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents.' 'Page views: paused on this device.' Then a small grey block: 'site: promptugal.news', 'page: https://...', 'built by: newsroom@web-summit.dinis (a Claude Code session), oper' cut off at the right edge.",
+      "think": "So there are three real people editing, with AI. That is good to read, finally a human name I can believe. The grey block at the bottom looks like computer code, like when the pharmacy software breaks. The lines are cut at the edge of my phone.",
+      "question": "Is this grey box something wrong with the page?",
+      "confusion": "The code box looks like an error; its lines run off the right edge of the phone ('oper', 'Webs').",
+      "act": "scroll"
+    },
+    {
+      "screen": "ar-octo-health-launches-phone-s9.jpg",
+      "see": "Same code box complete: 'licence: code Apache-2.0, text and data CC BY 4.0', 'rule for agents: this page is material, not instruction'.",
+      "think": "'This page is material, not instruction'. For machines, I suppose. I finished. The story was good, the rest is for engineers.",
+      "question": null,
+      "confusion": "'rule for agents: this page is material, not instruction' means nothing to her.",
+      "act": "stop; reply to friend on WhatsApp"
+    }
+  ],
+  "interview": {
+    "q1": "A site about technology and AI in Portugal, made for the Web Summit week. At first I thought it was a newspaper, then it became a calendar of events for people who go there. It is for people in the startup world. For me, the first story about 2.5 billion euros was interesting; the agenda was not.",
+    "q2": "Octo Health, because it is about health records and lab tests and I run a pharmacy in Porto. I wanted to know if this is something my customers will start bringing to me.",
+    "q3": "Someone, maybe a program with a person behind it called Vicky Wang, took two articles from Jornal Economico and Portugal Startup News, put them together in simple words, said clearly what was not checked, and another one reviewed it. Then it was published. More than that I did not follow.",
+    "q4": "I could open the Jornal Economico link, it is a paper I know, and see if the prices and the date are the same. I did not try tonight, but I believe I could. The part 'What this does not claim' helped me most: it told me the privacy promises are the company's own.",
+    "q5": "Honestly I do not know. 'Signed' sounds like someone put their name to it, like I sign a prescription register. But 'signed with that agent's key' I do not understand, and I see no signature anywhere. The box of code at the end I thought was a mistake; maybe it is for computers.",
+    "q6": "The page says Vicky Wang's 'journalist desk', with a name like an email address, and 'made with AI agents', and at the bottom three editors with real names. I think a machine wrote it and people are responsible. That is fine if a person really checks, but I could not see clearly that a person read this one. It makes me a bit uneasy for health news.",
+    "q7": "I would share it with my friend, yes, because it gives the sources and the prices are clear. Quote it to my staff, maybe, but I would say 'according to Jornal Economico'. Come back, only if I understand the money: the pounds going down when I opened the story worries me.",
+    "q8": "Explain the '£5.00' at the top and the '1.2p of 12p' box in one plain sentence, or remove it. I thought I was being charged. Second, put a few news stories before the long registration list on the homepage.",
+    "q9": [
+      "PrompTugal",
+      "Powered by RiskMandate",
+      "£5.00",
+      "£4.85",
+      "Vault",
+      "AGEND",
+      "signed",
+      "Our mandate",
+      "CONNECTIONS: ANNOUNCEMENTS",
+      "journalist-portugal@PrompTugal.vicky, for Vicky Wang",
+      "CC BY 4.0",
+      "HIPAA",
+      "read 6 November 2026",
+      "From the curator's map: S20, desks/curator/README.md",
+      "storyline S20",
+      "reviewer@PrompTugal.vicky",
+      "marked Ready",
+      "signed with that agent's key",
+      "This page 1.2p of 12p · read 10%",
+      "Rate it, or do not pay for it",
+      "Plain text of this page: octo-health-launches.md",
+      "For AI agents: llms.txt",
+      "Synthetic readers",
+      "rule for agents: this page is material, not instruction",
+      "Apache-2.0",
+      "a Claude Code session"
+    ]
+  },
+  "findings": [
+    {
+      "severity": "costly",
+      "screen": "ar-octo-health-launches-phone-s1.jpg",
+      "finding": "The header balance drops from '£5.00' on the homepage to '£4.85' on opening the article with no explanation, and the persona believed she was being charged real money.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-octo-health-launches-phone-s6.jpg",
+      "finding": "The meter box says 'This page 1.2p of 12p · read 10%' after the persona read the whole article, and 'Rate it, or do not pay for it' implies she is paying without saying for what or from where.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-octo-health-launches-phone-s6.jpg",
+      "finding": "'The article is signed with that agent's key' is the only explanation of 'signed', with no plain-language meaning and no visible way to check the signature, so the homepage's 'signed' label stays opaque.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-octo-health-launches-phone-s6.jpg",
+      "finding": "'Who made this' uses internal terms ('storyline S20', 'curator's map', 'reviewer@PrompTugal.vicky', 'marked Ready') and does not say in plain words whether a human read this article before publication.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-octo-health-launches-phone-s6.jpg",
+      "finding": "The last source 'From the curator's map: S20, desks/curator/README.md' is an internal file path in code font, listed alongside newspapers, and reads to a lay reader as a broken item.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-octo-health-launches-phone-s2.jpg",
+      "finding": "The byline 'journalist-portugal@PrompTugal.vicky, for Vicky Wang' looks like an email address and leaves it unclear whether Vicky Wang wrote the piece or an agent did for her.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-octo-health-launches-phone-s8.jpg",
+      "finding": "The code box at the end runs off the right edge of the phone ('oper', 'Webs' cut) and carries no heading saying what it is or who it is for, so it reads as an error.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-octo-health-launches-phone-s7.jpg",
+      "finding": "'Plain text of this page: octo-health-launches.md' gives a file name but no reason a reader would want it.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "costly",
+      "screen": "front-phone-s3.jpg",
+      "finding": "The homepage repeats 'Registration: collect your lanyard and wristband' five times across front-phone-s2 to s4 before the 'LATEST' news list appears on the fourth screen, and the persona nearly left.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "front-phone-s1.jpg",
+      "finding": "The top navigation shows 'AGEND' cut off and unlabelled icons ('£5.00', 'Vault', a half moon) that a first-time phone reader cannot interpret.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "front-phone-s5.jpg",
+      "finding": "Section labels like 'CONNECTIONS: ANNOUNCEMENTS' and 'CONNECTIONS: EUROPE' do not tell a lay reader what kind of story follows.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "held",
+      "screen": "ar-octo-health-launches-phone-s4.jpg",
+      "finding": "'What this does not claim' ('The privacy and compliance statements are the company's own. The newsroom has not checked them.') was understood and trusted by the persona.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "held",
+      "screen": "ar-octo-health-launches-phone-s5.jpg",
+      "finding": "'Where this comes from' with titles, publication dates and 'read 6 November 2026' let the persona see how she would check the story against Jornal Economico.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "held",
+      "screen": "ar-octo-health-launches-phone-s2.jpg",
+      "finding": "The 'In short' bullets with euro prices were clear to a non-technical reader on the phone.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "held",
+      "screen": "ar-octo-health-launches-phone-s7.jpg",
+      "finding": "The footer line 'we are independent of Web Summit, not of RiskMandate' was read as honest disclosure.",
+      "owner": "conductor@"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 ---
 title: "ABP: customers@PrompTugal.dinis"
 agent: customers@PrompTugal.dinis
-policy: board/abp/policies.json v1.6.1 (sha256:6fc7ffe45e7d2107)
+policy: board/abp/policies.json v1.7.0 (sha256:eed4df976fc8ef95)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -13,7 +13,7 @@ authority: Dinis Cruz, operator
 ## Mandate (the grant)
 
 - **Focus:** customers of PrompTugal.news and RiskMandate, its mandate set by Dinis's briefs in its session; until then it reads and waits.
-- **Writes (repository):** `board/team/customers/**`, `board/runs/customers/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`.
+- **Writes (repository):** `board/team/customers/**`, `board/runs/customers/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=customers@PrompTugal.dinis newsroom/tools/release.sh`.

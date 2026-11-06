@@ -868,6 +868,12 @@ main.wide details.toc li { margin: 0; }
 .body ul.tiles > li > strong a:hover { color: var(--brand); text-decoration: underline; }
 .body ul.tiles > li > em { font: 400 12.5px/1.3 var(--sans); font-style: normal; color: var(--ink-3); }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.body .view-day, .body .view-az { display: none; }
+.body:has(#v-day:target) .view-day, .body:has(#v-az:target) .view-az { display: block; }
+.body:has(#v-day:target) .view-org, .body:has(#v-az:target) .view-org { display: none; }
+>>>>>>> origin/work/dev.pages
 =======
 .body .view-day, .body .view-az { display: none; }
 .body:has(#v-day:target) .view-day, .body:has(#v-az:target) .view-az { display: block; }

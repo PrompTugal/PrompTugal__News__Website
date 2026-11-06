@@ -1,7 +1,7 @@
 ---
 title: "ABP: historian@PrompTugal.dinis"
 agent: historian@PrompTugal.dinis
-policy: board/abp/policies.json v1.6.1 (sha256:6fc7ffe45e7d2107)
+policy: board/abp/policies.json v1.7.0 (sha256:eed4df976fc8ef95)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -13,7 +13,7 @@ authority: Dinis Cruz, operator
 ## Mandate (the grant)
 
 - **Focus:** the history of PrompTugal.news and Dinis's earlier work, from the record.
-- **Writes (repository):** `board/team/historian/**`, `board/runs/historian/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `board/briefs/**`, `content/newsroom/notes/**`.
+- **Writes (repository):** `board/team/historian/**`, `board/runs/historian/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `board/briefs/**`, `content/newsroom/notes/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=historian@PrompTugal.dinis newsroom/tools/release.sh`.

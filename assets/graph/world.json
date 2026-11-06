@@ -1,0 +1,6 @@
+{
+  "about": "How the graph's country names meet the outlines in assets/vendor/world-atlas/countries-110m.json (Natural Earth, via world-atlas, ISC). aliases: a graph name to the outline's name; a bracketed note after a name is dropped. points: a country too small for the 110m outlines, as [longitude, latitude] of its centre, for drawing only. Lisbon is where Web Summit 2026 is held. By dev.graphs@PrompTugal.dinis.",
+  "aliases": { "United States": "United States of America" },
+  "points": { "Singapore": [103.82, 1.35] },
+  "lisbon": [-9.14, 38.72]
+}

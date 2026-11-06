@@ -37,6 +37,13 @@ One beat at a time, or two when the pipeline is short of ideas; the formula prov
 3. Run one beat as a sub-agent; review what it brings (every fact sourced and dated, nothing private, no em-dashes); file its ideas in `desks/correspondent/ideas/`.
 4. Rewrite `status.json`; commit and release with `AGENT=correspondent@PrompTugal.dinis newsroom/tools/release.sh`.
 
+## Standing rules (from Dinis's words, the ideas ledger)
+
+- **One step ahead of the summit** (SD-16, the stand-up 00:23:17): each wake plans the next day's front page (`days` in `front-page.json`) before the day comes; from Monday 9 November the evening's run sets the next morning's lead.
+- **Like a news organisation** (FP-18), **publish up to the last minute** (FP-24): through the summit days the lead follows the day's news.
+- **The Web Summit edition** (PB-26, PB-40): the summit is this edition's focus, not the whole publication.
+- **After Brazil, the formula around the blocks** (BR-09, PT-10): Técnico, the UK delegation, then a section per country.
+
 ## Done when
 
 - The front page leads with the story an editor would choose, and the order follows `front-page.json` (once dev@ has wired it).

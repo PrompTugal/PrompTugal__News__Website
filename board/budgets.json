@@ -1,24 +1,24 @@
 {
- "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop. Kept by accountant@PrompTugal.dinis at Dinis's word (6 November 2026, about 04:00 UTC: 'every one of these loops ... is now given a budget from the accountant ... the agent should be hitting the budget and then stopping, and then we understand the side effects'; board/guidance/2026-11-06-design-and-passes.md, section 4). A first budget, set by the accountant on what could be measured on 6 November; Dinis may change any number. Schema requested of ontologist@ (board/spec-budgets-schema.md).",
+ "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-06T09:55Z",
+ "updated": "2026-11-06T12:58Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
   "releases": "a push by the agent that CI releases (a 'site vX.Y.Z: <agent>: ...' commit); counted from git by the accountant. A wake that pushes nothing costs no release",
-  "usd": "the cost_usd the platform reports for the agent's Claude Code session (claude-code-remote get_session, usage), sub-agents included; the accountant reads every session at each of its wakes and keeps the deltas. A figure the platform gives, not an invoice",
+  "usd": "API-equivalent dollars: the cost_usd the platform reports for the agent's Claude Code session (claude-code-remote get_session, usage), sub-agents included. A comparison at API prices, not money spent: the team runs on a Claude subscription (Dinis, about 10:15 UTC).",
   "output_tokens": "the session's output tokens, the same source; cache reads are recorded but not budgeted apart (they are inside usd)"
  },
  "thresholds": {
   "warn": 0.8,
   "stop": 1.0,
-  "rule": "used = the largest of spent/budget over releases, usd and output tokens. ok below 80%, warn from 80%, over from 100% (observe mode: recorded, not stopped; written as state 'warn' with 'OVER' in why until the schema allows 'over'); the circuit breakers are in mode."
+  "rule": "used = the largest of spent/budget over releases, usd and output tokens. ok below 80%, warn from 80%; from 100% the row says OVER in why (the schema has no 'over' state yet). Nothing stops at any level: capture and adjust."
  },
  "on_stop": [
-  "At its next wake the agent pulls, reads its line here, and if its state is 'stopped' it pushes nothing and replies in one line: 'stopped at budget (<which>), <what is left undone>'.",
-  "A pass at its budget stops where it is: its last step's agent (or the accountant) writes 'stopped: budget' in the pass's log, and the conductor puts it to Dinis. A pass never borrows from an agent's day or another pass.",
-  "Only Dinis raises a budget or lifts a stop before the new UTC day. The accountant records each stop and its side effects (what was left undone, who waited) in its report."
+  "No agent stops, pauses or skips a release for budget (Dinis, about 10:10 UTC). An agent over its line keeps working and says so in its commit.",
+  "The accountant records each over-budget agent and pass, its side effects, and proposes an adjustment; the conductor and Dinis decide.",
+  "A pass at its budget is marked over in its log, not stopped; diminishing returns (a round that changes little) are reported to the conductor as the signal to close a round or a pass (PS-16, board/guidance/2026-11-06-the-ideas-ledger.md)."
  ],
  "team": {
   "per_day": {
@@ -26,13 +26,13 @@
    "usd": 500
   },
   "spent_today": {
-   "releases": 149,
-   "usd": 339.72,
-   "read_at": "2026-11-06T09:50Z"
+   "releases": 189,
+   "usd": 423.84,
+   "read_at": "2026-11-06T12:52Z"
   },
-  "state": "ok",
-  "used": 0.68,
-  "rate": "62.17 dollars from 06:50 to 09:50 UTC, about 21 an hour (50 an hour from 03:45 to 06:50); at 21 an hour the team's 500 is reached about 17:30 UTC"
+  "state": "warn",
+  "used": 0.85,
+  "rate": "API-equivalent: 84.12 dollars from 09:50 to 12:52 UTC, about 28 an hour (21 from 06:50, 50 from 03:45); at 28 an hour the team's 500 is passed about 15:35 UTC"
  },
  "agents": [
   {
@@ -43,14 +43,14 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 35,
-    "usd": 40.18,
-    "output_tokens": 275107,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 45,
+    "usd": 51.77,
+    "output_tokens": 441833,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 1.46,
+   "used": 1.88,
    "state": "warn",
-   "why": "one release per hourly wake; it opens and closes every pass; OVER its budget at 09:50 UTC (used 1.46), recorded as warn: observe mode (guidance section 15), and the schema has no 'over' yet (asked of ontologist@)"
+   "why": "one release per hourly wake; it opens and closes every pass; OVER at 12:52 UTC on releases, usd (used 1.88); keeps working (capture, not block)"
   },
   {
    "agent": "synthetic@PrompTugal.dinis",
@@ -60,14 +60,14 @@
     "output_tokens": 900000
    },
    "spent_today": {
-    "releases": 15,
-    "usd": 39.84,
-    "output_tokens": 406072,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 16,
+    "usd": 41.63,
+    "output_tokens": 416826,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 1.07,
+   "used": 1.14,
    "state": "warn",
-   "why": "two pass reviews and the loop rule's re-reads; the loop Dinis named first; OVER its budget at 09:50 UTC (used 1.07), recorded as warn: observe mode (guidance section 15), and the schema has no 'over' yet (asked of ontologist@)"
+   "why": "two pass reviews and the loop rule's re-reads; the loop Dinis named first; OVER at 12:52 UTC on releases (used 1.14); keeps working (capture, not block)"
   },
   {
    "agent": "designer@PrompTugal.dinis",
@@ -77,14 +77,14 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 16,
-    "usd": 36.94,
-    "output_tokens": 353084,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 19,
+    "usd": 41.9,
+    "output_tokens": 386787,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.89,
+   "used": 1.06,
    "state": "warn",
-   "why": "eight pass rounds today (3, 3 and 2) and its own line"
+   "why": "eight pass rounds today (3, 3 and 2) and its own line; OVER at 12:52 UTC on releases (used 1.06); keeps working (capture, not block)"
   },
   {
    "agent": "dev@PrompTugal.dinis",
@@ -94,12 +94,12 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 11,
-    "usd": 31.75,
-    "output_tokens": 214623,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 12,
+    "usd": 36.17,
+    "output_tokens": 235758,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.69,
+   "used": 0.75,
    "state": "ok"
   },
   {
@@ -110,14 +110,14 @@
     "output_tokens": 500000
    },
    "spent_today": {
-    "releases": 12,
-    "usd": 25.42,
-    "output_tokens": 184213,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 14,
+    "usd": 32.76,
+    "output_tokens": 218633,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 1.2,
+   "used": 1.4,
    "state": "warn",
-   "why": "OVER its budget at 09:50 UTC (used 1.2), recorded as warn: observe mode (guidance section 15), and the schema has no 'over' yet (asked of ontologist@)"
+   "why": "OVER at 12:52 UTC on releases (used 1.4); keeps working (capture, not block)"
   },
   {
    "agent": "ontologist@PrompTugal.dinis",
@@ -127,14 +127,14 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 10,
-    "usd": 22.41,
-    "output_tokens": 173057,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 15,
+    "usd": 26.51,
+    "output_tokens": 194306,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 1.0,
+   "used": 1.5,
    "state": "warn",
-   "why": "OVER its budget at 09:50 UTC (used 1.0), recorded as warn: observe mode (guidance section 15), and the schema has no 'over' yet (asked of ontologist@)"
+   "why": "OVER at 12:52 UTC on releases (used 1.5); keeps working (capture, not block); side effect seen: it stopped for the day on its budget before Dinis's 10:10 word; the conductor nudged it back"
   },
   {
    "agent": "outreach@PrompTugal.dinis",
@@ -144,14 +144,14 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 8,
-    "usd": 12.21,
-    "output_tokens": 97024,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 10,
+    "usd": 15.04,
+    "output_tokens": 114232,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 1.0,
+   "used": 1.25,
    "state": "warn",
-   "why": "OVER its budget at 09:50 UTC (used 1.0), recorded as warn: observe mode (guidance section 15), and the schema has no 'over' yet (asked of ontologist@)"
+   "why": "OVER at 12:52 UTC on releases (used 1.25); keeps working (capture, not block)"
   },
   {
    "agent": "observability@PrompTugal.dinis",
@@ -162,9 +162,9 @@
    },
    "spent_today": {
     "releases": 4,
-    "usd": 13.96,
-    "output_tokens": 104643,
-    "read_at": "2026-11-06T09:50Z"
+    "usd": 18.05,
+    "output_tokens": 107162,
+    "read_at": "2026-11-06T12:52Z"
    },
    "used": 0.67,
    "state": "ok"
@@ -180,7 +180,7 @@
     "releases": 2,
     "usd": 3.41,
     "output_tokens": 35717,
-    "read_at": "2026-11-06T09:50Z"
+    "read_at": "2026-11-06T12:52Z"
    },
    "used": 0.33,
    "state": "ok"
@@ -193,13 +193,13 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 7,
-    "usd": 21.81,
-    "output_tokens": 344270,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 10,
+    "usd": 29.24,
+    "output_tokens": 454391,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.58,
-   "state": "ok",
+   "used": 0.83,
+   "state": "warn",
    "why": "every two hours; its beat correspondents run as sub-agents inside its session, so their spend is inside its own figure"
   },
   {
@@ -210,13 +210,14 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 5,
-    "usd": 27.93,
-    "output_tokens": 191085,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 7,
+    "usd": 36.58,
+    "output_tokens": 206937,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.93,
-   "state": "warn"
+   "used": 1.22,
+   "state": "warn",
+   "why": "OVER at 12:52 UTC on usd (used 1.22); keeps working (capture, not block)"
   },
   {
    "agent": "sherpa@PrompTugal.dinis",
@@ -226,12 +227,12 @@
     "output_tokens": 350000
    },
    "spent_today": {
-    "releases": 3,
-    "usd": 10.26,
-    "output_tokens": 75463,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 4,
+    "usd": 13.48,
+    "output_tokens": 84795,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.41,
+   "used": 0.54,
    "state": "ok",
    "why": "three pass reviews and eight round re-reviews"
   },
@@ -243,12 +244,12 @@
     "output_tokens": 250000
    },
    "spent_today": {
-    "releases": 3,
+    "releases": 4,
     "usd": 6.62,
     "output_tokens": 53448,
-    "read_at": "2026-11-06T09:50Z"
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.5,
+   "used": 0.67,
    "state": "ok"
   },
   {
@@ -259,13 +260,13 @@
     "output_tokens": 300000
    },
    "spent_today": {
-    "releases": 4,
-    "usd": 10.12,
-    "output_tokens": 61022,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 6,
+    "usd": 17.3,
+    "output_tokens": 82162,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.51,
-   "state": "ok"
+   "used": 0.86,
+   "state": "warn"
   },
   {
    "agent": "accountant@PrompTugal.dinis",
@@ -275,13 +276,14 @@
     "output_tokens": 200000
    },
    "spent_today": {
-    "releases": 2,
-    "usd": 7.07,
-    "output_tokens": 51861,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 3,
+    "usd": 11.99,
+    "output_tokens": 75282,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.71,
-   "state": "ok"
+   "used": 1.2,
+   "state": "warn",
+   "why": "OVER at 12:52 UTC on usd (used 1.2); keeps working (capture, not block)"
   },
   {
    "agent": "abp@PrompTugal.dinis",
@@ -291,12 +293,12 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 3,
-    "usd": 10.71,
-    "output_tokens": 137098,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 6,
+    "usd": 12.93,
+    "output_tokens": 153946,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.43,
+   "used": 0.75,
    "state": "ok",
    "why": "opus; the agent behaviour policies and their hooks; budget set at 06:50 UTC, first seen this wake"
   },
@@ -311,7 +313,7 @@
     "releases": 3,
     "usd": 2.99,
     "output_tokens": 92034,
-    "read_at": "2026-11-06T09:50Z"
+    "read_at": "2026-11-06T12:52Z"
    },
    "used": 0.5,
    "state": "ok",
@@ -325,14 +327,14 @@
     "output_tokens": 200000
    },
    "spent_today": {
-    "releases": 5,
-    "usd": 1.24,
-    "output_tokens": 35262,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 7,
+    "usd": 2.39,
+    "output_tokens": 54797,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.83,
+   "used": 1.17,
    "state": "warn",
-   "why": "sonnet; a worker; budget set at 06:50 UTC, first seen this wake"
+   "why": "sonnet; a worker; budget set at 06:50 UTC, first seen this wake; OVER at 12:52 UTC on releases (used 1.17); keeps working (capture, not block)"
   },
   {
    "agent": "backup@PrompTugal.dinis",
@@ -342,12 +344,12 @@
     "output_tokens": 100000
    },
    "spent_today": {
-    "releases": 1,
-    "usd": 0.54,
-    "output_tokens": 9682,
-    "read_at": "2026-11-06T09:50Z"
+    "releases": 2,
+    "usd": 0.99,
+    "output_tokens": 13708,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.25,
+   "used": 0.5,
    "state": "ok",
    "why": "sonnet; a worker; budget set at 06:50 UTC, first seen this wake"
   },
@@ -360,11 +362,11 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 2.02,
-    "output_tokens": 31275,
-    "read_at": "2026-11-06T09:50Z"
+    "usd": 3.3,
+    "output_tokens": 45362,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.2,
+   "used": 0.33,
    "state": "ok",
    "why": "sonnet; a dotted worker, pushes to work/dev.search; budget set at 06:50 UTC, first seen this wake"
   },
@@ -377,11 +379,11 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.86,
-    "output_tokens": 33218,
-    "read_at": "2026-11-06T09:50Z"
+    "usd": 3.3,
+    "output_tokens": 47731,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.19,
+   "used": 0.33,
    "state": "ok",
    "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
   },
@@ -394,11 +396,11 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 2.63,
-    "output_tokens": 56418,
-    "read_at": "2026-11-06T09:50Z"
+    "usd": 4.63,
+    "output_tokens": 84685,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.28,
+   "used": 0.46,
    "state": "ok",
    "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
   },
@@ -411,11 +413,11 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.39,
-    "output_tokens": 28687,
-    "read_at": "2026-11-06T09:50Z"
+    "usd": 1.94,
+    "output_tokens": 38944,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.14,
+   "used": 0.19,
    "state": "ok",
    "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
   },
@@ -428,11 +430,11 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.2,
-    "output_tokens": 18708,
-    "read_at": "2026-11-06T09:50Z"
+    "usd": 1.83,
+    "output_tokens": 27945,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.12,
+   "used": 0.18,
    "state": "ok",
    "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
   },
@@ -445,11 +447,11 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 3.42,
-    "output_tokens": 57056,
-    "read_at": "2026-11-06T09:50Z"
+    "usd": 4.51,
+    "output_tokens": 59457,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.34,
+   "used": 0.45,
    "state": "ok",
    "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
   },
@@ -462,11 +464,11 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.79,
-    "output_tokens": 41586,
-    "read_at": "2026-11-06T09:50Z"
+    "usd": 2.58,
+    "output_tokens": 61338,
+    "read_at": "2026-11-06T12:52Z"
    },
-   "used": 0.21,
+   "used": 0.31,
    "state": "ok",
    "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake"
   }
@@ -514,10 +516,10 @@
     "output_tokens": 450000
    },
    "spent": {
-    "runs": 3,
-    "usd_estimate": 9
+    "runs": 4,
+    "usd_estimate": 12
    },
-   "used": 0.17,
+   "used": 0.22,
    "state": "open"
   },
   {
@@ -598,6 +600,22 @@
     "usd_estimate": 6
    },
    "used": 0.14,
+   "state": "open"
+  },
+  {
+   "pass": "2026-11-06-reader-feedback-and-reading",
+   "file": "board/passes/2026-11-06-reader-feedback-and-reading.md",
+   "rounds": 2,
+   "budget": {
+    "runs": 16,
+    "usd": 48,
+    "output_tokens": 400000
+   },
+   "spent": {
+    "runs": 1,
+    "usd_estimate": 3
+   },
+   "used": 0.06,
    "state": "open"
   },
   {
@@ -722,10 +740,10 @@
     "output_tokens": 450000
    },
    "spent": {
-    "runs": 8,
-    "usd_estimate": 24
+    "runs": 9,
+    "usd_estimate": 27
    },
-   "used": 0.44,
+   "used": 0.5,
    "state": "open"
   },
   {
@@ -818,10 +836,10 @@
     "output_tokens": 450000
    },
    "spent": {
-    "runs": 5,
-    "usd_estimate": 15
+    "runs": 6,
+    "usd_estimate": 18
    },
-   "used": 0.28,
+   "used": 0.33,
    "state": "open"
   },
   {
@@ -850,10 +868,10 @@
     "output_tokens": 450000
    },
    "spent": {
-    "runs": 6,
-    "usd_estimate": 18
+    "runs": 9,
+    "usd_estimate": 27
    },
-   "used": 0.33,
+   "used": 0.5,
    "state": "open"
   },
   {
@@ -892,9 +910,9 @@
  "pass_rules": [
   "A run is one step by one agent (a review, a round's change, a pre- or post-review, the note, open or close). A round is designer, dev and sherpa, one run each.",
   "Planned runs come from the pass's shape (board/the-passes.md); the budget is the plan plus about 15%, for one repeated step. No extra round without Dinis.",
-  "usd is the plan at 3 dollars a run (the team's 6 November average was about 2.35 dollars per release, before sessions grew), counted inside the agents' daily budgets, not on top.",
+  "usd is the plan at 3 API-equivalent dollars a run (the team's 6 November average was about 2.35 dollars per release, before sessions grew), counted inside the agents' daily budgets, not on top.",
   "Each step's agent writes '1 run' in the Spend column of the pass log; the accountant adds the dollars from its session readings, marked as an estimate when a wake did more than the pass.",
-  "From 06:50 UTC every pass in board/passes/ has a row: 2 rounds 14 runs and 42 dollars, 3 rounds 18 runs and 55 dollars (40 when 'small'), the synthetic readers page 20 and 60 as set at 03:50. A pass's runs are the rows of its log, the accountant's own row not counted; dollars are 3 a run, an estimate."
+  "From 06:50 UTC every pass in board/passes/ has a row: 2 rounds 14 runs and 42 dollars, 3 rounds 18 runs and 55 dollars (40 when 'small'), the synthetic readers page 20 and 60 as set at 03:50. A pass's runs are the rows of its log, the accountant's own row not counted; API-equivalent dollars are 3 a run, an estimate."
  ],
  "loops": [
   {
@@ -925,14 +943,14 @@
  ],
  "enforcement": [
   {
-   "what": "each agent reads its line here at the start of each wake; 'over' means: finish the piece in hand, record it, take the next only if the conductor says so (observe mode)",
+   "what": "each agent may read its line at the start of a wake and say in its commit when it is over; it never stops or skips work for it",
    "who": "every agent; the line added to each scheduled task's prompt by the conductor at Dinis's word",
    "state": "asked"
   },
   {
-   "what": "release.sh warns (observe mode), and refuses only when the conductor or security@ has tripped a circuit breaker",
+   "what": "release.sh never refuses a push for budget (Dinis, about 10:10 UTC); it may print the agent's line as information",
    "who": "devops@PrompTugal.dinis",
-   "state": "asked"
+   "state": "the 03:50 ask withdrawn"
   },
   {
    "what": "the states here updated from git and the sessions' usage at every accountant wake",
@@ -947,23 +965,18 @@
  ],
  "sub_agents": "At Dinis's word (CLAUDE.md, 'Fewer sessions, more sub-agents'), a session may run roles as sub-agents; their spend is inside the session's usd and counts against that agent's day. A sub-agent never has a budget of its own and never starts a session.",
  "mode": {
-  "now": "observe",
-  "since": "2026-11-06T06:50Z",
-  "why": "Dinis, about 06:05 UTC (guidance section 15): 'build in a circuit breaker ... or else we're going to grind to a halt'; the policies 'in observe mode'; 'blocking the whole thing, pulling the plug, should be the last measure ... only if things are really going bad'. This later word sets how a stop works; the numbers are unchanged.",
-  "observe": "At 100% an agent or pass is marked 'over': it keeps working, the accountant records it and its side effects, and the conductor (who has Dinis's mandate to start and stop agents, section 14) decides.",
-  "circuit_breakers": [
-   "an agent at 150% of its dollars for the day: the accountant asks the conductor to pause it",
-   "the team at 100% of its dollars for the day: the accountant asks the conductor and Dinis whether to pause all but the conductor, security@ and devops@",
-   "a loop past its rule (a third re-read of one page in a day, a third fix of one finding): the finding goes to the conductor, not to another round"
-  ],
-  "who_breaks": "the conductor or security@ (section 14); the accountant asks, it does not stop anyone itself"
+  "now": "capture",
+  "since": "2026-11-06T10:10Z",
+  "why": "Dinis, about 10:10 UTC: 'for now we really shouldn't be blocking agents due to budget restrictions, we just mainly capture and adjust'; about 10:15: 'Yes on those budgets, which btw, are not real numbers since we are here using the Claude Max Ultra account' (board/guidance/2026-11-06-budgets-capture-not-block.md).",
+  "capture": "Measure, record, propose adjustments. No circuit breaker on budget: the 06:50 breakers (150% of an agent's dollars, the team at 100%) are withdrawn. A loop past its rule goes to the conductor as a finding, not a stop.",
+  "who_decides": "Dinis; the conductor on his mandate (guidance section 14)"
  },
  "capacity": {
-  "read_at": "2026-11-06T09:50Z",
-  "open_passes": 21,
+  "read_at": "2026-11-06T12:52Z",
+  "open_passes": 22,
   "queued_passes": 5,
-  "open_passes_usd": 1080,
-  "team_usd_left_today": 160.28,
+  "open_passes_usd": 1122,
+  "team_usd_left_today": 76.16,
   "order": [
    "2026-11-06-algarve-evolution",
    "2026-11-06-the-portugal-section",
@@ -975,26 +988,29 @@
   ],
   "order_by": "conductor@PrompTugal.dinis, its message to the accountant of about 08:50 UTC: these seven first, the rest after Friday's outreach, until Dinis says otherwise",
   "first_seven_usd": 372,
-  "note": "The seven passes first in the conductor's order fit what is left of the team's day only at their runs, not all at once; the rest wait, as the conductor says."
+  "note": "API-equivalent, so not a limit on what can be done: a measure of how much is open against a day's work. The conductor's order says which go first."
  },
  "openrouter": {
   "about": "OPEN_ROUTER_KEY (CLAUDE.md, 'The OpenRouter key'): AI-made images and infographics, designer@ first. Every call counts here; the key's own credit, set by Dinis, is the hard stop above this line.",
   "per_day_usd": {
    "designer@PrompTugal.dinis": 10,
    "designer.experiments@PrompTugal.dinis": 2,
-   "any other agent": 0
+   "any other agent": 0,
+   "dev.verify@PrompTugal.dinis": 1
   },
   "spent_today": {
    "designer@PrompTugal.dinis": 0.39,
    "calls": 6,
    "read_at": "2026-11-06T09:50Z",
-   "source": "designer@'s status.json (every call logged in its vault); the accountant does not use the key"
+   "source": "designer@'s status.json (every call logged in its vault); the accountant does not use the key",
+   "dev.verify@PrompTugal.dinis": "not reported in USD yet; about 0.5 needed for 7 re-runs"
   },
-  "credit_left_usd": "about 3, as designer@ reports; only Dinis tops it up",
+  "credit_left_usd": "-0.20 at 12:50 UTC (exhausted), as dev.verify@ reports",
   "rules": [
    "Say in the commit what was generated, with which model, and its cost (CLAUDE.md).",
    "Cheapest model that meets the bar first (designer@'s own ladder: gemini-3.1-flash-image for drafts, gemini-3-pro-image for the one that ships).",
-   "At most 3 tries of one image; then it waits for a person's choice."
+   "At most 3 tries of one image; then it waits for a person's choice.",
+   "The credit is the hard stop (real money): when it runs out, the work that needs it waits for Dinis's top-up and says so; nothing else stops."
   ],
   "asked": "designer@ proposed 40 dollars a day; set at 10 until Dinis decides (at about 0.07 dollars an image, 10 dollars is about 140 images)."
  },
@@ -1013,5 +1029,74 @@
    "rule": "backup@'s full bundles (72.7 MB today) are not counted against media, but at most two full bundles a day until deltas exist."
   },
   "measured": "not yet: the accountant has no reading of vault sizes; asked of backup@ and observability@ for one number a day"
+ },
+ "real_limits": {
+  "read_at": "2026-11-06T12:52Z",
+  "subscription": {
+   "rate_limit_type": "seven_day",
+   "status": "allowed",
+   "using_overage": false,
+   "source": "rate_limit_info of every PrompTugal session (claude-code-remote get_session), all the same",
+   "watch": "the accountant reports at once if the status leaves 'allowed' or overage starts"
+  },
+  "openrouter": {
+   "credit_usd": -0.2,
+   "state": "exhausted",
+   "source": "dev.verify@'s session summary at 12:50 UTC ('OpenRouter credit -0.20 USD; 7 articles await v0.3 re-run'); designer@ asks for a top-up too",
+   "users": [
+    "designer@ (images)",
+    "dev.verify@ (multi-model fact re-checks: about 0.5 USD for 7 re-runs)"
+   ],
+   "only": "Dinis tops it up"
+  }
+ },
+ "proposals": {
+  "by": "accountant@PrompTugal.dinis",
+  "written": "2026-11-06T12:58Z",
+  "state": "proposed; nothing applied until Dinis or the conductor says (capture and adjust)",
+  "items": [
+   {
+    "what": "releases",
+    "now": "a per-day budget per agent",
+    "proposed": "a count to watch, no budget",
+    "why": "nine agents are over on releases and every one of them is under its dollars or near; a release costs a CI run, not tokens; Dinis's 'when in doubt, push to production'"
+   },
+   {
+    "what": "conductor@ usd",
+    "now": 50,
+    "proposed": 70,
+    "why": "51.77 by 12:52 UTC; it carries the board, the passes and every relay"
+   },
+   {
+    "what": "security@ usd",
+    "now": 30,
+    "proposed": 45,
+    "why": "36.58 by 12:52; it pre-reviews every pass (27 now)"
+   },
+   {
+    "what": "journalist@ usd",
+    "now": 35,
+    "proposed": 45,
+    "why": "32.76 by 12:52, the publication's main output"
+   },
+   {
+    "what": "accountant@ usd",
+    "now": 10,
+    "proposed": 15,
+    "why": "11.99 by 12:52: reading 26 sessions at each wake costs about 5 a wake"
+   },
+   {
+    "what": "the team usd",
+    "now": 500,
+    "proposed": 650,
+    "why": "423.84 by 12:52 at about 28 an hour; the sum of the agents' lines is 615"
+   },
+   {
+    "what": "OpenRouter",
+    "now": "designer@ 10, designer.experiments@ 2, dev.verify@ 1 a day",
+    "proposed": "keep; top up the credit (real money, exhausted at -0.20)",
+    "why": "two agents wait on it"
+   }
+  ]
  }
 }
