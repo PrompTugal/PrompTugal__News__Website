@@ -114,7 +114,8 @@ function explorerMd(ctx) {
         `- **Filters**, at four levels: worlds, types, verbs, and facets (day, organiser Web Summit or other, field, country).\n` +
         `- **Layouts**: force, the map (the whole graph laid out once at build, so a large view draws at once), radial (rings by hops from the anchors), layered by world, tree, grid, and a list. A view of more than 200 nodes uses the map's positions.\n` +
         `- **The panel** shows the selected node's record, every connection read as a sentence with its source and the date it was read, and a link to its page.\n` +
-        `- **The URL** holds the state, so a view can be shared.\n\n` +
+        `- **The URL** holds the state, so a view can be shared.\n` +
+        `- **Centres of gravity**: [an animated picture](${ctx.link(REL, 'graph/gravity/index.html')}) of the companies orbiting the wells of their field or country.\n\n` +
         `## Its address {#url}\n\n| Parameter | Example | Meaning |\n|---|---|---|\n` +
         `| \`view\` | \`whole\`, \`industry\`, \`summit\`, \`people\`, \`companies/replit\`, \`events/<slug>\`, \`people/<slug>\` | the universe: a view of the whole graph from [/api/v1/graph/](${ctx.link(REL, 'api/index.html')}) |\n` +
         `| \`focus\`, \`depth\` | \`company:replit\`, \`2\` | the node to explore from and how many hops (\`max\` for all) |\n` +

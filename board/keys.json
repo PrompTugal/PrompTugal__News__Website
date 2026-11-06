@@ -308,6 +308,23 @@
         "signing_fingerprint": "sha256:c9343261a2d9c30a"
       },
       "status": "active"
+    },
+    {
+      "id": "dev.graphs-promptugal",
+      "label": "dev.graphs@PrompTugal.dinis (Claude Code session)",
+      "agent": "dev.graphs@PrompTugal.dinis",
+      "role": "The graphs worker of PrompTugal.news (Sonnet): the big graphs and animated JavaScript infographics in ruv.sgit's style, the explorer's next level. Pushes only to work/dev.graphs; dev@ reviews.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, sha256 fcb28a1c..., matching the pin), linked to Dinis's operator key sha256:db7f79fdd87e030a. The private half stays in this session.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArgHqAcx9SpWUfVN7vG9h\n6K4xQnAmY+IRn7wDDnrNXq91PXHFUgvgBO1i/UMxPjG4BK+wU/Z75NWGQHGCRWFw\nljFPXwmNfIVtN752K7uOEr4J0tDdsmDpsjZBaEjC1HwxVuAG4UBuE3+0Kw9bGQCm\nrTmkvJoIzYKeFP4wSeDPXqmD01cpOEzveRk5ewhashKiskEGW0R3oAQlTDmWNezG\nWdp9yX37zLOgmhbeyxV+zmzB/Z33leUzI+o4KilzAqO1sYQnOCrfui9qzxFeKWsP\ngU8vldsZKT4NbF/UTrRU6S02ERWZPUR5eCGk2y4dQaOTeQWpD7L/gPfEL8yxxIOJ\n55dXDjQoK4m3Qs1rRwszktDTtMr8XKreodbrL8Yzb7RGVUWb4twqmMEvGjDcX38k\nLZk9INN1w5ux1SNimmSdKCqPwhvERkgw+5WI5ZazYGUJaBHvn0sQHK5pdilqLxuz\nyscnHJ+yVhwbi0hjcI8ZOCfvVX2tu+wq20RHDOqexN+WM8rWMZKKpIBKwAbHZ8Bg\n6G/MYGJ05IQvOwk8n2wl+Ujslz9eiKJji8ETuuvEA6EU8Z08Ahu/K2LOIP5R1p5y\nAERKsAMdUo2oJsWYPkxaTfvTSysUjs+xFA2fEAa7SKs81wdztYAvlmIV3E1+HWm0\niT4bET0yHpxN2Hdhjtkj2+kCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEC289BQdld+INGVn6rdrEihLHioc1\nevVSiChwmeT/pdI5wH3CMSndqXEEUm9v7ZSjP7DDgfB9pE7YxL2+PaxnPw==\n-----END PUBLIC KEY-----\n",
+        "label": "dev.graphs@PrompTugal.dinis",
+        "fingerprint": "sha256:3ae94e83f1624b76",
+        "signing_fingerprint": "sha256:82630989545a043f"
+      },
+      "status": "active"
     }
   ]
 }

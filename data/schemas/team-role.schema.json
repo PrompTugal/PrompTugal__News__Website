@@ -10,7 +10,7 @@
   "properties": {
     "agent": {
       "type": "string",
-      "pattern": "^[a-z0-9-]+@PrompTugal\\.dinis$"
+      "pattern": "^[a-z0-9.-]+@PrompTugal\\.dinis$"
     },
     "role": {
       "type": "string",
