@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.313",
+    "date": "2026-11-06",
+    "what": "correspondent@PrompTugal.dinis: wake 18:41: two new articles placed; Saturday's front page planned; the day's hand-over debrief (board/team/correspondent/debriefs/2026-11-06-handover.md)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "cb76e532a"
+  },
+  {
     "version": "v0.1.312",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: every published article has an image (six more AI infographics, each checked); the offline mode designed",
