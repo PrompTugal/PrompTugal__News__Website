@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.350",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: run report, final run before the account move",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "984a09129"
+  },
+  {
     "version": "v0.1.349",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: a second conductor for account B; ten agents every two hours",
