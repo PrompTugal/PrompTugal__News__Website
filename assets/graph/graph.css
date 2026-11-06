@@ -127,3 +127,4 @@
     .gx-path { display: grid; grid-template-columns: auto minmax(0, 1fr); }
     .gx-path button { grid-column: 1 / -1; justify-self: start; }
 }
+.gx-caption { margin: 8px 0; font: 400 14px/1.45 var(--sans, system-ui, sans-serif); color: var(--ink-2, var(--ink-3)); min-height: 1.45em; }

@@ -337,6 +337,7 @@
     $('#gx-anchor').textContent = sel && st.anchors.indexOf(sel) !== -1 ? 'Unanchor' : 'Anchor';
     var preset = E.PRESETS.find(function (p) { return p.key === S.preset; });
     $('#gx-view').value = preset ? preset.key : '';
+    var cap = S.captions && S.preset && S.captions[S.preset]; $('#gx-caption').textContent = cap ? cap.caption : '';
     $('#gx-hint').textContent = S.res.nodes.size + ' nodes · ' + S.res.edges.size + ' edges' + (S.st.top.n ? ' · top ' + S.st.top.n + ' ' + S.st.top.what + ' by ' + S.st.top.by : '') + ' · drag, pinch or scroll to move; tap to select, double-tap to expand';
     panel();
   }
@@ -415,6 +416,9 @@
     $('#gx-anchor').addEventListener('click', function () { var id = S.st.sel; if (!id) return; var on = S.st.anchors.indexOf(id) !== -1; api.anchors({ ids: on ? S.st.anchors.filter(function (x) { return x !== id; }) : S.st.anchors.concat(id) }); });
     $('#gx-expand').addEventListener('click', function () { if (S.st.sel) api.expand({ id: S.st.sel }); });
     $('#gx-reset').addEventListener('click', function () { api.reset(); });
+    var share = $('#gx-share'), png = document.createElement('button'); png.type = 'button'; png.className = 'chip'; png.id = 'gx-png'; png.textContent = 'Save PNG'; png.title = 'Download the graph as a picture'; share.parentNode.insertBefore(png, share);
+    var cp = document.createElement('p'); cp.className = 'gx-caption'; cp.id = 'gx-caption'; cp.setAttribute('aria-live', 'polite'); $('#gx-canvas').parentNode.insertBefore(cp, $('#gx-canvas'));
+    $('#gx-png').addEventListener('click', function () { var T = tokens(); S.cy.png({ output: 'blob-promise', full: true, scale: 2, maxWidth: 4000, maxHeight: 4000, bg: T.panel }).then(function (bl) { var a = document.createElement('a'); a.href = URL.createObjectURL(bl); a.download = 'promptugal-graph' + (S.preset ? '-' + S.preset : '') + '.png'; a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000); }); });
     $('#gx-share').addEventListener('click', function () { var b = $('#gx-share'); (navigator.clipboard ? navigator.clipboard.writeText(url()) : Promise.reject()).then(function () { b.textContent = 'Copied'; }, function () { b.textContent = 'Link in the address bar'; }); setTimeout(function () { b.textContent = 'Copy link'; }, 1800); });
     pressGroup('data-world', 'worlds'); pressGroup('data-type', 'types'); pressGroup('data-verb', 'verbs');
     rootEl.querySelectorAll('[data-facet]').forEach(function (b) { b.addEventListener('click', function () { var f = {}; f[b.dataset.facet] = b.dataset.value ? [b.dataset.value] : []; api.filter({ facets: f }); }); });
@@ -469,7 +473,7 @@
   /* ------------------------------------------------------------ boot */
   function boot(data) {
     S.G = E.index(data);
-    var st = E.parseState(location.search);
+    var st = E.parseState(location.search), want = /[?&]preset=([\w-]+)/.exec(location.search);
     S.st = st; S.preset = st.fromUrl ? null : 'overview';
     S.cy = window.cytoscape({ container: $('#gx-cy'), style: style(tokens()), minZoom: 0.05, maxZoom: 4, boxSelectionEnabled: false,
       textureOnViewport: true, hideEdgesOnViewport: false, motionBlur: false, pixelRatio: 'auto' });
@@ -488,8 +492,11 @@
       draw();
       if (viewErr) $('#gx-hint').textContent = viewErr + '. Showing the whole graph.';
       readyResolve(api);
+      if (want && E.PRESETS.some(function (p) { return p.key === want[1]; })) api.preset({ key: want[1] });
     });
   }
+  var capUrl = rootEl.getAttribute('data-captions');
+  if (capUrl) fetch(capUrl).then(function (r) { return r.json(); }).then(function (j) { S.captions = j.presets; if (S.res) reflect(); }).catch(function () { });
   fetch(rootEl.getAttribute('data-data')).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(boot).catch(function (err) { $('#gx-hint').textContent = 'The graph did not load: ' + err.message; readyResolve(null); });
 })();
