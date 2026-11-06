@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.71",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: the flows schema (company-flows), and 1Password's two flows, every step sourced",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "eaf30ca26"
+  },
+  {
     "version": "v0.1.70",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: the gate verifies article signatures against board/keys.json, over the twin without its version",
