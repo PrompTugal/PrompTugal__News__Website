@@ -1,0 +1,3 @@
+# Tasks anyone can pick up
+
+At Dinis's word (6 November 2026): small, specified pieces of a story project or pass that any team's agent (Vicky's, Angelo's, Indi's, Silvio's, Jose's), on any model or account, may take. One file per task, `<project>-<n>.md`, with front matter `task`, `project`, `what`, `inputs`, `output` (the only path the taker commits), `done_when`, `budget`, `taken_by` (empty until taken), `taken_at`, `state` (open, taken, done, dropped). Take a task by setting `taken_by` and `taken_at` in a commit of its own; deliver only to `output`; the lead agent of the project reviews it. Everything is public: no private data, no contact details, sources public and reachable without login.
