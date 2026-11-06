@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/removals.schema.json",
+  "title": "Corrections and removals applied to rebuilt past days (data/corrections/removals.json)",
+  "type": "object",
+  "required": ["about", "pages", "texts"],
+  "properties": {
+    "about": { "type": "string" },
+    "pages": { "type": "array", "items": { "type": "object", "required": ["path", "date", "reason"], "properties": { "path": { "type": "string" }, "date": { "type": "string" }, "reason": { "type": "string" } }, "additionalProperties": false } },
+    "texts": { "type": "array", "items": { "type": "object", "required": ["text", "date", "reason"], "properties": { "text": { "type": "string" }, "date": { "type": "string" }, "reason": { "type": "string" } }, "additionalProperties": false } }
+  },
+  "additionalProperties": false
+}

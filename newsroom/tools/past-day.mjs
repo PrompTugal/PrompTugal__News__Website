@@ -4,7 +4,8 @@
 //   node newsroom/tools/past-day.mjs <date> <tag> <out> [--build admin/build/build.mjs]
 // The tag is the last release of that day (newsroom/versions.json: the last row of the date). Needs the tag's history
 // (git fetch --depth=1 origin tag <tag>). The build is run in a temporary worktree outside this repository, never in it.
-// Not wired into CI yet: S3 (today's corrections and removals applied before it is served, security@'s condition) comes first.
+// S3 (security@'s condition): data/corrections/removals.json (pages to drop, texts to take out) is applied before it is served.
+// Not wired into CI yet: devops@ or dev@ adds the step.
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
 import os from 'node:os'
@@ -40,6 +41,26 @@ try {
         }
     }
     copy(wt, dest)
+    // S3 (security@'s condition): apply today's corrections and removals, from this repository's data/corrections/removals.json, so a
+    // removed page or text never comes back through the time view: pages are deleted (with their twin), texts replaced in every page
+    let rm = { pages: [], texts: [] }
+    try { rm = JSON.parse(fs.readFileSync(path.join(repo, 'data/corrections/removals.json'), 'utf8')) } catch { /* none yet */ }
+    for (const p of rm.pages) {
+        const base = path.join(dest, p.path.replace(/^\/+/, '').replace(/index\.(html|md)$/, ''))
+        if (!base.startsWith(dest)) continue   // never outside the day
+        fs.rmSync(base, { recursive: true, force: true })
+    }
+    if (rm.texts.length) (function walk(dir) {
+        for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+            const f = path.join(dir, e.name)
+            if (e.isDirectory()) walk(f)
+            else if (/\.(html|md|json|txt)$/.test(e.name)) {
+                let t = fs.readFileSync(f, 'utf8'), n = t
+                for (const x of rm.texts) n = n.split(x.text).join('[removed]')
+                if (n !== t) fs.writeFileSync(f, n)
+            }
+        }
+    })(dest)
     console.log(`wrote ${dest}`)
 } finally {
     try { run('git', ['-C', repo, 'worktree', 'remove', '--force', wt]) } catch {}
