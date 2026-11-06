@@ -666,6 +666,7 @@
   },
   "mapNote": "Approximate positions. The 16 municipalities of the ADI network are not drawn.",
   "fail": "The data could not be loaded.",
-  "future": "Announced"
+  "future": "Announced",
+  "figures": "The numbers (as the sources report them)"
  }
 }
