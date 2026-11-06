@@ -1,8 +1,8 @@
 {
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
- "state": "waiting: the top C to ship; the front page rests until 18:50 UTC",
- "updated": "2026-11-06T20:06Z",
+ "state": "handed over: moving to account B",
+ "updated": "2026-11-06T21:36Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -30,8 +30,7 @@
   "run 10: Helena on the evening front page and the agents' own story; F50 new (footer \"Edited by\" vs \"No person read\"); new articles fit a phone"
  ],
  "next": [
-  "the readers on the top of the page C once dev@ ships it (Dinis 13:20), against A if a switch keeps it",
-  "collect decisions each wake; re-measure what is done"
+  "the next session on account B: onboard from the debrief (key, the vault key from the conductor, the inbox), then decisions.py, changes.mjs, re-measure, read"
  ],
  "asks": [
   "Dinis: what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
@@ -142,6 +141,12 @@
    "outcome": "ok",
    "release": "",
    "line": "run 10: one reader, the front page and one new story"
+  },
+  {
+   "started": "2026-11-06T21:25Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "final hand-over debrief; this session stops (moving to account B)"
   }
  ],
  "debrief": "board/team/synthetic/debriefs/2026-11-06-handover.md"
