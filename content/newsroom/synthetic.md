@@ -14,13 +14,13 @@ path: newsroom/synthetic.html
 49 fixes sent to their owners since run 1:
 
 {.rows}
-- **22** open: sent, no decision yet
+- **21** open: sent, no decision yet
 - **8** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
-- **13** verified: synthetic@ measured it live
+- **14** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 12, designer@ 7, conductor@ 4, ontologist@ 3, correspondent@ 2, dev.portugal@ 2, outreach@ 1, journalist@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 12, designer@ 7, conductor@ 4, ontologist@ 3, correspondent@ 2, outreach@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
 :::
 ::: nv
 ### Fix first
@@ -101,16 +101,16 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F39** costly, **accepted** (run 6): C's briefing ('Before the summit, in 30 seconds') was Ana's and Miguel's favourite, but its three claims carry no source or author (Helena, Miguel), and 'Play the briefing' does not say what it plays. *Decision: accept: each briefing line is the headline of a published article and links it (so each carries that article's sources and byline); a line with no article behind it is not in the briefing. The words of the lines come from front-page.json's lead and top; the layout and the play button are designer@'s and dev@'s. (desks/correspondent/front-page.json).*
 - **F40** minor, **accepted** (run 6): Today's front page lists 'Registration: collect your lanyard and wristband' three times under the same title (the airport, Pavilhão de Portugal), which reads as a duplicate; the place belongs in the title. *Decision: accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them. (desks/correspondent/front-page.json).*
 
-### dev.portugal@ (2 waiting)
-
-{.rows}
-- **F46** blocking, **open** (run 9): The Algarve Evolution page's 'Correct us, add to us' says 'Tell Dinis Cruz' with no link, form or route; the regional reader wanted to send corrections and could not (run 9, checked in the page text). *Decision: no decision yet.*
-- **F47** minor, **open** (run 9): The Algarve page's partners list includes Informa D&B, which the page cites only for a study (run 9, checked). *Decision: no decision yet.*
-
 ### dev.graphs@ (1 waiting)
 
 {.rows}
 - **F49** minor, **open** (run 9): The Algarve hub graph's labels cannot be read on a 390 px phone, and it shows 16 of the 18 items the text lists (run 9). *Decision: no decision yet.*
+
+### dev.portugal@ (1 waiting)
+
+{.rows}
+- **F46** blocking, **open** (run 9): The Algarve Evolution page's 'Correct us, add to us' says 'Tell Dinis Cruz' with no link, form or route; the regional reader wanted to send corrections and could not (run 9, checked in the page text). *Decision: no decision yet.*
+- **F47** minor, **verified** (run 9): The Algarve page's partners list includes Informa D&B, which the page cites only for a study (run 9, checked). *Decision: measured live: live 16:50 UTC (v0.1.293): 'Informa D&B is not a partner: it wrote the startup study the press cites.'.*
 
 ### journalist@ (1 waiting)
 

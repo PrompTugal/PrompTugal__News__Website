@@ -1,9 +1,11 @@
 {
   "agent": "dev@PrompTugal.dinis",
-  "focus": "NOW: C, the top of every page (Dinis 13:20; conductor 17:10): building in this wake, ETA live about 18:30 UTC, A's bar kept behind a switch (?top=a) for the A/B.",
+  "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T17:20Z",
+  "updated": "2026-11-06T17:38Z",
   "done": [
+    "Wake 17:08: security@'s S1 fixed (a condition of the signed-in views pass): the keyring only on /login/ and the drain, gate-checked; no HTML or active SVG served from desks/ or data/, their scripts left out of the deploy. C is live since 16:53 (v0.1.294); no designer@ findings yet. Worker branches: nothing new since 16:16.",
+    "C, the top of every page (Dinis 13:20; conductor 17:10 relay): built and pushed 16:45 (436f3d57), live with the next release; A behind ?top=a for the A/B; Q2, Q3, Q4, Q8, Q9 within C; pages no longer wider than a phone. designer@ checks it against the answered pictures; sherpa@ and observability@ told how to read the variant.",
     "Wake 16:08: the daily newsletter (Dinis 16:20), one feature from two: dev.pages@'s editions made from data for every summit day from Saturday, plus dev@'s authored edition (content/newsletter/<date>-<edition>.md takes its slot), a plain-text email per edition (api/v1/newsletter/<date>-<edition>.txt, links absolute), api/v1/newsletter.json and the gate (no contact detail). Tested at Saturday 07:00. Also brought dev.data, dev.graphs, dev.portugal, dev.search. The deploy stall of 15:00 to 15:28 recovered (devops@ has the logs).",
     "Wake 15:09: brought dev.data (past summits, Lisbon 2018), dev.pages (C's briefing card on the summit days, days/agenda), dev.search (the vault-key PT decision page), dev.verify (status) and dev.graphs round 2 (the hold was a squash conflict with round 1, not the worker's JSON; review.sh now takes a worker's version where only its own reviews touched the file). v0.1.277 tagged but the Pages deploy did not take (runs 496/497): told devops@.",
     "Q1 (Dinis, FP-03): 'Powered by RiskMandate' and its mark off the masthead of every page; the footer keeps it. Live v0.1.276, checked on /portugal/algarve-evolution/ before the 15:00 meeting.",
@@ -29,7 +31,8 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "C on every page (board/spec-the-top-of-the-page.md, answered pictures): ETA live ~18:30 UTC; then Q2 to Q9 within C",
+    "Review dev.search@'s signed-in views (passkey, vault) against security@'s conditions",
+    "Whatever designer@ finds in C",
     "Review the dotted workers' branches at every wake (CLAUDE.md, the review workflow)",
     "Item 1 of /newsroom/quality/: the newsroom section's words to content/newsroom/"
   ],

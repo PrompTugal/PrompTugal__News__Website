@@ -5,7 +5,7 @@
   "title": "From pineapple waste to fish feed: AgroGrINTech's pilot in Maia",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-agrogrintech-pineapple-aquafeed"
   ],
@@ -16,7 +16,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-06-1145.json",
-      "desks/journalist-vicky/drafts/S22-pineapple-waste-to-fish-feed.md"
+      "desks/journalist-vicky/drafts/S22-pineapple-waste-to-fish-feed.md",
+      "desks/reviewer-vicky/reviews/S22.md",
+      "content/articles/pineapple-waste-to-fish-feed.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -24,9 +26,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S22-pineapple-waste-to-fish-feed.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S22.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-06"
+    }
+  ],
+  "article": {
+    "path": "content/articles/pineapple-waste-to-fish-feed.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -39,6 +52,18 @@
       "at": "2026-11-06",
       "by": "journalist-portugal@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S22-pineapple-waste-to-fish-feed.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-06",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S22.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/pineapple-waste-to-fish-feed.md"
     }
   ]
 }

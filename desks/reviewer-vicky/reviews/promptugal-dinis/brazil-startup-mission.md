@@ -8,3 +8,5 @@ Checked 6 November 2026 against its seven sources and the three Web Summit sessi
 4. **"Sebrae says 12 states run missions of their own."** Sebrae: "missões estaduais organizadas por 12 unidades da federação", which can include the Federal District. Small.
 
 Everything else matches: every count and its source (100, 188 as of 28 August, about 200, 239 as 99 + 90 + 50, about 300), the rules' services, Rio's ten startups and Gol, Vox EPower, the four hubs, the three sessions' days, times, stages and speakers, the 324 square metres, and the 700 million dollars as reported. All links open, including the four site pages and the notes page. Sources not clickable on the page: see README.
+
+**Second check, 6 November 2026:** finding 2 fixed: the table now credits "(the rules; Sebrae)". Its new rows check out against the rules (the top 50's pitch training, 18 pitching in English after training in Lisbon on 8 November; Germany and Brazil the largest delegations in 2025, Brazil's 380 companies). Findings 1, 3 and 4 still open (the summit given as 10 to 12 November; the seminar and pitch competition placed in the Brazil Pavilion; "12 states").
