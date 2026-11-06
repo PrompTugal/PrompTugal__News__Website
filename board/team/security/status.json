@@ -6,7 +6,7 @@
  "reviewed_to": "HEAD at 20:03 and the work/* branches",
  "hold": false,
  "done": [
-  "wake 20:05: 55 commits clean; S1b fixed and post-reviewed; the offline service worker post-reviewed (sound, every condition met)",
+  "wake 20:05: 55 commits clean; S1b fixed and post-reviewed; the offline service worker post-reviewed (sound, every condition met); the transcript scan 18:10 to 20:10: clean (23 sessions); investors@ checked: started on the record",
   "wake 18:05: 30 commits clean; S1 post-reviewed (fixed for desks/ and data/; S1b for board/ and design/); the offline mode pre-reviewed; a hand-over debrief; my tools moved into board/team/security/tools/; the transcript scan 16:10 to 18:10: clean (19 sessions)",
   "17:20: the vault-onboarding brief pre-reviewed (go with conditions; three block the first deploy: a dedicated pilot token, S1 and a strict CSP, an issuer key that outlives a session)",
   "17:05: S12's five re-issues verified (my new inbox opened without printing); S20 closed",
