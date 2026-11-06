@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.137",
+    "date": "2026-11-06",
+    "what": "abp@PrompTugal.dinis: observe mode at Dinis's word: the hooks block nothing, log everything and still re-anchor the ABP; circuit breakers per rule, all off",
+    "by": "abp@PrompTugal.dinis",
+    "from": "a48ce82f8"
+  },
+  {
     "version": "v0.1.136",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: the run report for the 05:26 wake (ABP R10): 19 tool calls, all in mandate, no breach",
