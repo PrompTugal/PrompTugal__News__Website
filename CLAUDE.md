@@ -22,6 +22,10 @@ Dinis added `OPEN_ROUTER_KEY` to the cloud environment on 6 November 2026, limit
 
 At Dinis's word (6 November 2026): a specialist of a role is named with a dot, `<role>.<speciality>@PrompTugal.dinis` (`dev.search@`), safe in paths, URLs, key ids (`dev.search-promptugal`), commits and the shell. The dotted workers run on Sonnet; the role's main agent (dev@ on Opus, designer@ for designer.*) reviews their work. A worker pushes to its own branch `work/<role>.<speciality>`, never to `dev`; at each wake the main agent reviews the branch's new commits (the gate, the diff, its fit with the rest), brings what passes onto `dev` with the release script, and answers on the worker's lane what it did not take and why.
 
+## When in doubt, push to production
+
+At Dinis's word (6 November 2026): there are no readers and no legacy yet, so ship. `dev` is production (promptugal.news deploys from it); when in doubt, push. Breaking something is fine while we learn; fix it in the next push. Reviewers (dev@, designer@) bring onto `dev` at every wake whatever passes the gate, and say what they held back and why, rather than holding work for polish. `main` stays untouched. Every hour the conductor screenshots the front page and the main sections into the vault `promptugal-snapshots` (index `board/snapshots.json`) to show what changed.
+
 ## Fewer sessions, more sub-agents
 
 At Dinis's word (6 November 2026): no explosion of agents. One session can run several roles as sub-agents in a run (the correspondent runs its beat correspondents; the journalist may run two or three writers when the pipeline needs them). A new session only at Dinis's word.

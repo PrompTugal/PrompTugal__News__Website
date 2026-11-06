@@ -1,0 +1,66 @@
+{
+ "about": "PrompTugal.news over time: hourly screenshots of the live front page and main sections, in the vault promptugal-snapshots on dev.send.sgraph.ai (images live in vaults, not git, at Dinis's word); read it with the public read key below. Taken by conductor@PrompTugal.dinis with board/tools/snapshot.mjs.",
+ "snapshots": [
+  {
+   "stamp": "2026-11-06T0541Z",
+   "version": "v0.1.140",
+   "shots": [
+    {
+     "page": "front",
+     "url": "/",
+     "viewport": "desktop",
+     "file": "2026-11-06T0541Z/front-desktop.jpg"
+    },
+    {
+     "page": "front",
+     "url": "/",
+     "viewport": "phone",
+     "file": "2026-11-06T0541Z/front-phone.jpg"
+    },
+    {
+     "page": "articles",
+     "url": "/articles/",
+     "viewport": "desktop",
+     "file": "2026-11-06T0541Z/articles-desktop.jpg"
+    },
+    {
+     "page": "companies",
+     "url": "/companies/",
+     "viewport": "desktop",
+     "file": "2026-11-06T0541Z/companies-desktop.jpg"
+    },
+    {
+     "page": "people",
+     "url": "/people/",
+     "viewport": "desktop",
+     "file": "2026-11-06T0541Z/people-desktop.jpg"
+    },
+    {
+     "page": "portugal",
+     "url": "/portugal/",
+     "viewport": "desktop",
+     "file": "2026-11-06T0541Z/portugal-desktop.jpg"
+    },
+    {
+     "page": "graph",
+     "url": "/graph/",
+     "viewport": "desktop",
+     "file": "2026-11-06T0541Z/graph-desktop.jpg"
+    },
+    {
+     "page": "newsroom",
+     "url": "/newsroom/",
+     "viewport": "desktop",
+     "file": "2026-11-06T0541Z/newsroom-desktop.jpg"
+    }
+   ]
+  }
+ ],
+ "vault": {
+  "name": "promptugal-snapshots",
+  "vault_id": "6yn1j9wf",
+  "endpoint": "https://dev.send.sgraph.ai",
+  "read_key": "ff808afd4cfa5716d278c9445d165652560114316cb33e83b88158ed4501070b",
+  "note": "public on purpose: the screenshots are of the public site; read only (clone with: sgit clone <read_key>:<vault_id>)"
+ }
+}

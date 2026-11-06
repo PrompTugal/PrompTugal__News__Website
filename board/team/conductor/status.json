@@ -2,13 +2,14 @@
  "agent": "conductor@PrompTugal.dinis",
  "focus": "the plan, the board, passes, briefs, who does what",
  "state": "working",
- "updated": "2026-11-06T05:40Z",
+ "updated": "2026-11-06T06:25Z",
  "done": [
   "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
   "inboxes for every agent; lanes with the team site's conductor",
   "13 passes on the board; the Brazil story project",
   "lanes and inboxes for abp@ and the new designer session; the old designer inbox marked superseded",
-  "nine Sonnet workers started at Dinis's word once abp@ moved to observe mode (v1.1.0): dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify, designer.experiments, researcher, backup; their tasks in board/schedule.json"
+  "nine Sonnet workers started at Dinis's word once abp@ moved to observe mode (v1.1.0): dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify, designer.experiments, researcher, backup; their tasks in board/schedule.json",
+  "Dinis decided (06:25): pounds; The Cyber Boardroom as the legal company; outreach sent by each person from <name>.agent@; the conductor holds every vault key; backups as zips, to Drive later"
  ],
  "next": [
   "the stand-up briefs at about 10:52 and 16:52 UTC",
@@ -22,10 +23,6 @@
   {
    "for": "Dinis (and abp@)",
    "ask": "Add board/editor-briefs/** to the conductor's write paths in its ABP (board/abp/conductor.md): the stand-up briefs Dinis asked for at about 05:00 UTC live there (brief 1 committed before the policy took effect)."
-  },
-  {
-   "for": "Dinis",
-   "ask": "backup@ needs the Google Drive connector granted in its ABP (R3) to put backups on Drive."
   }
  ]
 }

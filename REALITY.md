@@ -52,6 +52,13 @@ A thing that is not in this file does not exist, whatever a brief says. Kept cur
 - The key's confirmation on pki.sgit.ai (submitted by the agent, confirmed by Dinis).
 - From the estate's standard: `review/`, the Agent Contact file, a row on nfrs.sgit.ai, branch protection on `main`.
 
+## Decided by Dinis (6 November 2026)
+
+- PrompTugal.news's legal company is **The Cyber Boardroom**, Dinis's UK company; prices are in **pounds**.
+- Outreach emails are sent by a person (Vicky, Indi, Silvio, Jose or Dinis) from their `<name>.agent@promptugal.news` address; agents draft only.
+- The conductor holds every vault key, sealed to it, as the one central place; security@'s recovery plan covers its loss.
+- Backups: backup@ keeps zips that survive its session, copied to Google Drive once connected.
+
 ## Waits on Dinis
 
 - **WS-177's decisions** (`board/brief-to-dinis-2026-11-06.md`): the old host's DNS, the story of the name in his words, Silvio's agents. Settled 6 November: the spelling (PrompTugal, capital P and T), the logo (the brand guide, `design/brand/Promptugal-Brand-Guide.pdf`), where keys and the board live (here).
