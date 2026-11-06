@@ -2,7 +2,7 @@
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
  "state": "working: Algarve sprint for the 15:00 meeting",
- "updated": "2026-11-06T14:30Z",
+ "updated": "2026-11-06T14:35Z",
  "done": [
   "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
   "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)",
@@ -13,7 +13,8 @@
   "the naming question as a decision page: /newsroom/decisions/naming-people-on-algarve-evolution/ (options A roles only, B after their yes, C from the press now; recommends B)",
   "organisations page: University of Algarve and Algarve STP in more detail from researcher@'s partners round 1 (read sources only, no names; Wikipedia marked tertiary)",
   "sprint round 1 pushed: Algarve page as a mini site (tiles, map, collapsing sections, timeline, cards); executive director named by role with sources",
-  "sprint: network graph drawn from the ontologist's network.json by newsroom/tools/algarve-graph.mjs (23 nodes, 30 edges) and on the page; 2019 presentation and members over time added"
+  "sprint: network graph drawn from the ontologist's network.json by newsroom/tools/algarve-graph.mjs (23 nodes, 30 edges) and on the page; 2019 presentation and members over time added",
+  "page links dev.graphs@'s interactive network, timeline and map (/graph/algarve-evolution/); the naming decision recorded as answered (executive director only, as relayed by conductor@)"
  ],
  "next": [
   "on Dinis's answer to the naming decision: the people section",

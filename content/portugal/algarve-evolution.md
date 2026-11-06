@@ -8,6 +8,8 @@ summary: The Faro-based association building the Algarve's innovation ecosystem 
 
 That is the mandate of Algarve Evolution, the Faro-based association that has connected the region's entrepreneurs, talent, startups, SMEs and partners since 2018. This page gathers, in one place, who they are, what they run, who they work with and how they have met the world around Web Summit. Every fact has its public source and the date we read it (6 November 2026); figures marked self-reported are theirs, as reported, and we have not verified them. This page is meant to be corrected and added to by the people it is about: see the last section.
 
+[Jump to the interactive network, timeline and map](../../graph/algarve-evolution/index.md)
+
 {.ae-tiles}
 - **2018** began *a small group of local entrepreneurs*
 - **118** active members *self-reported, 1 November 2026*
@@ -87,6 +89,8 @@ Source: [Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algar
 ## Partners named {#partners}
 
 University of Algarve, Algarve STP, AMAL, NERA, ANJE, Junior Achievement Portugal, Startup Portugal, Informa D&B and CCDR-Algarve (sources above).
+
+**[Explore it: the interactive network, timeline and map of Algarve Evolution](../../graph/algarve-evolution/index.md)**, each node, event and place with its source, each picture saved as a PNG.
 
 ![Algarve Evolution at the centre: its programmes and events around it, and the partner organisations on the outer ring (data and sources in network.json).](../../assets/portugal/algarve-evolution-graph.svg)
 :::
