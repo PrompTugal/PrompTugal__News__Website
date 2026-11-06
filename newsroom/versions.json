@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.94",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: first run done: ROLE.md, status, the first catalogue (every page, board file, desk, pass and agent, who made each and when), input to the newsroom search pass under security@'s conditions",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "71c093c02"
+  },
+  {
     "version": "v0.1.93",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run 5 (SYNTHETIC) on /newsroom/synthetic.html: four new readers, the homepage and one story each; all understood how a story is made, none could say what 'signed' means; the ledger at 34 rows, 26 open",
