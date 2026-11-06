@@ -3,23 +3,106 @@
   "$id": "https://promptugal.news/data/schemas/billing-vault.schema.json",
   "title": "Your vault (data/billing/vault.json): the vault server, the library, and where the access key will come from. Never the key itself.",
   "type": "object",
-  "required": ["endpoint", "library", "door_constant", "access_key"],
+  "required": [
+    "endpoint",
+    "library",
+    "door_constant",
+    "access_key"
+  ],
   "additionalProperties": false,
   "properties": {
-    "$schema": { "$ref": "common.schema.json#/$defs/schema_link" },
-    "about": { "type": "string", "minLength": 1 },
-    "endpoint": { "type": "string", "pattern": "^https://[a-z0-9.-]+$" },
-    "endpoint_source": { "type": "string" },
-    "library": { "type": "string", "minLength": 1 },
-    "door_constant": { "type": "string", "pattern": "^[a-z0-9.-]+$" },
-    "door_constant_why": { "type": "string" },
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "about": {
+      "type": "string",
+      "minLength": 1
+    },
+    "endpoint": {
+      "type": "string",
+      "pattern": "^https://[a-z0-9.-]+$"
+    },
+    "endpoint_source": {
+      "type": "string"
+    },
+    "library": {
+      "type": "string",
+      "minLength": 1
+    },
+    "door_constant": {
+      "type": "string",
+      "pattern": "^[a-z0-9.-]+$"
+    },
+    "door_constant_why": {
+      "type": "string"
+    },
     "access_key": {
-      "type": "object", "required": ["status", "what", "where", "never"], "additionalProperties": false,
+      "type": "object",
+      "required": [
+        "status",
+        "what",
+        "where",
+        "never"
+      ],
+      "additionalProperties": false,
       "properties": {
-        "status": { "enum": ["not-issued", "issued-by-hand", "issued-by-link"] },
-        "what": { "type": "string", "minLength": 1 },
-        "where": { "type": "string", "minLength": 1 },
-        "never": { "type": "string", "minLength": 1 }
+        "status": {
+          "enum": [
+            "not-issued",
+            "issued-by-hand",
+            "issued-by-link"
+          ]
+        },
+        "what": {
+          "type": "string",
+          "minLength": 1
+        },
+        "where": {
+          "type": "string",
+          "minLength": 1
+        },
+        "never": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "recovery": {
+      "type": "object",
+      "required": [
+        "shown",
+        "why",
+        "ask",
+        "button",
+        "wrong",
+        "done"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "shown": {
+          "type": "string",
+          "minLength": 1
+        },
+        "why": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ask": {
+          "type": "string",
+          "minLength": 1
+        },
+        "button": {
+          "type": "string",
+          "minLength": 1
+        },
+        "wrong": {
+          "type": "string",
+          "minLength": 1
+        },
+        "done": {
+          "type": "string",
+          "minLength": 1
+        }
       }
     }
   }

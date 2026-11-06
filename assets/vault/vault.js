@@ -304,6 +304,26 @@ function drawRecover() {
     )
 }
 
+/** The recovery code, shown once (sherpa@, PT decision "where the vault key lives", condition 3): the reader must type back its last
+ *  four characters before the code is hidden, because a code shown once is the step a reader gets wrong. */
+function recoveryNotice(shown) {
+    const W = CFG.recovery || { shown: 'Your recovery code, shown once: ', why: '', ask: 'Type the last four characters of the code', button: 'Done', wrong: 'No match.', done: 'Confirmed.' }
+    const tail = shown.replace(/[^A-Za-z0-9]/g, '').slice(-4).toUpperCase()
+    const box = h('div', { class: 'notice nr-recovery', id: 'nr-vault-recovery-shown' })
+    const msg = h('p', { class: 'meta', role: 'status' })
+    const typed = h('input', { type: 'text', id: 'nr-vault-recovery-tail', class: 'input', maxlength: '8', autocomplete: 'off', spellcheck: 'false', 'aria-label': 'The last four characters of the code' })
+    box.append(
+        h('p', {}, h('strong', {}, W.shown), h('span', { class: 'nr-mono' }, shown)),
+        h('p', {}, W.why),
+        h('div', { class: 'field' }, h('label', { for: 'nr-vault-recovery-tail' }, W.ask), typed),
+        h('p', { class: 'nr-acts' }, h('button', { type: 'button', class: 'btn primary', id: 'nr-vault-recovery-done', onclick: () => {
+            if (typed.value.replace(/[^A-Za-z0-9]/g, '').toUpperCase() !== tail) { msg.textContent = W.wrong; return }
+            box.replaceChildren(h('p', { class: 'nr-ok' }, W.done))
+        } }, W.button)),
+        msg)
+    return box
+}
+
 /** The account in one go: three vaults, the access key in the master, a recovery door, the account file. As newsroom.sgit.ai's createAccount. */
 export async function createAccount(door, prf, token, slot) {
     if (!token) { (slot || body).replaceChildren(missingKeyBox()); return }
@@ -322,7 +342,7 @@ export async function createAccount(door, prf, token, slot) {
             await NV.publish(a.reader)
             state.vaults = { door: a.door, master: a.master, reader: a.reader, doors: added.doors || a.doors, record: a.record, token }
             session.set({ door, path: prf.path, credId: prf.credId, token }); status()
-            await drawUnlocked(h('div', { class: 'notice nr-recovery', id: 'nr-vault-recovery-shown' }, h('p', {}, h('strong', {}, 'Your recovery code, shown once. Write it down: '), h('span', { class: 'nr-mono' }, rc.shown)), h('p', {}, 'It opens a second door to the same vault, for a device without your passkey and for the day the passkey is gone. This page does not keep it.')))
+            await drawUnlocked(recoveryNotice(rc.shown))
         } catch (e) { st.replaceWith(h('p', { class: 'nr-warn' }, e.code === 'EEXISTS' ? 'A vault already exists at this door: sign in again to open it.' : /401|403|access token/i.test(String(e && e.message)) ? `The vault server refused that access key (${err(e)}). Nothing was created.` : err(e))) }
     })
 }
