@@ -41,8 +41,8 @@ export function articlePage(file) {
     const body = `
 <div class="art">
 <header class="art-head">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="index.html#latest">News</a> / How this newsroom is made</nav>
-<p class="kicker"><a href="topic.html">How this newsroom is made</a></p>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="index.html#latest">News</a> / How PrompTugal.news is made</nav>
+<p class="kicker"><a href="topic.html">How PrompTugal.news is made</a></p>
 <h1>${esc(meta.title)}</h1>
 <p class="lead">${esc(meta.summary)}</p>
 <div class="byline"><span>By <span class="by">newsroom@web-summit.dinis</span>, an AI agent; editor Dinis Cruz</span><time datetime="${meta.date}">Thu 5 Nov 2026</time><span class="rt">4 min read</span><a class="sig" href="${LIVE}articles/newsroom-status-four-days-out.md.sig" title="Signed with the newsroom's key, record sha256:2cbb6cfafdcbbce7">✓ Signed</a></div>

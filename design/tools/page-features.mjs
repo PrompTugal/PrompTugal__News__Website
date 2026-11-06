@@ -11,8 +11,8 @@ const dayT = i => `${DAYS[i.date][0]} ${DAYS[i.date][1]} · ${start(i)}`
 export function chatPage(file) {
     const s1 = find(/^Making useful intelligence/), s2 = find(/^Press conference with Replit/), s3 = find(/^What does a self-driving company/), vis = find(/^The knowledge your agents can't see/)
     const pane = `
-<aside class="chat" id="chat" aria-label="Ask the newsroom">
-<header class="chat-head"><div><h2>Ask the newsroom</h2><span class="scope">Answers from this site's pages only, with sources</span></div><span class="spacer"></span><button type="button" title="Model and key">${'Settings'}</button><a class="tool" href="company.html" aria-label="Close the chat" style="height:32px">Close</a></header>
+<aside class="chat" id="chat" aria-label="Ask PrompTugal.news">
+<header class="chat-head"><div><h2>Ask PrompTugal.news</h2><span class="scope">Answers from this site's pages only, with sources</span></div><span class="spacer"></span><button type="button" title="Model and key">${'Settings'}</button><a class="tool" href="company.html" aria-label="Close the chat" style="height:32px">Close</a></header>
 <div class="chat-key"><span class="ok">● Connected</span><span>your OpenRouter key, kept in this browser</span><span class="model">anthropic/claude-sonnet-5</span><span>2,940 tokens so far</span></div>
 <div class="chat-log" role="log" aria-live="polite">
 <div class="msg user"><p>When can I see Replit's president speak, and what else on agents is on at the same time?</p></div>
@@ -58,7 +58,7 @@ export function searchPage(file) {
 <div style="max-width:880px">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / Search</nav>
 <h1 class="visually-hidden">Search</h1>
-<form class="search" role="search"><label class="visually-hidden" for="q">Search the newsroom</label>${ICON.search.replace('<svg', '<svg class="s-icon"')}<input id="q" type="search" value="security"><button>Search</button></form>
+<form class="search" role="search"><label class="visually-hidden" for="q">Search PrompTugal.news</label>${ICON.search.replace('<svg', '<svg class="s-icon"')}<input id="q" type="search" value="security"><button>Search</button></form>
 <div class="seg" role="tablist" aria-label="Kind"><a role="tab" aria-selected="true" href="#"><b>All</b>${30 + sess.length + 1}</a><a role="tab" aria-selected="false" href="#"><b>Companies</b>30</a><a role="tab" aria-selected="false" href="#"><b>Sessions</b>${sess.length}</a><a role="tab" aria-selected="false" href="#"><b>Fields</b>1</a><a role="tab" aria-selected="false" href="#"><b>People</b>0</a><a role="tab" aria-selected="false" href="#"><b>News</b>0</a></div>
 <div class="filters" role="group" aria-label="Day"><span class="label">Day</span><button class="chip" aria-pressed="true">Any day</button><button class="chip" aria-pressed="false">Tue 10</button><button class="chip" aria-pressed="false">Wed 11</button><button class="chip" aria-pressed="false">Thu 12</button></div>
 <p class="count-line">${30 + sess.length + 1} results for <b>security</b>, best first. Search runs in your browser over this site's own index: nothing you type leaves it.</p>
@@ -115,7 +115,7 @@ export function graphPage(file) {
     edges.forEach(([a, b]) => { if (a === 'replit' || b === 'replit') { focus.add(a); focus.add(b) } })
     edges.forEach(([a, b]) => { if (focus.has(a) && a.startsWith('p-') || focus.has(b) && b.startsWith('p-')) { focus.add(a); focus.add(b) } })
     nodes.forEach(n => { if (n.id === 'replit') n.focus = true })
-    let svg = graphSvg({ w: 1000, h: 700, nodes, edges, title: 'The newsroom\'s graph: 18 companies, their people, sessions, stages and fields, with Replit selected' })
+    let svg = graphSvg({ w: 1000, h: 700, nodes, edges, title: 'The graph: 18 companies, their people, sessions, stages and fields, with Replit selected' })
     // dim what is not next to the selection
     svg = svg.replace(/<line class="g-edge([^"]*)" x1="([\d.]+)" y1="([\d.]+)" x2="([\d.]+)" y2="([\d.]+)"\/>/g, (m, c, x1, y1, x2, y2) => {
         const e = edges.find(([a, b]) => { const A = nodes.find(n => n.id === a), B = nodes.find(n => n.id === b); return A.x.toFixed(1) === x1 && A.y.toFixed(1) === y1 && B.x.toFixed(1) === x2 && B.y.toFixed(1) === y2 })

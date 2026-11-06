@@ -6,10 +6,10 @@ import { fileURLToPath } from 'node:url'
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..')
 export const R = p => path.join(ROOT, p)
-export const LIVE = 'https://web-summit.newsroom.sgit.ai/'
+export const LIVE = 'https://promptugal.news/'
 export const VERSION = fs.readFileSync(R('admin/build/version.txt'), 'utf8').trim()
-export const NAME = 'PromptUGAL'   // the working name: one string, so Dinis's choice is one edit
-export const MOTTO = 'The independent newsroom at Web Summit Lisbon 2026'
+export const NAME = 'PrompTugal.news'   // one string, so the name is one edit (PrompTugal.news since 6 November 2026)
+export const MOTTO = 'Technology and AI, in context. The Web Summit Lisbon 2026 edition'
 
 export const AGENDA = JSON.parse(fs.readFileSync(R('desks/programme/agenda.json'), 'utf8'))
 export const COMPANIES = JSON.parse(fs.readFileSync(R('data/companies.json'), 'utf8')).companies
@@ -110,8 +110,8 @@ ${after}
 <div class="foot-brand"><span class="name">${MARK}${NAME}</span><span>${MOTTO}. Every fact sourced and dated, for the people who are there.</span><span class="independence">Independent. Not affiliated with Web Summit.</span><span>Powered by <a href="riskmandate.html">RiskMandate</a>. The team that makes this newsroom also works on RiskMandate: <a href="about.html#interest">read our disclosure</a>.</span></div>
 <div class="foot-cols">
 <div><h3>Sections</h3><ul><li><a href="index.html">Now</a></li><li><a href="events.html">Agenda</a></li><li><a href="index.html#latest">News</a></li><li><a href="topic.html">Companies</a></li><li><a href="person.html">People</a></li><li><a href="index.html#portugal">Portugal</a></li></ul></div>
-<div><h3>The newsroom</h3><ul><li><a href="about.html">About and editors</a></li><li><a href="about.html#interest">Our disclosure</a></li><li><a href="about.html#corrections">Corrections</a></li><li><a href="riskmandate.html">RiskMandate</a></li><li><a href="${LIVE}admin/versions.html">Release history</a></li></ul></div>
-<div><h3>You</h3><ul><li><a href="account.html">Reading credit</a></li><li><a href="vault.html">Your vault</a></li><li><a href="chat.html">Ask the newsroom</a></li><li><a href="graph.html">The graph</a></li></ul></div>
+<div><h3>PrompTugal.news</h3><ul><li><a href="about.html">About and editors</a></li><li><a href="about.html#interest">Our disclosure</a></li><li><a href="about.html#corrections">Corrections</a></li><li><a href="riskmandate.html">RiskMandate</a></li><li><a href="${LIVE}admin/versions.html">Release history</a></li></ul></div>
+<div><h3>You</h3><ul><li><a href="account.html">Reading credit</a></li><li><a href="vault.html">Your vault</a></li><li><a href="chat.html">Ask PrompTugal.news</a></li><li><a href="graph.html">The graph</a></li></ul></div>
 <div><h3>For agents</h3><ul><li><a href="${LIVE}llms.txt">llms.txt</a></li><li><a href="${LIVE}index.md">This page as markdown</a></li><li><a href="https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit">Source code</a></li><li><a href="https://web-summit.sgit.ai/">The team's site</a></li></ul></div>
 </div>
 <p class="small">Edited by Dinis Cruz, Indi and Vicky, made with AI agents. Text CC BY 4.0, code Apache-2.0. Web Summit is named only to say where we report from. <a class="ver" href="${LIVE}admin/versions.html">${VERSION}</a></p>

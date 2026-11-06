@@ -1,5 +1,5 @@
-/* PromptUGAL (working name): the independent newsroom at Web Summit Lisbon 2026.
-   One stylesheet for web-summit.newsroom.sgit.ai, proposed by newsroom-designer@web-summit.dinis (5 November 2026).
+/* PrompTugal.news (since 6 November 2026; this file is the 5 November proposal, made when the name was PromptUGAL and the
+   host web-summit.newsroom.sgit.ai; the live stylesheet is assets/site.css). One stylesheet for the site, proposed by newsroom-designer@web-summit.dinis (5 November 2026).
    Written against the build's current classes (dateline, mast, nav.site, frame, main, crumbs, toc, body, twin, footer,
    agent-block, .table, pre) plus the new components the mockups introduce; design/README.md lists each with its HTML.
    Phone first: every rule below is for a 390px screen, and min-width queries add the wide layouts.

@@ -14,7 +14,7 @@ const S1 = () => find(/^Making useful intelligence/), S2 = () => find(/^Press co
 
 function replitGraph() {
     return graphSvg({
-        w: 480, h: 350, title: 'Replit in the newsroom\'s graph: its president, his three sessions, and the developer tools field',
+        w: 480, h: 350, title: 'Replit in the graph: its president, his three sessions, and the developer tools field',
         nodes: [
             { id: 's1', kind: 'session', x: 78, y: 28, label: 'Centre Stage', sub: 'Tue 14:00', w: 138 },
             { id: 's2', kind: 'session', x: 240, y: 28, label: 'Press, Stage 2', sub: 'Tue 15:00', w: 138 },

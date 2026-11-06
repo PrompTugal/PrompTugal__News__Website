@@ -5,7 +5,7 @@ export function riskmandatePage(file) {
     const body = `
 <div class="art-head" style="max-width:var(--measure);margin:0 auto">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="about.html">About</a> / RiskMandate</nav>
-<p class="kicker">About the newsroom</p>
+<p class="kicker">About PrompTugal.news</p>
 <h1>Powered by RiskMandate</h1>
 <p class="lead">What the line under our name means, in plain words, and what RiskMandate says it is, in its own words.</p>
 </div>
@@ -13,7 +13,7 @@ export function riskmandatePage(file) {
 <h2 id="means">What it means here</h2>
 <ul>
 <li><strong>Our lens comes from RiskMandate.</strong> We ask three questions of every AI agent we write about: what can it reach, what was it asked to do, and who controls the gap. That framing is RiskMandate's.</li>
-<li><strong>The same team.</strong> The people who make this newsroom also work on RiskMandate. That is an interest, and <a href="about.html#interest">our disclosure</a> says so before anything else.</li>
+<li><strong>The same team.</strong> The people who make PrompTugal.news also work on RiskMandate. That is an interest, and <a href="about.html#interest">our disclosure</a> says so before anything else.</li>
 <li><strong>Independent of Web Summit, not of RiskMandate.</strong> We have no affiliation with Web Summit. We do have one with RiskMandate, and we never hide it.</li>
 <li><strong>No claim beyond its own words.</strong> Everything this site says about RiskMandate is quoted from riskmandate.ai, with the date we read it.</li>
 </ul>
@@ -39,11 +39,11 @@ export function aboutPage(file) {
     const body = `
 <div style="max-width:var(--measure);margin:0 auto">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / About</nav>
-<h1>About the newsroom</h1>
-<p class="lead">${NAME} is the independent newsroom at Web Summit Lisbon 2026: what is on, who is there, and what is new, for the people at the summit. Every fact sourced and dated.</p>
+<h1>About PrompTugal.news</h1>
+<p class="lead">${NAME}: technology and AI, in context, from Portugal for Europe; its first edition is Web Summit Lisbon 2026: what is on, who is there, and what is new, for the people at the summit. Every fact sourced and dated.</p>
 <section class="staffbox" aria-labelledby="mh"><h2 id="mh">The masthead</h2>
 <dl>
-<div class="wide"><dt>Editor-in-chief</dt><dd>Dinis Cruz<small>decides what the newsroom says, approves every major release</small></dd></div>
+<div class="wide"><dt>Editor-in-chief</dt><dd>Dinis Cruz<small>decides what PrompTugal.news says, approves every major release</small></dd></div>
 <div><dt>Editor</dt><dd>Indi<small>what we publish, and how it reads</small></dd></div>
 <div><dt>Editor</dt><dd>Vicky<small>research and the programme</small></dd></div>
 <div class="wide agents"><dt>The agent desks</dt><dd>newsroom@web-summit.dinis, publishes and signs · programme@web-summit.vicky, the agenda · curator@web-summit.vicky, the story map · the researcher, four runs a day · newsroom-designer@web-summit.dinis, the design</dd></div>
@@ -51,7 +51,7 @@ export function aboutPage(file) {
 <div class="notice brand"><p style="margin:0 0 6px"><strong class="independence">Independent. Not affiliated with Web Summit.</strong></p><p style="margin:0">We report from Web Summit Lisbon; we are not part of it, and nothing here speaks for it. We use its name only to say where we are, and never its logo, colours or style.</p></div>
 <div class="body">
 <h2 id="interest">Our interest</h2>
-<p>The team that makes this newsroom also works on <a href="riskmandate.html">RiskMandate</a>, which sells Agent Behaviour Policies. So we are independent of Web Summit, but not of RiskMandate. We may write about companies the team hopes to meet or sell to. Please weigh what we say with that in mind.</p>
+<p>The team that makes PrompTugal.news also works on <a href="riskmandate.html">RiskMandate</a>, which sells Agent Behaviour Policies. So we are independent of Web Summit, but not of RiskMandate. We may write about companies the team hopes to meet or sell to. Please weigh what we say with that in mind.</p>
 <h2 id="rules">Our rules</h2>
 <ul><li>We publish only facts we can source, each linked to a public page with the date we read it.</li><li>We leave out anything we are unsure of, and say so.</li><li>Nothing about a person that is not already public and professional, and never contact details.</li><li>No claim for RiskMandate beyond its own words.</li></ul>
 <h2 id="corrections">Corrections</h2>
@@ -59,12 +59,12 @@ export function aboutPage(file) {
 <h2 id="our-agent">Our own agent's reach, mandate and gap</h2>
 <div class="table"><table><tbody>
 <tr><td>Reach</td><td>Changes the site's development branch; reads public pages and code; signs articles with its own session key.</td></tr>
-<tr><td>Mandate</td><td>Build and run this newsroom; publish only sourced facts; never touch the main branch or publish a key or a contact detail.</td></tr>
+<tr><td>Mandate</td><td>Build and run PrompTugal.news; publish only sourced facts; never touch the main branch or publish a key or a contact detail.</td></tr>
 <tr><td>Gap</td><td>A change to the development branch goes live with no human review first. The automatic check is the only barrier, and it checks form, not truth.</td></tr>
 </tbody></table></div>
 <h2 id="how">How we make it</h2>
 <p>Pages are plain text, built by one script with no dependencies, checked before anything goes live, numbered by the system rather than by people, and signed. Every page has a plain-text twin for AI agents. <a href="https://github.com/SGit-AI/SGit-AI__Website__Newsroom__Web-Summit">The source code</a> is public.</p>
 </div>
 </div>`
-    return page({ file, title: 'About the newsroom', section: 'About', body, mock: 'the about page with the editors\' masthead box, the independence line and the disclosure. Editors\' role lines follow brief 4\'s proposal and wait on Dinis.' })
+    return page({ file, title: 'About PrompTugal.news', section: 'About', body, mock: 'the about page with the editors\' masthead box, the independence line and the disclosure. Editors\' role lines follow brief 4\'s proposal and wait on Dinis.' })
 }

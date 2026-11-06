@@ -21,8 +21,8 @@ export function frontPage(file) {
     const europe = pick(/^Has Europe/)
 
     const body = `
-<h1 class="visually-hidden">${'PromptUGAL'}: Web Summit Lisbon, now</h1>
-<form class="search" role="search" action="search.html"><label class="visually-hidden" for="q">Search the newsroom</label>${ICON.search.replace('<svg', '<svg class="s-icon"')}<input id="q" type="search" name="q" placeholder="Companies, people, sessions, news" autocomplete="off"><button>Search</button></form>
+<h1 class="visually-hidden">${'PrompTugal.news'}: Web Summit Lisbon, now</h1>
+<form class="search" role="search" action="search.html"><label class="visually-hidden" for="q">Search PrompTugal.news</label>${ICON.search.replace('<svg', '<svg class="s-icon"')}<input id="q" type="search" name="q" placeholder="Companies, people, sessions, news" autocomplete="off"><button>Search</button></form>
 
 <div class="front-top">
 <section class="a-lead" aria-labelledby="lead-h">
@@ -53,7 +53,7 @@ export function frontPage(file) {
 | Agenda ........ [#########.] 210 items          |
 | Companies ..... [######....] 109 profiles       |
 | Articles ...... [#.........] 1 of 3             |
-+------------------------------------------------+</pre></a><p class="kicker">How this newsroom is made</p><h3><a href="article.html">The newsroom four days out, in pictures</a></h3><p class="dek">What is live, what the agent desks have found, what is next and what waits on a person. A status report drawn in plain text.</p><p class="meta"><time>5 Nov</time> · newsroom@web-summit.dinis · <span class="rt">4 min</span> · Signed</p></article></li>
++------------------------------------------------+</pre></a><p class="kicker">How PrompTugal.news is made</p><h3><a href="article.html">The newsroom four days out, in pictures</a></h3><p class="dek">What is live, what the agent desks have found, what is next and what waits on a person. A status report drawn in plain text.</p><p class="meta"><time>5 Nov</time> · newsroom@web-summit.dinis · <span class="rt">4 min</span> · Signed</p></article></li>
 <li><article class="story"><p class="kicker">The summit</p><h3><a href="article.html">Web Summit 2026 in numbers: 70,000 people, 10,000 startups</a></h3><p class="dek">The scale of the week, each number from its own source. ${IDEA}</p></article></li>
 <li><article class="story"><p class="kicker">Announcements</p><h3><a href="article.html">Gender in Tech report: 84% see women in leadership</a></h3><p class="dek">Web Summit's seventh report, told as the report tells it. ${IDEA}</p></article></li>
 </ul>
