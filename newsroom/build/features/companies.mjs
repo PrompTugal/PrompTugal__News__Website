@@ -5,6 +5,9 @@
 import { shortUrl, refLink, sourceLine, timeText, maxDate, dataLinks, plural, slotLine, slotList } from '../lib/present.mjs'
 import { eventsOfCompany, relatedCompanies } from '../lib/graph.mjs'
 export const order = 30
+import fs from 'node:fs'
+const LV = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')), FILTER = LV.filters.companies, V = LV.companies
+export const assets = { js: ['assets/filter/filter.js'] }
 
 const ATTENDING = (a, cell) => a === 'unknown' ? 'a participant (the role is not stated in our sources)' : cell(a).replace(/^speaker's company/, "a speaker's company").replace(/^startup \(growth\)/, 'a startup (GROWTH programme)').replace(/^partner/, 'a partner')
 const topicName = (ctx, id) => (ctx.store.get(`topic:${id}`) || {}).name || id
@@ -113,7 +116,7 @@ export const fill = {
         const countries = [...new Set(cats.map(x => x.country))].sort((a, b) => cats.filter(x => x.country === b).length - cats.filter(x => x.country === a).length || a.localeCompare(b))
         const byCountry = countries.map(k => `### ${cell(k)} \`${cats.filter(x => x.country === k).length}\`\n\n{.rows .links-cols}\n` + cats.filter(x => x.country === k).sort(byName).map(line).join('\n')).join('\n\n')
         const grid = `{.tiles}\n` + [...cats].sort(byName).map(x => `- **[${cell(x.name)}](${x.id}/index.md)** *${cell(x.country)}*`).join('\n')
-        return `{.view-switch}\n[By field](#v-field) · [By country](#v-country) · [A to Z](#v-grid)\n\n::: view view-field\n#### By field {#v-field}\n\n${byField}\n:::\n\n::: view view-country\n#### By country {#v-country}\n\n${byCountry}\n:::\n\n::: view view-grid\n#### A to Z {#v-grid}\n\n${grid}\n:::`
+        return `::: pt-filter\n${FILTER}\n:::\n\n{.view-switch}\n[${V.field}](#v-field) · [${V.country}](#v-country) · [${V.az}](#v-grid)\n\n::: view view-field\n#### ${V.field} {#v-field}\n\n${byField}\n:::\n\n::: view view-country\n#### ${V.country} {#v-country}\n\n${byCountry}\n:::\n\n::: view view-grid\n#### ${V.az} {#v-grid}\n\n${grid}\n:::`
     },
 }
 

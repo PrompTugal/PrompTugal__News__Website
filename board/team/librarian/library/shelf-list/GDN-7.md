@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: GDN, Guidance (special) (part 7 of 7)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T18:58:39Z"
-site_version: "v0.1.316"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T22:26:02Z"
+site_version: "v0.1.363"
 source: board/catalogue.json
 ---
 
 # Shelf list: GDN, Guidance (special) (part 7 of 7)
 
-16 cards, from `GDN.MEMO 2026-11-06-the-night-memos` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+17 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
-**Cards 601 to 616**
+**Cards 601 to 617**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `GDN.MEMO 2026-11-06-the-ideas-ledger` | [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-night-memos` | [Dinis's memos to the conductor, the night of 5 to 6 November 2026, verbatim](https://promptugal.news/board/guidance/memos/2026-11-06-the-night-memos.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-vault-onboarding-answers` | [Dinis, 6 November 2026, about 17:30 UTC: the vault onboarding's three answers](https://promptugal.news/board/guidance/2026-11-06-vault-onboarding-answers.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO README` | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) | guidance | conductor@ 6 Nov 2026 |

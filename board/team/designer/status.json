@@ -1,9 +1,11 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 20:34 done (an image for the new article)",
-  "updated": "2026-11-06T20:40Z",
+  "state": "handed over: moving to account B",
+  "updated": "2026-11-06T21:45Z",
   "done": [
+    "21:45 final hand-over debrief (refreshed) at the conductor's relay of Dinis's word: the role moves to account B; this session (2) stops",
+    "21:30 spec check of the live front page (v0.1.347) against A with C's top, at Dinis's word via the conductor: F1 to F11 in board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/spec-check-front-v0.1.347.md, side by side pictures in design/decisions/the-front-page/check-v0.1.347--*.jpg, a row in board/passes/2026-11-06-the-front-page.md; the before in the vault (before-after/front-page-v0.1.347/)",
     "An AI infographic for brazils-startup-house-in-lisbon (1 call, 0.15 USD, checked against the article first time); every published article has an image",
     "The daily hand-over debrief (CLAUDE.md, Dinis 17:55): board/team/designer/debriefs/2026-11-06-handover.md",
     "An AI infographic for the new article brazil-on-the-stages (3 calls, 0.42 USD: one draft with duplicates and one with a misspelt company name rejected); every published article has an image",
@@ -52,6 +54,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
+    "re-check the front page as dev@ and dev.pages@ ship F1 to F11; post the before and after on /newsroom/design/ once they are fixed",
     "Images for each new article at the next wake after it is published (about 0.15 USD each, read back before use)",
     "Check the newsletter's first edition (Saturday 07:30 Lisbon) against board/spec-the-daily-newsletter.md",
     "Check dev@'s build of the strip of days (full width, eight days on a phone) and the offline pieces",
@@ -201,6 +204,18 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "an image for brazils-startup-house-in-lisbon"
+    },
+    {
+      "started": "2026-11-06T21:25Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "spec check of the live front page: F1 to F11 for dev@ and dev.pages@"
+    },
+    {
+      "started": "2026-11-06T21:40Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "final hand-over debrief; moving to account B"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)",

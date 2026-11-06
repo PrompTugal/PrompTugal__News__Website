@@ -128,3 +128,8 @@
     .gx-path button { grid-column: 1 / -1; justify-self: start; }
 }
 .gx-caption { margin: 8px 0; font: 400 14px/1.45 var(--sans, system-ui, sans-serif); color: var(--ink-2, var(--ink-3)); min-height: 1.45em; }
+/* on a narrow screen the filter selects wrap and shrink instead of widening the page */
+.gx-selects label { flex-wrap: wrap; max-width: 100%; }
+.gx-selects select { max-width: 100%; min-width: 0; }
+@media (max-width: 520px) { .gx-selects label { display: flex; width: 100%; margin-right: 0; } .gx-selects select { flex: 1 1 auto; } }
+.gx-actions { flex-wrap: wrap; max-width: 100%; }

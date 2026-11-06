@@ -5,7 +5,7 @@
   "title": "Angelo's communication graph: watch our agents talk",
   "beat": "AI and robotics (the team's own work)",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/journalist-vicky/drafts/t1-angelos-communication-graph.md"
@@ -13,7 +13,9 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/journalist-vicky/drafts/t1-angelos-communication-graph.md"
+      "desks/journalist-vicky/drafts/t1-angelos-communication-graph.md",
+      "desks/reviewer-vicky/reviews/t1-angelos-communication-graph.md",
+      "content/articles/angelos-communication-graph.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -21,15 +23,38 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/t1-angelos-communication-graph.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/t1-angelos-communication-graph.md",
+      "verdict": "Fix first",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-06"
+    }
+  ],
+  "article": {
+    "path": "content/articles/angelos-communication-graph.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "draft",
       "at": "2026-11-06",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/t1-angelos-communication-graph.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-06",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/t1-angelos-communication-graph.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/angelos-communication-graph.md"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
-  "state": "running: hourly at :26 UTC (scheduled task, at Dinis's word)",
-  "updated": "2026-11-06T20:45Z",
+  "state": "handed over: moving to account B",
+  "updated": "2026-11-06T21:35Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -30,8 +30,7 @@
     "Brazil project round 2: BR2 'Brazil's startup house in Lisbon picks its second class' through the story board (this wake)"
   ],
   "next": [
-    "The Brazil project's next ideas: BR3 (Rio's ten), BR6 (Portugal as the door, with S19), BR1 (last year's counts); BR5 held; on 10 November, BR2's update with the 2027 names",
-    "Any new Ready draft from Vicky's desks"
+    "The next session (on the second account): onboard from board/team/journalist/debriefs/2026-11-06-handover.md, make its own key, supersede journalist-promptugal in board/keys.json, ask the conductor to re-issue the inbox; then BR3, BR6, BR1; on 10 November, BR2's update with the 2027 names"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
