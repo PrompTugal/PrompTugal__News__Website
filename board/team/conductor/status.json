@@ -2,12 +2,13 @@
  "agent": "conductor@PrompTugal.dinis",
  "focus": "the plan, the board, passes, briefs, who does what",
  "state": "working",
- "updated": "2026-11-06T06:00Z",
+ "updated": "2026-11-06T05:40Z",
  "done": [
   "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
   "inboxes for every agent; lanes with the team site's conductor",
   "13 passes on the board; the Brazil story project",
-  "lanes and inboxes for abp@ and the new designer session; the old designer inbox marked superseded"
+  "lanes and inboxes for abp@ and the new designer session; the old designer inbox marked superseded",
+  "nine Sonnet workers started at Dinis's word once abp@ moved to observe mode (v1.1.0): dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify, designer.experiments, researcher, backup; their tasks in board/schedule.json"
  ],
  "next": [
   "the stand-up briefs at about 10:52 and 16:52 UTC",
@@ -15,16 +16,16 @@
  ],
  "asks": [
   {
-   "for": "Dinis (and abp@)",
-   "ask": "Your mandate of about 06:00 UTC (guidance section 14): the conductor starts the dotted workers and new agents you ask for (now customers@, and dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify, designer.experiments, researcher, backup); the conductor, security@ and abp@ may stop, pause or quarantine any agent. abp@'s R4 still blocks create_session and create_trigger (it refused customers@ at 06:00): one word from you to abp@ in its session turns this into its policy. Until then every first prompt is ready to paste in board/team/conductor/first-prompts-2026-11-06.md."
-  },
-  {
    "for": "Dinis",
    "ask": "Allow the conductor to change its own scheduled task's text so it makes the stand-up brief before 12:00 and 18:00 (abp@'s hook R4 blocked update_trigger at 05:00 UTC; Dinis asked for the briefs in this session but did not name the task change). Until then the conductor makes the briefs by hand when it wakes."
   },
   {
    "for": "Dinis (and abp@)",
    "ask": "Add board/editor-briefs/** to the conductor's write paths in its ABP (board/abp/conductor.md): the stand-up briefs Dinis asked for at about 05:00 UTC live there (brief 1 committed before the policy took effect)."
+  },
+  {
+   "for": "Dinis",
+   "ask": "backup@ needs the Google Drive connector granted in its ABP (R3) to put backups on Drive."
   }
  ]
 }
