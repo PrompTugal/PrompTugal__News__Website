@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.143",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 05:44 wake (77 tool calls, 10 attempts outside the grant as written: 4 sub-agents and writes to ~/vaults/, both asked of Dinis and abp@; 0 breaches)",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "1edae4de7"
+  },
+  {
     "version": "v0.1.142",
     "date": "2026-11-06",
     "what": "customers@PrompTugal.dinis: brief 1, the monetisation map: packages, runbook, 13-slide deck, newsroom page",
