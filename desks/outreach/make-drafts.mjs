@@ -11,8 +11,8 @@ import crypto from 'node:crypto';
 const ROOT = process.cwd();
 const DESK = path.join(ROOT, 'desks/outreach');
 const SITE = 'https://promptugal.news';
-const DRAFTED = '2026-11-06T0000Z';
-const DRAFTED_ISO = '2026-11-06T00:00:00Z';
+const DRAFTED = '2026-11-06T0100Z';
+const DRAFTED_ISO = '2026-11-06T01:00:00Z';
 const THREAD = '2026-11-06-promptugal-page';
 const BY = 'outreach (PrompTugal.dinis)';
 
@@ -38,59 +38,95 @@ for (const k in sessions) sessions[k].sort((a, b) => (a.date + a.start).localeCo
 const DAY_EN = { '2026-11-09': 'Monday 9 November', '2026-11-10': 'Tuesday 10 November', '2026-11-11': 'Wednesday 11 November', '2026-11-12': 'Thursday 12 November' };
 const DAY_PT = { '2026-11-09': 'segunda, 9 de novembro', '2026-11-10': 'terça, 10 de novembro', '2026-11-11': 'quarta, 11 de novembro', '2026-11-12': 'quinta, 12 de novembro' };
 
-function hookEn(name, s) {
-  if (!s.length) return `It says what ${name} does, where it sits in the summit's map of AI, and the companies it connects to there.`;
-  const more = s.length > 1 ? `, and ${s.length - 1} more session${s.length > 2 ? 's' : ''} on the page` : '';
-  return `It follows ${name} at the summit: "${s[0].title}", ${DAY_EN[s[0].date]} at ${s[0].start}${more}.`;
-}
-function hookPt(name, s) {
-  if (!s.length) return `Diz o que a ${name} faz, onde está no mapa da IA da cimeira, e as empresas com que se liga lá.`;
-  const more = s.length > 1 ? `, e mais ${s.length - 1} ${s.length > 2 ? 'sessões' : 'sessão'} na página` : '';
-  return `Acompanha a ${name} na cimeira: "${s[0].title}", ${DAY_PT[s[0].date]}, às ${s[0].start}${more}.`;
-}
-const QUESTIONS_EN = 'The page ends with the three questions we ask every company: what your AI agents can reach, what they are authorised to do, and who controls the gap between the two. Your answer goes on the page, in your words.';
-const QUESTIONS_PT = 'A página termina com as três perguntas que fazemos a todas as empresas: o que os vossos agentes de IA conseguem alcançar, o que foram autorizados a fazer, e quem controla a diferença entre as duas coisas. A vossa resposta entra na página, nas vossas palavras.';
-function askEn(name, ask) {
-  if (ask === 'meet') return `${QUESTIONS_EN} Could we hear it in 15 minutes during the summit, 9 to 12 November? Reply with a time that suits you.`;
-  if (ask === 'interview') return `${QUESTIONS_EN} Could we interview someone from ${name} on them during the summit, 9 to 12 November, 15 minutes, on the record?`;
-  return `We are writing about the summit's companies this week. Is there a fact you would add or correct before we write about ${name}?`;
-}
-function askPt(name, ask) {
-  if (ask === 'meet') return `${QUESTIONS_PT} Podemos ouvi-la em 15 minutos durante a cimeira, de 9 a 12 de novembro? Respondam com uma hora que vos dê jeito.`;
-  if (ask === 'interview') return `${QUESTIONS_PT} Podemos entrevistar alguém da ${name} durante a cimeira, de 9 a 12 de novembro, 15 minutos?`;
-  return `Esta semana escrevemos sobre as empresas da cimeira. Há algum facto que queiram acrescentar ou corrigir antes de escrevermos sobre a ${name}?`;
+// The kind of organisation decides the ask (synthetic run 1, finding 7): the three questions suit a company that
+// builds or runs AI agents; a public body or a foundation is asked what it sees, not what its agents reach.
+const PUBLIC = new Set(['aicep', 'startup-portugal', 'european-commission', 'ncsc-uk', 'linux-foundation-aaif', 'roost', 'open-vsx']);
+const kindOf = id => (PUBLIC.has(id) ? 'public' : 'company');
+
+// The topic the page files the company under (its first filed_under edge).
+function topicOf(id) {
+  const e = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/companies', id, 'edges.json'), 'utf8')).edges.find(x => x.verb === 'filed_under');
+  if (!e) return null;
+  const f = path.join(ROOT, 'data/topics', e.to.slice(6), 'topic.json');
+  return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')).name : null;
 }
 
-function en(name, url, s, ask, editor) {
+// One line from the page, true to it: the first session that names the company, else the topic it is filed under.
+function hookEn(name, s, topic) {
+  if (s.length) {
+    const more = s.length > 1 ? `, and ${s.length - 1} more session${s.length > 2 ? 's' : ''} on the page` : '';
+    return `It follows ${name} at the summit: "${s[0].title}", ${DAY_EN[s[0].date]} at ${s[0].start}${more}.`;
+  }
+  return `It says what ${name} does, from public pages, and lists it with the other companies under ${topic || 'its field'} at the summit.`;
+}
+function hookPt(name, s, topic) {
+  if (s.length) {
+    const more = s.length > 1 ? `, e mais ${s.length - 1} ${s.length > 2 ? 'sessões' : 'sessão'} na página` : '';
+    return `Acompanha a ${name} na cimeira: "${s[0].title}", ${DAY_PT[s[0].date]}, às ${s[0].start}${more}.`;
+  }
+  return `Diz o que a ${name} faz, a partir de páginas públicas, e junta-a às outras empresas em "${topic || 'o seu setor'}" na cimeira.`;
+}
+// The page's flows section is empty for every company (no flows mapped yet): the honest reason to reply.
+const flowsEn = name => `One section is still empty: ${name}'s flows, how work moves through your product and where AI agents act in it. We map them only from public pages and never guess, so a few lines from you would get it right faster.`;
+const flowsPt = name => `Há uma secção ainda vazia: os fluxos da ${name}, como o trabalho passa pelo vosso produto e onde os agentes de IA atuam. Só os mapeamos a partir de páginas públicas, sem adivinhar; umas linhas vossas acertam mais depressa.`;
+const OPT_EN = 'Answering is optional. If you would rather talk than publish, we can just talk.';
+const OPT_PT = 'Responder é opcional. Se preferirem conversar sem publicar, conversamos.';
+const WHEN_EN = 'in 15 minutes during the summit, 9 to 12 November';
+const WHEN_PT = 'em 15 minutos durante a cimeira, de 9 a 12 de novembro';
+
+function askEn(name, ask, kind) {
+  if (kind === 'public') {
+    if (ask === 'write-about') return `We are writing about the summit this week. Is there a fact about ${name} you would add or correct? ${OPT_EN}`;
+    return `We would like to hear what ${name} sees in AI coming to Portugal and Europe, ${WHEN_EN}. ${OPT_EN} Reply with a time that suits you.`;
+  }
+  const q = `The page also asks the three questions we ask every company: what your AI agents can reach, what they are authorised to do, and who controls the gap between the two.`;
+  if (ask === 'meet') return `${q} Could we hear your answer ${WHEN_EN}? ${OPT_EN} Reply with a time that suits you.`;
+  if (ask === 'interview') return `${q} Could we interview someone from ${name} on them, ${WHEN_EN}? ${OPT_EN}`;
+  return `We are writing about the summit's companies this week. Is there a fact you would add or correct before we write about ${name}? ${OPT_EN}`;
+}
+function askPt(name, ask, kind) {
+  if (kind === 'public') {
+    if (ask === 'write-about') return `Esta semana escrevemos sobre a cimeira. Há algum facto sobre a ${name} que queiram acrescentar ou corrigir? ${OPT_PT}`;
+    return `Gostávamos de ouvir o que a ${name} vê na IA que chega a Portugal e à Europa, ${WHEN_PT}. ${OPT_PT} Respondam com uma hora que vos dê jeito.`;
+  }
+  const q = `A página faz também as três perguntas que fazemos a todas as empresas: o que os vossos agentes de IA conseguem alcançar, o que foram autorizados a fazer, e quem controla a diferença entre as duas coisas.`;
+  if (ask === 'meet') return `${q} Podemos ouvir a vossa resposta ${WHEN_PT}? ${OPT_PT} Respondam com uma hora que vos dê jeito.`;
+  if (ask === 'interview') return `${q} Podemos entrevistar alguém da ${name} sobre elas, ${WHEN_PT}? ${OPT_PT}`;
+  return `Esta semana escrevemos sobre as empresas da cimeira. Há algum facto que queiram acrescentar ou corrigir antes de escrevermos sobre a ${name}? ${OPT_PT}`;
+}
+
+function en(name, url, s, ask, editor, kind, topic) {
   return {
-    subject: `${name} on PrompTugal.news: is your page right?`,
+    subject: `${name} on PrompTugal.news, before Web Summit`,
     body: [
       `Hello ${name} team,`,
       `Ahead of Web Summit Lisbon, we have written a page about ${name} on PrompTugal.news:\n${url}`,
-      hookEn(name, s),
-      `PrompTugal.news is a new newsroom from Portugal, for Europe, with one mandate: to map the universe of AI in Portugal and the companies that come to it. Every fact on the page carries its source and the date we read it. If anything is wrong or missing, reply and we will correct it, dated.`,
-      askEn(name, ask),
+      hookEn(name, s, topic),
+      ...(kind === 'company' ? [flowsEn(name)] : []),
+      `PrompTugal.news is a new newsroom from Portugal, for Europe, with one mandate: to map the universe of AI in Portugal and the companies that come to it. Every fact on the page carries its source and the date we read it; if anything is wrong, reply and we correct it, dated.`,
+      askEn(name, ask, kind),
       `Best regards,\n${editor}\nEditor, PrompTugal.news (powered by RiskMandate)`,
       `Drafted by an AI agent, reviewed and sent by me. We found this address on your website; rather not hear from us? Reply and we will not write again.`,
     ].join('\n\n'),
-    followup_1: `Hello again ${name} team,\n\nWeb Summit opens tonight. Your page is here, and a correction or an answer from you is welcome all week:\n${url}\n\nBest regards,\n${editor}, PrompTugal.news`,
-    followup_2: `Hello ${name} team,\n\nThe summit ends tomorrow, 12 November. If you would like your answer on your page, reply this week:\n${url}\n\nThis is our last note. Best regards,\n${editor}, PrompTugal.news`,
+    followup_1: `Hello again ${name} team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\n${url}\n\nBest regards,\n${editor}, PrompTugal.news`,
+    followup_2: `Hello ${name} team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\n${url}\n\nThis is our last note. Best regards,\n${editor}, PrompTugal.news`,
   };
 }
-function pt(name, url, s, ask, editor) {
+function pt(name, url, s, ask, editor, kind, topic) {
   return {
-    subject: `${name} no PrompTugal.news: a vossa página está certa?`,
+    subject: `A ${name} no PrompTugal.news, antes da Web Summit`,
     body: [
       `Olá equipa ${name},`,
-      `Antes da Web Summit Lisboa, escrevemos uma página sobre a ${name} no PrompTugal.news:\n${url}`,
-      hookPt(name, s),
-      `O PrompTugal.news é uma nova redação feita em Portugal, para a Europa, com um mandato: mapear o universo da IA em Portugal e as empresas que cá vêm. Cada facto na página tem a sua fonte e a data em que o lemos. Se algo estiver errado ou faltar, respondam e corrigimos, com data.`,
-      askPt(name, ask),
+      `Antes da Web Summit Lisboa, escrevemos uma página sobre a ${name} no PrompTugal.news (por agora, a página está em inglês):\n${url}`,
+      hookPt(name, s, topic),
+      ...(kind === 'company' ? [flowsPt(name)] : []),
+      `O PrompTugal.news é uma nova redação feita em Portugal, para a Europa, com um mandato: mapear o universo da IA em Portugal e as empresas que cá vêm. Cada facto na página tem a sua fonte e a data em que o lemos; se algo estiver errado, respondam e corrigimos, com data.`,
+      askPt(name, ask, kind),
       `Cumprimentos,\n${editor}\nEditor, PrompTugal.news (powered by RiskMandate)`,
       `Escrito por um agente de IA, revisto e enviado por mim. Encontrámos este endereço no vosso site; preferem não receber? Respondam e não voltamos a escrever.`,
     ].join('\n\n'),
-    followup_1: `Olá novamente, equipa ${name},\n\nA Web Summit abre hoje à noite. A vossa página está aqui, e uma correção ou resposta vossa é bem-vinda toda a semana:\n${url}\n\nCumprimentos,\n${editor}, PrompTugal.news`,
-    followup_2: `Olá equipa ${name},\n\nA cimeira acaba amanhã, 12 de novembro. Se quiserem a vossa resposta na página, respondam esta semana:\n${url}\n\nÉ a nossa última mensagem. Cumprimentos,\n${editor}, PrompTugal.news`,
+    followup_1: `Olá novamente, equipa ${name},\n\nA Web Summit abre hoje à noite. A vossa página está aqui, e uma correção ou umas linhas vossas são bem-vindas toda a semana:\n${url}\n\nCumprimentos,\n${editor}, PrompTugal.news`,
+    followup_2: `Olá equipa ${name},\n\nA cimeira acaba amanhã, 12 de novembro. Se quiserem acrescentar algo à vossa página, respondam esta semana:\n${url}\n\nÉ a nossa última mensagem. Cumprimentos,\n${editor}, PrompTugal.news`,
   };
 }
 
@@ -98,7 +134,7 @@ function pt(name, url, s, ask, editor) {
 function eml(msg, lang, id, editor) {
   const subj = /^[\x20-\x7e]*$/.test(msg.subject) ? msg.subject : `=?UTF-8?B?${Buffer.from(msg.subject).toString('base64')}?=`;
   return [
-    `Date: Fri, 06 Nov 2026 00:00:00 +0000`,
+    `Date: Fri, 06 Nov 2026 01:00:00 +0000`,
     `Subject: ${subj}`,
     `X-PrompTugal-Draft: from ${editor} (proposed), to ${id}'s published channel; addresses filled by the sender`,
     `X-PrompTugal-Drafted-By: ${BY}`,
@@ -119,12 +155,14 @@ targets.forEach((t, i) => {
   const url = `${SITE}/companies/${t.id}/`;
   const s = sessions[t.id] || [];
   const editor = editorFor(t, i);
+  const kind = kindOf(t.id);
+  const topic = topicOf(t.id);
   const dir = path.join(DESK, 'companies', t.id, 'comms', THREAD);
   fs.mkdirSync(dir, { recursive: true });
   const langs = t.language === 'pt' ? ['pt', 'en'] : ['en'];
   const messages = [];
   for (const lang of langs) {
-    const msg = (lang === 'pt' ? pt : en)(name, url, s, t.ask, editor);
+    const msg = (lang === 'pt' ? pt : en)(name, url, s, t.ask, editor, kind, topic);
     const base = `${DRAFTED}-draft-${t.id}-${lang}`;
     const text = eml(msg, lang, t.id, editor);
     fs.writeFileSync(path.join(dir, `${base}.eml`), text);
@@ -135,7 +173,7 @@ targets.forEach((t, i) => {
       subject: msg.subject,
       sha256: crypto.createHash('sha256').update(text).digest('hex'),
       attachments: [],
-      summary: `PrompTugal.news writes to ${name} leading with its page (${url}); asks: ${t.ask}.`,
+      summary: `PrompTugal.news writes to ${name} leading with its page (${url}); asks: ${t.ask} (${kind}).`,
       followups: { '2026-11-09': msg.followup_1, '2026-11-11': msg.followup_2 },
     };
     fs.writeFileSync(path.join(dir, `${base}.json`), JSON.stringify(card, null, 1) + '\n');
@@ -152,7 +190,7 @@ targets.forEach((t, i) => {
     drafted_by: BY, drafted_on: '2026-11-06', messages,
   };
   fs.writeFileSync(path.join(dir, 'thread.json'), JSON.stringify(thread, null, 1) + '\n');
-  index.push({ rank: t.rank, id: t.id, company: c.name, priority: t.priority, ask: t.ask, languages: langs, editor, page: url, sessions: s.length, thread: `companies/${t.id}/comms/${THREAD}/` });
+  index.push({ rank: t.rank, id: t.id, company: c.name, priority: t.priority, ask: t.ask, kind, topic, languages: langs, editor, page: url, sessions: s.length, thread: `companies/${t.id}/comms/${THREAD}/` });
 });
 fs.writeFileSync(path.join(DESK, 'drafts.json'), JSON.stringify({
   about: 'The outreach drafts as PrompTugal.news, one thread per company, each leading with the company\'s page. Drafts only, for Dinis and Silvio to review; a person sends every email. Editors are proposed: Portuguese-language drafts to Dinis Cruz, the rest alternating Vicky Wang and Indi Gupte. Made by desks/outreach/make-drafts.mjs.',

@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0100Z-draft-startup-portugal-pt.eml",
+ "direction": "draft",
+ "language": "pt",
+ "date": "2026-11-06T01:00:00Z",
+ "from": "Dinis Cruz, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Startup Portugal: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "A Startup Portugal no PrompTugal.news, antes da Web Summit",
+ "sha256": "0d0874c199561b6600a7c46cacbff899906519040d91f6a9a87283d0f770e483",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Startup Portugal leading with its page (https://promptugal.news/companies/startup-portugal/); asks: meet (public).",
+ "followups": {
+  "2026-11-09": "Olá novamente, equipa Startup Portugal,\n\nA Web Summit abre hoje à noite. A vossa página está aqui, e uma correção ou umas linhas vossas são bem-vindas toda a semana:\nhttps://promptugal.news/companies/startup-portugal/\n\nCumprimentos,\nDinis Cruz, PrompTugal.news",
+  "2026-11-11": "Olá equipa Startup Portugal,\n\nA cimeira acaba amanhã, 12 de novembro. Se quiserem acrescentar algo à vossa página, respondam esta semana:\nhttps://promptugal.news/companies/startup-portugal/\n\nÉ a nossa última mensagem. Cumprimentos,\nDinis Cruz, PrompTugal.news"
+ }
+}

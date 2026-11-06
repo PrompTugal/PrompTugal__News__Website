@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0100Z-draft-air-apps-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T01:00:00Z",
+ "from": "Dinis Cruz, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Air Apps: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Air Apps on PrompTugal.news, before Web Summit",
+ "sha256": "c569b83033760f7b2fc287ffe9855a812723b72800e22385876d875897e32db1",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Air Apps leading with its page (https://promptugal.news/companies/air-apps/); asks: write-about (company).",
+ "followups": {
+  "2026-11-09": "Hello again Air Apps team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/air-apps/\n\nBest regards,\nDinis Cruz, PrompTugal.news",
+  "2026-11-11": "Hello Air Apps team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/air-apps/\n\nThis is our last note. Best regards,\nDinis Cruz, PrompTugal.news"
+ }
+}

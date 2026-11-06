@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0100Z-draft-risiq-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T01:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Risiq GmbH: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "Risiq GmbH on PrompTugal.news, before Web Summit",
+ "sha256": "06e31f64bc8bb7a8e05b41cb7a5bdb6c393fb5fe6472f88c0d80dfff7b6db83d",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Risiq GmbH leading with its page (https://promptugal.news/companies/risiq/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again Risiq GmbH team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/risiq/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Risiq GmbH team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/risiq/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0100Z-draft-rws-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T01:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "RWS Group: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "RWS Group on PrompTugal.news, before Web Summit",
+ "sha256": "ecdd1821cd06560e3d1121797046e577ecbe3112f701898ce88b488453cf0172",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to RWS Group leading with its page (https://promptugal.news/companies/rws/); asks: write-about (company).",
+ "followups": {
+  "2026-11-09": "Hello again RWS Group team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/rws/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello RWS Group team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/rws/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

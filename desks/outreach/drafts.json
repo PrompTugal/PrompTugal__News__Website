@@ -10,6 +10,8 @@
    "company": "1Password",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -24,6 +26,8 @@
    "company": "Airia",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Governance, risk and compliance",
    "languages": [
     "en"
    ],
@@ -38,6 +42,8 @@
    "company": "Cisco (Outshift by Cisco)",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -52,6 +58,8 @@
    "company": "Cloudflare",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -66,6 +74,8 @@
    "company": "Conscium",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -80,6 +90,8 @@
    "company": "Delinea",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -94,6 +106,8 @@
    "company": "Descope",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -108,6 +122,8 @@
    "company": "Emergence",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -122,6 +138,8 @@
    "company": "Feedzai",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "pt",
     "en"
@@ -137,6 +155,8 @@
    "company": "KPMG",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Governance, risk and compliance",
    "languages": [
     "pt",
     "en"
@@ -152,6 +172,8 @@
    "company": "Linux Foundation (Agentic AI Foundation)",
    "priority": 1,
    "ask": "meet",
+   "kind": "public",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -166,6 +188,8 @@
    "company": "Mastra",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Developer tools",
    "languages": [
     "en"
    ],
@@ -180,6 +204,8 @@
    "company": "Polygraf AI",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -194,6 +220,8 @@
    "company": "Primitive",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -208,6 +236,8 @@
    "company": "Qase",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Developer tools",
    "languages": [
     "en"
    ],
@@ -222,6 +252,8 @@
    "company": "Replit",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Developer tools",
    "languages": [
     "en"
    ],
@@ -236,6 +268,8 @@
    "company": "Scrut Automation",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Governance, risk and compliance",
    "languages": [
     "en"
    ],
@@ -250,6 +284,8 @@
    "company": "Startup Portugal",
    "priority": 1,
    "ask": "meet",
+   "kind": "public",
+   "topic": "Portuguese startups",
    "languages": [
     "pt",
     "en"
@@ -265,6 +301,8 @@
    "company": "Hexamind",
    "priority": 1,
    "ask": "meet",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -279,6 +317,8 @@
    "company": "CrowdStrike",
    "priority": 1,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -293,6 +333,8 @@
    "company": "AICEP - Portugal Trade & Invest",
    "priority": 2,
    "ask": "meet",
+   "kind": "public",
+   "topic": "Portuguese startups",
    "languages": [
     "pt",
     "en"
@@ -308,6 +350,8 @@
    "company": "ChatPlace",
    "priority": 2,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Portuguese startups",
    "languages": [
     "pt",
     "en"
@@ -323,6 +367,8 @@
    "company": "Cnext",
    "priority": 2,
    "ask": "meet",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -337,6 +383,8 @@
    "company": "Firefox Enterprise by Mozilla",
    "priority": 2,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -351,6 +399,8 @@
    "company": "Melious AI GmbH",
    "priority": 2,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Platforms",
    "languages": [
     "en"
    ],
@@ -365,6 +415,8 @@
    "company": "Risiq GmbH",
    "priority": 2,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Governance, risk and compliance",
    "languages": [
     "en"
    ],
@@ -379,6 +431,8 @@
    "company": "SpaceComputer",
    "priority": 2,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -393,6 +447,8 @@
    "company": "Trent AI",
    "priority": 2,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -407,6 +463,8 @@
    "company": "TrustScale",
    "priority": 2,
    "ask": "meet",
+   "kind": "company",
+   "topic": "Governance, risk and compliance",
    "languages": [
     "en"
    ],
@@ -421,6 +479,8 @@
    "company": "AISLE",
    "priority": 2,
    "ask": "interview",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -435,6 +495,8 @@
    "company": "Kiggu",
    "priority": 2,
    "ask": "interview",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -449,6 +511,8 @@
    "company": "Temporal",
    "priority": 2,
    "ask": "interview",
+   "kind": "company",
+   "topic": "Developer tools",
    "languages": [
     "en"
    ],
@@ -463,6 +527,8 @@
    "company": "Air Apps",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Portuguese startups",
    "languages": [
     "pt",
     "en"
@@ -478,6 +544,8 @@
    "company": "European Commission",
    "priority": 2,
    "ask": "write-about",
+   "kind": "public",
+   "topic": "Other",
    "languages": [
     "en"
    ],
@@ -492,6 +560,8 @@
    "company": "Exa",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -506,6 +576,8 @@
    "company": "Exein",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -520,6 +592,8 @@
    "company": "GetVocal AI",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -534,6 +608,8 @@
    "company": "JetBrains",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Developer tools",
    "languages": [
     "en"
    ],
@@ -548,6 +624,8 @@
    "company": "Keewano",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -562,6 +640,8 @@
    "company": "LaunchDarkly",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Developer tools",
    "languages": [
     "en"
    ],
@@ -576,6 +656,8 @@
    "company": "LawVu",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Governance, risk and compliance",
    "languages": [
     "en"
    ],
@@ -590,6 +672,8 @@
    "company": "Ledger",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -604,6 +688,8 @@
    "company": "LEGALFLY",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Governance, risk and compliance",
    "languages": [
     "en"
    ],
@@ -618,6 +704,8 @@
    "company": "Manus AI",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
@@ -632,6 +720,8 @@
    "company": "National Cyber Security Centre (UK)",
    "priority": 2,
    "ask": "write-about",
+   "kind": "public",
+   "topic": "Other",
    "languages": [
     "en"
    ],
@@ -646,6 +736,8 @@
    "company": "Open VSX (Eclipse Foundation)",
    "priority": 2,
    "ask": "write-about",
+   "kind": "public",
+   "topic": "Developer tools",
    "languages": [
     "en"
    ],
@@ -660,6 +752,8 @@
    "company": "Persona",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -674,6 +768,8 @@
    "company": "Proton",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -688,6 +784,8 @@
    "company": "ROOST (Robust Open Online Safety Tools)",
    "priority": 2,
    "ask": "write-about",
+   "kind": "public",
+   "topic": "Security",
    "languages": [
     "en"
    ],
@@ -702,6 +800,8 @@
    "company": "RWS Group",
    "priority": 2,
    "ask": "write-about",
+   "kind": "company",
+   "topic": "AI agents",
    "languages": [
     "en"
    ],
