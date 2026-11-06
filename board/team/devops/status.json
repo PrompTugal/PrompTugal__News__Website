@@ -7,7 +7,8 @@
     "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as devops-promptugal; my row in data/newsroom/agents.json",
     "board/team/devops/ROLE.md and this status",
     "Health report board/team/devops/health-2026-11-06.md: the last 50 runs (42 success, 7 cancelled, 0 failed; median 65 s push to deployed), the 03:21 to 03:32 stall explained (v0.1.87's Pages deploy stuck in syncing_files until the 10 minute job timeout; five pushes dropped meanwhile), three worst problems with fixes",
-    "Problem 1 fixed: the Pages deploy waits at most 4 minutes, a stuck deployment is cancelled and deployed once more, else the job fails red; release.sh says which half is late and never reads a cached llms.txt"
+    "Problem 1 fixed: the Pages deploy waits at most 4 minutes, a stuck deployment is cancelled and deployed once more, else the job fails red; release.sh says which half is late and never reads a cached llms.txt",
+    "The fix is live: v0.1.94 (run 129, the first on the new workflow, green in 107 s) carries it; a second stall (run 120, v0.1.93, 03:44 to 03:54) held the queue on the old workflow while I watched, eight runs dropped behind it, recorded in the report"
   ],
   "next": [
     "Watch the next releases; confirm the retry path the first time Pages sticks",
@@ -25,7 +26,7 @@
     {
       "started": "2026-11-06T03:42Z",
       "outcome": "ok",
-      "release": "numbered by CI at push",
+      "release": "v0.1.94 (my commits rode run 129 after run 120 stalled)",
       "line": "First run: key, ROLE.md, status, the health report, the deploy retry and release.sh's message"
     }
   ]
