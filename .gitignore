@@ -22,6 +22,7 @@
 /news-sitemap.xml
 /feed.xml
 /robots.txt
+/sw.js
 /.generated.txt
 
 # Credentials tier: never committed (session keys, vault keys, tokens, key stores)

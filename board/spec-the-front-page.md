@@ -35,3 +35,7 @@ A briefing card, "Before the summit, in 30 seconds" (and on the summit days, "Da
 ## Images for every story
 
 The front page needs a picture for each story every day. The designer makes them: the session 1 article images (`design/infographics/`) and AI infographics (`design/ai-images/`, about 0.07 to 0.16 USD each, checked against the article before use) into the vault, listed in an `images.json` per article. Blocked today by the OpenRouter credit (about 3 USD left).
+
+## Images (17:45 UTC)
+
+Six AI infographics added to `design/infographics/out/` (thumb and card, paper and an identical ink twin), listed in its `index.json` with `layout: ai-infographic` and an `ai` record. For dev@: `newsroom/build/features/front.mjs` takes only `.png`; accepting `.jpg` too (`--paper--card.jpg`) would cut each card from about 120 KB to about 60 KB.

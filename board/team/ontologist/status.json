@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "running: hourly at :21 UTC; budgets are soft and in observe mode (Dinis, in this session, 6 November 2026: \"it is ok for an agent to do 20 commits (if relevant)\"), so I release each piece of work when it is ready",
-  "updated": "2026-11-06T17:40Z",
+  "updated": "2026-11-06T18:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -26,11 +26,12 @@
     "Inbox opened (signed by the conductor's key) and drained: 12 messages read (14:22 wake)",
     "The night's concepts in data/concepts.json: 88 terms with Dinis's definitions and sources, each with a kind and where it is implemented; schema concepts, checked by the gate (15:21 wake)",
     "Algarve Evolution's executive director named in network.json (António Pinto Guerreiro), on Dinis's guidance of 15:40; librarian@'s card and authority file reviewed on the record (board/team/ontologist/reviews/2026-11-06-library-architecture.md) (16:21 wake)",
-    "synthetic@'s F12, F24 done and F13 in part (17:21 wake): AICEP unconfirmed, Air Apps, AICEP and Startup Portugal out of Portuguese startups, conferenceSlug wording removed from 48 companies"
+    "synthetic@'s F12, F24 done and F13 in part (17:21 wake): AICEP unconfirmed, Air Apps, AICEP and Startup Portugal out of Portuguese startups, conferenceSlug wording removed from 48 companies",
+    "Centres of gravity: the verb partner_of in the ontology; Google Cloud a 2026 partner; AWS and Google 2022 top partners and Microsoft a past partner (data/organisations/web-summit/network.json); the daily hand-over debrief (18:21 wake)"
   ],
   "next": [
+    "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
     "Add the world newsroom, its types and the accepted verbs to data/ontology.json once dev@ confirms the graph features take a fifth world",
-    "AWS, Google and Microsoft centres of gravity: the edges, once researcher@'s evidence is in",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
     "A crm field from each company to its record in the team CRM"
@@ -166,6 +167,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "synthetic@'s findings F12, F13, F24 decided and fixed"
+    },
+    {
+      "started": "2026-11-06T18:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "centres of gravity edges; hand-over debrief"
     }
   ],
   "decisions_on_findings": [
@@ -184,5 +191,6 @@
       "decision": "accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@)",
       "at": "2026-11-06T17:40Z"
     }
-  ]
+  ],
+  "debrief": "board/team/ontologist/debriefs/2026-11-06-handover.md"
 }

@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T16:52Z",
+ "updated": "2026-11-06T17:52Z",
  "items": [
   {
    "id": "F01",
@@ -133,9 +133,11 @@
    "owner": "ontologist@",
    "severity": "minor",
    "finding": "Data that contradicts itself on one page (AICEP confirmed and 404; Startup Portugal 'no summit page'; Air Apps 'United States' under Portuguese startups); 'conferenceSlug lis26' shown to readers.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "done",
+   "decision": "done: this wake: AICEP's attending now says unconfirmed (its session page answered 404 on 5 and 6 November); Air Apps out of Portuguese startups (its LIS26 page says United States, no source says why); '(conferenceSlug lis26)' removed from 48 companies' attending",
+   "evidence": "17:50 UTC: marked done by ontologist@ at 17:40 ('this wake'); not yet on dev or live: '(conferenceSlug lis26)' still on 4 company pages, AICEP 'Confirmed for 2026: Yes' with 'No one is listed', Startup Portugal 'no summit page'. Re-measure at the next wake.",
+   "decided_in": "board/team/ontologist/status.json",
+   "decided_at": "2026-11-06T17:40Z"
   },
   {
    "id": "F13",
@@ -143,9 +145,11 @@
    "owner": "ontologist@",
    "severity": "minor",
    "finding": "For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "accepted",
+   "decision": "accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@)",
+   "evidence": null,
+   "decided_in": "board/team/ontologist/status.json",
+   "decided_at": "2026-11-06T17:40Z"
   },
   {
    "id": "F14",
@@ -261,9 +265,11 @@
    "owner": "ontologist@",
    "severity": "costly",
    "finding": "Sources name a speaker ('may be a past-edition highlight') while People says 'No one is listed'.",
-   "status": "open",
-   "decision": null,
-   "evidence": null
+   "status": "verified",
+   "decision": "done: 60452f0 (06:21): the track page re-read, a past-edition highlight; the source note no longer names the person",
+   "evidence": "live 17:50 UTC (v0.1.298): the 1Password page no longer names a speaker from a possibly past-edition page; only 'No one is listed' remains",
+   "decided_in": "board/team/ontologist/status.json",
+   "decided_at": "2026-11-06T17:40Z"
   },
   {
    "id": "F25",
@@ -539,5 +545,5 @@
    "evidence": null
   }
  ],
- "updated_decisions": "2026-11-06T14:44Z"
+ "updated_decisions": "2026-11-06T17:44Z"
 }

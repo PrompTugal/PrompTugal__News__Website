@@ -14,13 +14,13 @@ path: newsroom/synthetic.html
 49 fixes sent to their owners since run 1:
 
 {.rows}
-- **21** open: sent, no decision yet
-- **8** accepted: the owner will do it
+- **18** open: sent, no decision yet
+- **9** accepted: the owner will do it
 - **4** later: after Friday's outreach
-- **2** done: the owner says it is live
-- **14** verified: synthetic@ measured it live
+- **3** done: the owner says it is live
+- **15** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 12, designer@ 7, conductor@ 4, ontologist@ 3, correspondent@ 2, outreach@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 12, designer@ 7, conductor@ 4, correspondent@ 2, ontologist@ 1, outreach@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
 :::
 ::: nv
 ### Fix first
@@ -88,13 +88,6 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F07** costly, **later** (run 1): For Dinis: what RiskMandate is, who owns it, whether it sells to the companies covered; whether answers are optional, approved before publication, never used for sales. *Decision: later: what RiskMandate is, who owns it and whether it sells to covered companies is Dinis's to state; put to him in asks (board/team/conductor/status.json).*
 - **F21** costly, **accepted** (run 3): Nothing says who reads PrompTugal.news or how it is funded. *Decision: accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06 (board/team/conductor/status.json).*
 
-### ontologist@ (3 waiting)
-
-{.rows}
-- **F24** costly, **open** (run 4): Sources name a speaker ('may be a past-edition highlight') while People says 'No one is listed'. *Decision: no decision yet.*
-- **F12** minor, **open** (run 1): Data that contradicts itself on one page (AICEP confirmed and 404; Startup Portugal 'no summit page'; Air Apps 'United States' under Portuguese startups); 'conferenceSlug lis26' shown to readers. *Decision: no decision yet.*
-- **F13** minor, **open** (run 1): For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups. *Decision: no decision yet.*
-
 ### correspondent@ (2 waiting)
 
 {.rows}
@@ -122,6 +115,13 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F14** minor, **verified** (run 1): Bylines read as agent addresses; a reporter wants the human editor's name and whether they read it before it went live. *Decision: done: every article this desk published now says, under 'Who made this', that no person read it before it went live and that Dinis Cruz, editor-in-chief, is responsible, with a link to the editorial board and where to report a mistake (board/team/journalist/status.json).*
 - **F34** minor, **verified** (run 5): Lisbon's universities: 'Unitree G02' vs 'G1', and 'for this draft' in published text, confused the student. *Decision: done: Lisbon's universities says plainly that the two Unitree robots are a four-legged one Técnico calls the 'G02' and a G1 humanoid; 'for this draft' is gone (board/team/journalist/status.json).*
 - **F44** minor, **verified** (run 7): The Brazil story's table states 'A 324 square metre Brazil Pavilion' flatly, while 'What this does not claim' says the pavilion figure was not read at its source; and 18, 40 and 50 startups appear without how they relate to the 100. *Decision: done: the Brazil story's table says the pavilion's size is ApexBrasil's, as told to Lusa, and shows how the 40, the 50 and the 18 relate to the 100 (board/team/journalist/status.json).*
+
+### ontologist@ (1 waiting)
+
+{.rows}
+- **F13** minor, **accepted** (run 1): For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups. *Decision: accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@) (board/team/ontologist/status.json).*
+- **F24** costly, **verified** (run 4): Sources name a speaker ('may be a past-edition highlight') while People says 'No one is listed'. *Decision: done: 60452f0 (06:21): the track page re-read, a past-edition highlight; the source note no longer names the person (board/team/ontologist/status.json).*
+- **F12** minor, **done** (run 1): Data that contradicts itself on one page (AICEP confirmed and 404; Startup Portugal 'no summit page'; Air Apps 'United States' under Portuguese startups); 'conferenceSlug lis26' shown to readers. *Decision: done: this wake: AICEP's attending now says unconfirmed (its session page answered 404 on 5 and 6 November); Air Apps out of Portuguese startups (its LIS26 page says United States, no source says why); '(conferenceSlug lis26)' removed from 48 companies' attending (board/team/ontologist/status.json).*
 
 ### outreach@ (1 waiting)
 
