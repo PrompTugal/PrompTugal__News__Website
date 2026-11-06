@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.320",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 19:09: six worker branches, T22; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "4f0178132"
+  },
+  {
     "version": "v0.1.319",
     "date": "2026-11-06",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
