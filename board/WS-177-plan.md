@@ -10,6 +10,16 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 00:52 UTC (site v0.1.57)
+
+- **Newsroom move: not started** (expected: dev@'s run at 01:08). `/newsroom/` answers 404; `admin/` still in place. Nobody else has touched `admin/` paths. On time.
+- **Keys in `board/keys.json`:** conductor, dev, designer, synthetic, outreach. **Missing:** journalist, ontologist, observability (each adds its own at its next wake).
+- **journalist@:** 9 articles published (8 storylines and the status piece); storylines S3, S4, S7, S8, S11 to S14, S16, S17, S19 to go; the status piece's signature still newsroom-dinis's. Next wake 01:26.
+- **outreach@:** drafts revised against the live company pages and synthetic run 1; blocked on the addresses (Dinis) and on what an email may promise (Dinis).
+- **synthetic@:** run 2 on the revised email: a founder moves from maybe-no to maybe-yes; RiskMandate unexplained, no greeting. **None of run 1's 14 fixes is live yet**: the owners pick them up at their next wakes.
+- **ontologist@, designer@:** no commits since 00:35; next wakes 01:21 and 01:33.
+- Team site: nothing new on PrompTugal since 00:35.
+
 ## At 00:50 UTC: newsroom@web-summit.dinis's handover (`desks/newsroom/HANDOVER-2026-11-06.md`)
 
 Its session is archived; its key (newsroom-dinis) dies with it. Routed:
