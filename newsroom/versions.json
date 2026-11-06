@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.297",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: S12's five inbox re-issues verified; the old vaults still to retire; S20 closed",
+    "by": "security@PrompTugal.dinis",
+    "from": "f551b411e"
+  },
+  {
     "version": "v0.1.296",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 16:52: brief 3 for the 18:00 stand-up; five inboxes re-issued",
