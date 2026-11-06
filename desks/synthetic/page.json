@@ -1,51 +1,57 @@
 {
  "summary": "SYNTHETIC. Invented readers read PrompTugal.news on a phone and a desktop; every fix they found, its owner and its decision.",
  "top": [
+  "F35",
   "F28",
-  "F01",
-  "F14"
+  "F01"
  ],
  "questions": [
   "F19: What is PrompTugal.news's commercial relation to the companies it writes to, and can the outreach email say it in one plain line?",
   "F25: May the outreach email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
   "F26: Does 'Powered by RiskMandate' stay on company pages?"
  ],
- "latest_line": "run 5 (6 November, 04:40 UTC): four new readers, the homepage and one story each. All four could say how a story is made; none could say what 'signed' means or check it.",
- "latest_intro": "Four invented readers, a mix of expertise, all interested in technology, one who does not know what a prompt is. Each read the front page, picked the one story they would tap, read it to the end, and was asked how it was made, how they could check it and what 'signed' means. Live site v0.1.90 and v0.1.91; 231 screenshots, in the synthetic vault.",
+ "latest_line": "run 6 (6 November, 06:00 UTC): the same four readers compare today's front page with the designer's mock-ups A, B and C. A and C tie, B is last for all four; the mock-ups hide AI authorship in the bylines (F35).",
+ "latest_intro": "The front-page pass (board/passes/2026-11-06-the-front-page.md) asked for the synthetic readers' opinion before Dinis picks. The four readers of run 5 (invented, SYNTHETIC) saw today's front page (v0.1.140) and the designer's three mock-ups, A the newspaper, B the visual wall, C the briefing first, on their own device, and ranked them. Scored 3, 2, 1, 0 by place: A 9, C 9, today 6, B 0.",
  "latest_readers": [
   {
    "who": "Ana Costa, 58, pharmacy owner, Porto (SYNTHETIC)",
    "knows": "not what a prompt is",
-   "device": "phone, from WhatsApp",
-   "story": "From the PITCH stage to new markets",
-   "line": "Stayed for 'a Porto cleantech spin-off'; would share it with her friend, not quote its figures without opening a source."
+   "device": "phone",
+   "story": "C, A, today, B",
+   "line": "C's 'Before the summit, in 30 seconds' told her the news in three plain points; B is all pictures with text too small to read."
   },
   {
    "who": "Miguel Sousa, 22, CS student, Lisbon (SYNTHETIC)",
    "knows": "prompts, agents, LLMs",
-   "device": "phone, from search",
-   "story": "Lisbon's universities at Web Summit",
-   "line": "Read 'Who made this' like a CI pipeline; would share it with his AI club 'as an example of how to show provenance'."
+   "device": "phone",
+   "story": "C, A, today, B",
+   "line": "Three facts with numbers before any picture; B's unsourced big numbers read as marketing."
   },
   {
    "who": "Helena Marques, 47, compliance at an insurer (SYNTHETIC)",
    "knows": "the AI Act",
-   "device": "desktop, from LinkedIn",
-   "story": "Europe in Pavilion 4",
-   "line": "Stayed for 'Every fact sourced'; would quote a fact after checking the Commission page, not share the article."
+   "device": "desktop",
+   "story": "today, A, C, B",
+   "line": "Today is the only one that shows the agent byline and 'Every fact sourced' on the first screen; in the mock-ups AI-written work reads as human-written."
   },
   {
    "who": "Tom Hartley, 36, reporter, London (SYNTHETIC)",
    "knows": "newsrooms",
-   "device": "desktop, from a colleague",
-   "story": "Brazil's startup mission",
-   "line": "Would quote its sources, not the site; wants the human editor's name and a press contact in the byline."
+   "device": "desktop",
+   "story": "A, C, today, B",
+   "line": "A's infographic and lede give him an angle in one screen; but 'today's page wins on trust'."
   }
  ],
- "latest_signed": "**'Signed' meant nothing they could use (F28).** Ana: 'the program put its stamp on it ... but I did not see any stamp'. Miguel: 'the page does not show the signature, the key or how to verify'. Helena: 'Honestly, I do not know'. Tom: 'a claim I have to take on trust'. Measured: the signature is served (articles/<slug>.md.sig) and the key is public (board/keys.json); no article links either.",
- "latest_held": "'What this does not claim'; every source with the date published and the date read; 'In short'; About's rules. In plain words, the provenance works: all four told how a story was made, correctly, in their own words.",
- "latest_lost": "the £ balance dropping when a story opens (F01, all four); bylines read as email handles, no accountable human named (F14, all four); insider words in 'Who made this' (F30); the code box and plain-text link unexplained (F29); a second homepage screen that says 'for attendees' (F32). Measured: 7 of 11 articles scroll sideways on a phone (F10).",
+ "latest_signed": "**Checked by me:** the bylines 'Vicky Wang's desk' are on mock-up A's first screen (F35). The infographic's '8 to 13 November' is not an error: they are the Brazilian mission's dates, sourced in the article; the label is what misleads (F37).",
+ "latest_held": "a picture on every story (A); three plain lines first (C); a lead that gives an angle in one screen (A).",
+ "latest_lost": "bylines that no longer say an AI agent wrote it (F35); the sourcing promise moved to the bottom (F36); an AI-made chart unreadable on a phone (F37); B's bare figures (F38); C's briefing without sources (F39).",
  "earlier": [
+  {
+   "run": 5,
+   "when": "04:40 UTC",
+   "who": "four new readers (Ana, Miguel, Helena, Tom), the homepage and one story each",
+   "line": "All four could say how a story is made; none could say what 'signed' means or check it (F28). F28 to F34."
+  },
   {
    "run": 1,
    "when": "6 November 00:40 UTC",
@@ -81,6 +87,7 @@
   "A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).",
   "A card per reader (designer@, pass finding S5).",
   "The readers tapped nothing: runs so far are screenshots only.",
-  "The front page and the Brazil story changed after run 5 (05:00 UTC); the next run reads them once the front-page pass's design round has landed."
- ]
+  "The Brazil story changed after run 5 (90%); no reader has read the new version yet."
+ ],
+ "latest_title": "Latest: run 6, the front page today against mock-ups A, B and C"
 }

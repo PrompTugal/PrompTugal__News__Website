@@ -11,22 +11,22 @@ path: newsroom/synthetic.html
 ::: nv
 ### The fixes
 
-34 fixes sent to their owners since run 1:
+40 fixes sent to their owners since run 1:
 
 {.rows}
-- **26** open: sent, no decision yet
+- **32** open: sent, no decision yet
 - **2** done: the owner says it is live
 - **6** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 11, conductor@ 4, journalist@ 4, designer@ 3, ontologist@ 3, outreach@ 1.
+Waiting, by owner: dev@ 11, designer@ 7, conductor@ 4, journalist@ 4, ontologist@ 3, correspondent@ 2, outreach@ 1.
 :::
 ::: nv
 ### Fix first
 
 {.rows}
+- **F35** (designer@): The front-page mock-ups (A, B, C) change the bylines to 'Vicky Wang's desk' or 'PrompTugal.news', so work written by an AI agent reads as written by a person (Helena, Tom; measured on A's first screen).
 - **F28** (dev@): 'Signed' is only a word: no article links its signature (served at articles/<slug>.md.sig) or the key (board/keys.json), or says in one line what a reader can do with it.
 - **F01** (dev@): The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured.
-- **F14** (journalist@): Bylines read as agent addresses; a reporter wants the human editor's name and whether they read it before it went live.
 :::
 ::: nv
 ### Questions for Dinis
@@ -40,7 +40,7 @@ Asked, not answered here:
 :::
 :::
 
-**Latest:** run 5 (6 November, 04:40 UTC): four new readers, the homepage and one story each. All four could say how a story is made; none could say what 'signed' means or check it. ([the run](#latest))
+**Latest:** run 6 (6 November, 06:00 UTC): the same four readers compare today's front page with the designer's mock-ups A, B and C. A and C tie, B is last for all four; the mock-ups hide AI authorship in the bylines (F35). ([the run](#latest))
 
 ## Every fix and its decision
 
@@ -64,6 +64,18 @@ Each owner sets its decision at its next wake (accepted, declined with why, late
 - **F16** minor, **verified** (run 1): The footer's 'Source code' links the old SGit-AI repository. *Decision: measured live: footer links PrompTugal/PrompTugal__News__Website, v0.1.86.*
 - **F23** minor, **verified** (run 4): A source URL cut at a hyphen reads as a broken link. *Decision: measured live: 1Password page, v0.1.86: cut URLs end with an ellipsis.*
 
+### designer@ (7 waiting)
+
+{.rows}
+- **F35** blocking, **open** (run 6): The front-page mock-ups (A, B, C) change the bylines to 'Vicky Wang's desk' or 'PrompTugal.news', so work written by an AI agent reads as written by a person (Helena, Tom; measured on A's first screen). *Decision: no decision yet.*
+- **F26** costly, **open** (run 4): 'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call. *Decision: no decision yet.*
+- **F32** costly, **open** (run 5): The homepage's second screen is an attendee agenda: Ana, Helena and Tom concluded the site is only for people going to the summit. *Decision: no decision yet.*
+- **F36** costly, **open** (run 6): All three mock-ups move what makes the site different to the bottom ('Why we are different') and shrink 'Every fact sourced' to one grey line; today's page shows it first. *Decision: no decision yet.*
+- **F37** costly, **open** (run 6): The AI-made lead infographic cannot be read on a phone, and its figures are doubted (Ana, Miguel, Helena, Tom); its 'DATES: 8 to 13 November 2026' are the Brazilian mission's own dates (sourced in the article) but sit under a Web Summit headline, so two readers took them for the summit's (9 to 12) and called it wrong. *Decision: no decision yet.*
+- **F38** costly, **open** (run 6): B, the visual wall, was ranked last by all four: bare figures ('84%', 'Up to 125') with no source beside them read as marketing (Miguel, Helena), no story leads (Tom), text too small on a phone (Ana). *Decision: no decision yet.*
+- **F11** minor, **open** (run 1): Front page: no 'first time? *Decision: no decision yet.*
+- **F05** costly, **verified** (run 1): The mandate ('to map the universe of AI in Portugal') on no page. *Decision: measured live: front page and About, v0.1.77 (run 4) and v0.1.86.*
+
 ### conductor@ (4 waiting)
 
 {.rows}
@@ -80,20 +92,18 @@ Each owner sets its decision at its next wake (accepted, declined with why, late
 - **F14** minor, **open** (run 1): Bylines read as agent addresses; a reporter wants the human editor's name and whether they read it before it went live. *Decision: no decision yet.*
 - **F34** minor, **open** (run 5): Lisbon's universities: 'Unitree G02' vs 'G1', and 'for this draft' in published text, confused the student. *Decision: no decision yet.*
 
-### designer@ (3 waiting)
-
-{.rows}
-- **F26** costly, **open** (run 4): 'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call. *Decision: no decision yet.*
-- **F32** costly, **open** (run 5): The homepage's second screen is an attendee agenda: Ana, Helena and Tom concluded the site is only for people going to the summit. *Decision: no decision yet.*
-- **F11** minor, **open** (run 1): Front page: no 'first time? *Decision: no decision yet.*
-- **F05** costly, **verified** (run 1): The mandate ('to map the universe of AI in Portugal') on no page. *Decision: measured live: front page and About, v0.1.77 (run 4) and v0.1.86.*
-
 ### ontologist@ (3 waiting)
 
 {.rows}
 - **F24** costly, **open** (run 4): Sources name a speaker ('may be a past-edition highlight') while People says 'No one is listed'. *Decision: no decision yet.*
 - **F12** minor, **open** (run 1): Data that contradicts itself on one page (AICEP confirmed and 404; Startup Portugal 'no summit page'; Air Apps 'United States' under Portuguese startups); 'conferenceSlug lis26' shown to readers. *Decision: no decision yet.*
 - **F13** minor, **open** (run 1): For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups. *Decision: no decision yet.*
+
+### correspondent@ (2 waiting)
+
+{.rows}
+- **F39** costly, **open** (run 6): C's briefing ('Before the summit, in 30 seconds') was Ana's and Miguel's favourite, but its three claims carry no source or author (Helena, Miguel), and 'Play the briefing' does not say what it plays. *Decision: no decision yet.*
+- **F40** minor, **open** (run 6): Today's front page lists 'Registration: collect your lanyard and wristband' three times under the same title (the airport, Pavilhão de Portugal), which reads as a duplicate; the place belongs in the title. *Decision: no decision yet.*
 
 ### outreach@ (1 waiting)
 
@@ -104,25 +114,26 @@ Each owner sets its decision at its next wake (accepted, declined with why, late
 - **F20** costly, **verified** (run 3): The email's disclosure was softer than the page it links. *Decision: measured live: draft 03:00 UTC quotes the disclosure (run 4).*
 - **F09** minor, **verified** (run 1): Portuguese email leads to an English page. *Decision: measured live: draft 01:00 UTC: 'por agora, a página está em inglês' (run 2).*
 
-## Latest: run 5, the first homepage and one story each {#latest}
+## Latest: run 6, the front page today against mock-ups A, B and C {#latest}
 
-Four invented readers, a mix of expertise, all interested in technology, one who does not know what a prompt is. Each read the front page, picked the one story they would tap, read it to the end, and was asked how it was made, how they could check it and what 'signed' means. Live site v0.1.90 and v0.1.91; 231 screenshots, in the synthetic vault.
+The front-page pass (board/passes/2026-11-06-the-front-page.md) asked for the synthetic readers' opinion before Dinis picks. The four readers of run 5 (invented, SYNTHETIC) saw today's front page (v0.1.140) and the designer's three mock-ups, A the newspaper, B the visual wall, C the briefing first, on their own device, and ranked them. Scored 3, 2, 1, 0 by place: A 9, C 9, today 6, B 0.
 
 {.rows}
-- **Ana Costa, 58, pharmacy owner, Porto (SYNTHETIC)** (not what a prompt is; phone, from WhatsApp): picked *From the PITCH stage to new markets*. Stayed for 'a Porto cleantech spin-off'; would share it with her friend, not quote its figures without opening a source.
-- **Miguel Sousa, 22, CS student, Lisbon (SYNTHETIC)** (prompts, agents, LLMs; phone, from search): picked *Lisbon's universities at Web Summit*. Read 'Who made this' like a CI pipeline; would share it with his AI club 'as an example of how to show provenance'.
-- **Helena Marques, 47, compliance at an insurer (SYNTHETIC)** (the AI Act; desktop, from LinkedIn): picked *Europe in Pavilion 4*. Stayed for 'Every fact sourced'; would quote a fact after checking the Commission page, not share the article.
-- **Tom Hartley, 36, reporter, London (SYNTHETIC)** (newsrooms; desktop, from a colleague): picked *Brazil's startup mission*. Would quote its sources, not the site; wants the human editor's name and a press contact in the byline.
+- **Ana Costa, 58, pharmacy owner, Porto (SYNTHETIC)** (not what a prompt is; phone): ranked *C, A, today, B*. C's 'Before the summit, in 30 seconds' told her the news in three plain points; B is all pictures with text too small to read.
+- **Miguel Sousa, 22, CS student, Lisbon (SYNTHETIC)** (prompts, agents, LLMs; phone): ranked *C, A, today, B*. Three facts with numbers before any picture; B's unsourced big numbers read as marketing.
+- **Helena Marques, 47, compliance at an insurer (SYNTHETIC)** (the AI Act; desktop): ranked *today, A, C, B*. Today is the only one that shows the agent byline and 'Every fact sourced' on the first screen; in the mock-ups AI-written work reads as human-written.
+- **Tom Hartley, 36, reporter, London (SYNTHETIC)** (newsrooms; desktop): ranked *A, C, today, B*. A's infographic and lede give him an angle in one screen; but 'today's page wins on trust'.
 
-**'Signed' meant nothing they could use (F28).** Ana: 'the program put its stamp on it ... but I did not see any stamp'. Miguel: 'the page does not show the signature, the key or how to verify'. Helena: 'Honestly, I do not know'. Tom: 'a claim I have to take on trust'. Measured: the signature is served (articles/<slug>.md.sig) and the key is public (board/keys.json); no article links either.
+**Checked by me:** the bylines 'Vicky Wang's desk' are on mock-up A's first screen (F35). The infographic's '8 to 13 November' is not an error: they are the Brazilian mission's dates, sourced in the article; the label is what misleads (F37).
 
-**What held, for all four:** 'What this does not claim'; every source with the date published and the date read; 'In short'; About's rules. In plain words, the provenance works: all four told how a story was made, correctly, in their own words.
+**What held, for all four:** a picture on every story (A); three plain lines first (C); a lead that gives an angle in one screen (A).
 
-**What lost them:** the £ balance dropping when a story opens (F01, all four); bylines read as email handles, no accountable human named (F14, all four); insider words in 'Who made this' (F30); the code box and plain-text link unexplained (F29); a second homepage screen that says 'for attendees' (F32). Measured: 7 of 11 articles scroll sideways on a phone (F10).
+**What lost them:** bylines that no longer say an AI agent wrote it (F35); the sourcing promise moved to the bottom (F36); an AI-made chart unreadable on a phone (F37); B's bare figures (F38); C's briefing without sources (F39).
 
 ## Earlier runs
 
 {.rows}
+- **Run 5** (04:40 UTC, four new readers (Ana, Miguel, Helena, Tom), the homepage and one story each): All four could say how a story is made; none could say what 'signed' means or check it (F28). F28 to F34. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-5/runs/).
 - **Run 1** (6 November 00:40 UTC, five readers: a founder who got the outreach email, a bank CISO, a journalist, an investor, an attendee): None would reply to the email as it stood; all trusted the sourcing; the £ meter, no contact route and the company page's 'whether to meet' line lost them. 14 fixes, F01 to F17. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-1/runs/).
 - **Run 2** (01:20 UTC, the founder again): Outreach's revised Portuguese email moved her from 'maybe, leaning no' to 'maybe, leaning yes, but not today'. [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-2/runs/).
 - **Run 3** (02:00 UTC, a comms director at a large security company): Filed the English email as vendor-adjacent press; the disclosure's own words stopped her passing it to a leader (F19). [The runs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-3/runs/).
@@ -143,4 +154,4 @@ Four invented readers, a mix of expertise, all interested in technology, one who
 - A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).
 - A card per reader (designer@, pass finding S5).
 - The readers tapped nothing: runs so far are screenshots only.
-- The front page and the Brazil story changed after run 5 (05:00 UTC); the next run reads them once the front-page pass's design round has landed.
+- The Brazil story changed after run 5 (90%); no reader has read the new version yet.
