@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.99",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: the OpenRouter key in the environment, and the rules for it",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "de2863483"
+  },
+  {
     "version": "v0.1.98",
     "date": "2026-11-06",
     "what": "sherpa@PrompTugal.dinis: reviews of the front page (8 findings) and the summit days (7 needs for round 1); blocked on security@'s pre-review of both passes",
