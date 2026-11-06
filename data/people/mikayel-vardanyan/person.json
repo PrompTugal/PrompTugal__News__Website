@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mikayel-vardanyan",
+  "type": "person",
+  "name": "Mikayel Vardanyan",
+  "role": "Co Founder & COO",
+  "organisation": "Picsart",
+  "org": "organisation:picsart",
+  "listings": [
+    {
+      "role": "Co Founder & COO",
+      "organisation": "Picsart",
+      "org": "organisation:picsart",
+      "event": "event:western-tech-all-is-not-lost",
+      "source": "https://websummit.com/sessions/lis26/f37463f8-5aab-4dfa-9c95-2c91596ebd38/western-tech-all-is-not-lost/",
+      "read_at": "2026-11-06T08:18Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

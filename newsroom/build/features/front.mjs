@@ -44,7 +44,7 @@ export const fill = {
         return `{.field-list}\n${fields.map(([t, n]) => `- [${t.name} \`${n}\`](${ctx.link(page.rel, `topics/${t.id}/index.html`)})`).join('\n')}`
     },
     'front:around': (page, ctx) => {
-        const next = ctx.store.events.filter(e => e.organiser === 'other' && (e.end_date || e.date) >= ctx.TODAY).sort((a, b) => (a.date + (a.time || '')).localeCompare(b.date + (b.time || ''))).slice(0, 6)
+        const next = ctx.store.events.filter(e => e.organiser === 'other' && (e.end_date || e.date) >= ctx.TODAY).sort((a, b) => (a.date + (a.time || '')).localeCompare(b.date + (b.time || ''))).slice(0, 3)
         return next.length ? `{.agenda .cols}\n${next.map(e => slotLine(ctx, page.rel, e)).join('\n')}` : 'Nothing else in our programme from today.'
     },
 }

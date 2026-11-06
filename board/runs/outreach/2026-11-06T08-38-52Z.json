@@ -1,0 +1,88 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "outreach@PrompTugal.dinis",
+ "run": "2026-11-06T08-38-52Z",
+ "started": "2026-11-06T08:38:52.643Z",
+ "ended": "2026-11-06T08:40:22Z",
+ "line": "drafts follow the programme's new times and Conscium's flow; F25 decided later",
+ "policy": {
+  "version": "1.4.0",
+  "sha256": "7f47bb044843d5bd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T08:38:52.935Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T08:38:52.643Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "other": 1,
+   "git": 2,
+   "web": 1,
+   "secret": 1,
+   "shell": 4,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 9,
+  "commits": [
+   {
+    "sha": "7c020a770",
+    "subject": "outreach@PrompTugal.dinis: drafts follow the live pages: the programme's new times (Emergence, Ledger, Persona) and Conscium's mapped flow",
+    "files": 13
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T08:39:39.190Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "sed desks/synthetic/to/2026-11-06-how-to-decide.md: a private key or credentials file is never read into the conversation",
+    "target": "cd /home/user/PrompTugal__News__Website && python3 -I -c \"\nimport json;d=json.load(open('desks/synthetic/findings.json'));rows=d.get('findings') or d.get('rows') or d\nfor r in (rows if isinstance(rows,list) else []):\n  if isinstance(r,dict)"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 10,
+  "in_mandate": 9,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

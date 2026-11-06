@@ -18,11 +18,14 @@ To diversify the Algarve's economy beyond tourism and help established industrie
 ## Programmes {#programmes}
 
 {.rows}
-- **Algarve Digital Innovators (ADI)**, a community network under the Algarve EMPREENDE 2026 project. Its July 2026 plan counts 24 communities and 144 consultants and mentors, and sets goals for 2030 that depend on funding and regional coordination.
+- **Algarve Digital Innovators (ADI)**, a network of innovation communities across the Algarve's 16 municipalities, launched in Lagos in September 2025 ([postal.pt](https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/)), under the Algarve EMPREENDE 2026 project. Its July 2026 plan counts 24 communities and 144 consultants and mentors, and sets goals for 2030 that depend on funding and regional coordination.
 - **Education**: work with the University of Algarve, Junior Achievement Portugal ("The Company") and Vibathon Algarve.
 - **Algarve Evolution Incubator**: recognised by Startup Portugal in January 2026.
 - **Founder2Founder**: a six-month growth programme launched in October 2026; 8 companies chosen from 41 applications; no equity taken. An early-stage incubation programme is planned for 2027.
 - **INOVA ALGARVE 3.0**: digital transition for tourism SMEs, with a pilot of free AI and robotics consultancy for 20 SMEs.
+- **Algarve Tech Hub Summit**: co-organised with the University of Algarve and Algarve STP, according to Portugal Startup News. The 2025 edition in Lagos (6 to 7 November 2025) reported more than 500 participants ([postal.pt](https://postal.pt/algarve/mais-de-500-pessoas-participaram-na-algarve-tech-hub-summit-2025-em-lagos/), headline read 6 November 2026); it is confirmed to return in 2027, with no date or venue announced.
+- **Grow Algarve Meetup**: its Meetup page names Algarve Evolution as organiser; 1,623 members and monthly gatherings across Algarve municipalities, none listed as upcoming on 6 November 2026 ([Meetup](https://www.meetup.com/grow-algarve-meetup/), read 6 November 2026).
+- **Venture Lab by AlgarveSTP**: Algarve Evolution is one of six partners; 12 startups and SMEs selected for mentoring (published 10 July 2026). Its specific role is not described ([postal.pt](https://postal.pt/algarve/venture-lab-by-algarvestp-seleciona-12-empresas-para-acelerar-crescimento/), read 6 November 2026).
 - **Innovation and Collaboration Platform for Digitalization**: sessions towards a Regional Collaborative Plan, with governance recommendations for CCDR-Algarve.
 
 Sources: [Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/) and [algarveevolution.pt](https://www.algarveevolution.pt), both read 6 November 2026.
@@ -40,7 +43,11 @@ Source: [Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algar
 
 ## Partners named {#partners}
 
-University of Algarve, Algarve STP, Junior Achievement Portugal, Startup Portugal, Informa D&B and CCDR-Algarve. Algarve Evolution also co-organises the Algarve Tech Hub Summit with the University of Algarve and Algarve STP; the next one, in 2027, has no announced date or venue yet.
+University of Algarve, Algarve STP, AMAL, NERA, ANJE, Junior Achievement Portugal, Startup Portugal, Informa D&B and CCDR-Algarve (sources above).
+
+## Web Summit before: 2025 {#websummit}
+
+The regulation of the competition "Participation of Algarve Startups in Web Summit Lisbon 2025" names the Algarve Evolution Association as a project partner, with the University of Algarve (lead promoter), AMAL, Algarve STP and NERA. It promoted the participation of 24 Algarve startups at Web Summit Lisbon, 10 to 13 November 2025, and Algarve Evolution held one of the five permanent jury seats ([ANJE, regulation PDF](https://anje.pt/wp-content/uploads/Regulamento-Participacao-Startups-Websummit-2025_01_09_2025_Paginado-versao-EN.pdf), read 6 November 2026; also [Portugal Resident](https://stg.portugalresident.com/algarve-to-be-represented-by-24-startups-at-web-summit-2025/)). For 2026 we have found no confirmed Algarve Evolution presence at Web Summit Lisbon or event of its own in summit week: that is a question for the meeting.
 
 ## The Algarve in summit week {#events}
 
@@ -58,5 +65,7 @@ The wider week: [Portugal Tech Week](../index.md), 6 to 15 November, across the 
 Not yet. We list a person only when what we say is public and professional and, where it is ours to ask, with their yes. Leadership is named by role in the sources above.
 
 ## Correct us, add to us {#correct}
+
+Open: its own site was unreachable for part of our research, so leadership, the member list and its summit-week plans are not yet confirmed first-hand. The 2022 start of the Tech Hub Summit (Portugal Startup News) and the 2024 article calling 2024 its second edition do not obviously agree; we have not resolved that.
 
 What do we have wrong? What programme, partner or event is missing? Tell Dinis Cruz, who runs PrompTugal.news, and the correction goes into the data with its source and the date.
