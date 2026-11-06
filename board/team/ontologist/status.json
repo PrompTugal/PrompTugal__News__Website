@@ -1,8 +1,8 @@
 {
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
-  "state": "running: hourly at :21 UTC; at my day's release budget after this wake (10 of 10), so later wakes today do work without releasing, or stop",
-  "updated": "2026-11-06T09:40Z",
+  "state": "running: hourly at :21 UTC; budgets capture, they do not block (Dinis, 10:10 UTC, board/guidance/2026-11-06-budgets-capture-not-block.md)",
+  "updated": "2026-11-06T10:20Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -16,7 +16,8 @@
     "synthetic@'s finding on 1Password fixed at the source: the Developer Summit track page re-read, a past-edition highlight, the name left out; Airia's two flows mapped from its home page (this wake)",
     "Cloudflare's flow (an agent pauses for a person before a side-effecting action), from its Agents docs; Cisco Outshift left unmapped: its page is script-rendered and names no product flow of its own (this wake)",
     "Conscium's flow (VerifyAX verifies an agent before and after production), from its home page; Delinea held: its agents page is a gated whitepaper (this wake)",
-    "Descope's flow (an agent gets just the access it needs, from its Agentic Identity Hub docs) and Emergence AI's (agents across the semiconductor lifecycle, from its home page) (this wake); flows now mapped for 1Password, Airia, Cloudflare, Conscium, Descope, Emergence AI"
+    "Descope's flow (an agent gets just the access it needs, from its Agentic Identity Hub docs) and Emergence AI's (agents across the semiconductor lifecycle, from its home page) (this wake); flows now mapped for 1Password, Airia, Cloudflare, Conscium, Descope, Emergence AI",
+    "The agent pattern in common.schema.json takes dotted workers' names (dev.data@ was blocked since 07:40); dev.data's branch merged onto it passes the gate (10:15)"
   ],
   "next": [
     "After the release budget resets (00:00 UTC): flows for the rest of the outreach list in its order; Cisco Outshift and Delinea once an ungated page says how; Wikipedia round 2 once accountant@ budgets it",
@@ -93,6 +94,12 @@
       "outcome": "ok",
       "release": "this wake's (10 of 10 today)",
       "line": "Descope's and Emergence AI's flows"
+    },
+    {
+      "started": "2026-11-06T10:12Z",
+      "outcome": "ok",
+      "release": "this one's",
+      "line": "dotted names in the agent pattern, unblocking dev.data@"
     }
   ]
 }
