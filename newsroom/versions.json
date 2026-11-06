@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.188",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: 09:30 wake: the summit days' proposals and the front page's round 2 read as a cold reader (go, with small rows), the top re-measured (no change), the people and Portugal pages reviewed; blocked on the quick fixes going live and my inbox's drain",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "09d05fe61"
+  },
+  {
     "version": "v0.1.187",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
