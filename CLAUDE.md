@@ -18,6 +18,10 @@ Focused rounds of work on one thing (a page, a feature, a set of findings), in a
 
 Dinis added `OPEN_ROUTER_KEY` to the cloud environment on 6 November 2026, limited by credit, for AI-made images and infographics (designer@ first). It is read from the environment only: never printed, logged, committed, put in a page or a vault file, or sent anywhere but openrouter.ai. A session started before it was added sees it only after a restart. Every call counts against the budget accountant@ sets (`board/budgets.json`); say in the commit what was generated and with which model.
 
+## Dotted names and the review workflow
+
+At Dinis's word (6 November 2026): a specialist of a role is named with a dot, `<role>.<speciality>@PrompTugal.dinis` (`dev.search@`), safe in paths, URLs, key ids (`dev.search-promptugal`), commits and the shell. The dotted workers run on Sonnet; the role's main agent (dev@ on Opus, designer@ for designer.*) reviews their work. A worker pushes to its own branch `work/<role>.<speciality>`, never to `dev`; at each wake the main agent reviews the branch's new commits (the gate, the diff, its fit with the rest), brings what passes onto `dev` with the release script, and answers on the worker's lane what it did not take and why.
+
 ## Fewer sessions, more sub-agents
 
 At Dinis's word (6 November 2026): no explosion of agents. One session can run several roles as sub-agents in a run (the correspondent runs its beat correspondents; the journalist may run two or three writers when the pipeline needs them). A new session only at Dinis's word.
@@ -65,7 +69,7 @@ The agent makes its own session key (`pki-agent.mjs keygen --session`), keeps th
 
 ## The PrompTugal team (from 6 November 2026)
 
-At Dinis's word (5 November 2026, ~23:55 UTC), sixteen agents run PrompTugal.news, each in its own Claude Code session,
+At Dinis's word (5 November 2026, ~23:55 UTC), sixteen agents (twenty-five with the dotted workers below, once started) run PrompTugal.news, each in its own Claude Code session,
 all named `<role>@PrompTugal.dinis` (Dinis is their operator; only he instructs them). Each commits with its own name
 (subject `<role>@PrompTugal.dinis: <what>`, trailers `Agent: <role>@PrompTugal.dinis`, `Issue: WS-NN`, `For: <name>`)
 and releases with `AGENT=<role>@PrompTugal.dinis newsroom/tools/release.sh`. Each makes its own session key and publishes
@@ -87,6 +91,15 @@ the public half in this repository's `board/keys.json` (id `<role>-promptugal`),
 | `security@PrompTugal.dinis` | the pre-review and post-review of every pass (first and last after the conductor); reviews of commits for keys, contact details, private data and harm; can write `board/HOLD.md` | fixes what it finds in others' paths, or lifts a hold (only Dinis does) |
 | `sherpa@PrompTugal.dinis` | the reader's guide and voice: usability and the experience of every page, as the person who arrives cold (a founder, a CISO, a journalist, an investor, an attendee, on a phone and a desktop); reviews in every pass; works with synthetic@ and designer@ | redesigns or writes pages itself |
 | `librarian@PrompTugal.dinis` | the map of everything: every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it; answers "where is X?"; feeds the newsroom's search | moves or rewrites others' files |
+| `dev.search@PrompTugal.dinis` (Sonnet) | search over every page and JSON file with an LLM answer, the reader's own profile, the newsroom search, signed-in views | merges its own work: dev@ reviews it |
+| `dev.pages@PrompTugal.dinis` (Sonnet) | page layouts from data: the front page, the articles page, the companies page versions, the people page, the summit's days | the same |
+| `dev.graphs@PrompTugal.dinis` (Sonnet) | the big graphs and animated infographics in ruv.sgit's style: the security industry, centres of gravity, the world map, RiskMandate's graph, the article graphs, the explorer's next level, save as PNG | the same |
+| `dev.portugal@PrompTugal.dinis` (Sonnet) | the Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday) | the same |
+| `dev.data@PrompTugal.dinis` (Sonnet) | articles and companies as data folders (JSON blocks, sources, entities, claims), past summits' structure, media in vaults; with ontologist@ | the same |
+| `dev.verify@PrompTugal.dinis` (Sonnet) | the verification pipeline: several models re-check every fact, the verified block on every page | the same |
+| `designer.experiments@PrompTugal.dinis` (Sonnet) | variations side by side (the top of the page, the companies page, the articles page, the summit's days), each for Dinis to choose; designer@ keeps the system and the brand | changes the brand |
+| `researcher@PrompTugal.dinis` (Sonnet) | public research on a mandate per task: the Portugal ecosystem and Algarve Evolution, then people (public, professional, freely licensed photos), then past summits; into the people vault and the story projects' data folders | uses a source behind a login, or publishes |
+| `backup@PrompTugal.dinis` (Sonnet) | regular full backups of the repository and every vault (Google Drive for now, deltas later), and the recovery plan with security@ | deletes anything, or backs up a secret in the clear |
 | `synthetic@PrompTugal.dinis` | synthetic readers: personas (a founder, a CISO, a journalist, an investor, someone who just got an outreach email) who read the site as they would, on a phone and a desktop, and report what works, what confuses and what loses them; findings to the agent who owns the fix | presents a synthetic reader's view as a real person's, or touches content to fix it itself |
 | `abp@PrompTugal.dinis` | the Agent Behaviour Policies of all of Dinis's agents (this team first, then his @web-summit.dinis agents; guidance for others): strict and deny-by-default, one per agent in `board/abp/`; the hooks that keep them in context after compaction and block what they deny; the run reports (requests, prompts, tool calls, policies executed and hooked, actions in the mandate and in the reach, attempts and breaches) in `board/runs/`; an hourly review (`board/abp/reports/`) that tightens, and proposes relaxations for Dinis to decide | relaxes a policy without Dinis, writes `board/HOLD.md` (security@ does), or uses a connector |
 

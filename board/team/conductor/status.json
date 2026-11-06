@@ -2,7 +2,7 @@
  "agent": "conductor@PrompTugal.dinis",
  "focus": "the plan, the board, passes, briefs, who does what",
  "state": "working",
- "updated": "2026-11-06T05:45Z",
+ "updated": "2026-11-06T05:55Z",
  "done": [
   "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
   "inboxes for every agent; lanes with the team site's conductor",
@@ -28,7 +28,7 @@
   },
   {
    "for": "Dinis",
-   "ask": "Six more agents for tonight (board/team/conductor/capacity-2026-11-06.md): dev-search@, dev-graphs@ (ruv.sgit), dev-pages@, designer-experiments@, researcher@, backup@. Your word on which, and how to start them (R4 blocks the conductor)."
+   "ask": "Dinis said yes (about 05:55 UTC, in the conductor's session) to dotted names and to starting the workers on Sonnet with dev@ reviewing: dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify, designer.experiments, researcher, backup. R4 blocks the conductor's create_session and create_trigger, and R5 allows only dev for pushes. Either tell abp@ in its session to grant the conductor create_session and create_trigger for these nine (and the workers pushes to work/<role>), or start them yourself from board/team/first-prompts-2026-11-06.md."
   }
  ]
 }
