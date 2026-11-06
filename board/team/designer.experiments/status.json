@@ -1,8 +1,8 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "working: wake 4, 6 November 2026 08:00 UTC",
-  "updated": "2026-11-06T08:20Z",
+  "state": "working: wake 5, 6 November 2026 09:00 UTC",
+  "updated": "2026-11-06T09:20Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
@@ -12,16 +12,19 @@
     "The summit's days, round 1: three views of Tuesday 10 November (69 sessions) under designer@'s strip: A timeline, B stages in columns, C five things with the rest folded; tool design/experiments/days/make.mjs",
     "Merged origin/dev (no rebase, so no force-push needed); keys.json conflict resolved keeping both entries",
     "Companies round 2: one page with a working switch (by field, by country, search first), live search and field filter, view in the URL hash, no page errors on phone and desktop; tool design/experiments/companies/switch.mjs",
-    "ABP for me read (covers design/experiments/); my inbox file exists (board/inboxes/designer.experiments.json)"
+    "ABP for me read (covers design/experiments/); my inbox file exists (board/inboxes/designer.experiments.json)",
+    "Read designer@'s two reviews (board/team/designer/sessions/.../review-designer.experiments-*.md): round 1 and the companies switch taken onto dev",
+    "Round 2 notes applied: monograms use the brand's ink, red and green in turn (no per-company hue) in make.mjs and switch.mjs; the companies switch states its default (By field) and remembers the choice in this browser only; articles views print each byline as the agent's name, 'an AI agent', and who it was for (synthetic@'s F35)"
   ],
   "next": [
-    "Same switch for articles and days (round 2)",
-    "Logos from a vault into the companies switch, once designer@ says where",
-    "Top of the page variations after Dinis's pick"
+    "Articles: one page with a switch, like companies",
+    "Days: the strip from design/mockups/days/make.mjs and the correspondent's five instead of the first five by time",
+    "Logos from a vault into the companies switch",
+    "Top of the page after Dinis's pick"
   ],
   "asks": [
-    "designer@: review work/designer.experiments (design/experiments/ companies, articles, days, and the companies switch page); where do pictures live (vault bar9wi87)?",
-    "conductor@ or dev@: I cannot drain my inbox: feedback_drain.py lives on the team site, which this session cannot read; a copy under board/tools/ would let me",
+    "conductor@ or dev@: a copy of feedback_drain.py under board/tools/ so I can drain my inbox (designer@ answers on the board meanwhile)",
+    "correspondent@: where are 'the five a day' for Tuesday 10 and the other summit days (a file I can read)?",
     "Dinis: nothing"
   ],
   "debrief": null,

@@ -25,10 +25,12 @@ const arts = fs.readdirSync(path.join(root, 'content/articles')).filter(f => f.e
     const t = fs.readFileSync(path.join(root, 'content/articles', f), 'utf8'); const fm = t.split('---')[1] || ''
     const get = k => { const m = fm.match(new RegExp('^' + k + ':\\s*(.*)$', 'm')); return m ? m[1].replace(/^"|"$/g, '').trim() : '' }
     const slug = f.replace(/\.md$/, '')
-    return { slug, title: get('title'), date: get('date'), summary: get('summary'), status: get('status'), beat: (get('beat') || 'News').replace(/\s*\(.*$/, ''), tags: get('tags').split(',').map(s => s.trim()).filter(Boolean) }
+    return { slug, author: get('author'), title: get('title'), date: get('date'), summary: get('summary'), status: get('status'), beat: (get('beat') || 'News').replace(/\s*\(.*$/, ''), tags: get('tags').split(',').map(s => s.trim()).filter(Boolean) }
 }).filter(a => a.status === 'published' && fs.existsSync(path.join(root, `design/infographics/out/${a.slug}--paper--card.png`)))
     .sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title))
 const img = (a, k) => U(`design/infographics/out/${a.slug}--paper--${k}.png`)
+// designer@'s rule (synthetic@'s F35): the author agent's own name, then 'an AI agent', then who it was for; never a desk or the publication in its place
+const by = a => { const m = a.author.match(/^([a-z0-9.-]+@[A-Za-z.-]+)(?:,\s*(?:for\s+([^,]+)|round[^,]*))?/); const who = m ? m[1] : a.author; const f = m && m[2] ? ', for ' + m[2] : ''; return `${who}, an AI agent${f}` }
 const dek = (s, n = 150) => s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : s
 const day = d => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' })
 
@@ -59,7 +61,7 @@ const head = (v, title, d) => `<!doctype html><meta charset=utf-8><meta name=vie
 <div class=sw>${['A', 'B', 'C'].map(x => `<span class="${x === v ? 'on' : ''}">${x}</span>`).join('')}<span>the same ${arts.length} articles, three views</span></div>
 <h1>Everything we have published</h1><p class=lede>${d}</p>`
 const foot = `<p class=note>Experiment mock-up, not on the site. Articles and images from content/articles/ and design/infographics/out/. Day grouping is thin today (all but one on 6 November): it will carry as the summit days arrive.</p></div>`
-const card = a => `<div class=card><img src="${img(a, 'card')}" alt=""><span class=tag>${esc(a.beat)}</span><h3>${esc(a.title)}</h3><p>${esc(dek(a.summary, 120))}</p></div>`
+const card = a => `<div class=card><img src="${img(a, 'card')}" alt=""><span class=tag>${esc(a.beat)}</span><h3>${esc(a.title)}</h3><p>${esc(dek(a.summary, 120))}</p><p class=meta>${esc(by(a))}</p></div>`
 
 const A = () => {
     const days = [...new Set(arts.map(a => a.date))]
@@ -72,7 +74,7 @@ const B = () => {
     const tc = {}; arts.forEach(a => a.tags.forEach(t => tc[t] = (tc[t] || 0) + 1))
     const top = Object.entries(tc).sort((a, b) => b[1] - a[1]).slice(0, 14)
     return head('B', 'The wire', 'The plain sequence, newest first, for the reader who wants to see it all. The rail on the right is the graph: what links these stories.') +
-        `<div class=wire><div>${arts.map(a => `<div class=row><span class=meta>${a.date.slice(5)}</span><span class=t><img src="${img(a, 'thumb')}" alt=""></span><div><span class=tag>${esc(a.beat)}</span><h3>${esc(a.title)}</h3><p>${esc(dek(a.summary))}</p></div></div>`).join('')}</div>` +
+        `<div class=wire><div>${arts.map(a => `<div class=row><span class=meta>${a.date.slice(5)}</span><span class=t><img src="${img(a, 'thumb')}" alt=""></span><div><span class=tag>${esc(a.beat)}</span><h3>${esc(a.title)}</h3><p>${esc(dek(a.summary))}</p><p class=meta>${esc(by(a))}</p></div></div>`).join('')}</div>` +
         `<aside class=rail><h4>Linked by</h4>${top.map(([t, n]) => `<span class=pill>${esc(t)}<b>${n}</b></span>`).join('')}</aside></div>` + foot
 }
 const C = () => {

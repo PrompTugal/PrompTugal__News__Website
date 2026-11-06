@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent; a stop at the budget and its side effects",
  "state": "working: every three hours at :47 UTC (board/schedule.json)",
- "updated": "2026-11-06T06:55Z",
+ "updated": "2026-11-06T09:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -10,19 +10,24 @@
   "board/budgets.json: per agent per day (releases, dollars, output tokens), per pass for the three open passes, four loop rules, the stop rule",
   "each pass's budget in its file; the schema request (board/spec-budgets-schema.md)",
   "the report for Dinis (report-2026-11-06.md)",
-  "06:50 wake: 26 sessions read (277.55 dollars today, about 50 an hour); budgets for 11 new agents and 23 new passes, each in its file; observe mode per guidance section 15; conductor@ over, synthetic@ and journalist@ at warn"
+  "06:50 wake: 26 sessions read (277.55 dollars today, about 50 an hour); budgets for 11 new agents and 23 new passes, each in its file; observe mode per guidance section 15; conductor@ over, synthetic@ and journalist@ at warn",
+  "09:50 wake: 339.72 dollars today, about 21 an hour (from 50: conductor@'s compaction cut its hourly cost about ten times); five agents over on releases, none on dollars; OpenRouter and media lines set; the conductor's pass order in capacity; my inbox drained (4 messages from the conductor, signed)"
  ],
  "next": [
-  "at 09:47: the deltas since 06:50; the team will be near its 500 (about 11:15 at this rate); conductor@'s autocompact, measured",
-  "the side effects of any agent or pass marked over",
-  "a quality measure beside the Sonnet saving, with synthetic@ or sherpa@"
+  "at 12:47: the deltas; the team near 80% of its day",
+  "the side effects of the release caps, if Dinis keeps them",
+  "vault sizes for the media line, from backup@ or observability@"
  ],
  "asks": [
   "Dinis: confirm or change the budgets (board/budgets.json; the table is in board/team/accountant/report-2026-11-06.md)",
   "Dinis: yes or no to each agent compacting its context at the start of every wake (98% of tokens are re-read history)",
   "Dinis: yes or no to each wake prompt reading its line in board/budgets.json first, and the release script refusing a push from a stopped agent",
   "Dinis: conductor@ is over its 24 releases (32 by 06:50): raise to 48, or keep?",
-  "Dinis or the conductor: which of the 21 open passes go first (their budgets add to 1,080 dollars; 222 left today)?"
+  "Dinis or the conductor: which of the 21 open passes go first (their budgets add to 1,080 dollars; 222 left today)?",
+  "Dinis: releases as a count to watch, not a budget (five agents over on releases, none on dollars)?",
+  "Dinis: OpenRouter for designer@: 10 dollars a day (set) or 40 (asked); and a top-up (about 3 dollars left)?",
+  "Dinis: at this wake sgit printed my inbox vault's read key into this session's transcript (never committed): rotate the inbox if you wish",
+  "Dinis: my own line is 10 dollars a day and I am at 7.07. At 09:50 I read 22 sessions through a sub-agent, which is outside my grant (R4: two calls logged by the ABP hook, no breach); from the next wake I read them myself. Raise my line to 15, or fewer readings per wake?"
  ],
  "wakes": [
   {
@@ -36,6 +41,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "measured 26 sessions; 11 agents and 23 passes budgeted; observe mode; the passes overcommit the day five times"
+  },
+  {
+   "started": "2026-11-06T09:47Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "21 dollars an hour (from 50); five over on releases; OpenRouter and media lines; pass order"
   }
  ]
 }

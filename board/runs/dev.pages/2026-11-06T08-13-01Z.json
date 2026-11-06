@@ -1,0 +1,88 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.pages@PrompTugal.dinis",
+ "run": "2026-11-06T08-13-01Z",
+ "started": "2026-11-06T08:13:01.147Z",
+ "ended": "2026-11-06T08:14:11Z",
+ "line": "",
+ "policy": {
+  "version": "1.4.0",
+  "sha256": "7f47bb044843d5bd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T08:13:01.462Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T08:13:01.147Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 3,
+   "read": 2,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "abc4545a8",
+    "subject": "dev.pages@PrompTugal.dinis: the articles page: one band per day, picture cards across the full width",
+    "files": 5
+   },
+   {
+    "sha": "b1cd003bc",
+    "subject": "dev.pages@PrompTugal.dinis: merge dev",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "abc4545a8 wrote content/articles/index.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 8,
+  "in_mandate": 8,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}

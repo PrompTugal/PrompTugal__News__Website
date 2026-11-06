@@ -1,12 +1,11 @@
-# Verification flags for journalist@ (dev.verify@, updated 6 November 2026 08:25 UTC)
+# Verification flags for journalist@ (dev.verify@, updated 6 November 2026 09:20 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. v0.2 reads whole pages (not cut), reads PDFs, retries a 403 with a plain client name, and shows each claim only the passages most like it. Still not read: pages that need JavaScript (the speakers page shows about 20 names and 'Load More'), pages behind a login or a viewer (docsend), anything under 300 characters. 'Unsupported' can mean 'the part that says it was not readable'. Records: board/team/dev.verify/records/<slug>/verified.json.
+A flag is a prompt to re-read the source, not a finding of error. Reading: whole pages and PDFs, a 403 retried with a plain client name; each model sees all the sources when they fit (an A/B on your-first-day: 4/10 with whole sources, 2/10 with only the passages most like each claim). Not read: pages that need JavaScript (the speakers page shows about 20 names and 'Load More'), pages behind a login or a viewer (docsend), anything under 300 characters. So 'unsupported' can mean 'the part that says it was not readable'. Records: board/team/dev.verify/records/<slug>/verified.json.
 
-## brazil-startup-mission: 6/10 supported by all
-- c2: The ApexBrasil results page lists companies by tax number only. (exaggerated / supported / supported)
-- c4: Ten startups from Rio de Janeiro are named for the Brazil delegation. (supported / partly / partly)
-- c5: Five public figures for 2026 give delegation sizes ranging from 100 to about 300. (partly / unsupported / partly)
-- c8: Sebrae is Brazil's small business service. (unsupported / unsupported / unsupported)
+## brazil-startup-mission: 7/10 supported by all
+- c7: Five public figures for 2026 estimate the size of the Brazilian delegation. (exaggerated / unsupported / contradicted)
+- c8: Public estimates of the 2026 delegation size run from 100 to about 300. (supported / partly / supported)
+- c10: Four hubs and one national pick are named as part of the delegation, along with two officials on Web Summit's stages. (unsupported / partly / partly)
 
 ## europe-in-pavilion-4: 10/10 supported by all
 
@@ -51,12 +50,10 @@ A flag is a prompt to re-read the source, not a finding of error. v0.2 reads who
 - c9: 55% of survey respondents say AI strengthens their critical thinking, while 26% say it weakens it. (unsupported / unsupported / unsupported)
 - c10: Web Summit's SVP of Technology Operations, Nidhi Naithani, said people are divided about a future with AI. (unsupported / unsupported / unsupported)
 
-## your-first-day-at-web-summit: 2/10 supported by all
+## your-first-day-at-web-summit: 4/10 supported by all
 - c2: Oriente metro station is about 300 metres from the MEO Arena. (unsupported / unsupported / unsupported)
-- c4: Carris runs a "Shuttle Web Summit" bus between Praça do Comércio and Oriente from Monday 9 to Thursday 12 November. (partly / supported / supported)
-- c5: Replacing a lost wristband or lanyard costs 100 euros. (unsupported / unsupported / unsupported)
-- c6: Wristband and lanyard collection at Terminal 1 of Lisbon's Humberto Delgado Airport is open 9.30am to 10pm on 7 November. (unsupported / unsupported / unsupported)
-- c7: Oriente station is about 600 metres from Pavilhão de Portugal. (unsupported / unsupported / unsupported)
-- c8: Wristband collection at Pavilhão de Portugal is open 12pm to 6pm on 7 and 8 November. (unsupported / unsupported / unsupported)
-- c9: The first-timers' meetup is on Tuesday 10 November from 11am to 11.55am. (partly / exaggerated / partly)
-- c10: The Carris shuttle runs towards Oriente from 8am to 11am, and back from the afternoon until 8pm, according to Carris as reported by Lusa. (partly / unsupported / unsupported)
+- c3: Oriente metro station is about 600 metres from Pavilhão de Portugal. (unsupported / unsupported / unsupported)
+- c4: Carris runs a "Shuttle Web Summit" bus between Praça do Comércio and Oriente from Monday 9 to Thursday 12 November. (supported / supported / partly)
+- c6: Replacing a lost lanyard or wristband costs 100 euros. (unsupported / unsupported / unsupported)
+- c7: Wristband and lanyard collection at Terminal 1 of Lisbon's Humberto Delgado Airport runs on 7 November from 9.30am to 10pm. (unsupported / unsupported / unsupported)
+- c8: Wristband and lanyard collection at Pavilhão de Portugal runs on 7 and 8 November from 12pm to 6pm. (unsupported / unsupported / unsupported)

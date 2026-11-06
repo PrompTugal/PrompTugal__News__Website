@@ -1,0 +1,89 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist@PrompTugal.dinis",
+ "run": "2026-11-06T08-36-00Z",
+ "started": "2026-11-06T08:36:00.906Z",
+ "ended": "2026-11-06T09:28:54Z",
+ "line": "hourly run 09:26: S19 held into BR6; S17 (Wednesday 11 November guide) drafted, checked, published and signed. Blocks: inbox drain needs sgit_ai; the name waits on Dinis",
+ "policy": {
+  "version": "1.4.0",
+  "sha256": "7f47bb044843d5bd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T08:36:00.906Z",
+   "chars": 674,
+   "sha256": "2f8bcc5b4674029e",
+   "head": "<task-notification>\n<task-id>b290t33h0</task-id>\n<tool-use-id>toolu_01FAZtPSJS79VuW1DfPv4YxH</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/b7a38ade-f8b6-55b2-b3c5-78dc8"
+  },
+  {
+   "t": "2026-11-06T08:39:29.755Z",
+   "chars": 649,
+   "sha256": "ccdddc4bec630285",
+   "head": "<task-notification>\n<task-id>blfpecvoj</task-id>\n<tool-use-id>toolu_01NpxBan5Hv9WnA6WhwhRJxy</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/b7a38ade-f8b6-55b2-b3c5-78dc8"
+  },
+  {
+   "t": "2026-11-06T09:26:19.285Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T09:26:18.929Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 13,
+  "by_kind": {
+   "web": 5,
+   "shell": 5,
+   "other": 1,
+   "git": 1,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 13,
+  "commits": [
+   {
+    "sha": "fbd26fa93",
+    "subject": "journalist@PrompTugal.dinis: S19 held into the Brazil project (BR6); S17 through the story board: Wednesday 11 November, a day for startups going abroad; hourly",
+    "files": 7
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 13,
+  "in_mandate": 13,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

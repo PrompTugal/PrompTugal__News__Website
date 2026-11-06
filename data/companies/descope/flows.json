@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "descope",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-06",
+  "flows": [
+    {
+      "id": "agent-gets-access",
+      "name": "An AI agent gets just the access it needs, when it needs it (Agentic Identity Hub)",
+      "summary": "Descope's documentation sets out why agents need different identity infrastructure: they choose tools at runtime, act at a speed no person can approve step by step, and should not hold broad, static secrets.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The company",
+          "what": "Protects an API or MCP server with Descope as a Resource, identified by its URL (the audience) and a catalogue of scopes.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "While reasoning about a task, chooses a tool and asks Descope for a token for that Resource, naming its audience.",
+          "agent": "Chooses its tools at runtime and chains calls across services.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Descope",
+          "what": "Evaluates policy against the runtime context and issues a short-lived, scope-limited credential at that moment.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Calls the Resource with that credential; where it acts on a user's or tenant's behalf with a third-party tool, the tokens and API keys it uses are kept by Descope as a Connection.",
+          "agent": "Acts on the user's or tenant's behalf.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Descope",
+          "what": "Keeps an audit trail that connects every action back to the originating user.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

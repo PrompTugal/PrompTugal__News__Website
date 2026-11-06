@@ -20,7 +20,7 @@ export const imageOf = (ctx, page, a, size) => {
     const alt = (w ? `${w.short_title}: ${w.figure?.value ? w.figure.value + ' ' + w.figure.label : w.points?.[0]?.text}` : a.meta.title).replace(/[\[\]()]/g, '')
     return `![${alt}](${ctx.link(page.rel, OUT + file)})`
 }
-const firstSentence = (t, max = 150) => { const s = (t.match(/^.*?[.!?](?=\s|$)/) || [t])[0]; return s.length > max ? s.slice(0, max - 1).replace(/\s+\S*$/, '') + '…' : s }
+export const firstSentence = (t, max = 150) => { const s = (t.match(/^.*?[.!?](?=\s|$)/) || [t])[0]; return s.length > max ? s.slice(0, max - 1).replace(/\s+\S*$/, '') + '…' : s }
 
 const minutes = md => Math.max(1, Math.round(md.replace(/```[\s\S]*?```/g, '').split(/\s+/).filter(Boolean).length / 230))
 
