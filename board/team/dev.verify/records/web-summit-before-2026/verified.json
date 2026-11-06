@@ -1,0 +1,330 @@
+{
+  "$schema": "none",
+  "article": "web-summit-before-2026",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798",
+      "status": 200,
+      "read": true,
+      "chars": 30016
+    },
+    {
+      "url": "https://portugalglobal.pt/noticias/2025/novembro/web-summit-evento-tecnologico-com-recorde-de-71386-participantes/",
+      "status": 200,
+      "read": true,
+      "chars": 2682
+    },
+    {
+      "url": "https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/",
+      "status": 200,
+      "read": true,
+      "chars": 8620
+    },
+    {
+      "url": "https://portugaltechweek.com/",
+      "status": 200,
+      "read": true,
+      "chars": 12251
+    }
+  ],
+  "spent_usd": 0.197,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Web Summit started in Dublin in 2009.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Inaugurated 2009 ( Dublin )",
+          "note": "The Wikipedia source lists the 2009 inaugural event in Dublin, and its timeline shows the first Web Summit held October 30–November 1, 2009."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Inaugurated 2009 ( Dublin )",
+          "note": "The source directly confirms that Web Summit was inaugurated in Dublin in 2009."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Inaugurated 2009 ( Dublin )",
+          "note": "The source states Web Summit was inaugurated in 2009 in Dublin."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "In 2010, Web Summit was a meet-up for about 400 people, according to Wikipedia.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "In 2010 it was a meet-up for 400 or so of the local technology community in the Chartered Accountants House in Dublin.",
+          "note": "The Wikipedia passage states the 2010 event was a meet-up for about 400 people, matching the claim's \"about 400\" wording."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "In 2010 it was a meet-up for 400 or so of the local technology community",
+          "note": "The Wikipedia article confirms that in 2010 the event was a meet-up for roughly 400 members of the local tech community."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "In 2010 it was a meet-up for 400 or so",
+          "note": "The Wikipedia source states that in 2010 Web Summit was a meet-up for 400 or so people."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "Web Summit moved to Lisbon in 2016, when 53,056 people attended.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "drew 53,056 attendees",
+          "note": "The Wikipedia passage says Web Summit was held in Dublin until 2016, when it moved to Lisbon, and that the 2016 event drew 53,056 attendees."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "until 2016, when it moved to Lisbon. [ 3 ] [ 4 ] The conference's topics center on internet technology , emerging technologies , marketing and venture capitalism . Web Summit's partners range from Fortune 500 companies to start-ups , with attendees representing all levels and sectors of the global high technology industry. Web Summit runs events throughout the world including F.ounders , [ 5 ] RISE conference in Hong Kong , [ 6 ] Collision in Toronto , [ 7 ] SURGE in Bangalore , MoneyConf in Dublin and Web Summit Rio in Rio de Janeiro . [ 8 ] Speakers [ edit ] Speakers included a mix of CEOs , subject-matter experts , celebrities , and politicians , including Stephen Hawking , Elon Musk , Al Gore , Bono , and U.N Secretary-General António Guterres . Partners [ edit ] Web Summit's partners include Fortune 500 companies, government entities, and private foundations , such as Google , Meta , Amazon , Cisco Systems and Microsoft . [ 9 ] History [ edit ] Timeline of events Year Dates Venue 2009 October 30–November 1 2010 October 28–29 Chartered Accountants House 2011 October 27–28 Royal Dublin Society 2012 October 17–18 2013 October 30–31 2014 November 4–6 2015 November 3–5 2016 November 7–10 MEO Arena and Lisbon Exhibition & Congress Centre 2017 November 6–9 2018 November 5–8 2019 November 4–7 2020 December 2–4 Online 2021 November 1–4 MEO Arena and Lisbon Exhibition & Congress Centre 2022 November 1–4 2023 November 13–16 2024 February 26–29 Doha Exhibition and Convention Center (DECC) 2024 November 11–14 MEO Arena and Lisbon Exhibition & Congress Centre 2025 [ edit ] A court-case in the Irish Business courts between Cosgrave, Hickey and Kelly began in March 2025. [ 10 ] [ 11 ] [ 12 ] 2024 [ edit ] In February, Web Summit debuted a new event in Doha , Qatar. [ 13 ] [ 14 ] The exhibition took place at the DECC . [ 15 ] On January 24, 2024, Katherine Maher announced her departure as CEO of Web Summit to become CEO of National Public Radio (NPR) . [ 16 ] In April 2024, Web Summit staff were told Cosgrave had decided to return as CEO. [ 17 ] 2023 [ edit ] In October 2023, a number of sponsors and technology companies like Meta , Google , and Amazon cancelled their participation [ 18 ] due to the founder's statement on X (formerly Twitter) regarding the Gaza war , in which he asserted that he was \"shocked at the rhetoric and actions of so many Western leaders and governments, with the exception in particular of Ireland's government, who for once are doing the right thing\" [ 19 ] following the Irish Taoiseach , Leo Varadkar , saying that solidarity with Israel \"will fall apart\" if the response to Hamas' assault \"goes too far.\" [ 20 ] Hours after Cosgrave's tweets, Israel 's ambassador in Lisbon, Dor Shapira, vehemently repudiated Cosgrave and publicly informed the city's mayor that his country would boycott the event. [ 21 ] Cosgrave later apologized, defending \"Israel's right to exist and to defend itself\", thus condemning Hamas . [ 22 ] Cosgrave resigned as CEO on October 21, 2023, stating that \"my personal comments have become a distraction from the event, and our team, our sponsors, our startups and the people who attend\". [ 23 ] [ 24 ] Katherine Maher was later appointed CEO to replace Cosgrave. [ 25 ] In January 2024 it was announced that Maher would cease to be CEO on March 1st to take up the position of chief executive at NPR . [ 26 ] In November 2023, Web Summit announced the launch of a new conference in Doha , Web Summit Qatar . The conference took place February 26–29, 2024. [ 27 ] 2020 [ edit ] In December 2020, Web Summit announced the launch of a new conference in Japan, Web Summit Tokyo . The company also announced that the Asia-focused RISE Conference will be moving to Kuala Lumpur , Malaysia. Both conferences were scheduled to be held as in-person events in 2022. [ 28 ] [ 29 ] 2019 [ edit ] Web Summit 2019 took place in Portugal, from November 4th to 7th at the Altice Arena & Fil in Lisbon , Portugal. [ 30 ] Some of the speakers included Edward Snowden ; former UK Prime Minister Tony Blair ; former professional boxer Wladimir Klitschko ; Jaden Smith ; Guo Ping (Rotating Chairman of Huawei) and Katherine Maher (former CEO of Wikimedia Foundation). [ 31 ] Nutrix won Web Summit PITCH competition for the most ambitious early-stage startups. 900 startups participated. [ 32 ] 2018 [ edit ] Web Summit 2018 took place in Lisbon from November 5 to November 8. Attendance was at 70,000 participants. Some of the speakers include Medium Founder & CEO Ev Williams , President Microsoft Corporation Brad Smith , and CEO at Booking.com Gillian Tans . [ 33 ] It was announced that Marine Le Pen of the National Rally would be one of the speakers, which caused controversy. [ 34 ] [ 35 ] [ 36 ] [ 37 ] Paddy Consgrave initially argued that despite her \"wrongheaded\" politics, he felt that her views would be adequately challenged by professional journalists. [ 38 ] [ 34 ] [ 35 ] [ 36 ] [ 37 ] As a result of criticism, Paddy Cosgrave announced on Twitter that the invitation to her would be rescinded. [ 34 ] [ 35 ] [ 36 ] [ 37 ] 2017 [ edit ] Arm Holdings CEO Simon Segars ; Web Summit 2017 Web Summit 2017 took place in the Altice Arena in Lisbon from November 6–9. The event promised to bring 60,000 attendees from over 160 countries together. [ 39 ] 1,000 speakers were initially confirmed for the conference and, ultimately, over 1,200 spoke. [ 40 ] From the political sphere, speakers such as Former Vice President of the United States of America Al Gore , European Commissioner for Competition Margrethe Vestager , and former president of France François Hollande were announced early. In addition to these speakers, big names in tech attending were Intel CEO Brian Krzanich , Oracle CEO Mark Hurd , Microsoft president Brad Smith, Reddit CEO Steve Huffman , Arm Holdings CEO Simon Segars , Slack co-founder and CEO Stewart Butterfield , Asana co-founder and CEO and Facebook co-founder Dustin Moskovitz , Alexander Nix of Cambridge Analytica and Booking.com president and CEO Gillian Tans . Speakers included former world heavyweight champion Wladimir Klitschko , actress and activist Sophia Bush , former Portuguese professional football player and Ballon D'Or winner Luis Figo , Vogue international editor Suzy Menkes , former chess world champion Garry Kasparov , musician Wyclef Jean , and Game of Thrones actor Liam Cunningham . [ 41 ] A dinner that was held in the National Pantheon was criticised by Portuguese Prime Minister António Costa who said it was \"unworthy of the respect due\" to the National Monument. [ 42 ] He said that although it was legal, it was because the previous government had allowed what he called \"offensive use of this monument\". [ 42 ] Paddy Cosgrave tweeted his apologies. [ 42 ] 2016 [ edit ] Paddy Cosgrave , Web Summit founder (left) and António Costa , Prime Minister of Portugal (right) ; 2016 In September 2015 Web Summit co-founder and CEO Paddy Cosgrave announced that the event would be held in Lisbon for three consecutive editions, from 2016 to 2018. [ 43 ] Cosgrave cited the local startup scene and a \"cosmopolitan city with better infrastructure conditions and a larger number of hotel rooms\" for the decision. [ 44 ] The three-day event held from November 7–10 at the Altice Arena , site of Expo '98 , drew 53,056 attendees",
+          "note": "Source S1 directly confirms that Web Summit moved to Lisbon in 2016 and that the 2016 event drew 53,056 attendees."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "until 2016, when it moved to Lisbon",
+          "note": "S1 states Web Summit moved to Lisbon in 2016 and that the 2016 event drew 53,056 attendees."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "Web Summit 2025 had a record 71,386 attendees from 157 countries, according to the organisers as reported by AICEP.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "recorde de 71.386 participantes de 157 países",
+          "note": "AICEP's article says the organisation announced on its website a record 71,386 participants from 157 countries, matching the claim's figures and attribution."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "A Web Summit regista um recorde de 71.386 participantes de 157 países, divulgou hoje a organização",
+          "note": "The article published on AICEP's portal confirms that Web Summit 2025 reached a record 71,386 participants from 157 countries according to the event's organizers."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "A Web Summit regista um recorde de 71.386 participantes de 157 países",
+          "note": "S2 states the record figure and country count, attributing it to the organisation."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "Web Summit 2025 had 1,857 investors and 2,725 startups.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "1.857 investidores de 86 países",
+          "note": "The AICEP/Portugal Global article (in Portuguese) reports 1,857 investors from 86 countries and 2,725 startups from 108 countries at Web Summit 2025."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "1.857 investidores de 86 países participarão no Web Summit 2025, um aumento de 74% face aos 1.066 do ano passado. Este é o maior número de participantes na história do evento”. Ao todo, 2.725 startups de 108 países estão presentes no evento",
+          "note": "Source S2 explicitly confirms that Web Summit 2025 had 1,857 investors and 2,725 startups present."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "1.857 investidores de 86 países; 2.725 startups de 108 países",
+          "note": "S2 directly reports both figures for Web Summit 2025."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "The agreement to hold Web Summit in Lisbon runs to 2028, as reported by Lusa.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "no período de 2019 a 2028",
+          "note": "The Executive Digest article, bylined \"com Lusa\", says the 2018 agreement for annual Web Summit events in Lisbon covers 2019 to 2028."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "acordo celebrado em 2018 para a organização do evento em Lisboa, anualmente, no período de 2019 a 2028",
+          "note": "The article, published in collaboration with Lusa, confirms that the agreement signed in 2018 to hold the annual Web Summit in Lisbon covers the period from 2019 to 2028."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "acordo celebrado em 2018 para a organização do evento em Lisboa, anualmente, no período de 2019 a 2028",
+          "note": "S3, credited to Executive Digest com Lusa, states that the 2018 agreement covers holding the event annually in Lisbon from 2019 to 2028."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "The Lisbon hosting agreement was made in 2018 and covers every year from 2019 to 2028.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "acordo celebrado em 2018 para a organização do evento em Lisboa, anualmente, no período de 2019 a 2028",
+          "note": "The Executive Digest article states that the municipal support stems from an agreement signed in 2018 for the event in Lisbon, held annually from 2019 to 2028."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "acordo celebrado em 2018 para a organização do evento em Lisboa, anualmente, no período de 2019 a 2028",
+          "note": "The source confirms that an agreement was concluded in 2018 to host the event in Lisbon annually from 2019 to 2028."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "acordo celebrado em 2018 para a organização do evento em Lisboa, anualmente, no período de 2019 a 2028",
+          "note": "S3 states the Lisbon hosting agreement was made in 2018 and covers the event annually from 2019 to 2028."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Portugal Tech Week opened on 6 November and runs to 15 November, according to its own site.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "6-15 NOV 2026",
+          "note": "The Portugal Tech Week site gives its 2026 dates as November 6-15, though it states only the date range and not that the event has already opened."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Portugal Tech Week 2026 l November 6-15, 2026",
+          "note": "The official site for Portugal Tech Week indicates that the event takes place from 6 to 15 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "6-15 NOV 2026",
+          "note": "The official Portugal Tech Week site lists the event dates as 6-15 November 2026."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "The PTW Palace, Portugal Tech Week's main venue, opens on 9 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Portugal Tech Week Palace 09-13 November",
+          "note": "The source gives the PTW Palace's run as 9–13 November and lists its first events on 09/11/2026, though it does not use the word \"opens\"."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Portugal Tech Week Palace 09-13 November Check the events list at PTW Palace and register.The flagship venue of Portugal Tech Week.",
+          "note": "The source identifies PTW Palace as the flagship venue of Portugal Tech Week running from 9 to 13 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Portugal Tech Week Palace 09-13 November",
+          "note": "S4 lists PTW Palace as the flagship venue with a 9-13 November date range starting 09/11/2026."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "Web Summit went online in 2020 and returned to Parque das Nações in 2021.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "2020 December 2–4 Online",
+          "note": "S1 confirms the 2020 edition was online, and lists the 2021 venue as MEO Arena and Lisbon Exhibition & Congress Centre, but no passage explicitly places that venue in Parque das Nações, so the 2021 part is not directly stated."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "2020 December 2–4 Online",
+          "note": "The sources verify that Web Summit was held online in 2020, but they list the 2021 venue as MEO Arena and Lisbon Exhibition & Congress Centre without stating it returned to Parque das Nações in 2021."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "2020 December 2–4 Online 2021 November 1–4 MEO Arena and Lisbon Exhibition & Congress Centre",
+          "note": "The source confirms 2020 was online and 2021 was at MEO Arena/Lisbon Exhibition & Congress Centre, but it does not name Parque das Nações for 2021."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    }
+  ]
+}

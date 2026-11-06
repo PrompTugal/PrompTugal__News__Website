@@ -13,31 +13,31 @@
       "url": "https://websummit.com/blog/news/web-summits-first-state-of-the-industry-survey-finds-tech-torn-on-ai/",
       "status": 200,
       "read": true,
-      "chars": 1632
+      "chars": 1644
     },
     {
       "url": "https://websummit.com/tracks/",
       "status": 200,
       "read": true,
-      "chars": 1970
+      "chars": 1986
     },
     {
       "url": "https://websummit.com/blog/startups-investors/how-we-select-our-startups/",
       "status": 200,
       "read": true,
-      "chars": 1653
+      "chars": 1665
     },
     {
       "url": "https://websummit.com/speakers/",
       "status": 200,
       "read": true,
-      "chars": 2437
+      "chars": 2453
     },
     {
       "url": "https://websummit.com/essentials/venue/",
       "status": 200,
       "read": true,
-      "chars": 1183
+      "chars": 1199
     },
     {
       "url": "https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf",
@@ -49,10 +49,10 @@
       "url": "https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/",
       "status": 200,
       "read": true,
-      "chars": 5210
+      "chars": 5201
     }
   ],
-  "spent_usd": 0.0532,
+  "spent_usd": 0.1659,
   "claims": [
     {
       "id": "c1",
@@ -61,23 +61,23 @@
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "partly",
-          "source": "S5",
+          "source": "S2",
           "quote": "November 9-12, 2026",
-          "note": "S5 gives the event dates as 9-12 November and S7 places the Brazilian pavilion at the MEO Arena, but no passage mentions FIL, and S6 and S7 describe the Web Summit programme as running 10-12 November."
+          "note": "S2 gives the dates as November 9-12, 2026 without naming Lisbon, and S7 places the Brazilian pavilion at the MEO Arena with programming on 10-12 November, but no source mentions FIL as a venue."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "partly",
-          "source": "S5",
+          "source": "S2",
           "quote": "Web Summit | November 9-12, 2026",
-          "note": "The dates November 9 to 12 and the MEO Arena are mentioned across the sources, but FIL is not mentioned anywhere in the provided text."
+          "note": "The sources confirm Web Summit takes place from 9 to 12 November, but none mention FIL, and MEO Arena is only referenced in relation to a specific pavilion."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "partly",
-          "source": "S5",
+          "source": "S2",
           "quote": "November 9-12, 2026",
-          "note": "S5 supports the 9–12 date, but no source mentions FIL and S7 only places programming at MEO Arena from 10–12 November."
+          "note": "The date is supported by S2/S4/S5 and MEO Arena by S7, but no source mentions FIL."
         }
       ],
       "consensus": "partly",
@@ -85,180 +85,151 @@
     },
     {
       "id": "c2",
-      "claim": "Web Summit expects more than 70,000 attendees from more than 100 countries.",
+      "claim": "Web Summit expects more than 70,000 attendees from more than 100 countries, including 10,000 startups.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the provided source passages mention an attendee count of 70,000 or a count of 100 countries; the only '100' figure is the cap of 100 Brazilian startups in the ApexBrasil delegation document (S6)."
+          "source": "S7",
+          "quote": "registou em 2025 um recorde 71.386 participantes de 157 países",
+          "note": "The sources give 2025 attendance (71,386 from 157 countries) and 2,725 startups in S6, but none gives a 2026 expectation of more than 70,000 attendees from over 100 countries or of 10,000 startups."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the provided sources mention the expected number of attendees or the number of countries they represent."
+          "note": "None of the sources mention that Web Summit expects more than 70,000 attendees or 10,000 startups."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the provided sources states the expected number of attendees or countries represented."
-        }
-      ],
-      "consensus": "unsupported",
-      "flag_to_journalist": true
-    },
-    {
-      "id": "c3",
-      "claim": "The speakers page lists 800 speakers.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "unsupported",
-          "source": "S4",
-          "quote": "Load More",
-          "note": "The speakers page shows only a partial list of about 20 names with a \"Load More\" button and gives no total count, so the figure of 800 cannot be confirmed."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the provided sources mention that the speakers page lists 800 speakers."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "The speakers page excerpt lists individual speakers and a 'Load More' option but never states a total of 800."
-        }
-      ],
-      "consensus": "unsupported",
-      "flag_to_journalist": true
-    },
-    {
-      "id": "c4",
-      "claim": "Web Summit has 17 content tracks over four days.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Discover all 17 tracks. Four days. One event.",
-          "note": "The tracks page states there are 17 tracks over four days, matching the claim exactly."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Discover all 17 tracks. Four days. One event.",
-          "note": "The Web Summit tracks page explicitly states that there are 17 tracks across four days."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Discover all 17 tracks. Four days.",
-          "note": "The Web Summit tracks page states there are 17 tracks over four days."
-        }
-      ],
-      "consensus": "supported",
-      "flag_to_journalist": false
-    },
-    {
-      "id": "c5",
-      "claim": "In 2025, over 22,000 startups applied to Web Summit and about 2,700 were accepted, according to Web Summit.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the sources mention 22,000 applications or the acceptance count; the only related figure, 2725 startups in S6 (a Brazilian agency PDF, not Web Summit), refers to startups connected with at the 2025 event, not applicants or accepted startups."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
           "verdict": "partly",
           "source": "S6",
-          "quote": "Em 2025, em sua 17ª edição, o evento reuniu 71.386 pessoas, que tiveram acesso a 869 palestrantes sobre os temas afetos às empresas de base tecnológica, exposição de grandes empresas e instituições internacionais, possibilidades de conexões com 2725 startups",
-          "note": "The sources confirm that there were approximately 2,700 startups present at Web Summit in 2025, but they do not mention that over 22,000 startups applied."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "No source states that over 22,000 startups applied or that about 2,700 were accepted; S6 only mentions 2725 startups in a connections context."
+          "quote": "2725 startups",
+          "note": "S6 reports 71,386 attendees from 157 countries but only 2,725 startups, so the 10,000-startup figure is not supported."
         }
       ],
       "consensus": "disagree",
       "flag_to_journalist": true
     },
     {
-      "id": "c6",
-      "claim": "The 2025 summit had 71,386 attendees from 157 countries, as reported by Lusa citing the organisers.",
+      "id": "c3",
+      "claim": "Web Summit lists 800 speakers and 17 content tracks over four days.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "partly",
-          "source": "S7",
-          "quote": "71.386 participantes de 157 países",
-          "note": "The figures and the organisers' attribution are supported by S7 (Executive Digest), but no source names Lusa as the reporting agency, so that part of the claim is unverified."
+          "source": "S2",
+          "quote": "Discover all 17 tracks. Four days. One event.",
+          "note": "The sources support the 17 tracks and four days, but none gives a figure of 800 speakers; the only speaker count (869 in 2025, in S6) is for a past edition."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "partly",
-          "source": "S7",
-          "quote": "registou em 2025 um recorde 71.386 participantes de 157 países, estando presentes 1.857 investidores de 86 países, segundo dados da organização",
-          "note": "The sources confirm that the 2025 event had 71,386 attendees from 157 countries according to the organizers, but make no mention of Lusa reporting it."
+          "source": "S2",
+          "quote": "Discover all 17 tracks. Four days.",
+          "note": "The source confirms the event has 17 tracks over four days, but none of the sources state that it lists 800 speakers."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "partly",
-          "source": "S7",
-          "quote": "71.386 participantes de 157 países",
-          "note": "The figures are supported by S7 (and S6), but no provided source attributes the report to Lusa."
+          "source": "S2",
+          "quote": "Discover all 17 tracks. Four days. One event.",
+          "note": "S2 supports 17 content tracks over four days, but no source states 800 speakers."
         }
       ],
       "consensus": "partly",
       "flag_to_journalist": true
     },
     {
-      "id": "c7",
-      "claim": "The 2025 summit had 1,857 investors.",
+      "id": "c4",
+      "claim": "In 2025, over 22,000 startups applied to Web Summit and about 2,700 were accepted.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S6",
+          "quote": "2725 startups",
+          "note": "S6 gives 2,725 startups connected with at the 2025 event, not accepted startups, and no sources mention 22,000 applications."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S6",
+          "quote": "possibilidades de conexões com 2725 startups",
+          "note": "Source 6 confirms there were 2,725 startups at Web Summit in 2025, but none of the sources mention that over 22,000 startups applied."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": "S6",
+          "quote": "2725 startups",
+          "note": "The source only says the 2025 event had 2,725 startups for connections, not that over 22,000 applied or about 2,700 were accepted."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The 2025 Web Summit had 71,386 attendees from 157 countries, as reported by Lusa citing the organisers.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S7",
-          "quote": "estando presentes 1.857 investidores de 86 países",
-          "note": "The Executive Digest article, citing organizer data, says the 2025 Web Summit had 1,857 investors from 86 countries (the source is in Portuguese)."
+          "quote": "71.386 participantes de 157 países",
+          "note": "The Executive Digest article, credited to Lusa, says the 2025 Web Summit recorded 71.386 participants from 157 countries, according to the organisation's data."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S7",
-          "quote": "registou em 2025 um recorde 71.386 participantes de 157 países, estando presentes 1.857 investidores",
-          "note": "According to organizational data cited in the source, Web Summit recorded 1,857 investors in attendance in 2025."
+          "quote": "registou em 2025 um recorde 71.386 participantes de 157 países, estando presentes 1.857 investidores de 86 países, segundo dados da organização",
+          "note": "The article published with Lusa confirms that the 2025 Web Summit recorded 71,386 participants from 157 countries, citing data from the organisers."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S7",
-          "quote": "estando presentes 1.857 investidores de 86 países",
-          "note": "The source states that the 2025 Web Summit had 1,857 investors present."
+          "quote": "71.386 participantes de 157 países",
+          "note": "S7, an Executive Digest article with Lusa, states the 2025 Web Summit recorded 71,386 participants from 157 countries according to organisers."
         }
       ],
       "consensus": "supported",
       "flag_to_journalist": false
     },
     {
-      "id": "c8",
+      "id": "c6",
+      "claim": "The 2025 Web Summit had 1,857 investors.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "1.857 investidores",
+          "note": "The Executive Digest article says that in 2025 the Web Summit had 1,857 investors from 86 countries, per the organiser; the Portuguese PDF (S6) also gives 1.857 investidores for 2025."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "registou em 2025 um recorde 71.386 participantes de 157 países, estando presentes 1.857 investidores",
+          "note": "The source confirms that Web Summit had 1,857 investors in attendance in 2025."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "1.857 investidores",
+          "note": "S6 states that the 2025 Web Summit had 1,857 investors."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
       "claim": "Web Summit's first State of the Industry survey was published on 22 October and polled 1,455 people in its community.",
       "verdicts": [
         {
@@ -266,50 +237,79 @@
           "verdict": "partly",
           "source": "S1",
           "quote": "October 22, 2026",
-          "note": "The S1 page header dates the survey article to October 22, 2026, but none of the passages mention the 1,455 respondents or the community poll, so that part is unverified."
+          "note": "S1 confirms the survey article was dated 22 October 2026, but none of the passages mention the 1,455 respondents, so that part of the claim is unverified."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "partly",
           "source": "S1",
           "quote": "Web Summit’s first state of the industry survey finds tech torn on AI October 22, 2026",
-          "note": "The source confirms the survey article was published on October 22, but makes no mention of polling 1,455 people."
+          "note": "The source confirms the survey was published on October 22, but does not mention that it polled 1,455 people."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "partly",
           "source": "S1",
-          "quote": "Web Summit’s first state of the industry survey finds tech torn on AI October 22, 2026",
-          "note": "The source confirms the first survey and 22 October date, but it does not mention polling 1,455 people."
+          "quote": "October 22, 2026",
+          "note": "S1 confirms the first State of the Industry survey was dated October 22, but it does not mention polling 1,455 people in its community."
         }
       ],
       "consensus": "partly",
       "flag_to_journalist": true
     },
     {
-      "id": "c9",
-      "claim": "55% of survey respondents say AI strengthens their critical thinking, while 26% say it weakens it.",
+      "id": "c8",
+      "claim": "55% of survey respondents say AI strengthens their critical thinking, and 26% say it weakens it.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "The provided passages of the Web Summit survey article (S1) show only its page navigation and headline ('tech torn on AI') and contain no critical-thinking question or the 55% and 26% figures, so no source confirms the claim."
+          "note": "None of the provided sources reports the 55% or 26% figures or any survey result on AI and critical thinking; the S1 passage, which is about a Web Summit survey, contains only site navigation text."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "The provided sources do not contain any survey statistics or mention of AI's effect on critical thinking."
+          "note": "None of the provided sources mention survey statistics or findings regarding the impact of AI on critical thinking."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "No provided source passage states the 55% and 26% survey figures about AI and critical thinking."
+          "note": "None of the provided source passages states the 55% and 26% survey figures."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "60% of survey respondents say AI has increased their workload, and 20% say it has reduced it.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources report the workload percentages; the Web Summit survey article (S1) is cited by title only, with no figures in the passage provided."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources contain the survey findings or statistics regarding AI's impact on workload."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided source passages report the 60% and 20% AI workload figures."
         }
       ],
       "consensus": "unsupported",
@@ -324,21 +324,21 @@
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "The passages do not name Nidhi Naithani or attribute any statement to her; the only related text is the S1 headline \"Web Summit's first state of the industry survey finds tech torn on AI,\" which is not tied to her."
+          "note": "None of the sources mention Nidhi Naithani or her title; S1 has only a headline, \"Web Summit's first state of the industry survey finds tech torn on AI,\" and no quoted statement from her."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "The provided passages do not mention Web Summit's SVP of Technology Operations, Nidhi Naithani, or any statement regarding people being divided about a future with AI."
+          "note": "None of the provided sources mention Web Summit's SVP of Technology Operations, Nidhi Naithani, or any statement made by her."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "No provided source mentions Nidhi Naithani, her title, or that she said people are divided about a future with AI."
+          "note": "No source mentions Nidhi Naithani, her title, or that she said people are divided about a future with AI."
         }
       ],
       "consensus": "unsupported",
