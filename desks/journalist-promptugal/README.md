@@ -2,6 +2,12 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 19:26 UTC (hourly wake)
+
+**Done**
+
+- **Brazil project, round 2: BR4, "Brazil on Web Summit's stages: officials, founders and a pavilion"** (draft, `checks/BR4.md`, article, signed). It draws on the Brazil beat's search of Web Summit's public sessions: 27 Brazil-tied speakers in 31 appearances. The seven officials' sessions are in a table, re-read at Web Summit (Serpro, São Paulo state and InvestSP, Invest Rio, a speaker listed as Deputy Minister). The 18 startups in the Startup Showcase are named by company, two of them from Rio's ten. The Brazil Pavilion's programme at stand E369 is in a table. Officials are named in their public roles; journalists and founders are not named. The article says the speaker list is gated beyond its first pages, so the search is not complete.
+
 ## Run of 6 November 2026, 18:27 UTC (hourly wake)
 
 **Done**

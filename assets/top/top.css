@@ -74,3 +74,6 @@ html[data-top="c"] .chat, html[data-top="c"] .pane { bottom: calc(66px + env(saf
 }
 @media (min-width: 768px) and (max-width: 1099px) { .ctop-motto { display: none; } .ctop-when > span:first-child { display: none; } }
 @media print { .ctop, .ctabs, .cmore, .ctop-tagline { display: none !important; } }
+
+/* T22 (sherpa@, 18:30): under C, search is the tab (phone) and the field in the top row (desktop); the big bar in the page goes */
+html[data-top="c"] main .search.nr-big { display: none; }

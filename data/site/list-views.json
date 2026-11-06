@@ -34,5 +34,8 @@
     "email_web": "Read this edition on the web",
     "email_footer": "PrompTugal.news: technology and AI, in context, from Portugal for Europe. Every edition:",
     "as_data": "Every edition, its page and its email, as data:"
+  },
+  "offline": {
+    "about": "The summit's days as data, one file per day, for the offline mode: every session of our programme on that day, with its time, place, page and source. Times are Lisbon time (UTC in November) and can change: check the summit's own schedule."
   }
 }

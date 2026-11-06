@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "irishtimes-2024-01-24-maher-leaves",
+  "story": "past-summits",
+  "url": "https://www.irishtimes.com/business/2024/01/24/web-summit-boss-katherine-maher-to-leave-role-after-three-months/",
+  "title": "Web Summit boss Katherine Maher to leave role after three months (The Irish Times, 24 January 2024)",
+  "publisher": "The Irish Times",
+  "published": "2024-01-24",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "The Irish Times reports that Web Summit's chief executive would step down on 1 March 2024 to become chief executive of NPR, staying on as non-executive chair of the executive board, that she would lead the company through its first conference in Doha, and that the chief events officer was named an executive board member."
+}

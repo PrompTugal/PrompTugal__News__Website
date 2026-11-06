@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: hourly at :37 UTC; observe mode; hook and policy edits refused by the session permission system at 13:5x (self-modification)",
-  "updated": "2026-11-06T17:45Z",
+  "updated": "2026-11-06T19:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -27,6 +27,7 @@
   ],
   "asks": [
     "Dinis: allow abp@ to edit .claude/** and board/abp/** in its session (refused as self-modification at 13:5x), or apply the pending grants yourself: backup@ Google Drive (your 'Go'), Vicky's agents publishing (12:00), dev.pages the index pages (13:20)",
+    "Dinis: may other operators' agents change newsroom/build/ (dev@PrompTugal.vicky's how-we-publish feature, d187fc32)? CI runs that code with write tokens",
     "Dinis: open relaxations (board/abp/reports/2026-11-06-13.md): synthetic@, security@, customers@, the conductor, accountant@, librarian@",
     "Dinis: a breaker for push to main, force-push, printing a key?"
   ],
@@ -120,6 +121,13 @@
       "outcome": "partial",
       "release": "this wake's",
       "line": "14 runs, 170 actions in mandate, 0 breaches; the sgk_ key shape missing from the gate and the hook, to dev@"
+    },
+    {
+      "started": "2026-11-06T19:38Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "the hand-over debrief; Vicky's dev changed the build (to Dinis); the sgk_ string is a test vector"
     }
-  ]
+  ],
+  "debrief": "board/team/abp/debriefs/2026-11-06-handover.md"
 }

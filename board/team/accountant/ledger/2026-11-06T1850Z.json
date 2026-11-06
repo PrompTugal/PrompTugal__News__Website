@@ -1,0 +1,252 @@
+{
+ "about": "A snapshot of what each PrompTugal agent's Claude Code session had spent, read by accountant@PrompTugal.dinis with the claude-code-remote get_session tool (its usage block: cost_usd as the platform reports it, an API-price equivalent: the team runs on a Claude subscription, so it is a comparison, not money spent (Dinis, about 10:15 UTC), and tokens). Cumulative since each session started (all on 6 November 2026), not per wake. No session text, no prompt, no identifier beyond the agent's name.",
+ "read_at": "2026-11-06T18:50Z",
+ "previous": "2026-11-06T1552Z.json",
+ "source": "claude-code-remote get_session, the 16 Opus sessions only (accountant@'s 15:55 decision); the Sonnet rows carried from 15:52",
+ "subscription": {
+  "rate_limit_type": "seven_day",
+  "status": "allowed_warning",
+  "using_overage": false
+ },
+ "sessions": [
+  {
+   "agent": "conductor@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 66.53,
+   "output_tokens": 540309,
+   "since_previous_usd": 6.0,
+   "read": "18:50"
+  },
+  {
+   "agent": "synthetic@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 59.31,
+   "output_tokens": 493637,
+   "since_previous_usd": 3.76,
+   "read": "18:50"
+  },
+  {
+   "agent": "designer@PrompTugal.dinis",
+   "sessions": 2,
+   "model": "opus",
+   "cost_usd": 63.04,
+   "output_tokens": 496751,
+   "since_previous_usd": 9.69,
+   "read": "18:50"
+  },
+  {
+   "agent": "dev@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 60.18,
+   "output_tokens": 415356,
+   "since_previous_usd": 13.16,
+   "read": "18:50"
+  },
+  {
+   "agent": "journalist@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 53.17,
+   "output_tokens": 294786,
+   "since_previous_usd": 8.53,
+   "read": "18:50"
+  },
+  {
+   "agent": "ontologist@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 37.35,
+   "output_tokens": 252687,
+   "since_previous_usd": 4.36,
+   "read": "18:50"
+  },
+  {
+   "agent": "outreach@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 24.06,
+   "output_tokens": 141871,
+   "since_previous_usd": 5.99,
+   "read": "18:50"
+  },
+  {
+   "agent": "observability@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 34.23,
+   "output_tokens": 185856,
+   "since_previous_usd": 10.16,
+   "read": "18:50"
+  },
+  {
+   "agent": "historian@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 4.24,
+   "output_tokens": 36386,
+   "since_previous_usd": -0.0,
+   "read": "18:50"
+  },
+  {
+   "agent": "correspondent@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 39.66,
+   "output_tokens": 472093,
+   "since_previous_usd": 6.57,
+   "read": "18:50"
+  },
+  {
+   "agent": "security@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 77.59,
+   "output_tokens": 460121,
+   "since_previous_usd": 32.06,
+   "read": "18:50"
+  },
+  {
+   "agent": "sherpa@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 23.11,
+   "output_tokens": 112709,
+   "since_previous_usd": 3.93,
+   "read": "18:50"
+  },
+  {
+   "agent": "librarian@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 37.58,
+   "output_tokens": 582575,
+   "since_previous_usd": 6.87,
+   "read": "18:50"
+  },
+  {
+   "agent": "devops@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 31.78,
+   "output_tokens": 122800,
+   "since_previous_usd": 10.01,
+   "read": "18:50"
+  },
+  {
+   "agent": "accountant@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 26.25,
+   "output_tokens": 115769,
+   "since_previous_usd": 5.5,
+   "read": "18:50"
+  },
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "opus",
+   "cost_usd": 17.9,
+   "output_tokens": 182201,
+   "since_previous_usd": 2.01,
+   "read": "18:50"
+  },
+  {
+   "agent": "customers@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 13.09,
+   "output_tokens": 304824,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  },
+  {
+   "agent": "backup@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 2.38,
+   "output_tokens": 32763,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  },
+  {
+   "agent": "researcher@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 4.27,
+   "output_tokens": 94522,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  },
+  {
+   "agent": "designer.experiments@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 4.1,
+   "output_tokens": 92663,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  },
+  {
+   "agent": "dev.verify@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 4.96,
+   "output_tokens": 62748,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  },
+  {
+   "agent": "dev.data@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 2.94,
+   "output_tokens": 43700,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  },
+  {
+   "agent": "dev.portugal@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 4.64,
+   "output_tokens": 83038,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  },
+  {
+   "agent": "dev.graphs@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 8.56,
+   "output_tokens": 153637,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  },
+  {
+   "agent": "dev.pages@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 4.94,
+   "output_tokens": 70234,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  },
+  {
+   "agent": "dev.search@PrompTugal.dinis",
+   "sessions": 1,
+   "model": "sonnet",
+   "cost_usd": 5.58,
+   "output_tokens": 86170,
+   "since_previous_usd": 0.0,
+   "read": "carried from 15:52 (Sonnet, read once a day)"
+  }
+ ],
+ "total": {
+  "cost_usd": 711.44,
+  "since_previous_usd": 128.6,
+  "output_tokens": 5930206
+ }
+}

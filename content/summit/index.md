@@ -2,6 +2,8 @@
 title: The summit
 summary: Web Summit Lisbon 2026 at a glance. When it is, where it is, and what happens each day.
 ---
+<!-- days:strip -->
+
 ## When {#when}
 
 **9 to 12 November 2026** ([venue essentials](https://websummit.com/essentials/venue-essentials/), read 1 November 2026).
