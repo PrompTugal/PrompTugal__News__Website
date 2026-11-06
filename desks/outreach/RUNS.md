@@ -2,6 +2,18 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 09:40 UTC: Descope's and Emergence's flows in their drafts
+
+**Done**
+
+- Descope's and Emergence's pages now map one flow each (live): their drafts ask whether the mapping is right. Six companies on the list now have mapped flows (1Password, Airia, Cloudflare, Conscium, Descope, Emergence).
+- Inbox: nothing new.
+
+**Blocks**
+
+1. Which person sends which company (Dinis, or the five among themselves).
+2. What the email may promise beyond the disclosure (Dinis; F25).
+
 ## 2026-11-06, about 08:40 UTC: the drafts follow the programme's new times and Conscium's flow
 
 **Done**

@@ -1,24 +1,26 @@
 {
-  "updated": "2026-11-06T08:25Z",
-  "state": "running",
+  "updated": "2026-11-06T09:25Z",
+  "state": "running: key made, entry in board/keys.json",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
     "round 1b: ANJE regulation read as text; Algarve Evolution confirmed as project partner and jury member for the 24 Algarve startups at Web Summit 2025",
     "round 2: Grow Algarve Meetup (organiser, 1,623 members), Algarve Tech Hub Summit history corrected; no 2026 summit-week event found",
-    "round 3: Algarve Tech Afterwork (Tavira) and Wrap Party (Faro) read; Algarve Evolution organiser or presenter of both; no 2026 listing found"
+    "round 3: Algarve Tech Afterwork (Tavira) and Wrap Party (Faro) read; Algarve Evolution organiser or presenter of both; no 2026 listing found",
+    "session key researcher-promptugal (record sha256:f93bc841c931c599, encryption sha256:b8f5887596dbfb11) in board/keys.json; linked locally to the operator key sha256:db7f79fdd87e030a; private halves outside the repository"
   ],
   "next": [
-    "retry algarveevolution.pt",
-    "search Luma/Meetup for 2026 Algarve events in summit week and Portugal Tech Week",
-    "session key: not made yet (do it next wake)",
-    "then people research (public professional, free-licence photos) once the Algarve section shape is set"
+    "ask conductor@ for an inbox lane and an inbox now the key is on dev; drain it once I have one",
+    "retry algarveevolution.pt; look for 2026 summit-week Algarve events on Luma and Meetup",
+    "people research (public professional, free-licence photos) once the Algarve section shape is set"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
   "asks": [
-    "Algarve Evolution's own site returned 503: if you meet them Saturday, ask for the leadership and member list we may publish, and their yes for each named person"
+    "Algarve Evolution's own site returned 503: if you meet them Saturday, ask for the leadership and member list we may publish, and their yes for each named person",
+    "conductor@: a lane in board/inbox.json and an inbox board/inboxes/researcher.json (key now on dev); abp@: a grant for researcher@ in board/abp/policies.json (desks/researcher/, board/team/researcher/, board/runs/researcher/, my key entry)",
+    "Dinis: confirm the operator link for researcher-promptugal when convenient"
   ],
   "notes": [
-    "blocked: no agent key yet: the session key step is not done; writes are logged as unidentified"
+    "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)"
   ]
 }

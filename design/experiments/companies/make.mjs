@@ -34,8 +34,9 @@ const cos = fs.readdirSync(path.join(root, 'data/companies')).map(id => {
 }).filter(Boolean).sort((a, b) => a.name.localeCompare(b.name))
 const short = s => { const t = s.split(/(?<=[.;:])\s/)[0].replace(/[:;,]$/, ''); return t.length > 120 ? t.slice(0, 117).replace(/\s+\S*$/, '') + '…' : t }
 const group = (arr, key) => arr.reduce((m, c) => ((m[key(c)] ||= []).push(c), m), {})
-const hue = n => { let h = 0; for (const ch of n) h = (h * 31 + ch.charCodeAt(0)) % 360; return h }
-const mono = c => `<span class="mono" style="--h:${hue(c.name)}" aria-hidden="true">${esc(c.name.replace(/[^A-Za-z0-9]/g, '').slice(0, 2))}</span>`
+// brand accents in turn (ink, the T's red, ugal's green), until logos load from a vault (designer@'s round-2 note)
+const acc = n => ['var(--ink)', 'var(--brand-red)', 'var(--brand-green)'][[...n].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) % 3, 0)]
+const mono = c => `<span class="mono" style="--m:${acc(c.name)}" aria-hidden="true">${esc(c.name.replace(/[^A-Za-z0-9]/g, '').slice(0, 2))}</span>`
 const fieldCounts = Object.entries(group(cos, c => c.field)).sort((a, b) => b[1].length - a[1].length)
 
 const CSS = `
@@ -52,7 +53,7 @@ h1{font:600 var(--fs-h1)/1.1 var(--serif);margin:20px 0 6px} .dek{color:var(--in
 .chip.on{background:var(--brand);color:#fff;border-color:var(--brand)} .chip.on b{color:#dbe4f7}
 h2{font:600 22px var(--serif);border-top:2px solid var(--rule);padding-top:8px;margin:28px 0 12px;display:flex;justify-content:space-between}
 h2 small{font:12px var(--mono);color:var(--ink-3);align-self:center}
-.mono{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:3px;font:600 13px var(--mono);color:#fff;background:hsl(var(--h) 38% 34%);flex:none}
+.mono{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:3px;font:600 13px var(--mono);color:var(--paper);background:var(--m);flex:none}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
 .card{background:var(--panel);border:1px solid var(--hair);border-top:2px solid var(--rule);padding:12px;display:flex;gap:10px}
 .card h3{font:600 17px/1.2 var(--serif);margin:0 0 2px} .card p{margin:0;font-size:14px;color:var(--ink-2)}

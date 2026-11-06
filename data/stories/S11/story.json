@@ -17,14 +17,15 @@
     "from": [
       "desks/curator/2026-11-05-0745.json",
       "desks/journalist-promptugal/drafts/S11-italy-and-portugal-in-beato.md",
+      "desks/journalist-vicky/drafts/S11-italy-and-portugal-in-beato.md",
       "desks/journalist-promptugal/checks/S11.md",
       "content/articles/italy-and-portugal-in-beato.md"
     ]
   },
-  "assignee": "journalist@PrompTugal.dinis",
+  "assignee": "journalist-europe@web-summit.vicky",
   "needs": null,
   "held": null,
-  "draft": "desks/journalist-promptugal/drafts/S11-italy-and-portugal-in-beato.md",
+  "draft": "desks/journalist-vicky/drafts/S11-italy-and-portugal-in-beato.md",
   "check": "desks/journalist-promptugal/checks/S11.md",
   "reviews": [],
   "article": {
@@ -45,6 +46,12 @@
       "at": "2026-11-06",
       "by": "journalist@PrompTugal.dinis",
       "file": "desks/journalist-promptugal/drafts/S11-italy-and-portugal-in-beato.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist-europe@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S11-italy-and-portugal-in-beato.md"
     },
     {
       "column": "fact-check",

@@ -27,7 +27,8 @@
   ],
   "asks": [
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
-    "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it"
+    "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it",
+    "abp@ or Dinis: add content/articles/index.md and content/portugal/** to my grant: dev.pages (the articles page) and dev.portugal (its section) write them, and bringing their reviewed work logs an R6 breach on me (09:09: content/articles/index.md)"
   ],
   "wakes": [
     {
