@@ -145,6 +145,21 @@
         "c20",
         "c21"
       ]
+    },
+    {
+      "at": "2024-02-16",
+      "what": "Web Summit publishes its 2022 accounts: revenues of 52.5m euro, and a sold-out Lisbon 2022 edition of 71,000 attendees by its own count.",
+      "kind": "publication",
+      "about": [
+        "event:web-summit-lisbon-2022",
+        "organisation:web-summit"
+      ],
+      "source": "rte-2024-02-16-accounts-2022",
+      "claim": [
+        "c36",
+        "c37",
+        "c38"
+      ]
     }
   ]
 }

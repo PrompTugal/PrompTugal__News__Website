@@ -40,6 +40,14 @@
       ]
     },
     {
+      "ref": "event:web-summit-lisbon-2019",
+      "label": "Web Summit 2019, Lisbon",
+      "kind": "event",
+      "sources": [
+        "irishtimes-2021-revenues-2019"
+      ]
+    },
+    {
       "ref": "event:web-summit-lisbon-2021",
       "label": "Web Summit 2021, Lisbon",
       "kind": "event",
@@ -49,12 +57,28 @@
       ]
     },
     {
+      "ref": "event:web-summit-lisbon-2022",
+      "label": "Web Summit 2022, Lisbon",
+      "kind": "event",
+      "sources": [
+        "rte-2024-02-16-accounts-2022"
+      ]
+    },
+    {
       "ref": "event:web-summit-lisbon-2023",
       "label": "Web Summit 2023, Lisbon",
       "kind": "event",
       "sources": [
         "rte-2023-10-21-cosgrave-resigns",
         "rte-2023-10-30-new-ceo"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2026",
+      "label": "Web Summit 2026, Lisbon",
+      "kind": "event",
+      "sources": [
+        "irishtimes-web-summit-stays-in-lisbon-until-2028"
       ]
     },
     {
@@ -91,22 +115,6 @@
       "sources": [
         "irishtimes-web-summit-rio-first-outside-europe",
         "techcrunch-2020-12-02-rise-tokyo-brazil"
-      ]
-    },
-    {
-      "ref": "event:web-summit-lisbon-2019",
-      "label": "Web Summit 2019, Lisbon",
-      "kind": "event",
-      "sources": [
-        "irishtimes-2021-revenues-2019"
-      ]
-    },
-    {
-      "ref": "event:web-summit-lisbon-2026",
-      "label": "Web Summit 2026, Lisbon",
-      "kind": "event",
-      "sources": [
-        "irishtimes-web-summit-stays-in-lisbon-until-2028"
       ]
     }
   ]
