@@ -32,6 +32,13 @@
       "org": "company:scrut-automation"
     },
     {
+      "person": "person:carmem-domingues",
+      "as_listed": "Carmem Domingues (Former White House Senior AI Advisor, AI Techno-Realist, Future Government Institute)",
+      "role": "Former White House Senior AI Advisor, AI Techno-Realist",
+      "organisation": "Future Government Institute",
+      "org": "organisation:future-government-institute"
+    },
+    {
       "person": "person:john-koetsier",
       "as_listed": "John Koetsier (Forbes columnist & Tech First Podcast Host, Forbes, Freelance)",
       "role": "Forbes columnist & Tech First Podcast Host",
@@ -42,7 +49,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
-  "read_at": "2026-11-05T08:19Z",
+  "read_at": "2026-11-06T08:18Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -53,6 +60,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 169
+    "item": 176
   }
 }

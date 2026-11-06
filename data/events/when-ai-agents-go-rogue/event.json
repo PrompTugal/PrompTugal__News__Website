@@ -8,9 +8,9 @@
   "organiser": "web-summit",
   "our_pick": true,
   "date": "2026-11-12",
-  "time": "10:15-10:35",
-  "start": "10:15",
-  "end": "10:35",
+  "time": "10:30-10:50",
+  "start": "10:30",
+  "end": "10:50",
   "where": "Stage 13 (AI Summit), MEO Arena and FIL",
   "place": "place:stage-13",
   "track": "AI Summit",
@@ -28,7 +28,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/afe1fd71-2a98-41e4-8707-9101353797b3/when-ai-agents-go-rogue/",
-  "read_at": "2026-11-05T08:17Z",
+  "read_at": "2026-11-06T08:18Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -39,6 +39,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 163
+    "item": 173
   }
 }

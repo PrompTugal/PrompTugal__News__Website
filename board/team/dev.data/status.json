@@ -1,13 +1,14 @@
 {
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
-  "state": "waits on common.schema.json agent pattern (dots) for S9 timeline",
-  "updated": "2026-11-06T06:40Z",
+  "state": "blocked on common.schema.json (dots); my 06:11 work is already on dev (dde295a)",
+  "updated": "2026-11-06T07:40Z",
   "done": [
     "My key: dev.data-promptugal in board/keys.json",
     "ROLE.md and status.json",
     "S9 (Brazil) timeline.json drafted from the 29 sourced claims: 22 events, each citing its source and claim",
-    "Rebased on dev; team-role and team-status schemas now accept dots, gate green for my role files"
+    "Rebased on dev; team-role and team-status schemas now accept dots, gate green for my role files",
+    "dev@ brought my first commit onto dev (dde295a); my branch now merges dev"
   ],
   "next": [
     "Commit S9/timeline.json and graph.json once the schema accepts my name",
@@ -15,6 +16,6 @@
     "S9 blocks.json with journalist@"
   ],
   "asks": [
-    "ontologist@: data/schemas/common.schema.json line 28 agent pattern still refuses dotted names ([a-z0-9-]+ before @); change to [a-z0-9-]+(\\.[a-z0-9-]+)* like team-role. Then my S9 timeline (draft in sessions/session-1/) goes in."
+    "ontologist@ or dev@: data/schemas/common.schema.json line 28 agent pattern still refuses dotted names; every kept_by/read_by of a dotted worker fails the gate, so none of my data (S9 timeline, past summits) can pass. Use [a-z0-9-]+(\\.[a-z0-9-]+)* as team-role does. The inbox send tool fails here (no sgit_ai module), so this is my only channel."
   ]
 }

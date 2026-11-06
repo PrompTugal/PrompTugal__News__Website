@@ -1,8 +1,8 @@
 {
   "agent": "devops@PrompTugal.dinis",
   "focus": "The health, quality and performance of CI, the release and tag scripts, every tool in newsroom/tools/ and every scheduled task of this site.",
-  "state": "running: third wake done; the recovery is proven (5 stalls, 5 recovered); a stall now costs about 3 minutes, not 7; next wake 08:14 UTC",
-  "updated": "2026-11-06T06:25Z",
+  "state": "running: fourth wake done; dev quiet (28 of 29 green); the workers' branches now get the gate and a test merge with dev; next wake 10:14 UTC",
+  "updated": "2026-11-06T08:30Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as devops-promptugal; my row in data/newsroom/agents.json",
     "board/team/devops/ROLE.md and this status",
@@ -11,7 +11,8 @@
     "The fix is live: v0.1.94 (run 129, the first on the new workflow, green in 107 s) carries it; a second stall (run 120, v0.1.93, 03:44 to 03:54) held the queue on the old workflow while I watched, eight runs dropped behind it, recorded in the report",
     "Wake 04:15: the first fix's retry failed twice (runs 134 and 138: Pages names a deployment after the commit, so the same commit cannot be redeployed, and deploy-pages already cancels on timeout). Replaced: on a failed deploy the job asks the live site; if it serves the release, pass with a warning; if not, dispatch a fresh deploy of dev's head and fail red. Tested both paths locally. Report corrected (section 'Correction, 04:25 UTC')",
     "board/schedule.json now matches the scheduler (15 rows, conductor@'s update): handoff closed",
-    "Wake 06:14: runs 147 to 206 read: 48 green, 5 red (all Pages stalls, each recovered by its dispatched deploy in 74 to 86 s), 6 dropped and ridden. The deploy now waits 2 minutes (was 4) and the live check 30 s (was 2 minutes; it never found the release live), the job timeout 6 minutes: a stall holds the queue about 3 minutes instead of 7"
+    "Wake 06:14: runs 147 to 206 read: 48 green, 5 red (all Pages stalls, each recovered by its dispatched deploy in 74 to 86 s), 6 dropped and ridden. The deploy now waits 2 minutes (was 4) and the live check 30 s (was 2 minutes; it never found the release live), the job timeout 6 minutes: a stall holds the queue about 3 minutes instead of 7",
+    "Wake 08:14: runs 206 to 234: 28 green, 1 Pages stall (run 208) recovered by its dispatched deploy, none dropped; median 68 s to live. CI now runs on work/** (the dotted workers' branches): the gate on the tip and on a test merge with dev, never a release; tried on work/dev.graphs"
   ],
   "next": [
     "Watch the next stalled deploy: confirm the live check, or the dispatch and its run",
@@ -19,11 +20,12 @@
     "Run and time every tool in newsroom/tools/ once; move the workflow's actions off Node 20 one at a time"
   ],
   "asks": [
-    "Dinis: none needed for problem 1. Problem 2 (GitHub Pages caches every file for 10 minutes): a CDN in front of Pages is your call on the domain; until then dev@ can make the pages revalidate their data and the badge say when a newer version is live"
+    "Dinis: my inbox (board/inboxes/devops.json) has 2 messages waiting. Draining it needs the sgit-ai Python package, and installing it was refused by this session's permission check; may I install sgit-ai (pip), or should another agent open my inbox?",
+    "Dinis: none needed for the pipeline. Problem 2 (GitHub Pages caches every file for 10 minutes): a CDN in front of Pages is your call on the domain"
   ],
   "handoffs": [
     "dev@PrompTugal.dinis: problem 2 (a) and (b) in the health report: no-cache on in-page data fetches; a version badge that notices a newer live version",
-    "conductor@PrompTugal.dinis: board/schedule.json has two designer@ rows at :33 (disabled and enabled)"
+    "security@ and conductor@: curator@web-summit.vicky pushed to this repository's dev at 07:47 (run 230); expected?"
   ],
   "wakes": [
     {
@@ -43,6 +45,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Recovery proven on 5 stalls; deploy wait 4 to 2 minutes, live check 2 minutes to 30 s"
+    },
+    {
+      "started": "2026-11-06T08:15Z",
+      "outcome": "partial",
+      "release": "numbered by CI at push",
+      "line": "CI for the workers' branches (gate and a test merge with dev); the inbox not drained (sgit-ai install refused)"
     }
   ]
 }

@@ -1,0 +1,65 @@
+{
+ "version": "front-page round 2",
+ "date": "Friday 6 November 2026",
+ "title": "The front page, round 2: who wrote it, said plainly; what makes us different, first",
+ "summary": "synthetic@'s run 6 read the three mock-ups of round 1 and found four things wrong with them. Round 2 fixes them: every byline names the AI agent that wrote the story (F35, blocking), 'every fact sourced' and who writes and edits come first (F36), a phone shows the readable article card, not the dense AI infographic (F37), and B, ranked last by all four readers, is dropped (F38).",
+ "devices": [
+  "phone",
+  "desktop",
+  "phone, whole page",
+  "desktop, whole page"
+ ],
+ "steps": [
+  {
+   "id": "before",
+   "label": "Before: round 1, A",
+   "img": {
+    "phone": "../../front-page/round-1/mockups/A--phone.png",
+    "desktop": "../../front-page/round-1/mockups/A--desktop.png",
+    "phone, whole page": "../../front-page/round-1/mockups/A--phone--full.png",
+    "desktop, whole page": "../../front-page/round-1/mockups/A--desktop--full.png"
+   }
+  },
+  {
+   "id": "A2",
+   "label": "Round 2: A, the newspaper",
+   "note": "Bylines name the agent ('journalist-europe@web-summit.vicky, an AI agent, for Vicky Wang'); a band under the top says every fact is sourced and dated, written by AI agents, edited by Dinis Cruz, Indi Gupte and Vicky Wang, independent of Web Summit; Reach, Mandate, Gap right after the lead on a phone.",
+   "img": {
+    "phone": "../../front-page/round-2/mockups/A--phone.png",
+    "desktop": "../../front-page/round-2/mockups/A--desktop.png",
+    "phone, whole page": "../../front-page/round-2/mockups/A--phone--full.png",
+    "desktop, whole page": "../../front-page/round-2/mockups/A--desktop--full.png"
+   }
+  },
+  {
+   "id": "C1",
+   "label": "Round 1: C, for comparison",
+   "note": "Round 1's briefing first, with the bylines that hid the agents.",
+   "img": {
+    "phone": "../../front-page/round-1/mockups/C--phone.png",
+    "desktop": "../../front-page/round-1/mockups/C--desktop.png",
+    "phone, whole page": "../../front-page/round-1/mockups/C--phone--full.png",
+    "desktop, whole page": "../../front-page/round-1/mockups/C--desktop--full.png"
+   }
+  },
+  {
+   "id": "C2",
+   "label": "Round 2: C, the briefing first",
+   "note": "The same fixes on the briefing-first layout; on a phone the lead shows the article's card image, with the AI infographic one tap inside.",
+   "img": {
+    "phone": "../../front-page/round-2/mockups/C--phone.png",
+    "desktop": "../../front-page/round-2/mockups/C--desktop.png",
+    "phone, whole page": "../../front-page/round-2/mockups/C--phone--full.png",
+    "desktop, whole page": "../../front-page/round-2/mockups/C--desktop--full.png"
+   }
+  }
+ ],
+ "notes": [
+  "F35 (blocking, synthetic@ run 6): round 1 wrote 'Vicky Wang's desk' or 'PrompTugal.news' where an AI agent wrote the story; a reader took it for a person. Round 2 prints the agent's own name from the article's author line, then 'an AI agent', then who it was for. My mistake, and the rule now: a byline never hides an agent.",
+  "F36: round 1 moved what makes the site different to the bottom and shrank 'Every fact sourced' to a grey line. Round 2 puts one band under the top, on every size: sourced and dated, written by AI agents and edited by three named people, independent.",
+  "F37: the AI infographic is too dense for a phone and two readers doubted it. On a phone the lead shows the session 1 card image (large type, every word checked), with the infographic one tap inside; on a desktop the infographic keeps a caption: AI-made, every figure checked, the dates are the mission's own.",
+  "F38: B, the visual wall, was ranked last by all four readers (bare figures with no source read as marketing). Dropped.",
+  "My pick stays A, now with the band; the choice is Dinis's."
+ ],
+ "experiments": []
+}

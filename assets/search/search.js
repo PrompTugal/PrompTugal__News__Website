@@ -203,8 +203,24 @@
         if (st.q) render()
     }
 
+    /* the big bar: at the top of the page's main column on every page but the search page, larger on the front page */
+    function bigBar() {
+        const main = d.getElementById('main')
+        if (!main || onSearchPage() || main.querySelector('.nr-big')) return
+        const form = d.createElement('form'), label = d.createElement('label'), input = d.createElement('input'), btn = d.createElement('button'), holder = d.createElement('span')
+        form.className = 'search nr-big'; form.setAttribute('role', 'search'); form.action = searchPage
+        label.className = 'visually-hidden'; label.htmlFor = 'nr-q-big'; label.textContent = 'Search the newsroom'
+        holder.innerHTML = ICON
+        holder.firstChild.setAttribute('class', 's-icon')
+        input.id = 'nr-q-big'; input.type = 'search'; input.name = 'q'; input.placeholder = 'Search: a company, a session, a person, a topic'
+        btn.type = 'submit'; btn.textContent = 'Search'
+        form.append(label, holder.firstChild, input, btn)
+        main.insertBefore(form, main.firstChild)
+        attachInstant(form, input, {})
+    }
     function init() {
         topBar()
+        bigBar()
         const m = d.getElementById('nr-search-page')
         if (m) searchPageUI(m)
     }

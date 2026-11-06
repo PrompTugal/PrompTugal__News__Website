@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "idalia-friedson",
+  "type": "person",
+  "name": "Idalia Friedson",
+  "role": "Co-Founder",
+  "organisation": "Sygaldry Technologies",
+  "org": "organisation:sygaldry-technologies",
+  "listings": [
+    {
+      "role": "Co-Founder",
+      "organisation": "Sygaldry Technologies",
+      "org": "organisation:sygaldry-technologies",
+      "event": "event:will-tech-save-the-energy-sector-or-break-it",
+      "source": "https://websummit.com/sessions/lis26/a23706f0-40be-41f8-b6ca-9881732130f5/will-tech-save-the-energy-sector-or-break-it/",
+      "read_at": "2026-11-06T08:18Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -57,6 +57,24 @@ So: today's vaults are ephemeral and may be lost. When the first vault we cannot
 
 Fourteen more vaults, one per agent (`board/inboxes/<role>.json`): the write token public by design, the credentials sealed to the agent and **also kept by the conductor** (`~/.sg-send/agent-inboxes/`, the tool's docstring: "Dinis: the conductor holds the vault keys"). So the conductor can read every agent's mail. Ephemeral like the rest. security@'s own inbox credentials were exposed in its session's transcript on 6 November (its mistake) and should be re-issued.
 
+## The recovery runbook: what to do when something is lost (08:10 UTC)
+
+Each case: what is lost, what survives, the steps, and who does them. Dinis's rule (04:45): today's vaults are ephemeral; his recovery vault comes when one is not. His decision of 06:20: the conductor holds every vault key.
+
+| Lost | What dies with it | What survives | Steps (owner) |
+|---|---|---|---|
+| **An agent's session** (container reclaimed, archived, replaced) | its private key; its inbox's undrained messages; anything sealed only to it | its public key in `board/keys.json`, so everything it signed stays verifiable; its commits; its inbox vault (the conductor holds a copy of its credentials) | the new session makes a key and adds it, the old entry marked `superseded` with the time, never deleted (new session); the conductor re-issues its lane in `board/inbox.json` and its `board/inboxes/<role>.json` to the new key (conductor@); whoever sealed something to the old key re-seals it (the holder) |
+| **The conductor's session** | its key; **every vault key it holds**: the agents' 15 inbox copies, its own inbox `axmydi66` and its undrained messages, the snapshots vault's key, the synthetic vault's sealed copy, the research vault's read key; the private half of Dinis's sign-in key that it issued | each agent's own inbox credentials (agents keep theirs); the observability keys (sealed to Dinis); the published read keys (snapshots, synthetic: what was published stays readable); Dinis's sign-in key in his browser | the new conductor: a key; a new inbox vault and lanes for every agent (`board/tools/inbox.py issue`, `agent_inboxes.py issue`); new vaults for snapshots from then on; the research read key asked of Vicky's side again. Dinis: nothing, unless he needs a new sign-in link |
+| **observability@'s session** | the drain's credentials | the lanes (write-only, public), the published counts, the keys sealed to Dinis | Dinis opens `newsroom/observability/sealed/dinis.json` on `/newsroom/observability/` and hands the credentials to the new session sealed to its key (Dinis, observability@) |
+| **Dinis's browser data** (cleared, new device) | his sign-in key on this origin | his key's private half in the conductor's session (while it lives); the QR code, if he kept it | the conductor issues a new key; observability@ re-seals `sealed/dinis.json`; anything sealed only to the old key is lost. **His recovery vault's key must live outside the browser** (a password manager or paper), or one cleared browser loses it |
+| **A key exposed** (printed in a transcript, committed, pasted) | trust in that key and in what it opens | everything else | treat it as lost now, not later: a new key, the old entry marked `compromised` with the time; if a vault key or enum key was exposed, a new vault and its lanes, the old one emptied (the holder); security@ records it (S12 is the first case: security@'s own inbox, waiting on the conductor) |
+| **The repository** (GitHub) | nothing that a clone or bundle does not hold | every clone; backup@'s bundles (`board/team/backup/tools/backup.sh`) | restore from a clone or bundle to a new remote, at Dinis's word only (backup@, Dinis) |
+| **dev.send.sgraph.ai** (down or wiped) | every inbox and vault's content not cloned elsewhere | git: the board, `For:` and `To:` trailers | agents fall back to the board and commit trailers; the conductor re-issues every vault when it is back (conductor@) |
+
+**Never backed up:** the credentials tier (`~/.sg-send/`, `.credentials/`, lane files). A key worth keeping goes sealed to Dinis's key into his recovery vault, not into a backup.
+
+**My review of backup@'s plan (`board/team/backup/plan.md`):** agreed. Two additions: a backup never reads `~/.sg-send/` or any lane file (it does not today); and the restore test runs the gate on the restored clone before anyone calls it good.
+
 ## Gaps (next steps)
 
 1. No backup of any held key beyond its session: by design, but every vault except observability has **no recovery path** today (S9 below in my review).

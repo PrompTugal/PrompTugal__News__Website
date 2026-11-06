@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
  "state": "running: hourly at :38 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
- "updated": "2026-11-06T07:45Z",
+ "updated": "2026-11-06T08:50Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -68,8 +68,31 @@
   {
    "started": "2026-11-06T07:38Z",
    "outcome": "ok",
-   "release": "this wake's",
+   "release": "v0.1.168",
    "line": "Cloudflare's mapped flow in its draft"
+  },
+  {
+   "started": "2026-11-06T08:38Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "drafts follow the programme's new times (Emergence, Ledger, Persona) and Conscium's mapped flow; F25 decided"
+  }
+ ],
+ "decisions_on_findings": [
+  {
+   "finding": "F25",
+   "decision": "later: whether an email may say the 15 minutes is not a sales conversation and that nobody from RiskMandate is in it is Dinis's to say (asks, below); until he does, the email says only what the disclosure says",
+   "at": "2026-11-06T08:50Z"
+  },
+  {
+   "finding": "F08",
+   "decision": "done: v0.1.54, the ask differs for public bodies and foundations; v0.1.77, the disclosure in its own words",
+   "at": "2026-11-06T08:50Z"
+  },
+  {
+   "finding": "F18",
+   "decision": "done: v0.1.65, the disclosure line instead of 'powered by', a greeting in every draft (CRLF throughout), 'aim' not 'mandate'",
+   "at": "2026-11-06T08:50Z"
   }
  ]
 }

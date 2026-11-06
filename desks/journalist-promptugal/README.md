@@ -2,6 +2,20 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 08:26 UTC (hourly wake)
+
+**Done**
+
+- S12 and S14 are held on the story board, with reasons in `ideas/`: S15 already covers the robots among the speakers (S12), and S4 already covers Granter, Intuitivo and their shared backer (S14).
+- S13, "Web Summit's ten Lisbon years: 2.5 billion euros, says EY", went through the board: the draft, the check (`checks/S13.md`), then the article, signed. It sets out EY's figures as Lusa reported them on 5 November, in a table. For balance it adds the Ministry of Economy's 2021 study, which found the 2016 to 2019 impact below the first estimate, and the 2018 deal (11 million euros a year, to 2028). No public copy of EY's report was found, and the article says so.
+
+**Blocked, or for others**
+
+- The inbox still cannot be drained from this session (it needs `sgit_ai`).
+- The name waits for Dinis's yes on the text.
+
+**Left on this line:** 3 storylines (S16, S17, S19); the Brazil project's next rounds.
+
 ## Run of 6 November 2026, 07:26 UTC (hourly wake)
 
 **Done**

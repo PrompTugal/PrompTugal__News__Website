@@ -5,7 +5,7 @@
   "title": "A robot among 800 speakers: Web Summit 2026 turns to robotics",
   "beat": "summit",
   "topic": "topic:the-summit",
-  "status": "idea",
+  "status": "held",
   "rests_on": [
     "evidence:v-websummit-speakers",
     "evidence:v-tecnico-web-summit-2026"
@@ -16,23 +16,36 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-05-1145.json"
+      "desks/curator/2026-11-05-1145.json",
+      "desks/journalist-promptugal/ideas/S12.md"
     ]
   },
   "assignee": null,
   "needs": null,
-  "held": null,
+  "held": "Covered already: S15 (following-robotics-at-web-summit, published) carries the 800 speakers, the two robots listed as speakers, the Unitree co-founder in the lineup and Técnico's robots, from the same two sources. Reopen when Web Summit publishes the robots' sessions.",
   "draft": null,
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "whatever the hold names",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-05T11:45Z",
       "by": "curator@web-summit.vicky",
       "file": "desks/curator/2026-11-05-1145.json"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/ideas/S12.md"
+    },
+    {
+      "column": "held",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/ideas/S12.md"
     }
   ]
 }

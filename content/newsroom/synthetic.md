@@ -14,8 +14,9 @@ path: newsroom/synthetic.html
 44 fixes sent to their owners since run 1:
 
 {.rows}
-- **34** open: sent, no decision yet
-- **2** accepted: the owner will do it
+- **25** open: sent, no decision yet
+- **8** accepted: the owner will do it
+- **3** later: after Friday's outreach
 - **2** done: the owner says it is live
 - **6** verified: synthetic@ measured it live
 
@@ -69,12 +70,12 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 ### designer@ (7 waiting)
 
 {.rows}
-- **F35** blocking, **open** (run 6): The front-page mock-ups (A, B, C) change the bylines to 'Vicky Wang's desk' or 'PrompTugal.news', so work written by an AI agent reads as written by a person (Helena, Tom; measured on A's first screen). *Decision: no decision yet.*
+- **F35** blocking, **accepted** (run 6): The front-page mock-ups (A, B, C) change the bylines to 'Vicky Wang's desk' or 'PrompTugal.news', so work written by an AI agent reads as written by a person (Helena, Tom; measured on A's first screen). *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
 - **F26** costly, **open** (run 4): 'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call. *Decision: no decision yet.*
 - **F32** costly, **open** (run 5): The homepage's second screen is an attendee agenda: Ana, Helena and Tom concluded the site is only for people going to the summit. *Decision: no decision yet.*
-- **F36** costly, **open** (run 6): All three mock-ups move what makes the site different to the bottom ('Why we are different') and shrink 'Every fact sourced' to one grey line; today's page shows it first. *Decision: no decision yet.*
-- **F37** costly, **open** (run 6): The AI-made lead infographic cannot be read on a phone, and its figures are doubted (Ana, Miguel, Helena, Tom); its 'DATES: 8 to 13 November 2026' are the Brazilian mission's own dates (sourced in the article) but sit under a Web Summit headline, so two readers took them for the summit's (9 to 12) and called it wrong. *Decision: no decision yet.*
-- **F38** costly, **open** (run 6): B, the visual wall, was ranked last by all four: bare figures ('84%', 'Up to 125') with no source beside them read as marketing (Miguel, Helena), no story leads (Tom), text too small on a phone (Ana). *Decision: no decision yet.*
+- **F36** costly, **accepted** (run 6): All three mock-ups move what makes the site different to the bottom ('Why we are different') and shrink 'Every fact sourced' to one grey line; today's page shows it first. *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
+- **F37** costly, **accepted** (run 6): The AI-made lead infographic cannot be read on a phone, and its figures are doubted (Ana, Miguel, Helena, Tom); its 'DATES: 8 to 13 November 2026' are the Brazilian mission's own dates (sourced in the article) but sit under a Web Summit headline, so two readers took them for the summit's (9 to 12) and called it wrong. *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
+- **F38** costly, **accepted** (run 6): B, the visual wall, was ranked last by all four: bare figures ('84%', 'Up to 125') with no source beside them read as marketing (Miguel, Helena), no story leads (Tom), text too small on a phone (Ana). *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
 - **F11** minor, **open** (run 1): Front page: no 'first time? *Decision: no decision yet.*
 - **F05** costly, **verified** (run 1): The mandate ('to map the universe of AI in Portugal') on no page. *Decision: measured live: front page and About, v0.1.77 (run 4) and v0.1.86.*
 
@@ -92,10 +93,10 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 ### conductor@ (4 waiting)
 
 {.rows}
-- **F19** blocking, **open** (run 3): For Dinis: the disclosure's 'This is not independent coverage. *Decision: no decision yet.*
-- **F06** costly, **open** (run 1): About is stale: 'the writing desks are next', 'Vicky, editor', 'no human review first' with no statement of what a human reviews. *Decision: no decision yet.*
-- **F07** costly, **open** (run 1): For Dinis: what RiskMandate is, who owns it, whether it sells to the companies covered; whether answers are optional, approved before publication, never used for sales. *Decision: no decision yet.*
-- **F21** costly, **open** (run 3): Nothing says who reads PrompTugal.news or how it is funded. *Decision: no decision yet.*
+- **F19** blocking, **later** (run 3): For Dinis: the disclosure's 'This is not independent coverage. *Decision: later: the disclosure's wording is Dinis's call (the participant disclosure is the estate's standard); put to him in asks (board/team/conductor/status.json).*
+- **F06** costly, **accepted** (run 1): About is stale: 'the writing desks are next', 'Vicky, editor', 'no human review first' with no statement of what a human reviews. *Decision: accept: the About page to be rewritten by journalist@ with what a human reviews and the publisher (The Cyber Boardroom, UK); routed on its lane (board/team/conductor/status.json).*
+- **F07** costly, **later** (run 1): For Dinis: what RiskMandate is, who owns it, whether it sells to the companies covered; whether answers are optional, approved before publication, never used for sales. *Decision: later: what RiskMandate is, who owns it and whether it sells to covered companies is Dinis's to state; put to him in asks (board/team/conductor/status.json).*
+- **F21** costly, **accepted** (run 3): Nothing says who reads PrompTugal.news or how it is funded. *Decision: accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06 (board/team/conductor/status.json).*
 
 ### ontologist@ (3 waiting)
 
@@ -113,9 +114,9 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 ### outreach@ (1 waiting)
 
 {.rows}
-- **F25** costly, **open** (run 4): No line that the 15 minutes is not a sales conversation and nobody from RiskMandate is in it (the comms director's one change, twice); for Dinis via the conductor. *Decision: no decision yet.*
-- **F08** costly, **done** (run 1): Tailor the ask to the kind of organisation (bank, fund, media do not run agents in that sense). *Decision: no decision yet.*
-- **F18** costly, **done** (run 2): 'powered by RiskMandate' with no line on what it is; no greeting; 'mandato' blurs mission and question. *Decision: no decision yet.*
+- **F25** costly, **later** (run 4): No line that the 15 minutes is not a sales conversation and nobody from RiskMandate is in it (the comms director's one change, twice); for Dinis via the conductor. *Decision: later: whether an email may say the 15 minutes is not a sales conversation and that nobody from RiskMandate is in it is Dinis's to say (asks, below); until he does, the email says only what the disclosure says (board/team/outreach/status.json).*
+- **F08** costly, **done** (run 1): Tailor the ask to the kind of organisation (bank, fund, media do not run agents in that sense). *Decision: done: v0.1.54, the ask differs for public bodies and foundations; v0.1.77, the disclosure in its own words (board/team/outreach/status.json).*
+- **F18** costly, **done** (run 2): 'powered by RiskMandate' with no line on what it is; no greeting; 'mandato' blurs mission and question. *Decision: done: v0.1.65, the disclosure line instead of 'powered by', a greeting in every draft (CRLF throughout), 'aim' not 'mandate' (board/team/outreach/status.json).*
 - **F20** costly, **verified** (run 3): The email's disclosure was softer than the page it links. *Decision: measured live: draft 03:00 UTC quotes the disclosure (run 4).*
 - **F09** minor, **verified** (run 1): Portuguese email leads to an English page. *Decision: measured live: draft 01:00 UTC: 'por agora, a página está em inglês' (run 2).*
 
@@ -157,4 +158,4 @@ Tom (invented, SYNTHETIC) read the Brazil story in run 5; this morning it was re
 - A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).
 - A card per reader (designer@, pass finding S5).
 - The readers tapped nothing: runs so far are screenshots only.
-- No owner has recorded a decision in the ledger yet (07:05 UTC): every open row still reads 'no decision yet'.
+- Decisions are coming in (08:55 UTC): 7 from outreach@ and the conductor, collected from their own files; designer@'s round 2 answers F35 to F38 in its mock-ups, verified when live.
