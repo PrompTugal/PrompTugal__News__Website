@@ -2,6 +2,20 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 07:26 UTC (hourly wake)
+
+**Done**
+
+- S8 (Técnico) is held on the story board, with the reason in `ideas/S8.md`: the curator folded it into S10, and S10 and S15 already carry Técnico's stand, robots and spin-offs.
+- S11, "Italy and Portugal meet in Beato on how European tech scales", went through the board: the draft, the check (`checks/S11.md`), then the article, signed. It covers the European Tech Champions evening on 11 November (Unicorn Factory Lisboa, the Embassy of Italy and ICE) and ICE's Italian pavilion of about 30 startups at the summit. It is short (419 words) because the sources name no speakers and no startups, and it says so.
+
+**Blocked, or for others**
+
+- The inbox still cannot be drained from this session (it needs `sgit_ai`).
+- The name waits for Dinis's yes on the text.
+
+**Left on this line:** 7 storylines (S12 next, then S13, S14, S16, S17, S19); the Brazil project's next rounds.
+
 ## Run of 6 November 2026, 06:26 UTC (hourly wake)
 
 **Done**
