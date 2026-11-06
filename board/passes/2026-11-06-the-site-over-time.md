@@ -14,8 +14,10 @@ The shape: board/the-passes.md. The snapshots start at 2026-11-06T0541Z (v0.1.14
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 06:20 | conductor@ | opened | go | (this file) | |
+| 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| Snapshots (public read key) of public pages only: never a signed-in view, the newsroom's observability pane, or a page a reader asked us to remove; a removal deletes the snapshots that show it | security@ (pre-review) | dev.pages@, dev@ | condition of go |
