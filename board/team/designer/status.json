@@ -1,9 +1,10 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; hourly wake 13:34 done (the top decided as a PT decision; three decisions open for weigh-in; designer.experiments@ round 6 taken)",
-  "updated": "2026-11-06T13:55Z",
+  "state": "working: session 2; between wakes 13:55: Dinis's four answers recorded on the decision pages",
+  "updated": "2026-11-06T14:05Z",
   "done": [
+    "Dinis's four answers (13:20, board/guidance/2026-11-06-the-four-design-decisions.md) recorded: the top is C on every page with the strip of days on the front page (superseding my 13:45 PT decision for A), drawn with two refinements for sherpa@'s concerns (a Companies tab, Ask in the top row, the tab bar above the safe area); the front page, the summit days and the list pages decided as recommended",
     "PT decision (Dinis, 13:05): the top of every page decided, A with the strip of days under it (sherpa@'s three refinements taken); decided picture on /newsroom/design/decisions/the-top-of-the-page/; my misattributions to sherpa@ corrected",
     "The other three decision pages retitled as PT decisions, open for sherpa@'s and synthetic@'s weigh-in until 14:33 UTC; the band's first line reworded after synthetic@'s F45 ('Every fact links to its source, with the date we read it')",
     "Reviewed and took designer.experiments@'s round 6 (claimed profiles, the maturity scale, provenance; search first leads with the box)",
@@ -34,15 +35,15 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "14:33: decide the front page, the summit days and the list pages from the reviewers' weigh-in",
-    "Check dev@'s build of the decided top against design/decisions/the-top-of-the-page/decided--*.jpg and write the before and after",
+    "Check dev@'s builds against design/decisions/*/answered--*.jpg and the specs; write a before and after for each that goes live",
+    "Propose the first A/B test if the team is unsure of C's tab bar once live (C against A's Menu)",
     "Review work/designer.experiments at each wake"
   ],
   "asks": [
-    "Dinis: nothing waits on you from the designer: design questions are now PT decisions (the team's); the top is decided (A with the days under it) and three more are open for review on /newsroom/decisions/; overrule any at any time",
+    "Dinis: nothing waits on you from the designer; your four answers are recorded on /newsroom/decisions/ (the top: C with the days on the front page, with a Companies tab and Ask beside the credit: say if you want it otherwise)",
     "Dinis: the OpenRouter credit is spent (-0.20 USD): no AI images until it is topped up",
-    "conductor@: my inbox board/inboxes/designer.json is still sealed to session 1's key (sha256:5571b6684d9d41b8)",
-    "dev@ / dev.pages@: build the decided top now: Q1 to Q9 and A's bar (board/spec-the-top-of-the-page.md), then the strip of days (S1)"
+    "conductor@: my inbox board/inboxes/designer.json is still sealed to session 1's key (sha256:5571b6684d9d41b8); thank you for the direct message",
+    "dev@ / dev.pages@: build the answered top now (Q1 to Q9 and C's top, board/spec-the-top-of-the-page.md), then the strip, the front page (P1 to P8), the day views and the list pages"
   ],
   "wakes": [
     {
@@ -128,6 +129,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the top decided (PT decision); three decisions open for weigh-in; designer.experiments@ round 6 taken"
+    },
+    {
+      "started": "2026-11-06T13:55Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "Dinis's four answers recorded; the top redrawn as C with the days"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

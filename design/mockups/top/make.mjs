@@ -201,7 +201,24 @@ const DECIDED = {
     notes: ['The PT decision: A on every page, with the strip of days under its two rows on the front page and the summit pages until 13 November.',
         'sherpa@\'s refinements: the strip under A, not instead of it (search and the sections stay); one door, the Menu (no "More" beside it); all eight days fit a 390 px phone.'],
 }
-const VARIANTS = { A, B, C, D, DECIDED }
+
+// ---- Answered by Dinis (13:20 UTC, board/guidance/2026-11-06-the-four-design-decisions.md): C on every page, with D's strip of days
+// on the front page and the summit pages. Two refinements within C, for sherpa@'s two concerns of 12:50: Companies gets a tab
+// (Ask moves to the top row beside the credit), and the tab bar keeps clear of the phone's bottom edge (safe area).
+const ICON_CO = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="4" y="9" width="7" height="11" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13" y="4" width="7" height="16" fill="none" stroke="currentColor" stroke-width="2"/></svg>'
+const FINAL = {
+    title: 'Answered: C on every page, with the days on the front page',
+    phone: ink => C.phone(ink)
+        .replace(' · <span class="green">4 days to go</span>', '')
+        .replace(/(<\/div><\/div>\n)(<a class="pill credit"[\s\S]*?<\/a>)(<\/div><\/header>)/, (m, a, cr, b) => `${a}<div style="display:flex;gap:5px">${cr}<a class="pill" style="padding:0 10px">${ICON.ask}<span>Ask</span></a></div>${b}`)
+        .replace('</header>', `<div style="padding:6px 16px 8px;border-top:1px solid var(--hair)">${stripFit(true)}</div></header>`)
+        .replace(/\[\['now', 'Now', 1\][^\n]*?\]\]/, '')
+        .replace(/<nav style="position:fixed;left:0;right:0;bottom:0;height:62px([^"]*)">\n[\s\S]*?<\/nav>/, (m, st) => `<nav style="position:fixed;left:0;right:0;bottom:0;height:62px${st}">\n${[['now', 'Now', 1], ['cal', 'Agenda'], ['news', 'News'], ['co', 'Companies'], ['search', 'Search'], ['menu', 'More']].map(([i, l, on]) => `<a style="display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;font-weight:600;color:${on ? 'var(--brand)' : 'var(--ink-2)'}">${i === 'co' ? ICON_CO : ICON[i]}${l}</a>`).join('')}</nav>`),
+    desktop: ink => C.desktop(ink).replace('</header>', `</header>\n<div style="border-bottom:1px solid var(--hair)"><div class="row" style="--g:24px;padding-top:8px;padding-bottom:8px;gap:24px"><p class="kicker" style="color:var(--ink);width:180px">Web Summit Lisbon · the days</p><div style="flex:1">${stripFit(false)}</div></div></div>`),
+    notes: ['Dinis, 13:20 UTC: C on every page, with D\'s strip of the summit\'s days on the front page and the summit pages.',
+        'Refinements within C, for sherpa@\'s concerns: a Companies tab (Ask moves to the top row beside the credit); the tab bar sits above the phone\'s safe area, clear of Safari\'s own bar.'],
+}
+const VARIANTS = { A, B, C, D, DECIDED, FINAL }
 const page = (body, ink, label) => `<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><style>${css(ink)}</style></head><body>${body}<span class="note">Mock-up ${label}</span></body></html>`
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt-top-'))

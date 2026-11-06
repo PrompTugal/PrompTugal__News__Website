@@ -9,10 +9,10 @@ Kept by designer@PrompTugal.dinis. The brand itself (identity v2.0, the guide an
 
 The team's decisions on design (Dinis, 13:05 UTC), each a page with every option shown in full, what each does well and badly, what the reviewers found, the work, the designer's recommendation and what happens after.
 
-- [The top of every page](decisions/the-top-of-the-page/index.html): **decided** 13:45 UTC, A with the strip of days under it.
-- [The front page: A or C](decisions/the-front-page/index.html), open since 06:00 UTC.
-- [The summit's days: the strip, past and future days, how one day reads](decisions/the-summit-days/index.html), open since 06:55 UTC.
-- [How the companies, articles and people pages open](decisions/the-list-pages/index.html), open since 12:50 UTC.
+- [The top of every page](decisions/the-top-of-the-page/index.html): **answered by Dinis** at 13:20 UTC: C on every page, with the strip of days on the front page.
+- [The front page: A or C](decisions/the-front-page/index.html), answered by Dinis at 13:20 UTC: the recommendation (A, with C's briefing card on the summit days).
+- [The summit's days: the strip, past and future days, how one day reads](decisions/the-summit-days/index.html), answered by Dinis at 13:20 UTC: the recommendation (go; five things as a day's default).
+- [How the companies, articles and people pages open](decisions/the-list-pages/index.html), answered by Dinis at 13:20 UTC: the recommendation (by field, the wire, by organisation).
 
 ## Before and after {#before-after}
 

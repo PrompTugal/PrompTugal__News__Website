@@ -1,19 +1,38 @@
 ---
-title: "PT decision: the top of every page (decided: A, with the days under it)"
+title: "Decided by Dinis: the top of every page is C, with the summit's days on the front page"
 summary: "Which top should every page of PrompTugal.news have? Four mock-ups, each shown on a phone and a desktop, with what each does well and badly, what the reviewers found, the work it takes, the designer's recommendation and what happens after you choose."
 decision: decided
 asked_by: designer@PrompTugal.dinis
 asked_of: the team (a PT decision, at Dinis's word of 13:05 UTC; first asked of Dinis at 05:40)
 since: 2026-11-06T05:40Z
 blocks: "dev@'s quick fixes Q1 to Q9 (they hold for every option) and round 2 of the pass the-top-of-the-page; the strip of days (the summit days pass) sits in option D"
-answer: "A on every page, with the strip of the summit's days under A's two rows on the front page and the summit pages until 13 November; one door (the Menu, no More); all eight days fit a 390 px phone"
-decided_by: designer@PrompTugal.dinis, as a PT decision (Dinis, 13:05 UTC), with sherpa@'s verdict of 12:50
-answered_at: 2026-11-06T13:45Z
+answer: "C on every page (the app: one row at the top, a tab bar at the bottom of a phone, search as a field on a desktop), with D's strip of the summit's days on the front page and the summit pages; the quick fixes Q1 to Q9 with it"
+decided_by: Dinis Cruz, about 13:20 UTC (board/guidance/2026-11-06-the-four-design-decisions.md); it supersedes the designer's PT decision of 13:45 (A with the days), which was made before his answer reached the designer
+answered_at: 2026-11-06T13:20Z
 ---
 
-By designer@PrompTugal.dinis, Friday 6 November 2026 (WS-177). **Decided at 13:45 UTC as a PT decision**: at Dinis's word of about 13:05 UTC this "should not really be decision for me ... decision for the team", so the owner decided after the reviewers weighed in ([the decision](#decided)). A decision page, at Dinis's word of about 11:00 UTC: "decisions like the one about the design ... should be done via a page in the site, with full details and explanations." The pass: the top of the page (in the repository, `board/passes/2026-11-06-the-top-of-the-page.md`).
+By designer@PrompTugal.dinis, Friday 6 November 2026 (WS-177). **Answered by Dinis at about 13:20 UTC: C on every page, with the strip of days on the front page** ([the answer](#decided)). His answer reached the designer after it had decided A as a PT decision at 13:45; his answer stands. A decision page, at Dinis's word of about 11:00 UTC: "decisions like the one about the design ... should be done via a page in the site, with full details and explanations." The pass: the top of the page (in the repository, `board/passes/2026-11-06-the-top-of-the-page.md`).
 
-## Decided: A, with the days under it {#decided}
+## Answered by Dinis: C on every page, with the days on the front page {#decided}
+
+![The answered top on a phone: C with the strip of days](../../../../design/decisions/the-top-of-the-page/answered--phone.jpg)
+
+![The answered top on a desktop: C with the strip of days](../../../../design/decisions/the-top-of-the-page/answered--desktop.jpg)
+
+Dinis, about 13:20 UTC, reading this page: "we should have C on every page and D on the homepage, or all the pages that have that. So you basically on the homepage you add that layer of the history, right? Which I think is super powerful. What do you think of it?" (in the repository, `board/guidance/2026-11-06-the-four-design-decisions.md`).
+
+**What the designer thinks:** yes. C gives the page the most room on a phone and puts search where the thumb is, and the strip on the front page carries the site's history where it is most useful. sherpa@ raised two risks with C at 12:50, and both can be fixed within C, as the pictures above show:
+
+- **Companies was under More.** The founder who got our e-mail looks for Companies, so it gets a tab: Now, Agenda, News, Companies, Search, More. Ask moves to the top row, beside the credit.
+- **A bar at the bottom meets Safari's own bar on an iPhone.** The tab bar sits above the phone's safe area (`env(safe-area-inset-bottom)`; the page already sets `viewport-fit=cover`), so the two never overlap.
+
+The strip shows all eight days at 390 px, and with it the top row needs no countdown. If the team is unsure about the tab bar once it is live, it is the first A/B test: C's tab bar against A's Menu, measured by observability@ and read by synthetic@ (Dinis: "maybe start to have this sort of A/B testing when needed").
+
+**What happens now:** dev@ (or dev.pages@) builds Q1 to Q9 and C's top (`board/spec-the-top-of-the-page.md`), then the strip (S1 in `board/spec-the-summit-days.md`); the designer checks the build against these pictures and writes the before and after.
+
+### Superseded: the designer's PT decision of 13:45 (A, with the days under it)
+
+Before Dinis's answer reached the designer, it had decided A, from sherpa@'s verdict:
 
 ![The decided top on a phone](../../../../design/decisions/the-top-of-the-page/decided--phone.jpg)
 

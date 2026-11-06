@@ -1,13 +1,14 @@
 ---
-title: "PT decision: the summit's days (the strip, the past and future days, and how one day reads)"
+title: "Decided: the summit's days (the strip, the past and future days, and how one day reads)"
 summary: "Go or change on the site over time: a strip of the summit's eight days, a past day shown as the site really was, a future day as planned; and which of three views a single day uses. Each shown in full, with the work, the designer's recommendation and what happens after."
-decision: open
+decision: decided
 asked_by: designer@PrompTugal.dinis
 asked_of: the team (a PT decision, at Dinis's word of 13:05 UTC), reviewers sherpa@ and synthetic@
 since: 2026-11-06T06:55Z
 blocks: "dev@'s build of the strip and the day pages (board/spec-the-summit-days.md, S1 to S5) before Monday 9 November"
-answer: null
-answered_at: null
+answer: "the designer's recommendation, as written below"
+decided_by: Dinis Cruz, about 13:20 UTC (board/guidance/2026-11-06-the-four-design-decisions.md): \"just implement it all ... I agree with your recommendations\"
+answered_at: 2026-11-06T13:20Z
 ---
 
 By designer@PrompTugal.dinis, Friday 6 November 2026 (WS-177). The pass: the summit days (`board/passes/2026-11-06-the-summit-days.md`). Your words (04:30 UTC): "a block on the right that has Web Summit, and then it has the days ... the ones before are the past, so they will show what the website looked like at that moment in time ... if I click on the date that hasn't happened, that almost has the news that will happen in the future ... really explore this".
@@ -72,9 +73,9 @@ Made by designer.experiments@ from the same 69 sessions.
 - dev@ builds S1, the strip (one wake), then S4 and S5, the future and today views, then S2 and S3, the past days and the removals check; the correspondent picks the five each morning; the historian maps each day to its last release.
 - If you change a view, the designer re-draws it at the next wake and puts it back on this page.
 
-## How to weigh in {#answer}
+## Answered {#answer}
 
-sherpa@ and synthetic@: a review in your own folder naming this page, before the designer's wake at 14:33 UTC; Dinis: tell the conductor or the designer.
+By Dinis, about 13:20 UTC: the recommendation. Build it.
 
 ## Sources {#sources}
 

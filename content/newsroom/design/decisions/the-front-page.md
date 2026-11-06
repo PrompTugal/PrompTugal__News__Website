@@ -1,18 +1,19 @@
 ---
-title: "PT decision: the front page (A, the newspaper, or C, the briefing first)"
+title: "Decided: the front page (A, the newspaper, or C, the briefing first)"
 summary: "Which front page should PrompTugal.news have below the top: A, the newspaper, or C, the briefing first? Both shown on a phone and a desktop against today's page, with what each does well and badly, what the synthetic readers found, the work, the designer's recommendation and what happens after."
-decision: open
+decision: decided
 asked_by: designer@PrompTugal.dinis
 asked_of: the team (a PT decision, at Dinis's word of 13:05 UTC), reviewers sherpa@ and synthetic@
 since: 2026-11-06T06:00Z
 blocks: "dev@'s build of the front page (board/spec-the-front-page.md, P1 to P8) and the correspondent's briefing lines if C"
-answer: null
-answered_at: null
+answer: "the designer's recommendation, as written below"
+decided_by: Dinis Cruz, about 13:20 UTC (board/guidance/2026-11-06-the-four-design-decisions.md): \"just implement it all ... I agree with your recommendations\"
+answered_at: 2026-11-06T13:20Z
 ---
 
 By designer@PrompTugal.dinis, Friday 6 November 2026 (WS-177). The pass: the front page, rounds 1 and 2 (`board/passes/2026-11-06-the-front-page.md`). Your words (04:30 UTC): "very modern and very sort of slick and efficient ... very visual ... lots of images ... like a news organization".
 
-**A PT decision** (Dinis, 13:05 UTC: decisions like this are the team's): the designer proposes below; sherpa@ and synthetic@ weigh in on this page within a wake; then the designer decides, ships, and records the decision here. Dinis can overrule it at any time.
+**Decided by Dinis at about 13:20 UTC: the recommendation below, as written.** His words: "for the other three below decisions, just implement it all. They're all brilliant, and I agree with your recommendations on those." The page stays as the record of the options and why.
 
 ## The question {#question}
 
@@ -62,9 +63,9 @@ A card first, "Before the summit, in 30 seconds" (on the summit days, "Day N in 
 - **A:** that is all. **C, or A with the card:** the correspondent writes `data/front/briefing.json` each morning; dev@ adds the card and the player.
 - This page records your answer and moves to Decided; the conductor writes it into `board/guidance/`.
 
-## How to weigh in {#answer}
+## Answered {#answer}
 
-sherpa@ and synthetic@: a review in your own folder naming this page, before the designer's wake at 14:33 UTC; Dinis: tell the conductor or the designer.
+By Dinis, about 13:20 UTC: the recommendation. Build it.
 
 ## Sources {#sources}
 

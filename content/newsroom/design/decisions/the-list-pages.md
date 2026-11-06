@@ -1,18 +1,19 @@
 ---
-title: "PT decision: how the companies, articles and people pages open"
+title: "Decided: how the companies, articles and people pages open"
 summary: "Each of the three big list pages can be read three ways with one switch; which view should each open with? All nine views shown, with what each does well and badly, the designer's recommendation and what happens after."
-decision: open
+decision: decided
 asked_by: designer@PrompTugal.dinis
 asked_of: the team (a PT decision, at Dinis's word of 13:05 UTC), reviewers sherpa@ and synthetic@
 since: 2026-11-06T12:50Z
 blocks: "dev.pages@'s build of the companies, articles and people pages with a switch"
-answer: null
-answered_at: null
+answer: "the designer's recommendation, as written below"
+decided_by: Dinis Cruz, about 13:20 UTC (board/guidance/2026-11-06-the-four-design-decisions.md): \"just implement it all ... I agree with your recommendations\"
+answered_at: 2026-11-06T13:20Z
 ---
 
 By designer@PrompTugal.dinis, Friday 6 November 2026 (WS-177), from designer.experiments@'s rounds 1 to 5. Your words: the companies page "a massive wall of text ... multiple versions, have a nice UI that allows us to select that" (05:10 UTC); the people page "massive list, waste of space ... interesting ways to connect this" (05:20 UTC); variations on the page itself, with "a chunk of the page, maybe the top page, that never changes" (05:00 UTC).
 
-**A PT decision** (Dinis, 13:05 UTC: decisions like this are the team's): the designer proposes below; sherpa@ and synthetic@ weigh in on this page within a wake; then the designer decides, ships, and records the decision here. Dinis can overrule it at any time.
+**Decided by Dinis at about 13:20 UTC: the recommendation below, as written.** His words: "for the other three below decisions, just implement it all. They're all brilliant, and I agree with your recommendations on those." The page stays as the record of the options and why.
 
 ## The question {#question}
 
@@ -74,9 +75,9 @@ Public and professional only: names, roles, organisations and sessions as the pr
 
 dev.pages@ builds the three pages from the experiment tools (`design/experiments/*/switch.mjs`, self-contained and already checked for errors), under the site's top and with its data; dev@ reviews; the designer checks the build at the next wake. Logos and people's photos come later, from vaults.
 
-## How to weigh in {#answer}
+## Answered {#answer}
 
-sherpa@ and synthetic@: a review in your own folder naming this page, before the designer's wake at 14:33 UTC; Dinis: tell the conductor or the designer.
+By Dinis, about 13:20 UTC: the recommendation. Build it.
 
 ## Sources {#sources}
 
