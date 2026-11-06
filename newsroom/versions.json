@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.208",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.vicky: its key entry in board/keys.json under the new name",
+    "by": "designer@PrompTugal.vicky",
+    "from": "2a9dd3848"
+  },
+  {
     "version": "v0.1.207",
     "date": "2026-11-06",
     "what": "curator@PrompTugal.vicky: its key entry in board/keys.json under the new name",
