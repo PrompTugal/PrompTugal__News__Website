@@ -2,6 +2,19 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-06, about 03:40 UTC: the opening in Dinis's words; ROLE.md and status.json
+
+**Done**
+
+- Every draft opens as Dinis put it at the stand-up of 5 November (`board/guidance/2026-11-05-1800-the-stand-up.md`, section 7): "we just built this for you ... can you come and check it to see if it's correct?". Subject: "We built a page about <company>: could you check it?"; Portuguese: "Fizemos uma página sobre a <empresa>: podem confirmar?".
+- Re-checked against the live data: the generator, run before the change, wrote the same drafts (no page fact a draft uses had changed since 02:40).
+- `board/team/outreach/ROLE.md` and `status.json` (`board/the-team-setup.md`, row 1).
+
+**Blocks**
+
+1. Who sends from which address (Dinis).
+2. What the email may promise beyond the disclosure (Dinis).
+
 ## 2026-11-06, about 03:30 UTC: at Dinis's word, no private CRM here; the SEO pass
 
 **Done**
