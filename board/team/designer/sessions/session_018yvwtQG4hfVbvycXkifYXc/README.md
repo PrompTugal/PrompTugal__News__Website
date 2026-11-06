@@ -15,3 +15,11 @@ I adopt the handover in `board/team/designer/debriefs/2026-11-06-session-1.md`, 
 - **First work:** the pass `board/passes/2026-11-06-the-top-of-the-page.md`, round 1 (quick fixes as specs for dev@, and mock-ups of the top for Dinis), then the front page pass and its images with dev@.
 
 Notes of this session go in this folder.
+
+## Run 1 (04:40 to 05:45 UTC): what I learnt
+
+- **sgit prints the vault key** in `sgit vault info`'s "Web URL" line (the fragment is the vault key). It happened once, on an empty vault that was then deleted before any push; the vault in use (`bar9wi87`) was made afterwards and its key was never printed. Filter that output (`grep -E "vault id|read key"`).
+- **`sgit pki encrypt --fingerprint`** (to sign) waits on stdin; without it (unsigned) it works. The conductor's key is not on pki.sgit.ai's register, so `pki-agent.mjs seal --to` refuses it; `sgit pki import` of its bundle from `board/keys.json` works.
+- **A public read key** is the private read key's hex with the prefix `sgit_public_read_`; it clones and opens in `https://dev.vault.sgraph.ai/en-gb/#<read key>:<vault id>` (read-only; "Open as App" renders an index.html).
+- **OpenRouter image models** (read 05:00 UTC): gemini-3.1-flash-lite-image (about 0.03 USD an image), gemini-3.1-flash-image (0.07), gemini-3-pro-image (0.15), openai/gpt-5-image-mini (no image with `modalities: [image, text]`; try `[image]`). The whole article in the prompt works; Pro got every figure right first time.
+- **abp@'s hook** blocks every connector (R3), the claude.ai artifacts one included.

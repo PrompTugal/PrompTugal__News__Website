@@ -17,6 +17,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 03:50 | accountant@ | budget set (board/budgets.json): runs, dollars, output tokens; a hard stop | go | (budget commit) | not counted |
 | 03:50 | security@ | pre-review | go, with conditions: no new script, font or request to another host; no screenshot or mock-up shows a signed-in view or the observability pane open; the credit top right shows the price only, never a reader's account or key; the Newsroom link on a phone points at public pages only (board/team/security/reviews/2026-11-06-0350-first-review.md) | (the commit of this review) | one wake |
 | 04:05 | sherpa@ | review (the reader, phone and desktop, live v0.1.93) | change: 13 findings, T1 to T3 first; six questions for the mock-ups (board/team/sherpa/review-2026-11-06-the-top-of-the-page.md, design/shots/sherpa/top/) | (this commit) | one wake |
+| 05:40 | designer@ | round 1: the card's tagline released (T5, v0.1.123); quick fixes Q1 to Q9 for dev@; four mock-ups A to D for Dinis (board/spec-the-top-of-the-page.md; before and after: /newsroom/design/v0-1-123-the-top-of-the-page/) | change: Dinis chooses a top; dev@ the quick fixes | (designer's commits of this run) | 1 run |
 
 ## Findings and decisions
 

@@ -1,0 +1,119 @@
+{
+ "version": "v0.1.123",
+ "date": "Friday 6 November 2026",
+ "title": "The top of the page, round 1: the card's tagline, and four ways the top could go",
+ "summary": "v0.1.123 puts the business card's tagline, \"People and AI agents, reporting together\", on every page in place of \"Technology and AI, in context. The Web Summit Lisbon 2026 edition\". The rest of the top waits on dev@'s quick fixes and on Dinis's choice of one of four mock-ups, shown here as steps after the release.",
+ "devices": [
+  "phone",
+  "desktop"
+ ],
+ "steps": [
+  {
+   "id": "before",
+   "label": "Before: v0.1.114",
+   "img": {
+    "phone": "before--home--phone--paper.png",
+    "desktop": "before--home--desktop--paper.png"
+   }
+  },
+  {
+   "id": "after",
+   "label": "After: v0.1.123",
+   "note": "Released: the masthead's line is the card's tagline. Powered by RiskMandate, the Vault button and the phone's hidden sections are dev@'s quick fixes (Q1 to Q9), still to come.",
+   "img": {
+    "phone": "after--home--phone--paper.png",
+    "desktop": "after--home--desktop--paper.png"
+   }
+  },
+  {
+   "id": "A",
+   "label": "Mock-up A: one bar",
+   "note": "Proposed. The logo left; Search, the credit and Menu right, in one row; the tagline and the independence line as one line under it.",
+   "img": {
+    "phone": "../../top-of-the-page/round-1/mockups/A--phone.png",
+    "desktop": "../../top-of-the-page/round-1/mockups/A--desktop.png"
+   }
+  },
+  {
+   "id": "B",
+   "label": "Mock-up B: slim nameplate",
+   "note": "Proposed. A left-aligned nameplate with the tagline and the boxes' words at its right; every section as a chip on a phone.",
+   "img": {
+    "phone": "../../top-of-the-page/round-1/mockups/B--phone.png",
+    "desktop": "../../top-of-the-page/round-1/mockups/B--desktop.png"
+   }
+  },
+  {
+   "id": "C",
+   "label": "Mock-up C: app tabs",
+   "note": "Proposed. The PT.news stamp on a phone and a tab bar at the bottom where the thumb is; a real search field on a desktop.",
+   "img": {
+    "phone": "../../top-of-the-page/round-1/mockups/C--phone.png",
+    "desktop": "../../top-of-the-page/round-1/mockups/C--desktop.png"
+   }
+  },
+  {
+   "id": "D",
+   "label": "Mock-up D: the summit's days",
+   "note": "Proposed. A's bar with the summit's days, Friday 6 to Friday 13 November, as a strip: today in ink, the summit days tinted.",
+   "img": {
+    "phone": "../../top-of-the-page/round-1/mockups/D--phone.png",
+    "desktop": "../../top-of-the-page/round-1/mockups/D--desktop.png"
+   }
+  }
+ ],
+ "notes": [
+  "Released in v0.1.123: the tagline (sherpa@'s T5; Dinis: \"I like the tagline that we were talking about on the business cards\").",
+  "For dev@: drop Powered by RiskMandate from the masthead, no Vault button, the credit last and labelled, the theme picker to the footer, a Menu on a phone with every section and the Newsroom, the ears as one line, no floating Ask over the stories (board/spec-the-top-of-the-page.md).",
+  "For Dinis: choose a top. My pick: A on every page, with D's day strip on the front page until 13 November.",
+  "The mock-ups' lead image is the article image already made for the Brazil story; the AI infographics below are this release's experiment for the front page pass."
+ ],
+ "experiments_intro": "The Brazil story, the whole article in the prompt with the brand's colours and strict rules (only the article's facts, no faces, no logos, marked AI-made), on four OpenRouter models from cheap to expensive. Every figure was checked against the article by reading the image back. Total: $0.325 for five calls.",
+ "experiments": [
+  {
+   "img": "../../ai-images/brazil-startup-mission/google_gemini-3-pro-image--editorial--045743.png",
+   "model": "google/gemini-3-pro-image",
+   "style": "editorial",
+   "cost_usd": 0.155,
+   "seconds": 1.9,
+   "use": true,
+   "verdict": "the best: a true chart of the disagreeing counts (100, 188, about 200, 239 as 99+90+50, about 300), the programme, who runs it; every figure matches the article"
+  },
+  {
+   "img": "../../ai-images/brazil-startup-mission/google_gemini-3.1-flash-image--editorial--045656.png",
+   "model": "google/gemini-3.1-flash-image",
+   "style": "editorial",
+   "cost_usd": 0.068,
+   "seconds": 6.8,
+   "use": true,
+   "verdict": "good value: a map with the five counts and their sources; one slip (the number 2 used twice for two headings)"
+  },
+  {
+   "img": "../../ai-images/brazil-startup-mission/google_gemini-3.1-flash-lite-image--editorial--045648.jpg",
+   "model": "google/gemini-3.1-flash-lite-image",
+   "style": "editorial",
+   "cost_usd": 0.034,
+   "seconds": 2.8,
+   "use": false,
+   "verdict": "right facts, but it drew Web Summit's logo (against the rules), an invented site plan, and one callout twice"
+  },
+  {
+   "img": "../../ai-images/brazil-startup-mission/google_gemini-3.1-flash-image--cartoon--045724.png",
+   "model": "google/gemini-3.1-flash-image",
+   "style": "cartoon",
+   "cost_usd": 0.068,
+   "seconds": 8.7,
+   "use": false,
+   "verdict": "warm and funny, and the line 'Who are you all? We are mapping you!' fits the story; but 188 and 100 appear twice, an airline's name and a flag crept in"
+  },
+  {
+   "img": "",
+   "model": "openai/gpt-5-image-mini",
+   "style": "editorial",
+   "cost_usd": 0,
+   "seconds": 0.5,
+   "use": false,
+   "verdict": "returned no image (the request shape for OpenAI's image models needs another try)"
+  }
+ ]
+}
