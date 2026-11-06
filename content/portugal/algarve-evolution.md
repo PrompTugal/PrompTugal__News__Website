@@ -21,7 +21,7 @@ To diversify the Algarve's economy beyond tourism and help established industrie
 - **Algarve Digital Innovators (ADI)**, a network of innovation communities across the Algarve's 16 municipalities, launched in Lagos in September 2025 ([postal.pt](https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/)), under the Algarve EMPREENDE 2026 project. Its July 2026 plan counts 24 communities and 144 consultants and mentors, and sets goals for 2030 that depend on funding and regional coordination.
 - **Education**: work with the University of Algarve, Junior Achievement Portugal ("The Company") and Vibathon Algarve.
 - **Algarve Evolution Incubator**: recognised by Startup Portugal in January 2026.
-- **Founder2Founder**: a six-month growth programme launched in October 2026; 8 companies chosen from 41 applications; no equity taken. An early-stage incubation programme is planned for 2027.
+- **Founder2Founder**: a six-month growth programme launched in October 2026; 8 companies chosen from 41 applications; no equity taken (its own site, read 6 November 2026, says applications are closed and the cohort will be announced). An early-stage incubation programme is planned for 2027.
 - **INOVA ALGARVE 3.0**: digital transition for tourism SMEs, with a pilot of free AI and robotics consultancy for 20 SMEs.
 - **Algarve Tech Hub Summit**: co-organised with the University of Algarve and Algarve STP, according to Portugal Startup News. The 2025 edition in Lagos (6 to 7 November 2025) reported more than 500 participants ([postal.pt](https://postal.pt/algarve/mais-de-500-pessoas-participaram-na-algarve-tech-hub-summit-2025-em-lagos/), headline read 6 November 2026); it is confirmed to return in 2027, with no date or venue announced.
 - **Grow Algarve Meetup**: its Meetup page names Algarve Evolution as organiser; 1,623 members and monthly gatherings across Algarve municipalities, none listed as upcoming on 6 November 2026 ([Meetup](https://www.meetup.com/grow-algarve-meetup/), read 6 November 2026).
@@ -63,12 +63,12 @@ We found no equivalent 2026 listing yet. We also found no public member list, so
 
 ## The Algarve in summit week {#events}
 
-Events in our programme that Algarve Evolution lists on its site, outside Web Summit's own programme (each page has its source):
+Three events in our programme appear on Algarve Evolution's events calendar. Only one names it as a partner; the other two are organised by others and are listed there. Each was read at its own page on algarveevolution.pt on 6 November 2026.
 
 {.rows}
-- [TMCT'26, Tourism Management and Computing Technologies International Conference](../../events/tmct-26-tourism-management-and-computing/index.md), in-person days 5 to 7 November, Portimão.
-- [Private Wealth and Investment Gathering](../../events/private-wealth-and-investment-gathering/index.md), 6 November, Almancil, invitation only.
-- [DevFest Lagos 2026](../../events/devfest-lagos-2026/index.md), 7 November, Lagos.
+- [DevFest Lagos 2026](../../events/devfest-lagos-2026/index.md), 7 November, Lagos. Organised by Google Developer Group Lagos; partners Câmara Municipal de Lagos, Google Developer Groups and **Algarve Evolution** ([page](https://www.algarveevolution.pt/event/gdg-lagos-182/register)).
+- [TMCT'26, Tourism Management and Computing Technologies International Conference](../../events/tmct-26-tourism-management-and-computing/index.md), in-person days 5 to 7 November, Portimão. Organised by Associação Académica do ISMAT / Grupo Lusófona; no partners listed for the event ([page](https://www.algarveevolution.pt/event/tourism-management-computing-technologies-international-conference-149/register)).
+- [Private Wealth and Investment Gathering](../../events/private-wealth-and-investment-gathering/index.md), 6 November, Almancil, invitation only. Organised by Sotavento Invest; listed on the calendar, not run by Algarve Evolution ([page](https://www.algarveevolution.pt/event/private-wealth-investment-gathering-180/register)).
 
 The wider week: [Portugal Tech Week](../index.md), 6 to 15 November, across the country.
 
