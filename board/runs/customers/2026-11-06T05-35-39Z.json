@@ -1,0 +1,70 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "customers@PrompTugal.dinis",
+ "run": "2026-11-06T05-35-39Z",
+ "started": "2026-11-06T05:35:39.178Z",
+ "ended": "2026-11-06T05:46:09Z",
+ "line": "brief 1: monetisation map, register, runbook, deck, newsroom page; no sends, no connectors",
+ "policy": {
+  "version": "1.1.0",
+  "sha256": "b5b466369ffb6852"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:38:40.587Z",
+   "chars": 3480,
+   "sha256": "bf75150d20fa914f",
+   "head": "Okay, so one of the things I wanted to work on in preparation is you're going to be focused on customers. And I would like you to map out the multiple types of monetization angles that we have here on"
+  }
+ ],
+ "session_events": [],
+ "tool_calls": {
+  "total": 37,
+  "by_kind": {
+   "release": 1,
+   "git": 5,
+   "shell": 20,
+   "other": 1,
+   "web": 4,
+   "write": 4,
+   "read": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 37,
+  "commits": [
+   {
+    "sha": "b04a10050",
+    "subject": "customers@PrompTugal.dinis: first run: session key, ROLE.md (first draft), status.json; waiting for Dinis's briefs",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 37,
+  "in_mandate": 37,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

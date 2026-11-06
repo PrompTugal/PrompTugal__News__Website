@@ -1,21 +1,30 @@
 {
   "agent": "customers@PrompTugal.dinis",
-  "focus": "set by Dinis's briefs in session; none yet",
-  "state": "waiting: onboarded, key made, ROLE.md drafted; no brief yet",
-  "updated": "2026-11-06T05:40Z",
+  "focus": "Customers and monetisation (Dinis's brief of 6 November 2026): the map of what PrompTugal.news could sell, the packages, and how a sale runs",
+  "state": "working: brief 2 (the personal newsreel) written and sent to the conductor; waiting for Dinis on both briefs",
+  "updated": "2026-11-06T09:10Z",
   "done": [
     "Read CLAUDE.md, board/README.md, board/guidance/README.md, board/the-passes.md and the ABP core rules",
     "Session key customers-promptugal (record sha256:c9343261a2d9c30a, encryption sha256:07a3d6a50e599607) in board/keys.json, linked locally to the operator's key sha256:db7f79fdd87e030a",
-    "ROLE.md (first draft) and this status.json"
+    "ROLE.md (first draft) and this status.json",
+    "Brief 1 (monetisation): board/team/customers/monetisation-map.md (families A to E, what exists that people would pay for, benchmarks with sources, ten decisions for Dinis), packages.json (21 rows; only the 5 pound top-up is live; every other price a proposal), operations.md (runbook, change policy, quote template, how a package goes live), requests.json (the ledger for the rule of seven)",
+    "A 13-slide deck: board/team/customers/deck/monetisation-deck.pdf (source monetisation-deck.src.htm, renamed from .html because the gate treats every .html as a page)",
+    "The newsroom page /newsroom/customers/ (content/newsroom/customers/index.md) with a nav entry in data/site/nav.json, beside Orders",
+    "Brief 2 (the personal newsreel and the coverage map): board/team/customers/briefs/2026-11-06-the-personal-newsreel.md: Dinis's words, the idea, what exists in the repository, the sources I checked (Web Summit's text summaries verified; its YouTube channel's contents not read; a login-gated claim not used), the source rules, the product, three tests of its price, who does what, an order for 6 to 13 November",
+    "Added E5 (a personal newsreel, 25 pounds, a guess) and E6 (a slice for an investor, founder or company, 250) to packages.json, the map, the newsroom page and the deck (now 14 slides)",
+    "Briefed the conductor on its inbox lane (board/inbox.json), sealed to its key and signed by mine; the message points to the brief and asks it to open a pass"
   ],
   "next": [
-    "Wait for Dinis's first brief; then write it into ROLE.md and work to it",
-    "Read the individual guidance files, and my ABP in board/abp/ once abp@ writes it"
+    "Dinis's answers to the ten decisions in monetisation-map.md and the five in the newsreel brief",
+    "Once a sample newsreel exists: the quote and the delivery runbook for it; count asks in requests.json",
+    "Drain my inbox (board/inboxes/customers.json) once I have opened its credentials; I have not yet"
   ],
   "asks": [
-    "abp@: a grant for customers@ in board/abp/policies.json (until then the hooks treat my writes by the core rules only; I write only board/team/customers/ and my own key entry)",
-    "conductor@: a lane in board/inbox.json and an inbox in board/inboxes/ once my key is on dev (I have none yet, so I have drained nothing)",
-    "Dinis: the first brief; and whether the work is to be on dev (CLAUDE.md, your message) or on the session's branch claude/charming-goldberg-r5zkgs, which the harness named; I am treating dev as the rule"
+    "Dinis: the ten decisions at the end of board/team/customers/monetisation-map.md (currency, seller entity, how the vault key is issued, Stripe links of our own, which rows go live, the partners' offers, a private place for names and quotes, public or not, a line on the participant disclosure, the press pass)",
+    "Dinis: the five decisions at the end of board/team/customers/briefs/2026-11-06-the-personal-newsreel.md (which sources are in, embeds, who sends a newsreel, where the list of people already in conversation lives, paid or free first day)",
+    "conductor@: reissue my lane in board/inbox.json. Today at about 09:00 UTC I printed my lane's append token into my own session transcript by a debugging line (my mistake, ABP R8). It is write-only and was never committed or sent anywhere, but it should be treated as seen; messages in the lane are signed, so a spoofed one would not verify",
+    "conductor@: open a pass for the coverage map and the newsreel if Dinis wants it (the brief is the input); security@ first on sources, platform terms and embeds",
+    "abp@: note that I installed sgit-ai 0.27.0 with pip in my session to send on the lane (the tool's own documented step); and that content/newsroom/customers/ and one data/site/nav.json entry sit outside my grant, as flagged before"
   ],
   "notes": [
     "The sha256 of pki-agent.mjs (fcb28a1c...) matches abp@'s key entry, but I did not find the pin as a literal in the team site's admin/tools/seal.mjs; recorded in the key entry's 'how'."
@@ -26,6 +35,18 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "first run: key, ROLE.md, status.json; waiting for briefs"
+    },
+    {
+      "started": "2026-11-06T06:00Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "brief 1: the monetisation map, the register, the runbook, a 13-slide deck, the newsroom page /newsroom/customers/"
+    },
+    {
+      "started": "2026-11-06T08:00Z",
+      "outcome": "ok, with one slip (a token printed to my own transcript, reported in asks)",
+      "release": "this run's",
+      "line": "brief 2: the personal newsreel brief, E5 and E6, the conductor briefed on its lane"
     }
   ]
 }

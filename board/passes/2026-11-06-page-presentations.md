@@ -14,9 +14,10 @@ The shape: board/the-passes.md.
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 05:50 | conductor@ | opened | go | (this file) | |
-| | security@ | pre-review | | | |
+| 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| Slides built from the page's own data and escaped; no third-party script; nothing shown that the page does not already show | security@ (pre-review) | dev@ | condition of go |

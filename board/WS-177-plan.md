@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 05:52 UTC (site v0.1.142)
+
+- **Live:** `/newsroom/stories/` (the story board) and `/newsroom/dashboard/` (Dinis's dashboard) answer 200. `/newsroom/notes/` still 404.
+- **Workers:** six branches with work waiting for review: work/dev.pages (2), work/dev.portugal (2: Algarve Evolution), work/dev.search, work/dev.graphs, work/dev.verify, work/designer.experiments (1 each). dev@ and designer@ review at their wakes. Algarve Evolution is not on dev yet.
+- 24 releases since 04:52; researcher@ (4 commits) and customers@ (2) started.
+- Inboxes issued for customers@ and backup@ (18 lanes in board/inbox.json). The workers' keys are on their branches; their lanes follow once dev@ brings them onto dev.
+- Snapshots: 05:41 and 05:53 in the vault promptugal-snapshots.
+
 ## Wake at 04:52 UTC (site v0.1.122)
 
 - **abp@'s policies are live** (`board/abp/`, hooks in `.claude/settings.json`): deny by default; every run ends with a run report in `board/runs/<role>/`. They blocked the conductor's change to its own scheduled task (R4): asked of Dinis.

@@ -1,9 +1,10 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2 (session_018yvwtQG4hfVbvycXkifYXc) took over from session 1 at 04:40 UTC; notes in board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/",
-  "updated": "2026-11-06T05:45Z",
+  "state": "working: session 2; hourly wake 05:33 done (the front page, round 1)",
+  "updated": "2026-11-06T06:05Z",
   "done": [
+    "The front page, round 1: three mock-ups (A newspaper, B visual wall, C briefing first) answering sherpa@'s F1 to F8; spec board/spec-the-front-page.md; before and after /newsroom/design/front-page-round-1/; tool design/mockups/front/make.mjs; one AI image (PITCH story, 0.0675 USD, placeholder only)",
     "Session 2 onboarded: new key designer-promptugal-2 in board/keys.json, session 1's marked superseded",
     "The before and after of v0.1.123: a slider page in the vault (before-after/v0.1.123/) and /newsroom/design/v0-1-123-the-top-of-the-page/; the tool design/before-after/make.mjs",
     "AI infographics, first ladder: the Brazil story on 4 OpenRouter models (5 calls, 0.325 USD; gemini-3-pro-image best, gemini-3.1-flash-image good value); the tool design/ai-images/gen.mjs, every call logged in the vault",
@@ -18,18 +19,18 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "The before and after page of this release (a slider app in the vault, an article in /newsroom/design/)",
-    "AI infographics with OpenRouter: the whole story in, models from cheap to expensive, every call logged and scored; the Brazil story first",
-    "The front page pass F1, F2, F4, F6 to F8 with dev@ (images on the page)",
-    "Round 2 of the top of the page after Dinis's choice and dev@'s quick fixes"
+    "Round 2 of the top of the page and of the front page once Dinis chooses and dev@ builds",
+    "Images for every published story into the vault with an images.json per article, once the OpenRouter credit is topped up",
+    "The summit days pass: the day strip (mock-up D) designed in full with sherpa@'s review",
+    "Review designer.experiments@'s branch work/designer.experiments when it starts"
   ],
   "asks": [
-    "Dinis: choose a top (A, B, C or D; my pick A with D's day strip on the front page): board/spec-the-top-of-the-page.md and the proof page",
-    "conductor@: reissue my inbox (board/inboxes/designer.json) and my lane in board/inbox.json to sha256:d3d3cacbb7dc4269; open the pt-designer vault key (board/team/designer/sealed/); route the vault map page to dev@",
-    "dev@: the quick fixes Q1 to Q9 (board/spec-the-top-of-the-page.md), the vault map page and a before-after block (board/spec-vaults-images-and-before-after.md)",
-    "Dinis: the OpenRouter key has about 3 USD of credit left (135 bought, about 131.9 used, read 05:00 UTC): top it up for the infographics you asked for (about 0.07 to 0.16 USD an image)",
-    "Dinis: abp@'s R3 blocks the claude.ai artifacts connector, so no private proof pages (session 1 used them for your yes on the cards): grant it in board/abp/policies.json if you want them back",
-    "accountant@: an image line for the designer on OpenRouter (proposed 40 USD a day); this run spent 0.325 USD"
+    "Dinis: choose a top (A, B, C or D; my pick A with D's day strip) and a front page (A, B or C; my pick A with C's briefing card on summit days): /newsroom/design/",
+    "Dinis: the OpenRouter key has about 3 USD of credit left: top it up for the infographics",
+    "Dinis: abp@'s R3 blocks the claude.ai artifacts connector (no private proof pages); grant it in board/abp/policies.json if you want them",
+    "conductor@: my inbox board/inboxes/designer.json is still sealed to session 1's key (sha256:5571b6684d9d41b8): reissue it to sha256:d3d3cacbb7dc4269; and the vault map page to dev@",
+    "accountant@: an image line for the designer on OpenRouter (proposed 40 USD a day); spent today 0.39 USD in 6 calls",
+    "dev@ / dev.pages@: the top's Q1 to Q9 (board/spec-the-top-of-the-page.md) and the front page's P1 to P6 (board/spec-the-front-page.md)"
   ],
   "wakes": [
     {
@@ -61,6 +62,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "session 2 onboarded; the top of the page round 1 (tagline in v0.1.123, mock-ups); the designer's vault; before and after; the first AI infographics"
+    },
+    {
+      "started": "2026-11-06T05:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the front page, round 1: three mock-ups, spec, before and after"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

@@ -1,0 +1,22 @@
+{
+  "updated": "2026-11-06T06:20Z",
+  "state": "running",
+  "done": [
+    "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
+    "round 1b: ANJE regulation read as text; Algarve Evolution confirmed as project partner and jury member for the 24 Algarve startups at Web Summit 2025"
+  ],
+  "next": [
+    "retry algarveevolution.pt (unreachable twice)",
+    "check Algarve Evolution events in Portugal Tech Week and summit week 2026",
+    "session key: not made yet",
+    "people research once the section's shape is set"
+  ],
+  "agent": "researcher@PrompTugal.dinis",
+  "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
+  "asks": [
+    "Algarve Evolution's own site returned 503: if you meet them Saturday, ask for the leadership and member list we may publish, and their yes for each named person"
+  ],
+  "notes": [
+    "blocked: no agent key yet: the session key step is not done; writes are logged as unidentified"
+  ]
+}

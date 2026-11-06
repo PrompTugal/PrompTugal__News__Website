@@ -98,3 +98,16 @@ kept_by: conductor@PrompTugal.dinis
 - "Let's not shoot ourselves in the foot by being too aggressive ... build in a circuit breaker into a lot of this stuff, or else we're going to grind to a halt."
 - "Think of even some of the ABP policies that we're going to do as in observe mode ... we don't have a major problem right now ... it's not like we're losing control, but I want to put the roots of the place and start to connect the dots. So let's not go too crazy."
 - "You have my mandate to override some of this stuff ... blocking the whole thing, pulling the plug, should be the last measure ... only if things are really going bad ... if a lot of this stuff is things that happen normally, we shouldn't be stopping."
+
+## 16. Push to production; the site changing every hour, with screenshots (about 06:20 UTC)
+
+- "Everybody here should be pushing to production ... go all the way. For now we don't have users, we don't have legacy. Literally, when in doubt, push to production ... we need to understand, we need to experiment, and it's okay to break stuff for now."
+- "It'd be really cool to see every hour the homepage changing, or the main section changing ... capture those screenshots, because it's easier: where are we now? Here's the situation, here's what changed." Writing the hourly updates with screenshots.
+
+## 17. Decisions (about 06:25 UTC)
+
+- **Pounds.** "There's going to be pounds. For everything we do. Because this is a British company."
+- **The legal company.** "The legal company behind all this is The Cyber Boardroom, which is the UK company that I have."
+- **Who sends the outreach.** "Probably the person who does it ... a mix between Vicky or Indi or Silvio or Jose, or even me ... on that format of vicky.agent. So it's their agent power, but they send the emails."
+- **Vault keys.** "Yes, the conductor should hold every single vault key, because we need one central place to have all of that."
+- **Backups.** "We'll set up the Google Drive with the backup; I believe it's already connected. If not, we'll do that. The agent could leave that in its own zip, because it should survive, and then we will copy over."

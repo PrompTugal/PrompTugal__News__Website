@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
  "state": "running: hourly at :38 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
- "updated": "2026-11-06T03:50Z",
+ "updated": "2026-11-06T05:50Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -11,13 +11,15 @@
   "The opening in Dinis's words: we built this page for you, could you check it is correct? (this wake)"
  ],
  "next": [
+  "Each wake: drain the inbox (credentials opened once into ~/.sg-send/lanes/inbox.json; read so far without a vault to store into, so the welcome stays pending), file the run report (board/runs/outreach/)",
   "Each wake: re-run the generator against the live data, so every draft follows its page (new flows, sessions, articles)",
   "Link the drafts from the story board's cards when a story is about a company we write to (board/the-story-pipeline.md, row 3), once the board exists",
   "The Brazilian delegation's companies, when Dinis gives the word"
  ],
  "asks": [
   "Dinis: who sends, from which address: each editor from their own, or a person from the agents' address? Every draft says 'Drafted by an AI agent, reviewed and sent by me' over an editor's name.",
-  "Dinis: may an email promise more than the disclosure, such as 'you approve your words before they go up' or 'this is not a sales call'?"
+  "Dinis: may an email promise more than the disclosure, such as 'you approve your words before they go up' or 'this is not a sales call'?",
+  "Dinis: the ABP grant (board/abp/outreach.md) covers desks/outreach/ and board/; the SEO pass you asked for at 03:30 wrote newsroom/build/, outside it. For more work like that, say so in the session and abp@ can widen the grant."
  ],
  "wakes": [
   {
@@ -41,8 +43,20 @@
   {
    "started": "2026-11-06T03:38Z",
    "outcome": "ok",
-   "release": "this wake's",
+   "release": "v0.1.92",
    "line": "the opening in Dinis's words; ROLE.md and status.json"
+  },
+  {
+   "started": "2026-11-06T04:38Z",
+   "outcome": "idle",
+   "release": null,
+   "line": "drafts unchanged against the live data; nothing pushed"
+  },
+  {
+   "started": "2026-11-06T05:38Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "drafts unchanged; inbox opened and read (1 message, the conductor's welcome); run report filed; status rewritten"
   }
  ]
 }

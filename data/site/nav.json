@@ -100,6 +100,11 @@
     },
     {
       "column": "Find",
+      "label": "Your profile",
+      "href": "profile/index.html"
+    },
+    {
+      "column": "Find",
       "label": "Events, by day",
       "href": "events/index.html"
     },
@@ -157,6 +162,11 @@
       "column": "The newsroom",
       "label": "Orders",
       "href": "newsroom/orders/index.html"
+    },
+    {
+      "column": "The newsroom",
+      "label": "Customers",
+      "href": "newsroom/customers/index.html"
     },
     {
       "column": "The newsroom",

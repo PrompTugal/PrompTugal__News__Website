@@ -215,6 +215,7 @@ function test() {
         ['pre-tool', 'not json', r => r.status === 0, 'process: garbage input never blocks'],
         ['session-start', JSON.stringify({ session_id: 't', source: 'compact' }), r => r.status === 0 && /ABP \(Agent Behaviour Policy\) re-anchored/.test(r.stdout) && /R1/.test(r.stdout), 'process: compact re-anchors'],
         ['session-start', JSON.stringify({ session_id: 't', source: 'startup' }), r => r.status === 0 && /"additionalContext"/.test(r.stdout), 'process: startup prints the ABP'],
+        ['pre-compact', JSON.stringify({ session_id: 't', trigger: 'auto' }), r => r.status === 0 && r.stdout === '', 'process: a compaction logged, silent'],
         ['prompt', JSON.stringify({ session_id: 't', prompt: 'hello' }), r => r.status === 0 && /ABP v/.test(r.stdout), 'process: the one-line anchor'],
         ['session-start', JSON.stringify({ session_id: 't', source: 'startup' }), r => r.status === 0, 'process: a missing policy never stops a start', { CLAUDE_PROJECT_DIR: '/nonexistent' }],
         ['pre-tool', JSON.stringify({ session_id: 't', tool_name: 'Bash', tool_input: { command: 'ls' } }), r => r.status === 0 && r.stdout === '', 'process: a missing policy fails open, logged', { CLAUDE_PROJECT_DIR: '/nonexistent' }],
@@ -260,6 +261,8 @@ function runReport() {
         if (/derived data brought up to date/.test(c.subject) && /^data\//.test(f)) continue   // release.sh's derive commit
         if (!inGrant(who, f)) breaches.push({ kind: 'write-outside-grant', what: `${c.sha} wrote ${f}`, rule: 'R6' })
     }
+    const compactions = evs.filter(e => e.ev === 'compact').length, reanchors = evs.filter(e => e.ev === 'session-start' && e.source === 'compact').length
+    if (reanchors < compactions) breaches.push({ kind: 'not-re-anchored', what: `${compactions} compaction(s), ${reanchors} re-anchor(s): the SessionStart compact hook did not fire every time`, rule: 'R1' })
     for (const e of evs.filter(e => e.ev === 'hook-error')) breaches.push({ kind: 'hook-error', what: `the hook failed open: ${e.error}`, rule: 'R2' })
     const report = {
         $schema: '../../abp/run-report.schema.json',
@@ -269,6 +272,7 @@ function runReport() {
         sessions: [...new Set(evs.map(e => e.session))].length,
         requests: evs.filter(e => e.ev === 'prompt').map(e => ({ t: e.t, chars: e.chars, sha256: e.sha, head: e.head })),
         session_events: evs.filter(e => e.ev === 'session-start').map(e => ({ t: e.t, source: e.source })),
+        compactions: { count: compactions, re_anchored: reanchors },
         tool_calls: { total: tools.length, by_kind: byKind },
         policies_executed: rulesExecuted,
         policies_instrumented: P.core.filter(c => c.barrier === 'hook').map(c => c.id),

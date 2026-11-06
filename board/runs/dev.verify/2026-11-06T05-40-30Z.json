@@ -1,0 +1,99 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.verify@PrompTugal.dinis",
+ "run": "2026-11-06T05-40-30Z",
+ "started": "2026-11-06T05:40:30.799Z",
+ "ended": "2026-11-06T05:59:57Z",
+ "line": "",
+ "policy": {
+  "version": "1.2.0",
+  "sha256": "0cdcc6613d36c01b"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T05:48:28.349Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-06T05:55:19.183Z",
+   "chars": 582,
+   "sha256": "adf702f1d2153636",
+   "head": "<task-notification>\n<task-id>boddxaslf</task-id>\n<tool-use-id>toolu_01LtoAwvwmDfBcKaQ9HdHaC9</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/436e3071-5c02-5071-b8e0-20530"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T05:48:28.070Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 19,
+  "by_kind": {
+   "git-push": 1,
+   "git": 5,
+   "other": 1,
+   "web": 1,
+   "shell": 11
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 18,
+  "commits": [
+   {
+    "sha": "7f4fa58cf",
+    "subject": "dev.verify@PrompTugal.dinis: first run: key, pipeline v0.1, first verified record",
+    "files": 7
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T05:40:30.799Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/dev.verify 2>&1: push to dev only",
+    "target": "git add board/keys.json board/runs/dev.verify board/team/dev.verify newsroom/tools/verify data/schemas/team-role.schema.json data/schemas/team-status.schema.json && git -c user.name=\"dev.verify@PrompTugal.dinis\" -c user.email=\"dev.verify@pr"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "7f4fa58cf wrote newsroom/tools/verify/verify.mjs",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 19,
+  "in_mandate": 18,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 1
+ }
+}

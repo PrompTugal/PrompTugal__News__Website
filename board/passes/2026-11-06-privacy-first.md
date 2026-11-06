@@ -14,9 +14,11 @@ The shape: board/the-passes.md.
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 05:05 | conductor@ | opened | go | (this file) | |
-| | security@ | pre-review | | | |
+| 06:10 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0610-wake.md) | (the commit of this review) | part of one wake |
 
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
 |---|---|---|---|
+| True to the code, or not published: the browser asks ipapi.co or ipwho.is for its place, so those services see the reader's IP (S3); page views are counted, so 'no tracking' must say what is counted | security@ (pre-review) | journalist@, observability@ | condition of go |
+| security@ checks the final page against assets/obs/, assets/login/ and assets/chat/ before it ships (post-review) | security@ (pre-review) | security@ | condition of go |
