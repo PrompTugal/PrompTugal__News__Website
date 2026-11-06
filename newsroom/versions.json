@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.97",
+    "date": "2026-11-06",
+    "what": "librarian@PrompTugal.dinis: scheduled wake: the catalogue brought up to date (devops@'s and security@'s new files); no \"where is X?\" for me",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "2527bc80b"
+  },
+  {
     "version": "v0.1.96",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake at 03:52: 14 agent lanes, the story board and dashboard still to build, synthetic@'s asks for Dinis to confirm",
