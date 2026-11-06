@@ -216,6 +216,52 @@
           "link": "Open the profile"
         }
       ]
+    },
+    "graph/cloud-centres/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        {
+          "title": "The question",
+          "text": "Where are the Google, Amazon (AWS) and Microsoft centres of gravity among the summit's companies? This page sets three centres against five relations and marks each cell found, searched and not found, or not looked at yet."
+        },
+        {
+          "title": "What is known",
+          "text": "Google Cloud is on the 2026 partners list. Google and AWS were named top partners of the 2022 edition, and Microsoft is on Web Summit's list of past partners. Amazon has a press conference on 11 November, given by job title only."
+        },
+        {
+          "title": "What is not",
+          "text": "Nothing found for AWS or Microsoft on the first page of the 2026 partners list, but only one of eight pages was read, so that is not absence at the summit. Which companies are built on each centre, or funded by it, is not looked at yet.",
+          "href": "graph/world/index.html",
+          "link": "See the companies on the world map"
+        }
+      ]
+    },
+    "graph/past-summits/index.html": {
+      "button": "Brief me on this page",
+      "close": "Close",
+      "prev": "Back",
+      "next": "Next",
+      "label": "Slide {n} of {total}",
+      "slides": [
+        {
+          "title": "Ten Lisbon editions",
+          "text": "Web Summit has been in Lisbon since 2016. Each column is one edition, as tall as the attendance the organiser reported, with its dates, venue and source on tap."
+        },
+        {
+          "title": "How far each figure was read",
+          "text": "Solid: read at source (2025). Paler: from Wikipedia's table (2016, 2017, 2018, 2022). Dashed: a search summary only (2024). Marked n/a: no figure found (2019, 2021, 2023), and 2020 was held online."
+        },
+        {
+          "title": "A caution",
+          "text": "The figures are the organiser's claims and the sources do not always agree: 2025 is called a record at 71,386, while 2024 is reported at 71,528. The final numbers are still to be checked.",
+          "href": "articles/web-summit-ten-lisbon-years.html",
+          "link": "Read the ten Lisbon years"
+        }
+      ]
     }
   }
 }

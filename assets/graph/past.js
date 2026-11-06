@@ -9,6 +9,7 @@
     const cv = el('canvas'), cap = el('p', { className: 'gv-cap' }), side = el('aside', { className: 'gv-side' })
     let D, W = 0, H = 0, sel = null, p = 1, t0 = 0, cols = []
     const ctx = cv.getContext('2d'), MAX = 80000
+    const short = d => (d.label.startsWith('about') ? '~' : '') + (d.value / 1000).toFixed(d.value % 1000 > 99 && d.value % 1000 < 900 ? 1 : 0).replace(/\.0$/, '') + 'k'
     function draw() {
         const r = Math.min(2, devicePixelRatio || 1); ctx.setTransform(r, 0, 0, r, 0, 0); ctx.fillStyle = css('--panel') || '#fff'; ctx.fillRect(0, 0, W, H)
         const ink = css('--ink') || '#111', ink3 = css('--ink-3') || '#666', col = css('--brand') || '#1a7f37', hair = css('--hair') || '#ddd', L = 46, B = H - 46, T = 24, n = D.editions.length, cw = (W - L - 12) / n, e = 1 - Math.pow(1 - Math.min(1, p), 3)
@@ -23,14 +24,14 @@
                 if (d.status === 'summary') { ctx.setLineDash([5, 4]); ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.strokeRect(x, y, w, h); ctx.setLineDash([]) }
                 else { ctx.globalAlpha = d.status === 'tertiary' ? 0.55 : 1; ctx.fillStyle = col; ctx.fillRect(x, y, w, h); ctx.globalAlpha = 1 }
                 if (on) { ctx.strokeStyle = ink; ctx.lineWidth = 2; ctx.setLineDash([]); ctx.strokeRect(x, y, w, h) }
-                ctx.fillStyle = ink; ctx.font = '600 11px system-ui, sans-serif'; ctx.globalAlpha = e; ctx.fillText(d.label, x + w / 2, y - 6); ctx.globalAlpha = 1
+                ctx.fillStyle = ink; ctx.font = (cw < 40 ? '600 10px' : '600 11px') + ' system-ui, sans-serif'; ctx.globalAlpha = e; ctx.fillText(cw < 40 ? short(d) : d.label, x + w / 2, y - 6); ctx.globalAlpha = 1
             } else { ctx.strokeStyle = ink3; ctx.lineWidth = on ? 2 : 1; ctx.setLineDash([3, 3]); ctx.beginPath(); ctx.moveTo(x, B - 1); ctx.lineTo(x + w, B - 1); ctx.stroke(); ctx.setLineDash([]); ctx.fillStyle = ink3; ctx.font = '400 11px system-ui, sans-serif'; ctx.fillText(d.label, x + w / 2, B - 8) }
         })
         // legend
-        ctx.textAlign = 'start'; ctx.font = '400 11px system-ui, sans-serif'; let lx = L
-        for (const k of ['read', 'tertiary', 'summary', 'none']) { const sw = 12; ctx.fillStyle = col; ctx.strokeStyle = k === 'none' ? ink3 : col
-            if (k === 'summary' || k === 'none') { ctx.setLineDash([3, 2]); ctx.lineWidth = 1.5; ctx.strokeRect(lx, 4, sw, sw); ctx.setLineDash([]) } else { ctx.globalAlpha = k === 'tertiary' ? 0.55 : 1; ctx.fillRect(lx, 4, sw, sw); ctx.globalAlpha = 1 }
-            ctx.fillStyle = ink3; ctx.fillText(D.ui.legend[k], lx + sw + 5, 14); lx += sw + 18 + ctx.measureText(D.ui.legend[k]).width }
+        ctx.textAlign = 'start'; ctx.font = '400 11px system-ui, sans-serif'; let lx = L, ly = 14
+        for (const k of ['read', 'tertiary', 'summary', 'none']) { const sw = 12, tw = ctx.measureText(D.ui.legend[k]).width; if (lx + sw + 5 + tw > W - 6 && lx > L) { lx = L; ly += 16 } ctx.fillStyle = col; ctx.strokeStyle = k === 'none' ? ink3 : col
+            if (k === 'summary' || k === 'none') { ctx.setLineDash([3, 2]); ctx.lineWidth = 1.5; ctx.strokeRect(lx, ly - 10, sw, sw); ctx.setLineDash([]) } else { ctx.globalAlpha = k === 'tertiary' ? 0.55 : 1; ctx.fillRect(lx, ly - 10, sw, sw); ctx.globalAlpha = 1 }
+            ctx.fillStyle = ink3; ctx.fillText(D.ui.legend[k], lx + sw + 5, ly); lx += sw + 18 + tw }
     }
     function show(d) {
         sel = d; side.replaceChildren(el('h2', { textContent: `Web Summit ${d.year}` }), el('p', { className: 'gv-meta', textContent: `${d.dates} · ${d.venue} · ${D.ui.legend[d.status]}` }), el('p', { textContent: d.note }))

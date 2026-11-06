@@ -356,6 +356,41 @@
       "about": [
         "event:web-summit-lisbon-2021"
       ]
+    },
+    {
+      "id": "c30",
+      "text": "Web Summit announced an event in Rio de Janeiro, the first Web Summit outside Europe, planned for May of the following year.",
+      "kind": "fact",
+      "source": "irishtimes-web-summit-rio-first-outside-europe",
+      "quote": "Tech conference Web Summit is expanding to South America, with plans to hold the event in Rio de Janeiro in May next year.",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit",
+        "place:brazil"
+      ]
+    },
+    {
+      "id": "c31",
+      "text": "Web Summit's chief executive said the event was committed to Rio for at least three years, with an option to extend.",
+      "kind": "fact",
+      "source": "irishtimes-web-summit-rio-first-outside-europe",
+      "quote": "the event was committed to Rio for at least three years, with an option to extend that further",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit",
+        "place:brazil"
+      ]
+    },
+    {
+      "id": "c32",
+      "text": "Rio's mayor said the city would not put in any direct money or sponsorship, with Senac as the main sponsor.",
+      "kind": "fact",
+      "source": "irishtimes-web-summit-rio-first-outside-europe",
+      "quote": "the city would not be putting in any direct money or sponsorship of the event, with Senac acting as the main sponsor",
+      "read_on": "2026-11-06",
+      "about": [
+        "place:brazil"
+      ]
     }
   ]
 }
