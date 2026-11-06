@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.39",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: WS-177 plan for tonight and Friday, the domain checked, a brief to Dinis; blocked on the team site's access",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "649209c9d"
+  },
+  {
     "version": "v0.1.38",
     "date": "2026-11-06",
     "what": "CLAUDE.md: observability@PrompTugal.dinis joins the PrompTugal team",
