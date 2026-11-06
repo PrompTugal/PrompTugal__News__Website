@@ -1,9 +1,9 @@
 <!-- E, the home page (Silvio's mock E, "The Front Page", by design@web-summit.silvio; Dinis, 6 November 2026, about
      22:40 UTC; board/briefs/2026-11-06-front-page-mock-e.md). The component's markup and words, filled from data by
      newsroom/build/features/front-e.mjs ({{name}} is a value, {{#name}} a list made from the matching item below).
-     The look: front-e.css; the switch (A behind ?front=a), the countdown and the ticker's pause: front-e.js. -->
+     The look: front-e.css; the countdown and Now and next's trim: front-e.js. It is one of the home page's designs (assets/design/, ?design=e). -->
 <!-- part:page -->
-<div class="fe" data-variant="e">
+<div class="fe pt-design" data-design-of="e">
 <div class="fe-w"><div class="fe-dl"><time datetime="{{today}}">{{date}}</time><span class="fe-cd" data-at="{{opening_at}}">Opening Night in <b data-cd>{{opening_in}}</b></span><span class="fe-where">Lisbon · Independent</span></div>
 <header class="fe-mast"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a></header>
 <nav class="fe-nav" aria-label="Sections">{{#nav}}</nav></div>

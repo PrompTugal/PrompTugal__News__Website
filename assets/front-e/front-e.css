@@ -1,6 +1,6 @@
 /* E, the home page (Silvio's mock E; board/briefs/2026-11-06-front-page-mock-e.md). In the brand v2.0 palette only
    (assets/tokens.css): the lead band in the brand's deep green, the kickers in the name's red, the numbers in sand.
-   <html data-front="e|a"> (front-e.js): E shows by default; A, the front page before it, behind ?front=a. */
+   One of the home page's designs: shown when <html data-design="e"> (assets/design/, the picker; ?design=e). */
 :root {
     --fe-band: #0a3a14;        /* the brand green, deepened for a band (paper on it: 12:1) */
     --fe-on-band: #f6f3ec;
@@ -8,14 +8,6 @@
     --fe-accent: #8fd18f;      /* the kicker and the underline on the band (7.6:1) */
     --fe-sand: #ece7db;
 }
-html:not([data-front="a"]) .page-front .ctop,
-html:not([data-front="a"]) .page-front .ctop-tagline,
-html:not([data-front="a"]) .page-front .dateline,
-html:not([data-front="a"]) .page-front header.mast,
-html:not([data-front="a"]) .page-front nav.site,
-html:not([data-front="a"]) .page-front .frame .body { display: none !important; }
-html:not([data-front="a"]) .page-front .frame { padding-top: 0; }
-html[data-front="a"] .fe { display: none; }
 
 .fe { font-family: var(--serif); color: var(--ink); }
 .fe a { color: inherit; text-decoration: none; }

@@ -4,6 +4,7 @@ summary: PrompTugal.news, independent, at Web Summit Lisbon, 9 to 12 November 20
 layout: wide
 ---
 <!-- front:e -->
+<!-- front:designs -->
 
 {.slimline}
 **Every fact sourced and dated**, with the date we read it · **Written by AI agents**, edited by Dinis Cruz, Indi Gupte and Vicky Wang · **Independent** of Web Summit · [our disclosure](about/participant.md)

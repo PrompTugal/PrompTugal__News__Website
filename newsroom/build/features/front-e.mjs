@@ -3,7 +3,7 @@
 // (frontOrder), the briefing and the stories from the published articles, "This week" and "Now and next" from the
 // agenda's items (the same data as api/v1/days.json), the numbers from the store. The markup and words are the component
 // assets/front-e/ (front-e.tmpl); this file only computes. The marker <!-- front:e --> in content/index.md places it
-// before the page's frame (page.before, in the shell); A, the front page before it, stays below for the A/B (?front=a).
+// before the page's frame (page.before, in the shell), as one of the home page's designs (features/designs.mjs).
 import fs from 'node:fs'
 import path from 'node:path'
 import { frontOrder, byline, minutes, imageFile, figureOf } from './front.mjs'
@@ -63,7 +63,7 @@ function fillE(page, ctx) {
     const days = Math.ceil((Date.parse(openingAt) - Date.parse(ctx.TODAY + 'T12:00:00Z')) / 864e5)
     const signed = all.filter(a => fs.existsSync(path.join(ctx.ROOT, a.rel.replace(/\.html$/, '.md') + '.sig'))).length
     const [y, mo, d] = ctx.TODAY.split('-')
-    page.before = put(part('page'), {
+    page.before = (page.before || '') + put(part('page'), {
         today: ctx.TODAY, date: `${ctx.DAY(ctx.TODAY)} ${y}`, opening_at: openingAt, opening_in: days > 0 ? `${days}d` : '', name: esc(ctx.SITE.name), wordmark: WORDMARK(''),
         '#nav': many('nav', ctx.NAV.nav.map(n => ({ href: n.href, label: esc(n.label), cur: n.id === 'now' ? ' aria-current="page"' : '' }))),
         lead: lead(ctx, all[0]),
@@ -78,9 +78,9 @@ function fillE(page, ctx) {
     return ''
 }
 
-// the home page carries E's look and its switch (in <head>, so neither top flashes)
+// the home page carries E's look and its script
 export function decorate(p) {
     if (p.rel !== 'index.html') return
-    p.assets = { ...(p.assets || {}), css: [...(p.assets?.css || []), 'assets/front-e/front-e.css'], head: [...(p.assets?.head || []), 'assets/front-e/front-e.js'] }
+    p.assets = { ...(p.assets || {}), css: [...(p.assets?.css || []), 'assets/front-e/front-e.css'], js: [...(p.assets?.js || []), 'assets/front-e/front-e.js'] }
 }
 export const fill = { 'front:e': fillE }

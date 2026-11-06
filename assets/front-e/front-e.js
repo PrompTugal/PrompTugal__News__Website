@@ -1,24 +1,6 @@
-/* front-e.js: the home page's switch, E (Silvio's mock E, the default) or A (the front page before it), for the A/B
- * test (board/briefs/2026-11-06-front-page-mock-e.md). Loaded in <head> on the home page only, so it never flashes.
- *   ?front=a keeps A in this browser, ?front=e goes back. <html data-front="e|a">; window.PTFront.variant; the tool
- *   front.variant (read), for observability@'s page events.
- * Once the page is drawn: the countdown to Opening Night (gone after it), and Now and next drops what has ended. */
+/* front-e.js: E, one of the home page's designs (Silvio's mock E; assets/design/ chooses between them). Once the page
+ * is drawn: the countdown to Opening Night (gone after it), and Now and next drops what has ended. */
 (function () {
-    var KEY = 'pt-front', v = 'e'
-    try {
-        var q = (location.search.match(/[?&]front=(a|e)\b/) || [])[1]
-        if (q) localStorage.setItem(KEY, q)
-        v = q || localStorage.getItem(KEY) || 'e'
-    } catch (e) { }
-    if (v !== 'a') v = 'e'
-    document.documentElement.setAttribute('data-front', v)
-    window.PTFront = { variant: v };
-    (window.__toolQueue = window.__toolQueue || []).push(['register', 'front.variant', {
-        level: 'read', description: 'Which home page this browser shows: e (the default) or a (the A/B test).',
-        params: { type: 'object', properties: {} }, run: function () { return { variant: v } },
-    }])
-    if (v !== 'e') return
-
     function pad(n) { return (n < 10 ? '0' : '') + n }
     function ready() {
         var cd = document.querySelector('.fe-cd'), at = cd && Date.parse(cd.getAttribute('data-at'))

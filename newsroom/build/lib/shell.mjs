@@ -63,7 +63,7 @@ export function htmlPage(page, site) {
     const css = [...(site.assets?.css || []), ...(page.assets?.css || [])].map(c => `\n<link rel="stylesheet" href="${href(c)}">`).join('')
     const js = [...(site.assets?.js || []), ...(page.assets?.js || [])].map(s => `\n<script defer src="${href(s)}"></script>`).join('')
     // a page's own scripts that must run before the body is drawn (a switch between two layouts, so neither flashes)
-    const headJs = (page.assets?.head || []).map(s => `\n<script src="${href(s)}"></script>`).join('')
+    const headJs = (page.assets?.head || []).map(s => typeof s === 'string' ? { src: s } : s).map(s => `\n<script src="${href(s.src)}"${Object.entries(s.data || {}).map(([k, v]) => ` data-${k}="${esc(typeof v === 'function' ? v() : v)}"`).join('')}></script>`).join('')
     const E = S.endorse
     // the footer says only "Powered by RiskMandate" (Dinis, 6 November 2026, 22:55: RiskMandate off the home page but a footer line)
     // the masthead no longer carries "Powered by RiskMandate" (Dinis, 6 November 2026, 03:39: "take away this Powered by RiskMandate"; FP-03); the footer keeps it
