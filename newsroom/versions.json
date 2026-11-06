@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.92",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: Dinis's design feedback, passes with budgets, three first passes, five new agents in CLAUDE.md",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "389f01962"
+  },
+  {
     "version": "v0.1.91",
     "date": "2026-11-06",
     "what": "designer@PrompTugal.dinis: hourly run 03:33: the editorial board page (/about/board/); my ROLE.md and status.json",
