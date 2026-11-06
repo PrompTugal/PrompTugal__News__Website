@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.64",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: hourly run 01:33: the newsroom move, row 2 (design/ swept, the section's header spec for dev); next the mandate line",
+    "by": "designer@PrompTugal.dinis",
+    "from": "acf03b619"
+  },
+  {
     "version": "v0.1.63",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: hourly run 01:26: the key in board/keys.json, the move's row 2 done, every article re-signed; next S3; the name waits on Dinis",
