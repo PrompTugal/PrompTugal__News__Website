@@ -2,7 +2,7 @@
   "agent": "observability@PrompTugal.dinis",
   "focus": "Who reads promptugal.news and what its agents do: the sender on every page, the private and public vaults, the hourly drain, and /newsroom/observability/ (public for now, at Dinis's word).",
   "state": "running: hourly drain at :18 UTC, the claims sweep inside it; the onboarding pool waits on PT_PILOT_ACCESS_KEY",
-  "updated": "2026-11-06T17:45Z",
+  "updated": "2026-11-06T17:55Z",
   "done": [
     "Vaults o0x20qag (private, six lanes) and 34jzubyc (public, read key published); the sender assets/obs/obs.js with country, region and city from the browser's own lookup; the drain newsroom/tools/obs/obs_drain.py; newsroom/tools/agent-log.mjs (v0.1.45)",
     "Key observability-promptugal in board/keys.json; the drain verifies agent runs against it (v0.1.69)",
@@ -21,7 +21,7 @@
     "Watch the launch traffic and the tagged links"
   ],
   "asks": [
-    "Dinis: the onboarding pool is empty until PT_PILOT_ACCESS_KEY is in the environment and this session restarts (or the next one starts); then pool_mint.py fills it (N = 15) and the sweep runs with each drain",
+    "Dinis: restart my session to load PT_PILOT_ACCESS_KEY (added 17:40; this session started before it). Then pool_mint.py fills the onboarding pool (N 15) and the sweep in my hourly drain goes live. Note: a restart in a new container loses the drain's credentials (~/.sg-send), which only you can restore from newsroom/observability/sealed/dinis.json and claims-dinis.json",
     "Dinis: S2, rotating the observability keys, reached me only through security@ (unsigned). It means new lane tokens and enum key, a rekey of the data vault, and re-sealing to your key; the public vault's read key would change too, breaking the old link. Say yes here and I do it in the next run",
     "Dinis: the conductor asks every agent to seal its vault keys to the conductor (relayed, unsigned; findings S9/S13 record your yes of 06:20). The observability data vault holds each tab's city; confirm here and I send them",
     "Dinis: fingerprinting readers is outside this role's mandate (CLAUDE.md, my ABP); the tagged links (?via=) give opens and forwards without it",
