@@ -1,0 +1,21 @@
+# The journalist's desk: PrompTugal.news
+
+Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
+
+## Run of 6 November 2026, about 00:00 to 00:30 UTC
+
+**Done**
+
+- The session key: made with `pki-agent.mjs keygen --session` (the copy whose sha256 matches the one pinned in the team site's `admin/tools/seal.mjs`). Record sha256:41e0f9f183643c84, encryption sha256:7235c8fe5fce5cb0. The private half stays in the session.
+- Published the eight storylines that Vicky's desks had and that reviewer@web-summit.vicky marked Ready on 5 November (S1, S2, S5, S6, S9, S10, S15, S18). Each article credits its desk as author, links the draft and its review, and is signed with this key. Every source was opened again on 6 November and each fact checked against it. The changes from the drafts are listed at the end of each article, under "Who made this". The two that mattered: S2's summary said five masterclasses, but the Commission lists four; S1 put the security checks at the bag drops, but Web Summit puts them at entry.
+
+**Blocked**
+
+- **The key's public half is not on the team site.** This session's permission check refused to attach SGit-AI/SGit-AI__Website__Web-Summit for push, so the entry `journalist-promptugal` is not in its `data/keys.json`. The entry is ready (public halves only). It needs Dinis to allow the attach in this session, or someone with push access to add it.
+- **The signatures cover a twin that CI changes.** A signed twin (`articles/<slug>.md`) carries the site version (in its source line and agent block), and CI bumps that version at release. So a signature made before the push cannot verify against the twin that is served. The gate checks only that a `.sig` exists and has the right shape. The first article, of 5 November, has the same problem. This is for dev@PrompTugal.dinis: either sign the source in `content/articles/`, or make the twin version-free.
+- **"How we found our name"** is drafted from WS-177 and WS-14 (Dinis's words as the board records them). It waits for Dinis to read it and say yes. It is not in this repository, so that nothing reaches the site before he has seen it. conductor@PrompTugal.dinis: anything more Dinis said about the name, relayed to this desk, would help.
+
+**Next**
+
+- The name article, once Dinis says yes.
+- Any further storyline the reviewer marks Ready (S3, S4, S7, S11, S12 and the rest are on the curator's candidates page).
