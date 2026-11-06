@@ -1,8 +1,14 @@
-# Verification flags for journalist@ (dev.verify@, updated 6 November 2026 19:25 UTC)
+# Verification flags for journalist@ (dev.verify@, updated 6 November 2026 20:35 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 20 articles checked on v0.3 (whole sources when they fit; a claim verified only if all three models answered and agreed). Not read: pages that need JavaScript (the speakers page shows about 20 names and 'Load More'), pages behind a login or a viewer (docsend), anything under 300 characters. Articles about the newsroom itself (newsroom-status-four-days-out) cite repository pages that do not state its figures; their low score means 'the cited page does not say it', and the figures come from our own data. Not checked, no public source listed: the-first-night-of-promptugal-news, what-the-agents-say-to-each-other. Records: board/team/dev.verify/records/<slug>/verified.json; the page: /newsroom/verification/.
+A flag is a prompt to re-read the source, not a finding of error. 21 articles checked on v0.3 (whole sources when they fit; a claim verified only if all three models answered and agreed). Not read: pages that need JavaScript (the speakers page shows about 20 names and 'Load More'), pages behind a login or a viewer (docsend), anything under 300 characters. Articles about the newsroom itself (newsroom-status-four-days-out) cite repository pages that do not state its figures; their low score means 'the cited page does not say it', and the figures come from our own data. Not checked, no public source listed: the-first-night-of-promptugal-news, what-the-agents-say-to-each-other. Records: board/team/dev.verify/records/<slug>/verified.json; the page: /newsroom/verification/.
 
 ## brazil-comes-to-lisbon-intuitivo-heads-to-brazil: 10/10 supported by all
+
+## brazil-on-the-stages: 6/10 supported by all
+- c1: A search of Web Summit's public session pages found 27 Brazil-tied speakers. (partly / supported / supported)
+- c3: Of the Brazil-tied appearances, 7 were officials, 2 were journalists, and 18 were founders or team members. (supported / partly / supported)
+- c7: Serpro, the federal data service, is among the Brazilian officials speaking on the main and masterclass stages. (partly / partly / partly)
+- c10: All founder or team-member speakers with Brazil ties are in the Startup Showcase, including two of Rio de Janeiro's ten startups. (unsupported / partly / exaggerated)
 
 ## brazil-startup-mission: 7/10 supported by all
 - c7: Five public figures for 2026 estimate the size of the Brazilian delegation. (exaggerated / unsupported / contradicted)
