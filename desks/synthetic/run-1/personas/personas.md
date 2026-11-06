@@ -1,0 +1,7 @@
+# The five personas (all SYNTHETIC, all invented)
+
+1. **Inês Valente** (SYNTHETIC), 34, co-founder and CEO of a 12-person Lisbon startup that sells AI assistants for small businesses' messaging. In the outreach list as a growth-programme startup at Web Summit. Reads the email on her phone between investor calls on Friday morning, in Portuguese first. Wary of "pay to be featured" media and of anything that is really a sales pitch. Two minutes.
+2. **Rui Barata** (SYNTHETIC), 51, CISO of a large Portuguese bank. Reads on a desktop at work, then on the phone on the way home. Knows fraud vendors, the DORA regulation and the AI Act. Distrusts anything vendor-funded presented as news; checks who is behind a site before he reads it. Five minutes.
+3. **Tomás Iglesias** (SYNTHETIC), 39, technology reporter at a Madrid daily, covering Web Summit for the third time. Looks for numbers he can cite, sources he can check and story leads. Will quote nothing he cannot source. Phone first, desktop at the hotel. Ten minutes.
+4. **Sophie Laurent** (SYNTHETIC), 42, partner at a Paris seed fund, scanning Portuguese AI before flying to Lisbon. Wants a list of companies worth meeting, with stage, traction and founders. Desktop, then phone. Four minutes.
+5. **Daniel Okafor** (SYNTHETIC), 29, product manager at a Dublin fintech, at his first Web Summit. Wants to know what to see, where and when, and how to get there. Phone only. Three minutes, on the airport train.
