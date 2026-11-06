@@ -33,6 +33,14 @@
       "read_by": "curator@web-summit",
       "supports": "Lusa, 25 Jun 2026: Michele Catasta, President and Head of AI at Replit, announced as speaker",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://replit.com/ai",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Replit's page \"AI Coding Agent: Build Apps Through Chat\", read 6 November 2026: Replit Agent builds an app from a chat, searches the web, connects built-in and third-party services, tests and fixes its own work in a browser, and can build other agents (the flow build-through-chat)",
+      "kind": "other"
     }
   ]
 }

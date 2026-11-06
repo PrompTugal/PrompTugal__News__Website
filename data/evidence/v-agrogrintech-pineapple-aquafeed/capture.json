@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-agrogrintech-pineapple-aquafeed",
+  "type": "evidence",
+  "source_url": "https://www.portugalglobal.pt/en/news/2026/novembro/agrogrintech-turns-pineapple-waste-into-aquafeed-ingredient/",
+  "beat": "portugal",
+  "group": "G14 waste into value",
+  "names": [
+    {
+      "as_listed": "AgroGrINTech",
+      "ref": "organisation:agrogrintech"
+    },
+    {
+      "as_listed": "ETSA Group",
+      "ref": "organisation:etsa"
+    },
+    {
+      "as_listed": "Pep4Fish",
+      "ref": "organisation:pep4fish"
+    },
+    {
+      "as_listed": "Blue Bioeconomy Pact",
+      "ref": "organisation:blue-bioeconomy-pact"
+    },
+    {
+      "as_listed": "Portuguese Catholic University",
+      "ref": "organisation:portuguese-catholic-university"
+    },
+    {
+      "as_listed": "AICEP Portugal Global",
+      "ref": "organisation:aicep-portugal-global"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-06-1145.json",
+  "run": "2026-11-06T11:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-06-1145.json"
+    ]
+  }
+}

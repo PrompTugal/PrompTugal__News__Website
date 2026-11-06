@@ -5,7 +5,7 @@
   "title": "Lisbon's Octo Health launches health tracking in Portugal and the US",
   "beat": "portugal",
   "topic": "topic:portugal",
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:v-octo-health-launch"
   ],
@@ -17,7 +17,8 @@
     "from": [
       "desks/curator/2026-11-06-0745.json",
       "desks/journalist-vicky/drafts/S20-octo-health-launches.md",
-      "desks/reviewer-vicky/reviews/S20.md"
+      "desks/reviewer-vicky/reviews/S20.md",
+      "content/articles/octo-health-launches.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -28,13 +29,17 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S20.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@web-summit.vicky",
       "at": "2026-11-06"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/octo-health-launches.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -49,10 +54,16 @@
       "file": "desks/journalist-vicky/drafts/S20-octo-health-launches.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-06",
       "by": "reviewer@web-summit.vicky",
       "file": "desks/reviewer-vicky/reviews/S20.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/octo-health-launches.md"
     }
   ]
 }
