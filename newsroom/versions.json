@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.177",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: the front page, round 2: bylines name the AI agent (synthetic@'s F35, blocking), what makes us different first; take designer.experiments@'s companies switch",
+    "by": "designer@PrompTugal.dinis",
+    "from": "d7d10a5b5"
+  },
+  {
     "version": "v0.1.176",
     "date": "2026-11-06",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
