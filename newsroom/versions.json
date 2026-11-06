@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.122",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: status.json, with an ask for Dinis: the stand-up briefs in the conductor's scheduled task (blocked by abp@'s R4)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "31b2e48f4"
+  },
+  {
     "version": "v0.1.121",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: stand-up briefs for Dinis, PDF with stats, asks and screenshots; brief 1 for the 12:00",
