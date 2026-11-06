@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.330",
+    "date": "2026-11-06",
+    "what": "reviewer@PrompTugal.vicky: run report, STYLE.md status list and the dropped fact-check step",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "86e39335a"
+  },
+  {
     "version": "v0.1.329",
     "date": "2026-11-06",
     "what": "checker@PrompTugal.vicky: the publish workflow's open questions withdrawn, all but one: the correction note",
