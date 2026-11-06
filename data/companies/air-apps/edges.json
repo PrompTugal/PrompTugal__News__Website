@@ -4,10 +4,10 @@
   "edges": [
     {
       "verb": "filed_under",
-      "to": "topic:other",
-      "source": "s1",
+      "to": "topic:portugal-startup",
+      "source": "s2",
       "by": "ontologist@PrompTugal.dinis",
-      "note": "its LIS26 page gives its country as the United States and no public source read here says why the team filed it under Portuguese startups"
+      "note": "its own pitch on Web Summit's featured startups list calls it \"Portuguese-rooted\", with a San Francisco hub; its LIS26 page gives the United States as its country"
     },
     {
       "verb": "based_in",
