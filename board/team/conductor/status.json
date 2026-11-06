@@ -1,28 +1,53 @@
 {
- "agent": "conductor@PrompTugal.dinis",
- "focus": "the plan, the board, passes, briefs, who does what",
- "state": "working",
- "updated": "2026-11-06T06:25Z",
- "done": [
-  "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
-  "inboxes for every agent; lanes with the team site's conductor",
-  "13 passes on the board; the Brazil story project",
-  "lanes and inboxes for abp@ and the new designer session; the old designer inbox marked superseded",
-  "nine Sonnet workers started at Dinis's word once abp@ moved to observe mode (v1.1.0): dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify, designer.experiments, researcher, backup; their tasks in board/schedule.json",
-  "Dinis decided (06:25): pounds; The Cyber Boardroom as the legal company; outreach sent by each person from <name>.agent@; the conductor holds every vault key; backups as zips, to Drive later"
- ],
- "next": [
-  "the stand-up briefs at about 10:52 and 16:52 UTC",
-  "the 05:52 three-hourly report"
- ],
- "asks": [
-  {
-   "for": "Dinis",
-   "ask": "Allow the conductor to change its own scheduled task's text so it makes the stand-up brief before 12:00 and 18:00 (abp@'s hook R4 blocked update_trigger at 05:00 UTC; Dinis asked for the briefs in this session but did not name the task change). Until then the conductor makes the briefs by hand when it wakes."
-  },
-  {
-   "for": "Dinis (and abp@)",
-   "ask": "Add board/editor-briefs/** to the conductor's write paths in its ABP (board/abp/conductor.md): the stand-up briefs Dinis asked for at about 05:00 UTC live there (brief 1 committed before the policy took effect)."
-  }
- ]
+  "agent": "conductor@PrompTugal.dinis",
+  "focus": "the plan, the board, passes, briefs, who does what",
+  "state": "working",
+  "updated": "2026-11-06T08:00Z",
+  "done": [
+    "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
+    "inboxes for every agent; lanes with the team site's conductor",
+    "13 passes on the board; the Brazil story project",
+    "lanes and inboxes for abp@ and the new designer session; the old designer inbox marked superseded",
+    "nine Sonnet workers started at Dinis's word once abp@ moved to observe mode (v1.1.0): dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify, designer.experiments, researcher, backup; their tasks in board/schedule.json",
+    "Dinis decided (06:25): pounds; The Cyber Boardroom as the legal company; outreach sent by each person from <name>.agent@; the conductor holds every vault key; backups as zips, to Drive later"
+  ],
+  "next": [
+    "the stand-up briefs at about 10:52 and 16:52 UTC",
+    "the 05:52 three-hourly report"
+  ],
+  "asks": [
+    {
+      "for": "Dinis",
+      "ask": "Allow the conductor to change its own scheduled task's text so it makes the stand-up brief before 12:00 and 18:00 (abp@'s hook R4 blocked update_trigger at 05:00 UTC; Dinis asked for the briefs in this session but did not name the task change). Until then the conductor makes the briefs by hand when it wakes."
+    },
+    {
+      "for": "Dinis (and abp@)",
+      "ask": "Add board/editor-briefs/** to the conductor's write paths in its ABP (board/abp/conductor.md): the stand-up briefs Dinis asked for at about 05:00 UTC live there (brief 1 committed before the policy took effect)."
+    },
+    "Dinis: synthetic F07, what RiskMandate is, who owns it, and whether it sells to the companies we cover (for About and the disclosure)",
+    "Dinis: synthetic F19 (blocking for outreach): keep or reword 'This is not independent coverage. We may write about companies the team hopes to meet or sell to'",
+    "Dinis: accountant@ asks whether the conductor's release budget goes from 24 to 48 a day; the conductor now releases once per wake"
+  ],
+  "decisions_on_findings": [
+    {
+      "finding": "F06",
+      "decision": "accept: the About page to be rewritten by journalist@ with what a human reviews and the publisher (The Cyber Boardroom, UK); routed on its lane",
+      "at": "2026-11-06T08:00Z"
+    },
+    {
+      "finding": "F07",
+      "decision": "later: what RiskMandate is, who owns it and whether it sells to covered companies is Dinis's to state; put to him in asks",
+      "at": "2026-11-06T08:00Z"
+    },
+    {
+      "finding": "F19",
+      "decision": "later: the disclosure's wording is Dinis's call (the participant disclosure is the estate's standard); put to him in asks",
+      "at": "2026-11-06T08:00Z"
+    },
+    {
+      "finding": "F21",
+      "decision": "accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06",
+      "at": "2026-11-06T08:00Z"
+    }
+  ]
 }
