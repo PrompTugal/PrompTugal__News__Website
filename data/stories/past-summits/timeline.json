@@ -20,6 +20,16 @@
       ]
     },
     {
+      "at": "2016-11",
+      "what": "Web Summit's first Lisbon edition, under a deal with the Portuguese government (a 10-year hosting agreement, as The Irish Times reports it).",
+      "kind": "event",
+      "about": [
+        "event:web-summit-lisbon-2016"
+      ],
+      "source": "irishtimes-2021-revenues-2019",
+      "claim": "c26"
+    },
+    {
       "at": "2016-11-07",
       "what": "Opening night of the first Lisbon edition: ticket holders left outside; the site says 53,056 attending.",
       "kind": "event",
@@ -59,6 +69,16 @@
       ]
     },
     {
+      "at": "2019-11",
+      "what": "The last in-person edition before the pandemic: 70,469 attendees.",
+      "kind": "event",
+      "about": [
+        "event:web-summit-lisbon-2019"
+      ],
+      "source": "irishtimes-2021-revenues-2019",
+      "claim": "c25"
+    },
+    {
       "at": "2020-12-02",
       "what": "During the online 2020 edition, Web Summit's expansion plans are reported: RISE in Kuala Lumpur and Web Summit Tokyo in 2022, an event in Brazil to be placed, and an in-person Lisbon edition planned for November 2021.",
       "kind": "announcement",
@@ -72,6 +92,16 @@
         "c23",
         "c24"
       ]
+    },
+    {
+      "at": "2021-11",
+      "what": "Web Summit returns in person to Lisbon: more than 40,000 expected, reported sold out.",
+      "kind": "event",
+      "about": [
+        "event:web-summit-lisbon-2021"
+      ],
+      "source": "irishtimes-2021-web-summit-returns-in-person",
+      "claim": "c29"
     },
     {
       "at": "2023-10-21",

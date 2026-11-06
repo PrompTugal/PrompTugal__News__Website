@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "irishtimes-2021-web-summit-returns-in-person",
+  "story": "past-summits",
+  "url": "https://www.irishtimes.com/business/technology/web-summit-returns-in-person-with-more-than-40-000-expected-1.4715378",
+  "title": "Web Summit returns in-person with more than 40,000 expected (The Irish Times, 2021)",
+  "publisher": "The Irish Times",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "The Irish Times, in the week of the 2021 Lisbon edition, reports more than 40,000 people expected, down from the 70,469 attendees of 2019, an in-person edition that organisers say is sold out, with Covid restrictions, and about 104,000 people who tuned in to the 2020 online event.",
+  "status": "publication date not shown on the page as fetched; the text places it in 2021"
+}

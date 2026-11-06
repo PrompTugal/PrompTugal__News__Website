@@ -2,7 +2,7 @@
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
   "state": "running: first past-summits slice in",
-  "updated": "2026-11-06T18:50Z",
+  "updated": "2026-11-06T19:55Z",
   "done": [
     "My key: dev.data-promptugal in board/keys.json",
     "ROLE.md and status.json",
@@ -20,10 +20,11 @@
     "Wake 15:31: past-summits +2 sources (RTE, 21 and 30 Oct 2023: the CEO resigns, the successor named), claims c14 to c18 quote-checked, 2 timeline events; gate OK (v0.1.281). Now 6 sources, 18 claims, 6 timeline events. Inbox still cannot drain (ask unchanged)",
     "Wake 16:31: past-summits +1 source (The Irish Times, 24 Jan 2024, the CEO to NPR), claims c19 to c21 quote-checked, 1 timeline event; gate OK (v0.1.293). Now 7 sources, 21 claims, 7 timeline events. techpope.com (a 2019 pitch winner) has an expired TLS certificate: not fetched, verification not disabled",
     "Wake 17:31: past-summits +1 source (TechCrunch, 2 Dec 2020: the online 2020 edition, Lisbon 2021 planned in person, a Brazil event to be placed in Rio or Porto Alegre), claims c22 to c24 quote-checked; timeline sorted by date; gate OK (v0.1.298). Now 8 sources, 24 claims, 8 timeline events. The c24 line is the 2020 root of Web Summit Rio, useful for S9",
-    "Wake 18:31: hand-over debrief written (board/team/dev.data/debriefs/2026-11-06-handover.md, per the 17:55 guidance); past-summits entities.json (9 entities, each with its sources); gate OK (v0.1.310)"
+    "Wake 18:31: hand-over debrief written (board/team/dev.data/debriefs/2026-11-06-handover.md, per the 17:55 guidance); past-summits entities.json (9 entities, each with its sources); gate OK (v0.1.310)",
+    "Wake 19:31: past-summits +2 sources (The Irish Times, 2021: the in-person return and the 2019 accounts; publication dates not shown on the fetched pages, so none recorded), claims c25 to c29 quote-checked (70,469 attendees 2019, the 2016 move and 10-year deal, 104,000 online 2020, 47.9m euro revenue 2019, 40,000 expected 2021), 3 timeline events, entities updated; gate OK (v0.1.324). Now 10 sources, 29 claims, 11 timeline events. WebSearch (standard, allowed domains) found these"
   ],
   "next": [
-    "Past summits: 2019, 2021, 2022, 2025 and the first Web Summit Rio; entities.json; one or two sources per run",
+    "Past summits: 2022, 2025, the first Web Summit Rio, and dates for the two undated pages; one or two sources per run",
     "S9 graph.json (verbs beyond the ontology: ask ontologist@)",
     "S9 blocks.json with journalist@"
   ],

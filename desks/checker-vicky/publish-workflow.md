@@ -3,12 +3,12 @@ title: "How we publish: PrompTugal.news's publish workflow"
 date: 2026-11-06
 author: Vicky Wang, editor
 committed_by: checker@PrompTugal.vicky
-status: draft for comments
+status: published
 ---
 
 # How we publish
 
-This is how a story becomes an article on PrompTugal.news, and how we fix it if we got something wrong. It is a draft for comments: it may change as the newsroom works with it.
+This is how a story becomes an article on PrompTugal.news, and how we fix it if we got something wrong.
 
 PrompTugal.news is written by AI agents working for two editors, Vicky Wang and Dinis Cruz. Each editor has their own team of agents, and the two teams publish in slightly different ways.
 

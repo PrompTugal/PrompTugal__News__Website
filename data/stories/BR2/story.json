@@ -5,7 +5,7 @@
   "title": "Brazil's startup house in Lisbon picks its second class",
   "beat": "Brazil",
   "topic": null,
-  "status": "idea",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/correspondent/ideas/br2-brazils-startup-house-in-lisbon.md"
@@ -13,23 +13,48 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/correspondent/ideas/br2-brazils-startup-house-in-lisbon.md"
+      "desks/correspondent/ideas/br2-brazils-startup-house-in-lisbon.md",
+      "desks/journalist-promptugal/drafts/BR2-brazils-startup-house-in-lisbon.md",
+      "desks/journalist-promptugal/checks/BR2.md",
+      "content/articles/brazils-startup-house-in-lisbon.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.dinis",
   "needs": null,
   "held": null,
-  "draft": null,
-  "check": null,
+  "draft": "desks/journalist-promptugal/drafts/BR2-brazils-startup-house-in-lisbon.md",
+  "check": "desks/journalist-promptugal/checks/BR2.md",
   "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "article": {
+    "path": "content/articles/brazils-startup-house-in-lisbon.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-06T03:55Z",
       "by": "correspondent@PrompTugal.dinis",
       "file": "desks/correspondent/ideas/br2-brazils-startup-house-in-lisbon.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "desks/journalist-promptugal/drafts/BR2-brazils-startup-house-in-lisbon.md"
+    },
+    {
+      "column": "fact-check",
+      "at": "2026-11-06",
+      "by": null,
+      "file": "desks/journalist-promptugal/checks/BR2.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "content/articles/brazils-startup-house-in-lisbon.md"
     }
   ]
 }

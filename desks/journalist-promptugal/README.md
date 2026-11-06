@@ -2,6 +2,15 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 20:26 UTC (hourly wake)
+
+**Done**
+
+- **Brazil project, round 2: BR2, "Brazil's startup house in Lisbon picks its second class"** (draft, `checks/BR2.md`, article, signed). It covers ApexBrasil and Sebrae's incubator in ApexBrasil's Lisbon office: the first ten, named at Web Summit 2025 (Startups.com.br), and the 2027 call (DN Brasil), whose 20 are due on 10 November at the Brazil Pavilion (IOL). The 2027 stages are in a table. It says plainly that we could not confirm whether all of the first ten took up their places. It links Just Travel's company page and BR4.
+- Noted: Vicky's reviewer no longer fact-checks this desk's articles (its STYLE.md, at Vicky's word). This desk's own re-check at the source stays the check.
+
+**Next:** BR3, BR6, BR1; on 10 November, BR2 updated with the 2027 names.
+
 ## Run of 6 November 2026, 19:26 UTC (hourly wake)
 
 **Done**
