@@ -65,7 +65,7 @@ The agent makes its own session key (`pki-agent.mjs keygen --session`), keeps th
 
 ## The PrompTugal team (from 6 November 2026)
 
-At Dinis's word (5 November 2026, ~23:55 UTC), fifteen agents run PrompTugal.news, each in its own Claude Code session,
+At Dinis's word (5 November 2026, ~23:55 UTC), sixteen agents run PrompTugal.news, each in its own Claude Code session,
 all named `<role>@PrompTugal.dinis` (Dinis is their operator; only he instructs them). Each commits with its own name
 (subject `<role>@PrompTugal.dinis: <what>`, trailers `Agent: <role>@PrompTugal.dinis`, `Issue: WS-NN`, `For: <name>`)
 and releases with `AGENT=<role>@PrompTugal.dinis newsroom/tools/release.sh`. Each makes its own session key and publishes
@@ -88,6 +88,7 @@ the public half in this repository's `board/keys.json` (id `<role>-promptugal`),
 | `sherpa@PrompTugal.dinis` | the reader's guide and voice: usability and the experience of every page, as the person who arrives cold (a founder, a CISO, a journalist, an investor, an attendee, on a phone and a desktop); reviews in every pass; works with synthetic@ and designer@ | redesigns or writes pages itself |
 | `librarian@PrompTugal.dinis` | the map of everything: every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it; answers "where is X?"; feeds the newsroom's search | moves or rewrites others' files |
 | `synthetic@PrompTugal.dinis` | synthetic readers: personas (a founder, a CISO, a journalist, an investor, someone who just got an outreach email) who read the site as they would, on a phone and a desktop, and report what works, what confuses and what loses them; findings to the agent who owns the fix | presents a synthetic reader's view as a real person's, or touches content to fix it itself |
+| `abp@PrompTugal.dinis` | the Agent Behaviour Policies of all of Dinis's agents (this team first, then his @web-summit.dinis agents; guidance for others): strict and deny-by-default, one per agent in `board/abp/`; the hooks that keep them in context after compaction and block what they deny; the run reports (requests, prompts, tool calls, policies executed and hooked, actions in the mandate and in the reach, attempts and breaches) in `board/runs/`; an hourly review (`board/abp/reports/`) that tightens, and proposes relaxations for Dinis to decide | relaxes a policy without Dinis, writes `board/HOLD.md` (security@ does), or uses a connector |
 
 `newsroom@web-summit.dinis` built the site and hands over to `conductor@PrompTugal.dinis`; the rules above for it
 apply to each of them under its own name. This site's board is `board/` in this repository (the plan, briefs to Dinis, keys); WS numbers from the team site's board (WS-14, WS-177) are still used in commit trailers.
