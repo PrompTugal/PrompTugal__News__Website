@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" width="900" height="720" role="img" aria-labelledby="t d"><title id="t">Algarve Evolution: programmes and partners</title><desc id="d">A hub-and-spoke graph: Algarve Evolution in the middle, eight programmes on the right and eight partners on the left. Sources are on the page.</desc><rect width="900" height="720" fill="#f7f5ef"/><style>text{font-family:system-ui,sans-serif;fill:#1b1b1b}</style>
+<line x1="450.0" y1="360.0" x2="537" y2="120" stroke="#1d6f5f" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="614" y2="165" stroke="#1d6f5f" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="671" y2="232" stroke="#1d6f5f" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="701" y2="316" stroke="#1d6f5f" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="701" y2="404" stroke="#1d6f5f" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="671" y2="488" stroke="#1d6f5f" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="614" y2="555" stroke="#1d6f5f" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="537" y2="600" stroke="#1d6f5f" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="363" y2="600" stroke="#2a5db0" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="286" y2="555" stroke="#2a5db0" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="229" y2="488" stroke="#2a5db0" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="199" y2="404" stroke="#2a5db0" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="199" y2="316" stroke="#2a5db0" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="229" y2="232" stroke="#2a5db0" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="286" y2="165" stroke="#2a5db0" stroke-opacity=".45" stroke-width="2"/>
+<line x1="450.0" y1="360.0" x2="363" y2="120" stroke="#2a5db0" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="537" cy="120" r="9" fill="#1d6f5f"/><text x="551" y="125" font-size="15" text-anchor="start">Algarve Digital Innovators</text>
+<circle cx="614" cy="165" r="9" fill="#1d6f5f"/><text x="628" y="170" font-size="15" text-anchor="start">Founder2Founder</text>
+<circle cx="671" cy="232" r="9" fill="#1d6f5f"/><text x="685" y="238" font-size="15" text-anchor="start">Incubator</text>
+<circle cx="701" cy="316" r="9" fill="#1d6f5f"/><text x="715" y="321" font-size="15" text-anchor="start">INOVA ALGARVE 3.0</text>
+<circle cx="701" cy="404" r="9" fill="#1d6f5f"/><text x="715" y="409" font-size="15" text-anchor="start">Tech Hub Summit</text>
+<circle cx="671" cy="488" r="9" fill="#1d6f5f"/><text x="685" y="492" font-size="15" text-anchor="start">Grow Algarve Meetup</text>
+<circle cx="614" cy="555" r="9" fill="#1d6f5f"/><text x="628" y="560" font-size="15" text-anchor="start">Education</text>
+<circle cx="537" cy="600" r="9" fill="#1d6f5f"/><text x="551" y="605" font-size="15" text-anchor="start">Venture Lab</text>
+<circle cx="363" cy="600" r="9" fill="#2a5db0"/><text x="349" y="605" font-size="15" text-anchor="end">University of Algarve</text>
+<circle cx="286" cy="555" r="9" fill="#2a5db0"/><text x="272" y="560" font-size="15" text-anchor="end">Algarve STP</text>
+<circle cx="229" cy="488" r="9" fill="#2a5db0"/><text x="215" y="492" font-size="15" text-anchor="end">AMAL</text>
+<circle cx="199" cy="404" r="9" fill="#2a5db0"/><text x="185" y="409" font-size="15" text-anchor="end">NERA</text>
+<circle cx="199" cy="316" r="9" fill="#2a5db0"/><text x="185" y="321" font-size="15" text-anchor="end">ANJE</text>
+<circle cx="229" cy="232" r="9" fill="#2a5db0"/><text x="215" y="237" font-size="15" text-anchor="end">Junior Achievement PT</text>
+<circle cx="286" cy="165" r="9" fill="#2a5db0"/><text x="272" y="170" font-size="15" text-anchor="end">Startup Portugal</text>
+<circle cx="363" cy="120" r="9" fill="#2a5db0"/><text x="349" y="125" font-size="15" text-anchor="end">CCDR-Algarve</text>
+<circle cx="450.0" cy="360.0" r="62" fill="#1b1b1b"/><text x="450.0" y="356.0" font-size="17" font-weight="700" text-anchor="middle" style="fill:#fff">Algarve</text><text x="450.0" y="377.0" font-size="17" font-weight="700" text-anchor="middle" style="fill:#fff">Evolution</text>
+<text x="560.0" y="26" font-size="14" fill="#1d6f5f" style="fill:#1d6f5f">Programmes</text><text x="340.0" y="26" font-size="14" text-anchor="end" style="fill:#2a5db0">Partners</text>
+<text x="450.0" y="706" font-size="12" text-anchor="middle" style="fill:#555">PrompTugal.news, read 6 November 2026. Sources are on the page. Not a complete map.</text></svg>

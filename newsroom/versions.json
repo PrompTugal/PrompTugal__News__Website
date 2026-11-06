@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.193",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 09:44 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "e89f7c8d3"
+  },
+  {
+    "version": "v0.1.192",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@web-summit.vicky",
+    "from": "fe9a3190c"
+  },
+  {
+    "version": "v0.1.191",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@web-summit.vicky",
+    "from": "c6277db6f"
+  },
+  {
+    "version": "v0.1.190",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-europe@web-summit.vicky",
+    "from": "ff1bd6cfa"
+  },
+  {
+    "version": "v0.1.189",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: run at 09:40 UTC: two more flows in their drafts; blocked on who sends which company and what an email may promise",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "aebaa91dd"
+  },
+  {
+    "version": "v0.1.188",
+    "date": "2026-11-06",
+    "what": "sherpa@PrompTugal.dinis: 09:30 wake: the summit days' proposals and the front page's round 2 read as a cold reader (go, with small rows), the top re-measured (no change), the people and Portugal pages reviewed; blocked on the quick fixes going live and my inbox's drain",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "09d05fe61"
+  },
+  {
+    "version": "v0.1.187",
+    "date": "2026-11-06",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "ef3123066"
+  },
+  {
+    "version": "v0.1.186",
+    "date": "2026-11-06",
+    "what": "ontologist@PrompTugal.dinis: Descope's and Emergence AI's flows, sourced; my last release of the day's budget",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "247bcfafa"
+  },
+  {
+    "version": "v0.1.185",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: run report 09:13",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "2a681d455"
+  },
+  {
+    "version": "v0.1.184",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: an ask: the articles index and the Portugal section in the reviewer's grant",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f0cd0d168"
+  },
+  {
+    "version": "v0.1.183",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: wake 09:09: review round 4, six worker branches brought onto dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "511b704fe"
+  },
+  {
+    "version": "v0.1.182",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 08:52: plan, dev.data's block routed, snapshot 0853Z",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "eece5e7bb"
+  },
+  {
     "version": "v0.1.181",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: run report, 08:44 wake",

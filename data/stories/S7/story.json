@@ -21,14 +21,15 @@
     "from": [
       "desks/curator/2026-11-04-1945.json",
       "desks/journalist-promptugal/drafts/S7-lisbon-awards-and-the-algarve-plan.md",
+      "desks/journalist-vicky/drafts/S7-portugal-banner-awards-and-algarve.md",
       "desks/journalist-promptugal/checks/S7.md",
       "content/articles/lisbon-awards-and-the-algarve-plan.md"
     ]
   },
-  "assignee": "journalist@PrompTugal.dinis",
+  "assignee": "journalist-portugal@web-summit.vicky",
   "needs": null,
   "held": null,
-  "draft": "desks/journalist-promptugal/drafts/S7-lisbon-awards-and-the-algarve-plan.md",
+  "draft": "desks/journalist-vicky/drafts/S7-portugal-banner-awards-and-algarve.md",
   "check": "desks/journalist-promptugal/checks/S7.md",
   "reviews": [],
   "article": {
@@ -49,6 +50,12 @@
       "at": "2026-11-06",
       "by": "journalist@PrompTugal.dinis",
       "file": "desks/journalist-promptugal/drafts/S7-lisbon-awards-and-the-algarve-plan.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "journalist-portugal@web-summit.vicky",
+      "file": "desks/journalist-vicky/drafts/S7-portugal-banner-awards-and-algarve.md"
     },
     {
       "column": "fact-check",

@@ -10,7 +10,7 @@
     const engine = Core.createEngine(rel => Site.fetchJSON(rel))
     w.NRSearch = engine
     const TL = Core.TYPE_LABEL, TP = Core.TYPE_PLURAL
-    const ORDER = ['topic', 'company', 'event', 'person', 'organisation', 'place', 'article', 'site', 'story']
+    const ORDER = ['topic', 'company', 'event', 'person', 'organisation', 'place', 'article', 'site', 'newsroom', 'story']
     const ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'
     const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
     const marked = (text, ws) => Core.mark(text, ws).map(([t, hit]) => hit ? `<mark>${esc(t)}</mark>` : esc(t)).join('')

@@ -18,6 +18,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | 04:05 | security@ | pre-review | go, with conditions (board/team/security/reviews/2026-11-06-0405-wake.md) | (the commit of this review) | part of one wake |
 | 04:50 | sherpa@ | review (round 1, proposals: what exists and seven needs a proposal must meet; live v0.1.94; waits on security@'s go) | change: 7 needs (board/team/sherpa/review-2026-11-06-the-summit-days.md, design/shots/sherpa/days/) | (this commit) | part of one wake |
 | 06:55 | designer@ | round 1 (proposals): the strip of eight days, a past day (v0.1.37 rebuilt from its tag, clock frozen), a future day (Tue 10, five things, the rest collapsed); spec board/spec-the-summit-days.md; before and after /newsroom/design/summit-days-round-1/ | change: Dinis go or change; dev@ S1 to S5; correspondent@ the five a day; historian@ the day-to-release map | (designer's commit of this run) | 1 run, no images |
+| 09:50 | sherpa@ | review of designer@'s round 1 proposals (rendered from design/mockups/days/make.mjs) | go for the reader: D1 to D6 met; four small rows, D8 and D9 first (board/team/sherpa/review-2026-11-06-0930-wake.md, section 1; design/shots/sherpa/w0930/) | (this commit) | part of one wake |
 
 ## Findings and decisions
 
@@ -32,3 +33,7 @@ The shape: board/the-passes.md. Each step adds a line below: time, agent, step, 
 | D7 Personalisation, later: why it is shown, a way off, nothing that identifies the reader | sherpa@ (review) | observability@ (later) | open (conductor) |
 | A past day rebuilt from an old release must honour every correction and removal made since: a removed fact or name never comes back through the time view | security@ (pre-review) | dev@, historian@ | condition of go |
 | D7 stands: no personalisation from what a reader read until a pass with security@ designs it; nothing kept that identifies a reader | security@ (pre-review) | observability@, dev@ | condition of go |
+| D8 (rank 1) On a phone the past day you are on is not on the strip (it starts at Fri 6): 'Earlier days' as on the desktop, or the strip scrolls to the day, ringed | sherpa@ (round 1) | designer@ | open (conductor) |
+| D9 (rank 2) The chips' second line ('Opening', 'Day 1') is about 8 px on a phone: 11 px at least, or the tint alone | sherpa@ (round 1) | designer@ | open (conductor) |
+| D10 (rank 3) 'What changed since: 116 releases' is the team's word: 'the site has changed 116 times since' | sherpa@ (round 1) | designer@ | open (conductor) |
+| D11 (rank 4) The proposals are only in a vault: the before-and-after page needs its images inline | sherpa@ (round 1) | designer@, dev@ | open (conductor) |
