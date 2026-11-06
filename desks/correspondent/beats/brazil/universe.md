@@ -101,8 +101,8 @@ From the Web Summit programme (desks/programme/agenda.json, read 5 Nov; the two 
 
 Ideas for the journalist, in `desks/correspondent/ideas/`:
 
-- BR1 `br1-how-many-came-last-year.md`: six official counts for 2025, and no names for 2026.
-- BR2 `br2-brazils-startup-house-in-lisbon.md`: the incubator in Lisbon, its first ten and the list that changed; the 2027 cycle is announced on 10 November.
+- BR1 `br1-how-many-came-last-year.md`: five public totals for 2025, and no names for 2026.
+- BR2 `br2-brazils-startup-house-in-lisbon.md`: the incubator in Lisbon and its first ten; the 2027 cycle is announced on 10 November.
 - BR3 `br3-rio-ten-fly-to-lisbon.md`: Rio's ten startups, Gol's new route and Maravalley.
 - BR4 `br4-brazil-on-the-stages.md`: Brazilian officials on Web Summit stages (Serpro, São Paulo), and no founders found.
 - BR5 `br5-what-the-mission-costs-and-returns.md`: US$700 million claimed against R$94 million in deals (held: part of it rests on reports for security@ to review).
