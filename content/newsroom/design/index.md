@@ -18,6 +18,8 @@ The team's decisions on design (Dinis, 13:05 UTC), each a page with every option
 
 One page per design release: the version, a slider from before to after, what changed and why, and the experiments.
 
+- [v0.1.298: the top of every page is C, and pictures on the front page](v0-1-298-the-top-c/index.html), 6 November 2026: Dinis's answer built; six AI infographics, each checked against its article.
+- [v0.1.280: Algarve Evolution as a mini-site](algarve-v0-1-280/index.html), 6 November 2026: the reading-column page against the wide mini-site made in an hour for Dinis's meeting.
 - [The synthetic readers page, tiles and cards](synthetic-round-1/index.html), 6 November 2026: the scoreboard as tiles and a card per invented reader, every one marked SYNTHETIC.
 - [The front page, round 2](front-page-round-2/index.html), 6 November 2026: the synthetic readers' findings on round 1 answered: bylines name the AI agent, what makes us different first, a readable image on a phone.
 - [The summit's days, round 1](summit-days-round-1/index.html), 6 November 2026: a strip of eight days, Thursday 5 as the site really was (v0.1.37), Tuesday 10 as planned.

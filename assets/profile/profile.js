@@ -14,6 +14,31 @@
         clear() { try { w.localStorage.removeItem(KEY) } catch (e) { /* none */ } },
     }
     const relOf = href => { try { const u = new URL(href, w.location.href); if (u.origin !== w.location.origin) return null; return Site && Site.base && u.href.startsWith(Site.base) ? u.pathname + u.search : u.pathname + u.search } catch (e) { return null } }
+    // the reader's vault (assets/vault/, window.__vault, a passkey opens it): the profile is kept there too, so it follows
+    // the reader from device to device. Browser first; the vault copy is merged in when the vault is open.
+    const VPATH = 'profile/reader', V_VIEWS = 300
+    let vtimer = null
+    const merge = (a, b, key) => { const m = new Map(); for (const x of [...a, ...b]) m.set(key(x), x); return [...m.values()].sort((x, y) => (x.t < y.t ? -1 : x.t > y.t ? 1 : 0)) }
+    function toVault() {
+        clearTimeout(vtimer)
+        vtimer = setTimeout(() => {
+            const V = w.__vault, p = store.load()
+            if (!V || p.paused) return
+            V.save(VPATH, { v: 1, since: p.since, views: p.views.slice(-V_VIEWS), searches: p.searches }).catch(() => { /* kept in the browser */ })
+        }, 5000)
+    }
+    async function fromVault() {
+        const V = w.__vault
+        if (!V || !V.status().open) return false
+        const theirs = await V.load(VPATH)
+        if (!theirs || theirs.v !== 1) return false
+        const p = store.load()
+        p.views = cap(merge(p.views, theirs.views || [], x => x.t + x.p), MAX_VIEWS)
+        p.searches = cap(merge(p.searches, theirs.searches || [], x => x.t + x.q), MAX_SEARCHES)
+        if (theirs.since && theirs.since < p.since) p.since = theirs.since
+        store.save(p)
+        return true
+    }
     const cap = (a, n) => (a.length > n ? a.slice(a.length - n) : a)
 
     function recordView() {
@@ -25,6 +50,7 @@
         p.views.push({ t: new Date().toISOString(), p: here, title: (d.title || '').slice(0, 140), from: relOf(d.referrer) })
         p.views = cap(p.views, MAX_VIEWS)
         store.save(p)
+        toVault()
     }
     function recordSearch(q) {
         q = String(q || '').trim().slice(0, 200)
@@ -36,6 +62,7 @@
         p.searches.push({ t: new Date().toISOString(), q, on: w.location.pathname })
         p.searches = cap(p.searches, MAX_SEARCHES)
         store.save(p)
+        toVault()
     }
     // searches: wrap the engine's query, record a query once it has settled
     let timer = null, pending = ''
@@ -88,10 +115,19 @@
         return box
     }
 
+    // where it is kept, always said (sherpa@, PT decision condition 1): saved here is not yet safe in the vault
+    function where() {
+        const V = w.__vault, n = V ? V.status().pending : 0
+        const p = d.createElement('p')
+        p.className = 'meta nr-where'
+        p.textContent = n ? `Kept in this browser. ${n} item${n === 1 ? '' : 's'} not yet in your vault: open your vault page to update it.` : 'Kept in this browser.'
+        return p
+    }
     function draw(root) {
         const render = () => {
             const p = store.load(), s = summary()
             root.replaceChildren()
+            root.append(where())
             const me = mine(root)
             if (me) root.append(me)
             root.append(h('dl', { class: 'stats' },
@@ -110,6 +146,7 @@
     }
 
     function init() {
+        w.addEventListener('nr-vault-status', () => { fromVault().then(ok => { const r = d.querySelector('.pt-profile'); if (ok && r) draw(r) }).catch(() => { }) })
         recordView()
         if (d.getElementById('nr-search-page')) recordSearch(new URLSearchParams(w.location.search).get('q'))
         icon()

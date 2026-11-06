@@ -4,9 +4,10 @@
   "edges": [
     {
       "verb": "filed_under",
-      "to": "topic:portugal-startup",
+      "to": "topic:other",
       "source": "s1",
-      "by": "newsroom/tools/companies.mjs"
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "its LIS26 page gives its country as the United States and no public source read here says why the team filed it under Portuguese startups"
     },
     {
       "verb": "based_in",

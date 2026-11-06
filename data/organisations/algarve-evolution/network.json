@@ -1,0 +1,687 @@
+{
+  "$schema": "../../schemas/organisation-network.schema.json",
+  "organisation": "algarve-evolution",
+  "kept_by": "ontologist@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "from": "desks/researcher/algarve-evolution-round-1.md (researcher@'s rounds 1 to 6, read 6 November 2026), checked by the ontologist against each source's note",
+  "verbs": [
+    {
+      "verb": "runs",
+      "inverse": "run_by",
+      "meaning": "the organisation leads or runs a programme"
+    },
+    {
+      "verb": "partner_in",
+      "inverse": "has_partner",
+      "meaning": "an organisation is a named partner of a programme"
+    },
+    {
+      "verb": "holds_role",
+      "inverse": "role_of",
+      "meaning": "a role belongs to the organisation"
+    },
+    {
+      "verb": "based_in",
+      "inverse": "is_base_of",
+      "meaning": "where the organisation is based"
+    },
+    {
+      "verb": "co_organises",
+      "inverse": "co_organised_by",
+      "meaning": "an organisation is named as co-organiser of an event"
+    },
+    {
+      "verb": "partner_of_event",
+      "inverse": "event_partner",
+      "meaning": "an organisation is named as a partner of an event"
+    },
+    {
+      "verb": "recognised_by",
+      "inverse": "recognises",
+      "meaning": "a programme was recognised by an organisation"
+    },
+    {
+      "verb": "part_of_programme",
+      "inverse": "includes_event",
+      "meaning": "an event belongs to a programme"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "programme:algarve-digital-innovators",
+      "name": "Algarve Digital Innovators (ADI)",
+      "what": "A network of innovation communities across the Algarve's 16 municipalities, from the Algarve EMPREENDE 2026 project; its 2030 plan reports 24 communities and 5,839 memberships (may double count) and depends on funding.",
+      "since": "2025",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        },
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "id": "programme:founder2founder",
+      "name": "Founder2Founder",
+      "what": "Six months of mentoring for early companies, three indicators each; fee and membership, no equity; 8 chosen from 41 applications; early-stage incubation planned for 2027.",
+      "since": "October 2026",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "id": "programme:incubator",
+      "name": "Incubator",
+      "what": "Algarve Evolution's incubator, recognised by Startup Portugal in January 2026.",
+      "since": "January 2026 (recognition)",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "id": "programme:inova-algarve-3-0",
+      "name": "INOVA ALGARVE 3.0",
+      "what": "The Digital Transition Programme for Algarve tourism companies, which Algarve Evolution leads; a pilot of free consultancy on AI and robotics for 20 tourism SMEs.",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        },
+        {
+          "url": "https://www.algarveevolution.pt/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "id": "programme:algarve-tech-hub-summit",
+      "name": "Algarve Tech Hub Summit",
+      "what": "The region's tech summit, launched 2022; 2024 in Albufeira, 2025 in Lagos (over 500 participants); returns in 2027.",
+      "since": "2022",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "id": "programme:the-company",
+      "name": "The Company (with Junior Achievement Portugal)",
+      "what": "An education programme, in the education pillar with the University of Algarve and Vibathon Algarve.",
+      "sources": [
+        {
+          "url": "https://www.algarveevolution.pt/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        },
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "id": "programme:venture-lab",
+      "name": "Venture Lab by AlgarveSTP",
+      "what": "Algarve STP's programme with six partners, Algarve Evolution among them; 12 startups and SMEs selected for mentoring (July 2026); Algarve Evolution's role is not described.",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/venture-lab-by-algarvestp-seleciona-12-empresas-para-acelerar-crescimento/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "id": "programme:grow-algarve-meetup",
+      "name": "Grow Algarve Meetup",
+      "what": "Monthly gatherings across Algarve municipalities, organised by Algarve Evolution; 1,623 members on Meetup.",
+      "sources": [
+        {
+          "url": "https://www.meetup.com/grow-algarve-meetup/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "role:president",
+      "role": "President of Algarve Evolution",
+      "term": "2024 to 2027 (elected July 2024)",
+      "named_in_source": true,
+      "sources": [
+        {
+          "url": "https://postal.pt/economia/joaquim-nascimento-e-o-novo-presidente-da-algarve-evolution/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis",
+          "note": "names the person; not named here until the naming decision"
+        }
+      ]
+    },
+    {
+      "id": "role:executive-director",
+      "role": "Executive director of Algarve Evolution",
+      "named_in_source": true,
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/impact-algarve-juntou-principais-intervenientes-locais-para-debaterem-o-futuro-da-regiao/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis",
+          "note": "names the person"
+        },
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis",
+          "note": "names the person"
+        },
+        {
+          "url": "https://promptugal.news/board/guidance/2026-11-06-algarve-evolution-the-call-and-the-wish-list.md",
+          "read_on": "2026-11-06",
+          "by": "ontologist@PrompTugal.dinis",
+          "note": "Dinis, about 15:40 UTC: after his call with António Pinto Guerreiro, who read the page and gave a paragraph to be attributed to him; the basis for naming him here"
+        }
+      ],
+      "name": "António Pinto Guerreiro"
+    }
+  ],
+  "figures": [
+    {
+      "what": "Active members",
+      "value": "118",
+      "as_of": "November 2026",
+      "kind": "self-reported",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "what": "Members, earlier",
+      "value": "about 70 companies and individuals",
+      "as_of": "July 2024",
+      "kind": "self-reported",
+      "sources": [
+        {
+          "url": "https://postal.pt/economia/joaquim-nascimento-e-o-novo-presidente-da-algarve-evolution/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "what": "Members' turnover and direct jobs",
+      "value": "about EUR 100 million; about 1,000 jobs",
+      "as_of": "November 2026",
+      "kind": "self-reported",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis",
+          "note": "member figures, not generated by the organisation"
+        }
+      ]
+    },
+    {
+      "what": "Events and participants in 2024 and 2025",
+      "value": "more than 142 events; 5,597 participants",
+      "kind": "self-reported",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "what": "Targets by 2032",
+      "value": "support 500 companies, help create 150 startups, impact 50,000 people",
+      "kind": "target",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "what": "Algarve startups (Informa D&B, November 2025)",
+      "value": "115 in 2024; 16% growth; about EUR 25 million turnover; 365 employees; 78% in IT and communications",
+      "kind": "fact",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis",
+          "note": "the study as reported"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "based_in",
+      "to": "place:faro",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "runs",
+      "to": "programme:algarve-digital-innovators",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "runs",
+      "to": "programme:founder2founder",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "runs",
+      "to": "programme:incubator",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "runs",
+      "to": "programme:inova-algarve-3-0",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "runs",
+      "to": "programme:the-company",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "runs",
+      "to": "programme:grow-algarve-meetup",
+      "sources": [
+        {
+          "url": "https://www.meetup.com/grow-algarve-meetup/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "co_organises",
+      "to": "programme:algarve-tech-hub-summit",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:university-of-algarve",
+      "verb": "co_organises",
+      "to": "programme:algarve-tech-hub-summit",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-stp",
+      "verb": "co_organises",
+      "to": "programme:algarve-tech-hub-summit",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:university-of-algarve",
+      "verb": "partner_in",
+      "to": "programme:algarve-digital-innovators",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:amal",
+      "verb": "partner_in",
+      "to": "programme:algarve-digital-innovators",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-stp",
+      "verb": "partner_in",
+      "to": "programme:algarve-digital-innovators",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:nera",
+      "verb": "partner_in",
+      "to": "programme:algarve-digital-innovators",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:anje",
+      "verb": "partner_in",
+      "to": "programme:algarve-digital-innovators",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-stp",
+      "verb": "runs",
+      "to": "programme:venture-lab",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/venture-lab-by-algarvestp-seleciona-12-empresas-para-acelerar-crescimento/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "partner_in",
+      "to": "programme:venture-lab",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/venture-lab-by-algarvestp-seleciona-12-empresas-para-acelerar-crescimento/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:university-of-algarve",
+      "verb": "partner_in",
+      "to": "programme:venture-lab",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/venture-lab-by-algarvestp-seleciona-12-empresas-para-acelerar-crescimento/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:amal",
+      "verb": "partner_in",
+      "to": "programme:venture-lab",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/venture-lab-by-algarvestp-seleciona-12-empresas-para-acelerar-crescimento/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:nera",
+      "verb": "partner_in",
+      "to": "programme:venture-lab",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/venture-lab-by-algarvestp-seleciona-12-empresas-para-acelerar-crescimento/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:anje",
+      "verb": "partner_in",
+      "to": "programme:venture-lab",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/venture-lab-by-algarvestp-seleciona-12-empresas-para-acelerar-crescimento/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:junior-achievement-portugal",
+      "verb": "partner_in",
+      "to": "programme:the-company",
+      "sources": [
+        {
+          "url": "https://www.algarveevolution.pt/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "programme:incubator",
+      "verb": "recognised_by",
+      "to": "company:startup-portugal",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "event:algarve-tech-hub-summit-2024",
+      "verb": "part_of_programme",
+      "to": "programme:algarve-tech-hub-summit",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/maior-evento-de-inovacao-e-tecnologia-do-algarve-esta-a-chegar-a-albufeira/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "event:algarve-tech-hub-summit-2025",
+      "verb": "part_of_programme",
+      "to": "programme:algarve-tech-hub-summit",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "event:algarve-digital-innovators-launch-2025",
+      "verb": "part_of_programme",
+      "to": "programme:algarve-digital-innovators",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/lagos-lanca-rede-algarve-digital-innovators-para-impulsionar-inovacao-e-startups/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "co_organises",
+      "to": "event:impact-algarve-2024",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/impact-algarve-juntou-principais-intervenientes-locais-para-debaterem-o-futuro-da-regiao/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:get-real",
+      "verb": "co_organises",
+      "to": "event:impact-algarve-2024",
+      "sources": [
+        {
+          "url": "https://postal.pt/algarve/impact-algarve-juntou-principais-intervenientes-locais-para-debaterem-o-futuro-da-regiao/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "partner_of_event",
+      "to": "event:algarve-startups-at-web-summit-2025",
+      "note": "project partner, with one of five permanent jury seats",
+      "sources": [
+        {
+          "url": "https://anje.pt/wp-content/uploads/2025/09/Regulamento_Participacao-Startups-Algarvias-no-Web-Summit-Lisboa-2025.pdf",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:algarve-evolution",
+      "verb": "partner_of_event",
+      "to": "event:devfest-lagos-2026",
+      "note": "named partner; organised by Google Developer Group Lagos",
+      "sources": [
+        {
+          "url": "https://www.algarveevolution.pt/event/gdg-lagos-182/register",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "organisation:google-developer-group-lagos",
+      "verb": "co_organises",
+      "to": "event:devfest-lagos-2026",
+      "sources": [
+        {
+          "url": "https://www.algarveevolution.pt/event/gdg-lagos-182/register",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "role:president",
+      "verb": "holds_role",
+      "to": "organisation:algarve-evolution",
+      "sources": [
+        {
+          "url": "https://postal.pt/economia/joaquim-nascimento-e-o-novo-presidente-da-algarve-evolution/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    },
+    {
+      "from": "role:executive-director",
+      "verb": "holds_role",
+      "to": "organisation:algarve-evolution",
+      "sources": [
+        {
+          "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+          "read_on": "2026-11-06",
+          "by": "researcher@PrompTugal.dinis"
+        }
+      ]
+    }
+  ]
+}

@@ -631,6 +631,22 @@
         "signing_fingerprint": "sha256:b13061c99fd1d102"
       },
       "status": "active"
+    },
+    {
+      "id": "claims-issuer-promptugal",
+      "agent": "observability@PrompTugal.dinis",
+      "label": "observability@PrompTugal.dinis (vault onboarding: the issuer and the sweep)",
+      "added": "2026-11-06",
+      "status": "active",
+      "role": "Signs the onboarding pool, licences and mailbox (sign); claims are sealed to it (encrypt). Kept by observability@PrompTugal.dinis outside the repository, sealed to Dinis for recovery.",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAj/ygILOcQFbwwHQY4eOO\nh3lqu9bI0IxPinRLeLYQAjudJdB+P5tUB83++lLpSiqMkdLrbP8zn/7974Vp0gTC\nwSH7uNJ3R/qKNBcuj5ELYgfVyU7cjnJb35CnCBnni85l37bkHeAU+P/T0S/kXirO\nx3i03Q/v6n1KJcuInYdRY/rUryVvD940lZ56quIoPXOCs4DT4HClrvXj60cuWGpr\nq6Kiyb0wiLV6EraxPXUxhXk1qmmMMUM6NH2xd1hohrp8nAi0T6Zg9Bwk9C5vm43X\ngl5Ha55AWOJ4proxqJTWtjMuDW1KqUCHC9R9ipWKUyPtAL8OWtlcK7qf1TqOHYu8\nuxUjpBWhDx3XPyIF1i3w+75ex8n8KdYk7Q7w8TgDwhWWd5N1OS09jy48XkQzpys7\nDfeF8f1xhjKLbPH1omHeNY98yVfg5+7UfJXcqXvH9+fU5KdMkwFFv1x1XQDHR9Hc\neydGWcjmfq4LXHgHUrEmMO6wg9/uY3nJoCV3IdbuyHlFdY/KTChtYCLdH3IejWQO\nPjgjEBeMjHaecjnqH+8vZuJAZj6QygAk4T/7kcP4nGqU8c6u3N+qeQ4CulS30KAD\n5uYq9B42NCHoBJ65eC8DwahhJ+yDQXleQe+kAchil67YzwOph9/LbJgLKkmID+mR\nhnC8hBqEjSsmUv7AbPMpyeECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELjTBOQ36tikAYDcxOfvjtIH9cnRI\nhaYVctTTbe4SS5NW01ALebfTlRt8QPIkD7oduZyrwVeWA0kCo5zVgJfrWw==\n-----END PUBLIC KEY-----\n",
+        "label": "claims-issuer-promptugal",
+        "fingerprint": "sha256:b951b45354bf5563",
+        "signing_fingerprint": "sha256:167f6342fe297d00"
+      }
     }
   ]
 }

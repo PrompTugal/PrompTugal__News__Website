@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "rte-2023-10-21-cosgrave-resigns",
+  "story": "past-summits",
+  "url": "https://www.rte.ie/news/business/2023/1021/1412190-web-summit-cosgrave/",
+  "title": "Paddy Cosgrave resigns as Web Summit CEO (RTE, 21 October 2023)",
+  "publisher": "RTE",
+  "published": "2023-10-21",
+  "read_on": "2026-11-06",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "RTE reports that Web Summit's CEO resigned with immediate effect after remarks about the Israel-Hamas conflict, that several companies including Google, Meta, Intel and Siemens had withdrawn from the 2023 Lisbon edition and some investors and executives cancelled plans to attend, that he apologised, and that the company said the 2023 summit would go ahead as planned."
+}

@@ -19,6 +19,7 @@ export const KINDS = [
     [/^data\/events\/[^/]+\/event\.json$/, 'event'],
     [/^data\/people\/[^/]+\/person\.json$/, 'person'],
     [/^data\/organisations\/[^/]+\/organisation\.json$/, 'organisation'],
+    [/^data\/organisations\/[^/]+\/network\.json$/, 'organisation-network'],
     [/^data\/places\/[^/]+\/place\.json$/, 'place'],
     [/^data\/topics\/[^/]+\/topic\.json$/, 'topic'],
     [/^data\/stories\/[^/]+\/story\.json$/, 'story'],
@@ -37,10 +38,12 @@ export const KINDS = [
     [/^data\/wikipedia\/[^/]+\/tables\.json$/, 'wikipedia-tables'],
     [/^data\/wikipedia\/[^/]+\/links\.json$/, 'wikipedia-links'],
     [/^data\/wikipedia\/[^/]+\/meets\.json$/, 'wikipedia-meets'],
+    [/^data\/concepts\.json$/, 'concepts'],
     [/^data\/matching\.json$/, 'matching'],
     [/^data\/ontology\.json$/, 'ontology'],
     [/^data\/site\/site\.json$/, 'site'],
     [/^data\/site\/nav\.json$/, 'nav'],
+    [/^data\/site\/list-views\.json$/, 'list-views'],   // the switch's words on the list pages (dev.pages@)
     [/^data\/newsroom\/agents\.json$/, 'newsroom-agents'],        // the newsroom section's roster, plan and team-site snapshot
     [/^data\/newsroom\/plan\.json$/, 'newsroom-plan'],            // (its runs ledger is data/newsroom/runs/*.jsonl, checked by
     [/^data\/newsroom\/team-site\.json$/, 'newsroom-team-site'],  // features/newsroom.mjs against newsroom-run.schema.json)
@@ -155,6 +158,15 @@ export function checkData() {
     if (bud && !(bud.thresholds.warn < bud.thresholds.stop)) errors.push('board/budgets.json: warn >= stop')
     for (const a of bud?.agents || []) { if (rows.has(a.agent)) errors.push(`board/budgets.json: ${a.agent}`); rows.add(a.agent) }
     for (const p of bud?.passes || []) if (p.file !== `board/passes/${p.pass}.md` || !fs.existsSync(R(p.file))) errors.push(`board/budgets.json: ${p.pass}`)
+    // an organisation's network: every graph ref exists, every verb is declared or the ontology's, every local end is defined
+    for (const o of s.organisations) {
+        const f = R(`data/organisations/${o.id}/network.json`); if (!fs.existsSync(f)) continue
+        const n = JSON.parse(fs.readFileSync(f, 'utf8')), w = `data/organisations/${o.id}/network.json`
+        const local = new Set([...n.programmes, ...n.roles].map(x => x.id)), vs = new Set([...s.ontology.verbs.map(v => v.verb), ...(n.verbs || []).map(v => v.verb)])
+        for (const e of n.edges) { if (!vs.has(e.verb)) errors.push(`${w}: verb ${e.verb}`); for (const r of [e.from, e.to]) /^(programme|role):/.test(r) ? (local.has(r) || errors.push(`${w}: ${r}`)) : need(w, r) }
+    }
+    // the concepts: ids unique, every see path exists
+    if (fs.existsSync(R('data/concepts.json'))) { const cs = JSON.parse(fs.readFileSync(R('data/concepts.json'), 'utf8')).concepts, ids = new Set(); for (const x of cs) { if (ids.has(x.id)) errors.push(`data/concepts.json: ${x.id} twice`); ids.add(x.id); for (const p of x.see || []) if (!fs.existsSync(R(p))) errors.push(`data/concepts.json: ${x.id} sees ${p}`) } }
     // no social handle in what we publish about a person (the derivation drops them; this catches a hand edit)
     const HANDLE = /(^|[\s(,;])@[A-Za-z0-9_]{2,}/
     for (const p of s.people) for (const v of [p.role, p.organisation, ...p.listings.flatMap(l => [l.role, l.organisation])]) if (v && HANDLE.test(v)) errors.push(`data/people/${p.id}: a social handle in "${v}"`)

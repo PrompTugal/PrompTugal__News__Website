@@ -1,9 +1,20 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 2; between wakes 13:55: Dinis's four answers recorded on the decision pages",
-  "updated": "2026-11-06T14:05Z",
+  "state": "working: session 2; hourly wake 17:34 done (C checked live with its before and after; six AI infographics on the front page)",
+  "updated": "2026-11-06T17:50Z",
   "done": [
+    "C's top checked live (v0.1.298) and its before and after: /newsroom/design/v0-1-298-the-top-c/; still to do: the strip of days full width and all eight on a phone, one search on a desktop",
+    "Six AI infographics on the front page (OpenRouter topped up, credit 29.79 USD): google/gemini-3-pro-image, 8 calls, 1.15 USD; each read back and checked against its article; two first drafts rejected and redrawn; 1.05 MB in git",
+    "Reviewed and took designer.experiments@'s day root with my three notes done",
+    "The daily newsletter's design (Dinis, 16:20): board/spec-the-daily-newsletter.md (the email: masthead, numbered link references, 50-character lines, merged duplicates, the Algarve apart, the foot naming the agents and editors; the edition page: an edition band, thumbnails, lighter buttons, the byline) and design/newsletter/morning-email-example.txt from Saturday's real edition (the feature built with the clock set to Saturday)",
+    "Reviewed and took designer.experiments@'s day's graph root (Tree, Rings, Ledger)",
+    "Before and after of v0.1.280, Algarve Evolution as a mini-site: /newsroom/design/algarve-v0-1-280/ (the slider in the vault); fixes 1 and 4 in part, 2, 3, 5, 6 still to do",
+    "Spec check of v0.1.280: Powered by gone, the strip of days live on the front page but only about five of eight days fit a phone and the floating Ask covers it; C's top not started (session folder, spec-check-v0.1.280.md)",
+    "Reviewed and took designer.experiments@'s badge at card and page size, with board/spec-maturity-badge.md for dev.pages@",
+    "Algarve sprint, 14:38: the deploy is stuck at v0.1.269 (v0.1.270 and v0.1.271 with dev.portugal@'s mini-site committed, not served); said on the sprint's pass for devops@",
+    "Reviewed and took designer.experiments@'s maturity badge (three variants, accessible, from real data)",
+    "Algarve Evolution sprint: the mini-site design for dev.portugal@ (design/mockups/algarve/make.mjs, board/spec-algarve-evolution-minisite.md, 14:17) and a pass on its build with six fixes (board/spec-algarve-evolution-fixes-1420.md, 14:18); the 14:30 check on the pass",
     "Dinis's four answers (13:20, board/guidance/2026-11-06-the-four-design-decisions.md) recorded: the top is C on every page with the strip of days on the front page (superseding my 13:45 PT decision for A), drawn with two refinements for sherpa@'s concerns (a Companies tab, Ask in the top row, the tab bar above the safe area); the front page, the summit days and the list pages decided as recommended",
     "PT decision (Dinis, 13:05): the top of every page decided, A with the strip of days under it (sherpa@'s three refinements taken); decided picture on /newsroom/design/decisions/the-top-of-the-page/; my misattributions to sherpa@ corrected",
     "The other three decision pages retitled as PT decisions, open for sherpa@'s and synthetic@'s weigh-in until 14:33 UTC; the band's first line reworded after synthetic@'s F45 ('Every fact links to its source, with the date we read it')",
@@ -35,15 +46,15 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check dev@'s builds against design/decisions/*/answered--*.jpg and the specs; write a before and after for each that goes live",
-    "Propose the first A/B test if the team is unsure of C's tab bar once live (C against A's Menu)",
+    "The six other articles without an image (about 0.15 USD each), the same way",
+    "Check the newsletter build against board/spec-the-daily-newsletter.md before Saturday 07:30 Lisbon",
     "Review work/designer.experiments at each wake"
   ],
   "asks": [
-    "Dinis: nothing waits on you from the designer; your four answers are recorded on /newsroom/decisions/ (the top: C with the days on the front page, with a Companies tab and Ask beside the credit: say if you want it otherwise)",
-    "Dinis: the OpenRouter credit is spent (-0.20 USD): no AI images until it is topped up",
-    "conductor@: my inbox board/inboxes/designer.json is still sealed to session 1's key (sha256:5571b6684d9d41b8); thank you for the direct message",
-    "dev@ / dev.pages@: build the answered top now (Q1 to Q9 and C's top, board/spec-the-top-of-the-page.md), then the strip, the front page (P1 to P8), the day views and the list pages"
+    "Dinis: my inbox (board/inboxes/designer.json) is still sealed to session 1's key since 04:45 and board/tools/agent_inboxes.py send fails here, so other agents' messages to me can be lost: the conductor can reissue it to sha256:d3d3cacbb7dc4269 (it reaches me by its direct messages meanwhile)",
+    "Dinis: decision pages carry small JPEGs in git (about 70 KB each) because an encrypted vault image cannot be shown in a page; say if you want them elsewhere",
+    "devops@: the Pages deploy stuck at v0.1.269 since 14:20 (see the Algarve sprint pass)",
+    "dev@ / dev.pages@: after C's top (dev@'s ETA 18:30), the newsletter's E1 to E9 and P1 to P6 (board/spec-the-daily-newsletter.md) before Saturday 07:30 Lisbon"
   ],
   "wakes": [
     {
@@ -135,6 +146,36 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "Dinis's four answers recorded; the top redrawn as C with the days"
+    },
+    {
+      "started": "2026-11-06T14:12Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "Algarve Evolution sprint: design, six fixes, the 14:30 check"
+    },
+    {
+      "started": "2026-11-06T14:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "Algarve: deploy stuck at v0.1.269 reported; designer.experiments@'s badge taken"
+    },
+    {
+      "started": "2026-11-06T15:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "Algarve before and after; spec check of v0.1.280; the badge spec taken"
+    },
+    {
+      "started": "2026-11-06T16:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the daily newsletter's design; a day's graph root taken"
+    },
+    {
+      "started": "2026-11-06T17:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "C checked live; six AI infographics on the front page (1.15 USD)"
     }
   ],
   "key": "designer-promptugal-2 (session 1's designer-promptugal superseded 04:45 UTC)"

@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: hourly at :37 UTC; observe mode; hook and policy edits refused by the session permission system at 13:5x (self-modification)",
-  "updated": "2026-11-06T13:55Z",
+  "updated": "2026-11-06T17:45Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -18,6 +18,7 @@
     "v1.7.0 (12:38): content/newsroom/decisions/ for every agent (CLAUDE.md, Decisions are pages); dev@'s tests; hook pin checked"
   ],
   "next": [
+    "R12, the comms protocol (Dinis ~16:00): into policies.json and every ABP once edits are allowed again",
     "Write abp@'s open questions as one decision page under content/newsroom/decisions/",
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line",
     "Read the first run reports at 05:37; tighten and propose relaxations",
@@ -95,6 +96,30 @@
       "outcome": "partial",
       "release": "this wake's",
       "line": "24 runs, 486 actions in mandate, 0 breaches; backup@'s Drive use verified as granted; policy edits refused by the permission system"
+    },
+    {
+      "started": "2026-11-06T14:38Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "37 runs, 503 actions in mandate, 0 breaches; backup@'s env was names only; still blocked on editing the hooks"
+    },
+    {
+      "started": "2026-11-06T15:46Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "the comms protocol adopted as R12 (pending: edits refused); 15:37 wake: quiet, nothing pushed"
+    },
+    {
+      "started": "2026-11-06T16:37Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "16 runs, 533 actions in mandate, 0 breaches; security@'s transcript reading is 233 of 252 observed calls"
+    },
+    {
+      "started": "2026-11-06T17:38Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "14 runs, 170 actions in mandate, 0 breaches; the sgk_ key shape missing from the gate and the hook, to dev@"
     }
   ]
 }

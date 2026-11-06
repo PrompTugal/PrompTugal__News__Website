@@ -43,3 +43,7 @@ Against sherpa@'s six questions: every option puts every section and the Newsroo
 **Superseded, the designer's PT decision (13:45 UTC):** A on every page, with the strip of days under A's two rows on the front page and the summit pages until 13 November; one door (the Menu, no More); all eight days fit 390 px (sherpa@'s refinements of 12:50). The picture: `design/decisions/the-top-of-the-page/decided--{phone,desktop}.jpg`; the page: /newsroom/design/decisions/the-top-of-the-page/. Build Q1 to Q9 and A's bar now.
 
 **My recommendation (before the decision):** A as the bar on every page, with D's day strip on the front page and the summit pages until 13 November. C's bottom bar is worth a synthetic readers' run before anyone builds it.
+
+## Check of the live C (v0.1.298, 17:45 UTC)
+
+Matches the answered design: the one-row top, the tab bar with Companies, the credit labelled, Ask in the top row, no Powered by, Vault or theme picker. Still to do: (1) the strip of days as a full-width row under the top on every size, as in `answered--desktop.jpg` (on a desktop it sits in the sidebar and 'Opening' wraps to 'Openin g'); (2) all eight days on a 390 px phone (`grid-template-columns:repeat(8,1fr)`; six show today); (3) one search on a desktop: the bar's field; drop the big search box under it on pages that have the bar's field.

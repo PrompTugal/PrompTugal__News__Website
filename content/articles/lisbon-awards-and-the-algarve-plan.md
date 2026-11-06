@@ -58,8 +58,10 @@ A suggestion: founders building AI for tourism, and investors looking beyond Lis
 - Portugal Startup News, "Winners announced for 2026 Entrepreneurship Awards by Unicorn Factory Lisboa", 27 October 2026, read 6 November 2026: <https://portugalstartupnews.com/2026/10/27/winners-announced-for-2026-entrepreneurship-awards-by-unicorn-factory-lisboa/>
 - Portugal Startup News, "Algarve Evolution aims to support 500 companies and help create 150 startups by 2032 in push beyond tourism", 1 November 2026, read 6 November 2026: <https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/>
 - Instituto Superior Técnico, its plans for Web Summit 2026 (RTBeamTech among its spin-offs), updated 3 November 2026, read 6 November 2026: <https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/>
-- From the curator's map: S7, `desks/curator/2026-11-04-1945.json`. Its three funding items (Granter, Seamoretech, Intuitivo) are in [our article S4](from-pitch-to-new-markets.html).
+- Found by our research desk (Vicky Wang's curator agent), 4 November 2026. Its three funding items (Granter, Seamoretech, Intuitivo) are in [our article on Portuguese startups raising to go abroad](from-pitch-to-new-markets.html).
 
 ## Who made this
 
-Storyline S7 on the curator's candidates page (curator@web-summit.vicky). No desk had drafted it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the curator's sources, each opened and read in full that day; the funding items went into S4. It has not been through Vicky's reviewer. Signed with that agent's key.
+One of the story ideas our research desk (curator@web-summit.vicky, Vicky Wang's curator agent) proposed. No other writer had taken it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the research desk's sources, each opened and read in full that day; the funding items went into our article on Portuguese startups raising to go abroad. No second agent reviewed it before it went live. Signed with that agent's key.
+
+No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).

@@ -12,7 +12,7 @@ summary: "The pieces of technology this team has made work, packaged as pieces o
 | **Partly runs** | it works with a limit, stated on its card |
 | **Designed, not built** | described and costed; what we can do now is a bespoke job |
 
-**19 products on three shelves.** Identity and trust: 6. Running agents: 5. Publishing, data and events: 8.
+**20 products on three shelves.** Identity and trust: 6. Running agents: 5. Publishing, data and events: 9.
 
 | Product | How much runs | Say it like this |
 |---|---|---|
@@ -26,6 +26,7 @@ summary: "The pieces of technology this team has made work, packaged as pieces o
 | [A team of agents run like a newsroom](#agent-team) | Partly runs | "I like how you manage your agents: who owns what, who reviews whom, and how you swap one out." |
 | [Invented readers test your pages](#invented-readers) | Runs today | "I like that your agents tested the site as a founder, a CISO and a journalist would, and told you what lost them." |
 | [A second agent that checks what the first one commits](#commit-reviewer) | Partly runs | "I like that a separate agent checks what the others commit, and that you know which key lives where." |
+| [A personalisation and event management platform, for your event](#event-platform) | Partly runs | "I want an event where every attendee gets their own schedule, saved on all their devices, and a debrief afterwards." |
 | [Publish a site like this one, that people and AI both read](#publish-a-site) | Runs today | "I want to publish a website like this, where every change is checked and versioned, and AI can read it." |
 | [A database of your market where every fact has its source](#sourced-knowledge-graph) | Runs today | "I want a database of my market where every fact has a source and a date, and I can see how things connect." |
 | [An event site where every session, speaker and company is linked](#event-site) | Runs today | "I want an event site where every session, speaker, stage and company is a linked page, with data behind it." |
@@ -213,6 +214,20 @@ The multi-pass method: one agent maps the subject, another finds the evidence, a
 ## Publishing, data and events {#shelf-publishing}
 
 *Making a site, a data set or an event that people and machines can use.*
+
+### A personalisation and event management platform, for your event {#event-platform}
+
+**Partly runs.** "I want an event where every attendee gets their own schedule, saved on all their devices, and a debrief afterwards."
+
+The whole of what this team is making for the Web Summit week, offered for other events once it is right for this one (Dinis, 6 November 2026: "something that we could sell for other events, but let's get it right for this event"): the agenda as linked data, a schedule made for each person from who they say they are, a passkey vault so it follows them from browser to tablet, and a debrief of what happened for them afterwards, each point with its source.
+
+- **Today:** The agenda and event pages run (more than 200 items, past editions as data). The passkey vault is built and the personalisation is designed: no code yet for personas, schedule or debrief. It is being made right for this summit first.
+- **The limits:** Not for sale as a product yet: it is sold as a bespoke piece of work until this summit has shown that it works. The vault cannot be created on the live site until an access key is issued.
+- **See it:** [summit/agenda.html](https://promptugal.news/summit/agenda.html), [account/vault.html](https://promptugal.news/account/vault.html), [board/guidance/2026-11-06-pt-decisions-passkey-and-the-platform.md](https://promptugal.news/board/guidance/2026-11-06-pt-decisions-passkey-and-the-platform.md)
+- **Starter (£500):** Your schedule turned into an agenda site, and a hand-made personal schedule for one person or delegation from it.
+- **Team (£1,500):** The agenda site, a persona picker for three to five personas saved in the browser, printable schedules, and the passkey vault when it is ready.
+- **Build (£5,000):** The full platform made for your event: agenda, personalisation across devices, debrief, and a hand-over so you can run the next edition.
+- **Would you buy this?** What would make an attendee of your event open a personal schedule every morning, and would they pay for it?
 
 ### Publish a site like this one, that people and AI both read {#publish-a-site}
 

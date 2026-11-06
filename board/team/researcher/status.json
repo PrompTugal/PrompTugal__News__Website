@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06T13:40Z",
-  "state": "running: key made, entry in board/keys.json",
+  "updated": "2026-11-06T17:40Z",
+  "state": "running: Algarve sprint file pushed; blocked on the inbox tool",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
     "round 1b: ANJE regulation read as text; Algarve Evolution confirmed as project partner and jury member for the 24 Algarve startups at Web Summit 2025",
@@ -10,21 +10,24 @@
     "round 4: no dated Nov 2026 Algarve Evolution event found on Luma or Meetup; no ATH Summit 2026 listing",
     "round 5: algarveevolution.pt reachable via the www host; home page and the three listed events read at source; organisers and partners recorded; only DevFest Lagos names Algarve Evolution as partner",
     "round 6: leadership by public role (president 2024-2027, outgoing president, executive director) from two dated postal.pt articles; Portugal page already carries the organiser correction",
-    "desks/researcher/algarve-partners-round-1.md: UAlg and Algarve STP profiled from read sources; NERA, AMAL, ANJE only from summaries (marked); a wrong Aug 2026 TecParques date corrected to Feb 2025"
+    "desks/researcher/algarve-partners-round-1.md: UAlg and Algarve STP profiled from read sources; NERA, AMAL, ANJE only from summaries (marked); a wrong Aug 2026 TecParques date corrected to Feb 2025",
+    "algarve-evolution-history.md (by year, read vs summary), centres-of-gravity-evidence-round-1.md (Google Cloud partner, Amazon press conference 11 Nov; no AWS or Microsoft found on page 1)",
+    "14:17 wake: first summit (2022) read at source via econews.pt (Lusa); Vanessa Nascimento named for Algarve Evolution",
+    "15:14 wake: AMAL, NERA, ANJE profiled from their own sites (AMAL: 16 municipalities listed)",
+    "16:17 wake: centres of gravity round 2: Microsoft past-partner only, no AWS found, speakers page not exhaustive; proposed a per-company batch of 20",
+    "17:14 wake: past-summits round 1 (Lisbon 2016 to 2025, numbers as reported, read vs summary marked; a 2025 vs 2024 record conflict flagged)"
   ],
   "next": [
-    "NERA, AMAL, ANJE from their own pages",
-    "Algarve startups at Web Summit Lisbon 2026 (ANJE call, if any)",
-    "past summits research",
-    "free-licence photos once Dinis has the yeses"
+    "websummit.com blog posts with the final numbers (2023, 2024, 2025) and the archive pages with agendas and speakers",
+    "per-company cloud evidence once the 20 companies are named",
+    "Algarve Tech Hub Summit 2023 and 2025 at source"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
   "asks": [
-    "Algarve Evolution's own site returned 503: if you meet them Saturday, ask for the leadership and member list we may publish, and their yes for each named person",
-    "conductor@: a lane in board/inbox.json and an inbox board/inboxes/researcher.json (key now on dev); abp@: a grant for researcher@ in board/abp/policies.json (desks/researcher/, board/team/researcher/, board/runs/researcher/, my key entry)",
-    "Dinis: confirm the operator link for researcher-promptugal when convenient",
-    "Dinis: on Saturday, ask Algarve Evolution's president and executive director for their yes to be named (roles only: president 2024 to 2027 as reported, executive director), and who sits on the board today"
+    "Dinis: I cannot install the inbox tools: my `pip install sgit-ai==0.27.0` was denied by the session's permission classifier (14:15 UTC), so I cannot drain my inbox or write to other agents' inboxes (agent_inboxes.py fails: no module sgit_ai). Please allow the install in this session, or whoever can fix it: the environment's setup script covers new sessions only",
+    "Dinis: for the 15:00 meeting, ask how Antonio Guerreiro wants to be named (no source gives 'Antonio Pinto Guerreiro'), the founding date (2018 as the organisation says, 12 Sep 2019 as presented), the current board and the member list, and their yes for each person named",
+    "conductor@ or ontologist@: which 20 companies for the per-company cloud evidence (partner and customer pages for AWS, Google, Microsoft)"
   ],
   "notes": [
     "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)",

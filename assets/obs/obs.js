@@ -31,7 +31,7 @@
             if (dnt) { s.append(' · Page views: off (Do Not Track or Global Privacy Control is on). ', a); row.appendChild(s); return }
             const b = document.createElement('button'); b.type = 'button'; b.style.cssText = 'font:inherit;background:none;border:0;padding:0;text-decoration:underline;cursor:pointer;color:inherit'
             const t = document.createTextNode('')
-            const draw = () => { t.textContent = paused() ? ' · Page views: paused on this device. ' : ' · Page views and reading time are counted (no IP, no cookie; public). '; b.textContent = paused() ? 'Resume' : 'Pause' }
+            const draw = () => { t.textContent = paused() ? ' · Page views: paused on this device. ' : ' · Page views, reading time and your town are counted, publicly. To find the town your browser asks ipapi.co or ipwho.is, which see your IP address; we keep no IP and set no cookie. '; b.textContent = paused() ? 'Resume' : 'Pause' }
             b.onclick = () => { LS.set('off', paused() ? null : '1'); draw() }
             s.append(t, b, ' · ', a); draw(); row.appendChild(s)
         }
@@ -89,6 +89,10 @@
                 screen: w < 600 ? 'phone' : w < 1000 ? 'tablet' : 'desktop', tz: (Intl.DateTimeFormat().resolvedOptions().timeZone || '') }
             if (agent) e.agent = agent
             if (via) e.via = via
+            // an A/B test (Dinis, 6 November 2026, 13:20: "A/B testing when needed ... on the website"): the variant this page
+            // was shown, from <html data-variant> or <meta name="variant">, set by whoever runs the test; no new identifier
+            const H = document.documentElement.dataset, vr = H.variant || (document.querySelector('meta[name="variant"]') || {}).content || (H.top ? 'top-' + H.top : '')   // dev@'s A/B of the top: <html data-top="c|a">
+            if (/^[A-Za-z0-9._-]{1,40}$/.test(vr)) e.variant = vr
             return e
         }
 

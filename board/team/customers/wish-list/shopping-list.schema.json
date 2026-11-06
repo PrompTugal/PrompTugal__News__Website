@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A partner's wish list, as the interview prompt asks the AI to write it (version 1)",
+  "description": "What comes back from the wish-list interview (board/team/customers/wish-list/prompt-template.md). No email address, phone number or private detail belongs in any field; a person is given by role only. may_publish decides what the page may show of it.",
+  "type": "object",
+  "required": ["version", "organisation", "date", "corrections", "features", "may_publish"],
+  "properties": {
+    "version": { "const": 1 },
+    "organisation": { "type": "string" },
+    "role": { "type": "string", "description": "the speaker's public role" },
+    "date": { "type": "string", "description": "ISO date of the interview" },
+    "language": { "type": "string" },
+    "corrections": { "type": "array", "items": { "type": "object", "required": ["where", "wanted"], "properties": { "where": { "type": "string", "description": "the page and section" }, "now": { "type": "string" }, "wanted": { "type": "string", "description": "the wording they want" }, "source": { "type": "string", "description": "a public URL, if they have one" } } } },
+    "features": { "type": "array", "items": { "type": "object", "required": ["title", "why", "priority"], "properties": { "title": { "type": "string" }, "for_whom": { "type": "string" }, "why": { "type": "string" }, "priority": { "enum": ["must", "should", "nice"] }, "example": { "type": "string", "description": "a site or tool they like" }, "kind": { "enum": ["page", "data", "event", "tool", "private space", "other"] } } } },
+    "people": { "type": "array", "items": { "type": "object", "required": ["role"], "properties": { "role": { "type": "string", "description": "a role, never a name or a contact" }, "could_add": { "type": "string" } } } },
+    "questions": { "type": "array", "items": { "type": "string" } },
+    "may_publish": { "type": "object", "required": ["answer"], "properties": { "answer": { "enum": ["yes", "part", "no"] }, "notes": { "type": "string" } } }
+  }
+}

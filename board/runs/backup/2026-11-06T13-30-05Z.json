@@ -1,0 +1,88 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "backup@PrompTugal.dinis",
+ "run": "2026-11-06T13-30-05Z",
+ "started": "2026-11-06T13:30:05.526Z",
+ "ended": "2026-11-06T14:12:12Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-06T13:30:05.526Z",
+   "chars": 507,
+   "sha256": "09f2290d5233178c",
+   "head": "This is very important. Your backups should be done using sgit files, so sgit vaults, where you should be using the new pack mode. See the documentation, because that A makes everything smaller, and t"
+  },
+  {
+   "t": "2026-11-06T14:11:39.095Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-06T14:11:38.621Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 17,
+  "by_kind": {
+   "web": 2,
+   "shell": 8,
+   "other": 3,
+   "git": 2,
+   "connector": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R3": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 16,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-06T13:32:05.649Z",
+    "tool": "mcp__Google_Drive__update_file",
+    "rule": "R3",
+    "what": "mcp__Google_Drive__update_file is a connector (Google_Drive): no agent uses a connector unless Dinis grants it in writing in board/abp/policies.json",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 17,
+  "in_mandate": 16,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

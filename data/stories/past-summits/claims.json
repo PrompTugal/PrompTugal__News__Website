@@ -4,9 +4,229 @@
   "kept_by": "dev.data@PrompTugal.dinis",
   "updated": "2026-11-06",
   "claims": [
-    {"id": "c01", "text": "Web Summit's organisers announced in September 2015 that the event would move from Dublin to Lisbon from 2016.", "kind": "fact", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "The Web Summit in Dublin will be no more from 2016 with the organisers confirming that the event is to up sticks and move to Lisbon", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["event:web-summit-lisbon-2016", "organisation:web-summit"]},
-    {"id": "c02", "text": "The organisers cited infrastructure as one of their reasons for leaving Dublin (as Silicon Republic reports it).", "kind": "fact", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "with the organisation citing infrastructure as one of the reasons for its decision", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["organisation:web-summit"]},
-    {"id": "c03", "text": "Founder Paddy Cosgrave said the move was made to take the next step in international growth.", "kind": "fact", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "We are going because we want to take the next step on our journey to international growth.", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["organisation:web-summit"]},
-    {"id": "c04", "text": "The article reports a venue in Lisbon with capacity for more than 80,000 attendees, and expected more than 30,000 people at the 2015 edition in Dublin's RDS.", "kind": "estimate", "source": "siliconrepublic-2015-09-23-move-to-lisbon", "quote": "This November, the Web Summit expects more than 30,000 people to attend the event in the RDS.", "published": "2015-09-23", "read_on": "2026-11-06", "about": ["event:web-summit-dublin-2015", "event:web-summit-lisbon-2016"]}
+    {
+      "id": "c01",
+      "text": "Web Summit's organisers announced in September 2015 that the event would move from Dublin to Lisbon from 2016.",
+      "kind": "fact",
+      "source": "siliconrepublic-2015-09-23-move-to-lisbon",
+      "quote": "The Web Summit in Dublin will be no more from 2016 with the organisers confirming that the event is to up sticks and move to Lisbon",
+      "published": "2015-09-23",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2016",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "The organisers cited infrastructure as one of their reasons for leaving Dublin (as Silicon Republic reports it).",
+      "kind": "fact",
+      "source": "siliconrepublic-2015-09-23-move-to-lisbon",
+      "quote": "with the organisation citing infrastructure as one of the reasons for its decision",
+      "published": "2015-09-23",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "Founder Paddy Cosgrave said the move was made to take the next step in international growth.",
+      "kind": "fact",
+      "source": "siliconrepublic-2015-09-23-move-to-lisbon",
+      "quote": "We are going because we want to take the next step on our journey to international growth.",
+      "published": "2015-09-23",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "The article reports a venue in Lisbon with capacity for more than 80,000 attendees, and expected more than 30,000 people at the 2015 edition in Dublin's RDS.",
+      "kind": "estimate",
+      "source": "siliconrepublic-2015-09-23-move-to-lisbon",
+      "quote": "This November, the Web Summit expects more than 30,000 people to attend the event in the RDS.",
+      "published": "2015-09-23",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-dublin-2015",
+        "event:web-summit-lisbon-2016"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "On the first Lisbon edition's opening night in 2016, ticket holders were left outside the venue.",
+      "kind": "fact",
+      "source": "thejournal-2016-11-07-queue",
+      "quote": "People who paid thousands for tickets left waiting outside Web Summit",
+      "published": "2016-11-07",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2016"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "TheJournal.ie reported that Web Summit's website confirmed the 2016 edition sold out, with 53,056 people attending.",
+      "kind": "fact",
+      "source": "thejournal-2016-11-07-queue",
+      "quote": "The Web Summit website confirms that the event is sold out with 53,056 people attending.",
+      "published": "2016-11-07",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2016"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "As TheJournal.ie recalls it, the organiser cited unreliable Wi-Fi at the RDS, traffic management, public transport and hotel costs as factors in leaving Dublin.",
+      "kind": "fact",
+      "source": "thejournal-2016-11-07-queue",
+      "quote": "he cited unreliable WiFi at the RDS, issues with traffic management, public transport and hotel costs as influential factors",
+      "published": "2016-11-07",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-dublin-2015",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "In 2016 the late-late ticket prices ran from 1,000 euros (exhibition floor only) to 3,000 (General Attendee), 4,245 (Premium) and 5,245 (Platinum).",
+      "kind": "fact",
+      "source": "thejournal-2016-11-07-queue",
+      "quote": "Late late ticket prices started at €1,000 for exhibition floor only and rose to €3,000 for a General Attendee, €4,245 for Premium and €5,245 for the Platinum ticket.",
+      "published": "2016-11-07",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2016"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "In November 2017 Portugal's Prime Minister criticised a Web Summit dinner held at the National Pantheon in Lisbon as 'offensive'; the organiser apologised.",
+      "kind": "fact",
+      "source": "thejournal-2017-11-14-pantheon",
+      "quote": "Paddy Cosgrave has apologised after Portugal’s Prime Minister criticised him for holding an “offensive” summit dinner at Lisbon’s National Pantheon",
+      "published": "2017-11-14",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2017",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "The Prime Minister said laws would be amended to prevent the Pantheon being used for similar events (as TheJournal.ie reports it).",
+      "kind": "fact",
+      "source": "thejournal-2017-11-14-pantheon",
+      "quote": "Laws will be amended to prevent the Pantheon from being used for similar events in the future, according to Costa",
+      "published": "2017-11-14",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2017"
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "In August 2018 Web Summit's founder withdrew an invitation to Marine Le Pen to the 2018 Lisbon edition, after earlier defending it.",
+      "kind": "fact",
+      "source": "thejournal-2018-08-15-le-pen",
+      "quote": "has withdrawn an invite for French far-right leader Marine Le Pen to its annual tech conference later this year, after earlier defending the decision to invite her",
+      "published": "2018-08-15",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2018",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "The founder gave as his reason that her presence would be disrespectful to the host country and to some attendees.",
+      "kind": "fact",
+      "source": "thejournal-2018-08-15-le-pen",
+      "quote": "her presence is disrespectful in particular to our host country",
+      "published": "2018-08-15",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2018"
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "The 2018 Lisbon edition was scheduled for 5 to 8 November.",
+      "kind": "fact",
+      "source": "thejournal-2018-08-15-le-pen",
+      "quote": "which will be held in the Portuguese capital from 5-8 November",
+      "published": "2018-08-15",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2018"
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "Web Summit's CEO and co-founder resigned on 21 October 2023 with immediate effect, saying his personal comments had become a distraction from the event.",
+      "kind": "fact",
+      "source": "rte-2023-10-21-cosgrave-resigns",
+      "quote": "I am resigning as CEO of Web Summit with immediate effect.",
+      "published": "2023-10-21",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2023",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "Google and Meta withdrew from the 2023 edition, following Intel and Siemens, after the CEO's remarks about Western support for Israel (as RTE reports it).",
+      "kind": "fact",
+      "source": "rte-2023-10-21-cosgrave-resigns",
+      "quote": "tech giants Google and Meta became the latest companies to withdraw from the Web Summit",
+      "published": "2023-10-21",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2023",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c16",
+      "text": "Web Summit said the 2023 edition in Lisbon would go ahead as planned.",
+      "kind": "fact",
+      "source": "rte-2023-10-21-cosgrave-resigns",
+      "quote": "Web Summit 2023 in Lisbon will go ahead as planned.",
+      "published": "2023-10-21",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2023"
+      ]
+    },
+    {
+      "id": "c17",
+      "text": "Web Summit appointed Katherine Maher, previously chief executive of Wikipedia, as its new chief executive, two weeks before the 2023 Lisbon conference.",
+      "kind": "fact",
+      "source": "rte-2023-10-30-new-ceo",
+      "quote": "Web Summit has appointed Katherine Maher as its new chief executive",
+      "published": "2023-10-30",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2023",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c18",
+      "text": "RTE reported that the departing CEO continued to own 81% of the company.",
+      "kind": "fact",
+      "source": "rte-2023-10-30-new-ceo",
+      "quote": "Paddy Cosgrave continues to own 81% of the company.",
+      "published": "2023-10-30",
+      "read_on": "2026-11-06",
+      "about": [
+        "organisation:web-summit"
+      ]
+    }
   ]
 }

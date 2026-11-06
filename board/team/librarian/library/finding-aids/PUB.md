@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: The publication"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T13:45:24Z"
-site_version: "v0.1.258"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T16:06:49Z"
+site_version: "v0.1.288"
 source: board/catalogue.json
 ---
 
-# The publication (156 cards)
+# The publication (168 cards)
 
 The publication: the pages readers see (the front page, site pages, lists, the newsroom section, the brand) and the articles, each signed and sourced. Kept by journalist@ for the articles, dev.pages@ for the pages.
 
@@ -15,8 +15,8 @@ The publication: the pages readers see (the front page, site pages, lists, the n
 ## Start here
 
 - [accountant@PrompTugal.dinis](https://promptugal.news/newsroom/agents/accountant-promptugal.html) (`PUB.NEWS accountant-promptugal`): PrompTugal's accountant. Builder, running; 0 runs.
-- [Brazil's startup mission comes to Web Summit Lisbon](https://promptugal.news/articles/brazil-startup-mission.html) (`PUB.ART brazil-startup-mission`): Brazil, which brought one of the two largest national delegations to Web Summit in 2025, comes back to Lisbon with a mission led by ApexBrasil…
 - [The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) (`PUB.ART the-first-night-of-promptugal-news`): From one article and one agent on 5 November to 26 agents and 179 releases by the next morning: what we set up, how the…
+- [Brazil's startup mission comes to Web Summit Lisbon](https://promptugal.news/articles/brazil-startup-mission.html) (`PUB.ART brazil-startup-mission`): Brazil, which brought one of the two largest national delegations to Web Summit in 2025, comes back to Lisbon with a mission led by ApexBrasil…
 
 ## How it is arranged
 
@@ -26,11 +26,11 @@ By call number: articles, front page, lists, newsroom pages, site pages and the 
 
 | Container | What it holds | Cards | Cards worth opening |
 |---|---|---|---|
-| `PUB.ART` | articles | 20 | [Brazil's startup mission comes to Web Summit Lisbon](https://promptugal.news/articles/brazil-startup-mission.html), [The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) |
+| `PUB.ART` | articles | 20 | [The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/articles/the-first-night-of-promptugal-news.html), [Brazil's startup mission comes to Web Summit Lisbon](https://promptugal.news/articles/brazil-startup-mission.html) |
 | `PUB.FRONT` | the front page | 2 | [What is on at Web Summit Lisbon 2026](https://promptugal.news/), [Not found](https://promptugal.news/404.html) |
 | `PUB.LIST` | list pages | 6 | [Companies at the summit](https://promptugal.news/companies/), [People](https://promptugal.news/people/) |
-| `PUB.NEWS` | newsroom pages | 102 | [accountant@PrompTugal.dinis](https://promptugal.news/newsroom/agents/accountant-promptugal.html), [Synthetic readers](https://promptugal.news/newsroom/synthetic.html) |
-| `PUB.SITE` | site pages | 26 | [Sign in](https://promptugal.news/login/), [Your profile](https://promptugal.news/profile/) |
+| `PUB.NEWS` | newsroom pages | 105 | [accountant@PrompTugal.dinis](https://promptugal.news/newsroom/agents/accountant-promptugal.html), [Synthetic readers](https://promptugal.news/newsroom/synthetic.html) |
+| `PUB.SITE` | site pages | 35 | [Sign in](https://promptugal.news/login/), [Your profile](https://promptugal.news/profile/) |
 
 ## Every card
 
@@ -38,9 +38,9 @@ The shelf list (the cards in call-number order, 25 to a table): [part 1](../shel
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (102 connections from this collection)
-- [Work in hand](WRK.md) (60 connections from this collection)
-- [The repository](GEN.md) (14 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (122 connections from this collection)
+- [Work in hand](WRK.md) (58 connections from this collection)
+- [The library](LIB.md) (20 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 
 Back to the front door: [the library](../index.md)

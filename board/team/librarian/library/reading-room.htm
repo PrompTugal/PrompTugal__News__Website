@@ -38,25 +38,42 @@
 .rr-note { padding: 8px 16px 20px; font: 400 13px/1.5 var(--sans); color: var(--ink-3); max-width: 80ch; }
 /* the explorer's own parts that the library graph does not use */
 .rr .gx-legend i { display: none; }
-.rr .gx-field:has(#gx-view) { display: none; }
 .rr .gx { margin: 0 0 12px; }
 .rr .gx > * { min-width: 0; }
 .rr .gx-caption { grid-column: 1 / -1; padding: 8px 16px; margin: 0; }
 .rr .gx-row, .rr .gx-actions, .rr .gx-depth, .rr .gx-field { flex-wrap: wrap; max-width: 100%; }
 .rr .gx-actions { display: flex; }
+.rr .chip .sw { display: inline-block; width: 9px; height: 9px; margin-right: 6px; border-radius: 50%; background: var(--ink-3); vertical-align: baseline; }
 @media (min-width: 900px) {
   .rr-top { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 0 24px; align-items: start; }
   .rr-right { padding-top: 22px; }
   .rr-lede { font-size: 15px; }
 }
-/* on a phone the picture comes straight after the view, and the controls after the picture */
+/* on a phone the drawn graph comes straight after the search: the head is compact, the doors and the graph menu move below the picture,
+   the controls follow the picture and the note comes last */
 @media (max-width: 899px) {
-  .rr .gx-caption { order: 0; }
+  .rr { display: flex; flex-direction: column; }
+  .rr-top { display: contents; }
+  .rr-left { display: contents; }
+  .rr-head { order: 0; padding-bottom: 2px; }
+  .rr-find { order: 1; }
+  .rr > .gx { order: 2; }
+  .rr-right { order: 3; }
+  .rr-note { order: 4; }
+  .rr .gx-caption { order: 0; padding: 6px 16px; font-size: 14px; line-height: 1.4; }
   .rr .gx-canvas { order: 1; }
   .rr .gx-bar { order: 2; }
   .rr .gx-side { order: 3; }
 }
-@media (max-width: 600px) { .rr .gx-canvas { height: 62vh; min-height: 340px; } }
+@media (max-width: 600px) {
+  .rr h1 { font-size: 26px; margin-bottom: 2px; }
+  .rr-lede { display: none; }
+  .rr-head { padding-top: 12px; }
+  .rr-find { padding-top: 6px; }
+  .rr-find input, .rr-find button { height: 40px; }
+  .rr-hint { margin-top: 4px; }
+  .rr .gx-canvas { height: 66vh; min-height: 360px; }
+}
 </style>
 </head>
 <body>
@@ -90,8 +107,8 @@
 <a class="chip" href="desk/index.md">Ask the desk</a>
 </nav>
 
-<section class="rr-views" aria-label="Choose a view">
-<label>View <select id="rr-view" aria-label="View"></select></label>
+<section class="rr-views" aria-label="Choose a graph">
+<label>Graph <select id="rr-view" aria-label="Graph"><option value="library">The library graph</option><option value="reality">The reality tree</option></select></label>
 <p class="rr-status" id="rr-status"></p>
 </section>
 </div>
@@ -101,7 +118,7 @@
 <div class="gx-bar">
 <form class="search gx-find" role="search" autocomplete="off"><label class="visually-hidden" for="gx-q">Find in the graph</label><svg class="s-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="gx-q" type="search" placeholder="Find a node in the graph" role="combobox" aria-expanded="false" aria-controls="gx-pop" aria-autocomplete="list"><button type="submit">Find</button><div class="search-pop" id="gx-pop" role="listbox" hidden></div></form>
 <div class="gx-row">
-<label class="gx-field"><span class="label">Preset</span><select id="gx-view" aria-label="Preset"><option value="">Preset view</option></select></label>
+<label class="gx-field"><span class="label">View</span><select id="gx-view" aria-label="View"><option value="">Custom view</option></select></label>
 <label class="gx-field"><span class="label">Layout</span><select id="gx-layout" aria-label="Layout"><option value="force">Force</option><option value="map">Map (whole graph)</option><option value="radial">Radial</option><option value="layered">Layered by world</option><option value="tree">Tree</option><option value="grid">Grid</option><option value="list">List</option></select></label>
 <span class="gx-field gx-depth" role="group" aria-label="Explore depth"><span class="label">Depth</span><button type="button" class="chip" data-deg="down" aria-label="One hop less">−</button><output id="gx-deg">1</output><button type="button" class="chip" data-deg="up" aria-label="One hop more">+</button><button type="button" class="chip" data-deg="max" aria-pressed="false" title="Everything connected">∞</button></span>
 <label class="gx-field"><span class="label">Top</span><select id="gx-topn" aria-label="Show the top"><option value="0">All</option><option>15</option><option>30</option><option>60</option><option>120</option><option>250</option></select><select id="gx-by" aria-label="Ranked by"><option value="pagerank">PageRank</option><option value="betweenness">betweenness</option><option value="degree">degree</option></select><select id="gx-what" aria-label="Of"><option value="nodes">nodes</option><option value="edges">edges</option></select></label>
@@ -141,82 +158,16 @@
   var json = function (u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + ': HTTP ' + r.status); return r.json(); }); };
   var hint = function (t) { var h = $('gx-hint'); if (h) h.textContent = t; };
 
-  /* ------------------------------------------------------------ the node shapes of the library, added to the explorer's style */
-  function extraStyle() {
-    var cs = getComputedStyle(gx), v = function (n, f) { return (cs.getPropertyValue(n) || '').trim() || f; };
-    var brand = v('--brand', '#006600'), soft = v('--brand-soft', '#e2eedf'), ink = v('--ink', '#121317'), ink2 = v('--ink-2', '#3f424a'),
-      ink3 = v('--ink-3', '#595c64'), panel = v('--panel', '#fffdf8'), paper2 = v('--paper-2', '#ece7db'), hair = v('--hair', '#d9d2c1'),
-      ok = v('--ok', '#2b6a3c'), warn = v('--warn', '#8a5200'), red = v('--brand-red', '#c52830');
-    var t = function (type, st) { return { selector: 'node[type = "' + type + '"]', style: st }; };
-    return [
-      t('collection', { shape: 'round-rectangle', 'background-color': soft, 'border-color': brand, 'border-width': 2, 'font-weight': 600 }),
-      t('agent', { shape: 'ellipse', 'background-color': ink, 'border-color': ink, 'font-weight': 600 }),
-      t('pass', { shape: 'round-rectangle', 'background-color': paper2, 'border-color': ink2, 'border-width': 2 }),
-      t('finding', { shape: 'ellipse', 'background-color': hair, 'border-color': ink3, 'font-size': 9 }),
-      t('decision', { shape: 'diamond', 'background-color': brand, 'border-color': brand, 'font-weight': 600 }),
-      t('idea', { shape: 'ellipse', 'background-color': panel, 'border-color': warn, 'border-width': 2, 'font-size': 9 }),
-      t('question', { shape: 'triangle', 'background-color': panel, 'border-color': red, 'border-width': 2 }),
-      t('desk', { shape: 'hexagon', 'background-color': paper2, 'border-color': ink2 }),
-      t('board', { shape: 'rectangle', 'background-color': panel, 'border-color': ink3, 'font-size': 10 }),
-      t('page', { shape: 'rectangle', 'background-color': panel, 'border-color': ink3, 'border-style': 'dashed', 'font-size': 10 }),
-      t('subject', { shape: 'tag', 'background-color': soft, 'border-color': ink3, 'font-size': 10 }),
-      t('root', { shape: 'star', 'background-color': brand, 'border-color': ink, 'font-weight': 700 }),
-      t('domain', { shape: 'round-rectangle', 'background-color': soft, 'border-color': brand, 'border-width': 2, 'font-weight': 700 }),
-      t('exists', { shape: 'ellipse', 'background-color': ok, 'border-color': ok, 'font-size': 9 }),
-      t('proposed', { shape: 'ellipse', 'background-color': panel, 'border-color': warn, 'border-style': 'dashed', 'border-width': 2, 'font-size': 9 }),
-      t('card', { shape: 'rectangle', 'background-color': panel, 'border-color': ink3, 'font-size': 9 })
-    ];
-  }
-  // the explorer sets its style from its own list (and again when the theme changes): the wrapper appends ours to every one of them
-  function patchCytoscape() {
-    var orig = window.cytoscape;
-    if (typeof orig !== 'function') return;
-    var wrapped = function (opts) {
-      if (opts && Array.isArray(opts.style)) { try { opts.style = opts.style.concat(extraStyle()); } catch (e) { /* the explorer's own look stays */ } }
-      var cy = orig.apply(this, arguments);
-      var s0 = cy.style;
-      cy.style = function (a) {
-        if (arguments.length === 1 && Array.isArray(a)) { try { a = a.concat(extraStyle()); } catch (e) { /* as above */ } }
-        return s0.apply(cy, arguments.length ? [a] : []);
-      };
-      return cy;
-    };
-    Object.keys(orig).forEach(function (k) { wrapped[k] = orig[k]; });
-    wrapped.prototype = orig.prototype;
-    window.cytoscape = wrapped;
-  }
-
-  /* ------------------------------------------------------------ the presets: the library's own, in place of the site's */
-  var presets = {};
-  function setPresets(j) {
-    presets = (j && j.presets) || {};
-    var keys = Object.keys(presets);
-    if (E && Array.isArray(E.PRESETS)) {
-      E.PRESETS.length = 0;
-      keys.filter(function (k) { return presets[k].data === which; }).forEach(function (k) { E.PRESETS.push({ key: k, label: presets[k].label, state: presets[k].state }); });
-    }
+  /* ------------------------------------------------------------ the graph switch: the two graphs are two files, so the page reloads with the other
+     (the explorer opens on the first preset of the file's own presets[], its looks come from types[].shape and types[].color) */
+  function setSwitch() {
     var sel = $('rr-view');
-    sel.textContent = '';
-    var groups = { library: 'The library graph', reality: 'The reality tree' };
-    ['library', 'reality'].forEach(function (d) {
-      var og = document.createElement('optgroup'); og.label = groups[d];
-      keys.filter(function (k) { return presets[k].data === d; }).forEach(function (k) { var o = mk('option', null, presets[k].label); o.value = k; og.appendChild(o); });
-      if (og.children.length) sel.appendChild(og);
-    });
+    sel.value = which;
     sel.addEventListener('change', function () {
-      var k = sel.value, p = presets[k];
-      if (!p) return;
-      if (p.data === which) {
-        if (window.NRGraphExplorer) window.NRGraphExplorer.ready.then(function (api) { if (api) api.preset({ key: k }); });
-      } else {
-        // the other graph is another file: reload with it and the preset (the explorer reads ?preset=)
-        location.href = location.pathname + '?preset=' + encodeURIComponent(k) + '#data=' + p.data;
-      }
+      // no ?preset or view of the other graph is carried over
+      if (location.search) location.href = location.pathname + '#data=' + sel.value;
+      else { location.hash = '#data=' + sel.value; location.reload(); }
     });
-    var want = /[?&]preset=([\w-]+)/.exec(location.search);
-    var first = keys.filter(function (k) { return presets[k].data === which; })[0];
-    if (!want && which === 'reality' && first) { try { history.replaceState(null, '', location.pathname + '?preset=' + first + location.hash); } catch (e) { /* a sandboxed frame */ } want = [0, first]; }
-    sel.value = want && presets[want[1]] ? want[1] : first || '';
   }
 
   /* ------------------------------------------------------------ the filter chips, from the graph's own worlds, types and verbs */
@@ -226,12 +177,13 @@
       items.forEach(function (it) {
         var b = mk('button', 'chip', it.label); b.type = 'button'; b.setAttribute(attr, it.id); b.setAttribute('aria-pressed', 'true');
         if (it.title) b.title = it.title;
+        if (it.color && /^#[0-9a-fA-F]{3,8}$/.test(it.color)) { var sw = mk('i', 'sw'); sw.style.background = it.color; b.insertBefore(sw, b.firstChild); }
         if (withCount) b.appendChild(mk('span', 'n'));
         box.appendChild(b);
       });
     };
     add('rr-worlds', g.worlds, 'data-world', false);
-    add('rr-types', g.types, 'data-type', true);
+    add('rr-types', g.types, 'data-type', true);   // each chip wears its type's own colour
     add('rr-verbs', g.verbs.map(function (v) { return { id: v.verb, label: v.verb.replace(/_/g, ' '), title: v.reads }; }), 'data-verb', true);
   }
 
@@ -296,22 +248,38 @@
   }
 
   /* ------------------------------------------------------------ start */
+  var phone = window.matchMedia && window.matchMedia('(max-width: 600px)').matches;
+  // on a phone the explorer's labels are drawn larger (it keeps one size for all screens): a rule added to its own Cytoscape style, through the
+  // instance Cytoscape keeps on the container; the explorer resets its style on a theme change, so the rule is put back then
+  function phoneLabels() {
+    var el = $('gx-cy'), cy = el && el._cyreg && el._cyreg.cy;
+    if (!cy || !phone) return;
+    var apply = function () { try { cy.style().selector('node').style({ 'font-size': 17, 'text-max-width': 96 }).selector('node.gx-focus, node.anchor').style({ 'font-size': 18 }).update(); } catch (e) { /* the explorer's own size stays */ } };
+    apply();
+    var again = function () { setTimeout(apply, 60); };
+    window.addEventListener('promptugal:theme-changed', again);
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    if (mq.addEventListener) mq.addEventListener('change', again);
+  }
   function startExplorer() {
+    // a phone opens on the 30 most connected cards (the first preset, the 60, is for a screen that can hold them); a link with a view of its own is kept
+    if (phone && which === 'library' && !location.search) { try { history.replaceState(null, '', location.pathname + '?preset=overview-phone' + location.hash); } catch (e) { /* a sandboxed frame */ } }
     var s = document.createElement('script'); s.src = '/assets/graph/explorer.js';
     s.onerror = function () { hint('The site\'s graph explorer did not load (/assets/graph/explorer.js).'); };
     document.body.appendChild(s);
+    if (window.NRGraphExplorer) window.NRGraphExplorer.ready.then(phoneLabels);
+    else s.onload = function () { if (window.NRGraphExplorer) window.NRGraphExplorer.ready.then(phoneLabels); };
   }
   bindSearch();
+  setSwitch();
   json('cards.json').then(function (c) {
     cards = c; c.columns.forEach(function (n, i) { ix[n] = i; });
     render(search($('rr-q').value));
   }).catch(function (e) { $('rr-hint').textContent = 'The cards did not load: ' + e.message; });
   if (!E || typeof window.cytoscape !== 'function') { hint('The site\'s graph engine did not load; the data is in graph/library-graph.json.'); return; }
-  Promise.all([json('graph/presets.json').catch(function () { return null; }), json(DATASETS[which])]).then(function (r) {
-    setPresets(r[0]);
-    chips(r[1]);
-    $('rr-status').textContent = (which === 'reality' ? 'The reality tree: ' : 'The library graph: ') + r[1].counts.nodes + ' nodes and ' + r[1].counts.edges + ' connections, as at site ' + (r[1].version || 'unknown') + '.';
-    patchCytoscape();
+  json(DATASETS[which]).then(function (g) {
+    chips(g);
+    $('rr-status').textContent = (which === 'reality' ? 'The reality tree: ' : 'The library graph: ') + g.counts.nodes + ' nodes and ' + g.counts.edges + ' connections, as at site ' + (g.version || 'unknown') + '.';
     startExplorer();
   }).catch(function (e) { hint('The graph did not load: ' + e.message); });
 })();

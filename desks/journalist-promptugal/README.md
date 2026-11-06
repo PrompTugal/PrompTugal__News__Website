@@ -2,6 +2,71 @@
 
 Kept by journalist@PrompTugal.dinis, who owns `content/articles/`: each fact sourced with its URL and the date read, each article signed with the agent's session key. Newest run first.
 
+## Run of 6 November 2026, 17:26 UTC (hourly wake)
+
+**Done**
+
+- **Republished security@'s "What our agents say to each other, counted"** as a signed article, at its offer (security@ wrote it at Dinis's word). Its counts were checked against `board/team/security/comms/comms.json`. Every channel total matches, as do the conductor's 160 and the 64 claims of "Dinis's word". Three points are now clearer: the 160 leaves out scheduled wakes; one message, from late on 4 November, predates the stated window; and the 13 signed messages are security@'s own count. This desk added its own inbox's: 14, all signed and checked.
+- **The inbox drain, tried for real.** The inbox vault is cloned (the key went on stdin, and the read key sgit printed was masked) and all 17 messages are read. The drain's push fails, though, because sgit does not read `SG_SEND_ACCESS_TOKEN` from the environment. Using the token means putting it on sgit's command line, and security@'s S19 on that token is open for Dinis, so this desk has not used it. It has asked Dinis.
+
+**Not done, and why:** a hand-written newsletter for Saturday. `content/newsletter/` is outside this desk's grant, and the editions build from data anyway.
+
+## Run of 6 November 2026, 16:26 UTC (hourly wake)
+
+**Done**
+
+- The last part of this desk's work on the becoming-a-publication pass (`publication/2026-11-06-findings-round-3-fees-and-uk.md`):
+  - **ERC's fees** for a periodical, from Portaria 785/2009: 0.60 units of account for provisional registration, 0.10 for definitive, 0.20 to deposit the statute. Their euro value today, and whether the table has been amended since, are not established.
+  - **ERC's form** could not be read: its address returned a web page, not the PDF.
+  - **The UK route** is still unsourced: IPSO's site refused the request.
+- This desk's three rounds are done. The drafts wait on Dinis's decision and on designer@ and dev@ to place them.
+- Read: two new messages from dev@. The daily newsletter is built, and editions make themselves from data; a writer may replace one. They are left pending on the lane for the same reason as before.
+
+**Blocked, for Dinis** (unchanged): `content/about/` is outside this desk's grant; the inbox can be read but not drained (no SG/Send token).
+
+**Next:** Saturday's morning newsletter by hand (ready by 07:30 Lisbon); the Brazil project's rounds.
+
+## Run of 6 November 2026, 15:26 UTC (hourly wake)
+
+**Done**
+
+- **Replies, corrections and removal** (`publication/2026-11-06-reply-correction-removal-draft.md`, logged in the pass). It summarises the Press Law's right of reply and of correction (articles 24 to 27: who may ask, by when, at what length, how a reply is published, and when it may be refused). It also drafts a page that honours those rights whether or not the law binds us, and says what removal cannot undo (the public history, other people's copies), as security@'s condition asks. The response times and history rewrites need Dinis's yes.
+
+**Blocked, for Dinis** (unchanged): `content/about/` is outside this desk's grant; the inbox can be read but not drained (no SG/Send token).
+
+**Next:** ERC's current form and fee, and a source for the UK route; then the Brazil project.
+
+## Run of 6 November 2026, 14:26 UTC (hourly wake)
+
+**Done**
+
+- **A draft editorial statute** (`publication/2026-11-06-editorial-statute-draft.md`, logged in the pass). It is written to the Press Law's article 17, read in its consolidated text: orientation and objectives, the ethics of journalists, the good faith of readers. It has nine short points, and each describes what the site already does or what the board has decided. Under the law the director writes the statute and the owner ratifies it, so it is a proposal for Dinis. The four points that are new, and so need his yes, are listed at its foot.
+
+**Blocked, for Dinis** (unchanged): `content/about/` is outside this desk's grant; the inbox can be read but not drained (no SG/Send token).
+
+**Next:** the right to remove and of reply (Press Law articles 24 to 27); ERC's current form and fee; the UK route.
+
+## Run of 6 November 2026, 14:11 UTC (woken by the conductor's message)
+
+**Done**
+
+- **The inbox is read.** sgit-ai 0.27.0 is installed (the pinned version CLAUDE.md names). The credentials were opened with this desk's key and kept outside the repository, mode 0600, with nothing printed. All 14 messages were read, and every signature checks against `board/keys.json`.
+- **Seven synthetic findings are decided** (`board/team/journalist/status.json`, `decisions_on_findings`). Six are fixed in the articles:
+  - **F14:** every article this desk published now says no person read it before it went live, and that Dinis Cruz is responsible.
+  - **F30:** "Who made this" and the sources are in plain words: no story ids, file paths or "403".
+  - **F31:** the Virkkunen caveat is now in "In short".
+  - **F34:** the Unitree robots are described plainly.
+  - **F41 and F44:** the Brazil story's table is sourced and explained.
+  - **F42** is "later": it waits on the editors' address.
+- The 14 articles are re-signed. The Update notes on S2 and S9 are dated.
+
+**Blocked, for Dinis** (in `status.json`, under "Never blocked in silence")
+
+- **About and the disclosure** need rewriting on Dinis's decisions (The Cyber Boardroom, pounds; F06, F21), but `content/about/` is outside this desk's grant.
+- **The inbox can be read but not drained.** Marking messages processed pushes the inbox vault, which needs an SG/Send token this session does not have, so the 14 stay pending on the lane.
+
+**Noted:** the first-night debrief is already an article (the conductor's, `the-first-night-of-promptugal-news.md`), so the conductor's question to this desk is settled.
+
 ## Run of 6 November 2026, 13:26 UTC (hourly wake)
 
 **Done**

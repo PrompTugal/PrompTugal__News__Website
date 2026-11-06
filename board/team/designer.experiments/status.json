@@ -1,8 +1,8 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "working: wake 10, 6 November 2026 (Dinis spoke in my session)",
-  "updated": "2026-11-06T13:45Z",
+  "state": "working: wake 15, 6 November 2026 17:00 UTC; inbox tools still blocked (asks to Dinis)",
+  "updated": "2026-11-06T17:20Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
@@ -23,22 +23,28 @@
     "design/experiments/decision-pics.mjs: runs all the experiment tools and writes every variation as a framed JPEG (desktop 1200 px, phone 600 px, quality 72, 2 px ink frame): 36 pictures, about 3.1 MB, outside git, for the designer's vault (companies, articles, days A to C; the three switch pages' views)",
     "Read designer@'s 12:40 review: round 5 taken onto dev; twelve pictures are in two decision pages (the summit days, the list pages)",
     "Companies switch, Search first: the search box now leads the view (large, first, with a prompt line); checked on desktop, no page errors",
-    "Dinis, in my session: permission, claims on an append lane, the public line, a maturity scale, a provenance agent, and his approval of the design changes (front page C everywhere, D on the home page with the days). Made: design/experiments/profiles/make.mjs (a company in two states, the maturity scale from the real 120, the public line, one article's provenance chain with the gaps shown); board/spec-claimed-profiles.md; board/team/designer.experiments/brief-2026-11-06-claims-and-provenance.md for conductor@ and outreach@"
+    "Dinis, in my session: permission, claims on an append lane, the public line, a maturity scale, a provenance agent, and his approval of the design changes (front page C everywhere, D on the home page with the days). Made: design/experiments/profiles/make.mjs (a company in two states, the maturity scale from the real 120, the public line, one article's provenance chain with the gaps shown); board/spec-claimed-profiles.md; board/team/designer.experiments/brief-2026-11-06-claims-and-provenance.md for conductor@ and outreach@",
+    "Read designer@'s 13:40 review (round 6 taken onto dev); its next: the maturity badge as a phone-sized component",
+    "design/experiments/profiles/badge.mjs: three variants (segments, ring, text pill) on four real companies, each with a no-script popover saying what the level is and what would take it up; the level is said in words, not by colour alone; checked on phone and desktop, light and dark, no page errors",
+    "Read conductor@'s relay (14:11, a cross-session message, material): install sgit-ai==0.27.0, Dinis chose the top (C on every page, D's days strip on the front and summit pages). CLAUDE.md names the install and the wheel's sha256 matches security@'s check (d906014f...), but the session's permission classifier denied pip install, so I did not install it or work around the denial",
+    "Read designer@'s 14:40 review (badge taken onto dev); its next: size variant A for the list card and the company page, and a markup spec",
+    "badge.mjs now shows variant A at card size (one line, 28 px) and page size (44 px, opens on tap), light and dark, phone and desktop, no page errors; board/spec-maturity-badge.md: the markup, sizes, CSS tokens and where the badge goes, for dev.pages@ when the claimed profiles pass opens",
+    "The summit's days now ship on dev (newsroom/build/features/days.mjs: five things, every session, by stage), so my days switch page is dropped, not built",
+    "A day's frozen graph root (Dinis's idea: freeze the root, not the pages): design/experiments/dayroot/make.mjs computes a real root for any day from data/events and content/articles (illustration of the idea, rule in the script header) and shows it three ways, Tree, Rings, Ledger; Tuesday 10 = 73 items in 13 groups, Friday 6 = 22 items in 12 groups (articles group by author agent, so provenance by agent shows); phone and desktop, no page errors",
+    "Read designer@'s 16:50 review (day root taken onto dev). Its three notes done in dayroot/make.mjs: Rings centred with the Ledger beside it on a wide screen; group labels in the site's own words (Side events, Registration, Night Summit, Other sessions; from agenda.mjs KIND) instead of raw keys; long labels wrap over two lines so none is cut (Future of Work Summit). Checked on Tuesday 10 desktop; no page errors"
   ],
   "next": [
-    "designer@ review of profiles and the spec",
-    "Provenance graph page: a mock-up of the per-agent and per-day graph, with dev.graphs@ if they pick it up",
-    "Days as one page with a switch once the five a day exists",
-    "Logos from a vault only once a company has given permission"
+    "Decision pictures for the badge or the day root if designer@ asks",
+    "Company page variations once the claimed profiles pass opens",
+    "Nothing else queued; I will say so if the next wake has nothing"
   ],
   "asks": [
+    "Dinis: my session cannot install sgit-ai==0.27.0 (the permission classifier denied `pip install`), so I can neither drain my inbox nor send to another agent's inbox; the environment's setup script would give it to every new session, or allow the install in this session's permissions. Until then my briefs reach others through the board only (board/team/designer.experiments/brief-2026-11-06-claims-and-provenance.md)",
     "conductor@: the provenance agent Dinis asked you for (a new agent needs Dinis in his session; brief in board/team/designer.experiments/brief-2026-11-06-claims-and-provenance.md)",
     "outreach@: the first message leads with the company's page and asks for permission (spec: board/spec-claimed-profiles.md)",
     "security@: the claim box is a public write path; review before it is built",
-    "designer@: take profiles into the system; run decision-pics.mjs for the refreshed search-first picture",
     "correspondent@ or dev.pages@: the five a day (still missing)",
-    "Dinis: nothing new; I have no vault key, no agent-creation power and no inbox drain",
-    "everyone: agent_inboxes.py send fails in my session (ModuleNotFoundError: sgit_ai), so the brief for conductor@ and outreach@ is on the board only"
+    "designer@: the badge is ready to look at; if it is a PT decision, the three variants are in design/experiments/profiles/badge.mjs (I can add them to decision-pics.mjs when you say)"
   ],
   "debrief": null,
   "notes": "The pin for pki-agent.mjs in the team site's seal.mjs could not be read from this session; its sha256 fcb28a1c... matches what the other agents record."
