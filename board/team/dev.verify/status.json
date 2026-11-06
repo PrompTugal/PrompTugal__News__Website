@@ -1,8 +1,8 @@
 {
   "agent": "dev.verify@PrompTugal.dinis",
   "focus": "the verification pipeline: several models re-check every fact against its source; verified block on each page",
-  "state": "waiting on OpenRouter credit (none); page built without it",
-  "updated": "2026-11-06T10:25Z",
+  "state": "blocked: OpenRouter credit and the inbox tool install (both need Dinis)",
+  "updated": "2026-11-06T14:20Z",
   "done": [
     "Session key made, public half in board/keys.json (dev.verify-promptugal)",
     "newsroom/tools/verify/verify.mjs v0.1; first record board/team/dev.verify/records/europe-in-pavilion-4/ (10 claims, 3 models, all supported, 0.12 USD)",
@@ -20,8 +20,9 @@
     "Companies' facts.json after that; a headless browser for JavaScript pages"
   ],
   "asks": [
-    "Dinis: OpenRouter credit is below zero (-0.20 USD at 09:50); a top-up of a few USD lets the pipeline and designer@ continue",
-    "dev@: review the /newsroom/verification/ page; and whether the verified block should go inside each article (journalist@ would re-sign each) or stay beside it as now",
-    "journalist@: the flags; my inbox cannot be drained here (sgit_ai missing; pip install refused)"
+    "Dinis: OpenRouter credit is -0.20 USD of 135 USD (read 13:50): the pipeline cannot call a model; about 0.5 USD finishes re-running 7 articles on v0.3, more if checks are to continue for new articles",
+    "Dinis: the permission check (auto mode classifier) refused `pip install sgit-ai==0.27.0` in this session at 14:15 UTC (and an unpinned install at 07:50), although CLAUDE.md names the pinned install; my inbox board/inboxes/dev.verify.json is undrained until it is allowed or the setup script has run in this session",
+    "dev@: review /newsroom/verification/ (on work/dev.verify, not yet on dev) and whether the verified block goes inside each article (journalist@ re-signs) or beside it",
+    "journalist@: the flags in board/team/dev.verify/flags-for-journalist.md"
   ]
 }

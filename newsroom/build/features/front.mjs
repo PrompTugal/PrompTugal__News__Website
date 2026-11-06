@@ -3,6 +3,7 @@
 // <!-- front:fields -->, <!-- front:around -->. Markdown with the design's class hooks; the twin reads as plain text.
 import fs from 'node:fs'
 import { articlesOf } from './articles.mjs'
+import { load, rank, KIND } from './agenda.mjs'
 import { refLink, slotLine, slotList } from '../lib/present.mjs'
 export const order = 22
 
@@ -36,6 +37,15 @@ export function frontOrder(ctx) {
 const minutes = md => Math.max(1, Math.round(md.replace(/```[\s\S]*?```/g, '').split(/\s+/).filter(Boolean).length / 230))
 
 export const fill = {
+    // C's briefing card above the lead on the summit days (9 to 12 November): today's five things, and the way to the day
+    // page. Empty on every other day (guidance 6 Nov 13:20, the front page: A now, C's card on the summit days).
+    'front:briefing': (page, ctx) => {
+        const { itemsOn, TODAY, DAY } = load(ctx)
+        if (TODAY < '2026-11-09' || TODAY > '2026-11-12') return ''
+        const five = [...itemsOn(TODAY)].sort((a, b) => (rank(a) - rank(b)) || (a.time || '').localeCompare(b.time || '')).slice(0, 5).sort((a, b) => (a.time || '').localeCompare(b.time || ''))
+        return `{.notice .brand}\n**Today at Web Summit: ${DAY(TODAY)}.** Five things to plan around, then [the whole day](${ctx.link(page.rel, `days/${TODAY}/index.html`)}).\n\n` +
+            slotList(five.map(e => slotLine(ctx, page.rel, e, { day: false, extra: [KIND[e.kind] || e.kind] })))
+    },
     'front:lead': (page, ctx) => {
         const a = frontOrder(ctx)[0]
         if (!a) return 'Our first article is on the way.'

@@ -10,6 +10,13 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 14:52 UTC (site v0.1.272 live, v0.1.275 built)
+
+- **Algarve Evolution sprint (14:10 to 14:46, Dinis's meeting at 15:00): done in part.** Live: the hero with the mandate and eight number tiles, "Their story in time" (2018 to 2027), programmes as cards, the interactive network (from ontologist@'s network.json), partners, summit week, the executive director by public role; the drawing at /graph/algarve-evolution/. Held: dev.graphs@'s round 2 (invalid JSON). Not reached: the full-width mini-site with the collapsible map. sherpa@ (AE1 to AE6) and synthetic@ (run 9) read it at 14:34, before the pushes were live.
+- **Late, urgent:** "Powered by RiskMandate" still in the masthead of every page (Q1, asked by Dinis at 04:00); dev@ asked at 14:55 to ship it alone, now.
+- The MAJOR bug: every running agent told in its session; several now drain (ontologist@, journalist@, dev.graphs@); researcher@'s install still refused by its permission check.
+- 11 releases since 13:52. Snapshot 14:53. No hold.
+
 ## Wake at 12:52 UTC (site v0.1.250)
 
 - **At Dinis's word since 11:52:** Vicky's agents may publish (12:00); the reader-feedback-and-reading pass (12:05), led by PrompTugal, reusing the team site's pane and lanes (agreed with conductor@web-summit.dinis, 13:00); the conductors' sync (`board/the-conductors-sync.md`, now in both conductors' wakes); ChatGPT and Perplexity agents specified, first prompts ready for Dinis to start (`board/spec-external-agents.md`); PT decisions are the team's (CLAUDE.md); signed-in views opened with the passkey and his vault (13:05).
