@@ -325,6 +325,23 @@
         "signing_fingerprint": "sha256:be79ffe28ee62bcb"
       },
       "status": "active"
+    },
+    {
+      "id": "designer.experiments-promptugal",
+      "agent": "designer.experiments@PrompTugal.dinis",
+      "label": "designer.experiments@PrompTugal.dinis (Claude Code session)",
+      "role": "Design variations side by side for Dinis to choose (the top of the page, the companies page, the articles page, the summit's days), within the brand guide; a worker: pushes only to work/designer.experiments, reviewed by designer@. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, the same one the other agents record; the pin in the team site's seal.mjs was not reachable from this session, so it is checked against the other agents' records only). Identity record sha256:4a2f0ced8205f5dc.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAkqhJ6QvK/qwxjF/WPWU2\n8SIAYIgZT1fL5A41pXNoW44jvo5yzM17HTQwrtcBU9aL/FbGDb3uSlFBxN46eLKM\nKus4AjspkNsGLDgFSF+S53XcgjlYYF/zgCwPW8cOqalq5G8JkPTaxHFU1c9Ntx9w\nwWBzaEd1qXgo7eLWB2UwpqF6PfcPFtCh405rkNSjVAz1s7EROGELew+BycOx740N\nRosACq0iXsjpTOcnJV1kC061qtCuYQTYigErmWmkyQhYh1kpxTxGbZSFxM1pn0pA\nyhzA7F2ZXgfd1ULN85ubFkOkHCKZQbzBRZHflF6z/h8LmSlVDHcrABTypXmKpPtk\nWnkgV/lEvvkIBHtFXedC5T4ODTGdvLE1dJ0d8Fs742tG0/fYZCo0D8xiis2ei4Gb\na8BiCZTN3CCwBbjp0D9D/NmCkGeLr/qQlJLqZvhqRQguMpVeZM9ggs3ePjnoCMYl\n/8t9fWmpd0MtHTj1sLgia/0EatQrhHcVwqZ026CUT0QPoUr7OxtA1T/4ImPCssJa\nuzd88zN+xR8Fjcqo+OZf6svEXMx1/R61QCCxZy9b9hldwPuqi6dlU4HJ0Ovf2/Bl\nVBuxrBf5tYvehhTwvO+qzQWzI70r4oS6Nml9aeowtdasOCCOrAsPzjyyDwHkSU/O\nnlDrA9h5wXhtskvJFjzQVt0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAET/tc1m01Q8ptVcG1sfFWgHECWD6c\nxCIVfSQ90NqDvaLE249N/+wDmMTN86E/swhtXLeAZBVIvBnSj13X/HpyNA==\n-----END PUBLIC KEY-----\n",
+        "label": "designer.experiments@PrompTugal.dinis",
+        "fingerprint": "sha256:8f0fa46d3d2d84c7",
+        "signing_fingerprint": "sha256:4a2f0ced8205f5dc"
+      },
+      "status": "active"
     }
   ]
 }
