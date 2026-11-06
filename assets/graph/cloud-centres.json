@@ -10,7 +10,7 @@
       "none": "Nothing found",
       "todo": "Not looked at"
     },
-    "caption": "Three centres, five relations. Filled: found, with a source. Dashed: searched and nothing found. Empty: not looked at yet. Absence on the first page of a list is not absence at the summit.",
+    "caption": "Three centres, five relations. Filled: found, with a source. Dashed: searched and nothing found. Empty: not looked at yet. Absence on the first page of a list, or on a page not yet read, is not absence at the summit.",
     "fail": "The data could not be loaded."
   },
   "sources": {
@@ -33,6 +33,22 @@
     "pastpartners": {
       "label": "websummit.com, partners (\"Some partners from our past events\")",
       "url": "https://websummit.com/partners/"
+    },
+    "cerebras": {
+      "label": "cerebras.ai (its own page)",
+      "url": "https://www.cerebras.ai"
+    },
+    "elastic": {
+      "label": "elastic.co (its own page)",
+      "url": "https://www.elastic.co/"
+    },
+    "datadog": {
+      "label": "datadoghq.com (its own page)",
+      "url": "https://www.datadoghq.com/"
+    },
+    "runpod": {
+      "label": "runpod.io (its own page)",
+      "url": "https://www.runpod.io/"
     }
   },
   "relations": [
@@ -50,7 +66,7 @@
     },
     {
       "id": "builton",
-      "label": "Companies built on it"
+      "label": "Companies whose own pages name it"
     },
     {
       "id": "invested",
@@ -75,8 +91,21 @@
           "text": "Speakers by employer (websummit.com/speakers has filters) are still to check; only page 1 of the partners list was read."
         },
         "builton": {
-          "state": "todo",
-          "text": "The data has no such field for the 120 companies yet: it needs edges from each company's own site (ontologist@)."
+          "state": "found",
+          "label": "2 of 6 read",
+          "text": "Of the six partner companies' pages read, two name Google Cloud: Elastic (on its cloud marketplace) and Datadog (a monitoring product page; no partnership claimed). Six of the 18 companies our data lists as Web Summit partners have been read (researcher@, batch 1); the other twelve are not read yet, and a page not showing something does not mean the tie is absent. A menu link or a rival comparison is not a partnership, and each line says which it is.",
+          "links": [
+            {
+              "label": "Elastic: on the Google Cloud marketplace",
+              "page": "companies/elastic/index.html",
+              "src": "elastic"
+            },
+            {
+              "label": "Datadog: monitoring product page, no partnership claimed",
+              "page": "companies/datadog/index.html",
+              "src": "datadog"
+            }
+          ]
         },
         "invested": {
           "state": "todo",
@@ -107,8 +136,31 @@
           "label": "Amazon"
         },
         "builton": {
-          "state": "todo",
-          "text": "The data has no such field for the 120 companies yet."
+          "state": "found",
+          "label": "4 of 6 read",
+          "text": "Of the six partner companies' pages read, four name AWS, in four different ways: Cerebras (a testimonial by an AWS vice president on a joint inference setup, not called a partnership), Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed) and Runpod (a customer compares AWS as the more expensive rival). Six of the 18 companies our data lists as Web Summit partners have been read (researcher@, batch 1); the other twelve are not read yet, and a page not showing something does not mean the tie is absent. A menu link or a rival comparison is not a partnership, and each line says which it is.",
+          "links": [
+            {
+              "label": "Cerebras: an AWS executive's testimonial, a joint inference setup",
+              "page": "companies/cerebras/index.html",
+              "src": "cerebras"
+            },
+            {
+              "label": "Elastic: on the AWS marketplace",
+              "page": "companies/elastic/index.html",
+              "src": "elastic"
+            },
+            {
+              "label": "Datadog: monitoring product page, no partnership claimed",
+              "page": "companies/datadog/index.html",
+              "src": "datadog"
+            },
+            {
+              "label": "Runpod: AWS as the rival, in a customer's comparison (not a tie)",
+              "page": "companies/runpod/index.html",
+              "src": "runpod"
+            }
+          ]
         },
         "invested": {
           "state": "todo",
@@ -138,8 +190,21 @@
           "src": "saas"
         },
         "builton": {
-          "state": "todo",
-          "text": "The data has no such field for the 120 companies yet."
+          "state": "found",
+          "label": "2 of 6 read",
+          "text": "Of the six partner companies' pages read, two name Microsoft Azure: Elastic (on its cloud marketplace) and Datadog (a monitoring product page; no partnership claimed). Six of the 18 companies our data lists as Web Summit partners have been read (researcher@, batch 1); the other twelve are not read yet, and a page not showing something does not mean the tie is absent. A menu link or a rival comparison is not a partnership, and each line says which it is.",
+          "links": [
+            {
+              "label": "Elastic: on the Azure marketplace",
+              "page": "companies/elastic/index.html",
+              "src": "elastic"
+            },
+            {
+              "label": "Datadog: monitoring product page, no partnership claimed",
+              "page": "companies/datadog/index.html",
+              "src": "datadog"
+            }
+          ]
         },
         "invested": {
           "state": "todo",
