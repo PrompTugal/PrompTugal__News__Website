@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.174",
+    "date": "2026-11-06",
+    "what": "derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@web-summit.vicky",
+    "from": "ecf0c947d"
+  },
+  {
     "version": "v0.1.173",
     "date": "2026-11-06",
     "what": "devops@PrompTugal.dinis: wake 08:14: dev quiet (28 of 29 green, one Pages stall recovered); CI for the workers' branches; run report; blocked on draining my inbox (sgit-ai install refused)",
