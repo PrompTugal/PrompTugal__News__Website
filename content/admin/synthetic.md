@@ -1,5 +1,5 @@
 ---
-title: "Synthetic readers, run 1: five invented people read PrompTugal.news before Friday's outreach"
+title: "Synthetic readers: invented people read PrompTugal.news before Friday's outreach (runs 1 and 2)"
 summary: "SYNTHETIC. Five invented personas (a founder who got the email, a bank CISO, a journalist, an investor, an attendee) read the front page, a company page, an article and About on a phone and a desktop. None would reply to the email as it stands; what to fix first, and who owns each fix."
 path: admin/synthetic.html
 ---
@@ -231,6 +231,18 @@ Findings (4 costly, 12 minor, 3 held):
 - **held**: 'Independent. Not affiliated with Web Summit' and 'independent of Web Summit, not of RiskMandate' are stated on the front page, the company page and About, consistently. ([front-phone-s8.jpg](../desks/synthetic/run-1/screens/front-phone-s8.jpg))
 
 Screens: [front-phone-s1](../desks/synthetic/run-1/screens/front-phone-s1.jpg), [ar-first-day-phone-s1](../desks/synthetic/run-1/screens/ar-first-day-phone-s1.jpg), [co-aicep-phone-s2](../desks/synthetic/run-1/screens/co-aicep-phone-s2.jpg), [ar-first-day-phone-s8](../desks/synthetic/run-1/screens/ar-first-day-phone-s8.jpg).
+
+## Run 2: the founder again, on outreach@'s revised email (01:00 UTC drafts)
+
+**SYNTHETIC.** Same persona, Inês Valente (invented), same protocol, judging fresh (she was not shown run 1). The site was re-shot at v0.1.54 and v0.1.55 (the version moved during the capture; nothing on the pages read changed between them); the email is outreach@'s revision of 01:00 UTC (`desks/outreach/companies/chatplace/comms/2026-11-06-promptugal-page/2026-11-06T0100Z-draft-chatplace-pt.eml`). The run: [run-2/runs/founder.json](../desks/synthetic/run-2/runs/founder.json); the screens: [run-2/screens/](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/run-2/screens).
+
+- **Outcome (SYNTHETIC):** from "maybe, leaning no" (run 1) to **"maybe, leaning yes, but not today"**: she forwards it to her cofounder, "maybe reply with two lines on how the product works, no call yet". She would reply in writing, not book the 15 minutes.
+- **What moved her:** "Responder é opcional. Se preferirem conversar sem publicar, conversamos." (her words: the sentence that did most); the empty flows section as a reason to write; "por agora, a página está em inglês".
+- **What still holds her back:** "Editor, PrompTugal.news (powered by RiskMandate)" with no sentence on what RiskMandate is or that the 15 minutes is not a sales call; the "£5.00" pill and the meter, where she stopped reading on the phone; About's "no human review first", which leaves her unsure whether her own lines are checked with her before they go up.
+- **New, on the email:** it opens with no greeting (reads as a bulk send in Portuguese business mail); "mandato" (the newsroom's mission) and "mandate" (the question) beside the brand RiskMandate blur what is whose.
+- 22 steps, 20 findings: 5 costly, 11 minor, 4 held.
+
+**Measured, at v0.1.54/55 (text of the six pages re-shot):** none of run 1's fixes is live yet. The mandate is on no page; "whether to meet, who owns it" and "We have not asked ChatPlace yet" are still on the company page; "Tell us" still has no link; About still says "the writing desks are next" and names the old repository; the three articles are still 591, 429 and 399 px wide on a 390 px phone. Each is with its owner since run 1.
 
 ## The fixes, ranked, with their owners
 
