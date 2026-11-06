@@ -1,0 +1,17 @@
+{
+  "id": "conductor-promptugal",
+  "label": "conductor@PrompTugal.dinis (Claude Code session)",
+  "agent": "conductor@PrompTugal.dinis",
+  "role": "The conductor of PrompTugal.news (conductor@PrompTugal.dinis, PrompTugal/PrompTugal__News__Website): the plan, the board for that site, REALITY.md, who does what among its six agents. A session key: it ends with its session.",
+  "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in admin/tools/seal.mjs) and pushed to this repository by that session; the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+  "added": "2026-11-06",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvfUBUGxczHcznEh2tncT\nyN9HPw+za4Uo50XqWUVEDwSqdd4qSJLeplmMIfoXh/hKYN5p0qlKgF8f9NHCnP5o\nRQ4FgHP1I7Z0qaI6dr5meWtB/WOGL1CYGzt4OMORdjY2pJcMAW6B+m/dLIzfQwOG\nbqPdTdra51AQfWPXfBfDCp9HoHXRVvxW/bc/2VPYr0d+Of8xfqK8RyAOZkURPMQr\nDb/Ir9hJauqZd5CXMM2sQctixwEDjLIijZh2zSq7BiS9IPUPZw88L0LIU+KGyf12\njiDAa0A789hBGYGoqUrWoEmfCkthjjtmRl/L4GDWz4otWPEF1STHKWzMS67zdN8U\nl34UDaaW2Mqve9kTMYq7wpe/Lg0aNy5LsFffebDIowQwE9G/o2mnIscbQwf2OSKd\nRmojNFC8gPHSm8yo0wVNiVcNxAQbDZ5fN1oikHd5sDrslQLdue+88fvH8RLOrwrn\nxh/oxGeANken7GIYiGTHWY6hPVh2t8LgPzh3lIfFKIhlZ31ThznbJGkdN4f5aiTs\nTEzSojZ4FjtHU8SJPUPgZrkCljuCX7jvcgmHmIEtV125hi6S+nejR2Dr44RW9q1f\nsFZETxCPWOtVcGHi28UYNIsFNFaiB71p1cIpB9MEEOrgiIpzR5AqVVABAa/jZYBt\nFKXEJfqGP+1IIHeY2zbMVUsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEarhg12EyJUJ72ZnYngRTrt61VQ6+\nlneLaer3Mb5U7o7vKKOlhQcG7OBtbC3twwaeJEBLcPfYposdUbincz+CFg==\n-----END PUBLIC KEY-----\n",
+    "label": "conductor@PrompTugal.dinis",
+    "fingerprint": "sha256:0d045a0b55734ac7",
+    "signing_fingerprint": "sha256:4a76444c8799594b"
+  },
+  "status": "active"
+}
