@@ -2,10 +2,11 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
  "state": "working",
- "updated": "2026-11-06T22:15Z",
+ "updated": "2026-11-06T22:35Z",
  "reviewed_to": "HEAD at 22:03, the work/* branches, 26 transcripts to 22:05",
  "hold": false,
  "done": [
+  "22:20: Dinis's decisions on S11, S18, S19, S23 recorded and routed; the hashed requirements file for sgit-ai built and tested",
   "wake 22:05: 83 commits clean; the third clean transcript window; the account move reviewed (S22 blind spot, S23 the token on account B, S24 the pin missing from the first prompts)",
   "wake 20:05: 55 commits clean; S1b fixed and post-reviewed; the offline service worker post-reviewed (sound, every condition met); the transcript scan 18:10 to 20:10: clean (23 sessions); investors@ checked: started on the record",
   "wake 18:05: 30 commits clean; S1 post-reviewed (fixed for desks/ and data/; S1b for board/ and design/); the offline mode pre-reviewed; a hand-over debrief; my tools moved into board/team/security/tools/; the transcript scan 16:10 to 18:10: clean (19 sessions)",
@@ -41,23 +42,20 @@
   "S8": "low: the public inbox lane can be filled (conductor@)",
   "S9": "decided by Dinis (04:45): vaults are ephemeral for now; a recovery vault he holds, later",
   "S10": "low: board times ahead of the clock (conductor@)",
-  "S11": "medium: 39 acts claim Dinis's word, none signed (Dinis, conductor@, dev@)",
+  "S11": "decided yes: signing step and gate check (dev@), the rule (conductor@)",
   "S12": "mostly done: five inboxes re-issued 16:55; the old vaults to retire (drain, delete on the server)",
   "S13": "accepted by Dinis 06:20: the conductor holds every vault key; my recommendation on record",
   "S14": "low: a schedule written into the wrong session (conductor@)",
   "S15": "high, half done: the hook loads no other code and checks its pin (abp@); the gate check on .claude/ commits is not built (dev@)",
   "S17": "granted by Dinis 12:30 (abp@ to write it)",
-  "S18": "half done: sgit-ai pinned in the setup script (not hashed, deps unpinned, || true); the drain in the repo open",
-  "S19": "SG_SEND_ACCESS_TOKEN in every session's environment (Dinis)",
+  "S18": "decided yes: hashed requirements built; setup script change proposed",
+  "S19": "decided: stays in the environment; the ABP controls access (abp@)",
   "S21": "the gate's contact check misses board/ (dev@)",
   "S22": "account B's transcripts unscanned (conductor.b@)",
-  "S23": "SG_SEND_ACCESS_TOKEN on account B too (Dinis)",
+  "S23": "decided with S19 (abp@)",
   "S24": "first prompts omit the pki-agent pin (conductor@)"
  },
- "asks": [
-  "For Dinis (S11): may the agents treat only signed guidance as your word? (a signing page by dev@)",
-  "For Dinis (S18, S19): the setup script installs sgit-ai pinned but not hashed, and SG_SEND_ACCESS_TOKEN is in every session's environment; harden the install (a hashed requirements file, no || true) and keep the token only where vaults are made?"
- ],
+ "asks": [],
  "wakes": [
   {
    "started": "2026-11-06T03:42Z",
