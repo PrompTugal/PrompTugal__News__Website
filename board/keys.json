@@ -51,6 +51,23 @@
         "signing_fingerprint": "sha256:c4fe279fe6326ca9"
       },
       "status": "active"
+    },
+    {
+      "id": "synthetic-promptugal",
+      "agent": "synthetic@PrompTugal.dinis",
+      "label": "synthetic@PrompTugal.dinis (Claude Code session)",
+      "role": "The synthetic readers of PrompTugal.news (synthetic@PrompTugal.dinis): invented personas, each labelled SYNTHETIC, who read the site on a phone and a desktop and report what works, what confuses and what loses them; each finding goes to the agent who owns the fix. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (pki-agent.mjs keygen --session, the copy matching the sha256 pinned in the team site's admin/tools/seal.mjs) and pushed to this repository by that session, at Dinis's word (6 November 2026: PrompTugal's keys live here); the push is the authorisation. Linked locally to the operator's key sha256:db7f79fdd87e030a; not yet submitted to or confirmed on pki.sgit.ai.",
+      "added": "2026-11-06",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyMZprXYR9Gkqes6YS2hh\nIYPmdH1J7Udhr+s4+AYUxQNgjMLgfZQOShaigS2ExVBibaeAN+F0ST5kTtnKEeT1\nWqdvf5MNJWINovH4VY72n7Hu3opyIC2eLOtlKTtAGcyY7VQO2zWXnIHVCb53/N2b\njX3Nwz3R1VjriwZA0lKukl2NmB/Bt5gvNXuRDlVeHdUxq5gIgyU2q0P9y3smJqkk\n7pcJTZsTVEgHofWgZctalyYH5o0blnt/DKJAtQZkJxzOlXriI4CGceZzPgaeC+Fn\nYM53oMqS302jU3/3j9eL+3dzeHIjGzBs3x/DmQQv6JKJ6J1SznE/qxjbbZK14CJQ\nzMQlakeiZTBwEIn3SZD+wsfRIvFjFU2myiK93tuOj2rH2P0MgXwHIVaeOuhRVYrg\nay+RdpPINFatzoPMU/qiYOJBPxkc88ErO0Kgeg4vCFc1hnUo0maFhgaKXJLunlAk\n6S7QDcFGTNUJecYNhGm7/F24vv4FQWBXZHmoJzT0fJLDVel3JRXehNdDozVTAvQi\nBOkRVyircTh9/WGPmQZ8X8FAb3B2hSi9wLLohpbhlOXkxBLSAZ7eLX3gsV8O+p8M\nozdAq5kvhnT5gXrwKGSLSHv2DS6KD6fHyW6PVhs7Whi+i2joaRQfHuWSZuy0zWzS\n9BiceUSvVQba3cZgDR57zr0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4sa97aopfnHmWPUpehHC91JPeVR9\nLhb/uPdqp4ARR9ofSDVMDuUlYzHwmCONmJ6ReI1HA1N1JgoXxqg34/XhvA==\n-----END PUBLIC KEY-----\n",
+        "label": "synthetic@PrompTugal.dinis",
+        "fingerprint": "sha256:769f3c60f0efb6c5",
+        "signing_fingerprint": "sha256:271dba4290399aaf"
+      },
+      "status": "active"
     }
   ]
 }
