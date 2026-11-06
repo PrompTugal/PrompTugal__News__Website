@@ -14,6 +14,10 @@ At Dinis's word (6 November 2026), each PrompTugal agent's session is woken ever
 
 Focused rounds of work on one thing (a page, a feature, a set of findings), in a fixed order and within a budget: conductor, security, reviews in parallel (sherpa, ontologist, synthetic and others), two or three rounds of designer and dev, security, a note by the journalist or historian, conductor (`board/the-passes.md`, one file per pass in `board/passes/`). A pass stops at its budget (accountant@) and never loops on its own findings.
 
+## The OpenRouter key
+
+Dinis added `OPEN_ROUTER_KEY` to the cloud environment on 6 November 2026, limited by credit, for AI-made images and infographics (designer@ first). It is read from the environment only: never printed, logged, committed, put in a page or a vault file, or sent anywhere but openrouter.ai. A session started before it was added sees it only after a restart. Every call counts against the budget accountant@ sets (`board/budgets.json`); say in the commit what was generated and with which model.
+
 ## Fewer sessions, more sub-agents
 
 At Dinis's word (6 November 2026): no explosion of agents. One session can run several roles as sub-agents in a run (the correspondent runs its beat correspondents; the journalist may run two or three writers when the pipeline needs them). A new session only at Dinis's word.
