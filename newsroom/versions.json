@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.68",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake at 01:52: the newsroom move done but observability@; lanes for journalist@ and ontologist@",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "e1306c73d"
+  },
+  {
     "version": "v0.1.67",
     "date": "2026-11-06",
     "what": "synthetic@PrompTugal.dinis: hourly run (02:00 UTC): run 3 (SYNTHETIC) on /newsroom/synthetic.html; for Dinis: the disclosure's 'not independent coverage ... hopes to meet or sell to' is what stops a comms lead passing it on",
