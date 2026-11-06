@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 15:17: Algarve Evolution round 2 on dev; explorer made data-driven (views, presets, type looks) on work/dev.graphs; librarian@ answered",
-  "updated": "2026-11-06T15:50Z",
+  "state": "wake 16:17: the cloud centres lens (first answer) on work/dev.graphs",
+  "updated": "2026-11-06T16:50Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -16,18 +16,19 @@
     "Europe view and the briefings brought onto dev by dev@ (c64c822). New: the article graphs: each article that names at least two things in the graph (8 of 21 today) carries a small graph, the article in the middle and what it names around it (sessions, companies, organisations, fields, places), drawn from the links in the article's own text, as SVG with every node a link; the signed markdown twin is untouched (a change would break the signatures); minigraph.mjs got an article case",
     "Article graphs brought onto dev earlier. NEW, for Dinis's 15:00 meeting with Algarve Evolution (the conductor's relay of 14:10; the sprint brief file was not in the repository when I read, so I worked from the relay and the researcher's notes): /graph/algarve-evolution/ with three pictures, each saves as PNG, every item with its source: the network (from the ontologist's data/organisations/algarve-evolution/network.json via api/v1/portugal/algarve-evolution-viz.json: 8 programmes, 9 partners, 2 roles without names, 6 events, the Web Summit 2026 gap dashed), the timeline 2018 to 2027 (wide, scrolls), a map of the Algarve with 8 places. Files for dev.portugal@: assets/portugal/algarve-evolution.js, algarve-evolution-data.json, algarve-outline.json; feature newsroom/build/features/graph-algarve.mjs builds the API file; to embed on their page: <div id=\"ae-viz\" data-data=\"<root>api/v1/portugal/algarve-evolution-viz.json\" data-outline=\"<root>assets/portugal/algarve-outline.json\"></div> plus the script and assets/graph/gravity.css (the feature graph-gravity.mjs shows how)",
     "Algarve Evolution round 2: network labels placed outward from the centre (no more overlaps), the network at least 940 px wide inside a scrolling frame, a fourth section 'The numbers' (6 figures, each marked fact, self-reported or target, with its source link) from network.json. Inbox: sgit-ai installed, sealed credentials opened into ~/.sg-send/lanes/inbox.json (0600), my inbox vault cloned and the lane drained into it locally: 6 messages read (all material, nothing new for me beyond what I had); the vault push and mark-processed did not run: sgit push says no access token",
-    "Algarve Evolution round 2 brought onto dev by dev@ (16b0167). New: the explorer (assets/graph/explorer.js) takes views, presets and per-type shape and colour from the graph's own data (views[].file, presets[], types[].shape and .color), so another graph (the librarian's library graph and reality tree) can use it without code changes; tested in a browser by feeding the explorer a modified copy of its data (own preset opened first, own view loaded, the main graph unchanged: 8 presets and the same captions). Answered librarian@ on its inbox (sealed, sent): what the engines need, what its page must render itself, the miniGraph interface"
+    "Algarve Evolution round 2 brought onto dev by dev@ (16b0167). New: the explorer (assets/graph/explorer.js) takes views, presets and per-type shape and colour from the graph's own data (views[].file, presets[], types[].shape and .color), so another graph (the librarian's library graph and reality tree) can use it without code changes; tested in a browser by feeding the explorer a modified copy of its data (own preset opened first, own view loaded, the main graph unchanged: 8 presets and the same captions). Answered librarian@ on its inbox (sealed, sent): what the engines need, what its page must render itself, the miniGraph interface",
+    "Explorer made data-driven brought onto dev earlier (rounds on dev: Algarve round 2). NEW: /graph/cloud-centres/ (the AWS, Google and Microsoft lens Dinis asked for at 12:50): a matrix of three centres by four relations (partner of the summit, speaker or session, companies built on it, companies it invests in), each cell found with its source (Google Cloud as a partner; Amazon's press conference on 11 Nov), searched and not found (AWS and Microsoft partners, Microsoft speakers, Amazon partner), or not looked at yet (built on, invested by: the data has no such field); tap for the evidence and source; Save as PNG; from desks/researcher/centres-of-gravity-evidence-round-1.md, data in assets/graph/cloud-centres.json. It shows what is known and no more; absence on page 1 is stated as not absence at the summit"
   ],
   "next": [
-    "AWS, Google, Microsoft centres of gravity as a lens on /graph/ (Dinis 12:50): waiting for researcher@'s public evidence and ontologist@'s edges; I will draw it as a view and a picture when they exist",
-    "Algarve Evolution: a 'Brief me' for the page; places from data/places when they have coordinates",
+    "Cloud centres round 2: when ontologist@ has built-on, invested-by and partner edges, draw the companies themselves around each centre (an orbit like the gravity page); when researcher@ has the other partner pages and speakers by employer, turn 'not looked at' cells into found or not found",
+    "Algarve Evolution: a 'Brief me'; the addition of Ant\u00f3nio's paragraph is dev.portugal@'s",
     "Thumbnails on the best-of page",
-    "Add miniGraph rows for the librarian's card types when it says which"
+    "miniGraph rows for the librarian's card types once it says which"
   ],
   "asks": [
-    "Dinis: my inbox lane stays pending because sgit push needs an access token (sgit auth); messages are read locally",
-    "researcher@, ontologist@: the AWS, Google, Microsoft evidence and edges (partners, built on, invested by, speakers from) so I can draw the lens; tell me the file",
-    "librarian@: which views and presets you want, and the rows for your card types",
+    "researcher@: the other seven pages of Web Summit's event partners list and speakers by employer for Google, Amazon, AWS and Microsoft; tell me the file and I update cloud-centres.json (or send the cells)",
+    "ontologist@: built-on, invested-by and partner-of edges for the 120 companies (the lens needs them)",
+    "Dinis: my inbox lane stays pending because sgit push needs an access token (sgit auth)",
     "dev.portugal@: embed the Algarve Evolution pictures on /portugal/algarve-evolution/"
   ]
 }

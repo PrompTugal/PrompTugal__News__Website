@@ -1,0 +1,127 @@
+{
+  "about": "Where Google, Amazon (and AWS) and Microsoft stand among the summit's companies, from desks/researcher/centres-of-gravity-evidence-round-1.md (researcher@PrompTugal.dinis, read 6 November 2026, public pages only). Each cell is one relation to one centre with one of three states: found (with its source), searched and not found (with where it was searched), not looked at yet. Absence on page 1 of a list is not absence at the summit. By dev.graphs@PrompTugal.dinis.",
+  "ui": {
+    "png": "Save as PNG",
+    "source": "Source (new tab)",
+    "page": "Open the page (new tab)",
+    "empty": "Tap a cell to see what was found, or where we searched and found nothing.",
+    "states": {
+      "found": "Found",
+      "none": "Nothing found",
+      "todo": "Not looked at"
+    },
+    "caption": "Three centres, four relations. Filled: found, with a source. Dashed: searched and nothing found. Empty: not looked at yet. Absence on the first page of a list is not absence at the summit.",
+    "fail": "The data could not be loaded."
+  },
+  "sources": {
+    "partners": {
+      "label": "websummit.com, event partners 2026 (page 1 of 8 read)",
+      "url": "https://websummit.com/partners/event-partners-2026/"
+    },
+    "amazon": {
+      "label": "websummit.com, press conference with Amazon's Vice President, People Experience and Technology",
+      "url": "https://websummit.com/sessions/lis26/3f2286e3-46c8-46a8-8900-692ca0c3a8f9/press-conference-with-amazon-vice-president-people-experience-technology-j-ofori-agboka/"
+    },
+    "saas": {
+      "label": "websummit.com, SaaS Summit track",
+      "url": "https://websummit.com/tracks/saas-summit"
+    }
+  },
+  "relations": [
+    {
+      "id": "partner",
+      "label": "Partner of the summit"
+    },
+    {
+      "id": "speaker",
+      "label": "Speaker or session"
+    },
+    {
+      "id": "builton",
+      "label": "Companies built on it"
+    },
+    {
+      "id": "invested",
+      "label": "Companies it invests in"
+    }
+  ],
+  "centres": [
+    {
+      "id": "google",
+      "label": "Google",
+      "color": "#1f6feb",
+      "cells": {
+        "partner": {
+          "state": "found",
+          "text": "Google Cloud is listed among Web Summit's 2026 event partners (category AI and machine learning); the newsroom's data has it as a confirmed partner. The partners list shows 40 partners across 8 pages with no tiers, and only page 1 was readable.",
+          "src": "partners",
+          "page": "companies/google-cloud/index.html",
+          "label": "Google Cloud"
+        },
+        "speaker": {
+          "state": "todo",
+          "text": "Speakers by employer (websummit.com/speakers has filters) are still to check; only page 1 of the partners list was read."
+        },
+        "builton": {
+          "state": "todo",
+          "text": "The data has no such field for the 120 companies yet: it needs edges from each company's own site (ontologist@)."
+        },
+        "invested": {
+          "state": "todo",
+          "text": "The data has no such field yet."
+        }
+      }
+    },
+    {
+      "id": "amazon",
+      "label": "Amazon and AWS",
+      "color": "#bf8700",
+      "cells": {
+        "partner": {
+          "state": "none",
+          "text": "Neither Amazon nor AWS found on page 1 of the partners list or by search. Pages 2 to 8 are not read.",
+          "src": "partners"
+        },
+        "speaker": {
+          "state": "found",
+          "text": "A press conference with Amazon's Vice President, People Experience and Technology: 11 November 2026, 16:00 to 16:20, Stage 2 (Press Conference). The speaker is given by job title only on the page; AWS itself is not named.",
+          "src": "amazon",
+          "label": "Amazon"
+        },
+        "builton": {
+          "state": "todo",
+          "text": "The data has no such field for the 120 companies yet."
+        },
+        "invested": {
+          "state": "todo",
+          "text": "The data has no such field yet."
+        }
+      }
+    },
+    {
+      "id": "microsoft",
+      "label": "Microsoft",
+      "color": "#1a7f37",
+      "cells": {
+        "partner": {
+          "state": "none",
+          "text": "No 2026 partner found on page 1 of the partners list or by search.",
+          "src": "partners"
+        },
+        "speaker": {
+          "state": "none",
+          "text": "No 2026 speaker found by search. A Web Summit SaaS Summit page names a Microsoft executive in the past tense (an earlier edition): not 2026 evidence.",
+          "src": "saas"
+        },
+        "builton": {
+          "state": "todo",
+          "text": "The data has no such field for the 120 companies yet."
+        },
+        "invested": {
+          "state": "todo",
+          "text": "The data has no such field yet."
+        }
+      }
+    }
+  ]
+}

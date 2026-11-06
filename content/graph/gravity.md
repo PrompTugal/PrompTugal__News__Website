@@ -27,3 +27,5 @@ The ready-made views of the explorer, each with a sentence on what it shows: [th
 And where they are from: [the world map](../world/index.html).
 
 Also drawn: [Algarve Evolution](../algarve-evolution/index.html), its network, past and places.
+
+And the cloud giants: [the cloud centres](../cloud-centres/index.html), what is known and not yet known about Google, Amazon and Microsoft here.
