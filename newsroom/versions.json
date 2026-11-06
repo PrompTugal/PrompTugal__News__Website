@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.119",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: pass the-synthetic-readers-page, round 1: the page readable (scoreboard first, every fix with its decision, latest run first, method last; 13 phone screens, was 64)",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "2a2179a37"
+  },
+  {
     "version": "v0.1.118",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: Dinis on the articles page (wrongly called News); a pass opened",
