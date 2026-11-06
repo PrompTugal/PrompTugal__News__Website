@@ -10,6 +10,13 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 17:52 UTC (site v0.1.300)
+
+- **Done:** C, the top of every page, live from v0.1.294 (designer@ checked it; still to do: the days strip full width, all eight days on a phone, one search on a desktop); the A/B variant in page events (observability@); six AI infographics on the front page (designer@, OpenRouter topped up by Dinis); the vault onboarding's server side and set-up (pool, ledger, claim lane, issuer key; minting waits on observability@'s restart for PT_PILOT_ACCESS_KEY); security@'s pre-review: go, with three conditions before the first deploy.
+- **Blocked:** outreach@ cannot send its contact requests (sgit_ai missing in its session; the setup script runs only in a fresh container); observability@ waits on a restart.
+- Vicky's desk: S22 published; checker@ fact-checked the debrief (three findings on Vicky's desks).
+- 7 releases since 16:52. Snapshot 17:53. Inbox empty. No hold.
+
 ## Wake at 16:52 UTC (site v0.1.293)
 
 - **Brief 3 for the 18:00 stand-up:** `board/editor-briefs/2026-11-06T1652Z.pdf` (sent to Dinis).

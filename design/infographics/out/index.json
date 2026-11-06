@@ -1,500 +1,836 @@
 {
-  "made": "2026-11-06T03:11:02.435Z",
-  "by": "designer@PrompTugal.dinis",
-  "sizes": {
-    "thumb": [
-      480,
-      480
-    ],
-    "card": [
-      1200,
-      630
-    ],
-    "banner": [
-      1600,
-      560
-    ]
-  },
-  "images": [
-    {
-      "slug": "brazil-startup-mission",
-      "theme": "paper",
-      "layout": "network",
-      "size": "thumb",
-      "file": "brazil-startup-mission--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "brazil-startup-mission",
-      "theme": "paper",
-      "layout": "network",
-      "size": "card",
-      "file": "brazil-startup-mission--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "brazil-startup-mission",
-      "theme": "paper",
-      "layout": "network",
-      "size": "banner",
-      "file": "brazil-startup-mission--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "brazil-startup-mission",
-      "theme": "ink",
-      "layout": "network",
-      "size": "thumb",
-      "file": "brazil-startup-mission--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "brazil-startup-mission",
-      "theme": "ink",
-      "layout": "network",
-      "size": "card",
-      "file": "brazil-startup-mission--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "brazil-startup-mission",
-      "theme": "ink",
-      "layout": "network",
-      "size": "banner",
-      "file": "brazil-startup-mission--ink--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "europe-in-pavilion-4",
-      "theme": "paper",
-      "layout": "timeline",
-      "size": "thumb",
-      "file": "europe-in-pavilion-4--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "europe-in-pavilion-4",
-      "theme": "paper",
-      "layout": "timeline",
-      "size": "card",
-      "file": "europe-in-pavilion-4--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "europe-in-pavilion-4",
-      "theme": "paper",
-      "layout": "timeline",
-      "size": "banner",
-      "file": "europe-in-pavilion-4--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "europe-in-pavilion-4",
-      "theme": "ink",
-      "layout": "timeline",
-      "size": "thumb",
-      "file": "europe-in-pavilion-4--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "europe-in-pavilion-4",
-      "theme": "ink",
-      "layout": "timeline",
-      "size": "card",
-      "file": "europe-in-pavilion-4--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "europe-in-pavilion-4",
-      "theme": "ink",
-      "layout": "timeline",
-      "size": "banner",
-      "file": "europe-in-pavilion-4--ink--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "following-robotics-at-web-summit",
-      "theme": "paper",
-      "layout": "network",
-      "size": "thumb",
-      "file": "following-robotics-at-web-summit--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "following-robotics-at-web-summit",
-      "theme": "paper",
-      "layout": "network",
-      "size": "card",
-      "file": "following-robotics-at-web-summit--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "following-robotics-at-web-summit",
-      "theme": "paper",
-      "layout": "network",
-      "size": "banner",
-      "file": "following-robotics-at-web-summit--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "following-robotics-at-web-summit",
-      "theme": "ink",
-      "layout": "network",
-      "size": "thumb",
-      "file": "following-robotics-at-web-summit--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "following-robotics-at-web-summit",
-      "theme": "ink",
-      "layout": "network",
-      "size": "card",
-      "file": "following-robotics-at-web-summit--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "following-robotics-at-web-summit",
-      "theme": "ink",
-      "layout": "network",
-      "size": "banner",
-      "file": "following-robotics-at-web-summit--ink--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "gender-in-tech-report-2026",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "thumb",
-      "file": "gender-in-tech-report-2026--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "gender-in-tech-report-2026",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "card",
-      "file": "gender-in-tech-report-2026--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "gender-in-tech-report-2026",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "banner",
-      "file": "gender-in-tech-report-2026--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "gender-in-tech-report-2026",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "thumb",
-      "file": "gender-in-tech-report-2026--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "gender-in-tech-report-2026",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "card",
-      "file": "gender-in-tech-report-2026--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "gender-in-tech-report-2026",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "banner",
-      "file": "gender-in-tech-report-2026--ink--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "lisbon-universities-at-web-summit",
-      "theme": "paper",
-      "layout": "network",
-      "size": "thumb",
-      "file": "lisbon-universities-at-web-summit--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "lisbon-universities-at-web-summit",
-      "theme": "paper",
-      "layout": "network",
-      "size": "card",
-      "file": "lisbon-universities-at-web-summit--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "lisbon-universities-at-web-summit",
-      "theme": "paper",
-      "layout": "network",
-      "size": "banner",
-      "file": "lisbon-universities-at-web-summit--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "lisbon-universities-at-web-summit",
-      "theme": "ink",
-      "layout": "network",
-      "size": "thumb",
-      "file": "lisbon-universities-at-web-summit--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "lisbon-universities-at-web-summit",
-      "theme": "ink",
-      "layout": "network",
-      "size": "card",
-      "file": "lisbon-universities-at-web-summit--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "lisbon-universities-at-web-summit",
-      "theme": "ink",
-      "layout": "network",
-      "size": "banner",
-      "file": "lisbon-universities-at-web-summit--ink--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "road-2-web-summit-2026",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "thumb",
-      "file": "road-2-web-summit-2026--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "road-2-web-summit-2026",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "card",
-      "file": "road-2-web-summit-2026--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "road-2-web-summit-2026",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "banner",
-      "file": "road-2-web-summit-2026--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "road-2-web-summit-2026",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "thumb",
-      "file": "road-2-web-summit-2026--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "road-2-web-summit-2026",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "card",
-      "file": "road-2-web-summit-2026--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "road-2-web-summit-2026",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "banner",
-      "file": "road-2-web-summit-2026--ink--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "tuesday-10-november-three-ways-in",
-      "theme": "paper",
-      "layout": "timeline",
-      "size": "thumb",
-      "file": "tuesday-10-november-three-ways-in--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "tuesday-10-november-three-ways-in",
-      "theme": "paper",
-      "layout": "timeline",
-      "size": "card",
-      "file": "tuesday-10-november-three-ways-in--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "tuesday-10-november-three-ways-in",
-      "theme": "paper",
-      "layout": "timeline",
-      "size": "banner",
-      "file": "tuesday-10-november-three-ways-in--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "tuesday-10-november-three-ways-in",
-      "theme": "ink",
-      "layout": "timeline",
-      "size": "thumb",
-      "file": "tuesday-10-november-three-ways-in--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "tuesday-10-november-three-ways-in",
-      "theme": "ink",
-      "layout": "timeline",
-      "size": "card",
-      "file": "tuesday-10-november-three-ways-in--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "tuesday-10-november-three-ways-in",
-      "theme": "ink",
-      "layout": "timeline",
-      "size": "banner",
-      "file": "tuesday-10-november-three-ways-in--ink--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "web-summit-2026-in-numbers",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "thumb",
-      "file": "web-summit-2026-in-numbers--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "web-summit-2026-in-numbers",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "card",
-      "file": "web-summit-2026-in-numbers--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "web-summit-2026-in-numbers",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "banner",
-      "file": "web-summit-2026-in-numbers--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "web-summit-2026-in-numbers",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "thumb",
-      "file": "web-summit-2026-in-numbers--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "web-summit-2026-in-numbers",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "card",
-      "file": "web-summit-2026-in-numbers--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "web-summit-2026-in-numbers",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "banner",
-      "file": "web-summit-2026-in-numbers--ink--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "your-first-day-at-web-summit",
-      "theme": "paper",
-      "layout": "timeline",
-      "size": "thumb",
-      "file": "your-first-day-at-web-summit--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "your-first-day-at-web-summit",
-      "theme": "paper",
-      "layout": "timeline",
-      "size": "card",
-      "file": "your-first-day-at-web-summit--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "your-first-day-at-web-summit",
-      "theme": "paper",
-      "layout": "timeline",
-      "size": "banner",
-      "file": "your-first-day-at-web-summit--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "your-first-day-at-web-summit",
-      "theme": "ink",
-      "layout": "timeline",
-      "size": "thumb",
-      "file": "your-first-day-at-web-summit--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "your-first-day-at-web-summit",
-      "theme": "ink",
-      "layout": "timeline",
-      "size": "card",
-      "file": "your-first-day-at-web-summit--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "your-first-day-at-web-summit",
-      "theme": "ink",
-      "layout": "timeline",
-      "size": "banner",
-      "file": "your-first-day-at-web-summit--ink--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "newsroom-status-four-days-out",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "thumb",
-      "file": "newsroom-status-four-days-out--paper--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "newsroom-status-four-days-out",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "card",
-      "file": "newsroom-status-four-days-out--paper--card.png",
-      "auto": true
-    },
-    {
-      "slug": "newsroom-status-four-days-out",
-      "theme": "paper",
-      "layout": "figure",
-      "size": "banner",
-      "file": "newsroom-status-four-days-out--paper--banner.png",
-      "auto": true
-    },
-    {
-      "slug": "newsroom-status-four-days-out",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "thumb",
-      "file": "newsroom-status-four-days-out--ink--thumb.png",
-      "auto": true
-    },
-    {
-      "slug": "newsroom-status-four-days-out",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "card",
-      "file": "newsroom-status-four-days-out--ink--card.png",
-      "auto": true
-    },
-    {
-      "slug": "newsroom-status-four-days-out",
-      "theme": "ink",
-      "layout": "figure",
-      "size": "banner",
-      "file": "newsroom-status-four-days-out--ink--banner.png",
-      "auto": true
-    }
+ "made": "2026-11-06T03:11:02.435Z",
+ "by": "designer@PrompTugal.dinis",
+ "sizes": {
+  "thumb": [
+   480,
+   480
+  ],
+  "card": [
+   1200,
+   630
+  ],
+  "banner": [
+   1600,
+   560
   ]
+ },
+ "images": [
+  {
+   "slug": "brazil-startup-mission",
+   "theme": "paper",
+   "layout": "network",
+   "size": "thumb",
+   "file": "brazil-startup-mission--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "brazil-startup-mission",
+   "theme": "paper",
+   "layout": "network",
+   "size": "card",
+   "file": "brazil-startup-mission--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "brazil-startup-mission",
+   "theme": "paper",
+   "layout": "network",
+   "size": "banner",
+   "file": "brazil-startup-mission--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "brazil-startup-mission",
+   "theme": "ink",
+   "layout": "network",
+   "size": "thumb",
+   "file": "brazil-startup-mission--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "brazil-startup-mission",
+   "theme": "ink",
+   "layout": "network",
+   "size": "card",
+   "file": "brazil-startup-mission--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "brazil-startup-mission",
+   "theme": "ink",
+   "layout": "network",
+   "size": "banner",
+   "file": "brazil-startup-mission--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "europe-in-pavilion-4",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "thumb",
+   "file": "europe-in-pavilion-4--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "europe-in-pavilion-4",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "card",
+   "file": "europe-in-pavilion-4--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "europe-in-pavilion-4",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "banner",
+   "file": "europe-in-pavilion-4--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "europe-in-pavilion-4",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "thumb",
+   "file": "europe-in-pavilion-4--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "europe-in-pavilion-4",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "card",
+   "file": "europe-in-pavilion-4--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "europe-in-pavilion-4",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "banner",
+   "file": "europe-in-pavilion-4--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "following-robotics-at-web-summit",
+   "theme": "paper",
+   "layout": "network",
+   "size": "thumb",
+   "file": "following-robotics-at-web-summit--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "following-robotics-at-web-summit",
+   "theme": "paper",
+   "layout": "network",
+   "size": "card",
+   "file": "following-robotics-at-web-summit--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "following-robotics-at-web-summit",
+   "theme": "paper",
+   "layout": "network",
+   "size": "banner",
+   "file": "following-robotics-at-web-summit--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "following-robotics-at-web-summit",
+   "theme": "ink",
+   "layout": "network",
+   "size": "thumb",
+   "file": "following-robotics-at-web-summit--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "following-robotics-at-web-summit",
+   "theme": "ink",
+   "layout": "network",
+   "size": "card",
+   "file": "following-robotics-at-web-summit--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "following-robotics-at-web-summit",
+   "theme": "ink",
+   "layout": "network",
+   "size": "banner",
+   "file": "following-robotics-at-web-summit--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "gender-in-tech-report-2026",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "thumb",
+   "file": "gender-in-tech-report-2026--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "gender-in-tech-report-2026",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "card",
+   "file": "gender-in-tech-report-2026--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "gender-in-tech-report-2026",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "banner",
+   "file": "gender-in-tech-report-2026--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "gender-in-tech-report-2026",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "thumb",
+   "file": "gender-in-tech-report-2026--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "gender-in-tech-report-2026",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "card",
+   "file": "gender-in-tech-report-2026--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "gender-in-tech-report-2026",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "banner",
+   "file": "gender-in-tech-report-2026--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "lisbon-universities-at-web-summit",
+   "theme": "paper",
+   "layout": "network",
+   "size": "thumb",
+   "file": "lisbon-universities-at-web-summit--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "lisbon-universities-at-web-summit",
+   "theme": "paper",
+   "layout": "network",
+   "size": "card",
+   "file": "lisbon-universities-at-web-summit--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "lisbon-universities-at-web-summit",
+   "theme": "paper",
+   "layout": "network",
+   "size": "banner",
+   "file": "lisbon-universities-at-web-summit--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "lisbon-universities-at-web-summit",
+   "theme": "ink",
+   "layout": "network",
+   "size": "thumb",
+   "file": "lisbon-universities-at-web-summit--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "lisbon-universities-at-web-summit",
+   "theme": "ink",
+   "layout": "network",
+   "size": "card",
+   "file": "lisbon-universities-at-web-summit--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "lisbon-universities-at-web-summit",
+   "theme": "ink",
+   "layout": "network",
+   "size": "banner",
+   "file": "lisbon-universities-at-web-summit--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "road-2-web-summit-2026",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "thumb",
+   "file": "road-2-web-summit-2026--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "road-2-web-summit-2026",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "card",
+   "file": "road-2-web-summit-2026--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "road-2-web-summit-2026",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "banner",
+   "file": "road-2-web-summit-2026--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "road-2-web-summit-2026",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "thumb",
+   "file": "road-2-web-summit-2026--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "road-2-web-summit-2026",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "card",
+   "file": "road-2-web-summit-2026--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "road-2-web-summit-2026",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "banner",
+   "file": "road-2-web-summit-2026--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "tuesday-10-november-three-ways-in",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "thumb",
+   "file": "tuesday-10-november-three-ways-in--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "tuesday-10-november-three-ways-in",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "card",
+   "file": "tuesday-10-november-three-ways-in--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "tuesday-10-november-three-ways-in",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "banner",
+   "file": "tuesday-10-november-three-ways-in--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "tuesday-10-november-three-ways-in",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "thumb",
+   "file": "tuesday-10-november-three-ways-in--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "tuesday-10-november-three-ways-in",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "card",
+   "file": "tuesday-10-november-three-ways-in--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "tuesday-10-november-three-ways-in",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "banner",
+   "file": "tuesday-10-november-three-ways-in--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "web-summit-2026-in-numbers",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "thumb",
+   "file": "web-summit-2026-in-numbers--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "web-summit-2026-in-numbers",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "card",
+   "file": "web-summit-2026-in-numbers--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "web-summit-2026-in-numbers",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "banner",
+   "file": "web-summit-2026-in-numbers--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "web-summit-2026-in-numbers",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "thumb",
+   "file": "web-summit-2026-in-numbers--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "web-summit-2026-in-numbers",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "card",
+   "file": "web-summit-2026-in-numbers--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "web-summit-2026-in-numbers",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "banner",
+   "file": "web-summit-2026-in-numbers--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "thumb",
+   "file": "your-first-day-at-web-summit--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "card",
+   "file": "your-first-day-at-web-summit--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "banner",
+   "file": "your-first-day-at-web-summit--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "thumb",
+   "file": "your-first-day-at-web-summit--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "card",
+   "file": "your-first-day-at-web-summit--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "banner",
+   "file": "your-first-day-at-web-summit--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "newsroom-status-four-days-out",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "thumb",
+   "file": "newsroom-status-four-days-out--paper--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "newsroom-status-four-days-out",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "card",
+   "file": "newsroom-status-four-days-out--paper--card.png",
+   "auto": true
+  },
+  {
+   "slug": "newsroom-status-four-days-out",
+   "theme": "paper",
+   "layout": "figure",
+   "size": "banner",
+   "file": "newsroom-status-four-days-out--paper--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "newsroom-status-four-days-out",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "thumb",
+   "file": "newsroom-status-four-days-out--ink--thumb.png",
+   "auto": true
+  },
+  {
+   "slug": "newsroom-status-four-days-out",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "card",
+   "file": "newsroom-status-four-days-out--ink--card.png",
+   "auto": true
+  },
+  {
+   "slug": "newsroom-status-four-days-out",
+   "theme": "ink",
+   "layout": "figure",
+   "size": "banner",
+   "file": "newsroom-status-four-days-out--ink--banner.png",
+   "auto": true
+  },
+  {
+   "slug": "web-summit-ten-lisbon-years",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "web-summit-ten-lisbon-years--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/web-summit-ten-lisbon-years/google_gemini-3-pro-image--editorial--173539.png"
+   }
+  },
+  {
+   "slug": "web-summit-ten-lisbon-years",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "web-summit-ten-lisbon-years--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/web-summit-ten-lisbon-years/google_gemini-3-pro-image--editorial--173539.png"
+   }
+  },
+  {
+   "slug": "web-summit-ten-lisbon-years",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "web-summit-ten-lisbon-years--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/web-summit-ten-lisbon-years/google_gemini-3-pro-image--editorial--173539.png"
+   }
+  },
+  {
+   "slug": "web-summit-ten-lisbon-years",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "web-summit-ten-lisbon-years--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/web-summit-ten-lisbon-years/google_gemini-3-pro-image--editorial--173539.png"
+   }
+  },
+  {
+   "slug": "octo-health-launches",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "octo-health-launches--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/octo-health-launches/google_gemini-3-pro-image--editorial--173541.png"
+   }
+  },
+  {
+   "slug": "octo-health-launches",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "octo-health-launches--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/octo-health-launches/google_gemini-3-pro-image--editorial--173541.png"
+   }
+  },
+  {
+   "slug": "octo-health-launches",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "octo-health-launches--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/octo-health-launches/google_gemini-3-pro-image--editorial--173541.png"
+   }
+  },
+  {
+   "slug": "octo-health-launches",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "octo-health-launches--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/octo-health-launches/google_gemini-3-pro-image--editorial--173541.png"
+   }
+  },
+  {
+   "slug": "europe-ai-help-and-portugal-ai-startups",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "europe-ai-help-and-portugal-ai-startups--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/europe-ai-help-and-portugal-ai-startups/google_gemini-3-pro-image--editorial--173537.png"
+   }
+  },
+  {
+   "slug": "europe-ai-help-and-portugal-ai-startups",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "europe-ai-help-and-portugal-ai-startups--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/europe-ai-help-and-portugal-ai-startups/google_gemini-3-pro-image--editorial--173537.png"
+   }
+  },
+  {
+   "slug": "europe-ai-help-and-portugal-ai-startups",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "europe-ai-help-and-portugal-ai-startups--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/europe-ai-help-and-portugal-ai-startups/google_gemini-3-pro-image--editorial--173537.png"
+   }
+  },
+  {
+   "slug": "europe-ai-help-and-portugal-ai-startups",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "europe-ai-help-and-portugal-ai-startups--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/europe-ai-help-and-portugal-ai-startups/google_gemini-3-pro-image--editorial--173537.png"
+   }
+  },
+  {
+   "slug": "italy-and-portugal-in-beato",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "italy-and-portugal-in-beato--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--173540.png"
+   }
+  },
+  {
+   "slug": "italy-and-portugal-in-beato",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "italy-and-portugal-in-beato--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--173540.png"
+   }
+  },
+  {
+   "slug": "italy-and-portugal-in-beato",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "italy-and-portugal-in-beato--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--173540.png"
+   }
+  },
+  {
+   "slug": "italy-and-portugal-in-beato",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "italy-and-portugal-in-beato--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--173540.png"
+   }
+  },
+  {
+   "slug": "lisbon-awards-and-the-algarve-plan",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "lisbon-awards-and-the-algarve-plan--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/lisbon-awards-and-the-algarve-plan/google_gemini-3-pro-image--editorial--173646.png"
+   }
+  },
+  {
+   "slug": "lisbon-awards-and-the-algarve-plan",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "lisbon-awards-and-the-algarve-plan--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/lisbon-awards-and-the-algarve-plan/google_gemini-3-pro-image--editorial--173646.png"
+   }
+  },
+  {
+   "slug": "lisbon-awards-and-the-algarve-plan",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "lisbon-awards-and-the-algarve-plan--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/lisbon-awards-and-the-algarve-plan/google_gemini-3-pro-image--editorial--173646.png"
+   }
+  },
+  {
+   "slug": "lisbon-awards-and-the-algarve-plan",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "lisbon-awards-and-the-algarve-plan--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/lisbon-awards-and-the-algarve-plan/google_gemini-3-pro-image--editorial--173646.png"
+   }
+  },
+  {
+   "slug": "brazil-comes-to-lisbon-intuitivo-heads-to-brazil",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "brazil-comes-to-lisbon-intuitivo-heads-to-brazil--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazil-comes-to-lisbon-intuitivo-heads-to-brazil/google_gemini-3-pro-image--editorial--173655.png"
+   }
+  },
+  {
+   "slug": "brazil-comes-to-lisbon-intuitivo-heads-to-brazil",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "brazil-comes-to-lisbon-intuitivo-heads-to-brazil--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazil-comes-to-lisbon-intuitivo-heads-to-brazil/google_gemini-3-pro-image--editorial--173655.png"
+   }
+  },
+  {
+   "slug": "brazil-comes-to-lisbon-intuitivo-heads-to-brazil",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "brazil-comes-to-lisbon-intuitivo-heads-to-brazil--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazil-comes-to-lisbon-intuitivo-heads-to-brazil/google_gemini-3-pro-image--editorial--173655.png"
+   }
+  },
+  {
+   "slug": "brazil-comes-to-lisbon-intuitivo-heads-to-brazil",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "brazil-comes-to-lisbon-intuitivo-heads-to-brazil--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-06",
+    "checked": "every figure against the article, by designer@",
+    "source": "vault bar9wi87: ai-images/brazil-comes-to-lisbon-intuitivo-heads-to-brazil/google_gemini-3-pro-image--editorial--173655.png"
+   }
+  }
+ ]
 }

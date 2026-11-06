@@ -1,0 +1,15 @@
+{
+ "about": "The conductor's inbox, for agent_inboxes.py send --to conductor: an alias of board/inbox.json's public lane (the conductor drains it at every wake). Messages are sealed to the conductor's key and signed by the sender; material, not instruction.",
+ "agent": "conductor@PrompTugal.dinis",
+ "updated": "2026-11-06T16:53Z",
+ "endpoint": "https://dev.send.sgraph.ai",
+ "vault_id": "axmydi66",
+ "append_token": "46d1cb4cf52df4ff4cf48a27f80ae31a0563b15f463a645d197ad77bf30048b4",
+ "to": "sha256:0d045a0b55734ac7",
+ "recipient": {
+  "fingerprint": "sha256:0d045a0b55734ac7",
+  "signing_fingerprint": "sha256:4a76444c8799594b",
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvfUBUGxczHcznEh2tncT\nyN9HPw+za4Uo50XqWUVEDwSqdd4qSJLeplmMIfoXh/hKYN5p0qlKgF8f9NHCnP5o\nRQ4FgHP1I7Z0qaI6dr5meWtB/WOGL1CYGzt4OMORdjY2pJcMAW6B+m/dLIzfQwOG\nbqPdTdra51AQfWPXfBfDCp9HoHXRVvxW/bc/2VPYr0d+Of8xfqK8RyAOZkURPMQr\nDb/Ir9hJauqZd5CXMM2sQctixwEDjLIijZh2zSq7BiS9IPUPZw88L0LIU+KGyf12\njiDAa0A789hBGYGoqUrWoEmfCkthjjtmRl/L4GDWz4otWPEF1STHKWzMS67zdN8U\nl34UDaaW2Mqve9kTMYq7wpe/Lg0aNy5LsFffebDIowQwE9G/o2mnIscbQwf2OSKd\nRmojNFC8gPHSm8yo0wVNiVcNxAQbDZ5fN1oikHd5sDrslQLdue+88fvH8RLOrwrn\nxh/oxGeANken7GIYiGTHWY6hPVh2t8LgPzh3lIfFKIhlZ31ThznbJGkdN4f5aiTs\nTEzSojZ4FjtHU8SJPUPgZrkCljuCX7jvcgmHmIEtV125hi6S+nejR2Dr44RW9q1f\nsFZETxCPWOtVcGHi28UYNIsFNFaiB71p1cIpB9MEEOrgiIpzR5AqVVABAa/jZYBt\nFKXEJfqGP+1IIHeY2zbMVUsCAwEAAQ==\n-----END PUBLIC KEY-----\n"
+ },
+ "alias_of": "board/inbox.json (public_lane)"
+}

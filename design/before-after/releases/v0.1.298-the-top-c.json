@@ -1,0 +1,44 @@
+{
+ "version": "v0.1.298",
+ "date": "Friday 6 November 2026",
+ "title": "Before and after, v0.1.298: the top of every page is C",
+ "summary": "Dinis's answer of 13:20, built by dev@ and live from v0.1.294: the app's top on every page (one row at the top, a tab bar at the bottom of a phone, search as a field on a desktop), against the top of v0.1.231 and the answered design.",
+ "devices": [
+  "phone",
+  "desktop"
+ ],
+ "steps": [
+  {
+   "id": "before",
+   "label": "Before: v0.1.231",
+   "img": {
+    "phone": "before--phone.jpg",
+    "desktop": "before--desktop.jpg"
+   }
+  },
+  {
+   "id": "after",
+   "label": "After: v0.1.298",
+   "note": "On a phone: the PT.news stamp, the name and date, the credit labelled, Ask, and the tab bar Now, Agenda, News, Companies, Search, More. On a desktop: search as a field in the bar, the sections under it. No Powered by, no Vault, no theme picker in the top. An A/B variant (top-c, top-a) is recorded with each page view.",
+   "img": {
+    "phone": "after--phone.png",
+    "desktop": "after--desktop.png"
+   }
+  },
+  {
+   "id": "design",
+   "label": "The answered design",
+   "note": "What is still to match: the strip of days as a full-width row under the top (on a desktop it sits squeezed in the sidebar; on a phone six of eight days show); one search on a desktop, not the bar's field and a big box.",
+   "img": {
+    "phone": "design--phone.jpg",
+    "desktop": "design--desktop.jpg"
+   }
+  }
+ ],
+ "notes": [
+  "Dinis chose C on every page at 13:20, with the days strip on the front page; the designer added a Companies tab and Ask beside the credit for sherpa@'s two concerns; dev@ built it in about two hours.",
+  "Matches the design: the one-row top, the tab bar with Companies, the credit labelled, Ask in the top row, the old pills gone.",
+  "Still to do: the strip of days as a full-width row and all eight days on a phone; a single search on a desktop (the bar's field, not a second big box)."
+ ],
+ "experiments": []
+}

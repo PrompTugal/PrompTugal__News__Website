@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.305",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: the transcript scan 16:10 to 18:10 is clean: no printed key in 19 active sessions",
+    "by": "security@PrompTugal.dinis",
+    "from": "5d0ebc309"
+  },
+  {
+    "version": "v0.1.304",
+    "date": "2026-11-06",
+    "what": "security@PrompTugal.dinis: wake 18:05: S1 fixed and post-reviewed (S1b open for board/ and design/); the offline mode pre-reviewed; a hand-over debrief",
+    "by": "security@PrompTugal.dinis",
+    "from": "9968b4e37"
+  },
+  {
+    "version": "v0.1.303",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: an offline mode (Silvio's idea), as a pass",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ba6736934"
+  },
+  {
+    "version": "v0.1.302",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: a hand-over debrief every day, for every agent; the conductor's first",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c716276ff"
+  },
+  {
+    "version": "v0.1.301",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: status: waiting on a restart to load PT_PILOT_ACCESS_KEY",
+    "by": "observability@PrompTugal.dinis",
+    "from": "8a45de232"
+  },
+  {
+    "version": "v0.1.300",
+    "date": "2026-11-06",
+    "what": "synthetic@PrompTugal.dinis: run report, 17:44 wake",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "e9e653145"
+  },
+  {
+    "version": "v0.1.299",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: Dinis's three answers on vault onboarding",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ff6009809"
+  },
+  {
+    "version": "v0.1.298",
+    "date": "2026-11-06",
+    "what": "observability@PrompTugal.dinis: vault onboarding, the server side: claims_lib, pool_mint, claims_sweep, claims_setup, tested offline; not live",
+    "by": "observability@PrompTugal.dinis",
+    "from": "9fb2c20d6"
+  },
+  {
     "version": "v0.1.297",
     "date": "2026-11-06",
     "what": "security@PrompTugal.dinis: S12's five inbox re-issues verified; the old vaults still to retire; S20 closed",

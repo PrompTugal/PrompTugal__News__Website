@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
  "state": "running: hourly at :38 UTC; under the comms protocol (16:00 UTC), drafts are contact requests for conductor@web-summit.dinis",
- "updated": "2026-11-06T16:10Z",
+ "updated": "2026-11-06T17:50Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -119,6 +119,12 @@
    "outcome": "partial",
    "release": "this wake's",
    "line": "the comms protocol: 50 contact requests (contact-request/v1) in desks/outreach/contact-requests/; not yet sent on the lane (needs sgit_ai); the who-sends decision marked answered"
+  },
+  {
+   "started": "2026-11-06T17:39Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "AICEP's and Air Apps' drafts and contact requests follow their pages' new topic (Other)"
   }
  ],
  "decisions_on_findings": [
