@@ -71,13 +71,13 @@ function passagesFor(claim, ok, n = 8, size = 1600) {
 }
 
 let spent = 0;
-async function ask(model, prompt) {
+async function ask(model, prompt, maxTokens = 3000) {
   const key = process.env.OPEN_ROUTER_KEY;
   if (!key) throw new Error('OPEN_ROUTER_KEY is not set');
   if (spent >= MAX_USD) throw new Error('budget reached: ' + spent.toFixed(4) + ' USD');
   const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
     method: 'POST', headers: { authorization: 'Bearer ' + key, 'content-type': 'application/json' },
-    body: JSON.stringify({ model, temperature: 0, max_tokens: 3000, usage: { include: true }, messages: [{ role: 'user', content: prompt }] }),
+    body: JSON.stringify({ model, temperature: 0, max_tokens: maxTokens, usage: { include: true }, messages: [{ role: 'user', content: prompt }] }),
     signal: AbortSignal.timeout(120000),
   });
   const j = await r.json();
@@ -110,7 +110,7 @@ for (const c of claims) {
     try {
       const prompt = fill(PROMPTS.judge, { claim: c.claim, corpus });
       let v;
-      try { v = json(await ask(m, prompt)); } catch (e) { if (/budget|HTTP/.test(String(e.message))) throw e; v = json(await ask(m, prompt)); }
+      try { v = json(await ask(m, prompt, 8000)); } catch (e) { if (/budget|HTTP/.test(String(e.message))) throw e; v = json(await ask(m, prompt, 8000)); }
       return { model: m, ...v };
     } catch (e) { return { model: m, verdict: 'error', note: String(e.message).slice(0, 160) }; }
   }));

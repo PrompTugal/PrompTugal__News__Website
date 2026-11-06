@@ -28,6 +28,12 @@
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "articles": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
     }
   },
   "additionalProperties": false

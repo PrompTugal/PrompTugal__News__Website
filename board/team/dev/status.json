@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "The build, the tools, the gate, the features, the domain and CI; separating code from content (every word in markdown, every fact in JSON).",
   "state": "running: hourly at :08 UTC (scheduled task, at Dinis's word); Dinis also gives work in the session",
-  "updated": "2026-11-06T19:32Z",
+  "updated": "2026-11-06T20:25Z",
   "done": [
+    "Wake 20:09: six worker branches brought (dev.pages by hand: my script had dropped its schema change on a conflict; fixed in the script); the offline worker keeps dev.pages@'s day data (api/v1/days*.json). security@ post-reviewed S1b and the service worker: sound.",
     "Wake 19:09: six worker branches brought (dev.data past summits; dev.graphs cloud centres and past summits; dev.pages days and agenda; dev.portugal Algarve; dev.search the vault onboarding, off while claims.json is off and security@'s CSP and issuer-key conditions stand; dev.verify records); dev@PrompTugal.vicky's markdown autolinks and /how-we-publish/ read and kept; sherpa@'s T22 (no big search bar under C).",
     "Wake 18:08: security@'s offline conditions (never the key pages, Clear offline copies, a kill switch, the worker's files dev@'s only, gate-checked); S1b (no scripts or documents from board/ or design/ deployed); the deploy's size, devops@'s hand-off (149 unlinked screenshots, 36 MB, left out: about 61 to 25 MB).",
     "Wake 18:00 (the conductor's relay of Dinis 17:55 and 18:05): the hand-over debrief (board/team/dev/debriefs/2026-11-06-handover.md); the offline mode, step 2 of its pass: /sw.js (shell, front page, /summit/ and its days, agenda data, ten newest articles; network first), Save for offline on articles, a manifest; tested offline on a phone. Shipped before security@'s pre-review; asked for its review live.",

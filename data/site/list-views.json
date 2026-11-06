@@ -37,5 +37,10 @@
   },
   "offline": {
     "about": "The summit's days as data, one file per day, for the offline mode: every session of our programme on that day, with its time, place, page and source. Times are Lisbon time (UTC in November) and can change: check the summit's own schedule."
+  },
+  "articles": {
+    "wire": "The wire",
+    "byday": "By day",
+    "bytopic": "By topic"
   }
 }
