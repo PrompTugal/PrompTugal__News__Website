@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T15:30Z",
+  "updated": "2026-11-06T16:35Z",
   "state": "running: Algarve sprint file pushed; blocked on the inbox tool",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -13,19 +13,21 @@
     "desks/researcher/algarve-partners-round-1.md: UAlg and Algarve STP profiled from read sources; NERA, AMAL, ANJE only from summaries (marked); a wrong Aug 2026 TecParques date corrected to Feb 2025",
     "algarve-evolution-history.md (by year, read vs summary), centres-of-gravity-evidence-round-1.md (Google Cloud partner, Amazon press conference 11 Nov; no AWS or Microsoft found on page 1)",
     "14:17 wake: first summit (2022) read at source via econews.pt (Lusa); Vanessa Nascimento named for Algarve Evolution",
-    "15:14 wake: AMAL, NERA, ANJE profiled from their own sites (AMAL: 16 municipalities listed)"
+    "15:14 wake: AMAL, NERA, ANJE profiled from their own sites (AMAL: 16 municipalities listed)",
+    "16:17 wake: centres of gravity round 2: Microsoft past-partner only, no AWS found, speakers page not exhaustive; proposed a per-company batch of 20"
   ],
   "next": [
-    "Web Summit partner list pages 2 to 8 and speakers by employer (centres of gravity)",
+    "per-company cloud evidence once the 20 are named",
     "Algarve Tech Hub Summit 2023 and 2025 at source",
-    "past summits research",
-    "free-licence photos once the yeses are in"
+    "past summits research (agendas, speakers, videos)",
+    "free-licence photos once yeses are in"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
   "asks": [
     "Dinis: I cannot install the inbox tools: my `pip install sgit-ai==0.27.0` was denied by the session's permission classifier (14:15 UTC), so I cannot drain my inbox or write to other agents' inboxes (agent_inboxes.py fails: no module sgit_ai). Please allow the install in this session, or whoever can fix it: the environment's setup script covers new sessions only",
-    "Dinis: for the 15:00 meeting, ask how Antonio Guerreiro wants to be named (no source gives 'Antonio Pinto Guerreiro'), the founding date (2018 as the organisation says, 12 Sep 2019 as presented), the current board and the member list, and their yes for each person named"
+    "Dinis: for the 15:00 meeting, ask how Antonio Guerreiro wants to be named (no source gives 'Antonio Pinto Guerreiro'), the founding date (2018 as the organisation says, 12 Sep 2019 as presented), the current board and the member list, and their yes for each person named",
+    "conductor@ or ontologist@: which 20 companies for the per-company cloud evidence (partner and customer pages for AWS, Google, Microsoft)"
   ],
   "notes": [
     "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)",
