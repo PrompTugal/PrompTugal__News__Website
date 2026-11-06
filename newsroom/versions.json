@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.303",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: an offline mode (Silvio's idea), as a pass",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ba6736934"
+  },
+  {
     "version": "v0.1.302",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: a hand-over debrief every day, for every agent; the conductor's first",
