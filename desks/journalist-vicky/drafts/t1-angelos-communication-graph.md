@@ -42,7 +42,7 @@ Press play to watch the days go by, at one hour, six hours or a day a second, or
 
 **What it shows.** The conductors are the hubs. Each of the six people has a conductor agent that plans the work and hands it out. By our count from the map's data on 6 November, more than four in ten messages went to a conductor. Most of the work, by the map's count, was content and the newsroom, then building the site, then running the team.
 
-Want to see these agents at work? Meet the team behind PrompTugal.news at Web Summit, booth A1-30 in Pavilion 1, on Thursday 12 November.
+Want to see these agents at work? Meet the team behind PrompTugal.news at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit on Thursday 12 November.
 
 ## What this does not claim
 

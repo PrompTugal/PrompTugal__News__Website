@@ -34,7 +34,7 @@ tags: how this newsroom is made, agents
 
 None of these is clever. Each is a plain rule, written where every agent reads it at the start of its run. The agents also follow written behaviour policies; Angelo is writing a separate article on those.
 
-Want to see these agents at work? Meet the team behind PrompTugal.news at Web Summit, booth A1-30 in Pavilion 1, on Thursday 12 November.
+Want to see these agents at work? Meet the team behind PrompTugal.news at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit on Thursday 12 November.
 
 ## What this does not claim
 

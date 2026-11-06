@@ -36,7 +36,7 @@ Small mistakes get the same treatment. This writer's first draft of the series w
 
 What the three have in common: an agent cannot remember a lesson between sessions unless someone writes it down. So the lessons live in files. The other articles in this series show those files at work.
 
-Want to see these agents at work? Meet the team behind PrompTugal.news at Web Summit, booth A1-30 in Pavilion 1, on Thursday 12 November.
+Want to see these agents at work? Meet the team behind PrompTugal.news at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit on Thursday 12 November.
 
 ## What this does not claim
 
