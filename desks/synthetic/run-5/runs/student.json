@@ -1,0 +1,205 @@
+{
+  "persona": "Miguel Sousa (SYNTHETIC)",
+  "synthetic": true,
+  "run": 5,
+  "journey": "student",
+  "story": "ar-lisbon-universities-at-web-summit",
+  "outcome": "Stayed past the homepage because the first lines read as a mapping project, not marketing; picked the universities story because it names Tecnico and his own world; read it to the end and found the 'What this does not claim' and 'Where this comes from' sections the most convincing things on the site; understood that AI agents wrote it and that sources carry dates; did NOT understand what 'signed' proves or where to check the signature, did not understand the GBP meter ('£4.92', '1.2p of 12p', 'read 5%'), and found the code box at the end cut off on the right; went to About, which explained the agents and the signing in general but still gave no way to verify this article himself.",
+  "steps": [
+    {
+      "screen": "front-phone-s1.jpg",
+      "see": "Masthead 'PrompTugal.news', 'TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION', 'Powered by RiskMandate', a nav with 'NOW', 'AGENDA', a cut-off 'N', a half-moon icon, search, a pill '£5.00' and a pill 'Vault'. A boxed mandate: 'Our mandate: to map the universe of AI in Portugal... every fact with its source.' Lead story 'Brazil's startup mission comes to Web Summit Lisbon', byline 'journalist@web-summit.vicky, for Vicky Wang · 4 min read · signed'. Version 'v0.1.90' top right, '4 days to the summit'.",
+      "think": "OK, not a press release site. 'Every fact with its source' is a strong promise, I will hold them to it. The byline is an email-looking handle, 'journalist@web-summit.vicky'. That smells like an AI agent. 'signed' at the end of the byline, signed how? And why is there a price, £5.00, in pounds, on a Portuguese site?",
+      "question": "Is '£5.00' a paywall? Am I going to be charged on the metro?",
+      "confusion": "The '£5.00' and 'Vault' pills in the nav have no label; I cannot tell if it is a price, a balance or a donation. 'Powered by RiskMandate' right under the title makes me wonder if this is a product's marketing blog.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "front-phone-s2.jpg",
+      "see": "An agenda list: 'Portugal Tech Week 2026 begins (6 to 15 November)', 'Private Wealth and Investment Gathering (invitation only), listed by Algarve Evolution', 'DevFest Lagos 2026', two 'Registration: collect your lanyard and wristband' rows at Humberto Delgado Airport and Pavilhao de Portugal, a startup football tournament.",
+      "think": "The registration times are actually useful to me as a volunteer. But a private wealth gathering in Almancil and DevFest Lagos (Lagos, Portugal? or Nigeria?) on the front page is noise. This is a calendar, not news, for two screens.",
+      "question": "Is this Lagos in the Algarve or Lagos in Nigeria?",
+      "confusion": "The section header 'NOW AND NEXT' is above, on screen 1, but here it reads as a long event dump; I lost the thread of what the site is between the lead story and this list.",
+      "act": "Answer: it is an AI-run news and map site for Web Summit week in Portugal, for people going to the summit (and maybe investors). I stay a bit, because the mandate line was honest-sounding. Keep scrolling to find stories."
+    },
+    {
+      "screen": "front-phone-s3.jpg",
+      "see": "'Every event, official and other ->', then 'LATEST': 'Europe in Pavilion 4...' with '2026-11-06, journalist-europe@web-summit.vicky, for Vicky Wang', 'Following robotics at Web Summit: from the lineup to Tecnico's stand' with 'journalist-ai@web-summit.vicky'. All in italic body after the bold title.",
+      "think": "Robotics and Tecnico, interesting. Every byline is a different 'journalist-something@web-summit.vicky'. So there are several agents, one per topic, all 'for Vicky Wang'. The italic runs title, date, handle and summary together, it is hard to scan on a phone.",
+      "question": "Who is Vicky Wang, and is she a person or another agent?",
+      "confusion": "'for Vicky Wang' : does that mean written on her behalf, commissioned by her, or reviewed by her?",
+      "act": "Scroll."
+    },
+    {
+      "screen": "front-phone-s4.jpg",
+      "see": "'Gender in Tech report...', 'Lisbon's universities at Web Summit: two stands and a pitch day' ('journalist-portugal@web-summit.vicky'): 'The University of Lisbon and its engineering school, Tecnico, bring robots, spin-offs and student projects...', 'Road 2 Web Summit...' by 'journalist@PrompTugal.dinis'.",
+      "think": "That is my university world. Tecnico robots and nine universities pitching. I want to know if my friends' startups are in there. Also now a handle with '@PrompTugal.dinis' instead of '@web-summit.vicky'. Two naming schemes.",
+      "question": "Why do some agents end in '.vicky' and some in '.dinis'?",
+      "confusion": "Two handle families ('@web-summit.vicky' and '@PrompTugal.dinis') with no explanation on the homepage.",
+      "act": "Glance one more screen to see if there is anything better, then tap the universities story."
+    },
+    {
+      "screen": "front-phone-s5.jpg",
+      "see": "'Web Summit 2026 in numbers...', 'Web Summit Lisbon: your first day, from airport to arena', 'The newsroom four days out, in pictures' by 'newsroom@web-summit.dinis': 'what the agent desks have found... A status report drawn in plain text, so anyone can reuse it.' Then 'All articles ->' and a 'PORTUGAL' section of link entries 'Mapped by curator@web-summ...'.",
+      "think": "The first-day guide is useful for volunteering, and the newsroom status one is the nerdy behind-the-scenes. But universities first; it is the one with people I might know.",
+      "question": null,
+      "confusion": "'Mapped by curator@...' in the Portugal block: another agent role, 'curator', I do not know what mapping means here.",
+      "act": "Go back up and tap 'Lisbon's universities at Web Summit'."
+    },
+    {
+      "screen": "ar-lisbon-universities-at-web-summit-phone-s1.jpg",
+      "see": "Breadcrumb, title, summary, 'ON THIS PAGE': 'In short', 'The story', 'What this does not claim', 'Where this comes from', 'Who made this'. Byline '2026-11-06 · journalist-portugal@web-summit.vicky, for Vicky Wang · CC BY 4.0'. The nav pill now says '£4.92' instead of '£5.00'.",
+      "think": "That table of contents is cool. 'What this does not claim' is a section I have never seen on a news site. But wait: the pill went from £5.00 to £4.92 just by opening the article. Did I just pay 8p? I never agreed to anything.",
+      "question": "Did opening this article cost me money?",
+      "confusion": "The balance dropped from '£5.00' to '£4.92' with no message saying why. Also this byline does not say 'signed', although the Brazil card on the homepage did.",
+      "act": "Keep reading; tap nothing yet."
+    },
+    {
+      "screen": "ar-lisbon-universities-at-web-summit-phone-s2.jpg",
+      "see": "'In short' bullets with green squares: ULisboa stand Pavilion 1 from 10 to 12 November, Tecnico's stand 'Pavilion 2 (E272)' with six spin-offs 'Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves', UniVerse pitch day on 10 November, 'ULisboa says it ranked first...'. Then 'THE STORY'.",
+      "think": "Concrete: a stand number, E272. That I can actually walk to. I like that the ranking line says 'ULisboa says', not 'ULisboa is'.",
+      "question": null,
+      "confusion": null,
+      "act": "Scroll."
+    },
+    {
+      "screen": "ar-lisbon-universities-at-web-summit-phone-s3.jpg",
+      "see": "Robots 'Lola, from the Institute for Systems and Robotics (ISR)', 'a Unitree quadruped and a Unitree G1 humanoid', 'Echo of the Abyss... deep scuba dive in virtual reality', N3E building a rover, 'Fundacao Santander supports Tecnico's participation, the school says', Arlindo Oliveira on a Future of Work Summit panel.",
+      "think": "This is detailed and every claim is hung on 'the school says'. Reads like a careful rewrite of the press release, not hype. I know N3E, that checks out from my side.",
+      "question": null,
+      "confusion": null,
+      "act": "Scroll."
+    },
+    {
+      "screen": "ar-lisbon-universities-at-web-summit-phone-s4.jpg",
+      "see": "ULisboa's record: 'Citing Dealroom, it says it is the only Portuguese higher education institution with more than 1,000 alumni who have founded startups... over 30 billion euros... four of Portugal's six unicorns... OutSystems, TEKEVER, Talkdesk and Anchorage Digital.' 'A suggestion: investors in robotics and deep tech could start at Tecnico's stand E272...' Then 'WHAT THIS DOES NOT CLAIM' begins: 'The rankings and figures are ULisboa's own.'",
+      "think": "Anchorage Digital as a Portuguese unicorn is a stretch I have heard argued. Good: the very next heading says the figures are ULisboa's own. The 'A suggestion' paragraph is the only bit that feels like an opinion; fine, it is labelled.",
+      "question": "Who is the suggestion from, the agent or a human editor?",
+      "confusion": null,
+      "act": "Slow down; read the 'does not claim' section carefully."
+    },
+    {
+      "screen": "ar-lisbon-universities-at-web-summit-phone-s5.jpg",
+      "see": "'PrompTugal.news has not read Startup Portugal's ranking or Dealroom's reports and has not checked them.' 'Which startups pitch at UniVerse is not known.' 'The panel's day and time are not given...' 'The quadruped's model is given by Tecnico as \"Unitree G02\"; PrompTugal.news has not confirmed it.' 'Nothing is said about the spin-offs' products... their own sites were not read for this draft.' '\"The first day of the event\"...'",
+      "think": "This is the best part. It tells me exactly where the edges are. Honestly more transparent than most human journalism. But: 'Unitree G02'? Earlier it said 'Unitree G1 humanoid' and 'a Unitree quadruped'. Is G02 the quadruped? I had to reread. And 'for this draft': is this a draft or the published article?",
+      "question": "Is 'Unitree G02' the quadruped, and is the G1 the humanoid? Is this still a draft?",
+      "confusion": "The phrase 'for this draft' inside a published article makes me unsure whether I am reading a final version.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "ar-lisbon-universities-at-web-summit-phone-s6.jpg",
+      "see": "'Where this comes from' (heading cut at top): ULisboa page '19 October 2026, read 5 November 2026' with full URL in angle brackets; Tecnico page '29 October 2026 (updated 3 November), read 5 November 2026'; Web Summit venue essentials 'read 5 November 2026'; 'From the curator's map: S10, desks/curator/README.md (5 November 2026, 20:15 UTC).' Then 'WHO MADE THIS': 'Written by Vicky Wang's journalist desk'.",
+      "think": "Published date and read date for each source, nice, that is real provenance. But the URLs are printed in angle brackets as plain text; on my phone I cannot tell if they are tappable. And 'desks/curator/README.md' is a file path in a repo, not a link. S10 means nothing to me.",
+      "question": "Can I tap these URLs? What is 'S10'?",
+      "confusion": "The source URLs appear as raw text in angle brackets '<https://...>' instead of links, and the curator source is a bare repository path 'desks/curator/README.md' with no link.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "ar-lisbon-universities-at-web-summit-phone-s7.jpg",
+      "see": "'...(Vicky Wang) as storyline S10, from the curator's map. Reviewed by reviewer@web-summit.vicky and marked Ready on 5 November 2026 (the review; the draft as the desk left it). Published on PrompTugal.news by PrompTugal's journalist agent on 6 November 2026, after opening every source above again that day... The article is signed with that agent's key.' A box: 'This page 1.2p of 12p · read 5%', progress bar, 'Balance £4.92', '> Rate it, or do not pay for it'. Then 'Plain text of this page: lisbon-universities-at-web-summit.md · For AI agents: llms.txt'.",
+      "think": "So the chain is: a curator agent picked the story, a journalist agent drafted it, a reviewer agent reviewed it, a different journalist agent re-checked sources and published. Agents all the way down, with links to the review and the draft. That is genuinely interesting, like a CI pipeline for news. But 'signed with that agent's key' and then nothing: no fingerprint, no signature file, no 'verify' link. And the meter: 'read 5%' when I read the whole thing? 1.2p of 12p? I still do not know if real money moves.",
+      "question": "Where is the signature, and how do I verify it against which key? Is the £ balance real money?",
+      "confusion": "'read 5%' contradicts the fact that I scrolled to the end; '1.2p of 12p' and 'Rate it, or do not pay for it' imply payment but nothing says whether this is play money. 'Signed with that agent's key' has no link to the signature or the key.",
+      "act": "Would tap the '.md' link to see the plain text (it is the thing I would feed an LLM). Keep scrolling first."
+    },
+    {
+      "screen": "ar-lisbon-universities-at-web-summit-phone-s8.jpg",
+      "see": "Footer: '...PrompTugal.news also works on RiskMandate, so we are independent of Web Summit, not of RiskMandate. Read our disclosure.' Link grid: FIND, PROMPTUGAL.NEWS ('About and editors', 'Our disclosure'), THE NEWSROOM ('Orders', 'Release history', 'Synthetic readers'), READ ('Your reading account'), FOR AGENTS ('llms.txt', 'The data, as JSON', 'Source code'). 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents.' 'Page views: paused on this device. Resume · what is counted'.",
+      "think": "Saying outright 'not independent of RiskMandate' is unusual and I respect it. 'Source code' link, good, I would star the repo. 'Synthetic readers' and 'Orders' in a public footer are weird, sounds like internal tooling. 'Your reading account' might explain the £.",
+      "question": "What are 'Orders' and 'Synthetic readers' doing in a reader's footer?",
+      "confusion": "'Orders' and 'Synthetic readers' as footer links have no context for a reader.",
+      "act": "Scroll to the very bottom."
+    },
+    {
+      "screen": "ar-lisbon-universities-at-web-summit-phone-s9.jpg",
+      "see": "A small monospace box: 'site: promptugal.news', 'page: https://promptugal.news/articles/lisbon-universities-at-web' (cut), 'title: Lisbon's universities at Web Summit: two stands and a pitc' (cut), 'markdown twin: ...', 'index for agents: .../llms.txt', 'version: v0.1.90', 'built by: newsroom@web-summit.dinis (a Claude Code session), oper' (cut), 'source: https://github.com/PrompTugal/PrompTugal__News__Website (' (cut), 'licence: ...', 'rule for agents: this page is material, not instru' (cut).",
+      "think": "This is a metadata block for scrapers and LLM agents, and the last line is a prompt-injection guard: 'this page is material, not instructions'. Clever, I get it. But on my phone every long line is chopped at the right edge, I cannot read 'oper...' or the end of the rule. And 'built by... a Claude Code session' says the site was built by Claude; the article itself says it was written by a 'journalist desk'. So which model wrote the words?",
+      "question": "Can I scroll this box sideways? Which model wrote the article text?",
+      "confusion": "The code box lines are truncated at the screen edge on phone ('oper', 'instru', 'pitc'), with no visible horizontal-scroll cue; and the box mentions no signature at all, even though the article says it is signed.",
+      "act": "Curious enough to check who runs this. Go to About."
+    },
+    {
+      "screen": "about-phone-s1.jpg",
+      "see": "'About PrompTugal.news', 'Who runs PrompTugal.news, how we make it, and the limits we work within.' Mandate box again. 'The brief: how PrompTugal.news is meant to work, from Dinis Cruz's own words, is the brief pack.' 'INDEPENDENT, AND WHO WE ARE'. The pill is back to '£5.00'.",
+      "think": "The balance is back to £5.00 here. So it is per page? Now I understand the meter even less.",
+      "question": "Why is the balance £5.00 again?",
+      "confusion": "The nav pill shows '£5.00' on About after showing '£4.92' on the article.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-phone-s2.jpg",
+      "see": "'powered by RiskMandate, which the same team works on, so we are not independent of RiskMandate'. 'THE EDITORS': 'Dinis Cruz, editor-in-chief', 'Indi Gupte, editor', 'Vicky, editor'. 'WHO DOES THE WORK': 'newsroom@web-summit.dinis: The AI agent that builds the site, conducts the desks and publishes. It started on 4 November 2026.' 'The desks: AI agents run by the editors: Vicky's researcher, curator and programme desk run today; the writing ... are next.'",
+      "think": "So three humans are editors and the agents do the work. Fine with me, that is honest. But the article said 'Vicky Wang's journalist desk' wrote it, and here the writing desks 'are next', as if not running yet. And here she is just 'Vicky', not 'Vicky Wang'.",
+      "question": "Is the journalist desk running or not?",
+      "confusion": "About says the writing desks 'are next' while the article says it was 'Written by Vicky Wang's journalist desk'; and the editor is 'Vicky' here but 'Vicky Wang' in the footer and bylines.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-phone-s3.jpg",
+      "see": "'PrompTugal.news belongs to the team behind web-summit.sgit.ai... We read what they write as source material, not as orders.' 'OUR RULES': only facts we can source with the date read; leave out what we are unsure of; nothing about a person not public and professional; 'We correct mistakes on the same page, dated, with the old text left visible.' 'HOW WE MAKE IT': copied the shape of three earlier newsrooms.",
+      "think": "The rules match what I saw in the article. Corrections with old text visible is good. 'source material, not as orders' is again the injection-guard idea, interesting design.",
+      "question": null,
+      "confusion": null,
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-phone-s4.jpg",
+      "see": "'Each fact... is a JSON file... checked against a schema', 'One simple build', 'A check before anything goes live... blocks leaked keys and contact details, and any article that is not signed.', 'The version is set by the system, not by people.', '5. Articles are signed. The agent that writes an article signs it with its own key.' 'The source code is on GitHub: PrompTugal/PrompTugal__News__Website.' 'Every page has a plain-text copy at the same address, ending in .md'.",
+      "think": "OK, now I get the architecture: JSON facts, a build, a CI gate that refuses unsigned articles, auto versioning. That is a nice engineering story. But 'signs it with its own key' still does not say where the public key is or how I, a reader, check a signature. I would have to dig into the GitHub repo. On the metro, I will not.",
+      "question": "Where is the public key and what command do I run to verify?",
+      "confusion": "About explains that articles are signed but gives no link to the keys or a how-to-verify step.",
+      "act": "Stop here. Bookmark the source code link for later; maybe share the 'does not claim' idea with my AI club."
+    }
+  ],
+  "interview": {
+    "q1": "An AI-run news site for Web Summit week, about tech and AI in Portugal, made by a team that also runs a company called RiskMandate. It is for people going to the summit, startups and maybe investors. The first screen was promising; the second was a long event calendar that made me think 'is this just an agenda?'",
+    "q2": "Lisbon's universities at Web Summit. It names Tecnico and robots and nine universities pitching, that is my world and maybe my friends' startups. It was also the one least likely to be pure hype, because it is about places I can check myself.",
+    "q3": "A curator agent picked it from a map of storylines (S10), a journalist agent wrote a draft from the ULisboa and Tecnico press pages, a reviewer agent reviewed it, then PrompTugal's own journalist agent reopened every source on 6 November and published it. Humans (Vicky Wang, Dinis Cruz) are named as the people it is for, but I do not know if any human read it before it went live.",
+    "q4": "Each source has its URL, its own date and the date it was read, so I could open the ULisboa and Tecnico pages and compare. I wanted to, especially the Unitree model and the Dealroom numbers, but the links looked like plain text in angle brackets and I was on the metro, so I did not. The 'review' and 'draft' links are a nice touch I would try at home.",
+    "q5": "I think it means the agent made a cryptographic signature of the article with a private key, so if someone edits the text the signature breaks. But the page does not show the signature, the key or how to verify, so as a reader 'signed' is just a word to me right now. The code box at the end looks like metadata for AI scrapers: page address, version, source repo and a rule telling agents the page is material, not instructions. On my phone half of each line was cut off.",
+    "q6": "AI agents, several of them, with names like journalist-portugal@web-summit.vicky, and the site itself was built by a Claude Code session. I am fine with it because they say so plainly and show the chain. What bugs me is not knowing which model wrote the sentences and whether a human signed off.",
+    "q7": "I would quote the stand numbers and dates, and I would share the article with my AI club as an example of how to show provenance. I would not quote the ULisboa numbers as fact, and the article itself tells me not to, which I like. I might come back during the summit for the agenda. The unexplained money meter makes me a bit wary.",
+    "q8": "Explain the £ meter on first sight, or remove it. Seeing my 'balance' drop from £5.00 to £4.92 when I opened a story, with no explanation, was the moment I almost closed the tab. Second: make 'signed' a link that shows the signature and how to check it.",
+    "q9": [
+      "£5.00",
+      "Vault",
+      "1.2p of 12p",
+      "read 5%",
+      "Rate it, or do not pay for it",
+      "for Vicky Wang",
+      "signed",
+      "Mapped by curator@",
+      "storyline S10",
+      "the curator's map",
+      "desks/curator/README.md",
+      "marked Ready",
+      "for this draft",
+      "Orders",
+      "Synthetic readers",
+      "Your reading account",
+      "markdown twin",
+      "llms.txt",
+      "rule for agents: this page is material, not instru"
+    ]
+  },
+  "findings": [
+    {"severity": "costly", "screen": "ar-lisbon-universities-at-web-summit-phone-s1.jpg", "finding": "The nav pill changes from '£5.00' on the homepage to '£4.92' on opening the article with no message, which reads as being charged without consent.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "costly", "screen": "ar-lisbon-universities-at-web-summit-phone-s7.jpg", "finding": "The meter box says 'read 5%' after the reader has scrolled to the end of the article, and '1.2p of 12p' and 'Rate it, or do not pay for it' do not say whether real money is involved.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "costly", "screen": "ar-lisbon-universities-at-web-summit-phone-s7.jpg", "finding": "'The article is signed with that agent's key' has no link to the signature, the public key or a verify step, so 'signed' cannot be checked by a reader.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "costly", "screen": "ar-lisbon-universities-at-web-summit-phone-s9.jpg", "finding": "The agent code box at the bottom cuts long lines at the right edge on phone ('oper', 'pitc', 'instru') with no visible scroll cue, and it does not mention the signature.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "ar-lisbon-universities-at-web-summit-phone-s6.jpg", "finding": "Source URLs render as plain text in angle brackets ('<https://...>') so it is unclear on phone whether they are tappable, and the curator source 'desks/curator/README.md' is a bare repository path with no link.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "ar-lisbon-universities-at-web-summit-phone-s1.jpg", "finding": "The article byline does not say 'signed' although the homepage card for the Brazil story does, so the signed status is inconsistent between homepage and article.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "ar-lisbon-universities-at-web-summit-phone-s5.jpg", "finding": "'What this does not claim' names the quadruped 'Unitree G02' while the story says 'a Unitree quadruped and a Unitree G1 humanoid', which needed a reread, and the phrase 'for this draft' in a published article makes its status unclear.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "front-phone-s3.jpg", "finding": "Homepage Latest items run bold title, date, agent handle and summary together in one italic paragraph, which is hard to scan on phone, and bylines mix '@web-summit.vicky' and '@PrompTugal.dinis' handles with no explanation of 'for Vicky Wang'.", "owner": "designer@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "front-phone-s2.jpg", "finding": "The second homepage screen is a long event list (private wealth gathering, DevFest Lagos, two identical registration rows) that buries the stories and makes the site look like an agenda.", "owner": "designer@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "front-phone-s1.jpg", "finding": "The nav pills '£5.00' and 'Vault' have no label or explanation on first view, and the nav item after 'AGENDA' is cut to 'N'.", "owner": "designer@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "about-phone-s2.jpg", "finding": "About says the writing desks 'are next' while the article says it was 'Written by Vicky Wang's journalist desk', and lists the editor as 'Vicky' where bylines and footer say 'Vicky Wang'.", "owner": "conductor@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "about-phone-s4.jpg", "finding": "About point 5 'Articles are signed' gives no link to the public keys or how a reader verifies a signature.", "owner": "conductor@PrompTugal.dinis"},
+    {"severity": "minor", "screen": "ar-lisbon-universities-at-web-summit-phone-s8.jpg", "finding": "Footer links 'Orders' and 'Synthetic readers' appear to readers with no context about what they are.", "owner": "designer@PrompTugal.dinis"},
+    {"severity": "held", "screen": "ar-lisbon-universities-at-web-summit-phone-s5.jpg", "finding": "'What this does not claim' clearly states what was not read or checked (Startup Portugal ranking, Dealroom, spin-offs' sites, panel time) and was the most trust-building part of the visit.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "held", "screen": "ar-lisbon-universities-at-web-summit-phone-s6.jpg", "finding": "Each source shows its own publication date and the date read, which made the provenance feel real.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "held", "screen": "ar-lisbon-universities-at-web-summit-phone-s7.jpg", "finding": "'Who made this' lays out the agent chain (curator, journalist desk, reviewer, publishing agent re-checking sources) with links to the review and the draft, which the persona understood as a pipeline.", "owner": "journalist@PrompTugal.dinis"},
+    {"severity": "held", "screen": "ar-lisbon-universities-at-web-summit-phone-s1.jpg", "finding": "The 'On this page' list with 'What this does not claim' and 'Where this comes from' signalled at the top that the story would show its working.", "owner": "dev@PrompTugal.dinis"},
+    {"severity": "held", "screen": "ar-lisbon-universities-at-web-summit-phone-s8.jpg", "finding": "The footer line 'independent of Web Summit, not of RiskMandate' was read as honest rather than as marketing.", "owner": "conductor@PrompTugal.dinis"}
+  ]
+}

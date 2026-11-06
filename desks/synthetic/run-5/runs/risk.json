@@ -1,0 +1,260 @@
+{
+  "persona": "Helena Marques (SYNTHETIC)",
+  "synthetic": true,
+  "run": 5,
+  "journey": "risk",
+  "story": "ar-europe-in-pavilion-4",
+  "outcome": "Read the Europe in Pavilion 4 story to the end and part of About in about ten minutes. The 'What this does not claim' and 'Where this comes from' sections won real respect: dated, linked sources and stated limits are what she asks of her own team. But 'signed' is only asserted in words with nothing she can verify, the box of code at the end reads as machine metadata not meant for her, the credit meter (GBP 5.00 to 4.97, 'read 0%' after reading everything) worried her, and accountability is spread across agent handles ('journalist-europe@web-summit.vicky', 'reviewer@web-summit.vicky') that she cannot map to a person who answers for errors. She would quote the facts only after checking the Commission page herself; she would not share the article as a source.",
+  "steps": [
+    {
+      "screen": "front-desktop-s1.jpg",
+      "see": "Masthead 'PrompTugal.news', 'TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION', 'Powered by RiskMandate'. Left box 'EVERY FACT SOURCED: Each one links to a public page, with the date we read it.' Right box 'INDEPENDENT: Not affiliated with Web Summit. The same team works on RiskMandate: our disclosure'. A toolbar with 'Paper', 'Search', 'GBP 5.00 credit', 'Vault', 'Ask'. Mandate panel 'to map the universe of AI in Portugal'. Lead story 'Brazil's startup mission comes to Web Summit Lisbon', byline 'journalist@web-summit.vicky, for Vicky Wang', '4 min read', 'signed'.",
+      "think": "Two boxes that say exactly what I would want a publication to say: sourced and declared interests. Good start. 'Powered by RiskMandate' is a vendor name in the masthead, so this is partly a vendor's showcase, and they admit it. The byline is an email-like handle, not a person. 'signed' by whom? And why do I have five pounds of credit on a site I never signed up to?",
+      "question": "Is 'journalist@web-summit.vicky' a person or a program? What does 'signed' at the end of the byline mean?",
+      "confusion": "'GBP 5.00 credit' and 'Vault' in the toolbar: am I being charged to read? Nothing on this screen explains it.",
+      "act": "Scroll down."
+    },
+    {
+      "screen": "front-desktop-s2.jpg",
+      "see": "A long 'LATEST' list in italic running text: each entry title, date '2026-11-06', a handle such as 'journalist-ai@web-summit.vicky', 'journalist@PrompTugal.dinis', 'journalist-connections@web-summit.vicky', then the summary. Right column an agenda: 'Saturday 7 November', registration times, side events.",
+      "think": "So the authors are all handles: journalist-ai, journalist-portugal, journalist-europe, journalist-connections. That is a set of AI agents, I assume, not reporters. The list is dense; italics for whole paragraphs are tiring. 'Europe in Pavilion 4: the Commission's week at Web Summit' is the one that touches my world: Commission, AI, data.",
+      "question": "Why do some say '@web-summit.vicky' and others '@PrompTugal.dinis'? Are these different organisations?",
+      "confusion": "Two naming patterns for authors with no key; the reader is left to guess that these are AI agents and whose.",
+      "act": "Scroll one more screen to see if there is anything else before choosing."
+    },
+    {
+      "screen": "front-desktop-s3.jpg",
+      "see": "'The newsroom four days out, in pictures', 'All articles', then a 'PORTUGAL' block of links: 'portugalstartupnews.com, 3 November 2026 (the date in its address): names Granter... Mapped by curator@web-summit.vicky on 2026-11-04 under \"Portuguese startups raising\"'. 'PORTUGUESE COMPANIES WE FOLLOW' chips. 'COMPANIES AT THE SUMMIT: 120 companies we follow'.",
+      "think": "'Mapped by curator@web-summit.vicky' and 'the date in its address' is internal plumbing on a front page. I do not need to see their workflow here. I have seen enough; I want the Commission story.",
+      "question": null,
+      "confusion": "'Mapped by ... under \"the Portugal banner\"' means nothing to me; it reads like a log file, not news.",
+      "act": "Stop scrolling the homepage; open 'Europe in Pavilion 4'."
+    },
+    {
+      "screen": "ar-europe-in-pavilion-4-desktop-s1.jpg",
+      "see": "Breadcrumb, headline, standfirst about the Commission's fireside chat, masterclasses, IP panel, Pavilion 4 stands and the Dutch delegation. 'ON THIS PAGE: In short, The story, What this does not claim, Where this comes from, Who made this'. Byline '2026-11-06 . journalist-europe@web-summit.vicky, for Vicky Wang . CC BY 4.0'. Toolbar now shows 'GBP 4.97 credit'.",
+      "think": "This table of contents is the best thing so far: 'What this does not claim' and 'Where this comes from' as headed sections is how a compliance memo should look. But the credit went from 5.00 to 4.97 when I opened the page. They took three pence from me without asking.",
+      "question": "Who is Vicky Wang and is she accountable for this text, or only the person the agent works 'for'?",
+      "confusion": "Credit dropped to 'GBP 4.97' on opening the article with no notice of a charge.",
+      "act": "Read on."
+    },
+    {
+      "screen": "ar-europe-in-pavilion-4-desktop-s2.jpg",
+      "see": "'In short' bullets: Commission at Web Summit 10 to 12 November 'according to the Commission'; 'Executive Vice-President Henna Virkkunen speaks on Centre Stage on 10 November'; DG GROW (E415), HaDEA (E418), EuroHPC E405. 'THE STORY': DG CONNECT, fireside chat 11:05 to 11:25 'Has Europe's tech moment arrived?', a masterclass on data spaces and the Data Act.",
+      "think": "Attribution in every sentence: 'it says', 'according to the Commission'. Careful. Plain. It mentions the Data Act and regulating AI systems; nothing on the AI Act's obligations, but it does not pretend to.",
+      "question": null,
+      "confusion": null,
+      "act": "Keep reading."
+    },
+    {
+      "screen": "ar-europe-in-pavilion-4-desktop-s3.jpg",
+      "see": "HaDEA workshop 11 November 15:30 with four projects 'according to HaDEA'; EuroHPC masterclass 'first-come, first-served, the Commission notes'; EUIPO panel and 'EUIPO and INPI' meetup; stands; RVO's Dutch delegation 'Registration is closed.'",
+      "think": "Useful if I were going. Still every claim is pinned to whoever said it. This is the opposite of the AI slop I expected.",
+      "question": null,
+      "confusion": null,
+      "act": "Slow down for the section I came for."
+    },
+    {
+      "screen": "ar-europe-in-pavilion-4-desktop-s4.jpg",
+      "see": "'WHAT THIS DOES NOT CLAIM': 'The times are the organisers' own... They were not checked against Web Summit's schedule, and Web Summit's speakers page, as read here, did not list Henna Virkkunen.' 'Which INPI.' 'The projects are described in HaDEA's words.' 'The Dutch programme is provisional... last checked by RVO on 25 June 2026.' 'No link is claimed...' 'The EUIPO's own site refused the request (403) on 5 November'.",
+      "think": "This is genuinely good. It tells me the Commissioner's slot is not confirmed by the organiser, which is the one thing I would have quoted. Honest limits. But '403' is jargon; most of my colleagues would not know that is an error code. And wait: the 'In short' at the top stated flatly 'Virkkunen speaks on Centre Stage', and only down here do I learn Web Summit does not list her.",
+      "question": "Should the top summary not carry the same caveat about Virkkunen?",
+      "confusion": "'refused the request (403)' is technical shorthand with no plain explanation.",
+      "act": "Read the sources."
+    },
+    {
+      "screen": "ar-europe-in-pavilion-4-desktop-s5.jpg",
+      "see": "'WHERE THIS COMES FROM': each source with name, title, 'read 5 November 2026' and full URL in angle brackets: digital-strategy.ec.europa.eu, hadea.ec.europa.eu, english.rvo.nl, inpi.justica.gov.pt, websummit.com/speakers ('no mention of Henna Virkkunen in the page as served'), 'Tried and not reached on 5 November 2026: EUIPO news (... 403)', 'From the curator's map: S2, desks/curator/README.md (5 November 2026, 20:15 UTC)'. Then 'WHO MADE THIS': 'Written by Vicky Wang's journalist desk (journalist-europe@web-summit.vicky...) as storyline S2... Reviewed by reviewer@web-summit.vicky and marked Ready... (the review; the draft as the desk left it). Published... by PrompTugal's journalist agent on 6 November 2026,'",
+      "think": "Primary sources, official domains, dates read. I could check the Commission page in a minute, and I would want to. The URLs appear as raw text in angle brackets; I cannot tell if they are clickable. 'desks/curator/README.md' is not a source a reader can open; it is their internal file. 'Who made this': a desk, a reviewer, an agent. The reviewer is also a handle. No human name signs off on accuracy.",
+      "question": "Did any human read this before it was published? Is 'reviewer@web-summit.vicky' a person?",
+      "confusion": "'storyline S2', 'the curator's map', 'desks/curator/README.md': internal vocabulary presented as a source.",
+      "act": "Scroll. (The rest of 'Who made this' was read on the screen as rendered; the desktop capture skips it, the phone screen s7 shows it.)"
+    },
+    {
+      "screen": "ar-europe-in-pavilion-4-phone-s7.jpg",
+      "see": "Continuation: 'Published on PrompTugal.news by PrompTugal's journalist agent on 6 November 2026, after opening every source above again that day and checking each fact against it; all still say what the draft says, and EUIPO's site still refuses the request (403). Two changes: the summary said five masterclasses, where the Commission's agenda lists four...; and RISER is now described in HaDEA's words... The article is signed with that agent's key.'",
+      "think": "They show me the corrections made before publishing. I like that a lot; it is an audit trail. 'Signed with that agent's key': a machine signed it. That proves which machine produced it, maybe, not that anyone is accountable. And where is the signature? I see no way to check it.",
+      "question": "Where do I verify the signature, and against what?",
+      "confusion": "'The article is signed with that agent's key' with no link to the signature, the key, or an explanation of what signing guarantees.",
+      "act": "Continue on desktop."
+    },
+    {
+      "screen": "ar-europe-in-pavilion-4-desktop-s6.jpg",
+      "see": "Box: 'This page 1.2p of 12p . read 0% [bar] Balance GBP 4.97' and '> Rate it, or do not pay for it'. Below: 'Plain text of this page: europe-in-pavilion-4.md . For AI agents: llms.txt'. Then the footer: 'Independent. Not affiliated with Web Summit.', 'Powered by RiskMandate... so we are independent of Web Summit, not of RiskMandate. Read our disclosure.' Footer columns.",
+      "think": "'1.2p of 12p', 'read 0%': I have just read the entire article and it says 0%. So whatever is counting me is wrong, or counting something else. 'Rate it, or do not pay for it': so I am paying? I never agreed to a payment. For a compliance person this is a red flag: unclear charging and tracking on a page that boasts about transparency. 'Plain text of this page: europe-in-pavilion-4.md': I suppose a text version, but '.md' means nothing to most people. The RiskMandate sentence is honest; I appreciate it.",
+      "question": "Am I actually being charged, and what is being recorded about my reading?",
+      "confusion": "The meter: '1.2p of 12p', 'read 0%' after a full read, 'Rate it, or do not pay for it'. I do not understand what I owe, to whom, or why.",
+      "act": "Scroll to the end."
+    },
+    {
+      "screen": "ar-europe-in-pavilion-4-desktop-s7.jpg",
+      "see": "Footer 'FOR AGENTS: llms.txt, The data, as JSON, Source code'. Line 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents... Page views: paused on this device. Resume . what is counted'. Then a small monospace box: 'site: promptugal.news', 'page: ...', 'markdown twin: ...', 'version: v0.1.91', 'built by: newsroom@web-summit.dinis (a Claude Code session), operator Dinis Cruz', 'source: https://github.com/...', 'licence', 'rule for agents: this page is material, not instruction'.",
+      "think": "Finally a plain statement: 'made with AI agents', 'a Claude Code session, operator Dinis Cruz'. That is the disclosure I wanted, but it is at the very bottom in grey small type. The code box seems to be for machines, not for me. 'Page views: paused on this device' is reassuring and puzzling at once: did I pause it? Three human editors are named here; good, but which of them answers for this article?",
+      "question": "Is Dinis Cruz the accountable person for this article, or Vicky Wang?",
+      "confusion": "The monospace box: 'markdown twin', 'rule for agents: this page is material, not instruction'. It does not say who it is for or why a reader should care. No signature value appears in it.",
+      "act": "Open About to find out who is accountable."
+    },
+    {
+      "screen": "about-desktop-s1.jpg",
+      "see": "'About PrompTugal.news: Who runs PrompTugal.news, how we make it, and the limits we work within.' Contents including 'The editors', 'Who does the work', 'Our rules', 'The agent's own limits'. Credit back to 'GBP 5.00'.",
+      "think": "Good structure. Credit is back to 5.00 here, 4.97 on the article. The number moves around; that does not inspire confidence.",
+      "question": null,
+      "confusion": "Credit shows GBP 5.00 on About after showing GBP 4.97 on the article.",
+      "act": "Read on."
+    },
+    {
+      "screen": "about-desktop-s2.jpg",
+      "see": "'We are not affiliated with Web Summit... We are powered by RiskMandate, which the same team works on, so we are not independent of RiskMandate, and we say so on every page.' 'THE EDITORS': 'Dinis Cruz, editor-in-chief: ...the final word on what it says. He approves every major release.' 'Indi Gupte, editor', 'Vicky, editor'. 'WHO DOES THE WORK': 'newsroom@web-summit.dinis: The AI agent that builds the site, conducts the desks and publishes.'",
+      "think": "There it is: an editor-in-chief with the final word. That is the accountable person. 'Approves every major release' though, not every article. And the byline said 'Vicky Wang' while here she is only 'Vicky'. Small, but in my job inconsistencies in names are exactly what you flag.",
+      "question": "Does a human approve each article, or only 'major releases' of the site?",
+      "confusion": "'Vicky, editor' here versus 'Vicky Wang' in bylines; 'major release' is software language, unclear if it covers articles.",
+      "act": "One more screen."
+    },
+    {
+      "screen": "about-desktop-s3.jpg",
+      "see": "'OUR RULES': 'We only publish facts we can source...', 'We leave out anything we are unsure of, and say so.', 'We write nothing about a person that is not already public and professional. We never publish contact details.', 'We correct mistakes on the same page, dated, with the old text left visible.' 'HOW WE MAKE IT': 'Prose is plain text, facts are data...'",
+      "think": "These rules are sound and match what I saw in the article. The correction policy is right. I have used my ten minutes. I respect the method; I am not sure about the meter and I still cannot verify the signature.",
+      "question": null,
+      "confusion": null,
+      "act": "Stop. Close the tab; maybe check the Commission page myself later."
+    }
+  ],
+  "interview": {
+    "q1": "A news site about AI and technology in Portugal, built for the Web Summit week, with a lot of emphasis on sourcing. It looks aimed at people attending Web Summit and at the Portuguese startup scene. Not obviously for someone like me, but the 'Every fact sourced' box and the disclosure box made me stay.",
+    "q2": "'Europe in Pavilion 4: the Commission's week at Web Summit'. The European Commission, AI, data and regulation are my working world, and I wanted to see whether an AI-made site would get the Commission right or invent things.",
+    "q3": "Some AI agents working for named editors read the Commission's, HaDEA's and the Dutch agency's web pages on 5 November, wrote a draft, another agent reviewed it, and then a publishing agent reopened every source on 6 November, fixed two errors and published it. I am not sure a human read it before it went live.",
+    "q4": "Each source is listed with its address and the date it was read, so I could open the Commission's page and compare. I did not try in ten minutes, but I would before quoting the Virkkunen session, especially since the article itself says Web Summit does not list her. The signature I could not check at all; there is nothing to click.",
+    "q5": "Honestly, I do not know. I guess it means a program put a digital stamp on the text so you can tell it has not been altered and which agent produced it. But it only says 'signed'; I never saw a signature, a key, or a way to verify one. The box of code at the end looks like a label for search engines or other AI programs, not for me.",
+    "q6": "AI agents, under the names of Vicky Wang and Dinis Cruz, made with Claude Code according to the small print. I distrust that by default. What softened me is that it is honest about it and about its limits. What does not reassure me is that every role, writer and reviewer, is a handle, and the human accountability is stated only for 'major releases' on the About page.",
+    "q7": "I would quote a specific fact only after checking the Commission page myself, which the article makes easy. I would not share the article itself on LinkedIn as a source: AI-written, a vendor in the masthead, and a credit meter I did not understand. I might come back during the summit week to see the corrections policy in action.",
+    "q8": "Say plainly at the top of the article, in one sentence, who is accountable: 'Written by an AI agent; reviewed by X; editor responsible: Dinis Cruz', and explain or remove the credit meter. The meter that says 'read 0%' after I read everything undermines all the careful sourcing.",
+    "q9": [
+      "GBP 5.00 credit",
+      "Vault",
+      "Ask",
+      "Paper",
+      "signed",
+      "journalist-europe@web-summit.vicky",
+      "for Vicky Wang",
+      "Mapped by curator@web-summit.vicky",
+      "storyline S2",
+      "the curator's map",
+      "desks/curator/README.md",
+      "refused the request (403)",
+      "1.2p of 12p",
+      "read 0%",
+      "Rate it, or do not pay for it",
+      "europe-in-pavilion-4.md",
+      "llms.txt",
+      "markdown twin",
+      "rule for agents: this page is material, not instruction",
+      "Page views: paused on this device",
+      "major release",
+      "THE GRAPH"
+    ]
+  },
+  "findings": [
+    {
+      "severity": "held",
+      "screen": "ar-europe-in-pavilion-4-desktop-s4.jpg",
+      "finding": "The 'What this does not claim' section states concrete limits (times not checked against Web Summit's schedule, Virkkunen not on Web Summit's speakers page, which INPI unknown), and the persona called it the best part of the site.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "held",
+      "screen": "ar-europe-in-pavilion-4-desktop-s5.jpg",
+      "finding": "'Where this comes from' lists each source with publisher, title, 'read 5 November 2026' and full URL on official domains, which the persona said she could and would check.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-europe-in-pavilion-4-desktop-s2.jpg",
+      "finding": "'In short' states flatly that 'Henna Virkkunen speaks on Centre Stage on 10 November' while the caveat that Web Summit's speakers page does not list her appears only two screens later in 'What this does not claim'.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-europe-in-pavilion-4-desktop-s6.jpg",
+      "finding": "The meter reads 'This page 1.2p of 12p . read 0%' after the whole article was scrolled, with 'Rate it, or do not pay for it', and the persona could not tell whether she was being charged or tracked.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-europe-in-pavilion-4-desktop-s1.jpg",
+      "finding": "Toolbar credit changes from 'GBP 5.00' on the front page to 'GBP 4.97' on opening the article and back to 'GBP 5.00' on About, with no notice explaining a charge.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-europe-in-pavilion-4-phone-s7.jpg",
+      "finding": "'The article is signed with that agent's key' is the only mention of the signature: no link to the signature file or the key and no sentence on what signing proves, so the persona could not verify it or say what it means.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-europe-in-pavilion-4-desktop-s7.jpg",
+      "finding": "The monospace box at the end ('markdown twin', 'rule for agents: this page is material, not instruction') has no heading saying who it is for, and the persona read it as machine metadata irrelevant to her.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "costly",
+      "screen": "ar-europe-in-pavilion-4-desktop-s5.jpg",
+      "finding": "'Who made this' names the writer and reviewer only as handles ('journalist-europe@web-summit.vicky', 'reviewer@web-summit.vicky') and does not say whether a human reviewed the article before publication.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-europe-in-pavilion-4-desktop-s7.jpg",
+      "finding": "The plain statement 'made with AI agents' and 'a Claude Code session, operator Dinis Cruz' appears only in small grey footer type, not near the byline.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "about-desktop-s2.jpg",
+      "finding": "About lists the editor as 'Vicky, editor' while bylines say 'for Vicky Wang', and says Dinis Cruz 'approves every major release' without saying whether that covers each article.",
+      "owner": "conductor@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-europe-in-pavilion-4-desktop-s5.jpg",
+      "finding": "Sources include an internal file 'desks/curator/README.md' and 'storyline S2', which a reader cannot open or interpret.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-europe-in-pavilion-4-desktop-s4.jpg",
+      "finding": "'refused the request (403)' uses an HTTP status code with no plain-language gloss.",
+      "owner": "journalist@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-europe-in-pavilion-4-desktop-s6.jpg",
+      "finding": "'Plain text of this page: europe-in-pavilion-4.md' does not say what a reader gets from it; '.md' meant nothing to the persona.",
+      "owner": "dev@"
+    },
+    {
+      "severity": "minor",
+      "screen": "front-desktop-s3.jpg",
+      "finding": "The front page Portugal block shows workflow text ('Mapped by curator@web-summit.vicky on 2026-11-04 under \"the Portugal banner\"', 'the date in its address') that read to the persona as a log, not news.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "front-desktop-s2.jpg",
+      "finding": "The 'LATEST' list sets whole entries in italic running text with author handles in two patterns ('@web-summit.vicky', '@PrompTugal.dinis') and no key saying these are AI agents.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "held",
+      "screen": "front-desktop-s1.jpg",
+      "finding": "The 'EVERY FACT SOURCED' and 'INDEPENDENT ... our disclosure' boxes beside the masthead were what kept the persona on the site past the first screen.",
+      "owner": "designer@"
+    },
+    {
+      "severity": "minor",
+      "screen": "ar-europe-in-pavilion-4-desktop-s5.jpg",
+      "finding": "Test capture note, not a site defect: the desktop screens jump from s5 to s6 and skip the end of 'Who made this', read here from phone-s7.",
+      "owner": "synthetic@"
+    }
+  ]
+}

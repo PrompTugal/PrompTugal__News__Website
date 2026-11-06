@@ -1,0 +1,178 @@
+{
+  "persona": "Ana Costa (SYNTHETIC)",
+  "synthetic": true,
+  "run": 5,
+  "journey": "curious",
+  "story": "ar-from-pitch-to-new-markets",
+  "outcome": "Ana stayed past the first two screens only because her friend sent the link and the Brazil headline looked like ordinary news; she picked the Porto startup story, read it to the end and liked it, understood the sources and the 'What this does not claim' list well, but did not understand 'signed', 'agent's key', the '.md' plain-text link, the 'GBP 4.94' balance or 'Vault', and found no box of code she could recognise. She left believing a computer wrote it and people supervise it, which she accepts for facts but would not forward without checking one source link first.",
+  "steps": [
+    {
+      "screen": "front-phone-s1.jpg",
+      "see": "Masthead 'PrompTugal.news', 'TECHNOLOGY AND AI, IN CONTEXT. THE WEB SUMMIT LISBON 2026 EDITION', 'Powered by RiskMandate', '4 days to the summit . v0.1.90'. A nav row 'NOW AGENDA N' cut off, a half-moon icon, a magnifier, a button '£5.00', a button 'Vault'. A boxed text 'Our mandate: to map the universe of AI in Portugal.' Then the lead story 'Brazil's startup mission comes to Web Summit Lisbon', byline 'journalist@web-summit.vicky, for Vicky Wang . 4 min read . signed'. A black 'Ask' button.",
+      "think": "Ok, Web Summit, as my friend said. It looks like a newspaper, that is good. But why is there a price in pounds? Am I going to be charged? I am in Portugal, why pounds? And 'Vault', like a bank? The writer has an email address instead of a name, that is strange.",
+      "question": "Do I have to pay 5 pounds to read this?",
+      "confusion": "'£5.00' and 'Vault' sit in the top bar with no explanation; 'journalist@web-summit.vicky' reads like an email address, not a person; 'PrompTugal' - I do not know the word 'prompt' here, I thought it was a typo of Portugal.",
+      "act": "Scroll down, a little wary."
+    },
+    {
+      "screen": "front-phone-s2.jpg",
+      "see": "A list by time: 'All day Portugal Tech Week 2026 begins (6 to 15 November)', '15:00 Private Wealth and Investment Gathering (invitation only), listed by Algarve Evolution', 'Saturday 7 November', 'DevFest Lagos 2026', 'Registration: collect your lanyard and wristband' twice with different places, 'Startup Web Summit Kick Off: a 7-a-side startup football tournament'.",
+      "think": "This is an agenda for people who are going. I am not going. The registration line appears twice and I do not know why. This part is not for me, but the first story was.",
+      "question": "Is this site for people going to the event, or for people like me who want to know what happens?",
+      "confusion": "The same 'Registration: collect your lanyard and wristband' line repeats with different places, and it is not clear why a reader at home needs it.",
+      "act": "Keep scrolling to find more stories."
+    },
+    {
+      "screen": "front-phone-s3.jpg",
+      "see": "More registration lines, 'Every event, official and other ->', then 'LATEST' with stories in italic run-on text: 'Europe in Pavilion 4: the Commission's week at Web Summit 2026-11-06, journalist-europe@web-summit.vicky, for Vicky Wang...' and 'Following robotics at Web Summit...'.",
+      "think": "Finally the news. But it is all one block of slanted text, the title runs into the date and the email. Hard to read on my phone in the evening.",
+      "question": null,
+      "confusion": "Each item in 'LATEST' joins title, date, an email-like name and the summary in one italic paragraph, so I cannot see where one part ends.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "front-phone-s4.jpg",
+      "see": "'...and a Porto cleantech spin-off, Seamoretech, have raised between 1.1 and 1.6 million euros each...' then 'Gender in Tech report: 84% see women in leadership', 'Lisbon's universities at Web Summit', 'Road 2 Web Summit: Portugal's startups head for Lisbon ... journalist@PrompTugal.dinis'.",
+      "think": "Porto! A spin-off from Porto raising money. That is close to home, I want to read that. And the women in leadership one, maybe later.",
+      "question": null,
+      "confusion": "Some writers are 'journalist@web-summit.vicky' and some 'journalist@PrompTugal.dinis'; I do not know if these are two people or the same thing.",
+      "act": "Scroll up a little to find the title of the Porto story, then go to it."
+    },
+    {
+      "screen": "front-phone-s5.jpg",
+      "see": "'Web Summit 2026 in numbers', 'Web Summit Lisbon: your first day, from airport to arena', 'The newsroom four days out, in pictures ... what the agent desks have found ... A status report drawn in plain text', 'All articles ->', then 'PORTUGAL' with links.",
+      "think": "'Agent desks' I do not understand. I will go back to the Porto story.",
+      "question": "What is an 'agent desk'?",
+      "confusion": "'the agent desks' and 'A status report drawn in plain text' mean nothing to me.",
+      "act": "Tap 'From the PITCH stage to new markets: Portuguese startups raising'."
+    },
+    {
+      "screen": "ar-from-pitch-to-new-markets-phone-s1.jpg",
+      "see": "Title 'From the PITCH stage to new markets: Portuguese startups raising', summary naming Granter, Intuitivo and 'a Porto cleantech spin-off, Seamoretech'. 'ON THIS PAGE': 'In short', 'The story', 'What this does not claim', 'Where this comes from', 'Who made this'. Byline '2026-11-06 . journalist@PrompTugal.dinis . CC BY 4.0'. The top button now says '£4.94'.",
+      "think": "This is clear, I like the little list of what is on the page. 'What this does not claim' is unusual, interesting. But the money went from 5.00 to 4.94! Did opening the story cost me 6 pence? I did not agree to anything. And 'CC BY 4.0' I do not know.",
+      "question": "Did I just pay for this article?",
+      "confusion": "The top button changed from '£5.00' to '£4.94' when I opened the story, with no message saying why; 'CC BY 4.0' unexplained.",
+      "act": "Read on, but worried about the money."
+    },
+    {
+      "screen": "ar-from-pitch-to-new-markets-phone-s2.jpg",
+      "see": "In short bullets: Granter 1.6 million euros, Intuitivo 1.35 million, Seamoretech 'a University of Porto spin-off, raised 1.1 million euros to recover freshwater and minerals from desalination waste'. Then 'THE STORY', 'Granter: an AI agent for grant applications.'",
+      "think": "Very clear, short points, I understand all three. The water one is my favourite. 'AI agent' again, this word.",
+      "question": null,
+      "confusion": "'an AI agent for grant applications' - I still do not know what an agent is.",
+      "act": "Read."
+    },
+    {
+      "screen": "ar-from-pitch-to-new-markets-phone-s3.jpg",
+      "see": "Granter details, 'tasks that took weeks can now be done in \"under an hour\"'. 'Intuitivo: time back for teachers. Founded in Porto in 2021...', ends 'Joao Guimaraes, co-founder and CEO, said: \"Our goal is simple: to'.",
+      "think": "Intuitivo is also from Porto. Good, ordinary business news, well written.",
+      "question": null,
+      "confusion": null,
+      "act": "Scroll."
+    },
+    {
+      "screen": "ar-from-pitch-to-new-markets-phone-s4.jpg",
+      "see": "'Seamoretech: water from brine. Founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP)...' 'What links them.' 'A suggestion: founders hoping to follow Granter and Intuitivo...' then 'WHAT THIS DOES NOT CLAIM' starting 'All figures are the companies' own, from their'.",
+      "think": "FEUP, I know it. I did not see the end of the Intuitivo man's sentence, it jumped straight to Seamoretech; maybe I scrolled too fast. 'A suggestion' is honest, they say it is their idea.",
+      "question": "What was the end of the Intuitivo quote?",
+      "confusion": "Between this screen and the one before, the end of the quote 'Our goal is simple: to' is not shown (may be how the screens were cut, not the page).",
+      "act": "Slow down at 'What this does not claim'."
+    },
+    {
+      "screen": "ar-from-pitch-to-new-markets-phone-s5.jpg",
+      "see": "'PrompTugal.news has not checked them, including Granter's 140 businesses and 30 million euros', 'None of the three is confirmed at Web Summit 2026 in the sources read. The suggestion above is ours.', '\"Under an hour\" is Granter's claim for its AI agent. We have not tried the product.', 'The link through 3xP Global is a shared investor... It is not a claim that the companies work together.' Then 'WHERE THIS COMES FROM': 'Portugal Startup News, \"Granter secures EUR1.6M...\", 3 November 2026, read 6 November 2026: <https://portugalstartupnews.com/...>'.",
+      "think": "This I like very much. They tell me what they did not check. A newspaper never does that. And they say where each thing comes from, with the day it was published and the day they read it. Wait, the story is about Web Summit but they say none of them is confirmed at Web Summit? Then why is it here? Still, honest. The long web addresses in brackets look messy and break across lines.",
+      "question": "If none is confirmed at Web Summit, why is it a Web Summit story?",
+      "confusion": "The source addresses are printed raw inside '< >' and break mid-word across lines; I would not know whether to tap them.",
+      "act": "Keep reading to the end."
+    },
+    {
+      "screen": "ar-from-pitch-to-new-markets-phone-s6.jpg",
+      "see": "Third source, then 'From the curator's map: S4, desks/curator/2026-11-04-1945.json' in grey code type. 'WHO MADE THIS': 'Storyline S4 on the curator's candidates page (curator@web-summit.vicky). No desk had drafted it, so PrompTugal's journalist agent wrote it on 6 November 2026 from the curator's three sources, each opened and read in full that day. It has not been through Vicky's reviewer. It is signed with that agent's key.' A box: 'This page 1.2p of 12p . read 5%', 'Balance £4.94', 'Rate it, or do not pay for it'. Then 'Plain text of this page: from-pitch-to-new-markets.md . For AI agents: llms.txt'.",
+      "think": "So a computer program wrote this, 'the journalist agent'. Not a person. Hmm. It read three articles from another site and wrote it. And nobody, not Vicky's 'reviewer', checked it. 'Signed with that agent's key' - like a key for a door? I do not see any signature. The box says 1.2p of 12p: so I do pay per article? 'or do not pay for it' - I never agreed to pay. The 'plain text' link ends in .md, I do not know what that is, and 'For AI agents' is not for me. The grey 'desks/curator/...json' looks like computer code; is that the box of code?",
+      "question": "Who checks the computer's work, if Vicky's reviewer did not? And where is the signature?",
+      "confusion": "'curator', 'desk', 'Storyline S4', 'Vicky's reviewer', 'signed with that agent's key', '1.2p of 12p', 'read 5%', '.md', 'llms.txt' all unexplained; no visible signature or code box she can recognise as proof.",
+      "act": "Scroll to see if there is more."
+    },
+    {
+      "screen": "ar-from-pitch-to-new-markets-phone-s7.jpg",
+      "see": "Footer: 'Independent. Not affiliated with Web Summit.' 'Powered by RiskMandate. The team that makes PrompTugal.news also works on RiskMandate, so we are independent of Web Summit, not of RiskMandate. Read our disclosure.' Link lists: FIND, PROMPTUGAL.NEWS ('About and editors'), THE NEWSROOM ('Orders', 'Synthetic readers'), READ, FOR AGENTS ('llms.txt', 'The data, as JSON', 'Source code').",
+      "think": "Good that they say they are not Web Summit, and that they are linked to this RiskMandate. 'About and editors' is what I want: who are these people? 'Orders' and 'Synthetic readers' sound odd.",
+      "question": "What is RiskMandate and what does it sell?",
+      "confusion": "'Synthetic readers', 'Orders', 'FOR AGENTS' in the footer are not for a normal reader and make me feel I am in the wrong place.",
+      "act": "Look at the bottom once more, then go to 'About and editors'."
+    },
+    {
+      "screen": "ar-from-pitch-to-new-markets-phone-s8.jpg",
+      "see": "'Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents. ... Text CC BY 4.0, code Apache-2.0. Newsroom . Sign in . v0.1.90 . Page views: paused on this device. Resume . what is counted'. 'site: promptugal.news'.",
+      "think": "Three real names, made with AI agents. That helps. 'Page views: paused on this device' - they count me? It says paused, fine. Still no box of code that I can see.",
+      "question": null,
+      "confusion": "'Page views: paused on this device. Resume' - I did not pause anything; 'code Apache-2.0' meaningless to me.",
+      "act": "Open About, because a computer wrote the story and I want to know who answers for it."
+    },
+    {
+      "screen": "about-phone-s1.jpg",
+      "see": "'About PrompTugal.news. Who runs PrompTugal.news, how we make it, and the limits we work within.' The mandate box again, 'The brief: how PrompTugal.news is meant to work, from Dinis Cruz's own words, is the brief pack.' Balance back to '£5.00'.",
+      "think": "Good title, this is what I wanted. The money is 5.00 again; so it went down and up? I do not understand that money at all.",
+      "question": "Why is it 5.00 again here when it was 4.94 on the story?",
+      "confusion": "The balance shows '£5.00' on About after showing '£4.94' on the story.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-phone-s2.jpg",
+      "see": "'THE EDITORS': 'Dinis Cruz, editor-in-chief ... He approves every major release.', 'Indi Gupte, editor', 'Vicky, editor'. 'WHO DOES THE WORK': 'newsroom@web-summit.dinis The AI agent that builds the site...', 'The desks: AI agents run by the editors'.",
+      "think": "So there are three people at the top and the writing is done by computer programs they run. Now I understand 'agent' a bit: it is a computer helper. But here she is only 'Vicky', in the story footer she was 'Vicky Wang'. Is it the same woman?",
+      "question": "Is 'Vicky' the same person as 'Vicky Wang'?",
+      "confusion": "Editor listed as 'Vicky' here but 'Vicky Wang' in bylines and the footer.",
+      "act": "Scroll."
+    },
+    {
+      "screen": "about-phone-s3.jpg",
+      "see": "'OUR RULES': 'We only publish facts we can source. Each one links to a public page, with the date we read it.', 'We leave out anything we are unsure of, and say so.', 'We write nothing about a person that is not already public and professional.', 'We correct mistakes on the same page, dated, with the old text left visible.'",
+      "think": "These rules are clear and I agree with them. This is the best part. It matches what I saw in the story: the sources with dates and the list of what they do not claim.",
+      "question": null,
+      "confusion": null,
+      "act": "Scroll once more."
+    },
+    {
+      "screen": "about-phone-s4.jpg",
+      "see": "'A check before anything goes live... blocks leaked keys and contact details, and any article that is not signed.' '5. Articles are signed. The agent that writes an article signs it with its own key.' 'Every page has a plain-text copy at the same address, ending in .md. Agents can start at llms.txt.'",
+      "think": "So 'signed' is like the computer putting its stamp. But how would I see the stamp or check it? It does not say. 'JSON', 'schema', 'markdown copy' is for technical people. I have read enough.",
+      "question": "How do I, a normal person, check a signature?",
+      "confusion": "'Articles are signed... with its own key' says it is done but not what it proves or how a reader checks it; 'JSON', 'schema', 'markdown copy', '.md' unexplained.",
+      "act": "Stop. Close the tab and reply to her friend."
+    }
+  ],
+  "interview": {
+    "q1": "It is a news site about technology and the Web Summit in Lisbon, made in Portugal. At first I thought it was for people going to the event, because of all the times and registration places. The pounds and the 'Vault' button made me think I would be asked to pay, and I nearly left.",
+    "q2": "The one about Portuguese startups raising money, because the summary said 'a Porto cleantech spin-off'. I am from Porto, and it was about real companies and money, not about the event itself.",
+    "q3": "A computer program, they call it the 'journalist agent', read three articles from Portugal Startup News and wrote this from them on 6 November. Someone called the 'curator' chose the story. A person did not review it; it says it has not been through Vicky's reviewer.",
+    "q4": "They give the three articles with the date they came out and the day they read them, so I could open them and compare. I wanted to, for the money figures, but the web addresses were long and broken across lines, so I did not tap them on my phone. Maybe on the computer.",
+    "q5": "I think 'signed' means the program put its stamp on it, so nobody can change it later without it showing. But I did not see any stamp and nothing told me how to check it. The box of code at the end: I did not find a box of code. There was a grey line 'desks/curator/...json' and a link ending '.md' that says plain text and one 'For AI agents'. I thought those were for computers, not for me.",
+    "q6": "A computer program wrote it, supervised by three people, Dinis Cruz, Indi Gupte and Vicky. I feel fine for facts like money and dates, especially since they say what they did not check. But it bothers me that no person read it before it went out.",
+    "q7": "I would come back to read about Portuguese companies, yes. I would share it with my friend on WhatsApp because she sent it to me, but I would not quote the figures as true without opening one of the sources, since they say themselves they did not check them. The pounds counting down make me nervous.",
+    "q8": "Explain the pounds. One line saying what '£5.00' is, that it is not my money, and why it went to 4.94. Second: a simple sentence near 'signed' saying what it means for me.",
+    "q9": "'PrompTugal' (prompt), '£5.00', '£4.94', 'Vault', 'journalist@web-summit.vicky', 'agent', 'AI agent', 'the agent desks', 'CC BY 4.0', 'curator', 'Storyline S4', 'Vicky's reviewer', 'signed with that agent's key', '1.2p of 12p', 'read 5%', 'Rate it, or do not pay for it', '.md', 'llms.txt', 'For AI agents', 'Synthetic readers', 'Orders', 'Apache-2.0', 'Page views: paused on this device', 'JSON', 'schema', 'markdown copy'."
+  },
+  "findings": [
+    {"severity": "costly", "screen": "front-phone-s1.jpg", "finding": "The top bar shows a '£5.00' button and a 'Vault' button with no label or explanation, so a first-time reader assumes she will be charged and nearly leaves.", "owner": "designer@"},
+    {"severity": "costly", "screen": "ar-from-pitch-to-new-markets-phone-s1.jpg", "finding": "The balance changes from '£5.00' to '£4.94' on opening a story and back to '£5.00' on About, with no message, so the reader thinks she was charged without consent.", "owner": "dev@"},
+    {"severity": "costly", "screen": "ar-from-pitch-to-new-markets-phone-s6.jpg", "finding": "No visible signature or code box appears on the phone screens of the story; 'It is signed with that agent's key' is the only trace, with no link or plain sentence on what it proves or how to check it.", "owner": "dev@"},
+    {"severity": "costly", "screen": "ar-from-pitch-to-new-markets-phone-s6.jpg", "finding": "'Who made this' uses insider terms ('Storyline S4', 'curator's candidates page', 'No desk had drafted it', 'Vicky's reviewer') that a general reader cannot follow.", "owner": "journalist@"},
+    {"severity": "minor", "screen": "front-phone-s1.jpg", "finding": "Bylines are shown as addresses like 'journalist@web-summit.vicky, for Vicky Wang', which read as email addresses rather than an author.", "owner": "designer@"},
+    {"severity": "minor", "screen": "front-phone-s3.jpg", "finding": "Each item in 'LATEST' runs title, date, agent name and summary together in one italic paragraph, hard to scan on a phone.", "owner": "designer@"},
+    {"severity": "minor", "screen": "front-phone-s2.jpg", "finding": "The second homepage screen is an event agenda with repeated 'Registration: collect your lanyard and wristband' lines, which tells a reader at home the site is for attendees only.", "owner": "designer@"},
+    {"severity": "minor", "screen": "ar-from-pitch-to-new-markets-phone-s5.jpg", "finding": "Source URLs are printed raw inside '< >' and break mid-word across several lines on phone, so they do not look tappable.", "owner": "dev@"},
+    {"severity": "minor", "screen": "ar-from-pitch-to-new-markets-phone-s6.jpg", "finding": "The meter box ('This page 1.2p of 12p . read 5%', 'Rate it, or do not pay for it') implies paying per article with no explanation of what the reader is paying or whether it is real money.", "owner": "dev@"},
+    {"severity": "minor", "screen": "ar-from-pitch-to-new-markets-phone-s6.jpg", "finding": "The plain-text link is labelled only with a filename 'from-pitch-to-new-markets.md' next to 'For AI agents: llms.txt', so a general reader takes it as a machine-only link.", "owner": "dev@"},
+    {"severity": "minor", "screen": "about-phone-s2.jpg", "finding": "The editor is listed as 'Vicky' on About but 'Vicky Wang' in bylines and the footer, which makes a reader wonder if they are two people.", "owner": "conductor@"},
+    {"severity": "minor", "screen": "ar-from-pitch-to-new-markets-phone-s5.jpg", "finding": "'None of the three is confirmed at Web Summit 2026' leaves the reader asking why this is filed as a Web Summit story; the reason is not stated near the top.", "owner": "journalist@"},
+    {"severity": "minor", "screen": "ar-from-pitch-to-new-markets-phone-s3.jpg", "finding": "The Intuitivo quote ends at 'Our goal is simple: to' on s3 and s4 starts at Seamoretech, so the end of the quote was not seen (possibly the screen capture overlap, worth checking).", "owner": "dev@"},
+    {"severity": "minor", "screen": "ar-from-pitch-to-new-markets-phone-s7.jpg", "finding": "Footer sections 'THE NEWSROOM' ('Orders', 'Synthetic readers') and 'FOR AGENTS' make a general reader feel the site is not meant for her.", "owner": "designer@"},
+    {"severity": "held", "screen": "ar-from-pitch-to-new-markets-phone-s5.jpg", "finding": "'What this does not claim' was understood and liked: it says plainly the figures are the companies' own, unchecked, and that 'under an hour' is Granter's claim.", "owner": "journalist@"},
+    {"severity": "held", "screen": "ar-from-pitch-to-new-markets-phone-s5.jpg", "finding": "Each source shows the publisher, title, publication date and the date read, which the reader understood as how to check the story.", "owner": "journalist@"},
+    {"severity": "held", "screen": "ar-from-pitch-to-new-markets-phone-s1.jpg", "finding": "The 'ON THIS PAGE' list and the 'In short' bullets let the reader grasp the three companies in one screen.", "owner": "dev@"},
+    {"severity": "held", "screen": "about-phone-s3.jpg", "finding": "'OUR RULES' on About is plain and clear and matched what the reader had seen in the story.", "owner": "conductor@"},
+    {"severity": "held", "screen": "ar-from-pitch-to-new-markets-phone-s7.jpg", "finding": "The footer disclosure 'independent of Web Summit, not of RiskMandate' was read and understood.", "owner": "designer@"}
+  ]
+}
