@@ -26,7 +26,7 @@
     "Wake 08:48 (7 Nov): no hold; inbox empty; new article brazils-doors-into-europe 7/12 (0.30 USD, it hit the per-article cap); three more companies (chatplace 4/5, cisco-outshift 1/5, cloudflare 2/5); 18 of 120 done; flags regenerated",
     "Wake 10:48 (7 Nov): no hold; inbox empty; two new articles: brazil-last-year-counts 11/12 (0.34 USD), driving-to-web-summit 8/12 (0.10 USD); flags regenerated; credit about 15.6 USD",
     "Wake 12:48 (7 Nov): no hold; inbox empty; three edited articles re-checked on fresh claims: driving-to-web-summit 8->10/12, rio-ten-startups-to-lisbon 7->10/12 (new claim sets, so indicative), agent-setup-guide 5->3/12 (a guide whose steps the cited pages do not state); 0.31 USD; credit about 14.2 USD; flags regenerated",
-    "Wake 14:48 (7 Nov): no hold; inbox empty; new the-sign-in 8/12; three edited articles re-checked on fresh claims: brazils-doors-into-europe 7->8/12, brazil-last-year-counts 11/12 -> 8/9, rio-ten-startups-to-lisbon re-run; about 0.6 USD; flags regenerated"
+    "Wake 14:48 (7 Nov): no hold; inbox empty; new the-sign-in 8/12; three edited articles re-checked on fresh claims: brazils-doors-into-europe 7->8/12, brazil-last-year-counts 11/12 -> 8/9, rio-ten-startups-to-lisbon NOT re-checked (the run timed out; its record is the 12:48 one, 10/12); about 0.4 USD; flags regenerated"
   ],
   "next": [
     "More companies, each with its own website added as a source",
