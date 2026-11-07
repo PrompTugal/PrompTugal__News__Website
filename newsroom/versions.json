@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.602",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 18:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8b545cc29"
+  },
+  {
     "version": "v0.1.601",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
