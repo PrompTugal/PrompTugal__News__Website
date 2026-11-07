@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.425",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: 2025 organiser numbers read in full; hand-over debrief for 7 November",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "ee264de22"
+  },
+  {
     "version": "v0.1.424",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
