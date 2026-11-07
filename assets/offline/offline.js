@@ -6,7 +6,7 @@
 (function () {
     if (!('serviceWorker' in navigator) || !window.caches) return
     var site = function () { return window.NRSite }, url = function (p) { return site() && site().url ? String(site().url(p)) : new URL(p, location.href).href }
-    var key = function (u) { var x = new URL(u, location.href); return x.origin + x.pathname }
+    var key = function (u) { var x = new URL(u, location.href); return x.origin + x.pathname.replace(/\/index\.html$/, '/') }
     var SAVED = 'pt-saved'
 
     function save(u) {
@@ -97,9 +97,11 @@
     function marks() {
         document.querySelectorAll('a.pt-kept').forEach(function (a) { a.classList.remove('pt-kept') })
         if (navigator.onLine) return
+        // one mark per story (the title's link, not the picture's) and none on a page's own section switches (designer@)
         document.querySelectorAll('main a[href], .ctabs a[href]').forEach(function (a) {
-            var u = new URL(a.href, location.href); if (u.origin !== location.origin) return
-            caches.match(u.origin + u.pathname).then(function (r) { if (r) a.classList.add('pt-kept') })
+            var u = new URL(a.href, location.href); if (u.origin !== location.origin || a.querySelector('img, picture') || a.closest('.seg, .seg-links, .view-switch, nav.crumbs')) return
+            if (u.pathname === location.pathname) return
+            caches.match(key(a.href)).then(function (r) { if (r) a.classList.add('pt-kept') })
         })
     }
     function start() {

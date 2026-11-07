@@ -62,3 +62,5 @@
 .nr-mount .warn, .balance-card .warn { color: var(--warn, #8a5200); }
 #nr-topup .btn, #nr-topped .btn.primary { width: 100%; }
 @media (min-width: 768px) { #nr-topup .btn { width: auto; min-width: 16em; } }
+/* on a narrow phone the pill says "£5.00 free", so the masthead's name is never cut (synthetic@'s F55) */
+@media (max-width: 430px) { .tool.meter .meter-word { display: none; } }
