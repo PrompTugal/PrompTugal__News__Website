@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B)",
-  "updated": "2026-11-07T01:45Z",
+  "updated": "2026-11-07T03:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -35,10 +35,12 @@
     "Inbox reissued to the new key; opened (field names only) and drained into the inbox vault, pushed and marked processed: 1 message (dev.verify@'s company-field finding) (23:21 wake)",
     "dev.verify@'s finding taken in: own1, each company's own home page read 23:23, added as a source for website and what for 0xbow, 1Password and Air Apps, each note saying what the page does not state; AICEP's own site (s3) re-read in recheck.json, its what now 'about 50 markets' as the page says (23:21 wake)",
     "Own-site sources, batch 2: own1 (home page read 7 November 00:25 UTC) for 11 companies (ai-infinity, altegio, andreessen-horowitz, arima, atlassian, cerebras, cisco-outshift, cnext, contents, datadog, delinea), each note saying what the page does not state; Akamai held (its site answers 403 to an automated read); Outshift's page is script-rendered, so only its meta description (00:21 wake, 7 Nov)",
-    "Own-site sources, batch 3: own1 (home page read 7 November 01:25 UTC) for 11 companies (delta-labs, dig-in, elastic, european-commission (website only), fido, firefox-enterprise-mozilla, fretefy (title only, script-rendered), gcore, getvocal-ai, google-cloud, hablla); Genspark held (bot challenge) (01:21 wake)"
+    "Own-site sources, batch 3: own1 (home page read 7 November 01:25 UTC) for 11 companies (delta-labs, dig-in, elastic, european-commission (website only), fido, firefox-enterprise-mozilla, fretefy (title only, script-rendered), gcore, getvocal-ai, google-cloud, hablla); Genspark held (bot challenge) (01:21 wake)",
+    "Own-site sources, batch 4: own1 (home page read 7 November 02:25 UTC) for 12 companies (ibm, itrecruiter, just-travel, keewano, kiggu, kpmg-portugal (website only: it redirects to KPMG International), legalfly, manageengine, melious-ai, mobile-brain, naporta, ola-doutor); the 7 November hand-over debrief (02:21 wake)",
+    "Own-site sources, batch 5 (the last): own1 (read 7 November 03:25 UTC) for 16 companies (orb, prelude, prohound, rapidoc, raras-health, risiq, runpod, sensay, shakers, sheerme, spacecomputer, sphere, startup-portugal, strawberry, twilio, vtex); the pass is done: every company with a readable site has one. Held (bot challenge or 403): akamai, genspark, persona, pitchbook, polygraf-ai. No website recorded: eversec, nisos, rws, whitespace. dev.verify@ told (03:21 wake)"
   ],
   "next": [
-    "Own-site sources for the remaining 33 companies, in batches of about 12 (dev.verify@'s finding); Akamai and Genspark once a readable page is found",
+    "A website (and own-site source) for eversec, nisos, rws and whitespace, from a public source; the five held sites once a readable page is found",
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
@@ -222,6 +224,18 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "own-site sources, batch 3 (11 companies); Genspark held"
+    },
+    {
+      "started": "2026-11-07T02:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "own-site sources, batch 4 (12); daily debrief"
+    },
+    {
+      "started": "2026-11-07T03:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "own-site sources, batch 5 (16): the pass is done"
     }
   ],
   "decisions_on_findings": [
@@ -241,6 +255,6 @@
       "at": "2026-11-06T17:40Z"
     }
   ],
-  "debrief": "board/team/ontologist/debriefs/2026-11-06-handover.md",
+  "debrief": "board/team/ontologist/debriefs/2026-11-07-handover.md",
   "session": "board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/notes.md"
 }

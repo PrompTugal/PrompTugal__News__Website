@@ -20,3 +20,17 @@ The Web Summit "unsupported" flags here are the verifier not reading pages built
 **Found on the way, this desk's own error:** BR3 (rio-ten-startups-to-lisbon, published 6 November) said only two of Rio's ten had a page on Web Summit's site. All ten do (the Brazil beat's `found/brazil-2.json` had them; every page re-read 7 November, HTTP 200: nine from Brazil, sheerME from Portugal), and those pages name Paralelo.app's (paralelo.app.br) and Lucca's (meulucca.com) websites, both read 7 November. Corrected in public with the old text kept; re-signed. Lesson: search the project's own research before the web.
 
 Left for the next round: brazil-on-the-stages c1, c3, c7, c10 (c10 is now confirmed by the LIS26 pages: Bizuu and AllPetSenior); brazil-startup-mission c7, c8, c10; following-robotics c1; lisbon-awards c3; italy c1, c8, c9; road-2 c6; tuesday c2; web-summit-2026-in-numbers; wednesday-11-november; gender-in-tech (the source is a docsend viewer).
+
+# Round 2 (7 November 2026, 02:30 to 03:00 UTC), against the flags file of 6 November, 23:26 UTC
+
+| Article | Flag | At the source (re-read 7 November) | Done |
+|---|---|---|---|
+| web-summit-2026-in-numbers | c1 to c4, c7 to c10 | Web Summit's survey post (dated 2026-10-22 in its data): "polled 1,455 founders, investors, engineers, and creators"; "55% ... 19% see no difference and 26% say it weakens it"; "37%"; "60% say AI has increased their workload, while 20% say it has reduced it"; Nidhi Naithani, SVP of Technology Operations: "people are divided about a future with AI"; "more than 70,000 attendees from more than 100 countries, including 10,000 startups". /tracks/: "4 days, 17 tracks". /speakers/: "Learn from 800 speakers". How we select: "In 2025, over 22,000 startups applied and about 2,700 got in". /essentials/venue/: "November 9-12, 2026", "MEO Arena and FIL" | All supported; no change |
+| following-robotics-at-web-summit | c1: 800 speakers | /speakers/ (above) | Supported; no change |
+| brazil-startup-mission | c7: five public figures | the article's own table lists exactly five counts, each with its source | Supported by the article; no change |
+| tuesday-10-november-three-ways-in | c2: Virkkunen, 11:05 to 11:25, Centre Stage | the Commission's DigitalEU page: "11:05-11:25 – Fireside chat with EVP Virkkunen", "on Centre Stage on 10 November" | Supported; no change |
+| wednesday-11-november-going-abroad | c1, c2: busiest day; most sessions | the Commission's agenda: 2 on 10 November, 4 on 11 November, 1 on 12 November | "Most" supported; "busiest day for founders" was our framing: replaced with the count, dated update; re-signed |
+
+Again, the Web Summit "unsupported" flags come from text the verifier could not see: it is in each page's embedded data (the `content` field).
+
+Left: brazil-on-the-stages c1, c3, c7 (partly: from the beat's search, which the article cites); BR2 c2 to c5 (supported in its check, `checks/BR2.md`); lisbon-awards c3 (AI count); road-2 c6; italy c1, c8, c9; rio-ten c1, c2 (both in its sources, quoted in `checks/BR3.md`); gender-in-tech (a docsend viewer: needs a person or a browser).

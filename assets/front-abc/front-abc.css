@@ -61,7 +61,7 @@
 
 /* B: Summit Live */
 .fb-bar { background: var(--panel); border-bottom: 1px solid var(--hair); }
-.fb-in { display: flex; align-items: center; gap: 10px 18px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; } .fb-in .wordmark { height: 30px; width: auto; } .fb-sp { flex: 1; }
+.fb-in { display: flex; align-items: center; gap: 10px 18px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; } .fb-in .wordmark { height: 40px; width: auto; } .fb-sp { flex: 1; }
 .fb-pill { font: 600 13px var(--sans); border: 1px solid var(--rule-2); border-radius: 999px; padding: 5px 14px; } .fb-pill.fb-ask { background: var(--brand); color: var(--on-brand); border-color: var(--brand); }
 .fb-live { background: var(--ink); color: var(--paper); font: 600 13px var(--sans); } .fb-live .fb-in { padding-top: 9px; padding-bottom: 9px; justify-content: space-between; } .fb-live .fx-cd b { color: var(--paper); }
 .fb-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--brand-red); margin-right: 8px; animation: fb-pulse 1.6s ease-in-out infinite; }
@@ -74,7 +74,7 @@
 .fb-card { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 12px; align-items: start; } .fb-card h3 { margin: 0 0 4px; font: 600 16px/1.2 var(--serif); } .fb-card p:not(.fx-k) { margin: 0; font: 12px var(--sans); color: var(--ink-3); }
 
 /* C: The Atlas */
-.fc-hd { display: flex; align-items: center; gap: 12px 24px; flex-wrap: wrap; padding: 16px 0; } .fc-hd .wordmark { height: 34px; width: auto; }
+.fc-hd { display: flex; align-items: center; gap: 12px 24px; flex-wrap: wrap; padding: 16px 0; } .fc-hd .wordmark { height: 40px; width: auto; }
 .fc-hero { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 40px; padding: 28px 0 34px; align-items: start; }
 .fc-hero h1 { margin: 6px 0 12px; font: 600 54px/1.04 var(--serif); letter-spacing: -.02em; } .fc-hero h1 em { font-style: italic; color: var(--brand); } .fc-lede { font-size: 18px; line-height: 1.5; color: var(--ink-2); margin: 0 0 6px; }
 .fc-nums { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; } .fc-nums div { background: var(--panel); border: 1px solid var(--hair); border-radius: 12px; padding: 12px 14px; }
@@ -92,7 +92,13 @@
     .fa-more { grid-template-columns: 1fr 1fr; } .fc-grid { grid-template-columns: 1fr 1fr; } .fc-hero h1 { font-size: 40px; } .fa-lead h1 { font-size: 30px; }
 }
 @media (max-width: 600px) {
-    .fa-more, .fc-grid, .fb-lead, .fb-cards, .fc-nums { grid-template-columns: 1fr; } .fc-card.big { grid-column: auto; grid-template-columns: 1fr; } .fc-next { columns: 1; }
+    .fa-more, .fc-grid, .fb-lead, .fb-cards { grid-template-columns: 1fr; } .fc-card.big { grid-column: auto; grid-template-columns: 1fr; } .fc-next { columns: 1; }
     .fx-list li:nth-child(n+5) { display: none; } .fa-plate .wordmark { height: 42px; } .fc-hero h1 { font-size: 32px; } .fx-nav { flex-wrap: nowrap; overflow-x: auto; } .fa-nav { display: none; }
     .fa-more article, .fb-card { grid-template-columns: 72px minmax(0, 1fr); }
+}
+/* the check of 7 Nov (designer@, D4, D7, D11): C keeps the tab bar's sections on a phone, and Now and next comes before the stories */
+@media (max-width: 600px) {
+    .fc-hd .fx-nav { display: none; }
+    .fc > .fx-w { display: flex; flex-direction: column; } .fc-hd, .fc-hero { order: 0; } .fc-nh, .fc-next { order: 1; } .fc-grid { order: 3; } .fc > .fx-w > .fx-h:not(.fc-nh) { order: 2; }
+    .fc-next { padding-bottom: 20px; }
 }

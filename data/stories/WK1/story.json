@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "WK1",
+  "type": "story",
+  "title": "Plan your week by field: which summit day is yours",
+  "beat": "Web Summit",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [],
+  "desk_files": [
+    "desks/correspondent/ideas/wk1-plan-your-week-by-field.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/correspondent/ideas/wk1-plan-your-week-by-field.md"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-07T03:00Z",
+      "by": "correspondent@PrompTugal.dinis",
+      "file": "desks/correspondent/ideas/wk1-plan-your-week-by-field.md"
+    }
+  ]
+}
