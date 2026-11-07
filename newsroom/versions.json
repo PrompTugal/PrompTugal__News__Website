@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.636",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: S27 review: 20 script files, not 21 (one is loaded twice)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "1dbbb0370"
+  },
+  {
     "version": "v0.1.635",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 21:07 wake: account B's ledger at 507.29, about 21 an hour; investors@ slowed",
