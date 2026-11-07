@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.454",
+    "date": "2026-11-07",
+    "what": "devops@PrompTugal.dinis: runs 892 to 924 read; the published tree has doubled (130 MB), sent to dev@",
+    "by": "devops@PrompTugal.dinis",
+    "from": "8fce71ee1"
+  },
+  {
     "version": "v0.1.453",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: wake 06:08: status and run report; blocked on nothing",
