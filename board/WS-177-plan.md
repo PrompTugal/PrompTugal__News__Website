@@ -10,6 +10,11 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 07:52 UTC, 7 November (site v0.1.471)
+
+- The first newsletter edition (Saturday morning) out and checked by designer@; outreach@ and ontologist@ mapped four more flows (Exa, GetVocal, Keewano, LaunchDarkly); dev@ brought the five workers' new work.
+- 8 releases since 06:52. Snapshot 07:53. No hold.
+
 ## Wake at 06:52 UTC, 7 November (site v0.1.463)
 
 - investors@: /investors/for-events/, an edition for an event organiser (the platform by proxy). journalist@ re-signed 19 articles in the new signing form (F43). designer@ redrew the lisbon-awards image after its correction. sherpa@ re-measured the home designs at v0.1.456.
