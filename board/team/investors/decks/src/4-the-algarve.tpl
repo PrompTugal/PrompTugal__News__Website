@@ -26,6 +26,16 @@
   .ask .q { font: 600 italic 30px/1.25 var(--serif); color: var(--ink); margin: 12px 0 14px; }
   .ask p { font: 400 22px/1.42 var(--sans); color: var(--ink-2); }
   .ask .n { font: 600 64px/1 var(--serif); color: var(--green); }
+  .grp { border-top: 8px solid var(--green); background: var(--panel); border-left: 1px solid var(--hair); border-right: 1px solid var(--hair); border-bottom: 1px solid var(--hair); padding: 26px 28px 22px; }
+  .grp.r { border-top-color: var(--red); } .grp.c { border-top-color: var(--cobalt); } .grp.k { border-top-color: var(--ink); }
+  .grp .g { font: 500 19px/1.25 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 18px; }
+  .grp ul { list-style: none; } .grp li { font: 600 26px/1.25 var(--serif); color: var(--ink); padding: 9px 0; border-bottom: 1px solid var(--hair); }
+  .grp li:last-child { border-bottom: 0; }
+  .band { border-left: 8px solid #ff7a7f; padding: 2px 0 2px 26px; margin-bottom: 26px; }
+  .band.p { border-left-color: #4caf50; } .band.e { border-left-color: #8fb0ef; }
+  .band h3 { font: 600 34px/1.1 var(--serif); color: var(--paper); margin-bottom: 6px; } .band p { font: 400 22px/1.4 var(--sans); color: #c8c4ba; }
+  .euq { font: 400 italic 29px/1.3 var(--serif); color: var(--paper); border-top: 1px solid #3f424a; padding-top: 22px; margin-top: 6px; }
+  .euq .who { display: block; font: 500 17px/1.3 var(--mono); font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: #8fd18f; margin-top: 14px; }
 </style></head>
 <body><main class="deck">
 
@@ -53,6 +63,7 @@
       <li data-i18n="s02.6"></li>
       <li data-i18n="s02.7"></li>
       <li data-i18n="s02.8"></li>
+      <li data-i18n="s02.22"></li>
     </ul>
     <svg viewBox="0 0 820 520" width="820" height="520">
       <rect x="0" y="0" width="820" height="520" fill="#dfe8ec"></rect>
@@ -373,6 +384,29 @@
   <div class="foot"><span class="wordmark" data-i18n="s12.18"></span><span data-i18n="s12.19"></span></div>
 </section>
 
+<!-- 13 · who we want to work with -->
+<section class="slide">
+  <div class="head"><span><b data-i18n="x13.1"></b></span><span data-i18n="x13.2"></span></div>
+  <div class="kicker" data-i18n="x13.3"></div>
+  <h2 style="font-size:62px" data-i18n="x13.4"></h2>
+  <div class="cols c4" style="margin-top:40px;gap:28px">
+    <div class="grp"><div class="g" data-i18n="x13.5"></div><ul>
+      <li data-i18n="x13.6"></li><li data-i18n="x13.7"></li><li data-i18n="x13.8"></li><li data-i18n="x13.9"></li>
+    </ul></div>
+    <div class="grp r"><div class="g" data-i18n="x13.10"></div><ul>
+      <li data-i18n="x13.11"></li><li data-i18n="x13.12"></li><li data-i18n="x13.13"></li><li data-i18n="x13.14"></li><li data-i18n="x13.15"></li><li data-i18n="x13.16"></li><li data-i18n="x13.17"></li><li data-i18n="x13.18"></li><li data-i18n="x13.19"></li>
+    </ul></div>
+    <div class="grp c"><div class="g" data-i18n="x13.20"></div><ul>
+      <li data-i18n="x13.21"></li><li data-i18n="x13.22"></li><li data-i18n="x13.23"></li><li data-i18n="x13.24"></li><li data-i18n="x13.25"></li><li data-i18n="x13.26"></li>
+    </ul></div>
+    <div class="grp k"><div class="g" data-i18n="x13.27"></div><ul>
+      <li data-i18n="x13.28"></li><li data-i18n="x13.29"></li>
+    </ul></div>
+  </div>
+  <div class="src" style="margin-top:22px" data-i18n="x13.30"></div>
+  <div class="foot"><span class="wordmark" data-i18n="x13.31"></span><span data-i18n="x13.32"></span></div>
+</section>
+
 <!-- 13 · timeline -->
 <section class="slide v">
   <div class="head"><span><b data-i18n="s13.1"></b></span><span data-i18n="s13.2"></span></div>
@@ -390,18 +424,33 @@
   <div class="foot"><span class="wordmark" data-i18n="s13.24"></span><span data-i18n="s13.25"></span></div>
 </section>
 
-<!-- 14 · close -->
-<section class="slide v ink">
-  <div class="head"><span><b data-i18n="s14.1"></b></span><span data-i18n="s14.2"></span></div>
-  <div class="bigquote" style="color:var(--paper)" data-i18n="s14.3"></div>
-  <div class="cols c4" style="margin-top:90px;gap:30px">
-    <div><div class="tag" style="color:#8fd18f" data-i18n="s14.4"></div><p class="body" style="color:#c8c4ba" data-i18n="s14.5"></p></div>
-    <div><div class="tag" style="color:#8fd18f" data-i18n="s14.6"></div><p class="body" style="color:#c8c4ba" data-i18n="s14.7"></p></div>
-    <div><div class="tag" style="color:#8fd18f" data-i18n="s14.8"></div><p class="body" style="color:#c8c4ba" data-i18n="s14.9"></p></div>
-    <div><div class="tag" style="color:#ff7a7f" data-i18n="s14.10"></div><p class="body" style="color:var(--paper)"><b data-i18n="s14.11"></b></p></div>
+<!-- 15 · close: the Algarve, Portugal, Europe -->
+<section class="slide ink">
+  <div class="head"><span><b data-i18n="s15.1"></b></span><span data-i18n="s15.2"></span></div>
+  <div class="kicker" data-i18n="s15.3"></div>
+  <h2 style="color:var(--paper);font-size:66px" data-i18n="s15.4"></h2>
+  <div style="display:grid;grid-template-columns:600px 1fr;gap:70px;margin-top:30px;align-items:center">
+    <svg viewBox="0 0 760 760" width="600" height="600">
+      <circle cx="380" cy="380" r="370" fill="#1c2a4a" stroke="#8fb0ef" stroke-width="4"></circle>
+      <circle cx="380" cy="485" r="255" fill="#173a1f" stroke="#4caf50" stroke-width="4"></circle>
+      <circle cx="380" cy="590" r="135" fill="#4a1c20" stroke="#ff7a7f" stroke-width="4"></circle>
+      <text x="380" y="70" text-anchor="middle" class="mono" font-size="26" fill="#8fb0ef" letter-spacing="4" data-i18n="s15.5"></text>
+      <text x="380" y="116" text-anchor="middle" class="serif" font-size="40" font-weight="600" fill="#f6f3ec" data-i18n="s15.6"></text>
+      <text x="380" y="296" text-anchor="middle" class="mono" font-size="26" fill="#4caf50" letter-spacing="4" data-i18n="s15.7"></text>
+      <text x="380" y="340" text-anchor="middle" class="serif" font-size="34" font-weight="600" fill="#f6f3ec" data-i18n="s15.8"></text>
+      <text x="380" y="545" text-anchor="middle" class="mono" font-size="22" fill="#ff7a7f" letter-spacing="3" data-i18n="s15.9"></text>
+      <circle cx="380" cy="582" r="12" fill="#ff7a7f"></circle>
+      <text x="380" y="640" text-anchor="middle" class="serif" font-size="40" font-weight="600" fill="#f6f3ec" data-i18n="s15.10"></text>
+    </svg>
+    <div>
+      <div class="band"><h3 data-i18n="s15.11"></h3><p data-i18n="s15.12"></p></div>
+      <div class="band p"><h3 data-i18n="s15.13"></h3><p data-i18n="s15.14"></p></div>
+      <div class="band e"><h3 data-i18n="s15.15"></h3><p data-i18n="s15.16"></p></div>
+      <div class="euq" data-i18n="s15.17"></div>
+    </div>
   </div>
-  <p class="lead" style="margin-top:60px" data-i18n="s14.12"></p>
-  <div class="foot"><span class="wordmark" data-i18n="s14.13"></span><span data-i18n="s14.14"></span></div>
+  <p class="lead" style="margin-top:26px;font-size:28px;color:#c8c4ba" data-i18n="s15.18"></p>
+  <div class="foot"><span class="wordmark" data-i18n="s15.19"></span><span data-i18n="s15.20"></span></div>
 </section>
 
 </main><script src="deck.js"></script>

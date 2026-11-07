@@ -3,7 +3,7 @@
 Every deck states only what is here or on /investors/ (content/investors/), with the source in the slide's small print where it is a number. Dinis's direction: board/team/investors/dinis-2026-11-07-*.md.
 
 ## Never
-- No ask, amount, valuation, stage, terms, revenue, cost, price list or projection. "No figures yet: we are talking to investors."
+- No valuation, split, terms, revenue, cost, price list or projection. The seed round size IS public since 7 Nov 2026, 12:40 UTC: "under $1M" (see below).
 - No team member named except Dinis Cruz (sole director and 100% shareholder of My Feeds, the only contact). No contact detail (no email). No private conversation, no investor named.
 - No em-dashes. No claim for RiskMandate beyond "one of Dinis Cruz's startups".
 - No invented statistic. A number is either counted from this repository, given by Dinis, or a public figure with its source.
