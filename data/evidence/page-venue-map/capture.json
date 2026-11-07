@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "page-venue-map",
+  "type": "evidence",
+  "source_url": "https://promptugal.news/summit/venue/index.html",
+  "beat": "AI and robotics",
+  "group": "team topics",
+  "names": [
+    {
+      "as_listed": "PrompTugal.news",
+      "ref": "organisation:promptugal-news"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-07-1945.json",
+  "run": "2026-11-07T19:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-07-1945.json"
+    ]
+  }
+}

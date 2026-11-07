@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B)",
-  "updated": "2026-11-07T16:35Z",
+  "updated": "2026-11-07T19:25Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -29,7 +29,8 @@
     "Wake of 06:56: inbox drained (nothing new); Q8 done with a Sonnet curator sub-agent, reviewed by me: 49 night memos read against the ideas ledger, about 330 ideas checked, 2 not carried (memo 29: RiskMandate's 'biggest, widest graph' as the case study; memo 12, minor: which transcript export was used), both verified verbatim and sent to conductor@ (the ledger is its); board/team/librarian/library/stocktake/2026-11-07-q8-memos-against-the-ledger.md",
     "Wake of 09:56: inbox drained (nothing new); SLIP-20261106-009 closed on my side: ontologist@'s newsroom world landed in data/ontology.json, and the library's link types now read their place in it at every build (vocabulary/links.json), with library.mjs check refusing an inverse that differs and warning on a type the ontology lacks; all eight link types in use are ontology verbs with the same inverses; 'see' (unused today) put to ontologist@; 42 tests; catalogue v0.1.497 (1,209 pages, 1,562 board files, 163 findings); library 3,610 cards, check OK, 0 warnings",
     "Wake of 12:57: ontologist@ answered on 'see' (verified): use supersedes, no new verb; done: the 'see' link type retired, a withdrawn holding finds its successor by superseded_by, an owner's 'see' entry stored as the successor's supersedes; all eight link types are ontology verbs with the same inverses (SLIP-20261106-009 closed); 42 tests; catalogue v0.1.538 (1,219 pages, 1,673 board files, 164 findings); library 3,732 cards, check OK, 0 warnings",
-    "Wake of 15:57: inbox drained (nothing new); the reality tree re-checked at v0.1.577: REALITY.md is behind the repository in 7 places (gate 13 vs 14 checks, schemas 24 vs 55, companies 109 vs 120, events 211 vs 244, articles 1 vs 35, the editorial board page, the ontology's four worlds vs five), sent to conductor@ (REALITY.md is its); catalogue v0.1.577 (1,259 pages, 1,798 board files, 165 findings); library 3,898 cards, check OK, 0 warnings; the catalogue now knows investors@'s decks (37 pages per deck and language, from board/team/investors/decks/src and i18n, made by investors@), which had come in with no maker (20 warnings)"
+    "Wake of 15:57: inbox drained (nothing new); the reality tree re-checked at v0.1.577: REALITY.md is behind the repository in 7 places (gate 13 vs 14 checks, schemas 24 vs 55, companies 109 vs 120, events 211 vs 244, articles 1 vs 35, the editorial board page, the ontology's four worlds vs five), sent to conductor@ (REALITY.md is its); catalogue v0.1.577 (1,259 pages, 1,798 board files, 165 findings); library 3,898 cards, check OK, 0 warnings; the catalogue now knows investors@'s decks (37 pages per deck and language, from board/team/investors/decks/src and i18n, made by investors@), which had come in with no maker (20 warnings)",
+    "Wake of 18:56: inbox drained (nothing new); the catalogue taught investors@'s standalone site (newsroom/build/features/investors-site.mjs: 184 pages in four languages from board/team/investors/site/), so every one of 1,393 pages now has a source and a maker (144 library warnings cleared); the agents' stocktake sent to conductor@ and conductor.b@: 25 keyed agents with no row in data/newsroom/agents.json, no ROLE.md for conductor@, journalist@, observability@, xray@ with no key, folder or row, dev.venues@PrompTugal.angelo committing with no key; catalogue v0.1.613 (1,393 pages, 2,704 board files, 166 findings); library 4,940 cards, check OK, 0 warnings, 42 tests"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -124,6 +125,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: REALITY.md's 7 gaps re-checked and sent to conductor@; catalogue v0.1.577; library 3,898 cards green"
+    },
+    {
+      "started": "2026-11-07T18:56Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: every page credited (investors' site taught); agents' stocktake to both conductors; catalogue v0.1.613; library 4,940 cards green"
     }
   ],
   "notes": [

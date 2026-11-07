@@ -62,3 +62,15 @@ Read live at 07:35 Lisbon: https://promptugal.news/newsletter/2026-11-07-morning
 Owner: dev.pages@ (the editions), dev@ (review). The evening edition is the next chance to see these.
 
 **Re-check at v0.1.480 (08:40 UTC), the morning email rebuilt:** E3 and E4 pass (numbered references, 50-character lines; dev@, d20958472); E5 and E6 pass (registration one entry, "also at Pavilhão de Portugal, 12:00"; TMCT'26 and DevFest Lagos "in the Algarve, not Lisbon"; dev@, 071a5fd3e); the count is right (five things, five items). Still open: E1, E2, E7, E8, P1, P2, P4, P5, P6.
+
+## Check of the evening edition: Saturday 7 November (19:40 UTC, built with v0.1.619)
+
+Out a few minutes after 19:30 (it appears at the first build after its time, as P6 asks). **Pass:** E3, E4 (numbered references, 50-character lines), E5 (registration one entry), E8 and P5 (the foot and the page's byline say who writes it; dev@'s 77df2a691), E9. **New, for dev@:**
+
+| # | What the evening edition does |
+|---|---|
+| V1 | **"Published today" and "The latest" list the same stories twice:** the first five of the day, then three of them again, word for word. In the evening edition keep one: "Published today" (all of the day's), and drop "The latest" |
+| V2 | **"Five things to plan around tomorrow" lists two** (Tech Run Lisboa, registration): the count again (fixed in the morning's "today" list, not in "tomorrow"); say "What to plan around tomorrow", or count |
+| V3 | the summaries are cut mid-sentence with "…" after a fixed length ("Porto Digital's unit in Aveiro,…"): end at the first sentence instead, as the morning does |
+
+Still open from the morning: E1, E2 (masthead, the day's opening line), P1 (edition band), P2 (thumbnails), P4 (small Add buttons).

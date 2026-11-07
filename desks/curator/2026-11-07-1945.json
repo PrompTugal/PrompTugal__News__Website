@@ -1,0 +1,89 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-07T19:45Z",
+  "for": "journalist-ai, via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9, pulled 7 November 2026 at 19:46 UTC: still at commit 4c3965130775, no capture newer than the 19:45 map of 6 November.",
+    "team_topics": "Two public pages of promptugal.news, read 7 November 2026: the newsletter page and the venue map; checked against the articles index and the t1 to t5 drafts."
+  },
+  "rules": "Team topics rest on public pages of promptugal.news, with the date read; no contact details, vault contents or private messages. No fact added beyond the page; nothing checked or rewritten.",
+  "captures": [
+    {
+      "id": "page-newsletter",
+      "file": "public page of promptugal.news, read 7 November 2026 (not a vault capture)",
+      "source_url": "https://promptugal.news/newsletter/index.html",
+      "beat": "AI and robotics",
+      "names": [
+        "PrompTugal.news"
+      ],
+      "what_is_new": "From Saturday 7 November the site publishes two editions a day in summit week: a morning edition (what is on today) and an evening edition (what happened and what is next). Each is a public page and a short plain-text email made from it, with links. Subscribers and sending are handled by the Web Summit team, not on the site.",
+      "is_story": true,
+      "group": "team topics"
+    },
+    {
+      "id": "page-venue-map",
+      "file": "public page of promptugal.news, read 7 November 2026 (not a vault capture)",
+      "source_url": "https://promptugal.news/summit/venue/index.html",
+      "beat": "AI and robotics",
+      "names": [
+        "PrompTugal.news"
+      ],
+      "what_is_new": "A new page draws the summit's buildings in Parque das Nacoes from OpenStreetMap and says how many sessions of the site's programme sit in each (MEO Arena and FIL 183, FIL 3, Pavilhao de Portugal 6, Centro Vasco da Gama 1). No person is on it; a session whose place is not a known building is not placed.",
+      "is_story": true,
+      "group": "team topics"
+    }
+  ],
+  "groups": {},
+  "duplicates_and_noise": [
+    {
+      "item": "Newsroom note 'Made to outlive the summit'",
+      "verdict": "still not listed",
+      "why": "It rests on a quote from a private call transcript that the note says is not published."
+    },
+    {
+      "item": "The sign-in (S25)",
+      "verdict": "already an article",
+      "why": "Published on 7 November; nothing to add."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "item": "S27",
+      "what": "The session counts per building are the site's own programme data on 7 November; they will change as the programme does. The OpenStreetMap credit (ODbL) must stay with any use of the map."
+    },
+    {
+      "item": "S26",
+      "what": "Who sends the email and to whom is, per the page, the Web Summit team's; keep the story to what the page says."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S26",
+      "kind": "team",
+      "title": "Two editions a day: PrompTugal.news starts a daily newsletter",
+      "beat": "AI and robotics",
+      "angle": "In summit week the site publishes a morning edition (what is on today) and an evening edition (what happened and what is next), each a public page and a short plain-text email with links; subscribers and sending sit with the Web Summit team.",
+      "rests_on": [
+        "page-newsletter"
+      ],
+      "note": "Team topic for journalist-ai. Only what the newsletter page says.",
+      "words": 10
+    },
+    {
+      "id": "S27",
+      "kind": "team",
+      "title": "A map of Web Summit's buildings, and what each holds",
+      "beat": "AI and robotics",
+      "angle": "A new page draws the summit's buildings in Parque das Nacoes from OpenStreetMap and counts the programme's sessions in each, with no people on it and no guessing where a session is.",
+      "rests_on": [
+        "page-venue-map"
+      ],
+      "note": "Team topic (a site change) for journalist-ai; also useful to S1 and S24 readers. Public page only.",
+      "words": 9
+    }
+  ],
+  "revisions": [],
+  "gaps_for_the_researcher": [],
+  "urgent": "None"
+}

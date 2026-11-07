@@ -1943,7 +1943,7 @@
    "auto": true,
    "made": "2026-11-07",
    "tool": "design/infographics/table/make.mjs --heading 'Which day is yours' --label Track",
-   "checked": "drawn from the article's own table, no AI; the numbers are the article's"
+   "checked": "drawn from the article's own table, no AI; redrawn 20:40 UTC after the 'PITCH (group rounds)' correction"
   },
   {
    "slug": "plan-your-week-by-field",
@@ -1954,7 +1954,7 @@
    "auto": true,
    "made": "2026-11-07",
    "tool": "design/infographics/table/make.mjs --heading 'Which day is yours' --label Track",
-   "checked": "drawn from the article's own table, no AI; the numbers are the article's"
+   "checked": "drawn from the article's own table, no AI; redrawn 20:40 UTC after the 'PITCH (group rounds)' correction"
   },
   {
    "slug": "plan-your-week-by-field",
@@ -1965,7 +1965,7 @@
    "auto": true,
    "made": "2026-11-07",
    "tool": "design/infographics/table/make.mjs --heading 'Which day is yours' --label Track",
-   "checked": "drawn from the article's own table, no AI; the numbers are the article's"
+   "checked": "drawn from the article's own table, no AI; redrawn 20:40 UTC after the 'PITCH (group rounds)' correction"
   },
   {
    "slug": "plan-your-week-by-field",
@@ -1976,7 +1976,7 @@
    "auto": true,
    "made": "2026-11-07",
    "tool": "design/infographics/table/make.mjs --heading 'Which day is yours' --label Track",
-   "checked": "drawn from the article's own table, no AI; the numbers are the article's"
+   "checked": "drawn from the article's own table, no AI; redrawn 20:40 UTC after the 'PITCH (group rounds)' correction"
   }
  ]
 }

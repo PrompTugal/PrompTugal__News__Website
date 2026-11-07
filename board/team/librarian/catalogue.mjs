@@ -91,6 +91,16 @@ function sourceOf(rel) {
     // the deck's layout and its words, not from content/
     const dk = /^investors\/decks\/([^/]+)\/(?:[a-z]{2}\/)?index\.html$/.exec(rel)
     if (dk) { const tpl = `board/team/investors/decks/src/${dk[1]}.tpl`, words = under(`board/team/investors/decks/i18n/${dk[1]}`), deck = `board/team/investors/decks/src/${dk[1]}.deck`; const ps = [tpl, deck].filter(exists).concat(words); if (ps.length) return { kind: 'site', paths: ps, feature: 'newsroom/build/features/decks.mjs' } }
+    // investors@'s standalone site (newsroom/build/features/investors-site.mjs, 7 November 2026): every page in four
+    // languages, from board/team/investors/site/ (a long page's md/<page>.<lang>.md, an article's articles/<slug>.<lang>.md,
+    // else the layout tpl/<page>.tpl and site.json), English at /investors/<page>/, the others at /investors/<lang>/<page>/
+    const iv = /^investors\/(?:(pt|es|fr)\/)?(?:(articles)\/)?([^/]+\/)?index\.html$/.exec(rel)
+    if (iv && (!rel.startsWith('investors/decks/') || rel === 'investors/decks/index.html')) {
+        const S = 'board/team/investors/site/', lang = iv[1] || 'en', page = (iv[3] || '').replace(/\/$/, '')
+        const own = iv[2] ? (page ? [`${S}articles/${page}.${lang}.md`, `${S}articles/${page}.en.md`] : [`${S}tpl/articles.tpl`]) : [`${S}md/${page || 'index'}.${lang}.md`, `${S}md/${page || 'index'}.en.md`, `${S}tpl/${page || 'home'}.tpl`]
+        const ps = [own.find(exists), `${S}site.json`].filter(Boolean).filter(exists)
+        if (ps.length) return { kind: 'site', paths: ps, feature: 'newsroom/build/features/investors-site.mjs' }
+    }
     if (rel.startsWith('newsroom/agents/') && rel !== 'newsroom/agents/index.html') return { kind: 'newsroom', paths: ['data/newsroom/agents.json'], feature: 'newsroom/build/features/newsroom.mjs' }
     const cands = [contentByPath.get(rel), `content/${rel.replace(/\.html$/, '.md')}`, `content/${rel.replace(/\/index\.html$/, '.md')}`, `content/${rel.replace(/index\.html$/, 'index.md')}`, rel === 'index.html' ? 'content/index.md' : null].filter(Boolean)
     const c = cands.find(exists)
