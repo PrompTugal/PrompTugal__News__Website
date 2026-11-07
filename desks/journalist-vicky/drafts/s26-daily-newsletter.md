@@ -22,7 +22,7 @@ Summit week is busy, and not everyone reads a news site several times a day. So 
 
 **The morning edition** has two parts. "If you are there" lists things to plan around that day, from the programme the newsroom holds, each with a link to its source. The first one, on 7 November, listed five: Portugal Tech Week, two side events in the Algarve, registration at Lisbon airport and at the Pavilhão de Portugal, and a startup football tournament. The page warns that times and rooms can move. "If you are following from afar" gives the latest articles, newest first.
 
-**The evening edition** has three parts: what was published that day, the latest articles, and the things to plan around tomorrow. The first evening edition listed five articles published on 7 November, from Brazil's startup delegation to driving routes into the summit, and pointed ahead to a run in Beato and to registration on Sunday.
+**The evening edition** has three parts: what was published that day, the latest articles, and the things to plan around tomorrow. The first evening edition listed five articles published on 7 November, from Brazil's startup delegation to the newsroom's sign-in, and pointed ahead to a run in Beato and to registration on Sunday.
 
 **One page, one email.** Every edition is a page on the site, linked from the newsletter's own index. Each also has a plain-text version for email: the same items, wrapped to a narrow width, with numbered links at the end. Every edition, page and email, is also listed as data for anyone who wants to build on it.
 
