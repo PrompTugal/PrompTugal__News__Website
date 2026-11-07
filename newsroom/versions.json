@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.512",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 10:52: brief 4 for the Saturday 12:00 stand-up",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "628b4d435"
+  },
+  {
     "version": "v0.1.511",
     "date": "2026-11-07",
     "what": "investors@PrompTugal.dinis: decks v1.0: sources under version control, changelog; Dinis's go-live and structure notes",
