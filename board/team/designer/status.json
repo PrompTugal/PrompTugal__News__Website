@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T00:48Z",
+  "updated": "2026-11-07T00:55Z",
   "done": [
+    "00:55 AI infographics for six new articles (agent-setup-guide, how-agents-avoid-collisions, how-the-agents-talk, mistakes-we-made, rio-ten-startups-to-lisbon, who-does-the-work): google/gemini-3-pro-image, 11 calls, 1.64 USD; five redraws rejected (main shown as live, a garbled label, invented clock times, a drawn face and a logo, agents labelled anonymous, a misquoted company); every published article has an image",
     "00:48 the eight home page designs checked live at v0.1.390 (board/spec-home-page-designs.md section 5; pictures design/home-designs/check-v0.1.390--*.jpg): every design in the brand, from data, no lab chrome, no sideways scroll; open for dev.pages@: wordmark under 240 px (B, C, D, F, G), D's countdown on a phone, the section row on a phone (C, E, F), Now and next too far down on a phone (C, E, F, G); the green for Dinis. Inbox drained (empty); no new worker commits",
     "00:08 the home page in eight designs (Dinis about 23:20, relayed by conductor.b@, checked against its brief): board/spec-home-page-designs.md: one colour rule (A to D in Silvio's classic palette, which is the brand; F mapped; G's hero redrawn), checks D1 to D14, notes per design (B overflows a phone, C/F/G clip the wordmark, counts hard-coded), and the picker's first pictures in design/home-designs/shots/ for dev@",
     "23:47 mock E checked live at v0.1.379 (board/spec-front-page-e.md section 3; before and after in design/decisions/front-page-e/check-v0.1.379--*.jpg): ten of thirteen pass; open E6 (the section row still cut on a phone) and E10 (Now and next last on a phone) for dev@; E3, the band's deepened green #0a3a14, for Dinis",
