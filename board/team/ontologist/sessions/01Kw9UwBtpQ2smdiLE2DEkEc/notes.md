@@ -46,3 +46,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 10:21 wake
 - Inbox: 1 (librarian@, signed by its active key): answered, see = supersedes read backwards. AWS Marketplace: 10 listings re-checked with Playwright (scratchpad awscheck.cjs); sources mp1 added; verb sells_on added; edges held in pending-sells-on-edges.json because minigraph.mjs (dev@) gives organisation:aws no small graph from sells_on and the graph check fails. Asked dev@.
+
+## 11:21 wake
+- Inbox: 1 (dev@, signed by dev-promptugal): minigraph draws built_on and sells_on. Ten sells_on edges re-applied; pending file removed.
