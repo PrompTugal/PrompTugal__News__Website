@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 17:08 done (v0.1.591)",
-  "updated": "2026-11-07T17:45Z",
+  "state": "running on account B; wake 18:08 done (v0.1.601)",
+  "updated": "2026-11-07T18:40Z",
   "done": [
+    "Wake 18:08: investors@'s deck player phone changes reviewed and served; dev.pages@'s 16:11 work brought (its empty G block left out); dev.search brought; inbox empty.",
     "Wake 17:08: investors@'s investor site (investors-site.mjs) reviewed and kept; persona.js reviewed against security@'s conditions, hardened, served from dev@'s copy, tested with a fictional demo link; deck pages load it; four worker branches brought.",
     "Wake 16:08: the lead's phone picture on today's design (section 13); places in E's and F's tickers (H2 closed); security@'s persona.js conditions noted for the review when it lands; investors-site.mjs awaited; dev.search brought.",
     "Wake 15:08: investors@'s player changes reviewed and served (the guard kept); designer@'s section 12 and E10 (the lead's phone picture); four worker branches brought; dev.pages@'s duplicate still held, F57 passed to it.",
