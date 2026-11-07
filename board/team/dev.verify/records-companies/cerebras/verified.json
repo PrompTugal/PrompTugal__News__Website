@@ -68,7 +68,7 @@
           "verdict": "supported",
           "source": "S3",
           "quote": "https://www.cerebras.ai/",
-          "note": "S3 is the Cerebras homepage at that URL, and its content identifies the site as Cerebras's own (copyright 'Cerebras', 'info@cerebras.ai')."
+          "note": "S3 is the Cerebras homepage at that URL, and its content identifies the site as Cerebras's own (its copyright line names Cerebras)."
         },
         {
           "model": "google/gemini-3.8-flash",
