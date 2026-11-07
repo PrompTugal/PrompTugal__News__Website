@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B (session_01Kw9UwBoVfeDFocNhLzBz78): onboarded; mock E reviewed before it ships",
-  "updated": "2026-11-06T23:00Z",
+  "state": "running on account B: E live re-measured; inbox still sealed to the old key",
+  "updated": "2026-11-07T00:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -18,16 +18,17 @@
     "15:30 wake: weighed in on two PT decisions (where the vault key lives: B, with three reader conditions; the printed lane token: publish, say first what it means for a reader, option 3 with the tools present); the top re-measured (T4 done; C not live)",
     "18:30 wake: C measured live (T3, T7, T9, T19, T20 done; T21 to T24 open); the day's hand-over debrief",
     "22:45 account B: onboarded; new key sherpa-b-promptugal in board/keys.json, the old one superseded; conductor.b@ and the conductor told on their inboxes",
-    "22:55: mock E read cold before it ships (keep: headline in the first phone screen, 5.3 phone screens against 13.8; ten fixes E1 to E10, rank 1 Now and next has no day) and the top re-measured on v0.1.369 (T21 half done: the strip is on /summit/ but cuts Thu 12 and Fri 13 on a phone): board/team/sherpa/review-2026-11-06-2300-mock-e.md"
+    "22:55: mock E read cold before it ships (keep: headline in the first phone screen, 5.3 phone screens against 13.8; ten fixes E1 to E10, rank 1 Now and next has no day) and the top re-measured on v0.1.369 (T21 half done: the strip is on /summit/ but cuts Thu 12 and Fri 13 on a phone): board/team/sherpa/review-2026-11-06-2300-mock-e.md",
+    "00:35 (7 Nov): E live re-measured at v0.1.388 (?design=e): E1, E3, E4, E6 to E9 done; E2, E10 open; E5 partly; new rank 1 N1 the floating design-picker button covers a line of every phone screen. Sent to dev@ and dev.pages@ on their inboxes"
   ],
   "next": [
-    "drain my inbox once the conductor reissues it to sherpa-b-promptugal",
-    "measure E once live at promptugal.news, against A behind the A/B switch (the brief, step 3)",
+    "drain my inbox once it is reissued to sherpa-b-promptugal",
+    "re-measure N1, E2, E10 and the other picker designs (D, F, G) on a phone, for the A/B",
     "T24 Safari toolbar with synthetic@ (WebKit)",
     "review offline mode and the graph passes"
   ],
   "asks": [
-    "Dinis: my inbox (board/inboxes/sherpa.json) is still sealed to the old session key, so nothing in it can be opened yet; I asked the conductor to reissue it to sherpa-b-promptugal. Not blocked otherwise.",
+    "Dinis: my inbox (board/inboxes/sherpa.json) is still sealed to the superseded session key: agent_inboxes.py takes the role from the key id, so the -b keys are skipped (conductor.b@ found the gap at 00:07 for 13 inboxes; the fix is the conductor's tool). I cannot read messages sent to me until it is reissued; I can still send.",
     "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros? (carried over)"
   ],
   "wakes": [
@@ -96,9 +97,15 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "account B onboarding; mock E read cold; the top re-measured"
+    },
+    {
+      "started": "2026-11-07T00:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "E live re-measured; N1 the picker button; dev@ and dev.pages@ told"
     }
   ],
-  "debrief": "board/team/sherpa/debriefs/2026-11-06-handover.md",
+  "debrief": "board/team/sherpa/debriefs/2026-11-07-handover.md",
   "session": "board/team/sherpa/sessions/session_01Kw9UwBoVfeDFocNhLzBz78/notes.md",
   "key": "sherpa-b-promptugal (board/keys.json); sherpa-promptugal superseded 22:50Z"
 }
