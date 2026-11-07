@@ -15,6 +15,14 @@ summary: PrompTugal is an Algarvian startup building the next generation of news
 
 **Why invest.** Look at what was done in this time, at the execution and at the agentic flows. PrompTugal is an open-source company: an investor joins the journey with everything already visible.
 
+## Who are you? {#who}
+
+- **Free this week?** Help us at Web Summit, visibly, beside the team: [join us](join/index.html#help).
+- **Want to be part of the founding team, or run it as CEO?** [Join us](join/index.html).
+- **A journalist?** [Join us](join/index.html#journalists).
+- **An investor?** [The decks](decks/index.html) and [how to engage](rules-of-engagement/index.html).
+- **Rather do it yourself?** Everything is open source: [the decks](decks/index.html) (deck 8).
+
 ## An Algarvian startup {#algarve}
 
 PrompTugal is a company from the Algarve, and means to be part of the Algarve's ecosystem: My Feeds, the company behind it, is incorporated in Portugal and is joining [Algarve Evolution](../portugal/algarve-evolution/index.html), the Faro-based association building the region's innovation economy beyond tourism. A startup that sets out to change how news is published, from the Algarve, and is already doing it.
@@ -27,13 +35,15 @@ PrompTugal did not start this week. Dinis Cruz runs several open-source startups
 
 ## Partners wanted {#partners}
 
-Dinis Cruz is looking for **investors and business partners** to run with PrompTugal. People from the teams he works with may become part of it; nothing about that is official yet, so no one else is named here.
+Dinis Cruz, founder and CTO, is looking for **investors and business partners** to run with PrompTugal, above all a CEO from the news industry. People from the teams he works with may become part of it; nothing about that is official yet, so no one else is named here. [Join us](join/index.html).
 
 ## The section {#section}
 
 | Page | What it answers |
 |---|---|
-| [The decks](decks/index.html) | Four decks to page through or send as PDF: the investment case, the industry, the platform, the Algarve |
+| [Who we want to work with](partners/index.html) | Organisations in the Algarve, Portugal and Europe |
+| [Join us](join/index.html) | Helpers this week, the founding team, a partner as CEO, journalists |
+| [The decks](decks/index.html) | Eight decks to send as PDF: the investment case, the industry, the platform, the Algarve, the investment, the technology, join us, do it yourself |
 | [What works today](what-works/index.html) | What a reader, an attendee and an editor can use now, with a link to each |
 | [For event organisers](for-events/index.html) | What an edition for your event would be: before, during, after; what you get without anyone being tracked |
 | [A pilot for a publisher](for-publishers/index.html) | One section, your editors in charge, no reader data, a licence and maintenance if you want it |
@@ -44,11 +54,17 @@ Dinis Cruz is looking for **investors and business partners** to run with PrompT
 | [What we think](thinking/index.html) | Where technology and the news industry are going, and what we wish the industry would do |
 | [How to engage](rules-of-engagement/index.html) | Try it first, read everything, then talk |
 
+## Two phases, said plainly {#phases}
+
+Phase one is the explorers' phase: a small team and a seed round, to prove the company can be profitable and ready for Series A, ending in an exit for the first round of founders and investors (no date is set). Phase two (more professional, more execution, more events, growth) is a different type of company, and Dinis Cruz says so: he likes to start companies and prepares his own exit from the beginning ("making myself redundant is what good leadership should do"). If PrompTugal really takes off, it becomes his next three years; he does not close that door, but he is pragmatic about what is most likely.
+
+**The investor's three questions:** can this be a profitable business? Can this company be bought in the future? Is this the team to execute it? If the answer is yes, yes, yes, invest. ([The investment, deck 5](decks/index.html).)
+
 ## The company {#company}
 
 - **The legal entity:** My Feeds (MYFEEDS AI, UNIPESSOAL, LDA), a Portuguese single-member limited company in the Algarve, and the publisher of PrompTugal.news. The ideas behind PrompTugal began as My Feeds, a personalised news project; the company is expected to take the PrompTugal name.
 - **Ownership:** Dinis Cruz is its sole director and 100% shareholder.
-- **What we do not say yet:** no amount, valuation, stage, revenue, cost or projection, and the company's accounts are not quoted. We do not have those numbers to give honestly yet, and when we do they will be on these pages.
+- **The round:** a seed round of **under $1M**, for the explorer phase: to make the company profitable and ready for Series A. Valuation, split and terms are for a conversation; revenue, costs and projections are not published because we do not have them to give honestly yet.
 - Source: Dinis Cruz, 7 November 2026 ([the decision](../newsroom/decisions/promptugal-for-investors/index.html)).
 
 ## Talk to us {#contact}

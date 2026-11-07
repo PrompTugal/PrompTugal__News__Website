@@ -1939,6 +1939,11 @@
         "count": 1
       },
       {
+        "as_listed": "PrompTugal.news",
+        "ref": "organisation:promptugal-news",
+        "count": 1
+      },
+      {
         "as_listed": "RTBEAMTECH",
         "ref": "organisation:rtbeamtech",
         "count": 1

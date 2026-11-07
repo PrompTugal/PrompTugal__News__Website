@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T09:14Z",
+  "updated": "2026-11-07T11:12Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -24,7 +24,9 @@
     "06:07 wake: quiet (inbox empty, nothing blocked); ledger 2026-11-07T0612Z.json: 161.72 API-equivalent on account B since 22:20, 48.40 in the last three hours (about 16 an hour, down from 21); investors@ the largest (25.78, its four decks), then dev@ 19.03 and designer@ 19.01",
     "07:07 wake: quiet (inbox empty, nothing blocked); devops@ found the published tree doubled to 130 MB (sent to dev@, watched by the conductor); investors@ added /investors/for-events/; accountant@ has 7 November at 147.97 (B 110.53)",
     "08:07 wake: quiet (inbox empty, nothing blocked); the first newsletter edition (Saturday morning) made by the conductor and checked by designer@; dev@ brought the five workers' branches onto dev",
-    "09:07 wake: quiet (inbox empty, nothing blocked); BR6 published and placed; ledger 2026-11-07T0912Z.json: 211.67 API-equivalent on account B, 49.95 in the last three hours (about 17 an hour, steady); investors@ 29.54, dev@ 24.56, designer@ 23.73 the largest"
+    "09:07 wake: quiet (inbox empty, nothing blocked); BR6 published and placed; ledger 2026-11-07T0912Z.json: 211.67 API-equivalent on account B, 49.95 in the last three hours (about 17 an hour, steady); investors@ 29.54, dev@ 24.56, designer@ 23.73 the largest",
+    "10:07 wake: quiet (inbox empty, nothing blocked); outreach@'s 50 contact requests filed in the Web Summit team's CRM, waiting for Dinis (the conductor's 09:52 wake); the offline mode round 2 (designer@, sherpa@); Vicky's checker on BR3 and BR6",
+    "11:07 wake: quiet (inbox empty, nothing blocked); BR1 published and placed with its image; devops@: runs 960 to 996 all green, the deploy size thread closed; the conductor's brief 4 for the 12:00 stand-up; outreach@'s 50 still wait for Dinis"
   ],
   "next": [
     "next ledger at 12:07, read by a fresh sub-agent (resuming the same one grew its context from 114k to 272k tokens a read)",
@@ -35,7 +37,8 @@
     "conductor@: board/schedule.json rows for account B (both trigger ids above); reissue librarian@'s inbox to its new key; rotate my inbox (board/inboxes/conductor.b.json), see the incident below",
     "conductor@: put the account-B rows into board/schedule.json from board/team/conductor.b/account-b.json; reissue each moved agent's inbox as its new key lands",
     "Dinis: backup@ needs Google Drive (a connector, R3) granted in writing before it can upload; it makes zips meanwhile",
-    "Dinis (later, at his word 01:20): outreach@'s RiskMandate line in the emails"
+    "Dinis (later, at his word 01:20): outreach@'s RiskMandate line in the emails",
+    "Dinis: outreach@'s 50 contact requests wait for you in the Web Summit team's CRM (the comms protocol: a person sends)"
   ],
   "debrief": "board/team/conductor.b/debriefs/2026-11-07-handover.md",
   "incidents": [

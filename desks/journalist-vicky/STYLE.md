@@ -30,9 +30,9 @@ The technical format only, as journalist@PrompTugal.dinis publishes it (from the
 - Don't write a "Who made this" section: the publisher adds it, with the review and the date it published.
 
 ## Images
-Vicky, 6 November 2026.
-- Articles about our own team (how our agents work, what we build) must include at least one image from the first draft: a screenshot of the real thing (a page, a commit, a before-and-after), or a simple chart or timeline drawn from numbers in the article.
-- Other articles: add an image where it helps the reader more than a sentence would.
+Vicky, 6 November 2026; the cover rule, 7 November 2026.
+- Every article from our desks must include at least one image from the first draft that works as the article's cover on `/articles/`: a real screenshot (a page, a commit, a before-and-after), or a clean SVG summary card, chart, timeline or map drawn strictly from sourced facts in the article. (Vicky, 7 November 2026; until then this was required only for articles about our own team.)
+- The cover on `/articles/` is not read from the article: the site takes it from `design/infographics/out/<slug>--paper--card.png` (1200 x 630) and `--thumb.png` (480 x 480), with `--ink--` versions for dark mode, listed in that folder's `index.json`. The publisher makes those files from your image when it publishes, as for S24, so draw it so it can be cropped or redrawn to a wide card: one title, a few large facts, nothing that needs a caption to be true.
 - Public sources only: no contact details, vault contents, private messages or usage figures. Every number in a chart must also appear, sourced, in the text.
 - Crop screenshots to the part that matters: no site header, menus or empty space.
 - Small files (SVG, or compressed PNG or WebP), stored and linked the way T1's images are (in `drafts/img/`, named `<story>-<what>-<YYYY-MM-DD>.<ext>`, linked as `https://promptugal.news/desks/journalist-vicky/drafts/img/<file>`), with a short alt text and a one-line caption giving the source and the date taken.

@@ -60,7 +60,7 @@ What is on sale today is the reading top-up; the rest is designed, with proposal
 
 ## What the investment is for {#use}
 
-Development, the user experience, and paying the team to work on it; then going to market. No amount is published ([how to engage](../rules-of-engagement/index.html)).
+Development, the user experience, and paying the team to work on it; then going to market. A seed round of under $1M (Dinis Cruz, 7 November 2026; [how to engage](../rules-of-engagement/index.html)).
 
 ## Validation and timeline {#timeline}
 
@@ -78,6 +78,6 @@ Development, the user experience, and paying the team to work on it; then going 
 
 - Revenue: none to report beyond the first top-ups. If it comes, it changes the story, and it will be here.
 - Which stream sells first: the summit is the test.
-- Costs, prices and the ask: for a conversation.
+- Costs and prices: not yet; the valuation and the terms: for a conversation.
 
 [Back to the pitch](../index.html).

@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-07T08:10Z",
-  "reviewed_to": "0a22b5ff",
+  "updated": "2026-11-07T10:08Z",
+  "reviewed_to": "8e926419",
   "hold": false,
   "done": [
-    "my session key: security-promptugal in board/keys.json (record sha256:2e768b7ad63c24df), pki-agent.mjs checked against the team site's pin; my row in data/newsroom/agents.json",
     "ROLE.md, status.json and reviews/ in board/team/security/",
     "the first review: 288 commits since 4 November, no secret and no contact detail; 4 medium and 4 low findings with owners (reviews/2026-11-06-0350-first-review.md)",
     "the pre-review of the three open passes: go, with conditions, in each pass file",
@@ -14,7 +13,8 @@
     "02:05 7 Nov: 47 commits clean; six workers' account-B keys seen; S26 raised",
     "04:05 7 Nov: 45 commits clean; dev@'s one-address gate exception agreed; investors' decks clean",
     "06:05 7 Nov: 28 commits clean; signature form 2 reviewed; S27 to dev@",
-    "08:05 7 Nov: 33 commits clean; S27 closed; S28 to dev@; S25 narrowed"
+    "08:05 7 Nov: 33 commits clean; S27 closed; S28 to dev@; S25 narrowed",
+    "10:05 7 Nov: 44 commits clean; S28 still open"
   ],
   "next": [
     "verify the next account-B mover keys",

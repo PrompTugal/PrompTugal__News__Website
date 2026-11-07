@@ -13,6 +13,13 @@
       "to": "place:canada",
       "source": "s1",
       "by": "newsroom/tools/companies.mjs"
+    },
+    {
+      "verb": "sells_on",
+      "to": "organisation:aws",
+      "source": "mp1",
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "its own listing on AWS Marketplace"
     }
   ]
 }

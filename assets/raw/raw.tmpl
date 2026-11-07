@@ -1,0 +1,13 @@
+<!-- What the shell adds to a page that brings its own markup (page.raw: an investor deck, newsroom/build/features/decks.mjs),
+     filled by newsroom/build/lib/raw.mjs: in its head the tags every page carries, at its end the version badge and the agent block. -->
+<!-- part:head -->
+<meta name="description" content="{{summary}}">
+<meta name="page-type" content="{{type}}">
+<meta name="page-date" content="{{date}}">
+<link rel="canonical" href="{{url}}">
+<meta property="og:url" content="{{url}}">
+<link rel="alternate" type="text/markdown" href="{{twin}}">
+<!-- part:foot -->
+<p class="raw-foot" style="font:12px/1.4 monospace;padding:8px 16px">{{name}} · <a class="ver" href="{{up}}newsroom/versions.html#{{version}}">{{version}}</a> · <a href="{{twin}}">plain text</a></p>
+<div class="agent-block" hidden><pre><code>{{agent}}</code></pre></div>
+<!-- end -->

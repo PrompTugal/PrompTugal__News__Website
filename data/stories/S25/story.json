@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S25",
+  "type": "story",
+  "title": "The sign-in: how editors and agents prove who they are",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:note-the-sign-in"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-07-1145.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-07-1145.json",
+      "desks/journalist-vicky/drafts/s25-the-sign-in.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/s25-the-sign-in.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-07T11:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-07-1145.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-07",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/s25-the-sign-in.md"
+    }
+  ]
+}

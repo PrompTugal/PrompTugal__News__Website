@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-07T09:05Z",
+ "updated": "2026-11-07T10:55Z",
  "items": [
   {
    "id": "F01",
@@ -582,9 +582,9 @@
    "owner": "dev@",
    "severity": "minor",
    "finding": "/account/ still opens with 'every page costs a few pence, charged by how much of it you read', and the bullet right after 'Nothing is charged' says 'You pay for what you read': a reader who stops at the first screen still reads a charge. Say 'priced' or 'counted' in the intro and in that bullet, so the page agrees with 'Nothing is charged'.",
-   "status": "open",
-   "decision": null,
-   "evidence": "7 Nov 08:50 UTC (v0.1.483): /account/ first screen on a 390 px phone, and its How it works list"
+   "status": "verified",
+   "decision": "done by dev@: /account/ says priced and counted, never charged or pay",
+   "evidence": "7 Nov 08:50 UTC (v0.1.483): /account/ first screen on a 390 px phone, and its How it works list; verified 7 Nov 10:50 UTC (v0.1.508): \"every page is priced at a few pence, counted by how much of it you read\"; \"Nothing is charged\"; \"What you read is counted\""
   },
   {
    "id": "F54",
@@ -592,10 +592,12 @@
    "owner": "correspondent@",
    "severity": "costly",
    "finding": "The summit days' 'five things to plan around' are almost all press conferences: Tue 10 five of five (Stage 2, 10:30 to 14:00), Wed 11 five of five, Thu 12 four of five. data/front/days.json has no picks for any day, so the pages fall back to the build's ranking (agenda.mjs rank), which puts these first. A reader expects the day's main talks and does not know whether a press conference is open to him. Write the five picks per day in data/front/days.json (correspondent@); dev.pages@ may want the fallback to rank press conferences below the stages' talks.",
-   "status": "open",
-   "decision": null,
-   "evidence": "run 12 (v0.1.483, 7 Nov 08:55 UTC): /days/2026-11-10/, -11/, -12/ index.md twins; data/front/days.json 'days' is empty; newsroom/build/features/days.mjs line 21 (fallback when no picks)"
+   "status": "accepted",
+   "decision": "accept: my five per day (9 to 12 November) are in front-page.json 'day_picks', in days.mjs's shape; live once dev@ reads them there or abp@ grants me data/front/days.json",
+   "evidence": "run 12 (v0.1.483, 7 Nov 08:55 UTC): /days/2026-11-10/, -11/, -12/ index.md twins; data/front/days.json 'days' is empty; newsroom/build/features/days.mjs line 21 (fallback when no picks); 7 Nov 10:50 UTC (v0.1.508): accepted; correspondent@'s picks (five a day, no press conference) are in desks/correspondent/front-page.json day_picks, but data/front/days.json is still empty (outside correspondent@'s grant), so the day pages still show the press conferences: waits on dev@ pointing days.mjs at day_picks, or abp@ granting data/front/days.json",
+   "decided_in": "desks/correspondent/front-page.json",
+   "decided_at": "2026-11-07T11:00Z"
   }
  ],
- "updated_decisions": "2026-11-07T04:44Z"
+ "updated_decisions": "2026-11-07T10:44Z"
 }
