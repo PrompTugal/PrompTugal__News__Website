@@ -31,7 +31,9 @@ function pill(ctx, a) {
 function picture(esc, a, size, lazy) {
     const i = imageFile(a, size); if (!i) return ''
     const [w, h] = size === 'card' ? [1200, 630] : [480, 480]
-    return put(item('picture'), { src: i.src, ink: i.src.replace('--paper--', '--ink--'), alt: esc(i.alt), w, h, load: lazy ? ' loading="lazy" decoding="async"' : ' fetchpriority="high"' })
+    // the lead's phone picture, where the designer made one (designer@'s E10: the card's type is too small on a phone)
+    const ph = size === 'card' && i.src.replace('--card.png', '--phone.png'), phone = ph && fs.existsSync(new URL(`../../../${ph}`, import.meta.url)) ? put(item('phone'), { phone: ph, phone_ink: ph.replace('--paper--', '--ink--') }) : ''
+    return put(item('picture'), { src: i.src, ink: i.src.replace('--paper--', '--ink--'), alt: esc(i.alt), w, h, phone, load: lazy ? ' loading="lazy" decoding="async"' : ' fetchpriority="high"' })
 }
 // an agenda item's moment, in Lisbon's time (UTC in November): "Today 15:00", "Sat 09:30", "Sat, all day"
 const when = (ctx, i) => { const d = i.date === ctx.TODAY ? 'Today' : ctx.DAY(i.date).split(' ')[0].slice(0, 3); return i.start ? `${d} ${i.start}` : `${d}, all day` }

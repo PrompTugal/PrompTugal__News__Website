@@ -108,3 +108,4 @@
     .ff-lead { order: 0; } .ff-side { order: 1; } .ff-main > .ff-h, .ff-rk { order: 2; } .ff-more { order: 3; }
     .ff-side { display: flex; flex-direction: column; } .ff-side > .ff-box:last-child { order: -1; }
 }
+.ff-bh b, .ff-tl time { font-size: 12px; }   /* designer@'s section 12 */
