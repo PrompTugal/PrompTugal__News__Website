@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T04:30Z",
+  "updated": "2026-11-07T05:25Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -28,10 +28,11 @@
     "01:13 wake: AWS Marketplace round 1 (17 companies, headless browser read, no login): desks/researcher/centres-of-gravity-aws-marketplace-round-1.md; front pages understate ties (Twilio, VTEX); inbox still on the old key",
     "02:13 wake: organiser's 2024 and 2025 post bodies read at source from the pages' embedded data (71,528 and 71,386, both mid-event); Microsoft marketplace bot check and Google console timeout recorded, not circumvented; inbox lane still unchanged",
     "03:13 wake: organiser's 2025 'by the numbers' read in full (investors 1,857 are the record; 71,386 attendees below 2024's 71,528); hand-over debrief for 7 Nov; inbox lane still on the old key (5th wake)",
-    "04:13 wake: inbox lane reissued by the conductor (researcher-b.json); drained with the team site's feedback_drain.py (read-only clone of admin/tools into /tmp): lanes empty; 2025 session summaries index read (only 7 most recent in page data; /transcription/ pattern)"
+    "04:13 wake: inbox lane reissued by the conductor (researcher-b.json); drained with the team site's feedback_drain.py (read-only clone of admin/tools into /tmp): lanes empty; 2025 session summaries index read (only 7 most recent in page data; /transcription/ pattern)",
+    "05:13 wake: inbox drained (empty); search of the organiser's 2025 session summaries for AWS/Google/Microsoft found none (pointer only)"
   ],
   "next": [
-    "single /transcription/ pages for sessions naming AWS, Google, Microsoft",
+    "speakers by company: read the 2025 speakers page's embedded data",
     "Google Cloud and Microsoft marketplaces by a route the sites allow",
     "Algarve Tech Hub Summit 2023/2025 pages"
   ],
