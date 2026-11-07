@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.581",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e8b3f9ccb"
+  },
+  {
     "version": "v0.1.580",
     "date": "2026-11-07",
     "what": "researcher@PrompTugal.dinis: Portugal ecosystem round 1 (Startup Portugal, Beta-i, Portugal Startups)",
