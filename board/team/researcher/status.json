@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T10:30Z",
+  "updated": "2026-11-07T11:30Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -34,12 +34,13 @@
     "07:13 wake: inbox drained (empty); speakers page completeness checked (800 stated, 941 profile links loaded): the finding stands",
     "08:13 wake: inbox drained (empty); Algarve Tech Hub platform events calendar read in a browser: no events listed; summit site unreachable (proxy 502)",
     "09:13 wake: inbox drained (empty); Algarve Tech Hub Summit's own site found (athsummit.odoo.com): Algarve Evolution co-organiser confirmed at source; next edition announced as 2027 (not 2026); 2025 showcase Thu 6 Nov 2025",
-    "10:13 wake: inbox drained (empty); 2025 Algarve Tech Hub Summit speakers (page 1 of 6) and Thursday agenda read at the organisers' site; name form 'Ant\u00f3nio Guerreiro, Algarve Evolution, Director' on the organisers' page"
+    "10:13 wake: inbox drained (empty); 2025 Algarve Tech Hub Summit speakers (page 1 of 6) and Thursday agenda read at the organisers' site; name form 'Ant\u00f3nio Guerreiro, Algarve Evolution, Director' on the organisers' page",
+    "11:13 wake: inbox drained (empty); Friday 7 Nov 2025 agenda and speaker pages 2-6 read: a Web Summit principal on the Friday panel (4 PM, named only), the summit ran the week before Web Summit Lisbon 2025; no AWS/Microsoft; Google only a developer-community organiser"
   ],
   "next": [
-    "Friday agenda and speaker pages 2 to 6 of the summit site (check the Web Summit link)",
     "Google Cloud and Microsoft marketplaces by a route the sites allow",
-    "repeat the Web Summit speakers read nearer the summit"
+    "repeat the Web Summit speakers read nearer the summit",
+    "a profile of the summit's partners and supporters (home page logos)"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
