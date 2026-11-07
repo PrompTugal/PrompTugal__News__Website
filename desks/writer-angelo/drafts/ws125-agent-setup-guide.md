@@ -17,12 +17,42 @@ tags: how this newsroom is made, agents, guides, security
 - An agent can be tricked by what it reads (prompt injection). Only a barrier held from outside the agent stands up to that.
 - The tools we use for this are open source. The decisions are yours.
 
-**Try it interactively:** [the interactive guide](https://web-summit.sgit.ai/people/angelo/guide/index.html) lets you read it as your role, answer two short questionnaires that point you to the right sections, and turn a dial over the five deployments. Your answers stay in your browser.
+**It is interactive:** pick your role under "Read this as", answer two short questionnaires that point you to the right sections, and turn the dial over five kinds of deployment. Your answers stay in your browser. (Without scripts, the same content is in the tables. A copy of the interactive version is also on [the team's site](https://web-summit.sgit.ai/people/angelo/guide/index.html).)
+
+## Find your guide
+
+Two short questionnaires: where you are and what worries you (here), and what has gone wrong (under "What running our own agent team taught us"). Each ends with the parts of this guide to read first. Nothing you answer is sent or saved. Without scripts, answer for yourself and read the actions that match.
+
+::: asg asg-find
+1. **Which describes you best?** One of the seven in "Read this as".
+2. **How do you use AI today?** One of the six steps.
+3. **What can your agents reach, or will they?** My email and calendar; company documents; code repositories; production systems; personal data; payments or money; posting in public; messages from outsiders.
+4. **Who decides what an agent may do?** Nobody, explicitly; me, in my head; written down for each agent; written, and checked by someone else.
+5. **Which product do you use, or plan to?** Claude; Microsoft or GitHub; another, several, or not decided.
+6. **Your environment?** My own accounts; a company, lightly managed; locked down (single sign-on, admin approval).
+7. **What worries you most?** Data leaking out; agents tricked by what they read; something that cannot be undone; cost; GDPR and the AI Act; not knowing what they did; being locked to one vendor; time lost moving things by hand.
+
+The actions, by answer:
+
+- **On step 1 or 2:** save your instructions in a project, one per job, and stop re-pasting them.
+- **Mail, on steps 1 to 3:** connect mail read-only or draft-only first, and check that a send is refused.
+- **Nobody decides, or only in your head:** write one short policy for each agent: what it may reach, and what needs your word. Nothing written down means nothing to check.
+- **Written down, not checked:** have someone else, or an auditor agent, check each policy against what the agent actually did. That finds things out sooner; only a boundary stops them.
+- **Code, production, money or messages from outsiders:** put a boundary around the deployment, as "Where to start, by deployment" shows.
+- **Messages from outsiders, or worried about tricks:** treat every message, page and file the agent reads as material, never as instructions.
+- **Personal data, the law, or a DPO:** use each agent's reach list as its record of processing, and keep the model provider's data terms on file.
+- **Not knowing what they did:** log every run and read a summary when you choose; only urgent items should interrupt you.
+- **Cost:** measure tokens per agent per run, and slow down agents whose runs do little.
+- **Vendor lock-in, or another product:** keep instructions and policies in your own repository, so the product can change underneath them.
+- **Locked down:** ask your administrator first, for each connector and each website the agents need.
+- **Time lost by hand:** climb to step 3 or 4: connected and scheduled work is where the copying stops.
+:::
 
 ## Read this as
 
 Pick your row. Each is the answer in thirty seconds, and where to go next.
 
+::: asg asg-audience
 | You are | Your question | The short answer |
 |---|---|---|
 | CEO | What is it, what does it cost, what's the risk? | Agents turn hours of copying and chasing into work done overnight. The cost is a subscription per person plus usage. The risk is that they act with your company's accounts, so for each agent someone must decide what it may do, and something must check. Read the six steps, then the three levels. |
@@ -32,11 +62,13 @@ Pick your row. Each is the answer in thirty seconds, and where to go next.
 | DevSecOps | How does it run, recover and stay locked down? | One token per agent; secrets per agent, where only that agent can reach them; admin rights kept by the person; every run logged and measured; protected branches; and for tools, a process sandbox enforced by the operating system's kernel. Start at "enforced" for anything touching production. |
 | Not technical, with agents | My agents work. How do I keep them in their lane? | Write one short policy per agent: what it may reach and what needs your word. Have one agent route the work and one check the others. Ask for a summary when you want it, and let only urgent things reach your phone. |
 | Not technical, with chatbots | I copy and paste between chats. What's the next step? | Save your instructions in a project, then connect the chat to your mail or files, read-only first. That removes most of the copying. Before you let it send or change anything, decide what it may do, and write it down. |
+:::
 
 ## The six steps from chatbot to agent team
 
 Most people are on step 1: many chats, with themselves as the courier carrying text and files between them. Each step up saves time and adds reach.
 
+::: asg asg-ladder
 | Step | What it is | What the agent can reach |
 |---|---|---|
 | 1. Chats | You paste in, copy out. | Nothing beyond what you paste |
@@ -45,6 +77,7 @@ Most people are on step 1: many chats, with themselves as the courier carrying t
 | 4. Scheduled | Runs while you're away; results land where they're needed. | Your accounts, unattended |
 | 5. Code | Agents change code and systems through a repository. | Code, CI, sometimes production |
 | 6. A team | Many agents, many people: one hub, an auditor, written policies. | Everything above, at scale |
+:::
 
 You don't need to climb all six. Steps 2 and 3 remove most of the copying. Before step 3, decide what the agent may do with your mail: read only, or draft only, with you pressing send.
 
@@ -84,6 +117,7 @@ Most people on steps 1 to 3 of the ladder start with none at all. Prompt injecti
 
 ## Where to start, by deployment
 
+::: asg asg-dial
 | Deployment | Watch | Reviewed | Enforced | Start at |
 |---|---|---|---|---|
 | Personal assistant on mail and calendar | Logged; it could send or delete | You approve every send; it drafts | Read and draft scopes only; a separate account | 2, Reviewed |
@@ -99,6 +133,7 @@ In the table, "Reviewed" means level 2: approved before where the table says a p
 - **A team of scheduled agents.** At level 1, agents act on each other's messages, or on a forged one. At level 2 a hub routes, an auditor checks, and the person's words gate anything risky, but a tricked agent could still skip its own rules. What helps: commits as the only channel between agents, a check of who pushed, an auditor reporting to the person. None of these holds against a tricked agent: if all your agents push from one account, as ours do, a check of who pushed proves only that one of them did. Only one token per agent (level 3) holds.
 - **Customer-facing agent.** Strangers write its input, so prompt injection is certain. Barriers that hold: no tools beyond drafting a reply, replies drafted for a person, a separate account and data store.
 - **Money or production.** Irreversible actions at machine speed: a mistake is a loss, not a draft. Barriers that hold: per-action limits, two people for anything above them, a process sandbox around the tools (for example containers, or seccomp or Landlock profiles).
+:::
 
 Where an agent reads personal data, start at level 2 at least.
 
@@ -156,6 +191,7 @@ The Web Summit team behind this newsroom is nine people and dozens of agents (70
 
 If something has gone wrong already, here is where to look:
 
+::: asg asg-fixes
 | What happened | What fixes it |
 |---|---|
 | I keep copying results between chats and tools | Saved instructions, then connectors, then scheduled runs that put results where they're needed |
@@ -170,6 +206,7 @@ If something has gone wrong already, here is where to look:
 | Security or legal said no | Show them each agent's policy: grant, mandate, gap and barrier. It answers their questions in their terms |
 | Scheduled runs failed and nobody noticed | A run log, and a brief that lists any missing or failed run |
 | The team won't adopt it | Start each person at their own step, with this guide read as them |
+:::
 
 ## Open source, and who can help
 

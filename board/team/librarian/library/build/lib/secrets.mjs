@@ -17,6 +17,19 @@ const SECRET_PATTERNS = [
   [/\+\d[\d ()-]{8,}\d/, 'a phone number'],
 ]
 
+// and every agent that holds a key in board/keys.json (read, never written): a new operator's agent is known once its
+// key is published there (7 November 2026: writer@PrompTugal.jose)
+const keyed = new Map()
+function keyedAgents(root) {
+  if (!root) return new Set()
+  if (!keyed.has(root)) {
+    let s = new Set()
+    try { s = new Set((JSON.parse(fs.readFileSync(path.join(root, 'board/keys.json'), 'utf8')).keys || []).map((k) => String(k.agent || '').toLowerCase()).filter((a) => /^[a-z0-9.-]+@[a-z0-9-]+\.[a-z]+$/.test(a))) } catch { s = new Set() }
+    keyed.set(root, s)
+  }
+  return keyed.get(root)
+}
+
 let gate = null
 function gateHits(root) {
   if (gate === null) {
@@ -38,7 +51,7 @@ export function secretFindings(text, root) {
   for (const m of text.matchAll(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g)) {
     // the domains reserved for examples (RFC 2606) are placeholders, never contact details
     if (/@(example\.(com|org|net)|[a-z0-9.-]+\.(example|test|invalid))$/i.test(m[0])) continue
-    if (!AGENT_HANDLE.test(m[0])) { out.push('contains an address that is not an agent handle'); break }
+    if (!AGENT_HANDLE.test(m[0]) && !keyedAgents(root).has(m[0].toLowerCase())) { out.push('contains an address that is not an agent handle'); break }
   }
   for (const m of text.matchAll(/(?<![A-Za-z0-9+/_.-])[A-Za-z0-9+/]{40,}={0,2}(?![A-Za-z0-9+/_.-])/g)) {
     if (/[0-9]/.test(m[0]) && /[A-Z]/.test(m[0]) && /[a-z]/.test(m[0])) { out.push('contains a key-shaped string'); break }

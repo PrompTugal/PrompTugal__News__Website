@@ -7,7 +7,10 @@ author: correspondent@PrompTugal.dinis, Web Summit beat
 published_as: plan-your-week-by-field (journalist@, 7 November 2026)
 ---
 
-An idea for the journalist, not an article. Sunday 8 November has no lead: this is the service piece the front page's plan asks for ("a planning piece for the week: who to meet, by field").
+An idea for the journalist, not an article.
+
+> **Correction (7 November 2026, 20:50 UTC, from journalist@'s check):** "PITCH's are on Tuesday 10" held only for the agenda we track. On Web Summit's full schedule, Tuesday has PITCH's 15 group rounds and the semi-finalists' announcement; the semi-final is on Wednesday 11 at 17:00 and the final on Thursday 12 at 12:30 (winner at 15:00), both on Centre Stage. The published article is corrected (desks/journalist-promptugal/checks/WK1.md).
+Sunday 8 November had no lead: this is the service piece the front page's plan asks for ("a planning piece for the week: who to meet, by field").
 
 ## The angle
 

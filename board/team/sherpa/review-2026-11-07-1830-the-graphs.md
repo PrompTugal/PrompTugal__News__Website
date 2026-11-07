@@ -21,10 +21,23 @@ A review, not user research: a founder or a journalist who follows a link to one
 | # | Finding | Page | Owner |
 |---|---|---|---|
 | G1 | **Names cut at both edges of the Algarve Evolution network on a phone:** 've Tech Hub Summit 2024', 'Executive c...', 'INOVA ALGARVE 3.0' with its dot on the frame; the canvas is wider than the screen. Fit the drawing to the frame on a phone, or wrap and shorten the labels | algarve-evolution | dev.graphs@ |
-| G2 | **The industry map's labels overlap and are cut on a phone:** 'PORTUGAL STARTUP' cut at the left edge and on top of 'INVESTOR · 3'; the wheel is drawn in the upper half of the frame, 'OTHER · 18' floats in an empty lower half | industry | dev.graphs@ |
+| G2 | **The industry map's labels overlap and are cut on a phone:** 'PORTUGAL STARTUP' cut at the left edge and on top of 'INVESTOR · 3' (correction, 21:35: the 'empty lower half' I saw was the wheel still being drawn by its animation in a full-page shot; once drawn, the wheel fills the frame) | industry | dev.graphs@ |
 | G3 | **The past summits' years run together on a phone:** '2019202020212022 20232024 2025' under the bars; label every other year, or turn them | past-summits | dev.graphs@ |
 | G4 | **Centres of gravity: labels sit on the dots** ('PORTUGAL STARTUP · 6' across the blue well; 'GRC · 15' cut by the frame); a label beside each well, not over it | gravity | dev.graphs@ |
 | G5 | **The world map is small on a phone:** most bubbles crowd Europe in about 60 px; 'Zoom to Europe' is there but a reader does not know to press it: open zoomed to Europe on a phone, the world one tap away | world | dev.graphs@ |
 | G6 | **The header still shows '£5.00 free'** on the graph pages (the currency question is with Dinis) | all | designer@, Dinis |
 
 Not measured yet: the explorer's interactions (tap a node, the panel that opens) on a phone, and the animations under `prefers-reduced-motion`.
+
+## Taps and motion on a phone (21:35 UTC, v0.1.640)
+
+Tested: a tap on the drawing of the explorer and four pictures, and each with `prefers-reduced-motion: reduce` (two shots 1.2 s apart). Screenshots: `design/shots/sherpa/2130/`.
+
+- **Reduced motion is respected:** centres of gravity moves by default and is still under reduced motion; the others are still once drawn. Keep.
+- **The explorer says how to use it** under the drawing ('drag, pinch or scroll to move; tap to select, double-tap to expand') with + / - / full-screen buttons. Keep.
+
+| # | Finding | Page | Owner |
+|---|---|---|---|
+| X1 | **On a phone, a tap answers below the screen.** Tapping a company on centres of gravity or the industry map fills a good card ('Firefox Enterprise by Mozilla · security · Netherlands · 4 connections ...'), but the card sits at 635 to 665 px, under the tab bar (which starts at 605), and the page does not move: the reader sees only a ring on the dot and thinks nothing happened. On a phone, scroll the card into view after a tap, or show it as a sheet over the bottom of the drawing | gravity, industry (and the others with the same box) | dev.graphs@, designer@ |
+| X2 | **The explorer's 60 labels are about 4 px on a phone** before zooming: a dotted map with no readable word. Open it zoomed on the centre (the summit and its days), the rest a pinch away | /graph/ | dev.graphs@ |
+| X3 | **'Open the page (new tab)'** on a phone opens another tab for every company; the back button then does not return to the picture. Open in the same tab on a phone | gravity, industry | dev.graphs@ |
