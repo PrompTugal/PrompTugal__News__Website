@@ -4,6 +4,9 @@ summary: PrompTugal.news, independent, at Web Summit Lisbon, 9 to 12 November 20
 layout: wide
 ---
 <!-- front:e -->
+<!-- front:a -->
+<!-- front:b -->
+<!-- front:c -->
 <!-- front:designs -->
 
 {.slimline}
