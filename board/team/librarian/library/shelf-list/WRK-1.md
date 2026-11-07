@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T22:26:02Z"
-site_version: "v0.1.363"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T00:59:57Z"
+site_version: "v0.1.395"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 3)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-the-articles-page-1`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-signed-in-views-8`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -16,6 +16,7 @@ source: board/catalogue.json
 |---|---|---|---|
 | `WRK.BRIEF 2026-11-06-brazil` | [2026-11-06-brazil.png](https://promptugal.news/board/editor-briefs/img/2026-11-06-brazil.png) | board | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF 2026-11-06-front` | [2026-11-06-front.png](https://promptugal.news/board/editor-briefs/img/2026-11-06-front.png) | board | conductor@ 6 Nov 2026 |
+| `WRK.BRIEF 2026-11-06-front-page-mock-e` | [Brief for the dev team on account B: Silvio's mock E becomes the home page](https://promptugal.news/board/briefs/2026-11-06-front-page-mock-e.md) | brief | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF 2026-11-06-front-phone` | [2026-11-06-front-phone.png](https://promptugal.news/board/editor-briefs/img/2026-11-06-front-phone.png) | board | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF 2026-11-06-newsroom` | [2026-11-06-newsroom.png](https://promptugal.news/board/editor-briefs/img/2026-11-06-newsroom.png) | board | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF 2026-11-06-the-first-night-debrief` | [The first night of PrompTugal.news: what we set up, what the team did, and how it works now](https://promptugal.news/board/briefs/2026-11-06-the-first-night-debrief.md) | brief | conductor@ 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `WRK.DEC an-agent-printed-its-own-lane-token` | [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/) | decision | customers@ 6 Nov 2026 |
 | `WRK.DEC decisions` | [Decisions](https://promptugal.news/newsroom/decisions/) | decision | dev@ 6 Nov 2026 |
 | `WRK.DEC naming-people-on-algarve-evolution` | [For Dinis: naming people on the Algarve Evolution page](https://promptugal.news/newsroom/decisions/naming-people-on-algarve-evolution/) | decision | dev@ 6 Nov 2026 |
-| `WRK.DEC promptugal-com-and-ai` | [For Dinis: pointing promptugal.com and promptugal.ai at promptugal.news](https://promptugal.news/newsroom/decisions/promptugal-com-and-ai/) | decision | devops@ 6 Nov 2026 |
 
 **Cards 26 to 50**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.DEC promptugal-com-and-ai` | [For Dinis: pointing promptugal.com and promptugal.ai at promptugal.news](https://promptugal.news/newsroom/decisions/promptugal-com-and-ai/) | decision | devops@ 6 Nov 2026 |
 | `WRK.DEC promptugal-for-investors` | [For Dinis: does PrompTugal.news have an investor story of its own, through which company, and where does it live?](https://promptugal.news/newsroom/decisions/promptugal-for-investors/) | decision | investors@ 6 Nov 2026 |
 | `WRK.DEC registering-and-the-press-pass` | [For Dinis: registering PrompTugal.news, and who applies for the press pass](https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/) | decision | journalist@ 6 Nov 2026 |
 | `WRK.DEC riskmandate-what-we-say` | [For Dinis: what PrompTugal.news says about RiskMandate, and where](https://promptugal.news/newsroom/decisions/riskmandate-what-we-say/) | decision | synthetic@ 6 Nov 2026 |
@@ -65,15 +66,16 @@ source: board/catalogue.json
 | `WRK.DESK researcher` | [researcher](https://promptugal.news/desks/researcher/) | desk | researcher@ 6 Nov 2026 |
 | `WRK.DESK reviewer-vicky` | [The reviewer's desk: Promptugal News](https://promptugal.news/desks/reviewer-vicky/README.md) | desk | reviewer@web-summit.vicky 5 Nov 2026 |
 | `WRK.DESK synthetic` | [desks/synthetic: synthetic readers of PrompTugal.news](https://promptugal.news/desks/synthetic/README.md) | desk | synthetic@ 6 Nov 2026 |
+| `WRK.DESK writer-angelo` | [Angelo's writer desk](https://promptugal.news/desks/writer-angelo/README.md) | desk | writer@PrompTugal.angelo 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-agent-reads-and-visibility-1` | [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-agent-reads-and-visibility-2` | [The behaviour policy asks agents for their role and what they read, never a session URL, token or prompt; a human reader is never recorded as an agent](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-agent-reads-and-visibility-3` | [The lanes counted and sized feed my message map (my standing work (b))](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-algarve-evolution-1` | [People: public and professional facts only; our own team only with their recorded yes; no contact details (the invitation to correct goes to a role address)](https://promptugal.news/board/passes/2026-11-06-algarve-evolution.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 51 to 75**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-agent-reads-and-visibility-3` | [The lanes counted and sized feed my message map (my standing work (b))](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-algarve-evolution-1` | [People: public and professional facts only; our own team only with their recorded yes; no contact details (the invitation to correct goes to a role address)](https://promptugal.news/board/passes/2026-11-06-algarve-evolution.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-algarve-evolution-2` | [Nothing of the team's purpose for Saturday's meeting (what we want from them, notes, priority) on the page](https://promptugal.news/board/passes/2026-11-06-algarve-evolution.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-becoming-a-publication-1` | [Contacts: role addresses on promptugal.news only, at Dinis's word; no person's own address, phone or postal address on any page](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-becoming-a-publication-2` | [The registration and the press-pass application need a person's identity (name, ID, address): that stays out of this repository and every public vault; the…](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | finding | conductor@ 6 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-reader-feedback-and-reading-2` | [Ask for nothing that identifies the reader; "talk to the editor" offers the editors' role address, it does not collect the reader's; anything a reader…](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-reader-feedback-and-reading-3` | [The lane is public and write-only: expect spam and floods (507 when full); the reading agent counts and drops, and a full lane is noise, not an outage](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-reader-feedback-and-reading-4` | [Reading depth as today's page views: no IP, no cookie, no exact time in anything published; counts by page only when five or more readers](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-1` | [Only what riskmandate.ai and the team's site say; a company RiskMandate 'worked with' appears only where that relationship is public](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-2` | [No company labelled as a prospect or target (team notes, S4)](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-1` | [Only what riskmandate.ai and the team's site say; a company RiskMandate 'worked with' appears only where that relationship is public](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-2` | [No company labelled as a prospect or target (team notes, S4)](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-search-and-the-reader-profile-1` | [OPENROUTERKEY never reaches the browser: the site has no server, so an LLM in the page runs only on the reader's own key](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-search-and-the-reader-profile-2` | [The reader's key and profile in the browser are readable by any script on this origin: S1 (the keyring and served files) fixed first](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-search-and-the-reader-profile-3` | [The profile never leaves the browser unless the reader saves it, and then sealed to them; never sent to the page-view lanes](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-signed-in-views-6` | [Two ways in, always: the vault key is wrapped by the passkey's PRF and also by a second factor (a second passkey on a hardware key, or Dinis's person key, or…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-7` | [The wrap: a fixed random salt per vault for PRF, HKDF with a label, AES-GCM; the PRF output and the vault key never stored or logged; the wrapped key and…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-8` | ['Dinis's view' switches on the vault opening (cryptographic), never on a flag; this answers my 04:05 change](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-signed-in-views-9` | [A device that leaves (lost, sold) has its wrapper removed and the vault re-keyed (sgit vault rekey), per key-rotation.md; the key link fallback is retired for…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-articles-page-1` | [A1 No image on /articles/ (12 articles) while the front page shows their pictures: a card or thumb each](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)
