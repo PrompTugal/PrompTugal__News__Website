@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "IBTimes Colombia, 10 Oct 2026: Kiggu presents in the KPMG Private Enterprise Global Tech Innovator 2026 global final, 11 Nov 2026, in Lisbon during Web Summit",
       "kind": "other"
+    },
+    {
+      "id": "own1",
+      "url": "https://kiggu.io/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: in Spanish, cybersecurity products and services: pentesting, audits, red, purple and offensive security, a virtual CISO, SOC, and Kiggu Pro. It does not state Colombia or describe agentic AI on the home page.",
+      "kind": "other"
     }
   ]
 }

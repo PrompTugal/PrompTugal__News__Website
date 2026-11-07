@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://melious.ai/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: sovereign AI infrastructure for Europe: 60+ open-weight models on European infrastructure, OpenAI- and Anthropic-compatible inference. It does not mention the US Cloud Act.",
+      "kind": "other"
     }
   ]
 }

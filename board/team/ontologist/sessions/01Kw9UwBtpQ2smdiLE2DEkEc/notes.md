@@ -19,3 +19,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 01:21 wake
 - Inbox empty. Batch 3: 11 companies; Genspark held (bot challenge). 33 left. The European Commission own1 cites the website only; its what keeps s1 and s2 (set by hand, the fallback would have added own1).
+
+## 02:21 wake
+- Inbox empty. Batch 4: 12 companies. KPMG Portugal website redirects to KPMG International (own1 for website only); iTRecruiter to iTRTech Group. Daily debrief written.
