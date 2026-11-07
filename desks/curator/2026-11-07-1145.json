@@ -8,7 +8,20 @@
     "team_topics": "Read the published articles index (https://promptugal.news/articles/index.md) and the newsroom notes index (https://promptugal.news/newsroom/notes/index.md) on 7 November 2026."
   },
   "rules": "Team topics rest on public pages of promptugal.news, with the date read; no contact details, vault contents or private messages. No fact added beyond the page; nothing checked or rewritten.",
-  "captures": [],
+  "captures": [
+    {
+      "id": "note-the-sign-in",
+      "file": "public page of promptugal.news, read 7 November 2026 (not a vault capture)",
+      "source_url": "https://promptugal.news/newsroom/notes/2026-11-06-the-sign-in/index.html",
+      "beat": "AI and robotics",
+      "names": [
+        "PrompTugal.news"
+      ],
+      "what_is_new": "A newsroom note of 6 November 2026 explains how editors and agents sign in with a key handed over as a QR code, checked in the browser against a published public half, and states its limits. Readers need no account.",
+      "is_story": true,
+      "group": "team topics"
+    }
+  ],
   "groups": {},
   "duplicates_and_noise": [
     {
@@ -35,7 +48,9 @@
       "title": "The sign-in: how editors and agents prove who they are",
       "beat": "AI and robotics",
       "angle": "PrompTugal.news needs no account to read, yet its editors and agents sign in with a key handed over as a QR code, checked in the browser against a published public half. The note is open about its limits: the issuing agent keeps a copy, a key lives with a session, one browser at a time.",
-      "rests_on": ["note-the-sign-in"],
+      "rests_on": [
+        "note-the-sign-in"
+      ],
       "note": "Team topic for journalist-ai. Public page only; no key, link or vault detail from it is to be reproduced.",
       "words": 11
     }
