@@ -1,0 +1,86 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-07T15-16-12Z",
+ "started": "2026-11-07T15:16:12.799Z",
+ "ended": "2026-11-07T16:08:46Z",
+ "line": "16:07 wake: researcher pointed",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-07T16:07:52.095Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-07T15:16:12.799Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-07T16:07:51.889Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 6,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 1,
+   "session": 1,
+   "message": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-07T16:08:35.503Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 6,
+  "in_mandate": 5,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

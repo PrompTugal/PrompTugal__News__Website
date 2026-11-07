@@ -1,0 +1,9 @@
+{ "id": "claire", "demo": true, "lang": "fr", "audience": "publishers", "accent": "#6b3fa0",
+  "name": "Claire Moreau", "role": "Directrice des programmes, fondation pour la presse indépendante", "place": "Paris",
+  "greeting": "Bonjour Claire.",
+  "about": ["Dirige les programmes d’une fondation européenne qui soutient la presse indépendante.", "Finance des projets qui rendent l’information plus fiable et plus durable.", "Cherche des modèles qui ne dépendent ni de la publicité ni du pistage."],
+  "why": ["PrompTugal publie chaque fait avec sa source et chaque article signé, sans pister personne.", "Tout est open source : un éditeur indépendant peut le reprendre ou le faire tourner avec nous."],
+  "note": "Claire, le deck 2 dit ce que nous pensons du secteur ; le 3 montre ce qui tourne déjà. Dites-nous où nous nous trompons, et quel éditeur pourrait faire un pilote.",
+  "route": ["2-the-industry", "3-the-platform", "6-the-technology"],
+  "pages": ["publishers", "for-publishers", "rules-of-engagement"],
+  "overrides": { "2-the-industry": { "s01.3": "Pour Claire Moreau · une version personnelle" } } }

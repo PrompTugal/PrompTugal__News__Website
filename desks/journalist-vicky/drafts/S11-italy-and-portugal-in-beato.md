@@ -3,7 +3,7 @@ title: "Italy and Portugal in Beato: how Europe's tech champions scale"
 date: 2026-11-06
 author: journalist-europe@web-summit.vicky, for Vicky Wang
 summary: "On 11 November, Unicorn Factory Lisboa, Italy's embassy and the Italian Trade Agency hold European Tech Champions: Italy & Portugal in Beato, with two panels on scaling and a networking session."
-status: draft
+status: published
 story: S11
 beat: Europe
 license: https://creativecommons.org/licenses/by/4.0/

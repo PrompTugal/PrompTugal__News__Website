@@ -66,6 +66,46 @@
       "to": "local:rio-de-janeiro",
       "source": "irishtimes-web-summit-rio-first-outside-europe",
       "claim": "c42"
+    },
+    {
+      "from": "local:google",
+      "verb": "withdrew_from",
+      "to": "event:web-summit-lisbon-2023",
+      "source": "rte-2023-10-21-cosgrave-resigns",
+      "claim": "c15",
+      "note": "Reported after the chief executive's remarks about the Israel-Hamas war; the reason is in the claim."
+    },
+    {
+      "from": "local:meta",
+      "verb": "withdrew_from",
+      "to": "event:web-summit-lisbon-2023",
+      "source": "rte-2023-10-21-cosgrave-resigns",
+      "claim": "c15",
+      "note": "Reported after the chief executive's remarks about the Israel-Hamas war; the reason is in the claim."
+    },
+    {
+      "from": "local:intel",
+      "verb": "withdrew_from",
+      "to": "event:web-summit-lisbon-2023",
+      "source": "rte-2023-10-21-cosgrave-resigns",
+      "claim": "c15",
+      "note": "Reported after the chief executive's remarks about the Israel-Hamas war; the reason is in the claim."
+    },
+    {
+      "from": "local:siemens",
+      "verb": "withdrew_from",
+      "to": "event:web-summit-lisbon-2023",
+      "source": "rte-2023-10-21-cosgrave-resigns",
+      "claim": "c15",
+      "note": "Reported after the chief executive's remarks about the Israel-Hamas war; the reason is in the claim."
+    },
+    {
+      "from": "local:senac",
+      "verb": "sponsors",
+      "to": "event:web-summit-rio-2023",
+      "source": "irishtimes-web-summit-rio-first-outside-europe",
+      "claim": "c45",
+      "note": "Main sponsor, per the Irish Times of 3 May 2022."
     }
   ]
 }

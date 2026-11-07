@@ -9,6 +9,7 @@
 //   Save       the pages, api/v1/decks/deck.css and deck.js; /investors/decks/ (content) links each page
 import fs from 'node:fs'
 import path from 'node:path'
+import { PERSONA } from './investors-site.mjs'
 export const order = 61
 
 const DIR = 'board/team/investors/decks/', SRC = DIR + 'src/', I18N = DIR + 'i18n/', OUT = 'investors/decks/'
@@ -52,6 +53,8 @@ export function pages(ctx) {
         const player = { name, lang, langs: Object.fromEntries(langsOf(ctx, name).map(l => [l, up + relOf(name, l)])), pdf: fs.existsSync(ctx.R(pdfOf(name, lang))) ? up + pdfOf(name, lang) : '',
             decks: all.map(n => ({ name: n, href: up + relOf(n, langsOf(ctx, n).includes(lang) ? lang : 'en') })), index: up + OUT + 'index.html' }
         const raw = src.replace(/(src|href)="(img|shots)\//g, `$1="${up}${DIR}$2/`).replace(/(href|src)="deck\.(css|js)"/g, `$1="${up}api/v1/decks/deck.$2"`)
+            // the personal versions (investors@'s persona.js, served from dev@'s reviewed copy only): the deck's slide words per person
+            .replace('</head>', fs.existsSync(ctx.R(PERSONA)) ? `<meta name="inv-up" content="${up}">\n<script defer src="${up}api/v1/investors/persona.js"></script>\n</head>` : '</head>')
             .replace(/<body([^>]*)>/, `<body$1>\n<div id="deck-player" data-player="${JSON.stringify(player).replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"></div>`)
         return {
             rel, src: SRC + name + '.tpl', type: 'site', raw, title: strip((src.match(/<title[^>]*>([\s\S]*?)<\/title>/) || [, name])[1]),

@@ -11,7 +11,7 @@ status: published
 ---
 ## In short
 
-- Brazil's pavilion at Web Summit lasts three days. Behind it, Brazil has built links in Portugal that stay open all year.
+- Brazil's pavilion at Web Summit has its programme on three days, 10 to 12 November. Behind it, Brazil has built links in Portugal that stay open all year.
 - In Aveiro, Cais do Porto, the international unit of Recife's technology park Porto Digital, says more than 45 Brazilian companies have passed through since it started in 2024, most of them from Pernambuco.
 - In Lisbon, ApexBrasil and Sebrae run an incubator for Brazilian startups, which names its second class on 10 November ([our article](brazils-startup-house-in-lisbon.html)).
 - Unicorn Factory Lisboa has signed partnerships with three Brazilian hubs: Instituto Caldeira, Cubo and Sai do Papel. Sebrae and Startup Portugal signed a memorandum of understanding in 2023.
@@ -65,6 +65,7 @@ The door also opens towards Brazil. Intuitivo, a Porto edtech startup, raised mo
   - Startups.com.br, "Governo abre 'casa brasileira' para incubar startups em Lisboa", 12 November 2025, read 6 November 2026: <https://startups.com.br/eventos/web-summit/governo-abre-casa-brasileira-para-incubar-startups-em-lisboa/>
   - DN Brasil, "ApexBrasil e Sebrae selecionam 20 startups brasileiras para incubação em Lisboa", 4 September 2026, read 6 November 2026: <https://dnbrasil.dn.pt/negcios-br/apexbrasil-e-sebrae-selecionam-20-startups-brasileiras-para-incubao-em-lisboa>
   - IOL (Link to Leaders), "Web Summit 2026: Brasil chega a Lisboa com 200 empresas à procura de investimento", 5 November 2026, read 6 November 2026: <https://www.iol.pt/web-summit-2026/brasil-em-lisboa/web-summit-2026-brasil-chega-a-lisboa-com-200-empresas-a-procura-de-investimento>
+- Executive Digest with Lusa, "Web Summit: Cerca de 200 empresas brasileiras em Lisboa para captar investimento", 4 November 2026, read 7 November 2026 (the pavilion's programme, 10 to 12 November): <https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/>
 - Startups.com.br, "Gol vai bancar passagens de 10 startups cariocas a Lisboa", 26 October 2026, read 7 November 2026: <https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/> (Rio's ten, Gol's route)
 
 ## Who made this

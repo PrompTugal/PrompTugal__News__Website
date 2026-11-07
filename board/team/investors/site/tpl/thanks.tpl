@@ -1,0 +1,1 @@
+<section class="phead center"><div class="wrap"><h1>{{H.title}}</h1><p class="lead">{{H.lead}}</p><p class="row"><a class="btn btn-g" href="/investors/contact/#write">{{H.write}} →</a><a class="btn" href="/investors/">{{H.back}}</a></p></div></section>

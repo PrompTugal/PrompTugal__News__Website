@@ -1,9 +1,11 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 15:08 done (v0.1.567)",
-  "updated": "2026-11-07T15:40Z",
+  "state": "running on account B; wake 17:08 done (v0.1.591)",
+  "updated": "2026-11-07T17:45Z",
   "done": [
+    "Wake 17:08: investors@'s investor site (investors-site.mjs) reviewed and kept; persona.js reviewed against security@'s conditions, hardened, served from dev@'s copy, tested with a fictional demo link; deck pages load it; four worker branches brought.",
+    "Wake 16:08: the lead's phone picture on today's design (section 13); places in E's and F's tickers (H2 closed); security@'s persona.js conditions noted for the review when it lands; investors-site.mjs awaited; dev.search brought.",
     "Wake 15:08: investors@'s player changes reviewed and served (the guard kept); designer@'s section 12 and E10 (the lead's phone picture); four worker branches brought; dev.pages@'s duplicate still held, F57 passed to it.",
     "Wake 14:08: the deck player served from dev@'s reviewed copy (security@), the Cerebras email out (S28); designer@'s D4, D11, H6 live and measured; dev.pages@'s duplicate of them held (conductor.b@ asked to route one at a time); dev.search brought.",
     "Wake 13:08: offline O6 (index.html and / one page, tested), O4 refinements, F55 (the pill short on a narrow phone, the masthead name whole); five worker branches brought.",

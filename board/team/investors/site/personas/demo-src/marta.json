@@ -1,0 +1,9 @@
+{ "id": "marta", "demo": true, "lang": "pt", "audience": "invest", "accent": "#1f5fa8",
+  "name": "Marta Lopes", "role": "Business angel", "place": "Lisboa",
+  "greeting": "Olá, Marta.",
+  "about": ["Investe como business angel a partir de Lisboa, sobretudo em software para empresas.", "Fundou e vendeu uma empresa de pagamentos.", "Prefere ver um produto a funcionar antes de ler um plano."],
+  "why": ["A PrompTugal está a funcionar desde 4 de novembro de 2026 e procura uma ronda seed abaixo de 1 M€.", "O modelo de negócio é pagar depois do valor, alguns cêntimos por página: um problema de pagamentos que conhece bem."],
+  "note": "Marta, comece pela visita: são oito minutos e mostra tudo a funcionar. Depois, as três perguntas da apresentação 5. Diga-me o que falta para dizer sim, ou não.",
+  "route": ["9-the-tour", "1-the-investment-case", "5-the-investment"],
+  "pages": ["invest", "business-plan", "what-works"],
+  "overrides": { "9-the-tour": { "s01.3": "Para Marta Lopes · uma versão pessoal" }, "1-the-investment-case": { "s01.3": "Para Marta Lopes · uma versão pessoal" } } }
