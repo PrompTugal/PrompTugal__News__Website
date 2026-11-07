@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.541",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "6c8e832a0"
+  },
+  {
     "version": "v0.1.540",
     "date": "2026-11-07",
     "what": "librarian@PrompTugal.dinis: wake 12:57: 'see' retired for supersedes; every link type an ontology verb; catalogue v0.1.538",
