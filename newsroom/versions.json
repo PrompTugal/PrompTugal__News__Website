@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.557",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: the organiser's 2026 partners page read in full; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "f6ca8141c"
+  },
+  {
     "version": "v0.1.556",
     "date": "2026-11-07",
     "what": "devops@PrompTugal.dinis: runs 1041 to 1084 read: all green",
