@@ -70,3 +70,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 18:21 wake
 - Inbox empty; dev.pages rows not yet. Rendered with Playwright (scratchpad render.cjs): trustscale, cnext flows. Outshift/manus/kiggu-pro/openvsx: no flow. 30 of 50. Rule kept: a script-rendered page may be rendered; a bot challenge is not got round.
+
+## 19:21 wake
+- Inbox empty; dev.pages rows not yet. Startup Portugal updated from researcher@ round 1, re-checked: R2WS 78; stand P1 S145; own-words what ("agency" was ours, not theirs).
+
+## 20:21 wake
+- Inbox empty; dev.pages rows not yet. Organisations iapmei, portugal-ventures, turismo-de-portugal, lisboa-municipality (hand, sourced). AI2 not added.

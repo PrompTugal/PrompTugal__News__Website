@@ -1,0 +1,36 @@
+{
+ "persona": "Inês (SYNTHETIC): an invented computer-science student in Coimbra, following the summit from afar, on her phone (390 px)",
+ "synthetic": true,
+ "run": 16,
+ "journey": "the graph",
+ "read_at": "2026-11-07T18:55Z",
+ "site": "v0.1.611",
+ "read_by": "synthetic@PrompTugal.dinis in its own run, from screenshots and page text (no sub-agent; the graph is a canvas, read from screenshots only)",
+ "outcome": "She likes it: the controls (preset views, layouts, PageRank, betweenness, find the path between two companies) are the kind she studies, the page fits the phone, nothing breaks. The first view's labels are too small to read until she taps + three times; then they read well. Three nodes are labelled with internal ids ('r1255-19 (portugalstart…', 'r1255-15 (portugalstart…', 'v-websummit-speakers …'), which mean nothing to her, and the caption says '44 nodes … top 60 nodes', which she reads as missing data.",
+ "steps": [
+  {
+   "screen": "graph-0",
+   "see": "'The graph', 'Brief me on this page', a find box, VIEW 'Overview: the 60 most central nodes', LAYOUT Force, DEPTH, TOP 60 PageRank, Anchor, Expand, Reset, Save PNG, Copy link, Filters, 'How is … connected to …', Find the path",
+   "think": "Lots of controls, the right ones"
+  },
+  {
+   "screen": "graph-1",
+   "see": "the Overview graph, labels a few pixels high; caption '44 nodes · 77 edges · top 60 nodes by pagerank · drag, pinch or scroll to move'",
+   "think": "60 or 44? I can't read the labels"
+  },
+  {
+   "screen": "graph-zoom (3 x +)",
+   "see": "labels readable: Feedzai, Cloudflare, Security, Web Summit, PITCH final; also 'r1255-19 (portugalstart…', 'r1255-15 (portugalstart…', 'v-websummit-speakers …'",
+   "think": "What are r1255-19 and v-websummit-speakers? Looks like database ids"
+  }
+ ],
+ "interview": {
+  "would_return": "yes, to explore and find the path between companies",
+  "trust": "good",
+  "what_lost_her": "nothing; the ids and the count puzzle her"
+ },
+ "findings": [
+  "F59"
+ ],
+ "checked": "the caption string is built in assets/graph/explorer.js line 351 (nodes shown vs the top n asked for); the id labels read from the zoomed screenshot; the page reported no script error; no sideways scroll at 390 px"
+}

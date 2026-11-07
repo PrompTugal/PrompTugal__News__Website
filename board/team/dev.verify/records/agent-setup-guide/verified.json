@@ -76,6 +76,24 @@
       "chars": 6078
     },
     {
+      "url": "https://code.claude.com/docs/en/sandboxing.md",
+      "status": 200,
+      "read": true,
+      "chars": 109931
+    },
+    {
+      "url": "https://code.claude.com/docs/en/cloud-environments.md",
+      "status": 200,
+      "read": true,
+      "chars": 61299
+    },
+    {
+      "url": "https://geminicli.com/docs/cli/sandbox/",
+      "status": 200,
+      "read": true,
+      "chars": 19751
+    },
+    {
       "url": "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent",
       "status": 200,
       "read": true,
@@ -91,13 +109,13 @@
       "url": "https://web-summit.sgit.ai/people/angelo/kit/README.md#protocol",
       "status": 200,
       "read": true,
-      "chars": 24456
+      "chars": 26961
     },
     {
       "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/data/team.json",
       "status": 200,
       "read": true,
-      "chars": 30883
+      "chars": 32491
     },
     {
       "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/data/keys.json",
@@ -106,83 +124,54 @@
       "chars": 132022
     }
   ],
-  "spent_usd": 0.0914,
+  "spent_usd": 0.1014,
   "claims": [
     {
       "id": "c1",
-      "claim": "The Microsoft and GitHub feature names were checked on their help pages on 6 November 2026.",
+      "claim": "The Web Summit team behind the newsroom has nine people.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "No passage says that Microsoft or GitHub feature names were checked on their help pages, or that any such check took place on 6 November 2026; the 6 November mentions concern unrelated keys and agent decisions, and the GitHub docs passage (S12) is only a page excerpt with no check described."
+          "verdict": "partly",
+          "source": "S18",
+          "quote": "Seven people are going to Lisbon",
+          "note": "The source names seven people going to Lisbon plus a designer (Sarah) and a friendly (Daniela), which adds up to nine humans, but it never states a total of nine, and the team also includes agents."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the provided sources mention checking Microsoft and GitHub feature names on their help pages on 6 November 2026."
+          "verdict": "supported",
+          "source": "S18",
+          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), working with a designer (Sarah) and a first friendly (Daniela)",
+          "note": "The team consists of seven people traveling to Lisbon alongside a designer and a first friendly, totaling nine people."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "No source states that Microsoft and GitHub feature names were checked on their help pages on 6 November 2026."
+          "verdict": "partly",
+          "source": "S18",
+          "quote": "Seven people are going to Lisbon ... working with a designer (Sarah) and a first friendly (Daniela)",
+          "note": "The source implies nine people are involved (seven plus two), but it does not explicitly say the team behind the newsroom has nine people."
         }
       ],
-      "consensus": "unsupported",
+      "consensus": "disagree",
       "flag_to_journalist": true
     },
     {
       "id": "c2",
-      "claim": "The Web Summit team behind the newsroom has nine people and dozens of agents.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "exaggerated",
-          "source": "S15",
-          "quote": "each with their own agent",
-          "note": "The source names seven people going to Lisbon plus a designer and a friendly (nine people in total), with each person having their own agent, which supports the nine people but not \"dozens of agents\"."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "exaggerated",
-          "source": "S15",
-          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), working with a designer (Sarah) and a first friendly (Daniela), each with their own agent",
-          "note": "The source confirms nine people (seven going to Lisbon, a designer, and a first friendly), but notes they each have their own agent rather than dozens of agents."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "exaggerated",
-          "source": "S15",
-          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), working with a designer (Sarah) and a first friendly (Daniela), each with their own agent",
-          "note": "The source implies nine humans (seven plus the designer and first friendly) but only says each has their own agent, not dozens of agents."
-        }
-      ],
-      "consensus": "exaggerated",
-      "flag_to_journalist": true
-    },
-    {
-      "id": "c3",
-      "claim": "The team's keys page showed 70 active agent keys on 6 November.",
+      "claim": "The team site's keys page showed 70 active agent keys on 6 November.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "The excerpts from keys.json (S16) show individual key entries and a file size, but none states a count of active agent keys, and no excerpt mentions 70 keys or a figure dated 6 November."
+          "note": "The passages mention a keys page (S17) and the keys.json file (S19), but the S19 excerpt is cut off before any data, and no passage gives a count of 70 active agent keys or any figure for 6 November."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "The provided passages do not mention that the team's keys page showed 70 active agent keys on 6 November."
+          "note": "None of the provided sources state that the team site's keys page showed 70 active agent keys on 6 November."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
@@ -196,58 +185,87 @@
       "flag_to_journalist": true
     },
     {
-      "id": "c4",
-      "claim": "The article was published on 6 November 2026 by writer@PrompTugal.angelo, signed with that agent's key.",
+      "id": "c3",
+      "claim": "The guide was published by writer@PrompTugal.angelo on 6 November 2026 and signed with that agent's key.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "contradicted",
-          "source": "S14",
-          "quote": "journalist@PrompTugal.dinis publishes and signs them",
-          "note": "S14 says the writer's pieces are published and signed by journalist@PrompTugal.dinis, not by writer@PrompTugal.angelo, and it does not mention this article or its 6 November 2026 date."
+          "source": "S17",
+          "quote": "the newsroom reviews them and journalist@PrompTugal.dinis publishes and signs them",
+          "note": "The source says the writer drafts technical notes and guides, and journalist@PrompTugal.dinis publishes and signs them, so the claim that writer@PrompTugal.angelo published and signed the guide conflicts with it."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "contradicted",
-          "source": "S14",
+          "source": "S17",
           "quote": "the newsroom reviews them and journalist@PrompTugal.dinis publishes and signs them",
-          "note": "The source specifies that the newsroom reviews the writer's pieces and journalist@PrompTugal.dinis publishes and signs them, rather than writer@PrompTugal.angelo publishing and signing with its own key."
+          "note": "According to the protocol, writer@PrompTugal.angelo only writes technical notes and guides, while journalist@PrompTugal.dinis reviews, publishes, and signs them."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "contradicted",
-          "source": "S14",
-          "quote": "the newsroom reviews them and journalist@PrompTugal.dinis publishes and signs them",
-          "note": "The source says the journalist, not writer@PrompTugal.angelo, publishes and signs the writer's pieces."
+          "source": "S17",
+          "quote": "journalist@PrompTugal.dinis publishes and signs them",
+          "note": "The source says the newsroom's journalist publishes and signs the writer's guides, not writer@PrompTugal.angelo."
         }
       ],
       "consensus": "contradicted",
       "flag_to_journalist": true
     },
     {
-      "id": "c5",
-      "claim": "The article was corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo and policy@PrompTugal.angelo.",
+      "id": "c4",
+      "claim": "The guide was corrected on 7 November 2026 after reviews and a fact-check.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "The passages describe agent naming, protocols and publishing rules, and policy@PrompTugal.angelo's audit role, but none says the article was corrected on 7 November 2026 or that dev@ and policy@ reviewed a correction."
+          "note": "None of the passages mention a guide being corrected on 7 November 2026, or any reviews or fact-check; 7 November appears only as the date agents and keys were added."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "The provided sources do not mention an article being corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo and policy@PrompTugal.angelo."
+          "note": "None of the provided sources mention that the guide was corrected on 7 November 2026 or that it underwent reviews and a fact-check."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "No source passage states that an article was corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo and policy@PrompTugal.angelo."
+          "note": "No source passage states that a guide was corrected on 7 November 2026 after reviews and a fact-check."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "Angelo reports that Dinis Cruz authorised the guide's publication on PrompTugal.news; Dinis's own confirmation had been requested.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the passages mention a guide, PrompTugal.news publication, or Dinis Cruz authorising anything, so the claim has no support in the sources."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention Dinis Cruz authorising the publication of a guide on PrompTugal.news or a request for his confirmation."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source mentions Angelo reporting Dinis Cruz's authorisation for a guide's publication on PrompTugal.news or that Dinis's confirmation had been requested."
         }
       ],
       "consensus": "unsupported",
@@ -255,28 +273,28 @@
     },
     {
       "id": "c6",
-      "claim": "RiskMandate's model sorts every barrier into four kinds: None, Expectation, Setting and Boundary.",
+      "claim": "On 6 November, Angelo changed the team's rule for editing others' files to: pull first, check that nobody changed the file in the last two hours, keep the change small, and state it in the commit.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S1",
-          "quote": "There are four kinds",
-          "note": "S1 says a behaviour policy records, for every capability in the grant, what stands in the way, and that there are four barrier kinds: none, expectation, setting and boundary."
+          "source": "S17",
+          "quote": "(Angelo, 6 November, replacing option 1 of 5 November",
+          "note": "The protocol records Angelo's 6 November rule for editing others' files, covering the claim's pull-first, two-hour check, small change, and commit statement, though it also adds a draft fallback and rebase steps the claim omits."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S1",
-          "quote": "There are four kinds, and three of them bound nothing. That is not an opinion — it follows from what each one is. Barrier What stands in the way Is it a control ● none nothing in the way no ◉ expectation a rule in prose, enforced by nobody no ◐ setting a switch the agent's own account can flip no ○ boundary",
-          "note": "RiskMandate's model records barriers per capability across four specific kinds: none, expectation, setting, and boundary."
+          "source": "S17",
+          "quote": "Other people's files: change them directly, without clashing (Angelo, 6 November, replacing option 1 of 5 November",
+          "note": "On 6 November, Angelo updated the protocol for editing other people's files with instructions to pull first, keep changes small, check recent edits via git log for the last two hours, and explain changes in the commit."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S1",
-          "quote": "Barrier What stands in the way Is it a control ● none nothing in the way no ◉ expectation a rule in prose, enforced by nobody no ◐ setting a switch the agent's own account can flip no ○ boundary enforced above the grant, out of the agent's reach yes",
-          "note": "The source states barriers are recorded per capability from one of four kinds and lists none, expectation, setting, and boundary."
+          "source": "S17",
+          "quote": "To avoid clashing: (1) pull `dev` right before you edit, and keep the change small and in one commit; (2) look first: `git log --since=\"2 hours ago\" -- `: if someone else changed it in the last two hours, or an open issue on the board has it `picked`, send your change to them as a draft in a commit (`For:` them) instead; (3) say it in the commit, `For: `, with one line on what you changed and why",
+          "note": "The source attributes this change to Angelo on 6 November and lists the same pull, two-hour check, small-change, and commit-statement steps."
         }
       ],
       "consensus": "supported",
@@ -284,57 +302,57 @@
     },
     {
       "id": "c7",
-      "claim": "RiskMandate's pages and policies are licensed CC BY 4.0 and its code is licensed Apache-2.0.",
+      "claim": "The vendor feature names were checked on their help pages on 6 November 2026.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "code Apache-2.0 · pages and policies CC BY CC BY 4.0",
-          "note": "The riskmandate.ai footer states that the code is Apache-2.0 and that pages and policies are CC BY 4.0, matching the claim."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The passages mention renaming agents from 6 November 2026 but say nothing about vendor feature names or checking any help pages."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "code Apache-2.0 · pages and policies CC BY CC BY 4.0",
-          "note": "The footer of RiskMandate's site confirms that its code is licensed Apache-2.0 and its pages and policies are licensed CC BY 4.0."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not mention vendor feature names being checked on help pages."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "code Apache-2.0 · pages and policies CC BY CC BY 4.0",
-          "note": "Source S1 explicitly lists the licensing for the code and the pages and policies."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources discuss agent names and keys, not vendor feature names or help pages."
         }
       ],
-      "consensus": "supported",
-      "flag_to_journalist": false
+      "consensus": "unsupported",
+      "flag_to_journalist": true
     },
     {
       "id": "c8",
-      "claim": "SHarness's status as of November 2026 is \"design, with the first experiments\", with two parts and a first slice of its launcher running as early versions.",
+      "claim": "Claude Code's sandbox is enforced by the operating system and is off by default.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "partly",
-          "source": "S3",
-          "quote": "design, with the first experiments",
-          "note": "The status wording matches S3 (two doors and a first launcher slice runnable as MVPs), but the sources date this status only to late October 2026 (S4 says 'as of 24 Oct 2026'), not November 2026."
+          "source": "S12",
+          "quote": "The Bash sandbox is a boundary that the operating system enforces around the shell commands Claude runs on your machine.",
+          "note": "The OS-enforcement part is stated directly, but the passages never say the sandbox is off by default; they only imply it with 'Turn it on' and an example setting 'enabled': true."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "partly",
-          "source": "S4",
-          "quote": "as of 24 Oct 2026",
-          "note": "The sources describe this exact status and component progress, but date it to 24 October 2026 rather than November 2026."
+          "source": "S12",
+          "quote": "The Bash sandbox is a boundary that the operating system enforces",
+          "note": "The sources confirm that the sandbox is enforced by the operating system, but they do not state that it is off by default."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "partly",
-          "source": "S3",
-          "quote": "Status: design, with the first experiments, two doors (sharness.fs, sharness.net) and a first slice of the launcher runnable as MVPs",
-          "note": "The status and MVP components match, but the source dates it 29 Oct 2026 (and S4 says 24 Oct 2026), not November 2026."
+          "source": "S12",
+          "quote": "The Bash sandbox is a boundary that the operating system enforces",
+          "note": "S12 confirms OS-level enforcement, but it only implies opt-in via 'Turn it on' and enabled:true rather than explicitly stating the sandbox is off by default."
         }
       ],
       "consensus": "partly",
@@ -342,114 +360,114 @@
     },
     {
       "id": "c9",
-      "claim": "sgit is licensed Apache-2.0.",
+      "claim": "RiskMandate's model sorts every barrier into four kinds: none, expectation, setting, and boundary.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the passages mention sgit's license or any license identifier, so the Apache-2.0 claim cannot be verified from these sources."
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "There are four kinds",
+          "note": "The source names the four barrier kinds as none, expectation, setting and boundary, and says each barrier is recorded from one of four kinds."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "The provided passages mention sgit multiple times but do not state what license it uses."
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "There are four kinds, and three of them bound nothing. That is not an opinion — it follows from what each one is. Barrier What stands in the way Is it a control ● none nothing in the way no ◉ expectation a rule in prose, enforced by nobody no ◐ setting a switch the agent's own account can flip no ○ boundary enforced above the grant, out of the agent's reach yes",
+          "note": "RiskMandate's model identifies four barrier types: none, expectation, setting, and boundary."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "The provided sources mention sgit but do not state its license or mention Apache-2.0."
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "● none nothing in the way no ◉ expectation a rule in prose, enforced by nobody no ◐ setting a switch the agent's own account can flip no ○ boundary enforced above the grant, out of the agent's reach yes",
+          "note": "The source states barriers are recorded per capability from one of four kinds and lists them as none, expectation, setting, and boundary."
         }
       ],
-      "consensus": "unsupported",
-      "flag_to_journalist": true
+      "consensus": "supported",
+      "flag_to_journalist": false
     },
     {
       "id": "c10",
-      "claim": "On 6 November, Angelo's agents changed the rule for editing others' files to: pull first, check that nobody changed the file in the last two hours, keep the change small, and say it in the commit.",
+      "claim": "RiskMandate's Agent Behaviour Policy pages are licensed CC BY 4.0 and its code Apache-2.0.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S14",
-          "quote": "if someone else changed it in the last two hours",
-          "note": "The protocol's 6 November replacement rule for editing other people's files includes pulling dev before editing, keeping the change small in one commit, checking for recent changes, and saying it in the commit, though it also sends a draft instead when a file was recently changed and omits the 'Angelo's agents' framing."
+          "source": "S1",
+          "quote": "code Apache-2.0 · pages and policies CC BY CC BY 4.0",
+          "note": "The footer of the ABP page (S1) states that the code is Apache-2.0 and the pages and policies are CC BY 4.0, which matches the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S14",
-          "quote": "Other people's files: change them directly, without clashing (Angelo, 6 November, replacing option 1 of 5 November: \"we shouldn't go for an overly bureaucratic approach, as it causes holds and slow us down. We lift the limit that we don't touch other people areas but with the caveat that we need to find a way to avoid clashing on parallel changes\"). You may change another owner's code, page or data directly, under the tiers (tier 3 still covers anything in a person's name, keys, permissions, money, CLAUDE.md, policies and anything irreversible). To avoid clashing: (1) pull `dev` right before you edit, and keep the change small and in one commit; (2) look first: `git log --since=\"2 hours ago\" -- `: if someone else changed it in the last two hours, or an open issue on the board has it `picked`, send your change to them as a draft in a commit (`For:` them) instead; (3) say it in the commit",
-          "note": "On 6 November, the protocol for Angelo's agents regarding other people's files was updated with instructions to pull first, check if anyone changed the file in the last two hours, keep changes small, and state them in the commit."
+          "source": "S1",
+          "quote": "code Apache-2.0 · pages and policies CC BY CC BY 4.0",
+          "note": "The RiskMandate Agent Behaviour Policy page explicitly states that its code is licensed Apache-2.0 and its pages and policies are licensed CC BY 4.0."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "code Apache-2.0 · pages and policies CC BY CC BY 4.0",
+          "note": "The footer on the Agent Behaviour Policy page states the code is Apache-2.0 and pages/policies are CC BY 4.0."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c11",
+      "claim": "As of November 2026, SHarness's status was 'design, with the first experiments', with two parts and a first slice of its launcher built as early versions.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Status: design, with the first experiments, two doors (sharness.fs, sharness.net) and a first slice of the launcher runnable as MVPs",
+          "note": "The status wording and the two doors and launcher slice match, but the sources date this status to 24 Oct 2026 (S4) and to the 29 Oct 2026 release (S3), not to November 2026, and 'built as early versions' is a paraphrase of 'runnable as MVPs'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Status: design, with the first experiments, two doors (sharness.fs, sharness.net) and a first slice of the launcher runnable as MVPs",
+          "note": "The description of SHarness's status and components is supported, but the sources date this to late October 2026 rather than November 2026."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "partly",
-          "source": "S14",
-          "quote": "Angelo, 6 November, replacing option 1 of 5 November",
-          "note": "The source gives the 6 November rule and its steps, but attributes the change to Angelo, not to Angelo's agents."
+          "source": "S4",
+          "quote": "as of 24 Oct 2026",
+          "note": "The status and components are supported, but the source dates the design page to 24 Oct 2026, not November 2026."
         }
       ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
-    },
-    {
-      "id": "c11",
-      "claim": "Dinis Cruz authorised the guide's publication on PrompTugal.news.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the passages mention PrompTugal.news, a guide, or any publication authorisation by Dinis Cruz; they only show him as author of articles on sharness.ai and as an operator in a Web Summit repository."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "The provided sources do not mention PrompTugal.news or any authorization by Dinis Cruz for the publication of a guide."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "No provided source mentions PrompTugal.news or Dinis Cruz authorising a guide's publication there."
-        }
-      ],
-      "consensus": "unsupported",
+      "consensus": "partly",
       "flag_to_journalist": true
     },
     {
       "id": "c12",
-      "claim": "Google's open-source Gemini CLI is a terminal agent.",
+      "claim": "Google's Gemini CLI is an open-source terminal agent.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S13",
-          "quote": "open-source terminal agent",
-          "note": "The repository describes Gemini CLI as an open-source terminal agent, though it also says the tool is now maintained mainly for enterprise Gemini Code Assist customers."
+          "source": "S16",
+          "quote": "is an open-source terminal agent",
+          "note": "The GitHub README states that Gemini CLI is an open-source terminal agent, though it also says free and Google AI Pro/Ultra access moved to Antigravity CLI on June 18, 2026."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S13",
+          "source": "S16",
           "quote": "Gemini CLI ( gemini ) is an open-source terminal agent",
-          "note": "The source directly states that Gemini CLI is an open-source terminal agent built by Google and the open source community."
+          "note": "The source explicitly confirms that Gemini CLI is an open-source terminal agent."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S13",
-          "quote": "open-source terminal agent",
+          "source": "S16",
+          "quote": "Gemini CLI (gemini) is an open-source terminal agent",
           "note": "The source explicitly describes Gemini CLI as an open-source terminal agent."
         }
       ],

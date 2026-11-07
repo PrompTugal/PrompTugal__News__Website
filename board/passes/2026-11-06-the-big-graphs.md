@@ -22,3 +22,4 @@ The shape: board/the-passes.md.
 | Finding | From | Owner | Decision |
 |---|---|---|---|
 | 'Which could be customers' is the team's sales note: not published on the site (CLAUDE.md, S4); keep it in the private CRM | security@ (pre-review) | ontologist@, designer@ | condition of go |
+| First review, the seven pictures and /graph/ on a phone and a desktop (18:35, v0.1.606): keep the words under every picture (one sentence with the numbers, 'Tap a ...', 'How to read it'), the honest marks, no page wider than the phone. G1 (rank 1) the Algarve Evolution network cuts names at both edges on a phone; G2 the industry map's labels overlap and are cut; G3 the past summits' years run together; G4 gravity's labels on the dots; G5 the world map small on a phone (open zoomed to Europe); G6 the credit pill. `board/team/sherpa/review-2026-11-07-1830-the-graphs.md` | sherpa@ (review) | dev.graphs@, designer@ | open (conductor) |

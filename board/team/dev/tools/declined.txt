@@ -1,0 +1,1 @@
+dev.pages assets/front-g/front-g.tmpl 9304b8ac2

@@ -46,6 +46,8 @@ const five = (ctx, rel, d) => slotList(fiveOf(ctx, d).map(({ e, also }) => slotL
     ...(/algarve/i.test(e.where || '') ? ['in the Algarve, not Lisbon'] : []),
     ...also.map(a => `also at ${placeName(ctx, a) || a.where || ''}${a.start ? ', ' + a.start : ''}`)] })))
 const NUM = ['No', 'One', 'Two', 'Three', 'Four', 'Five']
+// "Five things..." says how many there are (designer@'s V2)
+const countText = (t, n) => t.replace(/^Five things/, `${NUM[n]} thing${n === 1 ? '' : 's'}`)
 const fiveText = (ctx, d) => W.there_text.replace(/^Five things/, `${NUM[fiveOf(ctx, d).length]} thing${fiveOf(ctx, d).length === 1 ? '' : 's'}`)
 const dayLink = (ctx, rel, d) => `[${W.day_link}](${ctx.link(rel, `days/${d}/index.html`)})`
 const next = d => STRIP_DAYS[STRIP_DAYS.indexOf(d) + 1]
@@ -56,7 +58,7 @@ function edition(ctx, d, kind) {
     const md = kind === 'morning'
         ? `## ${W.there_head}\n\n${fiveText(ctx, d)}\n\n${five(ctx, rel, d)}\n\n${dayLink(ctx, rel, d)}\n\n## ${W.remote_head}\n\n${W.remote_text}\n\n<!-- newsletter:latest -->`
         : `## ${W.today_head}\n\n<!-- newsletter:today -->\n\n## ${W.latest_head}\n\n<!-- newsletter:latest -->\n\n` +
-          (next(d) ? `## ${W.next_head}\n\n${W.next_text}\n\n${five(ctx, rel, next(d))}\n\n${dayLink(ctx, rel, next(d))}\n\n` : '')
+          (next(d) ? `## ${W.next_head}\n\n${countText(W.next_text, fiveOf(ctx, next(d)).length)}\n\n${five(ctx, rel, next(d))}\n\n${dayLink(ctx, rel, next(d))}\n\n` : '')
     return {
         src: 'data/events/', rel, type: 'site', date: d, section: 'news',
         crumbs: [[INDEX, W.index_title], [null, `${DAY(d)}, ${W[kind].toLowerCase()}`]],
@@ -88,11 +90,12 @@ export function decorate(p, ctx) {
 }
 
 // the article lines are filled once the articles exist (the pages above are made before them)
-const short = t => t.length > 110 ? t.slice(0, 109).replace(/\s+\S*$/, '') + '…' : t
-const line = (ctx, rel, a) => `- [${a.meta.title}](${ctx.link(rel, a.rel)}). ${short(a.meta.summary.replace(/[*`]/g, '').split(/(?<=[.!?])\s/)[0])}`
+// one whole sentence, never cut mid-way (designer@'s V3)
+const line = (ctx, rel, a) => `- [${a.meta.title}](${ctx.link(rel, a.rel)}). ${a.meta.summary.replace(/[*`]/g, '').split(/(?<=[.!?])\s/)[0]}`
 export const fill = {
     // three stories, one short line each, then every article (designer@'s E7: three is read, five is skipped)
-    'newsletter:latest': (page, ctx) => articlesOf(ctx).slice(0, 3).map((a, i) => line(ctx, page.rel, a).replace(/^- /, `${i + 1}. `)).join('\n') + `\n\n[Every article](${ctx.link(page.rel, 'articles/index.html')})`,
+    // in the evening, not the stories already under 'Published today' (designer@'s V1)
+    'newsletter:latest': (page, ctx) => articlesOf(ctx).filter(a => !/-evening\//.test(page.rel) || a.meta.date !== (page.rel.match(/(\d{4}-\d{2}-\d{2})/) || [])[1]).slice(0, 3).map((a, i) => line(ctx, page.rel, a).replace(/^- /, `${i + 1}. `)).join('\n') + `\n\n[Every article](${ctx.link(page.rel, 'articles/index.html')})`,
     'newsletter:today': (page, ctx) => {
         const d = page.rel.match(/(\d{4}-\d{2}-\d{2})/)[1]
         return articlesOf(ctx).filter(a => a.meta.date === d).map(a => line(ctx, page.rel, a)).join('\n') || W.today_none

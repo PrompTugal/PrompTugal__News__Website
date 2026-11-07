@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S26",
+  "type": "story",
+  "title": "Two editions a day: PrompTugal.news starts a daily newsletter",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:page-newsletter"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-07-1945.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-07-1945.json",
+      "desks/journalist-vicky/drafts/s26-daily-newsletter.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/s26-daily-newsletter.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-07T19:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-07-1945.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-07",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/s26-daily-newsletter.md"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "type": "company",
   "name": "Startup Portugal",
   "website": "https://startupportugal.com/",
-  "what": "Portugal's national startup agency; with Web Summit runs Road 2 Web Summit, selecting up to 125 Portuguese startups for the 2026 edition with a bootcamp in Porto and Lisbon and a Portugal stand.",
+  "what": "\"Portugal's national reference for entrepreneurship\", a public-interest organisation; with Web Summit runs Road 2 Web Summit, whose Class of 2026 brings together 78 Portuguese startups from 24 sectors (the call announced up to 125, with a bootcamp in Porto and Lisbon), and the Portugal stand (Pavilion 1, Stand 145, 10 to 12 November) with Lisboa Municipality.",
   "category": "other",
   "country": "Portugal",
   "attending": "confirmed: Executive Digest (13 Aug 2026) reports Startup Portugal and Web Summit running the 11th Road 2 Web Summit for the 9-12 Nov 2026 edition, with extra space on Portugal's stand",
@@ -17,8 +17,10 @@
       "own1"
     ],
     "what": [
+      "own1",
       "s1",
-      "own1"
+      "sp1",
+      "sp2"
     ],
     "category": [
       "s1"

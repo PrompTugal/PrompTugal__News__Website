@@ -17,6 +17,22 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "Startup Portugal's own site, its home page (read 7 November 2026, 03:25 UTC): its website; and a description of what it does: it supports the Portuguese startup ecosystem and runs Road 2 Web Summit, a programme designed with Web Summit. It does not state 125 startups or call itself an agency on the home page.",
       "kind": "other"
+    },
+    {
+      "id": "sp1",
+      "url": "https://startupportugal.com/programa/road-2-web-summit/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Startup Portugal's Road 2 Web Summit page (read 7 November 2026, 19:30 UTC; researcher@'s portugal-ecosystem-round-1 re-checked): \"a program designed in collaboration with Web Summit\"; \"The R2WS Class of 2026 brings together 78 Portuguese startups from 24 sectors and 14 locations\"; more than 1000 startups helped over the years."
+    },
+    {
+      "id": "sp2",
+      "url": "https://startupportugal.com/noticia/get-ready-for-web-summit-2026/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Startup Portugal's news \"Get ready for Web Summit 2026!\" (read 7 November 2026, 19:30 UTC): the Portugal stand at Pavilion 1, Stand 145, 10 to 12 November, with Lisboa Municipality; partners AI2, IAPMEI, AICEP, Portugal Ventures (BPF) and Turismo de Portugal; the stand's agenda (pitch sessions each day)."
     }
   ]
 }
