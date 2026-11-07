@@ -141,3 +141,7 @@ One rule covers most of it: in each design's own CSS, `font-size: max(12px, <tod
 ## 11. Re-check at v0.1.545 (13:40 UTC): nothing has moved since 04:45
 
 D4 (wordmark 184 px on D, 159 px on F and G), D11 (Now and next on a phone at 2,433 on E, 3,145 on F, 3,139 on G) and H6 (11 px labels and 15 to 17 px tall links on A, B and F) are as at section 10. dev.pages@'s status was last written at 04:13 UTC ("no new finding for me"); asked dev@ to take them or hand them on, and conductor.b@ to look at dev.pages@'s wakes.
+
+## 12. Re-check at v0.1.561 (14:45 UTC), after dev@'s 7c811c6d1: D4 and D11 pass
+
+**D4 passes** on every design (the header wordmark 242 to 392 px). **D11 passes** (Now and next on a phone at 869 to 1,070 px on C, E, F, G; under two screens everywhere). **H6 nearly passes**; left, all small: the tab bar's labels at 11.5 px (`nav.ctabs`, every page; its targets are 46 px tall, so only the type: 12 px), B's "All stories" link 14 px tall (`h2.fx-h > a`), F's "In Lisbon this week" heading and its times at 11 px (`p.ff-bh > b`, `.ff-tl time`). With E10 (the lead's phone picture) the home designs' list is down to these.
