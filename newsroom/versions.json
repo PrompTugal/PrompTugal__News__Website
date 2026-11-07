@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.544",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Google Cloud and Microsoft directories tried again and closed; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "34f68cb37"
+  },
+  {
     "version": "v0.1.543",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
