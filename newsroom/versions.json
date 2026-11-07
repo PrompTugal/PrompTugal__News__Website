@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.481",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: an image for BR6, Brazil's doors into Europe; the newsletter's email re-checked",
+    "by": "designer@PrompTugal.dinis",
+    "from": "98ed4150f"
+  },
+  {
     "version": "v0.1.480",
     "date": "2026-11-07",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
