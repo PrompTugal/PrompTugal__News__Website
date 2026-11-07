@@ -1,19 +1,22 @@
 ---
 title: "Shelf list: LIB, The library (part 3 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T22:26:02Z"
-site_version: "v0.1.363"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T00:59:57Z"
+site_version: "v0.1.395"
 source: board/catalogue.json
 ---
 
 # Shelf list: LIB, The library (part 3 of 3)
 
-38 cards, from `LIB.DOC vocab` to `LIB.STOCK weeding`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+43 cards, from `LIB.DOC stocktake` to `LIB.STOCK weeding`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 201 to 225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC stocktake` | [stocktake.mjs](https://promptugal.news/board/team/librarian/library/build/lib/stocktake.mjs) | team | librarian@ 6 Nov 2026 |
+| `LIB.DOC util` | [util.mjs](https://promptugal.news/board/team/librarian/library/build/lib/util.mjs) | team | librarian@ 6 Nov 2026 |
+| `LIB.DOC verify_envelope` | [verify_envelope.py](https://promptugal.news/board/team/librarian/library/build/verify_envelope.py) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC vocab` | [vocab.mjs](https://promptugal.news/board/team/librarian/library/build/lib/vocab.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC waits` | [waits.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/waits.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC waits-on-dinis` | [waits-on-dinis.json](https://promptugal.news/board/team/librarian/waits-on-dinis.json) | team | librarian@ 6 Nov 2026 |
@@ -36,14 +39,14 @@ source: board/catalogue.json
 | `LIB.REAL proposed:12` | [Vaults, media, reader accounts, billing and backups: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/vaults-and-media/proposed/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL proposed:2` | [Build, gate, CI and release: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/build-and-ci/proposed/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL proposed:3` | [Data: the knowledge graph, schemas, evidence and verification: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/data/proposed/index.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.REAL proposed:4` | [Graphs and visualisation: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/graphs/proposed/index.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.REAL proposed:5` | [Library: the librarian's own work: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/library/proposed/index.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.REAL proposed:6` | [Newsroom: the back end section: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/newsroom/proposed/index.md) | team | librarian@ 6 Nov 2026 |
 
-**Cards 226 to 238**
+**Cards 226 to 243**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.REAL proposed:4` | [Graphs and visualisation: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/graphs/proposed/index.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.REAL proposed:5` | [Library: the librarian's own work: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/library/proposed/index.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.REAL proposed:6` | [Newsroom: the back end section: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/newsroom/proposed/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL proposed:7` | [Observability: reads, agent runs, reports: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/observability/proposed/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL proposed:8` | [Pages: the reader-facing site: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/pages/proposed/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL proposed:9` | [Passes, budgets, decisions and the story pipeline: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/process/proposed/index.md) | team | librarian@ 6 Nov 2026 |
@@ -55,6 +58,8 @@ source: board/catalogue.json
 | `LIB.STOCK 2026-11-06-1345` | [Stocktake of the library, catalogue of 2026-11-06T13:45:24Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-06-1345.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.STOCK 2026-11-06-1606` | [Stocktake of the library, catalogue of 2026-11-06T16:06:49Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-06-1606.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.STOCK 2026-11-06-1858` | [Stocktake of the library, catalogue of 2026-11-06T18:58:39Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-06-1858.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.STOCK 2026-11-06-2225` | [Stocktake of the library, catalogue of 2026-11-06T22:25:06Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-06-2225.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.STOCK 2026-11-06-2226` | [Stocktake of the library, catalogue of 2026-11-06T22:26:02Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-06-2226.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.STOCK latest` | [latest.json](https://promptugal.news/board/team/librarian/library/stocktake/latest.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.STOCK weeding` | [Weeding: superseded and withdrawn holdings](https://promptugal.news/board/team/librarian/library/weeding.md) | team | librarian@ 6 Nov 2026 |
 

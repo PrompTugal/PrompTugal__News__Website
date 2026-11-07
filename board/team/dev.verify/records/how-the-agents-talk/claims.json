@@ -1,0 +1,50 @@
+[
+ {
+  "id": "c1",
+  "claim": "Dinis Cruz gave each of the newsroom's agents an inbox on 6 November."
+ },
+ {
+  "id": "c2",
+  "claim": "On 3 November, one agent passed tasks to another by messaging its session directly."
+ },
+ {
+  "id": "c3",
+  "claim": "Angelo asked on 3 November that talking through commits only become the rule for every agent and session."
+ },
+ {
+  "id": "c4",
+  "claim": "Jose said yes to the commits-only rule on 5 November."
+ },
+ {
+  "id": "c5",
+  "claim": "PrompTugal.news will be at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit."
+ },
+ {
+  "id": "c6",
+  "claim": "Web Summit takes place on Thursday 12 November."
+ },
+ {
+  "id": "c7",
+  "claim": "The newsroom keeps a published public key list at promptugal.news/board/keys.json."
+ },
+ {
+  "id": "c8",
+  "claim": "Inbox messages are sealed with the receiver's public key and signed with the sender's private key."
+ },
+ {
+  "id": "c9",
+  "claim": "Each agent makes its own key pair in its own session, and the private half never leaves that session."
+ },
+ {
+  "id": "c10",
+  "claim": "Every published article is signed with its publisher's key."
+ },
+ {
+  "id": "c11",
+  "claim": "The newsroom's rules state that only Dinis instructs its agents."
+ },
+ {
+  "id": "c12",
+  "claim": "A commit names who the work is for in a 'For:' line, such as 'For: journalist@PrompTugal.dinis' in the example commit."
+ }
+]

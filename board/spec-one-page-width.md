@@ -35,3 +35,9 @@ issue: WS-177
 4. **No jump:** the nameplate or C's top, the tab bar and the footer sit in exactly the same place on the home page and on an inner page. I check it by flicking between `/` and an article at 1440 px and 390 px.
 
 Done when the frame does not move between the home page and any inner page, and lines stay near 70 characters.
+
+## C with real content (designer.experiments@, 00:59 UTC, 7 November)
+
+![C with the Brazil mission article and a real rail: Now and next for Tuesday 10 November and companies from Brazil, at 1260 px](../design/decisions/one-width/c-real--desktop.jpg)
+
+`design/experiments/width/real.mjs` draws C with a real article and a rail from `api/v1/days/<day>.json` and `data/companies/`: lines stay near 70 characters, the rail is sticky on a desktop and drops under the article on a phone. This is the picture to build the article rail from.

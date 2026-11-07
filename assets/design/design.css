@@ -20,6 +20,8 @@ html[data-design]:not([data-design="today"]) .page-front .frame { padding-top: 0
 .ptd-head { display: flex; justify-content: space-between; align-items: center; }
 .ptd-head h2 { margin: 0; padding: 0; border: 0; font: 600 22px var(--serif); text-transform: none; letter-spacing: normal; }
 .ptd-x { border: 0; background: var(--paper-2); color: var(--ink); width: 34px; height: 34px; border-radius: 50%; font-size: 22px; line-height: 1; cursor: pointer; }
+.ptd-credit { margin: -10px 0 14px; color: var(--ink-3); font-size: 12.5px; }
+.ptd-credit a { color: var(--brand); text-decoration: underline; }
 .ptd-sub { margin: 4px 0 16px; color: var(--ink-3); font-size: 14px; }
 .ptd-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
 .ptd-card { display: block; text-decoration: none; color: inherit; border: 1px solid var(--hair); border-radius: 14px; overflow: hidden; background: var(--panel); transition: transform .15s, box-shadow .15s; }
@@ -33,4 +35,9 @@ html[data-design]:not([data-design="today"]) .page-front .frame { padding-top: 0
 .ptd-t small { display: block; color: var(--ink-3); font-size: 12px; margin-top: 2px; }
 @media (max-width: 760px) { .ptd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .ptd-box { padding: 16px; } }
 @media (prefers-reduced-motion: reduce) { .ptd-card { transition: none; } }
+/* on a phone the pill folds to its mark, so it never covers a line (sherpa@'s N1) */
+@media (max-width: 767px) {
+    .ptd-btn { width: 40px; height: 40px; padding: 0; justify-content: center; right: 10px; font-size: 16px; opacity: .92; }
+    .ptd-btn .ptd-word, .ptd-btn .ptd-name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
 @media print { .ptd-btn, .ptd-sheet { display: none; } }

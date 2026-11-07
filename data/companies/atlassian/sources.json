@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "Mike Cannon-Brookes, Co-founder & CEO, Atlassian: public speaker listed by Web Summit for LIS26",
       "kind": "summit-attendee"
+    },
+    {
+      "id": "own1",
+      "url": "https://www.atlassian.com/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 00:25 UTC): its website; and a description of what the company does: collaboration software (Jira, Confluence, Jira Service Management, Loom), its AI platform Rovo and the Teamwork Graph; \"350,000+ teams\" (our what says customers).",
+      "kind": "other"
     }
   ]
 }

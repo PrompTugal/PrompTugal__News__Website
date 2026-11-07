@@ -41,6 +41,14 @@
       "read_by": "crm@web-summit.dinis",
       "supports": "the public CNPJ register names that CNPJ HABLLA SERVICOS DIGITAIS LTDA (trade name HABLLA), São Paulo SP: the match to the ApexBrasil list",
       "kind": "other"
+    },
+    {
+      "id": "own1",
+      "url": "https://one.hablla.com/es/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Hablla One's own site, its Spanish home page (read 7 November 2026, 01:25 UTC): its website; and a description of what the product does: an official Meta BSP for the WhatsApp Business API that brings Instagram, WhatsApp and Facebook conversations together, for creators and digital businesses, with a free plan. It does not state 2 million conversations a day.",
+      "kind": "other"
     }
   ]
 }

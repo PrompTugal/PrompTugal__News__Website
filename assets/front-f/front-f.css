@@ -1,0 +1,93 @@
+/* F, "Signal" (Silvio's mock F): dense, ranked, AI-native; in the brand v2.0 tokens (the mock's violet becomes the
+   brand's green). Shown when <html data-design="f"> (assets/design/). */
+.ff { font-family: var(--sans); color: var(--ink); }
+.ff a { color: inherit; text-decoration: none; }
+.ff a:hover, .ff a:focus-visible { text-decoration: underline; text-underline-offset: 3px; }
+:where(.ff) :is(h2, h3) { border: 0; padding: 0; margin: 0; text-transform: none; letter-spacing: normal; }
+.ff ul, .ff ol { list-style: none; margin: 0; padding: 0; }
+.ff-w { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); box-sizing: border-box; }
+.ff-glow { background: radial-gradient(1000px 320px at 20% 0%, var(--brand-soft), transparent 70%), var(--paper); border-bottom: 1px solid var(--hair); }
+.ff-hd { display: flex; align-items: center; gap: 16px; padding: 14px 0; }
+.ff-hd .wordmark { height: 26px; width: auto; }
+.ff-hd nav { margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px 18px; font: 500 13px var(--sans); }
+.ff-hd nav a[aria-current] { color: var(--brand); font-weight: 600; }
+.ff-hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 36px; align-items: center; padding: 18px 0 26px; }
+.ff-pill0 { display: inline-block; font: 500 12px var(--sans); color: var(--brand); background: var(--brand-soft); border: 1px solid var(--brand); border-radius: 999px; padding: 3px 12px; margin: 0 0 10px; }
+.ff-h1 { font: 700 44px/1.06 var(--serif) !important; letter-spacing: -.02em !important; margin: 0 0 10px !important; }
+.ff-h1 span { color: var(--brand); }
+.ff-sub { font: 400 16px/1.5 var(--sans); color: var(--ink-2); margin: 0; max-width: 34em; }
+.ff-pb { display: flex; align-items: center; border: 2px solid var(--brand); border-radius: 14px; background: var(--panel); overflow: hidden; }
+.ff-pr { font: 600 15px var(--mono); color: var(--brand); padding: 0 4px 0 14px; }
+.ff-pb input { flex: 1; min-width: 0; border: 0; padding: 14px 8px; font: 16px var(--sans); background: transparent; color: var(--ink); }
+.ff-pb button { border: 0; background: var(--brand); color: var(--on-brand); border-radius: 10px; margin: 5px; font: 600 15px var(--sans); padding: 0 18px; align-self: stretch; cursor: pointer; }
+.ff-pcs { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 0; }
+.ff-pcs a { font: 12px var(--sans); border: 1px solid var(--hair); background: var(--panel); border-radius: 999px; padding: 3px 10px; color: var(--ink-3); }
+.ff-stats { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 14px 0 0; font: 12px var(--sans); color: var(--ink-3); }
+.ff-stats b { font: 700 22px var(--sans); color: var(--ink); margin-right: 5px; }
+.ff-live { background: var(--ink); color: var(--paper); }
+.ff-tk { overflow: hidden; white-space: nowrap; }
+.ff-tk:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
+.ff-tk-in { display: inline-flex; animation: ff-tk 70s linear infinite; padding: 10px 0; }
+.ff-tk-in ul { display: inline-flex; gap: 40px; padding-right: 40px; }
+.ff-tk li { flex: none; white-space: nowrap; }
+.ff-tk:hover .ff-tk-in, .ff-tk:focus-within .ff-tk-in, .ff-tk:focus .ff-tk-in { animation-play-state: paused; }
+.ff-tk a { font: 500 13px var(--sans); color: var(--paper); }
+.ff-tk time { font: 600 12px var(--mono); color: #9fd89f; margin-right: 6px; }
+@keyframes ff-tk { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .ff-tk { overflow-x: auto; } .ff-tk-in { animation: none; } .ff-tk-in ul[aria-hidden] { display: none; } }
+.ff-g { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) 300px; gap: 22px; padding: 24px 0 40px; align-items: start; }
+.ff-h { display: flex; justify-content: space-between; align-items: baseline; font: 700 11px var(--sans) !important; letter-spacing: .12em !important; text-transform: uppercase !important; color: var(--ink-2); margin: 0 0 10px !important; }
+.ff-h a { color: var(--brand); letter-spacing: 0; text-transform: none; font-weight: 600; }
+.ff-lead { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; background: var(--panel); border: 1px solid var(--hair); border-radius: 14px; padding: 12px; margin-bottom: 22px; }
+.ff-lead h3 { font: 600 24px/1.15 var(--serif); margin: 6px 0; }
+.ff-lead p { font: 400 14px/1.45 var(--serif); color: var(--ink-2); margin: 0 0 6px; }
+.ff-lead mark { background: none; color: var(--brand); text-decoration: underline; text-decoration-thickness: 2px; }
+.ff-chip { display: inline-block; font: 700 10px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--brand-red); background: var(--live-soft); border-radius: 4px; padding: 2px 6px; }
+.ff-badge { display: inline-block; font: 500 11px var(--mono); color: var(--brand); border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
+.ff-pic { position: relative; display: block; }
+.ff-pic img { display: block; width: 100%; height: auto; border: 1px solid var(--hair); border-radius: 6px; }
+.ff-pic span { position: absolute; left: 4px; bottom: 4px; font: 500 9px var(--mono); background: rgba(18, 19, 23, .78); color: #fff; padding: 1px 4px; border-radius: 3px; }
+.ff-rk { counter-reset: r; }
+.ff-rk li { counter-increment: r; display: grid; grid-template-columns: 34px minmax(0, 1fr) 64px; gap: 10px; align-items: center; padding: 10px 0; border-top: 1px solid var(--hair); }
+.ff-rk li::before { content: counter(r, decimal-leading-zero); font: 600 15px var(--mono); color: var(--brand); }
+.ff-rk h3 { font: 600 16px/1.25 var(--serif); margin: 4px 0 0; }
+.ff-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.ff-card { background: var(--panel); border: 1px solid var(--hair); border-radius: 12px; overflow: hidden; }
+.ff-card .ff-pic img { border: 0; border-radius: 0; border-bottom: 1px solid var(--hair); }
+.ff-card > div { padding: 8px 10px 12px; }
+.ff-card h3 { font: 600 15px/1.25 var(--serif); margin: 6px 0 0; }
+.ff-box { background: var(--panel); border: 1px solid var(--hair); border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; }
+.ff-bh { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; margin: 0 0 8px; font: 12px var(--sans); color: var(--ink-3); }
+.ff-bh b { font: 700 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--brand); }
+.ff-bh a { color: var(--brand); }
+.ff-rr { display: grid; grid-template-columns: minmax(0, 1.3fr) 1fr 26px; gap: 8px; align-items: center; font: 13px var(--sans); padding: 4px 0; }
+.ff-rr span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ff-rr i { display: block; height: 8px; border-radius: 4px; background: var(--hair); }
+.ff-rr u { display: block; height: 8px; border-radius: 4px; background: var(--brand); }
+.ff-rr code { font: 12px var(--mono); text-align: right; }
+.ff-lnk { margin: 8px 0 0; font: 600 13px var(--sans); }
+.ff-lnk a { color: var(--brand); text-decoration: underline; }
+.ff-tl { border-left: 2px solid var(--brand); padding-left: 12px !important; }
+.ff-tl li { position: relative; padding: 6px 0; font: 14px/1.3 var(--serif); }
+.ff-tl li::before { content: ""; position: absolute; left: -18px; top: 11px; width: 8px; height: 8px; border-radius: 50%; background: var(--brand); }
+.ff-tl time { display: block; font: 600 11px var(--mono); color: var(--brand); }
+.ff-tl li:nth-child(n+8) { display: none; }
+@media (max-width: 1100px) { .ff-g { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .ff-side { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; } }
+@media (max-width: 760px) {
+    .ff-hero, .ff-g, .ff-side { grid-template-columns: minmax(0, 1fr); }
+    .ff-hd nav { display: none; }
+    .ff-h1 { font-size: 32px !important; }
+    .ff-lead { grid-template-columns: minmax(0, 1fr); }
+    .ff-pcs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } .ff-pcs a { flex: 0 0 auto; }
+}
+
+/* Silvio's own palette for F (Dinis, about 01:20 UTC, 7 November: "F and G can keep their own colours";
+   board/team/designer/brand-decisions.md): fills as drawn, three shades darkened for small text. Inside F only. */
+.ff { --paper: #f7f8fc; --panel: #ffffff; --ink: #151733; --ink-2: #5a5f7d; --ink-3: #5a5f7d; --hair: #e3e5f0; --rule-2: #c9cce0;
+      --brand: #6d4aff; --brand-2: #5a3be0; --brand-soft: #ece8ff; --on-brand: #ffffff; --brand-red: #da1c71; --live-soft: #fde6f0; --f-cyan: #077b97;
+      background: var(--paper); color: var(--ink); }
+.ff-glow { background: radial-gradient(900px 300px at 15% 0%, rgba(109, 74, 255, .16), transparent 70%), radial-gradient(700px 260px at 90% 10%, rgba(8, 145, 178, .12), transparent 70%), var(--paper); }
+.ff-h1 span { background: linear-gradient(90deg, #6d4aff, #e11d74); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ff-tl time, .ff-tk time { color: #7fd3e6; }
+.ff-tl time { color: var(--f-cyan); }
+.ff-live { background: #151733; }
