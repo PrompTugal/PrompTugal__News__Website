@@ -510,7 +510,7 @@ code, .code { font: 400 21px/1.35 var(--mono); color: var(--ink); background: va
   <div class="kicker" data-i18n="s15.3"></div>
   <h1 style="font-size:120px" data-i18n="s15.4"></h1>
   <p class="lead" style="margin-top:34px" data-i18n="s15.5"></p>
-  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px 30px;margin-top:64px">
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:18px 30px;margin-top:64px">
     <div><div class="tag" style="color:#8fd18f" data-i18n="s15.6"></div><p class="body" style="color:#c8c4ba;font-size:22px" data-i18n="s15.7"></p></div>
     <div><div class="tag" style="color:#8fd18f" data-i18n="s15.8"></div><p class="body" style="color:#c8c4ba;font-size:22px" data-i18n="s15.9"></p></div>
     <div><div class="tag" style="color:#8fd18f" data-i18n="s15.10"></div><p class="body" style="color:#c8c4ba;font-size:22px" data-i18n="s15.11"></p></div>
@@ -519,6 +519,7 @@ code, .code { font: 400 21px/1.35 var(--mono); color: var(--ink); background: va
     <div><div class="tag" style="color:#8fd18f" data-i18n="s15.16"></div><p class="body" style="color:#c8c4ba;font-size:22px" data-i18n="s15.17"></p></div>
     <div><div class="tag" style="color:#8fd18f" data-i18n="s15.18"></div><p class="body" style="color:#c8c4ba;font-size:22px" data-i18n="s15.19"></p></div>
     <div><div class="tag" style="color:#ff7a7f" data-i18n="s15.20"></div><p class="body" style="color:#f6f3ec;font-size:22px" data-i18n="s15.21"></p></div>
+    <div><div class="tag" style="color:#8fd18f" data-i18n="y15.1"></div><p class="body" style="color:#c8c4ba;font-size:22px" data-i18n="y15.2"></p></div>
   </div>
   <div class="foot"><span class="wordmark" data-i18n="s15.22"></span><span data-i18n="s15.23"></span></div>
 </section>

@@ -33,6 +33,7 @@ test('link types: read from data/ontology.json; verb, inverse, absent or differs
   assert.equal(o.cites.state, 'verb')
   assert.equal(o.made_by.state, 'differs')
   assert.equal(o.derived_from.state, 'inverse')
-  assert.equal(o.see.state, 'absent')
+  assert.equal(o.answers.state, 'absent')
+  assert.equal(o.see, undefined) // no see verb: ontologist@, 7 November 2026
   fs.rmSync(root, { recursive: true, force: true })
 })

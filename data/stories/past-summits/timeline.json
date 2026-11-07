@@ -210,6 +210,19 @@
         "c37",
         "c38"
       ]
+    },
+    {
+      "at": "2024-11-19",
+      "what": "Web Summit's 2023 accounts are filed: a pretax loss of 5.6m euro on revenue of 60m euro, and more than 128,000 attendees across its events.",
+      "kind": "publication",
+      "about": [
+        "organisation:web-summit"
+      ],
+      "source": "irishtimes-2024-11-19-accounts-2023",
+      "claim": [
+        "c48",
+        "c49"
+      ]
     }
   ]
 }

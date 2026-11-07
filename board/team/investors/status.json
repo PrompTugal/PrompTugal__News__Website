@@ -1,8 +1,8 @@
 {
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
-  "state": "running on account B; phase two: eight decks in English and European Portuguese; waiting on Dinis for the web player",
-  "updated": "2026-11-07T14:00Z",
+  "state": "running on account B; nine decks in four languages, second fix pass done (synthetic investors run 2 and a Portuguese editor review), PDFs without blank pages",
+  "updated": "2026-11-07T23:30Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -27,21 +27,28 @@
     "Dinis's 09:45 word (board/team/investors/dinis-2026-11-07-go-live-and-structure.md): decks approved to go live; sources under version control as src/*.deck, v1.0 on every cover, changelog on /investors/decks/; dev@ asked for a decks build feature to publish them as HTML pages",
     "Dinis's 10:25 word recorded: /investors/join/ (who are you: helpers this week, the founding team, a partner as CEO, journalists, investors, do it yourself); 'Who are you?' on the pitch page; team interview questions (consent first) routed through the conductor; decks 5 (the investment), 6 (the technology), 7 (join us), 8 (do it yourself) being built",
     "Four new decks at Dinis's word, reviewed and released: 5 the investment (14 slides), 6 what makes it possible (16), 7 join us (14), 8 do it yourself (15); every closing slide points to all eight; decks 1 to 4 bumped to v1.1; changelog on /investors/decks/. Four more AI-made images (about 0.55 USD)",
-    "Phase two (Dinis, 12:15 to 12:40 UTC): decks refactored to layout plus words per language; all eight in European Portuguese; deck 4 (Algarve, Portugal, Europe; 21 partners), deck 5 (seed under $1M, two phases, three questions), deck 8 (the moat is decisions; copy us); /investors/partners/; the pitch page with the round and the phases"
+    "Phase two (Dinis, 12:15 to 12:40 UTC): decks refactored to layout plus words per language; all eight in European Portuguese; deck 4 (Algarve, Portugal, Europe; 21 partners), deck 5 (seed under $1M, two phases, three questions), deck 8 (the moat is decisions; copy us); /investors/partners/; the pitch page with the round and the phases",
+    "12:23 wake: the outreach pack for outreach@ (board/team/investors/outreach-pack.md: who gets which deck, EN and PT opening lines, rules); the Portuguese PDFs checked live",
+    "Dinis (12:50): prices in euros across the decks and pages; Dinis named organiser and driver of the OWASP Summits and the Open Security Summit; six decks bumped (1 v1.2, 2 v1.3, 3 v1.2, 4 v1.3, 7 v1.1, 8 v1.2), EN and PT; customers@ and dev@ asked to move the live top-up to euros",
+    "Dinis (13:10): 'Yes please build them': the deck player (deck.js: one slide fitted, decks and languages, keys, swipe, full screen, PDF, all slides) and every deck as a page in English and Portuguese (/investors/decks/<name>/ and /pt/), dev@'s features/decks.mjs updated for templates plus words, for dev@'s review; payments by The Cyber Boardroom in pounds are fine (Dinis)",
+    "Afternoon: deck 9 (an animated guided tour of what is live); the player and every deck as a page; /investors/outreach/ with sample notes; Spanish and French for all nine decks (each checked and reviewed); deck 2's legend translatable; the decks table generated from what exists",
+    "Fix pass after synthetic investors run 2 and a pt-PT editor review: nine decks everywhere, the round and Dinis Cruz's time in one wording, deck 4 talent map as the summit's, pt-PT terms (quotas, no você), PDF blank page fixed in the player's print CSS; outreach routes (deck 7 off public bodies, deck 9 for investors); all versions bumped"
   ],
   "next": [
-    "The web deck player and the decks as pages (waiting on Dinis's yes for investors@ to build it for dev@'s review)",
-    "The live guided tour deck (animated: a page, zoom out, point, a square, an arrow)",
-    "Four languages, then ten (the EU's most spoken), once Dinis has seen the Portuguese",
-    "Outreach material for outreach@ (who sends is a person)"
+    "German and the rest of the ten EU languages, on Dinis's word",
+    "Re-shoot the tour as the site changes; keep the decks current",
+    "The first outreach list (Dinis), drafted by outreach@",
+    "Spanish and French: one word each for the seed round (FR tour seed / tour d'amorçage) and deck 3's \"live\" in the lists"
   ],
   "asks": [
     "Dinis: the address of your Gen ZX founders book and presentation (not found on sgit.ai or its network; genzx.sgit.ai does not resolve)",
     "Dinis: may deck 5 say 'a seed round of under $1M' publicly, and 'designed to be sold within about 18 months'? Until you say yes, it says 'seed round, size in conversation'",
     "Dinis: decks as HTML pages need a build feature (dev@'s); say if investors@ should write it for dev@'s review",
-    "Dinis: the For Dinis list in board/team/investors/synthetic-investors/findings-2026-11-07.md (currency, contact route, partner's role, Algarve Evolution membership, hiring intent)",
     "conductor@: file Dinis's 7 November words in board/guidance/; route the publisher change and the RiskMandate removal; reissue my inbox to investors-b-promptugal",
     "abp@: a policy for this role with content/investors/ in its grant (Dinis's word, 7 November); until then my run reports count those writes as R6 breaches (asked on abp@'s inbox 02:55Z)",
-    "dev@: allow dinis.agent@promptugal.news on /investors/ (check 7), and a home for HTML slide decks the page checks skip (asked 7 Nov)"
+    "dev@: allow dinis.agent@promptugal.news on /investors/ (check 7), and a home for HTML slide decks the page checks skip (asked 7 Nov)",
+    "Dinis: the unpaid wording (\"sem remuneração\", \"voluntário\") reads in Portugal as unpaid labour; keep it, or say \"voluntary collaboration, no contract\"?",
+    "Dinis: the round in dollars or euros? A Portuguese body will ask why the seed figure is in dollars",
+    "Dinis: My Feeds is an Lda: new partners mean a change of form (pluripessoal Lda or SA); may the investment deck say so?"
   ]
 }

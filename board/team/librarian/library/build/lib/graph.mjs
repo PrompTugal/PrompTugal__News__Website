@@ -103,7 +103,7 @@ const LIB_WORLDS = [
   { id: 'record', label: 'The record', types: ['article', 'board', 'page'] },
   { id: 'reference', label: 'Reference: collections and subjects', types: ['collection', 'subject'] },
 ]
-const LIB_VERBS = ['made_by', 'part_of', 'cites', 'about', 'answers', 'supersedes', 'derived_from', 'see', 'see_also', 'owned_by']
+const LIB_VERBS = ['made_by', 'part_of', 'cites', 'about', 'answers', 'supersedes', 'derived_from', 'see_also', 'owned_by']
 const SHAPE_ABOUT = 'The library graph of PrompTugal.news in the explorer\'s own shape (the same as api/v1/graph/explorer.json, so /assets/graph/explorer.js draws it unchanged). nodes[i]: {id, type, label, page?, src (index into sources, -1 for none), kind (the call class and subclass), by (the maker), status, category (the first subject), date, what, call, deg, bc (betweenness x1000), pr (PageRank x1000), x, y (a force layout)}. edges[j]: [from node index, to node index, verb index, source index or -1, read date or 0, edge betweenness]. Each connection is stored once, in the direction the card asserts it; the explorer reads it either way with the verb and its inverse. types[] may carry shape and color (the explorer draws each type with them) and presets[] is the graph\'s own list of named views, in the shape of PRESETS in assets/graph/engine.js (the explorer opens on the first). '
 
 const ENTITY_COLL = { company: 'DAT.CO', person: 'DAT.PE', organisation: 'DAT.ORG', place: 'DAT.PL', topic: 'DAT.TOP', concept: 'GDN.CONC' }

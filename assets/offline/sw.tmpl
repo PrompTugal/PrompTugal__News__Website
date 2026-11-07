@@ -13,7 +13,8 @@ const V = '__VERSION__', SHELL = 'pt-shell-' + V, PAGES = 'pt-pages', SAVED = 'p
 const KEEP = __PRECACHE__
 const NEVER = __NEVER__   // the pages that use a person's key (security@): never kept, never answered from a copy
 const scope = self.registration.scope
-const keyOf = u => u.origin + u.pathname
+// a page is one key whether asked as <path>/ or <path>/index.html (sherpa@'s O6: the tabs ask for index.html)
+const keyOf = u => u.origin + u.pathname.replace(/\/index\.html$/, '/')
 
 async function stamp(res) {
     const h = new Headers(res.headers); h.set('x-pt-saved', new Date().toISOString())
@@ -60,7 +61,7 @@ self.addEventListener('fetch', e => {
     // a page with a query (?design=e, search?q=) is never stored; offline it opens its page's copy, else the offline page (O2)
     if (u.search) {
         if (r.mode !== 'navigate') return
-        e.respondWith(fetch(r).catch(async () => (await caches.match(key)) || new Response(await offlinePage(), { status: 503, headers: { 'content-type': 'text/html; charset=utf-8' } })))
+        e.respondWith(fetch(r).catch(async () => (await caches.match(key)) || (await caches.match(new URL('offline/', scope).href)) || new Response(await offlinePage(), { status: 503, headers: { 'content-type': 'text/html; charset=utf-8' } })))
         return
     }
     e.respondWith((async () => {
@@ -74,7 +75,7 @@ self.addEventListener('fetch', e => {
             const kept = await caches.match(key)
             if (kept) return kept
             try { return await net } catch (e2) { }
-            if (r.mode === 'navigate') return new Response(await offlinePage(), { status: 503, headers: { 'content-type': 'text/html; charset=utf-8' } })
+            if (r.mode === 'navigate') return (await caches.match(new URL('offline/', scope).href)) || new Response(await offlinePage(), { status: 503, headers: { 'content-type': 'text/html; charset=utf-8' } })
             return Response.error()
         }
     })())

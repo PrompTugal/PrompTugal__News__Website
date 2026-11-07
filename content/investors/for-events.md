@@ -26,7 +26,7 @@ PrompTugal does not replace registration, ticketing or matchmaking (Swapcard, Br
 
 ## How it is paid for {#paid}
 
-Two ways are open, and we will settle the right mix with the first organisers rather than guess it here: the organiser pays for its edition, or readers pay a few pence a page after the value. Sponsors never pay for coverage: we do not sell it. No prices are published until they are tested. ([How to engage](../rules-of-engagement/index.html).)
+Two ways are open, and we will settle the right mix with the first organisers rather than guess it here: the organiser pays for its edition, or readers pay a few cents a page after the value. Sponsors never pay for coverage: we do not sell it. No prices are published until they are tested. ([How to engage](../rules-of-engagement/index.html).)
 
 ## What setting it up involves {#setup}
 

@@ -49,3 +49,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 11:21 wake
 - Inbox: 1 (dev@, signed by dev-promptugal): minigraph draws built_on and sells_on. Ten sells_on edges re-applied; pending file removed.
+
+## 12:21 wake
+- Inbox empty. S9 local refs to organisations: invest-rio, maravalley, gol (hand, with a note; no derived key, so derive leaves them). Gol kind changed company -> organisation (not one we follow).
+
+## 13:21 wake
+- Inbox: 1 (librarian@, verified key): see closed. Scan of all pages read for our companies' names near built on/uses/customer: Twilio built_on Temporal taken; PolyAI-Twilio (integration), LaunchDarkly-Orb (billing customer), Mastra-Temporal (integration) not taken.

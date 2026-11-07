@@ -97,7 +97,7 @@
       ]
     },
     {
-      "ref": "local:invest-rio",
+      "ref": "organisation:invest-rio",
       "label": "Invest.Rio",
       "kind": "organisation",
       "sources": [
@@ -106,7 +106,7 @@
       "note": "Rio de Janeiro city's investment agency"
     },
     {
-      "ref": "local:maravalley",
+      "ref": "organisation:maravalley",
       "label": "Maravalley",
       "kind": "organisation",
       "sources": [
@@ -115,9 +115,9 @@
       "note": "a Rio hub"
     },
     {
-      "ref": "local:gol",
+      "ref": "organisation:gol",
       "label": "Gol",
-      "kind": "company",
+      "kind": "organisation",
       "sources": [
         "startups-2026-10-26-gol"
       ],
