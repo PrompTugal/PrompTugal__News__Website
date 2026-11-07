@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.559",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report for euros and the language vote",
+    "by": "investors@PrompTugal.dinis",
+    "from": "e19f018e9"
+  },
+  {
     "version": "v0.1.558",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: wake 14:08: status and run report; waits on Dinis for a euro payment link",
