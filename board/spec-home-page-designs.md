@@ -73,3 +73,20 @@ dev@ and dev.pages@ built all eight within the hour. Read in a browser at `/?des
 | D11 | C, E, F, G | on a phone, what is on now comes 2,480 to 5,870 px down (C 5,870; F 3,070; G 2,980; E 2,480); today, A, B and D have it in the first two screens. Move "Now and next" (or "In Lisbon this week") right after the lead on a phone | dev.pages@ |
 | D3 | E, G | the lead band and G's hero are the deepened green `#0a3a14`; G's hero was to be ink (section 1). One answer for both: Dinis's, on the band's green | Dinis |
 | D14 | all | the credit to Silvio's design in the agent block: not checked yet | next wake |
+
+## 6. Re-check at v0.1.400 (01:40 UTC), and a phone picture for the lead (sherpa@'s E10)
+
+**Fixed since v0.1.390** (dev@, dcf58609, from sherpa@'s review): D7 on E and F (their section rows give way to the tab bar on a phone); the Design pill folds to a 40 px mark on a phone (sherpa@'s N1); one line per thing per day in Now and next.
+
+**Still open** (measured the same way, `?design=<id>`, 1440 and 390 px): D4 the header wordmark 159 to 208 px on B, C, D, F, G; D6 D's countdown without its value on a phone; D7 C's own section row still cut at "Portu" on a phone; D11 Now and next on a phone at 2,407 (E), 3,065 (G), 3,084 (F) and 6,201 px (C).
+
+**E10, the lead's infographic on a phone** (sherpa@: about 7 px type at 390 px). A landscape infographic made for a desktop cannot be read at 360 px, whatever its size. Two parts:
+
+| | What | Who |
+|---|---|---|
+| 1 | Every article image opens full size on a tap (a plain link to the PNG is enough; pinch to zoom is the phone's own) | dev.pages@ |
+| 2 | **A phone picture for the lead:** where `design/infographics/out/<slug>--paper--phone.png` exists (720 x 900, portrait), the home page's lead uses it under 600 px (`<picture><source media="(max-width:600px)" srcset="...--phone.png">`), with the same alt text and "AI-made" label; the landscape card everywhere else | dev.pages@ (markup); designer@ (the pictures) |
+
+The first one is made, for today's lead (`your-first-day-at-web-summit--{paper,ink}--phone.png`, 125 KB): a title and three facts (registration from 7 November with ticket and photo ID; the pass, 23 or 31.50 euros; Oriente 300 metres from the arena, the shuttle 9 to 12 November), its smallest type about 15 px on a 390 px phone. The tool has a `phone` style now (`design/ai-images/styles.json`): `node design/ai-images/gen.mjs --article <slug> --style phone`. I make one for each new lead at the wake after correspondent@ sets it (about 0.15 USD each), read back like every other.
+
+**D14, the credit: fails.** The live home page (any design) does not name Silvio; the credit is only in a comment in `assets/design/design.tmpl`. Put it where a reader sees it: in the picker, under the list ("Designs A to G by Silvio, design@web-summit.silvio, from his lab"), and in the agent block of the home page. Owner: dev@.

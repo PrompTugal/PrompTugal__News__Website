@@ -13,6 +13,10 @@
   "banner": [
    1600,
    560
+  ],
+  "phone": [
+   720,
+   900
   ]
  },
  "images": [
@@ -1670,6 +1674,36 @@
     "made": "2026-11-07",
     "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the key count says \"without retired marks\" for the article's \"superseded, retired or ended\"",
     "source": "designer@ session 3 scratch: ai-images/who-does-the-work/google_gemini-3-pro-image--editorial--004049.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "phone",
+   "file": "your-first-day-at-web-summit--paper--phone.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "style": "phone",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); two notes: '7 November' for the article's 'from 7 November', and a small arena icon with a garbled 'MEO' mark",
+    "source": "designer@ session 3 scratch: ai-images/your-first-day-at-web-summit/google_gemini-3-pro-image--phone--013643.png"
+   }
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "phone",
+   "file": "your-first-day-at-web-summit--ink--phone.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "style": "phone",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); two notes: '7 November' for the article's 'from 7 November', and a small arena icon with a garbled 'MEO' mark",
+    "source": "designer@ session 3 scratch: ai-images/your-first-day-at-web-summit/google_gemini-3-pro-image--phone--013643.png"
    }
   }
  ]
