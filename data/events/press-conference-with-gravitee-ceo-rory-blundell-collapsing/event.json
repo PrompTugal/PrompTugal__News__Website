@@ -8,9 +8,9 @@
   "organiser": "web-summit",
   "our_pick": false,
   "date": "2026-11-10",
-  "time": "16:30-16:50",
-  "start": "16:30",
-  "end": "16:50",
+  "time": "14:30-14:50",
+  "start": "14:30",
+  "end": "14:50",
   "where": "Stage 2 (Press Conference), MEO Arena and FIL",
   "place": "place:stage-2",
   "track": "Press Conference",
@@ -27,8 +27,8 @@
   ],
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/d3cdbf5f-8f51-48b8-9759-4a2c8dc2c441/press-conference-with-gravitee-ceo-rory-blundell-collapsing-confidence-in-agent-ai-security-after-six-months-of-reality/",
-  "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/2/",
-  "read_at": "2026-11-06T08:18Z",
+  "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/1/",
+  "read_at": "2026-11-07T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -38,6 +38,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 96
+    "item": 83
   }
 }

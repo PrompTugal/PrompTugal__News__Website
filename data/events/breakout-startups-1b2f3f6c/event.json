@@ -1,0 +1,64 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "breakout-startups-1b2f3f6c",
+  "type": "event",
+  "title": "Breakout startups",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "09:24-09:44",
+  "start": "09:24",
+  "end": "09:44",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:bidhan-roy",
+      "as_listed": "Bidhan Roy (Founder & CEO, Physical AI & Robotics, Bagel Labs)",
+      "role": "Founder & CEO, Physical AI & Robotics",
+      "organisation": "Bagel Labs",
+      "org": "organisation:bagel-labs"
+    },
+    {
+      "person": "person:benjamin-gleason",
+      "as_listed": "Benjamin Gleason (Founder, Kamino)",
+      "role": "Founder",
+      "organisation": "Kamino",
+      "org": "organisation:kamino"
+    },
+    {
+      "person": "person:jimmy-douglas",
+      "as_listed": "Jimmy Douglas (Founder & CEO, Plug)",
+      "role": "Founder & CEO",
+      "organisation": "Plug",
+      "org": "organisation:plug"
+    },
+    {
+      "person": "person:milan-vizner",
+      "as_listed": "Milan Vizner (Founder & CEO, norriv)",
+      "role": "Founder & CEO",
+      "organisation": "norriv",
+      "org": "organisation:norriv"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
+  "read_at": "2026-11-07T08:17Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 168
+  }
+}

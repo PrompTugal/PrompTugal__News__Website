@@ -20,7 +20,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/91be9115-80d0-41b9-9443-9f0cbabb0703/east-asia-meet-greet/",
   "source_url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
-  "read_at": "2026-11-06T08:18Z",
+  "read_at": "2026-11-07T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -30,6 +30,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 16
+    "item": 15
   }
 }

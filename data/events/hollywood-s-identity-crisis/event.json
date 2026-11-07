@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "hollywood-s-identity-crisis",
+  "type": "event",
+  "title": "Hollywood's identity crisis",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "15:40-16:00",
+  "start": "15:40",
+  "end": "16:00",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:dan-neely",
+      "as_listed": "Dan Neely (Co-Founder and CEO, Vermillio)",
+      "role": "Co-Founder and CEO",
+      "organisation": "Vermillio",
+      "org": "organisation:vermillio"
+    },
+    {
+      "person": "person:duncan-crabtree-ireland",
+      "as_listed": "Duncan Crabtree-Ireland (National Executive Director & CEO, SAG-AFTRA)",
+      "role": "National Executive Director & CEO",
+      "organisation": "SAG-AFTRA",
+      "org": "organisation:sag-aftra"
+    },
+    {
+      "person": "person:stewart-clarke",
+      "as_listed": "Stewart Clarke (SVP, Content, International, Deadline)",
+      "role": "SVP, Content, International",
+      "organisation": "Deadline",
+      "org": "organisation:deadline"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/9baf35c7-6e54-458a-b741-6fd9fefee613/hollywood-s-identity-crisis/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
+  "read_at": "2026-11-07T08:17Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 214
+  }
+}

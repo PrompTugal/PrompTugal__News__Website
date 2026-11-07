@@ -20,7 +20,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/63f40ea5-31f0-4c11-b118-d3600a700b9c/baltics-meet-greet/",
   "source_url": "https://websummit.com/schedule/date/2026-11-09/page/2/",
-  "read_at": "2026-11-06T08:18Z",
+  "read_at": "2026-11-07T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -30,6 +30,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 26
+    "item": 25
   }
 }

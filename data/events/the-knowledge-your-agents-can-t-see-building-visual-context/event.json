@@ -26,16 +26,16 @@
     },
     {
       "person": "person:yannis-roussos",
-      "as_listed": "Yannis Roussos",
-      "role": null,
-      "organisation": null,
-      "org": null
+      "as_listed": "Yannis Roussos (Principal Product Manager, Elastic)",
+      "role": "Principal Product Manager",
+      "organisation": "Elastic",
+      "org": "company:elastic"
     }
   ],
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/3be06034-1c23-4797-bb86-232cbd450d8d/the-knowledge-your-agents-can-t-see-building-visual-context/",
-  "read_at": "2026-11-06T08:17Z",
+  "read_at": "2026-11-07T08:16Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {

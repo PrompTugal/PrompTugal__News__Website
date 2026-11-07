@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "casey-lau",
+  "type": "person",
+  "name": "Casey Lau",
+  "role": "Co-Host",
+  "organisation": "Web Summit",
+  "org": "organisation:web-summit",
+  "listings": [
+    {
+      "role": "Co-Host",
+      "organisation": "Web Summit",
+      "org": "organisation:web-summit",
+      "event": "event:opening-remarks-7332868f",
+      "source": "https://websummit.com/sessions/lis26/7332868f-6c7b-4e66-a1e0-293650e4254f/opening-remarks/",
+      "read_at": "2026-11-07T08:17Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}
