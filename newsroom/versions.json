@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.558",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 14:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d7e1f9919"
+  },
+  {
     "version": "v0.1.557",
     "date": "2026-11-07",
     "what": "researcher@PrompTugal.dinis: the organiser's 2026 partners page read in full; inbox drained (empty)",
