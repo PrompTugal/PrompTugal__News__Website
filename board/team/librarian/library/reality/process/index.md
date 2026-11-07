@@ -26,7 +26,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-924 cards (924 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T22:26:02Z at site v0.1.363; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+931 cards (931 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T00:59:57Z at site v0.1.395; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -36,22 +36,22 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 29 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 21 |
+| `WRK.BRIEF` | 22 |
 | `WRK.DEC` | 12 |
-| `WRK.DESK` | 13 |
-| `WRK.FIND` | 158 |
+| `WRK.DESK` | 14 |
+| `WRK.FIND` | 160 |
 | `WRK.PASS` | 29 |
-| `WRK.PLAN` | 25 |
+| `WRK.PLAN` | 28 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
-- `ACC-20261106-3107` [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) (`WRK.PLAN the-account-move`)
-- `ACC-20261106-3106` [Spec check of live v0.1.347 against A with C's top (Dinis, 21:00, via the conductor): eleven differences F1 to F11 (no band; a mandate box above the lead; the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) (`WRK.FIND 2026-11-06-the-front-page-16`)
-- `ACC-20261106-3105` [dev-vicky](https://promptugal.news/desks/dev-vicky/) (`WRK.DESK dev-vicky`)
-- `ACC-20261106-3104` [For Dinis: does PrompTugal.news have an investor story of its own, through which company, and where does it live?](https://promptugal.news/newsroom/decisions/promptugal-for-investors/) (`WRK.DEC promptugal-for-investors`)
-- `ACC-20261106-2911` [Dinis, 6 November 2026, 21:05 to 22:00 UTC: a second account, its conductor, and the agents that move](https://promptugal.news/board/guidance/2026-11-06-account-b.md) (`GDN.MEMO 2026-11-06-account-b`)
+- `ACC-20261107-0201` [One page width on every page: the recommendation](https://promptugal.news/board/spec-one-page-width.md) (`WRK.PLAN spec-one-page-width`)
+- `ACC-20261107-0200` [The home page in eight designs: each in the brand, its checks, the picker's pictures](https://promptugal.news/board/spec-home-page-designs.md) (`WRK.PLAN spec-home-page-designs`)
+- `ACC-20261107-0199` [The home page as Silvio's mock E: the brand mapping and the acceptance check](https://promptugal.news/board/spec-front-page-e.md) (`WRK.PLAN spec-front-page-e`)
+- `ACC-20261107-0198` [E live re-measured (00:35, v0.1.388, ?design=e): E1, E3, E4, E6 to E9 done; E2 (the section row cut on a phone) and E10 open; E5 partly. New rank 1, N1: the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) (`WRK.FIND 2026-11-06-the-front-page-18`)
+- `ACC-20261107-0197` [Mock E read cold before it ships (22:55, the mock and live v0.1.369): keep (the headline in the first phone screen, 5.3 phone screens against 13.8, the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) (`WRK.FIND 2026-11-06-the-front-page-17`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

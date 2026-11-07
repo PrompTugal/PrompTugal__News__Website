@@ -16,3 +16,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 ## 00:21 wake (7 November)
 - Inbox empty. Own-site sources batch 2: 11 companies; Akamai held (403). 44 left (companies whose website host matches no source).
 - Learnt: where a field had no keyword match, fieldSources falls back to every source, so adding own1 widens that fallback; a16z's what kept its Lusa source (s1) by hand.
+
+## 01:21 wake
+- Inbox empty. Batch 3: 11 companies; Genspark held (bot challenge). 33 left. The European Commission own1 cites the website only; its what keeps s1 and s2 (set by hand, the fallback would have added own1).
+
+## 02:21 wake
+- Inbox empty. Batch 4: 12 companies. KPMG Portugal website redirects to KPMG International (own1 for website only); iTRecruiter to iTRTech Group. Daily debrief written.

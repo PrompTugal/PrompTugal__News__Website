@@ -2,7 +2,7 @@
   "agent": "devops@PrompTugal.dinis",
   "focus": "The health, quality and performance of CI, the release and tag scripts, every tool in newsroom/tools/ and every scheduled task of this site.",
   "state": "running on account B (session e9df42b7); woken every two hours at :14 UTC",
-  "updated": "2026-11-07T00:25Z",
+  "updated": "2026-11-07T02:25Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as devops-promptugal; my row in data/newsroom/agents.json",
     "board/team/devops/ROLE.md and this status",
@@ -20,13 +20,13 @@
     "Wake 18:14: 10 green runs in two hours, each mostly Pages' queue; a second deploy try only after a fast refusal (run 553 had held the queue 20 minutes); release.sh's 6 minute message says the release is done; the daily hand-over debrief written",
     "Wake 20:14: nothing needed (27 of 28 runs green after dev@'s size cut, median 75 s to live); pushed nothing. 21:35: the final hand-over debrief, for the session on account B",
     "Account B, 22:50: onboarded; new key devops-b-promptugal in board/keys.json (the account A key superseded); notes in board/team/devops/sessions/e9df42b7/; conductor.b@ and the conductor told on their inboxes. The GitHub Actions read tools work here. Runs 697 to 746 read: the 4 red on dev are Pages' queue past 8 minutes in the onboarding burst, each deployed by the next run, nothing lost (site on v0.1.369, the newest tag); median 100 s to live. Nothing changed in the workflow",
-    "Wake 00:14 (7 Nov): runs 747 to 800 read: dev 18 green, 3 red (Pages' queue in the burst, each deployed by the next run), median 82 s to live. The 5 red workers' runs (768 to 776) were all board/keys.json appends conflicting in the test merge with dev: release.sh --resolve-keys now merges a keys.json-only conflict by id (release.sh's rebase and the workflow's test merge), a real two-sided change still stops; tested on a clone"
+    "Wake 00:14 (7 Nov): runs 747 to 800 read: dev 18 green, 3 red (Pages' queue in the burst, each deployed by the next run), median 82 s to live. The 5 red workers' runs (768 to 776) were all board/keys.json appends conflicting in the test merge with dev: release.sh --resolve-keys now merges a keys.json-only conflict by id (release.sh's rebase and the workflow's test merge), a real two-sided change still stops; tested on a clone",
+    "Wake 02:14 (7 Nov): runs 801 to 849: dev 22 green, 5 red (Pages' queue, each deployed by the next run), median 95 s; workers' branches 6 green, 0 red since the keys.json resolver. Inbox reissued as board/inboxes/devops-b.json: opened, vault cloned, drained (empty). The 7 November hand-over debrief written"
   ],
   "next": [
-    "Next wake: check workers' branches go green on keys.json after this lands; drain my inbox once the conductor reissues it to my key; the hand-over debrief for 7 November"
+    "Next wake: whether a stalled deploy already replaced on the live site should pass with a warning rather than red (measure one more wake first)"
   ],
   "asks": [
-    "Dinis: (not blocked) my inbox is still sealed to the account A key (board/inboxes/devops.json, at 00:20 UTC); asked the conductor at 22:50 to reissue it",
     "Dinis: conductor@ and security@ asked me for two tools in newsroom/tools/ (the inbox drain without the team site; the daily rotation of agent session keys). CLAUDE.md lists every tool in newsroom/tools/ as mine to keep healthy, but my ABP grant lets me write only release.sh there; may abp@ widen my grant to newsroom/tools/**, or should dev@ build them?",
     "Dinis: promptugal.com and promptugal.ai still show the registrar's parking page; your choice of three ways to point them is on /newsroom/decisions/promptugal-com-and-ai/ (it needs your registrar or AWS account)"
   ],
@@ -109,7 +109,13 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "keys.json append conflicts merged by id in release.sh and the workers' test merge; runs 747 to 800 read"
+    },
+    {
+      "started": "2026-11-07T02:14Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Workers' runs green since the keys.json fix; inbox drained (empty); daily debrief"
     }
   ],
-  "latest_debrief": "board/team/devops/debriefs/2026-11-06-handover.md"
+  "latest_debrief": "board/team/devops/debriefs/2026-11-07-handover.md"
 }

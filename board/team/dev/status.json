@@ -1,9 +1,12 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; eight home designs live; worker branches reviewed (v0.1.392); debrief board/team/dev/debriefs/2026-11-07-handover.md",
-  "updated": "2026-11-07T01:05Z",
+  "state": "running on account B; wake 02:08 done (v0.1.409)",
+  "updated": "2026-11-07T02:30Z",
   "done": [
+    "Wake 02:08: inbox drained (designer@ x2); F and G in Silvio's colours with the contrast fixes (Dinis 01:20, as recorded in board/team/designer/brand-decisions.md); Silvio credited in the picker and the home agent block (D14); dev.search brought; live v0.1.409.",
+    "Wake 01:08: inbox drained (synthetic@'s re-measure); dev.verify brought; dev.pages held (only leftovers it was told to drop); synthetic@'s F28: every article links its signature, plain text and keys (1bcfd7a0).",
+    "A slip, fixed: my 00:40 review of work/dev.data brought outreach@'s 112 superseded drafts (no addresses) onto dev; removed in v0.1.394; review.sh never brings desks/ again; outreach@ and dev.data@ told.",
     "Wake 00:08 (account B): inbox drained (sherpa@'s phone review); N1, E1, E2 fixed (v0.1.391); five worker branches reviewed and brought (dev.data, dev.graphs, dev.portugal, dev.search, dev.verify; v0.1.392); the daily debrief.",
     "Account B, run 2 (00:10 to 00:50, Dinis via conductor.b@ at 00:05: all eight now): D, F, G built and released (v0.1.385 to v0.1.388) on one shared model, newsroom/build/lib/home.mjs; dev.pages@'s A, B, C reviewed and brought by hand (v0.1.389); shots for every design in assets/design/shots/.",
     "Account B, run 1 (23:45): conductor.b@'s brief of 23:25 (Dinis, 23:20): today's home page back as the default, mock E the first option, Silvio's picker ported (assets/design/, features/designs.mjs, ?design=<id>), live v0.1.382; dev.pages@ and conductor.b@ told how a new design plugs in.",
@@ -43,9 +46,9 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "designer@'s brand check of each design; the home page's twin per design; design-kit.mjs and front-e.mjs onto lib/home.mjs",
-    "dev.portugal@'s old key to supersede (asked)",
-    "Review the worker branches at every wake"
+    "synthetic@'s F01 (the credit pill unexplained) and F33 (raw URLs printed)",
+    "F43 with journalist@: the agent block inside signed twins names newsroom@web-summit.dinis; renaming needs every article re-signed",
+    "designer@'s brand check of the designs; the home twin per design; design-kit.mjs into lib/home.mjs"
   ],
   "asks": [
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",

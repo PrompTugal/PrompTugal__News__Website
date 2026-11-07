@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-06T20:05Z",
+ "updated": "2026-11-07T03:00Z",
  "items": [
   {
    "id": "F01",
@@ -19,7 +19,7 @@
    "finding": "The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured.",
    "status": "open",
    "decision": null,
-   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read; run 9: the Algarve page, a Portuguese reader reads the £ pills as a charge in pounds; run 10 (v0.1.324): £5.00 to £4.96 on opening a story, \"read 0%\" at its end"
+   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read; run 9: the Algarve page, a Portuguese reader reads the £ pills as a charge in pounds; run 10 (v0.1.324): £5.00 to £4.96 on opening a story, \"read 0%\" at its end; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: the masthead shows \"£5.00 credit\" and the foot \"This page 0.1p of 1p · Balance £5.00 · Rate it, or do not pay for it\"; no line says what the credit is or that nothing is charged; 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): still read as a charge (\"Am I being charged five pounds?\")"
   },
   {
    "id": "F02",
@@ -113,9 +113,9 @@
    "owner": "dev@",
    "severity": "costly",
    "finding": "Phone: three articles scroll sideways (591, 429, 399 px), the tab bar hides COMPANIES and ABOUT, the Ask button covers text.",
-   "status": "open",
+   "status": "verified",
    "decision": null,
-   "evidence": "run 5 (v0.1.90): 7 of 11 articles scroll sideways on a 390 px phone (591, 591, 480, 429, 417, 405, 399 px); the agent block is cut (\"oper\", \"instru\"); run 7 (v0.1.156): Brazil story still 591 px wide on a phone; run 8: 10 of 20 articles scroll sideways on a 390 px phone; the code box runs off the edge (Ana took it for an error); run 10: all three new articles fit a 390 px phone (no sideways scroll), the first new ones that do"
+   "evidence": "run 5 (v0.1.90): 7 of 11 articles scroll sideways on a 390 px phone (591, 591, 480, 429, 417, 405, 399 px); the agent block is cut (\"oper\", \"instru\"); run 7 (v0.1.156): Brazil story still 591 px wide on a phone; run 8: 10 of 20 articles scroll sideways on a 390 px phone; the code box runs off the edge (Ana took it for an error); run 10: all three new articles fit a 390 px phone (no sideways scroll), the first new ones that do; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): 0 of 32 articles scroll sideways on a 390 px phone; the Ask button sits in the header (static), no longer over text; the section links (Now, Agenda, News, Companies, About) are not in the first phone screen of an article: the tab-bar part not yet verified; verified 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): no article scrolls sideways (0 of 32); Ask sits in the header; the bottom bar shows Now, Agenda, News, Companies, Search, More (About under More)"
   },
   {
    "id": "F11",
@@ -123,9 +123,9 @@
    "owner": "designer@",
    "severity": "minor",
    "finding": "Front page: no 'first time? start here' entry; the first-day guide is sixth in Latest.",
-   "status": "open",
+   "status": "verified",
    "decision": null,
-   "evidence": null
+   "evidence": "verified 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): the front page leads with \"Web Summit Lisbon: your first day, from airport to arena\", the first story on the first screen"
   },
   {
    "id": "F12",
@@ -310,9 +310,9 @@
    "owner": "dev@",
    "severity": "costly",
    "finding": "'Signed' is only a word: no article links its signature (served at articles/<slug>.md.sig) or the key (board/keys.json), or says in one line what a reader can do with it. All 4 readers in run 5 guessed what it means; none could check it. The site's strongest provenance claim is the one nobody could use.",
-   "status": "open",
-   "decision": null,
-   "evidence": "run 7: \"Signed with the journalist agent's key\" on the rewritten Brazil story, with no key id, signature link or way to check (Tom); run 8: neither reader could say what \"signed\" lets them do; run 10: \"signed\" on the front page byline, no signature or way to check on the story"
+   "status": "verified",
+   "decision": "done by dev@ (1bcfd7a0): every article ends with a line linking its signed plain text, its .sig, board/keys.json and how we publish",
+   "evidence": "run 7: \"Signed with the journalist agent's key\" on the rewritten Brazil story, with no key id, signature link or way to check (Tom); run 8: neither reader could say what \"signed\" lets them do; run 10: \"signed\" on the front page byline, no signature or way to check on the story; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: 0 of 32 articles link their .sig; 3 of 32 link board/keys.json; the article says \"Signed with that agent's key\" with nothing to check it with; verified 7 Nov 02:50 UTC (v0.1.414): 31 of 31 articles link their .sig and board/keys.json (\"Signed. The plain text of this article is signed by its agent: the signature, checked against the agents' public keys ...\")"
   },
   {
    "id": "F29",
@@ -366,7 +366,7 @@
    "finding": "Source URLs print raw in angle brackets, break mid-word on the phone and do not look tappable.",
    "status": "open",
    "decision": null,
-   "evidence": "run 7: Brazil story source URLs unlinked plain text; the ApexBrasil PDF address cut off on the phone"
+   "evidence": "run 7: Brazil story source URLs unlinked plain text; the ApexBrasil PDF address cut off on the phone; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): the angle brackets are gone (0 of 32 articles); the source URLs still print in full in the source lines (e.g. Lisbon awards story, three sources)"
   },
   {
    "id": "F34",
@@ -410,7 +410,7 @@
    "finding": "The AI-made lead infographic cannot be read on a phone, and its figures are doubted (Ana, Miguel, Helena, Tom); its 'DATES: 8 to 13 November 2026' are the Brazilian mission's own dates (sourced in the article) but sit under a Web Summit headline, so two readers took them for the summit's (9 to 12) and called it wrong. Label them as the mission's.",
    "status": "accepted",
    "decision": "accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8)",
-   "evidence": "round-2 mock-ups: the phone card says 'AI infographic inside'; the desktop caption 'the dates on it are the mission's own'",
+   "evidence": "round-2 mock-ups: the phone card says 'AI infographic inside'; the desktop caption 'the dates on it are the mission's own'; 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): both AI-made infographics on the front page (EY ten years, Rio to Lisbon map) are pictures of small text, unreadable at 390 px without zooming",
    "decided_in": "board/passes/2026-11-06-the-front-page.md (designer@, round 2)"
   },
   {
@@ -442,9 +442,9 @@
    "owner": "correspondent@",
    "severity": "minor",
    "finding": "Today's front page lists 'Registration: collect your lanyard and wristband' three times under the same title (the airport, Pavilhão de Portugal), which reads as a duplicate; the place belongs in the title.",
-   "status": "accepted",
+   "status": "verified",
    "decision": "accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them.",
-   "evidence": "run 8: the registration entry now appears 6 times on the front page (was 3), before Latest; Ana nearly left",
+   "evidence": "run 8: the registration entry now appears 6 times on the front page (was 3), before Latest; Ana nearly left; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): verified: \"Now and next\" lists Registration once a day (Sat 7, Sun 8, Mon 9), no duplicate under one day",
    "decided_in": "desks/correspondent/front-page.json",
    "decided_at": "2026-11-06T06:44Z"
   },
@@ -479,8 +479,8 @@
    "severity": "costly",
    "finding": "The code box at the end of every page says 'built by: newsroom@web-summit.dinis', the agent that handed over on 6 November, while the byline names journalist@ and 'Who made this' the correspondent: three names, and no single human accountable (Tom).",
    "status": "open",
-   "decision": null,
-   "evidence": "run 8: \"built by: newsroom@web-summit.dinis\" beside the byline journalist@PrompTugal.dinis, still"
+   "decision": "held by dev@ (inbox, 7 Nov ~02:00 UTC): the 'built by' line sits inside every signed twin, so renaming breaks every signature; it needs a re-signing round with journalist@, which dev@ raises",
+   "evidence": "run 8: \"built by: newsroom@web-summit.dinis\" beside the byline journalist@PrompTugal.dinis, still; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: 32 of 32 articles (and the front page, About, Algarve) still say newsroom@web-summit.dinis in the code box; 7 Nov 02:50 UTC (v0.1.414): still 32 of 32"
   },
   {
    "id": "F44",
@@ -512,7 +512,7 @@
    "finding": "The Algarve Evolution page's 'Correct us, add to us' says 'Tell Dinis Cruz' with no link, form or route; the regional reader wanted to send corrections and could not (run 9, checked in the page text).",
    "status": "open",
    "decision": null,
-   "evidence": "16:50 UTC: the line now reads 'Tell the editors ... (who we are and how to reach us is on the About page)', but About's editors section gives no way to reach anyone; the promise points at a route that is not there (with F02, the editors' address, waiting on Dinis)"
+   "evidence": "16:50 UTC: the line now reads 'Tell the editors ... (who we are and how to reach us is on the About page)', but About's editors section gives no way to reach anyone; the promise points at a route that is not there (with F02, the editors' address, waiting on Dinis); re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): \"Tell Dinis Cruz\" now points to About for how to reach the editors; About still gives no route (it says contact details are never published), so a correction has nowhere to go"
   },
   {
    "id": "F47",
@@ -552,7 +552,17 @@
    "finding": "Each story says 'No person read this article before it went live', while the footer of the same page says 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang'; a compliance reader cannot reconcile the two (run 10, measured on 'What our agents say to each other'). Say what the editors do, or what 'edited' means here.",
    "status": "open",
    "decision": null,
-   "evidence": null
+   "evidence": "; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: 17 of 32 articles say \"No person read this article before it went live\" while the footer of every page says \"Edited by Dinis Cruz, Indi Gupte and Vicky Wang\""
+  },
+  {
+   "id": "F51",
+   "run": 11,
+   "owner": "journalist@",
+   "severity": "costly",
+   "finding": "The headline 'Rio sends ten startups to Lisbon, on Gol's new route' (and its front-page map) says the ten fly on Gol's new Rio to Lisbon route, while the story says that route opens on 24 November, after the summit (9 to 12 November); the sources say Gol pays their tickets, not that they fly the new route. A careful reader stops trusting the headline. Say 'tickets paid by Gol' or explain which flights.",
+   "status": "open",
+   "decision": null,
+   "evidence": "run 11 (v0.1.414): headline and summary of content/articles/rio-ten-startups-to-lisbon.md vs its line 15 ('five flights a week from 24 November'); the front-page map repeats 'from 24 November' beside the headline"
   }
  ],
  "updated_decisions": "2026-11-06T17:44Z"

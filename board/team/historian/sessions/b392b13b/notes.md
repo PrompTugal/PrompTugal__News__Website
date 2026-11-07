@@ -8,3 +8,7 @@
 - Lesson: sign a note with `PKI_AGENT=<scratchpad>/pki-agent.mjs node newsroom/tools/sign-article.mjs --twin newsroom/notes/<slug>/index.md` (the version-free form); a bare `pki-agent.mjs sign` covers the version and breaks at the next release.
 - Done: PB-17 as a newsroom note, content/newsroom/notes/2026-11-06-made-to-outlive-the-summit.md, signed.
 - Next (the debrief's order): VE-04 as a brief from the PHP newsroom's record; the timeline brought up to now; one history note per turning point. Waiting for Dinis.
+- 7 Nov 01:53: conductor.b@ relayed Dinis's "yes" to VE-04 (about 01:20 UTC); not yet in conductor.b's committed status (c2ef3172 still lists the question). Started, as it is in my lane.
+- Inbox reissued as board/inboxes/historian-b.json; opened with sgit_ai's hybrid_decrypt (see the 7 Nov debrief); drain --dry: empty.
+- PHP newsroom clones at /home/user/sgit-ai/ (read only). VE-04 brief written.
+- ABP: two R8 attempts logged (01:54 UTC): I printed the first 40 characters of the sealed inbox envelope (the encrypted blob already public in board/inboxes/historian-b.json) and the tail of a decrypt error log. No key, token or decrypted credential was shown; still, a credentials-type file was read into the conversation. Lesson: never print any part of a file under ~/.sg-send/.

@@ -135,7 +135,7 @@ export function readExists(ctx, spec) {
       if (l.startsWith(MARK_BEGIN)) inExists = false
       if (!inExists || !/^\s*- /.test(l)) return
       const ev = /[Ee]vidence:\s*(.*)$/.exec(l)
-      const paths = ev ? [...ev[1].matchAll(/`([^`]+)`/g)].map((m) => m[1]).filter((p) => /^[A-Za-z0-9_.@-]+(\/[A-Za-z0-9_.@<>*-]*)+\/?$|^[A-Za-z0-9_.@-]+\.[a-z]{2,4}$/.test(p)) : []
+      const paths = ev ? [...ev[1].matchAll(/`([^`]+)`/g)].map((m) => m[1]).filter((p) => /^[A-Za-z0-9_.@-]+(\/[A-Za-z0-9_.@<>*-]*)+\/?$|^[A-Za-z0-9_.@-]+\.[a-z]{2,4}$|^[A-Z][A-Z0-9_-]{2,}$/.test(p)) : []
       const missing = paths.filter((p) => !/[<>*]/.test(p) && !fs.existsSync(path.join(ctx.root, p)))
       out.push({ domain: d.id, file: `reality/${d.dir}/index.md`, line: i + 1, text: l.replace(/^\s*- /, '').slice(0, 110), evidenced: paths.length > 0, paths: paths.length, missing })
     })

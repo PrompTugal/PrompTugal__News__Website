@@ -1,8 +1,8 @@
 {
   "agent": "investors@PrompTugal.dinis",
-  "focus": "PrompTugal.news as an investable business: its own investor story, apart from investors@web-summit.dinis (My Feeds); publisher The Cyber Boardroom (UK)",
-  "state": "running on account B (session 01Kw9UwA, wakes every three hours at :23); waiting for Dinis on the decision page and for my inbox to be reissued",
-  "updated": "2026-11-07T00:30Z",
+  "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
+  "state": "running on account B; the investor section /investors/ live (7 pages), being filled from Dinis's pitch",
+  "updated": "2026-11-07T01:50Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -11,17 +11,24 @@
     "Told conductor.b@ and conductor@ I am up, asked for my inbox and lane to be reissued to the new key",
     "Asked sherpa@, synthetic@ and security@ (on their inboxes) to weigh in on /newsroom/decisions/promptugal-for-investors/",
     "00:23 wake: research.md recounted at v0.1.387 (387 releases, 31 signed articles, 104 pages, 120 companies, 240 events)",
-    "Hand-over debrief for 7 November written"
+    "Hand-over debrief for 7 November written",
+    "Dinis answered the decision (about 01:00 UTC): My Feeds; recorded in board/team/investors/dinis-2026-11-07-my-feeds.md and on the decision page, now decided",
+    "/investors/ (content/investors.md) written: the company, ownership, raising with no figures, what is working (counts), inspiration, contact Dinis",
+    "ROLE.md and research.md corrected to My Feeds",
+    "Routed to conductor@ and conductor.b@: My Feeds as publisher site-wide, every RiskMandate reference removed; to dev@: allow dinis.agent@promptugal.news on /investors/ past the gate's email check",
+    "Dinis's pitch (about 01:15 UTC) recorded in board/team/investors/dinis-2026-11-07-the-pitch.md; /investors/ became a section: the pitch, what works, the business plan, how we got here, where we stand (competition, 8 products read at their sites), what we think, how to engage; no figures"
   ],
   "next": [
-    "Drain my inbox once it is sealed to investors-b-promptugal; record sherpa@, synthetic@ and security@'s views on the decision page",
-    "On Dinis's answer: B (a short /investors/ page), once abp@'s grant covers content/",
-    "Recount research.md at each wake"
+    "Link Dinis's newsroom.sgit.ai articles into 'what we think' and 'how we got here' (reader running)",
+    "The pitch deck: ask designer@ (decks) through the conductor; agents to keep it current at Dinis's word",
+    "Add the contact address once dev@ allows it in the gate",
+    "Recount at each wake; update the plan as things sell"
   ],
   "asks": [
-    "Dinis: the decision /newsroom/decisions/promptugal-for-investors/: which company PrompTugal.news belongs to and sells through (The Cyber Boardroom or My Feeds), whether anything is raised, whether company figures may be quoted, whether cbr-investment still speaks for the company",
-    "Dinis: your words of about 20:05 UTC starting this agent are not in board/guidance/ yet",
-    "conductor@ (asked 22:50Z, not done at 00:25Z): reissue board/inboxes/investors.json and my lane in board/inbox.json to investors-b-promptugal (my inbox cannot be drained until then)",
-    "abp@: a policy for this role (board/abp/investors.md); the hook limits me to board/team/investors/, board/runs/investors/ and my keys.json entry, so I cannot refresh the stale counts on my own decision page in content/newsroom/decisions/"
+    "Dinis: your pitch and positioning for /investors/ (you said it follows)",
+    "Dinis: the iOS app is stated on /investors/what-works/ on your word (submitted to the App Store); it is not in this repository, so tell me where it lives to link it",
+    "conductor@: file Dinis's 7 November words in board/guidance/; route the publisher change and the RiskMandate removal; reissue my inbox to investors-b-promptugal",
+    "dev@: allow dinis.agent@promptugal.news in content/investors.md past check 7 (Dinis's word)",
+    "abp@: a policy for this role; Dinis widened its paths to content/investors.md on 7 November"
   ]
 }

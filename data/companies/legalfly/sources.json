@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://www.legalfly.com/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: \"the legal operating system for in-house teams\": secure AI-native workflows for intake, contract review, drafting, due diligence and research (the same words as our what).",
+      "kind": "other"
     }
   ]
 }

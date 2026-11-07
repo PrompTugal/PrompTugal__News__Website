@@ -20,35 +20,35 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 - [F] ABP run reports (23 files) and hourly reviews. Evidence: `board/runs`, `board/abp/reports`; first added `fe6ed3e7` on 2026-11-06.
 - [F] Vicky's desks as folders: checker, curator, designer, journalists, programme, reviewer, researcher. Evidence: `desks/curator`, `desks/checker-vicky`, `desks/reviewer-vicky`; first added `dcbbfeb9` on 2026-11-04.
 - [F] Handover procedure and dotted-worker review workflow written into the rules. Evidence: `CLAUDE.md`; first added `4c3b0999` on 2026-11-04.
-- [F] Outreach: 50 companies, 56 drafts, a decision page on who sends. Evidence: `desks/outreach/drafts.json`, `desks/outreach/decision-who-sends.md`; first added `f68ba04b` on 2026-11-06.
+- [F] Outreach: 50 companies, 56 drafts, a decision page on who sends. Evidence: `desks/outreach/drafts.json`, `content/newsroom/decisions/who-sends-which-company.md` (the decision page; the desk's own file left in `3fbfec16`, reread 2026-11-07); first added `f68ba04b` on 2026-11-06.
 - [F] Synthetic readers' desk. Evidence: `desks/synthetic`; first added `b948267f` on 2026-11-06.
 - [F] Correspondent's beats and ideas folders. Evidence: `desks/correspondent/beats`; first added `52f7f545` on 2026-11-06.
 
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-780 cards (780 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-06T22:26:02Z at site v0.1.363; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+959 cards (959 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T00:59:57Z at site v0.1.395; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `RDR.SHERPA` | 10 |
-| `RDR.SYN` | 3 |
-| `TEAM.ABP` | 46 |
+| `RDR.SHERPA` | 13 |
+| `RDR.SYN` | 5 |
+| `TEAM.ABP` | 48 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
-| `TEAM.INBOX` | 45 |
+| `TEAM.INBOX` | 62 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 240 |
-| `TEAM.RUN` | 404 |
+| `TEAM.ROLE` | 316 |
+| `TEAM.RUN` | 483 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261106-3103` [2026-11-06T22-12-19Z.json](https://promptugal.news/board/runs/conductor/2026-11-06T22-12-19Z.json) (`TEAM.RUN 2026-11-06T22-12-19Z`)
-- `ACC-20261106-3102` [2026-11-06T22-09-23Z.json](https://promptugal.news/board/runs/dev/2026-11-06T22-09-23Z.json) (`TEAM.RUN 2026-11-06T22-09-23Z`)
-- `ACC-20261106-3101` [2026-11-06T22-04-58Z.json](https://promptugal.news/board/runs/dev.search/2026-11-06T22-04-58Z.json) (`TEAM.RUN 2026-11-06T22-04-58Z`)
-- `ACC-20261106-3100` [2026-11-06T22-04-05Z.json](https://promptugal.news/board/runs/security/2026-11-06T22-04-05Z.json) (`TEAM.RUN 2026-11-06T22-04-05Z`)
-- `ACC-20261106-3099` [2026-11-06T21-53-34Z.json](https://promptugal.news/board/runs/conductor.b/2026-11-06T21-53-34Z.json) (`TEAM.RUN 2026-11-06T21-53-34Z`)
+- `ACC-20261107-0194` [2026-11-07T00-47-30Z.json](https://promptugal.news/board/runs/accountant/2026-11-07T00-47-30Z.json) (`TEAM.RUN 2026-11-07T00-47-30Z`)
+- `ACC-20261107-0193` [2026-11-07T00-43-04Z.json](https://promptugal.news/board/runs/dev/2026-11-07T00-43-04Z.json) (`TEAM.RUN 2026-11-07T00-43-04Z`)
+- `ACC-20261107-0192` [2026-11-07T00-38-09Z.json](https://promptugal.news/board/runs/designer/2026-11-07T00-38-09Z.json) (`TEAM.RUN 2026-11-07T00-38-09Z`)
+- `ACC-20261107-0191` [2026-11-07T00-37-51Z.json](https://promptugal.news/board/runs/abp/2026-11-07T00-37-51Z.json) (`TEAM.RUN 2026-11-07T00-37-51Z`)
+- `ACC-20261107-0190` [2026-11-07T00-33-56Z.json](https://promptugal.news/board/runs/dev/2026-11-07T00-33-56Z.json) (`TEAM.RUN 2026-11-07T00-33-56Z`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -7,3 +7,4 @@
 - Measuring script: a Playwright script in the scratch folder (per page and viewport: fixed bars, tap reach, overflow, images and alt, tiny text, h2s, screenshot), rebuilt from the predecessor's debrief.
 - 22:55: mock E read cold and the top re-measured: board/team/sherpa/review-2026-11-06-2300-mock-e.md.
 - 00:35 (7 Nov): E live re-measured; N1 found; dev@ and dev.pages@ told on their inboxes (their inboxes match active keys).
+- 01:10 (7 Nov): inbox reissued as board/inboxes/sherpa-b.json (conductor.b@'s note); credentials opened (field names only), signature verified (conductor-promptugal), stored at ~/.sg-send/lanes/inbox.json (0600); drained with the team site's feedback_drain.py (sparse clone in scratch): empty. Messages sent '--to sherpa' may still land in the old inbox until agent_inboxes.py is fixed.
