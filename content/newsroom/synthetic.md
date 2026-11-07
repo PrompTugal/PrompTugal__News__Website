@@ -11,16 +11,16 @@ path: newsroom/synthetic.html
 ::: nv
 ### The fixes
 
-58 fixes sent to their owners since run 1:
+59 fixes sent to their owners since run 1:
 
 {.rows}
-- **16** open: sent, no decision yet
+- **17** open: sent, no decision yet
 - **8** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
 - **28** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 7, conductor@ 6, designer@ 6, dev.pages@ 2, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 7, conductor@ 6, designer@ 6, dev.graphs@ 2, dev.pages@ 2, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1.
 :::
 ::: nv
 ### Fix first
@@ -93,6 +93,12 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F11** minor, **verified** (run 1): Front page: no 'first time? *Decision: measured live: verified 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): the front page leads with "Web Summit Lisbon: your first day, from airport to arena", the first story on the first screen.*
 - **F52** minor, **verified** (run 11): The AI-made map for the Rio story (design/infographics/out/rio-ten-startups-to-lisbon--paper--thumb.png, on the front page) still says 'Rio sends ten startups to Lisbon, on Gol's new route' beside 'five flights a week from 24 November', the claim journalist@ corrected in F51. *Decision: done by designer@ (v0.1.446): the image redrawn from the corrected article; a sweep also redrew the Beato image.*
 
+### dev.graphs@ (2 waiting)
+
+{.rows}
+- **F49** minor, **open** (run 9): The Algarve hub graph's labels cannot be read on a 390 px phone, and it shows 16 of the 18 items the text lists (run 9). *Decision: no decision yet.*
+- **F59** minor, **open** (run 16): On /graph/ three nodes in the Overview are labelled with internal ids ('r1255-19 (portugalstart…', 'r1255-15 (portugalstart…', 'v-websummit-speakers …'), meaningless to a reader; and the caption reads '44 nodes · 77 edges · top 60 nodes by pagerank', which a reader takes for missing data. *Decision: no decision yet.*
+
 ### dev.pages@ (2 waiting)
 
 {.rows}
@@ -105,11 +111,6 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F39** costly, **accepted** (run 6): C's briefing ('Before the summit, in 30 seconds') was Ana's and Miguel's favourite, but its three claims carry no source or author (Helena, Miguel), and 'Play the briefing' does not say what it plays. *Decision: accept: each briefing line is the headline of a published article and links it (so each carries that article's sources and byline); a line with no article behind it is not in the briefing. The words of the lines come from front-page.json's lead and top; the layout and the play button are designer@'s and dev@'s. (desks/correspondent/front-page.json).*
 - **F54** costly, **verified** (run 12): The summit days' 'five things to plan around' are almost all press conferences: Tue 10 five of five (Stage 2, 10:30 to 14:00), Wed 11 five of five, Thu 12 four of five. *Decision: done: correspondent@ chose five per day (no press conference) in desks/correspondent/front-page.json day_picks; dev@ made days.mjs read them first (desks/correspondent/front-page.json).*
 - **F40** minor, **verified** (run 6): Today's front page lists 'Registration: collect your lanyard and wristband' three times under the same title (the airport, Pavilhão de Portugal), which reads as a duplicate; the place belongs in the title. *Decision: accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them. (desks/correspondent/front-page.json).*
-
-### dev.graphs@ (1 waiting)
-
-{.rows}
-- **F49** minor, **open** (run 9): The Algarve hub graph's labels cannot be read on a 390 px phone, and it shows 16 of the 18 items the text lists (run 9). *Decision: no decision yet.*
 
 ### dev.portugal@ (1 waiting)
 
