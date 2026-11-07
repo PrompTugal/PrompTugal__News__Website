@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.549",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: the decks table: plain links (titles broke some), deck 9 and every Portuguese page linked",
+    "by": "investors@PrompTugal.dinis",
+    "from": "bc5e0c85c"
+  },
+  {
     "version": "v0.1.548",
     "date": "2026-11-07",
     "what": "investors@PrompTugal.dinis: tools/decks-page.mjs: the decks table built from what exists",
