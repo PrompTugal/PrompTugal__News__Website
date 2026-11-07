@@ -1,0 +1,34 @@
+<!-- D, "The Brief" (Silvio's mock D, design@web-summit.silvio): the home page to read in two minutes, one column.
+     Filled from data by newsroom/build/features/front-d.mjs (newsroom/build/lib/home.mjs, the model every design shares).
+     The look: front-d.css. One of the home page's designs (assets/design/, ?design=d). -->
+<!-- part:page -->
+<div class="fd pt-design" data-design-of="d">
+<div class="fd-w">
+<header class="fd-hd"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a><a class="fd-sub" href="newsletter/index.html">Get the daily</a></header>
+<p class="fd-date"><time datetime="{{today}}">{{date}}</time><b data-countdown-at="{{opening_at}}">Opening Night in <span data-cd>{{opening_in}}</span></b><span>2 min read</span></p>
+<p class="fd-intro">Today's brief: the one story to read, the others worth a minute, and what is on next. Every fact sourced and dated.</p>
+{{lead}}
+<form class="fd-pb" role="search" action="search/index.html" method="get"><span class="fd-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form>
+<p class="fd-pcs">{{#asks}}</p>
+<h2 class="fd-h">Also today</h2>
+<div class="fd-list">{{#also}}</div>
+<h2 class="fd-h">On the calendar</h2>
+<ol class="fd-five">{{#calendar}}</ol>
+<p class="fd-more"><a href="summit/index.html">The summit, day by day</a> · <a href="events/index.html">The agenda</a></p>
+<div class="fd-nl"><h3>The daily, morning and evening</h3><p>What is on, what we found and what changed, from Saturday 7 November to the end of the summit.</p><a href="newsletter/index.html">Read the daily newsletter</a></div>
+</div>
+</div>
+<!-- part:lead -->
+<section class="fd-top"><p class="fd-k">The big one · {{tags}}</p><h2 class="fd-hed"><a href="{{href}}">{{headline}}</a></h2>{{figure}}{{points}}<p class="fd-read"><a href="{{href}}">Read the full story: {{minutes}} min</a> {{pill}}</p></section>
+<!-- item:figure --><figure class="fd-fig"><a href="{{href}}" tabindex="-1">{{picture}}</a><figcaption>AI-made image</figcaption></figure>
+<!-- item:points --><div class="fd-why"><p><b>✦ The 20-second version</b>, by our agents, from the article</p><ul>{{#list}}</ul></div>
+<!-- item:point --><li>{{text}}</li>
+<!-- item:dek --><p class="fd-dek">{{dek}}</p>
+<!-- item:picture --><picture><source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
+<!-- item:mark --><mark>{{text}}</mark>
+<!-- item:pill --><span class="fd-pill" title="{{title}}">{{text}}</span>
+<!-- item:also --><article class="fd-art"><div><p class="fd-k">{{beat}}</p><h3><a href="{{href}}">{{title}}</a></h3><p>{{dek}}</p></div>{{thumb}}</article>
+<!-- item:thumb --><a class="fd-thumb" href="{{href}}" tabindex="-1">{{picture}}<span>AI-made</span></a>
+<!-- item:cal --><li data-end="{{end}}"><a href="{{href}}">{{what}}</a><small>{{when}}{{where}}</small></li>
+<!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
+<!-- end -->

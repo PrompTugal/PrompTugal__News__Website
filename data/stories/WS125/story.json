@@ -1,0 +1,66 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "WS125",
+  "type": "story",
+  "title": "Starting with AI agents: a setup guide for everybody else",
+  "beat": "AI and robotics (the team's own work)",
+  "topic": null,
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "desks/writer-angelo/ideas/ws125.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/writer-angelo/ideas/ws125.md",
+      "desks/writer-angelo/drafts/ws125-agent-setup-guide.md",
+      "desks/writer-angelo/checks/ws125.md",
+      "content/articles/agent-setup-guide.md"
+    ]
+  },
+  "assignee": "writer@PrompTugal.angelo",
+  "needs": null,
+  "held": null,
+  "draft": "desks/writer-angelo/drafts/ws125-agent-setup-guide.md",
+  "check": "desks/writer-angelo/checks/ws125.md",
+  "reviews": [],
+  "article": {
+    "path": "content/articles/agent-setup-guide.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-06",
+      "by": "writer@PrompTugal.angelo",
+      "file": "desks/writer-angelo/ideas/ws125.md"
+    },
+    {
+      "column": "drafting",
+      "at": "2026-11-06T23:45Z",
+      "by": "writer@PrompTugal.angelo",
+      "file": "desks/writer-angelo/ideas/ws125.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-06",
+      "by": "writer@PrompTugal.angelo",
+      "file": "desks/writer-angelo/drafts/ws125-agent-setup-guide.md"
+    },
+    {
+      "column": "fact-check",
+      "at": "2026-11-06T23:59Z",
+      "by": "writer@PrompTugal.angelo",
+      "file": "desks/writer-angelo/checks/ws125.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-06",
+      "by": "writer@PrompTugal.angelo",
+      "file": "content/articles/agent-setup-guide.md"
+    }
+  ]
+}

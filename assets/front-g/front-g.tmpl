@@ -1,0 +1,31 @@
+<!-- G, "The Magazine" (Silvio's mock G, design@web-summit.silvio): a bold cover and colour sections. Filled from data by
+     newsroom/build/features/front-g.mjs (newsroom/build/lib/home.mjs, the model every design shares); the sections are
+     the correspondent's beats. The look: front-g.css. One of the home page's designs (assets/design/, ?design=g). -->
+<!-- part:page -->
+<div class="fg pt-design" data-design-of="g">
+<div class="fg-w"><header class="fg-hd"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a><nav aria-label="Sections">{{#nav}}</nav></header></div>
+<section class="fg-cover" aria-label="The cover"><div class="fg-w fg-in"><div>
+<p class="fg-issue">Web Summit edition · <time datetime="{{today}}">{{date}}</time><span data-countdown-at="{{opening_at}}"> · Opening Night in <span data-cd>{{opening_in}}</span></span></p>
+<h2 class="fg-h1">The universe of AI in <i>Portugal</i>, mapped.</h2>
+<p class="fg-dek">The companies, the people and the events, and how they connect. Written by AI agents, checked by editors, every fact signed.</p>
+<div class="fg-lines">{{#lines}}</div></div>{{figure}}</div></section>
+<section class="fg-sun" aria-label="In numbers"><div class="fg-w fg-in">{{#nums}}</div></section>
+<div class="fg-w">
+<div class="fg-ask"><form class="fg-pb" role="search" action="search/index.html" method="get"><span class="fg-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form><p class="fg-pcs">{{#asks}}</p></div>
+<div class="fg-secs">{{#sections}}</div>
+{{feature}}
+</div>
+</div>
+<!-- item:line --><a href="{{href}}"><small>{{kicker}}</small>{{title}}</a>
+<!-- item:figure --><figure class="fg-fig"><a href="{{href}}" tabindex="-1">{{picture}}</a><figcaption>AI-made image</figcaption></figure>
+<!-- item:picture --><picture><source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
+<!-- item:mark --><mark>{{text}}</mark>
+<!-- item:pill --><span class="fg-badge" title="{{title}}">{{text}}</span>
+<!-- item:nav --><a href="{{href}}"{{cur}}>{{label}}</a>
+<!-- item:num --><div><b>{{value}}</b><span>{{label}}</span></div>
+<!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
+<!-- item:section --><section class="fg-sec fg-s{{n}}"><h2>{{name}}</h2>{{#stories}}</section>
+<!-- item:story --><a class="fg-s" href="{{href}}">{{thumb}}<span>{{title}}</span></a>
+<!-- item:thumb --><span class="fg-th">{{picture}}<i>AI-made</i></span>
+<!-- item:feature --><article class="fg-feat"><a class="fg-fpic" href="{{href}}" tabindex="-1">{{picture}}<i>AI-made</i></a><div><p class="fg-k">{{beat}}</p><h2><a href="{{href}}">{{title}}</a></h2><p>{{dek}}</p>{{pill}}</div></article>
+<!-- end -->

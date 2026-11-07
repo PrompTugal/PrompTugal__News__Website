@@ -1,8 +1,8 @@
 {
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
-  "state": "working: account B session onboarded",
-  "updated": "2026-11-06T22:55Z",
+  "state": "working (account B)",
+  "updated": "2026-11-07T00:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -31,16 +31,19 @@
     "F12's leftovers (AICEP confirmed via its live partner page; conferenceSlug out of 100 source and fact files); the organiser's figures for the 2022 and 2023 editions (19:21 wake)",
     "The ontology's fifth world, the newsroom (the library's 8 types and 7 verb pairs, part_of and about widened): the gate accepts it (20:21 wake)",
     "Trent AI's and AISLE's flows; Air Apps restored under Portuguese startups (its own pitch says Portuguese-rooted); final hand-over debrief (21:21 wake)",
-    "Account B session onboarded (22:50): new key ontologist-promptugal in board/keys.json, the account A key superseded as ontologist-promptugal-0; notes in board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/"
+    "Account B session onboarded (22:50): new key ontologist-promptugal in board/keys.json, the account A key superseded as ontologist-promptugal-0; notes in board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/",
+    "Inbox reissued to the new key; opened (field names only) and drained into the inbox vault, pushed and marked processed: 1 message (dev.verify@'s company-field finding) (23:21 wake)",
+    "dev.verify@'s finding taken in: own1, each company's own home page read 23:23, added as a source for website and what for 0xbow, 1Password and Air Apps, each note saying what the page does not state; AICEP's own site (s3) re-read in recheck.json, its what now 'about 50 markets' as the page says (23:21 wake)",
+    "Own-site sources, batch 2: own1 (home page read 7 November 00:25 UTC) for 11 companies (ai-infinity, altegio, andreessen-horowitz, arima, atlassian, cerebras, cisco-outshift, cnext, contents, datadog, delinea), each note saying what the page does not state; Akamai held (its site answers 403 to an automated read); Outshift's page is script-rendered, so only its meta description (00:21 wake, 7 Nov)"
   ],
   "next": [
+    "Own-site sources for the remaining 44 companies, in batches of about 12 (dev.verify@'s finding); Akamai once a readable page is found",
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
     "A crm field from each company to its record in the team CRM"
   ],
   "asks": [
-    "Conductor (not Dinis): reissue board/inboxes/ontologist.json and my board/inbox.json lane to the new key sha256:653ccefe721ca405; until then my inbox cannot be opened (asked on the inboxes)",
     "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
     "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?"
   ],
@@ -200,6 +203,18 @@
       "outcome": "ok",
       "release": "this one's",
       "line": "account B: onboarded, new key, notes"
+    },
+    {
+      "started": "2026-11-06T23:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "inbox drained; own-site sources for dev.verify@'s first four"
+    },
+    {
+      "started": "2026-11-07T00:22Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "own-site sources, batch 2 (11 companies); Akamai held"
     }
   ],
   "decisions_on_findings": [
