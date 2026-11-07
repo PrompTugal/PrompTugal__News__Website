@@ -6,7 +6,7 @@
  "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
  "to": "Ledger: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
  "subject": "We built a page about Ledger: could you check it?",
- "sha256": "651bcaee2a72d6acc8c170c11401ab7b4975a019d8182bfa13ddf9f4cedec632",
+ "sha256": "907a6e02d63e0102d473ff1818e72823d4492377743ea7a1bcebe71e73f872df",
  "attachments": [],
  "summary": "PrompTugal.news writes to Ledger leading with its page (https://promptugal.news/companies/ledger/); a company.",
  "followups": {

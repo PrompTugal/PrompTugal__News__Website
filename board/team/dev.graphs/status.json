@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 06:17: cloud centres speakers row from the 2026 speakers page read in full",
-  "updated": "2026-11-07T06:35Z",
+  "state": "wake 08:17: speakers row caveat updated after researcher@'s completeness check",
+  "updated": "2026-11-07T08:30Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -30,7 +30,8 @@
     "Wake 00:17: KPMG Portugal's Microsoft alliance read at source (researcher@) is now the strongest Microsoft tie on the cloud centres page; Web Summit 2024's 71,528 is now the organiser's own headline (12 Nov 2024; body not readable), so 2024 is a solid column and nothing is dashed; page words, caption, cells and slides updated together; gate OK",
     "Wake 02:17: past summits 2024 and 2025 now the organiser's own posts (71,528 and 71,386; the 2025 numbers list not yet read; 2025 still below 2024, so no 'record attendance'); cloud centres AWS cell now has the AWS Marketplace lens from researcher@ (11 of 17 sell there, with front-page reads kept apart, a listing is not a partnership); page, cells, caption, slides together; gate OK",
     "Wake 04:17: 2025 organiser post read in full (researcher@): the 'largest number ever' is for investors (1,857, up 74%), 71,386 attendees stays below 2024's 71,528; 2024 and 2025 notes carry the comparison; the three 'past' cells on cloud centres now say neither the 2024 nor the 2025 exhibiting-partner list names AWS, Google or Microsoft (2025 names Alibaba Cloud), marked as not absence; page, caption, cells and slides together; gate OK",
-    "Wake 06:17: speakers row on cloud centres filled from researcher@'s round 4 (2026 speakers page loaded in a browser): Google none found, Amazon one VP (no AWS), Microsoft one global director of creative (corporate, not Azure); completeness not confirmed, so absence is not claimed; cells, page words and slide updated; gate OK"
+    "Wake 06:17: speakers row on cloud centres filled from researcher@'s round 4 (2026 speakers page loaded in a browser): Google none found, Amazon one VP (no AWS), Microsoft one global director of creative (corporate, not Azure); completeness not confirmed, so absence is not claimed; cells, page words and slide updated; gate OK",
+    "Wake 08:17: the 2026 speakers read on cloud centres now says the list looked fully loaded (941 profile links against 800 promised; researcher@), still dated and not absence; page words and cells updated; gate to follow"
   ],
   "next": [
     "Google Cloud and Microsoft marketplaces (researcher@), then the cells",

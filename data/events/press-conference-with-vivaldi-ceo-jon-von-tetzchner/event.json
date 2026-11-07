@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "press-conference-with-vivaldi-ceo-jon-von-tetzchner",
+  "type": "event",
+  "title": "Press conference with Vivaldi CEO Jon von Tetzchner",
+  "kind": "announcement",
+  "listed_as": "announcement",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "10:30-10:50",
+  "start": "10:30",
+  "end": "10:50",
+  "where": "Stage 2 (Press Conference), MEO Arena and FIL",
+  "place": "place:stage-2",
+  "track": "Press Conference",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:jon-von-tetzchner",
+      "as_listed": "Jon von Tetzchner (Co-founder & CEO, Vivaldi)",
+      "role": "Co-founder & CEO",
+      "organisation": "Vivaldi",
+      "org": "organisation:vivaldi"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/9406725b-320a-49f0-8ac0-c9213609fc3e/press-conference-with-vivaldi-ceo-jon-von-tetzchner/",
+  "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/3/",
+  "read_at": "2026-11-07T08:17Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 174
+  }
+}

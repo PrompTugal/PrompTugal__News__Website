@@ -2,8 +2,8 @@
   "$schema": "schemas/matching.schema.json",
   "about": "The derivation's report (newsroom/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
   "counts": {
-    "speaker_organisations_matched": 66,
-    "speaker_organisations_unmatched": 169,
+    "speaker_organisations_matched": 67,
+    "speaker_organisations_unmatched": 175,
     "near_misses": 1,
     "places_unmatched": 2,
     "tracks_mapped": 6,
@@ -110,12 +110,6 @@
         "how": "alias \"Defined.ai\" (the name in the team's map, source s1)"
       },
       {
-        "as_listed": "Delinea",
-        "ref": "company:delinea",
-        "count": 1,
-        "how": "alias \"Delinea\" (the name in the team's map, source s1)"
-      },
-      {
         "as_listed": "Deque Systems",
         "ref": "company:deque",
         "count": 1,
@@ -144,6 +138,12 @@
         "ref": "company:open-vsx",
         "count": 1,
         "how": "alias \"Eclipse Foundation\" (the name in the team's map, in the brackets, source s1)"
+      },
+      {
+        "as_listed": "Elastic",
+        "ref": "company:elastic",
+        "count": 1,
+        "how": "alias \"Elastic\" (the name in the team's map, source s1)"
       },
       {
         "as_listed": "Emergence",
@@ -408,6 +408,12 @@
         "ref": "company:twilio",
         "count": 1,
         "how": "alias \"Twilio\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "Whitespace",
+        "ref": "company:whitespace",
+        "count": 1,
+        "how": "alias \"Whitespace\" (the name in the team's map, source s1)"
       }
     ],
     "unmatched": [
@@ -475,6 +481,11 @@
         "as_listed": "Axios",
         "ref": "organisation:axios",
         "count": 5
+      },
+      {
+        "as_listed": "Bagel Labs",
+        "ref": "organisation:bagel-labs",
+        "count": 1
       },
       {
         "as_listed": "Banco Português de Fomento",
@@ -572,6 +583,11 @@
         "count": 1
       },
       {
+        "as_listed": "Deadline",
+        "ref": "organisation:deadline",
+        "count": 1
+      },
+      {
         "as_listed": "Deutsche Presse-Agentur",
         "ref": "organisation:deutsche-presse-agentur",
         "count": 1
@@ -594,6 +610,11 @@
       {
         "as_listed": "ECO",
         "ref": "organisation:eco",
+        "count": 1
+      },
+      {
+        "as_listed": "EnforceShield",
+        "ref": "organisation:enforceshield",
         "count": 1
       },
       {
@@ -654,6 +675,11 @@
       {
         "as_listed": "Foundation Capital",
         "ref": "organisation:foundation-capital",
+        "count": 1
+      },
+      {
+        "as_listed": "Foundation For Freedom Online",
+        "ref": "organisation:foundation-for-freedom-online",
         "count": 1
       },
       {
@@ -807,6 +833,11 @@
         "count": 1
       },
       {
+        "as_listed": "Kamino",
+        "ref": "organisation:kamino",
+        "count": 1
+      },
+      {
         "as_listed": "Kyiv Post",
         "ref": "organisation:kyiv-post",
         "count": 2
@@ -849,7 +880,7 @@
       {
         "as_listed": "MIT Technology Review",
         "ref": "organisation:mit-technology-review",
-        "count": 2
+        "count": 4
       },
       {
         "as_listed": "Mashable",
@@ -942,6 +973,11 @@
         "count": 1
       },
       {
+        "as_listed": "Plug",
+        "ref": "organisation:plug",
+        "count": 1
+      },
+      {
         "as_listed": "Plug and Play Tech Center",
         "ref": "organisation:plug-and-play-tech-center",
         "count": 1
@@ -977,6 +1013,11 @@
         "count": 1
       },
       {
+        "as_listed": "SAG-AFTRA",
+        "ref": "organisation:sag-aftra",
+        "count": 1
+      },
+      {
         "as_listed": "SENEN GROUP",
         "ref": "organisation:senen",
         "count": 1
@@ -984,11 +1025,6 @@
       {
         "as_listed": "SGF Global",
         "ref": "organisation:sgf-global",
-        "count": 1
-      },
-      {
-        "as_listed": "SHINE Technologies",
-        "ref": "organisation:shine-technologies",
         "count": 1
       },
       {
@@ -1147,11 +1183,6 @@
         "count": 1
       },
       {
-        "as_listed": "The Washington Post",
-        "ref": "organisation:washington-post",
-        "count": 1
-      },
-      {
         "as_listed": "TikTok",
         "ref": "organisation:tiktok",
         "count": 1
@@ -1202,9 +1233,14 @@
         "count": 1
       },
       {
+        "as_listed": "Vermillio",
+        "ref": "organisation:vermillio",
+        "count": 1
+      },
+      {
         "as_listed": "Vivaldi",
         "ref": "organisation:vivaldi",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Vogue Business",
@@ -1214,12 +1250,12 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 3
+        "count": 5
       },
       {
         "as_listed": "Wired",
         "ref": "organisation:wired",
-        "count": 3
+        "count": 1
       },
       {
         "as_listed": "XPENG Aridge Flying Cars",
@@ -1252,8 +1288,8 @@
         "count": 1
       },
       {
-        "as_listed": "iBanFirst",
-        "ref": "organisation:ibanfirst",
+        "as_listed": "norriv",
+        "ref": "organisation:norriv",
         "count": 1
       }
     ],

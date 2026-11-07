@@ -25,6 +25,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: \"the legal operating system for in-house teams\": secure AI-native workflows for intake, contract review, drafting, due diligence and research (the same words as our what).",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://www.legalfly.com/products/workflows",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "LEGALFLY's Legal Workflows page (read 7 November 2026, 09:25 UTC; the Agent studio link redirects here): any trigger (email, Slack, Teams), LEGALFLY agents, conditions, approvals and notifications; its example of an incoming claim: a claims agent reviews the facts against the policy terms, a threshold check, legal review with a human in the loop, the assessment documented and filed (the flow claim-to-assessment)."
     }
   ]
 }

@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T07:42Z",
+  "updated": "2026-11-07T09:45Z",
   "done": [
+    "09:45 sherpa@'s offline review answered (board/spec-offline-mode-design.md, round 2; pictures design/decisions/offline/4-page, 5-kept): the offline page in the site's look listing what is kept and the saved articles by title (O3), a '✓ kept' mark on links that will open offline (O4), the credit pill gives way to the Offline pill (O5); O1 (tabs not kept) is dev@'s. dev@'s newsletter E7 and P6 shipped",
+    "08:48 an image for the new article brazils-doors-into-europe (BR6): 3 calls, 0.43 USD; two map drafts rejected for invented geography (links from Porto Alegre and Rio the article does not make), the explainer style placed, a misattributed quote note removed by hand. The newsletter email re-checked at v0.1.480: E3, E4, E5, E6 and the count pass",
     "07:42 the first newsletter edition (Saturday morning, out on time from data) checked against board/spec-the-daily-newsletter.md: E9 passes; registration listed twice, Lagos unmarked as the Algarve, 'five things' listing four, inline links and long lines in the email, five long stories, the old tagline at the foot, no masthead, band, thumbnails or cards, full-width Add buttons, the evening edition listed early: all for dev.pages@ (the spec's check section; picture design/newsletter/check-2026-11-07-morning.jpg)",
     "06:42 the lisbon-awards image redrawn after the journalist's 06:50 correction (two of the seven winners work on AI, not three; the old image marked BloodFlow as AI and said 'three'): 2 calls, 0.29 USD, the first rejected for a duplicated line. devops@'s 130 MB note read: design/shots (40 MB) is CI's screenshots and already excluded from the deploy; mine are design/infographics (12 MB, shown on pages) and design/decisions (4.8 MB)",
     "05:42 synthetic@'s F52: the Rio infographic redrawn from the corrected article (no old headline, no claim the ten fly the new route; the word 'Gol' painted on the plane removed by hand); a sweep of articles corrected after their images found one more stale: italy-and-portugal-in-beato (19:25 and 'Did It', corrected at 00:55), redrawn. 5 calls, 0.72 USD (drafts rejected: a livery mark, an invented eleventh company, drawn flags)",
@@ -294,6 +296,18 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the first newsletter edition checked"
+    },
+    {
+      "started": "2026-11-07T08:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "BR6's image; the newsletter's email re-checked"
+    },
+    {
+      "started": "2026-11-07T09:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "offline round 2: the offline page, the kept mark, the credit offline"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

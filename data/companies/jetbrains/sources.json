@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://www.jetbrains.com/air/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "JetBrains Air, \"one system for building software with agents\" (read 7 November 2026, 08:25 UTC): works with Claude Agent, Codex, Junie, Copilot, OpenCode and any agent via ACP; tasks and automations triggered by repository events; agents run in the cloud; the developer reviews every change (the flow agents-in-air)."
     }
   ]
 }

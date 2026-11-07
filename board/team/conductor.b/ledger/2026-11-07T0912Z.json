@@ -1,0 +1,218 @@
+{
+  "about": "Account B's usage for accountant@PrompTugal.dinis, read by conductor.b@ from each session's record (counts and API-equivalent dollars only, cumulative per session since it started). The total adds 0.96 for the archived first conductor.b@ session. Read every three hours from 01:07 UTC.",
+  "account": "B",
+  "read_at": "2026-11-07T09:12Z",
+  "previous": "2026-11-07T0612Z.json (161.72)",
+  "sessions": 23,
+  "total_api_equivalent_usd": 211.67,
+  "rate_limit": "allowed on every session",
+  "rows": [
+    {
+      "agent": "conductor.b",
+      "model": "opus",
+      "input_tokens": 2352,
+      "output_tokens": 150357,
+      "cache_read_tokens": 45506750,
+      "cache_write_tokens": 1048692,
+      "api_equivalent_usd": 18.48
+    },
+    {
+      "agent": "librarian",
+      "model": "opus",
+      "input_tokens": 194,
+      "output_tokens": 51948,
+      "cache_read_tokens": 13964387,
+      "cache_write_tokens": 538770,
+      "api_equivalent_usd": 7.17
+    },
+    {
+      "agent": "journalist",
+      "model": "opus",
+      "input_tokens": 348511,
+      "output_tokens": 141335,
+      "cache_read_tokens": 34768038,
+      "cache_write_tokens": 1218715,
+      "api_equivalent_usd": 18.57
+    },
+    {
+      "agent": "correspondent",
+      "model": "opus",
+      "input_tokens": 180,
+      "output_tokens": 45673,
+      "cache_read_tokens": 14020955,
+      "cache_write_tokens": 672695,
+      "api_equivalent_usd": 9.1
+    },
+    {
+      "agent": "synthetic",
+      "model": "opus",
+      "input_tokens": 733,
+      "output_tokens": 59782,
+      "cache_read_tokens": 19771436,
+      "cache_write_tokens": 746820,
+      "api_equivalent_usd": 11.13
+    },
+    {
+      "agent": "designer",
+      "model": "opus",
+      "input_tokens": 535,
+      "output_tokens": 153972,
+      "cache_read_tokens": 86195862,
+      "cache_write_tokens": 425402,
+      "api_equivalent_usd": 23.73
+    },
+    {
+      "agent": "designer.experiments",
+      "model": "sonnet",
+      "input_tokens": 642,
+      "output_tokens": 28248,
+      "cache_read_tokens": 9163872,
+      "cache_write_tokens": 572904,
+      "api_equivalent_usd": 3.5
+    },
+    {
+      "agent": "ontologist",
+      "model": "opus",
+      "input_tokens": 785,
+      "output_tokens": 80971,
+      "cache_read_tokens": 28528686,
+      "cache_write_tokens": 232035,
+      "api_equivalent_usd": 9.19
+    },
+    {
+      "agent": "devops",
+      "model": "opus",
+      "input_tokens": 187,
+      "output_tokens": 49332,
+      "cache_read_tokens": 15134105,
+      "cache_write_tokens": 730822,
+      "api_equivalent_usd": 9.86
+    },
+    {
+      "agent": "outreach",
+      "model": "opus",
+      "input_tokens": 2996,
+      "output_tokens": 50799,
+      "cache_read_tokens": 21689606,
+      "cache_write_tokens": 161229,
+      "api_equivalent_usd": 6.66
+    },
+    {
+      "agent": "sherpa",
+      "model": "opus",
+      "input_tokens": 692,
+      "output_tokens": 48925,
+      "cache_read_tokens": 15238041,
+      "cache_write_tokens": 481165,
+      "api_equivalent_usd": 7.88
+    },
+    {
+      "agent": "investors",
+      "model": "opus",
+      "input_tokens": 348502,
+      "output_tokens": 452360,
+      "cache_read_tokens": 60780624,
+      "cache_write_tokens": 2209582,
+      "api_equivalent_usd": 29.54
+    },
+    {
+      "agent": "researcher",
+      "model": "sonnet",
+      "input_tokens": 9312,
+      "output_tokens": 54518,
+      "cache_read_tokens": 18446402,
+      "cache_write_tokens": 157073,
+      "api_equivalent_usd": 3.03
+    },
+    {
+      "agent": "historian",
+      "model": "opus",
+      "input_tokens": 153,
+      "output_tokens": 40548,
+      "cache_read_tokens": 12320073,
+      "cache_write_tokens": 215354,
+      "api_equivalent_usd": 5.0
+    },
+    {
+      "agent": "customers",
+      "model": "opus",
+      "input_tokens": 550,
+      "output_tokens": 8047,
+      "cache_read_tokens": 2540981,
+      "cache_write_tokens": 57600,
+      "api_equivalent_usd": 1.13
+    },
+    {
+      "agent": "backup",
+      "model": "sonnet",
+      "input_tokens": 53,
+      "output_tokens": 12443,
+      "cache_read_tokens": 3100839,
+      "cache_write_tokens": 179213,
+      "api_equivalent_usd": 1.15
+    },
+    {
+      "agent": "dev",
+      "model": "opus",
+      "input_tokens": 542,
+      "output_tokens": 180279,
+      "cache_read_tokens": 88757633,
+      "cache_write_tokens": 398143,
+      "api_equivalent_usd": 24.56
+    },
+    {
+      "agent": "dev.pages",
+      "model": "sonnet",
+      "input_tokens": 708,
+      "output_tokens": 64971,
+      "cache_read_tokens": 18903883,
+      "cache_write_tokens": 951781,
+      "api_equivalent_usd": 6.35
+    },
+    {
+      "agent": "dev.search",
+      "model": "sonnet",
+      "input_tokens": 101,
+      "output_tokens": 16843,
+      "cache_read_tokens": 6084298,
+      "cache_write_tokens": 360897,
+      "api_equivalent_usd": 2.22
+    },
+    {
+      "agent": "dev.graphs",
+      "model": "sonnet",
+      "input_tokens": 128,
+      "output_tokens": 31221,
+      "cache_read_tokens": 8664502,
+      "cache_write_tokens": 526533,
+      "api_equivalent_usd": 3.29
+    },
+    {
+      "agent": "dev.portugal",
+      "model": "sonnet",
+      "input_tokens": 89,
+      "output_tokens": 15704,
+      "cache_read_tokens": 5342079,
+      "cache_write_tokens": 391019,
+      "api_equivalent_usd": 2.26
+    },
+    {
+      "agent": "dev.data",
+      "model": "sonnet",
+      "input_tokens": 44064,
+      "output_tokens": 32365,
+      "cache_read_tokens": 9651453,
+      "cache_write_tokens": 509080,
+      "api_equivalent_usd": 3.34
+    },
+    {
+      "agent": "dev.verify",
+      "model": "sonnet",
+      "input_tokens": 168,
+      "output_tokens": 31106,
+      "cache_read_tokens": 11275790,
+      "cache_write_tokens": 531635,
+      "api_equivalent_usd": 3.57
+    }
+  ]
+}

@@ -21,24 +21,24 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-252 cards (251 current, 0 superseded, 1 withdrawn), from the catalogue generated 2026-11-07T07:00:34Z at site v0.1.464; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+257 cards (256 current, 0 superseded, 1 withdrawn), from the catalogue generated 2026-11-07T09:59:38Z at site v0.1.497; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `LIB.AUTH` | 15 |
-| `LIB.CAT` | 57 |
+| `LIB.CAT` | 58 |
 | `LIB.DESK` | 24 |
-| `LIB.DOC` | 116 |
+| `LIB.DOC` | 117 |
 | `LIB.REAL` | 28 |
-| `LIB.STOCK` | 12 |
+| `LIB.STOCK` | 15 |
 
 Newest five accessions:
 
-- `ACC-20261107-0351` [Stocktake of the library, catalogue of 2026-11-07T03:58:37Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-0358.md) (`LIB.STOCK 2026-11-07-0358`)
-- `ACC-20261107-0350` [Stocktake of the library, catalogue of 2026-11-07T03:57:57Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-0357.md) (`LIB.STOCK 2026-11-07-0357`)
-- `ACC-20261107-0349` [Shelf list: TEAM, Agents, roles, keys (part 11 of 12)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-11.md) (`LIB.CAT TEAM-11`)
-- `ACC-20261107-0348` [Shelf list: PUB, The publication (part 3 of 3)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-3.md) (`LIB.CAT PUB-3`)
-- `ACC-20261107-0206` [Stocktake of the library, catalogue of 2026-11-07T00:59:57Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-0059.md) (`LIB.STOCK 2026-11-07-0059`)
+- `ACC-20261107-0439` [Q8: the night memos checked against the ideas ledger](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-q8-memos-against-the-ledger.md) (`LIB.STOCK 2026-11-07-q8-memos-against-the-ledger`)
+- `ACC-20261107-0438` [Stocktake of the library, catalogue of 2026-11-07T07:00:34Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-0700.md) (`LIB.STOCK 2026-11-07-0700`)
+- `ACC-20261107-0437` [Stocktake of the library, catalogue of 2026-11-07T06:59:51Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-0659.md) (`LIB.STOCK 2026-11-07-0659`)
+- `ACC-20261107-0436` [librarian@PrompTugal.dinis: hand-over debrief, 7 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-07-handover.md) (`LIB.DOC 2026-11-07-handover`)
+- `ACC-20261107-0435` [Shelf list: TEAM, Agents, roles, keys (part 12 of 12)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-12.md) (`LIB.CAT TEAM-12`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

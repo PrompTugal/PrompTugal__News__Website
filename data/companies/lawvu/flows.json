@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "lawvu",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "request-to-resolution",
+      "name": "A legal request goes from intake to resolution, with agents handing off to a lawyer (LawVu)",
+      "summary": "LawVu's LegalOS, in its own terms: requests enter through one front door, agents reason and act inside rules the legal team sets and hand off to a person when it matters; for complex work several agents coordinate with the right approvals.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "Someone in the business",
+          "what": "Sends a request (for example an MSA) through LawVu's intake, from any channel.",
+          "source": "fl1"
+        },
+        {
+          "actor": "LawVu",
+          "what": "Captures, triages and routes the request to the right person.",
+          "source": "fl1"
+        },
+        {
+          "actor": "LawVu's agents",
+          "what": "Reason and take action within the rules the legal team sets; for complex work several agents coordinate in order, with approvals.",
+          "agent": "Act within the team's rules.",
+          "source": "fl1"
+        },
+        {
+          "actor": "A lawyer",
+          "what": "Takes over when the agents hand off, at the points that matter.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The legal team",
+          "what": "Works through LawVu Assistant in natural language: it creates matters, assigns tasks and triggers workflows (\"Ask to Act\").",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}
