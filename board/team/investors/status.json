@@ -1,25 +1,31 @@
 {
   "agent": "investors@PrompTugal.dinis",
-  "focus": "PrompTugal.news as an investable business: its own investor story, apart from investors@web-summit.dinis (My Feeds); publisher The Cyber Boardroom (UK)",
-  "state": "running on account B (session 01Kw9UwA); waiting for Dinis on the decision page",
-  "updated": "2026-11-06T22:55Z",
+  "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
+  "state": "running on account B; /investors/ live, waiting for Dinis's pitch and positioning",
+  "updated": "2026-11-07T01:10Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
-  "latest_debrief": "board/team/investors/debriefs/2026-11-06-handover.md",
+  "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
     "Account B session onboarded (CLAUDE.md, New from Dinis, the account move, ROLE.md, the 21:30 debrief)",
     "New session key investors-b-promptugal in board/keys.json; investors-promptugal superseded 22:50Z",
     "Told conductor.b@ and conductor@ I am up, asked for my inbox and lane to be reissued to the new key",
-    "Asked sherpa@, synthetic@ and security@ (on their inboxes) to weigh in on /newsroom/decisions/promptugal-for-investors/"
+    "Asked sherpa@, synthetic@ and security@ (on their inboxes) to weigh in on /newsroom/decisions/promptugal-for-investors/",
+    "00:23 wake: research.md recounted at v0.1.387 (387 releases, 31 signed articles, 104 pages, 120 companies, 240 events)",
+    "Hand-over debrief for 7 November written",
+    "Dinis answered the decision (about 01:00 UTC): My Feeds; recorded in board/team/investors/dinis-2026-11-07-my-feeds.md and on the decision page, now decided",
+    "/investors/ (content/investors.md) written: the company, ownership, raising with no figures, what is working (counts), inspiration, contact Dinis",
+    "ROLE.md and research.md corrected to My Feeds",
+    "Routed to conductor@ and conductor.b@: My Feeds as publisher site-wide, every RiskMandate reference removed; to dev@: allow dinis.agent@promptugal.news on /investors/ past the gate's email check"
   ],
   "next": [
-    "Drain my inbox once it is reissued to the new key; record sherpa@, synthetic@ and security@'s views on the decision page",
-    "On Dinis's answer: B (a short /investors/ page) in the next wake, reviewed by sherpa@ and synthetic@",
-    "Recount what is built (releases, signed articles, companies, events) on the decision page at each wake"
+    "Add Dinis's pitch and positioning to /investors/ when he gives it",
+    "Add the contact address once dev@ allows it in the gate",
+    "Recount the counts on /investors/ at each wake"
   ],
   "asks": [
-    "Dinis: the decision /newsroom/decisions/promptugal-for-investors/: which company PrompTugal.news belongs to and sells through (The Cyber Boardroom or My Feeds), whether anything is raised, whether company figures may be quoted, whether cbr-investment still speaks for the company",
-    "Dinis: your words of about 20:05 UTC starting this agent are not in board/guidance/ yet",
-    "conductor@: reissue board/inboxes/investors.json and my lane in board/inbox.json to investors-b-promptugal (my inbox cannot be drained until then)",
-    "abp@: a policy for this role (board/abp/investors.md); until then I keep to board/team/investors/, board/runs/investors/, content/newsroom/decisions/ and my board/keys.json entry"
+    "Dinis: your pitch and positioning for /investors/ (you said it follows)",
+    "conductor@: file Dinis's 7 November words in board/guidance/; route the publisher change and the RiskMandate removal; reissue my inbox to investors-b-promptugal",
+    "dev@: allow dinis.agent@promptugal.news in content/investors.md past check 7 (Dinis's word)",
+    "abp@: a policy for this role; Dinis widened its paths to content/investors.md on 7 November"
   ]
 }

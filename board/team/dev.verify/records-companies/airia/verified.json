@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "airia",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/",
+      "status": 200,
+      "read": true,
+      "chars": 1405
+    },
+    {
+      "url": "https://websummit.com/attendees/lis26/770add22-7f4e-4d16-97f2-88e9696d503b/kevin-kiley/",
+      "status": 200,
+      "read": true,
+      "chars": 2171
+    },
+    {
+      "url": "https://airia.com/",
+      "status": 200,
+      "read": true,
+      "chars": 7561
+    }
+  ],
+  "spent_usd": 0.046,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Airia.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Airia LLC",
+          "note": "The Airia website's copyright line names the company as Airia LLC, and the site and the speaker listing in S1 both use the Airia name."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Airia LLC",
+          "note": "Source 3 identifies the company as Airia (specifically Airia LLC)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Airia LLC",
+          "note": "The source footer identifies the company as Airia LLC, supporting that the company is named Airia."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://airia.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Airia | AI Security & Governance Platform",
+          "note": "The page at https://airia.com/ is the Airia platform's own site, which is the company's website as the claim states."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://airia.com/",
+          "note": "The source confirms that https://airia.com/ is the official website for Airia."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://airia.com/",
+          "note": "Source S3 is the Airia website at https://airia.com/ and identifies the company as Airia."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: AI security and governance platform: one control layer for agents, models, tools, data access, runtime policy, red teaming and audit-ready evidence.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "AI Security & Governance Platform",
+          "note": "The homepage calls Airia an AI Security & Governance Platform and says \"One control plane across your entire AI stack,\" and its navigation and sections mention red teaming, runtime security and audit evidence, but the claim's exact wording (\"control layer,\" \"audit-ready evidence\") is not stated as a single self-description."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Airia | AI Security & Governance Platform",
+          "note": "Airia is identified as an AI security and governance platform, but the sources do not contain the specific description naming a single control layer for all the listed elements."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "One control plane across your entire AI stack.",
+          "note": "S3's homepage calls Airia an 'AI Security & Governance Platform' and says it provides one control plane across the AI stack, with red teaming and audit evidence listed."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "United States",
+          "note": "The Web Summit speaker profile for Kevin Kiley, CEO of Airia AI, lists 'United States' alongside the company's SaaS category, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": "S2",
+          "quote": "Kevin Kiley CEO Airia AI United States SaaS",
+          "note": "The source lists 'United States' under the speaker's entry without specifying whether the country refers to the company or the individual."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Airia AI United States",
+          "note": "The source lists Airia AI with United States on the speaker profile."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "CEO Airia AI",
+          "note": "Web Summit's Lisbon 2026 (lis26) attendee page lists Kevin Kiley as a speaker with the company Airia, and S1 places him as a speaker in a Lisbon 2026 session, which matches the claim's speaker's-company framing."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/",
+          "note": "Airia AI is listed alongside its CEO Kevin Kiley on the Web Summit Lisbon 2026 schedule."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Kevin Kiley CEO Airia AI",
+          "note": "S1 lists Kevin Kiley, CEO of Airia AI, as a speaker for a Web Summit Lisbon 2026 session."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

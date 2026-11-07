@@ -17,3 +17,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/the-account-move.
 - Today's home page is the default again; E is the first option. The switch: `assets/design/` (designs.json the list, design.tmpl the picker, design.css, design.js in <head>), `newsroom/build/features/designs.mjs` (marker `<!-- front:designs -->` after every design's marker). `?design=<id>` selects and keeps; localStorage `pt-design` in try/catch; `<html data-design>`; `window.PTDesign`; tool `design.variant`.
 - A design is offered once its layout is on the page as `.pt-design[data-design-of="<id>"]` in `page.before`; an unbuilt id falls back. A new design from dev.pages@: a feature like front-e.mjs, its marker before `<!-- front:designs -->`, its wrapper with `pt-design` and `data-design-of`, and a shot at `assets/design/shots/<id>.jpg` (640x480, our own screenshot, not Silvio's lab shot).
 - `?front=a` from the first E release is gone (it was live for under an hour).
+
+## 00:10 to 00:50 UTC, all eight designs (Dinis via conductor.b@, 00:05: "we should have the 8")
+- D, F, G mine, on `newsroom/build/lib/home.mjs` (tmpl, model, pieces, homeAssets): a design is `assets/front-<id>/` plus `features/front-<id>.mjs`. Countdown and ended-item trim for every design in `assets/design/design.js` (`data-countdown-at`, `li[data-end]`).
+- A, B, C are dev.pages@'s (`assets/front-abc/`, `lib/design-kit.mjs`): a second, similar helper; to fold into home.mjs.
+- Silvio's palettes not used: brand v2.0 tokens in every design until Dinis answers designer@'s palette question.
+- Screenshot lesson: a full-page Playwright shot leaves lazy images below the fold blank; not a bug of the page.

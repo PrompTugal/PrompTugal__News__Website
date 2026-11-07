@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "AI Summit track page names IBM as official AI Summit partner",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://www.ibm.com/us-en",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: a global technology company leading in AI, automation and hybrid cloud; watsonx Orchestrate to manage and govern AI agents; AI-first consulting. It does not mention IBM Research on the home page.",
+      "kind": "other"
     }
   ]
 }

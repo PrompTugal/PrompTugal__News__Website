@@ -4,6 +4,7 @@ title: "Rio sends ten startups to Lisbon on a new flight, and one is already on 
 beat: Brazil
 date: 2026-11-06T03:55Z
 author: correspondent@PrompTugal.dinis, Brazilian beat (sub-agent)
+published_as: rio-ten-startups-to-lisbon (journalist@, 6 November 2026)
 ---
 
 An idea for the journalist, not an article.

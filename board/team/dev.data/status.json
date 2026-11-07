@@ -1,38 +1,23 @@
 {
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
-  "state": "running every two hours from 21:20 UTC (Dinis: running a bit hot); past-summits in progress",
-  "updated": "2026-11-06T22:50Z",
+  "state": "running on account B (session 2d7ed5e8), every two hours; past-summits in progress",
+  "updated": "2026-11-07T00:45Z",
   "done": [
-    "My key: dev.data-promptugal in board/keys.json",
-    "ROLE.md and status.json",
-    "S9 (Brazil) timeline.json drafted from the 29 sourced claims: 22 events, each citing its source and claim",
-    "Rebased on dev; team-role and team-status schemas now accept dots, gate green for my role files",
-    "dev@ brought my first commit onto dev (dde295a); my branch now merges dev",
-    "Wake 08:31: dev merged, no hold, inbox tool unusable (no sgit_ai), schema unchanged",
-    "Wake 09:31: dev merged, no hold, schema line 28 unchanged, nothing passable",
-    "S9 timeline.json: 22 events, each citing its source and claim; gate OK (v0.1.209)",
-    "Wake 11:31: S9 timeline is on dev (fb394c2); the schema fix landed. Past summits: tried websummit.com/blog 2025 post, body is JS-rendered (no text over plain GET), nothing extracted",
-    "Wake 12:31: data/stories/past-summits/ started: one source (Silicon Republic, 23 Sep 2015, the announced move to Lisbon), 4 claims with exact quotes, 1 timeline event; gate OK (v0.1.243). Reuters and Wired pages of Wikipedia references return 401/404 to a plain fetch",
-    "Wake 13:31: past-summits now 3 sources (Silicon Republic 2015; TheJournal.ie 7 Nov 2016 and 14 Nov 2017), 10 claims each quote-checked against the fetched page, 3 timeline events; gate OK (v0.1.258)",
-    "Wake 14:11: conductor@ message read (material); pip install sgit-ai==0.27.0 done (CLAUDE.md names it); New from Dinis list read",
-    "Wake 14:31: past-summits +1 source (TheJournal.ie, 15 Aug 2018, the withdrawn Le Pen invitation), claims c11 to c13 quote-checked against the page, 1 timeline event; gate OK (v0.1.271). Inbox still cannot drain (ask below, unchanged)",
-    "Wake 15:31: past-summits +2 sources (RTE, 21 and 30 Oct 2023: the CEO resigns, the successor named), claims c14 to c18 quote-checked, 2 timeline events; gate OK (v0.1.281). Now 6 sources, 18 claims, 6 timeline events. Inbox still cannot drain (ask unchanged)",
-    "Wake 16:31: past-summits +1 source (The Irish Times, 24 Jan 2024, the CEO to NPR), claims c19 to c21 quote-checked, 1 timeline event; gate OK (v0.1.293). Now 7 sources, 21 claims, 7 timeline events. techpope.com (a 2019 pitch winner) has an expired TLS certificate: not fetched, verification not disabled",
-    "Wake 17:31: past-summits +1 source (TechCrunch, 2 Dec 2020: the online 2020 edition, Lisbon 2021 planned in person, a Brazil event to be placed in Rio or Porto Alegre), claims c22 to c24 quote-checked; timeline sorted by date; gate OK (v0.1.298). Now 8 sources, 24 claims, 8 timeline events. The c24 line is the 2020 root of Web Summit Rio, useful for S9",
-    "Wake 18:31: hand-over debrief written (board/team/dev.data/debriefs/2026-11-06-handover.md, per the 17:55 guidance); past-summits entities.json (9 entities, each with its sources); gate OK (v0.1.310)",
-    "Wake 19:31: past-summits +2 sources (The Irish Times, 2021: the in-person return and the 2019 accounts; publication dates not shown on the fetched pages, so none recorded), claims c25 to c29 quote-checked (70,469 attendees 2019, the 2016 move and 10-year deal, 104,000 online 2020, 47.9m euro revenue 2019, 40,000 expected 2021), 3 timeline events, entities updated; gate OK (v0.1.324). Now 10 sources, 29 claims, 11 timeline events. WebSearch (standard, allowed domains) found these",
     "Wake 20:31: past-summits +1 source (The Irish Times on Web Summit Rio, its first event outside Europe), claims c30 to c32 quote-checked, entities updated; gate OK (v0.1.338). Now 11 sources, 32 claims. The page shows no date, so no timeline event; a dated source for Rio (the Rio edition itself) is the next Brazil link for S9",
-    "Wake 22:31: past-summits +1 source (The Irish Times on the 10-year, 110m euro Lisbon deal to at least 2028), claims c33 to c35 quote-checked; entities updated (adds Web Summit 2026); gate OK (v0.1.364). Now 12 sources, 35 claims. Read the new account-B guidance: I stay on this account, every two hours"
+    "Wake 22:31: past-summits +1 source (The Irish Times on the 10-year, 110m euro Lisbon deal to at least 2028), claims c33 to c35 quote-checked; entities updated (adds Web Summit 2026); gate OK (v0.1.364). Now 12 sources, 35 claims. Read the new account-B guidance: I stay on this account, every two hours",
+    "Final hand-over debrief written at the conductor's message (22:40 UTC); everything in flight pushed",
+    "Account B wake 23:05: onboarded; new key dev.data-b-promptugal in board/keys.json (old superseded); notes in sessions/2d7ed5e8; told conductor.b@ and conductor@ on their inboxes (asked for my lane to be reissued). Past-summits +1 source (RTE 16 Feb 2024: Web Summit's 2022 accounts and the sold-out Lisbon 2022 edition), claims c36 to c38 quote-checked, entity event:web-summit-lisbon-2022, 1 timeline event; gate OK (v0.1.373). Now 13 sources, 38 claims",
+    "Account B wake 00:31 (7 Nov): merged dev, no hold; past-summits +1 source (RTE 14 Nov 2023, the Lisbon 2023 opening), claims c39 to c41 quote-checked, 1 timeline event; gate OK (v0.1.389). Now 14 sources, 41 claims. Searched for 2025 coverage on the five news domains: none found, so 2025 waits for a source"
   ],
   "next": [
-    "Past summits: 2022, 2025, the Rio edition itself, dates for the four undated pages",
+    "Past summits: 2025 (needs a source), the Rio edition itself, dates for the four undated pages",
     "S9 graph.json (verbs beyond the ontology: ask ontologist@)",
     "S9 blocks.json with journalist@",
-    "a fresh hand-over debrief before the day ends"
+    "a fresh hand-over debrief before the day ends (due: last one 6 Nov 18:45)"
   ],
   "asks": [
-    "Dinis: I cannot drain my inbox. sgit-ai 0.27.0 is installed, but the drain script (admin/tools/feedback_drain.py) is in SGit-AI/SGit-AI__Website__Web-Summit, which is not attached to this session (GitHub read denied), and ~/.sg-send/lanes has no lane credentials for me. Please attach that repository read-only (add_repo) or have conductor@ place the script and my lane file, so dev@ review notes reach me."
+    "Dinis: my inbox lane still points at my old key (board/inboxes/dev.data.json, updated 6 Nov 07:54); conductor.b@ and conductor@ asked at 23:12, not yet reissued. I cannot drain until it is."
   ],
   "debrief": "board/team/dev.data/debriefs/2026-11-06-handover.md"
 }

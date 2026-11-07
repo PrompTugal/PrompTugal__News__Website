@@ -5,9 +5,12 @@ written: 2026-11-06T20:30Z
 issue: WS-177
 status: a first picture for Dinis. No numbers about money, no projections. Every open question that is his is on the decision page.
 ---
+
+> **Superseded framing (7 November 2026, about 01:00 UTC, Dinis):** the company and publisher is My Feeds (MYFEEDS AI, UNIPESSOAL, LDA), not The Cyber Boardroom; PrompTugal is raising through it; The Cyber Boardroom's material is inspiration only. See `dinis-2026-11-07-my-feeds.md`. The sources and counts below stand as read.
+
 # PrompTugal.news for investors: round 1
 
-Public sources only, each with its link and the date read (6 November 2026 unless said). **Read** means the page was opened; **snippet** means only a search engine's summary was seen. Counts from this repository are as of commit `86e3933` on `dev` (v0.1.329), 6 November 2026, about 20:15 UTC.
+Public sources only, each with its link and the date read (6 November 2026 unless said). **Read** means the page was opened; **snippet** means only a search engine's summary was seen. Counts from this repository are as of commit `86e3933` on `dev` (v0.1.329), 6 November 2026, about 20:15 UTC; recounted at commit `0da53566` (v0.1.387), 7 November 2026, about 00:30 UTC (second column of the table below). Stories went from 75 files to 48 and organisations from 238 to 236: the folders were reorganised or merged by their owners, not checked here.
 
 ## 1. What it is {#what}
 
@@ -35,17 +38,17 @@ Public sources only, each with its link and the date read (6 November 2026 unles
 
 From this repository (counted with `ls`/`node`; nothing estimated):
 
-| What | Count | Where |
-|---|---|---|
-| Releases, each built, gated, tagged and deployed by CI | 329 (v0.1.1 on 4 November 2026 to v0.1.329 on 6 November 2026) | `newsroom/versions.json` |
-| Published, signed articles | 23 (each with a `.sig`) | `content/articles/`, `articles/*.sig` |
-| Pages (markdown sources) | 94 | `content/` |
-| Companies with sourced profiles | 120 | `data/companies/` |
-| Summit events, places, topics | 240, 83, 17 | `data/events/`, `data/places/`, `data/topics/` |
-| People (public and professional only), organisations | 264, 238 | `data/people/`, `data/organisations/` |
-| Story candidates | 75 files | `data/stories/` |
-| Agents' public keys (including other operators' agents) | 41 entries | `board/keys.json` |
-| Role folders of this team | 27 (with this one) | `board/team/` |
+| What | Count at v0.1.329 (6 Nov, 20:15 UTC) | Recount at v0.1.387 (7 Nov, 00:30 UTC) | Where |
+|---|---|---|---|
+| Releases, each built, gated, tagged and deployed by CI | 329 (v0.1.1 on 4 November 2026 to v0.1.329 on 6 November 2026) | 387 (to v0.1.387 on 7 November 2026) | `newsroom/versions.json` |
+| Published, signed articles | 23 (each with a `.sig`) | 31 signatures, 32 article files | `content/articles/`, `articles/*.sig` |
+| Pages (markdown sources) | 94 | 104 | `content/` |
+| Companies with sourced profiles | 120 | 120 | `data/companies/` |
+| Summit events, places, topics | 240, 83, 17 | 240, 83, 17 | `data/events/`, `data/places/`, `data/topics/` |
+| People (public and professional only), organisations | 264, 238 | 264, 236 | `data/people/`, `data/organisations/` |
+| Story candidates | 75 files | 48 files | `data/stories/` |
+| Agents' public keys (including other operators' agents) | 41 entries | 60 entries, 41 active (account B superseded many) | `board/keys.json` |
+| Role folders of this team | 27 (with this one) | 28 | `board/team/` |
 
 What sells and what is only designed is customers@'s map, not mine: one thing is on sale (the 5 pound reading top-up); 19 packages and 20 products are proposals; the flagship is "the personalisation and event management platform being made for this summit by proxy", not for sale until the summit shows it works (`board/team/customers/monetisation-map.md`, `products.json`, `briefs/2026-11-06-the-event-platform.md`).
 

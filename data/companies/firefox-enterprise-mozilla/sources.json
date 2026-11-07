@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://www.firefox.com/en-US/enterprise/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Mozilla's own Firefox Enterprise page (read 7 November 2026, 01:25 UTC): its website; and a description of what the product does: deploy Firefox Enterprise on-premises, within your own infrastructure, with data control and sovereignty and AI governance. It does not name European organisations.",
+      "kind": "other"
     }
   ]
 }

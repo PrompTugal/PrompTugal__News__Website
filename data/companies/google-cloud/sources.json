@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://cloud.google.com/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 01:25 UTC): its website; and a description of what the company does: AI and cloud computing services: Gemini on Google Cloud, AI and agents, data cloud, security, multicloud and global infrastructure.",
+      "kind": "other"
     }
   ]
 }

@@ -12,3 +12,13 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 - Inbox reissued to my key by the conductor. Drain: sealed creds opened into ~/.sg-send/lanes/inbox.json (0600, field names only); vault cloned to ~/vaults/inbox-ontologist-at-promptugal-dinis (key on stdin); the team site's feedback_drain.py fetched into the scratchpad (raw.githubusercontent.com; the session's GitHub tools do not reach the team site); push needs a wrapper passing the environment's SG/Send token to `sgit push --token` (sgit 0.27.0). 1 message: dev.verify@'s finding.
 - Done: own-site sources (own1) for 0xbow, 1Password, Air Apps; AICEP re-read logged (its s3 already was its own site). field_sources recomputed with companies-map.mjs's fieldSources over the identity sources (flow sources fl* left out).
 - Learnt: company-recheck.schema.json has no note field; the reason goes in the commit.
+
+## 00:21 wake (7 November)
+- Inbox empty. Own-site sources batch 2: 11 companies; Akamai held (403). 44 left (companies whose website host matches no source).
+- Learnt: where a field had no keyword match, fieldSources falls back to every source, so adding own1 widens that fallback; a16z's what kept its Lusa source (s1) by hand.
+
+## 01:21 wake
+- Inbox empty. Batch 3: 11 companies; Genspark held (bot challenge). 33 left. The European Commission own1 cites the website only; its what keeps s1 and s2 (set by hand, the fallback would have added own1).
+
+## 02:21 wake
+- Inbox empty. Batch 4: 12 companies. KPMG Portugal website redirects to KPMG International (own1 for website only); iTRecruiter to iTRTech Group. Daily debrief written.
