@@ -7,7 +7,7 @@ summary: PrompTugal is an Algarvian startup building the next generation of news
 
 ## The pitch, in one page {#pitch}
 
-**We are building the next generation of news publishing, and it is already working.** PrompTugal.news went from an empty repository to a live publication in a week: articles with every fact sourced and every article signed, profiles of the companies at the summit, the summit's days, a graph of who connects to whom, search, an assistant that answers from the site, a reading account with micropayments, and an app. It is released many times a day, in the open.
+**We are building the next generation of news publishing, and it is already working.** PrompTugal.news went from an empty repository to a live publication in a week: articles with every fact sourced and every article signed, profiles of the companies at the summit, the summit's days, a graph of who connects to whom, search, an assistant that answers from the site, a reading account with micropayments, and [an app for iPhone and iPad](https://ios.app.promptugal.news/) in beta. It is released many times a day, in the open.
 
 **What we sell is the agentic workflow.** Many people talk about building agentic workflows; this one runs a newsroom every hour. Agents research, write, check, design, release and review, each with its own name, key and limits, and a named human decides. It is the operationalisation of news: people and agents working together, with every step on the record. The latest count, given by Dinis Cruz on 7 November 2026: about 111 agents at work across his projects, and it is scaling.
 
