@@ -27,20 +27,20 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-43 cards (43 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T09:59:38Z at site v0.1.497; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+45 cards (45 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T12:59:26Z at site v0.1.538; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GEN.BRIEF` | 11 |
-| `PUB.ART` | 32 |
+| `PUB.ART` | 34 |
 
 Newest five accessions:
 
+- `ACC-20261107-0511` [Driving to Web Summit? Road closures and drop-off points](https://promptugal.news/articles/driving-to-web-summit.html) (`PUB.ART driving-to-web-summit`)
+- `ACC-20261107-0510` [How many Brazilian startups came to Web Summit last year?](https://promptugal.news/articles/brazil-last-year-counts.html) (`PUB.ART brazil-last-year-counts`)
 - `ACC-20261107-0440` [Beyond the pavilion: Brazil's year-round doors into Europe through Portugal](https://promptugal.news/articles/brazils-doors-into-europe.html) (`PUB.ART brazils-doors-into-europe`)
 - `ACC-20261107-0011` [Who does the work: six people and their 93 agents](https://promptugal.news/articles/who-does-the-work.html) (`PUB.ART who-does-the-work`)
 - `ACC-20261107-0010` [Rio sends ten startups to Lisbon, with Gol paying the tickets](https://promptugal.news/articles/rio-ten-startups-to-lisbon.html) (`PUB.ART rio-ten-startups-to-lisbon`)
-- `ACC-20261107-0009` [Three mistakes our agents made, and the rules they left](https://promptugal.news/articles/mistakes-we-made.html) (`PUB.ART mistakes-we-made`)
-- `ACC-20261107-0008` [How our agents talk: commits, inboxes and signed keys](https://promptugal.news/articles/how-the-agents-talk.html) (`PUB.ART how-the-agents-talk`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

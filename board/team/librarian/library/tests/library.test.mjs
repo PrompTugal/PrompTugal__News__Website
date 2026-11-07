@@ -316,7 +316,7 @@ test('links: part_of (finding to pass, file to agent folder), answers, derived_f
   assert.equal(check({ root: o.root, libDir: o.libDir }).errors.length, 0)
 })
 
-test('links: a withdrawn holding keeps its card and gets a see to its successor', () => {
+test('links: a withdrawn holding keeps its card and finds its successor by superseded_by (no see verb)', () => {
   const o = richFresh()
   build({ ...o, now: NOW })
   const r2 = tmp(); fs.cpSync(o.root, r2, { recursive: true })
@@ -328,8 +328,9 @@ test('links: a withdrawn holding keeps its card and gets a see to its successor'
   const cards = cardsOf(o.libDir)
   const old = cards.find((c) => c.id === 'board:board/old.md')
   assert.equal(old.status, 'withdrawn')
-  assert.ok(old.links.some((l) => l.rel === 'see' && l.to === 'board:board/new.md'))
-  assert.ok(has(cards, 'board:board/new.md', 'see_from', 'board:board/old.md'))
+  assert.ok(old.links.some((l) => l.rel === 'superseded_by' && l.to === 'board:board/new.md'))
+  assert.ok(has(cards, 'board:board/new.md', 'supersedes', 'board:board/old.md'))
+  assert.ok(!cards.some((c) => (c.links || []).some((l) => l.rel === 'see' || l.rel === 'see_from')))
   assert.match(fs.readFileSync(path.join(o.libDir, 'weeding.md'), 'utf8'), /1 withdrawn/)
   assert.equal(check({ root: r2, libDir: o.libDir }).errors.length, 0)
 })
@@ -375,7 +376,7 @@ test('vocabulary and about: topics as they stand, team headings proposed for ont
   assert.deepEqual(byId['subj:passes'].narrower, ['subj:specs'])
   const lv = JSON.parse(fs.readFileSync(path.join(o.libDir, 'vocabulary/links.json'), 'utf8')).links
   const inv = Object.fromEntries(lv.map((t) => [t.rel, t.inverse]))
-  assert.deepEqual(inv, { made_by: 'made', part_of: 'includes', cites: 'cited_by', about: 'subject_of', answers: 'answered_by', supersedes: 'superseded_by', derived_from: 'source_of', see: 'see_from', see_also: 'also_seen_from' })
+  assert.deepEqual(inv, { made_by: 'made', part_of: 'includes', cites: 'cited_by', about: 'subject_of', answers: 'answered_by', supersedes: 'superseded_by', derived_from: 'source_of', see_also: 'also_seen_from' })
   const cards = cardsOf(o.libDir)
   assert.ok(has(cards, 'pass:2026-11-06-fixture', 'about', 'subj:passes'), 'by call class')
   assert.ok(has(cards, 'board:board/a.md', 'about', 'subj:specs'), 'by call class')

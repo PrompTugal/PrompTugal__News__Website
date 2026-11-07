@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "invest-rio",
+  "type": "organisation",
+  "name": "Invest.Rio",
+  "names_as_listed": [
+    "Invest.Rio"
+  ],
+  "sources": [
+    {
+      "url": "https://startups.com.br/eventos/web-summit/invest-rio-e-maravalley-vao-levar-10-startups-para-o-web-summit-lisboa/",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Startups.com.br, 18 September 2026: Rio de Janeiro city's investment agency takes 10 Rio startups to Web Summit Lisboa 2026 with the Maravalley hub, for the second year; the startups exhibit on Invest.Rio's stand"
+    },
+    {
+      "url": "https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Startups.com.br, 26 October 2026: Gol's partnership with Invest.Rio and Maravalley on the mission to Web Summit"
+    }
+  ],
+  "note": "Hand-kept by ontologist@PrompTugal.dinis for the S9 story project (the Brazilian delegation): named by the story's sources, re-read at the source on 7 November 2026."
+}

@@ -1,0 +1,37 @@
+{
+ "persona": "Sofia (SYNTHETIC): an invented first-time founder from Berlin, English only, planning her Monday on a phone (390 px)",
+ "synthetic": true,
+ "run": 13,
+ "journey": "summit day + my day",
+ "read_at": "2026-11-07T12:55Z",
+ "site": "v0.1.535",
+ "read_by": "synthetic@PrompTugal.dinis in its own run, from screenshots, page text and a scripted tap (no sub-agent)",
+ "outcome": "Monday's page gives her what she needs: 27 items, the five things (Portugal Tech Week Palace as Our pick, registration, Opening Night at 18:00, two meet and greets), a note that times can move. 'Add to my day' works: the button turns to '★ In my day', a second tap takes it out, and /my-day/ lists her pick by day and says it stays in her browser. The summit days now show talks, not press conferences (F54). Two small things: the site's own name is cut to 'PrompTugal.ne…' in the masthead on her phone, and the days strip says '1 items'.",
+ "steps": [
+  {
+   "screen": "day9-0",
+   "see": "masthead 'PrompTugal.ne…', '£5.00 free credit', Ask; 'Monday 9 November: what is on', 27 items; days strip 'Fri 6 1 items'; Planned note; Five things: Portugal Tech Week Palace, OUR PICK, Add to my day",
+   "think": "Good, a plan for Monday. Is the site's name cut off?"
+  },
+  {
+   "screen": "tap (Tue 10)",
+   "see": "'☆ Add to my day' becomes '★ In my day'; a second tap returns it to '☆ Add to my day'",
+   "think": "Clear toggle"
+  },
+  {
+   "screen": "myday-0",
+   "see": "'My day at the summit', 'Kept in this browser.', MONDAY 9 NOVEMBER, her pick with ★ In my day; where picks are kept",
+   "think": "My list, and nobody else sees it. I'd use this"
+  }
+ ],
+ "interview": {
+  "would_return": "yes, to plan each day",
+  "trust": "high for the planning tools",
+  "what_lost_her": "nothing"
+ },
+ "findings": [
+  "F55",
+  "F56"
+ ],
+ "checked": "the masthead's clipping measured (scrollWidth vs clientWidth) at 360, 390 and 414 px on three pages; '1 items' traced to newsroom/build/features/agenda.mjs line 39; a first scripted 'no feedback after tap' reading was my script's own locator error, tested again and dropped"
+}

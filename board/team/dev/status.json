@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 12:08 done (v0.1.529)",
-  "updated": "2026-11-07T12:45Z",
+  "state": "running on account B; wake 13:08 done (v0.1.543)",
+  "updated": "2026-11-07T13:45Z",
   "done": [
+    "Wake 13:08: offline O6 (index.html and / one page, tested), O4 refinements, F55 (the pill short on a narrow phone, the masthead name whole); five worker branches brought.",
     "Wake 12:08: offline round 2 (O3 the offline page as a page of the site, grouped and timed; O4 the kept mark), tested offline in Chromium; security@'s decks condition taken; dev.search brought.",
     "Wake 11:08: the investor decks as pages (/investors/decks/<name>/, Dinis 09:45); the summit days read the correspondent's day_picks (F54); the small graphs draw built_on and sells_on (ontologist@); five worker branches brought.",
     "Wake 10:08: offline O1 to O3 (tabs and coming events kept, query URLs answered, the offline page lists what is kept), tested offline in Chromium; places in today's Now and next (H2); dev.search brought.",
@@ -61,6 +62,7 @@
     "My Feeds as publisher and the RiskMandate removals when the conductor routes them"
   ],
   "asks": [
+    "Dinis: the reading top-up in euros (your 12:50 word, board/team/investors/decks/FACTS.md) needs a euro Stripe Payment Link that only you can create; send it (or its address) and I move the meter, data/billing/topup.json, the account and pricing pages to euros in one release. Until then the live product stays in pounds, so no reader sees euros and pays pounds.",
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
     "Dinis or devops@: the release script should refuse to push while a hold is on dev (board/the-team-setup.md); an ABP hook stops me touching anything that names the hold file, so I left it",
     "abp@ or Dinis: add newsroom/notes/** (the notes' signatures, newsroom/notes/<note>/index.md.sig, which sit beside the built twin) and content/index.md (the front page: dev.pages' fills, logged R6 at 15:09), content/articles/index.md, content/portugal/** (my workers' pages) to my grant; each logs an R6 breach when I write or bring it",

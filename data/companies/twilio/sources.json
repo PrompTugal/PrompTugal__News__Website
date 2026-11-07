@@ -33,6 +33,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "kind": "other",
       "supports": "AWS Marketplace's public search for \"Twilio\" (read 7 November 2026, 10:35 UTC, in a headless browser, no sign-in; re-checking researcher@'s round 1, desks/researcher/centres-of-gravity-aws-marketplace-round-1.md): the first results include \"Twilio SendGrid Email\" and \"Twilio Segment\", by Twilio (the edge sells_on AWS)."
+    },
+    {
+      "id": "bo1",
+      "url": "https://temporal.io/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Temporal's home page (read 7 November 2026, 05:30 and 13:30 UTC): \"Twilio left their homegrown systems for Temporal Cloud\" (with a link to Twilio's talk), among its customer stories (the edge built_on Temporal)."
     }
   ]
 }

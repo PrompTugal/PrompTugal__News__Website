@@ -2,7 +2,7 @@
   "agent": "dev.verify@PrompTugal.dinis",
   "focus": "the verification pipeline: several models re-check every fact against its source; verified block on each page",
   "state": "running on account B (session 1b292349)",
-  "updated": "2026-11-07T11:05Z",
+  "updated": "2026-11-07T13:05Z",
   "done": [
     "Session key made, public half in board/keys.json (dev.verify-promptugal)",
     "newsroom/tools/verify/verify.mjs v0.1; first record board/team/dev.verify/records/europe-in-pavilion-4/ (10 claims, 3 models, all supported, 0.12 USD)",
@@ -24,7 +24,8 @@
     "Wake 04:48 (7 Nov): no hold; inbox drained (empty); journalist@ has acted on round 1 of the flags (commits b26376f0, 6321d309); re-checked the two articles it changed on fresh claims (rio-ten-startups-to-lisbon 7/12, wednesday-11-november-going-abroad 7/12: a new claim set, so not comparable with the earlier 10/12) and the new agent-setup-guide 5/12; 0.31 USD; flags regenerated",
     "Wake 06:48 (7 Nov): no hold; inbox empty; lisbon-awards-and-the-algarve-plan re-checked after a change: 12/12; three more companies (arima 3/5, atlassian 3/5, cerebras 2/5); 15 of 120 done; about 0.22 USD; credit about 17.5 USD; daily debrief debriefs/2026-11-07-handover.md",
     "Wake 08:48 (7 Nov): no hold; inbox empty; new article brazils-doors-into-europe 7/12 (0.30 USD, it hit the per-article cap); three more companies (chatplace 4/5, cisco-outshift 1/5, cloudflare 2/5); 18 of 120 done; flags regenerated",
-    "Wake 10:48 (7 Nov): no hold; inbox empty; two new articles: brazil-last-year-counts 11/12 (0.34 USD), driving-to-web-summit 8/12 (0.10 USD); flags regenerated; credit about 15.6 USD"
+    "Wake 10:48 (7 Nov): no hold; inbox empty; two new articles: brazil-last-year-counts 11/12 (0.34 USD), driving-to-web-summit 8/12 (0.10 USD); flags regenerated; credit about 15.6 USD",
+    "Wake 12:48 (7 Nov): no hold; inbox empty; three edited articles re-checked on fresh claims: driving-to-web-summit 8->10/12, rio-ten-startups-to-lisbon 7->10/12 (new claim sets, so indicative), agent-setup-guide 5->3/12 (a guide whose steps the cited pages do not state); 0.31 USD; credit about 14.2 USD; flags regenerated"
   ],
   "next": [
     "More companies, each with its own website added as a source",

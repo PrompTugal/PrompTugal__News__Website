@@ -61,6 +61,7 @@
       "label": "Web Summit 2022, Lisbon",
       "kind": "event",
       "sources": [
+        "irishtimes-2024-11-19-accounts-2023",
         "rte-2024-02-16-accounts-2022"
       ]
     },
@@ -72,6 +73,14 @@
         "rte-2023-10-21-cosgrave-resigns",
         "rte-2023-10-30-new-ceo",
         "rte-2023-11-14-opens-in-lisbon"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2024",
+      "label": "Web Summit 2024, Lisbon",
+      "kind": "event",
+      "sources": [
+        "irishtimes-2024-11-19-accounts-2023"
       ]
     },
     {
@@ -107,6 +116,7 @@
       "sources": [
         "irishtimes-2021-revenues-2019",
         "irishtimes-2024-01-24-maher-leaves",
+        "irishtimes-2024-11-19-accounts-2023",
         "irishtimes-web-summit-rio-first-outside-europe",
         "irishtimes-web-summit-stays-in-lisbon-until-2028",
         "rte-2023-10-21-cosgrave-resigns",

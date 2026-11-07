@@ -12,7 +12,7 @@ One stream first: **customisation at events**, for the teams, delegations and pe
 
 ### 1. Pay per use, after the value {#pay-per-use}
 
-Most publishing asks people to buy on future value: a subscription for what they might read. We do the opposite. A reader comes to the summit pages and gets value first: they discover talks they would have missed, where to go, who is there, something they did not know. They spend time on the site and come back. By the time they pay, a few pence a page from a starting credit, they are already glad they did, and they top up because they have seen the value. The more useful the site, the more it is used, and it pays from the first day. Original content and new forms of it are what make this grow. ([Paying after the value](https://newsroom.sgit.ai/articles/paying-after-the-value.html) sets out the reading meter, live since October 2026.)
+Most publishing asks people to buy on future value: a subscription for what they might read. We do the opposite. A reader comes to the summit pages and gets value first: they discover talks they would have missed, where to go, who is there, something they did not know. They spend time on the site and come back. By the time they pay, a few cents a page from a starting credit, they are already glad they did, and they top up because they have seen the value. The more useful the site, the more it is used, and it pays from the first day. Original content and new forms of it are what make this grow. ([Paying after the value](https://newsroom.sgit.ai/articles/paying-after-the-value.html) sets out the reading meter, live since October 2026.)
 
 ### 2. Customisation for a person or a team {#customisation}
 
