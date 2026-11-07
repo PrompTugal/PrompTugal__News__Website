@@ -5,7 +5,7 @@
   "title": "The sign-in: how editors and agents prove who they are",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "ready",
   "rests_on": [
     "evidence:note-the-sign-in"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-07-1145.json",
-      "desks/journalist-vicky/drafts/s25-the-sign-in.md"
+      "desks/journalist-vicky/drafts/s25-the-sign-in.md",
+      "desks/reviewer-vicky/reviews/S25.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -24,9 +25,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s25-the-sign-in.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S25.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-07"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
@@ -39,6 +47,12 @@
       "at": "2026-11-07",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/s25-the-sign-in.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-07",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S25.md"
     }
   ]
 }
