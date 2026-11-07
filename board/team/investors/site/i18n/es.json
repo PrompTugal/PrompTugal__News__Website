@@ -20,7 +20,9 @@
     "footer_library": "En profundidad",
     "footer_back": "PrompTugal.news, la publicación",
     "footer_who": "¿Quién es usted?",
-    "fallback": "Esta página aún no está traducida; aquí está en"
+    "fallback": "Esta página aún no está traducida; aquí está en",
+    "footer_counts": "Recuento de páginas: sin cookie y sin guardar direcciones IP. Para saber la ciudad, el navegador pregunta a un servicio de localización, que ve la dirección IP. Do Not Track o Global Privacy Control lo desactivan todo.",
+    "fab": "Su opinión"
   },
   "feedback": {
     "title": "¿Qué le parece?",
@@ -29,7 +31,7 @@
     "more": "Quiero saber más",
     "notforme": "No es para mí",
     "write": "Escribir a Dinis Cruz",
-    "note": "El clic se cuenta sin saber quién es usted: sin cookies, sin cuenta, sin formulario."
+    "note": "Un clic se cuenta con el recuento de páginas del sitio: sin cookie, sin cuenta, sin formulario, y el sitio no guarda ninguna dirección IP."
   },
   "route": {
     "title": "Su recorrido",
@@ -62,7 +64,7 @@
         "d": "Un CEO del sector de las noticias, periodistas muy técnicos, colaboradores esta semana."
       },
       "publishers": {
-        "t": "Soy editor o trabajo en medios",
+        "t": "Edito, trabajo en medios, o los financio",
         "d": "Cómo se estancaron las noticias, y una salida que ya funciona."
       },
       "algarve": {
@@ -106,7 +108,7 @@
     "decks_title": "Nueve presentaciones, una historia",
     "decks_lead": "Cada una responde a una pregunta distinta. Empiece por el mapa, o lea todas las diapositivas en orden.",
     "decks_all": "Todas las presentaciones",
-    "decks_seq": "Leerlas todas en orden",
+    "decks_seq": "Todas las diapositivas de un vistazo",
     "articles_title": "Para leer y compartir",
     "articles_all": "Todos los artículos"
   },
@@ -138,7 +140,7 @@
       ],
       "next_title": "Qué pasa después",
       "next": [
-        "Hace clic abajo, o escribe una línea.",
+        "Haga clic abajo o escríbanos una línea.",
         "Dinis Cruz responde, con lo que usted pidió.",
         "La valoración y las condiciones, en una conversación con quienes ponen el dinero sobre la mesa."
       ]
@@ -170,7 +172,7 @@
       ],
       "next_title": "Qué pasa después",
       "next": [
-        "Escribe, o hace clic abajo.",
+        "Escríbanos o haga clic abajo.",
         "Respondemos con lo que haría falta.",
         "Un piloto; los precios se publican una vez probados."
       ]
@@ -202,20 +204,20 @@
       ],
       "next_title": "Qué pasa después",
       "next": [
-        "Hace clic abajo, o escribe una línea.",
-        "Ayuda esta semana, a la vista.",
+        "Haga clic abajo o escríbanos una línea.",
+        "Ayude esta semana, a la vista.",
         "Cuando llegue la inversión, el plan es que todos cobren y tengan participación; aún no se promete nada."
       ]
     },
     "publishers": {
       "title": "Las noticias se estancaron. He aquí una salida que funciona.",
       "summary": "Para editores y medios: por qué las noticias están estancadas, qué quieren los lectores, procedencia y privacidad, un piloto en una sección; su recorrido por las presentaciones y cómo decirnos en qué nos equivocamos.",
-      "kicker": "Para editores y medios",
+      "kicker": "Para editores, medios y quienes los financian",
       "lead": "La procedencia de cada dato, ningún rastreo, el pago después del valor, y agentes que hacen el trabajo repetible mientras los editores deciden.",
       "points": [
         {
           "t": "Los lectores necesitan una historia durante más tiempo del que el periódico la cuenta",
-          "d": "El periódico la abre cinco veces; los lectores la necesitan durante cincuenta y siete días (el puente, una simulación)."
+          "d": "En una simulación en una ciudad ficticia (The bridge), el periódico abrió con la historia cinco veces; los lectores la necesitaron cincuenta y siete días."
         },
         {
           "t": "Una confianza que se puede comprobar",
@@ -230,11 +232,11 @@
       "asks": [
         "Lea la presentación 2 y díganos en qué nos equivocamos.",
         "Proponga una sección para un piloto.",
-        "Díganos por qué pagarían sus lectores."
+        "Si financia medios independientes: díganos qué necesitaría un piloto para optar."
       ],
       "next_title": "Qué pasa después",
       "next": [
-        "Hace clic abajo, o escribe una línea.",
+        "Haga clic abajo o escríbanos una línea.",
         "Respondemos y compartimos lo que aprendimos.",
         "Un piloto, si le parece que tiene sentido."
       ]
@@ -266,7 +268,7 @@
       ],
       "next_title": "Qué pasa después",
       "next": [
-        "Escribe, o hace clic abajo.",
+        "Escríbanos o haga clic abajo.",
         "Nos reunimos, en el Algarve o en Web Summit.",
         "Un primer proyecto juntos."
       ]
@@ -298,7 +300,7 @@
       ],
       "next_title": "Qué pasa después",
       "next": [
-        "Hace un fork, o clic abajo.",
+        "Haga un fork o haga clic abajo.",
         "Leemos su issue en público.",
         "Lo construimos juntos, o lo construye usted."
       ]
@@ -309,7 +311,7 @@
     "summary": "Diez presentaciones: el mapa y luego nueve, cada una para responder a una pregunta distinta, para inversores, socios, quienes quieren participar, el ecosistema del Algarve y desarrolladores. En el navegador o en PDF, en inglés, portugués, español y francés.",
     "lead": "El mapa y luego nueve presentaciones, cada una para una pregunta distinta. En el navegador o en PDF, en cuatro idiomas.",
     "open": "Abrir",
-    "seq_title": "Leerlas todas en orden",
+    "seq_title": "Todas las diapositivas de un vistazo",
     "seq_lead": "Todas las diapositivas de todas las presentaciones, en orden, de un vistazo. Haga clic en una diapositiva para abrirla.",
     "langs_note": "En inglés, portugués, español y francés.",
     "vote": "Vote por el próximo idioma",
@@ -328,7 +330,7 @@
     }
   },
   "sequence": {
-    "title": "Todas las presentaciones, en orden",
+    "title": "Todas las diapositivas de un vistazo",
     "summary": "Todas las diapositivas de todas las presentaciones de PrompTugal, en orden, de un vistazo: primero el mapa y luego las nueve presentaciones. Haga clic en una diapositiva para abrirla en el navegador.",
     "lead": "Todas las diapositivas, en orden. Haga clic en una para abrirla; siga leyendo con las flechas del teclado.",
     "slides": "diapositivas"
@@ -353,12 +355,12 @@
     "issue_t": "Abra un issue",
     "issue_d": "Para desarrolladores, y para cualquier error del sitio: en público, en el repositorio.",
     "issue_cta": "Abrir un issue",
-    "privacy": "Lo que escriba queda entre usted y Dinis Cruz; nada de lo que envíe se publica aquí."
+    "privacy": "Nada de lo que escriba se publica aquí."
   },
   "thanks": {
     "title": "Gracias",
-    "summary": "Su clic se ha contado, sin saber quién es usted. Una línea suya nos diría más.",
-    "lead": "Su clic se ha contado, sin saber quién es usted: sin cookies, sin cuenta. Una línea suya nos diría mucho más.",
+    "summary": "Su clic se ha contado: sin cookie, sin cuenta. Una línea suya nos diría mucho más.",
+    "lead": "Su clic se ha contado: sin cookie, sin cuenta. Una línea suya nos diría mucho más.",
     "write": "Escriba una línea a Dinis Cruz",
     "back": "Volver al inicio"
   },
@@ -373,7 +375,10 @@
   "library": {
     "title": "En profundidad",
     "summary": "La versión larga de todo lo que hay en el sitio para inversores: la propuesta, el plan de negocio, lo que funciona hoy, My Feeds, cómo llegamos aquí, la competencia, nuestras ideas, las reglas del juego, cómo sumarse, socios, eventos, editores, contacto con empresas e idiomas.",
-    "lead": "La versión larga de todo lo que hay en este sitio."
+    "lead": "La versión larga de todo lo que hay en este sitio.",
+    "titles": {
+      "changelog": "Qué ha cambiado en las presentaciones"
+    }
   },
   "persona": {
     "made_for": "Una versión de este sitio hecha para",

@@ -8,7 +8,7 @@
       "involved": "Rejoindre",
       "publishers": "Éditeurs",
       "algarve": "Algarve",
-      "builders": "Bâtisseurs",
+      "builders": "Développeurs",
       "decks": "Decks",
       "articles": "Articles",
       "contact": "Contact"
@@ -20,7 +20,9 @@
     "footer_library": "En détail",
     "footer_back": "PrompTugal.news, la publication",
     "footer_who": "Qui êtes-vous ?",
-    "fallback": "Cette page n’est pas encore traduite ; la voici en"
+    "fallback": "Cette page n’est pas encore traduite ; la voici en",
+    "footer_counts": "Mesure d’audience : sans cookie, et aucune adresse IP conservée. Pour connaître la ville, le navigateur interroge un service de localisation, qui voit l’adresse IP. Do Not Track ou Global Privacy Control désactivent tout.",
+    "fab": "Votre avis"
   },
   "feedback": {
     "title": "Qu'en pensez-vous ?",
@@ -29,7 +31,7 @@
     "more": "Dites-m'en plus",
     "notforme": "Pas pour moi",
     "write": "Écrire à Dinis Cruz",
-    "note": "Un clic est compté sans savoir qui vous êtes : pas de cookie, pas de compte, pas de formulaire."
+    "note": "Un clic est compté avec les mesures d’audience du site : sans cookie, sans compte, sans formulaire, et le site ne garde aucune adresse IP."
   },
   "route": {
     "title": "Votre parcours",
@@ -39,7 +41,7 @@
   },
   "home": {
     "title": "PrompTugal pour les investisseurs et les partenaires",
-    "summary": "L'information de nouvelle génération fonctionne déjà. Qui êtes-vous ? Investisseurs, entreprises partenaires, personnes qui veulent s'impliquer, éditeurs, écosystème de l'Algarve et bâtisseurs : le chemin le plus court vers ce qu'il vous faut, et un moyen de nous dire ce que vous en pensez.",
+    "summary": "L'information de nouvelle génération fonctionne déjà. Qui êtes-vous ? Investisseurs, entreprises partenaires, personnes qui veulent s'impliquer, éditeurs, écosystème de l'Algarve et développeurs : le chemin le plus court vers ce qu'il vous faut, et un moyen de nous dire ce que vous en pensez.",
     "kicker": "De l'Algarve, pour l'Europe",
     "h1": "L'information de nouvelle génération fonctionne déjà.",
     "lead": "Une rédaction de personnes et d'agents d'IA : chaque fait sourcé, chaque article signé, aucun lecteur pisté, les lecteurs paient après avoir reçu la valeur. En ligne pour le Web Summit Lisbonne, du 9 au 12 novembre 2026. Un tour seed de moins de 1 M€ en cours.",
@@ -62,7 +64,7 @@
         "d": "Un CEO issu des médias, des journalistes très techniques, des renforts cette semaine."
       },
       "publishers": {
-        "t": "Je suis éditeur, ou je travaille dans les médias",
+        "t": "J’édite, je travaille dans les médias, ou je les finance",
         "d": "Comment l'information s'est enlisée, et une issue qui fonctionne déjà."
       },
       "algarve": {
@@ -106,7 +108,7 @@
     "decks_title": "Neuf decks, une histoire",
     "decks_lead": "Chacun répond à une question différente. Commencez par la carte, ou lisez toutes les diapositives à la suite.",
     "decks_all": "Tous les decks",
-    "decks_seq": "Tout lire à la suite",
+    "decks_seq": "Toutes les diapositives d’un coup d’œil",
     "articles_title": "À lire et à partager",
     "articles_all": "Tous les articles"
   },
@@ -210,12 +212,12 @@
     "publishers": {
       "title": "L'information s'est enlisée. Voici une issue qui fonctionne.",
       "summary": "Pour les éditeurs et les médias : pourquoi l'information est enlisée, ce que veulent les lecteurs, la provenance et la vie privée, un pilote sur une rubrique ; votre parcours dans les decks, et comment nous dire où nous nous trompons.",
-      "kicker": "Pour les éditeurs et les médias",
+      "kicker": "Pour les éditeurs, les médias et ceux qui les financent",
       "lead": "La provenance de chaque fait, aucun pistage, le paiement après la valeur, et des agents qui font le travail répétitif pendant que les rédacteurs décident.",
       "points": [
         {
           "t": "Les lecteurs ont besoin d'un sujet plus longtemps que le journal ne le traite",
-          "d": "Le journal en fait sa une cinq fois ; les lecteurs en ont besoin cinquante-sept jours (Le pont, une simulation)."
+          "d": "Dans une simulation dans une ville fictive (The bridge), le journal a fait sa une avec l’histoire cinq fois ; les lecteurs en ont eu besoin cinquante-sept jours."
         },
         {
           "t": "Une confiance vérifiable",
@@ -230,7 +232,7 @@
       "asks": [
         "Lisez le deck 2 et dites-nous où nous nous trompons.",
         "Proposez une rubrique pour un pilote.",
-        "Dites-nous ce pour quoi vos lecteurs paieraient."
+        "Si vous financez des médias indépendants : dites-nous ce qu’il faudrait à un pilote pour être éligible."
       ],
       "next_title": "La suite",
       "next": [
@@ -273,8 +275,8 @@
     },
     "builders": {
       "title": "Forkez-le. Ou construisez-le avec nous.",
-      "summary": "Pour les bâtisseurs : tout est ouvert, le code, les données, le tableau de bord des agents, leurs politiques et leurs rapports d'exécution ; l'infrastructure, comment quelques personnes font tourner de nombreux agents, votre parcours dans les decks, et comment commencer.",
-      "kicker": "Pour les bâtisseurs",
+      "summary": "Pour les développeurs : tout est ouvert, le code, les données, le tableau de bord des agents, leurs politiques et leurs rapports d'exécution ; l'infrastructure, comment quelques personnes font tourner de nombreux agents, votre parcours dans les decks, et comment commencer.",
+      "kicker": "Pour les développeurs",
       "lead": "Le code (Apache-2.0), les textes et les données (CC BY 4.0), le tableau de bord des agents, leurs politiques et leurs rapports d'exécution : tout est ouvert. L'avantage, ce sont les décisions et l'exécution.",
       "points": [
         {
@@ -306,10 +308,10 @@
   },
   "decks": {
     "title": "Les decks",
-    "summary": "Dix decks : la carte, puis neuf, chacun répondant à une question différente, pour les investisseurs, les partenaires, les personnes qui veulent s'impliquer, l'écosystème de l'Algarve et les bâtisseurs. Dans le navigateur ou en PDF, en anglais, portugais, espagnol et français.",
+    "summary": "Dix decks : la carte, puis neuf, chacun répondant à une question différente, pour les investisseurs, les partenaires, les personnes qui veulent s'impliquer, l'écosystème de l'Algarve et les développeurs. Dans le navigateur ou en PDF, en anglais, portugais, espagnol et français.",
     "lead": "La carte, puis neuf decks, chacun pour une question différente. Dans le navigateur ou en PDF, en quatre langues.",
     "open": "Ouvrir",
-    "seq_title": "Tout lire à la suite",
+    "seq_title": "Toutes les diapositives d’un coup d’œil",
     "seq_lead": "Chaque diapositive de chaque deck, dans l'ordre, d'un coup d'œil. Cliquez sur une diapositive pour l'ouvrir.",
     "langs_note": "En anglais, portugais, espagnol et français.",
     "vote": "Votez pour la prochaine langue",
@@ -328,14 +330,14 @@
     }
   },
   "sequence": {
-    "title": "Tous les decks, à la suite",
+    "title": "Toutes les diapositives d’un coup d’œil",
     "summary": "Chaque diapositive de chaque deck PrompTugal, dans l'ordre, d'un coup d'œil : la carte d'abord, puis les neuf decks. Cliquez sur une diapositive pour l'ouvrir dans le navigateur.",
     "lead": "Chaque diapositive, dans l'ordre. Cliquez sur l'une d'elles pour l'ouvrir ; poursuivez avec les flèches du clavier.",
     "slides": "diapositives"
   },
   "contact": {
     "title": "Parlez-nous",
-    "summary": "Comment joindre Dinis Cruz, fondateur et CTO de PrompTugal : écrivez une ligne, rencontrez-le au Web Summit Lisbonne (du 9 au 12 novembre 2026) ou, pour les bâtisseurs, ouvrez une issue sur le dépôt public.",
+    "summary": "Comment joindre Dinis Cruz, fondateur et CTO de PrompTugal : écrivez une ligne, rencontrez-le au Web Summit Lisbonne (du 9 au 12 novembre 2026) ou, pour les développeurs, ouvrez une issue sur le dépôt public.",
     "lead": "Ce que nous voulons le plus en ce moment, c'est votre réaction. Une ligne suffit.",
     "write_t": "Écrire à Dinis Cruz",
     "write_d": "Dites qui vous êtes et ce que vous en pensez. Choisissez l'objet qui convient :",
@@ -351,14 +353,14 @@
     "meet_t": "Rencontre au Web Summit Lisbonne",
     "meet_d": "Du 9 au 12 novembre 2026. Dinis Cruz y est toute la semaine.",
     "issue_t": "Ouvrir une issue",
-    "issue_d": "Pour les bâtisseurs, et pour tout ce qui est faux sur le site : en public, sur le dépôt.",
+    "issue_d": "Pour les développeurs, et pour tout ce qui est faux sur le site : en public, sur le dépôt.",
     "issue_cta": "Ouvrir une issue",
-    "privacy": "Ce que vous écrivez reste entre vous et Dinis Cruz ; rien de ce que vous envoyez n'est publié ici."
+    "privacy": "Rien de ce que vous écrivez n’est publié ici."
   },
   "thanks": {
     "title": "Merci",
-    "summary": "Votre clic est compté, sans savoir qui vous êtes. Une ligne de votre part nous en dirait davantage.",
-    "lead": "Votre clic est compté, sans savoir qui vous êtes : pas de cookie, pas de compte. Une ligne de votre part nous en dirait beaucoup plus.",
+    "summary": "Votre clic est compté : sans cookie, sans compte. Un mot de votre part nous en dirait beaucoup plus.",
+    "lead": "Votre clic est compté : sans cookie, sans compte. Un mot de votre part nous en dirait beaucoup plus.",
     "write": "Écrire une ligne à Dinis Cruz",
     "back": "Retour au début"
   },
@@ -373,7 +375,10 @@
   "library": {
     "title": "En détail",
     "summary": "La version longue de tout ce que contient le site investisseurs : le pitch, le business plan, ce qui fonctionne aujourd'hui, My Feeds, comment nous en sommes arrivés là, la concurrence, notre réflexion, les règles d'engagement, nous rejoindre, les partenaires, les événements, les éditeurs, la prospection et les langues.",
-    "lead": "La version longue de tout ce que contient ce site."
+    "lead": "La version longue de tout ce que contient ce site.",
+    "titles": {
+      "changelog": "Ce qui a changé dans les decks"
+    }
   },
   "persona": {
     "made_for": "Une version de ce site faite pour",

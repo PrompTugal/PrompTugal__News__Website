@@ -4,7 +4,7 @@ date: 2026-11-06
 story: S22
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: The Portuguese startup AgroGrINTech has opened a pilot unit in Maia that turns pineapple peel and core into bromelain, an enzyme used to make fish feed ingredients, and plans its first supply contracts in 2027.
-status: draft
+status: published
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: [Portugal, AgroGrINTech, Pep4Fish, circular economy, aquaculture, Blue Bioeconomy Pact, Maia]

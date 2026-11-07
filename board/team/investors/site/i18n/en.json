@@ -20,7 +20,9 @@
     "footer_library": "In depth",
     "footer_back": "PrompTugal.news, the publication",
     "footer_who": "Who are you?",
-    "fallback": "This page is not translated yet; here it is in"
+    "fallback": "This page is not translated yet; here it is in",
+    "footer_counts": "Page counts: no cookie, and no IP address kept. To find the town, the browser asks a location service, which sees the IP address. Do Not Track or Global Privacy Control turns it all off.",
+    "fab": "Your feedback"
   },
   "feedback": {
     "title": "What do you think?",
@@ -29,7 +31,7 @@
     "more": "Tell me more",
     "notforme": "Not for me",
     "write": "Write to Dinis Cruz",
-    "note": "A click is counted without knowing who you are: no cookie, no account, no form."
+    "note": "A click is counted with the site's page counts: no cookie, no account, no form, and the site keeps no IP address."
   },
   "route": {
     "title": "Your route",
@@ -62,7 +64,7 @@
         "d": "A CEO from the news industry, very technical journalists, helpers this week."
       },
       "publishers": {
-        "t": "I publish, or work in media",
+        "t": "I publish, work in media, or fund it",
         "d": "How news got stuck, and a way out that already runs."
       },
       "algarve": {
@@ -106,7 +108,7 @@
     "decks_title": "Nine decks, one story",
     "decks_lead": "Each answers a different question. Start with the map, or read every slide in sequence.",
     "decks_all": "All the decks",
-    "decks_seq": "Read them all in sequence",
+    "decks_seq": "Every slide at a glance",
     "articles_title": "To read and share",
     "articles_all": "All the articles"
   },
@@ -210,12 +212,12 @@
     "publishers": {
       "title": "News got stuck. Here is a way out that runs.",
       "summary": "For publishers and media: why news is stuck, what readers want, provenance and privacy, a pilot in one section; your route through the decks, and how to tell us where we are wrong.",
-      "kicker": "For publishers and media",
+      "kicker": "For publishers, media, and those who fund them",
       "lead": "Provenance on every fact, no tracking, payment after the value, and agents doing the repeatable work while editors decide.",
       "points": [
         {
           "t": "Readers need a story for longer than the paper tells it",
-          "d": "The paper leads with it five times; readers need it on fifty-seven days (The bridge, a simulation)."
+          "d": "In a simulation of a fictional town (The bridge), the paper led with the story five times; readers needed it on fifty-seven days."
         },
         {
           "t": "Trust you can check",
@@ -230,7 +232,7 @@
       "asks": [
         "Read deck 2 and tell us where we are wrong.",
         "Propose a section for a pilot.",
-        "Tell us what your readers would pay for."
+        "If you fund independent media: tell us what a pilot would need to qualify."
       ],
       "next_title": "What happens next",
       "next": [
@@ -309,7 +311,7 @@
     "summary": "Ten decks: the map, then nine, each answering a different question, for investors, partners, the people who want to be involved, the Algarve's ecosystem and builders. In the browser or as a PDF, in English, Portuguese, Spanish and French.",
     "lead": "The map, then nine decks, each for a different question. In the browser or as a PDF, in four languages.",
     "open": "Open",
-    "seq_title": "Read them all in sequence",
+    "seq_title": "Every slide at a glance",
     "seq_lead": "Every slide of every deck, in order, at a glance. Click a slide to open it.",
     "langs_note": "In English, Portuguese, Spanish and French.",
     "vote": "Vote for the next language",
@@ -328,7 +330,7 @@
     }
   },
   "sequence": {
-    "title": "All the decks, in sequence",
+    "title": "Every slide at a glance",
     "summary": "Every slide of every PrompTugal deck, in order, at a glance: the map first, then the nine decks. Click a slide to open it in the browser.",
     "lead": "Every slide, in order. Click one to open it; read on with the arrow keys.",
     "slides": "slides"
@@ -353,12 +355,12 @@
     "issue_t": "Open an issue",
     "issue_d": "For builders, and for anything that is wrong on the site: in public, on the repository.",
     "issue_cta": "Open an issue",
-    "privacy": "What you write stays between you and Dinis Cruz; nothing you send is published here."
+    "privacy": "Nothing you write is published here."
   },
   "thanks": {
     "title": "Thank you",
-    "summary": "Your click is counted, without knowing who you are. A line from you would tell us more.",
-    "lead": "Your click is counted, without knowing who you are: no cookie, no account. A line from you would tell us much more.",
+    "summary": "Your click is counted: no cookie, no account. A line from you would tell us much more.",
+    "lead": "Your click is counted: no cookie, no account. A line from you would tell us much more.",
     "write": "Write a line to Dinis Cruz",
     "back": "Back to the start"
   },
@@ -373,7 +375,10 @@
   "library": {
     "title": "In depth",
     "summary": "The long version of everything on the investor site: the pitch, the business plan, what works today, My Feeds, how we got here, the competition, our thinking, the rules of engagement, joining, partners, events, publishers, outreach and languages.",
-    "lead": "The long version of everything on this site."
+    "lead": "The long version of everything on this site.",
+    "titles": {
+      "changelog": "What changed in the decks"
+    }
   },
   "persona": {
     "made_for": "A version of this site made for",

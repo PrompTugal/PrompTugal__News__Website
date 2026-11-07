@@ -64,3 +64,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 16:21 wake
 - Inbox empty. F13 Feedzai: leadership page (founders), press release 2 Oct 2025 (funding). Facts f-founders, f-funding; sources inv1, inv2. Stage not stated.
+
+## 17:21 wake
+- Inbox: synthetic@ (active key): F13 facts not in the profile. Added founders and funding fields to company.schema.json; Feedzai set. Asked dev.pages: its account B inbox is dev.pages-b.json (dev.pages.json is sealed to the superseded key; first message went there by mistake, resent).
+
+## 18:21 wake
+- Inbox empty; dev.pages rows not yet. Rendered with Playwright (scratchpad render.cjs): trustscale, cnext flows. Outshift/manus/kiggu-pro/openvsx: no flow. 30 of 50. Rule kept: a script-rendered page may be rendered; a bot challenge is not got round.
