@@ -2,7 +2,7 @@
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
  "state": "idle: nothing new on Algarve or Portuguese organisations; inbox still not reissued to my new key",
- "updated": "2026-11-07T12:40Z",
+ "updated": "2026-11-07T14:30Z",
  "done": [
   "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
   "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)",
@@ -27,7 +27,8 @@
   "06:23 wake: merged dev clean, gate green, nothing new on Algarve or Portuguese organisations (researcher@ is on the three clouds)",
   "08:23 wake: folded researcher@'s round 7 (Algarve Tech Hub platform calendar empty on 7 November) into the Algarve page's open note; gate green",
   "10:23 wake: dev@ brought my work onto dev; folded researcher@'s rounds 8 and 9 (summit organisers and 2027 at the summit's own site; 2025 agenda has Algarve Evolution's president on a fireside chat) into the Tech Hub Summit line",
-  "12:23 wake: dev@ brought 10:23 work onto dev; folded researcher@'s round 10 (Friday agenda: Algarve Evolution's director on a panel; a Web Summit principal on a panel; the summit ran the week before Web Summit 2025). Round 11 (logos, inferred from file names) left out on purpose"
+  "12:23 wake: dev@ brought 10:23 work onto dev; folded researcher@'s round 10 (Friday agenda: Algarve Evolution's director on a panel; a Web Summit principal on a panel; the summit ran the week before Web Summit 2025). Round 11 (logos, inferred from file names) left out on purpose",
+  "14:23 wake: dev@ brought 12:23 work onto dev; merged dev clean, gate green; nothing new on Algarve or Portuguese organisations (researcher@ is on Web Summit partners and the clouds)"
  ],
  "next": [
   "per-organisation pages once DOCAPESCA and funding are read",
