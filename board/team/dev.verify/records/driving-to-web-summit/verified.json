@@ -25,35 +25,35 @@
       "url": "https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/",
       "status": 200,
       "read": true,
-      "chars": 8957
+      "chars": 8907
     }
   ],
-  "spent_usd": 0.0973,
+  "spent_usd": 0.0941,
   "claims": [
     {
       "id": "c1",
-      "claim": "Rua do Bojador is closed completely to traffic from 6am on 8 November, according to the Junta de Freguesia do Parque das Nações.",
+      "claim": "Rua do Bojador is closed to road traffic from 6am on Sunday 8 November 2026, per the Parque das Nações parish council.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
           "quote": "Rua do Bojador: corte total das 6h de 8/11",
-          "note": "The Junta de Freguesia's notice lists a total closure of Rua do Bojador from 6h on 8/11 until 00h on 12/11, which matches the claim (the claim just omits the end time)."
+          "note": "The parish council's notice gives a total closure of Rua do Bojador from 6h on 8/11, which the article dates to Sunday 8 November, though it also runs until midnight on 12 November, which the claim omits."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
           "quote": "Rua do Bojador: corte total das 6h de 8/11",
-          "note": "The Junta de Freguesia do Parque das Nações explicitly announces a total road closure on Rua do Bojador beginning at 6am on 8 November."
+          "note": "The Junta de Freguesia do Parque das Nações states that Rua do Bojador faces a total road closure starting at 6am on 8 November."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
           "quote": "Rua do Bojador: corte total das 6h de 8/11",
-          "note": "The Junta de Freguesia do Parque das Nações source states Rua do Bojador has a total closure from 6am on 8 November."
+          "note": "The Parque das Nações parish council source states Rua do Bojador is totally closed from 6am on 8 November."
         }
       ],
       "consensus": "supported",
@@ -68,21 +68,21 @@
           "verdict": "supported",
           "source": "S1",
           "quote": "Alguns locais estarão condicionados logo a partir das 19h de domingo, dia 8 e até às 23h de dia 12 de novembro",
-          "note": "The source gives the same start (19h Sunday 8 November) and end (23h on 12 November) for restrictions on some locations, though it does not name the 12th as a Thursday."
+          "note": "S1 gives the same window (from 19h on Sunday 8 November to 23h on 12 November) for some locations, though it does not name the weekdays and says 'condicionados' rather than explicitly 'restricted'."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
           "quote": "Alguns locais estarão condicionados logo a partir das 19h de domingo, dia 8 e até às 23h de dia 12 de novembro",
-          "note": "The source confirms that some locations around the venue will face traffic restrictions starting at 7pm on Sunday, 8 November, until 11pm on 12 November (Thursday)."
+          "note": "The source confirms that traffic restrictions in some locations around the venue begin at 7pm on Sunday 8 November and last until 11pm on 12 November."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
           "quote": "Alguns locais estarão condicionados logo a partir das 19h de domingo, dia 8 e até às 23h de dia 12 de novembro",
-          "note": "S1 states some locations are restricted from 7pm Sunday 8 November until 11pm 12 November."
+          "note": "S1 states some locations around the venue are restricted from 19:00 on Sunday 8 November until 23:00 on 12 November."
         }
       ],
       "consensus": "supported",
@@ -90,28 +90,28 @@
     },
     {
       "id": "c3",
-      "claim": "Alameda dos Oceanos (downhill direction) is closed every day from 7am to midnight.",
+      "claim": "Carris runs a temporary bus terminal on Avenida D. João II, next to Gare do Oriente, from 8 to 12 November.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "cortes diários entre as 07:00 e as 24:00",
-          "note": "S1 lists daily closures of Alameda dos Oceanos (sentido descendente) from 07:00 to 24:00, which is midnight, under the heading \"Corte Total\"."
+          "quote": "Terminal temporário da Carris na Avenida D. João II ( junto à Gare do Oriente), entre 8 e 12/11.",
+          "note": "The Parque das Nações parish council notice names a temporary Carris terminal on Avenida D. João II next to Gare do Oriente for 8 to 12 November, matching the claim's location and dates."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Alameda dos Oceanos (sentido descendente): cortes diários entre as 07:00 e as 24:00",
-          "note": "The source confirms daily closures for Alameda dos Oceanos in the downhill direction between 7:00 and 24:00 (midnight)."
+          "quote": "Terminal temporário da Carris na Avenida D. João II ( junto à Gare do Oriente), entre 8 e 12/11.",
+          "note": "The source explicitly confirms that Carris operates a temporary terminal on Avenida D. João II next to Gare do Oriente from 8 to 12 November."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Alameda dos Oceanos (sentido descendente): cortes diários entre as 07:00 e as 24:00",
-          "note": "S1 directly states daily closures on Alameda dos Oceanos in the downhill direction from 07:00 to 24:00."
+          "quote": "Terminal temporário da Carris na Avenida D. João II ( junto à Gare do Oriente), entre 8 e 12/11",
+          "note": "Source S1 explicitly states the temporary Carris terminal location and dates."
         }
       ],
       "consensus": "supported",
@@ -119,122 +119,6 @@
     },
     {
       "id": "c4",
-      "claim": "Avenida da Boa Esperança is closed from 7am to 10pm, with local access kept.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Avenida da Boa Esperança: corte entre as 7h e as 22h",
-          "note": "S1 gives the closure as 7h to 22h (7am to 10pm) and separately states \"Acesso local garantido na Avenida da Boa Esperança\", matching the claim's local access element."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Avenida da Boa Esperança: corte entre as 7h e as 22h [...] Acesso local garantido na Avenida da Boa Esperança",
-          "note": "The source confirms that Avenida da Boa Esperança is closed between 7h and 22h (7am to 10pm) while local access is guaranteed."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Avenida da Boa Esperança: corte entre as 7h e as 22h ... Acesso local garantido na Avenida da Boa Esperança",
-          "note": "S1 states the avenue is closed between 7h and 22h and that local access is guaranteed there."
-        }
-      ],
-      "consensus": "supported",
-      "flag_to_journalist": false
-    },
-    {
-      "id": "c5",
-      "claim": "Avenida do Índico is closed from 7am to 10pm, with a diversion by Rua do Polo Norte.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Avenida do Índico: corte entre as 7h e as 22h, com desvio pela Rua do Polo Norte",
-          "note": "The source gives the closure as 7h to 22h (7am to 10pm) with a diversion via Rua do Polo Norte, matching the claim."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Avenida do Índico: corte entre as 7h e as 22h, com desvio pela Rua do Polo Norte",
-          "note": "The source directly confirms that Avenida do Índico is closed between 7am and 10pm (7h and 22h) with a diversion via Rua do Polo Norte."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Avenida do Índico: corte entre as 7h e as 22h, com desvio pela Rua do Polo Norte",
-          "note": "S1 states Avenida do Índico is closed from 7h to 22h with a diversion via Rua do Polo Norte."
-        }
-      ],
-      "consensus": "supported",
-      "flag_to_journalist": false
-    },
-    {
-      "id": "c6",
-      "claim": "Rua do Mar Vermelho, Rua do Mar da China and Avenida do Atlântico have no traffic from 7am to 10pm.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Rua do Mar Vermelho, Rua do Mar da China e Avenida do Atlântico: circulação interditada entre as 7h e as 22h",
-          "note": "The source says circulation is prohibited on all three streets from 7h to 22h (7am to 10pm), though it also states that garage access for residents is maintained on these streets, which the claim's wording omits."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Rua do Mar Vermelho, Rua do Mar da China e Avenida do Atlântico: circulação interditada entre as 7h e as 22h",
-          "note": "The source confirms that circulation is closed/prohibited on Rua do Mar Vermelho, Rua do Mar da China, and Avenida do Atlântico between 7am (7h) and 10pm (22h)."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "exaggerated",
-          "source": "S1",
-          "quote": "Acesso às garagens mantido",
-          "note": "S1 says those streets are closed to circulation from 7h to 22h but also maintains garage access, so the absolute “no traffic” claim is overstated."
-        }
-      ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
-    },
-    {
-      "id": "c7",
-      "claim": "Carris runs a temporary bus terminal on Avenida D. João II, next to Gare do Oriente, from 8 to 12 November.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Terminal temporário da Carris na Avenida D. João II",
-          "note": "S1 states a temporary Carris terminal on Avenida D. João II next to Gare do Oriente from 8 to 12/11, and the word 'bus' is implied by Carris rather than stated outright."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Terminal temporário da Carris na Avenida D. João II ( junto à Gare do Oriente), entre 8 e 12/11",
-          "note": "Source S1 explicitly confirms the temporary Carris terminal on Avenida D. João II next to Gare do Oriente between 8 and 12 November."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Terminal temporário da Carris na Avenida D. João II ( junto à Gare do Oriente), entre 8 e 12/11.",
-          "note": "S1 explicitly states that Carris has a temporary terminal on Avenida D. João II next to Gare do Oriente from 8 to 12 November."
-        }
-      ],
-      "consensus": "supported",
-      "flag_to_journalist": false
-    },
-    {
-      "id": "c8",
       "claim": "Carris's 'Shuttle Web Summit' runs between Praça do Comércio and Oriente from Monday 9 to Thursday 12 November, as reported by Lusa.",
       "verdicts": [
         {
@@ -242,43 +126,43 @@
           "verdict": "supported",
           "source": "S3",
           "quote": "entre segunda-feira e 12 de novembro",
-          "note": "S3 (Lusa via Executive Digest) gives the shuttle between Praça do Comércio (Estação Sul e Sueste) and Estação do Oriente, running from Monday until 12 November, and S1 gives the event dates as 9–12 November, but neither source explicitly names Thursday."
+          "note": "The Lusa-sourced article says Carris's Web Summit transport reinforcement, including the 'Shuttle Web Summit' linking Praça do Comércio and Oriente, runs from Monday until 12 November; the source gives no explicit Thursday, but 12 November 2026 is a Thursday."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S3",
-          "quote": "A Carris vai reforçar a oferta de transportes para a Web Summit, em Lisboa, entre segunda-feira e 12 de novembro, com um serviço de autocarros dedicado",
-          "note": "S3, reported in partnership with Lusa, confirms Carris is running the 'Shuttle Web Summit' between Praça do Comércio (Estação Sul e Sueste) and Estação do Oriente between Monday (November 9) and November 12."
+          "quote": "disponibilização do serviço ‘Shuttle Web Summit’, que assegurará o transporte entre o centro da cidade e o Parque das Nações, através da ligação entre a Estação Sul e Sueste, na Praça do Comércio, e a Estação do Oriente",
+          "note": "S3, reported in partnership with Lusa, confirms that Carris's 'Shuttle Web Summit' connects Praça do Comércio with Oriente during the event period between Monday (9 November) and 12 November."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S3",
-          "quote": "entre segunda-feira e 12 de novembro ... serviço ‘Shuttle Web Summit’, que assegurará o transporte ... entre a Estação Sul e Sueste, na Praça do Comércio, e a Estação do Oriente, nos dois sentidos",
-          "note": "S3, reporting with Lusa, states the Carris Shuttle Web Summit links Praça do Comércio and Oriente during the 9–12 November Web Summit period."
+          "quote": "serviço 'Shuttle Web Summit', que assegurará o transporte entre o centro da cidade e o Parque das Nações, através da ligação entre a Estação Sul e Sueste, na Praça do Comércio, e a Estação do Oriente, nos dois sentidos",
+          "note": "S3, credited with Lusa, states the shuttle links Praça do Comércio and Oriente and that the Carris reinforcement runs between Monday and 12 November."
         }
       ],
       "consensus": "supported",
       "flag_to_journalist": false
     },
     {
-      "id": "c9",
-      "claim": "Oriente metro station, on the red line, is about 300 metres from the MEO Arena, according to Web Summit.",
+      "id": "c5",
+      "claim": "Oriente metro station is about 300 metres from the MEO Arena, according to Web Summit.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the sources gives a distance from Oriente station to the MEO Arena, and the Web Summit page (S2) contains no such figure; S1 names the venue as Altice Arena and S3 mentions Estação do Oriente only as a shuttle stop."
+          "note": "None of the sources gives a distance from Oriente station to any arena, and S1 names the venue as Altice Arena rather than MEO Arena, so the 300 m figure and the attribution to Web Summit cannot be verified."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the provided sources mention Oriente metro station being on the red line or situated approximately 300 metres from the MEO Arena."
+          "note": "None of the provided sources mention that Oriente metro station is about 300 metres from the MEO Arena."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
@@ -292,7 +176,7 @@
       "flag_to_journalist": true
     },
     {
-      "id": "c10",
+      "id": "c6",
       "claim": "Oriente metro station is about 600 metres from registration at Pavilhão de Portugal, according to Web Summit.",
       "verdicts": [
         {
@@ -300,79 +184,195 @@
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the passages mention a 600-metre distance, the Oriente metro station, or registration at Pavilhão de Portugal; the Web Summit page passage contains only navigation text."
+          "note": "None of the passages mention a 600-metre distance, the Oriente station's distance to the Pavilhão de Portugal registration, or any attribution of such a figure to Web Summit; the Web Summit passage (S2) is only site navigation text."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the provided sources mention that Oriente metro station is about 600 metres from registration at Pavilhão de Portugal."
+          "note": "None of the provided sources mention Pavilhão de Portugal, the distance of 600 metres, or Web Summit stating this distance."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the provided sources states that Oriente metro station is about 600 metres from registration at Pavilhão de Portugal, nor attributes that distance to Web Summit."
+          "note": "None of the provided source passages states the distance from Oriente metro station to registration at Pavilhão de Portugal or attributes that figure to Web Summit."
         }
       ],
       "consensus": "unsupported",
       "flag_to_journalist": true
     },
     {
-      "id": "c11",
-      "claim": "Ride-hailing cars (TVDE, such as Uber and Bolt) have drop-off and pick-up areas on Rua do Caribe and on Alameda dos Oceanos next to the Rotunda dos Vice-Reis.",
+      "id": "c7",
+      "claim": "The Parque das Nações parish council issued its closures notice on 6 November 2026.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "TVDE: Área de embarque e desembarque na Rua do Caribe. Área de embarque e desembarque na Alameda dos Oceanos, junto à Rotunda dos Vice-Reis",
-          "note": "S1 explicitly lists both TVDE drop-off and pick-up areas at Rua do Caribe and Alameda dos Oceanos next to the Rotunda dos Vice-Reis, though it does not name Uber or Bolt specifically."
+          "quote": "06-NOV-2026",
+          "note": "The Junta de Freguesia do Parque das Nações' own news item on the Web Summit traffic closures is dated 06-NOV-2026, though the source shows only this page date rather than explicitly calling it a 'closures notice'."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "exaggerated",
+          "verdict": "supported",
           "source": "S1",
-          "quote": "TVDE: Área de embarque e desembarque na Rua do Caribe. Área de embarque e desembarque na Alameda dos Oceanos, junto à Rotunda dos Vice-Reis",
-          "note": "The source confirms the drop-off and pick-up locations for TVDE, but does not mention Uber or Bolt."
+          "quote": "Web Summit – Condicionamentos de trânsito entre 9 e 12 de novembro 06-NOV-2026",
+          "note": "The notice regarding traffic closures was published by the Junta de Freguesia do Parque das Nações on 6 November 2026."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "TVDE: Área de embarque e desembarque na Rua do Caribe. Área de embarque e desembarque na Alameda dos Oceanos, junto à Rotunda dos Vice-Reis",
-          "note": "S1 explicitly lists TVDE pick-up and drop-off areas at both Rua do Caribe and Alameda dos Oceanos next to Rotunda dos Vice-Reis."
+          "quote": "Web Summit – Condicionamentos de trânsito entre 9 e 12 de novembro 06-NOV-2026",
+          "note": "S1 is the Parque das Nações parish council's notice about Web Summit traffic restrictions, dated 06-NOV-2026."
         }
       ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Alameda dos Oceanos (downhill direction) is closed every day from 7am to midnight.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "cortes diários entre as 07:00 e as 24:00",
+          "note": "S1 lists the Alameda dos Oceanos (sentido descendente) under the 'Corte Total' heading with daily closures from 07:00 to 24:00, which matches the claim's 7am-to-midnight window."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Alameda dos Oceanos (sentido descendente): cortes diários entre as 07:00 e as 24:00",
+          "note": "The source confirms daily closures in the downhill direction between 7:00 and 24:00 during the event."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Alameda dos Oceanos (sentido descendente): cortes diários entre as 07:00 e as 24:00",
+          "note": "S1 states that the downhill direction of Alameda dos Oceanos has daily closures from 07:00 to 24:00 during the event period."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "Avenida da Boa Esperança is closed from 7am to 10pm, with local access kept.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Avenida da Boa Esperança: corte entre as 7h e as 22h; Acesso local garantido na Avenida da Boa Esperança",
+          "note": "S1 gives the closure as 7h to 22h (7am to 10pm) and states that local access on Avenida da Boa Esperança is guaranteed."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Avenida da Boa Esperança: corte entre as 7h e as 22h [...] Acesso local garantido na Avenida da Boa Esperança",
+          "note": "Source S1 confirms that Avenida da Boa Esperança is closed between 7h and 22h (7am to 10pm) while local access is guaranteed."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Avenida da Boa Esperança: corte entre as 7h e as 22h | Acesso local garantido na Avenida da Boa Esperança",
+          "note": "S1 states the avenue is closed between 7h and 22h and that local access is guaranteed."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "Avenida do Índico is closed from 7am to 10pm, with a diversion by Rua do Polo Norte.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Avenida do Índico: corte entre as 7h e as 22h, com desvio pela Rua do Polo Norte",
+          "note": "S1 gives the closure as 7h to 22h (7am to 10pm) with a diversion via Rua do Polo Norte, matching the claim exactly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Avenida do Índico: corte entre as 7h e as 22h, com desvio pela Rua do Polo Norte",
+          "note": "The source directly confirms the closure of Avenida do Índico between 7h and 22h (7am to 10pm) with a diversion via Rua do Polo Norte."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Avenida do Índico: corte entre as 7h e as 22h, com desvio pela Rua do Polo Norte",
+          "note": "S1 states the Avenida do Índico is closed between 7h and 22h with a diversion via Rua do Polo Norte."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c11",
+      "claim": "Rua do Mar Vermelho, Rua do Mar da China and Avenida do Atlântico have no traffic from 7am to 10pm.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "circulação interditada entre as 7h e as 22h",
+          "note": "The source says circulation is prohibited on all three streets from 7h to 22h (7am to 10pm), though it also states that garage access is maintained on them."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Rua do Mar Vermelho, Rua do Mar da China e Avenida do Atlântico: circulação interditada entre as 7h e as 22h",
+          "note": "The source states that traffic circulation is prohibited on Rua do Mar Vermelho, Rua do Mar da China, and Avenida do Atlântico between 7am and 10pm (22h)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "circulação interditada entre as 7h e as 22h",
+          "note": "S1 states those three streets are closed to traffic between 7h and 22h, matching the claim."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
     },
     {
       "id": "c12",
-      "claim": "The taxi rank by the Vasco da Gama shopping centre stays open during the summit.",
+      "claim": "Ride-hailing cars have drop-off and pick-up areas on Rua do Caribe and on Alameda dos Oceanos next to the Rotunda dos Vice-Reis.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Praça de táxis junto ao Centro Comercial Vasco da Gama mantém-se em funcionamento.",
-          "note": "S1 states the taxi rank next to the Vasco da Gama shopping centre remains in operation during the Web Summit period, which is the claim's meaning."
+          "quote": "TVDE: Área de embarque e desembarque na Rua do Caribe. Área de embarque e desembarque na Alameda dos Oceanos, junto à Rotunda dos Vice-Reis",
+          "note": "S1 lists drop-off and pick-up areas for TVDE (ride-hailing) vehicles on Rua do Caribe and on Alameda dos Oceanos next to the Rotunda dos Vice-Reis, matching the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Praça de táxis junto ao Centro Comercial Vasco da Gama mantém-se em funcionamento.",
-          "note": "The source confirms that the taxi rank next to the Vasco da Gama shopping centre remains in operation during the event."
+          "quote": "TVDE: Área de embarque e desembarque na Rua do Caribe. Área de embarque e desembarque na Alameda dos Oceanos, junto à Rotunda dos Vice-Reis",
+          "note": "The source confirms that TVDE (ride-hailing) services have pick-up and drop-off zones on Rua do Caribe and Alameda dos Oceanos next to the Rotunda dos Vice-Reis."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Praça de táxis junto ao Centro Comercial Vasco da Gama mantém-se em funcionamento.",
-          "note": "S1 states the taxi rank next to the Vasco da Gama shopping centre remains in operation during the Web Summit traffic restrictions."
+          "quote": "TVDE: Área de embarque e desembarque na Rua do Caribe. Área de embarque e desembarque na Alameda dos Oceanos, junto à Rotunda dos Vice-Reis",
+          "note": "The source explicitly lists the designated pick-up and drop-off areas for ride-hailing cars (TVDE) on both Rua do Caribe and Alameda dos Oceanos next to the Rotunda dos Vice-Reis."
         }
       ],
       "consensus": "supported",
