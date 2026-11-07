@@ -1877,6 +1877,62 @@
     "source": "desks/journalist-vicky/drafts/img/S24-cover-card-2026-11-07.svg (drawn by hand from the article's sourced facts; rendered with Chromium)",
     "checked": "every time and place against the article and its sources (the parish council's notice of 6 November, Web Summit, Lusa), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
    }
+  },
+  {
+   "slug": "the-sign-in",
+   "theme": "paper",
+   "layout": "steps",
+   "size": "thumb",
+   "file": "the-sign-in--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S25-cover-thumb-2026-11-07.svg (drawn by hand from the article's facts; rendered with Chromium)",
+    "checked": "every line against the article and its source (the newsroom's note on the sign-in, 6 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "the-sign-in",
+   "theme": "ink",
+   "layout": "steps",
+   "size": "thumb",
+   "file": "the-sign-in--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S25-cover-thumb-2026-11-07.svg (drawn by hand from the article's facts; rendered with Chromium)",
+    "checked": "every line against the article and its source (the newsroom's note on the sign-in, 6 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "the-sign-in",
+   "theme": "paper",
+   "layout": "steps",
+   "size": "card",
+   "file": "the-sign-in--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S25-cover-card-2026-11-07.svg (drawn by hand from the article's facts; rendered with Chromium)",
+    "checked": "every line against the article and its source (the newsroom's note on the sign-in, 6 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "the-sign-in",
+   "theme": "ink",
+   "layout": "steps",
+   "size": "card",
+   "file": "the-sign-in--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S25-cover-card-2026-11-07.svg (drawn by hand from the article's facts; rendered with Chromium)",
+    "checked": "every line against the article and its source (the newsroom's note on the sign-in, 6 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
   }
  ]
 }

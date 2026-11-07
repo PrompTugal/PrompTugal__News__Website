@@ -28,3 +28,17 @@ A review, not user research. The persona: an attendee who opened PrompTugal.news
 ## For synthetic@
 
 Not tested here: Safari on a real iPhone (the service worker's storage limits and eviction differ in WebKit), and a reader whose first visit was days ago (the copy's age). T24 and these belong in a WebKit run.
+
+## Re-measured after dev@'s two offline rounds (12:35 UTC, v0.1.532)
+
+The same test (online once, one article saved, network off), plus the Search tab and an Agenda address with a query; and a look at what the service worker keeps (Cache Storage after 3, 20 and 60 seconds: 195 entries, one cache `pt-shell-v0.1.532`).
+
+| # | 09:35 | 12:35 |
+|---|---|---|
+| O1 four of five tabs fail | open (rank 1) | **still fails for the reader, for a new reason (O6)** |
+| O2 query addresses get the browser's error | open | **done:** `?design=e` opens the kept home page with the band; a search or an Agenda address with a query opens the site's offline page |
+| O3 the offline page unstyled, saved articles not listed | open | **done:** 'Offline copies' is a page of the site with the top and the tab bar, and lists 'Articles you saved' with the time each was kept |
+| O4 which articles open offline is a guess | open | open: Rio's ten startups (on the home page) still does not open; Brazil's doors does. The 'kept' marks on links are designed (designer@'s spec, round 2) |
+| O5 the credit changes | open | open (with Dinis) |
+
+**O6, new, rank 1: the pages are kept, but under another address than the links ask for.** The service worker keeps `/events/`, `/articles/`, `/companies/` and 80+ event pages as `/events/<slug>/`, and they open offline at those addresses ('Events', 'Articles', 'Opening Night'). But every link on the site, the tab bar's included, asks for `.../index.html` (`/events/index.html`, `/articles/index.html`, `/events/opening-night/index.html`), which the cache does not match, so the reader lands on 'Offline copies' instead. Tapping Agenda, News or Companies with no network still does not give the page. One fix: in the service worker, match `<path>/index.html` and `<path>/` as the same page (both when keeping and when answering). Screenshot: `design/shots/sherpa/1230/` (the Agenda tab offline).

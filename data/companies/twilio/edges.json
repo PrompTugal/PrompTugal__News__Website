@@ -20,6 +20,13 @@
       "source": "mp1",
       "by": "ontologist@PrompTugal.dinis",
       "note": "its own listing on AWS Marketplace"
+    },
+    {
+      "verb": "built_on",
+      "to": "company:temporal",
+      "source": "bo1",
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "Twilio moved from its homegrown systems to Temporal Cloud, by Temporal's own account"
     }
   ]
 }

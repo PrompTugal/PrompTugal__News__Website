@@ -201,15 +201,16 @@ export function buildLinks(ctx, cards) {
   }
   // the owner's word, authority/forms.json
   for (const e of forms.supersedes || []) if (byId.has(e.id) && byId.has(e.supersedes)) put(byId.get(e.id), 'supersedes', e.supersedes)
-  for (const e of forms.see || []) if (byId.has(e.from) && byId.has(e.to)) put(byId.get(e.from), 'see', e.to)
+  // a "see" in the owner's word is the same edge read backwards: the successor supersedes the former holding
+  // (ontologist@, 7 November 2026: no verb of its own; an inverse is never stored as a verb)
+  for (const e of forms.see || []) if (byId.has(e.from) && byId.has(e.to)) put(byId.get(e.to), 'supersedes', e.from)
 
-  // supersession: status, and a "see" from a withdrawn holding to its successor
+  // supersession: status; a withdrawn holding finds its successor by the inverse, superseded_by
   const superseded = new Set()
-  for (const [id, m] of fwd) for (const l of m.values()) if (l.rel === 'supersedes') {
+  for (const m of fwd.values()) for (const l of m.values()) if (l.rel === 'supersedes') {
     const old = byId.get(l.to)
     if (!old) continue
     if (old.status === 'current') { old.status = 'superseded'; superseded.add(old.id) }
-    if (old.status === 'withdrawn') put(old, 'see', id)
   }
 
   // ---- about: the entity a page is; subjects by call, path and words; entities named in the text

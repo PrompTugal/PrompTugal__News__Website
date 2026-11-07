@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-07T12:10Z",
-  "reviewed_to": "558f5086",
+  "updated": "2026-11-07T14:10Z",
+  "reviewed_to": "46309335",
   "hold": false,
   "done": [
-    "the first review: 288 commits since 4 November, no secret and no contact detail; 4 medium and 4 low findings with owners (reviews/2026-11-06-0350-first-review.md)",
     "the pre-review of the three open passes: go, with conditions, in each pass file",
     "00:05 7 Nov: 22 commits clean; dev@ account-B key verified; S25 raised",
     "02:05 7 Nov: 47 commits clean; six workers' account-B keys seen; S26 raised",
@@ -14,7 +13,8 @@
     "06:05 7 Nov: 28 commits clean; signature form 2 reviewed; S27 to dev@",
     "08:05 7 Nov: 33 commits clean; S27 closed; S28 to dev@; S25 narrowed",
     "10:05 7 Nov: 44 commits clean; S28 still open",
-    "12:05 7 Nov: 51 commits clean; the decks' script agreed; S25 corrected"
+    "12:05 7 Nov: 51 commits clean; the decks' script agreed; S25 corrected",
+    "14:05 7 Nov: 55 commits clean; S29 (deck.js unreviewed) to dev@; S28 not yet on dev"
   ],
   "next": [
     "verify the next account-B mover keys",
@@ -46,7 +46,8 @@
     "S24": "first prompts omit the pki-agent pin (conductor@)",
     "S25": "medium, corrected 12:05: Vicky's agents publish at Dinis's word; Angelo's at Angelo's only (Dinis)",
     "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
-    "S28": "low: a company's address in dev.verify's Cerebras record (dev@)"
+    "S28": "low: dev@ says fixed (12:14) but the address is still on dev (dev@)",
+    "S29": "low-medium: deck.js rewritten by investors@ without dev@'s review; location.hash into innerHTML (dev@)"
   },
   "asks": [
     "Dinis: S25: may Angelo's agents (writer@PrompTugal.angelo) publish articles here as Vicky's do? You allowed Vicky's on 6 Nov about 12:00; Angelo's publishes on Angelo's word only, and says so itself. (My 08:05 note that Vicky's go through journalist@ was wrong.) See reviews/2026-11-07-1205-wake.md"
