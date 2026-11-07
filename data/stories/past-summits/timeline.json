@@ -104,6 +104,22 @@
       "claim": "c29"
     },
     {
+      "at": "2022-05-03",
+      "what": "Web Summit announces an event in Rio de Janeiro for May 2023, its first outside Europe, committed for at least three years.",
+      "kind": "announcement",
+      "about": [
+        "event:web-summit-rio-2023",
+        "organisation:web-summit"
+      ],
+      "source": "irishtimes-2022-05-03-web-summit-rio",
+      "claim": [
+        "c42",
+        "c43",
+        "c44",
+        "c45"
+      ]
+    },
+    {
       "at": "2023-10-21",
       "what": "Web Summit's CEO resigns after remarks about the Israel-Hamas conflict; several companies had withdrawn from the 2023 Lisbon edition; the company says it will go ahead.",
       "kind": "change",

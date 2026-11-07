@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "irishtimes-2022-05-03-web-summit-rio",
+  "story": "past-summits",
+  "url": "https://www.irishtimes.com/business/technology/web-summit-to-take-place-in-rio-de-janeiro-in-its-first-move-outside-europe-1.4868302",
+  "title": "Web Summit to take place in Rio de Janeiro in its first move outside Europe (The Irish Times, 3 May 2022)",
+  "publisher": "The Irish Times",
+  "published": "2022-05-03",
+  "read_on": "2026-11-07",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "The Irish Times reports Web Summit's announcement of an event in Rio de Janeiro in May 2023, its first outside Europe, with a commitment of at least three years, no direct money from the city and Senac as main sponsor."
+}
