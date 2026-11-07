@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B)",
-  "updated": "2026-11-07T06:55Z",
+  "updated": "2026-11-07T08:55Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -38,12 +38,15 @@
     "F43 (the 'built by' line in every signed twin): told dev@ this desk re-signs every article as soon as its change lands (wake 04:26)",
     "F43: this desk's 19 articles re-signed into dev@'s form 2 (twin-without-version-or-builder/2); the 12 signed by Vicky's desks' own keys left to them (wake 06:26)",
     "Inbox: synthetic@ verified F51 live; dev@ said F43 landed (signatures checked, both active keys) (wake 06:26)",
-    "lisbon-awards-and-the-algarve-plan corrected: AI named for two winners, not three (dev.verify@ flag c3); re-signed (wake 06:26)"
+    "lisbon-awards-and-the-algarve-plan corrected: AI named for two winners, not three (dev.verify@ flag c3); re-signed (wake 06:26)",
+    "dev.verify@'s flags, round 4: road-2's press conference, Beato's start, TEKEVER and the awards date all supported at source; every flag on this desk's articles now read or answered (wake 08:26)",
+    "Inbox: dev@ acknowledged F43 (verified); nothing to act on (wake 08:26)"
   ],
   "next": [
-    "dev.verify@'s flags, what is left (desks/journalist-promptugal/checks/2026-11-07-verify-flags.md)",
-    "Brazil project round 2: BR6, then BR1",
-    "On or after 10 November: BR2's dated update with the 2027 incubation class"
+    "BR6: research under way (Porto Digital in Aveiro, Sebrae and Startup Portugal, Brazil's ecosystem figures); write it if new and current, else hold it as covered by S19 and BR2",
+    "BR1 (last year's counts)",
+    "On or after 10 November: BR2's dated update with the 2027 incubation class",
+    "Any Ready draft in desks/reviewer-vicky/reviews/ not yet published"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
@@ -213,6 +216,12 @@
       "outcome": "ok",
       "release": "pending",
       "line": "F43 re-signing (19, form 2); S7 corrected (AI count)"
+    },
+    {
+      "started": "2026-11-07T08:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "verify flags round 4 (all answered); BR6 research started"
     }
   ],
   "decisions_on_findings": [

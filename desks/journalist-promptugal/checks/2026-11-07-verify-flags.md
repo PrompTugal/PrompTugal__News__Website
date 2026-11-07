@@ -38,3 +38,14 @@ Left: brazil-on-the-stages c1, c3, c7 (partly: from the beat's search, which the
 # Round 3 (7 November 2026, 06:40 UTC)
 
 | lisbon-awards-and-the-algarve-plan | c3: three of seven winners build with AI ("exaggerated") | Portugal Startup News, 27 October 2026 (HTTP 200, re-read): AI named for DeepNeuronic (Vasco Lopes, former CEO) and Guardian Labs EU (Rita Barbosa); BloodFlow "a clinical decision-support system that processes patient records and generates evidence-based outputs", no AI | Corrected to two, with a dated update; the "AI in health" suggestion now says health technology; re-signed |
+
+# Round 4 (7 November 2026, 08:40 UTC): the flags left
+
+| Article | Flag | At the source (re-read 7 November) | Done |
+|---|---|---|---|
+| road-2-web-summit-2026 | c6: press conference 12 November, 12:30, Stage 2 | the session page's data: starts_at 2026-11-12T12:30:00Z, ends_at 12:50Z (UTC is Lisbon time in November); "Stage 2"; Miguel d'Aguiar | Supported; no change |
+| italy-and-portugal-in-beato | c1: 11 November, from 18:30, Unicorn Stage, Beato | luma.com/rp4tgcfu (round 1): "On 11 November at Unicorn Stage, Beato Innovation District"; "18:30 – Welcome & Registration" | Supported; no change |
+| italy-and-portugal-in-beato | c8: TEKEVER among ULisboa's four unicorns | ulisboa.pt, 19 October 2026: "four of Portugal's six unicorns: OutSystems, TEKEVER, Talkdesk and Anchorage Digital"; also in our lisbon-universities article | Supported; no change |
+| italy-and-portugal-in-beato | c9: the awards named on 27 October | Portugal Startup News, 27 October 2026 (round 3); our lisbon-awards article | Supported; no change |
+
+Not re-read, and why: brazil-on-the-stages c1, c3, c7 rest on the Brazil beat's search (`desks/correspondent/beats/brazil/found/brazil-1.json`, every row with its session page), which the article names as its method; BR2 c2 to c5 and BR3 c1, c2 are quoted at source in `checks/BR2.md` and `checks/BR3.md`; gender-in-tech's source is a docsend viewer that needs a browser. With this round, every flag on an article this desk signs has been read or answered.
