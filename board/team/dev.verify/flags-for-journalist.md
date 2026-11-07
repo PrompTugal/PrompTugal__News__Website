@@ -1,6 +1,6 @@
-# Verification flags for journalist@ (dev.verify@, 2026-11-07, 08:52 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-07, 10:52 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 30 articles checked, 318 claims, 196 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+A flag is a prompt to re-read the source, not a finding of error. 32 articles checked, 342 claims, 215 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
 
 ## agent-setup-guide: 5/12 supported by all
 - c1: The vendor feature names in the comparison table were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
@@ -21,6 +21,9 @@ A flag is a prompt to re-read the source, not a finding of error. 30 articles ch
 - c10: Replay playback can run at one hour, six hours or a day per second, and the team's stand-ups and the site's releases are marked on it. (partly / partly / partly)
 
 ## brazil-comes-to-lisbon-intuitivo-heads-to-brazil: 10/10 supported by all
+
+## brazil-last-year-counts: 11/12 supported by all
+- c11: Public figures for Brazil's 2026 Web Summit delegation range from 100 to about 300. (exaggerated / unsupported / unsupported)
 
 ## brazil-on-the-stages: 6/10 supported by all
 - c1: A search of Web Summit's public session pages found 27 Brazil-tied speakers. (partly / supported / supported)
@@ -45,6 +48,12 @@ A flag is a prompt to re-read the source, not a finding of error. 30 articles ch
 - c3: The 2027 class is due to be announced at the Brazil Pavilion on 10 November. (partly / supported / partly)
 - c4: The first class was announced at Web Summit 2025. (supported / supported / partly)
 - c5: The first class ran for nine months in Lisbon. (exaggerated / unsupported / partly)
+
+## driving-to-web-summit: 8/12 supported by all
+- c6: Rua do Mar Vermelho, Rua do Mar da China and Avenida do Atlântico have no traffic from 7am to 10pm. (supported / supported / exaggerated)
+- c9: Oriente metro station, on the red line, is about 300 metres from the MEO Arena, according to Web Summit. (unsupported / unsupported / unsupported)
+- c10: Oriente metro station is about 600 metres from registration at Pavilhão de Portugal, according to Web Summit. (unsupported / unsupported / unsupported)
+- c11: Ride-hailing cars (TVDE, such as Uber and Bolt) have drop-off and pick-up areas on Rua do Caribe and on Alameda dos Oceanos next to the Rotunda dos Vice-Reis. (supported / exaggerated / supported)
 
 ## europe-ai-help-and-portugal-ai-startups: 10/10 supported by all
 
