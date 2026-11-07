@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-07T15:00Z",
+ "updated": "2026-11-07T17:00Z",
  "items": [
   {
    "id": "F01",
@@ -69,7 +69,7 @@
    "finding": "About is stale: 'the writing desks are next', 'Vicky, editor', 'no human review first' with no statement of what a human reviews.",
    "status": "accepted",
    "decision": "accept: the About page to be rewritten by journalist@ with what a human reviews and the publisher (The Cyber Boardroom, UK); routed on its lane",
-   "evidence": "run 5: About still says \"the writing desks are next\" and \"Vicky\"; no press contact; does not say whether a human reviews each article",
+   "evidence": "run 5: About still says \"the writing desks are next\" and \"Vicky\"; no press contact; does not say whether a human reviews each article; run 15 (v0.1.587): About still says 'the writing desks are next' and 'the writing desks (journalist, fact-checker, editor) are next', and lists 'Vicky, editor'",
    "decided_in": "board/team/conductor/status.json",
    "decided_at": "2026-11-06T08:00Z"
   },
@@ -146,8 +146,8 @@
    "severity": "minor",
    "finding": "For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups.",
    "status": "accepted",
-   "decision": "accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@)",
-   "evidence": "; run 14 (v0.1.561): Feedzai's page still has no stage, funding or founders for an investor",
+   "decision": "accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@); 7 November 16:40: Feedzai's founders and funding added from its own pages (stage: none stated)",
+   "evidence": "; run 14 (v0.1.561): Feedzai's page still has no stage, funding or founders for an investor; 7 Nov 16:50 UTC (v0.1.587): ontologist@ added Feedzai's founders (its Leadership page) and funding (its release of 2 October 2025) as sourced notes, but they show only in 'Where this comes from' at the end; the profile table at the top (What they do, ...) has no founders or funding row, so an investor scanning it still does not see them",
    "decided_in": "board/team/ontologist/status.json",
    "decided_at": "2026-11-06T17:40Z"
   },
@@ -627,7 +627,17 @@
    "status": "open",
    "decision": null,
    "evidence": "run 14 (v0.1.561, 7 Nov 14:55 UTC): two <script defer src=\"../assets/filter/filter.js\"> on each page; the served HTML holds 'Filter the companies by name, country or what they do'; the live input's placeholder and aria-label are empty; 'fraud' filters 120 to 3"
+  },
+  {
+   "id": "F58",
+   "run": 15,
+   "owner": "conductor@",
+   "severity": "costly",
+   "finding": "The newsletter page says 'Subscribers and sending are handled by the Web Summit team, not on this site' and gives no way to ask to be added: no form, link or route. A reader who wants the edition by email leaves without it. Give one route (a form on a lane, or 'ask the editors' with a working way), whichever the comms protocol allows; Dinis's call if it touches what an email may promise.",
+   "status": "open",
+   "decision": null,
+   "evidence": "run 15 (v0.1.587, 7 Nov 16:55 UTC): /newsletter/ page text; board/guidance/2026-11-06-the-daily-newsletter.md (subscribers and sending stay with the Web Summit team)"
   }
  ],
- "updated_decisions": "2026-11-07T12:44Z"
+ "updated_decisions": "2026-11-07T16:44Z"
 }

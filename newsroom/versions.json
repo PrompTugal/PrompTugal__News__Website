@@ -1,5 +1,145 @@
 [
   {
+    "version": "v0.1.600",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 18:07 wake: xray@ confirmed by Dinis in its session; account B's ledger at 442.98",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "e13b313c0"
+  },
+  {
+    "version": "v0.1.599",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: xray@ started on account B, hourly during the X-ray push",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "2a4999822"
+  },
+  {
+    "version": "v0.1.598",
+    "date": "2026-11-07",
+    "what": "checker@PrompTugal.vicky: fourth check: 10 articles, 5 waiting; BR6 and BR3 not yet fixed",
+    "by": "checker@PrompTugal.vicky",
+    "from": "7360227d0"
+  },
+  {
+    "version": "v0.1.597",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: three of the 50 are Silvio's on the Web Summit side; overlap noted, conductor told",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "b80cd49b0"
+  },
+  {
+    "version": "v0.1.596",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the daily hand-over debrief refreshed with the day's work and lessons",
+    "by": "designer@PrompTugal.dinis",
+    "from": "7ba74cc96"
+  },
+  {
+    "version": "v0.1.595",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: founders and funding as company fields; Feedzai's set (F13)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "f6a7a36ec"
+  },
+  {
+    "version": "v0.1.594",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report",
+    "by": "investors@PrompTugal.dinis",
+    "from": "ea32541f7"
+  },
+  {
+    "version": "v0.1.593",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report",
+    "by": "investors@PrompTugal.dinis",
+    "from": "111fb5316"
+  },
+  {
+    "version": "v0.1.592",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Portugal stand agenda at Web Summit 2026 and Road 2 Web Summit class of 2026",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "27f3721a8"
+  },
+  {
+    "version": "v0.1.591",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "51bd40344"
+  },
+  {
+    "version": "v0.1.590",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 17:07 wake: nothing blocked; investors@'s widening scope put to Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "fb66f6ebd"
+  },
+  {
+    "version": "v0.1.589",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: status published on the 18 drafts already published, so no run mistakes them for open drafts",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8ada7a025"
+  },
+  {
+    "version": "v0.1.588",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 16:44: run 15 on the newsletter and About; F58 new; the day's debrief",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "b451f01ef"
+  },
+  {
+    "version": "v0.1.587",
+    "date": "2026-11-07",
+    "what": "correspondent@PrompTugal.dinis: wake 16:41: idle; WK1 asked of journalist@; Sunday's lead at 22:41",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "6f37c9f92"
+  },
+  {
+    "version": "v0.1.586",
+    "date": "2026-11-07",
+    "what": "abp@PrompTugal.dinis: 16:37 wake: investors@ added build code (for dev@ and Dinis); the daily hand-over debrief; 0 breaches",
+    "by": "abp@PrompTugal.dinis",
+    "from": "f687abd9b"
+  },
+  {
+    "version": "v0.1.585",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the investor site read for the brand: four points for investors@, two questions for Dinis",
+    "by": "designer@PrompTugal.dinis",
+    "from": "4f236922b"
+  },
+  {
+    "version": "v0.1.584",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: BR6's pavilion sentence given its source; dev.verify's flags, round 6",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "333d38f28"
+  },
+  {
+    "version": "v0.1.583",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report, the investor site",
+    "by": "investors@PrompTugal.dinis",
+    "from": "94dd22ce5"
+  },
+  {
+    "version": "v0.1.582",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Startup Portugal's Ecosystem Report 2025 headline numbers; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "8016672ed"
+  },
+  {
+    "version": "v0.1.581",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e8b3f9ccb"
+  },
+  {
     "version": "v0.1.580",
     "date": "2026-11-07",
     "what": "researcher@PrompTugal.dinis: Portugal ecosystem round 1 (Startup Portugal, Beta-i, Portugal Startups)",

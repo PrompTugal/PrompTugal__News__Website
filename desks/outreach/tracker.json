@@ -1,6 +1,6 @@
 {
  "about": "Where each outreach request stands, one row per company: drafted (desks/outreach/contact-requests/), requested (sent on this role's lane to conductor@web-summit.dinis, which drafts with what only it holds; a person sends), filed (the Web Summit team holds it as a draft in its private CRM), then sent or dropped with a date, as the public outcome comes back. Only public outcomes are written here, never an address or a reply (the comms protocol). Kept by outreach@PrompTugal.dinis; started 7 November 2026 after historian@'s brief board/briefs/2026-11-07-the-php-newsrooms-lesson.md (lesson 2: a draft never sent reaches no one).",
- "updated": "2026-11-07T09:39Z",
+ "updated": "2026-11-07T17:45Z",
  "counts": {
   "drafted": 0,
   "requested": 0,
@@ -189,7 +189,8 @@
    "sent": null,
    "dropped": null,
    "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
-   "filed": "2026-11-07T08:27Z"
+   "filed": "2026-11-07T08:27Z",
+   "owner_note": "the Web Summit team gives this company to Silvio (its WS-30, public team-site commit d96d7c1, 7 November): his own draft and ours may overlap; the team's CRM decides which one goes"
   },
   {
    "company": "firefox-enterprise-mozilla",
@@ -263,7 +264,8 @@
    "sent": null,
    "dropped": null,
    "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
-   "filed": "2026-11-07T08:27Z"
+   "filed": "2026-11-07T08:27Z",
+   "owner_note": "the Web Summit team gives this company to Silvio (its WS-30, public team-site commit d96d7c1, 7 November): his own draft and ours may overlap; the team's CRM decides which one goes"
   },
   {
    "company": "launchdarkly",
@@ -488,7 +490,8 @@
    "sent": null,
    "dropped": null,
    "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
-   "filed": "2026-11-07T08:27Z"
+   "filed": "2026-11-07T08:27Z",
+   "owner_note": "the Web Summit team gives this company to Silvio (its WS-30, public team-site commit d96d7c1, 7 November): his own draft and ours may overlap; the team's CRM decides which one goes"
   },
   {
    "company": "temporal",

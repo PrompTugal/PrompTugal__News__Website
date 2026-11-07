@@ -1,0 +1,423 @@
+{
+  "shell": {
+    "brand_sub": "Investisseurs et partenaires",
+    "nav": {
+      "home": "Accueil",
+      "invest": "Investir",
+      "partner": "Partenaire",
+      "involved": "Rejoindre",
+      "publishers": "Éditeurs",
+      "algarve": "Algarve",
+      "builders": "Développeurs",
+      "decks": "Decks",
+      "articles": "Articles",
+      "contact": "Contact"
+    },
+    "skip": "Aller au contenu",
+    "language": "Langue",
+    "footer_company": "PrompTugal est publié par My Feeds (MYFEEDS AI, UNIPESSOAL LDA), une société de l'Algarve établie à Loulé, au Portugal, dans l'Union européenne. Dinis Cruz en est le fondateur et le CTO.",
+    "footer_open": "Tout ici est ouvert : le code sous Apache-2.0, les textes et les données sous CC BY 4.0. Tout est public sauf la valorisation et les conditions.",
+    "footer_library": "En détail",
+    "footer_back": "PrompTugal.news, la publication",
+    "footer_who": "Qui êtes-vous ?",
+    "fallback": "Cette page n’est pas encore traduite ; la voici en",
+    "footer_counts": "Mesure d’audience : sans cookie, et aucune adresse IP conservée. Pour connaître la ville, le navigateur interroge un service de localisation, qui voit l’adresse IP. Do Not Track ou Global Privacy Control désactivent tout.",
+    "fab": "Votre avis"
+  },
+  "feedback": {
+    "title": "Qu'en pensez-vous ?",
+    "lead": "Votre avis est ce dont nous avons le plus besoin en ce moment. Un clic nous apprend quelque chose ; une ligne nous en apprend davantage.",
+    "interested": "Cela m'intéresse",
+    "more": "Dites-m'en plus",
+    "notforme": "Pas pour moi",
+    "write": "Écrire à Dinis Cruz",
+    "note": "Un clic est compté avec les mesures d’audience du site : sans cookie, sans compte, sans formulaire, et le site ne garde aucune adresse IP."
+  },
+  "route": {
+    "title": "Votre parcours",
+    "lead": "Lisez dans cet ordre. Chaque deck s'ouvre dans le navigateur (flèches du clavier, F pour le plein écran) ou en PDF.",
+    "min": "min",
+    "pdf": "PDF"
+  },
+  "home": {
+    "title": "PrompTugal pour les investisseurs et les partenaires",
+    "summary": "L'information de nouvelle génération fonctionne déjà. Qui êtes-vous ? Investisseurs, entreprises partenaires, personnes qui veulent s'impliquer, éditeurs, écosystème de l'Algarve et développeurs : le chemin le plus court vers ce qu'il vous faut, et un moyen de nous dire ce que vous en pensez.",
+    "kicker": "De l'Algarve, pour l'Europe",
+    "h1": "L'information de nouvelle génération fonctionne déjà.",
+    "lead": "Une rédaction de personnes et d'agents d'IA : chaque fait sourcé, chaque article signé, aucun lecteur pisté, les lecteurs paient après avoir reçu la valeur. En ligne pour le Web Summit Lisbonne, du 9 au 12 novembre 2026. Un tour seed de moins de 1 M€ en cours.",
+    "cta_who": "Qui êtes-vous ?",
+    "cta_tour": "Voir en ligne : la visite",
+    "cta_map": "La carte des decks",
+    "who_title": "Qui êtes-vous ?",
+    "who_lead": "Choisissez. Le site vous mène par le chemin le plus court.",
+    "cards": {
+      "invest": {
+        "t": "Je veux investir",
+        "d": "Un tour seed de moins de 1 M€, dans une entreprise qui tourne déjà."
+      },
+      "partner": {
+        "t": "Mon entreprise pourrait travailler avec vous",
+        "d": "Un événement, une équipe, un fonds de contenus : voyez où nous en sommes, puis confiez-nous un projet."
+      },
+      "involved": {
+        "t": "Je veux m'impliquer",
+        "d": "Un CEO issu des médias, des journalistes très techniques, des renforts cette semaine."
+      },
+      "publishers": {
+        "t": "J’édite, je travaille dans les médias, ou je les finance",
+        "d": "Comment l'information s'est enlisée, et une issue qui fonctionne déjà."
+      },
+      "algarve": {
+        "t": "Je fais partie de l'écosystème de l'Algarve ou du Portugal",
+        "d": "Une société de l'Algarve : emplois, talents, startups, l'histoire de la région."
+      },
+      "builders": {
+        "t": "Je construis des choses",
+        "d": "Tout est ouvert. Forkez-le, ou construisez-le avec nous."
+      }
+    },
+    "where_title": "Où nous en sommes",
+    "where_lead": "Chiffres du 7 novembre 2026, tout est en ligne sur promptugal.news.",
+    "stats": [
+      {
+        "n": "120",
+        "l": "entreprises avec des fiches sourcées"
+      },
+      {
+        "n": "240",
+        "l": "événements du sommet, en données"
+      },
+      {
+        "n": "31",
+        "l": "articles signés"
+      },
+      {
+        "n": "~25",
+        "l": "rôles d'agents nommés, un seul opérateur humain"
+      },
+      {
+        "n": "9",
+        "l": "decks, en quatre langues"
+      },
+      {
+        "n": "0",
+        "l": "lecteur pisté"
+      }
+    ],
+    "where_cta": "Ce qui fonctionne aujourd'hui",
+    "decks_title": "Neuf decks, une histoire",
+    "decks_lead": "Chacun répond à une question différente. Commencez par la carte, ou lisez toutes les diapositives à la suite.",
+    "decks_all": "Tous les decks",
+    "decks_seq": "Toutes les diapositives d’un coup d’œil",
+    "articles_title": "À lire et à partager",
+    "articles_all": "Tous les articles"
+  },
+  "aud": {
+    "invest": {
+      "title": "Investir dans une entreprise d'information qui tourne déjà",
+      "summary": "Pour les investisseurs : un tour seed de moins de 1 M€ via My Feeds, une société de l'Algarve ; ce qui tourne aujourd'hui, pourquoi elle peut être rentable et rachetée, votre parcours dans les decks, et comment nous dire ce que vous en pensez.",
+      "kicker": "Pour les investisseurs",
+      "lead": "Un tour seed de moins de 1 M€, via My Feeds, une société de l'Algarve. Tout est public sauf la valorisation et les conditions.",
+      "points": [
+        {
+          "t": "Elle tourne",
+          "d": "En ligne pour le Web Summit Lisbonne : articles sourcés et signés, entreprises, les journées du sommet, un assistant, une app en bêta."
+        },
+        {
+          "t": "Elle est conçue pour être rentable",
+          "d": "Les lecteurs paient quelques centimes la page après avoir reçu la valeur ; la personnalisation pour les événements d'abord ; une infrastructure qui coûte très peu à faire tourner."
+        },
+        {
+          "t": "Elle est conçue pour être rachetée",
+          "d": "Deux phases : les explorateurs font la preuve, avec une sortie pour les premiers fondateurs et investisseurs ; la phase deux est une autre entreprise."
+        }
+      ],
+      "ask_title": "Ce que nous vous demandons",
+      "asks": [
+        "Posez les trois questions : peut-elle être rentable, peut-elle être rachetée, est-ce la bonne équipe ?",
+        "Dites-nous ce qui vous manque pour dire oui, ou non.",
+        "Rencontrez Dinis Cruz au Web Summit Lisbonne, du 9 au 12 novembre 2026."
+      ],
+      "next_title": "La suite",
+      "next": [
+        "Vous cliquez ci-dessous, ou vous écrivez une ligne.",
+        "Dinis Cruz répond, avec ce que vous avez demandé.",
+        "La valorisation et les conditions, lors d'une conversation avec ceux qui mettent de l'argent sur la table."
+      ]
+    },
+    "partner": {
+      "title": "Confiez-nous un projet. Voyez d'abord où nous en sommes.",
+      "summary": "Pour les entreprises qui pourraient travailler avec nous : la plateforme qui fait tourner cette rédaction, pour votre événement, votre équipe ou vos contenus ; ce qui est en ligne, votre parcours dans les decks, et comment commencer.",
+      "kicker": "Pour les entreprises qui pourraient travailler avec nous",
+      "lead": "La plateforme qui fait tourner cette rédaction peut tourner pour votre événement, votre équipe ou votre fonds de contenus, avec ses agents, ses limites écrites et sa traçabilité.",
+      "points": [
+        {
+          "t": "Votre événement",
+          "d": "Une rédaction et une app pour les participants, avant, pendant et après, sans que personne soit pisté."
+        },
+        {
+          "t": "Votre équipe",
+          "d": "Des notes avant une intervention et après, la journée de chacun, une version du site avec seulement ce dont chacun a besoin."
+        },
+        {
+          "t": "Vos contenus",
+          "d": "Des données conçues pour les agents d'IA, des dossiers de veille, une licence commerciale, et la maintenance."
+        }
+      ],
+      "ask_title": "Ce que nous vous demandons",
+      "asks": [
+        "Décrivez-nous en quelques lignes le projet que vous avez en tête.",
+        "Essayez d'abord le site en ligne : c'est la meilleure démo.",
+        "Dites-nous ce qui vous ferait lancer un pilote."
+      ],
+      "next_title": "La suite",
+      "next": [
+        "Vous écrivez, ou vous cliquez ci-dessous.",
+        "Nous répondons avec ce qu'il faudrait.",
+        "Un pilote ; les prix sont publiés une fois testés."
+      ]
+    },
+    "involved": {
+      "title": "Venez la diriger",
+      "summary": "Pour les personnes qui veulent s'impliquer : un CEO issu des médias, des journalistes très techniques et des renforts cette semaine ; ce que vous trouveriez, votre parcours dans les decks, et comment commencer.",
+      "kicker": "Pour les personnes qui veulent s'impliquer",
+      "lead": "Dinis Cruz construit la technologie. L'entreprise a besoin de gens issus de l'information : un CEO, des journalistes très techniques, et des renforts cette semaine.",
+      "points": [
+        {
+          "t": "Un CEO issu des médias",
+          "d": "Depuis des années, vous rêvez de diriger une rédaction comme celle-ci. Elle tourne."
+        },
+        {
+          "t": "Des journalistes très techniques",
+          "d": "Les agents font la recherche et la production ; vous décidez de ce qui est vrai et mérite d'être raconté."
+        },
+        {
+          "t": "Des renforts, cette semaine",
+          "d": "Les coulisses du Web Summit, en public : votre rôle et votre travail, tracés."
+        }
+      ],
+      "ask_title": "Ce que nous vous demandons",
+      "asks": [
+        "Aidez maintenant, de façon visible, au Web Summit cette semaine.",
+        "Dites-nous ce que vous changeriez en premier.",
+        "Dites-nous quel rôle est le vôtre."
+      ],
+      "next_title": "La suite",
+      "next": [
+        "Vous cliquez ci-dessous, ou vous écrivez une ligne.",
+        "Vous aidez cette semaine, en public.",
+        "Quand l'investissement arrivera, le projet est que chacun soit payé et détienne une part ; rien n'est encore promis."
+      ]
+    },
+    "publishers": {
+      "title": "L'information s'est enlisée. Voici une issue qui fonctionne.",
+      "summary": "Pour les éditeurs et les médias : pourquoi l'information est enlisée, ce que veulent les lecteurs, la provenance et la vie privée, un pilote sur une rubrique ; votre parcours dans les decks, et comment nous dire où nous nous trompons.",
+      "kicker": "Pour les éditeurs, les médias et ceux qui les financent",
+      "lead": "La provenance de chaque fait, aucun pistage, le paiement après la valeur, et des agents qui font le travail répétitif pendant que les rédacteurs décident.",
+      "points": [
+        {
+          "t": "Les lecteurs ont besoin d'un sujet plus longtemps que le journal ne le traite",
+          "d": "Dans une simulation dans une ville fictive (The bridge), le journal a fait sa une avec l’histoire cinq fois ; les lecteurs en ont eu besoin cinquante-sept jours."
+        },
+        {
+          "t": "Une confiance vérifiable",
+          "d": "Chaque fait avec sa source et sa date de lecture ; chaque article signé."
+        },
+        {
+          "t": "Un pilote sur une rubrique",
+          "d": "Vos rédacteurs aux commandes ; l'équipe agentique fait le travail répétitif."
+        }
+      ],
+      "ask_title": "Ce que nous vous demandons",
+      "asks": [
+        "Lisez le deck 2 et dites-nous où nous nous trompons.",
+        "Proposez une rubrique pour un pilote.",
+        "Si vous financez des médias indépendants : dites-nous ce qu’il faudrait à un pilote pour être éligible."
+      ],
+      "next_title": "La suite",
+      "next": [
+        "Vous cliquez ci-dessous, ou vous écrivez une ligne.",
+        "Nous répondons, et partageons ce que nous avons appris.",
+        "Un pilote, si cela a du sens pour vous."
+      ]
+    },
+    "algarve": {
+      "title": "Une société de l'Algarve, au Portugal, dans l'Union européenne",
+      "summary": "Pour l'écosystème de l'Algarve et du Portugal : l'histoire technologique de la région racontée et portée jusqu'à Lisbonne, en Europe et aux agents d'IA ; emplois, talents et startups ; votre parcours dans les decks, et comment travailler avec nous.",
+      "kicker": "Pour l'écosystème de l'Algarve et du Portugal",
+      "lead": "PrompTugal raconte l'histoire technologique de la région et la porte jusqu'à Lisbonne, en Europe et aux agents d'IA. Elle veut cartographier les talents de la région et aider à lancer ses startups.",
+      "points": [
+        {
+          "t": "Des métiers qui peuvent s'exercer d'ici",
+          "d": "Rédacteurs et journalistes, développeurs, designers, personnes qui dirigent des équipes d'agents d'IA, commerciaux et partenariats."
+        },
+        {
+          "t": "L'histoire de la région",
+          "d": "Des fiches sourcées sur ses entreprises, ses personnes et ses événements, lisibles par les humains et par les agents d'IA."
+        },
+        {
+          "t": "Programmes et subventions",
+          "d": "My Feeds, immatriculée à Loulé, va candidater, et demande à la région comment."
+        }
+      ],
+      "ask_title": "Ce que nous vous demandons",
+      "asks": [
+        "Dites-nous quels programmes conviennent.",
+        "Présentez-nous les entreprises, les écoles et les institutions dont nous devrions raconter l'histoire.",
+        "Rencontrez-nous au Web Summit Lisbonne."
+      ],
+      "next_title": "La suite",
+      "next": [
+        "Vous écrivez, ou vous cliquez ci-dessous.",
+        "Nous nous rencontrons, dans l'Algarve ou au Web Summit.",
+        "Un premier projet ensemble."
+      ]
+    },
+    "builders": {
+      "title": "Forkez-le. Ou construisez-le avec nous.",
+      "summary": "Pour les développeurs : tout est ouvert, le code, les données, le tableau de bord des agents, leurs politiques et leurs rapports d'exécution ; l'infrastructure, comment quelques personnes font tourner de nombreux agents, votre parcours dans les decks, et comment commencer.",
+      "kicker": "Pour les développeurs",
+      "lead": "Le code (Apache-2.0), les textes et les données (CC BY 4.0), le tableau de bord des agents, leurs politiques et leurs rapports d'exécution : tout est ouvert. L'avantage, ce sont les décisions et l'exécution.",
+      "points": [
+        {
+          "t": "Commencez par le dépôt",
+          "d": "github.com/PrompTugal/PrompTugal__News__Website, puis lisez CLAUDE.md."
+        },
+        {
+          "t": "Quelques personnes, de nombreux agents",
+          "d": "Chaque agent avec sa propre clé, sa politique écrite, son budget et ses rapports d'exécution."
+        },
+        {
+          "t": "Copiez-nous",
+          "d": "Ceux qui copient valident l'idée, collaborent avec nous, ou se font racheter."
+        }
+      ],
+      "ask_title": "Ce que nous vous demandons",
+      "asks": [
+        "Construisez quelque chose dessus et montrez-le-nous.",
+        "Ouvrez une issue avec ce qui a cassé ou ce qui manque.",
+        "Dites-nous ce que vous construiriez ensuite."
+      ],
+      "next_title": "La suite",
+      "next": [
+        "Vous le forkez, ou vous cliquez ci-dessous.",
+        "Nous lisons votre issue en public.",
+        "Nous le construisons ensemble, ou vous le construisez vous-même."
+      ]
+    }
+  },
+  "decks": {
+    "title": "Les decks",
+    "summary": "Dix decks : la carte, puis neuf, chacun répondant à une question différente, pour les investisseurs, les partenaires, les personnes qui veulent s'impliquer, l'écosystème de l'Algarve et les développeurs. Dans le navigateur ou en PDF, en anglais, portugais, espagnol et français.",
+    "lead": "La carte, puis neuf decks, chacun pour une question différente. Dans le navigateur ou en PDF, en quatre langues.",
+    "open": "Ouvrir",
+    "seq_title": "Toutes les diapositives d’un coup d’œil",
+    "seq_lead": "Chaque diapositive de chaque deck, dans l'ordre, d'un coup d'œil. Cliquez sur une diapositive pour l'ouvrir.",
+    "langs_note": "En anglais, portugais, espagnol et français.",
+    "vote": "Votez pour la prochaine langue",
+    "changelog": "Ce qui a changé",
+    "for": {
+      "0-the-map": "Commencez ici : comment les neuf decks s'articulent, et lequel lire en premier",
+      "1-the-investment-case": "Investisseurs : le problème, notre réponse, ce qui fonctionne, le modèle économique, le plan",
+      "2-the-industry": "Comment l'information en est arrivée là, ce que veulent les gens, la provenance, la vie privée, le paysage",
+      "3-the-platform": "Chaque fonction, en ligne ; déployez-la ou prenez une licence",
+      "4-the-algarve": "L'Algarve, le Portugal et l'Europe : emplois, talents, information, startups",
+      "5-the-investment": "Le tour seed, qui détient une part, deux phases, les trois questions",
+      "6-the-technology": "Comment quelques personnes font tourner de nombreux agents : clés, vie privée, le mandat, la traçabilité",
+      "7-join-us": "Un CEO issu des médias, des journalistes, des renforts cette semaine",
+      "8-do-it-yourself": "Les dépôts ouverts, l'infrastructure, la feuille de route ; l'avantage, ce sont les décisions",
+      "9-the-tour": "Ce qui est en ligne, en visite guidée animée"
+    }
+  },
+  "sequence": {
+    "title": "Toutes les diapositives d’un coup d’œil",
+    "summary": "Chaque diapositive de chaque deck PrompTugal, dans l'ordre, d'un coup d'œil : la carte d'abord, puis les neuf decks. Cliquez sur une diapositive pour l'ouvrir dans le navigateur.",
+    "lead": "Chaque diapositive, dans l'ordre. Cliquez sur l'une d'elles pour l'ouvrir ; poursuivez avec les flèches du clavier.",
+    "slides": "diapositives"
+  },
+  "contact": {
+    "title": "Parlez-nous",
+    "summary": "Comment joindre Dinis Cruz, fondateur et CTO de PrompTugal : écrivez une ligne, rencontrez-le au Web Summit Lisbonne (du 9 au 12 novembre 2026) ou, pour les développeurs, ouvrez une issue sur le dépôt public.",
+    "lead": "Ce que nous voulons le plus en ce moment, c'est votre réaction. Une ligne suffit.",
+    "write_t": "Écrire à Dinis Cruz",
+    "write_d": "Dites qui vous êtes et ce que vous en pensez. Choisissez l'objet qui convient :",
+    "subjects": {
+      "invest": "Investir dans PrompTugal",
+      "partner": "Un projet avec PrompTugal",
+      "involved": "M'impliquer dans PrompTugal",
+      "publishers": "PrompTugal et l'édition",
+      "algarve": "PrompTugal et l'Algarve",
+      "builders": "Construire sur PrompTugal",
+      "other": "Un avis sur PrompTugal"
+    },
+    "meet_t": "Rencontre au Web Summit Lisbonne",
+    "meet_d": "Du 9 au 12 novembre 2026. Dinis Cruz y est toute la semaine.",
+    "issue_t": "Ouvrir une issue",
+    "issue_d": "Pour les développeurs, et pour tout ce qui est faux sur le site : en public, sur le dépôt.",
+    "issue_cta": "Ouvrir une issue",
+    "privacy": "Rien de ce que vous écrivez n’est publié ici."
+  },
+  "thanks": {
+    "title": "Merci",
+    "summary": "Votre clic est compté : sans cookie, sans compte. Un mot de votre part nous en dirait beaucoup plus.",
+    "lead": "Votre clic est compté : sans cookie, sans compte. Un mot de votre part nous en dirait beaucoup plus.",
+    "write": "Écrire une ligne à Dinis Cruz",
+    "back": "Retour au début"
+  },
+  "articles": {
+    "title": "Articles",
+    "summary": "Des articles de Dinis Cruz sur PrompTugal : comment les neuf decks s'articulent, pourquoi la copie est bienvenue, de qui nous voulons avoir des nouvelles, une rédaction de l'Algarve, et payer après la valeur. À lire, à partager et à discuter.",
+    "lead": "À lire, à partager et à discuter : sur LinkedIn, partout.",
+    "read": "Lire",
+    "share": "Publier sur LinkedIn",
+    "by": "Par Dinis Cruz"
+  },
+  "library": {
+    "title": "En détail",
+    "summary": "La version longue de tout ce que contient le site investisseurs : le pitch, le business plan, ce qui fonctionne aujourd'hui, My Feeds, comment nous en sommes arrivés là, la concurrence, notre réflexion, les règles d'engagement, nous rejoindre, les partenaires, les événements, les éditeurs, la prospection et les langues.",
+    "lead": "La version longue de tout ce que contient ce site.",
+    "titles": {
+      "changelog": "Ce qui a changé dans les decks"
+    }
+  },
+  "persona": {
+    "made_for": "Une version de ce site faite pour",
+    "yours": "Votre page",
+    "leave": "Quitter cette version",
+    "about": "Ce que nous savons de vous",
+    "why": "Pourquoi vous",
+    "note": "Un mot de Dinis Cruz",
+    "route": "Votre parcours dans les decks",
+    "pages": "Des pages pour vous",
+    "start": "Commencez ici",
+    "demo": "Persona fictive, créée pour montrer comment fonctionnent les versions personnelles."
+  },
+  "foryou": {
+    "title": "Votre version",
+    "summary": "Une version du site pour investisseurs faite pour une personne, ouverte avec le lien ou le code QR reçu.",
+    "empty": "Cette page montre une version du site faite pour une personne. Ouvrez le lien ou le code QR que vous avez reçu ; rien n’est conservé sur vous, et la version dure jusqu’à la fermeture de l’onglet."
+  },
+  "personas": {
+    "title": "Versions personnelles",
+    "summary": "Comment une version du site pour investisseurs est faite pour une personne et s’ouvre avec une clé dans un lien ou un code QR ; cinq personas fictives pour l’essayer.",
+    "lead": "Un site, une version pour chaque personne à qui nous écrivons : dans sa langue, son parcours dans les decks, un mot, et même des diapositives changées pour elle. Elle s’ouvre avec une clé dans un lien ou un code QR.",
+    "how_title": "Comment ça marche",
+    "how": [
+      "Dinis Cruz nomme une personne et dit pourquoi elle compte ; un agent écrit sa version à partir de faits publics et professionnels et de son mot.",
+      "La version est fermée par sa propre clé. Le fichier fermé est public ; la clé n’est que dans le lien et son code QR.",
+      "La personne scanne ou clique. Chaque page du site s’adresse alors à elle, jusqu’à ce qu’elle ferme l’onglet ou quitte la version.",
+      "Rien la concernant n’est conservé sur le site, et la clé du lien n’atteint jamais un serveur."
+    ],
+    "try_title": "Essayez : cinq personas fictives",
+    "try_lead": "Cliquez sur un lien, ou scannez le code QR avec un téléphone.",
+    "open": "Ouvrir cette version",
+    "drop_title": "Un code QR en image ?",
+    "drop_lead": "Déposez-la ici ou choisissez le fichier : la page la lit et ouvre la version.",
+    "drop_choose": "Choisir une image",
+    "drop_nodetector": "Ce navigateur ne sait pas lire un code QR dans une image : ouvrez le lien, ou scannez-le avec un téléphone.",
+    "drop_none": "Aucun lien de version PrompTugal trouvé dans cette image.",
+    "real_title": "Pour une personne réelle",
+    "real": "Sa version n’est faite qu’à la demande de Dinis Cruz, ne contient que des faits publics et professionnels et son propre mot, et son lien ne va qu’à lui, jamais sur ce site public.",
+    "status": "Ouvrir une version demande le petit script du site pour les versions personnelles, en attente de la revue des développeurs ; tant qu’il n’est pas servi, les liens ouvrent le site comme d’habitude."
+  }
+}

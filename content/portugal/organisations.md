@@ -30,7 +30,8 @@ AMAL, NERA and ANJE are listed above only by the roles our sources give them; we
 ## Nationally {#national}
 
 {.rows}
-- **Startup Portugal**: recognised Algarve Evolution's incubator in January 2026 (Portugal Startup News, above).
+- **Startup Portugal**: recognised Algarve Evolution's incubator in January 2026 (Portugal Startup News, above). On its own pages it calls itself "Portugal's national reference for entrepreneurship", active since 2016 and funded through a programme contract with IAPMEI, European funds and its own revenue; its programmes include the National Incubator Network and Road 2 Web Summit ([startupportugal.com](https://startupportugal.com/about-us/), read 7 November 2026; the Road 2 Web Summit page itself was not found at the address tried). Its Ecosystem Report 2025 presents 5,091 startups (4,719 in 2024), turnover of EUR 2,856 million and about 28,000 employees, as the organisation states them ([ecoreport.startupportugal.com](https://ecoreport.startupportugal.com/), landing page read 7 November 2026; the full report and the figures' underlying sources not checked).
+- **Beta-i**: describes itself as working with teams on collaborative innovation programmes, with offices in Lisbon, Brussels, Boston and Sao Paulo ([beta-i.com](https://beta-i.com/), read 7 November 2026; its numbers are loaded by script and were not read).
 - **Junior Achievement Portugal**: runs "The Company" with Algarve Evolution, an entrepreneurship programme for high school students (Portugal Startup News, above).
 - **CCDR-Algarve**: the regional body for which Algarve Evolution's Innovation and Collaboration Platform for Digitalization prepares governance recommendations ([algarveevolution.pt](https://www.algarveevolution.pt)).
 

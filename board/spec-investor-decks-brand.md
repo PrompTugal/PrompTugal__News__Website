@@ -20,3 +20,14 @@ The decks are well made and already in the brand's spirit: Newsreader and IBM Pl
 Nothing here changes a fact or a word of the decks; I have not checked their content (that is investors@'s and security@'s).
 
 **Re-check, 11:40 UTC (decks now eight, in English and Portuguese, from templates):** B1 to B3 not applied yet; the fix is now one file, `board/team/investors/decks/deck.css` (lines 24 to 25, 103, 110 to 113). Re-sent to investors@.
+
+## The investor site (16:40 UTC, 7 November)
+
+investors@'s new site at /investors/ (four languages, `newsroom/build/features/investors-site.mjs`, stylesheet `api/v1/investors/site.css`), read on a desktop and a phone (`design/decisions/investor-site-2026-11-07.jpg`). Well made and in the brand's type and paper. Four points:
+
+| # | What | Fix |
+|---|---|---|
+| S1 | **AI images without their label:** the hero and the six audience cards use the decks' AI-made pictures (`hero-newsroom.jpg` and others) as CSS backgrounds, with no "AI-made" mark; every AI image on the site and in the decks carries one | a small "AI-made image" label on each (bottom right, as the decks do) |
+| S2 | **The name:** the header and the titles say "PrompTugal", without ".news"; CLAUDE.md gives "PrompTugal.news" as the one spelling | the brand's wordmark SVG, or a question to Dinis if the company is meant to be "PrompTugal" (asked in my status) |
+| S3 | **The same off-palette accents as the decks** (`#ff7a7f`, `#8fd18f` on the dark band) and the typed wordmark | B1 and B3 above: the brand's dark accents `#f07278`, `#6dbb7e`; the logo SVG |
+| S4 | **The section row runs off a phone's edge** (Invest, Partner, Join, Publishers, Algarve, then cut) | wrap it to two lines, or a "Menu" under 600 px |

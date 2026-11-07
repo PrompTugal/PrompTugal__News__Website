@@ -4,7 +4,7 @@ date: 2026-11-06
 story: S19
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: About 200 Brazilian companies come to Web Summit Lisbon to meet investors and find business in Europe. At the same time, Intuitivo, a Porto edtech startup and a past PITCH winner, has raised money to grow in Brazil. Lisbon works as a bridge both ways.
-status: draft
+status: published
 beat: "Connections: announcements"
 license: https://creativecommons.org/licenses/by/4.0/
 tags: connections, brazil, portugal, apexbrasil, sebrae, intuitivo, edtech
