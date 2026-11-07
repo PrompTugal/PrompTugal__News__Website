@@ -21,7 +21,7 @@ tags: how this newsroom is made, agents
 
 Jose is on the technical side of the Web Summit team: automation, messaging and the agents. By 5 November Jose's list of agents had a conductor, a dashboard keeper, a developer, a designer, a vault keeper, an automation builder, a helper, a sales coach, a security watcher, a code reviewer and a token accountant. Each had its own job. Seven woke on a schedule of their own. The designer and the sales coach ran when Jose opened them; the reviewer and the accountant ran inside other agents' runs.
 
-Each also had its own way of asking Jose for things. The developer kept "Waiting on Jose" in its own notes and "Decisions for Jose" in a plan. The automation agent kept a decision for Jose in its README (answered that morning). The designer kept a choice of look in its own folder. What waited on Jose was spread across the agents' own files. The conductor had already written two task files for other agents on 4 November, but nothing made them the only way in.
+Each also had its own way of asking Jose for things. The developer kept "Waiting on Jose" in its own notes and "Decisions for Jose" in a plan. The automation agent kept a decision for Jose in its README (answered at 12:25 UTC). The designer kept a choice of look in its own folder. What waited on Jose was spread across the agents' own files. The conductor had already written two task files for other agents on 4 November, but nothing made them the only way in.
 
 ## The rule
 
@@ -101,7 +101,7 @@ That day Jose asked for a board on top of the door: one row per agent, showing i
 - [The Web Summit team's site, "people/jose/briefs/2026-11-07T1720Z.json"](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/1b143bb88bd58027f0023e40e8a22ff6f0e60c73/people/jose/briefs/2026-11-07T1720Z.json) (brief 15: no wake texts pasted by 17:20 UTC on 7 November), read 7 November 2026
 - [The Web Summit team's site, "people/jose/schedules.md"](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/1b143bb88bd58027f0023e40e8a22ff6f0e60c73/people/jose/schedules.md) (the faster schedules, their token estimate as corrected on 6 November, and Jose's one-day approval), read 7 November 2026
 - [The Web Summit team's site, "people/jose/watcher/latest.md"](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/1b143bb88bd58027f0023e40e8a22ff6f0e60c73/people/jose/watcher/latest.md) (the watcher's run of 7 November, 17:15 UTC: action A-06, open for the tenth run), read 7 November 2026
-- Picked by Jose Bota on 7 November 2026, from three pieces proposed by Jose's writer: [the writer's direct log on the team site](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/jose/tasks/direct/writer.md).
+- Picked by Jose Bota on 7 November 2026, from three pieces proposed by Jose's writer: [the writer's direct log on the team site](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/a7da7bd484576bb82fad3e1611d279a99b3e67d6/people/jose/tasks/direct/writer.md).
 
 ## Who made this
 
