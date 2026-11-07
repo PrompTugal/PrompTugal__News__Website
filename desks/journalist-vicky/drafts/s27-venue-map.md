@@ -4,7 +4,7 @@ date: 2026-11-07
 story: S27
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "PrompTugal.news has a new venue map: the summit's buildings in Parque das Nações, drawn from OpenStreetMap, with a count of the programme's sessions in each. No people are on it, and the page runs no script."
-status: draft
+status: fix
 beat: AI and robotics (a team topic)
 license: https://creativecommons.org/licenses/by/4.0/
 tags: how this newsroom is made, the summit, maps
