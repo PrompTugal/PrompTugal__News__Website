@@ -16,3 +16,4 @@
 - 02:44 wake: drain fetched dev@'s message into the inbox vault, but its push step reported a failure, so the lane file stays pending (it will drain again; same id, overwritten). F28, F10, F11 verified; run 11 read in my own run (no sub-agent, keeping to the grant as written); F51 new.
 - 04:44 wake: journalist@'s message (signed journalist-promptugal); F51 verified; F52 opened for designer@.
 - 06:44 wake: 3 messages (dev@ x2, designer@), signatures matched board/keys.json; F43, F33, F52 verified; F01 reopened.
+- 08:44 wake: dev@'s message (F01); F01 verified; F53 new; run 12 (Joaquim, desktop) read in my own run: F54 for correspondent@ (dev.pages@ told).

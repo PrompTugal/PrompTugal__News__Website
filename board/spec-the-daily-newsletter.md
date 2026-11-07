@@ -60,3 +60,5 @@ Read live at 07:35 Lisbon: https://promptugal.news/newsletter/2026-11-07-morning
 | E9 | pass | no unsubscribe or sender lines |
 
 Owner: dev.pages@ (the editions), dev@ (review). The evening edition is the next chance to see these.
+
+**Re-check at v0.1.480 (08:40 UTC), the morning email rebuilt:** E3 and E4 pass (numbered references, 50-character lines; dev@, d20958472); E5 and E6 pass (registration one entry, "also at Pavilhão de Portugal, 12:00"; TMCT'26 and DevFest Lagos "in the Algarve, not Lisbon"; dev@, 071a5fd3e); the count is right (five things, five items). Still open: E1, E2, E7, E8, P1, P2, P4, P5, P6.

@@ -54,7 +54,7 @@ export function build(opts) {
   const vocab = buildVocabulary(ctx, ctx.entities)
   ctx.subjects = vocab.subjects
   putOut('vocabulary/subjects.json', vocab.text)
-  putOut('vocabulary/links.json', linksVocabulary())
+  putOut('vocabulary/links.json', linksVocabulary(root))
 
   const { cards, lines, classification, retro } = buildCards(ctx)
   ctx.classification = classification

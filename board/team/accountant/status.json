@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A (stays, board/the-account-move.md): every three hours at :47 UTC; capture and adjust",
- "updated": "2026-11-07T07:00Z",
+ "updated": "2026-11-07T09:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -19,14 +19,14 @@
   "21:50 wake: account A read (792.82 API-equivalent today, about 27 an hour since 18:50); fifteen agents handed over to account B at about 21:25 and their figures here are final; investors@ budgeted; budgets.json carries which account each role is on; the subscription still allowed_warning on account A",
   "00:50 wake: the close of 6 November: 923.72 API-equivalent (A 872.53, B 51.19); the table by role; budgets.json reset for 7 November with a baseline; dev@ and its workers on account B",
   "03:50 wake: 7 November's first reading: 79.11 API-equivalent so far (A 16.98, B 62.13), about 26 an hour; report-2026-11-07.md; the hand-over debrief for 7 November",
-  "06:50 wake: 147.97 API-equivalent today (A 37.44, B 110.53), about 23 an hour; investors@ over its line (24.46 of 15), me over mine (12.49 of 10); both recorded"
+  "06:50 wake: 147.97 API-equivalent today (A 37.44, B 110.53), about 23 an hour; investors@ over its line (24.46 of 15), me over mine (12.49 of 10); both recorded",
+  "09:50 wake: 213.01 API-equivalent today (A 52.53, B 160.48), about 22 an hour; investors@ and me over our lines, recorded; the reading is now a script, so each wake costs fewer tokens"
  ],
  "next": [
-  "at 09:47: account A's sessions and conductor.b@'s latest ledger against the baseline",
-  "investors@'s spend on account B: whether it keeps the pace"
+  "at 12:47: account A's sessions and conductor.b@'s latest ledger against the baseline"
  ],
  "asks": [
-  "Dinis: account A's seven-day limit still reads allowed_warning at 06:50 UTC; account B reads allowed. Today so far: 147.97 API-equivalent, about 23 an hour (board/team/accountant/report-2026-11-07.md); investors@ is spending fastest (24.46 since midnight)",
+  "Dinis: account A's seven-day limit still reads allowed_warning at 09:50 UTC; account B reads allowed. Today so far: 213.01 API-equivalent, about 22 an hour (board/team/accountant/report-2026-11-07.md)",
   "Dinis: my own session is about 665 k tokens deep, so each reading costs more than the agents I read (6.57 today, third on the team). A fresh accountant@ session would cut that; it is a hand-over the conductor starts at your word, and my debriefs are ready for it",
   "Dinis: the OpenRouter credit is still exhausted (-0.20 USD): dev.verify@ and designer@ wait on a top-up. For Dinis on the same page, choice 5",
   "Dinis: at the 09:50 wake sgit printed my inbox vault's read key into this session's transcript (never committed; the same kind of slip as /newsroom/decisions/an-agent-printed-its-own-lane-token/): rotate my inbox if you wish"
@@ -91,6 +91,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "147.97 today; investors@ and me over our lines, recorded"
+  },
+  {
+   "started": "2026-11-07T09:47Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "213.01 today; steady at 22 an hour"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-07-handover.md"

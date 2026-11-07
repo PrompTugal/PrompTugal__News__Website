@@ -26,7 +26,7 @@
   ],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/212f884a-834e-4db2-b5f3-9ea3ef39a0ed/dogfooding-ai-security-lessons-from-our-own-soc-hosted-by-elastic/",
-  "read_at": "2026-11-06T08:17Z",
+  "read_at": "2026-11-07T08:16Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -37,6 +37,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 58
+    "item": 59
   }
 }

@@ -2,7 +2,7 @@
   "agent": "dev.verify@PrompTugal.dinis",
   "focus": "the verification pipeline: several models re-check every fact against its source; verified block on each page",
   "state": "running on account B (session 1b292349)",
-  "updated": "2026-11-07T07:00Z",
+  "updated": "2026-11-07T09:05Z",
   "done": [
     "Session key made, public half in board/keys.json (dev.verify-promptugal)",
     "newsroom/tools/verify/verify.mjs v0.1; first record board/team/dev.verify/records/europe-in-pavilion-4/ (10 claims, 3 models, all supported, 0.12 USD)",
@@ -22,7 +22,8 @@
     "Wake 00:48 (7 Nov): merged dev; no hold, nothing new for me in guidance; inbox still sealed to the old key (not reissued); four more companies checked (ai-infinity 4/5, airia 3/5, aisle 3/5, akamai 3/5; 0.14 USD); 8 of 120 companies done; OpenRouter credit about 20.2 USD",
     "Wake 02:48 (7 Nov): no hold; nothing new in guidance; inbox re-issued as dev.verify-b.json, opened with my key and drained (empty); four more companies (altegio 3/5, andreessen-horowitz 0/5 (sources not readable as served), austriacard 3/5, c4ail 2/5; 0.24 USD); 12 of 120 done",
     "Wake 04:48 (7 Nov): no hold; inbox drained (empty); journalist@ has acted on round 1 of the flags (commits b26376f0, 6321d309); re-checked the two articles it changed on fresh claims (rio-ten-startups-to-lisbon 7/12, wednesday-11-november-going-abroad 7/12: a new claim set, so not comparable with the earlier 10/12) and the new agent-setup-guide 5/12; 0.31 USD; flags regenerated",
-    "Wake 06:48 (7 Nov): no hold; inbox empty; lisbon-awards-and-the-algarve-plan re-checked after a change: 12/12; three more companies (arima 3/5, atlassian 3/5, cerebras 2/5); 15 of 120 done; about 0.22 USD; credit about 17.5 USD; daily debrief debriefs/2026-11-07-handover.md"
+    "Wake 06:48 (7 Nov): no hold; inbox empty; lisbon-awards-and-the-algarve-plan re-checked after a change: 12/12; three more companies (arima 3/5, atlassian 3/5, cerebras 2/5); 15 of 120 done; about 0.22 USD; credit about 17.5 USD; daily debrief debriefs/2026-11-07-handover.md",
+    "Wake 08:48 (7 Nov): no hold; inbox empty; new article brazils-doors-into-europe 7/12 (0.30 USD, it hit the per-article cap); three more companies (chatplace 4/5, cisco-outshift 1/5, cloudflare 2/5); 18 of 120 done; flags regenerated"
   ],
   "next": [
     "More companies, each with its own website added as a source",

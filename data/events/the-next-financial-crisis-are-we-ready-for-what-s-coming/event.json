@@ -49,7 +49,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/8c454979-5f0b-4842-a6dc-b39834a2b0dc/the-next-financial-crisis-are-we-ready-for-what-s-coming/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
-  "read_at": "2026-11-06T08:18Z",
+  "read_at": "2026-11-07T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -59,6 +59,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 134
+    "item": 135
   }
 }

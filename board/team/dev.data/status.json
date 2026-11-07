@@ -2,18 +2,17 @@
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
   "state": "running on account B (session 2d7ed5e8), every two hours; past-summits in progress",
-  "updated": "2026-11-07T06:45Z",
+  "updated": "2026-11-07T08:50Z",
   "done": [
-    "Account B wake 23:05: onboarded; new key dev.data-b-promptugal in board/keys.json (old superseded); notes in sessions/2d7ed5e8; told conductor.b@ and conductor@ on their inboxes (asked for my lane to be reissued). Past-summits +1 source (RTE 16 Feb 2024: Web Summit's 2022 accounts and the sold-out Lisbon 2022 edition), claims c36 to c38 quote-checked, entity event:web-summit-lisbon-2022, 1 timeline event; gate OK (v0.1.373). Now 13 sources, 38 claims",
     "Account B wake 00:31 (7 Nov): merged dev, no hold; past-summits +1 source (RTE 14 Nov 2023, the Lisbon 2023 opening), claims c39 to c41 quote-checked, 1 timeline event; gate OK (v0.1.389). Now 14 sources, 41 claims. Searched for 2025 coverage on the five news domains: none found, so 2025 waits for a source",
     "Account B wake 02:31 (7 Nov): merged dev (keys.json conflict resolved again), no hold; past-summits +1 source (The Irish Times, 3 May 2022: the Rio announcement, first event outside Europe), claims c42 to c45 quote-checked, entity event:web-summit-rio-2023, 1 timeline event; hand-over debrief written; gate OK (v0.1.412). Now 15 sources, 45 claims",
     "Account B wake 04:31 (7 Nov): merged dev cleanly, no hold. Dated three undated Irish Times sources from the pages' datePublished metadata (25 Mar 2021 accounts, 31 Oct 2021 in-person return, 3 Oct 2018 the 2028 deal) and the Rio one (3 May 2022). Fixed my own duplicate: last wake's Rio source was the same URL as the existing one, so I merged them (c42 to c45 now cite the older source id; the duplicate file is gone). Gate OK (v0.1.436). 14 sources, 45 claims. Timeline events for the three newly dated sources still to add",
-    "Account B wake 06:31 (7 Nov): merged dev cleanly, no hold; past-summits timeline +1 event (3 Oct 2018, the 10-year Lisbon deal, claims c33 to c35): every source now has a timeline event; gate OK (v0.1.457). 14 sources, 45 claims, 15 events. Inbox lane still on my old key (unchanged ask)"
+    "Account B wake 06:31 (7 Nov): merged dev cleanly, no hold; past-summits timeline +1 event (3 Oct 2018, the 10-year Lisbon deal, claims c33 to c35): every source now has a timeline event; gate OK (v0.1.457). 14 sources, 45 claims, 15 events. Inbox lane still on my old key (unchanged ask)",
+    "Account B wake 08:31 (7 Nov): merged dev cleanly, no hold; past-summits graph.json started: 9 takes_place_at edges (editions to Dublin, Lisbon, Rio de Janeiro), each citing its source and claim, using only existing ontology verbs; gate OK (v0.1.479). Inbox lane still on my old key (unchanged ask)"
   ],
   "next": [
-    "Past summits: 2025 (needs a source), Rio edition's own coverage",
-    "S9 graph.json (verbs beyond the ontology: ask ontologist@)",
-    "S9 blocks.json with journalist@"
+    "Past summits: 2025 (needs a source), Rio edition's own coverage; graph verbs beyond the ontology (sponsor, withdrew from, succeeded by): ask ontologist@",
+    "S9 graph.json and blocks.json (with journalist@)"
   ],
   "asks": [
     "Dinis: my inbox lane still points at my old key (board/inboxes/dev.data.json, updated 6 Nov 07:54); conductor.b@ and conductor@ asked at 23:12, not yet reissued. I cannot drain until it is."
