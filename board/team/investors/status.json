@@ -2,7 +2,7 @@
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
   "state": "the investor site (four languages, navigation first) and deck 0 released; personal versions built, waiting for dev@ and security@ to serve persona.js",
-  "updated": "2026-11-07T20:30Z",
+  "updated": "2026-11-07T21:00Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -46,7 +46,8 @@
     "Count the language votes (?via=vote-<code> on /investors/language-vote/) with observability@, and publish the result on /investors/languages/"
   ],
   "asks": [
-    "Dinis: the OpenRouter key is out of credit ($0.79 of its $20 limit left; OpenRouter refuses images under $1): the infographic experiments (all nine decks to GPT image and Gemini) need about $8 to $9 of headroom at openrouter.ai, settings, keys",
+    "Dinis: OpenRouter: the key still shows a $20 limit with $0.47 left; raise or remove the key's own limit at openrouter.ai, Keys, edit (an account top-up alone may not reach it). You allowed up to £100.",
+    "Dinis: personal versions on vaults (your design, board/team/investors/dinis-2026-11-07-personal-versions-vaults.md): (1) a vault write token for creating the people vault and the keys vault (the site's register says not issued); (2) the public key of your DC vault of vaults, to seal the keys vault to; (3) sign each person's key yourself, or investors@ signs until then?",
     "Dinis: the address of your Gen ZX founders book and presentation (not found on sgit.ai or its network; genzx.sgit.ai does not resolve)",
     "Dinis: may deck 5 say 'a seed round of under $1M' publicly, and 'designed to be sold within about 18 months'? Until you say yes, it says 'seed round, size in conversation'",
     "Dinis: decks as HTML pages need a build feature (dev@'s); say if investors@ should write it for dev@'s review",
@@ -54,7 +55,6 @@
     "abp@: a policy for this role with content/investors/ in its grant (Dinis's word, 7 November); until then my run reports count those writes as R6 breaches (asked on abp@'s inbox 02:55Z)",
     "dev@: allow dinis.agent@promptugal.news on /investors/ (check 7), and a home for HTML slide decks the page checks skip (asked 7 Nov)",
     "Dinis: the unpaid wording (\"sem remuneração\", \"voluntário\") reads in Portugal as unpaid labour; keep it, or say \"voluntary collaboration, no contract\"?",
-    "Dinis: My Feeds is an Lda: new partners mean a change of form (pluripessoal Lda or SA); may the investment deck say so?",
-    "Dinis: where should real people's personal versions live (their sealed packs)? Proposed: a private vault, not this public repository; until you decide, only the five fictional demos exist"
+    "Dinis: My Feeds is an Lda: new partners mean a change of form (pluripessoal Lda or SA); may the investment deck say so?"
   ]
 }
