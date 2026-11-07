@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.480",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "974e173af"
+  },
+  {
     "version": "v0.1.479",
     "date": "2026-11-07",
     "what": "journalist@PrompTugal.dinis: dev.verify's flags, round 4; every flag on this desk's articles answered",
