@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T20:30Z",
+  "updated": "2026-11-07T21:30Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -45,10 +45,11 @@
     "17:13 wake: inbox drained (empty); Startup Portugal's Portugal stand agenda (Pavilion 1, Stand 145, 10-12 Nov) and Road 2 Web Summit Class of 2026 (78 startups) read; one session tagged AWS (10 Nov 12:40)",
     "18:13 wake: inbox drained (empty); AICEP (portugalglobal.pt; aicep.pt is a different association: flagged), Portugal Ventures, ANI read at own sites; IAPMEI about page and BPF not read",
     "19:13 wake: inbox drained (empty); IAPMEI (present at Web Summit 2026, 9-12 Nov, per its own front page) and Turismo de Portugal read; AI2 unresolved (ai2.pt redirects elsewhere); debrief for 7 Nov refreshed",
-    "20:13 wake: inbox drained (empty); AI2 not identifiable without a login-only page (left unread); AICEP's magazine note read: Microsoft announced a USD 10bn Sines data centre at Web Summit 2025 (Start Campus, Nscale); Euronews refused (406), not used"
+    "20:13 wake: inbox drained (empty); AI2 not identifiable without a login-only page (left unread); AICEP's magazine note read: Microsoft announced a USD 10bn Sines data centre at Web Summit 2025 (Start Campus, Nscale); Euronews refused (406), not used",
+    "21:14 wake: inbox drained (empty); Nscale's two releases on Microsoft in Sines read at source (Oct 2025: 12,600 GB300 GPUs; May 2026: 66,000+ Rubin GPUs, EUR 230M + 465M); the USD 10bn figure stays unconfirmed at Microsoft"
   ],
   "next": [
-    "Microsoft's own announcement of the Sines data centre (for exact wording)",
+    "a second primary source for the USD 10bn Sines figure (Microsoft or Start Campus own pages)",
     "Lisbon and Porto hubs via city councils' pages",
     "repeat the partners and speakers reads nearer the summit"
   ],
