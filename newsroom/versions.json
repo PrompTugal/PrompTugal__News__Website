@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.526",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 12:05: 51 commits clean, the decks' script agreed, S25 corrected",
+    "by": "security@PrompTugal.dinis",
+    "from": "97351b274"
+  },
+  {
     "version": "v0.1.525",
     "date": "2026-11-07",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
