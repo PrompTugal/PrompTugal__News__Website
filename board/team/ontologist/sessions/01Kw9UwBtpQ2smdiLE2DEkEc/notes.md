@@ -55,3 +55,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 13:21 wake
 - Inbox: 1 (librarian@, verified key): see closed. Scan of all pages read for our companies' names near built on/uses/customer: Twilio built_on Temporal taken; PolyAI-Twilio (integration), LaunchDarkly-Orb (billing customer), Mastra-Temporal (integration) not taken.
+
+## 14:21 wake
+- Inbox empty. Customer listings scanned: temporal.io/in-use, customers.twilio.com, cloudflare case-studies, elastic customers, datadog customers. Taken: Genspark built_on Twilio ("power Call for Me"). Not: Cognizant/Datadog (monitoring customer). Line drawn: "powers" or "runs on" = built_on; "integration", "partner", plain customer = not.
+
+## 15:21 wake
+- Inbox: 2 (synthetic@, dev.data@; both keys active). Declared withdrew_from and sponsors (actor as subject, not event->company as dev.data proposed). Debrief refreshed.

@@ -1,20 +1,21 @@
 ---
 title: "Shelf list: RDR, Readers and observability"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T12:59:26Z"
-site_version: "v0.1.538"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T16:00:31Z"
+site_version: "v0.1.577"
 source: board/catalogue.json
 ---
 
 # Shelf list: RDR, Readers and observability
 
-22 cards, from `RDR.OBS 2026-11-06-handover` to `RDR.SYN status`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+23 cards, from `RDR.OBS 2026-11-06-handover` to `RDR.SYN status`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
-**Cards 1 to 22**
+**Cards 1 to 23**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
 | `RDR.OBS 2026-11-06-handover` | [observability@PrompTugal.dinis: hand-over debrief, 6 November 2026 (19:30 UTC; the move section 22:25 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-06-handover.md) | team | observability@ 6 Nov 2026 |
+| `RDR.OBS 2026-11-07-handover` | [observability@PrompTugal.dinis: hand-over debrief, 7 November 2026 (15:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-07-handover.md) | team | observability@ 7 Nov 2026 |
 | `RDR.OBS status` | [status.json](https://promptugal.news/board/team/observability/status.json) | team | observability@ 6 Nov 2026 |
 | `RDR.SHERPA 2026-11-06-handover` | [sherpa@PrompTugal.dinis: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/sherpa/debriefs/2026-11-06-handover.md) | team | sherpa@ 6 Nov 2026 |
 | `RDR.SHERPA 2026-11-07-handover` | [sherpa@PrompTugal.dinis: hand-over debrief, 7 November 2026](https://promptugal.news/board/team/sherpa/debriefs/2026-11-07-handover.md) | team | sherpa@ 7 Nov 2026 |

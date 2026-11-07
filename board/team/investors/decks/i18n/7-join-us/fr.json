@@ -1,7 +1,7 @@
 {
  "s00.1": "PrompTugal : rejoignez-nous",
  "s01.1": "<b>Investisseurs</b> · deck 7",
- "s01.2": "v1.1 · 7 novembre 2026",
+ "s01.2": "v1.3 · 7 novembre 2026",
  "s01.3": "Recherché · senior · issu des médias · partout",
  "s01.4": "Depuis des années, vous rêvez de diriger une rédaction comme celle-ci. Elle tourne.",
  "s01.5": "<b>Venez la diriger.</b> Un associé business comme CEO, des journalistes techniques et des profils stratégiques, et, cette semaine, des renforts pour le Web Summit.",
@@ -115,7 +115,7 @@
  "s07.4": "Dinis construit la technologie. Vous dirigez l'entreprise.",
  "s07.5": "DINIS CRUZ · FONDATEUR ET CTO",
  "s07.6": "La technologie",
- "s07.7": "Il développe à plein temps la technologie de PrompTugal, répartie entre ses sociétés : sgit, RiskMandate, les agents et leurs workflows.",
+ "s07.7": "Il travaille à plein temps sur la technologie que partagent ses sociétés (sgit, RiskMandate, les agents et leurs workflows), qui fait tourner PrompTugal.",
  "s07.8": "<b>Il n'est pas à plein temps sur les opérations de PrompTugal.</b> C'est là le manque.",
  "s07.9": "VOUS · CEO · LE SIÈGE VIDE",
  "s07.10": "Toutes les opérations",
@@ -216,7 +216,7 @@
  "s12.1": "Ce que vous y gagnez",
  "s12.2": "12",
  "s12.3": "Chacun a un intérêt dans le jeu",
- "s12.4": "Quand l'investissement arrive, chacun est payé et chacun possède une part.",
+ "s12.4": "Le plan quand l'investissement arrivera : chacun payé, chacun avec une part. Rien n'est encore promis.",
  "s12.5": "LA PART",
  "s12.6": "Growth shares",
  "s12.7": "Des parts pour l'équipe cœur, acquises par jalons, qui prennent vie à une date future ou lors d'une cession, comme les growth shares d'une société britannique avec laquelle Dinis a travaillé ; ou selon la façon dont chacun arrive.",
@@ -259,6 +259,6 @@
  "s14.16": "Deck 4 · l'Algarve",
  "s14.17": "Tous les decks · promptugal.news/investors/decks",
  "s14.18": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
- "s14.19": "Les huit decks : promptugal.news/investors/decks",
+ "s14.19": "Les neuf decks : promptugal.news/investors/decks",
  "meta.description": "Pour la personne senior des médias qui rêve depuis des années de diriger une rédaction comme celle-ci : elle tourne ; venez la diriger. Un associé business comme CEO, des journalistes techniques, des profils stratégiques et des renforts pour la semaine du Web Summit. Deck 7, novembre 2026."
 }

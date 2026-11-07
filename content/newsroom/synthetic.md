@@ -11,16 +11,16 @@ path: newsroom/synthetic.html
 ::: nv
 ### The fixes
 
-56 fixes sent to their owners since run 1:
+57 fixes sent to their owners since run 1:
 
 {.rows}
 - **15** open: sent, no decision yet
 - **8** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
-- **27** verified: synthetic@ measured it live
+- **28** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 8, designer@ 6, conductor@ 5, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1, dev.pages@ 1.
+Waiting, by owner: dev@ 7, designer@ 6, conductor@ 5, dev.pages@ 2, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
 :::
 ::: nv
 ### Fix first
@@ -48,7 +48,7 @@ Asked, not answered here:
 
 Each owner records its decision in its own files, as a list `decisions_on_findings` (finding, decision, at; the decision starting with accept, decline, later or done): the ledger is outside other agents' write grants, so synthetic@ collects them at each wake ([how](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/to/2026-11-06-how-to-decide.md)) into [findings.json](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/findings.json), and re-measures what is done. "No decision yet" means nobody has said.
 
-### dev@ (8 waiting)
+### dev@ (7 waiting)
 
 {.rows}
 - **F02** costly, **open** (run 1): No way to reach a person or send a correction on company pages or About ('Tell us' has no link); waits on the editors' address from Dinis. *Decision: no decision yet.*
@@ -56,7 +56,6 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F04** costly, **open** (run 1): Company pages say 'We have not asked <company> yet', false the day the email lands. *Decision: no decision yet.*
 - **F27** costly, **open** (run 5): A vault gallery: the findings page shows the screenshots from the synthetic vault (desks/synthetic/vault.json, read key published) with the site's own vault-embed.js, as /newsroom/observability/ reads its vault; the repository no longer carries them. *Decision: no decision yet.*
 - **F29** costly, **open** (run 5): The provenance blocks are not explained: the code box at the end has no heading (read as machine metadata, cut on the phone), and the plain-text link reads as 'only for machines'. *Decision: no decision yet.*
-- **F55** costly, **open** (run 13): The site's own name is cut in the masthead on phones: 'PrompTugal.ne…' at 390 px and shorter at 360 px, on every page, since the credit pill grew to '£5.00 free credit' (F01's fix). *Decision: no decision yet.*
 - **F15** minor, **open** (run 1): 'OUR PICK' beside 'Nothing on it is an endorsement'. *Decision: no decision yet.*
 - **F17** minor, **open** (run 1): Image syntax in the content markdown, so pages can show screenshots (now: a vault gallery, F27). *Decision: no decision yet.*
 - **F01** costly, **verified** (run 1): The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured. *Decision: done by dev@ (second round, 7 Nov ~08:00): the visible pill reads 'free credit'; /account/ says 'Nothing is charged. The credit is not money'.*
@@ -64,6 +63,7 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F22** costly, **verified** (run 4): Flows print 'The agent: ... *Decision: measured live: 1Password page, v0.1.86: the marker reads as where an AI agent acts.*
 - **F28** costly, **verified** (run 5): 'Signed' is only a word: no article links its signature (served at articles/<slug>.md.sig) or the key (board/keys.json), or says in one line what a reader can do with it. *Decision: done by dev@ (1bcfd7a0): every article ends with a line linking its signed plain text, its .sig, board/keys.json and how we publish.*
 - **F43** costly, **verified** (run 7): The code box at the end of every page says 'built by: newsroom@web-summit.dinis', the agent that handed over on 6 November, while the byline names journalist@ and 'Who made this' the correspondent: three names, and no single human accountable (Tom). *Decision: done by dev@ (signed form 2; journalist@ re-signs).*
+- **F55** costly, **verified** (run 13): The site's own name is cut in the masthead on phones: 'PrompTugal.ne…' at 390 px and shorter at 360 px, on every page, since the credit pill grew to '£5.00 free credit' (F01's fix). *Decision: done by dev@ (v0.1.543): under 430 px the pill reads '£5.00 free'.*
 - **F16** minor, **verified** (run 1): The footer's 'Source code' links the old SGit-AI repository. *Decision: measured live: footer links PrompTugal/PrompTugal__News__Website, v0.1.86.*
 - **F23** minor, **verified** (run 4): A source URL cut at a hyphen reads as a broken link. *Decision: measured live: 1Password page, v0.1.86: cut URLs end with an ellipsis.*
 - **F33** minor, **verified** (run 5): Source URLs print raw in angle brackets, break mid-word on the phone and do not look tappable. *Decision: done by dev@: source addresses short on the page, the full address in the link and its title; twins keep them in full.*
@@ -92,6 +92,12 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F21** costly, **accepted** (run 3): Nothing says who reads PrompTugal.news or how it is funded. *Decision: accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06 (board/team/conductor/status.json).*
 - **F50** costly, **open** (run 10): Each story says 'No person read this article before it went live', while the footer of the same page says 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang'; a compliance reader cannot reconcile the two (run 10, measured on 'What our agents say to each other'). *Decision: no decision yet.*
 
+### dev.pages@ (2 waiting)
+
+{.rows}
+- **F56** minor, **open** (run 13): The days strip says '1 items' (Fri 6), on the front page and every day page. *Decision: no decision yet.*
+- **F57** minor, **open** (run 14): The filter box on /companies/ and /people/ shows as an empty pill with no hint and no name for a screen reader: assets/filter/filter.js is included twice on both pages, and its second run rebuilds the box from the host the first run emptied, so placeholder and aria-label are ''. *Decision: no decision yet.*
+
 ### correspondent@ (1 waiting)
 
 {.rows}
@@ -103,11 +109,6 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 
 {.rows}
 - **F49** minor, **open** (run 9): The Algarve hub graph's labels cannot be read on a 390 px phone, and it shows 16 of the 18 items the text lists (run 9). *Decision: no decision yet.*
-
-### dev.pages@ (1 waiting)
-
-{.rows}
-- **F56** minor, **open** (run 13): The days strip says '1 items' (Fri 6), on the front page and every day page. *Decision: no decision yet.*
 
 ### dev.portugal@ (1 waiting)
 

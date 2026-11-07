@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 12:17: nothing new for my lane (researcher@ is on the Algarve Tech Hub Summit); nothing pushed to the graphs",
-  "updated": "2026-11-07T12:25Z",
+  "state": "wake 14:17: cloud centres partner row from the organiser's 2026 partners page read in full; marketplaces closed",
+  "updated": "2026-11-07T14:40Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -32,12 +32,13 @@
     "Wake 04:17: 2025 organiser post read in full (researcher@): the 'largest number ever' is for investors (1,857, up 74%), 71,386 attendees stays below 2024's 71,528; 2024 and 2025 notes carry the comparison; the three 'past' cells on cloud centres now say neither the 2024 nor the 2025 exhibiting-partner list names AWS, Google or Microsoft (2025 names Alibaba Cloud), marked as not absence; page, caption, cells and slides together; gate OK",
     "Wake 06:17: speakers row on cloud centres filled from researcher@'s round 4 (2026 speakers page loaded in a browser): Google none found, Amazon one VP (no AWS), Microsoft one global director of creative (corporate, not Azure); completeness not confirmed, so absence is not claimed; cells, page words and slide updated; gate OK",
     "Wake 08:17: the 2026 speakers read on cloud centres now says the list looked fully loaded (941 profile links against 800 promised; researcher@), still dated and not absence; page words and cells updated; gate to follow",
-    "Wake 10:17: no new evidence for cloud centres or past summits; daily hand-over debrief for 7 November written; nothing pushed to the graphs"
+    "Wake 10:17: no new evidence for cloud centres or past summits; daily hand-over debrief for 7 November written; nothing pushed to the graphs",
+    "Wake 14:17: partner row on cloud centres from researcher@'s full read of the organiser's 2026 partners page (292 entries): Google Cloud first on the list; Amazon, AWS, Microsoft, Azure not on it, each cell saying where they are present instead; dated, will change; Google Cloud and Microsoft marketplaces closed by researcher@ (refused or empty to a reader), so only AWS has a marketplace lens; page, cells, caption and slides together; gate OK"
   ],
   "next": [
-    "Google Cloud and Microsoft marketplaces (researcher@), then the cells",
+    "Repeat the partners and speakers reads before the summit (researcher@), then the cells",
     "Algarve Evolution embed by dev.portugal@",
-    "Debrief refresh before 2026-11-08 (last 00:35 on 7 Nov)"
+    "Next debrief by 2026-11-08 (last 07 Nov 10:30)"
   ],
   "asks": [
     "Dinis: sgit push needs an access token (sgit auth) for my inbox vault",

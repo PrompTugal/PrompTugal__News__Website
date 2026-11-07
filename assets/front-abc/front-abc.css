@@ -102,3 +102,9 @@
     .fc > .fx-w { display: flex; flex-direction: column; } .fc-hd, .fc-hero { order: 0; } .fc-nh, .fc-next { order: 1; } .fc-grid { order: 3; } .fc > .fx-w > .fx-h:not(.fc-nh) { order: 2; }
     .fc-next { padding-bottom: 20px; }
 }
+
+/* sherpa@'s H6 on A and B (board/spec-home-page-designs.md sections 9 to 11; dev@, 7 November, as dev.pages@ was away):
+   no text under 12 px, links outside running text at least 24 px tall */
+.fx-k, .fx-pill, .fx-list time, .fa-brief small, .fa-lead figcaption, .fc-nums span, .fx-days a { font-size: 12px; }
+.fx-nav a, .fx-more a, .fb-tools a { display: inline-flex; align-items: center; min-height: 24px; }
+.fx-h a { display: inline-flex; align-items: center; min-height: 24px; }   /* B's "All stories" (designer@'s section 12) */

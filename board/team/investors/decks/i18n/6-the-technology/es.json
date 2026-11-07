@@ -1,7 +1,7 @@
 {
  "s00.1": "PrompTugal: lo que lo hace posible",
  "s01.1": "<b>Inversores</b> · deck 6",
- "s01.2": "v1.0 · 7 de noviembre de 2026",
+ "s01.2": "v1.2 · 7 de noviembre de 2026",
  "s01.3": "La tecnología · sgit, RiskMandate, políticas de comportamiento de agentes",
  "s01.4": "Veinte agentes por persona, y cada uno en su carril.",
  "s01.5": "Lo que hace posible PrompTugal no es más IA. Es el control: una clave para cada agente, privacidad por defecto y un mandato escrito cuya brecha se mide cada hora.",
@@ -360,9 +360,9 @@
  "s16.1": "Lo que lo hace posible",
  "s16.2": "16",
  "s16.3": "Veinte agentes por persona es fácil de empezar. Mantener a cada uno con nombre, privado y en su carril, de forma registrada, es lo que hace posible PrompTugal.",
- "s16.4": "<b>Deck 1</b>El caso de inversión",
- "s16.5": "<b>Deck 2</b>El sector, y la dirección correcta",
- "s16.6": "<b>Deck 3</b>La plataforma: cada función, en directo",
+ "s16.4": "<b>Deck 1</b>La tesis de inversión",
+ "s16.5": "<b>Deck 2</b>La industria, y la dirección correcta",
+ "s16.6": "<b>Deck 3</b>La plataforma: cada función, en vivo",
  "s16.7": "<b>Deck 4</b>El caso del Algarve",
  "s16.8": "<b>Deck 5</b>La inversión",
  "s16.9": "<b>Deck 6</b>Este deck: la tecnología",
@@ -372,6 +372,7 @@
  "s16.13": "board/abp/ en el repositorio público",
  "s16.14": "sgit.ai · riskmandate.ai",
  "s16.15": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
- "s16.16": "Los ocho decks: promptugal.news/investors/decks",
- "meta.description": "La tecnología que hace posible PrompTugal: unos veinte agentes por persona, mantenidos en su carril por las claves y bóvedas de sgit, el alcance, mandato y brecha de RiskMandate, y una política de comportamiento para cada agente. Deck 6 para inversores, noviembre de 2026."
+ "s16.16": "Los nueve decks: promptugal.news/investors/decks",
+ "meta.description": "La tecnología que hace posible PrompTugal: unos veinte agentes por persona, mantenidos en su carril por las claves y bóvedas de sgit, el alcance, mandato y brecha de RiskMandate, y una política de comportamiento para cada agente. Deck 6 para inversores, noviembre de 2026.",
+ "x16.1": "<b>Deck 9</b>La visita: lo que está en línea"
 }

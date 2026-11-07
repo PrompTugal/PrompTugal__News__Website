@@ -62,8 +62,17 @@ export function pages(ctx) {
 }
 
 // the stylesheet and the script, out of board/
-export const api = ctx => fs.existsSync(ctx.R(DIR + 'deck.css')) ? ['css', 'js'].map(x => ({ path: `api/v1/decks/deck.${x}`, schema: null, data: fs.readFileSync(ctx.R(DIR + 'deck.' + x), 'utf8') })) : []
+// the player is served from board/team/dev/decks/deck.js, dev@'s reviewed copy (outside assets/, so the code ratchet does not count a guest's player) (security@, 7 November 14:05); investors@'s working
+// copy in board/ is never served: a difference is a review waiting (warn below)
+const PLAYER = 'board/team/dev/decks/deck.js'
+export const api = ctx => fs.existsSync(ctx.R(DIR + 'deck.css')) ? [{ path: 'api/v1/decks/deck.css', schema: null, data: fs.readFileSync(ctx.R(DIR + 'deck.css'), 'utf8') }, { path: 'api/v1/decks/deck.js', schema: null, data: fs.readFileSync(ctx.R(PLAYER), 'utf8') }].map(x => x) : []
 
 // /investors/decks/ (investors@'s page) gets an "Open the slides" list, so every deck page is reached
 // /investors/decks/ (investors@'s page, content/investors/decks.md) links every deck's page in every language, so
 // none is an orphan; the player on each page links the others.
+
+// investors@'s working copy of the player differs from the served one: dev@ reviews it and brings it to board/team/dev/decks/
+export function warn(gate) {
+    const a = path.join(gate.ROOT, DIR, 'deck.js'), b = path.join(gate.ROOT, PLAYER)
+    return fs.existsSync(a) && fs.existsSync(b) && fs.readFileSync(a, 'utf8') !== fs.readFileSync(b, 'utf8') ? [`${DIR}deck.js differs from ${PLAYER} (the served player): dev@ reviews the change before it is served`] : []
+}

@@ -1,7 +1,7 @@
 {
  "s00.1": "PrompTugal: what makes it possible",
  "s01.1": "<b>Investors</b> · deck 6",
- "s01.2": "v1.0 · 7 November 2026",
+ "s01.2": "v1.2 · 7 November 2026",
  "s01.3": "The technology · sgit, RiskMandate, agent behaviour policies",
  "s01.4": "Twenty agents for every person, and every one in its lane.",
  "s01.5": "What makes PrompTugal possible is not more AI. It is the control: a key for every agent, privacy by default, and a written mandate whose gap is measured every hour.",
@@ -372,6 +372,7 @@
  "s16.13": "board/abp/ in the public repository",
  "s16.14": "sgit.ai · riskmandate.ai",
  "s16.15": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
- "s16.16": "All eight decks: promptugal.news/investors/decks",
- "meta.description": "The technology that makes PrompTugal possible: about twenty agents per person, kept in their lane by sgit's keys and vaults, RiskMandate's reach, mandate and gap, and an Agent Behaviour Policy for every agent. Investor deck 6, November 2026."
+ "s16.16": "All nine decks: promptugal.news/investors/decks",
+ "meta.description": "The technology that makes PrompTugal possible: about twenty agents per person, kept in their lane by sgit's keys and vaults, RiskMandate's reach, mandate and gap, and an Agent Behaviour Policy for every agent. Investor deck 6, November 2026.",
+ "x16.1": "<b>Deck 9</b>The tour: what is live"
 }

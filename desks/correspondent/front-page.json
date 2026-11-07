@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-07T12:50Z",
+  "updated": "2026-11-07T14:48Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "your-first-day-at-web-summit",
@@ -106,7 +106,8 @@
       "how-the-agents-talk",
       "how-agents-avoid-collisions",
       "mistakes-we-made",
-      "agent-setup-guide"
+      "agent-setup-guide",
+      "the-sign-in"
     ],
     "why": "About us, not news: the first night's story first; Angelo's communication graph (T1) second; then the agents' messages counted, the status piece, and the team series published late Friday from Vicky's and Angelo's desks (T2 to T5: who does the work, how the agents talk, how they avoid collisions, three mistakes; WS125, the agent setup guide). A 'From the newsroom' line, off Latest: nine pieces is too many for the line, so dev@ should show the first three and a link to the rest."
   },
@@ -270,7 +271,7 @@
     {
       "finding": "F54 (synthetic run 12)",
       "what": "the summit days' 'five things to plan around' are all or almost all press conferences: data/front/days.json has no picks",
-      "decision": "done: my five per day (9 to 12 November) in front-page.json 'day_picks'; dev@ wired days.mjs to read them first (v0.1.53x, 7 November); /days/2026-11-10/ shows them",
+      "decision": "done: my five per day (9 to 12 November) in front-page.json 'day_picks'; dev@ wired days.mjs to read them first (v0.1.53x, 7 November); /days/2026-11-10/ shows them; verified live by synthetic@ at v0.1.535",
       "at": "2026-11-07T12:50Z"
     }
   ],

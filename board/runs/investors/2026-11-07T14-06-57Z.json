@@ -1,0 +1,138 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "investors@PrompTugal.dinis",
+ "run": "2026-11-07T14-06-57Z",
+ "started": "2026-11-07T14:06:57.424Z",
+ "ended": "2026-11-07T14:21:07Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-07T14:17:51.331Z",
+   "chars": 139,
+   "sha256": "688de4b7d9518643",
+   "head": "Actually, stay with 4 languages and put a place holder for more languages , asking the user to vote and suggest which one we should do next"
+  },
+  {
+   "t": "2026-11-07T14:18:19.707Z",
+   "chars": 26,
+   "sha256": "4b899e5503de7260",
+   "head": "All Euros on all languages"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-07T14:17:20.936Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 17,
+  "by_kind": {
+   "shell": 13,
+   "release": 2,
+   "git": 1,
+   "message": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 17,
+  "commits": [
+   {
+    "sha": "f8660d1be",
+    "subject": "investors@PrompTugal.dinis: all amounts in euros in every language; decks stay in four languages, with a vote for the next",
+    "files": 43
+   },
+   {
+    "sha": "4846a27eb",
+    "subject": "investors@PrompTugal.dinis: run report for the decks fix pass",
+    "files": 1
+   },
+   {
+    "sha": "ab5f48914",
+    "subject": "investors@PrompTugal.dinis: decks fix pass: nine decks everywhere, one wording for the round and Dinis Cruz's time, pt-PT editor's review, PDFs without blank pa",
+    "files": 79
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "f8660d1be wrote content/investors/business-plan.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f8660d1be wrote content/investors/decks.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f8660d1be wrote content/investors/index.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f8660d1be wrote content/investors/language-vote.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f8660d1be wrote content/investors/languages.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f8660d1be wrote content/investors/outreach.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "f8660d1be wrote content/investors/rules-of-engagement.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ab5f48914 wrote content/investors/decks.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ab5f48914 wrote content/investors/outreach.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 17,
+  "in_mandate": 17,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 9
+ }
+}

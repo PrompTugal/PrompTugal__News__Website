@@ -23,7 +23,7 @@
 <!-- part:none -->
 <section class="fe-band" aria-label="The lead story"><div class="fe-w"><div><h2 class="fe-hed">Our first article is on the way.</h2></div></div></section>
 <!-- item:figure --><figure><a href="{{href}}" tabindex="-1">{{picture}}</a><figcaption>AI-made image</figcaption></figure>
-<!-- item:picture --><picture><source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
+<!-- item:picture --><picture>{{phone}}<source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
 <!-- item:mark --><mark>{{text}}</mark>
 <!-- item:pill --><span class="fe-pill" title="{{title}}">{{text}}</span>
 <!-- item:nav --><a href="{{href}}"{{cur}}>{{label}}</a>
@@ -35,4 +35,5 @@
 <!-- item:radar --><a class="fe-rr" href="{{href}}"><span>{{name}}</span><i><u style="width:{{pct}}%"></u></i><code>{{n}}</code></a>
 <!-- item:num --><div><b>{{value}}</b><span>{{label}}</span></div>
 <!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
+<!-- item:phone --><source media="(max-width: 599px) and (prefers-color-scheme: dark)" srcset="{{phone_ink}}"><source media="(max-width: 599px)" srcset="{{phone}}">
 <!-- end -->

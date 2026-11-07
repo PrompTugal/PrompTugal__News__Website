@@ -11,6 +11,7 @@
 <div class="fg-lines">{{#lines}}</div></div>{{figure}}</div></section>
 <section class="fg-sun" aria-label="In numbers"><div class="fg-w fg-in">{{#nums}}</div></section>
 <div class="fg-w">
+<section class="fg-next" aria-label="Now and next"><h2>Now and next</h2><ul>{{#next}}</ul></section>
 <div class="fg-ask"><form class="fg-pb" role="search" action="search/index.html" method="get"><span class="fg-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form><p class="fg-pcs">{{#asks}}</p></div>
 <div class="fg-secs">{{#sections}}</div>
 {{feature}}
@@ -28,4 +29,5 @@
 <!-- item:story --><a class="fg-s" href="{{href}}">{{thumb}}<span>{{title}}</span></a>
 <!-- item:thumb --><span class="fg-th">{{picture}}<i>AI-made</i></span>
 <!-- item:feature --><article class="fg-feat"><a class="fg-fpic" href="{{href}}" tabindex="-1">{{picture}}<i>AI-made</i></a><div><p class="fg-k">{{beat}}</p><h2><a href="{{href}}">{{title}}</a></h2><p>{{dek}}</p>{{pill}}</div></article>
+<!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a><small>{{where}}</small></li>
 <!-- end -->

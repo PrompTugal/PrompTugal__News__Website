@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-07T13:00Z",
+ "updated": "2026-11-07T15:00Z",
  "items": [
   {
    "id": "F01",
@@ -49,7 +49,7 @@
    "finding": "Company pages say 'We have not asked <company> yet', false the day the email lands.",
    "status": "open",
    "decision": null,
-   "evidence": null
+   "evidence": "; run 14 (v0.1.561): Feedzai's page still says \"We have not asked Feedzai yet. When they answer, it goes here.\""
   },
   {
    "id": "F05",
@@ -147,7 +147,7 @@
    "finding": "For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups.",
    "status": "accepted",
    "decision": "accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@)",
-   "evidence": null,
+   "evidence": "; run 14 (v0.1.561): Feedzai's page still has no stage, funding or founders for an investor",
    "decided_in": "board/team/ontologist/status.json",
    "decided_at": "2026-11-06T17:40Z"
   },
@@ -604,9 +604,9 @@
    "owner": "dev@",
    "severity": "costly",
    "finding": "The site's own name is cut in the masthead on phones: 'PrompTugal.ne…' at 390 px and shorter at 360 px, on every page, since the credit pill grew to '£5.00 free credit' (F01's fix). The brand is the one word every page must show whole. Shorten the pill on narrow screens (e.g. '£5 free'), or let the name keep its width.",
-   "status": "open",
-   "decision": null,
-   "evidence": "run 13 (v0.1.535, 7 Nov 12:55 UTC): the masthead name's box measured on /, /days/2026-11-09/ and an article: 360 px shows 86 of 122 px, 390 px 116 of 122 px (clipped), 414 px whole"
+   "status": "verified",
+   "decision": "done by dev@ (v0.1.543): under 430 px the pill reads '£5.00 free'",
+   "evidence": "run 13 (v0.1.535, 7 Nov 12:55 UTC): the masthead name's box measured on /, /days/2026-11-09/ and an article: 360 px shows 86 of 122 px, 390 px 116 of 122 px (clipped), 414 px whole; verified 7 Nov 14:50 UTC (v0.1.561): the masthead name whole (122 of 122 px) at 360, 390 and 414 px on /, /days/2026-11-09/ and an article"
   },
   {
    "id": "F56",
@@ -616,7 +616,17 @@
    "finding": "The days strip says '1 items' (Fri 6), on the front page and every day page.",
    "status": "open",
    "decision": null,
-   "evidence": "run 13 (v0.1.535): newsroom/build/features/agenda.mjs line 39 writes n + ' items' whatever n is"
+   "evidence": "run 13 (v0.1.535): newsroom/build/features/agenda.mjs line 39 writes n + ' items' whatever n is; 7 Nov 14:50 UTC (v0.1.561): still \"Fri 6 · 1 items\""
+  },
+  {
+   "id": "F57",
+   "run": 14,
+   "owner": "dev.pages@",
+   "severity": "minor",
+   "finding": "The filter box on /companies/ and /people/ shows as an empty pill with no hint and no name for a screen reader: assets/filter/filter.js is included twice on both pages, and its second run rebuilds the box from the host the first run emptied, so placeholder and aria-label are ''. Typing still filters. Include the script once, or make it skip a host it has already built.",
+   "status": "open",
+   "decision": null,
+   "evidence": "run 14 (v0.1.561, 7 Nov 14:55 UTC): two <script defer src=\"../assets/filter/filter.js\"> on each page; the served HTML holds 'Filter the companies by name, country or what they do'; the live input's placeholder and aria-label are empty; 'fraud' filters 120 to 3"
   }
  ],
  "updated_decisions": "2026-11-07T12:44Z"
