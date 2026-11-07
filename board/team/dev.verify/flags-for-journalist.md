@@ -1,6 +1,6 @@
-# Verification flags for journalist@ (dev.verify@, 2026-11-07, 04:53 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-07, 06:53 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 29 articles checked, 304 claims, 186 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+A flag is a prompt to re-read the source, not a finding of error. 29 articles checked, 306 claims, 189 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
 
 ## agent-setup-guide: 5/12 supported by all
 - c1: The vendor feature names in the comparison table were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
@@ -84,8 +84,7 @@ A flag is a prompt to re-read the source, not a finding of error. 29 articles ch
 - c9: Unicorn Factory Lisboa named the winners of its 2026 Entrepreneurship Awards on 27 October. (unsupported / unsupported / unsupported)
 - c10: Gian Volpicelli, a technology journalist at Bloomberg, moderates Panel 2, "From Startup to Champion: How Europe's Unicorns Did It". (partly / partly / partly)
 
-## lisbon-awards-and-the-algarve-plan: 9/10 supported by all
-- c3: Three of the seven Unicorn Factory Lisboa 2026 winners build with AI. (partly / exaggerated / exaggerated)
+## lisbon-awards-and-the-algarve-plan: 12/12 supported by all
 
 ## lisbon-universities-at-web-summit: 10/10 supported by all
 

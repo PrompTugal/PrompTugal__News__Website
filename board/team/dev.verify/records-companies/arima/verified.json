@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "arima",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/4a538f1a-6bad-403e-98cd-8a57d5c6a4e0/arima",
+      "status": 200,
+      "read": true,
+      "chars": 1208
+    },
+    {
+      "url": "https://websummit.com/startups/featured-startups/",
+      "status": 200,
+      "read": true,
+      "chars": 5900
+    },
+    {
+      "url": "https://arimadata.com/solutions/co-ventures/",
+      "status": 200,
+      "read": true,
+      "chars": 6291
+    }
+  ],
+  "spent_usd": 0.0359,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Arima.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Arima",
+          "note": "The Web Summit listing page for the company is titled \"Arima\" and labels it \"Arima Canada\" in the Data & analytics category, and the Arima product site (S3) also names the company Arima."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Meet our 2026 startups Apply for 2027 0xbow 0xbow Web3 Accessibility Cloud Accessibility Cloud Telecommunications & IT Acrab AI Acrab AI Hardware, robotics & IoT AI Infinity AI Infinity AI & machine learning Air Apps Air Apps Telecommunications & IT AlixLabs AlixLabs Industrials, manufacturing & consumer goods ALL360 ALL360 Hardware, robotics & IoT Altegio Altegio SaaS Amazon Sellers Society - Middle East Amazon Sellers Society - Middle East E-commerce & retail Arima Arima Data & analytics",
+          "note": "Arima is listed among the featured startup companies."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Arima",
+          "note": "The Web Summit attendee page identifies the company as Arima."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://arimadata.com/solutions/co-ventures/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Co-Ventures - Arima",
+          "note": "The source is the Arima Co-Ventures page at that exact URL, but it is a subpage, and nothing in the sources identifies it as the company's main website."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources state that the company's website is https://arimadata.com/solutions/co-ventures/, which is merely a specific subpage."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Co-Ventures - Arima",
+          "note": "S3 is the page at the claimed URL and identifies it as Arima's Co-Ventures page."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Builds bespoke, privacy-first synthetic datasets that model real populations.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Arima builds bespoke synthetic populations",
+          "note": "The source says Arima builds bespoke synthetic populations that are privacy-safe and reflect population behaviors, which matches the claim's substance, though the exact wording 'privacy-first synthetic datasets that model real populations' is a paraphrase rather than a verbatim quote."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not contain this specific description of the company."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Arima builds bespoke synthetic populations",
+          "note": "The source supports bespoke synthetic populations and privacy-safe data, but it does not use the exact phrase privacy-first synthetic datasets that model real populations."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Canada.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Arima Canada Data & analytics",
+          "note": "The Web Summit listing for Arima shows 'Canada' as its country, though the listing is on a Web Summit page rather than a registry."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Arima Canada Data & analytics",
+          "note": "Source S1 explicitly lists the company Arima under Canada."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Arima Canada",
+          "note": "S1 lists Arima with Canada as its country."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (startup (growth)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "GROWTH",
+          "note": "The Web Summit Lisbon 2026 (lis26) appearance page lists Arima under a GROWTH category, and the Featured startups page (S2) also lists Arima among the 2026 startups."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "Source S1 shows Arima listed on the Web Summit 2026 Lisbon appearances page under the startup category GROWTH."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "S1 is Arima's Web Summit lis26 page and labels it under startups as GROWTH."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

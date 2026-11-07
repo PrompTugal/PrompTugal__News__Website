@@ -12,6 +12,11 @@ const LEGACY_BUILT_BY = 'built by: newsroom@web-summit.dinis (a Claude Code sess
 const noVersion = twin => twin
     .replace(/^(\*Source: <[^>\n]+> · site )v\d+\.\d+\.\d+( ·)/m, '$1VERSION$2')
     .replace(/^version: v\d+\.\d+\.\d+$/m, 'version: VERSION')
-const signedForm = twin => noVersion(twin).replace(/^built by: .*$/m, 'built by: BUILDER')
-const signedFormFor = (form, twin) => form === FORM ? signedForm(twin) : noVersion(twin.replace(/^built by: .*$/m, LEGACY_BUILT_BY))
-module.exports = { FORM, LEGACY_FORM, signedForm, signedFormFor }
+// only the agent block's line, the last of its shape (security@, 7 November 06:05): a body line that looks like it stays
+// signed, and the gate refuses a twin with more than one (builderLines)
+const BUILT_BY = /^built by: .*$/gm
+const builderLines = twin => (twin.match(BUILT_BY) || []).length
+const lastBuiltBy = (twin, line) => { let at = -1, len = 0; for (const m of twin.matchAll(BUILT_BY)) { at = m.index; len = m[0].length } return at < 0 ? twin : twin.slice(0, at) + line + twin.slice(at + len) }
+const signedForm = twin => lastBuiltBy(noVersion(twin), 'built by: BUILDER')
+const signedFormFor = (form, twin) => form === FORM ? signedForm(twin) : noVersion(lastBuiltBy(twin, LEGACY_BUILT_BY))
+module.exports = { FORM, LEGACY_FORM, signedForm, signedFormFor, builderLines }

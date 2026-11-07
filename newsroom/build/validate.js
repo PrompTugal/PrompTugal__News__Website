@@ -154,6 +154,7 @@ for (const f of files.filter(f => /^content\/articles\/[^/]+\.md$/.test(rel(f)) 
     if (key.status !== 'active') { errors.push(`${sig}: signed by ${key.id}, whose key is ${key.status || 'not active'} in board/keys.json`); continue }
     if (s.form === SIGNED.FORM || s.form === SIGNED.LEGACY_FORM) {
         if (!exists(out + '.md')) continue
+        if (SIGNED.builderLines(read(out + '.md')) > 1) { errors.push(`${out}.md: more than one 'built by: ' line; only the agent block's may have that shape`); continue }
         let ok = false
         try { ok = crypto.verify('sha256', Buffer.from(SIGNED.signedFormFor(s.form, read(out + '.md'))), { key: key.bundle.sign, dsaEncoding: 'ieee-p1363' }, Buffer.from(s.signature, 'base64')) } catch (e) { errors.push(`${sig}: cannot verify (${e.message})`); continue }
         if (!ok) errors.push(`${sig}: the signature by ${key.id} does not verify against ${out}.md (the article changed since it was signed: sign it again with newsroom/tools/sign-article.mjs)`)

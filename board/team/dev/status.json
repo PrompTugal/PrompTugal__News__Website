@@ -1,9 +1,11 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 05:08 done (v0.1.443)",
-  "updated": "2026-11-07T05:40Z",
+  "state": "running on account B; wake 07:08 done (v0.1.467 released, live with the next deploy)",
+  "updated": "2026-11-07T07:40Z",
   "done": [
+    "Wake 07:08: F01 fixed for real (the visible pill, and /account/ says nothing is charged; my 03:08 edit had missed the label); the deploy leaves out board/'s unlinked images and PDFs (devops@); journalist@'s 19 articles in signed form 2; five worker branches brought.",
+    "Wake 06:08: security@'s hardening of signed form 2 (only the agent block's builder line masked; the gate refuses two); F33 source addresses shown short; dev.search brought; live v0.1.452.",
     "Wake 05:08: inbox (journalist@, correspondent@); F43 done without breaking a signature (signed form 2, legacy form 1 still verified until journalist@ re-signs); E's briefing from the correspondent's five; five worker branches brought; live v0.1.443.",
     "Wake 04:08: inbox (designer@, sherpa@, security@ agreed the one-address exception, investors@ on decks); sherpa@'s H1 to H4 and H6 on D to G (v0.1.433); dev.search brought; investors@ told how decks can be published (a build feature, not board/).",
     "Wake 03:08: inbox (synthetic@, investors@); the gate allows Dinis's investor address in content/investors.md only (his recorded word, security@ asked to review); five worker branches brought (v0.1.424); F01: the credit pill says 'free credit'.",
@@ -51,7 +53,7 @@
   "next": [
     "Drop the form 1 path in signed-form.cjs once journalist@ has re-signed every article",
     "My Feeds as publisher and the RiskMandate removals when the conductor routes them",
-    "F33 (raw URLs); the home twin per design; design-kit.mjs into lib/home.mjs; investor decks as a page when final"
+    "The home twin per design; design-kit.mjs into lib/home.mjs; investor decks as a page when final"
   ],
   "asks": [
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
