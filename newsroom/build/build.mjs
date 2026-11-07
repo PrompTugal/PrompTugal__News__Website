@@ -98,6 +98,12 @@ for (const file of api) {
 }
 if (api.length) write('api/v1/manifest.json', json({ version: VERSION, about: 'Every file of this site\'s JSON API, with its size, SHA-256 and the schema it follows (data/schemas/<schema>.schema.json, where one exists). The manifest does not list itself.', count: manifest.length, files: manifest }))
 ctx.api = api
+// files a feature makes once everything else is written (the deploy's exclude list, features/served.mjs)
+for (const f of features) if (f.final) for (const file of await f.final(ctx)) {
+    write(file.path, file.data)
+    manifest.push({ path: file.path, bytes: Buffer.byteLength(file.data), sha256: (await import('node:crypto')).createHash('sha256').update(file.data).digest('hex'), schema: null, feature: f.name })
+}
+if (manifest.length) write('api/v1/manifest.json', json({ version: VERSION, about: 'Every file of this site\'s JSON API, with its size, SHA-256 and the schema it follows (data/schemas/<schema>.schema.json, where one exists). The manifest does not list itself.', count: manifest.length, files: manifest }))
 
 // 7. llms.txt, sitemap.xml, robots.txt
 const listed = pages.filter(p => p.listed)
