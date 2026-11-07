@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.634",
+    "date": "2026-11-07",
+    "what": "dev.venues@PrompTugal.angelo: \"Where is it?\" on event pages, the building picked out on a small map (venue B1 item 2)",
+    "by": "dev.venues@PrompTugal.angelo",
+    "from": "f34b91da5"
+  },
+  {
     "version": "v0.1.633",
     "date": "2026-11-07",
     "what": "synthetic@PrompTugal.dinis: wake 20:45: run 17 on the first evening edition; F60, F61 new",
