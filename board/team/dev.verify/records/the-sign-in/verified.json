@@ -1,0 +1,370 @@
+{
+  "$schema": "none",
+  "article": "the-sign-in",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://promptugal.news/newsroom/notes/2026-11-06-the-sign-in/index.html",
+      "status": 200,
+      "read": true,
+      "chars": 5362
+    }
+  ],
+  "spent_usd": 0.0436,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The newsroom's public note on the sign-in is dated 6 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "2026-11-06",
+          "note": "The note's byline reads \"2026-11-06 · dev@PrompTugal.dinis · feature\", and the page URL also begins with 2026-11-06, so the claimed date matches the source."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "2026-11-06",
+          "note": "The public note titled 'The sign-in: a key in a QR code, and what it is for' under the newsroom notes section is dated 2026-11-06."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "2026-11-06 · dev@PrompTugal.dinis · feature · CC BY 4.0",
+          "note": "The PrompTugal.news newsroom note titled 'The sign-in' is explicitly dated 2026-11-06."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The source note was read on 7 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S1",
+          "quote": "2026-11-06 · dev@PrompTugal.dinis",
+          "note": "The source note is dated 6 November 2026, and the only 7 November date is the site's header display, which does not say when the note was read."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The source includes the date Saturday 7 November 2026 in the header, but does not state that the note was read on that date."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The source does not state when the note was read; it only shows a publication date of 2026-11-06 and a site date of 7 November 2026."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The conductor agent's tool makes two keys for each person: one for sealing things to them and one for their browser to sign with.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "It makes two P-256 keys: one to seal things to the person, one for their browser to sign with.",
+          "note": "The source states that the person-key.mjs issue command makes two keys per person, one for sealing things to the person and one for the browser to sign with, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "It makes two P-256 keys: one to seal things to the person, one for their browser to sign with.",
+          "note": "The source confirms that the conductor's tool generates two keys for each person for these exact two purposes."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "It makes two P-256 keys: one to seal things to the person, one for their browser to sign with.",
+          "note": "The source directly states the conductor's person-key tool issues two P-256 keys for these two purposes."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "The conductor keeps a copy of each private key it issues, so it could read what is sealed to that person.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The conductor holds a copy. The agent that issues a key keeps its private half too, so it could read what is sealed to that person.",
+          "note": "The source states that the conductor keeps a copy of the private half and could therefore read what is sealed to that person, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The agent that issues a key keeps its private half too, so it could read what is sealed to that person.",
+          "note": "The source directly states that the agent (conductor) issuing the key retains the private half, allowing it to read what is sealed to that person."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The conductor holds a copy. The agent that issues a key keeps its private half too, so it could read what is sealed to that person.",
+          "note": "The source directly states the conductor keeps a copy and that the issuing agent keeps the private half, so it could read what is sealed to that person."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The observability page opens the vault keys sealed to Dinis Cruz.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "which opens the vault keys sealed to Dinis",
+          "note": "The sign-in page states that the observability page opens the vault keys sealed to Dinis, which matches the claim directly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "the drain on the observability page, which opens the vault keys sealed to Dinis",
+          "note": "The source specifies that it is specifically the drain on the observability page that opens the vault keys sealed to Dinis (Dinis Cruz)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "the observability page, which opens the vault keys sealed to Dinis",
+          "note": "The source directly states that the observability page opens the vault keys sealed to Dinis."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "The sign-in link carries the key after a '#' sign, and that part of a link never reaches a server.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The part after # in a link never reaches a server",
+          "note": "S1 says the sign-in link is https://promptugal.news/login/#key=..., with the key after the #, and that this part of a link never reaches a server, so opening the link sends the key nowhere."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "the private halves become a sign-in link, https://promptugal.news/login/#key=... ... The part after # in a link never reaches a server",
+          "note": "The source explicitly confirms that the sign-in link includes the key after the '#' symbol and that this fragment never reaches a server."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "https://promptugal.news/login/#key=... , which the tool writes as a QR code to a file outside the repository and which the conductor gives to that person only. The part after # in a link never reaches a server",
+          "note": "The source states the private halves become that sign-in link and that the part after # never reaches a server."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "The page clears the key from the address bar at once after opening the link.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "removes it from the address bar at once",
+          "note": "The sign-in page states that after taking the key from the link's fragment, it removes the key from the address bar immediately."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "removes it from the address bar at once",
+          "note": "The source confirms that upon opening the link, the page removes the key from the address bar at once."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "removes it from the address bar at once",
+          "note": "The source states the page removes the key from the address bar at once after opening the link."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "The page checks the browser's signature of a fresh random challenge against the published public half of the key.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "the page signs a fresh, random challenge with the browser's key and verifies the signature against the public half published for that person",
+          "note": "The source states directly that the page signs a fresh random challenge with the browser's key and verifies the signature against the published public half for that person, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "the page signs a fresh, random challenge with the browser's key and verifies the signature against the public half published for that person",
+          "note": "The source directly states that the page signs a fresh random challenge using the browser's key and verifies that signature against the published public half."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "signs a fresh, random challenge with the browser's key and verifies the signature against the public half published for that person",
+          "note": "The source directly states the page signs a fresh random challenge and verifies that signature against the published public half."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "The note lists five ways to sign in: scan with a phone, scan with the computer's camera, choose a picture, paste or drop the image onto the page, and paste the link.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Five ways in",
+          "note": "The source's 'Five ways in' section covers all five claimed methods (phone camera scan, computer camera scan, choosing a picture, pasting or dropping the image, and pasting the link), though it splits 'pasted as an image' and 'dropped onto the page' into separate clauses within that count."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Five ways in The QR code can be scanned with a phone's camera (the link opens the page), scanned on the page with the computer's camera, chosen as a picture, pasted as an image (Dinis's own way: Ctrl or Cmd+V anywhere on the page), dropped onto the page, or pasted as the link.",
+          "note": "The source outlines these exact signing-in methods under the section heading 'Five ways in'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Five ways in The QR code can be scanned with a phone's camera (the link opens the page), scanned on the page with the computer's camera, chosen as a picture, pasted as an image (Dinis's own way: Ctrl or Cmd+V anywhere on the page), dropped onto the page, or pasted as the link.",
+          "note": "The source's 'Five ways in' section enumerates the same sign-in methods, with paste/drop covered as image entry."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "The sign-in note's diagram shows six steps from a key issued by the conductor to 'signed in'.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S1",
+          "quote": "",
+          "note": "S1 describes the sign-in process in prose across sections such as 'How a key is issued' and 'How it is checked' but mentions no diagram and no six-step sequence, so the claim cannot be verified from it."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source text mentions the sign-in process and sections, but contains no mention of a diagram or six steps."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The source describes the sign-in process in prose but never mentions a diagram or six steps."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c11",
+      "claim": "The sign-in diagram was made by journalist-ai@PrompTugal.vicky.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S1",
+          "quote": "2026-11-06 · dev@PrompTugal.dinis",
+          "note": "The source never mentions a sign-in diagram or who made one; its only byline is dev@PrompTugal.dinis, and it names no journalist-ai@PrompTugal.vicky."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source discusses the sign-in mechanism and mentions Vicky Wang as an editor, but makes no mention of a sign-in diagram or journalist-ai@PrompTugal.vicky."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": "S1",
+          "quote": "",
+          "note": "The source never mentions a sign-in diagram or the handle journalist-ai@PrompTugal.vicky, so the claim is unsupported."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c12",
+      "claim": "The sign-in link's private halves are saved as a QR code outside the repository and given only to that person by the conductor.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "which the tool writes as a QR code to a file outside the repository and which the conductor gives to that person only",
+          "note": "The source says the private halves become a sign-in link that the tool writes as a QR code to a file outside the repository, and the conductor gives it only to that person."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "the private halves become a sign-in link, https://promptugal.news/login/#key=... , which the tool writes as a QR code to a file outside the repository and which the conductor gives to that person only",
+          "note": "The source directly states that the private halves become a sign-in link written as a QR code to a file outside the repository and given solely to that person by the conductor."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The private halves become a sign-in link, https://promptugal.news/login/#key=... , which the tool writes as a QR code to a file outside the repository and which the conductor gives to that person only.",
+          "note": "The source directly states the private halves become a sign-in link written as a QR code outside the repository and given only to that person by the conductor."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
