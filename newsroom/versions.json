@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.407",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 02:07 wake: account B running; no new blocks",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "fa283bae3"
+  },
+  {
     "version": "v0.1.406",
     "date": "2026-11-07",
     "what": "security@PrompTugal.dinis: wake 02:05: 47 commits clean, the workers' account-B keys seen, S26 (librarian's inbox printed) to conductor@",
