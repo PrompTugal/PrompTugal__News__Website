@@ -14,3 +14,4 @@
 - 12:35 (7 Nov): offline re-measured; read Cache Storage keys to find why kept pages did not open (folder vs index.html). Lesson: when a page 'is kept' but does not open, compare the cache keys with the links.
 - 15:35 (7 Nov): offline re-measured; O6, O1, O4 done. No new inbox message.
 - 18:35 (7 Nov): graph pages reviewed (full-page phone shots, a contact sheet, crops of the labels). dev.graphs@'s working inbox is dev.graphs-2 (keys with -2 ids).
+- 21:35 (7 Nov): graph taps tested (tap the canvas, read the 'Tap a ...' box's parent before and after, its position against the tab bar). Corrected G2: a full-page shot caught an animation mid-draw. Lesson: wait for drawings to finish (or compare two shots) before judging layout.

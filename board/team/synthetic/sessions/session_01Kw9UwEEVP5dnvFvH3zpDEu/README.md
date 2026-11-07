@@ -23,3 +23,4 @@
 - 16:44 wake: ontologist@'s 2 messages (F13); F13 partly live; run 15 (Hugo, phone): F58; debrief refreshed.
 - 18:44 wake: ontologist@'s message (F13); nothing verified; run 16 (Inês, phone, /graph/): F59.
 - 20:45 wake: inbox empty; open rows unchanged; run 17 (the evening edition): F60, F61.
+- 22:44 wake: dev@ (F61), ontologist@ (F60); F61 verified; F60 in progress; no reader run.

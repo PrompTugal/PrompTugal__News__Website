@@ -1,14 +1,14 @@
 ---
 title: "The library of PrompTugal.news"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T18:59:06Z"
-site_version: "v0.1.613"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
+site_version: "v0.1.644"
 source: board/catalogue.json
 ---
 
 # The library of PrompTugal.news
 
-Everything in this repository and on this site in one place: 4928 cards, who made each, and when.
+Everything in this repository and on this site in one place: 4998 cards, who made each, and when.
 
 Find something: open [the reading room](reading-room.htm) and type the first letters of a title, a call number or a kind. It also draws the library as a graph.
 
@@ -16,17 +16,17 @@ Three doors: [Find a page](reading-room.htm) | [What is new](notice-board.md) | 
 
 ## New this hour (new accessions: the newest things added)
 
-- `ACC-20261107-1833` [First review, the seven pictures and /graph/ on a phone and a desktop (18:35, v0.1.606): keep the words under every picture (one sentence with the numbers,…](https://promptugal.news/board/passes/2026-11-06-the-big-graphs.md)
-- `ACC-20261107-1832` [2026-11-07T18-44-38Z.json](https://promptugal.news/board/runs/synthetic/2026-11-07T18-44-38Z.json)
-- `ACC-20261107-1831` [2026-11-07T18-42-14Z.json](https://promptugal.news/board/runs/correspondent/2026-11-07T18-42-14Z.json)
-- `ACC-20261107-1830` [2026-11-07T18-33-30Z.json](https://promptugal.news/board/runs/designer/2026-11-07T18-33-30Z.json)
-- `ACC-20261107-1829` [2026-11-07T18-29-35Z.json](https://promptugal.news/board/runs/sherpa/2026-11-07T18-29-35Z.json)
+- `ACC-20261107-1902` [Taps and motion on a phone (21:35, v0.1.640): reduced motion respected; the explorer says how to use it. X1 (rank 1 for the graphs) a tap fills a good company…](https://promptugal.news/board/passes/2026-11-06-the-big-graphs.md)
+- `ACC-20261107-1901` [Jose's writer desk](https://promptugal.news/desks/writer-jose/README.md)
+- `ACC-20261107-1900` [2026-11-07T21-38-23Z.json](https://promptugal.news/board/runs/outreach/2026-11-07T21-38-23Z.json)
+- `ACC-20261107-1899` [2026-11-07T21-33-29Z.json](https://promptugal.news/board/runs/designer/2026-11-07T21-33-29Z.json)
+- `ACC-20261107-1898` [2026-11-07T21-30-10Z.json](https://promptugal.news/board/runs/sherpa/2026-11-07T21-30-10Z.json)
 
 (All of them: [the accession register](accession-register.jsonl).)
 
 ## The collections (each has a finding aid, a short guide)
 
-[Build, code and release](finding-aids/BLD.md) (4) | [Data and the ontology](finding-aids/DAT.md) (990) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (617) | [The repository](finding-aids/GEN.md) (41) | [The library](finding-aids/LIB.md) (267) | [The publication](finding-aids/PUB.md) (390) | [Readers and observability](finding-aids/RDR.md) (24) | [Agents, roles, keys](finding-aids/TEAM.md) (2309) | [Work in hand](finding-aids/WRK.md) (297)
+[Build, code and release](finding-aids/BLD.md) (4) | [Data and the ontology](finding-aids/DAT.md) (994) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (617) | [The repository](finding-aids/GEN.md) (41) | [The library](finding-aids/LIB.md) (279) | [The publication](finding-aids/PUB.md) (394) | [Readers and observability](finding-aids/RDR.md) (24) | [Agents, roles, keys](finding-aids/TEAM.md) (2356) | [Work in hand](finding-aids/WRK.md) (299)
 
 Also: [every pass and its findings](finding-aids/index.md) | [Dinis's guidance, his words](special/guidance.md) | [the reality tree](reality/index.md) (what exists and what is only proposed) | [the shelf list](shelf-list.md)
 

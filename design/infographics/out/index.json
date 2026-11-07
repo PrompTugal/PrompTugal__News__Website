@@ -1977,6 +1977,118 @@
    "made": "2026-11-07",
    "tool": "design/infographics/table/make.mjs --heading 'Which day is yours' --label Track",
    "checked": "drawn from the article's own table, no AI; redrawn 20:40 UTC after the 'PITCH (group rounds)' correction"
+  },
+  {
+   "slug": "daily-newsletter",
+   "theme": "paper",
+   "layout": "editions",
+   "size": "thumb",
+   "file": "daily-newsletter--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S26-cover-thumb-2026-11-07.svg (drawn by hand from the article's facts; rendered with Chromium)",
+    "checked": "every line against the article and its sources (the newsletter's pages of 7 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "daily-newsletter",
+   "theme": "ink",
+   "layout": "editions",
+   "size": "thumb",
+   "file": "daily-newsletter--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S26-cover-thumb-2026-11-07.svg (drawn by hand from the article's facts; rendered with Chromium)",
+    "checked": "every line against the article and its sources (the newsletter's pages of 7 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "daily-newsletter",
+   "theme": "paper",
+   "layout": "editions",
+   "size": "card",
+   "file": "daily-newsletter--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S26-cover-card-2026-11-07.svg (drawn by hand from the article's facts; rendered with Chromium)",
+    "checked": "every line against the article and its sources (the newsletter's pages of 7 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "daily-newsletter",
+   "theme": "ink",
+   "layout": "editions",
+   "size": "card",
+   "file": "daily-newsletter--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S26-cover-card-2026-11-07.svg (drawn by hand from the article's facts; rendered with Chromium)",
+    "checked": "every line against the article and its sources (the newsletter's pages of 7 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "venue-map",
+   "theme": "paper",
+   "layout": "bars",
+   "size": "thumb",
+   "file": "venue-map--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S27-cover-thumb-2026-11-07.svg (drawn by hand from the article's counts; rendered with Chromium)",
+    "checked": "every name and count against the article and its source (the venue map page, 7 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "venue-map",
+   "theme": "ink",
+   "layout": "bars",
+   "size": "thumb",
+   "file": "venue-map--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S27-cover-thumb-2026-11-07.svg (drawn by hand from the article's counts; rendered with Chromium)",
+    "checked": "every name and count against the article and its source (the venue map page, 7 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "venue-map",
+   "theme": "paper",
+   "layout": "bars",
+   "size": "card",
+   "file": "venue-map--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S27-cover-card-2026-11-07.svg (drawn by hand from the article's counts; rendered with Chromium)",
+    "checked": "every name and count against the article and its source (the venue map page, 7 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "venue-map",
+   "theme": "ink",
+   "layout": "bars",
+   "size": "card",
+   "file": "venue-map--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S27-cover-card-2026-11-07.svg (drawn by hand from the article's counts; rendered with Chromium)",
+    "checked": "every name and count against the article and its source (the venue map page, 7 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
   }
  ]
 }

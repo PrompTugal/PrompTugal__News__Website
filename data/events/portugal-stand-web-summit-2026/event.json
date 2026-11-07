@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "portugal-stand-web-summit-2026",
+  "type": "event",
+  "title": "The Portugal stand at Web Summit 2026 (Pavilion 1, Stand 145)",
+  "kind": "programme",
+  "organiser": "other",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "end_date": "2026-11-12",
+  "time": null,
+  "where": "Pavilion 1, Stand 145, Web Summit Lisbon 2026",
+  "place": "place:meo-arena-and-fil",
+  "organised_by": "company:startup-portugal",
+  "speakers": [],
+  "source_url": "https://startupportugal.com/noticia/get-ready-for-web-summit-2026/",
+  "read_at": "2026-11-07T19:30Z",
+  "read_by": "ontologist@PrompTugal.dinis",
+  "note": "Hand-written from Startup Portugal's own post (6 November 2026): the Portugal stand, 10 to 12 November, run by Startup Portugal with Lisboa Municipality; partners AI2, IAPMEI, AICEP, Portugal Ventures (BPF) and Turismo de Portugal; a daily agenda of pitch sessions (#Road2WebSummit, a Global Pitch Sprint) and partners' sessions. The post gives the days, not the stand's opening hours, so all_day is not set; its sessions have their own times on the post. AI2 is not linked: not identified.",
+  "part_of": "event:web-summit-lisbon-2026",
+  "hosted_by": [
+    {
+      "org": "company:startup-portugal",
+      "as_listed": "Startup Portugal",
+      "source": "https://startupportugal.com/noticia/get-ready-for-web-summit-2026/"
+    },
+    {
+      "org": "organisation:lisboa-municipality",
+      "as_listed": "Lisboa Municipality",
+      "source": "https://startupportugal.com/noticia/get-ready-for-web-summit-2026/"
+    }
+  ]
+}

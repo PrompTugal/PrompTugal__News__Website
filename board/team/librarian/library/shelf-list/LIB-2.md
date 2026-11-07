@@ -1,19 +1,29 @@
 ---
 title: "Shelf list: LIB, The library (part 2 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T18:59:06Z"
-site_version: "v0.1.613"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
+site_version: "v0.1.644"
 source: board/catalogue.json
 ---
 
 # Shelf list: LIB, The library (part 2 of 3)
 
-100 cards, from `LIB.DOC 2026-11-06-agent-reads-and-visibility` to `LIB.DOC reading-room-390x844:2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `LIB.DESK SLIP-20261106-008` to `LIB.DOC m1`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DESK SLIP-20261106-008` | [SLIP-20261106-008.md](https://promptugal.news/board/team/librarian/library/desk/answers/SLIP-20261106-008.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.DESK SLIP-20261106-008:2` | [Call slip SLIP-20261106-008](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-008.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.DESK SLIP-20261106-009` | [SLIP-20261106-009.md](https://promptugal.news/board/team/librarian/library/desk/answers/SLIP-20261106-009.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.DESK SLIP-20261106-009:2` | [Call slip SLIP-20261106-009](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-009.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.DESK SLIP-20261106-010` | [SLIP-20261106-010.md](https://promptugal.news/board/team/librarian/library/desk/answers/SLIP-20261106-010.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.DESK SLIP-20261106-010:2` | [Call slip SLIP-20261106-010](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-010.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.DESK desk` | [The reference desk register](https://promptugal.news/board/team/librarian/library/desk/index.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.DESK notice-state` | [notice-state.json](https://promptugal.news/board/team/librarian/library/desk/notice-state.json) | team | librarian@ 6 Nov 2026 |
+| `LIB.DESK register` | [register.jsonl](https://promptugal.news/board/team/librarian/library/desk/register.jsonl) | team | librarian@ 6 Nov 2026 |
+| `LIB.DESK wants` | [The wants list: what the library could not answer yet](https://promptugal.news/board/team/librarian/library/desk/wants.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-agent-reads-and-visibility` | [Finding aid: pass 2026-11-06-agent-reads-and-visibility](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-agent-reads-and-visibility.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-algarve-evolution` | [Finding aid: pass 2026-11-06-algarve-evolution](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-algarve-evolution.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-algarve-evolution-sprint` | [Finding aid: pass 2026-11-06-algarve-evolution-sprint](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-algarve-evolution-sprint.md) | team | librarian@ 6 Nov 2026 |
@@ -29,6 +39,11 @@ source: board/catalogue.json
 | `LIB.DOC 2026-11-06-riskmandate-centre-of-gravity` | [Finding aid: pass 2026-11-06-riskmandate-centre-of-gravity](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-riskmandate-centre-of-gravity.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-search-and-the-reader-profile` | [Finding aid: pass 2026-11-06-search-and-the-reader-profile](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-search-and-the-reader-profile.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-sections-as-sub-sites` | [Finding aid: pass 2026-11-06-sections-as-sub-sites](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-sections-as-sub-sites.md) | team | librarian@ 6 Nov 2026 |
+
+**Cards 126 to 150**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `LIB.DOC 2026-11-06-signed-in-views` | [Finding aid: pass 2026-11-06-signed-in-views](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-signed-in-views.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-the-articles-page` | [Finding aid: pass 2026-11-06-the-articles-page](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-articles-page.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-the-big-graphs` | [Finding aid: pass 2026-11-06-the-big-graphs](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-big-graphs.md) | team | librarian@ 6 Nov 2026 |
@@ -39,11 +54,6 @@ source: board/catalogue.json
 | `LIB.DOC 2026-11-06-the-people-page` | [Finding aid: pass 2026-11-06-the-people-page](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-people-page.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-the-portugal-section` | [Finding aid: pass 2026-11-06-the-portugal-section](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-portugal-section.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-the-site-over-time` | [Finding aid: pass 2026-11-06-the-site-over-time](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-site-over-time.md) | team | librarian@ 6 Nov 2026 |
-
-**Cards 126 to 150**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `LIB.DOC 2026-11-06-the-summit-days` | [Finding aid: pass 2026-11-06-the-summit-days](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-summit-days.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-the-synthetic-readers-page` | [Finding aid: pass 2026-11-06-the-synthetic-readers-page](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-synthetic-readers-page.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-the-top-of-the-page` | [Finding aid: pass 2026-11-06-the-top-of-the-page](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-top-of-the-page.md) | team | librarian@ 6 Nov 2026 |
@@ -59,6 +69,11 @@ source: board/catalogue.json
 | `LIB.DOC EVD` | [Finding aid: Evidence and sources](https://promptugal.news/board/team/librarian/library/finding-aids/EVD.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC GDN` | [Finding aid: Guidance (special)](https://promptugal.news/board/team/librarian/library/finding-aids/GDN.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC GEN` | [Finding aid: The repository](https://promptugal.news/board/team/librarian/library/finding-aids/GEN.md) | team | librarian@ 6 Nov 2026 |
+
+**Cards 151 to 175**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `LIB.DOC LIB` | [Finding aid: The library](https://promptugal.news/board/team/librarian/library/finding-aids/LIB.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC PUB` | [Finding aid: The publication](https://promptugal.news/board/team/librarian/library/finding-aids/PUB.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC RDR` | [Finding aid: Readers and observability](https://promptugal.news/board/team/librarian/library/finding-aids/RDR.md) | team | librarian@ 6 Nov 2026 |
@@ -69,11 +84,6 @@ source: board/catalogue.json
 | `LIB.DOC TEAM` | [Finding aid: Agents, roles, keys](https://promptugal.news/board/team/librarian/library/finding-aids/TEAM.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC WRK` | [Finding aid: Work in hand](https://promptugal.news/board/team/librarian/library/finding-aids/WRK.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC accessions` | [accessions.jsonl](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/accessions.jsonl) | team | librarian@ 6 Nov 2026 |
-
-**Cards 151 to 175**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `LIB.DOC agents` | [agents.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/repo/data/newsroom/agents.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC aids` | [aids.mjs](https://promptugal.news/board/team/librarian/library/build/lib/aids.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC answer` | [answer.md](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/answer.md) | team | librarian@ 6 Nov 2026 |
@@ -89,6 +99,11 @@ source: board/catalogue.json
 | `LIB.DOC desk` | [desk.mjs](https://promptugal.news/board/team/librarian/library/build/desk.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC desk.test` | [desk.test.mjs](https://promptugal.news/board/team/librarian/library/tests/desk.test.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC entities` | [entities.mjs](https://promptugal.news/board/team/librarian/library/build/lib/entities.mjs) | team | librarian@ 6 Nov 2026 |
+
+**Cards 176 to 200**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `LIB.DOC finding-aids` | [The finding aids of the library](https://promptugal.news/board/team/librarian/library/finding-aids/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC graph` | [graph.mjs](https://promptugal.news/board/team/librarian/library/build/lib/graph.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance` | [Dinis's guidance: every idea of the night memos](https://promptugal.news/board/team/librarian/library/special/guidance.md) | team | librarian@ 6 Nov 2026 |
@@ -99,11 +114,6 @@ source: board/catalogue.json
 | `LIB.DOC guidance-3` | [Dinis's guidance, part 3 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-3.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-4` | [Dinis's guidance, part 4 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-4.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-5` | [Dinis's guidance, part 5 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-5.md) | team | librarian@ 6 Nov 2026 |
-
-**Cards 176 to 200**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `LIB.DOC guidance-6` | [Dinis's guidance, part 6 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-6.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-7` | [Dinis's guidance, part 7 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-7.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-8` | [Dinis's guidance, part 8 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-8.md) | team | librarian@ 6 Nov 2026 |
@@ -119,15 +129,5 @@ source: board/catalogue.json
 | `LIB.DOC links` | [links.mjs](https://promptugal.news/board/team/librarian/library/build/lib/links.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC linktypes` | [linktypes.mjs](https://promptugal.news/board/team/librarian/library/build/lib/linktypes.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC m1` | [m1.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/messages/2026-11-06/m1.json) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC m2` | [m2.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/messages/2026-11-06/m2.json) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC notice-board` | [The notice board](https://promptugal.news/board/team/librarian/library/notice-board.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC presets` | [presets.json](https://promptugal.news/board/team/librarian/library/graph/presets.json) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC reading-room` | [reading-room.htm](https://promptugal.news/board/team/librarian/library/reading-room.htm) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC reading-room-1280x800` | [reading-room-1280x800.png](https://promptugal.news/board/team/librarian/library/reviews/round-3/reading-room-1280x800.png) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC reading-room-1280x800-collections` | [reading-room-1280x800-collections.png](https://promptugal.news/board/team/librarian/library/reviews/round-3/reading-room-1280x800-collections.png) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC reading-room-1280x800-collections:2` | [reading-room-1280x800-collections.png](https://promptugal.news/board/team/librarian/library/reviews/round-4/reading-room-1280x800-collections.png) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC reading-room-1280x800:2` | [reading-room-1280x800.png](https://promptugal.news/board/team/librarian/library/reviews/round-4/reading-room-1280x800.png) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC reading-room-390x844` | [reading-room-390x844.png](https://promptugal.news/board/team/librarian/library/reviews/round-3/reading-room-390x844.png) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC reading-room-390x844:2` | [reading-room-390x844.png](https://promptugal.news/board/team/librarian/library/reviews/round-4/reading-room-390x844.png) | team | librarian@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](LIB-1.md) | [Next part](LIB-3.md)

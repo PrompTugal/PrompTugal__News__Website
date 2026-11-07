@@ -1,5 +1,187 @@
 [
   {
+    "version": "v0.1.660",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 22:44: F61 verified; F60 in progress; no reader run",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "a537d729e"
+  },
+  {
+    "version": "v0.1.659",
+    "date": "2026-11-07",
+    "what": "correspondent@PrompTugal.dinis: wake 22:41: the venue map to the top three; the newsletter placed",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "a653c5670"
+  },
+  {
+    "version": "v0.1.658",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: Startup Portugal's draft follows its page (the Portugal stand); the updated request sent",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "bade8cbff"
+  },
+  {
+    "version": "v0.1.657",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the interactive agent-setup guide read for the brand: in brand, one small note",
+    "by": "designer@PrompTugal.dinis",
+    "from": "ade673676"
+  },
+  {
+    "version": "v0.1.656",
+    "date": "2026-11-07",
+    "what": "writer@PrompTugal.jose: JW1: the two queued fixes: the automation decision at 12:25 UTC; the pick's link pinned to a team-site commit",
+    "by": "writer@PrompTugal.jose",
+    "from": "6970bb554"
+  },
+  {
+    "version": "v0.1.655",
+    "date": "2026-11-07",
+    "what": "writer@PrompTugal.angelo: the interactive guide, elevated in PrompTugal's brand: hero, a sticky \"read this as\", \"for you\" boxes, icons, tiles",
+    "by": "writer@PrompTugal.angelo",
+    "from": "39e19860f"
+  },
+  {
+    "version": "v0.1.654",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: the 7 November debrief refreshed; nothing new to publish",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "ad100f6ff"
+  },
+  {
+    "version": "v0.1.653",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: the Portugal stand: all_day taken off (its post gives days, not hours)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ee4e9bb47"
+  },
+  {
+    "version": "v0.1.652",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: the Portugal stand at Web Summit 2026, as an event",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "0d98c155b"
+  },
+  {
+    "version": "v0.1.651",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2c70a687b"
+  },
+  {
+    "version": "v0.1.650",
+    "date": "2026-11-07",
+    "what": "dev.venues@PrompTugal.angelo: My day links to the venue map",
+    "by": "dev.venues@PrompTugal.angelo",
+    "from": "df21a88a0"
+  },
+  {
+    "version": "v0.1.649",
+    "date": "2026-11-07",
+    "what": "dev.venues@PrompTugal.angelo: My day on the map: a reader's picks shaded on the venue map, in their browser only",
+    "by": "dev.venues@PrompTugal.angelo",
+    "from": "7dce572c7"
+  },
+  {
+    "version": "v0.1.648",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: check again S27 (venue map): Ready, status ready; held for Vicky's approval",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "6562ed694"
+  },
+  {
+    "version": "v0.1.647",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the newsletter's edition band above the title, and /newsletter/ as cards, newest first (designer@'s P1, P6)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8ccd4a162"
+  },
+  {
+    "version": "v0.1.646",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 22:07 wake: account B quiet; nothing blocked",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "6e9787959"
+  },
+  {
+    "version": "v0.1.645",
+    "date": "2026-11-07",
+    "what": "librarian@PrompTugal.dinis: wake 21:56: any keyed agent is a handle; the day's debrief refreshed; catalogue v0.1.644",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "e3862fb53"
+  },
+  {
+    "version": "v0.1.644",
+    "date": "2026-11-07",
+    "what": "writer@PrompTugal.angelo: the agent setup guide made interactive in the article itself",
+    "by": "writer@PrompTugal.angelo",
+    "from": "3c4a60fd8"
+  },
+  {
+    "version": "v0.1.643",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ac3846423"
+  },
+  {
+    "version": "v0.1.642",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 21:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "e3c79575d"
+  },
+  {
+    "version": "v0.1.641",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: run report, 21:33 wake (nothing new; not released on its own)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "b47e8a33d"
+  },
+  {
+    "version": "v0.1.640",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report, 21:23 wake",
+    "by": "investors@PrompTugal.dinis",
+    "from": "f79a95fbe"
+  },
+  {
+    "version": "v0.1.639",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: attends, sends_delegation_to and funds for S9; all_day for events (F60)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "3e52daa02"
+  },
+  {
+    "version": "v0.1.638",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Nscale's releases on Microsoft in Sines read; the USD 10bn figure stays unconfirmed; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "ac4ce60dc"
+  },
+  {
+    "version": "v0.1.637",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "73ac23a89"
+  },
+  {
+    "version": "v0.1.636",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: S27 review: 20 script files, not 21 (one is loaded twice)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "1dbbb0370"
+  },
+  {
+    "version": "v0.1.635",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 21:07 wake: account B's ledger at 507.29, about 21 an hour; investors@ slowed",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "9ab26c951"
+  },
+  {
     "version": "v0.1.634",
     "date": "2026-11-07",
     "what": "dev.venues@PrompTugal.angelo: \"Where is it?\" on event pages, the building picked out on a small map (venue B1 item 2)",
