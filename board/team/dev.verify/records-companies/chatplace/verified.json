@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "chatplace",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace",
+      "status": 200,
+      "read": true,
+      "chars": 1206
+    },
+    {
+      "url": "https://websummit.com/startups/featured-startups/",
+      "status": 200,
+      "read": true,
+      "chars": 5900
+    },
+    {
+      "url": "https://chatplace.io/",
+      "status": 200,
+      "read": true,
+      "chars": 3643
+    }
+  ],
+  "spent_usd": 0.0398,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named ChatPlace.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "ChatPlace®",
+          "note": "The chatplace.io site names the company ChatPlace, with the trademark mark in its copyright line, and the Web Summit pages list it as ChatPlace."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Meet our 2026 startups Apply for 2027 ... ChatPlace ChatPlace SaaS",
+          "note": "ChatPlace is listed as one of the featured startup companies."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ChatPlace Portugal SaaS",
+          "note": "The source identifies the company as ChatPlace."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://chatplace.io/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Unlock the Power of Your Content and Chats with ChatPlace",
+          "note": "The source is the page at https://chatplace.io/ and it presents itself as ChatPlace's site, though no source states the URL as the company's website in so many words."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://chatplace.io/",
+          "note": "Source S3 is the official website of ChatPlace at the domain https://chatplace.io/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "ChatPlace®",
+          "note": "The source at https://chatplace.io/ is ChatPlace's own website, confirming the claimed URL."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Platform for creators and small businesses: AI content studio, an AI manager that answers DMs and comments 24/7, chatbot funnels and gamification on Instagram, TikTok, Telegram and WhatsApp.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "exaggerated",
+          "source": "S3",
+          "quote": "AI Agents and chatbots to help you grow followers, engage and sell on Instagram & TikTok.",
+          "note": "S3 supports the AI manager answering DMs and comments 24/7, chatbots, gamification, and Instagram, TikTok and Telegram, but no source mentions WhatsApp, an 'AI content studio', or the quoted 'Platform for creators and small businesses' self-description, so the claim says more than the sources do."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S3",
+          "quote": "Understands context, replies your DMs, comments and tags. Keeps your audience engaged and sells 24/7",
+          "note": "The source supports features like an AI manager answering DMs and comments 24/7, gamification, and support for Instagram, TikTok, and Telegram, but it does not mention WhatsApp or an AI content studio."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "AI Manager chats like you Understands context, replies your DMs, comments and tags. Keeps your audience engaged and sells 24/7",
+          "note": "S3 supports the AI manager, chatbot funnels, gamification, and Instagram/TikTok/Telegram, but it does not mention WhatsApp or an AI content studio."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Portugal.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ChatPlace Portugal SaaS",
+          "note": "The Web Summit attendee page lists ChatPlace with Portugal shown alongside its SaaS category, which matches the claim that it is listed under Portugal."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ChatPlace Portugal SaaS",
+          "note": "The Web Summit page lists ChatPlace alongside Portugal as its location/country."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "ChatPlace Portugal SaaS",
+          "note": "S1 lists ChatPlace under Portugal."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (startup (growth)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "GROWTH",
+          "note": "The ChatPlace appearance page for Web Summit Lisbon 2026 (URL path lis26) shows a GROWTH label, and the Featured startups 2026 page (S2) also lists ChatPlace as a 2026 startup."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace\nChatPlace | Web Summit Attendees Meet our attendees Meet our speakers Content tracks Schedule Meetups Bring your team Exhibitors Partner with us Meet our partners Startups Apply for our startup programme IBM Sports Tech Startup Prize Competition Featured startups Startup journey PITCH Impact startups Investors Investors LP Investors Venture Media Media? Join us at Web Summit Meet our media partners More Essential information Web Summit reviews Night Summit VIP experience Attendee experience Women in Tech Developer programme Convince your boss Hotels Volunteers Ambassadors programme Blog Icon / MyTicket Get 50% off 2027 Icon / Chevron / Up Copy Exhibit Login website See all startups GROWTH Share Share on X Share on LinkedIn Copy link ChatPlace",
+          "note": "The source lists ChatPlace under the 'GROWTH' startup category for Web Summit Lisbon 2026 (lis26)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "S1 is ChatPlace's Web Summit Lisbon 2026 appearance page and labels it under GROWTH."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
