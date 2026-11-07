@@ -29,10 +29,24 @@ const isAuthored = p => p.src && p.src.startsWith(DIR) && NAME.test(path.basenam
 const editionsOf = ctx => (ctx.pages || []).filter(p => REL.test(p.rel) && p.meta?.status !== 'draft').sort((a, b) => b.rel.localeCompare(a.rel))
 const emailOf = rel => `api/v1/newsletter/${rel.split('/')[1]}.txt`   // under /api/: generated, never committed
 
-const five = (ctx, rel, d) => {
-    const { itemsOn } = load(ctx), rk = e => e.kind === 'registration' && d >= '2026-11-10' ? 4 : rank(e)
-    return slotList([...itemsOn(d)].sort((a, b) => rk(a) - rk(b) || byTime(a, b)).slice(0, 5).sort(byTime).map(e => slotLine(ctx, rel, e, { day: false, extra: [KIND[e.kind] || e.kind] })))
+// the day's five (designer@'s check of Saturday's edition): one line per thing (a second registration desk joins the
+// first line, "also at"), an event outside Lisbon says where it is, and the count is the real one (fiveCount)
+const rootOf = e => String(e.what).split(/:\s|\s\(/)[0]
+const fiveOf = (ctx, d) => {
+    const { itemsOn } = load(ctx), rk = e => e.kind === 'registration' && d >= '2026-11-10' ? 4 : rank(e), seen = new Map(), out = []
+    for (const e of [...itemsOn(d)].sort((a, b) => rk(a) - rk(b) || byTime(a, b))) {
+        if (seen.has(rootOf(e))) { seen.get(rootOf(e)).also.push(e); continue }
+        if (out.length === 5) continue
+        const x = { e, also: [] }; seen.set(rootOf(e), x); out.push(x)
+    }
+    return out.sort((a, b) => byTime(a.e, b.e))
 }
+const placeName = (ctx, e) => (ctx.store.places || []).find(p => p.id === String(e.place || '').replace(/^place:/, ''))?.name || ''
+const five = (ctx, rel, d) => slotList(fiveOf(ctx, d).map(({ e, also }) => slotLine(ctx, rel, e, { day: false, extra: [KIND[e.kind] || e.kind,
+    ...(/algarve/i.test(e.where || '') ? ['in the Algarve, not Lisbon'] : []),
+    ...also.map(a => `also at ${placeName(ctx, a) || a.where || ''}${a.start ? ', ' + a.start : ''}`)] })))
+const NUM = ['No', 'One', 'Two', 'Three', 'Four', 'Five']
+const fiveText = (ctx, d) => W.there_text.replace(/^Five things/, `${NUM[fiveOf(ctx, d).length]} thing${fiveOf(ctx, d).length === 1 ? '' : 's'}`)
 const dayLink = (ctx, rel, d) => `[${W.day_link}](${ctx.link(rel, `days/${d}/index.html`)})`
 const next = d => STRIP_DAYS[STRIP_DAYS.indexOf(d) + 1]
 const mailLink = (ctx, rel) => `[${W.email_link}](${ctx.link(rel, emailOf(rel))})`
@@ -40,7 +54,7 @@ const mailLink = (ctx, rel) => `[${W.email_link}](${ctx.link(rel, emailOf(rel))}
 function edition(ctx, d, kind) {
     const { DAY } = load(ctx), rel = `newsletter/${d}-${kind}/index.html`
     const md = kind === 'morning'
-        ? `## ${W.there_head}\n\n${W.there_text}\n\n${five(ctx, rel, d)}\n\n${dayLink(ctx, rel, d)}\n\n## ${W.remote_head}\n\n${W.remote_text}\n\n<!-- newsletter:latest -->`
+        ? `## ${W.there_head}\n\n${fiveText(ctx, d)}\n\n${five(ctx, rel, d)}\n\n${dayLink(ctx, rel, d)}\n\n## ${W.remote_head}\n\n${W.remote_text}\n\n<!-- newsletter:latest -->`
         : `## ${W.today_head}\n\n<!-- newsletter:today -->\n\n## ${W.latest_head}\n\n<!-- newsletter:latest -->\n\n` +
           (next(d) ? `## ${W.next_head}\n\n${W.next_text}\n\n${five(ctx, rel, next(d))}\n\n${dayLink(ctx, rel, next(d))}\n\n` : '')
     return {
