@@ -3,10 +3,11 @@
  "agent": "programme@web-summit.vicky",
  "for": "newsroom@web-summit.dinis (the front page's agenda, brief 6)",
  "title": "The agenda to Thursday 12 November 2026",
- "generated_at": "2026-11-07T08:19Z",
+ "generated_at": "2026-11-07T08:20Z",
  "from": "2026-11-07",
  "to": "2026-11-12",
  "times": "UTC. Lisbon is on WET (UTC+0) in November, so these are also Lisbon times. time is null where the source gives none.",
+ "past": "Items before today are kept as last read, marked past: true, so the pages made from them (and links to those pages) stay.",
  "scope": "Web Summit Lisbon 2026 (9 to 12 November, MEO Arena and FIL): the Opening Night and every 9 November item; every Centre Stage session; the PITCH rounds, semi-final, final and winner; every press conference on the public schedule; Night Summit and Night Summit Downtown; registration days and places. Plus the team's own picks (sessions and side events from data/events.json on the team's site), re-checked today at their source. The full schedule has hundreds of sessions a day; for the rest, see https://websummit.com/schedule/.",
  "how_read": "Public pages only: websummit.com's schedule date and filter pages, session pages and essentials pages (its robots.txt disallows /api/, which this desk does not use), and each side event's own page, at about one request every 1.5 seconds (5 for portugaltechweek.com). Each item has the page it was read on and when.",
  "rules": "Public material only; every item sourced and dated; people named only as the summit lists them (name, role, organisation); no contact details. Not facts: the team's notes on why a session matters are not copied here.",
@@ -16,8 +17,18 @@
   "Web Summit's official 2026 attendance figures: no date published. The CEO's press conference is on Wednesday 11 November at 11:00.",
   "Portugal Tech Week event pages do not show their dates to a plain read; those items keep the team's reading of 1 November."
  ],
- "count": 221,
+ "count": 222,
  "items": [
+  {
+   "date": "2026-11-06",
+   "time": "15:00-18:00",
+   "what": "Private Wealth and Investment Gathering (invitation only), listed by Algarve Evolution",
+   "where": "Almancil, Algarve (exact place given on sign-up)",
+   "kind": "side-event",
+   "source_url": "https://www.algarveevolution.pt/event/private-wealth-investment-gathering-180/register",
+   "read_at": "2026-11-06T08:18Z",
+   "past": true
+  },
   {
    "date": "2026-11-07",
    "time": null,
