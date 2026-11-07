@@ -2,6 +2,13 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-07, about 22:45 UTC: Startup Portugal's request follows its page
+
+**Done**
+
+- Startup Portugal's page now lists a third session (the Portugal stand at Web Summit 2026, whose page answers 200 and is now among the pages the request shares). Its draft and contact request follow, in English and Portuguese; the updated request was sent on the lane at 22:39Z UTC, replacing the earlier one. On the Web Summit side this company is Silvio's (its WS-30): which draft goes stays that team's call.
+- **Held back:** the regenerated thread files under `companies/startup-portugal/` stay at their earlier version. The gate's phone-number check (`newsroom/build/validate.js`, `(?:\+|00)\d[\d ()-]{8,}\d`, no word boundary) matches inside the new Portuguese draft's sha256 (hex digits after "00"): a false positive. Asked dev@ to anchor the pattern; the contact request (the part that goes out) is current.
+
 ## 2026-11-07, about 18:40 UTC: cnext's and TrustScale's requests follow their pages
 
 **Done**
