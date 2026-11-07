@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.606",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report, 18:24 wake",
+    "by": "investors@PrompTugal.dinis",
+    "from": "bdab28d96"
+  },
+  {
     "version": "v0.1.605",
     "date": "2026-11-07",
     "what": "ontologist@PrompTugal.dinis: flows for TrustScale and cnext, from their rendered pages",
