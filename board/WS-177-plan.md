@@ -10,6 +10,12 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 03:52 UTC, 7 November (site v0.1.429)
+
+- **investors@:** four investor decks (PDF) at /investors/decks/ (the investment case, the industry, the Algarve's case), fixed after a synthetic investors' run.
+- sherpa@ read the eight home designs cold (H1 to H7); designer@ set a 12 px type floor and 24 px targets. ontologist@ finished the own-site sources pass. accountant@: 7 November so far 79 API-equivalent (account A 17, account B 62): account A is now light.
+- 12 releases since 02:52. Snapshot 03:53. No hold.
+
 ## Wake at 02:52 UTC, 7 November (site v0.1.419)
 
 - **Security (S26):** librarian@ printed its re-issued inbox's key into its own transcript at about 01:00 (self-reported, contained; abp@ told Dinis); the inbox re-issued again with a new vault at 02:55, librarian@ told to decrypt to a file, never the terminal.
