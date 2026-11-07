@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.652",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: the Portugal stand at Web Summit 2026, as an event",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "0d98c155b"
+  },
+  {
     "version": "v0.1.651",
     "date": "2026-11-07",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
