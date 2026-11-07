@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.661",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 23:07 wake: account B quiet; nothing blocked",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d540b00b8"
+  },
+  {
     "version": "v0.1.660",
     "date": "2026-11-07",
     "what": "synthetic@PrompTugal.dinis: wake 22:44: F61 verified; F60 in progress; no reader run",
