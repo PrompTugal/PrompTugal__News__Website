@@ -1,7 +1,7 @@
 {
   "$schema": "none",
   "article": "wednesday-11-november-going-abroad",
-  "verified_on": "2026-11-06",
+  "verified_on": "2026-11-07",
   "by": "dev.verify@PrompTugal.dinis",
   "models": [
     "anthropic/claude-haiku-5.5",
@@ -34,119 +34,119 @@
       "chars": 2814
     }
   ],
-  "spent_usd": 0.0647,
+  "spent_usd": 0.1229,
   "claims": [
     {
       "id": "c1",
-      "claim": "Wednesday 11 November is the summit's busiest day for founders looking at Europe.",
+      "claim": "Wednesday 11 November is the day on which the European Commission and its agencies run most of their sessions at the summit.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "The sources confirm that several Web Summit events fall on 11 November, including a Europe-focused founders event, but none says it is the busiest day or ranks days by attendance."
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Other Commission services and EU bodies will also be present with Masterclasses, panels, meetups and stands.",
+          "note": "S1's agenda lists four of seven sessions on 11 November (EUIPO, DG CONNECT, HaDEA, EuroHPC), so the day has the most listed sessions, but the agenda is not stated to be complete and no source says this is where the Commission and its agencies run most sessions."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "unsupported",
           "source": null,
           "quote": "",
-          "note": "None of the provided sources state that Wednesday 11 November is the summit's busiest day for founders looking at Europe."
+          "note": "While the agenda in S1 lists four EU sessions on 11 November compared to two on 10 November and one on 12 November, none of the sources explicitly state that this day hosts most of their sessions."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "No source states that 11 November is the summit's busiest day for founders looking at Europe."
-        }
-      ],
-      "consensus": "unsupported",
-      "flag_to_journalist": true
-    },
-    {
-      "id": "c2",
-      "claim": "The European Commission and its agencies run most of their sessions on Wednesday 11 November.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "exaggerated",
+          "verdict": "partly",
           "source": "S1",
-          "quote": "11 November 12:10 – 12:30 – EUIPO Panel",
-          "note": "S1 lists 4 of the 7 Commission-linked Web Summit sessions on 11 November, but these are only Web Summit agenda items, not most sessions the Commission and its agencies run, which no source states."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the sources state that the European Commission and its agencies run most of their sessions on Wednesday 11 November."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "11 November 12:10 – 12:30 – EUIPO Panel The new financing frontier: How intellectual property unlocks capital. This discussion will examine how IP-backed finance can help innovative companies access capital and scale their businesses. 14:30-15:15 – DG CONNECT Masterclass Building AI in Europe: Practical Support for Innovators Europe is building an AI innovation ecosystem designed to help companies turn ideas into real-world solutions. Join this Masterclass to explore EU support, from regulatory guidance to access to infrastructure, funding and more. 15:30-16:15 – HaDEA Masterclass Investing in technological sovereignty: EU funding for your project Join HaDEA’s workshop to discover EU funding opportunities for your next project. Learn how EU funding is supporting technological sovereignty, meet representatives of the European Commission and get inspired by EU-funded projects. 16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources Discover how industry can access Europe’s supercomputers, AI Factories and quantum computers for free. Learn about access opportunities, applications and support available through EuroHPC JU.",
-          "note": "S1's EU agenda lists four sessions on 11 November, more than on 10 or 12 November."
+          "quote": "11 November",
+          "note": "S1 lists multiple EU sessions on 11 November, but does not explicitly state it is Wednesday or that it is the day with most sessions."
         }
       ],
       "consensus": "disagree",
       "flag_to_journalist": true
     },
     {
-      "id": "c3",
-      "claim": "A session on EU support for AI businesses is scheduled for 14:30.",
+      "id": "c2",
+      "claim": "The European Commission and its agencies have four of the seven sessions on their agenda on Wednesday 11 November, with two on Tuesday and one on Thursday.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "14:30-15:15 – DG CONNECT Masterclass Building AI in Europe",
-          "note": "S1's agenda lists a DG CONNECT Masterclass on EU support for AI innovators at 14:30-15:15 on 11 November, which matches the claim."
+          "quote": "11 November 12:10 – 12:30 – EUIPO Panel",
+          "note": "S1's agenda lists two items on 10 November, four on 11 November (EUIPO panel, DG CONNECT, HaDEA and EuroHPC masterclasses), and one on 12 November, all from Commission services or EU bodies."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "14:30-15:15 – DG CONNECT Masterclass Building AI in Europe: Practical Support for Innovators Europe is building an AI innovation ecosystem designed to help companies turn ideas into real-world solutions. Join this Masterclass to explore EU support",
-          "note": "Source S1 schedules a DG CONNECT masterclass focusing on EU support for AI innovators and businesses from 14:30 to 15:15 on 11 November."
+          "quote": "Check out the agenda below to learn more about EU activities at this year’s Web Summit. AGENDA 10 November 11:05-11:25 – Fireside chat with EVP Virkkunen... 12:00-12:45 – DG CONNECT Masterclass... 11 November 12:10 – 12:30 – EUIPO Panel... 14:30-15:15 – DG CONNECT Masterclass... 15:30-16:15 – HaDEA Masterclass... 16:00-16:45 – EuroHPC Masterclass... 12 November 13:00 – 13:25 – EUIPO & INPI Meetup",
+          "note": "The agenda lists seven EU sessions in total, with two on 10 November (Tuesday), four on 11 November (Wednesday), and one on 12 November (Thursday)."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "14:30-15:15 – DG CONNECT Masterclass Building AI in Europe: Practical Support for Innovators",
-          "note": "S1 lists a DG CONNECT Masterclass on EU support for AI innovators at 14:30."
+          "quote": "11 November 12:10 – 12:30 – EUIPO Panel ... 14:30-15:15 – DG CONNECT Masterclass ... 15:30-16:15 – HaDEA Masterclass ... 16:00-16:45 – EuroHPC Masterclass",
+          "note": "S1's agenda lists four EU-related sessions on 11 November, two on 10 November, and one on 12 November."
         }
       ],
       "consensus": "supported",
       "flag_to_journalist": false
     },
     {
+      "id": "c3",
+      "claim": "The session 'Building AI in Europe: Practical support for innovators' runs from 14:30 to 15:15 in Masterclass 3 and is run by the European Commission, DG CONNECT.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "14:30-15:15 – DG CONNECT Masterclass Building AI in Europe: Practical Support for Innovators",
+          "note": "S1 supports the 14:30–15:15 time and the DG CONNECT organiser, but no source mentions a room called 'Masterclass 3'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "14:30-15:15 – DG CONNECT Masterclass Building AI in Europe: Practical Support for Innovators",
+          "note": "The source confirms the time and that the session is a DG CONNECT Masterclass, but does not state that it takes place in 'Masterclass 3'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "14:30-15:15 – DG CONNECT Masterclass Building AI in Europe: Practical Support for Innovators",
+          "note": "The source confirms the time and DG CONNECT organizer, but it does not mention Masterclass 3."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
       "id": "c4",
-      "claim": "A session on EU funding, featuring four EU-funded projects, is scheduled for 15:30.",
+      "claim": "The session 'Investing in technological sovereignty: EU funding for your project' runs from 15:30 to 16:15 and features four EU-funded projects, run by HaDEA.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "On 11 November at 15.30 , the European Health and Digital Executive Agency (HaDEA) will host a workshop",
-          "note": "S2 gives the HaDEA workshop on 11 November at 15:30 with representatives of four EU-funded projects, and S1's agenda also lists a HaDEA session at 15:30-16:15."
+          "source": "S1",
+          "quote": "15:30-16:15 – HaDEA Masterclass Investing in technological sovereignty: EU funding for your project",
+          "note": "S1 gives the 15:30-16:15 time and HaDEA as host; S2 (HaDEA's event page) confirms the session is HaDEA's workshop and names four EU-funded projects, so the full claim is covered across the two sources."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "On 11 November at 15.30 , the European Health and Digital Executive Agency (HaDEA) will host a workshop entitled “Investing in technological sovereignty: EU funding for your project” at Web Summit 2026. The workshop will highlight EU funding opportunities and showcase how EU-funded projects are contributing to Europe's technological sovereignty, digital competitiveness and strategic autonomy. Speakers will include HaDEA Head of Department Hervé Dupuy , Head of Unit Silke Obst , and representatives of four EU-funded projects",
-          "note": "The source explicitly states that a workshop on EU funding scheduled for 15:30 will feature speakers representing four EU-funded projects."
+          "source": null,
+          "quote": "",
+          "note": "S1 confirms the session runs from 15:30 to 16:15, while S2 confirms it is hosted by HaDEA and features representatives of four EU-funded projects."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "On 11 November at 15.30 , the European Health and Digital Executive Agency (HaDEA) will host a workshop entitled “Investing in technological sovereignty: EU funding for your project” at Web Summit 2026. The workshop will highlight EU funding opportunities and showcase how EU-funded projects are contributing to Europe's technological sovereignty, digital competitiveness and strategic autonomy. Speakers will include HaDEA Head of Department Hervé Dupuy , Head of Unit Silke Obst , and representatives of four EU-funded projects:",
-          "note": "S2 states the EU funding workshop is at 15:30 and includes representatives of four EU-funded projects."
+          "source": "S1",
+          "quote": "15:30-16:15 – HaDEA Masterclass Investing in technological sovereignty: EU funding for your project",
+          "note": "S1 gives the exact time and HaDEA run, while S2 confirms the workshop features representatives of four EU-funded projects."
         }
       ],
       "consensus": "supported",
@@ -154,28 +154,28 @@
     },
     {
       "id": "c5",
-      "claim": "A session on free access to Europe's supercomputers is scheduled for 16:00.",
+      "claim": "The EuroHPC session on using Europe's supercomputers, AI Factories and quantum computers for free runs from 16:00 to 16:45, on a first come, first served basis.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources",
-          "note": "The S1 agenda lists a 16:00-16:45 EuroHPC Masterclass on free access to Europe's supercomputers, falling on 11 November; the claim omits the date, which does not change its accuracy."
+          "quote": "16:00-16:45 – EuroHPC Masterclass",
+          "note": "S1's 10 November agenda lists the EuroHPC Masterclass at 16:00-16:45 on free access to Europe's supercomputers, AI Factories and quantum computers, and states that attendance is first-come, first-served."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources Discover how industry can access Europe’s supercomputers, AI Factories and quantum computers for free.",
-          "note": "The agenda in S1 lists a EuroHPC Masterclass on 11 November from 16:00 to 16:45 detailing how industry can access Europe's supercomputers for free."
+          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources Discover how industry can access Europe’s supercomputers, AI Factories and quantum computers for free. Learn about access opportunities, applications and support available through EuroHPC JU. Please be aware that attendance is first-come, first-served.",
+          "note": "The source directly confirms the timing, topic, and first-come, first-served attendance of the EuroHPC Masterclass."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing",
-          "note": "S1’s agenda lists the EuroHPC masterclass on free access to EU supercomputing at 16:00."
+          "quote": "16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources Discover how industry can access Europe’s supercomputers, AI Factories and quantum computers for free. Learn about access opportunities, applications and support available through EuroHPC JU. Please be aware that attendance is first-come, first-served.",
+          "note": "S1's agenda lists the EuroHPC Masterclass at 16:00-16:45 and states attendance is first-come, first-served, matching the claim."
         }
       ],
       "consensus": "supported",
@@ -183,57 +183,57 @@
     },
     {
       "id": "c6",
-      "claim": "The 15:30 EU funding session and the 16:00 supercomputer session overlap.",
+      "claim": "The HaDEA session (15:30 to 16:15) and the EuroHPC session (16:00 to 16:45) overlap by a quarter of an hour.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "partly",
+          "verdict": "supported",
           "source": "S1",
-          "quote": "15:30-16:15 – HaDEA Masterclass",
-          "note": "S1's agenda gives the HaDEA funding session as 15:30-16:15 and the EuroHPC session as 16:00-16:45 under the same 10 November heading, so they overlap from 16:00 to 16:15, but S2 dates the HaDEA workshop to 11 November at 15.30, which would mean no overlap."
+          "quote": "15:30-16:15 – HaDEA Masterclass ... 16:00-16:45 – EuroHPC Masterclass",
+          "note": "Both sessions are listed under 10 November in S1, and their times overlap from 16:00 to 16:15, which is fifteen minutes, a quarter of an hour."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "15:30-16:15 – HaDEA Masterclass Investing in technological sovereignty: EU funding for your project Join HaDEA’s workshop to discover EU funding opportunities for your next project. Learn how EU funding is supporting technological sovereignty, meet representatives of the European Commission and get inspired by EU-funded projects. 16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing",
-          "note": "The EU funding session runs from 15:30 to 16:15 and the supercomputing session runs from 16:00 to 16:45, confirming they overlap."
+          "quote": "15:30-16:15 – HaDEA Masterclass Investing in technological sovereignty: EU funding for your project Join HaDEA’s workshop to discover EU funding opportunities for your next project. Learn how EU funding is supporting technological sovereignty, meet representatives of the European Commission and get inspired by EU-funded projects. 16:00-16:45 – EuroHPC Masterclass",
+          "note": "The agenda lists the HaDEA Masterclass from 15:30 to 16:15 and the EuroHPC Masterclass from 16:00 to 16:45, creating a 15-minute (quarter-hour) overlap between 16:00 and 16:15."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "15:30-16:15 – HaDEA Masterclass Investing in technological sovereignty: EU funding for your project ... 16:00-16:45 – EuroHPC Masterclass Level up for free: Access EU supercomputing, AI & quantum resources",
-          "note": "S1 lists the EU funding session from 15:30 to 16:15 and the supercomputer session from 16:00 to 16:45, so they overlap from 16:00 to 16:15."
+          "quote": "15:30-16:15 – HaDEA Masterclass Investing in technological sovereignty: EU funding for your project Join HaDEA’s workshop to discover EU funding opportunities for your next project. Learn how EU funding is supporting technological sovereignty, meet representatives of the European Commission and get inspired by EU-funded projects. 16:00-16:45 – EuroHPC Masterclass",
+          "note": "S1 lists HaDEA 15:30-16:15 and EuroHPC 16:00-16:45, so they overlap 16:00-16:15, a quarter hour."
         }
       ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
+      "consensus": "supported",
+      "flag_to_journalist": false
     },
     {
       "id": "c7",
-      "claim": "Italian and Portuguese founders and investors meet in Beato from 18:30 in the evening.",
+      "claim": "The 'European Tech Champions, Italy and Portugal' event in Beato starts from 18:30 and is run by Unicorn Factory Lisboa, the Embassy of Italy and ICE.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S4",
-          "quote": "The event starts at 18:30",
-          "note": "S4 says founders and investors meet at Beato on 11 November and that the Italy–Portugal event starts at 18:30, which matches the claim's time and place."
+          "quote": "The event starts at 18:30, with welcome and registration.",
+          "note": "S4 gives the 18:30 start and names Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE) as organisers, with the event held at Unicorn Stage in Lisbon's Beato Innovation District."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S4",
-          "quote": "Founders and investors meet at Beato on 11 November during Web Summit week. AICEP 03/11/2026 Go back Investment Lisbon event explores Italian-Portuguese tech growth 03/11/2026 Share this Lisbon will host European Tech Champions – Italy & Portugal on 11 November 2026, bringing together founders, investors, corporate leaders and institutional representatives to discuss how European technology companies can raise capital, compete internationally and scale beyond their domestic markets. The event is organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE), as part of the programme taking place during Web Summit 2026. Held at Unicorn Stage, in Lisbon’s Beato Innovation District, the event will feature two panel discussions with scaleups, investors and institutional leaders from Italy, Portugal and across Europe. Discussions will focus on the challenges and opportunities facing European technology companies as they seek to expand internationally, secure investment and strengthen their global competitiveness. The programme will also include a networking session, offering an opportunity for Portuguese and Italian startups, investors attending Web Summit and members of the wider European technology community to establish contacts and explore potential partnerships. The event starts at 18:30",
-          "note": "Source 4 confirms that the event bringing together Italian and Portuguese founders and investors takes place in Lisbon's Beato Innovation District starting at 18:30."
+          "quote": "The event is organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE), as part of the programme taking place during Web Summit 2026. Held at Unicorn Stage, in Lisbon’s Beato Innovation District [...] The event starts at 18:30",
+          "note": "The source directly confirms the event's location in Beato, start time of 18:30, and its organizers."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S4",
-          "quote": "Founders and investors meet at Beato on 11 November during Web Summit week. The event starts at 18:30",
-          "note": "S4 states Italian-Portuguese founders and investors meet at Beato on 11 November and the event starts at 18:30."
+          "quote": "organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE) ... Beato Innovation District ... The event starts at 18:30",
+          "note": "S4 states the event is organised by those bodies, held in Beato Innovation District, and starts at 18:30."
         }
       ],
       "consensus": "supported",
@@ -241,57 +241,144 @@
     },
     {
       "id": "c8",
-      "claim": "The listed times are set by the organisers and can change.",
+      "claim": "The EUIPO panel on how IP-backed finance can help companies raise money and scale is scheduled at 12:10.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "No source says the agenda times are set by the organisers or can change; the only change-related wording, 'The programme is still being developed and may change' in S3, refers to the Dutch delegation's provisional programme, not the listed times."
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "11 November 12:10 – 12:30 – EUIPO Panel The new financing frontier: How intellectual property unlocks capital.",
+          "note": "S1 schedules the EUIPO panel on IP-backed finance for 11 November from 12:10 to 12:30, matching the claim's 12:10 start time."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the provided sources state that the listed times are set by the organisers or that they can change."
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "12:10 – 12:30 – EUIPO Panel The new financing frontier: How intellectual property unlocks capital. This discussion will examine how IP-backed finance can help innovative companies access capital and scale their businesses.",
+          "note": "The agenda confirms that the EUIPO panel discussing how IP-backed finance can help companies access capital and scale is scheduled for 12:10 on 11 November."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "partly",
-          "source": "S3",
-          "quote": "The programme is still being developed and may change.",
-          "note": "S3 supports that the programme can change, but it does not explicitly state that the listed times are set by the organisers."
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "11 November 12:10 – 12:30 – EUIPO Panel",
+          "note": "S1 lists the EUIPO panel at 12:10 and describes it as covering how IP-backed finance helps companies access capital and scale."
         }
       ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
+      "consensus": "supported",
+      "flag_to_journalist": false
     },
     {
       "id": "c9",
-      "claim": "Web Summit has an app that attendees can check for schedule updates.",
+      "claim": "The session 'The next digital frontier' runs from 10:30 to 10:50 on Stage 11 and includes Portugal's Secretary of State for Digitalisation.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "partly",
-          "source": "S3",
-          "quote": "Access to the Web Summit app.",
-          "note": "S3 confirms that Web Summit has an app, but only as part of the Dutch delegation fee, and it does not say attendees use it to check schedule updates."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources mention a session titled 'The next digital frontier', a 10:30-10:50 slot, Stage 11, or Portugal's Secretary of State for Digitalisation; the closest listed session is a fireside chat with EVP Virkkunen at 11:05-11:25 on 10 November."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "exaggerated",
-          "source": "S3",
-          "quote": "Access to the Web Summit app.",
-          "note": "The source confirms the existence of a Web Summit app for participants, but does not state that it can be checked for schedule updates."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention a session titled 'The next digital frontier', Stage 11, or Portugal's Secretary of State for Digitalisation."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "partly",
-          "source": "S3",
-          "quote": "Access to the Web Summit app.",
-          "note": "S3 confirms access to a Web Summit app, but none of the sources mention checking it for schedule updates."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided source passages mention the session title, time, stage, or Portugal's Secretary of State for Digitalisation."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "HaDEA's stand is E418 in Pavilion 4, and HaDEA says it is staffed throughout the summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "will also be available at stand E418 in Pavilion 4",
+          "note": "S2 says HaDEA representatives will be available at stand E418 in Pavilion 4 throughout Web Summit, which matches 'staffed throughout the summit' as a planned arrangement, and S1 independently places HaDEA at stand E418 in Pavilion 4."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Throughout Web Summit, HaDEA representatives and EU-funded projects will also be available at stand E418 in Pavilion 4",
+          "note": "HaDEA's website confirms that its stand is E418 in Pavilion 4 and that representatives will be available there throughout Web Summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Throughout Web Summit, HaDEA representatives and EU-funded projects will also be available at stand E418 in Pavilion 4",
+          "note": "HaDEA's own page states its representatives will be available at stand E418 in Pavilion 4 throughout Web Summit."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c11",
+      "claim": "Only the AI masterclass and 'The next digital frontier' were found on Web Summit's schedule when it was read on 6 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources mention a schedule check on 6 November or a session titled 'The next digital frontier'; S1's agenda lists different sessions, so the claim cannot be verified from them."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention reading Web Summit's schedule on 6 November or finding only those specific sessions."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source mentions 'The next digital frontier' or states that only those two sessions were on Web Summit's schedule on 6 November."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c12",
+      "claim": "The article's first version was published on 7 November 2026 at 02:50 UTC.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources states when the article's first version was published; the only publication date given (3 November 2026, in S1) is for a different page and does not mention the 7 November 02:50 UTC timestamp."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S1",
+          "quote": "Publication 03 November 2026",
+          "note": "The source indicates that the news article was published on 3 November 2026, contradicting the claim."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source mentions the article's first version publication date or time of 7 November 2026 at 02:50 UTC."
         }
       ],
       "consensus": "disagree",
