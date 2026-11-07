@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "cnext",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "agents-on-kairos",
+      "name": "Agents automate a regulated process on cnext's Kairos, and a person reviews what they flag (cnext)",
+      "summary": "cnext's home page, in its own terms and its KYC example: cnext decides with the client what is worth automating, builds the automation on Kairos, its agentic platform, which runs in the client's own cloud; the agents flag what needs a person (an incomplete form), and the person confirms.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "cnext and the client",
+          "what": "Choose which processes are worth automating (KYC, fraud detection, reconciliation, regulatory reporting) and what the return will be.",
+          "source": "fl1"
+        },
+        {
+          "actor": "cnext",
+          "what": "Builds the automation on Kairos, which runs in the client's own cloud, built around GDPR and the AI Act.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Kairos's agents",
+          "what": "Work through the case, for example a KYC form, and flag what they cannot settle (\"Unreadable text in Section 3\").",
+          "agent": "Process the case and flag what needs a person.",
+          "source": "fl1"
+        },
+        {
+          "actor": "A person at the client",
+          "what": "Reviews the flagged item and confirms the data.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

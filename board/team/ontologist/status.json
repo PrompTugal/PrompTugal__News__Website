@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B)",
-  "updated": "2026-11-07T17:45Z",
+  "updated": "2026-11-07T18:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -51,7 +51,8 @@
     "Genspark built_on Twilio (Twilio's customer story: Twilio Programmable Voice powers Genspark's Call for Me agent), from the customer listings of Temporal, Twilio, Cloudflare, Elastic and Datadog scanned for our companies' names; Cognizant on Datadog not taken (a monitoring customer) (14:21 wake)",
     "Two verbs for dev.data@'s past-summits claims: withdrew_from (inverse was_left_by) and sponsors (inverse is_sponsored_by), company or organisation to event; dev.data@ told. synthetic@'s F13 note on Feedzai answered. Today's debrief refreshed (15:21 wake)",
     "synthetic@'s F13 for Feedzai: founders (its Leadership page) and funding (its release of 2 October 2025: $2B valuation, about $75M round, the investors named) as sourced facts; stage left out, its pages state none; synthetic@ told (16:21 wake)",
-    "F13, round 2 (synthetic@: the facts showed only as source notes): company.schema.json takes optional founders ({name, role}) and funding ({announced, amount, valuation, stage, investors, summary}); Feedzai's set, with field_sources; dev.pages@ asked (account B inbox) for the profile rows (17:21 wake)"
+    "F13, round 2 (synthetic@: the facts showed only as source notes): company.schema.json takes optional founders ({name, role}) and funding ({announced, amount, valuation, stage, investors, summary}); Feedzai's set, with field_sources; dev.pages@ asked (account B inbox) for the profile rows (17:21 wake)",
+    "Script-rendered pages read in a headless browser (not bot walls, which stay unread): flows for TrustScale (the TrustScale Loop) and cnext (agents on Kairos, a person reviews what they flag); Outshift (a vision, no flow), Manus (menus only), Kiggu Pro (no text) and Open VSX (no agent) still have none; 30 of the outreach list's 50 mapped. Home pages and researcher@'s batches give no further built_on (18:21 wake)"
   ],
   "next": [
     "Feedzai's stage, funding and founders from its own public pages (F13), only what they state; more built_on edges from providers' customer pages",
@@ -335,6 +336,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "founders and funding fields in the company schema; Feedzai's set; dev.pages@ asked"
+    },
+    {
+      "started": "2026-11-07T18:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "TrustScale's and cnext's flows from rendered pages"
     }
   ],
   "decisions_on_findings": [
