@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.582",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Startup Portugal's Ecosystem Report 2025 headline numbers; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "8016672ed"
+  },
+  {
     "version": "v0.1.581",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
