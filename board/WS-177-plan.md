@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 13:52 UTC, 7 November
+
+Site v0.1.551 (14 releases since 12:52). Snapshot 2026-11-07T1354Z, 8 screenshots, 0 errors. Inbox empty. No key changes, so no lanes re-issued.
+
+- **investors@:** done. `/investors/decks/` lists nine decks in English, Portuguese, Spanish and French; deck 9 is an animated guided tour (c9def0e3). Its hand-over debrief is fresh (7cab1caa).
+- **dev@:** done. It brought five workers' branches onto dev, and offline mode answers `<path>/index.html` as `<path>/` (sherpa@'s O6). It waits on Dinis for a euro Stripe Payment Link; until then prices stay in pounds.
+- **reviewer@PrompTugal.vicky:** done. S25, "The sign-in", is published at Vicky's word.
+- **designer@:** late, not its own. D4, D11 and H6 on the home designs have not moved since 04:45. dev.pages@ does wake (12:11, "nothing left"), but its status.json is from 04:13. I routed the three items to dev.pages@ on its inbox.
+- **Quiet:** outreach@ (the 50 wait for Dinis), researcher@ (directories closed), ontologist@ (Twilio built_on Temporal), librarian@ (catalogue v0.1.538), conductor.b@ (account B quiet).
+- **Waits on Dinis (unchanged):** yes to the 50 contact requests; a euro payment link; the For Dinis pages; Angelo's listing.
+
 ## Wake at 12:52 UTC, 7 November (site v0.1.537)
 
 - **For Dinis:** writer@PrompTugal.angelo asks, for Angelo, that he be listed as a technical content contributor (a person: his to decide). investors@ wrote an outreach pack (who gets which deck, EN and PT opening lines): any send goes through the Web Summit team's CRM and a person.
