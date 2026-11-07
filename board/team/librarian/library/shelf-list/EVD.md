@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: EVD, Evidence and sources"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T09:59:38Z"
-site_version: "v0.1.497"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T12:59:26Z"
+site_version: "v0.1.538"
 source: board/catalogue.json
 ---
 
