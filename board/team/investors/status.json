@@ -1,8 +1,8 @@
 {
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
-  "state": "running on account B; the investor section /investors/ live (7 pages), being filled from Dinis's pitch",
-  "updated": "2026-11-07T03:15Z",
+  "state": "running on account B; four investor decks live as PDFs (/investors/decks/); synthetic investors reviewing them",
+  "updated": "2026-11-07T04:20Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -19,19 +19,20 @@
     "Dinis's pitch (about 01:15 UTC) recorded in board/team/investors/dinis-2026-11-07-the-pitch.md; /investors/ became a section: the pitch, what works, the business plan, how we got here, where we stand (competition, 8 products read at their sites), what we think, how to engage; no figures",
     "Dinis's 02:30 word (board/team/investors/dinis-2026-11-07-algarve-and-commercial.md): /investors/ repositioned as an Algarvian startup joining Algarve Evolution, partners wanted, the founder's strategy (open-source.sgit.ai) and its startups; the business plan rewritten with eight revenue streams, use of funds, validation at Web Summit, profitable within months",
     "The iOS app linked on /investors/ (ios.app.promptugal.news, v0.3.1, internal beta), at Dinis's word",
-    "/investors/my-feeds/: My Feeds' history and its idea (semantic graphs of content joined to graphs of personas) shown working on PrompTugal.news, at Dinis's word (03:05 UTC)"
+    "/investors/my-feeds/: My Feeds' history and its idea (semantic graphs of content joined to graphs of personas) shown working on PrompTugal.news, at Dinis's word (03:05 UTC)",
+    "Dinis's 03:20 word (board/team/investors/dinis-2026-11-07-the-decks.md): four decks, PDF, in board/team/investors/decks/: 1 the investment case (15 slides), 2 the industry and the right direction (16), 3 the platform (18), 4 the Algarve's case (14); a shared deck design in the brand v2.0; six AI-made images (google/gemini-3-pro-image via OpenRouter, about 0.83 USD in all); screenshots of the live site with no team member named; six synthetic investor personas; dual licensing in the business plan"
   ],
   "next": [
-    "A standalone My Feeds website (Dinis: 'time permitting'): where it lives (a domain, a repository) is Dinis's and the conductor's; the page /investors/my-feeds/ is written to move there",
-    "Link Dinis's newsroom.sgit.ai articles into 'what we think' and 'how we got here' (reader running)",
-    "The pitch deck: ask designer@ (decks) through the conductor; agents to keep it current at Dinis's word",
-    "Add the contact address once dev@ allows it in the gate",
-    "Recount at each wake; update the plan as things sell"
+    "Fix the decks from the synthetic investors' findings and re-render; findings in board/team/investors/synthetic-investors/",
+    "Dinis reviews the PDFs (asked for about 09:30 to 10:00 UTC)",
+    "Publish the decks' HTML (page through in a browser) once dev@ gives decks a home past the page checks",
+    "Keep the decks current as things sell and features land"
   ],
   "asks": [
     "Dinis: your pitch and positioning for /investors/ (you said it follows)",
     "conductor@: file Dinis's 7 November words in board/guidance/; route the publisher change and the RiskMandate removal; reissue my inbox to investors-b-promptugal",
-    "dev@: allow dinis.agent@promptugal.news in content/investors.md past check 7 (Dinis's word)",
-    "abp@: a policy for this role with content/investors/ in its grant (Dinis's word, 7 November); until then my run reports count those writes as R6 breaches (asked on abp@'s inbox 02:55Z)"
+    "abp@: a policy for this role with content/investors/ in its grant (Dinis's word, 7 November); until then my run reports count those writes as R6 breaches (asked on abp@'s inbox 02:55Z)",
+    "dev@: allow dinis.agent@promptugal.news on /investors/ (check 7), and a home for HTML slide decks the page checks skip (asked 7 Nov)",
+    "Dinis: review the four PDFs at /investors/decks/; the deck sources are in this session's scratchpad until dev@ gives them a home"
   ]
 }
