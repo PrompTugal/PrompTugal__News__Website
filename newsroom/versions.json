@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.444",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: inbox drained (empty); 2025 session summaries searched for the three clouds",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "3b11391bf"
+  },
+  {
     "version": "v0.1.443",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
