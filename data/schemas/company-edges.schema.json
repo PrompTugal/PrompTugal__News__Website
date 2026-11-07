@@ -31,7 +31,8 @@
               "based_in",
               "appears_in",
               "hosts",
-              "partner_of"
+              "partner_of",
+              "built_on"
             ]
           },
           "to": {
