@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "altegio",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/3af72fd8-cd39-4b01-8f6f-58c181fa4e1f/altegio",
+      "status": 200,
+      "read": true,
+      "chars": 1201
+    },
+    {
+      "url": "https://websummit.com/startups/featured-startups/",
+      "status": 200,
+      "read": true,
+      "chars": 5900
+    },
+    {
+      "url": "https://alteg.io/",
+      "status": 200,
+      "read": true,
+      "chars": 24438
+    }
+  ],
+  "spent_usd": 0.0657,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Altegio.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "© 2026 altegio All rights reserved.",
+          "note": "The Altegio website's copyright line and its 'About us' and 'Sign in' navigation identify the company as Altegio, though no source uses the explicit phrase 'company name'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH Share Share on X Share on LinkedIn Copy link Altegio",
+          "note": "Altegio is listed as a startup company participating in Web Summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Altegio | Web Summit Attendees",
+          "note": "The source identifies the company as Altegio."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://alteg.io/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Altegio Platform",
+          "note": "The page at https://alteg.io/ is the Altegio company's own site, identified by its title and product content."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources state that the company's website is https://alteg.io/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://alteg.io/",
+          "note": "S3 is the Altegio website at that exact URL, confirming the company's website."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Vertical system of record (SoR) positioned as the layer AI agents are built on.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "layer for your ai",
+          "note": "No source uses the phrase 'system of record' or 'vertical system of record (SoR)'; S3 only has a 'layer for your ai' heading over a list of 20+ modules and integrations, which loosely echoes the 'layer AI agents are built on' idea."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention the company describing itself as a 'Vertical system of record (SoR)' or the specific layer AI agents are built on."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "layer for your ai",
+          "note": "S3 calls Altegio a layer for your ai and agent-ready out of the box, but it does not describe it as a Vertical system of record (SoR)."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Hungary.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Altegio Hungary SaaS",
+          "note": "The Web Summit attendee listing for Altegio shows Hungary as its location alongside the SaaS category, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Altegio Hungary SaaS",
+          "note": "Altegio's profile on Web Summit lists Hungary as its country."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Altegio Hungary SaaS",
+          "note": "S1 lists Altegio under Hungary."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (startup (growth)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "GROWTH",
+          "note": "S1 is Altegio's Web Summit 'lis26' appearance page with a GROWTH category tag, and S2 lists Altegio among the 2026 featured startups at Web Summit (November 9-12, 2026)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH Share Share on X Share on LinkedIn Copy link Altegio",
+          "note": "Altegio is listed for Web Summit Lisbon 2026 (lis26) under the Growth startup category."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "S1 is Altegio's Web Summit Lisbon 2026 page and lists Altegio under startups/growth."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 ---
 title: "The shelf list of the library of PrompTugal.news"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T00:59:57Z"
-site_version: "v0.1.395"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T03:58:37Z"
+site_version: "v0.1.430"
 source: board/catalogue.json
 ---
 
 # The shelf list
 
-Every card in call-number order (the shelf list: the cards as they stand on the shelf). 3308 cards in 10 classes. A call number is a class, a subclass and the thing's own short name; the classes are in `classification.json`.
+Every card in call-number order (the shelf list: the cards as they stand on the shelf). 3454 cards in 10 classes. A call number is a class, a subclass and the thing's own short name; the classes are in `classification.json`.
 
 | Class | What it holds | Cards | Pages |
 |---|---|---|---|
@@ -17,10 +17,10 @@ Every card in call-number order (the shelf list: the cards as they stand on the 
 | `EVD` | Evidence and sources | 1 | [open](shelf-list/EVD.md) |
 | `GDN` | Guidance (special) | 617 | [1](shelf-list/GDN-1.md) [2](shelf-list/GDN-2.md) [3](shelf-list/GDN-3.md) [4](shelf-list/GDN-4.md) [5](shelf-list/GDN-5.md) [6](shelf-list/GDN-6.md) [7](shelf-list/GDN-7.md) |
 | `GEN` | The repository | 41 | [open](shelf-list/GEN.md) |
-| `LIB` | The library | 243 | [1](shelf-list/LIB-1.md) [2](shelf-list/LIB-2.md) [3](shelf-list/LIB-3.md) |
-| `PUB` | The publication | 197 | [1](shelf-list/PUB-1.md) [2](shelf-list/PUB-2.md) |
-| `RDR` | Readers and observability | 20 | [open](shelf-list/RDR.md) |
-| `TEAM` | Agents, roles, keys | 941 | [1](shelf-list/TEAM-1.md) [2](shelf-list/TEAM-2.md) [3](shelf-list/TEAM-3.md) [4](shelf-list/TEAM-4.md) [5](shelf-list/TEAM-5.md) [6](shelf-list/TEAM-6.md) [7](shelf-list/TEAM-7.md) [8](shelf-list/TEAM-8.md) [9](shelf-list/TEAM-9.md) [10](shelf-list/TEAM-10.md) |
-| `WRK` | Work in hand | 284 | [1](shelf-list/WRK-1.md) [2](shelf-list/WRK-2.md) [3](shelf-list/WRK-3.md) |
+| `LIB` | The library | 248 | [1](shelf-list/LIB-1.md) [2](shelf-list/LIB-2.md) [3](shelf-list/LIB-3.md) |
+| `PUB` | The publication | 207 | [1](shelf-list/PUB-1.md) [2](shelf-list/PUB-2.md) [3](shelf-list/PUB-3.md) |
+| `RDR` | Readers and observability | 21 | [open](shelf-list/RDR.md) |
+| `TEAM` | Agents, roles, keys | 1069 | [1](shelf-list/TEAM-1.md) [2](shelf-list/TEAM-2.md) [3](shelf-list/TEAM-3.md) [4](shelf-list/TEAM-4.md) [5](shelf-list/TEAM-5.md) [6](shelf-list/TEAM-6.md) [7](shelf-list/TEAM-7.md) [8](shelf-list/TEAM-8.md) [9](shelf-list/TEAM-9.md) [10](shelf-list/TEAM-10.md) [11](shelf-list/TEAM-11.md) |
+| `WRK` | Work in hand | 286 | [1](shelf-list/WRK-1.md) [2](shelf-list/WRK-2.md) [3](shelf-list/WRK-3.md) |
 
 Cards of a holding that has left the repository stay on the shelf, marked withdrawn. Nothing is deleted.

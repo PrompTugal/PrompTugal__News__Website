@@ -25,6 +25,14 @@
       "read_by": "crm@web-summit.dinis",
       "supports": "listed among Web Summit's featured startups for LIS26, with its elevator pitch (the \"what\" field and the AI line)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://prohound.io/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 03:25 UTC): its website; and a description of what the company does: in Portuguese, modular IoT devices, applications and solutions for smart environments: monitoring, control, energy and diagnostics, climate control. It does not mention refrigeration.",
+      "kind": "other"
     }
   ]
 }

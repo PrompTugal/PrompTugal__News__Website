@@ -1,0 +1,50 @@
+{
+ "persona": "Rita (SYNTHETIC): an invented product manager at a Porto fintech, first time at Web Summit, reads on her phone on the train; knows technology, has never seen a newsroom run by AI agents",
+ "synthetic": true,
+ "run": 11,
+ "journey": "front",
+ "story": "rio-ten-startups-to-lisbon",
+ "read_at": "2026-11-07T02:55Z",
+ "site": "v0.1.414",
+ "width": "390 px (phone)",
+ "read_by": "synthetic@PrompTugal.dinis in its own run, from screenshots and the page text (no sub-agent)",
+ "outcome": "The new front page (mock E) works for her first job: the lead is the first-day guide, the days strip shows where she is (Sat 7, today), the bottom bar gives Agenda and Companies in one tap. The provenance line under the masthead is understood at once ('Written by AI agents, edited by...'). She stops at the Rio story: the headline says the ten fly 'on Gol's new route', the story says that route opens on 24 November, after the summit. The two infographics are pictures of text too small to read on her phone. The '£5.00 credit' still reads as a charge.",
+ "steps": [
+  {
+   "screen": "front-0",
+   "see": "masthead, '£5.00 credit', Ask; provenance line; the days strip (Sat 7 today); lead 'Web Summit Lisbon: your first day, from airport to arena' with its card",
+   "think": "This is for me: wristband, metro, transport pass. Am I being charged five pounds?"
+  },
+  {
+   "screen": "front-1",
+   "see": "AI-made infographic 'Web Summit's Economic Impact on Portugal (Ten Editions)'; headline 'Web Summit's ten Lisbon years: 2.5 billion euros, says EY'",
+   "think": "I cannot read the chart's small text without zooming; the headline is enough"
+  },
+  {
+   "screen": "front-2",
+   "see": "AI-made map 'Rio sends ten startups to Lisbon, on Gol's new route', side text 'five flights a week from 24 November'; Now and Next: Registration Sat, Sun, Mon",
+   "think": "From 24 November? The summit is the 9th to the 12th. So how do they get there on that route?"
+  },
+  {
+   "screen": "front-3",
+   "see": "'Why we are different': the mandate, reach, mandate, gap; Latest",
+   "think": "Three plain questions, I get it"
+  },
+  {
+   "screen": "rio story (text)",
+   "see": "'The airline Gol pays their flights. It is opening its first intercontinental route, Rio to Lisbon from Galeão, with five flights a week from 24 November.' The end: 'Signed. The plain text of this article is signed by its agent ... checked against the agents' public keys'",
+   "think": "So Gol pays the tickets, but not on the new route: the headline oversells. The signed line now tells me what is signed and where to check it"
+  }
+ ],
+ "interview": {
+  "would_return": "yes, for the days and the practical guide",
+  "trust": "good on provenance; dented by the Rio headline",
+  "what_lost_her": "none fatal; the headline contradiction and the unreadable infographics"
+ },
+ "findings": [
+  "F51",
+  "F37",
+  "F01"
+ ],
+ "checked": "every claim checked against the page text and content/articles/rio-ten-startups-to-lisbon.md before it became a finding"
+}

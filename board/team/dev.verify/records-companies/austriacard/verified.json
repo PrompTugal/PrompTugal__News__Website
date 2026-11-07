@@ -1,0 +1,185 @@
+{
+  "$schema": "none",
+  "article": "austriacard",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/",
+      "status": 200,
+      "read": true,
+      "chars": 1568
+    },
+    {
+      "url": "https://websummit.com/appearances/lis26/c6e69b87-de24-4f2b-895c-8e7f00ea209e/austriacard-holdings/",
+      "status": 200,
+      "read": true,
+      "chars": 1245
+    },
+    {
+      "url": "https://websummit.com/attendees/lis26/bba37b95-b83c-4e91-bba2-28ef9cc3e6a2/christos-rizos/",
+      "status": 200,
+      "read": true,
+      "chars": 2356
+    },
+    {
+      "url": "https://www.austriacard.com/",
+      "status": 200,
+      "read": true,
+      "chars": 37064
+    }
+  ],
+  "spent_usd": 0.0821,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named AustriaCard.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "AUSTRIACARD HOLDINGS AG",
+          "note": "The source gives the corporate name as AUSTRIACARD HOLDINGS AG, with AUSTRIACARD used as the shorter brand name, so 'AustriaCard' alone is only a partial match."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S4",
+          "quote": "company under the corporate name “AUSTRIACARD HOLDINGS AG”",
+          "note": "The source states that the company's corporate name is AUSTRIACARD HOLDINGS AG."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "AustriaCard",
+          "note": "S1 lists AustriaCard as the company affiliation for the host."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.austriacard.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "© AUSTRIACARD HOLDINGS AG",
+          "note": "S4 is the page at https://www.austriacard.com/ and its copyright line names AUSTRIACARD HOLDINGS AG, so the address is the company's site."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "https://www.austriacard.com/",
+          "note": "Source 4 is the official website for AustriaCard (AUSTRIACARD HOLDINGS AG) located at https://www.austriacard.com/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "AustriaCard - Your Partner of Choice - AUSTRIACARD",
+          "note": "S4 is the page at the claimed URL and identifies AustriaCard/AUSTRIACARD."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Austrian card, secure identity and digital solutions group; its GaiaB offer helps organisations deploy secure, governed AI while keeping control of data and infrastructure (per its speaker's Web Summit bio).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The speaker's Web Summit bio (S3) gives only his title at AustriaCard and no company self-description, and the quoted self-description does not appear in any source; S4 describes GaiaB as a self-hosted, GDPR-compliant platform but does not use the claimed wording."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources, including the speaker's Web Summit pages, do not contain the bio description or the specified statement regarding GaiaB."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The speaker's Web Summit bio (S3) does not mention GaiaB, and no source contains the exact self-description or the claimed GaiaB capabilities."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Austria.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "AUSTRIACARD HOLDINGS Austria",
+          "note": "The Web Summit profile for AUSTRIACARD HOLDINGS shows 'Austria' as its listed country, though the source does not label it explicitly as a country field."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "AUSTRIACARD HOLDINGS Austria",
+          "note": "The Web Summit partner profile lists AUSTRIACARD HOLDINGS with the country Austria."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "AUSTRIACARD HOLDINGS Austria",
+          "note": "S2 lists AUSTRIACARD HOLDINGS with Austria as its country."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company (masterclass host)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Hosted by Austriacard Holdings",
+          "note": "S1 is a Web Summit Lisbon 2026 session page listing Austriacard Holdings as host of a Masterclass, and S2 lists AUSTRIACARD HOLDINGS as a Web Summit lis26 appearance."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "AI sovereignty: Data control, governance and predictable AI costs [Hosted by Austriacard Holdings] November 11, 2026 • 11.30AM - 12.15PM Masterclass 3",
+          "note": "Source S1 confirms that Austriacard Holdings hosts a masterclass session at Web Summit Lisbon 2026 with a speaker from the company."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Hosted by Austriacard Holdings",
+          "note": "Source S1 lists a Web Summit Lisbon 2026 masterclass hosted by Austriacard Holdings, matching the speaker's company as masterclass host."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

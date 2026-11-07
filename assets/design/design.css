@@ -36,8 +36,10 @@ html[data-design]:not([data-design="today"]) .page-front .frame { padding-top: 0
 @media (max-width: 760px) { .ptd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .ptd-box { padding: 16px; } }
 @media (prefers-reduced-motion: reduce) { .ptd-card { transition: none; } }
 /* on a phone the pill folds to its mark, so it never covers a line (sherpa@'s N1) */
+/* on a phone the picker is not fixed at all (sherpa@'s N1, then H1: a fixed mark still covered line ends): a full
+   button in the page's flow, after the design, before the footer */
 @media (max-width: 767px) {
-    .ptd-btn { width: 40px; height: 40px; padding: 0; justify-content: center; right: 10px; font-size: 16px; opacity: .92; }
-    .ptd-btn .ptd-word, .ptd-btn .ptd-name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .ptd-btn { position: static; display: flex; margin: 8px auto 20px; box-shadow: none; }
+    html[data-top="c"] .ptd-btn { bottom: auto; }
 }
 @media print { .ptd-btn, .ptd-sheet { display: none; } }

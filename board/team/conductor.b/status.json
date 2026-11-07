@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T02:12Z",
+  "updated": "2026-11-07T04:12Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -17,12 +17,13 @@
     "23:25 Dinis's eight designs: brief board/team/conductor.b/briefs/2026-11-06-home-page-eight-designs.md; dev@ shipped the picker with today as default and E (v0.1.382). 00:05 Dinis: 'six missing': dev.pages@ (A, B, C) and dev@ (D, F, G) woken to build in parallel now, each live as it passes the gate",
     "00:07 wake: inbox drained (8); 13 inboxes found sealed to superseded keys (agent_inboxes.py derives the role from the key id, and the new ids carry -b or -2); diagnosis and fix sent to the conductor",
     "01:07 wake: all eight home page designs live in the picker (v0.1.389: today as default, a to g; dev@ built D, F, G, dev.pages@ A, B, C; designer@ checked them live; sherpa@'s phone findings fixed by dev@). Inboxes: the reissues exist as <role>-b.json or <role>-2.json; sherpa@ and outreach@ pointed to theirs; the send-by-role gap told to the conductor",
-    "02:07 wake: inbox drained (3); historian@ did VE-04 (board/briefs/2026-11-07-the-php-newsrooms-lesson.md); designer@ recorded Dinis's yes to F's and G's colours (board/team/designer/brand-decisions.md); outreach@'s 50 contact requests sent; sherpa@ and outreach@ read their reissued inboxes. Waiting: investors@ and customers@ on Dinis, synthetic@ on the conductor (its vault key), dev.portugal@ to read dev.portugal-b.json"
+    "02:07 wake: inbox drained (3); historian@ did VE-04 (board/briefs/2026-11-07-the-php-newsrooms-lesson.md); designer@ recorded Dinis's yes to F's and G's colours (board/team/designer/brand-decisions.md); outreach@'s 50 contact requests sent; sherpa@ and outreach@ read their reissued inboxes. Waiting: investors@ and customers@ on Dinis, synthetic@ on the conductor (its vault key), dev.portugal@ to read dev.portugal-b.json",
+    "03:07 wake: inbox drained (2); investors@'s request to file Dinis's My Feeds words relayed to the conductor; ledger 2026-11-07T0312Z.json: 113.32 API-equivalent on account B since 22:20 (about 21 an hour since 00:15), every session allowed",
+    "04:07 wake: inbox empty; no account-B agent blocked; investors@'s four decks live (/investors/decks/); sherpa@ read the eight home designs cold (H1 to H7) and designer@ took H6, H7; the gate's one-address exception (dinis.agent@promptugal.news in content/investors.md) traced to Dinis's 01:00 words and reviewed by security@"
   ],
   "next": [
-    "the next ledger at 03:07 (every three hours from now: reading every session costs about 150k tokens; accountant@ closes its day from it)",
-    "the conductor's fix for agent_inboxes.py send --to <role>",
-    "watch the home designs' cold reads (sherpa@, synthetic@) and the A/B reading (observability@)"
+    "next ledger at 06:07",
+    "watch the home designs' A/B reading and cold reads"
   ],
   "asks": [
     "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",

@@ -51,5 +51,22 @@
     "field": "By field",
     "country": "By country",
     "az": "A to Z"
+  },
+  "front_e": {
+    "this_week": "This week",
+    "briefing": "The briefing",
+    "now_next": "Now and next",
+    "stories": "The stories",
+    "all_day": "All day",
+    "agent_written": "agent-written",
+    "checked": "checked",
+    "signed": "signed",
+    "ai_image": "AI-made image",
+    "more_agenda": "The whole agenda",
+    "more_articles": "All articles",
+    "n_companies": "companies followed",
+    "n_events": "events this week",
+    "n_stories": "stories, signed",
+    "summit_days": "November, Lisbon"
   }
 }

@@ -9,6 +9,14 @@
       "read_by": "curator@web-summit",
       "supports": "Road 2 Web Summit 2026: up to 125 startups, bootcamp, 50% off ALPHA/BETA, Galp prizes",
       "kind": "other"
+    },
+    {
+      "id": "own1",
+      "url": "https://startupportugal.com/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "Startup Portugal's own site, its home page (read 7 November 2026, 03:25 UTC): its website; and a description of what it does: it supports the Portuguese startup ecosystem and runs Road 2 Web Summit, a programme designed with Web Summit. It does not state 125 startups or call itself an agency on the home page.",
+      "kind": "other"
     }
   ]
 }

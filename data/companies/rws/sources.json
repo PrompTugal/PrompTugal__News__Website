@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "LIS26 attendee page: Benjamin Faes, CEO, RWS Group; country and industry as listed by Web Summit; public bio",
       "kind": "summit-attendee"
+    },
+    {
+      "id": "own1",
+      "url": "https://www.rws.com/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "The company's own site, its home page (read 7 November 2026, 04:25 UTC; found by its name, the page names RWS): its website; and a description of what the company does: \"Enterprise AI understood everywhere\", language platforms (Trados, Language Weaver) and technology services, intelligent content; it says RWS and Acolad combine."
     }
   ]
 }
