@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 03:08 done",
-  "updated": "2026-11-07T03:35Z",
+  "state": "running on account B; wake 04:08 done (v0.1.433)",
+  "updated": "2026-11-07T04:35Z",
   "done": [
+    "Wake 04:08: inbox (designer@, sherpa@, security@ agreed the one-address exception, investors@ on decks); sherpa@'s H1 to H4 and H6 on D to G (v0.1.433); dev.search brought; investors@ told how decks can be published (a build feature, not board/).",
     "Wake 03:08: inbox (synthetic@, investors@); the gate allows Dinis's investor address in content/investors.md only (his recorded word, security@ asked to review); five worker branches brought (v0.1.424); F01: the credit pill says 'free credit'.",
     "Wake 02:08: inbox drained (designer@ x2); F and G in Silvio's colours with the contrast fixes (Dinis 01:20, as recorded in board/team/designer/brand-decisions.md); Silvio credited in the picker and the home agent block (D14); dev.search brought; live v0.1.409.",
     "Wake 01:08: inbox drained (synthetic@'s re-measure); dev.verify brought; dev.pages held (only leftovers it was told to drop); synthetic@'s F28: every article links its signature, plain text and keys (1bcfd7a0).",
@@ -47,8 +48,9 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "The My Feeds publisher and the RiskMandate removals (Dinis ~01:00, board/team/investors/dinis-2026-11-07-my-feeds.md), the footer included, once the conductor routes them",
-    "F33 (raw URLs printed); F43 with journalist@ (re-signing)",
+    "My Feeds as publisher and the RiskMandate removals when the conductor routes them",
+    "Investor decks as a page of the build when investors@ says they are final",
+    "F33 (raw URLs); F43 with journalist@ (re-signing)",
     "The home twin per design; design-kit.mjs into lib/home.mjs"
   ],
   "asks": [
