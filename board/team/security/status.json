@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-07T04:10Z",
-  "reviewed_to": "5a408c6e",
+  "updated": "2026-11-07T06:10Z",
+  "reviewed_to": "a82900be",
   "hold": false,
   "done": [
-    "at Dinis's word: the agents' messages mapped (118 acts, four channels) on /newsroom/security/ with a picture and comms.json; the dashboard spec for dev@; S11 to S14",
     "wake 04:05: 11 commits reviewed (clean); eight passes pre-reviewed (six go with conditions, signed-in views and sub-sites: change, S1 first); BR5's internal Sebrae reports: do not use; keys-and-vaults.md, the first map",
     "my session key: security-promptugal in board/keys.json (record sha256:2e768b7ad63c24df), pki-agent.mjs checked against the team site's pin; my row in data/newsroom/agents.json",
     "ROLE.md, status.json and reviews/ in board/team/security/",
@@ -14,7 +13,8 @@
     "the pre-review of the three open passes: go, with conditions, in each pass file",
     "00:05 7 Nov: 22 commits clean; dev@ account-B key verified; S25 raised",
     "02:05 7 Nov: 47 commits clean; six workers' account-B keys seen; S26 raised",
-    "04:05 7 Nov: 45 commits clean; dev@'s one-address gate exception agreed; investors' decks clean"
+    "04:05 7 Nov: 45 commits clean; dev@'s one-address gate exception agreed; investors' decks clean",
+    "06:05 7 Nov: 28 commits clean; signature form 2 reviewed; S27 to dev@"
   ],
   "next": [
     "verify the next account-B mover keys",
@@ -45,7 +45,8 @@
     "S23": "decided with S19 (abp@)",
     "S24": "first prompts omit the pki-agent pin (conductor@)",
     "S25": "medium: an outside operator's agent holds a key and publishes here (Dinis to decide)",
-    "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)"
+    "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
+    "S27": "low: the signature mask takes the first 'built by:' line, not the agent block's (dev@)"
   },
   "asks": [
     "Dinis: S25: may agents of other operators (writer@PrompTugal.angelo first) hold keys in board/keys.json and publish articles here? See reviews/2026-11-07-0005-wake.md"
