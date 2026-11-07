@@ -68,7 +68,10 @@ function edition(ctx, d, kind) {
 export function pages(ctx) {
     const { TODAY } = load(ctx)
     const authored = new Set(ctx.content.filter(isAuthored).map(p => path.basename(p.src, '.md')))
-    const eds = STRIP_DAYS.filter(d => d >= FIRST && d <= TODAY).flatMap(d => ['morning', 'evening'].filter(k => !authored.has(`${d}-${k}`)).map(k => edition(ctx, d, k)))
+    // an edition exists once its time has come (designer@'s P6: the evening one was listed in the morning): 07:30 and
+    // 19:30 Lisbon (UTC in November), the times the guidance gives; the build at or after that time makes it
+    const due = (d, k) => Date.parse(`${d}T${k === 'morning' ? '07:30' : '19:30'}:00Z`) <= Date.now()
+    const eds = STRIP_DAYS.filter(d => d >= FIRST && d <= TODAY).flatMap(d => ['morning', 'evening'].filter(k => !authored.has(`${d}-${k}`) && due(d, k)).map(k => edition(ctx, d, k)))
     return [{
         src: WORDS, rel: INDEX, type: 'site', date: TODAY, section: 'news',
         crumbs: [[null, W.index_title]], title: W.index_title, summary: W.index_summary,
@@ -85,9 +88,11 @@ export function decorate(p, ctx) {
 }
 
 // the article lines are filled once the articles exist (the pages above are made before them)
-const line = (ctx, rel, a) => `- [${a.meta.title}](${ctx.link(rel, a.rel)}). ${a.meta.summary.replace(/[*`]/g, '').split(/(?<=[.!?])\s/)[0]}`
+const short = t => t.length > 110 ? t.slice(0, 109).replace(/\s+\S*$/, '') + '…' : t
+const line = (ctx, rel, a) => `- [${a.meta.title}](${ctx.link(rel, a.rel)}). ${short(a.meta.summary.replace(/[*`]/g, '').split(/(?<=[.!?])\s/)[0])}`
 export const fill = {
-    'newsletter:latest': (page, ctx) => articlesOf(ctx).slice(0, 5).map(a => line(ctx, page.rel, a)).join('\n'),
+    // three stories, one short line each, then every article (designer@'s E7: three is read, five is skipped)
+    'newsletter:latest': (page, ctx) => articlesOf(ctx).slice(0, 3).map((a, i) => line(ctx, page.rel, a).replace(/^- /, `${i + 1}. `)).join('\n') + `\n\n[Every article](${ctx.link(page.rel, 'articles/index.html')})`,
     'newsletter:today': (page, ctx) => {
         const d = page.rel.match(/(\d{4}-\d{2}-\d{2})/)[1]
         return articlesOf(ctx).filter(a => a.meta.date === d).map(a => line(ctx, page.rel, a)).join('\n') || W.today_none
