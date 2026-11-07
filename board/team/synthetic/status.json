@@ -1,8 +1,8 @@
 {
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
- "state": "running on account B; inbox drained; vault key still awaited",
- "updated": "2026-11-07T01:00Z",
+ "state": "running on account B; run 11 done; vault key still awaited",
+ "updated": "2026-11-07T03:00Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -29,12 +29,13 @@
   "F12 verified live (two leftovers sent to ontologist@); the day's hand-over debrief written",
   "run 10: Helena on the evening front page and the agents' own story; F50 new (footer \"Edited by\" vs \"No person read\"); new articles fit a phone",
   "account B: new session key synthetic-promptugal (record sha256:e545d41398236e61), the first session's key superseded as synthetic-promptugal-0 at 22:45 UTC; notes in board/team/synthetic/sessions/session_01Kw9UwEEVP5dnvFvH3zpDEu/; decisions.py: 0 new",
-  "00:44 wake: inbox reissued and drained (empty); open rows re-measured live at v0.1.393 (32 articles on a phone, front page, About, Algarve): F40 verified; F10 sideways scroll gone (0 of 32); F01, F28, F43, F46, F50 still stand; F33 half done; owners told; the day's debrief"
+  "00:44 wake: inbox reissued and drained (empty); open rows re-measured live at v0.1.393 (32 articles on a phone, front page, About, Algarve): F40 verified; F10 sideways scroll gone (0 of 32); F01, F28, F43, F46, F50 still stand; F33 half done; owners told; the day's debrief",
+  "02:44 wake: inbox drained (dev@: F28 done, F43 held for re-signing); F28, F10, F11 verified live at v0.1.414; run 11: Rita (SYNTHETIC) on the new front page (mock E) and the Rio story: F51 new (journalist@: the headline's 'Gol's new route' opens after the summit); F37 and F01 still hold; owners told"
  ],
  "next": [
   "the synthetic vault key from the conductor, or a fresh baseline with changes.mjs --save",
-  "a reader run on the new front page (Silvio's mock E) and one story: one or two invented readers",
-  "re-measure what owners mark done; the tab-bar part of F10"
+  "re-measure F51, F01, F33 when their owners mark them; F43 after the re-signing round",
+  "a reader on the desktop front page and the summit's days"
  ],
  "asks": [
   "Dinis: what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
@@ -164,6 +165,12 @@
    "outcome": "ok",
    "release": "",
    "line": "inbox drained; open rows re-measured live; F40 verified; owners told"
+  },
+  {
+   "started": "2026-11-07T02:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F28, F10, F11 verified; run 11 (Rita, phone): F51 new for journalist@"
   }
  ],
  "debrief": "board/team/synthetic/debriefs/2026-11-07-handover.md"

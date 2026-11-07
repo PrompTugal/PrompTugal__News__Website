@@ -59,3 +59,20 @@
     .fg-sun b { font-size: 36px; }
     .fg-pcs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } .fg-pcs a { flex: 0 0 auto; }
 }
+
+/* Silvio's own palette for G (Dinis, about 01:20 UTC, 7 November: "F and G can keep their own colours";
+   board/team/designer/brand-decisions.md): the hero gradient with a 30% ink scrim behind white text, the yellow band,
+   coral as a fill only (ink text on it), blue for small coloured text. Inside G only. */
+.fg { --paper: #fffaf3; --panel: #ffffff; --ink: #16131f; --ink-2: #625b6e; --ink-3: #625b6e; --hair: #ecdfcf; --rule-2: #d9c9b5;
+      --brand: #3b5bfd; --brand-2: #2c47d6; --brand-red: #3b5bfd; --paper-2: #ffd23f; background: var(--paper); color: var(--ink); }
+.fg-cover { background: linear-gradient(rgba(22, 19, 31, .3), rgba(22, 19, 31, .3)), linear-gradient(120deg, #ff6a4d 0%, #ff4f8b 50%, #7b61ff 100%); }
+.fg-issue { color: #fff; }
+.fg-dek { color: #fff; }
+.fg-lines small { color: #ffe58a; }
+.fg-h1 i, .fg-lines mark { background: #ffd23f; color: #16131f; }
+.fg-sun { background: #ffd23f; }
+.fg-sun span { color: #16131f; }
+.fg-s0 { background: #3b5bfd; } .fg-s1 { background: #16131f; } .fg-s2 { background: #ff6a4d; color: #16131f; }
+.fg-s2 h2 { color: #16131f !important; }
+.fg-s2 .fg-s { border-top-color: rgba(22, 19, 31, .25); }
+.fg-pb button { background: #16131f; color: #fffaf3; }

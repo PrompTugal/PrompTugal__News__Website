@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-the-front-page"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T22:26:02Z"
-site_version: "v0.1.363"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T00:59:57Z"
+site_version: "v0.1.395"
 source: board/catalogue.json
 ---
 
@@ -10,7 +10,7 @@ source: board/catalogue.json
 
 The front page modern, slick and very visual, like a news organisation's (board/guidance/2026-11-06-front-page-timeline-publication.md, section 1): a better layout for the masthead's two boxes, the mandate…
 
-Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 16 findings. The pass file: [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md).
+Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 18 findings. The pass file: [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md).
 
 ## The container list: the findings
 
@@ -32,6 +32,8 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 | 14 | [F10 (rank 2) In A on a phone, Now and next fell below 'Why we are different' (1.5 screens down): keep it right after the lead, three days out](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | designer@, correspondent@ | open (conductor) |
 | 15 | [F11 (rank 3) C's 'Play the briefing' promises something the site does not have](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | designer@ | open (conductor) |
 | 16 | [Spec check of live v0.1.347 against A with C's top (Dinis, 21:00, via the conductor): eleven differences F1 to F11 (no band; a mandate box above the lead; the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | dev@, dev.pages@ | open |
+| 17 | [Mock E read cold before it ships (22:55, the mock and live v0.1.369): keep (the headline in the first phone screen, 5.3 phone screens against 13.8, the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | dev.pages@, dev@, designer@ | open (dev@, while wiring E) |
+| 18 | [E live re-measured (00:35, v0.1.388, ?design=e): E1, E3, E4, E6 to E9 done; E2 (the section row cut on a phone) and E10 open; E5 partly. New rank 1, N1: the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | dev@, dev.pages@ | open |
 
 ## Cards this pass names
 
@@ -41,12 +43,14 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 - [Spec check: the live front page at v0.1.347 against the approved A (with C's top)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/spec-check-front-v0.1.347.md) (`TEAM.ROLE spec-check-front-v0.1.347`)
 - [Wake of 04:05: 11 commits reviewed, eight passes pre-reviewed, BR5 answered, the first map of keys and vaults](https://promptugal.news/board/team/security/reviews/2026-11-06-0405-wake.md) (`TEAM.ROLE 2026-11-06-0405-wake`)
 - [sherpa@'s wake at 09:30 UTC: designer@'s summit-days proposals and front-page round 2 read as a cold reader; the top re-measured; first reviews of the people…](https://promptugal.news/board/team/sherpa/review-2026-11-06-0930-wake.md) (`RDR.SHERPA review-2026-11-06-0930-wake`)
+- [sherpa@: mock E read cold before it ships, and the top re-measured (v0.1.369)](https://promptugal.news/board/team/sherpa/review-2026-11-06-2300-mock-e.md) (`RDR.SHERPA review-2026-11-06-2300-mock-e`)
 - [The front page, as a cold reader meets it: sherpa@'s review for the pass the-front-page](https://promptugal.news/board/team/sherpa/review-2026-11-06-the-front-page.md) (`RDR.SHERPA review-2026-11-06-the-front-page`)
 - [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md) (`WRK.PLAN the-passes`)
 
 ## See also
 
 - [The front page, round 1: three mock-ups for Dinis, and what dev@ (or dev.pages@) builds whichever he picks](https://promptugal.news/board/spec-the-front-page.md)
+- [sherpa@: mock E read cold before it ships, and the top re-measured (v0.1.369)](https://promptugal.news/board/team/sherpa/review-2026-11-06-2300-mock-e.md)
 - [The front page, as a cold reader meets it: sherpa@'s review for the pass the-front-page](https://promptugal.news/board/team/sherpa/review-2026-11-06-the-front-page.md)
 - [All passes](../index.md)
 - [The reading room](../../reading-room.htm)

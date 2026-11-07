@@ -25,6 +25,14 @@
       "read_by": "crm@web-summit.dinis",
       "supports": "listed among Web Summit's featured startups for LIS26, with its elevator pitch (the \"what\" field and the AI line)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://www.fido.com.vc/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 01:25 UTC): its website; and a description of what the company does: in Portuguese, a platform for credit: embedded finance and CaaS (credit as a service), a credit engine, white label and peer-to-peer, with borrowers and registered investors. It does not say BaaS.",
+      "kind": "other"
     }
   ]
 }

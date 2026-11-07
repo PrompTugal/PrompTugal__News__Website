@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "Fast Company ME: Virkkunen listed as speaker",
       "kind": "other"
+    },
+    {
+      "id": "own1",
+      "url": "https://commission.europa.eu/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The European Commission's own site (its language-selection page, read 7 November 2026, 01:25 UTC): its website, \"the official website of the European Commission\". It does not name the 2026 speaker.",
+      "kind": "other"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B)",
-  "updated": "2026-11-07T00:58Z",
+  "updated": "2026-11-07T03:05Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -28,17 +28,20 @@
     "Wake 20:41: BR4 (Brazil on the stages) and BR2 (Brazil's startup house) published by journalist@ from my ideas; BR4 into the top three, both in the Brazil beat and the summit days' plan; no beat, the day's budget at 99%",
     "21:25: the final hand-over debrief, at the conductor's word relaying Dinis (board/the-account-move.md, wave 1); this session stops after this run",
     "22:40 to 23:00 (account B): onboarded; new session key correspondent-promptugal (the first session's now correspondent-promptugal-0, superseded 22:46); sgit-ai 0.27.0 present, so the inbox block is gone once the conductor reissues the inbox; Angelo's communication graph (T1) placed in From the newsroom; Saturday's lead set (the first-day guide), top three: EY's ten Lisbon years, Brazil on the stages, the Algarve plan; a 'briefing' key (five numbered slugs) for Silvio's mock E",
-    "Wake 00:41 Saturday (account B): inbox reissued by the conductor and drained (empty: the new vault starts fresh); BR3, Rio's ten startups, published by journalist@ from my idea, into the top three, the Brazil beat, the briefing and Saturday's plan; the team series (T2 to T5, WS125) placed in From the newsroom; the day's hand-over debrief"
+    "Wake 00:41 Saturday (account B): inbox reissued by the conductor and drained (empty: the new vault starts fresh); BR3, Rio's ten startups, published by journalist@ from my idea, into the top three, the Brazil beat, the briefing and Saturday's plan; the team series (T2 to T5, WS125) placed in From the newsroom; the day's hand-over debrief",
+    "Wake 02:41 Saturday: inbox drained (one message, historian@'s VE-04 lessons, signature checked against historian-b-promptugal; my lessons 3 and 5 taken: link to company pages, measure the front door); WK1, 'Plan your week by field', an idea for Sunday's lead from the team's agenda data (209 items by track and day: the Cybersecurity Summit all on Thursday, PITCH on Tuesday), with its cautions; Sunday's plan points to it; a 'measure' ask to observability@ in front-page.json (the share who read a second page, A against E)"
   ],
   "next": [
-    "Sunday 8 November: a lead (the week-planning service piece is missing; journalist@ asked); set it Saturday evening",
+    "Sunday 8 November: lead WK1 once journalist@ publishes it; set it Saturday evening",
     "A beat as a Sonnet sub-agent when the budget allows: S9's round 2 (the 236) with journalist@, or the Web Summit beat for Monday's 'what to expect'",
     "Check mock E against front-page.json once dev@ ships it"
   ],
   "asks": [
     "dev@ / dev.pages@ (account B): mock E can read front-page.json's 'briefing' (five numbered slugs) and 'top'; service, beats, from_the_newsroom (nine pieces now: show three and a link) and days are still unread",
     "security@: the two held Sebrae reports (BR5) still wait for your answer; they were only in the first session's scratchpad and must be found again if they may be cited",
-    "journalist@: Sunday has no lead: the week-planning service piece (who to meet, by field) is missing; BR1, BR3, BR6 ready; S9 round 2 from BR7"
+    "journalist@: WK1 (desks/correspondent/ideas/wk1-plan-your-week-by-field.md) is Sunday's lead if it is ready Saturday evening; BR1 and BR6 ready; S9 round 2 from BR7",
+    "observability@: the share of front-page visits that read a second page, readers only, A against mock E (front-page.json 'measure'; historian@'s lesson 5)",
+    "Dinis: my inbox drain cannot push its vault copy (sgit push has no token in this session), so drained messages stay pending on the lane; I read them locally all the same. The ontologist uses a wrapper passing the environment's SG/Send token to sgit push; is that in my grant?"
   ],
   "wakes": [
     {
@@ -124,6 +127,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "Inbox drained (empty); BR3 to the top three; the team series placed; debrief"
+    },
+    {
+      "started": "2026-11-07T02:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "historian@'s lessons read; WK1 for Sunday's lead; the front door's measure asked"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-07-handover.md",

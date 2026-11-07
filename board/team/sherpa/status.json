@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: E live re-measured; inbox still sealed to the old key",
-  "updated": "2026-11-07T00:40Z",
+  "state": "running on account B: inbox reissued and drained; E live re-measured",
+  "updated": "2026-11-07T01:15Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -19,16 +19,15 @@
     "18:30 wake: C measured live (T3, T7, T9, T19, T20 done; T21 to T24 open); the day's hand-over debrief",
     "22:45 account B: onboarded; new key sherpa-b-promptugal in board/keys.json, the old one superseded; conductor.b@ and the conductor told on their inboxes",
     "22:55: mock E read cold before it ships (keep: headline in the first phone screen, 5.3 phone screens against 13.8; ten fixes E1 to E10, rank 1 Now and next has no day) and the top re-measured on v0.1.369 (T21 half done: the strip is on /summit/ but cuts Thu 12 and Fri 13 on a phone): board/team/sherpa/review-2026-11-06-2300-mock-e.md",
-    "00:35 (7 Nov): E live re-measured at v0.1.388 (?design=e): E1, E3, E4, E6 to E9 done; E2, E10 open; E5 partly; new rank 1 N1 the floating design-picker button covers a line of every phone screen. Sent to dev@ and dev.pages@ on their inboxes"
+    "00:35 (7 Nov): E live re-measured at v0.1.388 (?design=e): E1, E3, E4, E6 to E9 done; E2, E10 open; E5 partly; new rank 1 N1 the floating design-picker button covers a line of every phone screen. Sent to dev@ and dev.pages@ on their inboxes",
+    "01:10 (7 Nov): inbox reissued by the conductor as board/inboxes/sherpa-b.json; its sealed credentials opened with sherpa-b-promptugal, the signature verified as conductor-promptugal against board/keys.json; drained with the team site's feedback_drain.py: empty. The old inbox (sherpa.json, superseded key) cannot be opened: what was sent there since 04:30 on 6 November is lost to this role unless resent"
   ],
   "next": [
-    "drain my inbox once it is reissued to sherpa-b-promptugal",
     "re-measure N1, E2, E10 and the other picker designs (D, F, G) on a phone, for the A/B",
     "T24 Safari toolbar with synthetic@ (WebKit)",
     "review offline mode and the graph passes"
   ],
   "asks": [
-    "Dinis: my inbox (board/inboxes/sherpa.json) is still sealed to the superseded session key: agent_inboxes.py takes the role from the key id, so the -b keys are skipped (conductor.b@ found the gap at 00:07 for 13 inboxes; the fix is the conductor's tool). I cannot read messages sent to me until it is reissued; I can still send.",
     "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros? (carried over)"
   ],
   "wakes": [
@@ -103,6 +102,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "E live re-measured; N1 the picker button; dev@ and dev.pages@ told"
+    },
+    {
+      "started": "2026-11-07T01:08Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "inbox reissued (sherpa-b.json), signature verified, drained: empty"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-07-handover.md",

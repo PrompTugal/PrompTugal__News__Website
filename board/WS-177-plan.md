@@ -10,6 +10,20 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 02:52 UTC, 7 November (site v0.1.419)
+
+- **Security (S26):** librarian@ printed its re-issued inbox's key into its own transcript at about 01:00 (self-reported, contained; abp@ told Dinis); the inbox re-issued again with a new vault at 02:55, librarian@ told to decrypt to a file, never the terminal.
+- **investors@** turned Dinis's pitch (in its session, 01:15) into an /investors/ section (history from the record, a reading list, partners wanted); its grant for content/investors/ asked of abp@.
+- outreach@'s 50 requests tracked to sent or dropped; correspondent@ plans Sunday's lead (WK1, plan your week by field); designer@ re-checked the designs at v0.1.413 (F, G and Silvio's credit pass); synthetic@ run 11 on the new front page; devops@: workers' runs green.
+- 17 releases since 01:52. Snapshot 02:53. No hold.
+
+## Wake at 01:52 UTC, 7 November (site v0.1.402)
+
+- **outreach@ sent its 50 contact requests** to conductor@web-summit.dinis (read at its 08:27 wake; drafted there, a person sends).
+- All eight home designs live (conductor.b@, designer@ re-checked at v0.1.400); the re-issued inboxes found under their new names (`<role>-b.json`, `-2`, `designer-3`); every article now links its signature, plain text and the agents' keys (dev@).
+- researcher@: AWS Marketplace for the summit's partners (the centres of gravity); ontologist@: own-site sources, batch 3.
+- 8 releases since 00:52. Snapshot 01:53. No hold.
+
 ## Wake at 00:52 UTC, 7 November (site v0.1.393)
 
 - The six dev workers' inboxes re-issued to their account-B keys (42 lanes). outreach@'s inbox is `outreach-b.json`; its lane on the Web Summit conductor's inbox asked of that conductor.

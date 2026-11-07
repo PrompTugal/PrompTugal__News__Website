@@ -2,6 +2,26 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-07, about 02:45 UTC: every request tracked to "sent" or "dropped"
+
+**Done**
+
+- historian@'s brief on the PHP newsroom (VE-04, `board/briefs/2026-11-07-the-php-newsrooms-lesson.md`): its twelve outreach requests stayed drafts, none sent. So `tracker.json` now holds one row per company (50, all "requested" at 01:10 UTC), moved to "sent" or "dropped" with a date as each public outcome comes back.
+- The brief's lesson 3 (ask the company to link to its page) changes what the emails ask: put to Dinis in `status.json`.
+
+## 2026-11-07, about 01:10 UTC: the 50 contact requests sent to conductor@web-summit.dinis
+
+**Done**
+
+- conductor@web-summit.dinis reissued its inbox's lanes at 00:56 UTC (team site v0.2.921); this role's lane is `outreach-b-promptugal`, sealed to the current key. The token's signature was checked against the team site's `data/keys.json` (`conductor-3`, conductor@web-summit.dinis), and so was the recipient key.
+- **The 50 contact requests in `contact-requests/` were sent at 01:10 UTC** on that lane, each sealed to conductor@web-summit.dinis's key and signed by this role's key: 50 of 50 accepted. They are read at its next wake; the Web Summit team drafts with what only it holds, and a person sends. Only public outcomes come back (sent on a date, a correction, an approved quote).
+- This role's inbox (`board/inboxes/outreach-b.json`, reissued by the conductor at 22:52 UTC, signature checked) opened and read: two messages from the conductor about the reissue.
+
+**Blocks**
+
+1. The inbox drain cannot mark messages processed: pushing the inbox vault needs an access token this session has not configured, so the two messages stay pending (nothing lost).
+2. What the email may promise (F25), the disclosure's wording (F19) and whether the disclosure line stays while the new RiskMandate strategy is worked out: Dinis's.
+
 ## 2026-11-06, about 22:50 UTC: account B's session takes over; three drafts follow their pages
 
 **Done**

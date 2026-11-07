@@ -1,8 +1,8 @@
 {
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
- "state": "active on account B (session b9208786): waiting for the inbox and the lane to be reissued to the new key (asked 22:50 UTC, reminded 00:40 UTC)",
- "updated": "2026-11-07T00:45Z",
+ "state": "active on account B (session b9208786): the 50 contact requests sent; waiting for public outcomes",
+ "updated": "2026-11-07T02:45Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -10,17 +10,23 @@
   "At Dinis's word: the SEO pass (Open Graph and Twitter cards with an image, JSON-LD, sitemap lastmod, a Google News sitemap, RSS); Search Console in REALITY.md (v0.1.83)",
   "The opening in Dinis's words: we built this page for you, could you check it is correct? (this wake)",
   "Who sends, as Dinis decided (06:25 UTC): drafts shaped for the person who sends from their own .agent address; Airia's flows in its draft (this wake)",
-  "Account B session onboarded: key outreach-b-promptugal, notes in sessions/b9208786/; drafts follow AISLE's, Trent AI's and Air Apps's pages (this wake)"
+  "Account B session onboarded: key outreach-b-promptugal, notes in sessions/b9208786/; drafts follow AISLE's, Trent AI's and Air Apps's pages (this wake)",
+  "The 50 contact requests sent at 01:10 UTC on the lane outreach-b-promptugal to conductor@web-summit.dinis, sealed and signed, 50 of 50 accepted; inbox outreach-b.json opened and read (this wake)",
+  "desks/outreach/tracker.json: each of the 50 requests tracked to sent or dropped with a date (historian@'s VE-04 brief, lesson 2) (this wake)"
  ],
  "next": [
-  "Once the lane outreach-promptugal on conductor@web-summit.dinis's inbox is reissued to outreach-b-promptugal: seal and send the 50 contact requests (desks/outreach/contact-requests/); then only public outcomes come back",
+  "Watch the inbox for public outcomes from the Web Summit team (sent on a date, corrections, approved quotes) and bring each into desks/outreach/ (RUNS, the thread)",
+  "Each public outcome from the Web Summit team: the company row in desks/outreach/tracker.json to sent or dropped, with the date",
+  "When a draft changes because its page changed, send the updated contact request on the lane, saying it replaces the earlier one",
   "Each wake: drain the inbox (credentials opened once into ~/.sg-send/lanes/inbox.json; read so far without a vault to store into, so the welcome stays pending), file the run report (board/runs/outreach/)",
   "Each wake: re-run the generator against the live data, so every draft follows its page (new flows, sessions, articles)",
   "Link the drafts from the story board's cards when a story is about a company we write to (board/the-story-pipeline.md, row 3), once the board exists",
   "The Brazilian delegation's companies, when Dinis gives the word"
  ],
  "asks": [
-  "Dinis: nothing blocks this session's environment (sgit_ai works here). It waits only on the conductors to reissue this role's inbox and its lane on conductor@web-summit.dinis's inbox to the new key (asked 22:50 UTC); if that lane cannot be reissued from account B, it is yours or conductor@web-summit.dinis's to do.",
+  "Dinis: the inbox drain (feedback_drain.py) cannot mark messages processed here: pushing the inbox vault needs an SG/Send access token, which this session has not configured (sgit reports 'no access token configured'). I can read every message, so nothing is lost, but the drain counts them as pending. If SG_SEND_ACCESS_TOKEN is meant to be in account B's environment, it is not visible to this session.",
+  "Dinis (for security@ too): at 01:05 UTC, cloning my inbox vault printed part of its read-only share key into this session's transcript (the sgit clone summary); my output filter hid only the vault key. Nothing reached the repository or any page. If that counts as exposure, the inbox vault's keys can be rotated by the conductor who issued it.",
+  "Dinis: historian@'s VE-04 brief (board/briefs/2026-11-07-the-php-newsrooms-lesson.md, lesson 3) suggests each email also asks the company, if its page is right, to link to it from its own site (one outside link brought the PHP site as many readers as LinkedIn). That changes what the emails ask beyond 'could you check it is correct?', so it is yours: add the line (I would re-send the 50 requests with it), or leave the ask as it is?",
   "Dinis: at 22:55 you took RiskMandate off the home page for a better strategy to come. The 50 drafts still end with the disclosure line (the team also works on RiskMandate, link to /about/participant.html), as the disclosure stays on its own pages. Should the emails keep that line as it is until the new strategy, or wait for it?",
   "Dinis: may an email promise more than the disclosure, such as 'you approve your words before they go up' or 'this is not a sales call'?",
   "Dinis: the ABP grant (board/abp/outreach.md) covers desks/outreach/ and board/; the SEO pass you asked for at 03:30 wrote newsroom/build/, outside it. For more work like that, say so in the session and abp@ can widen the grant."
@@ -157,6 +163,24 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "drafts unchanged; the day's hand-over debrief; conductor.b@ reminded of the reissue"
+  },
+  {
+   "started": "2026-11-07T01:08Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "the 50 contact requests sent to conductor@web-summit.dinis; inbox opened and read"
+  },
+  {
+   "started": "2026-11-07T01:38Z",
+   "outcome": "idle",
+   "release": "this wake's",
+   "line": "no new inbox message; drafts unchanged; waiting for public outcomes of the 50 requests"
+  },
+  {
+   "started": "2026-11-07T02:38Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "historian@'s VE-04 brief read; the 50 requests tracked to sent or dropped (tracker.json); the ask for a link put to Dinis"
   }
  ],
  "decisions_on_findings": [

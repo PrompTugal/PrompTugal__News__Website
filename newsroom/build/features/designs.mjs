@@ -24,6 +24,7 @@ export const fill = {
         const shot = id => fs.existsSync(path.join(ctx.ROOT, `${DIR}shots/${id}.jpg`)) ? `${DIR}shots/${id}.jpg` : ''
         const cards = built.map(d => put(item('card'), { id: d.id, name: esc(d.name), note: esc(d.note), default: d.id === LIST.default ? item('default') : '',
             pic: shot(d.id) ? put(item('pic'), { src: shot(d.id) }) : put(item('nopic'), { name: esc(d.name) }) })).join('')
+        page.credit = LIST.credit
         page.before = on + put(part('picker'), { default_name: esc(built[0].name), count: built.length, '#cards': cards })
         return ''
     },

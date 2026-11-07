@@ -5,6 +5,9 @@ written: 2026-11-06T20:30Z
 issue: WS-177
 status: a first picture for Dinis. No numbers about money, no projections. Every open question that is his is on the decision page.
 ---
+
+> **Superseded framing (7 November 2026, about 01:00 UTC, Dinis):** the company and publisher is My Feeds (MYFEEDS AI, UNIPESSOAL, LDA), not The Cyber Boardroom; PrompTugal is raising through it; The Cyber Boardroom's material is inspiration only. See `dinis-2026-11-07-my-feeds.md`. The sources and counts below stand as read.
+
 # PrompTugal.news for investors: round 1
 
 Public sources only, each with its link and the date read (6 November 2026 unless said). **Read** means the page was opened; **snippet** means only a search engine's summary was seen. Counts from this repository are as of commit `86e3933` on `dev` (v0.1.329), 6 November 2026, about 20:15 UTC; recounted at commit `0da53566` (v0.1.387), 7 November 2026, about 00:30 UTC (second column of the table below). Stories went from 75 files to 48 and organisations from 238 to 236: the folders were reorganised or merged by their owners, not checked here.

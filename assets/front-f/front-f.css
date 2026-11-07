@@ -80,3 +80,14 @@
     .ff-lead { grid-template-columns: minmax(0, 1fr); }
     .ff-pcs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } .ff-pcs a { flex: 0 0 auto; }
 }
+
+/* Silvio's own palette for F (Dinis, about 01:20 UTC, 7 November: "F and G can keep their own colours";
+   board/team/designer/brand-decisions.md): fills as drawn, three shades darkened for small text. Inside F only. */
+.ff { --paper: #f7f8fc; --panel: #ffffff; --ink: #151733; --ink-2: #5a5f7d; --ink-3: #5a5f7d; --hair: #e3e5f0; --rule-2: #c9cce0;
+      --brand: #6d4aff; --brand-2: #5a3be0; --brand-soft: #ece8ff; --on-brand: #ffffff; --brand-red: #da1c71; --live-soft: #fde6f0; --f-cyan: #077b97;
+      background: var(--paper); color: var(--ink); }
+.ff-glow { background: radial-gradient(900px 300px at 15% 0%, rgba(109, 74, 255, .16), transparent 70%), radial-gradient(700px 260px at 90% 10%, rgba(8, 145, 178, .12), transparent 70%), var(--paper); }
+.ff-h1 span { background: linear-gradient(90deg, #6d4aff, #e11d74); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ff-tl time, .ff-tk time { color: #7fd3e6; }
+.ff-tl time { color: var(--f-cyan); }
+.ff-live { background: #151733; }
