@@ -24,7 +24,16 @@ Source: [portugalstartups.com](https://www.portugalstartups.com/), read 7 Novemb
 - Startup Lisboa (startuplisboa.com): the domain serves a "Website Expired" page. Not read; do not link it.
 - Startup Porto and Portugal Digital: the network refused the connection (proxy 502) from this session. Not read.
 
+## Update, read 7 November 2026 (about 16:25 UTC): Startup Portugal's Ecosystem Report 2025, the landing page
+Source: [ecoreport.startupportugal.com](https://ecoreport.startupportugal.com/) ("Portugal's Startup Ecosystem 2025: From Growth to Consolidation", by Startup Portugal with contributions from Informa D&B and other national and international sources). **Read:** the landing page's headline figures, which the organisation presents (numbers use Portuguese separators; I write them in English form):
+- 5,091 startups (4,719 in 2024, +8%), 1.0% of all active companies; the president of Startup Portugal is quoted: "+5,000 Startups. We have met the RRF target and are now entering a consolidation phase" (a statement by the organisation's head, in role).
+- Turnover EUR 2,856 million (EUR 2,602 million in 2024, +9%), about 1% of GDP by the page's own note (against 2024 GDP of EUR 289.4 billion); about 28,000 employees (+8%), about 5 per company on average (8 for all companies); average monthly wage about EUR 2,200, 81% above the all-company average; exports EUR 1,571 million (1.5% of total exports, +5%).
+- The report positions Portugal against the Global Innovation Index, the StartupBlink Global Ecosystem Index, the S9+ Coalition and ESNA. The full PDF ("Download the report now") was **not** read; only the page's headline numbers.
+Status: **read** (organisation's own page, figures as it states them, not checked at Informa D&B or elsewhere).
+
+**Road 2 Web Summit page:** the address I tried on the organisation's site ([startupportugal.com/programa/road-2-web-summit](https://startupportugal.com/programa/road-2-web-summit/)) answers with a "page not found" body, so the programme is named on the About page but its own page is not at that address. **Not read.**
+
 ## Next
-1. Startup Portugal's Ecosystem Report 2025 (the numbers) and its Road 2 Web Summit page.
+1. (done above) Startup Portugal's Ecosystem Report 2025 headline numbers; find the live Road 2 Web Summit page through the site's programmes list.
 2. AICEP, IAPMEI, ANI, Portugal Ventures and Banco Portugues de Fomento: each one's own about page (our data already has `aicep-portugal-global` and `banco-portugues-de-fomento` entries to check against).
 3. Lisbon's and Porto's hubs by another public route (the city councils' innovation pages).
