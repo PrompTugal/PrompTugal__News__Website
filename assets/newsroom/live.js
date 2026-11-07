@@ -21,8 +21,11 @@
     const showS = el('input', { type: 'checkbox', checked: true, id: 'lv-s' }), showM = el('input', { type: 'checkbox', checked: true, id: 'lv-m' })
     bar.append(pop, el('label', { htmlFor: 'lv-m' }, showM, ' also: named in a subject'), el('label', { htmlFor: 'lv-s' }, showS, ' at work (pulse)'))
     const clock = el('output', { className: 'lv-clock' }), tl = el('canvas', { className: 'lv-tl', height: 56 }), tip = el('p', { className: 'lv-tip' })
-    const time = el('div', { className: 'lv-time' }, clock, tl, tip)
-    root.append(bar, el('div', { className: 'lv-main' }, stage, side), time, status)
+    const bPlay = el('button', { type: 'button', className: 'lv-btn', textContent: 'Play' }), bBack = el('button', { type: 'button', className: 'lv-btn', textContent: '◀ Previous', title: 'Back to the previous exchange' }), bFwd = el('button', { type: 'button', className: 'lv-btn', textContent: 'Next ▶', title: 'Forward to the next exchange' }), bNow = el('button', { type: 'button', className: 'lv-btn', textContent: 'Live' })
+    const spd = el('select', { className: 'lv-btn', ariaLabel: 'Speed' }, ...[[1, '1 minute a second'], [10, '10 minutes a second'], [60, '1 hour a second'], [360, '6 hours a second'], [1440, '1 day a second']].map(([v, t]) => el('option', { value: v, textContent: t }))); spd.value = 60
+    const rng = el('input', { type: 'range', className: 'lv-rng', min: 0, max: 1, step: 1, ariaLabel: 'Time: move the map back or forward' })
+    const time = el('div', { className: 'lv-time' }, el('div', { className: 'lv-ctl' }, bBack, bPlay, bFwd, spd, bNow, clock), tl, rng, tip)
+    root.append(bar, time, el('div', { className: 'lv-main' }, stage, side), status)
 
     let D = null, det = null, nodes = new Map(), byAgent = [], links = [], W = 0, H = 0, sel = null, hot = null, win = window
     let T = Date.now() - DELAY, lastT = T, pulses = [], flow = new Map(), raf = 0, ctx = cv.getContext('2d'), seq = 0
@@ -79,8 +82,8 @@
         nodes.forEach(n => (n.deg = 0)); for (const [a, b] of links) { if (byAgent[a]) byAgent[a].deg++; if (byAgent[b]) byAgent[b].deg++ }
     }
     function spawn(from, to) {
-        for (const e of D.events) {
-            const t = e[0] * 6e4; if (t <= from || t > to || !visible(e)) continue
+        const pick = D.events.filter(e => { const t = e[0] * 6e4; return t > from && t <= to && visible(e) }).slice(-40)
+        for (const e of pick) {
             const when_ = performance.now() + (still ? 0 : Math.random() * 3000)
             if (e[2] === 's') pulses.push({ a: byAgent[e[1]], b: byAgent[e[1]], t0: when_, e, solo: true })
             else for (const tg of e[3]) pulses.push({ a: byAgent[e[1]], b: byAgent[tg], t0: when_, e })
@@ -156,18 +159,47 @@
     const tAt = ev => { const r = tl.getBoundingClientRect(); return tlr ? tlr.t0 + Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)) * tlr.span : 0 }
     tl.addEventListener('pointermove', ev => { tip.textContent = when(tAt(ev)) + ' (Lisbon)' })
     tl.addEventListener('pointerleave', () => { tip.textContent = '' })
-    function readout() { clock.textContent = `${mode.live ? 'Live' : 'Back in time'}: ${when(T)} Lisbon` + (mode.live ? ` (${Math.round(DELAY / 6e4)} minutes behind)` : '') }
+    function readout() { clock.textContent = `${mode.live ? 'Live' : playing ? 'Playing' : 'Paused'}: ${when(T)} Lisbon` + (mode.live ? ` (${Math.round(DELAY / 6e4)} minutes behind)` : '') }
+
+    // ---------- time travel: go(t) puts the map at a moment; play moves it on; Live goes back to the clock
+    let playing = false, lastNow = 0
+    const tmax = () => Date.now() - DELAY, tmin = () => Date.parse(D.from)
+    function go(t, fire) {
+        mode.live = false; T = Math.max(tmin(), Math.min(tmax(), t)); pulses = []; hot = null; recount(); list(); readout(); drawTl()
+        if (fire) spawn(T - 1, T)
+        rng.min = tmin(); rng.max = tmax(); rng.value = T
+    }
+    function live() { mode.live = true; playing = false; bPlay.textContent = 'Play'; T = tmax(); pulses = []; recount(); list(); readout(); drawTl() }
+    const marks = () => D.events.filter(e => e[2] !== 's' && visible(e)).map(e => e[0] * 6e4)
+    function step(dir) {
+        const m = marks(), cur = mode.live ? tmax() : T
+        const t = dir < 0 ? [...m].reverse().find(x => x < cur - 30000) : m.find(x => x > cur + 30000)
+        if (t != null) { playing = false; bPlay.textContent = 'Play'; go(t, true) }
+    }
+    bPlay.addEventListener('click', () => { playing = !playing; if (playing && mode.live) { mode.live = false; T = tmin() } bPlay.textContent = playing ? 'Pause' : 'Play'; lastNow = performance.now(); if (playing && T >= tmax() - 1000) go(tmin()) })
+    bBack.addEventListener('click', () => step(-1)); bFwd.addEventListener('click', () => step(1)); bNow.addEventListener('click', live)
+    rng.addEventListener('input', () => { playing = false; bPlay.textContent = 'Play'; go(+rng.value) })
+    let drag = false
+    tl.addEventListener('pointerdown', ev => { drag = true; tl.setPointerCapture(ev.pointerId); playing = false; bPlay.textContent = 'Play'; go(tAt(ev)) })
+    tl.addEventListener('pointermove', ev => { if (drag) go(tAt(ev)) })
+    tl.addEventListener('pointerup', () => { drag = false })
+    cv.addEventListener('keydown', ev => { if (ev.key === 'ArrowLeft') { ev.preventDefault(); step(-1) } else if (ev.key === 'ArrowRight') { ev.preventDefault(); step(1) } else if (ev.key === ' ') { ev.preventDefault(); bPlay.click() } else if (ev.key.toLowerCase() === 'l') live() })
 
     function frame() {
         raf = 0; const now = performance.now()
         if (mode.live) { const t = Date.now() - DELAY; if (t > T) { spawn(T, t); T = t } }
+        else if (playing) {
+            const dt = Math.min(250, now - lastNow); lastNow = now
+            const to = Math.min(tmax(), T + dt / 1000 * (+spd.value) * 6e4); if (to > T) { spawn(T, to); T = to; if (now - (frame.rc || 0) > 400) { frame.rc = now; recount(); list(); rng.value = T } }
+            if (to >= tmax()) live()
+        }
         draw(now); if (now - (frame.tl || 0) > 1000) { frame.tl = now; drawTl(); readout() }
         raf = win.requestAnimationFrame(frame)
     }
 
     // ---------- side panel: the latest exchanges, and the one you tapped
     function list() {
-        const ev = D.events.filter(e => e[2] !== 's' && visible(e) && e[0] * 6e4 <= T + DELAY).slice(-14).reverse()
+        const ev = D.events.filter(e => e[2] !== 's' && visible(e) && e[0] * 6e4 <= (mode.live ? T + DELAY : T)).slice(-14).reverse()
         side.replaceChildren(el('h2', { textContent: 'Latest exchanges' }), el('p', { className: 'lv-meta', textContent: 'Lisbon time. Tap one to light it.' }),
             el('ul', { className: 'lv-list' }, ...ev.map(e => el('li', {}, el('button', { type: 'button', className: 'lv-row', onclick: () => pick(e), textContent: `${nm(e[1])} → ${e[3].map(nm).join(', ')} · ${when(e[0] * 6e4)} · ${KIND[e[2]]}` })))))
     }
@@ -201,7 +233,7 @@
             const r = await fetch(root.dataset.data + '?t=' + Date.now(), { cache: 'no-store' }); if (!r.ok) throw new Error(r.status)
             const d = await r.json(); const fresh = !D || d.built_at !== D.built_at; if (!fresh) return
             D = d; layout(); recount()
-            if (first) { T = Date.now() - DELAY; lastT = T; const newest = D.events.length ? D.events[D.events.length - 1][0] * 6e4 : 0; announce(`${D.events.length} exchanges since ${when(Date.parse(D.from))}; the latest ${when(newest)}.`); resize(); raf = win.requestAnimationFrame(frame) }
+            if (first) { T = Date.now() - DELAY; lastT = T; const newest = D.events.length ? D.events[D.events.length - 1][0] * 6e4 : 0; announce(`${D.events.length} exchanges since ${when(Date.parse(D.from))}; the latest ${when(newest)}.`); resize(); rng.min = tmin(); rng.max = tmax(); rng.value = tmax(); raf = win.requestAnimationFrame(frame) }
             list()
         } catch (e) { if (first) root.append(el('p', { className: 'note', textContent: 'The live map could not load its data.' })) }
     }

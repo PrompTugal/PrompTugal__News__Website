@@ -13,6 +13,7 @@
 .lv-side h2 { font-size: 1rem; margin: 0 0 4px; overflow-wrap: anywhere; }
 .lv-meta { font-size: .8rem; color: var(--ink-3, #555); margin: 0 0 8px; }
 .lv-list { list-style: none; padding: 0; margin: 0 0 10px; display: grid; gap: 4px; }
+.lv-list li { margin: 0; padding: 0; }
 .lv-row { width: 100%; text-align: left; font: inherit; font-size: .82rem; padding: 6px 8px; border: 1px solid transparent; border-radius: 8px; background: transparent; color: var(--ink, #111); cursor: pointer; overflow-wrap: anywhere; }
 .lv-row:hover, .lv-row:focus-visible { border-color: var(--brand, #1a7f37); background: var(--wash, rgba(127,127,127,.08)); }
 .lv-status { font-size: .85rem; color: var(--ink-3, #555); margin: 0; }
@@ -21,3 +22,6 @@
 .lv-clock { font-weight: 600; font-size: .95rem; }
 .lv-tl { width: 100%; height: 56px; display: block; border: 1px solid var(--hair, #ddd); border-radius: 8px; background: var(--panel, #fff); cursor: crosshair; touch-action: manipulation; }
 .lv-tip { margin: 0; min-height: 1.2em; font-size: .8rem; color: var(--ink-3, #555); }
+.lv-ctl { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.lv-ctl .lv-clock { margin-left: auto; }
+.lv-rng { width: 100%; accent-color: var(--brand, #1a7f37); }
