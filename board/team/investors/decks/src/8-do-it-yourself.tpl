@@ -359,14 +359,120 @@ code, .code { font: 400 21px/1.35 var(--mono); color: var(--ink); background: va
     <circle cx="1560" cy="500" r="15" fill="#fffdf8" stroke="#595c64" stroke-width="5"></circle><text x="1560" y="542" text-anchor="middle" font-size="22" font-weight="600" fill="#121317" paint-order="stroke" stroke="#f6f3ec" stroke-width="7" stroke-linejoin="round" data-i18n="s12.24"></text>
   </svg>
   <div style="display:flex;gap:30px;align-items:center;margin-top:14px;font:400 21px/1 var(--sans);color:#3f424a;white-space:nowrap">
-    <span><svg width="22" height="22"><circle cx="11" cy="11" r="9" fill="#006600"></circle></svg> what cannot be forked</span>
-    <span><svg width="48" height="14"><line x1="0" y1="7" x2="48" y2="7" stroke="#c52830" stroke-width="4" stroke-dasharray="9 6"></line></svg> moved by open-sourcing it</span>
+    <span><svg width="22" height="22"><circle cx="11" cy="11" r="9" fill="#006600"></circle></svg> <span data-i18n="s12.28"></span></span>
+    <span><svg width="48" height="14"><line x1="0" y1="7" x2="48" y2="7" stroke="#c52830" stroke-width="4" stroke-dasharray="9 6"></line></svg> <span data-i18n="s12.29"></span></span>
     <span class="src" style="margin:0 0 0 auto" data-i18n="s12.25"></span>
   </div>
   <div class="foot"><span class="wordmark" data-i18n="s12.26"></span><span data-i18n="s12.27"></span></div>
 </section>
 
-<!-- 13 · will you? -->
+<!-- 13 · the moat is decisions -->
+<section class="slide">
+  <div class="head"><span><b data-i18n="x13.1"></b></span><span data-i18n="x13.2"></span></div>
+  <div class="kicker" data-i18n="x13.3"></div>
+  <h2 style="font-size:64px;max-width:1680px" data-i18n="x13.4"></h2>
+  <p class="lead" style="font-size:29px;margin-top:14px;max-width:1680px" data-i18n="x13.5"></p>
+  <div class="cols c4 tight" style="margin-top:28px;gap:26px;align-items:stretch">
+    <div class="card g"><div class="n" data-i18n="x13.6"></div><h3 data-i18n="x13.7"></h3><p data-i18n="x13.8"></p></div>
+    <div class="card g"><div class="n" data-i18n="x13.9"></div><h3 data-i18n="x13.10"></h3><p data-i18n="x13.11"></p></div>
+    <div class="card c"><div class="n" data-i18n="x13.12"></div><h3 data-i18n="x13.13"></h3><p data-i18n="x13.14"></p></div>
+    <div class="card r"><div class="n" data-i18n="x13.15"></div><h3 data-i18n="x13.16"></h3><p data-i18n="x13.17"></p></div>
+  </div>
+  <div style="display:flex;align-items:baseline;gap:24px;margin-top:30px"><span class="kicker" style="margin:0;font-size:20px;white-space:nowrap" data-i18n="x13.18"></span><span style="font:400 italic 26px/1.3 var(--serif);color:var(--ink-2)" data-i18n="x13.19"></span></div>
+  <svg viewBox="0 0 1680 150" width="1680" height="150" style="margin-top:14px">
+    <line x1="20" y1="30" x2="1660" y2="30" stroke="#121317" stroke-width="4"></line>
+    <g font-size="22" font-weight="600" fill="#121317">
+      <circle cx="40" cy="30" r="14" fill="#f6f3ec" stroke="#006600" stroke-width="6"></circle><text x="20" y="82" class="mono" font-size="20" font-weight="500" fill="#006600" data-i18n="x13.20"></text><text x="20" y="110" data-i18n="x13.21"></text><text x="20" y="136" font-weight="400" font-size="20" fill="#3f424a" data-i18n="x13.22"></text>
+      <circle cx="380" cy="30" r="14" fill="#f6f3ec" stroke="#006600" stroke-width="6"></circle><text x="360" y="82" class="mono" font-size="20" font-weight="500" fill="#006600" data-i18n="x13.23"></text><text x="360" y="110" data-i18n="x13.24"></text><text x="360" y="136" font-weight="400" font-size="20" fill="#3f424a" data-i18n="x13.25"></text>
+      <circle cx="720" cy="30" r="14" fill="#f6f3ec" stroke="#006600" stroke-width="6"></circle><text x="700" y="82" class="mono" font-size="20" font-weight="500" fill="#006600" data-i18n="x13.26"></text><text x="700" y="110" data-i18n="x13.27"></text><text x="700" y="136" font-weight="400" font-size="20" fill="#3f424a" data-i18n="x13.28"></text>
+      <circle cx="1060" cy="30" r="14" fill="#f6f3ec" stroke="#1f4fa8" stroke-width="6"></circle><text x="1040" y="82" class="mono" font-size="20" font-weight="500" fill="#1f4fa8" data-i18n="x13.29"></text><text x="1040" y="110" data-i18n="x13.30"></text><text x="1040" y="136" font-weight="400" font-size="20" fill="#3f424a" data-i18n="x13.31"></text>
+      <circle cx="1400" cy="30" r="16" fill="#c52830"></circle><text x="1380" y="82" class="mono" font-size="20" font-weight="500" fill="#c52830" data-i18n="x13.32"></text><text x="1380" y="110" data-i18n="x13.33"></text><text x="1380" y="136" font-weight="400" font-size="20" fill="#3f424a" data-i18n="x13.34"></text>
+    </g>
+  </svg>
+  <div class="src" style="margin-top:8px" data-i18n="x13.35"></div>
+  <div class="foot"><span class="wordmark" data-i18n="x13.36"></span><span data-i18n="x13.37"></span></div>
+</section>
+
+<!-- 14 · if you copy us, you help us -->
+<section class="slide">
+  <div class="head"><span><b data-i18n="x14.1"></b></span><span data-i18n="x14.2"></span></div>
+  <div class="kicker" data-i18n="x14.3"></div>
+  <h2 style="font-size:64px" data-i18n="x14.4"></h2>
+  <p class="lead" style="font-size:29px;margin-top:14px;max-width:1680px" data-i18n="x14.5"></p>
+  <div style="display:grid;grid-template-columns:330px 70px 1fr;align-items:stretch;margin-top:30px">
+    <div style="background:#121317;color:#f6f3ec;padding:28px 28px;display:flex;flex-direction:column;justify-content:center"><div style="font:500 19px/1.2 var(--mono);letter-spacing:.1em;color:#8fd18f;margin-bottom:12px" data-i18n="x14.6"></div><div style="font:600 32px/1.18 var(--serif)" data-i18n="x14.7"></div></div>
+    <svg viewBox="0 0 70 200" width="70" height="100%" preserveAspectRatio="none" style="align-self:center;height:60px"><path d="M8,100 L52,100" stroke="#006600" stroke-width="8"></path><path d="M44,70 L66,100 L44,130 z" fill="#006600"></path></svg>
+    <div class="cols c3 tight" style="margin-top:0;gap:22px;align-items:stretch">
+      <div class="card g"><div class="n" data-i18n="x14.8"></div><h3 data-i18n="x14.9"></h3><p data-i18n="x14.10"></p></div>
+      <div class="card g"><div class="n" data-i18n="x14.11"></div><h3 data-i18n="x14.12"></h3><p data-i18n="x14.13"></p></div>
+      <div class="card c"><div class="n" data-i18n="x14.14"></div><h3 data-i18n="x14.15"></h3><p data-i18n="x14.16"></p></div>
+    </div>
+  </div>
+  <div class="vs" style="margin-top:30px;grid-template-columns:1fr 80px 1fr">
+    <div class="side new" style="padding:26px 34px"><div class="tag" data-i18n="x14.17"></div><h3 style="font-size:34px;margin:6px 0 8px" data-i18n="x14.18"></h3><p style="font:400 23px/1.4 var(--sans);color:var(--ink-2)" data-i18n="x14.19"></p></div>
+    <div class="mid" style="font-size:40px" data-i18n="x14.20"></div>
+    <div class="side old" style="padding:26px 34px"><div class="tag r" data-i18n="x14.21"></div><h3 style="font-size:34px;margin:6px 0 8px" data-i18n="x14.22"></h3><p style="font:400 23px/1.4 var(--sans);color:var(--ink-2)" data-i18n="x14.23"></p></div>
+  </div>
+  <div style="display:flex;align-items:baseline;justify-content:space-between;gap:40px;margin-top:30px">
+    <span style="font:600 44px/1.1 var(--serif);color:#006600;white-space:nowrap" data-i18n="x14.24"></span>
+    <span style="font:400 italic 27px/1.3 var(--serif);color:var(--ink-2);text-align:right" data-i18n="x14.25"></span>
+  </div>
+  <div class="src" style="margin-top:10px" data-i18n="x14.26"></div>
+  <div class="foot"><span class="wordmark" data-i18n="x14.27"></span><span data-i18n="x14.28"></span></div>
+</section>
+
+<!-- 15 · an investor who builds it themselves -->
+<section class="slide">
+  <div class="head"><span><b data-i18n="x15.1"></b></span><span data-i18n="x15.2"></span></div>
+  <div class="kicker" data-i18n="x15.3"></div>
+  <h2 style="font-size:60px;max-width:1680px" data-i18n="x15.4"></h2>
+  <div style="display:grid;grid-template-columns:880px 1fr;gap:40px;margin-top:24px;align-items:center">
+    <svg viewBox="0 0 880 520" width="880" height="520">
+      <g opacity=".2">
+        <circle cx="410" cy="172" r="130" fill="#006600"></circle>
+        <circle cx="496" cy="234" r="130" fill="#1f4fa8"></circle>
+        <circle cx="463" cy="335" r="130" fill="#c52830"></circle>
+        <circle cx="357" cy="335" r="130" fill="#121317"></circle>
+        <circle cx="324" cy="234" r="130" fill="#9d9580"></circle>
+      </g>
+      <g fill="none" stroke-width="3">
+        <circle cx="410" cy="172" r="130" stroke="#006600"></circle>
+        <circle cx="496" cy="234" r="130" stroke="#1f4fa8"></circle>
+        <circle cx="463" cy="335" r="130" stroke="#c52830"></circle>
+        <circle cx="357" cy="335" r="130" stroke="#121317"></circle>
+        <circle cx="324" cy="234" r="130" stroke="#9d9580"></circle>
+      </g>
+      <g font-size="24" font-weight="600" fill="#121317">
+        <text x="410" y="28" text-anchor="middle" fill="#006600" data-i18n="x15.5"></text>
+        <text x="640" y="222" fill="#1f4fa8" data-i18n="x15.6"></text><text x="640" y="252" fill="#1f4fa8" data-i18n="x15.7"></text>
+        <text x="590" y="456" fill="#c52830" data-i18n="x15.8"></text>
+        <text x="236" y="456" text-anchor="end" data-i18n="x15.9"></text>
+        <text x="180" y="222" text-anchor="end" fill="#595c64" data-i18n="x15.10"></text><text x="180" y="252" text-anchor="end" fill="#595c64" data-i18n="x15.11"></text>
+      </g>
+      <circle cx="410" cy="262" r="46" fill="#121317"></circle>
+      <text x="410" y="270" text-anchor="middle" class="serif" font-size="25" font-weight="600" fill="#f6f3ec" data-i18n="x15.12"></text>
+    </svg>
+    <div>
+      <div class="kicker" style="margin-bottom:14px;font-size:20px" data-i18n="x15.13"></div>
+      <ul class="ticks" style="margin-top:0">
+        <li style="font-size:26px;margin-bottom:10px" data-i18n="x15.14"></li>
+        <li style="font-size:26px;margin-bottom:10px" data-i18n="x15.15"></li>
+        <li style="font-size:26px;margin-bottom:10px" data-i18n="x15.16"></li>
+        <li style="font-size:26px;margin-bottom:10px" data-i18n="x15.17"></li>
+      </ul>
+      <p style="font:400 italic 30px/1.35 var(--serif);color:var(--ink);border-left:8px solid #c52830;padding-left:24px;margin-top:20px" data-i18n="x15.18"></p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:26px">
+        <div style="border:3px solid #006600;background:var(--panel);padding:16px 22px"><div style="font:500 19px/1.2 var(--mono);letter-spacing:.1em;color:#006600" data-i18n="x15.19"></div><div style="font:600 30px/1.2 var(--serif);margin-top:6px" data-i18n="x15.20"></div></div>
+        <div style="border:3px solid #9d9580;background:var(--paper-2);padding:16px 22px"><div style="font:500 19px/1.2 var(--mono);letter-spacing:.1em;color:#595c64" data-i18n="x15.21"></div><div style="font:600 30px/1.2 var(--serif);margin-top:6px" data-i18n="x15.22"></div></div>
+      </div>
+    </div>
+  </div>
+  <p style="font:400 26px/1.35 var(--sans);color:var(--ink-2);margin-top:18px;border-top:2px solid #121317;padding-top:14px" data-i18n="x15.23"></p>
+  <div class="src" style="margin-top:8px" data-i18n="x15.24"></div>
+  <div class="foot"><span class="wordmark" data-i18n="x15.25"></span><span data-i18n="x15.26"></span></div>
+</section>
+
+<!-- 16 · will you? -->
 <section class="slide v ink">
   <div class="head"><span><b data-i18n="s13.1"></b></span><span data-i18n="s13.2"></span></div>
   <div class="kicker" data-i18n="s13.3"></div>
@@ -382,7 +488,7 @@ code, .code { font: 400 21px/1.35 var(--mono); color: var(--ink); background: va
   <div class="foot"><span class="wordmark" data-i18n="s13.19"></span><span data-i18n="s13.20"></span></div>
 </section>
 
-<!-- 14 · or do it with us -->
+<!-- 17 · or do it with us -->
 <section class="slide v">
   <div class="head"><span><b data-i18n="s14.1"></b></span><span data-i18n="s14.2"></span></div>
   <div class="kicker" data-i18n="s14.3"></div>
@@ -398,7 +504,7 @@ code, .code { font: 400 21px/1.35 var(--mono); color: var(--ink); background: va
   <div class="foot"><span class="wordmark" data-i18n="s14.17"></span><span data-i18n="s14.18"></span></div>
 </section>
 
-<!-- 15 · close -->
+<!-- 18 · close -->
 <section class="slide v ink">
   <div class="head"><span><b data-i18n="s15.1"></b></span><span data-i18n="s15.2"></span></div>
   <div class="kicker" data-i18n="s15.3"></div>
