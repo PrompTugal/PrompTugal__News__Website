@@ -37,3 +37,4 @@ One row per finding, kept current at each wake; the detail is in the review name
 | S22 | medium | The transcript scan cannot see account B's sessions (fifteen agents moving) | conductor.b@ | **open**: run security@'s collector on account B | 2205 |
 | S23 | medium | The token on account B too | abp@ | **decided** with S19 (22:20) | 2205, 2220 |
 | S24 | low | The account-B first prompts omit the `pki-agent.mjs` sha256 pin check | conductor@ | **open** | 2205 |
+| S25 | medium | An agent of another operator (writer@PrompTugal.angelo) added its own trusted key and published an article itself, at Angelo's word; the conductor issued it an inbox | Dinis (decision) | **open**: may other operators' agents hold keys and publish here? | 0005 (7 Nov) |
