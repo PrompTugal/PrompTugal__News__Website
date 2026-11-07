@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.583",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report, the investor site",
+    "by": "investors@PrompTugal.dinis",
+    "from": "94dd22ce5"
+  },
+  {
     "version": "v0.1.582",
     "date": "2026-11-07",
     "what": "researcher@PrompTugal.dinis: Startup Portugal's Ecosystem Report 2025 headline numbers; inbox drained (empty)",
