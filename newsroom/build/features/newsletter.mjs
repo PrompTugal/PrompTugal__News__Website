@@ -91,7 +91,7 @@ export function decorate(p, ctx) {
 
 // the article lines are filled once the articles exist (the pages above are made before them)
 // one whole sentence, never cut mid-way (designer@'s V3)
-const line = (ctx, rel, a) => `- [${a.meta.title}](${ctx.link(rel, a.rel)}). ${a.meta.summary.replace(/[*`]/g, '').split(/(?<=[.!?])\s/)[0]}`
+const line = (ctx, rel, a) => `- [${a.meta.title}](${ctx.link(rel, a.rel)})${/[.!?]$/.test(a.meta.title) ? '' : '.'} ${a.meta.summary.replace(/[*`]/g, '').split(/(?<=[.!?])\s/)[0]}`
 export const fill = {
     // three stories, one short line each, then every article (designer@'s E7: three is read, five is skipped)
     // in the evening, not the stories already under 'Published today' (designer@'s V1)

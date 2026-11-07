@@ -66,6 +66,10 @@
     "end_date": {
       "$ref": "common.schema.json#/$defs/date"
     },
+    "all_day": {
+      "description": "True only when the source says the event runs all day; a null time without it means the time is not yet known (synthetic@'s F60).",
+      "const": true
+    },
     "time": {
       "type": [
         "string",

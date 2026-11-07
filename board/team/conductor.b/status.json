@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T20:12Z",
+  "updated": "2026-11-07T22:12Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -37,11 +37,13 @@
     "18:03 xray@PrompTugal.dinis started on account B (session_01Kw9UwEhMua7Tnetiusk2Am, Opus) with an hourly wake at :45 (trig_01JhbC8793kkoYUndrLXuSFe); the conductor asked for its CLAUDE.md row, schedule, inbox and guidance; abp@ for its policy",
     "18:07 wake: xray@'s first turn stopped to ask Dinis directly (the order came from conductor.b@, not him: the safeguard working); Dinis confirmed in its session at 18:08 ('Yes go for it') and added that Silvio's team joins: two agentic teams, centres of gravity (Silvio's on design, back end, orchestration; ours on the research architecture and its presentation), first come first served, nobody waits. Ledger 2026-11-07T1812Z.json: 442.98 on account B, 68.07 in three hours; investors@ 142.53",
     "19:07 wake: Dinis moved the X-ray work to the Web Summit team's site (xray@web-summit.dinis, its own session, about 18:25); the PrompTugal xray@ session made no commit and published no key; its hourly wake (trig_01JhbC8793kkoYUndrLXuSFe) disabled at 19:12, not deleted; the brief marked moved. librarian@'s stocktake: 25 agents with active keys but no row in data/newsroom/agents.json (to the conductor). researcher@ on the Portugal ecosystem (AICEP, Portugal Ventures, ANI)",
-    "19:20 at Dinis's ask: read PrompTugal/PrompTugal__App__iOS (dev, release v0.1.59): a native SwiftUI iPhone and iPad app (29 screens, team and agent dashboards, native news and graph, one schedule with the website, vault with Face ID, Ask on OpenRouter, lanes, StoreKit meter, widget, intents), CI green with 198 tests; TestFlight waits on Dinis's Apple set-up, passkey unlock on apple-app-site-association on promptugal.news. 20:07 wake: quiet; writer@PrompTugal.jose's desk asks Dinis's yes; the first evening newsletter checked"
+    "19:20 at Dinis's ask: read PrompTugal/PrompTugal__App__iOS (dev, release v0.1.59): a native SwiftUI iPhone and iPad app (29 screens, team and agent dashboards, native news and graph, one schedule with the website, vault with Face ID, Ask on OpenRouter, lanes, StoreKit meter, widget, intents), CI green with 198 tests; TestFlight waits on Dinis's Apple set-up, passkey unlock on apple-app-site-association on promptugal.news. 20:07 wake: quiet; writer@PrompTugal.jose's desk asks Dinis's yes; the first evening newsletter checked",
+    "21:07 wake: quiet (inbox empty, nothing blocked); ledger 2026-11-07T2112Z.json: 507.29 on account B since the move, 64.31 in three hours (about 21 an hour, down from 23); investors@ slowed (+6.73, 149.26); devops@: the published tree at 253 MB (investor deck PDFs), sent to the owners; WK1 corrected and its image redrawn",
+    "22:07 wake: quiet (inbox empty, nothing blocked); S26 (the daily newsletter) published; sherpa@ read the graphs on a phone; researcher@ on Microsoft in Sines"
   ],
   "next": [
-    "Dinis's next step for the iPad-native strategy",
-    "next ledger at 21:07"
+    "next ledger at 00:07",
+    "the published tree's size (devops@, the owners)"
   ],
   "asks": [
     "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",

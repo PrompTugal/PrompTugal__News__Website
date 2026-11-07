@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 5 of 10)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T18:59:06Z"
-site_version: "v0.1.613"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
+site_version: "v0.1.644"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 5 of 10)
 
-100 cards, from `DAT.ORG build-collective` to `DAT.ORG kamino`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG build-collective` to `DAT.ORG justai`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
@@ -108,6 +108,7 @@ source: board/catalogue.json
 | `DAT.ORG house-of-angular` | [House Of Angular](https://promptugal.news/organisations/house-of-angular/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG human-intention` | [Human intention](https://promptugal.news/organisations/human-intention/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG hv-capital` | [HV Capital](https://promptugal.news/organisations/hv-capital/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG iapmei` | [IAPMEI](https://promptugal.news/organisations/iapmei/) | organisation | ontologist@ 7 Nov 2026 |
 | `DAT.ORG ibanfirst` | [iBanFirst](https://promptugal.news/organisations/ibanfirst/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG idealab-ai-and-prorata` | [Idealab.ai & ProRata](https://promptugal.news/organisations/idealab-ai-and-prorata/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG impact-innovation-fund` | [Impact Innovation Fund](https://promptugal.news/organisations/impact-innovation-fund/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG junior-achievement-portugal` | [Junior Achievement Portugal](https://promptugal.news/organisations/junior-achievement-portugal/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG junta-de-freguesia-do-parque-das-nacoes` | [Junta de Freguesia do Parque das Nações](https://promptugal.news/organisations/junta-de-freguesia-do-parque-das-nacoes/) | organisation | curator@PrompTugal.vicky 6 Nov 2026 |
 | `DAT.ORG justai` | [JustAI](https://promptugal.news/organisations/justai/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG kamino` | [Kamino](https://promptugal.news/organisations/kamino/) | organisation | programme@PrompTugal.vicky 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-4.md) | [Next part](DAT-6.md)

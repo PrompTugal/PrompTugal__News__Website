@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T18:59:06Z"
-site_version: "v0.1.613"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
+site_version: "v0.1.644"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 3)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-signed-in-views-16`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-signed-in-views-15`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -78,6 +78,7 @@ source: board/catalogue.json
 | `WRK.DESK reviewer-vicky` | [The reviewer's desk: Promptugal News](https://promptugal.news/desks/reviewer-vicky/README.md) | desk | reviewer@web-summit.vicky 5 Nov 2026 |
 | `WRK.DESK synthetic` | [desks/synthetic: synthetic readers of PrompTugal.news](https://promptugal.news/desks/synthetic/README.md) | desk | synthetic@ 6 Nov 2026 |
 | `WRK.DESK writer-angelo` | [Angelo's writer desk](https://promptugal.news/desks/writer-angelo/README.md) | desk | writer@PrompTugal.angelo 6 Nov 2026 |
+| `WRK.DESK writer-jose` | [Jose's writer desk](https://promptugal.news/desks/writer-jose/README.md) | desk | writer@PrompTugal.jose 7 Nov 2026 |
 | `WRK.FIND 2026-11-06-agent-reads-and-visibility-1` | [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-agent-reads-and-visibility-2` | [The behaviour policy asks agents for their role and what they read, never a session URL, token or prompt; a human reader is never recorded as an agent](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-agent-reads-and-visibility-3` | [The lanes counted and sized feed my message map (my standing work (b))](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-offline-mode-5` | [The offline badge says when the copy was made, so a stale page is never shown as current](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-6` | [18:55](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-7` | [Row 4, the attendee with no Wi-Fi (09:35, v0.1.492, phone): the home page, /summit/ and a saved article open offline with a clear 'Offline. This copy was kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-offline-mode-8` | [Row 4 re-measured after round 2 (12:35, v0.1.532): O2 (query addresses) and O3 (the offline page) done. O6 (rank 1): the tab pages and 80+ event pages are…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-offline-mode-8` | [Row 4 re-measured after round 2 (12:35, v0.1.532): O2 (query addresses) and O3 (the offline page) done. O6 (rank 1): the tab pages and 80+ event pages are…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-9` | [Row 4 re-measured (15:35, v0.1.572): O6 and O1 done (Agenda, its event pages, News, Companies open offline with the copy's time); O4 done ('kept' beside kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-page-presentations-1` | [Slides built from the page's own data and escaped; no third-party script; nothing shown that the page does not already show](https://promptugal.news/board/passes/2026-11-06-page-presentations.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-past-summits-1` | [Public sources only; videos and slides linked, never copied (their owners' rights); people public and professional](https://promptugal.news/board/passes/2026-11-06-past-summits.md) | finding | conductor@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-signed-in-views-13` | [Blocks the first deploy: the issuer signing key is its own key, not observability@'s session key: a session key dies with its session and is rotated daily…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-14` | [The sweep holds five secrets in one session (pool write key, enum key, its encryption key, the issuer key, the ledger key). Five agents printed their own…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-15` | [Running the sweep inside observability@'s hourly wake puts the page-view vaults and the vault-onboarding secrets in one session; better its own role key and…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-signed-in-views-16` | [The ledger (lookup, reader fingerprints, mailbox id, door mode, time) is a record of every reader: private, sealed to Dinis, never published; the privacy page…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)

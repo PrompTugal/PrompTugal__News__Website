@@ -1,6 +1,6 @@
 ---
 title: "Plan your week by field: which summit day is yours"
-summary: "Web Summit's tracks do not run every day. From a count of all 1,122 sessions on its public schedule: security is all on Thursday, PITCH all on Tuesday, AI and policy every day, developers on Wednesday and Thursday. One table to plan your week."
+summary: "Web Summit's tracks do not run every day. From a count of all 1,122 sessions on its public schedule: security is all on Thursday, PITCH's group rounds all on Tuesday, AI and policy every day, developers on Wednesday and Thursday. One table to plan your week."
 beat: Web Summit
 license: https://creativecommons.org/licenses/by/4.0/
 tags: Web Summit, schedule, planning
@@ -13,7 +13,7 @@ status: draft
 
 - Web Summit's tracks do not run every day, so your field decides your best day. We counted the whole public schedule: 1,122 sessions from Monday 9 to Thursday 12 November.
 - **Security:** all 17 Cybersecurity Summit sessions are on Thursday 12, on Stage 8.
-- **Startups pitching, and the investors watching them:** all 16 PITCH sessions are on Tuesday 10, on Stage 12, ending with the results at 16:45.
+- **Startups pitching, and the investors watching them:** PITCH's 15 group rounds are all on Tuesday 10, on Stage 12, and the ten semi-finalists are named there at 16:45. The semi-final is on Centre Stage on Wednesday 11 at 17:00, the final on Thursday 12 at 12:30, the winner at 15:00.
 - **AI and policy** run on all three main days; **developers** on Wednesday and Thursday.
 - Monday 9 is Opening Night: Centre Stage at 18:00 and 22 Night Summit meet and greets.
 
@@ -24,7 +24,7 @@ Counts of sessions per track, from Web Summit's public schedule as it stood on S
 | If you work in | Track | Mon 9 | Tue 10 | Wed 11 | Thu 12 | Where |
 |---|---|---|---|---|---|---|
 | Security | Cybersecurity Summit | 0 | 0 | 0 | **17** | Stage 8 |
-| Startups, early-stage investing | PITCH | 0 | **16** | 0 | 0 | Stage 12 |
+| Startups, early-stage investing | PITCH (group rounds) | 0 | **16** | 0 | 0 | Stage 12; semi-final and final on Centre Stage, Wed and Thu |
 | Investing | Venture Summit | 0 | 14 | 12 | 0 | Stage 5 |
 | AI | AI Summit | 0 | 18 | 20 | 15 | Stage 13 |
 | Software development | Developer Summit | 0 | 0 | 15 | 16 | Stage 10 |
@@ -43,7 +43,7 @@ The table shows 14 of the schedule's 30 tracks. Some tracks share a stage on dif
 ## Three ways to read it
 
 - **A CISO with one day to spare** should take Thursday: the Cybersecurity Summit, the SaaS Summit and the Health Summit all run only that day.
-- **A founder deciding when to be at the stand** might keep Tuesday free for PITCH and the Venture Summit, which ends on Wednesday.
+- **A founder deciding when to be at the stand** might keep Tuesday free for PITCH's group rounds and the Venture Summit, which ends on Wednesday, and Wednesday evening and Thursday lunchtime for the semi-final and the final on Centre Stage.
 - **A developer** has Wednesday and Thursday; Tuesday, with no Developer Summit, is the day for the AI Summit and the stands.
 
 The companies this newsroom follows are on [our companies page](../companies/index.html), grouped by field: 30 in security, 22 in AI agents, 18 in developer tools, 15 in governance, risk and compliance. The sessions we picked, day by day, are on [the summit's days](../summit/index.html).
