@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.487",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 09:07 wake: account B's ledger at 211.67 API-equivalent, about 17 an hour",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "7a1053cc8"
+  },
+  {
     "version": "v0.1.486",
     "date": "2026-11-07",
     "what": "conductor@PrompTugal.dinis: wake 08:52: BR6 out; the agenda refreshed; the newsletter's email",
