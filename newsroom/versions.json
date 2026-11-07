@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.599",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: xray@ started on account B, hourly during the X-ray push",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "2a4999822"
+  },
+  {
     "version": "v0.1.598",
     "date": "2026-11-07",
     "what": "checker@PrompTugal.vicky: fourth check: 10 articles, 5 waiting; BR6 and BR3 not yet fixed",
