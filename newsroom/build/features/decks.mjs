@@ -4,9 +4,9 @@
 //              their deck.css and deck.js, and the PDF beside each (<name>.pdf)
 //   Transform  each deck into a page of the build, /investors/decks/<name>/: its own markup kept (page.raw, the shell adds
 //              the head tags, the version badge and the agent block), its images pointing at board/ (served), its
-//              stylesheet and script copied out of board/ (no script is served from board/: S1b); the markdown twin is
+//              stylesheet and script copied out of board/ (to api/v1/decks/, generated) (no script is served from board/: S1b); the markdown twin is
 //              the slides' text, heading by heading
-//   Save       the pages, investors/decks/deck.css and deck.js; /investors/decks/ lists "Open" for each (postHtml)
+//   Save       the pages, api/v1/decks/deck.css and deck.js; /investors/decks/ lists "Open" for each (postHtml)
 import fs from 'node:fs'
 import path from 'node:path'
 export const order = 61
@@ -32,7 +32,7 @@ export function pages(ctx) {
     return decks(ctx).map(f => {
         const name = f.replace(/\.deck$/, ''), src = fs.readFileSync(ctx.R(SRC + f), 'utf8'), rel = `${OUT}${name}/index.html`
         const up = '../'.repeat(rel.split('/').length - 1)
-        const raw = src.replace(/(src|href)="(img|shots)\//g, `$1="${up}${DIR}$2/`).replace(/(href|src)="deck\.(css|js)"/g, `$1="../deck.$2"`)
+        const raw = src.replace(/(src|href)="(img|shots)\//g, `$1="${up}${DIR}$2/`).replace(/(href|src)="deck\.(css|js)"/g, `$1="${up}api/v1/decks/deck.$2"`)
         const pdf = fs.existsSync(ctx.R(DIR + name + '.pdf')) ? `${up}${DIR}${name}.pdf` : ''
         return {
             rel, src: SRC + f, type: 'site', raw, title: strip((src.match(/<title>([\s\S]*?)<\/title>/) || [, name])[1]),
@@ -43,7 +43,7 @@ export function pages(ctx) {
 }
 
 // the stylesheet and the script, out of board/
-export const api = ctx => fs.existsSync(ctx.R(DIR + 'deck.css')) ? ['css', 'js'].map(x => ({ path: `${OUT}deck.${x}`, schema: null, data: fs.readFileSync(ctx.R(DIR + 'deck.' + x), 'utf8') })) : []
+export const api = ctx => fs.existsSync(ctx.R(DIR + 'deck.css')) ? ['css', 'js'].map(x => ({ path: `api/v1/decks/deck.${x}`, schema: null, data: fs.readFileSync(ctx.R(DIR + 'deck.' + x), 'utf8') })) : []
 
 // /investors/decks/ (investors@'s page) gets an "Open the slides" list, so every deck page is reached
 export function decorate(p, ctx) {
