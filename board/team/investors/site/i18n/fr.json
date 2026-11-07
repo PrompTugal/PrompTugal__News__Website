@@ -327,7 +327,8 @@
       "7-join-us": "Un CEO issu des médias, des journalistes, des renforts cette semaine",
       "8-do-it-yourself": "Les dépôts ouverts, l'infrastructure, la feuille de route ; l'avantage, ce sont les décisions",
       "9-the-tour": "Ce qui est en ligne, en visite guidée animée"
-    }
+    },
+    "info_alt": "Comment les dix decks s’articulent : d’abord le 0, la carte, puis du 1 au 9, et ce que chaque lecteur lit en premier (infographie en anglais, faite avec le modèle d’image Gemini de Google)."
   },
   "sequence": {
     "title": "Toutes les diapositives d’un coup d’œil",

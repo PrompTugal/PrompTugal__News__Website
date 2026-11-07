@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "contents",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/3e6c8ced-8628-4d44-b35a-326bcd921879/contents-",
+      "status": 200,
+      "read": true,
+      "chars": 1218
+    },
+    {
+      "url": "https://websummit.com/startups/featured-startups/",
+      "status": 200,
+      "read": true,
+      "chars": 5900
+    },
+    {
+      "url": "https://www.contents.com/",
+      "status": 200,
+      "read": true,
+      "chars": 9805
+    }
+  ],
+  "spent_usd": 0.0392,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Contents.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Contents SpA",
+          "note": "The contents.com footer names the company 'Contents SpA', and its news headlines refer to 'Contents' as the company."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "operated by Contents on your behalf",
+          "note": "The sources repeatedly refer to the company as Contents (legally Contents SpA)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Contents | Web Summit Attendees",
+          "note": "S1 identifies the attendee/company as Contents."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.contents.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Contents.com",
+          "note": "The page at https://www.contents.com/ is titled 'Contents.com' and its footer names 'Contents SpA' as the copyright holder, so it is the company's own site."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://www.contents.com/",
+          "note": "Source 3 is the official website of the company Contents (Contents SpA) at the given URL."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://www.contents.com/",
+          "note": "Source S3 is the website at that exact URL and identifies the company as Contents.com."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: SaaS platform to manage and govern the content lifecycle with AI, LLM-agnostic, ensuring quality and compliance across teams and channels.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Model-agnostic by design",
+          "note": "S3 supports the LLM-agnostic, governance, and compliance elements and describes itself as an \"execution platform\" and \"Agentic AI Content Platform,\" but no passage calls it a \"SaaS platform\" or uses the claim's wording."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources contain this self-description or state that the platform describes itself with these exact terms (e.g., 'SaaS platform' or 'LLM-agnostic')."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Agentic AI Content Platform & Managed Services",
+          "note": "S3 supports platform, content lifecycle governance, model-agnostic AI, quality/compliance, teams and channels, but it does not describe the company as SaaS."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Italy.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Contents Italy AI & machine learning",
+          "note": "The Web Summit startup listing for Contents shows Italy as its country, and the Contents.com footer also places its headquarters in Milano, Italy."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Contents Italy",
+          "note": "The Web Summit page lists the company Contents with the country Italy."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Contents Italy",
+          "note": "S1 lists Contents under Italy, so the claim is supported."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (startup (growth)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "GROWTH",
+          "note": "S1 is a Web Summit Lisbon 2026 ('lis26') appearance page for Contents, labelled GROWTH, and S2's 2026 startup list also includes Contents, so the listing and its growth tag are both supported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH Share Share on X Share on LinkedIn Copy link Contents",
+          "note": "The company Contents is listed under the growth startup category on its Web Summit Lisbon 2026 appearance page."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "S1 is the Contents appearance page for Web Summit lis26 and labels it under GROWTH startups."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

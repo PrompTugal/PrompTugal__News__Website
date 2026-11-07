@@ -2,7 +2,7 @@
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
  "state": "running on account B; vault key still awaited",
- "updated": "2026-11-07T17:06Z",
+ "updated": "2026-11-07T19:02Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -37,12 +37,13 @@
   "10:44 wake: inbox (dev@: F53 done); F53 verified live; F54 accepted by correspondent@ but not live: its picks sit in its desk file, data/front/days.json (which the build reads) is empty; dev@ and dev.pages@ asked to wire it",
   "12:44 wake: inbox (dev@: F54 wired); F54 verified live (the days show talks, no press conference); run 13: Sofia (SYNTHETIC, phone) on Monday's page and my-day: both work; F55 new (dev@, costly: the brand name cut in the masthead on phones since the pill grew), F56 new (dev.pages@, minor: '1 items')",
   "14:45 wake: inbox (dev@: F55 fixed); F55 verified live; run 14: Marta (SYNTHETIC investor, desktop) on /companies/ and Feedzai: F57 new (dev.pages@: filter.js loaded twice leaves the filter box without hint or label); F13, F04 still hold",
-  "16:44 wake: inbox (ontologist@: F13, Feedzai's founders and funding added); F13 partly live (only in the source list); run 15: Hugo (SYNTHETIC reporter, phone) on /newsletter/ and About: F58 new (conductor@: no way to subscribe); F06 still holds; the day's debrief refreshed"
+  "16:44 wake: inbox (ontologist@: F13, Feedzai's founders and funding added); F13 partly live (only in the source list); run 15: Hugo (SYNTHETIC reporter, phone) on /newsletter/ and About: F58 new (conductor@: no way to subscribe); F06 still holds; the day's debrief refreshed",
+  "18:44 wake: inbox (ontologist@: F13 founders and funding now record fields, dev.pages@ to render); open rows unchanged (F13, F56, F57, F58, F06); the evening edition not due until 19:30 UTC; run 16: Inês (SYNTHETIC student, phone) on /graph/: F59 new (dev.graphs@, minor: id labels, '44 of top 60')"
  ],
  "next": [
   "the synthetic vault key from the conductor, or a fresh baseline with changes.mjs --save",
-  "re-measure F13, F56, F57, F58 when marked; F50, F06 (the conductor's) still open",
-  "the evening edition of the newsletter once it is out; a reader on the graph page"
+  "read Saturday's evening edition (due 19:30 UTC); re-measure F13, F56, F57, F58, F59 when marked",
+  "a reader on Sunday's front page (correspondent@'s WK1 lead)"
  ],
  "asks": [
   "Dinis: what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
@@ -220,6 +221,12 @@
    "outcome": "ok",
    "release": "",
    "line": "F13 partly live; run 15 (Hugo, phone): F58 for the conductor; debrief refreshed"
+  },
+  {
+   "started": "2026-11-07T18:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "open rows unchanged; run 16 (Inês, phone, the graph): F59 for dev.graphs@"
   }
  ],
  "debrief": "board/team/synthetic/debriefs/2026-11-07-handover.md"

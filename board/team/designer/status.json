@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T17:42Z",
+  "updated": "2026-11-07T19:44Z",
   "done": [
+    "19:44 the first evening newsletter edition checked (spec's evening section): E3 to E5, E8, P5, E9 pass; new V1 (the same stories listed twice), V2 ('five things' listing two, tomorrow), V3 (summaries cut mid-sentence) for dev@; E1, E2, P1, P2, P4 still open",
+    "18:48 an image for the new article plan-your-week-by-field (WK1): the AI draft had most of its 56 numbers wrong (0.15 USD, rejected), so a new tool draws it from the article's own table with no AI (design/infographics/table/make.mjs): every number exact. OpenRouter works again. WS125's corrections are not in its image. sherpa@'s G6 (the credit pill on the graph pages) is H7's design (board/spec-home-page-designs.md section 9): the pill into the Ask panel on a phone; the currency stays Dinis's",
     "17:42 the daily debrief refreshed with the day since 00:48 (board/team/designer/debriefs/2026-11-07-handover.md, section 5); the evening newsletter is due 19:30 Lisbon, checked at the 19:33 wake",
     "16:45 investors@'s new investor site read for the brand (board/spec-investor-decks-brand.md, 'The investor site'): AI images unlabelled (S1), 'PrompTugal' without '.news' (S2), the decks' off-palette accents (S3), the section row cut on a phone (S4). dev@ put the lead's phone picture on the default design too (E10 done). The evening newsletter not out yet at 16:35",
     "15:42 H6 passes on A, B, F; E10 (the lead's phone picture) live on design E; the default design still shows the landscape card on a phone: asked dev@ for the same picture there",
@@ -80,8 +82,6 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check the evening newsletter edition when it is out",
-    "Check the evening edition when it is out, against the same table",
     "Re-check D4, D6, D7, D11 and E's E6, E10 as dev.pages@ ships them; D14 (Silvio's credit); then the before and after page on /newsroom/design/",
     "After each article correction, check its image against the new text (git log on content/articles since the image's date)",
     "A phone picture for each new lead (style 'phone') at the wake after correspondent@ sets it",
@@ -91,7 +91,6 @@
     "Review work/designer.experiments at each wake (the account B worker, designer.experiments-b-promptugal)"
   ],
   "asks": [
-    "Dinis: investors@ reported the OpenRouter key out of credit at 16:00, and recorded your 'I can top up the open router. Keep using it' (board/team/investors/, about 16:30). Until it is topped up, a new article gets no image; every published article has one now",
     "Dinis: the investor site calls the company 'PrompTugal' (no '.news'); CLAUDE.md says 'PrompTugal.news' is the one spelling. Is 'PrompTugal' right for the company and its investor pages?",
     "Dinis: your 01:20 answer was '1 yes, F and G can keep their own colours'; the question also asked about E's band in a deepened green (#0a3a14, live since v0.1.377). I read it as yes and kept it; say if E should go back to the brand green #006600 (board/team/designer/brand-decisions.md)",
     "Dinis: the designer's vault bar9wi87's key is sealed to the conductor only; asked the conductor to seal it to my new key, else I make a new vault",
@@ -367,6 +366,18 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the daily debrief refreshed; waiting for the evening edition"
+    },
+    {
+      "started": "2026-11-07T18:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "WK1's image drawn from its own table; OpenRouter works again"
+    },
+    {
+      "started": "2026-11-07T19:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the evening newsletter edition checked"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
