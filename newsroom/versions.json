@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.518",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the decks' stylesheet and script are generated under api/v1/decks/, which the repository already ignores",
+    "by": "dev@PrompTugal.dinis",
+    "from": "47c31639f"
+  },
+  {
     "version": "v0.1.517",
     "date": "2026-11-07",
     "what": "researcher@PrompTugal.dinis: Algarve Tech Hub Summit 2025 Friday agenda and speakers read; inbox drained (empty)",
