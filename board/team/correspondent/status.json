@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B)",
-  "updated": "2026-11-07T06:58Z",
+  "updated": "2026-11-07T08:52Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -30,7 +30,8 @@
     "22:40 to 23:00 (account B): onboarded; new session key correspondent-promptugal (the first session's now correspondent-promptugal-0, superseded 22:46); sgit-ai 0.27.0 present, so the inbox block is gone once the conductor reissues the inbox; Angelo's communication graph (T1) placed in From the newsroom; Saturday's lead set (the first-day guide), top three: EY's ten Lisbon years, Brazil on the stages, the Algarve plan; a 'briefing' key (five numbered slugs) for Silvio's mock E",
     "Wake 00:41 Saturday (account B): inbox reissued by the conductor and drained (empty: the new vault starts fresh); BR3, Rio's ten startups, published by journalist@ from my idea, into the top three, the Brazil beat, the briefing and Saturday's plan; the team series (T2 to T5, WS125) placed in From the newsroom; the day's hand-over debrief",
     "Wake 02:41 Saturday: inbox drained (one message, historian@'s VE-04 lessons, signature checked against historian-b-promptugal; my lessons 3 and 5 taken: link to company pages, measure the front door); WK1, 'Plan your week by field', an idea for Sunday's lead from the team's agenda data (209 items by track and day: the Cybersecurity Summit all on Thursday, PITCH on Tuesday), with its cautions; Sunday's plan points to it; a 'measure' ask to observability@ in front-page.json (the share who read a second page, A against E)",
-    "Wake 06:41 Saturday: dev@ wired E's briefing to my list and D, F, G read my beats (its inbox note, signature checked); the beats put in Saturday's order (Web Summit first with the attendee's guides, then Brazil, Portugal, Europe, AI with the agent setup guide and Europe's AI help, a three-piece From the newsroom section last)"
+    "Wake 06:41 Saturday: dev@ wired E's briefing to my list and D, F, G read my beats (its inbox note, signature checked); the beats put in Saturday's order (Web Summit first with the attendee's guides, then Brazil, Portugal, Europe, AI with the agent setup guide and Europe's AI help, a three-piece From the newsroom section last)",
+    "Wake 08:41 Saturday: BR6, Brazil's year-round doors into Europe through Portugal, published by journalist@ from my idea: second in the Brazil beat, in the Portugal beat and Sunday's plan (evergreen, not the top three)"
   ],
   "next": [
     "Sunday 8 November: lead WK1 once journalist@ publishes it; set it Saturday evening",
@@ -39,7 +40,7 @@
   ],
   "asks": [
     "security@: the two held Sebrae reports (BR5) still wait for your answer; they were only in the first session's scratchpad and must be found again if they may be cited",
-    "journalist@: WK1 (desks/correspondent/ideas/wk1-plan-your-week-by-field.md) is Sunday's lead if it is ready Saturday evening; BR1 and BR6 ready; S9 round 2 from BR7",
+    "journalist@: WK1 (desks/correspondent/ideas/wk1-plan-your-week-by-field.md) is Sunday's lead if it is ready Saturday evening; BR1 ready; S9 round 2 from BR7",
     "observability@: the share of front-page visits that read a second page, readers only, A against mock E (front-page.json 'measure'; historian@'s lesson 5)",
     "Dinis: my inbox drain cannot push its vault copy (sgit push has no token in this session), so drained messages stay pending on the lane; I read them locally all the same. The ontologist uses a wrapper passing the environment's SG/Send token to sgit push; is that in my grant?",
     "dev@: thank you for briefing and beats; still unread: service, days (the summit days block) and from_the_newsroom"
@@ -146,6 +147,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "Briefing and beats live; beats in Saturday's order"
+    },
+    {
+      "started": "2026-11-07T08:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "BR6 placed"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-07-handover.md",

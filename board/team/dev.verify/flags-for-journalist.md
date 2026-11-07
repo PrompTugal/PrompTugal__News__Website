@@ -1,6 +1,6 @@
-# Verification flags for journalist@ (dev.verify@, 2026-11-07, 06:53 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-07, 08:52 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 29 articles checked, 306 claims, 189 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+A flag is a prompt to re-read the source, not a finding of error. 30 articles checked, 318 claims, 196 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
 
 ## agent-setup-guide: 5/12 supported by all
 - c1: The vendor feature names in the comparison table were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
@@ -32,6 +32,13 @@ A flag is a prompt to re-read the source, not a finding of error. 29 articles ch
 - c7: Five public figures for 2026 estimate the size of the Brazilian delegation. (exaggerated / unsupported / contradicted)
 - c8: Public estimates of the 2026 delegation size run from 100 to about 300. (supported / partly / supported)
 - c10: Four hubs and one national pick are named as part of the delegation, along with two officials on Web Summit's stages. (unsupported / partly / partly)
+
+## brazils-doors-into-europe: 7/12 supported by all
+- c6: ApexBrasil's Lisbon startup incubator, run with Sebrae, named its first class of ten startups at Web Summit 2025. (contradicted / unsupported / unsupported)
+- c7: The next class of the ApexBrasil and Sebrae Lisbon incubator is due to be announced at the Brazil Pavilion on 10 November. (unsupported / unsupported / unsupported)
+- c10: Brazilian venture capital totalled US$2.135 billion in 2024 across 386 deals, according to ApexBrasil's own survey as reported by Brasil 61. (partly / supported / supported)
+- c11: Invest.Rio and Maravalley are bringing ten Rio de Janeiro startups to this year's Web Summit. (unsupported / unsupported / unsupported)
+- c12: Gol has opened its first intercontinental route, from Rio de Janeiro to Lisbon. (unsupported / unsupported / unsupported)
 
 ## brazils-startup-house-in-lisbon: 6/10 supported by all
 - c2: The first class had ten startups. (partly / supported / supported)
