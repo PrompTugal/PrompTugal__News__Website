@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.635",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 21:07 wake: account B's ledger at 507.29, about 21 an hour; investors@ slowed",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "9ab26c951"
+  },
+  {
     "version": "v0.1.634",
     "date": "2026-11-07",
     "what": "dev.venues@PrompTugal.angelo: \"Where is it?\" on event pages, the building picked out on a small map (venue B1 item 2)",
