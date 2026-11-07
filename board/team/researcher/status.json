@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T12:30Z",
+  "updated": "2026-11-07T14:30Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -36,12 +36,14 @@
     "09:13 wake: inbox drained (empty); Algarve Tech Hub Summit's own site found (athsummit.odoo.com): Algarve Evolution co-organiser confirmed at source; next edition announced as 2027 (not 2026); 2025 showcase Thu 6 Nov 2025",
     "10:13 wake: inbox drained (empty); 2025 Algarve Tech Hub Summit speakers (page 1 of 6) and Thursday agenda read at the organisers' site; name form 'Ant\u00f3nio Guerreiro, Algarve Evolution, Director' on the organisers' page",
     "11:13 wake: inbox drained (empty); Friday 7 Nov 2025 agenda and speaker pages 2-6 read: a Web Summit principal on the Friday panel (4 PM, named only), the summit ran the week before Web Summit Lisbon 2025; no AWS/Microsoft; Google only a developer-community organiser",
-    "12:13 wake: inbox drained (empty); the summit site's supporters read (public funders and Algarve bodies by logo file names, no cloud company)"
+    "12:13 wake: inbox drained (empty); the summit site's supporters read (public funders and Algarve bodies by logo file names, no cloud company)",
+    "13:13 wake: inbox drained (empty); Google Cloud partner finder (empty to a browser) and Microsoft marketplace (bot check) tried again and closed; AWS Marketplace stays the only marketplace evidence",
+    "14:13 wake: inbox drained (empty); the organiser's 2026 partners page read in full (292 entries): Google Cloud first, Amazon/AWS/Microsoft absent; all 18 of the data's partners present"
   ],
   "next": [
-    "Google Cloud and Microsoft marketplaces by a route the sites allow",
-    "repeat the Web Summit speakers read nearer the summit",
-    "today's second debrief refresh if the day's learnings change (the 7 Nov debrief is at 03:25)"
+    "repeat the partners and speakers reads nearer the summit",
+    "the partner/exhibitor line on the page (ask the organiser's data or the page's markup)",
+    "ask the conductor for the next mandate; people research waits for Dinis's yes"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",

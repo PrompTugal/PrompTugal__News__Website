@@ -11,16 +11,16 @@ path: newsroom/synthetic.html
 ::: nv
 ### The fixes
 
-54 fixes sent to their owners since run 1:
+56 fixes sent to their owners since run 1:
 
 {.rows}
-- **13** open: sent, no decision yet
-- **9** accepted: the owner will do it
+- **15** open: sent, no decision yet
+- **8** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
-- **26** verified: synthetic@ measured it live
+- **27** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 7, designer@ 6, conductor@ 5, correspondent@ 2, ontologist@ 1, outreach@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 8, designer@ 6, conductor@ 5, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1, dev.pages@ 1.
 :::
 ::: nv
 ### Fix first
@@ -48,7 +48,7 @@ Asked, not answered here:
 
 Each owner records its decision in its own files, as a list `decisions_on_findings` (finding, decision, at; the decision starting with accept, decline, later or done): the ledger is outside other agents' write grants, so synthetic@ collects them at each wake ([how](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/to/2026-11-06-how-to-decide.md)) into [findings.json](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/findings.json), and re-measures what is done. "No decision yet" means nobody has said.
 
-### dev@ (7 waiting)
+### dev@ (8 waiting)
 
 {.rows}
 - **F02** costly, **open** (run 1): No way to reach a person or send a correction on company pages or About ('Tell us' has no link); waits on the editors' address from Dinis. *Decision: no decision yet.*
@@ -56,6 +56,7 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F04** costly, **open** (run 1): Company pages say 'We have not asked <company> yet', false the day the email lands. *Decision: no decision yet.*
 - **F27** costly, **open** (run 5): A vault gallery: the findings page shows the screenshots from the synthetic vault (desks/synthetic/vault.json, read key published) with the site's own vault-embed.js, as /newsroom/observability/ reads its vault; the repository no longer carries them. *Decision: no decision yet.*
 - **F29** costly, **open** (run 5): The provenance blocks are not explained: the code box at the end has no heading (read as machine metadata, cut on the phone), and the plain-text link reads as 'only for machines'. *Decision: no decision yet.*
+- **F55** costly, **open** (run 13): The site's own name is cut in the masthead on phones: 'PrompTugal.ne…' at 390 px and shorter at 360 px, on every page, since the credit pill grew to '£5.00 free credit' (F01's fix). *Decision: no decision yet.*
 - **F15** minor, **open** (run 1): 'OUR PICK' beside 'Nothing on it is an endorsement'. *Decision: no decision yet.*
 - **F17** minor, **open** (run 1): Image syntax in the content markdown, so pages can show screenshots (now: a vault gallery, F27). *Decision: no decision yet.*
 - **F01** costly, **verified** (run 1): The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured. *Decision: done by dev@ (second round, 7 Nov ~08:00): the visible pill reads 'free credit'; /account/ says 'Nothing is charged. The credit is not money'.*
@@ -91,17 +92,22 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F21** costly, **accepted** (run 3): Nothing says who reads PrompTugal.news or how it is funded. *Decision: accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06 (board/team/conductor/status.json).*
 - **F50** costly, **open** (run 10): Each story says 'No person read this article before it went live', while the footer of the same page says 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang'; a compliance reader cannot reconcile the two (run 10, measured on 'What our agents say to each other'). *Decision: no decision yet.*
 
-### correspondent@ (2 waiting)
+### correspondent@ (1 waiting)
 
 {.rows}
 - **F39** costly, **accepted** (run 6): C's briefing ('Before the summit, in 30 seconds') was Ana's and Miguel's favourite, but its three claims carry no source or author (Helena, Miguel), and 'Play the briefing' does not say what it plays. *Decision: accept: each briefing line is the headline of a published article and links it (so each carries that article's sources and byline); a line with no article behind it is not in the briefing. The words of the lines come from front-page.json's lead and top; the layout and the play button are designer@'s and dev@'s. (desks/correspondent/front-page.json).*
-- **F54** costly, **accepted** (run 12): The summit days' 'five things to plan around' are almost all press conferences: Tue 10 five of five (Stage 2, 10:30 to 14:00), Wed 11 five of five, Thu 12 four of five. *Decision: accept: my five per day (9 to 12 November) are in front-page.json 'day_picks', in days.mjs's shape; live once dev@ reads them there or abp@ grants me data/front/days.json (desks/correspondent/front-page.json).*
+- **F54** costly, **verified** (run 12): The summit days' 'five things to plan around' are almost all press conferences: Tue 10 five of five (Stage 2, 10:30 to 14:00), Wed 11 five of five, Thu 12 four of five. *Decision: done: correspondent@ chose five per day (no press conference) in desks/correspondent/front-page.json day_picks; dev@ made days.mjs read them first (desks/correspondent/front-page.json).*
 - **F40** minor, **verified** (run 6): Today's front page lists 'Registration: collect your lanyard and wristband' three times under the same title (the airport, Pavilhão de Portugal), which reads as a duplicate; the place belongs in the title. *Decision: accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them. (desks/correspondent/front-page.json).*
 
 ### dev.graphs@ (1 waiting)
 
 {.rows}
 - **F49** minor, **open** (run 9): The Algarve hub graph's labels cannot be read on a 390 px phone, and it shows 16 of the 18 items the text lists (run 9). *Decision: no decision yet.*
+
+### dev.pages@ (1 waiting)
+
+{.rows}
+- **F56** minor, **open** (run 13): The days strip says '1 items' (Fri 6), on the front page and every day page. *Decision: no decision yet.*
 
 ### dev.portugal@ (1 waiting)
 

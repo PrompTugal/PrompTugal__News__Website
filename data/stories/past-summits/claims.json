@@ -569,6 +569,52 @@
         "event:web-summit-rio-2023",
         "organisation:web-summit"
       ]
+    },
+    {
+      "id": "c48",
+      "text": "Web Summit's attendance across its events in 2023 rose 21 per cent to more than 128,000, and revenue climbed to 60 million euro.",
+      "kind": "fact",
+      "source": "irishtimes-2024-11-19-accounts-2023",
+      "quote": "Attendance at the company’s events worldwide jumped 21 per cent to more than 128,000, helping revenue climb to €60 million.",
+      "read_on": "2026-11-07",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c49",
+      "text": "Web Summit reported a pretax loss of 5.6 million euro for 2023, which it put down to higher staff costs.",
+      "kind": "fact",
+      "source": "irishtimes-2024-11-19-accounts-2023",
+      "quote": "a pretax loss of €5.6 million for 2023",
+      "read_on": "2026-11-07",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c50",
+      "text": "Web Summit reported 71,000 attendees at its November 2024 Lisbon event.",
+      "kind": "fact",
+      "source": "irishtimes-2024-11-19-accounts-2023",
+      "quote": "The Lisbon event continues to be the most important in its calendar with the company reporting 71,000 attendees at this year’s event last week.",
+      "read_on": "2026-11-07",
+      "about": [
+        "event:web-summit-lisbon-2024",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c51",
+      "text": "The Irish Times gives Web Summit's 2022 profit before tax as 326,489 euro; RTE (c38) gives 326,484 euro. The two reports differ by 5 euro: both are recorded, neither is preferred.",
+      "kind": "fact",
+      "source": "irishtimes-2024-11-19-accounts-2023",
+      "quote": "Profit before tax in 2022 was €326,489",
+      "read_on": "2026-11-07",
+      "about": [
+        "event:web-summit-lisbon-2022",
+        "organisation:web-summit"
+      ]
     }
   ]
 }
