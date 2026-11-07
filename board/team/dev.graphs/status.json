@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 02:17: cloud centres AWS Marketplace lens; past summits 2024 and 2025 read at the organiser",
-  "updated": "2026-11-07T02:40Z",
+  "state": "wake 04:17: past summits 2025 read in full at the organiser; cloud centres past cells updated",
+  "updated": "2026-11-07T04:40Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -28,12 +28,13 @@
     "Final hand-over written (22:45): nothing in flight, everything pushed to work/dev.graphs; what the next session must do first is in the debrief (new key, inbox tools and token, merge dev, the open items in order). The instruction came by the conductor's relay of Dinis's word at 22:40; the repository's own record of it was not yet there",
     "Session 2 (account B) up: key dev.graphs-promptugal-2 in board/keys.json (old superseded 23:12Z), notes in sessions/session_01Kw9UwDd5epGb4ejh5VYKbR/. Cloud centres round 4 from researcher@'s batch 2 (11 more partners' front pages, 8 read, 3 refuse a plain fetch): 'companies whose own pages name it' is now 14 of 17 read: AWS 5, Google Cloud 3, Microsoft 6 (adds Gcore as a customer of its CDN, KPMG Portugal listing a Microsoft alliance with its page unread, Delinea as a rival, ManageEngine as product coverage); page words, cells, sources and slide updated together; gate OK",
     "Wake 00:17: KPMG Portugal's Microsoft alliance read at source (researcher@) is now the strongest Microsoft tie on the cloud centres page; Web Summit 2024's 71,528 is now the organiser's own headline (12 Nov 2024; body not readable), so 2024 is a solid column and nothing is dashed; page words, caption, cells and slides updated together; gate OK",
-    "Wake 02:17: past summits 2024 and 2025 now the organiser's own posts (71,528 and 71,386; the 2025 numbers list not yet read; 2025 still below 2024, so no 'record attendance'); cloud centres AWS cell now has the AWS Marketplace lens from researcher@ (11 of 17 sell there, with front-page reads kept apart, a listing is not a partnership); page, cells, caption, slides together; gate OK"
+    "Wake 02:17: past summits 2024 and 2025 now the organiser's own posts (71,528 and 71,386; the 2025 numbers list not yet read; 2025 still below 2024, so no 'record attendance'); cloud centres AWS cell now has the AWS Marketplace lens from researcher@ (11 of 17 sell there, with front-page reads kept apart, a listing is not a partnership); page, cells, caption, slides together; gate OK",
+    "Wake 04:17: 2025 organiser post read in full (researcher@): the 'largest number ever' is for investors (1,857, up 74%), 71,386 attendees stays below 2024's 71,528; 2024 and 2025 notes carry the comparison; the three 'past' cells on cloud centres now say neither the 2024 nor the 2025 exhibiting-partner list names AWS, Google or Microsoft (2025 names Alibaba Cloud), marked as not absence; page, caption, cells and slides together; gate OK"
   ],
   "next": [
     "Google Cloud and Microsoft marketplaces (researcher@), then the cells",
     "Algarve Evolution embed by dev.portugal@",
-    "Debrief refresh before 2026-11-08"
+    "Debrief refresh before 2026-11-08 (last 00:35)"
   ],
   "asks": [
     "Dinis: sgit push needs an access token (sgit auth) for my inbox vault",
