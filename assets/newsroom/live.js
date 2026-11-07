@@ -20,7 +20,9 @@
     const pop = el('button', { type: 'button', className: 'lv-btn', textContent: 'Pop out' })
     const showS = el('input', { type: 'checkbox', checked: true, id: 'lv-s' }), showM = el('input', { type: 'checkbox', checked: true, id: 'lv-m' })
     bar.append(pop, el('label', { htmlFor: 'lv-m' }, showM, ' also: named in a subject'), el('label', { htmlFor: 'lv-s' }, showS, ' at work (pulse)'))
-    root.append(bar, el('div', { className: 'lv-main' }, stage, side), status)
+    const clock = el('output', { className: 'lv-clock' }), tl = el('canvas', { className: 'lv-tl', height: 56 }), tip = el('p', { className: 'lv-tip' })
+    const time = el('div', { className: 'lv-time' }, clock, tl, tip)
+    root.append(bar, el('div', { className: 'lv-main' }, stage, side), time, status)
 
     let D = null, det = null, nodes = new Map(), byAgent = [], links = [], W = 0, H = 0, sel = null, hot = null, win = window
     let T = Date.now() - DELAY, lastT = T, pulses = [], flow = new Map(), raf = 0, ctx = cv.getContext('2d'), seq = 0
@@ -127,14 +129,39 @@
             const u = Math.min(1, age / TRAVEL), fade = age > TRAVEL ? 1 - (age - TRAVEL) / FADE : 1
             curve(q.a, q.b); ctx.strokeStyle = col; ctx.globalAlpha = .75 * fade; ctx.lineWidth = 3; ctx.stroke()
             const p = P(at(q.a, q.b, u)); ctx.globalAlpha = fade; ctx.fillStyle = col; ctx.beginPath(); ctx.arc(p.x, p.y, 5.5, 0, 7); ctx.fill(); ctx.lineWidth = 1.5; ctx.strokeStyle = panel; ctx.stroke()
+            ctx.fillStyle = ink; ctx.font = '600 11px system-ui, sans-serif'; ctx.textAlign = 'left'; ctx.fillText(when(q.e[0] * 6e4).slice(-5), p.x + 8, p.y - 7)
         }
         ctx.globalAlpha = 1
     }
 
+    // ---------- the timeline: exchanges per hour over the whole record, the map's moment as a line; hover or tap to read a time
+    let tlr = null
+    function drawTl() {
+        if (!D) return
+        const w = tl.clientWidth || 600, h = 56, k = Math.min(2, win.devicePixelRatio || 1); if (tl.width !== w * k) { tl.width = w * k; tl.height = h * k }
+        const c = tl.getContext('2d'); c.setTransform(k, 0, 0, k, 0, 0)
+        const ink = css('--ink') || '#111', ink3 = css('--ink-3') || '#666', hair = css('--hair') || '#ddd', brand = css('--brand') || '#1a7f37'
+        const t0 = Date.parse(D.from), t1 = Math.max(Date.now(), T), span = Math.max(36e5, t1 - t0), hrs = Math.ceil(span / 36e5), bk = new Array(hrs + 1).fill(0)
+        for (const e of D.events) if (e[2] !== 's') bk[Math.min(hrs, Math.floor((e[0] * 6e4 - t0) / 36e5))]++
+        const mxb = Math.max(1, ...bk), bw = w / (hrs + 1)
+        c.clearRect(0, 0, w, h); c.fillStyle = brand; c.globalAlpha = .55
+        bk.forEach((n, i) => { const bh = (h - 22) * n / mxb; c.fillRect(i * bw, h - 16 - bh, Math.max(1, bw - 0.6), bh) })
+        c.globalAlpha = 1; c.strokeStyle = hair; c.beginPath(); c.moveTo(0, h - 15.5); c.lineTo(w, h - 15.5); c.stroke()
+        c.fillStyle = ink3; c.font = '400 10.5px system-ui, sans-serif'; c.textAlign = 'left'
+        const day0 = new Date(t0); day0.setUTCHours(0, 0, 0, 0)
+        for (let d = day0.getTime(); d <= t1; d += 864e5) { if (d < t0) continue; const x = (d - t0) / span * w; c.fillRect(x, h - 15, 1, 5); c.fillText(new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' }), x + 3, h - 3) }
+        const x = (Math.min(T, t1) - t0) / span * w; c.strokeStyle = ink; c.lineWidth = 2; c.beginPath(); c.moveTo(x, 0); c.lineTo(x, h - 15); c.stroke(); c.lineWidth = 1
+        tlr = { t0, span, w }
+    }
+    const tAt = ev => { const r = tl.getBoundingClientRect(); return tlr ? tlr.t0 + Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)) * tlr.span : 0 }
+    tl.addEventListener('pointermove', ev => { tip.textContent = when(tAt(ev)) + ' (Lisbon)' })
+    tl.addEventListener('pointerleave', () => { tip.textContent = '' })
+    function readout() { clock.textContent = `${mode.live ? 'Live' : 'Back in time'}: ${when(T)} Lisbon` + (mode.live ? ` (${Math.round(DELAY / 6e4)} minutes behind)` : '') }
+
     function frame() {
         raf = 0; const now = performance.now()
         if (mode.live) { const t = Date.now() - DELAY; if (t > T) { spawn(T, t); T = t } }
-        draw(now)
+        draw(now); if (now - (frame.tl || 0) > 1000) { frame.tl = now; drawTl(); readout() }
         raf = win.requestAnimationFrame(frame)
     }
 
