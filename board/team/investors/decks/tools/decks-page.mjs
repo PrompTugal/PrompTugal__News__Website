@@ -26,7 +26,7 @@ const rows = decks.map(d => {
     const en = JSON.parse(fs.readFileSync(path.join(DIR, 'i18n', d, 'en.json'), 'utf8'))
     const title = (en['s00.1'] || d).replace(/^PrompTugal: /, '').replace(/^./, c => c.toUpperCase())
     const version = (Object.values(en).find(v => /^v\d+\.\d+ · /.test(v)) || '').split(' · ')[0]
-    const slides = langs.map(l => `[${l.toUpperCase()}](../../investors/decks/${d}/${l === 'en' ? '' : l + '/'}index.html "${NAMES[l] || l}")`).join(' · ')
+    const slides = langs.map(l => `[${l.toUpperCase()}](../../investors/decks/${d}/${l === 'en' ? '' : l + '/'}index.html)`).join(' · ')
     const pdfs = langs.filter(l => fs.existsSync(path.join(DIR, d + (l === 'en' ? '' : '.' + l) + '.pdf'))).map(l => `[${l.toUpperCase()}](../../board/team/investors/decks/${d}${l === 'en' ? '' : '.' + l}.pdf)`).join(' · ')
     return `| **${d.split('-')[0]}. ${title}** | ${FOR[d] || ''} | ${slides} | ${pdfs} | ${version} |`
 })
