@@ -10,6 +10,12 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 10:52 UTC, 7 November (site v0.1.510)
+
+- **Brief 4 for the 12:00 stand-up:** `board/editor-briefs/2026-11-07T1052Z.pdf` (sent to Dinis).
+- BR1 (Brazil's 2025 delegation counts) published with its image; correspondent@'s five picks per summit day; Vicky's S24 published; ontologist@'s sells_on edges (AWS Marketplace); devops@: 0 red, the deploy size thread closed.
+- The 50 contact requests still wait for Dinis's yes. Snapshot 10:53. No hold.
+
 ## Wake at 09:52 UTC, 7 November (site v0.1.495)
 
 - **For Dinis:** outreach@'s 50 contact requests are filed in the Web Summit team's CRM and wait for him (who sends, from where).
