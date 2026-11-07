@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "temporal",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "durable-agent",
+      "name": "An agent runs as a durable workflow, and a person approves its decisions (Temporal)",
+      "summary": "Temporal's AI page, in its own terms: a developer writes the agent as a workflow in code; Temporal keeps its state, retries what fails until a model returns valid data, and pauses for a person where the workflow asks; the figures and customer names (Replit, Retool, Gorgias) are Temporal's.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The developer",
+          "what": "Writes the AI application or agent as a workflow in code with Temporal's SDKs, coding for the happy path only.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent (a workflow)",
+          "what": "Calls models and tools in a loop; Temporal orchestrates the calls across models, tools and data stores.",
+          "agent": "Call the model and the tools it chooses.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Temporal",
+          "what": "Holds the workflow's state over long periods (even years) and retries automatically until a probabilistic model returns valid data, so the run completes in spite of failures.",
+          "source": "fl1"
+        },
+        {
+          "actor": "A person",
+          "what": "Validates the model's results or approves the agent's decisions where the workflow calls for it (human in the loop).",
+          "source": "fl1"
+        },
+        {
+          "actor": "The team",
+          "what": "Inspects the run's inputs, outputs and performance in Temporal's UI and step-debugs its execution.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

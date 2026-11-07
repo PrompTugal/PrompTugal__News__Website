@@ -1,0 +1,102 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-07T05-08-38Z",
+ "started": "2026-11-07T05:08:38.944Z",
+ "ended": "2026-11-07T05:13:37Z",
+ "line": "wake 05:08: F43 with signed form 2; E's briefing; five workers brought",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-07T05:08:39.299Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-07T05:08:38.944Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 13,
+  "by_kind": {
+   "other": 1,
+   "git": 2,
+   "shell": 7,
+   "git-commit": 1,
+   "release": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 13,
+  "commits": [
+   {
+    "sha": "3d8e16c24",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "files": 12
+   },
+   {
+    "sha": "14e32a140",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 2
+   },
+   {
+    "sha": "24fc497a4",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "files": 2
+   },
+   {
+    "sha": "c1d19e151",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 6
+   },
+   {
+    "sha": "f98963763",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 10
+   },
+   {
+    "sha": "6cb0877ae",
+    "subject": "dev@PrompTugal.dinis: the agent block says who builds the site (F43), with a signing form that leaves the builder out; E's briefing from the correspondent's fiv",
+    "files": 5
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 13,
+  "in_mandate": 13,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

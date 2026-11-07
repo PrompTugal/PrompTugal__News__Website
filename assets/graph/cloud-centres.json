@@ -69,6 +69,14 @@
     "awsmp": {
       "label": "AWS Marketplace search by company name (public, no sign-in; researcher@, read 7 Nov 2026)",
       "url": "https://aws.amazon.com/marketplace/search/results"
+    },
+    "blog24": {
+      "label": "websummit.com, blog: Web Summit 2024 takeaways (12 Nov 2024)",
+      "url": "https://websummit.com/blog/web-summit/web-summit-2024-hosts-sold-out-event-with-record-breaking-71528-attendees/"
+    },
+    "blog25": {
+      "label": "websummit.com, blog: Web Summit 2025 takeaways (13 Nov 2025)",
+      "url": "https://websummit.com/blog/news/record-investors-at-web-summit-2025-bucking-industry-trends/"
     }
   },
   "relations": [
@@ -138,7 +146,7 @@
         },
         "past": {
           "state": "found",
-          "text": "Google is named among the 2022 edition's top partners in Web Summit's own numbers release (the ontologist's graph holds it as a partner of the 2022 edition; the 2026 partner on the list is Google Cloud).",
+          "text": "Google is named among the 2022 edition's top partners in Web Summit's own numbers release (the ontologist's graph holds it as a partner of the 2022 edition; the 2026 partner on the list is Google Cloud). The organiser's own 2024 and 2025 takeaway posts name the partners exhibiting; neither list names AWS, Google or Microsoft (2025 names Alibaba Cloud), so the 2022 naming did not repeat in those lists. Those lists are short and mid-event, so this is not absence.",
           "src": "press22",
           "label": "Google, 2022"
         }
@@ -228,7 +236,7 @@
         },
         "past": {
           "state": "found",
-          "text": "AWS is named among the 2022 edition's top partners, with Figma, Stripe and Binance, in Web Summit's own numbers release.",
+          "text": "AWS is named among the 2022 edition's top partners, with Figma, Stripe and Binance, in Web Summit's own numbers release. The organiser's own 2024 and 2025 takeaway posts name the partners exhibiting; neither list names AWS, Google or Microsoft (2025 names Alibaba Cloud), so the 2022 naming did not repeat in those lists. Those lists are short and mid-event, so this is not absence.",
           "src": "press22",
           "label": "AWS, 2022"
         }
@@ -292,7 +300,7 @@
         },
         "past": {
           "state": "found",
-          "text": "Microsoft is shown under \"Some partners from our past events\" on Web Summit's partners page; the edition is not given, and no 2026 listing was found.",
+          "text": "Microsoft is shown under \"Some partners from our past events\" on Web Summit's partners page; the edition is not given, and no 2026 listing was found. The organiser's own 2024 and 2025 takeaway posts name the partners exhibiting; neither list names AWS, Google or Microsoft (2025 names Alibaba Cloud), so the 2022 naming did not repeat in those lists. Those lists are short and mid-event, so this is not absence.",
           "src": "pastpartners",
           "label": "Past partner"
         }

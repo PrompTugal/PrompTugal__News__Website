@@ -35,6 +35,7 @@ Dinis Cruz is looking for **investors and business partners** to run with PrompT
 |---|---|
 | [The decks](decks/index.html) | Four decks to page through or send as PDF: the investment case, the industry, the platform, the Algarve |
 | [What works today](what-works/index.html) | What a reader, an attendee and an editor can use now, with a link to each |
+| [For event organisers](for-events/index.html) | What an edition for your event would be: before, during, after; what you get without anyone being tracked |
 | [The business plan](business-plan/index.html) | The revenue streams, who buys, what the investment is for, the timeline, and what we will not do |
 | [My Feeds](my-feeds/index.html) | The company, and its idea (graphs of content joined to graphs of people) that PrompTugal runs |
 | [How we got here](how-we-got-here/index.html) | Not the first newsroom: from My Feeds to PrompTugal.news |

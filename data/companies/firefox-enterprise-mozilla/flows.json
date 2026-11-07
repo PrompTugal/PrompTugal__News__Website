@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "firefox-enterprise-mozilla",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "ai-controls-in-the-browser",
+      "name": "IT decides which AI tools the browser allows, and what data may reach them (Firefox Enterprise)",
+      "summary": "Firefox Enterprise's page, in its own terms: the browser is where work, data, identity and AI converge, so IT sets AI controls and data rules centrally and exports what happens to its SIEM. No agent of Mozilla's acts here; the flow governs the AI tools people use in the browser.",
+      "source": "own1",
+      "steps": [
+        {
+          "actor": "IT and security teams",
+          "what": "Deploy Firefox Enterprise, on premises within their own infrastructure if they choose, and manage browser policy centrally.",
+          "source": "own1"
+        },
+        {
+          "actor": "IT and security teams",
+          "what": "Set AI controls: allow, restrict or disable AI tools in the browser.",
+          "source": "own1"
+        },
+        {
+          "actor": "Firefox Enterprise",
+          "what": "Warns or blocks sensitive data actions by domain (native DLP) and governs the browser's external connections.",
+          "source": "own1"
+        },
+        {
+          "actor": "Firefox Enterprise",
+          "what": "Exports browser events and audit activity to the organisation's SIEM.",
+          "source": "own1"
+        }
+      ]
+    }
+  ]
+}

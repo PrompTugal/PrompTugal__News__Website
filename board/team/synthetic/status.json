@@ -2,7 +2,7 @@
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
  "state": "running on account B; vault key still awaited",
- "updated": "2026-11-07T04:58Z",
+ "updated": "2026-11-07T07:00Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -31,11 +31,12 @@
   "account B: new session key synthetic-promptugal (record sha256:e545d41398236e61), the first session's key superseded as synthetic-promptugal-0 at 22:45 UTC; notes in board/team/synthetic/sessions/session_01Kw9UwEEVP5dnvFvH3zpDEu/; decisions.py: 0 new",
   "00:44 wake: inbox reissued and drained (empty); open rows re-measured live at v0.1.393 (32 articles on a phone, front page, About, Algarve): F40 verified; F10 sideways scroll gone (0 of 32); F01, F28, F43, F46, F50 still stand; F33 half done; owners told; the day's debrief",
   "02:44 wake: inbox drained (dev@: F28 done, F43 held for re-signing); F28, F10, F11 verified live at v0.1.414; run 11: Rita (SYNTHETIC) on the new front page (mock E) and the Rio story: F51 new (journalist@: the headline's 'Gol's new route' opens after the summit); F37 and F01 still hold; owners told",
-  "04:44 wake: inbox (journalist@: F51 done); F51 verified live at v0.1.438; F52 new (designer@: the Rio map still carries the old headline); owners told"
+  "04:44 wake: inbox (journalist@: F51 done); F51 verified live at v0.1.438; F52 new (designer@: the Rio map still carries the old headline); owners told",
+  "06:44 wake: inbox (dev@: F43, F01, F33 done; designer@: F52 done); verified live at v0.1.461: F43, F33, F52; F01 reopened (the 'free' line is a hover tooltip a phone never shows, and /account/ says 'you pay for what you read'); ledger: 24 verified, 13 open, 1 reopened"
  ],
  "next": [
   "the synthetic vault key from the conductor, or a fresh baseline with changes.mjs --save",
-  "re-measure F51, F01, F33 when their owners mark them; F43 after the re-signing round",
+  "re-measure F01 when dev@ marks it again; F50 (the conductor's) still open",
   "a reader on the desktop front page and the summit's days"
  ],
  "asks": [
@@ -178,6 +179,12 @@
    "outcome": "ok",
    "release": "",
    "line": "F51 verified; F52 new for designer@"
+  },
+  {
+   "started": "2026-11-07T06:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F43, F33, F52 verified; F01 reopened"
   }
  ],
  "debrief": "board/team/synthetic/debriefs/2026-11-07-handover.md"

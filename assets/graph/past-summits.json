@@ -11,7 +11,7 @@
       "summary": "Summary only",
       "none": "No figure found"
     },
-    "cautions": "2025's 71,386 is below 2024's 71,528 (both the organiser's own, announced mid-event), so 'record attendance' does not hold for 2025 in these sources; the records the sources claim are for investors (1,857) and startups. The organiser's own 2025 post gives 71,386; one recap says 71,368. Web Summit Qatar (2024) is not a Lisbon edition.",
+    "cautions": "2025's 71,386 is below 2024's 71,528 (both the organiser's own, announced mid-event), so 'record attendance' does not hold for 2025 in these sources; the records the sources claim are for investors (1,857) and startups. The organiser's own 2025 post gives 71,386, below 2024's; the record it claims is for investors (1,857, up 74%). One recap says 71,368. Web Summit Qatar (2024) is not a Lisbon edition.",
     "fail": "The data could not be loaded."
   },
   "sources": {
@@ -40,7 +40,7 @@
       "url": "https://websummit.com/blog/web-summit/web-summit-2024-hosts-sold-out-event-with-record-breaking-71528-attendees/"
     },
     "blog25": {
-      "label": "websummit.com, blog: 'Record investors at Web Summit 2025, bucking industry trends' (13 Nov 2025; title, description and opening read; the numbers list not yet read)",
+      "label": "websummit.com, blog: 'Record investors at Web Summit 2025, bucking industry trends' (13 Nov 2025; read in full)",
       "url": "https://websummit.com/blog/news/record-investors-at-web-summit-2025-bucking-industry-trends/"
     }
   },
@@ -132,7 +132,7 @@
       "value": 71528,
       "label": "71,528",
       "status": "read",
-      "note": "The organiser's own post (12 November 2024, midweek), read at source: sold out, 71,528 attendees from 153 countries; 3,050 companies exhibiting, 1,066 investors, 953 speakers, 2,005 media; 62 trade delegations from 36 countries. Its list of exhibiting partners does not name AWS, Google or Microsoft. An in-event figure; a final number may differ.",
+      "note": "The organiser's own post (12 November 2024, midweek), read at source: sold out, 71,528 attendees from 153 countries; 3,050 companies exhibiting, 1,066 investors, 953 speakers, 2,005 media; 62 trade delegations from 36 countries. Its list of exhibiting partners does not name AWS, Google or Microsoft. An in-event figure; a final number may differ. Compared with 2025 (same organiser): investors 1,066 vs 1,857; speakers 953 vs 869; media 2,005 vs 1,519.",
       "src": "blog24"
     },
     {
@@ -142,7 +142,7 @@
       "value": 71386,
       "label": "71,386",
       "status": "read",
-      "note": "The organiser's own post (13 November 2025, midweek) says Web Summit 2025 'is welcoming 71,386 attendees this week, including 1,857 investors from 86 countries' and calls it 'the largest number ever to attend'; its headline is about record investors. 71,386 is below the organiser's own 71,528 for 2024, so the 'largest' claim does not square with its own 2024 figure. An in-event figure; a single recap gives 71,368.",
+      "note": "The organiser's own post (13 November 2025, midweek), read in full: 71,386 attendees from 157 countries; 1,857 investors from 86 countries, up 74% from 1,066; 2,725 startups from 108 countries; 869 speakers; 1,519 media; 268 government delegations from 82 countries. 'The largest number ever to attend' follows the investors sentence, so the record is for investors. 71,386 is below the organiser's own 71,528 for 2024. An in-event figure; one recap gives 71,368.",
       "src": "blog25"
     }
   ]
