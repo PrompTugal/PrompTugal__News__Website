@@ -14,6 +14,7 @@ import { loadData } from './lib/data.mjs'
 import { loadFeatures } from './lib/features.mjs'
 import { buildGraph } from './lib/graph.mjs'
 import { htmlPage, twinPage, twinOf } from './lib/shell.mjs'
+import { rawPage } from './lib/raw.mjs'
 import { write, json, llmsTxt, finish, written } from './lib/writers.mjs'
 import { sitemapXml, newsSitemapXml, rssXml, robotsTxt } from './lib/seo.mjs'
 
@@ -78,7 +79,7 @@ const site = {
 }
 for (const p of pages) {
     const { html, toc } = markdown.render(p.md)
-    let out = htmlPage({ ...p, bodyHtml: p.postHtml ? p.postHtml(html) : html, toc: p.toc ?? toc }, site)
+    let out = p.raw ? rawPage(p, site) : htmlPage({ ...p, bodyHtml: p.postHtml ? p.postHtml(html) : html, toc: p.toc ?? toc }, site)
     if (p.absolute) out = out.replace(/href="(?!https?:|#)([^"]+)"/g, (m, h) => `href="/${h.replace(/^(\.\.\/)+/, '')}"`)
     write(p.rel, out)
     write(twinOf(p.rel), twinPage({ ...p, md: p.twinMd ?? p.md }, site))
