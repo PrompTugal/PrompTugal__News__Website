@@ -1,0 +1,77 @@
+/* Interactive guides (newsroom/build/features/guides.mjs): the controls an article's script draws, in the site's tokens
+   (assets/tokens.css), so light and dark follow the site. Scoped to .asg. Without the script none of this shows. */
+.asg { margin: 0 0 1.4em; }
+.asg-find:empty { display: none; }
+.asg .asg-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.asg .asg-chips button, .asg .asg-go {
+    font: 500 var(--fs-ui)/1.2 var(--sans); color: var(--ink); background: var(--panel);
+    border: 1px solid var(--hair); border-radius: var(--radius-pill); padding: 9px 14px; min-height: 40px; cursor: pointer;
+}
+.asg .asg-chips button[aria-pressed="true"] { background: var(--brand); color: var(--on-brand); border-color: var(--brand); }
+.asg .asg-go { background: var(--brand); color: var(--on-brand); border-color: var(--brand); margin-top: 6px; }
+.asg button:focus-visible, .asg input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.asg .asg-card { background: var(--panel); border: 1px solid var(--hair); border-left: 4px solid var(--brand); border-radius: var(--radius); padding: 14px 16px; margin: 0 0 14px; }
+.asg .asg-card > p { margin: 0 0 8px; max-width: var(--measure); }
+.asg .asg-card > p:last-child { margin-bottom: 0; }
+.asg .asg-eyebrow { font: 500 var(--fs-label)/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink); opacity: .75; }
+.asg .asg-q { font: 600 var(--fs-hed)/var(--lh-hed) var(--serif); }
+.asg .asg-small { font-size: var(--fs-meta); opacity: .8; }
+.asg .asg-try { font-weight: 600; margin: 0 0 10px; }
+
+/* the six steps: a staircase of buttons */
+.asg .asg-stairs { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; align-items: end; margin: 0 0 12px; }
+.asg .asg-stairs button {
+    display: flex; flex-direction: column; justify-content: flex-end; gap: 4px; min-height: calc(var(--h) + 34px);
+    font: 500 12.5px/1.2 var(--sans); color: var(--ink); text-align: left; background: var(--brand-soft);
+    border: 1px solid var(--hair); border-radius: var(--radius); padding: 8px 6px; cursor: pointer; overflow-wrap: anywhere;
+}
+.asg .asg-stairs button[aria-pressed="true"] { border: 2px solid var(--brand); }
+.asg .asg-stairs button.you { background: var(--warn-soft); border-color: var(--warn); }
+.asg .asg-n { font: 600 18px/1 var(--mono); }
+
+/* the dial */
+.asg .asg-instrument { display: grid; justify-items: center; gap: 6px; margin: 4px 0 14px; }
+.asg .asg-gauge { width: min(360px, 100%); height: auto; }
+.asg .asg-arc { fill: none; stroke-width: 22; transition: opacity .2s; }
+.asg .asg-arc.l1 { stroke: var(--hair); }
+.asg .asg-arc.l2 { stroke: var(--warn); }
+.asg .asg-arc.l3 { stroke: var(--ok); }
+.asg .asg-arc.dim { opacity: .3; }
+.asg .asg-start { fill: var(--live); }
+.asg .asg-needle { transform-origin: 150px 160px; transition: transform .35s ease; }
+.asg .asg-needle path, .asg .asg-needle circle { fill: var(--ink); }
+.asg .asg-glabel { font: 500 10px var(--mono); fill: var(--ink); opacity: .75; letter-spacing: .06em; }
+.asg .asg-range { display: flex; align-items: center; gap: 10px; width: min(360px, 100%); font: 400 var(--fs-meta)/1.2 var(--sans); }
+.asg .asg-range input { flex: 1; accent-color: var(--brand); min-height: 32px; }
+.asg .asg-lvl { display: inline-block; font: 600 var(--fs-label)/1 var(--mono); text-transform: uppercase; letter-spacing: .05em; padding: 4px 7px; border-radius: var(--radius); }
+.asg .asg-lvl.l1 { background: var(--hair); color: var(--ink); }
+.asg .asg-lvl.l2 { background: var(--warn-soft); color: var(--warn); }
+.asg .asg-lvl.l3 { background: var(--ok-soft); color: var(--ok); }
+.asg .asg-verdict { font-weight: 600; }
+.asg .asg-verdict.ok { color: var(--ok); }
+.asg .asg-verdict.low { color: var(--live); }
+.asg .asg-note { font-size: 15.5px; }
+.asg-dial.asg-on > p:not(.asg-try), .asg-dial.asg-on > ul.asg-listed { display: none; }
+
+/* questionnaires */
+.asg .asg-form fieldset { border: 0; padding: 0; margin: 0 0 14px; }
+.asg .asg-form legend { font-weight: 600; margin: 0 0 8px; padding: 0; }
+.asg .asg-form fieldset { display: flex; flex-wrap: wrap; gap: 8px; }
+.asg .asg-tile { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 7px 12px; background: var(--panel); border: 1px solid var(--hair); border-radius: var(--radius); font: 400 var(--fs-ui)/1.3 var(--sans); cursor: pointer; }
+.asg .asg-tile:has(input:checked) { border-color: var(--brand); background: var(--brand-soft); }
+.asg .asg-tile input { accent-color: var(--brand); margin: 0; }
+.asg .asg-whotext { font-weight: 600; min-width: 12em; }
+.asg .asg-result-top { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-bottom: 8px; }
+.asg .asg-track { fill: none; stroke: var(--hair); stroke-width: 14; }
+.asg .asg-track.thin { stroke-width: 8; }
+.asg .asg-reach { fill: none; stroke: var(--live); stroke-width: 14; }
+.asg .asg-control { fill: none; stroke: var(--ok); stroke-width: 8; }
+.asg .asg-gapn { font: 700 26px var(--sans); fill: var(--ink); }
+.asg .asg-card ol { margin: 0 0 10px; padding-left: 1.3em; }
+.asg .asg-card li { margin: 0 0 6px; }
+
+@media (max-width: 560px) {
+    .asg .asg-stairs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .asg .asg-stairs button { min-height: 64px; }
+}
+@media (prefers-reduced-motion: reduce) { .asg .asg-needle, .asg .asg-arc { transition: none; } }
