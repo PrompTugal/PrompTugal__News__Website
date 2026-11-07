@@ -32,17 +32,37 @@ self.addEventListener('activate', e => e.waitUntil((async () => {
     await self.clients.claim()
 })()))
 
-const OFFLINE = `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Offline · PrompTugal.news</title>
-<body style="font:17px/1.5 Georgia,serif;margin:0 auto;padding:24px 16px;max-width:36em;background:#f6f3ec;color:#121317">
-<h1 style="font-size:24px">You are offline</h1><p>This page was not kept on this device. These were:</p>
-<p><a href="${scope}">The front page</a> · <a href="${scope}summit/">The summit, day by day</a></p>
-<p>Articles you saved for offline open as usual. The site updates itself when the network is back.</p></body>`
+// the offline page (sherpa@'s O3): in the site's look, listing by title every page kept on this device
+const esc = t => String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c])
+async function offlinePage() {
+    const seen = new Set(), rows = []
+    for (const name of [SAVED, PAGES, SHELL]) {
+        const c = await caches.open(name)
+        for (const k of await c.keys()) {
+            const u = new URL(k.url); if (seen.has(u.href) || !/(\/|\.html)$/.test(u.pathname)) continue
+            seen.add(u.href)
+            try { const t = ((await (await c.match(k)).text()).match(/<title>([^<]*)<\/title>/) || [])[1]; if (t) rows.push([u.href, t.replace(/ · PrompTugal\.news$/, ''), name === SAVED]) } catch (e) { }
+            if (rows.length >= 80) break
+        }
+    }
+    const li = r => `<li><a href="${esc(r[0])}">${esc(r[1])}</a>${r[2] ? ' <b>saved</b>' : ''}</li>`
+    return `<!doctype html><html lang="en-GB"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Offline · PrompTugal.news</title>
+<link rel="stylesheet" href="${scope}assets/site.css"><body><div class="frame"><main id="main"><header class="page-head"><h1>You are offline</h1>
+<p class="lead">This page was not kept on this device. These were, and open now:</p></header><div class="body"><ul class="rows">${rows.map(li).join('')}</ul>
+<p>The site updates itself when the network is back.</p></div></main></div></body></html>`
+}
 
 self.addEventListener('fetch', e => {
     const r = e.request, u = new URL(r.url)
-    if (r.method !== 'GET' || u.origin !== self.location.origin || u.search || r.headers.has('authorization')) return
+    if (r.method !== 'GET' || u.origin !== self.location.origin || r.headers.has('authorization')) return
     if (NEVER.some(p => u.href.startsWith(new URL(p, scope).href))) return
     const key = keyOf(u)
+    // a page with a query (?design=e, search?q=) is never stored; offline it opens its page's copy, else the offline page (O2)
+    if (u.search) {
+        if (r.mode !== 'navigate') return
+        e.respondWith(fetch(r).catch(async () => (await caches.match(key)) || new Response(await offlinePage(), { status: 503, headers: { 'content-type': 'text/html; charset=utf-8' } })))
+        return
+    }
     e.respondWith((async () => {
         const net = fetch(r).then(async res => {
             if (res.ok && res.type === 'basic') { const c = await caches.open(PAGES); await c.put(key, await stamp(res.clone())); trim(c) }
@@ -54,7 +74,7 @@ self.addEventListener('fetch', e => {
             const kept = await caches.match(key)
             if (kept) return kept
             try { return await net } catch (e2) { }
-            if (r.mode === 'navigate') return new Response(OFFLINE, { status: 503, headers: { 'content-type': 'text/html; charset=utf-8' } })
+            if (r.mode === 'navigate') return new Response(await offlinePage(), { status: 503, headers: { 'content-type': 'text/html; charset=utf-8' } })
             return Response.error()
         }
     })())
