@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.623",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 20:07 wake: quiet; the iOS app's features surveyed for Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "34b5e75cd"
+  },
+  {
     "version": "v0.1.622",
     "date": "2026-11-07",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
