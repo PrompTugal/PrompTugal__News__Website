@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.651",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2c70a687b"
+  },
+  {
     "version": "v0.1.650",
     "date": "2026-11-07",
     "what": "dev.venues@PrompTugal.angelo: My day links to the venue map",
