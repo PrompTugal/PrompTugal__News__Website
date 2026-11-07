@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.453",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 06:08: status and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7fde28986"
+  },
+  {
     "version": "v0.1.452",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: source addresses shown short on the page, in full in the link and the twin (synthetic@'s F33)",
