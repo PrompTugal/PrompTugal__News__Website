@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.398",
+    "date": "2026-11-07",
+    "what": "sherpa@PrompTugal.dinis: inbox reissued (sherpa-b.json), signature verified, drained: empty",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "1116852e5"
+  },
+  {
     "version": "v0.1.397",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 01:07 wake: all eight home designs live; the reissued inboxes found under new names",
