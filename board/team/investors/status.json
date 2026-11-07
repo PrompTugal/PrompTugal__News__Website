@@ -2,7 +2,7 @@
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
   "state": "running on account B; phase two: eight decks in English and European Portuguese; waiting on Dinis for the web player",
-  "updated": "2026-11-07T14:00Z",
+  "updated": "2026-11-07T12:35Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -27,7 +27,8 @@
     "Dinis's 09:45 word (board/team/investors/dinis-2026-11-07-go-live-and-structure.md): decks approved to go live; sources under version control as src/*.deck, v1.0 on every cover, changelog on /investors/decks/; dev@ asked for a decks build feature to publish them as HTML pages",
     "Dinis's 10:25 word recorded: /investors/join/ (who are you: helpers this week, the founding team, a partner as CEO, journalists, investors, do it yourself); 'Who are you?' on the pitch page; team interview questions (consent first) routed through the conductor; decks 5 (the investment), 6 (the technology), 7 (join us), 8 (do it yourself) being built",
     "Four new decks at Dinis's word, reviewed and released: 5 the investment (14 slides), 6 what makes it possible (16), 7 join us (14), 8 do it yourself (15); every closing slide points to all eight; decks 1 to 4 bumped to v1.1; changelog on /investors/decks/. Four more AI-made images (about 0.55 USD)",
-    "Phase two (Dinis, 12:15 to 12:40 UTC): decks refactored to layout plus words per language; all eight in European Portuguese; deck 4 (Algarve, Portugal, Europe; 21 partners), deck 5 (seed under $1M, two phases, three questions), deck 8 (the moat is decisions; copy us); /investors/partners/; the pitch page with the round and the phases"
+    "Phase two (Dinis, 12:15 to 12:40 UTC): decks refactored to layout plus words per language; all eight in European Portuguese; deck 4 (Algarve, Portugal, Europe; 21 partners), deck 5 (seed under $1M, two phases, three questions), deck 8 (the moat is decisions; copy us); /investors/partners/; the pitch page with the round and the phases",
+    "12:23 wake: the outreach pack for outreach@ (board/team/investors/outreach-pack.md: who gets which deck, EN and PT opening lines, rules); the Portuguese PDFs checked live"
   ],
   "next": [
     "The web deck player and the decks as pages (waiting on Dinis's yes for investors@ to build it for dev@'s review)",
