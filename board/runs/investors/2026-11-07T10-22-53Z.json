@@ -1,0 +1,90 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "investors@PrompTugal.dinis",
+ "run": "2026-11-07T10-22-53Z",
+ "started": "2026-11-07T10:22:53.197Z",
+ "ended": "2026-11-07T10:53:40Z",
+ "line": "decks v1.0 live with sources under version control; decks 5 and 6 started",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-07T10:51:22.169Z",
+   "chars": 6844,
+   "sha256": "84b8c88762a8a6b9",
+   "head": "Good morning. So that deck is amazing, right? Great work overnight. let me give you now my thoughts on this and the next steps, right? So first of all, the position is great, right? The position is re"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-07T10:22:53.197Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-07T10:42:10.028Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-07T10:51:21.885Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 20,
+  "by_kind": {
+   "git": 1,
+   "agent": 1,
+   "web": 12,
+   "shell": 4,
+   "message": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 19,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-07T10:52:05.147Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in investors@PrompTugal.dinis's grant (subagents)",
+    "target": "web-fetch"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 20,
+  "in_mandate": 19,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

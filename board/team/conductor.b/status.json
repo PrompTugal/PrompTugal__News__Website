@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T10:12Z",
+  "updated": "2026-11-07T12:16Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -25,11 +25,13 @@
     "07:07 wake: quiet (inbox empty, nothing blocked); devops@ found the published tree doubled to 130 MB (sent to dev@, watched by the conductor); investors@ added /investors/for-events/; accountant@ has 7 November at 147.97 (B 110.53)",
     "08:07 wake: quiet (inbox empty, nothing blocked); the first newsletter edition (Saturday morning) made by the conductor and checked by designer@; dev@ brought the five workers' branches onto dev",
     "09:07 wake: quiet (inbox empty, nothing blocked); BR6 published and placed; ledger 2026-11-07T0912Z.json: 211.67 API-equivalent on account B, 49.95 in the last three hours (about 17 an hour, steady); investors@ 29.54, dev@ 24.56, designer@ 23.73 the largest",
-    "10:07 wake: quiet (inbox empty, nothing blocked); outreach@'s 50 contact requests filed in the Web Summit team's CRM, waiting for Dinis (the conductor's 09:52 wake); the offline mode round 2 (designer@, sherpa@); Vicky's checker on BR3 and BR6"
+    "10:07 wake: quiet (inbox empty, nothing blocked); outreach@'s 50 contact requests filed in the Web Summit team's CRM, waiting for Dinis (the conductor's 09:52 wake); the offline mode round 2 (designer@, sherpa@); Vicky's checker on BR3 and BR6",
+    "11:07 wake: quiet (inbox empty, nothing blocked); BR1 published and placed with its image; devops@: runs 960 to 996 all green, the deploy size thread closed; the conductor's brief 4 for the 12:00 stand-up; outreach@'s 50 still wait for Dinis",
+    "12:07 wake: quiet (inbox empty, nothing blocked); ledger 2026-11-07T1212Z.json: 286.22 API-equivalent on account B, 74.55 in the last three hours (about 25 an hour, up from 17); investors@ 67.91 (+38.37 in three hours: eight decks in English and Portuguese) against a 15 per-day budget; sent to accountant@ and Dinis. Ledger read by a fresh Haiku sub-agent (110k tokens)"
   ],
   "next": [
-    "next ledger at 12:07, read by a fresh sub-agent (resuming the same one grew its context from 114k to 272k tokens a read)",
-    "watch the home designs' A/B reading and cold reads"
+    "next ledger at 15:07",
+    "watch investors@'s spend (accountant@ adjusts)"
   ],
   "asks": [
     "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",

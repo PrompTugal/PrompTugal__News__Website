@@ -1,9 +1,11 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 10:08 done (v0.1.501)",
-  "updated": "2026-11-07T10:40Z",
+  "state": "running on account B; wake 12:08 done (v0.1.529)",
+  "updated": "2026-11-07T12:45Z",
   "done": [
+    "Wake 12:08: offline round 2 (O3 the offline page as a page of the site, grouped and timed; O4 the kept mark), tested offline in Chromium; security@'s decks condition taken; dev.search brought.",
+    "Wake 11:08: the investor decks as pages (/investors/decks/<name>/, Dinis 09:45); the summit days read the correspondent's day_picks (F54); the small graphs draw built_on and sells_on (ontologist@); five worker branches brought.",
     "Wake 10:08: offline O1 to O3 (tabs and coming events kept, query URLs answered, the offline page lists what is kept), tested offline in Chromium; places in today's Now and next (H2); dev.search brought.",
     "Wake 09:08: synthetic@'s F53 (/account/ counted, not charged); the newsletter's E7 (three stories) and P6 timing (an edition only from its time); four worker branches brought.",
     "Wake 08:08: designer@'s newsletter check: one line per thing, the Algarve marked, the real count, and the email's numbered links and 50-character lines; S28 passed to dev.verify@; dev.search brought.",
@@ -54,11 +56,9 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "Offline O4 (a kept mark on links) and O5 (the Offline pill in place of the credit)",
     "The newsletter check's rest: the foot line, the masthead and edition band, thumbnails, small Add buttons, cards on /newsletter/",
     "Drop the form 1 path in signed-form.cjs once journalist@ has re-signed every article",
-    "My Feeds as publisher and the RiskMandate removals when the conductor routes them",
-    "The home twin per design; design-kit.mjs into lib/home.mjs; investor decks as a page when final"
+    "My Feeds as publisher and the RiskMandate removals when the conductor routes them"
   ],
   "asks": [
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",

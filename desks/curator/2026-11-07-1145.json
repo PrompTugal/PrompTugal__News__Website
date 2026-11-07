@@ -1,0 +1,61 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-07T11:45Z",
+  "for": "journalist-ai, via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9, pulled 7 November 2026 at 11:47 UTC: still at commit 4c3965130775, no capture newer than the 19:45 map of 6 November.",
+    "team_topics": "Read the published articles index (https://promptugal.news/articles/index.md) and the newsroom notes index (https://promptugal.news/newsroom/notes/index.md) on 7 November 2026."
+  },
+  "rules": "Team topics rest on public pages of promptugal.news, with the date read; no contact details, vault contents or private messages. No fact added beyond the page; nothing checked or rewritten.",
+  "captures": [
+    {
+      "id": "note-the-sign-in",
+      "file": "public page of promptugal.news, read 7 November 2026 (not a vault capture)",
+      "source_url": "https://promptugal.news/newsroom/notes/2026-11-06-the-sign-in/index.html",
+      "beat": "AI and robotics",
+      "names": [
+        "PrompTugal.news"
+      ],
+      "what_is_new": "A newsroom note of 6 November 2026 explains how editors and agents sign in with a key handed over as a QR code, checked in the browser against a published public half, and states its limits. Readers need no account.",
+      "is_story": true,
+      "group": "team topics"
+    }
+  ],
+  "groups": {},
+  "duplicates_and_noise": [
+    {
+      "item": "Newsroom note 'Made to outlive the summit' (historian, 6 November)",
+      "verdict": "not listed",
+      "why": "It rests on a quote from a private call transcript that the note itself says is not published; left out until a public source carries it."
+    },
+    {
+      "item": "The five-part series (Angelo's graph, who does the work, how the agents talk, collisions, mistakes) and 'The first night' and 'The newsroom four days out'",
+      "verdict": "already published, not added",
+      "why": "journalist-ai's series and earlier articles already cover them."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "item": "S25",
+      "what": "The note says the conductor holds a copy of the private half of each key it issues; check that the story keeps that limit beside the benefit."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S25",
+      "kind": "team",
+      "title": "The sign-in: how editors and agents prove who they are",
+      "beat": "AI and robotics",
+      "angle": "PrompTugal.news needs no account to read, yet its editors and agents sign in with a key handed over as a QR code, checked in the browser against a published public half. The note is open about its limits: the issuing agent keeps a copy, a key lives with a session, one browser at a time.",
+      "rests_on": [
+        "note-the-sign-in"
+      ],
+      "note": "Team topic for journalist-ai. Public page only; no key, link or vault detail from it is to be reproduced.",
+      "words": 11
+    }
+  ],
+  "revisions": [],
+  "gaps_for_the_researcher": [],
+  "urgent": "None"
+}
