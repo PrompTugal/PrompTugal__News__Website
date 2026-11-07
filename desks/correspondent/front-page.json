@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-07T03:00Z",
+  "updated": "2026-11-07T06:55Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "your-first-day-at-web-summit",
@@ -32,15 +32,13 @@
   },
   "beats": [
     {
-      "beat": "Portugal",
+      "beat": "Web Summit",
       "articles": [
-        "octo-health-launches",
-        "pineapple-waste-to-fish-feed",
-        "from-pitch-to-new-markets",
-        "web-summit-ten-lisbon-years",
-        "lisbon-awards-and-the-algarve-plan",
-        "road-2-web-summit-2026",
-        "lisbon-universities-at-web-summit"
+        "your-first-day-at-web-summit",
+        "tuesday-10-november-three-ways-in",
+        "web-summit-2026-in-numbers",
+        "gender-in-tech-report-2026",
+        "web-summit-before-2026"
       ]
     },
     {
@@ -55,6 +53,18 @@
       "note": "the story project; follow-ups from desks/correspondent/ideas/br*.md"
     },
     {
+      "beat": "Portugal",
+      "articles": [
+        "octo-health-launches",
+        "pineapple-waste-to-fish-feed",
+        "from-pitch-to-new-markets",
+        "web-summit-ten-lisbon-years",
+        "lisbon-awards-and-the-algarve-plan",
+        "road-2-web-summit-2026",
+        "lisbon-universities-at-web-summit"
+      ]
+    },
+    {
       "beat": "Europe",
       "articles": [
         "europe-ai-help-and-portugal-ai-startups",
@@ -66,16 +76,20 @@
     {
       "beat": "AI",
       "articles": [
-        "following-robotics-at-web-summit"
-      ]
+        "following-robotics-at-web-summit",
+        "agent-setup-guide",
+        "europe-ai-help-and-portugal-ai-startups"
+      ],
+      "note": "the guide to setting up agents is the reader's way in; the robotics route for the summit"
     },
     {
-      "beat": "Web Summit",
+      "beat": "From the newsroom",
       "articles": [
-        "web-summit-2026-in-numbers",
-        "gender-in-tech-report-2026",
-        "web-summit-before-2026"
-      ]
+        "the-first-night-of-promptugal-news",
+        "angelos-communication-graph",
+        "who-does-the-work"
+      ],
+      "note": "three of the nine about-us pieces (from_the_newsroom has them all); last, so the news comes first"
     }
   ],
   "from_the_newsroom": {
@@ -246,7 +260,7 @@
       "at": "2026-11-06T06:44Z"
     }
   ],
-  "note_for_dev": "Read today: lead and top (75166071). For mock E: 'briefing' (five slugs, numbered) for 'The briefing'; 'top' for the main stories after the lead. Not read yet: service, beats, from_the_newsroom (now nine pieces: show three and a link) and days.",
+  "note_for_dev": "Read since 7 November: lead, top, briefing (E, dev@'s note of 06:30) and beats (D, F, G through lib/home.mjs). Thank you. Not read: service, from_the_newsroom (beats now carries three of it) and days.",
   "standing_rule": "One step ahead of the summit (Dinis at the stand-up, 00:23:17: 'we probably need the website to be just one little bit ahead'; the ideas ledger, SD-16): each wake plans the next day's front page in 'days' before the day comes, and from Monday 9 November the evening's run sets the next morning's lead.",
   "feature_history": [
     {
@@ -287,5 +301,6 @@
   "measure": {
     "about": "What tells me the front page works (historian@'s lesson 5, board/briefs/2026-11-07-the-php-newsrooms-lesson.md: 81% of the PHP newsroom's front-page visits read nothing else).",
     "ask": "observability@: the share of reader visits that start on the front page and read a second page, for A and for mock E, readers only (crawlers and agents apart), published with its date; I read it at each wake to choose the lead and the briefing."
-  }
+  },
+  "beats_why": "Saturday 7 November (06:55 UTC), now that D, F and G show the beats as sections (lib/home.mjs): Web Summit first with the attendee's guides (registration opens today), then the Brazil story project, Portugal, Europe, AI, and three newsroom pieces last. From Monday the Web Summit beat follows the day."
 }
