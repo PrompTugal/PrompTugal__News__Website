@@ -161,6 +161,7 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
             id: slug, type: 'event', title: it.what, kind, listed_as: it.kind, organiser,
             our_pick: it.kind === 'team-pick' || /team's data\/events\.json/.test(it.via || ''),
             date: it.date, time: it.time || null, start, end,
+            ...(it.all_day === true ? { all_day: true } : {}),  // only when the agenda says so; a null time without it is 'time to be confirmed' (synthetic@'s F60)
             where: it.where || null, place, track,
             part_of: null,
             organised_by: organiser === 'web-summit' ? 'organisation:web-summit' : null,
