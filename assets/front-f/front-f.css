@@ -8,7 +8,7 @@
 .ff-w { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); box-sizing: border-box; }
 .ff-glow { background: radial-gradient(1000px 320px at 20% 0%, var(--brand-soft), transparent 70%), var(--paper); border-bottom: 1px solid var(--hair); }
 .ff-hd { display: flex; align-items: center; gap: 16px; padding: 14px 0; }
-.ff-hd .wordmark { height: 26px; width: auto; }
+.ff-hd .wordmark { height: 40px; width: auto; }
 .ff-hd nav { margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px 18px; font: 500 13px var(--sans); }
 .ff-hd nav a[aria-current] { color: var(--brand); font-weight: 600; }
 .ff-hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 36px; align-items: center; padding: 18px 0 26px; }

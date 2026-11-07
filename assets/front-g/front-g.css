@@ -7,7 +7,7 @@
 :where(.fg) :is(h2, h3) { border: 0; padding: 0; margin: 0; text-transform: none; letter-spacing: normal; font-family: var(--serif); }
 .fg-w { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); box-sizing: border-box; }
 .fg-hd { display: flex; align-items: center; gap: 16px; padding: 14px 0; }
-.fg-hd .wordmark { height: 26px; width: auto; }
+.fg-hd .wordmark { height: 40px; width: auto; }
 .fg-hd nav { margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px 18px; font: 500 13px var(--sans); }
 .fg-hd nav a[aria-current] { color: var(--brand); font-weight: 600; }
 .fg-cover { max-width: calc(var(--page) - 2 * var(--gutter)); margin: 0 auto; border-radius: 22px; background: linear-gradient(135deg, #062a0e 0%, #0a4a16 55%, #006600 100%); color: #f6f3ec; overflow: hidden; }

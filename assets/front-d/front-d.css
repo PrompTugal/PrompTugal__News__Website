@@ -7,7 +7,7 @@
 .fd ul, .fd ol { margin: 0; padding: 0; }
 .fd-w { max-width: 680px; margin: 0 auto; padding: 20px var(--gutter) 40px; box-sizing: border-box; }
 .fd-hd { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 0 12px; }
-.fd-hd .wordmark { height: 30px; width: auto; }
+.fd-hd .wordmark { height: 40px; width: auto; }
 .fd-sub { font: 600 13px var(--sans); background: var(--brand); color: var(--on-brand) !important; padding: 9px 14px; border-radius: 8px; }
 .fd-date { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font: 12px var(--mono); color: var(--ink-3); border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); padding: 8px 0; margin: 0 0 22px; }
 .fd-date b { color: var(--brand); font-weight: 600; }
