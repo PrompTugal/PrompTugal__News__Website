@@ -1,0 +1,50 @@
+[
+ {
+  "id": "c1",
+  "claim": "Web Summit's public schedule contains 1,122 sessions, running from Monday 9 to Thursday 12 November."
+ },
+ {
+  "id": "c2",
+  "claim": "All 17 Cybersecurity Summit sessions are on Thursday 12 November, on Stage 8."
+ },
+ {
+  "id": "c3",
+  "claim": "All 16 PITCH sessions are on Tuesday 10 November, on Stage 12."
+ },
+ {
+  "id": "c4",
+  "claim": "The PITCH sessions end with results at 16:45."
+ },
+ {
+  "id": "c5",
+  "claim": "Opening Night is on Monday 9 November, at Centre Stage at 18:00."
+ },
+ {
+  "id": "c6",
+  "claim": "There are 22 Night Summit meet and greets on Monday 9 November."
+ },
+ {
+  "id": "c7",
+  "claim": "The session counts in the table are a snapshot of Web Summit's public schedule as it stood on Saturday 7 November."
+ },
+ {
+  "id": "c8",
+  "claim": "The table shows 14 of the schedule's 30 tracks."
+ },
+ {
+  "id": "c9",
+  "claim": "The Growth Summit has 26 sessions on Wednesday 11 November, on Stage 9."
+ },
+ {
+  "id": "c10",
+  "claim": "The Venture Summit is on Stage 5 and has 14 sessions on Tuesday 10 November and 12 on Wednesday 11 November."
+ },
+ {
+  "id": "c11",
+  "claim": "The Health Summit, SaaS Summit and Cybersecurity Summit each run only on Thursday 12 November."
+ },
+ {
+  "id": "c12",
+  "claim": "The companies page lists 30 companies in security, 22 in AI agents, 18 in developer tools and 15 in governance, risk and compliance."
+ }
+]

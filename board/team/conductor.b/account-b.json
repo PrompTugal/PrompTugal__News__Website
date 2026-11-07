@@ -211,7 +211,8 @@
       "trigger": "trig_01JhbC8793kkoYUndrLXuSFe",
       "cron": "45 * * * *",
       "started": "2026-11-07T18:03Z",
-      "first_prompt": "board/team/conductor.b/briefs/2026-11-07-riskmandate-xray.md (brief) and the prompt in that session"
+      "first_prompt": "board/team/conductor.b/briefs/2026-11-07-riskmandate-xray.md (brief) and the prompt in that session",
+      "state": "stopped: Dinis moved the X-ray work to the Web Summit team's repository (xray@web-summit.dinis, its own session) at about 18:25 UTC; wake disabled 19:12 UTC; this session made no commit and published no key; to be archived by Dinis"
     }
   ]
 }

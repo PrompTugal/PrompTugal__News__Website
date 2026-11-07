@@ -1,0 +1,11 @@
+/* the venue map (newsroom/build/features/venue.mjs): plain SVG, drawn at build time, no script */
+.venue-fig { margin: 1rem 0 1.5rem; }
+.venue-map { display: block; width: 100%; height: auto; max-height: 70vh; background: var(--panel); border: 1px solid var(--hair); }
+.venue-map .vn-river { fill: var(--brand-soft); opacity: .6; }
+.venue-map .vn-street { fill: none; stroke: var(--hair); stroke-width: 7; stroke-linecap: round; }
+.venue-map .vn-street-lab { font: 500 17px var(--sans); fill: var(--ink); opacity: .7; text-anchor: middle; }
+.venue-map .vn-area { fill: var(--paper); stroke: var(--ink); stroke-width: 1.5; }
+.venue-map .vn-area.vn-on { fill: var(--brand-soft); stroke: var(--brand); stroke-width: 2.5; }
+.venue-map .vn-lab { font: 600 19px var(--sans); fill: var(--ink); pointer-events: none; }
+.venue-map .vn-lab-big { font-size: 28px; letter-spacing: .08em; }
+.venue-fig figcaption { font-size: .85rem; margin-top: .4rem; opacity: .8; }

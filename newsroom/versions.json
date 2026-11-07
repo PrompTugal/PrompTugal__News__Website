@@ -1,5 +1,173 @@
 [
   {
+    "version": "v0.1.622",
+    "date": "2026-11-07",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "2b28e5f1a"
+  },
+  {
+    "version": "v0.1.621",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 19:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "1dd99c44c"
+  },
+  {
+    "version": "v0.1.620",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the first evening newsletter edition checked: the foot and byline pass; three fixes for dev@",
+    "by": "designer@PrompTugal.dinis",
+    "from": "910ee4b0f"
+  },
+  {
+    "version": "v0.1.619",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: wake 19:33: status (the evening edition is checked once built)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1483cb0d6"
+  },
+  {
+    "version": "v0.1.618",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: Startup Portugal: Road 2 Web Summit's class of 78, the Portugal stand, in its own words",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "34d21a540"
+  },
+  {
+    "version": "v0.1.617",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: IAPMEI and Turismo de Portugal read; hand-over debrief refreshed",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "e01b1cb5b"
+  },
+  {
+    "version": "v0.1.616",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the newsletter says who makes it: the email's foot and the page's byline (designer@'s E8, P5)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "77df2a691"
+  },
+  {
+    "version": "v0.1.615",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 19:07 wake: X-ray moved to the Web Summit team's site; xray@'s PrompTugal wake disabled",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "08f77d766"
+  },
+  {
+    "version": "v0.1.614",
+    "date": "2026-11-07",
+    "what": "librarian@PrompTugal.dinis: wake 18:56: every page has its maker (the investors' site); the agents' stocktake; catalogue v0.1.613",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "e46d2fdd3"
+  },
+  {
+    "version": "v0.1.613",
+    "date": "2026-11-07",
+    "what": "dev.venues@PrompTugal.angelo: /summit/venue/: the venue map, public, no people (WS-181 Part B1, item 1)",
+    "by": "dev.venues@PrompTugal.angelo",
+    "from": "a94b77f4c"
+  },
+  {
+    "version": "v0.1.612",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 18:44: run 16 on the graph; F59 new; open rows unchanged",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "ef139939f"
+  },
+  {
+    "version": "v0.1.611",
+    "date": "2026-11-07",
+    "what": "correspondent@PrompTugal.dinis: wake 18:41: WK1 leads for Sunday; the top and briefing for Sunday",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "133b43be8"
+  },
+  {
+    "version": "v0.1.610",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: cnext's and TrustScale's drafts follow their mapped flows; the updated requests sent",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "cfee05655"
+  },
+  {
+    "version": "v0.1.609",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: WK1's image drawn from the article's own table (no AI); a table tool for stories made of numbers",
+    "by": "designer@PrompTugal.dinis",
+    "from": "9b3c1f58d"
+  },
+  {
+    "version": "v0.1.608",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report, images",
+    "by": "investors@PrompTugal.dinis",
+    "from": "7e0da9587"
+  },
+  {
+    "version": "v0.1.607",
+    "date": "2026-11-07",
+    "what": "sherpa@PrompTugal.dinis: 18:29 wake: the graph pages read cold (v0.1.606); G1 to G6",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "a63933449"
+  },
+  {
+    "version": "v0.1.606",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report, 18:24 wake",
+    "by": "investors@PrompTugal.dinis",
+    "from": "bdab28d96"
+  },
+  {
+    "version": "v0.1.605",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: flows for TrustScale and cnext, from their rendered pages",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "173294db8"
+  },
+  {
+    "version": "v0.1.604",
+    "date": "2026-11-07",
+    "what": "writer@PrompTugal.angelo: WS125 corrected after checker@PrompTugal.vicky's fact-check, re-signed",
+    "by": "writer@PrompTugal.angelo",
+    "from": "43e52e03d"
+  },
+  {
+    "version": "v0.1.603",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: fix a wording slip about the Smart Country Convention in the Portugal ecosystem notes",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "9e08c0b06"
+  },
+  {
+    "version": "v0.1.602",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 18:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8b545cc29"
+  },
+  {
+    "version": "v0.1.601",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "26989f826"
+  },
+  {
+    "version": "v0.1.600",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 18:07 wake: xray@ confirmed by Dinis in its session; account B's ledger at 442.98",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "e13b313c0"
+  },
+  {
+    "version": "v0.1.599",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: xray@ started on account B, hourly during the X-ray push",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "2a4999822"
+  },
+  {
     "version": "v0.1.598",
     "date": "2026-11-07",
     "what": "checker@PrompTugal.vicky: fourth check: 10 articles, 5 waiting; BR6 and BR3 not yet fixed",

@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://trustscale.ai/en",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "TrustScale's home page (read 7 November 2026, 18:30 UTC, rendered in a headless browser because the page is built by script): the TrustScale Loop: Nuance defines the customer's criteria, Argus automates evaluation (every claim checked against evidence, with sources, a TrustScore and a correction), Humanus brings in an expert for edge cases, and results feed back into the model; it covers corpus, models, agents (prompt injection) and applications (the flow the-trustscale-loop)."
     }
   ]
 }

@@ -327,7 +327,8 @@
       "7-join-us": "A CEO from the news industry, journalists, helpers this week",
       "8-do-it-yourself": "The open repositories, the stack, the roadmap; the moat is decisions",
       "9-the-tour": "What is live, as an animated guided tour"
-    }
+    },
+    "info_alt": "How the ten decks fit together: deck 0 the map first, then 1 to 9, and which decks each reader reads first (an infographic made with Google's Gemini image model)."
   },
   "sequence": {
     "title": "Every slide at a glance",

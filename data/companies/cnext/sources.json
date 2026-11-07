@@ -25,6 +25,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "The company's own site, its home page (read 7 November 2026, 00:25 UTC): its website; and a description of what the company does: \"We build AI solutions for European businesses that let humans and AI agents work together\"; it names Kairos and \"by PKF Bofidi\". It does not state 400+ solutions or almost 20 years.",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://cnext.eu/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "cnext's home page (read 7 November 2026, 18:30 UTC, rendered in a headless browser because the page is built by script): AI solutions for European businesses where humans and AI agents work together; every automation runs on Kairos, its agentic AI platform for regulated industries, which runs in the client's own cloud; its KYC example flags an incomplete form for a person to review (the flow agents-on-kairos). The page's contact details are not used."
     }
   ]
 }

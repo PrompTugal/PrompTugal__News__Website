@@ -1,3 +1,4 @@
+// dev@'s reviewed copy (7 November 17:15; security@'s conditions 3 to 6 checked), served at api/v1/investors/persona.js.
 // Personal versions of the investor site (investors@PrompTugal.dinis, 7 November 2026; board/team/investors/tools/persona.mjs
 // makes them). investors@'s working copy: it is served only from dev@'s reviewed copy (security@'s S1b), at
 // api/v1/investors/persona.js, on the investor pages and the deck pages; never on a page that holds the keyring (S1).
@@ -62,7 +63,7 @@
         }
         if (p.pages && p.pages.length) {
             const s = el('div', 'you-sec'), c = el('p', 'chips'); s.append(el('h2', null, ui.pages || ''))
-            p.pages.forEach(pg => { const a = el('a', null, (document.querySelector(`a[href*="/${pg}/"]`) || {}).textContent || pg); a.href = inLang(`${pg}/index.html`, l); c.append(a) })
+            p.pages.forEach(pg => { const a = el('a', null, (document.querySelector(`a[href*="/${CSS.escape(pg)}/"]`) || {}).textContent || pg); a.href = inLang(`${pg}/index.html`, l); c.append(a) })
             s.append(c); view.append(s)
         }
     }
@@ -84,9 +85,10 @@
     async function start() {
         up = (document.querySelector('meta[name="inv-up"]') || {}).content || up
         dropZone()
-        const m = location.hash.match(/(?:^#|&)pk=([a-z0-9-]{2,40})\.([A-Za-z0-9_-]{43})/)
+        const m = location.hash.match(/(?:^#|&)pk=([a-z0-9-]{2,40})\.([A-Za-z0-9_-]{43})$/)
+        // any key leaves the address bar at once, even one that does not parse (dev@'s review, security@'s condition 3)
+        if (/pk=/.test(location.hash)) history.replaceState(null, '', location.pathname + location.search)
         if (m) {
-            history.replaceState(null, '', location.pathname + location.search)   // the key leaves the address bar at once
             try { const p = await openPack(m[1], m[2]); S.setItem(K, JSON.stringify(p))
                 if (p.lang && p.lang !== langOf() && document.body.classList.contains('inv-home')) { location.replace(inLang('index.html', p.lang)); return }
             } catch (e) { /* a wrong or old key: the site as usual */ }
