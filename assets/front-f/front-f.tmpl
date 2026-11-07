@@ -9,7 +9,7 @@
 <div><form class="ff-pb" role="search" action="search/index.html" method="get"><span class="ff-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form><p class="ff-pcs">{{#asks}}</p>
 <p class="ff-stats">{{#stats}}<span data-countdown-at="{{opening_at}}"><b data-cd>{{opening_in}}</b>to Opening Night</span></p></div></section>
 </div></div>
-<section class="ff-live" aria-label="This week"><h2 class="visually-hidden">This week</h2><div class="ff-tk" tabindex="0" aria-label="This week, scrolling; hover or focus to pause"><div class="ff-tk-in"><ul>{{#week}}</ul><ul aria-hidden="true">{{#week_again}}</ul></div></div></section>
+<section class="ff-live" aria-label="This week"><h2>This week</h2><div class="ff-tk" tabindex="0" aria-label="This week, scrolling; hover or focus to pause"><div class="ff-tk-in"><ul>{{#week}}</ul><ul aria-hidden="true">{{#week_again}}</ul></div></div></section>
 <div class="ff-w"><div class="ff-g">
 <section class="ff-main"><h2 class="visually-hidden">The top story</h2>{{lead}}
 <h2 class="ff-h">Top signals today <a href="articles/index.html">All {{count}}</a></h2><ol class="ff-rk">{{#ranked}}</ol></section>
@@ -31,6 +31,6 @@
 <!-- item:card --><article class="ff-card">{{thumb}}<div><span class="ff-chip">{{beat}}</span><h3><a href="{{href}}">{{title}}</a></h3></div></article>
 <!-- item:thumb --><a class="ff-pic" href="{{href}}" tabindex="-1">{{picture}}<span>AI-made</span></a>
 <!-- item:radar --><a class="ff-rr" href="{{href}}"><span>{{name}}</span><i><u style="width:{{pct}}%"></u></i><code>{{n}}</code></a>
-<!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a></li>
+<!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a><small>{{where}}</small></li>
 <!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
 <!-- end -->

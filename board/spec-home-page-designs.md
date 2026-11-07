@@ -94,3 +94,40 @@ The first one is made, for today's lead (`your-first-day-at-web-summit--{paper,i
 ## 7. Dinis's answer on the palettes (about 01:20 UTC, 7 November; relayed by conductor.b@)
 
 "1 yes, F and G can keep their own colours." Section 1's "every design in the brand" now holds for today and A to E only; F and G use Silvio's palettes inside their own designs, with four shades darkened for small text and a scrim (or ink text) on G's hero: `board/team/designer/brand-decisions.md` (the record and the exact values). E's deepened green band, live since v0.1.377, is read as part of the same yes (conductor.b@'s reading; the verbatim record is asked for). **For dev@ / dev.pages@:** F's and G's tokens from that table, scoped to `html[data-design="f"]` and `html[data-design="g"]`; nothing else changes. D3 for E and G is closed.
+
+## 8. Re-check at v0.1.413 (02:40 UTC)
+
+**Passes now:** D3 for F and G (Silvio's colours, the darkened text shades, G's hero with its ink scrim; d451b55a); D14 (the picker: "Designs A to G by Silvio (design@web-summit.silvio), from his lab"; the agent block names him too).
+
+**Unchanged since v0.1.390, with exact values to make them one-line fixes:**
+
+| # | Designs | The fix, exactly |
+|---|---|---|
+| D4 | B, C, D, F, G | the wordmark's aspect is 6.13 to 1 (`assets/brand/promptugal-wordmark-light.svg`, 8002 x 1306): `height: 40px` gives 245 px wide (today 26 to 34 px tall, 159 to 208 px wide). Where a bar cannot hold 40 px, the PT.news stamp at 40 px beside the name instead |
+| D6 | D | the countdown's own line under the date on a phone, as E does (`white-space: nowrap`, no fixed width) |
+| D7 | C | C's own section row `display: none` under 600 px, as E and F |
+| D11 | C, E, F, G | on a phone, "Now and next" (C: none above the fold; E: "Now and next"; F and G: "In Lisbon this week") moved to straight after the lead with `order` in the phone layout; measured top today: C 6,201, F 3,084, G 3,065, E 2,407 px; target under 1,700 px (two screens) |
+| E10 | the lead | `<picture>` with `design/infographics/out/<slug>--paper--phone.png` under 600 px (section 6): not wired yet |
+
+## 9. sherpa@'s H6 and H7 (review-2026-11-07-0330-the-home-designs.md): the type floor, the targets, the credit pill
+
+Measured live at v0.1.426 (03:45 UTC), first two screens, 390 and 1440 px.
+
+**H6, the type floor: no text under 12 px on any design; tap targets at least 24 px tall** (WCAG 2.2's minimum target; the site's own phone tab bar already does it). What falls under it now, and the fix:
+
+| Design | Selector (live) | Now | Make it |
+|---|---|---|---|
+| F | `.ff-pic > span` (the "AI-made" label on every picture) | 9 px | 12 px mono, padding 2px 6px |
+| F | `.ff-chip` (section chips: "Top story", "Portugal") | 10 px, 17 px tall | 12 px |
+| F | `.ff-h > a` ("All 31", "All") | 11 px, 14 px tall | 13 px, padding 5px 0 (24 px tall) |
+| F | `.ff-pcs > a` (suggested questions) | 23 px tall | padding 5px 12px (26 px) |
+| F | `.ff-tl time`, `.ff-badge` | 11 px | 12 px |
+| A, B | `.fx-days a` (the days strip: "Fri 6 / 3 items") | 11 px | 12 px for the second line; the chip itself is 47 px tall, fine |
+| A, B | `.fx-list time` ("Today 08:30"), `.fx-pill`, `.fx-k`, `ol li small` (briefing sections) | 11 to 11.5 px | 12 px |
+| A, F (desktop) | `nav.fx-nav a`, `header.ff-hd nav a` (Now, Agenda...) | 13 px, 17 px tall | padding 4px 2px (25 px tall); the gaps stay |
+
+One rule covers most of it: in each design's own CSS, `font-size: max(12px, <today's value>)` on the labels above, and `min-height: 24px` (with `display: inline-flex; align-items: center`) on any link that is not inside running text.
+
+**H7, the credit pill ("£5.00 credit") in the default's first phone screen.** It is the Ask feature's allowance (dev@'s 1cee32a93 says it is free), not news: on a phone, move it out of the top bar into the Ask panel (shown when the reader opens Ask, beside the box: "Free: £5.00 of questions"); on a desktop, keep it beside the Ask field in the top bar, as now. The currency (pounds or euros) is Dinis's question, not changed here. Owner: dev@.
+
+**sherpa@'s E6 (bylines as an address) and E9 (three Ask boxes)**, from 23:00, still mine with the journalist: on cards and the home page, the byline in words ("By our AI journalist, for Vicky Wang"), the address only on the article's own page under the byline; and one Ask per screen on a phone (the tab bar's Search), the design's own Ask box from 600 px up.

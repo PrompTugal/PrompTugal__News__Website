@@ -9,6 +9,14 @@
         "url": "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/",
         "status": 200
       }
+    },
+    {
+      "checked_at": "2026-11-07T04:25:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "summit_page": {
+        "url": "https://websummit.com/attendees/lis26/3f26a8cf-0526-4759-9d24-c4747ef74665/paul-jenkinson/",
+        "status": 404
+      }
     }
   ]
 }

@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: Build, code and release"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T00:59:57Z"
-site_version: "v0.1.395"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T03:58:37Z"
+site_version: "v0.1.430"
 source: board/catalogue.json
 ---
 
@@ -34,7 +34,7 @@ The shelf list (the cards in call-number order, 25 to a table): [open](../shelf-
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (40 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (43 connections from this collection)
 - [The library](LIB.md) (8 connections from this collection)
 - [The publication](PUB.md) (2 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph

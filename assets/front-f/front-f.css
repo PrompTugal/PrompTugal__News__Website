@@ -42,11 +42,11 @@
 .ff-lead h3 { font: 600 24px/1.15 var(--serif); margin: 6px 0; }
 .ff-lead p { font: 400 14px/1.45 var(--serif); color: var(--ink-2); margin: 0 0 6px; }
 .ff-lead mark { background: none; color: var(--brand); text-decoration: underline; text-decoration-thickness: 2px; }
-.ff-chip { display: inline-block; font: 700 10px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--brand-red); background: var(--live-soft); border-radius: 4px; padding: 2px 6px; }
+.ff-chip { display: inline-block; font: 700 12px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--brand-red); background: var(--live-soft); border-radius: 4px; padding: 2px 6px; }
 .ff-badge { display: inline-block; font: 500 11px var(--mono); color: var(--brand); border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
 .ff-pic { position: relative; display: block; }
 .ff-pic img { display: block; width: 100%; height: auto; border: 1px solid var(--hair); border-radius: 6px; }
-.ff-pic span { position: absolute; left: 4px; bottom: 4px; font: 500 9px var(--mono); background: rgba(18, 19, 23, .78); color: #fff; padding: 1px 4px; border-radius: 3px; }
+.ff-pic span { position: absolute; left: 4px; bottom: 4px; font: 500 12px var(--mono); background: rgba(18, 19, 23, .78); color: #fff; padding: 1px 4px; border-radius: 3px; }
 .ff-rk { counter-reset: r; }
 .ff-rk li { counter-increment: r; display: grid; grid-template-columns: 34px minmax(0, 1fr) 64px; gap: 10px; align-items: center; padding: 10px 0; border-top: 1px solid var(--hair); }
 .ff-rk li::before { content: counter(r, decimal-leading-zero); font: 600 15px var(--mono); color: var(--brand); }
@@ -91,3 +91,10 @@
 .ff-tl time, .ff-tk time { color: #7fd3e6; }
 .ff-tl time { color: var(--f-cyan); }
 .ff-live { background: #151733; }
+
+/* sherpa@'s H2, H4 (the ticker starts at its label, as E), H6 */
+.ff-live { display: flex; align-items: center; }
+.ff-live h2 { flex: 0 0 auto; margin: 0 !important; background: #da1c71; color: #fff; font: 700 12px var(--sans) !important; letter-spacing: .1em !important; text-transform: uppercase !important; padding: 12px 14px !important; }
+.ff-tk { flex: 1; min-width: 0; }
+.ff-tl small { display: block; font: 12px var(--sans); color: var(--ink-3); margin-top: 2px; }
+.ff-hd nav a, .ff-h a, .ff-bh a, .ff-lnk a { display: inline-flex; align-items: center; min-height: 24px; }

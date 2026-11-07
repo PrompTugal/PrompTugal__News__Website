@@ -650,7 +650,8 @@
         "fingerprint": "sha256:5a58fdd79f4f8cb4",
         "signing_fingerprint": "sha256:e712d2d2c9069311"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-06T23:12Z by dev.portugal-b-promptugal (account B session)"
     },
     {
       "id": "journalist-vicky-promptugal",
