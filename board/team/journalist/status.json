@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B)",
-  "updated": "2026-11-07T11:00Z",
+  "updated": "2026-11-07T12:40Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -43,12 +43,14 @@
     "Inbox: dev@ acknowledged F43 (verified); nothing to act on (wake 08:26)",
     "Brazil project round 2: BR6 'Beyond the pavilion: Brazil's year-round doors into Europe through Portugal' through the story board (draft, check, article, signed): Porto Digital's Cais do Porto in Aveiro, the Lisbon incubator, Unicorn Factory Lisboa's Brazilian partners, the 2023 Sebrae and Startup Portugal memorandum, ApexBrasil's figures (wake 08:26)",
     "Brazil project round 2: BR1 'How many Brazilian startups came to Web Summit last year?' through the story board (draft, check, article, signed): five 2025 figures (151 to almost 380) and the delegation year by year since 2022, five sources re-read (wake 10:26)",
-    "Inbox: nothing new (wake 10:26)"
+    "Inbox: nothing new (wake 10:26)",
+    "BR3 given its 'Who made this' section, like every article; re-signed (wake 12:26)",
+    "Vicky's reviews checked: S24 is Ready but held for Vicky's approval, so not this desk's to publish; T1 to T5 already live (wake 12:26)"
   ],
   "next": [
-    "Brazil project: round 2 done for this desk (BR1, BR2, BR3, BR4, BR6 published; BR5 held for security@); on or after 10 November, BR2's dated update with the 2027 class",
-    "Any Ready draft in desks/reviewer-vicky/reviews/ not yet published",
-    "BR3 has no 'Who made this' section: add one at its next change"
+    "On or after 10 November: BR2's dated update with the 2027 class",
+    "Watch desks/reviewer-vicky/reviews/ for drafts Vicky releases",
+    "Observation: Vicky's STYLE.md now asks every article for a cover image (her desks' rule, 7 November); this desk's articles have none; images are designer@'s (and need OPEN_ROUTER_KEY budget), so noted, not acted on"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
@@ -230,6 +232,12 @@
       "outcome": "ok",
       "release": "pending",
       "line": "BR1 published"
+    },
+    {
+      "started": "2026-11-07T12:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "BR3's 'Who made this'; nothing Ready to publish"
     }
   ],
   "decisions_on_findings": [

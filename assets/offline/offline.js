@@ -6,7 +6,7 @@
 (function () {
     if (!('serviceWorker' in navigator) || !window.caches) return
     var site = function () { return window.NRSite }, url = function (p) { return site() && site().url ? String(site().url(p)) : new URL(p, location.href).href }
-    var key = function (u) { var x = new URL(u, location.href); return x.origin + x.pathname }
+    var key = function (u) { var x = new URL(u, location.href); return x.origin + x.pathname.replace(/\/index\.html$/, '/') }
     var SAVED = 'pt-saved'
 
     function save(u) {
@@ -70,6 +70,40 @@
         b.addEventListener('click', function () { clear().then(function () { b.textContent = 'Offline copies cleared' }) })
         slot.appendChild(document.createTextNode(' · ')); slot.appendChild(b)
     }
+    // the offline page's list (designer@'s O3): three groups, each copy with its time; the days in order
+    function list() {
+        var box = document.querySelector('.offline-list'); if (!box) return
+        var title = function (r) { return r.clone().text().then(function (t) { var m = t.match(/<title>([^<]*)<\/title>/); return m ? m[1].replace(/ · PrompTugal\.news$/, '') : '' }) }
+        var group = function (name, head) {
+            return caches.keys().then(function (ks) { return ks.filter(function (k) { return k === name || (name === 'pt-shell-' && k.indexOf(name) === 0) }) }).then(function (ns) {
+                return Promise.all(ns.map(function (n) { return caches.open(n).then(function (c) { return c.keys().then(function (ks) {
+                    return Promise.all(ks.filter(function (k) { var p = new URL(k.url).pathname; return /\/$|\.html$/.test(p) && p.indexOf('/offline/') < 0 }).map(function (k) { return c.match(k).then(function (r) { return title(r).then(function (t) { return { url: k.url, title: t, at: r.headers.get('x-pt-saved') } }) }) }))
+                }) }) })).then(function (all) { return { head: head, rows: [].concat.apply([], all).filter(function (x) { return x.title }).sort(function (a, b) { return a.url.localeCompare(b.url) }) } })
+            })
+        }
+        Promise.all([group(SAVED, 'Articles you saved'), group('pt-shell-', 'Always kept'), group('pt-pages', 'Read on this device')]).then(function (gs) {
+            box.replaceChildren(); var seen = {}
+            gs.forEach(function (g) {
+                var rows = g.rows.filter(function (x) { return !seen[x.url] && (seen[x.url] = 1) }); if (!rows.length) return
+                var h = document.createElement('h2'); h.textContent = g.head; box.appendChild(h)
+                var ul = document.createElement('ul'); ul.className = 'rows'
+                rows.forEach(function (x) { var li = document.createElement('li'), a = document.createElement('a'); a.href = x.url; a.textContent = x.title; li.appendChild(a); if (x.at) { var s = document.createElement('small'); s.textContent = ' kept ' + when(x.at); li.appendChild(s) } ul.appendChild(li) })
+                box.appendChild(ul)
+            })
+            if (!box.children.length) box.textContent = 'Nothing is kept on this device yet.'
+        })
+    }
+    // offline, a link that opens from a kept copy says so (designer@'s O4)
+    function marks() {
+        document.querySelectorAll('a.pt-kept').forEach(function (a) { a.classList.remove('pt-kept') })
+        if (navigator.onLine) return
+        // one mark per story (the title's link, not the picture's) and none on a page's own section switches (designer@)
+        document.querySelectorAll('main a[href], .ctabs a[href]').forEach(function (a) {
+            var u = new URL(a.href, location.href); if (u.origin !== location.origin || a.querySelector('img, picture') || a.closest('.seg, .seg-links, .view-switch, nav.crumbs')) return
+            if (u.pathname === location.pathname) return
+            caches.match(key(a.href)).then(function (r) { if (r) a.classList.add('pt-kept') })
+        })
+    }
     function start() {
         if (!document.querySelector('link[rel="manifest"]')) { var l = document.createElement('link'); l.rel = 'manifest'; l.href = url('assets/offline/manifest.webmanifest'); document.head.appendChild(l) }
         fetch(url('assets/offline/switch.json'), { cache: 'no-store' }).then(function (r) { return r.json() }).then(function (sw) {
@@ -77,8 +111,8 @@
             return navigator.serviceWorker.register(url('sw.js'), { scope: url('') })
         }).catch(function () { })
         clearButton()
-        badge(); button()
-        addEventListener('online', badge); addEventListener('offline', badge)
+        badge(); button(); list(); marks()
+        addEventListener('online', function () { badge(); marks() }); addEventListener('offline', function () { badge(); marks() })
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start()
 })()

@@ -15,7 +15,7 @@ export const assets = { css: ['assets/offline/offline.css'], js: ['assets/offlin
 const TMPL = 'assets/offline/sw.tmpl', OFF = 'assets/offline/sw-off.tmpl', SWITCH = 'assets/offline/switch.json', SW = 'sw.js', MANIFEST = 'assets/offline/manifest.webmanifest'
 const NEVER = KEYRING_PAGES.map(r => r.replace(/index\.html$/, ''))
 // the files that make the worker: changed by dev@ only (security@'s condition: one reviewed file)
-const OWNED = [TMPL, OFF, SWITCH, 'assets/offline/offline.js', 'newsroom/build/features/offline.mjs'], OWNER = 'dev@PrompTugal.dinis'
+const OWNED = [TMPL, OFF, SWITCH, 'assets/offline/offline.js', 'assets/offline/offline-page.md', 'newsroom/build/features/offline.mjs'], OWNER = 'dev@PrompTugal.dinis'
 const DATA = ['api/v1/events.json', 'api/v1/live/agenda.json']
 const dir = rel => rel.replace(/index\.html$/, '')
 
@@ -25,6 +25,13 @@ async function shellOf(ctx) {
     const dirF = ctx.R('newsroom/build/features'), feats = await Promise.all(fs.readdirSync(dirF).filter(f => f.endsWith('.mjs')).map(f => import(new URL(f, import.meta.url))))
     const named = ['newsroom/build/lib/shell.mjs', 'assets/top/top.tmpl'].flatMap(f => [...fs.readFileSync(ctx.R(f), 'utf8').matchAll(/assets\/[a-z0-9/._-]+\.(?:css|js|svg|png)/g)].map(m => m[0]))
     return [...new Set([...feats.flatMap(f => [...(f.assets?.css || []), ...(f.assets?.js || [])]), ...named])].filter(f => fs.existsSync(ctx.R(f))).sort()
+}
+// the offline page (designer@'s O3, round 2): a page of the site (C's top, the tab bar), its list filled on the device
+// by offline.js from the caches; the worker answers with it when a page was not kept
+const PAGE = 'assets/offline/offline-page.md'
+export function pages(ctx) {
+    const { meta, body } = ctx.md.frontMatter(fs.readFileSync(ctx.R(PAGE), 'utf8'))
+    return [{ rel: 'offline/index.html', src: PAGE, title: meta.title, summary: meta.summary, md: body, type: 'site', section: '' }]
 }
 export async function keep(ctx) {
     const days = ctx.pages.filter(p => /^days\/[^/]+\/index\.html$/.test(p.rel)).map(p => dir(p.rel))
@@ -36,7 +43,7 @@ export async function keep(ctx) {
     const tabs = ['agenda', 'news', 'companies'].map(id => ctx.NAV.nav.find(n => n.id === id)?.href).filter(Boolean).map(dir)
     const events = ctx.store.events.filter(e => e.listed_as && (e.end_date || e.date) >= ctx.TODAY).sort((a, b) => (a.date + (a.start || '')).localeCompare(b.date + (b.start || ''))).slice(0, 120)
         .map(e => `events/${e.id}/`).filter(r => ctx.pages.some(p => p.rel === r + 'index.html'))
-    return [...new Set(['', 'summit/', ...tabs, ...days, ...news, ...events, ...await shellOf(ctx), ...DATA, ...dayData, MANIFEST])]
+    return [...new Set(['', 'offline/', 'summit/', ...tabs, ...days, ...news, ...events, ...await shellOf(ctx), ...DATA, ...dayData, MANIFEST])]
 }
 export const api = async ctx => {
     const on = JSON.parse(fs.readFileSync(ctx.R(SWITCH), 'utf8')).enabled !== false

@@ -1,19 +1,23 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 10 of 10)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T09:59:38Z"
-site_version: "v0.1.497"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T12:59:26Z"
+site_version: "v0.1.538"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 10 of 10)
 
-86 cards, from `DAT.PL colombia` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+90 cards, from `DAT.PL centre-stage` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 901 to 925**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL centre-stage` | [Centre Stage](https://promptugal.news/places/centre-stage/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL centro-de-congressos-ulisboa` | [Centro de Congressos ULisboa](https://promptugal.news/places/centro-de-congressos-ulisboa/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL centro-vasco-de-gama` | [Centro Vasco de Gama](https://promptugal.news/places/centro-vasco-de-gama/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL china` | [China](https://promptugal.news/places/china/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL colombia` | [Colombia](https://promptugal.news/places/colombia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL czechia` | [Czechia](https://promptugal.news/places/czechia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL developer-lounge` | [Developer Lounge](https://promptugal.news/places/developer-lounge/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -35,15 +39,15 @@ source: board/catalogue.json
 | `DAT.PL italy` | [Italy](https://promptugal.news/places/italy/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL lagos` | [Lagos](https://promptugal.news/places/lagos/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL lisbon` | [Lisbon](https://promptugal.news/places/lisbon/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL lithuania` | [Lithuania](https://promptugal.news/places/lithuania/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL luxembourg` | [Luxembourg](https://promptugal.news/places/luxembourg/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL masterclass-1` | [Masterclass 1](https://promptugal.news/places/masterclass-1/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL masterclass-2` | [Masterclass 2](https://promptugal.news/places/masterclass-2/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 926 to 950**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL lithuania` | [Lithuania](https://promptugal.news/places/lithuania/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL luxembourg` | [Luxembourg](https://promptugal.news/places/luxembourg/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL masterclass-1` | [Masterclass 1](https://promptugal.news/places/masterclass-1/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL masterclass-2` | [Masterclass 2](https://promptugal.news/places/masterclass-2/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL masterclass-3` | [Masterclass 3](https://promptugal.news/places/masterclass-3/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL masterclass-4` | [Masterclass 4](https://promptugal.news/places/masterclass-4/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meetup-1` | [Meetup 1](https://promptugal.news/places/meetup-1/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -65,15 +69,15 @@ source: board/catalogue.json
 | `DAT.PL ptw-palace` | [PTW Palace](https://promptugal.news/places/ptw-palace/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL quiosque-lisboa-praca-sao-paulo` | [Quiosque Lisboa, Praça São Paulo](https://promptugal.news/places/quiosque-lisboa-praca-sao-paulo/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL quiosque-lisboa-principe-real` | [Quiosque Lisboa, Príncipe Real](https://promptugal.news/places/quiosque-lisboa-principe-real/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL royal-dublin-society` | [Royal Dublin Society](https://promptugal.news/places/royal-dublin-society/) | place | ontologist@ 6 Nov 2026 |
-| `DAT.PL rua-das-portas-de-santo-antao` | [Rua das Portas de Santo Antão](https://promptugal.news/places/rua-das-portas-de-santo-antao/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL singapore` | [Singapore](https://promptugal.news/places/singapore/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL soul-kitchen-and-bar` | [Soul kitchen & bar](https://promptugal.news/places/soul-kitchen-and-bar/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 951 to 975**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL royal-dublin-society` | [Royal Dublin Society](https://promptugal.news/places/royal-dublin-society/) | place | ontologist@ 6 Nov 2026 |
+| `DAT.PL rua-das-portas-de-santo-antao` | [Rua das Portas de Santo Antão](https://promptugal.news/places/rua-das-portas-de-santo-antao/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL singapore` | [Singapore](https://promptugal.news/places/singapore/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL soul-kitchen-and-bar` | [Soul kitchen & bar](https://promptugal.news/places/soul-kitchen-and-bar/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL spaces-oriente` | [Spaces Oriente](https://promptugal.news/places/spaces-oriente/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL spain` | [Spain](https://promptugal.news/places/spain/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL speed-networking` | [Speed Networking](https://promptugal.news/places/speed-networking/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -95,15 +99,15 @@ source: board/catalogue.json
 | `DAT.PL united-states` | [United States](https://promptugal.news/places/united-states/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP ai` | [Artificial intelligence](https://promptugal.news/topics/ai/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP ai-agents` | [AI agents](https://promptugal.news/topics/ai-agents/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+
+**Cards 976 to 990**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `DAT.TOP announcements` | [Announcements](https://promptugal.news/topics/announcements/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP devtools` | [Developer tools](https://promptugal.news/topics/devtools/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP europe` | [Europe](https://promptugal.news/topics/europe/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP grc` | [Governance, risk and compliance](https://promptugal.news/topics/grc/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-
-**Cards 976 to 986**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `DAT.TOP how-this-newsroom-is-made` | [How PrompTugal.news is made](https://promptugal.news/topics/how-this-newsroom-is-made/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP interviews` | [Interviews and podcasts](https://promptugal.news/topics/interviews/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP investor` | [Investors](https://promptugal.news/topics/investor/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |

@@ -6,7 +6,7 @@ We would rather talk to fewer people who are excited about the technology than t
 
 ## Before we talk {#before}
 
-1. **Use it.** Read the news, build [your day at the summit](../../my-day/index.html), [ask the newsroom](../../ask/index.html) a question, top up a few pounds and read. You will be a user before you are an investor; that is the point.
+1. **Use it.** Read the news, build [your day at the summit](../../my-day/index.html), [ask the newsroom](../../ask/index.html) a question, top up a few euros and read. You will be a user before you are an investor; that is the point.
 2. **Read everything, or have your agent read it.** This section, [the newsroom](../../newsroom/index.html), [the decisions](../../newsroom/decisions/index.html), and [the public repository](https://github.com/PrompTugal/PrompTugal__News__Website): the code, the data, the plan and the agents' notes. Every page has a markdown twin and the site has an [llms.txt](../../llms.txt); point your own AI agent at it and ask it what you want to know.
 3. **Come with your questions.** By then you know what we built, how, and how fast.
 

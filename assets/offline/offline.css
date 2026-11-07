@@ -4,3 +4,7 @@
 .pt-save-offline[aria-pressed="true"] { border-color: var(--brand); color: var(--brand); }
 @media print { .pt-offline, .pt-save-offline { display: none; } }
 .pt-offline-clear { padding: 0; border: 0; background: none; color: inherit; font: inherit; text-decoration: underline; cursor: pointer; }
+/* the offline page's list and the kept mark (designer@'s O3, O4) */
+.offline-list h2 { margin-top: 28px; }
+.offline-list small { font: 12px var(--sans); color: var(--ink-3); }
+a.pt-kept::after { content: " kept"; font: 600 11px var(--sans); color: var(--ok); margin-left: 4px; }

@@ -1,7 +1,7 @@
 {
  "s00.1": "PrompTugal: the industry, and the right direction",
  "s01.1": "<b>Investors</b> · deck 2",
- "s01.2": "v1.2 · 7 November 2026",
+ "s01.2": "v1.4 · 7 November 2026",
  "s01.3": "The industry, and the right direction",
  "s01.4": "News is looking the wrong way. <span style=\"color:#c52830\">We are not.</span>",
  "s01.5": "The publishing industry got hooked on advertising, then on subscriptions, and stopped inventing. Readers want accurate information, kept current, that saves them time. PrompTugal is built for that, and it is already running.",
@@ -161,7 +161,7 @@
  "s08.18": "A starting credit",
  "s08.19": "Read first. No wall, no subscription.",
  "s08.20": "2",
- "s08.21": "Pence per page",
+ "s08.21": "Cents per page",
  "s08.22": "Pay for what you read, not for the bundle.",
  "s08.23": "3",
  "s08.24": "Below zero is fine",
@@ -353,7 +353,7 @@
  "s14.15": "When people pay",
  "s14.16": "before, for a bundle",
  "s14.17": "→",
- "s14.18": "after the value, pence per page",
+ "s14.18": "after the value, cents per page",
  "s14.19": "Reader data",
  "s14.20": "tracked, profiled, sold",
  "s14.21": "→",
@@ -399,5 +399,9 @@
  "s16.22": "At Web Summit Lisbon, 9 to 12 November 2026. No figures yet: we do not have them to give honestly. We are talking to investors.",
  "s16.23": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
  "s16.24": "All eight decks: promptugal.news/investors/decks",
- "meta.description": "Why the news industry is struggling and still looking the wrong way, and the direction PrompTugal takes: accurate information, kept current, provenance, privacy by design. Investor deck 2, November 2026."
+ "meta.description": "Why the news industry is struggling and still looking the wrong way, and the direction PrompTugal takes: accurate information, kept current, provenance, privacy by design. Investor deck 2, November 2026.",
+ "s05.l1": "where PrompTugal builds",
+ "s05.l2": "where the industry defends",
+ "s05.l3": "where it is heading",
+ "s05.l4": "inertia"
 }

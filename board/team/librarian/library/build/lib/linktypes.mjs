@@ -13,7 +13,6 @@ export const LINK_TYPES = [
   { rel: 'answers', inverse: 'answered_by', from: 'finding or question', to: 'card', target: 'card', use: 'the decision page a finding names, or the card where an answered question says it stands' },
   { rel: 'supersedes', inverse: 'superseded_by', from: 'card', to: 'card', target: 'card', use: 'a later holding replaces an earlier one (front matter, a versioned name, or the owner\'s word in authority/forms.json)' },
   { rel: 'derived_from', inverse: 'source_of', from: 'card', to: 'card', target: 'card', use: 'a generated file and the file its own header says it came from' },
-  { rel: 'see', inverse: 'see_from', from: 'card', to: 'card', target: 'card', use: 'a former or withdrawn holding points to the one that took its place' },
   { rel: 'see_also', inverse: 'also_seen_from', from: 'card', to: 'card', target: 'card', use: 'related holdings worth reading together (two cards that cite each other, or the owner\'s word); written as two directed edges because the ontology bans a verb that is its own inverse' },
 ]
 // Where each link type stands in the site's ontology (data/ontology.json, ontologist@'s): read at every build, never
