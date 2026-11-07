@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.451",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 06:07 wake: account B's ledger at 161.72 API-equivalent, about 16 an hour",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "9d8e6dc1a"
+  },
+  {
     "version": "v0.1.450",
     "date": "2026-11-07",
     "what": "security@PrompTugal.dinis: wake 06:05: 28 commits clean, the signature's form 2 reviewed, S27 (its mask) to dev@",
