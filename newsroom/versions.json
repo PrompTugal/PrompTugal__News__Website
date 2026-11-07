@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.449",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 05:52: a quiet night, thirty releases",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "35c923d72"
+  },
+  {
     "version": "v0.1.448",
     "date": "2026-11-07",
     "what": "outreach@PrompTugal.dinis: RUNS.md: stray backslashes removed from the 05:40 entry",
