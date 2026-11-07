@@ -39,3 +39,24 @@ The exact shape, from Saturday's real morning edition: `design/newsletter/mornin
 | P6 | /newsletter/ lists the editions as cards, newest first, morning and evening side by side per day, each with its opening line |
 
 The evening edition takes the same shape: "What happened today" (the day's articles and moments), "Tomorrow" (three things), the same foot.
+
+## Check of the first edition: Saturday 7 November, morning (designer@ session 3, 07:40 UTC)
+
+Read live at 07:35 Lisbon: https://promptugal.news/newsletter/2026-11-07-morning/ (desktop and phone: `design/newsletter/check-2026-11-07-morning.jpg`) and its email, `api/v1/newsletter/2026-11-07-morning.txt`. It went out on time and from data; the editions are numbered, linked and public, with nothing private (E9 passes). Most of the design above is not built yet. In order of what a reader notices first:
+
+| # | Result | What the first edition does |
+|---|---|---|
+| E5, P3 | **fail** | "Registration: collect your lanyard and wristband..." twice (09:30 at the airport, 12:00 at Pavilhão de Portugal): one entry with its two places and times |
+| E6, P3 | **fail** | the first item is "DevFest Lagos 2026" with the place "Lagos", no region: a Lisbon reader cannot tell it is in the Algarve (sherpa@'s H2 too); put it under "In the Algarve, not in Lisbon" |
+| new | **fail** | "Five things to plan around today" lists four: count them, or say "What to plan around today" |
+| E3, E4 | **fail** | every link inline in brackets after its title, lines up to 330 characters: numbered references at the end, 50-character lines |
+| E7 | **fail** | five stories with their full summaries (one is four lines long): three, one short line each, then "Every article" |
+| E8, P5 | **fail** | the foot uses the old line "technology and AI, in context, from Portugal for Europe"; the page says "By PrompTugal.news": both as E8 and P5 say (who writes it: AI agents, edited by Dinis Cruz, Indi Gupte and Vicky Wang) |
+| E1, E2 | **fail** | no masthead (PROMPTUGAL.NEWS · MORNING EDITION, the date and "sent 07:30 Lisbon"); the opening line is generic, not the day's ("2 days to Opening Night" from data at least) |
+| P1 | **fail** | no edition band (stamp, "sent 07:30 Lisbon", links to the evening edition and to yesterday) |
+| P2 | **fail** | no thumbnails for the stories (every article has `design/infographics/out/<slug>--paper--thumb.png`) |
+| P4 | **fail** | a full-width "Add to my day" box under every item: a small text button on the meta line |
+| P6 | **fail** | /newsletter/ is a plain list of two links, and already lists the evening edition before its time has come: cards, newest first, an edition only once its time has come |
+| E9 | pass | no unsubscribe or sender lines |
+
+Owner: dev.pages@ (the editions), dev@ (review). The evening edition is the next chance to see these.

@@ -77,6 +77,10 @@
     "blog25": {
       "label": "websummit.com, blog: Web Summit 2025 takeaways (13 Nov 2025)",
       "url": "https://websummit.com/blog/news/record-investors-at-web-summit-2025-bucking-industry-trends/"
+    },
+    "speakers": {
+      "label": "websummit.com, 2026 speakers (loaded in a browser until it stopped growing; researcher@, 7 Nov 2026)",
+      "url": "https://websummit.com/speakers/"
     }
   },
   "relations": [
@@ -115,8 +119,10 @@
           "label": "Google Cloud"
         },
         "speaker": {
-          "state": "todo",
-          "text": "Speakers by employer (websummit.com/speakers has filters) are still to check; only page 1 of the partners list was read."
+          "state": "none",
+          "text": "No speaker from Google or Google Cloud found in the 2026 speakers page as loaded. Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); completeness was not confirmed, so a miss is not proof of absence. Roles only, no names.",
+          "src": "speakers",
+          "label": "Google"
         },
         "builton": {
           "state": "found",
@@ -164,8 +170,8 @@
         },
         "speaker": {
           "state": "found",
-          "text": "A press conference with Amazon's Vice President, People Experience and Technology: 11 November 2026, 16:00 to 16:20, Stage 2 (Press Conference). The speaker is given by job title only on the page; AWS itself is not named, and no AWS speaker was found among the first 20 speakers read.",
-          "src": "amazon",
+          "text": "A press conference with Amazon's Vice President, People Experience and Technology: 11 November 2026, 16:00 to 16:20, Stage 2. The 2026 speakers page as loaded lists that one Amazon speaker (a vice president, people, experience and technology, United States) and no speaker from AWS or Amazon Web Services; the job title only, not a cloud division. Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); completeness was not confirmed, so a miss is not proof of absence. Roles only, no names.",
+          "src": "speakers",
           "label": "Amazon"
         },
         "builton": {
@@ -253,9 +259,10 @@
           "src": "partners"
         },
         "speaker": {
-          "state": "none",
-          "text": "No 2026 speaker found by search. A Web Summit SaaS Summit page names a Microsoft executive in the past tense (an earlier edition): not 2026 evidence.",
-          "src": "saas"
+          "state": "found",
+          "text": "One speaker listed as a global director of creative at Microsoft, United States, on the 2026 speakers page as loaded: a corporate role, not from the Azure cloud division. None named Azure. (A Web Summit SaaS Summit page names a Microsoft executive in the past tense: not 2026 evidence.) Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); completeness was not confirmed, so a miss is not proof of absence. Roles only, no names.",
+          "src": "speakers",
+          "label": "Microsoft"
         },
         "builton": {
           "state": "found",

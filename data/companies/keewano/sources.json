@@ -23,7 +23,7 @@
       "url": "https://www.keewano.com/",
       "read_on": "2026-11-07",
       "read_by": "ontologist@PrompTugal.dinis",
-      "supports": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: \"the database for machine reasoning at scale\": KeewanoDB, an ordered record of complete event sequences, and an MCP server that gives agents access.",
+      "supports": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: \"the database for machine reasoning at scale\": KeewanoDB, an ordered record of complete event sequences, and an MCP server that gives agents access. Re-read read 7 November 2026, 07:25 UTC for the flow agent-asks-the-event-record: raw events ingested intact, tied to entities and timelines, a semantic layer, reasoning beside the record, answers to agents through MCP, SQL, REST and APIs.",
       "kind": "other"
     }
   ]

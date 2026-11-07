@@ -1,0 +1,185 @@
+{
+  "$schema": "none",
+  "article": "atlassian",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/6cce6c44-be71-48b5-814e-b320efc7cb7e/atlassian",
+      "status": 200,
+      "read": true,
+      "chars": 1208
+    },
+    {
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "status": 200,
+      "read": true,
+      "chars": 3082
+    },
+    {
+      "url": "https://websummit.com/attendees/lis26/d0ce77d9-7b32-4c84-99ad-d0d9388a5ab3/mike-cannon-brookes",
+      "status": 200,
+      "read": true,
+      "chars": 2359
+    },
+    {
+      "url": "https://www.atlassian.com/",
+      "status": 200,
+      "read": true,
+      "chars": 13507
+    }
+  ],
+  "spent_usd": 0.0566,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Atlassian.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Copyright © 2026 Atlassian",
+          "note": "The Atlassian homepage names the company Atlassian in its title and copyright line."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Meet the world-leading companies joining us at Web Summit 2026 Google Cloud Google Cloud AI & machine learning Meta Platforms, Inc. Meta Platforms, Inc. Advertising, content & marketing Apple Apple Telecommunications & IT Atlassian",
+          "note": "Source S2 lists Atlassian among the world-leading companies joining Web Summit 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Atlassian",
+          "note": "The source identifies the company as Atlassian."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.atlassian.com.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "https://www.atlassian.com/",
+          "note": "S4 is the page at https://www.atlassian.com/, and its content is Atlassian's own site, so the claim that this is the company's website is supported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "https://www.atlassian.com/",
+          "note": "Source S4 is the official website of Atlassian at https://www.atlassian.com/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "https://www.atlassian.com/",
+          "note": "S4 is Atlassian's homepage at the claimed URL, confirming the company's website."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Team collaboration software; its AI platform, anchored by Rovo and the Teamwork Graph, connects work across Jira, Confluence and Jira Service Management for 350,000+ customers.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "Join the 350,000+ teams",
+          "note": "The source supports the AI platform with Rovo and the Teamwork Graph and the 350,000+ figure, but it says 'teams' rather than 'customers', does not use the exact phrase 'Team collaboration software' (its title reads 'Collaboration software for software, IT and business teams'), and does not explicitly say the platform connects work across Jira Service Management."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "Where 350,000+ teams turn context into delivery",
+          "note": "While S4 mentions collaboration software, an AI platform with Rovo and the Teamwork Graph, Jira, Confluence, Jira Service Management, and 350,000+ teams, the source does not contain this specific self-description or phrasing."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "350,000+ teams",
+          "note": "S4 supports collaboration software, Rovo, Teamwork Graph, and 350,000+ teams, but it says teams rather than customers and does not explicitly state the AI platform connects work across Jira, Confluence, and Jira Service Management."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Australia.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Atlassian Australia SaaS",
+          "note": "The Web Summit company listing for Atlassian shows Australia as its country, though the separate speaker entry for Mike Cannon-Brookes lists United States, which applies to the person rather than the company."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Atlassian Australia SaaS",
+          "note": "The partner page for the company Atlassian lists it with Australia."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Atlassian Australia SaaS",
+          "note": "S1 lists Atlassian under Australia."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (partner; speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Atlassian Atlassian SaaS",
+          "note": "The Web Summit 2026 global partners page lists Atlassian, and S3 separately shows Atlassian co-founder and CEO Mike Cannon-Brookes as a featured speaker at Lisbon 2026."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "PARTNER",
+          "note": "S1 shows Atlassian listed as a partner for Web Summit Lisbon 2026, but does not mention it being a speaker's company."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "PARTNER",
+          "note": "S1 is Atlassian's Web Summit Lisbon 2026 page and labels it PARTNER, while S3 identifies Atlassian as speaker Mike Cannon-Brookes's company."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}
