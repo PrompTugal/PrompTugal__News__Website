@@ -139,7 +139,7 @@
         var b = m.state.balance
         a.classList.toggle('is-low', b < 100)
         a.classList.toggle('is-neg', b < 0)
-        a.replaceChildren(m.money(b), h('span', { class: 'meter-label' }, ' credit'))
+        a.replaceChildren(m.money(b), h('span', { class: 'meter-label' }, ' free credit'))
         a.setAttribute('aria-label', 'Reading credit ' + m.money(b) + ', kept in this browser: your account')
         a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top up whenever it feels fair. Kept in this browser only.' : 'Free to read: nothing is charged. A reading credit kept in this browser only; top up only if you want to'
     }

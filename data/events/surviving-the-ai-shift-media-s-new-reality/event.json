@@ -25,13 +25,6 @@
       "org": "organisation:cnbc"
     },
     {
-      "person": "person:jeff-d-onofrio",
-      "as_listed": "Jeff D'Onofrio (CEO & Publisher, The Washington Post)",
-      "role": "CEO & Publisher",
-      "organisation": "The Washington Post",
-      "org": "organisation:washington-post"
-    },
-    {
       "person": "person:astrid-maier",
       "as_listed": "Astrid Maier (Chief Deputy Editor and Head of Strategy, Deutsche Presse-Agentur)",
       "role": "Chief Deputy Editor and Head of Strategy",
@@ -42,7 +35,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/2b807636-c8da-412f-87c4-331707882876/surviving-the-ai-shift-media-s-new-reality/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
-  "read_at": "2026-11-06T08:18Z",
+  "read_at": "2026-11-07T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -52,6 +45,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 83
+    "item": 85
   }
 }

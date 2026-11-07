@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "ledger",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "agent-proposes-you-sign",
+      "name": "An agent prepares a payment; the person approves it on a hardware signer (Ledger)",
+      "summary": "Ledger Agent Intent (beta), in its example of an invoice: the agent can read shared accounts and propose and prepare transactions, but cannot see keys, sign, approve its own proposals or change a transaction after approval; a compromised agent can only fill the queue.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The person",
+          "what": "Shares accounts with the agent through Ledger Sync and decides what it may access on its own and what needs permission.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Reads an invoice, prepares the payment and adds it to the person's approval queue, then moves on to its next task.",
+          "agent": "Prepare the payment and queue it.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The person",
+          "what": "Reviews the queued proposals in one sitting and verifies the recipient, approving or rejecting each on the signer's Secure Screen.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The Ledger signer",
+          "what": "Signs only what the person approved; the private keys stay in the Secure Element, out of the agent's reach.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

@@ -25,13 +25,6 @@
       "org": "organisation:sygaldry-technologies"
     },
     {
-      "person": "person:greg-piefer",
-      "as_listed": "Greg Piefer (Founder & CEO, SHINE Technologies)",
-      "role": "Founder & CEO",
-      "organisation": "SHINE Technologies",
-      "org": "organisation:shine-technologies"
-    },
-    {
       "person": "person:laureen-meroueh",
       "as_listed": "Laureen Meroueh (Founder & CEO, Hertha Metals)",
       "role": "Founder & CEO",
@@ -49,7 +42,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/a23706f0-40be-41f8-b6ca-9881732130f5/will-tech-save-the-energy-sector-or-break-it/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
-  "read_at": "2026-11-06T08:18Z",
+  "read_at": "2026-11-07T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -59,6 +52,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 182
+    "item": 185
   }
 }

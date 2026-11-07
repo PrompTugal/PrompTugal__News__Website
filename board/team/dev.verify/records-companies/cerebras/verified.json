@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "cerebras",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/e19b58c2-c945-4334-98e8-8a1299527397/cerebras",
+      "status": 200,
+      "read": true,
+      "chars": 1227
+    },
+    {
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "status": 200,
+      "read": true,
+      "chars": 3082
+    },
+    {
+      "url": "https://www.cerebras.ai/",
+      "status": 200,
+      "read": true,
+      "chars": 7858
+    }
+  ],
+  "spent_usd": 0.0304,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Cerebras.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "© 2026 Cerebras. All rights reserved.",
+          "note": "The company's own website shows the name Cerebras in its header and copyright line, and S1 and S2 also list Cerebras as a company."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Meet the world-leading companies joining us at Web Summit 2026 Google Cloud Google Cloud AI & machine learning Meta Platforms, Inc. Meta Platforms, Inc. Advertising, content & marketing Apple Apple Telecommunications & IT Atlassian Atlassian SaaS Intel Corporation Intel Corporation Hardware, robotics & IoT IBM IBM AI & machine learning Spotify Spotify Entertainment & media Lenovo Lenovo Industrials, manufacturing & consumer goods Qualcomm Qualcomm AI & machine learning TikTok TikTok Advertising, content & marketing Booking.com Booking.com Travel & hospitality Datadog Datadog SaaS 1Password 1Password Security Replit Replit AI & machine learning Twilio Twilio Telecommunications & IT Akamai Akamai Telecommunications & IT Maisa AI Maisa AI AI & machine learning Novo Novo Healthtech & wellness Upwork Upwork HR & recruitment Cerebras",
+          "note": "The source lists Cerebras under the world-leading companies joining the event."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Cerebras",
+          "note": "The official site identifies the company as Cerebras."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.cerebras.ai.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://www.cerebras.ai/",
+          "note": "S3 is the Cerebras homepage at that URL, and its content identifies the site as Cerebras's own (copyright 'Cerebras', 'info@cerebras.ai')."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources state the company's website URL."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://www.cerebras.ai/",
+          "note": "S3 is the Cerebras website at the claimed URL."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Builds AI infrastructure (wafer-scale systems), on premises and in the cloud, for corporations, research institutes and governments.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "available in the cloud and on-premise",
+          "note": "The Cerebras homepage supports the cloud and on-premise deployment and wafer-scale chip parts of the claim, but it does not contain this self-description or name corporations, research institutes, and governments as the target customers."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources contain the company's description of building AI infrastructure for corporations, research institutes, and governments."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "available in the cloud and on-premise",
+          "note": "S3 supports cloud/on-premise and wafer-scale AI infrastructure, but it does not state the claimed customer categories of corporations, research institutes, and governments."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cerebras United States AI & machine learning",
+          "note": "The Web Summit attendee listing for Cerebras shows its country as United States alongside its AI & machine learning sector."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cerebras United States AI & machine learning",
+          "note": "The company profile on Web Summit lists Cerebras alongside the United States and its industry."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cerebras United States",
+          "note": "S1 lists Cerebras under the country United States."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (partner).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "PARTNER",
+          "note": "Cerebras's Web Summit page under the lis26 (Lisbon 2026) path is labeled PARTNER, and the global partners list in S2 also names Cerebras among companies joining Web Summit 2026, though S2 does not itself say Lisbon."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S2",
+          "quote": "Meet the world-leading companies joining us at Web Summit 2026",
+          "note": "The sources confirm Cerebras is listed as a partner for Web Summit 2026, but the text does not explicitly identify the event as Web Summit Lisbon 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "PARTNER Share Share on X Share on LinkedIn Copy link Cerebras",
+          "note": "The Web Summit Lisbon 2026 appearance page for Cerebras labels it as a PARTNER."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}

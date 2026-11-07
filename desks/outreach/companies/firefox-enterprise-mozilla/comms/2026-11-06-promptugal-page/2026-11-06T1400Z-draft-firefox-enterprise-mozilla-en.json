@@ -6,7 +6,7 @@
  "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
  "to": "Firefox Enterprise by Mozilla: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
  "subject": "We built a page about Firefox Enterprise by Mozilla: could you check it?",
- "sha256": "e272e1ed84e214aafa8a6e966f6e10f7c95d182f9fb09b1bddbc1ebd1ecaaf2c",
+ "sha256": "7c502ce92ece386307899a7d27b6b51e71a934257d2ee0866c95776b49321d58",
  "attachments": [],
  "summary": "PrompTugal.news writes to Firefox Enterprise by Mozilla leading with its page (https://promptugal.news/companies/firefox-enterprise-mozilla/); a company.",
  "followups": {

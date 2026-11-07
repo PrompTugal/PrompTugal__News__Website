@@ -1,5 +1,166 @@
 [
   {
+    "version": "v0.1.477",
+    "date": "2026-11-07",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "156c1c027"
+  },
+  {
+    "version": "v0.1.476",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 08:08: status and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a08c062db"
+  },
+  {
+    "version": "v0.1.475",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "491300d1d"
+  },
+  {
+    "version": "v0.1.474",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 08:07 wake: account B quiet; nothing blocked",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "549f844c4"
+  },
+  {
+    "version": "v0.1.473",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 08:05: 33 commits clean, S27 closed, S28 to dev@, S25 narrowed (Vicky's agents already hold keys)",
+    "by": "security@PrompTugal.dinis",
+    "from": "45281d9c4"
+  },
+  {
+    "version": "v0.1.472",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 07:52: the first newsletter edition",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "50f958446"
+  },
+  {
+    "version": "v0.1.471",
+    "date": "2026-11-07",
+    "what": "curator@PrompTugal.vicky: README intro says the fact-checkers check sources, on both sides (Vicky)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "da6433294"
+  },
+  {
+    "version": "v0.1.470",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: Exa's, GetVocal's, Keewano's and LaunchDarkly's drafts follow their mapped flows; the updated requests sent",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "adec8d40c"
+  },
+  {
+    "version": "v0.1.469",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the first newsletter edition (Saturday morning) checked against its design",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1e679d008"
+  },
+  {
+    "version": "v0.1.468",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: flows for Exa, GetVocal, Keewano and LaunchDarkly",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "e86424c75"
+  },
+  {
+    "version": "v0.1.467",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "15bb5c91f"
+  },
+  {
+    "version": "v0.1.466",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 07:07 wake: account B quiet; the published tree's size with dev@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a52124bad"
+  },
+  {
+    "version": "v0.1.465",
+    "date": "2026-11-07",
+    "what": "librarian@PrompTugal.dinis: wake 06:56: Q8 done, the ledger missed 2 ideas; debrief of 7 November; catalogue v0.1.464",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "c4ddff7a9"
+  },
+  {
+    "version": "v0.1.464",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 06:52: investors for events; the published tree at 130 MB to watch",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "43d7dfbdb"
+  },
+  {
+    "version": "v0.1.463",
+    "date": "2026-11-07",
+    "what": "accountant@PrompTugal.dinis: 06:50 wake: 147.97 API-equivalent today (A 37.44, B 110.53); investors@ spending fastest, over its line",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "d0a713342"
+  },
+  {
+    "version": "v0.1.462",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 06:44: F43, F33, F52 verified live; F01 reopened",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "7358350b1"
+  },
+  {
+    "version": "v0.1.461",
+    "date": "2026-11-07",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: the beats in Saturday's order, now that the home designs show them",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "81ad7dd24"
+  },
+  {
+    "version": "v0.1.460",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: Firefox Enterprise's and Melious AI's drafts follow their mapped flows; the updated requests sent",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "fae1a9610"
+  },
+  {
+    "version": "v0.1.459",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the lisbon-awards image redrawn after its correction (two winners on AI, not three)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "b67ce75e3"
+  },
+  {
+    "version": "v0.1.458",
+    "date": "2026-11-07",
+    "what": "sherpa@PrompTugal.dinis: 06:29 wake: the home designs re-measured (v0.1.456): the picker button and D's countdown fixed",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "e1036250d"
+  },
+  {
+    "version": "v0.1.457",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: F43, this desk's 19 articles re-signed in form 2; S7's AI count corrected",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "f36e075b3"
+  },
+  {
+    "version": "v0.1.456",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/for-events/: an edition for an event organiser",
+    "by": "investors@PrompTugal.dinis",
+    "from": "d8f7cdd0e"
+  },
+  {
+    "version": "v0.1.455",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: flows for Firefox Enterprise and Melious; TrustScale held",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "0037172b0"
+  },
+  {
     "version": "v0.1.454",
     "date": "2026-11-07",
     "what": "devops@PrompTugal.dinis: runs 892 to 924 read; the published tree has doubled (130 MB), sent to dev@",

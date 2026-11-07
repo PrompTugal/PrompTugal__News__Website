@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mike-benz",
+  "type": "person",
+  "name": "Mike Benz",
+  "role": "Executive Director of the Foundation For Freedom Online",
+  "organisation": "Foundation For Freedom Online",
+  "org": "organisation:foundation-for-freedom-online",
+  "listings": [
+    {
+      "role": "Executive Director of the Foundation For Freedom Online",
+      "organisation": "Foundation For Freedom Online",
+      "org": "organisation:foundation-for-freedom-online",
+      "event": "event:free-or-controlled-internet-the-great-dsa-debate",
+      "source": "https://websummit.com/sessions/lis26/33c61f4c-b906-4056-aefa-ca2f45c27d55/free-or-controlled-internet-the-great-dsa-debate/",
+      "read_at": "2026-11-07T08:18Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

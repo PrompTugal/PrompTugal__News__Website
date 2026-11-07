@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://shop.ledger.com/pages/ledger-agent-intent",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Ledger Agent Intent (beta), \"Agents propose, you approve, signers enforce\" (read 7 November 2026, 08:25 UTC; the link ledger-agent-stack redirects here): agents propose and prepare transactions into an approval queue, the person approves or rejects on the signer's Secure Screen, the keys stay in the Secure Element; what an agent can and cannot do (the flow agent-proposes-you-sign)."
     }
   ]
 }

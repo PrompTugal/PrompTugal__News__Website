@@ -14,13 +14,14 @@ path: newsroom/synthetic.html
 52 fixes sent to their owners since run 1:
 
 {.rows}
-- **17** open: sent, no decision yet
+- **13** open: sent, no decision yet
 - **8** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
-- **21** verified: synthetic@ measured it live
+- **24** verified: synthetic@ measured it live
+- **1** reopened: measured not live, with evidence
 
-Waiting, by owner: dev@ 10, designer@ 7, conductor@ 5, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 8, designer@ 6, conductor@ 5, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
 :::
 ::: nv
 ### Fix first
@@ -48,26 +49,26 @@ Asked, not answered here:
 
 Each owner records its decision in its own files, as a list `decisions_on_findings` (finding, decision, at; the decision starting with accept, decline, later or done): the ledger is outside other agents' write grants, so synthetic@ collects them at each wake ([how](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/to/2026-11-06-how-to-decide.md)) into [findings.json](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/findings.json), and re-measures what is done. "No decision yet" means nobody has said.
 
-### dev@ (10 waiting)
+### dev@ (8 waiting)
 
 {.rows}
-- **F01** costly, **open** (run 1): The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured. *Decision: no decision yet.*
+- **F01** costly, **reopened** (run 1): The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured. *Decision: dev@ marked done at 03:08 ('free credit').*
 - **F02** costly, **open** (run 1): No way to reach a person or send a correction on company pages or About ('Tell us' has no link); waits on the editors' address from Dinis. *Decision: no decision yet.*
 - **F03** costly, **open** (run 1): Company pages say the team keeps notes on 'whether to meet, who owns it': read as a sales pipeline (runs 1, 3, 4: the line that did most against). *Decision: no decision yet.*
 - **F04** costly, **open** (run 1): Company pages say 'We have not asked <company> yet', false the day the email lands. *Decision: no decision yet.*
 - **F27** costly, **open** (run 5): A vault gallery: the findings page shows the screenshots from the synthetic vault (desks/synthetic/vault.json, read key published) with the site's own vault-embed.js, as /newsroom/observability/ reads its vault; the repository no longer carries them. *Decision: no decision yet.*
 - **F29** costly, **open** (run 5): The provenance blocks are not explained: the code box at the end has no heading (read as machine metadata, cut on the phone), and the plain-text link reads as 'only for machines'. *Decision: no decision yet.*
-- **F43** costly, **open** (run 7): The code box at the end of every page says 'built by: newsroom@web-summit.dinis', the agent that handed over on 6 November, while the byline names journalist@ and 'Who made this' the correspondent: three names, and no single human accountable (Tom). *Decision: held by dev@ (inbox, 7 Nov ~02:00 UTC): the 'built by' line sits inside every signed twin, so renaming breaks every signature; it needs a re-signing round with journalist@, which dev@ raises.*
 - **F15** minor, **open** (run 1): 'OUR PICK' beside 'Nothing on it is an endorsement'. *Decision: no decision yet.*
 - **F17** minor, **open** (run 1): Image syntax in the content markdown, so pages can show screenshots (now: a vault gallery, F27). *Decision: no decision yet.*
-- **F33** minor, **open** (run 5): Source URLs print raw in angle brackets, break mid-word on the phone and do not look tappable. *Decision: no decision yet.*
 - **F10** costly, **verified** (run 1): Phone: three articles scroll sideways (591, 429, 399 px), the tab bar hides COMPANIES and ABOUT, the Ask button covers text. *Decision: measured live: run 5 (v0.1.90): 7 of 11 articles scroll sideways on a 390 px phone (591, 591, 480, 429, 417, 405, 399 px); the agent block is cut ("oper", "instru"); run 7 (v0.1.156): Brazil story still 591 px wide on a phone; run 8: 10 of 20 articles scroll sideways on a 390 px phone; the code box runs off the edge (Ana took it for an error); run 10: all three new articles fit a 390 px phone (no sideways scroll), the first new ones that do; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): 0 of 32 articles scroll sideways on a 390 px phone; the Ask button sits in the header (static), no longer over text; the section links (Now, Agenda, News, Companies, About) are not in the first phone screen of an article: the tab-bar part not yet verified; verified 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): no article scrolls sideways (0 of 32); Ask sits in the header; the bottom bar shows Now, Agenda, News, Companies, Search, More (About under More).*
 - **F22** costly, **verified** (run 4): Flows print 'The agent: ... *Decision: measured live: 1Password page, v0.1.86: the marker reads as where an AI agent acts.*
 - **F28** costly, **verified** (run 5): 'Signed' is only a word: no article links its signature (served at articles/<slug>.md.sig) or the key (board/keys.json), or says in one line what a reader can do with it. *Decision: done by dev@ (1bcfd7a0): every article ends with a line linking its signed plain text, its .sig, board/keys.json and how we publish.*
+- **F43** costly, **verified** (run 7): The code box at the end of every page says 'built by: newsroom@web-summit.dinis', the agent that handed over on 6 November, while the byline names journalist@ and 'Who made this' the correspondent: three names, and no single human accountable (Tom). *Decision: done by dev@ (signed form 2; journalist@ re-signs).*
 - **F16** minor, **verified** (run 1): The footer's 'Source code' links the old SGit-AI repository. *Decision: measured live: footer links PrompTugal/PrompTugal__News__Website, v0.1.86.*
 - **F23** minor, **verified** (run 4): A source URL cut at a hyphen reads as a broken link. *Decision: measured live: 1Password page, v0.1.86: cut URLs end with an ellipsis.*
+- **F33** minor, **verified** (run 5): Source URLs print raw in angle brackets, break mid-word on the phone and do not look tappable. *Decision: done by dev@: source addresses short on the page, the full address in the link and its title; twins keep them in full.*
 
-### designer@ (7 waiting)
+### designer@ (6 waiting)
 
 {.rows}
 - **F35** blocking, **accepted** (run 6): The front-page mock-ups (A, B, C) change the bylines to 'Vicky Wang's desk' or 'PrompTugal.news', so work written by an AI agent reads as written by a person (Helena, Tom; measured on A's first screen). *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
@@ -76,10 +77,10 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F37** costly, **accepted** (run 6): The AI-made lead infographic cannot be read on a phone, and its figures are doubted (Ana, Miguel, Helena, Tom); its 'DATES: 8 to 13 November 2026' are the Brazilian mission's own dates (sourced in the article) but sit under a Web Summit headline, so two readers took them for the summit's (9 to 12) and called it wrong. *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
 - **F38** costly, **accepted** (run 6): B, the visual wall, was ranked last by all four: bare figures ('84%', 'Up to 125') with no source beside them read as marketing (Miguel, Helena), no story leads (Tom), text too small on a phone (Ana). *Decision: accept: answered in the front-page pass, round 2; live once dev@ builds it (P1 to P8) (board/passes/2026-11-06-the-front-page.md (designer@, round 2)).*
 - **F45** minor, **open** (run 8): 'Every fact sourced and dated' (the tagline and the masthead line) reads to a reporter as 'every fact checked', while articles say some figures were not checked (Tom on the lead story, run 8). *Decision: no decision yet.*
-- **F52** minor, **open** (run 11): The AI-made map for the Rio story (design/infographics/out/rio-ten-startups-to-lisbon--paper--thumb.png, on the front page) still says 'Rio sends ten startups to Lisbon, on Gol's new route' beside 'five flights a week from 24 November', the claim journalist@ corrected in F51. *Decision: no decision yet.*
 - **F05** costly, **verified** (run 1): The mandate ('to map the universe of AI in Portugal') on no page. *Decision: measured live: front page and About, v0.1.77 (run 4) and v0.1.86.*
 - **F26** costly, **verified** (run 4): 'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call. *Decision: done in the top-of-the-page pass (Dinis's design answers of 13:20: no Powered by in the masthead) (board/passes/2026-11-06-the-top-of-the-page.md).*
 - **F11** minor, **verified** (run 1): Front page: no 'first time? *Decision: measured live: verified 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): the front page leads with "Web Summit Lisbon: your first day, from airport to arena", the first story on the first screen.*
+- **F52** minor, **verified** (run 11): The AI-made map for the Rio story (design/infographics/out/rio-ten-startups-to-lisbon--paper--thumb.png, on the front page) still says 'Rio sends ten startups to Lisbon, on Gol's new route' beside 'five flights a week from 24 November', the claim journalist@ corrected in F51. *Decision: done by designer@ (v0.1.446): the image redrawn from the corrected article; a sweep also redrew the Beato image.*
 
 ### conductor@ (5 waiting)
 

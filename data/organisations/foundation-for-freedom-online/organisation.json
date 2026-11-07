@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "foundation-for-freedom-online",
+  "type": "organisation",
+  "name": "Foundation For Freedom Online",
+  "names_as_listed": [
+    "Foundation For Freedom Online"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/33c61f4c-b906-4056-aefa-ca2f45c27d55/free-or-controlled-internet-the-great-dsa-debate/",
+      "read_at": "2026-11-07T08:18Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}
