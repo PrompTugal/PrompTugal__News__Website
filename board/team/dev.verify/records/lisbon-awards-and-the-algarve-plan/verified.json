@@ -1,7 +1,7 @@
 {
   "$schema": "none",
   "article": "lisbon-awards-and-the-algarve-plan",
-  "verified_on": "2026-11-06",
+  "verified_on": "2026-11-07",
   "by": "dev.verify@PrompTugal.dinis",
   "models": [
     "anthropic/claude-haiku-5.5",
@@ -25,35 +25,35 @@
       "url": "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/",
       "status": 200,
       "read": true,
-      "chars": 8479
+      "chars": 8480
     }
   ],
-  "spent_usd": 0.0829,
+  "spent_usd": 0.1026,
   "claims": [
     {
       "id": "c1",
-      "claim": "Unicorn Factory Lisboa announced the winners of its 2026 Entrepreneurship Awards on 27 October at the Técnico Innovation Center.",
+      "claim": "Unicorn Factory Lisboa announced the winners of its 2026 Entrepreneurship Awards on 27 October.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
           "quote": "revealed during a ceremony held on October 27 at the Técnico Innovation Center in Lisbon",
-          "note": "S1 states Unicorn Factory Lisboa revealed the 2026 Entrepreneurship Award winners at a ceremony on October 27 at the Técnico Innovation Center, matching the claim's date, venue, and organizer."
+          "note": "S1 states Unicorn Factory Lisboa revealed the winners of its 2026 Entrepreneurship Awards at a ceremony held on October 27, which matches the claim's date and organizer."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "The winners were selected from among the previously announced finalists and revealed during a ceremony held on October 27 at the Técnico Innovation Center in Lisbon",
-          "note": "The source directly states that Unicorn Factory Lisboa revealed the winners of the 2026 Entrepreneurship Awards at a ceremony on October 27 at the Técnico Innovation Center."
+          "quote": "Unicorn Factory Lisboa has revealed the winners of the 2026 Entrepreneurship Awards , celebrating startups, entrepreneurs, and key contributors to Portugal’s growing entrepreneurial ecosystem. The winners were selected from among the previously announced finalists and revealed during a ceremony held on October 27",
+          "note": "The source directly confirms that Unicorn Factory Lisboa revealed the winners of the 2026 Entrepreneurship Awards during a ceremony held on 27 October."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "revealed during a ceremony held on October 27 at the Técnico Innovation Center in Lisbon",
-          "note": "S1 states Unicorn Factory Lisboa revealed the 2026 Entrepreneurship Awards winners at a ceremony on October 27 at the Técnico Innovation Center in Lisbon."
+          "quote": "Unicorn Factory Lisboa has revealed the winners of the 2026 Entrepreneurship Awards",
+          "note": "The same source says the winners were revealed during a ceremony held on October 27."
         }
       ],
       "consensus": "supported",
@@ -61,28 +61,28 @@
     },
     {
       "id": "c2",
-      "claim": "The Unicorn Factory Lisboa awards announcement took place on the organisation's fourth anniversary.",
+      "claim": "The awards ceremony was held at the Técnico Innovation Center in Lisbon.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "coinciding with Unicorn Factory Lisboa’s fourth anniversary",
-          "note": "S1 states the awards ceremony was held on October 27 and coincided with the organisation's fourth anniversary, matching the claim."
+          "quote": "revealed during a ceremony held on October 27 at the Técnico Innovation Center in Lisbon",
+          "note": "S1 directly states the Unicorn Factory Lisboa 2026 Entrepreneurship Awards ceremony was held at the Técnico Innovation Center in Lisbon."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "revealed during a ceremony held on October 27 at the Técnico Innovation Center in Lisbon, coinciding with Unicorn Factory Lisboa’s fourth anniversary",
-          "note": "The source confirms the awards were revealed during a ceremony that coincided with Unicorn Factory Lisboa's fourth anniversary."
+          "quote": "during a ceremony held on October 27 at the Técnico Innovation Center in Lisbon",
+          "note": "The source directly states that the ceremony revealing the award winners was held at the Técnico Innovation Center in Lisbon."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "coinciding with Unicorn Factory Lisboa’s fourth anniversary",
-          "note": "S1 states the awards ceremony was held on October 27, coinciding with Unicorn Factory Lisboa's fourth anniversary."
+          "quote": "ceremony held on October 27 at the Técnico Innovation Center in Lisbon",
+          "note": "S1 states the awards ceremony was held at the Técnico Innovation Center in Lisbon."
         }
       ],
       "consensus": "supported",
@@ -90,64 +90,35 @@
     },
     {
       "id": "c3",
-      "claim": "Three of the seven Unicorn Factory Lisboa 2026 winners build with AI.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "partly",
-          "source": "S1",
-          "quote": "develops real-time AI technology",
-          "note": "S1 describes two winners as AI-related (Rita Barbosa's Guardian Labs EU and Vasco Lopes's former DeepNeuronic, an AI computer-vision company), but none of the other five is described as building with AI, so the count of three is not supported."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "exaggerated",
-          "source": "S1",
-          "quote": "developed AI-powered computer vision systems",
-          "note": "Among the seven winners listed, the source only describes two as developing AI technologies (Vasco Lopes and Rita Barbosa), not three."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "exaggerated",
-          "source": "S1",
-          "quote": "AI-powered computer vision systems ... real-time AI technology",
-          "note": "S1 lists seven winners but explicitly mentions AI for only two: Vasco Lopes and Rita Barbosa."
-        }
-      ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
-    },
-    {
-      "id": "c4",
-      "claim": "Algarve Evolution aims to support 500 companies, help create 150 startups and reach 50,000 people across the Algarve by 2032.",
+      "claim": "Unicorn Factory Lisboa's awards announcement took place on its fourth anniversary.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "ambitions to support 500 companies, help create 150 new startups, and impact 50,000 people across the region by 2032",
-          "note": "The source states all three targets (500 companies, 150 startups, 50,000 people) with the 2032 deadline, matching the claim."
+          "source": "S1",
+          "quote": "coinciding with Unicorn Factory Lisboa’s fourth anniversary",
+          "note": "S1 says the awards ceremony was held on October 27, which it describes as coinciding with Unicorn Factory Lisboa's fourth anniversary."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "outlined ambitions to support 500 companies, help create 150 new startups, and impact 50,000 people across the region by 2032",
-          "note": "Source S2 confirms that Algarve Evolution aims to support 500 companies, help create 150 startups, and impact 50,000 people across the region by 2032."
+          "source": "S1",
+          "quote": "revealed during a ceremony held on October 27 at the Técnico Innovation Center in Lisbon, coinciding with Unicorn Factory Lisboa’s fourth anniversary",
+          "note": "The source directly states that the ceremony revealing the award winners coincided with Unicorn Factory Lisboa's fourth anniversary."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "has outlined ambitions to support 500 companies, help create 150 new startups, and impact 50,000 people across the region by 2032",
-          "note": "The source states the same targets for Algarve Evolution by 2032, using \"impact\" instead of \"reach\" for the 50,000 people."
+          "source": "S1",
+          "quote": "coinciding with Unicorn Factory Lisboa’s fourth anniversary",
+          "note": "S1 states the winners were revealed during a ceremony on October 27 that coincided with Unicorn Factory Lisboa’s fourth anniversary."
         }
       ],
       "consensus": "supported",
       "flag_to_journalist": false
     },
     {
-      "id": "c5",
+      "id": "c4",
       "claim": "Algarve Evolution is based in Faro and began in 2018 as a group of local entrepreneurs.",
       "verdicts": [
         {
@@ -161,15 +132,44 @@
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S2",
-          "quote": "Algarve Evolution , a Faro-based organization working to strengthen southern Portugal's innovation ecosystem [...] Algarve Evolution traces its origins to 2018, when a small group of local entrepreneurs began developing the region's innovation community.",
-          "note": "The source directly states that Algarve Evolution is a Faro-based organization that traces its origins to 2018, starting as a small group of local entrepreneurs."
+          "quote": "Algarve Evolution , a Faro-based organization working to strengthen southern Portugal's innovation ecosystem ... Algarve Evolution traces its origins to 2018, when a small group of local entrepreneurs",
+          "note": "Source S2 explicitly confirms that Algarve Evolution is a Faro-based organization that traces its origins to a small group of local entrepreneurs in 2018."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S2",
-          "quote": "a Faro-based organization ... traces its origins to 2018, when a small group of local entrepreneurs",
-          "note": "S2 states Algarve Evolution is Faro-based and traces its origins to 2018 as a group of local entrepreneurs."
+          "quote": "Faro-based organization ... traces its origins to 2018, when a small group of local entrepreneurs",
+          "note": "S2 states Algarve Evolution is Faro-based and traces its origins to 2018 as a small group of local entrepreneurs."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "Algarve Evolution's targets for 2032 are 500 companies supported, 150 new startups, and 50,000 people reached.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "support 500 companies, help create 150 new startups, and impact 50,000 people across the region by 2032",
+          "note": "S2 states all three 2032 targets (500 companies supported, 150 new startups, 50,000 people impacted) in the same sentence."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "has outlined ambitions to support 500 companies, help create 150 new startups, and impact 50,000 people across the region by 2032",
+          "note": "The source directly confirms Algarve Evolution's 2032 targets of supporting 500 companies, creating 150 new startups, and impacting 50,000 people."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "support 500 companies, help create 150 new startups, and impact 50,000 people across the region by 2032",
+          "note": "S2 states Algarve Evolution outlined these exact 2032 ambitions."
         }
       ],
       "consensus": "supported",
@@ -177,28 +177,28 @@
     },
     {
       "id": "c6",
-      "claim": "An Informa D&B study presented in November 2025 counted 115 startups in the Algarve in 2024, 78% of them in information technology and communications.",
+      "claim": "Vasco Lopes is the former CEO of DeepNeuronic, which was acquired by Motorola Solutions.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "found that the Algarve had 115 startups in 2024",
-          "note": "S2 reports the Informa D&B study, presented in November 2025, counting 115 Algarve startups in 2024, and says information technology and communication businesses accounted for 78% of them."
+          "source": "S1",
+          "quote": "Vasco Lopes is the former CEO of DeepNeuronic , a Portuguese company acquired by Motorola Solutions",
+          "note": "S1 directly states that Vasco Lopes is the former CEO of DeepNeuronic and that the company was acquired by Motorola Solutions."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "An Informa D&B study on the Algarve’s startup ecosystem , presented in November 2025, found that the Algarve had 115 startups in 2024. The report indicates 16% growth in the region’s startup population. Together, those startups generated approximately €25 million in annual turnover, employed 365 people, and recorded €13 million in exports. Information technology and communication businesses accounted for 78% of the startups identified in the study.",
-          "note": "The source directly confirms that the November 2025 Informa D&B study reported 115 startups in the Algarve in 2024, with 78% in information technology and communication."
+          "source": "S1",
+          "quote": "Vasco Lopes is the former CEO of DeepNeuronic , a Portuguese company acquired by Motorola Solutions",
+          "note": "The source directly states that Vasco Lopes is the former CEO of DeepNeuronic, which was acquired by Motorola Solutions."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "found that the Algarve had 115 startups in 2024 ... Information technology and communication businesses accounted for 78%",
-          "note": "S2 states the Informa D&B study presented in November 2025 found 115 Algarve startups in 2024 and that IT/communication businesses were 78% of them."
+          "source": "S1",
+          "quote": "former CEO of DeepNeuronic , a Portuguese company acquired by Motorola Solutions",
+          "note": "Source S1 states both that Vasco Lopes is the former CEO of DeepNeuronic and that the company was acquired by Motorola Solutions."
         }
       ],
       "consensus": "supported",
@@ -206,28 +206,28 @@
     },
     {
       "id": "c7",
-      "claim": "Algarve startups' turnover grew 29% a year from 2021 to 2024, against 24.2% a year for startups nationally.",
+      "claim": "Rita Barbosa is the founder of Guardian Labs EU.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "Algarve startups recorded compound annual turnover growth of 29% between 2021 and 2024, compared with 24.2% for startups nationally.",
-          "note": "S2 states the Informa D&B study found Algarve startups' compound annual turnover growth of 29% from 2021 to 2024 versus 24.2% nationally, matching the claim."
+          "source": "S1",
+          "quote": "Rita Barbosa is the founder of Guardian Labs EU",
+          "note": "S1 directly states Rita Barbosa is the founder of Guardian Labs EU, identified as a 2026 Rising Female Award winner, with no conflicting information in the sources."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "Algarve startups recorded compound annual turnover growth of 29% between 2021 and 2024, compared with 24.2% for startups nationally",
-          "note": "The source directly confirms that Algarve startups had a compound annual turnover growth rate of 29% from 2021 to 2024 compared to 24.2% nationally."
+          "source": "S1",
+          "quote": "Rita Barbosa is the founder of Guardian Labs EU",
+          "note": "The source directly states that Rita Barbosa is the founder of Guardian Labs EU."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "Algarve startups recorded compound annual turnover growth of 29% between 2021 and 2024, compared with 24.2% for startups nationally.",
-          "note": "The source directly states the same Algarve and national compound annual turnover growth figures for 2021–2024."
+          "source": "S1",
+          "quote": "Rita Barbosa is the founder of Guardian Labs EU",
+          "note": "Source S1 directly states that Rita Barbosa is the founder of Guardian Labs EU."
         }
       ],
       "consensus": "supported",
@@ -235,28 +235,28 @@
     },
     {
       "id": "c8",
-      "claim": "Algarve Evolution's Founder2Founder programme launched in October 2026, choosing eight companies from 41 applications.",
+      "claim": "RTBeamTech is a spin-off from LIP and Instituto Superior Técnico.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "Launched in October 2026, its growth program, Founder2Founder, selected eight companies from 41 applications",
-          "note": "S2 states that Founder2Founder launched in October 2026 and selected eight companies from 41 applications for its inaugural cohort."
+          "source": "S1",
+          "quote": "RTBeamTech is a scientific spin-off from LIP and Instituto Superior Técnico",
+          "note": "S1 states RTBeamTech is a scientific spin-off from LIP and Instituto Superior Técnico, matching the claim (S3 also lists RTBEAMTECH among Técnico spin-offs)."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "Launched in October 2026, its growth program, Founder2Founder , selected eight companies from 41 applications",
-          "note": "Source 2 confirms that Algarve Evolution's Founder2Founder growth program launched in October 2026 and selected eight companies from 41 applications."
+          "source": "S1",
+          "quote": "RTBeamTech is a scientific spin-off from LIP and Instituto Superior Técnico",
+          "note": "Source 1 explicitly states that RTBeamTech is a scientific spin-off from LIP and Instituto Superior Técnico."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "Launched in October 2026, its growth program, Founder2Founder , selected eight companies from 41 applications",
-          "note": "S2 directly states the Founder2Founder programme launched in October 2026 and selected eight companies from 41 applications."
+          "source": "S1",
+          "quote": "scientific spin-off from LIP and Instituto Superior Técnico",
+          "note": "Source S1 explicitly states RTBeamTech is a scientific spin-off from LIP and Instituto Superior Técnico."
         }
       ],
       "consensus": "supported",
@@ -264,28 +264,28 @@
     },
     {
       "id": "c9",
-      "claim": "Algarve Evolution has 118 members.",
+      "claim": "An Informa D&B study presented in November 2025 counted 115 startups in the Algarve in 2024.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S2",
-          "quote": "The organization currently has 118 active members",
-          "note": "S2 states Algarve Evolution currently has 118 active members, matching the claim (the source says \"active members\", a slight qualifier the claim omits)."
+          "quote": "found that the Algarve had 115 startups in 2024",
+          "note": "S2 states that an Informa D&B study, presented in November 2025, found 115 Algarve startups in 2024, matching the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S2",
-          "quote": "The organization currently has 118 active members",
-          "note": "Algarve Evolution is reported to currently have 118 active members."
+          "quote": "An Informa D&B study on the Algarve's startup ecosystem , presented in November 2025, found that the Algarve had 115 startups in 2024",
+          "note": "The source directly confirms that an Informa D&B study presented in November 2025 found 115 startups in the Algarve in 2024."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S2",
-          "quote": "118 active members",
-          "note": "Source S2 states that Algarve Evolution currently has 118 active members."
+          "quote": "presented in November 2025, found that the Algarve had 115 startups in 2024",
+          "note": "S2 directly states the Informa D&B study presented in November 2025 found 115 Algarve startups in 2024."
         }
       ],
       "consensus": "supported",
@@ -293,28 +293,86 @@
     },
     {
       "id": "c10",
-      "claim": "RTBeamTech is one of six Técnico spin-offs on the university's stand at Web Summit, held 10 to 12 November.",
+      "claim": "Of the Algarve's startups in 2024, 78% were in information technology and communications, and 95% were microenterprises with fewer than 10 people.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "seis spin-offs",
-          "note": "The Técnico article says the school brings six spin-offs to its Web Summit 2026 stand, lists RTBEAMTECH among them, and gives the dates as 10 to 12 November."
+          "source": "S2",
+          "quote": "95% of Algarve startups were microenterprises employing fewer than 10 people",
+          "note": "S2 reports that the 2024 Informa D&B study found 78% of the 115 Algarve startups were in information technology and communication, and that 95% were microenterprises with fewer than 10 employees."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "De 10 a 12 de novembro, os visitantes que passarem pela banca da Escola [...] o Técnico traz também seis spin-offs que tiveram origem no seio da instituição . As start-ups presentes serão Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew e Testwaves",
-          "note": "Source S3 explicitly states that RTBeamTech is one of six spin-offs showcased at Técnico's stand during the Web Summit held from 10 to 12 November."
+          "source": "S2",
+          "quote": "Information technology and communication businesses accounted for 78% of the startups identified in the study... 95% of Algarve startups were microenterprises employing fewer than 10 people",
+          "note": "The source confirms that in the 2024 study of Algarve startups, 78% were in IT and communications, and 95% were microenterprises with fewer than 10 people."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "Técnico traz também seis spin-offs que tiveram origem no seio da instituição . As start-ups presentes serão Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew e Testwaves.",
-          "note": "S3 states Técnico's Web Summit stand (10–12 November) features six spin-offs including RTBEAMTECH."
+          "source": "S2",
+          "quote": "Information technology and communication businesses accounted for 78% of the startups identified in the study. The study indicates that 95% of Algarve startups were microenterprises employing fewer than 10 people",
+          "note": "S2 reports the Informa D&B study found the Algarve had 115 startups in 2024 and gives both percentages."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c11",
+      "claim": "Algarve startup turnover grew 29% a year from 2021 to 2024, against 24.2% for startups nationally.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "compound annual turnover growth of 29% between 2021 and 2024, compared with 24.2% for startups nationally",
+          "note": "The source gives compound annual turnover growth of 29% for Algarve startups from 2021 to 2024, against 24.2% nationally, which matches the claim's 'a year' framing."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Algarve startups recorded compound annual turnover growth of 29% between 2021 and 2024, compared with 24.2% for startups nationally",
+          "note": "The source directly confirms that Algarve startups recorded a 29% compound annual turnover growth from 2021 to 2024, compared with 24.2% for startups nationally."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Algarve startups recorded compound annual turnover growth of 29% between 2021 and 2024, compared with 24.2% for startups nationally.",
+          "note": "S2 directly states the Algarve startup compound annual turnover growth and the national comparison."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c12",
+      "claim": "Founder2Founder selected eight companies from 41 applications.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "its growth program, Founder2Founder, selected eight companies from 41 applications for its inaugural cohort",
+          "note": "S2 states Founder2Founder selected eight companies from 41 applications for its inaugural cohort, matching the claim exactly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Founder2Founder , selected eight companies from 41 applications",
+          "note": "Source 2 explicitly states that the Founder2Founder program selected eight companies from 41 applications."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "selected eight companies from 41 applications",
+          "note": "S2 states that Founder2Founder selected eight companies from 41 applications for its inaugural cohort."
         }
       ],
       "consensus": "supported",

@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: PUB, The publication (part 2 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T03:58:37Z"
-site_version: "v0.1.430"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T07:00:34Z"
+site_version: "v0.1.464"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 2 of 3)
 
-100 cards, from `PUB.NEWS desk-fact-checker` to `PUB.SITE stories`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.NEWS desk-fact-checker` to `PUB.SITE search`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
@@ -109,6 +109,7 @@ source: board/catalogue.json
 | `PUB.SITE cloud-centres` | [The cloud centres](https://promptugal.news/graph/cloud-centres/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE competition` | [Investors: where we stand](https://promptugal.news/investors/competition/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE decks` | [Investors: the decks](https://promptugal.news/investors/decks/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE for-events` | [Investors: for event organisers](https://promptugal.news/investors/for-events/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE graph` | [The graph](https://promptugal.news/graph/) | site | newsroom-graph@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE gravity` | [Centres of gravity](https://promptugal.news/graph/gravity/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE how-we-got-here` | [Investors: how we got here](https://promptugal.news/investors/how-we-got-here/) | site | investors@ 7 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE riskmandate:2` | [Powered by RiskMandate](https://promptugal.news/riskmandate/) | site | newsroom@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE rules-of-engagement` | [Investors: how to engage](https://promptugal.news/investors/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE search` | [Search](https://promptugal.news/search/) | site | newsroom-interact@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE stories` | [The best of the graph](https://promptugal.news/graph/stories/) | site | newsroom-graph@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-1.md) | [Next part](PUB-3.md)

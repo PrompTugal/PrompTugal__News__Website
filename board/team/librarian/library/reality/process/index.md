@@ -26,7 +26,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-933 cards (933 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T03:58:37Z at site v0.1.430; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+935 cards (935 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T07:00:34Z at site v0.1.464; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -39,19 +39,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `WRK.BRIEF` | 23 |
 | `WRK.DEC` | 12 |
 | `WRK.DESK` | 14 |
-| `WRK.FIND` | 161 |
+| `WRK.FIND` | 162 |
 | `WRK.PASS` | 29 |
-| `WRK.PLAN` | 28 |
+| `WRK.PLAN` | 29 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
+- `ACC-20261107-0408` [The investor decks against brand v2.0: four small fixes](https://promptugal.news/board/spec-investor-decks-brand.md) (`WRK.PLAN spec-investor-decks-brand`)
+- `ACC-20261107-0407` [The home designs re-measured (06:35, v0.1.456): H1 (the picker button) and H3 (D's countdown) done; H2 'DevFest Lagos' without its place now rank 1; H4…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) (`WRK.FIND 2026-11-06-the-front-page-20`)
 - `ACC-20261107-0347` [The eight home designs read cold on a phone and a desktop (03:35, v0.1.426): a story in the first phone screen only on E, G and D; A, B, C, F lead with the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) (`WRK.FIND 2026-11-06-the-front-page-19`)
 - `ACC-20261107-0346` [The PHP newsroom's lesson: a sourced site with no one sent to it](https://promptugal.news/board/briefs/2026-11-07-the-php-newsrooms-lesson.md) (`WRK.BRIEF 2026-11-07-the-php-newsrooms-lesson`)
 - `ACC-20261107-0201` [One page width on every page: the recommendation](https://promptugal.news/board/spec-one-page-width.md) (`WRK.PLAN spec-one-page-width`)
-- `ACC-20261107-0200` [The home page in eight designs: each in the brand, its checks, the picker's pictures](https://promptugal.news/board/spec-home-page-designs.md) (`WRK.PLAN spec-home-page-designs`)
-- `ACC-20261107-0199` [The home page as Silvio's mock E: the brand mapping and the acceptance check](https://promptugal.news/board/spec-front-page-e.md) (`WRK.PLAN spec-front-page-e`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

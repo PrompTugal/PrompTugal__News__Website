@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: Work in hand"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T03:58:37Z"
-site_version: "v0.1.430"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T07:00:34Z"
+site_version: "v0.1.464"
 source: board/catalogue.json
 ---
 
-# Work in hand (286 cards)
+# Work in hand (288 cards)
 
 Work in hand: passes (focused rounds of work) and their findings, decisions, plans, briefs, tasks, desks and the story projects. Kept by conductor@.
 
@@ -29,9 +29,9 @@ By call number: passes, findings, decisions, plans, briefs, tasks, desks and sto
 | `WRK.BRIEF` | briefs | 23 | [The first night of PrompTugal.news: what we set up, what the team did, and how it works now](https://promptugal.news/board/briefs/2026-11-06-the-first-night-debrief.md), [Brief for the dev team on account B: Silvio's mock E becomes the home page](https://promptugal.news/board/briefs/2026-11-06-front-page-mock-e.md) |
 | `WRK.DEC` | decisions | 12 | [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/), [PT decision: where the vault key lives](https://promptugal.news/newsroom/decisions/where-the-vault-key-lives/) |
 | `WRK.DESK` | desks | 14 | [The curator's story candidates](https://promptugal.news/desks/curator/README.md), [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) |
-| `WRK.FIND` | findings of a pass | 161 | [Index rendered pages only: no board/inbox.json token, no sealed envelope, no key bundle, no desks/outreach rank or priority](https://promptugal.news/board/passes/2026-11-06-the-newsroom-search.md), [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) |
+| `WRK.FIND` | findings of a pass | 162 | [Index rendered pages only: no board/inbox.json token, no sealed envelope, no key bundle, no desks/outreach rank or priority](https://promptugal.news/board/passes/2026-11-06-the-newsroom-search.md), [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) |
 | `WRK.PASS` | passes | 29 | [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md), [2026-11-06-the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) |
-| `WRK.PLAN` | plans and specs | 28 | [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md), [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) |
+| `WRK.PLAN` | plans and specs | 29 | [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md), [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) |
 | `WRK.STORY` | story projects | 4 | [Story projects: going deep on one story, with a budget, its own data folder, and work anyone can pick up](https://promptugal.news/board/the-story-projects.md), [Brazil at Web Summit Lisbon 2026](https://promptugal.news/board/projects/brazil-at-web-summit-2026.md) |
 | `WRK.TASK` | tasks | 15 | [Which agents outside Claude would serve your work?](https://promptugal.news/board/tasks/external-agents.md), [Tasks anyone can pick up](https://promptugal.news/board/tasks/README.md) |
 
@@ -43,7 +43,7 @@ Special collection: S3 (12 cards). Dinis's guidance has its own guide: [guidance
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (272 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (275 connections from this collection)
 - [The library](LIB.md) (144 connections from this collection)
 - [Guidance (special)](GDN.md) (104 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph

@@ -9,3 +9,4 @@
 - 00:35 (7 Nov): E live re-measured; N1 found; dev@ and dev.pages@ told on their inboxes (their inboxes match active keys).
 - 01:10 (7 Nov): inbox reissued as board/inboxes/sherpa-b.json (conductor.b@'s note); credentials opened (field names only), signature verified (conductor-promptugal), stored at ~/.sg-send/lanes/inbox.json (0600); drained with the team site's feedback_drain.py (sparse clone in scratch): empty. Messages sent '--to sherpa' may still land in the old inbox until agent_inboxes.py is fixed.
 - 03:35 (7 Nov): eight home designs measured (script plus a contact sheet of first phone screens); corrected my own 'Nigeria' error after checking data/events. Lesson: check a place in the data before naming it.
+- 06:35 (7 Nov): inbox vault cloned to ~/vaults/ (key piped from the creds file, never printed); drain read 1 message but its sgit push failed (no access token), so it stays pending. Home designs re-measured.

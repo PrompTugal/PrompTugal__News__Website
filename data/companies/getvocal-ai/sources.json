@@ -23,7 +23,7 @@
       "url": "https://www.getvocal.ai/",
       "read_on": "2026-11-07",
       "read_by": "ontologist@PrompTugal.dinis",
-      "supports": "The company's own site, its home page (read 7 November 2026, 01:25 UTC): its website; and a description of what the company does: governed AI agents for enterprise customer experience and contact centres, with human oversight and the Human-AI Flywheel; it names Deutsche Telekom and Glovo.",
+      "supports": "The company's own site, its home page (read 7 November 2026, 01:25 UTC): its website; and a description of what the company does: governed AI agents for enterprise customer experience and contact centres, with human oversight and the Human-AI Flywheel; it names Deutsche Telekom and Glovo. Re-read read 7 November 2026, 07:25 UTC for the flow human-approval-in-cx: an agent flags a high-value return for human approval, an operator validates or instructs, the agent completes; the Agent Control Tower monitors, enforces policy, overrides and audits; the Human-AI Flywheel.",
       "kind": "other"
     }
   ]

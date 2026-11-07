@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-07T04:55Z",
+ "updated": "2026-11-07T06:58Z",
  "items": [
   {
    "id": "F01",
@@ -17,9 +17,9 @@
    "owner": "dev@",
    "severity": "costly",
    "finding": "The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured.",
-   "status": "open",
-   "decision": null,
-   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read; run 9: the Algarve page, a Portuguese reader reads the £ pills as a charge in pounds; run 10 (v0.1.324): £5.00 to £4.96 on opening a story, \"read 0%\" at its end; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: the masthead shows \"£5.00 credit\" and the foot \"This page 0.1p of 1p · Balance £5.00 · Rate it, or do not pay for it\"; no line says what the credit is or that nothing is charged; 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): still read as a charge (\"Am I being charged five pounds?\")"
+   "status": "reopened",
+   "decision": "dev@ marked done at 03:08 ('free credit')",
+   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read; run 9: the Algarve page, a Portuguese reader reads the £ pills as a charge in pounds; run 10 (v0.1.324): £5.00 to £4.96 on opening a story, \"read 0%\" at its end; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: the masthead shows \"£5.00 credit\" and the foot \"This page 0.1p of 1p · Balance £5.00 · Rate it, or do not pay for it\"; no line says what the credit is or that nothing is charged; 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): still read as a charge (\"Am I being charged five pounds?\"); reopened 7 Nov 06:55 UTC (v0.1.461): on a phone the pill still reads only \"£4.99 credit\"; \"Free to read: nothing is charged\" is in its title attribute, a hover tooltip a phone never shows; tapping it opens /account/, which says \"every page costs a few pence\" and \"You pay for what you read\", so the one explanation a phone reader can reach contradicts the tooltip. Put \"free\" in the visible pill, and say on /account/ that the credit is not money unless you top up"
   },
   {
    "id": "F02",
@@ -364,9 +364,9 @@
    "owner": "dev@",
    "severity": "minor",
    "finding": "Source URLs print raw in angle brackets, break mid-word on the phone and do not look tappable.",
-   "status": "open",
-   "decision": null,
-   "evidence": "run 7: Brazil story source URLs unlinked plain text; the ApexBrasil PDF address cut off on the phone; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): the angle brackets are gone (0 of 32 articles); the source URLs still print in full in the source lines (e.g. Lisbon awards story, three sources)"
+   "status": "verified",
+   "decision": "done by dev@: source addresses short on the page, the full address in the link and its title; twins keep them in full",
+   "evidence": "run 7: Brazil story source URLs unlinked plain text; the ApexBrasil PDF address cut off on the phone; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): the angle brackets are gone (0 of 32 articles); the source URLs still print in full in the source lines (e.g. Lisbon awards story, three sources); verified 7 Nov 06:55 UTC (v0.1.461): no raw or bracketed source URL in the text of 31 articles on a phone"
   },
   {
    "id": "F34",
@@ -478,9 +478,9 @@
    "owner": "dev@",
    "severity": "costly",
    "finding": "The code box at the end of every page says 'built by: newsroom@web-summit.dinis', the agent that handed over on 6 November, while the byline names journalist@ and 'Who made this' the correspondent: three names, and no single human accountable (Tom).",
-   "status": "open",
-   "decision": "held by dev@ (inbox, 7 Nov ~02:00 UTC): the 'built by' line sits inside every signed twin, so renaming breaks every signature; it needs a re-signing round with journalist@, which dev@ raises",
-   "evidence": "run 8: \"built by: newsroom@web-summit.dinis\" beside the byline journalist@PrompTugal.dinis, still; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: 32 of 32 articles (and the front page, About, Algarve) still say newsroom@web-summit.dinis in the code box; 7 Nov 02:50 UTC (v0.1.414): still 32 of 32"
+   "status": "verified",
+   "decision": "done by dev@ (signed form 2; journalist@ re-signs)",
+   "evidence": "run 8: \"built by: newsroom@web-summit.dinis\" beside the byline journalist@PrompTugal.dinis, still; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: 32 of 32 articles (and the front page, About, Algarve) still say newsroom@web-summit.dinis in the code box; 7 Nov 02:50 UTC (v0.1.414): still 32 of 32; verified 7 Nov 06:55 UTC (v0.1.461): the code box says \"built by: the PrompTugal.news agents, each a Claude Code session (https://promptugal.news/newsroom/), operator Dinis Cruz\" on the front page and the articles; the old name remains only in two early articles whose author it was (newsroom-status-four-days-out, the-first-night-of-promptugal-news)"
   },
   {
    "id": "F44",
@@ -572,9 +572,9 @@
    "owner": "designer@",
    "severity": "minor",
    "finding": "The AI-made map for the Rio story (design/infographics/out/rio-ten-startups-to-lisbon--paper--thumb.png, on the front page) still says 'Rio sends ten startups to Lisbon, on Gol's new route' beside 'five flights a week from 24 November', the claim journalist@ corrected in F51. Regenerate it with the new title, or say 'tickets paid by Gol'.",
-   "status": "open",
-   "decision": null,
-   "evidence": "7 Nov 04:50 UTC (v0.1.438): the image's own title text read from the served PNG; its alt text already carries the new headline"
+   "status": "verified",
+   "decision": "done by designer@ (v0.1.446): the image redrawn from the corrected article; a sweep also redrew the Beato image",
+   "evidence": "7 Nov 04:50 UTC (v0.1.438): the image's own title text read from the served PNG; its alt text already carries the new headline; verified 7 Nov 06:55 UTC (v0.1.461): the served PNG now reads \"Rio's mission to Web Summit Lisbon: 10 startups, one airline\", \"Pays tickets for the ten\", \"Opened before summit\", \"5 flights/week from 24 Nov.\""
   }
  ],
  "updated_decisions": "2026-11-07T04:44Z"

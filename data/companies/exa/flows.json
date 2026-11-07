@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "exa",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "agent-searches-the-web",
+      "name": "An agent searches the web for the context it needs (Exa)",
+      "summary": "Exa's home page, in its own terms: an agent or app calls Exa's search at the latency it can afford and gets back results, an answer or structured data, then the contents it needs; the benchmarks and the 900,000+ developers are Exa's own figures.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The developer",
+          "what": "Connects an agent or app to Exa: the Search, Contents or Agent API, or Exa's MCP server.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Sends a search at a chosen depth: Lite (about 450 ms), Auto (about 1 s) or Deep (about 10 s), across the web, news, companies, research, people or financials.",
+          "agent": "Search the web.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Exa",
+          "what": "Returns results, an answer or structured output from its index of public web and private information.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Uses what comes back as context, for example a coding agent reading the docs and repositories it needs.",
+          "agent": "Read the results as context.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}
