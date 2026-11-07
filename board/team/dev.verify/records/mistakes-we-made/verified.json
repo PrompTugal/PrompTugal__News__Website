@@ -1,0 +1,430 @@
+{
+  "$schema": "none",
+  "article": "mistakes-we-made",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/curator/README.md",
+      "status": 200,
+      "read": true,
+      "chars": 17558
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/commit/6935cbd360b3015c5dff2bbc5dbf1d8a0d225f16",
+      "status": 200,
+      "read": true,
+      "chars": 11319
+    },
+    {
+      "url": "https://promptugal.news/articles/brazil-startup-mission.html",
+      "status": 200,
+      "read": true,
+      "chars": 13033
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/commit/1da8fb9b69dfe0f5c5d7a62fdee1cb768df3935b",
+      "status": 200,
+      "read": true,
+      "chars": 3998
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/commit/44a43911a20774532b32e3fa2cdc966316a1ed4c",
+      "status": 200,
+      "read": true,
+      "chars": 4974
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/commit/cf2ed858ef859c31639ecd11c7065d42215473c7",
+      "status": 200,
+      "read": true,
+      "chars": 5356
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/journalist-vicky/STYLE.md",
+      "status": 200,
+      "read": true,
+      "chars": 9494
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/tree/dev/people/vicky/reports",
+      "status": 200,
+      "read": true,
+      "chars": 3079
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/tree/dev/people/vicky/prompts",
+      "status": 200,
+      "read": true,
+      "chars": 5886
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/vicky/decisions.md",
+      "status": 200,
+      "read": true,
+      "chars": 15802
+    },
+    {
+      "url": "https://web-summit.sgit.ai/summit/",
+      "status": 200,
+      "read": true,
+      "chars": 46528
+    }
+  ],
+  "spent_usd": 0.115,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "At 10:49 on the relevant day, Vicky's reviewer counted that 0 of 100 source links on 14 news articles were clickable.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "0 of 100 sources clickable",
+          "note": "S5 supports the count (0 of 100 sources clickable on the 14 news articles, counted on 6 November), but no passage gives the time 10:49, so that detail is unsupported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S5",
+          "quote": "Counted on 6 November on all 14 news articles on promptugal.news: 0 of 100 sources clickable.",
+          "note": "The source confirms that Vicky's reviewer counted 0 of 100 clickable sources across 14 news articles on 6 November, but does not specify the time 10:49."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "Counted on 6 November on all 14 news articles on promptugal.news: 0 of 100 sources clickable.",
+          "note": "The count and date are supported, but no source states the claimed time of 10:49."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "Vicky's developer agent changed the build at 18:58 so that bare source addresses become clickable links.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No passage mentions a developer agent changing the build at 18:58; the nearest material is S7's rule that sources must be written as links because the site prints <url> as plain text, and S10's 18:00 stand-up note, which says nothing about a build change."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention Vicky's developer agent changing the build at 18:58 to make bare source addresses clickable links."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "contradicted",
+          "source": "S7",
+          "quote": "the site prints that as plain text, so the reader cannot click it",
+          "note": "S7 states bare <url> is printed as plain text and cannot be clicked, contradicting the claim that bare source addresses become clickable links."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The newsroom moved to a new home on GitHub on 6 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S7",
+          "quote": "The newsroom repository is PrompTugal/PrompTugal__News__Website",
+          "note": "S7 shows the newsroom repository now sits at PrompTugal on GitHub and refers to an \"old SGit-AI address\", which implies a move, but no source gives 6 November 2026 as the date, and the old SGit-AI address is also on GitHub, so \"a new home on GitHub\" is not what the sources say."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "While the sources mention that desk handles changed and instruct not to push to the old SGit-AI repository, none state that the newsroom moved to a new home on GitHub on 6 November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S7",
+          "quote": "The newsroom repository is PrompTugal/PrompTugal__News__Website. Never push to the old SGit-AI address.",
+          "note": "The source confirms the newsroom's new GitHub repository and an old SGit-AI address, but it does not state that the move happened on 6 November 2026."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "On the evening of 6 November 2026, at Vicky Wang's direction, the curator dropped three story ideas as duplicates.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Taken off the list on 6 November 2026, at Vicky's word, as duplicates of other candidates",
+          "note": "The sources confirm that three ideas (S23, S21, S14) were dropped on 6 November at Vicky's word as duplicates, but no source states the time as evening; that is only inferred from the README's last-updated stamp moving from 19:55 to 20:50 UTC in the commit (S2), and 'Vicky's' is not explicitly identified as Vicky Wang."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Taken off the list on 6 November 2026, at Vicky's word, as duplicates of other candidates: + + - S23: Waste into value: AgroGrINTech and Seamoretech, two circular Portuguese startups (duplicates) + - S21: One backer, two fields: 3xP Global's Granter and Octo Health (duplicates) + - S14: Granter and Intuitivo: two PITCH winners, one backer, new markets (duplicates)",
+          "note": "The curator's log shows three story ideas were removed at Vicky's word on the evening (20:50 UTC) of 6 November 2026 as duplicates."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Taken off the list on 6 November 2026, at Vicky's word, as duplicates of other candidates: S23: Waste into value: AgroGrINTech and Seamoretech, two circular Portuguese startups (duplicates) S21: One backer, two fields: 3xP Global's Granter and Octo Health (duplicates) S14: Granter and Intuitivo: two PITCH winners, one backer, new markets (duplicates)",
+          "note": "The source lists exactly three dropped candidates and the page was last updated 20:50 UTC on 6 Nov, matching the evening timing."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "Vicky's journalist drafted story S9, about Brazil's startup mission, on 5 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "The first version was written by journalist@web-summit.vicky",
+          "note": "S3 confirms Vicky's journalist wrote the first version of the startup-mission story, but its 5 November date is the reviewer's sign-off, not the drafting date, and the curator's map labels S9 as a different story ('About 200 Brazilian companies come to Lisbon', added 4 Nov)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources do not state that the article about Brazil's startup mission was story S9, nor that Vicky's journalist drafted story S9."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "contradicted",
+          "source": "S1",
+          "quote": "S9: About 200 Brazilian companies come to Lisbon for Web Summit Announcements, added 4 Nov",
+          "note": "S1 dates S9 as added 4 Nov, not 5 Nov; S3 only says a Brazil mission article was reviewed on 5 Nov, not that S9 was drafted then."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "Dinis Cruz's journalist rewrote story S9 on 6 November 2026, credited the first version, and published it.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Rewritten by PrompTugal's journalist agent on 6 November 2026",
+          "note": "S3 says the article was rewritten on 6 November 2026, credits the first version to journalist@web-summit.vicky, and went live with Dinis Cruz as responsible editor; that it is story S9 and the journalist is Dinis's is inferred from its links to the S9 notes and to Dinis, not stated outright."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Rewritten by PrompTugal's journalist agent on 6 November 2026 from the project's data (the correspondent's universe and its 29 sourced claims, desks/correspondent/beats/brazil/ ), with every fact used here re-checked at its source that day. The first version was written by journalist@web-summit.vicky",
+          "note": "The article notes on story S9 state it was rewritten by PrompTugal's journalist agent under editor-in-chief Dinis Cruz on 6 November 2026, crediting Vicky's first version before going live."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Rewritten by PrompTugal's journalist agent on 6 November 2026 ... The first version was written by journalist@web-summit.vicky, for Vicky Wang ... No person read this article before it went live.",
+          "note": "S3 identifies the S9 Brazil article as rewritten by PrompTugal's journalist agent on 6 November 2026, credits the first version's author, and says it went live."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "At least seven of Vicky's agents reported finding their repository copy pointing to the old GitHub address.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No passage reports any count of agents finding their repository copy pointing to the old address; S7 only states a rule not to push to the old SGit-AI address, and the other passages are truncated page headers or unrelated commits."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not mention any agents reporting that their repository copy pointed to an old GitHub address."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources mention Vicky's agents and an old SGit-AI address, but none states that seven or more agents reported their repository copy pointing to it."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c8",
+      "claim": "The Road 2 Web Summit article was built from the repository at version v0.1.316 and was live at v0.1.358 on 6 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided passages mention version numbers such as v0.1.316 or v0.1.358; the sources only give dates (6 November 2026) and a commit link, so the version claim cannot be verified."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention version v0.1.316, v0.1.358, or the build details of the Road 2 Web Summit article."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided source mentions the Road 2 Web Summit article being built from repository version v0.1.316 or live at v0.1.358 on 6 November 2026."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "The first draft of the series was refused by the site's automatic checks because its file name contained a capital letter.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources says a first draft was refused by automatic checks; S7 only sets a lower-case slug convention for file names, and the other passages say nothing about a rejection."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not mention a draft being refused by automatic checks due to a capital letter in its file name."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source passage mentions a first draft of the series being refused by automatic checks due to a capital letter in its file name."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "PrompTugal.news's team will be at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S11",
+          "quote": "booth A1-30, in ALPHA 1, Pavilion 1",
+          "note": "S11 places the RiskMandate stand at booth A1-30 in Pavilion 1 on Thursday 12 November, but it never says PrompTugal.news's team will be there; S3 only says the PrompTugal.news team also works on RiskMandate."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S11",
+          "quote": "RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1",
+          "note": "While S11 confirms RiskMandate's booth details at Web Summit and S3 notes that the PrompTugal.news team also works on RiskMandate, neither source explicitly states that the PrompTugal.news team will be at the booth."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S11",
+          "quote": "RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1.",
+          "note": "It confirms RiskMandate's booth location, but no source explicitly says the PrompTugal.news team will be at that booth."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c11",
+      "claim": "Web Summit is on Thursday 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S11",
+          "quote": "conference days Tuesday 10, Wednesday 11 and Thursday 12 November 2026",
+          "note": "The source lists Thursday 12 November 2026 as one of the conference days in a 9 to 12 November run, so the event is on that date, though the claim omits that it spans several days."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S11",
+          "quote": "conference days Tuesday 10, Wednesday 11 and Thursday 12 November 2026",
+          "note": "Thursday 12 November is one of the conference days of Web Summit 2026, which runs from 9 to 12 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S11",
+          "quote": "conference days Tuesday 10, Wednesday 11 and Thursday 12 November 2026",
+          "note": "S11 states that Web Summit 2026 conference days include Thursday 12 November 2026."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c12",
+      "claim": "The newsroom's three mistakes described in the article are dated 6 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S3",
+          "quote": "No fact changed.",
+          "note": "No source describes three mistakes; the only dated item with three changes is a 6 November 2026 update to the Brazil article, which calls them clarifications and says no fact changed."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention three mistakes made by the newsroom or date them to 6 November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided source mentions the newsroom's three mistakes or dates them 6 November 2026."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    }
+  ]
+}
