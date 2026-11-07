@@ -1,7 +1,7 @@
 {
  "s00.1": "PrompTugal: la industria, y la dirección correcta",
  "s01.1": "<b>Inversores</b> · deck 2",
- "s01.2": "v1.3 · 7 de noviembre de 2026",
+ "s01.2": "v1.4 · 7 de noviembre de 2026",
  "s01.3": "La industria, y la dirección correcta",
  "s01.4": "Las noticias miran hacia el lado equivocado. <span style=\"color:#c52830\">Nosotros no.</span>",
  "s01.5": "La industria editorial se enganchó a la publicidad, luego a las suscripciones, y dejó de inventar. Los lectores quieren información rigurosa, actualizada, que les ahorre tiempo. PrompTugal está hecho para eso, y ya está en marcha.",
@@ -399,5 +399,9 @@
  "s16.22": "En Web Summit Lisboa, del 9 al 12 de noviembre de 2026. Aún sin cifras: no las tenemos para darlas con honestidad. Estamos hablando con inversores.",
  "s16.23": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
  "s16.24": "Los ocho decks: promptugal.news/investors/decks",
- "meta.description": "Por qué la industria de las noticias está en apuros y sigue mirando hacia el lado equivocado, y la dirección que toma PrompTugal: información rigurosa, actualizada, procedencia, privacidad por diseño. Deck 2 para inversores, noviembre de 2026."
+ "meta.description": "Por qué la industria de las noticias está en apuros y sigue mirando hacia el lado equivocado, y la dirección que toma PrompTugal: información rigurosa, actualizada, procedencia, privacidad por diseño. Deck 2 para inversores, noviembre de 2026.",
+ "s05.l1": "donde construye PrompTugal",
+ "s05.l2": "donde se defiende la industria",
+ "s05.l3": "hacia dónde va",
+ "s05.l4": "inercia"
 }
