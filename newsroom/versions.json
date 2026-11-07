@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.510",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 10:44: F53 verified; F54 accepted but not yet on the day pages",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "cd75e4db5"
+  },
+  {
     "version": "v0.1.509",
     "date": "2026-11-07",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
