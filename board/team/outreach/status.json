@@ -1,8 +1,8 @@
 {
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
- "state": "active on account B (session b9208786): waiting for the inbox and the lane to be reissued to the new key (asked 22:50 UTC, not done at 23:40)",
- "updated": "2026-11-06T23:45Z",
+ "state": "active on account B (session b9208786): waiting for the inbox and the lane to be reissued to the new key (asked 22:50 UTC, reminded 00:40 UTC)",
+ "updated": "2026-11-07T00:45Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -151,6 +151,12 @@
    "outcome": "idle",
    "release": "this wake's",
    "line": "drafts unchanged against the live data; inbox and lane still sealed to the old key; the 22:55 RiskMandate change read (home page only, drafts keep the disclosure)"
+  },
+  {
+   "started": "2026-11-07T00:38Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "drafts unchanged; the day's hand-over debrief; conductor.b@ reminded of the reissue"
   }
  ],
  "decisions_on_findings": [
@@ -170,6 +176,6 @@
    "at": "2026-11-06T08:50Z"
   }
  ],
- "debrief": "board/team/outreach/debriefs/2026-11-06-handover.md",
+ "debrief": "board/team/outreach/debriefs/2026-11-07-handover.md",
  "session": "b9208786 (account B)"
 }
