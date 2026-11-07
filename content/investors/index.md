@@ -42,7 +42,7 @@ Dinis Cruz, founder and CTO, is looking for **investors and business partners** 
 | Page | What it answers |
 |---|---|
 | [Join us](join/index.html) | Helpers this week, the founding team, a partner as CEO, journalists |
-| [The decks](decks/index.html) | Four decks to page through or send as PDF: the investment case, the industry, the platform, the Algarve |
+| [The decks](decks/index.html) | Eight decks to send as PDF: the investment case, the industry, the platform, the Algarve, the investment, the technology, join us, do it yourself |
 | [What works today](what-works/index.html) | What a reader, an attendee and an editor can use now, with a link to each |
 | [For event organisers](for-events/index.html) | What an edition for your event would be: before, during, after; what you get without anyone being tracked |
 | [A pilot for a publisher](for-publishers/index.html) | One section, your editors in charge, no reader data, a licence and maintenance if you want it |

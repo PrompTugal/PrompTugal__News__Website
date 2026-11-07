@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PrompTugal: the Algarve's case</title>
-<meta name="description" content="Why PrompTugal, an Algarvian startup, is good for the Algarve: news, distribution, talent, jobs and startups, connected. Investor deck 4 of 4, November 2026.">
+<meta name="description" content="Why PrompTugal, an Algarvian startup, is good for the Algarve: news, distribution, talent, jobs and startups, connected. Investor deck 4, November 2026.">
 <link rel="stylesheet" href="deck.css">
 <style>
   .feed { background: var(--panel); border: 1px solid var(--hair); border-top: 8px solid var(--red); padding: 10px 34px 14px; }
@@ -33,7 +33,7 @@
 <section class="slide pic">
   <img class="bg" src="img/hero-algarve.jpg" alt="">
   <div class="veil"></div>
-  <div class="head"><span><b>Investors</b> · deck 4 of 4</span><span>v1.0 · 7 November 2026</span></div>
+  <div class="head"><span><b>Investors</b> · deck 4</span><span>v1.1 · 7 November 2026</span></div>
   <div class="inner">
     <div class="kicker">The Algarve's case</div>
     <h1 style="font-size:100px;color:#fff">A news company from the Algarve, built to connect the Algarve.</h1>
@@ -401,7 +401,7 @@
     <div><div class="tag" style="color:#ff7a7f">Read it all</div><p class="body" style="color:var(--paper)"><b>promptugal.news/investors</b></p></div>
   </div>
   <p class="lead" style="margin-top:60px">Talk to <b>Dinis Cruz</b> at Web Summit Lisbon, 9 to 12 November 2026. No figures yet: we do not have them to give honestly. We are talking to investors.</p>
-  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>The Algarve</span></div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>All eight decks: promptugal.news/investors/decks</span></div>
 </section>
 
 </main><script src="deck.js"></script></body></html>

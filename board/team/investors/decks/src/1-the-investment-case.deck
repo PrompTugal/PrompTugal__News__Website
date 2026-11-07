@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PrompTugal: the investment case</title>
-<meta name="description" content="Why invest in PrompTugal: the next generation of news publishing, already running, from the Algarve. Investor deck 1 of 4, November 2026.">
+<meta name="description" content="Why invest in PrompTugal: the next generation of news publishing, already running, from the Algarve. Investor deck 1, November 2026.">
 <link rel="stylesheet" href="deck.css"></head>
 <body><main class="deck">
 
@@ -9,7 +9,7 @@
 <section class="slide pic">
   <img class="bg" src="img/hero-newsroom.jpg" alt="">
   <div class="veil"></div>
-  <div class="head"><span><b>Investors</b> · deck 1 of 4</span><span>v1.0 · 7 November 2026</span></div>
+  <div class="head"><span><b>Investors</b> · deck 1</span><span>v1.1 · 7 November 2026</span></div>
   <div class="inner">
     <div class="kicker">An Algarvian startup · raising</div>
     <h1 style="font-size:104px">The next generation of news publishing is already running.</h1>
@@ -272,7 +272,7 @@
     <div><div class="tag k">Deck 3</div><p class="body">The platform: every feature, live</p></div>
     <div><div class="tag k">Deck 4</div><p class="body">The Algarve's case: jobs, talent, startups</p></div>
   </div>
-  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>promptugal.news/investors</span></div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>All eight decks: promptugal.news/investors/decks</span></div>
 </section>
 
 </main><script src="deck.js"></script></body></html>

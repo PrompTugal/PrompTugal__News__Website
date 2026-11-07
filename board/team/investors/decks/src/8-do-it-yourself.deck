@@ -414,7 +414,7 @@ code, .code { font: 400 21px/1.35 var(--mono); color: var(--ink); background: va
     <div><div class="tag" style="color:#8fd18f">Deck 7</div><p class="body" style="color:#c8c4ba;font-size:22px">Join us: partners and journalists</p></div>
     <div><div class="tag" style="color:#ff7a7f">Deck 8</div><p class="body" style="color:#f6f3ec;font-size:22px">Do it yourself</p></div>
   </div>
-  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>promptugal.news/investors</span></div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>All eight decks: promptugal.news/investors/decks</span></div>
 </section>
 
 </main><script src="deck.js"></script></body></html>

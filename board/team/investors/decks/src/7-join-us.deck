@@ -362,7 +362,7 @@
   <div style="margin-top:50px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 0;color:#c8c4ba;font:400 22px/1.4 var(--sans)">
     <span class="tag" style="color:#8fd18f">Deck 1 · the investment case</span><span class="tag" style="color:#8fd18f">Deck 2 · the industry</span><span class="tag" style="color:#8fd18f">Deck 3 · the platform</span><span class="tag" style="color:#8fd18f">Deck 4 · the Algarve</span><span class="tag" style="color:#f6f3ec">All decks · promptugal.news/investors/decks</span>
   </div>
-  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>promptugal.news/investors</span></div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>All eight decks: promptugal.news/investors/decks</span></div>
 </section>
 
 </main><script src="deck.js"></script></body></html>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PrompTugal: the platform</title>
-<meta name="description" content="What PrompTugal.news is and every feature it runs today, shown on the live site: sourced and signed articles, the graph, Ask, My day, micropayments, the reader's vault, the app, data for agents, the newsroom in the open. Investor deck 3 of 4, November 2026.">
+<meta name="description" content="What PrompTugal.news is and every feature it runs today, shown on the live site: sourced and signed articles, the graph, Ask, My day, micropayments, the reader's vault, the app, data for agents, the newsroom in the open. Investor deck 3, November 2026.">
 <link rel="stylesheet" href="deck.css">
 <style>
 /* deck 3 only: annotated screenshots, layered composition, callout lists */
@@ -38,7 +38,7 @@ ol.co li b { color: var(--ink); display: block; font: 600 26px/1.25 var(--serif)
 
 <!-- 1 · cover -->
 <section class="slide ink" style="padding:0">
-  <div class="head"><span><b>Investors</b> · deck 3 of 4</span><span>v1.0 · 7 November 2026</span></div>
+  <div class="head"><span><b>Investors</b> · deck 3</span><span>v1.1 · 7 November 2026</span></div>
   <div class="abs" style="left:120px;top:190px;width:760px">
     <div class="kicker">PrompTugal: the platform</div>
     <h1 style="font-size:100px">Not a mock-up. The product, live.</h1>
@@ -604,7 +604,7 @@ ol.co li b { color: var(--ink); display: block; font: 600 26px/1.25 var(--serif)
   </div>
   <div class="phone abs" style="left:1090px;top:150px;width:340px;transform:rotate(-3deg)"><img src="shots/p3-m-article.jpg" alt="An article on a phone"></div>
   <div class="phone abs" style="left:1450px;top:210px;width:340px;transform:rotate(3deg)"><img src="shots/p3-m-company.jpg" alt="A company on a phone"></div>
-  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>The platform · deck 4: the Algarve's case</span></div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>All eight decks: promptugal.news/investors/decks</span></div>
 </section>
 
 </main><script src="deck.js"></script></body></html>

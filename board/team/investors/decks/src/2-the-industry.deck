@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PrompTugal: the industry, and the right direction</title>
-<meta name="description" content="Why the news industry is struggling and still looking the wrong way, and the direction PrompTugal takes: accurate information, kept current, provenance, privacy by design. Investor deck 2 of 4, November 2026.">
+<meta name="description" content="Why the news industry is struggling and still looking the wrong way, and the direction PrompTugal takes: accurate information, kept current, provenance, privacy by design. Investor deck 2, November 2026.">
 <link rel="stylesheet" href="deck.css">
 <style>
 .flow .step h3 { font-size: 30px; }
@@ -12,7 +12,7 @@
 <section class="slide pic lightpic">
   <img class="bg" src="img/hero-industry.jpg" alt="" style="left:560px;width:1360px;object-position:40% 50%">
   <div class="veil" style="background:linear-gradient(90deg,rgba(246,243,236,1) 0%,rgba(246,243,236,1) 31%,rgba(246,243,236,.75) 40%,rgba(246,243,236,0) 54%)"></div>
-  <div class="head"><span><b>Investors</b> · deck 2 of 4</span><span>v1.0 · 7 November 2026</span></div>
+  <div class="head"><span><b>Investors</b> · deck 2</span><span>v1.1 · 7 November 2026</span></div>
   <div class="inner" style="max-width:1000px">
     <div class="kicker">The industry, and the right direction</div>
     <h1 style="font-size:100px">News is looking the wrong way. <span style="color:#c52830">We are not.</span></h1>
@@ -527,7 +527,7 @@
     <div class="step"><h3>Try it</h3><p>Read the news, build your day, ask the newsroom a question.</p></div>
     <div class="step"><h3>Talk to Dinis Cruz</h3><p>At Web Summit Lisbon, 9 to 12 November 2026. No figures yet: we do not have them to give honestly. We are talking to investors.</p></div>
   </div>
-  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>promptugal.news/investors</span></div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>All eight decks: promptugal.news/investors/decks</span></div>
 </section>
 
 </main><script src="deck.js"></script></body></html>
