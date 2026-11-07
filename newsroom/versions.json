@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.567",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "5c303ce0d"
+  },
+  {
     "version": "v0.1.566",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 15:07 wake: account B's ledger at 374.91, about 30 an hour; investors@ at 110.24",
