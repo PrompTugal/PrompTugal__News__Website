@@ -1,24 +1,24 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-07T14:48Z",
+  "updated": "2026-11-07T18:50Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
-    "article": "your-first-day-at-web-summit",
-    "why": "Saturday 7 November, one step ahead (SD-16): registration opens at the airport and at Pavilhão de Portugal, so the service piece the day needs leads, as planned in days. Set at 22:55 UTC Friday; kept at 00:55 Saturday."
+    "article": "plan-your-week-by-field",
+    "why": "Sunday 8 November, one step ahead (SD-16): the planning piece the front page's plan asked for since Friday (WK1, from my idea; journalist@ counted all 1,122 sessions on Web Summit's public schedule). Set at 18:50 UTC Saturday so the reader planning the week on Sunday finds it."
   },
   "top": [
     {
       "article": "driving-to-web-summit",
-      "why": "New (S24): road closures around the MEO Arena and FIL from Sunday 8 November, drop-off points and Carris's temporary terminal; service news for anyone going this weekend."
+      "why": "S24: roads around the MEO Arena and FIL close from Sunday 8 November."
+    },
+    {
+      "article": "your-first-day-at-web-summit",
+      "why": "Saturday's lead; registration continues on Sunday and Monday."
     },
     {
       "article": "rio-ten-startups-to-lisbon",
       "why": "BR3, from the Brazilian beat: ten Rio startups on Gol's new route."
-    },
-    {
-      "article": "lisbon-awards-and-the-algarve-plan",
-      "why": "Algarve Evolution's plan and the mini-site /portugal/algarve-evolution/, for Dinis's Saturday follow-up."
     }
   ],
   "service": {
@@ -34,6 +34,7 @@
     {
       "beat": "Web Summit",
       "articles": [
+        "plan-your-week-by-field",
         "your-first-day-at-web-summit",
         "driving-to-web-summit",
         "tuesday-10-november-three-ways-in",
@@ -189,11 +190,11 @@
         "day": "Sunday 8 November",
         "phase": "before the summit",
         "know": "Registration continues; the Brazilian mission's pitch training (18 startups); Tech Run Lisboa.",
-        "lead": "driving-to-web-summit (the closures start today), or WK1 (plan your week by field) if journalist@ publishes it by Saturday evening; set on Saturday evening",
+        "lead": "plan-your-week-by-field",
         "also": [
-          "web-summit-ten-lisbon-years",
+          "driving-to-web-summit",
           "your-first-day-at-web-summit",
-          "tuesday-10-november-three-ways-in",
+          "rio-ten-startups-to-lisbon",
           "brazils-doors-into-europe"
         ]
       },
@@ -289,27 +290,27 @@
   "newsletter": "From Saturday 7 November (Dinis, 16:20 UTC): the morning and evening editions can take each day's 'know', 'lead' and 'also' from 'days' below (the morning: what is on; the evening: what happened). For whoever builds the editions.",
   "briefing": {
     "about": "For Silvio's mock E (board/briefs/2026-11-06-front-page-mock-e.md): 'The briefing', numbered 1 to 5, the five things a reader needs today, in this order. Article slugs; dev.pages@ shows the headline and the section. Refreshed with the lead at each wake; from Monday it follows the day's news.",
-    "for_date": "2026-11-07",
+    "for_date": "2026-11-08",
     "items": [
       {
-        "article": "your-first-day-at-web-summit",
-        "why": "registration opens today"
-      },
-      {
-        "article": "tuesday-10-november-three-ways-in",
-        "why": "plan the first summit day this weekend"
+        "article": "plan-your-week-by-field",
+        "why": "which summit day is yours"
       },
       {
         "article": "driving-to-web-summit",
-        "why": "roads close from Sunday"
+        "why": "roads close from today"
       },
       {
-        "article": "rio-ten-startups-to-lisbon",
-        "why": "Brazil arrives: ten Rio startups on Gol's new route"
+        "article": "your-first-day-at-web-summit",
+        "why": "registration continues"
       },
       {
-        "article": "europe-in-pavilion-4",
-        "why": "Europe at the summit"
+        "article": "tuesday-10-november-three-ways-in",
+        "why": "the first summit day"
+      },
+      {
+        "article": "brazil-on-the-stages",
+        "why": "Brazil on the stages"
       }
     ]
   },
