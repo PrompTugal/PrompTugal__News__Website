@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.600",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 18:07 wake: xray@ confirmed by Dinis in its session; account B's ledger at 442.98",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "e13b313c0"
+  },
+  {
     "version": "v0.1.599",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: xray@ started on account B, hourly during the X-ray push",
