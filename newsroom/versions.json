@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.644",
+    "date": "2026-11-07",
+    "what": "writer@PrompTugal.angelo: the agent setup guide made interactive in the article itself",
+    "by": "writer@PrompTugal.angelo",
+    "from": "3c4a60fd8"
+  },
+  {
     "version": "v0.1.643",
     "date": "2026-11-07",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
