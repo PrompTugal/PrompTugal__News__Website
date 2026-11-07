@@ -98,3 +98,13 @@
 .ff-tk { flex: 1; min-width: 0; }
 .ff-tl small { display: block; font: 12px var(--sans); color: var(--ink-3); margin-top: 2px; }
 .ff-hd nav a, .ff-h a, .ff-bh a, .ff-lnk a { display: inline-flex; align-items: center; min-height: 24px; }
+
+/* D4: the wordmark at least 240 px wide; H6: no text under 12 px */
+.ff-hd .wordmark { height: 40px; }
+.ff-h a, .ff-badge, .ff-h { font-size: 12px !important; }
+/* D11: on a phone, the week in Lisbon comes right after the top story */
+@media (max-width: 760px) {
+    .ff-main { display: contents; }
+    .ff-lead { order: 0; } .ff-side { order: 1; } .ff-main > .ff-h, .ff-rk { order: 2; } .ff-more { order: 3; }
+    .ff-side { display: flex; flex-direction: column; } .ff-side > .ff-box:last-child { order: -1; }
+}

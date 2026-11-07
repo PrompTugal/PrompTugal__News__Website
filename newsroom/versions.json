@@ -1,5 +1,201 @@
 [
   {
+    "version": "v0.1.563",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 14:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "2cac2239e"
+  },
+  {
+    "version": "v0.1.562",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: two run-report observations this session did not make, raised with abp@ and Dinis",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "514ad63cf"
+  },
+  {
+    "version": "v0.1.561",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: original sources in BR6, BR1 and BR3 for facts taken from our own articles",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "1f18e54b4"
+  },
+  {
+    "version": "v0.1.560",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: Genspark built_on Twilio",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "40fa79132"
+  },
+  {
+    "version": "v0.1.559",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report for euros and the language vote",
+    "by": "investors@PrompTugal.dinis",
+    "from": "e19f018e9"
+  },
+  {
+    "version": "v0.1.558",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 14:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d7e1f9919"
+  },
+  {
+    "version": "v0.1.557",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: the organiser's 2026 partners page read in full; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "f6ca8141c"
+  },
+  {
+    "version": "v0.1.556",
+    "date": "2026-11-07",
+    "what": "devops@PrompTugal.dinis: runs 1041 to 1084 read: all green",
+    "by": "devops@PrompTugal.dinis",
+    "from": "a3b85e4f9"
+  },
+  {
+    "version": "v0.1.555",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 14:07 wake: dev.pages@ nudged onto designer@'s three open home-design items",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a78bc1171"
+  },
+  {
+    "version": "v0.1.554",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report for the decks fix pass",
+    "by": "investors@PrompTugal.dinis",
+    "from": "4846a27eb"
+  },
+  {
+    "version": "v0.1.553",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 14:05: 55 commits clean, S29 (deck.js changed unreviewed) to dev@, S28 not yet on dev",
+    "by": "security@PrompTugal.dinis",
+    "from": "4f1013a5d"
+  },
+  {
+    "version": "v0.1.552",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: synthetic investors run 2: findings, fixes queued, seven questions for Dinis",
+    "by": "investors@PrompTugal.dinis",
+    "from": "b52d776d4"
+  },
+  {
+    "version": "v0.1.551",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/decks/: nine decks in four languages",
+    "by": "investors@PrompTugal.dinis",
+    "from": "c9def0e3c"
+  },
+  {
+    "version": "v0.1.550",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/decks/: Spanish for decks 1 to 8, French for 5 to 8",
+    "by": "investors@PrompTugal.dinis",
+    "from": "81c09b06f"
+  },
+  {
+    "version": "v0.1.549",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: the decks table: plain links (titles broke some), deck 9 and every Portuguese page linked",
+    "by": "investors@PrompTugal.dinis",
+    "from": "bc5e0c85c"
+  },
+  {
+    "version": "v0.1.548",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: tools/decks-page.mjs: the decks table built from what exists",
+    "by": "investors@PrompTugal.dinis",
+    "from": "ad7050fb9"
+  },
+  {
+    "version": "v0.1.547",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 13:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "7312f20dc"
+  },
+  {
+    "version": "v0.1.546",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the home designs re-checked at v0.1.545: three items unmoved since 04:45; dev.pages@ silent since 04:13",
+    "by": "designer@PrompTugal.dinis",
+    "from": "63d868486"
+  },
+  {
+    "version": "v0.1.545",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: Twilio built_on Temporal; three candidates not taken",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "12ce00475"
+  },
+  {
+    "version": "v0.1.544",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Google Cloud and Microsoft directories tried again and closed; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "34f68cb37"
+  },
+  {
+    "version": "v0.1.543",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "bac9e8c2e"
+  },
+  {
+    "version": "v0.1.542",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 13:07 wake: account B quiet; accountant@ confirms investors@'s spend",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "8601e9f87"
+  },
+  {
+    "version": "v0.1.541",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "6c8e832a0"
+  },
+  {
+    "version": "v0.1.540",
+    "date": "2026-11-07",
+    "what": "librarian@PrompTugal.dinis: wake 12:57: 'see' retired for supersedes; every link type an ontology verb; catalogue v0.1.538",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "5c35a63ec"
+  },
+  {
+    "version": "v0.1.539",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: euros across the decks and pages; Dinis as organiser and driver of the summits",
+    "by": "investors@PrompTugal.dinis",
+    "from": "56c148a2d"
+  },
+  {
+    "version": "v0.1.538",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 12:52: Angelo's contributor ask; investors' outreach pack",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "e7d6f972a"
+  },
+  {
+    "version": "v0.1.537",
+    "date": "2026-11-07",
+    "what": "accountant@PrompTugal.dinis: 12:50 wake: 309.08 API-equivalent today, about 32 an hour; investors@ at 66.59 against a line of 15",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "a7bf8678c"
+  },
+  {
+    "version": "v0.1.536",
+    "date": "2026-11-07",
+    "what": "writer@PrompTugal.angelo: for Dinis, Angelo asks to be listed as a technical content contributor",
+    "by": "writer@PrompTugal.angelo",
+    "from": "c8810c398"
+  },
+  {
     "version": "v0.1.535",
     "date": "2026-11-07",
     "what": "correspondent@PrompTugal.dinis: wake 12:41: road closures to the top; F54 done; Sunday planned",

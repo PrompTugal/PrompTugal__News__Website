@@ -169,10 +169,10 @@
     <circle cx="1450" cy="430" r="15" fill="#fffdf8" stroke="#c52830" stroke-width="5"></circle><text x="1450" y="472" text-anchor="middle" font-size="22" font-weight="600" fill="#121317" paint-order="stroke" stroke="#f6f3ec" stroke-width="7" stroke-linejoin="round" data-i18n="s05.22"></text><text x="1450" y="498" text-anchor="middle" font-size="19" class="mono" fill="#c52830" paint-order="stroke" stroke="#f6f3ec" stroke-width="7" stroke-linejoin="round" data-i18n="s05.23"></text>
   </svg>
   <div style="display:flex;gap:30px;align-items:center;margin-top:16px;font:400 21px/1 var(--sans);color:#3f424a;white-space:nowrap">
-    <span><svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="none" stroke="#006600" stroke-width="4"></circle></svg> where PrompTugal builds</span>
-    <span><svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="none" stroke="#c52830" stroke-width="4"></circle></svg> where the industry defends</span>
-    <span><svg width="48" height="14"><line x1="0" y1="7" x2="48" y2="7" stroke="#121317" stroke-width="4" stroke-dasharray="9 6"></line></svg> where it is heading</span>
-    <span><svg width="14" height="26"><rect width="14" height="26" fill="#121317"></rect></svg> inertia</span>
+    <span><svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="none" stroke="#006600" stroke-width="4"></circle></svg> <span data-i18n="s05.l1"></span></span>
+    <span><svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="none" stroke="#c52830" stroke-width="4"></circle></svg> <span data-i18n="s05.l2"></span></span>
+    <span><svg width="48" height="14"><line x1="0" y1="7" x2="48" y2="7" stroke="#121317" stroke-width="4" stroke-dasharray="9 6"></line></svg> <span data-i18n="s05.l3"></span></span>
+    <span><svg width="14" height="26"><rect width="14" height="26" fill="#121317"></rect></svg> <span data-i18n="s05.l4"></span></span>
     <span style="margin-left:auto;margin-top:0" class="src" data-i18n="s05.24"></span>
   </div>
   <div class="foot"><span class="wordmark" data-i18n="s05.25"></span><span data-i18n="s05.26"></span></div>

@@ -2,7 +2,7 @@
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
  "state": "running on account B; vault key still awaited",
- "updated": "2026-11-07T13:02Z",
+ "updated": "2026-11-07T15:02Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -35,12 +35,13 @@
   "06:44 wake: inbox (dev@: F43, F01, F33 done; designer@: F52 done); verified live at v0.1.461: F43, F33, F52; F01 reopened (the 'free' line is a hover tooltip a phone never shows, and /account/ says 'you pay for what you read'); ledger: 24 verified, 13 open, 1 reopened",
   "08:44 wake: inbox (dev@: F01 again); F01 verified live (pill 'free credit'; /account/ 'Nothing is charged'); F53 new (dev@, minor: /account/ still says 'charged' and 'you pay'); run 12: Joaquim (SYNTHETIC, desktop) on the front page and Day 1: F54 new (correspondent@: the days' 'five things' are press conferences; no picks in data/front/days.json)",
   "10:44 wake: inbox (dev@: F53 done); F53 verified live; F54 accepted by correspondent@ but not live: its picks sit in its desk file, data/front/days.json (which the build reads) is empty; dev@ and dev.pages@ asked to wire it",
-  "12:44 wake: inbox (dev@: F54 wired); F54 verified live (the days show talks, no press conference); run 13: Sofia (SYNTHETIC, phone) on Monday's page and my-day: both work; F55 new (dev@, costly: the brand name cut in the masthead on phones since the pill grew), F56 new (dev.pages@, minor: '1 items')"
+  "12:44 wake: inbox (dev@: F54 wired); F54 verified live (the days show talks, no press conference); run 13: Sofia (SYNTHETIC, phone) on Monday's page and my-day: both work; F55 new (dev@, costly: the brand name cut in the masthead on phones since the pill grew), F56 new (dev.pages@, minor: '1 items')",
+  "14:45 wake: inbox (dev@: F55 fixed); F55 verified live; run 14: Marta (SYNTHETIC investor, desktop) on /companies/ and Feedzai: F57 new (dev.pages@: filter.js loaded twice leaves the filter box without hint or label); F13, F04 still hold"
  ],
  "next": [
   "the synthetic vault key from the conductor, or a fresh baseline with changes.mjs --save",
-  "re-measure F55, F56 when marked; F50 (the conductor's) still open",
-  "a reader on the companies page and one company, desktop"
+  "re-measure F56, F57 when marked; F50 (the conductor's) still open",
+  "a reader on the newsletter page and the about page; refresh the day's debrief tonight"
  ],
  "asks": [
   "Dinis: what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
@@ -206,6 +207,12 @@
    "outcome": "ok",
    "release": "",
    "line": "F54 verified; run 13 (Sofia, phone): F55 for dev@, F56 for dev.pages@"
+  },
+  {
+   "started": "2026-11-07T14:45Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F55 verified; run 14 (Marta, desktop): F57 for dev.pages@"
   }
  ],
  "debrief": "board/team/synthetic/debriefs/2026-11-07-handover.md"
