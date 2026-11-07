@@ -1,9 +1,9 @@
 ---
 title: Investors
-summary: PrompTugal is an Algarvian startup building the next generation of news publishing, and it is already working. What we sell is the agentic newsroom, people and AI agents working together. We are looking for investors and business partners. Everything is published, the seed round (under $1M) too; only the valuation and the terms are for a conversation.
+summary: PrompTugal is an Algarvian startup building the next generation of news publishing, and it is already working. What we sell is the agentic newsroom, people and AI agents working together. We are looking for investors and business partners. Everything is published, the seed round (under €1M) too; only the valuation and the terms are for a conversation.
 ---
 {.notice .brand}
-**PrompTugal is an Algarvian startup, and it is raising.** We are looking for investors and business partners, and talking to them at Web Summit Lisbon (9 to 12 November 2026). This section publishes the strategy, the product, the plan and the history in full. Only the valuation and the terms are kept for a conversation; the round is a seed of under $1M.
+**PrompTugal is an Algarvian startup, and it is raising.** We are looking for investors and business partners, and talking to them at Web Summit Lisbon (9 to 12 November 2026). This section publishes the strategy, the product, the plan and the history in full. Only the valuation and the terms are kept for a conversation; the round is a seed of under €1M.
 
 ## The pitch, in one page {#pitch}
 
@@ -65,7 +65,7 @@ Phase one is the explorers' phase: a small team and a seed round, to prove the c
 
 - **The legal entity:** My Feeds (MYFEEDS AI, UNIPESSOAL, LDA), a Portuguese single-member limited company in the Algarve, and the publisher of PrompTugal.news. The ideas behind PrompTugal began as My Feeds, a personalised news project; the company is expected to take the PrompTugal name.
 - **Ownership:** Dinis Cruz is its sole director and 100% shareholder.
-- **The round:** a seed round of **under $1M**, for the explorer phase: to make the company profitable and ready for Series A. Valuation, split and terms are for a conversation; revenue, costs and projections are not published because we do not have them to give honestly yet.
+- **The round:** a seed round of **under €1M**, for the explorer phase: to make the company profitable and ready for Series A. Valuation, split and terms are for a conversation; revenue, costs and projections are not published because we do not have them to give honestly yet.
 - Source: Dinis Cruz, 7 November 2026 ([the decision](../newsroom/decisions/promptugal-for-investors/index.html)).
 
 ## Talk to us {#contact}

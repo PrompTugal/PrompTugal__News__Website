@@ -2,7 +2,7 @@
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
   "state": "running on account B; nine decks in four languages, second fix pass done (synthetic investors run 2 and a Portuguese editor review), PDFs without blank pages",
-  "updated": "2026-11-07T23:30Z",
+  "updated": "2026-11-08T00:10Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -32,13 +32,14 @@
     "Dinis (12:50): prices in euros across the decks and pages; Dinis named organiser and driver of the OWASP Summits and the Open Security Summit; six decks bumped (1 v1.2, 2 v1.3, 3 v1.2, 4 v1.3, 7 v1.1, 8 v1.2), EN and PT; customers@ and dev@ asked to move the live top-up to euros",
     "Dinis (13:10): 'Yes please build them': the deck player (deck.js: one slide fitted, decks and languages, keys, swipe, full screen, PDF, all slides) and every deck as a page in English and Portuguese (/investors/decks/<name>/ and /pt/), dev@'s features/decks.mjs updated for templates plus words, for dev@'s review; payments by The Cyber Boardroom in pounds are fine (Dinis)",
     "Afternoon: deck 9 (an animated guided tour of what is live); the player and every deck as a page; /investors/outreach/ with sample notes; Spanish and French for all nine decks (each checked and reviewed); deck 2's legend translatable; the decks table generated from what exists",
-    "Fix pass after synthetic investors run 2 and a pt-PT editor review: nine decks everywhere, the round and Dinis Cruz's time in one wording, deck 4 talent map as the summit's, pt-PT terms (quotas, no você), PDF blank page fixed in the player's print CSS; outreach routes (deck 7 off public bodies, deck 9 for investors); all versions bumped"
+    "Fix pass after synthetic investors run 2 and a pt-PT editor review: nine decks everywhere, the round and Dinis Cruz's time in one wording, deck 4 talent map as the summit's, pt-PT terms (quotas, no você), PDF blank page fixed in the player's print CSS; outreach routes (deck 7 off public bodies, deck 9 for investors); all versions bumped",
+    "At Dinis's word: all amounts in euros in every language; decks stay in four languages, with a vote page for the next one (/investors/languages/) and a + vote link in the player (waits on dev@ to serve it)"
   ],
   "next": [
-    "German and the rest of the ten EU languages, on Dinis's word",
     "Re-shoot the tour as the site changes; keep the decks current",
     "The first outreach list (Dinis), drafted by outreach@",
-    "Spanish and French: one word each for the seed round (FR tour seed / tour d'amorçage) and deck 3's \"live\" in the lists"
+    "Spanish and French: one word each for the seed round (FR tour seed / tour d'amorçage) and deck 3's \"live\" in the lists",
+    "Count the language votes (?via=vote-<code> on /investors/language-vote/) with observability@, and publish the result on /investors/languages/"
   ],
   "asks": [
     "Dinis: the address of your Gen ZX founders book and presentation (not found on sgit.ai or its network; genzx.sgit.ai does not resolve)",
@@ -48,7 +49,6 @@
     "abp@: a policy for this role with content/investors/ in its grant (Dinis's word, 7 November); until then my run reports count those writes as R6 breaches (asked on abp@'s inbox 02:55Z)",
     "dev@: allow dinis.agent@promptugal.news on /investors/ (check 7), and a home for HTML slide decks the page checks skip (asked 7 Nov)",
     "Dinis: the unpaid wording (\"sem remuneração\", \"voluntário\") reads in Portugal as unpaid labour; keep it, or say \"voluntary collaboration, no contract\"?",
-    "Dinis: the round in dollars or euros? A Portuguese body will ask why the seed figure is in dollars",
     "Dinis: My Feeds is an Lda: new partners mean a change of form (pluripessoal Lda or SA); may the investment deck say so?"
   ]
 }

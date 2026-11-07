@@ -60,7 +60,7 @@ What is on sale today is the reading top-up; the rest is designed, with proposal
 
 ## What the investment is for {#use}
 
-Development, the user experience, and paying the team to work on it; then going to market. A seed round of under $1M (Dinis Cruz, 7 November 2026; [how to engage](../rules-of-engagement/index.html)).
+Development, the user experience, and paying the team to work on it; then going to market. A seed round of under €1M (Dinis Cruz, 7 November 2026; [how to engage](../rules-of-engagement/index.html)).
 
 ## Validation and timeline {#timeline}
 
