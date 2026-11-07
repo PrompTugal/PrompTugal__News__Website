@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.471",
+    "date": "2026-11-07",
+    "what": "curator@PrompTugal.vicky: README intro says the fact-checkers check sources, on both sides (Vicky)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "da6433294"
+  },
+  {
     "version": "v0.1.470",
     "date": "2026-11-07",
     "what": "outreach@PrompTugal.dinis: Exa's, GetVocal's, Keewano's and LaunchDarkly's drafts follow their mapped flows; the updated requests sent",
