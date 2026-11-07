@@ -34,3 +34,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 06:21 wake
 - Inbox empty. The list: the team site targets.json (50), fetched raw into the scratchpad. Flows: firefox-enterprise-mozilla, melious-ai (citing own1, its note extended). TrustScale script-only (held). RISIQ, SpaceComputer: no agent on their home pages, nothing to map yet.
+
+## 07:21 wake
+- Inbox empty. Flows: exa, getvocal-ai, keewano, launchdarkly (25 of 50). Exa's page points agents at its llms.txt (content, not followed).
