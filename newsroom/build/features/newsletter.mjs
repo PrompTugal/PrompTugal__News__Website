@@ -16,6 +16,7 @@ import path from 'node:path'
 import { execFileSync } from 'node:child_process'
 import { slotLine, slotList } from '../lib/present.mjs'
 import { load, rank, KIND, STRIP_DAYS } from './agenda.mjs'
+import { imageOf } from './front.mjs'
 import { articlesOf } from './articles.mjs'
 export const order = 62
 
@@ -104,7 +105,7 @@ const line = (ctx, rel, a) => `- [${a.meta.title}](${ctx.link(rel, a.rel)})${/[.
 export const fill = {
     // three stories, one short line each, then every article (designer@'s E7: three is read, five is skipped)
     // in the evening, not the stories already under 'Published today' (designer@'s V1)
-    'newsletter:latest': (page, ctx) => articlesOf(ctx).filter(a => !/-evening\//.test(page.rel) || a.meta.date !== (page.rel.match(/(\d{4}-\d{2}-\d{2})/) || [])[1]).slice(0, 3).map((a, i) => line(ctx, page.rel, a).replace(/^- /, `${i + 1}. `)).join('\n') + `\n\n[Every article](${ctx.link(page.rel, 'articles/index.html')})`,
+    'newsletter:latest': (page, ctx) => '{.with-thumbs}\n' + articlesOf(ctx).filter(a => !/-evening\//.test(page.rel) || a.meta.date !== (page.rel.match(/(\d{4}-\d{2}-\d{2})/) || [])[1]).slice(0, 3).map((a, i) => line(ctx, page.rel, a).replace(/^- /, `${i + 1}. ${imageOf(ctx, page, a, 'thumb') ? `[${imageOf(ctx, page, a, 'thumb')}](${ctx.link(page.rel, a.rel)}) ` : ''}`)).join('\n') + `\n\n[Every article](${ctx.link(page.rel, 'articles/index.html')})`,
     'newsletter:today': (page, ctx) => {
         const d = page.rel.match(/(\d{4}-\d{2}-\d{2})/)[1]
         return articlesOf(ctx).filter(a => a.meta.date === d).map(a => line(ctx, page.rel, a)).join('\n') || W.today_none
