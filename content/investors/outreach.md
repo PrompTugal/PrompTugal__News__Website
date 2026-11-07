@@ -8,8 +8,8 @@ We write to people in the open: every note below points to pages and decks anyon
 
 | Audience | Lead with | Then |
 |---|---|---|
-| **Investors** (angels and seed funds, anywhere in Europe) | [Deck 1, the investment case](../decks/1-the-investment-case/index.html) | [Deck 5, the investment](../decks/5-the-investment/index.html); [deck 6](../decks/6-the-technology/index.html) if they ask how |
-| **The Algarve's bodies** | [Deck 4, the Algarve's case](../decks/4-the-algarve/pt/index.html) (in Portuguese) | [Deck 7, join us](../decks/7-join-us/pt/index.html) |
+| **Investors** (angels and seed funds, anywhere in Europe) | [Deck 1, the investment case](../decks/1-the-investment-case/index.html) | [Deck 5, the investment](../decks/5-the-investment/index.html); [deck 9, the tour](../decks/9-the-tour/index.html) to see it live; [deck 6](../decks/6-the-technology/index.html) if they ask how |
+| **The Algarve's bodies** | [Deck 4, the Algarve's case](../decks/4-the-algarve/pt/index.html) (in Portuguese) | [Deck 3, the platform](../decks/3-the-platform/pt/index.html) (in Portuguese) |
 | **Portugal's startup and innovation bodies** | [Deck 4](../decks/4-the-algarve/pt/index.html), then [deck 1](../decks/1-the-investment-case/pt/index.html) (in Portuguese) | [Deck 5](../decks/5-the-investment/pt/index.html) for funders |
 | **Portuguese media** | [Deck 2, the industry](../decks/2-the-industry/pt/index.html) (in Portuguese) | [A pilot for a publisher](../for-publishers/index.html) |
 | **Europe's news and media networks** | [Deck 2, the industry](../decks/2-the-industry/index.html) | [Deck 3, the platform](../decks/3-the-platform/index.html); [deck 8](../decks/8-do-it-yourself/index.html) for the open-source angle |

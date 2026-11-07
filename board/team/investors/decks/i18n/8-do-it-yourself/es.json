@@ -1,7 +1,7 @@
 {
  "s00.1": "PrompTugal: hágalo usted mismo",
  "s01.1": "<b>Inversores</b> · deck 8",
- "s01.2": "v1.2 · 7 de noviembre de 2026",
+ "s01.2": "v1.3 · 7 de noviembre de 2026",
  "s01.3": "Hágalo usted mismo",
  "s01.4": "¿Quiere hacerlo usted mismo? <span style=\"color:#c52830\">Haga un fork.</span>",
  "s01.5": "Todo lo que mueve PrompTugal.news es código abierto: el código, el modelo de datos, el filtro, la cadena de publicación, las reglas y políticas de los agentes. Aquí están los repositorios, la pila, la hoja de ruta, las lecciones y por qué copiarnos nos ayuda. Adelante.",
@@ -460,9 +460,9 @@
  "s15.4": "Haga un fork. <span style=\"color:#8fd18f\">O constrúyalo con nosotros.</span>",
  "s15.5": "Empiece aquí: <b>github.com/PrompTugal/PrompTugal__News__Website</b>, y luego lea <b>CLAUDE.md</b>. Todo lo demás está enlazado desde ahí.",
  "s15.6": "Deck 1",
- "s15.7": "El caso de inversión",
+ "s15.7": "La tesis de inversión",
  "s15.8": "Deck 2",
- "s15.9": "El sector, y la dirección correcta",
+ "s15.9": "La industria, y la dirección correcta",
  "s15.10": "Deck 3",
  "s15.11": "La plataforma: cada función, en directo",
  "s15.12": "Deck 4",
@@ -476,8 +476,10 @@
  "s15.20": "Deck 8",
  "s15.21": "Hágalo usted mismo",
  "s15.22": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
- "s15.23": "Los ocho decks: promptugal.news/investors/decks",
+ "s15.23": "Los nueve decks: promptugal.news/investors/decks",
  "meta.description": "Todo lo que mueve PrompTugal.news es código abierto. Los repositorios, la pila, la hoja de ruta en diez pasos, las lecciones que pagamos, por qué la ventaja son las decisiones y la ejecución, por qué copiarnos nos ayuda y lo que hace falta de verdad: haga un fork, o constrúyalo con nosotros. Deck 8 para inversores, noviembre de 2026.",
  "s12.28": "lo que no se puede copiar",
- "s12.29": "desplazado al abrirlo"
+ "s12.29": "desplazado al abrirlo",
+ "y15.1": "Deck 9",
+ "y15.2": "La visita: lo que está en línea"
 }

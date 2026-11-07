@@ -1,7 +1,7 @@
 {
  "s00.1": "PrompTugal : ce qui le rend possible",
  "s01.1": "<b>Investisseurs</b> · deck 6",
- "s01.2": "v1.0 · 7 novembre 2026",
+ "s01.2": "v1.1 · 7 novembre 2026",
  "s01.3": "La technologie · sgit, RiskMandate, politiques de comportement des agents",
  "s01.4": "Vingt agents par personne, et chacun dans son couloir.",
  "s01.5": "Ce qui rend PrompTugal possible, ce n'est pas plus d'IA. C'est le contrôle : une clé pour chaque agent, la confidentialité par défaut, et un mandat écrit dont l'écart est mesuré toutes les heures.",
@@ -372,6 +372,7 @@
  "s16.13": "board/abp/ dans le dépôt public",
  "s16.14": "sgit.ai · riskmandate.ai",
  "s16.15": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
- "s16.16": "Les huit decks : promptugal.news/investors/decks",
- "meta.description": "La technologie qui rend PrompTugal possible : une vingtaine d'agents par personne, tenus dans leur couloir par les clés et coffres de sgit, la portée, le mandat et l'écart de RiskMandate, et une Agent Behaviour Policy pour chaque agent. Deck investisseurs 6, novembre 2026."
+ "s16.16": "Les neuf decks : promptugal.news/investors/decks",
+ "meta.description": "La technologie qui rend PrompTugal possible : une vingtaine d'agents par personne, tenus dans leur couloir par les clés et coffres de sgit, la portée, le mandat et l'écart de RiskMandate, et une Agent Behaviour Policy pour chaque agent. Deck investisseurs 6, novembre 2026.",
+ "x16.1": "<b>Deck 9</b>La visite : ce qui est en ligne"
 }

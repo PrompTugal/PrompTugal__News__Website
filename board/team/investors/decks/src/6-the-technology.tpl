@@ -460,7 +460,7 @@
 <section class="slide v ink">
   <div class="head"><span><b data-i18n="s16.1"></b></span><span data-i18n="s16.2"></span></div>
   <p class="bigquote" style="font-size:66px" data-i18n="s16.3"></p>
-  <div class="deckrow">
+  <div class="deckrow" style="grid-template-columns:repeat(5,1fr)">
     <div data-i18n="s16.4"></div>
     <div data-i18n="s16.5"></div>
     <div data-i18n="s16.6"></div>
@@ -469,6 +469,7 @@
     <div data-i18n="s16.9"></div>
     <div data-i18n="s16.10"></div>
     <div data-i18n="s16.11"></div>
+    <div data-i18n="x16.1"></div>
   </div>
   <div style="margin-top:50px"><span class="tag" data-i18n="s16.12"></span><span class="tag w" data-i18n="s16.13"></span><span class="tag w" data-i18n="s16.14"></span></div>
   <div class="foot"><span class="wordmark" data-i18n="s16.15"></span><span data-i18n="s16.16"></span></div>

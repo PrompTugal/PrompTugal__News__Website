@@ -1,10 +1,10 @@
 {
  "s00.1": "PrompTugal : le cas de l'Algarve",
  "s01.1": "<b>Investisseurs</b> · deck 4",
- "s01.2": "v1.4 · 7 novembre 2026",
+ "s01.2": "v1.5 · 7 novembre 2026",
  "s01.3": "Le cas de l'Algarve · Portugal · Europe",
  "s01.4": "De l'Algarve, au Portugal, pour l'Europe.",
- "s01.5": "Une société d'information qui raconte l'histoire technologique de la région, la porte jusqu'à Lisbonne, en Europe et aux agents d'IA, cartographie ses talents et aide à lancer ses startups, avec des partenaires dans l'Algarve, au Portugal et dans l'Union européenne.",
+ "s01.5": "Une société d'information qui raconte l'histoire technologique de la région, la porte jusqu'à Lisbonne, en Europe et aux agents d'IA, et vise à cartographier ses talents et à aider à lancer ses startups, avec des partenaires dans l'Algarve, au Portugal et dans l'Union européenne.",
  "s01.6": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
  "s01.7": "L'Algarve",
  "s02.1": "La société",
@@ -145,7 +145,7 @@
  "s07.14": "Un événement",
  "s07.15": "Un lieu",
  "s07.16": "Une université",
- "s07.17": "Déjà tenus pour le sommet",
+ "s07.17": "Tenus pour le sommet ; ensuite, une carte de l'Algarve",
  "s07.18": "264",
  "s07.19": "personnes, public et professionnel seulement",
  "s07.20": "236",
@@ -315,6 +315,6 @@
  "s15.17": "« Les valeurs européennes d'ouverture, de multilinguisme, de durabilité et d'innovation centrée sur l'humain rejoignent de près la direction que prend l'IA générative. »<span class=\"who\">Dinis Cruz · Europe's Strategic Opportunity in GenAI, 2025</span>",
  "s15.18": "Le tour d'amorçage : <b>moins de $1M</b>. Parlez à <b>Dinis Cruz</b> au Web Summit Lisbonne, du 9 au 12 novembre 2026.",
  "s15.19": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
- "s15.20": "Les huit decks : promptugal.news/investors/decks · essai sur l'Europe : docs.diniscruz.ai, 1er avril 2025",
+ "s15.20": "Les neuf decks : promptugal.news/investors/decks · essai sur l'Europe : docs.diniscruz.ai, 1er avril 2025",
  "meta.description": "Pourquoi PrompTugal, startup de l'Algarve basée au Portugal et dans l'Union européenne, est bonne pour l'Algarve : information, diffusion, talents, emplois et startups, reliés, avec des partenaires dans l'Algarve, au Portugal et en Europe. Deck investisseurs 4, novembre 2026."
 }

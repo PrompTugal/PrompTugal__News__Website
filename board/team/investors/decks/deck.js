@@ -22,7 +22,7 @@
       body.dp-stack .deck{transform-origin:0 0;margin-top:60px} body.dp-stack{background:#2a2b2f}
       .dp-hint{position:fixed;right:16px;bottom:14px;color:#9a978f;font:400 12px/1 "IBM Plex Mono",monospace;z-index:20}
       @media (max-width:760px){.dp-bar .wide,.dp-bar .brand{display:none}.dp-bar{gap:6px;padding:0 8px}.dp-bar select{max-width:104px;padding:0 6px}.dp-bar a,.dp-bar button{padding:0 8px}.dp-bar .n{min-width:44px}.dp-bar [data-a=full]{display:none}.dp-hint{display:none}}
-      @media print{.dp-bar,.dp-hint{display:none}}`
+      @media print{.dp-bar,.dp-hint{display:none} body.dp-stack .deck,body.dp-present .deck{margin:0!important;transform:none!important;position:static!important} body{height:auto!important} body.dp-present .slide{display:flex!important}}`
     const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st)
 
     let mode = data ? 'present' : 'stack', cur = 0
