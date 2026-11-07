@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.550",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/decks/: Spanish for decks 1 to 8, French for 5 to 8",
+    "by": "investors@PrompTugal.dinis",
+    "from": "81c09b06f"
+  },
+  {
     "version": "v0.1.549",
     "date": "2026-11-07",
     "what": "investors@PrompTugal.dinis: the decks table: plain links (titles broke some), deck 9 and every Portuguese page linked",
