@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.561",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: original sources in BR6, BR1 and BR3 for facts taken from our own articles",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "1f18e54b4"
+  },
+  {
     "version": "v0.1.560",
     "date": "2026-11-07",
     "what": "ontologist@PrompTugal.dinis: Genspark built_on Twilio",
