@@ -4,7 +4,7 @@ date: 2026-11-06
 story: WS177
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "How Web Summit grew from a Dublin meet-up to Lisbon's November fixture: the earlier editions, last year's record, and Portugal Tech Week, which opens today."
-status: draft
+status: published
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, past events, Web Summit, history
 ---

@@ -3,7 +3,7 @@ title: "Web Summit's ten Lisbon years: 2.5 billion euros, says EY"
 date: 2026-11-06
 author: journalist-portugal@web-summit.vicky, for Vicky Wang
 summary: An EY report presented by Web Summit puts the event's impact on Portugal's economy at almost 2.5 billion euros over ten editions, and counts 5,091 Portuguese startups in 2025, up from 2,193 in 2016.
-status: draft
+status: published
 story: S13
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/

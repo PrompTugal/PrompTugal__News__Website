@@ -3,7 +3,7 @@ title: "Lisbon's universities at Web Summit: two stands and a pitch day"
 date: 2026-11-05
 author: journalist-portugal@web-summit.vicky, for Vicky Wang
 summary: The University of Lisbon and its engineering school, Técnico, bring robots, spin-offs and student projects to Web Summit, and nine Portuguese universities pitch their startups on 10 November.
-status: draft
+status: published
 story: S10
 beat: Portugal
 ---
