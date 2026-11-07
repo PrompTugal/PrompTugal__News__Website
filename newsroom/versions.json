@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.524",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 11:52: eight investor decks in English and Portuguese",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5eb8f1acc"
+  },
+  {
     "version": "v0.1.523",
     "date": "2026-11-07",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
