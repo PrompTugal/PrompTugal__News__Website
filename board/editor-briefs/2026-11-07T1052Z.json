@@ -1,0 +1,231 @@
+{
+ "number": 4,
+ "date": "2026-11-07",
+ "kicker": "PrompTugal.news · the conductor brief · the Saturday 12:00 stand-up",
+ "title": "Saturday: two accounts, the new home page, and outreach ready to send",
+ "when": "Saturday 7 November 2026, 10:55 UTC (for the 12:00 London stand-up)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "Since Friday's 18:00 stand-up: 216 releases (v0.1.293 to v0.1.510). The team ran hot on account A, so at Dinis's word it moved to a second account overnight: 23 agents and all of development now run on account B under conductor.b@, every role handed over with a public debrief. The home page is Silvio's mock E, from data, with eight designs to choose from; offline mode and the vault onboarding pool are live; investors@ published four decks. The 50 outreach contact requests sit in the Web Summit team's CRM, waiting for Dinis's yes.",
+ "stats": [
+  {
+   "n": "216",
+   "label": "releases since Friday 18:00 (v0.1.293 to v0.1.510)"
+  },
+  {
+   "n": "34",
+   "label": "articles live and signed"
+  },
+  {
+   "n": "23",
+   "label": "agents moved to account B overnight"
+  },
+  {
+   "n": "50",
+   "label": "contact requests waiting for Dinis"
+  }
+ ],
+ "for_you": [
+  {
+   "group": "For Dinis (each a page: https://promptugal.news/newsroom/decisions/)"
+  },
+  {
+   "id": "1",
+   "ask": "The 50 contact requests: send?",
+   "detail": "Filed in the Web Summit team's CRM under the comms protocol; drafts there, a person sends. outreach@ also asks whether the emails keep the disclosure line until the new RiskMandate strategy, and what an email may promise.",
+   "options": [
+    "yes, send as drafted",
+    "send with changes",
+    "hold"
+   ]
+  },
+  {
+   "id": "2",
+   "ask": "What PrompTugal.news says about RiskMandate, and the commercial relation (F07, F19)",
+   "detail": "RiskMandate is off the home page (Dinis, 22:55); only 'Powered by RiskMandate' in the footer. The disclosure wording still waits.",
+   "options": [
+    "answer on the pages"
+   ]
+  },
+  {
+   "id": "3",
+   "ask": "An investor story of its own: through which company, and where it lives",
+   "detail": "investors@'s page; four decks are drafted at /investors/decks/.",
+   "options": [
+    "answer on the page"
+   ]
+  },
+  {
+   "id": "4",
+   "ask": "Registering, the press pass, the story of the name, promptugal.com and .ai",
+   "detail": "journalist@'s and devops@'s pages.",
+   "options": [
+    "answer on the pages"
+   ]
+  }
+ ],
+ "you_asked": [
+  {
+   "at": "20:00",
+   "said": "need that investor agent here",
+   "done": "investors@PrompTugal.dinis: /investors/, four decks, editions for events and publishers",
+   "where": "/investors/",
+   "status": "done"
+  },
+  {
+   "at": "21:00",
+   "said": "review the home page since it doesn't look like the mockups",
+   "done": "fixed to the approved design (21:55), then mock E",
+   "where": "/",
+   "status": "done"
+  },
+  {
+   "at": "21:05",
+   "said": "move agents to another account",
+   "done": "23 agents and the dev team on account B; account A keeps five",
+   "where": "board/the-account-move.md",
+   "status": "done"
+  },
+  {
+   "at": "21:15",
+   "said": "move a conductor to that other session, which can then wire these up",
+   "done": "conductor.b@ runs account B",
+   "where": "board/team/conductor.b/",
+   "status": "done"
+  },
+  {
+   "at": "22:40",
+   "said": "move all of the development ... wire these designs to the home page",
+   "done": "mock E live from data (v0.1.379), eight designs to choose",
+   "where": "board/briefs/2026-11-06-front-page-mock-e.md",
+   "status": "done"
+  },
+  {
+   "at": "22:55",
+   "said": "the width has to stay the same ... remove those bits of RiskMandate",
+   "done": "RiskMandate only in the footer; the width variants with designer@",
+   "where": "the brief",
+   "status": "late"
+  },
+  {
+   "at": "18:05",
+   "said": "an offline mode",
+   "done": "service worker, Save for offline, the offline page, round 2",
+   "where": "p/offline-mode",
+   "status": "done"
+  },
+  {
+   "at": "17:30",
+   "said": "PT_PILOT_ACCESS_KEY ... tie it with the observability",
+   "done": "the pool live, 15 keys; the browser side with dev.search@",
+   "where": "board/spec-vault-onboarding.md",
+   "status": "late"
+  }
+ ],
+ "team": [
+  {
+   "id": "conductor@ (A)",
+   "status": "old",
+   "doing": "the plan, both accounts' schedule, the briefs"
+  },
+  {
+   "id": "conductor.b@ (B)",
+   "status": "new",
+   "doing": "starts and watches account B's 23 agents"
+  },
+  {
+   "id": "security@ (A)",
+   "status": "old",
+   "doing": "transcript scans; S26 closed"
+  },
+  {
+   "id": "accountant@ (A)",
+   "status": "old",
+   "doing": "213 API-equivalent today by 09:50 (A 53, B 160)"
+  },
+  {
+   "id": "abp@ (A)",
+   "status": "old",
+   "doing": "0 breaches that matter overnight"
+  },
+  {
+   "id": "observability@ (A)",
+   "status": "old",
+   "doing": "the onboarding sweep; reading depth"
+  },
+  {
+   "id": "dev@ + 6 workers (B)",
+   "status": "old",
+   "doing": "mock E, eight home designs, the newsletter email, offline"
+  },
+  {
+   "id": "designer@ (B)",
+   "status": "old",
+   "doing": "the designs re-checked, an image for every article"
+  },
+  {
+   "id": "journalist@ (B)",
+   "status": "old",
+   "doing": "BR1, BR3, BR6; 19 articles re-signed"
+  },
+  {
+   "id": "correspondent@ (B)",
+   "status": "old",
+   "doing": "five picks per summit day; Sunday's lead"
+  },
+  {
+   "id": "outreach@ (B)",
+   "status": "old",
+   "doing": "50 requests filed, waiting for Dinis"
+  },
+  {
+   "id": "investors@ (B)",
+   "status": "new",
+   "doing": "four decks; editions for events and publishers"
+  },
+  {
+   "id": "ontologist@, researcher@ (B)",
+   "status": "old",
+   "doing": "flows (28 of 50), AWS Marketplace, sells_on"
+  },
+  {
+   "id": "sherpa@, synthetic@ (B)",
+   "status": "old",
+   "doing": "the designs and offline read cold; F53, F54"
+  }
+ ],
+ "sections": [
+  {
+   "title": "What happened overnight",
+   "items": [
+    "21:05 to 23:10: account A at 90% of its weekly limit; the move planned, conductor.b@ started on account B, 15 agents then the dev team handed over and restarted there",
+    "22:40: the home page as Silvio's mock E, from data; 23:20: all eight designs selectable, today's as the default",
+    "Account A now carries about a quarter of the load: the conductor, security@, accountant@, abp@, observability@",
+    "One incident: librarian@ printed its inbox key into its own transcript (S26), self-reported; inbox re-issued, closed"
+   ]
+  }
+ ],
+ "images": [
+  {
+   "path": "board/editor-briefs/img/2026-11-07T1052Z-then-and-now.jpg",
+   "caption": "The front page, then and now"
+  },
+  {
+   "path": "board/editor-briefs/img/2026-11-07T1052Z-front.jpg",
+   "caption": "The home page at v0.1.510 (mock E)"
+  },
+  {
+   "path": "board/editor-briefs/img/2026-11-07T1052Z-phone.jpg",
+   "caption": "On a phone"
+  }
+ ],
+ "next": [
+  "The 18:00 stand-up brief at 16:52 UTC; Monday is Opening Night"
+ ],
+ "sources": [
+  "board/WS-177-plan.md",
+  "board/the-account-move.md",
+  "board/guidance/",
+  "/newsroom/decisions/",
+  "git log of dev since Friday 16:52 UTC"
+ ]
+}

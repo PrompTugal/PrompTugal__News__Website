@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "note-the-sign-in",
+  "type": "evidence",
+  "source_url": "https://promptugal.news/newsroom/notes/2026-11-06-the-sign-in/index.html",
+  "beat": "AI and robotics",
+  "group": "team topics",
+  "names": [
+    {
+      "as_listed": "PrompTugal.news",
+      "ref": "organisation:promptugal-news"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-07-1145.json",
+  "run": "2026-11-07T11:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-07-1145.json"
+    ]
+  }
+}

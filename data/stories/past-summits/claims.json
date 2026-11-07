@@ -545,6 +545,30 @@
         "event:web-summit-rio-2023",
         "organisation:web-summit"
       ]
+    },
+    {
+      "id": "c46",
+      "text": "Web Summit Rio was announced for 1 to 4 May 2023 at the Riocentro centre, with 10,000 people expected in its first year.",
+      "kind": "fact",
+      "source": "rte-2022-05-03-web-summit-rio",
+      "quote": "The event is due to take place from 1 May to 4 May at the Riocentro centre, with 10,000 people expected to attend in the first year.",
+      "read_on": "2026-11-07",
+      "about": [
+        "event:web-summit-rio-2023",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c47",
+      "text": "Web Summit's then chief executive said the company had committed to Lisbon until at least 2028, alongside the new Rio event.",
+      "kind": "fact",
+      "source": "rte-2022-05-03-web-summit-rio",
+      "quote": "Mr Cosgrave said they have committed to until at least 2028",
+      "read_on": "2026-11-07",
+      "about": [
+        "event:web-summit-rio-2023",
+        "organisation:web-summit"
+      ]
     }
   ]
 }

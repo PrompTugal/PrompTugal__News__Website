@@ -1,6 +1,6 @@
 ---
 title: "Investors: how to engage"
-summary: "Try PrompTugal first, read everything (or have your own AI agent read it), then talk. Everything is public except the ask and the terms."
+summary: "Try PrompTugal first, read everything (or have your own AI agent read it), then talk. Everything is public, including the size of the round; the valuation and the terms are for a conversation."
 ---
 We would rather talk to fewer people who are excited about the technology than to many who are not. So we ask the people we talk to to come warm.
 
@@ -13,7 +13,8 @@ We would rather talk to fewer people who are excited about the technology than t
 ## What is public and what is not {#public}
 
 - **Public:** the product, the strategy, the business plan, the history, the competition, the decisions, the code, the data and the agents' own records. When it changes, these pages change.
-- **For a conversation:** the ask and the terms. We publish no amount, valuation, revenue, cost or projection: we do not have those numbers to give honestly yet. When we do, they come here.
+- **Public:** the round: a seed round of under $1M.
+- **For a conversation:** the valuation, the split and the terms. We publish no revenue, cost or projection: we do not have those numbers to give honestly yet. When we do, they come here.
 - **Not published:** anything private about a person, and anything said in a private conversation.
 
 ## What we offer {#offer}
