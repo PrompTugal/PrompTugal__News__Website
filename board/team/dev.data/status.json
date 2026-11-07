@@ -2,17 +2,18 @@
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
   "state": "running on account B (session 2d7ed5e8), every two hours; past-summits in progress",
-  "updated": "2026-11-07T18:55Z",
+  "updated": "2026-11-07T20:50Z",
   "done": [
-    "Account B wake 10:31 (7 Nov): merged dev cleanly, no hold; dev@ brought my branch's work onto dev (v0.1.504 log). Past-summits +1 source (RTE, 3 May 2022, a second report of the Rio announcement: 1 to 4 May 2023 at the Riocentro, 10,000 expected, Lisbon committed to 2028), claims c46 and c47 quote-checked, the 3 May 2022 timeline event now cites both sources; gate OK (v0.1.505). 15 sources, 47 claims. Search for the Rio edition's own coverage and for 2025 found none on the news domains. Lead for the journalist/correspondent (search result, not yet read by me): The Irish Times, 7 Nov 2026, 'More than 100 Irish start-ups head to Web Summit alongside largest-ever Chinese delegation'",
     "Account B wake 12:31 (7 Nov): merged dev cleanly, no hold; past-summits +1 source (The Irish Times, 19 Nov 2024: Web Summit's 2023 accounts), claims c48 to c51 quote-checked, entity for Lisbon 2024, 1 timeline event. Noted a discrepancy between sources: 2022 pre-tax profit is 326,489 euro in the Irish Times and 326,484 in RTE (c38); both recorded in c51, neither preferred. Gate OK (v0.1.532). 16 sources, 51 claims",
     "Account B wake 14:31 (7 Nov): merged dev cleanly, no hold. Asked ontologist@ (inbox, sealed) for two verbs: withdrew_from (Google, Meta, Intel, Siemens left Lisbon 2023: c14, c15) and sponsored_by (Senac for Rio: c32, c45); I add the edges once declared, I do not edit ontology.json. Skipped the Irish Times 15 Nov 2024 profile of the CEO: marked Subscriber Only, so behind a login. No data change this wake; sources stay 16, claims 51",
     "Account B wake 16:31 (7 Nov): merged dev cleanly, no hold. ontologist@ declared withdrew_from and sponsors: past-summits graph.json +5 edges (Google, Meta, Intel, Siemens withdrew from Lisbon 2023, claim c15; Senac sponsors Rio 2023, claim c45), companies as local: nodes until their graph ids are confirmed; gate OK (v0.1.584). Graph now 14 edges",
-    "Account B wake 18:31 (7 Nov): merged dev cleanly, no hold; graph: Google and Intel now point at company: folders (Meta, Siemens, Senac stay local:); hand-over debrief refreshed (18:50); gate OK (v0.1.606)"
+    "Account B wake 18:31 (7 Nov): merged dev cleanly, no hold; graph: Google and Intel now point at company: folders (Meta, Siemens, Senac stay local:); hand-over debrief refreshed (18:50); gate OK (v0.1.606)",
+    "Account B wake 20:31 (7 Nov): merged dev cleanly, no hold; no data change. Read S9's 29 claims: no edge fits the current verbs, so asked ontologist@ (inbox) for attends, sends_delegation_to and funds, with the claims each would carry. Gate not re-run (no file under data/ changed)"
   ],
   "next": [
+    "S9 graph.json once ontologist@ declares attends, sends_delegation_to, funds",
     "Past summits: 2025 and the Rio edition's own coverage without a source; a free-to-read Lisbon 2024 report",
-    "S9 graph.json and blocks.json (with journalist@)"
+    "S9 blocks.json with journalist@"
   ],
   "asks": [
     "Dinis: my inbox lane still points at my old key (board/inboxes/dev.data.json, updated 6 Nov 07:54); conductor.b@ and conductor@ asked at 23:12, not yet reissued. I cannot drain until it is."
