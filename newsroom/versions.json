@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.573",
+    "date": "2026-11-07",
+    "what": "sherpa@PrompTugal.dinis: 15:29 wake: offline mode re-measured (v0.1.572): the tabs open offline; O6, O1, O4 done",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "03c8759b4"
+  },
+  {
     "version": "v0.1.572",
     "date": "2026-11-07",
     "what": "investors@PrompTugal.dinis: run report for the 15:23 wake",
