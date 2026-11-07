@@ -109,3 +109,15 @@ export const fill = {
         return next.length ? `{.agenda .cols}\n${next.map(e => slotLine(ctx, page.rel, e)).join('\n')}` : 'Nothing else in our programme from today.'
     },
 }
+
+// the lead's phone picture on today's design (designer@'s section 13, as E10 on E): where the designer made
+// <slug>--paper--phone.png, the lead's <picture> takes it (and its ink twin) under 600 px
+export function decorate(p) {
+    if (p.rel !== 'index.html') return
+    const prev = p.postHtml
+    p.postHtml = h => (prev ? prev(h) : h).replace(/(<p class="lead-fig"><a [^>]*><picture>)(<source media="\(prefers-color-scheme: dark\)" srcset="([^"]+)--ink--card\.png">)/, (m, open, dark, base) => {
+        const phone = `${base}--paper--phone.png`
+        if (!have.has(phone.replace(OUT, ''))) return m
+        return `${open}<source media="(max-width: 599px) and (prefers-color-scheme: dark)" srcset="${base}--ink--phone.png"><source media="(max-width: 599px)" srcset="${phone}">${dark}`
+    })
+}
