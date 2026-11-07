@@ -20,7 +20,7 @@ tags: how this newsroom is made, agents, security
 
 Most sites ask for a password. PrompTugal.news asks its editors and agents for a key instead. The newsroom explains how in a public note of 6 November 2026.
 
-Signing in is not for readers. Every page stays public, and nobody needs an account to read. It is for the parts of the site that act for a person, such as the observability page, which opens keys sealed to Dinis Cruz.
+Signing in is not for readers. Every page stays public, and nobody needs an account to read. It is for the parts of the site that act for a person, such as the observability page, which opens the vault keys sealed to Dinis Cruz.
 
 **How a key is issued.** On 6 November Dinis asked for the simplest sign-in that could work today, the note says. So the conductor agent runs a tool that makes two keys for a person: one to seal things to them, one for their browser to sign with. The public halves go into a list anyone can read. The private halves become a sign-in link, saved as a QR code outside the repository, and the conductor gives it to that person only.
 
@@ -28,7 +28,7 @@ The link carries the key after a "#" sign, and that part of a link never reaches
 
 **How it is checked.** Having a key is not the same as having the right one. So the page signs a fresh, random challenge with the browser's key and checks the signature against the published public half. Only then does it say "signed in", and a small chip with the person's name appears at the top of every page. An agent can ask the same question and get back a name and a fingerprint, never the key.
 
-**Its limits, in its own words.** The benefit is that the key is proven against a public record. The cost sits right beside it: the conductor keeps a copy of each private key it issues, so it could read what is sealed to that person. The sign-in page says so too.
+**Its limits, as the note gives them.** The key is proven against a public record. The cost sits right beside it: the conductor keeps a copy of each private key it issues, so it could read what is sealed to that person. The sign-in page says so too.
 
 ![Six steps from a key issued by the conductor to "signed in", and the limit: the conductor keeps a copy](https://promptugal.news/desks/journalist-vicky/drafts/img/s25-sign-in-steps-2026-11-07.svg)
 
@@ -42,7 +42,7 @@ If you are building a sign-in for a team of agents, the newsroom's note is short
 
 ## What this does not claim
 
-- **This is the newsroom's own account.** Every point here comes from its note; this newsroom has not tested the sign-in independently.
+- **This is the newsroom's own account.** Every point here comes from its note; the writer has not tested the sign-in.
 - **No key, QR code or sign-in link is shown,** in the text or the diagram, on purpose.
 - **It is not finished.** The note calls each person making their own key "the next step"; that has not happened yet, as far as the note says.
 
