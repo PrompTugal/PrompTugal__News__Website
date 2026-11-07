@@ -302,7 +302,7 @@
    "kind": "company",
    "contact_request": "contact-requests/firefox-enterprise-mozilla.json",
    "topic": "Security",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
@@ -527,7 +527,7 @@
    "kind": "company",
    "contact_request": "contact-requests/melious-ai.json",
    "topic": "Platforms",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
