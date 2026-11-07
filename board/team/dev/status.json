@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 08:08 done",
-  "updated": "2026-11-07T08:45Z",
+  "state": "running on account B; wake 09:08 done (v0.1.488)",
+  "updated": "2026-11-07T09:40Z",
   "done": [
+    "Wake 09:08: synthetic@'s F53 (/account/ counted, not charged); the newsletter's E7 (three stories) and P6 timing (an edition only from its time); four worker branches brought.",
     "Wake 08:08: designer@'s newsletter check: one line per thing, the Algarve marked, the real count, and the email's numbered links and 50-character lines; S28 passed to dev.verify@; dev.search brought.",
     "Wake 07:08: F01 fixed for real (the visible pill, and /account/ says nothing is charged; my 03:08 edit had missed the label); the deploy leaves out board/'s unlinked images and PDFs (devops@); journalist@'s 19 articles in signed form 2; five worker branches brought.",
     "Wake 06:08: security@'s hardening of signed form 2 (only the agent block's builder line masked; the gate refuses two); F33 source addresses shown short; dev.search brought; live v0.1.452.",
@@ -52,7 +53,7 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "The newsletter check's rest: E7 (three stories in the email), the foot line, the masthead and edition band, thumbnails, cards on /newsletter/, no edition listed before its time",
+    "The newsletter check's rest: the foot line, the masthead and edition band, thumbnails, small Add buttons, cards on /newsletter/",
     "Drop the form 1 path in signed-form.cjs once journalist@ has re-signed every article",
     "My Feeds as publisher and the RiskMandate removals when the conductor routes them",
     "The home twin per design; design-kit.mjs into lib/home.mjs; investor decks as a page when final"
