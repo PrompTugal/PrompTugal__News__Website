@@ -6,7 +6,7 @@
 export const order = 71
 
 const GUIDES = {
-    'articles/agent-setup-guide.html': { js: 'assets/guides/agent-setup-guide.js', parts: ['asg-find', 'asg-audience', 'asg-ladder', 'asg-dial', 'asg-fixes'], questions: 7, actions: 12 },
+    'articles/agent-setup-guide.html': { js: 'assets/guides/agent-setup-guide.js', parts: ['asg-hero', 'asg-find', 'asg-audience', 'asg-ladder', 'asg-dial', 'asg-grid', 'asg-tiles', 'asg-fixes', 'asg-cards'], questions: 7, actions: 12 },
 }
 
 export function decorate(page) {

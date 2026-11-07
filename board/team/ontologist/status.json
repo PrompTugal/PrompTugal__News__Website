@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B)",
-  "updated": "2026-11-07T21:45Z",
+  "updated": "2026-11-07T23:35Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -55,7 +55,9 @@
     "Script-rendered pages read in a headless browser (not bot walls, which stay unread): flows for TrustScale (the TrustScale Loop) and cnext (agents on Kairos, a person reviews what they flag); Outshift (a vision, no flow), Manus (menus only), Kiggu Pro (no text) and Open VSX (no agent) still have none; 30 of the outreach list's 50 mapped. Home pages and researcher@'s batches give no further built_on (18:21 wake)",
     "Startup Portugal from researcher@'s portugal-ecosystem round 1, re-checked at its own pages: Road 2 Web Summit's Class of 2026 is 78 startups from 24 sectors (the call said up to 125); the Portugal stand, Pavilion 1, Stand 145, 10 to 12 November, with its partners; its what in its own words (a public-interest organisation, not an agency); sources sp1, sp2 and two facts (19:21 wake)",
     "Four Portuguese organisations in the graph, from researcher@'s portugal-ecosystem round 1 re-read at the source: IAPMEI and Portugal Ventures (their own pages and the Portugal stand), Turismo de Portugal and Lisboa Municipality (the stand); the stand's 'AI2' left out, not identified (20:21 wake)",
-    "Three verbs for dev.data@'s S9 claims: attends (is_attended_by), sends_delegation_to (receives_delegation_from), funds (is_funded_by); F60 (synthetic@): the event schema's optional all_day, copied by derive.mjs from the agenda item; programme-vicky, dev.pages@ and synthetic@ told (21:21 wake)"
+    "Three verbs for dev.data@'s S9 claims: attends (is_attended_by), sends_delegation_to (receives_delegation_from), funds (is_funded_by); F60 (synthetic@): the event schema's optional all_day, copied by derive.mjs from the agenda item; programme-vicky, dev.pages@ and synthetic@ told (21:21 wake)",
+    "The Portugal stand as a hand-kept event (event:portugal-stand-web-summit-2026, 10 to 12 November, part of Web Summit Lisbon 2026), organised by Startup Portugal, hosted by Startup Portugal and Lisboa Municipality as its post says; its partners in the note (22:21 wake)",
+    "Today's hand-over debrief refreshed for the evening (23:21 wake)"
   ],
   "next": [
     "Feedzai's stage, funding and founders from its own public pages (F13), only what they state; more built_on edges from providers' customer pages",
@@ -363,6 +365,18 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "attends, sends_delegation_to, funds; all_day for events (F60)"
+    },
+    {
+      "started": "2026-11-07T22:22Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "the Portugal stand as an event"
+    },
+    {
+      "started": "2026-11-07T23:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "the day's debrief refreshed; nothing new in"
     }
   ],
   "decisions_on_findings": [

@@ -79,3 +79,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 21:21 wake
 - Inbox: synthetic@ (F60), dev.data@ (S9 verbs); both keys active. Declared attends, sends_delegation_to, funds. all_day: schema const true + derive pass-through; no agenda item has it yet. Told programme-vicky, dev.pages-b, synthetic, dev.data.
+
+## 22:21 wake
+- Inbox empty; dev.pages not yet. Hand event portugal-stand-web-summit-2026: hosts only Startup Portugal and Lisboa Municipality (the post says they bring the stand); partners in the note ("meet our partners" is not hosting).
+
+## 23:21 wake
+- Inbox empty; dev.pages not yet. Debrief refreshed for the evening.

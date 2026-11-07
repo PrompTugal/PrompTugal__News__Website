@@ -22,6 +22,17 @@
     }
     const SVG = 'http://www.w3.org/2000/svg'
     const s = (tag, attrs = {}) => { const e = document.createElementNS(SVG, tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); return e }
+    const ICONS = ((document.currentScript && document.currentScript.src) || '').replace(/[^/]*$/, '') + 'icons.svg'
+    const icon = (id, cls) => { const g = s('svg', { class: 'asg-ico' + (cls ? ' ' + cls : ''), 'aria-hidden': 'true', focusable: 'false' }); g.append(s('use', { href: ICONS + '#i-' + id })); return g }
+    const AUD_ICON = { ceo: 'ceo', ciso: 'shield', dpo: 'privacy', dev: 'code', devsecops: 'gear', agentic: 'robot', chat: 'chat', all: 'all' }
+    const STEP_ICON = ['chat', 'folder', 'plug', 'clock', 'code', 'team'], STEP_REACH = [8, 22, 45, 62, 80, 100]
+    const DEP_ICON = ['mail', 'code', 'team', 'inbox', 'coin']
+    const TILE_ICON = ['hub', 'tiers', 'eye', 'warn', 'switch', 'bell'], CARD_ICON = ['doc', 'shield', 'lock']
+    const FIX_ICON = ['chat', 'path', 'lock', 'question', 'warn', 'eye', 'coin', 'key', 'team', 'shield', 'bell', 'person']
+    // the site's sticky top bar: the guide's own bar sits just under it
+    const topOffset = () => Math.max(0, ...[...document.body.children].flatMap(e => [e, ...e.children]).filter(e => {
+        const cs = getComputedStyle(e); return (cs.position === 'sticky' || cs.position === 'fixed') && parseFloat(cs.top) === 0 && !e.closest('.asg')
+    }).map(e => e.getBoundingClientRect().bottom).filter(b => b < innerHeight / 2))
     const rows = part => $$(`.${part} table tbody tr`).map(tr => $$('td', tr).map(td => td.textContent.trim()))
     const store = { get: k => { try { return localStorage.getItem(k) } catch { return null } }, set: (k, v) => { try { localStorage.setItem(k, v) } catch { } } }
     const LEVELS = ['Watch', 'Reviewed', 'Enforced']
@@ -39,27 +50,63 @@
     const secLink = k => h('a', { href: '#' + SEC[k][0] }, SEC[k][1])
     const enhance = part => { const box = $('.' + part); box.classList.add('asg-on'); return box }
 
+    // ---- 0. The hero: the kicker, the badges, two ways in --------------------------------------------------------------
+    const hero = $('.asg-hero')
+    if (hero) {
+        const items = $$('li', hero).map(li => li.textContent.trim())
+        hero.classList.add('asg-on')
+        hero.replaceChildren(
+            h('p', { class: 'asg-kicker' }, items[0] || ''),
+            h('div', { class: 'asg-badges' }, items.slice(1).map((t, i) => h('span', { class: 'asg-badge' }, icon(['check', 'folder', 'team'][i] || 'check'), t))),
+            h('div', { class: 'asg-ctas' }, h('a', { class: 'asg-go', href: '#find-your-guide' }, icon('path'), 'Find your guide'),
+                h('a', { class: 'asg-go ghost', href: '#read-this-as' }, icon('all'), 'Read this as')))
+    }
+
     // ---- 1. Read this as: the seven audiences, from the article's table ------------------------------------------------
     const AUD_KEYS = ['ceo', 'ciso', 'dpo', 'dev', 'devsecops', 'agentic', 'chat']
-    const AUD = rows('asg-audience').map((r, i) => ({ key: AUD_KEYS[i] || 'a' + i, who: r[0], q: r[1], a: r[2] }))
+    const AUD = rows('asg-audience').map((r, i) => ({ key: AUD_KEYS[i] || 'a' + i, who: r[0], q: r[1], a: r[2], t: r[3] || '', d: r[4] || '' }))
+    const DEPTHS = ['Plain English', 'Some technical', 'Deeply technical']
+    const FOR = $$('.asg-for').map(b => {
+        const ks = [...b.classList].filter(c => c.startsWith('for-')).map(c => c.slice(4))
+        const label = h('span', {}, '')
+        b.prepend(h('p', { class: 'asg-for-l' }, icon(AUD_ICON[ks[0]] || 'person'), label))
+        return { b, ks, label, all: 'For ' + ks.map(k => (AUD.find(a => a.key === k) || { who: k }).who).join(', ') }
+    })
     const audBox = enhance('asg-audience')
     const card = h('div', { class: 'asg-card', 'aria-live': 'polite' })
     const chips = h('div', { class: 'asg-chips', role: 'group', 'aria-label': 'Read this as' })
+    const bar = h('div', { class: 'asg-bar' }, h('span', { class: 'asg-bar-l' }, 'Read this as'), chips)
     const tableWrap = $('.table', audBox)
     function setAud(key) {
         $$('button', chips).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.k === key)))
         const a = AUD.find(x => x.key === key)
         card.replaceChildren()
-        if (!a) { card.hidden = true; if (tableWrap) tableWrap.hidden = false; store.set('asg-aud', 'all'); return }
+        FOR.forEach(f => { f.b.hidden = !!a && !f.ks.includes(key); f.label.textContent = a ? 'For you' : f.all })
+        const on = $('button[aria-pressed="true"]', chips)
+        if (on) chips.scrollLeft = on.offsetLeft - chips.offsetLeft - 8
         if (tableWrap) tableWrap.hidden = true
         card.hidden = false
-        card.append(h('p', { class: 'asg-eyebrow' }, 'Your answer in thirty seconds · ' + a.who), h('p', { class: 'asg-q' }, a.q), h('p', {}, a.a))
+        card.classList.toggle('asg-all', !a)
+        if (!a) {
+            card.append(h('div', { class: 'asg-audgrid' }, AUD.map(x => h('button', { type: 'button', onclick: () => setAud(x.key) },
+                icon(AUD_ICON[x.key], 'big'), h('b', {}, x.who), h('span', {}, x.q), h('small', {}, x.t)))))
+            store.set('asg-aud', 'all'); return
+        }
+        const depth = Math.max(0, DEPTHS.indexOf(a.d)) + 1
+        card.append(h('div', { class: 'asg-card-top' }, icon(AUD_ICON[a.key], 'big'), h('div', {},
+                h('p', { class: 'asg-eyebrow' }, 'Your answer in thirty seconds · ' + a.who), h('p', { class: 'asg-q' }, a.q))),
+            h('p', {}, a.a),
+            h('p', { class: 'asg-meta-line' }, icon('clock'), a.t, h('span', { class: 'asg-dots', 'aria-label': a.d }, [1, 2, 3].map(i => h('i', { class: i <= depth ? 'on' : '' }))), a.d))
         store.set('asg-aud', key)
     }
-    AUD.forEach(a => chips.append(h('button', { type: 'button', 'data-k': a.key, onclick: () => setAud(a.key) }, a.who)))
-    chips.append(h('button', { type: 'button', 'data-k': 'all', onclick: () => setAud('all') }, 'All, as a table'))
-    audBox.prepend(chips, card)
-    setAud(AUD.some(a => a.key === store.get('asg-aud')) ? store.get('asg-aud') : AUD[AUD.length - 1]?.key)
+    AUD.forEach(a => chips.append(h('button', { type: 'button', 'data-k': a.key, onclick: () => setAud(a.key) }, icon(AUD_ICON[a.key]), a.who)))
+    chips.append(h('button', { type: 'button', 'data-k': 'all', onclick: () => setAud('all') }, icon('all'), 'Everything'))
+    audBox.prepend(card)
+    const body = audBox.closest('.body') || audBox.parentElement
+    ;(hero && hero.parentElement === body ? hero : body.firstElementChild).after(bar)
+    const placeBar = () => bar.style.setProperty('--asg-top', topOffset() + 'px')
+    placeBar(); addEventListener('resize', placeBar)
+    setAud(AUD.some(a => a.key === store.get('asg-aud')) ? store.get('asg-aud') : 'all')
 
     // ---- 2. The six steps: a staircase, from the article's table ----------------------------------------------------------
     const STEPS = rows('asg-ladder').map(r => ({ name: r[0].replace(/^\d+\.\s*/, ''), what: r[1], reach: r[2] }))
@@ -73,8 +120,9 @@
         stepCard.replaceChildren(h('p', { class: 'asg-eyebrow' }, `Step ${i + 1} of ${STEPS.length}` + (i + 1 === youStep ? ' · you are here' : '')),
             h('p', { class: 'asg-q' }, st.name), h('p', {}, st.what), h('p', {}, h('b', {}, 'Reach: '), st.reach))
     }
-    STEPS.forEach((st, i) => stairs.append(h('button', { type: 'button', style: `--h:${30 + i * 14}px`, onclick: () => pickStep(i) },
-        h('span', { class: 'asg-n' }, String(i + 1)), h('span', {}, st.name))))
+    STEPS.forEach((st, i) => stairs.append(h('button', { type: 'button', style: `--h:${30 + i * 16}px`, onclick: () => pickStep(i) },
+        icon(STEP_ICON[i] || 'check'), h('span', { class: 'asg-n' }, String(i + 1)), h('span', {}, st.name),
+        h('span', { class: 'asg-reachbar', 'aria-hidden': 'true' }, h('i', { style: `width:${STEP_REACH[i] || 50}%` })))))
     $('.table', ladBox).hidden = true
     ladBox.prepend(stairs, stepCard)
     pickStep(0)
@@ -117,7 +165,8 @@
         range.value = cur.start
         renderDial()
     }
-    DEPS.forEach((d, i) => depBtns.append(h('button', { type: 'button', onclick: () => pickDep(i) }, d.name)))
+    depBtns.classList.add('asg-deps')
+    DEPS.forEach((d, i) => depBtns.append(h('button', { type: 'button', onclick: () => pickDep(i) }, icon(DEP_ICON[i] || 'check'), d.name)))
     range.addEventListener('input', renderDial)
     $('.table', dialBox).hidden = true
     const instr = h('div', { class: 'asg-instrument' }, gauge, h('label', { class: 'asg-range' }, h('span', {}, 'Watch'), range, h('span', {}, 'Enforced')))
@@ -133,7 +182,7 @@
     const fixForm = h('form', { class: 'asg-form' })
     const fixOut = h('div', { class: 'asg-card', 'aria-live': 'polite', hidden: true })
     const fixTiles = h('fieldset', {}, h('legend', {}, 'Tick everything you have run into'))
-    FIX.forEach((f, i) => fixTiles.append(h('label', { class: 'asg-tile' }, h('input', { type: 'checkbox', name: 'fx', value: i }), f.what)))
+    FIX.forEach((f, i) => fixTiles.append(h('label', { class: 'asg-tile' }, h('input', { type: 'checkbox', name: 'fx', value: i }), icon(FIX_ICON[i] || 'check'), f.what)))
     fixForm.append(fixTiles, h('button', { type: 'submit', class: 'asg-go' }, 'Show the fixes'))
     fixForm.addEventListener('submit', e => {
         e.preventDefault()
@@ -171,8 +220,8 @@
     const whoText = h('span', { class: 'asg-whotext' }, WHO[0] || '')
     whoRange.addEventListener('input', () => { whoText.textContent = WHO[+whoRange.value]; whoRange.setAttribute('aria-valuetext', WHO[+whoRange.value]) })
     const findForm = h('form', { class: 'asg-form' },
-        fs(0, radios('role', AUD.map(a => [a.key, a.who]), AUD.length - 1)),
-        fs(1, radios('stage', STEPS.map((st, i) => [String(i + 1), `${i + 1}. ${st.name}`]), 0)),
+        fs(0, radios('role', AUD.map(a => [a.key, [icon(AUD_ICON[a.key]), a.who]]), AUD.length - 1)),
+        fs(1, radios('stage', STEPS.map((st, i) => [String(i + 1), [icon(STEP_ICON[i] || 'check'), `${i + 1}. ${st.name}`]]), 0)),
         fs(2, boxes('reach', pair(REACH, 2))),
         fs(3, h('label', { class: 'asg-range' }, whoRange, whoText)),
         fs(4, radios('prod', pair(PROD, 4), 0)),
@@ -228,4 +277,9 @@
     })
     $$(':scope > ol, :scope > ul, :scope > p', findBox).forEach(e => { e.hidden = true })
     findBox.prepend(findForm, findOut)
+
+    // ---- 6. The lessons as tiles, the open-source tools as cards, the six decisions as a grid -----------------------------
+    $$('.asg-tiles li').forEach((li, i) => li.prepend(icon(TILE_ICON[i] || 'check', 'big')))
+    $$('.asg-cards li').forEach((li, i) => li.prepend(icon(CARD_ICON[i] || 'doc', 'big')))
+    ;['asg-tiles', 'asg-cards', 'asg-grid'].forEach(c => $('.' + c)?.classList.add('asg-on'))
 })()

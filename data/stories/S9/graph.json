@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/story-graph.schema.json",
+  "story": "S9",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-07",
+  "edges": [
+    {
+      "from": "organisation:apexbrasil",
+      "verb": "sends_delegation_to",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "sebrae-2026-09-30-selected",
+      "claim": "c01",
+      "note": "With Sebrae, chose 100 Brazilian startups for the official delegation."
+    },
+    {
+      "from": "organisation:sebrae-startups",
+      "verb": "sends_delegation_to",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "starten-2026-11-04",
+      "claim": "c12",
+      "note": "100 startups prepared since September; about 300 Brazilian startups expected in Lisbon."
+    },
+    {
+      "from": "organisation:invest-rio",
+      "verb": "sends_delegation_to",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-09-18-invest-rio",
+      "claim": "c21",
+      "note": "With the Maravalley hub, 10 Rio startups; second year."
+    },
+    {
+      "from": "organisation:maravalley",
+      "verb": "sends_delegation_to",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-09-18-invest-rio",
+      "claim": "c21",
+      "note": "With Invest.Rio, 10 Rio startups; second year."
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "company:mobile-brain",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "company:sheerme",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "company:mobile-brain",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "from": "company:sheerme",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    }
+  ]
+}
