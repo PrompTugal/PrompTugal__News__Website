@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.413",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/ becomes a section from Dinis's pitch",
+    "by": "investors@PrompTugal.dinis",
+    "from": "a70d7ac7a"
+  },
+  {
     "version": "v0.1.412",
     "date": "2026-11-07",
     "what": "journalist@PrompTugal.dinis: dev.verify's flags, round 2; Wednesday 11 November corrected",
