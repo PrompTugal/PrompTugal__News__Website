@@ -1,0 +1,60 @@
+{
+  "about": "Fictional personas: their links carry their keys and are public on purpose, to try the personal versions (investors@PrompTugal.dinis).",
+  "personas": [
+    {
+      "id": "claire",
+      "name": "Claire Moreau",
+      "role": "Directrice des programmes, fondation pour la presse indépendante",
+      "place": "Paris",
+      "lang": "fr",
+      "audience": "publishers",
+      "accent": "#6b3fa0",
+      "link": "https://promptugal.news/investors/#pk=claire.O3knn_tZ5bBR4IxvxxUSgrnl_grbKhJ-MYOPt1oZSpc",
+      "qr": "personas/qr/claire.svg"
+    },
+    {
+      "id": "helen",
+      "name": "Helen Ashworth",
+      "role": "Journalist and former news editor",
+      "place": "Lisbon",
+      "lang": "en",
+      "audience": "involved",
+      "accent": "#c52830",
+      "link": "https://promptugal.news/investors/#pk=helen.X-0uB2L3sQeCfjuiPn2U9K414tbo2DseS7vLWfvp2HU",
+      "qr": "personas/qr/helen.svg"
+    },
+    {
+      "id": "javier",
+      "name": "Javier Ortega",
+      "role": "Director de eventos de una empresa de congresos",
+      "place": "Madrid",
+      "lang": "es",
+      "audience": "partner",
+      "accent": "#0f7b6c",
+      "link": "https://promptugal.news/investors/#pk=javier.PKJLTLff9y_uv-Bmf9fcKkVbXkx5EfRRs04uV2-fIFY",
+      "qr": "personas/qr/javier.svg"
+    },
+    {
+      "id": "marta",
+      "name": "Marta Lopes",
+      "role": "Business angel",
+      "place": "Lisboa",
+      "lang": "pt",
+      "audience": "invest",
+      "accent": "#1f5fa8",
+      "link": "https://promptugal.news/investors/#pk=marta.6moaWyQKqoljaOpHEITW-JyvhZSA_tfpPxQ-EuwM3xI",
+      "qr": "personas/qr/marta.svg"
+    },
+    {
+      "id": "rui",
+      "name": "Rui Martins",
+      "role": "Investidor e empresário no Algarve",
+      "place": "Faro",
+      "lang": "pt",
+      "audience": "algarve",
+      "accent": "#b8742a",
+      "link": "https://promptugal.news/investors/#pk=rui.qcOjKW7mWsTe3oKQBHtrK6UaIgWmo9FOxSuZSdbt5aM",
+      "qr": "personas/qr/rui.svg"
+    }
+  ]
+}

@@ -145,3 +145,7 @@ D4 (wordmark 184 px on D, 159 px on F and G), D11 (Now and next on a phone at 2,
 ## 12. Re-check at v0.1.561 (14:45 UTC), after dev@'s 7c811c6d1: D4 and D11 pass
 
 **D4 passes** on every design (the header wordmark 242 to 392 px). **D11 passes** (Now and next on a phone at 869 to 1,070 px on C, E, F, G; under two screens everywhere). **H6 nearly passes**; left, all small: the tab bar's labels at 11.5 px (`nav.ctabs`, every page; its targets are 46 px tall, so only the type: 12 px), B's "All stories" link 14 px tall (`h2.fx-h > a`), F's "In Lisbon this week" heading and its times at 11 px (`p.ff-bh > b`, `.ff-tl time`). With E10 (the lead's phone picture) the home designs' list is down to these.
+
+## 13. Re-check at 15:40 UTC, after dev@'s 9f0dc4e9e: H6 passes; E10 on E
+
+**H6 passes** on A, B and F (no text under 12 px, no link outside running text under 20 px tall, in the first two screens). **E10 passes on design E**: on a 390 px phone the lead shows `your-first-day-at-web-summit--paper--phone.png` at 346 x 431, linked to its page; desktop keeps the card. **Left: the default design ("today") still shows the landscape card on a phone** (358 x 188, the type about 7 px): the same `<picture>` there, since it is what most readers see.

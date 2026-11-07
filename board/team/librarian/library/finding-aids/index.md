@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T12:59:26Z"
-site_version: "v0.1.538"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T16:00:31Z"
+site_version: "v0.1.577"
 source: board/catalogue.json
 ---
 
@@ -19,11 +19,11 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
 | [Guidance (special)](GDN.md) | `GDN` | 617 |
 | [The repository](GEN.md) | `GEN` | 41 |
-| [The library](LIB.md) | `LIB` | 259 |
-| [The publication](PUB.md) | `PUB` | 216 |
-| [Readers and observability](RDR.md) | `RDR` | 22 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 1287 |
-| [Work in hand](WRK.md) | `WRK` | 295 |
+| [The library](LIB.md) | `LIB` | 262 |
+| [The publication](PUB.md) | `PUB` | 256 |
+| [Readers and observability](RDR.md) | `RDR` | 23 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 1408 |
+| [Work in hand](WRK.md) | `WRK` | 296 |
 
 ## Passes
 
@@ -35,7 +35,7 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [2026-11-06-becoming-a-publication](passes/2026-11-06-becoming-a-publication.md) | open | 3 |
 | [2026-11-06-everything-clickable](passes/2026-11-06-everything-clickable.md) | queued | 2 |
 | [2026-11-06-media-in-vaults-and-backups](passes/2026-11-06-media-in-vaults-and-backups.md) | open | 3 |
-| [2026-11-06-offline-mode](passes/2026-11-06-offline-mode.md) | open | 8 |
+| [2026-11-06-offline-mode](passes/2026-11-06-offline-mode.md) | open | 9 |
 | [2026-11-06-page-presentations](passes/2026-11-06-page-presentations.md) | open | 1 |
 | [2026-11-06-past-summits](passes/2026-11-06-past-summits.md) | open | 1 |
 | [2026-11-06-privacy-first](passes/2026-11-06-privacy-first.md) | open | 2 |

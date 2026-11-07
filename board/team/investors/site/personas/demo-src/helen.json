@@ -1,0 +1,9 @@
+{ "id": "helen", "demo": true, "lang": "en", "audience": "involved", "accent": "#c52830",
+  "name": "Helen Ashworth", "role": "Journalist and former news editor", "place": "Lisbon",
+  "greeting": "Hello, Helen.",
+  "about": ["Twenty years in national news, the last eight running a newsdesk.", "Moved to Lisbon and now advises newsrooms on how they work.", "Has seen what attention metrics did to the craft."],
+  "why": ["PrompTugal needs someone from the news industry to run the company as CEO, and very technical journalists.", "Agents do the research and the production; editors decide what is true and worth telling."],
+  "note": "Helen, deck 7 is the one I wrote with someone like you in mind. Then deck 2, the argument about where news went wrong. Tell me what you would change first.",
+  "route": ["7-join-us", "2-the-industry", "9-the-tour"],
+  "pages": ["involved", "join", "thinking"],
+  "overrides": { "7-join-us": { "s01.3": "For Helen Ashworth · a personal version" } } }

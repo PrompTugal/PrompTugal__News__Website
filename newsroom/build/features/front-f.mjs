@@ -11,7 +11,7 @@ export const fill = {
     'front:f': (page, ctx) => {
         const m = model(ctx), [first, ...rest] = m.articles
         const pic = first && picture(first, 'card', false)
-        const week = m.week.map(w => ({ ...w, what: w.what.length > 90 ? w.what.slice(0, 89) + '…' : w.what }))
+        const week = m.week.map(w => ({ ...w, what: w.what.length > 90 ? w.what.slice(0, 89) + '…' : w.what, where: w.where ? ' · ' + w.where : '' }))  // its place (sherpa@'s H2)
         page.before = (page.before || '') + t.put(t.part('page'), {
             name: ctx.md.esc(ctx.SITE.name), wordmark: WORDMARK(''), opening_at: m.openingAt, opening_in: m.openingIn, count: m.articles.length,
             '#nav': t.many('nav', m.nav), '#asks': t.many('ask', m.asks),

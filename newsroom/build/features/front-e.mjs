@@ -31,7 +31,9 @@ function pill(ctx, a) {
 function picture(esc, a, size, lazy) {
     const i = imageFile(a, size); if (!i) return ''
     const [w, h] = size === 'card' ? [1200, 630] : [480, 480]
-    return put(item('picture'), { src: i.src, ink: i.src.replace('--paper--', '--ink--'), alt: esc(i.alt), w, h, load: lazy ? ' loading="lazy" decoding="async"' : ' fetchpriority="high"' })
+    // the lead's phone picture, where the designer made one (designer@'s E10: the card's type is too small on a phone)
+    const ph = size === 'card' && i.src.replace('--card.png', '--phone.png'), phone = ph && fs.existsSync(new URL(`../../../${ph}`, import.meta.url)) ? put(item('phone'), { phone: ph, phone_ink: ph.replace('--paper--', '--ink--') }) : ''
+    return put(item('picture'), { src: i.src, ink: i.src.replace('--paper--', '--ink--'), alt: esc(i.alt), w, h, phone, load: lazy ? ' loading="lazy" decoding="async"' : ' fetchpriority="high"' })
 }
 // an agenda item's moment, in Lisbon's time (UTC in November): "Today 15:00", "Sat 09:30", "Sat, all day"
 const when = (ctx, i) => { const d = i.date === ctx.TODAY ? 'Today' : ctx.DAY(i.date).split(' ')[0].slice(0, 3); return i.start ? `${d} ${i.start}` : `${d}, all day` }
@@ -54,7 +56,7 @@ function fillE(page, ctx) {
     // this week: today and the six days after it, the two that matter most each day
     const week = [...Array(7).keys()].map(n => plusDays(ctx.TODAY, n)).flatMap(d => [...itemsOn(d)].sort((x, y) => rank(x) - rank(y) || (x.start || '').localeCompare(y.start || '')).slice(0, 2))
     const seenWk = new Set()
-    const wk = week.filter(i => { const k = i.what.split(/:\s|\s\(/)[0]; return !seenWk.has(k) && seenWk.add(k) }).map(i => ({ href: `events/${i.id}/index.html`, date: i.date, when: esc(when(ctx, i)), what: esc(cut(i.what, 80)) }))
+    const wk = week.filter(i => { const k = i.what.split(/:\s|\s\(/)[0]; return !seenWk.has(k) && seenWk.add(k) }).map(i => ({ href: `events/${i.id}/index.html`, date: i.date, when: esc(when(ctx, i)), what: esc(cut(i.what, 80)), where: i.where ? ' · ' + esc(i.where) : '' }))
     // now and next: what has not ended yet, in time order, the bigger moments first within a day (the page drops the ended)
     const seenNext = new Set()
     const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && rank(i) <= 3 && !seenNext.has(i.date + i.what.split(/:\s|\s\(/)[0]) && seenNext.add(i.date + i.what.split(/:\s|\s\(/)[0])).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '').localeCompare(y.start || '')).slice(0, 10)

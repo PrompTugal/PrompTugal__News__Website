@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-offline-mode"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T12:59:26Z"
-site_version: "v0.1.538"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T16:00:31Z"
+site_version: "v0.1.577"
 source: board/catalogue.json
 ---
 
@@ -10,7 +10,7 @@ source: board/catalogue.json
 
 PrompTugal.news works offline at the venue: the reader's schedule, the summit's days and agenda, the front page and the articles they saved (and the latest…
 
-Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 8 findings. The pass file: [2026-11-06-offline-mode](https://promptugal.news/board/passes/2026-11-06-offline-mode.md).
+Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 9 findings. The pass file: [2026-11-06-offline-mode](https://promptugal.news/board/passes/2026-11-06-offline-mode.md).
 
 ## The container list: the findings
 
@@ -24,6 +24,7 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 | 6 | [18:55](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | row 3: the offline badge and band (the copy's own time always shown), Save for offline on an article, the saved list under You with Clear offline data; phone first in C's top: board/spec-offline-mode-design.md, design/decisions/offline/ | open |
 | 7 | [Row 4, the attendee with no Wi-Fi (09:35, v0.1.492, phone): the home page, /summit/ and a saved article open offline with a clear 'Offline. This copy was kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | dev@, dev.pages@, designer@ | open (conductor) |
 | 8 | [Row 4 re-measured after round 2 (12:35, v0.1.532): O2 (query addresses) and O3 (the offline page) done. O6 (rank 1): the tab pages and 80+ event pages are…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | dev@ | open |
+| 9 | [Row 4 re-measured (15:35, v0.1.572): O6 and O1 done (Agenda, its event pages, News, Companies open offline with the copy's time); O4 done ('kept' beside kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | dev@, synthetic@ | done for sherpa@; WebKit open |
 
 ## Cards this pass names
 
