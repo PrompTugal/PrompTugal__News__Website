@@ -68,7 +68,7 @@
       "claim": "c42"
     },
     {
-      "from": "local:google",
+      "from": "company:google",
       "verb": "withdrew_from",
       "to": "event:web-summit-lisbon-2023",
       "source": "rte-2023-10-21-cosgrave-resigns",
@@ -84,7 +84,7 @@
       "note": "Reported after the chief executive's remarks about the Israel-Hamas war; the reason is in the claim."
     },
     {
-      "from": "local:intel",
+      "from": "company:intel",
       "verb": "withdrew_from",
       "to": "event:web-summit-lisbon-2023",
       "source": "rte-2023-10-21-cosgrave-resigns",
