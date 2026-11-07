@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "melious-ai",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "agent-on-european-inference",
+      "name": "A coding agent runs on open models served from Europe (Melious)",
+      "summary": "Melious's home page, in its own terms: an agent or app keeps its OpenAI-compatible client and points it at Melious's base URL; the models (60+ open-weight) are served from European data centres, and Melious offers the agent tools for search, fetch and code execution.",
+      "source": "own1",
+      "steps": [
+        {
+          "actor": "The developer",
+          "what": "Points an existing OpenAI-compatible client, or a coding agent such as Claude Code, Codex, Cursor or OpenCode, at Melious's base URL (a coding subscription or the API).",
+          "source": "own1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Sends its model calls (chat, embeddings, reranking) to open-weight models served from European data centres.",
+          "agent": "Call the model.",
+          "source": "own1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Uses Melious's tools for search, fetch and code execution.",
+          "agent": "Search, fetch and run code.",
+          "source": "own1"
+        }
+      ]
+    }
+  ]
+}

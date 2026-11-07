@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B)",
-  "updated": "2026-11-07T04:40Z",
+  "updated": "2026-11-07T06:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -38,10 +38,12 @@
     "Own-site sources, batch 3: own1 (home page read 7 November 01:25 UTC) for 11 companies (delta-labs, dig-in, elastic, european-commission (website only), fido, firefox-enterprise-mozilla, fretefy (title only, script-rendered), gcore, getvocal-ai, google-cloud, hablla); Genspark held (bot challenge) (01:21 wake)",
     "Own-site sources, batch 4: own1 (home page read 7 November 02:25 UTC) for 12 companies (ibm, itrecruiter, just-travel, keewano, kiggu, kpmg-portugal (website only: it redirects to KPMG International), legalfly, manageengine, melious-ai, mobile-brain, naporta, ola-doutor); the 7 November hand-over debrief (02:21 wake)",
     "Own-site sources, batch 5 (the last): own1 (read 7 November 03:25 UTC) for 16 companies (orb, prelude, prohound, rapidoc, raras-health, risiq, runpod, sensay, shakers, sheerme, spacecomputer, sphere, startup-portugal, strawberry, twilio, vtex); the pass is done: every company with a readable site has one. Held (bot challenge or 403): akamai, genspark, persona, pitchbook, polygraf-ai. No website recorded: eversec, nisos, rws, whitespace. dev.verify@ told (03:21 wake)",
-    "Websites for the four without one: RWS confirmed at rws.com (own1, its what re-sourced); Whitespace not found (whitespace.co.uk is a different company, an insurance platform; its attendee page now answers 404, logged in recheck.json); Eversec's candidate site is script-rendered and unconfirmed; Nisos's answers 403 (04:21 wake)"
+    "Websites for the four without one: RWS confirmed at rws.com (own1, its what re-sourced); Whitespace not found (whitespace.co.uk is a different company, an insurance platform; its attendee page now answers 404, logged in recheck.json); Eversec's candidate site is script-rendered and unconfirmed; Nisos's answers 403 (04:21 wake)",
+    "The verb built_on (inverse underpins, company to company) in the ontology and the edges schema; the first edge: Replit built_on Temporal (Temporal's AI page: it orchestrates the Replit Agent's control plane); Temporal's flow durable-agent (an agent as a durable workflow, a person approves its decisions); Kiggu held (Kiggu Pro's page renders by script); 19 of the outreach list mapped (05:21 wake)",
+    "Flows for Firefox Enterprise (IT decides which AI tools the browser allows and what data reaches them) and Melious (a coding agent on open models served from Europe); TrustScale held (script-only page); 21 of the outreach list's 50 mapped; no product flow or held: cisco-outshift, delinea, kpmg-portugal, linux-foundation-aaif, polygraf-ai, startup-portugal, aicep, cnext, kiggu, trustscale; next: risiq and spacecomputer (no agent on their pages), then 33 onward (06:21 wake)"
   ],
   "next": [
-    "Flows: Kiggu, Temporal, then the outreach list after AISLE; the held sites (akamai, genspark, persona, pitchbook, polygraf-ai, nisos) and websites for Eversec and Whitespace once a readable public source names them",
+    "Flows: the outreach list from 33 (air-apps, european-commission, exa, exein, getvocal-ai, jetbrains...); more built_on edges from providers' case studies; the held sites once readable",
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
@@ -243,6 +245,18 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "RWS's website found; Whitespace, Eversec, Nisos held"
+    },
+    {
+      "started": "2026-11-07T05:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "built_on in the ontology; Replit on Temporal; Temporal's flow; Kiggu held"
+    },
+    {
+      "started": "2026-11-07T06:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "Firefox Enterprise's and Melious's flows; TrustScale held"
     }
   ],
   "decisions_on_findings": [
