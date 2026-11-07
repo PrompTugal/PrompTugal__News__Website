@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.670",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the data for Dinis's live map: api/v1/newsroom/live.json from the commits' Agent, For and To trailers",
+    "by": "dev@PrompTugal.dinis",
+    "from": "63d47e051"
+  },
+  {
     "version": "v0.1.669",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: the live map routed: dev.graphs@ builds, dev@ reviews",
