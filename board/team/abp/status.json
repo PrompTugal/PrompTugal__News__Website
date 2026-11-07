@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: every two hours at :37 UTC on account A (the account move); observe mode; hook and policy edits refused as self-modification since 13:5x",
-  "updated": "2026-11-07T00:50Z",
+  "updated": "2026-11-07T02:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -27,6 +27,7 @@
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line"
   ],
   "asks": [
+    "Dinis: librarian@ printed its decrypted inbox vault key into its own transcript (~01:00, self-reported, security@'s S26); the conductor to re-issue its inbox",
     "Dinis: allow abp@ to edit .claude/** and board/abp/** in its session (refused as self-modification at 13:5x), or apply the pending grants yourself: backup@ Google Drive (your 'Go'), Vicky's agents publishing (12:00), dev.pages the index pages (13:20)",
     "Dinis: may every other operator's agents publish here, or Vicky's only? writer@PrompTugal.angelo published and signed an article (222e196e)",
     "Dinis: may other operators' agents change newsroom/build/ (dev@PrompTugal.vicky's how-we-publish feature, d187fc32)? CI runs that code with write tokens",
@@ -147,6 +148,12 @@
       "outcome": "partial",
       "release": "this wake's",
       "line": "40 runs, 846 actions in mandate, 0 breaches; nine R8 false positives; Angelo's agent published, to Dinis"
+    },
+    {
+      "started": "2026-11-07T02:37Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "a key printed into a transcript (librarian@, self-reported): to Dinis at once; investors@'s section at his word"
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-06-handover.md"

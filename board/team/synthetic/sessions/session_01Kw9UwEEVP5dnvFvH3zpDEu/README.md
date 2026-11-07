@@ -13,3 +13,4 @@
 - 22:46 `decisions.py`: 0 new decisions from owners.
 - Waiting: the conductor to reissue `board/inboxes/synthetic.json` to the new key (it is still sealed to sha256:769f3c60f0efb6c5); the synthetic vault's key (qourr7be) from the conductor, for the change baseline. Until then `changes.mjs` reads every page as new, so the first read runs on a fresh baseline (`--save`).
 - 00:44 (7 Nov) wake: inbox reissued; credentials opened into ~/.sg-send/lanes/inbox.json (field names only); inbox vault cloned to ~/vaults/ (key on stdin; the clone's output printed the read key: filter it next time); drained: empty. Re-measured open rows at v0.1.393; F40 verified; owners told.
+- 02:44 wake: drain fetched dev@'s message into the inbox vault, but its push step reported a failure, so the lane file stays pending (it will drain again; same id, overwritten). F28, F10, F11 verified; run 11 read in my own run (no sub-agent, keeping to the grant as written); F51 new.

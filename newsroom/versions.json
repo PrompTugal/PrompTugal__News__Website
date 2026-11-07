@@ -1,5 +1,180 @@
 [
   {
+    "version": "v0.1.433",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "9a8256155"
+  },
+  {
+    "version": "v0.1.432",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 04:07 wake: account B quiet; nothing blocked",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a5469bcc0"
+  },
+  {
+    "version": "v0.1.431",
+    "date": "2026-11-07",
+    "what": "librarian@PrompTugal.dinis: wake 03:56: rotated inbox drained; Q9 met; catalogue v0.1.430",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "ffedd6853"
+  },
+  {
+    "version": "v0.1.430",
+    "date": "2026-11-07",
+    "what": "accountant@PrompTugal.dinis: 03:50 wake: 7 November so far 79.11 API-equivalent (A 16.98, B 62.13), about 26 an hour; the day's report and debrief",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "ebdad72de"
+  },
+  {
+    "version": "v0.1.429",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: debrief: the decks, where their sources live, lessons",
+    "by": "investors@PrompTugal.dinis",
+    "from": "f8cae8cc7"
+  },
+  {
+    "version": "v0.1.428",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 03:38: idle; drafts unchanged, no new inbox message",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "1d4fbc565"
+  },
+  {
+    "version": "v0.1.427",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: the four investor decks (PDF) and /investors/decks/",
+    "by": "investors@PrompTugal.dinis",
+    "from": "741c904bf"
+  },
+  {
+    "version": "v0.1.426",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: deck 4, the Algarve's case (PDF, 14 slides)",
+    "by": "investors@PrompTugal.dinis",
+    "from": "2b48a613d"
+  },
+  {
+    "version": "v0.1.425",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: 2025 organiser numbers read in full; hand-over debrief for 7 November",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "ee264de22"
+  },
+  {
+    "version": "v0.1.424",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "0329965d2"
+  },
+  {
+    "version": "v0.1.423",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 03:07 wake: account B's ledger at 113.32 API-equivalent; investors@'s relay to the conductor",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d1046ac27"
+  },
+  {
+    "version": "v0.1.422",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/my-feeds/: the history of My Feeds and its idea working on PrompTugal",
+    "by": "investors@PrompTugal.dinis",
+    "from": "5e0e1f711"
+  },
+  {
+    "version": "v0.1.421",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/: the iOS app linked (ios.app.promptugal.news, v0.3.1, internal beta)",
+    "by": "investors@PrompTugal.dinis",
+    "from": "1e92d46af"
+  },
+  {
+    "version": "v0.1.420",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 02:52: librarian@'s inbox re-issued after its key reached a transcript (S26)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "4eb8c7b07"
+  },
+  {
+    "version": "v0.1.419",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: status: grant for content/investors/ asked of abp@",
+    "by": "investors@PrompTugal.dinis",
+    "from": "c8a4143dc"
+  },
+  {
+    "version": "v0.1.418",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/: an Algarvian startup, partners wanted, the founder's strategy, eight revenue streams",
+    "by": "investors@PrompTugal.dinis",
+    "from": "5efd34514"
+  },
+  {
+    "version": "v0.1.417",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 02:44: F28, F10, F11 verified; run 11 on the new front page; F51 new",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "732b103ed"
+  },
+  {
+    "version": "v0.1.416",
+    "date": "2026-11-07",
+    "what": "correspondent@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "4e9b57a4d"
+  },
+  {
+    "version": "v0.1.415",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the designs re-checked at v0.1.413: F, G and Silvio's credit pass; exact fixes for what is left",
+    "by": "designer@PrompTugal.dinis",
+    "from": "4e1ef1e71"
+  },
+  {
+    "version": "v0.1.414",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/: the history dated from the record, a reading list of Dinis's articles",
+    "by": "investors@PrompTugal.dinis",
+    "from": "a8d2d6b3e"
+  },
+  {
+    "version": "v0.1.413",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/ becomes a section from Dinis's pitch",
+    "by": "investors@PrompTugal.dinis",
+    "from": "a70d7ac7a"
+  },
+  {
+    "version": "v0.1.412",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: dev.verify's flags, round 2; Wednesday 11 November corrected",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "b26376f06"
+  },
+  {
+    "version": "v0.1.411",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: own-site sources, batch 4 (12 companies); the 7 November debrief",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "2e9014426"
+  },
+  {
+    "version": "v0.1.410",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 02:08: status and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "627db98ea"
+  },
+  {
+    "version": "v0.1.409",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "537bf1ffd"
+  },
+  {
     "version": "v0.1.408",
     "date": "2026-11-07",
     "what": "investors@PrompTugal.dinis: Dinis's answer: My Feeds; the decision closed, /investors/ live",

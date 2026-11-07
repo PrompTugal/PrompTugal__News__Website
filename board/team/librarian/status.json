@@ -1,8 +1,8 @@
 {
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
-  "state": "working (account B); inbox reissued and read (empty); asked for it to be rotated after my own slip",
-  "updated": "2026-11-07T01:20Z",
+  "state": "working (account B); inbox rotated and drained",
+  "updated": "2026-11-07T04:10Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -24,20 +24,19 @@
     "Wake of 15:56: 8 messages drained and verified; reviews from security@ (go), dev.graphs@ and ontologist@ answered on the record (library/reviews/reviews-of-the-plan.md); library round 4 released: the graph's looks and presets as data for the explorer, a phone view of 30 nodes on the first screen, concepts from data/concepts.json",
     "Wake of 18:56: two reviews taken in and answered on the record (ontologist@: a 'newsroom' world in the ontology, accepted; dev@: the reading room no longer deployed under board/ for security@'s S1b, asked to make it a page of the build at /library/); the catalogue at v0.1.316 (1,156 pages, 933 board files, 29 passes, 157 findings); the library at 2,909 cards, check and 39 tests green; the hand-over debrief",
     "Account B session onboarded (22:23 to 22:35 UTC): new session key (record sha256:b7d903294669247b, encryption sha256:a1bcc67afa9970d6) as librarian-promptugal in board/keys.json, the first session's entry renamed librarian-promptugal-0 and marked superseded at 22:30; agents.json note updated; conductor.b@ and conductor@ told on their inboxes and asked to reissue mine; the catalogue at v0.1.363 (1,170 pages, 1,114 board files, 13 desks, 29 passes, 158 findings, 27 agents); the library at 3,107 cards, check OK, 39 tests green; waits-on-Dinis regenerated (25 blocked, 8 decisions, 52 questions)",
-    "Wake of 00:56 (7 November): inbox reissued by conductor@ at 22:52 (signature verified), opened and read with security@'s read-only lane reader: empty; the reality tree's two warnings cleared (an evidence path that moved to content/newsroom/decisions/who-sends-which-company.md; the generator now accepts a bare root file such as CNAME as evidence); the library check had gone red on two new agent handles (writer@PrompTugal.angelo, design@web-summit.silvio), not contact details: the handle rule now knows those operators, with a test (41 green); catalogue v0.1.395 (1,180 pages, 1,302 board files, 14 desks, 160 findings); library 3,308 cards, check OK, 0 warnings"
+    "Wake of 00:56 (7 November): inbox reissued by conductor@ at 22:52 (signature verified), opened and read with security@'s read-only lane reader: empty; the reality tree's two warnings cleared (an evidence path that moved to content/newsroom/decisions/who-sends-which-company.md; the generator now accepts a bare root file such as CNAME as evidence); the library check had gone red on two new agent handles (writer@PrompTugal.angelo, design@web-summit.silvio), not contact details: the handle rule now knows those operators, with a test (41 green); catalogue v0.1.395 (1,180 pages, 1,302 board files, 14 desks, 160 findings); library 3,308 cards, check OK, 0 warnings",
+    "Wake of 03:56: the inbox rotated by conductor@ at 02:54 (S26; a new vault), opened to file with field names only, drained: 1 message (conductor@, verified: the reissue notice; no question, no slip); Q9 met (board/README.md links the ideas ledger, Later first) and a finding sent to conductor@ (the README does not name the catalogue or waits-on-Dinis); catalogue v0.1.430 (1,190 pages, 1,437 board files, 161 findings); library 3,454 cards, check OK, 0 warnings, 41 tests"
   ],
   "next": [
-    "Drain the rotated inbox once conductor@ reissues it; take any slips in at the desk",
     "The open slips: SLIP-20261106-009 (ontologist@'s newsroom world) and -010 (the reading room as /library/, dev@)",
-    "Queue Q8 (the night memos against the ideas ledger) and Q9 (the Later list from board/README.md)",
+    "Queue Q8 (the night memos against the ideas ledger)",
     "A drain in this repository: I read with board/team/security/tools/inbox_read.py (security@'s, read-only); the team site's feedback_drain.py is not attached to this session"
   ],
   "asks": [
-    "Dinis: an incident, mine (00:58 UTC 7 November): opening my reissued inbox credentials, I printed their decrypted fields (the inbox vault's key and enum key) into my own session transcript. Nothing in the repository, a commit, a file outside ~/.sg-send/ or a send. The inbox was empty. I asked conductor@, conductor.b@ and security@ on their inboxes to rotate it (a new inbox vault sealed to my key). Like the open decision page an-agent-printed-its-own-lane-token; I now open sealed credentials printing field names only, never the decrypt result.",
+    "Dinis, for your record (resolved): at 00:58 UTC on 7 November I printed my inbox's decrypted credentials into my own session transcript; nothing reached the repository, a file or a send. conductor@ rotated the inbox at 02:54 (security@'s S26) and the old vault is abandoned. I now open sealed credentials to a file and read field names only.",
     "Dinis: confirm sub-agents and a /library/ section of the site in my grant (asked of abp@ at 13:25; I am going ahead on your word)"
   ],
   "blocked_on": [
-    "conductor@: rotate my inbox (asked 01:05 UTC, 7 November), after my slip above",
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",
     "ontologist@: a schema for board/catalogue.json",
     "dev@: the reading room as a page of the build (/library/), since board/ no longer deploys HTML (SLIP-20261106-010)",
@@ -92,6 +91,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: inbox read (empty) and rotation asked after printing its credentials in my transcript; reality tree warnings cleared; library check fixed for Angelo's and Silvio's agent handles; catalogue v0.1.395"
+    },
+    {
+      "started": "2026-11-07T03:56Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: rotated inbox drained (1 notice); Q9 met, README finding to conductor@; catalogue v0.1.430; library 3,454 cards green"
     }
   ],
   "notes": [

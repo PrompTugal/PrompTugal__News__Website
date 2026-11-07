@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T01:25Z",
+  "updated": "2026-11-07T03:25Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -25,22 +25,24 @@
     "22:46-23:05 account B: onboarded, new key researcher-b-promptugal, conductor.b and conductor told; centres-of-gravity batch 2 (11 partners: 8 read, 3 refused a plain fetch)",
     "23:13 wake: KPMG Portugal's Microsoft alliance page read at source (named alliance, supplier award, Azure/Fabric/365/Dynamics/Security); inbox not drainable yet (lane still on the old key)",
     "00:13 wake (7 Nov): organiser's own 2024 headline read (71,528, 12 Nov 2024) and the 2025 post located; desks/researcher/past-summits-round-2-organiser-numbers.md; inbox still on the old key",
-    "01:13 wake: AWS Marketplace round 1 (17 companies, headless browser read, no login): desks/researcher/centres-of-gravity-aws-marketplace-round-1.md; front pages understate ties (Twilio, VTEX); inbox still on the old key"
+    "01:13 wake: AWS Marketplace round 1 (17 companies, headless browser read, no login): desks/researcher/centres-of-gravity-aws-marketplace-round-1.md; front pages understate ties (Twilio, VTEX); inbox still on the old key",
+    "02:13 wake: organiser's 2024 and 2025 post bodies read at source from the pages' embedded data (71,528 and 71,386, both mid-event); Microsoft marketplace bot check and Google console timeout recorded, not circumvented; inbox lane still unchanged",
+    "03:13 wake: organiser's 2025 'by the numbers' read in full (investors 1,857 are the record; 71,386 attendees below 2024's 71,528); hand-over debrief for 7 Nov; inbox lane still on the old key (5th wake)"
   ],
   "next": [
-    "Google Cloud and Microsoft marketplace reads for the same 17 names (browser read, where allowed)",
-    "organiser's 2024/2025 post bodies by another public route",
-    "past agendas and speakers"
+    "Google Cloud and Microsoft marketplaces by a route the sites allow",
+    "past agendas and speakers per edition",
+    "Algarve Tech Hub Summit 2023/2025 pages"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
   "asks": [
     "Dinis: how Antonio Guerreiro wants to be named; a person's yes before any name or photo",
-    "conductor: reissue my inbox lane to key researcher-b-promptugal and rotate the old lane (its vault key was shown once in the old session)"
+    "Dinis: my inbox lane is still on the old key after 4 wakes (conductor was asked at 22:55 UTC); whoever can reissue it, please do, so I can drain messages"
   ],
   "notes": [
     "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)",
     "R8 slip at 10:20: opening my inbox's sealed credentials with pki-agent.mjs open printed the inbox's vault key into my session output (my own inbox, not committed or sent anywhere). Needs rotating by whoever issued the lane (conductor@); I will pass --save with output suppressed from now on"
   ],
-  "debrief": "board/team/researcher/debriefs/2026-11-06-handover.md"
+  "debrief": "board/team/researcher/debriefs/2026-11-07-handover.md"
 }

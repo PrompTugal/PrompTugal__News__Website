@@ -1,0 +1,171 @@
+{
+ "about": "7 November's first reading: account A's five sessions (get_session) and account B from conductor.b@'s 03:12 ledger, minus the day's baseline (board/budgets.json). API-equivalent.",
+ "read_at": "2026-11-07T03:50Z",
+ "subscription": {
+  "A": "allowed_warning",
+  "B": "allowed"
+ },
+ "rows": [
+  {
+   "agent": "dev@PrompTugal.dinis",
+   "A": 0,
+   "B": 9.04,
+   "today": 9.04
+  },
+  {
+   "agent": "designer@PrompTugal.dinis",
+   "A": 0,
+   "B": 6.87,
+   "today": 6.87
+  },
+  {
+   "agent": "accountant@PrompTugal.dinis",
+   "A": 6.57,
+   "B": 0,
+   "today": 6.57
+  },
+  {
+   "agent": "conductor@PrompTugal.dinis",
+   "A": 3.04,
+   "B": 3.41,
+   "today": 6.45
+  },
+  {
+   "agent": "journalist@PrompTugal.dinis",
+   "A": 0,
+   "B": 5.88,
+   "today": 5.88
+  },
+  {
+   "agent": "investors@PrompTugal.dinis",
+   "A": 0,
+   "B": 5.7,
+   "today": 5.7
+  },
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "A": 4.92,
+   "B": 0,
+   "today": 4.92
+  },
+  {
+   "agent": "synthetic@PrompTugal.dinis",
+   "A": 0,
+   "B": 3.98,
+   "today": 3.98
+  },
+  {
+   "agent": "correspondent@PrompTugal.dinis",
+   "A": 0,
+   "B": 3.35,
+   "today": 3.35
+  },
+  {
+   "agent": "devops@PrompTugal.dinis",
+   "A": 0,
+   "B": 3.2,
+   "today": 3.2
+  },
+  {
+   "agent": "historian@PrompTugal.dinis",
+   "A": 0,
+   "B": 3.14,
+   "today": 3.14
+  },
+  {
+   "agent": "sherpa@PrompTugal.dinis",
+   "A": 0,
+   "B": 2.44,
+   "today": 2.44
+  },
+  {
+   "agent": "outreach@PrompTugal.dinis",
+   "A": 0,
+   "B": 2.41,
+   "today": 2.41
+  },
+  {
+   "agent": "dev.pages@PrompTugal.dinis",
+   "A": 0,
+   "B": 2.28,
+   "today": 2.28
+  },
+  {
+   "agent": "librarian@PrompTugal.dinis",
+   "A": 0,
+   "B": 2.17,
+   "today": 2.17
+  },
+  {
+   "agent": "ontologist@PrompTugal.dinis",
+   "A": 0,
+   "B": 1.92,
+   "today": 1.92
+  },
+  {
+   "agent": "observability@PrompTugal.dinis",
+   "A": 1.55,
+   "B": 0,
+   "today": 1.55
+  },
+  {
+   "agent": "designer.experiments@PrompTugal.dinis",
+   "A": 0,
+   "B": 1.14,
+   "today": 1.14
+  },
+  {
+   "agent": "dev.verify@PrompTugal.dinis",
+   "A": 0,
+   "B": 1.05,
+   "today": 1.05
+  },
+  {
+   "agent": "dev.graphs@PrompTugal.dinis",
+   "A": 0,
+   "B": 1.0,
+   "today": 1.0
+  },
+  {
+   "agent": "dev.data@PrompTugal.dinis",
+   "A": 0,
+   "B": 0.98,
+   "today": 0.98
+  },
+  {
+   "agent": "security@PrompTugal.dinis",
+   "A": 0.9,
+   "B": 0,
+   "today": 0.9
+  },
+  {
+   "agent": "researcher@PrompTugal.dinis",
+   "A": 0,
+   "B": 0.82,
+   "today": 0.82
+  },
+  {
+   "agent": "dev.portugal@PrompTugal.dinis",
+   "A": 0,
+   "B": 0.68,
+   "today": 0.68
+  },
+  {
+   "agent": "dev.search@PrompTugal.dinis",
+   "A": 0,
+   "B": 0.35,
+   "today": 0.35
+  },
+  {
+   "agent": "backup@PrompTugal.dinis",
+   "A": 0,
+   "B": 0.32,
+   "today": 0.32
+  }
+ ],
+ "total": {
+  "A": 16.98,
+  "B": 62.13,
+  "today": 79.11
+ }
+}

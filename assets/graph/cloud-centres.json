@@ -65,6 +65,10 @@
     "manageengine": {
       "label": "manageengine.com (its own page)",
       "url": "https://www.manageengine.com/"
+    },
+    "awsmp": {
+      "label": "AWS Marketplace search by company name (public, no sign-in; researcher@, read 7 Nov 2026)",
+      "url": "https://aws.amazon.com/marketplace/search/results"
     }
   },
   "relations": [
@@ -158,8 +162,8 @@
         },
         "builton": {
           "state": "found",
-          "label": "5 of 14 read",
-          "text": "Of the 14 partner companies' pages read, five name AWS, in different ways: Cerebras (a testimonial by an AWS vice president on a joint inference setup, not called a partnership), Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage) and Runpod (a customer compares AWS as the more expensive rival). Fourteen of the 17 other companies our data lists as Web Summit partners have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
+          "label": "11 of 17 sell on AWS Marketplace",
+          "text": "Two lenses. Front pages (14 of the 17 other partner companies read): five name AWS, in different ways: Cerebras (a testimonial by an AWS vice president on a joint inference setup, not called a partnership), Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage) and Runpod (a customer compares AWS as the more expensive rival). AWS Marketplace search by company name (all 17, first results only): 11 have a listing of their own, nine under their own name (1Password, Akamai, Cerebras, Datadog, Elastic, IBM, Runpod, Twilio, VTEX) and two under a parent (Cisco for Cisco Outshift, Zoho for ManageEngine); several hold an AWS Specialization badge. A listing shows the company sells there; it is not a stated partnership. A front page understates the tie (Twilio and VTEX said nothing on theirs yet both sell there), so the marketplace is the better first source. Not found in the first results: Mozilla, Gcore, Genspark, KPMG and PitchBook, and the search is fuzzy, so that is not proof of none. Delinea appears only through resellers. The Google Cloud and Microsoft marketplaces are not read yet.",
           "links": [
             {
               "label": "Cerebras: an AWS executive's testimonial, a joint inference setup",
@@ -185,6 +189,36 @@
               "label": "ManageEngine: cloud security for Azure, AWS and GCP as a product area (coverage, not a stated partnership)",
               "page": "companies/manageengine/index.html",
               "src": "manageengine"
+            },
+            {
+              "label": "1Password: AWS Marketplace, own listing, with an AWS Specialization badge",
+              "page": "companies/1password/index.html",
+              "src": "awsmp"
+            },
+            {
+              "label": "Akamai: AWS Marketplace, own listings (API security)",
+              "page": "companies/akamai/index.html",
+              "src": "awsmp"
+            },
+            {
+              "label": "IBM: AWS Marketplace, own listings (IBM MQ)",
+              "page": "companies/ibm/index.html",
+              "src": "awsmp"
+            },
+            {
+              "label": "Twilio: AWS Marketplace, own listing (Twilio Segment), with a badge",
+              "page": "companies/twilio/index.html",
+              "src": "awsmp"
+            },
+            {
+              "label": "VTEX: AWS Marketplace, own listings, with a badge",
+              "page": "companies/vtex/index.html",
+              "src": "awsmp"
+            },
+            {
+              "label": "Cisco Outshift: AWS Marketplace, Cisco Systems sells there; nothing specific to Outshift",
+              "page": "companies/cisco-outshift/index.html",
+              "src": "awsmp"
             }
           ]
         },

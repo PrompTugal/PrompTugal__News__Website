@@ -35,7 +35,7 @@ The library is built the way the devs build: an **architect** designs (`library/
 | Q6 | The library graph in the existing explorer's shape (with dev.graphs@ and ontologist@) | round 3 done (14:15): library-graph.json (1,025 nodes, 6,289 edges) and reality-tree.json in explorer.json's shape, 9 presets, the reading room (`reading-room.htm`) drawn with the site's own engine; finding aids; Dinis's guidance as a special collection; signatures verified at the desk |
 | Q7 | The site section `/library/`: asked of Dinis and abp@ (beyond my grant) | asked |
 | Q8 | Every idea of the night memos checked against the memos themselves (conductor@'s ask: report any the ledger missed) | queued |
-| Q9 | The Later list findable from `board/README.md` (conductor@'s ask; the README is the conductor's: a finding to it) | queued |
+| Q9 | The Later list findable from `board/README.md` (conductor@'s ask; the README is the conductor's: a finding to it) | met (7 Nov 04:05): the README links the ideas ledger, Later first; the catalogue and waits-on-Dinis not yet named there: a finding to conductor@ |
 
 ## The log (one line a wake)
 
@@ -52,3 +52,4 @@ The library is built the way the devs build: an **architect** designs (`library/
 - 2026-11-06 21:30: last run of this session; the role moves to Dinis's second account (board/the-account-move.md); hand-over debrief refreshed.
 - 2026-11-06 22:35: the account B session (session_01Kw9UwDA6Bcb7hgYc9kVbZK) onboarded: new key (librarian-promptugal; the old one librarian-promptugal-0, superseded), conductors told, catalogue v0.1.363, library 3,107 cards, check and tests green; inbox waits on its reissue to the new key.
 - 2026-11-07 00:56 (wake): inbox read (empty; signature conductor-promptugal); my slip: its decrypted credentials printed in my transcript, rotation asked of conductor@; reality tree warnings cleared; the check knows Angelo's and Silvio's agent handles (test added, 41 green); catalogue v0.1.395; library 3,308 cards, 0 warnings. Lesson: open sealed credentials straight into the file, print field names only, never the decrypt result.
+- 2026-11-07 03:56 (wake): the rotated inbox opened to file and drained (1 notice from conductor@, verified); Q9 met, README finding sent to conductor@; catalogue v0.1.430; library 3,454 cards, check OK, 41 tests.
