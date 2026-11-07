@@ -1,8 +1,27 @@
 ---
 title: "Investors: how we got here"
-summary: "Not the first newsroom. From My Feeds' personalised briefings (2024) through The Cyber Boardroom's work on trusted news (2025) and three earlier newsrooms on sgit.ai, to PrompTugal.news, built in a week on top of all of them."
+summary: "One founder's open-source strategy, executed across several startups, and not the first newsroom. From My Feeds' personalised briefings (2024) through The Cyber Boardroom's work on trusted news (2025) and three earlier newsrooms on sgit.ai, to PrompTugal.news, built in a week on top of all of them."
 ---
 PrompTugal.news was built in a week because it stands on everything before it. This is not Dinis Cruz's first newsroom.
+
+## The strategy behind it {#strategy}
+
+Dinis Cruz runs several startups under one strategy, written up in full at [open-source.sgit.ai](https://open-source.sgit.ai/): "open source is a strategy, not a charity". The code is open; what is sold is "the running, maintained, certified service"; and "a competitor who forks our code today gets our position as of today. They do not get our velocity." Code is Apache-2.0 and documents CC BY 4.0.
+
+Having many startups is the point: each is built on the others. The ones the strategy names ([open-source.sgit.ai/about](https://open-source.sgit.ai/about/index.md), read 7 November 2026):
+
+| Startup | What it is |
+|---|---|
+| [sgit.ai](https://sgit.ai/) | Encrypted vaults with git's semantics; the keys, signatures and vaults under PrompTugal |
+| [sgraph.ai](https://sgraph.ai/) | The commercial home of SG/Send and hosted vaults |
+| [MyFeeds.ai](https://investor.myfeeds.ai/) | Role-aware briefings on semantic knowledge graphs; its company, My Feeds, now publishes PrompTugal |
+| [The Cyber Boardroom](https://thecyberboardroom.com/) | An AI platform between security teams and the board |
+| [RiskMandate.ai](https://riskmandate.ai/) | The business risk layer for autonomous systems |
+| [VoiceDebrief.ai](https://voicedebrief.ai/) | Voice recordings to transcripts, in the browser |
+
+PrompTugal is the newest, and the first built from all of them at once. Each is its own company or project; investing in PrompTugal is investing in My Feeds only.
+
+## The timeline {#timeline}
 
 | When | What | What it added |
 |---|---|---|

@@ -1,31 +1,64 @@
 ---
 title: "Investors: the business plan"
-summary: "Provide services and be profitable. What PrompTugal sells (the agentic newsroom and what it makes), to whom, why it costs little to run, what we will never do (advertising, tracking), and what we do not know yet. No figures until we have them."
+summary: "Several revenue streams on one platform that costs little to run: pay per use after the value, customisation for people and teams, the platform for other events, the agentic team deployed, data made for agents, intelligence packs, and work with publishers. Validated at Web Summit; aiming to be profitable within months. No figures until we have them."
 ---
-**The plan in one line: provide services on top of a platform that costs very little to run, and be profitable.** The product is the agentic newsroom; this summit is its first edition.
+**The plan in one line: people pay because they already had value, not for value promised; on top of that, sell customisation, the platform and the team behind it, on a stack that costs very little to run.** This summit is the first edition and the first test.
 
-## What we sell {#sell}
+## The revenue streams {#streams}
 
-1. **The agentic newsroom as a service.** A publication for an event, a sector, a country or an organisation, researched, written, checked and released by a team of AI agents with a named human, at the speed shown on this site. The team is the product: its roles, its written limits, its budgets and its record.
-2. **Made for you.** A personal schedule; a delegation's schedule and map (the method behind our Brazil story); customised views of the app for a participant, an exhibitor or a delegation; graphs and infographics from their data.
-3. **The days and after.** A brief on the summit for a company or an investor; the post-summit pack; a personal newsreel of everything published about you.
-4. **Reading.** Micropayment top-ups and a private vault for readers who want more.
-5. **Professional services.** Helping a team put its own agentic workflow in place, with the written policies, reviews and hand-over that make it safe to run.
+### 1. Pay per use, after the value {#pay-per-use}
 
-What is on sale today is the reading top-up; everything else is designed and priced as a proposal by our customers agent ([the monetisation map](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/customers/monetisation-map.md)). Prices are not published here until they are tested.
+Most publishing asks people to buy on future value: a subscription for what they might read. We do the opposite. A reader comes to the summit pages and gets value first: they discover talks they would have missed, where to go, who is there, something they did not know. They spend time on the site and come back. By the time they pay, a few pence a page from a starting credit, they are already glad they did, and they top up because they have seen the value. The more useful the site, the more it is used, and it pays from the first day. Original content and new forms of it are what make this grow. ([Paying after the value](https://newsroom.sgit.ai/articles/paying-after-the-value.html) sets out the reading meter, live since October 2026.)
 
-## Who buys {#customers}
+### 2. Customisation for a person or a team {#customisation}
 
-- **Event organisers and participants:** the same technology runs any event, not only this one. A newsroom for an event is worth a lot to the event and to the people at it.
-- **Companies and delegations at an event:** their own view, their own schedule, their own story told with sources.
-- **Publishers and organisations** that want to see how news is made when people and agents work together, as customers of the method, not only the product.
-- **Readers,** a little at a time.
+The most powerful part. For this summit alone: the logistics of a team going (who goes where, what each will see), the preparation and the briefing before a talk and after it, a version of the site with only what one person will see, their day and their meetings. A person coming for one day gets their day. Most of this is not far from what already runs ([what works today](../what-works/index.html)); these core features are what we sell.
+
+### 3. The platform for other events {#events}
+
+Most events do not manage their data well before, during or after. Events happen every week. The same platform, customised for each one, is the model of Dinis Cruz's other work: customised versions of open source, where the customer pays for what they use ([selling less code](https://newsroom.sgit.ai/articles/selling-less-code.html)).
+
+### 4. The agentic team, deployed {#team}
+
+The team that runs this newsroom can be deployed for a project, an event or a body of content: its roles, its written limits, its budgets and its record come with it.
+
+### 5. Agentic workflows, taught and installed {#workflows}
+
+Many companies want to learn how to run agentic workflows safely, and some will want to run them on this technology. We sell around that: the method, the setup and the hand-over.
+
+### 6. Data made for agents {#data}
+
+Agents are cheaper and faster when the data comes ready for them: feeds, objects, triplets, JSON files, graph objects, already processed, with every fact sourced. Our librarian agent and the semantic knowledge graphs we are adding make the site's data exactly that. Agents that consume it save their owners money, so agents should pay us for it.
+
+### 7. Intelligence packs {#packs}
+
+Who is who, what is happening in AI in Portugal, mapped and kept current, as a pack for someone deciding where to invest or partner, in the way security teams buy threat intelligence.
+
+### 8. Working with publishers {#publishers}
+
+The publishing industry has to change, and if it goes our way there is work and revenue in helping existing publications, in Portugal and around the world, to run the same way. Publishers should be investing in what we do.
+
+### And a wider market {#multilingual}
+
+Many of the site's pages are to become multilingual and multicultural as the platform matures, widening every stream above beyond Portuguese and English readers.
+
+What is on sale today is the reading top-up; the rest is designed, with proposals kept by our customers agent ([the monetisation map](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/customers/monetisation-map.md)). Prices are published once tested.
 
 ## Why it can be profitable {#profit}
 
 - **The stack costs very little:** pages are built from data and served statically and serverless; there are no servers to run for readers.
-- **The agents do the repeatable work,** under a person's direction, so a new edition (an event, a sector) is a configuration and a team, not a newsroom of hires.
-- **Reuse:** every part was built before, on earlier newsrooms, and is reused here; that is why this one took a week ([how we got here](../how-we-got-here/index.html)).
+- **Agents do the repeatable work** under a person's direction, so a new edition (an event, a sector, a language) is a configuration and a team, not a newsroom of hires.
+- **Reuse:** every part was built before, on earlier projects, and is reused here ([how we got here](../how-we-got-here/index.html)).
+
+## What the investment is for {#use}
+
+Development, the user experience, and paying the team to work on it; then going to market. No amount is published ([how to engage](../rules-of-engagement/index.html)).
+
+## Validation and timeline {#timeline}
+
+- **Web Summit Lisbon (9 to 12 November 2026) validates the company.** If people use the app, find it useful and pay, investors will be interested; if not, less so. We publish what happens either way.
+- **Aim: profitable in the next couple of months,** then take it from there. The question to answer first is the market's appetite to pay, and there are events to test it on regularly.
+- **Grants and programmes:** My Feeds, incorporated in Portugal, will apply for grants and for investment, and is asking the Algarve's ecosystem how.
 
 ## What we will never do {#never}
 
@@ -36,9 +69,7 @@ What is on sale today is the reading top-up; everything else is designed and pri
 ## What we do not know yet {#unknown}
 
 - Revenue: none to report beyond the first top-ups. If it comes, it changes the story, and it will be here.
-- Which customers buy first: the summit (9 to 12 November 2026) is the test.
-- Costs and the ask: for a conversation ([how to engage](../rules-of-engagement/index.html)).
+- Which stream sells first: the summit is the test.
+- Costs, prices and the ask: for a conversation.
 
-## What happens next {#next}
-
-Execute, sell, add features, and update this plan and the deck as each of those happens. [Back to the pitch](../index.html).
+[Back to the pitch](../index.html).
