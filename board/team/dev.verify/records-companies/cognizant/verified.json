@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "cognizant",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/e6276948-d2f7-4565-95e4-9caccd1a5211/be-part-of-history-help-build-the-first-pages-of-the-agentic-web/",
+      "status": 200,
+      "read": true,
+      "chars": 1360
+    },
+    {
+      "url": "https://websummit.com/attendees/lis26/f18640a5-8db0-428a-82ad-1abd56cee73e/babak-hodjat/",
+      "status": 200,
+      "read": true,
+      "chars": 1939
+    },
+    {
+      "url": "https://www.cognizant.com/",
+      "status": 200,
+      "read": true,
+      "chars": 3260
+    }
+  ],
+  "spent_usd": 0.0296,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Cognizant.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Cognizant helps companies",
+          "note": "The company's own homepage describes itself as Cognizant, and S1 and S2 also list Babak Hodjat as Chief AI Officer at Cognizant."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Cognizant helps companies modernize technology",
+          "note": "The source refers to Cognizant as an enterprise offering technology and AI services."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cognizant",
+          "note": "S1 identifies Babak Hodjat as Chief AI Officer at Cognizant, supporting that the company is named Cognizant."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.cognizant.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://www.cognizant.com/",
+          "note": "Source S3 is the page at https://www.cognizant.com/, the company's own site, which confirms the URL as the Cognizant website."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources state that the company's website is https://www.cognizant.com/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://www.cognizant.com/",
+          "note": "S3 is the Cognizant website at the claimed URL."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Global IT services company positioning itself as an AI builder for enterprises.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "We’re an AI Builder",
+          "note": "The source supports the 'AI builder' self-description, but nothing in the sources uses the phrase 'Global IT services company' as the company's own description."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "We’re an AI Builder",
+          "note": "Cognizant explicitly describes itself as an AI builder, but the sources do not show it using the full phrasing of a global IT services company positioning itself as an AI builder for enterprises."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "We’re an AI Builder",
+          "note": "S3 shows Cognizant calling itself an AI Builder and helping companies, but it does not explicitly describe itself as a global IT services company."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Cognizant United States",
+          "note": "Babak Hodjat's Web Summit profile lists his company as Cognizant with the country United States directly after it, though this appears as a speaker-profile field rather than an explicit company-registration listing."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": "S2",
+          "quote": "Babak Hodjat Chief AI Officer Cognizant United States Legal & professional services",
+          "note": "The source lists 'United States' after Cognizant without specifying whether it designates the country of the speaker or the company, nor does it state that the company is listed under that country."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Cognizant United States",
+          "note": "The attendee listing shows Cognizant alongside United States as the country."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Chief AI Officer Cognizant",
+          "note": "The Web Summit Lisbon 2026 attendee page lists speaker Babak Hodjat with the company Cognizant, and S1 shows the same speaker in a Lisbon 2026 session, which matches the claim's 'speaker's company' framing."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Speakers Babak Hodjat Babak Hodjat Chief AI Officer Cognizant",
+          "note": "Cognizant is listed as the speaker's company on the Web Summit Lisbon 2026 session schedule."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Chief AI Officer Cognizant",
+          "note": "S1, a Web Summit Lisbon 2026 session page, lists Babak Hodjat as a speaker affiliated with Cognizant."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
