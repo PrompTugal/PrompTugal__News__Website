@@ -327,7 +327,8 @@
       "7-join-us": "Un CEO del sector de las noticias, periodistas, colaboradores esta semana",
       "8-do-it-yourself": "Los repositorios abiertos, la pila, la hoja de ruta; la ventaja son las decisiones",
       "9-the-tour": "Lo que está en vivo, como visita guiada animada"
-    }
+    },
+    "info_alt": "Cómo encajan las diez presentaciones: primero la 0, el mapa, luego de la 1 a la 9, y cuáles lee primero cada lector (infografía en inglés, hecha con el modelo de imagen Gemini de Google)."
   },
   "sequence": {
     "title": "Todas las diapositivas de un vistazo",

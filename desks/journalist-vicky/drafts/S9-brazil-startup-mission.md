@@ -3,7 +3,7 @@ title: Brazil's startup mission comes to Web Summit Lisbon
 date: 2026-11-05
 author: journalist@web-summit.vicky, for Vicky Wang
 summary: Brazil's trade agency and Sebrae bring a national startup mission to Web Summit Lisbon, with a pavilion, training and investor meetings. How many companies come depends on who is counting.
-status: draft
+status: published
 story: S9
 beat: Announcements
 license: https://creativecommons.org/licenses/by/4.0/

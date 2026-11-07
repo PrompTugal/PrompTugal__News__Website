@@ -23,7 +23,7 @@
       body.dp-present .slide{display:none;margin:0;box-shadow:none} body.dp-present .slide.active{display:flex}
       body.dp-stack .deck{transform-origin:0 0;margin-top:60px} body.dp-stack{background:#2a2b2f}
       .dp-hint{position:fixed;right:16px;bottom:14px;color:#9a978f;font:400 12px/1 "IBM Plex Mono",monospace;z-index:20}
-      @media (max-width:760px){.dp-bar .wide,.dp-bar .brand{display:none}.dp-bar{gap:6px;padding:0 8px}.dp-bar select{max-width:104px;padding:0 6px}.dp-bar a,.dp-bar button{padding:0 8px}.dp-bar .n{min-width:44px}.dp-bar [data-a=full]{display:none}.dp-bar .dp-vote{padding:0 6px}.dp-hint{display:none}}
+      @media (max-width:760px){.dp-bar .wide,.dp-bar .brand{display:none}.dp-bar{gap:6px;padding:0 8px}.dp-bar select{display:none}.dp-bar a,.dp-bar button{padding:0 8px}.dp-bar .n{min-width:44px}.dp-bar [data-a=full]{display:none}.dp-bar .dp-vote{padding:0 6px}.dp-hint{display:none}}
       @media print{.dp-bar,.dp-hint{display:none} body.dp-stack .deck,body.dp-present .deck{margin:0!important;transform:none!important;position:static!important} body{height:auto!important} body.dp-present .slide{display:flex!important}}`
     const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st)
 
@@ -81,6 +81,8 @@
         else if (e.key === 'Home') go(0); else if (e.key === 'End') go(slides.length - 1)
         else if ((e.key === 'f' || e.key === 'F') && data) full(); else if ((e.key === 's' || e.key === 'S') && data) toggle()
     })
+    // a tap on the slide: the right half goes forward, the left half back (phones, where the arrows are small)
+    deck.addEventListener('click', e => { if (mode !== 'present' || e.target.closest('a,button,select,input')) return; go(cur + (e.clientX > innerWidth / 2 ? 1 : -1)) })
     let x0 = null
     addEventListener('touchstart', e => { x0 = e.touches[0].clientX }, { passive: true })
     addEventListener('touchend', e => { if (x0 === null || mode !== 'present') return; const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) go(cur + (dx < 0 ? 1 : -1)); x0 = null })

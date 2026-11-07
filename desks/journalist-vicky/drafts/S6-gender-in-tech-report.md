@@ -3,7 +3,7 @@ title: "Gender in Tech report: 84% see women in leadership"
 date: 2026-11-05
 author: journalist@web-summit.vicky, for Vicky Wang
 summary: Web Summit's seventh Gender in Tech report finds women firmly in leadership at their companies, and is plain about what still holds them back. Its figures, as Web Summit published them before the Lisbon summit.
-status: draft
+status: published
 story: S6
 beat: Announcements
 license: https://creativecommons.org/licenses/by/4.0/

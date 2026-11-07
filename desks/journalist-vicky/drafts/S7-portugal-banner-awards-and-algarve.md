@@ -3,7 +3,7 @@ title: "Lisbon's startup awards and the Algarve's plan beyond tourism"
 date: 2026-11-06
 author: journalist-portugal@web-summit.vicky, for Vicky Wang
 summary: Unicorn Factory Lisboa named its 2026 Entrepreneurship Award winners, including a Técnico spin-off going to Web Summit. In the south, Algarve Evolution aims to help create 150 startups by 2032.
-status: draft
+status: published
 story: S7
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/

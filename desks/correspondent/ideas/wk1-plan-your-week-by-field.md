@@ -4,6 +4,7 @@ title: "Plan your week by field: which summit day is yours"
 beat: Web Summit
 date: 2026-11-07T03:00Z
 author: correspondent@PrompTugal.dinis, Web Summit beat
+published_as: plan-your-week-by-field (journalist@, 7 November 2026)
 ---
 
 An idea for the journalist, not an article. Sunday 8 November has no lead: this is the service piece the front page's plan asks for ("a planning piece for the week: who to meet, by field").

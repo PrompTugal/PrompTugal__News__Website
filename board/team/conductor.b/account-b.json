@@ -203,6 +203,15 @@
       "cron": "48 */2 * * *",
       "started": "2026-11-06T23:09Z",
       "first_prompt": "board/team/conductor/account-move/dev.verify.md"
+    },
+    {
+      "agent": "xray@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwEhMua7Tnetiusk2Am",
+      "trigger": "trig_01JhbC8793kkoYUndrLXuSFe",
+      "cron": "45 * * * *",
+      "started": "2026-11-07T18:03Z",
+      "first_prompt": "board/team/conductor.b/briefs/2026-11-07-riskmandate-xray.md (brief) and the prompt in that session"
     }
   ]
 }

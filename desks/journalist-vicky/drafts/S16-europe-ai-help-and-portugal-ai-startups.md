@@ -4,7 +4,7 @@ date: 2026-11-06
 story: S16
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: The European Commission brings help on AI, data, EU funding and free supercomputing to Pavilion 4 at Web Summit. Portugal's Granter, an AI startup that helps firms win EU funding, and Técnico's robotics and spin-offs are among those it could suit.
-status: draft
+status: published
 beat: "Connections: Europe"
 license: https://creativecommons.org/licenses/by/4.0/
 tags: connections, europe, ai, eu-funding, hadea, eurohpc, granter, tecnico

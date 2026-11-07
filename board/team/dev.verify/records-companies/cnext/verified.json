@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "cnext",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/7650eb03-7f70-4275-a9c7-4dee4e4258e4/cnext",
+      "status": 200,
+      "read": true,
+      "chars": 1214
+    },
+    {
+      "url": "https://websummit.com/startups/featured-startups/",
+      "status": 200,
+      "read": true,
+      "chars": 5900
+    },
+    {
+      "url": "https://cnext.eu/",
+      "status": 200,
+      "read": true,
+      "chars": 5258
+    }
+  ],
+  "spent_usd": 0.0408,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Cnext.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Cnext",
+          "note": "The company's own website (cnext.eu) is titled 'Cnext', and the Web Summit listing (S1) also names it 'Cnext Belgium'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH Share Share on X Share on LinkedIn Copy link Cnext Belgium",
+          "note": "The source lists Cnext as one of the startup companies."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cnext",
+          "note": "The Web Summit attendee page identifies the company as Cnext."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.cnext.eu.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "https://cnext.eu/",
+          "note": "S3 is the Cnext site at cnext.eu (with hello@cnext.eu), but no source shows the www.cnext.eu address the claim gives, so the claim is only partly confirmed."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources state that the company's website is https://www.cnext.eu."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "https://cnext.eu/",
+          "note": "The source is the company's site at cnext.eu, but it does not show the www subdomain claimed."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Builds agentic AI solutions for European businesses on its own Kairos platform: secure, compliant agents grounded in business context and plugged into existing systems; 400+ solutions over almost 20 years.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "0 projects completed",
+          "note": "S3 supports the Kairos platform, the European focus, the security/EU-regulation framing, and 'nearly two decades', but never states '400+ solutions' and its project counter reads 0."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Every automation we implement runs on Kairos, our agentic AI platform built specifically for regulated industries.",
+          "note": "While the source mentions building AI solutions for European businesses on its Kairos platform over nearly two decades, it does not mention 400+ solutions or the exact description quoted."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Every automation we implement runs on Kairos, our agentic AI platform",
+          "note": "S3 supports European AI solutions on Kairos and nearly two decades, but it does not mention 400+ solutions or the exact grounded/plugged-in phrasing."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Belgium.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cnext Belgium",
+          "note": "The Web Summit listing for Cnext shows Belgium as its country, alongside the category AI & machine learning."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cnext Belgium AI & machine learning",
+          "note": "The Web Summit page lists Cnext under Belgium."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cnext Belgium",
+          "note": "S1 lists Cnext with Belgium as its country."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (startup (growth)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "GROWTH",
+          "note": "Cnext's Web Summit appearance page for Lisbon 2026 (lis26) shows the GROWTH category, and S2 also lists Cnext among the 2026 featured startups."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH Share Share on X Share on LinkedIn Copy link Cnext",
+          "note": "S1 confirms Cnext is listed as a Growth-level startup for Web Summit Lisbon 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "S1 is Cnext's Web Summit Lisbon 2026 page and lists Cnext under the GROWTH startup category."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

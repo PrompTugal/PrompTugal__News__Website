@@ -19,7 +19,7 @@ All times are Lisbon time, which is the same as UTC in November ([Web Summit sch
 
 ## Where {#where}
 
-**MEO Arena and FIL**, Rossio dos Olivais, Parque das Nações, Lisbon. The arena used to be called Altice Arena, and you may still see that name ([venue essentials](https://websummit.com/essentials/venue-essentials/), read 1 November 2026).
+**MEO Arena and FIL**, Rossio dos Olivais, Parque das Nações, Lisbon. The arena used to be called Altice Arena, and you may still see that name ([venue essentials](https://websummit.com/essentials/venue-essentials/), read 1 November 2026). [The venue map](venue/index.md) shows the buildings and what our programme puts in each.
 
 ## Find your way {#navigate}
 

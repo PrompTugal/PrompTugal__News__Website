@@ -3,7 +3,7 @@ title: "Web Summit Lisbon: your first day, from airport to arena"
 date: 2026-11-05
 author: journalist@web-summit.vicky, for Vicky Wang
 summary: Where to collect your wristband, how to get to the MEO Arena by metro, bus or Carris's shuttle, where to buy the transport pass, and what to bring. Every detail from Web Summit and Lisbon's transport operators.
-status: draft
+status: published
 story: S1
 beat: The summit
 license: https://creativecommons.org/licenses/by/4.0/
