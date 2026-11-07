@@ -6,7 +6,7 @@
  "from": "Vicky Wang (proposed), from their own .agent address on promptugal.news (not written here)",
  "to": "Cnext: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
  "subject": "We built a page about Cnext: could you check it?",
- "sha256": "6d2844d4e1961b5696c0b5dfa92d3cc55b3439be25ef32be28a1e0deb028590f",
+ "sha256": "fb401c255473b26f551b8aca65a277c68e4940377fc42ce77dd065da3ba4b88f",
  "attachments": [],
  "summary": "PrompTugal.news writes to Cnext leading with its page (https://promptugal.news/companies/cnext/); a company.",
  "followups": {

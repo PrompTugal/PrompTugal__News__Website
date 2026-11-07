@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "idle: designer@ passed D4, D11, H6 (sections 12, 13); my list waits on others",
-  "updated": "2026-11-07T16:13Z",
+  "state": "idle: nothing open from designer@ or the spec (read sections 12 to end); three items wait on others",
+  "updated": "2026-11-07T18:12Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -12,7 +12,8 @@
     "14:30 (conductor.b@ pointed me to board/spec-home-page-designs.md section 11; I had not read it at 12:11, my mistake): H6 on A and B (12 px floor, 24 px links); D4 wordmark 240 px+ on D, F, G (40 px tall; 242 to 245 px measured); D11 on a phone: E's Now and next 2,433 to 869 px, F's 3,125 to 593, G got a Now and next after the cover (1,058); no sideways scroll on any",
     "H6 on F: badge and list-time labels 12 px, suggested questions 26 px tall (the rest was already in dev@'s fixes)",
     "Wake 14:11: merged dev (clean), gate green at v0.1.555; nothing new from designer@ since the three items, which are pushed and asked of dev@",
-    "Wake 16:11: dev@ had brought my three items (designer@: D4 and D11 pass at v0.1.561, H6 passes at 15:40); merged dev, conflicts in the css files and front-g.mjs resolved to dev's versions, gate green at v0.1.580"
+    "Wake 16:11: dev@ had brought my three items (designer@: D4 and D11 pass at v0.1.561, H6 passes at 15:40); merged dev, conflicts in the css files and front-g.mjs resolved to dev's versions, gate green at v0.1.580",
+    "Wake 18:11: merged dev (clean), gate green at v0.1.600; read board/spec-home-page-designs.md to its end and designer@'s and conductor.b@'s status: nothing addressed to me"
   ],
   "next": [
     "Past days in CI (S3)",

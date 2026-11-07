@@ -5,7 +5,7 @@
   "title": "Plan your week by field: which summit day is yours",
   "beat": "Web Summit",
   "topic": null,
-  "status": "idea",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/correspondent/ideas/wk1-plan-your-week-by-field.md"
@@ -13,23 +13,48 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/correspondent/ideas/wk1-plan-your-week-by-field.md"
+      "desks/correspondent/ideas/wk1-plan-your-week-by-field.md",
+      "desks/journalist-promptugal/drafts/WK1-plan-your-week-by-field.md",
+      "desks/journalist-promptugal/checks/WK1.md",
+      "content/articles/plan-your-week-by-field.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.dinis",
   "needs": null,
   "held": null,
-  "draft": null,
-  "check": null,
+  "draft": "desks/journalist-promptugal/drafts/WK1-plan-your-week-by-field.md",
+  "check": "desks/journalist-promptugal/checks/WK1.md",
   "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "article": {
+    "path": "content/articles/plan-your-week-by-field.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-07T03:00Z",
       "by": "correspondent@PrompTugal.dinis",
       "file": "desks/correspondent/ideas/wk1-plan-your-week-by-field.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-07",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "desks/journalist-promptugal/drafts/WK1-plan-your-week-by-field.md"
+    },
+    {
+      "column": "fact-check",
+      "at": "2026-11-07",
+      "by": null,
+      "file": "desks/journalist-promptugal/checks/WK1.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-07",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "content/articles/plan-your-week-by-field.md"
     }
   ]
 }

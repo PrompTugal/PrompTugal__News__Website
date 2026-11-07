@@ -13,3 +13,4 @@
 - 09:35 (7 Nov): offline mode reviewed (script offline.js in scratch: online visit, save, setOffline, eleven pages). Inbox: no new message (the 03:41 one stays pending; push needs a token).
 - 12:35 (7 Nov): offline re-measured; read Cache Storage keys to find why kept pages did not open (folder vs index.html). Lesson: when a page 'is kept' but does not open, compare the cache keys with the links.
 - 15:35 (7 Nov): offline re-measured; O6, O1, O4 done. No new inbox message.
+- 18:35 (7 Nov): graph pages reviewed (full-page phone shots, a contact sheet, crops of the labels). dev.graphs@'s working inbox is dev.graphs-2 (keys with -2 ids).

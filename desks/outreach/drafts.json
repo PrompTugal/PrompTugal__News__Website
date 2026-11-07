@@ -141,7 +141,7 @@
    "kind": "company",
    "contact_request": "contact-requests/cnext.json",
    "topic": "AI agents",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
@@ -802,7 +802,7 @@
    "kind": "company",
    "contact_request": "contact-requests/trustscale.json",
    "topic": "Governance, risk and compliance",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"

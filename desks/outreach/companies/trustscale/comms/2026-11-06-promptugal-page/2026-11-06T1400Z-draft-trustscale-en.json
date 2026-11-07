@@ -6,7 +6,7 @@
  "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
  "to": "TrustScale: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
  "subject": "We built a page about TrustScale: could you check it?",
- "sha256": "04557703610360c09f149c6c8d1334061d121585a61903d05ba801a4f99b3ec3",
+ "sha256": "b65ccf75e19df4dae741c979540ae23bb56b13016c789ce80a6be842bd5af7f3",
  "attachments": [],
  "summary": "PrompTugal.news writes to TrustScale leading with its page (https://promptugal.news/companies/trustscale/); a company.",
  "followups": {
