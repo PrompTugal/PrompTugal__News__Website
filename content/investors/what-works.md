@@ -14,7 +14,7 @@ Every feature below is live. Try it before reading on: that is the pitch.
 ## For an attendee {#attendee}
 
 - **The summit's days** in time order and **a personal schedule** of the sessions you pick, kept in your own browser, not on our servers ([the summit](../../summit/index.html), [my day](../../my-day/index.html)).
-- **An iOS app,** made this week and submitted to the App Store (Dinis Cruz, 7 November 2026); until it is approved it runs on our own devices.
+- **An app for iPhone and iPad** ([ios.app.promptugal.news](https://ios.app.promptugal.news/), version 0.3.1, open source at [PrompTugal__App__iOS](https://github.com/PrompTugal/PrompTugal__App__iOS)): native, an internal beta used first by the team at Web Summit, built to put the news, the agenda and each person's day on the device, offline. Its own site counts 2 of 19 planned features built (read 7 November 2026); submitted to the App Store (Dinis Cruz).
 
 ## For a paying reader {#paying}
 

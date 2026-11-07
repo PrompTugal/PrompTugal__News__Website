@@ -71,7 +71,7 @@ function fillE(page, ctx) {
         '#week': many('week', wk), '#week_again': many('week', wk.map(w => ({ ...w, tab: ' tabindex="-1"' }))),
         '#briefing': many('brief', all.slice(5, 10).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) }))),
         '#stories': all.slice(1, 5).map(story).join(''),
-        '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)) }))),
+        '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),
         '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
         '#nums': many('num', [[ctx.store.companies.length, 'companies followed'], [week.length && [...Array(7).keys()].reduce((s, n) => s + itemsOn(plusDays(ctx.TODAY, n)).length, 0), 'events this week'], [signed, 'stories, signed'], ['9 to 12', 'November, Lisbon']].map(([value, label]) => ({ value, label }))),
         '#asks': many('ask', ['Which AI agent companies are at Web Summit?', 'What is on Tuesday for security?', 'Portuguese startups raising money'].map(q => ({ q: encodeURIComponent(q), text: esc(q) }))),

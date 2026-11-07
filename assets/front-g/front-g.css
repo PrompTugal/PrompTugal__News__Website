@@ -41,7 +41,7 @@
 .fg-s { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; align-items: center; padding: 8px 0; border-top: 1px solid rgba(255, 255, 255, .25); font: 600 15px/1.25 var(--serif); }
 .fg-th { position: relative; display: block; }
 .fg-th img { display: block; width: 64px; height: 64px; object-fit: cover; border-radius: 8px; background: #fff; }
-.fg-th i, .fg-fpic i { position: absolute; left: 2px; bottom: 2px; font: normal 500 8px var(--mono); background: rgba(18, 19, 23, .78); color: #fff; padding: 0 3px; border-radius: 2px; }
+.fg-th i, .fg-fpic i { position: absolute; left: 2px; bottom: 2px; font: normal 500 12px var(--mono); background: rgba(18, 19, 23, .78); color: #fff; padding: 0 3px; border-radius: 2px; }
 .fg-feat { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; background: var(--panel); border: 1px solid var(--hair); border-radius: 18px; padding: 18px; margin: 0 0 40px; }
 .fg-fpic { position: relative; display: block; }
 .fg-fpic img { display: block; width: 100%; height: auto; border-radius: 12px; }
@@ -76,3 +76,5 @@
 .fg-s2 h2 { color: #16131f !important; }
 .fg-s2 .fg-s { border-top-color: rgba(22, 19, 31, .25); }
 .fg-pb button { background: #16131f; color: #fffaf3; }
+
+.fg-hd nav a { display: inline-flex; align-items: center; min-height: 24px; }

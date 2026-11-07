@@ -29,7 +29,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-999 cards (999 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T00:59:57Z at site v0.1.395; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1008 cards (1008 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T03:58:37Z at site v0.1.430; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -41,15 +41,15 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 31 |
+| `PUB.SITE` | 40 |
 
 Newest five accessions:
 
-- `ACC-20261107-0015` [Morning edition: Saturday 7 November](https://promptugal.news/newsletter/2026-11-07-morning/) (`PUB.SITE 2026-11-07-morning`)
-- `ACC-20261107-0014` [Evening edition: Saturday 7 November](https://promptugal.news/newsletter/2026-11-07-evening/) (`PUB.SITE 2026-11-07-evening`)
-- `ACC-20261106-2929` [How we publish: PrompTugal.news's publish workflow](https://promptugal.news/how-we-publish/) (`PUB.SITE how-we-publish`)
-- `ACC-20261106-2910` [Junta de Freguesia do Parque das Nações](https://promptugal.news/organisations/junta-de-freguesia-do-parque-das-nacoes/) (`DAT.ORG junta-de-freguesia-do-parque-das-nacoes`)
-- `ACC-20261106-2794` [The daily newsletter](https://promptugal.news/newsletter/) (`PUB.SITE newsletter`)
+- `ACC-20261107-0216` [Investors: what works today](https://promptugal.news/investors/what-works/) (`PUB.SITE what-works`)
+- `ACC-20261107-0215` [Investors: what we think](https://promptugal.news/investors/thinking/) (`PUB.SITE thinking`)
+- `ACC-20261107-0214` [Investors: how to engage](https://promptugal.news/investors/rules-of-engagement/) (`PUB.SITE rules-of-engagement`)
+- `ACC-20261107-0213` [Investors: My Feeds, the idea PrompTugal runs](https://promptugal.news/investors/my-feeds/) (`PUB.SITE my-feeds`)
+- `ACC-20261107-0212` [Investors](https://promptugal.news/investors/) (`PUB.SITE investors`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
