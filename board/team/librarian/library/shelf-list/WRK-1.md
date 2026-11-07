@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T12:59:26Z"
-site_version: "v0.1.538"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T16:00:31Z"
+site_version: "v0.1.577"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 3)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-signed-in-views-17`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-signed-in-views-16`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -104,6 +104,7 @@ source: board/catalogue.json
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-offline-mode-9` | [Row 4 re-measured (15:35, v0.1.572): O6 and O1 done (Agenda, its event pages, News, Companies open offline with the copy's time); O4 done ('kept' beside kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-page-presentations-1` | [Slides built from the page's own data and escaped; no third-party script; nothing shown that the page does not already show](https://promptugal.news/board/passes/2026-11-06-page-presentations.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-past-summits-1` | [Public sources only; videos and slides linked, never copied (their owners' rights); people public and professional](https://promptugal.news/board/passes/2026-11-06-past-summits.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-privacy-first-1` | [True to the code, or not published: the browser asks ipapi.co or ipwho.is for its place, so those services see the reader's IP (S3); page views are counted,…](https://promptugal.news/board/passes/2026-11-06-privacy-first.md) | finding | conductor@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-signed-in-views-14` | [The sweep holds five secrets in one session (pool write key, enum key, its encryption key, the issuer key, the ledger key). Five agents printed their own…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-15` | [Running the sweep inside observability@'s hourly wake puts the page-view vaults and the vault-onboarding secrets in one session; better its own role key and…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-16` | [The ledger (lookup, reader fingerprints, mailbox id, door mode, time) is a record of every reader: private, sealed to Dinis, never published; the privacy page…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-signed-in-views-17` | [The kill switch is two steps, both written down before launch: N=0 stops new draws; revoking the pilot token (which only a dedicated token allows) stops vault…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)

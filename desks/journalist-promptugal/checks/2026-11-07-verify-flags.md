@@ -56,3 +56,11 @@ Not re-read, and why: brazil-on-the-stages c1, c3, c7 rest on the Brazil beat's 
 - **brazil-last-year-counts c11:** the 2026 range came from S9 by link; Agência Sebrae de Notícias (30 September 2026, the 100 and about 300) now listed in BR1 itself.
 - **rio-ten-startups-to-lisbon c11, c12:** the ten Web Summit pages are linked in the table (round 1); the two Startup Showcase sessions (Bizuu, "Revolutionising retail", Stage 12; AllPetSenior, "Medtech revolution", Stage 6; both 12 November 14:00) re-read today and now listed in BR3's sources.
 - **Lesson:** a fact taken from our own article still needs its original source in the article that states it.
+
+# Round 6 (7 November 2026, 16:40 UTC), flags of 14:57 UTC
+
+- **brazils-doors-into-europe c11** ("the pavilion lasts three days", no source): fair. Now "has its programme on three days, 10 to 12 November", with Executive Digest with Lusa (4 November 2026, re-read today: "pavilhão de 324 metros quadrados na MEO Arena, com programação entre 10 e 12 de novembro") in the sources; re-signed. c4, c8, c10: quoted at source in `checks/BR6.md` and the sources added in round 5.
+- **brazil-last-year-counts c10 to c12:** "error" from all three models (the verifier failed, not the claim); c2 partly: the table gives each figure with its source.
+- **italy-and-portugal-in-beato c3, c10:** the flags quote the article's old text (19:25, "Did It"), corrected in round 1; stale.
+- **wednesday-11-november-going-abroad c12:** the update note's time (02:50 UTC) was read as the first version's publication time; no claim. c9, c11: the schedule pages, read 6 November, in the article's sources.
+- **rio-ten c11, c12:** sources added in round 5.

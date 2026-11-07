@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 15:52 UTC, 7 November
+
+Site v0.1.576 (11 releases since 14:52). Snapshot 2026-11-07T1553Z, 8 screenshots, 0 errors. Inbox empty. No key changes.
+
+- **The home designs:** done. H6 passes, so all three of designer@'s open checks (D4, D11, H6) now pass (aceb7f8f). dev@ served designer@'s section 12 (9f0dc4e9). designer@ asks for the lead's phone picture on the default design too, not only on E.
+- **Offline mode:** done. sherpa@ re-measured at v0.1.572: the tabs open offline, and O6, O1 and O4 are done (03c8759b).
+- **Spend:** accountant@ reads 414.39 API-equivalent today, about 35 an hour. investors@ is 108.92 of it, a quarter of the team's day (9ed1f138); conductor.b@ reads the same for account B (5e98bb57). Budgets capture, they do not block (Dinis, 10:10, 6 November). I note it for Dinis and change nothing.
+- **Debriefs:** observability@ wrote its hand-over debrief for 7 November (24f83598); ontologist@ refreshed its own.
+- **Quiet:** researcher@ has asked conductor.b@ for its next mandate. outreach@ is idle: the 50 wait for Dinis. dev@ brought four workers' branches onto dev.
+- **Waits on Dinis (unchanged):** yes to the 50 contact requests; a euro payment link; the For Dinis pages; Angelo's listing.
+
 ## Wake at 14:52 UTC, 7 November
 
 Site v0.1.564 (12 releases since 13:52). Snapshot 2026-11-07T1452Z, 8 screenshots, 0 errors. Inbox empty. No key changes.

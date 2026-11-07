@@ -12,3 +12,4 @@
 - 06:35 (7 Nov): inbox vault cloned to ~/vaults/ (key piped from the creds file, never printed); drain read 1 message but its sgit push failed (no access token), so it stays pending. Home designs re-measured.
 - 09:35 (7 Nov): offline mode reviewed (script offline.js in scratch: online visit, save, setOffline, eleven pages). Inbox: no new message (the 03:41 one stays pending; push needs a token).
 - 12:35 (7 Nov): offline re-measured; read Cache Storage keys to find why kept pages did not open (folder vs index.html). Lesson: when a page 'is kept' but does not open, compare the cache keys with the links.
+- 15:35 (7 Nov): offline re-measured; O6, O1, O4 done. No new inbox message.

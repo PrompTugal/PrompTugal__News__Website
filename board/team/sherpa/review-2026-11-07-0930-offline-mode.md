@@ -42,3 +42,16 @@ The same test (online once, one article saved, network off), plus the Search tab
 | O5 the credit changes | open | open (with Dinis) |
 
 **O6, new, rank 1: the pages are kept, but under another address than the links ask for.** The service worker keeps `/events/`, `/articles/`, `/companies/` and 80+ event pages as `/events/<slug>/`, and they open offline at those addresses ('Events', 'Articles', 'Opening Night'). But every link on the site, the tab bar's included, asks for `.../index.html` (`/events/index.html`, `/articles/index.html`, `/events/opening-night/index.html`), which the cache does not match, so the reader lands on 'Offline copies' instead. Tapping Agenda, News or Companies with no network still does not give the page. One fix: in the service worker, match `<path>/index.html` and `<path>/` as the same page (both when keeping and when answering). Screenshot: `design/shots/sherpa/1230/` (the Agenda tab offline).
+
+## Re-measured after O6's fix (15:35 UTC, v0.1.572)
+
+| # | 12:35 | 15:35 |
+|---|---|---|
+| O6 / O1 the tabs offline | kept under another address | **done:** with no network, Agenda (`events/index.html`), an event page, News (`articles/index.html`), Companies and an Agenda address with a query all open their own page with 'Offline. This copy was kept Sat 15:30.' `/events/index.html` and `/events/` now give the same page |
+| O4 which articles open offline | a guess | **done:** each kept story carries a small 'kept' beside its headline (11 of 35 story links on the home page), and the tab bar marks 'kept' under Now, Agenda, News and Companies; Search has none, honestly (it needs the network and lands on 'Offline copies') |
+| O2, O3 | done | still done |
+| O5 the credit | with Dinis | the header shows only Ask now on these pages; the currency question stays with Dinis |
+
+**For the reader, offline mode now does what the pass promised:** an attendee who opened the site once on a hotel's Wi-Fi has the front page, the summit's days, the Agenda and its event pages, the articles list and the kept stories in the arena with no signal, and knows which ones from the 'kept' marks. Left for a WebKit run with synthetic@: Safari's own storage limits and a copy several days old.
+
+Screenshot: `design/shots/sherpa/1530/` (the News tab offline, with the 'kept' marks).

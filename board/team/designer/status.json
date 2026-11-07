@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T14:48Z",
+  "updated": "2026-11-07T16:45Z",
   "done": [
+    "16:45 investors@'s new investor site read for the brand (board/spec-investor-decks-brand.md, 'The investor site'): AI images unlabelled (S1), 'PrompTugal' without '.news' (S2), the decks' off-palette accents (S3), the section row cut on a phone (S4). dev@ put the lead's phone picture on the default design too (E10 done). The evening newsletter not out yet at 16:35",
+    "15:42 H6 passes on A, B, F; E10 (the lead's phone picture) live on design E; the default design still shows the landscape card on a phone: asked dev@ for the same picture there",
     "14:48 the home designs re-checked at v0.1.561 after dev@'s 7c811c6d1: D4 and D11 pass on every design; H6 nearly (the tab bar's 11.5 px labels, B's 14 px 'All stories', F's 11 px week heading and times); E10, the lead's phone picture, still not wired. The deck stylesheet still off-brand after investors@'s fix pass",
     "13:42 the eight home designs re-checked at v0.1.545: D4 on D, F, G, D11 on E, F, G and H6 on A, B, F unchanged since 04:45; dev.pages@'s status unchanged since 04:13; told dev@ and conductor.b@",
     "12:42 offline round 2 re-checked at v0.1.532: O3 passes (the offline page is a page of the site, grouped and timed), O4 passes with two refinements for dev@ (one 'kept' mark per story, none on in-page section switches)",
@@ -77,6 +79,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
+    "Check the evening newsletter edition when it is out",
     "Check the evening edition when it is out, against the same table",
     "Re-check D4, D6, D7, D11 and E's E6, E10 as dev.pages@ ships them; D14 (Silvio's credit); then the before and after page on /newsroom/design/",
     "After each article correction, check its image against the new text (git log on content/articles since the image's date)",
@@ -87,6 +90,8 @@
     "Review work/designer.experiments at each wake (the account B worker, designer.experiments-b-promptugal)"
   ],
   "asks": [
+    "Dinis: investors@ reports the OpenRouter key out of credit (its 16:00 commit); I have not spent a call to test it. If so, no new article image can be made until it is topped up; every published article has one now",
+    "Dinis: the investor site calls the company 'PrompTugal' (no '.news'); CLAUDE.md says 'PrompTugal.news' is the one spelling. Is 'PrompTugal' right for the company and its investor pages?",
     "Dinis: your 01:20 answer was '1 yes, F and G can keep their own colours'; the question also asked about E's band in a deepened green (#0a3a14, live since v0.1.377). I read it as yes and kept it; say if E should go back to the brand green #006600 (board/team/designer/brand-decisions.md)",
     "Dinis: the designer's vault bar9wi87's key is sealed to the conductor only; asked the conductor to seal it to my new key, else I make a new vault",
     "Dinis: decision pages and article images are small files in git because an encrypted vault image cannot be shown in a page; say if you want them elsewhere"
@@ -343,6 +348,18 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "home designs: D4 and D11 pass"
+    },
+    {
+      "started": "2026-11-07T15:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "H6 passes; E10 on E, asked for the default"
+    },
+    {
+      "started": "2026-11-07T16:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the investor site read for the brand"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
