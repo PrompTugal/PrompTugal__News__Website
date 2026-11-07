@@ -27,7 +27,7 @@ const css = `${TOK}
 .frame{max-width:var(--page);margin:0 auto;padding:22px var(--gutter) 40px}
 .kick{font:600 11px var(--mono);letter-spacing:.14em;color:var(--brand-red)}h1{font:700 var(--fs-h1)/1.1 var(--serif);margin:.2em 0}.dek{font-size:var(--fs-dek);color:var(--ink-2)}
 h2{font:700 1.3em var(--serif)}.fig{margin:1.2em 0}.img{background:var(--paper-2);border:1px solid var(--rule);height:260px;display:grid;place-items:center;font:12px var(--mono);color:var(--ink-3)}figcaption{font:12px var(--mono);color:var(--ink-3)}
-.b header,.b>p,.b>h2{max-width:var(--measure);margin-left:auto;margin-right:auto}.b h1{text-align:center}
+.b header,.b>p{max-width:var(--measure);margin-left:auto;margin-right:auto}.b>h2{max-width:calc(var(--measure) / 1.3);margin-left:auto;margin-right:auto}.b h1{text-align:center}
 .c{display:grid;grid-template-columns:minmax(0,var(--measure)) minmax(0,1fr);gap:48px}.c .rail{border-left:1px solid var(--rule);padding-left:24px;font:14px var(--sans)}.c h3{font:600 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}.c ul{padding:0;list-style:none}.c li{padding:6px 0;border-bottom:1px solid var(--rule-2)}
 @media(max-width:767px){.c{grid-template-columns:1fr;gap:16px}.c .rail{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:12px}.img{height:160px}}
 section.v{border-top:10px solid var(--ink);margin-top:24px}section.v h2.t{max-width:var(--page);margin:0 auto;padding:12px var(--gutter) 0;font:700 14px var(--mono)}`
