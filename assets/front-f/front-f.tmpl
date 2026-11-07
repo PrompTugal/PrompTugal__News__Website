@@ -1,0 +1,36 @@
+<!-- F, "Signal" (Silvio's mock F, design@web-summit.silvio): dense, ranked, AI-native. Filled from data by
+     newsroom/build/features/front-f.mjs (newsroom/build/lib/home.mjs, the model every design shares). The look: front-f.css.
+     One of the home page's designs (assets/design/, ?design=f). -->
+<!-- part:page -->
+<div class="ff pt-design" data-design-of="f">
+<div class="ff-glow"><div class="ff-w">
+<header class="ff-hd"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a><nav aria-label="Sections">{{#nav}}</nav></header>
+<section class="ff-hero"><div><p class="ff-pill0">✦ An AI newsroom with human editors · every fact sourced and signed</p><h2 class="ff-h1">What matters in AI in Portugal, <span>right now.</span></h2><p class="ff-sub">The companies, the people and the sessions at Web Summit Lisbon, ranked, sourced and explained.</p></div>
+<div><form class="ff-pb" role="search" action="search/index.html" method="get"><span class="ff-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form><p class="ff-pcs">{{#asks}}</p>
+<p class="ff-stats">{{#stats}}<span data-countdown-at="{{opening_at}}"><b data-cd>{{opening_in}}</b>to Opening Night</span></p></div></section>
+</div></div>
+<section class="ff-live" aria-label="This week"><h2 class="visually-hidden">This week</h2><div class="ff-tk" tabindex="0" aria-label="This week, scrolling; hover or focus to pause"><div class="ff-tk-in"><ul>{{#week}}</ul><ul aria-hidden="true">{{#week_again}}</ul></div></div></section>
+<div class="ff-w"><div class="ff-g">
+<section class="ff-main"><h2 class="visually-hidden">The top story</h2>{{lead}}
+<h2 class="ff-h">Top signals today <a href="articles/index.html">All {{count}}</a></h2><ol class="ff-rk">{{#ranked}}</ol></section>
+<section class="ff-more"><h2 class="ff-h">More stories <a href="articles/index.html">All</a></h2><div class="ff-cards">{{#cards}}</div></section>
+<aside class="ff-side"><div class="ff-box"><p class="ff-bh"><b>✦ The companies we follow</b><span>by field</span></p>{{#radar}}<p class="ff-lnk"><a href="companies/index.html">All companies</a></p></div>
+<div class="ff-box"><p class="ff-bh"><b>In Lisbon this week</b><a href="events/index.html">Agenda</a></p><ul class="ff-tl">{{#next}}</ul></div></aside>
+</div></div>
+</div>
+<!-- part:lead -->
+<article class="ff-lead">{{figure}}<div><span class="ff-chip">Top story</span><h3><a href="{{href}}">{{headline}}</a></h3><p>{{dek}}</p>{{pill}}</div></article>
+<!-- item:figure --><a class="ff-pic" href="{{href}}" tabindex="-1">{{picture}}<span>AI-made</span></a>
+<!-- item:picture --><picture><source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
+<!-- item:mark --><mark>{{text}}</mark>
+<!-- item:pill --><span class="ff-badge" title="{{title}}">{{text}}</span>
+<!-- item:nav --><a href="{{href}}"{{cur}}>{{label}}</a>
+<!-- item:stat --><span><b>{{value}}</b>{{label}}</span>
+<!-- item:week --><li><a href="{{href}}"{{tab}}><time datetime="{{date}}">{{when}}</time> {{what}}</a></li>
+<!-- item:rank --><li><div><span class="ff-chip">{{beat}}</span><h3><a href="{{href}}">{{title}}</a></h3></div>{{thumb}}</li>
+<!-- item:card --><article class="ff-card">{{thumb}}<div><span class="ff-chip">{{beat}}</span><h3><a href="{{href}}">{{title}}</a></h3></div></article>
+<!-- item:thumb --><a class="ff-pic" href="{{href}}" tabindex="-1">{{picture}}<span>AI-made</span></a>
+<!-- item:radar --><a class="ff-rr" href="{{href}}"><span>{{name}}</span><i><u style="width:{{pct}}%"></u></i><code>{{n}}</code></a>
+<!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a></li>
+<!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
+<!-- end -->

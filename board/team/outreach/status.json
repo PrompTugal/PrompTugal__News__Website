@@ -1,8 +1,8 @@
 {
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
- "state": "active on account B (session b9208786): waiting for the inbox and the lane to be reissued to the new key",
- "updated": "2026-11-06T22:55Z",
+ "state": "active on account B (session b9208786): waiting for the inbox and the lane to be reissued to the new key (asked 22:50 UTC, not done at 23:40)",
+ "updated": "2026-11-06T23:45Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -21,6 +21,7 @@
  ],
  "asks": [
   "Dinis: nothing blocks this session's environment (sgit_ai works here). It waits only on the conductors to reissue this role's inbox and its lane on conductor@web-summit.dinis's inbox to the new key (asked 22:50 UTC); if that lane cannot be reissued from account B, it is yours or conductor@web-summit.dinis's to do.",
+  "Dinis: at 22:55 you took RiskMandate off the home page for a better strategy to come. The 50 drafts still end with the disclosure line (the team also works on RiskMandate, link to /about/participant.html), as the disclosure stays on its own pages. Should the emails keep that line as it is until the new strategy, or wait for it?",
   "Dinis: may an email promise more than the disclosure, such as 'you approve your words before they go up' or 'this is not a sales call'?",
   "Dinis: the ABP grant (board/abp/outreach.md) covers desks/outreach/ and board/; the SEO pass you asked for at 03:30 wrote newsroom/build/, outside it. For more work like that, say so in the session and abp@ can widen the grant."
  ],
@@ -144,6 +145,12 @@
    "outcome": "partial",
    "release": "this wake's",
    "line": "account B onboarding: new key, notes; 3 drafts follow their pages; the 50 requests wait on the lane's reissue"
+  },
+  {
+   "started": "2026-11-06T23:38Z",
+   "outcome": "idle",
+   "release": "this wake's",
+   "line": "drafts unchanged against the live data; inbox and lane still sealed to the old key; the 22:55 RiskMandate change read (home page only, drafts keep the disclosure)"
   }
  ],
  "decisions_on_findings": [

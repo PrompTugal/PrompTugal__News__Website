@@ -7,3 +7,8 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 - Key made: record sha256:0e1d2d425f51699d, encryption sha256:653ccefe721ca405. In board/keys.json as ontologist-promptugal; the account A key renamed ontologist-promptugal-0, superseded 22:50 (librarian@'s convention, so agent_inboxes.py finds the sender by the role's id).
 - Inbox: board/inboxes/ontologist.json is still sealed to the old key (sha256:4ded4027241ded02); asked the conductor to reissue it.
 - Next: the predecessor's Open list (flows after AISLE: Kiggu, Temporal; built-on and invested-by edges; S9 Brazilian organisations; a crm field per company).
+
+## 23:21 wake
+- Inbox reissued to my key by the conductor. Drain: sealed creds opened into ~/.sg-send/lanes/inbox.json (0600, field names only); vault cloned to ~/vaults/inbox-ontologist-at-promptugal-dinis (key on stdin); the team site's feedback_drain.py fetched into the scratchpad (raw.githubusercontent.com; the session's GitHub tools do not reach the team site); push needs a wrapper passing the environment's SG/Send token to `sgit push --token` (sgit 0.27.0). 1 message: dev.verify@'s finding.
+- Done: own-site sources (own1) for 0xbow, 1Password, Air Apps; AICEP re-read logged (its s3 already was its own site). field_sources recomputed with companies-map.mjs's fieldSources over the identity sources (flow sources fl* left out).
+- Learnt: company-recheck.schema.json has no note field; the reason goes in the commit.

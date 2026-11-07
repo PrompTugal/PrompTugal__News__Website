@@ -1,0 +1,36 @@
+/* The home page's designs (assets/design/): <html data-design="<id>"> (design.js) shows one. "today" (the default) is
+   the page as it was: its top and body. Any other shows its own layout (.pt-design[data-design-of]) in their place.
+   The picker's look is Silvio's lab toggle (people/silvio/lab/design.css), in the brand's tokens. */
+.pt-design { display: none; }
+html[data-design="a"] .pt-design[data-design-of="a"], html[data-design="b"] .pt-design[data-design-of="b"],
+html[data-design="c"] .pt-design[data-design-of="c"], html[data-design="d"] .pt-design[data-design-of="d"],
+html[data-design="e"] .pt-design[data-design-of="e"], html[data-design="f"] .pt-design[data-design-of="f"],
+html[data-design="g"] .pt-design[data-design-of="g"] { display: block; }
+html[data-design]:not([data-design="today"]) .page-front :is(.ctop, .ctop-tagline, .dateline, header.mast, nav.site, .frame .body) { display: none !important; }
+html[data-design]:not([data-design="today"]) .page-front .frame { padding-top: 0; }
+
+.ptd-btn { position: fixed; right: 16px; bottom: 16px; z-index: 60; display: inline-flex; align-items: center; gap: 4px; font: 500 14px/1 var(--sans); color: var(--ink); background: var(--panel); border: 1px solid var(--rule-2); border-radius: 999px; padding: 11px 16px; box-shadow: 0 2px 6px rgba(20, 30, 50, .08), 0 10px 30px rgba(20, 30, 50, .14); cursor: pointer; }
+.ptd-btn:hover { border-color: var(--brand); }
+.ptd-btn b { font-weight: 600; }
+.ptd-spark { color: var(--brand); }
+@media (max-width: 1099px) { html[data-top="c"] .ptd-btn { bottom: calc(76px + env(safe-area-inset-bottom)); } }
+.ptd-sheet { position: fixed; inset: 0; z-index: 70; background: rgba(15, 22, 30, .42); display: flex; align-items: flex-end; justify-content: center; padding: 16px; }
+.ptd-sheet[hidden] { display: none; }
+.ptd-box { background: var(--paper); color: var(--ink); width: 100%; max-width: 1040px; max-height: calc(100vh - 32px); overflow: auto; border-radius: 18px; padding: 20px 22px 24px; box-shadow: 0 20px 60px rgba(0, 0, 0, .25); font-family: var(--sans); }
+.ptd-head { display: flex; justify-content: space-between; align-items: center; }
+.ptd-head h2 { margin: 0; padding: 0; border: 0; font: 600 22px var(--serif); text-transform: none; letter-spacing: normal; }
+.ptd-x { border: 0; background: var(--paper-2); color: var(--ink); width: 34px; height: 34px; border-radius: 50%; font-size: 22px; line-height: 1; cursor: pointer; }
+.ptd-sub { margin: 4px 0 16px; color: var(--ink-3); font-size: 14px; }
+.ptd-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.ptd-card { display: block; text-decoration: none; color: inherit; border: 1px solid var(--hair); border-radius: 14px; overflow: hidden; background: var(--panel); transition: transform .15s, box-shadow .15s; }
+.ptd-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(20, 30, 50, .12); }
+.ptd-card[aria-current] { border: 2px solid var(--brand); }
+.ptd-pic { display: block; aspect-ratio: 4 / 3; background: var(--paper-2); overflow: hidden; }
+.ptd-pic img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.ptd-today { display: flex; height: 100%; align-items: center; justify-content: center; font: italic 600 26px var(--serif); color: var(--ink-3); }
+.ptd-t { display: block; padding: 10px 12px 12px; }
+.ptd-t b { display: block; font-size: 14px; }
+.ptd-t small { display: block; color: var(--ink-3); font-size: 12px; margin-top: 2px; }
+@media (max-width: 760px) { .ptd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .ptd-box { padding: 16px; } }
+@media (prefers-reduced-motion: reduce) { .ptd-card { transition: none; } }
+@media print { .ptd-btn, .ptd-sheet { display: none; } }

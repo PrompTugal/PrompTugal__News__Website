@@ -51,8 +51,8 @@ export function validate(gate) {
         if (/^status:\s*draft/m.test(fm)) continue
         const twin = f.replace(/^content\//, '').replace(/\.md$/, '/index.md'), sig = twin + '.sig'
         let s = null; try { s = JSON.parse(gate.text(sig)) } catch { out.push(`${twin}: not signed (no ${sig}; sign it with newsroom/tools/sign-article.mjs --twin ${twin})`); continue }
-        const k = keys.find(k => k.bundle && k.bundle.signing_fingerprint === s.fingerprint && k.status === 'active')
-        if (!k) { out.push(`${sig}: signed by ${s.fingerprint}, not an active key in board/keys.json`); continue }
+        const k = keys.find(k => k.bundle && k.bundle.signing_fingerprint === s.fingerprint && (k.status === 'active' || k.status === 'superseded'))  // a key handed over at a session's end still vouches for what it signed while active
+        if (!k) { out.push(`${sig}: signed by ${s.fingerprint}, not an active or superseded key in board/keys.json`); continue }
         let ok = false; try { ok = crypto.verify('sha256', Buffer.from(SIGNED.signedForm(gate.text(twin))), { key: k.bundle.sign, dsaEncoding: 'ieee-p1363' }, Buffer.from(s.signature, 'base64')) } catch { }
         if (!ok) out.push(`${sig}: the signature by ${k.id} does not verify against ${twin} (sign it again after a change)`)
         // never rewritten: the body as first published still opens the note

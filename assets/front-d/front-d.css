@@ -1,0 +1,55 @@
+/* D, "The Brief" (Silvio's mock D): one column to read in two minutes, in the brand v2.0 tokens (assets/tokens.css).
+   Shown when <html data-design="d"> (assets/design/). The column sits in the site's frame, so the width never jumps. */
+.fd { font-family: var(--serif); color: var(--ink); }
+.fd a { color: inherit; text-decoration: none; }
+.fd a:hover, .fd a:focus-visible { text-decoration: underline; text-underline-offset: 3px; }
+:where(.fd) :is(h2, h3) { border: 0; padding: 0; margin: 0; text-transform: none; letter-spacing: normal; font-family: var(--serif); }
+.fd ul, .fd ol { margin: 0; padding: 0; }
+.fd-w { max-width: 680px; margin: 0 auto; padding: 20px var(--gutter) 40px; box-sizing: border-box; }
+.fd-hd { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 0 12px; }
+.fd-hd .wordmark { height: 30px; width: auto; }
+.fd-sub { font: 600 13px var(--sans); background: var(--brand); color: var(--on-brand) !important; padding: 9px 14px; border-radius: 8px; }
+.fd-date { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font: 12px var(--mono); color: var(--ink-3); border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); padding: 8px 0; margin: 0 0 22px; }
+.fd-date b { color: var(--brand); font-weight: 600; }
+.fd-intro { font-size: 21px; line-height: 1.45; margin: 0 0 24px; }
+.fd-intro::first-letter { float: left; font: 600 64px/.8 var(--serif); color: var(--brand-red); margin: 6px 8px 0 0; }
+.fd-k { font: 700 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--brand-red); margin: 0 0 4px; }
+.fd-hed { font: 600 34px/1.12 var(--serif) !important; letter-spacing: -.01em !important; margin: 0 0 14px !important; }
+.fd-hed mark { background: linear-gradient(transparent 70%, var(--brand-soft) 70%); color: inherit; }
+.fd-fig { margin: 0 0 14px; }
+.fd-fig img { display: block; width: 100%; height: auto; border: 1px solid var(--hair); border-radius: 8px; }
+.fd-fig figcaption { font: 500 10.5px var(--mono); color: var(--ink-3); text-align: right; padding-top: 4px; }
+.fd-why { border-left: 3px solid var(--brand); background: var(--panel); padding: 10px 14px; margin: 0 0 14px; }
+.fd-why p { font: 600 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--brand); margin: 0 0 4px; }
+.fd-why b { font-weight: 700; }
+.fd-why ul { padding-left: 18px; }
+.fd-why li { font-size: 17px; line-height: 1.45; margin: 2px 0; }
+.fd-dek { font-size: 17px; color: var(--ink-2); margin: 0 0 12px; }
+.fd-read { font: 600 14px var(--sans); margin: 0 0 22px; }
+.fd-read a { color: var(--brand); }
+.fd-pill { display: inline-block; font: 500 11px var(--mono); color: var(--brand); border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; margin-left: 6px; white-space: nowrap; }
+.fd-pb { display: flex; align-items: center; border: 1px solid var(--rule-2); border-radius: 14px; background: var(--panel); overflow: hidden; }
+.fd-pr { font: 600 15px var(--mono); color: var(--brand); padding: 0 4px 0 14px; }
+.fd-pb input { flex: 1; min-width: 0; border: 0; padding: 14px 8px; font: 16px var(--sans); background: transparent; color: var(--ink); }
+.fd-pb button { border: 0; background: var(--brand); color: var(--on-brand); border-radius: 10px; margin: 5px; font: 600 15px var(--sans); padding: 0 18px; align-self: stretch; cursor: pointer; }
+.fd-pcs { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0 0; }
+.fd-pcs a { font: 13px var(--sans); border: 1px solid var(--hair); background: var(--panel); border-radius: 999px; padding: 4px 12px; color: var(--ink-3); }
+.fd-h { font: 800 12px var(--sans) !important; letter-spacing: .14em !important; text-transform: uppercase !important; border-top: 3px solid var(--rule) !important; padding-top: 10px !important; margin: 34px 0 6px !important; }
+.fd-art { display: grid; grid-template-columns: minmax(0, 1fr) 96px; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--hair); }
+.fd-art h3 { font: 600 20px/1.2 var(--serif); margin: 0 0 4px; }
+.fd-art p { margin: 0; color: var(--ink-2); font-size: 15px; line-height: 1.4; }
+.fd-art .fd-k { margin: 0 0 2px; }
+.fd-thumb { position: relative; display: block; align-self: start; }
+.fd-thumb img { display: block; width: 100%; height: auto; border: 1px solid var(--hair); }
+.fd-thumb span { position: absolute; left: 3px; bottom: 3px; font: 500 9px var(--mono); background: rgba(18, 19, 23, .78); color: #fff; padding: 1px 4px; border-radius: 3px; }
+.fd-five { list-style: none; counter-reset: n; }
+.fd-five li { counter-increment: n; display: grid; grid-template-columns: 36px 1fr; padding: 10px 0; border-bottom: 1px solid var(--hair); font-size: 17px; line-height: 1.3; }
+.fd-five li::before { content: counter(n); font: 700 26px/1 var(--serif); color: var(--brand); grid-row: span 2; }
+.fd-five small { display: block; font: 12px var(--sans); color: var(--ink-3); margin-top: 3px; }
+.fd-more { font: 500 13px var(--sans); color: var(--ink-3); margin: 10px 0 0; }
+.fd-more a { color: var(--brand); text-decoration: underline; }
+.fd-nl { margin-top: 30px; background: var(--paper-2); border-radius: 12px; padding: 18px 20px; }
+.fd-nl h3 { font: 600 20px var(--serif); margin: 0 0 4px; }
+.fd-nl p { margin: 0 0 10px; color: var(--ink-2); font-size: 15px; }
+.fd-nl a { font: 600 14px var(--sans); color: var(--brand); text-decoration: underline; }
+@media (max-width: 600px) { .fd-hed { font-size: 27px !important; } .fd-intro { font-size: 18px; } .fd-date span:last-child { display: none; } .fd-pcs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } .fd-pcs a { flex: 0 0 auto; } }
