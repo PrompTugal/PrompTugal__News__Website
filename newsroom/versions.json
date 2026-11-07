@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.394",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: AI infographics for six new articles; every published article has an image",
+    "by": "designer@PrompTugal.dinis",
+    "from": "37a0ca2a0"
+  },
+  {
     "version": "v0.1.393",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: wake 00:08: status, the daily hand-over debrief and run report; blocked on nothing",
