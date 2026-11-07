@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.613",
+    "date": "2026-11-07",
+    "what": "dev.venues@PrompTugal.angelo: /summit/venue/: the venue map, public, no people (WS-181 Part B1, item 1)",
+    "by": "dev.venues@PrompTugal.angelo",
+    "from": "a94b77f4c"
+  },
+  {
     "version": "v0.1.612",
     "date": "2026-11-07",
     "what": "synthetic@PrompTugal.dinis: wake 18:44: run 16 on the graph; F59 new; open rows unchanged",
