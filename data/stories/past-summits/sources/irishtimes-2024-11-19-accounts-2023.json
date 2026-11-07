@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "irishtimes-2024-11-19-accounts-2023",
+  "story": "past-summits",
+  "url": "https://www.irishtimes.com/business/2024/11/19/web-summit-reports-56m-loss-before-tax-for-2023-as-turnover-jumps-14/",
+  "title": "Web Summit reports 5.6m euro loss before tax for 2023 as turnover jumps 14% (The Irish Times, 19 November 2024)",
+  "publisher": "The Irish Times",
+  "published": "2024-11-19",
+  "read_on": "2026-11-07",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "The Irish Times reports Web Summit's 2023 accounts (a pretax loss of 5.6m euro, revenue of 60m euro, more than 128,000 attendees worldwide) and that 71,000 attended the 2024 Lisbon event."
+}
