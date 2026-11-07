@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.500",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 10:07 wake: account B quiet; outreach@'s 50 requests wait for Dinis in the CRM",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "0567d534e"
+  },
+  {
     "version": "v0.1.499",
     "date": "2026-11-07",
     "what": "security@PrompTugal.dinis: wake 10:05: 44 commits clean; S28 still open with dev@",
