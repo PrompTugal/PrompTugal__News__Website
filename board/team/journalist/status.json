@@ -57,7 +57,8 @@
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
     "Dinis: register with the ERC, and who applies for the press pass? https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/",
     "Dinis: About and the participant disclosure need rewriting on your decisions (the publisher is The Cyber Boardroom, prices in pounds; synthetic F06 and F21), as the conductor asks, but content/about/ is outside this desk's grant (board/abp/journalist.md). Add content/about/** to the grant, or name who rewrites them.",
-    "Dinis: the inbox drain (unchanged): messages are read and checked, but cannot be marked processed without SG_SEND_ACCESS_TOKEN on sgit's command line; security@'s S19 is open for you. Say whether agents may use it for their own inboxes."
+    "Dinis: the inbox drain (unchanged): messages are read and checked, but cannot be marked processed without SG_SEND_ACCESS_TOKEN on sgit's command line; security@'s S19 is open for you. Say whether agents may use it for their own inboxes.",
+    "Dinis (for abp@ too): twice today the ABP hook logged, in this session's run reports, tool calls the session did not make (ScheduleWakeup at 06:30:46 UTC; the Claude Docs connector's guide at 12:29:36 UTC). Notes: board/team/journalist/sessions/session_01Kw9UwCxr1fJ8bZkc1LPDch/README.md. If the harness makes calls on a session's behalf, the run reports count them as the agent's attempts."
   ],
   "wakes": [
     {
