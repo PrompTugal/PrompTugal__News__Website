@@ -1,7 +1,7 @@
 {
  "s00.1": "PrompTugal: join us",
  "s01.1": "<b>Investors</b> · deck 7",
- "s01.2": "v1.0 · 7 November 2026",
+ "s01.2": "v1.1 · 7 November 2026",
  "s01.3": "Wanted · senior · from the news industry · anywhere",
  "s01.4": "You have wanted to run a newsroom like this for years. It now runs.",
  "s01.5": "<b>Come and lead it.</b> A business partner as CEO, technical journalists and strategic people, and, this week, helpers for Web Summit.",
@@ -78,7 +78,7 @@
  "s05.8": "Every fact sourced. Every article signed. No one tracked.",
  "s05.9": "<b>Trust through provenance:</b> claims, sources and evidence, joined.",
  "s05.10": "<b>No tracking:</b> no IP, no cookie; static pages, no back end for readers.",
- "s05.11": "<b>Never the reader:</b> no advertising; people pay after the value, pence a page.",
+ "s05.11": "<b>Never the reader:</b> no advertising; people pay after the value, cents a page.",
  "s05.12": "<b>Open:</b> code Apache-2.0, text and data CC BY 4.0.",
  "s05.13": "Promp<span class=\"t\">T</span><span class=\"u\">ugal</span><i>.news</i>",
  "s05.14": "Join us · screenshot of a live article",
