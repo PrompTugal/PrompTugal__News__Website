@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.393",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 00:08: status, the daily hand-over debrief and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "12d437464"
+  },
+  {
     "version": "v0.1.392",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
