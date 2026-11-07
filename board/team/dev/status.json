@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 01:08 done; v0.1.395 and a queued release",
-  "updated": "2026-11-07T01:35Z",
+  "state": "running on account B; wake 02:08 done (v0.1.409)",
+  "updated": "2026-11-07T02:30Z",
   "done": [
+    "Wake 02:08: inbox drained (designer@ x2); F and G in Silvio's colours with the contrast fixes (Dinis 01:20, as recorded in board/team/designer/brand-decisions.md); Silvio credited in the picker and the home agent block (D14); dev.search brought; live v0.1.409.",
     "Wake 01:08: inbox drained (synthetic@'s re-measure); dev.verify brought; dev.pages held (only leftovers it was told to drop); synthetic@'s F28: every article links its signature, plain text and keys (1bcfd7a0).",
     "A slip, fixed: my 00:40 review of work/dev.data brought outreach@'s 112 superseded drafts (no addresses) onto dev; removed in v0.1.394; review.sh never brings desks/ again; outreach@ and dev.data@ told.",
     "Wake 00:08 (account B): inbox drained (sherpa@'s phone review); N1, E1, E2 fixed (v0.1.391); five worker branches reviewed and brought (dev.data, dev.graphs, dev.portugal, dev.search, dev.verify; v0.1.392); the daily debrief.",
