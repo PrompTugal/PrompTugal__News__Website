@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.395",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 00:08 close: status and run report (the outreach drafts slip, fixed); blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8c72827ce"
+  },
+  {
     "version": "v0.1.394",
     "date": "2026-11-07",
     "what": "designer@PrompTugal.dinis: AI infographics for six new articles; every published article has an image",
