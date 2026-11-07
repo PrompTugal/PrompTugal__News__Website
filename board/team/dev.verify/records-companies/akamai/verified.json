@@ -1,0 +1,173 @@
+{
+  "$schema": "none",
+  "article": "akamai",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/610a96ea-3d4e-43c1-91d1-2ff8fe4e8d87/akamai",
+      "status": 200,
+      "read": true,
+      "chars": 1225
+    },
+    {
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "status": 200,
+      "read": true,
+      "chars": 3082
+    }
+  ],
+  "spent_usd": 0.0172,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Akamai.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Akamai United States Telecommunications & IT",
+          "note": "The S1 page is titled 'Akamai' and lists Akamai as the company, and S2 also lists 'Akamai' among the partner companies."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Meet the world-leading companies joining us at Web Summit 2026 Google Cloud Google Cloud AI & machine learning Meta Platforms, Inc. Meta Platforms, Inc. Advertising, content & marketing Apple Apple Telecommunications & IT Atlassian Atlassian SaaS Intel Corporation Intel Corporation Hardware, robotics & IoT IBM IBM AI & machine learning Spotify Spotify Entertainment & media Lenovo Lenovo Industrials, manufacturing & consumer goods Qualcomm Qualcomm AI & machine learning TikTok TikTok Advertising, content & marketing Booking.com Booking.com Travel & hospitality Datadog Datadog SaaS 1Password 1Password Security Replit Replit AI & machine learning Twilio Twilio Telecommunications & IT Akamai",
+          "note": "The source identifies Akamai as one of the companies participating in Web Summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Akamai",
+          "note": "Source S1 identifies the company as Akamai."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.akamai.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source gives Akamai's website address; they only list Akamai as a Web Summit attendee and partner, so the akamai.com URL cannot be confirmed from them."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither provided source mentions the company's specific website URL."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources mention Akamai as an attendee/partner but do not state its website URL."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Cloud company that powers and protects AI applications: cloud computing from core to edge plus multi-layered security against cyber threats.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source contains the claimed self-description; they only list Akamai as a Telecommunications & IT company at Web Summit, with no statement about powering and protecting AI applications."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither of the provided sources contains the description of Akamai as a cloud company that powers and protects AI applications."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources only list Akamai under Telecommunications & IT and do not include the claimed self-description."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Akamai United States",
+          "note": "The Web Summit profile for Akamai lists 'United States' directly after the company name, which indicates its listed country."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Akamai United States",
+          "note": "The company profile for Akamai lists its country as United States."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Akamai United States",
+          "note": "The source lists Akamai with United States as its country."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (partner).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Meet the world-leading companies joining us at Web Summit 2026",
+          "note": "S2 lists Akamai among the event partners for Web Summit 2026, and S1 is Akamai's Web Summit Lisbon 2026 ('lis26') page tagged 'PARTNER', though the sources only imply the Lisbon location through that URL and site navigation."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "https://websummit.com/appearances/lis26/610a96ea-3d4e-43c1-91d1-2ff8fe4e8d87/akamai",
+          "note": "Akamai is listed under the lis26 (Web Summit Lisbon 2026) appearances directory with the designation 'PARTNER'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all partners PARTNER",
+          "note": "The Akamai page for Web Summit Lisbon 2026 is labeled as a partner."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
