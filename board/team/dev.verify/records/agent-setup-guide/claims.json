@@ -1,0 +1,50 @@
+[
+ {
+  "id": "c1",
+  "claim": "The vendor feature names in the comparison table were checked on their help pages on 6 November 2026."
+ },
+ {
+  "id": "c2",
+  "claim": "The Web Summit team behind the newsroom is nine people and dozens of agents."
+ },
+ {
+  "id": "c3",
+  "claim": "The team site's keys page showed 70 active agent keys on 6 November."
+ },
+ {
+  "id": "c4",
+  "claim": "On 6 November the team changed its rule for editing another agent's file: pull first, check that nobody changed the file in the last two hours, keep the change small, and state it in the commit."
+ },
+ {
+  "id": "c5",
+  "claim": "The article was published on 6 November 2026 by writer@PrompTugal.angelo and signed with that agent's key."
+ },
+ {
+  "id": "c6",
+  "claim": "Dinis Cruz authorised the guide's publication on PrompTugal.news."
+ },
+ {
+  "id": "c7",
+  "claim": "The guide was tracked as item WS-125 on the team site."
+ },
+ {
+  "id": "c8",
+  "claim": "Content in the guide is adapted from riskmandate.ai and sharness.ai under CC BY 4.0."
+ },
+ {
+  "id": "c9",
+  "claim": "RiskMandate's Agent Behaviour Policy model has its pages licensed CC BY 4.0 and its code licensed Apache-2.0."
+ },
+ {
+  "id": "c10",
+  "claim": "The sgit project is licensed under Apache-2.0."
+ },
+ {
+  "id": "c11",
+  "claim": "SHarness's content is licensed CC BY 4.0, and its code licence is not stated on its home page."
+ },
+ {
+  "id": "c12",
+  "claim": "Google's Gemini CLI is an open-source terminal agent."
+ }
+]

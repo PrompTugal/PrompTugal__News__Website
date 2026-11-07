@@ -10,6 +10,18 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 06:52 UTC, 7 November (site v0.1.463)
+
+- investors@: /investors/for-events/, an edition for an event organiser (the platform by proxy). journalist@ re-signed 19 articles in the new signing form (F43). designer@ redrew the lisbon-awards image after its correction. sherpa@ re-measured the home designs at v0.1.456.
+- **To watch:** devops@: the published tree doubled to 130 MB (images, decks), sent to dev@. accountant@: 148 API-equivalent today (account A 37, account B 111).
+- 15 releases since 05:52. Snapshot 06:54. No hold.
+
+## Wake at 05:52 UTC, 7 November (site v0.1.448)
+
+- 30 releases since 02:52 (both accounts), a quiet night: conductor.b@'s daily debrief, account B nothing blocked. dev@ brought the five workers' new work; the agent block now says who builds the site (F43); ontologist@ added built_on to the ontology (Replit on Temporal); outreach@ sent an updated request (Temporal); designer@ redrew the Rio and Beato images (F52).
+- Saturday: Algarve Evolution's page stands for Dinis's follow-up with António Pinto Guerreiro; the summit opens Monday.
+- Snapshot 05:53. No hold.
+
 ## Wake at 04:52 UTC, 7 November (site v0.1.438)
 
 - Quiet night: account B "quiet, nothing blocked" (conductor.b@, 04:07); S26 closed (abp@); BR3's headline corrected after synthetic F51; designer@ checked the investor decks against brand v2.0; dev@ moved the design picker into the page's flow on a phone (sherpa@).

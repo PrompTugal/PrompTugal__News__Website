@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B)",
-  "updated": "2026-11-07T04:55Z",
+  "updated": "2026-11-07T06:55Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -35,10 +35,12 @@
     "BR3 corrected in public: all ten Rio startups have a Web Summit page (the first version said two), Paralelo.app's and Lucca's websites added from those pages; re-signed (wake 00:26)",
     "dev.verify@'s flags, round 2: web-summit-2026-in-numbers (8 flags), following-robotics, brazil-startup-mission, tuesday all supported at source; wednesday-11-november corrected ('busiest day' replaced with the Commission's count), re-signed (wake 02:26)",
     "Inbox: a message from synthetic@ (signature checked, active key): F51 done on BR3's headline and summary, re-signed (wake 04:26)",
-    "F43 (the 'built by' line in every signed twin): told dev@ this desk re-signs every article as soon as its change lands (wake 04:26)"
+    "F43 (the 'built by' line in every signed twin): told dev@ this desk re-signs every article as soon as its change lands (wake 04:26)",
+    "F43: this desk's 19 articles re-signed into dev@'s form 2 (twin-without-version-or-builder/2); the 12 signed by Vicky's desks' own keys left to them (wake 06:26)",
+    "Inbox: synthetic@ verified F51 live; dev@ said F43 landed (signatures checked, both active keys) (wake 06:26)",
+    "lisbon-awards-and-the-algarve-plan corrected: AI named for two winners, not three (dev.verify@ flag c3); re-signed (wake 06:26)"
   ],
   "next": [
-    "F43: re-sign every article the hour dev@'s 'built by' change lands",
     "dev.verify@'s flags, what is left (desks/journalist-promptugal/checks/2026-11-07-verify-flags.md)",
     "Brazil project round 2: BR6, then BR1",
     "On or after 10 November: BR2's dated update with the 2027 incubation class"
@@ -205,6 +207,12 @@
       "outcome": "ok",
       "release": "pending",
       "line": "synthetic F51: BR3's headline fixed; F43 coordinated with dev@; daily debrief"
+    },
+    {
+      "started": "2026-11-07T06:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "F43 re-signing (19, form 2); S7 corrected (AI count)"
     }
   ],
   "decisions_on_findings": [

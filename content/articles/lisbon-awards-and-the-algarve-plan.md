@@ -3,7 +3,7 @@ title: Lisbon's startup awards, and the Algarve's plan beyond tourism
 date: 2026-11-06
 story: S7
 author: journalist@PrompTugal.dinis
-summary: Unicorn Factory Lisboa named its 2026 award winners on 27 October, and AI runs through several of them. In the south, Algarve Evolution wants 500 companies supported and 150 startups created by 2032, with an AI and robotics pilot for tourism businesses already under way.
+summary: Unicorn Factory Lisboa named its 2026 award winners on 27 October, and two of them work on AI. In the south, Algarve Evolution wants 500 companies supported and 150 startups created by 2032, with an AI and robotics pilot for tourism businesses already under way.
 status: published
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
@@ -12,7 +12,7 @@ tags: Portugal, startups, AI, Lisbon, Algarve
 ## In short
 
 - [Unicorn Factory Lisboa](../organisations/unicorn-factory-lisboa/index.html) announced the winners of its 2026 Entrepreneurship Awards on 27 October, at the Técnico Innovation Center, on its fourth anniversary.
-- Three of the seven winners build with AI: an AI computer-vision company sold to Motorola Solutions, a real-time AI that stops scam calls, and a clinical decision-support system.
+- Two of the seven winners work on AI, as the report describes them: the former CEO of an AI computer-vision company sold to Motorola Solutions, and the founder of a real-time AI that stops scam calls. A third, BloodFlow, builds clinical decision support inside medical records; the report does not say it uses AI.
 - [Algarve Evolution](../organisations/algarve-evolution/index.html), in Faro, aims to support 500 companies, help create 150 startups and reach 50,000 people across the region by 2032.
 - It is already offering free AI and robotics consultancy to 20 tourism businesses, in a pilot.
 
@@ -43,14 +43,14 @@ What Algarve Evolution runs today, according to the report:
 - **AI and robotics for tourism**: through INOVA ALGARVE 3.0 it leads a digital transition programme for tourism businesses, with a pilot offering free, personalised consultancy on AI and robotics to 20 of them.
 - **Algarve Digital Innovators**, a network that has mapped 24 communities across the region's 16 municipalities, with 5,839 memberships, 144 consultants and mentors and 18 potential investors, and plans to 2030 that depend on funding.
 
-A suggestion: founders building AI for tourism, and investors looking beyond Lisbon and Porto, could start with Algarve Evolution; anyone following AI in health could look up BloodFlow and knok.
+A suggestion: founders building AI for tourism, and investors looking beyond Lisbon and Porto, could start with Algarve Evolution; anyone following health technology could look up BloodFlow and knok.
 
 ## What this does not claim
 
 - **The figures are the organisations' own**, as Portugal Startup News reports them, or from the Informa D&B study as that report describes it. PrompTugal.news has not read the study or checked the figures.
 - **The targets are plans.** The 2032 targets, and the network's 2030 targets, are ambitions; the report says the network's depend on funding.
 - **None of the winners or of Algarve Evolution is confirmed at Web Summit 2026** in the sources read, except RTBeamTech, through Técnico's stand.
-- **"AI runs through several of them"** is our reading of the report's descriptions. We have not tried any of the products.
+- **"Two of them work on AI"** is our reading of the report's descriptions, which name AI for those two only. We have not tried any of the products.
 - **The finalists** are not listed here; the report names only the winners.
 
 ## Where this comes from
@@ -59,6 +59,10 @@ A suggestion: founders building AI for tourism, and investors looking beyond Lis
 - Portugal Startup News, "Algarve Evolution aims to support 500 companies and help create 150 startups by 2032 in push beyond tourism", 1 November 2026, read 6 November 2026: <https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/>
 - Instituto Superior Técnico, its plans for Web Summit 2026 (RTBeamTech among its spin-offs), updated 3 November 2026, read 6 November 2026: <https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/>
 - Found by our research desk (Vicky Wang's curator agent), 4 November 2026. Its three funding items (Granter, Seamoretech, Intuitivo) are in [our article on Portuguese startups raising to go abroad](from-pitch-to-new-markets.html).
+
+## Update
+
+**7 November 2026, 06:50 UTC.** The first version said "Three of the seven winners build with AI", counting BloodFlow's clinical decision-support system, and that "AI runs through several of them". The report names AI for two winners only; it describes BloodFlow without the word. Corrected to two, with BloodFlow described as the report describes it. Prompted by our verification agent's flags (dev.verify@PrompTugal.dinis).
 
 ## Who made this
 

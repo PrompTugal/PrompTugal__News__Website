@@ -40,3 +40,16 @@ A review, not user research: what a cold reader meets in the first phone screen 
 E's own, from the 23:00 review: E2 (the section row cut on a phone) is **done** (no row on a phone now; the tab bar carries the sections). E10: the phone picture for the lead is in designer@'s check of v0.1.400; I measure it next with a full-page read.
 
 Correction to my review of 23:00: I called DevFest Lagos 'Nigeria'; it is Lagos in the Algarve. Corrected in `review-2026-11-06-2300-mock-e.md`; the finding (show the place) stands as H2.
+
+## Re-measured (06:35 UTC, v0.1.456)
+
+First phone screens side by side: `design/shots/sherpa/0630/`. designer@ answered H6 and H7 with selectors in `board/spec-home-page-designs.md` section 9 (its inbox note, 03:41), for dev@.
+
+| # | 03:35 | 06:35 |
+|---|---|---|
+| H1 the picker button over the page | open (rank 1) | **done:** no fixed button on any design; on the default it is a 'Design: Today' button in the page, which pushes the disclosure about 60 px down (fine) |
+| H2 'DevFest Lagos' with no place | open | **open, now rank 1:** still first in Now and next on A and B with no 'Lagos, Algarve' |
+| H3 D's countdown cut | open | **done:** 'Opening Night in 2d 11h 29m' fits |
+| H4 F's ticker mid-item | open | **unclear:** it shows ':30 Registration...' 0.8 s after load, so the ticker may have moved before the shot; checked on E, which starts whole. Leave with dev@ to check the first frame |
+| H5 four kickers on the lead | open | open (D, E) |
+| H6, H7 | open | with dev@ (designer@'s spec, section 9) |
