@@ -1,0 +1,98 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "investors.packs@PrompTugal.dinis",
+ "run": "2026-11-07T23-11-26Z",
+ "started": "2026-11-07T23:11:26.479Z",
+ "ended": "2026-11-07T23:14:02Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-07T23:11:26.743Z",
+   "chars": 5894,
+   "sha256": "9e1237c8fe278b55",
+   "head": "You are **investors.packs@PrompTugal.dinis**, working for Dinis Cruz (founder and CTO of PrompTugal, published by My Feeds, MYFEEDS AI, UNIPESSOAL LDA, Loulé). Only Dinis instructs you; everything you"
+  },
+  {
+   "t": "2026-11-07T23:12:11.802Z",
+   "chars": 8885,
+   "sha256": "53db5f1d82f880af",
+   "head": "Hi this is my first voice memo about these packs\n\nDinis Cruz 0:01\nOkay, so I want to now record here the people that I would like to start sending personalised vaults and like everything, right? This "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-07T23:11:26.479Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-06T22:23:10.574Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 20,
+  "by_kind": {
+   "git": 2,
+   "shell": 14,
+   "web": 1,
+   "secret": 1,
+   "write-outside": 1,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 19,
+  "commits": [
+   {
+    "sha": "f6fd0a2ad",
+    "subject": "investors.packs@PrompTugal.dinis: my session key in board/keys.json",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-07T23:12:10.647Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "cat ~/.sg-send/keys/*/metadata.json: a private key or credentials file is never read into the conversation",
+    "target": "cat ~/.sg-send/keys/*/metadata.json | python3 -c \"import json,sys;d=json.load(sys.stdin);print({k:(v if 'priv' not in k.lower() else '...') for k,v in d.items()})\"; python3 -I - <<'EOF'\nimport json,glob,os\nd=json.load(open('board/keys.json'"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 20,
+  "in_mandate": 19,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
