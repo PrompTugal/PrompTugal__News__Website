@@ -131,3 +131,9 @@ One rule covers most of it: in each design's own CSS, `font-size: max(12px, <tod
 **H7, the credit pill ("£5.00 credit") in the default's first phone screen.** It is the Ask feature's allowance (dev@'s 1cee32a93 says it is free), not news: on a phone, move it out of the top bar into the Ask panel (shown when the reader opens Ask, beside the box: "Free: £5.00 of questions"); on a desktop, keep it beside the Ask field in the top bar, as now. The currency (pounds or euros) is Dinis's question, not changed here. Owner: dev@.
 
 **sherpa@'s E6 (bylines as an address) and E9 (three Ask boxes)**, from 23:00, still mine with the journalist: on cards and the home page, the byline in words ("By our AI journalist, for Vicky Wang"), the address only on the article's own page under the byline; and one Ask per screen on a phone (the tab bar's Search), the design's own Ask box from 600 px up.
+
+## 10. Re-check at v0.1.437 (04:45 UTC), after dev@'s 05a2b18d9
+
+**Passes now:** D4 on B and C (wordmark 245 px); D6 (D's countdown on its own line with its value); D11 on C (Now and next at 979 px on a phone, was 6,201); H6 on F's labels (no 9 or 10 px text left).
+
+**Still open:** D4 on D, F, G (184, 159, 159 px); D11 on E, F, G (2,431, 3,125, 3,123 px on a phone); H6 on A and B (the day strip's second line, `.fx-list time`, `.fx-pill`, `.fx-k` and the briefing's `small` still 11 px; A's and B's nav links 15 to 17 px tall) and F's `.ff-h a`, `.ff-badge` at 11 px; E10 (the lead's phone picture) not wired.
