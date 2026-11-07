@@ -37,35 +37,41 @@
       "url": "https://www.forbespt.com/agencia-de-investimento-brasileira-leva-delegacao-recorde-a-web-summit-lisboa",
       "status": 200,
       "read": true,
-      "chars": 3767
+      "chars": 3738
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-e-apexbrasil-anunciam-startups-selecionadas-para-o-web-summit-lisboa-2026/",
+      "status": 200,
+      "read": true,
+      "chars": 8415
     }
   ],
-  "spent_usd": 0.3385,
+  "spent_usd": 0.2638,
   "claims": [
     {
       "id": "c1",
-      "claim": "DN Brasil, 10 November 2025, reported 151 participants selected by ApexBrasil for Brazil's 2025 Web Summit delegation: 80 from the Southeast and 35 from the Northeast.",
+      "claim": "Brazil's delegation to Web Summit 2025 was one of the two largest, along with Germany's, according to ApexBrasil.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S4",
-          "quote": "Das 151 participantes selecionadas pela ApexBrasil, 80 (52,98%) são da região Sudeste (23,18%), 35 do Nordeste",
-          "note": "The DN Brasil passage gives the 151 total, 80 from the Southeast and 35 from the Northeast, matching the claim, though its percentages are internally inconsistent and don't affect the counts."
+          "source": "S1",
+          "quote": "Alemanha e Brasil tiveram as duas maiores delegações.",
+          "note": "ApexBrasil's 2026 participation regulation states that Germany and Brazil had the two largest delegations at the 2025 Web Summit, and S2 repeats the same sentence."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S4",
-          "quote": "Das 151 participantes selecionadas pela ApexBrasil, 80 (52,98%) são da região Sudeste (23,18%), 35 do Nordeste",
-          "note": "DN Brasil reported on 10 November 2025 that out of 151 participants selected by ApexBrasil for Web Summit, 80 were from the Southeast and 35 from the Northeast."
+          "source": "S1",
+          "quote": "Alemanha e Brasil tiveram as duas maiores delegações.",
+          "note": "ApexBrasil's official document confirms that Germany and Brazil had the two largest delegations at Web Summit in 2025."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S4",
-          "quote": "Das 151 participantes selecionadas pela ApexBrasil, 80 (52,98%) são da região Sudeste (23,18%), 35 do Nordeste (17,88%)",
-          "note": "S4, a DN Brasil article dated 10 November 2025, states exactly that 151 ApexBrasil-selected participants included 80 from the Southeast and 35 from the Northeast."
+          "source": "S1",
+          "quote": "Alemanha e Brasil tiveram as duas maiores delegações.",
+          "note": "The ApexBrasil document states that Germany and Brazil had the two largest delegations in 2025."
         }
       ],
       "consensus": "supported",
@@ -73,57 +79,57 @@
     },
     {
       "id": "c2",
-      "claim": "Startups.com.br, 3 November 2025, quoting ApexBrasil, reported 340 startups and innovative companies in Brazil's 2025 delegation: 256 selected by ApexBrasil and Sebrae and 84 brought by partners Softex, Anprotec and Serpro.",
+      "claim": "Public figures for Brazil's 2025 Web Summit delegation range from 151 to \"almost 380\".",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S3",
-          "quote": "256 foram selecionadas pela ApexBrasil e o Sebrae. Outras 84 foram escolhidas por instituições parceiras, como Softex, Anprotec e Serpro",
-          "note": "S3, dated 03/11/2025, gives the same 340 total, 256 selected by ApexBrasil and Sebrae, and 84 chosen by Softex, Anprotec and Serpro, but it does not explicitly attribute these split figures to an ApexBrasil quote."
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "quase 380 empresas",
+          "note": "Sources do give 380 (S1 'quase 380 empresas', S2 '380 empresas') and 151 (S4, 'Das 151 participantes selecionadas pela ApexBrasil'), but 151 is only the ApexBrasil-selected subset, while the delegation totals reported are 340 (S3), 370+ (S4) and about 380, so 151 is not a public figure for the whole delegation."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S3",
-          "quote": "Das 340 startups e empresas inovadoras participantes, 256 foram selecionadas pela ApexBrasil e o Sebrae . Outras 84 foram escolhidas por instituições parceiras, como Softex, Anprotec e Serpro",
-          "note": "The article published on 3 November 2025 confirms the exact breakdown of the 340 startups and innovative companies in the delegation."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source states that delegation figures range from 151 to almost 380, and the figure of 151 refers specifically to participants selected by ApexBrasil rather than the full delegation."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S3",
-          "quote": "340 startups e empresas inovadoras participantes, 256 foram selecionadas pela ApexBrasil e o Sebrae . Outras 84 foram escolhidas por instituições parceiras, como Softex, Anprotec e Serpro",
-          "note": "S3, the Startups.com.br article dated 03/11/2025, reports the same 340 total, 256 selected by ApexBrasil and Sebrae, and 84 by partners including Softex, Anprotec, and Serpro."
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "Das 151 participantes selecionadas pela ApexBrasil",
+          "note": "S1/S2 support an 'almost 380' delegation figure, but S4 shows 151 is only the number selected by ApexBrasil, not the whole 2025 Brazilian delegation."
         }
       ],
-      "consensus": "supported",
-      "flag_to_journalist": false
+      "consensus": "disagree",
+      "flag_to_journalist": true
     },
     {
       "id": "c3",
-      "claim": "Startups.com.br reported that 123 of the 340 companies in the 2025 delegation were attending Web Summit for the first time.",
+      "claim": "DN Brasil reported on 10 November 2025 that 151 participants were selected by ApexBrasil, with 80 from the Southeast and 35 from the Northeast.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "A maior parte das participantes deste ano (123) estará no evento pela primeira vez",
-          "note": "Startups.com.br states that 340 startups and innovative companies took part and that 123 of them were attending Web Summit for the first time, matching the claim."
+          "source": "S4",
+          "quote": "Das 151 participantes selecionadas pela ApexBrasil, 80 (52,98%) são da região Sudeste (23,18%), 35 do Nordeste (17,88%)",
+          "note": "The DN Brasil article is dated 10 November 2025 and gives 151 ApexBrasil-selected participants, 80 from the Southeast and 35 from the Northeast, though its percentages are internally inconsistent with the counts, which the claim does not address."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "A maior parte das participantes deste ano (123) estará no evento pela primeira vez",
-          "note": "Startups.com.br reported that out of the 340 participating startups and innovative companies in the delegation, 123 would be attending the event for the first time."
+          "source": "S4",
+          "quote": "Das 151 participantes selecionadas pela ApexBrasil, 80 (52,98%) são da região Sudeste (23,18%), 35 do Nordeste",
+          "note": "DN Brasil reported on 10 November 2025 that out of 151 participants selected by ApexBrasil, 80 were from the Southeast and 35 from the Northeast."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "A maior parte das participantes deste ano (123) estará no evento pela primeira vez",
-          "note": "S3 reports 340 startups/companies in the delegation and states that 123 participants this year will attend the event for the first time."
+          "source": "S4",
+          "quote": "Das 151 participantes selecionadas pela ApexBrasil, 80 (52,98%) são da região Sudeste (23,18%), 35 do Nordeste (17,88%)",
+          "note": "S4 is a DN Brasil article published 10 Novembro 2025 and states exactly those selection figures."
         }
       ],
       "consensus": "supported",
@@ -131,28 +137,28 @@
     },
     {
       "id": "c4",
-      "claim": "DN Brasil, 10 November 2025, reported more than 370 startups based in Brazil in the 2025 delegation.",
+      "claim": "Startups.com.br reported on 3 November 2025, quoting ApexBrasil, a figure of 340 startups and innovative companies: 256 selected by ApexBrasil and Sebrae and 84 by partners (Softex, Anprotec, Serpro).",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S4",
-          "quote": "mais de 370 startups sediadas no Brasil",
-          "note": "The DN Brasil article dated 10 November 2025 says the delegation includes more than 370 startups based in Brazil, matching the claim."
+          "source": "S3",
+          "quote": "Das 340 startups e empresas inovadoras participantes, 256 foram selecionadas pela ApexBrasil e o Sebrae",
+          "note": "S3 is dated 03/11/2025 and gives 340 total, 256 selected by ApexBrasil and Sebrae, and 84 chosen by partners such as Softex, Anprotec and Serpro; the figure is attributed to the organisers, and the only direct ApexBrasil quote is from its president on other topics."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S4",
-          "quote": "mais de 370 startups sediadas no Brasil",
-          "note": "DN Brasil reported on 10 November 2025 that Brazil's Web Summit delegation included more than 370 startups based in Brazil."
+          "source": "S3",
+          "quote": "Das 340 startups e empresas inovadoras participantes, 256 foram selecionadas pela ApexBrasil e o Sebrae . Outras 84 foram escolhidas por instituições parceiras, como Softex, Anprotec e Serpro",
+          "note": "Startups.com.br published these exact figures regarding the delegation on 3 November 2025."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S4",
-          "quote": "mais de 370 startups sediadas no Brasil",
-          "note": "The DN Brasil article dated 10 November 2025 states the Brazilian presence includes more than 370 startups based in Brazil."
+          "source": "S3",
+          "quote": "Das 340 startups e empresas inovadoras participantes, 256 foram selecionadas pela ApexBrasil e o Sebrae . Outras 84 foram escolhidas por instituições parceiras, como Softex, Anprotec e Serpro .",
+          "note": "S3, dated 03/11/2025, reports the 340 figure with 256 selected by ApexBrasil/Sebrae and 84 by partners including Softex, Anprotec and Serpro."
         }
       ],
       "consensus": "supported",
@@ -160,28 +166,28 @@
     },
     {
       "id": "c5",
-      "claim": "ApexBrasil's rules for its 2026 mission give almost 380 companies for the 2025 delegation, counting the 247 supported companies plus those of the state Sebrae branches.",
+      "claim": "Startups.com.br reported that 123 of the 340 companies were at Web Summit for the first time.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S1",
-          "quote": "A delegação brasileira contou com quase 380 empresas, sendo 247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro e a demais, pelos Sebraes estaduais",
-          "note": "S1 is the 2026 Web Summit regulation and states that the 2025 Brazilian delegation had almost 380 companies, 247 of them supported by the partnership and the rest by the state Sebrae branches, though the 247 were supported by ApexBrasil together with Sebrae Nacional and Serpro."
+          "source": "S3",
+          "quote": "A maior parte das participantes deste ano (123) estará no evento pela primeira vez",
+          "note": "The Startups.com.br article reports 123 of the 340 startups and innovative companies attending for the first time, matching the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S1",
-          "quote": "A delegação brasileira contou com quase 380 empresas, sendo 247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro e a demais, pelos Sebraes estaduais.",
-          "note": "ApexBrasil's participation regulations for the 2026 mission state that the 2025 Brazilian delegation had almost 380 companies, consisting of 247 supported by the partnership and the rest by state Sebrae branches."
+          "source": "S3",
+          "quote": "A maior parte das participantes deste ano (123) estará no evento pela primeira vez",
+          "note": "The article in S3 explicitly states that out of the 340 participating startups and innovative companies, 123 would be attending the event for the first time."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S1",
-          "quote": "A delegação brasileira contou com quase 380 empresas, sendo 247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro e a demais, pelos Sebraes estaduais.",
-          "note": "S1, the 2026 mission rules, states the 2025 Brazilian delegation had almost 380 companies, with 247 supported by the ApexBrasil/Sebrae/Serpro partnership and the rest by state Sebraes."
+          "source": "S3",
+          "quote": "A maior parte das participantes deste ano (123) estará no evento pela primeira vez",
+          "note": "S3, from Startups.com.br, reports that 123 of this year's 340 participating startups and innovative companies will be at the event for the first time."
         }
       ],
       "consensus": "supported",
@@ -189,28 +195,28 @@
     },
     {
       "id": "c6",
-      "claim": "ApexBrasil's rules for its 2026 mission give 247 'startups e empresas inovadoras' supported by ApexBrasil, Sebrae and Serpro for 2025.",
+      "claim": "DN Brasil reported on 10 November 2025 that more than 370 startups based in Brazil were at Web Summit 2025.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S1",
-          "quote": "sendo 247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro",
-          "note": "The 2026 rules document states that the 2025 delegation included 247 startups and innovative companies supported by ApexBrasil, Sebrae Nacional and Serpro, though the 247 figure describes 2025 rather than a 2026 quota."
+          "source": "S4",
+          "quote": "mais de 370 startups sediadas no Brasil",
+          "note": "The DN Brasil article, published 10 November 2025, reports that more than 370 startups based in Brazil take part in Web Summit, which matches the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S1",
-          "quote": "A delegação brasileira contou com quase 380 empresas, sendo 247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro",
-          "note": "In the participation rules for the 2026 mission, section 1 states that in 2025 the Brazilian delegation included 247 startups and innovative companies supported by the partnership of ApexBrasil, Sebrae, and Serpro."
+          "source": "S4",
+          "quote": "A presença do Brasil no Web Summit, que começa hoje, representa a diversidade do país e o retrato dos brasileiros e brasileiras: une aqueles que já fizeram o percuso de escolher Portugal e mais de 370 startups sediadas no Brasil.",
+          "note": "DN Brasil reported on 10 November 2025 that over 370 startups based in Brazil were participating in the Web Summit."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S1",
-          "quote": "247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro",
-          "note": "The 2026 mission regulation states that the 2025 Brazilian delegation included 247 startups and innovative companies supported by ApexBrasil, Sebrae Nacional and Serpro."
+          "source": "S4",
+          "quote": "mais de 370 startups sediadas no Brasil",
+          "note": "S4, a DN Brasil article dated 10 Novembro 2025, states the Brazil presence at Web Summit includes more than 370 startups based in Brazil."
         }
       ],
       "consensus": "supported",
@@ -218,28 +224,28 @@
     },
     {
       "id": "c7",
-      "claim": "ApexBrasil told Lusa, reported in Forbes Portugal on 7 November 2023, that Brazil had 80 companies at Web Summit in 2022, the year of its first Brazil Pavilion.",
+      "claim": "ApexBrasil's rules for its 2026 mission give a 2025 figure of 247 startups and innovative companies supported by ApexBrasil, Sebrae and Serpro.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S5",
-          "quote": "quando participaram 80 empresas, no ano de estreia do Pavilhão Brasil na Web Summit Lisboa",
-          "note": "The Forbes Portugal article (7 November 2023) reports that the 2022 delegation had 80 companies in the year the Brazil Pavilion debuted, and the article is based on a Lusa report citing an ApexBrasil source, though the 2022 figure is not itself marked as a direct quote."
+          "source": "S1",
+          "quote": "247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro",
+          "note": "S1, the ApexBrasil 2026 mission rules, states that the 2025 Brazilian delegation included 247 startups and innovative companies supported by ApexBrasil, Sebrae Nacional and Serpro."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S5",
-          "quote": "em relação a 2022, quando participaram 80 empresas, no ano de estreia do Pavilhão Brasil na Web Summit Lisboa",
-          "note": "The article in Forbes Portugal from 7 November 2023 confirms that ApexBrasil informed Lusa about the 80 companies participating in 2022, the debut year of the Brazil Pavilion."
+          "source": "S1",
+          "quote": "sendo 247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro",
+          "note": "ApexBrasil's 2026 mission participation regulations state that the 2025 Brazilian delegation included 247 startups and innovative companies supported by the partnership of ApexBrasil, Sebrae, and Serpro."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S5",
-          "quote": "quando participaram 80 empresas, no ano de estreia do Pavilhão Brasil na Web Summit Lisboa",
-          "note": "Forbes Portugal on 7 Nov 2023, citing Lusa and an ApexBrasil source, states 80 companies participated in 2022, the debut year of the Brazil Pavilion."
+          "source": "S1",
+          "quote": "247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro",
+          "note": "S1, the 2026 mission regulation, states that in 2025 the Brazilian delegation included 247 startups and innovative companies supported by ApexBrasil, Sebrae and Serpro."
         }
       ],
       "consensus": "supported",
@@ -247,28 +253,28 @@
     },
     {
       "id": "c8",
-      "claim": "Before the 2023 summit, Brazil planned a 'record' of 85 startups and 100 companies, according to the same Forbes Portugal report.",
+      "claim": "ApexBrasil's rules for its 2026 mission give a 2025 figure of almost 380 companies, including the 247 plus those of the state Sebrae branches.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S5",
-          "quote": "85 startups e 100 empresas à Web Summit Lisboa, uma delegação recorde",
-          "note": "The Forbes Portugal report, dated 7 November 2023 and before the summit, says ApexBrasil will take 85 startups and 100 companies, described as a record delegation."
+          "source": "S1",
+          "quote": "A delegação brasileira contou com quase 380 empresas, sendo 247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro e a demais, pelos Sebraes estaduais.",
+          "note": "The 2026 rules document (S1) states that the 2025 Brazilian delegation had almost 380 companies, of which 247 were backed by ApexBrasil, Sebrae Nacional and Serpro, with the rest backed by state Sebrae branches."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S5",
-          "quote": "A Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil) vai levar 85 startups e 100 empresas à Web Summit Lisboa, uma delegação recorde",
-          "note": "The Forbes Portugal article from November 7, 2023, confirms that ahead of the 2023 summit, Brazil planned to bring a record delegation of 85 startups and 100 companies."
+          "source": "S1",
+          "quote": "A delegação brasileira contou com quase 380 empresas, sendo 247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro e a demais, pelos Sebraes estaduais.",
+          "note": "The participation regulations for the 2026 mission confirm that Brazil's 2025 delegation included nearly 380 companies, comprising 247 supported by ApexBrasil and national partners plus the remainder supported by state Sebrae units."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S5",
-          "quote": "85 startups e 100 empresas à Web Summit Lisboa, uma delegação recorde",
-          "note": "The Forbes Portugal report states ApexBrasil would take 85 startups and 100 companies to Web Summit Lisboa as a record delegation before the 2023 event."
+          "source": "S1",
+          "quote": "A delegação brasileira contou com quase 380 empresas, sendo 247 startups e empresas inovadoras apoiadas pela parceria ApexBrasil, Sebrae Nacional e Serpro e a demais, pelos Sebraes estaduais.",
+          "note": "S1, an ApexBrasil 2026 mission regulation, states the 2025 Brazilian delegation had almost 380 companies, with 247 supported by the ApexBrasil/Sebrae/Serpro partnership and the rest by state Sebraes."
         }
       ],
       "consensus": "supported",
@@ -276,28 +282,28 @@
     },
     {
       "id": "c9",
-      "claim": "Startups.com.br, 3 November 2025, reported that 226 startups were selected for Brazil's 2024 delegation by ApexBrasil and Sebrae.",
+      "claim": "Brazil's delegation to Web Summit in 2022 had 80 companies, the year of the first Brazil Pavilion, according to ApexBrasil speaking to Lusa and reported by Forbes Portugal on 7 November 2023.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "No ano passado, ApexBrasil e Sebrae selecionaram 226 startups",
-          "note": "The Startups.com.br article dated 03/11/2025 says ApexBrasil and Sebrae selected 226 startups 'last year', which is 2024, so the claim matches."
+          "source": "S5",
+          "quote": "quando participaram 80 empresas, no ano de estreia do Pavilhão Brasil na Web Summit Lisboa",
+          "note": "The Forbes Portugal article dated 7 November 2023 gives 80 companies for 2022, the Pavilhão Brasil's debut year, but the 2022 figure appears in the article's own text rather than being explicitly attributed to ApexBrasil."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "No ano passado, ApexBrasil e Sebrae selecionaram 226 startups",
-          "note": "The article published on 3 November 2025 confirms that ApexBrasil and Sebrae selected 226 startups the previous year (2024)."
+          "source": "S5",
+          "quote": "em relação a 2022, quando participaram 80 empresas, no ano de estreia do Pavilhão Brasil na Web Summit Lisboa",
+          "note": "Forbes Portugal reported on 7 November 2023, citing ApexBrasil via Lusa, that 80 companies participated in 2022, the debut year of the Brazil Pavilion."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S3",
-          "quote": "No ano passado, ApexBrasil e Sebrae selecionaram 226 startups.",
-          "note": "The Startups.com.br article dated 03/11/2025 states that in the previous year ApexBrasil and Sebrae selected 226 startups."
+          "source": "S5",
+          "quote": "em relação a 2022, quando participaram 80 empresas, no ano de estreia do Pavilhão Brasil na Web Summit Lisboa",
+          "note": "S5 reports ApexBrasil told Lusa that 2022 had 80 companies in the debut year of the Brazil Pavilion, matching the claim."
         }
       ],
       "consensus": "supported",
@@ -305,89 +311,71 @@
     },
     {
       "id": "c10",
-      "claim": "ApexBrasil says Brazil's 2025 Web Summit delegation was one of the two largest, along with Germany's.",
+      "claim": "Before Web Summit 2023, ApexBrasil planned a record of 85 startups and 100 companies, as reported by Forbes Portugal on 7 November 2023.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Alemanha e Brasil tiveram as duas maiores delegações",
-          "note": "An ApexBrasil regulation document states that Germany and Brazil had the two largest delegations at the 2025 Web Summit, matching the claim, and S2 repeats the same statement."
+          "verdict": "error",
+          "note": "budget reached: 0.2638 USD"
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Em 2025, em sua 17ª edição, o evento reuniu 71.386 pessoas [...] Alemanha e Brasil tiveram as duas maiores delegações.",
-          "note": "ApexBrasil's official participation guidelines explicitly state that in 2025, Germany and Brazil had the two largest delegations."
+          "verdict": "error",
+          "note": "budget reached: 0.2638 USD"
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Alemanha e Brasil tiveram as duas maiores delegações.",
-          "note": "The ApexBrasil source states that Germany and Brazil had the two largest delegations at the 2025 Web Summit."
+          "verdict": "error",
+          "note": "budget reached: 0.2638 USD"
         }
       ],
-      "consensus": "supported",
+      "consensus": "unchecked",
       "flag_to_journalist": false
     },
     {
       "id": "c11",
-      "claim": "Public figures for Brazil's 2026 Web Summit delegation range from 100 to about 300.",
+      "claim": "In 2024, 226 startups were selected by ApexBrasil and Sebrae for Brazil's Web Summit delegation, according to Startups.com.br on 3 November 2025.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "exaggerated",
-          "source": "S2",
-          "quote": "até 100 startups brasileiras",
-          "note": "The 2026 sources cap the delegation at 100 startups (S2) or 50 startups plus 10 innovation environments (S1), while the figures near 300 (340 and 370+) refer to the 2025 edition, so the claimed 100-to-300 range for 2026 overstates the sources."
+          "verdict": "error",
+          "note": "budget reached: 0.2638 USD"
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "None of the provided sources state that public figures for Brazil's 2026 Web Summit delegation range from 100 to about 300."
+          "verdict": "error",
+          "note": "budget reached: 0.2638 USD"
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "unsupported",
-          "source": null,
-          "quote": "",
-          "note": "No source states a 100–300 range for the 2026 delegation; S2 gives up to 100 startups for 2026, while the 340/370 figures are from 2025."
+          "verdict": "error",
+          "note": "budget reached: 0.2638 USD"
         }
       ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
+      "consensus": "unchecked",
+      "flag_to_journalist": false
     },
     {
       "id": "c12",
-      "claim": "ApexBrasil's 2026 rules promise selected startups a place in a 'catálogo digital da delegação brasileira' on its Buy Brazil platform.",
+      "claim": "For 2026, the estimated size of Brazil's Web Summit delegation ranges from 100 to about 300.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Catálogo digital da delegação brasileira (Plataforma Buy Brazil)",
-          "note": "S2's startup rules list the catalogue among the services offered and require selected startups to register on Buy Brazil within 15 days, where the catalogue is hosted."
+          "verdict": "error",
+          "note": "budget reached: 0.2638 USD"
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Catálogo digital da delegação brasileira (Plataforma Buy Brazil)",
-          "note": "Under the services offered for the 2026 mission, ApexBrasil lists a digital catalog of the Brazilian delegation hosted on the Buy Brazil platform."
+          "verdict": "error",
+          "note": "budget reached: 0.2638 USD"
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Catálogo digital da delegação brasileira (Plataforma Buy Brazil)",
-          "note": "The 2026 rules list this catalog on the Buy Brazil platform as a service offered to participating startups."
+          "verdict": "error",
+          "note": "budget reached: 0.2638 USD"
         }
       ],
-      "consensus": "supported",
+      "consensus": "unchecked",
       "flag_to_journalist": false
     }
   ]
