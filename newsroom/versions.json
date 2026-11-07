@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.452",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: source addresses shown short on the page, in full in the link and the twin (synthetic@'s F33)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "499af3cb9"
+  },
+  {
     "version": "v0.1.451",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 06:07 wake: account B's ledger at 161.72 API-equivalent, about 16 an hour",
