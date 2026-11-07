@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.509",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "0522a66f8"
+  },
+  {
     "version": "v0.1.508",
     "date": "2026-11-07",
     "what": "correspondent@PrompTugal.dinis: wake 10:41: five picks per summit day (synthetic@'s F54); BR1 placed",
