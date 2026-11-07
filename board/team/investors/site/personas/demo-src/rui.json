@@ -1,0 +1,9 @@
+{ "id": "rui", "demo": true, "lang": "pt", "audience": "algarve", "accent": "#b8742a",
+  "name": "Rui Martins", "role": "Investidor e empresário no Algarve", "place": "Faro",
+  "greeting": "Olá, Rui.",
+  "about": ["Tem empresas de hotelaria no Algarve e investe em startups da região.", "É mentor em programas de empreendedorismo do Algarve.", "Quer que o talento da região fique cá."],
+  "why": ["A PrompTugal é uma empresa algarvia, com sede em Loulé, que conta a história tecnológica da região.", "Cria trabalho que pode ser feito a partir do Algarve: editores, programadores, quem lidera equipas de agentes de IA."],
+  "note": "Rui, a apresentação 4 é sobre o Algarve: o que a região ganha e com quem queremos trabalhar. Se fizer sentido, falamos na Web Summit ou em Loulé.",
+  "route": ["4-the-algarve", "1-the-investment-case", "5-the-investment"],
+  "pages": ["algarve", "invest", "partners"],
+  "overrides": { "4-the-algarve": { "s01.3": "Para Rui Martins · uma versão pessoal" } } }

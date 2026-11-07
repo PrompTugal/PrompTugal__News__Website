@@ -1,0 +1,180 @@
+{
+  "about": "The investor site of PrompTugal.news (investors@PrompTugal.dinis, 7 November 2026, at Dinis Cruz's word: 'treat that investors area as literally a standalone website ... in the four languages ... very visual'; board/team/investors/dinis-2026-11-07-the-investor-site.md). Built by newsroom/build/features/investors-site.mjs: the words per language in i18n/<lang>.json, longer pages in md/<page>.<lang>.md, articles in articles/<slug>.<lang>.md, images in img/. English at /investors/<page>/, other languages at /investors/<lang>/<page>/.",
+  "langs": [
+    "en",
+    "pt",
+    "es",
+    "fr"
+  ],
+  "contact": "dinis.agent@promptugal.news",
+  "audiences": {
+    "invest": {
+      "img": "decks/img/hero-explorers.jpg",
+      "route": [
+        [
+          "1-the-investment-case",
+          12
+        ],
+        [
+          "9-the-tour",
+          8
+        ],
+        [
+          "5-the-investment",
+          10
+        ],
+        [
+          "6-the-technology",
+          10
+        ]
+      ],
+      "library": [
+        "business-plan",
+        "what-works",
+        "my-feeds",
+        "competition",
+        "rules-of-engagement"
+      ]
+    },
+    "partner": {
+      "img": "decks/img/hero-lanes.jpg",
+      "route": [
+        [
+          "3-the-platform",
+          10
+        ],
+        [
+          "9-the-tour",
+          8
+        ],
+        [
+          "1-the-investment-case",
+          12
+        ]
+      ],
+      "library": [
+        "for-events",
+        "business-plan",
+        "what-works",
+        "partners"
+      ]
+    },
+    "involved": {
+      "img": "decks/img/join-seat.jpg",
+      "route": [
+        [
+          "7-join-us",
+          10
+        ],
+        [
+          "2-the-industry",
+          12
+        ],
+        [
+          "5-the-investment",
+          10
+        ]
+      ],
+      "library": [
+        "join",
+        "how-we-got-here",
+        "thinking"
+      ]
+    },
+    "publishers": {
+      "img": "decks/img/hero-industry.jpg",
+      "route": [
+        [
+          "2-the-industry",
+          12
+        ],
+        [
+          "3-the-platform",
+          10
+        ],
+        [
+          "9-the-tour",
+          8
+        ]
+      ],
+      "library": [
+        "for-publishers",
+        "thinking",
+        "competition"
+      ]
+    },
+    "algarve": {
+      "img": "decks/img/hero-algarve.jpg",
+      "route": [
+        [
+          "4-the-algarve",
+          12
+        ],
+        [
+          "3-the-platform",
+          10
+        ],
+        [
+          "1-the-investment-case",
+          12
+        ]
+      ],
+      "library": [
+        "partners",
+        "my-feeds",
+        "how-we-got-here"
+      ]
+    },
+    "builders": {
+      "img": "decks/img/hero-diy.jpg",
+      "route": [
+        [
+          "8-do-it-yourself",
+          12
+        ],
+        [
+          "6-the-technology",
+          10
+        ],
+        [
+          "9-the-tour",
+          8
+        ]
+      ],
+      "library": [
+        "how-we-got-here",
+        "thinking",
+        "rules-of-engagement"
+      ]
+    }
+  },
+  "library": [
+    "pitch",
+    "business-plan",
+    "what-works",
+    "my-feeds",
+    "how-we-got-here",
+    "competition",
+    "thinking",
+    "rules-of-engagement",
+    "join",
+    "partners",
+    "for-events",
+    "for-publishers",
+    "outreach",
+    "languages",
+    "language-vote"
+  ],
+  "decks": [
+    "0-the-map",
+    "1-the-investment-case",
+    "2-the-industry",
+    "3-the-platform",
+    "4-the-algarve",
+    "5-the-investment",
+    "6-the-technology",
+    "7-join-us",
+    "8-do-it-yourself",
+    "9-the-tour"
+  ]
+}
