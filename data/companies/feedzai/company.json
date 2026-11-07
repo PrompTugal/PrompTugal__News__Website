@@ -32,6 +32,12 @@
     "attending_as": [
       "s1",
       "s2"
+    ],
+    "founders": [
+      "inv1"
+    ],
+    "funding": [
+      "inv2"
     ]
   },
   "field_sources_method": "Keyword match on each source's \"supports\" note (newsroom/build/lib/companies-map.mjs, FIELD_RULES); a field that no note names cites every source.",
@@ -47,5 +53,28 @@
     "path": "data/companies.json",
     "read_on": "2026-11-01",
     "by": "curator@web-summit"
+  },
+  "founders": [
+    {
+      "name": "Nuno Sebastião",
+      "role": "Co-Founder, Chairman and CEO"
+    },
+    {
+      "name": "Pedro Bizarro, Ph.D.",
+      "role": "Co-Founder and Chief Science Officer"
+    }
+  ],
+  "funding": {
+    "announced": "2025-10-02",
+    "amount": "about $75 million",
+    "valuation": "$2 billion",
+    "investors": [
+      "Lince Capital",
+      "Iberis Capital",
+      "Explorer Investments",
+      "Oxy Capital",
+      "Buenavista Equity Partners"
+    ],
+    "summary": "A round of about $75 million at a $2 billion valuation; new investors Lince Capital, Iberis Capital and Explorer Investments, with renewed backing from Oxy Capital and Buenavista Equity Partners. No stage stated."
   }
 }
