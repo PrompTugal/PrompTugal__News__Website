@@ -7,6 +7,9 @@ layout: wide
 <!-- front:e -->
 <!-- front:f -->
 <!-- front:g -->
+<!-- front:a -->
+<!-- front:b -->
+<!-- front:c -->
 <!-- front:designs -->
 
 {.slimline}

@@ -1,0 +1,29 @@
+<!-- B, the home page (Silvio's mock B, "Summit Live", by design@web-summit.silvio; Dinis, 6 November 2026, about 23:20 UTC;
+     board/team/conductor.b/briefs/2026-11-06-home-page-eight-designs.md). Markup and words; filled from data by
+     newsroom/build/features/front-b.mjs. The look: front-abc.css. One of the home page's designs (assets/design/, ?design=b). -->
+<!-- part:page -->
+<div class="fb pt-design" data-design-of="b">
+<div class="fb-bar"><div class="fx-w fb-in"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a><span class="fb-sp"></span><a class="fb-pill" href="search/index.html">Search</a><a class="fb-pill" href="my-day/index.html">My day</a><a class="fb-pill fb-ask" href="search/index.html">Ask</a></div></div>
+<div class="fb-live"><div class="fx-w fb-in"><span><i class="fb-dot" aria-hidden="true"></i>Live desk</span><span class="fx-cd" data-at="{{opening_at}}">Opening Night in <b data-cd>{{opening_in}}</b></span><span>{{signed}} stories, signed · {{events}} events · {{companies}} companies</span></div></div>
+<div class="fx-w">
+<form class="fx-pb" role="search" action="search/index.html" method="get"><span aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form>
+<p class="fx-pcs">{{#asks}}</p>
+<ul class="fx-days fb-days">{{#days}}</ul>
+<p class="fb-tools"><a href="events/index.html">The agenda</a><a href="summit/index.html">The summit</a><a href="companies/index.html">Companies</a><a href="graph/index.html">The graph</a></p>
+<div class="fb-cols">
+<section class="fb-tl"><h2 class="fx-h">Today and next <a href="events/index.html">Full agenda</a></h2><ol class="fx-list">{{#next}}</ol><div class="fx-radar"><p class="fx-rh"><b>AI radar</b><span>companies we follow, by field</span></p>{{#radar}}</div></section>
+<section class="fb-latest"><h2 class="fx-h">Latest <a href="articles/index.html">All stories</a></h2>{{lead}}<div class="fb-cards">{{#cards}}</div></section>
+</div></div>
+</div>
+<!-- part:lead -->
+<article class="fb-lead"><a href="{{href}}" tabindex="-1">{{picture}}</a><div><p class="fx-k">{{kicker}}</p><h3><a href="{{href}}">{{title}}</a></h3><p>{{dek}}</p><p class="fx-by">{{byline}} · {{minutes}} min read</p>{{pill}}</div></article>
+<!-- part:none -->
+<p>Our first article is on the way.</p>
+<!-- item:picture --><picture><source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
+<!-- item:pill --><span class="fx-pill" title="{{title}}">{{text}}</span>
+<!-- item:card --><article class="fb-card"><a href="{{href}}" tabindex="-1">{{picture}}</a><div><p class="fx-k">{{beat}}</p><h3><a href="{{href}}">{{title}}</a></h3><p>{{day}}</p>{{pill}}</div></article>
+<!-- item:radar --><a class="fx-rr" href="{{href}}"><span>{{name}}</span><i><u style="width:{{pct}}%"></u></i><code>{{n}}</code></a>
+<!-- item:day --><li class="{{cur}}"><a href="{{href}}"><b>{{wd}}</b><span>{{sub}}</span></a></li>
+<!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a></li>
+<!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
+<!-- end -->

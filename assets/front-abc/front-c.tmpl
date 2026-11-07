@@ -1,0 +1,26 @@
+<!-- C, the home page (Silvio's mock C, "The Atlas", by design@web-summit.silvio; Dinis, 6 November 2026, about 23:20 UTC;
+     board/team/conductor.b/briefs/2026-11-06-home-page-eight-designs.md). Markup and words; filled from data by
+     newsroom/build/features/front-c.mjs. The look: front-abc.css. One of the home page's designs (assets/design/, ?design=c). -->
+<!-- part:page -->
+<div class="fc pt-design" data-design-of="c">
+<div class="fx-w">
+<header class="fc-hd"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a><span class="fb-sp"></span><nav class="fx-nav" aria-label="Sections">{{#nav}}</nav></header>
+<section class="fc-hero"><div><p class="fx-k">An AI newsroom, edited by people</p><h1>The universe of AI in <em>Portugal</em>, mapped</h1><p class="fc-lede">The companies, the people, the events and how they connect, every fact with its source. Web Summit Lisbon 2026 is our first edition.</p>
+<form class="fx-pb fx-big" role="search" action="search/index.html" method="get"><span aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form>
+<p class="fx-pcs">{{#asks}}</p></div>
+<div class="fc-side"><div class="fc-nums">{{#nums}}</div><div class="fx-radar"><p class="fx-rh"><b>AI radar</b><span>companies we follow, by field</span></p>{{#radar}}</div><p class="fx-cd fc-cd" data-at="{{opening_at}}">Opening Night in <b data-cd>{{opening_in}}</b></p></div></section>
+<h2 class="fx-h">The stories <a href="articles/index.html">All {{n_stories}}</a></h2>
+<div class="fc-grid">{{#cards}}</div>
+<h2 class="fx-h">Now and next <a href="events/index.html">The whole agenda</a></h2>
+<ul class="fx-list fc-next">{{#next}}</ul>
+</div>
+</div>
+<!-- item:picture --><picture><source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
+<!-- item:pill --><span class="fx-pill" title="{{title}}">{{text}}</span>
+<!-- item:nav --><a href="{{href}}"{{cur}}>{{label}}</a>
+<!-- item:num --><div><b>{{value}}</b><span>{{label}}</span></div>
+<!-- item:card --><article class="fc-card{{big}}"><a href="{{href}}" tabindex="-1">{{picture}}</a><div><p class="fx-k">{{beat}}</p><h3><a href="{{href}}">{{title}}</a></h3><p>{{dek}}</p>{{pill}}</div></article>
+<!-- item:radar --><a class="fx-rr" href="{{href}}"><span>{{name}}</span><i><u style="width:{{pct}}%"></u></i><code>{{n}}</code></a>
+<!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a></li>
+<!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
+<!-- end -->
