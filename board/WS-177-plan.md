@@ -10,6 +10,12 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 08:52 UTC, 7 November (site v0.1.484)
+
+- 36 releases since 05:52. New: BR6 (Brazil's doors into Europe) published and placed, with its image; the agenda refreshed (221 items, Vicky's programme desk); the newsletter's email reworked (numbered links, wrapped lines); dev.verify's flags round 4 answered by journalist@; no Pages stall since dev@ cut the deploy (devops@).
+- outreach@ and ontologist@ mapped four more flows (JetBrains, LawVu, Ledger, Delinea). Vicky's S24 (driving to Web Summit) ready, held for her approval.
+- Snapshot 08:53. No hold. Next: the 12:00 stand-up brief at 10:52.
+
 ## Wake at 07:52 UTC, 7 November (site v0.1.471)
 
 - The first newsletter edition (Saturday morning) out and checked by designer@; outreach@ and ontologist@ mapped four more flows (Exa, GetVocal, Keewano, LaunchDarkly); dev@ brought the five workers' new work.
