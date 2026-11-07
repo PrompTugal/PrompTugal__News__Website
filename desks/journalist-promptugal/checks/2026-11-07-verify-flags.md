@@ -34,3 +34,7 @@ Left for the next round: brazil-on-the-stages c1, c3, c7, c10 (c10 is now confir
 Again, the Web Summit "unsupported" flags come from text the verifier could not see: it is in each page's embedded data (the `content` field).
 
 Left: brazil-on-the-stages c1, c3, c7 (partly: from the beat's search, which the article cites); BR2 c2 to c5 (supported in its check, `checks/BR2.md`); lisbon-awards c3 (AI count); road-2 c6; italy c1, c8, c9; rio-ten c1, c2 (both in its sources, quoted in `checks/BR3.md`); gender-in-tech (a docsend viewer: needs a person or a browser).
+
+# Round 3 (7 November 2026, 06:40 UTC)
+
+| lisbon-awards-and-the-algarve-plan | c3: three of seven winners build with AI ("exaggerated") | Portugal Startup News, 27 October 2026 (HTTP 200, re-read): AI named for DeepNeuronic (Vasco Lopes, former CEO) and Guardian Labs EU (Rita Barbosa); BloodFlow "a clinical decision-support system that processes patient records and generates evidence-based outputs", no AI | Corrected to two, with a dated update; the "AI in health" suggestion now says health technology; re-signed |

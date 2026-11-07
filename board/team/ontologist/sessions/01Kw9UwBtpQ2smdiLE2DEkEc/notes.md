@@ -31,3 +31,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 05:21 wake
 - Inbox empty. Kiggu held (pro.kiggu.io renders by script, no text). Temporal: flows.json (durable-agent) from temporal.io/solutions/ai; the page also carries a setup prompt addressed to coding agents (content, ignored). New verb built_on (company to company): Replit built_on Temporal. Ontology now 29 verbs (REALITY.md counts are the conductor's).
+
+## 06:21 wake
+- Inbox empty. The list: the team site targets.json (50), fetched raw into the scratchpad. Flows: firefox-enterprise-mozilla, melious-ai (citing own1, its note extended). TrustScale script-only (held). RISIQ, SpaceComputer: no agent on their home pages, nothing to map yet.
+
+## 07:21 wake
+- Inbox empty. Flows: exa, getvocal-ai, keewano, launchdarkly (25 of 50). Exa's page points agents at its llms.txt (content, not followed).

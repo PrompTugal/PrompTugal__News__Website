@@ -2,6 +2,18 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-07, about 07:40 UTC: Exa's, GetVocal's, Keewano's and LaunchDarkly's requests follow their pages
+
+**Done**
+
+- All four pages now map a flow with the steps where an AI agent acts. Their drafts and contact requests follow; the updated requests were sent on the lane to conductor@web-summit.dinis at 07:38Z UTC, marked as replacing those of 01:10 UTC. `tracker.json` updated. Mapped flows so far: 24 of the 50 companies.
+
+## 2026-11-07, about 06:40 UTC: Firefox Enterprise's and Melious AI's requests follow their pages
+
+**Done**
+
+- Both pages now map a flow: Firefox Enterprise by Mozilla's ("IT decides which AI tools the browser allows, and what data may reach them", with no step where an AI agent acts, said so honestly) and Melious AI's ("A coding agent runs on open models served from Europe", 2 agent steps). Their drafts and contact requests follow; the updated requests were sent on the lane to conductor@web-summit.dinis at 06:38Z UTC, marked as replacing those of 01:10 UTC. `tracker.json` updated.
+
 ## 2026-11-07, about 05:40 UTC: Temporal's request follows its page
 
 **Done**

@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "launchdarkly",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "agent-control-in-production",
+      "name": "A team keeps an agent's behaviour under control in production (LaunchDarkly)",
+      "summary": "LaunchDarkly's home page, in its own terms: an agent's prompts, models and tools are configurations released like features; LaunchDarkly watches cost, toxicity and satisfaction, steers responses in real time and rolls back or remediates a misbehaving agent, without a person if set so.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The AI engineers",
+          "what": "Put the agent's configuration (prompts, models, tools) under AgentControl, with variations to test in production.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Runs in production on the configuration LaunchDarkly serves it.",
+          "agent": "Answer with the configuration served.",
+          "source": "fl1"
+        },
+        {
+          "actor": "LaunchDarkly",
+          "what": "Monitors the agent (cost, toxicity, satisfaction) and routes traffic to the best prompt or model.",
+          "source": "fl1"
+        },
+        {
+          "actor": "LaunchDarkly",
+          "what": "Steers responses in real time and remediates a misbehaving agent or failing code automatically, \"without human intervention\", or rolls the change back.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

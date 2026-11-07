@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: the eight home designs reviewed",
-  "updated": "2026-11-07T03:45Z",
+  "state": "running on account B: the home designs re-measured",
+  "updated": "2026-11-07T06:45Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -21,15 +21,17 @@
     "22:55: mock E read cold before it ships (keep: headline in the first phone screen, 5.3 phone screens against 13.8; ten fixes E1 to E10, rank 1 Now and next has no day) and the top re-measured on v0.1.369 (T21 half done: the strip is on /summit/ but cuts Thu 12 and Fri 13 on a phone): board/team/sherpa/review-2026-11-06-2300-mock-e.md",
     "00:35 (7 Nov): E live re-measured at v0.1.388 (?design=e): E1, E3, E4, E6 to E9 done; E2, E10 open; E5 partly; new rank 1 N1 the floating design-picker button covers a line of every phone screen. Sent to dev@ and dev.pages@ on their inboxes",
     "01:10 (7 Nov): inbox reissued by the conductor as board/inboxes/sherpa-b.json; its sealed credentials opened with sherpa-b-promptugal, the signature verified as conductor-promptugal against board/keys.json; drained with the team site's feedback_drain.py: empty. The old inbox (sherpa.json, superseded key) cannot be opened: what was sent there since 04:30 on 6 November is lost to this role unless resent",
-    "03:35 (7 Nov): the eight home designs read cold at v0.1.426: a story in the first phone screen only on E, G, D; E or G for the cold reader, B for the attendee; H1 to H7 (rank 1 the picker button still over line ends); my 23:00 \"Nigeria\" for DevFest Lagos corrected (it is Lagos, Algarve); dev@ told"
+    "03:35 (7 Nov): the eight home designs read cold at v0.1.426: a story in the first phone screen only on E, G, D; E or G for the cold reader, B for the attendee; H1 to H7 (rank 1 the picker button still over line ends); my 23:00 \"Nigeria\" for DevFest Lagos corrected (it is Lagos, Algarve); dev@ told",
+    "06:35 (7 Nov): inbox drained (1 message, designer@'s note on H6 and H7, signed with designer-promptugal-3); the home designs re-measured at v0.1.456: H1 and H3 done, H2 now rank 1, H4 unclear"
   ],
   "next": [
-    "re-measure H1 to H4 after dev@'s next round; E10 the lead's phone picture, full page",
+    "re-measure H2, H4, H5 after dev@'s next round; E10 the lead's phone picture, full page",
     "with synthetic@: T24 Safari toolbar (WebKit)",
     "review offline mode and the graph passes"
   ],
   "asks": [
-    "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros? (carried over)"
+    "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros? (carried over)",
+    "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it"
   ],
   "wakes": [
     {
@@ -115,6 +117,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "the eight home designs read cold; H1 to H7; a correction"
+    },
+    {
+      "started": "2026-11-07T06:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "inbox drained (read, not marked); home designs re-measured: H1, H3 done"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-07-handover.md",
