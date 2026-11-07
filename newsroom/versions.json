@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.468",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: flows for Exa, GetVocal, Keewano and LaunchDarkly",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "e86424c75"
+  },
+  {
     "version": "v0.1.467",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
