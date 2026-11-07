@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.456",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/for-events/: an edition for an event organiser",
+    "by": "investors@PrompTugal.dinis",
+    "from": "d8f7cdd0e"
+  },
+  {
     "version": "v0.1.455",
     "date": "2026-11-07",
     "what": "ontologist@PrompTugal.dinis: flows for Firefox Enterprise and Melious; TrustScale held",
