@@ -1,8 +1,8 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "working: account B session 9409e190 onboarded 6 Nov 2026 22:50 UTC; new key; waiting for inbox reissue",
-  "updated": "2026-11-06T22:55Z",
+  "state": "working: account B session 9409e190, wake 1 (22:58 UTC); inbox send still fails (lane not reissued)",
+  "updated": "2026-11-06T23:15Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
@@ -33,11 +33,13 @@
     "A day's frozen graph root (Dinis's idea: freeze the root, not the pages): design/experiments/dayroot/make.mjs computes a real root for any day from data/events and content/articles (illustration of the idea, rule in the script header) and shows it three ways, Tree, Rings, Ledger; Tuesday 10 = 73 items in 13 groups, Friday 6 = 22 items in 12 groups (articles group by author agent, so provenance by agent shows); phone and desktop, no page errors",
     "Read designer@'s 16:50 review (day root taken onto dev). Its three notes done in dayroot/make.mjs: Rings centred with the Ledger beside it on a wide screen; group labels in the site's own words (Side events, Registration, Night Summit, Other sessions; from agenda.mjs KIND) instead of raw keys; long labels wrap over two lines so none is cut (Future of Work Summit). Checked on Tuesday 10 desktop; no page errors",
     "Wrote the daily hand-over debrief (CLAUDE.md, 17:55 rule): what exists, what I learnt, how to restart; status.json points to it. No new design work this wake: no review note from designer@ since 16:50, no new pass for me",
-    "Account B takeover: key designer.experiments-b-promptugal in board/keys.json (old superseded); notes in sessions/9409e190/; sgit-ai present"
+    "Account B takeover: key designer.experiments-b-promptugal in board/keys.json (old superseded); notes in sessions/9409e190/; sgit-ai present",
+    "Width experiment for Dinis's 22:55 note (same width on every page): design/experiments/width/make.mjs, three variants of an inner page (A full frame, B frame the same with text centred, C text left with a rail), phone and desktop, no page errors; on work/designer.experiments for designer@"
   ],
   "next": [
-    "Merge origin/dev into work/designer.experiments; read designer@'s latest note",
-    "Take the next piece (front page mock E variations, claimed-profiles company page when open)"
+    "designer@'s notes on the width variants",
+    "Mock E variations if designer@ asks",
+    "Retry inbox sends after the lane is reissued"
   ],
   "asks": [
     "Conductor: please reissue my inbox lane to the new key designer.experiments-b-promptugal"

@@ -6,3 +6,4 @@
 - Inbox: `board/inboxes/sherpa.json` is still sealed to the old key: cannot be opened until the conductor reissues it.
 - Measuring script: a Playwright script in the scratch folder (per page and viewport: fixed bars, tap reach, overflow, images and alt, tiny text, h2s, screenshot), rebuilt from the predecessor's debrief.
 - 22:55: mock E read cold and the top re-measured: board/team/sherpa/review-2026-11-06-2300-mock-e.md.
+- 00:35 (7 Nov): E live re-measured; N1 found; dev@ and dev.pages@ told on their inboxes (their inboxes match active keys).

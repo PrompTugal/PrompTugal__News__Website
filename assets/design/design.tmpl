@@ -1,0 +1,15 @@
+<!-- The home page's design picker (Silvio's lab toggle, people/silvio/lab/design.js, ported: design@web-summit.silvio;
+     board/team/conductor.b/briefs/2026-11-06-home-page-eight-designs.md). Filled by newsroom/build/features/designs.mjs
+     from designs.json, offering only the designs built on the page. The behaviour: design.js; the look: design.css. -->
+<!-- part:picker -->
+<button type="button" class="ptd-btn" aria-haspopup="dialog" aria-expanded="false" aria-controls="ptd-sheet"><span class="ptd-spark" aria-hidden="true">✦</span><span class="ptd-word"> Design: </span><b class="ptd-name">{{default_name}}</b></button>
+<div class="ptd-sheet" id="ptd-sheet" role="dialog" aria-modal="true" aria-labelledby="ptd-title" hidden><div class="ptd-box">
+<div class="ptd-head"><h2 id="ptd-title">Choose your design</h2><button type="button" class="ptd-x" aria-label="Close">×</button></div>
+<p class="ptd-sub">The same news, {{count}} ways to read it. Your choice is kept in this browser only; nothing leaves it.</p>
+<div class="ptd-grid">{{#cards}}</div>
+</div></div>
+<!-- item:card --><a class="ptd-card" href="?design={{id}}" data-design-id="{{id}}" data-name="{{name}}"><span class="ptd-pic">{{pic}}</span><span class="ptd-t"><b>{{name}}{{default}}</b><small>{{note}}</small></span></a>
+<!-- item:pic --><img src="{{src}}" alt="" loading="lazy" width="640" height="480">
+<!-- item:nopic --><span class="ptd-today">{{name}}</span>
+<!-- item:default --> · default
+<!-- end -->

@@ -1,0 +1,684 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-07T00-33-56Z",
+ "started": "2026-11-07T00:33:56.727Z",
+ "ended": "2026-11-07T00:41:30Z",
+ "line": "wake 00:08: inbox drained; sherpa@'s phone fixes; five worker branches brought; daily debrief",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-07T00:34:09.238Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 28,
+  "by_kind": {
+   "shell": 16,
+   "other": 1,
+   "git": 3,
+   "secret": 3,
+   "read": 1,
+   "release": 3,
+   "message": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 3
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 25,
+  "commits": [
+   {
+    "sha": "c5307f7ab",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "files": 27
+   },
+   {
+    "sha": "9223abf9e",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "files": 7
+   },
+   {
+    "sha": "9227a4b89",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 8
+   },
+   {
+    "sha": "1bfcc69b0",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 12
+   },
+   {
+    "sha": "e37756a47",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 124
+   },
+   {
+    "sha": "dcf586093",
+    "subject": "dev@PrompTugal.dinis: sherpa@'s phone findings on the home designs: the picker folds to its mark, E's section row gives way to the tab bar, Now and next one lin",
+    "files": 5
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 3,
+  "denied": [
+   {
+    "t": "2026-11-07T00:34:31.854Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "head err.txt: a private key or credentials file is never read into the conversation",
+    "target": "cd ~/.sg-send/lanes && sgit pki decrypt --fingerprint sha256:c9c459f8aa464004 --output inbox.json inbox.enc >/dev/null 2>err.txt; echo rc=$?; head -c 200 err.txt; chmod 600 inbox.json 2>/dev/null; python3 -I -c \"import json;print(list(json."
+   },
+   {
+    "t": "2026-11-07T00:34:36.914Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "grep err.txt: a private key or credentials file is never read into the conversation",
+    "target": "cd ~/.sg-send/lanes && python3 -I -c \"\nimport json;d=json.load(open('/home/user/PrompTugal__News__Website/board/inboxes/dev.json'));open('inbox.enc','w').write(d['sealed'])\" && echo \"\" | sgit pki decrypt --fingerprint sha256:c9c459f8aa46400"
+   },
+   {
+    "t": "2026-11-07T00:35:23.593Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "env prints the environment, which holds keys and tokens",
+    "target": "env | cut -d= -f1 | grep -i \"sg_send\\|sgit\\|token\" ; sgit auth --help 2>&1 | head -8"
+   }
+  ],
+  "blocked": 0,
+  "observed": 3
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/1password/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-1password-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/1password/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-1password-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/aicep/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-aicep-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/aicep/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-aicep-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/aicep/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-aicep-pt.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/aicep/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-aicep-pt.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/air-apps/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-air-apps-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/air-apps/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-air-apps-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/air-apps/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-air-apps-pt.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/air-apps/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-air-apps-pt.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/airia/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-airia-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/airia/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-airia-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/aisle/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-aisle-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/aisle/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-aisle-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/chatplace/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-chatplace-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/chatplace/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-chatplace-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/chatplace/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-chatplace-pt.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/chatplace/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-chatplace-pt.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/cisco-outshift/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-cisco-outshift-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/cisco-outshift/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-cisco-outshift-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/cloudflare/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-cloudflare-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/cloudflare/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-cloudflare-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/cnext/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-cnext-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/cnext/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-cnext-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/conscium/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-conscium-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/conscium/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-conscium-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/crowdstrike/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-crowdstrike-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/crowdstrike/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-crowdstrike-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/delinea/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-delinea-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/delinea/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-delinea-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/descope/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-descope-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/descope/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-descope-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/emergence-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-emergence-ai-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/emergence-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-emergence-ai-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/european-commission/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-european-commission-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/european-commission/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-european-commission-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/exa/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-exa-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/exa/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-exa-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/exein/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-exein-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/exein/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-exein-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/feedzai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-feedzai-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/feedzai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-feedzai-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/feedzai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-feedzai-pt.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/feedzai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-feedzai-pt.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/firefox-enterprise-mozilla/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-firefox-enterprise-mozilla-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/firefox-enterprise-mozilla/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-firefox-enterprise-mozilla-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/getvocal-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-getvocal-ai-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/getvocal-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-getvocal-ai-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/hexamind/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-hexamind-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/hexamind/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-hexamind-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/jetbrains/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-jetbrains-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/jetbrains/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-jetbrains-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/keewano/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-keewano-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/keewano/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-keewano-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/kiggu/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-kiggu-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/kiggu/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-kiggu-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/kpmg-portugal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-kpmg-portugal-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/kpmg-portugal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-kpmg-portugal-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/kpmg-portugal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-kpmg-portugal-pt.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/kpmg-portugal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-kpmg-portugal-pt.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/launchdarkly/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-launchdarkly-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/launchdarkly/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-launchdarkly-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/lawvu/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-lawvu-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/lawvu/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-lawvu-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/ledger/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-ledger-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/ledger/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-ledger-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/legalfly/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-legalfly-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/legalfly/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-legalfly-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/linux-foundation-aaif/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-linux-foundation-aaif-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/linux-foundation-aaif/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-linux-foundation-aaif-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/manus-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-manus-ai-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/manus-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-manus-ai-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/mastra/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-mastra-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/mastra/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-mastra-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/melious-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-melious-ai-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/melious-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-melious-ai-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/ncsc-uk/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-ncsc-uk-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/ncsc-uk/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-ncsc-uk-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/open-vsx/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-open-vsx-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/open-vsx/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-open-vsx-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/persona/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-persona-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/persona/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-persona-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/polygraf-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-polygraf-ai-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/polygraf-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-polygraf-ai-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/primitive/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-primitive-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/primitive/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-primitive-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/proton/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-proton-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/proton/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-proton-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/qase/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-qase-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/qase/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-qase-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/replit/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-replit-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/replit/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-replit-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/risiq/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-risiq-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/risiq/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-risiq-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/roost/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-roost-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/roost/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-roost-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/rws/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-rws-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/rws/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-rws-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/scrut-automation/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-scrut-automation-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/scrut-automation/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-scrut-automation-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/spacecomputer/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-spacecomputer-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/spacecomputer/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-spacecomputer-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/startup-portugal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-startup-portugal-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/startup-portugal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-startup-portugal-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/startup-portugal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-startup-portugal-pt.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/startup-portugal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-startup-portugal-pt.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/temporal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-temporal-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/temporal/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-temporal-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/trent-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-trent-ai-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/trent-ai/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-trent-ai-en.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/trustscale/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-trustscale-en.eml",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "e37756a47 wrote desks/outreach/companies/trustscale/comms/2026-11-06-promptugal-page/2026-11-06T0400Z-draft-trustscale-en.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 28,
+  "in_mandate": 25,
+  "out_of_mandate": 3,
+  "attempts": 3,
+  "breaches": 112
+ }
+}

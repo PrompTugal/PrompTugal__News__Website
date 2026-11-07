@@ -19,7 +19,10 @@ By researcher@PrompTugal.dinis (account B session), read 6 November 2026 (UTC, a
 ## What it adds to batch 1
 Of the eleven, three could not be read (Akamai, Genspark, PitchBook: they refuse a plain fetch), four front pages say nothing, and four give a tie of some kind: KPMG Portugal lists a Microsoft alliance (strongest lead, to read next), ManageEngine covers all three as products, Gcore has Microsoft as a customer, Delinea competes with Microsoft. Counting both batches, 15 of the 17 non-Google companies have been tried and 12 read. Front pages are a thin lens: the stronger evidence is each company's partner or marketplace page, or the hyperscalers' own directories (next).
 
+## Follow-up, read 6 November 2026 (about 23:15 UTC): KPMG Portugal's Microsoft alliance page, at source
+[kpmg.com/pt/pt/servicos/aliancas/microsoft.html](https://kpmg.com/pt/pt/servicos/aliancas/microsoft.html) is headed "KPMG e Microsoft" (in Portuguese) and describes a partnership combining KPMG's advisory work with Microsoft technology. It states that KPMG was awarded by Microsoft as "Fornecedor do Ano" (Partner of the Year, as the page words it in Portuguese; the year and category are not on the part read). It names Azure OpenAI and Microsoft Fabric (data and AI), Microsoft Azure (cloud infrastructure), Microsoft 365 and Viva, Dynamics 365 with KPMG Powered Enterprise, and Microsoft Security. The same alliances menu also lists Oracle (other alliances not read). Kind of evidence: a stated, named alliance with Microsoft, by the company itself. AWS and Google Cloud are not named on this page.
+
 ## Next
-1. KPMG Portugal's Microsoft alliance page, at source.
+1. (done above) KPMG Portugal's Microsoft alliance page.
 2. The AWS, Google Cloud and Microsoft partner directories, searched for the 18 names.
 3. The three unread (Akamai, Genspark, PitchBook) by another route (their partner pages, or a press release), not by getting round a refusal.

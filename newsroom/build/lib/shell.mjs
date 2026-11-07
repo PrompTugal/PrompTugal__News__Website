@@ -62,7 +62,10 @@ export function htmlPage(page, site) {
     const tocHtml = toc.length > 2 && !front ? `<details class="toc" open><summary>On this page</summary><ul>${toc.map(([id, t]) => `<li><a href="#${id}">${inline(t)}</a></li>`).join('')}</ul></details>` : ''
     const css = [...(site.assets?.css || []), ...(page.assets?.css || [])].map(c => `\n<link rel="stylesheet" href="${href(c)}">`).join('')
     const js = [...(site.assets?.js || []), ...(page.assets?.js || [])].map(s => `\n<script defer src="${href(s)}"></script>`).join('')
+    // a page's own scripts that must run before the body is drawn (a switch between two layouts, so neither flashes)
+    const headJs = (page.assets?.head || []).map(s => typeof s === 'string' ? { src: s } : s).map(s => `\n<script src="${href(s.src)}"${Object.entries(s.data || {}).map(([k, v]) => ` data-${k}="${esc(typeof v === 'function' ? v() : v)}"`).join('')}></script>`).join('')
     const E = S.endorse
+    // the footer says only "Powered by RiskMandate" (Dinis, 6 November 2026, 22:55: RiskMandate off the home page but a footer line)
     // the masthead no longer carries "Powered by RiskMandate" (Dinis, 6 November 2026, 03:39: "take away this Powered by RiskMandate"; FP-03); the footer keeps it
     const ears = front ? S.ears.map((e, i) => `<div class="ear ${i ? 'r' : 'l'}"><b>${esc(e.title)}</b>${esc(e.text)}${e.href ? ` <a href="${href(e.href)}">${esc(e.link)}</a>` : ''}</div>`).join('\n') : ''
     const columns = [...new Set(site.footer.map(f => f.column || ''))]
@@ -94,7 +97,7 @@ ${seoHead(page, site)}
 <link rel="stylesheet" href="${up}assets/site.css">${css}
 <link rel="stylesheet" href="${up}assets/top/top.css">
 <script src="${up}assets/themes.js"></script>
-<script src="${up}assets/top/top.js"></script>
+<script src="${up}assets/top/top.js"></script>${headJs}
 </head>
 <body class="type-${esc(type || 'site')}${front ? ' page-front' : ''}">
 <a class="skip" href="#main">Skip to the content</a>
@@ -107,6 +110,7 @@ ${ears}
 </header>
 <nav class="site" aria-label="Sections"><div class="row"><div class="links">${nav}</div><div class="tools" id="nr-tools"></div></div></nav>
 <div id="nr-live" data-start="${S.countdown.start}" data-end="${S.countdown.end}"></div>
+${page.before || ''}
 <div class="frame">
 <main id="main"${wide ? ' class="wide"' : ''}>
 <header class="page-head">
@@ -124,7 +128,7 @@ ${bodyHtml}
 </div>
 <div id="nr-pane" hidden></div>
 <footer><div class="row">
-<div class="foot-brand"><a class="name" href="${up}index.html" aria-label="${esc(S.name)}, the front page">${WORDMARK(up)}</a><span>${esc(S.motto)}. ${esc(S.promise)}</span><span class="independence">${esc(S.independence)}</span><span>${esc(E.label)} <a href="${href(E.href)}">${esc(E.name)}</a>. ${esc(S.disclosure)} <a href="${href(S.disclosure_href)}">Read our disclosure</a>.</span></div>
+<div class="foot-brand"><a class="name" href="${up}index.html" aria-label="${esc(S.name)}, the front page">${WORDMARK(up)}</a><span>${esc(S.motto)}. ${esc(S.promise)}</span><span class="independence">${esc(S.independence)} <a href="${href(S.disclosure_href)}">Read our disclosure</a>.</span><span class="powered">${esc(E.label)} <a href="${href(E.href)}">${esc(E.name)}</a></span></div>
 <div class="foot-cols">${foot}</div>
 <p class="small">${esc(S.footer_note)}${utility ? ` · ${utility}` : ''} · ${ver}<span class="foot-theme"></span></p>
 </div></footer>

@@ -425,6 +425,78 @@
       "about": [
         "organisation:web-summit"
       ]
+    },
+    {
+      "id": "c36",
+      "text": "Web Summit's revenues rose to 52.5m euro in 2022 from 31.8m the year before, as it recovered from the pandemic.",
+      "kind": "fact",
+      "source": "rte-2024-02-16-accounts-2022",
+      "quote": "The company's revenues rose to €52.5m from €31.8m in 2022 as it recovered from the Covid pandemic",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2022",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c37",
+      "text": "Web Summit said its 2022 Lisbon event was sold out, with 71,000 attendees, 2,300 startups and 342 partners from 160 countries.",
+      "kind": "fact",
+      "source": "rte-2024-02-16-accounts-2022",
+      "quote": "Web Summit said its Lisbon event in 2022 was a sold out event with 71,000 attendees, 2,300 startups and 342 partners from 160 countries",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2022",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c38",
+      "text": "Web Summit's profit before tax for 2022 was 326,484 euro, down from 4.347m euro in 2021.",
+      "kind": "fact",
+      "source": "rte-2024-02-16-accounts-2022",
+      "quote": "profit before tax tumbled to €326,484 from €4.347m in 2021",
+      "read_on": "2026-11-06",
+      "about": [
+        "event:web-summit-lisbon-2022",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c39",
+      "text": "Web Summit appointed the former Wikimedia Foundation chief executive Katherine Maher as its chief executive.",
+      "kind": "fact",
+      "source": "rte-2023-11-14-opens-in-lisbon",
+      "quote": "Web Summit appointed former Wikimedia Foundation CEO Katherine Maher as the chief executive.",
+      "read_on": "2026-11-07",
+      "about": [
+        "event:web-summit-lisbon-2023",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c40",
+      "text": "Web Summit said more than 300 partners were coming to the 2023 Lisbon event.",
+      "kind": "fact",
+      "source": "rte-2023-11-14-opens-in-lisbon",
+      "quote": "The Web Summit said more than 300 of its partners were coming to the event",
+      "read_on": "2026-11-07",
+      "about": [
+        "event:web-summit-lisbon-2023",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c41",
+      "text": "RTE reported 2,600 startups, described as record-breaking, and more than 900 investors were expected at Web Summit 2023.",
+      "kind": "fact",
+      "source": "rte-2023-11-14-opens-in-lisbon",
+      "quote": "A record-breaking 2,600 startups and more than 900 investors were expected to attend.",
+      "read_on": "2026-11-07",
+      "about": [
+        "event:web-summit-lisbon-2023",
+        "organisation:web-summit"
+      ]
     }
   ]
 }

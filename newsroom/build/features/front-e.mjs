@@ -1,0 +1,87 @@
+// E, the home page (Silvio's mock E; Dinis, 6 November 2026, about 22:40 UTC; board/briefs/2026-11-06-front-page-mock-e.md).
+// Filled from data, never hard-coded: the lead and the order from the correspondent's desks/correspondent/front-page.json
+// (frontOrder), the briefing and the stories from the published articles, "This week" and "Now and next" from the
+// agenda's items (the same data as api/v1/days.json), the numbers from the store. The markup and words are the component
+// assets/front-e/ (front-e.tmpl); this file only computes. The marker <!-- front:e --> in content/index.md places it
+// before the page's frame (page.before, in the shell), as one of the home page's designs (features/designs.mjs).
+import fs from 'node:fs'
+import path from 'node:path'
+import { frontOrder, byline, minutes, imageFile, figureOf } from './front.mjs'
+import { load, rank } from './agenda.mjs'
+import { WORDMARK } from '../lib/shell.mjs'
+export const order = 23
+
+const T = fs.readFileSync(new URL('../../../assets/front-e/front-e.tmpl', import.meta.url), 'utf8')
+const part = n => (T.split(`<!-- part:${n} -->\n`)[1] || '').split('\n<!-- ')[0]
+const item = n => (T.split(`<!-- item:${n} -->`)[1] || '').split('\n')[0]
+const put = (t, v) => t.replace(/\{\{(#?[a-z_]+)\}\}/g, (m, k) => v[k] ?? '')
+const many = (n, list) => list.map(v => put(item(n), v)).join('')
+
+const slugOf = a => a.rel.replace(/^articles\//, '').replace(/\.html$/, '')
+const beatOf = a => String(a.meta.beat || String(a.meta.tags || 'News').split(',')[0]).replace(/^connections:\s*/i, '').trim()
+const cut = (t, max) => t.length > max ? t.slice(0, max - 1).replace(/\s+\S*$/, '') + '…' : t
+// the pill only where true: "signed" when the article's signature is in the repository (the gate verifies every one
+// against board/keys.json and refuses the release otherwise), "checked" when dev.verify@'s verified record exists
+function pill(ctx, a) {
+    const s = slugOf(a), has = f => fs.existsSync(path.join(ctx.ROOT, f))
+    const parts = ['agent-written', has(`board/team/dev.verify/records/${s}/verified.json`) && 'checked', has(`${a.rel.replace(/\.html$/, '.md')}.sig`) && 'signed'].filter(Boolean)
+    return parts.length > 1 ? put(item('pill'), { text: '✦ ' + parts.join(' · '), title: 'Written by an AI agent; ' + parts.slice(1).join(' and ') }) : ''
+}
+function picture(esc, a, size, lazy) {
+    const i = imageFile(a, size); if (!i) return ''
+    const [w, h] = size === 'card' ? [1200, 630] : [480, 480]
+    return put(item('picture'), { src: i.src, ink: i.src.replace('--paper--', '--ink--'), alt: esc(i.alt), w, h, load: lazy ? ' loading="lazy" decoding="async"' : ' fetchpriority="high"' })
+}
+// an agenda item's moment, in Lisbon's time (UTC in November): "Today 15:00", "Sat 09:30", "Sat, all day"
+const when = (ctx, i) => { const d = i.date === ctx.TODAY ? 'Today' : ctx.DAY(i.date).split(' ')[0].slice(0, 3); return i.start ? `${d} ${i.start}` : `${d}, all day` }
+const endOf = i => `${i.date}T${i.end || i.start || '23:59'}:00Z`
+const plusDays = (d, n) => new Date(Date.parse(d) + n * 864e5).toISOString().slice(0, 10)
+
+function lead(ctx, a) {
+    if (!a) return part('none')
+    const esc = ctx.md.esc, f = figureOf(a), fig = picture(esc, a, 'card', false)
+    let headline = esc(a.meta.title)
+    if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
+    return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
+        pill: pill(ctx, a), figure: fig ? put(item('figure'), { href: a.rel, picture: fig }) : '' })
+}
+
+function fillE(page, ctx) {
+    const esc = ctx.md.esc, all = frontOrder(ctx), { AGENDA, itemsOn } = load(ctx)
+    const story = (a, i) => put(item('story'), { big: i ? '' : ' big', beat: esc(beatOf(a)), href: a.rel, title: esc(a.meta.title), dek: esc(cut(a.meta.summary || '', 170)), pill: pill(ctx, a),
+        thumb: i && imageFile(a, 'thumb') ? put(item('thumb'), { href: a.rel, picture: picture(esc, a, 'thumb', true) }) : '' })
+    // this week: today and the six days after it, the two that matter most each day
+    const week = [...Array(7).keys()].map(n => plusDays(ctx.TODAY, n)).flatMap(d => [...itemsOn(d)].sort((x, y) => rank(x) - rank(y) || (x.start || '').localeCompare(y.start || '')).slice(0, 2))
+    const seenWk = new Set()
+    const wk = week.filter(i => { const k = i.what.split(/:\s|\s\(/)[0]; return !seenWk.has(k) && seenWk.add(k) }).map(i => ({ href: `events/${i.id}/index.html`, date: i.date, when: esc(when(ctx, i)), what: esc(cut(i.what, 80)) }))
+    // now and next: what has not ended yet, in time order, the bigger moments first within a day (the page drops the ended)
+    const seenNext = new Set()
+    const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && rank(i) <= 3 && !seenNext.has(i.date + i.what.split(/:\s|\s\(/)[0]) && seenNext.add(i.date + i.what.split(/:\s|\s\(/)[0])).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '').localeCompare(y.start || '')).slice(0, 10)
+    const fields = ctx.store.topics.filter(t => t.kind === 'field').map(t => [t, ctx.store.companies.filter(c => c.category === t.category).length]).filter(x => x[1]).sort((x, y) => y[1] - x[1])
+    const max = fields[0]?.[1] || 1
+    const opening = AGENDA.items.find(i => /opening night/i.test(i.what))
+    const openingAt = opening ? `${opening.date}T${opening.start || '18:00'}:00Z` : ''
+    const days = Math.ceil((Date.parse(openingAt) - Date.parse(ctx.TODAY + 'T12:00:00Z')) / 864e5)
+    const signed = all.filter(a => fs.existsSync(path.join(ctx.ROOT, a.rel.replace(/\.html$/, '.md') + '.sig'))).length
+    const [y, mo, d] = ctx.TODAY.split('-')
+    page.before = (page.before || '') + put(part('page'), {
+        today: ctx.TODAY, date: `${ctx.DAY(ctx.TODAY)} ${y}`, opening_at: openingAt, opening_in: days > 0 ? `${days}d` : '', name: esc(ctx.SITE.name), wordmark: WORDMARK(''),
+        '#nav': many('nav', ctx.NAV.nav.map(n => ({ href: n.href, label: esc(n.label), cur: n.id === 'now' ? ' aria-current="page"' : '' }))),
+        lead: lead(ctx, all[0]),
+        '#week': many('week', wk), '#week_again': many('week', wk.map(w => ({ ...w, tab: ' tabindex="-1"' }))),
+        '#briefing': many('brief', all.slice(5, 10).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) }))),
+        '#stories': all.slice(1, 5).map(story).join(''),
+        '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)) }))),
+        '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
+        '#nums': many('num', [[ctx.store.companies.length, 'companies followed'], [week.length && [...Array(7).keys()].reduce((s, n) => s + itemsOn(plusDays(ctx.TODAY, n)).length, 0), 'events this week'], [signed, 'stories, signed'], ['9 to 12', 'November, Lisbon']].map(([value, label]) => ({ value, label }))),
+        '#asks': many('ask', ['Which AI agent companies are at Web Summit?', 'What is on Tuesday for security?', 'Portuguese startups raising money'].map(q => ({ q: encodeURIComponent(q), text: esc(q) }))),
+    })
+    return ''
+}
+
+// the home page carries E's look and its script
+export function decorate(p) {
+    if (p.rel !== 'index.html') return
+    p.assets = { ...(p.assets || {}), css: [...(p.assets?.css || []), 'assets/front-e/front-e.css'], js: [...(p.assets?.js || []), 'assets/front-e/front-e.js'] }
+}
+export const fill = { 'front:e': fillE }

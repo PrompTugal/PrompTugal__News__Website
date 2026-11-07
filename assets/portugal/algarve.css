@@ -1,5 +1,5 @@
 /* The Algarve Evolution page: hero, tiles, left map, collapsible sections. Scoped to .ae. */
-.ae { max-width: 1180px; margin: 0 auto; }
+.ae { max-width: none; margin: 0 auto; }
 body:has(.ae.js) .toc { display: none; }
 .ae-hero { padding: 8px 0 20px; border-bottom: 2px solid var(--ink); margin-bottom: 20px; }
 .ae-hero > p { max-width: 46em; font: 400 16.5px/1.55 var(--sans); margin: 0 0 12px; }

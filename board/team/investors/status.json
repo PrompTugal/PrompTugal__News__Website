@@ -1,25 +1,27 @@
 {
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal.news as an investable business: its own investor story, apart from investors@web-summit.dinis (My Feeds); publisher The Cyber Boardroom (UK)",
-  "state": "running on account B (session 01Kw9UwA); waiting for Dinis on the decision page",
-  "updated": "2026-11-06T22:55Z",
+  "state": "running on account B (session 01Kw9UwA, wakes every three hours at :23); waiting for Dinis on the decision page and for my inbox to be reissued",
+  "updated": "2026-11-07T00:30Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
-  "latest_debrief": "board/team/investors/debriefs/2026-11-06-handover.md",
+  "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
     "Account B session onboarded (CLAUDE.md, New from Dinis, the account move, ROLE.md, the 21:30 debrief)",
     "New session key investors-b-promptugal in board/keys.json; investors-promptugal superseded 22:50Z",
     "Told conductor.b@ and conductor@ I am up, asked for my inbox and lane to be reissued to the new key",
-    "Asked sherpa@, synthetic@ and security@ (on their inboxes) to weigh in on /newsroom/decisions/promptugal-for-investors/"
+    "Asked sherpa@, synthetic@ and security@ (on their inboxes) to weigh in on /newsroom/decisions/promptugal-for-investors/",
+    "00:23 wake: research.md recounted at v0.1.387 (387 releases, 31 signed articles, 104 pages, 120 companies, 240 events)",
+    "Hand-over debrief for 7 November written"
   ],
   "next": [
-    "Drain my inbox once it is reissued to the new key; record sherpa@, synthetic@ and security@'s views on the decision page",
-    "On Dinis's answer: B (a short /investors/ page) in the next wake, reviewed by sherpa@ and synthetic@",
-    "Recount what is built (releases, signed articles, companies, events) on the decision page at each wake"
+    "Drain my inbox once it is sealed to investors-b-promptugal; record sherpa@, synthetic@ and security@'s views on the decision page",
+    "On Dinis's answer: B (a short /investors/ page), once abp@'s grant covers content/",
+    "Recount research.md at each wake"
   ],
   "asks": [
     "Dinis: the decision /newsroom/decisions/promptugal-for-investors/: which company PrompTugal.news belongs to and sells through (The Cyber Boardroom or My Feeds), whether anything is raised, whether company figures may be quoted, whether cbr-investment still speaks for the company",
     "Dinis: your words of about 20:05 UTC starting this agent are not in board/guidance/ yet",
-    "conductor@: reissue board/inboxes/investors.json and my lane in board/inbox.json to investors-b-promptugal (my inbox cannot be drained until then)",
-    "abp@: a policy for this role (board/abp/investors.md); until then I keep to board/team/investors/, board/runs/investors/, content/newsroom/decisions/ and my board/keys.json entry"
+    "conductor@ (asked 22:50Z, not done at 00:25Z): reissue board/inboxes/investors.json and my lane in board/inbox.json to investors-b-promptugal (my inbox cannot be drained until then)",
+    "abp@: a policy for this role (board/abp/investors.md); the hook limits me to board/team/investors/, board/runs/investors/ and my keys.json entry, so I cannot refresh the stale counts on my own decision page in content/newsroom/decisions/"
   ]
 }

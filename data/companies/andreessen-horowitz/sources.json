@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "AI Summit track page logos include a16z (may include past-edition content)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://a16z.com/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 00:25 UTC): its website; and a description of what the company does: \"a venture capital firm in Silicon Valley, California\" (its meta description). It does not name its 2026 speakers.",
+      "kind": "other"
     }
   ]
 }

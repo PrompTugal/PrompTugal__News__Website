@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://www.cerebras.ai/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 00:25 UTC): its website; and a description of what the company does: AI inference on wafer-scale systems, \"in the cloud and on-premise\"; research users named (GSK). It does not name governments as customers.",
+      "kind": "other"
     }
   ]
 }

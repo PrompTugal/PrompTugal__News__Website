@@ -4,7 +4,7 @@
     "png": "Save as PNG",
     "source": "Source (new tab)",
     "empty": "Tap an edition to see its dates, venue, figure and where the figure comes from.",
-    "caption": "Attendance at Web Summit in Lisbon, as the organiser reports it. Solid: read at source (the organiser's own releases for 2022 and 2023; a news report of the organiser's figure for 2025). Paler: from Wikipedia's table. Dashed: a summary only, not yet read. Marked n/a: no figure found. The organiser's figures are claims, and the sources do not always agree.",
+    "caption": "Attendance at Web Summit in Lisbon, as the organiser reports it. Solid: read at source (the organiser's own releases for 2022 and 2023; the organiser's own headline for 2024; a news report of its figure for 2025). Paler: from Wikipedia's table. Dashed: a summary only, not yet read. Marked n/a: no figure found. The organiser's figures are claims, and the sources do not always agree.",
     "legend": {
       "read": "Read at source",
       "tertiary": "Wikipedia's table",
@@ -34,6 +34,10 @@
     "num23": {
       "label": "Web Summit, 2023 numbers (read at source)",
       "url": "https://websummit.com/wp-media/2024/09/Web-Summit-2023-Numbers.pdf"
+    },
+    "blog24": {
+      "label": "websummit.com, blog: 'Web Summit 2024 hosts sold out event with record breaking 71,528 attendees' (12 Nov 2024; headline and date read)",
+      "url": "https://websummit.com/blog/web-summit/web-summit-2024-hosts-sold-out-event-with-record-breaking-71528-attendees/"
     }
   },
   "editions": [
@@ -123,9 +127,9 @@
       "venue": "MEO Arena and FIL, Parque das Nações",
       "value": 71528,
       "label": "71,528",
-      "status": "summary",
-      "note": "Organisers reported 71,528 attendees (Euronews and a press release, as a search summary reported; the page itself was not read). Investors: 1,066, read in the 2025 article. The page itself was not read; the organiser's own figures for 2024 are not found yet.",
-      "src": "pg25"
+      "status": "read",
+      "note": "The organiser's own post, dated 12 November 2024 (midweek), is headed 'Web Summit 2024 hosts sold out event with record breaking 71,528 attendees'. Only the headline and date were read (the body loads by script); the figure is an in-event one and a final number may differ. Investors: 1,066, read in the 2025 article.",
+      "src": "blog24"
     },
     {
       "year": 2025,
