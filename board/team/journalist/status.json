@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B)",
-  "updated": "2026-11-06T23:20Z",
+  "updated": "2026-11-07T03:00Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -29,11 +29,15 @@
     "Brazil project round 2: BR4 'Brazil on Web Summit's stages' through the story board (draft, check, article), from the beat's search and seven session pages re-read (this wake)",
     "Brazil project round 2: BR2 'Brazil's startup house in Lisbon picks its second class' through the story board (this wake)",
     "Account B session onboarded: new key journalist-promptugal (sha256:b43b8a91849ccbed), the old one journalist-promptugal-0 superseded at 22:50 UTC; the 18 articles it signed re-signed with the new key, since the gate accepts only active signers (this wake)",
-    "Brazil project round 2: BR3 'Rio sends ten startups to Lisbon, on Gol's new route' through the story board (draft, check, article, signed with the new key); the three press sources, two LIS26 pages and eight company sites re-read (this wake)"
+    "Brazil project round 2: BR3 'Rio sends ten startups to Lisbon, on Gol's new route' through the story board (draft, check, article, signed with the new key); the three press sources, two LIS26 pages and eight company sites re-read (this wake)",
+    "Inbox reissued to the new key and drained read-only (1 message, from dev.verify@: its envelope key sha256:c73b14faae0334ff is not in board/keys.json, so unverified) (wake 00:26)",
+    "dev.verify@'s flags, round 1: road-2 (Deeploy) and your-first-day (times, distances, fee) supported at source; italy-and-portugal-in-beato corrected (Panel 2 at 19:20, its title) (wake 00:26)",
+    "BR3 corrected in public: all ten Rio startups have a Web Summit page (the first version said two), Paralelo.app's and Lucca's websites added from those pages; re-signed (wake 00:26)",
+    "dev.verify@'s flags, round 2: web-summit-2026-in-numbers (8 flags), following-robotics, brazil-startup-mission, tuesday all supported at source; wednesday-11-november corrected ('busiest day' replaced with the Commission's count), re-signed (wake 02:26)"
   ],
   "next": [
-    "The conductor reissues this desk's inbox to the new key; then drain it",
-    "Brazil project round 2: BR6 (Portugal as Brazil's door to Europe, with S19), then BR1",
+    "dev.verify@'s flags, what is left (desks/journalist-promptugal/checks/2026-11-07-verify-flags.md)",
+    "Brazil project round 2: BR6, then BR1",
     "On or after 10 November: BR2's dated update with the 2027 incubation class",
     "Any Ready draft in desks/reviewer-vicky/reviews/ not yet published"
   ],
@@ -41,7 +45,7 @@
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
     "Dinis: register with the ERC, and who applies for the press pass? https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/",
     "Dinis: About and the participant disclosure need rewriting on your decisions (the publisher is The Cyber Boardroom, prices in pounds; synthetic F06 and F21), as the conductor asks, but content/about/ is outside this desk's grant (board/abp/journalist.md). Add content/about/** to the grant, or name who rewrites them.",
-    "Dinis: the inbox drain (from the first session, unchanged): agents' inbox vaults cannot be marked processed without SG_SEND_ACCESS_TOKEN on sgit's command line; security@'s S19 is open for you. Say whether agents may use it for their own inboxes."
+    "Dinis: the inbox drain (unchanged): messages are read and checked, but cannot be marked processed without SG_SEND_ACCESS_TOKEN on sgit's command line; security@'s S19 is open for you. Say whether agents may use it for their own inboxes."
   ],
   "wakes": [
     {
@@ -181,6 +185,18 @@
       "outcome": "ok",
       "release": "v0.1.370 and the next",
       "line": "account B: onboarded, new key, 18 articles re-signed; BR3 published"
+    },
+    {
+      "started": "2026-11-07T00:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "inbox drained; BR3 corrected; S11 corrected; verify flags round 1"
+    },
+    {
+      "started": "2026-11-07T02:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "inbox: nothing new; verify flags round 2; Wednesday corrected"
     }
   ],
   "decisions_on_findings": [

@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "aisle",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/",
+      "status": 200,
+      "read": true,
+      "chars": 1361
+    },
+    {
+      "url": "https://websummit.com/attendees/lis26/b55ca6d1-26e5-4a22-ab12-07bfcfdab84e/stanislav-fort/",
+      "status": 200,
+      "read": true,
+      "chars": 2335
+    },
+    {
+      "url": "https://aisle.com/",
+      "status": 200,
+      "read": true,
+      "chars": 13120
+    }
+  ],
+  "spent_usd": 0.0436,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named AISLE.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "AISLE is the sovereign AI platform",
+          "note": "The AISLE website identifies itself as AISLE, so the company's name is AISLE as the claim states."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "AISLE is joining Cohere to unite autonomous security systems and sovereign foundation models. Learn about the future of both companies.",
+          "note": "The source refers to AISLE as a company joining forces with Cohere."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "AISLE | AI-Native Vulnerability Management",
+          "note": "The source identifies the company as AISLE."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://aisle.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://aisle.com/",
+          "note": "Source S3 is the page at https://aisle.com/, whose AISLE branding and content show it is the company's website."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "AISLE | AI-Native Vulnerability Management",
+          "note": "Source S3 is the homepage of AISLE hosted at https://aisle.com/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://aisle.com/",
+          "note": "S3 is the AISLE website at the claimed URL, identifying the company as AISLE."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: AI-native vulnerability management: autonomous systems that find, fix and verify vulnerabilities, including in heavily audited open-source code; deployable in cloud, on-prem or air-gapped.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "AISLE finds, fixes, and verifies vulnerabilities in your source code, at machine speed and scale.",
+          "note": "The AI-native, find-fix-verify, and cloud/on-prem/air-gapped deployment parts are supported, but no source says the product targets \"heavily audited open-source code\"; the sources only mention open-source work in general terms like \"Securing the world's critical code\" and CVEs in widely used codebases."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S3",
+          "quote": "Deploy inside your perimeter: cloud, on-prem, or fully air-gapped",
+          "note": "While AISLE describes itself as an autonomous AI-native vulnerability management system deployable in cloud, on-prem, or air-gapped environments that finds, fixes, and verifies vulnerabilities, the sources do not state that it describes itself as doing so in 'heavily audited open-source code'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Open Source Securing the world’s critical code",
+          "note": "S3 supports the AI-native vulnerability management, find/fix/verify, and cloud/on-prem/air-gapped deployment, but it does not explicitly say 'heavily audited' open-source code."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Czechia.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Aisle Czechia",
+          "note": "The Web Summit speaker profile lists Czechia directly after the company name Aisle, which supports the claim, though the source doesn't explicitly say 'listed under' a country field."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": "S2",
+          "quote": "",
+          "note": "While Czechia appears on speaker Stanislav Fort's profile alongside his company Aisle, the sources do not state that the company itself is listed under Czechia."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Aisle Czechia",
+          "note": "The Web Summit attendee page lists Aisle together with Czechia."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Founder, CTO, & Chief Scientist Aisle",
+          "note": "The Web Summit Lisbon 2026 speaker profile for Stanislav Fort lists his company as Aisle, and the linked session (S1) is in the Lisbon 2026 event, though the sources don't show Aisle as a separate exhibitor."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "November 12, 2026 • 1.40PM - 2.00PM Stage 13 - AI Summit Securing the software foundation of civilisation with AI Speakers Stanislav Fort Stanislav Fort Founder, CTO, & Chief Scientist Aisle",
+          "note": "Stanislav Fort is scheduled to speak at the Web Summit 2026 session representing his company, Aisle."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Founder, CTO, & Chief Scientist Aisle",
+          "note": "S1 lists Stanislav Fort, whose company is Aisle, as a speaker in a Web Summit Lisbon 2026 session."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

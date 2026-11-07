@@ -4,7 +4,9 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { createRequire } from 'node:module'
 
-const AGENT_HANDLE = /@(PrompTugal|web-summit)\.(dinis|vicky|indi)$/i
+// the estate's agent handles, <role>@<project>.<operator>; operators added as they appear on the board (7 November 2026:
+// Angelo's agent holds a key in board/keys.json; Silvio's design agent is credited in board/spec-front-page-e.md)
+const AGENT_HANDLE = /@(PrompTugal|web-summit)\.(dinis|vicky|indi|angelo|silvio)$/i
 const SECRET_PATTERNS = [
   [/-----BEGIN [A-Z ]*KEY-----/, 'a key block'],
   [/\bsk-or-v1-[A-Za-z0-9]+/, 'an OpenRouter key'],

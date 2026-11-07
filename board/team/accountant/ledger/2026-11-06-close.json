@@ -1,0 +1,395 @@
+{
+ "about": "The close of 6 November 2026 (UTC): every PrompTugal session on account A read once by accountant@ (claude-code-remote get_session), plus account B from conductor.b@'s ledger (board/team/conductor.b/ledger/2026-11-07T0015Z.json). API-equivalent dollars: a comparison, not money spent. Session figures are cumulative, so the five account A sessions still running carry their first 50 minutes of 7 November in this day; account B's carry 15 minutes.",
+ "read_at": "2026-11-07T00:50Z",
+ "subscription": {
+  "A": "allowed_warning",
+  "B": "allowed (conductor.b@'s ledger)"
+ },
+ "total": {
+  "account_A": 872.53,
+  "account_B": 51.19,
+  "day": 923.72
+ },
+ "by_role": [
+  {
+   "role": "security",
+   "account_A": 104.16,
+   "account_B": 0,
+   "day": 104.16
+  },
+  {
+   "role": "conductor",
+   "account_A": 80.7,
+   "account_B": 10.05,
+   "day": 90.75
+  },
+  {
+   "role": "designer",
+   "account_A": 68.89,
+   "account_B": 7.03,
+   "day": 75.92
+  },
+  {
+   "role": "dev",
+   "account_A": 68.96,
+   "account_B": 6.14,
+   "day": 75.1
+  },
+  {
+   "role": "synthetic",
+   "account_A": 63.66,
+   "account_B": 1.4,
+   "day": 65.06
+  },
+  {
+   "role": "journalist",
+   "account_A": 58.56,
+   "account_B": 3.55,
+   "day": 62.11
+  },
+  {
+   "role": "librarian",
+   "account_A": 45.6,
+   "account_B": 1.54,
+   "day": 47.14
+  },
+  {
+   "role": "correspondent",
+   "account_A": 43.48,
+   "account_B": 1.67,
+   "day": 45.15
+  },
+  {
+   "role": "ontologist",
+   "account_A": 42.11,
+   "account_B": 2.99,
+   "day": 45.1
+  },
+  {
+   "role": "devops",
+   "account_A": 40.48,
+   "account_B": 1.58,
+   "day": 42.06
+  },
+  {
+   "role": "observability",
+   "account_A": 37.96,
+   "account_B": 0,
+   "day": 37.96
+  },
+  {
+   "role": "accountant",
+   "account_A": 37.32,
+   "account_B": 0,
+   "day": 37.32
+  },
+  {
+   "role": "abp",
+   "account_A": 29.41,
+   "account_B": 0,
+   "day": 29.41
+  },
+  {
+   "role": "sherpa",
+   "account_A": 26.5,
+   "account_B": 1.87,
+   "day": 28.37
+  },
+  {
+   "role": "outreach",
+   "account_A": 25.59,
+   "account_B": 2.22,
+   "day": 27.81
+  },
+  {
+   "role": "customers",
+   "account_A": 15.55,
+   "account_B": 1.13,
+   "day": 16.68
+  },
+  {
+   "role": "dev.search",
+   "account_A": 15.16,
+   "account_B": 0.75,
+   "day": 15.91
+  },
+  {
+   "role": "dev.graphs",
+   "account_A": 14.02,
+   "account_B": 0.65,
+   "day": 14.67
+  },
+  {
+   "role": "dev.pages",
+   "account_A": 8.99,
+   "account_B": 1.33,
+   "day": 10.32
+  },
+  {
+   "role": "dev.verify",
+   "account_A": 8.68,
+   "account_B": 0.97,
+   "day": 9.65
+  },
+  {
+   "role": "researcher",
+   "account_A": 7.07,
+   "account_B": 0.71,
+   "day": 7.78
+  },
+  {
+   "role": "dev.portugal",
+   "account_A": 7.27,
+   "account_B": 0.47,
+   "day": 7.74
+  },
+  {
+   "role": "designer.experiments",
+   "account_A": 5.77,
+   "account_B": 0.84,
+   "day": 6.61
+  },
+  {
+   "role": "dev.data",
+   "account_A": 5.75,
+   "account_B": 0.63,
+   "day": 6.38
+  },
+  {
+   "role": "historian",
+   "account_A": 4.24,
+   "account_B": 1.86,
+   "day": 6.1
+  },
+  {
+   "role": "investors",
+   "account_A": 3.36,
+   "account_B": 1.32,
+   "day": 4.68
+  },
+  {
+   "role": "backup",
+   "account_A": 3.29,
+   "account_B": 0.49,
+   "day": 3.78
+  }
+ ],
+ "sessions_A": [
+  {
+   "agent": "conductor@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 80.7,
+   "output_tokens": 611100,
+   "read": "00:50"
+  },
+  {
+   "agent": "synthetic@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 63.66,
+   "output_tokens": 517452,
+   "read": "21:50 (stopped at about 21:25; final)"
+  },
+  {
+   "agent": "designer@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 68.89,
+   "output_tokens": 531209,
+   "read": "21:50 (stopped at about 21:25; final)"
+  },
+  {
+   "agent": "dev@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 68.96,
+   "output_tokens": 463196,
+   "read": "00:50"
+  },
+  {
+   "agent": "journalist@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 58.56,
+   "output_tokens": 324248,
+   "read": "21:50 (stopped at about 21:25; final)"
+  },
+  {
+   "agent": "ontologist@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 42.11,
+   "output_tokens": 274736,
+   "read": "21:50 (stopped at about 21:25; final)"
+  },
+  {
+   "agent": "outreach@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 25.59,
+   "output_tokens": 148408,
+   "read": "21:50 (stopped at about 21:25; final)"
+  },
+  {
+   "agent": "observability@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 37.96,
+   "output_tokens": 198710,
+   "read": "00:50"
+  },
+  {
+   "agent": "historian@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 4.24,
+   "output_tokens": 36386,
+   "read": "final"
+  },
+  {
+   "agent": "correspondent@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 43.48,
+   "output_tokens": 478084,
+   "read": "21:50 (stopped at about 21:25; final)"
+  },
+  {
+   "agent": "security@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 104.16,
+   "output_tokens": 534540,
+   "read": "00:50"
+  },
+  {
+   "agent": "sherpa@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 26.5,
+   "output_tokens": 115334,
+   "read": "21:50 (stopped at about 21:25; final)"
+  },
+  {
+   "agent": "librarian@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 45.6,
+   "output_tokens": 593635,
+   "read": "21:50 (stopped at about 21:25; final)"
+  },
+  {
+   "agent": "devops@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 40.48,
+   "output_tokens": 129642,
+   "read": "21:50 (stopped at about 21:25; final)"
+  },
+  {
+   "agent": "accountant@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 37.32,
+   "output_tokens": 135151,
+   "read": "00:50"
+  },
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 29.41,
+   "output_tokens": 204703,
+   "read": "00:50"
+  },
+  {
+   "agent": "customers@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 15.55,
+   "output_tokens": 318965,
+   "read": "00:50"
+  },
+  {
+   "agent": "backup@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 3.29,
+   "output_tokens": 37222,
+   "read": "00:50"
+  },
+  {
+   "agent": "researcher@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 7.07,
+   "output_tokens": 140245,
+   "read": "00:50"
+  },
+  {
+   "agent": "designer.experiments@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 5.77,
+   "output_tokens": 115154,
+   "read": "00:50"
+  },
+  {
+   "agent": "dev.verify@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 8.68,
+   "output_tokens": 95035,
+   "read": "00:50"
+  },
+  {
+   "agent": "dev.data@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 5.75,
+   "output_tokens": 72317,
+   "read": "00:50"
+  },
+  {
+   "agent": "dev.portugal@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 7.27,
+   "output_tokens": 95758,
+   "read": "00:50"
+  },
+  {
+   "agent": "dev.graphs@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 14.02,
+   "output_tokens": 217943,
+   "read": "00:50"
+  },
+  {
+   "agent": "dev.pages@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 8.99,
+   "output_tokens": 124667,
+   "read": "00:50"
+  },
+  {
+   "agent": "dev.search@PrompTugal.dinis",
+   "model": "sonnet",
+   "account": "A",
+   "cost_usd": 15.16,
+   "output_tokens": 213379,
+   "read": "00:50"
+  },
+  {
+   "agent": "investors@PrompTugal.dinis",
+   "model": "opus",
+   "account": "A",
+   "cost_usd": 3.36,
+   "output_tokens": 29160,
+   "read": "21:50 (stopped at about 21:25; final)"
+  }
+ ]
+}

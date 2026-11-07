@@ -1,6 +1,15 @@
-# Verification flags for journalist@ (dev.verify@, updated 6 November 2026 20:35 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-06, 23:26 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 21 articles checked on v0.3 (whole sources when they fit; a claim verified only if all three models answered and agreed). Not read: pages that need JavaScript (the speakers page shows about 20 names and 'Load More'), pages behind a login or a viewer (docsend), anything under 300 characters. Articles about the newsroom itself (newsroom-status-four-days-out) cite repository pages that do not state its figures; their low score means 'the cited page does not say it', and the figures come from our own data. Not checked, no public source listed: the-first-night-of-promptugal-news, what-the-agents-say-to-each-other. Records: board/team/dev.verify/records/<slug>/verified.json; the page: /newsroom/verification/.
+A flag is a prompt to re-read the source, not a finding of error. 28 articles checked, 289 claims, 181 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+
+## angelos-communication-graph: 3/10 supported by all
+- c1: Angelo, a member of the team, built a command centre that draws the team and its AI agents as one map. (supported / partly / supported)
+- c2: When read on 6 November 2026, the map counted 6 people, 111 active agents, and 2,915 messages in seven days. (unsupported / unsupported / unsupported)
+- c5: By the team's count from the map's data on 6 November, more than four in ten messages went to a conductor agent. (unsupported / unsupported / unsupported)
+- c6: Each of the six people has a conductor agent that plans the work and hands it out. (partly / unsupported / partly)
+- c8: Every change is a commit, and a 'For:' line in the commit names who the work is for. (partly / partly / partly)
+- c9: The map's lines join a pair of agents, or an agent and a person, that addressed work to each other in the last seven days. (unsupported / unsupported / unsupported)
+- c10: Replay playback can run at one hour, six hours or a day per second, and the team's stand-ups and the site's releases are marked on it. (partly / partly / partly)
 
 ## brazil-comes-to-lisbon-intuitivo-heads-to-brazil: 10/10 supported by all
 
@@ -15,6 +24,12 @@ A flag is a prompt to re-read the source, not a finding of error. 21 articles ch
 - c8: Public estimates of the 2026 delegation size run from 100 to about 300. (supported / partly / supported)
 - c10: Four hubs and one national pick are named as part of the delegation, along with two officials on Web Summit's stages. (unsupported / partly / partly)
 
+## brazils-startup-house-in-lisbon: 6/10 supported by all
+- c2: The first class had ten startups. (partly / supported / supported)
+- c3: The 2027 class is due to be announced at the Brazil Pavilion on 10 November. (partly / supported / partly)
+- c4: The first class was announced at Web Summit 2025. (supported / supported / partly)
+- c5: The first class ran for nine months in Lisbon. (exaggerated / unsupported / partly)
+
 ## europe-ai-help-and-portugal-ai-startups: 10/10 supported by all
 
 ## europe-in-pavilion-4: 10/10 supported by all
@@ -24,7 +39,7 @@ A flag is a prompt to re-read the source, not a finding of error. 21 articles ch
 
 ## from-pitch-to-new-markets: 10/10 supported by all
 
-## gender-in-tech-report-2026: 0/10 supported by all (source not read: https://docsend.com/view/wsagdvb78uahhhst)
+## gender-in-tech-report-2026: 0/10 supported by all
 - c1: Web Summit published its seventh annual Gender in Tech report on 27 October 2026. (unsupported / unsupported / unsupported)
 - c2: The Web Summit Lisbon summit is held 9 to 12 November. (partly / partly / partly)
 - c3: Web Summit surveyed more than 1,000 women across its global tech community for the report. (unsupported / unsupported / unsupported)
@@ -35,6 +50,23 @@ A flag is a prompt to re-read the source, not a finding of error. 21 articles ch
 - c8: 42% of respondents have considered reducing their hours, stepping away from leadership, or leaving tech. (unsupported / unsupported / unsupported)
 - c9: 52% of women aged 35 to 44 have considered reducing their hours, stepping away from leadership, or leaving tech. (unsupported / unsupported / unsupported)
 - c10: Last year 75% of women believed AI could help make tech more equal, and this year 31% say it has. (unsupported / unsupported / unsupported)
+
+## how-agents-avoid-collisions: 4/12 supported by all
+- c1: Vicky's five journalists were moved on 6 November from waking at 08:00 and 16:00 to waking six minutes apart. (supported / supported / partly)
+- c2: The schedule chart shows ten of Dinis's newsroom agents, each waking every hour at its own minute. (unsupported / unsupported / partly)
+- c4: The PrompTugal.news team is at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit. (unsupported / partly / partly)
+- c5: Web Summit is on Thursday 12 November. (partly / partly / supported)
+- c6: On 6 November, a draft's file name broke a check, and the fix went in before anything shipped. (unsupported / unsupported / unsupported)
+- c7: Only Dinis Cruz can lift the HOLD.md stop file. (supported / contradicted / supported)
+- c9: The chart was made by journalist-ai@PrompTugal.vicky. (unsupported / unsupported / unsupported)
+- c11: Everything that goes live goes through one branch, named dev, and the same release script. (partly / contradicted / supported)
+
+## how-the-agents-talk: 7/12 supported by all
+- c2: On 3 November, one agent passed tasks to another by messaging its session directly. (partly / supported / partly)
+- c5: PrompTugal.news will be at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit. (exaggerated / unsupported / unsupported)
+- c6: Web Summit takes place on Thursday 12 November. (partly / partly / supported)
+- c8: Inbox messages are sealed with the receiver's public key and signed with the sender's private key. (supported / exaggerated / supported)
+- c10: Every published article is signed with its publisher's key. (partly / contradicted / partly)
 
 ## italy-and-portugal-in-beato: 5/10 supported by all
 - c1: The European Tech Champions event is on Wednesday 11 November, starting at 18:30, at the Unicorn Stage in Lisbon's Beato Innovation District. (partly / exaggerated / partly)
@@ -47,6 +79,19 @@ A flag is a prompt to re-read the source, not a finding of error. 21 articles ch
 - c3: Three of the seven Unicorn Factory Lisboa 2026 winners build with AI. (partly / exaggerated / exaggerated)
 
 ## lisbon-universities-at-web-summit: 10/10 supported by all
+
+## mistakes-we-made: 1/12 supported by all
+- c1: At 10:49 on the relevant day, Vicky's reviewer counted that 0 of 100 source links on 14 news articles were clickable. (partly / exaggerated / partly)
+- c2: Vicky's developer agent changed the build at 18:58 so that bare source addresses become clickable links. (unsupported / unsupported / contradicted)
+- c3: The newsroom moved to a new home on GitHub on 6 November 2026. (partly / unsupported / partly)
+- c4: On the evening of 6 November 2026, at Vicky Wang's direction, the curator dropped three story ideas as duplicates. (partly / supported / supported)
+- c5: Vicky's journalist drafted story S9, about Brazil's startup mission, on 5 November 2026. (partly / unsupported / contradicted)
+- c7: At least seven of Vicky's agents reported finding their repository copy pointing to the old GitHub address. (unsupported / unsupported / unsupported)
+- c8: The Road 2 Web Summit article was built from the repository at version v0.1.316 and was live at v0.1.358 on 6 November 2026. (unsupported / unsupported / unsupported)
+- c9: The first draft of the series was refused by the site's automatic checks because its file name contained a capital letter. (unsupported / unsupported / unsupported)
+- c10: PrompTugal.news's team will be at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit. (partly / partly / partly)
+- c11: Web Summit is on Thursday 12 November. (supported / partly / supported)
+- c12: The newsroom's three mistakes described in the article are dated 6 November 2026. (unsupported / unsupported / unsupported)
 
 ## newsroom-status-four-days-out: 0/10 supported by all
 - c1: The newsroom has 109 company profiles. (unsupported / unsupported / unsupported)
@@ -66,7 +111,11 @@ A flag is a prompt to re-read the source, not a finding of error. 21 articles ch
 
 ## pineapple-waste-to-fish-feed: 10/10 supported by all
 
-## road-2-web-summit-2026: 8/10 supported by all (source not read: https://www.jornaldenegocios.pt/empresas/web-summit/detalhe/framedropai-e-deeply-vencem-iniciativa-da-startup-portugal-e-recebem-20-mil-euros)
+## rio-ten-startups-to-lisbon: 10/12 supported by all
+- c1: Web Summit Lisbon runs 9 to 12 November. (partly / supported / supported)
+- c2: Gol opens its first intercontinental route, Rio to Lisbon from Galeão, with five flights a week from 24 November. (partly / partly / supported)
+
+## road-2-web-summit-2026: 8/10 supported by all
 - c6: The 2026 winner is announced at a press conference on Thursday 12 November at 12:30 on Stage 2. (partly / exaggerated / partly)
 - c10: Framedrop.ai, from Coimbra, and Deeploy won the prizes in 2024. (contradicted / unsupported / unsupported)
 
@@ -94,6 +143,20 @@ A flag is a prompt to re-read the source, not a finding of error. 21 articles ch
 - c6: The 15:30 EU funding session and the 16:00 supercomputer session overlap. (partly / supported / supported)
 - c8: The listed times are set by the organisers and can change. (unsupported / unsupported / partly)
 - c9: Web Summit has an app that attendees can check for schedule updates. (partly / exaggerated / partly)
+
+## who-does-the-work: 0/12 supported by all
+- c1: The team counted 93 AI agents between its members, based on published public keys. (unsupported / unsupported / contradicted)
+- c2: Dinis runs 38 agents, the most of anyone on the team. (contradicted / unsupported / unsupported)
+- c3: Vicky runs 18 agents. (unsupported / unsupported / unsupported)
+- c4: Indi runs 10 agents and Jose runs 10 agents. (contradicted / exaggerated / contradicted)
+- c5: Silvio runs 9 agents and Angelo runs 8 agents. (unsupported / unsupported / unsupported)
+- c6: Six people on the team run AI agents: Dinis, Vicky, Indi, Jose, Silvio and Angelo. Nimay works without agents. (contradicted / contradicted / contradicted)
+- c7: The team's keys were read on 6 November 2026. (unsupported / unsupported / unsupported)
+- c8: Of Dinis's 38 agents, 11 work on the team's site and 27 run the PrompTugal.news newsroom. (contradicted / contradicted / exaggerated)
+- c9: Agents that build the sites and design them number 26, the largest job group. (unsupported / unsupported / unsupported)
+- c10: Vicky's 18 agents include five journalists, one per beat. (contradicted / unsupported / error)
+- c11: Ten of Vicky's 18 agents research, write and check the news. (unsupported / contradicted / exaggerated)
+- c12: The team meets visitors at the RiskMandate booth, A1-30 in Pavilion 1 at Web Summit, on Thursday 12 November. (partly / exaggerated / partly)
 
 ## your-first-day-at-web-summit: 4/10 supported by all
 - c2: Oriente metro station is about 300 metres from the MEO Arena. (unsupported / unsupported / unsupported)

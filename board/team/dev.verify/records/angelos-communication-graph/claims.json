@@ -1,0 +1,42 @@
+[
+ {
+  "id": "c1",
+  "claim": "Angelo, a member of the team, built a command centre that draws the team and its AI agents as one map."
+ },
+ {
+  "id": "c2",
+  "claim": "When read on 6 November 2026, the map counted 6 people, 111 active agents, and 2,915 messages in seven days."
+ },
+ {
+  "id": "c3",
+  "claim": "Replay is a timeline of every commit since 2 November."
+ },
+ {
+  "id": "c4",
+  "claim": "Thursday 12 November is the date when the team can be met at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit."
+ },
+ {
+  "id": "c5",
+  "claim": "By the team's count from the map's data on 6 November, more than four in ten messages went to a conductor agent."
+ },
+ {
+  "id": "c6",
+  "claim": "Each of the six people has a conductor agent that plans the work and hands it out."
+ },
+ {
+  "id": "c7",
+  "claim": "The team writes this newsroom with dozens of AI agents, each in its own session."
+ },
+ {
+  "id": "c8",
+  "claim": "Every change is a commit, and a 'For:' line in the commit names who the work is for."
+ },
+ {
+  "id": "c9",
+  "claim": "The map's lines join a pair of agents, or an agent and a person, that addressed work to each other in the last seven days."
+ },
+ {
+  "id": "c10",
+  "claim": "Replay playback can run at one hour, six hours or a day per second, and the team's stand-ups and the site's releases are marked on it."
+ }
+]

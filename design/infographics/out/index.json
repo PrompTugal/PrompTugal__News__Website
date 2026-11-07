@@ -13,6 +13,10 @@
   "banner": [
    1600,
    560
+  ],
+  "phone": [
+   720,
+   900
   ]
  },
  "images": [
@@ -1334,6 +1338,372 @@
     "made": "2026-11-06",
     "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the drawing shows the conductors as one central hub, the article says each of the six people has one",
     "source": "designer@ session 3 scratch: ai-images/angelos-communication-graph/google_gemini-3-pro-image--editorial--224855.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "agent-setup-guide",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "agent-setup-guide--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/agent-setup-guide/google_gemini-3-pro-image--editorial--003842.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "agent-setup-guide",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "agent-setup-guide--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/agent-setup-guide/google_gemini-3-pro-image--editorial--003842.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "agent-setup-guide",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "agent-setup-guide--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/agent-setup-guide/google_gemini-3-pro-image--editorial--003842.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "agent-setup-guide",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "agent-setup-guide--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/agent-setup-guide/google_gemini-3-pro-image--editorial--003842.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "how-agents-avoid-collisions",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "how-agents-avoid-collisions--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); one note: the agent waking is drawn as a figure in a hat, an icon, not a claim",
+    "source": "designer@ session 3 scratch: ai-images/how-agents-avoid-collisions/google_gemini-3-pro-image--editorial--004139.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "how-agents-avoid-collisions",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "how-agents-avoid-collisions--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); one note: the agent waking is drawn as a figure in a hat, an icon, not a claim",
+    "source": "designer@ session 3 scratch: ai-images/how-agents-avoid-collisions/google_gemini-3-pro-image--editorial--004139.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "how-agents-avoid-collisions",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "how-agents-avoid-collisions--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); one note: the agent waking is drawn as a figure in a hat, an icon, not a claim",
+    "source": "designer@ session 3 scratch: ai-images/how-agents-avoid-collisions/google_gemini-3-pro-image--editorial--004139.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "how-agents-avoid-collisions",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "how-agents-avoid-collisions--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); one note: the agent waking is drawn as a figure in a hat, an icon, not a claim",
+    "source": "designer@ session 3 scratch: ai-images/how-agents-avoid-collisions/google_gemini-3-pro-image--editorial--004139.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "how-the-agents-talk",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "how-the-agents-talk--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/how-the-agents-talk/google_gemini-3-pro-image--editorial--004329.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "how-the-agents-talk",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "how-the-agents-talk--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/how-the-agents-talk/google_gemini-3-pro-image--editorial--004329.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "how-the-agents-talk",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "how-the-agents-talk--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/how-the-agents-talk/google_gemini-3-pro-image--editorial--004329.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "how-the-agents-talk",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "how-the-agents-talk--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/how-the-agents-talk/google_gemini-3-pro-image--editorial--004329.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "mistakes-we-made",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "mistakes-we-made--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/mistakes-we-made/google_gemini-3-pro-image--editorial--004003.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "mistakes-we-made",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "mistakes-we-made--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/mistakes-we-made/google_gemini-3-pro-image--editorial--004003.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "mistakes-we-made",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "mistakes-we-made--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/mistakes-we-made/google_gemini-3-pro-image--editorial--004003.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "mistakes-we-made",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "mistakes-we-made--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/mistakes-we-made/google_gemini-3-pro-image--editorial--004003.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "rio-ten-startups-to-lisbon",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "rio-ten-startups-to-lisbon--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--004414.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "rio-ten-startups-to-lisbon",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "rio-ten-startups-to-lisbon--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--004414.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "rio-ten-startups-to-lisbon",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "rio-ten-startups-to-lisbon--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--004414.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "rio-ten-startups-to-lisbon",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "rio-ten-startups-to-lisbon--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--004414.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "who-does-the-work",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "who-does-the-work--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the key count says \"without retired marks\" for the article's \"superseded, retired or ended\"",
+    "source": "designer@ session 3 scratch: ai-images/who-does-the-work/google_gemini-3-pro-image--editorial--004049.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "who-does-the-work",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "who-does-the-work--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the key count says \"without retired marks\" for the article's \"superseded, retired or ended\"",
+    "source": "designer@ session 3 scratch: ai-images/who-does-the-work/google_gemini-3-pro-image--editorial--004049.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "who-does-the-work",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "who-does-the-work--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the key count says \"without retired marks\" for the article's \"superseded, retired or ended\"",
+    "source": "designer@ session 3 scratch: ai-images/who-does-the-work/google_gemini-3-pro-image--editorial--004049.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "who-does-the-work",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "who-does-the-work--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); one simplification: the key count says \"without retired marks\" for the article's \"superseded, retired or ended\"",
+    "source": "designer@ session 3 scratch: ai-images/who-does-the-work/google_gemini-3-pro-image--editorial--004049.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+   }
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "phone",
+   "file": "your-first-day-at-web-summit--paper--phone.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "style": "phone",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); two notes: '7 November' for the article's 'from 7 November', and a small arena icon with a garbled 'MEO' mark",
+    "source": "designer@ session 3 scratch: ai-images/your-first-day-at-web-summit/google_gemini-3-pro-image--phone--013643.png"
+   }
+  },
+  {
+   "slug": "your-first-day-at-web-summit",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "phone",
+   "file": "your-first-day-at-web-summit--ink--phone.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "style": "phone",
+    "made": "2026-11-07",
+    "checked": "every figure and name against the article, by designer@ (session 3); two notes: '7 November' for the article's 'from 7 November', and a small arena icon with a garbled 'MEO' mark",
+    "source": "designer@ session 3 scratch: ai-images/your-first-day-at-web-summit/google_gemini-3-pro-image--phone--013643.png"
    }
   }
  ]

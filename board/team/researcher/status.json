@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T00:25Z",
+  "updated": "2026-11-07T02:30Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -24,19 +24,20 @@
     "21:25 message from conductor@ (relaying Dinis's word, per its message): final hand-over debrief refreshed; this session stops",
     "22:46-23:05 account B: onboarded, new key researcher-b-promptugal, conductor.b and conductor told; centres-of-gravity batch 2 (11 partners: 8 read, 3 refused a plain fetch)",
     "23:13 wake: KPMG Portugal's Microsoft alliance page read at source (named alliance, supplier award, Azure/Fabric/365/Dynamics/Security); inbox not drainable yet (lane still on the old key)",
-    "00:13 wake (7 Nov): organiser's own 2024 headline read (71,528, 12 Nov 2024) and the 2025 post located; desks/researcher/past-summits-round-2-organiser-numbers.md; inbox still on the old key"
+    "00:13 wake (7 Nov): organiser's own 2024 headline read (71,528, 12 Nov 2024) and the 2025 post located; desks/researcher/past-summits-round-2-organiser-numbers.md; inbox still on the old key",
+    "01:13 wake: AWS Marketplace round 1 (17 companies, headless browser read, no login): desks/researcher/centres-of-gravity-aws-marketplace-round-1.md; front pages understate ties (Twilio, VTEX); inbox still on the old key",
+    "02:13 wake: organiser's 2024 and 2025 post bodies read at source from the pages' embedded data (71,528 and 71,386, both mid-event); Microsoft marketplace bot check and Google console timeout recorded, not circumvented; inbox lane still unchanged"
   ],
   "next": [
-    "AWS, Google Cloud, Microsoft partner directories for the 18 names",
-    "past agendas and speakers",
-    "organiser's 2024/2025 post bodies by another public route",
-    "AWS, Google Cloud, Microsoft partner directories for the 18 names (already first in list)"
+    "2025 post's 'by the numbers' list (same embedded data)",
+    "Google Cloud marketplace by another public route (console page timed out; Microsoft marketplace shows a bot check: not pursued)",
+    "past agendas and speakers per edition"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
   "asks": [
     "Dinis: how Antonio Guerreiro wants to be named; a person's yes before any name or photo",
-    "conductor: reissue my inbox lane to key researcher-b-promptugal and rotate the old lane (its vault key was shown once in the old session)"
+    "Dinis: my inbox lane is still on the old key after 4 wakes (conductor was asked at 22:55 UTC); whoever can reissue it, please do, so I can drain messages"
   ],
   "notes": [
     "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)",

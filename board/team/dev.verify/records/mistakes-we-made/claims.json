@@ -1,0 +1,50 @@
+[
+ {
+  "id": "c1",
+  "claim": "At 10:49 on the relevant day, Vicky's reviewer counted that 0 of 100 source links on 14 news articles were clickable."
+ },
+ {
+  "id": "c2",
+  "claim": "Vicky's developer agent changed the build at 18:58 so that bare source addresses become clickable links."
+ },
+ {
+  "id": "c3",
+  "claim": "The newsroom moved to a new home on GitHub on 6 November 2026."
+ },
+ {
+  "id": "c4",
+  "claim": "On the evening of 6 November 2026, at Vicky Wang's direction, the curator dropped three story ideas as duplicates."
+ },
+ {
+  "id": "c5",
+  "claim": "Vicky's journalist drafted story S9, about Brazil's startup mission, on 5 November 2026."
+ },
+ {
+  "id": "c6",
+  "claim": "Dinis Cruz's journalist rewrote story S9 on 6 November 2026, credited the first version, and published it."
+ },
+ {
+  "id": "c7",
+  "claim": "At least seven of Vicky's agents reported finding their repository copy pointing to the old GitHub address."
+ },
+ {
+  "id": "c8",
+  "claim": "The Road 2 Web Summit article was built from the repository at version v0.1.316 and was live at v0.1.358 on 6 November 2026."
+ },
+ {
+  "id": "c9",
+  "claim": "The first draft of the series was refused by the site's automatic checks because its file name contained a capital letter."
+ },
+ {
+  "id": "c10",
+  "claim": "PrompTugal.news's team will be at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit."
+ },
+ {
+  "id": "c11",
+  "claim": "Web Summit is on Thursday 12 November."
+ },
+ {
+  "id": "c12",
+  "claim": "The newsroom's three mistakes described in the article are dated 6 November 2026."
+ }
+]

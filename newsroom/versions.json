@@ -1,5 +1,166 @@
 [
   {
+    "version": "v0.1.412",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: dev.verify's flags, round 2; Wednesday 11 November corrected",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "b26376f06"
+  },
+  {
+    "version": "v0.1.411",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: own-site sources, batch 4 (12 companies); the 7 November debrief",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "2e9014426"
+  },
+  {
+    "version": "v0.1.410",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 02:08: status and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "627db98ea"
+  },
+  {
+    "version": "v0.1.409",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "537bf1ffd"
+  },
+  {
+    "version": "v0.1.408",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: Dinis's answer: My Feeds; the decision closed, /investors/ live",
+    "by": "investors@PrompTugal.dinis",
+    "from": "b4e8e6f13"
+  },
+  {
+    "version": "v0.1.407",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 02:07 wake: account B running; no new blocks",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "fa283bae3"
+  },
+  {
+    "version": "v0.1.406",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 02:05: 47 commits clean, the workers' account-B keys seen, S26 (librarian's inbox printed) to conductor@",
+    "by": "security@PrompTugal.dinis",
+    "from": "b78df3c77"
+  },
+  {
+    "version": "v0.1.405",
+    "date": "2026-11-07",
+    "what": "historian@PrompTugal.dinis: VE-04, the PHP newsroom's lesson, as a brief; the daily debrief",
+    "by": "historian@PrompTugal.dinis",
+    "from": "b3fa96284"
+  },
+  {
+    "version": "v0.1.404",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: Dinis's yes to F's and G's own colours recorded; their palettes with contrast fixes for dev@",
+    "by": "designer@PrompTugal.dinis",
+    "from": "36ef6ce35"
+  },
+  {
+    "version": "v0.1.403",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 01:52: outreach's 50 contact requests sent; eight home designs live",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "a0e8c3d0b"
+  },
+  {
+    "version": "v0.1.402",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 01:38: idle; drafts unchanged, no new inbox message",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "69ff44562"
+  },
+  {
+    "version": "v0.1.401",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the designs re-checked at v0.1.400; a phone picture for the lead (sherpa@'s E10); width C with real content",
+    "by": "designer@PrompTugal.dinis",
+    "from": "9ddbd2ec5"
+  },
+  {
+    "version": "v0.1.400",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: own-site sources, batch 3 (11 companies); Genspark held",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "b3525e456"
+  },
+  {
+    "version": "v0.1.399",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: AWS Marketplace round 1 for the summit's partner companies",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "c76b83536"
+  },
+  {
+    "version": "v0.1.398",
+    "date": "2026-11-07",
+    "what": "sherpa@PrompTugal.dinis: inbox reissued (sherpa-b.json), signature verified, drained: empty",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "1116852e5"
+  },
+  {
+    "version": "v0.1.397",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 01:07 wake: all eight home designs live; the reissued inboxes found under new names",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c2ef3172e"
+  },
+  {
+    "version": "v0.1.396",
+    "date": "2026-11-07",
+    "what": "librarian@PrompTugal.dinis: wake 00:56: reality tree warnings cleared; the check knows Angelo's and Silvio's agent handles; catalogue v0.1.395",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "4acaed23e"
+  },
+  {
+    "version": "v0.1.395",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 00:08 close: status and run report (the outreach drafts slip, fixed); blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8c72827ce"
+  },
+  {
+    "version": "v0.1.394",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: AI infographics for six new articles; every published article has an image",
+    "by": "designer@PrompTugal.dinis",
+    "from": "37a0ca2a0"
+  },
+  {
+    "version": "v0.1.393",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 00:08: status, the daily hand-over debrief and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "12d437464"
+  },
+  {
+    "version": "v0.1.392",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c5307f7ab"
+  },
+  {
+    "version": "v0.1.391",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the eight home page designs checked live at v0.1.390; the daily hand-over debrief",
+    "by": "designer@PrompTugal.dinis",
+    "from": "85c499870"
+  },
+  {
+    "version": "v0.1.390",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: the run's two R8 observations explained in the session notes",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "f72e98198"
+  },
+  {
     "version": "v0.1.389",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.pages's designs A, B and C onto dev; all eight in the picker",

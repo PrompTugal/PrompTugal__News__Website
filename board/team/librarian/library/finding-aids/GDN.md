@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: Guidance (special)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-06T22:26:02Z"
-site_version: "v0.1.363"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T00:59:57Z"
+site_version: "v0.1.395"
 source: board/catalogue.json
 ---
 
@@ -14,8 +14,8 @@ Guidance, a special collection: Dinis's night memos, the ideas ledger with each 
 
 ## Start here
 
-- [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) (`GDN.MEMO 2026-11-06-the-ideas-ledger`): Every distinct idea Dinis gave in the night's memos and in the 18:00 stand-up of 5 November, one row each, with when it is meant…
 - [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) (`GDN.MEMO README`): Dinis's own words to the team about what this site is, the thinking behind it and where it is going, one file per piece (YYYY-MM-DD-<topic>.md)…
+- [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) (`GDN.MEMO 2026-11-06-the-ideas-ledger`): Every distinct idea Dinis gave in the night's memos and in the 18:00 stand-up of 5 November, one row each, with when it is meant…
 - [Dinis, 6 November 2026, about 04:00 UTC: the top of every page, the synthetic readers page, passes with budgets, and new agents](https://promptugal.news/board/guidance/2026-11-06-design-and-passes.md) (`GDN.MEMO 2026-11-06-design-and-passes`): In his words, close to verbatim:
 
 ## How it is arranged
@@ -28,7 +28,7 @@ By call number: memos, ideas, questions and concepts each have a subclass; an id
 |---|---|---|---|
 | `GDN.CONC` | concepts | 88 | [a folder per session](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md), [a signal in itself](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) |
 | `GDN.IDEA` | ideas | 494 | [Circuit breakers](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md), [In the UK becoming a publisher is cheap: register an organisation and have policies](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) |
-| `GDN.MEMO` | memos | 22 | [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md), [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) |
+| `GDN.MEMO` | memos | 22 | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md), [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) |
 | `GDN.Q` | open questions | 13 | [I'm going to give you a whole bunch of brief now on the quality gates and the sort of the research and going deep](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md), [how many files and gigabytes of data they already have, and the runs, and how often they're doing the runs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) |
 
 ## Every card
@@ -39,9 +39,9 @@ Special collection: S1 (529 cards). Dinis's guidance has its own guide: [guidanc
 
 ## See also
 
+- [Agents, roles, keys](TEAM.md) (112 connections from this collection)
 - [Work in hand](WRK.md) (102 connections from this collection)
-- [Agents, roles, keys](TEAM.md) (76 connections from this collection)
-- [The library](LIB.md) (38 connections from this collection)
+- [The library](LIB.md) (39 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 
 Back to the front door: [the library](../index.md)

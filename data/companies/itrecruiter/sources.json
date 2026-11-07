@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://itrtechgroup.com/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The recorded website now redirects to its group's site, iTRTech Group (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: a technology group operating in Portugal and Brazil (software, automation and AI), of which iTRecruiter is the IT recruitment company (outsourcing and talent). It does not use the words \"where technology meets people\".",
+      "kind": "other"
     }
   ]
 }
