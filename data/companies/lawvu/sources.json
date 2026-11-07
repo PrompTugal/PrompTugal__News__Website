@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://lawvu.com/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "LawVu's home page, LegalOS (read 7 November 2026, 08:25 UTC): intake that captures, triages and routes requests; an agentic framework where \"AI agents reason, take action, and hand off to a human when it matters\", with the team setting the rules; LawVu Assistant creates matters and triggers workflows from natural language (the flow request-to-resolution)."
     }
   ]
 }
