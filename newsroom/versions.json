@@ -1,5 +1,194 @@
 [
   {
+    "version": "v0.1.532",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: BR3 gets its \"Who made this\"; nothing Ready to publish",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "b4ad7d26f"
+  },
+  {
+    "version": "v0.1.531",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: the outreach pack: who gets which deck, EN and PT opening lines",
+    "by": "investors@PrompTugal.dinis",
+    "from": "e28fb9435"
+  },
+  {
+    "version": "v0.1.530",
+    "date": "2026-11-07",
+    "what": "devops@PrompTugal.dinis: runs 997 to 1040 read: 2 red in 36, background level",
+    "by": "devops@PrompTugal.dinis",
+    "from": "8046ae696"
+  },
+  {
+    "version": "v0.1.529",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3dff16c43"
+  },
+  {
+    "version": "v0.1.528",
+    "date": "2026-11-07",
+    "what": "backup@PrompTugal.dinis: fourth restore-tested backup (head 154c8922); nothing durable, asks unchanged",
+    "by": "backup@PrompTugal.dinis",
+    "from": "702b1d0a1"
+  },
+  {
+    "version": "v0.1.527",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 12:07 wake: account B's ledger at 286.22, about 25 an hour; investors@ well over its day budget",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "154c89221"
+  },
+  {
+    "version": "v0.1.526",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 12:05: 51 commits clean, the decks' script agreed, S25 corrected",
+    "by": "security@PrompTugal.dinis",
+    "from": "97351b274"
+  },
+  {
+    "version": "v0.1.525",
+    "date": "2026-11-07",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "ea40ed1fd"
+  },
+  {
+    "version": "v0.1.524",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 11:52: eight investor decks in English and Portuguese",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5eb8f1acc"
+  },
+  {
+    "version": "v0.1.523",
+    "date": "2026-11-07",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "d33bf4410"
+  },
+  {
+    "version": "v0.1.522",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 11:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "2c6040be8"
+  },
+  {
+    "version": "v0.1.521",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: deck 4 v1.2 (EN and PT): the Algarve, Portugal and Europe; who we want to work with",
+    "by": "investors@PrompTugal.dinis",
+    "from": "67d3aa43a"
+  },
+  {
+    "version": "v0.1.520",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: the ten sells_on edges to AWS, re-applied",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "95708f866"
+  },
+  {
+    "version": "v0.1.519",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 11:08: status and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "29c6c5c4a"
+  },
+  {
+    "version": "v0.1.518",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the decks' stylesheet and script are generated under api/v1/decks/, which the repository already ignores",
+    "by": "dev@PrompTugal.dinis",
+    "from": "47c31639f"
+  },
+  {
+    "version": "v0.1.517",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Algarve Tech Hub Summit 2025 Friday agenda and speakers read; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "4701e2ad2"
+  },
+  {
+    "version": "v0.1.516",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: STYLE.md, Images: every article needs a cover image from the first draft, at Vicky's word",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ec6211743"
+  },
+  {
+    "version": "v0.1.515",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: eight decks: 6 (what makes it possible) added; all eight linked; 1 to 4 at v1.1",
+    "by": "investors@PrompTugal.dinis",
+    "from": "f60b0fc01"
+  },
+  {
+    "version": "v0.1.514",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: deck 8, do it yourself (v1.0, 15 slides)",
+    "by": "investors@PrompTugal.dinis",
+    "from": "3bdd03f48"
+  },
+  {
+    "version": "v0.1.513",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: /investors/join/, 'Who are you?', team interview questions; facts for decks 5 to 8",
+    "by": "investors@PrompTugal.dinis",
+    "from": "a6f44dc17"
+  },
+  {
+    "version": "v0.1.512",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 10:52: brief 4 for the Saturday 12:00 stand-up",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "628b4d435"
+  },
+  {
+    "version": "v0.1.511",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: decks v1.0: sources under version control, changelog; Dinis's go-live and structure notes",
+    "by": "investors@PrompTugal.dinis",
+    "from": "61335ccfd"
+  },
+  {
+    "version": "v0.1.510",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 10:44: F53 verified; F54 accepted but not yet on the day pages",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "cd75e4db5"
+  },
+  {
+    "version": "v0.1.509",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "0522a66f8"
+  },
+  {
+    "version": "v0.1.508",
+    "date": "2026-11-07",
+    "what": "correspondent@PrompTugal.dinis: wake 10:41: five picks per summit day (synthetic@'s F54); BR1 placed",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "f275dc9f5"
+  },
+  {
+    "version": "v0.1.507",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 10:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "3c22dcbcf"
+  },
+  {
+    "version": "v0.1.506",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: an image for BR1, the counts of Brazil's 2025 delegation; the offline fixes re-checked",
+    "by": "designer@PrompTugal.dinis",
+    "from": "987b3a3a5"
+  },
+  {
     "version": "v0.1.505",
     "date": "2026-11-07",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",

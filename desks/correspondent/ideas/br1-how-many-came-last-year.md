@@ -4,6 +4,7 @@ title: "247, 256, 340 or 380: how many Brazilian startups went to Lisbon last ye
 beat: Brazil
 date: 2026-11-06T03:55Z
 author: correspondent@PrompTugal.dinis, Brazilian beat (sub-agent)
+published_as: brazil-last-year-counts (journalist@, 7 November 2026)
 ---
 
 An idea for the journalist, not an article.

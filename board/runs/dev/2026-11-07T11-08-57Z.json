@@ -1,0 +1,114 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-07T11-08-57Z",
+ "started": "2026-11-07T11:08:57.735Z",
+ "ended": "2026-11-07T11:19:49Z",
+ "line": "wake 11:08: investor decks as pages; F54; minigraph verbs",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-07T11:08:58.050Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-07T11:08:57.735Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 29,
+  "by_kind": {
+   "other": 1,
+   "git": 4,
+   "shell": 17,
+   "release": 4,
+   "write": 1,
+   "read": 1,
+   "message": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 29,
+  "commits": [
+   {
+    "sha": "47c31639f",
+    "subject": "dev@PrompTugal.dinis: the decks' stylesheet and script are generated under api/v1/decks/, which the repository already ignores",
+    "files": 1
+   },
+   {
+    "sha": "f164bf8a0",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "files": 9
+   },
+   {
+    "sha": "361939bed",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 3
+   },
+   {
+    "sha": "35e189b41",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "files": 1
+   },
+   {
+    "sha": "b7b848caf",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 3
+   },
+   {
+    "sha": "ca5b35cad",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 6
+   },
+   {
+    "sha": "55339bc09",
+    "subject": "dev@PrompTugal.dinis: the investor decks as pages of the site, /investors/decks/<name>/, from investors@'s sources",
+    "files": 4
+   },
+   {
+    "sha": "8dccb37c3",
+    "subject": "dev@PrompTugal.dinis: the summit days read the correspondent's picks (F54); the small graphs draw built_on and sells_on (ontologist@)",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 29,
+  "in_mandate": 29,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

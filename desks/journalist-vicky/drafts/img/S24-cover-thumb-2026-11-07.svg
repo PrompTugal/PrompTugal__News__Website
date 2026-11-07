@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480"><style>
+.bg{fill:#f6f3ec}.ink{fill:#121317}.ink2{fill:#3f424a}.ink3{fill:#595c64}.red{fill:#c52830}.redl{stroke:#c52830}.grn{fill:#006600}.grid{stroke:#d8d2c3}.rule{fill:#006600}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){.bg{fill:#111214}.ink{fill:#eceae4}.ink2{fill:#c3c0b7}.ink3{fill:#a6a39a}.red{fill:#f07278}.redl{stroke:#f07278}.grn{fill:#6dbb7e}.grid{stroke:#2e2f34}.rule{fill:#6dbb7e}}
+</style><rect class="bg" width="480" height="480"/><rect class="rule" x="40" y="40" width="80" height="8"/><text class="ink" x="40" y="122" font-size="80" font-weight="800" text-anchor="start">Road</text><text class="ink" x="40" y="224" font-size="80" font-weight="800" text-anchor="start">closures</text><rect class="red" x="40" y="268" width="400" height="34" rx="5"/><rect class="red" x="120" y="326" width="320" height="34" rx="5"/><text class="ink3" x="40" y="430" font-size="44" font-weight="600" text-anchor="start">Sun 8 to Thu 12 Nov</text></svg>
