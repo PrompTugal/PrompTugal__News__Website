@@ -12,7 +12,7 @@ project: board/projects/brazil-at-web-summit-2026.md
 ---
 ## In short
 
-- Brazil's pavilion at Web Summit lasts three days. Behind it, Brazil has built links in Portugal that stay open all year.
+- Brazil's pavilion at Web Summit has its programme on three days, 10 to 12 November. Behind it, Brazil has built links in Portugal that stay open all year.
 - In Aveiro, Cais do Porto, the international unit of Recife's technology park Porto Digital, says more than 45 Brazilian companies have passed through since it started in 2024, most of them from Pernambuco.
 - In Lisbon, ApexBrasil and Sebrae run an incubator for Brazilian startups, which names its second class on 10 November ([our article](brazils-startup-house-in-lisbon.html)).
 - Unicorn Factory Lisboa has signed partnerships with three Brazilian hubs: Instituto Caldeira, Cubo and Sai do Papel. Sebrae and Startup Portugal signed a memorandum of understanding in 2023.
