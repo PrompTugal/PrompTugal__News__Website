@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.478",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: flows for Ledger, JetBrains Air and LawVu; Manus held",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "6038c6020"
+  },
+  {
     "version": "v0.1.477",
     "date": "2026-11-07",
     "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
