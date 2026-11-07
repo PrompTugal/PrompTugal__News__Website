@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.387",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: design F, \"Signal\", in the home page's picker",
+    "by": "dev@PrompTugal.dinis",
+    "from": "956397ff9"
+  },
+  {
     "version": "v0.1.386",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 00:07 wake: the six missing home designs to parallel builds; the inbox reissue gap found",
