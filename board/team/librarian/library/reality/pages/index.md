@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1036 cards (1026 current, 0 superseded, 10 withdrawn), from the catalogue generated 2026-11-07T09:59:38Z at site v0.1.497; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1043 cards (1033 current, 0 superseded, 10 withdrawn), from the catalogue generated 2026-11-07T12:59:26Z at site v0.1.538; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
 | `DAT.EV` | 245 |
-| `DAT.ORG` | 245 |
+| `DAT.ORG` | 249 |
 | `DAT.PE` | 276 |
 | `DAT.PL` | 83 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 42 |
+| `PUB.SITE` | 45 |
 
 Newest five accessions:
 
-- `ACC-20261107-0441` [Investors: a pilot for a publisher](https://promptugal.news/investors/for-publishers/) (`PUB.SITE for-publishers`)
-- `ACC-20261107-0434` [Stewart Clarke](https://promptugal.news/people/stewart-clarke/) (`DAT.PE stewart-clarke`)
-- `ACC-20261107-0433` [Rytis Rudzinskas](https://promptugal.news/people/rytis-rudzinskas/) (`DAT.PE rytis-rudzinskas`)
-- `ACC-20261107-0432` [Milan Vizner](https://promptugal.news/people/milan-vizner/) (`DAT.PE milan-vizner`)
-- `ACC-20261107-0431` [Mike Benz](https://promptugal.news/people/mike-benz/) (`DAT.PE mike-benz`)
+- `ACC-20261107-0515` [Investors: who we want to work with](https://promptugal.news/investors/partners/) (`PUB.SITE partners`)
+- `ACC-20261107-0514` [Offline copies](https://promptugal.news/offline/) (`PUB.SITE offline`)
+- `ACC-20261107-0513` [Investors: join us](https://promptugal.news/investors/join/) (`PUB.SITE join`)
+- `ACC-20261107-0507` [PrompTugal.news](https://promptugal.news/organisations/promptugal-news/) (`DAT.ORG promptugal-news`)
+- `ACC-20261107-0506` [Maravalley](https://promptugal.news/organisations/maravalley/) (`DAT.ORG maravalley`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

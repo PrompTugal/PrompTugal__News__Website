@@ -94,19 +94,6 @@
   },
   {
    "from": "card",
-   "inverse": "see_from",
-   "ontology": {
-    "ontology_inverse": null,
-    "state": "absent",
-    "world": null
-   },
-   "rel": "see",
-   "target": "card",
-   "to": "card",
-   "use": "a former or withdrawn holding points to the one that took its place"
-  },
-  {
-   "from": "card",
    "inverse": "also_seen_from",
    "ontology": {
     "ontology_inverse": "also_seen_from",

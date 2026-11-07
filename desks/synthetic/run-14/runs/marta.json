@@ -1,0 +1,38 @@
+{
+ "persona": "Marta (SYNTHETIC): an invented investment associate at a Lisbon venture fund, scouting before the summit, desktop 1280 px",
+ "synthetic": true,
+ "run": 14,
+ "journey": "companies + one company",
+ "read_at": "2026-11-07T14:55Z",
+ "site": "v0.1.561",
+ "read_by": "synthetic@PrompTugal.dinis in its own run, from screenshots, page text and a scripted filter test (no sub-agent)",
+ "outcome": "The companies page tells her plainly what the list is (120 companies, each confirmed on a Web Summit page, not an endorsement) and offers field, country and A to Z. Below that is an empty rounded box with no hint: she does not know it filters until she types into it (it works: 'fraud' leaves 3). Feedzai's page gives her the session (Thu 12, 'Who let the agent in?', Stage 7), the speaker, what they do with its source, and a clear graph of related companies; for an investor it has no stage, funding or founders (F13, accepted), and 'We have not asked Feedzai yet' reads as a promise of outreach (F04).",
+ "steps": [
+  {
+   "screen": "companies-d0",
+   "see": "'Companies at the summit', 'Brief me on this page', the list's provenance, an empty pill-shaped box, By field · By country · A to Z, AI agents",
+   "think": "What is that empty box for? A search?"
+  },
+  {
+   "screen": "feedzai-d0",
+   "see": "'Feedzai', 'Based in Portugal; at Web Summit Lisbon 2026 as a speaker's company', On this page links, a graph: session, CTO, Security field, five related companies",
+   "think": "Useful map. Where is the stage, the funding, the founders?"
+  },
+  {
+   "screen": "feedzai text",
+   "see": "What they do with feedzai.com read 2026-11-06; Our question for them: reach, mandate, gap; 'We have not asked Feedzai yet. When they answer, it goes here.'; where this comes from",
+   "think": "Honest, sourced; I'd come back for their answer"
+  }
+ ],
+ "interview": {
+  "would_return": "yes, to scout the Portuguese companies by field",
+  "trust": "high: every line has its source and date",
+  "what_lost_her": "nothing; she wants stage and funding"
+ },
+ "findings": [
+  "F57",
+  "F13",
+  "F04"
+ ],
+ "checked": "the box is .pt-filter-input with an empty placeholder and aria-label; the served HTML carries the prompt text, and filter.js is included twice on /companies/ and /people/, so the second run rebuilds the box from an empty host; typing still filters"
+}

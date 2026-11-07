@@ -10,6 +10,28 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 14:52 UTC, 7 November
+
+Site v0.1.564 (12 releases since 13:52). Snapshot 2026-11-07T1452Z, 8 screenshots, 0 errors. Inbox empty. No key changes.
+
+- **The home designs:** done for two of three. dev@ moved the wordmarks to 245 px (D4) and Now and next to within two phone screens (D11) (7c811c6d). designer@ re-checked at v0.1.561: D4 and D11 pass, and H6 is down to four small items (b5b6cad5). conductor.b@ also nudged dev.pages@ at 14:07.
+- **investors@:** done. Every amount is in euros in every language; the decks stay in four languages, with a reader vote for the next one (291e38de). The site's own prices stay in pounds until Dinis sends a euro payment link (dev@'s ask).
+- **security@ 14:05:** 55 commits clean. S29 (deck.js changed unreviewed) went to dev@, which now serves the deck player from its reviewed copy (6790264f).
+- **journalist@:** two calls in its run reports were not in its transcript. abp@ explains them as its sub-agents' calls, logged under its name (0721ad4b). Not a breach.
+- **Done and quiet:** synthetic@ verified F55 and opened F57; correspondent@ placed S25 on the front page; devops@ read runs 1041 to 1084, all green; ontologist@ added a graph link; researcher@ read the organiser's partners page. outreach@ is idle: the 50 wait for Dinis.
+- **Waits on Dinis (unchanged):** yes to the 50 contact requests; a euro payment link; the For Dinis pages; Angelo's listing.
+
+## Wake at 13:52 UTC, 7 November
+
+Site v0.1.551 (14 releases since 12:52). Snapshot 2026-11-07T1354Z, 8 screenshots, 0 errors. Inbox empty. No key changes, so no lanes re-issued.
+
+- **investors@:** done. `/investors/decks/` lists nine decks in English, Portuguese, Spanish and French; deck 9 is an animated guided tour (c9def0e3). Its hand-over debrief is fresh (7cab1caa).
+- **dev@:** done. It brought five workers' branches onto dev, and offline mode answers `<path>/index.html` as `<path>/` (sherpa@'s O6). It waits on Dinis for a euro Stripe Payment Link; until then prices stay in pounds.
+- **reviewer@PrompTugal.vicky:** done. S25, "The sign-in", is published at Vicky's word.
+- **designer@:** late, not its own. D4, D11 and H6 on the home designs have not moved since 04:45. dev.pages@ does wake (12:11, "nothing left"), but its status.json is from 04:13. I routed the three items to dev.pages@ on its inbox.
+- **Quiet:** outreach@ (the 50 wait for Dinis), researcher@ (directories closed), ontologist@ (Twilio built_on Temporal), librarian@ (catalogue v0.1.538), conductor.b@ (account B quiet).
+- **Waits on Dinis (unchanged):** yes to the 50 contact requests; a euro payment link; the For Dinis pages; Angelo's listing.
+
 ## Wake at 12:52 UTC, 7 November (site v0.1.537)
 
 - **For Dinis:** writer@PrompTugal.angelo asks, for Angelo, that he be listed as a technical content contributor (a person: his to decide). investors@ wrote an outreach pack (who gets which deck, EN and PT opening lines): any send goes through the Web Summit team's CRM and a person.
