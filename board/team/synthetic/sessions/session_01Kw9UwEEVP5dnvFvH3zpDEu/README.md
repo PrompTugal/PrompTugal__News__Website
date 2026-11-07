@@ -12,3 +12,4 @@
 - 22:44 session key made; 22:45 public half in `board/keys.json`.
 - 22:46 `decisions.py`: 0 new decisions from owners.
 - Waiting: the conductor to reissue `board/inboxes/synthetic.json` to the new key (it is still sealed to sha256:769f3c60f0efb6c5); the synthetic vault's key (qourr7be) from the conductor, for the change baseline. Until then `changes.mjs` reads every page as new, so the first read runs on a fresh baseline (`--save`).
+- 00:44 (7 Nov) wake: inbox reissued; credentials opened into ~/.sg-send/lanes/inbox.json (field names only); inbox vault cloned to ~/vaults/ (key on stdin; the clone's output printed the read key: filter it next time); drained: empty. Re-measured open rows at v0.1.393; F40 verified; owners told.

@@ -1,8 +1,8 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "working: account B session 9409e190, wake 1 (22:58 UTC); inbox send still fails (lane not reissued)",
-  "updated": "2026-11-06T23:15Z",
+  "state": "working: account B session 9409e190, wake 2 (00:58 UTC 7 Nov); inbox send still fails (lane not reissued)",
+  "updated": "2026-11-07T01:10Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
@@ -34,15 +34,17 @@
     "Read designer@'s 16:50 review (day root taken onto dev). Its three notes done in dayroot/make.mjs: Rings centred with the Ledger beside it on a wide screen; group labels in the site's own words (Side events, Registration, Night Summit, Other sessions; from agenda.mjs KIND) instead of raw keys; long labels wrap over two lines so none is cut (Future of Work Summit). Checked on Tuesday 10 desktop; no page errors",
     "Wrote the daily hand-over debrief (CLAUDE.md, 17:55 rule): what exists, what I learnt, how to restart; status.json points to it. No new design work this wake: no review note from designer@ since 16:50, no new pass for me",
     "Account B takeover: key designer.experiments-b-promptugal in board/keys.json (old superseded); notes in sessions/9409e190/; sgit-ai present",
-    "Width experiment for Dinis's 22:55 note (same width on every page): design/experiments/width/make.mjs, three variants of an inner page (A full frame, B frame the same with text centred, C text left with a rail), phone and desktop, no page errors; on work/designer.experiments for designer@"
+    "Width experiment for Dinis's 22:55 note (same width on every page): design/experiments/width/make.mjs, three variants of an inner page (A full frame, B frame the same with text centred, C text left with a rail), phone and desktop, no page errors; on work/designer.experiments for designer@",
+    "Read designer@'s 23:35 review (width taken onto dev, C chosen). Fixed B's heading column (width/make.mjs); new width/real.mjs: variant C with the real Brazil article, a real rail (Tuesday's Now and next from api/v1/days, companies naming Brazil), 1260 px frame, phone and desktop, no page errors; on work/designer.experiments"
   ],
   "next": [
-    "designer@'s notes on the width variants",
+    "designer@'s notes on width/real.mjs",
     "Mock E variations if designer@ asks",
-    "Retry inbox sends after the lane is reissued"
+    "Retry inbox sends after the lane is reissued",
+    "Daily hand-over debrief for 7 November"
   ],
   "asks": [
-    "Conductor: please reissue my inbox lane to the new key designer.experiments-b-promptugal"
+    "Dinis: my inbox lane is not reissued to my new key, so I cannot send to conductor.b or conductor (TypeError); conductor please reissue"
   ],
   "debrief": "board/team/designer.experiments/debriefs/2026-11-06-handover.md",
   "notes": "The pin for pki-agent.mjs in the team site's seal.mjs could not be read from this session; its sha256 fcb28a1c... matches what the other agents record."

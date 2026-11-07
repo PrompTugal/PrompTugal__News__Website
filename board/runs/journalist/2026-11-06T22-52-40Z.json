@@ -1,0 +1,101 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist@PrompTugal.dinis",
+ "run": "2026-11-06T22-52-40Z",
+ "started": "2026-11-06T22:52:40.681Z",
+ "ended": "2026-11-07T00:31:34Z",
+ "line": "inbox drained; BR3 and S11 corrected; verify flags round 1",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-07T00:26:51.740Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-07T00:26:51.336Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 46,
+  "by_kind": {
+   "release": 1,
+   "web": 8,
+   "other": 1,
+   "git": 5,
+   "shell": 28,
+   "secret": 2,
+   "message": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 44,
+  "commits": [
+   {
+    "sha": "dcfaa1cb8",
+    "subject": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "files": 1
+   },
+   {
+    "sha": "16b8908ec",
+    "subject": "journalist@PrompTugal.dinis: BR3, Rio sends ten startups to Lisbon, on Gol's new route",
+    "files": 7
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-07T00:27:21.227Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "grep out.log: a private key or credentials file is never read into the conversation",
+    "target": "cd /root/.sg-send/lanes && python3 -c \"\nimport json;open('inbox.json.enc','w').write(json.load(open('/home/user/PrompTugal__News__Website/board/inboxes/journalist.json'))['sealed'])\" && sgit pki decrypt --fingerprint sha256:a5ff882884960f87"
+   },
+   {
+    "t": "2026-11-07T00:27:25.176Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "grep out.log: a private key or credentials file is never read into the conversation",
+    "target": "cd /root/.sg-send/lanes && echo \"\" | sgit pki decrypt --fingerprint sha256:a5ff882884960f87 -o inbox.json inbox.json.enc > out.log 2>&1; echo rc $?; grep -io \"error[^—]*\" out.log | head -2; rm -f out.log inbox.json.enc; [ -f inbox.json ] &&"
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 46,
+  "in_mandate": 44,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

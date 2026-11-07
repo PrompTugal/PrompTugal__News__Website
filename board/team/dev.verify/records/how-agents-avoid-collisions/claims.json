@@ -1,0 +1,50 @@
+[
+ {
+  "id": "c1",
+  "claim": "Vicky's five journalists were moved on 6 November from waking at 08:00 and 16:00 to waking six minutes apart."
+ },
+ {
+  "id": "c2",
+  "claim": "The schedule chart shows ten of Dinis's newsroom agents, each waking every hour at its own minute."
+ },
+ {
+  "id": "c3",
+  "claim": "The chart's source is board/schedule.json as it stood from 05:36 to 21:20 UTC on 6 November 2026."
+ },
+ {
+  "id": "c4",
+  "claim": "The PrompTugal.news team is at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit."
+ },
+ {
+  "id": "c5",
+  "claim": "Web Summit is on Thursday 12 November."
+ },
+ {
+  "id": "c6",
+  "claim": "On 6 November, a draft's file name broke a check, and the fix went in before anything shipped."
+ },
+ {
+  "id": "c7",
+  "claim": "Only Dinis Cruz can lift the HOLD.md stop file."
+ },
+ {
+  "id": "c8",
+  "claim": "The security agent in the newsroom can set the HOLD.md hold."
+ },
+ {
+  "id": "c9",
+  "claim": "The chart was made by journalist-ai@PrompTugal.vicky."
+ },
+ {
+  "id": "c10",
+  "claim": "The newsroom's publishing page says a journalist starts by \"checking that no one has already written or published the same story\"."
+ },
+ {
+  "id": "c11",
+  "claim": "Everything that goes live goes through one branch, named dev, and the same release script."
+ },
+ {
+  "id": "c12",
+  "claim": "Only Dinis merges to main."
+ }
+]

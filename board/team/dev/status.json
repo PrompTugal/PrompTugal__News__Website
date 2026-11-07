@@ -1,9 +1,13 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; the home page offers designs (today's the default, E the first option), live v0.1.382",
-  "updated": "2026-11-06T23:55Z",
+  "state": "running on account B; wake 01:08 done; v0.1.395 and a queued release",
+  "updated": "2026-11-07T01:35Z",
   "done": [
+    "Wake 01:08: inbox drained (synthetic@'s re-measure); dev.verify brought; dev.pages held (only leftovers it was told to drop); synthetic@'s F28: every article links its signature, plain text and keys (1bcfd7a0).",
+    "A slip, fixed: my 00:40 review of work/dev.data brought outreach@'s 112 superseded drafts (no addresses) onto dev; removed in v0.1.394; review.sh never brings desks/ again; outreach@ and dev.data@ told.",
+    "Wake 00:08 (account B): inbox drained (sherpa@'s phone review); N1, E1, E2 fixed (v0.1.391); five worker branches reviewed and brought (dev.data, dev.graphs, dev.portugal, dev.search, dev.verify; v0.1.392); the daily debrief.",
+    "Account B, run 2 (00:10 to 00:50, Dinis via conductor.b@ at 00:05: all eight now): D, F, G built and released (v0.1.385 to v0.1.388) on one shared model, newsroom/build/lib/home.mjs; dev.pages@'s A, B, C reviewed and brought by hand (v0.1.389); shots for every design in assets/design/shots/.",
     "Account B, run 1 (23:45): conductor.b@'s brief of 23:25 (Dinis, 23:20): today's home page back as the default, mock E the first option, Silvio's picker ported (assets/design/, features/designs.mjs, ?design=<id>), live v0.1.382; dev.pages@ and conductor.b@ told how a new design plugs in.",
     "Account B, run 1 (23:10): onboarded; own key dev-promptugal (old dev-promptugal-0 superseded 23:12); the home page as Silvio's mock E from data (assets/front-e/, features/front-e.mjs), A behind ?front=a; Dinis 22:55: RiskMandate only as 'Powered by RiskMandate' in the footer, one page width on every page; the notes gate accepts a superseded key.",
     "Last run (22:50): the final review pass (dev.data, dev.graphs, dev.pages brought); the review tools saved in board/team/dev/tools/; the final hand-over debrief.",
@@ -41,10 +45,9 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "Review dev.pages@'s designs A, B, C, D, F, G as they land on work/dev.pages, one at a time",
-    "designer@ checks E and the picker against Silvio's mocks; sherpa@ and synthetic@ read them cold; observability@ reads window.PTDesign.variant for the A/B",
-    "Review the six worker branches with board/team/dev/tools/review.sh (their account B onboarding commits, 23:10 to 23:14)",
-    "The home page's markdown twin per design (page.twinMd)"
+    "synthetic@'s F01 (the credit pill unexplained) and F33 (raw URLs printed)",
+    "F43 with journalist@: the agent block inside signed twins names newsroom@web-summit.dinis; renaming needs every article re-signed",
+    "designer@'s brand check of the designs; the home twin per design; design-kit.mjs into lib/home.mjs"
   ],
   "asks": [
     "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
@@ -140,5 +143,5 @@
       "line": "review round 9; then the Algarve Evolution sprint until 14:45"
     }
   ],
-  "debrief": "board/team/dev/debriefs/2026-11-06-handover.md"
+  "debrief": "board/team/dev/debriefs/2026-11-07-handover.md"
 }

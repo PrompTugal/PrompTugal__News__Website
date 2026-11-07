@@ -1,0 +1,348 @@
+{
+  "$schema": "none",
+  "article": "angelos-communication-graph",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1",
+      "status": 200,
+      "read": true,
+      "chars": 11384
+    },
+    {
+      "url": "https://web-summit.sgit.ai/people/angelo/app/index.html#replay",
+      "status": 200,
+      "read": true,
+      "chars": 11384
+    },
+    {
+      "url": "https://web-summit.sgit.ai/people/angelo/app/data.json",
+      "status": 200,
+      "read": true,
+      "chars": 400000
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/angelo/tools/team-map.mjs",
+      "status": 200,
+      "read": true,
+      "chars": 16670
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/angelo/app/replay.js",
+      "status": 200,
+      "read": true,
+      "chars": 25571
+    },
+    {
+      "url": "https://promptugal.news/newsroom/security/what-the-agents-say-to-each-other.html",
+      "status": 200,
+      "read": true,
+      "chars": 7682
+    },
+    {
+      "url": "https://web-summit.sgit.ai/summit/",
+      "status": 200,
+      "read": true,
+      "chars": 46528
+    }
+  ],
+  "spent_usd": 0.0869,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Angelo, a member of the team, built a command centre that draws the team and its AI agents as one map.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "The whole team as one map",
+          "note": "The team-map script in Angelo's tools folder draws every team member with their agents around a ring, and its header says Angelo asked to extend his command centre's map to include everyone and their agents, though the source shows his agent wrote it rather than Angelo himself."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "Angelo asked, 6 November, to extend his command centre's map \"to include everyone and their agents in the team\"",
+          "note": "The sources confirm Angelo is a team member with a command centre that maps the team and their agents, but indicate he requested his collaboration agent to implement the map rather than building it entirely himself."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "to include everyone and their agents in the team",
+          "note": "S4 says Angelo asked to extend his command centre's map to include everyone and their agents in the team."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "When read on 6 November 2026, the map counted 6 people, 111 active agents, and 2,915 messages in seven days.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided passages contain no map reading of 6 people, 111 active agents, or 2,915 messages in seven days; the closest figures are different (55 agent keys on 5 November, and 75 inbox messages in twelve hours on 6 November)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided passages do not mention the map or counts of 6 people, 111 active agents, and 2,915 messages."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided passage states that the map counted 6 people, 111 active agents, or 2,915 messages in seven days."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "Replay is a timeline of every commit since 2 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "every commit since 2 November as a timeline",
+          "note": "A commit message in S3 describes Replay as showing every commit since 2 November as a timeline, and S5's code comment says the same, though both describe only slices 1 and 2."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "every commit since 2 November as a timeline",
+          "note": "The commit subject in source S3 explicitly describes Replay as every commit since 2 November as a timeline."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "every commit since 2 November as a timeline",
+          "note": "The source directly describes Replay as a timeline of every commit since 2 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "Thursday 12 November is the date when the team can be met at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "our stand RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1",
+          "note": "The source gives Thursday 12 November, booth A1-30 and Pavilion 1 for the RiskMandate stand, though it does not say the team is available for meetings all day and notes the exact location is shown at the venue."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1",
+          "note": "The source explicitly states that RiskMandate exhibits at booth A1-30 in Pavilion 1 on Thursday 12 November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1.",
+          "note": "S7 confirms the RiskMandate stand is on Thursday 12 November at booth A1-30 in Pavilion 1."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "By the team's count from the map's data on 6 November, more than four in ten messages went to a conductor agent.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The passages cover board tasks, meeting follow-ups, and outreach counts, but none mention a map's data on 6 November or the share of messages sent to a conductor agent."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source passages do not mention message counts, map data from 6 November, or the proportion of messages sent to conductor agents."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided passages do not mention a count of messages to conductor agents on 6 November."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "Each of the six people has a conductor agent that plans the work and hands it out.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "each person's conductor",
+          "note": "The sources support a per-person conductor and describe the conductor as planning and routing work, but none confirms a count of six people (WS-149 lists nine), and S6 describes the conductor as a single hub."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not mention six people or state that each of six people has a conductor agent that plans and distributes work."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S6",
+          "quote": "The conductor, which plans the work and routes it",
+          "note": "A source describes a conductor planning and routing work, and another mentions each person's conductor, but no source states that each of exactly six people has one."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "The team writes this newsroom with dozens of AI agents, each in its own session.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "each in its own session",
+          "note": "S6 says PrompTugal.news is written, built and checked by AI agents, each in its own session, and that it is run by about thirty agents, which fits 'dozens'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "PrompTugal.news is written, built and checked by AI agents, each in its own session",
+          "note": "The source confirms the newsroom is written by AI agents each in its own session, previously noting it is run by about thirty AI agents."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "written, built and checked by AI agents, each in its own session, with one human operator, Dinis Cruz",
+          "note": "S6 also says the newsroom is run by about thirty AI agents, matching “dozens” and the claim that each is in its own session."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Every change is a commit, and a 'For:' line in the commit names who the work is for.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "an arc is a commit's For: line, from its agent to the agent or person it is for",
+          "note": "The sources show commits carrying For: lines that name who the work is for, but none states as a rule that every change is a commit."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "an arc is a commit's For: line, from its agent to the agent or person it is for",
+          "note": "The source confirms that a commit's 'For:' line names who it is for, but nowhere states that every change is a commit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "an arc is a commit's For: line, from its agent to the agent or person it is for",
+          "note": "The source supports a commit's For: line naming who it is for, but it does not state that every change is a commit."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "The map's lines join a pair of agents, or an agent and a person, that addressed work to each other in the last seven days.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The excerpts mention a collaboration map and a daily note built from the board, git log, and meeting data, but none of them says the map's lines link agent-agent or agent-person pairs that addressed work to each other in the last seven days; the only time window mentioned is the last 24 hours."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source passages do not mention what the map's lines join or any interactions over the last seven days."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The passages mention a collaboration map and a board of people and agents, but none states that the map's lines join pairs who addressed work to each other in the last seven days."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "Replay playback can run at one hour, six hours or a day per second, and the team's stand-ups and the site's releases are marked on it.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "with the stand-ups and CI's releases",
+          "note": "S5 says the Replay timeline shows stand-ups and CI releases and that playback has speed controls, but the excerpted passages do not state the one-hour, six-hour, or one-day-per-second speeds."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "with the stand-ups and CI's releases",
+          "note": "The source confirms that stand-ups and releases are included and playback has speed controls, but it does not specify speeds of one hour, six hours, or a day per second."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S5",
+          "quote": "Slices 1 and 2: a Gantt of every commit since 2 November, a row per agent grouped by person (on a // phone, a row per person), coloured by kind, with the stand-ups and CI's releases; filters by time window, person, // kind, agent and issue, kept in the address; and playback: play, pause, speed, a scrubber, jump to a stand-up.",
+          "note": "The source confirms that Replay tracks stand-ups and CI's releases and allows for playback speed adjustment, but it does not specify the exact speeds of one hour, six hours, or a day per second."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    }
+  ]
+}

@@ -230,11 +230,11 @@
         },
         {
           "title": "What is known",
-          "text": "Google Cloud is on the 2026 partners list. Google and AWS were named top partners of the 2022 edition, and Microsoft is on Web Summit's list of past partners. Amazon has a press conference on 11 November, given by job title only. Of six partner companies' own pages read, four name AWS and two each name Google Cloud and Azure, each in a different way."
+          "text": "Google Cloud is on the 2026 partners list. Google and AWS were named top partners of the 2022 edition, and Microsoft is on Web Summit's list of past partners. Amazon has a press conference on 11 November, given by job title only. Of 14 partner companies' own pages read, five name AWS, three name Google Cloud and six name Microsoft or Azure, each in a different way (a marketplace, a customer, a rival, product coverage)."
         },
         {
           "title": "What is not",
-          "text": "Nothing found for AWS or Microsoft on the first page of the 2026 partners list, but only one of eight pages was read, and twelve of the 18 partner companies' pages are not read yet. Which companies each centre invests in is not looked at. None of this is absence at the summit.",
+          "text": "Nothing found for AWS or Microsoft on the first page of the 2026 partners list, but only one of eight pages was read, and three of the 17 other partner companies' pages could not be read and the rest are only front pages. Which companies each centre invests in is not looked at. None of this is absence at the summit.",
           "href": "graph/world/index.html",
           "link": "See the companies on the world map"
         }
@@ -253,11 +253,11 @@
         },
         {
           "title": "How far each figure was read",
-          "text": "Solid: read at source (2022 and 2023 from the organiser's own releases, 2025 from a news report of its figure). Paler: Wikipedia's table (2016, 2017, 2018). Dashed: a search summary only (2024). Marked n/a: no figure found (2019, 2021), and 2020 was held online."
+          "text": "Solid: read at source (2022 and 2023 from the organiser's own releases, 2024 from the headline of its own post, 2025 from a news report of its figure). Paler: Wikipedia's table (2016, 2017, 2018). Marked n/a: no figure found (2019, 2021), and 2020 was held online."
         },
         {
           "title": "A caution",
-          "text": "The figures are the organiser's claims and the sources do not always agree. 2025's 71,386 is below 2024's reported 71,528, so 'record attendance' does not hold for 2025; the records claimed are for investors and startups. The 2025 digits are still to be confirmed.",
+          "text": "The figures are the organiser's claims and the sources do not always agree. 2025's 71,386 is below 2024's 71,528 (the organiser's own headline), so 'record attendance' does not hold for 2025; the records claimed are for investors and startups. The 2025 digits are still to be confirmed.",
           "href": "articles/web-summit-ten-lisbon-years.html",
           "link": "Read the ten Lisbon years"
         }

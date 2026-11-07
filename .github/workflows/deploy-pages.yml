@@ -60,7 +60,8 @@ jobs:
           git fetch -q origin dev
           echo "$GITHUB_REF_NAME is $(git rev-list --count origin/dev..HEAD) commit(s) ahead of dev and $(git rev-list --count HEAD..origin/dev) behind"
           git clean -fdXq   # the generated output of the step above (ignored files only)
-          if ! git merge -q --no-edit --no-ff origin/dev; then
+          # two appends to board/keys.json are merged by id (dev's newsroom/tools/release.sh --resolve-keys); any other conflict is red
+          if ! git merge -q --no-edit --no-ff origin/dev && ! { bash <(git show origin/dev:newsroom/tools/release.sh) --resolve-keys && git commit -q --no-edit; }; then
             echo "::error::$GITHUB_REF_NAME conflicts with dev in: $(git diff --name-only --diff-filter=U | tr '\n' ' ')"; exit 1
           fi
           node newsroom/build/validate.js

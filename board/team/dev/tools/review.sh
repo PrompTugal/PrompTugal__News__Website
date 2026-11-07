@@ -5,7 +5,8 @@ for b in ${BRANCHES:-$(git branch -r | grep "origin/work/dev\." | sed "s#.*origi
 git merge --squash -q origin/work/$b >/dev/null 2>&1
 for f in $(git diff --name-only --diff-filter=U); do case "$f" in board/keys.json) python3 -I $S/keys-union.py >/dev/null;; board/team/$b/*|board/runs/$b/*) git checkout --theirs -- "$f";; data/schemas/*) if git log --no-merges --format= --name-only origin/dev..origin/work/$b -- "$f" | grep -q .; then git checkout --theirs -- "$f"; else git checkout --ours -- "$f"; fi;; *) [ -z "$(git log --format=%s HEAD -- "$f" | grep -v "work/$b")" ] && git checkout --theirs -- "$f";; esac; git add "$f" 2>/dev/null; done
 if [ -n "$(git diff --name-only --diff-filter=U)" ]; then echo "$b HELD: conflicts $(git diff --name-only --diff-filter=U|tr '\n' ' ')" >> $OUT; git reset -q --hard HEAD; continue; fi
-own=$(git log --no-merges --format= --name-only origin/dev..origin/work/$b | sort -u)
+# a dev worker never brings a desk's files (desks/ is the desks' own): dev.data's branch carried 112 stale outreach drafts in its own commits, and they came in once (7 Nov 00:40)
+own=$(git log --no-merges --format= --name-only origin/dev..origin/work/$b | grep -v '^desks/' | sort -u)
 for f in $(git diff --cached --name-only); do echo "$own" | grep -qxF "$f" || { git restore --staged --worktree --source=HEAD -- "$f" 2>/dev/null || { git rm -q --cached -- "$f"; rm -f -- "$f"; }; echo "$b: not its own, left out: $f" >> $OUT; }; done
 files=$(git diff --cached --name-only | tr '\n' ' ')
 [ -z "$files" ] && { echo "$b: nothing new" >> $OUT; continue; }

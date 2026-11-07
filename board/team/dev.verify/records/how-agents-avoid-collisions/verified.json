@@ -1,0 +1,424 @@
+{
+  "$schema": "none",
+  "article": "how-agents-avoid-collisions",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://promptugal.news/how-we-publish/",
+      "status": 200,
+      "read": true,
+      "chars": 4014
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/CLAUDE.md",
+      "status": 200,
+      "read": true,
+      "chars": 25009
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/CLAUDE.md",
+      "status": 200,
+      "read": true,
+      "chars": 7176
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/vicky/schedule.json",
+      "status": 200,
+      "read": true,
+      "chars": 8001
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/092caeadc99222b3155c3cbdbc6293a91c5b8ca6/board/schedule.json",
+      "status": 200,
+      "read": true,
+      "chars": 11668
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/vicky/decisions.md",
+      "status": 200,
+      "read": true,
+      "chars": 15802
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/newsroom/tools/release.sh",
+      "status": 200,
+      "read": true,
+      "chars": 8061
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/vicky/reports/journalist-ai.md",
+      "status": 200,
+      "read": true,
+      "chars": 16040
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/journalist-vicky/STYLE.md",
+      "status": 200,
+      "read": true,
+      "chars": 9494
+    },
+    {
+      "url": "https://web-summit.sgit.ai/summit/",
+      "status": 200,
+      "read": true,
+      "chars": 46528
+    }
+  ],
+  "spent_usd": 0.1087,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Vicky's five journalists were moved on 6 November from waking at 08:00 and 16:00 to waking six minutes apart.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "Suggested times instead of 08:00 and 16:00 for all five: journalist 08:00/16:00, journalist-portugal 08:06/16:06, journalist-europe 08:12/16:12, journalist-ai 08:18/16:18, journalist-connections 08:24/16:24.",
+          "note": "The source gives six-minute staggered wake times replacing 08:00 and 16:00 for all five journalists, accepted by Vicky on 6 November, and S8 confirms journalist-ai's task moved to 08:18 and 16:18 that day, though it does not separately confirm the other four moves."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "P5, stagger the five journalists (scout's P5, accepted by Vicky 6 Nov). For: journalist, journalist-portugal, journalist-europe, journalist-ai, journalist-connections. Suggested times instead of 08:00 and 16:00 for all five: journalist 08:00/16:00, journalist-portugal 08:06/16:06, journalist-europe 08:12/16:12, journalist-ai 08:18/16:18, journalist-connections 08:24/16:24. Each run still checks desks/journalist-vicky/drafts/ before writing. Vicky (6 Nov): each journalist moves its own scheduled task to its time.",
+          "note": "The decisions log confirms that on 6 November, Vicky accepted staggering the five journalists from waking together at 08:00 and 16:00 to staggered intervals six minutes apart."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S6",
+          "quote": "P5, stagger the five journalists (scout's P5, accepted by Vicky 6 Nov).",
+          "note": "Source records the 6 Nov decision to stagger the five journalists at six-minute intervals, but does not confirm all five actually moved."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The schedule chart shows ten of Dinis's newsroom agents, each waking every hour at its own minute.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "S2 says all sixteen PrompTugal agents are woken every hour by a scheduled task, but no source mentions a schedule chart, ten agents, or each agent waking at its own minute."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not mention a schedule chart showing ten of Dinis's agents waking every hour at their own minute."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "each PrompTugal agent's session is woken every hour",
+          "note": "The source supports hourly waking for each agent, but does not mention a schedule chart, ten agents, or each waking at its own minute."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The chart's source is board/schedule.json as it stood from 05:36 to 21:20 UTC on 6 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S8",
+          "quote": "from board/schedule.json as it stood from 05:36 to 21:20 UTC on 6 November",
+          "note": "The S8 report says the T4 chart's source is board/schedule.json as it stood from 05:36 to 21:20 UTC on 6 November, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S8",
+          "quote": "from board/schedule.json as it stood from 05:36 to 21:20 UTC on 6 November",
+          "note": "The report confirms that T4's chart draws from board/schedule.json as it stood between 05:36 and 21:20 UTC on 6 November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S8",
+          "quote": "from board/schedule.json as it stood from 05:36 to 21:20 UTC on 6 November",
+          "note": "S8 states T4's chart uses board/schedule.json as it stood from 05:36 to 21:20 UTC on 6 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "The PrompTugal.news team is at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S10",
+          "quote": "booth A1-30, in ALPHA 1, Pavilion 1",
+          "note": "The sources place RiskMandate's stand at booth A1-30 in Pavilion 1, but none says the PrompTugal.news team is there; the PrompTugal.news source only proposes inviting readers to the booth, pending confirmation."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S10",
+          "quote": "RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1.",
+          "note": "The sources confirm RiskMandate exhibits at booth A1-30 in Pavilion 1 on Thursday 12 November, but do not establish that the PrompTugal.news team is stationed there throughout Web Summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S8",
+          "quote": "RiskMandate booth (A1-30, Pavilion 1, Thursday 12 November)",
+          "note": "The source confirms RiskMandate's booth A1-30 in Pavilion 1, but does not state the PrompTugal.news team is at it."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "Web Summit is on Thursday 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S10",
+          "quote": "9 to 12 November 2026",
+          "note": "The source gives the event as 9 to 12 November 2026, so Thursday 12 November is one of its days, but the claim's wording suggests a single day rather than a four-day event."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S10",
+          "quote": "dates 9 to 12 November 2026",
+          "note": "Thursday 12 November is the final conference day of Web Summit 2026, which runs from 9 to 12 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S10",
+          "quote": "conference days Tuesday 10, Wednesday 11 and Thursday 12 November 2026",
+          "note": "The source states that Web Summit 2026 includes Thursday 12 November as a conference day."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "On 6 November, a draft's file name broke a check, and the fix went in before anything shipped.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The passages mention a 6 November 2026 MAJOR bug titled 'agents-blocked' but say nothing about a draft's file name breaking a check or a fix shipping before publication."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention a draft's file name breaking a check or a fix being applied before anything shipped."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided source mentions a draft file name breaking a check or a fix before anything shipped."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "Only Dinis Cruz can lift the HOLD.md stop file.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "only Dinis does",
+          "note": "The CLAUDE.md passage says security@ can write board/HOLD.md or lift a hold, with \"(only Dinis does)\", and release.sh likewise says the hold is \"lifted only by Dinis\"; the sources do not name the surname \"Cruz\" in this context, and the separate people/vicky/HOLD.md is Vicky's, not this file."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S6",
+          "quote": "Only Vicky (through her conductor) writes or removes that file.",
+          "note": "While Dinis lifts the board/HOLD.md file, Vicky removes the people/vicky/HOLD.md stop file."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "lifted only by Dinis",
+          "note": "The source states that board/HOLD.md is written by security@ and lifted only by Dinis, matching the claim that only Dinis Cruz can lift the HOLD.md stop file."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c8",
+      "claim": "The security agent in the newsroom can set the HOLD.md hold.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "can write board/HOLD.md",
+          "note": "S2 says security@PrompTugal.dinis can write board/HOLD.md, and S7 likewise says the hold is written by security@, so the claim matches the sources."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "writes board/HOLD.md (security@ does)",
+          "note": "The source explicitly confirms that security@ can write the board/HOLD.md hold file."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "can write board/HOLD.md",
+          "note": "S2 states the security agent can write board/HOLD.md, which sets the hold."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "The chart was made by journalist-ai@PrompTugal.vicky.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources show that journalist-ai@PrompTugal.vicky exists as a scheduled agent (S4) and that the style guide asks for charts in some articles (S9), but none of them attributes any particular chart to this agent."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention a chart being made by journalist-ai@PrompTugal.vicky."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source states that the chart was made by journalist-ai@PrompTugal.vicky; sources only mention that agent's scheduled run and general chart/image rules."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "The newsroom's publishing page says a journalist starts by \"checking that no one has already written or published the same story\".",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "first checking that no one has already written or published the same story",
+          "note": "The 'Before anything is written' section of the How we publish page says a journalist takes a suggested story and, first, checks that no one has already written or published it, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "A journalist takes one, first checking that no one has already written or published the same story.",
+          "note": "The publishing workflow page explicitly states that a journalist takes a suggested story, first checking that no one has already written or published the same story."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "first checking that no one has already written or published the same story",
+          "note": "The newsroom's “How we publish” page directly states this step in the workflow."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c11",
+      "claim": "Everything that goes live goes through one branch, named dev, and the same release script.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "Work on and push to dev only.",
+          "note": "S2 supports dev as the only push branch and the newsroom/tools/release.sh script, but it also says a major release is a pull request from dev to main that only Dinis merges, so not everything that goes live passes through dev alone."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S3",
+          "quote": "A major release is a pull request from dev to main , opened by an agent if asked, and merged only by Dinis; the merge is the release",
+          "note": "Major releases go live through the main branch via a pull request merged by Dinis rather than solely through dev and the standard release script."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Work on and push to dev only.",
+          "note": "The same source prescribes newsroom/tools/release.sh and says both scripts are copied from the team's site."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c12",
+      "claim": "Only Dinis merges to main.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "a major release is a pull request from dev to main that only Dinis merges",
+          "note": "The PrompTugal CLAUDE.md says agents never push to main and that only Dinis merges the dev-to-main pull request for a major release, which matches the claim; S3 says the same for the Web Summit repository."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "a major release is a pull request from dev to main that only Dinis merges",
+          "note": "Source S2 confirms that only Dinis merges pull requests from dev to main."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "only Dinis merges",
+          "note": "S2 states that a major release is a pull request from dev to main that only Dinis merges."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

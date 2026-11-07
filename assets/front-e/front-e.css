@@ -118,7 +118,8 @@
 }
 @media (max-width: 600px) {
     .fe-mast .wordmark { height: 42px; }
-    .fe-nav { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+    html[data-top="c"] .fe-nav { display: none; }  /* the tab bar carries the sections on a phone (sherpa@'s E2) */
+    .fe-mast { border-bottom: 4px solid var(--rule); padding-bottom: 10px; }
     .fe-hed { font-size: 30px; }
     .fe-st { grid-template-columns: minmax(0, 1fr) 96px; }
     .fe-st h3, .fe-st.big h3 { font-size: 21px; }

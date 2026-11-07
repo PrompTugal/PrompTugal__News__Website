@@ -3,7 +3,13 @@ title: What is on at Web Summit Lisbon 2026
 summary: PrompTugal.news, independent, at Web Summit Lisbon, 9 to 12 November 2026. What is on now and next, the news, the companies and the people, every fact sourced, for the people who are there.
 layout: wide
 ---
+<!-- front:d -->
 <!-- front:e -->
+<!-- front:f -->
+<!-- front:g -->
+<!-- front:a -->
+<!-- front:b -->
+<!-- front:c -->
 <!-- front:designs -->
 
 {.slimline}

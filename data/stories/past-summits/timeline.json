@@ -133,6 +133,21 @@
       ]
     },
     {
+      "at": "2023-11-14",
+      "what": "Web Summit 2023 opens in Lisbon: the new chief executive addresses the founder's resignation; more than 300 partners attend and 2,600 startups are expected.",
+      "kind": "event",
+      "about": [
+        "event:web-summit-lisbon-2023",
+        "organisation:web-summit"
+      ],
+      "source": "rte-2023-11-14-opens-in-lisbon",
+      "claim": [
+        "c39",
+        "c40",
+        "c41"
+      ]
+    },
+    {
       "at": "2024-01-24",
       "what": "Web Summit announces its chief executive will step down on 1 March 2024 to lead NPR, remaining as non-executive chair.",
       "kind": "change",
@@ -144,6 +159,21 @@
         "c19",
         "c20",
         "c21"
+      ]
+    },
+    {
+      "at": "2024-02-16",
+      "what": "Web Summit publishes its 2022 accounts: revenues of 52.5m euro, and a sold-out Lisbon 2022 edition of 71,000 attendees by its own count.",
+      "kind": "publication",
+      "about": [
+        "event:web-summit-lisbon-2022",
+        "organisation:web-summit"
+      ],
+      "source": "rte-2024-02-16-accounts-2022",
+      "claim": [
+        "c36",
+        "c37",
+        "c38"
       ]
     }
   ]
