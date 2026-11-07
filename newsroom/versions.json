@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.390",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: the run's two R8 observations explained in the session notes",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "f72e98198"
+  },
+  {
     "version": "v0.1.389",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.pages's designs A, B and C onto dev; all eight in the picker",
