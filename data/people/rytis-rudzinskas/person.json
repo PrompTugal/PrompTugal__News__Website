@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "rytis-rudzinskas",
+  "type": "person",
+  "name": "Rytis Rudzinskas",
+  "role": "Founder & CEO",
+  "organisation": "EnforceShield",
+  "org": "organisation:enforceshield",
+  "listings": [
+    {
+      "role": "Founder & CEO",
+      "organisation": "EnforceShield",
+      "org": "organisation:enforceshield",
+      "event": "event:the-perimeter-is-dead-so-what-happens-to-trust",
+      "source": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
+      "read_at": "2026-11-07T08:17Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

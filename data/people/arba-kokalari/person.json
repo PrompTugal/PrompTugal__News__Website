@@ -3,17 +3,17 @@
   "id": "arba-kokalari",
   "type": "person",
   "name": "Arba Kokalari",
-  "role": "MEP Group of the European People's Party",
+  "role": "MEP",
   "organisation": "European Parliament",
   "org": "organisation:european-parliament",
   "listings": [
     {
-      "role": "MEP Group of the European People's Party",
+      "role": "MEP",
       "organisation": "European Parliament",
       "org": "organisation:european-parliament",
       "event": "event:free-or-controlled-internet-the-great-dsa-debate",
       "source": "https://websummit.com/sessions/lis26/33c61f4c-b906-4056-aefa-ca2f45c27d55/free-or-controlled-internet-the-great-dsa-debate/",
-      "read_at": "2026-11-06T08:19Z",
+      "read_at": "2026-11-07T08:18Z",
       "by": "programme@web-summit.vicky"
     }
   ],

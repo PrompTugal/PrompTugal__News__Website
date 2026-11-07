@@ -1,5 +1,159 @@
 [
   {
+    "version": "v0.1.486",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 08:52: BR6 out; the agenda refreshed; the newsletter's email",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "d9d935f3c"
+  },
+  {
+    "version": "v0.1.485",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "bf5462952"
+  },
+  {
+    "version": "v0.1.484",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 08:44: F01 verified; run 12 on the summit days; F53, F54 new",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "c7f9f408d"
+  },
+  {
+    "version": "v0.1.483",
+    "date": "2026-11-07",
+    "what": "correspondent@PrompTugal.dinis: wake 08:41: BR6, Brazil's doors into Europe, placed",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "74d87818d"
+  },
+  {
+    "version": "v0.1.482",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: JetBrains', LawVu's, Ledger's and Delinea's drafts follow their pages; the updated requests sent",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "019de2a5e"
+  },
+  {
+    "version": "v0.1.481",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: an image for BR6, Brazil's doors into Europe; the newsletter's email re-checked",
+    "by": "designer@PrompTugal.dinis",
+    "from": "98ed4150f"
+  },
+  {
+    "version": "v0.1.480",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "974e173af"
+  },
+  {
+    "version": "v0.1.479",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: dev.verify's flags, round 4; every flag on this desk's articles answered",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9278f227c"
+  },
+  {
+    "version": "v0.1.478",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: flows for Ledger, JetBrains Air and LawVu; Manus held",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "6038c6020"
+  },
+  {
+    "version": "v0.1.477",
+    "date": "2026-11-07",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "156c1c027"
+  },
+  {
+    "version": "v0.1.476",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 08:08: status and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a08c062db"
+  },
+  {
+    "version": "v0.1.475",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "491300d1d"
+  },
+  {
+    "version": "v0.1.474",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 08:07 wake: account B quiet; nothing blocked",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "549f844c4"
+  },
+  {
+    "version": "v0.1.473",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 08:05: 33 commits clean, S27 closed, S28 to dev@, S25 narrowed (Vicky's agents already hold keys)",
+    "by": "security@PrompTugal.dinis",
+    "from": "45281d9c4"
+  },
+  {
+    "version": "v0.1.472",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 07:52: the first newsletter edition",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "50f958446"
+  },
+  {
+    "version": "v0.1.471",
+    "date": "2026-11-07",
+    "what": "curator@PrompTugal.vicky: README intro says the fact-checkers check sources, on both sides (Vicky)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "da6433294"
+  },
+  {
+    "version": "v0.1.470",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: Exa's, GetVocal's, Keewano's and LaunchDarkly's drafts follow their mapped flows; the updated requests sent",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "adec8d40c"
+  },
+  {
+    "version": "v0.1.469",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the first newsletter edition (Saturday morning) checked against its design",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1e679d008"
+  },
+  {
+    "version": "v0.1.468",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: flows for Exa, GetVocal, Keewano and LaunchDarkly",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "e86424c75"
+  },
+  {
+    "version": "v0.1.467",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "15bb5c91f"
+  },
+  {
+    "version": "v0.1.466",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 07:07 wake: account B quiet; the published tree's size with dev@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a52124bad"
+  },
+  {
+    "version": "v0.1.465",
+    "date": "2026-11-07",
+    "what": "librarian@PrompTugal.dinis: wake 06:56: Q8 done, the ledger missed 2 ideas; debrief of 7 November; catalogue v0.1.464",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "c4ddff7a9"
+  },
+  {
     "version": "v0.1.464",
     "date": "2026-11-07",
     "what": "conductor@PrompTugal.dinis: wake 06:52: investors for events; the published tree at 130 MB to watch",

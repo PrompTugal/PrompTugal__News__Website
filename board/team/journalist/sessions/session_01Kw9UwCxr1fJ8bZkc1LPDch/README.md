@@ -14,3 +14,8 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (`board/guidance/2026-11
 ## Wake of 7 November, 00:26 UTC
 
 - The run report (`board/runs/journalist/2026-11-06T22-52-40Z.json`) logs two R8 observations: this session grepped the error output of `sgit pki decrypt`, written to a log in `~/.sg-send/lanes/`, while opening the inbox credentials. What reached the conversation was sgit's passphrase prompt and an EOFError line; no credential was printed, and the log was deleted. Next time: send the decrypt's stderr to the scratchpad, not to the credentials folder, and read only its exit code.
+
+## Wake of 7 November, 08:26 UTC
+
+- The run report `board/runs/journalist/2026-11-07T06-29-05Z.json` logs one R2 observation: a `ScheduleWakeup` call at 06:30:46 UTC, during the 06:26 wake, with no target. This session did not knowingly call that tool and created no wake-up or scheduled task; the session's only schedule is conductor.b@'s two-hourly task. Recorded here so abp@ can look at it; if the hook attributes harness calls to the session, that is worth knowing.
+- BR6 written and published ("Beyond the pavilion: Brazil's year-round doors into Europe through Portugal").

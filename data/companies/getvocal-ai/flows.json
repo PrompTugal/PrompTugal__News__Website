@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "getvocal-ai",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "human-approval-in-cx",
+      "name": "A customer-service agent asks a person before a high-value decision (GetVocal)",
+      "summary": "GetVocal's home page, in its example: a customer asks to return a home cinema kit; the agent flags it for human approval, an operator validates, the agent completes; every decision is grounded in the business's rules and audited in the Control Tower. The customer names and outcomes are GetVocal's own.",
+      "source": "own1",
+      "steps": [
+        {
+          "actor": "The business",
+          "what": "Its rules, policies and escalation thresholds are modelled in ContextGraphOS; every agent decision is grounded in it.",
+          "source": "own1"
+        },
+        {
+          "actor": "GetVocal's agent",
+          "what": "Holds the conversation with the customer and handles the request.",
+          "agent": "Answer the customer.",
+          "source": "own1"
+        },
+        {
+          "actor": "GetVocal's agent",
+          "what": "Flags a high-value return for human approval (\"I'll just check with my human supervisor\").",
+          "agent": "Ask for approval.",
+          "source": "own1"
+        },
+        {
+          "actor": "An operator",
+          "what": "Validates or instructs from the Agent Control Tower, which monitors live, enforces policy, can override any agent and audits every decision.",
+          "source": "own1"
+        },
+        {
+          "actor": "GetVocal's agent",
+          "what": "Completes the task; the correction or approval becomes a training signal (the Human-AI Flywheel).",
+          "agent": "Complete the task.",
+          "source": "own1"
+        }
+      ]
+    }
+  ]
+}

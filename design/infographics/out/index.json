@@ -1705,6 +1705,66 @@
     "checked": "every figure and name against the article, by designer@ (session 3); two notes: '7 November' for the article's 'from 7 November', and a small arena icon with a garbled 'MEO' mark",
     "source": "designer@ session 3 scratch: ai-images/your-first-day-at-web-summit/google_gemini-3-pro-image--phone--013643.png"
    }
+  },
+  {
+   "slug": "brazils-doors-into-europe",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "brazils-doors-into-europe--paper--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "style": "explainer",
+    "made": "2026-11-07",
+    "checked": "every name, date and figure against the article, by designer@ (session 3); a small note quoting TI Inside's 'porta de entrada para o continente europeu' was removed by hand, because the image tied the phrase to the Aveiro unit while TI Inside used it of Portugal; nothing added",
+    "source": "designer@ session 3 scratch: ai-images/brazils-doors-into-europe/google_gemini-3-pro-image--explainer--083601--no-note.png"
+   }
+  },
+  {
+   "slug": "brazils-doors-into-europe",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "thumb",
+   "file": "brazils-doors-into-europe--ink--thumb.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "style": "explainer",
+    "made": "2026-11-07",
+    "checked": "every name, date and figure against the article, by designer@ (session 3); a small note quoting TI Inside's 'porta de entrada para o continente europeu' was removed by hand, because the image tied the phrase to the Aveiro unit while TI Inside used it of Portugal; nothing added",
+    "source": "designer@ session 3 scratch: ai-images/brazils-doors-into-europe/google_gemini-3-pro-image--explainer--083601--no-note.png"
+   }
+  },
+  {
+   "slug": "brazils-doors-into-europe",
+   "theme": "paper",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "brazils-doors-into-europe--paper--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "style": "explainer",
+    "made": "2026-11-07",
+    "checked": "every name, date and figure against the article, by designer@ (session 3); a small note quoting TI Inside's 'porta de entrada para o continente europeu' was removed by hand, because the image tied the phrase to the Aveiro unit while TI Inside used it of Portugal; nothing added",
+    "source": "designer@ session 3 scratch: ai-images/brazils-doors-into-europe/google_gemini-3-pro-image--explainer--083601--no-note.png"
+   }
+  },
+  {
+   "slug": "brazils-doors-into-europe",
+   "theme": "ink",
+   "layout": "ai-infographic",
+   "size": "card",
+   "file": "brazils-doors-into-europe--ink--card.png",
+   "auto": false,
+   "ai": {
+    "model": "google/gemini-3-pro-image",
+    "style": "explainer",
+    "made": "2026-11-07",
+    "checked": "every name, date and figure against the article, by designer@ (session 3); a small note quoting TI Inside's 'porta de entrada para o continente europeu' was removed by hand, because the image tied the phrase to the Aveiro unit while TI Inside used it of Portugal; nothing added",
+    "source": "designer@ session 3 scratch: ai-images/brazils-doors-into-europe/google_gemini-3-pro-image--explainer--083601--no-note.png"
+   }
   }
  ]
 }

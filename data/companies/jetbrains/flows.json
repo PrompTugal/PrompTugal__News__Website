@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "jetbrains",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "agents-in-air",
+      "name": "Agents work on a codebase from triggers and tasks; developers review every change (JetBrains Air)",
+      "summary": "JetBrains Air's page, in its own example: the team runs the agents it already uses in one system, from the IDE, the web, a CLI or a phone; automations start agents on repository events, and the developer reviews each change.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The team",
+          "what": "Connects the agents it uses (Claude Agent, Codex, Junie, Copilot, OpenCode or any via ACP) and sets automations on repository events, for example a code reviewer when a pull request is created or issue triage when an issue is created.",
+          "source": "fl1"
+        },
+        {
+          "actor": "A developer",
+          "what": "Gives an agent a task in plain words, from a JetBrains IDE, the web, the CLI or a phone.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The agent",
+          "what": "Runs in the cloud, scans the project, makes the change and reports what it did and the credits it used.",
+          "agent": "Make the change and report it.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The developer",
+          "what": "Reviews every change and follows up on the task.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

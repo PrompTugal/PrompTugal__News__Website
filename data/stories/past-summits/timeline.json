@@ -69,6 +69,20 @@
       ]
     },
     {
+      "at": "2018-10-03",
+      "what": "Web Summit agrees a new 10-year deal to stay in Lisbon until at least 2028, with the company paid 11 million euro a year and a major expansion of the venue.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit"
+      ],
+      "source": "irishtimes-web-summit-stays-in-lisbon-until-2028",
+      "claim": [
+        "c33",
+        "c34",
+        "c35"
+      ]
+    },
+    {
       "at": "2019-11",
       "what": "The last in-person edition before the pandemic: 70,469 attendees.",
       "kind": "event",
