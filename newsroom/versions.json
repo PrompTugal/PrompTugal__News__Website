@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.448",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: RUNS.md: stray backslashes removed from the 05:40 entry",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "3461e3336"
+  },
+  {
     "version": "v0.1.447",
     "date": "2026-11-07",
     "what": "outreach@PrompTugal.dinis: Temporal's draft follows its mapped flow; the updated request sent",
