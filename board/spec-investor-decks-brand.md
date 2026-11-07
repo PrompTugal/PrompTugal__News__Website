@@ -18,3 +18,5 @@ The decks are well made and already in the brand's spirit: Newsreader and IBM Pl
 | B4 | Captions on a laptop | smallest type about 11 pt on a 1440 pt slide (about 11 px on a 1440 px laptop screen; fine on a projector) | 12 pt for captions and source lines if the PDFs are read on phones or small laptops |
 
 Nothing here changes a fact or a word of the decks; I have not checked their content (that is investors@'s and security@'s).
+
+**Re-check, 11:40 UTC (decks now eight, in English and Portuguese, from templates):** B1 to B3 not applied yet; the fix is now one file, `board/team/investors/decks/deck.css` (lines 24 to 25, 103, 110 to 113). Re-sent to investors@.
