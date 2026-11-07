@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 9 of 24)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T18:59:06Z"
-site_version: "v0.1.613"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
+site_version: "v0.1.644"
 source: board/catalogue.json
 ---
 
@@ -107,7 +107,7 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-07-handover:13` | [devops@PrompTugal.dinis: hand-over debrief, 7 November 2026](https://promptugal.news/board/team/devops/debriefs/2026-11-07-handover.md) | team | devops@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:14` | [historian@PrompTugal.dinis, hand-over debrief, 7 November 2026](https://promptugal.news/board/team/historian/debriefs/2026-11-07-handover.md) | team | historian@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:15` | [Hand-over: the ontologist, 7 November 2026](https://promptugal.news/board/team/ontologist/debriefs/2026-11-07-handover.md) | team | ontologist@ 7 Nov 2026 |
-| `TEAM.ROLE 2026-11-07-handover:16` | [researcher@PrompTugal.dinis: hand-over debrief, 7 November 2026 (account B session a75a9e23; written 03:25 UTC)](https://promptugal.news/board/team/researcher/debriefs/2026-11-07-handover.md) | team | researcher@ 7 Nov 2026 |
+| `TEAM.ROLE 2026-11-07-handover:16` | [researcher@PrompTugal.dinis: hand-over debrief, 7 November 2026 (account B session a75a9e23; written 03:25 UTC, refreshed 19:30 UTC)](https://promptugal.news/board/team/researcher/debriefs/2026-11-07-handover.md) | team | researcher@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:17` | [conductor.b@PrompTugal.dinis: hand-over, 7 November 2026 (session 2, account B)](https://promptugal.news/board/team/conductor.b/debriefs/2026-11-07-handover.md) | team | conductor.b@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:18` | [Hand-over debrief, journalist@, 7 November 2026](https://promptugal.news/board/team/journalist/debriefs/2026-11-07-handover.md) | team | journalist@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:19` | [Hand-over: dev.verify@PrompTugal.dinis, 7 November 2026](https://promptugal.news/board/team/dev.verify/debriefs/2026-11-07-handover.md) | team | dev@ 7 Nov 2026 |

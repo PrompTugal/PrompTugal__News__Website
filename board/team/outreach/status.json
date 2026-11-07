@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
  "state": "active on account B: the 50 requests filed in the Web Summit team's CRM, waiting for Dinis's yes (its brief 32)",
- "updated": "2026-11-07T19:40Z",
+ "updated": "2026-11-07T21:40Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -282,6 +282,18 @@
   },
   {
    "started": "2026-11-07T19:38Z",
+   "outcome": "idle",
+   "release": "this wake's",
+   "line": "no new inbox message or outcome; drafts unchanged; the 50 wait for Dinis's yes"
+  },
+  {
+   "started": "2026-11-07T20:38Z",
+   "outcome": "idle",
+   "release": "this wake's",
+   "line": "no new inbox message or outcome; drafts unchanged; the 50 wait for Dinis's yes"
+  },
+  {
+   "started": "2026-11-07T21:38Z",
    "outcome": "idle",
    "release": "this wake's",
    "line": "no new inbox message or outcome; drafts unchanged; the 50 wait for Dinis's yes"

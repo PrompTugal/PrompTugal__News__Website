@@ -5,6 +5,7 @@
 <section class="who" id="who"><div class="wrap"><h2>{{h.who_title}}</h2><p class="lead">{{h.who_lead}}</p><div class="who-g">
 {{#cards}}<a class="wc" href="{{href}}"><span class="wc-img" style="background-image:url('{{img}}')"></span><span class="wc-b"><span class="wc-k">{{k}}</span><span class="wc-t">{{t}}</span><span class="wc-d">{{d}}</span><span class="wc-go">→</span></span></a>
 {{/cards}}</div></div></section>
+<section class="info glance"><div class="wrap"><h2>{{h.glance_title}}</h2><figure class="info-fig"><img src="/board/team/investors/site/img/at-a-glance.jpg" alt="{{h.glance_alt}}" width="1376" height="768" loading="lazy"><figcaption>{{h.glance_alt}}</figcaption></figure></div></section>
 <section class="where"><div class="wrap"><h2>{{h.where_title}}</h2><p class="lead">{{h.where_lead}}</p><div class="stats">
 {{#h.stats}}<div class="st"><span class="st-n">{{n}}</span><span class="st-l">{{l}}</span></div>{{/h.stats}}
 </div><p><a class="btn" href="/investors/what-works/">{{h.where_cta}} →</a></p></div></section>

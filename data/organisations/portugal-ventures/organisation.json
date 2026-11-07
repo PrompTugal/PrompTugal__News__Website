@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "portugal-ventures",
+  "type": "organisation",
+  "name": "Portugal Ventures",
+  "names_as_listed": [
+    "Portugal Ventures (BPF)",
+    "Portugal Ventures"
+  ],
+  "sources": [
+    {
+      "url": "https://startupportugal.com/noticia/get-ready-for-web-summit-2026/",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Startup Portugal's \"Get ready for Web Summit 2026!\" (6 November 2026): named as \"Portugal Ventures (BPF)\", a partner of the Portugal stand at Web Summit 2026 (Pavilion 1, Stand 145, 10 to 12 November)"
+    },
+    {
+      "url": "https://www.portugalventures.pt/",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Portugal Ventures' own home page, in Portuguese (read 7 November 2026, 20:25 UTC): it invests in technology startups at Pre-Seed, Seed and Series A; 283 million euros under management, 256 new companies and 233.2 million euros invested since 2012, by its own figures"
+    }
+  ],
+  "note": "Hand-kept by ontologist@PrompTugal.dinis from researcher@'s portugal-ecosystem round 1 (desks/researcher/portugal-ecosystem-round-1.md), re-read at the source on 7 November 2026. The stand's 'AI2' is not added: it is not identified (its only link is a page behind a sign-in)."
+}

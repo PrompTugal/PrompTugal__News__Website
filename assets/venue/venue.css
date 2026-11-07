@@ -9,3 +9,6 @@
 .venue-map .vn-lab { font: 600 19px var(--sans); fill: var(--ink); pointer-events: none; }
 .venue-map .vn-lab-big { font-size: 28px; letter-spacing: .08em; }
 .venue-fig figcaption { font-size: .85rem; margin-top: .4rem; opacity: .8; }
+.venue-fig-sm { margin: 1rem 0; max-width: 28rem; }
+.venue-fig-sm figcaption { margin: 0 0 .4rem; opacity: 1; }
+.venue-map-sm { max-height: 14rem; }

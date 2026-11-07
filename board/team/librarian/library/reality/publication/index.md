@@ -27,20 +27,20 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-47 cards (47 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T18:59:06Z at site v0.1.613; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+48 cards (48 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T21:58:27Z at site v0.1.644; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GEN.BRIEF` | 11 |
-| `PUB.ART` | 36 |
+| `PUB.ART` | 37 |
 
 Newest five accessions:
 
+- `ACC-20261107-1850` [Two editions a day: PrompTugal.news starts a daily newsletter](https://promptugal.news/articles/daily-newsletter.html) (`PUB.ART daily-newsletter`)
 - `ACC-20261107-0797` [Plan your week by field: which summit day is yours](https://promptugal.news/articles/plan-your-week-by-field.html) (`PUB.ART plan-your-week-by-field`)
 - `ACC-20261107-0629` [The sign-in: how editors and agents prove who they are](https://promptugal.news/articles/the-sign-in.html) (`PUB.ART the-sign-in`)
 - `ACC-20261107-0511` [Driving to Web Summit? Road closures and drop-off points](https://promptugal.news/articles/driving-to-web-summit.html) (`PUB.ART driving-to-web-summit`)
 - `ACC-20261107-0510` [How many Brazilian startups came to Web Summit last year?](https://promptugal.news/articles/brazil-last-year-counts.html) (`PUB.ART brazil-last-year-counts`)
-- `ACC-20261107-0440` [Beyond the pavilion: Brazil's year-round doors into Europe through Portugal](https://promptugal.news/articles/brazils-doors-into-europe.html) (`PUB.ART brazils-doors-into-europe`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
