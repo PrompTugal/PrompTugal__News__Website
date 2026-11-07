@@ -559,7 +559,9 @@
         "fingerprint": "sha256:69f900736c808aca",
         "signing_fingerprint": "sha256:47b7df5432b65035"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-06T23:10Z",
+      "superseded_by": "dev.search-promptugal-2"
     },
     {
       "id": "dev.verify-promptugal",
@@ -1066,6 +1068,23 @@
         "fingerprint": "sha256:5f9bb79893924572",
         "record": "sha256:66809fbd319dae5a",
         "signing_fingerprint": "sha256:66809fbd319dae5a"
+      },
+      "status": "active"
+    },
+    {
+      "id": "dev.search-promptugal-2",
+      "agent": "dev.search@PrompTugal.dinis",
+      "label": "dev.search@PrompTugal.dinis (Claude Code session 2, account B)",
+      "role": "The search worker of PrompTugal.news (Sonnet): search, the reader profile, signed-in views, the vault onboarding browser side. Pushes only to work/dev.search; dev@ reviews. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 6 November 2026 (account B, board/the-account-move.md) with pki-agent.mjs keygen --session (sha256 fcb28a1c... checked). Record sha256:def0a0e73b05b1b2, encryption sha256:9866657638c75046. It replaces dev.search-promptugal. Not yet linked to the operator key.",
+      "added": "2026-11-06T23:10Z",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxykYlKzk/0mRKA/qyCVm\nkN45sKgoenJ5pS6iBJyrqS2EjLAT2uuGJ0y6CPUoX3WKue6TeNv19ki7Tcfq9byN\nbRV7/sEk0OoR2xJuJFnYZH2W17STVnJCMPYdOjpVCHXBjRgJf01wNRVQXNspYc6w\nKUn6J5dBauR3zvkJCYmOXKbdKZJxAHkOUNNJegBNjZP34+hU3Hoi9Cv5Hv4we9F5\n49EhHHW0Y/i/kz29sndNPlA5NkKwg3V3X/ZPi/P/WpozM1e8cJmOfk2jGNMIDOUg\n7ZKnbJAdML3UP4uT0vwgARCCik/OtWxpR+2WCymof8RuZ6VXJn3KOFqEmLEfxlf5\nw4YPWjy7Ni/SqlQPSuskjV8hdLwnH2JXmLQOmllhdlALFo4Obxe46EOT8Umle0+V\n9hxtD79DS1hX43EKgj9D20A2SWhSy3ala4NB5mV8ImIpe+1+g2Zh8HmXjczoaWOI\nQtP1+AE7VHoq3OyqWANNIIexynj8phwLl/RJhpGGMzwEo7e5qegLG4Vl0ra97ful\nS/N2j7fKHHc5bBgPar2//h8kdhbnfUkQ5hmpoR3fRCBR9MEIkliK9mUNPmr9TuYT\nHt1nZ2yV/nbhoS+RL1bmiPKkaSRpsJL458uA5tPPNN+XxJPK/vTjMwb9oR/wY3P8\nLbsz/AX8P9g1KZeouci6/qcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgSRIwlwPoDcKxvEzFKkh0LOEDp53\nn2ZoCD6NFPRcKYMIeIzgKBHRqEI4yYURx0yASQfHIsyjmkUMEwDr9uTOeA==\n-----END PUBLIC KEY-----\n",
+        "label": "dev.search@PrompTugal.dinis",
+        "fingerprint": "sha256:9866657638c75046",
+        "signing_fingerprint": "sha256:def0a0e73b05b1b2"
       },
       "status": "active"
     },
