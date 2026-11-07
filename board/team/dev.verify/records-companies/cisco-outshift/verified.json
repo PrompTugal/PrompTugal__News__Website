@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "cisco-outshift",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/00e7c159-84fb-4ba2-9413-e075b2d9f87a/cisco-systems%2C-inc.",
+      "status": 200,
+      "read": true,
+      "chars": 1249
+    },
+    {
+      "url": "https://websummit.com/partners/event-partners-2026/",
+      "status": 200,
+      "read": true,
+      "chars": 3082
+    },
+    {
+      "url": "https://outshift.cisco.com/",
+      "status": 200,
+      "read": false,
+      "chars": 16
+    }
+  ],
+  "spent_usd": 0.0193,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Cisco (Outshift by Cisco).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Cisco Systems, Inc.",
+          "note": "The sources name the company Cisco Systems, Inc., but neither mentions Outshift, so the \"Outshift by Cisco\" part is unsupported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources list the company name as Cisco Systems, Inc. and make no mention of Outshift by Cisco."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Cisco Systems, Inc.",
+          "note": "The sources identify Cisco Systems, Inc., but do not mention Outshift by Cisco."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://outshift.cisco.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources are Web Summit pages that list Cisco Systems, Inc. but give no URL for the company's website, so the outshift.cisco.com address cannot be confirmed from them."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source mentions the company's website URL."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources mention Cisco Systems, Inc. but do not state its website or mention outshift.cisco.com."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Networking and security; at Web Summit it presents Outshift by Cisco (incubation of emerging tech) and Cisco DevNet (developer platform for agentic AI), with open-source projects in agentic AI, quantum and next-gen infrastructure.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither source contains Cisco's self-description, Outshift by Cisco, Cisco DevNet, or any open-source projects; both pages list Cisco only as \"AI & machine learning\" under company category."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "Neither provided source mentions networking and security, Outshift by Cisco, Cisco DevNet, or projects involving quantum, agentic AI, or next-generation infrastructure."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources only list Cisco Systems, Inc. under AI & machine learning and do not mention networking and security, Outshift, Cisco DevNet, agentic AI, quantum, or next-gen infrastructure."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cisco Systems, Inc. United States",
+          "note": "The S1 Web Summit attendee listing for Cisco Systems, Inc. shows 'United States' as its country."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cisco Systems, Inc. United States",
+          "note": "Source S1 explicitly lists Cisco Systems, Inc. alongside United States."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cisco Systems, Inc. United States",
+          "note": "S1 lists Cisco Systems, Inc. under United States."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (partner).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "PARTNER",
+          "note": "The Cisco Systems, Inc. appearance page for Web Summit Lisbon 2026 (URL path lis26) carries a PARTNER label, and S2's 2026 global partners list also includes Cisco Systems, Inc."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S2",
+          "quote": "Meet the world-leading companies joining us at Web Summit 2026",
+          "note": "The sources list Cisco Systems, Inc. as a partner for Web Summit 2026, but do not explicitly specify Lisbon for that event."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "PARTNER",
+          "note": "S1's Cisco Systems, Inc. page under the lis26 URL labels Cisco as a PARTNER for Web Summit 2026."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: the home designs re-measured",
-  "updated": "2026-11-07T06:45Z",
+  "state": "running on account B: offline mode reviewed",
+  "updated": "2026-11-07T09:45Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -22,12 +22,13 @@
     "00:35 (7 Nov): E live re-measured at v0.1.388 (?design=e): E1, E3, E4, E6 to E9 done; E2, E10 open; E5 partly; new rank 1 N1 the floating design-picker button covers a line of every phone screen. Sent to dev@ and dev.pages@ on their inboxes",
     "01:10 (7 Nov): inbox reissued by the conductor as board/inboxes/sherpa-b.json; its sealed credentials opened with sherpa-b-promptugal, the signature verified as conductor-promptugal against board/keys.json; drained with the team site's feedback_drain.py: empty. The old inbox (sherpa.json, superseded key) cannot be opened: what was sent there since 04:30 on 6 November is lost to this role unless resent",
     "03:35 (7 Nov): the eight home designs read cold at v0.1.426: a story in the first phone screen only on E, G, D; E or G for the cold reader, B for the attendee; H1 to H7 (rank 1 the picker button still over line ends); my 23:00 \"Nigeria\" for DevFest Lagos corrected (it is Lagos, Algarve); dev@ told",
-    "06:35 (7 Nov): inbox drained (1 message, designer@'s note on H6 and H7, signed with designer-promptugal-3); the home designs re-measured at v0.1.456: H1 and H3 done, H2 now rank 1, H4 unclear"
+    "06:35 (7 Nov): inbox drained (1 message, designer@'s note on H6 and H7, signed with designer-promptugal-3); the home designs re-measured at v0.1.456: H1 and H3 done, H2 now rank 1, H4 unclear",
+    "09:35 (7 Nov): offline mode reviewed as an attendee with no Wi-Fi (v0.1.492): home, /summit/ and a saved article open with a clear band; O1 (rank 1) four of the five tabs fail offline (Agenda among them), O2 query URLs get the browser error, O3 the offline page unstyled; dev@ told. H2 still open"
   ],
   "next": [
-    "re-measure H2, H4, H5 after dev@'s next round; E10 the lead's phone picture, full page",
-    "with synthetic@: T24 Safari toolbar (WebKit)",
-    "review offline mode and the graph passes"
+    "re-measure offline mode (O1 to O4) and H2, H4, H5 after dev@'s next round",
+    "with synthetic@: a WebKit run (T24, offline storage in Safari)",
+    "review the graph passes"
   ],
   "asks": [
     "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros? (carried over)",
@@ -123,6 +124,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "inbox drained (read, not marked); home designs re-measured: H1, H3 done"
+    },
+    {
+      "started": "2026-11-07T09:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "offline mode reviewed: four of five tabs fail offline"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-07-handover.md",

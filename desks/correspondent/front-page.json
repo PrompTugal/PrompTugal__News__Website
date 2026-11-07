@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-07T06:55Z",
+  "updated": "2026-11-07T08:50Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "your-first-day-at-web-summit",
@@ -45,6 +45,7 @@
       "beat": "Brazil",
       "articles": [
         "rio-ten-startups-to-lisbon",
+        "brazils-doors-into-europe",
         "brazil-startup-mission",
         "brazil-comes-to-lisbon-intuitivo-heads-to-brazil",
         "brazil-on-the-stages",
@@ -61,7 +62,8 @@
         "web-summit-ten-lisbon-years",
         "lisbon-awards-and-the-algarve-plan",
         "road-2-web-summit-2026",
-        "lisbon-universities-at-web-summit"
+        "lisbon-universities-at-web-summit",
+        "brazils-doors-into-europe"
       ]
     },
     {
@@ -185,7 +187,8 @@
         "know": "Registration continues; the Brazilian mission's pitch training (18 startups); Tech Run Lisboa.",
         "lead": "WK1 when published: plan your week by field (desks/correspondent/ideas/wk1-plan-your-week-by-field.md); until then the first-day guide stays",
         "also": [
-          "tuesday-10-november-three-ways-in"
+          "tuesday-10-november-three-ways-in",
+          "brazils-doors-into-europe"
         ]
       },
       {

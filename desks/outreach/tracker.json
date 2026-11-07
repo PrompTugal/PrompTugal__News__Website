@@ -1,469 +1,525 @@
 {
- "about": "Where each outreach request stands, one row per company: drafted (desks/outreach/contact-requests/), requested (sent on this role's lane to conductor@web-summit.dinis, which drafts with what only it holds; a person sends), then sent or dropped with a date, as the public outcome comes back. Only public outcomes are written here, never an address or a reply (the comms protocol). Kept by outreach@PrompTugal.dinis; started 7 November 2026 after historian@'s brief board/briefs/2026-11-07-the-php-newsrooms-lesson.md (lesson 2: a draft never sent reaches no one).",
- "updated": "2026-11-07T07:38Z",
+ "about": "Where each outreach request stands, one row per company: drafted (desks/outreach/contact-requests/), requested (sent on this role's lane to conductor@web-summit.dinis, which drafts with what only it holds; a person sends), filed (the Web Summit team holds it as a draft in its private CRM), then sent or dropped with a date, as the public outcome comes back. Only public outcomes are written here, never an address or a reply (the comms protocol). Kept by outreach@PrompTugal.dinis; started 7 November 2026 after historian@'s brief board/briefs/2026-11-07-the-php-newsrooms-lesson.md (lesson 2: a draft never sent reaches no one).",
+ "updated": "2026-11-07T09:39Z",
  "counts": {
   "drafted": 0,
-  "requested": 50,
+  "requested": 0,
+  "filed": 50,
   "sent": 0,
   "dropped": 0
  },
  "companies": [
   {
    "company": "1password",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "aicep",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "air-apps",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "airia",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "aisle",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "chatplace",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "cisco-outshift",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "cloudflare",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "cnext",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "conscium",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "crowdstrike",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "delinea",
-   "state": "requested",
-   "requested": "2026-11-07T01:10Z",
+   "state": "filed",
+   "requested": "2026-11-07T08:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 08:38Z UTC, replacing the earlier request: one session fewer on its page",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "descope",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "emergence-ai",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "european-commission",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "exa",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T07:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null,
-   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow"
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "exein",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "feedzai",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "firefox-enterprise-mozilla",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T06:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null,
-   "note": "re-requested 06:38Z UTC, replacing the 01:10 request: its page now maps a flow"
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 06:38Z UTC, replacing the 01:10 request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "getvocal-ai",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T07:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null,
-   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow"
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "hexamind",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "jetbrains",
-   "state": "requested",
-   "requested": "2026-11-07T01:10Z",
+   "state": "filed",
+   "requested": "2026-11-07T08:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 08:38Z UTC, replacing the earlier request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "keewano",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T07:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null,
-   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow"
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "kiggu",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "kpmg-portugal",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "launchdarkly",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T07:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null,
-   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow"
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "lawvu",
-   "state": "requested",
-   "requested": "2026-11-07T01:10Z",
+   "state": "filed",
+   "requested": "2026-11-07T08:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 08:38Z UTC, replacing the earlier request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "ledger",
-   "state": "requested",
-   "requested": "2026-11-07T01:10Z",
+   "state": "filed",
+   "requested": "2026-11-07T08:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 08:38Z UTC, replacing the earlier request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "legalfly",
-   "state": "requested",
-   "requested": "2026-11-07T01:10Z",
+   "state": "filed",
+   "requested": "2026-11-07T09:39Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z",
+   "note": "re-requested 09:39Z UTC, replacing the earlier request: its page now maps a flow"
   },
   {
    "company": "linux-foundation-aaif",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "manus-ai",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "mastra",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "melious-ai",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T06:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null,
-   "note": "re-requested 06:38Z UTC, replacing the 01:10 request: its page now maps a flow"
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 06:38Z UTC, replacing the 01:10 request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "ncsc-uk",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "open-vsx",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "persona",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "polygraf-ai",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "primitive",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "proton",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "qase",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "replit",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "risiq",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "roost",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "rws",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "scrut-automation",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "spacecomputer",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "startup-portugal",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "temporal",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T05:39Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null,
-   "note": "re-requested 05:39 UTC, replacing the 01:10 request: its page now maps a flow"
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "note": "re-requested 05:39 UTC, replacing the 01:10 request: its page now maps a flow",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "trent-ai",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   },
   {
    "company": "trustscale",
-   "state": "requested",
+   "state": "filed",
    "requested": "2026-11-07T01:10Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": "filed as a draft in the Web Summit team's private CRM at conductor@web-summit.dinis's 08:27 UTC wake; no address yet, not sent; waits for Dinis's choice in its brief 32 (send all, a first ten, or rework the text first)",
+   "filed": "2026-11-07T08:27Z"
   }
  ]
 }

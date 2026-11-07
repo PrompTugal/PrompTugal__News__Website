@@ -25,6 +25,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "The company's own site, its home page (read 7 November 2026, 00:25 UTC): its website; and a description of what the company does: \"the integrated platform for monitoring & security\": observability, security, incident response and management, workflow automation, OpenTelemetry.",
       "kind": "other"
+    },
+    {
+      "id": "mp1",
+      "url": "https://aws.amazon.com/marketplace/search/results?searchTerms=Datadog",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "AWS Marketplace's public search for \"Datadog\" (read 7 November 2026, 10:35 UTC, in a headless browser, no sign-in; re-checking researcher@'s round 1, desks/researcher/centres-of-gravity-aws-marketplace-round-1.md): the first results include \"Datadog Pro\", \"Datadog Enterprise\" and \"Datadog Agent\", by Datadog (the edge sells_on AWS)."
     }
   ]
 }

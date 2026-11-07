@@ -1,0 +1,418 @@
+{
+  "$schema": "none",
+  "article": "brazils-doors-into-europe",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://www.diariodepernambuco.com.br/economia/2026/06/11716989-unidade-do-porto-digital-em-portugal-amplia-participacao-de-empresas-de-pernambuco-na-europa.html",
+      "status": 200,
+      "read": true,
+      "chars": 11562
+    },
+    {
+      "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "status": 200,
+      "read": true,
+      "chars": 4830
+    },
+    {
+      "url": "https://tiinside.com.br/30/06/2026/porto-digital-da-mais-um-passo-rumo-a-internacionalizacao-da-ciencia-brasileira/",
+      "status": 200,
+      "read": true,
+      "chars": 9424
+    },
+    {
+      "url": "https://www.dn.pt/282683814/a-integracao-dos-ecossistemas-de-inovacao-do-brasil-e-de-portugal-no-contexto-do-web-summit/",
+      "status": 200,
+      "read": true,
+      "chars": 8780
+    },
+    {
+      "url": "https://eco.sapo.pt/2025/04/24/portugal-leva-28-startups-a-web-summit-rio/",
+      "status": 200,
+      "read": true,
+      "chars": 10828
+    },
+    {
+      "url": "https://dnbrasil.dn.pt/negcios-br/portugal-cada-vez-mais-de-olho-no-desafiante-mercado-brasileiro-para-expanso-no-setor-da-tecnologia",
+      "status": 200,
+      "read": true,
+      "chars": 7335
+    },
+    {
+      "url": "https://agenciasebrae.com.br/economia-e-politica/parceria-entre-sebrae-e-startup-portugal-abre-novas-perspectivas-para-pequenos-negocios-inovadores-dos-dois-paises/",
+      "status": 200,
+      "read": true,
+      "chars": 9065
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/oportunidades-encontradas-no-web-summit-lisboa-2023/",
+      "status": 200,
+      "read": true,
+      "chars": 11073
+    },
+    {
+      "url": "https://brasil61.com/n/apexbrasil-leva-startups-brasileiras-a-eventos-de-inovacao-em-portugal-e-emirados-arabes-apex260161",
+      "status": 200,
+      "read": true,
+      "chars": 8988
+    }
+  ],
+  "spent_usd": 0.3047,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Diario de Pernambuco reported on 23 June 2026 that Cais do Porto has been active since 2024 and that more than 45 Brazilian companies, most from Pernambuco, have used it.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "mais de 45 empresas brasileiras — a maioria delas pernambucanas — já passaram pelo espaço",
+          "note": "The S1 article, published 23/06/2026, says Cais do Porto has been active since 2024 and that more than 45 Brazilian companies, most from Pernambuco, have passed through it."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Publicado: 23/06/2026 às 06:00 Seguir Cais do Porto durante o evento Brazil Tech Days 2024 (Foto: Divulgação/Porto Digital ) Criado para servir de porta de entrada para empresas brasileiras de tecnologia interessadas em expandir operações no mercado europeu, o Cais do Porto, unidade internacional do Porto Digital instalada na cidade de Aveiro, em Portugal, vem ampliando sua atuação desde que iniciou as atividades, em 2024. Nesse período, mais de 45 empresas brasileiras — a maioria delas pernambucanas — já passaram pelo espaço",
+          "note": "The article published on 23 June 2026 confirms that Cais do Porto began activities in 2024 and that over 45 Brazilian companies, mostly from Pernambuco, have used the facility."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Publicado: 23/06/2026 às 06:00 ... vem ampliando sua atuação desde que iniciou as atividades, em 2024. Nesse período, mais de 45 empresas brasileiras — a maioria delas pernambucanas — já passaram pelo espaço",
+          "note": "S1, the Diario de Pernambuco article dated 23/06/2026, states Cais do Porto began activities in 2024 and that more than 45 Brazilian companies, mostly from Pernambuco, have passed through it."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "In June 2026, a second group of ten Pernambuco companies arrived through Porto Digital's internationalisation programme, as DN Brasil reported on 22 June.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "É a segunda turma de empresas que Aveiro recebe através do Programa de Internacionalização do Porto Digital",
+          "note": "The DN Brasil article, published 22 June 2026, reports ten Pernambuco companies as the second cohort via the Porto Digital programme, though its list names only nine."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "É a segunda turma de empresas que Aveiro recebe através do Programa de Internacionalização do Porto Digital",
+          "note": "DN Brasil reported on 22 June 2026 that a second cohort of ten Pernambuco companies arrived via Porto Digital's internationalisation programme."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "É a segunda turma de empresas que Aveiro recebe através do Programa de Internacionalização do Porto Digital",
+          "note": "S2, published 22 June 2026, also reports ten companies from Pernambuco arriving at Cais do Porto."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "On 30 June, Porto Digital, Cais do Porto and CONSECTI signed a cooperation agreement, as reported by TI Inside.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "o hub assina um Acordo de Cooperação ao lado do CONSECTI",
+          "note": "TI Inside's article, dated 30 June 2026, says the Porto Digital hub signs a cooperation agreement with CONSECTI and Cais do Porto on that Tuesday (30)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Nesta terça-feira (30), o hub assina um Acordo de Cooperação ao lado do CONSECTI — Conselho Nacional de Secretários Estaduais para Assuntos de Ciência, Tecnologia e Inovação — e do Cais do Porto",
+          "note": "TI Inside directly reports that on 30 June, Porto Digital signed a cooperation agreement alongside CONSECTI and Cais do Porto."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Nesta terça-feira (30), o hub assina um Acordo de Cooperação ao lado do CONSECTI — Conselho Nacional de Secretários Estaduais para Assuntos de Ciência, Tecnologia e Inovação — e do Cais do Porto",
+          "note": "TI Inside reports the 30 June cooperation agreement among Porto Digital, CONSECTI, and Cais do Porto."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "In November 2024, Brazil's ambassador to Portugal, Raimundo Carreiro Silva, wrote in DN that Porto Digital Europa had chosen Aveiro's innovation hub and already had ten companies on board.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "O Porto Digital Europa escolheu instalar-se no hub de inovação de Aveiro ... já conta com 10 empresas embarcadas",
+          "note": "S4 is a DN opinion column by Raimundo Carreiro Silva, published 10 Nov 2024, which states both that Porto Digital Europa chose Aveiro's innovation hub and already has 10 companies on board, and identifies him as Brazil's ambassador to Portugal."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "O Porto Digital Europa escolheu instalar-se no hub de inovação de Aveiro para prestar serviços de “softlanding” e outras modalidades de apoio à internacionalização de startups brasileiras em Portugal e já conta com 10 empresas embarcadas.",
+          "note": "In November 2024, Brazilian ambassador Raimundo Carreiro Silva wrote an opinion article in DN stating that Porto Digital Europa chose Aveiro's innovation hub and already had 10 companies on board."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "O Porto Digital Europa escolheu instalar-se no hub de inovação de Aveiro ... e já conta com 10 empresas embarcadas.",
+          "note": "S4 is a DN article by Raimundo Carreiro Silva, published 10 Nov 2024, where he identifies himself as Brazil's ambassador to Portugal and states Porto Digital Europa chose Aveiro's innovation hub and already had 10 companies on board."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "Sebrae's president, Décio Lima, signed a memorandum of understanding with Startup Portugal on 13 November 2023 during Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "Décio Lima, assinou um memorando de entendimento com a Startup Portugal",
+          "note": "S7 (ASN Nacional, dated 13/11/2023) says the signing was on Monday (13) and was part of Sebrae's technical mission programme at Web Summit Lisboa 2023."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "Nesta segunda-feira (13), o presidente da instituição, Décio Lima, assinou um memorando de entendimento com a Startup Portugal que tem como objetivo unir os esforços das duas organizações para a promoção da competitividade e do desenvolvimento sustentável das startups dos dois países. O acordo faz parte da programação da missão técnica do Sebrae no Web Summit Lisboa 2023",
+          "note": "The source directly confirms that Sebrae president Décio Lima signed a memorandum of understanding with Startup Portugal on 13 November 2023 during Web Summit Lisboa."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S7",
+          "quote": "Nesta segunda-feira (13), o presidente da instituição, Décio Lima, assinou um memorando de entendimento com a Startup Portugal",
+          "note": "S7 is dated 13/11/2023 and states the agreement was part of Sebrae's technical mission at Web Summit Lisboa 2023."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "ApexBrasil's Lisbon startup incubator, run with Sebrae, named its first class of ten startups at Web Summit 2025.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S2",
+          "quote": "É a segunda turma de empresas que Aveiro recebe através do Programa de Internacionalização do Porto Digital com Secretaria de Ciência e Tecnologia do Estado de Pernambuco a (SECTI).",
+          "note": "The sources place the Aveiro (not Lisbon) incubator under Porto Digital and SECTI-PE, describe the cohort as the second rather than the first, and none ties ApexBrasil to such an incubator or to naming a first class of ten at Web Summit 2025."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention an ApexBrasil startup incubator in Lisbon run with Sebrae or naming a first class of ten startups at Web Summit 2025."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided source states that ApexBrasil's Lisbon startup incubator, run with Sebrae, named its first class of ten startups at Web Summit 2025."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "The next class of the ApexBrasil and Sebrae Lisbon incubator is due to be announced at the Brazil Pavilion on 10 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source mentions an incubator class being announced at the Brazil Pavilion on 10 November; S9 only says Web Summit Lisboa 2026 runs 9 to 12 November and includes a day of exposure at the Brazilian Pavilion for ecosystem startups."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention an announcement of the next class of an ApexBrasil and Sebrae Lisbon incubator at the Brazil Pavilion on 10 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided source mentions an ApexBrasil and Sebrae Lisbon incubator class being announced at the Brazil Pavilion on 10 November."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c8",
+      "claim": "Unicorn Factory Lisboa's head, Gil Azevedo, told ECO in April 2025 that the hub has three signed partnerships with Brazilian hubs: Instituto Caldeira, Cubo and Sai do Papel.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "Temos três parcerias neste momento assinadas",
+          "note": "The ECO article dated 24 April 2025 quotes Gil Azevedo naming exactly three signed partnerships, with Instituto Caldeira, Cubo and Sai do Papel, though he is styled 'diretor executivo' there rather than 'head'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "Temos três parcerias neste momento assinadas , com o Instituto Caldeira , um dos grandes incubadores do Brasil, com o Cubo , que é também o maior em São Paulo, e com a Sai do Papel",
+          "note": "In an April 2025 article in ECO, Gil Azevedo confirmed three signed partnerships with Brazilian hubs Instituto Caldeira, Cubo, and Sai do Papel."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S5",
+          "quote": "Temos três parcerias neste momento assinadas , com o Instituto Caldeira , um dos grandes incubadores do Brasil, com o Cubo , que é também o maior em São Paulo, e com a Sai do Papel",
+          "note": "S5, an April 2025 ECO article, directly quotes Gil Azevedo confirming three signed partnerships with Instituto Caldeira, Cubo, and Sai do Papel."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "ApexBrasil reports Brazil's ecosystem has more than 13,000 startups, more than 120 venture capital funds, more than 250 innovation hubs and more than 30 unicorns, as Brasil 61 reported on 31 August 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S9",
+          "quote": "mais de 13 mil startups, mais de 120 fundos de venture capital, mais de 200 empresas, mais de 250 hubs de inovação e mais de 30 unicórnios, segundo levantamento da ApexBrasil",
+          "note": "The Brasil 61 article dated 31 de agosto de 2026 attributes all four figures to ApexBrasil, though it also lists a fifth figure (over 200 companies) that the claim omits."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S9",
+          "quote": "O ecossistema de tecnologia e empreendedorismo brasileiro é formado por mais de 13 mil startups, mais de 120 fundos de venture capital, mais de 200 empresas, mais de 250 hubs de inovação e mais de 30 unicórnios , segundo levantamento da ApexBrasil.",
+          "note": "The article published on 31 August 2026 confirms all the cited figures based on a survey by ApexBrasil."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S9",
+          "quote": "mais de 13 mil startups, mais de 120 fundos de venture capital, mais de 200 empresas, mais de 250 hubs de inovação e mais de 30 unicórnios, segundo levantamento da ApexBrasil",
+          "note": "Brasil 61 on 31 August 2026 reports the ApexBrasil figures matching the claim, though it also includes more than 200 companies."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "Brazilian venture capital totalled US$2.135 billion in 2024 across 386 deals, according to ApexBrasil's own survey as reported by Brasil 61.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S9",
+          "quote": "Em 2024, o país recebeu US$ 2,135 bilhões em investimentos de venture capital, distribuídos em 386 operações",
+          "note": "The figures match Brasil 61's article, but the article's \"segundo levantamento da ApexBrasil\" attribution sits on the preceding ecosystem-count sentence, not explicitly on the venture capital figures, so the ApexBrasil-survey attribution is not clearly supported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S9",
+          "quote": "segundo levantamento da ApexBrasil. Em 2024, o país recebeu US$ 2,135 bilhões em investimentos de venture capital, distribuídos em 386 operações",
+          "note": "Brasil 61 reports directly from ApexBrasil's survey that Brazil received US$2.135 billion across 386 venture capital transactions in 2024."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S9",
+          "quote": "Em 2024, o país recebeu US$ 2,135 bilhões em investimentos de venture capital, distribuídos em 386 operações",
+          "note": "Brasil 61 reports the ApexBrasil survey figure of US$2.135 billion across 386 venture capital operations in 2024."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c11",
+      "claim": "Invest.Rio and Maravalley are bringing ten Rio de Janeiro startups to this year's Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S6",
+          "quote": "temos vindo também a estreitar relações com a Maravalley do Rio de Janeiro",
+          "note": "S6 mentions InvestRio and Maravalley only as existing partners of Unicorn Factory, not as bringing ten Rio startups to Web Summit, and no source mentions such a group; the only group of ten companies in the sources is from Pernambuco (S2)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention Invest.Rio and Maravalley bringing ten Rio de Janeiro startups to this year's Web Summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided source states that Invest.Rio and Maravalley are bringing ten Rio de Janeiro startups to this year's Web Summit."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c12",
+      "claim": "Gol has opened its first intercontinental route, from Rio de Janeiro to Lisbon.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the nine sources mention Gol, an airline, or any Rio de Janeiro–Lisbon route; they cover Porto Digital, Cais do Porto, Web Summit and startup programs."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention Gol or an intercontinental route between Rio de Janeiro and Lisbon."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention Gol or an intercontinental route from Rio de Janeiro to Lisbon."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    }
+  ]
+}

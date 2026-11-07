@@ -32,7 +32,8 @@
               "appears_in",
               "hosts",
               "partner_of",
-              "built_on"
+              "built_on",
+              "sells_on"
             ]
           },
           "to": {

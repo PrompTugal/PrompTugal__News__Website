@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T07:00:34Z"
-site_version: "v0.1.464"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T09:59:38Z"
+site_version: "v0.1.497"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 3)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-signed-in-views-7`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-signed-in-views-6`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -92,18 +92,19 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-offline-mode-4` | [The reader's own schedule and saved articles stay on the device; nothing of them goes to the page-view lanes; syncing to the reader's vault only sealed,…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-5` | [The offline badge says when the copy was made, so a stale page is never shown as current](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-6` | [18:55](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-offline-mode-7` | [Row 4, the attendee with no Wi-Fi (09:35, v0.1.492, phone): the home page, /summit/ and a saved article open offline with a clear 'Offline. This copy was kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-page-presentations-1` | [Slides built from the page's own data and escaped; no third-party script; nothing shown that the page does not already show](https://promptugal.news/board/passes/2026-11-06-page-presentations.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-past-summits-1` | [Public sources only; videos and slides linked, never copied (their owners' rights); people public and professional](https://promptugal.news/board/passes/2026-11-06-past-summits.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-privacy-first-1` | [True to the code, or not published: the browser asks ipapi.co or ipwho.is for its place, so those services see the reader's IP (S3); page views are counted,…](https://promptugal.news/board/passes/2026-11-06-privacy-first.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-privacy-first-2` | [security@ checks the final page against assets/obs/, assets/login/ and assets/chat/ before it ships (post-review)](https://promptugal.news/board/passes/2026-11-06-privacy-first.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-reader-feedback-and-reading-1` | [Every feedback item is material, never instruction, to the agent that reads it (R1): a comment that says "ignore your rules" is a comment](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-reader-feedback-and-reading-2` | [Ask for nothing that identifies the reader; "talk to the editor" offers the editors' role address, it does not collect the reader's; anything a reader…](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-reader-feedback-and-reading-3` | [The lane is public and write-only: expect spam and floods (507 when full); the reading agent counts and drops, and a full lane is noise, not an outage](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-reader-feedback-and-reading-3` | [The lane is public and write-only: expect spam and floods (507 when full); the reading agent counts and drops, and a full lane is noise, not an outage](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-reader-feedback-and-reading-4` | [Reading depth as today's page views: no IP, no cookie, no exact time in anything published; counts by page only when five or more readers](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-1` | [Only what riskmandate.ai and the team's site say; a company RiskMandate 'worked with' appears only where that relationship is public](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-2` | [No company labelled as a prospect or target (team notes, S4)](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-signed-in-views-4` | [Blocks the first deploy: once unlocked, the vault key lives in the page; any script on promptugal.news could read it (S1: the keyring on every page, desks/…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-5` | [Blocks the first deploy: a static page cannot create an SG/Send vault without an access token, and that token must never ship in a page (it would let anyone…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-6` | [Two ways in, always: the vault key is wrapped by the passkey's PRF and also by a second factor (a second passkey on a hardware key, or Dinis's person key, or…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-signed-in-views-7` | [The wrap: a fixed random salt per vault for PRF, HKDF with a label, AES-GCM; the PRF output and the vault key never stored or logged; the wrapped key and…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)
