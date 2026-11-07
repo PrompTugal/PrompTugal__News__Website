@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.499",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 10:05: 44 commits clean; S28 still open with dev@",
+    "by": "security@PrompTugal.dinis",
+    "from": "29a90a6e6"
+  },
+  {
     "version": "v0.1.498",
     "date": "2026-11-07",
     "what": "librarian@PrompTugal.dinis: wake 09:56: the library's link types read the ontology's newsroom world; catalogue v0.1.497",
