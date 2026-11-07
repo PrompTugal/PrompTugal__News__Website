@@ -204,11 +204,42 @@
             el('ul', { className: 'lv-list' }, ...ev.map(e => el('li', {}, el('button', { type: 'button', className: 'lv-row', onclick: () => pick(e), textContent: `${nm(e[1])} → ${e[3].map(nm).join(', ')} · ${when(e[0] * 6e4)} · ${KIND[e[2]]}` })))))
     }
     const nm = i => D.agents[i].id.replace(/@promptugal\.dinis$/i, '@').replace(/@web-summit\./i, '@ws.').replace(/@promptugal\./i, '@')
-    function pick(e) { hot = { a: byAgent[e[1]], b: byAgent[e[3][0]] }; pulses.push(...e[3].map(t => ({ a: byAgent[e[1]], b: byAgent[t], t0: performance.now(), e }))); announce(`${nm(e[1])} to ${e[3].map(nm).join(', ')}, ${when(e[0] * 6e4)}`) }
+    function pick(e) {
+        hot = { a: byAgent[e[1]], b: byAgent[e[3][0] == null ? e[1] : e[3][0]] }
+        pulses.push(...(e[3].length ? e[3] : [e[1]]).map(t => ({ a: byAgent[e[1]], b: byAgent[t], t0: performance.now(), e, solo: !e[3].length })))
+        announce(`${nm(e[1])} to ${e[3].map(nm).join(', ') || 'no one (at work)'}, ${when(e[0] * 6e4)}`); detail(e)
+    }
+    // the details of one exchange: the commit behind it (public already), read from live-details.json when first asked for
+    let dets = null
+    const page = f => { const m = f.match(/^content\/(.+?)(?:\/index)?\.md$/); return m && m[1] !== 'index' ? m[1] : null }
+    async function detail(e) {
+        const sha = e[4], back = el('button', { type: 'button', className: 'lv-btn', onclick: () => { hot = null; list() }, textContent: 'Back to the latest' })
+        side.replaceChildren(el('h2', { textContent: `${nm(e[1])} → ${e[3].map(nm).join(', ') || 'at work'}` }), el('p', { className: 'lv-meta', textContent: `${when(e[0] * 6e4)} Lisbon · ${KIND[e[2]]}` }), el('p', { className: 'lv-meta', textContent: 'Reading the commit…' }), back)
+        try {
+            if (!dets) { const r = await fetch(root.dataset.details, { cache: 'no-store' }); if (!r.ok) throw new Error(r.status); dets = (await r.json()).commits }
+            const c = dets[sha]; if (!c) throw new Error('no details')
+            const pg = (c.f || []).map(page).find(Boolean), tr = Object.entries(c.t || {})
+            side.replaceChildren(
+                el('h2', { textContent: `${nm(e[1])} → ${e[3].map(nm).join(', ') || 'at work'}` }),
+                el('p', { className: 'lv-meta', textContent: `${when(Date.parse(c.at))} Lisbon · ${KIND[e[2]]} · commit ${sha}` }),
+                el('p', { className: 'lv-subject', textContent: c.s }),
+                ...(c.b ? [el('pre', { className: 'lv-body', textContent: c.b })] : []),
+                ...(tr.length ? [el('dl', { className: 'lv-tr' }, ...tr.flatMap(([k, v]) => [el('dt', { textContent: k }), el('dd', { textContent: v })]))] : []),
+                el('p', { className: 'lv-meta', textContent: `${c.n} file${c.n === 1 ? '' : 's'} touched` }),
+                el('ul', { className: 'lv-files' }, ...(c.f || []).map(f => el('li', { textContent: f })), ...(c.n > (c.f || []).length ? [el('li', { textContent: `and ${c.n - c.f.length} more` })] : [])),
+                el('p', { className: 'lv-links' }, el('a', { href: `${root.dataset.repo}/commit/${sha}`, target: '_blank', rel: 'noopener', textContent: 'The commit on GitHub' }), ...(pg ? [' · ', el('a', { href: `../../${pg}/`, target: '_blank', rel: 'noopener', textContent: 'The page it changed' })] : [])),
+                back)
+        } catch (err) { side.replaceChildren(el('h2', { textContent: `${nm(e[1])} → ${e[3].map(nm).join(', ') || 'at work'}` }), el('p', { className: 'lv-meta', textContent: `${when(e[0] * 6e4)} Lisbon · ${KIND[e[2]]} · commit ${sha}` }), el('p', { className: 'lv-meta', textContent: 'The commit text could not be loaded.' }), el('a', { href: `${root.dataset.repo}/commit/${sha}`, target: '_blank', rel: 'noopener', textContent: 'The commit on GitHub' }), back) }
+    }
     function announce(t) { status.textContent = t }
     cv.addEventListener('click', ev => {
         const r = cv.getBoundingClientRect(), x = ev.clientX - r.left, y = ev.clientY - r.top; let best = null, bd = 18
         byAgent.forEach((n, i) => { if (!n) return; const p = P(n), d = Math.hypot(p.x - x, p.y - y); if (d < bd) { bd = d; best = i } })
+        if (best == null) {
+            let lb = null, ld = 9
+            for (const [a, b] of links) { const A = byAgent[a], B = byAgent[b]; if (!A || !B || A === B) continue; for (let u = 0.04; u < 1; u += 0.04) { const q = P(at(A, B, u)), d = Math.hypot(q.x - x, q.y - y); if (d < ld) { ld = d; lb = [a, b] } } }
+            if (lb) { const lim = mode.live ? T + DELAY : T, e = [...D.events].reverse().find(e => e[2] !== 's' && visible(e) && e[0] * 6e4 <= lim && ((e[1] === lb[0] && e[3].includes(lb[1])) || (e[1] === lb[1] && e[3].includes(lb[0])))); if (e) { sel = null; pick(e); return } }
+        }
         sel = best == null ? null : { i: best }; hot = null
         if (sel) { const a = D.agents[sel.i], mine = D.events.filter(e => e[1] === sel.i || e[3].includes(sel.i)).slice(-8).reverse(); side.replaceChildren(el('h2', { textContent: a.id }), el('p', { className: 'lv-meta', textContent: `${mine.length ? 'Its latest exchanges' : 'No exchanges yet'}, Lisbon time.` }), el('ul', { className: 'lv-list' }, ...mine.map(e => el('li', {}, el('button', { type: 'button', className: 'lv-row', onclick: () => pick(e), textContent: `${nm(e[1])} → ${e[3].map(nm).join(', ') || 'at work'} · ${when(e[0] * 6e4)} · ${KIND[e[2]]}` })))), el('button', { type: 'button', className: 'lv-btn', onclick: () => { sel = null; list() }, textContent: 'Back to the latest' })) } else list()
     })

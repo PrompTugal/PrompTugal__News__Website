@@ -25,3 +25,9 @@
 .lv-ctl { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .lv-ctl .lv-clock { margin-left: auto; }
 .lv-rng { width: 100%; accent-color: var(--brand, #1a7f37); }
+.lv-subject { font-weight: 600; margin: 4px 0; overflow-wrap: anywhere; }
+.lv-body { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; font-size: .82rem; margin: 6px 0; max-height: 240px; overflow: auto; background: var(--wash, rgba(127,127,127,.08)); padding: 8px; border-radius: 8px; }
+.lv-tr { display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; font-size: .8rem; margin: 6px 0; }
+.lv-tr dt { font-weight: 600; } .lv-tr dd { margin: 0; overflow-wrap: anywhere; }
+.lv-files { font-size: .78rem; padding-left: 16px; margin: 0 0 8px; overflow-wrap: anywhere; }
+.lv-links { font-size: .85rem; margin: 8px 0; }
