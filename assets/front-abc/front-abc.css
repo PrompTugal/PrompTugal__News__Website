@@ -102,3 +102,9 @@
     .fc > .fx-w { display: flex; flex-direction: column; } .fc-hd, .fc-hero { order: 0; } .fc-nh, .fc-next { order: 1; } .fc-grid { order: 3; } .fc > .fx-w > .fx-h:not(.fc-nh) { order: 2; }
     .fc-next { padding-bottom: 20px; }
 }
+/* sherpa@'s H6 (board/spec-home-page-designs.md, 9): no text under 12 px; links outside running text at least 24 px tall */
+.fx-days a { font-size: 12px; }
+.fx-list time, .fx-pill, .fx-k, .fa-brief small { font-size: max(12px, 11px); }
+.fx-nav a { display: inline-flex; align-items: center; min-height: 24px; padding: 4px 2px; }
+.fb-tools a, .fx-pcs a { min-height: 24px; }
+.fx-more a, .fx-h a { display: inline-flex; align-items: center; min-height: 24px; }
