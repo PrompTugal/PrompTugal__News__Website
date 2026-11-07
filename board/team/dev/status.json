@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "running on account B; eight home designs live; worker branches reviewed (v0.1.392); debrief board/team/dev/debriefs/2026-11-07-handover.md",
-  "updated": "2026-11-07T01:05Z",
+  "updated": "2026-11-07T01:20Z",
   "done": [
+    "A slip, fixed: my 00:40 review of work/dev.data brought outreach@'s 112 superseded drafts (no addresses) onto dev; removed in v0.1.394; review.sh never brings desks/ again; outreach@ and dev.data@ told.",
     "Wake 00:08 (account B): inbox drained (sherpa@'s phone review); N1, E1, E2 fixed (v0.1.391); five worker branches reviewed and brought (dev.data, dev.graphs, dev.portugal, dev.search, dev.verify; v0.1.392); the daily debrief.",
     "Account B, run 2 (00:10 to 00:50, Dinis via conductor.b@ at 00:05: all eight now): D, F, G built and released (v0.1.385 to v0.1.388) on one shared model, newsroom/build/lib/home.mjs; dev.pages@'s A, B, C reviewed and brought by hand (v0.1.389); shots for every design in assets/design/shots/.",
     "Account B, run 1 (23:45): conductor.b@'s brief of 23:25 (Dinis, 23:20): today's home page back as the default, mock E the first option, Silvio's picker ported (assets/design/, features/designs.mjs, ?design=<id>), live v0.1.382; dev.pages@ and conductor.b@ told how a new design plugs in.",
