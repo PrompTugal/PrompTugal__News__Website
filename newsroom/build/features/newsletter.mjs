@@ -26,7 +26,7 @@ const FIRST = '2026-11-07', DIR = 'content/newsletter/', INDEX = 'newsletter/ind
 const NAME = /^(\d{4}-\d{2}-\d{2})-(morning|evening)\.md$/, REL = /^newsletter\/(\d{4}-\d{2}-\d{2})-(morning|evening)\/index\.html$/
 const NEED = ['title', 'date', 'edition', 'summary', 'author', 'status']
 const isAuthored = p => p.src && p.src.startsWith(DIR) && NAME.test(path.basename(p.src))
-const editionsOf = ctx => (ctx.pages || []).filter(p => REL.test(p.rel) && p.meta?.status !== 'draft').sort((a, b) => b.rel.localeCompare(a.rel))
+const editionsOf = ctx => (ctx.pages || []).filter(p => REL.test(p.rel) && p.meta?.status !== 'draft').sort((a, b) => { const k = r => r.replace('-evening', '-2').replace('-morning', '-1'); return k(b.rel).localeCompare(k(a.rel)) })  // newest first, the evening before its morning
 const emailOf = rel => `api/v1/newsletter/${rel.split('/')[1]}.txt`   // under /api/: generated, never committed
 
 // the day's five (designer@'s check of Saturday's edition): one line per thing (a second registration desk joins the
@@ -74,6 +74,15 @@ export function pages(ctx) {
     // 19:30 Lisbon (UTC in November), the times the guidance gives; the build at or after that time makes it
     const due = (d, k) => Date.parse(`${d}T${k === 'morning' ? '07:30' : '19:30'}:00Z`) <= Date.now()
     const eds = STRIP_DAYS.filter(d => d >= FIRST && d <= TODAY).flatMap(d => ['morning', 'evening'].filter(k => !authored.has(`${d}-${k}`) && due(d, k)).map(k => edition(ctx, d, k)))
+    // the edition band above the title (designer@'s P1): the stamp, the edition, when it was ready, the day's other edition
+    // and yesterday's, each only once it exists
+    const made = new Set(eds.map(e => e.rel)), relOf = (d, k) => `newsletter/${d}-${k}/index.html`
+    for (const e of eds) {
+        const [, d, k] = e.rel.match(REL), other = k === 'morning' ? 'evening' : 'morning', prev = STRIP_DAYS[STRIP_DAYS.indexOf(d) - 1]
+        const up = '../'.repeat(e.rel.split('/').length - 1), links = [[relOf(d, other), W[other]], [prev && relOf(prev, k), `${W[k]}, ${prev ? ctx.DAY(prev) : ''}`]]
+            .filter(([r]) => r && made.has(r)).map(([r, t]) => `[${t}](${up}${r})`)
+        e.label = ctx.md.render(`{.edition-band}\n![](${up}assets/brand/pt-news-stamp-light.svg) **${W[k]} edition** · ${ctx.DAY(d)} · ${k === 'morning' ? '07:30' : '19:30'} Lisbon${links.length ? ' · ' + links.join(' · ') : ''}`).html
+    }
     return [{
         src: WORDS, rel: INDEX, type: 'site', date: TODAY, section: 'news',
         crumbs: [[null, W.index_title]], title: W.index_title, summary: W.index_summary,
@@ -100,7 +109,8 @@ export const fill = {
         const d = page.rel.match(/(\d{4}-\d{2}-\d{2})/)[1]
         return articlesOf(ctx).filter(a => a.meta.date === d).map(a => line(ctx, page.rel, a)).join('\n') || W.today_none
     },
-    'newsletter:list': (page, ctx) => editionsOf(ctx).map(p => `- [${p.title}](${ctx.link(page.rel, p.rel)})`).join('\n') || W.none_yet,
+    // cards, newest first (designer@'s P6): the edition, its line, the email beside it
+    'newsletter:list': (page, ctx) => { const E = editionsOf(ctx); return E.length ? '{.rows .edition-cards}\n' + E.map(p => `- **[${p.title}](${ctx.link(page.rel, p.rel)})** ${p.summary} [${W.email_link}](${ctx.link(page.rel, emailOf(p.rel))})`).join('\n') : W.none_yet },
     'newsletter:api': (page, ctx) => `[${API}](${ctx.link(page.rel, API)})`,
 }
 
