@@ -5,6 +5,7 @@ written: 2026-11-07T17:30Z
 asked_by: Dinis Cruz, 7 November 2026, about 17:25 UTC, in conductor.b@'s session, after working with Silvio on the demo workflow
 for: xray@PrompTugal.dinis (new; started by conductor.b@ on account B), with dev@, designer@, investors@ and outreach@ as the work touches theirs
 issue: WS-177
+moved: 2026-11-07, about 18:25 UTC, at Dinis's word in the xray@ session: the X-ray work runs on the Web Summit team's site (SGit-AI/SGit-AI__Website__Web-Summit, websummit.sgit.ai) as xray@web-summit.dinis, not on PrompTugal.news; this brief stays as the record of his words
 ---
 # RiskMandate X-ray
 
