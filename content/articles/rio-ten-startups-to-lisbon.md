@@ -1,6 +1,6 @@
 ---
-title: "Rio sends ten startups to Lisbon, on Gol's new route"
-summary: "For the second year, Invest.Rio and the Maravalley hub take ten Rio de Janeiro startups to Web Summit Lisbon, their flights paid by Gol on its new Rio to Lisbon route. Who the ten are, in their own words, and where Web Summit lists them."
+title: "Rio sends ten startups to Lisbon, with Gol paying the tickets"
+summary: "For the second year, Invest.Rio and the Maravalley hub take ten Rio de Janeiro startups to Web Summit Lisbon, their tickets paid by Gol, which has just opened a Rio to Lisbon route. Who the ten are, in their own words, and where Web Summit lists them."
 beat: Brazil
 license: https://creativecommons.org/licenses/by/4.0/
 tags: Brazil, Rio de Janeiro, startups, Lisbon
@@ -12,7 +12,7 @@ status: published
 ## In short
 
 - For the second year, Rio de Janeiro's investment agency, Invest.Rio, and the city's innovation hub, Maravalley, are taking ten startups to Web Summit Lisbon (9 to 12 November).
-- The airline Gol pays their flights. It is opening its first intercontinental route, Rio to Lisbon from Galeão, with five flights a week from 24 November.
+- The airline Gol pays their tickets. A few weeks before, Gol opened its first intercontinental route, Rio to Lisbon from Galeão; it goes to five flights a week from 24 November, after the summit. The sources do not say which flights the ten take.
 - New this year: the ten can present at Invest.Rio's stand.
 - All ten have a startup page on Web Summit's site: nine listed from Brazil, and [sheerME](../companies/sheerme/index.html) from Portugal. Two, Bizuu and AllPetSenior, also speak in the Startup Showcase.
 
@@ -22,7 +22,7 @@ Invest.Rio and Maravalley opened the call in September for startups under six ye
 
 Daniel Barros, Maravalley's CEO, called the plan "uma via de mão dupla" (a two-way street). Sidney Levy, Invest.Rio's president, said it is about making Rio "um polo de tecnologia, empreendedorismo e novos negócios" (a hub of technology, entrepreneurship and new business).
 
-On 26 October, Startups.com.br named the ten and reported that Gol, as the mission's official airline, provides their tickets. Correio da Manhã reported the same ten on 25 October. Luiz Borrego, Gol's CIO, said Rio is "um hub internacional estratégico" (a strategic international hub) for the airline. Gol's flights from 24 November run on Mondays, Tuesdays, Wednesdays, Fridays and Saturdays.
+On 26 October, Startups.com.br named the ten and reported that Gol, as the mission's official airline, provides their tickets. Correio da Manhã reported the same ten on 25 October. Luiz Borrego, Gol's CIO, said Rio is "um hub internacional estratégico" (a strategic international hub) for the airline. Gol opened the route a few weeks before that report (in September, according to the report's photo caption); from 24 November it runs five flights a week, on Mondays, Tuesdays, Wednesdays, Fridays and Saturdays.
 
 ## The ten, in their own words
 
@@ -58,3 +58,5 @@ Sebrae says 12 Brazilian states run missions of their own to this year's summit,
 ## Corrections
 
 **7 November 2026, 00:50 UTC.** The first version said only Mobile Brain and sheerME had a page on Web Summit's site, and that Paralelo.app's and Lucca's websites could not be confirmed. It said: "We searched Web Summit's site for the other eight and did not find a page for any of them. That does not mean they are not going: the ten can present at Invest.Rio's stand, which may be how most of them take part." That was wrong: all ten have a startup page on Web Summit's site, which this site's own Brazil research had already found, and those pages name Paralelo.app's and Lucca's websites. Our search guessed the pages' addresses instead of using that research. The table now links each page.
+
+**7 November 2026, 04:45 UTC.** The headline was "Rio sends ten startups to Lisbon, on Gol's new route", and the summary said Gol "is opening its first intercontinental route ... with five flights a week from 24 November". That read as if the ten fly a route that starts after the summit. The source says Gol pays their tickets and opened the route a few weeks earlier; the five weekly flights start on 24 November. It does not say which flights the ten take. Headline and summary changed. Pointed out by our synthetic reader (synthetic@PrompTugal.dinis, finding F51).

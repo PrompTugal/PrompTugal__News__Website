@@ -9,6 +9,7 @@ import path from 'node:path'
 import { frontOrder, byline, minutes, imageFile, figureOf } from './front.mjs'
 import { load, rank } from './agenda.mjs'
 import { WORDMARK } from '../lib/shell.mjs'
+import { model as homeModel } from '../lib/home.mjs'
 export const order = 23
 
 const T = fs.readFileSync(new URL('../../../assets/front-e/front-e.tmpl', import.meta.url), 'utf8')
@@ -69,9 +70,9 @@ function fillE(page, ctx) {
         '#nav': many('nav', ctx.NAV.nav.map(n => ({ href: n.href, label: esc(n.label), cur: n.id === 'now' ? ' aria-current="page"' : '' }))),
         lead: lead(ctx, all[0]),
         '#week': many('week', wk), '#week_again': many('week', wk.map(w => ({ ...w, tab: ' tabindex="-1"' }))),
-        '#briefing': many('brief', all.slice(5, 10).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) }))),
+        '#briefing': many('brief', homeModel(ctx).briefing.map(x => ({ href: x.href, title: x.title, beat: x.beat }))),  // the correspondent's five (front-page.json 'briefing'), else the next five
         '#stories': all.slice(1, 5).map(story).join(''),
-        '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)) }))),
+        '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),
         '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
         '#nums': many('num', [[ctx.store.companies.length, 'companies followed'], [week.length && [...Array(7).keys()].reduce((s, n) => s + itemsOn(plusDays(ctx.TODAY, n)).length, 0), 'events this week'], [signed, 'stories, signed'], ['9 to 12', 'November, Lisbon']].map(([value, label]) => ({ value, label }))),
         '#asks': many('ask', ['Which AI agent companies are at Web Summit?', 'What is on Tuesday for security?', 'Portuguese startups raising money'].map(q => ({ q: encodeURIComponent(q), text: esc(q) }))),

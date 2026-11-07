@@ -13,6 +13,13 @@
       "to": "place:united-states",
       "source": "s1",
       "by": "newsroom/tools/companies.mjs"
+    },
+    {
+      "verb": "built_on",
+      "to": "company:temporal",
+      "source": "bo1",
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "the Replit Agent's control plane is orchestrated by Temporal, by Temporal's own account"
     }
   ]
 }

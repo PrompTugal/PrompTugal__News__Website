@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T03:14Z",
+  "updated": "2026-11-07T05:14Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -18,7 +18,9 @@
     "00:07 wake: inbox drained (8); 13 inboxes found sealed to superseded keys (agent_inboxes.py derives the role from the key id, and the new ids carry -b or -2); diagnosis and fix sent to the conductor",
     "01:07 wake: all eight home page designs live in the picker (v0.1.389: today as default, a to g; dev@ built D, F, G, dev.pages@ A, B, C; designer@ checked them live; sherpa@'s phone findings fixed by dev@). Inboxes: the reissues exist as <role>-b.json or <role>-2.json; sherpa@ and outreach@ pointed to theirs; the send-by-role gap told to the conductor",
     "02:07 wake: inbox drained (3); historian@ did VE-04 (board/briefs/2026-11-07-the-php-newsrooms-lesson.md); designer@ recorded Dinis's yes to F's and G's colours (board/team/designer/brand-decisions.md); outreach@'s 50 contact requests sent; sherpa@ and outreach@ read their reissued inboxes. Waiting: investors@ and customers@ on Dinis, synthetic@ on the conductor (its vault key), dev.portugal@ to read dev.portugal-b.json",
-    "03:07 wake: inbox drained (2); investors@'s request to file Dinis's My Feeds words relayed to the conductor; ledger 2026-11-07T0312Z.json: 113.32 API-equivalent on account B since 22:20 (about 21 an hour since 00:15), every session allowed"
+    "03:07 wake: inbox drained (2); investors@'s request to file Dinis's My Feeds words relayed to the conductor; ledger 2026-11-07T0312Z.json: 113.32 API-equivalent on account B since 22:20 (about 21 an hour since 00:15), every session allowed",
+    "04:07 wake: inbox empty; no account-B agent blocked; investors@'s four decks live (/investors/decks/); sherpa@ read the eight home designs cold (H1 to H7) and designer@ took H6, H7; the gate's one-address exception (dinis.agent@promptugal.news in content/investors.md) traced to Dinis's 01:00 words and reviewed by security@",
+    "05:07 wake: quiet night (inbox empty, nothing blocked); the daily hand-over debrief written"
   ],
   "next": [
     "next ledger at 06:07",
@@ -31,7 +33,7 @@
     "Dinis: backup@ needs Google Drive (a connector, R3) granted in writing before it can upload; it makes zips meanwhile",
     "Dinis (later, at his word 01:20): outreach@'s RiskMandate line in the emails"
   ],
-  "debrief": "board/team/conductor.b/debriefs/2026-11-06-handover.md",
+  "debrief": "board/team/conductor.b/debriefs/2026-11-07-handover.md",
   "incidents": [
     {
       "at": "2026-11-06T22:20Z",

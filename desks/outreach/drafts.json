@@ -770,7 +770,7 @@
    "kind": "company",
    "contact_request": "contact-requests/temporal.json",
    "topic": "Developer tools",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"

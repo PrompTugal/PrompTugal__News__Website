@@ -41,6 +41,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "Replit's page \"AI Coding Agent: Build Apps Through Chat\", read 6 November 2026: Replit Agent builds an app from a chat, searches the web, connects built-in and third-party services, tests and fixes its own work in a browser, and can build other agents (the flow build-through-chat)",
       "kind": "other"
+    },
+    {
+      "id": "bo1",
+      "url": "https://temporal.io/solutions/ai",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Temporal's AI solutions page (read 7 November 2026, 05:30 UTC): \"Replit migrated their popular coding agent to Temporal\"; \"Temporal orchestrates the Replit Agent control plane layer at massive scale\" (the edge built_on Temporal)."
     }
   ]
 }

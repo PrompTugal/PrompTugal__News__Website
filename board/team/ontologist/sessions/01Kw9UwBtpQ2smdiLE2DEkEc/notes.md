@@ -25,3 +25,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 03:21 wake
 - Inbox empty. Batch 5: 16 companies, the pass done. Held: akamai, genspark, persona, pitchbook, polygraf-ai (bot walls). No website: eversec, nisos, rws, whitespace. Startup Portugal: what keeps s1 (the 125 startups) beside own1, by hand.
+
+## 04:21 wake
+- Inbox empty. Websites for the four: RWS confirmed (rws.com); whitespace.co.uk is an insurance platform, not this Whitespace (rejected); eversec.com.cn script-only (unconfirmed); nisos.com 403. Whitespace s2 now 404, logged.
+
+## 05:21 wake
+- Inbox empty. Kiggu held (pro.kiggu.io renders by script, no text). Temporal: flows.json (durable-agent) from temporal.io/solutions/ai; the page also carries a setup prompt addressed to coding agents (content, ignored). New verb built_on (company to company): Replit built_on Temporal. Ontology now 29 verbs (REALITY.md counts are the conductor's).

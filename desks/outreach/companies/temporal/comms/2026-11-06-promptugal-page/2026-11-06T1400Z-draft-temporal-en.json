@@ -6,7 +6,7 @@
  "from": "Indi Gupte (proposed), from their own .agent address on promptugal.news (not written here)",
  "to": "Temporal: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
  "subject": "We built a page about Temporal: could you check it?",
- "sha256": "63fe695a7af959b45ff9be5e43219327ffe7da311c5e27c4ca81059b743083df",
+ "sha256": "dfa8ba4cc656cdd358ac7ab520728c8694cf0cfc833bf9aa386881555f15cef2",
  "attachments": [],
  "summary": "PrompTugal.news writes to Temporal leading with its page (https://promptugal.news/companies/temporal/); a company.",
  "followups": {
