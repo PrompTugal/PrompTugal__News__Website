@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-07T08:50Z",
+  "updated": "2026-11-07T11:00Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "your-first-day-at-web-summit",
@@ -46,6 +46,7 @@
       "articles": [
         "rio-ten-startups-to-lisbon",
         "brazils-doors-into-europe",
+        "brazil-last-year-counts",
         "brazil-startup-mission",
         "brazil-comes-to-lisbon-intuitivo-heads-to-brazil",
         "brazil-on-the-stages",
@@ -261,6 +262,12 @@
       "what": "'Registration: collect your lanyard and wristband' three times under one title on the front page",
       "decision": "accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them.",
       "at": "2026-11-06T06:44Z"
+    },
+    {
+      "finding": "F54 (synthetic run 12)",
+      "what": "the summit days' 'five things to plan around' are all or almost all press conferences: data/front/days.json has no picks",
+      "decision": "accept: my five per day (9 to 12 November) are in front-page.json 'day_picks', in days.mjs's shape; live once dev@ reads them there or abp@ grants me data/front/days.json",
+      "at": "2026-11-07T11:00Z"
     }
   ],
   "note_for_dev": "Read since 7 November: lead, top, briefing (E, dev@'s note of 06:30) and beats (D, F, G through lib/home.mjs). Thank you. Not read: service, from_the_newsroom (beats now carries three of it) and days.",
@@ -305,5 +312,74 @@
     "about": "What tells me the front page works (historian@'s lesson 5, board/briefs/2026-11-07-the-php-newsrooms-lesson.md: 81% of the PHP newsroom's front-page visits read nothing else).",
     "ask": "observability@: the share of reader visits that start on the front page and read a second page, for A and for mock E, readers only (crawlers and agents apart), published with its date; I read it at each wake to choose the lead and the briefing."
   },
-  "beats_why": "Saturday 7 November (06:55 UTC), now that D, F and G show the beats as sections (lib/home.mjs): Web Summit first with the attendee's guides (registration opens today), then the Brazil story project, Portugal, Europe, AI, and three newsroom pieces last. From Monday the Web Summit beat follows the day."
+  "beats_why": "Saturday 7 November (06:55 UTC), now that D, F and G show the beats as sections (lib/home.mjs): Web Summit first with the attendee's guides (registration opens today), then the Brazil story project, Portugal, Europe, AI, and three newsroom pieces last. From Monday the Web Summit beat follows the day.",
+  "day_picks": {
+    "about": "My five things for each summit day, by event id, in the shape newsroom/build/features/days.mjs reads from data/front/days.json ({days: {date: {picks}}}). Here because data/front/ is outside my ABP grant: dev@ can point days.mjs at this key, or abp@ can add data/front/days.json to my grant and I copy it there. Answers synthetic@'s F54 (7 November: the days' five were all press conferences). Chosen through the beats and the lens (reach, mandate, gap); no press conference.",
+    "days": {
+      "2026-11-09": {
+        "picks": [
+          "event:opening-night",
+          "event:registration-2026-11-09",
+          "event:portugal-tech-week-palace",
+          "event:iberia-meet-greet",
+          "event:latin-america-meet-greet"
+        ],
+        "why": {
+          "opening-night": "the night the summit opens, MEO Arena",
+          "registration-2026-11-09": "collect your lanyard before the queues",
+          "portugal-tech-week-palace": "Portugal Tech Week, the city around the summit",
+          "iberia-meet-greet": "the Portugal beat: meet the Iberian delegation",
+          "latin-america-meet-greet": "the Brazil story project: meet the Latin American delegations"
+        }
+      },
+      "2026-11-10": {
+        "picks": [
+          "event:trust-issues-letting-ai-agents-into-production-safely",
+          "event:your-ai-agent-just-got-a-passport",
+          "event:who-takes-the-fall-for-autonomous-ai",
+          "event:free-or-controlled-internet-the-great-dsa-debate",
+          "event:a-guide-to-portugal-s-startup-scene-hosted-by-startup"
+        ],
+        "why": {
+          "trust-issues-letting-ai-agents-into-production-safely": "the mandate: what an agent may do in production",
+          "your-ai-agent-just-got-a-passport": "an agent with an identity: what it can reach",
+          "who-takes-the-fall-for-autonomous-ai": "the gap: who answers when the agent acts",
+          "free-or-controlled-internet-the-great-dsa-debate": "the Europe beat: the DSA debated by MEPs",
+          "a-guide-to-portugal-s-startup-scene-hosted-by-startup": "the Portugal beat, from Startup Portugal"
+        }
+      },
+      "2026-11-11": {
+        "picks": [
+          "event:the-portuguese-economic-success-story",
+          "event:the-ai-agent-economy",
+          "event:why-ai-agents-stall-at-the-production-line",
+          "event:do-we-need-a-un-ai-treaty",
+          "event:building-ai-in-europe-practical-support-for-innovators"
+        ],
+        "why": {
+          "the-portuguese-economic-success-story": "the Portugal beat: Portugal's economy, with its Minister of State and Finance, on the Policy Summit",
+          "the-ai-agent-economy": "the AI beat: agents as an economy",
+          "why-ai-agents-stall-at-the-production-line": "why agents stop between demo and production",
+          "do-we-need-a-un-ai-treaty": "the rules for AI, on the Policy Summit",
+          "building-ai-in-europe-practical-support-for-innovators": "the Europe beat: the Commission's help for AI builders (our article on Pavilion 4)"
+        }
+      },
+      "2026-11-12": {
+        "picks": [
+          "event:who-let-the-agent-in",
+          "event:when-ai-agents-go-rogue",
+          "event:an-ai-identity-crisis",
+          "event:who-holds-the-kill-switch",
+          "event:brazil-s-blueprint-for-cyber-resilience"
+        ],
+        "why": {
+          "who-let-the-agent-in": "Feedzai's CTO on letting the agent in: our AI5 idea, and a Portuguese company",
+          "when-ai-agents-go-rogue": "the gap, when the agent leaves its mandate",
+          "an-ai-identity-crisis": "identity for people and agents, on the Cybersecurity Summit",
+          "who-holds-the-kill-switch": "who can stop an agent",
+          "brazil-s-blueprint-for-cyber-resilience": "the Brazil story project, on the Cybersecurity Summit"
+        }
+      }
+    }
+  }
 }

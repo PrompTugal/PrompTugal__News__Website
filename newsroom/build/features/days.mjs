@@ -10,7 +10,10 @@ export const order = 60
 
 // the correspondent's own five for a day (data/front/days.json: { days: { "<date>": { picks: ["<event id>", ...] } } }), when it
 // has written them; otherwise the ranked five below
-const PICKS = (() => { try { return JSON.parse(fs.readFileSync(new URL('../../../data/front/days.json', import.meta.url), 'utf8')).days || {} } catch { return {} } })()
+// the correspondent's day_picks in desks/correspondent/front-page.json first (synthetic@'s F54: data/front/ is outside
+// its grant), then data/front/days.json for a day it has not picked
+const readDays = (f, k) => { try { const j = JSON.parse(fs.readFileSync(new URL(`../../../${f}`, import.meta.url), 'utf8')); return (k ? j[k] : j)?.days || {} } catch { return {} } }
+const PICKS = { ...readDays('data/front/days.json'), ...readDays('desks/correspondent/front-page.json', 'day_picks') }
 const byTime = (a, b) => (a.time || '').localeCompare(b.time || '')
 
 function dayPage(ctx, d, i) {

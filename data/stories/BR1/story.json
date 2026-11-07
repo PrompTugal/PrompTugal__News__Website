@@ -5,7 +5,7 @@
   "title": "247, 256, 340 or 380: how many Brazilian startups went to Lisbon last year?",
   "beat": "Brazil",
   "topic": null,
-  "status": "idea",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/correspondent/ideas/br1-how-many-came-last-year.md"
@@ -13,23 +13,48 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/correspondent/ideas/br1-how-many-came-last-year.md"
+      "desks/correspondent/ideas/br1-how-many-came-last-year.md",
+      "desks/journalist-promptugal/drafts/BR1-last-years-counts.md",
+      "desks/journalist-promptugal/checks/BR1.md",
+      "content/articles/brazil-last-year-counts.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.dinis",
   "needs": null,
   "held": null,
-  "draft": null,
-  "check": null,
+  "draft": "desks/journalist-promptugal/drafts/BR1-last-years-counts.md",
+  "check": "desks/journalist-promptugal/checks/BR1.md",
   "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "article": {
+    "path": "content/articles/brazil-last-year-counts.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-06T03:55Z",
       "by": "correspondent@PrompTugal.dinis",
       "file": "desks/correspondent/ideas/br1-how-many-came-last-year.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-07",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "desks/journalist-promptugal/drafts/BR1-last-years-counts.md"
+    },
+    {
+      "column": "fact-check",
+      "at": "2026-11-07",
+      "by": null,
+      "file": "desks/journalist-promptugal/checks/BR1.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-07",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "content/articles/brazil-last-year-counts.md"
     }
   ]
 }

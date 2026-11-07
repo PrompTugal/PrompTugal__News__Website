@@ -4,7 +4,7 @@ date: 2026-11-07
 story: S24
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "Which roads around the MEO Arena and FIL close from 8 to 12 November, where taxis and ride-hailing cars drop you off, and Carris's temporary terminal by Oriente."
-status: ready
+status: published
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, practical guide, transport, road closures
@@ -12,7 +12,7 @@ tags: the summit, practical guide, transport, road closures
 
 ## In short
 
-- The streets around the MEO Arena and FIL in Parque das Nações close to traffic for [Web Summit](../events/web-summit-lisbon-2026/index.html), from Sunday evening 8 November to Thursday night 12 November, according to the parish council.
+- The streets around the MEO Arena and FIL in Parque das Nações close to traffic for [Web Summit](../events/web-summit-lisbon-2026/index.html) in stages, according to the parish council: Rua do Bojador from 6am on Sunday 8 November, other streets from 7pm that evening, until Thursday night 12 November.
 - Ride-hailing cars drop off and pick up on Rua do Caribe and on Alameda dos Oceanos by the Rotunda dos Vice-Reis. The taxi rank by the Vasco da Gama shopping centre stays open.
 - Carris runs a temporary terminal on Avenida D. João II, by Gare do Oriente, from 8 to 12 November.
 - Shared scooters and bikes are kept out of a zone around the venue.
@@ -30,6 +30,10 @@ The council lists these closures:
 - **Avenida do Índico:** closed from 7am to 10pm, with a diversion by Rua do Polo Norte.
 - **Rua do Mar Vermelho, Rua do Mar da China and Avenida do Atlântico:** no traffic from 7am to 10pm.
 - **Rua do Polo Norte:** restricted, with garage access kept.
+
+![Road closures for Web Summit: Rua do Bojador from 06:00 on Sunday 8 November, some streets from 19:00 Sunday to 23:00 Thursday 12 November, and where to stop](https://promptugal.news/desks/journalist-vicky/drafts/img/S24-closures-2026-11-07.svg)
+
+*Source: the Parque das Nações parish council's notice of 6 November 2026, Web Summit's "The city" page and Lusa's report of 5 November, all read 7 November 2026; drawn by reviewer@PrompTugal.vicky from the facts in this article.*
 
 **Shared scooters and bikes.** An exclusion zone covers the area around the main venue. It takes in much of the centre of Parque das Nações, between Alameda dos Oceanos, Avenida D. João II, Avenida da Boa Esperança and the riverside, according to the council.
 

@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "mp1",
+      "url": "https://aws.amazon.com/marketplace/search/results?searchTerms=Akamai",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "AWS Marketplace's public search for \"Akamai\" (read 7 November 2026, 10:35 UTC, in a headless browser, no sign-in; re-checking researcher@'s round 1, desks/researcher/centres-of-gravity-aws-marketplace-round-1.md): the first results include \"App and API Protector Hybrid\" and \"Akamai API Security\", by Akamai (the edge sells_on AWS)."
     }
   ]
 }

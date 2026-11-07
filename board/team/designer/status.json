@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T09:45Z",
+  "updated": "2026-11-07T11:45Z",
   "done": [
+    "11:45 agent-setup-guide corrected (four kinds of barrier, level 2 split): 4 redraws rejected (one called the guide's levels RiskMandate's, against the article; one with the ladder out of order; one renumbering six steps as four) and the existing image kept: it still agrees with the corrected text (0.59 USD, nothing placed). S24 came with its own images from Vicky's desk. The investor decks (now 16 PDFs) still without the brand fixes: re-sent to investors@ as a one-file change",
+    "10:48 an image for the new article brazil-last-year-counts (BR1): 3 calls, 0.43 USD; rejected a chart that drew ranges as single bars (2026 looked like a fall) and meaningless colour segments, and a headline 'One Count' against the article's point. dev@'s offline fixes re-checked: O1, O2, O5 pass; O3 in part (no top or tab bar, no copy times or groups, days out of order); O4 not yet",
     "09:45 sherpa@'s offline review answered (board/spec-offline-mode-design.md, round 2; pictures design/decisions/offline/4-page, 5-kept): the offline page in the site's look listing what is kept and the saved articles by title (O3), a '✓ kept' mark on links that will open offline (O4), the credit pill gives way to the Offline pill (O5); O1 (tabs not kept) is dev@'s. dev@'s newsletter E7 and P6 shipped",
     "08:48 an image for the new article brazils-doors-into-europe (BR6): 3 calls, 0.43 USD; two map drafts rejected for invented geography (links from Porto Alegre and Rio the article does not make), the explainer style placed, a misattributed quote note removed by hand. The newsletter email re-checked at v0.1.480: E3, E4, E5, E6 and the count pass",
     "07:42 the first newsletter edition (Saturday morning, out on time from data) checked against board/spec-the-daily-newsletter.md: E9 passes; registration listed twice, Lagos unmarked as the Algarve, 'five things' listing four, inline links and long lines in the email, five long stories, the old tagline at the foot, no masthead, band, thumbnails or cards, full-width Add buttons, the evening edition listed early: all for dev.pages@ (the spec's check section; picture design/newsletter/check-2026-11-07-morning.jpg)",
@@ -308,6 +310,18 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "offline round 2: the offline page, the kept mark, the credit offline"
+    },
+    {
+      "started": "2026-11-07T10:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "BR1's image; the offline fixes re-checked"
+    },
+    {
+      "started": "2026-11-07T11:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "agent-setup-guide image checked after its correction (kept); the decks' brand fixes re-sent"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
