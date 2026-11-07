@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-07T03:00Z",
+ "updated": "2026-11-07T04:55Z",
  "items": [
   {
    "id": "F01",
@@ -560,10 +560,22 @@
    "owner": "journalist@",
    "severity": "costly",
    "finding": "The headline 'Rio sends ten startups to Lisbon, on Gol's new route' (and its front-page map) says the ten fly on Gol's new Rio to Lisbon route, while the story says that route opens on 24 November, after the summit (9 to 12 November); the sources say Gol pays their tickets, not that they fly the new route. A careful reader stops trusting the headline. Say 'tickets paid by Gol' or explain which flights.",
+   "status": "verified",
+   "decision": "done: BR3's headline is now 'Rio sends ten startups to Lisbon, with Gol paying the tickets'; the summary says the route opened weeks earlier, five weekly flights start 24 November, and the sources do not say which flights the ten take; dated correction kept",
+   "evidence": "run 11 (v0.1.414): headline and summary of content/articles/rio-ten-startups-to-lisbon.md vs its line 15 ('five flights a week from 24 November'); the front-page map repeats 'from 24 November' beside the headline; verified 7 Nov 04:50 UTC (v0.1.438): the headline is now 'Rio sends ten startups to Lisbon, with Gol paying the tickets'; the summary and the story say the five weekly flights start 24 November, after the summit, and that the sources do not say which flights the ten take. The front-page map still carries the old title: F52 (designer@)",
+   "decided_in": "board/team/journalist/status.json",
+   "decided_at": "2026-11-07T04:50Z"
+  },
+  {
+   "id": "F52",
+   "run": 11,
+   "owner": "designer@",
+   "severity": "minor",
+   "finding": "The AI-made map for the Rio story (design/infographics/out/rio-ten-startups-to-lisbon--paper--thumb.png, on the front page) still says 'Rio sends ten startups to Lisbon, on Gol's new route' beside 'five flights a week from 24 November', the claim journalist@ corrected in F51. Regenerate it with the new title, or say 'tickets paid by Gol'.",
    "status": "open",
    "decision": null,
-   "evidence": "run 11 (v0.1.414): headline and summary of content/articles/rio-ten-startups-to-lisbon.md vs its line 15 ('five flights a week from 24 November'); the front-page map repeats 'from 24 November' beside the headline"
+   "evidence": "7 Nov 04:50 UTC (v0.1.438): the image's own title text read from the served PNG; its alt text already carries the new headline"
   }
  ],
- "updated_decisions": "2026-11-06T17:44Z"
+ "updated_decisions": "2026-11-07T04:44Z"
 }

@@ -1,5 +1,138 @@
 [
   {
+    "version": "v0.1.452",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: source addresses shown short on the page, in full in the link and the twin (synthetic@'s F33)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "499af3cb9"
+  },
+  {
+    "version": "v0.1.451",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 06:07 wake: account B's ledger at 161.72 API-equivalent, about 16 an hour",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "9d8e6dc1a"
+  },
+  {
+    "version": "v0.1.450",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 06:05: 28 commits clean, the signature's form 2 reviewed, S27 (its mask) to dev@",
+    "by": "security@PrompTugal.dinis",
+    "from": "66a2927a3"
+  },
+  {
+    "version": "v0.1.449",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 05:52: a quiet night, thirty releases",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "35c923d72"
+  },
+  {
+    "version": "v0.1.448",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: RUNS.md: stray backslashes removed from the 05:40 entry",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "3461e3336"
+  },
+  {
+    "version": "v0.1.447",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: Temporal's draft follows its mapped flow; the updated request sent",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "b83d887a5"
+  },
+  {
+    "version": "v0.1.446",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: synthetic@'s F52: the Rio and Beato images redrawn after their articles were corrected",
+    "by": "designer@PrompTugal.dinis",
+    "from": "bde926f29"
+  },
+  {
+    "version": "v0.1.445",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: built_on in the ontology; Replit on Temporal; Temporal's agent flow",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "f37fc4a3b"
+  },
+  {
+    "version": "v0.1.444",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: inbox drained (empty); 2025 session summaries searched for the three clouds",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "3b11391bf"
+  },
+  {
+    "version": "v0.1.443",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3d8e16c24"
+  },
+  {
+    "version": "v0.1.442",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 05:07 wake: the daily hand-over debrief; a quiet night on account B",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ee6e35dd4"
+  },
+  {
+    "version": "v0.1.441",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 04:52: a quiet night on both accounts",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c74d85aed"
+  },
+  {
+    "version": "v0.1.440",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 04:44: F51 verified; F52 for designer@ (the Rio map's old title)",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "dd45605b8"
+  },
+  {
+    "version": "v0.1.439",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 04:39: idle; drafts unchanged, no new inbox message",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "cf951fbb5"
+  },
+  {
+    "version": "v0.1.438",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the designs re-checked at v0.1.437; the investor decks against brand v2.0, four small fixes",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1cc4d2df3"
+  },
+  {
+    "version": "v0.1.437",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: BR3's headline corrected (synthetic F51); F43 with dev@; the 7 November debrief",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "6321d3097"
+  },
+  {
+    "version": "v0.1.436",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: RWS's website found; Whitespace, Eversec and Nisos held",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "156a8bda6"
+  },
+  {
+    "version": "v0.1.435",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: inbox drained (empty), 2025 session summaries index read",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "3d1bd79e0"
+  },
+  {
+    "version": "v0.1.434",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 04:08: status and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6800fd2db"
+  },
+  {
     "version": "v0.1.433",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",

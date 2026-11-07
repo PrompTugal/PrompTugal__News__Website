@@ -1,7 +1,7 @@
 {
   "$schema": "none",
   "article": "rio-ten-startups-to-lisbon",
-  "verified_on": "2026-11-06",
+  "verified_on": "2026-11-07",
   "by": "dev.verify@PrompTugal.dinis",
   "models": [
     "anthropic/claude-haiku-5.5",
@@ -26,32 +26,20 @@
       "status": 200,
       "read": true,
       "chars": 4717
-    },
-    {
-      "url": "https://websummit.com/appearances/lis26/91093bb6-fa22-477c-9a74-7bd74cd93ae8/mobile-brain/",
-      "status": 200,
-      "read": true,
-      "chars": 1227
-    },
-    {
-      "url": "https://websummit.com/appearances/lis26/f139c5b3-528e-4542-9a51-1fe1a99c1fed/sheerme/",
-      "status": 200,
-      "read": true,
-      "chars": 1219
     }
   ],
-  "spent_usd": 0.0882,
+  "spent_usd": 0.1038,
   "claims": [
     {
       "id": "c1",
-      "claim": "Web Summit Lisbon runs 9 to 12 November.",
+      "claim": "Web Summit Lisbon runs from 9 to 12 November.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "partly",
+          "verdict": "supported",
           "source": "S1",
           "quote": "entre os dias 9 e 12 de novembro",
-          "note": "S1 and S2 both give 9 to 12 November, but S3 gives 8 to 12 November, so the sources disagree on the start date."
+          "note": "S1 and S2 both give 9 to 12 November, but S3 gives 8 to 12 November, so the start date conflicts across the sources."
         },
         {
           "model": "google/gemini-3.8-flash",
@@ -62,10 +50,10 @@
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "de 9 a 12 de novembro",
-          "note": "S2 states the Web Summit Lisboa happens from 9 to 12 November, directly supporting the claim."
+          "verdict": "partly",
+          "source": null,
+          "quote": "",
+          "note": "S1 and S2 state the event runs from 9 to 12 November, while S3 says it is scheduled from 8 to 12 November."
         }
       ],
       "consensus": "disagree",
@@ -73,57 +61,57 @@
     },
     {
       "id": "c2",
-      "claim": "Gol opens its first intercontinental route, Rio to Lisbon from Galeão, with five flights a week from 24 November.",
+      "claim": "Invest.Rio and Maravalley are taking ten startups to Web Summit Lisbon, the second year they have done so.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "partly",
-          "source": "S2",
-          "quote": "cinco voos semanais nessa rota",
-          "note": "S2 supports the Rio–Lisbon route from Galeão and five weekly flights starting 24 November, but it says Gol already inaugurated the route in September, so the claim's framing of the opening as happening from 24 November is inaccurate."
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Esse é o segundo ano da missão",
+          "note": "S1 states that this is the mission's second year and that last year it also took 10 startups to the event, matching the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "partly",
-          "source": "S2",
-          "quote": "poucas semanas depois de a Gol inaugurar seu primeiro voo intercontinental entre o Rio de Janeiro e Lisboa, partindo do Galeão. A partir de 24 de novembro, a companhia também passa a oferecer cinco voos semanais nessa rota",
-          "note": "Gol had already inaugurated the route in September, but expands it to five flights a week starting 24 November."
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Invest.Rio e Maravalley vão levar 10 startups para o Web Summit Lisboa [...] Esse é o segundo ano da missão, que no ano passado também havia levado 10 startups para o evento.",
+          "note": "The source explicitly confirms that Invest.Rio and Maravalley are taking ten startups to Web Summit Lisbon for the second consecutive year."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
-          "source": "S2",
-          "quote": "a Gol inaugurar seu primeiro voo intercontinental entre o Rio de Janeiro e Lisboa, partindo do Galeão. A partir de 24 de novembro, a companhia também passa a oferecer cinco voos semanais nessa rota",
-          "note": "S2 states Gol inaugurated its first intercontinental Rio–Lisbon flight from Galeão and that from 24 November it offers five weekly flights on the route."
+          "source": "S1",
+          "quote": "Invest.Rio e Maravalley vão levar 10 startups para o Web Summit Lisboa ... Esse é o segundo ano da missão",
+          "note": "S1 states Invest.Rio and Maravalley will take 10 startups to Web Summit Lisboa and that this is the second year of the mission."
         }
       ],
-      "consensus": "disagree",
-      "flag_to_journalist": true
+      "consensus": "supported",
+      "flag_to_journalist": false
     },
     {
       "id": "c3",
-      "claim": "Startups.com.br reported on 18 September 2026 that Invest.Rio and Maravalley had opened the call in September.",
+      "claim": "Startups.com.br reported the open call on 18 September 2026.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "lançaram, nesta quinta-feira (17), o edital",
-          "note": "S1 is dated 18/09/2026 and says Invest.Rio and Maravalley launched the call on Thursday the 17th, which falls in September 2026, so the claim holds."
+          "quote": "18/09/2026 15:03",
+          "note": "The Startups.com.br article is dated 18 September 2026, though its text says the open call (edital) was launched on Thursday the 17th, which the claim does not dispute."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "A Invest.Rio e o Maravalley lançaram, nesta quinta-feira (17), o edital para seleção das empresas",
-          "note": "Startups.com.br reported on 18 September 2026 that Invest.Rio and Maravalley launched the open call on Thursday, 17 September."
+          "quote": "Stephanie Tondo 18/09/2026 15:03 Leitura: 3 Minutos",
+          "note": "The article published on Startups.com.br on 18 September 2026 reports the launch of the open call (edital) for startups."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "A Invest.Rio e o Maravalley lançaram, nesta quinta-feira (17), o edital",
-          "note": "S1 is a Startups.com.br article dated 18/09/2026 and states Invest.Rio and Maravalley launched the call/edital on 17 September."
+          "quote": "Stephanie Tondo 18/09/2026 15:03",
+          "note": "S1 is a Startups.com.br article dated 18/09/2026 that reports the open call/edital."
         }
       ],
       "consensus": "supported",
@@ -131,122 +119,6 @@
     },
     {
       "id": "c4",
-      "claim": "Startups.com.br named the ten startups on 26 October.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior",
-          "note": "The Startups.com.br article dated 26/10/2026 names all ten selected startups, which supports the claim."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "26/10/2026 14:55 ... as 10 startups selecionadas para a viagem: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior",
-          "note": "Startups.com.br published the names of the ten selected startups on 26 October 2026."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior",
-          "note": "S2 is a Startups.com.br article dated 26/10/2026 and it lists these ten selected startups."
-        }
-      ],
-      "consensus": "supported",
-      "flag_to_journalist": false
-    },
-    {
-      "id": "c5",
-      "claim": "Correio da Manhã reported the same ten startups on 25 October.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S3",
-          "quote": "Publicado em 25 de Outubro, 2026",
-          "note": "The Correio da Manhã article is dated 25 October 2026 and names the same ten startups as S2 (Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT and AllPetSenior)."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S3",
-          "quote": "Publicado em 25 de Outubro, 2026 às 16:34 Iniciativa leva startups selecionadas para representar o Rio no evento de inovação e tecnologia Divulgação A Invest.Rio, agência de promoção e atração de investimentos da Prefeitura do Rio de Janeiro, firmou uma parceria inédita com a Gol Linhas Aéreas para apoiar a Missão Web Summit Lisboa 2026. A companhia aérea, que escolheu o Rio de Janeiro como hub internacional, passa a ser a transportadora oficial da comitiva e concederá dez passagens aéreas para startups cariocas selecionadas participarem do maior evento de tecnologia da Europa, agendado entre os dias 8 e 12 de novembro, na capital portuguesa. Realizada pelo segundo ano consecutivo pela Invest.Rio em parceria com o polo de inovação Maravalley, a Missão Lisboa tem como principal objetivo conectar empresas e empreendedores cariocas a fundos de investimento, parceiros internacionais e redes globais de tecnologia. A iniciativa visa consolidar o ecossistema de inovação do Rio de Janeiro no mercado internacional, estimulando a geração de negócios e parcerias estratégicas em solo europeu. Para a diretoria da companhia aérea, a aliança reforça o papel do município dentro do planejamento operacional da empresa e reflete seu compromisso com a transformação tecnológica. \"O Rio de Janeiro é um hub internacional estratégico para a Gol e, como uma companhia que desde sua fundação usou a tecnologia como recurso para transformar e democratizar a aviação no Brasil, estar ao lado da Invest.Rio nessa missão reforça nossa essência inovadora. Ser a companhia aérea oficial da Missão Web Summit Lisboa 2026 nos dá o orgulho de contribuir com a conexão do ecossistema carioca de negócios a novas oportunidades e aos maiores investidores globais\", afirma Luiz Borrego, CIO da Gol. Projeção internacional As startups selecionadas pela Invest.Rio contarão com uma agenda estruturada, incluindo ingressos para as conferências, treinamentos prévios, mentorias com especialistas do setor, visitas técnicas e encontros diretos com investidores internacionais. Uma das principais novidades desta edição é que as empresas brasileiras terão espaço para apresentar suas soluções tecnológicas diretamente no estande da Invest.Rio, montado no pavilhão do evento. As dez startups escolhidas para integrar a missão oficial são: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior.",
-          "note": "Correio da Manhã published an article on 25 October listing the identical ten startups selected for the mission."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S3",
-          "quote": "As dez startups escolhidas para integrar a missão oficial são: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior.",
-          "note": "S3, published 25 October 2026, lists the same ten startups as S2."
-        }
-      ],
-      "consensus": "supported",
-      "flag_to_journalist": false
-    },
-    {
-      "id": "c6",
-      "claim": "Maravalley ran a mission to VivaTech in Paris in June 2026 with Business France's delegation.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Em junho deste ano, o Maravalley também realizou uma missão para o VivaTech em Paris, integrando a delegação da Business France",
-          "note": "S1, dated 18/09/2026, says Maravalley ran a mission to VivaTech in Paris in June of that year as part of Business France's delegation, which matches the claim."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Em junho deste ano, o Maravalley também realizou uma missão para o VivaTech em Paris, integrando a delegação da Business France.",
-          "note": "The source, published in September 2026, confirms that Maravalley carried out a mission to VivaTech in Paris in June of that year as part of Business France's delegation."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Em junho deste ano, o Maravalley também realizou uma missão para o VivaTech em Paris, integrando a delegação da Business France.",
-          "note": "S1 states Maravalley held a mission to VivaTech in Paris in June of this year with Business France's delegation."
-        }
-      ],
-      "consensus": "supported",
-      "flag_to_journalist": false
-    },
-    {
-      "id": "c7",
-      "claim": "Gol's flights from 24 November run on Mondays, Tuesdays, Wednesdays, Fridays and Saturdays.",
-      "verdicts": [
-        {
-          "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "às segundas, terças, quartas, sextas e sábados",
-          "note": "S2 says that from 24 November Gol offers five weekly flights on the Rio-Lisbon route on Mondays, Tuesdays, Wednesdays, Fridays and Saturdays, matching the claim."
-        },
-        {
-          "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "A partir de 24 de novembro, a companhia também passa a oferecer cinco voos semanais nessa rota, às segundas, terças, quartas, sextas e sábados",
-          "note": "The source directly states that starting on 24 November, Gol will operate flights on Mondays, Tuesdays, Wednesdays, Fridays, and Saturdays."
-        },
-        {
-          "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "A partir de 24 de novembro, a companhia também passa a oferecer cinco voos semanais nessa rota, às segundas, terças, quartas, sextas e sábados.",
-          "note": "S2 states Gol's flights from 24 November run on Mondays, Tuesdays, Wednesdays, Fridays and Saturdays."
-        }
-      ],
-      "consensus": "supported",
-      "flag_to_journalist": false
-    },
-    {
-      "id": "c8",
       "claim": "The call was for startups under six years old with fewer than 100 employees.",
       "verdicts": [
         {
@@ -254,14 +126,14 @@
           "verdict": "supported",
           "source": "S1",
           "quote": "menos de 6 anos de atuação e menos de 100 funcionários",
-          "note": "S1 states that to be eligible a startup must have less than 6 years of operation and fewer than 100 employees, which matches the claim."
+          "note": "S1 states that to be eligible a startup must have fewer than 6 years of operation and fewer than 100 employees, which matches the claim."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
           "quote": "Para ser considerada elegível, a startup precisa ter menos de 6 anos de atuação e menos de 100 funcionários.",
-          "note": "The edital (call) specifies that eligible startups must have less than 6 years of operation and fewer than 100 employees."
+          "note": "The source confirms that under the call rules, eligible startups had to have less than 6 years of activity and fewer than 100 employees."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
@@ -275,29 +147,145 @@
       "flag_to_journalist": false
     },
     {
+      "id": "c5",
+      "claim": "Gol pays the tickets for the ten startups.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "vai bancar passagens",
+          "note": "The S2 headline says Gol will pay for the tickets of the 10 startups, and the body says Gol will make the tickets available to them, which S3 also reports as ten tickets granted by Gol."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Gol vai bancar passagens de 10 startups cariocas a Lisboa",
+          "note": "Source S2 directly states in its headline that Gol will pay for the tickets of 10 startups to Lisbon."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Gol vai bancar passagens de 10 startups cariocas a Lisboa",
+          "note": "S2 states that Gol will cover the airline tickets for the ten selected startups."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "Gol's Rio to Lisbon route from Galeão, its first intercontinental route, begins five flights a week from 24 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "A partir de 24 de novembro, a companhia também passa a oferecer cinco voos semanais nessa rota",
+          "note": "The source supports the 24 November start of five weekly flights and the Galeão first-intercontinental detail, but it says Gol already inaugurated the Rio–Lisbon route in September, so the claim wrongly implies the route begins on 24 November."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Gol inaugurar seu primeiro voo intercontinental entre o Rio de Janeiro e Lisboa, partindo do Galeão. A partir de 24 de novembro, a companhia também passa a oferecer cinco voos semanais nessa rota",
+          "note": "Source S2 confirms the launch of Gol's first intercontinental route from Galeão to Lisbon, offering five flights per week starting 24 November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Gol inaugurar seu primeiro voo intercontinental entre o Rio de Janeiro e Lisboa, partindo do Galeão. A partir de 24 de novembro, a companhia também passa a oferecer cinco voos semanais nessa rota",
+          "note": "S2 states Gol's first intercontinental Rio-Lisbon flight from Galeão and that from 24 November it offers five weekly flights on the route."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "Startups.com.br named the ten startups on 26 October 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior",
+          "note": "The S2 Startups.com.br article is dated 26/10/2026 and names all ten selected startups, so the claim is supported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Stephanie Tondo 26/10/2026 14:55 Leitura: 3 Minutos Adicionar Siga Startups no Google Veja nossas notícias com mais destaque nas suas buscas. Adicionar Siga Startups no Google Veja nossas notícias com mais destaque nas suas buscas. Adicionar Gol estreou a rota Rio-Lisboa em setembro | Foto: Divulgação O Rio de Janeiro vai levar 10 startups para participarem do Web Summit Lisboa , que acontece de 9 a 12 de novembro, e as passagens a&eacute;reas j&aacute; est&atilde;o garantidas. A Invest.Rio firmou uma parceria com a Gol Linhas A&eacute;reas para apoiar a miss&atilde;o, que est&aacute; sendo organizada em conjunto com o Maravalley , o hub de inova&ccedil;&atilde;o carioca. A novidade chega poucas semanas depois de a Gol inaugurar seu primeiro voo intercontinental entre o Rio de Janeiro e Lisboa, partindo do Gale&atilde;o. A partir de 24 de novembro, a companhia tamb&eacute;m passa a oferecer cinco voos semanais nessa rota, &agrave;s segundas, ter&ccedil;as, quartas, sextas e s&aacute;bados. &ldquo;O Rio de Janeiro &eacute; um hub internacional estrat&eacute;gico para a Gol e, como uma companhia que desde sua funda&ccedil;&atilde;o usou a tecnologia como recurso para transformar e democratizar a avia&ccedil;&atilde;o no Brasil, estar ao lado da Invest.Rio nessa miss&atilde;o refor&ccedil;a nossa ess&ecirc;ncia inovadora&rdquo;, afirma Luiz Borrego, CIO da Gol , por meio de nota. Como companhia a&eacute;rea oficial da Miss&atilde;o Web Summit Lisboa 2026, a Gol vai disponibilizar passagens para as 10 startups selecionadas para a viagem: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior",
+          "note": "An article published on Startups.com.br on 26 October 2026 explicitly lists the ten selected startups."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Gol vai disponibilizar passagens para as 10 startups selecionadas para a viagem: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior",
+          "note": "S2 is a Startups.com.br article dated 26/10/2026 and it names these ten startups."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Correio da Manhã reported the same ten startups on 25 October.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "As dez startups escolhidas",
+          "note": "The Correio da Manhã article is dated 25 October 2026 and lists the same ten startups named in S2 (Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT and AllPetSenior)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Publicado em 25 de Outubro, 2026 às 16:34 [...] As dez startups escolhidas para integrar a missão oficial são: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior.",
+          "note": "Correio da Manhã published an article on 25 October listing the identical ten startups selected for the mission."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "As dez startups escolhidas para integrar a missão oficial são: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT e AllPetSenior.",
+          "note": "S3 is the Correio da Manhã article dated 25 de Outubro, 2026 and lists the same ten startups as S2."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
       "id": "c9",
-      "claim": "Rio's mission is the second year; last year it also took ten startups to the summit.",
+      "claim": "Maravalley ran a mission to VivaTech in Paris in June 2026 with Business France's delegation.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Esse é o segundo ano da missão, que no ano passado também havia levado 10 startups para o evento",
-          "note": "S1 states this is the mission's second year and that last year it also took 10 startups to the event, and S3 independently says it is the second consecutive year."
+          "quote": "Em junho deste ano, o Maravalley também realizou uma missão para o VivaTech em Paris, integrando a delegação da Business France.",
+          "note": "S1, dated 18/09/2026, states that Maravalley ran a mission to VivaTech in Paris in June of that year as part of Business France's delegation."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Esse é o segundo ano da missão, que no ano passado também havia levado 10 startups para o evento.",
-          "note": "The source confirms that this is the second year of the mission and that it had also taken ten startups to the event last year."
+          "quote": "Em junho deste ano, o Maravalley também realizou uma missão para o VivaTech em Paris, integrando a delegação da Business France",
+          "note": "The source, published in 2026, directly confirms that Maravalley conducted a mission to VivaTech in Paris in June of that year as part of Business France's delegation."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "supported",
           "source": "S1",
-          "quote": "Esse é o segundo ano da missão, que no ano passado também havia levado 10 startups para o evento.",
-          "note": "S1 directly states the mission is in its second year and that last year it also took 10 startups to the event."
+          "quote": "Em junho deste ano, o Maravalley também realizou uma missão para o VivaTech em Paris, integrando a delegação da Business France.",
+          "note": "S1 states Maravalley held a mission to VivaTech in Paris in June of that year as part of Business France's delegation."
         }
       ],
       "consensus": "supported",
@@ -305,90 +293,90 @@
     },
     {
       "id": "c10",
-      "claim": "Daniel Barros is Maravalley's CEO.",
+      "claim": "Sebrae says 12 Brazilian states run their own missions to this year's Web Summit.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Daniel Barros, CEO do Maravalley",
-          "note": "S2 names Daniel Barros as CEO of Maravalley, and S1 likewise calls him CEO of the Rio innovation hub, which is Maravalley."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the three sources mentions Sebrae, 12 states, or state-run missions to Web Summit; they cover only Rio de Janeiro's Invest.Rio and Maravalley delegation of 10 startups."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Daniel Barros, CEO do Maravalley",
-          "note": "The text explicitly identifies Daniel Barros as the CEO of Maravalley."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention Sebrae or Brazilian states running missions to the Web Summit."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Daniel Barros, CEO do Maravalley",
-          "note": "S2 explicitly identifies Daniel Barros as CEO of Maravalley."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention Sebrae or 12 Brazilian states running their own missions to this year's Web Summit."
         }
       ],
-      "consensus": "supported",
-      "flag_to_journalist": false
+      "consensus": "unsupported",
+      "flag_to_journalist": true
     },
     {
       "id": "c11",
-      "claim": "Sidney Levy is Invest.Rio's president.",
+      "claim": "Nine of the ten startups are from Brazil and sheerME is from Portugal.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Sidney Levy, presidente da Invest.Rio",
-          "note": "S1 names Sidney Levy as president of Invest.Rio, and S2 and S3 repeat the same title."
+          "verdict": "contradicted",
+          "source": "S3",
+          "quote": "dez startups cariocas",
+          "note": "The sources describe all ten selected startups as from Rio de Janeiro, so they contradict the claim that sheerME is from Portugal; no source says sheerME is Portuguese."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Sidney Levy, presidente da Invest.Rio",
-          "note": "The source explicitly identifies Sidney Levy as the president of Invest.Rio."
+          "verdict": "contradicted",
+          "source": "S3",
+          "quote": "dez passagens aéreas para startups cariocas selecionadas participarem do maior evento de tecnologia da Europa",
+          "note": "The sources state that all ten selected startups, which include sheerME, are cariocas (from Rio de Janeiro, Brazil)."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S1",
-          "quote": "Sidney Levy, presidente da Invest.Rio",
-          "note": "S1 explicitly identifies Sidney Levy as the president of Invest.Rio."
+          "verdict": "contradicted",
+          "source": "S2",
+          "quote": "10 startups cariocas",
+          "note": "S2 lists sheerME among the 10 startups cariocas, so it is Brazilian, not Portuguese."
         }
       ],
-      "consensus": "supported",
-      "flag_to_journalist": false
+      "consensus": "contradicted",
+      "flag_to_journalist": true
     },
     {
       "id": "c12",
-      "claim": "Luiz Borrego is Gol's CIO.",
+      "claim": "Bizuu and AllPetSenior speak in the Startup Showcase.",
       "verdicts": [
         {
           "model": "anthropic/claude-haiku-5.5",
-          "verdict": "supported",
+          "verdict": "unsupported",
           "source": "S2",
-          "quote": "Luiz Borrego, CIO da Gol",
-          "note": "S2 identifies Luiz Borrego as CIO of Gol, and S3 repeats the same title in its quote from him."
+          "quote": "poderão apresentar suas soluções no estande da Invest.Rio",
+          "note": "The sources name Bizuu and AllPetSenior as two of the ten selected startups, but they say only that companies may present solutions at the Invest.Rio booth; none mention a Startup Showcase or speaking."
         },
         {
           "model": "google/gemini-3.8-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Luiz Borrego, CIO da Gol",
-          "note": "The text explicitly identifies Luiz Borrego as the CIO of Gol."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "While the sources mention Bizuu and AllPetSenior as selected startups, none of the passages mention them speaking in a Startup Showcase."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
-          "verdict": "supported",
-          "source": "S2",
-          "quote": "Luiz Borrego, CIO da Gol",
-          "note": "The source explicitly identifies Luiz Borrego as Gol's CIO."
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources list Bizuu and AllPetSenior among selected startups and say they can present at the Invest.Rio stand, but they do not mention a Startup Showcase or speaking there."
         }
       ],
-      "consensus": "supported",
-      "flag_to_journalist": false
+      "consensus": "unsupported",
+      "flag_to_journalist": true
     }
   ]
 }

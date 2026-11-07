@@ -1,38 +1,50 @@
 [
  {
   "id": "c1",
-  "claim": "Wednesday 11 November is the summit's busiest day for founders looking at Europe."
+  "claim": "Wednesday 11 November is the day on which the European Commission and its agencies run most of their sessions at the summit."
  },
  {
   "id": "c2",
-  "claim": "The European Commission and its agencies run most of their sessions on Wednesday 11 November."
+  "claim": "The European Commission and its agencies have four of the seven sessions on their agenda on Wednesday 11 November, with two on Tuesday and one on Thursday."
  },
  {
   "id": "c3",
-  "claim": "A session on EU support for AI businesses is scheduled for 14:30."
+  "claim": "The session 'Building AI in Europe: Practical support for innovators' runs from 14:30 to 15:15 in Masterclass 3 and is run by the European Commission, DG CONNECT."
  },
  {
   "id": "c4",
-  "claim": "A session on EU funding, featuring four EU-funded projects, is scheduled for 15:30."
+  "claim": "The session 'Investing in technological sovereignty: EU funding for your project' runs from 15:30 to 16:15 and features four EU-funded projects, run by HaDEA."
  },
  {
   "id": "c5",
-  "claim": "A session on free access to Europe's supercomputers is scheduled for 16:00."
+  "claim": "The EuroHPC session on using Europe's supercomputers, AI Factories and quantum computers for free runs from 16:00 to 16:45, on a first come, first served basis."
  },
  {
   "id": "c6",
-  "claim": "The 15:30 EU funding session and the 16:00 supercomputer session overlap."
+  "claim": "The HaDEA session (15:30 to 16:15) and the EuroHPC session (16:00 to 16:45) overlap by a quarter of an hour."
  },
  {
   "id": "c7",
-  "claim": "Italian and Portuguese founders and investors meet in Beato from 18:30 in the evening."
+  "claim": "The 'European Tech Champions, Italy and Portugal' event in Beato starts from 18:30 and is run by Unicorn Factory Lisboa, the Embassy of Italy and ICE."
  },
  {
   "id": "c8",
-  "claim": "The listed times are set by the organisers and can change."
+  "claim": "The EUIPO panel on how IP-backed finance can help companies raise money and scale is scheduled at 12:10."
  },
  {
   "id": "c9",
-  "claim": "Web Summit has an app that attendees can check for schedule updates."
+  "claim": "The session 'The next digital frontier' runs from 10:30 to 10:50 on Stage 11 and includes Portugal's Secretary of State for Digitalisation."
+ },
+ {
+  "id": "c10",
+  "claim": "HaDEA's stand is E418 in Pavilion 4, and HaDEA says it is staffed throughout the summit."
+ },
+ {
+  "id": "c11",
+  "claim": "Only the AI masterclass and 'The next digital frontier' were found on Web Summit's schedule when it was read on 6 November."
+ },
+ {
+  "id": "c12",
+  "claim": "The article's first version was published on 7 November 2026 at 02:50 UTC."
  }
 ]
