@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: every two hours at :37 UTC on account A (the account move); observe mode; hook and policy edits refused as self-modification since 13:5x",
-  "updated": "2026-11-07T04:45Z",
+  "updated": "2026-11-07T14:48Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -159,6 +159,12 @@
       "outcome": "partial",
       "release": "this wake's",
       "line": "S26 closed (librarian@'s inbox re-issued at 02:52); 26 runs, 0 breaches"
+    },
+    {
+      "started": "2026-11-07T14:37Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "five quiet wakes summed; journalist@'s unseen calls explained (sub-agents); investors@'s outreach page fits R12"
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-06-handover.md"
