@@ -677,9 +677,9 @@
    "auto": false,
    "ai": {
     "model": "google/gemini-3-pro-image",
-    "made": "2026-11-06",
-    "checked": "every figure against the article, by designer@",
-    "source": "vault bar9wi87: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--173540.png"
+    "made": "2026-11-07",
+    "checked": "every name and title against the article as corrected at 00:55 UTC (Panel 2 at 19:20, 'are Doing it'; the earlier image said 19:25 and 'Did It'), by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--053656.png"
    }
   },
   {
@@ -691,9 +691,9 @@
    "auto": false,
    "ai": {
     "model": "google/gemini-3-pro-image",
-    "made": "2026-11-06",
-    "checked": "every figure against the article, by designer@",
-    "source": "vault bar9wi87: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--173540.png"
+    "made": "2026-11-07",
+    "checked": "every name and title against the article as corrected at 00:55 UTC (Panel 2 at 19:20, 'are Doing it'; the earlier image said 19:25 and 'Did It'), by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--053656.png"
    }
   },
   {
@@ -705,9 +705,9 @@
    "auto": false,
    "ai": {
     "model": "google/gemini-3-pro-image",
-    "made": "2026-11-06",
-    "checked": "every figure against the article, by designer@",
-    "source": "vault bar9wi87: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--173540.png"
+    "made": "2026-11-07",
+    "checked": "every name and title against the article as corrected at 00:55 UTC (Panel 2 at 19:20, 'are Doing it'; the earlier image said 19:25 and 'Did It'), by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--053656.png"
    }
   },
   {
@@ -719,9 +719,9 @@
    "auto": false,
    "ai": {
     "model": "google/gemini-3-pro-image",
-    "made": "2026-11-06",
-    "checked": "every figure against the article, by designer@",
-    "source": "vault bar9wi87: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--173540.png"
+    "made": "2026-11-07",
+    "checked": "every name and title against the article as corrected at 00:55 UTC (Panel 2 at 19:20, 'are Doing it'; the earlier image said 19:25 and 'Did It'), by designer@ (session 3)",
+    "source": "designer@ session 3 scratch: ai-images/italy-and-portugal-in-beato/google_gemini-3-pro-image--editorial--053656.png"
    }
   },
   {
@@ -1574,8 +1574,8 @@
    "ai": {
     "model": "google/gemini-3-pro-image",
     "made": "2026-11-07",
-    "checked": "every figure and name against the article, by designer@ (session 3)",
-    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--004414.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+    "checked": "every figure and name against the article as corrected at 04:45 UTC (synthetic@'s F52: the old headline and a plane implying the ten fly the new route), by designer@ (session 3); the word 'Gol' painted on the plane as a livery was removed by hand (filled with the plane's blue), nothing added",
+    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--053436--no-livery.png"
    }
   },
   {
@@ -1588,8 +1588,8 @@
    "ai": {
     "model": "google/gemini-3-pro-image",
     "made": "2026-11-07",
-    "checked": "every figure and name against the article, by designer@ (session 3)",
-    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--004414.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+    "checked": "every figure and name against the article as corrected at 04:45 UTC (synthetic@'s F52: the old headline and a plane implying the ten fly the new route), by designer@ (session 3); the word 'Gol' painted on the plane as a livery was removed by hand (filled with the plane's blue), nothing added",
+    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--053436--no-livery.png"
    }
   },
   {
@@ -1602,8 +1602,8 @@
    "ai": {
     "model": "google/gemini-3-pro-image",
     "made": "2026-11-07",
-    "checked": "every figure and name against the article, by designer@ (session 3)",
-    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--004414.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+    "checked": "every figure and name against the article as corrected at 04:45 UTC (synthetic@'s F52: the old headline and a plane implying the ten fly the new route), by designer@ (session 3); the word 'Gol' painted on the plane as a livery was removed by hand (filled with the plane's blue), nothing added",
+    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--053436--no-livery.png"
    }
   },
   {
@@ -1616,8 +1616,8 @@
    "ai": {
     "model": "google/gemini-3-pro-image",
     "made": "2026-11-07",
-    "checked": "every figure and name against the article, by designer@ (session 3)",
-    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--004414.png (the vault bar9wi87's key is with the conductor; not yet uploaded)"
+    "checked": "every figure and name against the article as corrected at 04:45 UTC (synthetic@'s F52: the old headline and a plane implying the ten fly the new route), by designer@ (session 3); the word 'Gol' painted on the plane as a livery was removed by hand (filled with the plane's blue), nothing added",
+    "source": "designer@ session 3 scratch: ai-images/rio-ten-startups-to-lisbon/google_gemini-3-pro-image--editorial--053436--no-livery.png"
    }
   },
   {
