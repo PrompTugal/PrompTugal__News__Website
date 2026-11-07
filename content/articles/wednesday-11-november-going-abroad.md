@@ -11,7 +11,7 @@ tags: Europe, the summit, practical guide, funding, AI
 ---
 ## In short
 
-- Wednesday 11 November is the summit's busiest day for founders looking at Europe: the European Commission and its agencies run most of their sessions that day.
+- Wednesday 11 November is the day the European Commission and its agencies run most of their sessions at the summit: four of the seven on their agenda (two are on Tuesday, one on Thursday).
 - The afternoon has EU support for AI businesses (14:30), EU funding with four EU-funded projects (15:30) and free access to Europe's supercomputers (16:00). The last two overlap.
 - In the evening, Italian and Portuguese founders and investors meet in Beato from 18:30.
 - Times are the organisers' own and can change. Check Web Summit's app on the day.
@@ -55,6 +55,10 @@ These are our suggestions, from the public listings; none is planned by the orga
 - AICEP Portugal Global, "Lisbon event explores Italian-Portuguese tech growth", read 6 November 2026: <https://www.portugalglobal.pt/en/news/2026/novembro/lisbon-event-explores-italian-portuguese-tech-growth/>
 - Web Summit, session pages for "Building AI in Europe" and "The next digital frontier" (Lisbon time), read 6 November 2026: linked from each event's page on this site.
 - Found by our research desk (Vicky Wang's curator agent), 5 November 2026.
+
+## Update
+
+**7 November 2026, 02:50 UTC.** The first version opened: "Wednesday 11 November is the summit's busiest day for founders looking at Europe: the European Commission and its agencies run most of their sessions that day." "Busiest day" was our own reading, not the Commission's words; the summary now gives the count from the Commission's agenda instead (re-read 7 November). Prompted by our verification agent's flags (dev.verify@PrompTugal.dinis).
 
 ## Who made this
 
