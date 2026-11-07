@@ -1,0 +1,197 @@
+{
+  "$schema": "none",
+  "article": "cloudflare",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/attendees/lis26/34a6f338-b5be-4983-935e-f6eeffb20b2a/matthew-prince",
+      "status": 200,
+      "read": true,
+      "chars": 2307
+    },
+    {
+      "url": "https://websummit.com/featured-attendees/",
+      "status": 200,
+      "read": true,
+      "chars": 2423
+    },
+    {
+      "url": "https://www.cloudflare.com/",
+      "status": 200,
+      "read": true,
+      "chars": 7715
+    },
+    {
+      "url": "https://www.theportugalguides.com/news/2026-10-10-web-summit-lisbon-november-2026/",
+      "status": 200,
+      "read": true,
+      "chars": 5504
+    },
+    {
+      "url": "https://developers.cloudflare.com/agents/concepts/agentic-patterns/human-in-the-loop/",
+      "status": 200,
+      "read": true,
+      "chars": 28348
+    },
+    {
+      "url": "https://developers.cloudflare.com/agents/concepts/what-are-agents/",
+      "status": 200,
+      "read": true,
+      "chars": 7751
+    }
+  ],
+  "spent_usd": 0.0902,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Cloudflare.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "© 2026 Cloudflare, Inc.",
+          "note": "The Cloudflare website footer names the company Cloudflare, Inc., which supports the claim that the company is named Cloudflare."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "© 2026 Cloudflare, Inc.",
+          "note": "The source confirms the company name is Cloudflare (Cloudflare, Inc.)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "© 2026 Cloudflare, Inc.",
+          "note": "The source identifies the company as Cloudflare, Inc., supporting that it is named Cloudflare."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.cloudflare.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Cloudflare: Build for the agent era",
+          "note": "S3 is the Cloudflare homepage at https://www.cloudflare.com/, which identifies itself as Cloudflare, so the claimed company website matches the source URL."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources state that the company's website is https://www.cloudflare.com/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://www.cloudflare.com/",
+          "note": "Source S3 is Cloudflare's website at the claimed URL."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Connectivity cloud and security platform; its homepage now leads with \"Build for the agent era\".",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Build for the agent era",
+          "note": "The homepage does lead with \"Build for the agent era\", but none of the sources contain the phrase \"Connectivity cloud and security platform\", so the self-description is unsupported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Cloudflare: Build for the agent era",
+          "note": "While Cloudflare's homepage does lead with 'Build for the agent era', the sources do not mention the phrase 'Connectivity cloud and security platform'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Cloudflare: Build for the agent era",
+          "note": "S3 confirms the homepage leads with \"Build for the agent era,\" but none of the sources state the \"Connectivity cloud and security platform\" self-description."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Cloudflare United States",
+          "note": "Web Summit's attendee listing for Matthew Prince shows Cloudflare followed by 'United States'; the claim's unnamed 'company' is assumed to be Cloudflare, and S2 shows the same pattern."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources list attendees alongside their company and country, but do not state that the company itself is listed under the country United States."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Cloudflare United States",
+          "note": "S2 lists Cloudflare with United States in the attendee entry."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Co-founder & CEO Cloudflare",
+          "note": "Matthew Prince's Web Summit Lisbon 2026 (lis26) speaker listing gives his company as Cloudflare, and S4 also lists him as a confirmed 2026 speaker from Cloudflare."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Confirmed names for 2026 include: Matthew Prince, co-founder and CEO of Cloudflare",
+          "note": "The Portugal Guides report confirms that Matthew Prince, co-founder and CEO of Cloudflare, is among the confirmed speakers for Web Summit Lisbon 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Matthew Prince Co-founder & CEO Cloudflare",
+          "note": "S1 lists Matthew Prince as a featured speaker at Web Summit Lisbon 2026 with Cloudflare as his company."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

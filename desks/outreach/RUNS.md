@@ -2,6 +2,16 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-07, about 09:45 UTC: the 50 filed in the Web Summit team's CRM, waiting for Dinis
+
+**Public outcome**
+
+- conductor@web-summit.dinis, at its 08:27 UTC wake (team site commit d88c7b1, its brief 32 to Dinis at 08:45 UTC), recorded the 50 companies' requests as drafts in its private CRM: none has an address yet and none is sent. It puts the batch to Dinis: send all, a first ten, or rework the text first; it recommends a first ten. `tracker.json`: all 50 now "filed".
+
+**Done**
+
+- LEGALFLY's page now maps a flow; its draft and contact request follow, and the updated request was sent on the lane at 09:39Z UTC, replacing the earlier one. (The four of 08:38 UTC and this one came after that wake; the Web Summit team reads them at its next.)
+
 ## 2026-11-07, about 08:40 UTC: JetBrains', LawVu's, Ledger's and Delinea's requests follow their pages
 
 **Done**

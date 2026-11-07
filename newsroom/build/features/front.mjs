@@ -72,7 +72,7 @@ export const fill = {
         const { days, itemsOn, TODAY, DAY } = load(ctx), out = []
         for (const d of days.filter(d => d >= TODAY)) {
             const top = [...itemsOn(d)].sort((a, b) => rank(a) - rank(b) || (a.time || '').localeCompare(b.time || ''))[0]
-            if (top) out.push(`- \`${d === TODAY ? 'Today ' : ''}${DAY(d).split(' ')[0].slice(0, 3)} ${DAY(d).split(' ')[1]}\` [${ctx.md.cell(String(top.what).split(/:\s|\s\(/)[0])}](${ctx.link(page.rel, `events/${top.id}/index.html`)})`)
+            if (top) out.push(`- \`${d === TODAY ? 'Today ' : ''}${DAY(d).split(' ')[0].slice(0, 3)} ${DAY(d).split(' ')[1]}\` [${ctx.md.cell(String(top.what).split(/:\s|\s\(/)[0])}](${ctx.link(page.rel, `events/${top.id}/index.html`)})${top.where ? ` *${ctx.md.cell(top.where)}*` : ''}`)  // its place (sherpa@'s H2)
             if (out.length === 3) break
         }
         return out.length ? `{.rows .next3}\n${out.join('\n')}` : ''

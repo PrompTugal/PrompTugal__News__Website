@@ -25,6 +25,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "The company's own solutions page (read 7 November 2026, 03:25 UTC): its website (the page recorded); and a description of what the company does: commerce solutions (B2C omnichannel, B2B, marketplace, retail media, agentic customer service) for enterprises and SMBs. It does not say AI-native.",
       "kind": "other"
+    },
+    {
+      "id": "mp1",
+      "url": "https://aws.amazon.com/marketplace/search/results?searchTerms=VTEX",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "AWS Marketplace's public search for \"VTEX\" (read 7 November 2026, 10:35 UTC, in a headless browser, no sign-in; re-checking researcher@'s round 1, desks/researcher/centres-of-gravity-aws-marketplace-round-1.md): the first results include \"VTEX Commerce Suite Enterprise\" (Global) and (US), by VTEX (the edge sells_on AWS)."
     }
   ]
 }

@@ -120,7 +120,7 @@
         },
         "speaker": {
           "state": "none",
-          "text": "No speaker from Google or Google Cloud found in the 2026 speakers page as loaded. Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); completeness was not confirmed, so a miss is not proof of absence. Roles only, no names.",
+          "text": "No speaker from Google or Google Cloud found in the 2026 speakers page as loaded. Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); the page says 800 speakers and the scrolled page held 941 profile links (an upper figure), so the list looks fully loaded; it will change as speakers are announced, so a miss holds for the page as read and is not proof of absence. Roles only, no names.",
           "src": "speakers",
           "label": "Google"
         },
@@ -170,7 +170,7 @@
         },
         "speaker": {
           "state": "found",
-          "text": "A press conference with Amazon's Vice President, People Experience and Technology: 11 November 2026, 16:00 to 16:20, Stage 2. The 2026 speakers page as loaded lists that one Amazon speaker (a vice president, people, experience and technology, United States) and no speaker from AWS or Amazon Web Services; the job title only, not a cloud division. Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); completeness was not confirmed, so a miss is not proof of absence. Roles only, no names.",
+          "text": "A press conference with Amazon's Vice President, People Experience and Technology: 11 November 2026, 16:00 to 16:20, Stage 2. The 2026 speakers page as loaded lists that one Amazon speaker (a vice president, people, experience and technology, United States) and no speaker from AWS or Amazon Web Services; the job title only, not a cloud division. Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); the page says 800 speakers and the scrolled page held 941 profile links (an upper figure), so the list looks fully loaded; it will change as speakers are announced, so a miss holds for the page as read and is not proof of absence. Roles only, no names.",
           "src": "speakers",
           "label": "Amazon"
         },
@@ -260,7 +260,7 @@
         },
         "speaker": {
           "state": "found",
-          "text": "One speaker listed as a global director of creative at Microsoft, United States, on the 2026 speakers page as loaded: a corporate role, not from the Azure cloud division. None named Azure. (A Web Summit SaaS Summit page names a Microsoft executive in the past tense: not 2026 evidence.) Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); completeness was not confirmed, so a miss is not proof of absence. Roles only, no names.",
+          "text": "One speaker listed as a global director of creative at Microsoft, United States, on the 2026 speakers page as loaded: a corporate role, not from the Azure cloud division. None named Azure. (A Web Summit SaaS Summit page names a Microsoft executive in the past tense: not 2026 evidence.) Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); the page says 800 speakers and the scrolled page held 941 profile links (an upper figure), so the list looks fully loaded; it will change as speakers are announced, so a miss holds for the page as read and is not proof of absence. Roles only, no names.",
           "src": "speakers",
           "label": "Microsoft"
         },

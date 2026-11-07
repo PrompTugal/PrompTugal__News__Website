@@ -31,7 +31,12 @@ export async function keep(ctx) {
     const news = articlesOf(ctx).slice(0, 10).map(a => a.rel)
     // dev.pages@'s offline-first data: the index of the days and one JSON per day (features/days.mjs)
     const dayData = ['api/v1/days.json', ...days.map(d => `api/v1/days/${d.split('/')[1]}.json`)]
-    return [...new Set(['', 'summit/', ...days, ...news, ...await shellOf(ctx), ...DATA, ...dayData, MANIFEST])]
+    // the tab bar's sections (sherpa@'s O1: Agenda, News and Companies said 'not kept' offline) and the coming events'
+    // pages, at most 120, nearest first
+    const tabs = ['agenda', 'news', 'companies'].map(id => ctx.NAV.nav.find(n => n.id === id)?.href).filter(Boolean).map(dir)
+    const events = ctx.store.events.filter(e => e.listed_as && (e.end_date || e.date) >= ctx.TODAY).sort((a, b) => (a.date + (a.start || '')).localeCompare(b.date + (b.start || ''))).slice(0, 120)
+        .map(e => `events/${e.id}/`).filter(r => ctx.pages.some(p => p.rel === r + 'index.html'))
+    return [...new Set(['', 'summit/', ...tabs, ...days, ...news, ...events, ...await shellOf(ctx), ...DATA, ...dayData, MANIFEST])]
 }
 export const api = async ctx => {
     const on = JSON.parse(fs.readFileSync(ctx.R(SWITCH), 'utf8')).enabled !== false
