@@ -96,22 +96,33 @@ export const fill = {
     'newsletter:api': (page, ctx) => `[${API}](${ctx.link(page.rel, API)})`,
 }
 
-// the email: the edition's filled markdown as plain text, every link absolute (the .md twins become the pages)
+// the email: the edition's filled markdown as plain text (designer@'s E3, E4: links as numbered references listed at the
+// end, never inline; lines wrapped at 50 characters, a list item's lines indented under its first)
+const WIDTH = 50
+const wrap = line => {
+    const lead = (line.match(/^(\s*(?:- |\d+\. )?)/) || ['', ''])[1], words = line.slice(lead.length).split(/ +/), out = []
+    let cur = lead
+    for (const w of words) { if (cur.trim() && (cur + w).length > WIDTH) { out.push(cur.replace(/ +$/, '')); cur = ' '.repeat(lead.length) } cur += w + ' ' }
+    out.push(cur.replace(/ +$/, ''))
+    return out.join('\n')
+}
 export function plain(md, pageUrl) {
     const abs = u => { try { return new URL(u, pageUrl).href.replace(/\.md(#|$)/, '.html$1').replace(/\/index\.html(#|$)/, '/$1') } catch { return u } }
-    return md.replace(/<!--[\s\S]*?-->/g, '').split('\n').filter(l => !/^\s*(\{\.[^}]*\}|:::.*)\s*$/.test(l)).join('\n')
+    const refs = [], ref = u => { const a = abs(u), i = refs.indexOf(a); return (i < 0 ? refs.push(a) : i + 1) }
+    const text = md.replace(/<!--[\s\S]*?-->/g, '').split('\n').filter(l => !/^\s*(\{\.[^}]*\}|:::.*)\s*$/.test(l)).join('\n')
         .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
-        .replace(/\[([^\]]+)\]\(([^)\s]+)[^)]*\)/g, (m, t, u) => `${t} (${abs(u)})`)
-        .replace(/^#{1,6}\s+(.*)$/gm, (m, h) => `${h}\n${'-'.repeat(Math.min(h.length, 60))}`)
+        .replace(/\[([^\]]+)\]\(([^)\s]+)[^)]*\)/g, (m, t, u) => `${t} [${ref(u)}]`)
+        .replace(/^#{1,6}\s+(.*)$/gm, (m, h) => `${h}\n${'-'.repeat(Math.min(h.length, WIDTH))}`)
         .replace(/\*\*([^*]+)\*\*/g, '$1').replace(/(^|[^*\w])\*([^*\n]+)\*/g, '$1$2').replace(/`([^`]+)`/g, '$1')
         .replace(/[ \t]+$/gm, '').replace(/\n{3,}/g, '\n\n').trim()
+    return text.split('\n').map(l => l.length > WIDTH ? wrap(l) : l).join('\n') + (refs.length ? '\n\n' + refs.map((u, i) => `[${i + 1}] ${u}`).join('\n') : '')
 }
 
 export const api = ctx => {
     const E = editionsOf(ctx), url = p => ctx.BASE + p.rel.replace(/index\.html$/, '')
     const tail = `\n\n${W.by} `, body = p => { const i = p.md.lastIndexOf(tail); return i < 0 ? p.md : p.md.slice(0, i) }
     const mails = E.map(p => ({ path: emailOf(p.rel), schema: null,
-        data: `${p.title}\n${'='.repeat(Math.min(p.title.length, 60))}\n${p.summary}\n\n${W.email_web}: ${url(p)}\n\n${plain(body(p), url(p))}\n\n--\n${W.email_footer} ${ctx.BASE}newsletter/\n` }))
+        data: `${p.title}\n${'='.repeat(Math.min(p.title.length, WIDTH))}\n${wrap(p.summary)}\n\n${W.email_web}:\n${url(p)}\n\n${plain(body(p), url(p))}\n\n--\n${wrap(W.email_footer)}\n${ctx.BASE}newsletter/\n` }))
     const list = E.map(p => { const [, date, edition] = p.rel.match(REL)
         return { date, edition, title: p.title, summary: p.summary, authored: isAuthored(p), page: url(p), email: ctx.BASE + emailOf(p.rel) } })
     return [...mails, { path: API, schema: null, data: { about: W.index_summary, editions: list } }]
