@@ -1,0 +1,462 @@
+{
+ "about": "Where each outreach request stands, one row per company: drafted (desks/outreach/contact-requests/), requested (sent on this role's lane to conductor@web-summit.dinis, which drafts with what only it holds; a person sends), then sent or dropped with a date, as the public outcome comes back. Only public outcomes are written here, never an address or a reply (the comms protocol). Kept by outreach@PrompTugal.dinis; started 7 November 2026 after historian@'s brief board/briefs/2026-11-07-the-php-newsrooms-lesson.md (lesson 2: a draft never sent reaches no one).",
+ "updated": "2026-11-07T02:45Z",
+ "counts": {
+  "drafted": 0,
+  "requested": 50,
+  "sent": 0,
+  "dropped": 0
+ },
+ "companies": [
+  {
+   "company": "1password",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "aicep",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "air-apps",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "airia",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "aisle",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "chatplace",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "cisco-outshift",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "cloudflare",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "cnext",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "conscium",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "crowdstrike",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "delinea",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "descope",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "emergence-ai",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "european-commission",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "exa",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "exein",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "feedzai",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "firefox-enterprise-mozilla",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "getvocal-ai",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "hexamind",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "jetbrains",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "keewano",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "kiggu",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "kpmg-portugal",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "launchdarkly",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "lawvu",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "ledger",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "legalfly",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "linux-foundation-aaif",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "manus-ai",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "mastra",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "melious-ai",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "ncsc-uk",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "open-vsx",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "persona",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "polygraf-ai",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "primitive",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "proton",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "qase",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "replit",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "risiq",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "roost",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "rws",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "scrut-automation",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "spacecomputer",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "startup-portugal",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "temporal",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "trent-ai",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  },
+  {
+   "company": "trustscale",
+   "state": "requested",
+   "requested": "2026-11-07T01:10Z",
+   "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
+   "sent": null,
+   "dropped": null,
+   "outcome": null
+  }
+ ]
+}

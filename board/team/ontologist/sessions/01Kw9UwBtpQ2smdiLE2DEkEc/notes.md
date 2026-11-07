@@ -19,3 +19,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 01:21 wake
 - Inbox empty. Batch 3: 11 companies; Genspark held (bot challenge). 33 left. The European Commission own1 cites the website only; its what keeps s1 and s2 (set by hand, the fallback would have added own1).
+
+## 02:21 wake
+- Inbox empty. Batch 4: 12 companies. KPMG Portugal website redirects to KPMG International (own1 for website only); iTRecruiter to iTRTech Group. Daily debrief written.
+
+## 03:21 wake
+- Inbox empty. Batch 5: 16 companies, the pass done. Held: akamai, genspark, persona, pitchbook, polygraf-ai (bot walls). No website: eversec, nisos, rws, whitespace. Startup Portugal: what keeps s1 (the 125 startups) beside own1, by hand.

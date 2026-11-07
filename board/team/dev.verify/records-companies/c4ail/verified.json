@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "c4ail",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/",
+      "status": 200,
+      "read": true,
+      "chars": 1411
+    },
+    {
+      "url": "https://websummit.com/attendees/lis26/1e52813d-0e2e-47fb-aeb0-28f2c81d0197/georg-zoeller/",
+      "status": 200,
+      "read": true,
+      "chars": 2341
+    },
+    {
+      "url": "https://centreforaileadership.org/",
+      "status": 200,
+      "read": true,
+      "chars": 9741
+    }
+  ],
+  "spent_usd": 0.0474,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Centre for AI Leadership (C4AIL).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Centre for AI Leadership is a Singapore Based Non Profit Organisation",
+          "note": "S3 names the organisation 'Centre for AI Leadership' and uses the abbreviation 'C4AIL' elsewhere on the page, so the claim's name and abbreviation are both supported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Centre for AI Leadership is a Singapore Based Non Profit Organisation",
+          "note": "The source confirms the name is Centre for AI Leadership (C4AIL), but identifies it as a non-profit organisation rather than a company."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Centre for AI Leadership (C4AIL)",
+          "note": "The source explicitly names the organization as Centre for AI Leadership (C4AIL)."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://centreforaileadership.org/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Centre for AI Leadership",
+          "note": "S3 is the homepage at https://centreforaileadership.org/, and its content identifies itself as the Centre for AI Leadership (C4AIL), so the URL is the company's site."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://centreforaileadership.org/",
+          "note": "Source 3's URL is https://centreforaileadership.org/, which is the official website for the Centre for AI Leadership."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Centre for AI Leadership",
+          "note": "S3 is the page at https://centreforaileadership.org/ and identifies itself as the Centre for AI Leadership."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: AI leadership education organisation ('awareness before competency').",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Non Profit Organisation",
+          "note": "The source supports the phrase 'Awareness before competency' as a principle and describes the Centre as a non-profit organisation that develops AI capability through programmes, but it never describes itself as an 'AI leadership education organisation'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Centre for AI Leadership is a Singapore Based Non Profit Organisation that aims to promote AI Leadership in the region. We are a team of seasoned entrepreneurs, AI scientists, and executive coaches",
+          "note": "The source identifies the group as a non-profit promoting AI leadership with a core principle of 'awareness before competency', but does not use the specific phrase 'AI leadership education organisation'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Awareness before competency.",
+          "note": "S3's homepage for the Centre for AI Leadership uses the exact slogan and describes its AI education programmes."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Singapore.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Singapore Based Non Profit Organisation",
+          "note": "The Centre for AI Leadership (C4AIL) page states it is a Singapore-based non-profit, and the speaker page in S2 also shows 'Singapore' next to the company name."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources show that Georg Zoeller is associated with Singapore and that the Centre for AI Leadership is a Singapore-based non-profit organisation, but do not state that the company is listed under the country Singapore."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Centre for AI Leadership (C4AIL) Singapore",
+          "note": "S2 lists the company Centre for AI Leadership with Singapore as its country."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Centre for AI Leadership (C4AIL)",
+          "note": "The Web Summit Lisbon 2026 speaker page for Georg Zoeller lists his affiliation as Centre for AI Leadership (C4AIL), and S1 shows him on a Lisbon 2026 session, though the company itself appears only as his affiliation, not as an exhibitor."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Speakers Georg Zoeller Georg Zoeller Co founder Centre for AI Leadership (C4AIL)",
+          "note": "The Centre for AI Leadership is listed as the speaker's company for the session scheduled for Web Summit Lisbon 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Georg Zoeller Co founder Centre for AI Leadership (C4AIL)",
+          "note": "S1 lists Georg Zoeller as a Web Summit Lisbon 2026 speaker with his company, Centre for AI Leadership (C4AIL), as his affiliation."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

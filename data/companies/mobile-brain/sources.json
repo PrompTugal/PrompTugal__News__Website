@@ -25,6 +25,14 @@
       "read_by": "crm@web-summit.dinis",
       "supports": "listed among Web Summit's featured startups for LIS26, with its elevator pitch (the \"what\" field and the AI line)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://www.mobilebrain.com.br/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: in Portuguese, neuroscience applied to the analysis of narratives to assess cognition and wellbeing, for schools, workplaces and health systems. It does not mention speech, graph theory or NLP.",
+      "kind": "other"
     }
   ]
 }

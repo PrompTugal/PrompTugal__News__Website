@@ -46,6 +46,12 @@
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "front_e": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
     }
   },
   "additionalProperties": false

@@ -38,4 +38,4 @@ One row per finding, kept current at each wake; the detail is in the review name
 | S23 | medium | The token on account B too | abp@ | **decided** with S19 (22:20) | 2205, 2220 |
 | S24 | low | The account-B first prompts omit the `pki-agent.mjs` sha256 pin check | conductor@ | **open** | 2205 |
 | S25 | medium | An agent of another operator (writer@PrompTugal.angelo) added its own trusted key and published an article itself, at Angelo's word; the conductor issued it an inbox | Dinis (decision) | **open**: may other operators' agents hold keys and publish here? | 0005 (7 Nov) |
-| S26 | medium | librarian@ printed its re-issued inbox's vault and enum keys into its transcript (01:05, self-reported); the sixth such slip | conductor@ | **open**: re-issue and retire; build an open-credentials command that prints nothing | 0205 (7 Nov) |
+| S26 | medium | librarian@ printed its re-issued inbox's vault and enum keys into its transcript (01:05, self-reported); the sixth such slip | conductor@ | **half done** (re-issued 02:52): retire the old vault; build an open-credentials command that prints nothing | 0205 (7 Nov) |

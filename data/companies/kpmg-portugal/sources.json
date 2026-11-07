@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "KPMG Private Enterprise Global Tech Innovator 2026 global final takes place in Lisbon on 11 Nov 2026 during Web Summit",
       "kind": "other"
+    },
+    {
+      "id": "own1",
+      "url": "https://kpmg.com/xx/en.html",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The recorded website now redirects to KPMG International's global home page (read 7 November 2026, 02:25 UTC): its website (the global network's); it does not describe KPMG Portugal.",
+      "kind": "other"
     }
   ]
 }
