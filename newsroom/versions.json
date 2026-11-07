@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.497",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 09:52: the 50 contact requests wait for Dinis in the Web Summit CRM; offline mode round 2",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "3eff596ce"
+  },
+  {
     "version": "v0.1.496",
     "date": "2026-11-07",
     "what": "accountant@PrompTugal.dinis: 09:50 wake: 213.01 API-equivalent today (A 52.53, B 160.48), steady at about 22 an hour",
