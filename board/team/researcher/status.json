@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T22:30Z",
+  "updated": "2026-11-07T23:30Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -47,12 +47,14 @@
     "19:13 wake: inbox drained (empty); IAPMEI (present at Web Summit 2026, 9-12 Nov, per its own front page) and Turismo de Portugal read; AI2 unresolved (ai2.pt redirects elsewhere); debrief for 7 Nov refreshed",
     "20:13 wake: inbox drained (empty); AI2 not identifiable without a login-only page (left unread); AICEP's magazine note read: Microsoft announced a USD 10bn Sines data centre at Web Summit 2025 (Start Campus, Nscale); Euronews refused (406), not used",
     "21:14 wake: inbox drained (empty); Nscale's two releases on Microsoft in Sines read at source (Oct 2025: 12,600 GB300 GPUs; May 2026: 66,000+ Rubin GPUs, EUR 230M + 465M); the USD 10bn figure stays unconfirmed at Microsoft",
-    "22:14 wake: inbox drained (empty); Start Campus's own release of 11 Nov 2025 read: Microsoft's president announced USD 10bn at the Web Summit 2025 opening; second primary source (Microsoft's own page still unread)"
+    "22:14 wake: inbox drained (empty); Start Campus's own release of 11 Nov 2025 read: Microsoft's president announced USD 10bn at the Web Summit 2025 opening; second primary source (Microsoft's own page still unread)",
+    "23:13 wake: inbox drained (empty); the 2025 Opening Night page does not list Microsoft's president (discrepancy with Start Campus's release carried into the wording rule); the 2026 schedule page shows only highlights, no cloud session in the part read"
   ],
   "next": [
-    "Microsoft's own page for the announcement",
+    "Microsoft's own page for the announcement (and any transcript of the 2025 opening)",
     "Lisbon and Porto hubs via city councils' pages",
-    "repeat the partners and speakers reads nearer the summit; check the 2026 opening-night line-up"
+    "2026 session pages: find the opening night and any session naming the three clouds",
+    "hand-over debrief refresh before 24:00 UTC (done at 19:30; add Start Campus finding)"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Portugal ecosystem (beyond Algarve), then people with a named yes, then past summits",
