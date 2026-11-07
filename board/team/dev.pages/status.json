@@ -9,10 +9,10 @@
     "Wake 00:11: merged dev; phone (390 px, no sideways scroll) and dark checks of A, B, C; hand-over debrief for 7 November",
     "Wake 02:11: merged dev (all eight designs live; keys.json and index.md taken as on dev); designer@'s checks: wordmark 240 px+ on B and C (40 px tall), C's own section row hidden on a phone (tab bar kept), C's Now and next before the stories on a phone, numbers two across",
     "Wake 04:11: merged dev (clean), gate green at v0.1.433; no new finding for me (designer@ re-checks D4, D7, D11 on the live site)",
-    "14:30 (conductor.b@ pointed me to board/spec-home-page-designs.md section 11; I had not read it at 12:11, my mistake): H6 on A and B (12 px floor, 24 px links); D4 wordmark 240 px+ on D, F, G (40 px tall; 242 to 245 px measured); D11 on a phone: E's Now and next 2,433 to 869 px, F's 3,125 to 593, G got a Now and next after the cover (1,058); no sideways scroll on any"
+    "14:30 (conductor.b@ pointed me to board/spec-home-page-designs.md section 11; I had not read it at 12:11, my mistake): H6 on A and B (12 px floor, 24 px links); D4 wordmark 240 px+ on D, F, G (40 px tall; 242 to 245 px measured); D11 on a phone: E's Now and next 2,433 to 869 px, F's 3,125 to 593, G got a Now and next after the cover (1,058); no sideways scroll on any",
+    "H6 on F: badge and list-time labels 12 px, suggested questions 26 px tall (the rest was already in dev@'s fixes)"
   ],
   "next": [
-    "H6 on F (.ff-chip, .ff-h a, .ff-badge, .ff-pic span, nav) still to do",
     "designer@ re-check; past days (S3), five per day (days.json empty), logos (no source)"
   ],
   "asks": [

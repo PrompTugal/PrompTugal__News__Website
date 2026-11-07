@@ -43,7 +43,7 @@
 .ff-lead p { font: 400 14px/1.45 var(--serif); color: var(--ink-2); margin: 0 0 6px; }
 .ff-lead mark { background: none; color: var(--brand); text-decoration: underline; text-decoration-thickness: 2px; }
 .ff-chip { display: inline-block; font: 700 12px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--brand-red); background: var(--live-soft); border-radius: 4px; padding: 2px 6px; }
-.ff-badge { display: inline-block; font: 500 11px var(--mono); color: var(--brand); border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
+.ff-badge { display: inline-block; font: 500 12px var(--mono); color: var(--brand); border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
 .ff-pic { position: relative; display: block; }
 .ff-pic img { display: block; width: 100%; height: auto; border: 1px solid var(--hair); border-radius: 6px; }
 .ff-pic span { position: absolute; left: 4px; bottom: 4px; font: 500 12px var(--mono); background: rgba(18, 19, 23, .78); color: #fff; padding: 1px 4px; border-radius: 3px; }
@@ -70,7 +70,7 @@
 .ff-tl { border-left: 2px solid var(--brand); padding-left: 12px !important; }
 .ff-tl li { position: relative; padding: 6px 0; font: 14px/1.3 var(--serif); }
 .ff-tl li::before { content: ""; position: absolute; left: -18px; top: 11px; width: 8px; height: 8px; border-radius: 50%; background: var(--brand); }
-.ff-tl time { display: block; font: 600 11px var(--mono); color: var(--brand); }
+.ff-tl time { display: block; font: 600 12px var(--mono); color: var(--brand); }
 .ff-tl li:nth-child(n+8) { display: none; }
 @media (max-width: 1100px) { .ff-g { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .ff-side { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; } }
 @media (max-width: 760px) {
@@ -103,3 +103,4 @@
     .ff-g { display: flex; flex-direction: column; } .ff-side { display: contents; }
     .ff-side .ff-box:nth-child(2) { order: -1; margin-bottom: 18px; } .ff-side .ff-box:first-child { order: 5; }
 }
+.ff-pcs a { display: inline-flex; align-items: center; min-height: 26px; }
