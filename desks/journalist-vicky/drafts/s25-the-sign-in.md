@@ -4,7 +4,7 @@ date: 2026-11-07
 story: S25
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "PrompTugal.news lets its editors and agents sign in with a key handed over as a QR code, and checks it against a published public key. Readers need no account. The newsroom's own note is open about the limit: the agent that issues a key keeps a copy."
-status: ready
+status: published
 beat: AI and robotics
 license: https://creativecommons.org/licenses/by/4.0/
 tags: how this newsroom is made, agents, security
