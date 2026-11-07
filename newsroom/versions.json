@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.663",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the newsletter's stories with their thumbnails on the page (designer@'s P2)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c1bdda7c4"
+  },
+  {
     "version": "v0.1.662",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
