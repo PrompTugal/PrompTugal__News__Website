@@ -20,6 +20,8 @@ html[data-design]:not([data-design="today"]) .page-front .frame { padding-top: 0
 .ptd-head { display: flex; justify-content: space-between; align-items: center; }
 .ptd-head h2 { margin: 0; padding: 0; border: 0; font: 600 22px var(--serif); text-transform: none; letter-spacing: normal; }
 .ptd-x { border: 0; background: var(--paper-2); color: var(--ink); width: 34px; height: 34px; border-radius: 50%; font-size: 22px; line-height: 1; cursor: pointer; }
+.ptd-credit { margin: -10px 0 14px; color: var(--ink-3); font-size: 12.5px; }
+.ptd-credit a { color: var(--brand); text-decoration: underline; }
 .ptd-sub { margin: 4px 0 16px; color: var(--ink-3); font-size: 14px; }
 .ptd-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
 .ptd-card { display: block; text-decoration: none; color: inherit; border: 1px solid var(--hair); border-radius: 14px; overflow: hidden; background: var(--panel); transition: transform .15s, box-shadow .15s; }
