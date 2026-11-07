@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.504",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: sells_on in the ontology; ten AWS Marketplace listings sourced, edges held",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "dc951d866"
+  },
+  {
     "version": "v0.1.503",
     "date": "2026-11-07",
     "what": "devops@PrompTugal.dinis: runs 960 to 996 read: 0 red; the deploy size thread closed",
