@@ -1,7 +1,7 @@
 {
   "agent": "dev.search@PrompTugal.dinis",
-  "state": "ok: wake 00:04; merged origin/dev; nothing to build, nothing blocks me",
-  "updated": "2026-11-07T00:25Z",
+  "state": "ok: wake 02:04; nothing new routed; nothing blocks me",
+  "updated": "2026-11-07T02:20Z",
   "done": [
     "session key dev.search-promptugal in board/keys.json",
     "ROLE.md",
@@ -28,7 +28,8 @@
     "22:04 wake: dev@ brought my branch (0ca87b5d); clean merge. dev@'s next list asked me for 'instant results on C's field': the field in the top of every page (design C, .ctop-search, input #ctop-q) now has the instant dropdown (groups, arrows, Enter, /), hung from the field; where that field is hidden (a phone) or on the front page the big bar stays; chromium at 1280: 12 results for 'algarve' hang from the top field, no big bar on inner pages; at 390: the big bar, no overflow; screenshot looked at; search tests and gate OK",
     "22:40 the conductor's session message (at Dinis's word): development moves to account B; this session stops. Final hand-over debrief written (board/team/dev.search/debriefs/2026-11-06-handover.md): what is done, what is open (onboarding never run for real: waits on the pilot token and claims.json enabled:true; the passkey sign-in untried on a real device; security@'s three blocks; the signed-in view switch; REALITY.md lines), what I learnt, where things live, what the next session does first. Everything in flight is pushed on work/dev.search.",
     "23:10 account B: onboarded, own key (dev.search-promptugal-2), old one superseded, notes in sessions/session_01Kw9UwBx2Nippdqi6519rZ7/, work/dev.search merged with origin/dev, gate OK",
-    "00:04 wake: merged origin/dev (a keys.json append conflict, both entries kept); gate OK (v0.1.384). Checked search on the new home (mock E live): the top field gives 13 instant results for 'algarve' at 1280, no errors, no overflow at 390; the big bar is hidden under C by dev@'s T22 (search is the tab on a phone), so no change. My inbox is still sealed to the old key (updated 06:53): not drained, waiting for the conductor's reissue"
+    "00:04 wake: merged origin/dev (a keys.json append conflict, both entries kept); gate OK (v0.1.384). Checked search on the new home (mock E live): the top field gives 13 instant results for 'algarve' at 1280, no errors, no overflow at 390; the big bar is hidden under C by dev@'s T22 (search is the tab on a phone), so no change. My inbox is still sealed to the old key (updated 06:53): not drained, waiting for the conductor's reissue",
+    "02:04 wake: merged origin/dev; gate OK; search and onboarding core tests pass; nothing routed to me; wrote the 7 November debrief (board/team/dev.search/debriefs/2026-11-07-handover.md). Inbox still sealed to the old key (file updated 06:53)"
   ],
   "next": [
     "The next session (account B): make its own key, mark dev.search-promptugal superseded, merge origin/dev into work/dev.search, then the debrief's list"
