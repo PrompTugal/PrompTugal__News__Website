@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.473",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 08:05: 33 commits clean, S27 closed, S28 to dev@, S25 narrowed (Vicky's agents already hold keys)",
+    "by": "security@PrompTugal.dinis",
+    "from": "45281d9c4"
+  },
+  {
     "version": "v0.1.472",
     "date": "2026-11-07",
     "what": "conductor@PrompTugal.dinis: wake 07:52: the first newsletter edition",
