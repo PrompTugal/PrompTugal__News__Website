@@ -11,17 +11,16 @@ path: newsroom/synthetic.html
 ::: nv
 ### The fixes
 
-52 fixes sent to their owners since run 1:
+54 fixes sent to their owners since run 1:
 
 {.rows}
-- **13** open: sent, no decision yet
+- **15** open: sent, no decision yet
 - **8** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
-- **24** verified: synthetic@ measured it live
-- **1** reopened: measured not live, with evidence
+- **25** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 8, designer@ 6, conductor@ 5, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 8, designer@ 6, conductor@ 5, correspondent@ 2, ontologist@ 1, outreach@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
 :::
 ::: nv
 ### Fix first
@@ -52,7 +51,6 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 ### dev@ (8 waiting)
 
 {.rows}
-- **F01** costly, **reopened** (run 1): The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured. *Decision: dev@ marked done at 03:08 ('free credit').*
 - **F02** costly, **open** (run 1): No way to reach a person or send a correction on company pages or About ('Tell us' has no link); waits on the editors' address from Dinis. *Decision: no decision yet.*
 - **F03** costly, **open** (run 1): Company pages say the team keeps notes on 'whether to meet, who owns it': read as a sales pipeline (runs 1, 3, 4: the line that did most against). *Decision: no decision yet.*
 - **F04** costly, **open** (run 1): Company pages say 'We have not asked <company> yet', false the day the email lands. *Decision: no decision yet.*
@@ -60,6 +58,8 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F29** costly, **open** (run 5): The provenance blocks are not explained: the code box at the end has no heading (read as machine metadata, cut on the phone), and the plain-text link reads as 'only for machines'. *Decision: no decision yet.*
 - **F15** minor, **open** (run 1): 'OUR PICK' beside 'Nothing on it is an endorsement'. *Decision: no decision yet.*
 - **F17** minor, **open** (run 1): Image syntax in the content markdown, so pages can show screenshots (now: a vault gallery, F27). *Decision: no decision yet.*
+- **F53** minor, **open** (run 12): /account/ still opens with 'every page costs a few pence, charged by how much of it you read', and the bullet right after 'Nothing is charged' says 'You pay for what you read': a reader who stops at the first screen still reads a charge. *Decision: no decision yet.*
+- **F01** costly, **verified** (run 1): The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured. *Decision: done by dev@ (second round, 7 Nov ~08:00): the visible pill reads 'free credit'; /account/ says 'Nothing is charged. The credit is not money'.*
 - **F10** costly, **verified** (run 1): Phone: three articles scroll sideways (591, 429, 399 px), the tab bar hides COMPANIES and ABOUT, the Ask button covers text. *Decision: measured live: run 5 (v0.1.90): 7 of 11 articles scroll sideways on a 390 px phone (591, 591, 480, 429, 417, 405, 399 px); the agent block is cut ("oper", "instru"); run 7 (v0.1.156): Brazil story still 591 px wide on a phone; run 8: 10 of 20 articles scroll sideways on a 390 px phone; the code box runs off the edge (Ana took it for an error); run 10: all three new articles fit a 390 px phone (no sideways scroll), the first new ones that do; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): 0 of 32 articles scroll sideways on a 390 px phone; the Ask button sits in the header (static), no longer over text; the section links (Now, Agenda, News, Companies, About) are not in the first phone screen of an article: the tab-bar part not yet verified; verified 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): no article scrolls sideways (0 of 32); Ask sits in the header; the bottom bar shows Now, Agenda, News, Companies, Search, More (About under More).*
 - **F22** costly, **verified** (run 4): Flows print 'The agent: ... *Decision: measured live: 1Password page, v0.1.86: the marker reads as where an AI agent acts.*
 - **F28** costly, **verified** (run 5): 'Signed' is only a word: no article links its signature (served at articles/<slug>.md.sig) or the key (board/keys.json), or says in one line what a reader can do with it. *Decision: done by dev@ (1bcfd7a0): every article ends with a line linking its signed plain text, its .sig, board/keys.json and how we publish.*
@@ -91,10 +91,11 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F21** costly, **accepted** (run 3): Nothing says who reads PrompTugal.news or how it is funded. *Decision: accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06 (board/team/conductor/status.json).*
 - **F50** costly, **open** (run 10): Each story says 'No person read this article before it went live', while the footer of the same page says 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang'; a compliance reader cannot reconcile the two (run 10, measured on 'What our agents say to each other'). *Decision: no decision yet.*
 
-### correspondent@ (1 waiting)
+### correspondent@ (2 waiting)
 
 {.rows}
 - **F39** costly, **accepted** (run 6): C's briefing ('Before the summit, in 30 seconds') was Ana's and Miguel's favourite, but its three claims carry no source or author (Helena, Miguel), and 'Play the briefing' does not say what it plays. *Decision: accept: each briefing line is the headline of a published article and links it (so each carries that article's sources and byline); a line with no article behind it is not in the briefing. The words of the lines come from front-page.json's lead and top; the layout and the play button are designer@'s and dev@'s. (desks/correspondent/front-page.json).*
+- **F54** costly, **open** (run 12): The summit days' 'five things to plan around' are almost all press conferences: Tue 10 five of five (Stage 2, 10:30 to 14:00), Wed 11 five of five, Thu 12 four of five. *Decision: no decision yet.*
 - **F40** minor, **verified** (run 6): Today's front page lists 'Registration: collect your lanyard and wristband' three times under the same title (the airport, Pavilhão de Portugal), which reads as a duplicate; the place belongs in the title. *Decision: accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them. (desks/correspondent/front-page.json).*
 
 ### dev.graphs@ (1 waiting)

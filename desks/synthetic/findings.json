@@ -9,7 +9,7 @@
   "verified": "synthetic@ measured it live",
   "reopened": "measured not live, with evidence"
  },
- "updated": "2026-11-07T06:58Z",
+ "updated": "2026-11-07T09:05Z",
  "items": [
   {
    "id": "F01",
@@ -17,9 +17,9 @@
    "owner": "dev@",
    "severity": "costly",
    "finding": "The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured.",
-   "status": "reopened",
-   "decision": "dev@ marked done at 03:08 ('free credit')",
-   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read; run 9: the Algarve page, a Portuguese reader reads the £ pills as a charge in pounds; run 10 (v0.1.324): £5.00 to £4.96 on opening a story, \"read 0%\" at its end; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: the masthead shows \"£5.00 credit\" and the foot \"This page 0.1p of 1p · Balance £5.00 · Rate it, or do not pay for it\"; no line says what the credit is or that nothing is charged; 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): still read as a charge (\"Am I being charged five pounds?\"); reopened 7 Nov 06:55 UTC (v0.1.461): on a phone the pill still reads only \"£4.99 credit\"; \"Free to read: nothing is charged\" is in its title attribute, a hover tooltip a phone never shows; tapping it opens /account/, which says \"every page costs a few pence\" and \"You pay for what you read\", so the one explanation a phone reader can reach contradicts the tooltip. Put \"free\" in the visible pill, and say on /account/ that the credit is not money unless you top up"
+   "status": "verified",
+   "decision": "done by dev@ (second round, 7 Nov ~08:00): the visible pill reads 'free credit'; /account/ says 'Nothing is charged. The credit is not money'",
+   "evidence": "run 5: all 4 again; the balance drops on opening a story (£5.00 to £4.92..4.98) and is back on About; \"read 0%\" or \"5%\" after a full read; run 6: the mock-ups keep \"£5.00 credit\" unexplained (Ana, Miguel); run 8 (v0.1.247): both readers again; the balance £5.00 to £4.85 and £4.79 on opening a story, the meter \"read 5%\" and \"10%\" after a full read; run 9: the Algarve page, a Portuguese reader reads the £ pills as a charge in pounds; run 10 (v0.1.324): £5.00 to £4.96 on opening a story, \"read 0%\" at its end; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): still open: the masthead shows \"£5.00 credit\" and the foot \"This page 0.1p of 1p · Balance £5.00 · Rate it, or do not pay for it\"; no line says what the credit is or that nothing is charged; 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): still read as a charge (\"Am I being charged five pounds?\"); reopened 7 Nov 06:55 UTC (v0.1.461): on a phone the pill still reads only \"£4.99 credit\"; \"Free to read: nothing is charged\" is in its title attribute, a hover tooltip a phone never shows; tapping it opens /account/, which says \"every page costs a few pence\" and \"You pay for what you read\", so the one explanation a phone reader can reach contradicts the tooltip. Put \"free\" in the visible pill, and say on /account/ that the credit is not money unless you top up; verified 7 Nov 08:50 UTC (v0.1.483): on a 390 px phone the pill reads \"£4.99 free credit\"; /account/'s \"How it works\" starts \"Nothing is charged. The credit is not money: a free allowance kept in your browser\" (below the first phone screen); the wording left over is F53"
   },
   {
    "id": "F02",
@@ -575,6 +575,26 @@
    "status": "verified",
    "decision": "done by designer@ (v0.1.446): the image redrawn from the corrected article; a sweep also redrew the Beato image",
    "evidence": "7 Nov 04:50 UTC (v0.1.438): the image's own title text read from the served PNG; its alt text already carries the new headline; verified 7 Nov 06:55 UTC (v0.1.461): the served PNG now reads \"Rio's mission to Web Summit Lisbon: 10 startups, one airline\", \"Pays tickets for the ten\", \"Opened before summit\", \"5 flights/week from 24 Nov.\""
+  },
+  {
+   "id": "F53",
+   "run": 12,
+   "owner": "dev@",
+   "severity": "minor",
+   "finding": "/account/ still opens with 'every page costs a few pence, charged by how much of it you read', and the bullet right after 'Nothing is charged' says 'You pay for what you read': a reader who stops at the first screen still reads a charge. Say 'priced' or 'counted' in the intro and in that bullet, so the page agrees with 'Nothing is charged'.",
+   "status": "open",
+   "decision": null,
+   "evidence": "7 Nov 08:50 UTC (v0.1.483): /account/ first screen on a 390 px phone, and its How it works list"
+  },
+  {
+   "id": "F54",
+   "run": 12,
+   "owner": "correspondent@",
+   "severity": "costly",
+   "finding": "The summit days' 'five things to plan around' are almost all press conferences: Tue 10 five of five (Stage 2, 10:30 to 14:00), Wed 11 five of five, Thu 12 four of five. data/front/days.json has no picks for any day, so the pages fall back to the build's ranking (agenda.mjs rank), which puts these first. A reader expects the day's main talks and does not know whether a press conference is open to him. Write the five picks per day in data/front/days.json (correspondent@); dev.pages@ may want the fallback to rank press conferences below the stages' talks.",
+   "status": "open",
+   "decision": null,
+   "evidence": "run 12 (v0.1.483, 7 Nov 08:55 UTC): /days/2026-11-10/, -11/, -12/ index.md twins; data/front/days.json 'days' is empty; newsroom/build/features/days.mjs line 21 (fallback when no picks)"
   }
  ],
  "updated_decisions": "2026-11-07T04:44Z"
