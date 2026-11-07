@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.467",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "15bb5c91f"
+  },
+  {
     "version": "v0.1.466",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 07:07 wake: account B quiet; the published tree's size with dev@",
