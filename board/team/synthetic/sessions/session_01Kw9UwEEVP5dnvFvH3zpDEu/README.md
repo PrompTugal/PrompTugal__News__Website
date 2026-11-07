@@ -22,3 +22,4 @@
 - 14:45 wake: dev@'s message (F55); F55 verified; run 14 (Marta, desktop): F57 (filter.js twice).
 - 16:44 wake: ontologist@'s 2 messages (F13); F13 partly live; run 15 (Hugo, phone): F58; debrief refreshed.
 - 18:44 wake: ontologist@'s message (F13); nothing verified; run 16 (Inês, phone, /graph/): F59.
+- 20:45 wake: inbox empty; open rows unchanged; run 17 (the evening edition): F60, F61.
