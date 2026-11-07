@@ -26,7 +26,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-944 cards (944 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T18:59:06Z at site v0.1.613; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+946 cards (946 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T21:58:27Z at site v0.1.644; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -38,8 +38,8 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `GEN.README` | 1 |
 | `WRK.BRIEF` | 28 |
 | `WRK.DEC` | 12 |
-| `WRK.DESK` | 14 |
-| `WRK.FIND` | 166 |
+| `WRK.DESK` | 15 |
+| `WRK.FIND` | 167 |
 | `WRK.PASS` | 29 |
 | `WRK.PLAN` | 29 |
 | `WRK.STORY` | 4 |
@@ -47,11 +47,11 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 
 Newest five accessions:
 
+- `ACC-20261107-1902` [Taps and motion on a phone (21:35, v0.1.640): reduced motion respected; the explorer says how to use it. X1 (rank 1 for the graphs) a tap fills a good company…](https://promptugal.news/board/passes/2026-11-06-the-big-graphs.md) (`WRK.FIND 2026-11-06-the-big-graphs-3`)
+- `ACC-20261107-1901` [Jose's writer desk](https://promptugal.news/desks/writer-jose/README.md) (`WRK.DESK writer-jose`)
 - `ACC-20261107-1833` [First review, the seven pictures and /graph/ on a phone and a desktop (18:35, v0.1.606): keep the words under every picture (one sentence with the numbers,…](https://promptugal.news/board/passes/2026-11-06-the-big-graphs.md) (`WRK.FIND 2026-11-06-the-big-graphs-2`)
 - `ACC-20261107-0791` [Row 4 re-measured (15:35, v0.1.572): O6 and O1 done (Agenda, its event pages, News, Companies open offline with the copy's time); O4 done ('kept' beside kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) (`WRK.FIND 2026-11-06-offline-mode-9`)
 - `ACC-20261107-0625` [Row 4 re-measured after round 2 (12:35, v0.1.532): O2 (query addresses) and O3 (the offline page) done. O6 (rank 1): the tab pages and 80+ event pages are…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) (`WRK.FIND 2026-11-06-offline-mode-8`)
-- `ACC-20261107-0624` [2026-11-07T1052Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-07T1052Z-then-and-now.jpg) (`WRK.BRIEF 2026-11-07T1052Z-then-and-now`)
-- `ACC-20261107-0623` [2026-11-07T1052Z-phone.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-07T1052Z-phone.jpg) (`WRK.BRIEF 2026-11-07T1052Z-phone`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

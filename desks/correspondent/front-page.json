@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-07T18:50Z",
+  "updated": "2026-11-07T20:55Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "plan-your-week-by-field",
@@ -203,9 +203,12 @@
         "day": "Monday 9 November",
         "phase": "Opening Night",
         "know": "Opening Night 18:00 to 20:00; the delegations' meet and greets (UK, Iberia) from 20:00; registration all day.",
-        "lead": "what to expect from the summit: the stages, the themes, the delegations",
+        "lead": "plan-your-week-by-field until Monday evening (the planning piece still serves on Opening Night day); from about 20:00 UTC the Tuesday guide, tuesday-10-november-three-ways-in, leads for the first summit day",
         "also": [
-          "now and next moves to the top from today"
+          "driving-to-web-summit",
+          "your-first-day-at-web-summit",
+          "tuesday-10-november-three-ways-in",
+          "brazil-on-the-stages"
         ]
       },
       {

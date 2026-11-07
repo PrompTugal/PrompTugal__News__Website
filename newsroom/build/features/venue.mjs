@@ -22,16 +22,20 @@ function locate(ctx, e) {
 }
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
-function svg(map, lit) {
+let W_ = {}
+function svg(map, lit, small, name, aria) {
     const { width: W, height: H } = map.frame
     const on = new Set(lit.flatMap(k => k.areas))
     const label = a => a.label === 'FIL' ? '' : `<text x="${a.c[0]}" y="${a.c[1]}" text-anchor="middle" dominant-baseline="middle" class="vn-lab">${esc(a.label)}</text>`
+    if (small) return `<svg class="venue-map venue-map-sm" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(aria).replace('{name}', esc(name))}" xmlns="http://www.w3.org/2000/svg">` +
+        `<path d="${map.river}" class="vn-river"/>` +
+        map.areas.map(a => `<path d="${a.d}" class="vn-area vn-${a.kind}${on.has(a.id) ? ' vn-on' : ''}"/>`).join('') + `</svg>`
     return `<svg class="venue-map" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="vn-t vn-d" xmlns="http://www.w3.org/2000/svg">` +
-        `<title id="vn-t">The summit's buildings in Parque das Nações</title>` +
-        `<desc id="vn-d">A stylised plan from OpenStreetMap: FIL with Pavilions 1 to 4, the MEO Arena, the Pavilhão de Portugal, Oriente station and the Vasco da Gama centre. Buildings that hold sessions in our programme are shaded. No person is shown.</desc>` +
+        `<title id="vn-t">${esc(W_.title)}</title>` +
+        `<desc id="vn-d">${esc(W_.desc)}</desc>` +
         `<path d="${map.river}" class="vn-river"/>` +
         map.streets.map(s => `<path d="${s.d}" class="vn-street"/><text x="${s.at[0]}" y="${s.at[1]}" transform="rotate(${s.angle} ${s.at[0]} ${s.at[1]})" class="vn-street-lab">${esc(s.short)}</text>`).join('') +
-        map.areas.map(a => `<path d="${a.d}" class="vn-area vn-${a.kind}${on.has(a.id) ? ' vn-on' : ''}"><title>${esc(a.label)}</title></path>`).join('') +
+        map.areas.map(a => `<path d="${a.d}" data-id="${a.id}" class="vn-area vn-${a.kind}${on.has(a.id) ? ' vn-on' : ''}"><title>${esc(a.label)}</title></path>`).join('') +
         map.areas.map(label).join('') +
         `<text x="${map.areas.find(a => a.label === 'FIL').c[0]}" y="46" text-anchor="middle" class="vn-lab vn-lab-big">FIL</text></svg>`
 }
@@ -50,13 +54,46 @@ export const fill = {
     },
 }
 export function decorate(page, ctx) {
+    W_ = WORDS(ctx)
+    if (EVENT.test(page.rel)) return decorateEvent(page, ctx)
     if (page.rel !== PAGE) return
     const map = mapData(ctx), { by } = litOf(ctx), lit = ROWS.filter(([k]) => by(k).length).map(([k, p]) => AT[p])
     const prev = page.postHtml
-    page.postHtml = html => { const h = html.replace(`<p>${TOKEN}</p>`, `<figure class="venue-fig">${svg(map, lit)}</figure>`); return prev ? prev(h) : h }
+    page.postHtml = html => { const h = html.replace(`<p>${TOKEN}</p>`, `<figure class="venue-fig">${svg(map, lit)}</figure>${myDay(ctx, page)}`); return prev ? prev(h) : h }
 }
 
-export const assets = { css: ['assets/venue/venue.css'] }
+// "My day on the map" (B1 item 3): a hidden block that assets/venue/venue.js fills from the reader's own picks. The page
+// carries the programme's places as JSON (event id to building), the one thing the script needs; no person, no network.
+function myDay(ctx, page) {
+    const w = JSON.parse(fs.readFileSync(ctx.R('assets/venue/my-day.json'), 'utf8')), events = {}, areas = {}
+    for (const [k, p] of ROWS) areas[k] = AT[p].areas
+    for (const e of ctx.store.events || []) {
+        if (!e.date || e.date < '2026-11-06' || e.date > '2026-11-13') continue
+        const at = locate(ctx, e), id = e.id.replace(/^event:/, '')
+        const b = at ? (at.key === 'campus' ? JSON.parse(fs.readFileSync(ctx.R('assets/venue/where-is-it.json'), 'utf8')).campus : ctx.store.get(ROWS.find(r => r[0] === at.key)[1]).name) : ''
+        events[id] = { n: e.title || id, d: e.date, t: e.time || '', k: at ? at.key : '', b, u: ctx.link(page.rel, `events/${id}/index.html`).replace(/index\.md$/, 'index.html') }
+    }
+    const json = JSON.stringify({ events, areas, words: w }).replace(/</g, '\\u003c')
+    const link = ctx.link(page.rel, 'my-day/index.html').replace(/index\.md$/, 'index.html')
+    return w.html.replace('{heading}', esc(w.heading)).replace('{intro}', w.intro.replace('{link}', link)).replace('{json}', () => json)
+}
+
+// "Where is it?" (B1 item 2): on an event page of the 2026 programme, its building picked out on a small copy of the map.
+// A stage with no known building (and any event outside 6 to 13 November 2026) gets no map: never guessed.
+const WORDS = ctx => JSON.parse(fs.readFileSync(ctx.R('assets/venue/where-is-it.json'), 'utf8'))
+const EVENT = /^events\/[^/]+\/index\.html$/
+export function decorateEvent(page, ctx) {
+    const e = ctx.store.get(`event:${page.rel.split('/')[1]}`)
+    if (!e || !e.date || e.date < '2026-11-06' || e.date > '2026-11-13') return
+    const at = locate(ctx, e)
+    if (!at) return
+    const w = WORDS(ctx), name = at.key === 'campus' ? w.campus : ctx.store.get(ROWS.find(r => r[0] === at.key)[1]).name
+    const fill = t => t.replace('{name}', esc(name)).replace('{link}', ctx.link(page.rel, PAGE).replace(/index\.md$/, 'index.html'))
+    const fig = `<figure class="venue-fig venue-fig-sm" id="where-is-it"><figcaption>${fill(w.caption)}</figcaption>${svg(mapData(ctx), [at], true, name, w.aria)}</figure>`
+    const prev = page.postHtml
+    page.postHtml = html => { const h = html.replace('</table>', () => '</table>' + fig); return prev ? prev(h) : h }
+}
+export const assets = { css: ['assets/venue/venue.css'], js: ['assets/venue/venue.js'] }
 export const llms = ctx => `## Venue map\n- [summit/venue/](${ctx.BASE}summit/venue/index.md): the summit's buildings in Parque das Nações, from OpenStreetMap, and the sessions our programme puts in each. No people on it.`
 
 export function validate(gate) {
@@ -65,6 +102,22 @@ export function validate(gate) {
     if (/<svg[\s\S]*?<\/svg>/.test(page) && /<(script|a\b|foreignObject)|\son[a-z]+=/i.test(page.match(/<svg[\s\S]*?<\/svg>/)[0])) out.push('summit/venue/: the drawing holds a script, link or handler; it is plain shapes')
     if (!/<svg/.test(page)) out.push('summit/venue/: the drawing is missing')
     if (/"(person|people|zone|vault|lat|lon|pin)"\s*:/.test(j.replace(/"frame":\{[^}]*\}/, ''))) out.push('assets/venue/venue-map.json: holds a person, zone, vault or pin; the public map has none')
+    let n = 0
+    for (const d of fs.readdirSync(gate.R('events'))) {
+        const f = `events/${d}/index.html`
+        if (!fs.existsSync(gate.R(f))) continue
+        const h = gate.text(f), m = h.match(/<figure class="venue-fig venue-fig-sm"[\s\S]*?<\/figure>/)
+        if (!m) continue
+        n++
+        if (!/OpenStreetMap/.test(m[0]) || !/ODbL/.test(m[0])) out.push(`${f}: map: no attribution`)
+        if (/<(script|foreignObject)|\son[a-z]+=/i.test(m[0])) out.push(`${f}: map: script`)
+    }
+    if (!n) out.push('events/: no map')
+    const js = gate.text('assets/venue/venue.js')
+    if (/fetch\(|XMLHttpRequest|sendBeacon|WebSocket|EventSource|importScripts/.test(js)) out.push('assets/venue/venue.js: network call')
+    if (/—/.test(js)) out.push('assets/venue/venue.js: an em-dash')
+    if (!/id="vn-data"/.test(page)) out.push('summit/venue/: no data block')
+    else if (/"(person|people|zone|vault|lat|lon|pin)"\s*:/.test(page.match(/id="vn-data">([\s\S]*?)<\/script>/)[1])) out.push('summit/venue/: data block holds a person')
     if (/—/.test(j)) out.push('assets/venue/venue-map.json: an em-dash')
     return out
 }

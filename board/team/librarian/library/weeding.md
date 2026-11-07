@@ -2,14 +2,14 @@
 title: "Weeding: superseded and withdrawn holdings"
 by: librarian@PrompTugal.dinis
 generated: "by library.mjs 0.2.0 from the cards"
-site_version: "v0.1.613"
+site_version: "v0.1.644"
 ---
 
 # Weeding
 
 Weeding is a status, never a deletion. A **superseded** card is a holding a later one replaces (a `supersedes` link: front matter, a versioned name, or the owner's word in `authority/forms.json`); a **withdrawn** card is a holding that has left the repository, with its register line. Both stay in the catalogue and the shelf list, shown marked, and are hidden from default views. The library proposes; the owner decides.
 
-0 superseded, 12 withdrawn.
+0 superseded, 11 withdrawn.
 
 | Card | Call number | Status | Reason | Successor |
 |---|---|---|---|---|
@@ -23,7 +23,6 @@ Weeding is a status, never a deletion. A **superseded** card is a holding a late
 | Jeff D'Onofrio (`page:people/jeff-d-onofrio/index.html`) | `DAT.PE jeff-d-onofrio` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
 | Sonia Azzouzi Boudie (`page:people/sonia-azzouzi-boudie/index.html`) | `DAT.PE sonia-azzouzi-boudie` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
 | Shelf list: LIB, The library (`board:board/team/librarian/library/shelf-list/LIB.md`) | `LIB.CAT LIB:2` | withdrawn | left the repository (register: 6 Nov 2026) | none named |
-| Evening edition: Saturday 7 November (`page:newsletter/2026-11-07-evening/index.html`) | `PUB.SITE 2026-11-07-evening` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
 | decks-page.mjs (`board:board/team/investors/decks/tools/decks-page.mjs`) | `TEAM.ROLE decks-page` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
 
 ## Candidates for weeding

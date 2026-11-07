@@ -73,3 +73,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 19:21 wake
 - Inbox empty; dev.pages rows not yet. Startup Portugal updated from researcher@ round 1, re-checked: R2WS 78; stand P1 S145; own-words what ("agency" was ours, not theirs).
+
+## 20:21 wake
+- Inbox empty; dev.pages rows not yet. Organisations iapmei, portugal-ventures, turismo-de-portugal, lisboa-municipality (hand, sourced). AI2 not added.
+
+## 21:21 wake
+- Inbox: synthetic@ (F60), dev.data@ (S9 verbs); both keys active. Declared attends, sends_delegation_to, funds. all_day: schema const true + derive pass-through; no agenda item has it yet. Told programme-vicky, dev.pages-b, synthetic, dev.data.
