@@ -1,8 +1,8 @@
 {
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
-  "state": "running on account B; phase two: eight decks in English and European Portuguese; waiting on Dinis for the web player",
-  "updated": "2026-11-07T13:30Z",
+  "state": "running on account B; nine decks in four languages (EN, PT, ES, FR) as slides in the player and PDFs; outreach page live",
+  "updated": "2026-11-07T16:30Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -30,12 +30,14 @@
     "Phase two (Dinis, 12:15 to 12:40 UTC): decks refactored to layout plus words per language; all eight in European Portuguese; deck 4 (Algarve, Portugal, Europe; 21 partners), deck 5 (seed under $1M, two phases, three questions), deck 8 (the moat is decisions; copy us); /investors/partners/; the pitch page with the round and the phases",
     "12:23 wake: the outreach pack for outreach@ (board/team/investors/outreach-pack.md: who gets which deck, EN and PT opening lines, rules); the Portuguese PDFs checked live",
     "Dinis (12:50): prices in euros across the decks and pages; Dinis named organiser and driver of the OWASP Summits and the Open Security Summit; six decks bumped (1 v1.2, 2 v1.3, 3 v1.2, 4 v1.3, 7 v1.1, 8 v1.2), EN and PT; customers@ and dev@ asked to move the live top-up to euros",
-    "Dinis (13:10): 'Yes please build them': the deck player (deck.js: one slide fitted, decks and languages, keys, swipe, full screen, PDF, all slides) and every deck as a page in English and Portuguese (/investors/decks/<name>/ and /pt/), dev@'s features/decks.mjs updated for templates plus words, for dev@'s review; payments by The Cyber Boardroom in pounds are fine (Dinis)"
+    "Dinis (13:10): 'Yes please build them': the deck player (deck.js: one slide fitted, decks and languages, keys, swipe, full screen, PDF, all slides) and every deck as a page in English and Portuguese (/investors/decks/<name>/ and /pt/), dev@'s features/decks.mjs updated for templates plus words, for dev@'s review; payments by The Cyber Boardroom in pounds are fine (Dinis)",
+    "Afternoon: deck 9 (an animated guided tour of what is live); the player and every deck as a page; /investors/outreach/ with sample notes; Spanish and French for all nine decks (each checked and reviewed); deck 2's legend translatable; the decks table generated from what exists"
   ],
   "next": [
-    "The live tour (deck 9): an animated guided tour of what is live, zooming, pointing, squares and arrows",
-    "Four languages, then ten",
-    "Outreach list for outreach@ (Dinis)"
+    "German and the rest of the ten EU languages, on Dinis's word",
+    "Synthetic investors run 2 on decks 5 to 9",
+    "Re-shoot the tour as the site changes; keep the decks current",
+    "The first outreach list (Dinis), drafted by outreach@"
   ],
   "asks": [
     "Dinis: the address of your Gen ZX founders book and presentation (not found on sgit.ai or its network; genzx.sgit.ai does not resolve)",
