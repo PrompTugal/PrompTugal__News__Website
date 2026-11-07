@@ -54,6 +54,7 @@ Sebrae says 12 Brazilian states run missions of their own to this year's summit,
 - Correio da Manhã, 25 October 2026: https://www.correiodamanha.com.br/rio-de-janeiro/2026/10/amp/329679-invest-rio-firma-parceria-para-levar-dez-startups-cariocas-ao-web-summit-lisboa.html (read 6 November 2026; it gives the summit's dates as 8 to 12 November, where the other two and Web Summit say 9 to 12)
 - Web Summit, each startup's LIS26 page, linked in the table (read 7 November 2026)
 - Each startup's own website, linked in the table (read 6 November 2026; Paralelo.app's and Lucca's, which Web Summit's pages name, read 7 November 2026)
+- Web Summit, the Startup Showcase sessions: "Revolutionising retail" (Bizuu), 12 November, 14:00, Stage 12, <https://websummit.com/sessions/lis26/0c8b27a1-ab51-4bfb-bd44-bc6f9d8f0ab7/revolutionising-retail/>; "Medtech revolution" (AllPetSenior), 12 November, 14:00, Stage 6, <https://websummit.com/sessions/lis26/c8e00053-cf25-4c0a-9147-cb61936c3b64/medtech-revolution/> (both read 7 November 2026)
 
 ## Who made this
 

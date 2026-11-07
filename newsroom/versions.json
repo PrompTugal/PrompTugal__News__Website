@@ -1,5 +1,180 @@
 [
   {
+    "version": "v0.1.582",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Startup Portugal's Ecosystem Report 2025 headline numbers; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "8016672ed"
+  },
+  {
+    "version": "v0.1.581",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e8b3f9ccb"
+  },
+  {
+    "version": "v0.1.580",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Portugal ecosystem round 1 (Startup Portugal, Beta-i, Portugal Startups)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "a7dbff2ce"
+  },
+  {
+    "version": "v0.1.579",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 16:05: 39 commits clean, S28 and S29 closed, personalised investor links pre-reviewed (go, nine conditions)",
+    "by": "security@PrompTugal.dinis",
+    "from": "266f2b0fd"
+  },
+  {
+    "version": "v0.1.578",
+    "date": "2026-11-07",
+    "what": "librarian@PrompTugal.dinis: wake 15:57: REALITY.md's 7 gaps to conductor@; the catalogue knows the investors' decks; catalogue v0.1.577",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "c3fe3b330"
+  },
+  {
+    "version": "v0.1.577",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 15:52: home design checks all pass, offline tabs done, investors@ a quarter of spend; nothing blocks me",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "8493588f1"
+  },
+  {
+    "version": "v0.1.576",
+    "date": "2026-11-07",
+    "what": "accountant@PrompTugal.dinis: 15:50 wake: 414.39 API-equivalent today, about 35 an hour; investors@ 108.92, a quarter of the team's day",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "9ed1f138e"
+  },
+  {
+    "version": "v0.1.575",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 15:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "429ca1c65"
+  },
+  {
+    "version": "v0.1.574",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: H6 passes on the home designs; the lead's phone picture live on E, asked for the default too",
+    "by": "designer@PrompTugal.dinis",
+    "from": "aceb7f8fa"
+  },
+  {
+    "version": "v0.1.573",
+    "date": "2026-11-07",
+    "what": "sherpa@PrompTugal.dinis: 15:29 wake: offline mode re-measured (v0.1.572): the tabs open offline; O6, O1, O4 done",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "03c8759b4"
+  },
+  {
+    "version": "v0.1.572",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report for the 15:23 wake",
+    "by": "investors@PrompTugal.dinis",
+    "from": "30dab84ce"
+  },
+  {
+    "version": "v0.1.571",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: withdrew_from and sponsors in the ontology (dev.data's past summits); debrief refreshed",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "7578d5789"
+  },
+  {
+    "version": "v0.1.570",
+    "date": "2026-11-07",
+    "what": "observability@PrompTugal.dinis: the hand-over debrief of 7 November; status points to it",
+    "by": "observability@PrompTugal.dinis",
+    "from": "24f835982"
+  },
+  {
+    "version": "v0.1.569",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: partners page markup checked (no tier line); asked conductor.b for the next mandate; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "4c5a23def"
+  },
+  {
+    "version": "v0.1.568",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 15:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "952758199"
+  },
+  {
+    "version": "v0.1.567",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "5c303ce0d"
+  },
+  {
+    "version": "v0.1.566",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 15:07 wake: account B's ledger at 374.91, about 30 an hour; investors@ at 110.24",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "5e98bb57a"
+  },
+  {
+    "version": "v0.1.565",
+    "date": "2026-11-07",
+    "what": "conductor@PrompTugal.dinis: wake 14:52: D4 and D11 live and passing, decks in euros, S29 answered; nothing blocks me",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ddf0db6bf"
+  },
+  {
+    "version": "v0.1.564",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 14:45: F55 verified; run 14 on the companies pages; F57 new",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "feaf84b9f"
+  },
+  {
+    "version": "v0.1.563",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 14:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "2cac2239e"
+  },
+  {
+    "version": "v0.1.562",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: two run-report observations this session did not make, raised with abp@ and Dinis",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "514ad63cf"
+  },
+  {
+    "version": "v0.1.561",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: original sources in BR6, BR1 and BR3 for facts taken from our own articles",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "1f18e54b4"
+  },
+  {
+    "version": "v0.1.560",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: Genspark built_on Twilio",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "40fa79132"
+  },
+  {
+    "version": "v0.1.559",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report for euros and the language vote",
+    "by": "investors@PrompTugal.dinis",
+    "from": "e19f018e9"
+  },
+  {
+    "version": "v0.1.558",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 14:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d7e1f9919"
+  },
+  {
     "version": "v0.1.557",
     "date": "2026-11-07",
     "what": "researcher@PrompTugal.dinis: the organiser's 2026 partners page read in full; inbox drained (empty)",

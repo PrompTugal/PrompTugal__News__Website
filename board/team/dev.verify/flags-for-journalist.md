@@ -1,6 +1,6 @@
-# Verification flags for journalist@ (dev.verify@, 2026-11-07, 12:54 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-07, 14:57 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 32 articles checked, 342 claims, 218 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+A flag is a prompt to re-read the source, not a finding of error. 33 articles checked, 354 claims, 224 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
 
 ## agent-setup-guide: 3/12 supported by all
 - c1: The Microsoft and GitHub feature names were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
@@ -24,8 +24,11 @@ A flag is a prompt to re-read the source, not a finding of error. 32 articles ch
 
 ## brazil-comes-to-lisbon-intuitivo-heads-to-brazil: 10/10 supported by all
 
-## brazil-last-year-counts: 11/12 supported by all
-- c11: Public figures for Brazil's 2026 Web Summit delegation range from 100 to about 300. (exaggerated / unsupported / unsupported)
+## brazil-last-year-counts: 8/12 supported by all
+- c2: Public figures for Brazil's 2025 Web Summit delegation range from 151 to "almost 380". (partly / unsupported / partly)
+- c10: Before Web Summit 2023, ApexBrasil planned a record of 85 startups and 100 companies, as reported by Forbes Portugal on 7 November 2023. (error / error / error)
+- c11: In 2024, 226 startups were selected by ApexBrasil and Sebrae for Brazil's Web Summit delegation, according to Startups.com.br on 3 November 2025. (error / error / error)
+- c12: For 2026, the estimated size of Brazil's Web Summit delegation ranges from 100 to about 300. (error / error / error)
 
 ## brazil-on-the-stages: 6/10 supported by all
 - c1: A search of Web Summit's public session pages found 27 Brazil-tied speakers. (partly / supported / supported)
@@ -38,12 +41,11 @@ A flag is a prompt to re-read the source, not a finding of error. 32 articles ch
 - c8: Public estimates of the 2026 delegation size run from 100 to about 300. (supported / partly / supported)
 - c10: Four hubs and one national pick are named as part of the delegation, along with two officials on Web Summit's stages. (unsupported / partly / partly)
 
-## brazils-doors-into-europe: 7/12 supported by all
-- c6: ApexBrasil's Lisbon startup incubator, run with Sebrae, named its first class of ten startups at Web Summit 2025. (contradicted / unsupported / unsupported)
-- c7: The next class of the ApexBrasil and Sebrae Lisbon incubator is due to be announced at the Brazil Pavilion on 10 November. (unsupported / unsupported / unsupported)
-- c10: Brazilian venture capital totalled US$2.135 billion in 2024 across 386 deals, according to ApexBrasil's own survey as reported by Brasil 61. (partly / supported / supported)
-- c11: Invest.Rio and Maravalley are bringing ten Rio de Janeiro startups to this year's Web Summit. (unsupported / unsupported / unsupported)
-- c12: Gol has opened its first intercontinental route, from Rio de Janeiro to Lisbon. (unsupported / unsupported / unsupported)
+## brazils-doors-into-europe: 8/12 supported by all
+- c4: In November 2024, Brazil's ambassador to Portugal, Raimundo Carreiro Silva, wrote in DN that Porto Digital Europa had chosen Aveiro's innovation hub and already had ten companies on board. (partly / exaggerated / partly)
+- c8: ApexBrasil reports Brazil's ecosystem as 13,000 startups, more than 120 venture capital funds, more than 250 innovation hubs and more than 30 unicorns. (supported / partly / partly)
+- c10: The ApexBrasil and Sebrae Lisbon incubator's first class of ten startups was named at Web Summit 2025, and its 2027 class is due to be announced at the Brazil Pavilion on 10 November. (partly / partly / partly)
+- c11: Brazil's pavilion at Web Summit lasts three days. (unsupported / unsupported / unsupported)
 
 ## brazils-startup-house-in-lisbon: 6/10 supported by all
 - c2: The first class had ten startups. (partly / supported / supported)
@@ -142,6 +144,12 @@ A flag is a prompt to re-read the source, not a finding of error. 32 articles ch
 ## road-2-web-summit-2026: 8/10 supported by all
 - c6: The 2026 winner is announced at a press conference on Thursday 12 November at 12:30 on Stage 2. (partly / exaggerated / partly)
 - c10: Framedrop.ai, from Coimbra, and Deeploy won the prizes in 2024. (contradicted / unsupported / unsupported)
+
+## the-sign-in: 8/12 supported by all
+- c2: The source note was read on 7 November 2026. (unsupported / unsupported / unsupported)
+- c5: The observability page opens the vault keys sealed to Dinis Cruz. (supported / partly / supported)
+- c10: The sign-in note's diagram shows six steps from a key issued by the conductor to 'signed in'. (unsupported / unsupported / unsupported)
+- c11: The sign-in diagram was made by journalist-ai@PrompTugal.vicky. (unsupported / unsupported / unsupported)
 
 ## tuesday-10-november-three-ways-in: 9/10 supported by all
 - c2: Henna Virkkunen, Executive Vice-President, joins a fireside chat on Centre Stage on Tuesday 10 November from 11:05 to 11:25, according to the Commission. (partly / partly / partly)

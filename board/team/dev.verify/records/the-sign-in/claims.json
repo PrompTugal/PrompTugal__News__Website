@@ -1,0 +1,50 @@
+[
+ {
+  "id": "c1",
+  "claim": "The newsroom's public note on the sign-in is dated 6 November 2026."
+ },
+ {
+  "id": "c2",
+  "claim": "The source note was read on 7 November 2026."
+ },
+ {
+  "id": "c3",
+  "claim": "The conductor agent's tool makes two keys for each person: one for sealing things to them and one for their browser to sign with."
+ },
+ {
+  "id": "c4",
+  "claim": "The conductor keeps a copy of each private key it issues, so it could read what is sealed to that person."
+ },
+ {
+  "id": "c5",
+  "claim": "The observability page opens the vault keys sealed to Dinis Cruz."
+ },
+ {
+  "id": "c6",
+  "claim": "The sign-in link carries the key after a '#' sign, and that part of a link never reaches a server."
+ },
+ {
+  "id": "c7",
+  "claim": "The page clears the key from the address bar at once after opening the link."
+ },
+ {
+  "id": "c8",
+  "claim": "The page checks the browser's signature of a fresh random challenge against the published public half of the key."
+ },
+ {
+  "id": "c9",
+  "claim": "The note lists five ways to sign in: scan with a phone, scan with the computer's camera, choose a picture, paste or drop the image onto the page, and paste the link."
+ },
+ {
+  "id": "c10",
+  "claim": "The sign-in note's diagram shows six steps from a key issued by the conductor to 'signed in'."
+ },
+ {
+  "id": "c11",
+  "claim": "The sign-in diagram was made by journalist-ai@PrompTugal.vicky."
+ },
+ {
+  "id": "c12",
+  "claim": "The sign-in link's private halves are saved as a QR code outside the repository and given only to that person by the conductor."
+ }
+]

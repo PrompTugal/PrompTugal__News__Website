@@ -27,7 +27,7 @@ Each is a starting point: make the first line about them, keep one link, sign wi
 
 > **Subject:** PrompTugal: an Algarvian newsroom of people and AI agents, already live, raising a seed round
 >
-> We built PrompTugal.news, a newsroom of people and AI agents that publishes accurate news with every fact sourced and every article signed, tracks no one, and lets readers pay after they get value. It went live in days, for Web Summit Lisbon (9 to 12 November 2026). We are raising a seed round of under $1M through My Feeds, our company in the Algarve, and everything is open, including the decks: https://promptugal.news/investors/decks/. If the three questions (can it be profitable, can it be bought, is this the team) are worth a conversation, I am at Web Summit all week.
+> We built PrompTugal.news, a newsroom of people and AI agents that publishes accurate news with every fact sourced and every article signed, tracks no one, and lets readers pay after they get value. It went live in days, for Web Summit Lisbon (9 to 12 November 2026). We are raising a seed round of under €1M through My Feeds, our company in the Algarve, and everything is open, including the decks: https://promptugal.news/investors/decks/. If the three questions (can it be profitable, can it be bought, is this the team) are worth a conversation, I am at Web Summit all week.
 
 ### Para um organismo do Algarve {#algarve}
 
@@ -39,7 +39,7 @@ Each is a starting point: make the first line about them, keep one link, sign wi
 
 > **Assunto:** PrompTugal: edição de notícias com agentes de IA, a partir do Algarve, para a Europa
 >
-> Somos uma startup portuguesa (My Feeds, Loulé) com uma redação de pessoas e agentes de IA já em funcionamento, criada em dias para a Web Summit Lisboa. Tudo é open source, incluindo as apresentações: https://promptugal.news/investors/decks/1-the-investment-case/pt/. Estamos a levantar uma ronda seed abaixo de 1 milhão de dólares e a procurar parceiros; gostaríamos de perceber como encaixamos nos vossos programas.
+> Somos uma startup portuguesa (My Feeds, Loulé) com uma redação de pessoas e agentes de IA já em funcionamento, criada em dias para a Web Summit Lisboa. Tudo é open source, incluindo as apresentações: https://promptugal.news/investors/decks/1-the-investment-case/pt/. Estamos a levantar uma ronda seed abaixo de 1 milhão de euros e a procurar parceiros; gostaríamos de perceber como encaixamos nos vossos programas.
 
 ### Para um meio de comunicação português {#media-pt}
 

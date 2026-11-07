@@ -13,6 +13,13 @@
       "to": "place:united-states",
       "source": "s1",
       "by": "newsroom/tools/companies.mjs"
+    },
+    {
+      "verb": "built_on",
+      "to": "company:twilio",
+      "source": "bo1",
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "its Call for Me agent's phone calls run on Twilio Programmable Voice, by Twilio's own account"
     }
   ]
 }

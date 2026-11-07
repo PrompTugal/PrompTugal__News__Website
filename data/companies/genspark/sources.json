@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "bo1",
+      "url": "https://customers.twilio.com/en-us/genspark",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Twilio's customer story \"Genspark scales 'Call for Me' AI agent globally with Twilio Voice\" (read 7 November 2026, 14:30 UTC): \"Genspark chose Twilio Programmable Voice to power Call for Me\", its AI agent that makes phone calls on users' behalf; Twilio \"provides the communications foundation\" in 40+ countries; 800+ daily calls and a 94.3% call success rate are Twilio's figures (the edge built_on Twilio)."
     }
   ]
 }

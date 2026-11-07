@@ -13,7 +13,7 @@ We would rather talk to fewer people who are excited about the technology than t
 ## What is public and what is not {#public}
 
 - **Public:** the product, the strategy, the business plan, the history, the competition, the decisions, the code, the data and the agents' own records. When it changes, these pages change.
-- **Public:** the round: a seed round of under $1M.
+- **Public:** the round: a seed round of under €1M.
 - **For a conversation:** the valuation, the split and the terms. We publish no revenue, cost or projection: we do not have those numbers to give honestly yet. When we do, they come here.
 - **Not published:** anything private about a person, and anything said in a private conversation.
 
