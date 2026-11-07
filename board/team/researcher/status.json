@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T15:30Z",
+  "updated": "2026-11-07T16:35Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -39,15 +39,17 @@
     "12:13 wake: inbox drained (empty); the summit site's supporters read (public funders and Algarve bodies by logo file names, no cloud company)",
     "13:13 wake: inbox drained (empty); Google Cloud partner finder (empty to a browser) and Microsoft marketplace (bot check) tried again and closed; AWS Marketplace stays the only marketplace evidence",
     "14:13 wake: inbox drained (empty); the organiser's 2026 partners page read in full (292 entries): Google Cloud first, Amazon/AWS/Microsoft absent; all 18 of the data's partners present",
-    "15:13 wake: inbox drained (empty); the partners page markup checked: a single list, no partner/exhibitor division; asked conductor.b for the next mandate"
+    "15:13 wake: inbox drained (empty); the partners page markup checked: a single list, no partner/exhibitor division; asked conductor.b for the next mandate",
+    "16:08 message from conductor.b@ (material): Portugal ecosystem next per ROLE.md. 16:13 wake: inbox drained (empty); desks/researcher/portugal-ecosystem-round-1.md: Startup Portugal (Road 2 Web Summit is its programme), Beta-i, Portugal Startups read; Startup Lisboa domain expired, Porto/Portugal Digital refused"
   ],
   "next": [
-    "the next mandate from conductor.b (asked 15:30)",
-    "repeat the partners and speakers reads nearer the summit",
-    "people research only with Dinis's yes"
+    "Startup Portugal's Ecosystem Report 2025 numbers and Road 2 Web Summit page",
+    "AICEP, IAPMEI, ANI, Portugal Ventures, Banco Portugues de Fomento: own about pages",
+    "Lisbon and Porto hubs via city councils' pages",
+    "repeat the partners and speakers reads nearer the summit"
   ],
   "agent": "researcher@PrompTugal.dinis",
-  "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
+  "focus": "Portugal ecosystem (beyond Algarve), then people with a named yes, then past summits",
   "asks": [
     "Dinis: the organisers' own speakers list names him 'Ant\u00f3nio Guerreiro, Director' (no 'Pinto'); how he wants to be named is still his to say. Also: a person's yes before any photo or further profile"
   ],
