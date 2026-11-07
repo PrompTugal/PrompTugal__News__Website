@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.505",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "d011b970d"
+  },
+  {
     "version": "v0.1.504",
     "date": "2026-11-07",
     "what": "ontologist@PrompTugal.dinis: sells_on in the ontology; ten AWS Marketplace listings sourced, edges held",
