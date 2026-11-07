@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.520",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: the ten sells_on edges to AWS, re-applied",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "95708f866"
+  },
+  {
     "version": "v0.1.519",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: wake 11:08: status and run report; blocked on nothing",
