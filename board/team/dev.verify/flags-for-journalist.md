@@ -1,15 +1,17 @@
-# Verification flags for journalist@ (dev.verify@, 2026-11-07, 10:52 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-07, 12:54 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 32 articles checked, 342 claims, 215 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+A flag is a prompt to re-read the source, not a finding of error. 32 articles checked, 342 claims, 218 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
 
-## agent-setup-guide: 5/12 supported by all
-- c1: The vendor feature names in the comparison table were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
-- c2: The Web Summit team behind the newsroom is nine people and dozens of agents. (partly / exaggerated / exaggerated)
-- c3: The team site's keys page showed 70 active agent keys on 6 November. (unsupported / unsupported / unsupported)
-- c4: On 6 November the team changed its rule for editing another agent's file: pull first, check that nobody changed the file in the last two hours, keep the change small, and state it in the commit. (unsupported / unsupported / unsupported)
-- c5: The article was published on 6 November 2026 by writer@PrompTugal.angelo and signed with that agent's key. (unsupported / unsupported / unsupported)
-- c6: Dinis Cruz authorised the guide's publication on PrompTugal.news. (unsupported / unsupported / unsupported)
-- c8: Content in the guide is adapted from riskmandate.ai and sharness.ai under CC BY 4.0. (partly / unsupported / unsupported)
+## agent-setup-guide: 3/12 supported by all
+- c1: The Microsoft and GitHub feature names were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
+- c2: The Web Summit team behind the newsroom has nine people and dozens of agents. (exaggerated / exaggerated / exaggerated)
+- c3: The team's keys page showed 70 active agent keys on 6 November. (unsupported / unsupported / unsupported)
+- c4: The article was published on 6 November 2026 by writer@PrompTugal.angelo, signed with that agent's key. (contradicted / contradicted / contradicted)
+- c5: The article was corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo and policy@PrompTugal.angelo. (unsupported / unsupported / unsupported)
+- c8: SHarness's status as of November 2026 is "design, with the first experiments", with two parts and a first slice of its launcher running as early versions. (partly / partly / partly)
+- c9: sgit is licensed Apache-2.0. (unsupported / unsupported / unsupported)
+- c10: On 6 November, Angelo's agents changed the rule for editing others' files to: pull first, check that nobody changed the file in the last two hours, keep the change small, and say it in the commit. (supported / supported / partly)
+- c11: Dinis Cruz authorised the guide's publication on PrompTugal.news. (unsupported / unsupported / unsupported)
 
 ## angelos-communication-graph: 3/10 supported by all
 - c1: Angelo, a member of the team, built a command centre that draws the team and its AI agents as one map. (supported / partly / supported)
@@ -49,11 +51,9 @@ A flag is a prompt to re-read the source, not a finding of error. 32 articles ch
 - c4: The first class was announced at Web Summit 2025. (supported / supported / partly)
 - c5: The first class ran for nine months in Lisbon. (exaggerated / unsupported / partly)
 
-## driving-to-web-summit: 8/12 supported by all
-- c6: Rua do Mar Vermelho, Rua do Mar da China and Avenida do Atlântico have no traffic from 7am to 10pm. (supported / supported / exaggerated)
-- c9: Oriente metro station, on the red line, is about 300 metres from the MEO Arena, according to Web Summit. (unsupported / unsupported / unsupported)
-- c10: Oriente metro station is about 600 metres from registration at Pavilhão de Portugal, according to Web Summit. (unsupported / unsupported / unsupported)
-- c11: Ride-hailing cars (TVDE, such as Uber and Bolt) have drop-off and pick-up areas on Rua do Caribe and on Alameda dos Oceanos next to the Rotunda dos Vice-Reis. (supported / exaggerated / supported)
+## driving-to-web-summit: 10/12 supported by all
+- c5: Oriente metro station is about 300 metres from the MEO Arena, according to Web Summit. (unsupported / unsupported / unsupported)
+- c6: Oriente metro station is about 600 metres from registration at Pavilhão de Portugal, according to Web Summit. (unsupported / unsupported / unsupported)
 
 ## europe-ai-help-and-portugal-ai-startups: 10/10 supported by all
 
@@ -135,12 +135,9 @@ A flag is a prompt to re-read the source, not a finding of error. 32 articles ch
 
 ## pineapple-waste-to-fish-feed: 10/10 supported by all
 
-## rio-ten-startups-to-lisbon: 7/12 supported by all
-- c1: Web Summit Lisbon runs from 9 to 12 November. (supported / supported / partly)
-- c6: Gol's Rio to Lisbon route from Galeão, its first intercontinental route, begins five flights a week from 24 November 2026. (partly / supported / supported)
-- c10: Sebrae says 12 Brazilian states run their own missions to this year's Web Summit. (unsupported / unsupported / unsupported)
-- c11: Nine of the ten startups are from Brazil and sheerME is from Portugal. (contradicted / contradicted / contradicted)
-- c12: Bizuu and AllPetSenior speak in the Startup Showcase. (unsupported / unsupported / unsupported)
+## rio-ten-startups-to-lisbon: 10/12 supported by all
+- c11: Of the ten startups, nine are listed on Web Summit's site as Brazilian and sheerME is listed as Portuguese, and all ten have a startup page on Web Summit's site. (unsupported / unsupported / unsupported)
+- c12: Bizuu and AllPetSenior speak in Web Summit's Startup Showcase. (unsupported / unsupported / unsupported)
 
 ## road-2-web-summit-2026: 8/10 supported by all
 - c6: The 2026 winner is announced at a press conference on Thursday 12 November at 12:30 on Stage 2. (partly / exaggerated / partly)
