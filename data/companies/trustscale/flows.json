@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "trustscale",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "the-trustscale-loop",
+      "name": "An AI's outputs are checked against the customer's own criteria, and experts settle the edge cases (TrustScale)",
+      "summary": "TrustScale's home page, in its loop: the customer's standard is written down (Nuance), every claim an AI makes is checked against evidence automatically (Argus), an expert decides the cases the check cannot (Humanus), and each verdict goes back to improve the model. The figures (1/8 the cost of human review, 98.5% quality) are TrustScale's own.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The customer's experts",
+          "what": "Define what good looks like with Nuance: specs, rubrics, quality frameworks, datasets, and security rules made testable.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The customer's AI (a model or an agent)",
+          "what": "Reads its sources, answers and acts in production.",
+          "agent": "Answer and act.",
+          "source": "fl1"
+        },
+        {
+          "actor": "Argus",
+          "what": "Checks every claim against evidence, with sources, a TrustScore and a correction; it looks for poisoned content, hallucination and prompt injection.",
+          "source": "fl1"
+        },
+        {
+          "actor": "A specialist (Humanus)",
+          "what": "Decides the edge cases the automated check cannot settle.",
+          "source": "fl1"
+        },
+        {
+          "actor": "TrustScale",
+          "what": "Feeds the verdicts and corrections back as training data, so the model improves.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

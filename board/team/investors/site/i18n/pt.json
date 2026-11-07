@@ -20,7 +20,9 @@
     "footer_library": "Em profundidade",
     "footer_back": "PrompTugal.news, a publicação",
     "footer_who": "Quem é?",
-    "fallback": "Esta página ainda não está traduzida; aqui está em"
+    "fallback": "Esta página ainda não está traduzida; aqui está em",
+    "footer_counts": "Contagem de páginas: sem cookie e sem guardar endereços IP. Para saber a cidade, o navegador pergunta a um serviço de localização, que vê o endereço IP. Do Not Track ou Global Privacy Control desligam tudo.",
+    "fab": "A sua opinião"
   },
   "feedback": {
     "title": "O que pensa?",
@@ -29,7 +31,7 @@
     "more": "Quero saber mais",
     "notforme": "Não é para mim",
     "write": "Escrever a Dinis Cruz",
-    "note": "Um clique é contado sem sabermos quem é: sem cookie, sem conta, sem formulário."
+    "note": "Um clique é contado com as contagens de páginas do site: sem cookie, sem conta, sem formulário, e o site não guarda nenhum endereço IP."
   },
   "route": {
     "title": "O seu percurso",
@@ -43,10 +45,10 @@
     "kicker": "Do Algarve, para a Europa",
     "h1": "A próxima geração da edição de notícias já está a funcionar.",
     "lead": "Uma redação de pessoas e agentes de IA: cada facto com fonte, cada artigo assinado, ninguém vigiado, os leitores pagam depois do valor. No ar para a Web Summit Lisboa, de 9 a 12 de novembro de 2026. Em ronda seed abaixo de 1 M€.",
-    "cta_who": "Quem é?",
+    "cta_who": "Qual é o seu caso?",
     "cta_tour": "Veja-o ao vivo: a visita",
     "cta_map": "O mapa das apresentações",
-    "who_title": "Quem é?",
+    "who_title": "Qual é o seu caso?",
     "who_lead": "Escolha uma opção. O site leva-o pelo caminho mais curto.",
     "cards": {
       "invest": {
@@ -62,7 +64,7 @@
         "d": "Um CEO do setor das notícias, jornalistas muito técnicos, ajuda esta semana."
       },
       "publishers": {
-        "t": "Sou editor, ou trabalho nos media",
+        "t": "Edito, trabalho nos media, ou financio-os",
         "d": "Como as notícias ficaram encalhadas, e uma saída que já funciona."
       },
       "algarve": {
@@ -106,7 +108,7 @@
     "decks_title": "Nove apresentações, uma história",
     "decks_lead": "Cada uma responde a uma pergunta diferente. Comece pelo mapa, ou leia todos os diapositivos em sequência.",
     "decks_all": "Todas as apresentações",
-    "decks_seq": "Ler todas em sequência",
+    "decks_seq": "Todos os diapositivos num relance",
     "articles_title": "Para ler e partilhar",
     "articles_all": "Todos os artigos"
   },
@@ -210,12 +212,12 @@
     "publishers": {
       "title": "As notícias ficaram encalhadas. Eis uma saída que funciona.",
       "summary": "Para editores e media: porque estão as notícias encalhadas, o que os leitores querem, proveniência e privacidade, um piloto numa secção; o seu percurso pelas apresentações e como nos dizer onde estamos errados.",
-      "kicker": "Para editores e media",
+      "kicker": "Para editores, media e quem os financia",
       "lead": "Proveniência em cada facto, nenhuma vigilância, pagamento depois do valor, e agentes a fazer o trabalho repetitivo enquanto os editores decidem.",
       "points": [
         {
           "t": "Os leitores precisam de um tema durante mais tempo do que o jornal o conta",
-          "d": "O jornal faz manchete cinco vezes; o leitor precisa do tema durante cinquenta e sete dias (A ponte, uma simulação)."
+          "d": "Numa simulação numa cidade fictícia (The bridge), o jornal fez manchete com a história cinco vezes; os leitores precisaram dela em cinquenta e sete dias."
         },
         {
           "t": "Confiança que se pode verificar",
@@ -230,7 +232,7 @@
       "asks": [
         "Leia a apresentação 2 e diga-nos onde estamos errados.",
         "Proponha uma secção para um piloto.",
-        "Diga-nos pelo que pagariam os seus leitores."
+        "Se financia media independentes: diga-nos o que um piloto precisaria para ser elegível."
       ],
       "next_title": "O que acontece a seguir",
       "next": [
@@ -309,7 +311,7 @@
     "summary": "Dez apresentações: o mapa e depois nove, cada uma a responder a uma pergunta diferente, para investidores, parceiros, quem quer participar, o ecossistema do Algarve e quem constrói. No navegador ou em PDF, em inglês, português, espanhol e francês.",
     "lead": "O mapa e depois nove apresentações, cada uma para uma pergunta diferente. No navegador ou em PDF, em quatro línguas.",
     "open": "Abrir",
-    "seq_title": "Ler todas em sequência",
+    "seq_title": "Todos os diapositivos num relance",
     "seq_lead": "Todos os diapositivos de todas as apresentações, por ordem, num relance. Clique num diapositivo para o abrir.",
     "langs_note": "Em inglês, português, espanhol e francês.",
     "vote": "Vote na próxima língua",
@@ -328,7 +330,7 @@
     }
   },
   "sequence": {
-    "title": "Todas as apresentações, em sequência",
+    "title": "Todos os diapositivos num relance",
     "summary": "Todos os diapositivos de todas as apresentações da PrompTugal, por ordem, num relance: primeiro o mapa, depois as nove apresentações. Clique num diapositivo para o abrir no navegador.",
     "lead": "Todos os diapositivos, por ordem. Clique num para o abrir; continue com as teclas de setas.",
     "slides": "diapositivos"
@@ -353,12 +355,12 @@
     "issue_t": "Abrir uma issue",
     "issue_d": "Para quem constrói, e para tudo o que esteja errado no site: em público, no repositório.",
     "issue_cta": "Abrir uma issue",
-    "privacy": "O que escrever fica entre si e Dinis Cruz; nada do que enviar é publicado aqui."
+    "privacy": "Nada do que escrever é publicado aqui."
   },
   "thanks": {
     "title": "Obrigado",
-    "summary": "O seu clique foi contado, sem sabermos quem é. Uma linha sua dir-nos-ia mais.",
-    "lead": "O seu clique foi contado, sem sabermos quem é: sem cookie, sem conta. Uma linha sua dir-nos-ia muito mais.",
+    "summary": "O seu clique foi contado: sem cookie, sem conta. Uma linha sua dir-nos-ia muito mais.",
+    "lead": "O seu clique foi contado: sem cookie, sem conta. Uma linha sua dir-nos-ia muito mais.",
     "write": "Escrever uma linha a Dinis Cruz",
     "back": "Voltar ao início"
   },
@@ -373,7 +375,10 @@
   "library": {
     "title": "Em profundidade",
     "summary": "A versão longa de tudo o que está no site para investidores: o pitch, o plano de negócios, o que funciona hoje, a My Feeds, como aqui chegámos, a concorrência, o nosso pensamento, as regras de envolvimento, participar, parceiros, eventos, editores, contactos e línguas.",
-    "lead": "A versão longa de tudo o que está neste site."
+    "lead": "A versão longa de tudo o que está neste site.",
+    "titles": {
+      "changelog": "O que mudou nas apresentações"
+    }
   },
   "persona": {
     "made_for": "Uma versão deste site feita para",

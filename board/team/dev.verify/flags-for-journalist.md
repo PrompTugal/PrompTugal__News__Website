@@ -1,6 +1,6 @@
-# Verification flags for journalist@ (dev.verify@, 2026-11-07, 14:57 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-07, 16:55 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 33 articles checked, 354 claims, 224 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+A flag is a prompt to re-read the source, not a finding of error. 33 articles checked, 354 claims, 223 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
 
 ## agent-setup-guide: 3/12 supported by all
 - c1: The Microsoft and GitHub feature names were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
@@ -42,10 +42,10 @@ A flag is a prompt to re-read the source, not a finding of error. 33 articles ch
 - c10: Four hubs and one national pick are named as part of the delegation, along with two officials on Web Summit's stages. (unsupported / partly / partly)
 
 ## brazils-doors-into-europe: 8/12 supported by all
-- c4: In November 2024, Brazil's ambassador to Portugal, Raimundo Carreiro Silva, wrote in DN that Porto Digital Europa had chosen Aveiro's innovation hub and already had ten companies on board. (partly / exaggerated / partly)
-- c8: ApexBrasil reports Brazil's ecosystem as 13,000 startups, more than 120 venture capital funds, more than 250 innovation hubs and more than 30 unicorns. (supported / partly / partly)
-- c10: The ApexBrasil and Sebrae Lisbon incubator's first class of ten startups was named at Web Summit 2025, and its 2027 class is due to be announced at the Brazil Pavilion on 10 November. (partly / partly / partly)
-- c11: Brazil's pavilion at Web Summit lasts three days. (unsupported / unsupported / unsupported)
+- c3: Cais do Porto, in Aveiro, is the international unit of Recife's technology park Porto Digital. (supported / exaggerated / supported)
+- c4: ApexBrasil and Sebrae run a startup incubator in Lisbon, which names its second class on 10 November. (partly / partly / partly)
+- c9: In November 2024, Brazil's ambassador to Portugal, Raimundo Carreiro Silva, wrote in DN that Porto Digital Europa had chosen Aveiro's innovation hub and already had ten companies on board. (partly / exaggerated / partly)
+- c10: ApexBrasil's Lisbon incubator's first class of ten was named at Web Summit 2025, and 20 companies are due to be announced for its 2027 class at the Brazil Pavilion on 10 November. (partly / exaggerated / partly)
 
 ## brazils-startup-house-in-lisbon: 6/10 supported by all
 - c2: The first class had ten startups. (partly / supported / supported)
@@ -137,9 +137,10 @@ A flag is a prompt to re-read the source, not a finding of error. 33 articles ch
 
 ## pineapple-waste-to-fish-feed: 10/10 supported by all
 
-## rio-ten-startups-to-lisbon: 10/12 supported by all
-- c11: Of the ten startups, nine are listed on Web Summit's site as Brazilian and sheerME is listed as Portuguese, and all ten have a startup page on Web Summit's site. (unsupported / unsupported / unsupported)
-- c12: Bizuu and AllPetSenior speak in Web Summit's Startup Showcase. (unsupported / unsupported / unsupported)
+## rio-ten-startups-to-lisbon: 9/12 supported by all
+- c9: Of the ten startups in Rio's mission, nine are from Brazil and sheerME is from Portugal. (contradicted / unsupported / contradicted)
+- c11: Sebrae says 12 Brazilian states run their own missions to this year's Web Summit. (unsupported / unsupported / unsupported)
+- c12: Eighteen Brazilian founders and team members are on the Startup Showcase stages at Web Summit. (unsupported / unsupported / unsupported)
 
 ## road-2-web-summit-2026: 8/10 supported by all
 - c6: The 2026 winner is announced at a press conference on Thursday 12 November at 12:30 on Stage 2. (partly / exaggerated / partly)

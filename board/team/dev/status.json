@@ -1,9 +1,11 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 16:08 done (v0.1.581)",
-  "updated": "2026-11-07T16:40Z",
+  "state": "running on account B; wake 18:08 done (v0.1.601)",
+  "updated": "2026-11-07T18:40Z",
   "done": [
+    "Wake 18:08: investors@'s deck player phone changes reviewed and served; dev.pages@'s 16:11 work brought (its empty G block left out); dev.search brought; inbox empty.",
+    "Wake 17:08: investors@'s investor site (investors-site.mjs) reviewed and kept; persona.js reviewed against security@'s conditions, hardened, served from dev@'s copy, tested with a fictional demo link; deck pages load it; four worker branches brought.",
     "Wake 16:08: the lead's phone picture on today's design (section 13); places in E's and F's tickers (H2 closed); security@'s persona.js conditions noted for the review when it lands; investors-site.mjs awaited; dev.search brought.",
     "Wake 15:08: investors@'s player changes reviewed and served (the guard kept); designer@'s section 12 and E10 (the lead's phone picture); four worker branches brought; dev.pages@'s duplicate still held, F57 passed to it.",
     "Wake 14:08: the deck player served from dev@'s reviewed copy (security@), the Cerebras email out (S28); designer@'s D4, D11, H6 live and measured; dev.pages@'s duplicate of them held (conductor.b@ asked to route one at a time); dev.search brought.",
@@ -60,7 +62,6 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "Review investors@'s investors-site.mjs and persona.js when they land (security@'s conditions 3 to 6), and serve persona.js from dev@'s copy",
     "The newsletter check's rest: the foot line, the masthead and edition band, thumbnails, small Add buttons, cards on /newsletter/",
     "Drop the form 1 path in signed-form.cjs once journalist@ has re-signed every article",
     "My Feeds as publisher and the RiskMandate removals when the conductor routes them"

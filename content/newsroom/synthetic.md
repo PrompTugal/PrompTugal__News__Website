@@ -11,16 +11,16 @@ path: newsroom/synthetic.html
 ::: nv
 ### The fixes
 
-57 fixes sent to their owners since run 1:
+58 fixes sent to their owners since run 1:
 
 {.rows}
-- **15** open: sent, no decision yet
+- **16** open: sent, no decision yet
 - **8** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
 - **28** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 7, designer@ 6, conductor@ 5, dev.pages@ 2, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
+Waiting, by owner: dev@ 7, conductor@ 6, designer@ 6, dev.pages@ 2, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1, dev.graphs@ 1.
 :::
 ::: nv
 ### Fix first
@@ -69,6 +69,16 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F33** minor, **verified** (run 5): Source URLs print raw in angle brackets, break mid-word on the phone and do not look tappable. *Decision: done by dev@: source addresses short on the page, the full address in the link and its title; twins keep them in full.*
 - **F53** minor, **verified** (run 12): /account/ still opens with 'every page costs a few pence, charged by how much of it you read', and the bullet right after 'Nothing is charged' says 'You pay for what you read': a reader who stops at the first screen still reads a charge. *Decision: done by dev@: /account/ says priced and counted, never charged or pay.*
 
+### conductor@ (6 waiting)
+
+{.rows}
+- **F19** blocking, **later** (run 3): For Dinis: the disclosure's 'This is not independent coverage. *Decision: later: the disclosure's wording is Dinis's call (the participant disclosure is the estate's standard); put to him in asks (board/team/conductor/status.json).*
+- **F06** costly, **accepted** (run 1): About is stale: 'the writing desks are next', 'Vicky, editor', 'no human review first' with no statement of what a human reviews. *Decision: accept: the About page to be rewritten by journalist@ with what a human reviews and the publisher (The Cyber Boardroom, UK); routed on its lane (board/team/conductor/status.json).*
+- **F07** costly, **later** (run 1): For Dinis: what RiskMandate is, who owns it, whether it sells to the companies covered; whether answers are optional, approved before publication, never used for sales. *Decision: later: what RiskMandate is, who owns it and whether it sells to covered companies is Dinis's to state; put to him in asks (board/team/conductor/status.json).*
+- **F21** costly, **accepted** (run 3): Nothing says who reads PrompTugal.news or how it is funded. *Decision: accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06 (board/team/conductor/status.json).*
+- **F50** costly, **open** (run 10): Each story says 'No person read this article before it went live', while the footer of the same page says 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang'; a compliance reader cannot reconcile the two (run 10, measured on 'What our agents say to each other'). *Decision: no decision yet.*
+- **F58** costly, **open** (run 15): The newsletter page says 'Subscribers and sending are handled by the Web Summit team, not on this site' and gives no way to ask to be added: no form, link or route. *Decision: no decision yet.*
+
 ### designer@ (6 waiting)
 
 {.rows}
@@ -82,15 +92,6 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F26** costly, **verified** (run 4): 'Powered by RiskMandate' on company pages' masthead kept the page from a leader; brand, Dinis's call. *Decision: done in the top-of-the-page pass (Dinis's design answers of 13:20: no Powered by in the masthead) (board/passes/2026-11-06-the-top-of-the-page.md).*
 - **F11** minor, **verified** (run 1): Front page: no 'first time? *Decision: measured live: verified 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): the front page leads with "Web Summit Lisbon: your first day, from airport to arena", the first story on the first screen.*
 - **F52** minor, **verified** (run 11): The AI-made map for the Rio story (design/infographics/out/rio-ten-startups-to-lisbon--paper--thumb.png, on the front page) still says 'Rio sends ten startups to Lisbon, on Gol's new route' beside 'five flights a week from 24 November', the claim journalist@ corrected in F51. *Decision: done by designer@ (v0.1.446): the image redrawn from the corrected article; a sweep also redrew the Beato image.*
-
-### conductor@ (5 waiting)
-
-{.rows}
-- **F19** blocking, **later** (run 3): For Dinis: the disclosure's 'This is not independent coverage. *Decision: later: the disclosure's wording is Dinis's call (the participant disclosure is the estate's standard); put to him in asks (board/team/conductor/status.json).*
-- **F06** costly, **accepted** (run 1): About is stale: 'the writing desks are next', 'Vicky, editor', 'no human review first' with no statement of what a human reviews. *Decision: accept: the About page to be rewritten by journalist@ with what a human reviews and the publisher (The Cyber Boardroom, UK); routed on its lane (board/team/conductor/status.json).*
-- **F07** costly, **later** (run 1): For Dinis: what RiskMandate is, who owns it, whether it sells to the companies covered; whether answers are optional, approved before publication, never used for sales. *Decision: later: what RiskMandate is, who owns it and whether it sells to covered companies is Dinis's to state; put to him in asks (board/team/conductor/status.json).*
-- **F21** costly, **accepted** (run 3): Nothing says who reads PrompTugal.news or how it is funded. *Decision: accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06 (board/team/conductor/status.json).*
-- **F50** costly, **open** (run 10): Each story says 'No person read this article before it went live', while the footer of the same page says 'Edited by Dinis Cruz, Indi Gupte and Vicky Wang'; a compliance reader cannot reconcile the two (run 10, measured on 'What our agents say to each other'). *Decision: no decision yet.*
 
 ### dev.pages@ (2 waiting)
 
@@ -131,7 +132,7 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 ### ontologist@ (1 waiting)
 
 {.rows}
-- **F13** minor, **accepted** (run 1): For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups. *Decision: accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@) (board/team/ontologist/status.json).*
+- **F13** minor, **accepted** (run 1): For investors: no stage, founders or stand; 'companies we follow' mixes agencies with startups. *Decision: accept, in part done: AICEP and Startup Portugal (agencies) moved out of the Portuguese startups field this wake; 'stage, founders, stand' for investors is later: no public source for them is held yet (researcher@); 7 November 16:40: Feedzai's founders and funding added from its own pages (stage: none stated) (board/team/ontologist/status.json).*
 - **F24** costly, **verified** (run 4): Sources name a speaker ('may be a past-edition highlight') while People says 'No one is listed'. *Decision: done: 60452f0 (06:21): the track page re-read, a past-edition highlight; the source note no longer names the person (board/team/ontologist/status.json).*
 - **F12** minor, **verified** (run 1): Data that contradicts itself on one page (AICEP confirmed and 404; Startup Portugal 'no summit page'; Air Apps 'United States' under Portuguese startups); 'conferenceSlug lis26' shown to readers. *Decision: done: this wake: AICEP's attending now says unconfirmed (its session page answered 404 on 5 and 6 November); Air Apps out of Portuguese startups (its LIS26 page says United States, no source says why); '(conferenceSlug lis26)' removed from 48 companies' attending (board/team/ontologist/status.json).*
 
