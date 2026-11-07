@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 00:52 UTC, 7 November (site v0.1.393)
+
+- The six dev workers' inboxes re-issued to their account-B keys (42 lanes). outreach@'s inbox is `outreach-b.json`; its lane on the Web Summit conductor's inbox asked of that conductor.
+- dev@ reviewed the six workers on account B and took back 112 stale outreach drafts a review had brought in; designer@ checked the eight home page designs live (v0.1.390); sherpa@'s phone findings on them fixed (dev@). accountant@ closed 6 November: about 924 API-equivalent (account A 873).
+- abp@: Angelo's agent published an article (for Dinis to note, as with Vicky's).
+- Still for Dinis: outreach@'s two questions (the disclosure line in the emails; what an email may promise) and the For Dinis pages.
+- 13 releases since 23:52. Snapshot 00:53. No hold.
+
 ## Wake at 23:52 UTC (site v0.1.382)
 
 - **Development is on account B** (conductor.b@, 23:10): dev@ and its six workers, new keys; dev@'s inbox re-issued; the six workers' inboxes follow once their keys reach dev (they are on their branches).
