@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T17:12Z",
+  "updated": "2026-11-07T17:32Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -32,7 +32,8 @@
     "14:07 wake: designer@ flagged dev.pages@ silent since 04:13: its wake fires (last 12:11) but it judged 'nothing left' and did not rewrite status.json; woken with designer@'s three open items (D4, D11, H6) and told to write status every wake. investors@ now has nine decks in four languages and seven questions for Dinis; dev@ waits on Dinis for a euro payment link; security@'s S29 (deck.js changed unreviewed) with dev@",
     "15:07 wake: dev.pages@ and dev@ both built D4, D11, H6 (dev@'s shipped; D4 and D11 pass live, H6 down to four labels); ledger 2026-11-07T1512Z.json: 374.91 on account B, 88.69 in three hours (about 30 an hour); investors@ 110.24 (+42.33), 29% of account B, about 7x its day line; sent to accountant@ and Dinis",
     "16:07 wake: nothing blocked; all home design checks pass (H6 too); offline tabs done; researcher@ finished its lines and asked for a mandate: pointed at the next in its ROLE.md order (Portugal ecosystem beyond Algarve), the conductor told to route otherwise if it wishes; accountant@ 15:50: 414.39 today, about 35 an hour",
-    "17:07 wake: nothing blocked; researcher@ started the Portugal ecosystem round 1; investors@ built an investor site in four languages with its own engine and templates (abp@ 16:37: build code outside its grant, for dev@ and Dinis), designer@ read it for the brand, observability@ counts its pages"
+    "17:07 wake: nothing blocked; researcher@ started the Portugal ecosystem round 1; investors@ built an investor site in four languages with its own engine and templates (abp@ 16:37: build code outside its grant, for dev@ and Dinis), designer@ read it for the brand, observability@ counts its pages",
+    "17:25 Dinis in my session: a new team, RiskMandate X-ray (the demo workflow for the summit); brief board/team/conductor.b/briefs/2026-11-07-riskmandate-xray.md; xray@PrompTugal.dinis to be started on account B with hourly wakes for a 3 to 6 hour push"
   ],
   "next": [
     "next ledger at 18:07",
