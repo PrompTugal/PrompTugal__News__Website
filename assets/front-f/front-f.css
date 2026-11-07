@@ -8,7 +8,7 @@
 .ff-w { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); box-sizing: border-box; }
 .ff-glow { background: radial-gradient(1000px 320px at 20% 0%, var(--brand-soft), transparent 70%), var(--paper); border-bottom: 1px solid var(--hair); }
 .ff-hd { display: flex; align-items: center; gap: 16px; padding: 14px 0; }
-.ff-hd .wordmark { height: 40px; width: auto; }
+.ff-hd .wordmark { height: 26px; width: auto; }
 .ff-hd nav { margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px 18px; font: 500 13px var(--sans); }
 .ff-hd nav a[aria-current] { color: var(--brand); font-weight: 600; }
 .ff-hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 36px; align-items: center; padding: 18px 0 26px; }
@@ -43,7 +43,7 @@
 .ff-lead p { font: 400 14px/1.45 var(--serif); color: var(--ink-2); margin: 0 0 6px; }
 .ff-lead mark { background: none; color: var(--brand); text-decoration: underline; text-decoration-thickness: 2px; }
 .ff-chip { display: inline-block; font: 700 12px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--brand-red); background: var(--live-soft); border-radius: 4px; padding: 2px 6px; }
-.ff-badge { display: inline-block; font: 500 12px var(--mono); color: var(--brand); border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
+.ff-badge { display: inline-block; font: 500 11px var(--mono); color: var(--brand); border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
 .ff-pic { position: relative; display: block; }
 .ff-pic img { display: block; width: 100%; height: auto; border: 1px solid var(--hair); border-radius: 6px; }
 .ff-pic span { position: absolute; left: 4px; bottom: 4px; font: 500 12px var(--mono); background: rgba(18, 19, 23, .78); color: #fff; padding: 1px 4px; border-radius: 3px; }
@@ -70,7 +70,7 @@
 .ff-tl { border-left: 2px solid var(--brand); padding-left: 12px !important; }
 .ff-tl li { position: relative; padding: 6px 0; font: 14px/1.3 var(--serif); }
 .ff-tl li::before { content: ""; position: absolute; left: -18px; top: 11px; width: 8px; height: 8px; border-radius: 50%; background: var(--brand); }
-.ff-tl time { display: block; font: 600 12px var(--mono); color: var(--brand); }
+.ff-tl time { display: block; font: 600 11px var(--mono); color: var(--brand); }
 .ff-tl li:nth-child(n+8) { display: none; }
 @media (max-width: 1100px) { .ff-g { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .ff-side { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; } }
 @media (max-width: 760px) {
@@ -98,9 +98,14 @@
 .ff-tk { flex: 1; min-width: 0; }
 .ff-tl small { display: block; font: 12px var(--sans); color: var(--ink-3); margin-top: 2px; }
 .ff-hd nav a, .ff-h a, .ff-bh a, .ff-lnk a { display: inline-flex; align-items: center; min-height: 24px; }
-/* D11: on a phone, "In Lisbon this week" comes right after the lead's block, before the stories and the radar */
+
+/* D4: the wordmark at least 240 px wide; H6: no text under 12 px */
+.ff-hd .wordmark { height: 40px; }
+.ff-h a, .ff-badge, .ff-h { font-size: 12px !important; }
+/* D11: on a phone, the week in Lisbon comes right after the top story */
 @media (max-width: 760px) {
-    .ff-g { display: flex; flex-direction: column; } .ff-side { display: contents; }
-    .ff-side .ff-box:nth-child(2) { order: -1; margin-bottom: 18px; } .ff-side .ff-box:first-child { order: 5; }
+    .ff-main { display: contents; }
+    .ff-lead { order: 0; } .ff-side { order: 1; } .ff-main > .ff-h, .ff-rk { order: 2; } .ff-more { order: 3; }
+    .ff-side { display: flex; flex-direction: column; } .ff-side > .ff-box:last-child { order: -1; }
 }
-.ff-pcs a { display: inline-flex; align-items: center; min-height: 26px; }
+.ff-bh b, .ff-tl time { font-size: 12px; }   /* designer@'s section 12 */

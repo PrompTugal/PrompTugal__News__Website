@@ -84,3 +84,8 @@ Every deck states only what is here or on /investors/ (content/investors/), with
 - **The summits:** Dinis Cruz was "the main organiser and driver" of all of them: the OWASP Summits (the first in the Algarve in 2008, then Lisbon 2011 and Woburn 2017, among others) and the Open Security Summit.
 - **Euros:** prices are stated in euros (cents per page, a few euros), at Dinis's word. The site's live top-up still charges £5 through newsroom.sgit.ai's Stripe link until it is moved; the decks do not quote its amount.
 - **Payments (Dinis, 7 Nov, about 13:10 UTC):** the reading top-ups are currently taken and managed by The Cyber Boardroom, Dinis's UK company, in pounds; that is fine. The decks state prices in euros as the direction.
+
+## 7 November 2026, night (Dinis Cruz)
+
+- **All amounts in euros, in every language:** "All Euros on all languages". The seed round: under €1M (EN), 1 M€ (PT, ES, FR).
+- **Languages:** "stay with 4 languages and put a place holder for more languages, asking the user to vote and suggest which one we should do next". English, Portuguese, Spanish and French only; the next language by readers' vote (/investors/languages/).

@@ -135,5 +135,6 @@
 /* sherpa@'s H2 (the place under each moment) and H6 (links at least 24 px tall) */
 .fe-nx small { display: block; font: 12px var(--sans); color: var(--ink-3); margin-top: 2px; }
 .fe-nav a { display: inline-flex; align-items: center; min-height: 24px; }
-/* D11 (sherpa@, designer@): on a phone the lead, then Now and next, then the briefing, then the stories (E10) */
-@media (max-width: 1000px) { .fe-cols .fe-nx { order: -2; } .fe-cols .fe-brf { order: -1; } }
+
+/* D11: on a phone, Now and next comes right after the lead (before the briefing and the stories) */
+@media (max-width: 1000px) { .fe-cols > .fe-nx { order: -1; } }

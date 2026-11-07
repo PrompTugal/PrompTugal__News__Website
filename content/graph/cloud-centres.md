@@ -7,7 +7,7 @@ Dinis asked where the Google, Amazon (AWS) and Microsoft centres of gravity are 
 ## How to read it {#read}
 
 - **Filled** means found, with the public page it comes from, read on 6 November 2026.
-- **Dashed** means we searched and found nothing. That is not proof of absence: the partners list has 8 pages and only the first was readable, and the speakers page was read once, loaded in a browser, and it looked fully loaded (941 profile links against the 800 speakers the page promises); it changes as speakers are announced.
+- **Dashed** means we searched and found nothing. That is not proof of absence: the organiser's 2026 partners page was read in full (292 entries) but changes before the summit, and the speakers page was read once, loaded in a browser, and it looked fully loaded (941 profile links against the 800 speakers the page promises); it changes as speakers are announced.
 - **Empty** means not looked at yet: which companies a centre invests in is not looked at. "Companies whose own pages name it" is filled from 14 of the 17 other partner companies (three refuse a plain fetch and are not read): a company page rarely says "partner" outright, so each line says what the page shows (a marketplace listing, a joint offering, a monitoring product, a rival comparison).
 - **Tap** a cell for what was found, the source and, where there is one, the company's page, which opens in a new tab. **Save as PNG** downloads the picture as it is now.
 

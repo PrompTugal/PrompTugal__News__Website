@@ -61,6 +61,11 @@ The door also opens towards Brazil. Intuitivo, a Porto edtech startup, raised mo
 - Agência Sebrae de Notícias, "Parceria entre Sebrae e Startup Portugal abre novas perspectivas para pequenos negócios inovadores dos dois países", 13 November 2023, read 7 November 2026: <https://agenciasebrae.com.br/economia-e-politica/parceria-entre-sebrae-e-startup-portugal-abre-novas-perspectivas-para-pequenos-negocios-inovadores-dos-dois-paises/>
 - Agência Sebrae de Notícias, "Oportunidades encontradas no Web Summit Lisboa 2023", read 7 November 2026: <https://agenciasebrae.com.br/inovacao-e-tecnologia/oportunidades-encontradas-no-web-summit-lisboa-2023/>
 - Brasil 61, "ApexBrasil leva startups brasileiras a eventos de inovação em Portugal e Emirados Árabes", 31 August 2026, read 7 November 2026: <https://brasil61.com/n/apexbrasil-leva-startups-brasileiras-a-eventos-de-inovacao-em-portugal-e-emirados-arabes-apex260161>
+- For the Lisbon incubator, as in [our article on it](brazils-startup-house-in-lisbon.html):
+  - Startups.com.br, "Governo abre 'casa brasileira' para incubar startups em Lisboa", 12 November 2025, read 6 November 2026: <https://startups.com.br/eventos/web-summit/governo-abre-casa-brasileira-para-incubar-startups-em-lisboa/>
+  - DN Brasil, "ApexBrasil e Sebrae selecionam 20 startups brasileiras para incubação em Lisboa", 4 September 2026, read 6 November 2026: <https://dnbrasil.dn.pt/negcios-br/apexbrasil-e-sebrae-selecionam-20-startups-brasileiras-para-incubao-em-lisboa>
+  - IOL (Link to Leaders), "Web Summit 2026: Brasil chega a Lisboa com 200 empresas à procura de investimento", 5 November 2026, read 6 November 2026: <https://www.iol.pt/web-summit-2026/brasil-em-lisboa/web-summit-2026-brasil-chega-a-lisboa-com-200-empresas-a-procura-de-investimento>
+- Startups.com.br, "Gol vai bancar passagens de 10 startups cariocas a Lisboa", 26 October 2026, read 7 November 2026: <https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/> (Rio's ten, Gol's route)
 
 ## Who made this
 

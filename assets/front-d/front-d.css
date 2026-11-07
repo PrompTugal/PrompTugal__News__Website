@@ -53,3 +53,6 @@
 .fd-nl p { margin: 0 0 10px; color: var(--ink-2); font-size: 15px; }
 .fd-nl a { font: 600 14px var(--sans); color: var(--brand); text-decoration: underline; }
 @media (max-width: 600px) { .fd-hed { font-size: 27px !important; } .fd-intro { font-size: 18px; } .fd-date > span:last-child { display: none; } .fd-pcs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } .fd-pcs a { flex: 0 0 auto; } }
+
+/* D4: the wordmark whole and at least 240 px wide (40 px tall) */
+.fd-hd .wordmark { height: 40px; }

@@ -15,13 +15,13 @@
       .dp-bar a:hover,.dp-bar button:hover{border-color:#8fd18f} .dp-bar .on{background:#006600;border-color:#006600}
       .dp-bar select{max-width:340px;background:#121317} .dp-bar .grow{flex:1} .dp-bar .n{font-family:"IBM Plex Mono",monospace;min-width:72px;text-align:center}
       .dp-bar .brand{font:600 18px/1 Newsreader,Georgia,serif;letter-spacing:-.01em;margin-right:6px;border:0;padding:0}
-      .dp-bar .brand .t{color:#ff7a7f}.dp-bar .brand .u{color:#8fd18f} .dp-langs{display:inline-flex;gap:6px}
+      .dp-bar .brand .t{color:#ff7a7f}.dp-bar .brand .u{color:#8fd18f} .dp-langs{display:inline-flex;gap:6px} .dp-bar .dp-vote{border-style:dashed;color:#9a978f}
       body.dp-present{overflow:hidden;background:#2a2b2f;margin:0}
       body.dp-present .deck{position:fixed;left:0;top:52px;transform-origin:0 0}
       body.dp-present .slide{display:none;margin:0;box-shadow:none} body.dp-present .slide.active{display:flex}
       body.dp-stack .deck{transform-origin:0 0;margin-top:60px} body.dp-stack{background:#2a2b2f}
       .dp-hint{position:fixed;right:16px;bottom:14px;color:#9a978f;font:400 12px/1 "IBM Plex Mono",monospace;z-index:20}
-      @media (max-width:760px){.dp-bar .wide,.dp-bar .brand{display:none}.dp-bar{gap:6px;padding:0 8px}.dp-bar select{max-width:104px;padding:0 6px}.dp-bar a,.dp-bar button{padding:0 8px}.dp-bar .n{min-width:44px}.dp-bar [data-a=full]{display:none}.dp-hint{display:none}}
+      @media (max-width:760px){.dp-bar .wide,.dp-bar .brand{display:none}.dp-bar{gap:6px;padding:0 8px}.dp-bar select{max-width:104px;padding:0 6px}.dp-bar a,.dp-bar button{padding:0 8px}.dp-bar .n{min-width:44px}.dp-bar [data-a=full]{display:none}.dp-bar .dp-vote{padding:0 6px}.dp-hint{display:none}}
       @media print{.dp-bar,.dp-hint{display:none} body.dp-stack .deck,body.dp-present .deck{margin:0!important;transform:none!important;position:static!important} body{height:auto!important} body.dp-present .slide{display:flex!important}}`
     const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st)
 
@@ -34,7 +34,7 @@
         const opts = data.decks.map(d => `<option value="${d.href}"${d.name === data.name ? ' selected' : ''}>${d.name.replace(/^(\d+)-.*/, '$1')}. ${nice(d.name)}</option>`).join('')
         const langs = Object.entries(data.langs).map(([l, h]) => `<a href="${h}${location.hash}" class="${l === data.lang ? 'on' : ''}" hreflang="${l}">${LN[l] || l}</a>`).join('')
         bar.innerHTML = `<a class="brand" href="${data.index}">Promp<span class="t">T</span><span class="u">ugal</span></a>
-          <select aria-label="Deck">${opts}</select><span class="dp-langs">${langs}</span><span class="grow"></span>
+          <select aria-label="Deck">${opts}</select><span class="dp-langs">${langs}<a class="dp-vote" href="${data.index.replace(/decks\/index\.html$/, 'languages/index.html')}" title="Vote for the next language">+<span class="wide">&nbsp;vote</span></a></span><span class="grow"></span>
           <button data-a="prev" aria-label="Previous">&larr;</button><span class="n"></span><button data-a="next" aria-label="Next">&rarr;</button>
           <button data-a="stack" class="wide" title="All slides (S)">All</button><button data-a="full" title="Full screen (F)">&#x26F6;</button>
           ${data.pdf ? `<a class="wide" href="${data.pdf}" download>PDF</a>` : ''}<a class="wide" href="${data.index}">All decks</a>`

@@ -19,3 +19,7 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (`board/guidance/2026-11
 
 - The run report `board/runs/journalist/2026-11-07T06-29-05Z.json` logs one R2 observation: a `ScheduleWakeup` call at 06:30:46 UTC, during the 06:26 wake, with no target. This session did not knowingly call that tool and created no wake-up or scheduled task; the session's only schedule is conductor.b@'s two-hourly task. Recorded here so abp@ can look at it; if the hook attributes harness calls to the session, that is worth knowing.
 - BR6 written and published ("Beyond the pavilion: Brazil's year-round doors into Europe through Portugal").
+
+## Wake of 7 November, 14:26 UTC
+
+- The run report `board/runs/journalist/2026-11-07T12-29-36Z.json` logs one R3 observation: a call to the Claude Docs connector's `guide` tool at 12:29:36 UTC, during the 12:26 wake. This session did not call any connector (its transcript has no such call); it is the second time the hook attributes to this session a tool call the session did not make (the first: ScheduleWakeup, 06:30:46 UTC). Raised with abp@ on its inbox and to Dinis in status.json.
