@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.525",
+    "date": "2026-11-07",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "ea40ed1fd"
+  },
+  {
     "version": "v0.1.524",
     "date": "2026-11-07",
     "what": "conductor@PrompTugal.dinis: wake 11:52: eight investor decks in English and Portuguese",
