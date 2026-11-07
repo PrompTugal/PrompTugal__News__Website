@@ -1,0 +1,388 @@
+{
+  "$schema": "none",
+  "article": "plan-your-week-by-field",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
+      "status": 200,
+      "read": true,
+      "chars": 1886
+    },
+    {
+      "url": "https://websummit.com/schedule/date/2026-11-10/page/1/",
+      "status": 200,
+      "read": true,
+      "chars": 2195
+    },
+    {
+      "url": "https://websummit.com/schedule/date/2026-11-11/page/1/",
+      "status": 200,
+      "read": true,
+      "chars": 2168
+    },
+    {
+      "url": "https://websummit.com/schedule/date/2026-11-12/page/1/",
+      "status": 200,
+      "read": true,
+      "chars": 2154
+    }
+  ],
+  "spent_usd": 0.0639,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Web Summit's public schedule contains 1,122 sessions, running from Monday 9 to Thursday 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources give the dates as November 9-12, 2026 and show per-day pagination (about 55, 58 and 45 pages for November 10, 11 and 12), but none states a total of 1,122 sessions, and the Monday weekday is not stated."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "November 9-12, 2026",
+          "note": "The sources confirm Web Summit runs from November 9 to 12, but they do not state the days of the week or that the schedule contains 1,122 sessions."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "November 9-12, 2026",
+          "note": "The sources confirm the schedule dates November 9-12, 2026, but do not state the total session count of 1,122 or the weekdays."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "All 17 Cybersecurity Summit sessions are on Thursday 12 November, on Stage 8.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "Cybersecurity Summit Opening remarks November 12 • 10.00AM - 10.05AM Stage 8",
+          "note": "S4 shows one Cybersecurity Summit session on 12 November on Stage 8, but the sources never show a count of 17 or confirm that all Cybersecurity Summit sessions fall on that day and stage."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources mention only one Cybersecurity Summit session on November 12 on Stage 8, without stating that there are 17 sessions in total or that all of them take place there."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "Cybersecurity Summit Opening remarks November 12 • 10.00AM - 10.05AM Stage 8",
+          "note": "The source confirms one Cybersecurity Summit session on 12 November on Stage 8, but not that all 17 sessions are."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "All 16 PITCH sessions are on Tuesday 10 November, on Stage 12.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S3",
+          "quote": "Pitch session November 11 • 10.00AM - 12.00PM E369",
+          "note": "S3 lists a pitch session on Tuesday's neighbouring day, November 11, at E369 rather than Stage 12, so not all PITCH sessions are on November 10 on Stage 12, and the sources never give a count of 16."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources mention a single PITCH group round on November 10 on Stage 12, but do not state that all 16 PITCH sessions take place then or on that stage."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "exaggerated",
+          "source": "S2",
+          "quote": "PITCH group round 3 November 10 • 10.00AM - 11.00AM Stage 12",
+          "note": "The source confirms one PITCH session on Nov 10 at Stage 12, but does not support the claim that all 16 PITCH sessions are on that date and stage."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The PITCH sessions end with results at 16:45.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources list PITCH sessions only with times like 10:00AM-11:00AM and 10:00AM-12:00PM, and none mention results or a 16:45 end time."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not mention the end time of the PITCH sessions or results being announced at 16:45."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source mentions PITCH sessions ending with results at 16:45; the listed PITCH/Pitch sessions end at 11:00 or 12:00."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "Opening Night is on Monday 9 November, at Centre Stage at 18:00.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Opening Night 🎉 November 9 • 6.00PM",
+          "note": "S1 supports the date, the Centre Stage venue and the 6.00PM start (18:00), but no source states that 9 November is a Monday."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "Centre Stage Opening Night 🎉 November 9 • 6.00PM - 8.00PM Centre Stage",
+          "note": "The source confirms that Opening Night is on November 9 at 18:00 at Centre Stage, but it does not state that it is on a Monday."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Opening Night 🎉 November 9 • 6.00PM - 8.00PM Centre Stage",
+          "note": "Source S1 confirms Opening Night on November 9 at Centre Stage at 6.00PM, but it does not state that this is Monday."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "There are 22 Night Summit meet and greets on Monday 9 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S1",
+          "quote": "Night Summit 🌏 Asia-Pacific meet & greet November 9 • 8.00PM - 8.55PM",
+          "note": "The Nov 9 schedule lists three Night Summit meet & greets (Iberia, Asia-Pacific, East Asia), not 22; the only \"22\" in the sources is \"+22 Speakers\" on Nov 11 in S3, which is unrelated."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources do not state that there are 22 Night Summit meet and greets scheduled for Monday 9 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": "S1",
+          "quote": "1 2 3 4",
+          "note": "S1 shows Night Summit meet & greets on Nov 9 but only page 1 of 4 and does not state a total of 22."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "The session counts in the table are a snapshot of Web Summit's public schedule as it stood on Saturday 7 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources are Web Summit schedule pages for November 9 to 12, 2026 and say nothing about a table, session counts, a snapshot, or a capture date of Saturday 7 November."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention a table, session counts, or a snapshot taken on Saturday 7 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources show schedule pages but do not state that the session counts are a snapshot taken on Saturday 7 November."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c8",
+      "claim": "The table shows 14 of the schedule's 30 tracks.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The passages show only a navigation link named \"Content tracks\" and event listings with pagination (e.g., \"1 2 3 4 5 … 55\"), with no table and no count of 14 or 30 tracks."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention a table showing 14 of the schedule's 30 tracks."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided schedule pages do not mention a table, 14 tracks, or 30 tracks."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "The Growth Summit has 26 sessions on Wednesday 11 November, on Stage 9.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The November 11 schedule (S3) lists no 'Growth Summit', no session count, and no Stage 9; it shows only partial pagination ('1 2 3 4 5 … 58') and sessions on other stages, so the claim cannot be confirmed from the sources."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention the Growth Summit, Stage 9, or a count of 26 sessions on Wednesday 11 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided schedule pages mention the Growth Summit, Stage 9, or 26 sessions on Wednesday 11 November."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "The Venture Summit is on Stage 5 and has 14 sessions on Tuesday 10 November and 12 on Wednesday 11 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the passages mention a Venture Summit, its stage, or session counts; the only Stage 5 entry is a Health Summit opening remark on November 12, and the listings are truncated across multiple pages."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not mention the Venture Summit or its schedule of sessions on Stage 5."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources do not mention Venture Summit, Stage 5 for it, or session counts for Tuesday 10 November and Wednesday 11 November."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c11",
+      "claim": "The Health Summit, SaaS Summit and Cybersecurity Summit each run only on Thursday 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "Health Summit Opening remarks November 12",
+          "note": "S4 places the Health Summit and Cybersecurity Summit on November 12, but no source mentions a SaaS Summit, and the single-day listings cannot show that these events run only on that day."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided pages mention Health Summit and Cybersecurity Summit on November 12, but they do not mention SaaS Summit or prove that any of these summits run exclusively on that day."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S4",
+          "quote": "Health Summit Opening remarks November 12 • 9.55AM - 10.00AM",
+          "note": "S4 shows Health and Cybersecurity Summit events on November 12, but it does not mention SaaS Summit or establish that these summits run only on that day."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c12",
+      "claim": "The companies page lists 30 companies in security, 22 in AI agents, 18 in developer tools and 15 in governance, risk and compliance.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the four sources is a companies page or gives any count of companies by category (security, AI agents, developer tools, or governance, risk and compliance); they are Web Summit schedule pages listing sessions and speakers."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention a companies page or breakdown of companies by sector."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided schedule pages do not mention a companies page or these category counts."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    }
+  ]
+}
