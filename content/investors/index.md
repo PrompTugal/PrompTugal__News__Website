@@ -15,6 +15,14 @@ summary: PrompTugal is an Algarvian startup building the next generation of news
 
 **Why invest.** Look at what was done in this time, at the execution and at the agentic flows. PrompTugal is an open-source company: an investor joins the journey with everything already visible.
 
+## Who are you? {#who}
+
+- **Free this week?** Help us at Web Summit, visibly, beside the team: [join us](join/index.html#help).
+- **Want to be part of the founding team, or run it as CEO?** [Join us](join/index.html).
+- **A journalist?** [Join us](join/index.html#journalists).
+- **An investor?** [The decks](decks/index.html) and [how to engage](rules-of-engagement/index.html).
+- **Rather do it yourself?** Everything is open source: [the decks](decks/index.html) (deck 8).
+
 ## An Algarvian startup {#algarve}
 
 PrompTugal is a company from the Algarve, and means to be part of the Algarve's ecosystem: My Feeds, the company behind it, is incorporated in Portugal and is joining [Algarve Evolution](../portugal/algarve-evolution/index.html), the Faro-based association building the region's innovation economy beyond tourism. A startup that sets out to change how news is published, from the Algarve, and is already doing it.
@@ -27,12 +35,13 @@ PrompTugal did not start this week. Dinis Cruz runs several open-source startups
 
 ## Partners wanted {#partners}
 
-Dinis Cruz is looking for **investors and business partners** to run with PrompTugal. People from the teams he works with may become part of it; nothing about that is official yet, so no one else is named here.
+Dinis Cruz, founder and CTO, is looking for **investors and business partners** to run with PrompTugal, above all a CEO from the news industry. People from the teams he works with may become part of it; nothing about that is official yet, so no one else is named here. [Join us](join/index.html).
 
 ## The section {#section}
 
 | Page | What it answers |
 |---|---|
+| [Join us](join/index.html) | Helpers this week, the founding team, a partner as CEO, journalists |
 | [The decks](decks/index.html) | Four decks to page through or send as PDF: the investment case, the industry, the platform, the Algarve |
 | [What works today](what-works/index.html) | What a reader, an attendee and an editor can use now, with a link to each |
 | [For event organisers](for-events/index.html) | What an edition for your event would be: before, during, after; what you get without anyone being tracked |

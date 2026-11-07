@@ -33,3 +33,35 @@ Every deck states only what is here or on /investors/ (content/investors/), with
 ## The Algarve (public, sourced on https://promptugal.news/portugal/algarve-evolution/, read 6 Nov 2026)
 - Algarve Evolution: Faro-based association since 2018, mandate to diversify the Algarve's economy beyond tourism: help 500 companies, create 150 startups and reach 50,000 people by 2032; 118 active members (self-reported, 1 Nov 2026); 142+ events in 2024 and 2025 and 5,597 participants (self-reported).
 - My Feeds is in Loulé; PrompTugal is joining Algarve Evolution (Dinis). Dinis's newsroom covered Vibathon Algarve 2026 ("a sold-out day of building with AI in Faro") and wrote a session programme for Algarve Evolution (newsroom.sgit.ai, 31 Oct 2026).
+
+## Added 7 November 2026, about 10:30 UTC, for decks 5 to 8
+
+### The company and the investment (Dinis, 7 Nov 2026, board/team/investors/dinis-2026-11-07-go-live-and-structure.md)
+- Dinis Cruz: **founder and CTO**. He develops the technology that powers PrompTugal full time, spread across his companies; he is not full time on PrompTugal's operations.
+- **Wanted: a business partner as CEO**, to run all operations, with experience running companies, ideally senior in the news industry; and **journalists**, very technical ones; strategic people, hired with equity.
+- **Investors buy equity in the company**; the money is for the operations: preparing the company for the next level, commercialisation, services, editorial (hiring journalists).
+- **Team equity:** core team members receive shares that vest on milestones, like UK **growth shares** (shares that come alive at a future date or on a sale); everyone has a stake in the game and is paid once there is investment. **The split is to be decided.** The team today has not been asked or promised anything: "only when somebody puts money on the table can you have a more serious conversation".
+- **Two phases:** phase one, about a year, the **explorer** phase (Wardley's explorers, villagers, town planners), funded by a seed round, to reach Series A; at Series A or B the company's structure changes, planned for from the start.
+- **Seed round: size in conversation** (Dinis gave a sub-$1M range in session; NOT for publication until he confirms). **Exit:** "designed to be sold" within about a year and a half is NOT for publication until he confirms; until then say "built for a first-generation outcome in about two years, with a bigger play beyond" ONLY if he confirms; otherwise leave the exit out.
+- The team today: a mix of Gen Z and Gen X, working unpaid, in a win-win where they learn a lot; seven people at the summit (the front-end team); a back-office team for the summit is wanted now, unpaid and with visibility. Name no one but Dinis.
+
+### What RiskMandate says it is (riskmandate.ai, read 7 Nov 2026)
+- An **Agent Behaviour Policy (ABP)**: "a written description, for one agent in one deployment, of everything it can do, what you authorised it to do, the gap between the two, and what actually stands in the way" (riskmandate.ai/abp.html).
+- **Reach** (what the agent can actually access: measured), **mandate** (what the business authorised: elicited), **gap** (reach minus mandate: derived, never written by hand), **barrier** (none, expectation, setting, boundary; "only a boundary is a control").
+- "We are never in the request path." "it defines the mandate and measures the gap; it does not enforce it." "A policy cannot be dangerous. A deployment can." "A behaviour policy reduces accidents. It does not stop an attacker." SHarness (open source, Apache-2.0) is RiskMandate's secure harness; "Nothing yet binds the agent itself" (secure-harness.html, status 29 Oct 2026). RiskMandate is "built on SG/Vault".
+- Never claim that RiskMandate enforces, guarantees safety, or insures. Never claim a multiplier from riskmandate.ai: it states none.
+
+### What sgit says it is (sgit.ai, read 7 Nov 2026)
+- "git for encrypted vaults": clone, commit, branch and merge files encrypted client-side (AES-256-GCM); Apache-2.0; `pip install sgit-ai`; beta: "sgit is in beta: it powers production workflows daily". "the server that stores it cannot read it." Read keys: "a read key can never be turned back into write access". PKI keypairs for agents (encryption and signing). Append lanes: write-only inboxes; "The only thing a sending session is given is its append token". Limits it states: "No key revocation or rotation workflow."
+
+### What this repository shows (counted 7 Nov 2026)
+- Every agent has its own session key, public half in `board/keys.json` (60 entries, 41 active); every article signed; inboxes on append lanes (`board/inboxes/`).
+- Agent Behaviour Policies in `board/abp/` (by abp@, after RiskMandate's ABP): eleven core rules for every agent, one grant per agent (paths, hosts, tools), deny by default; hooks re-anchor the policy at every start and compaction and log every tool call outside the grant (observe mode: logged, not blocked, "blocking should always be the last worst case scenario", Dinis); a run report for every run (`board/runs/<role>/`); an hourly review that tightens policies and proposes relaxations for Dinis. The README lists what the hooks cannot see (the gap).
+- Agents per person: about 25 named roles run PrompTugal under one human operator; the Web Summit team's own team map shows 91 agents running for 6 people (web-summit.sgit.ai/team/map/, read 7 Nov 2026); about 111 agents across Dinis Cruz's projects (his count). Dinis's own phrase: "a multiplier of about 20x: 20 agents per team member".
+
+### Open source to do it yourself (public repositories and packages)
+- github.com/PrompTugal/PrompTugal__News__Website (this site: build, gate, CI, data, agents' board, policies; Apache-2.0 code, CC BY 4.0 text)
+- github.com/PrompTugal/PrompTugal__App__iOS (the iPhone and iPad app)
+- github.com/SGit-AI/SGit-AI__Website__Web-Summit (the Web Summit team's site, the team's agents and investor section)
+- sgit (`pip install sgit-ai`, sgit.ai): vaults, keys, append lanes; SHarness (`pip install sharness-ai`, riskmandate.ai/secure-harness.html)
+- newsroom.sgit.ai (the first newsroom; the reading meter and vault), open-source.sgit.ai (the strategy)
