@@ -110,7 +110,9 @@
     "decks_all": "Todas las presentaciones",
     "decks_seq": "Todas las diapositivas de un vistazo",
     "articles_title": "Para leer y compartir",
-    "articles_all": "Todos los artículos"
+    "articles_all": "Todos los artículos",
+    "glance_title": "De un vistazo",
+    "glance_alt": "PrompTugal de un vistazo: qué es, dónde está, las ocho fuentes de ingresos, las dos fases, la ronda semilla de menos de 1 M€ y lo que pedimos (infografía en inglés, hecha con el modelo de imagen Gemini de Google a partir de las nueve presentaciones)."
   },
   "aud": {
     "invest": {
@@ -356,7 +358,8 @@
     "issue_t": "Abra un issue",
     "issue_d": "Para desarrolladores, y para cualquier error del sitio: en público, en el repositorio.",
     "issue_cta": "Abrir un issue",
-    "privacy": "Nada de lo que escriba se publica aquí."
+    "privacy": "Nada de lo que escriba se publica aquí.",
+    "info_alt": "A quién queremos escuchar: seis lectores, lo que pedimos a cada uno y lo que recibe cada uno (infografía en inglés, hecha con el modelo de imagen Gemini de Google)."
   },
   "thanks": {
     "title": "Gracias",
