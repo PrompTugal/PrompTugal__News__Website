@@ -16,11 +16,38 @@
   .x5-arrows { display: grid; grid-template-columns: repeat(6, 1fr); gap: 20px; height: 44px; }
   .x5-arrows span { display: block; margin: 0 auto; width: 0; height: 0; border: 16px solid transparent; border-bottom: 24px solid var(--ink); border-top: 0; margin-top: 10px; }
   .x5-not { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 50px; }
-  .x5-not div { border: 2px dashed #6b6c72; padding: 24px 26px; }
+  .x5-not > div { border: 2px dashed #6b6c72; padding: 24px 26px; }
   .x5-not .k { font: 500 20px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: #ff7a7f; }
   .x5-not p { font: 400 23px/1.4 var(--sans); color: #c8c4ba; margin-top: 12px; }
   .x5-decks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 44px; }
   .x5-decks .tag { color: #8fd18f; } .x5-decks p { font: 400 22px/1.35 var(--sans); color: #c8c4ba; }
+  .x5-not > .given { border: 2px solid #4caf50; background: #1d1e23; }
+  .x5-not .given .k { color: #8fd18f; } .x5-not .given p { color: var(--paper); }
+  .x5-two { display: grid; grid-template-columns: 1fr 260px 1fr; margin-top: 50px; align-items: stretch; }
+  .x5-two .card h3 { font-size: 40px; } .x5-two .card p { font-size: 24px; }
+  .x5-two .card.c { background: #eef2f9; }
+  .x5-exit { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; position: relative; padding: 0 18px; }
+  .x5-exit::before { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; border-left: 5px dashed var(--red); }
+  .x5-exit div { position: relative; background: var(--paper); padding: 16px 6px; }
+  .x5-exit .k { font: 500 20px/1.2 var(--mono); letter-spacing: .12em; color: var(--red); }
+  .x5-exit p { font: 400 20px/1.35 var(--sans); color: var(--ink-2); margin-top: 8px; }
+  .x5-after { display: grid; grid-template-columns: 1.15fr 1fr; gap: 48px; margin-top: 40px; align-items: start; }
+  .x5-after blockquote { font: 400 italic 34px/1.3 var(--serif); color: var(--ink); border-left: 8px solid var(--green); padding: 4px 0 4px 30px; }
+  .x5-after blockquote .who { display: block; font: 500 18px/1 var(--mono); font-style: normal; letter-spacing: .12em; text-transform: uppercase; color: var(--green); margin-top: 18px; }
+  .x5-after .door { border: 2px dashed var(--cobalt); padding: 22px 28px; }
+  .x5-after .door .k { font: 500 19px/1.2 var(--mono); letter-spacing: .12em; color: var(--cobalt); }
+  .x5-after .door p { font: 400 23px/1.4 var(--sans); color: var(--ink-2); margin-top: 10px; }
+  .x5-qs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; margin-top: 50px; }
+  .x5-qs .card { padding: 34px 34px 30px; display: flex; flex-direction: column; }
+  .x5-qs .qq { font: 600 46px/1.12 var(--serif); letter-spacing: -.01em; color: var(--paper); }
+  .x5-qs .card p { font-size: 23px; margin-top: 18px; }
+  .x5-qs .where { margin-top: auto; padding-top: 22px; font: 500 19px/1.3 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: #8fd18f; }
+  .x5-yes { display: flex; align-items: baseline; gap: 34px; margin-top: 54px; }
+  .x5-yes .big { font: 600 84px/1 var(--serif); letter-spacing: -.02em; color: var(--paper); }
+  .x5-yes .big .g { color: #8fd18f; }
+  .x5-yes .who { font: 500 20px/1.3 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: #9a978f; }
+  .x5-involved { font: 400 italic 26px/1.4 var(--serif); color: var(--ink-2); margin-top: 26px; border-left: 6px solid var(--green); padding-left: 24px; }
+  .x5-involved .who { display: block; font: 500 17px/1 var(--mono); font-style: normal; letter-spacing: .12em; text-transform: uppercase; color: var(--green); margin-top: 12px; }
 </style>
 </head>
 <body><main class="deck">
@@ -340,7 +367,25 @@
   <div class="foot"><span class="wordmark" data-i18n="s12.24"></span><span data-i18n="s12.25"></span></div>
 </section>
 
-<!-- 13 · what investors get -->
+<!-- 13 · two phases, realistic: the exit -->
+<section class="slide">
+  <div class="head"><span><b data-i18n="x13.1"></b></span><span data-i18n="x13.2"></span></div>
+  <div class="kicker" data-i18n="x13.3"></div>
+  <h2 style="font-size:66px" data-i18n="x13.4"></h2>
+  <div class="x5-two">
+    <div class="card g"><div class="n" data-i18n="x13.5"></div><h3 data-i18n="x13.6"></h3><p data-i18n="x13.7"></p></div>
+    <div class="x5-exit"><div><div class="k" data-i18n="x13.8"></div><p data-i18n="x13.9"></p></div></div>
+    <div class="card c"><div class="n" data-i18n="x13.10"></div><h3 data-i18n="x13.11"></h3><p data-i18n="x13.12"></p></div>
+  </div>
+  <div class="x5-after">
+    <blockquote data-i18n="x13.13"></blockquote>
+    <div class="door"><div class="k" data-i18n="x13.14"></div><p data-i18n="x13.15"></p></div>
+  </div>
+  <div class="src" style="margin-top:26px" data-i18n="x13.16"></div>
+  <div class="foot"><span class="wordmark" data-i18n="x13.17"></span><span data-i18n="x13.18"></span></div>
+</section>
+
+<!-- 14 · what investors get -->
 <section class="slide">
   <div class="head"><span><b data-i18n="s13.1"></b></span><span data-i18n="s13.2"></span></div>
   <div class="cols w40 center" style="height:100%;margin-top:0;gap:60px">
@@ -352,6 +397,7 @@
         <li data-i18n="s13.6"></li>
         <li data-i18n="s13.7"></li>
       </ul>
+      <p class="x5-involved" data-i18n="x14.1"></p>
     </div>
     <div>
       <div class="shot"><div class="bar"><i></i><i></i><i></i><span data-i18n="s13.8"></span></div><img src="shots/newsroom.jpg" alt="The newsroom section: every agent, run, plan and release, in public"></div>
@@ -361,13 +407,27 @@
   <div class="foot"><span class="wordmark" data-i18n="s13.10"></span><span data-i18n="s13.11"></span></div>
 </section>
 
-<!-- 14 · not on these slides, and how to engage -->
+<!-- 15 · the investor's three questions -->
+<section class="slide v ink">
+  <div class="head"><span><b data-i18n="x15.1"></b></span><span data-i18n="x15.2"></span></div>
+  <div class="kicker" data-i18n="x15.3"></div>
+  <h2 data-i18n="x15.4"></h2>
+  <div class="x5-qs">
+    <div class="card g"><div class="n" data-i18n="x15.5"></div><div class="qq" data-i18n="x15.6"></div><p data-i18n="x15.7"></p><div class="where" data-i18n="x15.8"></div></div>
+    <div class="card g"><div class="n" data-i18n="x15.9"></div><div class="qq" data-i18n="x15.10"></div><p data-i18n="x15.11"></p><div class="where" data-i18n="x15.12"></div></div>
+    <div class="card g"><div class="n" data-i18n="x15.13"></div><div class="qq" data-i18n="x15.14"></div><p data-i18n="x15.15"></p><div class="where" data-i18n="x15.16"></div></div>
+  </div>
+  <div class="x5-yes"><div class="big" data-i18n="x15.17"></div><div class="who" data-i18n="x15.18"></div></div>
+  <div class="foot"><span class="wordmark" data-i18n="x15.19"></span><span data-i18n="x15.20"></span></div>
+</section>
+
+<!-- 16 · not on these slides, and how to engage -->
 <section class="slide v ink">
   <div class="head"><span><b data-i18n="s14.1"></b></span><span data-i18n="s14.2"></span></div>
   <div class="kicker" data-i18n="s14.3"></div>
   <h2 data-i18n="s14.4"></h2>
   <div class="x5-not">
-    <div><div class="k" data-i18n="s14.5"></div><p data-i18n="s14.6"></p></div>
+    <div class="given"><div class="k" data-i18n="s14.5"></div><p data-i18n="s14.6"></p></div>
     <div><div class="k" data-i18n="s14.7"></div><p data-i18n="s14.8"></p></div>
     <div><div class="k" data-i18n="s14.9"></div><p data-i18n="s14.10"></p></div>
     <div><div class="k" data-i18n="s14.11"></div><p data-i18n="s14.12"></p></div>

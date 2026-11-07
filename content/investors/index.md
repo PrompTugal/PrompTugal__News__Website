@@ -56,7 +56,7 @@ Dinis Cruz, founder and CTO, is looking for **investors and business partners** 
 
 ## Two phases, said plainly {#phases}
 
-Phase one is the explorers' phase: a small team, a seed round, about a year to prove the company can be profitable, and an exit for the first round of founders and investors. Phase two (more professional, more execution, more events, growth) is a different type of company, and Dinis Cruz says so: he likes to start companies and prepares his own exit from the beginning ("making myself redundant is what good leadership should do"). If PrompTugal really takes off, it becomes his next three years; he does not close that door, but he is pragmatic about what is most likely.
+Phase one is the explorers' phase: a small team and a seed round, to prove the company can be profitable and ready for Series A, ending in an exit for the first round of founders and investors (no date is set). Phase two (more professional, more execution, more events, growth) is a different type of company, and Dinis Cruz says so: he likes to start companies and prepares his own exit from the beginning ("making myself redundant is what good leadership should do"). If PrompTugal really takes off, it becomes his next three years; he does not close that door, but he is pragmatic about what is most likely.
 
 **The investor's three questions:** can this be a profitable business? Can this company be bought in the future? Is this the team to execute it? If the answer is yes, yes, yes, invest. ([The investment, deck 5](decks/index.html).)
 
@@ -64,7 +64,7 @@ Phase one is the explorers' phase: a small team, a seed round, about a year to p
 
 - **The legal entity:** My Feeds (MYFEEDS AI, UNIPESSOAL, LDA), a Portuguese single-member limited company in the Algarve, and the publisher of PrompTugal.news. The ideas behind PrompTugal began as My Feeds, a personalised news project; the company is expected to take the PrompTugal name.
 - **Ownership:** Dinis Cruz is its sole director and 100% shareholder.
-- **The round:** a seed round of **under $1M**, for the explorer phase: about a year to make the company profitable and ready for Series A. Valuation, split and terms are for a conversation; revenue, costs and projections are not published because we do not have them to give honestly yet.
+- **The round:** a seed round of **under $1M**, for the explorer phase: to make the company profitable and ready for Series A. Valuation, split and terms are for a conversation; revenue, costs and projections are not published because we do not have them to give honestly yet.
 - Source: Dinis Cruz, 7 November 2026 ([the decision](../newsroom/decisions/promptugal-for-investors/index.html)).
 
 ## Talk to us {#contact}
