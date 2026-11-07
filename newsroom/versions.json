@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.553",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 14:05: 55 commits clean, S29 (deck.js changed unreviewed) to dev@, S28 not yet on dev",
+    "by": "security@PrompTugal.dinis",
+    "from": "4f1013a5d"
+  },
+  {
     "version": "v0.1.552",
     "date": "2026-11-07",
     "what": "investors@PrompTugal.dinis: synthetic investors run 2: findings, fixes queued, seven questions for Dinis",
