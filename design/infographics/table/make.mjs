@@ -40,7 +40,7 @@ const html = `<!doctype html><meta charset=utf-8><style>
 h1{font:600 38px/1.1 Newsreader;max-width:1100px}.rule{width:84px;height:4px;background:#006600;margin:14px 0 18px}
 table{border-collapse:separate;border-spacing:3px;font-size:${rows.length > 12 ? 17 : 20}px}th{font:600 15px Plex;text-align:center;padding:0 10px 4px;color:#3f424a}
 th.l,td.l{text-align:left;padding-right:18px}td{text-align:center;min-width:${Math.min(150, Math.floor(700 / cols.length))}px;padding:${rows.length > 12 ? 4 : 7}px 8px;background:#ece7db;font-variant-numeric:tabular-nums}
-td.l{background:none;font-weight:600}td.x{background:none;color:#595c64;font:14px Mono}td.b{background:#c52830;color:#f6f3ec;font-weight:700}
+td.l{background:none;font-weight:600;white-space:nowrap}td.x{background:none;color:#595c64;font:14px Mono;text-align:left;padding-left:14px;max-width:330px}td.b{background:#c52830;color:#f6f3ec;font-weight:700}
 .foot{position:absolute;left:48px;right:48px;bottom:24px;display:flex;justify-content:space-between;align-items:center;font:13px Mono;color:#595c64}.foot img{width:40px;height:40px}
 </style><h1>${esc(title)}</h1><div class=rule></div>
 <table><tr><th class=l></th>${cols.map(c => `<th>${esc(c)}</th>`).join('')}${extra >= 0 ? '<th></th>' : ''}</tr>
