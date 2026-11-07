@@ -1,8 +1,8 @@
 {
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
-  "state": "the investor site (four languages, navigation first) and deck 0 released; personal versions built, waiting for dev@ and security@ to serve persona.js",
-  "updated": "2026-11-07T20:30Z",
+  "state": "investor site live in four languages; personal versions live (dev@ served persona.js; five fictional demos open in their language, slides changed); image run started with the topped-up key",
+  "updated": "2026-11-07T18:40Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -36,17 +36,18 @@
     "At Dinis's word: all amounts in euros in every language; decks stay in four languages, with a vote page for the next one (/investors/languages/) and a + vote link in the player (waits on dev@ to serve it)",
     "15:23 wake: Spanish and French terms made consistent (fr en ligne, tour seed; es en vivo); decks 4 to 9 re-rendered; asked observability@ for the language-vote counts by via tag; asked dev@ again to serve the player",
     "At Dinis's word (16:00): the investor area as its own site in four languages (/investors/, /pt/, /es/, /fr/): home by audience, six audience pages with routes through the decks, the decks page, every slide in sequence, contact, thanks, five articles for LinkedIn, the library; deck 0, the map; personal versions (tools/persona.mjs, site/persona.js, five fictional demos with QR codes at /investors/personas/)",
-    "Round two of the investor site after five synthetic readers (phone and desktop, four languages): header fits in every language, Contact as a pill, a feedback button on phones, the location lookup disclosed in the footer and the click note made exact, a route for those who fund media, the bridge figure labelled a simulation, every slide at a glance (collapsible), translated titles without the Investors: prefix, dates in each language, Spanish usted throughout, French Développeurs; deck.js taps to turn slides on phones (waits on dev@)"
+    "Round two of the investor site after five synthetic readers (phone and desktop, four languages): header fits in every language, Contact as a pill, a feedback button on phones, the location lookup disclosed in the footer and the click note made exact, a route for those who fund media, the bridge figure labelled a simulation, every slide at a glance (collapsible), translated titles without the Investors: prefix, dates in each language, Spanish usted throughout, French Développeurs; deck.js taps to turn slides on phones (waits on dev@)",
+    "18:24 wake: dev@ served persona.js and the deck player changes; my working copies now match; personal versions tested live (Javier in Spanish, Helen in English, slide covers changed); OpenRouter key topped up, image run started"
   ],
   "next": [
     "Synthetic readers on the new site (phone and desktop) and a second design round",
-    "dev@ and security@: serve persona.js (board/team/dev/investors/) and add it to the deck pages; deck.js print fix and + vote",
     "observability@: an investors lane, counts by page, language and via tag",
-    "Infographics once the OpenRouter key has credit",
-    "Count the language votes (?via=vote-<code> on /investors/language-vote/) with observability@, and publish the result on /investors/languages/"
+    "Count the language votes (?via=vote-<code> on /investors/language-vote/) with observability@, and publish the result on /investors/languages/",
+    "Images: the full-text experiment (Gemini and GPT image, all nine decks and a PDF), info-decks, info-audiences, six heroes; then use the good ones on the site",
+    "Real people: in a separate session Dinis starts (board/team/investors/packs-session-seed.md)"
   ],
   "asks": [
-    "Dinis: the OpenRouter key is out of credit ($0.79 of its $20 limit left; OpenRouter refuses images under $1): the infographic experiments (all nine decks to GPT image and Gemini) need about $8 to $9 of headroom at openrouter.ai, settings, keys",
+    "Dinis: personal versions on vaults (your design, board/team/investors/dinis-2026-11-07-personal-versions-vaults.md): (1) a vault write token for creating the people vault and the keys vault (the site's register says not issued); (2) the public key of your DC vault of vaults, to seal the keys vault to; (3) sign each person's key yourself, or investors@ signs until then?",
     "Dinis: the address of your Gen ZX founders book and presentation (not found on sgit.ai or its network; genzx.sgit.ai does not resolve)",
     "Dinis: may deck 5 say 'a seed round of under $1M' publicly, and 'designed to be sold within about 18 months'? Until you say yes, it says 'seed round, size in conversation'",
     "Dinis: decks as HTML pages need a build feature (dev@'s); say if investors@ should write it for dev@'s review",
@@ -54,7 +55,6 @@
     "abp@: a policy for this role with content/investors/ in its grant (Dinis's word, 7 November); until then my run reports count those writes as R6 breaches (asked on abp@'s inbox 02:55Z)",
     "dev@: allow dinis.agent@promptugal.news on /investors/ (check 7), and a home for HTML slide decks the page checks skip (asked 7 Nov)",
     "Dinis: the unpaid wording (\"sem remuneração\", \"voluntário\") reads in Portugal as unpaid labour; keep it, or say \"voluntary collaboration, no contract\"?",
-    "Dinis: My Feeds is an Lda: new partners mean a change of form (pluripessoal Lda or SA); may the investment deck say so?",
-    "Dinis: where should real people's personal versions live (their sealed packs)? Proposed: a private vault, not this public repository; until you decide, only the five fictional demos exist"
+    "Dinis: My Feeds is an Lda: new partners mean a change of form (pluripessoal Lda or SA); may the investment deck say so?"
   ]
 }

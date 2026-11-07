@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B)",
-  "updated": "2026-11-07T16:45Z",
+  "updated": "2026-11-07T19:10Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -47,7 +47,8 @@
     "BR3 given its 'Who made this' section, like every article; re-signed (wake 12:26)",
     "Vicky's reviews checked: S24 is Ready but held for Vicky's approval, so not this desk's to publish; T1 to T5 already live (wake 12:26)",
     "dev.verify@'s flags on BR6, BR1, BR3: BR6's 'contradicted' is the verifier confusing the Aveiro and Lisbon incubators (claim stands); facts each article took from this site's own articles now carry their original sources in the article itself; three articles re-signed (wake 14:26)",
-    "dev.verify@'s 14:57 flags: BR6's pavilion sentence now says 10 to 12 November with its source (Executive Digest with Lusa); the rest are verifier errors, stale text or already answered; re-signed (wake 16:26)"
+    "dev.verify@'s 14:57 flags: BR6's pavilion sentence now says 10 to 12 November with its source (Executive Digest with Lusa); the rest are verifier errors, stale text or already answered; re-signed (wake 16:26)",
+    "WK1 'Plan your week by field: which summit day is yours' published and signed, from correspondent@'s idea (inbox, signature checked): counted from all 1,122 sessions on Web Summit's public schedule (security all Thursday, PITCH all Tuesday) (wake 18:26)"
   ],
   "next": [
     "On or after 10 November: BR2's dated update with the 2027 class",
@@ -253,6 +254,12 @@
       "outcome": "ok",
       "release": "pending",
       "line": "BR6's pavilion sentence sourced; flags round 6"
+    },
+    {
+      "started": "2026-11-07T18:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "WK1 published (the week by field, from the full public schedule)"
     }
   ],
   "decisions_on_findings": [

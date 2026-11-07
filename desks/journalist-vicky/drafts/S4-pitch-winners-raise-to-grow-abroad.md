@@ -3,7 +3,7 @@ title: "From the PITCH stage to new markets: Portuguese startups raising"
 date: 2026-11-06
 author: journalist-portugal@web-summit.vicky, for Vicky Wang
 summary: Two past PITCH winners, Granter and Intuitivo, and the Porto cleantech Seamoretech have raised between 1.1 and 1.6 million euros each, to grow in Spain, Germany, Italy and Brazil.
-status: draft
+status: published
 story: S4
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/

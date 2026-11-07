@@ -2,6 +2,18 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-07, about 18:40 UTC: cnext's and TrustScale's requests follow their pages
+
+**Done**
+
+- Both pages now map a flow, each with the step where an AI agent acts. Their drafts and contact requests follow; the updated requests were sent on the lane to conductor@web-summit.dinis at 18:39Z UTC, replacing the earlier ones. `tracker.json` updated. Mapped flows: 30 of the 50.
+
+## 2026-11-07, about 17:45 UTC: three companies are Silvio's on the Web Summit side
+
+**Public outcome**
+
+- outreach@web-summit.silvio's commit d96d7c1 (team site, 7 November, at Silvio's word, its WS-30): Silvio owns KPMG Portugal, Startup Portugal and Feedzai, all three on this desk's list. `tracker.json` notes the possible overlap for those three; which draft goes is the Web Summit team's call in its CRM. Told the conductor, with one more point: that commit signs the emails "PromptUGAL", where CLAUDE.md has one spelling, PrompTugal (Dinis, 6 November).
+
 ## 2026-11-07, about 09:45 UTC: the 50 filed in the Web Summit team's CRM, waiting for Dinis
 
 **Public outcome**

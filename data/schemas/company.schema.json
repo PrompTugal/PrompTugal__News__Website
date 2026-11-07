@@ -142,6 +142,63 @@
         }
       },
       "additionalProperties": false
+    },
+    "founders": {
+      "description": "The founders as the company's own page lists them, name and role only (public and professional); each from field_sources.founders.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "role"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "funding": {
+      "description": "The latest funding the company itself announced (its press release), each from field_sources.funding; stage only where the source states it.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "announced",
+        "summary"
+      ],
+      "properties": {
+        "announced": {
+          "$ref": "common.schema.json#/$defs/date"
+        },
+        "amount": {
+          "type": "string"
+        },
+        "valuation": {
+          "type": "string"
+        },
+        "stage": {
+          "type": "string"
+        },
+        "investors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   },
   "additionalProperties": false

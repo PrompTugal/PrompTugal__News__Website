@@ -327,7 +327,8 @@
       "7-join-us": "Um CEO do setor das notícias, jornalistas, ajuda esta semana",
       "8-do-it-yourself": "Os repositórios abertos, a stack, o roteiro; a vantagem são as decisões",
       "9-the-tour": "O que está no ar, numa visita guiada animada"
-    }
+    },
+    "info_alt": "Como as dez apresentações se encaixam: primeiro a 0, o mapa, depois da 1 à 9, e quais lê primeiro cada leitor (infografia em inglês, feita com o modelo de imagem Gemini, da Google)."
   },
   "sequence": {
     "title": "Todos os diapositivos num relance",

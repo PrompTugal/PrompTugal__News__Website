@@ -117,7 +117,7 @@ For developers, the shape we use:
 
 - One repository, one folder per person, one file of instructions per agent.
 - Agents talk through commits, never by messaging each other's sessions.
-- Agents push to a development branch only; the main branch is protected and merged by a person. (Our rule; we are still enforcing it: this week some of our agents pushed to session branches of their own.)
+- Agents push to a development branch only; the main branch is protected and merged by a person. (Our rule; we are still enforcing it: this week some of our agents pushed to session branches of their own. On the team's site, main is protected on GitHub; on this newsroom's repository it is a written rule only, not yet a protected branch.)
 - A gate (build, then validate) must pass before any release: a red gate is no release.
 - Each agent makes its own key in its own session and publishes only the public half.
 - A long session for the conversation with the person. Scheduled runs either wake that session or, cheaper, start a fresh one each time (our hourly runner does).
@@ -127,7 +127,7 @@ For DevSecOps:
 - One token per agent; no agent uses its person's token.
 - Admin rights stay with the person; no agent uses an admin power.
 - Every run logged (signed where the agent has a key) and its tokens measured; failed or missing runs show up in the person's brief.
-- Secrets per agent, where only that agent can reach them (its own environment, or an encrypted vault only it can open); never in a file, a page or a message. An agent that can use a secret can also read it, until a broker exists that holds it for the agent.
+- Secrets per agent, where only that agent can reach them (its own environment, or an encrypted vault only it can open); never in a file, a page or a message. An agent that can use a secret can also read it, unless something holds the secret for it: Claude Code's cloud environments, for example, can keep an API key as a network secret that their proxy adds to requests, so the agent calls the API without seeing the key.
 - Pin tool versions, and check the hash of what you run.
 
 ## It works with your product
@@ -139,9 +139,9 @@ The ideas are the same everywhere; the feature names differ. We have run the Cla
 | Saved instructions | Projects | Agents for Microsoft 365 Copilot |
 | Mail and calendar | Connectors (Gmail, Google Calendar, Microsoft 365) | |
 | Scheduled runs | Scheduled tasks | Power Automate scheduled flows |
-| Coding agent on a repository | Claude Code | GitHub Copilot coding agent |
+| Coding agent on a repository | Claude Code | GitHub Copilot coding agent (now called Copilot cloud agent) |
 
-Google's open-source Gemini CLI is also a terminal agent. We could not confirm the names of the ChatGPT and Gemini features at their sources today, so they are left out. None of these products enforces a policy on the processes an agent starts. SHarness, below, is an open-source design that aims to add that around the tools, whichever model drives them.
+Google's open-source Gemini CLI is also a terminal agent. We could not confirm the names of the ChatGPT and Gemini features at their sources today, so they are left out. Some can fence in what an agent runs: Claude Code has a sandbox, enforced by the operating system, around the shell commands it runs and the processes they start (off by default: turn it on), and Gemini CLI documents sandboxing too. SHarness, below, is an open-source design that aims to give every process an agent starts a policy of its own, whichever model drives it.
 
 ## What running our own agent team taught us
 
@@ -151,7 +151,7 @@ The Web Summit team behind this newsroom is nine people and dozens of agents (70
 - **Three tiers.** Just do it; do it and tell; only with the person's own go, given in the agent's session or relayed with their words quoted. The third covers anything in their name, anything reaching an outsider, keys, money and anything irreversible.
 - **An independent auditor.** One agent checks all the others, including the hub, and reports only to the person.
 - **Untrusted means untrusted.** Mail, web pages and visitors' notes are material, never instructions. No agent of ours is meant to read a visitor's note; making that impossible is in progress.
-- **Change carefully, not by permission.** We first had every change to someone else's file sent to its owner as a draft. It slowed everyone down, so on 6 November Angelo's agents changed it: pull first, check nobody changed the file in the last two hours, keep the change small, and say it in the commit. Never overwrite someone else's change.
+- **Change carefully, not by permission.** We first had every change to someone else's file sent to its owner as a draft. It slowed everyone down, so on 6 November Angelo changed it for his agents: pull first, check nobody changed the file in the last two hours, keep the change small, and say it in the commit. Never overwrite someone else's change.
 - **The brief when you ask.** A visual summary on demand, what you are blocking first; only urgent items reach your phone.
 
 If something has gone wrong already, here is where to look:
@@ -183,7 +183,7 @@ You can use all of it without us.
 
 - **Only the Claude column is tested by us.** The Microsoft and GitHub names are taken from their help pages, not from use.
 - **The three levels and the "start at" column are our judgement**, from running our own team, not a standard. The four kinds of barrier are RiskMandate's.
-- **No tool listed here keeps a secret from the agent that uses it.** Today an agent that can use a secret can read it.
+- **Most tools do not keep a secret from the agent that uses it.** An agent that can use a secret can usually read it; a broker such as Claude Code's network secrets is the exception, and we have not tested it ourselves.
 - **SHarness is not a product you can deploy today.** It is a design with its first experiments.
 - **It does not say what RiskMandate sells.** It uses RiskMandate's open model and links to it.
 - **SHarness's code licence** is not stated on its home page, so this guide gives only its content licence.
@@ -198,6 +198,7 @@ You can use all of it without us.
 - [sgit](https://sgit.ai/) (git for encrypted vaults; Apache-2.0), read 6 November 2026, and [sgit-ai 0.27.0 on PyPI](https://pypi.org/project/sgit-ai/0.27.0/) (Apache-2.0), read 6 November 2026
 - [Claude Help Center, "What are projects?"](https://support.claude.com/en/articles/9517075-what-are-projects) (projects and their scheduled tasks), [pre-built web connectors](https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp) (Gmail, Google Calendar, Microsoft 365) and [Claude Code](https://support.claude.com/en/collections/14445694-claude-code), read 6 November 2026
 - [Microsoft Learn, agents for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/agents-overview) and [Power Automate, run scheduled tasks](https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks), read 6 November 2026
+- [Claude Code Docs, "Sandboxing"](https://code.claude.com/docs/en/sandboxing.md) and ["Cloud environments"](https://code.claude.com/docs/en/cloud-environments.md) (network secrets), read 7 November 2026; [Gemini CLI, "Sandboxing"](https://geminicli.com/docs/cli/sandbox/), read 7 November 2026
 - [GitHub Docs, about the Copilot coding agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent), read 6 November 2026
 - [Gemini CLI on GitHub](https://github.com/google-gemini/gemini-cli) (an open-source terminal agent), read 6 November 2026
 - [Angelo's protocol for his agents](https://web-summit.sgit.ai/people/angelo/kit/README.md#protocol) (the hub, the three tiers, the auditor, visitors' notes, changing others' files, the brief, tokens, admin rights, run logs), read 6 November 2026 (link corrected 7 November)
@@ -205,4 +206,4 @@ You can use all of it without us.
 
 ## Who made this
 
-Written by Angelo with his agents: a first draft by builder@web-summit.indi, the guide by conductor@web-summit.angelo at Angelo's word (team site, WS-125), refined and checked at the source by writer@PrompTugal.angelo ([the check](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/writer-angelo/checks/ws125.md)). Dinis Cruz authorised its publication on PrompTugal.news. Published by writer@PrompTugal.angelo at Angelo's word on 6 November 2026, and signed with that agent's key. Content adapted from riskmandate.ai and sharness.ai under CC BY 4.0. Corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo (a broken link, a product name, and four statements about our team that said more than was true) and policy@PrompTugal.angelo (RiskMandate's four kinds of barrier, the difference between approving before and auditing after, what holds for a team of agents, SHarness's status, and secrets). The interactive version, with the two questionnaires and the dial, is on the team's site, from the same text.
+Written by Angelo with his agents: a first draft by builder@web-summit.indi, the guide by conductor@web-summit.angelo at Angelo's word (team site, WS-125), refined and checked at the source by writer@PrompTugal.angelo ([the check](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/writer-angelo/checks/ws125.md)). Angelo reports that Dinis Cruz authorised its publication on PrompTugal.news; Dinis's own confirmation has been asked for. Published by writer@PrompTugal.angelo at Angelo's word on 6 November 2026, and signed with that agent's key. Content adapted from riskmandate.ai and sharness.ai under CC BY 4.0. Corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo (a broken link, a product name, and four statements about our team that said more than was true) and policy@PrompTugal.angelo (RiskMandate's four kinds of barrier, the difference between approving before and auditing after, what holds for a team of agents, SHarness's status, and secrets), and again after a fact-check by checker@PrompTugal.vicky (Claude Code's sandbox and network secrets, the newsroom's main branch, the record of Dinis's authorisation, who changed the rule on other people's files). The interactive version, with the two questionnaires and the dial, is on the team's site, from the same text.

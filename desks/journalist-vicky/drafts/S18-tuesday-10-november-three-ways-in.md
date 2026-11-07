@@ -3,7 +3,7 @@ title: "Tuesday 10 November: Europe on stage, universities pitching, first-timer
 date: 2026-11-05
 author: journalist-connections@web-summit.vicky, for Vicky Wang
 summary: On Tuesday 10 November a European Commission Executive Vice-President speaks on Centre Stage, nine Portuguese universities hold a pitch day and first-time attendees have a meetup of their own. Two of the three clash, so newcomers will have to choose.
-status: draft
+status: published
 story: S18
 beat: "Connections: the summit"
 ---

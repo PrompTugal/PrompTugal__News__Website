@@ -1933,6 +1933,50 @@
     "source": "desks/journalist-vicky/drafts/img/S25-cover-card-2026-11-07.svg (drawn by hand from the article's facts; rendered with Chromium)",
     "checked": "every line against the article and its source (the newsroom's note on the sign-in, 6 November 2026), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
    }
+  },
+  {
+   "slug": "plan-your-week-by-field",
+   "theme": "paper",
+   "layout": "table",
+   "size": "thumb",
+   "file": "plan-your-week-by-field--paper--thumb.png",
+   "auto": true,
+   "made": "2026-11-07",
+   "tool": "design/infographics/table/make.mjs --heading 'Which day is yours' --label Track",
+   "checked": "drawn from the article's own table, no AI; the numbers are the article's"
+  },
+  {
+   "slug": "plan-your-week-by-field",
+   "theme": "ink",
+   "layout": "table",
+   "size": "thumb",
+   "file": "plan-your-week-by-field--ink--thumb.png",
+   "auto": true,
+   "made": "2026-11-07",
+   "tool": "design/infographics/table/make.mjs --heading 'Which day is yours' --label Track",
+   "checked": "drawn from the article's own table, no AI; the numbers are the article's"
+  },
+  {
+   "slug": "plan-your-week-by-field",
+   "theme": "paper",
+   "layout": "table",
+   "size": "card",
+   "file": "plan-your-week-by-field--paper--card.png",
+   "auto": true,
+   "made": "2026-11-07",
+   "tool": "design/infographics/table/make.mjs --heading 'Which day is yours' --label Track",
+   "checked": "drawn from the article's own table, no AI; the numbers are the article's"
+  },
+  {
+   "slug": "plan-your-week-by-field",
+   "theme": "ink",
+   "layout": "table",
+   "size": "card",
+   "file": "plan-your-week-by-field--ink--card.png",
+   "auto": true,
+   "made": "2026-11-07",
+   "tool": "design/infographics/table/make.mjs --heading 'Which day is yours' --label Track",
+   "checked": "drawn from the article's own table, no AI; the numbers are the article's"
   }
  ]
 }

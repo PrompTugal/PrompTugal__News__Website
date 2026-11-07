@@ -3,7 +3,7 @@ title: "Europe in Pavilion 4: the Commission's week at Web Summit"
 date: 2026-11-05
 author: journalist-europe@web-summit.vicky, for Vicky Wang
 summary: The European Commission brings a fireside chat, five masterclasses, an IP panel and stands in Pavilion 4 to Web Summit Lisbon, on AI, data, funding and free supercomputing. The Netherlands brings a national delegation with the help of its embassy in Lisbon.
-status: draft
+status: published
 story: S2
 beat: Europe
 ---

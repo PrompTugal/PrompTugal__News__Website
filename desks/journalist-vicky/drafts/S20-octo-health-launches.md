@@ -4,7 +4,7 @@ date: 2026-11-06
 story: S20
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: Octo Health, founded in Lisbon in 2023, has launched a platform that gathers a person's health records in one place, with lab tests for more than 110 biomarkers, in Portugal and the United States.
-status: draft
+status: published
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: [Portugal, healthtech, Octo Health, Lisbon, 3xP Global, funding]

@@ -4,6 +4,8 @@
 // stack every slide for scrolling); swipe on a phone; #3 in the address opens slide 3. The current slide gets the class
 // "active", so a slide can animate (the live tour). Opened as a file or printed (no #deck-player data): every slide stacked.
 (function () {
+  // only a slide number is ever taken from the address (security@, 7 November 14:05)
+  const slideHash = () => (location.hash.match(/^#\d{1,3}$/) || [''])[0]
     const deck = document.querySelector('.deck'); if (!deck) return
     const slides = [...deck.querySelectorAll('.slide')]
     const mount = document.getElementById('deck-player')
@@ -32,7 +34,7 @@
     if (data) {
         bar = document.createElement('div'); bar.className = 'dp-bar'
         const opts = data.decks.map(d => `<option value="${d.href}"${d.name === data.name ? ' selected' : ''}>${d.name.replace(/^(\d+)-.*/, '$1')}. ${nice(d.name)}</option>`).join('')
-        const langs = Object.entries(data.langs).map(([l, h]) => `<a href="${h}${location.hash}" class="${l === data.lang ? 'on' : ''}" hreflang="${l}">${LN[l] || l}</a>`).join('')
+        const langs = Object.entries(data.langs).map(([l, h]) => `<a href="${h}${slideHash()}" class="${l === data.lang ? 'on' : ''}" hreflang="${l}">${LN[l] || l}</a>`).join('')
         bar.innerHTML = `<a class="brand" href="${data.index}">Promp<span class="t">T</span><span class="u">ugal</span></a>
           <select aria-label="Deck">${opts}</select><span class="dp-langs">${langs}<a class="dp-vote" href="${data.index.replace(/decks\/index\.html$/, 'languages/index.html')}" title="Vote for the next language">+<span class="wide">&nbsp;vote</span></a></span><span class="grow"></span>
           <button data-a="prev" aria-label="Previous">&larr;</button><span class="n"></span><button data-a="next" aria-label="Next">&rarr;</button>
