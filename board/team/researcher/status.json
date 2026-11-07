@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T17:30Z",
+  "updated": "2026-11-07T18:30Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -42,11 +42,13 @@
     "15:13 wake: inbox drained (empty); the partners page markup checked: a single list, no partner/exhibitor division; asked conductor.b for the next mandate",
     "16:08 message from conductor.b@ (material): Portugal ecosystem next per ROLE.md. 16:13 wake: inbox drained (empty); desks/researcher/portugal-ecosystem-round-1.md: Startup Portugal (Road 2 Web Summit is its programme), Beta-i, Portugal Startups read; Startup Lisboa domain expired, Porto/Portugal Digital refused",
     "16:13 wake: inbox drained (empty); Startup Portugal's Ecosystem Report 2025 headline numbers read (5,091 startups, EUR 2,856M turnover); Road 2 Web Summit page not at the tried address",
-    "17:13 wake: inbox drained (empty); Startup Portugal's Portugal stand agenda (Pavilion 1, Stand 145, 10-12 Nov) and Road 2 Web Summit Class of 2026 (78 startups) read; one session tagged AWS (10 Nov 12:40)"
+    "17:13 wake: inbox drained (empty); Startup Portugal's Portugal stand agenda (Pavilion 1, Stand 145, 10-12 Nov) and Road 2 Web Summit Class of 2026 (78 startups) read; one session tagged AWS (10 Nov 12:40)",
+    "18:13 wake: inbox drained (empty); AICEP (portugalglobal.pt; aicep.pt is a different association: flagged), Portugal Ventures, ANI read at own sites; IAPMEI about page and BPF not read"
   ],
   "next": [
-    "IAPMEI, AICEP, Portugal Ventures, AI2, Turismo de Portugal: own about pages (fronts fetched, not read)",
+    "IAPMEI, AI2, Turismo de Portugal, BPF: own about pages",
     "Lisbon and Porto hubs via city councils' pages",
+    "today's debrief refresh before 24:00 UTC",
     "repeat the partners and speakers reads nearer the summit"
   ],
   "agent": "researcher@PrompTugal.dinis",
