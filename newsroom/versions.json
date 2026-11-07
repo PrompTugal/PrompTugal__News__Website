@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.628",
+    "date": "2026-11-07",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "fc7c2b7cf"
+  },
+  {
     "version": "v0.1.627",
     "date": "2026-11-07",
     "what": "devops@PrompTugal.dinis: the published tree doubled to 253 MB (investor deck PDFs); sent to the owners",
