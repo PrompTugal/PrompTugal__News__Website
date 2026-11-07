@@ -1,6 +1,15 @@
-# Verification flags for journalist@ (dev.verify@, 2026-11-06, 23:26 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-07, 04:53 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 28 articles checked, 289 claims, 181 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+A flag is a prompt to re-read the source, not a finding of error. 29 articles checked, 304 claims, 186 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+
+## agent-setup-guide: 5/12 supported by all
+- c1: The vendor feature names in the comparison table were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
+- c2: The Web Summit team behind the newsroom is nine people and dozens of agents. (partly / exaggerated / exaggerated)
+- c3: The team site's keys page showed 70 active agent keys on 6 November. (unsupported / unsupported / unsupported)
+- c4: On 6 November the team changed its rule for editing another agent's file: pull first, check that nobody changed the file in the last two hours, keep the change small, and state it in the commit. (unsupported / unsupported / unsupported)
+- c5: The article was published on 6 November 2026 by writer@PrompTugal.angelo and signed with that agent's key. (unsupported / unsupported / unsupported)
+- c6: Dinis Cruz authorised the guide's publication on PrompTugal.news. (unsupported / unsupported / unsupported)
+- c8: Content in the guide is adapted from riskmandate.ai and sharness.ai under CC BY 4.0. (partly / unsupported / unsupported)
 
 ## angelos-communication-graph: 3/10 supported by all
 - c1: Angelo, a member of the team, built a command centre that draws the team and its AI agents as one map. (supported / partly / supported)
@@ -111,9 +120,12 @@ A flag is a prompt to re-read the source, not a finding of error. 28 articles ch
 
 ## pineapple-waste-to-fish-feed: 10/10 supported by all
 
-## rio-ten-startups-to-lisbon: 10/12 supported by all
-- c1: Web Summit Lisbon runs 9 to 12 November. (partly / supported / supported)
-- c2: Gol opens its first intercontinental route, Rio to Lisbon from Galeão, with five flights a week from 24 November. (partly / partly / supported)
+## rio-ten-startups-to-lisbon: 7/12 supported by all
+- c1: Web Summit Lisbon runs from 9 to 12 November. (supported / supported / partly)
+- c6: Gol's Rio to Lisbon route from Galeão, its first intercontinental route, begins five flights a week from 24 November 2026. (partly / supported / supported)
+- c10: Sebrae says 12 Brazilian states run their own missions to this year's Web Summit. (unsupported / unsupported / unsupported)
+- c11: Nine of the ten startups are from Brazil and sheerME is from Portugal. (contradicted / contradicted / contradicted)
+- c12: Bizuu and AllPetSenior speak in the Startup Showcase. (unsupported / unsupported / unsupported)
 
 ## road-2-web-summit-2026: 8/10 supported by all
 - c6: The 2026 winner is announced at a press conference on Thursday 12 November at 12:30 on Stage 2. (partly / exaggerated / partly)
@@ -137,26 +149,26 @@ A flag is a prompt to re-read the source, not a finding of error. 28 articles ch
 
 ## web-summit-ten-lisbon-years: 10/10 supported by all
 
-## wednesday-11-november-going-abroad: 4/9 supported by all
-- c1: Wednesday 11 November is the summit's busiest day for founders looking at Europe. (unsupported / unsupported / unsupported)
-- c2: The European Commission and its agencies run most of their sessions on Wednesday 11 November. (exaggerated / unsupported / supported)
-- c6: The 15:30 EU funding session and the 16:00 supercomputer session overlap. (partly / supported / supported)
-- c8: The listed times are set by the organisers and can change. (unsupported / unsupported / partly)
-- c9: Web Summit has an app that attendees can check for schedule updates. (partly / exaggerated / partly)
+## wednesday-11-november-going-abroad: 7/12 supported by all
+- c1: Wednesday 11 November is the day on which the European Commission and its agencies run most of their sessions at the summit. (partly / unsupported / partly)
+- c3: The session 'Building AI in Europe: Practical support for innovators' runs from 14:30 to 15:15 in Masterclass 3 and is run by the European Commission, DG CONNECT. (partly / exaggerated / partly)
+- c9: The session 'The next digital frontier' runs from 10:30 to 10:50 on Stage 11 and includes Portugal's Secretary of State for Digitalisation. (unsupported / unsupported / unsupported)
+- c11: Only the AI masterclass and 'The next digital frontier' were found on Web Summit's schedule when it was read on 6 November. (unsupported / unsupported / unsupported)
+- c12: The article's first version was published on 7 November 2026 at 02:50 UTC. (unsupported / contradicted / unsupported)
 
 ## who-does-the-work: 0/12 supported by all
 - c1: The team counted 93 AI agents between its members, based on published public keys. (unsupported / unsupported / contradicted)
-- c2: Dinis runs 38 agents, the most of anyone on the team. (contradicted / unsupported / unsupported)
+- c2: Dinis runs 38 agents, the most of anyone on the team. (unsupported / unsupported / contradicted)
 - c3: Vicky runs 18 agents. (unsupported / unsupported / unsupported)
-- c4: Indi runs 10 agents and Jose runs 10 agents. (contradicted / exaggerated / contradicted)
+- c4: Indi runs 10 agents and Jose runs 10 agents. (contradicted / contradicted / contradicted)
 - c5: Silvio runs 9 agents and Angelo runs 8 agents. (unsupported / unsupported / unsupported)
 - c6: Six people on the team run AI agents: Dinis, Vicky, Indi, Jose, Silvio and Angelo. Nimay works without agents. (contradicted / contradicted / contradicted)
 - c7: The team's keys were read on 6 November 2026. (unsupported / unsupported / unsupported)
-- c8: Of Dinis's 38 agents, 11 work on the team's site and 27 run the PrompTugal.news newsroom. (contradicted / contradicted / exaggerated)
+- c8: Of Dinis's 38 agents, 11 work on the team's site and 27 run the PrompTugal.news newsroom. (contradicted / unsupported / contradicted)
 - c9: Agents that build the sites and design them number 26, the largest job group. (unsupported / unsupported / unsupported)
-- c10: Vicky's 18 agents include five journalists, one per beat. (contradicted / unsupported / error)
-- c11: Ten of Vicky's 18 agents research, write and check the news. (unsupported / contradicted / exaggerated)
-- c12: The team meets visitors at the RiskMandate booth, A1-30 in Pavilion 1 at Web Summit, on Thursday 12 November. (partly / exaggerated / partly)
+- c10: Vicky's 18 agents include five journalists, one per beat. (contradicted / unsupported / contradicted)
+- c11: Ten of Vicky's 18 agents research, write and check the news. (unsupported / unsupported / unsupported)
+- c12: The team meets visitors at the RiskMandate booth, A1-30 in Pavilion 1 at Web Summit, on Thursday 12 November. (supported / exaggerated / supported)
 
 ## your-first-day-at-web-summit: 4/10 supported by all
 - c2: Oriente metro station is about 300 metres from the MEO Arena. (unsupported / unsupported / unsupported)
