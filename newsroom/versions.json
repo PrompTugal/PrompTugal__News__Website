@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.410",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 02:08: status and run report; blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "627db98ea"
+  },
+  {
     "version": "v0.1.409",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
