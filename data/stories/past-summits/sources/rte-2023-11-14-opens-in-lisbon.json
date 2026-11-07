@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "rte-2023-11-14-opens-in-lisbon",
+  "story": "past-summits",
+  "url": "https://www.rte.ie/news/business/2023/1114/1416423-web-summit-opens-in-lisbon/",
+  "title": "Web Summit kicks off in Lisbon amid ex-CEO controversy (RTE, 14 November 2023)",
+  "publisher": "RTE",
+  "published": "2023-11-14",
+  "read_on": "2026-11-07",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "RTE reports the opening of Web Summit 2023 in Lisbon after the founder's resignation as chief executive: the new chief executive addressed it at the opening, more than 300 partners were coming, and 2,600 startups and more than 900 investors were expected."
+}

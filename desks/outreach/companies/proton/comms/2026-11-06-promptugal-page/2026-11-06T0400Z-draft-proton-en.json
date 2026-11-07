@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0400Z-draft-proton-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T04:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Proton: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Proton: could you check it?",
+ "sha256": "56b17cf9f60a5bd17fd691ac4118dd7f91287e64fcc50b919d7b3c6f18c5d4c9",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Proton leading with its page (https://promptugal.news/companies/proton/); asks: write-about (company).",
+ "followups": {
+  "2026-11-09": "Hello again Proton team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/proton/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Proton team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/proton/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

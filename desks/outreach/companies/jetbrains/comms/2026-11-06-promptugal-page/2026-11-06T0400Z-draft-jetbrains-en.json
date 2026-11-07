@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0400Z-draft-jetbrains-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T04:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "JetBrains: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about JetBrains: could you check it?",
+ "sha256": "cf8a3e10f4cdfc1f4bc955175914f821f2423d2f3eaffc0c3b829e82d6150444",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to JetBrains leading with its page (https://promptugal.news/companies/jetbrains/); asks: write-about (company).",
+ "followups": {
+  "2026-11-09": "Hello again JetBrains team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/jetbrains/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello JetBrains team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/jetbrains/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}

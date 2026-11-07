@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0400Z-draft-exa-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T04:00:00Z",
+ "from": "Vicky Wang, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Exa: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Exa: could you check it?",
+ "sha256": "b0ab31c238fa0322e22e3e978a595f3dc7905766b9665fc78e9f3b73bdc10e8a",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Exa leading with its page (https://promptugal.news/companies/exa/); asks: write-about (company).",
+ "followups": {
+  "2026-11-09": "Hello again Exa team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/exa/\n\nBest regards,\nVicky Wang, PrompTugal.news",
+  "2026-11-11": "Hello Exa team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/exa/\n\nThis is our last note. Best regards,\nVicky Wang, PrompTugal.news"
+ }
+}

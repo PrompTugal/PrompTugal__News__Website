@@ -1,0 +1,16 @@
+{
+ "file": "2026-11-06T0400Z-draft-replit-en.eml",
+ "direction": "draft",
+ "language": "en",
+ "date": "2026-11-06T04:00:00Z",
+ "from": "Indi Gupte, editor, PrompTugal.news (proposed; the address once Dinis creates it)",
+ "to": "Replit: the channel the company publishes on its own site (in Silvio's sealed tracker, never here)",
+ "subject": "We built a page about Replit: could you check it?",
+ "sha256": "d11f42a8c65f77b91761a01456a3702db2cd30a0e77745f38374d059d8330626",
+ "attachments": [],
+ "summary": "PrompTugal.news writes to Replit leading with its page (https://promptugal.news/companies/replit/); asks: meet (company).",
+ "followups": {
+  "2026-11-09": "Hello again Replit team,\n\nWeb Summit opens tonight. Your page is here, and a correction or a few lines from you are welcome all week:\nhttps://promptugal.news/companies/replit/\n\nBest regards,\nIndi Gupte, PrompTugal.news",
+  "2026-11-11": "Hello Replit team,\n\nThe summit ends tomorrow, 12 November. If you would like to add to your page, reply this week:\nhttps://promptugal.news/companies/replit/\n\nThis is our last note. Best regards,\nIndi Gupte, PrompTugal.news"
+ }
+}
