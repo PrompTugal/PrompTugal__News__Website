@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.662",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "ebac0725f"
+  },
+  {
     "version": "v0.1.661",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 23:07 wake: account B quiet; nothing blocked",
