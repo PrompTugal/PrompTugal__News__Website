@@ -12,3 +12,5 @@
 .venue-fig-sm { margin: 1rem 0; max-width: 28rem; }
 .venue-fig-sm figcaption { margin: 0 0 .4rem; opacity: 1; }
 .venue-map-sm { max-height: 14rem; }
+.venue-map .vn-area.vn-mine { fill: var(--brand); fill-opacity: .55; stroke: var(--brand); stroke-width: 3.5; }
+.venue-myday .vn-mine-list ul { padding-left: 1.1rem; }
