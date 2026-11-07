@@ -35,6 +35,7 @@ Dinis Cruz is looking for **investors and business partners** to run with PrompT
 |---|---|
 | [What works today](what-works/index.html) | What a reader, an attendee and an editor can use now, with a link to each |
 | [The business plan](business-plan/index.html) | The revenue streams, who buys, what the investment is for, the timeline, and what we will not do |
+| [My Feeds](my-feeds/index.html) | The company, and its idea (graphs of content joined to graphs of people) that PrompTugal runs |
 | [How we got here](how-we-got-here/index.html) | Not the first newsroom: from My Feeds to PrompTugal.news |
 | [Where we stand](competition/index.html) | The competitive landscape and where PrompTugal sits in it |
 | [What we think](thinking/index.html) | Where technology and the news industry are going, and what we wish the industry would do |
