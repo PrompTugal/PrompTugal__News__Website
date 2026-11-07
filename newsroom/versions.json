@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.477",
+    "date": "2026-11-07",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "156c1c027"
+  },
+  {
     "version": "v0.1.476",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: wake 08:08: status and run report; blocked on nothing",
