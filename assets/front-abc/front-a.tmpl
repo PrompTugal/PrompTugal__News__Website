@@ -1,0 +1,33 @@
+<!-- A, the home page (Silvio's mock A, "The Edition", by design@web-summit.silvio; Dinis, 6 November 2026, about 23:20 UTC;
+     board/team/conductor.b/briefs/2026-11-06-home-page-eight-designs.md). Markup and words; filled from data by
+     newsroom/build/features/front-a.mjs. The look: front-abc.css. One of the home page's designs (assets/design/, ?design=a). -->
+<!-- part:page -->
+<div class="fa pt-design" data-design-of="a">
+<div class="fx-w"><div class="fx-top"><time datetime="{{today}}">{{date}} · Lisbon</time><span class="fx-cd" data-at="{{opening_at}}">Opening Night in <b data-cd>{{opening_in}}</b></span><span><a href="search/index.html">Search</a> · <a href="search/index.html">Ask</a> · <a href="login/index.html">Sign in</a></span></div>
+<header class="fa-plate"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a><p>Mapping the universe of AI in Portugal. Every fact sourced and dated.</p></header>
+<nav class="fx-nav fa-nav" aria-label="Sections">{{#nav}}</nav>
+<form class="fx-pb" role="search" action="search/index.html" method="get"><span aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form>
+<p class="fx-pcs">{{#asks}}</p>
+<div class="fa-page">
+<section class="fa-brief"><h2 class="fx-h">The briefing</h2><ol>{{#briefing}}</ol><div class="fx-radar"><p class="fx-rh"><b>AI radar</b><span>companies we follow, by field</span></p>{{#radar}}</div></section>
+{{lead}}
+<section class="fa-now"><h2 class="fx-h">Now and next</h2><ul class="fx-days">{{#days}}</ul><ul class="fx-list">{{#next}}</ul><p class="fx-more"><a href="events/index.html">The whole agenda</a> · <a href="summit/index.html">The summit, day by day</a></p></section>
+</div>
+<section class="fa-more" aria-label="More stories">{{#more}}</section></div>
+</div>
+<!-- part:lead -->
+<section class="fa-lead"><figure>{{figure}}</figure><p class="fx-k">{{kicker}}</p><h1><a href="{{href}}">{{title}}</a></h1><p class="fa-dek">{{dek}}</p><p class="fx-by">{{byline}} · {{minutes}} min read</p>{{pill}}<div class="fa-duo">{{#duo}}</div></section>
+<!-- part:none -->
+<section class="fa-lead"><h1>Our first article is on the way.</h1></section>
+<!-- item:fig --><a href="{{href}}" tabindex="-1">{{picture}}</a><figcaption>AI-made image</figcaption>
+<!-- item:picture --><picture><source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
+<!-- item:pill --><span class="fx-pill" title="{{title}}">{{text}}</span>
+<!-- item:nav --><a href="{{href}}"{{cur}}>{{label}}</a>
+<!-- item:brief --><li><a href="{{href}}">{{title}}</a><small>{{beat}}</small></li>
+<!-- item:duo --><article><p class="fx-k">{{beat}}</p><h2><a href="{{href}}">{{title}}</a></h2><p>{{dek}}</p></article>
+<!-- item:more --><article><a href="{{href}}" tabindex="-1">{{picture}}</a><div><p class="fx-k">{{beat}}</p><h3><a href="{{href}}">{{title}}</a></h3><p>{{dek}}</p></div></article>
+<!-- item:radar --><a class="fx-rr" href="{{href}}"><span>{{name}}</span><i><u style="width:{{pct}}%"></u></i><code>{{n}}</code></a>
+<!-- item:day --><li class="{{cur}}"><a href="{{href}}"><b>{{wd}}</b><span>{{sub}}</span></a></li>
+<!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a></li>
+<!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
+<!-- end -->

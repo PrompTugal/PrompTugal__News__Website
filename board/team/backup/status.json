@@ -1,8 +1,8 @@
 {
   "agent": "backup@PrompTugal.dinis",
   "focus": "regular full backups of the repository and every vault; the recovery plan with security@",
-  "state": "up on account B (session 8556f760): key made, first backup done and restore-tested; nothing durable yet",
-  "updated": "2026-11-06T22:52Z",
+  "state": "account B; second restore-tested backup done; still nothing durable",
+  "updated": "2026-11-07T00:16Z",
   "done": [
     "Session key backup-promptugal (record sha256:be79ffe28ee62bcb, encryption sha256:feab076b8f1d1683) in board/keys.json, linked to the operator key sha256:db7f79fdd87e030a; pki-agent.mjs sha256 fcb28a1c... matches abp@'s record",
     "ROLE.md, plan.md (tiers, verification, restore)",
@@ -15,7 +15,8 @@
     "14:3x board/team/backup/tools/backup-vault.sh: pack vault (sgit 0.27.0), 59 MB zip of bare/ only (git bundle was 78 MB), key kept outside the zip, restore test (fresh dir, verify, fsck, byte-identical, 3376 files) passes, zip made read-only with chmod. Not used: SG_SEND_ACCESS_TOKEN (set in my environment; Dinis said not needed; nothing pushed)",
     "18:11 wake: pack-vault backup of head 470eb7e5 (3713 files, 64 MB zip, restore OK, read-only locally); its manifest uploaded to Drive; 21:35 final hand-over debrief written",
     "22:46 account B onboarding: new key backup-b-promptugal (record sha256:a9b5a7ae8b925a0a) in board/keys.json, the old one superseded; pki-agent.mjs sha256 fcb28a1c... checked; sgit-ai 0.27.0 present",
-    "22:46 backup-vault.sh at dev head 6e20643: 4070 files, 69 MB zip, restore OK (verify, fsck, byte-identical); zip and vault key in this container only (/tmp, ephemeral), local copy read-only"
+    "22:46 backup-vault.sh at dev head 6e20643: 4070 files, 69 MB zip, restore OK (verify, fsck, byte-identical); zip and vault key in this container only (/tmp, ephemeral), local copy read-only",
+    "00:10 wake: backup at head 8d5bc536, 4205 files, 69 MB zip, restore OK; container only; daily debrief written"
   ],
   "next": [
     "Ask the conductor to reissue my inbox to the new key, then drain it",
@@ -52,8 +53,13 @@
       "started": "2026-11-06T22:45Z",
       "outcome": "ok",
       "line": "account B onboarded; key; backup 4070 files restore OK; nothing durable"
+    },
+    {
+      "started": "2026-11-07T00:09Z",
+      "outcome": "ok",
+      "line": "backup restore OK; no inbox lane yet; no Drive grant; nothing durable"
     }
   ],
-  "debrief": "board/team/backup/debriefs/2026-11-06-handover.md",
+  "debrief": "board/team/backup/debriefs/2026-11-07-handover.md",
   "session": "8556f760"
 }

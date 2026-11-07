@@ -140,6 +140,69 @@
       "cron": "9 */6 * * *",
       "started": "2026-11-06T22:45Z",
       "first_prompt": "board/team/conductor.b/account-move/backup.md"
+    },
+    {
+      "agent": "dev@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwC3NLuTFk4KEWu7XKY",
+      "trigger": "trig_01Hw22FveCwW7MNvQXX8dWry",
+      "cron": "8 * * * *",
+      "started": "2026-11-06T23:09Z",
+      "first_prompt": "board/team/conductor/account-move/dev.md"
+    },
+    {
+      "agent": "dev.pages@PrompTugal.dinis",
+      "model": "Sonnet",
+      "session": "session_01Kw9UwBzsHAcGZVxvT8mB5J",
+      "trigger": "trig_01HA1m1cJYE3NgHy7EGG1CMW",
+      "cron": "11 */2 * * *",
+      "started": "2026-11-06T23:09Z",
+      "first_prompt": "board/team/conductor/account-move/dev.pages.md"
+    },
+    {
+      "agent": "dev.search@PrompTugal.dinis",
+      "model": "Sonnet",
+      "session": "session_01Kw9UwBx2Nippdqi6519rZ7",
+      "trigger": "trig_01PJvGPYqhAEJdthcH7xXQQc",
+      "cron": "4 */2 * * *",
+      "started": "2026-11-06T23:09Z",
+      "first_prompt": "board/team/conductor/account-move/dev.search.md"
+    },
+    {
+      "agent": "dev.graphs@PrompTugal.dinis",
+      "model": "Sonnet",
+      "session": "session_01Kw9UwDd5epGb4ejh5VYKbR",
+      "trigger": "trig_01JchLATukuMaNSt5EpkuS7i",
+      "cron": "17 */2 * * *",
+      "started": "2026-11-06T23:09Z",
+      "first_prompt": "board/team/conductor/account-move/dev.graphs.md"
+    },
+    {
+      "agent": "dev.portugal@PrompTugal.dinis",
+      "model": "Sonnet",
+      "session": "session_01Kw9UwF9mtYKs9vSRdsw7My",
+      "trigger": "trig_01HomqaJgohju8jn7zrNbMx7",
+      "cron": "23 */2 * * *",
+      "started": "2026-11-06T23:09Z",
+      "first_prompt": "board/team/conductor/account-move/dev.portugal.md"
+    },
+    {
+      "agent": "dev.data@PrompTugal.dinis",
+      "model": "Sonnet",
+      "session": "session_01Kw9UwCEx76Mi1Vhpt9SkJp",
+      "trigger": "trig_012oZGZ6ngGhEG6WJvpV4wGY",
+      "cron": "31 */2 * * *",
+      "started": "2026-11-06T23:09Z",
+      "first_prompt": "board/team/conductor/account-move/dev.data.md"
+    },
+    {
+      "agent": "dev.verify@PrompTugal.dinis",
+      "model": "Sonnet",
+      "session": "session_01Kw9UwCJ6NJ3x7W7R6g7eum",
+      "trigger": "trig_014DcM989Rgf8xSZuL5nb6XK",
+      "cron": "48 */2 * * *",
+      "started": "2026-11-06T23:09Z",
+      "first_prompt": "board/team/conductor/account-move/dev.verify.md"
     }
   ]
 }

@@ -10,3 +10,7 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (`board/guidance/2026-11
 - **Found:** the gate (check 8) accepts a signature only from an *active* key, so superseding the old key would have failed all 18 articles it signed (the debrief expected them to stay valid). All 18 were re-signed with the new key, unchanged in content; the gate prints OK.
 - Both decisions for Dinis (`the-story-of-the-name`, `registering-and-the-press-pass`) still open.
 - The inbox (`board/inboxes/journalist.json`) is sealed to the old key: asked the conductor to reissue it.
+
+## Wake of 7 November, 00:26 UTC
+
+- The run report (`board/runs/journalist/2026-11-06T22-52-40Z.json`) logs two R8 observations: this session grepped the error output of `sgit pki decrypt`, written to a log in `~/.sg-send/lanes/`, while opening the inbox credentials. What reached the conversation was sgit's passphrase prompt and an EOFError line; no credential was printed, and the log was deleted. Next time: send the decrypt's stderr to the scratchpad, not to the credentials folder, and read only its exit code.

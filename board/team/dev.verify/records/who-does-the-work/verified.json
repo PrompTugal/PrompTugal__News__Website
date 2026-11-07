@@ -1,0 +1,404 @@
+{
+  "$schema": "none",
+  "article": "who-does-the-work",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/data/keys.json",
+      "status": 200,
+      "read": true,
+      "chars": 132221
+    },
+    {
+      "url": "https://promptugal.news/board/keys.json",
+      "status": 200,
+      "read": true,
+      "chars": 127632
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/tree/dev/people",
+      "status": 200,
+      "read": true,
+      "chars": 2679
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/data/team.json",
+      "status": 200,
+      "read": true,
+      "chars": 30883
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/CLAUDE.md",
+      "status": 200,
+      "read": true,
+      "chars": 25009
+    },
+    {
+      "url": "https://promptugal.news/articles/the-first-night-of-promptugal-news.html",
+      "status": 200,
+      "read": true,
+      "chars": 21059
+    },
+    {
+      "url": "https://web-summit.sgit.ai/summit/",
+      "status": 200,
+      "read": true,
+      "chars": 46528
+    }
+  ],
+  "spent_usd": 0.1152,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The team counted 93 AI agents between its members, based on published public keys.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No passage mentions a count of 93 agents or any count based on published public keys; the closest figure, in S6, is 26 agents by the next morning, which is a different count at a different time."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention counting 93 AI agents between the team's members."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "contradicted",
+          "source": "S6",
+          "quote": "26 agents",
+          "note": "The source says the team grew to 26 agents by the next morning, not 93."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "Dinis runs 38 agents, the most of anyone on the team.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S6",
+          "quote": "26 agents",
+          "note": "The debrief says the whole team had 26 agents by the next morning, which is fewer than 38, and no source gives a per-person count for Dinis, so the claim is contradicted by the only total in the sources."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention Dinis running 38 agents or having the most agents on the team."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source states Dinis runs 38 agents or that he has the most agents on the team."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "Vicky runs 18 agents.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The passages show Vicky has at least two named agents (dashboard@web-summit.vicky and conductor@web-summit.vicky) and that each team member has their own agent, but no passage gives a count of 18 agents for Vicky."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources state how many agents Vicky runs or mention 18 agents."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources mention Vicky's agents but do not state that she runs 18 agents."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "Indi runs 10 agents and Jose runs 10 agents.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S4",
+          "quote": "\"automation@web-summit.jose\", \"dev@web-summit.jose\", \"helper@web-summit.jose\"",
+          "note": "The team.json agent lists give Indi six agents and Jose three, not ten each."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S4",
+          "quote": "\"agents\": [ \"messaging@web-summit.indi\", \"factory@web-summit.indi\", \"builder@web-summit.indi\", \"synthetic@web-summit.indi\", \"accountant@web-summit.indi\", \"ux@web-summit.indi\" ]",
+          "note": "The source lists only six agents for Indi and three agents for Jose, so claiming they each run ten agents overstates the figures."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "contradicted",
+          "source": "S4",
+          "quote": "\"agents\": [ \"automation@web-summit.jose\", \"dev@web-summit.jose\", \"helper@web-summit.jose\" ]",
+          "note": "S4 lists only three agents for Jose (and six for Indi), so neither has 10 agents."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "Silvio runs 9 agents and Angelo runs 8 agents.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The passages name agents such as Silvio's dev agent and mention that Angelo's conductor runs Angelo's other agents, but none gives a count of 9 for Silvio or 8 for Angelo."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention that Silvio runs 9 agents or that Angelo runs 8 agents."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided passages mention Silvio and Angelo have agents but do not state the numbers 9 and 8."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "Six people on the team run AI agents: Dinis, Vicky, Indi, Jose, Silvio and Angelo. Nimay works without agents.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S4",
+          "quote": "each with their own agent",
+          "note": "S4 says seven people, including Nimay Parekh, each have their own agent, and Nimay's rules say \"Their agents draft; they send every message.\""
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S4",
+          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), working with a designer (Sarah) and a first friendly (Daniela), each with their own agent",
+          "note": "The source states that each member of the team, including Nimay Parekh, has their own agent."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "contradicted",
+          "source": "S4",
+          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), working with a designer (Sarah) and a first friendly (Daniela), each with their own agent",
+          "note": "The source says seven people, including Nimay, each have their own agent, contradicting the claim that only six run agents and Nimay works without agents."
+        }
+      ],
+      "consensus": "contradicted",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "The team's keys were read on 6 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S2",
+          "quote": "not yet submitted to or confirmed on pki.sgit.ai",
+          "note": "The sources date when the keys were made and pushed to 6 November 2026 and say they were not confirmed on pki.sgit.ai, but none says the team's keys were read on that date."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources state that the team's keys were read on 6 November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source states that the team's keys were read on 6 November 2026; sources only mention keys being made, added, renamed, superseded, or moved on that date."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c8",
+      "claim": "Of Dinis's 38 agents, 11 work on the team's site and 27 run the PrompTugal.news newsroom.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S6",
+          "quote": "a publication run by 26 agents",
+          "note": "The source says the publication is run by 26 agents, not 27, and the sources give no figures for 38 total agents or 11 on the team's site."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S6",
+          "quote": "it is a publication run by 26 agents (17 PrompTugal roles on Opus and 9 workers on Sonnet: seven dotted specialists, researcher@ and backup@), each with its own session, key, inbox, behaviour policy and hourly schedule, working with Vicky's Web Summit desk (eight more agents)",
+          "note": "The source states that the publication is run by 26 agents working alongside an eight-agent desk, rather than 27 running the newsroom and 11 working on the team's site."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "exaggerated",
+          "source": "S6",
+          "quote": "run by 26 agents ... (eight more agents)",
+          "note": "The source says 26 agents run the publication and eight more work with the Web Summit desk, totaling 34, not 38 with 11 and 27."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "Agents that build the sites and design them number 26, the largest job group.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S5",
+          "quote": "sixteen agents (twenty-five with the dotted workers below, once started)",
+          "note": "S5 gives team totals of 16 agents (25 with workers) and does not count build or design agents or say any job group is largest, so the figure of 26 is not in the sources."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention that 26 agents build and design the sites or that this constitutes the largest job group."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source states that 26 agents build and design the sites or that this is the largest job group."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "Vicky's 18 agents include five journalists, one per beat.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S6",
+          "quote": "working with Vicky's Web Summit desk (eight more agents)",
+          "note": "S6 gives Vicky's Web Summit desk as eight agents, not 18, and the passages do not mention five journalists or one journalist per beat."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided passages mention Vicky's Web Summit desk having eight agents and list several individual journalist roles, but do not state that Vicky has 18 agents or that five of them are journalists with one per beat."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "error",
+          "note": "Unexpected end of JSON input"
+        }
+      ],
+      "consensus": "incomplete",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c11",
+      "claim": "Ten of Vicky's 18 agents research, write and check the news.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S6",
+          "quote": "Vicky's Web Summit desk (eight more agents)",
+          "note": "The sources give no count of 18 agents for Vicky and no split of ten researching, writing and checking; the only count, in S6, is eight agents on her Web Summit desk, and the ten in S6 are storylines drafted by her journalists, not agents."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S6",
+          "quote": "Vicky's Web Summit desk (eight more agents)",
+          "note": "The source states that Vicky's desk has eight agents rather than 18, and that her journalists drafted ten storylines rather than being ten separate agents."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "exaggerated",
+          "source": "S6",
+          "quote": "Vicky's Web Summit desk (eight more agents)",
+          "note": "The source says Vicky's Web Summit desk has eight more agents, not 18, and ten more storylines, not ten agents."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c12",
+      "claim": "The team meets visitors at the RiskMandate booth, A1-30 in Pavilion 1 at Web Summit, on Thursday 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S7",
+          "quote": "our stand RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1",
+          "note": "The source supports the booth, pavilion and Thursday 12 November date, but says only that the stand exhibits and does not state that the team meets visitors there."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S7",
+          "quote": "RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1.",
+          "note": "The source confirms RiskMandate exhibits at booth A1-30 in Pavilion 1 on Thursday 12 November 2026, but it does not specifically state that the team meets visitors there."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S7",
+          "quote": "RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1",
+          "note": "The source confirms the RiskMandate stand, date and booth location, but does not explicitly say the team meets visitors there."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}

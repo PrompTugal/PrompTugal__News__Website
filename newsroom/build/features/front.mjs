@@ -13,13 +13,19 @@ const OUT = 'design/infographics/out/'
 const read = f => { try { return JSON.parse(fs.readFileSync(new URL(`../../../${f}`, import.meta.url), 'utf8')) } catch { return null } }
 const have = new Set((read(OUT + 'index.json')?.images || []).map(i => i.file))
 const words = Object.fromEntries((read('design/infographics/articles.json')?.articles || []).map(a => [a.slug, a]))
-export const imageOf = (ctx, page, a, size) => {
+// an article's image as data ({ src, alt }, or null), for a fill that writes markdown (imageOf) or a component (front-e)
+export const imageFile = (a, size) => {
     const slug = a.rel.replace(/^articles\//, '').replace(/\.html$/, '')
     const file = `${slug}--paper--${size}.png`
-    if (!have.has(file)) return ''
+    if (!have.has(file)) return null
     const w = words[slug]
     const alt = (w ? `${w.short_title}: ${w.figure?.value ? w.figure.value + ' ' + w.figure.label : w.points?.[0]?.text}` : a.meta.title).replace(/[\[\]()]/g, '')
-    return `![${alt}](${ctx.link(page.rel, OUT + file)})`
+    return { src: OUT + file, alt }
+}
+export const figureOf = a => words[a.rel.replace(/^articles\//, '').replace(/\.html$/, '')]?.figure || null
+export const imageOf = (ctx, page, a, size) => {
+    const i = imageFile(a, size)
+    return i ? `![${i.alt}](${ctx.link(page.rel, i.src)})` : ''
 }
 export const firstSentence = (t, max = 150) => { const s = (t.match(/^.*?[.!?](?=\s|$)/) || [t])[0]; return s.length > max ? s.slice(0, max - 1).replace(/\s+\S*$/, '') + '…' : s }
 
@@ -45,7 +51,7 @@ export function byline(author) {
     const owner = forr || OWNER[domain.split('.').pop()]
     return `${who}, an AI agent${owner ? `, for ${owner}` : ''}`
 }
-const minutes = md => Math.max(1, Math.round(md.replace(/```[\s\S]*?```/g, '').split(/\s+/).filter(Boolean).length / 230))
+export const minutes = md => Math.max(1, Math.round(md.replace(/```[\s\S]*?```/g, '').split(/\s+/).filter(Boolean).length / 230))
 
 // a beat as a link to its topic page (dev.pages@, sherpa F6), when a topic of that name exists; else the plain words
 const beatLink = (ctx, page, beat) => {

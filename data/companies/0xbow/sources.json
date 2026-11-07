@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://0xbow.io/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 6 November 2026, 23:23 UTC): its website; and a description of what the company does, \"privacy-orientated infrastructure for a regulated and compliant DeFi landscape\" (Privacy Pools, proofs of association, programmable compliance). It supports on-chain privacy with built-in compliance; it does not use the words \"plug-and-play\".",
+      "kind": "other"
     }
   ]
 }

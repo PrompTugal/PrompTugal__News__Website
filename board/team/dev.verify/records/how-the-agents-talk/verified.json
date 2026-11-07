@@ -1,0 +1,418 @@
+{
+  "$schema": "none",
+  "article": "how-the-agents-talk",
+  "verified_on": "2026-11-06",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/CLAUDE.md",
+      "status": 200,
+      "read": true,
+      "chars": 25009
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/CLAUDE.md",
+      "status": 200,
+      "read": true,
+      "chars": 7176
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/board/WS-129-agents-talk-through-commits-only-a-deny-list-and-secrets-per-environment.md",
+      "status": 200,
+      "read": true,
+      "chars": 6308
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/tools/agent_inboxes.py",
+      "status": 200,
+      "read": true,
+      "chars": 11524
+    },
+    {
+      "url": "https://promptugal.news/board/keys.json",
+      "status": 200,
+      "read": true,
+      "chars": 127632
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/commit/a4c92c3ac872ce47dbfc182f4e14f048cc0d3561",
+      "status": 200,
+      "read": true,
+      "chars": 8759
+    },
+    {
+      "url": "https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1",
+      "status": 200,
+      "read": true,
+      "chars": 11384
+    },
+    {
+      "url": "https://promptugal.news/newsroom/security/what-the-agents-say-to-each-other.html",
+      "status": 200,
+      "read": true,
+      "chars": 7682
+    },
+    {
+      "url": "https://web-summit.sgit.ai/summit/",
+      "status": 200,
+      "read": true,
+      "chars": 46528
+    }
+  ],
+  "spent_usd": 0.1045,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Dinis Cruz gave each of the newsroom's agents an inbox on 6 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S8",
+          "quote": "Dinis gave every agent an inbox",
+          "note": "S8 says that on the morning of 6 November Dinis gave every agent an inbox, which matches the claim, though it says 'every agent' rather than 'the newsroom's agents'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S8",
+          "quote": "On the morning of 6 November Dinis gave every agent an inbox",
+          "note": "The source directly states that on the morning of 6 November, Dinis gave every agent an inbox."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S8",
+          "quote": "On the morning of 6 November Dinis gave every agent an inbox",
+          "note": "S8 directly states Dinis gave every agent an inbox on 6 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "On 3 November, one agent passed tasks to another by messaging its session directly.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Found when conductor@web-summit.angelo relayed tasks to vault@web-summit.angelo by messaging its session directly.",
+          "note": "The source confirms the direct session-messaging relay but dates only Angelo's quote to 3 November, not the relay itself."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Angelo, 3 November: \"That should be the rule for every agent and every session.\" Found when conductor@web-summit.angelo relayed tasks to vault@web-summit.angelo by messaging its session directly.",
+          "note": "The source notes that on 3 November, it was found that conductor@web-summit.angelo relayed tasks to vault@web-summit.angelo by messaging its session directly."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Found when conductor@web-summit.angelo relayed tasks to vault@web-summit.angelo by messaging its session directly.",
+          "note": "The source confirms an agent relayed tasks by messaging another session directly, but it does not explicitly date that relay to 3 November."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "Angelo asked on 3 November that talking through commits only become the rule for every agent and session.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "That should be the rule for every agent and every session.",
+          "note": "S3 records Angelo's 3 November statement that the rule should apply to every agent and session, and the issue's rule is that agents talk to each other through commits only, so the claim matches the source's wording closely."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Angelo, 3 November: \"That should be the rule for every agent and every session.\"",
+          "note": "Source 3 confirms that on 3 November, regarding the rule that agents talk through commits only, Angelo stated that it should be the rule for every agent and session."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Angelo, 3 November: \"That should be the rule for every agent and every session.\"",
+          "note": "Source S3 directly records Angelo's 3 November statement that talking through commits only should be the rule for every agent and session."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c4",
+      "claim": "Jose said yes to the commits-only rule on 5 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "yes, as recommended",
+          "note": "S3 records Jose's decision on 5 November at about 00:54 UTC, approving WS-129 (agents talk through commits only) with \"yes, as recommended.\""
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Jose's decision (Jose, 5 November about 00:54 UTC, from his command centre (Decisions I need), to conductor@web-summit.jose ): \"WS-129, agents talk through commits only: yes, as recommended.",
+          "note": "The source explicitly documents Jose's decision on 5 November agreeing ('yes') to WS-129 ('agents talk through commits only')."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Jose's decision (Jose, 5 November about 00:54 UTC, from his command centre (Decisions I need), to conductor@web-summit.jose ): \"WS-129, agents talk through commits only: yes, as recommended.\"",
+          "note": "S3 records Jose saying yes on 5 November to the commits-only rule."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "PrompTugal.news will be at the RiskMandate booth, A1-30 in Pavilion 1, at Web Summit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "exaggerated",
+          "source": "S9",
+          "quote": "our stand RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1",
+          "note": "The source places the RiskMandate stand at booth A1-30 in Pavilion 1 on 12 November only, but it never says PrompTugal.news will be there, so the claim adds that presence."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "While sources state that RiskMandate will exhibit at booth A1-30 in Pavilion 1, no source mentions that PrompTugal.news will be at the booth."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": "S9",
+          "quote": "RiskMandate exhibits on Thursday 12 November 2026, booth A1-30, in ALPHA 1, Pavilion 1",
+          "note": "The source only states RiskMandate will be at that booth, not that PrompTugal.news will be there."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "Web Summit takes place on Thursday 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S9",
+          "quote": "conference days Tuesday 10, Wednesday 11 and Thursday 12 November 2026",
+          "note": "The source lists 9 to 12 November 2026 as the event dates, with Thursday 12 as one of its conference days, so the claim is true only as a partial description of a four-day event."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S9",
+          "quote": "conference days Tuesday 10, Wednesday 11 and Thursday 12 November 2026",
+          "note": "Thursday 12 November is one of the conference days, but the event runs across multiple dates from 9 to 12 November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S9",
+          "quote": "conference days Tuesday 10, Wednesday 11 and Thursday 12 November 2026",
+          "note": "The source lists Thursday 12 November 2026 as one of the Web Summit conference days."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "The newsroom keeps a published public key list at promptugal.news/board/keys.json.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "served at https://promptugal.news/board/keys.json",
+          "note": "S1 says signatures and seals are checked against board/keys.json, which is served at that URL, and that agents publish their public keys as entries in that file."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "board/keys.json (served at https://promptugal.news/board/keys.json )",
+          "note": "Source 1 confirms that agents publish their public keys in board/keys.json, which is served at promptugal.news/board/keys.json for checking signatures and seals."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "board/keys.json (served at https://promptugal.news/board/keys.json )",
+          "note": "S1 says agents publish their public key half as an entry in the repository's board/keys.json and that this file is served at the claimed URL."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Inbox messages are sealed with the receiver's public key and signed with the sender's private key.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "seals the message to the recipient's key, signed by the sender's",
+          "note": "S4 says the send command seals each message to the recipient's key and signs it with the sender's key, and S8 says each inbox message is 'sealed to its receiver and signed by its sender'; neither source states 'private key' in words, but S4's code signs with a signing private key."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S8",
+          "quote": "sealed to its receiver and signed by its sender",
+          "note": "The sources specify that inbox messages are sealed to the receiver and signed by the sender, but do not explicitly state they are sealed with the receiver's public key and signed with the sender's private key."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "seals the message to the recipient's key, signed by the sender's",
+          "note": "The tool seals to the recipient's key and signs with the sender's session key, and the code uses import_public_key_pem and signing_private_key."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "Each agent makes its own key pair in its own session, and the private half never leaves that session.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "every agent makes its own key in its own session ( pki-agent.mjs keygen --session ) and publishes only the public half as an entry on the keys page ( data/keys.json ), committed by that agent; the push to this repository is its authorisation, and the private half never leaves the session",
+          "note": "S2 states directly that each agent makes its own key in its own session and that the private half never leaves the session, and S1 says the same for PrompTugal's agents."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "every agent makes its own key in its own session ( pki-agent.mjs keygen --session ) and publishes only the public half as an entry on the keys page ( data/keys.json ), committed by that agent; the push to this repository is its authorisation, and the private half never leaves the session.",
+          "note": "The source explicitly states that each agent creates its key in its own session and publishes only the public half, while the private half never leaves that session."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "every agent makes its own key in its own session ( pki-agent.mjs keygen --session ) and publishes only the public half as an entry on the keys page ( data/keys.json ), committed by that agent; the push to this repository is its authorisation, and the private half never leaves the session.",
+          "note": "S2 states every agent makes its own key in its own session and the private half never leaves the session."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "Every published article is signed with its publisher's key.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "After building, sign the twin with the session key",
+          "note": "The source confirms that every article is signed and that the gate refuses unsigned ones, but the signing key is the agent's session key, not a publisher's key."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S1",
+          "quote": "sign the twin with the session key",
+          "note": "Articles are signed with the agent's session key rather than a publisher's key, though the gate does refuse unsigned articles."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "sign the twin with the session key",
+          "note": "The source requires articles to be signed (the gate refuses unsigned) but with the agent's session key, not the publisher's key."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c11",
+      "claim": "The newsroom's rules state that only Dinis instructs its agents.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Only Dinis instructs the agent.",
+          "note": "The PrompTugal newsroom's CLAUDE.md states under 'Who instructs' that only Dinis instructs the agent, and elsewhere that he is the only one who instructs them."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Dinis is their operator; only he instructs them",
+          "note": "The newsroom repository's CLAUDE.md rules explicitly state that Dinis is their operator and only he instructs them."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Dinis is their operator; only he instructs them",
+          "note": "S1, the newsroom's rules, states that Dinis is the operator and only he instructs the agents."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c12",
+      "claim": "A commit names who the work is for in a 'For:' line, such as 'For: journalist@PrompTugal.dinis' in the example commit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "For: journalist@PrompTugal.dinis",
+          "note": "The example commit a4c92c3 carries the trailer 'For: journalist@PrompTugal.dinis', and S1's commit convention lists 'For: <name>' as a required trailer."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "For: journalist@PrompTugal.dinis",
+          "note": "The example commit includes the trailer line 'For: journalist@PrompTugal.dinis' matching the commit convention of specifying 'For: <name>'."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S6",
+          "quote": "For: journalist@PrompTugal.dinis",
+          "note": "The example commit includes a For: trailer naming journalist@PrompTugal.dinis, matching the claim."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

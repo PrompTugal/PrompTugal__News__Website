@@ -49,6 +49,22 @@
     "runpod": {
       "label": "runpod.io (its own page)",
       "url": "https://www.runpod.io/"
+    },
+    "gcore": {
+      "label": "gcore.com (its own page)",
+      "url": "https://gcore.com/"
+    },
+    "kpmg": {
+      "label": "kpmg.com/pt, 'KPMG e Microsoft' alliance page (its own page, in Portuguese)",
+      "url": "https://kpmg.com/pt/pt/servicos/aliancas/microsoft.html"
+    },
+    "delinea": {
+      "label": "delinea.com (its own page)",
+      "url": "https://delinea.com/"
+    },
+    "manageengine": {
+      "label": "manageengine.com (its own page)",
+      "url": "https://www.manageengine.com/"
     }
   },
   "relations": [
@@ -92,8 +108,8 @@
         },
         "builton": {
           "state": "found",
-          "label": "2 of 6 read",
-          "text": "Of the six partner companies' pages read, two name Google Cloud: Elastic (on its cloud marketplace) and Datadog (a monitoring product page; no partnership claimed). Six of the 18 companies our data lists as Web Summit partners have been read (researcher@, batch 1); the other twelve are not read yet, and a page not showing something does not mean the tie is absent. A menu link or a rival comparison is not a partnership, and each line says which it is.",
+          "label": "3 of 14 read",
+          "text": "Of the 14 partner companies' pages read, three name Google Cloud: Elastic (on its cloud marketplace), Datadog (a monitoring product page; no partnership claimed) and ManageEngine (cloud security for Azure, AWS and GCP as a product area; coverage, not a partnership). Fourteen of the 17 other companies our data lists as Web Summit partners have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
           "links": [
             {
               "label": "Elastic: on the Google Cloud marketplace",
@@ -104,6 +120,11 @@
               "label": "Datadog: monitoring product page, no partnership claimed",
               "page": "companies/datadog/index.html",
               "src": "datadog"
+            },
+            {
+              "label": "ManageEngine: cloud security for Azure, AWS and GCP as a product area (coverage, not a stated partnership)",
+              "page": "companies/manageengine/index.html",
+              "src": "manageengine"
             }
           ]
         },
@@ -137,8 +158,8 @@
         },
         "builton": {
           "state": "found",
-          "label": "4 of 6 read",
-          "text": "Of the six partner companies' pages read, four name AWS, in four different ways: Cerebras (a testimonial by an AWS vice president on a joint inference setup, not called a partnership), Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed) and Runpod (a customer compares AWS as the more expensive rival). Six of the 18 companies our data lists as Web Summit partners have been read (researcher@, batch 1); the other twelve are not read yet, and a page not showing something does not mean the tie is absent. A menu link or a rival comparison is not a partnership, and each line says which it is.",
+          "label": "5 of 14 read",
+          "text": "Of the 14 partner companies' pages read, five name AWS, in different ways: Cerebras (a testimonial by an AWS vice president on a joint inference setup, not called a partnership), Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage) and Runpod (a customer compares AWS as the more expensive rival). Fourteen of the 17 other companies our data lists as Web Summit partners have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
           "links": [
             {
               "label": "Cerebras: an AWS executive's testimonial, a joint inference setup",
@@ -159,6 +180,11 @@
               "label": "Runpod: AWS as the rival, in a customer's comparison (not a tie)",
               "page": "companies/runpod/index.html",
               "src": "runpod"
+            },
+            {
+              "label": "ManageEngine: cloud security for Azure, AWS and GCP as a product area (coverage, not a stated partnership)",
+              "page": "companies/manageengine/index.html",
+              "src": "manageengine"
             }
           ]
         },
@@ -191,8 +217,8 @@
         },
         "builton": {
           "state": "found",
-          "label": "2 of 6 read",
-          "text": "Of the six partner companies' pages read, two name Microsoft Azure: Elastic (on its cloud marketplace) and Datadog (a monitoring product page; no partnership claimed). Six of the 18 companies our data lists as Web Summit partners have been read (researcher@, batch 1); the other twelve are not read yet, and a page not showing something does not mean the tie is absent. A menu link or a rival comparison is not a partnership, and each line says which it is.",
+          "label": "6 of 14 read",
+          "text": "Of the 14 partner companies' pages read, six name Microsoft or Azure, in different ways: Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage), Gcore (Microsoft quoted as a customer of its CDN), KPMG Portugal (a stated alliance with Microsoft on its own page, headed 'KPMG e Microsoft': it names Azure, Azure OpenAI, Fabric, Microsoft 365, Dynamics 365 and Security, and says Microsoft awarded KPMG a supplier-of-the-year prize; the year and category are not on the part read; the strongest tie found) and Delinea (a comparison page against Microsoft, a rival). Fourteen of the 17 other companies our data lists as Web Summit partners have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
           "links": [
             {
               "label": "Elastic: on the Azure marketplace",
@@ -203,6 +229,26 @@
               "label": "Datadog: monitoring product page, no partnership claimed",
               "page": "companies/datadog/index.html",
               "src": "datadog"
+            },
+            {
+              "label": "ManageEngine: cloud security for Azure, AWS and GCP as a product area (coverage, not a stated partnership)",
+              "page": "companies/manageengine/index.html",
+              "src": "manageengine"
+            },
+            {
+              "label": "Gcore: Microsoft quoted as a customer of its CDN (a customer, not a partnership)",
+              "page": "companies/gcore/index.html",
+              "src": "gcore"
+            },
+            {
+              "label": "KPMG Portugal: a stated alliance with Microsoft, on its own alliance page (the strongest tie found)",
+              "page": "companies/kpmg-portugal/index.html",
+              "src": "kpmg"
+            },
+            {
+              "label": "Delinea: a comparison page against Microsoft (a rival, not a tie)",
+              "page": "companies/delinea/index.html",
+              "src": "delinea"
             }
           ]
         },

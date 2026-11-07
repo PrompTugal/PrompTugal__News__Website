@@ -119,8 +119,10 @@ nav.site .links a.is-live::before { content: ""; display: inline-block; width: 7
 
 /* ================================================================== the frame and the reading column */
 .frame { max-width: var(--page); margin: 0 auto; padding: 22px var(--gutter) 56px; }
-main { max-width: var(--measure); margin: 0 auto; }
-main.wide { max-width: none; }
+/* one page width for the whole site, the home page's (Dinis, 6 November 2026, 22:55: "the width has to stay the same as
+   the home page"): main fills the frame on every page; long text keeps its reading column inside it, at the left */
+main { max-width: none; margin: 0 auto; }
+main:not(.wide) .body > :is(p, ul, ol, blockquote, h2, h3, h4, .table, pre, figure, details, dl) { max-width: var(--measure); }
 .crumbs { font: 400 var(--fs-meta)/1.4 var(--sans); color: var(--ink-3); margin-bottom: 12px; }
 .crumbs a { color: var(--ink-3); }
 h1 { font-weight: 600; font-size: var(--fs-h1); line-height: 1.06; margin: 4px 0 14px; letter-spacing: -.018em; font-variation-settings: "opsz" 60; }
@@ -646,7 +648,7 @@ mark { background: var(--brand-soft); color: inherit; padding: 0 1px; border-rad
 
 /* the shell */
 .page-head { max-width: var(--measure); }
-main:not(.wide) .page-head { margin: 0 auto; }
+main:not(.wide) .page-head { margin: 0; }
 .dateline .dl-util a { font-family: var(--sans); font-weight: 500; color: var(--ink-3); text-decoration: none; }
 .dateline .dl-util a:hover { color: var(--brand); text-decoration: underline; }
 .dateline .dl-util { font-size: 11.5px; }
