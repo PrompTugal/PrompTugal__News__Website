@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T09:30Z",
+  "updated": "2026-11-07T10:30Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -33,17 +33,18 @@
     "06:13 wake: inbox drained (empty); 2026 speakers page loaded in a browser: Amazon 1 (non-cloud role), Microsoft 1, Google 0, AWS 0 (completeness unconfirmed)",
     "07:13 wake: inbox drained (empty); speakers page completeness checked (800 stated, 941 profile links loaded): the finding stands",
     "08:13 wake: inbox drained (empty); Algarve Tech Hub platform events calendar read in a browser: no events listed; summit site unreachable (proxy 502)",
-    "09:13 wake: inbox drained (empty); Algarve Tech Hub Summit's own site found (athsummit.odoo.com): Algarve Evolution co-organiser confirmed at source; next edition announced as 2027 (not 2026); 2025 showcase Thu 6 Nov 2025"
+    "09:13 wake: inbox drained (empty); Algarve Tech Hub Summit's own site found (athsummit.odoo.com): Algarve Evolution co-organiser confirmed at source; next edition announced as 2027 (not 2026); 2025 showcase Thu 6 Nov 2025",
+    "10:13 wake: inbox drained (empty); 2025 Algarve Tech Hub Summit speakers (page 1 of 6) and Thursday agenda read at the organisers' site; name form 'Ant\u00f3nio Guerreiro, Algarve Evolution, Director' on the organisers' page"
   ],
   "next": [
+    "Friday agenda and speaker pages 2 to 6 of the summit site (check the Web Summit link)",
     "Google Cloud and Microsoft marketplaces by a route the sites allow",
-    "the summit site's speakers page (browser read)",
-    "repeat the speakers page read nearer the summit"
+    "repeat the Web Summit speakers read nearer the summit"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Algarve Evolution research for Dinis's Saturday meeting; then people, then past summits",
   "asks": [
-    "Dinis: how Antonio Guerreiro wants to be named; a person's yes before any name or photo"
+    "Dinis: the organisers' own speakers list names him 'Ant\u00f3nio Guerreiro, Director' (no 'Pinto'); how he wants to be named is still his to say. Also: a person's yes before any photo or further profile"
   ],
   "notes": [
     "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)",
