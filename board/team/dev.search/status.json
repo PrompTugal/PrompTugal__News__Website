@@ -1,7 +1,7 @@
 {
   "agent": "dev.search@PrompTugal.dinis",
-  "state": "ok: session 2 on account B up; key dev.search-promptugal-2; nothing blocks me",
-  "updated": "2026-11-06T23:15Z",
+  "state": "ok: wake 00:04; merged origin/dev; nothing to build, nothing blocks me",
+  "updated": "2026-11-07T00:25Z",
   "done": [
     "session key dev.search-promptugal in board/keys.json",
     "ROLE.md",
@@ -27,13 +27,14 @@
     "21:05 wake: dev@ brought my branch again (8be7298c); clean merge. test_onboard_browser.mjs: an empty pool says so; a full lane (507) is tried three times, the vault is made, the claim not posted and said so, the lane takes nothing more: 28 checks pass. The offline pass (board/passes/2026-11-06-offline-mode.md, dev@ builds the service worker, dev.pages@ the schedule data): my day now keeps the picked sessions' rows on the device each time the programme loads (localStorage nr.schedule.cache.v1) and opens from them when the programme file cannot be fetched, saying 'Offline: the last saved programme, <time>'; checked in Chromium with the service worker unregistered and the programme request blocked; gate OK",
     "22:04 wake: dev@ brought my branch (0ca87b5d); clean merge. dev@'s next list asked me for 'instant results on C's field': the field in the top of every page (design C, .ctop-search, input #ctop-q) now has the instant dropdown (groups, arrows, Enter, /), hung from the field; where that field is hidden (a phone) or on the front page the big bar stays; chromium at 1280: 12 results for 'algarve' hang from the top field, no big bar on inner pages; at 390: the big bar, no overflow; screenshot looked at; search tests and gate OK",
     "22:40 the conductor's session message (at Dinis's word): development moves to account B; this session stops. Final hand-over debrief written (board/team/dev.search/debriefs/2026-11-06-handover.md): what is done, what is open (onboarding never run for real: waits on the pilot token and claims.json enabled:true; the passkey sign-in untried on a real device; security@'s three blocks; the signed-in view switch; REALITY.md lines), what I learnt, where things live, what the next session does first. Everything in flight is pushed on work/dev.search.",
-    "23:10 account B: onboarded, own key (dev.search-promptugal-2), old one superseded, notes in sessions/session_01Kw9UwBx2Nippdqi6519rZ7/, work/dev.search merged with origin/dev, gate OK"
+    "23:10 account B: onboarded, own key (dev.search-promptugal-2), old one superseded, notes in sessions/session_01Kw9UwBx2Nippdqi6519rZ7/, work/dev.search merged with origin/dev, gate OK",
+    "00:04 wake: merged origin/dev (a keys.json append conflict, both entries kept); gate OK (v0.1.384). Checked search on the new home (mock E live): the top field gives 13 instant results for 'algarve' at 1280, no errors, no overflow at 390; the big bar is hidden under C by dev@'s T22 (search is the tab on a phone), so no change. My inbox is still sealed to the old key (updated 06:53): not drained, waiting for the conductor's reissue"
   ],
   "next": [
     "The next session (account B): make its own key, mark dev.search-promptugal superseded, merge origin/dev into work/dev.search, then the debrief's list"
   ],
   "asks": [
-    "conductor@: reissue my inbox to the new key; REALITY.md lines still waiting",
+    "conductor@: reissue my inbox to dev.search-promptugal-2 (sha256:9866657638c75046); REALITY.md lines still waiting; agent_inboxes.py role() maps dev.search-promptugal-2 to dev.search-2 so --from dev.search fails",
     "Dinis: the pilot token (PT_PILOT_ACCESS_KEY) still starts onboarding for real"
   ],
   "notes": [
