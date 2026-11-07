@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.485",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "bf5462952"
+  },
+  {
     "version": "v0.1.484",
     "date": "2026-11-07",
     "what": "synthetic@PrompTugal.dinis: wake 08:44: F01 verified; run 12 on the summit days; F53, F54 new",
