@@ -2,6 +2,8 @@
 // date, byline and breadcrumb, and fills the article lists the prose asks for (<!-- articles:list -->).
 import { imageOf, firstSentence } from './front.mjs'
 import fs from 'node:fs'
+import { render } from '../lib/markdown.mjs'
+const SIGNED = fs.readFileSync(new URL('../../../assets/article/signed-line.md', import.meta.url), 'utf8').trim()  // its words (synthetic@'s F28)
 export const order = 20
 const W = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).articles
 
@@ -14,6 +16,9 @@ export function decorate(p) {
     p.type = 'article'
     p.date = p.meta.date
     p.crumbs = [['articles/index.html', 'Articles'], [null, p.meta.title]]
+    // the signature a reader can check (synthetic@'s F28), on the page only: the twin it signs stays as signed
+    const slug = p.rel.replace(/^articles\//, '').replace(/\.html$/, ''), prev = p.postHtml
+    p.postHtml = html => (prev ? prev(html) : html) + render(`{.signed-line}\n` + SIGNED.replace(/\{twin\}/g, `${slug}.md`).replace(/\{sig\}/g, `${slug}.md.sig`).replace(/\{keys\}/g, '../board/keys.json').replace(/\{how\}/g, '../how-we-publish/index.md')).html.replace(`href="${slug}.html"`, `href="${slug}.md"`)
     p.md = `*${p.meta.date} · ${p.meta.author} · [${p.meta.license ? 'CC BY 4.0' : 'licence'}](${p.meta.license || 'https://creativecommons.org/licenses/by/4.0/'})*\n\n` + p.md
 }
 

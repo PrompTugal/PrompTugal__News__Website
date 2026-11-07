@@ -55,7 +55,8 @@ function fillE(page, ctx) {
     const seenWk = new Set()
     const wk = week.filter(i => { const k = i.what.split(/:\s|\s\(/)[0]; return !seenWk.has(k) && seenWk.add(k) }).map(i => ({ href: `events/${i.id}/index.html`, date: i.date, when: esc(when(ctx, i)), what: esc(cut(i.what, 80)) }))
     // now and next: what has not ended yet, in time order, the bigger moments first within a day (the page drops the ended)
-    const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && rank(i) <= 3).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '').localeCompare(y.start || '')).slice(0, 10)
+    const seenNext = new Set()
+    const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && rank(i) <= 3 && !seenNext.has(i.date + i.what.split(/:\s|\s\(/)[0]) && seenNext.add(i.date + i.what.split(/:\s|\s\(/)[0])).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '').localeCompare(y.start || '')).slice(0, 10)
     const fields = ctx.store.topics.filter(t => t.kind === 'field').map(t => [t, ctx.store.companies.filter(c => c.category === t.category).length]).filter(x => x[1]).sort((x, y) => y[1] - x[1])
     const max = fields[0]?.[1] || 1
     const opening = AGENDA.items.find(i => /opening night/i.test(i.what))

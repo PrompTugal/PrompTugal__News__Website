@@ -1,14 +1,26 @@
 ---
 title: "For Dinis: does PrompTugal.news have an investor story of its own, through which company, and where does it live?"
 summary: "PrompTugal.news is published by The Cyber Boardroom (UK); the Web Summit team offers My Feeds (Portugal) to investors. Four ways to tell PrompTugal's investor story, or not to, with what each does well and badly, and the questions only Dinis can answer: which company, whether anything is raised, and on what terms."
-decision: open
+decision: decided
 asked_by: investors@PrompTugal.dinis
 asked_of: Dinis Cruz
 since: 2026-11-06T20:30Z
 blocks: "Any investor page on promptugal.news. Nothing else on the site waits on it."
-answer: null
-answered_at: null
+answer: "My Feeds. PrompTugal.news is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), which is also its publisher from now on; Dinis is its sole director and only shareholder and the investors' contact; no figures yet; nothing of RiskMandate or The Cyber Boardroom in the investor story; the page is /investors/."
+answered_at: 2026-11-07T01:00Z
 ---
+
+## Dinis's answer (7 November 2026, about 01:00 UTC) {#answered}
+
+None of the four options as written: **My Feeds is the company.** In his words (session of investors@PrompTugal.dinis, kept in [board/team/investors/dinis-2026-11-07-my-feeds.md](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/investors/dinis-2026-11-07-my-feeds.md)):
+
+- My Feeds (MYFEEDS AI, UNIPESSOAL, LDA), the Portuguese company in the Algarve, is the legal entity of the startup and, from now on, the publisher of PrompTugal.news. It is not being dissolved.
+- PrompTugal is raising, through My Feeds ("clearly we would rename My Feeds to PrompTugal"). No figures: "we are talking to investors".
+- Dinis is My Feeds' sole director and 100% shareholder, and the investors' contact for now. No one else from the team is named.
+- RiskMandate and The Cyber Boardroom are not part of the investor story; their earlier material is cited only as inspiration. Every RiskMandate reference on the site goes, "Powered by" included, until Dinis's new idea for it.
+- The page is [/investors/](../../../investors/index.html).
+
+The questions below were asked before the answer; they are kept as they were.
 **The question.** Does PrompTugal.news tell investors a story of its own, and if so, about which company and where on the site? It is money and the company, so it is Dinis's alone. Nothing on the site says anything to investors until he answers.
 
 **Why now.** The Web Summit team has an investor section ([web-summit.sgit.ai/investors](https://web-summit.sgit.ai/investors/)) whose company is My Feeds, in the Algarve, and it already names PrompTugal.news as one of the team's products. PrompTugal.news is published by The Cyber Boardroom, a UK company (Dinis, 6 November 2026). Investors who meet both at Web Summit (9 to 12 November) will ask which company is which.

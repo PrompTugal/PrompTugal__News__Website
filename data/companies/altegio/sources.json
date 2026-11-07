@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://alteg.io/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 7 November 2026, 00:25 UTC): its website; and a description of what the company does: online booking, CRM, payments, payroll and analytics in one platform for salons, clinics and studios (90,000+ users, 4M+ appointments a month). It does not say \"system of record\" or mention AI agents: that framing is from its summit pitch.",
+      "kind": "other"
     }
   ]
 }
