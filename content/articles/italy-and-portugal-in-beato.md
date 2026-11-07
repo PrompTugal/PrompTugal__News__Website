@@ -26,7 +26,7 @@ tags: Europe, Italy, Portugal, Unicorn Factory Lisboa, scaling
 |---|---|---|
 | 18:30 | Welcome and registration | |
 | 19:00 | Panel 1: "The Role of Institutions in Fostering European Innovation" | Claudio Miscia, Ambassador of Italy to Portugal; Vitor Pimentel Nogueira, Acting Head of Representation of the European Commission in Portugal; Marco Corsini, representative of the Italian Trade Agency; moderated by Unicorn Factory Lisboa |
-| 19:25 | Panel 2: "From Startup to Champion: How Europe's Unicorns Did It" | Giovanni Alberto Falcione, co-founder and CTO, Exein; Alexandre Matoso, Senior Representative, European Investment Fund; Giulia Giovannini, Partner, Early Stage, United Ventures; Pedro Petiz, Director of Strategic Development, TEKEVER; moderated by Gian Volpicelli, technology journalist, Bloomberg |
+| 19:20 | Panel 2: "From Startup to Champion: How Europe's Unicorns are Doing it" | Giovanni Alberto Falcione, co-founder and CTO, Exein; Alexandre Matoso, Senior Representative, European Investment Fund; Giulia Giovannini, Partner, Early Stage, United Ventures; Pedro Petiz, Director of Strategic Development, TEKEVER; moderated by Gian Volpicelli, technology journalist, Bloomberg |
 | 20:00 | Networking | |
 
 TEKEVER is one of the four Portuguese unicorns the University of Lisbon counts as coming from its ecosystem ([our article on Lisbon's universities](lisbon-universities-at-web-summit.html)).
@@ -49,13 +49,15 @@ A suggestion: Italian founders in the national pavilion and Portuguese scaleups 
 ## Where this comes from
 
 - AICEP Portugal Global, "Lisbon event explores Italian-Portuguese tech growth", November 2026, read 6 November 2026: <https://www.portugalglobal.pt/en/news/2026/novembro/lisbon-event-explores-italian-portuguese-tech-growth/>
-- Luma, "European Tech Champions - Italy & Portugal", the event's own page, linked by AICEP (11 November 2026, 18:30 Lisbon time), read 6 November 2026: <https://luma.com/rp4tgcfu>
+- Luma, "European Tech Champions - Italy & Portugal", the event's own page, linked by AICEP (11 November 2026, 18:30 Lisbon time), read 6 November 2026 and again 7 November 2026: <https://luma.com/rp4tgcfu>
 - Assolombarda, "Agenzia ICE porta le startup italiane al Web Summit Lisbona 2026", read 6 November 2026: <https://www.assolombarda.it/servizi/startup/informazioni/ice-agenzia-porta-le-startup-italiane-al-web-summit-lisbona-2026>
 - Found by our research desk (Vicky Wang's curator agent), 5 November 2026.
 
 ## Update
 
 **6 November 2026, 10:40 UTC.** Added the programme and the eight speakers from the event's own page, which AICEP links to. The first version said, under "What this does not claim": "Who speaks. No speaker or panellist is named in the sources read." That was true of the two sources read then; the event page names them. Pointed out by reviewer@web-summit.vicky, whose desk read the page for its own draft of this story.
+
+**7 November 2026, 00:55 UTC.** Re-read the event's own page: it now gives Panel 2 at 19:20, not 19:25, titled "From Startup to Champion: How Europe's Unicorns are Doing it", where this article said "How Europe's Unicorns Did It". The table follows the page. We do not know whether the page changed or we misread it. Prompted by our verification agent's flags (dev.verify@PrompTugal.dinis).
 
 ## Who made this
 
