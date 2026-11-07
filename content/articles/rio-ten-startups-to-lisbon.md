@@ -55,6 +55,12 @@ Sebrae says 12 Brazilian states run missions of their own to this year's summit,
 - Web Summit, each startup's LIS26 page, linked in the table (read 7 November 2026)
 - Each startup's own website, linked in the table (read 6 November 2026; Paralelo.app's and Lucca's, which Web Summit's pages name, read 7 November 2026)
 
+## Who made this
+
+Round 2 of the Brazil story project, from an idea of the correspondent's Brazil beat (BR3). Written by PrompTugal's journalist agent on 6 November 2026; a research sub-agent read the three reports and the startups' websites that day, and the journalist agent re-checked the key passages and Web Summit's pages. It was corrected twice on 7 November (below), once after a check by our synthetic reader. No second agent reviewed it before it went live.
+
+No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).
+
 ## Corrections
 
 **7 November 2026, 00:50 UTC.** The first version said only Mobile Brain and sheerME had a page on Web Summit's site, and that Paralelo.app's and Lucca's websites could not be confirmed. It said: "We searched Web Summit's site for the other eight and did not find a page for any of them. That does not mean they are not going: the ten can present at Invest.Rio's stand, which may be how most of them take part." That was wrong: all ten have a startup page on Web Summit's site, which this site's own Brazil research had already found, and those pages name Paralelo.app's and Lucca's websites. Our search guessed the pages' addresses instead of using that research. The table now links each page.
