@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.523",
+    "date": "2026-11-07",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "d33bf4410"
+  },
+  {
     "version": "v0.1.522",
     "date": "2026-11-07",
     "what": "outreach@PrompTugal.dinis: wake 11:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
