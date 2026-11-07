@@ -55,8 +55,8 @@
       "url": "https://gcore.com/"
     },
     "kpmg": {
-      "label": "kpmg.com/pt (its own page)",
-      "url": "https://kpmg.com/pt/pt/home.html"
+      "label": "kpmg.com/pt, 'KPMG e Microsoft' alliance page (its own page, in Portuguese)",
+      "url": "https://kpmg.com/pt/pt/servicos/aliancas/microsoft.html"
     },
     "delinea": {
       "label": "delinea.com (its own page)",
@@ -218,7 +218,7 @@
         "builton": {
           "state": "found",
           "label": "6 of 14 read",
-          "text": "Of the 14 partner companies' pages read, six name Microsoft or Azure, in different ways: Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage), Gcore (Microsoft quoted as a customer of its CDN), KPMG Portugal (lists a Microsoft alliance in its services menu; the alliance page itself is not yet read) and Delinea (a comparison page against Microsoft, a rival). Fourteen of the 17 other companies our data lists as Web Summit partners have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
+          "text": "Of the 14 partner companies' pages read, six name Microsoft or Azure, in different ways: Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage), Gcore (Microsoft quoted as a customer of its CDN), KPMG Portugal (a stated alliance with Microsoft on its own page, headed 'KPMG e Microsoft': it names Azure, Azure OpenAI, Fabric, Microsoft 365, Dynamics 365 and Security, and says Microsoft awarded KPMG a supplier-of-the-year prize; the year and category are not on the part read; the strongest tie found) and Delinea (a comparison page against Microsoft, a rival). Fourteen of the 17 other companies our data lists as Web Summit partners have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
           "links": [
             {
               "label": "Elastic: on the Azure marketplace",
@@ -241,7 +241,7 @@
               "src": "gcore"
             },
             {
-              "label": "KPMG Portugal: a Microsoft alliance listed in its services menu (alliance page not yet read)",
+              "label": "KPMG Portugal: a stated alliance with Microsoft, on its own alliance page (the strongest tie found)",
               "page": "companies/kpmg-portugal/index.html",
               "src": "kpmg"
             },
