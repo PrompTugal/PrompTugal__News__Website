@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "ai-infinity",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/appearances/lis26/bb1ea8a4-b831-4875-8d07-dfae3296cef1/ai-infinity",
+      "status": 200,
+      "read": true,
+      "chars": 1225
+    },
+    {
+      "url": "https://websummit.com/startups/featured-startups/",
+      "status": 200,
+      "read": true,
+      "chars": 5900
+    },
+    {
+      "url": "https://ai-infinity.io/",
+      "status": 200,
+      "read": true,
+      "chars": 4833
+    }
+  ],
+  "spent_usd": 0.0316,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named AI Infinity.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "AI Infinity",
+          "note": "The company's own website repeatedly names it AI Infinity, and the Web Summit listing (S1) uses the same name, though the footer also mentions 'INFINITY AI USA LLC'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Where the market outsources tools, AI Infinity delivers an entire department",
+          "note": "The sources clearly refer to the company as AI Infinity."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "AI Infinity",
+          "note": "The company's own website identifies it as AI Infinity."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://ai-infinity.io/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "ai-infinity.io",
+          "note": "The source is the page at https://ai-infinity.io/, whose content describes AI Infinity, so the claimed website matches."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "ai-infinity.io YOUR COMPANY ARTIFICIAL INTELLIGENCE DEPARTMENT We build and operate outsourced AI departments for mid-sized and large organizations. More than tools: people, processes, and decision-making supported by applied intelligence. Talk to Our Team MANIFEST More Than a Service. Your Artificial Intelligence Department.​ Where the market outsources tools, AI Infinity delivers an entire department",
+          "note": "The website https://ai-infinity.io/ represents the company AI Infinity."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "ai-infinity.io",
+          "note": "Source S3 is the AI Infinity website at the claimed URL and contains AI Infinity company content."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: As an AI-Enabled Service, we become your dedicated AI department, designing and implementing tailor-made solutions around your business, processes and goals. We work as an extension of your team, integrating AI into your operation with strategy, execution and ongoing support. You own all intellectual property.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "keeping the intellectual property owned by your company",
+          "note": "The site describes an AI Enabled Service and a dedicated AI department with IP owned by the client, but the claimed self-description wording (\"As an AI-Enabled Service, we become your dedicated AI department...\" and \"We work as an extension of your team\") does not appear verbatim in any passage."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources contain this description or statement from the company."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "AI Enabled Service",
+          "note": "Source supports AI Enabled Service and company-owned IP, but not the exact full description or 'all' intellectual property."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Brazil.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Brazil",
+          "note": "The Web Summit listing for AI Infinity shows 'Brazil' as its country alongside the 'AI & machine learning' category."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "AI Infinity Brazil AI & machine learning",
+          "note": "The Web Summit profile for AI Infinity lists the company alongside Brazil."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "AI Infinity Brazil",
+          "note": "S1 lists AI Infinity with Brazil as its country."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (startup (growth)).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "GROWTH",
+          "note": "The AI Infinity page under the Web Summit 2026 Lisbon (lis26) appearances path shows the company with the GROWTH startup category, and S2 also lists AI Infinity among the 2026 startups."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "appearances/lis26/bb1ea8a4-b831-4875-8d07-dfae3296cef1/ai-infinity",
+          "note": "The source lists AI Infinity as a Growth-stage startup appearance for Web Summit Lisbon 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "See all startups GROWTH",
+          "note": "The AI Infinity page for Web Summit Lisbon 2026 lists it under the GROWTH startup label."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
