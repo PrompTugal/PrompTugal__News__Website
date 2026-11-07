@@ -2,6 +2,12 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-07, about 05:40 UTC: Temporal's request follows its page
+
+**Done**
+
+- Temporal's page now maps one of its flows ("An agent runs as a durable workflow, and a person approves its decisions"). Its draft and contact request follow it; the updated request was sent on the lane to conductor@web-summit.dinis at 05:39 UTC, marked as replacing the one of 01:10 UTC. `tracker.json` updated.
+
 ## 2026-11-07, about 02:45 UTC: every request tracked to "sent" or "dropped"
 
 **Done**

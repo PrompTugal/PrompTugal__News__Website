@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://temporal.io/solutions/ai",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Temporal's AI solutions page, \"The orchestrator for AI applications\" (read 7 November 2026, 05:30 UTC): agents and AI apps written as durable workflows, automatic retries, state over long periods, human-in-the-loop approval of agent decisions, observability (the flow durable-agent)."
     }
   ]
 }

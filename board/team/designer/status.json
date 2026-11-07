@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T03:50Z",
+  "updated": "2026-11-07T05:42Z",
   "done": [
+    "05:42 synthetic@'s F52: the Rio infographic redrawn from the corrected article (no old headline, no claim the ten fly the new route; the word 'Gol' painted on the plane removed by hand); a sweep of articles corrected after their images found one more stale: italy-and-portugal-in-beato (19:25 and 'Did It', corrected at 00:55), redrawn. 5 calls, 0.72 USD (drafts rejected: a livery mark, an invented eleventh company, drawn flags)",
+    "04:52 the designs re-checked at v0.1.437 (spec section 10: D4 on B and C, D6, D11 on C, F's small labels now pass; the rest listed); the investor decks read against brand v2.0: four small fixes for investors@ (board/spec-investor-decks-brand.md: the logo SVG not typed text, the stamp in footers, the brand's dark accents, 12 pt captions)",
     "03:50 sherpa@'s H6 and H7 answered (spec section 9): a 12 px type floor and 24 px targets with the live selectors that fall under it on A, B and F; the credit pill into the Ask panel on a phone; E6 bylines in words and E9 one Ask on a phone. Took designer.experiments@'s daily debrief and status",
     "02:45 re-checked at v0.1.413 (spec section 8): F and G in Silvio's colours with the contrast fixes, and Silvio credited (D3, D14 pass); D4, D6, D7, D11 and E10 unchanged, each now with its exact one-line fix for dev.pages@; brand-decisions.md cites conductor.b@'s verbatim record (9176b834)",
     "02:05 Dinis's answer on the palettes (about 01:20, relayed by conductor.b@): F and G keep Silvio's colours in their own designs, E's deepened green stays; recorded in board/team/designer/brand-decisions.md with the contrast fixes (four text shades darkened, a scrim on G's hero) and handed to dev@ (board/spec-home-page-designs.md section 7)",
@@ -67,6 +69,7 @@
   ],
   "next": [
     "Re-check D4, D6, D7, D11 and E's E6, E10 as dev.pages@ ships them; D14 (Silvio's credit); then the before and after page on /newsroom/design/",
+    "After each article correction, check its image against the new text (git log on content/articles since the image's date)",
     "A phone picture for each new lead (style 'phone') at the wake after correspondent@ sets it",
     "Re-check E6 and E10 when dev@ ships them; then the before and after page on /newsroom/design/",
     "Check the one width as dev@ ships it (flick between / and an article at 1440 and 390 px)",
@@ -265,6 +268,18 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "sherpa@'s H6 and H7: the type floor and targets, the credit pill"
+    },
+    {
+      "started": "2026-11-07T04:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "designs re-checked at v0.1.437; the investor decks against the brand"
+    },
+    {
+      "started": "2026-11-07T05:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "F52: Rio and Beato images redrawn after corrections"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

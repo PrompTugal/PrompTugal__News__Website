@@ -1,0 +1,448 @@
+{
+  "$schema": "none",
+  "article": "agent-setup-guide",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://riskmandate.ai/agent-behaviour-policy.html",
+      "status": 200,
+      "read": true,
+      "chars": 10570
+    },
+    {
+      "url": "https://sharness.ai/",
+      "status": 200,
+      "read": true,
+      "chars": 14458
+    },
+    {
+      "url": "https://sgit.ai/",
+      "status": 200,
+      "read": true,
+      "chars": 12866
+    },
+    {
+      "url": "https://pypi.org/project/sgit-ai/0.27.0/",
+      "status": 200,
+      "read": true,
+      "chars": 21999
+    },
+    {
+      "url": "https://support.claude.com/en/articles/9517075-what-are-projects",
+      "status": 200,
+      "read": true,
+      "chars": 7105
+    },
+    {
+      "url": "https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp",
+      "status": 200,
+      "read": true,
+      "chars": 14822
+    },
+    {
+      "url": "https://support.claude.com/en/collections/14445694-claude-code",
+      "status": 200,
+      "read": true,
+      "chars": 1181
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/agents-overview",
+      "status": 200,
+      "read": true,
+      "chars": 12179
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks",
+      "status": 200,
+      "read": true,
+      "chars": 6078
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent",
+      "status": 200,
+      "read": true,
+      "chars": 30036
+    },
+    {
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "status": 200,
+      "read": true,
+      "chars": 12597
+    },
+    {
+      "url": "https://web-summit.sgit.ai/people/angelo/kit/index.md#protocol",
+      "status": 404,
+      "read": false,
+      "chars": 0
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/data/team.json",
+      "status": 200,
+      "read": true,
+      "chars": 30883
+    },
+    {
+      "url": "https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/data/keys.json",
+      "status": 200,
+      "read": true,
+      "chars": 132221
+    }
+  ],
+  "spent_usd": 0.0824,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The vendor feature names in the comparison table were checked on their help pages on 6 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The supplied sources are passages from a keys.json file about agent signing keys and say nothing about a comparison table, vendor feature names, or checking vendor help pages on 6 November 2026."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided passages discuss public keys and agent session details, with no mention of vendor feature names, a comparison table, or help pages."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source excerpts concern cryptographic keys and agent metadata, not vendor feature names, a comparison table, or help pages."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The Web Summit team behind the newsroom is nine people and dozens of agents.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S12",
+          "quote": "Seven people are going to Lisbon",
+          "note": "The source supports nine people (seven going to Lisbon plus a designer and a friendly) and says each person has an agent, but it gives no count of agents, so \"dozens of agents\" is unsupported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S12",
+          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), working with a designer (Sarah) and a first friendly (Daniela), each with their own agent",
+          "note": "The source confirms nine people (seven going to Lisbon plus two others) but only indicates each has their own agent rather than dozens of agents."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "exaggerated",
+          "source": "S12",
+          "quote": "each with their own agent",
+          "note": "The source says seven people plus a designer and a first friendly, each with their own agent, supporting nine people but not dozens of agents."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The team site's keys page showed 70 active agent keys on 6 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The passages show the keys page's entries and key statuses, including renames on 6 November 2026, but none states a count of 70 active agent keys on that date."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention that the keys page showed 70 active agent keys on 6 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided source states that the team site's keys page showed 70 active agent keys on 6 November."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "On 6 November the team changed its rule for editing another agent's file: pull first, check that nobody changed the file in the last two hours, keep the change small, and state it in the commit.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the passages mention a 6 November rule for editing another agent's file (pull first, a two-hour check, keeping changes small, or stating the change in the commit); the excerpts cover a behaviour-policy directory, a SHarness site, and key and rename records in keys.json."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention the team changing a rule for editing another agent's file or the specific requirements stated in the claim."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided passages mentions a 6 November rule for editing another agent's file involving pulling first, a two-hour check, small changes, or a commit statement."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The article was published on 6 November 2026 by writer@PrompTugal.angelo and signed with that agent's key.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": "S13",
+          "quote": "",
+          "note": "The passages list keys for conductor, dev, dashboard, curator, design, crm and team-collaboration agents, but none for writer@PrompTugal.angelo, and nothing shows an article dated 6 November 2026 signed by that agent."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided source passages make no mention of an article being published or signed by writer@PrompTugal.angelo."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": "S13",
+          "quote": "",
+          "note": "The source lists Angelo's renamed agents as dev, dashboard, and team-collaboration, but never mentions writer@PrompTugal.angelo or an article publication/signature."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c6",
+      "claim": "Dinis Cruz authorised the guide's publication on PrompTugal.news.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources list PrompTugal agents under Dinis Cruz and give him 'every editorial call' for the Web Summit site, but none mention a guide or authorising its publication on PrompTugal.news."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The provided sources do not mention a guide or its publication on PrompTugal.news being authorised by Dinis Cruz."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No provided source states that Dinis Cruz authorised the guide's publication on PrompTugal.news."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "The guide was tracked as item WS-125 on the team site.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S13",
+          "quote": "the setup guide for everybody else (WS-125)",
+          "note": "S13 lists WS-125 as the item for the setup guide that the builder agent drafts, which matches the claim, though it is a key registry entry rather than an explicit tracker entry."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S13",
+          "quote": "drafts the agent policies for Daniela&#039;s team (WS-59) and the setup guide for everybody else (WS-125)",
+          "note": "The source confirms that the setup guide corresponds to item WS-125."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S13",
+          "quote": "the setup guide for everybody else (WS-125)",
+          "note": "S13 identifies the setup guide as WS-125 in the team site data."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Content in the guide is adapted from riskmandate.ai and sharness.ai under CC BY 4.0.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "All content CC BY 4.0.",
+          "note": "Both sites state CC BY 4.0 licensing (S1 footer, S2), but no source mentions a guide or says its content was adapted from these sites."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention a guide or state that content was adapted from riskmandate.ai and sharness.ai."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources show riskmandate.ai and sharness.ai content is CC BY 4.0, but none states that a guide's content is adapted from them."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c9",
+      "claim": "RiskMandate's Agent Behaviour Policy model has its pages licensed CC BY 4.0 and its code licensed Apache-2.0.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "code Apache-2.0 · pages and policies CC BY CC BY 4.0",
+          "note": "The site footer on the Agent Behaviour Policy page states the code is Apache-2.0 and the pages and policies are CC BY 4.0."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "code Apache-2.0 · pages and policies CC BY CC BY 4.0",
+          "note": "The RiskMandate Agent Behaviour Policies page confirms that its code is licensed under Apache-2.0 and its pages and policies are licensed under CC BY 4.0."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "code Apache-2.0 · pages and policies CC BY CC BY 4.0",
+          "note": "The RiskMandate Agent Behaviour Policy page states its code is Apache-2.0 and its pages/policies are CC BY 4.0."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "The sgit project is licensed under Apache-2.0.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Apache-2.0",
+          "note": "The sgit.ai page describes sgit as \"Open source, Apache-2.0, in beta and powering production workflows.\""
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Open source, Apache-2.0",
+          "note": "The source explicitly states that sgit is open source under Apache-2.0."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Open source, Apache-2.0",
+          "note": "S3 states that sgit is open source under Apache-2.0."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c11",
+      "claim": "SHarness's content is licensed CC BY 4.0, and its code licence is not stated on its home page.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "All content CC BY 4.0.",
+          "note": "The SHarness home page says all content is CC BY 4.0, and the excerpts show no licence stated for the code, only \"Open source · Python, standard library only.\""
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "All content CC BY 4.0.",
+          "note": "The SHarness homepage explicitly specifies that all content is under CC BY 4.0 while noting only that it is open source without identifying a specific code license."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "All content CC BY 4.0.",
+          "note": "The source explicitly states that all content is licensed CC BY 4.0, and only lists the language and GitHub repository for the code without stating a specific code license on the home page."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c12",
+      "claim": "Google's Gemini CLI is an open-source terminal agent.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S11",
+          "quote": "is an open-source terminal agent",
+          "note": "The GitHub README states that Gemini CLI is an open-source terminal agent, and also that it is fully open source under Apache 2.0, though it is now maintained mainly for enterprise Code Assist workflows."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S11",
+          "quote": "Gemini CLI ( gemini ) is an open-source terminal agent",
+          "note": "The repository explicitly describes Gemini CLI as an open-source terminal agent built by Google."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S11",
+          "quote": "open-source terminal agent",
+          "note": "The source explicitly describes Gemini CLI as an open-source terminal agent."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}
