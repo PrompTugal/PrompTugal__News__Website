@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.650",
+    "date": "2026-11-07",
+    "what": "dev.venues@PrompTugal.angelo: My day links to the venue map",
+    "by": "dev.venues@PrompTugal.angelo",
+    "from": "df21a88a0"
+  },
+  {
     "version": "v0.1.649",
     "date": "2026-11-07",
     "what": "dev.venues@PrompTugal.angelo: My day on the map: a reader's picks shaded on the venue map, in their browser only",
