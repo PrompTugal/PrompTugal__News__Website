@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.450",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 06:05: 28 commits clean, the signature's form 2 reviewed, S27 (its mask) to dev@",
+    "by": "security@PrompTugal.dinis",
+    "from": "66a2927a3"
+  },
+  {
     "version": "v0.1.449",
     "date": "2026-11-07",
     "what": "conductor@PrompTugal.dinis: wake 05:52: a quiet night, thirty releases",
