@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.603",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: fix a wording slip about the Smart Country Convention in the Portugal ecosystem notes",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "9e08c0b06"
+  },
+  {
     "version": "v0.1.602",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: wake 18:08: status and run report; waits on Dinis for a euro payment link",
