@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 21:08 done (v0.1.637); debrief updated 21:40",
-  "updated": "2026-11-07T21:40Z",
+  "state": "running on account B; wake 22:08 done (v0.1.647)",
+  "updated": "2026-11-07T22:40Z",
   "done": [
+    "Wake 22:08: newsletter P1 (the edition band) and /newsletter/ as cards; dev.search brought; inbox empty.",
     "Wake 21:08: F61 (no full stop after ?); five worker branches brought (the declined list held G's block out); devops@'s PDF finding passed to investors@; the hand-over debrief updated.",
     "Wake 20:08: the evening edition's V1 to V3; the review tool's declined list (dev.pages@'s empty G block kept out for good); dev.search brought.",
     "Wake 19:08: five worker branches brought (dev.pages@'s empty G block taken out again, the worker told); newsletter E8 and P5 (the foot and the byline name the agents and editors); inbox empty.",
@@ -65,7 +66,7 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
-    "The newsletter check's rest: P1 the edition band, P2 thumbnails, P4 small Add buttons, cards on /newsletter/",
+    "The newsletter check's rest: P2 thumbnails in Following from afar; P4 small Add buttons (with dev.pages@)",
     "Drop the form 1 path in signed-form.cjs once journalist@ has re-signed every article",
     "My Feeds as publisher and the RiskMandate removals when the conductor routes them"
   ],
