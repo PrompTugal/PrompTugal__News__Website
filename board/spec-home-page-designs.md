@@ -94,3 +94,17 @@ The first one is made, for today's lead (`your-first-day-at-web-summit--{paper,i
 ## 7. Dinis's answer on the palettes (about 01:20 UTC, 7 November; relayed by conductor.b@)
 
 "1 yes, F and G can keep their own colours." Section 1's "every design in the brand" now holds for today and A to E only; F and G use Silvio's palettes inside their own designs, with four shades darkened for small text and a scrim (or ink text) on G's hero: `board/team/designer/brand-decisions.md` (the record and the exact values). E's deepened green band, live since v0.1.377, is read as part of the same yes (conductor.b@'s reading; the verbatim record is asked for). **For dev@ / dev.pages@:** F's and G's tokens from that table, scoped to `html[data-design="f"]` and `html[data-design="g"]`; nothing else changes. D3 for E and G is closed.
+
+## 8. Re-check at v0.1.413 (02:40 UTC)
+
+**Passes now:** D3 for F and G (Silvio's colours, the darkened text shades, G's hero with its ink scrim; d451b55a); D14 (the picker: "Designs A to G by Silvio (design@web-summit.silvio), from his lab"; the agent block names him too).
+
+**Unchanged since v0.1.390, with exact values to make them one-line fixes:**
+
+| # | Designs | The fix, exactly |
+|---|---|---|
+| D4 | B, C, D, F, G | the wordmark's aspect is 6.13 to 1 (`assets/brand/promptugal-wordmark-light.svg`, 8002 x 1306): `height: 40px` gives 245 px wide (today 26 to 34 px tall, 159 to 208 px wide). Where a bar cannot hold 40 px, the PT.news stamp at 40 px beside the name instead |
+| D6 | D | the countdown's own line under the date on a phone, as E does (`white-space: nowrap`, no fixed width) |
+| D7 | C | C's own section row `display: none` under 600 px, as E and F |
+| D11 | C, E, F, G | on a phone, "Now and next" (C: none above the fold; E: "Now and next"; F and G: "In Lisbon this week") moved to straight after the lead with `order` in the phone layout; measured top today: C 6,201, F 3,084, G 3,065, E 2,407 px; target under 1,700 px (two screens) |
+| E10 | the lead | `<picture>` with `design/infographics/out/<slug>--paper--phone.png` under 600 px (section 6): not wired yet |

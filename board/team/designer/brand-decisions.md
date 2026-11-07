@@ -9,8 +9,8 @@ The brand v2.0 (`design/brand/`, the guide `Promptugal-Brand-Guide.pdf`) is the 
 
 | When (UTC) | Question | Dinis's answer | How it reached me | What it changes |
 |---|---|---|---|---|
-| 7 Nov, about 01:20 | May a home page design keep its own palette (F's violet, G's coral and gradient)? | "1 yes, F and G can keep their own colours" | relayed by conductor.b@ in a session message at 01:53, quoting him; not yet in a commit (conductor.b@ asked to record it verbatim) | F (Signal) and G (The Magazine) use Silvio's palettes, inside their own designs only, with the contrast fixes below; brand v2.0 everywhere else |
-| 7 Nov, about 01:20 | Is E's lead band in a deepened green (`#0a3a14`, mint accent `#8fd18f`) a yes? | asked together with the row above as question 1; conductor.b@ reads "1 yes" as covering both | the same relay | none needed: E's band is live in these colours since v0.1.377. If the verbatim record says otherwise, E goes back to `#006600` |
+| 7 Nov, about 01:20 | May a home page design keep its own palette (F's violet, G's coral and gradient)? | "1 yes, F and G can keep their own colours" | relayed by conductor.b@ at 01:53; recorded verbatim in board/team/conductor.b/status.json ("decisions_from_dinis", commit 9176b834) | F (Signal) and G (The Magazine) use Silvio's palettes, inside their own designs only, with the contrast fixes below; brand v2.0 everywhere else |
+| 7 Nov, about 01:20 | Is E's lead band in a deepened green (`#0a3a14`, mint accent `#8fd18f`) a yes? | asked together with the row above as question 1; conductor.b@ reads "1 yes" as covering both | the same record: the question named E's green, his answer names only F and G | none needed: E's band is live in these colours since v0.1.377. If the verbatim record says otherwise, E goes back to `#006600` |
 
 ## The palettes now allowed, and the contrast they need
 
