@@ -1,9 +1,9 @@
 ---
 title: Investors
-summary: PrompTugal is an Algarvian startup building the next generation of news publishing, and it is already working. What we sell is the agentic newsroom, people and AI agents working together. We are looking for investors and business partners. Everything is published except the ask and the terms.
+summary: PrompTugal is an Algarvian startup building the next generation of news publishing, and it is already working. What we sell is the agentic newsroom, people and AI agents working together. We are looking for investors and business partners. Everything is published, the seed round (under $1M) too; only the valuation and the terms are for a conversation.
 ---
 {.notice .brand}
-**PrompTugal is an Algarvian startup, and it is raising.** We are looking for investors and business partners, and talking to them at Web Summit Lisbon (9 to 12 November 2026). This section publishes the strategy, the product, the plan and the history in full. Only the ask and the terms are kept for a conversation.
+**PrompTugal is an Algarvian startup, and it is raising.** We are looking for investors and business partners, and talking to them at Web Summit Lisbon (9 to 12 November 2026). This section publishes the strategy, the product, the plan and the history in full. Only the valuation and the terms are kept for a conversation; the round is a seed of under $1M.
 
 ## The pitch, in one page {#pitch}
 
