@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.435",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: inbox drained (empty), 2025 session summaries index read",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "3d1bd79e0"
+  },
+  {
     "version": "v0.1.434",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: wake 04:08: status and run report; blocked on nothing",
