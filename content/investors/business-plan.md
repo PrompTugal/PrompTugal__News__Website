@@ -1,6 +1,6 @@
 ---
 title: "Investors: the business plan"
-summary: "Several revenue streams on one platform that costs little to run: pay per use after the value, customisation for people and teams, the platform for other events, the agentic team deployed, data made for agents, intelligence packs, and work with publishers. Validated at Web Summit; aiming to be profitable within months. No figures until we have them."
+summary: "Several revenue streams on one platform that costs little to run: pay per use after the value, customisation for people and teams, the platform for other events, the agentic team deployed, data made for agents, intelligence packs, work with publishers, and licensing. Validated at Web Summit; aiming to be profitable within months. No figures until we have them."
 ---
 **The plan in one line: people pay because they already had value, not for value promised; on top of that, sell customisation, the platform and the team behind it, on a stack that costs very little to run.** This summit is the first edition and the first test.
 
@@ -37,6 +37,10 @@ Who is who, what is happening in AI in Portugal, mapped and kept current, as a p
 ### 8. Working with publishers {#publishers}
 
 The publishing industry has to change, and if it goes our way there is work and revenue in helping existing publications, in Portugal and around the world, to run the same way. Publishers should be investing in what we do.
+
+### 9. Licensing, and maintaining it for you {#licensing}
+
+Everything we build is open source (code Apache-2.0, text and data CC BY 4.0), and we also license it: a company that wants our technology under its own terms, inside its own walls, can have a commercial licence, and we maintain it for them. Dual licensing keeps the code free for everyone and gives companies what they need to adopt it ("You can always commercial-license or relicense everything for a customer who wants it", [open-source.sgit.ai](https://open-source.sgit.ai/)).
 
 ### And a wider market {#multilingual}
 
