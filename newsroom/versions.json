@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.629",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: IAPMEI, Portugal Ventures, Turismo de Portugal and Lisboa Municipality in the graph",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "afd90c174"
+  },
+  {
     "version": "v0.1.628",
     "date": "2026-11-07",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
