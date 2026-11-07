@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.392",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c5307f7ab"
+  },
+  {
     "version": "v0.1.391",
     "date": "2026-11-07",
     "what": "designer@PrompTugal.dinis: the eight home page designs checked live at v0.1.390; the daily hand-over debrief",
