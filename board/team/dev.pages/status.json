@@ -1,15 +1,15 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: home page designs A, B, C built from data on work/dev.pages (dev@ takes D, F, G)",
-  "updated": "2026-11-07T00:10Z",
+  "state": "waiting: A, B, C on work/dev.pages for dev@ to review; phone and dark checked",
+  "updated": "2026-11-07T00:12Z",
   "done": [
-    "S3: data/corrections/removals.json (schema removals.schema.json, KINDS line): pages to drop and texts to take out; past-day.mjs applies it before a rebuilt day is written (tested: a listed page dropped, a listed text replaced by [removed]; the list is empty now and security@ keeps it)",
     "Merged dev: dev@'s round-2 front page replaced my row change (F6 dropped; its kicker is code); dev@'s service worker already caches the day pages and my api/v1/days/ files (checked in sw.js and offline.mjs)",
     "Final hand-over debrief written (public); everything pushed to work/dev.pages",
     "Account B: new session key dev.pages-b-promptugal (old superseded 23:10Z); conductor.b@ and conductor@ told; asked for the inbox re-issue",
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
-    "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js"
+    "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
+    "Wake 00:11: merged dev; phone (390 px, no sideways scroll) and dark checks of A, B, C; hand-over debrief for 7 November"
   ],
   "next": [
     "Phone check of A, B, C; dark mode; designer@'s acceptance check",
@@ -18,5 +18,6 @@
   "asks": [
     "Dinis: none. Conductor: inbox re-issue to key dev.pages-b-promptugal still wanted."
   ],
-  "handover": "board/team/dev.pages/debriefs/2026-11-06-handover.md"
+  "handover": "board/team/dev.pages/debriefs/2026-11-06-handover.md",
+  "debrief": "board/team/dev.pages/debriefs/2026-11-07-handover.md"
 }
