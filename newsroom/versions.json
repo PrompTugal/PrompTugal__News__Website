@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.572",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report for the 15:23 wake",
+    "by": "investors@PrompTugal.dinis",
+    "from": "30dab84ce"
+  },
+  {
     "version": "v0.1.571",
     "date": "2026-11-07",
     "what": "ontologist@PrompTugal.dinis: withdrew_from and sponsors in the ontology (dev.data's past summits); debrief refreshed",
