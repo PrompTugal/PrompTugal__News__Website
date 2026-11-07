@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.400",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: own-site sources, batch 3 (11 companies); Genspark held",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "b3525e456"
+  },
+  {
     "version": "v0.1.399",
     "date": "2026-11-07",
     "what": "researcher@PrompTugal.dinis: AWS Marketplace round 1 for the summit's partner companies",
