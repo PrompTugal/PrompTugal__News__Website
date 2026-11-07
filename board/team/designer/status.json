@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T22:45Z",
+  "updated": "2026-11-07T23:42Z",
   "done": [
+    "23:42 newsletter P2 (thumbnails) passes; took designer.experiments@'s refreshed debrief, status and its day's ten run reports onto dev (its own paths)",
     "22:45 writer@PrompTugal.angelo's interactive agent-setup guide read for the brand (39e19860fe): in the brand (the site's tokens, no own colours; options 40 px tall); one note: the sticky 'Read this as' bar covers a section's heading after a jump (scroll-margin-top on the headings). S26 and S27 published with their own covers",
     "20:42 WK1's table image redrawn after the journalist's correction (PITCH's group rounds, the semi-final and final on Centre Stage), no AI, the table tool's long-note column fixed",
     "19:44 the first evening newsletter edition checked (spec's evening section): E3 to E5, E8, P5, E9 pass; new V1 (the same stories listed twice), V2 ('five things' listing two, tomorrow), V3 (summaries cut mid-sentence) for dev@; E1, E2, P1, P2, P4 still open",
@@ -392,6 +393,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the interactive guide read for the brand: in brand, one note"
+    },
+    {
+      "started": "2026-11-07T23:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "newsletter P2 passes; the worker's day taken"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
