@@ -78,3 +78,15 @@
 .fg-pb button { background: #16131f; color: #fffaf3; }
 
 .fg-hd nav a { display: inline-flex; align-items: center; min-height: 24px; }
+/* Now and next, straight after the cover and the numbers (sherpa@'s D11: on a phone what is on now was 3,100 px down) */
+.fg-now { max-width: calc(var(--page) - 2 * var(--gutter)); margin: 16px auto 0; padding: 0 var(--gutter); box-sizing: border-box; }
+.fg-now .fg-w { padding: 0; }
+.fg-now h2 { font: 700 13px var(--sans) !important; letter-spacing: .12em !important; text-transform: uppercase !important; margin: 0 0 8px !important; color: var(--brand-2); }
+.fg-now ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.fg-now li { border-top: 2px solid var(--ink); padding-top: 8px; font: 15px/1.3 var(--serif); }
+.fg-now time { display: block; font: 700 12px var(--mono); color: var(--brand-2); margin-bottom: 3px; }
+.fg-now a { color: inherit; text-decoration: none; } .fg-now a:hover { text-decoration: underline; }
+.fg-now p { margin: 8px 0 0; font: 600 13px var(--sans); } .fg-now p a { display: inline-flex; align-items: center; min-height: 24px; }
+.fg-now li[hidden] { display: none; }
+@media (max-width: 1000px) { .fg-now ul { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+@media (max-width: 600px) { .fg-now ul { grid-template-columns: minmax(0, 1fr); } .fg-now li:nth-child(n+4) { display: none; } }

@@ -98,3 +98,8 @@
 .ff-tk { flex: 1; min-width: 0; }
 .ff-tl small { display: block; font: 12px var(--sans); color: var(--ink-3); margin-top: 2px; }
 .ff-hd nav a, .ff-h a, .ff-bh a, .ff-lnk a { display: inline-flex; align-items: center; min-height: 24px; }
+/* D11: on a phone, "In Lisbon this week" comes right after the lead's block, before the stories and the radar */
+@media (max-width: 760px) {
+    .ff-g { display: flex; flex-direction: column; } .ff-side { display: contents; }
+    .ff-side .ff-box:nth-child(2) { order: -1; margin-bottom: 18px; } .ff-side .ff-box:first-child { order: 5; }
+}

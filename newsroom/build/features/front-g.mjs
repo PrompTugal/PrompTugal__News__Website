@@ -18,7 +18,7 @@ export const fill = {
         const feat = m.articles.find(x => !used.has(x.slug) && !shown.has(x.slug) && x.card)
         page.before = (page.before || '') + t.put(t.part('page'), {
             name: ctx.md.esc(ctx.SITE.name), wordmark: WORDMARK(''), today: m.today, date: m.date, opening_at: m.openingAt, opening_in: m.openingIn,
-            '#nav': t.many('nav', m.nav), '#asks': t.many('ask', m.asks), '#nums': t.many('num', m.nums),
+            '#nav': t.many('nav', m.nav), '#now': t.many('now', m.next.slice(0, 4)), '#asks': t.many('ask', m.asks), '#nums': t.many('num', m.nums),
             '#lines': [first, second, third].filter(Boolean).map((x, i) => t.put(t.item('line'), { href: x.href, kicker: i ? x.beat : 'Cover story', title: i ? x.title : headline(x) })).join(''),
             figure: pic ? t.put(t.item('figure'), { href: first.href, picture: pic }) : '',
             '#sections': sections.join(''),
