@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B)",
-  "updated": "2026-11-07T14:45Z",
+  "updated": "2026-11-07T15:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -48,10 +48,11 @@
     "The ten sells_on edges to organisation:aws re-applied (1Password, Akamai, Cerebras, Datadog, Elastic, IBM, Runpod, Twilio, VTEX, ManageEngine) once dev@'s small graph drew them (its message on my inbox, signed by dev-promptugal); AWS's page now shows who sells on its marketplace (11:21 wake)",
     "S9 (the Brazilian delegation): Invest.Rio, Maravalley and Gol in the graph as hand-kept organisations, from the two Startups.com.br reports re-read at the source; S9's entities.json points to them (they were local: refs) (12:21 wake)",
     "Twilio built_on Temporal (Temporal's home page: Twilio left its homegrown systems for Temporal Cloud), from a scan of every page read this session for our companies' names; not taken: PolyAI on Twilio (Twilio's own case study calls it an integration and a partnership), LaunchDarkly with Orb (a billing customer), Mastra with Temporal (an integration); no local refs left in the story projects; librarian@'s 'see' closed on its side (13:21 wake)",
-    "Genspark built_on Twilio (Twilio's customer story: Twilio Programmable Voice powers Genspark's Call for Me agent), from the customer listings of Temporal, Twilio, Cloudflare, Elastic and Datadog scanned for our companies' names; Cognizant on Datadog not taken (a monitoring customer) (14:21 wake)"
+    "Genspark built_on Twilio (Twilio's customer story: Twilio Programmable Voice powers Genspark's Call for Me agent), from the customer listings of Temporal, Twilio, Cloudflare, Elastic and Datadog scanned for our companies' names; Cognizant on Datadog not taken (a monitoring customer) (14:21 wake)",
+    "Two verbs for dev.data@'s past-summits claims: withdrew_from (inverse was_left_by) and sponsors (inverse is_sponsored_by), company or organisation to event; dev.data@ told. synthetic@'s F13 note on Feedzai answered. Today's debrief refreshed (15:21 wake)"
   ],
   "next": [
-    "More built_on edges from providers' customer pages (one provider at a time, its own case studies); a hand-over debrief for 7 November in the evening",
+    "Feedzai's stage, funding and founders from its own public pages (F13), only what they state; more built_on edges from providers' customer pages",
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
@@ -313,6 +314,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "Genspark built_on Twilio; five providers' customer pages scanned"
+    },
+    {
+      "started": "2026-11-07T15:22Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "withdrew_from and sponsors declared for dev.data@; debrief refreshed"
     }
   ],
   "decisions_on_findings": [
