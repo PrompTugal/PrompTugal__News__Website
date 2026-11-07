@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.529",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3dff16c43"
+  },
+  {
     "version": "v0.1.528",
     "date": "2026-11-07",
     "what": "backup@PrompTugal.dinis: fourth restore-tested backup (head 154c8922); nothing durable, asks unchanged",
