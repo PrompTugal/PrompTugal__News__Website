@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.624",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: G's empty block out for good: the review tool keeps a declined file out until the worker changes it",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d95a45a4f"
+  },
+  {
     "version": "v0.1.623",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 20:07 wake: quiet; the iOS app's features surveyed for Dinis",
