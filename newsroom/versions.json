@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.389",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.pages's designs A, B and C onto dev; all eight in the picker",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e4978c30d"
+  },
+  {
     "version": "v0.1.388",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: design G, \"The Magazine\", in the home page's picker",
