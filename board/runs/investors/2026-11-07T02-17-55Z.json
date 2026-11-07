@@ -1,0 +1,137 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "investors@PrompTugal.dinis",
+ "run": "2026-11-07T02-17-55Z",
+ "started": "2026-11-07T02:17:55.809Z",
+ "ended": "2026-11-07T02:31:44Z",
+ "line": "Dinis's pitch recorded; /investors/ made a section of 7 pages from it",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-07T02:28:26.229Z",
+   "chars": 8619,
+   "sha256": "e5d0100c91f0c427",
+   "head": "Okay, so here's the pitch that I want you to position for the prompt to go. So first of all, what we're selling is the prompt to go service, right? Forget about my feeds. My feeds is a story. My feeds"
+  },
+  {
+   "t": "2026-11-07T02:29:10.143Z",
+   "chars": 5925,
+   "sha256": "f1ae462dc81616ea",
+   "head": "<agent-message from=\"adff4942bbd4d0504\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-07T02:29:10.194Z",
+   "chars": 1151,
+   "sha256": "121b7a0e1f1da03b",
+   "head": "<task-notification>\n<task-id>adff4942bbd4d0504</task-id>\n<tool-use-id>toolu_01R4PvodnQZfK9qj8Lw8dNrY</tool-use-id>\n<status>completed</status>\n<summary>Agent \"Read My Feeds investor site\" finished</sum"
+  },
+  {
+   "t": "2026-11-07T02:30:17.503Z",
+   "chars": 4878,
+   "sha256": "96f8464ecc231062",
+   "head": "<agent-message from=\"a495cf5b95e9e26a4\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-07T02:30:17.565Z",
+   "chars": 1159,
+   "sha256": "d1cbedf64bd10551",
+   "head": "<task-notification>\n<task-id>a495cf5b95e9e26a4</task-id>\n<tool-use-id>toolu_01UBZ2ir1p6WQsDkTMyxYsUA</tool-use-id>\n<status>completed</status>\n<summary>Agent \"Research news-platform competitors\" finish"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-07T02:17:55.809Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-07T02:28:25.862Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 51,
+  "by_kind": {
+   "agent": 5,
+   "web": 29,
+   "git": 5,
+   "shell": 11,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 5
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 46,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 5,
+  "denied": [
+   {
+    "t": "2026-11-07T02:28:41.327Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in investors@PrompTugal.dinis's grant (subagents)",
+    "target": "web-fetch"
+   },
+   {
+    "t": "2026-11-07T02:28:45.863Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in investors@PrompTugal.dinis's grant (subagents)",
+    "target": "web-fetch"
+   },
+   {
+    "t": "2026-11-07T02:28:53.415Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in investors@PrompTugal.dinis's grant (subagents)",
+    "target": "web-fetch"
+   },
+   {
+    "t": "2026-11-07T02:29:09.535Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in investors@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-07T02:30:16.303Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in investors@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 5
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 5,
+  "tool_calls": 51,
+  "in_mandate": 46,
+  "out_of_mandate": 5,
+  "attempts": 5,
+  "breaches": 0
+ }
+}

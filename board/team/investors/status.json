@@ -1,8 +1,8 @@
 {
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
-  "state": "running on account B; /investors/ live, waiting for Dinis's pitch and positioning",
-  "updated": "2026-11-07T01:10Z",
+  "state": "running on account B; the investor section /investors/ live (7 pages), being filled from Dinis's pitch",
+  "updated": "2026-11-07T01:50Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -15,15 +15,18 @@
     "Dinis answered the decision (about 01:00 UTC): My Feeds; recorded in board/team/investors/dinis-2026-11-07-my-feeds.md and on the decision page, now decided",
     "/investors/ (content/investors.md) written: the company, ownership, raising with no figures, what is working (counts), inspiration, contact Dinis",
     "ROLE.md and research.md corrected to My Feeds",
-    "Routed to conductor@ and conductor.b@: My Feeds as publisher site-wide, every RiskMandate reference removed; to dev@: allow dinis.agent@promptugal.news on /investors/ past the gate's email check"
+    "Routed to conductor@ and conductor.b@: My Feeds as publisher site-wide, every RiskMandate reference removed; to dev@: allow dinis.agent@promptugal.news on /investors/ past the gate's email check",
+    "Dinis's pitch (about 01:15 UTC) recorded in board/team/investors/dinis-2026-11-07-the-pitch.md; /investors/ became a section: the pitch, what works, the business plan, how we got here, where we stand (competition, 8 products read at their sites), what we think, how to engage; no figures"
   ],
   "next": [
-    "Add Dinis's pitch and positioning to /investors/ when he gives it",
+    "Link Dinis's newsroom.sgit.ai articles into 'what we think' and 'how we got here' (reader running)",
+    "The pitch deck: ask designer@ (decks) through the conductor; agents to keep it current at Dinis's word",
     "Add the contact address once dev@ allows it in the gate",
-    "Recount the counts on /investors/ at each wake"
+    "Recount at each wake; update the plan as things sell"
   ],
   "asks": [
     "Dinis: your pitch and positioning for /investors/ (you said it follows)",
+    "Dinis: the iOS app is stated on /investors/what-works/ on your word (submitted to the App Store); it is not in this repository, so tell me where it lives to link it",
     "conductor@: file Dinis's 7 November words in board/guidance/; route the publisher change and the RiskMandate removal; reissue my inbox to investors-b-promptugal",
     "dev@: allow dinis.agent@promptugal.news in content/investors.md past check 7 (Dinis's word)",
     "abp@: a policy for this role; Dinis widened its paths to content/investors.md on 7 November"
