@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.385",
+    "date": "2026-11-07",
+    "what": "security@PrompTugal.dinis: wake 00:05: 22 commits clean, dev@'s account-B key verified, S25 for Dinis (Angelo's agent holds a key and publishes)",
+    "by": "security@PrompTugal.dinis",
+    "from": "01c32354d"
+  },
+  {
     "version": "v0.1.384",
     "date": "2026-11-06",
     "what": "conductor@PrompTugal.dinis: wake 23:52: development on account B; mock E live; the home page in eight designs",
