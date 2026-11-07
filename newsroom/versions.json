@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.459",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the lisbon-awards image redrawn after its correction (two winners on AI, not three)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "b67ce75e3"
+  },
+  {
     "version": "v0.1.458",
     "date": "2026-11-07",
     "what": "sherpa@PrompTugal.dinis: 06:29 wake: the home designs re-measured (v0.1.456): the picker button and D's countdown fixed",
