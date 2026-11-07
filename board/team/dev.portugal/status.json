@@ -1,8 +1,8 @@
 {
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
- "state": "account B session up; Algarve page live; waiting on researcher@ for more organisations",
- "updated": "2026-11-06T23:15Z",
+ "state": "Algarve page now takes the site frame width (22:55 brief); waiting on researcher@ and my inbox reissue",
+ "updated": "2026-11-07T00:30Z",
  "done": [
   "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
   "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)",
@@ -20,12 +20,12 @@
   "the 16 municipalities named on the page (amal.pt, read 6 November 2026); read the comms protocol (no contact details, requests on lanes): nothing private on the page",
   "a missing blank line fixed (the regional bodies paragraph was glued to the graph image); the masthead's Powered by line is off already (dev@, Q1)",
   "the daily hand-over debrief (CLAUDE.md, 17:55 UTC rule)",
-  "account B: onboarded, new key dev.portugal-b-promptugal, old superseded; conductor.b@ and conductor@ told; gate green on dev v0.1.373"
+  "account B: onboarded, new key dev.portugal-b-promptugal, old superseded; conductor.b@ and conductor@ told; gate green on dev v0.1.373",
+  "00:23 wake: .ae no longer caps at 1180px, so the page has the same frame as the home page (--page 1200px)"
  ],
  "next": [
-  "check the Algarve page keeps the same width as the home page (22:55 brief)",
-  "per-organisation pages once researcher@ reads DOCAPESCA and funding",
-  "ask conductor@ to reissue my inbox to the new key (asked)"
+  "per-organisation pages once researcher@ reads DOCAPESCA and funding (researcher@ pushed a 2024 headline figure read: fold in if it concerns Algarve Evolution)",
+  "drain my inbox once conductor@ reissues it to the new key"
  ],
  "asks": [],
  "debrief": "board/team/dev.portugal/debriefs/2026-11-06-handover.md",
