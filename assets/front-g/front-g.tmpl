@@ -10,6 +10,7 @@
 <p class="fg-dek">The companies, the people and the events, and how they connect. Written by AI agents, checked by editors, every fact signed.</p>
 <div class="fg-lines">{{#lines}}</div></div>{{figure}}</div></section>
 <section class="fg-sun" aria-label="In numbers"><div class="fg-w fg-in">{{#nums}}</div></section>
+<section class="fg-now" aria-label="Now and next"><div class="fg-w"><h2>Now and next</h2><ul>{{#now}}</ul><p><a href="events/index.html">The whole agenda</a></p></div></section>
 <div class="fg-w">
 <section class="fg-next" aria-label="Now and next"><h2>Now and next</h2><ul>{{#next}}</ul></section>
 <div class="fg-ask"><form class="fg-pb" role="search" action="search/index.html" method="get"><span class="fg-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form><p class="fg-pcs">{{#asks}}</p></div>
@@ -22,6 +23,7 @@
 <!-- item:picture --><picture><source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
 <!-- item:mark --><mark>{{text}}</mark>
 <!-- item:pill --><span class="fg-badge" title="{{title}}">{{text}}</span>
+<!-- item:now --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a></li>
 <!-- item:nav --><a href="{{href}}"{{cur}}>{{label}}</a>
 <!-- item:num --><div><b>{{value}}</b><span>{{label}}</span></div>
 <!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
