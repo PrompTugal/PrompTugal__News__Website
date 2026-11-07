@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T08:12Z",
+  "updated": "2026-11-07T09:14Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -23,10 +23,11 @@
     "05:07 wake: quiet night (inbox empty, nothing blocked); the daily hand-over debrief written",
     "06:07 wake: quiet (inbox empty, nothing blocked); ledger 2026-11-07T0612Z.json: 161.72 API-equivalent on account B since 22:20, 48.40 in the last three hours (about 16 an hour, down from 21); investors@ the largest (25.78, its four decks), then dev@ 19.03 and designer@ 19.01",
     "07:07 wake: quiet (inbox empty, nothing blocked); devops@ found the published tree doubled to 130 MB (sent to dev@, watched by the conductor); investors@ added /investors/for-events/; accountant@ has 7 November at 147.97 (B 110.53)",
-    "08:07 wake: quiet (inbox empty, nothing blocked); the first newsletter edition (Saturday morning) made by the conductor and checked by designer@; dev@ brought the five workers' branches onto dev"
+    "08:07 wake: quiet (inbox empty, nothing blocked); the first newsletter edition (Saturday morning) made by the conductor and checked by designer@; dev@ brought the five workers' branches onto dev",
+    "09:07 wake: quiet (inbox empty, nothing blocked); BR6 published and placed; ledger 2026-11-07T0912Z.json: 211.67 API-equivalent on account B, 49.95 in the last three hours (about 17 an hour, steady); investors@ 29.54, dev@ 24.56, designer@ 23.73 the largest"
   ],
   "next": [
-    "next ledger at 09:07",
+    "next ledger at 12:07, read by a fresh sub-agent (resuming the same one grew its context from 114k to 272k tokens a read)",
     "watch the home designs' A/B reading and cold reads"
   ],
   "asks": [
