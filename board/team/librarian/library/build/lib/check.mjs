@@ -7,7 +7,7 @@ import { holdingsOf, readRegister } from './cards.mjs'
 import { ROWS_PER_TABLE } from './shelf.mjs'
 import { secretFindings } from './secrets.mjs'
 import { danglingLinks } from './links.mjs'
-import { REL, INVERSE } from './linktypes.mjs'
+import { REL, INVERSE, ontologyOf } from './linktypes.mjs'
 import { loadDomains, readExists, MARK_BEGIN, MARK_END } from './reality.mjs'
 import { validateShape, checkPresets } from './graph.mjs'
 
@@ -168,6 +168,15 @@ export function check(ctx) {
   const linkStats = {}
   for (const c of cards) for (const l of c.links || []) linkStats[l.rel] = (linkStats[l.rel] || 0) + 1
   stats.links = linkStats
+  // every link type in use is a verb of the site's ontology (or its inverse), with the same inverse
+  const onto = ontologyOf(root)
+  // (absent: a warning, for ontologist@ to take or decline; an inverse that differs: an error, the two disagree)
+  for (const t of new Set(Object.keys(linkStats).map((r) => (REL[r] ? r : INVERSE[r])).filter(Boolean))) {
+    if (!onto[t]) continue
+    if (onto[t].state === 'absent') warnings.push(`link type ${t} is used but is not a verb of data/ontology.json: proposed to ontologist@`)
+    if (onto[t].state === 'differs') errors.push(`link type ${t}: data/ontology.json names its inverse ${onto[t].ontology_inverse}, the library ${REL[t].inverse}`)
+  }
+  stats.ontology = Object.fromEntries(Object.entries(onto).map(([k, v]) => [k, v.state]))
 
   // the indexes name only cards and records that exist
   for (const [name, idKey] of [['title', null], ['subject', 'subj'], ['agent', 'auth'], ['series', null]]) {

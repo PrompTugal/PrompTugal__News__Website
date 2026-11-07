@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B)",
-  "updated": "2026-11-07T07:25Z",
+  "updated": "2026-11-07T10:35Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -26,10 +26,11 @@
     "Account B session onboarded (22:23 to 22:35 UTC): new session key (record sha256:b7d903294669247b, encryption sha256:a1bcc67afa9970d6) as librarian-promptugal in board/keys.json, the first session's entry renamed librarian-promptugal-0 and marked superseded at 22:30; agents.json note updated; conductor.b@ and conductor@ told on their inboxes and asked to reissue mine; the catalogue at v0.1.363 (1,170 pages, 1,114 board files, 13 desks, 29 passes, 158 findings, 27 agents); the library at 3,107 cards, check OK, 39 tests green; waits-on-Dinis regenerated (25 blocked, 8 decisions, 52 questions)",
     "Wake of 00:56 (7 November): inbox reissued by conductor@ at 22:52 (signature verified), opened and read with security@'s read-only lane reader: empty; the reality tree's two warnings cleared (an evidence path that moved to content/newsroom/decisions/who-sends-which-company.md; the generator now accepts a bare root file such as CNAME as evidence); the library check had gone red on two new agent handles (writer@PrompTugal.angelo, design@web-summit.silvio), not contact details: the handle rule now knows those operators, with a test (41 green); catalogue v0.1.395 (1,180 pages, 1,302 board files, 14 desks, 160 findings); library 3,308 cards, check OK, 0 warnings",
     "Wake of 03:56: the inbox rotated by conductor@ at 02:54 (S26; a new vault), opened to file with field names only, drained: 1 message (conductor@, verified: the reissue notice; no question, no slip); Q9 met (board/README.md links the ideas ledger, Later first) and a finding sent to conductor@ (the README does not name the catalogue or waits-on-Dinis); catalogue v0.1.430 (1,190 pages, 1,437 board files, 161 findings); library 3,454 cards, check OK, 0 warnings, 41 tests",
-    "Wake of 06:56: inbox drained (nothing new); Q8 done with a Sonnet curator sub-agent, reviewed by me: 49 night memos read against the ideas ledger, about 330 ideas checked, 2 not carried (memo 29: RiskMandate's 'biggest, widest graph' as the case study; memo 12, minor: which transcript export was used), both verified verbatim and sent to conductor@ (the ledger is its); board/team/librarian/library/stocktake/2026-11-07-q8-memos-against-the-ledger.md"
+    "Wake of 06:56: inbox drained (nothing new); Q8 done with a Sonnet curator sub-agent, reviewed by me: 49 night memos read against the ideas ledger, about 330 ideas checked, 2 not carried (memo 29: RiskMandate's 'biggest, widest graph' as the case study; memo 12, minor: which transcript export was used), both verified verbatim and sent to conductor@ (the ledger is its); board/team/librarian/library/stocktake/2026-11-07-q8-memos-against-the-ledger.md",
+    "Wake of 09:56: inbox drained (nothing new); SLIP-20261106-009 closed on my side: ontologist@'s newsroom world landed in data/ontology.json, and the library's link types now read their place in it at every build (vocabulary/links.json), with library.mjs check refusing an inverse that differs and warning on a type the ontology lacks; all eight link types in use are ontology verbs with the same inverses; 'see' (unused today) put to ontologist@; 42 tests; catalogue v0.1.497 (1,209 pages, 1,562 board files, 163 findings); library 3,610 cards, check OK, 0 warnings"
   ],
   "next": [
-    "The open slips: SLIP-20261106-009 (ontologist@'s newsroom world) and -010 (the reading room as /library/, dev@)",
+    "The open slip SLIP-20261106-010 (the reading room as /library/, dev@); ontologist@'s answer on 'see'",
     "Queue: the Later, Not captured and stand-up rows of the ledger, not yet audited row by row",
     "A drain in this repository: I read with board/team/security/tools/inbox_read.py (security@'s, read-only); the team site's feedback_drain.py is not attached to this session"
   ],
@@ -41,7 +42,6 @@
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",
     "ontologist@: a schema for board/catalogue.json",
     "dev@: the reading room as a page of the build (/library/), since board/ no longer deploys HTML (SLIP-20261106-010)",
-    "ontologist@: the 'newsroom' world in data/ontology.json, once dev@ says the graph accepts a fifth world",
     "my inbox writes back: the drain cannot mark messages processed without an SG/Send access token (sgit: 'no access token configured'); messages stay pending on the lane, nothing is lost"
   ],
   "wakes": [
@@ -104,6 +104,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: Q8 done (2 ideas not in the ledger, sent to conductor@); catalogue and library regenerated"
+    },
+    {
+      "started": "2026-11-07T09:56Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: the library's link types mapped onto the ontology's newsroom world, checked at every build; 'see' asked of ontologist@; catalogue v0.1.497; library 3,610 cards green"
     }
   ],
   "notes": [

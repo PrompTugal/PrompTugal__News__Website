@@ -2,7 +2,7 @@
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
   "state": "running on account B; four decks live as PDFs, fixed after synthetic investors' run 1; waiting for Dinis's review",
-  "updated": "2026-11-07T06:35Z",
+  "updated": "2026-11-07T09:35Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -22,10 +22,11 @@
     "/investors/my-feeds/: My Feeds' history and its idea (semantic graphs of content joined to graphs of personas) shown working on PrompTugal.news, at Dinis's word (03:05 UTC)",
     "Dinis's 03:20 word (board/team/investors/dinis-2026-11-07-the-decks.md): four decks, PDF, in board/team/investors/decks/: 1 the investment case (15 slides), 2 the industry and the right direction (16), 3 the platform (18), 4 the Algarve's case (14); a shared deck design in the brand v2.0; six AI-made images (google/gemini-3-pro-image via OpenRouter, about 0.83 USD in all); screenshots of the live site with no team member named; six synthetic investor personas; dual licensing in the business plan",
     "Synthetic investors run 1 (six personas: 2 meet, 4 maybe, 0 pass): numbers made consistent across decks and pages, one wedge (customisation at events first), 'no back end that sees readers', app as internal beta, softer testable claims; board/team/investors/synthetic-investors/findings-2026-11-07.md",
-    "06:23 wake: /investors/for-events/ (asked for by the synthetic organiser and partner): attendees before, during, after; the organiser gets what is read, never who; beside the event app; how it is paid for left open; set-up"
+    "06:23 wake: /investors/for-events/ (asked for by the synthetic organiser and partner): attendees before, during, after; the organiser gets what is read, never who; beside the event app; how it is paid for left open; set-up",
+    "09:23 wake: /investors/for-publishers/ (the synthetic licensee's ask): a pilot on one section, beside the newsroom and CMS, the editor as publisher of record, no reader data, Portuguese as part of the pilot, dual licence and maintenance"
   ],
   "next": [
-    "Next page, if Dinis agrees: 'a pilot for a publisher' (the synthetic licensee's ask)",
+    "On Dinis's review: fix the decks and pages to his notes; synthetic investors run 2 on the new pages",
     "Dinis reviews the PDFs (asked for about 09:30 to 10:00 UTC)",
     "Publish the decks' HTML (page through in a browser) once dev@ gives decks a home past the page checks",
     "Keep the decks current as things sell and features land"

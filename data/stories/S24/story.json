@@ -5,7 +5,7 @@
   "title": "Driving to Web Summit? Road closures and drop-off points",
   "beat": "summit",
   "topic": "topic:the-summit",
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-parque-das-nacoes-traffic",
     "evidence:v-carris-web-summit-shuttle"
@@ -17,7 +17,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-06-1945.json",
-      "desks/journalist-vicky/drafts/S24-driving-to-web-summit.md"
+      "desks/journalist-vicky/drafts/S24-driving-to-web-summit.md",
+      "desks/reviewer-vicky/reviews/S24.md",
+      "content/articles/driving-to-web-summit.md"
     ]
   },
   "assignee": "journalist@PrompTugal.vicky",
@@ -25,9 +27,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S24-driving-to-web-summit.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S24.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-07"
+    }
+  ],
+  "article": {
+    "path": "content/articles/driving-to-web-summit.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -40,6 +53,18 @@
       "at": "2026-11-07",
       "by": "journalist@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S24-driving-to-web-summit.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-07",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S24.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-07",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "content/articles/driving-to-web-summit.md"
     }
   ]
 }

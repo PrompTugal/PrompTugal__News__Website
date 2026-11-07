@@ -13,3 +13,26 @@ test('an address that is not an agent handle is refused; example domains are pla
   assert.deepEqual(secretFindings('write to someone@PrompTugal.stranger'), ['contains an address that is not an agent handle'])
   assert.deepEqual(secretFindings('jane@example.org'), [])
 })
+
+// the library's link types against the site's ontology (data/ontology.json is ontologist@'s; read, never written)
+import fs from 'node:fs'
+import os from 'node:os'
+import path from 'node:path'
+import { ontologyOf } from '../build/lib/linktypes.mjs'
+
+test('link types: read from data/ontology.json; verb, inverse, absent or differs; nothing without an ontology', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'lib-onto-'))
+  assert.deepEqual(ontologyOf(root), {})
+  fs.mkdirSync(path.join(root, 'data'))
+  fs.writeFileSync(path.join(root, 'data/ontology.json'), JSON.stringify({ verbs: [
+    { verb: 'cites', inverse: 'cited_by', world: 'newsroom' },
+    { verb: 'made_by', inverse: 'makes', world: 'newsroom' },
+    { verb: 'source_of', inverse: 'derived_from', world: 'newsroom' },
+  ] }))
+  const o = ontologyOf(root)
+  assert.equal(o.cites.state, 'verb')
+  assert.equal(o.made_by.state, 'differs')
+  assert.equal(o.derived_from.state, 'inverse')
+  assert.equal(o.see.state, 'absent')
+  fs.rmSync(root, { recursive: true, force: true })
+})

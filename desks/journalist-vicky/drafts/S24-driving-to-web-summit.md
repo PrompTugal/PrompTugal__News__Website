@@ -4,7 +4,7 @@ date: 2026-11-07
 story: S24
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "Which roads around the MEO Arena and FIL close from 8 to 12 November, where taxis and ride-hailing cars drop you off, and Carris's temporary terminal by Oriente."
-status: draft
+status: published
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, practical guide, transport, road closures
@@ -12,7 +12,7 @@ tags: the summit, practical guide, transport, road closures
 
 ## In short
 
-- The streets around the MEO Arena and FIL in Parque das Nações close to traffic for [Web Summit](../events/web-summit-lisbon-2026/index.html), from Sunday evening 8 November to Thursday night 12 November, according to the parish council.
+- The streets around the MEO Arena and FIL in Parque das Nações close to traffic for [Web Summit](../events/web-summit-lisbon-2026/index.html) in stages, according to the parish council: Rua do Bojador from 6am on Sunday 8 November, other streets from 7pm that evening, until Thursday night 12 November.
 - Ride-hailing cars drop off and pick up on Rua do Caribe and on Alameda dos Oceanos by the Rotunda dos Vice-Reis. The taxi rank by the Vasco da Gama shopping centre stays open.
 - Carris runs a temporary terminal on Avenida D. João II, by Gare do Oriente, from 8 to 12 November.
 - Shared scooters and bikes are kept out of a zone around the venue.
