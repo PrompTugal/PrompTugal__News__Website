@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PrompTugal: join us</title>
+<meta name="description" content="For the senior person from the news industry who has wanted to run a newsroom like this for years: it now runs; come and lead it. A business partner as CEO, technical journalists, strategic people, and helpers for Web Summit week. Deck 7, November 2026.">
+<link rel="stylesheet" href="deck.css">
+<style>
+.portrait { background: var(--panel); border: 1px solid var(--hair); padding: 0 0 30px; display: flex; flex-direction: column; }
+.portrait .ph { height: 210px; display: flex; align-items: flex-end; justify-content: center; background: var(--paper-2); border-bottom: 8px solid var(--green); }
+.portrait.r .ph { border-bottom-color: var(--red); } .portrait.c .ph { border-bottom-color: var(--cobalt); } .portrait.k .ph { border-bottom-color: var(--ink); }
+.portrait .who { font: 500 18px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin: 26px 28px 10px; }
+.portrait h3 { font-size: 34px; margin: 0 28px 14px; }
+.portrait p { font: 400 22px/1.42 var(--sans); color: var(--ink-2); margin: 0 28px; }
+.portrait p + p { margin-top: 12px; }
+.portrait .q { font: italic 400 24px/1.35 var(--serif); color: var(--ink); margin-top: auto; padding-top: 18px; }
+.callout { font: 500 20px/1.35 var(--sans); background: var(--ink); color: var(--paper); padding: 12px 18px; position: absolute; max-width: 380px; }
+.callout b { color: #8fd18f; font: 500 18px/1 var(--mono); letter-spacing: .1em; display: block; margin-bottom: 6px; }
+.seat { border: 4px dashed var(--red); background: var(--red-soft); }
+.quote-s { font: italic 400 34px/1.35 var(--serif); color: var(--ink); border-left: 8px solid var(--red); padding-left: 30px; }
+.chip { background: rgba(246,243,236,.94); padding: 8px 12px; color: var(--ink-2); }
+.quote-s .by { display: block; font: 500 18px/1 var(--mono); font-style: normal; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-top: 16px; }
+</style></head>
+<body><main class="deck">
+
+<!-- 1 · cover -->
+<section class="slide pic lightpic">
+  <img class="bg" src="img/join-seat.jpg" alt="" style="object-position:right center">
+  <div class="veil light"></div>
+  <div class="head"><span><b>Investors</b> · deck 7</span><span class="chip">v1.0 · 7 November 2026</span></div>
+  <div class="inner" style="max-width:1080px">
+    <div class="kicker">Wanted · senior · from the news industry · anywhere</div>
+    <h1 style="font-size:96px">You have wanted to run a newsroom like this for years. It now runs.</h1>
+    <p class="lead" style="font-size:40px"><b>Come and lead it.</b> A business partner as CEO, technical journalists and strategic people, and, this week, helpers for Web Summit.</p>
+  </div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span class="chip">Join us · image: AI-made</span></div>
+</section>
+
+<!-- 2 · you -->
+<section class="slide v ink">
+  <div class="head"><span><b>Is this you?</b></span><span>02</span></div>
+  <div class="kicker">For the person passionate about journalism, and frustrated</div>
+  <h2>You know what news should be. You never had the room to build it.</h2>
+  <div class="cols c3" style="margin-top:64px">
+    <div class="card g"><div class="n">01 · THE CRAFT</div><h3>You know it</h3><p>Sources, checking, the beat, the story that matters. Years of it, at a senior level.</p></div>
+    <div class="card g"><div class="n">02 · THE BUSINESS</div><h3>You watched it fail the craft</h3><p>82% of American newspaper revenue was advertising in 2005. American newsroom jobs fell 57% from 2008 to 2020.</p></div>
+    <div class="card g"><div class="n">03 · THE VISION</div><h3>You could never execute it</h3><p>No team, no tools, no budget for the ideas: a newsroom that sells trust and time, not the reader.</p></div>
+  </div>
+  <p class="lead" style="margin-top:56px">"The news industry sells the one thing whose price is going to zero, the article." <b>We built the other thing. It needs people who know the industry.</b></p>
+  <div class="src" style="color:#9a978f">Figures as cited by Dinis Cruz in "The reader was always the product" (29 Sep 2026) and the quote from "The future of news is the story vault, not the paywall" (22 Sep 2026), newsroom.sgit.ai.</div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us</span></div>
+</section>
+
+<!-- 3 · who we are looking for -->
+<section class="slide">
+  <div class="head"><span><b>Who we are looking for</b></span><span>03</span></div>
+  <div class="kicker">Four portraits · drawn, not real people</div>
+  <h2 style="font-size:64px">Senior, from anywhere in the world, and maybe also an investor.</h2>
+  <div class="cols c4" style="margin-top:40px;gap:28px;align-items:stretch">
+    <div class="portrait">
+      <div class="ph"><svg width="220" height="190" viewBox="0 0 220 190"><circle cx="110" cy="70" r="44" fill="#121317"/><path d="M20 190 C20 130 60 112 110 112 C160 112 200 130 200 190 Z" fill="#121317"/><path d="M110 120 L98 190 L122 190 Z" fill="#006600"/></svg></div>
+      <div class="who">01 · Business partner</div><h3>The CEO</h3>
+      <p>Has run companies; ideally senior in the news industry.</p><p>Runs all the operations: customers, the company, the sale.</p>
+      <p class="q">"I have run a business. I want to run this one."</p>
+    </div>
+    <div class="portrait r">
+      <div class="ph"><svg width="220" height="190" viewBox="0 0 220 190"><circle cx="110" cy="70" r="44" fill="#121317"/><path d="M20 190 C20 130 60 112 110 112 C160 112 200 130 200 190 Z" fill="#121317"/><rect x="138" y="140" width="40" height="30" fill="#c52830"/><line x1="146" y1="150" x2="170" y2="150" stroke="#f6f3ec" stroke-width="3"/><line x1="146" y1="160" x2="164" y2="160" stroke="#f6f3ec" stroke-width="3"/></svg></div>
+      <div class="who">02 · Editorial</div><h3>The technical journalist</h3>
+      <p>Reports on technology and AI, and is at ease with data, code and agents.</p><p>Leads a beat, with agents as the desk.</p>
+      <p class="q">"I want a desk that checks every fact."</p>
+    </div>
+    <div class="portrait c">
+      <div class="ph"><svg width="220" height="190" viewBox="0 0 220 190"><circle cx="110" cy="70" r="44" fill="#121317"/><path d="M20 190 C20 130 60 112 110 112 C160 112 200 130 200 190 Z" fill="#121317"/><circle cx="62" cy="160" r="9" fill="#1f4fa8"/><circle cx="110" cy="146" r="9" fill="#1f4fa8"/><circle cx="158" cy="160" r="9" fill="#1f4fa8"/><path d="M62 160 L110 146 L158 160" stroke="#1f4fa8" stroke-width="3" fill="none"/></svg></div>
+      <div class="who">03 · Strategy</div><h3>The strategist</h3>
+      <p>Knows the market, the publishers and the events; sees where the company goes next.</p><p>Hired with equity.</p>
+      <p class="q">"I can see the next three moves."</p>
+    </div>
+    <div class="portrait k">
+      <div class="ph"><svg width="220" height="190" viewBox="0 0 220 190"><circle cx="110" cy="70" r="44" fill="none" stroke="#121317" stroke-width="6"/><path d="M20 190 C20 130 60 112 110 112 C160 112 200 130 200 190" fill="none" stroke="#121317" stroke-width="6"/><path d="M96 70 L106 80 L126 58" stroke="#006600" stroke-width="7" fill="none"/></svg></div>
+      <div class="who">04 · Now</div><h3>The helper this week</h3>
+      <p>Anyone who wants in: the back office for Web Summit, 9 to 12 November 2026.</p><p>Unpaid, visible, learning a lot.</p>
+      <p class="q">"Show me. I will start today."</p>
+    </div>
+  </div>
+  <div class="src">Portraits are illustrations of roles, not of real people. Roles as given by Dinis Cruz, founder and CTO, 7 November 2026.</div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us</span></div>
+</section>
+
+<!-- 4 · what you would find: running -->
+<section class="slide">
+  <div class="head"><span><b>What you would find</b></span><span>04</span></div>
+  <div class="cols w40 center" style="margin-top:0;height:100%">
+    <div>
+      <div class="kicker">Not a plan: a newsroom, running</div>
+      <h2 style="font-size:64px">Three days from the first commit to a full publication.</h2>
+      <div class="cols" style="grid-template-columns:1fr 1fr;gap:40px;margin-top:50px">
+        <div class="stat"><div class="v">426</div><div class="l">releases, each built, checked and deployed automatically</div></div>
+        <div class="stat"><div class="v">31</div><div class="l">signed articles, every fact sourced</div></div>
+        <div class="stat r"><div class="v">120</div><div class="l">companies with sourced profiles; 240 summit events</div></div>
+        <div class="stat r"><div class="v">~25</div><div class="l">named agent roles, each with its own key, policy and budget</div></div>
+      </div>
+      <div class="src" style="margin-top:32px">Counted from the public repository, 7 November 2026 (first commit 4 November 2026). They grow every hour.</div>
+    </div>
+    <div style="position:relative">
+      <div class="shot"><div class="bar"><i></i><i></i><i></i><span>promptugal.news/newsroom</span></div><img src="shots/newsroom.jpg" alt="The newsroom page: every agent, every run, the plan and the data"></div>
+      <div class="callout" style="left:-40px;bottom:-30px"><b>THE NEWSROOM, IN PUBLIC</b>Every agent, every run, the plan and the data, drawn from the repository at every release.</div>
+    </div>
+  </div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us · screenshot of the live site</span></div>
+</section>
+
+<!-- 5 · what you would find: the standards -->
+<section class="slide">
+  <div class="head"><span><b>What you would find</b></span><span>05</span></div>
+  <div class="cols w60 center" style="margin-top:0;height:100%">
+    <div style="position:relative">
+      <div class="shot"><div class="bar"><i></i><i></i><i></i><span>promptugal.news/articles/…</span></div><img src="shots/p3-article-sources.jpg" alt="The end of an article: where it comes from, who made it, signed" style="height:640px;object-fit:cover;object-position:top"></div>
+      <div class="callout" style="right:-30px;top:60px"><b>SOURCED</b>Each fact with its source and the date it was read.</div>
+      <div class="callout" style="right:-30px;top:330px"><b>ACCOUNTABLE</b>Who made it, what reviewed it, who answers for it.</div>
+      <div class="callout" style="right:-30px;top:540px"><b>SIGNED</b>Checked against the agents' public keys before every release.</div>
+    </div>
+    <div>
+      <div class="kicker">The standards you would have set yourself</div>
+      <h2 style="font-size:60px">Every fact sourced. Every article signed. No one tracked.</h2>
+      <ul class="ticks" style="margin-top:40px">
+        <li><b>Trust through provenance:</b> claims, sources and evidence, joined.</li>
+        <li><b>No tracking:</b> no IP, no cookie; static pages, no back end for readers.</li>
+        <li><b>Never the reader:</b> no advertising; people pay after the value, pence a page.</li>
+        <li><b>Open:</b> code Apache-2.0, text and data CC BY 4.0.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us · screenshot of a live article</span></div>
+</section>
+
+<!-- 6 · agents do the repeatable work -->
+<section class="slide">
+  <div class="head"><span><b>What the agents do</b></span><span>06</span></div>
+  <div class="kicker">The repeatable work is done. The judgement is yours.</div>
+  <h2>Agents do what a newsroom repeats. You do what only a person can.</h2>
+  <svg viewBox="0 0 1680 560" width="1680" height="560" style="margin-top:36px">
+    <defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#006600"/></marker></defs>
+    <!-- axis -->
+    <line x1="0" y1="510" x2="1640" y2="510" stroke="#121317" stroke-width="3" marker-end="url(#ar)"/>
+    <text x="0" y="548" class="mono" font-size="19" fill="#595c64" letter-spacing="2">REPEATABLE</text>
+    <text x="1640" y="548" class="mono" font-size="19" fill="#595c64" letter-spacing="2" text-anchor="end">NEEDS JUDGEMENT, EXPERIENCE, PEOPLE</text>
+    <!-- agent zone -->
+    <rect x="0" y="0" width="980" height="480" fill="#e2eedf"/>
+    <text x="30" y="46" class="serif" font-size="34" font-weight="600" fill="#006600">The agents, every hour</text>
+    <g font-size="23" fill="#121317">
+      <rect x="30" y="80" width="440" height="56" fill="#fffdf8" stroke="#006600" stroke-width="2"/><text x="52" y="116">research the public record</text>
+      <rect x="500" y="80" width="450" height="56" fill="#fffdf8" stroke="#006600" stroke-width="2"/><text x="522" y="116">source each fact, with its date</text>
+      <rect x="30" y="156" width="440" height="56" fill="#fffdf8" stroke="#006600" stroke-width="2"/><text x="52" y="192">draft from the beats</text>
+      <rect x="500" y="156" width="450" height="56" fill="#fffdf8" stroke="#006600" stroke-width="2"/><text x="522" y="192">profile 120 companies, 264 people</text>
+      <rect x="30" y="232" width="440" height="56" fill="#fffdf8" stroke="#006600" stroke-width="2"/><text x="52" y="268">build pages from data</text>
+      <rect x="500" y="232" width="450" height="56" fill="#fffdf8" stroke="#006600" stroke-width="2"/><text x="522" y="268">check, sign and release</text>
+      <rect x="30" y="308" width="440" height="56" fill="#fffdf8" stroke="#006600" stroke-width="2"/><text x="52" y="344">read as synthetic readers</text>
+      <rect x="500" y="308" width="450" height="56" fill="#fffdf8" stroke="#006600" stroke-width="2"/><text x="522" y="344">index everything, keep budgets</text>
+    </g>
+    <text x="30" y="430" font-size="22" fill="#3f424a">each with a name, its own key, a written policy and a run report</text>
+    <!-- human zone -->
+    <rect x="1010" y="0" width="630" height="480" fill="#fffdf8" stroke="#c52830" stroke-width="4"/>
+    <text x="1040" y="46" class="serif" font-size="34" font-weight="600" fill="#c52830">You</text>
+    <g font-size="25" fill="#121317">
+      <text x="1040" y="112">what matters, and what leads</text>
+      <text x="1040" y="168">which story, which beat, which angle</text>
+      <text x="1040" y="224">who to call, what to ask them</text>
+      <text x="1040" y="280">the customer, the deal, the partner</text>
+      <text x="1040" y="336">the standard, and saying no</text>
+      <text x="1040" y="392">the company, and its people</text>
+    </g>
+    <text x="1040" y="450" font-size="22" fill="#3f424a">twenty agents behind each of you</text>
+  </svg>
+  <div class="src" style="margin-top:6px">"A multiplier of about 20x: 20 agents per team member" (Dinis Cruz, 7 Nov 2026). Counts from the public repository, 7 Nov 2026.</div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us</span></div>
+</section>
+
+<!-- 7 · role: CEO -->
+<section class="slide">
+  <div class="head"><span><b>What you would do</b></span><span>07</span></div>
+  <div class="kicker">01 · The business partner, as CEO</div>
+  <h2>Dinis builds the technology. You run the company.</h2>
+  <div class="cols" style="grid-template-columns:1fr 1.5fr;gap:60px;margin-top:50px;align-items:stretch">
+    <div class="card"><div class="n">DINIS CRUZ · FOUNDER AND CTO</div><h3>The technology</h3><p>He develops the technology that powers PrompTugal full time, spread across his companies: sgit, RiskMandate, the agents and their workflows.</p><p style="margin-top:16px"><b>He is not full time on PrompTugal's operations.</b> That is the gap.</p></div>
+    <div class="card r seat"><div class="n" style="color:#c52830">YOU · CEO · THE EMPTY SEAT</div><h3>All the operations</h3>
+      <ul class="ticks" style="margin-top:14px">
+        <li><b>Customers:</b> readers, teams and delegations at events, publishers.</li>
+        <li><b>The sale:</b> customisation, other events, services, licensing.</li>
+        <li><b>The company:</b> investors, grants, the team, the plan to be profitable.</li>
+        <li><b>The editorial line,</b> with the journalists you hire.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="lead" style="margin-top:44px;font-size:30px">Wanted: <b>experience running companies, ideally senior in the news industry</b>, to run all the operations.</p>
+  <div class="src">Dinis Cruz, 7 November 2026. The company: My Feeds (MYFEEDS AI, UNIPESSOAL, LDA), Loulé, the Algarve; publisher of PrompTugal.news.</div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us</span></div>
+</section>
+
+<!-- 8 · role: journalists and strategists -->
+<section class="slide">
+  <div class="head"><span><b>What you would do</b></span><span>08</span></div>
+  <div class="kicker">02 · The journalists and the strategists</div>
+  <h2>Lead a beat, with agents as your desk.</h2>
+  <svg viewBox="0 0 1680 470" width="1680" height="470" style="margin-top:40px">
+    <defs><marker id="b" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#006600"/></marker></defs>
+    <rect x="0" y="150" width="290" height="160" fill="#c52830"/>
+    <text x="145" y="218" text-anchor="middle" class="serif" font-size="36" font-weight="600" fill="#fff">You</text>
+    <text x="145" y="256" text-anchor="middle" font-size="21" fill="#f8e4df">the editor of a beat</text>
+    <text x="145" y="284" text-anchor="middle" font-size="21" fill="#f8e4df">decides the story</text>
+    <line x1="290" y1="230" x2="380" y2="230" stroke="#006600" stroke-width="4" marker-end="url(#b)"/>
+    <g font-size="23">
+      <rect x="390" y="20" width="300" height="120" fill="#e2eedf" stroke="#006600" stroke-width="2"/><text x="540" y="70" text-anchor="middle" font-weight="600" fill="#121317">Correspondent</text><text x="540" y="104" text-anchor="middle" font-size="20" fill="#3f424a">watches the beat</text>
+      <rect x="390" y="170" width="300" height="120" fill="#e2eedf" stroke="#006600" stroke-width="2"/><text x="540" y="220" text-anchor="middle" font-weight="600" fill="#121317">Researcher</text><text x="540" y="254" text-anchor="middle" font-size="20" fill="#3f424a">the public record</text>
+      <rect x="390" y="320" width="300" height="120" fill="#e2eedf" stroke="#006600" stroke-width="2"/><text x="540" y="370" text-anchor="middle" font-weight="600" fill="#121317">Ontologist</text><text x="540" y="404" text-anchor="middle" font-size="20" fill="#3f424a">who is who, the graph</text>
+      <line x1="690" y1="80" x2="790" y2="230" stroke="#9d9580" stroke-width="2"/><line x1="690" y1="230" x2="790" y2="230" stroke="#9d9580" stroke-width="2"/><line x1="690" y1="380" x2="790" y2="230" stroke="#9d9580" stroke-width="2"/>
+      <rect x="800" y="150" width="280" height="160" fill="#fffdf8" stroke="#006600" stroke-width="3"/><text x="940" y="214" text-anchor="middle" font-weight="600" fill="#121317">Journalist agent</text><text x="940" y="248" text-anchor="middle" font-size="20" fill="#3f424a">drafts, sources each fact,</text><text x="940" y="276" text-anchor="middle" font-size="20" fill="#3f424a">signs it</text>
+      <line x1="1080" y1="230" x2="1170" y2="230" stroke="#006600" stroke-width="4" marker-end="url(#b)"/>
+      <rect x="1180" y="150" width="220" height="160" fill="#121317"/><text x="1290" y="218" text-anchor="middle" font-weight="600" fill="#f6f3ec">The gate</text><text x="1290" y="252" text-anchor="middle" font-size="20" fill="#c8c4ba">checks, refuses</text><text x="1290" y="278" text-anchor="middle" font-size="20" fill="#c8c4ba">the unsigned</text>
+      <line x1="1400" y1="230" x2="1470" y2="230" stroke="#006600" stroke-width="4" marker-end="url(#b)"/>
+      <rect x="1480" y="150" width="190" height="160" fill="#006600"/><text x="1575" y="218" text-anchor="middle" font-weight="600" fill="#fff">Published</text><text x="1575" y="252" text-anchor="middle" font-size="20" fill="#e2eedf">live, public,</text><text x="1575" y="278" text-anchor="middle" font-size="20" fill="#e2eedf">versioned</text>
+    </g>
+  </svg>
+  <div class="cols" style="margin-top:20px;gap:40px">
+    <div class="card r" style="padding:26px 30px"><div class="n">JOURNALISTS · VERY TECHNICAL</div><p>Editorial: the line, the beats (Portugal, Europe, AI, the summit), the interviews and the judgement no agent has.</p></div>
+    <div class="card c" style="padding:26px 30px"><div class="n">STRATEGIC PEOPLE · HIRED WITH EQUITY</div><p>"We now have our first execution execs, but we don't have strategic people." Market, products, partners, the next level.</p></div>
+  </div>
+  <div class="src">Agent roles as in this repository's CLAUDE.md; quote from Dinis Cruz, 7 November 2026.</div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us</span></div>
+</section>
+
+<!-- 9 · the team today -->
+<section class="slide">
+  <div class="head"><span><b>The team today</b></span><span>09</span></div>
+  <div class="kicker">Gen Z and Gen X, already working together</div>
+  <h2>What is missing is a couple of experienced people from the industry.</h2>
+  <svg viewBox="0 0 1680 420" width="1680" height="420" style="margin-top:50px">
+    <!-- generations axis -->
+    <line x1="0" y1="330" x2="1680" y2="330" stroke="#121317" stroke-width="3"/>
+    <text x="0" y="372" class="mono" font-size="19" fill="#595c64" letter-spacing="2">GEN Z · NEW TOOLS, NEW HABITS</text>
+    <text x="1680" y="372" class="mono" font-size="19" fill="#595c64" letter-spacing="2" text-anchor="end">GEN X · DECADES OF PRACTICE</text>
+    <!-- Gen Z cluster -->
+    <g fill="#006600"><circle cx="120" cy="250" r="34"/><circle cx="210" cy="230" r="34"/><circle cx="300" cy="255" r="34"/><circle cx="390" cy="232" r="34"/><circle cx="165" cy="160" r="34"/><circle cx="345" cy="160" r="34"/></g>
+    <text x="255" y="90" text-anchor="middle" class="serif" font-size="32" font-weight="600" fill="#006600">Gen Z</text>
+    <text x="255" y="122" text-anchor="middle" font-size="21" fill="#3f424a">in the team today</text>
+    <!-- Gen X -->
+    <g fill="#121317"><circle cx="1460" cy="245" r="34"/><circle cx="1550" cy="230" r="34"/></g>
+    <text x="1500" y="160" text-anchor="middle" class="serif" font-size="32" font-weight="600" fill="#121317">Gen X</text>
+    <text x="1500" y="192" text-anchor="middle" font-size="21" fill="#3f424a">in the team today</text>
+    <!-- the empty seats -->
+    <g fill="#f8e4df" stroke="#c52830" stroke-width="4" stroke-dasharray="10 8"><circle cx="1050" cy="245" r="42"/><circle cx="1170" cy="245" r="42"/></g>
+    <text x="1110" y="252" text-anchor="middle" class="serif" font-size="40" font-weight="600" fill="#c52830">?</text>
+    <text x="1110" y="132" text-anchor="middle" class="serif" font-size="32" font-weight="600" fill="#c52830">You</text>
+    <text x="1110" y="164" text-anchor="middle" font-size="21" fill="#3f424a">experienced, from the industry</text>
+    <!-- bridges -->
+    <path d="M430 240 C 650 180, 850 200, 1000 240" fill="none" stroke="#9d9580" stroke-width="3" stroke-dasharray="6 8"/>
+    <path d="M1215 245 L1420 245" fill="none" stroke="#9d9580" stroke-width="3" stroke-dasharray="6 8"/>
+  </svg>
+  <div class="cols c3" style="margin-top:30px;gap:36px">
+    <div class="stat"><div class="v" style="font-size:72px">7</div><div class="l">people at the summit, the front-end team</div></div>
+    <div class="stat"><div class="v" style="font-size:72px">Unpaid</div><div class="l">"a massive win-win where they are learning a lot"</div></div>
+    <div class="stat r"><div class="v" style="font-size:72px">Fast</div><div class="l">onboarding: "once we have funds, we can just accelerate"</div></div>
+  </div>
+  <div class="src">Dinis Cruz, 7 November 2026. No team member is named here but the founder. Dots are illustrative, not a headcount.</div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us</span></div>
+</section>
+
+<!-- 10 · Gen ZX founders -->
+<section class="slide v ink">
+  <div class="head"><span><b>Gen ZX founders</b></span><span>10</span></div>
+  <div class="kicker">In Dinis Cruz's words</div>
+  <h2 style="font-size:96px">Gen ZX founders: <span style="color:#8fd18f">that's who we're looking for.</span></h2>
+  <svg viewBox="0 0 1680 200" width="1680" height="200" style="margin-top:60px">
+    <rect x="0" y="40" width="560" height="120" fill="#006600"/><text x="280" y="114" text-anchor="middle" class="serif" font-size="46" font-weight="600" fill="#fff">Gen Z</text>
+    <text x="700" y="118" text-anchor="middle" class="serif" font-size="70" font-weight="600" fill="#8fd18f">+</text>
+    <rect x="840" y="40" width="560" height="120" fill="#f6f3ec"/><text x="1120" y="114" text-anchor="middle" class="serif" font-size="46" font-weight="600" fill="#121317">Gen X</text>
+    <text x="1460" y="118" class="serif" font-size="70" font-weight="600" fill="#8fd18f">=</text>
+    <text x="1540" y="114" class="serif" font-size="46" font-weight="600" fill="#ff7a7f">ZX</text>
+  </svg>
+  <p class="lead" style="margin-top:40px">Gen Z and Gen X, together, founding. <b>The team today is that mix; what it needs now is a couple of experienced people from the industry.</b></p>
+  <p class="lead" style="font-size:26px;margin-top:30px">Dinis Cruz's book and presentation on Gen ZX founders: the link will be added here when it is published.</p>
+  <div class="src" style="color:#9a978f">Dinis Cruz, 7 November 2026. His thesis is in the book, not restated here.</div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us</span></div>
+</section>
+
+<!-- 11 · how it would work -->
+<section class="slide">
+  <div class="head"><span><b>How it would work</b></span><span>11</span></div>
+  <div class="kicker">Start by helping, visibly. Then join. Then the stake.</div>
+  <h2>The future partners and team come from the people already involved.</h2>
+  <svg viewBox="0 0 1680 400" width="1680" height="400" style="margin-top:40px">
+    <defs><marker id="c" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#006600"/></marker></defs>
+    <!-- staircase -->
+    <rect x="0" y="260" width="520" height="140" fill="#e2eedf" stroke="#006600" stroke-width="3"/>
+    <rect x="560" y="140" width="520" height="260" fill="#fffdf8" stroke="#006600" stroke-width="3"/>
+    <rect x="1120" y="20" width="560" height="380" fill="#006600"/>
+    <text x="30" y="306" class="serif" font-size="50" font-weight="600" fill="#006600">1</text>
+    <text x="80" y="304" class="serif" font-size="34" font-weight="600" fill="#121317">Help now</text>
+    <text x="30" y="346" font-size="22" fill="#3f424a">this summit week, unpaid, in public:</text>
+    <text x="30" y="376" font-size="22" fill="#3f424a">your work is on the record, with your role</text>
+    <text x="590" y="186" class="serif" font-size="50" font-weight="600" fill="#006600">2</text>
+    <text x="640" y="184" class="serif" font-size="34" font-weight="600" fill="#121317">Join officially</text>
+    <text x="590" y="226" font-size="22" fill="#3f424a">a named role in the team:</text>
+    <text x="590" y="256" font-size="22" fill="#3f424a">CEO, journalist, strategist,</text>
+    <text x="590" y="286" font-size="22" fill="#3f424a">part of the founding team</text>
+    <text x="1150" y="66" class="serif" font-size="50" font-weight="600" fill="#8fd18f">3</text>
+    <text x="1200" y="64" class="serif" font-size="34" font-weight="600" fill="#fff">When investment comes</text>
+    <text x="1150" y="106" font-size="22" fill="#e2eedf">everyone has a stake and is paid:</text>
+    <text x="1150" y="136" font-size="22" fill="#e2eedf">growth shares, or according to</text>
+    <text x="1150" y="166" font-size="22" fill="#e2eedf">how each person comes in</text>
+    <path d="M300 250 C 380 180, 460 160, 550 170" fill="none" stroke="#006600" stroke-width="4" marker-end="url(#c)"/>
+    <path d="M860 130 C 940 60, 1020 50, 1110 55" fill="none" stroke="#006600" stroke-width="4" marker-end="url(#c)"/>
+  </svg>
+  <div class="quote-s" style="margin-top:40px">"If somebody is not interested enough to be involved right now, are they only going to flip when they have equity? I don't like that."<span class="by">Dinis Cruz, 7 November 2026</span></div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us</span></div>
+</section>
+
+<!-- 12 · the stake -->
+<section class="slide v">
+  <div class="head"><span><b>What is in it for you</b></span><span>12</span></div>
+  <div class="kicker">Everybody has a stake in the game</div>
+  <h2>When investment comes, everyone is paid and everyone owns a part.</h2>
+  <div class="cols c3" style="margin-top:60px">
+    <div class="card g"><div class="n">THE STAKE</div><h3>Growth shares</h3><p>Shares for the core team that vest on milestones and come alive at a future date or on a sale, like the growth shares used at a UK company Dinis worked with; or according to how each person comes in.</p></div>
+    <div class="card g"><div class="n">THE PAY</div><h3>Paid, then accelerate</h3><p>Investors buy equity in the company. The money is for the operations: commercialisation, services, and editorial, hiring journalists.</p></div>
+    <div class="card r"><div class="n">THE HONEST PART</div><h3>No numbers yet</h3><p>The split is to be decided. No one has been promised anything: "only when somebody puts money on the table can you have a more serious conversation".</p></div>
+  </div>
+  <p class="lead" style="margin-top:56px">"Everybody will have equity, growth shares or depending how they come in; everybody has a stake in the game, everybody will be paid, and then we accelerate." <b>"This is our recruitment."</b></p>
+  <div class="src">Dinis Cruz, 7 November 2026. No amount, valuation or split is given in this deck.</div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us</span></div>
+</section>
+
+<!-- 13 · start this week -->
+<section class="slide">
+  <div class="head"><span><b>Start this week</b></span><span>13</span></div>
+  <div class="cols w60 center" style="margin-top:0;height:100%">
+    <div>
+      <div class="kicker red">Web Summit Lisbon · 9 to 12 November 2026</div>
+      <h2 style="font-size:66px">Be the back office behind, and beside, the seven at the summit.</h2>
+      <ul class="ticks" style="margin-top:40px">
+        <li><b>From anywhere:</b> the newsroom is online and in public; you do not need to be in Lisbon.</li>
+        <li><b>With the team:</b> the seven on the floor, the agents behind them, and you in between.</li>
+        <li><b>Unpaid, with visibility:</b> your role and your work on the record.</li>
+        <li><b>Learning a lot:</b> how an agentic newsroom runs a live event, from the inside.</li>
+      </ul>
+      <p class="lead" style="font-size:28px;margin-top:30px"><b>The validation is Web Summit.</b> The people who help make it work are the people we want to build the company with.</p>
+    </div>
+    <div style="display:flex;gap:34px;justify-content:center;align-items:flex-start">
+      <div class="phone"><img src="shots/m-summit.jpg" alt="The summit on a phone"></div>
+      <div class="phone" style="margin-top:90px"><img src="shots/m-myday.jpg" alt="My day on a phone"></div>
+    </div>
+  </div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>Join us · screenshots of the live site</span></div>
+</section>
+
+<!-- 14 · close -->
+<section class="slide v ink">
+  <div class="head"><span><b>Come and lead it</b></span><span>14</span></div>
+  <div class="bigquote">You have wanted to run a newsroom like this for years. <span style="color:#8fd18f">It now runs.</span> Come and lead it.</div>
+  <div class="flow" style="margin-top:64px">
+    <div class="step" style="background:#1d1e23;border-color:#3a3b40"><div class="n" style="color:#8fd18f">1</div><h3 style="color:#f6f3ec">Read it</h3><p style="color:#c8c4ba">promptugal.news, its newsroom and the public repository: every run and decision is there.</p></div>
+    <div class="step" style="background:#1d1e23;border-color:#3a3b40"><div class="n" style="color:#8fd18f">2</div><h3 style="color:#f6f3ec">Help this week</h3><p style="color:#c8c4ba">The back office for Web Summit, 9 to 12 November 2026.</p></div>
+    <div class="step" style="background:#1d1e23;border-color:#3a3b40"><div class="n" style="color:#8fd18f">3</div><h3 style="color:#f6f3ec">Talk</h3><p style="color:#c8c4ba">Dinis Cruz, at Web Summit Lisbon; and promptugal.news/investors.</p></div>
+  </div>
+  <div style="margin-top:50px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 0;color:#c8c4ba;font:400 22px/1.4 var(--sans)">
+    <span class="tag" style="color:#8fd18f">Deck 1 · the investment case</span><span class="tag" style="color:#8fd18f">Deck 2 · the industry</span><span class="tag" style="color:#8fd18f">Deck 3 · the platform</span><span class="tag" style="color:#8fd18f">Deck 4 · the Algarve</span><span class="tag" style="color:#f6f3ec">All decks · promptugal.news/investors/decks</span>
+  </div>
+  <div class="foot"><span class="wordmark">Promp<span class="t">T</span><span class="u">ugal</span><i>.news</i></span><span>promptugal.news/investors</span></div>
+</section>
+
+</main><script src="deck.js"></script></body></html>
