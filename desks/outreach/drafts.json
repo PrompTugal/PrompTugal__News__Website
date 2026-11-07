@@ -463,7 +463,7 @@
    "kind": "company",
    "contact_request": "contact-requests/legalfly.json",
    "topic": "Governance, risk and compliance",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
