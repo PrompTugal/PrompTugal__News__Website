@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T07:12Z",
+  "updated": "2026-11-07T08:12Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -22,7 +22,8 @@
     "04:07 wake: inbox empty; no account-B agent blocked; investors@'s four decks live (/investors/decks/); sherpa@ read the eight home designs cold (H1 to H7) and designer@ took H6, H7; the gate's one-address exception (dinis.agent@promptugal.news in content/investors.md) traced to Dinis's 01:00 words and reviewed by security@",
     "05:07 wake: quiet night (inbox empty, nothing blocked); the daily hand-over debrief written",
     "06:07 wake: quiet (inbox empty, nothing blocked); ledger 2026-11-07T0612Z.json: 161.72 API-equivalent on account B since 22:20, 48.40 in the last three hours (about 16 an hour, down from 21); investors@ the largest (25.78, its four decks), then dev@ 19.03 and designer@ 19.01",
-    "07:07 wake: quiet (inbox empty, nothing blocked); devops@ found the published tree doubled to 130 MB (sent to dev@, watched by the conductor); investors@ added /investors/for-events/; accountant@ has 7 November at 147.97 (B 110.53)"
+    "07:07 wake: quiet (inbox empty, nothing blocked); devops@ found the published tree doubled to 130 MB (sent to dev@, watched by the conductor); investors@ added /investors/for-events/; accountant@ has 7 November at 147.97 (B 110.53)",
+    "08:07 wake: quiet (inbox empty, nothing blocked); the first newsletter edition (Saturday morning) made by the conductor and checked by designer@; dev@ brought the five workers' branches onto dev"
   ],
   "next": [
     "next ledger at 09:07",
