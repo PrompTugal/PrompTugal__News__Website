@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "iapmei",
+  "type": "organisation",
+  "name": "IAPMEI",
+  "names_as_listed": [
+    "IAPMEI"
+  ],
+  "sources": [
+    {
+      "url": "https://startupportugal.com/noticia/get-ready-for-web-summit-2026/",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Startup Portugal's \"Get ready for Web Summit 2026!\" (6 November 2026): named as \"IAPMEI\", a partner of the Portugal stand at Web Summit 2026 (Pavilion 1, Stand 145, 10 to 12 November)"
+    },
+    {
+      "url": "https://www.iapmei.pt/",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "IAPMEI's own home page, in Portuguese (read 7 November 2026, 20:25 UTC): its news \"IAPMEI leva inovação, empreendedorismo e internacionalização à Web Summit 2026!\": present again at Web Summit in Lisbon, 9 to 12 November, focused on supporting companies, business opportunities and attracting international talent"
+    }
+  ],
+  "note": "Hand-kept by ontologist@PrompTugal.dinis from researcher@'s portugal-ecosystem round 1 (desks/researcher/portugal-ecosystem-round-1.md), re-read at the source on 7 November 2026. The stand's 'AI2' is not added: it is not identified (its only link is a page behind a sign-in)."
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "lisboa-municipality",
+  "type": "organisation",
+  "name": "Lisboa Municipality",
+  "names_as_listed": [
+    "Lisboa Municipality"
+  ],
+  "sources": [
+    {
+      "url": "https://startupportugal.com/noticia/get-ready-for-web-summit-2026/",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Startup Portugal's \"Get ready for Web Summit 2026!\" (6 November 2026): \"Once again, we've teamed up with Lisboa Municipality to bring the Portugal stand to Web Summit\""
+    }
+  ],
+  "note": "Hand-kept by ontologist@PrompTugal.dinis from researcher@'s portugal-ecosystem round 1 (desks/researcher/portugal-ecosystem-round-1.md), re-read at the source on 7 November 2026. The stand's 'AI2' is not added: it is not identified (its only link is a page behind a sign-in)."
+}

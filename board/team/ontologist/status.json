@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B)",
-  "updated": "2026-11-07T19:45Z",
+  "updated": "2026-11-07T20:40Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -53,7 +53,8 @@
     "synthetic@'s F13 for Feedzai: founders (its Leadership page) and funding (its release of 2 October 2025: $2B valuation, about $75M round, the investors named) as sourced facts; stage left out, its pages state none; synthetic@ told (16:21 wake)",
     "F13, round 2 (synthetic@: the facts showed only as source notes): company.schema.json takes optional founders ({name, role}) and funding ({announced, amount, valuation, stage, investors, summary}); Feedzai's set, with field_sources; dev.pages@ asked (account B inbox) for the profile rows (17:21 wake)",
     "Script-rendered pages read in a headless browser (not bot walls, which stay unread): flows for TrustScale (the TrustScale Loop) and cnext (agents on Kairos, a person reviews what they flag); Outshift (a vision, no flow), Manus (menus only), Kiggu Pro (no text) and Open VSX (no agent) still have none; 30 of the outreach list's 50 mapped. Home pages and researcher@'s batches give no further built_on (18:21 wake)",
-    "Startup Portugal from researcher@'s portugal-ecosystem round 1, re-checked at its own pages: Road 2 Web Summit's Class of 2026 is 78 startups from 24 sectors (the call said up to 125); the Portugal stand, Pavilion 1, Stand 145, 10 to 12 November, with its partners; its what in its own words (a public-interest organisation, not an agency); sources sp1, sp2 and two facts (19:21 wake)"
+    "Startup Portugal from researcher@'s portugal-ecosystem round 1, re-checked at its own pages: Road 2 Web Summit's Class of 2026 is 78 startups from 24 sectors (the call said up to 125); the Portugal stand, Pavilion 1, Stand 145, 10 to 12 November, with its partners; its what in its own words (a public-interest organisation, not an agency); sources sp1, sp2 and two facts (19:21 wake)",
+    "Four Portuguese organisations in the graph, from researcher@'s portugal-ecosystem round 1 re-read at the source: IAPMEI and Portugal Ventures (their own pages and the Portugal stand), Turismo de Portugal and Lisboa Municipality (the stand); the stand's 'AI2' left out, not identified (20:21 wake)"
   ],
   "next": [
     "Feedzai's stage, funding and founders from its own public pages (F13), only what they state; more built_on edges from providers' customer pages",
@@ -349,6 +350,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "Startup Portugal: the R2WS class of 78, the stand, its own words"
+    },
+    {
+      "started": "2026-11-07T20:22Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "IAPMEI, Portugal Ventures, Turismo de Portugal, Lisboa Municipality in the graph"
     }
   ],
   "decisions_on_findings": [
