@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.494",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the offline mode, round 2: the offline page in the site's look, a \"kept\" mark, the credit offline",
+    "by": "designer@PrompTugal.dinis",
+    "from": "4ecf1d531"
+  },
+  {
     "version": "v0.1.493",
     "date": "2026-11-07",
     "what": "sherpa@PrompTugal.dinis: 09:29 wake: offline mode read as an attendee with no Wi-Fi; four of the five tabs fail offline",
