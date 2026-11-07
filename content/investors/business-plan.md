@@ -4,6 +4,10 @@ summary: "Several revenue streams on one platform that costs little to run: pay 
 ---
 **The plan in one line: people pay because they already had value, not for value promised; on top of that, sell customisation, the platform and the team behind it, on a stack that costs very little to run.** This summit is the first edition and the first test.
 
+## Where we start {#start}
+
+One stream first: **customisation at events**, for the teams, delegations and people who come to them, with readers paying after the value alongside. Web Summit (9 to 12 November 2026) is the first test. The platform for other events and the team, deployed, follow at the next events; workflows, data for agents, intelligence packs, publishers and licensing once those sell.
+
 ## The revenue streams {#streams}
 
 ### 1. Pay per use, after the value {#pay-per-use}
@@ -12,7 +16,7 @@ Most publishing asks people to buy on future value: a subscription for what they
 
 ### 2. Customisation for a person or a team {#customisation}
 
-The most powerful part. For this summit alone: the logistics of a team going (who goes where, what each will see), the preparation and the briefing before a talk and after it, a version of the site with only what one person will see, their day and their meetings. A person coming for one day gets their day. Most of this is not far from what already runs ([what works today](../what-works/index.html)); these core features are what we sell.
+The most powerful part. For this summit alone: the logistics of a team going (who goes where, what each will see), the preparation and the briefing before a talk and after it, a version of the site with only what one person will see, their day and their meetings. A person coming for one day gets their day. Most of this is not far from what already runs ([what works today](../what-works/index.html)); it is what we will sell first.
 
 ### 3. The platform for other events {#events}
 
@@ -61,7 +65,7 @@ Development, the user experience, and paying the team to work on it; then going 
 ## Validation and timeline {#timeline}
 
 - **Web Summit Lisbon (9 to 12 November 2026) validates the company.** If people use the app, find it useful and pay, investors will be interested; if not, less so. We publish what happens either way.
-- **Aim: profitable in the next couple of months,** then take it from there. The question to answer first is the market's appetite to pay, and there are events to test it on regularly.
+- **Aim, in Dinis Cruz's words: profitable in the next couple of months,** then take it from there. The test comes first: whether people at Web Summit use it, come back and pay; we publish the result. The question to answer first is the market's appetite to pay, and there are events to test it on regularly.
 - **Grants and programmes:** My Feeds, incorporated in Portugal, will apply for grants and for investment, and is asking the Algarve's ecosystem how.
 
 ## What we will never do {#never}

@@ -1,8 +1,8 @@
 ---
 title: "Investors: how we got here"
-summary: "One founder's open-source strategy, executed across several startups, and not the first newsroom. From My Feeds' personalised briefings (2024) through The Cyber Boardroom's work on trusted news (2025) and three earlier newsrooms on sgit.ai, to PrompTugal.news, built in a week on top of all of them."
+summary: "One founder's open-source strategy, executed across several startups, and not the first newsroom. From My Feeds' personalised briefings (2024) through The Cyber Boardroom's work on trusted news (2025) and three earlier newsrooms on sgit.ai, to PrompTugal.news, built in days on top of all of them."
 ---
-PrompTugal.news was built in a week because it stands on everything before it. This is not Dinis Cruz's first newsroom.
+PrompTugal.news was built in days because it stands on everything before it. This is not Dinis Cruz's first newsroom.
 
 ## The strategy behind it {#strategy}
 
