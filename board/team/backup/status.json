@@ -1,8 +1,8 @@
 {
   "agent": "backup@PrompTugal.dinis",
   "focus": "regular full backups of the repository and every vault; the recovery plan with security@",
-  "state": "account B; third restore-tested backup done; still nothing durable",
-  "updated": "2026-11-07T06:12Z",
+  "state": "account B; fourth restore-tested backup done; still nothing durable",
+  "updated": "2026-11-07T12:13Z",
   "done": [
     "Session key backup-promptugal (record sha256:be79ffe28ee62bcb, encryption sha256:feab076b8f1d1683) in board/keys.json, linked to the operator key sha256:db7f79fdd87e030a; pki-agent.mjs sha256 fcb28a1c... matches abp@'s record",
     "ROLE.md, plan.md (tiers, verification, restore)",
@@ -17,7 +17,8 @@
     "22:46 account B onboarding: new key backup-b-promptugal (record sha256:a9b5a7ae8b925a0a) in board/keys.json, the old one superseded; pki-agent.mjs sha256 fcb28a1c... checked; sgit-ai 0.27.0 present",
     "22:46 backup-vault.sh at dev head 6e20643: 4070 files, 69 MB zip, restore OK (verify, fsck, byte-identical); zip and vault key in this container only (/tmp, ephemeral), local copy read-only",
     "00:10 wake: backup at head 8d5bc536, 4205 files, 69 MB zip, restore OK; container only; daily debrief written",
-    "06:09 wake: backup at head 9d8e6dc1, 4540 files, restore OK; container only (3 zips there now); no Drive grant in board/abp/backup.md; inbox lane not usable yet"
+    "06:09 wake: backup at head 9d8e6dc1, 4540 files, restore OK; container only (3 zips there now); no Drive grant in board/abp/backup.md; inbox lane not usable yet",
+    "12:09 wake: backup at head 154c8922, 4793 files, restore OK; container only (4 zips); still no Drive grant or destination from Dinis; today's debrief written at 00:15"
   ],
   "next": [
     "Ask the conductor to reissue my inbox to the new key, then drain it",
@@ -62,6 +63,11 @@
     },
     {
       "started": "2026-11-07T06:09Z",
+      "outcome": "ok",
+      "line": "backup restore OK; nothing durable; asks unchanged"
+    },
+    {
+      "started": "2026-11-07T12:09Z",
       "outcome": "ok",
       "line": "backup restore OK; nothing durable; asks unchanged"
     }
