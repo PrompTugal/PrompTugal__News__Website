@@ -1,8 +1,8 @@
 {
   "agent": "designer.experiments@PrompTugal.dinis",
   "focus": "Design variations for Dinis to choose, within the brand: top of the page, companies page, articles page, the summit's days.",
-  "state": "idle: wake 6 (08:58 UTC 7 Nov); nothing new from designer@ or Dinis; waiting for designer@ notes on width/real.mjs",
-  "updated": "2026-11-07T09:05Z",
+  "state": "idle: wake 7 (10:59 UTC 7 Nov); nothing new from designer@ or Dinis; waiting for designer@ notes on width/real.mjs",
+  "updated": "2026-11-07T11:05Z",
   "done": [
     "Session key made; public half in board/keys.json as designer.experiments-promptugal",
     "ROLE.md and this status",
