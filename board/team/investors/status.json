@@ -2,7 +2,7 @@
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
   "state": "the investor site (four languages, navigation first) and deck 0 released; personal versions built, waiting for dev@ and security@ to serve persona.js",
-  "updated": "2026-11-07T19:30Z",
+  "updated": "2026-11-07T20:30Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -35,7 +35,8 @@
     "Fix pass after synthetic investors run 2 and a pt-PT editor review: nine decks everywhere, the round and Dinis Cruz's time in one wording, deck 4 talent map as the summit's, pt-PT terms (quotas, no você), PDF blank page fixed in the player's print CSS; outreach routes (deck 7 off public bodies, deck 9 for investors); all versions bumped",
     "At Dinis's word: all amounts in euros in every language; decks stay in four languages, with a vote page for the next one (/investors/languages/) and a + vote link in the player (waits on dev@ to serve it)",
     "15:23 wake: Spanish and French terms made consistent (fr en ligne, tour seed; es en vivo); decks 4 to 9 re-rendered; asked observability@ for the language-vote counts by via tag; asked dev@ again to serve the player",
-    "At Dinis's word (16:00): the investor area as its own site in four languages (/investors/, /pt/, /es/, /fr/): home by audience, six audience pages with routes through the decks, the decks page, every slide in sequence, contact, thanks, five articles for LinkedIn, the library; deck 0, the map; personal versions (tools/persona.mjs, site/persona.js, five fictional demos with QR codes at /investors/personas/)"
+    "At Dinis's word (16:00): the investor area as its own site in four languages (/investors/, /pt/, /es/, /fr/): home by audience, six audience pages with routes through the decks, the decks page, every slide in sequence, contact, thanks, five articles for LinkedIn, the library; deck 0, the map; personal versions (tools/persona.mjs, site/persona.js, five fictional demos with QR codes at /investors/personas/)",
+    "Round two of the investor site after five synthetic readers (phone and desktop, four languages): header fits in every language, Contact as a pill, a feedback button on phones, the location lookup disclosed in the footer and the click note made exact, a route for those who fund media, the bridge figure labelled a simulation, every slide at a glance (collapsible), translated titles without the Investors: prefix, dates in each language, Spanish usted throughout, French Développeurs; deck.js taps to turn slides on phones (waits on dev@)"
   ],
   "next": [
     "Synthetic readers on the new site (phone and desktop) and a second design round",

@@ -23,9 +23,10 @@
 {{{body}}}
 </main>
 <footer class="if"><div class="if-in">
-<div class="if-col"><a class="ih-brand" href="/investors/">Promp<span class="t">T</span><span class="u">ugal</span></a><p>{{sh.footer_company}}</p><p>{{sh.footer_open}}</p><p><a href="/">{{sh.footer_back}}</a></p></div>
+<div class="if-col"><a class="ih-brand" href="/investors/">Promp<span class="t">T</span><span class="u">ugal</span></a><p>{{sh.footer_company}}</p><p>{{sh.footer_open}}</p><p><a class="if-back" href="/">{{sh.footer_back}}</a></p><p class="if-note">{{sh.footer_counts}}</p></div>
 <div class="if-col"><h2>{{sh.footer_who}}</h2>{{#nav}}<a href="{{href}}">{{label}}</a>{{/nav}}</div>
 <div class="if-col"><h2>{{sh.footer_library}}</h2>{{#lib}}<a href="{{href}}">{{label}}</a>{{/lib}}</div>
 <div class="if-col"><h2>{{sh.language}}</h2><div class="if-lang">{{#langs}}<a href="{{href}}" hreflang="{{code}}" lang="{{code}}"{{#current}} aria-current="true"{{/current}}>{{name}}</a>{{/langs}}</div></div>
 </div></footer>
+<a class="fab" href="/investors/contact/#write">{{sh.fab}}</a>
 </body></html>

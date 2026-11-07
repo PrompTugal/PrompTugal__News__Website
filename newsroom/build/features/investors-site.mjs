@@ -20,7 +20,7 @@ export const PERSONA = 'board/team/dev/investors/persona.js'
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const strip = h => h.replace(/<(script|style)[\s\S]*?<\/\1>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n\n').trim()
 const merge = (a, b) => { if (Array.isArray(a) || typeof a !== 'object' || a === null) return b ?? a; const o = { ...a }; for (const k in b || {}) o[k] = k in a ? merge(a[k], b[k]) : b[k]; return o }
-const nice = t => t.replace(/^Investors: ?/, '').replace(/^./, c => c.toUpperCase())
+const nice = t => t.replace(/^(?:Investors|Investidores|Inversores|Investisseurs)\s*:\s*/, '').replace(/^./, c => c.toUpperCase())
 const NAMES = { en: ['EN', 'English'], pt: ['PT', 'Português'], es: ['ES', 'Español'], fr: ['FR', 'Français'] }
 
 // a small mustache: {{a.b}} escaped, {{{a}}} as is, {{#a}}..{{/a}} (a list: once per item; true: once), {{^a}}..{{/a}}, {{> p}}
@@ -77,7 +77,7 @@ export function pages(ctx) {
         .replace(/url\('(\/(?!\/)[^']*)'\)/g, (m, u) => `url('${resolve(u, l, up)}')`)
         .replace(/<a ([^>]*?)href="([^"]*)"([^>]*)>/g, (m, a, u, b) => !OUT.test(u) || /target=/.test(a + b) ? m : `<a ${a}href="${u}"${b} target="_blank" rel="noopener">`)
 
-    const libTitle = (p, l) => nice(md('md', p, l).meta.title || p)
+    const libTitle = (p, l) => { const m = md('md', p, l); return m.lang !== l && T[l].library.titles?.[p] ? T[l].library.titles[p] : nice(m.meta.title || p) }
     const navOf = (keys, page, l) => keys.map(a => ({ href: `/investors/${a}/`, label: T[l].shell.nav[a], current: page === a || page.startsWith(a + '/') }))
     function page({ page, l, title, summary, body, src }) {
         const rel = relOf(page, l), up = '../'.repeat(rel.split('/').length - 1), variant = page.replace(/\//g, '-')
@@ -108,21 +108,21 @@ export function pages(ctx) {
         out.push(page({ page: 'decks', l, title: t.decks.title, summary: t.decks.summary, body: render('decks', { t, ...fbv('decks', l), D: t.decks, cards: decks.map(d => deckView(d, l)) }) }))
         out.push(page({ page: 'sequence', l, title: t.sequence.title, summary: t.sequence.summary, body: render('sequence', { t, Q: t.sequence, decks: decks.map(d => {
             const dir = `site/img/slides/${has(`${S}img/slides/${l}/${d}`) ? l : 'en'}/${d}`, files = has(B + dir) ? fs.readdirSync(ctx.R(B + dir)).filter(f => f.endsWith('.jpg')).sort() : []
-            return { id: d, n: d.split('-')[0], title: deckTitle(d, l), href: `/investors/decks/${d}/`, for: t.decks.for[d] || '', count: files.length, slides: files.map((f, i) => ({ i: i + 1, src: `/${B}${dir}/${f}`, href: `/investors/decks/${d}/#${i + 1}` })) } }) }) }))
+            return { id: d, first: d === decks[0], n: d.split('-')[0], title: deckTitle(d, l), href: `/investors/decks/${d}/`, for: t.decks.for[d] || '', count: files.length, slides: files.map((f, i) => ({ i: i + 1, src: `/${B}${dir}/${f}`, href: `/investors/decks/${d}/#${i + 1}` })) } }) }) }))
         out.push(page({ page: 'contact', l, title: t.contact.title, summary: t.contact.summary, body: render('contact', { t, C: t.contact, email: cfg.contact,
             mails: Object.values(t.contact.subjects).map(s => ({ label: s, href: `mailto:${cfg.contact}?subject=${encodeURIComponent(s)}` })) }) }))
         out.push(page({ page: 'thanks', l, title: t.thanks.title, summary: t.thanks.summary, body: render('thanks', { t, H: t.thanks }) }))
         out.push(page({ page: 'articles', l, title: t.articles.title, summary: t.articles.summary, body: render('articles', { t, ...fbv('articles', l), AR: t.articles, articles: articles.map(a => articleView(a, l)) }) }))
         for (const a of articles) {
             const m = md('articles', a, l)
-            out.push(page({ page: 'articles/' + a, l, title: m.meta.title, summary: m.meta.summary, src: m.src, body: render('article', { t, ...fbv('article-' + a, l), ...m.meta, fallback: m.lang !== l ? NAMES[m.lang][1] : '',
+            out.push(page({ page: 'articles/' + a, l, title: m.meta.title, summary: m.meta.summary, src: m.src, body: render('article', { t, ...fbv('article-' + a, l), ...m.meta, date: m.meta.date ? new Date(m.meta.date + 'T12:00:00Z').toLocaleDateString(l, { day: 'numeric', month: 'long', year: 'numeric' }) : '', fallback: m.lang !== l ? NAMES[m.lang][1] : '',
                 html: ctx.md.render(m.body).html, linkedin: (m.meta.linkedin || '').replace(/\\n/g, '\n'), share: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(ctx.BASE + relOf('articles/' + a, l))}` }) }))
         }
         const demo = has(S + 'personas/demo.json') ? JSON.parse(fs.readFileSync(ctx.R(S + 'personas/demo.json'), 'utf8')).personas : []
         out.push(page({ page: 'personas', l, title: t.personas.title, summary: t.personas.summary, body: render('personas', { t, P: t.personas, F: t.foryou, served: has(PERSONA),
             demos: demo.map(d => ({ ...d, aud: t.shell.nav[d.audience] || d.audience, qr: img('site/' + d.qr), link: '/investors/' + d.link.slice(d.link.indexOf('#')) })) }) }))
         out.push(page({ page: 'for-you', l, title: t.foryou.title, summary: t.foryou.summary, body: render('foryou', { t, F: t.foryou }) }))
-        out.push(page({ page: 'library', l, title: t.library.title, summary: t.library.summary, body: render('library', { t, LB: t.library, items: lib.map(p => ({ href: `/investors/${p}/`, title: libTitle(p, l), summary: md('md', p, l).meta.summary || '' })) }) }))
+        out.push(page({ page: 'library', l, title: t.library.title, summary: t.library.summary, body: render('library', { t, LB: t.library, items: lib.filter(p => p !== 'language-vote').map(p => ({ href: `/investors/${p}/`, title: libTitle(p, l), summary: md('md', p, l).meta.summary || '' })) }) }))
         for (const p of lib) {
             const m = md('md', p, l)
             out.push(page({ page: p, l, title: libTitle(p, l), summary: m.meta.summary || '', src: m.src, body: render('page', { t, ...fbv(p, l), title: libTitle(p, l), fallback: m.lang !== l ? NAMES[m.lang][1] : '', html: ctx.md.render(m.body).html }) }))
