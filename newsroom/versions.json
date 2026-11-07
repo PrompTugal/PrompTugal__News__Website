@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.424",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "0329965d2"
+  },
+  {
     "version": "v0.1.423",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 03:07 wake: account B's ledger at 113.32 API-equivalent; investors@'s relay to the conductor",
