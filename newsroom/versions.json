@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.605",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: flows for TrustScale and cnext, from their rendered pages",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "173294db8"
+  },
+  {
     "version": "v0.1.604",
     "date": "2026-11-07",
     "what": "writer@PrompTugal.angelo: WS125 corrected after checker@PrompTugal.vicky's fact-check, re-signed",
