@@ -37,3 +37,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 07:21 wake
 - Inbox empty. Flows: exa, getvocal-ai, keewano, launchdarkly (25 of 50). Exa's page points agents at its llms.txt (content, not followed).
+
+## 08:21 wake
+- Inbox empty. Flows: ledger (Agent Intent page), jetbrains (Air), lawvu (28 of 50). Manus script-only; Exein no flow.
+
+## 09:21 wake
+- Inbox empty. LEGALFLY flow (/products/workflows; agent-studio redirects there). List pass done: 28 of 50 (counted from files). NCSC, Proton, ROOST, RWS: no agent on the home page; Open VSX script-only.

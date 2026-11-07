@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 2 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T07:00:34Z"
-site_version: "v0.1.464"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T09:59:38Z"
+site_version: "v0.1.497"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 2 of 3)
 
-100 cards, from `PUB.NEWS desk-fact-checker` to `PUB.SITE search`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.NEWS desk-editor` to `PUB.SITE riskmandate:2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS desk-editor` | [The desk (the editor)](https://promptugal.news/newsroom/agents/desk-editor.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS desk-fact-checker` | [The fact-checker desk](https://promptugal.news/newsroom/agents/desk-fact-checker.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS desk-journalist` | [The journalist desk](https://promptugal.news/newsroom/agents/desk-journalist.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS desk-security` | [The security desk](https://promptugal.news/newsroom/agents/desk-security.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.NEWS newsroom-status-four-days-out` | [newsroom-status-four-days-out: The newsroom four days out, in pictures](https://promptugal.news/newsroom/stories/newsroom-status-four-days-out/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS notes` | [Newsroom notes](https://promptugal.news/newsroom/notes/) | newsroom | dev@ 6 Nov 2026 |
 | `PUB.NEWS observability` | [Observability: who reads what, and which agents ran](https://promptugal.news/newsroom/observability/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS observability-promptugal` | [observability@PrompTugal.dinis](https://promptugal.news/newsroom/agents/observability-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 **Cards 126 to 150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS observability-promptugal` | [observability@PrompTugal.dinis](https://promptugal.news/newsroom/agents/observability-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS ontologist-promptugal` | [ontologist@PrompTugal.dinis](https://promptugal.news/newsroom/agents/ontologist-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS orders` | [Orders](https://promptugal.news/newsroom/orders/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS outreach-promptugal` | [outreach@PrompTugal.dinis](https://promptugal.news/newsroom/agents/outreach-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.NEWS the-summit-days` | [Decided: the summit's days (the strip, the past and future days, and how one day reads)](https://promptugal.news/newsroom/design/decisions/the-summit-days/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS the-top-of-the-page` | [Decided by Dinis: the top of every page is C, with the summit's days on the front page](https://promptugal.news/newsroom/design/decisions/the-top-of-the-page/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS timeline` | [The timeline](https://promptugal.news/newsroom/timeline/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS v0-1-123-the-top-of-the-page` | [Before and after, v0.1.123: the top of the page, round 1](https://promptugal.news/newsroom/design/v0-1-123-the-top-of-the-page/) | newsroom | designer@ 6 Nov 2026 |
 
 **Cards 151 to 175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS v0-1-123-the-top-of-the-page` | [Before and after, v0.1.123: the top of the page, round 1](https://promptugal.news/newsroom/design/v0-1-123-the-top-of-the-page/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS v0-1-298-the-top-c` | [Before and after, v0.1.298: the top of every page is C, and pictures on the front page](https://promptugal.news/newsroom/design/v0-1-298-the-top-c/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS verification` | [Verification](https://promptugal.news/newsroom/verification/) | newsroom | dev@ 6 Nov 2026 |
 | `PUB.NEWS versions` | [Release history](https://promptugal.news/newsroom/versions.html) | newsroom | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -82,7 +83,7 @@ source: board/catalogue.json
 | `PUB.NEWS workflows` | [The workflows](https://promptugal.news/newsroom/workflows/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE 2026-11-06` | [Friday 6 November: what is on](https://promptugal.news/days/2026-11-06/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-07` | [Saturday 7 November: what is on](https://promptugal.news/days/2026-11-07/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE 2026-11-07-evening` | [Evening edition: Saturday 7 November](https://promptugal.news/newsletter/2026-11-07-evening/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE 2026-11-07-evening` | [Evening edition: Saturday 7 November](https://promptugal.news/newsletter/2026-11-07-evening/) (withdrawn) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-07-morning` | [Morning edition: Saturday 7 November](https://promptugal.news/newsletter/2026-11-07-morning/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-08` | [Sunday 8 November: what is on](https://promptugal.news/days/2026-11-08/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-09` | [Monday 9 November: what is on](https://promptugal.news/days/2026-11-09/) | site | dev@ 6 Nov 2026 |
@@ -98,18 +99,19 @@ source: board/catalogue.json
 | `PUB.SITE api` | [The data, as JSON](https://promptugal.news/api/) | site | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE articles` | [Articles](https://promptugal.news/articles/) | site | newsroom@web-summit.dinis 4 Nov 2026 |
 | `PUB.SITE ask` | [Ask the newsroom](https://promptugal.news/ask/) | site | newsroom-interact@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE billing` | [How the reading meter prices a page](https://promptugal.news/account/billing.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE billing` | [How the reading meter prices a page](https://promptugal.news/account/billing.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE board` | [The editorial board](https://promptugal.news/about/board/) | site | designer@ 6 Nov 2026 |
 | `PUB.SITE business-plan` | [Investors: the business plan](https://promptugal.news/investors/business-plan/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE cloud-centres` | [The cloud centres](https://promptugal.news/graph/cloud-centres/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE competition` | [Investors: where we stand](https://promptugal.news/investors/competition/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE decks` | [Investors: the decks](https://promptugal.news/investors/decks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-events` | [Investors: for event organisers](https://promptugal.news/investors/for-events/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE for-publishers` | [Investors: a pilot for a publisher](https://promptugal.news/investors/for-publishers/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE graph` | [The graph](https://promptugal.news/graph/) | site | newsroom-graph@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE gravity` | [Centres of gravity](https://promptugal.news/graph/gravity/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE how-we-got-here` | [Investors: how we got here](https://promptugal.news/investors/how-we-got-here/) | site | investors@ 7 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE profile` | [Your profile](https://promptugal.news/profile/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE riskmandate` | [RiskMandate's ring](https://promptugal.news/graph/riskmandate/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE riskmandate:2` | [Powered by RiskMandate](https://promptugal.news/riskmandate/) | site | newsroom@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE rules-of-engagement` | [Investors: how to engage](https://promptugal.news/investors/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE search` | [Search](https://promptugal.news/search/) | site | newsroom-interact@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-1.md) | [Next part](PUB-3.md)

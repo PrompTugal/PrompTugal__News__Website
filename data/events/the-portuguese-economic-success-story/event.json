@@ -25,9 +25,9 @@
       "org": "organisation:government-of-portugal"
     },
     {
-      "person": "person:giovanna-faggionato",
-      "as_listed": "Giovanna Faggionato (Financial Services Reporter, POLITICO)",
-      "role": "Financial Services Reporter",
+      "person": "person:laura-greenhalgh",
+      "as_listed": "Laura Greenhalgh (Editorial Director for Global Technology, POLITICO)",
+      "role": "Editorial Director for Global Technology",
       "organisation": "POLITICO",
       "org": "organisation:politico"
     }
@@ -35,7 +35,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/be11c9f2-2f68-4ccb-818d-9a5056e0e147/the-portuguese-economic-success-story/",
-  "read_at": "2026-11-06T08:17Z",
+  "read_at": "2026-11-07T08:17Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -46,6 +46,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 126
+    "item": 127
   }
 }

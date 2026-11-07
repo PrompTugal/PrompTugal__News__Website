@@ -4,7 +4,7 @@ date: 2026-11-07
 story: S24
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "Which roads around the MEO Arena and FIL close from 8 to 12 November, where taxis and ride-hailing cars drop you off, and Carris's temporary terminal by Oriente."
-status: draft
+status: ready
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, practical guide, transport, road closures

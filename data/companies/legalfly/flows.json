@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "legalfly",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "claim-to-assessment",
+      "name": "An incoming claim: an agent reviews it, a lawyer decides where it is not standard (LEGALFLY)",
+      "summary": "LEGALFLY's Legal Workflows page, in its claim example: a workflow starts where the request arrives, an agent reviews the case facts against the policy terms, a threshold check sends the standard ones through and escalates the rest to legal review, with a person in the loop, and the assessment is documented and filed. Its other examples (contract intake, NDAs, vendor contracts, terminations) follow the same pattern.",
+      "source": "fl1",
+      "steps": [
+        {
+          "actor": "The business",
+          "what": "A claim comes in, by email, Slack, Teams or by hand, and starts the workflow the legal team built or chose from LEGALFLY's pre-built ones.",
+          "source": "fl1"
+        },
+        {
+          "actor": "LEGALFLY's claims agent",
+          "what": "Reviews the case facts against the policy terms.",
+          "agent": "Review the claim against the policy.",
+          "source": "fl1"
+        },
+        {
+          "actor": "The workflow",
+          "what": "Checks value and complexity against a threshold: a standard claim goes on, one above it is escalated.",
+          "source": "fl1"
+        },
+        {
+          "actor": "A lawyer",
+          "what": "Reviews the escalated claim (human in the loop).",
+          "source": "fl1"
+        },
+        {
+          "actor": "LEGALFLY",
+          "what": "Documents and files the claim assessment, and notifies whoever the workflow names.",
+          "source": "fl1"
+        }
+      ]
+    }
+  ]
+}

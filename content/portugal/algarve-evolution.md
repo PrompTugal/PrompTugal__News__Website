@@ -155,7 +155,7 @@ The association's presidency changed hands in July 2024, for 2024 to 2027 (timel
 ::: ae-sec
 ## Correct us, add to us {#correct}
 
-Open: its own site was unreachable for part of our research, so leadership, the member list and its summit-week plans are not yet confirmed first-hand. The 2022 start of the Tech Hub Summit (Portugal Startup News) and the 2024 article calling 2024 its second edition do not obviously agree; we have not resolved that.
+Open: its own site was unreachable for part of our research, so leadership, the member list and its summit-week plans are not yet confirmed first-hand. The 2022 start of the Tech Hub Summit (Portugal Startup News) and the 2024 article calling 2024 its second edition do not obviously agree; we have not resolved that. The Algarve Tech Hub platform's own events calendar ([algarvetechhub.com](https://www.algarvetechhub.com/engage-learn-and-connect-algarve-tech-hub-events)) listed no upcoming events when read on 7 November 2026, so it adds no Algarve Evolution event for Web Summit week.
 
 What do we have wrong? What programme, partner or event is missing? Tell the editors of PrompTugal.news (who we are and how to reach us is on [the About page](../../about/index.md#editors)), or tell Dinis Cruz, who runs it. Every correction goes into the data with its source and the date, and we say here what changed.
 :::

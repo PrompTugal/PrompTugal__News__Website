@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 3 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T07:00:34Z"
-site_version: "v0.1.464"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T09:59:38Z"
+site_version: "v0.1.497"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 3 of 3)
 
-8 cards, from `PUB.SITE stories` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+10 cards, from `PUB.SITE rules-of-engagement` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
-**Cards 201 to 208**
+**Cards 201 to 210**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE rules-of-engagement` | [Investors: how to engage](https://promptugal.news/investors/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE search` | [Search](https://promptugal.news/search/) | site | newsroom-interact@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE stories` | [The best of the graph](https://promptugal.news/graph/stories/) | site | newsroom-graph@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE summit` | [The summit](https://promptugal.news/summit/) | site | newsroom@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE thinking` | [Investors: what we think](https://promptugal.news/investors/thinking/) | site | investors@ 7 Nov 2026 |

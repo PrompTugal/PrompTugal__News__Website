@@ -1,7 +1,11 @@
 // The offline mode's three pieces of design (pass board/passes/2026-11-06-offline-mode.md, row 3), phone first, in C's top.
 // designer@PrompTugal.dinis, 6 November 2026, 18:45 UTC.
 //
-//   node design/mockups/offline/make.mjs [--out DIR]  -> DIR/offline--<1-badge|2-save|3-saved>.png and offline.html
+//   node design/mockups/offline/make.mjs [--out DIR]  -> DIR/offline--<1-badge|2-save|3-saved|4-page|5-kept>.png and offline.html
+//
+// 7 November, 09:45 UTC (sherpa@'s offline review, O3 to O5): 4. the site's offline page in the site's own look, with the top,
+//    the tab bar and what this phone has kept, saved articles by title; 5. on a page read offline, a small "kept" mark on every
+//    link that will open, the others muted with "needs a connection"; offline, the credit pill gives way to the badge.
 //
 // 1. The offline badge in the top row: it always says when the copy was made (security@'s condition: a stale page is
 //    never shown as current). 2. "Save for offline" on an article, and its saved state. 3. The saved list under the
@@ -48,6 +52,9 @@ h1,h2{font-family:Newsreader,serif;font-weight:600;line-height:1.12}h2{font-size
 h3{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;border-top:2px solid var(--ink);padding-top:8px;margin:18px 0 6px}
 .clear{margin-top:18px;border:1px solid var(--red);color:var(--red);background:transparent;font:600 14px "IBM Plex Sans";padding:9px 14px;border-radius:3px;width:100%}
 .note{font-size:12.5px;color:var(--ink-3);margin-top:8px}
+.kept{display:inline-block;font:600 11.5px "IBM Plex Sans";color:var(--green);margin-left:6px;white-space:nowrap}
+.gone p{color:var(--ink-3)}.gone small{color:var(--warn)}
+.list a{display:block;padding:10px 0;border-bottom:1px solid var(--hair);color:var(--ink);text-decoration:none}.list a p{font-family:Newsreader,serif;font-size:16.5px;line-height:1.2}.list a small{display:block;font-size:12px;color:var(--ink-3);margin-top:2px}
 .tag{position:fixed;right:8px;top:60px;background:var(--red);color:#fff;font:600 10px "IBM Plex Sans";padding:2px 6px;border-radius:3px;text-transform:uppercase}
 `
 const tabs = on => `<nav class="tabs">${['Now', 'Agenda', 'News', 'Companies', 'Search', 'More'].map(t => `<span class="${t === on ? 'on' : ''}">${t}</span>`).join('')}</nav>`
@@ -69,6 +76,19 @@ const VIEWS = {
 <h3>Articles you saved</h3>
 <div class="row"><img src="lead.png" alt=""><div><p>Web Summit's ten Lisbon years: 2.5 billion euros, says EY</p><small>saved Fri 18:42 · 0.4 MB</small></div></div>
 <button class="clear">Clear offline data</button><p class="note">Removes every saved copy from this phone and stops keeping new ones.</p></main>${tabs('More')}<span class="tag">Design</span>` },
+    '4-page': { title: 'The offline page, when a page was not kept', body: `${top('<span class="pill off"><span class="dot"></span>Offline</span>')}
+<main><p class="k">Offline</p><h2>This page is not on this phone yet</h2><p class="note" style="font-size:14px;color:var(--ink-2)">It opens next time you have a connection. Meanwhile, this is what this phone has kept:</p>
+<h3>Always kept</h3><div class="list"><a href="#"><p>Now: the front page</p><small>copy from Sat 09:30</small></a><a href="#"><p>The agenda and the summit's days, 6 to 13 November</p><small>copy from Sat 09:30</small></a><a href="#"><p>My day</p><small>updated Sat 09:30</small></a></div>
+<h3>Articles you saved</h3><div class="list"><a href="#"><p>Web Summit's ten Lisbon years: 2.5 billion euros, says EY</p><small>saved Fri 18:42</small></a></div>
+<p class="note">Search and Ask need a connection.</p></main>${tabs('Now')}<span class="tag">Design</span>` },
+    '5-kept': { title: 'Read offline: which links will open', body: `${top('<span class="pill off"><span class="dot"></span>Offline</span>')}
+<div class="band"><b>You are offline.</b> This copy was kept <b>Sat 09:30</b>. Links marked <span style="color:var(--green);font-weight:600">✓ kept</span> open; the others need a connection.</div>
+<main><h3 style="margin-top:4px">Latest</h3>
+<div class="row"><div><p>Beyond the pavilion: Brazil's year-round doors into Europe through Portugal<span class="kept">✓ kept</span></p><small>Brazil · 6 min read</small></div></div>
+<div class="row"><div><p>Web Summit's ten Lisbon years: 2.5 billion euros, says EY<span class="kept">✓ saved</span></p><small>Portugal · 4 min read</small></div></div>
+<div class="row gone"><div><p>Rio sends ten startups to Lisbon, with Gol paying the tickets</p><small>needs a connection</small></div></div>
+<div class="row gone"><div><p>Lisbon's startup awards, and the Algarve's plan beyond tourism</p><small>needs a connection</small></div></div>
+</main>${tabs('News')}<span class="tag">Design</span>` },
 }
 const html = Object.fromEntries(Object.entries(VIEWS).map(([k, v]) => [k, `<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${v.title}</title><style>${css}</style></head><body>${v.body}</body></html>`]))
 const b = await chromium.launch()

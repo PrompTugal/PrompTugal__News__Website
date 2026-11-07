@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "duncan-crabtree-ireland",
+  "type": "person",
+  "name": "Duncan Crabtree-Ireland",
+  "role": "National Executive Director & CEO",
+  "organisation": "SAG-AFTRA",
+  "org": "organisation:sag-aftra",
+  "listings": [
+    {
+      "role": "National Executive Director & CEO",
+      "organisation": "SAG-AFTRA",
+      "org": "organisation:sag-aftra",
+      "event": "event:hollywood-s-identity-crisis",
+      "source": "https://websummit.com/sessions/lis26/9baf35c7-6e54-458a-b741-6fd9fefee613/hollywood-s-identity-crisis/",
+      "read_at": "2026-11-07T08:17Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

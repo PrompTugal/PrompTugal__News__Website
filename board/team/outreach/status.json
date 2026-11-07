@@ -1,8 +1,8 @@
 {
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts to companies as PrompTugal.news's editors, each leading with that company's page and asking them to check it is correct; never sends.",
- "state": "active on account B (session b9208786): the 50 contact requests sent; waiting for public outcomes",
- "updated": "2026-11-07T07:45Z",
+ "state": "active on account B: the 50 requests filed in the Web Summit team's CRM, waiting for Dinis's yes (its brief 32)",
+ "updated": "2026-11-07T09:45Z",
  "done": [
   "50 companies, 56 drafts (6 in Portuguese and English), one thread each in the team CRM's comms shape, each leading with its live page (all 50 answer 200): desks/outreach/ (v0.1.40)",
   "Revised after synthetic runs 1 to 3: the flows as the reason to reply, an ask by kind of organisation, answering optional, two lines in writing, the disclosure in its own words (v0.1.54 to v0.1.77)",
@@ -12,7 +12,8 @@
   "Who sends, as Dinis decided (06:25 UTC): drafts shaped for the person who sends from their own .agent address; Airia's flows in its draft (this wake)",
   "Account B session onboarded: key outreach-b-promptugal, notes in sessions/b9208786/; drafts follow AISLE's, Trent AI's and Air Apps's pages (this wake)",
   "The 50 contact requests sent at 01:10 UTC on the lane outreach-b-promptugal to conductor@web-summit.dinis, sealed and signed, 50 of 50 accepted; inbox outreach-b.json opened and read (this wake)",
-  "desks/outreach/tracker.json: each of the 50 requests tracked to sent or dropped with a date (historian@'s VE-04 brief, lesson 2) (this wake)"
+  "desks/outreach/tracker.json: each of the 50 requests tracked to sent or dropped with a date (historian@'s VE-04 brief, lesson 2) (this wake)",
+  "Public outcome: the 50 filed as drafts in the Web Summit team's private CRM (08:27 UTC); LEGALFLY's request follows its page (this wake)"
  ],
  "next": [
   "Watch the inbox for public outcomes from the Web Summit team (sent on a date, corrections, approved quotes) and bring each into desks/outreach/ (RUNS, the thread)",
@@ -24,6 +25,7 @@
   "The Brazilian delegation's companies, when Dinis gives the word"
  ],
  "asks": [
+  "Dinis: conductor@web-summit.dinis's brief 32 (08:45 UTC) asks you about the 50 outreach emails: send all, a first ten, or rework the text first. If you choose to rework, the three questions above (the disclosure line, what an email may promise, asking for a link) are the ones I would settle first; the text follows each page and I re-send any that change.",
   "Dinis: the inbox drain (feedback_drain.py) cannot mark messages processed here: pushing the inbox vault needs an SG/Send access token, which this session has not configured (sgit reports 'no access token configured'). I can read every message, so nothing is lost, but the drain counts them as pending. If SG_SEND_ACCESS_TOKEN is meant to be in account B's environment, it is not visible to this session.",
   "Dinis (for security@ too): at 01:05 UTC, cloning my inbox vault printed part of its read-only share key into this session's transcript (the sgit clone summary); my output filter hid only the vault key. Nothing reached the repository or any page. If that counts as exposure, the inbox vault's keys can be rotated by the conductor who issued it.",
   "Dinis: historian@'s VE-04 brief (board/briefs/2026-11-07-the-php-newsrooms-lesson.md, lesson 3) suggests each email also asks the company, if its page is right, to link to it from its own site (one outside link brought the PHP site as many readers as LinkedIn). That changes what the emails ask beyond 'could you check it is correct?', so it is yours: add the line (I would re-send the 50 requests with it), or leave the ask as it is?",
@@ -211,6 +213,18 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "Exa's, GetVocal's, Keewano's and LaunchDarkly's mapped flows in their drafts; the updated requests sent"
+  },
+  {
+   "started": "2026-11-07T08:38Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "JetBrains', LawVu's, Ledger's and Delinea's drafts follow their pages; the updated requests sent"
+  },
+  {
+   "started": "2026-11-07T09:38Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "the 50 filed in the Web Summit team's CRM (public outcome); LEGALFLY's request follows its page"
   }
  ],
  "decisions_on_findings": [

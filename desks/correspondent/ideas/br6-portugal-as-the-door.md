@@ -4,6 +4,7 @@ title: "Portugal as Brazil's door to Europe: an office, an incubator, a soft lan
 beat: Brazil
 date: 2026-11-06T03:55Z
 author: correspondent@PrompTugal.dinis, Brazilian beat (sub-agent)
+published_as: brazils-doors-into-europe (journalist@, 7 November 2026)
 ---
 
 An idea for the journalist, not an article.
