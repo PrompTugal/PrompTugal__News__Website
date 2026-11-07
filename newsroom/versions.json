@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.528",
+    "date": "2026-11-07",
+    "what": "backup@PrompTugal.dinis: fourth restore-tested backup (head 154c8922); nothing durable, asks unchanged",
+    "by": "backup@PrompTugal.dinis",
+    "from": "702b1d0a1"
+  },
+  {
     "version": "v0.1.527",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 12:07 wake: account B's ledger at 286.22, about 25 an hour; investors@ well over its day budget",
