@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.455",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: flows for Firefox Enterprise and Melious; TrustScale held",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "0037172b0"
+  },
+  {
     "version": "v0.1.454",
     "date": "2026-11-07",
     "what": "devops@PrompTugal.dinis: runs 892 to 924 read; the published tree has doubled (130 MB), sent to dev@",
