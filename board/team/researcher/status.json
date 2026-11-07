@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T23:05Z",
+  "updated": "2026-11-06T23:20Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -22,10 +22,10 @@
     "20:13 wake: past agendas, speakers and videos: where they are and what is out of reach by plain fetch (summaries index partial, /sessions/lis25 404, only Centre Stage video public per a summary)",
     "21:14 wake: cloud links per company, batch 1 (6 of the 18 partner companies read on their own pages): Cerebras with AWS, Elastic on all three marketplaces, Datadog covers all three, Runpod names AWS as rival",
     "21:25 message from conductor@ (relaying Dinis's word, per its message): final hand-over debrief refreshed; this session stops",
-    "22:46-23:05 account B: onboarded, new key researcher-b-promptugal, conductor.b and conductor told; centres-of-gravity batch 2 (11 partners: 8 read, 3 refused a plain fetch)"
+    "22:46-23:05 account B: onboarded, new key researcher-b-promptugal, conductor.b and conductor told; centres-of-gravity batch 2 (11 partners: 8 read, 3 refused a plain fetch)",
+    "23:13 wake: KPMG Portugal's Microsoft alliance page read at source (named alliance, supplier award, Azure/Fabric/365/Dynamics/Security); inbox not drainable yet (lane still on the old key)"
   ],
   "next": [
-    "KPMG Portugal Microsoft alliance page at source",
     "AWS, Google Cloud, Microsoft partner directories for the 18 names",
     "organiser's 2024 and 2025 numbers",
     "past agendas and speakers"

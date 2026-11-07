@@ -41,6 +41,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "1Password's blog, 8 October 2025: Secure Agentic Autofill with Browserbase, how a credential is requested, approved and injected into an agent's browser (the flow agentic-autofill)",
       "kind": "other"
+    },
+    {
+      "id": "own1",
+      "url": "https://1password.com/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (www.1password.com redirects here; read 6 November 2026, 23:23 UTC): its website; and a description of what the company does: passwords, passkeys and secrets, \"one secure platform for humans, AI agents, and machines\", and a credential broker that verifies AI agents at runtime. It does not state the figure of 150,000 businesses.",
+      "kind": "other"
     }
   ]
 }

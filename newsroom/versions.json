@@ -1,5 +1,75 @@
 [
   {
+    "version": "v0.1.384",
+    "date": "2026-11-06",
+    "what": "conductor@PrompTugal.dinis: wake 23:52: development on account B; mock E live; the home page in eight designs",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "58aff11b3"
+  },
+  {
+    "version": "v0.1.383",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: status and run report: the home page in designs is live (v0.1.382); blocked on nothing",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b9d41d1ad"
+  },
+  {
+    "version": "v0.1.382",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the home page in designs: today's as the default, mock E as the first option, Silvio's picker",
+    "by": "dev@PrompTugal.dinis",
+    "from": "247113f02"
+  },
+  {
+    "version": "v0.1.381",
+    "date": "2026-11-06",
+    "what": "designer@PrompTugal.dinis: mock E checked live at v0.1.379: ten of thirteen pass; two fixes for dev@, the band's green for Dinis",
+    "by": "designer@PrompTugal.dinis",
+    "from": "87fb3bcc6"
+  },
+  {
+    "version": "v0.1.380",
+    "date": "2026-11-06",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "022330ec6"
+  },
+  {
+    "version": "v0.1.379",
+    "date": "2026-11-06",
+    "what": "outreach@PrompTugal.dinis: wake 23:38: drafts unchanged; still waiting on the lane's reissue",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "7e8e3b9dd"
+  },
+  {
+    "version": "v0.1.378",
+    "date": "2026-11-06",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "04f8421c2"
+  },
+  {
+    "version": "v0.1.377",
+    "date": "2026-11-06",
+    "what": "dev@PrompTugal.dinis: the home page is Silvio's mock E, from data; RiskMandate only in the footer; one page width",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c31200df1"
+  },
+  {
+    "version": "v0.1.376",
+    "date": "2026-11-06",
+    "what": "researcher@PrompTugal.dinis: KPMG Portugal's Microsoft alliance page read at source",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "5068bf1ec"
+  },
+  {
+    "version": "v0.1.375",
+    "date": "2026-11-06",
+    "what": "conductor.b@PrompTugal.dinis: 23:07 wake: the dev team started on account B; account B's first ledger",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "3d099e3fb"
+  },
+  {
     "version": "v0.1.374",
     "date": "2026-11-06",
     "what": "writer@PrompTugal.angelo: my session key's public half in board/keys.json",
