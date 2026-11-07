@@ -125,12 +125,17 @@
         "event:web-summit-rio-2023",
         "organisation:web-summit"
       ],
-      "source": "irishtimes-web-summit-rio-first-outside-europe",
+      "source": [
+        "irishtimes-web-summit-rio-first-outside-europe",
+        "rte-2022-05-03-web-summit-rio"
+      ],
       "claim": [
         "c42",
         "c43",
         "c44",
-        "c45"
+        "c45",
+        "c46",
+        "c47"
       ]
     },
     {

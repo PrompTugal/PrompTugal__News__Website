@@ -52,6 +52,8 @@ function rowsFor(g, ref) {
         put(3, [...out(ref, 'filed_under'), ...out(ref, 'based_in')].map(id => ({ id, parent: ref })), 4)
         const field = out(ref, 'filed_under')[0]
         if (field) put(4, inn(field, 'filed_under').sort(byDeg).map(id => ({ id, parent: field })), 5)
+        // what it is built on, what is built on it, where it sells (ontologist@'s built_on and sells_on, 7 November)
+        put(3, [...out(ref, 'built_on'), ...inn(ref, 'built_on'), ...out(ref, 'sells_on'), ...inn(ref, 'sells_on')].map(id => ({ id, parent: ref })), 7)
     } else if (t === 'event') {
         put(0, [...out(ref, 'part_of'), ...out(ref, 'in_track')].map(id => ({ id, parent: ref })), 4)
         put(1, [...inn(ref, 'speaks_at'), ...inn(ref, 'hosts'), ...out(ref, 'organised_by')].map(id => ({ id, parent: ref })), 5)
@@ -69,6 +71,7 @@ function rowsFor(g, ref) {
         const via = rows[1].flatMap(p => out(p.id, 'speaks_at').map(id => ({ id, parent: p.id })))
         put(0, [...direct.sort((a, b) => byWhen(a.id, b.id)), ...via.sort((a, b) => byWhen(a.id, b.id))], 5)
         put(3, inn(ref, 'names').map(id => ({ id, parent: ref })), 4)
+        put(3, [...inn(ref, 'sells_on'), ...inn(ref, 'partner_of')].map(id => ({ id, parent: ref })), 7)  // who sells on it, who partners with it
         put(4, rows[3].flatMap(x => inn(x.id, 'rests_on').map(id => ({ id, parent: x.id }))), 4)
     } else if (t === 'topic') {
         put(1, [...out(ref, 'narrower_than'), ...inn(ref, 'maps_to')].map(id => ({ id, parent: ref })), 4)

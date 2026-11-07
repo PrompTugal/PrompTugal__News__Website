@@ -1,8 +1,8 @@
 {
   "agent": "investors@PrompTugal.dinis",
   "focus": "PrompTugal is raising, through My Feeds (MYFEEDS AI, UNIPESSOAL, LDA, Portugal), its publisher; Dinis sole director and 100% shareholder, the only investor contact; no figures",
-  "state": "running on account B; decks v1.0 approved by Dinis to go live; decks 5 (the investment) and 6 (the technology) in progress",
-  "updated": "2026-11-07T10:05Z",
+  "state": "running on account B; phase two: eight decks in English and European Portuguese; waiting on Dinis for the web player",
+  "updated": "2026-11-07T13:05Z",
   "session": "board/team/investors/sessions/01Kw9UwA/notes.md",
   "latest_debrief": "board/team/investors/debriefs/2026-11-07-handover.md",
   "done": [
@@ -24,20 +24,26 @@
     "Synthetic investors run 1 (six personas: 2 meet, 4 maybe, 0 pass): numbers made consistent across decks and pages, one wedge (customisation at events first), 'no back end that sees readers', app as internal beta, softer testable claims; board/team/investors/synthetic-investors/findings-2026-11-07.md",
     "06:23 wake: /investors/for-events/ (asked for by the synthetic organiser and partner): attendees before, during, after; the organiser gets what is read, never who; beside the event app; how it is paid for left open; set-up",
     "09:23 wake: /investors/for-publishers/ (the synthetic licensee's ask): a pilot on one section, beside the newsroom and CMS, the editor as publisher of record, no reader data, Portuguese as part of the pilot, dual licence and maintenance",
-    "Dinis's 09:45 word (board/team/investors/dinis-2026-11-07-go-live-and-structure.md): decks approved to go live; sources under version control as src/*.deck, v1.0 on every cover, changelog on /investors/decks/; dev@ asked for a decks build feature to publish them as HTML pages"
+    "Dinis's 09:45 word (board/team/investors/dinis-2026-11-07-go-live-and-structure.md): decks approved to go live; sources under version control as src/*.deck, v1.0 on every cover, changelog on /investors/decks/; dev@ asked for a decks build feature to publish them as HTML pages",
+    "Dinis's 10:25 word recorded: /investors/join/ (who are you: helpers this week, the founding team, a partner as CEO, journalists, investors, do it yourself); 'Who are you?' on the pitch page; team interview questions (consent first) routed through the conductor; decks 5 (the investment), 6 (the technology), 7 (join us), 8 (do it yourself) being built",
+    "Four new decks at Dinis's word, reviewed and released: 5 the investment (14 slides), 6 what makes it possible (16), 7 join us (14), 8 do it yourself (15); every closing slide points to all eight; decks 1 to 4 bumped to v1.1; changelog on /investors/decks/. Four more AI-made images (about 0.55 USD)",
+    "Phase two (Dinis, 12:15 to 12:40 UTC): decks refactored to layout plus words per language; all eight in European Portuguese; deck 4 (Algarve, Portugal, Europe; 21 partners), deck 5 (seed under $1M, two phases, three questions), deck 8 (the moat is decisions; copy us); /investors/partners/; the pitch page with the round and the phases",
+    "12:23 wake: the outreach pack for outreach@ (board/team/investors/outreach-pack.md: who gets which deck, EN and PT opening lines, rules); the Portuguese PDFs checked live",
+    "Dinis (12:50): prices in euros across the decks and pages; Dinis named organiser and driver of the OWASP Summits and the Open Security Summit; six decks bumped (1 v1.2, 2 v1.3, 3 v1.2, 4 v1.3, 7 v1.1, 8 v1.2), EN and PT; customers@ and dev@ asked to move the live top-up to euros"
   ],
   "next": [
-    "Deck 5, the investment: founder and CTO, growth shares vesting on milestones, the explorer phase, two phases to Series A, designed to be sold (figures and exit wording waiting on Dinis)",
-    "Deck 6, the technology: sgit, RiskMandate, agent behaviour policies; about 20 agents per team member kept in their lane",
-    "Decks as HTML pages once dev@'s feature lands (or Dinis tells investors@ to write it)",
-    "Later: live stats, users and feedback on the decks as the site grows; the iPad app as it improves"
+    "The web deck player and the decks as pages (waiting on Dinis's yes for investors@ to build it for dev@'s review)",
+    "The live guided tour deck (animated: a page, zoom out, point, a square, an arrow)",
+    "Four languages, then ten (the EU's most spoken), once Dinis has seen the Portuguese",
+    "Outreach material for outreach@ (who sends is a person)"
   ],
   "asks": [
+    "Dinis: the address of your Gen ZX founders book and presentation (not found on sgit.ai or its network; genzx.sgit.ai does not resolve)",
     "Dinis: may deck 5 say 'a seed round of under $1M' publicly, and 'designed to be sold within about 18 months'? Until you say yes, it says 'seed round, size in conversation'",
     "Dinis: decks as HTML pages need a build feature (dev@'s); say if investors@ should write it for dev@'s review",
-    "Dinis: the For Dinis list in board/team/investors/synthetic-investors/findings-2026-11-07.md (currency, contact route, partner's role, Algarve Evolution membership, hiring intent)",
     "conductor@: file Dinis's 7 November words in board/guidance/; route the publisher change and the RiskMandate removal; reissue my inbox to investors-b-promptugal",
     "abp@: a policy for this role with content/investors/ in its grant (Dinis's word, 7 November); until then my run reports count those writes as R6 breaches (asked on abp@'s inbox 02:55Z)",
-    "dev@: allow dinis.agent@promptugal.news on /investors/ (check 7), and a home for HTML slide decks the page checks skip (asked 7 Nov)"
+    "dev@: allow dinis.agent@promptugal.news on /investors/ (check 7), and a home for HTML slide decks the page checks skip (asked 7 Nov)",
+    "Dinis: a euro Stripe Payment Link for the reading top-up (the product still charges £5; the decks now say euros)"
   ]
 }

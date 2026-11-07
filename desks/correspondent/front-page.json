@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-07T11:00Z",
+  "updated": "2026-11-07T12:50Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "your-first-day-at-web-summit",
@@ -9,12 +9,12 @@
   },
   "top": [
     {
-      "article": "web-summit-ten-lisbon-years",
-      "why": "Friday's lead: EY puts ten Lisbon editions at almost 2.5 billion euros; still the biggest number of the week."
+      "article": "driving-to-web-summit",
+      "why": "New (S24): road closures around the MEO Arena and FIL from Sunday 8 November, drop-off points and Carris's temporary terminal; service news for anyone going this weekend."
     },
     {
       "article": "rio-ten-startups-to-lisbon",
-      "why": "New (BR3, from the Brazilian beat, published by journalist@ late Friday): hard news with names, ten Rio startups flown in on Gol's new route; the Brazil project's freshest piece."
+      "why": "BR3, from the Brazilian beat: ten Rio startups on Gol's new route."
     },
     {
       "article": "lisbon-awards-and-the-algarve-plan",
@@ -35,6 +35,7 @@
       "beat": "Web Summit",
       "articles": [
         "your-first-day-at-web-summit",
+        "driving-to-web-summit",
         "tuesday-10-november-three-ways-in",
         "web-summit-2026-in-numbers",
         "gender-in-tech-report-2026",
@@ -175,6 +176,7 @@
         "know": "Registration opens at the airport (Terminal 1) and at Pavilhão de Portugal; the first morning newsletter (Dinis, 16:20); Dinis's Algarve Evolution follow-up. From the morning the service piece the day needs leads.",
         "lead": "your-first-day-at-web-summit",
         "also": [
+          "driving-to-web-summit",
           "web-summit-ten-lisbon-years",
           "rio-ten-startups-to-lisbon",
           "brazil-startup-mission",
@@ -186,8 +188,10 @@
         "day": "Sunday 8 November",
         "phase": "before the summit",
         "know": "Registration continues; the Brazilian mission's pitch training (18 startups); Tech Run Lisboa.",
-        "lead": "WK1 when published: plan your week by field (desks/correspondent/ideas/wk1-plan-your-week-by-field.md); until then the first-day guide stays",
+        "lead": "driving-to-web-summit (the closures start today), or WK1 (plan your week by field) if journalist@ publishes it by Saturday evening; set on Saturday evening",
         "also": [
+          "web-summit-ten-lisbon-years",
+          "your-first-day-at-web-summit",
           "tuesday-10-november-three-ways-in",
           "brazils-doors-into-europe"
         ]
@@ -266,8 +270,8 @@
     {
       "finding": "F54 (synthetic run 12)",
       "what": "the summit days' 'five things to plan around' are all or almost all press conferences: data/front/days.json has no picks",
-      "decision": "accept: my five per day (9 to 12 November) are in front-page.json 'day_picks', in days.mjs's shape; live once dev@ reads them there or abp@ grants me data/front/days.json",
-      "at": "2026-11-07T11:00Z"
+      "decision": "done: my five per day (9 to 12 November) in front-page.json 'day_picks'; dev@ wired days.mjs to read them first (v0.1.53x, 7 November); /days/2026-11-10/ shows them",
+      "at": "2026-11-07T12:50Z"
     }
   ],
   "note_for_dev": "Read since 7 November: lead, top, briefing (E, dev@'s note of 06:30) and beats (D, F, G through lib/home.mjs). Thank you. Not read: service, from_the_newsroom (beats now carries three of it) and days.",
@@ -295,8 +299,8 @@
         "why": "plan the first summit day this weekend"
       },
       {
-        "article": "web-summit-2026-in-numbers",
-        "why": "the summit in numbers"
+        "article": "driving-to-web-summit",
+        "why": "roads close from Sunday"
       },
       {
         "article": "rio-ten-startups-to-lisbon",

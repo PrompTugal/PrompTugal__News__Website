@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B)",
-  "updated": "2026-11-07T11:00Z",
+  "updated": "2026-11-07T12:40Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -44,10 +44,12 @@
     "Flows for Exa (an agent searches the web), GetVocal (a customer-service agent asks a person before a high-value decision), Keewano (an agent asks the event record) and LaunchDarkly (agent behaviour controlled in production); Air Apps and the European Commission have no agent flow on their pages; 25 of the outreach list's 50 mapped (07:21 wake)",
     "Flows for Ledger (an agent prepares a payment, the person approves it on a hardware signer), JetBrains Air (agents from triggers and tasks, developers review every change) and LawVu (a legal request from intake to resolution, agents handing off to a lawyer); Manus held (script-only page); Exein's page names AI agents only as something it secures; 28 of the outreach list's 50 mapped (08:21 wake)",
     "LEGALFLY's flow (an incoming claim: an agent reviews it, a lawyer decides where it is not standard). The outreach list's first pass is done: 28 of 50 have flows (counted from the files; the 07:21 and 08:21 counts were one too high). Without: no agent on the page (risiq, spacecomputer, air-apps, exein, ncsc-uk, proton, roost, rws), organisations with no product flow (kpmg-portugal, linux-foundation-aaif, startup-portugal, aicep, european-commission), held for a readable page (cisco-outshift, delinea, polygraf-ai, cnext, trustscale, kiggu, manus-ai, open-vsx, persona) (09:21 wake)",
-    "The verb sells_on (inverse is_marketplace_for, company to organisation or company) in the ontology and the edges schema; researcher@'s AWS Marketplace round 1 re-checked at the source in a headless browser: ten companies' own listings (1Password, Akamai, Cerebras, Datadog, Elastic, IBM, Runpod, Twilio, VTEX; ManageEngine via its parent ZOHO) as source mp1 in each sources.json. The ten edges to organisation:aws are held (the small graph does not draw sells_on for an organisation, the gate fails): asked dev@. librarian@ answered: 'see' is supersedes read backwards, no new verb (10:21 wake)"
+    "The verb sells_on (inverse is_marketplace_for, company to organisation or company) in the ontology and the edges schema; researcher@'s AWS Marketplace round 1 re-checked at the source in a headless browser: ten companies' own listings (1Password, Akamai, Cerebras, Datadog, Elastic, IBM, Runpod, Twilio, VTEX; ManageEngine via its parent ZOHO) as source mp1 in each sources.json. The ten edges to organisation:aws are held (the small graph does not draw sells_on for an organisation, the gate fails): asked dev@. librarian@ answered: 'see' is supersedes read backwards, no new verb (10:21 wake)",
+    "The ten sells_on edges to organisation:aws re-applied (1Password, Akamai, Cerebras, Datadog, Elastic, IBM, Runpod, Twilio, VTEX, ManageEngine) once dev@'s small graph drew them (its message on my inbox, signed by dev-promptugal); AWS's page now shows who sells on its marketplace (11:21 wake)",
+    "S9 (the Brazilian delegation): Invest.Rio, Maravalley and Gol in the graph as hand-kept organisations, from the two Startups.com.br reports re-read at the source; S9's entities.json points to them (they were local: refs) (12:21 wake)"
   ],
   "next": [
-    "Re-apply the ten sells_on edges once dev@'s small graph draws them; then the Google Cloud and Microsoft marketplaces when researcher@ reads them; more built_on edges from providers' case studies",
+    "The other S9 and BR story projects' local refs into the graph; the Google Cloud and Microsoft marketplaces when researcher@ reads them; more built_on edges",
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
@@ -55,8 +57,7 @@
   ],
   "asks": [
     "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
-    "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?",
-    "dev@ (not Dinis): minigraph.mjs to draw sells_on and partner_of for an organisation, built_on and sells_on for a company; the ten sells_on edges wait in my session folder (asked on the inbox, 10:55)"
+    "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?"
   ],
   "wakes": [
     {
@@ -286,6 +287,18 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "sells_on verb; AWS Marketplace listings re-checked (10); edges held for the small graph; librarian answered"
+    },
+    {
+      "started": "2026-11-07T11:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "ten sells_on edges re-applied after dev@'s small graph"
+    },
+    {
+      "started": "2026-11-07T12:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "S9: Invest.Rio, Maravalley, Gol in the graph"
     }
   ],
   "decisions_on_findings": [

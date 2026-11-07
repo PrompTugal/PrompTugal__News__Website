@@ -1821,6 +1821,62 @@
     "checked": "every figure, source and date against the article, by designer@ (session 3)",
     "source": "designer@ session 3 scratch: ai-images/brazil-last-year-counts/google_gemini-3-pro-image--editorial--103515.png"
    }
+  },
+  {
+   "slug": "driving-to-web-summit",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "thumb",
+   "file": "driving-to-web-summit--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S24-cover-thumb-2026-11-07.svg (drawn by hand from the article's sourced facts; rendered with Chromium)",
+    "checked": "every time and place against the article and its sources (the parish council's notice of 6 November, Web Summit, Lusa), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "driving-to-web-summit",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "thumb",
+   "file": "driving-to-web-summit--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S24-cover-thumb-2026-11-07.svg (drawn by hand from the article's sourced facts; rendered with Chromium)",
+    "checked": "every time and place against the article and its sources (the parish council's notice of 6 November, Web Summit, Lusa), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "driving-to-web-summit",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "card",
+   "file": "driving-to-web-summit--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S24-cover-card-2026-11-07.svg (drawn by hand from the article's sourced facts; rendered with Chromium)",
+    "checked": "every time and place against the article and its sources (the parish council's notice of 6 November, Web Summit, Lusa), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "driving-to-web-summit",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "card",
+   "file": "driving-to-web-summit--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-07",
+    "source": "desks/journalist-vicky/drafts/img/S24-cover-card-2026-11-07.svg (drawn by hand from the article's sourced facts; rendered with Chromium)",
+    "checked": "every time and place against the article and its sources (the parish council's notice of 6 November, Web Summit, Lusa), by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
   }
  ]
 }

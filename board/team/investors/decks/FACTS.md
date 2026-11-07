@@ -3,7 +3,7 @@
 Every deck states only what is here or on /investors/ (content/investors/), with the source in the slide's small print where it is a number. Dinis's direction: board/team/investors/dinis-2026-11-07-*.md.
 
 ## Never
-- No ask, amount, valuation, stage, terms, revenue, cost, price list or projection. "No figures yet: we are talking to investors."
+- No valuation, split, terms, revenue, cost, price list or projection. The seed round size IS public since 7 Nov 2026, 12:40 UTC: "under $1M" (see below).
 - No team member named except Dinis Cruz (sole director and 100% shareholder of My Feeds, the only contact). No contact detail (no email). No private conversation, no investor named.
 - No em-dashes. No claim for RiskMandate beyond "one of Dinis Cruz's startups".
 - No invented statistic. A number is either counted from this repository, given by Dinis, or a public figure with its source.
@@ -33,3 +33,53 @@ Every deck states only what is here or on /investors/ (content/investors/), with
 ## The Algarve (public, sourced on https://promptugal.news/portugal/algarve-evolution/, read 6 Nov 2026)
 - Algarve Evolution: Faro-based association since 2018, mandate to diversify the Algarve's economy beyond tourism: help 500 companies, create 150 startups and reach 50,000 people by 2032; 118 active members (self-reported, 1 Nov 2026); 142+ events in 2024 and 2025 and 5,597 participants (self-reported).
 - My Feeds is in Loulé; PrompTugal is joining Algarve Evolution (Dinis). Dinis's newsroom covered Vibathon Algarve 2026 ("a sold-out day of building with AI in Faro") and wrote a session programme for Algarve Evolution (newsroom.sgit.ai, 31 Oct 2026).
+
+## Added 7 November 2026, about 10:30 UTC, for decks 5 to 8
+
+### The company and the investment (Dinis, 7 Nov 2026, board/team/investors/dinis-2026-11-07-go-live-and-structure.md)
+- Dinis Cruz: **founder and CTO**. He develops the technology that powers PrompTugal full time, spread across his companies; he is not full time on PrompTugal's operations.
+- **Wanted: a business partner as CEO**, to run all operations, with experience running companies, ideally senior in the news industry; and **journalists**, very technical ones; strategic people, hired with equity.
+- **Investors buy equity in the company**; the money is for the operations: preparing the company for the next level, commercialisation, services, editorial (hiring journalists).
+- **Team equity:** core team members receive shares that vest on milestones, like UK **growth shares** (shares that come alive at a future date or on a sale); everyone has a stake in the game and is paid once there is investment. **The split is to be decided.** The team today has not been asked or promised anything: "only when somebody puts money on the table can you have a more serious conversation".
+- **Two phases:** phase one, about a year, the **explorer** phase (Wardley's explorers, villagers, town planners), funded by a seed round, to reach Series A; at Series A or B the company's structure changes, planned for from the start.
+- **Seed round: size in conversation** (Dinis gave a sub-$1M range in session; NOT for publication until he confirms). **Exit:** "designed to be sold" within about a year and a half is NOT for publication until he confirms; until then say "built for a first-generation outcome in about two years, with a bigger play beyond" ONLY if he confirms; otherwise leave the exit out.
+- The team today: a mix of Gen Z and Gen X, working unpaid, in a win-win where they learn a lot; seven people at the summit (the front-end team); a back-office team for the summit is wanted now, unpaid and with visibility. Name no one but Dinis.
+
+### What RiskMandate says it is (riskmandate.ai, read 7 Nov 2026)
+- An **Agent Behaviour Policy (ABP)**: "a written description, for one agent in one deployment, of everything it can do, what you authorised it to do, the gap between the two, and what actually stands in the way" (riskmandate.ai/abp.html).
+- **Reach** (what the agent can actually access: measured), **mandate** (what the business authorised: elicited), **gap** (reach minus mandate: derived, never written by hand), **barrier** (none, expectation, setting, boundary; "only a boundary is a control").
+- "We are never in the request path." "it defines the mandate and measures the gap; it does not enforce it." "A policy cannot be dangerous. A deployment can." "A behaviour policy reduces accidents. It does not stop an attacker." SHarness (open source, Apache-2.0) is RiskMandate's secure harness; "Nothing yet binds the agent itself" (secure-harness.html, status 29 Oct 2026). RiskMandate is "built on SG/Vault".
+- Never claim that RiskMandate enforces, guarantees safety, or insures. Never claim a multiplier from riskmandate.ai: it states none.
+
+### What sgit says it is (sgit.ai, read 7 Nov 2026)
+- "git for encrypted vaults": clone, commit, branch and merge files encrypted client-side (AES-256-GCM); Apache-2.0; `pip install sgit-ai`; beta: "sgit is in beta: it powers production workflows daily". "the server that stores it cannot read it." Read keys: "a read key can never be turned back into write access". PKI keypairs for agents (encryption and signing). Append lanes: write-only inboxes; "The only thing a sending session is given is its append token". Limits it states: "No key revocation or rotation workflow."
+
+### What this repository shows (counted 7 Nov 2026)
+- Every agent has its own session key, public half in `board/keys.json` (60 entries, 41 active); every article signed; inboxes on append lanes (`board/inboxes/`).
+- Agent Behaviour Policies in `board/abp/` (by abp@, after RiskMandate's ABP): eleven core rules for every agent, one grant per agent (paths, hosts, tools), deny by default; hooks re-anchor the policy at every start and compaction and log every tool call outside the grant (observe mode: logged, not blocked, "blocking should always be the last worst case scenario", Dinis); a run report for every run (`board/runs/<role>/`); an hourly review that tightens policies and proposes relaxations for Dinis. The README lists what the hooks cannot see (the gap).
+- Agents per person: about 25 named roles run PrompTugal under one human operator; the Web Summit team's own team map shows 91 agents running for 6 people (web-summit.sgit.ai/team/map/, read 7 Nov 2026); about 111 agents across Dinis Cruz's projects (his count). Dinis's own phrase: "a multiplier of about 20x: 20 agents per team member".
+
+### Open source to do it yourself (public repositories and packages)
+- github.com/PrompTugal/PrompTugal__News__Website (this site: build, gate, CI, data, agents' board, policies; Apache-2.0 code, CC BY 4.0 text)
+- github.com/PrompTugal/PrompTugal__App__iOS (the iPhone and iPad app)
+- github.com/SGit-AI/SGit-AI__Website__Web-Summit (the Web Summit team's site, the team's agents and investor section)
+- sgit (`pip install sgit-ai`, sgit.ai): vaults, keys, append lanes; SHarness (`pip install sharness-ai`, riskmandate.ai/secure-harness.html)
+- newsroom.sgit.ai (the first newsroom; the reading meter and vault), open-source.sgit.ai (the strategy)
+
+## Added 7 November 2026, about 12:40 UTC (Dinis, in session; board/team/investors/dinis-2026-11-07-phase-two.md)
+- **The seed round: under $1M** ("sub 1 million, for the seed, which makes sense at that level; then we see what happens"). Publishable. No valuation, no split.
+- **Two phases, realistic:** the explorer phase to an exit for the first round of founders and investors; the second phase (villagers and town planners: professional, execution, events, growth) is a different type of company. Dinis likes to start companies and prepares his own exit from the beginning ("making myself redundant is what good leadership should do"). **If it really takes off, a unicorn path, it is his next three years**; he does not close the door, but is pragmatic about what is most likely. No timeframe for the exit.
+- **The investor's three questions:** can this be a profitable business; can this company be bought in the future; is this the team to execute. Yes, yes, yes: invest.
+- **Copy us:** the moat is decisions and execution (the speed from Lisbon Wire to PrompTugal, the team assembled, RiskMandate's work); Dinis's experience as an executive, in security, publishing content, and running events (the Open Security Summit). Anyone who copies validates the model and the structure and is a company to work with, collaborate with or acquire; open source lets us leverage what they do; the market is big enough. An investor who builds it themselves still needs someone like Dinis and a team like this, and is looking at a photograph of where we were. Openness is how the right people find us: "you can't close it now".
+- **Algarve, Portugal, Europe:** an Algarvian company, based in Portugal, in the European Union; growth across Europe, investors from anywhere in Europe.
+
+## Added 7 November 2026, about 13:00 UTC (research, each read at its site that day)
+- **Open source for investors:** sgit.ai's investor page (https://sgit.ai/investors/index.html): "The open-source strategy is the moat, not the code." "The code is free. What is sold is the running service, and the trust that comes with running it well." open-source.sgit.ai/views: "They do not get our velocity."
+- **Europe:** "Europe's Strategic Opportunity in GenAI: A Deep Dive into Six Defining Trends" (Dinis Cruz, 1 April 2025, https://docs.diniscruz.ai/2025/04/01/europe-strategic-opportunity-in-gen-ai__a-deep-dive-into-six-defining-trends.html): "Europe's values of openness, multilingualism, sustainability, and human-centric innovation align closely with where GenAI is headed." "The strategic stars are aligned for Europe to help lead GenAI's next chapter." Six trends: models commoditising (specialise for local needs), edge and local AI as sovereignty, knowledge to semantic graphs, multilingual AI (Portuguese named), open source for sovereignty and transparency, human-centric values.
+- **Portugal:** pt.newsroom.sgit.ai, "O Ecossistema Português de IA", a Portuguese-language newsroom on Portuguese AI policy and companies (September 2026); newsroom.sgit.ai/portugal (Startup Summit Lisbon 2026).
+- **Events:** organiser of the OWASP Summits, Lisbon 2011 and Woburn 2017 (sgit.ai/about); the first OWASP Summit was in the Algarve in 2008 (open-source.sgit.ai/owasp); speaker at the Open Security Summit, December 2024 (open-security-summit.org), and self-described "Director of the Open Security Summit" (docs.diniscruz.ai).
+- **Organisations to work with** (each read at its own site, 7 Nov 2026; content/investors/partners.md lists them with what each does): Portugal: Startup Portugal, Unicorn Factory Lisboa, UPTEC, IAPMEI, ANI, FCT, Portugal Ventures, Lusa, Associação Portuguesa de Imprensa. The Algarve: Algarve Evolution, CCDR Algarve (Algarve 2030), Universidade do Algarve, AMAL. Europe, news and media: WAN-IFRA, European Journalism Centre, EBU, Reuters Institute, Media Lab Bayern, Journalismfund Europe. Europe, startups and tech media: European Innovation Council, Tech.eu.
+
+## Added 7 November 2026, about 12:50 UTC (Dinis, in session)
+- **The summits:** Dinis Cruz was "the main organiser and driver" of all of them: the OWASP Summits (the first in the Algarve in 2008, then Lisbon 2011 and Woburn 2017, among others) and the Open Security Summit.
+- **Euros:** prices are stated in euros (cents per page, a few euros), at Dinis's word. The site's live top-up still charges £5 through newsroom.sgit.ai's Stripe link until it is moved; the decks do not quote its amount.

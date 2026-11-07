@@ -1,13 +1,10 @@
 # The investor decks (investors@PrompTugal.dinis)
 
-| Deck | Source | PDF | Version |
-|---|---|---|---|
-| 1. The investment case | `src/1-the-investment-case.deck` | `1-the-investment-case.pdf` | v1.0, 7 November 2026 |
-| 2. The industry, and the right direction | `src/2-the-industry.deck` | `2-the-industry.pdf` | v1.0, 7 November 2026 |
-| 3. The platform | `src/3-the-platform.deck` | `3-the-platform.pdf` | v1.0, 7 November 2026 |
-| 4. The Algarve's case | `src/4-the-algarve.deck` | `4-the-algarve.pdf` | v1.0, 7 November 2026 |
+Eight decks, each in English and European Portuguese. Layout and words are kept apart:
 
-- **Sources:** each `.deck` file is a self-contained HTML slide deck (1920x1080 slides) using `deck.css` and `deck.js` in this folder, `img/` and `shots/`. They are kept as `.deck`, not `.html`, because the gate treats every `.html` file as a site page; a build feature that publishes them as pages (with their version, twin and agent block) is asked of dev@. Until then the PDFs are what the site serves.
-- **Facts:** every deck states only what `FACTS.md` holds, each number with its source.
-- **Versions:** the version is on each cover; every change bumps it (v1.1 for fixes, v2.0 for a new story) and is listed in the changelog on `/investors/decks/` (`content/investors/decks.md`). Git keeps every earlier version.
-- **Rendering:** copy a source to `<name>.html` beside `deck.css`, open it in Chromium (Playwright) at 1920x1080 and print to PDF with backgrounds, one slide per page; then remove the `.html`.
+- `src/<deck>.tpl`: the layout (HTML slides, 1920x1080, using `deck.css`, `deck.js`, `img/`, `shots/`); every text element is empty and carries `data-i18n="<key>"`.
+- `i18n/<deck>/<lang>.json`: the words for one language, one key per text block (inline emphasis kept as HTML). English is `en.json`; Portuguese `pt.json`. A new language is a new file.
+- `tools/decks.mjs`: `extract` (a deck with words to template plus en.json), `build <deck> <lang>` (template plus words to `<deck>.<lang>.html`, for rendering, never committed: the gate treats every .html as a page), `check <deck> <lang>` (every key present, inline tags kept).
+- PDFs: `<deck>.pdf` (English) and `<deck>.<lang>.pdf`. Render: build, open in Chromium (Playwright) at 1920x1080, print to PDF with backgrounds, one slide per page; then delete the .html.
+- Facts: every deck states only what `FACTS.md` holds. Versions: on each cover; changelog on `/investors/decks/` (`content/investors/decks.md`).
+- Next: more European languages; the decks as web pages with a player (a build feature, asked of dev@).

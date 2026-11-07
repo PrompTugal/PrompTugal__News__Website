@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "gol",
+  "type": "organisation",
+  "name": "Gol",
+  "names_as_listed": [
+    "Gol"
+  ],
+  "sources": [
+    {
+      "url": "https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Startups.com.br, 26 October 2026: the Brazilian airline pays the flights of the 10 Rio startups going to Web Summit Lisboa, in partnership with Invest.Rio and Maravalley, weeks after starting its Rio to Lisbon route"
+    }
+  ],
+  "note": "Hand-kept by ontologist@PrompTugal.dinis for the S9 story project (the Brazilian delegation): named by the story's sources, re-read at the source on 7 November 2026."
+}

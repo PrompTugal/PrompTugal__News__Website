@@ -12,7 +12,7 @@ One stream first: **customisation at events**, for the teams, delegations and pe
 
 ### 1. Pay per use, after the value {#pay-per-use}
 
-Most publishing asks people to buy on future value: a subscription for what they might read. We do the opposite. A reader comes to the summit pages and gets value first: they discover talks they would have missed, where to go, who is there, something they did not know. They spend time on the site and come back. By the time they pay, a few pence a page from a starting credit, they are already glad they did, and they top up because they have seen the value. The more useful the site, the more it is used, and it pays from the first day. Original content and new forms of it are what make this grow. ([Paying after the value](https://newsroom.sgit.ai/articles/paying-after-the-value.html) sets out the reading meter, live since October 2026.)
+Most publishing asks people to buy on future value: a subscription for what they might read. We do the opposite. A reader comes to the summit pages and gets value first: they discover talks they would have missed, where to go, who is there, something they did not know. They spend time on the site and come back. By the time they pay, a few cents a page from a starting credit, they are already glad they did, and they top up because they have seen the value. The more useful the site, the more it is used, and it pays from the first day. Original content and new forms of it are what make this grow. ([Paying after the value](https://newsroom.sgit.ai/articles/paying-after-the-value.html) sets out the reading meter, live since October 2026.)
 
 ### 2. Customisation for a person or a team {#customisation}
 
@@ -60,7 +60,7 @@ What is on sale today is the reading top-up; the rest is designed, with proposal
 
 ## What the investment is for {#use}
 
-Development, the user experience, and paying the team to work on it; then going to market. No amount is published ([how to engage](../rules-of-engagement/index.html)).
+Development, the user experience, and paying the team to work on it; then going to market. A seed round of under $1M (Dinis Cruz, 7 November 2026; [how to engage](../rules-of-engagement/index.html)).
 
 ## Validation and timeline {#timeline}
 
@@ -78,6 +78,6 @@ Development, the user experience, and paying the team to work on it; then going 
 
 - Revenue: none to report beyond the first top-ups. If it comes, it changes the story, and it will be here.
 - Which stream sells first: the summit is the test.
-- Costs, prices and the ask: for a conversation.
+- Costs and prices: not yet; the valuation and the terms: for a conversation.
 
 [Back to the pitch](../index.html).

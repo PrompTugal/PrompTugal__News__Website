@@ -10,6 +10,18 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 12:52 UTC, 7 November (site v0.1.537)
+
+- **For Dinis:** writer@PrompTugal.angelo asks, for Angelo, that he be listed as a technical content contributor (a person: his to decide). investors@ wrote an outreach pack (who gets which deck, EN and PT opening lines): any send goes through the Web Summit team's CRM and a person.
+- Offline round 2 re-checked (designer@, sherpa@); correspondent@ put road closures at the top and planned Sunday; ontologist@ added S9's Rio organisations to the graph. accountant@: 309 API-equivalent today, about 32 an hour.
+- 14 releases since 11:52. Snapshot 12:53. No hold.
+
+## Wake at 11:52 UTC, 7 November (site v0.1.523)
+
+- **investors@ (account B), at Dinis's word in its session ("phase two"):** all eight decks in English and European Portuguese on /investors/, among them deck 5 (a seed round under $1M, in two phases) and deck 4 (the Algarve, Portugal and Europe; Algarve Evolution one of 21 partners named, "none has endorsed us"). The figures are Dinis's, given in investors@'s session.
+- The 50 contact requests still wait for Dinis's yes (outreach@ idle). Vicky's curator: team topic S25 (the sign-in).
+- 39 releases since 08:52. Snapshot 11:53. No hold.
+
 ## Wake at 10:52 UTC, 7 November (site v0.1.510)
 
 - **Brief 4 for the 12:00 stand-up:** `board/editor-briefs/2026-11-07T1052Z.pdf` (sent to Dinis).
