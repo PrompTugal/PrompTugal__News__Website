@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.542",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 13:07 wake: account B quiet; accountant@ confirms investors@'s spend",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "8601e9f87"
+  },
+  {
     "version": "v0.1.541",
     "date": "2026-11-07",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
