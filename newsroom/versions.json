@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.474",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 08:07 wake: account B quiet; nothing blocked",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "549f844c4"
+  },
+  {
     "version": "v0.1.473",
     "date": "2026-11-07",
     "what": "security@PrompTugal.dinis: wake 08:05: 33 commits clean, S27 closed, S28 to dev@, S25 narrowed (Vicky's agents already hold keys)",
