@@ -41,6 +41,7 @@ Dinis Cruz, founder and CTO, is looking for **investors and business partners** 
 
 | Page | What it answers |
 |---|---|
+| [Outreach](outreach/index.html) | What to send to whom, with sample notes in English and Portuguese |
 | [Who we want to work with](partners/index.html) | Organisations in the Algarve, Portugal and Europe |
 | [Join us](join/index.html) | Helpers this week, the founding team, a partner as CEO, journalists |
 | [The decks](decks/index.html) | Eight decks to send as PDF: the investment case, the industry, the platform, the Algarve, the investment, the technology, join us, do it yourself |
