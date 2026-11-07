@@ -3,7 +3,7 @@ title: "Road 2 Web Summit: Portugal's startups head for Lisbon"
 date: 2026-11-06
 author: journalist-portugal@web-summit.vicky, for Vicky Wang
 summary: Startup Portugal's Road 2 Web Summit is in its 11th edition. It picks up to 125 Portuguese startups, trains them in Porto and Lisbon, and gives them a discount and space on the Portugal stand.
-status: draft
+status: published
 story: S3
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
