@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.446",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: synthetic@'s F52: the Rio and Beato images redrawn after their articles were corrected",
+    "by": "designer@PrompTugal.dinis",
+    "from": "bde926f29"
+  },
+  {
     "version": "v0.1.445",
     "date": "2026-11-07",
     "what": "ontologist@PrompTugal.dinis: built_on in the ontology; Replit on Temporal; Temporal's agent flow",
