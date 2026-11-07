@@ -1,7 +1,7 @@
 {
  "s00.1": "PrompTugal: do it yourself",
  "s01.1": "<b>Investors</b> · deck 8",
- "s01.2": "v1.3 · 7 November 2026",
+ "s01.2": "v1.4 · 7 November 2026",
  "s01.3": "Do it yourself",
  "s01.4": "Do you want to do this yourself? <span style=\"color:#c52830\">Fork it.</span>",
  "s01.5": "Everything that runs PrompTugal.news is open source: the code, the data model, the gate, the release pipeline, the agents' rules and policies. Here are the repositories, the stack, the roadmap, the lessons, and why copying us helps us. Go and do it.",

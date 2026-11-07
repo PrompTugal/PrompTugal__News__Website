@@ -33,6 +33,22 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "Feedzai's home page, read 6 November 2026: real-time AI that stops fraud and financial crime, and Farol, its AI agent for fraud teams, for rules, alerts and SARs (the flow fraud-team-with-farol)",
       "kind": "other"
+    },
+    {
+      "id": "inv1",
+      "url": "https://www.feedzai.com/leadership/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Feedzai's Leadership page (read 7 November 2026, 16:30 UTC): its two co-founders as the company lists them, Nuno Sebastião (Co-Founder, Chairman and CEO) and Pedro Bizarro, Ph.D. (Co-Founder and Chief Science Officer); its About page says the founders came from the European Space Agency (synthetic@'s finding F13)."
+    },
+    {
+      "id": "inv2",
+      "url": "https://www.feedzai.com/pressrelease/feedzai-to-safeguard-ecb-the-digital-euro/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Feedzai's press release of 2 October 2025 (read 7 November 2026, 16:35 UTC): a valuation of $2 billion after a new investment round of about $75 million, adding Lince Capital, Iberis Capital and Explorer Investments, with renewed backing from Oxy Capital and Buenavista Equity Partners; the same day, the ECB named Feedzai first-ranked tenderer for the digital euro's central fraud detection and prevention (synthetic@'s finding F13). It states no funding stage."
     }
   ]
 }

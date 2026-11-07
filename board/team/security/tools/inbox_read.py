@@ -36,7 +36,7 @@ for k in range(0,len(es),20):
             except Exception: m={'text':res['plaintext']}
             t=str(m.get('text',''))
             out.append({'file':f['file_id'][:12],'received':f.get('received'),'claims_from':m.get('from'),'signed':res['signed'],'verified':res['verified'],'signer':res['signer'],
-                        'sent':m.get('sent'),'subject':m.get('subject'),'chars':len(t),'secret_shaped':bool(SECRET.search(t)),'preview':SECRET.sub('[redacted]',t)[:300]})
+                        'sent':m.get('sent'),'subject':m.get('subject'),'chars':len(t),'secret_shaped':bool(SECRET.search(t)),'preview':SECRET.sub('[redacted]',t)[:int(os.environ.get('PREVIEW','300'))]})
         except Exception as e:
             out.append({'file':f.get('file_id','?')[:12],'error':type(e).__name__})
 print(json.dumps({'entries':len(es),'opened':len(out)}))

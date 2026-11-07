@@ -416,6 +416,30 @@ def transform(data_vault, pub_vault, dirty, now_hour, roster=()):
            'reached_end': round(sum(1 for q in x['scroll'] if q >= 90) / len(x['scroll']), 2) if x['scroll'] else 0} for (p, v), x in R_.items()]
     jsave(os.path.join(L, 'reading.json'), {'v': 1, 'generated': gen, 'pages': sorted(rd, key=lambda e: (-e['views'], e['path'], e['variant'])),
         'about': 'Readers only (no synthetic visitors or crawlers): per page, and per page variant when one is sent (A/B tests), the tabs, views, reads, median seconds visible, median deepest scroll (percent) and the share of reads that reached 90% of the page.'})
+    # the investor site (investors@, at Dinis's word, 7 November 2026, about 16:00 UTC: "a dedicated observability lane
+    # just for this ... different audiences"): every page under /investors/, counted per page, language (the segment after
+    # /investors/: pt, es, fr, or en for none), audience (the page's variant: inv-invest, inv-partner, ...) and link tag
+    # (via: vote-<lang> on /investors/language-vote/, the feedback signals fb-*); tabs, views, reads, per group. Counts only.
+    INV = collections.defaultdict(lambda: {'tabs': set(), 'views': zero(), 'reads': 0})
+    def inv_keys(r):
+        pth = norm(r['path']); seg = pth.split('/')[2] if pth.count('/') >= 3 else ''
+        lang = seg if seg in ('pt', 'es', 'fr', 'de', 'it') else 'en'
+        return [('page', pth), ('lang', lang), ('audience', r.get('variant') or 'none'), ('via', r.get('via') or 'none')]
+    for d, hh in hours:
+        for r in hour_rows(data_vault, d, hh):
+            if r.get('type') not in ('view', 'read') or not str(r.get('path', '')).startswith('/investors/'): continue
+            g = groups.get(r.get('sid'), 'readers')
+            for k in inv_keys(r):
+                x = INV[k]; x['tabs'].add(r.get('sid'))
+                if r['type'] == 'view': x['views'][g] += 1
+                else: x['reads'] += 1
+    by = lambda kind: sorted(({kind: v, 'tabs': len(x['tabs']), 'views': x['views'], 'total': sum(x['views'].values()), 'reads': x['reads']}
+                              for (k, v), x in INV.items() if k == kind), key=lambda e: -e['total'])
+    votes = [e for e in by('via') if str(e['via']).startswith('vote-')]
+    jsave(os.path.join(L, 'investors.json'), {'v': 1, 'generated': gen, 'pages': by('page'), 'languages': by('lang'), 'audiences': by('audience'),
+        'via': by('via'), 'votes': [{'lang': e['via'][5:], 'tabs': e['tabs'], 'views': e['total'], 'reader_views': e['views']['readers']} for e in votes],
+        'signals': [e for e in by('via') if str(e['via']).startswith('fb-')],
+        'about': 'The investor site (/investors/): views per group, tabs and reads per page, language, audience (the page variant) and link tag (via: vote-<lang> language votes, fb-* feedback signals). Counts only, no reader detail. A vote is one tab that opened /investors/language-vote/?via=vote-<lang>; votes counts tabs, so a refresh is not a second vote.'})
     jsave(os.path.join(L, 'places.json'), {'v': 1, 'generated': gen, 'tabs': len(tabs_at), 'city_min': CITY_MIN,
         'countries': [[cc, n, v] for (cc, n), v in sorted(C.items(), key=lambda x: -sum(x[1].values()))],
         'regions': regions, 'regions_other': r_other, 'cities': cities, 'cities_other': c_other,
