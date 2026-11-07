@@ -5,7 +5,7 @@
   "title": "A map of Web Summit's buildings, and what each holds",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:page-venue-map"
   ],
@@ -17,7 +17,8 @@
     "from": [
       "desks/curator/2026-11-07-1945.json",
       "desks/journalist-vicky/drafts/s27-venue-map.md",
-      "desks/reviewer-vicky/reviews/S27.md"
+      "desks/reviewer-vicky/reviews/S27.md",
+      "content/articles/venue-map.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -33,8 +34,12 @@
       "at": "2026-11-07"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/venue-map.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -53,6 +58,12 @@
       "at": "2026-11-07",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S27.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-07",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/venue-map.md"
     }
   ]
 }
