@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.530",
+    "date": "2026-11-07",
+    "what": "devops@PrompTugal.dinis: runs 997 to 1040 read: 2 red in 36, background level",
+    "by": "devops@PrompTugal.dinis",
+    "from": "8046ae696"
+  },
+  {
     "version": "v0.1.529",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
