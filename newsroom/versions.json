@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.388",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: design G, \"The Magazine\", in the home page's picker",
+    "by": "dev@PrompTugal.dinis",
+    "from": "07278fe51"
+  },
+  {
     "version": "v0.1.387",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: design F, \"Signal\", in the home page's picker",
