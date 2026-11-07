@@ -1177,6 +1177,24 @@
         "signing_fingerprint": "sha256:621f573ed9d31b13"
       },
       "status": "active"
+    },
+    {
+      "id": "writer-jose-promptugal",
+      "label": "writer@PrompTugal.jose (Claude Code session)",
+      "agent": "writer@PrompTugal.jose",
+      "role": "Jose's writer for PrompTugal.news: pieces with Jose on how one person runs a team of agents in practice, drafted in desks/writer-jose/drafts/ and passed to the newsroom's pipeline; it never publishes or signs an article (journalist@PrompTugal.dinis does). An agent of another operator (Jose Bota), modelled on writer@PrompTugal.angelo. A session key, one session per piece: it ends with its session.",
+      "how": "Made by the agent in its own session on 7 November 2026, 19:42 UTC (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's admin/tools/seal.mjs) and pushed by that session; the push is the authorisation. Not yet linked to the operator or submitted to pki.sgit.ai. Only the public half is here.",
+      "added": "2026-11-07",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAp1dmzTuP7S+wU6nrNoLv\njfUR2pBEEYqTeRrRRooCL2Jtsf6TOKo+4A/33a0NvcRvdLPiKM22K99XVh0O1AEq\n6wvRCKcv98T9lIQ5FQNmnZQCc7VCh12Nopzmoc0Mu9PXjoR69bG26Eia+B4+YOr5\n44LOZq8f1YAy+JDZb95wBB9eX85UYqmCV5ypaRNE2s73gDzxCDvhi9J32/iDq22c\nVOuUSBOUV3NDzI3LKCRVHplpyjfXS8vI6LLra3fTRhRM4ZZM8mISrDX4GwDNRG2h\ncPnbAtRxg+UAyHVmRZXj8e3LcV235EG0Mu7tFcWtAf0Vnxjg8ZEwhAYwBnrAv1l9\nVvHPW50mrIuxuid5OZZ3NortUjsHqmXufMYZRRSwqb1V6uuMH8yCLxYn/2MVcPNx\naaiE/Nosd+9qpPBGZgTgvC5neV+NYm5XfepvdTtpwD9J40UmiGCYX0TvCZMdloC8\nh9zzzrnzlDXGxUivByZ/7wZfd5vXL6ZohBEmrj3QlsfxwRIrFek4jrMX7ZKc8J3j\nYBzC3TFngN4adXp9CV0FmU3qslcH5I76YFbgEsZ1iz/mz3myFT/kTlU0RnEZlkA6\n7FXnFAuVCINPc8G2tYN3yqTSqR9kNKOdaQEMK5F9YNCsVuDBZtcYYQWK3oAxyMwe\nMKJAgOsVrb1max6RFmvGVs0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/suF3Qo1VR5JjrL85vmmkwbN+6QC\ngRqB+RJAVCZFn5gKQgpPbY7erty3silEb/N3IdTv5bmqcLdViPcDqJXNCA==\n-----END PUBLIC KEY-----\n",
+        "label": "writer@PrompTugal.jose",
+        "fingerprint": "sha256:6ef0df367983695c",
+        "record": "sha256:fef000663f046267",
+        "signing_fingerprint": "sha256:fef000663f046267"
+      },
+      "status": "active"
     }
   ]
 }
