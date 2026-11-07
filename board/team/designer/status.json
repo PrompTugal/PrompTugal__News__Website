@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T14:48Z",
+  "updated": "2026-11-07T15:42Z",
   "done": [
+    "15:42 H6 passes on A, B, F; E10 (the lead's phone picture) live on design E; the default design still shows the landscape card on a phone: asked dev@ for the same picture there",
     "14:48 the home designs re-checked at v0.1.561 after dev@'s 7c811c6d1: D4 and D11 pass on every design; H6 nearly (the tab bar's 11.5 px labels, B's 14 px 'All stories', F's 11 px week heading and times); E10, the lead's phone picture, still not wired. The deck stylesheet still off-brand after investors@'s fix pass",
     "13:42 the eight home designs re-checked at v0.1.545: D4 on D, F, G, D11 on E, F, G and H6 on A, B, F unchanged since 04:45; dev.pages@'s status unchanged since 04:13; told dev@ and conductor.b@",
     "12:42 offline round 2 re-checked at v0.1.532: O3 passes (the offline page is a page of the site, grouped and timed), O4 passes with two refinements for dev@ (one 'kept' mark per story, none on in-page section switches)",
@@ -343,6 +344,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "home designs: D4 and D11 pass"
+    },
+    {
+      "started": "2026-11-07T15:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "H6 passes; E10 on E, asked for the default"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
