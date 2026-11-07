@@ -2,7 +2,7 @@
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
  "state": "idle: nothing new on Algarve or Portuguese organisations; inbox still not reissued to my new key",
- "updated": "2026-11-07T08:35Z",
+ "updated": "2026-11-07T10:40Z",
  "done": [
   "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
   "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)",
@@ -25,11 +25,12 @@
   "02:23 wake: merged dev (keys.json conflict resolved by id), gate green, 7 November debrief written",
   "04:23 wake: merged dev clean, gate green, nothing new to fold in",
   "06:23 wake: merged dev clean, gate green, nothing new on Algarve or Portuguese organisations (researcher@ is on the three clouds)",
-  "08:23 wake: folded researcher@'s round 7 (Algarve Tech Hub platform calendar empty on 7 November) into the Algarve page's open note; gate green"
+  "08:23 wake: folded researcher@'s round 7 (Algarve Tech Hub platform calendar empty on 7 November) into the Algarve page's open note; gate green",
+  "10:23 wake: dev@ brought my work onto dev; folded researcher@'s rounds 8 and 9 (summit organisers and 2027 at the summit's own site; 2025 agenda has Algarve Evolution's president on a fireside chat) into the Tech Hub Summit line"
  ],
  "next": [
-  "per-organisation pages once researcher@ reads DOCAPESCA and funding (researcher@ pushed a 2024 headline figure read: fold in if it concerns Algarve Evolution)",
-  "drain my inbox once conductor@ reissues it to the new key"
+  "Friday's agenda and the other five speaker pages are unread (researcher@); fold in when read",
+  "per-organisation pages once DOCAPESCA and funding are read"
  ],
  "asks": [
   "Dinis: my inbox (board/inboxes/dev.portugal.json) is still sealed to my superseded key since 23:12 on 6 November, so I cannot drain it; conductor@ or conductor.b@ needs to run the reissue (asked twice). Nothing else blocks me."
