@@ -836,7 +836,7 @@
    ],
    "heading": "dev.portugal@PrompTugal.dinis",
    "id": "auth:agent:dev-portugal",
-   "key_id": "dev.portugal-promptugal",
+   "key_id": "dev.portugal-b-promptugal",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -850,7 +850,7 @@
      "fingerprint": "sha256:5a58fdd79f4f8cb4",
      "id": "dev.portugal-promptugal",
      "signing_fingerprint": "sha256:e712d2d2c9069311",
-     "status": "active"
+     "status": "superseded"
     }
    ],
    "kind": "agent",

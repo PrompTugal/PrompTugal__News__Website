@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "andreessen-horowitz",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://aman-alliance.org/Home/ContentDetail/104496",
+      "status": 200,
+      "read": true,
+      "chars": 3223
+    },
+    {
+      "url": "https://websummit.com/tracks/ai-summit/",
+      "status": 200,
+      "read": true,
+      "chars": 6474
+    },
+    {
+      "url": "https://a16z.com/",
+      "status": 200,
+      "read": true,
+      "chars": 929
+    }
+  ],
+  "spent_usd": 0.0417,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Andreessen Horowitz (a16z).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Andreessen Horowitz",
+          "note": "The a16z.com page is titled 'Andreessen Horowitz' and carries '© 2026 Andreessen Horowitz', and the S1 article calls Marcus Segal 'a partner at Andreessen Horowitz'."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "Marcus Segal, a partner at Andreessen Horowitz",
+          "note": "The source names the company as Andreessen Horowitz, but does not mention the abbreviation or alternate name (a16z)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Andreessen Horowitz",
+          "note": "S3 is the a16z.com site and names the company as Andreessen Horowitz."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://a16z.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Andreessen Horowitz | Software Is Eating the World",
+          "note": "The S3 page at https://a16z.com/ is the Andreessen Horowitz site, but the claim does not name the company, and no source states that Andreessen Horowitz is the company the article is about."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://a16z.com/",
+          "note": "The source confirms that Andreessen Horowitz's official website is located at https://a16z.com/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Andreessen Horowitz",
+          "note": "S3 is hosted at https://a16z.com/ and identifies the company as Andreessen Horowitz, supporting that this is the company's website."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Venture capital firm; Lusa reports partner Marcus Segal among the announced 2026 speakers.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Marcus Segal, a partner at Andreessen Horowitz",
+          "note": "Lusa's report that Marcus Segal is among the announced speakers is supported, but no source contains the phrase 'venture capital firm' or any self-description as a venture capital firm, though S3 (a16z's homepage) shows portfolio and fund content."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Marcus Segal, a partner at Andreessen Horowitz",
+          "note": "While S1 confirms Lusa reporting partner Marcus Segal among the announced 2026 speakers, the provided sources do not include the company describing itself as a venture capital firm."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Marcus Segal, a partner at Andreessen Horowitz",
+          "note": "S1 confirms Marcus Segal as an announced 2026 Web Summit speaker and partner at Andreessen Horowitz, but no source states the company self-describes as a venture capital firm."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources states a country for any company; the a16z page mentions offices and Andreessen Horowitz but gives no location, and the Web Summit and Lusa passages name Lisbon and Portugal without any United States listing."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources mention any company being listed under the country United States."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources state that any company is listed under the country United States."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Michele Catasta, President and Head of Artificial Intelligence (AI) at Replit",
+          "note": "The claim does not name its company, and S1 lists several speaker companies for Web Summit Lisbon 2026 (Replit, Amazon, Reddit, Mastercard, Hinge, Andreessen Horowitz), so only Replit's presence is directly supported and the claim cannot be confirmed for a specific company."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Among the companies represented are the Director of Cognitive Science at Amazon’s AGI Lab, and Michele Catasta, President and Head of Artificial Intelligence (AI) at Replit. Jackie Jantos, Chief Executive of the Hinge platform; Jen Wong, Chief Operating Officer of Reddit; and Jill Kramer, Head of Communications and Marketing at Mastercard, are also among the confirmed speakers, as is Marcus Segal, a partner at Andreessen Horowitz.",
+          "note": "The source reports that Andreessen Horowitz is among the companies represented through speaker Marcus Segal at Web Summit Lisbon 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "also among the confirmed speakers, as is Marcus Segal, a partner at Andreessen Horowitz",
+          "note": "S1 lists Marcus Segal, a partner at Andreessen Horowitz, among confirmed speakers for Web Summit Lisbon 2026."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    }
+  ]
+}

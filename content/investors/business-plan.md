@@ -1,8 +1,12 @@
 ---
 title: "Investors: the business plan"
-summary: "Several revenue streams on one platform that costs little to run: pay per use after the value, customisation for people and teams, the platform for other events, the agentic team deployed, data made for agents, intelligence packs, and work with publishers. Validated at Web Summit; aiming to be profitable within months. No figures until we have them."
+summary: "Several revenue streams on one platform that costs little to run: pay per use after the value, customisation for people and teams, the platform for other events, the agentic team deployed, data made for agents, intelligence packs, work with publishers, and licensing. Validated at Web Summit; aiming to be profitable within months. No figures until we have them."
 ---
 **The plan in one line: people pay because they already had value, not for value promised; on top of that, sell customisation, the platform and the team behind it, on a stack that costs very little to run.** This summit is the first edition and the first test.
+
+## Where we start {#start}
+
+One stream first: **customisation at events**, for the teams, delegations and people who come to them, with readers paying after the value alongside. Web Summit (9 to 12 November 2026) is the first test. The platform for other events and the team, deployed, follow at the next events; workflows, data for agents, intelligence packs, publishers and licensing once those sell.
 
 ## The revenue streams {#streams}
 
@@ -12,7 +16,7 @@ Most publishing asks people to buy on future value: a subscription for what they
 
 ### 2. Customisation for a person or a team {#customisation}
 
-The most powerful part. For this summit alone: the logistics of a team going (who goes where, what each will see), the preparation and the briefing before a talk and after it, a version of the site with only what one person will see, their day and their meetings. A person coming for one day gets their day. Most of this is not far from what already runs ([what works today](../what-works/index.html)); these core features are what we sell.
+The most powerful part. For this summit alone: the logistics of a team going (who goes where, what each will see), the preparation and the briefing before a talk and after it, a version of the site with only what one person will see, their day and their meetings. A person coming for one day gets their day. Most of this is not far from what already runs ([what works today](../what-works/index.html)); it is what we will sell first.
 
 ### 3. The platform for other events {#events}
 
@@ -38,6 +42,10 @@ Who is who, what is happening in AI in Portugal, mapped and kept current, as a p
 
 The publishing industry has to change, and if it goes our way there is work and revenue in helping existing publications, in Portugal and around the world, to run the same way. Publishers should be investing in what we do.
 
+### 9. Licensing, and maintaining it for you {#licensing}
+
+Everything we build is open source (code Apache-2.0, text and data CC BY 4.0), and we also license it: a company that wants our technology under its own terms, inside its own walls, can have a commercial licence, and we maintain it for them. Dual licensing keeps the code free for everyone and gives companies what they need to adopt it ("You can always commercial-license or relicense everything for a customer who wants it", [open-source.sgit.ai](https://open-source.sgit.ai/)).
+
 ### And a wider market {#multilingual}
 
 Many of the site's pages are to become multilingual and multicultural as the platform matures, widening every stream above beyond Portuguese and English readers.
@@ -57,7 +65,7 @@ Development, the user experience, and paying the team to work on it; then going 
 ## Validation and timeline {#timeline}
 
 - **Web Summit Lisbon (9 to 12 November 2026) validates the company.** If people use the app, find it useful and pay, investors will be interested; if not, less so. We publish what happens either way.
-- **Aim: profitable in the next couple of months,** then take it from there. The question to answer first is the market's appetite to pay, and there are events to test it on regularly.
+- **Aim, in Dinis Cruz's words: profitable in the next couple of months,** then take it from there. The test comes first: whether people at Web Summit use it, come back and pay; we publish the result. The question to answer first is the market's appetite to pay, and there are events to test it on regularly.
 - **Grants and programmes:** My Feeds, incorporated in Portugal, will apply for grants and for investment, and is asking the Algarve's ecosystem how.
 
 ## What we will never do {#never}

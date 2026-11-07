@@ -29,3 +29,9 @@ follows: dinis-2026-11-07-the-pitch.md
 - **Use of investment:** development, user experience, paying the team to work on it, and go to market.
 - **Validation at Web Summit:** if the app succeeds there is investor interest; if not, less. "Let's assume we can have interest."
 - **Timeline:** "try to be profitable in the next couple of months and take it from there". Discover the market's appetite to pay; there are events regularly.
+
+## Later the same session (about 03:05 UTC)
+
+- The iOS app's site is https://ios.app.promptugal.news; its repository sits next to this one (PrompTugal/PrompTugal__App__iOS).
+- RiskMandate in the startup list: "that's fine". The policy flags: "okay" (content/investors/ is investors@'s to write).
+- "We need to create the My Feeds website, where we explain the history, and link to this as an example of what we can do with My Feeds. The whole concept of My Feeds was to create semantic graphs for content and connect them with semantic graphs of personas; this is a great example of that in action. Time permitting, we might even do a website for My Feeds."

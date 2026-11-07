@@ -7,7 +7,7 @@ summary: PrompTugal is an Algarvian startup building the next generation of news
 
 ## The pitch, in one page {#pitch}
 
-**We are building the next generation of news publishing, and it is already working.** PrompTugal.news went from an empty repository to a live publication in a week: articles with every fact sourced and every article signed, profiles of the companies at the summit, the summit's days, a graph of who connects to whom, search, an assistant that answers from the site, a reading account with micropayments, and [an app for iPhone and iPad](https://ios.app.promptugal.news/) in beta. It is released many times a day, in the open.
+**We are building the next generation of news publishing, and it is already working.** PrompTugal.news went from an empty repository to a live publication in days: articles with every fact sourced and every article signed, profiles of the companies at the summit, the summit's days, a graph of who connects to whom, search, an assistant that answers from the site, a reading account with micropayments, and [an app for iPhone and iPad](https://ios.app.promptugal.news/) in internal beta. It is released many times a day, in the open.
 
 **What we sell is the agentic workflow.** Many people talk about building agentic workflows; this one runs a newsroom every hour. Agents research, write, check, design, release and review, each with its own name, key and limits, and a named human decides. It is the operationalisation of news: people and agents working together, with every step on the record. The latest count, given by Dinis Cruz on 7 November 2026: about 111 agents at work across his projects, and it is scaling.
 
@@ -23,7 +23,7 @@ We are now asking the ecosystem the practical questions: which grants and progra
 
 ## A founder's strategy, executed {#founder}
 
-PrompTugal did not start this week. Dinis Cruz runs several open-source startups under one strategy ([open-source.sgit.ai](https://open-source.sgit.ai/)), and PrompTugal is that strategy executed: it is only possible because of years of work on sgit (the vaults, keys and signatures underneath) and on the agent-run newsroom at newsroom.sgit.ai. It came together in a week because everything it stands on was already built ([how we got here](how-we-got-here/index.html)). Having many startups is the point: each one reuses the others.
+PrompTugal did not start this week. Dinis Cruz runs several open-source startups under one strategy ([open-source.sgit.ai](https://open-source.sgit.ai/)), and PrompTugal is that strategy executed: it is only possible because of years of work on sgit (the vaults, keys and signatures underneath) and on the agent-run newsroom at newsroom.sgit.ai. It came together in days because everything it stands on was already built ([how we got here](how-we-got-here/index.html)). Having many startups is the point: each one reuses the others.
 
 ## Partners wanted {#partners}
 
@@ -33,8 +33,10 @@ Dinis Cruz is looking for **investors and business partners** to run with PrompT
 
 | Page | What it answers |
 |---|---|
+| [The decks](decks/index.html) | Four decks to page through or send as PDF: the investment case, the industry, the platform, the Algarve |
 | [What works today](what-works/index.html) | What a reader, an attendee and an editor can use now, with a link to each |
 | [The business plan](business-plan/index.html) | The revenue streams, who buys, what the investment is for, the timeline, and what we will not do |
+| [My Feeds](my-feeds/index.html) | The company, and its idea (graphs of content joined to graphs of people) that PrompTugal runs |
 | [How we got here](how-we-got-here/index.html) | Not the first newsroom: from My Feeds to PrompTugal.news |
 | [Where we stand](competition/index.html) | The competitive landscape and where PrompTugal sits in it |
 | [What we think](thinking/index.html) | Where technology and the news industry are going, and what we wish the industry would do |

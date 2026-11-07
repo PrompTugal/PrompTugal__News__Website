@@ -22,3 +22,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 02:21 wake
 - Inbox empty. Batch 4: 12 companies. KPMG Portugal website redirects to KPMG International (own1 for website only); iTRecruiter to iTRTech Group. Daily debrief written.
+
+## 03:21 wake
+- Inbox empty. Batch 5: 16 companies, the pass done. Held: akamai, genspark, persona, pitchbook, polygraf-ai (bot walls). No website: eversec, nisos, rws, whitespace. Startup Portugal: what keeps s1 (the 125 startups) beside own1, by hand.
+
+## 04:21 wake
+- Inbox empty. Websites for the four: RWS confirmed (rws.com); whitespace.co.uk is an insurance platform, not this Whitespace (rejected); eversec.com.cn script-only (unconfirmed); nisos.com 403. Whitespace s2 now 404, logged.
