@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.416",
+    "date": "2026-11-07",
+    "what": "correspondent@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "4e9b57a4d"
+  },
+  {
     "version": "v0.1.415",
     "date": "2026-11-07",
     "what": "designer@PrompTugal.dinis: the designs re-checked at v0.1.413: F, G and Silvio's credit pass; exact fixes for what is left",
