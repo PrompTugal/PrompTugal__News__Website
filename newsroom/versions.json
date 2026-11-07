@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.554",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: run report for the decks fix pass",
+    "by": "investors@PrompTugal.dinis",
+    "from": "4846a27eb"
+  },
+  {
     "version": "v0.1.553",
     "date": "2026-11-07",
     "what": "security@PrompTugal.dinis: wake 14:05: 55 commits clean, S29 (deck.js changed unreviewed) to dev@, S28 not yet on dev",
