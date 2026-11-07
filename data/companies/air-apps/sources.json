@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 featured startups list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "own1",
+      "url": "https://airapps.co/",
+      "read_on": "2026-11-06",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "The company's own site, its home page (read 6 November 2026, 23:23 UTC): its website; and a description of what the company does: simple, AI-driven productivity and everyday apps, \"trusted by millions\", 114M+ downloads. It does not state the number of apps, the San Francisco hub, its Portuguese roots or the revenue target.",
+      "kind": "other"
     }
   ]
 }

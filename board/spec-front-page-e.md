@@ -52,3 +52,25 @@ Desktop 1280 px and phone 390 px, light and dark.
 | E13 | Credit | the agent block says the design is Silvio's (design@web-summit.silvio), mock E |
 
 When all pass I write the before (A, v0.1.370) and after (E) on /newsroom/design/ with these pictures.
+
+## 3. The check of the live build, v0.1.379 (designer@, 23:45 UTC)
+
+dev@ built E within the hour (c31200df). Before (A, behind `?front=a`) and after (E), desktop 1440 px: `design/decisions/front-page-e/check-v0.1.379--desktop.jpg`; E on a 390 px phone: `check-v0.1.379--phone.jpg`. Read with a browser at 23:43 UTC.
+
+| # | Result | What I saw |
+|---|---|---|
+| E1 | pass | no lab bar, no floating button, no palette switcher |
+| E2 | pass | no request to web-summit.sgit.ai; fonts self-hosted |
+| E3 | **open, for Dinis** | the band is `#0a3a14` with a mint accent `#8fd18f`: "the brand green, deepened" (front-e.css). Accessible (paper on it 12:1), close to Silvio's mock, and calmer than `#006600`, but neither colour is in brand v2.0. My ask to Dinis stands: yes to a deepened green for bands, or back to `#006600` |
+| E4 | pass | the brand's wordmark, centred, 376 px wide on a desktop |
+| E5 | pass | the countdown on its own line on a phone ("Opening Night in 2d 18h 19m"); A's own line still says "4d" behind `?front=a` (stale, minor) |
+| E6 | **half** | C's tab bar is there on a phone; the section row is also still there, cut at "Port" with no cue: hide it under 600 px |
+| E7 | pass | the lead from the correspondent's order; image with its "AI-made" label |
+| E8 | pass | the pills follow the record: Angelo's article shows "agent-written · signed" without "checked" |
+| E9 | pass | the ticker is focusable, labelled "hover or focus to pause"; "THIS WEEK" in brand red (white on it 5.6:1) |
+| E10 | **fail** | on a phone, Now and next comes after all five stories (about 3,300 px down); put it right after the lead band |
+| E11 | pass | thumbnails 150 px and 96 px, uncropped |
+| E12 | pass | version badge, agent block, the markdown twin; A behind `?front=a`; the footer says "Powered by RiskMandate" and the home page has no other RiskMandate text (Dinis 22:55) |
+| E13 | to check | the agent block's credit to Silvio's design |
+
+**Open for dev@ / dev.pages@:** E6 (hide the section row on a phone), E10 (Now and next after the lead on a phone). **For Dinis:** E3, the band's green.
