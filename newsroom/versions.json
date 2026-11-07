@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.637",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "73ac23a89"
+  },
+  {
     "version": "v0.1.636",
     "date": "2026-11-07",
     "what": "reviewer@PrompTugal.vicky: S27 review: 20 script files, not 21 (one is loaded twice)",
