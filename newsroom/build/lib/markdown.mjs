@@ -13,6 +13,13 @@ export const mdToHtmlLink = u => /^(https?:|mailto:|#)/.test(u) ? u : u.replace(
 
 // a link to the outside world opens in a new tab (Dinis, 6 November 2026: "I should never lose where I was"; GR-22)
 export const OUTSIDE = u => /^https?:\/\//.test(u) && !/^https?:\/\/(www\.)?promptugal\.news(\/|$)/.test(u)
+export const shortUrl = u => {
+    const m = u.replace(/&amp;/g, '&').match(/^https?:\/\/(?:www\.)?([^/?#]+)([^?#]*)/)
+    if (!m) return u
+    const parts = m[2].split('/').filter(Boolean), last = decodeURIComponent(parts[parts.length - 1] || '').replace(/\.(html?|php|aspx?)$/, '')
+    const tail = last.length > 28 ? last.slice(0, 27) + '…' : last
+    return esc(m[1] + (parts.length > 1 ? '/…/' : parts.length ? '/' : '') + tail)
+}
 export function inline(s) {
     const codes = []
     s = s.replace(/`([^`]+)`/g, (_, c) => { codes.push(`<code>${esc(c)}</code>`); return `\u0000${codes.length - 1}\u0000` })
@@ -26,10 +33,12 @@ export function inline(s) {
         const img = tag('img', { src: u, alt: esc(alt), width: sz?.[0], height: sz?.[1], loading: 'lazy', decoding: 'async' })
         return /--paper--/.test(u) ? tag('picture', {}) + tag('source', { media: '(prefers-color-scheme: dark)', srcset: u.replace('--paper--', '--ink--') }) + img + '</picture>' : img
     })
-    const link = (href, u, t) => `<a href="${href}"${OUTSIDE(u) ? ' target="_blank" rel="noopener"' : ''}>${t}</a>`
+    const link = (href, u, t, title) => `<a href="${href}"${title ? ` title="${title}"` : ''}${OUTSIDE(u) ? ' target="_blank" rel="noopener"' : ''}>${t}</a>`
     s = s.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g, (_, t, u) => link(mdToHtmlLink(u), u, t))
     // an autolink: <https://...> (escaped by now; the &amp; in a query string stays right in the attribute)
-    s = s.replace(/&lt;(https?:\/\/[^\s<]+?)&gt;/g, (_, u) => link(u, u, u))
+    // shown short (synthetic@'s F33: full addresses broke mid-word on a phone): the site, then the path's last part;
+    // the whole address stays in the link and its title, and the markdown twin keeps it in full
+    s = s.replace(/&lt;(https?:\/\/[^\s<]+?)&gt;/g, (_, u) => link(u, u, shortUrl(u), u))
     s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>')
     return s.replace(/\u0000(\d+)\u0000/g, (_, i) => codes[+i])
 }
