@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 19:08 done (v0.1.616)",
-  "updated": "2026-11-07T19:40Z",
+  "state": "running on account B; wake 20:08 done (v0.1.624)",
+  "updated": "2026-11-07T20:40Z",
   "done": [
+    "Wake 20:08: the evening edition's V1 to V3; the review tool's declined list (dev.pages@'s empty G block kept out for good); dev.search brought.",
     "Wake 19:08: five worker branches brought (dev.pages@'s empty G block taken out again, the worker told); newsletter E8 and P5 (the foot and the byline name the agents and editors); inbox empty.",
     "Wake 18:08: investors@'s deck player phone changes reviewed and served; dev.pages@'s 16:11 work brought (its empty G block left out); dev.search brought; inbox empty.",
     "Wake 17:08: investors@'s investor site (investors-site.mjs) reviewed and kept; persona.js reviewed against security@'s conditions, hardened, served from dev@'s copy, tested with a fictional demo link; deck pages load it; four worker branches brought.",
