@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.638",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Nscale's releases on Microsoft in Sines read; the USD 10bn figure stays unconfirmed; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "ac4ce60dc"
+  },
+  {
     "version": "v0.1.637",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
