@@ -107,3 +107,4 @@
    no text under 12 px, links outside running text at least 24 px tall */
 .fx-k, .fx-pill, .fx-list time, .fa-brief small, .fa-lead figcaption, .fc-nums span, .fx-days a { font-size: 12px; }
 .fx-nav a, .fx-more a, .fb-tools a { display: inline-flex; align-items: center; min-height: 24px; }
+.fx-h a { display: inline-flex; align-items: center; min-height: 24px; }   /* B's "All stories" (designer@'s section 12) */

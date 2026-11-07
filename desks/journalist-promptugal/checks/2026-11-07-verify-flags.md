@@ -49,3 +49,10 @@ Left: brazil-on-the-stages c1, c3, c7 (partly: from the beat's search, which the
 | italy-and-portugal-in-beato | c9: the awards named on 27 October | Portugal Startup News, 27 October 2026 (round 3); our lisbon-awards article | Supported; no change |
 
 Not re-read, and why: brazil-on-the-stages c1, c3, c7 rest on the Brazil beat's search (`desks/correspondent/beats/brazil/found/brazil-1.json`, every row with its session page), which the article names as its method; BR2 c2 to c5 and BR3 c1, c2 are quoted at source in `checks/BR2.md` and `checks/BR3.md`; gender-in-tech's source is a docsend viewer that needs a browser. With this round, every flag on an article this desk signs has been read or answered.
+
+# Round 5 (7 November 2026, 14:40 UTC), on the flags of 12:54 UTC for this desk's new articles
+
+- **brazils-doors-into-europe c6 ("contradicted"):** the verifier read the Aveiro cohort ("a segunda turma") as the Lisbon incubator's; they are two different things (Cais do Porto in Aveiro; ApexBrasil and Sebrae's house in Lisbon). The claim stands. c6, c7, c11, c12 rested on this site's own articles (BR2, BR3) with only a link: their original sources are now listed in BR6 itself (Startups.com.br 12 November 2025, DN Brasil 4 September 2026, IOL 5 November 2026; Startups.com.br 26 October 2026). c10 (US$2.135 billion, 386 deals) is in Brasil 61, quoted in `checks/BR6.md`.
+- **brazil-last-year-counts c11:** the 2026 range came from S9 by link; Agência Sebrae de Notícias (30 September 2026, the 100 and about 300) now listed in BR1 itself.
+- **rio-ten-startups-to-lisbon c11, c12:** the ten Web Summit pages are linked in the table (round 1); the two Startup Showcase sessions (Bizuu, "Revolutionising retail", Stage 12; AllPetSenior, "Medtech revolution", Stage 6; both 12 November 14:00) re-read today and now listed in BR3's sources.
+- **Lesson:** a fact taken from our own article still needs its original source in the article that states it.

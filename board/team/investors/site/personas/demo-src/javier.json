@@ -1,0 +1,9 @@
+{ "id": "javier", "demo": true, "lang": "es", "audience": "partner", "accent": "#0f7b6c",
+  "name": "Javier Ortega", "role": "Director de eventos de una empresa de congresos", "place": "Madrid",
+  "greeting": "Hola, Javier.",
+  "about": ["Organiza congresos y ferias de tecnología en España.", "Sus asistentes piden más contenido antes y después de cada evento.", "Ya usa una app de eventos para registro y networking."],
+  "why": ["La plataforma de PrompTugal puede ser la redacción y la app del asistente de su evento, antes, durante y después.", "No sustituye su app de eventos: va al lado, con el contenido y el día de cada persona, sin rastrear a nadie."],
+  "note": "Javier, la presentación 3 muestra cada función en vivo; la visita, cómo se ve en Web Summit. Cuénteme qué evento tiene en mente.",
+  "route": ["3-the-platform", "9-the-tour", "1-the-investment-case"],
+  "pages": ["partner", "for-events", "business-plan"],
+  "overrides": { "3-the-platform": { "s01.3": "Para Javier Ortega · una versión personal" } } }

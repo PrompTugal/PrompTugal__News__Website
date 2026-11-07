@@ -29,7 +29,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1043 cards (1033 current, 0 superseded, 10 withdrawn), from the catalogue generated 2026-11-07T12:59:26Z at site v0.1.538; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1082 cards (1072 current, 0 superseded, 10 withdrawn), from the catalogue generated 2026-11-07T16:00:31Z at site v0.1.577; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -41,15 +41,15 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 45 |
+| `PUB.SITE` | 84 |
 
 Newest five accessions:
 
-- `ACC-20261107-0515` [Investors: who we want to work with](https://promptugal.news/investors/partners/) (`PUB.SITE partners`)
-- `ACC-20261107-0514` [Offline copies](https://promptugal.news/offline/) (`PUB.SITE offline`)
-- `ACC-20261107-0513` [Investors: join us](https://promptugal.news/investors/join/) (`PUB.SITE join`)
-- `ACC-20261107-0507` [PrompTugal.news](https://promptugal.news/organisations/promptugal-news/) (`DAT.ORG promptugal-news`)
-- `ACC-20261107-0506` [Maravalley](https://promptugal.news/organisations/maravalley/) (`DAT.ORG maravalley`)
+- `ACC-20261107-0668` [PrompTugal: o que está no ar, uma visita guiada](https://promptugal.news/investors/decks/9-the-tour/pt/) (`PUB.SITE pt:9`)
+- `ACC-20261107-0667` [PrompTugal: fazer por conta própria](https://promptugal.news/investors/decks/8-do-it-yourself/pt/) (`PUB.SITE pt:8`)
+- `ACC-20261107-0666` [PrompTugal: junte-se a nós](https://promptugal.news/investors/decks/7-join-us/pt/) (`PUB.SITE pt:7`)
+- `ACC-20261107-0665` [PrompTugal: o que o torna possível](https://promptugal.news/investors/decks/6-the-technology/pt/) (`PUB.SITE pt:6`)
+- `ACC-20261107-0664` [PrompTugal: o investimento](https://promptugal.news/investors/decks/5-the-investment/pt/) (`PUB.SITE pt:5`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -1,5 +1,5 @@
 {
-  "about": "Where Google, Amazon (and AWS) and Microsoft stand among the summit's companies, from desks/researcher/centres-of-gravity-evidence-round-1.md (researcher@PrompTugal.dinis, read 6 November 2026, public pages only). Each cell is one relation to one centre with one of three states: found (with its source), searched and not found (with where it was searched), not looked at yet. Absence on page 1 of a list is not absence at the summit. By dev.graphs@PrompTugal.dinis.",
+  "about": "Where Google, Amazon (and AWS) and Microsoft stand among the summit's companies, from desks/researcher/centres-of-gravity-evidence-round-1.md (researcher@PrompTugal.dinis, read 6 November 2026, public pages only). Each cell is one relation to one centre with one of three states: found (with its source), searched and not found (with where it was searched), not looked at yet. A list read in full is dated: it changes before the summit. By dev.graphs@PrompTugal.dinis.",
   "ui": {
     "png": "Save as PNG",
     "source": "Source (new tab)",
@@ -10,13 +10,13 @@
       "none": "Nothing found",
       "todo": "Not looked at"
     },
-    "caption": "Three centres, five relations. Filled: found, with a source. Dashed: searched and nothing found. Empty: not looked at yet. Absence on the first page of a list, or on a page not yet read, is not absence at the summit.",
+    "caption": "Three centres, five relations. Filled: found, with a source. Dashed: searched and nothing found. Empty: not looked at yet. Absence on a list is dated (read 7 November) and is not absence at the summit: lists change, and the other relations show other ties.",
     "fail": "The data could not be loaded."
   },
   "sources": {
     "partners": {
-      "label": "websummit.com, event partners 2026 (page 1 of 8 read)",
-      "url": "https://websummit.com/partners/event-partners-2026/"
+      "label": "websummit.com, event partners 2026 (whole page, 292 entries, loaded in a browser; researcher@, 7 Nov 2026)",
+      "url": "https://websummit.com/partners/event-partners/"
     },
     "amazon": {
       "label": "websummit.com, press conference with Amazon's Vice President, People Experience and Technology",
@@ -113,7 +113,7 @@
       "cells": {
         "partner": {
           "state": "found",
-          "text": "Google Cloud is listed among Web Summit's 2026 event partners (category AI and machine learning); the newsroom's data has it as a confirmed partner. The partners list shows 40 partners across 8 pages with no tiers, and only page 1 was readable.",
+          "text": "Google Cloud is the first company on the organiser's 2026 partners page (category AI and machine learning), which says 'With Google, OpenAI and Intel all on board'; the newsroom's data has it as a confirmed partner. Read in full by researcher@ on 7 November 2026: 292 entries, partners first then exhibitors alphabetically; the page does not mark where partners end. It will change; repeat before the summit.",
           "src": "partners",
           "page": "companies/google-cloud/index.html",
           "label": "Google Cloud"
@@ -165,7 +165,7 @@
       "cells": {
         "partner": {
           "state": "none",
-          "text": "Neither Amazon nor AWS found on page 1 of the 2026 partners list (1 of 8 pages read) or by search. Pages 2 to 8 are not read, and absence there is not absence at the summit.",
+          "text": "Neither Amazon nor AWS appears among the 292 entries of the organiser's 2026 partners page. Amazon is present in other ways (a press conference, one speaker; AWS Marketplace sellers among the partners). Read in full by researcher@ on 7 November 2026: 292 entries, partners first then exhibitors alphabetically; the page does not mark where partners end. It will change; repeat before the summit.",
           "src": "partners"
         },
         "speaker": {
@@ -177,7 +177,7 @@
         "builton": {
           "state": "found",
           "label": "11 of 17 sell on AWS Marketplace",
-          "text": "Two lenses. Front pages (14 of the 17 other partner companies read): five name AWS, in different ways: Cerebras (a testimonial by an AWS vice president on a joint inference setup, not called a partnership), Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage) and Runpod (a customer compares AWS as the more expensive rival). AWS Marketplace search by company name (all 17, first results only): 11 have a listing of their own, nine under their own name (1Password, Akamai, Cerebras, Datadog, Elastic, IBM, Runpod, Twilio, VTEX) and two under a parent (Cisco for Cisco Outshift, Zoho for ManageEngine); several hold an AWS Specialization badge. A listing shows the company sells there; it is not a stated partnership. A front page understates the tie (Twilio and VTEX said nothing on theirs yet both sell there), so the marketplace is the better first source. Not found in the first results: Mozilla, Gcore, Genspark, KPMG and PitchBook, and the search is fuzzy, so that is not proof of none. Delinea appears only through resellers. The Google Cloud and Microsoft marketplaces are not read yet.",
+          "text": "Two lenses. Front pages (14 of the 17 other partner companies read): five name AWS, in different ways: Cerebras (a testimonial by an AWS vice president on a joint inference setup, not called a partnership), Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage) and Runpod (a customer compares AWS as the more expensive rival). AWS Marketplace search by company name (all 17, first results only): 11 have a listing of their own, nine under their own name (1Password, Akamai, Cerebras, Datadog, Elastic, IBM, Runpod, Twilio, VTEX) and two under a parent (Cisco for Cisco Outshift, Zoho for ManageEngine); several hold an AWS Specialization badge. A listing shows the company sells there; it is not a stated partnership. A front page understates the tie (Twilio and VTEX said nothing on theirs yet both sell there), so the marketplace is the better first source. Not found in the first results: Mozilla, Gcore, Genspark, KPMG and PitchBook, and the search is fuzzy, so that is not proof of none. Delinea appears only through resellers. The Google Cloud and Microsoft marketplaces could not be read (one shows nothing without interaction, the other refuses automated readers), so only AWS has a marketplace lens.",
           "links": [
             {
               "label": "Cerebras: an AWS executive's testimonial, a joint inference setup",
@@ -255,7 +255,7 @@
       "cells": {
         "partner": {
           "state": "none",
-          "text": "No 2026 partner found on page 1 of the partners list or by search.",
+          "text": "Neither Microsoft nor Azure appears among the 292 entries of the organiser's 2026 partners page. Microsoft is present in other ways (one corporate speaker; KPMG's Microsoft alliance; several partners name it). Read in full by researcher@ on 7 November 2026: 292 entries, partners first then exhibitors alphabetically; the page does not mark where partners end. It will change; repeat before the summit.",
           "src": "partners"
         },
         "speaker": {

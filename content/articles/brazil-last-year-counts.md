@@ -57,6 +57,7 @@ Each year's figures come from different reports and may not count the same thing
 - Startups.com.br, "ApexBrasil e Sebrae levam 340 startups brasileiras para o Web Summit Lisboa", 3 November 2025, read 7 November 2026: <https://startups.com.br/eventos/web-summit/apexbrasil-e-sebrae-levam-340-startups-brasileiras-para-o-web-summit-lisboa/>
 - DN Brasil, "Web Summit. Brasil chega com mais de 370 'startups' e programação intensa", 10 November 2025, read 7 November 2026: <https://dnbrasil.dn.pt/web-summit-brasil-chega-com-mais-de-370-startups-e-programao-intensa>
 - Forbes Portugal with Lusa, "Agência de investimento brasileira leva delegação recorde à Web Summit Lisboa", 7 November 2023, read 7 November 2026: <https://www.forbespt.com/agencia-de-investimento-brasileira-leva-delegacao-recorde-a-web-summit-lisboa>
+- Agência Sebrae de Notícias, "Sebrae e ApexBrasil anunciam startups selecionadas para o Web Summit Lisboa 2026", 30 September 2026 (the 100 and about 300 of 2026; the other 2026 counts in [our article](brazil-startup-mission.html)), read 6 November 2026: <https://agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-e-apexbrasil-anunciam-startups-selecionadas-para-o-web-summit-lisboa-2026/>
 
 ## Who made this
 

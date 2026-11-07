@@ -1,0 +1,6 @@
+<section class="phead"><div class="wrap"><h1>{{P.title}}</h1><p class="lead">{{P.lead}}</p></div></section>
+<section><div class="wrap"><h2>{{P.how_title}}</h2><ol class="steps steps-big">{{#P.how}}<li>{{.}}</li>{{/P.how}}</ol>{{^served}}<p class="note">{{P.status}}</p>{{/served}}</div></section>
+<section class="route"><div class="wrap"><h2>{{P.try_title}}</h2><p class="lead">{{P.try_lead}}</p>
+<div class="pp-g">{{#demos}}<article class="pp" style="--you:{{accent}}"><img class="pp-qr" src="{{qr}}" alt="QR" width="180" height="180" loading="lazy"><div><p class="pp-k">{{lang}} · {{aud}}</p><h3>{{name}}</h3><p>{{role}} · {{place}}</p><p><a class="btn btn-g" href="{{link}}">{{P.open}} →</a></p><input class="pp-link" readonly value="{{link}}" aria-label="{{P.open}}"></div></article>{{/demos}}</div></div></section>
+<section><div class="wrap"><div class="qr-drop" id="qr-drop" data-nodetector="{{P.drop_nodetector}}" data-none="{{P.drop_none}}"><h2>{{P.drop_title}}</h2><p>{{P.drop_lead}}</p><label class="btn">{{P.drop_choose}}<input type="file" accept="image/*" hidden></label><p class="qr-msg note"></p></div></div></section>
+<section><div class="wrap"><h2>{{P.real_title}}</h2><p class="lead">{{P.real}}</p><p><a href="/investors/for-you/">{{F.title}} →</a></p></div></section>

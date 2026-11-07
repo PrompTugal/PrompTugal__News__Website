@@ -87,6 +87,10 @@ const features = fs.readdirSync('newsroom/build/features').filter(f => f.endsWit
 function sourceOf(rel) {
     const m = /^(companies|events|people|organisations|places|topics)\/([^/]+)\/index\.html$/.exec(rel)
     if (m) return { kind: ENT[m[1]], paths: under(`data/${m[1]}/${m[2]}`), dir: `data/${m[1]}/${m[2]}/` }
+    // investors@'s decks (newsroom/build/features/decks.mjs, 7 November 2026): a page per deck and language, made from
+    // the deck's layout and its words, not from content/
+    const dk = /^investors\/decks\/([^/]+)\/(?:[a-z]{2}\/)?index\.html$/.exec(rel)
+    if (dk) { const tpl = `board/team/investors/decks/src/${dk[1]}.tpl`, words = under(`board/team/investors/decks/i18n/${dk[1]}`), deck = `board/team/investors/decks/src/${dk[1]}.deck`; const ps = [tpl, deck].filter(exists).concat(words); if (ps.length) return { kind: 'site', paths: ps, feature: 'newsroom/build/features/decks.mjs' } }
     if (rel.startsWith('newsroom/agents/') && rel !== 'newsroom/agents/index.html') return { kind: 'newsroom', paths: ['data/newsroom/agents.json'], feature: 'newsroom/build/features/newsroom.mjs' }
     const cands = [contentByPath.get(rel), `content/${rel.replace(/\.html$/, '.md')}`, `content/${rel.replace(/\/index\.html$/, '.md')}`, `content/${rel.replace(/index\.html$/, 'index.md')}`, rel === 'index.html' ? 'content/index.md' : null].filter(Boolean)
     const c = cands.find(exists)

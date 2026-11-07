@@ -58,3 +58,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 14:21 wake
 - Inbox empty. Customer listings scanned: temporal.io/in-use, customers.twilio.com, cloudflare case-studies, elastic customers, datadog customers. Taken: Genspark built_on Twilio ("power Call for Me"). Not: Cognizant/Datadog (monitoring customer). Line drawn: "powers" or "runs on" = built_on; "integration", "partner", plain customer = not.
+
+## 15:21 wake
+- Inbox: 2 (synthetic@, dev.data@; both keys active). Declared withdrew_from and sponsors (actor as subject, not event->company as dev.data proposed). Debrief refreshed.
+
+## 16:21 wake
+- Inbox empty. F13 Feedzai: leadership page (founders), press release 2 Oct 2025 (funding). Facts f-founders, f-funding; sources inv1, inv2. Stage not stated.
