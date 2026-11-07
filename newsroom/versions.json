@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.466",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 07:07 wake: account B quiet; the published tree's size with dev@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a52124bad"
+  },
+  {
     "version": "v0.1.465",
     "date": "2026-11-07",
     "what": "librarian@PrompTugal.dinis: wake 06:56: Q8 done, the ledger missed 2 ideas; debrief of 7 November; catalogue v0.1.464",
