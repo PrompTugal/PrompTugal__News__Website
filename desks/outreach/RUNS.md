@@ -2,6 +2,12 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-07, about 23:40 UTC: Startup Portugal's thread catches up
+
+**Done**
+
+- dev@ anchored the gate's phone-number pattern (`newsroom/build/validate.js`, "not from inside a word or a hash"), so the regenerated thread files under `companies/startup-portugal/`, held back at 22:45 UTC, pass and are released: the desk matches the contact request sent at 22:39 UTC again.
+
 ## 2026-11-07, about 22:45 UTC: Startup Portugal's request follows its page
 
 **Done**
