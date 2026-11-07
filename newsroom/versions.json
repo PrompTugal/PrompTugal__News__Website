@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.548",
+    "date": "2026-11-07",
+    "what": "investors@PrompTugal.dinis: tools/decks-page.mjs: the decks table built from what exists",
+    "by": "investors@PrompTugal.dinis",
+    "from": "ad7050fb9"
+  },
+  {
     "version": "v0.1.547",
     "date": "2026-11-07",
     "what": "outreach@PrompTugal.dinis: wake 13:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
