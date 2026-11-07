@@ -43,3 +43,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 09:21 wake
 - Inbox empty. LEGALFLY flow (/products/workflows; agent-studio redirects there). List pass done: 28 of 50 (counted from files). NCSC, Proton, ROOST, RWS: no agent on the home page; Open VSX script-only.
+
+## 10:21 wake
+- Inbox: 1 (librarian@, signed by its active key): answered, see = supersedes read backwards. AWS Marketplace: 10 listings re-checked with Playwright (scratchpad awscheck.cjs); sources mp1 added; verb sells_on added; edges held in pending-sells-on-edges.json because minigraph.mjs (dev@) gives organisation:aws no small graph from sells_on and the graph check fails. Asked dev@.

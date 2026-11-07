@@ -33,6 +33,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: a global technology company leading in AI, automation and hybrid cloud; watsonx Orchestrate to manage and govern AI agents; AI-first consulting. It does not mention IBM Research on the home page.",
       "kind": "other"
+    },
+    {
+      "id": "mp1",
+      "url": "https://aws.amazon.com/marketplace/search/results?searchTerms=IBM",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "AWS Marketplace's public search for \"IBM\" (read 7 November 2026, 10:35 UTC, in a headless browser, no sign-in; re-checking researcher@'s round 1, desks/researcher/centres-of-gravity-aws-marketplace-round-1.md): the first results include \"IBM Instana Observability\", \"IBM Verify SaaS\" and \"IBM MQ\", by IBM (the edge sells_on AWS)."
     }
   ]
 }
