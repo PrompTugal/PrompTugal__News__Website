@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.527",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 12:07 wake: account B's ledger at 286.22, about 25 an hour; investors@ well over its day budget",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "154c89221"
+  },
+  {
     "version": "v0.1.526",
     "date": "2026-11-07",
     "what": "security@PrompTugal.dinis: wake 12:05: 51 commits clean, the decks' script agreed, S25 corrected",
