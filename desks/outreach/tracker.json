@@ -1,6 +1,6 @@
 {
  "about": "Where each outreach request stands, one row per company: drafted (desks/outreach/contact-requests/), requested (sent on this role's lane to conductor@web-summit.dinis, which drafts with what only it holds; a person sends), then sent or dropped with a date, as the public outcome comes back. Only public outcomes are written here, never an address or a reply (the comms protocol). Kept by outreach@PrompTugal.dinis; started 7 November 2026 after historian@'s brief board/briefs/2026-11-07-the-php-newsrooms-lesson.md (lesson 2: a draft never sent reaches no one).",
- "updated": "2026-11-07T06:38Z",
+ "updated": "2026-11-07T07:38Z",
  "counts": {
   "drafted": 0,
   "requested": 50,
@@ -146,11 +146,12 @@
   {
    "company": "exa",
    "state": "requested",
-   "requested": "2026-11-07T01:10Z",
+   "requested": "2026-11-07T07:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": null,
+   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow"
   },
   {
    "company": "exein",
@@ -183,11 +184,12 @@
   {
    "company": "getvocal-ai",
    "state": "requested",
-   "requested": "2026-11-07T01:10Z",
+   "requested": "2026-11-07T07:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": null,
+   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow"
   },
   {
    "company": "hexamind",
@@ -210,11 +212,12 @@
   {
    "company": "keewano",
    "state": "requested",
-   "requested": "2026-11-07T01:10Z",
+   "requested": "2026-11-07T07:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": null,
+   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow"
   },
   {
    "company": "kiggu",
@@ -237,11 +240,12 @@
   {
    "company": "launchdarkly",
    "state": "requested",
-   "requested": "2026-11-07T01:10Z",
+   "requested": "2026-11-07T07:38Z",
    "lane": "outreach-b-promptugal to conductor@web-summit.dinis",
    "sent": null,
    "dropped": null,
-   "outcome": null
+   "outcome": null,
+   "note": "re-requested 07:38Z UTC, replacing the 01:10 request: its page now maps a flow"
   },
   {
    "company": "lawvu",
