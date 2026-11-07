@@ -1,9 +1,10 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 3, account B; the home page in eight designs (brief by conductor.b@, Dinis about 23:20)",
-  "updated": "2026-11-07T00:08Z",
+  "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
+  "updated": "2026-11-07T00:48Z",
   "done": [
+    "00:48 the eight home page designs checked live at v0.1.390 (board/spec-home-page-designs.md section 5; pictures design/home-designs/check-v0.1.390--*.jpg): every design in the brand, from data, no lab chrome, no sideways scroll; open for dev.pages@: wordmark under 240 px (B, C, D, F, G), D's countdown on a phone, the section row on a phone (C, E, F), Now and next too far down on a phone (C, E, F, G); the green for Dinis. Inbox drained (empty); no new worker commits",
     "00:08 the home page in eight designs (Dinis about 23:20, relayed by conductor.b@, checked against its brief): board/spec-home-page-designs.md: one colour rule (A to D in Silvio's classic palette, which is the brand; F mapped; G's hero redrawn), checks D1 to D14, notes per design (B overflows a phone, C/F/G clip the wordmark, counts hard-coded), and the picker's first pictures in design/home-designs/shots/ for dev@",
     "23:47 mock E checked live at v0.1.379 (board/spec-front-page-e.md section 3; before and after in design/decisions/front-page-e/check-v0.1.379--*.jpg): ten of thirteen pass; open E6 (the section row still cut on a phone) and E10 (Now and next last on a phone) for dev@; E3, the band's deepened green #0a3a14, for Dinis",
     "23:42 one page width (Dinis 22:55): reviewed and took designer.experiments@'s three variants; C recommended as a PT decision (board/spec-one-page-width.md, pictures design/decisions/one-width/); sent to dev@ and the worker. Inbox designer-3 opened and drained (empty)",
@@ -60,7 +61,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Replace each picker picture with the built design's screenshot as dev.pages@ lands it; check each against D1 to D14",
+    "Re-check D4, D6, D7, D11 and E's E6, E10 as dev.pages@ ships them; D14 (Silvio's credit); then the before and after page on /newsroom/design/",
     "Re-check E6 and E10 when dev@ ships them; then the before and after page on /newsroom/design/",
     "Check the one width as dev@ ships it (flick between / and an article at 1440 and 390 px)",
     "Images for each new article at the next wake after it is published (about 0.14 USD each, read back before use)",
@@ -235,8 +236,14 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "one page width: C recommended; mock E checked live, 10 of 13 pass; the eight designs specified"
+    },
+    {
+      "started": "2026-11-07T00:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the eight home page designs checked live"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
-  "debrief": "board/team/designer/debriefs/2026-11-06-handover.md"
+  "debrief": "board/team/designer/debriefs/2026-11-07-handover.md"
 }

@@ -58,3 +58,18 @@ Every design is drawn in the brand v2.0 tokens (`design/brand/brand-tokens.css`)
 ## 4. The picker's pictures
 
 Silvio's switcher shows an 800 x 673 JPEG of each design's first screen at 1280 px. A first set is in `design/home-designs/shots/{today,a,b,c,d,e,f,g}-desktop.jpg` (about 70 KB each): `today` and `e` are the live site at v0.1.379 (`?front=a` and E); `a` to `g` but `e` are Silvio's mocks drawn in the brand, so the picker has a picture from the start. **dev@: point the switcher at these paths**; I replace each with the built design's own screenshot as it lands, so the picture always matches what the reader gets.
+
+## 5. The check of the eight live designs, v0.1.390 (designer@, 00:45 UTC, 7 November)
+
+dev@ and dev.pages@ built all eight within the hour. Read in a browser at `/?design=<id>`, 1440 px and 390 px: `design/home-designs/check-v0.1.390--desktop.jpg` and `--phone.jpg` (first screens, today then A to G).
+
+**Passes on every design:** D1 (no lab chrome; the site's own "Design" pill at the bottom right), D2 (nothing from another site), D3 (the brand's colours; F's violet and G's coral and gradient are gone), D5 (the counts come from data: 120, 215, 31, not the mocks' 218 and 22), D7's tab bar on every phone, D8 (alt text; the ones left empty are the decorative stamp and the dark wordmark), D10 (no sideways scroll at 390 px; B fixed), D12, D13 (one width; RiskMandate twice on each page, both in the footer). D's "Good morning" became "Today's brief", which reads right at any hour.
+
+| # | Designs | What is open | For |
+|---|---|---|---|
+| D4 | B, C, D, F, G (and today's top bar) | the header wordmark is 159 to 208 px wide, under the brand's 240 px minimum (A and E: 392 px). On a slim top bar, use the PT.news stamp beside the name (as today's phone top does) or let the wordmark reach 240 px | dev.pages@ |
+| D6 | D | on a phone, "Opening Night in" shows without its value (the line holds 115 px); give the countdown its own line, as E does | dev.pages@ |
+| D7 | C, E, F | on a phone, the design's own section row is still there, cut at "Port", beside the tab bar: hide it under 600 px (E6) | dev.pages@ |
+| D11 | C, E, F, G | on a phone, what is on now comes 2,480 to 5,870 px down (C 5,870; F 3,070; G 2,980; E 2,480); today, A, B and D have it in the first two screens. Move "Now and next" (or "In Lisbon this week") right after the lead on a phone | dev.pages@ |
+| D3 | E, G | the lead band and G's hero are the deepened green `#0a3a14`; G's hero was to be ink (section 1). One answer for both: Dinis's, on the band's green | Dinis |
+| D14 | all | the credit to Silvio's design in the agent block: not checked yet | next wake |
