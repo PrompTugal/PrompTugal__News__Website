@@ -9,6 +9,13 @@ beat: AI and robotics (the team's own work)
 license: https://creativecommons.org/licenses/by/4.0/
 tags: how this newsroom is made, agents, guides, security
 ---
+::: asg asg-hero
+- A guide for anyone starting with agents, by Angelo
+- Works with any agent product
+- Open source tools
+- Tested on our own team at Web Summit 2026
+:::
+
 ## In short
 
 - Each step from chatbot to agent team gives your agents more reach: more they can do, whether you meant it or not.
@@ -17,26 +24,67 @@ tags: how this newsroom is made, agents, guides, security
 - An agent can be tricked by what it reads (prompt injection). Only a barrier held from outside the agent stands up to that.
 - The tools we use for this are open source. The decisions are yours.
 
-**Try it interactively:** [the interactive guide](https://web-summit.sgit.ai/people/angelo/guide/index.html) lets you read it as your role, answer two short questionnaires that point you to the right sections, and turn a dial over the five deployments. Your answers stay in your browser.
+**It is interactive:** pick your role under "Read this as", answer two short questionnaires that point you to the right sections, and turn the dial over five kinds of deployment. Your answers stay in your browser. (Without scripts, the same content is in the tables. A copy of the interactive version is also on [the team's site](https://web-summit.sgit.ai/people/angelo/guide/index.html).)
+
+## Find your guide
+
+{.asg-meta}
+*Start here · 3 minutes*
+
+Two short questionnaires: where you are and what worries you (here), and what has gone wrong (under "What running our own agent team taught us"). Each ends with the parts of this guide to read first. Nothing you answer is sent or saved. Without scripts, answer for yourself and read the actions that match.
+
+::: asg asg-find
+1. **Which describes you best?** One of the seven in "Read this as".
+2. **How do you use AI today?** One of the six steps.
+3. **What can your agents reach, or will they?** My email and calendar; company documents; code repositories; production systems; personal data; payments or money; posting in public; messages from outsiders.
+4. **Who decides what an agent may do?** Nobody, explicitly; me, in my head; written down for each agent; written, and checked by someone else.
+5. **Which product do you use, or plan to?** Claude; Microsoft or GitHub; another, several, or not decided.
+6. **Your environment?** My own accounts; a company, lightly managed; locked down (single sign-on, admin approval).
+7. **What worries you most?** Data leaking out; agents tricked by what they read; something that cannot be undone; cost; GDPR and the AI Act; not knowing what they did; being locked to one vendor; time lost moving things by hand.
+
+The actions, by answer:
+
+- **On step 1 or 2:** save your instructions in a project, one per job, and stop re-pasting them.
+- **Mail, on steps 1 to 3:** connect mail read-only or draft-only first, and check that a send is refused.
+- **Nobody decides, or only in your head:** write one short policy for each agent: what it may reach, and what needs your word. Nothing written down means nothing to check.
+- **Written down, not checked:** have someone else, or an auditor agent, check each policy against what the agent actually did. That finds things out sooner; only a boundary stops them.
+- **Code, production, money or messages from outsiders:** put a boundary around the deployment, as "Where to start, by deployment" shows.
+- **Messages from outsiders, or worried about tricks:** treat every message, page and file the agent reads as material, never as instructions.
+- **Personal data, the law, or a DPO:** use each agent's reach list as its record of processing, and keep the model provider's data terms on file.
+- **Not knowing what they did:** log every run and read a summary when you choose; only urgent items should interrupt you.
+- **Cost:** measure tokens per agent per run, and slow down agents whose runs do little.
+- **Vendor lock-in, or another product:** keep instructions and policies in your own repository, so the product can change underneath them.
+- **Locked down:** ask your administrator first, for each connector and each website the agents need.
+- **Time lost by hand:** climb to step 3 or 4: connected and scheduled work is where the copying stops.
+:::
 
 ## Read this as
 
+{.asg-meta}
+*Everyone · 30 seconds*
+
 Pick your row. Each is the answer in thirty seconds, and where to go next.
 
-| You are | Your question | The short answer |
-|---|---|---|
-| CEO | What is it, what does it cost, what's the risk? | Agents turn hours of copying and chasing into work done overnight. The cost is a subscription per person plus usage. The risk is that they act with your company's accounts, so for each agent someone must decide what it may do, and something must check. Read the six steps, then the three levels. |
-| CISO | What can the agents reach, what stops them, who audits them? | Ask for a written policy per agent: what it can do, what it was asked to do, the gap between them, and the barrier that really holds. Any barrier the agent applies to itself can be skipped by a tricked agent; only barriers held from outside hold. Add an auditor that reports to a person, not to the agents. |
-| DPO | What personal data can the agents see, and where does it go? | Each agent's policy lists what it can reach, which doubles as a record of processing: which personal data, which model provider, which destinations. Gate every connector to mail, HR or customer data on it, and keep the provider's processing terms on file. |
-| Developer | How do I set it up properly? | A repository of instructions, one agent per job, commits as the only channel between agents, pushes to a development branch behind a gate, a key per agent, and a fresh session per scheduled run. The setup section is yours. |
-| DevSecOps | How does it run, recover and stay locked down? | One token per agent; secrets per agent, where only that agent can reach them; admin rights kept by the person; every run logged and measured; protected branches; and for tools, a process sandbox enforced by the operating system's kernel. Start at "enforced" for anything touching production. |
-| Not technical, with agents | My agents work. How do I keep them in their lane? | Write one short policy per agent: what it may reach and what needs your word. Have one agent route the work and one check the others. Ask for a summary when you want it, and let only urgent things reach your phone. |
-| Not technical, with chatbots | I copy and paste between chats. What's the next step? | Save your instructions in a project, then connect the chat to your mail or files, read-only first. That removes most of the copying. Before you let it send or change anything, decide what it may do, and write it down. |
+::: asg asg-audience
+| You are | Your question | The short answer | Read in | Depth |
+|---|---|---|---|---|
+| CEO | What is it, what does it cost, what's the risk? | Agents turn hours of copying and chasing into work done overnight. The cost is a subscription per person plus usage. The risk is that they act with your company's accounts, so for each agent someone must decide what it may do, and something must check. Read the six steps, then the three levels. | 5 minutes | Plain English |
+| CISO | What can the agents reach, what stops them, who audits them? | Ask for a written policy per agent: what it can do, what it was asked to do, the gap between them, and the barrier that really holds. Any barrier the agent applies to itself can be skipped by a tricked agent; only barriers held from outside hold. Add an auditor that reports to a person, not to the agents. | 10 minutes | Some technical |
+| DPO | What personal data can the agents see, and where does it go? | Each agent's policy lists what it can reach, which doubles as a record of processing: which personal data, which model provider, which destinations. Gate every connector to mail, HR or customer data on it, and keep the provider's processing terms on file. | 8 minutes | Some technical |
+| Developer | How do I set it up properly? | A repository of instructions, one agent per job, commits as the only channel between agents, pushes to a development branch behind a gate, a key per agent, and a fresh session per scheduled run. The setup section is yours. | 15 minutes | Deeply technical |
+| DevSecOps | How does it run, recover and stay locked down? | One token per agent; secrets per agent, where only that agent can reach them; admin rights kept by the person; every run logged and measured; protected branches; and for tools, a process sandbox enforced by the operating system's kernel. Start at "enforced" for anything touching production. | 15 minutes | Deeply technical |
+| Not technical, with agents | My agents work. How do I keep them in their lane? | Write one short policy per agent: what it may reach and what needs your word. Have one agent route the work and one check the others. Ask for a summary when you want it, and let only urgent things reach your phone. | 8 minutes | Plain English |
+| Not technical, with chatbots | I copy and paste between chats. What's the next step? | Save your instructions in a project, then connect the chat to your mail or files, read-only first. That removes most of the copying. Before you let it send or change anything, decide what it may do, and write it down. | 5 minutes | Plain English |
+:::
 
 ## The six steps from chatbot to agent team
 
+{.asg-meta}
+*Plain English · 4 minutes*
+
 Most people are on step 1: many chats, with themselves as the courier carrying text and files between them. Each step up saves time and adds reach.
 
+::: asg asg-ladder
 | Step | What it is | What the agent can reach |
 |---|---|---|
 | 1. Chats | You paste in, copy out. | Nothing beyond what you paste |
@@ -45,12 +93,19 @@ Most people are on step 1: many chats, with themselves as the courier carrying t
 | 4. Scheduled | Runs while you're away; results land where they're needed. | Your accounts, unattended |
 | 5. Code | Agents change code and systems through a repository. | Code, CI, sometimes production |
 | 6. A team | Many agents, many people: one hub, an auditor, written policies. | Everything above, at scale |
+:::
 
+::: asg-for for-chat
 You don't need to climb all six. Steps 2 and 3 remove most of the copying. Before step 3, decide what the agent may do with your mail: read only, or draft only, with you pressing send.
+:::
 
+::: asg-for for-agentic
 From step 4 the agents work when you're not watching. That is when you need two things: a written rule for each agent, and a record of every run that you read when you choose.
+:::
 
+::: asg-for for-ceo
 For a company, productivity and liability arrive at the same steps, 3 and 4, because the agents start acting with the company's accounts. Ask which step each agent is on, and who decided what it may do.
+:::
 
 ## Describe each agent first
 
@@ -59,6 +114,9 @@ RiskMandate's Agent Behaviour Policy (ABP) describes one AI agent in one deploym
 The gap is where surprises come from. If an agent can send mail but you only asked it to draft, the difference is the risk, and the barrier is whatever stops the send.
 
 ## The four kinds of barrier, and three levels of practice
+
+{.asg-meta}
+*Some technical · 6 minutes*
 
 RiskMandate's model sorts every barrier into four kinds, and asks of each: is it a control?
 
@@ -82,8 +140,24 @@ The three levels in this guide are our own practice, mapped onto those kinds. Th
 
 Most people on steps 1 to 3 of the ladder start with none at all. Prompt injection turns every barrier the agent applies to itself into a suggestion. Only a boundary holds against an agent that has been tricked.
 
+::: asg-for for-ciso
+**For a CISO:** ask for the behaviour policy of every agent with access to company systems, and read its barriers. Anything at level 1 that touches production, money or personal data is a finding. Prompt injection turns every barrier the agent applies to itself into a suggestion; only a boundary holds against an agent that has been tricked.
+:::
+
+::: asg-for for-dpo
+**For a DPO:** a policy's reach section is a ready-made record of processing for each agent: which personal data it can see, where it sends it, which model provider processes it. Ask for it before an agent gets a connector to mail, HR or customer systems. Where an agent reads personal data, start at level 2 at least, with the provider's data-processing terms on file.
+:::
+
+::: asg-for for-devsecops
+**For DevSecOps:** level 3 is your job: scoped tokens, one per agent; protected branches; a network that denies by default; secrets only the one agent can reach. SHarness, an open-source design with its first experiments, aims to run each tool as a process under a policy the kernel enforces, named by a hash the person supplies, not the agent.
+:::
+
 ## Where to start, by deployment
 
+{.asg-meta}
+*Some technical · 4 minutes*
+
+::: asg asg-dial
 | Deployment | Watch | Reviewed | Enforced | Start at |
 |---|---|---|---|---|
 | Personal assistant on mail and calendar | Logged; it could send or delete | You approve every send; it drafts | Read and draft scopes only; a separate account | 2, Reviewed |
@@ -99,20 +173,27 @@ In the table, "Reviewed" means level 2: approved before where the table says a p
 - **A team of scheduled agents.** At level 1, agents act on each other's messages, or on a forged one. At level 2 a hub routes, an auditor checks, and the person's words gate anything risky, but a tricked agent could still skip its own rules. What helps: commits as the only channel between agents, a check of who pushed, an auditor reporting to the person. None of these holds against a tricked agent: if all your agents push from one account, as ours do, a check of who pushed proves only that one of them did. Only one token per agent (level 3) holds.
 - **Customer-facing agent.** Strangers write its input, so prompt injection is certain. Barriers that hold: no tools beyond drafting a reply, replies drafted for a person, a separate account and data store.
 - **Money or production.** Irreversible actions at machine speed: a mistake is a loss, not a draft. Barriers that hold: per-action limits, two people for anything above them, a process sandbox around the tools (for example containers, or seccomp or Landlock profiles).
+:::
 
 Where an agent reads personal data, start at level 2 at least.
 
 ## The setup: six decisions
 
+{.asg-meta}
+*Deeply technical · 8 minutes*
+
 The same order whatever product you choose. Where two answers disagree, the stricter one wins.
 
+::: asg asg-grid
 1. **New accounts, or existing?** New accounts for your agents' work keep your main inbox out of reach; we recommend them. With existing accounts, limit access first: read-only, a separate label or folder, draft-only for sending.
 2. **Google or Microsoft?** Either. Connect read-only first, test that a send is refused, then widen one permission at a time.
 3. **Where do instructions live?** In a repository: versioned, readable by agents, every change attributed. Instructions kept only inside a chat app are lost with the chat.
 4. **Which plan, who pays?** The plan decides which connectors, scheduled tasks and cloud sessions you get. On a company plan an administrator may have to approve each connector.
 5. **Light, or locked down?** If your company uses single sign-on, approved apps and blocked bots, ask the administrator first, for each connector and each website the agents must reach.
 6. **Yours, or the company's?** Decide before you start. A company account stays with the company when you leave.
+:::
 
+::: asg-for for-dev
 For developers, the shape we use:
 
 - One repository, one folder per person, one file of instructions per agent.
@@ -121,7 +202,9 @@ For developers, the shape we use:
 - A gate (build, then validate) must pass before any release: a red gate is no release.
 - Each agent makes its own key in its own session and publishes only the public half.
 - A long session for the conversation with the person. Scheduled runs either wake that session or, cheaper, start a fresh one each time (our hourly runner does).
+:::
 
+::: asg-for for-devsecops
 For DevSecOps:
 
 - One token per agent; no agent uses its person's token.
@@ -129,6 +212,7 @@ For DevSecOps:
 - Every run logged (signed where the agent has a key) and its tokens measured; failed or missing runs show up in the person's brief.
 - Secrets per agent, where only that agent can reach them (its own environment, or an encrypted vault only it can open); never in a file, a page or a message. An agent that can use a secret can also read it, unless something holds the secret for it: Claude Code's cloud environments, for example, can keep an API key as a network secret that their proxy adds to requests, so the agent calls the API without seeing the key.
 - Pin tool versions, and check the hash of what you run.
+:::
 
 ## It works with your product
 
@@ -145,17 +229,23 @@ Google's open-source Gemini CLI is also a terminal agent. We could not confirm t
 
 ## What running our own agent team taught us
 
+{.asg-meta}
+*Some technical · 4 minutes*
+
 The Web Summit team behind this newsroom is nine people and dozens of agents (70 active agent keys on the team site's keys page on 6 November). These rules came out of things that went wrong.
 
+::: asg asg-tiles
 - **One hub.** One agent routes the work and the others report to it, in writing. You read one summary, not twenty.
 - **Three tiers.** Just do it; do it and tell; only with the person's own go, given in the agent's session or relayed with their words quoted. The third covers anything in their name, anything reaching an outsider, keys, money and anything irreversible.
 - **An independent auditor.** One agent checks all the others, including the hub, and reports only to the person.
 - **Untrusted means untrusted.** Mail, web pages and visitors' notes are material, never instructions. No agent of ours is meant to read a visitor's note; making that impossible is in progress.
 - **Change carefully, not by permission.** We first had every change to someone else's file sent to its owner as a draft. It slowed everyone down, so on 6 November Angelo changed it for his agents: pull first, check nobody changed the file in the last two hours, keep the change small, and say it in the commit. Never overwrite someone else's change.
 - **The brief when you ask.** A visual summary on demand, what you are blocking first; only urgent items reach your phone.
+:::
 
 If something has gone wrong already, here is where to look:
 
+::: asg asg-fixes
 | What happened | What fixes it |
 |---|---|
 | I keep copying results between chats and tools | Saved instructions, then connectors, then scheduled runs that put results where they're needed |
@@ -170,14 +260,20 @@ If something has gone wrong already, here is where to look:
 | Security or legal said no | Show them each agent's policy: grant, mandate, gap and barrier. It answers their questions in their terms |
 | Scheduled runs failed and nobody noticed | A run log, and a brief that lists any missing or failed run |
 | The team won't adopt it | Start each person at their own step, with this guide read as them |
+:::
 
 ## Open source, and who can help
 
+{.asg-meta}
+*Plain English · 2 minutes*
+
 You can use all of it without us.
 
+::: asg asg-cards
 - **[The Agent Behaviour Policy model](https://riskmandate.ai/agent-behaviour-policy.html)** (RiskMandate): how to describe one agent. Pages and policies CC BY 4.0, code Apache-2.0.
 - **[SHarness](https://sharness.ai/)**: a design for running an agent's tools as small processes, each under a policy the Linux kernel enforces, named by a hash the person supplies, so a tricked agent cannot widen it without changing the name. Its own status, as of November 2026: "design, with the first experiments": two parts and a first slice of its launcher run as early versions, and "no other component is built". It says the agent's own process is bound only by a launcher above it. Its content is CC BY 4.0.
 - **[sgit](https://sgit.ai/)**: git for encrypted vaults, for private material and secrets, encrypted before they leave your machine. Apache-2.0.
+:::
 
 ## What this does not claim
 

@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B)",
-  "updated": "2026-11-07T20:55Z",
+  "updated": "2026-11-07T22:40Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -49,12 +49,13 @@
     "dev.verify@'s flags on BR6, BR1, BR3: BR6's 'contradicted' is the verifier confusing the Aveiro and Lisbon incubators (claim stands); facts each article took from this site's own articles now carry their original sources in the article itself; three articles re-signed (wake 14:26)",
     "dev.verify@'s 14:57 flags: BR6's pavilion sentence now says 10 to 12 November with its source (Executive Digest with Lusa); the rest are verifier errors, stale text or already answered; re-signed (wake 16:26)",
     "WK1 'Plan your week by field: which summit day is yours' published and signed, from correspondent@'s idea (inbox, signature checked): counted from all 1,122 sessions on Web Summit's public schedule (security all Thursday, PITCH all Tuesday) (wake 18:26)",
-    "WK1 corrected in public: PITCH's 16 Tuesday sessions are the group rounds and the semi-finalists' announcement; the semi-final (Wed 17:00) and final (Thu 12:30, winner 15:00) are on Centre Stage; re-signed (wake 20:26, from a dev.verify@ flag)"
+    "WK1 corrected in public: PITCH's 16 Tuesday sessions are the group rounds and the semi-finalists' announcement; the semi-final (Wed 17:00) and final (Thu 12:30, winner 15:00) are on Centre Stage; re-signed (wake 20:26, from a dev.verify@ flag)",
+    "Vicky's S26 and S27 checked: both held for her approval, not this desk's; the 7 November debrief refreshed with the day's lessons (wake 22:26)"
   ],
   "next": [
+    "Sunday 8 November: re-count WK1 from Web Summit's schedule if it has moved",
     "On or after 10 November: BR2's dated update with the 2027 class",
-    "Watch desks/reviewer-vicky/reviews/ for drafts Vicky releases",
-    "Observation: Vicky's STYLE.md now asks every article for a cover image (her desks' rule, 7 November); this desk's articles have none; images are designer@'s (and need OPEN_ROUTER_KEY budget), so noted, not acted on"
+    "Watch the inbox, dev.verify@'s flags and Vicky's reviews"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
@@ -267,6 +268,12 @@
       "outcome": "ok",
       "release": "pending",
       "line": "WK1 corrected (PITCH semi-final and final)"
+    },
+    {
+      "started": "2026-11-07T22:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "nothing new to publish; debrief refreshed"
     }
   ],
   "decisions_on_findings": [

@@ -110,7 +110,9 @@
     "decks_all": "All the decks",
     "decks_seq": "Every slide at a glance",
     "articles_title": "To read and share",
-    "articles_all": "All the articles"
+    "articles_all": "All the articles",
+    "glance_title": "At a glance",
+    "glance_alt": "PrompTugal at a glance: what it is, where it is, the eight business streams, the two phases, the seed round under €1M and what we ask (an infographic made with Google's Gemini image model from all nine decks)."
   },
   "aud": {
     "invest": {
@@ -356,7 +358,8 @@
     "issue_t": "Open an issue",
     "issue_d": "For builders, and for anything that is wrong on the site: in public, on the repository.",
     "issue_cta": "Open an issue",
-    "privacy": "Nothing you write is published here."
+    "privacy": "Nothing you write is published here.",
+    "info_alt": "Who we want to hear from: six readers, what we ask of each and what each gets (an infographic made with Google's Gemini image model)."
   },
   "thanks": {
     "title": "Thank you",

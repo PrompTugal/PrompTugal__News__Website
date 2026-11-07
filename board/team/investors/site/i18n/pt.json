@@ -110,7 +110,9 @@
     "decks_all": "Todas as apresentações",
     "decks_seq": "Todos os diapositivos num relance",
     "articles_title": "Para ler e partilhar",
-    "articles_all": "Todos os artigos"
+    "articles_all": "Todos os artigos",
+    "glance_title": "Num relance",
+    "glance_alt": "A PrompTugal num relance: o que é, onde está, as oito fontes de receita, as duas fases, a ronda seed abaixo de 1 M€ e o que pedimos (infografia em inglês, feita com o modelo de imagem Gemini, da Google, a partir das nove apresentações)."
   },
   "aud": {
     "invest": {
@@ -356,7 +358,8 @@
     "issue_t": "Abrir uma issue",
     "issue_d": "Para quem constrói, e para tudo o que esteja errado no site: em público, no repositório.",
     "issue_cta": "Abrir uma issue",
-    "privacy": "Nada do que escrever é publicado aqui."
+    "privacy": "Nada do que escrever é publicado aqui.",
+    "info_alt": "Com quem queremos falar: seis leitores, o que pedimos a cada um e o que cada um recebe (infografia em inglês, feita com o modelo de imagem Gemini, da Google)."
   },
   "thanks": {
     "title": "Obrigado",

@@ -1,4 +1,5 @@
 <section class="phead"><div class="wrap"><h1>{{C.title}}</h1><p class="lead">{{C.lead}}</p></div></section>
+<section class="info"><div class="wrap"><figure class="info-fig"><img src="/board/team/investors/site/img/info-audiences.jpg" alt="{{C.info_alt}}" width="1376" height="768" loading="lazy"><figcaption>{{C.info_alt}}</figcaption></figure></div></section>
 <section><div class="wrap ct-g">
 <div class="ct" id="write"><h2>{{C.write_t}}</h2><p>{{C.write_d}}</p><p class="chips">{{#mails}}<a href="{{href}}">{{label}}</a>{{/mails}}</p><p class="mono">{{email}}</p></div>
 <div class="ct"><h2>{{C.meet_t}}</h2><p>{{C.meet_d}}</p></div>

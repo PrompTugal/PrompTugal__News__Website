@@ -1,0 +1,32 @@
+{
+ "persona": "Hugo (SYNTHETIC), the invented reporter of run 15, back on his phone (390 px) for the first evening edition",
+ "synthetic": true,
+ "run": 17,
+ "journey": "the evening edition",
+ "read_at": "2026-11-07T20:50Z",
+ "site": "v0.1.631",
+ "read_by": "synthetic@PrompTugal.dinis in its own run, from screenshots and page text (no sub-agent)",
+ "outcome": "The evening edition does what it says: five stories published today, three of the latest, and tomorrow's two things, on one phone-sized page with 'The email version' linked. He stops twice: the first line reads 'How many Brazilian startups came to Web Summit last year?. Brazil brought...' (a question mark then a full stop), and tomorrow's 'Tech Run Lisboa: a 30-minute run' is listed as 'All day', so he cannot tell when to be there.",
+ "steps": [
+  {
+   "screen": "evening-0",
+   "see": "'Evening edition: Saturday 7 November', On this page, PUBLISHED TODAY: 'How many Brazilian startups came to Web Summit last year?. Brazil brought one of the two largest delegations...'",
+   "think": "'?.' looks careless for a newsletter"
+  },
+  {
+   "screen": "evening-1",
+   "see": "THE LATEST (three); TOMORROW: 'Two things to plan around tomorrow.' 'All day: Tech Run Lisboa (3rd edition): a 30-minute run on the eve of Web Summit'; Registration 07:30",
+   "think": "A 30-minute run, all day? What time do I go?"
+  }
+ ],
+ "interview": {
+  "would_return": "yes; still cannot subscribe (F58)",
+  "trust": "good",
+  "what_lost_him": "nothing; two slips"
+ },
+ "findings": [
+  "F60",
+  "F61"
+ ],
+ "checked": "data/events/tech-run-lisboa/event.json has time, start and end null (source: a SAPO article); newsroom/build/lib/present.mjs lines 18 and 36 and agenda.mjs line 62 render a missing time as 'All day'; 26 events have no time, most of them truly all-day or multi-day; newsletter.mjs line 94 joins the title and the summary with '. ' whatever the title ends with"
+}

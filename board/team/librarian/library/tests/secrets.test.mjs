@@ -37,3 +37,12 @@ test('link types: read from data/ontology.json; verb, inverse, absent or differs
   assert.equal(o.see, undefined) // no see verb: ontologist@, 7 November 2026
   fs.rmSync(root, { recursive: true, force: true })
 })
+
+test('an agent with a key in board/keys.json is a handle, whatever its operator; without the key it is refused', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'lib-keys-'))
+  fs.mkdirSync(path.join(root, 'board'))
+  fs.writeFileSync(path.join(root, 'board/keys.json'), JSON.stringify({ keys: [{ id: 'writer-jose', agent: 'writer@PrompTugal.jose' }] }))
+  assert.deepEqual(secretFindings('by writer@PrompTugal.jose', root), [])
+  assert.deepEqual(secretFindings('by editor@PrompTugal.jose', root), ['contains an address that is not an agent handle'])
+  fs.rmSync(root, { recursive: true, force: true })
+})

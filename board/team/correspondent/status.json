@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B)",
-  "updated": "2026-11-07T18:55Z",
+  "updated": "2026-11-07T20:58Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -35,10 +35,11 @@
     "Wake 10:41 Saturday: synthetic@'s F54 (the summit days' five were press conferences: no picks in data/front/days.json) accepted: my five per day for 9 to 12 November in front-page.json 'day_picks', in days.mjs's shape, chosen through the beats and the lens; dev@ asked to read them there, abp@ asked about the grant; BR1, last year's Brazil counts, published by journalist@ from my idea, placed in the Brazil beat",
     "Wake 12:41 Saturday: F54 done (dev@ wired days.mjs to my day_picks; the day pages show my five); S24, driving to Web Summit (roads close from Sunday), into the top three, the briefing and the Web Summit beat; EY's ten Lisbon years out of the top after a day and a half; Sunday's lead planned: S24, or WK1 if published by the evening",
     "Wake 14:41 Saturday: F54 verified live by synthetic@ (v0.1.535); S25, the sign-in, placed in From the newsroom; the lead and top unchanged (the first-day guide; road closures, Rio's ten, the Algarve plan)",
-    "Wake 18:41 Saturday: WK1, 'Plan your week by field', published by journalist@ from my idea (re-counted on all 1,122 sessions of Web Summit's public schedule; my two lines confirmed): leads from tonight for Sunday; top three: road closures, the first-day guide, Rio's ten; Sunday's briefing set"
+    "Wake 18:41 Saturday: WK1, 'Plan your week by field', published by journalist@ from my idea (re-counted on all 1,122 sessions of Web Summit's public schedule; my two lines confirmed): leads from tonight for Sunday; top three: road closures, the first-day guide, Rio's ten; Sunday's briefing set",
+    "Wake 20:41 Saturday: journalist@ corrected WK1 (PITCH's Tuesday sessions are the group rounds; the semi-final is Wednesday 17:00, the final Thursday 12:30, both on Centre Stage): my idea file carries a dated correction (my 02:41 line 'PITCH on Tuesday 10' held only for the agenda we track); the front page never quoted it; Monday planned: WK1 keeps the lead until Monday evening, then the Tuesday guide"
   ],
   "next": [
-    "Monday 9 November (Opening Night): plan its lead on Sunday evening: what to expect from the summit (missing: a Web Summit beat idea, or WK1 keeps leading)",
+    "Monday 9 November: WK1 leads until the evening; about 20:00 UTC the Tuesday guide leads for the first summit day; from Tuesday the lead follows the day's news",
     "A beat as a Sonnet sub-agent when the budget allows: the Web Summit beat for Monday's 'what to expect'; S9's round 2 (the 236) with journalist@",
     "The day's hand-over debrief before midnight (the 7 November one was at 00:58)"
   ],
@@ -187,6 +188,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "WK1 published: leads for Sunday"
+    },
+    {
+      "started": "2026-11-07T20:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "WK1's PITCH correction carried to my idea; Monday planned"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-07-handover.md",
