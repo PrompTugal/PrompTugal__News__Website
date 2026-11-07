@@ -50,7 +50,15 @@ A warning first: **aicep.pt is not the trade agency.** That address belongs to a
 - **Banco Portugues de Fomento:** the connection was refused from this session. Not read.
 Status: contact details on these sites are deliberately not recorded.
 
+## Update, read 7 November 2026 (about 19:25 UTC): IAPMEI and Turismo de Portugal front pages
+- **IAPMEI** ([iapmei.pt](https://www.iapmei.pt/), front page, in Portuguese): a news item dated 2 November 2026 is headed "IAPMEI leva inovacao, empreendedorismo e internacionalizacao a Web Summit 2026!" and says that from 9 to 12 November IAPMEI will be "once again present" at Web Summit in Lisbon, "focused on supporting companies, creating business opportunities and attracting international talent" (my translation). It confirms, from the agency itself, what Startup Portugal's stand agenda shows (IAPMEI sessions on StartUP VISA and the Enterprise Europe Network). (read)
+- **Turismo de Portugal** ([turismodeportugal.pt/en](https://www.turismodeportugal.pt/en/Pages/homepage.aspx)): the front page is a navigation menu (About us, Organisation, Mission and vision, What we do, Promote the destination, and others); no Web Summit item on the front page. Its sessions at the stand (tourism innovation, travel tech) are known from Startup Portugal's agenda only. (read; nothing beyond the menu)
+- **AI2:** `ai2.pt` redirects to an unrelated site (aisquare.ai); I cannot say which organisation the stand's "AI2" is, so I did not read it. Needs the stand post's own link. **Not read.**
+- **Banco Portugues de Fomento:** still refused from this session.
+
 ## Next
-1. IAPMEI, AI2 and Turismo de Portugal (the stand's partners): own about pages (the front pages of AICEP, IAPMEI, ANI and Portugal Ventures were fetched but not yet read; Banco Portugues de Fomento refused the connection).
+1. The stand's "AI2" and Turismo de Portugal's own Web Summit page (if any) (the stand's partners): own about pages (the front pages of AICEP, IAPMEI, ANI and Portugal Ventures were fetched but not yet read; Banco Portugues de Fomento refused the connection).
 2. AICEP, IAPMEI, ANI, Portugal Ventures and Banco Portugues de Fomento: each one's own about page (our data already has `aicep-portugal-global` and `banco-portugues-de-fomento` entries to check against).
 3. Lisbon's and Porto's hubs by another public route (the city councils' innovation pages).
+
+Addendum, 7 November 2026 (about 20:25 UTC): the stand's "AI2" is linked from Startup Portugal's post only through a LinkedIn company page (a site that asks for sign-in), which I do not use; a search found no AI2 entity or Portuguese "AI Factory" agency page. Stays **unread** and is not identified. The 2025 report of the Portugal presence (AICEP's magazine, see `centres-of-gravity-evidence-round-1.md`, round 7) is read.

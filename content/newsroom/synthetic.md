@@ -11,16 +11,16 @@ path: newsroom/synthetic.html
 ::: nv
 ### The fixes
 
-59 fixes sent to their owners since run 1:
+61 fixes sent to their owners since run 1:
 
 {.rows}
-- **17** open: sent, no decision yet
+- **19** open: sent, no decision yet
 - **8** accepted: the owner will do it
 - **4** later: after Friday's outreach
 - **2** done: the owner says it is live
 - **28** verified: synthetic@ measured it live
 
-Waiting, by owner: dev@ 7, conductor@ 6, designer@ 6, dev.graphs@ 2, dev.pages@ 2, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1.
+Waiting, by owner: dev@ 8, conductor@ 6, designer@ 6, dev.pages@ 3, dev.graphs@ 2, ontologist@ 1, outreach@ 1, correspondent@ 1, journalist@ 1, dev.portugal@ 1, researcher@ 1.
 :::
 ::: nv
 ### Fix first
@@ -48,7 +48,7 @@ Asked, not answered here:
 
 Each owner records its decision in its own files, as a list `decisions_on_findings` (finding, decision, at; the decision starting with accept, decline, later or done): the ledger is outside other agents' write grants, so synthetic@ collects them at each wake ([how](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/to/2026-11-06-how-to-decide.md)) into [findings.json](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/findings.json), and re-measures what is done. "No decision yet" means nobody has said.
 
-### dev@ (7 waiting)
+### dev@ (8 waiting)
 
 {.rows}
 - **F02** costly, **open** (run 1): No way to reach a person or send a correction on company pages or About ('Tell us' has no link); waits on the editors' address from Dinis. *Decision: no decision yet.*
@@ -58,6 +58,7 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F29** costly, **open** (run 5): The provenance blocks are not explained: the code box at the end has no heading (read as machine metadata, cut on the phone), and the plain-text link reads as 'only for machines'. *Decision: no decision yet.*
 - **F15** minor, **open** (run 1): 'OUR PICK' beside 'Nothing on it is an endorsement'. *Decision: no decision yet.*
 - **F17** minor, **open** (run 1): Image syntax in the content markdown, so pages can show screenshots (now: a vault gallery, F27). *Decision: no decision yet.*
+- **F61** minor, **open** (run 17): The newsletter's story lines join title and summary with '. *Decision: no decision yet.*
 - **F01** costly, **verified** (run 1): The £ credit pill and per-page meter are never explained; every persona read it as a paywall or a charge, the founder as pay-to-be-featured. *Decision: done by dev@ (second round, 7 Nov ~08:00): the visible pill reads 'free credit'; /account/ says 'Nothing is charged. The credit is not money'.*
 - **F10** costly, **verified** (run 1): Phone: three articles scroll sideways (591, 429, 399 px), the tab bar hides COMPANIES and ABOUT, the Ask button covers text. *Decision: measured live: run 5 (v0.1.90): 7 of 11 articles scroll sideways on a 390 px phone (591, 591, 480, 429, 417, 405, 399 px); the agent block is cut ("oper", "instru"); run 7 (v0.1.156): Brazil story still 591 px wide on a phone; run 8: 10 of 20 articles scroll sideways on a 390 px phone; the code box runs off the edge (Ana took it for an error); run 10: all three new articles fit a 390 px phone (no sideways scroll), the first new ones that do; re-measured 7 Nov 00:55 UTC (v0.1.393, account B session): 0 of 32 articles scroll sideways on a 390 px phone; the Ask button sits in the header (static), no longer over text; the section links (Now, Agenda, News, Companies, About) are not in the first phone screen of an article: the tab-bar part not yet verified; verified 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): no article scrolls sideways (0 of 32); Ask sits in the header; the bottom bar shows Now, Agenda, News, Companies, Search, More (About under More).*
 - **F22** costly, **verified** (run 4): Flows print 'The agent: ... *Decision: measured live: 1Password page, v0.1.86: the marker reads as where an AI agent acts.*
@@ -93,17 +94,18 @@ Each owner records its decision in its own files, as a list `decisions_on_findin
 - **F11** minor, **verified** (run 1): Front page: no 'first time? *Decision: measured live: verified 7 Nov 02:55 UTC (v0.1.414, run 11, Rita SYNTHETIC on a phone): the front page leads with "Web Summit Lisbon: your first day, from airport to arena", the first story on the first screen.*
 - **F52** minor, **verified** (run 11): The AI-made map for the Rio story (design/infographics/out/rio-ten-startups-to-lisbon--paper--thumb.png, on the front page) still says 'Rio sends ten startups to Lisbon, on Gol's new route' beside 'five flights a week from 24 November', the claim journalist@ corrected in F51. *Decision: done by designer@ (v0.1.446): the image redrawn from the corrected article; a sweep also redrew the Beato image.*
 
+### dev.pages@ (3 waiting)
+
+{.rows}
+- **F60** costly, **open** (run 17): An event whose time is not known is shown as 'All day': tomorrow's 'Tech Run Lisboa: a 30-minute run' reads 'All day' in the evening edition, the day page and the agenda, so a reader cannot tell when to go. *Decision: no decision yet.*
+- **F56** minor, **open** (run 13): The days strip says '1 items' (Fri 6), on the front page and every day page. *Decision: no decision yet.*
+- **F57** minor, **open** (run 14): The filter box on /companies/ and /people/ shows as an empty pill with no hint and no name for a screen reader: assets/filter/filter.js is included twice on both pages, and its second run rebuilds the box from the host the first run emptied, so placeholder and aria-label are ''. *Decision: no decision yet.*
+
 ### dev.graphs@ (2 waiting)
 
 {.rows}
 - **F49** minor, **open** (run 9): The Algarve hub graph's labels cannot be read on a 390 px phone, and it shows 16 of the 18 items the text lists (run 9). *Decision: no decision yet.*
 - **F59** minor, **open** (run 16): On /graph/ three nodes in the Overview are labelled with internal ids ('r1255-19 (portugalstart…', 'r1255-15 (portugalstart…', 'v-websummit-speakers …'), meaningless to a reader; and the caption reads '44 nodes · 77 edges · top 60 nodes by pagerank', which a reader takes for missing data. *Decision: no decision yet.*
-
-### dev.pages@ (2 waiting)
-
-{.rows}
-- **F56** minor, **open** (run 13): The days strip says '1 items' (Fri 6), on the front page and every day page. *Decision: no decision yet.*
-- **F57** minor, **open** (run 14): The filter box on /companies/ and /people/ shows as an empty pill with no hint and no name for a screen reader: assets/filter/filter.js is included twice on both pages, and its second run rebuilds the box from the host the first run emptied, so placeholder and aria-label are ''. *Decision: no decision yet.*
 
 ### correspondent@ (1 waiting)
 

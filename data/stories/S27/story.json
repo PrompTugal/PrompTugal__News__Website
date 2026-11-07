@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S27",
+  "type": "story",
+  "title": "A map of Web Summit's buildings, and what each holds",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:page-venue-map"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-07-1945.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-07-1945.json",
+      "desks/journalist-vicky/drafts/s27-venue-map.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/s27-venue-map.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-07T19:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-07-1945.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-07",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/s27-venue-map.md"
+    }
+  ]
+}

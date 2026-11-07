@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "conscium",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
+      "status": 200,
+      "read": true,
+      "chars": 1554
+    },
+    {
+      "url": "https://websummit.com/attendees/lis26/70405268-9440-4c81-a239-cc7156a96600/calum-chace/",
+      "status": 200,
+      "read": true,
+      "chars": 2344
+    },
+    {
+      "url": "https://conscium.com/",
+      "status": 200,
+      "read": true,
+      "chars": 5570
+    }
+  ],
+  "spent_usd": 0.0293,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Conscium.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Calum Chace Co-founder Conscium",
+          "note": "Speaker listing names Conscium as the company (S2 and S3 also reference Conscium as the company, with S3 being the company's own site)."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Daniel Hulme CEO & Co-founder, Conscium",
+          "note": "The text confirms that the company co-founded by Daniel Hulme is named Conscium."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Conscium",
+          "note": "The source identifies the company as Conscium."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://conscium.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://conscium.com/",
+          "note": "S3 is the page at https://conscium.com/, which is the Conscium website, so the claim that the company's website is this URL is directly confirmed by the source's own address and content."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://conscium.com/",
+          "note": "Source S3 shows that the website of Conscium is https://conscium.com/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://conscium.com/",
+          "note": "Source S3 is the Conscium website at that exact URL, confirming the company's website."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: AI safety lab and agent verification platform: simulation testing and verification so AI agents can be deployed with more confidence, plus research on conscious AI.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "We build the platform that lets organisations independently test and verify AI agents",
+          "note": "The source supports the verification platform and the machine-consciousness research, but it never describes Conscium as an 'AI safety lab' and uses 'Intelligent Systems, Understood' as its tagline."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Verify ax is Conscium's AI agent verification platform. It lets organisations test, audit, and govern AI agents before and after deployment - running them through simulated environments",
+          "note": "While S3 supports that the company offers an AI agent verification platform with simulation testing to scale/deploy agents with confidence and conducts machine consciousness research, it does not explicitly describe the company as an 'AI safety lab' or use this exact full description."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "AI agent verification platform",
+          "note": "S3 supports agent verification and simulated testing plus machine consciousness research, but it does not describe the company as an 'AI safety lab' or specifically as 'conscious AI' research."
+        }
+      ],
+      "consensus": "partly",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United Kingdom.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Co-founder Conscium United Kingdom",
+          "note": "Calum Chace's Web Summit profile lists his company, Conscium, followed by the country United Kingdom, though this is a speaker profile field rather than an explicit company listing."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": "S2",
+          "quote": "",
+          "note": "The source lists 'United Kingdom' under speaker Calum Chace's profile, but does not state that the company itself is listed under the United Kingdom."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Co-founder Conscium United Kingdom",
+          "note": "S2 lists Calum Chace with Conscium and United Kingdom in the same profile entry."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Co-founder Conscium",
+          "note": "The Web Summit Lisbon 2026 attendee page lists speaker Calum Chace with the affiliation Conscium, which matches the claim's 'speaker's company' qualifier, though the page does not separately list Conscium as an exhibitor or participant."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Speakers Calum Chace Calum Chace Co-founder Conscium",
+          "note": "Calum Chace is listed as a speaker with Conscium at Web Summit Lisbon 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Calum Chace Co-founder Conscium",
+          "note": "The Web Summit Lisbon 2026 session page lists Calum Chace as a speaker with his company Conscium."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

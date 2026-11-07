@@ -1,5 +1,152 @@
 [
   {
+    "version": "v0.1.634",
+    "date": "2026-11-07",
+    "what": "dev.venues@PrompTugal.angelo: \"Where is it?\" on event pages, the building picked out on a small map (venue B1 item 2)",
+    "by": "dev.venues@PrompTugal.angelo",
+    "from": "f34b91da5"
+  },
+  {
+    "version": "v0.1.633",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 20:45: run 17 on the first evening edition; F60, F61 new",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "503ad81d9"
+  },
+  {
+    "version": "v0.1.632",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 20:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "3f1448b43"
+  },
+  {
+    "version": "v0.1.631",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: WK1's table image redrawn after its correction (PITCH's group rounds)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "d6fc3de76"
+  },
+  {
+    "version": "v0.1.630",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: WK1 corrected: PITCH's semi-final and final are on Wednesday and Thursday",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "2a48863de"
+  },
+  {
+    "version": "v0.1.629",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: IAPMEI, Portugal Ventures, Turismo de Portugal and Lisboa Municipality in the graph",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "afd90c174"
+  },
+  {
+    "version": "v0.1.628",
+    "date": "2026-11-07",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "fc7c2b7cf"
+  },
+  {
+    "version": "v0.1.627",
+    "date": "2026-11-07",
+    "what": "devops@PrompTugal.dinis: the published tree doubled to 253 MB (investor deck PDFs); sent to the owners",
+    "by": "devops@PrompTugal.dinis",
+    "from": "97bf4ab0d"
+  },
+  {
+    "version": "v0.1.626",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: Microsoft's Sines announcement at Web Summit 2025 (AICEP note); AI2 left unread; inbox drained (empty)",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "0c479150e"
+  },
+  {
+    "version": "v0.1.625",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 20:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "bd13158f8"
+  },
+  {
+    "version": "v0.1.624",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: G's empty block out for good: the review tool keeps a declined file out until the worker changes it",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d95a45a4f"
+  },
+  {
+    "version": "v0.1.623",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 20:07 wake: quiet; the iOS app's features surveyed for Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "34b5e75cd"
+  },
+  {
+    "version": "v0.1.622",
+    "date": "2026-11-07",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "2b28e5f1a"
+  },
+  {
+    "version": "v0.1.621",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: wake 19:38: idle; drafts unchanged, the 50 wait for Dinis's yes",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "1dd99c44c"
+  },
+  {
+    "version": "v0.1.620",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the first evening newsletter edition checked: the foot and byline pass; three fixes for dev@",
+    "by": "designer@PrompTugal.dinis",
+    "from": "910ee4b0f"
+  },
+  {
+    "version": "v0.1.619",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: wake 19:33: status (the evening edition is checked once built)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1483cb0d6"
+  },
+  {
+    "version": "v0.1.618",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: Startup Portugal: Road 2 Web Summit's class of 78, the Portugal stand, in its own words",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "34d21a540"
+  },
+  {
+    "version": "v0.1.617",
+    "date": "2026-11-07",
+    "what": "researcher@PrompTugal.dinis: IAPMEI and Turismo de Portugal read; hand-over debrief refreshed",
+    "by": "researcher@PrompTugal.dinis",
+    "from": "e01b1cb5b"
+  },
+  {
+    "version": "v0.1.616",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the newsletter says who makes it: the email's foot and the page's byline (designer@'s E8, P5)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "77df2a691"
+  },
+  {
+    "version": "v0.1.615",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 19:07 wake: X-ray moved to the Web Summit team's site; xray@'s PrompTugal wake disabled",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "08f77d766"
+  },
+  {
+    "version": "v0.1.614",
+    "date": "2026-11-07",
+    "what": "librarian@PrompTugal.dinis: wake 18:56: every page has its maker (the investors' site); the agents' stocktake; catalogue v0.1.613",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "e46d2fdd3"
+  },
+  {
     "version": "v0.1.613",
     "date": "2026-11-07",
     "what": "dev.venues@PrompTugal.angelo: /summit/venue/: the venue map, public, no people (WS-181 Part B1, item 1)",

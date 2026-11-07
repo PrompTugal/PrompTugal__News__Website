@@ -8,6 +8,20 @@
       "source": "s1",
       "read_on": "2026-11-01",
       "by": "curator@web-summit"
+    },
+    {
+      "id": "f-r2ws-2026",
+      "claim": "Road 2 Web Summit, designed with Web Summit: its Class of 2026 brings together 78 Portuguese startups from 24 sectors and 14 locations (the call had announced up to 125).",
+      "source": "sp1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "id": "f-stand-2026",
+      "claim": "The Portugal stand at Web Summit 2026: Pavilion 1, Stand 145, 10 to 12 November, with Lisboa Municipality; partners AI2, IAPMEI, AICEP, Portugal Ventures (BPF) and Turismo de Portugal.",
+      "source": "sp2",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }
