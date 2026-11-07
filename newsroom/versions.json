@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.595",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: founders and funding as company fields; Feedzai's set (F13)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "f6a7a36ec"
+  },
+  {
     "version": "v0.1.594",
     "date": "2026-11-07",
     "what": "investors@PrompTugal.dinis: run report",
