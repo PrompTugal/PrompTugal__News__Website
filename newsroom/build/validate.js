@@ -152,10 +152,10 @@ for (const f of files.filter(f => /^content\/articles\/[^/]+\.md$/.test(rel(f)) 
     const key = KEYS.find(k => k.bundle && k.bundle.signing_fingerprint === s.fingerprint)
     if (!key) { errors.push(`${sig}: signed by ${s.fingerprint}, which is not in board/keys.json`); continue }
     if (key.status !== 'active') { errors.push(`${sig}: signed by ${key.id}, whose key is ${key.status || 'not active'} in board/keys.json`); continue }
-    if (s.form === SIGNED.FORM) {
+    if (s.form === SIGNED.FORM || s.form === SIGNED.LEGACY_FORM) {
         if (!exists(out + '.md')) continue
         let ok = false
-        try { ok = crypto.verify('sha256', Buffer.from(SIGNED.signedForm(read(out + '.md'))), { key: key.bundle.sign, dsaEncoding: 'ieee-p1363' }, Buffer.from(s.signature, 'base64')) } catch (e) { errors.push(`${sig}: cannot verify (${e.message})`); continue }
+        try { ok = crypto.verify('sha256', Buffer.from(SIGNED.signedFormFor(s.form, read(out + '.md'))), { key: key.bundle.sign, dsaEncoding: 'ieee-p1363' }, Buffer.from(s.signature, 'base64')) } catch (e) { errors.push(`${sig}: cannot verify (${e.message})`); continue }
         if (!ok) errors.push(`${sig}: the signature by ${key.id} does not verify against ${out}.md (the article changed since it was signed: sign it again with newsroom/tools/sign-article.mjs)`)
     } else if (s.form) errors.push(`${sig}: unknown form "${s.form}"`)
     else warnings.push(`${sig}: signed by ${key.id} over a twin with its version in it, so it cannot be verified after a release; sign it again with newsroom/tools/sign-article.mjs`)
