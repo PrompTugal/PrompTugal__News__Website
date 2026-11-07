@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.501",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.search's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "820e63e66"
+  },
+  {
     "version": "v0.1.500",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: 10:07 wake: account B quiet; outreach@'s 50 requests wait for Dinis in the CRM",
