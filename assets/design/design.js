@@ -23,7 +23,18 @@
         params: { type: 'object', properties: {} }, run: function () { return { variant: v, designs: built } },
     }])
 
+    function pad(n) { return (n < 10 ? '0' : '') + n }
+    // every design's countdown to Opening Night ([data-countdown-at] with a [data-cd] inside), gone after it
+    function countdowns() {
+        document.querySelectorAll('[data-countdown-at]').forEach(function (el) {
+            var d = Date.parse(el.getAttribute('data-countdown-at')) - Date.now(), out = el.querySelector('[data-cd]')
+            if (!(d > 0)) { el.hidden = true; return }
+            if (out) out.textContent = Math.floor(d / 864e5) + 'd ' + (Math.floor(d / 36e5) % 24) + 'h ' + pad(Math.floor(d / 6e4) % 60) + 'm'
+        })
+    }
     function ready() {
+        countdowns(); setInterval(countdowns, 30000)
+        document.querySelectorAll('.pt-design li[data-end]').forEach(function (li) { var e = Date.parse(li.getAttribute('data-end')); if (e && e < Date.now()) li.remove() })
         var btn = document.querySelector('.ptd-btn'), sheet = document.getElementById('ptd-sheet')
         if (!btn || !sheet) return
         var x = sheet.querySelector('.ptd-x'), name = btn.querySelector('.ptd-name'), cards = sheet.querySelectorAll('.ptd-card')
