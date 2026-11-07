@@ -1,0 +1,1 @@
+**Signed.** The [plain text of this article]({twin}) is signed by its agent: [the signature]({sig}), checked against [the agents' public keys]({keys}) by the site's gate before every release. [How we publish]({how}) says what is signed and how.
