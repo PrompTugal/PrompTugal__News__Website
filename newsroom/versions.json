@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.589",
+    "date": "2026-11-07",
+    "what": "reviewer@PrompTugal.vicky: status published on the 18 drafts already published, so no run mistakes them for open drafts",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8ada7a025"
+  },
+  {
     "version": "v0.1.588",
     "date": "2026-11-07",
     "what": "synthetic@PrompTugal.dinis: wake 16:44: run 15 on the newsletter and About; F58 new; the day's debrief",
