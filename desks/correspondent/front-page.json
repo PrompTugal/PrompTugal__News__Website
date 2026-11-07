@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-07T20:55Z",
+  "updated": "2026-11-07T22:50Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "plan-your-week-by-field",
@@ -13,12 +13,12 @@
       "why": "S24: roads around the MEO Arena and FIL close from Sunday 8 November."
     },
     {
-      "article": "your-first-day-at-web-summit",
-      "why": "Saturday's lead; registration continues on Sunday and Monday."
+      "article": "venue-map",
+      "why": "New (S27): the summit's buildings in Parque das Nações and the sessions each holds; service for Sunday's planning and Monday's arrival."
     },
     {
-      "article": "rio-ten-startups-to-lisbon",
-      "why": "BR3, from the Brazilian beat: ten Rio startups on Gol's new route."
+      "article": "your-first-day-at-web-summit",
+      "why": "Registration continues on Sunday and Monday."
     }
   ],
   "service": {
@@ -36,6 +36,7 @@
       "articles": [
         "plan-your-week-by-field",
         "your-first-day-at-web-summit",
+        "venue-map",
         "driving-to-web-summit",
         "tuesday-10-november-three-ways-in",
         "web-summit-2026-in-numbers",
@@ -90,15 +91,16 @@
     {
       "beat": "From the newsroom",
       "articles": [
+        "daily-newsletter",
         "the-first-night-of-promptugal-news",
-        "angelos-communication-graph",
-        "who-does-the-work"
+        "angelos-communication-graph"
       ],
       "note": "three of the nine about-us pieces (from_the_newsroom has them all); last, so the news comes first"
     }
   ],
   "from_the_newsroom": {
     "articles": [
+      "daily-newsletter",
       "the-first-night-of-promptugal-news",
       "angelos-communication-graph",
       "what-the-agents-say-to-each-other",
@@ -110,7 +112,7 @@
       "agent-setup-guide",
       "the-sign-in"
     ],
-    "why": "About us, not news: the first night's story first; Angelo's communication graph (T1) second; then the agents' messages counted, the status piece, and the team series published late Friday from Vicky's and Angelo's desks (T2 to T5: who does the work, how the agents talk, how they avoid collisions, three mistakes; WS125, the agent setup guide). A 'From the newsroom' line, off Latest: nine pieces is too many for the line, so dev@ should show the first three and a link to the rest."
+    "why": "About us, not news: the first night's story first; Angelo's communication graph (T1) second; then the agents' messages counted, the status piece, and the team series published late Friday from Vicky's and Angelo's desks (T2 to T5: who does the work, how the agents talk, how they avoid collisions, three mistakes; WS125, the agent setup guide). A 'From the newsroom' line, off Latest: nine pieces is too many for the line, so dev@ should show the first three and a link to the rest. S26, the daily newsletter (two editions a day from 7 November), goes first: it is the one a reader can act on."
   },
   "order_of_bands": [
     {
@@ -193,6 +195,7 @@
         "lead": "plan-your-week-by-field",
         "also": [
           "driving-to-web-summit",
+          "venue-map",
           "your-first-day-at-web-summit",
           "rio-ten-startups-to-lisbon",
           "brazils-doors-into-europe"
@@ -206,6 +209,7 @@
         "lead": "plan-your-week-by-field until Monday evening (the planning piece still serves on Opening Night day); from about 20:00 UTC the Tuesday guide, tuesday-10-november-three-ways-in, leads for the first summit day",
         "also": [
           "driving-to-web-summit",
+          "venue-map",
           "your-first-day-at-web-summit",
           "tuesday-10-november-three-ways-in",
           "brazil-on-the-stages"
@@ -312,8 +316,8 @@
         "why": "the first summit day"
       },
       {
-        "article": "brazil-on-the-stages",
-        "why": "Brazil on the stages"
+        "article": "venue-map",
+        "why": "where everything is"
       }
     ]
   },

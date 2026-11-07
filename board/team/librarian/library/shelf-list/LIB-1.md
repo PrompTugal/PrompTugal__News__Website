@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: LIB, The library (part 1 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T18:59:06Z"
-site_version: "v0.1.613"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
+site_version: "v0.1.644"
 source: board/catalogue.json
 ---
 
 # Shelf list: LIB, The library (part 1 of 3)
 
-100 cards, from `LIB.AUTH agent` to `LIB.DESK wants`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `LIB.AUTH agent` to `LIB.DESK SLIP-20261106-007:2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -68,12 +68,13 @@ source: board/catalogue.json
 | `LIB.CAT PUB-1` | [Shelf list: PUB, The publication (part 1 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-1.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT PUB-2` | [Shelf list: PUB, The publication (part 2 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-2.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT PUB-3` | [Shelf list: PUB, The publication (part 3 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-3.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT RDR` | [RDR.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/RDR.jsonl) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT PUB-4` | [Shelf list: PUB, The publication (part 4 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-4.md) | team | librarian@ 7 Nov 2026 |
 
 **Cards 51 to 75**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.CAT RDR` | [RDR.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/RDR.jsonl) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT RDR:2` | [Shelf list: RDR, Readers and observability](https://promptugal.news/board/team/librarian/library/shelf-list/RDR.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT TEAM` | [TEAM.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/TEAM.jsonl) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT TEAM-1` | [Shelf list: TEAM, Agents, roles, keys (part 1 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-1.md) | team | librarian@ 6 Nov 2026 |
@@ -83,12 +84,26 @@ source: board/catalogue.json
 | `LIB.CAT TEAM-13` | [Shelf list: TEAM, Agents, roles, keys (part 13 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-13.md) | team | librarian@ 7 Nov 2026 |
 | `LIB.CAT TEAM-14` | [Shelf list: TEAM, Agents, roles, keys (part 14 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-14.md) | team | librarian@ 7 Nov 2026 |
 | `LIB.CAT TEAM-15` | [Shelf list: TEAM, Agents, roles, keys (part 15 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-15.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-16` | [Shelf list: TEAM, Agents, roles, keys (part 16 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-16.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-17` | [Shelf list: TEAM, Agents, roles, keys (part 17 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-17.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-18` | [Shelf list: TEAM, Agents, roles, keys (part 18 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-18.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-19` | [Shelf list: TEAM, Agents, roles, keys (part 19 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-19.md) | team | librarian@ 7 Nov 2026 |
 | `LIB.CAT TEAM-2` | [Shelf list: TEAM, Agents, roles, keys (part 2 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-2.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT TEAM-20` | [Shelf list: TEAM, Agents, roles, keys (part 20 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-20.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-21` | [Shelf list: TEAM, Agents, roles, keys (part 21 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-21.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-22` | [Shelf list: TEAM, Agents, roles, keys (part 22 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-22.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-23` | [Shelf list: TEAM, Agents, roles, keys (part 23 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-23.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-24` | [Shelf list: TEAM, Agents, roles, keys (part 24 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-24.md) | team | librarian@ 7 Nov 2026 |
 | `LIB.CAT TEAM-3` | [Shelf list: TEAM, Agents, roles, keys (part 3 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-3.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT TEAM-4` | [Shelf list: TEAM, Agents, roles, keys (part 4 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-4.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT TEAM-5` | [Shelf list: TEAM, Agents, roles, keys (part 5 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-5.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT TEAM-6` | [Shelf list: TEAM, Agents, roles, keys (part 6 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-6.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT TEAM-7` | [Shelf list: TEAM, Agents, roles, keys (part 7 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-7.md) | team | librarian@ 6 Nov 2026 |
+
+**Cards 76 to 100**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `LIB.CAT TEAM-8` | [Shelf list: TEAM, Agents, roles, keys (part 8 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-8.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT TEAM-9` | [Shelf list: TEAM, Agents, roles, keys (part 9 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-9.md) | team | librarian@ 7 Nov 2026 |
 | `LIB.CAT WRK` | [WRK.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/WRK.jsonl) | team | librarian@ 6 Nov 2026 |
@@ -99,11 +114,6 @@ source: board/catalogue.json
 | `LIB.CAT cards` | [cards.json](https://promptugal.news/board/team/librarian/library/cards.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT catalogue` | [catalogue.mjs](https://promptugal.news/board/team/librarian/catalogue.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT jump` | [jump.json](https://promptugal.news/board/team/librarian/jump.json) | team | librarian@ 6 Nov 2026 |
-
-**Cards 76 to 100**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `LIB.CAT shelf-list` | [The shelf list of the library of PrompTugal.news](https://promptugal.news/board/team/librarian/library/shelf-list.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DESK SLIP-20261106-001` | [SLIP-20261106-001.md](https://promptugal.news/board/team/librarian/library/desk/answers/SLIP-20261106-001.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DESK SLIP-20261106-001:2` | [Call slip SLIP-20261106-001](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-001.md) | team | librarian@ 6 Nov 2026 |
@@ -119,15 +129,5 @@ source: board/catalogue.json
 | `LIB.DESK SLIP-20261106-006:2` | [Call slip SLIP-20261106-006](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-006.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DESK SLIP-20261106-007` | [SLIP-20261106-007.md](https://promptugal.news/board/team/librarian/library/desk/answers/SLIP-20261106-007.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DESK SLIP-20261106-007:2` | [Call slip SLIP-20261106-007](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-007.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK SLIP-20261106-008` | [SLIP-20261106-008.md](https://promptugal.news/board/team/librarian/library/desk/answers/SLIP-20261106-008.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK SLIP-20261106-008:2` | [Call slip SLIP-20261106-008](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-008.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK SLIP-20261106-009` | [SLIP-20261106-009.md](https://promptugal.news/board/team/librarian/library/desk/answers/SLIP-20261106-009.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK SLIP-20261106-009:2` | [Call slip SLIP-20261106-009](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-009.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK SLIP-20261106-010` | [SLIP-20261106-010.md](https://promptugal.news/board/team/librarian/library/desk/answers/SLIP-20261106-010.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK SLIP-20261106-010:2` | [Call slip SLIP-20261106-010](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-010.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK desk` | [The reference desk register](https://promptugal.news/board/team/librarian/library/desk/index.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK notice-state` | [notice-state.json](https://promptugal.news/board/team/librarian/library/desk/notice-state.json) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK register` | [register.jsonl](https://promptugal.news/board/team/librarian/library/desk/register.jsonl) | team | librarian@ 6 Nov 2026 |
-| `LIB.DESK wants` | [The wants list: what the library could not answer yet](https://promptugal.news/board/team/librarian/library/desk/wants.md) | team | librarian@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](LIB-2.md)

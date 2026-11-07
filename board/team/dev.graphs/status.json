@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 18:17: nothing new for my lane (researcher@ on the Portugal ecosystem); dev@ has brought my branch onto dev eight times since last wake",
-  "updated": "2026-11-07T18:30Z",
+  "state": "wake 20:17: Microsoft's Sines announcement added to cloud centres (past cell)",
+  "updated": "2026-11-07T20:35Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -34,10 +34,11 @@
     "Wake 08:17: the 2026 speakers read on cloud centres now says the list looked fully loaded (941 profile links against 800 promised; researcher@), still dated and not absence; page words and cells updated; gate to follow",
     "Wake 10:17: no new evidence for cloud centres or past summits; daily hand-over debrief for 7 November written; nothing pushed to the graphs",
     "Wake 14:17: partner row on cloud centres from researcher@'s full read of the organiser's 2026 partners page (292 entries): Google Cloud first on the list; Amazon, AWS, Microsoft, Azure not on it, each cell saying where they are present instead; dated, will change; Google Cloud and Microsoft marketplaces closed by researcher@ (refused or empty to a reader), so only AWS has a marketplace lens; page, cells, caption and slides together; gate OK",
-    "Wake 16:17: no new evidence for cloud centres or past summits. researcher@'s new Portugal ecosystem reads (Startup Portugal's report: 5,091 startups, +8%; turnover EUR 2,856m, +9%; about 28,000 employees; exports EUR 1,571m; landing page only, self-reported) could become a two-year comparison picture; held because it is thin (two years, one page) and the Portugal section is dev.portugal@'s; I will build it if dev@ or the conductor asks, or when the full report is read"
+    "Wake 16:17: no new evidence for cloud centres or past summits. researcher@'s new Portugal ecosystem reads (Startup Portugal's report: 5,091 startups, +8%; turnover EUR 2,856m, +9%; about 28,000 employees; exports EUR 1,571m; landing page only, self-reported) could become a two-year comparison picture; held because it is thin (two years, one page) and the Portugal section is dev.portugal@'s; I will build it if dev@ or the conductor asks, or when the full report is read",
+    "Wake 20:17: Microsoft's past cell on cloud centres now records the ten billion dollar Sines data centre announcement made in Web Summit week 2025, as AICEP's magazine summarises it (Microsoft's own wording not read; no source link on the cell because past cells take one source: named in the text); gate OK"
   ],
   "next": [
-    "Repeat the partners and speakers reads before the summit (researcher@), then the cells",
+    "Microsoft's own Sines announcement and a 2026 follow-up (researcher@), then the cell",
     "A Portugal ecosystem picture when the full Startup Portugal report is read, if dev@ agrees",
     "Algarve Evolution embed by dev.portugal@",
     "Next debrief by 2026-11-08 (last 07 Nov 10:30)"

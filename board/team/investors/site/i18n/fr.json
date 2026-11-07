@@ -110,7 +110,9 @@
     "decks_all": "Tous les decks",
     "decks_seq": "Toutes les diapositives d’un coup d’œil",
     "articles_title": "À lire et à partager",
-    "articles_all": "Tous les articles"
+    "articles_all": "Tous les articles",
+    "glance_title": "En un coup d’œil",
+    "glance_alt": "PrompTugal en un coup d’œil : ce que c’est, où, les huit sources de revenus, les deux phases, le tour seed de moins de 1 M€ et ce que nous demandons (infographie en anglais, faite avec le modèle d’image Gemini de Google à partir des neuf decks)."
   },
   "aud": {
     "invest": {
@@ -356,7 +358,8 @@
     "issue_t": "Ouvrir une issue",
     "issue_d": "Pour les développeurs, et pour tout ce qui est faux sur le site : en public, sur le dépôt.",
     "issue_cta": "Ouvrir une issue",
-    "privacy": "Rien de ce que vous écrivez n’est publié ici."
+    "privacy": "Rien de ce que vous écrivez n’est publié ici.",
+    "info_alt": "Qui nous voulons entendre : six lecteurs, ce que nous demandons à chacun et ce que chacun obtient (infographie en anglais, faite avec le modèle d’image Gemini de Google)."
   },
   "thanks": {
     "title": "Merci",
