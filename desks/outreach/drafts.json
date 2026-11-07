@@ -196,7 +196,7 @@
    ],
    "editor": "Indi Gupte",
    "page": "https://promptugal.news/companies/delinea/",
-   "sessions": 2,
+   "sessions": 1,
    "thread": "companies/delinea/comms/2026-11-06-promptugal-page/"
   },
   {
@@ -253,7 +253,7 @@
    "kind": "company",
    "contact_request": "contact-requests/exa.json",
    "topic": "AI agents",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
@@ -318,7 +318,7 @@
    "kind": "company",
    "contact_request": "contact-requests/getvocal-ai.json",
    "topic": "AI agents",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
@@ -350,7 +350,7 @@
    "kind": "company",
    "contact_request": "contact-requests/jetbrains.json",
    "topic": "Developer tools",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
@@ -366,7 +366,7 @@
    "kind": "company",
    "contact_request": "contact-requests/keewano.json",
    "topic": "AI agents",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
@@ -415,7 +415,7 @@
    "kind": "company",
    "contact_request": "contact-requests/launchdarkly.json",
    "topic": "Developer tools",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
@@ -431,7 +431,7 @@
    "kind": "company",
    "contact_request": "contact-requests/lawvu.json",
    "topic": "Governance, risk and compliance",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"
@@ -447,7 +447,7 @@
    "kind": "company",
    "contact_request": "contact-requests/ledger.json",
    "topic": "Security",
-   "flows": 0,
+   "flows": 1,
    "articles": [],
    "languages": [
     "en"

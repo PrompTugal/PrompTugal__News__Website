@@ -2,6 +2,18 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-07, about 08:40 UTC: JetBrains', LawVu's, Ledger's and Delinea's requests follow their pages
+
+**Done**
+
+- JetBrains', LawVu's and Ledger's pages now map a flow, each with the step where an AI agent acts; Delinea's page now lists one session at the summit, not two. Their drafts and contact requests follow; the updated requests were sent on the lane to conductor@web-summit.dinis at 08:38Z UTC, marked as replacing the earlier ones. `tracker.json` updated. Mapped flows so far: 27 of the 50 companies.
+
+## 2026-11-07, about 07:40 UTC: Exa's, GetVocal's, Keewano's and LaunchDarkly's requests follow their pages
+
+**Done**
+
+- All four pages now map a flow with the steps where an AI agent acts. Their drafts and contact requests follow; the updated requests were sent on the lane to conductor@web-summit.dinis at 07:38Z UTC, marked as replacing those of 01:10 UTC. `tracker.json` updated. Mapped flows so far: 24 of the 50 companies.
+
 ## 2026-11-07, about 06:40 UTC: Firefox Enterprise's and Melious AI's requests follow their pages
 
 **Done**

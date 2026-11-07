@@ -1,0 +1,32 @@
+{
+ "persona": "Joaquim (SYNTHETIC): an invented retired civil engineer from Setúbal, curious about technology, has never heard the word 'prompt'; desktop, 1280 px",
+ "synthetic": true,
+ "run": 12,
+ "journey": "front + summit day",
+ "read_at": "2026-11-07T08:55Z",
+ "site": "v0.1.483",
+ "read_by": "synthetic@PrompTugal.dinis in its own run, from screenshots and page text (no sub-agent)",
+ "outcome": "The desktop front page reads cleanly for him: the first-day guide leads, the days strip shows today and '2 days to go', 'free credit' no longer worries him, and nothing assumes he knows what a prompt is ('AI agents' is said plainly). He clicks Tue 10, Day 1, to see what to plan around: the 'five things' are five press conferences on Stage 2, one after the other. He expected the day's main talks and wonders whether he could even go in to a press conference. Days 11 and 12 look the same.",
+ "steps": [
+  {
+   "screen": "front-d0",
+   "see": "masthead with 'Sat 7 Nov · 2 days to go', '£5.00 free credit'; provenance line; days strip; lead 'Web Summit Lisbon: your first day, from airport to arena'; Now and next; Latest",
+   "think": "Clear. A free credit, fine. Let me look at the first real day"
+  },
+  {
+   "screen": "day1-d0",
+   "see": "'Tuesday 10 November: what is on', '74 items ... five things to plan around'; Five things: 10:30, 11:00, 11:30, 12:00, 14:00, all 'Stage 2 · Press conference'",
+   "think": "These are the five things to plan around? They are all press conferences. Where are the big talks?"
+  }
+ ],
+ "interview": {
+  "would_return": "yes for the front page; the day pages need the real highlights",
+  "trust": "the provenance line and 'AI agents' in plain words reassure him",
+  "what_lost_her": "n/a",
+  "what_lost_him": "the 'five things' on the summit days"
+ },
+ "findings": [
+  "F54"
+ ],
+ "checked": "the five things on days 10, 11 and 12 read from the served index.md twins; the cause read in newsroom/build/features/days.mjs and data/front/days.json"
+}

@@ -25,6 +25,14 @@
       "read_by": "curator@web-summit",
       "supports": "what the company does, from its own site (title and description)",
       "kind": "other"
+    },
+    {
+      "id": "fl1",
+      "url": "https://exa.ai/",
+      "read_on": "2026-11-07",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Exa's home page, re-read for its flow (read 7 November 2026, 07:25 UTC): \"the world's data for AI agents\": a Search API at three latencies (Lite, Auto, Deep), results, answers or structured output, a Contents API, an Agent API and an MCP server; coding agents searching docs and repos (the flow agent-searches-the-web)."
     }
   ]
 }

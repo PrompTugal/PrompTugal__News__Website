@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/company-flows.schema.json",
+  "company": "keewano",
+  "mapped_by": "ontologist@PrompTugal.dinis",
+  "mapped_on": "2026-11-07",
+  "flows": [
+    {
+      "id": "agent-asks-the-event-record",
+      "name": "An agent asks a question of the complete event record (Keewano)",
+      "summary": "Keewano's home page, in its five steps: raw events stay intact, are tied to entities and timelines, mapped to shared meaning, reasoned over beside the record, and answered to agents through standard interfaces.",
+      "source": "own1",
+      "steps": [
+        {
+          "actor": "Keewano",
+          "what": "Ingests raw events from the existing stack (Kafka, Postgres, Snowflake, BigQuery, SDKs, Parquet or Iceberg) and keeps every event intact, in order, per entity.",
+          "source": "own1"
+        },
+        {
+          "actor": "Keewano",
+          "what": "Ties events to entities, timelines and outcomes, and maps raw event names to shared concepts (a semantic layer).",
+          "source": "own1"
+        },
+        {
+          "actor": "An agent",
+          "what": "Asks a question through MCP (Keewano MCP for Agents), SQL, REST or an API.",
+          "agent": "Ask the question.",
+          "source": "own1"
+        },
+        {
+          "actor": "Keewano",
+          "what": "Runs reports, sequence comparison or custom logic beside the record and answers, grounded in the events behind it.",
+          "source": "own1"
+        }
+      ]
+    }
+  ]
+}

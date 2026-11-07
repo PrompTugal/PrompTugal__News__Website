@@ -5,7 +5,7 @@
   "title": "Portugal as Brazil's door to Europe: an office, an incubator, a soft landing in Aveiro",
   "beat": "Brazil",
   "topic": null,
-  "status": "idea",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/correspondent/ideas/br6-portugal-as-the-door.md"
@@ -13,23 +13,48 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/correspondent/ideas/br6-portugal-as-the-door.md"
+      "desks/correspondent/ideas/br6-portugal-as-the-door.md",
+      "desks/journalist-promptugal/drafts/BR6-portugal-as-the-door.md",
+      "desks/journalist-promptugal/checks/BR6.md",
+      "content/articles/brazils-doors-into-europe.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.dinis",
   "needs": null,
   "held": null,
-  "draft": null,
-  "check": null,
+  "draft": "desks/journalist-promptugal/drafts/BR6-portugal-as-the-door.md",
+  "check": "desks/journalist-promptugal/checks/BR6.md",
   "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "article": {
+    "path": "content/articles/brazils-doors-into-europe.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-06T03:55Z",
       "by": "correspondent@PrompTugal.dinis",
       "file": "desks/correspondent/ideas/br6-portugal-as-the-door.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-07",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "desks/journalist-promptugal/drafts/BR6-portugal-as-the-door.md"
+    },
+    {
+      "column": "fact-check",
+      "at": "2026-11-07",
+      "by": null,
+      "file": "desks/journalist-promptugal/checks/BR6.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-07",
+      "by": "journalist@PrompTugal.dinis",
+      "file": "content/articles/brazils-doors-into-europe.md"
     }
   ]
 }

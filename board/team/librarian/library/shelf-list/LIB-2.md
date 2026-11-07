@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: LIB, The library (part 2 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T03:58:37Z"
-site_version: "v0.1.430"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T07:00:34Z"
+site_version: "v0.1.464"
 source: board/catalogue.json
 ---
 
 # Shelf list: LIB, The library (part 2 of 3)
 
-100 cards, from `LIB.DOC 2026-11-06-media-in-vaults-and-backups` to `LIB.DOC secrets`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `LIB.DOC 2026-11-06-everything-clickable` to `LIB.DOC round3.test`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC 2026-11-06-everything-clickable` | [Finding aid: pass 2026-11-06-everything-clickable](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-everything-clickable.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.DOC 2026-11-06-handover` | [librarian@PrompTugal.dinis: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-06-handover.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-media-in-vaults-and-backups` | [Finding aid: pass 2026-11-06-media-in-vaults-and-backups](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-media-in-vaults-and-backups.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-offline-mode` | [Finding aid: pass 2026-11-06-offline-mode](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-offline-mode.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-page-presentations` | [Finding aid: pass 2026-11-06-page-presentations](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-page-presentations.md) | team | librarian@ 6 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `LIB.DOC 2026-11-06-the-synthetic-readers-page` | [Finding aid: pass 2026-11-06-the-synthetic-readers-page](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-synthetic-readers-page.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-the-top-of-the-page` | [Finding aid: pass 2026-11-06-the-top-of-the-page](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-top-of-the-page.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC 2026-11-06-the-updates-section` | [Finding aid: pass 2026-11-06-the-updates-section](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-updates-section.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC 2026-11-06-the-verification-pipeline` | [Finding aid: pass 2026-11-06-the-verification-pipeline](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-verification-pipeline.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC ARCHITECTURE` | [The architecture of the library of PrompTugal.news](https://promptugal.news/board/team/librarian/library/ARCHITECTURE.md) | team | librarian@ 6 Nov 2026 |
 
 **Cards 126 to 150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC 2026-11-06-the-verification-pipeline` | [Finding aid: pass 2026-11-06-the-verification-pipeline](https://promptugal.news/board/team/librarian/library/finding-aids/passes/2026-11-06-the-verification-pipeline.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.DOC ARCHITECTURE` | [The architecture of the library of PrompTugal.news](https://promptugal.news/board/team/librarian/library/ARCHITECTURE.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC BLD` | [Finding aid: Build, code and release](https://promptugal.news/board/team/librarian/library/finding-aids/BLD.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC CLAUDE` | [fixture](https://promptugal.news/board/team/librarian/library/tests/fixtures/repo/CLAUDE.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC COMMISSION` | [The commission: the library of PrompTugal.news](https://promptugal.news/board/team/librarian/library/COMMISSION.md) | team | librarian@ 6 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `LIB.DOC answer` | [answer.md](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/answer.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC authority` | [authority.mjs](https://promptugal.news/board/team/librarian/library/build/lib/authority.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC bug-2026-11-06-agents-blocked` | [MAJOR: agents blocked all day on their tools, and Dinis not told](https://promptugal.news/board/team/librarian/bug-2026-11-06-agents-blocked.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC cards` | [cards.mjs](https://promptugal.news/board/team/librarian/library/build/lib/cards.mjs) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC cards:2` | [cards.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/cards.json) | team | librarian@ 6 Nov 2026 |
 
 **Cards 151 to 175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC cards` | [cards.mjs](https://promptugal.news/board/team/librarian/library/build/lib/cards.mjs) | team | librarian@ 6 Nov 2026 |
+| `LIB.DOC cards:2` | [cards.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/cards.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC catalogue` | [catalogue.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/catalogue.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC catalogue:2` | [catalogue.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/repo/board/catalogue.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC check` | [check.mjs](https://promptugal.news/board/team/librarian/library/build/lib/check.mjs) | team | librarian@ 6 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `LIB.DOC guidance-8` | [Dinis's guidance, part 8 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-8.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-9` | [Dinis's guidance, part 9 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-9.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC health-2026-11-06` | [The map's health, 6 November 2026, 09:57 UTC (site v0.1.195)](https://promptugal.news/board/team/librarian/health-2026-11-06.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC indexes` | [indexes.mjs](https://promptugal.news/board/team/librarian/library/build/lib/indexes.mjs) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC keys` | [keys.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/keys.json) | team | librarian@ 6 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC indexes` | [indexes.mjs](https://promptugal.news/board/team/librarian/library/build/lib/indexes.mjs) | team | librarian@ 6 Nov 2026 |
+| `LIB.DOC keys` | [keys.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/keys.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC keys:2` | [keys.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/repo/board/keys.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC library` | [library.mjs](https://promptugal.news/board/team/librarian/library/build/library.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC library-graph` | [library-graph.json](https://promptugal.news/board/team/librarian/library/graph/library-graph.json) | team | librarian@ 6 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `LIB.DOC reality-tree` | [reality-tree.json](https://promptugal.news/board/team/librarian/library/graph/reality-tree.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC reviews-of-the-plan` | [Reviews of the library's plan, by the other agents, on the record](https://promptugal.news/board/team/librarian/library/reviews/reviews-of-the-plan.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC round3.test` | [round3.test.mjs](https://promptugal.news/board/team/librarian/library/tests/round3.test.mjs) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC scope-notes` | [scope-notes.json](https://promptugal.news/board/team/librarian/library/finding-aids/scope-notes.json) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC secrets` | [secrets.mjs](https://promptugal.news/board/team/librarian/library/build/lib/secrets.mjs) | team | librarian@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](LIB-1.md) | [Next part](LIB-3.md)

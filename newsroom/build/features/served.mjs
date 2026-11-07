@@ -13,12 +13,20 @@ export const DIRS = ['desks', 'data', 'board', 'design'], EXT = ['js', 'mjs', 'c
 export const DROP = 'api/v1/deploy-exclude.txt'
 const ACTIVE = /<script|\son[a-z]+\s*=|javascript:|<foreignObject/i, SHOTS = 'design/shots'
 
-export function api(ctx) {
+// made last (build.mjs, after the API is written), so it can see every path the pages and the API name
+export function final(ctx) {
     const used = new Set()
     for (const p of ctx.pages) { const f = ctx.R(p.rel); if (!fs.existsSync(f)) continue
         for (const m of fs.readFileSync(f, 'utf8').matchAll(/(?:src|href)="([^"#?]*design\/shots\/[^"#?]+)"/g)) used.add(path.posix.normalize(path.posix.join(path.posix.dirname(p.rel), m[1]))) }
     const all = fs.existsSync(ctx.R(SHOTS)) ? fs.readdirSync(ctx.R(SHOTS)).map(f => `${SHOTS}/${f}`) : []
-    return [{ path: DROP, schema: null, data: all.filter(f => !used.has(f)).sort().map(f => '/' + f).join('\n') + '\n' }]
+    // and every image or PDF under board/ that no page and no JSON of the API names (devops@, 7 November 06:14: the
+    // published tree had grown to about 130 MB, 22 MB of it pictures and decks in board/). Conservative: a path named
+    // anywhere in a built page or in api/ stays.
+    const named = new Set(), BIN = /board\/[A-Za-z0-9_.@%+-]+(?:\/[A-Za-z0-9_.@%+-]+)*\.(?:png|jpe?g|gif|webp|pdf)/gi
+    for (const f of ctx.pages.map(p => ctx.R(p.rel))) if (fs.existsSync(f)) for (const m of fs.readFileSync(f, 'utf8').matchAll(BIN)) named.add(decodeURI(m[0]))
+    for (const a of ctx.api || []) for (const m of (typeof a.data === 'string' ? a.data : JSON.stringify(a.data)).matchAll(BIN)) named.add(decodeURI(m[0]))
+    const board = execFileSync('git', ['ls-files', 'board/'], { cwd: ctx.ROOT }).toString().split('\n').filter(f => /\.(png|jpe?g|gif|webp|pdf)$/i.test(f) && !named.has(f))
+    return [{ path: DROP, data: [...all.filter(f => !used.has(f)), ...board].sort().map(f => '/' + f).join('\n') + '\n' }]
 }
 
 export function validate(gate) {
