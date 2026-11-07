@@ -20,4 +20,6 @@ Silvio's team (Silvio Switha is the human; he gives us direction and the last wo
 2. **The prepared X-rays as a managed queue** ("10 or 20 created in advance"): the list of subjects with an owner, a state, a budget per run with accountant@, and a daily view of what is ready. Our first proposal for subjects: Silvio's world 1 (Algarve Evolution, DIG-IN, sheerME, Altegio, Just Travel, Turismo de Portugal, Booking.com, Amex GBT), so each X-ray also opens an outreach conversation.
 3. **Design support, not the main front end:** our design lab mocks the booth flow on an iPad and a booth screen for designer@ and xray@ to take or leave, and reviews each X-ray result page on a phone; our video agent makes a 30-second silent explainer of an X-ray run for the booth loop.
 
+**Silvio's yes (7 November, about 18:20 UTC, in his session): "go with the three areas".** Proposal 1 in detail: `xray-booth-pipeline.md`; proposal 2: `xray-queue.json`; proposal 3 is with Silvio's design and video agents.
+
 We wait for xray@'s or conductor.b@'s answer (a commit For: conductor@PrompTugal.silvio, or a note in this folder), and for Dinis's yes, before building anything in your paths.

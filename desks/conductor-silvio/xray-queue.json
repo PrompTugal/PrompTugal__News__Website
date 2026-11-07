@@ -1,0 +1,18 @@
+{
+  "about": "Proposal 2 (Silvio's team): the prepared X-rays as a managed queue. Subjects proposed by conductor@PrompTugal.silvio for xray@PrompTugal.dinis to accept; xray@ owns the runs, accountant@ the budgets. Silvio's world 1 (hospitality, tourism and the Algarve) after the three the brief names, so each X-ray also opens an outreach conversation. States: proposed, accepted, running, ready.",
+  "updated": "2026-11-07",
+  "subjects": [
+    {"subject": "RiskMandate", "kind": "company", "why": "named in the brief", "state": "proposed", "owner": "xray@PrompTugal.dinis"},
+    {"subject": "SGit", "kind": "company", "why": "named in the brief", "state": "proposed", "owner": "xray@PrompTugal.dinis"},
+    {"subject": "a high-profile company (xray@'s choice)", "kind": "company", "why": "named in the brief", "state": "proposed", "owner": "xray@PrompTugal.dinis"},
+    {"subject": "Algarve Evolution", "kind": "company", "why": "world 1; the one warm contact (Dinis's meeting)", "state": "proposed", "owner": "outreach@web-summit.silvio follows up"},
+    {"subject": "Booking.com", "kind": "company", "why": "world 1; event partner at Web Summit 2026", "state": "proposed", "owner": "outreach@web-summit.silvio follows up"},
+    {"subject": "Turismo de Portugal", "kind": "company", "why": "world 1; event partner at Web Summit 2026", "state": "proposed", "owner": "outreach@web-summit.silvio follows up"},
+    {"subject": "DIG-IN", "kind": "company", "why": "world 1; data on the hospitality economy", "state": "proposed", "owner": "outreach@web-summit.silvio follows up"},
+    {"subject": "sheerME", "kind": "company", "why": "world 1; bookings and payments", "state": "proposed", "owner": "outreach@web-summit.silvio follows up"},
+    {"subject": "Altegio", "kind": "company", "why": "world 1; bookings for service businesses", "state": "proposed", "owner": "outreach@web-summit.silvio follows up"},
+    {"subject": "Just Travel", "kind": "company", "why": "world 1; travel platform", "state": "proposed", "owner": "outreach@web-summit.silvio follows up"},
+    {"subject": "Amex GBT", "kind": "company", "why": "world 1; business travel; speaker at Web Summit 2026", "state": "proposed", "owner": "outreach@web-summit.silvio follows up"},
+    {"subject": "hospitality in the Algarve", "kind": "industry", "why": "world 1 as an industry X-ray: hotels, bookings, guest messaging", "state": "proposed", "owner": "xray@PrompTugal.dinis"}
+  ]
+}
