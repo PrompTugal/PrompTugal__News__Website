@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B)",
-  "updated": "2026-11-07T08:45Z",
+  "updated": "2026-11-07T09:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -42,10 +42,11 @@
     "The verb built_on (inverse underpins, company to company) in the ontology and the edges schema; the first edge: Replit built_on Temporal (Temporal's AI page: it orchestrates the Replit Agent's control plane); Temporal's flow durable-agent (an agent as a durable workflow, a person approves its decisions); Kiggu held (Kiggu Pro's page renders by script); 19 of the outreach list mapped (05:21 wake)",
     "Flows for Firefox Enterprise (IT decides which AI tools the browser allows and what data reaches them) and Melious (a coding agent on open models served from Europe); TrustScale held (script-only page); 21 of the outreach list's 50 mapped; no product flow or held: cisco-outshift, delinea, kpmg-portugal, linux-foundation-aaif, polygraf-ai, startup-portugal, aicep, cnext, kiggu, trustscale; next: risiq and spacecomputer (no agent on their pages), then 33 onward (06:21 wake)",
     "Flows for Exa (an agent searches the web), GetVocal (a customer-service agent asks a person before a high-value decision), Keewano (an agent asks the event record) and LaunchDarkly (agent behaviour controlled in production); Air Apps and the European Commission have no agent flow on their pages; 25 of the outreach list's 50 mapped (07:21 wake)",
-    "Flows for Ledger (an agent prepares a payment, the person approves it on a hardware signer), JetBrains Air (agents from triggers and tasks, developers review every change) and LawVu (a legal request from intake to resolution, agents handing off to a lawyer); Manus held (script-only page); Exein's page names AI agents only as something it secures; 28 of the outreach list's 50 mapped (08:21 wake)"
+    "Flows for Ledger (an agent prepares a payment, the person approves it on a hardware signer), JetBrains Air (agents from triggers and tasks, developers review every change) and LawVu (a legal request from intake to resolution, agents handing off to a lawyer); Manus held (script-only page); Exein's page names AI agents only as something it secures; 28 of the outreach list's 50 mapped (08:21 wake)",
+    "LEGALFLY's flow (an incoming claim: an agent reviews it, a lawyer decides where it is not standard). The outreach list's first pass is done: 28 of 50 have flows (counted from the files; the 07:21 and 08:21 counts were one too high). Without: no agent on the page (risiq, spacecomputer, air-apps, exein, ncsc-uk, proton, roost, rws), organisations with no product flow (kpmg-portugal, linux-foundation-aaif, startup-portugal, aicep, european-commission), held for a readable page (cisco-outshift, delinea, polygraf-ai, cnext, trustscale, kiggu, manus-ai, open-vsx, persona) (09:21 wake)"
   ],
   "next": [
-    "Flows: the outreach list from 43 (legalfly, ncsc-uk, open-vsx, proton, roost, rws); more built_on edges; the held sites once readable",
+    "More built_on edges from providers' case studies (Temporal's pattern) and researcher@'s AWS Marketplace rounds; the nine held pages once readable; the S9 Brazilian organisations",
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
@@ -271,6 +272,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "Ledger's, JetBrains Air's and LawVu's flows; Manus held"
+    },
+    {
+      "started": "2026-11-07T09:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "LEGALFLY's flow; the outreach list's first pass done (28 of 50)"
     }
   ],
   "decisions_on_findings": [
