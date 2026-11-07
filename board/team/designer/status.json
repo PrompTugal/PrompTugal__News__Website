@@ -2,7 +2,7 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T18:48Z",
+  "updated": "2026-11-07T19:36Z",
   "done": [
     "18:48 an image for the new article plan-your-week-by-field (WK1): the AI draft had most of its 56 numbers wrong (0.15 USD, rejected), so a new tool draws it from the article's own table with no AI (design/infographics/table/make.mjs): every number exact. OpenRouter works again. WS125's corrections are not in its image. sherpa@'s G6 (the credit pill on the graph pages) is H7's design (board/spec-home-page-designs.md section 9): the pill into the Ask panel on a phone; the currency stays Dinis's",
     "17:42 the daily debrief refreshed with the day since 00:48 (board/team/designer/debriefs/2026-11-07-handover.md, section 5); the evening newsletter is due 19:30 Lisbon, checked at the 19:33 wake",
@@ -373,6 +373,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "WK1's image drawn from its own table; OpenRouter works again"
+    },
+    {
+      "started": "2026-11-07T19:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the evening newsletter edition checked"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
