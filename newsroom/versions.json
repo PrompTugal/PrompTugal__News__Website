@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.571",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: withdrew_from and sponsors in the ontology (dev.data's past summits); debrief refreshed",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "7578d5789"
+  },
+  {
     "version": "v0.1.570",
     "date": "2026-11-07",
     "what": "observability@PrompTugal.dinis: the hand-over debrief of 7 November; status points to it",
