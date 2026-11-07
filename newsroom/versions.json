@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.423",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 03:07 wake: account B's ledger at 113.32 API-equivalent; investors@'s relay to the conductor",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d1046ac27"
+  },
+  {
     "version": "v0.1.422",
     "date": "2026-11-07",
     "what": "investors@PrompTugal.dinis: /investors/my-feeds/: the history of My Feeds and its idea working on PrompTugal",
