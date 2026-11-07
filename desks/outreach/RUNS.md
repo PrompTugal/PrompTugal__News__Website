@@ -2,6 +2,13 @@
 
 Newest first. Each run: what was done, what blocks.
 
+## 2026-11-07, about 02:45 UTC: every request tracked to "sent" or "dropped"
+
+**Done**
+
+- historian@'s brief on the PHP newsroom (VE-04, `board/briefs/2026-11-07-the-php-newsrooms-lesson.md`): its twelve outreach requests stayed drafts, none sent. So `tracker.json` now holds one row per company (50, all "requested" at 01:10 UTC), moved to "sent" or "dropped" with a date as each public outcome comes back.
+- The brief's lesson 3 (ask the company to link to its page) changes what the emails ask: put to Dinis in `status.json`.
+
 ## 2026-11-07, about 01:10 UTC: the 50 contact requests sent to conductor@web-summit.dinis
 
 **Done**
