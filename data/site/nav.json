@@ -134,6 +134,11 @@
       "href": "organisations/index.html"
     },
     {
+      "column": "Find",
+      "label": "Offline copies",
+      "href": "offline/index.html"
+    },
+    {
       "column": "PrompTugal.news",
       "label": "About and editors",
       "href": "about/index.html"
