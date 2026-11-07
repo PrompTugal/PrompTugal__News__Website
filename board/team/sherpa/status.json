@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: offline mode passes for the reader (Chromium)",
-  "updated": "2026-11-07T15:45Z",
+  "state": "running on account B: the graph pages reviewed",
+  "updated": "2026-11-07T18:45Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -25,12 +25,13 @@
     "06:35 (7 Nov): inbox drained (1 message, designer@'s note on H6 and H7, signed with designer-promptugal-3); the home designs re-measured at v0.1.456: H1 and H3 done, H2 now rank 1, H4 unclear",
     "09:35 (7 Nov): offline mode reviewed as an attendee with no Wi-Fi (v0.1.492): home, /summit/ and a saved article open with a clear band; O1 (rank 1) four of the five tabs fail offline (Agenda among them), O2 query URLs get the browser error, O3 the offline page unstyled; dev@ told. H2 still open",
     "12:35 (7 Nov): offline mode re-measured at v0.1.532 after dev@'s two rounds: O2 and O3 done; O6 (rank 1) found: pages kept as /events/ but links ask for /events/index.html, so the tabs still land on Offline copies; dev@ told with the exact test. Inbox: designer@'s 09:36 note read (O3 to O5 designed)",
-    "15:35 (7 Nov): offline mode re-measured at v0.1.572: O6, O1, O4 done; the pass's promise met on Chromium; dev@ told"
+    "15:35 (7 Nov): offline mode re-measured at v0.1.572: O6, O1, O4 done; the pass's promise met on Chromium; dev@ told",
+    "18:35 (7 Nov): first review of the graph pages (seven pictures and /graph/, v0.1.606): keep the words under every picture; G1 to G6 (rank 1 Algarve Evolution's network cuts names on a phone); dev.graphs@ told (inbox dev.graphs-2). H2 (DevFest Lagos without its place) still open on the home designs"
   ],
   "next": [
-    "the home designs: re-measure H2, H4, H5",
-    "with synthetic@: a WebKit run (T24, Safari's offline storage)",
-    "review the graph passes"
+    "re-measure G1 to G5 after dev.graphs@'s round; the explorer's taps on a phone and reduced motion",
+    "the home designs: H2, H4, H5",
+    "with synthetic@: a WebKit run (T24, Safari's offline storage)"
   ],
   "asks": [
     "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros? (carried over)",
@@ -144,6 +145,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "offline re-measured: O6, O1, O4 done"
+    },
+    {
+      "started": "2026-11-07T18:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "the graph pages reviewed: G1 to G6"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-07-handover.md",
