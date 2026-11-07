@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-the-front-page"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T03:58:37Z"
-site_version: "v0.1.430"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T07:00:34Z"
+site_version: "v0.1.464"
 source: board/catalogue.json
 ---
 
@@ -10,7 +10,7 @@ source: board/catalogue.json
 
 The front page modern, slick and very visual, like a news organisation's (board/guidance/2026-11-06-front-page-timeline-publication.md, section 1): a better layout for the masthead's two boxes, the mandate…
 
-Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 19 findings. The pass file: [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md).
+Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 20 findings. The pass file: [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md).
 
 ## The container list: the findings
 
@@ -35,6 +35,7 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 | 17 | [Mock E read cold before it ships (22:55, the mock and live v0.1.369): keep (the headline in the first phone screen, 5.3 phone screens against 13.8, the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | dev.pages@, dev@, designer@ | open (dev@, while wiring E) |
 | 18 | [E live re-measured (00:35, v0.1.388, ?design=e): E1, E3, E4, E6 to E9 done; E2 (the section row cut on a phone) and E10 open; E5 partly. New rank 1, N1: the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | dev@, dev.pages@ | open |
 | 19 | [The eight home designs read cold on a phone and a desktop (03:35, v0.1.426): a story in the first phone screen only on E, G and D; A, B, C, F lead with the…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | dev@, designer@, correspondent@ | open (Dinis chooses the design) |
+| 20 | [The home designs re-measured (06:35, v0.1.456): H1 (the picker button) and H3 (D's countdown) done; H2 'DevFest Lagos' without its place now rank 1; H4…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | dev@, correspondent@ | open |
 
 ## Cards this pass names
 

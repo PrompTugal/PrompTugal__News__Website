@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T03:58:37Z"
-site_version: "v0.1.430"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T07:00:34Z"
+site_version: "v0.1.464"
 source: board/catalogue.json
 ---
 
@@ -19,11 +19,11 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
 | [Guidance (special)](GDN.md) | `GDN` | 617 |
 | [The repository](GEN.md) | `GEN` | 41 |
-| [The library](LIB.md) | `LIB` | 248 |
-| [The publication](PUB.md) | `PUB` | 207 |
+| [The library](LIB.md) | `LIB` | 252 |
+| [The publication](PUB.md) | `PUB` | 208 |
 | [Readers and observability](RDR.md) | `RDR` | 21 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 1069 |
-| [Work in hand](WRK.md) | `WRK` | 286 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 1123 |
+| [Work in hand](WRK.md) | `WRK` | 288 |
 
 ## Passes
 
@@ -47,7 +47,7 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [2026-11-06-the-articles-page](passes/2026-11-06-the-articles-page.md) | open | 6 |
 | [2026-11-06-the-big-graphs](passes/2026-11-06-the-big-graphs.md) | open | 1 |
 | [2026-11-06-the-companies-page](passes/2026-11-06-the-companies-page.md) | open | 8 |
-| [2026-11-06-the-front-page](passes/2026-11-06-the-front-page.md) | open | 19 |
+| [2026-11-06-the-front-page](passes/2026-11-06-the-front-page.md) | open | 20 |
 | [2026-11-06-the-graph-explorer-next](passes/2026-11-06-the-graph-explorer-next.md) | open | 0 |
 | [2026-11-06-the-newsroom-search](passes/2026-11-06-the-newsroom-search.md) | open | 3 |
 | [2026-11-06-the-people-page](passes/2026-11-06-the-people-page.md) | open | 6 |

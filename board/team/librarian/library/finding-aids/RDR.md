@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: Readers and observability"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T03:58:37Z"
-site_version: "v0.1.430"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T07:00:34Z"
+site_version: "v0.1.464"
 source: board/catalogue.json
 ---
 
@@ -36,7 +36,7 @@ The shelf list (the cards in call-number order, 25 to a table): [open](../shelf-
 
 ## See also
 
-- [Work in hand](WRK.md) (50 connections from this collection)
+- [Work in hand](WRK.md) (51 connections from this collection)
 - [Agents, roles, keys](TEAM.md) (48 connections from this collection)
 - [The repository](GEN.md) (36 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
