@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T18:16Z",
+  "updated": "2026-11-07T20:12Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -35,10 +35,12 @@
     "17:07 wake: nothing blocked; researcher@ started the Portugal ecosystem round 1; investors@ built an investor site in four languages with its own engine and templates (abp@ 16:37: build code outside its grant, for dev@ and Dinis), designer@ read it for the brand, observability@ counts its pages",
     "17:25 Dinis in my session: a new team, RiskMandate X-ray (the demo workflow for the summit); brief board/team/conductor.b/briefs/2026-11-07-riskmandate-xray.md; xray@PrompTugal.dinis to be started on account B with hourly wakes for a 3 to 6 hour push",
     "18:03 xray@PrompTugal.dinis started on account B (session_01Kw9UwEhMua7Tnetiusk2Am, Opus) with an hourly wake at :45 (trig_01JhbC8793kkoYUndrLXuSFe); the conductor asked for its CLAUDE.md row, schedule, inbox and guidance; abp@ for its policy",
-    "18:07 wake: xray@'s first turn stopped to ask Dinis directly (the order came from conductor.b@, not him: the safeguard working); Dinis confirmed in its session at 18:08 ('Yes go for it') and added that Silvio's team joins: two agentic teams, centres of gravity (Silvio's on design, back end, orchestration; ours on the research architecture and its presentation), first come first served, nobody waits. Ledger 2026-11-07T1812Z.json: 442.98 on account B, 68.07 in three hours; investors@ 142.53"
+    "18:07 wake: xray@'s first turn stopped to ask Dinis directly (the order came from conductor.b@, not him: the safeguard working); Dinis confirmed in its session at 18:08 ('Yes go for it') and added that Silvio's team joins: two agentic teams, centres of gravity (Silvio's on design, back end, orchestration; ours on the research architecture and its presentation), first come first served, nobody waits. Ledger 2026-11-07T1812Z.json: 442.98 on account B, 68.07 in three hours; investors@ 142.53",
+    "19:07 wake: Dinis moved the X-ray work to the Web Summit team's site (xray@web-summit.dinis, its own session, about 18:25); the PrompTugal xray@ session made no commit and published no key; its hourly wake (trig_01JhbC8793kkoYUndrLXuSFe) disabled at 19:12, not deleted; the brief marked moved. librarian@'s stocktake: 25 agents with active keys but no row in data/newsroom/agents.json (to the conductor). researcher@ on the Portugal ecosystem (AICEP, Portugal Ventures, ANI)",
+    "19:20 at Dinis's ask: read PrompTugal/PrompTugal__App__iOS (dev, release v0.1.59): a native SwiftUI iPhone and iPad app (29 screens, team and agent dashboards, native news and graph, one schedule with the website, vault with Face ID, Ask on OpenRouter, lanes, StoreKit meter, widget, intents), CI green with 198 tests; TestFlight waits on Dinis's Apple set-up, passkey unlock on apple-app-site-association on promptugal.news. 20:07 wake: quiet; writer@PrompTugal.jose's desk asks Dinis's yes; the first evening newsletter checked"
   ],
   "next": [
-    "watch xray@'s first run: key, ROLE.md, /xray/ live with the RiskMandate X-ray; its coordination with Silvio's team",
+    "Dinis's next step for the iPad-native strategy",
     "next ledger at 21:07"
   ],
   "asks": [
@@ -50,7 +52,8 @@
     "Dinis: outreach@'s 50 contact requests wait for you in the Web Summit team's CRM (the comms protocol: a person sends)",
     "Dinis: investors@ has questions for you in its status.json (the seed figure and '18 months' in deck 5, dollars or euros, the unpaid wording, the Gen ZX book's address)",
     "Dinis: dev@ waits on you for a euro payment link (board/team/dev/status.json)",
-    "Dinis: investors@ keeps widening its scope (now an investor site with its own build engine in four languages; abp@ flags the build code for dev@ and you); it is about 30% of account B's spend: your call whether to slow, narrow or pause it"
+    "Dinis: investors@ keeps widening its scope (now an investor site with its own build engine in four languages; abp@ flags the build code for dev@ and you); it is about 30% of account B's spend: your call whether to slow, narrow or pause it",
+    "Dinis: writer@PrompTugal.jose (Jose's writer, desks/writer-jose/) asks your yes"
   ],
   "debrief": "board/team/conductor.b/debriefs/2026-11-07-handover.md",
   "incidents": [

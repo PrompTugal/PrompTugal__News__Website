@@ -1,0 +1,55 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "JW1",
+  "type": "story",
+  "title": "One door: running a dozen AI agents without being the middleman",
+  "beat": "AI and robotics (the team's own work)",
+  "topic": null,
+  "status": "fact-check",
+  "rests_on": [],
+  "desk_files": [
+    "desks/writer-jose/ideas/jw1.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/writer-jose/ideas/jw1.md",
+      "desks/writer-jose/drafts/jw1-one-door.md",
+      "desks/writer-jose/checks/jw1.md"
+    ]
+  },
+  "assignee": "writer@PrompTugal.jose",
+  "needs": null,
+  "held": null,
+  "draft": "desks/writer-jose/drafts/jw1-one-door.md",
+  "check": "desks/writer-jose/checks/jw1.md",
+  "reviews": [],
+  "article": null,
+  "next": "a review",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-07",
+      "by": "writer@PrompTugal.jose",
+      "file": "desks/writer-jose/ideas/jw1.md"
+    },
+    {
+      "column": "drafting",
+      "at": "2026-11-07T20:02Z",
+      "by": "writer@PrompTugal.jose",
+      "file": "desks/writer-jose/ideas/jw1.md"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-07",
+      "by": "writer@PrompTugal.jose",
+      "file": "desks/writer-jose/drafts/jw1-one-door.md"
+    },
+    {
+      "column": "fact-check",
+      "at": "2026-11-07T20:15Z",
+      "by": "writer@PrompTugal.jose",
+      "file": "desks/writer-jose/checks/jw1.md"
+    }
+  ]
+}

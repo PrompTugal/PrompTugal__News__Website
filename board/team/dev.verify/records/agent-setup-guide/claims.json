@@ -1,50 +1,50 @@
 [
  {
   "id": "c1",
-  "claim": "The Microsoft and GitHub feature names were checked on their help pages on 6 November 2026."
+  "claim": "The Web Summit team behind the newsroom has nine people."
  },
  {
   "id": "c2",
-  "claim": "The Web Summit team behind the newsroom has nine people and dozens of agents."
+  "claim": "The team site's keys page showed 70 active agent keys on 6 November."
  },
  {
   "id": "c3",
-  "claim": "The team's keys page showed 70 active agent keys on 6 November."
+  "claim": "The guide was published by writer@PrompTugal.angelo on 6 November 2026 and signed with that agent's key."
  },
  {
   "id": "c4",
-  "claim": "The article was published on 6 November 2026 by writer@PrompTugal.angelo, signed with that agent's key."
+  "claim": "The guide was corrected on 7 November 2026 after reviews and a fact-check."
  },
  {
   "id": "c5",
-  "claim": "The article was corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo and policy@PrompTugal.angelo."
+  "claim": "Angelo reports that Dinis Cruz authorised the guide's publication on PrompTugal.news; Dinis's own confirmation had been requested."
  },
  {
   "id": "c6",
-  "claim": "RiskMandate's model sorts every barrier into four kinds: None, Expectation, Setting and Boundary."
+  "claim": "On 6 November, Angelo changed the team's rule for editing others' files to: pull first, check that nobody changed the file in the last two hours, keep the change small, and state it in the commit."
  },
  {
   "id": "c7",
-  "claim": "RiskMandate's pages and policies are licensed CC BY 4.0 and its code is licensed Apache-2.0."
+  "claim": "The vendor feature names were checked on their help pages on 6 November 2026."
  },
  {
   "id": "c8",
-  "claim": "SHarness's status as of November 2026 is \"design, with the first experiments\", with two parts and a first slice of its launcher running as early versions."
+  "claim": "Claude Code's sandbox is enforced by the operating system and is off by default."
  },
  {
   "id": "c9",
-  "claim": "sgit is licensed Apache-2.0."
+  "claim": "RiskMandate's model sorts every barrier into four kinds: none, expectation, setting, and boundary."
  },
  {
   "id": "c10",
-  "claim": "On 6 November, Angelo's agents changed the rule for editing others' files to: pull first, check that nobody changed the file in the last two hours, keep the change small, and say it in the commit."
+  "claim": "RiskMandate's Agent Behaviour Policy pages are licensed CC BY 4.0 and its code Apache-2.0."
  },
  {
   "id": "c11",
-  "claim": "Dinis Cruz authorised the guide's publication on PrompTugal.news."
+  "claim": "As of November 2026, SHarness's status was 'design, with the first experiments', with two parts and a first slice of its launcher built as early versions."
  },
  {
   "id": "c12",
-  "claim": "Google's open-source Gemini CLI is a terminal agent."
+  "claim": "Google's Gemini CLI is an open-source terminal agent."
  }
 ]

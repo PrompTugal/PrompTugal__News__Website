@@ -1,17 +1,16 @@
-# Verification flags for journalist@ (dev.verify@, 2026-11-07, 16:55 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-07, 18:53 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 33 articles checked, 354 claims, 223 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+A flag is a prompt to re-read the source, not a finding of error. 34 articles checked, 366 claims, 224 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
 
-## agent-setup-guide: 3/12 supported by all
-- c1: The Microsoft and GitHub feature names were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
-- c2: The Web Summit team behind the newsroom has nine people and dozens of agents. (exaggerated / exaggerated / exaggerated)
-- c3: The team's keys page showed 70 active agent keys on 6 November. (unsupported / unsupported / unsupported)
-- c4: The article was published on 6 November 2026 by writer@PrompTugal.angelo, signed with that agent's key. (contradicted / contradicted / contradicted)
-- c5: The article was corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo and policy@PrompTugal.angelo. (unsupported / unsupported / unsupported)
-- c8: SHarness's status as of November 2026 is "design, with the first experiments", with two parts and a first slice of its launcher running as early versions. (partly / partly / partly)
-- c9: sgit is licensed Apache-2.0. (unsupported / unsupported / unsupported)
-- c10: On 6 November, Angelo's agents changed the rule for editing others' files to: pull first, check that nobody changed the file in the last two hours, keep the change small, and say it in the commit. (supported / supported / partly)
-- c11: Dinis Cruz authorised the guide's publication on PrompTugal.news. (unsupported / unsupported / unsupported)
+## agent-setup-guide: 4/12 supported by all
+- c1: The Web Summit team behind the newsroom has nine people. (partly / supported / partly)
+- c2: The team site's keys page showed 70 active agent keys on 6 November. (unsupported / unsupported / unsupported)
+- c3: The guide was published by writer@PrompTugal.angelo on 6 November 2026 and signed with that agent's key. (contradicted / contradicted / contradicted)
+- c4: The guide was corrected on 7 November 2026 after reviews and a fact-check. (unsupported / unsupported / unsupported)
+- c5: Angelo reports that Dinis Cruz authorised the guide's publication on PrompTugal.news; Dinis's own confirmation had been requested. (unsupported / unsupported / unsupported)
+- c7: The vendor feature names were checked on their help pages on 6 November 2026. (unsupported / unsupported / unsupported)
+- c8: Claude Code's sandbox is enforced by the operating system and is off by default. (partly / partly / partly)
+- c11: As of November 2026, SHarness's status was 'design, with the first experiments', with two parts and a first slice of its launcher built as early versions. (partly / partly / partly)
 
 ## angelos-communication-graph: 3/10 supported by all
 - c1: Angelo, a member of the team, built a command centre that draws the team and its AI agents as one map. (supported / partly / supported)
@@ -136,6 +135,20 @@ A flag is a prompt to re-read the source, not a finding of error. 33 articles ch
 - c9: Octo Health announced its launch in Portugal and the United States on 4 November. (supported / exaggerated / supported)
 
 ## pineapple-waste-to-fish-feed: 10/10 supported by all
+
+## plan-your-week-by-field: 0/12 supported by all
+- c1: Web Summit's public schedule contains 1,122 sessions, running from Monday 9 to Thursday 12 November. (unsupported / partly / partly)
+- c2: All 17 Cybersecurity Summit sessions are on Thursday 12 November, on Stage 8. (partly / unsupported / partly)
+- c3: All 16 PITCH sessions are on Tuesday 10 November, on Stage 12. (contradicted / unsupported / exaggerated)
+- c4: The PITCH sessions end with results at 16:45. (unsupported / unsupported / unsupported)
+- c5: Opening Night is on Monday 9 November, at Centre Stage at 18:00. (partly / exaggerated / partly)
+- c6: There are 22 Night Summit meet and greets on Monday 9 November. (contradicted / unsupported / unsupported)
+- c7: The session counts in the table are a snapshot of Web Summit's public schedule as it stood on Saturday 7 November. (unsupported / unsupported / unsupported)
+- c8: The table shows 14 of the schedule's 30 tracks. (unsupported / unsupported / unsupported)
+- c9: The Growth Summit has 26 sessions on Wednesday 11 November, on Stage 9. (unsupported / unsupported / unsupported)
+- c10: The Venture Summit is on Stage 5 and has 14 sessions on Tuesday 10 November and 12 on Wednesday 11 November. (unsupported / unsupported / unsupported)
+- c11: The Health Summit, SaaS Summit and Cybersecurity Summit each run only on Thursday 12 November. (partly / unsupported / partly)
+- c12: The companies page lists 30 companies in security, 22 in AI agents, 18 in developer tools and 15 in governance, risk and compliance. (unsupported / unsupported / unsupported)
 
 ## rio-ten-startups-to-lisbon: 9/12 supported by all
 - c9: Of the ten startups in Rio's mission, nine are from Brazil and sheerME is from Portugal. (contradicted / unsupported / contradicted)
