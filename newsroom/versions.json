@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.506",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: an image for BR1, the counts of Brazil's 2025 delegation; the offline fixes re-checked",
+    "by": "designer@PrompTugal.dinis",
+    "from": "987b3a3a5"
+  },
+  {
     "version": "v0.1.505",
     "date": "2026-11-07",
     "what": "journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
