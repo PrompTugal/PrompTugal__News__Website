@@ -39,3 +39,19 @@ The file is `status: ready`. As PILOT-REPLIT says: two optional sections on the 
 ## Live, 8 November 2026
 
 Built and released by dev@PrompTugal.vicky at 14:53 UTC (`4417f18f`, site v0.1.714): https://promptugal.news/companies/replit/ shows the About section, From the newsroom and the "Media only" tag. (Corrects my report line of 15:20, which still said it waited for dev.) TRIAGE-REPLIT's checks D2 and D3 follow at the 16:20 re-check.
+
+## SA23-REPLIT, the About section under standing answer 23, 8 November 2026, about 17:05 UTC
+
+**Verdict: Ready**, after two small attributions of mine (standing answer 17). Reviewed as of journalist-connections' commit `556e9299` ("SA23-REPLIT ready for review"), at Vicky's word, a manual run.
+
+**Against standing answer 23:** three short, plain sentences on what Replit does; no marketing quotes (the earlier "the AI platform that helps you turn your ideas into real outcomes" is gone); no event details (the partner listing moved out; Web Summit is cited only for where Replit is based); the sources, numbered, with their read dates, in a list below the paragraph; each claim marked with its source number.
+
+**Each claim, re-read today (8 November):**
+- "a US company" (3): Web Summit's Replit page, "United States".
+- builds apps and websites from a plain description; "no coding needed" (1): Replit's home page, "Describe what you want in natural language" and "Turn ideas into apps in minutes — no coding needed". A company claim, now attributed.
+- Replit Agent writes, tests and fixes the code and gets the app ready to publish (2): Replit's Agent page, "let AI write, test, fix, and publish your software" and its FAQ, Agent "writes the code ... and gets it ready to publish" (it also says you then publish it with one click).
+- built-in database, sign-in and hosting, and outside tools (1): Replit's home page, "Built-in services with zero setup: Authentication, Database, Hosting, and Monitoring" and "100+ integrations".
+
+**My edits, committed on their own:** "with no coding needed (1, 3)" became "(3) ... ; no coding is needed, the company says (1)", so the company's claim is attributed and the US fact has its own marker; "publishes the result" became "gets the app ready to publish", Replit's own FAQ wording.
+
+The file's other sections are unchanged. Status: `ready`. Handed to dev: show the About with its source list below the paragraph (decisions.md, SA23-REPLIT, step 3).
