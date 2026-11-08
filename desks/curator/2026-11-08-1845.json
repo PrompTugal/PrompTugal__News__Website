@@ -1,0 +1,132 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-08T18:45Z",
+  "for": "journalist-ai and journalist-connections, via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9, pulled 8 November 2026 at 18:38 UTC: new commit 9d60c61fbd05 (researcher's 18:15 run: the featured-startups capture revised with country, stage and pitch for the 100 startups).",
+    "also_read": "The researcher's report to about 19:00 (it says pages 2 to 26 are not read and asks Vicky about the page's search service), the published articles, every desk's drafts, the site's company data folders and this desk's storyline map, for the duplicate check (standing answers 20 and rule 25)."
+  },
+  "rules": "Every fact is from the capture, as the researcher wrote it. Pitches are the companies' own descriptions and are not checked. The curator added none, checked none and rewrote no source. This is the first run with the desk review across all five desks (Vicky, 8 November).",
+  "captures": [
+    {
+      "id": "v-websummit-featured-startups-p1",
+      "file": "vault 41j3e9s9, captures/2026-11-08-websummit-featured-startups-p1.md",
+      "source_url": "https://websummit.com/featured-startups/",
+      "beat": "the summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Revised by the researcher at 18:15: for each of the 100 startups on page 1 of 26, country, programme stage (all GROWTH on this page) and the company's own one-line pitch, under the page's industry tag (30 AI and machine learning, 11 fintech, 11 healthtech and wellness, 6 hardware, robotics and IoT, and others). Countries: 19 United States, 11 Brazil, 8 Germany, 6 Korea, 5 France, 4 Portugal, 4 United Kingdom, and 26 other places in smaller numbers. Pitches are the companies' own words, not checked facts.",
+      "is_story": true,
+      "group": "participants"
+    }
+  ],
+  "groups": {
+    "participants": [
+      "v-websummit-featured-startups-p1"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "The company profile pages the site already holds for Keewano, GetVocal AI, Cnext, Mastra and Polygraf AI (data/companies)",
+      "verdict": "not a duplicate, noted",
+      "why": "Profiles are one company each; S29 is a cross-company theme and should link to them, not repeat them."
+    },
+    {
+      "item": "S28 (five AI builders, speakers) and S16 (Europe's AI help and Portuguese AI startups)",
+      "verdict": "different angle",
+      "why": "S28 is the big companies' speakers; S16 is European public help. S29 is the startups on the featured list, by the part of an AI agent each builds."
+    },
+    {
+      "item": "Mobile Brain (Brazil, healthtech)",
+      "verdict": "already in the Brazil articles as one of Brazil's startups",
+      "why": "S30 may include it for its theme; the Brazil articles do not cover the health theme."
+    }
+  ],
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The new material is participants, not practical or programme information; nothing new since the road-closure capture of 6 November, and S1, S24 and S27 cover the practical ground.",
+      "gap_for_researcher": "None specific."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "The only European item is that about 38 of the first 100 startups are from European countries, a count over one list page of 26; as a story it would mislead.",
+      "gap_for_researcher": "Country counts for the whole featured list (pages 2 to 26; the researcher has asked Vicky whether it may read them)."
+    },
+    "portugal": {
+      "no_assignment": true,
+      "reason": "Four Portuguese startups are among the first 100 (iTRTech Group, DIG-IN, sheerME, ChatPlace), but a story saying 'four' would misstate the total, and each rests on the company's own pitch alone.",
+      "gap_for_researcher": "All Portuguese startups on the full featured list (pages 2 to 26), and public press or company pages that say what each Portuguese startup does."
+    },
+    "ai": {
+      "assignment": "S29",
+      "ready": true,
+      "reader_angle": "Anyone building or buying AI agents: who makes which part, in the startups' own words.",
+      "source_ids": [
+        "v-websummit-featured-startups-p1"
+      ],
+      "duplicate_check": "Run 8 Nov 18:45 on titles and company names against content/articles, every desk's drafts and the storyline map: no match; company profile pages exist, linked not repeated."
+    },
+    "connections": {
+      "assignment": "S30",
+      "ready": true,
+      "reader_angle": "Health founders, investors and curious readers: the field by problem tackled, from a first look at the featured list.",
+      "source_ids": [
+        "v-websummit-featured-startups-p1"
+      ],
+      "duplicate_check": "Run 8 Nov 18:45: no article or draft covers these startups' health theme; Mobile Brain appears only in the Brazil articles."
+    }
+  },
+  "for_the_fact_checker": [
+    {
+      "item": "S29 and S30",
+      "what": "Page 1 of 26 only, so these are samples, not the list. Pitches are the companies' own words; figures and awards inside them (for example Armeta's) must not be repeated unchecked. Countries are as the page shows them."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S29",
+      "kind": "team-desk",
+      "title": "Who builds the parts of an AI agent? Startups at Web Summit",
+      "beat": "AI and robotics",
+      "angle": "A reader's guide to the AI-agent stack as eight startups on Web Summit's featured list describe themselves: Mastra (United States, a TypeScript framework for building agents), Keewano (Israel, a database for AI agents), Acrab AI (Singapore, computing infrastructure for agentic AI), Humanos (United States, an identity and risk passport for agents), Polygraf AI (United States, behavioural control and governance), then products built on top: GetVocal (France, contact centres), Beyond Presence (Germany, real-time avatars), Cnext (Belgium, agentic solutions for European businesses).",
+      "rests_on": [
+        "v-websummit-featured-startups-p1"
+      ],
+      "note": "For journalist-ai (AI desk). Ready to write now. Condition: say it is the first page of 26 and the descriptions are the companies' own; re-read the featured list and each company's own page the same day; no ranking or claim of leadership. Link to the existing company profile pages for Keewano, GetVocal AI, Cnext, Mastra and Polygraf AI.",
+      "words": 11
+    },
+    {
+      "id": "S30",
+      "kind": "connections",
+      "title": "Eleven health startups at Web Summit, by the problem they tackle",
+      "beat": "Connections: the summit",
+      "angle": "The health and wellness startups on the featured list, grouped by the problem each says it tackles: diagnostics at the pharmacy counter (Igloo, Germany), chronic pain (AURIMOD, Austria), rare diseases (Raras Health, Brazil), cognitive assessment from speech (Mobile Brain, Brazil), telemedicine (Olá Doutor and Rapidoc, Brazil), patient engagement (SPRYT, Ireland), recovery (Seroton, Germany), healthcare payers and providers (Nice Deer, Egypt), medical cannabinoids (NeoCannBio, Korea), and beauty and wellness bookings (sheerME, Portugal).",
+      "rests_on": [
+        "v-websummit-featured-startups-p1"
+      ],
+      "note": "For journalist-connections. Ready to write now. Condition: first page of 26 only, say so; pitches are the companies' own; no claim that any two will meet or work together; re-read the featured list and each company's page the same day. The writer may drop companies it cannot verify.",
+      "words": 11
+    }
+  ],
+  "connections_priority": [
+    {
+      "id": "S30",
+      "mature_to_write_now": true,
+      "condition": "As in its note."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "earlier hold",
+      "change": "The 14:45 map held the healthtech, fintech and AI startups until what they do was captured; the revised capture now gives it, so healthtech (S30) and the AI group (S29) are assigned. Fintech is not assigned yet (no cross-cutting angle beyond a list)."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    "Pages 2 to 26 of the featured list (country, stage, pitch), if Vicky allows it: it would let the Portugal, Europe and summit desks have assignments.",
+    "What the speakers' organisations do (still open from 10:15)."
+  ],
+  "urgent": "None"
+}
