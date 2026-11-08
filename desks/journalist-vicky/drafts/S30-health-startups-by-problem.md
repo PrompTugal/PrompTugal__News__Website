@@ -13,7 +13,7 @@ image_alt: "Eleven health startups at Web Summit, by problem: getting care, 4; f
 ---
 ## In short
 
-- Eleven startups on the first page of Web Summit's featured list are filed under healthtech and wellness.
+- Eleven startups on the first page of Web Summit's featured list are filed under healthtech and wellness. That page is 1 of 26, and all 100 startups on it are at the GROWTH stage, so the eleven are not a complete or representative list.
 - Four help people get care: a doctor by chat, telemedicine under a partner's brand, an AI assistant for clinics, and claims for insurers.
 - Three help find out what is wrong sooner: a blood test at the pharmacy, cognitive checks from speech, and faster diagnosis of rare diseases.
 - Two work on new treatments, and two on recovery and wellbeing.
@@ -61,7 +61,7 @@ The eleven health and wellness startups on the first page of Web Summit's featur
 
 ## What this does not claim
 
-- **This covers the first page of Web Summit's featured list only.** More health startups may appear on later pages.
+- **These eleven come from page 1 of 26 of Web Summit's featured startups, whose 100 entries are all GROWTH stage.** They are not a complete or representative list of the health startups at Web Summit. Later pages, and startups at the list's other stages (ALPHA and BETA), are not covered.
 - **The descriptions and figures are the companies' own**, from their Web Summit listings. We have not checked them.
 - **The groups are ours.** Some companies could fit more than one.
 - **We do not know when or where each startup exhibits.** The list gives no days or stands.
@@ -69,5 +69,5 @@ The eleven health and wellness startups on the first page of Web Summit's featur
 
 ## Where this comes from
 
-- [Web Summit, "Featured startups at Web Summit"](https://websummit.com/featured-startups/) (the eleven healthtech and wellness startups and each one's own description), read 8 November 2026
+- [Web Summit, "Featured startups at Web Summit"](https://websummit.com/featured-startups/) (page 1 of 26; its 100 entries, all GROWTH stage; the eleven healthtech and wellness startups and each one's own description), read 8 November 2026
 - From the curator's map: S30, `desks/curator/README.md`
