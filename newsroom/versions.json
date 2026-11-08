@@ -1,5 +1,173 @@
 [
   {
+    "version": "v0.1.675",
+    "date": "2026-11-08",
+    "what": "devops@PrompTugal.dinis: runs 1236 to 1280 read; dev.graphs' gate finding sent; the 8 November debrief",
+    "by": "devops@PrompTugal.dinis",
+    "from": "7145a8427"
+  },
+  {
+    "version": "v0.1.674",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: wake 00:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "93f2fb48e"
+  },
+  {
+    "version": "v0.1.673",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.graphs's live map (/newsroom/live/, phases 1 to 2.3) onto dev, its data step in place of dev@'s",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8a851b790"
+  },
+  {
+    "version": "v0.1.672",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 00:07 wake: the live map built on its branch; account B's ledger at 560.48",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a8bd8db8b"
+  },
+  {
+    "version": "v0.1.671",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the live map's data live; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "317046d56"
+  },
+  {
+    "version": "v0.1.670",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the data for Dinis's live map: api/v1/newsroom/live.json from the commits' Agent, For and To trailers",
+    "by": "dev@PrompTugal.dinis",
+    "from": "63d47e051"
+  },
+  {
+    "version": "v0.1.669",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: the live map routed: dev.graphs@ builds, dev@ reviews",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d7fccca95"
+  },
+  {
+    "version": "v0.1.668",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: brief: Dinis's live map of his agents, after Angelo's Live view",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c4b60f48d"
+  },
+  {
+    "version": "v0.1.667",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: Startup Portugal's held-back thread files released after dev@'s gate fix",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "a8da7cede"
+  },
+  {
+    "version": "v0.1.666",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the newsletter's thumbnails pass (P2); designer.experiments@'s day brought onto dev",
+    "by": "designer@PrompTugal.dinis",
+    "from": "deaa2175a"
+  },
+  {
+    "version": "v0.1.665",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: the 7 November hand-over debrief, refreshed for the evening",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "6ea3849cd"
+  },
+  {
+    "version": "v0.1.664",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: wake 23:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7673f1af8"
+  },
+  {
+    "version": "v0.1.663",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the newsletter's stories with their thumbnails on the page (designer@'s P2)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c1bdda7c4"
+  },
+  {
+    "version": "v0.1.662",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "ebac0725f"
+  },
+  {
+    "version": "v0.1.661",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: 23:07 wake: account B quiet; nothing blocked",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d540b00b8"
+  },
+  {
+    "version": "v0.1.660",
+    "date": "2026-11-07",
+    "what": "synthetic@PrompTugal.dinis: wake 22:44: F61 verified; F60 in progress; no reader run",
+    "by": "synthetic@PrompTugal.dinis",
+    "from": "a537d729e"
+  },
+  {
+    "version": "v0.1.659",
+    "date": "2026-11-07",
+    "what": "correspondent@PrompTugal.dinis: wake 22:41: the venue map to the top three; the newsletter placed",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "a653c5670"
+  },
+  {
+    "version": "v0.1.658",
+    "date": "2026-11-07",
+    "what": "outreach@PrompTugal.dinis: Startup Portugal's draft follows its page (the Portugal stand); the updated request sent",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "bade8cbff"
+  },
+  {
+    "version": "v0.1.657",
+    "date": "2026-11-07",
+    "what": "designer@PrompTugal.dinis: the interactive agent-setup guide read for the brand: in brand, one small note",
+    "by": "designer@PrompTugal.dinis",
+    "from": "ade673676"
+  },
+  {
+    "version": "v0.1.656",
+    "date": "2026-11-07",
+    "what": "writer@PrompTugal.jose: JW1: the two queued fixes: the automation decision at 12:25 UTC; the pick's link pinned to a team-site commit",
+    "by": "writer@PrompTugal.jose",
+    "from": "6970bb554"
+  },
+  {
+    "version": "v0.1.655",
+    "date": "2026-11-07",
+    "what": "writer@PrompTugal.angelo: the interactive guide, elevated in PrompTugal's brand: hero, a sticky \"read this as\", \"for you\" boxes, icons, tiles",
+    "by": "writer@PrompTugal.angelo",
+    "from": "39e19860f"
+  },
+  {
+    "version": "v0.1.654",
+    "date": "2026-11-07",
+    "what": "journalist@PrompTugal.dinis: the 7 November debrief refreshed; nothing new to publish",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "ad100f6ff"
+  },
+  {
+    "version": "v0.1.653",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: the Portugal stand: all_day taken off (its post gives days, not hours)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ee4e9bb47"
+  },
+  {
+    "version": "v0.1.652",
+    "date": "2026-11-07",
+    "what": "ontologist@PrompTugal.dinis: the Portugal stand at Web Summit 2026, as an event",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "0d98c155b"
+  },
+  {
     "version": "v0.1.651",
     "date": "2026-11-07",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",

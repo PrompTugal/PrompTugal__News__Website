@@ -1,0 +1,185 @@
+{
+  "$schema": "none",
+  "article": "crowdstrike",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/attendees/lis26/bd793867-29f9-4c1a-b1dc-753cfd598717/george-kurtz",
+      "status": 200,
+      "read": true,
+      "chars": 2351
+    },
+    {
+      "url": "https://websummit.com/featured-attendees/",
+      "status": 200,
+      "read": true,
+      "chars": 2423
+    },
+    {
+      "url": "https://www.crowdstrike.com/en-us/",
+      "status": 200,
+      "read": true,
+      "chars": 26102
+    },
+    {
+      "url": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+      "status": 200,
+      "read": true,
+      "chars": 22668
+    }
+  ],
+  "spent_usd": 0.0783,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named CrowdStrike.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "CrowdStrike: We Stop Breaches with AI-native Cybersecurity",
+          "note": "The company's own homepage is titled with the name CrowdStrike, and the other sources also refer to CrowdStrike as the company."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "George Kurtz Co-founder & CEO CrowdStrike",
+          "note": "The source identifies CrowdStrike as the company co-founded and led by CEO George Kurtz."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Co-founder & CEO CrowdStrike",
+          "note": "S1 identifies George Kurtz as Co-founder & CEO of CrowdStrike, showing the company is named CrowdStrike."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://www.crowdstrike.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "https://www.crowdstrike.com/en-us/",
+          "note": "S3 is a CrowdStrike page on the crowdstrike.com domain, and S4 is too, but no source states the root address https://www.crowdstrike.com/ as the company's website."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources state what the company's official website address is."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://www.crowdstrike.com/en-us/",
+          "note": "S3 is CrowdStrike's official site on the crowdstrike.com domain, supporting the claimed website."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Global cybersecurity company with a cloud-native, AI-native platform protecting endpoints, cloud workloads, identities and data.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the sources contains the claimed self-description, including the phrases \"Global cybersecurity company\" and \"cloud-native\"; the CrowdStrike pages (S3, S4) only use \"AI-native\" and list endpoint, cloud, identity, and data products."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources contain the quoted description or mention the company describing itself with this phrasing."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "AI-native Cybersecurity",
+          "note": "The source supports an AI-native cybersecurity focus and endpoint, cloud, identity, and data coverage, but it does not state the exact 'global' or 'cloud-native' self-description."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country United States.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "CrowdStrike United States",
+          "note": "The Web Summit attendee page lists CrowdStrike (George Kurtz's company) with the country United States, and S2 shows the same listing, though the claim does not name the company, so I assumed it is CrowdStrike."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources list attendee George Kurtz alongside his title, company (CrowdStrike), and United States, but do not state that the company itself is listed under the United States."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "CrowdStrike United States",
+          "note": "The source lists CrowdStrike alongside United States in George Kurtz's attendee entry."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "George Kurtz Co-founder & CEO CrowdStrike",
+          "note": "The S1 attendee page (URL slug lis26) lists George Kurtz as a Featured Speaker with CrowdStrike as his company, though the page text itself does not name Lisbon 2026."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Featured Speaker Share Share on X Share on LinkedIn Copy link George Kurtz Co-founder & CEO CrowdStrike",
+          "note": "George Kurtz is listed as a featured speaker from CrowdStrike for Web Summit Lisbon 2026 (lis26)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "George Kurtz Co-founder & CEO CrowdStrike",
+          "note": "S1 lists George Kurtz as a Featured Speaker at Web Summit Lisbon 2026 with CrowdStrike as his company."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

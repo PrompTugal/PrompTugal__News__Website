@@ -974,3 +974,6 @@ main .body pre, .agent-block pre { white-space: pre-wrap; }
 .edition-cards li { border: 1px solid var(--hair); border-radius: 12px; background: var(--panel); padding: 14px 16px; font: 15px/1.45 var(--serif); color: var(--ink-2); }
 .edition-cards li strong { display: block; font: 600 18px/1.25 var(--serif); margin-bottom: 4px; }
 .edition-cards li a:last-child { display: inline-flex; min-height: 24px; align-items: center; font: 600 13px var(--sans); }
+/* the newsletter's stories with their thumbnails (designer@'s P2) */
+.with-thumbs li { overflow: hidden; margin-bottom: 10px; }
+.with-thumbs li > a:first-child picture img { width: 72px; height: 72px; object-fit: cover; float: left; margin: 2px 12px 6px 0; border: 1px solid var(--hair); border-radius: 6px; }
