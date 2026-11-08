@@ -17,7 +17,7 @@ The arena and the exhibition centre share one campus, and the schedule names a s
 
 ## What this map shows, and does not {#about}
 
-The summit's buildings and its programme, from the public record. No person is ever on it. Nothing on this page is stored about you, and the page runs no script.
+The summit's buildings and its programme, from the public record. No person is ever on it. Nothing on this page is stored about you. The map itself is plain drawing; one small script, on this page only, reads your picks from this browser to show your day on it, and sends nothing anywhere.
 
 ## Where the drawing comes from {#source}
 

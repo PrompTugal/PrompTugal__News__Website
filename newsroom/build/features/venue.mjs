@@ -35,7 +35,7 @@ function svg(map, lit, small, name, aria) {
         `<desc id="vn-d">${esc(W_.desc)}</desc>` +
         `<path d="${map.river}" class="vn-river"/>` +
         map.streets.map(s => `<path d="${s.d}" class="vn-street"/><text x="${s.at[0]}" y="${s.at[1]}" transform="rotate(${s.angle} ${s.at[0]} ${s.at[1]})" class="vn-street-lab">${esc(s.short)}</text>`).join('') +
-        map.areas.map(a => `<path d="${a.d}" class="vn-area vn-${a.kind}${on.has(a.id) ? ' vn-on' : ''}"><title>${esc(a.label)}</title></path>`).join('') +
+        map.areas.map(a => `<path d="${a.d}" data-id="${a.id}" class="vn-area vn-${a.kind}${on.has(a.id) ? ' vn-on' : ''}"><title>${esc(a.label)}</title></path>`).join('') +
         map.areas.map(label).join('') +
         `<text x="${map.areas.find(a => a.label === 'FIL').c[0]}" y="46" text-anchor="middle" class="vn-lab vn-lab-big">FIL</text></svg>`
 }
@@ -59,7 +59,23 @@ export function decorate(page, ctx) {
     if (page.rel !== PAGE) return
     const map = mapData(ctx), { by } = litOf(ctx), lit = ROWS.filter(([k]) => by(k).length).map(([k, p]) => AT[p])
     const prev = page.postHtml
-    page.postHtml = html => { const h = html.replace(`<p>${TOKEN}</p>`, `<figure class="venue-fig">${svg(map, lit)}</figure>`); return prev ? prev(h) : h }
+    page.postHtml = html => { const h = html.replace(`<p>${TOKEN}</p>`, `<figure class="venue-fig">${svg(map, lit)}</figure>${myDay(ctx, page)}`); return prev ? prev(h) : h }
+}
+
+// "My day on the map" (B1 item 3): a hidden block that assets/venue/venue.js fills from the reader's own picks. The page
+// carries the programme's places as JSON (event id to building), the one thing the script needs; no person, no network.
+function myDay(ctx, page) {
+    const w = JSON.parse(fs.readFileSync(ctx.R('assets/venue/my-day.json'), 'utf8')), events = {}, areas = {}
+    for (const [k, p] of ROWS) areas[k] = AT[p].areas
+    for (const e of ctx.store.events || []) {
+        if (!e.date || e.date < '2026-11-06' || e.date > '2026-11-13') continue
+        const at = locate(ctx, e), id = e.id.replace(/^event:/, '')
+        const b = at ? (at.key === 'campus' ? JSON.parse(fs.readFileSync(ctx.R('assets/venue/where-is-it.json'), 'utf8')).campus : ctx.store.get(ROWS.find(r => r[0] === at.key)[1]).name) : ''
+        events[id] = { n: e.title || id, d: e.date, t: e.time || '', k: at ? at.key : '', b, u: ctx.link(page.rel, `events/${id}/index.html`).replace(/index\.md$/, 'index.html') }
+    }
+    const json = JSON.stringify({ events, areas, words: w }).replace(/</g, '\\u003c')
+    const link = ctx.link(page.rel, 'my-day/index.html').replace(/index\.md$/, 'index.html')
+    return w.html.replace('{heading}', esc(w.heading)).replace('{intro}', w.intro.replace('{link}', link)).replace('{json}', () => json)
 }
 
 // "Where is it?" (B1 item 2): on an event page of the 2026 programme, its building picked out on a small copy of the map.
@@ -77,7 +93,7 @@ export function decorateEvent(page, ctx) {
     const prev = page.postHtml
     page.postHtml = html => { const h = html.replace('</table>', () => '</table>' + fig); return prev ? prev(h) : h }
 }
-export const assets = { css: ['assets/venue/venue.css'] }
+export const assets = { css: ['assets/venue/venue.css'], js: ['assets/venue/venue.js'] }
 export const llms = ctx => `## Venue map\n- [summit/venue/](${ctx.BASE}summit/venue/index.md): the summit's buildings in Parque das Nações, from OpenStreetMap, and the sessions our programme puts in each. No people on it.`
 
 export function validate(gate) {
@@ -97,6 +113,11 @@ export function validate(gate) {
         if (/<(script|foreignObject)|\son[a-z]+=/i.test(m[0])) out.push(`${f}: map: script`)
     }
     if (!n) out.push('events/: no map')
+    const js = gate.text('assets/venue/venue.js')
+    if (/fetch\(|XMLHttpRequest|sendBeacon|WebSocket|EventSource|importScripts/.test(js)) out.push('assets/venue/venue.js: network call')
+    if (/—/.test(js)) out.push('assets/venue/venue.js: an em-dash')
+    if (!/id="vn-data"/.test(page)) out.push('summit/venue/: no data block')
+    else if (/"(person|people|zone|vault|lat|lon|pin)"\s*:/.test(page.match(/id="vn-data">([\s\S]*?)<\/script>/)[1])) out.push('summit/venue/: data block holds a person')
     if (/—/.test(j)) out.push('assets/venue/venue-map.json: an em-dash')
     return out
 }

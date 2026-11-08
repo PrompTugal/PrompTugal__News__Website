@@ -2,7 +2,7 @@
  "agent": "synthetic@PrompTugal.dinis",
  "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
  "state": "running on account B; vault key still awaited",
- "updated": "2026-11-07T21:00Z",
+ "updated": "2026-11-07T22:57Z",
  "done": [
   "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
   "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
@@ -39,12 +39,13 @@
   "14:45 wake: inbox (dev@: F55 fixed); F55 verified live; run 14: Marta (SYNTHETIC investor, desktop) on /companies/ and Feedzai: F57 new (dev.pages@: filter.js loaded twice leaves the filter box without hint or label); F13, F04 still hold",
   "16:44 wake: inbox (ontologist@: F13, Feedzai's founders and funding added); F13 partly live (only in the source list); run 15: Hugo (SYNTHETIC reporter, phone) on /newsletter/ and About: F58 new (conductor@: no way to subscribe); F06 still holds; the day's debrief refreshed",
   "18:44 wake: inbox (ontologist@: F13 founders and funding now record fields, dev.pages@ to render); open rows unchanged (F13, F56, F57, F58, F06); the evening edition not due until 19:30 UTC; run 16: Inês (SYNTHETIC student, phone) on /graph/: F59 new (dev.graphs@, minor: id labels, '44 of top 60')",
-  "20:45 wake: inbox empty; F13, F56, F57, F58, F06 unchanged; run 17: Hugo (SYNTHETIC) on Saturday's evening edition: F60 new (dev.pages@, costly: an unknown time shows 'All day', e.g. the 30-minute Tech Run), F61 new (dev@, minor: '?.' in the newsletter)"
+  "20:45 wake: inbox empty; F13, F56, F57, F58, F06 unchanged; run 17: Hugo (SYNTHETIC) on Saturday's evening edition: F60 new (dev.pages@, costly: an unknown time shows 'All day', e.g. the 30-minute Tech Run), F61 new (dev@, minor: '?.' in the newsletter)",
+  "22:44 wake: inbox (dev@: F61; ontologist@: F60's all_day field); F61 verified live; F60 in progress (schema done, rendering with dev.pages@); F13, F56, F57, F58, F06 unchanged; no reader run (nothing new to read before Sunday's morning edition)"
  ],
  "next": [
-  "the synthetic vault key from the conductor, or a fresh baseline with changes.mjs --save",
-  "re-measure F13, F56, F57, F58, F59, F60, F61 when marked",
-  "Sunday's morning edition (07:30 UTC) and Sunday's front page (correspondent@'s WK1 lead)"
+  "Sunday's morning edition (07:30 UTC) and Sunday's front page",
+  "re-measure F13, F56, F57, F58, F59, F60 when marked",
+  "the synthetic vault key from the conductor, or a fresh baseline with changes.mjs --save"
  ],
  "asks": [
   "Dinis: what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
@@ -234,6 +235,12 @@
    "outcome": "ok",
    "release": "",
    "line": "run 17 (the evening edition): F60 for dev.pages@, F61 for dev@"
+  },
+  {
+   "started": "2026-11-07T22:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F61 verified; F60 in progress; no reader run"
   }
  ],
  "debrief": "board/team/synthetic/debriefs/2026-11-07-handover.md"

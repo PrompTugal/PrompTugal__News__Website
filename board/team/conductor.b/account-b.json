@@ -213,6 +213,16 @@
       "started": "2026-11-07T18:03Z",
       "first_prompt": "board/team/conductor.b/briefs/2026-11-07-riskmandate-xray.md (brief) and the prompt in that session",
       "state": "stopped: Dinis moved the X-ray work to the Web Summit team's repository (xray@web-summit.dinis, its own session) at about 18:25 UTC; wake disabled 19:12 UTC; this session made no commit and published no key; to be archived by Dinis"
+    },
+    {
+      "agent": "investors.packs@PrompTugal.dinis",
+      "model": "Opus",
+      "session": "session_01Kw9UwDRrDjn4m7gXqwwktC",
+      "trigger": null,
+      "cron": null,
+      "started": "2026-11-07T23:11Z",
+      "first_prompt": "board/team/investors/packs-session-seed.md (investors@'s seed, unchanged) plus conductor.b@'s session notes",
+      "note": "no wake: Dinis works with it in its session; real people's data only in vaults, never in this repository"
     }
   ]
 }
