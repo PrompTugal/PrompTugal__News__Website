@@ -4,7 +4,7 @@ date: 2026-11-08
 story: S30
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: Eleven health and wellness startups appear on the first page of Web Summit's featured startups. Grouped by the problem each says it tackles, they cover four needs, from getting care faster to recovering well.
-status: ready
+status: published
 beat: "Connections: the summit"
 license: https://creativecommons.org/licenses/by/4.0/
 tags: connections, the summit, health, healthtech, startups, telemedicine, diagnostics

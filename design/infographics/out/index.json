@@ -2145,6 +2145,118 @@
     "source": "desks/journalist-vicky/drafts/img/S28-cover-card-2026-11-08.svg (drawn by journalist-connections@PrompTugal.vicky from the article's facts; rendered with Chromium by the reviewer)",
     "checked": "every line against the article and the companies' own pages, 8 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
    }
+  },
+  {
+   "slug": "who-builds-the-parts-of-an-ai-agent",
+   "theme": "paper",
+   "layout": "groups",
+   "size": "thumb",
+   "file": "who-builds-the-parts-of-an-ai-agent--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-08",
+    "source": "desks/journalist-vicky/drafts/img/S29-cover-thumb-2026-11-08.svg (drawn by the reviewer); rendered with Chromium",
+    "checked": "every label against the article, 8 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "who-builds-the-parts-of-an-ai-agent",
+   "theme": "ink",
+   "layout": "groups",
+   "size": "thumb",
+   "file": "who-builds-the-parts-of-an-ai-agent--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-08",
+    "source": "desks/journalist-vicky/drafts/img/S29-cover-thumb-2026-11-08.svg (drawn by the reviewer); rendered with Chromium",
+    "checked": "every label against the article, 8 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "who-builds-the-parts-of-an-ai-agent",
+   "theme": "paper",
+   "layout": "groups",
+   "size": "card",
+   "file": "who-builds-the-parts-of-an-ai-agent--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-08",
+    "source": "desks/journalist-vicky/drafts/img/S29-cover-card-2026-11-08.svg (drawn by the reviewer from the article's layers); rendered with Chromium",
+    "checked": "every label against the article, 8 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "who-builds-the-parts-of-an-ai-agent",
+   "theme": "ink",
+   "layout": "groups",
+   "size": "card",
+   "file": "who-builds-the-parts-of-an-ai-agent--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-08",
+    "source": "desks/journalist-vicky/drafts/img/S29-cover-card-2026-11-08.svg (drawn by the reviewer from the article's layers); rendered with Chromium",
+    "checked": "every label against the article, 8 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "health-startups-by-problem",
+   "theme": "paper",
+   "layout": "groups",
+   "size": "thumb",
+   "file": "health-startups-by-problem--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-08",
+    "source": "desks/journalist-vicky/drafts/img/S30-cover-thumb-2026-11-08.svg (drawn by the reviewer from the four groups' counts); rendered with Chromium",
+    "checked": "every label against the article, 8 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "health-startups-by-problem",
+   "theme": "ink",
+   "layout": "groups",
+   "size": "thumb",
+   "file": "health-startups-by-problem--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-08",
+    "source": "desks/journalist-vicky/drafts/img/S30-cover-thumb-2026-11-08.svg (drawn by the reviewer from the four groups' counts); rendered with Chromium",
+    "checked": "every label against the article, 8 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "health-startups-by-problem",
+   "theme": "paper",
+   "layout": "groups",
+   "size": "card",
+   "file": "health-startups-by-problem--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-08",
+    "source": "desks/journalist-vicky/drafts/img/S30-cover-card-2026-11-08.svg (drawn by journalist-connections@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 8 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "health-startups-by-problem",
+   "theme": "ink",
+   "layout": "groups",
+   "size": "card",
+   "file": "health-startups-by-problem--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-08",
+    "source": "desks/journalist-vicky/drafts/img/S30-cover-card-2026-11-08.svg (drawn by journalist-connections@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 8 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
   }
  ]
 }
