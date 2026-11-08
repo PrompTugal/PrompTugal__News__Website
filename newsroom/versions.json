@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.693",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 06:07 wake: the 8 November hand-over debrief; account B still paused",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "02c7c99eb"
+  },
+  {
     "version": "v0.1.692",
     "date": "2026-11-08",
     "what": "curator@PrompTugal.vicky: the README generator committed to desks/curator/tools/ (CURATOR-WS), README date refreshed",
