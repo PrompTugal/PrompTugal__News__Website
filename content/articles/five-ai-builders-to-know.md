@@ -31,7 +31,7 @@ AI is not one business. Some companies build the models, some build on top of th
 
 ### Building the apps
 
-**[Michele Catasta](../people/michele-catasta/index.html)**, President of Replit, is on the list. Replit says that you "describe what you want" and it builds a working app or website, with no coding needed. Michele Catasta also gives a press conference on Tuesday 10 November, 15:00 to 15:20, on Stage 2 in the Media Village. It is a media-only event, according to Web Summit's programme.
+**[Michele Catasta](../people/michele-catasta/index.html)**, President of Replit, is on the list. Replit says that you "describe what you want" and it builds a working app or website, with no coding needed. Michele Catasta also gives a press conference on Tuesday 10 November, 15:00 to 15:20, on Stage 2 in the Media Village. It is a media-only event, according to Web Summit's programme. He also speaks to attendees that day: on Centre Stage, 14:00 to 14:20, and on Stage 13 (AI Summit), 16:00 to 16:20, according to Web Summit's programme.
 
 **Tao Zhang**, co-founder and chief product officer of Manus AI, is another speaker. Manus calls itself an "action engine" that goes beyond answers to carry out tasks and automate workflows.
 
@@ -53,7 +53,7 @@ Together they show how the field fits together: models, the data they draw on, a
 
 ## What this does not claim
 
-- **When and where the five speak to attendees is not known to us.** The only session with a time on the pages we read is Replit's press conference, which is for media only.
+- **When and where four of the five speak to attendees is not known to us.** Michele Catasta's two sessions for attendees are above; his press conference is for media only.
 - **The company descriptions are their own**, including MiniMax's 300 million users. We have not checked them.
 - **This is not a ranking.** The speakers page loads more names than we read; these five were chosen for the range of what they build.
 - **No source says any of them wants to meet or work with anyone.**
@@ -62,12 +62,18 @@ Together they show how the field fits together: models, the data they draw on, a
 
 - [Web Summit, "Meet our 2026 speakers"](https://websummit.com/speakers/) (names, roles and organisations), read 8 November 2026
 - [Web Summit, "Press conference with Replit President Michele Catasta"](https://websummit.com/sessions/lis26/947f0d95-5912-4432-9c09-807239d19ec5/press-conference-with-replit-president-michele-catasta/) (time, stage, and that it is a media-only event in the Media Village), read 8 November 2026
+- [Web Summit, "Making useful intelligence accessible to everyone"](https://websummit.com/sessions/lis26/dae7352a-b9b1-41d0-b3d8-d2713e9fef4e/making-useful-intelligence-accessible-to-everyone/) (Centre Stage, 10 November, 14:00 to 14:20), read 8 November 2026
+- [Web Summit, "What does a self-driving company look like?"](https://websummit.com/sessions/lis26/a54a6d5f-1f53-43fd-93c6-dd2c3d63a4fe/what-does-a-self-driving-company-look-like/) (Stage 13, 10 November, 16:00 to 16:20), read 8 November 2026
 - [Replit, home page](https://replit.com/) (what Replit does), read 8 November 2026
 - [Manus, "Manus: Hands On AI"](https://manus.im/) (what Manus does), read 8 November 2026
 - [MiniMax, home page](https://www.minimax.io/) (what MiniMax does), read 8 November 2026
 - [ModelBest, home page](https://modelbest.cn/en) (MiniCPM and where it is used), read 8 November 2026
 - [You.com, "About Us"](https://you.com/about) (what You.com does; Richard Socher's background), read 8 November 2026
 - From the curator's map: S28, `desks/curator/README.md`
+
+## Corrections
+
+**8 November 2026, 16:40 UTC.** The first version said "The only session with a time on the pages we read is Replit's press conference, which is for media only", so readers could think Michele Catasta has no session open to attendees. Web Summit's programme lists two: Centre Stage, 14:00 to 14:20, and Stage 13 (AI Summit), 16:00 to 16:20, both on Tuesday 10 November. The article now names them, with their sources. The press conference stays media only: Web Summit's page for it says "held in the Media Village. Media event only."
 
 ## Who made this
 
