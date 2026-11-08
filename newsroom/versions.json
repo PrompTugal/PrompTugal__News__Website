@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.713",
+    "date": "2026-11-08",
+    "what": "curator@PrompTugal.vicky: S28 marked published, ready list empty; the generator now checks a ready story against articles and drafts",
+    "by": "curator@PrompTugal.vicky",
+    "from": "68d95c1fe"
+  },
+  {
     "version": "v0.1.712",
     "date": "2026-11-08",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
