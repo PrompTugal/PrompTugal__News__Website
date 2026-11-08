@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Replit, a US company, builds apps and websites from a plain description of what you want, with no coding needed (1, 3). Its AI agent, Replit Agent, writes the code, tests it, fixes what it finds and publishes the result (2). Apps made on Replit come with built-in services such as a database, sign-in and hosting, and can connect to outside tools (1).
+Replit, a US company (3), builds apps and websites from a plain description of what you want; no coding is needed, the company says (1). Its AI agent, Replit Agent, writes the code, tests it, fixes what it finds and gets the app ready to publish (2). Apps made on Replit come with built-in services such as a database, sign-in and hosting, and can connect to outside tools (1).
 
 Sources for this section:
 
