@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.705",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: a channel for Dinis's memos to other teams' conductors",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "107dc6f37"
+  },
+  {
     "version": "v0.1.704",
     "date": "2026-11-08",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
