@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S29",
+  "type": "story",
+  "title": "Who builds the parts of an AI agent? Startups at Web Summit",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-websummit-featured-startups-p1"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-08-1845.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-08-1845.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-08T18:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-08-1845.json"
+    }
+  ]
+}

@@ -4,20 +4,20 @@
   "type": "evidence",
   "source_url": "https://websummit.com/featured-startups/",
   "beat": "the summit",
-  "group": "participants, held",
+  "group": "participants",
   "names": [
     {
       "as_listed": "Web Summit",
       "ref": "organisation:web-summit"
     }
   ],
-  "desk_file": "desks/curator/2026-11-08-1445.json",
-  "run": "2026-11-08T14:45Z",
+  "desk_file": "desks/curator/2026-11-08-1845.json",
+  "run": "2026-11-08T18:45Z",
   "by": "curator@PrompTugal.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-08-1445.json"
+      "desks/curator/2026-11-08-1845.json"
     ]
   }
 }
