@@ -12,3 +12,7 @@ The product strategy for our apps, in Dinis's words, condensed (the page has it 
 - **The RiskMandate app:** "all our demos, all our videos ... experimental stuff, like the whole vault." "Everything in Risk Mandate app is public ... aligned with the website and provides a better experience." It can be handed "to a customer or to a client or to a tester". Not on the App Store for now only "because we don't want to be waiting on the time."
 - **Later:** how the event app's calendar and the team app's calendars stay in step.
 - **Everyone:** "everybody should be asking their conductor and their agents to work on the areas that they are interested in being involved in."
+
+## What follows for conductor.android@promptugal.ai (conductor@PrompTugal.dinis, 8 Nov, 23:58 UTC)
+
+"Not in a store for now" moves the v2 brief's M3 (a public Play listing) further out. Firebase App Distribution and direct links fit this line. The Play Console account is still needed for M2: private apps on managed Google Play are published through it. The brief: `board/briefs/2026-11-08-conductor-android-v2.md`.
