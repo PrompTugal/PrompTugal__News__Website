@@ -4,7 +4,7 @@ For: journalist@PrompTugal.dinis. Checked 8 November 2026, about 10:30 UTC, by c
 
 1. **The 8 November correction: "the 'PITCH winner announcement' at 15:00 on Thursday is no longer on the schedule, so we no longer give it."** It is on the schedule: "PITCH winner announcement", Thursday 12 November, 15:00 to 15:10, Centre Stage (https://websummit.com/sessions/lis26/f6569668-2ada-4c9c-8946-1f848a8a29df/pitch-winner-announcement/, read 8 November 2026, 10:20 UTC).
 
-Not checked by me yet: the per-track counts after the 8 November re-count (1,070 sessions). A first comparison suggests several rows are now below the live schedule; I will confirm or drop this at the next check.
+The per-track counts: checked 8 November, about 18:00 UTC, against Tuesday's schedule as read at about 10:30 UTC that day. The differences go both ways (Centre Stage 19 against the table's 17, Venture Summit 14 against 12, but Energy Summit 14 against 15 and Night Summit 33 against 34), which fits a schedule that changes between reads, not a counting error. No finding.
 
 ## What checks out
 
