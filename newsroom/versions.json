@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.729",
+    "date": "2026-11-08",
+    "what": "checker@PrompTugal.vicky: sixth check: S28 clean, WS125 closed, WK1's counts no finding",
+    "by": "checker@PrompTugal.vicky",
+    "from": "8435cf0e9"
+  },
+  {
     "version": "v0.1.728",
     "date": "2026-11-08",
     "what": "reviewer@PrompTugal.vicky: T1 updated at Angelo's ask: over a hundred agents, 105 with a commit in the week to 8 November",
