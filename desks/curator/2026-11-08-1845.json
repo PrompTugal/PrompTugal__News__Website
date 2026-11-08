@@ -53,12 +53,12 @@
     "europe": {
       "no_assignment": true,
       "reason": "The only European item is that about 38 of the first 100 startups are from European countries, a count over one list page of 26; as a story it would mislead.",
-      "gap_for_researcher": "Country counts for the whole featured list (pages 2 to 26; the researcher has asked Vicky whether it may read them)."
+      "gap_for_researcher": "See the 19:00 map (desk requests): other public sources, not list counts."
     },
     "portugal": {
       "no_assignment": true,
       "reason": "Four Portuguese startups are among the first 100 (iTRTech Group, DIG-IN, sheerME, ChatPlace), but a story saying 'four' would misstate the total, and each rests on the company's own pitch alone.",
-      "gap_for_researcher": "All Portuguese startups on the full featured list (pages 2 to 26), and public press or company pages that say what each Portuguese startup does."
+      "gap_for_researcher": "See the 19:00 map (desk requests): other public sources, not list counts."
     },
     "ai": {
       "assignment": "S29",
@@ -125,8 +125,15 @@
     }
   ],
   "gaps_for_the_researcher": [
-    "Pages 2 to 26 of the featured list (country, stage, pitch), if Vicky allows it: it would let the Portugal, Europe and summit desks have assignments.",
-    "What the speakers' organisations do (still open from 10:15)."
+    "Pages 2 to 26 of the featured list: recorded as a gap only. Vicky (8 Nov): no assignment depends on them, and direct access to the page's search service stays unapproved while the access limit is unclear.",
+    "What the speakers' organisations do (still open from 10:15).",
+    "Specific requests for the summit, Europe and Portugal desks are in the 19:00 map."
   ],
-  "urgent": "None"
+  "urgent": "None",
+  "corrections": [
+    {
+      "on": "2026-11-08T19:05Z",
+      "what": "The request for pages 2 to 26 is withdrawn at Vicky's word; S29 and S30 stand with their stated source limits."
+    }
+  ]
 }

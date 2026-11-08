@@ -1,0 +1,89 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-08T19:05Z",
+  "for": "researcher, via the existing handoff (gaps for the researcher), and journalist, journalist-europe, journalist-portugal",
+  "covers": {
+    "note": "Prompted by Vicky, 8 November: keep the pagination gap recorded without making any assignment depend on pages 2 to 26; route specific research gaps for the Portugal, Europe and summit desks to the researcher; look for reader angles supported by other accessible public sources. No new capture is mapped here."
+  },
+  "rules": "These are requests for public, normally accessible sources only: pages that open without a login, no direct use of the featured list's search service, no personal contact details. The curator does not research on its own and adds no fact; it names what it would need to assign a story.",
+  "captures": [],
+  "groups": {},
+  "duplicates_and_noise": [],
+  "pagination_gap": {
+    "status": "recorded, not requested",
+    "why": "Vicky, 8 Nov: leave pages 2 to 26 for now; direct API access remains unapproved while the access limit is unclear. S29 and S30 proceed with their stated source limits (first page of 26, pitches are the companies' own words)."
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "No new practical or programme material; S1, S24, S27 and the published week guides cover the ground we have captured."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new beyond the Commission, HaDEA, Dutch delegation and Italy-Portugal items already published (S2, S16, S17, S11)."
+    },
+    "portugal": {
+      "no_assignment": true,
+      "reason": "Nothing new beyond the Portugal banner, Road 2 Web Summit, the universities, the EY study and the Algarve plan already published (S3, S7, S10, S13)."
+    },
+    "ai": {
+      "note": "S29 assigned at 18:45; no new AI material since."
+    },
+    "connections": {
+      "note": "S30 assigned at 18:45; no new connections material since."
+    }
+  },
+  "story_candidates": [],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Which Portuguese startups are in the Road 2 Web Summit class and at the Portugal stand, and what each does, from Startup Portugal's own public page.",
+      "reader_angle": "Anyone at the summit who wants to find the Portuguese startups and know what each makes before walking up to the stand.",
+      "sources_wanted": "Startup Portugal's Road 2 Web Summit page and the Portugal stand or pavilion page, as read; each company's own public page for what it does; read date on each.",
+      "why_not_a_duplicate": "S3 and the published article cover the programme and the selection (up to 125), not the class or what its members do."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "What is on at the Pavilhão de Portugal this week (the venue map shows 6 sessions of our programme there), and any Lisbon side events around Web Summit, from the organisers' and the city's own public pages.",
+      "reader_angle": "Lisbon readers and visitors who are not attending the main event but want to join in.",
+      "sources_wanted": "Web Summit's schedule entries placed at the Pavilhão de Portugal; the Pavilhão de Portugal operator's agenda; Lisbon city council or Unicorn Factory Lisboa pages on side events during 7 to 12 November.",
+      "why_not_a_duplicate": "S27's map only counts sessions per building; no article lists what is at the Portuguese pavilion or in the city."
+    },
+    {
+      "desk": "europe",
+      "priority": 1,
+      "gap": "Which EU funding calls for startups and scale-ups are open now or announced for the autumn, with their dates, from the Commission's own public pages.",
+      "reader_angle": "A founder who hears about EU money at Web Summit and wants to know what they can apply for next, with deadlines.",
+      "sources_wanted": "The European Innovation Council, Horizon Europe and EU startup-initiative pages on europa.eu, read directly; dates and eligibility as the pages state them.",
+      "why_not_a_duplicate": "S2, S16 and S17 describe the Commission's presence and sessions at the summit, not the open calls."
+    },
+    {
+      "desk": "europe",
+      "priority": 2,
+      "gap": "Which other countries bring national delegations or pavilions to Web Summit and what each offers its visitors, from each country's own public agency page (as the Netherlands' RVO page was captured).",
+      "reader_angle": "A startup founder or visitor who wants to know where to find national lounges, matchmaking and receptions beyond the Dutch one.",
+      "sources_wanted": "Official agency pages such as Enterprise Ireland, Business France, Germany Trade and Invest, ICE Italy, Business Sweden, as read; only those that mention Web Summit 2026.",
+      "why_not_a_duplicate": "Only the Dutch delegation is captured and published (S17)."
+    },
+    {
+      "desk": "summit",
+      "priority": 1,
+      "gap": "What Web Summit itself says about accessibility, health and safety, and practical needs at the venue (step-free access, quiet spaces, first aid, family or childcare provision, lost property), from its public Essentials pages.",
+      "reader_angle": "Attendees with reduced mobility, sensory needs or children, and anyone planning a long day on the floor.",
+      "sources_wanted": "Web Summit's Essentials and FAQ pages beyond registration, venue and getting around (those are captured); the MEO Arena and FIL public pages on access.",
+      "why_not_a_duplicate": "S1 covers arrival, wristbands and transport; none of the published pieces covers accessibility or on-site practicalities."
+    },
+    {
+      "desk": "summit",
+      "priority": 2,
+      "gap": "What is on after the main sessions: Web Summit's evening events and the city's own programme in summit week, from their public pages.",
+      "reader_angle": "First-time attendees planning evenings, and residents choosing what to join.",
+      "sources_wanted": "Web Summit's public pages on evening or night events, if any; Lisbon city and tourism pages on events 9 to 12 November; times and locations as stated.",
+      "why_not_a_duplicate": "The published week guides count and place sessions by field and day, not what happens in the evening."
+    }
+  ],
+  "urgent": "None"
+}
