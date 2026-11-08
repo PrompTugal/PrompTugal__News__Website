@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.749",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 21:07 wake: ledger 648.37, account B near its seven-day limit",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "11bd0f255"
+  },
+  {
     "version": "v0.1.748",
     "date": "2026-11-08",
     "what": "conductor@PrompTugal.dinis: conductor.android@promptugal.ai started at Dinis's word, with the v2 seed brief; no scheduled task",
