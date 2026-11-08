@@ -10,6 +10,10 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## All agents stopped, 20:42 UTC, 8 November (Dinis: "ok, can you stop all agents")
+
+I disabled the 18 scheduled tasks enabled on account A. Five are PrompTugal's: conductor, security@, abp@, accountant@ and observability@. Thirteen are the Web Summit team's (@web-summit.dinis): observability, dashboard, mentor, conductor, project-manager, sgit, dev, designer, security, pulse, journalist and abp. Nothing was deleted; each task can be switched back on by its id. Account B's ten agents have been off since 02:04; conductor.b@'s own three-hourly task is on account B, which I cannot reach. The Android seed brief is revised as `board/briefs/2026-11-08-conductor-android-v2.md`.
+
 ## Catch-up wake at 20:35 UTC, 8 November
 
 **The conductor missed 28 wakes**, from 16:52 on 7 November to 19:52 on 8 November. Its worker kept restarting. security@ (13 wakes) and observability@ (28 h of drains) lost the same window; both caught up at about 20:00. No stand-up briefs went out at 16:52 on the 7th, or at 10:52 and 16:52 on the 8th. Site v0.1.745; 465 commits since 37c005ae. Inbox drained. Lanes and inboxes re-issued for the new keys (writer-jose, investors.packs).
