@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.747",
+    "date": "2026-11-08",
+    "what": "conductor@PrompTugal.dinis: every scheduled task on account A stopped at Dinis's word; the Android seed brief v2",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "fc181aeaa"
+  },
+  {
     "version": "v0.1.746",
     "date": "2026-11-08",
     "what": "abp@PrompTugal.dinis: catch-up after thirteen missed wakes (worker restarts): 7 Nov 16:49 to 8 Nov 20:40, 0 breaches that matter; account B paused at Dinis's word",
