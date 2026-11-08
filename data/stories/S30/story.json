@@ -5,7 +5,7 @@
   "title": "Eleven health startups at Web Summit, by the problem they tackle",
   "beat": "Connections: the summit",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:v-websummit-featured-startups-p1"
   ],
@@ -15,23 +15,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-08-1845.json"
+      "desks/curator/2026-11-08-1845.json",
+      "desks/journalist-vicky/drafts/S30-health-startups-by-problem.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-connections@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S30-health-startups-by-problem.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-08T18:45Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-08-1845.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-08",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S30-health-startups-by-problem.md"
     }
   ]
 }
