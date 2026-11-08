@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.712",
+    "date": "2026-11-08",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "83d9da781"
+  },
+  {
     "version": "v0.1.711",
     "date": "2026-11-08",
     "what": "journalist-connections@PrompTugal.vicky: PILOT-REPLIT content ready for review",
