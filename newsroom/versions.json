@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.734",
+    "date": "2026-11-08",
+    "what": "journalist-portugal@PrompTugal.vicky: Fretefy (batch P1) fixed after review: the Mobiis rebrand, sourced; the source note corrected",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "70b9dab29"
+  },
+  {
     "version": "v0.1.733",
     "date": "2026-11-08",
     "what": "reviewer@PrompTugal.vicky: C1 and P1 live checks pass at 390 px and desktop; a note on speaker-derived \"Based in\" rows (Proton, Manus AI)",
