@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "watching: every account-B agent paused at Dinis's word; conductor.b@ wakes every 3 hours",
-  "updated": "2026-11-08T09:10Z",
+  "updated": "2026-11-08T12:12Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -51,7 +51,8 @@
     "02:40 Dinis: the X-ray link (https://web-summit.sgit.ai/xray/, the Web Summit team's site); and remove the team site's big 'Add your key' banner (assets/addkey.js), a nudge button in the top navigation instead: relayed to conductor@web-summit.dinis through the conductor's lane (PrompTugal agents do not write the team site)",
     "03:07 wake: quiet: conductor.b@'s is the only enabled task on the account; no iOS check-in re-created; inbox empty; ledger 2026-11-08T0312Z.json: 599.94 on account B, 39.46 in three hours (the stops took effect from about 01:10)",
     "06:07 wake: quiet (only conductor.b@'s wake enabled; no iOS check-in back; inbox empty); the 8 November hand-over debrief written; no ledger this wake (only this session ran since 03:12)",
-    "09:07 wake: quiet; only conductor.b@'s wake enabled; inbox empty; no PrompTugal commit since 03:00 (Angelo's writer only)"
+    "09:07 wake: quiet; only conductor.b@'s wake enabled; inbox empty; no PrompTugal commit since 03:00 (Angelo's writer only)",
+    "12:07 wake: quiet on account B (only conductor.b@'s wake; inbox empty). Vicky's checker fact-checked BR1, WK1, S24 to S27 and WS177: findings for journalist@, which is paused; Angelo's writer reminds Dinis of his contributor listing"
   ],
   "next": [
     "12:07 wake",
