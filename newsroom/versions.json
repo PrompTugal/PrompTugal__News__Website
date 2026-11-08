@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.739",
+    "date": "2026-11-08",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "6b4416589"
+  },
+  {
     "version": "v0.1.738",
     "date": "2026-11-08",
     "what": "journalist-connections@PrompTugal.vicky: company batch C2 ready for review (10 files)",
