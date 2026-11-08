@@ -40,7 +40,8 @@ function newsroomSection(ctx, rel, c) {
     const link = new RegExp(`\\.\\./companies/${c.id}/`)
     const arts = ctx.content.filter(p => p.rel.startsWith('articles/') && String(p.meta.status || '') === 'published' && link.test(p.md || ''))
         .sort((a, b) => String(b.meta.date || '').localeCompare(String(a.meta.date || '')) || String(a.meta.title).localeCompare(String(b.meta.title)))
-    return arts.map(p => `- [${ctx.md.cell(p.meta.title)}](${ctx.link(rel, p.rel)})${p.meta.date ? `, ${readDay(p.meta.date)}` : ''}`).join('\n')
+    // each article: its link in the site's ordinary link style, then its own published summary just under it (TRIAGE-REPLIT D4, D5)
+    return arts.map(p => `[${ctx.md.cell(p.meta.title)}](${ctx.link(rel, p.rel)})${p.meta.date ? `, ${readDay(p.meta.date)}` : ''}${p.meta.summary ? `\n\n{.meta}\n${ctx.md.cell(p.meta.summary)}` : ''}`).join('\n\n')
 }
 const readDay = d => { const x = new Date(String(d).slice(0, 10) + 'T12:00:00Z'); return isNaN(x) ? String(d) : x.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) }
 
@@ -125,7 +126,7 @@ export function pages(ctx) {
                 `::: navigator n3\n::: nv\n## At the summit {#summit}\n\n${summitSection(ctx, rel, x, desk)}\n:::\n` +
                 `::: nv\n## People {#people}\n\nPeople the summit's pages list under ${cell(x.name)}, by name, role and organisation only.\n\n${peopleSection(ctx, rel, x)}\n:::\n` +
                 `::: nv\n## Related companies {#related}\n\n${relatedSection(ctx, rel, x)}\n:::\n:::\n\n` +
-                (news ? `## From the newsroom {#newsroom}\n\n{.rows}\n${news}\n\n` : '') +
+                (news ? `## From the newsroom {#newsroom}\n\n${news}\n\n` : '') +
                 `## Its flows, and where AI agents are in them {#flows}\n\n${flowsSection(ctx, x)}\n\n` +
                 `## Our question for them {#question}\n\nAs for every company we follow, three questions, not claims. We have not asked ${cell(x.name)} yet. When they answer, it goes here.\n\n{.lens}\n1. **Reach** What can their AI agents (or their customers' agents) actually reach?\n2. **Mandate** What were they authorised to do?\n3. **Gap** Who controls the gap between the two?\n\n` +
                 `## Where this comes from {#sources}\n\n{.sources}\n` +
