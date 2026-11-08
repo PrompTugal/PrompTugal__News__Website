@@ -5,7 +5,7 @@
   "title": "Who builds the parts of an AI agent? Startups at Web Summit",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:v-websummit-featured-startups-p1"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-08-1845.json",
-      "desks/journalist-vicky/drafts/s29-who-builds-the-parts-of-an-ai-agent.md"
+      "desks/journalist-vicky/drafts/s29-who-builds-the-parts-of-an-ai-agent.md",
+      "desks/reviewer-vicky/reviews/S29.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -24,9 +25,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s29-who-builds-the-parts-of-an-ai-agent.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S29.md",
+      "verdict": "Fix first",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-08"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
     {
       "column": "idea",
@@ -39,6 +47,12 @@
       "at": "2026-11-08",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/s29-who-builds-the-parts-of-an-ai-agent.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-08",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S29.md"
     }
   ]
 }
