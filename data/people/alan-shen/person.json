@@ -1,19 +1,19 @@
 {
   "$schema": "../../schemas/person.schema.json",
-  "id": "giacomo-ficari",
+  "id": "alan-shen",
   "type": "person",
-  "name": "Giacomo Ficari",
-  "role": "Director of International",
-  "organisation": "Moonshot AI (Kimi)",
-  "org": "organisation:moonshot-ai",
+  "name": "Alan Shen",
+  "role": "MD Global",
+  "organisation": "MiniMax",
+  "org": "organisation:minimax",
   "listings": [
     {
-      "role": "Director of International",
-      "organisation": "Moonshot AI (Kimi)",
-      "org": "organisation:moonshot-ai",
+      "role": "MD Global",
+      "organisation": "MiniMax",
+      "org": "organisation:minimax",
       "event": "event:the-open-source-advantage",
       "source": "https://websummit.com/sessions/lis26/67bf8048-752a-43d1-84fc-7a03cfdd45ad/the-open-source-advantage/",
-      "read_at": "2026-11-07T08:17Z",
+      "read_at": "2026-11-08T05:03Z",
       "by": "programme@web-summit.vicky"
     }
   ],

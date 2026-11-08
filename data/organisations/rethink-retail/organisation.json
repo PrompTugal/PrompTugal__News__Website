@@ -1,15 +1,15 @@
 {
   "$schema": "../../schemas/organisation.schema.json",
-  "id": "moonshot-ai",
+  "id": "rethink-retail",
   "type": "organisation",
-  "name": "Moonshot AI (Kimi)",
+  "name": "Rethink Retail",
   "names_as_listed": [
-    "Moonshot AI (Kimi)"
+    "Rethink Retail"
   ],
   "sources": [
     {
-      "url": "https://websummit.com/sessions/lis26/67bf8048-752a-43d1-84fc-7a03cfdd45ad/the-open-source-advantage/",
-      "read_at": "2026-11-07T08:17Z",
+      "url": "https://websummit.com/sessions/lis26/9e5469da-4430-430f-9ada-277e3d2dc715/pricing-saas-when-users-are-agents/",
+      "read_at": "2026-11-08T05:04Z",
       "by": "programme@web-summit.vicky",
       "how": "a speaker card on the event page"
     }

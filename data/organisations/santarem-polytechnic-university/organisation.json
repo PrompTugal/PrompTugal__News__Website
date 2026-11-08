@@ -1,15 +1,15 @@
 {
   "$schema": "../../schemas/organisation.schema.json",
-  "id": "futureproof-podcast",
+  "id": "santarem-polytechnic-university",
   "type": "organisation",
-  "name": "FUTUREPROOF Podcast",
+  "name": "Santarém Polytechnic University",
   "names_as_listed": [
-    "FUTUREPROOF Podcast"
+    "Santarém Polytechnic University"
   ],
   "sources": [
     {
-      "url": "https://websummit.com/sessions/lis26/9e5469da-4430-430f-9ada-277e3d2dc715/pricing-saas-when-users-are-agents/",
-      "read_at": "2026-11-07T08:18Z",
+      "url": "https://websummit.com/sessions/lis26/f45ece2d-fef8-442a-a6f0-4ec62f7fa105/campus-tejo-the-science-and-technology-ecosystem-of-santarem-press-conference/",
+      "read_at": "2026-11-08T05:03Z",
       "by": "programme@web-summit.vicky",
       "how": "a speaker card on the event page"
     }

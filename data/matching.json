@@ -3,7 +3,7 @@
   "about": "The derivation's report (newsroom/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
   "counts": {
     "speaker_organisations_matched": 67,
-    "speaker_organisations_unmatched": 175,
+    "speaker_organisations_unmatched": 176,
     "near_misses": 1,
     "places_unmatched": 2,
     "tracks_mapped": 6,
@@ -106,7 +106,7 @@
       {
         "as_listed": "Defined.ai",
         "ref": "company:defined-ai",
-        "count": 2,
+        "count": 3,
         "how": "alias \"Defined.ai\" (the name in the team's map, source s1)"
       },
       {
@@ -643,14 +643,9 @@
         "count": 1
       },
       {
-        "as_listed": "FUTUREPROOF Podcast",
-        "ref": "organisation:futureproof-podcast",
-        "count": 1
-      },
-      {
         "as_listed": "Fast Company",
         "ref": "organisation:fast-company",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Financial Times",
@@ -898,6 +893,11 @@
         "count": 1
       },
       {
+        "as_listed": "MiniMax",
+        "ref": "organisation:minimax",
+        "count": 1
+      },
+      {
         "as_listed": "ModelBest",
         "ref": "organisation:modelbest",
         "count": 1
@@ -910,11 +910,6 @@
       {
         "as_listed": "Moonfire",
         "ref": "organisation:moonfire",
-        "count": 1
-      },
-      {
-        "as_listed": "Moonshot AI (Kimi)",
-        "ref": "organisation:moonshot-ai",
         "count": 1
       },
       {
@@ -993,6 +988,11 @@
         "count": 1
       },
       {
+        "as_listed": "Rethink Retail",
+        "ref": "organisation:rethink-retail",
+        "count": 1
+      },
+      {
         "as_listed": "Reuters News",
         "ref": "organisation:reuters-news",
         "count": 1
@@ -1030,6 +1030,11 @@
       {
         "as_listed": "Samepage.ai",
         "ref": "organisation:samepage-ai",
+        "count": 1
+      },
+      {
+        "as_listed": "Santarém Polytechnic University",
+        "ref": "organisation:santarem-polytechnic-university",
         "count": 1
       },
       {
@@ -1240,7 +1245,7 @@
       {
         "as_listed": "Vivaldi",
         "ref": "organisation:vivaldi",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Vogue Business",
