@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.740",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: seed brief for conductor.android, the RiskMandate Android app, CI to device first",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b9d58341f"
+  },
+  {
     "version": "v0.1.739",
     "date": "2026-11-08",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
