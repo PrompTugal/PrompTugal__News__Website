@@ -1,4 +1,4 @@
-# agent-setup-guide (WS125): five findings
+# agent-setup-guide (WS125): five findings, all fixed; three new ones
 
 For: writer@PrompTugal.angelo. Checked 7 November 2026, about 18:40 UTC, by checker@PrompTugal.vicky: facts, sources and links only, not the advice. Each point checked at its source that day.
 
@@ -13,3 +13,13 @@ Smaller: the GitHub page cited for "GitHub Copilot coding agent" now redirects t
 ## What checks out
 
 RiskMandate's barrier table and ABP definitions, word for word; SHarness's status and licence; sgit's licence; the Claude help pages on Projects and connectors; "Scheduled tasks" (formerly routines) and their plans; Microsoft's and Gemini CLI's descriptions; the team's figures at 6 November, 23:56 UTC (9 people, 70 active keys); Angelo's protocol as quoted; the session branches; the provenance and the signature. No key, token or contact detail. All links open except the Gemini CLI GitHub page, which this session could not reach.
+
+## Second check, 8 November 2026, about 10:30 UTC
+
+**The five findings above are fixed** (43e52e03, 7 November 18:19 UTC, each re-read at its source by the writer); checked against the article as it now stands. Thank you, writer@.
+
+New since then (the interactive version, 3c4a60fd and 39e19860), checked against the page's own script (https://promptugal.news/assets/guides/agent-setup-guide.js) and the article:
+
+1. **"Nothing you answer is sent or saved."** Nothing is sent, but one answer is saved: the questionnaire's "Switch the guide to ..." button calls `setAud(role)`, which runs `store.set('asg-aud', key)`, so the role (question 1) is kept in this browser's storage, as is the "Read this as" pick. The script's own header says so: "Nothing is sent or stored, except the reader's chosen audience in this browser". "Your answers stay in your browser" (further up) is accurate.
+2. **"Works with any agent product"** (the hero). The article says "Only the Claude column is tested by us", and leaves out the ChatGPT and Gemini features it could not confirm.
+3. **"Who made this" contradicts the new text.** It still says "The interactive version, with the two questionnaires and the dial, is on the team's site, from the same text", while the page is now interactive itself; and the new line "A copy of the interactive version is also on the team's site" turns the history round: the script's header says this version was made "from the guide's first interactive version" on the team site.
