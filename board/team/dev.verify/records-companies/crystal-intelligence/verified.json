@@ -1,0 +1,179 @@
+{
+  "$schema": "none",
+  "article": "crystal-intelligence",
+  "verified_on": "2026-11-07",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/",
+      "status": 200,
+      "read": true,
+      "chars": 1498
+    },
+    {
+      "url": "https://websummit.com/attendees/lis26/4ae05bc1-5a7c-43ae-9105-a7c415dcee58/marina-khaustova/",
+      "status": 200,
+      "read": true,
+      "chars": 2402
+    },
+    {
+      "url": "https://crystalintelligence.com/",
+      "status": 200,
+      "read": true,
+      "chars": 18742
+    }
+  ],
+  "spent_usd": 0.0624,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The company is named Crystal Intelligence.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Crystal Intelligence is the decision intelligence platform for digital assets.",
+          "note": "The sources use Crystal Intelligence as the brand, but the site footer names the registered legal entity as Crystal Blockchain B.V., so the company's formal name is not clearly Crystal Intelligence."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S3",
+          "quote": "Crystal Blockchain B.V., a limited liability company incorporated and registered in the Netherlands",
+          "note": "The company's registered name is Crystal Blockchain B.V., not Crystal Intelligence."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Crystal Intelligence",
+          "note": "The source uses Crystal Intelligence as the company/platform name."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The company's website is https://crystalintelligence.com/.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://crystalintelligence.com/",
+          "note": "The S3 source is the page at that URL, and its content is the Crystal Intelligence site, so the claim that this is the company's website is supported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "https://crystalintelligence.com/",
+          "note": "Source S3 is the official website of Crystal Intelligence, confirming its web address is https://crystalintelligence.com/."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Decision Intelligence for Digital Assets | Crystal Intelligence",
+          "note": "Source S3 is the crystalintelligence.com page and identifies itself as Crystal Intelligence."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The company describes itself as: Decision intelligence and compliance software for digital assets, turning blockchain data and AI into evidence, including for agentic payments.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S3",
+          "quote": "Crystal Intelligence is the decision intelligence platform for digital assets.",
+          "note": "The source supports the substance (decision intelligence for digital assets, crypto compliance software, and agentic payments), but the claim's wording is a paraphrase, not the company's exact self-description, and \"turning ... into evidence\" does not appear in the source."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Decision intelligence for digital assets combines blockchain data, AI, and verified attribution to support, augment, and automate the decisions that digital-asset businesses, investigators, and supervisors are accountable for. Unlike blockchain analytics , which answers queries about past transactions, it puts verified evidence in front of the decision itself — before funds move, in a form that stands up in court, audit, or challenge. As payments move to stablecoins and agentic commerce, every agentic transaction needs a compliance decision",
+          "note": "S3 explicitly describes Crystal Intelligence's platform as decision intelligence and crypto compliance software for digital assets that turns blockchain data and AI into verified evidence, including for agentic payments."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Decision Intelligence for Digital Assets",
+          "note": "S3's homepage also contains 'Crypto compliance software' and 'Agentic payments' sections, supporting the full description."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The company is listed under the country Netherlands.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Netherlands",
+          "note": "S2 lists Crystal Intelligence (Marina Khaustova's company) with Netherlands as its country tag, and S3 separately confirms Crystal Blockchain B.V. is registered in the Netherlands."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "incorporated and registered in the Netherlands",
+          "note": "The source confirms that Crystal Blockchain B.V. is incorporated and registered in the Netherlands."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "registered in the Netherlands",
+          "note": "The source states the company is incorporated and registered in the Netherlands."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The company is listed as taking part in Web Summit Lisbon 2026 (speaker's company).",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Marina Khaustova COO & Executive Director Crystal Intelligence",
+          "note": "The Web Summit Lisbon 2026 (lis26) attendee page lists Marina Khaustova as a speaker with Crystal Intelligence as her company, though the claim does not name the company, so I assumed it is Crystal Intelligence."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Marina Khaustova COO & Executive Director Crystal Intelligence",
+          "note": "Crystal Intelligence is listed alongside speaker Marina Khaustova for a session at Web Summit Lisbon in November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Marina Khaustova COO & Executive Director Crystal Intelligence",
+          "note": "The Web Summit Lisbon 2026 speaker page lists Marina Khaustova as a speaker with her company, Crystal Intelligence."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

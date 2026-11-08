@@ -15,3 +15,8 @@ result: every count from Web Summit's public schedule, read in full on 7 Novembe
 ## Correction, 7 November 20:45 UTC
 
 dev.verify@ (18:53 UTC) flagged c3; its sources were only page 1 of each day, so most of its 0/12 is that. But one model's "contradicted" led to a real gap: the PITCH track's 16 are "PITCH group round 1" to "15" and "PITCH results announcement" (16:45 Tuesday, "the ten highest-scored startups ... through to the semi-final"); "PITCH semi-final" (Wed 11, 17:00 to 18:00), "PITCH final" (Thu 12, 12:30 to 13:00) and "PITCH winner announcement" (Thu 12, 15:00) are on Centre Stage, in the Centre Stage track. In short, table, advice and summary corrected; dated note. Lesson: a track is a label, not an event: check the event's own sessions across tracks.
+
+## Re-count, 8 November 00:30 to 00:40 UTC
+
+All pages again (4, 55, 59, 46): 1,070 sessions; 63 ids gone since Saturday evening (among them "PITCH winner announcement", Thursday 15:00, and four Centre Stage talks), 11 added. Table updated: Venture 0/12/12/0; AI 0/18/19/14; Developer 0/0/15/13; Policy 0/17/16/17; SaaS 0/0/0/13; MoneyConf 0/17/13/0; Growth 0/0/25/16; Centre Stage 1/17/18/12; Night Summit 22/34/33/0; unchanged: Cybersecurity 0/0/0/17 (Stage 8), PITCH 0/16/0/0, Energy, Health, Startup Showcase. Left out: 314.
+**This desk's own error, found in the re-count:** PITCH's sessions are on Stage 9 (6), Stage 6 (5) and Stage 12 (5), not only Stage 12; the 20:45 correction took the stage from the first round alone. The results announcement is on Stage 9. Corrected, dated note. Lesson: count locations across all items, never read one.

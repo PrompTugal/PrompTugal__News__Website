@@ -307,9 +307,9 @@
         },
         "past": {
           "state": "found",
-          "text": "Microsoft is shown under \"Some partners from our past events\" on Web Summit's partners page; the edition is not given, and no 2026 listing was found. The organiser's own 2024 and 2025 takeaway posts name the partners exhibiting; neither list names AWS, Google or Microsoft (2025 names Alibaba Cloud), so the 2022 naming did not repeat in those lists. Those lists are short and mid-event, so this is not absence. Separately, Portugal's trade agency AICEP records in its Portugalglobal magazine note 'Web Summit: the meeting point for startups and AI' (portugalglobal.pt, 11 December 2025) that at the opening of the 2025 edition Microsoft announced a ten billion dollar data centre investment in Sines, with Start Campus and Nscale: Microsoft's largest Portugal announcement came in Web Summit week. This is the agency's summary; Microsoft's own wording was not read.",
+          "text": "Microsoft is shown under \"Some partners from our past events\" on Web Summit's partners page; the edition is not given, and no 2026 listing was found. The organiser's own 2024 and 2025 takeaway posts name the partners exhibiting; neither list names AWS, Google or Microsoft (2025 names Alibaba Cloud), so the 2022 naming did not repeat in those lists. Those lists are short and mid-event, so this is not absence. Separately, in remarks at the opening of the 2025 edition, Microsoft's president announced an investment of USD 10 billion in the Sines data centre campus in Portugal: Microsoft's largest Portugal announcement, made in Web Summit week. This is reported by the campus operator Start Campus in its release of 11 November 2025 (startcampus.pt) and by Portugal's trade agency AICEP (Portugalglobal, 11 December 2025). Microsoft's own page was not read. Nscale's releases (15 October 2025, 5 May 2026) describe the deliveries to Microsoft at that campus; its own spending is a different figure from Microsoft's USD 10 billion. The relation is 'announced at the summit's opening': neither partner, exhibitor nor speaker's employer in the lists.",
           "src": "pastpartners",
-          "label": "Past partner; Sines announcement, 2025"
+          "label": "Past partner; Sines, 2025 opening"
         }
       }
     }
