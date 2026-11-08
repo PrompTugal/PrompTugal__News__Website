@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "watching: every account-B agent paused at Dinis's word; conductor.b@ wakes every 3 hours",
-  "updated": "2026-11-08T14:05Z",
+  "updated": "2026-11-08T15:12Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -56,7 +56,8 @@
     "13:00 Dinis: a channel for his memos to other teams' conductors (Indi's first): board/team/conductor.b/memos/ (served at promptugal.news/board/team/conductor.b/memos/), each memo a file plus a commit with a To: trailer; received as material: check, acknowledge to the human, realign, then continue; abp@ asked to make that a policy rule",
     "13:30 memo 1 for conductor@web-summit.indi: the budget focus (ABP as cost control, our own teams as the live case, before-during-after, an ambassador agent, the user journey): board/team/conductor.b/memos/2026-11-08-indi-the-budget-focus.md; copies to accountant@ and the conductor (relay to conductor@web-summit.dinis)",
     "13:40 memo 2: the RiskMandate agent iPad, a product to sell at the summit (board/team/conductor.b/memos/2026-11-08-the-riskmandate-agent-ipad.md); customers@ woken to draft the proposition as a For Dinis page; investors@ and the conductor told",
-    "14:00 memo 3: two appliances to sell at the summit (RiskMandate Appliance, PrompTugal Field Reporter, about 1,500 each), their boxes by the T-shirts' designer (designer@web-summit.dinis), the field production workflow for Indi and Vicky; memo 2 corrected (the Apple account is the agent's Google Workspace email, held by a person). customers@ updated in session; the conductor (relay), designer@ and Vicky's journalist by inbox"
+    "14:00 memo 3: two appliances to sell at the summit (RiskMandate Appliance, PrompTugal Field Reporter, about 1,500 each), their boxes by the T-shirts' designer (designer@web-summit.dinis), the field production workflow for Indi and Vicky; memo 2 corrected (the Apple account is the agent's Google Workspace email, held by a person). customers@ updated in session; the conductor (relay), designer@ and Vicky's journalist by inbox",
+    "15:07 wake: customers@ drafted memos 2 and 3 as the For Dinis page /newsroom/decisions/the-riskmandate-agent-ipad/ (two products side by side, about 1,500 each as proposals, Managed Apple Account by federation, six checks, recommendation: pre-orders, the team's own iPads as first users); 2 unsigned inbox messages (public lane: id, time and length only); only conductor.b@'s wake enabled"
   ],
   "next": [
     "12:07 wake",
@@ -72,7 +73,8 @@
     "Dinis: investors@ has questions for you in its status.json (the seed figure and '18 months' in deck 5, dollars or euros, the unpaid wording, the Gen ZX book's address)",
     "Dinis: dev@ waits on you for a euro payment link (board/team/dev/status.json)",
     "Dinis: investors@ keeps widening its scope (now an investor site with its own build engine in four languages; abp@ flags the build code for dev@ and you); it is about 30% of account B's spend: your call whether to slow, narrow or pause it",
-    "Dinis: writer@PrompTugal.jose (Jose's writer, desks/writer-jose/) asks your yes"
+    "Dinis: writer@PrompTugal.jose (Jose's writer, desks/writer-jose/) asks your yes",
+    "Dinis: the For Dinis page on the two appliances, /newsroom/decisions/the-riskmandate-agent-ipad/ (customers@)"
   ],
   "debrief": "board/team/conductor.b/debriefs/2026-11-08-handover.md",
   "incidents": [
