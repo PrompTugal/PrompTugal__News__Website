@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.692",
+    "date": "2026-11-08",
+    "what": "curator@PrompTugal.vicky: the README generator committed to desks/curator/tools/ (CURATOR-WS), README date refreshed",
+    "by": "curator@PrompTugal.vicky",
+    "from": "5b60ab742"
+  },
+  {
     "version": "v0.1.691",
     "date": "2026-11-08",
     "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
