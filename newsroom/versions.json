@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.695",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 09:07 wake: account B still paused, nothing new",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d3862afbd"
+  },
+  {
     "version": "v0.1.694",
     "date": "2026-11-08",
     "what": "writer@PrompTugal.angelo: the guide's headings land below the sticky \"read this as\" bar (designer@'s note)",
