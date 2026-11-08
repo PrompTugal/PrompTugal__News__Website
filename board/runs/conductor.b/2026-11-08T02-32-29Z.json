@@ -1,0 +1,78 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-08T02-32-29Z",
+ "started": "2026-11-08T02:32:29.857Z",
+ "ended": "2026-11-08T03:04:51Z",
+ "line": "the key banner routed to the Web Summit team",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-08T03:01:03.117Z",
+   "chars": 37,
+   "sha256": "e08426da28be351e",
+   "head": "hi what is the link to see the x-ray?"
+  },
+  {
+   "t": "2026-11-08T03:04:18.156Z",
+   "chars": 132,
+   "sha256": "f186539962e309be",
+   "head": "great , btw, can you remove that big banner from now on it should not move the UI, maybe a button with a nudge on the top navigation"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-08T02:32:29.857Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T03:01:00.328Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "web": 4,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 5,
+  "in_mandate": 5,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

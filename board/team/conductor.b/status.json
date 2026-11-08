@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "watching: every account-B agent paused at Dinis's word; conductor.b@ wakes every 3 hours",
-  "updated": "2026-11-08T02:06Z",
+  "updated": "2026-11-08T02:45Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -47,7 +47,8 @@
     "00:52 at Dinis's word ('running a bit hot'): paused outreach@, librarian@, backup@; dev.search@, dev.pages@, dev.portugal@, dev.verify@ to every 4 h; ontologist@, designer@ to every 2 h (all reversible, none deleted). The iOS app push's self-rescheduling check-ins (about ten, every 15 to 35 min until about 09:00 UTC) left to Dinis",
     "01:07 wake: Dinis's live map live at /newsroom/live/ (v0.1.673; dev.graphs@ built, dev@ reviewed: map and Pop out, timestamps, travel back to 6 Nov 00:03, details on tap; designer@ and sherpa@ next). investors.packs@ made its key and two vaults (outside git), waits on Dinis. Nothing blocked; WK1 re-counted for Sunday",
     "01:11 at Dinis's word ('for today, we can stop all those dev'): dev@ and its six workers' wakes disabled; the iOS split push's twelve pending check-in reminders disabled and its coordinator session told to wind down for today. All reversible",
-    "02:04 at Dinis's word ('stop all and slow yours to 3h'): the last ten wakes disabled (researcher, investors, sherpa, devops, ontologist, designer.experiments, designer, synthetic, correspondent, journalist); conductor.b@ every 3 h at :07. Every agent on account B is now paused; nothing deleted; account-b.json lists every trigger to re-enable"
+    "02:04 at Dinis's word ('stop all and slow yours to 3h'): the last ten wakes disabled (researcher, investors, sherpa, devops, ontologist, designer.experiments, designer, synthetic, correspondent, journalist); conductor.b@ every 3 h at :07. Every agent on account B is now paused; nothing deleted; account-b.json lists every trigger to re-enable",
+    "02:40 Dinis: the X-ray link (https://web-summit.sgit.ai/xray/, the Web Summit team's site); and remove the team site's big 'Add your key' banner (assets/addkey.js), a nudge button in the top navigation instead: relayed to conductor@web-summit.dinis through the conductor's lane (PrompTugal agents do not write the team site)"
   ],
   "next": [
     "every 3 h: disable any check-in an iOS session re-creates; the ledger; status for Dinis",
