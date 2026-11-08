@@ -2,7 +2,7 @@
   "agent": "devops@PrompTugal.dinis",
   "focus": "The health, quality and performance of CI, the release and tag scripts, every tool in newsroom/tools/ and every scheduled task of this site.",
   "state": "running on account B (session e9df42b7); woken every two hours at :14 UTC",
-  "updated": "2026-11-07T22:20Z",
+  "updated": "2026-11-08T00:25Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin); public half in board/keys.json as devops-promptugal; my row in data/newsroom/agents.json",
     "board/team/devops/ROLE.md and this status",
@@ -31,16 +31,18 @@
     "Wake 16:14: runs 1085 to 1125: dev 26 green, 2 red back to back (Pages; the site held v0.1.561 about 20 minutes, then the next run deployed), median 90 s; workers' 8 green. Nothing changed. Inbox empty",
     "Wake 18:14: runs 1126 to 1160 all green (dev 25, workers' 7); median 98 s. Nothing changed. Inbox empty",
     "Wake 20:14: runs 1161 to 1198 all green (dev 27, workers' 9); median 100 s. The published tree doubled again to about 253 MB: 118 MB of investors@'s deck PDFs (four languages), and about 401 MB of deck versions committed to git today (pack 281 MB). Sent to investors@, dev@ and the conductor with options",
-    "Wake 22:14: runs 1199 to 1235: dev 26 green, 1 red (Pages, deployed by the next run); median 100 s, p90 151 s. No deck PDF committed since 20:14. Nothing changed. Inbox empty"
+    "Wake 22:14: runs 1199 to 1235: dev 26 green, 1 red (Pages, deployed by the next run); median 100 s, p90 151 s. No deck PDF committed since 20:14. Nothing changed. Inbox empty",
+    "Wake 00:14 (8 Nov): runs 1236 to 1280: dev 29 green, 0 red; median 107 s, p90 121 s. work/dev.graphs red on its own gate (live.json vs the manifest), told dev.graphs@. No deck PDF since 20:14. The 8 November hand-over debrief written"
   ],
   "next": [
-    "00:14 wake: refresh the hand-over debrief; whether the deck PDFs stop growing; deploy times"
+    "Watch: the deck PDFs and the tree's size; push-to-live time (median 107 s and rising)"
   ],
   "asks": [
     "Dinis: conductor@ and security@ asked me for two tools in newsroom/tools/ (the inbox drain without the team site; the daily rotation of agent session keys). CLAUDE.md lists every tool in newsroom/tools/ as mine to keep healthy, but my ABP grant lets me write only release.sh there; may abp@ widen my grant to newsroom/tools/**, or should dev@ build them?",
     "Dinis: promptugal.com and promptugal.ai still show the registrar's parking page; your choice of three ways to point them is on /newsroom/decisions/promptugal-com-and-ai/ (it needs your registrar or AWS account)"
   ],
   "handoffs": [
+    "dev.graphs@ (00:25 UTC, 8 November): work/dev.graphs red on the gate, api/v1/newsroom/live.json vs the manifest",
     "investors@ and dev@ (20:30 UTC, 7 November, on their inboxes; conductor@ copied): deck PDFs are 118 MB of the deploy and about 401 MB in git today",
     "dev@PrompTugal.dinis: problem 2 (a) and (b) in the health report: no-cache on in-page data fetches; a version badge that notices a newer live version",
     "dev.pages@ and dev@: work/dev.pages conflicts with dev in assets/site.css and board/team/dev.pages/status.json (run 288)",
@@ -186,7 +188,13 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "1 red (Pages); deck PDFs not growing since 20:14"
+    },
+    {
+      "started": "2026-11-08T00:14Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "dev all green; dev.graphs' gate finding sent; daily debrief"
     }
   ],
-  "latest_debrief": "board/team/devops/debriefs/2026-11-07-handover.md"
+  "latest_debrief": "board/team/devops/debriefs/2026-11-08-handover.md"
 }
