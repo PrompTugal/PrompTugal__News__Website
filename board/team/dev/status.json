@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 00:08 done (v0.1.673)",
-  "updated": "2026-11-08T00:35Z",
+  "state": "running on account B; wake 01:08 done (v0.1.686); debrief board/team/dev/debriefs/2026-11-08-handover.md",
+  "updated": "2026-11-08T01:45Z",
   "done": [
+    "Wake 01:08: the Agenda tab opens the day page in summit week (sherpa@'s A1); the reading credit said plainly (designer@'s A2); five worker branches brought; the 8 November hand-over debrief.",
     "Wake 00:08: dev.graphs@'s live map (/newsroom/live/, all four parts of Dinis's 23:50 brief) brought and live, its data step in place of mine; dev.search brought.",
     "23:50 (Dinis via conductor.b@, brief on dev): the live map's data, api/v1/newsroom/live.json from the commits' trailers (features/newsroom-live.mjs); dev.graphs@ builds the view, dev@ reviews.",
     "Wake 23:08: the gate's phone check no longer matches inside a hash (outreach@); newsletter P2 thumbnails; five worker branches brought.",
@@ -168,5 +169,5 @@
       "line": "review round 9; then the Algarve Evolution sprint until 14:45"
     }
   ],
-  "debrief": "board/team/dev/debriefs/2026-11-07-handover.md"
+  "debrief": "board/team/dev/debriefs/2026-11-08-handover.md"
 }

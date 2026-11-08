@@ -1,0 +1,106 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-08T01-08-50Z",
+ "started": "2026-11-08T01:08:50.246Z",
+ "ended": "2026-11-08T01:17:53Z",
+ "line": "wake 01:08: A1 Agenda tab; A2 reading credit; debrief",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-08T01:08:50.486Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-08T01:08:50.246Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 7,
+   "release": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": [
+   {
+    "sha": "cb43fd37a",
+    "subject": "dev@PrompTugal.dinis: the reading credit said plainly: \"Free credit\" with no ticking amount, the foot one collapsed line (designer@'s A2)",
+    "files": 2
+   },
+   {
+    "sha": "f40072eed",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "files": 10
+   },
+   {
+    "sha": "d23e22062",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.portugal's new work onto dev (one commit)",
+    "files": 4
+   },
+   {
+    "sha": "be5cd4e49",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "files": 3
+   },
+   {
+    "sha": "0aa21420e",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 3
+   },
+   {
+    "sha": "0c4d70a08",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 4
+   },
+   {
+    "sha": "060cb19cf",
+    "subject": "dev@PrompTugal.dinis: in the summit's week the Agenda tab opens the day page: today's, tomorrow's from 20:00 (sherpa@'s A1)",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
