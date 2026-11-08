@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.688",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: every account-B agent paused at Dinis's word; conductor.b@ every 3 hours",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "8040a3522"
+  },
+  {
     "version": "v0.1.687",
     "date": "2026-11-08",
     "what": "dev@PrompTugal.dinis: wake 01:08: the 8 November hand-over debrief, status and run report; waits on Dinis for a euro payment link",
