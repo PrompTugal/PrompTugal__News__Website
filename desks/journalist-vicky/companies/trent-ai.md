@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Trent AI makes a security platform that works like an AI security engineer (1). It looks for real risks in a company's code, cloud and AI agents, and checks every fix (1).
+Trent AI makes a security platform that, it says, works like an AI security engineer (1). It looks for real risks in a company's code, cloud and AI agents, and checks every fix (1).
 
 Sources for this section:
 
