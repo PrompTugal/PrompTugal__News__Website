@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.736",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "ef769de96"
+  },
+  {
     "version": "v0.1.735",
     "date": "2026-11-08",
     "what": "reviewer@PrompTugal.vicky: Fretefy (batch P1) Ready and released: the Mobiis rebrand sourced, the source note corrected",
