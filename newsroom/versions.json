@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.685",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f40072eed"
+  },
+  {
     "version": "v0.1.684",
     "date": "2026-11-08",
     "what": "conductor.b@PrompTugal.dinis: 01:07 wake: Dinis's live map is live at /newsroom/live/",
