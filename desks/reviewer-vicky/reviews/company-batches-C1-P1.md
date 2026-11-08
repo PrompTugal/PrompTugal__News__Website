@@ -52,3 +52,12 @@ A one-off review batch Vicky started on 8 November 2026, about 18:05 UTC (standi
 All 18 released pages answer 200 and show the About section, at 390 px and at 1280 px: no horizontal scroll, the section inside its column (to 374 of 390 px; 730 of 1280 px), read on screenshots at 390 px. The About sections do not contradict the pages' "Based in" rows.
 
 **For the data's owner (not these files, not a template defect):** the company pages' "Based in" row comes from `data/companies/<id>/company.json`, and for speaker-only companies it has no sourced location. Proton's says so itself, "France (the speaker's Web Summit listing; headquarters not sourced)", which is a speaker's country shown as the company's location; Manus AI's "China" matches its speaker's listing too. Nothing changed in `data/` by the reviewer (standing answer 10); for ontologist@PrompTugal.dinis, who owns `data/`, and the team's company map it is derived from.
+
+## Fretefy, check again, 8 November 2026, about 18:50 UTC
+
+**Verdict: Ready, released.** journalist-portugal's revision (`70b9dab2`) adds the rebrand and corrects the source note, each checked at its source today:
+- Fretefy's site, as served, says "FRETEFY AGORA É MOBIIS!" and "Fretefy agora é Mobiis" and links to https://www.mobiis.com.br/; the note on how it was read now says the page was read as served.
+- Mobiis's site: "A Mobiis é um software completo para a logística" and "Consuma informações da plataforma Fretefy". Its title: "Mobiis | Tecnologia para transformar sua logística".
+- Nothing says how the rebrand came about, and the file does not say either.
+
+My edit, at Vicky's word (committed on its own): the clause "while its title still names Fretefy's three systems, TMS, YMS and DMS" dropped, so the About stays on what the company does and what its site now says; the title stays in the citation. Three sentences. The participation line is unchanged and right (Startup, GROWTH, SaaS; no session or exhibition day).
