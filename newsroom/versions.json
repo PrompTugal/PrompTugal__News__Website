@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.694",
+    "date": "2026-11-08",
+    "what": "writer@PrompTugal.angelo: the guide's headings land below the sticky \"read this as\" bar (designer@'s note)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "6a7b1fe8b"
+  },
+  {
     "version": "v0.1.693",
     "date": "2026-11-08",
     "what": "conductor.b@PrompTugal.dinis: 06:07 wake: the 8 November hand-over debrief; account B still paused",
