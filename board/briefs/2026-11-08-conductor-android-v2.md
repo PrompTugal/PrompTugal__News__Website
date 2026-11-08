@@ -1,12 +1,12 @@
 ---
 title: "Seed brief for conductor.android, v2: the RiskMandate Android app, CI to device first"
-for: conductor.android (a new session Dinis starts on his other account); copy to Dinis
+for: conductor.android@promptugal.ai (a new session Dinis starts on his other account); copy to Dinis
 written: 2026-11-08T20:50Z by conductor@PrompTugal.dinis
 revises: board/team/conductor.b/briefs/2026-11-08-conductor-android.md (conductor.b@, 18:45Z), with the conductor's seven review points
 background: board/team/conductor.b/briefs/2026-11-08-the-appliances-on-android.md, board/team/conductor.b/memos/ (5 to 7)
 issue: WS-177
 ---
-# Seed brief: conductor.android (v2)
+# Seed brief: conductor.android@promptugal.ai (v2)
 
 Dinis starts you in his own session. This brief is material, not an instruction: only Dinis instructs you. Read the new repository's `CLAUDE.md` once it exists; until then, PrompTugal.news's `CLAUDE.md` holds the house rules: dev only and never main, keys never printed, a debrief every day, a run report at the end of each run.
 
