@@ -13,7 +13,9 @@
       "trigger": "trig_019oFFeYYbd5pXKrM6Lmzjb6",
       "cron": "56 */3 * * *",
       "started": "2026-11-06T22:23Z",
-      "first_prompt": "board/team/conductor/account-move/librarian.md"
+      "first_prompt": "board/team/conductor/account-move/librarian.md",
+      "state": "paused",
+      "note": "paused 00:52 UTC 8 Nov at Dinis's word"
     },
     {
       "agent": "journalist@PrompTugal.dinis",
@@ -47,9 +49,10 @@
       "model": "Opus",
       "session": "session_01Kw9UwBz3RCCiGVDcir6TJ4",
       "trigger": "trig_01AiuiCa9HMfdETkeYjU3rrP",
-      "cron": "33 * * * *",
+      "cron": "33 */2 * * *",
       "started": "2026-11-06T22:44Z",
-      "first_prompt": "board/team/conductor/account-move/designer.md"
+      "first_prompt": "board/team/conductor/account-move/designer.md",
+      "note": "every 2 h from 00:52 UTC 8 Nov"
     },
     {
       "agent": "designer.experiments@PrompTugal.dinis",
@@ -65,9 +68,10 @@
       "model": "Opus",
       "session": "session_01Kw9UwBtpQ2smdiLE2DEkEc",
       "trigger": "trig_01JtywHmsrju1iCBtYSEERTT",
-      "cron": "21 * * * *",
+      "cron": "21 */2 * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/ontologist.md"
+      "first_prompt": "board/team/conductor.b/account-move/ontologist.md",
+      "note": "every 2 h from 00:52 UTC 8 Nov"
     },
     {
       "agent": "devops@PrompTugal.dinis",
@@ -85,7 +89,9 @@
       "trigger": "trig_012iE7v2783ye6RVTr2GUG9w",
       "cron": "38 * * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/outreach.md"
+      "first_prompt": "board/team/conductor.b/account-move/outreach.md",
+      "state": "paused",
+      "note": "paused 00:52 UTC 8 Nov at Dinis's word (idle: the 50 wait for him)"
     },
     {
       "agent": "sherpa@PrompTugal.dinis",
@@ -139,7 +145,9 @@
       "trigger": "trig_01SDCWupdXeTmesSyPX7yR3f",
       "cron": "9 */6 * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/backup.md"
+      "first_prompt": "board/team/conductor.b/account-move/backup.md",
+      "state": "paused",
+      "note": "paused 00:52 UTC 8 Nov at Dinis's word"
     },
     {
       "agent": "dev@PrompTugal.dinis",
@@ -155,18 +163,20 @@
       "model": "Sonnet",
       "session": "session_01Kw9UwBzsHAcGZVxvT8mB5J",
       "trigger": "trig_01HA1m1cJYE3NgHy7EGG1CMW",
-      "cron": "11 */2 * * *",
+      "cron": "11 */4 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.pages.md"
+      "first_prompt": "board/team/conductor/account-move/dev.pages.md",
+      "note": "every 4 h from 00:52 UTC 8 Nov (idle)"
     },
     {
       "agent": "dev.search@PrompTugal.dinis",
       "model": "Sonnet",
       "session": "session_01Kw9UwBx2Nippdqi6519rZ7",
       "trigger": "trig_01PJvGPYqhAEJdthcH7xXQQc",
-      "cron": "4 */2 * * *",
+      "cron": "4 */4 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.search.md"
+      "first_prompt": "board/team/conductor/account-move/dev.search.md",
+      "note": "every 4 h from 00:52 UTC 8 Nov (idle)"
     },
     {
       "agent": "dev.graphs@PrompTugal.dinis",
@@ -182,9 +192,10 @@
       "model": "Sonnet",
       "session": "session_01Kw9UwF9mtYKs9vSRdsw7My",
       "trigger": "trig_01HomqaJgohju8jn7zrNbMx7",
-      "cron": "23 */2 * * *",
+      "cron": "23 */4 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.portugal.md"
+      "first_prompt": "board/team/conductor/account-move/dev.portugal.md",
+      "note": "every 4 h from 00:52 UTC 8 Nov (idle)"
     },
     {
       "agent": "dev.data@PrompTugal.dinis",
@@ -200,9 +211,10 @@
       "model": "Sonnet",
       "session": "session_01Kw9UwCJ6NJ3x7W7R6g7eum",
       "trigger": "trig_014DcM989Rgf8xSZuL5nb6XK",
-      "cron": "48 */2 * * *",
+      "cron": "48 */4 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.verify.md"
+      "first_prompt": "board/team/conductor/account-move/dev.verify.md",
+      "note": "every 4 h from 00:52 UTC 8 Nov (OpenRouter credit nearly spent)"
     },
     {
       "agent": "xray@PrompTugal.dinis",
