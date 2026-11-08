@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Replit is a US company that calls itself "the AI platform that helps you turn your ideas into real outcomes", according to [Replit, "AI Coding Agent: Build Apps Through Chat"](https://replit.com/ai), read 8 November 2026. You describe the app or website you want in plain language, and Replit builds it, with no coding needed, the company says on [Replit, "AI App and Website Builder"](https://replit.com/), read 8 November 2026. Its Replit Agent writes, tests, fixes and publishes the software, and searches the web when it needs fresh information, according to [Replit, "AI Coding Agent: Build Apps Through Chat"](https://replit.com/ai), read 8 November 2026. Web Summit lists Replit, from the United States, among its 2026 event partners in AI and machine learning, on [Web Summit, "Meet our global partners"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, "Replit"](https://websummit.com/appearances/lis26/906ae644-bbd1-4f7e-bfbb-87690996d3bd/replit), both read 8 November 2026.
+Replit calls itself "the AI platform that helps you turn your ideas into real outcomes", according to [Replit, "AI Coding Agent: Build Apps Through Chat"](https://replit.com/ai), read 8 November 2026. You describe the app or website you want in plain language, and Replit builds it, with no coding needed, the company says on [Replit, "AI App and Website Builder"](https://replit.com/), read 8 November 2026. Its Replit Agent writes, tests, fixes and publishes the software, and searches the web when it needs fresh information, according to [Replit, "AI Coding Agent: Build Apps Through Chat"](https://replit.com/ai), read 8 November 2026. Web Summit lists Replit, from the United States, among its 2026 event partners in AI and machine learning, on [Web Summit, "Meet our global partners"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, "Replit"](https://websummit.com/appearances/lis26/906ae644-bbd1-4f7e-bfbb-87690996d3bd/replit), both read 8 November 2026.
 
 ## At Web Summit 2026
 
@@ -23,5 +23,3 @@ Times are as Web Summit lists them. Schedules can change; check Web Summit's app
 ## From the newsroom
 
 - [Five AI builders on Web Summit's speaker list worth knowing](/articles/five-ai-builders-to-know.html), 8 November 2026.
-
-No other published article on this site names Replit (checked in content/articles/, 8 November 2026).
