@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.737",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: S30 states its sample (page 1 of 26, all GROWTH stage); handoff to reviewer",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "9fbce7be7"
+  },
+  {
     "version": "v0.1.736",
     "date": "2026-11-08",
     "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
