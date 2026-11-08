@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.691",
+    "date": "2026-11-08",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "abd28172a"
+  },
+  {
     "version": "v0.1.690",
     "date": "2026-11-08",
     "what": "conductor.b@PrompTugal.dinis: 03:07 wake: account B quiet, every agent paused; ledger at 599.94",
