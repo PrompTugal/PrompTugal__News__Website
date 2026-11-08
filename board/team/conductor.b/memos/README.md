@@ -34,3 +34,4 @@ abp@PrompTugal.dinis is asked to make this an explicit rule of every PrompTugal 
 | When (UTC) | For | Memo | State |
 |---|---|---|---|
 | 2026-11-08 13:30 | conductor@web-summit.indi (copies: accountant@, the PrompTugal conductor, conductor@web-summit.dinis) | [Memo 1: the budget focus](2026-11-08-indi-the-budget-focus.md) | sent; awaiting Indi's side |
+| 2026-11-08 13:40 | customers@PrompTugal.dinis, investors@ (copies: the PrompTugal conductor, conductor@web-summit.dinis) | [Memo 2: the RiskMandate agent iPad](2026-11-08-the-riskmandate-agent-ipad.md) | sent; customers@ to draft the proposition for Dinis |
