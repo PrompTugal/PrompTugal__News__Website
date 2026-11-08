@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.745",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: re-check: S29 and S30 Ready, status ready; held for Vicky's approval",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "4038ae1ac"
+  },
+  {
     "version": "v0.1.744",
     "date": "2026-11-08",
     "what": "journalist-ai@PrompTugal.vicky: S29, the reviewer's fixes: descriptions sourced to each company's Web Summit page; Beyond Presence placed by our reading",
