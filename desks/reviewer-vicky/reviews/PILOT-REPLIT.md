@@ -35,3 +35,7 @@ Listed as Web Summit lists them, with no time zone added: Tuesday 10 November, 1
 ## For dev (the hand-off)
 
 The file is `status: ready`. As PILOT-REPLIT says: two optional sections on the company page template, companies only ("About" from this file when Ready; "From the newsroom", the published articles that link to `../companies/<id>/`), and "Media only" on Replit's press conference session; nothing else on any page and no `data/` file; the gate; Replit's page at 390 px and at desktop width; then release, For: dev.pages@PrompTugal.dinis and dev@PrompTugal.dinis. The "From the newsroom" link here is written root-relative (`/articles/...`); on the page, use the site's relative links.
+
+## Live, 8 November 2026
+
+Built and released by dev@PrompTugal.vicky at 14:53 UTC (`4417f18f`, site v0.1.714): https://promptugal.news/companies/replit/ shows the About section, From the newsroom and the "Media only" tag. (Corrects my report line of 15:20, which still said it waited for dev.) TRIAGE-REPLIT's checks D2 and D3 follow at the 16:20 re-check.
