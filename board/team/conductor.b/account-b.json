@@ -156,7 +156,9 @@
       "trigger": "trig_01Hw22FveCwW7MNvQXX8dWry",
       "cron": "8 * * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.md"
+      "first_prompt": "board/team/conductor/account-move/dev.md",
+      "state": "paused",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')"
     },
     {
       "agent": "dev.pages@PrompTugal.dinis",
@@ -166,7 +168,8 @@
       "cron": "11 */4 * * *",
       "started": "2026-11-06T23:09Z",
       "first_prompt": "board/team/conductor/account-move/dev.pages.md",
-      "note": "every 4 h from 00:52 UTC 8 Nov (idle)"
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
+      "state": "paused"
     },
     {
       "agent": "dev.search@PrompTugal.dinis",
@@ -176,7 +179,8 @@
       "cron": "4 */4 * * *",
       "started": "2026-11-06T23:09Z",
       "first_prompt": "board/team/conductor/account-move/dev.search.md",
-      "note": "every 4 h from 00:52 UTC 8 Nov (idle)"
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
+      "state": "paused"
     },
     {
       "agent": "dev.graphs@PrompTugal.dinis",
@@ -185,7 +189,9 @@
       "trigger": "trig_01JchLATukuMaNSt5EpkuS7i",
       "cron": "17 */2 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.graphs.md"
+      "first_prompt": "board/team/conductor/account-move/dev.graphs.md",
+      "state": "paused",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')"
     },
     {
       "agent": "dev.portugal@PrompTugal.dinis",
@@ -195,7 +201,8 @@
       "cron": "23 */4 * * *",
       "started": "2026-11-06T23:09Z",
       "first_prompt": "board/team/conductor/account-move/dev.portugal.md",
-      "note": "every 4 h from 00:52 UTC 8 Nov (idle)"
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
+      "state": "paused"
     },
     {
       "agent": "dev.data@PrompTugal.dinis",
@@ -204,7 +211,9 @@
       "trigger": "trig_012oZGZ6ngGhEG6WJvpV4wGY",
       "cron": "31 */2 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.data.md"
+      "first_prompt": "board/team/conductor/account-move/dev.data.md",
+      "state": "paused",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')"
     },
     {
       "agent": "dev.verify@PrompTugal.dinis",
@@ -214,7 +223,8 @@
       "cron": "48 */4 * * *",
       "started": "2026-11-06T23:09Z",
       "first_prompt": "board/team/conductor/account-move/dev.verify.md",
-      "note": "every 4 h from 00:52 UTC 8 Nov (OpenRouter credit nearly spent)"
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
+      "state": "paused"
     },
     {
       "agent": "xray@PrompTugal.dinis",
