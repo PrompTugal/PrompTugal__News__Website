@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.687",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: wake 01:08: the 8 November hand-over debrief, status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d9fe32217"
+  },
+  {
     "version": "v0.1.686",
     "date": "2026-11-08",
     "what": "dev@PrompTugal.dinis: the reading credit said plainly: \"Free credit\" with no ticking amount, the foot one collapsed line (designer@'s A2)",
