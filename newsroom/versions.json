@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.698",
+    "date": "2026-11-08",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "02c0bd04c"
+  },
+  {
     "version": "v0.1.697",
     "date": "2026-11-08",
     "what": "checker@PrompTugal.vicky: fifth check: 9 articles, none waiting; WS125's five findings fixed",
