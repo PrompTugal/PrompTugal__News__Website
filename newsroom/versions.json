@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.748",
+    "date": "2026-11-08",
+    "what": "conductor@PrompTugal.dinis: conductor.android@promptugal.ai started at Dinis's word, with the v2 seed brief; no scheduled task",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "469a1fd7c"
+  },
+  {
     "version": "v0.1.747",
     "date": "2026-11-08",
     "what": "conductor@PrompTugal.dinis: every scheduled task on account A stopped at Dinis's word; the Android seed brief v2",
