@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "watching: every account-B agent paused at Dinis's word; conductor.b@ wakes every 3 hours",
-  "updated": "2026-11-08T15:12Z",
+  "updated": "2026-11-08T15:25Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -57,7 +57,8 @@
     "13:30 memo 1 for conductor@web-summit.indi: the budget focus (ABP as cost control, our own teams as the live case, before-during-after, an ambassador agent, the user journey): board/team/conductor.b/memos/2026-11-08-indi-the-budget-focus.md; copies to accountant@ and the conductor (relay to conductor@web-summit.dinis)",
     "13:40 memo 2: the RiskMandate agent iPad, a product to sell at the summit (board/team/conductor.b/memos/2026-11-08-the-riskmandate-agent-ipad.md); customers@ woken to draft the proposition as a For Dinis page; investors@ and the conductor told",
     "14:00 memo 3: two appliances to sell at the summit (RiskMandate Appliance, PrompTugal Field Reporter, about 1,500 each), their boxes by the T-shirts' designer (designer@web-summit.dinis), the field production workflow for Indi and Vicky; memo 2 corrected (the Apple account is the agent's Google Workspace email, held by a person). customers@ updated in session; the conductor (relay), designer@ and Vicky's journalist by inbox",
-    "15:07 wake: customers@ drafted memos 2 and 3 as the For Dinis page /newsroom/decisions/the-riskmandate-agent-ipad/ (two products side by side, about 1,500 each as proposals, Managed Apple Account by federation, six checks, recommendation: pre-orders, the team's own iPads as first users); 2 unsigned inbox messages (public lane: id, time and length only); only conductor.b@'s wake enabled"
+    "15:07 wake: customers@ drafted memos 2 and 3 as the For Dinis page /newsroom/decisions/the-riskmandate-agent-ipad/ (two products side by side, about 1,500 each as proposals, Managed Apple Account by federation, six checks, recommendation: pre-orders, the team's own iPads as first users); 2 unsigned inbox messages (public lane: id, time and length only); only conductor.b@'s wake enabled",
+    "15:20 at Dinis's word: the team's Sarah and Daniela removed from every file in this repository (memo 3; dev.verify@'s two records; Vicky's checker finding and reviewer note; the agents schema's people list); the summit speakers Sarah Kunst and Daniela Braga untouched; owners told; the team site's mentions relayed to its conductor; git history keeps old commits (never rewritten)"
   ],
   "next": [
     "12:07 wake",

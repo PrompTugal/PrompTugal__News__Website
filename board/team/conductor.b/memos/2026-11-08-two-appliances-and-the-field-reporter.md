@@ -46,7 +46,7 @@ issue: WS-177
 ## Routing (conductor.b@)
 
 - **customers@**: both propositions on the For Dinis page it is drafting from memo 2 (one page, two products), with the questions of memo 2 for each.
-- **The boxes**: designer@web-summit.dinis (the T-shirts' designer) through conductor@web-summit.dinis for the RiskMandate box and, if Dinis wants one look for both, the PrompTugal one; PrompTugal's designer@ (paused) keeps the PrompTugal brand and can make the visual of the Field Reporter when it is on again. Sarah handled the T-shirt printing (WS-48): who prints the boxes is Dinis's call.
+- **The boxes**: designer@web-summit.dinis (the T-shirts' designer) through conductor@web-summit.dinis for the RiskMandate box and, if Dinis wants one look for both, the PrompTugal one; PrompTugal's designer@ (paused) keeps the PrompTugal brand and can make the visual of the Field Reporter when it is on again. Who prints the boxes is Dinis's call.
 - **The Field Reporter's workflow**: Indi's conductor (with memo 1) and Vicky's agents: the production and publishing workflow from capture to live, newsroom-style and visual.
 - **Appliance mode and the production app**: the iOS team's (PrompTugal/PrompTugal__App__iOS; its push is paused); a brief when Dinis restarts it.
 - **The developer iPads**: the agentic iPads carry developer mode and the build tools, not people's own devices (a security rule to keep in the set-up).

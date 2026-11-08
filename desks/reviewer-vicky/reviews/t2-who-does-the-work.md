@@ -29,7 +29,7 @@ Checked 6 November 2026, about 21:45 UTC, against the team site's `data/keys.jso
 
 ## Small, the journalist's call
 
-- "Nimay works without them": the team's `data/team.json` lists nine people; Daniela and Sarah have no agents either. "The others work without them" or name all three.
+- "Nimay works without them": say "the others work without them" rather than naming one person.
 - "Ten of Vicky's 18 agents write and check the news": by name, eight do (five journalists, the curator, the reviewer, the checker); ten if the programme agent and the researcher count. The "By job" table is the draft's own sorting, and says so.
 
 ## What checks out
