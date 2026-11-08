@@ -1,0 +1,72 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-08T14:45Z",
+  "for": "journalist-connections, via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9, pulled 8 November 2026 at 14:38 UTC: new commit f6119eb78c42 (researcher's 14:15 run, one capture: page 1 of 26 of Web Summit's featured startups, standing answer 19).",
+    "also_read": "The published articles, the drafts of all desks and this desk's storyline map, for the duplicate check (standing answer 20)."
+  },
+  "rules": "Every fact is from the capture: company names and the industry tag Web Summit's page gives each, as read on 8 November. The curator added none, checked none and rewrote no source.",
+  "captures": [
+    {
+      "id": "v-websummit-featured-startups-p1",
+      "file": "vault 41j3e9s9, captures/2026-11-08-websummit-featured-startups-p1.md",
+      "source_url": "https://websummit.com/featured-startups/",
+      "beat": "the summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "100 startups from page 1 of 26 of the featured-startups page, each under the page's own industry tag (30 AI and machine learning, 11 fintech, 11 healthtech and wellness, 6 hardware, robotics and IoT, 5 SaaS, 5 telecoms and IT, and smaller groups). Names and tags only: no country, stage or product.",
+      "is_story": false,
+      "group": "participants, held"
+    }
+  ],
+  "groups": {
+    "participants, held": [
+      "v-websummit-featured-startups-p1"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "None of the 100 names appears in a published article or a draft",
+      "verdict": "new material, nothing duplicated",
+      "why": "Checked on 8 November against the articles and every desk's drafts."
+    }
+  ],
+  "held": [
+    {
+      "theme": "Healthtech and wellness startups on the featured list (11)",
+      "why": "Names and a tag only; what each does and where it is based are not captured, and page 1 is a sample of 26. A list of names is not a story yet. Revisit when the researcher captures what they do."
+    },
+    {
+      "theme": "Fintech (11) and AI and machine learning (30) startups on the featured list",
+      "why": "Same: names and tags only."
+    },
+    {
+      "theme": "The speakers' policy and investment, mobility and devices, and infrastructure and security groups (from the 10:15 capture)",
+      "why": "Waiting for what each organisation does."
+    }
+  ],
+  "story_candidates": [],
+  "connections_priority": [
+    {
+      "id": "S28",
+      "mature_to_write_now": true,
+      "condition": "The capture holds names, roles, organisations and countries only. The writer takes what each of the five companies does from its own public page and re-reads the speakers page the same day (standing answers 19 and SA19B); the speakers page shows a sample, not the whole lineup."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "item": "featured startups capture",
+      "what": "Page 1 of 26 only; the page's own tags are not checked here. No story rests on it yet."
+    }
+  ],
+  "revisions": [],
+  "gaps_for_the_researcher": [
+    "What the startups under healthtech, fintech and AI do and where they are based, from their own pages (pages 2 to 26 are also still to read).",
+    "Which of the featured startups are Portuguese, from the page or their own sites, since a Portuguese-and-European startups storyline needs it.",
+    "What each speakers' organisation does."
+  ],
+  "urgent": "None"
+}

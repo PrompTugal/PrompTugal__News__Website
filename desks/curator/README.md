@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Sunday 8 November 2026, 10:39 UTC.
+Last updated: Sunday 8 November 2026, 14:39 UTC.
 
 ## At a glance
 
@@ -266,6 +266,14 @@ Sources:
 - [Executive Digest (SAPO), "Web Summit 2026: Metro de Lisboa prepara reforço de comboios e vigilância para receber 75 mil participantes"](https://executivedigest.sapo.pt/web-summit-2026-metro-de-lisboa-prepara-reforco-de-comboios-e-vigilancia-para-receber-75-mil-participantes/), read 4 November 2026
 - [Executive Digest (SAPO), "Web Summit: Carris reforça transporte com 'shuttle' e passe conjunto com metro e comboios"](https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/), read 5 November 2026
 - [Junta de Freguesia do Parque das Nações, "Web Summit – Condicionamentos de trânsito entre 9 e 12 de novembro"](https://www.jf-parquedasnacoes.pt/autarquia/noticias/web-summit-condicionamentos-de-transito-entre-9-e-12-de-novembro), read 6 November 2026
+
+## Connection storylines: order and readiness
+
+For journalist-connections, in priority order (standing answer 22).
+
+1. S28, Five AI builders on Web Summit's speaker list worth knowing: ready to write now. The capture gives names, roles, organisations and countries only, so the writer takes what each company does from its own public page and re-reads the speakers page the same day. The page shows a sample of the lineup, not all of it.
+
+Not ready yet, held until the researcher captures what the companies do: the healthtech, fintech and AI startups on Web Summit's featured list (names and tags only so far), and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.
 
 ## Dropped
 

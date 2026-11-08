@@ -80,6 +80,7 @@ for sid,title,beat,angle,added,note in stories:
         out.append(f'- [{p}, "{t}"]({u}), read {day(r)}')
     if not seen: out.append("- no source yet")
     out.append("")
+out+=["## Connection storylines: order and readiness","","For journalist-connections, in priority order (standing answer 22).","","1. S28, Five AI builders on Web Summit's speaker list worth knowing: ready to write now. The capture gives names, roles, organisations and countries only, so the writer takes what each company does from its own public page and re-reads the speakers page the same day. The page shows a sample of the lineup, not all of it.","","Not ready yet, held until the researcher captures what the companies do: the healthtech, fintech and AI startups on Web Summit's featured list (names and tags only so far), and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.",""]
 out+=["## Dropped","","Taken off the list on 6 November 2026, at Vicky's word, as duplicates of other candidates:","",]
 for s in allst:
     if s[0] in DROPPED: out.append(f"- {s[0]}: {s[1]} ({DROPPED[s[0]]})")
