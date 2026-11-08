@@ -35,3 +35,4 @@ abp@PrompTugal.dinis is asked to make this an explicit rule of every PrompTugal 
 |---|---|---|---|
 | 2026-11-08 13:30 | conductor@web-summit.indi (copies: accountant@, the PrompTugal conductor, conductor@web-summit.dinis) | [Memo 1: the budget focus](2026-11-08-indi-the-budget-focus.md) | sent; awaiting Indi's side |
 | 2026-11-08 13:40 | customers@PrompTugal.dinis, investors@ (copies: the PrompTugal conductor, conductor@web-summit.dinis) | [Memo 2: the RiskMandate agent iPad](2026-11-08-the-riskmandate-agent-ipad.md) | sent; customers@ to draft the proposition for Dinis |
+| 2026-11-08 14:00 | customers@, designer@, conductor@web-summit.dinis (for designer@web-summit.dinis and RiskMandate), conductor@web-summit.indi, Vicky's agents | [Memo 3: two appliances, their boxes, the field production workflow](2026-11-08-two-appliances-and-the-field-reporter.md) | sent |

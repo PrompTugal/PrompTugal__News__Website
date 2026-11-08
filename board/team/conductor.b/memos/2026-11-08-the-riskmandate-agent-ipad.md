@@ -24,7 +24,7 @@ issue: WS-177
 4. **Who buys it at the summit**: which of the attendee personas (founder, CISO, investor, a company deploying agents), and what they do with it on Monday.
 5. **The offer**: price bands around Dinis's "1,500 quid or 2 grand" (the iPad's cost, the set-up, the policy, a period of service); what is a one-off and what recurs.
 6. **How it is bought at the summit**: the order, the payment, delivery or hand-over, after-sales.
-7. **What has to be true first** (for Dinis, before anything is sold): Apple's terms for a device and an account set up for an agent (an organisation's devices usually use Apple Business Manager and Managed Apple Accounts, rather than a personal Apple ID: to check at Apple's own pages); reselling hardware (warranty, VAT, returns, the legal entity that sells, which is Dinis's call); what RiskMandate may claim (only what riskmandate.ai and the team's site say).
+7. **What has to be true first** (Dinis, 13:55: the device's Apple account is the agent's own Google Workspace email account, which a person holds; a dedicated account on a dedicated iPad is the security point; see memo 3) (for Dinis, before anything is sold): Apple's terms for a device and an account set up for an agent (an organisation's devices usually use Apple Business Manager and Managed Apple Accounts, rather than a personal Apple ID: to check at Apple's own pages); reselling hardware (warranty, VAT, returns, the legal entity that sells, which is Dinis's call); what RiskMandate may claim (only what riskmandate.ai and the team's site say).
 
 ## Routing (conductor.b@)
 
