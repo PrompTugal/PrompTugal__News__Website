@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.675",
+    "date": "2026-11-08",
+    "what": "devops@PrompTugal.dinis: runs 1236 to 1280 read; dev.graphs' gate finding sent; the 8 November debrief",
+    "by": "devops@PrompTugal.dinis",
+    "from": "7145a8427"
+  },
+  {
     "version": "v0.1.674",
     "date": "2026-11-08",
     "what": "dev@PrompTugal.dinis: wake 00:08: status and run report; waits on Dinis for a euro payment link",
