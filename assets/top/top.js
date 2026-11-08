@@ -23,6 +23,11 @@
     if (v !== 'c') return
 
     function ready() {
+        // the Agenda tab, on a day page of the summit's week: from 20:00 Lisbon (UTC in November) it opens tomorrow's (sherpa@'s A1)
+        document.querySelectorAll('.ctabs a[href*="days/2026-11-"]').forEach(function (a) {
+            var m = a.getAttribute('href').match(/days\/(2026-11-(\d\d))\//), now = new Date()
+            if (m && now.getUTCHours() >= 20 && +m[2] < 13 && now.toISOString().slice(0, 10) === m[1]) a.setAttribute('href', a.getAttribute('href').replace(m[1], '2026-11-' + String(+m[2] + 1).padStart(2, '0')))
+        })
         var slot = document.querySelector('.ctop-tools'), tools = document.getElementById('nr-tools')
         if (slot && tools && tools.parentNode !== slot) slot.appendChild(tools)
         var foot = document.querySelector('.foot-theme')
