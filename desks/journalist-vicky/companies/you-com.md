@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-You.com supplies web search to AI systems through APIs, so that they can work from accurate, up-to-date information (1). Its chief executive, Richard Socher, also co-founded Recursive (1).
+You.com supplies web search to AI systems through APIs, so that, it says, they can work from accurate, up-to-date information (1). Its chief executive, Richard Socher, also co-founded Recursive (1).
 
 Sources for this section:
 

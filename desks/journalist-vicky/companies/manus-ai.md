@@ -18,5 +18,3 @@ Sources for this section:
 ## At Web Summit 2026
 
 - **Speaker:** Tao Zhang, Co-founder and CPO of Manus AI: [Web Summit, "Meet our 2026 speakers"](https://websummit.com/speakers/), read 8 November 2026.
-
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.

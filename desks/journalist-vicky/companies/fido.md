@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-FIDO, a Brazilian company (1), builds the technology for businesses to offer credit and other financial services under their own brand (1, 2). Its platform covers each step of a loan, from finding and assessing borrowers to the credit decision, the contract and payment, the company says (2). It describes itself as connecting brands, borrowers and investors (1).
+FIDO, a Brazilian company (1), builds the technology for businesses to offer credit and other financial services under their own brand (1, 2). Its platform connects origination, analysis, the credit decision, the contract and settlement in one place, the company says (2). It describes itself as connecting brands, borrowers and investors (1).
 
 Sources for this section:
 

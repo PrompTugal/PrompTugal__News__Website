@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Ledger makes hardware wallets and apps that keep people's crypto assets secure (1). Its wallet app lets users send, receive, buy and stake across more than 100 blockchains (1). It also offers AI agents limited permissions, so an agent can prepare a payment but the owner approves it (1).
+Ledger makes hardware wallets and apps that keep people's crypto assets secure (1). Its wallet app lets users send, receive, buy and stake across more than 100 blockchains (1). It says its users' AI agents can propose transactions and prepare payments, while the owner approves them (1).
 
 Sources for this section:
 

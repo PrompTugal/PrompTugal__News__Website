@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Exein makes security software that runs on devices and systems as they work, from physical AI systems and connected devices to Linux, cloud workloads and AI agents (1). Its tools watch for threats on the device itself and find weaknesses in firmware before release (1).
+Exein makes security software that runs on devices and systems as they work, from physical AI systems and connected devices to Linux, cloud workloads and AI agents (1). Its tools watch for threats on the device itself and, it says, find and fix weaknesses in firmware without leaving the build environment (1).
 
 Sources for this section:
 

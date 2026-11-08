@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-DIG-IN, a Portuguese company (1), collects data on restaurants, bars and cafés: menus, prices, locations and how each venue shows up online (1, 2). It says it tracks millions of venues across Europe and Brazil (1). Large consumer goods brands, local producers, retailers and restaurant chains use it to see where they stand in the market (1, 2).
+DIG-IN, a Portuguese company (1), collects data on restaurants and other hospitality venues: menus, prices, locations and how each venue shows up online (1, 2). It says it tracks millions of venues across Europe and Brazil (1). It says it serves large consumer goods brands, local producers, retailers and restaurant chains, who use it to see where they stand in the market (1, 2).
 
 Sources for this section:
 
