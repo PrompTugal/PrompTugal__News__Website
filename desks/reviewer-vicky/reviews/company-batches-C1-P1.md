@@ -46,3 +46,9 @@ A one-off review batch Vicky started on 8 November 2026, about 18:05 UTC (standi
 - Several session lines name only the company's speaker; the session pages list others too. Fine on a company's page.
 - sheerME: "Portuguese company" rests on Web Summit's "Portugal" (cited); its site's footer has a Brazilian-style company name ("sheerME Digital Media Ltda") and lists Portugal, Spain and Brazil.
 - The page shows the About from the file; its "At the summit" list and "Based in" row come from the team's company data, not from these files (template as built for PILOT-REPLIT).
+
+## Live checks, 8 November 2026, about 18:30 UTC (v0.1.732)
+
+All 18 released pages answer 200 and show the About section, at 390 px and at 1280 px: no horizontal scroll, the section inside its column (to 374 of 390 px; 730 of 1280 px), read on screenshots at 390 px. The About sections do not contradict the pages' "Based in" rows.
+
+**For the data's owner (not these files, not a template defect):** the company pages' "Based in" row comes from `data/companies/<id>/company.json`, and for speaker-only companies it has no sourced location. Proton's says so itself, "France (the speaker's Web Summit listing; headquarters not sourced)", which is a speaker's country shown as the company's location; Manus AI's "China" matches its speaker's listing too. Nothing changed in `data/` by the reviewer (standing answer 10); for ontologist@PrompTugal.dinis, who owns `data/`, and the team's company map it is derived from.
