@@ -4,7 +4,7 @@ company: replit
 date: 2026-11-08
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: A short sourced introduction to Replit, its confirmed sessions at Web Summit 2026, and the newsroom's articles that name it. For the existing company page (PILOT-REPLIT).
-status: in-review
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
