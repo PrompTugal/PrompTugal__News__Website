@@ -4,12 +4,18 @@ company: replit
 date: 2026-11-08
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: A short sourced introduction to Replit, its confirmed sessions at Web Summit 2026, and the newsroom's articles that name it. For the existing company page (PILOT-REPLIT).
-status: ready
+status: in-review
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Replit calls itself "the AI platform that helps you turn your ideas into real outcomes", according to [Replit, "AI Coding Agent: Build Apps Through Chat"](https://replit.com/ai), read 8 November 2026. You describe the app or website you want in plain language, and Replit builds it, with no coding needed, the company says on [Replit, "AI App and Website Builder"](https://replit.com/), read 8 November 2026. Its Replit Agent writes, tests, fixes and publishes the software, and searches the web when it needs fresh information, according to [Replit, "AI Coding Agent: Build Apps Through Chat"](https://replit.com/ai), read 8 November 2026. Web Summit lists Replit, from the United States, among its 2026 event partners in AI and machine learning, on [Web Summit, "Meet our global partners"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, "Replit"](https://websummit.com/appearances/lis26/906ae644-bbd1-4f7e-bfbb-87690996d3bd/replit), both read 8 November 2026.
+Replit, a US company, builds apps and websites from a plain description of what you want, with no coding needed (1, 3). Its AI agent, Replit Agent, writes the code, tests it, fixes what it finds and publishes the result (2). Apps made on Replit come with built-in services such as a database, sign-in and hosting, and can connect to outside tools (1).
+
+Sources for this section:
+
+1. [Replit, "AI App and Website Builder"](https://replit.com/), read 8 November 2026
+2. [Replit, "AI Coding Agent: Build Apps Through Chat"](https://replit.com/ai), read 8 November 2026
+3. [Web Summit, "Replit"](https://websummit.com/appearances/lis26/906ae644-bbd1-4f7e-bfbb-87690996d3bd/replit) (based in the United States), read 8 November 2026
 
 ## At Web Summit 2026
 
