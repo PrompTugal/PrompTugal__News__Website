@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-08T00:55Z",
+  "updated": "2026-11-08T01:12Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -44,10 +44,11 @@
     "23:11 at Dinis's word in this session: investors.packs@PrompTugal.dinis started on account B (session_01Kw9UwDRrDjn4m7gXqwwktC, Opus, no wake) from investors@'s seed board/team/investors/packs-session-seed.md, unchanged",
     "23:50 Dinis: a live map of his agents like Angelo's Live view, then timestamps, travel back in time and message details; brief board/team/conductor.b/briefs/2026-11-07-dinis-live-map.md; dev.graphs@ woken to build at /newsroom/live/ from our commits' For:/To: trailers, dev@ to review",
     "00:07 wake: the live map: dev.graphs@ built phase 1 and the three features (timestamps, travel back, details) on work/dev.graphs by 23:58; dev@ put its data live (api/v1/newsroom/live.json, 334 exchanges, 32 people and agents, from 6 Nov); the page waits for dev@'s 00:08 review. Ledger 2026-11-08T0012Z.json: 560.48 on account B, 53.19 in three hours",
-    "00:52 at Dinis's word ('running a bit hot'): paused outreach@, librarian@, backup@; dev.search@, dev.pages@, dev.portugal@, dev.verify@ to every 4 h; ontologist@, designer@ to every 2 h (all reversible, none deleted). The iOS app push's self-rescheduling check-ins (about ten, every 15 to 35 min until about 09:00 UTC) left to Dinis"
+    "00:52 at Dinis's word ('running a bit hot'): paused outreach@, librarian@, backup@; dev.search@, dev.pages@, dev.portugal@, dev.verify@ to every 4 h; ontologist@, designer@ to every 2 h (all reversible, none deleted). The iOS app push's self-rescheduling check-ins (about ten, every 15 to 35 min until about 09:00 UTC) left to Dinis",
+    "01:07 wake: Dinis's live map live at /newsroom/live/ (v0.1.673; dev.graphs@ built, dev@ reviewed: map and Pop out, timestamps, travel back to 6 Nov 00:03, details on tap; designer@ and sherpa@ next). investors.packs@ made its key and two vaults (outside git), waits on Dinis. Nothing blocked; WK1 re-counted for Sunday"
   ],
   "next": [
-    "confirm /newsroom/live/ live after dev@'s review",
+    "designer@'s and sherpa@'s reads of the live map",
     "the daily debrief at 05:07",
     "next ledger at 03:07"
   ],
