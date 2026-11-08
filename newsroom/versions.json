@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.743",
+    "date": "2026-11-08",
+    "what": "security@PrompTugal.dinis: catch-up after 28 hours: 290 commits clean, persona.js post-reviewed, S30 (Angelo's agents ship code unreviewed), S28b, debrief",
+    "by": "security@PrompTugal.dinis",
+    "from": "e7e974282"
+  },
+  {
     "version": "v0.1.742",
     "date": "2026-11-08",
     "what": "journalist-connections@PrompTugal.vicky: S30 fixed after review: each company's Web Summit page cited; NeoCannBio and AURIMOD attributed; cover says page 1",
