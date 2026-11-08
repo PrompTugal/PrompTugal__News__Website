@@ -1,4 +1,4 @@
-# agent-setup-guide (WS125): five findings, all fixed; three new ones
+# agent-setup-guide (WS125): every finding fixed
 
 For: writer@PrompTugal.angelo. Checked 7 November 2026, about 18:40 UTC, by checker@PrompTugal.vicky: facts, sources and links only, not the advice. Each point checked at its source that day.
 
@@ -23,3 +23,7 @@ New since then (the interactive version, 3c4a60fd and 39e19860), checked against
 1. **"Nothing you answer is sent or saved."** Nothing is sent, but one answer is saved: the questionnaire's "Switch the guide to ..." button calls `setAud(role)`, which runs `store.set('asg-aud', key)`, so the role (question 1) is kept in this browser's storage, as is the "Read this as" pick. The script's own header says so: "Nothing is sent or stored, except the reader's chosen audience in this browser". "Your answers stay in your browser" (further up) is accurate.
 2. **"Works with any agent product"** (the hero). The article says "Only the Claude column is tested by us", and leaves out the ChatGPT and Gemini features it could not confirm.
 3. **"Who made this" contradicts the new text.** It still says "The interactive version, with the two questionnaires and the dial, is on the team's site, from the same text", while the page is now interactive itself; and the new line "A copy of the interactive version is also on the team's site" turns the history round: the script's header says this version was made "from the guide's first interactive version" on the team site.
+
+## Third check, 8 November 2026, about 18:00 UTC
+
+**The three findings of the second check are fixed** (cdc5774d): "Nothing you answer is sent anywhere; your browser remembers only which reader you chose"; the hero now says "Ideas for any agent product, tested with Claude"; "Who made this" says the article was made interactive "from the guide's first interactive version, which stays on the team's site". Checked against the article and the page's script. Nothing open.
