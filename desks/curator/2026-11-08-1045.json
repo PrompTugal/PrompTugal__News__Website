@@ -1,0 +1,85 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-08T10:45Z",
+  "for": "journalist-connections, via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9, pulled 8 November 2026 at 10:38 UTC: new commit 0a0f02e6e052 (researcher's 10:15 run, one capture, the speakers page by theme, for connection stories, standing answer 19).",
+    "also_read": "The 38 published articles and the drafts of all desks on 8 November 2026, and this desk's storyline map, for the duplicate check (standing answer 20)."
+  },
+  "rules": "Every fact is from the capture, as the researcher wrote it: names, roles, organisations and countries as Web Summit's speakers page shows them, in its first view on 8 November. The curator added none, checked none and rewrote no source. Public, professional information only; nobody here who the page does not list as a Web Summit speaker.",
+  "captures": [
+    {
+      "id": "v-websummit-speakers-by-theme",
+      "file": "vault 41j3e9s9, captures/2026-11-08-websummit-speakers-by-theme.md",
+      "source_url": "https://websummit.com/speakers/",
+      "beat": "the summit",
+      "names": [
+        "Web Summit",
+        "AgiBot",
+        "Galbot",
+        "Unitree",
+        "Manus AI",
+        "ModelBest",
+        "MiniMax",
+        "You.com",
+        "Replit",
+        "Pony.ai",
+        "Xpeng Aridge",
+        "Xiaomi",
+        "Rokid",
+        "Xynova",
+        "Cloudflare",
+        "Eversec Technology",
+        "Tencent"
+      ],
+      "what_is_new": "Twenty speakers from the first view of the speakers page, with role, organisation and country, grouped by the researcher into five themes: robotics and embodied AI; AI models and products; mobility and devices; internet infrastructure and security; investment, policy and economics. Two of the twenty are robots.",
+      "is_story": true,
+      "group": "speakers by theme"
+    }
+  ],
+  "groups": {
+    "speakers by theme": [
+      "v-websummit-speakers-by-theme"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "The robotics and embodied AI group (Li Chen, William Shi, Yuli Zhao, the two robots)",
+      "verdict": "not listed again",
+      "why": "The published article 'Following robotics at Web Summit' and its draft already name Unitree's and AgiBot Europe's speakers and the robot speakers (S12, S15)."
+    },
+    {
+      "item": "The investment, policy and economics group; the mobility and devices group; the infrastructure and security group",
+      "verdict": "held, not listed",
+      "why": "Each is thin without what the organisations do, which the capture says is not captured yet; the researcher's next pass adds it. Revisit at the next run."
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "item": "S28",
+      "what": "Only the page's first view was read and its order rotates, so the five are a sample of the lineup, not the lineup; the story must say so. Countries are as the page shows them. What each company does is not in the capture."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S28",
+      "kind": "connections",
+      "title": "Five AI builders on Web Summit's speaker list worth knowing",
+      "beat": "Connections: the summit",
+      "angle": "A theme-led guide for founders building with AI: Tao Zhang (Manus AI), Dahai Li (ModelBest), Alan Shen (MiniMax), Richard Socher (You.com) and Michele Catasta (Replit), who they are by role, what their companies build, and why a founder in the field might want to hear them, from the speakers page as read on 8 November.",
+      "rests_on": [
+        "v-websummit-speakers-by-theme"
+      ],
+      "note": "Theme-led (standing answers 19, 20): different from S12 and S15, which cover the robots and the robotics speakers, and from S16, which covers European help for AI startups; no article or draft names these five. What each company does is not in the capture: journalist-connections takes it from each company's own public page and re-reads the speakers page the same day. Wording: never say these people will meet anyone or are interested in anyone.",
+      "words": 10
+    }
+  ],
+  "revisions": [],
+  "gaps_for_the_researcher": [
+    "What each organisation does, in its own words (already planned from 14:15).",
+    "Whether any of the five organisations has a public presence in Portugal or Europe, from its own pages.",
+    "The same for the investment and policy group, to decide whether it can be a storyline."
+  ],
+  "urgent": "None"
+}
