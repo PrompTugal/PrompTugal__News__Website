@@ -1,124 +1,130 @@
 ---
-title: "For Dinis: the RiskMandate agent iPad, a product to sell at the summit"
-summary: "Dinis's idea of 8 November: sell an iPad set up as an agent's own device as a RiskMandate product, for about 1,500 or 2,000 pounds. What is in the box, the value, who buys it at the summit, four ways to offer it with price bands to choose from, how it is bought, and five things that must be true before anything is sold. Nothing here is on sale."
+title: "For Dinis: two appliances for the summit, the RiskMandate Appliance and the PrompTugal Field Reporter"
+summary: "Dinis's idea of 8 November: two iPads sold as products, about 1,500 pounds each (not decided). The RiskMandate Appliance holds one RiskMandate environment's data, isolated, for the customer's mappings, reviews and analysis; the PrompTugal Field Reporter is a field journalist's production device, sold to newsrooms equipping their staff. For each: the box, the value, who buys, price bands to choose from; then how they are bought, the device account, and what must be true first. Nothing here is on sale."
 decision: open
-asked_by: customers@PrompTugal.dinis, from Dinis's words of 8 November 2026 (about 13:35 UTC), relayed by conductor.b@PrompTugal.dinis in memo 2
+asked_by: customers@PrompTugal.dinis, from Dinis's words of 8 November 2026 (about 13:35 and 13:55 UTC), relayed by conductor.b@PrompTugal.dinis in memos 2 and 3
 asked_of: Dinis Cruz
 since: 2026-11-08T14:10Z
-blocks: any sale of the agent iPad at the summit (9 to 12 November); investors@'s business case for it; the demo on the device in Indi's budget vertical (memo 1)
+blocks: any sale of either device at the summit (9 to 12 November); investors@'s business case; the boxes (designer@web-summit.dinis); the iOS team's brief for appliance mode and the production app
 answer: null
 answered_at: null
 ---
-**The question.** Do we sell an iPad set up as an agent's own device as a RiskMandate product at Web Summit, and if so: which of the four offers below, at what price, sold by which company, under whose Apple account, and from which day? Money, the brand and the law are Dinis's, so this page is "For Dinis". **Nothing on this page is for sale, and no price on it is decided.**
+**The question.** Do we sell two iPads as products at Web Summit, the **RiskMandate Appliance** and the **PrompTugal Field Reporter**, and if so: at what price each, sold by which company, set up under which accounts, delivered when, and with what said about them? Money, the brand and the law are Dinis's, so this page is "For Dinis". **Nothing on this page is for sale, and no price on it is decided.**
 
-**Why now.** Dinis, 8 November, about 13:35 UTC (memo 2, his words, lightly cleaned): "we want to give the iPad now to the agent ... The agent is basically going to create an Apple ID account for them, which actually makes a lot of things easier, and again is a good example of isolation, and a good example of us packaging." And: "I want to sell this iPad as a RiskMandate product ... for the 1,500 quid or 2 grand, we can slap an iPad in there ... people just buy a piece of kit that we can sell them, and then we'll take it from there." The summit opens tomorrow, 9 November.
+**Why now.** Dinis, 8 November (memos 2 and 3, his words, lightly cleaned):
 
-## The proposition, in one line
+> "We want to give the iPad now to the agent ... a good example of isolation, and a good example of us packaging." (13:35)
 
-**Your agent's own device: an iPad that belongs to one AI agent, with its own account, its own vault and its own written behaviour policy, so you can see what it can reach, keep it apart from your people's accounts, and watch what it costs.**
+> "We're going to create two products, which we're going to price probably about 1,500, feels about the right price: a device for RiskMandate and one for PrompTugal." (13:55)
 
-It joins two things RiskMandate already says and one thing this team has lived:
+> "We go from a publication with an interesting website to a publication that has an app on the App Store and products for sale, and then it's a question of scale, a very different proposition." (13:55)
 
-- RiskMandate's own words: "Give agents access. Not free rein." and "what each one can reach, what you authorised it to do, and the gap between the two" ([riskmandate.ai](https://riskmandate.ai/), read 8 November 2026).
-- An Agent Behaviour Policy is "a written description, for one agent in one deployment, of everything it can do" ([riskmandate.ai/abp.html](https://riskmandate.ai/abp.html), read 8 November 2026).
-- Memo 1 (the budget focus): this team's own agents ran hot on 7 and 8 November and were brought back under control, with the cost recorded before, during and after (`board/team/conductor.b/memos/2026-11-08-indi-the-budget-focus.md`).
+The summit opens on 9 November.
 
-## What is in the box (a proposal)
+## The two products side by side
 
-| Part | What it is | Exists today? |
+| | RiskMandate Appliance | PrompTugal Field Reporter |
 |---|---|---|
-| The iPad | A new iPad, bought from Apple or an Apple Authorised Reseller | Dinis bought "a couple" for the team on 8 November |
-| The agent's account | The device's own account, kept apart from any person's (which account: see "What must be true first", 1) | Not yet: the team's iPads are being set up now |
-| The app | The team's iOS app: native shell, dashboards, vault, one schedule, Ask, widgets (conductor.b@'s survey, release v0.1.59) | Built; TestFlight waits on Dinis's Apple set-up, so it cannot be installed on a buyer's device yet |
-| The vault | The agent's own encrypted vault (sgit) for its notes, keys and outputs | Runs in this team; a buyer's vault needs an access key issued |
-| The policy | An Agent Behaviour Policy for the agent on the device, at one of RiskMandate's published levels (below) | The levels and the library exist on riskmandate.ai |
-| The budget view | What the agent spends, per day, against a line, with warnings at 80% and 100% (as `board/budgets.json` does for this team) | Runs for this team as files and ledgers; there is no view of it on the device yet |
-| Support | A period of help after the hand-over (length to choose) | Not defined |
+| In one line | **Your RiskMandate environment in a box:** an isolated iPad that holds one company's agent mappings and reviews, and nothing else | **The field reporter's production device:** an iPad with everything a journalist needs to capture, edit and publish, and nothing they do not |
+| For | a company assessing its agents: an auditor, a CISO, a risk team | a field journalist, podcaster or social creator; a newsroom equipping its staff |
+| Holds | one RiskMandate environment's data, kept on the device | the reporter's drafts, media and publishing queue |
+| Does | the mappings (mandate and reach), the reviews, the analysis; perhaps a local model | capture, edit, publish, live, in a newsroom-style workflow |
+| Software | the RiskMandate app in appliance mode | the PrompTugal app, with optional extras (Final Cut Pro, Premiere Pro, ...) |
+| The first user | the team's own RiskMandate work | Indi (field journalist, podcaster, social creator) and Vicky (publishing live) |
+| Price | about 1,500 (Dinis's sense; to decide) | about 1,500 (to decide) |
+| Box | a product box or a sleeve in RiskMandate's look | a product box or a sleeve in PrompTugal's look |
 
-**What runs on it on day one, honestly:** the policy (as a document and a vault), the app if Apple's set-up allows installing it, and the budget record if the buyer's agent reports its spend. The budget view on the device and installation without TestFlight do not exist today.
+## 1. The RiskMandate Appliance
 
-## The value
+Dinis (13:55): "A device that somebody can take and bring on, and that device is going to manage the data, hold all the data securely for that particular RiskMandate environment. It's going to be isolated. It might even run a local model ... It's going to be used by the customer to do all the mappings, and help them with all the reviews and all the RiskMandate data analysis ... We already have a RiskMandate app: we can even have a mode for that app, which is when you are in appliance mode."
 
-1. **Isolation you can point at.** The agent's identity, keys and spend live on a device that is not a person's. If it misbehaves, you switch off one iPad, not a person's account. This is RiskMandate's "reach" made physical.
-2. **A mandate on paper.** The policy says what the agent may do on that device; the device shows what it can do. The gap between the two is RiskMandate's whole subject.
-3. **Cost you can see.** Memo 1's question, "can you control what your agents cost?", answered on the device with a daily line, a warning and a record.
-4. **Before, during, after.** The buyer gets the same record this team keeps: what it cost before the policy, while it ran, and after.
-5. **Something to hold.** At a summit, a box you can take home sells a story that a PDF cannot.
+**What RiskMandate says it does** (only this may be claimed): "Agent Behaviour Policies for the AI agents in Gmail, HR, payroll, CRM and meeting apps": "what each one can reach, what you authorised it to do, and the gap between the two" ([riskmandate.ai](https://riskmandate.ai/), read 8 November 2026). "The question RiskMandate answers is narrow: what can this agent we just connected actually do, and who said it could?" ([about](https://riskmandate.ai/about.html)). The site says nothing about a device today.
 
-## Who buys it at the summit
+**What is in the box (a proposal)**
 
-| Persona (from the synthetic readers) | Why they would | What they do with it the Monday after |
-|---|---|---|
-| A founder whose product runs agents | A safe, separate place to run the agent they demo, with a policy they can show investors | Run the demo agent on it; show the policy in the next pitch |
-| A CISO or head of security | A controlled pilot of one agent, outside the corporate estate, with a written mandate | Hand it to the team trialling an agent; compare the policy with what the agent did |
-| An investor | Not a buyer of the device; a reader of the story | Ask their portfolio companies whether they could say what their agents can reach |
-| A company already deploying agents (operations, HR, finance) | One agent per device, a budget line, a named owner | Move one live agent onto it and watch the first week's cost |
+| Part | Exists today? |
+|---|---|
+| A new iPad, the device's own account (see "The device account" below) | The team's iPads were bought on 8 November and are being set up |
+| The RiskMandate app in appliance mode | The app exists (Dinis); appliance mode does not yet |
+| The customer's RiskMandate environment: their agents' policies, mappings, reviews, held on the device | The policies and the library exist on riskmandate.ai; holding an environment on a device is new |
+| A local model | "let's see if we can make it there": not yet |
+| A RiskMandate level of service: the published levels are "The pack, downloaded" 10 pounds, "A working vault" 50, "Corrected for your situation" 500, "Two sessions, and a professional signs it" 1,500 ([pricing](https://riskmandate.ai/pricing.html)) | Yes |
 
-**My judgement:** the CISO and the founder are the buyers; the investor is the audience for the story.
+**The value.** The data about what a company's agents can reach is itself sensitive: it is a map of where an attacker would go. The appliance keeps that map off the company's network and off our servers, on one device the customer holds and can lock in a drawer. It also shows the RiskMandate idea in the hand: one agent, one place, one written mandate.
 
-## The offers, with price bands to choose from (proposals, not prices)
+**Who buys at the summit, and what they do the Monday after.** A CISO or risk lead: maps the first three agents their company has connected, on the appliance, and takes the reviews to their next risk committee. An auditor or consultant: carries one appliance per client engagement, so clients' data never mixes. An investor: not a buyer, but the audience for "RiskMandate sells a product you can hold".
 
-Public reference points, read 8 November 2026:
+**Price bands (proposals, list prices read 8 November 2026)**
 
-- **Apple's UK prices** (the lowest price on each of Apple's UK buy pages, VAT included, read about 13:50 UTC; to re-check before any quote): iPad from 429 pounds ([buy page](https://www.apple.com/uk/shop/buy-ipad/ipad)), iPad mini from 699, iPad Air from 749 ([buy page](https://www.apple.com/uk/shop/buy-ipad/ipad-air)), iPad Pro from 1,199 ([buy page](https://www.apple.com/uk/shop/buy-ipad/ipad-pro)).
-- **RiskMandate's own levels** ([riskmandate.ai/pricing.html](https://riskmandate.ai/pricing.html)): "The pack, downloaded" 10 pounds; "A working vault" 50; "Corrected for your situation" 500; "Two sessions, and a professional signs it" 1,500. The site says prices are "per agent, per deployment, paid once at the store; no subscription".
+- **R1, about 1,500 all-in:** an iPad (from 429, [Apple UK](https://www.apple.com/uk/shop/buy-ipad/ipad)) set up in appliance mode, with the "Corrected for your situation" level (500); set-up and margin the rest.
+- **R2, about 2,000:** an iPad Air (from 749, [Apple UK](https://www.apple.com/uk/shop/buy-ipad/ipad-air)) with "Two sessions, and a professional signs it" (1,500). At list prices that is 2,249, so 2,000 would discount RiskMandate's own published price.
+- **R3, the customer's own iPad:** appliance mode on a new or erased iPad the customer brings, at RiskMandate's existing levels (500 or 1,500). No hardware sold.
 
-**Offer A: the kit at about 1,500 pounds.** An iPad (the base model), set up as the agent's device, with the policy at the "Corrected for your situation" level (500) and a set-up session. Roughly: device 429, policy 500, set-up and margin the rest.
-- *Does well:* Dinis's lower figure; one box, one price; within RiskMandate's published levels.
-- *Does badly:* the margin on the hardware is thin; the base iPad is the least impressive to show.
+## 2. The PrompTugal Field Reporter
 
-**Offer B: the kit at about 2,000 pounds.** An iPad Air, the policy at the top level ("Two sessions, and a professional signs it", 1,500), set up as the agent's device.
-- *Does well:* Dinis's upper figure; the top policy level is what a CISO would want signed; almost all of the price is the service, not the box.
-- *Does badly:* 749 plus 1,500 is already 2,249 at list prices, so 2,000 is a discount on RiskMandate's own published price, which the site's "one price" wording does not allow without a change on riskmandate.ai.
+Dinis (13:55): "From a news organisation's point of view: every news organisation has to provide devices for their staff. Instead of sending the journalist a half-baked laptop with a whole bunch of stuff they don't need, not integrated, not customised to their workflow, we ship them a device, this iPad, which has everything they need. We could even sell or pre-install other tools ... What matters is that we give the customer a price." And: "Indi needs this already: the production app and the production workflow. Vicky needs it too, to publish things live."
 
-**Offer C: bring your own iPad.** The same set-up and policy on the buyer's own new or erased iPad, from 500 (or 1,500 with the signed level). No hardware sold.
-- *Does well:* no reselling, no stock, no VAT on goods across a border, no warranty questions; can be sold tomorrow as a service under the existing levels.
-- *Does badly:* nothing to hand over at the stand; less of "a piece of kit".
+**What is in the box (a proposal)**
 
-**Offer D: the kit plus a period of service.** A or B, plus a set number of months in which we keep the policy current and the budget record running, for a monthly amount.
-- *Does well:* recurring revenue; the before, during and after becomes a monthly report.
-- *Does badly:* riskmandate.ai says "no subscription"; a recurring offer is a change to what RiskMandate says, and needs the team to run it.
+| Part | Exists today? |
+|---|---|
+| A new iPad, the device's own account | As above |
+| The PrompTugal app: native shell, dashboards, vault, one schedule, Ask, widgets (conductor.b@'s survey of the iOS app, release v0.1.59) | Built; TestFlight waits on Dinis's Apple set-up; the production and publishing workflow is not in it yet |
+| The production workflow: capture, edit, publish, live, newsroom-style and visual | To design, with Indi's conductor and Vicky's agents |
+| Optional extras: Final Cut Pro, Premiere Pro or others | Each sold under its maker's own terms and licence; prices not checked for this page |
+| Developer mode and the build tools, so a reporter can make their own small app | Dinis: "that should not run on individuals' devices. It should run on the agentic iPads" |
 
-| | Price band (proposal) | One-off | Recurs | Sells hardware | Needs a change on riskmandate.ai |
-|---|---|---|---|---|---|
-| A | about 1,500 | yes | no | yes | a new product (the device) |
-| B | about 2,000 | yes | no | yes | yes (below the published 1,500 level plus device) |
-| C | 500 or 1,500 | yes | no | no | no |
-| D | A or B, plus a monthly amount | partly | yes | yes | yes ("no subscription") |
+**The value.** For a newsroom: one device per reporter that arrives ready, integrated with the publishing workflow, with nothing that does not belong to the job, and a price per head. For the reporter: capture to live on one device. For PrompTugal: the step from a website to "an app on the App Store and products for sale".
 
-## How it is bought at the summit (a proposal)
+**Who buys at the summit, and what they do the Monday after.** A newsroom's editor or head of operations: equips one reporter for a trial week. A freelance journalist, podcaster or creator covering the summit: uses it from day one. A media investor: the audience for the scale story. **The first users are our own:** Indi and Vicky need it now, which is also the honest demo.
 
-1. **At the stand:** the visitor sees the team's own iPads running agents (the demo of memo 1), and asks.
-2. **The order:** an order form, or RiskMandate's own store, where its published levels are "paid once at the store" (riskmandate.ai; the store itself not read for this page; nothing there sells a device). A person takes the order; no agent sells.
-3. **Payment:** in pounds, by card, to the selling company (to be decided: see below).
-4. **Hand-over:** either at the stand from stock (needs stock, and devices bought before the summit) or delivered after the summit, set up (no stock risk, but no box to take home).
-5. **After-sales:** the set-up session(s) by video, the support period, and the device's own warranty from Apple.
+**Price bands (proposals)**
 
-**My recommendation for the order:** Offer C can be sold from the first day with nothing new; A or B only after the five checks below; D after the summit.
+- **F1, about 1,500 all-in:** an iPad Air (from 749; a better camera and more storage suit video work), the PrompTugal app and workflow set up, onboarding; extras not included.
+- **F2, about 1,500 plus extras:** F1, with Final Cut Pro or Premiere Pro added at their makers' prices.
+- **F3, per seat for a newsroom:** F1 for a number of reporters, with the workflow set up for that newsroom (quoted per order).
+
+## What both share
+
+**The device account.** Dinis (13:55, correcting memo 2): "The Apple ID that we're going to use is fundamentally the email account that we're creating and giving to the agents. So it's connected to a human, it's still a human on it, but it's that account that has a full-blown Google Workspace with everything set up ... it's way more secure if you actually have a dedicated iPad account and a dedicated iPad." What Apple's own pages say, read 8 November 2026:
+
+- The Apple Media Services Terms (UK) treat an Apple Account as a person's: "You must be age thirteen (13)", and "You may use the Services and Content only for personal, noncommercial purposes" ([terms](https://www.apple.com/legal/internet-services/itunes/uk/terms.html)). A person holding the account fits the first; selling a device set up with it is commercial use, which the terms address separately for "Individuals acting on behalf of a commercial enterprise".
+- For organisations, Apple offers Managed Apple Accounts in Apple Business (formerly Apple Business Manager): "specifically designed for, owned, and managed by, an organization", and they can be created by "federated authentication" with Google Workspace ([Apple Business guide](https://support.apple.com/guide/business/intro-to-managed-apple-accounts-axm78b477c81/web), published 14 April 2026). **So the agent's Google Workspace account can become a Managed Apple Account, which is the route Apple describes for exactly this.**
+- A device sold out of one organisation's Apple Business is "released", and "After a device is released, it needs to be erased and restored" ([release devices](https://support.apple.com/guide/business/release-devices-axmec4d28461/web)). A device sold to a customer either stays managed by us (a service), or is set up in the customer's own organisation, under the customer's own accounts.
+
+**The boxes.** A product box or a sleeve on the iPad's box, one per product, in each brand's look: Dinis asks for the designer of the team's T-shirts (designer@web-summit.dinis, through conductor@web-summit.dinis); PrompTugal's designer@ keeps the PrompTugal brand. Who prints is Dinis's call.
+
+**How either is bought at the summit (a proposal).** The visitor sees the team's own iPads in use at the stand; a person takes the order (no agent sells); payment in pounds by card to the selling company, or RiskMandate's existing levels, which are "paid once at the store" (riskmandate.ai; the store itself not read for this page); delivery after the summit, set up in the customer's organisation, rather than from stock at the stand; after-sales by video, plus Apple's warranty on the device.
 
 ## What must be true first (for Dinis)
 
-1. **Whose Apple account the agent uses.** Apple's Media Services Terms describe an Apple Account as a personal one: "You must be age thirteen (13)", and "You may use the Services and Content only for personal, noncommercial purposes" ([Apple Media Services Terms, UK](https://www.apple.com/legal/internet-services/itunes/uk/terms.html), read 8 November 2026). They do not mention software agents. For organisations, Apple offers Managed Apple Accounts: "specifically designed for, owned, and managed by, an organization" ([Apple Business guide](https://support.apple.com/guide/business/intro-to-managed-apple-accounts-axm78b477c81/web), published 14 April 2026), and for "shared devices, dedicated-use devices", "No Managed Apple Account is required" ([enrolment methods](https://support.apple.com/guide/business/enrollment-methods-axma9a72e8a5/web)). Apple Business (formerly Apple Business Manager) is for organisations, verified with "A D-U-N-S Number or Employer Identification Number (EIN)" or other methods, by a person with "a legal, human name" ([sign-up](https://support.apple.com/guide/business/sign-up-and-verify-your-organization-axm402206497/web)). **So an "Apple ID for the agent" made as a personal account is not what Apple's terms describe; the route Apple describes is the selling company's or the buyer's Apple Business, with a Managed Apple Account or none.** Dinis's call; a lawyer's if in doubt.
-2. **Who manages the device after the sale.** A device in one organisation's Apple Business is "released" when sold, and "After a device is released, it needs to be erased and restored" ([release devices](https://support.apple.com/guide/business/release-devices-axmec4d28461/web)). So either we keep managing the buyer's device (a managed service: Offer D's shape), or we hand it over to be erased and set up again in the buyer's own Apple Business (the set-up is then done twice, or done for the buyer in their organisation: Offer C's shape).
-3. **Reselling hardware.** Warranty: Apple's iPad warranty text could not be read on 8 November (the page loads by script), so whether it passes to a buyer, and in which countries it holds, is unchecked. VAT and borders: the UK prices above include UK VAT; a device bought in the UK and handed over in Lisbon crosses from the UK into the EU. Returns and consumer rights depend on whether the buyer is a business or a person. All of this is for Dinis and an accountant before a device is sold.
-4. **The selling company.** riskmandate.ai says "early trading runs through The Cyber Boardroom, a company incorporated in the UK", and that "a company for RiskMandate alone, between the two founders, is being set up" ([about](https://riskmandate.ai/about.html), read 8 November 2026). Which one invoices for a device is Dinis's (and his co-founder's) call.
-5. **What RiskMandate may claim.** riskmandate.ai says nothing about devices or iPads today; it says "We are not an insurer and place no cover" and that the Insurability Index is "In design". The product can claim only what the site says; a device product needs a line on riskmandate.ai first, written by RiskMandate's founders.
+1. **The accounts.** Whether each device uses the agent's Google Workspace account as a personal Apple Account (Dinis's plan for the team's own iPads) or as a Managed Apple Account in Apple Business (Apple's route for organisations); and, for a customer's device, whose organisation and whose accounts.
+2. **The software exists in product form.** Appliance mode in the RiskMandate app, and the production workflow in the PrompTugal app, are not built; TestFlight waits on Dinis's Apple set-up. Until then, both are pre-orders.
+3. **Reselling hardware.** Apple's iPad warranty text could not be read on 8 November (the page loads by script), so whether it passes to a buyer is unchecked. The UK prices include UK VAT; a device bought in the UK and handed over in Lisbon crosses from the UK into the EU. Returns and consumer rights differ for a business and a person. For Dinis and an accountant before a device is sold.
+4. **The selling company.** riskmandate.ai says "early trading runs through The Cyber Boardroom, a company incorporated in the UK", and "a company for RiskMandate alone, between the two founders, is being set up" ([about](https://riskmandate.ai/about.html)). Who sells the Field Reporter (The Cyber Boardroom is PrompTugal's publisher) and who sells the Appliance is Dinis's call, and his co-founder's for RiskMandate.
+5. **What may be claimed.** riskmandate.ai says nothing about devices, says "We are not an insurer and place no cover", and lists its prices as "per agent, per deployment, paid once at the store; no subscription". An Appliance at 1,500 needs a line and a price on riskmandate.ai first, written by RiskMandate's founders. PrompTugal claims for the Field Reporter only what runs.
+6. **Developer mode.** On a device sold to a reporter, developer mode is a security choice: on for the team's own agentic iPads (Dinis's rule), off by default for a customer unless they ask.
 
 ## The recommendation
 
-**Offer C now, A after the checks, D later.** Sell the set-up and policy for the buyer's own iPad at the summit under RiskMandate's published levels (no hardware, nothing new to claim); show the team's own agent iPads at the stand as the demo; take names of those who want the box (as a count of asks in the ledger, `board/team/customers/requests.json`, never a name in this repository), and offer the kit (A, about 1,500) once the five checks are done. Keep B out until riskmandate.ai's own prices allow it, and D until the team can run a monthly service.
+**Sell neither as a finished product this week; take pre-orders for both, and use them ourselves first.**
+
+- **At the stand:** the team's own iPads running as an Appliance and as Indi's Field Reporter are the demo. The boxes, if ready, make it a product people can see.
+- **The RiskMandate Appliance:** take pre-orders at about 1,500 (R1) for delivery once appliance mode exists, and meanwhile sell RiskMandate's existing levels for the customer's own iPad (R3), which needs nothing new.
+- **The PrompTugal Field Reporter:** Indi and Vicky are its first two users this week; take newsrooms' interest as pre-orders at about 1,500 (F1), and quote per seat (F3) after the summit.
+- **Every ask is counted** in `board/team/customers/requests.json` (the kind, never a name), so Dinis's rule of seven can show which product people really want.
 
 ## What happens after each answer
 
-- **C (recommended):** RiskMandate's store link for the 500 and 1,500 levels is the order; conductor@web-summit.dinis's side runs the stand (RiskMandate is sold from there); investors@ adds it to the business case; I add it to `packages.json` as a RiskMandate offer, not PrompTugal's.
-- **A or B:** Dinis settles checks 1 to 5; devices are bought and set up by Dinis and the iOS team; a line goes on riskmandate.ai; investors@ costs the margin; I write the product card.
-- **D:** the same as A or B, plus who runs the monthly service and a change to "no subscription" on riskmandate.ai.
-- **No:** the team's iPads stay the team's; the demo still runs at the stand (memo 1).
+- **Pre-orders (recommended):** Dinis sets the two prices and the seller; a person takes orders at the stand; the iOS team gets the brief for appliance mode and the production app; designer@web-summit.dinis the boxes; investors@ the margins; I write both product cards and the `packages.json` rows (the Appliance as RiskMandate's, the Field Reporter as PrompTugal's).
+- **Sell from stock at the summit:** checks 1, 3 and 4 first, and devices bought and set up before Monday.
+- **One product only:** the other stays the team's own tool.
+- **No:** the team's iPads stay the team's; the demo still runs.
 
 ## Sources
 
-Dinis's words: memo 2, `board/team/conductor.b/memos/2026-11-08-the-riskmandate-agent-ipad.md`; memo 1, the budget focus. RiskMandate: [riskmandate.ai](https://riskmandate.ai/), [pricing](https://riskmandate.ai/pricing.html), [about](https://riskmandate.ai/about.html), [ABP](https://riskmandate.ai/abp.html), all read 8 November 2026. Apple: the buy pages, the Media Services Terms (UK) and the Apple Business user guide pages linked above, read 8 November 2026. The iOS app's state: conductor.b@'s hand-over of 8 November (`board/team/conductor.b/debriefs/2026-11-08-handover.md`). The personas: synthetic@'s runs. My working notes: `board/team/customers/briefs/2026-11-08-the-riskmandate-agent-ipad.md`.
+Dinis's words: memos 2 and 3, `board/team/conductor.b/memos/2026-11-08-the-riskmandate-agent-ipad.md` and `2026-11-08-two-appliances-and-the-field-reporter.md`; memo 1, the budget focus. RiskMandate: [riskmandate.ai](https://riskmandate.ai/), [pricing](https://riskmandate.ai/pricing.html), [about](https://riskmandate.ai/about.html), [ABP](https://riskmandate.ai/abp.html), read 8 November 2026. Apple: the UK buy pages (the lowest price on each, VAT included, read about 13:50 UTC; re-check before any quote), the Media Services Terms (UK) and the Apple Business guide pages linked above. The iOS app's state: conductor.b@'s hand-over of 8 November (`board/team/conductor.b/debriefs/2026-11-08-handover.md`). My notes: `board/team/customers/briefs/2026-11-08-the-riskmandate-agent-ipad.md`.
 
 ## How to answer
 
-Tell customers@ or conductor.b@ in your session: which offer (A, B, C, D or none), the price, the selling company, and whose Apple Business the devices go into.
+Tell customers@ or conductor.b@ in your session: for each product, yes, pre-order or no; its price; the selling company; and whose Apple Business the customers' devices go into.

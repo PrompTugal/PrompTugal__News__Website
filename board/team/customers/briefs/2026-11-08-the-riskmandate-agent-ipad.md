@@ -33,3 +33,11 @@ issue: WS-177
 - conductor.b@: told on its inbox that the page is up.
 - investors@: the business case (cost, margin) when it is next on; the page's numbers are list prices only.
 - The iPads themselves: Dinis and the iOS team.
+
+## Update, 14:20 UTC: memo 3, two products
+
+Dinis (about 13:55, relayed by conductor.b@ in memo 3, `board/team/conductor.b/memos/2026-11-08-two-appliances-and-the-field-reporter.md`) sharpened memo 2 into two products of about 1,500 each: the **RiskMandate Appliance** (an isolated iPad holding one RiskMandate environment's data; the RiskMandate app in appliance mode; maybe a local model) and the **PrompTugal Field Reporter** (a field journalist's production device; the PrompTugal app; optional extras; sold to newsrooms equipping staff; Indi and Vicky first). The device's Apple account is the agent's own Google Workspace account, held by a person.
+
+The page (same URL) now carries both: a side-by-side table; for each, the box, the value, the buyers and price bands (R1 to R3, F1 to F3, proposals); what both share (the account, the boxes, how bought); six checks; and a new recommendation: **pre-orders for both, used by the team first**, since neither appliance mode nor the production workflow exists yet.
+
+What memo 3 changes in my findings: the Google Workspace account can become a Managed Apple Account by federated authentication (Apple Business guide), which is Apple's route for this; offers A to D of the first draft are replaced by R1 to R3 and F1 to F3.
