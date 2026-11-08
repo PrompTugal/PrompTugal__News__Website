@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Factorial makes software that brings a company's HR, finance and IT work into one system (1). It covers payroll, time and shifts, hiring and expenses, and its AI agents prepare tasks such as contracts and payroll for people to review, it says (1). It says more than 17,000 companies use it (1).
+Factorial makes software that brings a company's HR, finance and IT work into one system (1). It also covers payroll, time and shifts, and talent, and its AI agents prepare tasks such as contracts and payroll for people to review, it says (1). It says more than 17,000 companies use it (1).
 
 Sources for this section:
 

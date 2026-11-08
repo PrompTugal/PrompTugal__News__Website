@@ -17,7 +17,7 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Tuesday 10 November, 10:00 to 11:00, Stage 6 (PITCH):** "PITCH group round 1", where Web Summit lists Gerasim Hovhannisyan, Co-founder and CEO of EasyDMARC, among the speakers: [Web Summit, "PITCH group round 1"](https://websummit.com/sessions/lis26/c3703a46-e6a5-4106-a8ec-0c7777160569/pitch-group-round-1/), read 8 November 2026.
+- **Tuesday 10 November, 10:00 to 11:00, Stage 6 (PITCH):** "PITCH group round 1", where Web Summit lists Gerasim Hovhannisyan, Co-founder and CEO of EasyDMARC, among the speakers; the page does not say his role in the round: [Web Summit, "PITCH group round 1"](https://websummit.com/sessions/lis26/c3703a46-e6a5-4106-a8ec-0c7777160569/pitch-group-round-1/), read 8 November 2026.
 - **Thursday 12 November, 15:25 to 15:50, Stage 8 (Cybersecurity Summit):** "The perimeter is dead. So what happens to trust?", with Gerasim Hovhannisyan: [Web Summit, "The perimeter is dead. So what happens to trust?"](https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/), read 8 November 2026.
 
 Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
