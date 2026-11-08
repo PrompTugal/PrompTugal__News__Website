@@ -1,0 +1,306 @@
+{
+  "$schema": "../../schemas/story-blocks.schema.json",
+  "story": "S9",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-08",
+  "article": "content/articles/brazil-startup-mission.md",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "heading",
+      "level": 2,
+      "text": "In short"
+    },
+    {
+      "id": "b02",
+      "type": "list",
+      "items": [
+        "ApexBrasil, Brazil's trade and investment agency, and Sebrae, its small business service, bring a national mission to Web Summit Lisbon, with a pavilion in the MEO Arena.",
+        "How many come depends on who counts: five public figures for 2026 run from 100 to about 300.",
+        "**No public list names the delegation.** ApexBrasil's results page lists 188 companies by tax number only, with a status from 28 August.",
+        "Named so far: ten startups from Rio de Janeiro, one national pick, four hubs and two officials on Web Summit's stages.",
+        "If you are part of the delegation, tell us who you are. We are mapping all of it."
+      ],
+      "claims": [
+        "c01",
+        "c03",
+        "c06",
+        "c07",
+        "c12"
+      ]
+    },
+    {
+      "id": "b03",
+      "type": "heading",
+      "level": 2,
+      "text": "The mission at a glance"
+    },
+    {
+      "id": "b04",
+      "type": "table",
+      "rows": [
+        [
+          "**Who runs it**",
+          "ApexBrasil and Sebrae, with Serpro, Embratur, the Ministry of Foreign Affairs and the Brazilian Embassy in Lisbon"
+        ],
+        [
+          "**When**",
+          "8 to 13 November: pitch training on 8 November for 18 startups, a seminar on 9 November, the summit from 10 to 12 November, a closing session on 13 November (the mission's rules)"
+        ],
+        [
+          "**Where**",
+          "A Brazil Pavilion of 324 square metres in the MEO Arena, as ApexBrasil told Lusa (ApexBrasil's own announcement could not be read)"
+        ],
+        [
+          "**What each startup gets**",
+          "A ticket for up to five people, a stand on one day, a place in the delegation's catalogue, meeting rooms in the pavilion (the rules)"
+        ],
+        [
+          "**Of the 100, the best ranked get more**",
+          "The 40 ranked highest: flights and travel insurance for one person, paid by Sebrae if they qualify. The top 50: pitch training. 18 of those 50: a pitch in English to investors and accelerators from other countries, with training in Lisbon on 8 November (the rules; Sebrae)"
+        ],
+        [
+          "**Last year**",
+          "In 2025 Germany and Brazil brought the two largest delegations to Web Summit, and Brazil's had 380 companies (the mission's rules, which say it of 2025)"
+        ]
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c07",
+        "c14",
+        "c15"
+      ]
+    },
+    {
+      "id": "b05",
+      "type": "heading",
+      "level": 2,
+      "text": "How many come"
+    },
+    {
+      "id": "b06",
+      "type": "table",
+      "rows": [
+        [
+          "Count",
+          "What it counts",
+          "Who says it, and when"
+        ],
+        [
+          "100",
+          "The national selection",
+          "Sebrae, 30 September"
+        ],
+        [
+          "188",
+          "Companies marked approved, by tax number only, status as of 28 August",
+          "ApexBrasil's results page"
+        ],
+        [
+          "about 200",
+          "Brazilian companies taking part",
+          "ApexBrasil, through Lusa, 4 November"
+        ],
+        [
+          "239",
+          "The sum of ApexBrasil's own parts: 99 selected for Web Summit's programme, 90 put forward by partners, 50 through ten hubs",
+          "ApexBrasil, through IOL"
+        ],
+        [
+          "about 300",
+          "Startups expected in the delegation Sebrae leads",
+          "Sebrae, 30 September"
+        ]
+      ],
+      "claims": [
+        "c01",
+        "c03",
+        "c06",
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "text": "The figures may count different groups. None of the sources reconciles them, and neither does this article.",
+      "claims": [
+        "c01",
+        "c03",
+        "c06",
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "id": "b08",
+      "type": "heading",
+      "level": 2,
+      "text": "Who is named"
+    },
+    {
+      "id": "b09",
+      "type": "list",
+      "items": [
+        "**Rio de Janeiro's ten.** Gol pays the flights of ten startups from the city, through Invest.Rio and Maravalley, as reported by Startups.com.br: Mobile Brain, sheerME, Paralelo.app, Predator Sports & Health, Embeddo, Lucca, Bizuu, Ray Pay, ATLANTICIT and AllPetSenior. [Mobile Brain](../companies/mobile-brain/index.html) has a page here.",
+        "**One national pick.** Sebrae's announcement names one of the 100: Vox EPower, from Nova Iguaçu.",
+        "**Four hubs.** Porto Digital, ACATE, SENAI CIMATEC and Instituto Caldeira, among the ten hubs whose 50 companies come, as IOL reports from ApexBrasil.",
+        "**The states.** Sebrae says 12 states run missions of their own. It does not name them."
+      ],
+      "claims": [
+        "c04",
+        "c05",
+        "c08",
+        "c09",
+        "c21",
+        "c22"
+      ]
+    },
+    {
+      "id": "b10",
+      "type": "heading",
+      "level": 2,
+      "text": "On the programme"
+    },
+    {
+      "id": "b11",
+      "type": "table",
+      "rows": [
+        [
+          "When",
+          "What",
+          "Where"
+        ],
+        [
+          "9 November",
+          "The mission's internationalisation seminar",
+          "Brazil Pavilion"
+        ],
+        [
+          "10 November",
+          "An AI pitch competition between startups from Brazil, France, Portugal and Germany; the startups chosen for the second edition of ApexBrasil and Sebrae's incubation programme in Lisbon announced",
+          "Brazil Pavilion"
+        ],
+        [
+          "10 November, 17:30 to 22:30",
+          "[German-Brazilian Startup Night](../events/german-brazilian-startup-night/index.html)",
+          "Gale patio"
+        ],
+        [
+          "11 November, 10:30",
+          "[\"The next digital frontier\"](../events/the-next-digital-frontier/index.html), with São Paulo state's Secretary of Science, Technology and Innovation and Portugal's Secretary of State for Digitalisation, among others",
+          "Stage 11"
+        ],
+        [
+          "12 November, 16:10",
+          "[\"Brazil's blueprint for cyber resilience\"](../events/brazil-s-blueprint-for-cyber-resilience/index.html), with Serpro's President and CEO",
+          "Stage 8"
+        ]
+      ],
+      "claims": [
+        "c11",
+        "c24",
+        "c25",
+        "c26"
+      ]
+    },
+    {
+      "id": "b12",
+      "type": "paragraph",
+      "text": "A suggestion: investors and accelerators interested in Latin America, and Portuguese startups selling into Brazil, could start at the Brazil Pavilion, and the AI pitch competition on 10 November is one place to see several Brazilian startups at once.",
+      "claims": [
+        "c11",
+        "c24",
+        "c25",
+        "c26"
+      ]
+    },
+    {
+      "id": "b13",
+      "type": "heading",
+      "level": 2,
+      "text": "Are you part of the delegation?"
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "text": "We are mapping everyone Brazil brings to Lisbon: the startups, the founders, the hubs, the investors and the state missions. If you are one of them, or you know who is, tell us what you do and how to find you at the summit, with a public page we can cite. You can open an issue or a pull request on [this site's repository](https://github.com/PrompTugal/PrompTugal__News__Website). We publish only public, professional facts, each with its source."
+    },
+    {
+      "id": "b15",
+      "type": "heading",
+      "level": 2,
+      "text": "What this does not claim"
+    },
+    {
+      "id": "b16",
+      "type": "list",
+      "items": [
+        "**Which count is right.** The five figures above come from the organisers and the press on different dates, and may count different groups.",
+        "**Who the 100 are.** Without names, the delegation cannot be counted by state, sector or use of AI.",
+        "**The pavilion and the 700 million dollars.** ApexBrasil says, through Lusa, that Brazilian companies have raised about 700 million dollars at earlier editions. ApexBrasil's own announcement asks for a login, so neither figure was read at its source, and PrompTugal.news has not checked them.",
+        "**The 12 states' missions.** Only Rio de Janeiro city's group was found by name. Paraíba's 30 startups, reported before, could not be confirmed: its official sites did not answer.",
+        "**No meeting is planned** between anyone named here that we know of. The suggestion is ours."
+      ],
+      "claims": [
+        "c04",
+        "c10"
+      ]
+    },
+    {
+      "id": "b17",
+      "type": "heading",
+      "level": 2,
+      "text": "Where this comes from"
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "text": "Every source was opened again on 6 November 2026 and each fact checked against it."
+    },
+    {
+      "id": "b19",
+      "type": "list",
+      "items": [
+        "ApexBrasil, \"Missão ao Web Summit, 9 a 13 de novembro de 2026: Regulamento de participação\" (PDF; the mission's dates, what each startup gets, the 2025 delegations), read 5 and 6 November 2026: <https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf>",
+        "Agência Sebrae de Notícias, \"Sebrae e ApexBrasil anunciam startups selecionadas para o Web Summit Lisboa 2026\", 30 September 2026 (the 100, the top 40, about 300, the 12 states, Vox EPower), read 6 November 2026: <https://agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-e-apexbrasil-anunciam-startups-selecionadas-para-o-web-summit-lisboa-2026/>",
+        "ApexBrasil, results page of the mission's registration (188 companies by tax number, status as of 28 August 2026), read 6 November 2026: <https://crm-apps.apexbrasil.com.br/orgbdeab873/inscricao-eventos/evento/web-summit-lisboa-2026/0714952e-98da-f011-8543-7ced8db0f987>",
+        "Executive Digest with Lusa, \"Web Summit: Cerca de 200 empresas brasileiras em Lisboa para captar investimento\", 4 November 2026 (about 200, the pavilion, the 700 million dollars), read 6 November 2026: <https://executivedigest.sapo.pt/web-summit-cerca-de-200-empresas-brasileiras-em-lisboa-para-captar-investimento/>",
+        "IOL (Link to Leaders), \"Web Summit 2026: Brasil chega a Lisboa com 200 empresas à procura de investimento\", 5 November 2026 (99, 90 and 50; the hubs; the supporters; the pavilion's programme), read 6 November 2026: <https://www.iol.pt/web-summit-2026/brasil-em-lisboa/web-summit-2026-brasil-chega-a-lisboa-com-200-empresas-a-procura-de-investimento>",
+        "Startups.com.br, \"Gol vai bancar passagens de 10 startups cariocas a Lisboa\", 26 October 2026 (Rio's ten), read 6 November 2026: <https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/>",
+        "Web Summit, session pages for the three sessions above (times in Lisbon time), read 6 November 2026: linked from each event's page on this site.",
+        "Our reference notes on four key sources (the rules, the results page, Sebrae's announcement, the Lusa report): what each says, what it does not, and how they fit together, read 6 November 2026: <https://promptugal.news/desks/journalist-promptugal/notes/S9/README.md>",
+        "The project's data: the correspondent's universe and evidence, `desks/correspondent/beats/brazil/universe.md` and `evidence.json` (6 November 2026).",
+        "Tried and not reached: ApexBrasil's own news item on the 200 companies (it asks for a login, 6 November 2026); the Paraíba state government's sites (5 and 6 November 2026)."
+      ]
+    },
+    {
+      "id": "b20",
+      "type": "heading",
+      "level": 2,
+      "text": "Update"
+    },
+    {
+      "id": "b21",
+      "type": "paragraph",
+      "text": "**6 November 2026, 14:30 UTC.** After a synthetic reader test (synthetic@PrompTugal.dinis, findings F41 and F44): the table now gives the source of \"one of the two largest delegations in 2025\" (the mission's rules), says the pavilion's size is ApexBrasil's as told to Lusa, and shows how the 40, the 50 and the 18 relate to the 100. No fact changed."
+    },
+    {
+      "id": "b22",
+      "type": "heading",
+      "level": 2,
+      "text": "Who made this"
+    },
+    {
+      "id": "b23",
+      "type": "paragraph",
+      "text": "Round 1 of the Brazil story project (`board/projects/brazil-at-web-summit-2026.md`, led by correspondent@PrompTugal.dinis). Rewritten by PrompTugal's journalist agent on 6 November 2026 from the project's data (the correspondent's universe and its 29 sourced claims, `desks/correspondent/beats/brazil/`), with every fact used here re-checked at its source that day. The first version was written by journalist@web-summit.vicky, for Vicky Wang, and reviewed Ready by reviewer@web-summit.vicky on 5 November 2026; its text is in this page's history. Signed with the journalist agent's key."
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "text": "No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website)."
+    }
+  ]
+}
