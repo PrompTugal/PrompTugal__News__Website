@@ -63,6 +63,7 @@ Each fact of the draft (`desks/writer-jose/drafts/jw1-one-door.md`) re-opened at
 
 - The developer's Report: four items, three with a time (item 2 was already on Jose's Actions list, as action 16).
 - The automation agent's README decision had been answered at 12:25, before the rule (the one-door task file).
+- 7 November 2026, 22:30 UTC (Prompt W2): the draft now says "answered at 12:25 UTC" too, in place of "answered that morning" (the reviewer's note of 20:26 UTC).
 - Two task files on 4 November, not "a few" (`2026-11-04-dev-ws74.md`, `2026-11-04-vault-lane.md`).
 - The idea's `assigned` and this file's `checked` times are the real ones (the first were set ahead of the clock).
 - The task-file header in the draft is marked as an example; "each one picked".

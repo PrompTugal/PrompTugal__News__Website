@@ -74,3 +74,5 @@ Out a few minutes after 19:30 (it appears at the first build after its time, as 
 | V3 | the summaries are cut mid-sentence with "…" after a fixed length ("Porto Digital's unit in Aveiro,…"): end at the first sentence instead, as the morning does |
 
 Still open from the morning: E1, E2 (masthead, the day's opening line), P1 (edition band), P2 (thumbnails), P4 (small Add buttons).
+
+**Re-check at 23:40 UTC:** P2 passes (the edition pages show each story's `--paper--thumb` picture with its alt text; dev@'s c1bdda7c42). Open: E1, E2, P1, P4, and the evening's V1 to V3.
