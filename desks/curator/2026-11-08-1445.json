@@ -49,24 +49,30 @@
     }
   ],
   "story_candidates": [],
-  "connections_priority": [
-    {
-      "id": "S28",
-      "mature_to_write_now": true,
-      "condition": "The capture holds names, roles, organisations and countries only. The writer takes what each of the five companies does from its own public page and re-reads the speakers page the same day (standing answers 19 and SA19B); the speakers page shows a sample, not the whole lineup."
-    }
-  ],
+  "connections_priority": [],
   "for_the_fact_checker": [
     {
       "item": "featured startups capture",
       "what": "Page 1 of 26 only; the page's own tags are not checked here. No story rests on it yet."
     }
   ],
-  "revisions": [],
+  "revisions": [
+    {
+      "candidate": "S28",
+      "change": "Published on 8 November 2026 at https://promptugal.news/articles/five-ai-builders-to-know.html (v0.1.704). Not to be written again."
+    }
+  ],
   "gaps_for_the_researcher": [
     "What the startups under healthtech, fintech and AI do and where they are based, from their own pages (pages 2 to 26 are also still to read).",
     "Which of the featured startups are Portuguese, from the page or their own sites, since a Portuguese-and-European startups storyline needs it.",
     "What each speakers' organisation does."
   ],
-  "urgent": "None"
+  "urgent": "None",
+  "corrections": [
+    {
+      "on": "2026-11-08T15:15Z",
+      "what": "S28 was listed as ready to write now at 14:45. It had been drafted (11:12) and published (12:29, reviewer's commit b0eab872, v0.1.704) as https://promptugal.news/articles/five-ai-builders-to-know.html. The ready list is empty.",
+      "why": "At 14:30 the duplicate check (standing answer 20) was run on the new startup names only, not again on S28 itself before marking it ready."
+    }
+  ]
 }

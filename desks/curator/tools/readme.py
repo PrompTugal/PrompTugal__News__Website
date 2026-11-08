@@ -25,6 +25,7 @@ rests["S7"]+= ["v-tecnico-web-summit-2026"] # revision in 2026-11-04-1955.json
 rests["S1"]+= ["v-carris-web-summit-shuttle"] # revision in 2026-11-05-1945.json
 rests["S1"]+= ["v-parque-das-nacoes-traffic"] # revision in 2026-11-06-1945.json
 rests["S5"]+= ["v-ey-web-summit-economic-impact"] # revision in 2026-11-05-1945.json
+PUBLISHED={"S28":("https://promptugal.news/articles/five-ai-builders-to-know.html","8 Nov")}  # id -> (article URL, date); set when an article or draft covers it
 DROPPED={"S14":"duplicates","S21":"duplicates","S23":"duplicates"}
 import subprocess
 NOW=subprocess.check_output(["date","-u","+%A %-d %B %Y, %H:%M UTC"],text=True).strip()
@@ -65,10 +66,10 @@ out=["# The curator's story candidates","",
 "**About the sources.** Each source is a public page the researcher captured in the research vault (41j3e9s9), with the publisher, its title and the day the researcher read it, written as the newsroom's STYLE.md asks. The curator copies them from the researcher's captures and does not open or check them; that is the fact-checkers' job, on both sides: reviewer@PrompTugal.vicky for Vicky's desks, and Indi's fact-checker for Indi's. Only pages that are public and open without a login are listed. A storyline with nothing behind it yet says \"no source yet\".","",
 "**Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked \"Connections\" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.","","Last updated: "+NOW+".","",
 "## At a glance","","| Id | Title | Beat | Added |","|---|---|---|---|"]
-for s in stories: out.append(f"| {s[0]} | {s[1]} | {s[2]} | {s[4]} |")
+for s in stories: out.append(f"| {s[0]} | {s[1]}{' (published '+PUBLISHED[s[0]][1]+')' if s[0] in PUBLISHED else ''} | {s[2]} | {s[4]} |")
 out.append("")
 for sid,title,beat,angle,added,note in stories:
-    out+= [f"## {sid}: {title}","",f"{beat}, added {added}. {angle}" + (f" {note}" if note else ""),"","Sources:",""]
+    out+= [f"## {sid}: {title}","",f"{beat}, added {added}. {angle}" + (f" {note}" if note else "") + (f" Published on {PUBLISHED[sid][1]} 2026: {PUBLISHED[sid][0]}. Not to be written again." if sid in PUBLISHED else ""),"","Sources:",""]
     seen=[]
     for cid in rests[sid]:
         if cid in EXTRA_SRC:
@@ -80,7 +81,28 @@ for sid,title,beat,angle,added,note in stories:
         out.append(f'- [{p}, "{t}"]({u}), read {day(r)}')
     if not seen: out.append("- no source yet")
     out.append("")
-out+=["## Connection storylines: order and readiness","","For journalist-connections, in priority order (standing answer 22).","","1. S28, Five AI builders on Web Summit's speaker list worth knowing: ready to write now. The capture gives names, roles, organisations and countries only, so the writer takes what each company does from its own public page and re-reads the speakers page the same day. The page shows a sample of the lineup, not all of it.","","Not ready yet, held until the researcher captures what the companies do: the healthtech, fintech and AI startups on Web Summit's featured list (names and tags only so far), and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.",""]
+READY=[]  # ids of connection storylines ready to write now; empty unless one is listed here (check first with the duplicate check below)
+import glob as _g
+def _words(s): return {w for w in re.findall(r"[a-z0-9]+",s.lower()) if len(w)>3}
+def _titles():
+    root=os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))+"/"
+    for f in _g.glob(root+"content/articles/*.md")+_g.glob(root+"desks/*/drafts/*.md"):
+        for l in open(f,errors="ignore"):
+            l=l.strip()
+            if l.startswith("# ") or l.startswith("title:"):
+                yield f.split("/")[-1], l.lstrip("#").replace("title:","").strip().strip('"'); break
+def dup_matches(title,skip=()):
+    a=_words(title); out=[]
+    for fn,t in _titles():
+        b=_words(t)
+        if a and b and len(a&b)/len(a|b)>=0.5 and fn not in skip: out.append((fn,t))
+    return out
+for sid in READY:
+    t=[s[1] for s in allst if s[0]==sid][0]
+    assert not dup_matches(t),("ready story already has an article or draft",sid,dup_matches(t))
+for sid in PUBLISHED:
+    pass
+out+=["## Connection storylines: order and readiness","","For journalist-connections, in priority order (standing answer 22).","","Ready to write now: "+(", ".join(READY) if READY else "none."),"","Already published, not to be written again: "+"; ".join(f"{k} ({v[0]})" for k,v in PUBLISHED.items())+".","","Not ready yet, held until the researcher captures what the companies do: the healthtech, fintech and AI startups on Web Summit's featured list (names and tags only so far), and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.",""]
 out+=["## Dropped","","Taken off the list on 6 November 2026, at Vicky's word, as duplicates of other candidates:","",]
 for s in allst:
     if s[0] in DROPPED: out.append(f"- {s[0]}: {s[1]} ({DROPPED[s[0]]})")

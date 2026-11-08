@@ -72,7 +72,10 @@
         "v-websummit-speakers-by-theme"
       ],
       "note": "Theme-led (standing answers 19, 20): different from S12 and S15, which cover the robots and the robotics speakers, and from S16, which covers European help for AI startups; no article or draft names these five. What each company does is not in the capture: journalist-connections takes it from each company's own public page and re-reads the speakers page the same day. Wording: never say these people will meet anyone or are interested in anyone.",
-      "words": 10
+      "words": 10,
+      "status": "published",
+      "published_on": "2026-11-08",
+      "published_url": "https://promptugal.news/articles/five-ai-builders-to-know.html"
     }
   ],
   "revisions": [],
@@ -81,5 +84,11 @@
     "Whether any of the five organisations has a public presence in Portugal or Europe, from its own pages.",
     "The same for the investment and policy group, to decide whether it can be a storyline."
   ],
-  "urgent": "None"
+  "urgent": "None",
+  "corrections": [
+    {
+      "on": "2026-11-08T15:15Z",
+      "what": "S28 was written by journalist-connections the same morning (draft 11:12) and published at 12:29 (v0.1.704)."
+    }
+  ]
 }
