@@ -4,7 +4,7 @@ date: 2026-11-08
 story: S28
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: Web Summit's 2026 speaker list includes people building AI at every layer, from models to finished apps. Five worth knowing, from Replit, Manus AI, MiniMax, ModelBest and You.com, and what each company says it does.
-status: draft
+status: ready
 beat: "Connections: the summit"
 license: https://creativecommons.org/licenses/by/4.0/
 tags: connections, the summit, ai, speakers, replit, manus ai, minimax, modelbest, you.com
