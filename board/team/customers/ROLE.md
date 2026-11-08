@@ -34,6 +34,7 @@ Customers and products (CLAUDE.md, the team table): Dinis's briefs on readers, c
 3. **The slip, a case study of Portuguese technology, the technology shelf, the interest box, Silvio's side, 6 Nov:** `incidents/`, `/newsroom/decisions/an-agent-printed-its-own-lane-token/`, `/newsroom/customers/portuguese-technology/`, `products.json`, `interest/`, `for-silvio-and-his-agents.md`.
 4. **The event platform, 6 Nov 13:05 (relayed by the conductor):** `briefs/2026-11-06-the-event-platform.md`.
 5. **The wish-list interview for partners, 6 Nov 15:40 (after the Algarve Evolution call; relayed by the conductor):** `wish-list/` (the prompt, its Algarve version, the schema, the lessons, the proposed public page).
+6. **The RiskMandate agent iPad, 8 Nov about 13:35 UTC (memo 2, relayed by conductor.b@):** `briefs/2026-11-08-the-riskmandate-agent-ipad.md`, `/newsroom/decisions/the-riskmandate-agent-ipad/` (For Dinis).
 
 ## Never (from the standing rules, until a brief widens anything)
 
