@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.673",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.graphs's live map (/newsroom/live/, phases 1 to 2.3) onto dev, its data step in place of dev@'s",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8a851b790"
+  },
+  {
     "version": "v0.1.672",
     "date": "2026-11-08",
     "what": "conductor.b@PrompTugal.dinis: 00:07 wake: the live map built on its branch; account B's ledger at 560.48",
