@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-AI Infinity, a Brazilian company (1), works as an outsourced AI department for mid-sized and large organisations (1, 2). Its teams map where AI can help, then build, integrate and maintain automations and models inside the tools a client already uses, with governance included (2). The client keeps the intellectual property, the company says (1, 2).
+AI Infinity, a Brazilian company (1), works as an outsourced AI department for mid-sized and large organisations (1, 2). It says its teams map where AI can help, then build, integrate and maintain automations and models inside the tools a client already uses, with governance included (2). The client keeps the intellectual property, the company says (1, 2).
 
 Sources for this section:
 

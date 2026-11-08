@@ -9,12 +9,11 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-MEO is a telecoms operator (1). On its website it sells fibre broadband, TV, 5G mobile and security services, and also lists electricity and health (2).
+MEO is a telecoms operator (1). On its website it sells fibre broadband, TV, 5G mobile and security services, and also lists electricity and health (1).
 
 Sources for this section:
 
-1. [Web Summit, "José Pedro Nascimento"](https://websummit.com/attendees/lis26/bd8a75b9-590f-47fe-bb2e-78ba3190af17/jos%C3%A9-pedro-nascimento/) (MEO's Chief Technology Officer, in telecommunications), read 8 November 2026
-2. [MEO, "Net, TV, Móvel 5G, Segurança, Eletricidade e Saúde"](https://www.meo.pt/) (in Portuguese), read 8 November 2026
+1. [MEO, "Net, TV, Móvel 5G, Segurança, Eletricidade e Saúde"](https://www.meo.pt/) (in Portuguese; "Escolhe o operador com menos reclamações"), read 8 November 2026
 
 ## At Web Summit 2026
 
