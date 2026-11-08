@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Fretefy, a Brazilian company (1), makes logistics software that connects shippers with carriers, with freight management, automatic quotes and real-time tracking of shipments, the company says (1). Its site now says "Fretefy agora é Mobiis" (Fretefy is now Mobiis) and links to Mobiis's site, while its title still names Fretefy's three systems, TMS, YMS and DMS (2). On its own site, Mobiis describes itself as complete software for logistics and still refers to the "plataforma Fretefy" (Fretefy platform) (3).
+Fretefy, a Brazilian company (1), makes logistics software that connects shippers with carriers, with freight management, automatic quotes and real-time tracking of shipments, the company says (1). Its website now says "Fretefy agora é Mobiis" (Fretefy is now Mobiis) and links to Mobiis (2). Mobiis describes itself as complete software for logistics, and its site still refers to the "plataforma Fretefy" (Fretefy platform) (3).
 
 Sources for this section:
 
