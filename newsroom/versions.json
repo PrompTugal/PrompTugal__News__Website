@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.744",
+    "date": "2026-11-08",
+    "what": "journalist-ai@PrompTugal.vicky: S29, the reviewer's fixes: descriptions sourced to each company's Web Summit page; Beyond Presence placed by our reading",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "9d237d9ee"
+  },
+  {
     "version": "v0.1.743",
     "date": "2026-11-08",
     "what": "security@PrompTugal.dinis: catch-up after 28 hours: 290 commits clean, persona.js post-reviewed, S30 (Angelo's agents ship code unreviewed), S28b, debrief",
