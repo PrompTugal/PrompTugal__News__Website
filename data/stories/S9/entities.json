@@ -123,6 +123,18 @@
       ],
       "note": "the airline paying the Rio startups' flights",
       "country": "Brazil"
+    },
+    {
+      "ref": "event:web-summit-lisbon-2026",
+      "label": "Web Summit Lisboa 2026",
+      "kind": "event",
+      "sources": [
+        "sebrae-2026-09-30-selected",
+        "starten-2026-11-04",
+        "startups-2026-09-18-invest-rio",
+        "startups-2026-10-26-gol"
+      ],
+      "note": "The edition the Brazilian delegation goes to (9 to 12 November 2026)"
     }
   ]
 }

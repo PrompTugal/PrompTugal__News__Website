@@ -1,0 +1,8 @@
+{
+ "heading": "My day on the map",
+ "intro": "The sessions you picked for <a href=\"{link}\">your day</a>, drawn on the buildings that hold them. Kept in this browser only: this page never sends your picks anywhere.",
+ "empty": "Nothing in your day yet. Add sessions from any event page or the agenda, then come back.",
+ "none": "No building known for this session; it is not placed on the map.",
+ "count": "In your day: {n} session(s) placed, {m} not placed.",
+ "html": "<section id=\"vn-myday\" class=\"venue-myday\" hidden><h2>{heading}</h2><p>{intro}</p></section><script type=\"application/json\" id=\"vn-data\">{json}</script>"
+}
