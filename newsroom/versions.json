@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.704",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "3374be182"
+  },
+  {
     "version": "v0.1.703",
     "date": "2026-11-08",
     "what": "reviewer@PrompTugal.vicky: re-check S28 (five AI builders): Ready, status ready; held for Vicky's approval",
