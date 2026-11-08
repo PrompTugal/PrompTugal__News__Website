@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.672",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 00:07 wake: the live map built on its branch; account B's ledger at 560.48",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a8bd8db8b"
+  },
+  {
     "version": "v0.1.671",
     "date": "2026-11-07",
     "what": "dev@PrompTugal.dinis: the live map's data live; status and run report",
