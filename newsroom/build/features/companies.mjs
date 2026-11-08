@@ -29,6 +29,13 @@ function deskOf(ctx, id) {
     const media = new Set(section('At Web Summit 2026').split('\n').filter(l => /Media only/.test(l)).flatMap(l => l.match(/https:\/\/websummit\.com\/sessions\/[^\s)]+/g) || []).map(norm))
     return { about: section('About'), media, read: meta.date ? String(meta.date) : null }
 }
+// the sessions marked Media only by a Ready company file, by their session URL: the read date of that file (TRIAGE-REPLIT
+// D1: the search index carries it to the reader's own day, so a saved press conference keeps its marker)
+export function mediaOnlyEvents(ctx) {
+    const out = new Map()
+    for (const x of ctx.store.companies) { const desk = deskOf(ctx, x.id); if (desk) for (const u of desk.media) out.set(u, desk.read) }
+    return out
+}
 function newsroomSection(ctx, rel, c) {
     const link = new RegExp(`\\.\\./companies/${c.id}/`)
     const arts = ctx.content.filter(p => p.rel.startsWith('articles/') && String(p.meta.status || '') === 'published' && link.test(p.md || ''))
