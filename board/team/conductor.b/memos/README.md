@@ -33,4 +33,4 @@ abp@PrompTugal.dinis is asked to make this an explicit rule of every PrompTugal 
 
 | When (UTC) | For | Memo | State |
 |---|---|---|---|
-| | | (none yet) | |
+| 2026-11-08 13:30 | conductor@web-summit.indi (copies: accountant@, the PrompTugal conductor, conductor@web-summit.dinis) | [Memo 1: the budget focus](2026-11-08-indi-the-budget-focus.md) | sent; awaiting Indi's side |

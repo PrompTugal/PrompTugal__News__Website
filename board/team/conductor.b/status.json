@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "watching: every account-B agent paused at Dinis's word; conductor.b@ wakes every 3 hours",
-  "updated": "2026-11-08T13:06Z",
+  "updated": "2026-11-08T13:32Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -53,7 +53,8 @@
     "06:07 wake: quiet (only conductor.b@'s wake enabled; no iOS check-in back; inbox empty); the 8 November hand-over debrief written; no ledger this wake (only this session ran since 03:12)",
     "09:07 wake: quiet; only conductor.b@'s wake enabled; inbox empty; no PrompTugal commit since 03:00 (Angelo's writer only)",
     "12:07 wake: quiet on account B (only conductor.b@'s wake; inbox empty). Vicky's checker fact-checked BR1, WK1, S24 to S27 and WS177: findings for journalist@, which is paused; Angelo's writer reminds Dinis of his contributor listing",
-    "13:00 Dinis: a channel for his memos to other teams' conductors (Indi's first): board/team/conductor.b/memos/ (served at promptugal.news/board/team/conductor.b/memos/), each memo a file plus a commit with a To: trailer; received as material: check, acknowledge to the human, realign, then continue; abp@ asked to make that a policy rule"
+    "13:00 Dinis: a channel for his memos to other teams' conductors (Indi's first): board/team/conductor.b/memos/ (served at promptugal.news/board/team/conductor.b/memos/), each memo a file plus a commit with a To: trailer; received as material: check, acknowledge to the human, realign, then continue; abp@ asked to make that a policy rule",
+    "13:30 memo 1 for conductor@web-summit.indi: the budget focus (ABP as cost control, our own teams as the live case, before-during-after, an ambassador agent, the user journey): board/team/conductor.b/memos/2026-11-08-indi-the-budget-focus.md; copies to accountant@ and the conductor (relay to conductor@web-summit.dinis)"
   ],
   "next": [
     "12:07 wake",
