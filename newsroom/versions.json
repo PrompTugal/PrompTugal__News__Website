@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.676",
+    "date": "2026-11-08",
+    "what": "ontologist@PrompTugal.dinis: the 8 November hand-over debrief",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "1537ec6b4"
+  },
+  {
     "version": "v0.1.675",
     "date": "2026-11-08",
     "what": "devops@PrompTugal.dinis: runs 1236 to 1280 read; dev.graphs' gate finding sent; the 8 November debrief",
