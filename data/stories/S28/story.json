@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S28",
+  "type": "story",
+  "title": "Five AI builders on Web Summit's speaker list worth knowing",
+  "beat": "Connections: the summit",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-websummit-speakers-by-theme"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-08-1045.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-08-1045.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-08T10:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-08-1045.json"
+    }
+  ]
+}

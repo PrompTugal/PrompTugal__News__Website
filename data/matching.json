@@ -1674,7 +1674,7 @@
       {
         "as_listed": "Cloudflare",
         "ref": "company:cloudflare",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "European Commission (DG CONNECT, DG GROW)",
@@ -1682,14 +1682,19 @@
         "count": 1
       },
       {
+        "as_listed": "Eversec Technology",
+        "ref": "company:eversec",
+        "count": 1
+      },
+      {
         "as_listed": "Manus AI",
         "ref": "company:manus-ai",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Replit",
         "ref": "company:replit",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Startup Portugal",
@@ -1699,7 +1704,7 @@
       {
         "as_listed": "You.com",
         "ref": "company:you-com",
-        "count": 1
+        "count": 2
       }
     ],
     "unmatched": [
@@ -1726,7 +1731,7 @@
       {
         "as_listed": "AgiBot",
         "ref": "organisation:agibot",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "AgroGrINTech",
@@ -1821,7 +1826,7 @@
       {
         "as_listed": "Galbot",
         "ref": "organisation:galbot",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Galp",
@@ -1901,12 +1906,12 @@
       {
         "as_listed": "MiniMax",
         "ref": "organisation:minimax",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "ModelBest",
         "ref": "organisation:modelbest",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Netherlands Enterprise Agency (RVO)",
@@ -1936,7 +1941,7 @@
       {
         "as_listed": "Pony.ai",
         "ref": "organisation:pony-ai",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Portuguese Catholic University",
@@ -1966,7 +1971,7 @@
       {
         "as_listed": "Rokid",
         "ref": "organisation:rokid",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Seamoretech",
@@ -1991,7 +1996,7 @@
       {
         "as_listed": "Tencent",
         "ref": "organisation:tencent",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Testwaves",
@@ -2016,7 +2021,7 @@
       {
         "as_listed": "Unitree",
         "ref": "organisation:unitree",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Universidade de Lisboa (ULisboa)",
@@ -2031,16 +2036,26 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 21
+        "count": 22
       },
       {
         "as_listed": "Xiaomi",
         "ref": "organisation:xiaomi",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Xpeng",
         "ref": "organisation:xpeng",
+        "count": 1
+      },
+      {
+        "as_listed": "Xpeng Aridge",
+        "ref": "organisation:xpeng-aridge",
+        "count": 1
+      },
+      {
+        "as_listed": "Xynova",
+        "ref": "organisation:xynova",
         "count": 1
       },
       {
