@@ -4,7 +4,7 @@ company: rws
 date: 2026-11-08
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to RWS Group and its confirmed participation at Web Summit 2026, for its company page (batch C2)."
-status: in-review
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
