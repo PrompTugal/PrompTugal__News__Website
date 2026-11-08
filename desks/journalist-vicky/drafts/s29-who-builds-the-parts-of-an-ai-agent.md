@@ -4,7 +4,7 @@ date: 2026-11-08
 story: S29
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "An AI agent needs a framework, data, computing power, an identity and rules, and something useful to do. Eight startups on Web Summit's featured list each describe one of those parts. A reader's guide, in the companies' own words."
-status: draft
+status: fix
 beat: AI and robotics
 license: https://creativecommons.org/licenses/by/4.0/
 tags: AI agents, startups, the summit
