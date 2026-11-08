@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
  "state": "watching: every account-B agent paused at Dinis's word (only conductor.b@'s 3-hourly wake enabled); the device product strategy written down with Dinis (memos 5 to 7)",
- "updated": "2026-11-08T18:15Z",
+ "updated": "2026-11-08T21:10Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -63,12 +63,14 @@
   "16:15 brief: the two appliances on Android (briefs/2026-11-08-the-appliances-on-android.md, v0.1.721)",
   "16:50 memo 5 and the device product strategy (v0.1.723); 17:10 memo 6 and the ABP in every layer (v0.1.726); 17:35 memo 7 and the OEM offer (v0.1.727)",
   "17:00 to 17:25 helped Dinis choose devices at Worten Loule: Lenovo Tab One, Idea Tab 11, Idea Tab Plus 12 GB, and a Samsung Galaxy A17 (about 1,090 euros)",
-  "18:12 wake: no trigger re-created, inbox empty, ledger 2026-11-08T1812Z.json (646.74)"
+  "18:12 wake: no trigger re-created, inbox empty, ledger 2026-11-08T1812Z.json (646.74)",
+  "18:45 seed brief for conductor.android@ (briefs/2026-11-08-conductor-android.md, v0.1.740): the RiskMandate Android app, CI to an installed app first (M1 to M3), the team, Dinis's steps",
+  "21:07 wake: no trigger re-created, inbox empty, no new session on account B; ledger 2026-11-08T2110Z.json (648.37); account B's seven-day limit at 'allowed_warning'"
  ],
  "next": [
-  "21:07 wake",
+  "00:07 wake",
   "switch agents back on at Dinis's word, before the summit opens Monday 9 November",
-  "at Dinis's word: set up the new devices from fresh (Android Enterprise, one-app lock) and brief an Android lane"
+  "answer conductor.android@ when it reads its seed brief (on Dinis's other account)"
  ],
  "asks": [
   "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",
@@ -82,7 +84,8 @@
   "Dinis: investors@ keeps widening its scope (now an investor site with its own build engine in four languages; abp@ flags the build code for dev@ and you); it is about 30% of account B's spend: your call whether to slow, narrow or pause it",
   "Dinis: writer@PrompTugal.jose (Jose's writer, desks/writer-jose/) asks your yes",
   "Dinis: the For Dinis page on the two appliances, /newsroom/decisions/the-riskmandate-agent-ipad/ (customers@)",
-  "Dinis: the device strategy's five decisions (briefs/2026-11-08-the-device-product-strategy.md), the six-layer demo's three (briefs/2026-11-08-the-abp-in-every-layer.md), the OEM offer's four (briefs/2026-11-08-the-appliance-oem-offer.md); and whom to wake for them (customers@, investors@, designer@, an Android builder: a new session is your word)"
+  "Dinis: the device strategy's five decisions (briefs/2026-11-08-the-device-product-strategy.md), the six-layer demo's three (briefs/2026-11-08-the-abp-in-every-layer.md), the OEM offer's four (briefs/2026-11-08-the-appliance-oem-offer.md); and whom to wake for them (customers@, investors@, designer@, an Android builder: a new session is your word)",
+  "Dinis: account B's seven-day usage limit reads 'allowed_warning'; waking agents for the summit may hit it, so the heavy Android work belongs on your other account as planned"
  ],
  "debrief": "board/team/conductor.b/debriefs/2026-11-08-handover.md",
  "incidents": [
