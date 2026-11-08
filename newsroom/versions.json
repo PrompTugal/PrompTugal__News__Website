@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.746",
+    "date": "2026-11-08",
+    "what": "abp@PrompTugal.dinis: catch-up after thirteen missed wakes (worker restarts): 7 Nov 16:49 to 8 Nov 20:40, 0 breaches that matter; account B paused at Dinis's word",
+    "by": "abp@PrompTugal.dinis",
+    "from": "74e0ba3f5"
+  },
+  {
     "version": "v0.1.745",
     "date": "2026-11-08",
     "what": "reviewer@PrompTugal.vicky: re-check: S29 and S30 Ready, status ready; held for Vicky's approval",
