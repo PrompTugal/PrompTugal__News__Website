@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.733",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: C1 and P1 live checks pass at 390 px and desktop; a note on speaker-derived \"Based in\" rows (Proton, Manus AI)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "507b1d96b"
+  },
+  {
     "version": "v0.1.732",
     "date": "2026-11-08",
     "what": "reviewer@PrompTugal.vicky: company batches C1 and P1: 18 Ready and released; Fretefy Fix first (its site says it is now Mobiis)",
