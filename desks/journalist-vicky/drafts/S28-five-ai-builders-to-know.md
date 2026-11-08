@@ -4,7 +4,7 @@ date: 2026-11-08
 story: S28
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: Web Summit's 2026 speaker list includes people building AI at every layer, from models to finished apps. Five worth knowing, from Replit, Manus AI, MiniMax, ModelBest and You.com, and what each company says it does.
-status: fix
+status: draft
 beat: "Connections: the summit"
 license: https://creativecommons.org/licenses/by/4.0/
 tags: connections, the summit, ai, speakers, replit, manus ai, minimax, modelbest, you.com
@@ -29,7 +29,7 @@ AI is not one business. Some companies build the models, some build on top of th
 
 ### Building the apps
 
-**[Michele Catasta](../people/michele-catasta/index.html)**, President of Replit, is on the list. Replit says that you "describe what you want" and it builds a working app or website, with no coding needed. Michele Catasta also gives a press conference on Tuesday 10 November, 15:00 to 15:20, on Stage 2, according to Web Summit's programme.
+**[Michele Catasta](../people/michele-catasta/index.html)**, President of Replit, is on the list. Replit says that you "describe what you want" and it builds a working app or website, with no coding needed. Michele Catasta also gives a press conference on Tuesday 10 November, 15:00 to 15:20, on Stage 2 in the Media Village. It is a media-only event, according to Web Summit's programme.
 
 **Tao Zhang**, co-founder and chief product officer of Manus AI, is another speaker. Manus calls itself an "action engine" that goes beyond answers to carry out tasks and automate workflows.
 
@@ -47,11 +47,11 @@ AI is not one business. Some companies build the models, some build on top of th
 
 Together they show how the field fits together: models, the data they draw on, and the products built on top. That map will still be useful after the summit.
 
-**Who could connect:** founders building with AI could look for these five on the programme, to hear from each layer of the stack. This is a suggestion only.
+**Who could connect:** founders building with AI could check the programme for sessions with these five that are open to attendees, to hear from each layer of the stack. This is a suggestion only.
 
 ## What this does not claim
 
-- **When and where four of the five speak is not known to us.** Only Replit's press conference has a time on the pages we read.
+- **When and where the five speak to attendees is not known to us.** The only session with a time on the pages we read is Replit's press conference, which is for media only.
 - **The company descriptions are their own**, including MiniMax's 300 million users. We have not checked them.
 - **This is not a ranking.** The speakers page loads more names than we read; these five were chosen for the range of what they build.
 - **No source says any of them wants to meet or work with anyone.**
@@ -59,7 +59,7 @@ Together they show how the field fits together: models, the data they draw on, a
 ## Where this comes from
 
 - [Web Summit, "Meet our 2026 speakers"](https://websummit.com/speakers/) (names, roles and organisations), read 8 November 2026
-- [Web Summit, "Press conference with Replit President Michele Catasta"](https://websummit.com/sessions/lis26/947f0d95-5912-4432-9c09-807239d19ec5/press-conference-with-replit-president-michele-catasta/) (time and stage), read 8 November 2026
+- [Web Summit, "Press conference with Replit President Michele Catasta"](https://websummit.com/sessions/lis26/947f0d95-5912-4432-9c09-807239d19ec5/press-conference-with-replit-president-michele-catasta/) (time, stage, and that it is a media-only event in the Media Village), read 8 November 2026
 - [Replit, home page](https://replit.com/) (what Replit does), read 8 November 2026
 - [Manus, "Manus: Hands On AI"](https://manus.im/) (what Manus does), read 8 November 2026
 - [MiniMax, home page](https://www.minimax.io/) (what MiniMax does), read 8 November 2026
