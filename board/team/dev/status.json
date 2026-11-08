@@ -1,9 +1,11 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 23:08 done",
-  "updated": "2026-11-07T23:45Z",
+  "state": "running on account B; wake 00:08 done (v0.1.673)",
+  "updated": "2026-11-08T00:35Z",
   "done": [
+    "Wake 00:08: dev.graphs@'s live map (/newsroom/live/, all four parts of Dinis's 23:50 brief) brought and live, its data step in place of mine; dev.search brought.",
+    "23:50 (Dinis via conductor.b@, brief on dev): the live map's data, api/v1/newsroom/live.json from the commits' trailers (features/newsroom-live.mjs); dev.graphs@ builds the view, dev@ reviews.",
     "Wake 23:08: the gate's phone check no longer matches inside a hash (outreach@); newsletter P2 thumbnails; five worker branches brought.",
     "Wake 22:08: newsletter P1 (the edition band) and /newsletter/ as cards; dev.search brought; inbox empty.",
     "Wake 21:08: F61 (no full stop after ?); five worker branches brought (the declined list held G's block out); devops@'s PDF finding passed to investors@; the hand-over debrief updated.",

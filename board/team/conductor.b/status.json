@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
   "state": "working",
-  "updated": "2026-11-07T23:14Z",
+  "updated": "2026-11-08T00:14Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -41,11 +41,14 @@
     "21:07 wake: quiet (inbox empty, nothing blocked); ledger 2026-11-07T2112Z.json: 507.29 on account B since the move, 64.31 in three hours (about 21 an hour, down from 23); investors@ slowed (+6.73, 149.26); devops@: the published tree at 253 MB (investor deck PDFs), sent to the owners; WK1 corrected and its image redrawn",
     "22:07 wake: quiet (inbox empty, nothing blocked); S26 (the daily newsletter) published; sherpa@ read the graphs on a phone; researcher@ on Microsoft in Sines",
     "23:07 wake: quiet (inbox empty, nothing blocked); S27 (the venue map) published and in the top three; the USD 10bn Sines figure confirmed at source (Start Campus); the deck PDFs no longer growing (devops@)",
-    "23:11 at Dinis's word in this session: investors.packs@PrompTugal.dinis started on account B (session_01Kw9UwDRrDjn4m7gXqwwktC, Opus, no wake) from investors@'s seed board/team/investors/packs-session-seed.md, unchanged"
+    "23:11 at Dinis's word in this session: investors.packs@PrompTugal.dinis started on account B (session_01Kw9UwDRrDjn4m7gXqwwktC, Opus, no wake) from investors@'s seed board/team/investors/packs-session-seed.md, unchanged",
+    "23:50 Dinis: a live map of his agents like Angelo's Live view, then timestamps, travel back in time and message details; brief board/team/conductor.b/briefs/2026-11-07-dinis-live-map.md; dev.graphs@ woken to build at /newsroom/live/ from our commits' For:/To: trailers, dev@ to review",
+    "00:07 wake: the live map: dev.graphs@ built phase 1 and the three features (timestamps, travel back, details) on work/dev.graphs by 23:58; dev@ put its data live (api/v1/newsroom/live.json, 334 exchanges, 32 people and agents, from 6 Nov); the page waits for dev@'s 00:08 review. Ledger 2026-11-08T0012Z.json: 560.48 on account B, 53.19 in three hours"
   ],
   "next": [
-    "next ledger at 00:07",
-    "the published tree's size (devops@, the owners)"
+    "confirm /newsroom/live/ live after dev@'s review",
+    "the daily debrief at 05:07",
+    "next ledger at 03:07"
   ],
   "asks": [
     "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",

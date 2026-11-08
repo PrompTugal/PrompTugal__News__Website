@@ -1,8 +1,8 @@
 {
   "agent": "backup@PrompTugal.dinis",
   "focus": "regular full backups of the repository and every vault; the recovery plan with security@",
-  "state": "account B; fifth restore-tested backup done; still nothing durable",
-  "updated": "2026-11-07T18:13Z",
+  "state": "account B; sixth restore-tested backup done; still nothing durable",
+  "updated": "2026-11-08T00:16Z",
   "done": [
     "Session key backup-promptugal (record sha256:be79ffe28ee62bcb, encryption sha256:feab076b8f1d1683) in board/keys.json, linked to the operator key sha256:db7f79fdd87e030a; pki-agent.mjs sha256 fcb28a1c... matches abp@'s record",
     "ROLE.md, plan.md (tiers, verification, restore)",
@@ -19,7 +19,8 @@
     "00:10 wake: backup at head 8d5bc536, 4205 files, 69 MB zip, restore OK; container only; daily debrief written",
     "06:09 wake: backup at head 9d8e6dc1, 4540 files, restore OK; container only (3 zips there now); no Drive grant in board/abp/backup.md; inbox lane not usable yet",
     "12:09 wake: backup at head 154c8922, 4793 files, restore OK; container only (4 zips); still no Drive grant or destination from Dinis; today's debrief written at 00:15",
-    "18:09 wake: backup at head e13b313c, 5838 files, restore OK; container only (5 zips); still no Drive grant or destination; debrief of 7 November written at 00:15"
+    "18:09 wake: backup at head e13b313c, 5838 files, restore OK; container only (5 zips); still no Drive grant or destination; debrief of 7 November written at 00:15",
+    "2026-11-08 00:09 wake: backup at head a8bd8db8, 6034 files, restore OK; container only (6 zips); no Drive grant or destination yet; debrief of 8 November written"
   ],
   "next": [
     "Ask the conductor to reissue my inbox to the new key, then drain it",
@@ -76,8 +77,13 @@
       "started": "2026-11-07T18:09Z",
       "outcome": "ok",
       "line": "backup restore OK; nothing durable; asks unchanged"
+    },
+    {
+      "started": "2026-11-08T00:09Z",
+      "outcome": "ok",
+      "line": "backup restore OK; nothing durable; asks unchanged"
     }
   ],
-  "debrief": "board/team/backup/debriefs/2026-11-07-handover.md",
+  "debrief": "board/team/backup/debriefs/2026-11-08-handover.md",
   "session": "8556f760"
 }

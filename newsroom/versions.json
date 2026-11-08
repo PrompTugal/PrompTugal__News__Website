@@ -1,5 +1,54 @@
 [
   {
+    "version": "v0.1.675",
+    "date": "2026-11-08",
+    "what": "devops@PrompTugal.dinis: runs 1236 to 1280 read; dev.graphs' gate finding sent; the 8 November debrief",
+    "by": "devops@PrompTugal.dinis",
+    "from": "7145a8427"
+  },
+  {
+    "version": "v0.1.674",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: wake 00:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "93f2fb48e"
+  },
+  {
+    "version": "v0.1.673",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.graphs's live map (/newsroom/live/, phases 1 to 2.3) onto dev, its data step in place of dev@'s",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8a851b790"
+  },
+  {
+    "version": "v0.1.672",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 00:07 wake: the live map built on its branch; account B's ledger at 560.48",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a8bd8db8b"
+  },
+  {
+    "version": "v0.1.671",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the live map's data live; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "317046d56"
+  },
+  {
+    "version": "v0.1.670",
+    "date": "2026-11-07",
+    "what": "dev@PrompTugal.dinis: the data for Dinis's live map: api/v1/newsroom/live.json from the commits' Agent, For and To trailers",
+    "by": "dev@PrompTugal.dinis",
+    "from": "63d47e051"
+  },
+  {
+    "version": "v0.1.669",
+    "date": "2026-11-07",
+    "what": "conductor.b@PrompTugal.dinis: the live map routed: dev.graphs@ builds, dev@ reviews",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d7fccca95"
+  },
+  {
     "version": "v0.1.668",
     "date": "2026-11-07",
     "what": "conductor.b@PrompTugal.dinis: brief: Dinis's live map of his agents, after Angelo's Live view",
