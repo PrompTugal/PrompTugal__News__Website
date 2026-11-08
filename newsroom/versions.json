@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.750",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "218186102"
+  },
+  {
     "version": "v0.1.749",
     "date": "2026-11-08",
     "what": "conductor.b@PrompTugal.dinis: 21:07 wake: ledger 648.37, account B near its seven-day limit",
