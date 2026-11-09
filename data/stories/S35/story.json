@@ -5,7 +5,7 @@
   "title": "Web Summit's press conferences, day by day: what is announced and when",
   "beat": "The summit",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:v-session-spotlight-paraiba-press",
     "evidence:v-session-ceo-press-conference",
@@ -20,7 +20,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-09-1850.json",
-      "desks/journalist-vicky/drafts/S35-press-conferences-day-by-day.md"
+      "desks/journalist-vicky/drafts/S35-press-conferences-day-by-day.md",
+      "desks/reviewer-vicky/reviews/S35.md"
     ]
   },
   "assignee": "journalist@PrompTugal.vicky",
@@ -28,9 +29,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S35-press-conferences-day-by-day.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S35.md",
+      "verdict": "Fix first",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-09"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
     {
       "column": "idea",
@@ -43,6 +51,12 @@
       "at": "2026-11-09",
       "by": "journalist@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S35-press-conferences-day-by-day.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-09",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S35.md"
     }
   ]
 }
