@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.794",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the gate's contact check covers all of board/ (security@'s S21)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a561fb154"
+  },
+  {
     "version": "v0.1.793",
     "date": "2026-11-09",
     "what": "conductor.b@PrompTugal.dinis: 06:13 wake: all twelve account-B agents ran; ledger",
