@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.924",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: THE BIG STOP on account B: every agent paused at 23:49; the stop report",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "9692a59ce"
+  },
+  {
     "version": "v0.1.923",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: THE BIG STOP relayed to account B (guidance row, conductor.b@'s inbox); my stop report",
