@@ -66,3 +66,5 @@ Read live on a 390 px phone (`design/decisions/the-summit-days/check-2026-11-09-
 | D4 the correspondent's five | **pass**: from its `day_picks` (desks/correspondent/front-page.json), marked "Our pick"; an unpicked day says "The five are picked by the morning" |
 | D5 items | pass: time, title, until, the stage linked, kind |
 | D6 past days | not checked yet (the summit starts today) |
+
+**Re-check at 12:40 UTC:** `/events/` as the week's overview (dev.pages@, 92440941b7): 10,201 px on a phone (about 12 screens, was 40), opening with the strip and "Today, Monday 9 November →" and "Tomorrow, Tuesday 10 November →", then the official programme and the other events kept apart. **D2 passes.** The day pages' D1 to D5 all pass; D6 (past days) from tomorrow.

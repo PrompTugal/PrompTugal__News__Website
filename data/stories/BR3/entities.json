@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "BR3",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "entities": [
+    {
+      "ref": "organisation:invest-rio",
+      "label": "Invest.Rio",
+      "kind": "organisation",
+      "sources": [
+        "startups-2026-09-18-invest-rio",
+        "startups-2026-10-26-gol",
+        "correio-2026-10-25-invest-rio"
+      ],
+      "note": "Rio de Janeiro city's investment promotion agency; leads the mission"
+    },
+    {
+      "ref": "organisation:maravalley",
+      "label": "Maravalley",
+      "kind": "organisation",
+      "sources": [
+        "startups-2026-09-18-invest-rio",
+        "startups-2026-10-26-gol",
+        "correio-2026-10-25-invest-rio"
+      ],
+      "note": "Rio's innovation hub; runs the mission with Invest.Rio"
+    },
+    {
+      "ref": "organisation:gol",
+      "label": "Gol Linhas Aereas",
+      "kind": "organisation",
+      "sources": [
+        "startups-2026-10-26-gol",
+        "correio-2026-10-25-invest-rio"
+      ],
+      "note": "The mission's official airline; pays the ten startups' tickets"
+    },
+    {
+      "ref": "event:web-summit-lisbon-2026",
+      "label": "Web Summit Lisboa 2026",
+      "kind": "event",
+      "sources": [
+        "startups-2026-09-18-invest-rio",
+        "startups-2026-10-26-gol",
+        "correio-2026-10-25-invest-rio"
+      ],
+      "note": "The edition the mission goes to"
+    },
+    {
+      "ref": "company:mobile-brain",
+      "label": "Mobile Brain",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    },
+    {
+      "ref": "company:sheerme",
+      "label": "sheerME",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    },
+    {
+      "ref": "local:paralelo-app",
+      "label": "Paralelo.app",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    },
+    {
+      "ref": "local:predator-sports-health",
+      "label": "Predator Sports & Health",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    },
+    {
+      "ref": "local:embeddo",
+      "label": "Embeddo",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    },
+    {
+      "ref": "local:lucca",
+      "label": "Lucca",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    },
+    {
+      "ref": "local:bizuu",
+      "label": "Bizuu",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    },
+    {
+      "ref": "local:ray-pay",
+      "label": "Ray Pay",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    },
+    {
+      "ref": "local:atlanticit",
+      "label": "ATLANTICIT",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    },
+    {
+      "ref": "local:allpetsenior",
+      "label": "AllPetSenior",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose tickets Gol provides"
+    }
+  ]
+}

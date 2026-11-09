@@ -8,7 +8,8 @@ if [ -n "$(git diff --name-only --diff-filter=U)" ]; then echo "$b HELD: conflic
 # a dev worker never brings a desk's files (desks/ is the desks' own): dev.data's branch carried 112 stale outreach drafts in its own commits, and they came in once (7 Nov 00:40)
 # and never a file dev@ declined for that worker (declined.txt: "<branch> <path> <the worker's commit that was declined>"):
 # it stays out until the worker's branch changes that file again in a later commit
-own=$(git log --no-merges --format= --name-only origin/dev..origin/work/$b | grep -v '^desks/' | sort -u)
+# and only the worker's own commits (subject '<worker>@PrompTugal.dinis: '): a merge of a newer dev carries CI's and other agents' commits (9 Nov 15:20: REALITY.md, version.txt came in)
+own=$(for c in $(git log --no-merges --format=%H origin/dev..origin/work/$b); do git log -1 --format=%s $c | grep -q "^$b@PrompTugal.dinis: " && git show --format= --name-only $c; done | grep -v '^desks/' | sort -u)
 D="$(dirname "$0")/declined.txt"
 if [ -f "$D" ]; then for f in $(awk -v b="$b" '$1==b {print $2}' "$D"); do
   c=$(awk -v b="$b" -v f="$f" '$1==b && $2==f {print $3}' "$D"); last=$(git log -1 --format=%h origin/work/$b -- "$f")

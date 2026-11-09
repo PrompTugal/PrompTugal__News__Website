@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T10:00:30Z"
-site_version: "v0.1.816"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T15:58:30Z"
+site_version: "v0.1.862"
 source: board/catalogue.json
 ---
 
@@ -15,15 +15,15 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | Collection | Class | Cards |
 |---|---|---|
 | [Build, code and release](BLD.md) | `BLD` | 4 |
-| [Data and the ontology](DAT.md) | `DAT` | 1029 |
+| [Data and the ontology](DAT.md) | `DAT` | 1032 |
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
-| [Guidance (special)](GDN.md) | `GDN` | 619 |
-| [The repository](GEN.md) | `GEN` | 41 |
-| [The library](LIB.md) | `LIB` | 292 |
-| [The publication](PUB.md) | `PUB` | 411 |
+| [Guidance (special)](GDN.md) | `GDN` | 624 |
+| [The repository](GEN.md) | `GEN` | 42 |
+| [The library](LIB.md) | `LIB` | 301 |
+| [The publication](PUB.md) | `PUB` | 419 |
 | [Readers and observability](RDR.md) | `RDR` | 28 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 2586 |
-| [Work in hand](WRK.md) | `WRK` | 319 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 2650 |
+| [Work in hand](WRK.md) | `WRK` | 329 |
 
 ## Passes
 
@@ -53,7 +53,7 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [2026-11-06-the-people-page](passes/2026-11-06-the-people-page.md) | open | 8 |
 | [2026-11-06-the-portugal-section](passes/2026-11-06-the-portugal-section.md) | open | 4 |
 | [2026-11-06-the-site-over-time](passes/2026-11-06-the-site-over-time.md) | open | 1 |
-| [2026-11-06-the-summit-days](passes/2026-11-06-the-summit-days.md) | open | 17 |
+| [2026-11-06-the-summit-days](passes/2026-11-06-the-summit-days.md) | open | 18 |
 
 (continued, rows 26 to 29)
 

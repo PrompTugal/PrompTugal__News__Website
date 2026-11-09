@@ -11,6 +11,7 @@
   "time": "15:00-18:00",
   "start": "15:00",
   "end": "18:00",
+  "shows_as": "free",
   "where": "Almancil, Algarve (exact place given on sign-up)",
   "place": "place:almancil",
   "track": null,

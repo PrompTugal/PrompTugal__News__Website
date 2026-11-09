@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-129 cards (129 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T10:00:30Z at site v0.1.816; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+134 cards (134 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T15:58:30Z at site v0.1.862; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 129 |
+| `PUB.NEWS` | 134 |
 
 Newest five accessions:
 
-- `ACC-20261109-0288` [wristband-queues: Web Summit wristbands: where the queues are short, and when](https://promptugal.news/newsroom/stories/wristband-queues/) (`PUB.NEWS wristband-queues`)
-- `ACC-20261109-0242` [S32: Rehab beyond the clinic: three Portuguese startups at Web Summit](https://promptugal.news/newsroom/stories/S32/) (`PUB.NEWS S32`)
-- `ACC-20261109-0241` [S31: Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](https://promptugal.news/newsroom/stories/S31/) (`PUB.NEWS S31`)
-- `ACC-20261109-0024` [The live map](https://promptugal.news/newsroom/live/) (`PUB.NEWS live`)
-- `ACC-20261109-0023` [S30: Eleven health startups at Web Summit, by the problem they tackle](https://promptugal.news/newsroom/stories/S30/) (`PUB.NEWS S30`)
+- `ACC-20261109-0387` [wristband-colours: Your Web Summit wristband and badge: what they're for, and who is who](https://promptugal.news/newsroom/stories/wristband-colours/) (`PUB.NEWS wristband-colours`)
+- `ACC-20261109-0386` [google-workspace: Agents on Google Workspace, step by step](https://promptugal.news/newsroom/stories/google-workspace/) (`PUB.NEWS google-workspace`)
+- `ACC-20261109-0385` [S34: Where to find Portugal at Web Summit: Pavilion 1, stand E145](https://promptugal.news/newsroom/stories/S34/) (`PUB.NEWS S34`)
+- `ACC-20261109-0335` [authority-checks: Speed or control: tuning a team of a hundred agents](https://promptugal.news/newsroom/stories/authority-checks/) (`PUB.NEWS authority-checks`)
+- `ACC-20261109-0334` [S33: Sports tech at Web Summit: IBM's startup challenge ends in Lisbon](https://promptugal.news/newsroom/stories/S33/) (`PUB.NEWS S33`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

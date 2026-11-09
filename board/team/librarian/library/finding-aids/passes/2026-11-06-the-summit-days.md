@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-the-summit-days"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T10:00:30Z"
-site_version: "v0.1.816"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T15:58:30Z"
+site_version: "v0.1.862"
 source: board/catalogue.json
 ---
 
@@ -10,7 +10,7 @@ source: board/catalogue.json
 
 The summit's days in time (guidance section 2): a block of the days (6 to 13 November: before, the summit 9 to 12, after) with…
 
-Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 17 findings. The pass file: [2026-11-06-the-summit-days](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md).
+Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 18 findings. The pass file: [2026-11-06-the-summit-days](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md).
 
 ## The container list: the findings
 
@@ -33,6 +33,7 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 | 15 | [Re-measured (03:35, 9 November, v0.1.774): A1 in part, Events opens with the days strip and Today / Tomorrow links (still 51 phone screens); the live bar's…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | dev.pages@, dev@ | open |
 | 16 | [D1 (06:35, 9 November, v0.1.796): /days/ opens on Friday 6, a past day, with Thu 12 and Fri 13 off the strip on a phone; during the summit open on today, past…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | dev.pages@ | open |
 | 17 | [Re-measured (09:35, 9 November, v0.1.814): Companies is the approved page (cards, switch, search with a field filter; 11.1 phone screens from 31.9); the day…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | dev.pages@ | D1, L4 open |
+| 18 | [Re-measured (15:35, 9 November, v0.1.858): L4 and D1 done (the live bar's title on two lines on a phone; /days/ opens on today). All of 9 November's list and…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | dev.pages@ | done |
 
 ## Cards this pass names
 

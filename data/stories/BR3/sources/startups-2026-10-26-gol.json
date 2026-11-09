@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "startups-2026-10-26-gol",
+  "story": "BR3",
+  "url": "https://startups.com.br/negocios/ecossistema/gol-vai-bancar-passagens-de-10-startups-cariocas-a-lisboa/",
+  "title": "Gol vai bancar passagens de 10 startups cariocas a Lisboa (Startups.com.br, 26 October 2026)",
+  "publisher": "Startups.com.br",
+  "published": "2026-10-26",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Startups.com.br reports that Gol, the mission's official airline, provides the tickets of the ten Rio startups, names them, and gives the route's schedule from 24 November."
+}

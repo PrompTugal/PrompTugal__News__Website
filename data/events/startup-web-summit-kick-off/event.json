@@ -11,6 +11,7 @@
   "time": "13:30-17:15",
   "start": "13:30",
   "end": "17:15",
+  "shows_as": "free",
   "where": "Estádio da Tapadinha, Lisbon",
   "place": "place:estadio-da-tapadinha",
   "track": null,
