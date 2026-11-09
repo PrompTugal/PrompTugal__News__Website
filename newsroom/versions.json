@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.774",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 03:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "688945155"
+  },
+  {
     "version": "v0.1.773",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: code from outside dev@'s review is flagged by the gate (security@'s S30); the verifier's records checked for contact details (S28b, S21)",
