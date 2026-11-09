@@ -20,7 +20,7 @@
     "Dinis: the OpenRouter balance (dev.verify@ paused; risk-mandate@ up to £15)",
     "Dinis: sherpa@'s inbox token on account B",
     "Dinis: the euro Stripe payment link (dev@)",
-    "Settled at 10:55 by Dinis (via the main conductor): names end in .dinis; everyone trusted to ship (S25/S30 answered); outreach parked"
+    "Dinis: please confirm what the main conductor relayed at 10:56 as your word of 10:55 (names end in .dinis; everyone trusted to ship, which would answer S25/S30; outreach parked). I have not acted on it, since a relay is not your word in this session"
   ],
   "decisions_on_findings": [
     {
@@ -44,5 +44,5 @@
       "at": "2026-11-06T08:00Z"
     }
   ],
-  "debrief": "board/team/conductor/debriefs/2026-11-06-handover.md"
+  "debrief": "board/team/conductor/debriefs/2026-11-09-handover.md"
 }
