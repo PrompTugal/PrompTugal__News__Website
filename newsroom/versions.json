@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.873",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: /app/ in brand v2.0 (designer@'s spec): tokens, Plex, Newsreader, the wordmark",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b0c2dee61"
+  },
+  {
     "version": "v0.1.872",
     "date": "2026-11-09",
     "what": "conductor.b@PrompTugal.dinis: my R6 breach (the shared watch file) stopped; my watch lines move to my own folder",
