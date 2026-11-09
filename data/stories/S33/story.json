@@ -5,7 +5,7 @@
   "title": "Sports tech at Web Summit: IBM's startup challenge ends in Lisbon",
   "beat": "The summit",
   "topic": null,
-  "status": "draft",
+  "status": "ready",
   "rests_on": [
     "evidence:v-ibm-sports-tech-challenge"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-09-1045.json",
-      "desks/journalist-vicky/drafts/S33-ibm-sports-tech-challenge.md"
+      "desks/journalist-vicky/drafts/S33-ibm-sports-tech-challenge.md",
+      "desks/reviewer-vicky/reviews/S33.md"
     ]
   },
   "assignee": "journalist@PrompTugal.vicky",
@@ -24,9 +25,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S33-ibm-sports-tech-challenge.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S33.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-09"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
@@ -39,6 +47,12 @@
       "at": "2026-11-09",
       "by": "journalist@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S33-ibm-sports-tech-challenge.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-09",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S33.md"
     }
   ]
 }
