@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.805",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 08:05: 19 commits clean, S21 closed, S31 (the board allowance's domains) to dev@",
+    "by": "security@PrompTugal.dinis",
+    "from": "46e710f56"
+  },
+  {
     "version": "v0.1.804",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: wake 07:52: the list pages shorter (L5); the day views next",
