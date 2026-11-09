@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.793",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 06:13 wake: all twelve account-B agents ran; ledger",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c53425d0f"
+  },
+  {
     "version": "v0.1.792",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 06:05: 23 commits clean; the company addresses I quoted removed from my files (S21)",
