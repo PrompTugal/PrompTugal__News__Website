@@ -14,8 +14,8 @@
    "cron": "56 */3 * * *",
    "started": "2026-11-06T22:23Z",
    "first_prompt": "board/team/conductor/account-move/librarian.md",
-   "state": "on",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')"
+   "state": "stopped",
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
   },
   {
    "agent": "journalist@PrompTugal.dinis",
@@ -25,8 +25,8 @@
    "cron": "26 */2 * * *",
    "started": "2026-11-06T22:44Z",
    "first_prompt": "board/team/conductor/account-move/journalist.md",
-   "state": "on",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)"
+   "state": "stopped",
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
   },
   {
    "agent": "correspondent@PrompTugal.dinis",
@@ -36,8 +36,8 @@
    "cron": "41 */2 * * *",
    "started": "2026-11-06T22:44Z",
    "first_prompt": "board/team/conductor/account-move/correspondent.md",
-   "state": "on",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)"
+   "state": "stopped",
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
   },
   {
    "agent": "synthetic@PrompTugal.dinis",
@@ -58,8 +58,8 @@
    "cron": "33 */2 * * *",
    "started": "2026-11-06T22:44Z",
    "first_prompt": "board/team/conductor/account-move/designer.md",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)",
-   "state": "on"
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
+   "state": "stopped"
   },
   {
    "agent": "designer.experiments@PrompTugal.dinis",
@@ -80,8 +80,8 @@
    "cron": "21 */2 * * *",
    "started": "2026-11-06T22:45Z",
    "first_prompt": "board/team/conductor.b/account-move/ontologist.md",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')",
-   "state": "on"
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
+   "state": "stopped"
   },
   {
    "agent": "devops@PrompTugal.dinis",
@@ -113,8 +113,8 @@
    "cron": "29 */3 * * *",
    "started": "2026-11-06T22:45Z",
    "first_prompt": "board/team/conductor.b/account-move/sherpa.md",
-   "state": "on",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)"
+   "state": "stopped",
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
   },
   {
    "agent": "investors@PrompTugal.dinis",
@@ -175,8 +175,8 @@
    "cron": "8 * * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.md",
-   "state": "on",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)"
+   "state": "stopped",
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
   },
   {
    "agent": "dev.pages@PrompTugal.dinis",
@@ -186,8 +186,8 @@
    "cron": "11 * * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.pages.md",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)",
-   "state": "on"
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
+   "state": "stopped"
   },
   {
    "agent": "dev.search@PrompTugal.dinis",
@@ -208,8 +208,8 @@
    "cron": "17 */2 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.graphs.md",
-   "state": "on",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')"
+   "state": "stopped",
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
   },
   {
    "agent": "dev.portugal@PrompTugal.dinis",
@@ -219,8 +219,8 @@
    "cron": "23 */4 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.portugal.md",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')",
-   "state": "on"
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
+   "state": "stopped"
   },
   {
    "agent": "dev.data@PrompTugal.dinis",
@@ -230,8 +230,8 @@
    "cron": "31 */2 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.data.md",
-   "state": "on",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')"
+   "state": "stopped",
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
   },
   {
    "agent": "dev.verify@PrompTugal.dinis",
@@ -241,8 +241,8 @@
    "cron": "48 */4 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.verify.md",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')",
-   "state": "on"
+   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
+   "state": "stopped"
   },
   {
    "agent": "xray@PrompTugal.dinis",

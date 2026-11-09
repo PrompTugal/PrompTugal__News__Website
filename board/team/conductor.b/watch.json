@@ -90,6 +90,16 @@
    "PrompTugal__App__iOS": "77a95682",
    "PrompTugal__App__Mobile": "74332868",
    "note": "Account B running (dev, ontologist, librarian, journalist, designer, correspondent since 21:52); dev.verify@ waits on the top-up. Nothing new from Dinis for account B. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T23:59Z",
+   "SGit-AI__Website__Web-Summit": "8232c109",
+   "PrompTugal__News__Website": "1ecd1178",
+   "PrompTugal__App__Android": "9bfd28b0",
+   "PrompTugal__App__iOS": "87211d14",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "THE BIG STOP applied on account B: twelve wakes paused 23:49:31-35, conductor.b@ every 2 h; the iOS conductor's :00 wake is not visible to me, its session told at 23:50. Stop report board/team/conductor.b/stop-report-2026-11-09.md."
   }
  ]
 }
