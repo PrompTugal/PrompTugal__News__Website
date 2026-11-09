@@ -10,6 +10,50 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 11:52 UTC, 9 November (three-hourly report)
+
+Site v0.1.835 (26 releases since 08:52). Snapshot 2026-11-09T1154Z, 0 errors. Inbox empty. No key changes.
+
+- **The main conductor relayed three briefs as Dinis's words**, filed in our guidance:
+  - 10:55: everyone trusted to ship; names end in .dinis; outreach parked;
+  - 11:10: "we are the power users" (WS-201);
+  - 11:25: "how we work": PKI, the live picture, the agents' life cycle (WS-202).
+  
+  I record them as relayed and act only on Dinis's confirmation in this session. That includes the life cycle's ask to stop and archive idle sessions.
+- **The iOS conductor** has the M-iPad brief in its own briefs/ folder (317aeaed).
+- **Development:** dev@ brought dev.pages@'s, dev.graphs@'s and dev.data@'s work onto dev (01f7126b). /events/ as the week overview: designer@ checks at its next wake.
+- **Vicky's desk:** S33 (IBM's sports tech challenge) published; S3 updated with the class of 2026, linking S31. Persona's profile sent back, because its About rests only on Wikipedia.
+
+## Wake at 10:52 UTC, 9 November (stand-up brief 5)
+
+Site v0.1.824. Snapshot 2026-11-09T1053Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **Stand-up brief 5** for the 12:00 London stand-up: `board/editor-briefs/2026-11-09T1052Z.pdf`, sent to Dinis.
+- **The conductors:** conductor@web-summit.dinis is now the main conductor (`board/the-conductors.md`, at Dinis's word at 10:45). M-iPad goes to the iOS session on account B, relayed to conductor.b@ on its inbox. mobile@ has conductor.android's and dev.lab's session IDs.
+- **Done:** the day pages pass (designer@, ecf9cf08). S31 closed (security@ 10:05). Vicky published S31 and corrected S24, S25 and S27.
+- **Late:** /events/ is still one long page. Sent to dev.pages@.
+- **Waits on Dinis:** the press pass (due today, PB-07); the OpenRouter balance; the 50 contact requests; the name pattern; sherpa@'s token; the euro link.
+
+## Wake at 09:52 UTC, 9 November
+
+Site v0.1.815. Snapshot 2026-11-09T0955Z, 0 errors. Inbox empty.
+
+- **The day pages: done for the reader.** sherpa@ re-measured the companies page and the day pages at v0.1.814: both pass (fcc83552). dev@ brought dev.pages@'s D5 and the other workers' branches onto dev (30f04ec5).
+- **Idle workers given work** (conductor.b@ reported them idle, 3c8a243f; Dinis's word is "aggressive pace"):
+  - dev.graphs@: a graph on every company page and every person page, RiskMandate's the widest (Dinis's brief of 6 November, sections 1, 6 and 7).
+  - dev.portugal@: Portuguese companies and people at the summit, and the map of where the Road 2 Web Summit startups come from (S31).
+- **Blocked on Dinis:** dev.verify@ waits for an OpenRouter top-up.
+- **Content:** the checker confirms WK1's re-count and Angelo's wristband article (00e5ee51). Spend so far today: 142.49 API-equivalent (accountant@).
+
+## Wake at 08:52 UTC, 9 November (three-hourly report)
+
+Site v0.1.810 (21 releases since 05:52). Snapshot 2026-11-09T0854Z, 0 errors. Inbox empty. No key changes.
+
+- **The list pages: done.** designer@ re-checked at v0.1.808: L1 to L6 pass on the companies, people and articles pages (3016980d). The approved mock-ups' switch, cards, search and length are all live.
+- **The day pages:** `/days/` and `/days/2026-11-10/` are live with "Five things" and "By stage". designer@ checks them against the decision at its next wake.
+- **security@ 08:05:** 19 commits clean. S31 (the board allowance's domains) is fixed by dev@ (00d95c48).
+- **Content:** Angelo's writer@ published "Web Summit wristbands: where the queues are short, and when" (e63f9a51). ontologist@ checked the companies against the summit programme (fa40e8ca). journalist@ and correspondent@ keep WK1 current.
+
 ## Wake at 07:52 UTC, 9 November
 
 Site v0.1.803. Snapshot 2026-11-09T0755Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.

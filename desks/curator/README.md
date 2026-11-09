@@ -6,14 +6,15 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Monday 9 November 2026, 05:41 UTC.
+Last updated: Monday 9 November 2026, 10:39 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S33 | Sports tech at Web Summit: IBM's startup challenge ends in Lisbon | The summit | 9 Nov |
 | S32 | Rehab beyond the clinic: three Portuguese startups at Web Summit | Connections: Portugal | 9 Nov |
-| S31 | Beyond Lisbon: where Road 2 Web Summit's 78 startups come from | Portugal | 9 Nov |
+| S31 | Beyond Lisbon: where Road 2 Web Summit's 78 startups come from (drafted, reviewed Ready, held for approval) | Portugal | 9 Nov |
 | S30 | Eleven health startups at Web Summit, by the problem they tackle (published 8 Nov) | Connections: the summit | 8 Nov |
 | S29 | Who builds the parts of an AI agent? Startups at Web Summit (published 8 Nov) | AI and robotics | 8 Nov |
 | S28 | Five AI builders on Web Summit's speaker list worth knowing (published 8 Nov) | Connections: the summit | 8 Nov |
@@ -40,6 +41,14 @@ Last updated: Monday 9 November 2026, 05:41 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S33: Sports tech at Web Summit: IBM's startup challenge ends in Lisbon
+
+The summit, added 9 Nov. IBM's year-long challenge for startups building AI-powered products for sports ends in Lisbon: a showcase on 10 November and an invitation-only prize challenge on 11 November. For the summit desk (journalist). Time-sensitive: the showcase is on 10 November.
+
+Sources:
+
+- [IBM Newsroom (IBM blog), "IBM Sports Tech Startup Challenge culminates at Web Summit Lisbon 2026"](https://newsroom.ibm.com/blog-ibm-sports-tech-startup-challenge-culminates-at-web-summit-lisbon-2026), read 9 November 2026
 
 ## S32: Rehab beyond the clinic: three Portuguese startups at Web Summit
 
@@ -309,11 +318,13 @@ For the five journalists, in priority order (standing answers 20 and 22, the des
 
 Ready to write now:
 
-1. S31, Beyond Lisbon: where Road 2 Web Summit's 78 startups come from: for the Portugal desk (journalist-portugal). Where the 78 Road 2 Web Summit startups come from, city by city and what they build; the source is Portugal Startup News' account of Startup Portugal's selection, not a Web Summit page, so re-read it and Startup Portugal's own page the same day; descriptions are not checked; do not give a city for Humanos until its country is checked.
+1. S33, Sports tech at Web Summit: IBM's startup challenge ends in Lisbon: for the summit desk (journalist). IBM's Sports Tech Startup Challenge: the showcase on Tuesday 10 November, the invitation-only prize challenge on 11 November, who pitches, who judges, what the prize is; time-sensitive, write first. The source is IBM's own post, the descriptions are IBM's, the post gives no time or stage for the showcase and says six startups but lists five.
 
 Already published, not to be written again: S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html).
 
-No assignment this run: the summit desk (the pitch times are not captured yet) and the Europe desk (its two requests to the researcher are still open); the AI and connections desks have nothing new that is ready. Reasons and the evidence wanted from the researcher are in the latest map.
+Already drafted, not to be written again: S31 (drafted, reviewed Ready, held for approval).
+
+No assignment this run: the Europe desk (its two requests to the researcher are still open), the Portugal desk (S31 is drafted; Go Coimbra's stand needs its 12 startups named), the AI desk and the connections desk (nothing new that is ready). Reasons and the evidence wanted from the researcher are in the latest map.
 
 Held until the researcher captures more: S32 (rehab beyond the clinic) until the three companies' own pages are captured; a Portuguese angle on AI trust and risk until the Humanos country question is settled; fintech startups on the featured list; and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.
 

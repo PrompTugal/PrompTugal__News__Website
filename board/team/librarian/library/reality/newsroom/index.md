@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-128 cards (128 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T07:01:02Z at site v0.1.800; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+129 cards (129 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T10:00:30Z at site v0.1.816; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 128 |
+| `PUB.NEWS` | 129 |
 
 Newest five accessions:
 
+- `ACC-20261109-0288` [wristband-queues: Web Summit wristbands: where the queues are short, and when](https://promptugal.news/newsroom/stories/wristband-queues/) (`PUB.NEWS wristband-queues`)
 - `ACC-20261109-0242` [S32: Rehab beyond the clinic: three Portuguese startups at Web Summit](https://promptugal.news/newsroom/stories/S32/) (`PUB.NEWS S32`)
 - `ACC-20261109-0241` [S31: Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](https://promptugal.news/newsroom/stories/S31/) (`PUB.NEWS S31`)
 - `ACC-20261109-0024` [The live map](https://promptugal.news/newsroom/live/) (`PUB.NEWS live`)
 - `ACC-20261109-0023` [S30: Eleven health startups at Web Summit, by the problem they tackle](https://promptugal.news/newsroom/stories/S30/) (`PUB.NEWS S30`)
-- `ACC-20261109-0022` [S29: Who builds the parts of an AI agent? Startups at Web Summit](https://promptugal.news/newsroom/stories/S29/) (`PUB.NEWS S29`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

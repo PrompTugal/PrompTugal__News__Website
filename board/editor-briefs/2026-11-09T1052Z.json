@@ -1,0 +1,69 @@
+{
+ "number": 5,
+ "date": "2026-11-09",
+ "kicker": "PrompTugal.news · the conductor brief · the Monday 12:00 stand-up",
+ "title": "Monday: the approved designs rebuilt overnight, the first on-device LLM, and the iPad next",
+ "when": "Monday 9 November 2026, 10:55 UTC (for the 12:00 London stand-up; the summit opens tomorrow)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "Since Saturday's 12:00 brief: 314 releases (v0.1.510 to v0.1.824). The conductor and two other account-A agents lost 28 hours to a worker restart loop, and Dinis stopped every agent at 20:42 on Sunday. At 02:30 today he brought back a summit set and then six more. Overnight, dev@ and dev.pages@ rebuilt the companies, people and articles pages and the day pages to the mock-ups he approved on Friday: designer@ passes L1 to L6, and sherpa@ passes the day pages for the reader. On the Android tablet, the RiskMandate app ran its first chat with a model on the device (Gemma 4, build 0.1.78). The iPad is next, with a shared mobile repo.",
+ "stats": [
+  {"n": "314", "label": "releases since Saturday 12:00 (v0.1.510 to v0.1.824)"},
+  {"n": "43", "label": "articles published and signed"},
+  {"n": "16", "label": "PrompTugal agents on schedule (4 on A, 12 on B)"},
+  {"n": "1st", "label": "on-device LLM chat in our Android app"}
+ ],
+ "for_you": [
+  {"group": "For Dinis"},
+  {"id": "1", "ask": "The press pass: due 'by Monday', today", "detail": "librarian@'s check of the ledger (PB-07); the decision page /newsroom/decisions/registering-and-the-press-pass/ is still open."},
+  {"id": "2", "ask": "OpenRouter balance", "detail": "dev.verify@ is paused until it is topped up; risk-mandate@'s evals may spend up to £15."},
+  {"id": "3", "ask": "The 50 contact requests: send?", "detail": "Still filed in the Web Summit team's CRM; outreach@ is idle until you say yes."},
+  {"id": "4", "ask": "The name pattern", "detail": "@PrompTugal.dinis, @promptugal.ai or @promptugal.ai.dinis: all three are in use (board/the-conductors.md)."},
+  {"id": "5", "ask": "sherpa@'s inbox token on account B", "detail": "sherpa@ cannot drain its inbox there."},
+  {"id": "6", "ask": "The euro payment link; S25 and S30", "detail": "dev@ keeps prices in pounds until the euro Stripe link exists. S30 is mostly done in the gate."}
+ ],
+ "you_asked": [
+  {"at": "Sun 20:35", "said": "what agents are on schedule? (there should be none)", "done": "18 found on account A; all stopped at 20:42", "where": "board/WS-177-plan.md", "status": "done"},
+  {"at": "Sun 20:50", "said": "start conductor.android", "done": "started with the v2 brief; it now runs about 20 sessions and shipped the first on-device chat", "where": "PrompTugal__App__Android", "status": "done"},
+  {"at": "Mon 00:10", "said": "find the design mock-ups; the agenda, companies and people are missing features", "done": "found (designer.experiments@'s rounds, decided 6 Nov 13:20); rebuilt overnight; L1 to L6 pass", "where": "board/briefs/2026-11-09-the-mockups-vs-the-live-site.md", "status": "done"},
+  {"at": "Mon 02:30", "said": "the summit set; then the dev workers, the librarian and the ontologist", "done": "4 back on account A; 12 on account B via conductor.b@", "where": "board/guidance/2026-11-09-the-summit-set.md", "status": "done"},
+  {"at": "Mon 03:00", "said": "eval becomes risk-mandate: where models hallucinate, with and without a policy", "done": "renamed risk-mandate@promptugal.ai.dinis and briefed; up to £15", "where": "board/briefs/2026-11-09-risk-mandate-evals.md", "status": "running"},
+  {"at": "Mon 10:15 and 10:30", "said": "the LLM in the app; the iPad; a workbench; models judging models; a shared mobile repo; lean into Apple Intelligence", "done": "positioning and brief written; mobile@promptugal.ai.dinis started; M-iPad goes to the iOS session on account B", "where": "board/briefs/2026-11-09-the-on-device-llm-workbench.md", "status": "running"}
+ ],
+ "team": [
+  {"id": "conductor@ (A)", "status": "old", "doing": "the plan, the briefs, relays to the other conductors"},
+  {"id": "security@ (A)", "status": "old", "doing": "21 commits clean at 10:05; S21 and S31 closed"},
+  {"id": "observability@, accountant@ (A)", "status": "old", "doing": "the drain; spend captured (142 API-equivalent by 09:50)"},
+  {"id": "dev@, dev.pages@ (B)", "status": "old", "doing": "the approved mock-ups rebuilt; /events/ still one long page"},
+  {"id": "designer@, sherpa@ (B)", "status": "old", "doing": "acceptance checks: list pages and day pages pass"},
+  {"id": "journalist@, correspondent@ (B)", "status": "old", "doing": "WK1 leads; the wristband queues to the top three"},
+  {"id": "dev.graphs@, dev.portugal@ (B)", "status": "new", "doing": "graphs on company and person pages; Portugal at the summit"},
+  {"id": "conductor.android + team (A)", "status": "new", "doing": "the first on-device chat (Gemma 4); the Workbench"},
+  {"id": "mobile@promptugal.ai.dinis (A)", "status": "new", "doing": "the shared repo PrompTugal__App__Mobile and the Kotlin and Swift bridge"},
+  {"id": "risk-mandate@promptugal.ai.dinis (A)", "status": "new", "doing": "hallucination evals across older models, with and without a policy enforced by code"}
+ ],
+ "sections": [
+  {"title": "What happened since Saturday", "items": [
+   "Sat 16:52 to Sun 19:52: the conductor's worker restarted in a loop and missed 28 wakes; security@ and observability@ lost the same window, and both caught up with nothing lost",
+   "Sun 02:04: every account-B agent paused at Dinis's word; Sun 20:42: every account-A task stopped too",
+   "Mon 02:30: the summit set back; 02:50: librarian@, ontologist@ and four dev workers; 03:15: 'continue this aggressive pace'",
+   "Overnight: the list pages got a real switch, cards, live search and a shorter length; /events/ opens with the week; /days/ and each day page are live"
+  ]},
+  {"title": "The on-device LLM", "items": [
+   "Build 0.1.78 of the Android RiskMandate app ran a chat with Gemma 4 on the Idea Tab Plus, offline, at a usable speed, behind a 'Runs on this device' badge",
+   "Next: the iPad (iPad Air M4, iPhone 16 Plus) in up to three modes: Gemma on LiteRT-LM, Apple's on-device model and Apple Intelligence, maybe MLX",
+   "A workbench of JSON scenarios judged by code, by the local model and by a Sonnet; tool calling under ABPs with a tight prompt budget; the one-shot request builder from SG/Send",
+   "One shared repo, PrompTugal__App__Mobile (created today), so the Android and iOS apps reuse the same scenarios, prompts, ABPs and HTML and JS"
+  ]},
+  {"title": "Still open on the site", "items": [
+   "/events/ is still one long page (designer@, 10:33); dev.pages@ has it next",
+   "The day pages pass; the A/B/C views are live as Five things and By stage"
+  ]}
+ ],
+ "images": [
+  {"path": "board/editor-briefs/img/2026-11-09T1052Z-then-and-now.jpg", "caption": "The site, then and now (v0.1.824)"},
+  {"path": "board/editor-briefs/img/2026-11-09T1052Z-companies-mock-vs-live-0030.jpg", "caption": "Companies at 00:30: the approved mock-up (left) and the live page before the rebuild (right)"},
+  {"path": "board/editor-briefs/img/2026-11-09T1052Z-agenda-mock-vs-live-0030.jpg", "caption": "The agenda at 00:30: a day's view C (left) and /events/ before the rebuild (right)"}
+ ],
+ "next": ["The 18:00 stand-up brief at 16:52 UTC", "Tomorrow, Tuesday 10 November: the summit opens"],
+ "sources": ["board/WS-177-plan.md", "board/guidance/", "board/briefs/2026-11-09-*.md", "board/the-conductors.md", "PrompTugal__App__Android (dev)", "git log of dev since Saturday 10:52 UTC"]
+}
