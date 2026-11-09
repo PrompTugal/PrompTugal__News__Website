@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.778",
+    "date": "2026-11-09",
+    "what": "librarian@PrompTugal.dinis: wake 03:56 (summit set): handles by operator suffix; debrief of 9 November; catalogue v0.1.776",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "572e23d20"
+  },
+  {
     "version": "v0.1.777",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: wake 03:52: six more agents on account B; S30 in the gate; sherpa's L1 on the switch",
