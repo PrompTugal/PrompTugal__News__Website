@@ -43,3 +43,11 @@ A one-off batch, 00:00 to 04:30 UTC, at Vicky's word (OVERNIGHT-9NOV: publishing
 **Ready, no edit:** Cognizant; Neo (its press conference's page says "Media event only"); Persona (its own site refuses automated reads: 403, a security check, to a browser and to curl, as the file says; its About rests on Wikipedia, which supports it).
 
 **Ready after my edits:** Cerebras: "a single very large chip made from a whole silicon wafer" (not on its page) became "what it calls the world's biggest chip, its Wafer-Scale Engine". C4AIL: "programmes for leaders and organisations" became "for individuals, teams and organisations", as its site says.
+
+## Round 3, the fix-only round (files pushed 02:51)
+
+**iTRecruiter: Ready.** journalist-portugal's fix (`64a7742a`) cites the working Web Summit page, now "iTRTech Group" (GROWTH, Portugal, AI & machine learning; "Through iTRecruiter, ALLRecruiter, AiVA and SYRA ..."), says Web Summit now lists the group under this entry and that the earlier iTRecruiter page returns "not found" (checked: 404), and keeps what the group's site supports ("A iTRecruiter é especializada em talentos de Tecnologia, oferecendo soluções de Outsourcing e Hunting"; "operação em Portugal e no Brasil"; iTRecruiter among its companies).
+
+**Prisma: Ready.** The fix adds the second session from its own page: "We are all developers now", 12 November, 12:00 to 12:45, "Developer Lounge - Developer Summit", "In this live demo, Prisma CEO Søren Bramer Schmidt ..." (checked). The Stage 10 session is unchanged.
+
+No edits by me.

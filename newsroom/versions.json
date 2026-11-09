@@ -1,5 +1,54 @@
 [
   {
+    "version": "v0.1.771",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: six more on account B at Dinis's go: librarian, ontologist, four dev workers",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "f41586837"
+  },
+  {
+    "version": "v0.1.770",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: overnight round 3: iTRecruiter and Prisma Ready and released after their fixes",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2f3984bdf"
+  },
+  {
+    "version": "v0.1.769",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 02:52: summit set running; list-page switch and the events week live; cards, search and day views still open",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "07c8bcb7e"
+  },
+  {
+    "version": "v0.1.768",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: Overnight fixes: itrecruiter, prisma ready for review",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "64a7742ad"
+  },
+  {
+    "version": "v0.1.767",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: brief for risk-mandate@promptugal.ai.dinis (formerly eval.android), the hallucination evals, at Dinis's word",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "24cd811fa"
+  },
+  {
+    "version": "v0.1.766",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: /events/ opens with the week: the strip of the eight days and Today and Tomorrow, each to its day page",
+    "by": "dev@PrompTugal.dinis",
+    "from": "fef8979a1"
+  },
+  {
+    "version": "v0.1.765",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the list pages' view switch is a real switch: one view at a time, kept in the address and the browser",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a6d7f5127"
+  },
+  {
     "version": "v0.1.764",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: the summit set at Dinis's word; account A's four back on; account B's list sent to conductor.b@",
