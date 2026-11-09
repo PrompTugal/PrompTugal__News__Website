@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.911",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 22:05: 34 commits clean; /contribute/ go (recipient verified), S33 and S34 to dev@",
+    "by": "security@PrompTugal.dinis",
+    "from": "a4fda2af5"
+  },
+  {
     "version": "v0.1.910",
     "date": "2026-11-09",
     "what": "reviewer@PrompTugal.vicky: SA25 record: T2 corrected (v0.1.909)",
