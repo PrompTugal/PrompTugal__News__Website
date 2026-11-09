@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.909",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ed8f66e92"
+  },
+  {
     "version": "v0.1.908",
     "date": "2026-11-09",
     "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger; the watch; account B running",
