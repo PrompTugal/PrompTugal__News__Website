@@ -14,8 +14,8 @@
    "cron": "56 */3 * * *",
    "started": "2026-11-06T22:23Z",
    "first_prompt": "board/team/conductor/account-move/librarian.md",
-   "state": "paused",
-   "note": "paused 00:52 UTC 8 Nov at Dinis's word"
+   "state": "on",
+   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')"
   },
   {
    "agent": "journalist@PrompTugal.dinis",
@@ -80,8 +80,8 @@
    "cron": "21 */2 * * *",
    "started": "2026-11-06T22:45Z",
    "first_prompt": "board/team/conductor.b/account-move/ontologist.md",
-   "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')",
-   "state": "paused"
+   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')",
+   "state": "on"
   },
   {
    "agent": "devops@PrompTugal.dinis",
@@ -208,8 +208,8 @@
    "cron": "17 */2 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.graphs.md",
-   "state": "paused",
-   "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')"
+   "state": "on",
+   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')"
   },
   {
    "agent": "dev.portugal@PrompTugal.dinis",
@@ -219,8 +219,8 @@
    "cron": "23 */4 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.portugal.md",
-   "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
-   "state": "paused"
+   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')",
+   "state": "on"
   },
   {
    "agent": "dev.data@PrompTugal.dinis",
@@ -230,8 +230,8 @@
    "cron": "31 */2 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.data.md",
-   "state": "paused",
-   "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')"
+   "state": "on",
+   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')"
   },
   {
    "agent": "dev.verify@PrompTugal.dinis",
@@ -241,8 +241,8 @@
    "cron": "48 */4 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.verify.md",
-   "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
-   "state": "paused"
+   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')",
+   "state": "on"
   },
   {
    "agent": "xray@PrompTugal.dinis",
