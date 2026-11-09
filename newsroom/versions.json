@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.790",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 05:52: the articles page and /days/ live; the agenda of 9 November loaded; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "724a6cfaa"
+  },
+  {
     "version": "v0.1.789",
     "date": "2026-11-09",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
