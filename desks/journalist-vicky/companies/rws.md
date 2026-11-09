@@ -9,11 +9,11 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-RWS is a British company that provides translation and localisation, and services for filing and searching patents (1). It also develops software for translation and for managing translation work (1).
+RWS is a British company that provides translation and localisation, and intellectual property filing and search services (1). It also develops software for translation and for managing translation work (1).
 
 Sources for this section:
 
-1. [Wikipedia, "RWS Group"](https://en.wikipedia.org/wiki/RWS_Group) (the company's own site refused an automated read on 8 November 2026), read 8 November 2026
+1. [Wikipedia, "RWS Group"](https://en.wikipedia.org/wiki/RWS_Group) (RWS's own site sent no content to this desk's plain request on 8 and 9 November 2026, so it could not be read here), read 8 November 2026
 
 ## At Web Summit 2026
 
