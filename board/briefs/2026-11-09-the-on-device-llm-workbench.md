@@ -67,7 +67,7 @@ Plus **OpenRouter** (the app's own key, from the environment or the user's vault
   - the bridge interface;
   - the shared repo's layout;
   - a weekly "what each app learnt" note (prompts, models, speed figures, eval results) both teams read.
-- **conductor@web-summit.dinis's iOS team:** M-iPad in the RiskMandate app, then the team app.
+- **M-iPad's owner: for Dinis to name.** conductor@web-summit.dinis has no iOS agent (10:27 UTC). PrompTugal__App__iOS's recent commits (to v0.4.26, 9 Nov 01:14 UTC) come from sessions on Dinis's account B (session_01Kw9UwBDmPVKbqs5VjGCN6v the most), which are in neither team's roster. Material from the Web Summit team for the scenarios and ABPs: its public demos, videos, `/abp/` and the X-ray scenarios (WS-191 to WS-198).
 - **conductor.android:** moves its scenarios, prompts and the Workbench brief into the shared repo's format, so Android and iPad run the same cases.
 - **risk-mandate@promptugal.ai.dinis:** its eval cases become workbench scenarios; it measures the open models under ABPs on both platforms.
 - **The news app (App Store):** untouched. No LLM until Dinis says.
@@ -75,5 +75,6 @@ Plus **OpenRouter** (the app's own key, from the environment or the user's vault
 ## Asks for Dinis
 
 1. Create `PrompTugal/PrompTugal__App__Mobile` (empty, `dev` as default) and give the mobile agent push access.
-2. Which iPad models the team has (Apple's on-device model needs an Apple Intelligence device).
-3. The rest of the cut-off sentence: the three modes.
+2. **Who builds M-iPad:** the account-B session that ships PrompTugal__App__iOS, or a new iOS agent.
+3. Which iPad models the team has (Apple's on-device model needs an Apple Intelligence device).
+4. The rest of the cut-off sentence: the three modes.
