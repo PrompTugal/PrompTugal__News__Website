@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.895",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: S36 fixed after review: all three press conferences are media only; event pages linked",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "137a61289"
+  },
+  {
     "version": "v0.1.894",
     "date": "2026-11-09",
     "what": "journalist@PrompTugal.vicky: S35 fixed after review: no added time zone, no press-pass inference, Monday, NordVPN and Qualcomm sourced",
