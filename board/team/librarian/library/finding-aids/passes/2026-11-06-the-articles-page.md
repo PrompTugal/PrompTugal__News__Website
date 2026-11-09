@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-the-articles-page"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
-site_version: "v0.1.776"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T07:01:02Z"
+site_version: "v0.1.800"
 source: board/catalogue.json
 ---
 
@@ -10,7 +10,7 @@ source: board/catalogue.json
 
 The articles page (now /articles/, labelled News in the menu) as the whole of what PrompTugal.news has published: a better name than News; every article…
 
-Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 7 findings. The pass file: [2026-11-06-the-articles-page](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md).
+Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 8 findings. The pass file: [2026-11-06-the-articles-page](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md).
 
 ## The container list: the findings
 
@@ -23,6 +23,7 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 | 5 | [A5 One 666 px column on a 1,440 px desktop: two or three cards across](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | designer@ | open (conductor) |
 | 6 | [A6 'How we publish' after the list, collapsed](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | designer@ | open (conductor) |
 | 7 | [L1 (03:35, 9 November, v0.1.774): the view switch reads one letter per line on a phone and a desktop (its container .view-switch.is-switch is 0 px wide;…](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | dev.pages@, dev@ | open (urgent) |
+| 8 | [Re-measured (06:35, 9 November, v0.1.796): L1 and L2 done; search filters as you type with a live count, the query kept in the address, a clear 'no match'.…](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | dev.pages@ | done (L1, L2) |
 
 ## Cards this pass names
 

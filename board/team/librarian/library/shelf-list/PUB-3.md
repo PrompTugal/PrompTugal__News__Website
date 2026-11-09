@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 3 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
-site_version: "v0.1.776"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T07:01:02Z"
+site_version: "v0.1.800"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 3 of 5)
 
-100 cards, from `PUB.SITE algarve` to `PUB.SITE join`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE account` to `PUB.SITE involved:2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 201 to 225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE account` | [Your reading account](https://promptugal.news/account/) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE agenda` | [The agenda, day by day](https://promptugal.news/summit/agenda.html) | site | newsroom@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE algarve` | [An Algarvian company, in Portugal, in the European Union](https://promptugal.news/investors/algarve/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE algarve-evolution` | [Algarve Evolution](https://promptugal.news/portugal/algarve-evolution/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE algarve-evolution:2` | [Algarve Evolution, drawn](https://promptugal.news/graph/algarve-evolution/) | site | dev@ 6 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `PUB.SITE builders:2` | [Haga un fork. O constrúyalo con nosotros.](https://promptugal.news/investors/es/builders/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE builders:3` | [Forkez-le. Ou construisez-le avec nous.](https://promptugal.news/investors/fr/builders/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE builders:4` | [Faça um fork. Ou construa connosco.](https://promptugal.news/investors/pt/builders/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE business-plan` | [The business plan](https://promptugal.news/investors/business-plan/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE business-plan:2` | [El plan de negocio](https://promptugal.news/investors/es/business-plan/) | site | investors@ 7 Nov 2026 |
 
 **Cards 226 to 250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE business-plan` | [The business plan](https://promptugal.news/investors/business-plan/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE business-plan:2` | [El plan de negocio](https://promptugal.news/investors/es/business-plan/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE business-plan:3` | [Le business plan](https://promptugal.news/investors/fr/business-plan/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE business-plan:4` | [O plano de negócio](https://promptugal.news/investors/pt/business-plan/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE changelog` | [What changed in the decks](https://promptugal.news/investors/changelog/) | site | investors@ 7 Nov 2026 |
@@ -63,17 +65,18 @@ source: board/catalogue.json
 | `PUB.SITE copy-us:2` | [Cópiennos. Por favor.](https://promptugal.news/investors/es/articles/copy-us/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE copy-us:3` | [Copiez-nous. S'il vous plaît.](https://promptugal.news/investors/fr/articles/copy-us/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE copy-us:4` | [Copiem-nos. Por favor.](https://promptugal.news/investors/pt/articles/copy-us/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE days` | [The days](https://promptugal.news/days/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE decks` | [The decks](https://promptugal.news/investors/decks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE decks:2` | [Las presentaciones](https://promptugal.news/investors/es/decks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE decks:3` | [Les decks](https://promptugal.news/investors/fr/decks/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE decks:4` | [As apresentações](https://promptugal.news/investors/pt/decks/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE es` | [PrompTugal: la tesis de inversión](https://promptugal.news/investors/decks/1-the-investment-case/es/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE es:10` | [PrompTugal: el mapa de los decks](https://promptugal.news/investors/decks/0-the-map/es/) | site | investors@ 7 Nov 2026 |
 
 **Cards 251 to 275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE decks:4` | [As apresentações](https://promptugal.news/investors/pt/decks/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE es` | [PrompTugal: la tesis de inversión](https://promptugal.news/investors/decks/1-the-investment-case/es/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE es:10` | [PrompTugal: el mapa de los decks](https://promptugal.news/investors/decks/0-the-map/es/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE es:11` | [PrompTugal para inversores y socios](https://promptugal.news/investors/es/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE es:2` | [PrompTugal: la industria, y la dirección correcta](https://promptugal.news/investors/decks/2-the-industry/es/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE es:3` | [PrompTugal: la plataforma](https://promptugal.news/investors/decks/3-the-platform/es/) | site | investors@ 7 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `PUB.SITE for-you:3` | [Votre version](https://promptugal.news/investors/fr/for-you/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-you:4` | [A sua versão](https://promptugal.news/investors/pt/for-you/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr` | [PrompTugal : la thèse d'investissement](https://promptugal.news/investors/decks/1-the-investment-case/fr/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE fr:10` | [PrompTugal : la carte des decks](https://promptugal.news/investors/decks/0-the-map/fr/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE fr:11` | [PrompTugal pour les investisseurs et les partenaires](https://promptugal.news/investors/fr/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE fr:2` | [PrompTugal : le secteur, et la bonne direction](https://promptugal.news/investors/decks/2-the-industry/fr/) | site | investors@ 7 Nov 2026 |
 
 **Cards 276 to 300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE fr:10` | [PrompTugal : la carte des decks](https://promptugal.news/investors/decks/0-the-map/fr/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE fr:11` | [PrompTugal pour les investisseurs et les partenaires](https://promptugal.news/investors/fr/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE fr:2` | [PrompTugal : le secteur, et la bonne direction](https://promptugal.news/investors/decks/2-the-industry/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr:3` | [PrompTugal : la plateforme](https://promptugal.news/investors/decks/3-the-platform/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr:4` | [PrompTugal : le cas de l'Algarve](https://promptugal.news/investors/decks/4-the-algarve/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr:5` | [PrompTugal : l'investissement](https://promptugal.news/investors/decks/5-the-investment/fr/) | site | investors@ 7 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE investors` | [PrompTugal for investors and partners](https://promptugal.news/investors/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE involved` | [Venga a dirigirla](https://promptugal.news/investors/es/involved/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE involved:2` | [Venez la diriger](https://promptugal.news/investors/fr/involved/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE involved:3` | [Come and run it](https://promptugal.news/investors/involved/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE involved:4` | [Venha dirigi-la](https://promptugal.news/investors/pt/involved/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE join` | [Join us](https://promptugal.news/investors/join/) | site | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-2.md) | [Next part](PUB-4.md)

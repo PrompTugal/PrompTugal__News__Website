@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1232 cards (1218 current, 0 superseded, 14 withdrawn), from the catalogue generated 2026-11-09T03:59:25Z at site v0.1.776; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1257 cards (1242 current, 0 superseded, 15 withdrawn), from the catalogue generated 2026-11-09T07:01:02Z at site v0.1.800; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
-| `DAT.EV` | 248 |
-| `DAT.ORG` | 256 |
-| `DAT.PE` | 281 |
-| `DAT.PL` | 83 |
+| `DAT.EV` | 255 |
+| `DAT.ORG` | 262 |
+| `DAT.PE` | 290 |
+| `DAT.PL` | 85 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 219 |
+| `PUB.SITE` | 220 |
 
 Newest five accessions:
 
-- `ACC-20261109-0026` [Morning edition: Sunday 8 November](https://promptugal.news/newsletter/2026-11-08-morning/) (`PUB.SITE 2026-11-08-morning`)
-- `ACC-20261109-0025` [Evening edition: Sunday 8 November](https://promptugal.news/newsletter/2026-11-08-evening/) (`PUB.SITE 2026-11-08-evening`)
-- `ACC-20261109-0011` [João Moutão](https://promptugal.news/people/joao-moutao/) (`DAT.PE joao-moutao`)
-- `ACC-20261109-0010` [João Leite](https://promptugal.news/people/joao-leite/) (`DAT.PE joao-leite`)
-- `ACC-20261109-0009` [Haakon Rølmann](https://promptugal.news/people/haakon-rlmann/) (`DAT.PE haakon-rlmann`)
+- `ACC-20261109-0243` [The days](https://promptugal.news/days/) (`PUB.SITE days`)
+- `ACC-20261109-0232` [Social Club](https://promptugal.news/places/social-club/) (`DAT.PL social-club`)
+- `ACC-20261109-0231` [Disco Bar](https://promptugal.news/places/disco-bar/) (`DAT.PL disco-bar`)
+- `ACC-20261109-0230` [Yuli Zhao](https://promptugal.news/people/yuli-zhao/) (`DAT.PE yuli-zhao`)
+- `ACC-20261109-0229` [UBTech U1 Pro](https://promptugal.news/people/ubtech-u1-pro/) (`DAT.PE ubtech-u1-pro`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
