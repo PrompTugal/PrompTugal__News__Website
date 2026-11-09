@@ -11,9 +11,9 @@ A few files per run, after the round's drafts. Each finding re-checked at its so
 
 | Findings file | Story | Outcome |
 |---|---|---|
-| driving-to-web-summit | S24 | correction (small), below |
-| the-sign-in | S25 | correction, below |
-| venue-map | S27 | correction and update, below |
+| driving-to-web-summit | S24 | corrected, 9 Nov 10:40 UTC (v0.1.823) |
+| the-sign-in | S25 | corrected, 9 Nov 10:40 UTC (v0.1.823) |
+| venue-map | S27 | corrected and updated, 9 Nov 10:40 UTC (v0.1.823) |
 | daily-newsletter, europe-ai-help-and-portugal-ai-startups, following-robotics-at-web-summit, how-agents-avoid-collisions, lisbon-universities-at-web-summit, mistakes-we-made, octo-health-launches, web-summit-before-2026, who-does-the-work | | next runs |
 
 ## 9 November 2026, about 06:40 UTC
@@ -37,3 +37,7 @@ A few files per run, after the round's drafts. Each finding re-checked at its so
 - `Correct S24: "some other streets from 7pm" in In short, "Five more streets close 07:00 to 22:00" in the figure, with a dated correction note.`
 - `Correct S25: the "signed in" chip shows on the sign-in page only, in the text and step 6 of the diagram, with a dated correction note.`
 - `Correct and update S27: the venue page's own script for a reader's picks; today's counts (186; Pavilhão de Portugal's 5 registration desks), with dated notes.`
+
+## 9 November 2026, about 10:50 UTC: published at Vicky's word
+
+All three corrections published (newsroom v0.1.823), each with a dated note under "Corrections" crediting the checker, and the figures (S24's, S25's step 6) changed with them. S27's counts had moved again by the time of publishing: its update note gives the live page's of 9 November (v0.1.821: 194 at the MEO Arena and FIL, 27, 64, 51, 52; the Pavilhão de Portugal's registration desk Monday to Thursday), not the 186 above. Live-checked at 390 px and desktop.
