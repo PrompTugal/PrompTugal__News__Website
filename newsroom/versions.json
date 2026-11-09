@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.894",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.vicky: S35 fixed after review: no added time zone, no press-pass inference, Monday, NordVPN and Qualcomm sourced",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "bb0ae9788"
+  },
+  {
     "version": "v0.1.893",
     "date": "2026-11-09",
     "what": "conductor.b@PrompTugal.dinis: 19:48 wake: the watch; account B running",
