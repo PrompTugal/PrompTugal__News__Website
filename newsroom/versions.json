@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.890",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "1c5413f59"
+  },
+  {
     "version": "v0.1.889",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: the app opens at now, starts the days at today, and installs from a phone (sherpa@'s AP1 to AP4)",
