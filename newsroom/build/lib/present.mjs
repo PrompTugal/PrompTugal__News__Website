@@ -29,9 +29,14 @@ export const dataLinks = (ctx, fromRel, type, slug, hasGraph = true) =>
 // It reads as plain text in the twin; with {.agenda} before the list, the page draws a time column.
 const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 export const shortDay = d => { const t = new Date(d + 'T12:00:00Z'); return `${DOW[t.getUTCDay()]} ${t.getUTCDate()} ${MON[t.getUTCMonth()]}` }
+// a town's region after its name ("Lagos, Algarve"), from the place data's located_in; nothing for a stage, a venue in Lisbon or a country
+function regionOf(ctx, ref) {
+    const p = ctx.store.get(ref), up = p && p.located_in && ctx.store.get(p.located_in)
+    return up && up.kind === 'region' && p.kind !== 'region' ? `, ${cell(up.name)}` : ''
+}
 export function slotLine(ctx, fromRel, e, { day = true, place = true, extra = [], tags = [] } = {}) {
     const [a, b] = (e.time || '').split('-')
-    const meta = [day ? shortDay(e.date) + (b ? `, until ${b}` : '') : (b ? `until ${b}` : ''), place ? (e.place ? refLink(ctx, fromRel, e.place) : e.where ? cell(e.where) : '') : '', ...extra].filter(Boolean)
+    const meta = [day ? shortDay(e.date) + (b ? `, until ${b}` : '') : (b ? `until ${b}` : ''), place ? (e.place ? refLink(ctx, fromRel, e.place) + regionOf(ctx, e.place) : e.where ? cell(e.where) : '') : '', ...extra].filter(Boolean)
     const t = [...tags, ...(e.our_pick ? ['Our pick'] : [])]
     return `- **${a || 'All day'}** ${refLink(ctx, fromRel, `event:${e.id}`)}${meta.length ? ` *${meta.join(' · ')}*` : ''}${t.map(x => ` \`${x}\``).join('')}`
 }

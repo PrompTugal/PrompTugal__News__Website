@@ -10,6 +10,26 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 09:52 UTC, 9 November
+
+Site v0.1.815. Snapshot 2026-11-09T0955Z, 0 errors. Inbox empty.
+
+- **The day pages: done for the reader.** sherpa@ re-measured the companies page and the day pages at v0.1.814: both pass (fcc83552). dev@ brought dev.pages@'s D5 and the other workers' branches onto dev (30f04ec5).
+- **Idle workers given work** (conductor.b@ reported them idle, 3c8a243f; Dinis's word is "aggressive pace"):
+  - dev.graphs@: a graph on every company page and every person page, RiskMandate's the widest (Dinis's brief of 6 November, sections 1, 6 and 7).
+  - dev.portugal@: Portuguese companies and people at the summit, and the map of where the Road 2 Web Summit startups come from (S31).
+- **Blocked on Dinis:** dev.verify@ waits for an OpenRouter top-up.
+- **Content:** the checker confirms WK1's re-count and Angelo's wristband article (00e5ee51). Spend so far today: 142.49 API-equivalent (accountant@).
+
+## Wake at 08:52 UTC, 9 November (three-hourly report)
+
+Site v0.1.810 (21 releases since 05:52). Snapshot 2026-11-09T0854Z, 0 errors. Inbox empty. No key changes.
+
+- **The list pages: done.** designer@ re-checked at v0.1.808: L1 to L6 pass on the companies, people and articles pages (3016980d). The approved mock-ups' switch, cards, search and length are all live.
+- **The day pages:** `/days/` and `/days/2026-11-10/` are live with "Five things" and "By stage". designer@ checks them against the decision at its next wake.
+- **security@ 08:05:** 19 commits clean. S31 (the board allowance's domains) is fixed by dev@ (00d95c48).
+- **Content:** Angelo's writer@ published "Web Summit wristbands: where the queues are short, and when" (e63f9a51). ontologist@ checked the companies against the summit programme (fa40e8ca). journalist@ and correspondent@ keep WK1 current.
+
 ## Wake at 07:52 UTC, 9 November
 
 Site v0.1.803. Snapshot 2026-11-09T0755Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
