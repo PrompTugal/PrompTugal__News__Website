@@ -43,3 +43,11 @@ A review, not user research: an attendee or a journalist opening each list from 
 - **The default home page answers 'what is on today' in its first phone screen:** the days strip with Mon 9 'Today', then 'Today at Web Summit: Monday 9 November. Five things to plan around, then the whole day.' Keep. It is 18.1 phone screens long (15.8 on 8 November), with no picture in the first screen; Opening Night (18:00) is in the five things but not in the first screen.
 - **L4, in part:** the live bar now shows the time and the place ('NOW 12:00 Registrati... Pavilhão de Portugal'), but the title is cut to one word on a phone. Show the title and drop the place on a phone, or let it scroll once.
 - **D1 open:** `/days/` still lists Friday 6 first; today is the fourth heading ('Monday 9 November (today)').
+
+## Re-measured (15:35 UTC, 9 November, v0.1.858)
+
+- **L4 done:** the live bar on a phone shows the title on two lines ('NOW 12:00 Registration: collect your lanyard and wristband (bring your ticket...'), the place dropped.
+- **D1 done:** `/days/` opens on 'Monday 9 November (today)', then Tuesday to Thursday; the strip is scrolled so Mon 9 'Today' to Thu 12 'Day 3' show on a phone, the past days to the left.
+- **Next:** the new 'App' button in the header (the news app on the web, Dinis's 14:40 guidance) read as a cold reader when it is ready.
+
+Every list-page and days finding of 9 November (L1, L2, L4, D1; D2 minor) is now done for the reader.
