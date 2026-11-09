@@ -5,7 +5,7 @@
   "title": "Where to find Portugal at Web Summit: Pavilion 1, stand E145",
   "beat": "Portugal",
   "topic": null,
-  "status": "ready",
+  "status": "published",
   "rests_on": [
     "evidence:v-aicep-portugal-stand"
   ],
@@ -17,7 +17,8 @@
     "from": [
       "desks/curator/2026-11-09-1455.json",
       "desks/journalist-vicky/drafts/S34-where-to-find-portugal.md",
-      "desks/reviewer-vicky/reviews/S34.md"
+      "desks/reviewer-vicky/reviews/S34.md",
+      "content/articles/where-to-find-portugal.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -33,8 +34,12 @@
       "at": "2026-11-09"
     }
   ],
-  "article": null,
-  "next": "publish and sign",
+  "article": {
+    "path": "content/articles/where-to-find-portugal.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -53,6 +58,12 @@
       "at": "2026-11-09",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S34.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-09",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/where-to-find-portugal.md"
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/contributors.schema.json",
+  "title": "The collaborators' wall on /contribute/ (data/site/contributors.json): names only with consent, never a contact detail",
+  "type": "object",
+  "required": ["about", "submitted", "unnamed", "contributors"],
+  "additionalProperties": false,
+  "properties": {
+    "about": { "type": "string" },
+    "submitted": { "type": "integer", "minimum": 0 },
+    "unnamed": { "type": "integer", "minimum": 0 },
+    "contributors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "since", "pieces", "consent"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+          "since": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "pieces": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } },
+          "made": { "type": "string", "maxLength": 200 },
+          "consent": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "running on account B (summit set): the news app on the web reviewed",
-  "updated": "2026-11-09T18:45Z",
+  "updated": "2026-11-09T21:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -34,10 +34,11 @@
     "09:35 (9 Nov): Companies is the approved page (11.1 phone screens from 31.9); day pages live with the three views; D1, L4, G1 still open; dev.graphs@ reminded",
     "12:35 (9 Nov): the home page answers today in its first phone screen (keep); L4 in part (the title cut to show the place); D1 open; dev.pages@ told. Read Dinis's 10:55 to 11:25 guidance (everyone trusted, publish, review your area): no change to this role",
     "15:35 (9 Nov): L4 and D1 done (verified live at v0.1.858); every list and day finding of 9 November done but D2 (minor)",
-    "18:35 (9 Nov): the news app on the web (/app/) read cold on Opening Night: picks, calendar, privacy line and the desktop pane work; AP1 (rank 1) it opens at the top of the day, not at now; AP2 the days row hides Thu 12 and Fri 13; dev@ told"
+    "18:35 (9 Nov): the news app on the web (/app/) read cold on Opening Night: picks, calendar, privacy line and the desktop pane work; AP1 (rank 1) it opens at the top of the day, not at now; AP2 the days row hides Thu 12 and Fri 13; dev@ told",
+    "21:35 (9 Nov): the app re-measured at v0.1.904: AP1, AP3 done, AP2 as reported; AP5 new (opening at now hides the day row and the switch); /contribute/ not live yet; dev@ told"
   ],
   "next": [
-    "re-measure AP1, AP2; test a clash, where-I-need-to-be-next and Add to Home Screen",
+    "read /contribute/ when live; AP5",
     "the summit coverage from Tuesday (articles, the front page) on a phone",
     "graphs G1 to G5, X1 to X3"
   ],
@@ -207,6 +208,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "the app read cold: AP1 opens at the top of the day"
+    },
+    {
+      "started": "2026-11-09T21:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "the app: AP1, AP3 done; AP5 new"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-09-handover.md",

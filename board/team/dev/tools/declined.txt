@@ -1,1 +1,3 @@
 dev.pages assets/front-g/front-g.tmpl 9304b8ac2
+dev.pages content/contribute/index.md 966d214a1
+dev.pages newsroom/build/features/contribute.mjs 966d214a1

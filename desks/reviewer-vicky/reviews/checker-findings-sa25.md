@@ -14,7 +14,7 @@ A few files per run, after the round's drafts. Each finding re-checked at its so
 | driving-to-web-summit | S24 | corrected, 9 Nov 10:40 UTC (v0.1.823) |
 | the-sign-in | S25 | corrected, 9 Nov 10:40 UTC (v0.1.823) |
 | venue-map | S27 | corrected and updated, 9 Nov 10:40 UTC (v0.1.823) |
-| who-does-the-work | T2 | correction (small), below |
+| who-does-the-work | T2 | corrected, 9 Nov 21:53 UTC (v0.1.909) |
 | how-agents-avoid-collisions | T4 | no problem, below |
 | daily-newsletter, europe-ai-help-and-portugal-ai-startups, following-robotics-at-web-summit, lisbon-universities-at-web-summit, mistakes-we-made, octo-health-launches, web-summit-before-2026 | | next runs |
 
@@ -57,3 +57,7 @@ All three corrections published (newsroom v0.1.823), each with a dated note unde
 ## For Vicky (publish line, at Vicky's word only)
 
 - `Correct T2: "The team's other members work without them" in In short, with a dated correction note.`
+
+## 9 November 2026, about 22:05 UTC: T2 corrected at Vicky's word
+
+In short now reads "The team's other members work without them", with a dated correction note crediting the checker; re-signed and live-checked at 390 px and desktop (newsroom v0.1.909).

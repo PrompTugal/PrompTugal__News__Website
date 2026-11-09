@@ -73,7 +73,11 @@
         var now = new Date(); if (st.day !== now.toISOString().slice(0, 10)) return
         var m = now.getUTCHours() * 60 + now.getUTCMinutes(), first = null
         list.querySelectorAll('.pa-it').forEach(function (li) { var e = +li.getAttribute('data-end'); if (e <= m) li.classList.add('past'); else if (!first && !li.classList.contains('long')) first = li })
-        if (first) first.scrollIntoView({ block: 'start' })
+        // a line that says now, and the list brought to it under the pinned header and days row (sherpa@'s AP5)
+        if (!first) return
+        var line = el('li', 'pa-nowline', (W.next_now || 'Now') + ' ' + hm(m)); first.parentNode.insertBefore(line, first)
+        var top = root.querySelector('.pa-top').offsetHeight + root.querySelector('.pa-stick').offsetHeight + 4
+        window.scrollTo(0, line.getBoundingClientRect().top + window.scrollY - top)
     }
     function draw() {
         next()

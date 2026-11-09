@@ -1,0 +1,17 @@
+/* /contribute/: designer@'s rules block (lifted from design/contribute/rules-fragment.txt, board/spec-contribute-page.md), the forms and the wall. */
+into the page's CSS and the <section> into the page -->
+.ct-form { max-width: 640px; }
+.ct-form p { margin: 0 0 14px; } .ct-form label { display: block; font: 600 14px var(--sans); margin-bottom: 4px; } .ct-form label i { font-weight: 400; color: var(--ink-3); }
+.ct-form input:not([type=checkbox]), .ct-form select, .ct-form textarea { width: 100%; box-sizing: border-box; min-height: 44px; padding: 10px 12px; font: 16px var(--sans); border: 1px solid var(--rule-2); border-radius: 3px; background: var(--panel); color: var(--ink); }
+.ct-form small { display: block; margin-top: 4px; font-size: 13px; color: var(--ink-3); }
+.ct-form .ct-check { display: flex; gap: 10px; align-items: flex-start; } .ct-form .ct-check input { width: 20px; height: 20px; margin: 2px 0 0; flex: none; } .ct-form .ct-check label { font-weight: 400; margin: 0; }
+.ct-form button { font: 600 15px var(--sans); min-height: 44px; padding: 10px 20px; border: 0; border-radius: 3px; background: var(--brand-green, #006600); color: #fff; cursor: pointer; } .ct-form button[disabled] { opacity: .6; }
+.ct-status { font-size: 14px; } .ct-status [data-sent] { color: var(--brand-green, #006600); font-weight: 600; } .ct-status [data-failed], .ct-status [data-empty] { color: var(--brand-red, #c52830); }
+.ct-counts { display: flex; gap: 10px; margin: 8px 0 16px; } .ct-counts p { flex: 1; margin: 0; padding: 10px 12px; border: 1px solid var(--rule-2); background: var(--panel); }
+.ct-counts b { display: block; font: 600 32px/1 var(--serif); color: var(--brand-green, #006600); } .ct-counts span { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.ct-cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; grid-template-columns: 1fr; }
+@media (min-width: 760px) { .ct-cards { grid-template-columns: 1fr 1fr; } } @media (min-width: 1100px) { .ct-cards { grid-template-columns: 1fr 1fr 1fr; } }
+.ct-card { display: flex; gap: 12px; align-items: flex-start; padding: 12px; border: 1px solid var(--rule-2); background: var(--panel); }
+.ct-face { flex: none; width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--paper); font: 600 24px var(--serif); }
+.ct-card b { display: block; font: 600 19px/1.2 var(--serif); } .ct-card code { font: 13px var(--mono); color: var(--brand-green, #006600); } .ct-card p { margin: 4px 0 0; font-size: 14px; color: var(--ink-2); }
+.ct-anon .ct-face { background: var(--rule-2); color: var(--ink-3); }
