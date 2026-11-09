@@ -1,7 +1,7 @@
 {
- "agent": "gamma-ray@web-summit.dinis",
+ "agent": "gamma-ray@PrompTugal.dinis",
  "focus": "GAMMA-Ray: the standard, the mashup and the website's design, with Dinis, before anything is implemented (brief:2026-11-09T2330Z-gamma-ray)",
- "state": "in debate with Dinis on which standards and how they connect; nothing implemented",
+ "state": "named gamma-ray@web-summit.dinis in the brief and in commits (this file takes the @PrompTugal.dinis form the gate requires); in debate with Dinis on which standards and how they connect; nothing implemented",
  "updated": "2026-11-09T23:59Z",
  "key": "gamma-ray-promptugal (record sha256:9ecbbbcd315c5f0c)",
  "done": [
