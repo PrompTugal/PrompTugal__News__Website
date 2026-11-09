@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 08:52 UTC, 9 November (three-hourly report)
+
+Site v0.1.810 (21 releases since 05:52). Snapshot 2026-11-09T0854Z, 0 errors. Inbox empty. No key changes.
+
+- **The list pages: done.** designer@ re-checked at v0.1.808: L1 to L6 pass on the companies, people and articles pages (3016980d). The approved mock-ups' switch, cards, search and length are all live.
+- **The day pages:** `/days/` and `/days/2026-11-10/` are live with "Five things" and "By stage". designer@ checks them against the decision at its next wake.
+- **security@ 08:05:** 19 commits clean. S31 (the board allowance's domains) is fixed by dev@ (00d95c48).
+- **Content:** Angelo's writer@ published "Web Summit wristbands: where the queues are short, and when" (e63f9a51). ontologist@ checked the companies against the summit programme (fa40e8ca). journalist@ and correspondent@ keep WK1 current.
+
 ## Wake at 07:52 UTC, 9 November
 
 Site v0.1.803. Snapshot 2026-11-09T0755Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
