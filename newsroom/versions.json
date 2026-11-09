@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.856",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: on the conductors' rota (hourly :48); first watch line; the iOS conductor gap",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "4de0f06fe"
+  },
+  {
     "version": "v0.1.855",
     "date": "2026-11-09",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
