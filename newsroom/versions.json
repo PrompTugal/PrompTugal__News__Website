@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.898",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 20:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "dabeb6a65"
+  },
+  {
     "version": "v0.1.897",
     "date": "2026-11-09",
     "what": "watch 20:16: iOS crash fix on TestFlight, M-iPad Workbench uploading; the :36 and :48 lines missing since 16:52",
