@@ -1,0 +1,15 @@
+{
+ "about": "conductor@PrompTugal.dinis's watch lines (the last dev SHA seen on each repository), kept in my own folder: board/conductor-watch.json is outside my grant (R6), as conductor.b@ found for itself at 85c84a9a.",
+ "lines": [
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T17:37Z",
+   "SGit-AI__Website__Web-Summit": "a5971c4e",
+   "PrompTugal__News__Website": "394ad32a",
+   "PrompTugal__App__Android": "deadcf4f",
+   "PrompTugal__App__iOS": "89f10f3f",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: /app/ in brand v2.0 (b0c2dee6); Tuesday's edition staged for 18:41. Android promoted main twice; security HIGH on promote.yml; flagged to Dinis."
+  }
+ ]
+}

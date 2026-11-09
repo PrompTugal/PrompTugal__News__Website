@@ -1,0 +1,59 @@
+{
+ "number": 6,
+ "date": "2026-11-09",
+ "kicker": "PrompTugal.news · the conductor brief · the Monday 18:00 stand-up",
+ "title": "Monday evening: the designs done, the app on the web, and six decisions waiting for Dinis",
+ "when": "Monday 9 November 2026, 16:40 UTC (for the 18:00 London stand-up; the summit opens tomorrow)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "Since the 12:00 brief: 44 releases (v0.1.824 to v0.1.868). Every page in the approved-designs brief passes: designer@ for the list pages, the day pages and /events/, and sherpa@ for the reader. Only the past days wait for the summit. The news app now runs on the web at /app/: the programme, picks, clashes, calendar files; it installs to the home screen and works offline, and nothing personal leaves the browser. The iOS calendar's busy/free fix is in the data (shows_as on every event, agreeing with the apps' shared rules). The conductors now take turns, one awake every 12 minutes, and mine moved to :36. Six decisions relayed as Dinis's words wait for his own confirmation here.",
+ "stats": [
+  {"n": "44", "label": "releases since 12:00 (v0.1.824 to v0.1.868)"},
+  {"n": "44", "label": "articles published and signed"},
+  {"n": "/app/", "label": "the news app on the web: installs, works offline"},
+  {"n": "6", "label": "relayed decisions waiting for Dinis's confirmation"}
+ ],
+ "for_you": [
+  {"group": "Relayed by the main conductor as your words; held until you confirm here"},
+  {"id": "1", "ask": "/contribute/ and Andrew, CC BY 4.0 (13:00 to 13:40)", "detail": "The page collects contributors' contact details (to the private CRM); security@ set six conditions (95f9da82)."},
+  {"id": "2", "ask": "The beta email list for the app on the web (14:40)", "detail": "Step 1 of /app/ is live without it; the list would collect emails on a private lane."},
+  {"id": "3", "ask": "Conductors push to main (14:05)", "detail": "CLAUDE.md says never push to main; if it stands, CLAUDE.md changes."},
+  {"id": "4", "ask": "The 10:55 decisions", "detail": "Names end in .dinis; everyone trusted to ship (S25/S30); outreach parked."},
+  {"id": "5", "ask": "Stop and archive idle sessions (11:25)", "detail": "I list the idle ones first, if you confirm."},
+  {"group": "Also yours"},
+  {"id": "6", "ask": "The press pass (due today), the OpenRouter keys (plan: 250 USD), sherpa@'s token, the euro link", "detail": "The OpenRouter plan is accountant@'s (8d83f13f); the keys and their limits are yours to make."}
+ ],
+ "you_asked": [
+  {"at": "10:15", "said": "the LLM in the app: the first offline model; the iPad next", "done": "positioning captured; the iPad brief with the iOS conductor on account B", "where": "board/guidance/2026-11-09-the-llm-in-the-app.md", "status": "running"},
+  {"at": "10:30", "said": "a workbench; models judging models; a shared mobile repo; an agent for both teams", "done": "brief written; mobile@ started; the shared schedule rules already published by it", "where": "board/briefs/2026-11-09-the-on-device-llm-workbench.md", "status": "running"},
+  {"at": "10:40", "said": "repo created; iPad Air M4 and iPhone 16 Plus; lean into Apple Intelligence", "done": "added to the brief and sent to mobile@ and conductor.android", "where": "the brief's addendum", "status": "done"},
+  {"at": "00:10", "said": "the agenda, companies and people are missing the approved designs", "done": "all pass (designer@, sherpa@); past days after the summit starts", "where": "board/briefs/2026-11-09-the-mockups-vs-the-live-site.md", "status": "done"}
+ ],
+ "team": [
+  {"id": "conductor@ (A, :36)", "status": "old", "doing": "the plan, the briefs, the watch line, relays"},
+  {"id": "security@ (A)", "status": "old", "doing": "36 commits clean at 16:05; /app/ read, sound"},
+  {"id": "dev@, dev.pages@ (B)", "status": "old", "doing": "/app/ step 1 and install; the venue map from Indi's wayfinding next"},
+  {"id": "designer@, sherpa@ (B)", "status": "old", "doing": "designs done; /app/ to the brand's tokens"},
+  {"id": "ontologist@ (B)", "status": "old", "doing": "shows_as on every event, matching the shared rules"},
+  {"id": "journalist@, correspondent@ (B)", "status": "old", "doing": "Tuesday's edition ready for the evening switch"},
+  {"id": "conductor.android + team (A)", "status": "new", "doing": "the release flow live on dev; main waits for Dinis"},
+  {"id": "mobile@ (A)", "status": "new", "doing": "PrompTugal__App__Mobile: the shared schedule rules"},
+  {"id": "iOS conductor (B)", "status": "new", "doing": "M-iPad and the news app's clash fix; its :00 rota slot is empty"}
+ ],
+ "sections": [
+  {"title": "Since 12:00", "items": [
+   "13:52 to 16:05: /events/ passes as the week's overview; L4 and D1 done; the list and day pages pass for the reader",
+   "15:30 to 16:30: /app/ live, then installable and offline (dev@, eee13edc)",
+   "14:30 to 16:30: shows_as (free or busy) on every event, agreeing with mobile@'s rules.json",
+   "16:18: the conductors' rota; my wake moved from :52 to :36 by the main conductor, on Dinis's word to it"
+  ]},
+  {"title": "Tomorrow, the summit opens", "items": [
+   "correspondent@'s Tuesday edition switches in this evening",
+   "Past-day pages begin once the first day closes"
+  ]}
+ ],
+ "images": [
+  {"path": "board/editor-briefs/img/2026-11-09T1636Z-then-and-now.jpg", "caption": "The site, then and now (v0.1.868)"}
+ ],
+ "next": ["Tuesday 10 November: the summit opens", "The 12:00 stand-up brief at 10:36 UTC"],
+ "sources": ["board/WS-177-plan.md", "board/guidance/", "board/briefs/2026-11-09-*.md", "board/the-conductors.md", "board/conductor-watch.json", "git log of dev since 10:52 UTC"]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "apexbrasil-mission-rules-2026",
+  "story": "BR1",
+  "url": "https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf",
+  "title": "ApexBrasil, Missao ao Web Summit 9 a 13 de novembro de 2026: Regulamento de participacao (PDF)",
+  "publisher": "ApexBrasil",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "ApexBrasil's mission rules for 2026 give the 2025 Brazilian delegation as 380 companies, 247 of them supported by ApexBrasil, Sebrae Startups and Serpro, the rest by the state Sebraes."
+}
