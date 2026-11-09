@@ -5,7 +5,7 @@
     "speaker_organisations_matched": 67,
     "speaker_organisations_unmatched": 176,
     "near_misses": 1,
-    "places_unmatched": 2,
+    "places_unmatched": 0,
     "tracks_mapped": 6,
     "tracks_unmapped": 9,
     "company_sessions_resolved": 49,
@@ -1310,10 +1310,7 @@
     ]
   },
   "places": {
-    "unmatched_where": [
-      "Disco Bar (Night Summit), MEO Arena and FIL",
-      "Social Club (Night Summit), MEO Arena and FIL"
-    ]
+    "unmatched_where": []
   },
   "tracks": {
     "mapped": [
