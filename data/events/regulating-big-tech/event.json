@@ -11,6 +11,7 @@
   "time": "12:30-12:50",
   "start": "12:30",
   "end": "12:50",
+  "shows_as": "busy",
   "where": "Centre Stage, MEO Arena and FIL",
   "place": "place:centre-stage",
   "track": "Centre Stage",

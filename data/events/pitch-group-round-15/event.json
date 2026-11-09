@@ -11,6 +11,7 @@
   "time": "15:00-16:00",
   "start": "15:00",
   "end": "16:00",
+  "shows_as": "busy",
   "where": "Stage 12 (PITCH), MEO Arena and FIL",
   "place": "place:stage-12",
   "track": "PITCH",

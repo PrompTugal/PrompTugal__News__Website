@@ -11,6 +11,7 @@
   "time": "21:00-21:55",
   "start": "21:00",
   "end": "21:55",
+  "shows_as": "busy",
   "where": "Meetup 5 (Night Summit), MEO Arena and FIL",
   "place": "place:meetup-5",
   "track": "Night Summit",

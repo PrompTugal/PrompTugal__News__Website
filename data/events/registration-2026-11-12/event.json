@@ -11,6 +11,7 @@
   "time": "07:30-16:45",
   "start": "07:30",
   "end": "16:45",
+  "shows_as": "free",
   "where": "Pavilhão de Portugal, Alameda dos Oceanos, Parque das Nações, Lisbon",
   "place": "place:pavilhao-de-portugal",
   "track": null,
