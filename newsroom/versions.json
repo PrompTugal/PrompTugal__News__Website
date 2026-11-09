@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.797",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 06:30 wake: the list pages re-measured (v0.1.796); the switch fixed, search works",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "9175ee8e5"
+  },
+  {
     "version": "v0.1.796",
     "date": "2026-11-09",
     "what": "journalist@PrompTugal.dinis: lean wake, nothing new; run report",
