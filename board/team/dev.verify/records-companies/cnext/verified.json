@@ -68,7 +68,7 @@
           "verdict": "partly",
           "source": "S3",
           "quote": "https://cnext.eu/",
-          "note": "S3 is the Cnext site at cnext.eu (with hello@cnext.eu), but no source shows the www.cnext.eu address the claim gives, so the claim is only partly confirmed."
+          "note": "S3 is the Cnext site at cnext.eu (with its contact line), but no source shows the www.cnext.eu address the claim gives, so the claim is only partly confirmed."
         },
         {
           "model": "google/gemini-3.8-flash",
