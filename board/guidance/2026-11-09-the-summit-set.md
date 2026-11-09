@@ -19,3 +19,9 @@ Dinis stopped every agent at 20:42 UTC on 8 November. On 9 November, about 02:30
 | B | sherpa@ | every 3 h | the reader's view of each page |
 
 **Still paused:** investors@ (a quarter of the spend), researcher@, ontologist@, devops@, synthetic@, designer.experiments@, the other dev workers (search, graphs, portugal, data, verify) and abp@ (run by hand). The Web Summit team's (@web-summit.dinis) agents stay off: that is their conductor's and Dinis's call. Account B's tasks are switched on by conductor.b@; Dinis tells it to go in its session.
+
+## Added at about 02:50 UTC (Dinis: "we now have quite a good amount of credits")
+
+On account B, back on their old cadences (`board/team/conductor.b/account-b.json`): librarian@ (every 3 h), ontologist@ (every 2 h), dev.graphs@ (every 2 h), dev.portugal@ (every 4 h), dev.data@ (every 2 h) and dev.verify@ (every 4 h, once its OpenRouter budget is checked). designer@ and sherpa@ were already on. conductor.b@ brought the summit set up at 02:38 UTC.
+
+**Still paused:** investors@, investors.packs@, researcher@, devops@, synthetic@, designer.experiments@, dev.search@, outreach@ (the 50 contact requests wait on Dinis), backup@ and xray@.
