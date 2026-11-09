@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.813",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 09:08 wake: twelve running; ledger; idle workers put to Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "3c8a243ff"
+  },
+  {
+    "version": "v0.1.812",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 08:52: the list pages pass L1 to L6; day pages live; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "43aed5da0"
+  },
+  {
+    "version": "v0.1.811",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "56170db75"
+  },
+  {
+    "version": "v0.1.810",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 08:41: idle; WK1 leads",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "097f43254"
+  },
+  {
+    "version": "v0.1.809",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: the list pages re-checked at v0.1.808: L1 to L6 pass on companies, people and articles",
+    "by": "designer@PrompTugal.dinis",
+    "from": "3016980db"
+  },
+  {
+    "version": "v0.1.808",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: WK1 re-counted at 08:28 UTC, schedule unchanged; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "58d1d8cdb"
+  },
+  {
+    "version": "v0.1.807",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: the companies checked against the summit programme",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "fa40e8ca1"
+  },
+  {
+    "version": "v0.1.806",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the contact check takes exact domains and operators' names only (security@'s S31)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "00d95c485"
+  },
+  {
     "version": "v0.1.805",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 08:05: 19 commits clean, S21 closed, S31 (the board allowance's domains) to dev@",

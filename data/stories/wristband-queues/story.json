@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "wristband-queues",
+  "type": "story",
+  "title": "Web Summit wristbands: where the queues are short, and when",
+  "beat": "Web Summit",
+  "topic": null,
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "desks/writer-angelo/drafts/wq1-web-summit-wristband-queues.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/writer-angelo/drafts/wq1-web-summit-wristband-queues.md",
+      "content/articles/web-summit-wristband-queues.md"
+    ]
+  },
+  "assignee": "writer@PrompTugal.angelo",
+  "needs": null,
+  "held": null,
+  "draft": "desks/writer-angelo/drafts/wq1-web-summit-wristband-queues.md",
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/web-summit-wristband-queues.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-09",
+      "by": "writer@PrompTugal.angelo",
+      "file": "desks/writer-angelo/drafts/wq1-web-summit-wristband-queues.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-09",
+      "by": "writer@PrompTugal.angelo",
+      "file": "content/articles/web-summit-wristband-queues.md"
+    }
+  ]
+}
