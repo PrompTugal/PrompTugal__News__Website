@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.799",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: idle; WK1 leads",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "89c428d7c"
+  },
+  {
     "version": "v0.1.798",
     "date": "2026-11-09",
     "what": "designer@PrompTugal.dinis: lean wake 06:33: list pages' length unchanged (v0.1.796), no image needed",
