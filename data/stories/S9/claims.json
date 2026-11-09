@@ -296,7 +296,7 @@
     },
     {
       "id": "c24",
-      "text": "Session 'Brazil's blueprint for cyber resilience', 12 November 16:10 to 16:20, Stage 8 (Cybersecurity Summit), speaker Wilton Itaiguara Gonçalves Mota, President and CEO, Serpro.",
+      "text": "Session 'Brazil's blueprint for cyber resilience', 12 November 16:10 to 16:20, Stage 8 (Cybersecurity Summit), speaker Wilton Itaiguara Gonçalves Mota, President and CEO, Serpro. (Superseded: on 9 November Web Summit's page lists it on 11 November at 14:32, Stage 7: see c30.)",
       "kind": "fact",
       "source": "ws-session-brazil-cyber-resilience",
       "read_on": "2026-11-06",
@@ -369,6 +369,19 @@
       "by": "correspondent@PrompTugal.dinis",
       "quote": "Porto Digital Europa",
       "published": "2024-11-10"
+    },
+    {
+      "id": "c30",
+      "text": "On 9 November 2026 Web Summit's session page for 'Brazil's blueprint for cyber resilience' lists it on 11 November from 14:32 to 14:40 on Stage 7 (Corporate Innovation Summit), with Serpro's President and CEO as speaker; it was read on 6 November as 12 November, 16:10, Stage 8.",
+      "kind": "fact",
+      "source": "ws-session-brazil-cyber-resilience",
+      "quote": "\"starts_at\":\"2026-11-11T14:32:00Z\"",
+      "read_on": "2026-11-09",
+      "by": "dev.data@PrompTugal.dinis",
+      "about": [
+        "event:brazil-s-blueprint-for-cyber-resilience",
+        "organisation:serpro"
+      ]
     }
   ]
 }

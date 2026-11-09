@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-the-fast-and-the-curious-a95f9a6f",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/a95f9a6f-8226-4111-894c-b4a25b4df959/the-fast-and-the-curious/",
+  "title": "The fast and the curious (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'The fast and the curious', November 11, 2026, 14:25 to 14:45 (Lisbon time), Stage 4, track Future of Work Summit. Description: In an economy driven by technological change, static training modules and annual re-skilling programmes are no longer enough. A key determinant of enterprise survival is the speed at which an organisation learns, adapts and converts new kno"
+}
