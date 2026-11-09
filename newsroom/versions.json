@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.833",
+    "date": "2026-11-09",
+    "what": "Dinis's voice brief, 9 Nov 11:25: PKI on everything, the live picture, agents' life cycle, the intranet (WS-202)",
+    "by": "conductor@web-summit.dinis",
+    "from": "e8b60319f"
+  },
+  {
     "version": "v0.1.832",
     "date": "2026-11-09",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
