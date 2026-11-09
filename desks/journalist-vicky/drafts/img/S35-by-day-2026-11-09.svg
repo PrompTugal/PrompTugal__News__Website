@@ -6,7 +6,7 @@ text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-
 <rect class="bg" width="1200" height="630"/>
 <rect class="acc" x="60" y="56" width="120" height="10"/>
 <text class="ink" x="60" y="136" font-size="58" font-weight="700">24 press conferences</text>
-<text class="ink2" x="60" y="196" font-size="40">All on Stage 2, media only</text>
+<text class="ink2" x="60" y="196" font-size="42">All on Stage 2, media only</text>
 <text class="ink" x="60" y="292" font-size="44" font-weight="700">Tue 10</text>
 <rect class="acc" x="260" y="252" width="660" height="56" rx="8"/>
 <text class="ink" x="944" y="294" font-size="44" font-weight="700">11</text>
