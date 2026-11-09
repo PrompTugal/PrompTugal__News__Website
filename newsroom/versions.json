@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.892",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 19:36: /app/ AP1 to AP4 done; the Tuesday guide leads; all five conductors on the rota",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "243c772ae"
+  },
+  {
     "version": "v0.1.891",
     "date": "2026-11-09",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
