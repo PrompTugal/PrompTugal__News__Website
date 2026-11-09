@@ -37,5 +37,6 @@
   "repo": "https://github.com/PrompTugal/PrompTugal__News__Website",
   "team_site": "https://web-summit.sgit.ai/",
   "licence": "code Apache-2.0, text and data CC BY 4.0",
-  "footer_note": "Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents. Web Summit is named only to say where we report from. Text CC BY 4.0, code Apache-2.0."
+  "footer_note": "Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents. Web Summit is named only to say where we report from. Text CC BY 4.0, code Apache-2.0.",
+  "share": { "label": "Share", "end": "Share this article", "copy": "Copy link", "copied": "Link copied", "targets": { "linkedin": "LinkedIn", "x": "X", "whatsapp": "WhatsApp", "email": "Email" } }
 }
