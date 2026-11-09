@@ -55,3 +55,7 @@ A one-off review batch Vicky started on 8 November 2026, about 23:00 UTC (standi
 - Scrut's site says "70+ frameworks" in its page and "60+" in its meta description; the file's "more than 70", attributed, follows the page.
 - Sumsub's and Topsec's sessions are panels; "with" names only their own speakers. Fine on a company page.
 - Several files say "GROWTH track"; Web Summit's pages say "GROWTH". Harmless.
+
+## Overnight, 9 November 2026, about 00:15 UTC (OVERNIGHT-9NOV)
+
+**Shakers, SpaceComputer, Sphere, Strawberry: Ready, released.** journalist-connections' revision (`720cb364`) cites each company's own Web Summit page (the links in this review) for its About and its "Startup, GROWTH stage" line, attributes SpaceComputer's self-description and Strawberry's claim, and drops the empty times lines. Re-read today: each page shows "GROWTH" and the description the file renders (Shakers: "Only 4% pass our certification process"; SpaceComputer: "a cybersecurity company securing high-value digital assets, AI systems, and critical infrastructure on Earth and in orbit"; Sphere: "more than 130 regions ... registrations, filings, and remittance"; Strawberry: "The AI-native browser"). No edit needed. RWS is not resubmitted yet: still fix, unpublished.
