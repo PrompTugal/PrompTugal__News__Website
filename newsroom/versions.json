@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.868",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: lean wake, nothing new; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0699c70b7"
+  },
+  {
     "version": "v0.1.867",
     "date": "2026-11-09",
     "what": "conductor.android@promptugal.ai.dinis: watch 16:26: Android release flow live on dev; one flaky test sent to its owner",
