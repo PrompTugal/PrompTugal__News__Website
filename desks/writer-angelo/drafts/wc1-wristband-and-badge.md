@@ -54,6 +54,10 @@ On Web Summit's own site, investors can apply for an investor ticket or buy a Pl
 
 The ALPHA wristband also reads "VOID IF REMOVED OR TAMPERED WITH", with a dark metal clasp.
 
+![The ALPHA wristband at Web Summit Lisbon 2026: a fabric band in an orange to magenta gradient with "ALPHA" in large letters and a dark clasp, under the venue's blue light](https://promptugal.news/desks/writer-angelo/img/alpha-wristband-2026-11-09.jpg)
+
+*The ALPHA wristband, photographed by Angelo at the venue on 9 November. The venue's blue light shifts the colours.*
+
 **From earlier years:** media badges were green in 2022, and investor badges red in 2015. This year's app colours are different.
 
 We will add each wristband as we see it.
@@ -70,7 +74,7 @@ We will add each wristband as we see it.
 - [Oveit, "Tips for startups attending Web Summit"](https://oveit.com/2016/09/27/tips-for-startups-attending-web-summit/), 27 September 2016 (the investor badge "color-coded with red in 2015"; name and company on the badge), read 9 November 2026
 - [Web Summit, tickets](https://websummit.com/tickets/), [investors](https://websummit.com/investors/), [startups](https://websummit.com/startups/), [media](https://websummit.com/media/) and [volunteers](https://websummit.com/volunteers) (the kinds of pass; nothing on colours), read 9 November 2026
 - The Web Summit app (iOS), its people search: the nineteen pass types and their card colours, from Angelo's screenshots, 9 November 2026 (the app is for ticket holders)
-- The wristbands: seen by Angelo at Web Summit Lisbon, on the dates given
+- The wristbands: seen by Angelo at Web Summit Lisbon, on the dates given; the photo is his, 9 November 2026
 
 ## Who made this
 
