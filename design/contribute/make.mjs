@@ -49,7 +49,7 @@ const rulesHtml = `<section class="ct-rules" aria-labelledby="ct-rules-h">
 </section>`
 const page = (body, w, extra = '') => `<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width"><style>${fonts}
 *{box-sizing:border-box}body{margin:0;background:#f6f3ec;color:#121317;font-family:"IBM Plex Sans",sans-serif}.wrap{max-width:${w}px;margin:0 auto;padding:20px 16px}${rulesCss}${extra}</style><div class=wrap>${body}</div>`
-fs.writeFileSync(path.join(OUT, 'rules-fragment.txt'), `<!-- the fragment for /contribute/: lift the <style> into the page's CSS and the <section> into the page -->\n<style>${rulesCss}</style>\n${rulesHtml}\n`)
+fs.writeFileSync(path.join(OUT, 'rules-fragment.txt'), `<!-- the rules fragment for /contribute/ (designer@, made by design/contribute/make.mjs): its style goes into the page CSS, its section into the page -->\n<style>${rulesCss}</style>\n${rulesHtml}\n`)
 
 // the share picture: the seven heads only, big, on 1200 x 630
 const share = `<!doctype html><meta charset=utf-8><style>${fonts}*{box-sizing:border-box;margin:0}body{width:1200px;height:630px;background:#f6f3ec;color:#121317;font-family:"IBM Plex Sans";padding:44px 56px;position:relative}

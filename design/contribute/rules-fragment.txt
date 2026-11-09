@@ -1,4 +1,4 @@
-<!-- the fragment for /contribute/: lift the <style> into the page's CSS and the <section> into the page -->
+<!-- the rules fragment for /contribute/ (designer@, made by design/contribute/make.mjs): its style goes into the page CSS, its section into the page -->
 <style>
 .ct-rules{--p:var(--paper,#f6f3ec);--i:var(--ink,#121317);--i2:var(--ink-2,#3f424a);--r:var(--brand-red,#c52830);--g:var(--brand-green,#006600);--h:var(--hair,#d8d4cb);
   background:var(--p);color:var(--i);border-top:4px solid var(--i);padding:18px 0 8px;font-family:"IBM Plex Sans",Arial,sans-serif}
