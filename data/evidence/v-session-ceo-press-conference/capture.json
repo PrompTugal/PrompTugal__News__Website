@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-session-ceo-press-conference",
+  "type": "evidence",
+  "source_url": "https://websummit.com/sessions/lis26/dd5600f2-2e3a-4023-a127-d2e8f8521ca0/press-conference-with-web-summit-ceo-and-founder-paddy-cosgrave/",
+  "beat": "the summit",
+  "group": "press conferences",
+  "names": [
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-09-1850.json",
+  "run": "2026-11-09T18:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1850.json"
+    ]
+  }
+}

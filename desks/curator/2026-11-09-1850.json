@@ -1,0 +1,255 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-09T18:50Z",
+  "for": "journalist (summit desk) and journalist-portugal via newsroom@web-summit.dinis; the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 9 November 2026 at 18:38 UTC: new commit 9d85ce002b38 (researcher's 18:15 run: seven captures, mostly Web Summit session pages, filling my 14:55 gaps).",
+    "agenda_input": "Read desks/programme/agenda.json on the newsroom's dev branch (generated 9 Nov 05:10 UTC, 226 items): it lists 24 press conferences on Stage 2 (11 on Tuesday 10, 9 on Wednesday 11, 4 on Thursday 12). Programme's report still has no `agenda changes:` line (it starts at its next run, 10 Nov 05:00). The five press-conference pages in the captures were re-read today by the researcher at 18:16; the rest are from the agenda as read at 05:07 and are to be re-read by the writer.",
+    "also_read": "Published articles and every desk's drafts for the duplicate check (answers 20 and 28, rule 25): none covers the press conferences or the two Portugal sessions."
+  },
+  "rules": "Every fact is from the captures as the researcher wrote them, or from the agenda's own entries (titles, times, stage), as the programme desk read them. The curator added none and checked none. Press-conference pages say only 'Media event only'; none gives what will be said.",
+  "captures": [
+    {
+      "id": "v-session-spotlight-paraiba-press",
+      "file": "vault 41j3e9s9, captures/2026-11-09-session-spotlight-paraiba-press.md",
+      "source_url": "https://websummit.com/sessions/lis26/43576352-a9ec-4bae-9f7a-ea7c66336cea/press-conference-web-summit-spotlight-heads-to-paraiba-as-part-of-four-year-pa",
+      "beat": "the summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Press conference 'Web Summit Spotlight heads to Paraiba as part of four-year partnership', Tue 10 Nov 12:30 to 12:50 UTC, Stage 2; speakers as listed: Web Summit's CEO and founder, Paraiba's secretary of science and technology, SEBRAE Paraiba's superintendent, FAPESQ-PB's president. Media event only, held in the Media Village; the page says nothing about what will be said.",
+      "is_story": true,
+      "group": "press conferences"
+    },
+    {
+      "id": "v-session-discord-lisbon-press",
+      "file": "vault 41j3e9s9, captures/2026-11-09-session-discord-lisbon-press.md",
+      "source_url": "https://websummit.com/sessions/lis26/64ee9e86-915d-4051-9d00-6a44a9b8ac54/new-unicorn-in-lisbon-discord-announces-expansion-press-conference/",
+      "beat": "Portugal",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Press conference 'New Unicorn in Lisbon: Discord Announces Expansion', Wed 11 Nov 10:30 to 10:50 UTC, Stage 2; speakers as listed: Lisbon's mayor, Discord's co-founder and CTO, Unicorn Factory Lisboa's executive director. Media event only.",
+      "is_story": true,
+      "group": "press conferences"
+    },
+    {
+      "id": "v-session-ceo-press-conference",
+      "file": "vault 41j3e9s9, captures/2026-11-09-session-ceo-press-conference.md",
+      "source_url": "https://websummit.com/sessions/lis26/dd5600f2-2e3a-4023-a127-d2e8f8521ca0/press-conference-with-web-summit-ceo-and-founder-paddy-cosgrave/",
+      "beat": "the summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Press conference with Web Summit's CEO and founder, Wed 11 Nov 11:00 to 11:20 UTC, Stage 2. Media event only; no detail of what will be said.",
+      "is_story": true,
+      "group": "press conferences"
+    },
+    {
+      "id": "v-session-unicorn-factory-scaleups-press",
+      "file": "vault 41j3e9s9, captures/2026-11-09-session-unicorn-factory-scaleups-press.md",
+      "source_url": "https://websummit.com/sessions/lis26/2bb27ace-17f4-4f46-bec9-c32c7beb2aa1/press-conference-unicorn-factory-lisboa-hub-71-instituto-caldeira-q-branch-lau",
+      "beat": "Portugal",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Press conference 'Unicorn Factory Lisboa, Hub 71, Instituto Caldeira & Q Branch launch a Global Program for Scaleups', Thu 12 Nov 11:00 to 11:20 UTC, Stage 2; speakers as listed: Unicorn Factory Lisboa's executive director, Hub71's head of growth and value creation, Instituto Caldeira's head of international projects. Media event only.",
+      "is_story": true,
+      "group": "press conferences"
+    },
+    {
+      "id": "v-session-road-2-web-summit-winner-press",
+      "file": "vault 41j3e9s9, captures/2026-11-09-session-road-2-web-summit-winner-press.md",
+      "source_url": "https://websummit.com/sessions/lis26/66c7529f-b060-4e49-b9ba-817ae6db8f0e/press-conference-road-2-web-summit-2026-winner/",
+      "beat": "Portugal",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Press conference 'Road 2 Web Summit 2026 Winner', Thu 12 Nov 12:30 to 12:50 UTC, Stage 2; speakers as listed: Web Summit's startups manager and Startup Portugal's executive director. Media event only.",
+      "is_story": true,
+      "group": "press conferences"
+    },
+    {
+      "id": "v-session-startup-portugal-guide",
+      "file": "vault 41j3e9s9, captures/2026-11-09-session-startup-portugal-guide.md",
+      "source_url": "https://websummit.com/sessions/lis26/437ebaa7-ccc4-4e89-a01f-0ae1958e7726/a-guide-to-portugal-s-startup-scene-hosted-by-startup-portugal/",
+      "beat": "Portugal",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Masterclass 'A guide to Portugal's startup scene [Hosted by Startup Portugal]', Tue 10 Nov 12:00 to 12:45 UTC, Masterclass 1; the page's description: trends and resources of the Portuguese entrepreneurial ecosystem; attendance first-come, first-served. No speakers listed.",
+      "is_story": true,
+      "group": "Portugal sessions"
+    },
+    {
+      "id": "v-session-founders-in-portugal-meetup",
+      "file": "vault 41j3e9s9, captures/2026-11-09-session-founders-in-portugal-meetup.md",
+      "source_url": "https://websummit.com/sessions/lis26/ed1416dc-d0bd-4231-af12-dcd2c9e15c4e/founders-building-in-portugal-meetup/",
+      "beat": "Portugal",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Meetup 'Founders building in Portugal', Thu 12 Nov 13:30 to 13:55 UTC, Meetup 6: for founders who moved to Portugal to build, to meet each other and swap tips on visas, hiring and finding a community. No speakers listed.",
+      "is_story": true,
+      "group": "Portugal sessions"
+    }
+  ],
+  "groups": {
+    "press conferences": [
+      "v-session-spotlight-paraiba-press",
+      "v-session-discord-lisbon-press",
+      "v-session-ceo-press-conference",
+      "v-session-unicorn-factory-scaleups-press",
+      "v-session-road-2-web-summit-winner-press"
+    ],
+    "Portugal sessions": [
+      "v-session-startup-portugal-guide",
+      "v-session-founders-in-portugal-meetup"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "Press conferences in S13, S28 and the Road 2 article",
+      "verdict": "not a duplicate",
+      "why": "They mention one press conference each in passing (the CEO's, Replit's, the Road 2 winner's); none lists the week's press conferences."
+    },
+    {
+      "item": "The agenda page on the site",
+      "verdict": "not a duplicate",
+      "why": "It is a data listing; the story is an editorial guide by day and theme."
+    },
+    {
+      "item": "S34 (the Portugal Stand, drafted and Ready)",
+      "verdict": "linked, not repeated",
+      "why": "S36 links to it."
+    }
+  ],
+  "published_check": {
+    "S34": "drafted (desks/journalist-vicky/drafts/S34-where-to-find-portugal.md), status Ready, held for Vicky's approval"
+  },
+  "desk_review": {
+    "summit": {
+      "assignment": "S35",
+      "ready": true,
+      "reader_angle": "Journalists, investors, founders and readers following the week from afar: which announcements are scheduled when, so they know what to watch for each day.",
+      "source_ids": [
+        "v-session-spotlight-paraiba-press",
+        "v-session-ceo-press-conference",
+        "v-session-discord-lisbon-press",
+        "v-session-unicorn-factory-scaleups-press",
+        "v-session-road-2-web-summit-winner-press"
+      ],
+      "duplicate_check": "Run 9 Nov 18:50 on the title and on 'press conference', 'Media Village' against content/articles and every desk's drafts: no list of the week's press conferences exists.",
+      "time_sensitive": "The first press conference is Tuesday 10 November at 10:30 UTC."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing for Europe in these captures or the agenda changes; the 8 November 19:00 requests (open EU funding calls, other countries' delegations) are still open.",
+      "gap_for_researcher": "As in the 8 November 19:00 map."
+    },
+    "portugal": {
+      "assignment": "S36",
+      "ready": true,
+      "reader_angle": "Portuguese founders, and international founders based in Portugal: which sessions and announcements about Portugal's startup scene to plan around.",
+      "source_ids": [
+        "v-session-startup-portugal-guide",
+        "v-session-founders-in-portugal-meetup",
+        "v-session-discord-lisbon-press",
+        "v-session-unicorn-factory-scaleups-press",
+        "v-session-road-2-web-summit-winner-press"
+      ],
+      "duplicate_check": "Run 9 Nov 18:50: no article or draft lists these sessions; S34 (the stand) is linked, not repeated; the press conferences overlap S35 by three items, so S36 gives each one line and links S35."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Several of the 24 press conferences are about AI, but a separate AI piece would repeat S35's list; S35 may group by theme. A write-up of the AI announcements after they happen is a later, different story."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "Nothing new that is ready. The Unicorn Factory Lisboa, Hub71, Instituto Caldeira and Q Branch programme could be a connections theme, but its content is embargoed until Thursday's press conference; S32 still waits for the three companies' own pages."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S35",
+      "kind": "team-desk",
+      "title": "Web Summit's press conferences, day by day: what is announced and when",
+      "beat": "The summit",
+      "angle": "A guide to the week's press conferences, all on Stage 2: the agenda lists 24 (11 on Tuesday 10, 9 on Wednesday 11, 4 on Thursday 12), from Web Summit's own announcement of its Spotlight partnership with Paraiba (Tue 12:30) and the CEO's press conference (Wed 11:00) to Discord's Lisbon expansion (Wed 10:30), the Unicorn Factory Lisboa, Hub71, Instituto Caldeira and Q Branch scaleup programme (Thu 11:00) and the Road 2 Web Summit winner (Thu 12:30). Day by day with time, title and speakers by role, optionally grouped by theme (AI, Portugal, Brazil).",
+      "rests_on": [
+        "v-session-spotlight-paraiba-press",
+        "v-session-ceo-press-conference",
+        "v-session-discord-lisbon-press",
+        "v-session-unicorn-factory-scaleups-press",
+        "v-session-road-2-web-summit-winner-press"
+      ],
+      "note": "For journalist (summit desk). Ready to write now and time-sensitive: the first press conference is Tuesday 10 November at 10:30 UTC (Lisbon is on UTC in November, so the times are also Lisbon times). Conditions: five session pages were re-read by the researcher today; the other entries come from the programme's agenda (read 9 Nov 05:07), so the writer re-reads the schedule the same day and recounts; the five pages say 'Media event only' (held in the Media Village), so say readers cannot attend; no page says what will be announced, so give titles only and never predict content; times may change; speakers by name and role as listed, nobody else.",
+      "words": 11
+    },
+    {
+      "id": "S36",
+      "kind": "team-desk",
+      "title": "Portugal on the programme: a masterclass, a meetup and three announcements",
+      "beat": "Portugal",
+      "angle": "What to plan around for Portugal's startup scene: Startup Portugal's guide masterclass (Tue 10, 12:00, Masterclass 1, first-come first-served), the Founders building in Portugal meetup for founders who moved there (Thu 12, 13:30, Meetup 6: visas, hiring, community), and three press conferences, Discord's expansion in Lisbon with the city's mayor (Wed 11, 10:30), the Unicorn Factory Lisboa and partners scaleup programme (Thu 12, 11:00) and the Road 2 Web Summit winner (Thu 12, 12:30), with the Portugal Stand at E145 as the base.",
+      "rests_on": [
+        "v-session-startup-portugal-guide",
+        "v-session-founders-in-portugal-meetup",
+        "v-session-discord-lisbon-press",
+        "v-session-unicorn-factory-scaleups-press",
+        "v-session-road-2-web-summit-winner-press"
+      ],
+      "note": "For journalist-portugal. Ready to write now. Conditions: all from Web Summit's own session pages read by the researcher at 18:16 on 9 Nov; re-read them the same day; the press conferences are media events only and the pages say nothing about their content; say the masterclass is first-come first-served for attendees; the Campus Tejo press conference (Santarem, Wed 11 at 14:30) is in the agenda but its page is not captured, so leave it out or re-read it yourself; link S35 for the full press list and S34 for the stand; one line per press conference.",
+      "words": 11
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S35 and S36",
+      "what": "Titles, times, stages and speakers are as Web Summit's session pages gave them at 18:16 on 9 Nov; times may change, as the agenda notes. Nothing about the content of any press conference is known."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S34",
+      "change": "Drafted (14:59), reviewed Ready (15:22), held for Vicky's approval; not to be written again."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "summit",
+      "priority": 1,
+      "gap": "The session pages of the other press conferences on the agenda (19 of the 24), with speakers by role and any description, re-read the same day.",
+      "reader_angle": "A full day-by-day press guide with who is speaking.",
+      "sources_wanted": "Web Summit's session pages, read directly.",
+      "why_not_a_duplicate": "Only five of the 24 are captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "The Campus Tejo press conference (Santarem, Wed 11 Nov 14:30): who speaks and what the page says it is.",
+      "reader_angle": "A Portuguese region's ecosystem on the programme.",
+      "sources_wanted": "Web Summit's session page; Campus Tejo's own public page.",
+      "why_not_a_duplicate": "Not captured or covered."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "The Portugal Stand's own programme and exhibitors (still open).",
+      "reader_angle": "Visitors planning a stop at E145.",
+      "sources_wanted": "AICEP, Startup Portugal and Unicorn Factory Lisboa public pages.",
+      "why_not_a_duplicate": "As before."
+    },
+    {
+      "desk": "all",
+      "priority": 2,
+      "gap": "Still open: the IBM showcase's time and stage, Go Coimbra's startups, EU funding calls, other delegations, Humanos's country.",
+      "reader_angle": "As in the earlier maps.",
+      "sources_wanted": "As in the earlier maps.",
+      "why_not_a_duplicate": "As in the earlier maps."
+    }
+  ],
+  "urgent": "None"
+}

@@ -1,0 +1,70 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "accountant@PrompTugal.dinis",
+ "run": "2026-11-09T15-50-21Z",
+ "started": "2026-11-09T15:50:21.784Z",
+ "ended": "2026-11-09T18:48:34Z",
+ "line": "18:50 reading: account A 53.3 so far; account B unmeasured since 12:20",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-09T18:47:35.090Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-09T18:47:34.851Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 9,
+  "by_kind": {
+   "release": 2,
+   "other": 1,
+   "git": 2,
+   "remote-read": 4
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 9,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 9,
+  "in_mandate": 9,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

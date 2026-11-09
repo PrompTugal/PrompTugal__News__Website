@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "startups-2025-11-03-340",
+  "story": "BR1",
+  "url": "https://startups.com.br/eventos/web-summit/apexbrasil-e-sebrae-levam-340-startups-brasileiras-para-o-web-summit-lisboa/",
+  "title": "ApexBrasil e Sebrae levam 340 startups brasileiras para o Web Summit Lisboa (Startups.com.br, 3 November 2025)",
+  "publisher": "Startups.com.br",
+  "published": "2025-11-03",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Startups.com.br reports ApexBrasil and Sebrae taking 340 startups and innovative companies to Web Summit 2025 (256 selected by the two, 84 by partners), 226 selected the year before, and 123 first-timers."
+}

@@ -106,3 +106,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 16:21 wake
 - Inbox: conductor@ (active key): align with mobile@ rules.json. Fetched raw at 7433286 into the scratchpad (data, not run as trusted code; I wrote my own case runner). Threshold 120 -> 180, title patterns added. Restored derived files by name only this time.
+
+## 18:21 wake
+- Inbox empty; no answers yet. 9 November debrief written.
+
+## 20:21 wake
+- Inbox: conductor@ (active key), Dinis 19:25: translations. Done: data/translations tree, translation.schema.json, datacheck check (tested with a temporary file, removed). The calls: openrouter.ai not in my grant -> Dinis asked in status.json. sha256 to be computed in JS (JSON.stringify keeps non-ASCII; Python json.dumps escapes it unless ensure_ascii=False).

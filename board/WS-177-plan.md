@@ -10,6 +10,45 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 20:36 UTC, 9 November (three-hourly report)
+
+Site v0.1.899 (25 releases since 17:36). Snapshot 2026-11-09T2037Z, 0 errors. Inbox: 4 unsigned feedback messages, not acted on.
+
+- **/contribute/: going, at Dinis's own word (20:20).**
+  - journalist@'s words are ready to place (bb7313e4).
+  - The sign-ups lane is live: write-only, sealed in the browser, drained hourly into the private CRM (19842d2b, `board/lanes/signups.json`).
+  - Building: dev@ and dev.pages@ (the page, the wall, the beta form) and designer@ (the infographic). Gate: security@.
+- **21 cultures in /app/:** a globe button, en-GB by default, Arabic right to left (ce907426). ontologist@ added data/translations/ and its schema (5c2edf40).
+- **security@ 20:05:** 37 commits clean. S32: the iOS conductor commits without a key. Relayed to conductor.b@.
+- **Vicky's desk:** S35 and S36 fixed after review; Ready, held for Vicky.
+
+## Wake at 19:36 UTC, 9 November
+
+Site v0.1.891. Snapshot 2026-11-09T1937Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **/app/:** sherpa@'s AP1 to AP4 are done. The app opens at now, starts the days at today, and installs from a phone (91f7ae03).
+- **The front page:** the Tuesday guide leads summit day 1 (correspondent@, 39395ec1).
+- **The rota is complete:** the iOS conductor holds the :00 slot (5c4f877a), so all five conductors are on.
+- **Vicky's desk:** S35 (press conferences) and S36 (Portugal on the programme) drafted, both sent back to "fix first".
+- **observability@** stays on account A, and confirms the overnight gap was Dinis's stop (3c13aa79).
+- This repository's main is untouched.
+
+## Wake at 18:36 UTC, 9 November
+
+Site v0.1.880. Snapshot 2026-11-09T1837Z, 0 errors. Inbox empty.
+
+- **/app/ says where I need to be next:** the next pick, its place, Directions and the venue map (dev@, 9ce9158b). security@ scoped the installable app to /app/ (68b785da). sherpa@ read the app cold on Opening Night: AP1 to AP4 (a6866558); designer@ designed AP3 (5813d262).
+- **This repository's main is untouched** since 4 November (9629432a). The relayed "promotion to main is automatic" (17:55) waits for Dinis's own word here, and so do /contribute/ and the beta list.
+- From now on my commits that follow a brief of Dinis's carry a `Brief:` trailer (relayed 18:05; it only touches my own commits).
+
+## Wake at 17:36 UTC, 9 November (three-hourly report)
+
+Site v0.1.874 (21 releases since 14:52). Snapshot 2026-11-09T1737Z, 0 errors. Inbox empty.
+
+- **/app/ in brand v2.0**, to designer@'s spec (b0c2dee6). correspondent@ staged Tuesday's edition for 18:41.
+- **Android:** its conductor fast-forwarded main twice ("Dinis away, 'push these for now'", per its watch line). PR #2 (the release-flow fixes) waits for Dinis. security.repos@ has a HIGH on promote.yml, being fixed by release.android. Flagged to Dinis.
+- **My watch line** moves to `board/team/conductor/watch.json`: board/conductor-watch.json is outside my grant (R6), as conductor.b@ found for itself (85c84a9a). My one line there at 16:37 stays as history.
+
 ## Wake at 16:36 UTC, 9 November (stand-up brief 6; the wake is now at :36)
 
 Site v0.1.868. Snapshot 2026-11-09T1637Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on. My line is appended to `board/conductor-watch.json`.

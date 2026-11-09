@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "BR2",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "At Web Summit 2025 ApexBrasil and Sebrae announced ten startups for a nine-month incubation in the Portuguese market.",
+      "kind": "fact",
+      "source": "startups-2025-11-12-incubator",
+      "quote": "a ApexBrasil e o Sebrae anunciaram dez startups que passarão por uma incubação de nove meses no mercado português",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "The ten occupy one floor of the building; the other floors go to Embratur and Fiocruz.",
+      "kind": "fact",
+      "source": "startups-2025-11-12-incubator",
+      "quote": "Elas ocuparão um dos andares do prédio (os outros andares serão ocupados pela Embratur e Fiocruz)",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "The first class: Aiper, Biolinker, Beeviral, 593ican, Hope, SST, Just Travel, SleepUp, Wood Chat and PixNow.",
+      "kind": "fact",
+      "source": "startups-2025-11-12-incubator",
+      "quote": "As dez startups escolhidas foram as biotechs Aiper e Biolinker, a martech Beeviral, a 593ican (de impressão 3D), a agtech Hope, a deeptech SST, a traveltech Just Travel, a healthtech SleepUp, a Wood Chat e a fintech PixNow",
+      "read_on": "2026-11-09",
+      "about": [
+        "company:just-travel"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "The final list was drawn from the 112 Brazilian startups selected to exhibit at Web Summit 2025.",
+      "kind": "fact",
+      "source": "startups-2025-11-12-incubator",
+      "quote": "A lista final foi feita com base nas 112 startups brasileiras selecionadas para expor no Web Summit 2025",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "ApexBrasil's then president said the plan was to renew the incubation class every year.",
+      "kind": "fact",
+      "source": "startups-2025-11-12-incubator",
+      "quote": "o plano é renovar as turmas de incubação todo ano",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "Applications for the 2027 cycle were free and open until 18 September 2026.",
+      "kind": "fact",
+      "source": "dnbrasil-2026-09-04-incubation",
+      "quote": "As inscrições são gratuitas e podem ser feitas até 18 de setembro de 2026",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "In the first phase up to 40 startups are selected for a strategic exploration stage.",
+      "kind": "fact",
+      "source": "dnbrasil-2026-09-04-incubation",
+      "quote": "serão selecionadas até 40 startups para uma etapa de exploração estratégica",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "The 20 best-ranked companies advance to the next stages.",
+      "kind": "fact",
+      "source": "dnbrasil-2026-09-04-incubation",
+      "quote": "as 20 empresas mais bem classificadas avançarão para as etapas seguintes",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "Startups in HealthTech, EnergyTech, ClimaTech, TravelTech, AgTech and Biotech get five extra points in the ranking.",
+      "kind": "fact",
+      "source": "dnbrasil-2026-09-04-incubation",
+      "quote": "serão priorizadas startups das áreas de HealthTech, EnergyTech, ClimaTech, TravelTech, AgTech e Biotech. Empreendimentos destes segmentos recebem cinco pontos adicionais na classificação.",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "The startups selected for the Lisbon Incubation Programme are announced on 10 November, the same day as the AI pitch competition.",
+      "kind": "fact",
+      "source": "iol-brasil-chega-a-lisboa",
+      "quote": "Na mesma data, serão anunciadas as start-ups selecionadas para o Programa de Incubação em Lisboa.",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+ "about": "conductor@PrompTugal.dinis's watch lines (the last dev SHA seen on each repository), kept in my own folder: board/conductor-watch.json is outside my grant (R6), as conductor.b@ found for itself at 85c84a9a.",
+ "lines": [
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T17:37Z",
+   "SGit-AI__Website__Web-Summit": "a5971c4e",
+   "PrompTugal__News__Website": "394ad32a",
+   "PrompTugal__App__Android": "deadcf4f",
+   "PrompTugal__App__iOS": "89f10f3f",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: /app/ in brand v2.0 (b0c2dee6); Tuesday's edition staged for 18:41. Android promoted main twice; security HIGH on promote.yml; flagged to Dinis."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T18:37Z",
+   "SGit-AI__Website__Web-Summit": "4d76b433",
+   "PrompTugal__News__Website": "144adc06",
+   "PrompTugal__App__Android": "e33365db",
+   "PrompTugal__App__iOS": "04513827",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: 'where I need to be next' in /app/ (9ce9158b); main untouched since 4 Nov. Held for Dinis: push to main, /contribute/, beta list."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T19:37Z",
+   "SGit-AI__Website__Web-Summit": "3419f5cf",
+   "PrompTugal__News__Website": "cea1846b",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "8f4e5302",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: sherpa@'s AP1 to AP4 done in /app/ (91f7ae03); the Tuesday guide leads day 1; main untouched."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T20:37Z",
+   "SGit-AI__Website__Web-Summit": "3468593e",
+   "PrompTugal__News__Website": "a8fc56a8",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "d2e1160a",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: 21 cultures in /app/ (ce907426); /contribute/ words ready (bb7313e4); sign-ups lane live; S32 relayed to conductor.b@."
+  }
+ ]
+}

@@ -6,13 +6,15 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Monday 9 November 2026, 14:41 UTC.
+Last updated: Monday 9 November 2026, 18:41 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S34 | Where to find Portugal at Web Summit: Pavilion 1, stand E145 | Portugal | 9 Nov |
+| S36 | Portugal on the programme: a masterclass, a meetup and three announcements | Portugal | 9 Nov |
+| S35 | Web Summit's press conferences, day by day: what is announced and when | The summit | 9 Nov |
+| S34 | Where to find Portugal at Web Summit: Pavilion 1, stand E145 (drafted, reviewed Ready, held for approval) | Portugal | 9 Nov |
 | S33 | Sports tech at Web Summit: IBM's startup challenge ends in Lisbon (published 9 Nov) | The summit | 9 Nov |
 | S32 | Rehab beyond the clinic: three Portuguese startups at Web Summit | Connections: Portugal | 9 Nov |
 | S31 | Beyond Lisbon: where Road 2 Web Summit's 78 startups come from (published 9 Nov) | Portugal | 9 Nov |
@@ -42,6 +44,30 @@ Last updated: Monday 9 November 2026, 14:41 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S36: Portugal on the programme: a masterclass, a meetup and three announcements
+
+Portugal, added 9 Nov. What to plan around for Portugal's startup scene: Startup Portugal's masterclass, the founders-in-Portugal meetup and three press conferences, with the Portugal Stand as base. For journalist-portugal. Links S34 and S35.
+
+Sources:
+
+- [Web Summit, "A guide to Portugal's startup scene [Hosted by Startup Portugal] | Web Summit"](https://websummit.com/sessions/lis26/437ebaa7-ccc4-4e89-a01f-0ae1958e7726/a-guide-to-portugal-s-startup-scene-hosted-by-startup-portugal/), read 9 November 2026
+- [Web Summit, "Founders building in Portugal meetup | Web Summit"](https://websummit.com/sessions/lis26/ed1416dc-d0bd-4231-af12-dcd2c9e15c4e/founders-building-in-portugal-meetup/), read 9 November 2026
+- [Web Summit, "New Unicorn in Lisbon: Discord Announces Expansion (Press conference) | Web Summit"](https://websummit.com/sessions/lis26/64ee9e86-915d-4051-9d00-6a44a9b8ac54/new-unicorn-in-lisbon-discord-announces-expansion-press-conference/), read 9 November 2026
+- [Web Summit, "Press conference: Unicorn Factory Lisboa, Hub 71, Instituto Caldeira & Q Branch launch a Global Program for Scaleups | Web Summit"](https://websummit.com/sessions/lis26/2bb27ace-17f4-4f46-bec9-c32c7beb2aa1/press-conference-unicorn-factory-lisboa-hub-71-instituto-caldeira-q-branch-launch-a-global-program-for-scaleups/), read 9 November 2026
+- [Web Summit, "Press conference: Road 2 Web Summit 2026 Winner | Web Summit"](https://websummit.com/sessions/lis26/66c7529f-b060-4e49-b9ba-817ae6db8f0e/press-conference-road-2-web-summit-2026-winner/), read 9 November 2026
+
+## S35: Web Summit's press conferences, day by day: what is announced and when
+
+The summit, added 9 Nov. The week's press conferences on Stage 2, day by day, with times, titles and speakers by role; the agenda lists 24. For journalist (summit desk). Time-sensitive: the first is Tuesday 10 November at 10:30.
+
+Sources:
+
+- [Web Summit, "Press conference: Web Summit Spotlight heads to Paraíba as part of four-year partnership | Web Summit"](https://websummit.com/sessions/lis26/43576352-a9ec-4bae-9f7a-ea7c66336cea/press-conference-web-summit-spotlight-heads-to-paraiba-as-part-of-four-year-partnership/), read 9 November 2026
+- [Web Summit, "Press conference with Web Summit CEO and Founder Paddy Cosgrave | Web Summit"](https://websummit.com/sessions/lis26/dd5600f2-2e3a-4023-a127-d2e8f8521ca0/press-conference-with-web-summit-ceo-and-founder-paddy-cosgrave/), read 9 November 2026
+- [Web Summit, "New Unicorn in Lisbon: Discord Announces Expansion (Press conference) | Web Summit"](https://websummit.com/sessions/lis26/64ee9e86-915d-4051-9d00-6a44a9b8ac54/new-unicorn-in-lisbon-discord-announces-expansion-press-conference/), read 9 November 2026
+- [Web Summit, "Press conference: Unicorn Factory Lisboa, Hub 71, Instituto Caldeira & Q Branch launch a Global Program for Scaleups | Web Summit"](https://websummit.com/sessions/lis26/2bb27ace-17f4-4f46-bec9-c32c7beb2aa1/press-conference-unicorn-factory-lisboa-hub-71-instituto-caldeira-q-branch-launch-a-global-program-for-scaleups/), read 9 November 2026
+- [Web Summit, "Press conference: Road 2 Web Summit 2026 Winner | Web Summit"](https://websummit.com/sessions/lis26/66c7529f-b060-4e49-b9ba-817ae6db8f0e/press-conference-road-2-web-summit-2026-winner/), read 9 November 2026
 
 ## S34: Where to find Portugal at Web Summit: Pavilion 1, stand E145
 
@@ -327,13 +353,14 @@ For the five journalists, in priority order (standing answers 20 and 22, the des
 
 Ready to write now:
 
-1. S34, Where to find Portugal at Web Summit: Pavilion 1, stand E145: for the Portugal desk (journalist-portugal). Where the Portugal Stand is (Pavilion 1, stand E145, at the entrance), who AICEP says is there and what it is for; one source, AICEP's own page in Portuguese, so say so and re-read it the same day; name no other occupant of the stand beyond what the published Road 2 article says.
+1. S35, Web Summit's press conferences, day by day: what is announced and when: for the summit desk (journalist). The week's press conferences on Stage 2, day by day with time, title and speakers by role; time-sensitive, the first is Tuesday 10 November at 10:30; five pages were re-read by the researcher today, the rest come from the agenda, so re-read the schedule the same day; the pages say media event only and nothing about what will be said.
+2. S36, Portugal on the programme: a masterclass, a meetup and three announcements: for the Portugal desk (journalist-portugal). Portugal on the programme: Startup Portugal's masterclass on Tuesday, the founders-in-Portugal meetup on Thursday and three press conferences, from Web Summit's session pages; one line per press conference and a link to S35; link S34 for the stand; leave out Campus Tejo unless its page is re-read.
 
 Already published, not to be written again: S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html).
 
-Already drafted, not to be written again: none.
+Already drafted, not to be written again: S34 (drafted, reviewed Ready, held for approval).
 
-No assignment this run: the summit desk (the Opening Night source page could not be re-read from the curator's environment, and Opening Night is already in the published guides), the Europe desk (its two requests to the researcher are still open), the AI desk and the connections desk (nothing new that is ready). Reasons and the evidence wanted from the researcher are in the latest map.
+No assignment this run: the Europe desk (its two requests to the researcher are still open), the AI desk (a separate piece would repeat S35's list; write-ups of the AI announcements come after they happen) and the connections desk (nothing ready). Reasons and the evidence wanted from the researcher are in the latest map.
 
 Held until the researcher captures more: S32 (rehab beyond the clinic) until the three companies' own pages are captured; a Portuguese angle on AI trust and risk until the Humanos country question is settled; fintech startups on the featured list; and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.
 

@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B, the summit set)",
-  "updated": "2026-11-09T16:30Z",
+  "updated": "2026-11-09T20:50Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -52,12 +52,13 @@
     "WK1 corrected in public: PITCH's 16 Tuesday sessions are the group rounds and the semi-finalists' announcement; the semi-final (Wed 17:00) and final (Thu 12:30, winner 15:00) are on Centre Stage; re-signed (wake 20:26, from a dev.verify@ flag)",
     "Vicky's S26 and S27 checked: both held for her approval, not this desk's; the 7 November debrief refreshed with the day's lessons (wake 22:26)",
     "WK1 re-counted from Web Summit's schedule (1,070 sessions on Sunday; 63 gone, 11 added): table updated; PITCH's stages corrected (6, 9 and 12) and the dropped winner announcement removed; re-signed (wake 00:26, 8 November)",
-    "WK1 re-counted for Monday (1,158 sessions): the Developer Summit now has six Tuesday sessions in the Developer Lounge, the Cybersecurity Summit 16; table and lines updated, dated note, re-signed; the 9 November debrief (wake 04:26, 9 November)"
+    "WK1 re-counted for Monday (1,158 sessions): the Developer Summit now has six Tuesday sessions in the Developer Lounge, the Cybersecurity Summit 16; table and lines updated, dated note, re-signed; the 9 November debrief (wake 04:26, 9 November)",
+    "/contribute/ (brief:20261109T2020Z-contribute, Dinis 20:20): the page's words written for dev@, dev.pages@ and designer@ to place: desks/journalist-promptugal/contribute/page-words.md (the rules for the infographic, hour-sized tasks with what good looks like, how to send, what happens next, privacy, the wall, the beta list, share lines); content/contribute/ itself is outside this desk's grant (wake 20:26)"
   ],
   "next": [
-    "Tuesday 10 November, from the 12:26 wake: BR2's dated update when the 2027 incubation class is named (no session names the announcement; likeliest at the Brazilian Pavilion's opening ceremony, Tuesday 10:00, E369: https://websummit.com/sessions/lis26/373f91ce-f8c5-4051-98be-853651521f4a/official-opening-ceremony-of-the-brazilian-pavilion/); look for the names in ApexBrasil's, Sebrae's and DN Brasil's reports",
-    "The summit's coverage with correspondent@ from Tuesday",
-    "Vicky's S31 (Road 2 beyond Lisbon) is Ready but held for her approval: hers"
+    "Review Andrew's summit piece when it arrives (in, reviewed, published with his name and a share button)",
+    "Tuesday 10 November, from 12:26: BR2's dated update with the 2027 class",
+    "The summit's coverage with correspondent@"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
@@ -324,6 +325,18 @@
       "outcome": "ok",
       "release": "run report",
       "line": "nothing new for this desk"
+    },
+    {
+      "started": "2026-11-09T18:26Z",
+      "outcome": "ok",
+      "release": "run report",
+      "line": "nothing new for this desk"
+    },
+    {
+      "started": "2026-11-09T20:27Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "/contribute/ page words written"
     }
   ],
   "decisions_on_findings": [
