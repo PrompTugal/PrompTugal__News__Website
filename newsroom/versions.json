@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.824",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: SA25 record: S24, S25 and S27 corrected (v0.1.823)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c360ee101"
+  },
+  {
     "version": "v0.1.823",
     "date": "2026-11-09",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
