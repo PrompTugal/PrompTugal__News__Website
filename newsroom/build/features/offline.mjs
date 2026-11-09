@@ -33,6 +33,8 @@ export function pages(ctx) {
     const { meta, body } = ctx.md.frontMatter(fs.readFileSync(ctx.R(PAGE), 'utf8'))
     return [{ rel: 'offline/index.html', src: PAGE, title: meta.title, summary: meta.summary, md: body, type: 'site', section: '' }]
 }
+// the app (features/app.mjs): its page, code and manifest, so the installed app opens with no network
+const APP = ['app/', 'assets/app/app.css', 'assets/app/app.js', 'assets/app/manifest.webmanifest']
 export async function keep(ctx) {
     const days = ctx.pages.filter(p => /^days\/[^/]+\/index\.html$/.test(p.rel)).map(p => dir(p.rel))
     const news = articlesOf(ctx).slice(0, 10).map(a => a.rel)
@@ -43,7 +45,7 @@ export async function keep(ctx) {
     const tabs = ['agenda', 'news', 'companies'].map(id => ctx.NAV.nav.find(n => n.id === id)?.href).filter(Boolean).map(dir)
     const events = ctx.store.events.filter(e => e.listed_as && (e.end_date || e.date) >= ctx.TODAY).sort((a, b) => (a.date + (a.start || '')).localeCompare(b.date + (b.start || ''))).slice(0, 120)
         .map(e => `events/${e.id}/`).filter(r => ctx.pages.some(p => p.rel === r + 'index.html'))
-    return [...new Set(['', 'offline/', 'summit/', ...tabs, ...days, ...news, ...events, ...await shellOf(ctx), ...DATA, ...dayData, MANIFEST])]
+    return [...new Set(['', 'offline/', 'summit/', ...tabs, ...days, ...news, ...events, ...await shellOf(ctx), ...DATA, ...dayData, MANIFEST, ...APP])]
 }
 export const api = async ctx => {
     const on = JSON.parse(fs.readFileSync(ctx.R(SWITCH), 'utf8')).enabled !== false

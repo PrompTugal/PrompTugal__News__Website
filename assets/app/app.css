@@ -1,0 +1,35 @@
+/* The news app on the web (assets/app/app.tmpl): phone-first, the site's colours, light and dark. */
+:root { --ink: #14213d; --ink-2: #47506a; --paper: #fbf8f1; --panel: #fff; --rule: #d9d3c4; --brand: #b3261e; --ok: #1e6b3a; --warn: #9a4b00; --band: #14213d; --on-band: #fbf8f1;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; --mono: ui-monospace, "SF Mono", Menlo, monospace; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --ink: #ece7dc; --ink-2: #b4ae9f; --paper: #12161f; --panel: #1b2130; --rule: #343b4d; --brand: #ff8f7d; --ok: #7fd49a; --warn: #ffb36b; --band: #0b0e14; --on-band: #ece7dc; } }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.4 var(--sans); }
+.pa { max-width: 760px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; }
+.pa-top { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 10px; padding: 10px 14px; padding-top: max(10px, env(safe-area-inset-top)); background: var(--band); color: var(--on-band); }
+.pa-top a { color: var(--on-band); text-decoration: none; }
+.pa-home { font: 600 17px/1 Georgia, serif; } .pa-home span { opacity: .75; }
+.pa-sub { font-size: 12px; opacity: .8; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pa-full { font-size: 13px; border: 1px solid currentColor; border-radius: 999px; padding: 4px 10px; white-space: nowrap; }
+.pa-in-pane .pa-full { display: none; }
+.pa-days { display: flex; gap: 6px; overflow-x: auto; padding: 10px 14px 4px; scrollbar-width: none; }
+.pa-days button, .pa-tabs button { flex: none; font: 600 13px var(--sans); padding: 7px 11px; min-height: 36px; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); border-radius: 999px; cursor: pointer; }
+.pa-days button.today { border-color: var(--brand); }
+.pa-days button[aria-pressed="true"], .pa-tabs button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.pa-tabs { display: flex; gap: 6px; padding: 6px 14px; } .pa-tabs button { flex: 1; border-radius: 4px; }
+.pa-q { margin: 4px 14px 8px; padding: 9px 11px; font: 15px var(--sans); border: 1px solid var(--rule); border-radius: 4px; background: var(--panel); color: var(--ink); }
+.pa-list { flex: 1; padding: 0 14px; }
+.pa-ul { list-style: none; margin: 0; padding: 0; }
+.pa-it { display: grid; grid-template-columns: 48px 1fr auto; gap: 8px; padding: 10px 0; border-bottom: 1px solid var(--rule); align-items: start; }
+.pa-it time { font: 600 13px/1.6 var(--mono); overflow-wrap: anywhere; }
+.pa-it a { color: var(--ink); text-decoration: none; font-weight: 600; } .pa-it a:hover { text-decoration: underline; }
+.pa-it.on { box-shadow: inset 3px 0 0 var(--ok); padding-left: 6px; }
+.pa-meta { margin: 2px 0 0; font-size: 12.5px; color: var(--ink-2); }
+.pa-clash { margin: 4px 0 0; font-size: 12.5px; font-weight: 600; color: var(--warn); }
+.pa-tools { display: flex; flex-direction: column; gap: 4px; }
+.pa-pick, .pa-cal, .pa-ics-all { font: 600 12.5px var(--sans); padding: 5px 10px; min-height: 32px; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); border-radius: 4px; cursor: pointer; }
+.pa-pick[aria-pressed="true"] { background: var(--ok); border-color: var(--ok); color: var(--paper); }
+.pa-free { padding: 6px 0 6px 56px; font: 600 12.5px var(--mono); color: var(--ok); border-bottom: 1px dashed var(--rule); }
+.pa-note { color: var(--ink-2); padding: 18px 0; }
+.pa-foot { padding: 12px 14px 24px; padding-bottom: max(24px, env(safe-area-inset-bottom)); }
+.pa-foot a { color: var(--ink); }
+.pa-small { font-size: 12px; color: var(--ink-2); }

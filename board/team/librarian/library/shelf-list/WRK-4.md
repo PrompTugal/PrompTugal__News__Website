@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 4 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T13:01:52Z"
-site_version: "v0.1.842"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T15:58:30Z"
+site_version: "v0.1.862"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 4 of 4)
 
-27 cards, from `WRK.PLAN spec-vaults-images-and-before-after` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+29 cards, from `WRK.PLAN spec-the-top-of-the-page` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PLAN spec-the-top-of-the-page` | [The top of every page, round 1: the quick fixes for dev@, and four mock-ups for Dinis to choose from](https://promptugal.news/board/spec-the-top-of-the-page.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-vault-onboarding` | [Spec: vault onboarding for PrompTugal.news readers (key pool, claim lane, mailbox)](https://promptugal.news/board/spec-vault-onboarding.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN spec-vaults-images-and-before-after` | [Images out of git: the designer's vault, a page that maps every vault, an image queue (OpenRouter and ChatGPT), and a before and after article for every…](https://promptugal.news/board/spec-vaults-images-and-before-after.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN the-account-move` | [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN the-conductors` | [The conductors: one main conductor, four focused ones, two accounts](https://promptugal.news/board/the-conductors.md) | board | conductor@web-summit.dinis 9 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `WRK.TASK brazil-4` | [brazil-4: State missions: North and Northeast](https://promptugal.news/board/tasks/brazil-4.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-5` | [brazil-5: State missions: Centre-West, Southeast and South](https://promptugal.news/board/tasks/brazil-5.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-6` | [brazil-6: Paraíba's 30 startups](https://promptugal.news/board/tasks/brazil-6.md) | board | correspondent@ 6 Nov 2026 |
-| `WRK.TASK brazil-7` | [brazil-7: The hubs' track: which hubs, which startups](https://promptugal.news/board/tasks/brazil-7.md) | board | correspondent@ 6 Nov 2026 |
-| `WRK.TASK brazil-8` | [brazil-8: Brazilian investors at Web Summit Lisbon 2026](https://promptugal.news/board/tasks/brazil-8.md) | board | correspondent@ 6 Nov 2026 |
 
-**Cards 326 to 327**
+**Cards 326 to 329**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.TASK brazil-7` | [brazil-7: The hubs' track: which hubs, which startups](https://promptugal.news/board/tasks/brazil-7.md) | board | correspondent@ 6 Nov 2026 |
+| `WRK.TASK brazil-8` | [brazil-8: Brazilian investors at Web Summit Lisbon 2026](https://promptugal.news/board/tasks/brazil-8.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-9` | [brazil-9: The ApexBrasil rules as data](https://promptugal.news/board/tasks/brazil-9.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK external-agents` | [Which agents outside Claude would serve your work?](https://promptugal.news/board/tasks/external-agents.md) | board | conductor@ 6 Nov 2026 |
 

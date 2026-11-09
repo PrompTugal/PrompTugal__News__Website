@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-09T12:50Z",
+  "updated": "2026-11-09T14:50Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "plan-your-week-by-field",
@@ -227,7 +227,7 @@
         "day": "Tuesday 10 November",
         "phase": "summit day 1",
         "know": "60 official items: PITCH begins; the Commission on Centre Stage; nine Portuguese universities pitch; the Brazil Pavilion's AI pitch competition; the Lisbon incubator's 2027 class (brazil-12).",
-        "lead": "the day's news, refreshed through the day",
+        "lead": "tuesday-10-november-three-ways-in, from Monday evening; then the day's news as it comes",
         "also": [
           "now and next",
           "the day's sessions on AI agents read through reach, mandate and gap",
@@ -402,5 +402,49 @@
         }
       }
     }
+  },
+  "next_edition": {
+    "about": "Prepared at 14:50 UTC Monday for the evening switch (the 18:41 or 20:41 wake): Tuesday 10 November, summit day 1. Swapped into lead, top and briefing in one step; not read by the build.",
+    "for_date": "2026-11-10",
+    "lead": {
+      "article": "tuesday-10-november-three-ways-in",
+      "why": "Summit day 1: three ways into the first day (planned since 6 November)."
+    },
+    "top": [
+      {
+        "article": "plan-your-week-by-field",
+        "why": "which summit day is yours; still the planning piece"
+      },
+      {
+        "article": "ibm-sports-tech-challenge",
+        "why": "IBM's sports tech showcase is on Tuesday"
+      },
+      {
+        "article": "web-summit-wristband-queues",
+        "why": "the first morning's queues"
+      }
+    ],
+    "briefing": [
+      {
+        "article": "tuesday-10-november-three-ways-in",
+        "why": "today, three ways in"
+      },
+      {
+        "article": "web-summit-wristband-queues",
+        "why": "the first morning's queues"
+      },
+      {
+        "article": "venue-map",
+        "why": "where everything is"
+      },
+      {
+        "article": "europe-in-pavilion-4",
+        "why": "the Commission's stand opens"
+      },
+      {
+        "article": "who-builds-the-parts-of-an-ai-agent",
+        "why": "the agents at the summit"
+      }
+    ]
   }
 }
