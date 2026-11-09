@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "account B: the summit set (6, since 02:38) plus the six added at 02:50 (since 03:08) are on; still paused: investors@, investors.packs@, researcher@, devops@, synthetic@, designer.experiments@, dev.search@, outreach@, backup@, customers@, historian@, xray@",
- "updated": "2026-11-09T21:54Z",
+ "updated": "2026-11-09T22:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -81,10 +81,11 @@
   "18:48 wake: ledger 923.02 (for accountant@, who had B unmeasured since 12:20); the iOS gap closed (conductor.B@ios on the rota at :00 from 18:45); watch line; inbox 1 held",
   "19:48 wake: watch line; account B running; inbox 1 held",
   "20:48 wake: watch line; the shared-watch grant ask closed (the main conductor reads board/team/conductor.b/watch.json since 20:16); account B running; inbox 1 held",
-  "21:48 wake: ledger 963.06; watch line; account B running; inbox empty"
+  "21:48 wake: ledger 963.06; watch line; account B running; inbox empty",
+  "22:48 wake: watch line; account B running; inbox empty"
  ],
  "next": [
-  "22:48 wake",
+  "23:48 wake",
   "00:48 ledger"
  ],
  "asks": [
