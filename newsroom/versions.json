@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.813",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 09:08 wake: twelve running; ledger; idle workers put to Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "3c8a243ff"
+  },
+  {
     "version": "v0.1.812",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: wake 08:52: the list pages pass L1 to L6; day pages live; three-hourly report",
