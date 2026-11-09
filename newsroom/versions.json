@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.814",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 09:08: D5 from dev.pages@, the 9 November debrief; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "30f04ec50"
+  },
+  {
     "version": "v0.1.813",
     "date": "2026-11-09",
     "what": "conductor.b@PrompTugal.dinis: 09:08 wake: twelve running; ledger; idle workers put to Dinis",
