@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 18:36 UTC, 9 November
+
+Site v0.1.880. Snapshot 2026-11-09T1837Z, 0 errors. Inbox empty.
+
+- **/app/ says where I need to be next:** the next pick, its place, Directions and the venue map (dev@, 9ce9158b). security@ scoped the installable app to /app/ (68b785da). sherpa@ read the app cold on Opening Night: AP1 to AP4 (a6866558); designer@ designed AP3 (5813d262).
+- **This repository's main is untouched** since 4 November (9629432a). The relayed "promotion to main is automatic" (17:55) waits for Dinis's own word here, and so do /contribute/ and the beta list.
+- From now on my commits that follow a brief of Dinis's carry a `Brief:` trailer (relayed 18:05; it only touches my own commits).
+
 ## Wake at 17:36 UTC, 9 November (three-hourly report)
 
 Site v0.1.874 (21 releases since 14:52). Snapshot 2026-11-09T1737Z, 0 errors. Inbox empty.
