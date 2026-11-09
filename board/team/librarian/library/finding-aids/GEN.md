@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: The repository"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
-site_version: "v0.1.644"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
+site_version: "v0.1.776"
 source: board/catalogue.json
 ---
 
@@ -16,7 +16,7 @@ The repository's own front files: the rules (CLAUDE.md), the brief and its corre
 
 - [Pass: the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) (`GEN.BOARD 2026-11-06-the-front-page`): The front page modern, slick and very visual, like a news organisation's (board/guidance/2026-11-06-front-page-timeline-publication.md, section 1): a better layout for the masthead's two boxes, the mandate…
 - [Pass: the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) (`GEN.BOARD 2026-11-06-the-top-of-the-page`): The top of every page: Dinis's feedback (board/guidance/2026-11-06-design-and-passes.md, section 1). Quick fixes first (logo left and things right, the card tagline 'People and AI agents…
-- [Pass: signed-in-views](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) (`GEN.BOARD 2026-11-06-signed-in-views`): Signed-in views (section 6): when a person is signed in (verified key), a switch 'normal view / <name>'s view', with features for the team (the…
+- [Pass: the-summit-days](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) (`GEN.BOARD 2026-11-06-the-summit-days`): The summit's days in time (guidance section 2): a block of the days (6 to 13 November: before, the summit 9 to 12, after) with…
 
 ## How it is arranged
 
@@ -40,7 +40,7 @@ Special collection: S2 (11 cards). Dinis's guidance has its own guide: [guidance
 
 - [Agents, roles, keys](TEAM.md) (75 connections from this collection)
 - [Work in hand](WRK.md) (74 connections from this collection)
-- [The library](LIB.md) (51 connections from this collection)
+- [Readers and observability](RDR.md) (55 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 
 Back to the front door: [the library](../index.md)

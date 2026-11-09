@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: LIB, The library (part 1 of 3)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
-site_version: "v0.1.644"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
+site_version: "v0.1.776"
 source: board/catalogue.json
 ---
 
@@ -32,21 +32,21 @@ source: board/catalogue.json
 | `LIB.CAT BLD` | [BLD.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/BLD.jsonl) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT BLD:2` | [Shelf list: BLD, Build, code and release](https://promptugal.news/board/team/librarian/library/shelf-list/BLD.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT DAT` | [DAT.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/DAT.jsonl) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT DAT-1` | [Shelf list: DAT, Data and the ontology (part 1 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-1.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT DAT-10` | [Shelf list: DAT, Data and the ontology (part 10 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-10.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT DAT-2` | [Shelf list: DAT, Data and the ontology (part 2 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-2.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT DAT-3` | [Shelf list: DAT, Data and the ontology (part 3 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-3.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT DAT-4` | [Shelf list: DAT, Data and the ontology (part 4 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-4.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT DAT-5` | [Shelf list: DAT, Data and the ontology (part 5 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-5.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT DAT-6` | [Shelf list: DAT, Data and the ontology (part 6 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-6.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-1` | [Shelf list: DAT, Data and the ontology (part 1 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-1.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-10` | [Shelf list: DAT, Data and the ontology (part 10 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-10.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-2` | [Shelf list: DAT, Data and the ontology (part 2 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-2.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-3` | [Shelf list: DAT, Data and the ontology (part 3 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-3.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-4` | [Shelf list: DAT, Data and the ontology (part 4 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-4.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-5` | [Shelf list: DAT, Data and the ontology (part 5 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-5.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-6` | [Shelf list: DAT, Data and the ontology (part 6 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-6.md) | team | librarian@ 6 Nov 2026 |
 
 **Cards 26 to 50**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
-| `LIB.CAT DAT-7` | [Shelf list: DAT, Data and the ontology (part 7 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-7.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT DAT-8` | [Shelf list: DAT, Data and the ontology (part 8 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-8.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT DAT-9` | [Shelf list: DAT, Data and the ontology (part 9 of 10)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-9.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-7` | [Shelf list: DAT, Data and the ontology (part 7 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-7.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-8` | [Shelf list: DAT, Data and the ontology (part 8 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-8.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT DAT-9` | [Shelf list: DAT, Data and the ontology (part 9 of 11)](https://promptugal.news/board/team/librarian/library/shelf-list/DAT-9.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT EVD` | [EVD.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/EVD.jsonl) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT EVD:2` | [Shelf list: EVD, Evidence and sources](https://promptugal.news/board/team/librarian/library/shelf-list/EVD.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT GDN` | [GDN.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/GDN.jsonl) | team | librarian@ 6 Nov 2026 |
@@ -65,10 +65,10 @@ source: board/catalogue.json
 | `LIB.CAT LIB-3` | [Shelf list: LIB, The library (part 3 of 3)](https://promptugal.news/board/team/librarian/library/shelf-list/LIB-3.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT LIB:2` | [Shelf list: LIB, The library](https://promptugal.news/board/team/librarian/library/shelf-list/LIB.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT PUB` | [PUB.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/PUB.jsonl) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT PUB-1` | [Shelf list: PUB, The publication (part 1 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-1.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT PUB-2` | [Shelf list: PUB, The publication (part 2 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-2.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT PUB-3` | [Shelf list: PUB, The publication (part 3 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-3.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT PUB-4` | [Shelf list: PUB, The publication (part 4 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-4.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT PUB-1` | [Shelf list: PUB, The publication (part 1 of 5)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-1.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT PUB-2` | [Shelf list: PUB, The publication (part 2 of 5)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-2.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT PUB-3` | [Shelf list: PUB, The publication (part 3 of 5)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-3.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT PUB-4` | [Shelf list: PUB, The publication (part 4 of 5)](https://promptugal.news/board/team/librarian/library/shelf-list/PUB-4.md) | team | librarian@ 7 Nov 2026 |
 
 **Cards 51 to 75**
 
@@ -77,39 +77,39 @@ source: board/catalogue.json
 | `LIB.CAT RDR` | [RDR.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/RDR.jsonl) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT RDR:2` | [Shelf list: RDR, Readers and observability](https://promptugal.news/board/team/librarian/library/shelf-list/RDR.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT TEAM` | [TEAM.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/TEAM.jsonl) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT TEAM-1` | [Shelf list: TEAM, Agents, roles, keys (part 1 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-1.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT TEAM-10` | [Shelf list: TEAM, Agents, roles, keys (part 10 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-10.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-11` | [Shelf list: TEAM, Agents, roles, keys (part 11 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-11.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-12` | [Shelf list: TEAM, Agents, roles, keys (part 12 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-12.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-13` | [Shelf list: TEAM, Agents, roles, keys (part 13 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-13.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-14` | [Shelf list: TEAM, Agents, roles, keys (part 14 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-14.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-15` | [Shelf list: TEAM, Agents, roles, keys (part 15 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-15.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-16` | [Shelf list: TEAM, Agents, roles, keys (part 16 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-16.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-17` | [Shelf list: TEAM, Agents, roles, keys (part 17 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-17.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-18` | [Shelf list: TEAM, Agents, roles, keys (part 18 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-18.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-19` | [Shelf list: TEAM, Agents, roles, keys (part 19 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-19.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-2` | [Shelf list: TEAM, Agents, roles, keys (part 2 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-2.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT TEAM-20` | [Shelf list: TEAM, Agents, roles, keys (part 20 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-20.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-21` | [Shelf list: TEAM, Agents, roles, keys (part 21 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-21.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-22` | [Shelf list: TEAM, Agents, roles, keys (part 22 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-22.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-23` | [Shelf list: TEAM, Agents, roles, keys (part 23 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-23.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-24` | [Shelf list: TEAM, Agents, roles, keys (part 24 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-24.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.CAT TEAM-3` | [Shelf list: TEAM, Agents, roles, keys (part 3 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-3.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT TEAM-4` | [Shelf list: TEAM, Agents, roles, keys (part 4 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-4.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT TEAM-5` | [Shelf list: TEAM, Agents, roles, keys (part 5 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-5.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT TEAM-6` | [Shelf list: TEAM, Agents, roles, keys (part 6 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-6.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT TEAM-7` | [Shelf list: TEAM, Agents, roles, keys (part 7 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-7.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT TEAM-1` | [Shelf list: TEAM, Agents, roles, keys (part 1 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-1.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT TEAM-10` | [Shelf list: TEAM, Agents, roles, keys (part 10 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-10.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-11` | [Shelf list: TEAM, Agents, roles, keys (part 11 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-11.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-12` | [Shelf list: TEAM, Agents, roles, keys (part 12 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-12.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-13` | [Shelf list: TEAM, Agents, roles, keys (part 13 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-13.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-14` | [Shelf list: TEAM, Agents, roles, keys (part 14 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-14.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-15` | [Shelf list: TEAM, Agents, roles, keys (part 15 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-15.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-16` | [Shelf list: TEAM, Agents, roles, keys (part 16 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-16.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-17` | [Shelf list: TEAM, Agents, roles, keys (part 17 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-17.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-18` | [Shelf list: TEAM, Agents, roles, keys (part 18 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-18.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-19` | [Shelf list: TEAM, Agents, roles, keys (part 19 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-19.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-2` | [Shelf list: TEAM, Agents, roles, keys (part 2 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-2.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT TEAM-20` | [Shelf list: TEAM, Agents, roles, keys (part 20 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-20.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-21` | [Shelf list: TEAM, Agents, roles, keys (part 21 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-21.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-22` | [Shelf list: TEAM, Agents, roles, keys (part 22 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-22.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-23` | [Shelf list: TEAM, Agents, roles, keys (part 23 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-23.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-24` | [Shelf list: TEAM, Agents, roles, keys (part 24 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-24.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-3` | [Shelf list: TEAM, Agents, roles, keys (part 3 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-3.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT TEAM-4` | [Shelf list: TEAM, Agents, roles, keys (part 4 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-4.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT TEAM-5` | [Shelf list: TEAM, Agents, roles, keys (part 5 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-5.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT TEAM-6` | [Shelf list: TEAM, Agents, roles, keys (part 6 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-6.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT TEAM-7` | [Shelf list: TEAM, Agents, roles, keys (part 7 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-7.md) | team | librarian@ 6 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
-| `LIB.CAT TEAM-8` | [Shelf list: TEAM, Agents, roles, keys (part 8 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-8.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT TEAM-9` | [Shelf list: TEAM, Agents, roles, keys (part 9 of 24)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-9.md) | team | librarian@ 7 Nov 2026 |
+| `LIB.CAT TEAM-8` | [Shelf list: TEAM, Agents, roles, keys (part 8 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-8.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT TEAM-9` | [Shelf list: TEAM, Agents, roles, keys (part 9 of 26)](https://promptugal.news/board/team/librarian/library/shelf-list/TEAM-9.md) | team | librarian@ 7 Nov 2026 |
 | `LIB.CAT WRK` | [WRK.jsonl](https://promptugal.news/board/team/librarian/library/catalogue/WRK.jsonl) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT WRK-1` | [Shelf list: WRK, Work in hand (part 1 of 3)](https://promptugal.news/board/team/librarian/library/shelf-list/WRK-1.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT WRK-2` | [Shelf list: WRK, Work in hand (part 2 of 3)](https://promptugal.news/board/team/librarian/library/shelf-list/WRK-2.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.CAT WRK-3` | [Shelf list: WRK, Work in hand (part 3 of 3)](https://promptugal.news/board/team/librarian/library/shelf-list/WRK-3.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT WRK-1` | [Shelf list: WRK, Work in hand (part 1 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/WRK-1.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT WRK-2` | [Shelf list: WRK, Work in hand (part 2 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/WRK-2.md) | team | librarian@ 6 Nov 2026 |
+| `LIB.CAT WRK-3` | [Shelf list: WRK, Work in hand (part 3 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/WRK-3.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT accession-register` | [accession-register.jsonl](https://promptugal.news/board/team/librarian/library/accession-register.jsonl) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT cards` | [cards.json](https://promptugal.news/board/team/librarian/library/cards.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.CAT catalogue` | [catalogue.mjs](https://promptugal.news/board/team/librarian/catalogue.mjs) | team | librarian@ 6 Nov 2026 |

@@ -28,3 +28,4 @@ The shape: board/the-passes.md.
 | A4 Not broken by day (two dates in one list): by day, Today first, the same strip as the summit days (D1, D5) | sherpa@ (review) | dev@, designer@ | open (conductor) |
 | A5 One 666 px column on a 1,440 px desktop: two or three cards across | sherpa@ (review) | designer@ | open (conductor) |
 | A6 'How we publish' after the list, collapsed | sherpa@ (review) | designer@ | open (conductor) |
+| L1 (03:35, 9 November, v0.1.774): **the view switch reads one letter per line on a phone and a desktop** (its container `.view-switch.is-switch` is 0 px wide; buttons 39 px wide, up to 236 px tall); sent to dev@ and dev.pages@. `board/team/sherpa/review-2026-11-09-0330-the-list-pages.md` | sherpa@ (review) | dev.pages@, dev@ | open (urgent) |
