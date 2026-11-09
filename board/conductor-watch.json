@@ -280,6 +280,18 @@
       "PrompTugal__App__iOS": "d2a18942",
       "PrompTugal__App__Mobile": "74332868",
       "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T23:05Z",
+      "shas": {
+        "SGit-AI__Website__Web-Summit": "266685c9",
+        "PrompTugal__News__Website": "e75b155f",
+        "PrompTugal__App__Android": "4de30ec6",
+        "PrompTugal__App__iOS": "77a95682",
+        "PrompTugal__App__Mobile": "74332868"
+      },
+      "note": "iOS: no new briefs since 22:00. Release #137 (v0.4.56, venue map wired) building; #138 (v0.4.57, 21 cultures + globe, en-GB default) queued behind it, TestFlight internal only. App Store 0.4.24 (205) waiting for review; preflight dispatched. main unchanged, waiting on security's pass."
     }
   ]
 }
