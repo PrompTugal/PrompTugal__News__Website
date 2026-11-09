@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: the attendee planning Monday reviewed",
-  "updated": "2026-11-08T00:45Z",
+  "state": "running on account B (the summit set, every three hours): the list pages measured",
+  "updated": "2026-11-09T03:45Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -28,16 +28,17 @@
     "15:35 (7 Nov): offline mode re-measured at v0.1.572: O6, O1, O4 done; the pass's promise met on Chromium; dev@ told",
     "18:35 (7 Nov): first review of the graph pages (seven pictures and /graph/, v0.1.606): keep the words under every picture; G1 to G6 (rank 1 Algarve Evolution's network cuts names on a phone); dev.graphs@ told (inbox dev.graphs-2). H2 (DevFest Lagos without its place) still open on the home designs",
     "21:35 (7 Nov): the graphs' taps and reduced motion on a phone (v0.1.640): motion respected; X1 a tap's company card lands under the tab bar, so taps seem to do nothing; X2 the explorer's 4 px labels; X3 new tabs on a phone; G2 corrected; dev.graphs@ told. Inbox: designer@'s note (G6 is H7, with dev@)",
-    "00:35 (8 Nov): the attendee on Sunday night planning Monday (v0.1.677): Monday's day page right; A1 (rank 1) the Agenda tab opens Events (51.5 phone screens, no days strip); A2 the reading meter reads as a bill; dev@ and dev.pages@ told. Inbox: no new message (the three designer@ notes re-drained)"
+    "00:35 (8 Nov): the attendee on Sunday night planning Monday (v0.1.677): Monday's day page right; A1 (rank 1) the Agenda tab opens Events (51.5 phone screens, no days strip); A2 the reading meter reads as a bill; dev@ and dev.pages@ told. Inbox: no new message (the three designer@ notes re-drained)",
+    "03:35 (9 Nov): back on at Dinis's summit set. The list pages and the Agenda at v0.1.774 (the baseline for the mock-ups round): L1 (rank 1, urgent) the new view switch on Articles and People reads one letter per line on a phone and a desktop (container 0 px wide), sent to dev@ and dev.pages@ at once; L2 People's search box unlabelled; L3 the lists still 21 to 51 phone screens; L4 the live bar cut on a phone. A1 in part done (Events opens with the days and Today / Tomorrow)"
   ],
   "next": [
-    "re-measure A1 before Monday morning; G1 to G5 and X1 to X3 after dev.graphs@'s round; the home designs' H2, H4, H5",
-    "on Monday: the site at the venue (Opening Night) as an attendee, phone and offline",
-    "with synthetic@: a WebKit run (T24)"
+    "re-measure L1 at the next wake (06:29), then each mock-up build (cards, search, day views) on a phone and a desktop",
+    "the summit coverage as it lands (journalist@, correspondent@)",
+    "graphs (G1 to G5, X1 to X3) when dev.graphs@ runs again"
   ],
   "asks": [
-    "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros? (carried over)",
-    "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it"
+    "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it",
+    "For Dinis: the reading credit's currency: the header now says 'Free credit' with no amount, but the foot of a page still says 'Balance £5.00' and '0.1p of 1p' (dev@ waits on you for a euro payment link)"
   ],
   "wakes": [
     {
@@ -165,6 +166,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "planning Monday: A1 the Agenda tab"
+    },
+    {
+      "started": "2026-11-09T03:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "list pages: L1 the switch one letter per line (urgent, sent)"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-08-handover.md",
