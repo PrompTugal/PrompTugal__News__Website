@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-pitch-session-2389913a",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/2389913a-8463-444c-96d6-ac40463bdce8/pitch-session/",
+  "title": "Pitch session (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'Pitch session', November 12, 2026, 10:00 to 12:00 (Lisbon time), E369, track Stand events. Description: Brazilian Startup Pitch Session: Showcasing innovative solutions from Brazilian startups to a selected audience of European investors, corporations, and ecosystem stakeholders."
+}

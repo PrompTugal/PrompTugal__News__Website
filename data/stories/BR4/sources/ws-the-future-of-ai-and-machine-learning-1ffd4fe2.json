@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-the-future-of-ai-and-machine-learning-1ffd4fe2",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/1ffd4fe2-adf3-47a4-93c0-4c84a7863d0c/the-future-of-ai-and-machine-learning/",
+  "title": "The future of AI and machine learning (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'The future of AI and machine learning', November 11, 2026, 11:00 to 12:00 (Lisbon time), Stage 6, track Startup Showcase. Description: Over the course of an hour, startups explore the practical applications of AI and machine learning. Delve into real-world cases and gain insights into how these technologies are solving complex problems across diverse fields."
+}

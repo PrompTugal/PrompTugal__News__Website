@@ -1,0 +1,368 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "BR4",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "The session page for 'Brazil's blueprint for cyber resilience' (November 11, 2026, 14:32 to 14:40, Stage 7) lists Wilton Itaiguara Gonçalves Mota, President and CEO, Serpro, as a speaker.",
+      "kind": "fact",
+      "source": "ws-brazil-s-blueprint-for-cyber-resilience-dea217b2",
+      "quote": "Wilton Itaiguara Gonçalves Mota",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c02",
+      "text": "The session page for 'Digital sovereignty in action: Brazil’s infrastructure [Hosted by Serpro]' (November 12, 2026, 15:00 to 15:45, Masterclass 2) lists Welsinner Brito, Head of Enterprise Architecture, Data Sciensce and Cloud, SERPRO, as a speaker.",
+      "kind": "fact",
+      "source": "ws-digital-sovereignty-in-action-brazil-s-infrastru-708864cd",
+      "quote": "Welsinner Brito",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c03",
+      "text": "The session page for 'Digital sovereignty in action: Brazil’s infrastructure [Hosted by Serpro]' (November 12, 2026, 15:00 to 15:45, Masterclass 2) lists Alexandre Improta, Gestor de Projetos Estratégicos, SERPRO, as a speaker.",
+      "kind": "fact",
+      "source": "ws-digital-sovereignty-in-action-brazil-s-infrastru-708864cd",
+      "quote": "Alexandre Improta",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c04",
+      "text": "The session page for 'The next digital frontier' (November 11, 2026, 10:30 to 10:50, Stage 11) lists Vahan Agopyan, Secretary of Science, Technology and Innovation, Government of the State of Sao Paulo, Brazil, as a speaker.",
+      "kind": "fact",
+      "source": "ws-the-next-digital-frontier-2b66ba08",
+      "quote": "Vahan Agopyan",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c05",
+      "text": "The session page for 'Rethinking innovation ecosystems for global impact [Hosted by Invest São Paulo]' (November 12, 2026, 10:30 to 11:15, Masterclass 4) lists Vahan Agopyan, Secretary of Science, Technology and Innovation, Government of the State of Sao Paulo, Brazil, as a speaker.",
+      "kind": "fact",
+      "source": "ws-rethinking-innovation-ecosystems-for-global-impa-f1f099a8",
+      "quote": "Vahan Agopyan",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c06",
+      "text": "The session page for 'Rethinking innovation ecosystems for global impact [Hosted by Invest São Paulo]' (November 12, 2026, 10:30 to 11:15, Masterclass 4) lists Thiago Camargo, Vice President, InvestSP, as a speaker.",
+      "kind": "fact",
+      "source": "ws-rethinking-innovation-ecosystems-for-global-impa-f1f099a8",
+      "quote": "Thiago Camargo",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c07",
+      "text": "The session page for 'From automation to augmentation: Robotics and the future of work' (November 10, 2026, 12:55 to 13:25, Ecosystem Summit) lists Luis Fernandes, Deputy Minister of Science, Technology and Innovation, Brazil, as a speaker.",
+      "kind": "fact",
+      "source": "ws-from-automation-to-augmentation-robotics-and-the-710b2b00",
+      "quote": "Luis Fernandes",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c08",
+      "text": "The session page for 'The new geography of growth' (November 10, 2026, 15:20 to 15:40, Stage 7) lists Sidney Levy, President, Invest Rio, as a speaker.",
+      "kind": "fact",
+      "source": "ws-the-new-geography-of-growth-d27be17e",
+      "quote": "Sidney Levy",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c09",
+      "text": "The session page for 'From automation to augmentation: Robotics and the future of work' (November 10, 2026, 12:55 to 13:25, Ecosystem Summit) lists Amanda Lima, Executive Director, DN Brasil, as a speaker.",
+      "kind": "fact",
+      "source": "ws-from-automation-to-augmentation-robotics-and-the-710b2b00",
+      "quote": "Amanda Lima",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c10",
+      "text": "The session page for 'Digital transformation and dynamism in service delivery' (November 12, 2026, 16:00 to 16:20, Stage 11) lists Amanda Lima, Executive Director, DN Brasil, as a speaker.",
+      "kind": "fact",
+      "source": "ws-digital-transformation-and-dynamism-in-service-d-c73ae164",
+      "quote": "Amanda Lima",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c11",
+      "text": "The session page for 'Making tech fashionable' (November 10, 2026, 14:45 to 15:05, Stage 14) lists Lu Rodrigues, columnist, Forbes Brasil, as a speaker.",
+      "kind": "fact",
+      "source": "ws-making-tech-fashionable-ca8a61c1",
+      "quote": "Lu Rodrigues",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c12",
+      "text": "The session page for 'The human bandwidth: Redefining customer experience' (November 10, 2026, 16:55 to 17:15, Stage 7) lists Lu Rodrigues, columnist, Forbes Brasil, as a speaker.",
+      "kind": "fact",
+      "source": "ws-the-human-bandwidth-redefining-customer-experien-c7c5988b",
+      "quote": "Lu Rodrigues",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c13",
+      "text": "The session page for 'The fast and the curious' (November 11, 2026, 14:25 to 14:45, Stage 4) lists Lu Rodrigues, columnist, Forbes Brasil, as a speaker.",
+      "kind": "fact",
+      "source": "ws-the-fast-and-the-curious-a95f9a6f",
+      "quote": "Lu Rodrigues",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c14",
+      "text": "The session page for 'The new wave of industry disruption' (November 11, 2026, 10:00 to 11:00, Stage 6) lists Brenda Mendes, Founder, FM LABS Hairtech, as a speaker.",
+      "kind": "fact",
+      "source": "ws-the-new-wave-of-industry-disruption-f75c81b0",
+      "quote": "Brenda Mendes",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c15",
+      "text": "The session page for 'The future of AI and machine learning' (November 11, 2026, 11:00 to 12:00, Stage 6) lists Sebastião Galeno Pereira Filho, CTO, Programe Studio, as a speaker.",
+      "kind": "fact",
+      "source": "ws-the-future-of-ai-and-machine-learning-1ffd4fe2",
+      "quote": "Sebastião Galeno Pereira Filho",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c16",
+      "text": "The session page for 'EdTech and the future of learning' (November 11, 2026, 14:00 to 15:00, Stage 6) lists Dina Prates, Founder, Ujamaatech, as a speaker.",
+      "kind": "fact",
+      "source": "ws-edtech-and-the-future-of-learning-d8b61c29",
+      "quote": "Dina Prates",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c17",
+      "text": "The session page for 'EdTech and the future of learning' (November 11, 2026, 14:00 to 15:00, Stage 6) lists Ney Rubens Chaves Nunes, FOUNDER & CEO, EMPREENDFY, as a speaker.",
+      "kind": "fact",
+      "source": "ws-edtech-and-the-future-of-learning-d8b61c29",
+      "quote": "Ney Rubens Chaves Nunes",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c18",
+      "text": "The session page for 'Medtech revolution' (November 11, 2026, 15:00 to 16:00, Stage 6) lists Felipe Napoli, CEO, Agendart, as a speaker.",
+      "kind": "fact",
+      "source": "ws-medtech-revolution-c914c293",
+      "quote": "Felipe Napoli",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c19",
+      "text": "The session page for 'Medtech revolution' (November 11, 2026, 15:00 to 16:00, Stage 6) lists Stephanie Emi Uemura Matsubara, Co-Founder & CEO, Longevia, as a speaker.",
+      "kind": "fact",
+      "source": "ws-medtech-revolution-c914c293",
+      "quote": "Stephanie Emi Uemura Matsubara",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c20",
+      "text": "The session page for 'The new wave of industry disruption' (November 12, 2026, 11:00 to 12:00, Stage 6) lists Thais Martinho, Partner / Senior UX Research Lead, DUXlab, as a speaker.",
+      "kind": "fact",
+      "source": "ws-the-new-wave-of-industry-disruption-89870ae0",
+      "quote": "Thais Martinho",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c21",
+      "text": "The session page for 'A glimpse into the future of innovation' (November 12, 2026, 11:00 to 12:00, Stage 12) lists Flávio Oliveira, CEO, IseTool, as a speaker.",
+      "kind": "fact",
+      "source": "ws-a-glimpse-into-the-future-of-innovation-45dad09b",
+      "quote": "Flávio Oliveira",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c22",
+      "text": "The session page for 'Growth expo: Tomorrow's big players' (November 12, 2026, 12:00 to 13:00, Stage 6) lists Diego Rydz, CMO, Just Travel, as a speaker.",
+      "kind": "fact",
+      "source": "ws-growth-expo-tomorrow-s-big-players-8ae05cbc",
+      "quote": "Diego Rydz",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c23",
+      "text": "The session page for 'Building a sustainable future' (November 12, 2026, 12:00 to 13:00, Stage 12) lists Rafael Bersan Câmara, Co-founder & CMO, ComuniClima, as a speaker.",
+      "kind": "fact",
+      "source": "ws-building-a-sustainable-future-12a8a5fc",
+      "quote": "Rafael Bersan Câmara",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c24",
+      "text": "The session page for 'Medtech revolution' (November 12, 2026, 14:00 to 15:00, Stage 6) lists Thays Luz, CEO, AME, as a speaker.",
+      "kind": "fact",
+      "source": "ws-medtech-revolution-c8e00053",
+      "quote": "Thays Luz",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c25",
+      "text": "The session page for 'Medtech revolution' (November 12, 2026, 14:00 to 15:00, Stage 6) lists Matheus Souto, Physician & Founder, Colega Médico, as a speaker.",
+      "kind": "fact",
+      "source": "ws-medtech-revolution-c8e00053",
+      "quote": "Matheus Souto",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c26",
+      "text": "The session page for 'Medtech revolution' (November 12, 2026, 14:00 to 15:00, Stage 6) lists Roberta Novis, Founder, AllPetSenior, as a speaker.",
+      "kind": "fact",
+      "source": "ws-medtech-revolution-c8e00053",
+      "quote": "Roberta Novis",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c27",
+      "text": "The session page for 'Revolutionising retail' (November 12, 2026, 14:00 to 15:00, Stage 12) lists Ricardo Salazar de Farias, CEO, Gander Brasil, as a speaker.",
+      "kind": "fact",
+      "source": "ws-revolutionising-retail-0c8b27a1",
+      "quote": "Ricardo Salazar de Farias",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c28",
+      "text": "The session page for 'Revolutionising retail' (November 12, 2026, 14:00 to 15:00, Stage 12) lists Pedro Trevisan, Founder, GLOBALD.ai, as a speaker.",
+      "kind": "fact",
+      "source": "ws-revolutionising-retail-0c8b27a1",
+      "quote": "Pedro Trevisan",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c29",
+      "text": "The session page for 'Revolutionising retail' (November 12, 2026, 14:00 to 15:00, Stage 12) lists Antoine Marmelo, CEO & Founder, Bizuu 21 Tecnologia e Sistemas S.A., as a speaker.",
+      "kind": "fact",
+      "source": "ws-revolutionising-retail-0c8b27a1",
+      "quote": "Antoine Marmelo",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c30",
+      "text": "The session page for 'The power of SaaS' (November 11, 2026, 11:00 to 12:00, Stage 12) lists Carolina C. Juchem Marques, Head of International Expansion, QualityStorm - Forlogic, as a speaker.",
+      "kind": "fact",
+      "source": "ws-the-power-of-saas-3fc47828",
+      "quote": "Carolina C. Juchem Marques",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c31",
+      "text": "Web Summit lists the session 'Official Opening Ceremony of the Brazilian Pavilion' on November 10, 2026, 10:00 to 10:30, E369.",
+      "kind": "fact",
+      "source": "ws-official-opening-ceremony-of-the-brazilian-pavil-373f91ce",
+      "quote": "Official Opening Ceremony of the Brazilian Pavilion",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c32",
+      "text": "Web Summit lists the session 'Pitch session' on November 10, 2026, 11:00 to 13:00, E369.",
+      "kind": "fact",
+      "source": "ws-pitch-session-f0d6d53c",
+      "quote": "Pitch session",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c33",
+      "text": "Web Summit lists the session 'Brazil Innovation Happy Hour' on November 10, 2026, 16:00 to 17:00, E369.",
+      "kind": "fact",
+      "source": "ws-brazil-innovation-happy-hour-8da97ebb",
+      "quote": "Brazil Innovation Happy Hour",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c34",
+      "text": "Web Summit lists the session 'German-Brazilian Startup Night' on November 10, 2026, 17:30 to 22:30, Gale patio.",
+      "kind": "fact",
+      "source": "ws-german-brazilian-startup-night-8614a78e",
+      "quote": "German-Brazilian Startup Night",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c35",
+      "text": "Web Summit lists the session 'Pitch session' on November 11, 2026, 10:00 to 12:00, E369.",
+      "kind": "fact",
+      "source": "ws-pitch-session-9f33d78e",
+      "quote": "Pitch session",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c36",
+      "text": "Web Summit lists the session 'Panel: Startup Internationalization' on November 11, 2026, 14:00 to 15:00, E369.",
+      "kind": "fact",
+      "source": "ws-panel-startup-internationalization-205b92d4",
+      "quote": "Panel: Startup Internationalization",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c37",
+      "text": "Web Summit lists the session 'Technological platform for tax reform in Brazil - CBS' on November 11, 2026, 15:00 to 16:00, E369.",
+      "kind": "fact",
+      "source": "ws-technological-platform-for-tax-reform-in-brazil-98255d7a",
+      "quote": "Technological platform for tax reform in Brazil - CBS",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c38",
+      "text": "Web Summit lists the session 'SÃO PAULO meets the World' on November 11, 2026, 15:30 to 17:00, E176.",
+      "kind": "fact",
+      "source": "ws-sao-paulo-meets-the-world-0116c7d7",
+      "quote": "SÃO PAULO meets the World",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c39",
+      "text": "Web Summit lists the session 'Brazil Tourism Happy Hour' on November 11, 2026, 16:00 to 17:00, E369.",
+      "kind": "fact",
+      "source": "ws-brazil-tourism-happy-hour-df39f8fe",
+      "quote": "Brazil Tourism Happy Hour",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c40",
+      "text": "Web Summit lists the session '⚽️ Giant foosball game: Portugal vs. Brazil' on November 11, 2026, 21:00 to 21:25, Pink Street.",
+      "kind": "fact",
+      "source": "ws-giant-foosball-game-portugal-vs-brazil-b83b6dd5",
+      "quote": "⚽️ Giant foosball game: Portugal vs. Brazil",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c41",
+      "text": "Web Summit lists the session 'Pitch session' on November 12, 2026, 10:00 to 12:00, E369.",
+      "kind": "fact",
+      "source": "ws-pitch-session-2389913a",
+      "quote": "Pitch session",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c42",
+      "text": "Web Summit lists the session '🇧🇷 Brazil meetup' on November 12, 2026, 12:00 to 12:55, Meetup 4.",
+      "kind": "fact",
+      "source": "ws-brazil-meetup-9ddc9dae",
+      "quote": "🇧🇷 Brazil meetup",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c43",
+      "text": "Web Summit lists the session 'Technology & Connections: A Serpro Happy Hour' on November 12, 2026, 13:00 to 14:00, E369.",
+      "kind": "fact",
+      "source": "ws-technology-connections-a-serpro-happy-hour-958222d1",
+      "quote": "Technology & Connections: A Serpro Happy Hour",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c44",
+      "text": "Web Summit lists the session 'Brazilian Startups Going Global: Innovation, Scale and Competitiveness' on November 12, 2026, 14:30 to 15:00, E369.",
+      "kind": "fact",
+      "source": "ws-brazilian-startups-going-global-innovation-scale-e93c6ee9",
+      "quote": "Brazilian Startups Going Global: Innovation, Scale and Competitiveness",
+      "read_on": "2026-11-09"
+    },
+    {
+      "id": "c45",
+      "text": "Web Summit lists the session 'Sebrae Startups Talk | Bio & Health: Brazilian Innovation for Health and Well-Being' on November 12, 2026, 15:00 to 15:30, E369.",
+      "kind": "fact",
+      "source": "ws-sebrae-startups-talk-bio-health-brazilian-innova-093ca161",
+      "quote": "Sebrae Startups Talk | Bio & Health: Brazilian Innovation for Health and Well-Being",
+      "read_on": "2026-11-09"
+    }
+  ]
+}

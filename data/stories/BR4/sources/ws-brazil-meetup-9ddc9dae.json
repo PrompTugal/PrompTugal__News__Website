@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-brazil-meetup-9ddc9dae",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/9ddc9dae-e1cc-41d2-8bb8-a9b6a8293c0e/brazil-meetup/",
+  "title": "🇧🇷 Brazil meetup (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: '🇧🇷 Brazil meetup', November 12, 2026, 12:00 to 12:55 (Lisbon time), Meetup 4, track Meetup. Description: A space for Brazilians to connect at Web Summit. Meet each other, exchange ideas, and mingle with people who get where you're from. See you there 👋\r\n\r\nUm espaço para brasileiros no Web Summit. Vamos trocar ideias, fazer contatos e conhecer "
+}

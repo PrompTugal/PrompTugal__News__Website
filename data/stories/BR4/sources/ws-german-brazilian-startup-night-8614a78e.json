@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-german-brazilian-startup-night-8614a78e",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/8614a78e-c6b7-4c95-8f7b-a52a4cc38885/german-brazilian-startup-night/",
+  "title": "German-Brazilian Startup Night (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'German-Brazilian Startup Night', November 10, 2026, 17:30 to 22:30 (Lisbon time), Gale patio, track Meetup. Description: For many years, Startup Germany Night has been one of the flagship networking events for Germany's startup ecosystem during Web Summit. This year, the format enters an exciting new chapter: the event will be hosted in close partnership with"
+}
