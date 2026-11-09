@@ -52,6 +52,12 @@
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "days_page": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
     }
   },
   "additionalProperties": false

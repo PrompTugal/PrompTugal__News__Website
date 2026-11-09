@@ -68,5 +68,10 @@
     "n_events": "events this week",
     "n_stories": "stories, signed",
     "summit_days": "November, Lisbon"
+  },
+  "days_page": {
+    "unpicked": "The five are picked by the morning; until then these are the day's highest-ranked items.",
+    "else_today": "Everything else today",
+    "else_other": "Everything else on this day"
   }
 }
