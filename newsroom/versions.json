@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.773",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: code from outside dev@'s review is flagged by the gate (security@'s S30); the verifier's records checked for contact details (S28b, S21)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d40bed9ed"
+  },
+  {
     "version": "v0.1.772",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
