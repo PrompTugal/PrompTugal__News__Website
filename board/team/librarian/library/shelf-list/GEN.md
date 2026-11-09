@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: GEN, The repository"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T18:58:34Z"
-site_version: "v0.1.885"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T21:57:52Z"
+site_version: "v0.1.908"
 source: board/catalogue.json
 ---
 
 # Shelf list: GEN, The repository
 
-42 cards, from `GEN.BOARD 2026-11-06-agent-reads-and-visibility` to `GEN.README README`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+43 cards, from `GEN.BOARD 2026-11-06-agent-reads-and-visibility` to `GEN.README README`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -40,7 +40,7 @@ source: board/catalogue.json
 | `GEN.BOARD 2026-11-06-the-site-over-time` | [Pass: the-site-over-time](https://promptugal.news/board/passes/2026-11-06-the-site-over-time.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-the-summit-days` | [Pass: the-summit-days](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | pass | conductor@ 6 Nov 2026 |
 
-**Cards 26 to 42**
+**Cards 26 to 43**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
@@ -49,6 +49,7 @@ source: board/catalogue.json
 | `GEN.BOARD 2026-11-06-the-updates-section` | [Pass: the-updates-section](https://promptugal.news/board/passes/2026-11-06-the-updates-section.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD 2026-11-06-the-verification-pipeline` | [Pass: the-verification-pipeline](https://promptugal.news/board/passes/2026-11-06-the-verification-pipeline.md) | pass | conductor@ 6 Nov 2026 |
 | `GEN.BOARD conductor-watch` | [conductor-watch.json](https://promptugal.news/board/conductor-watch.json) | board | conductor@web-summit.dinis 9 Nov 2026 |
+| `GEN.BOARD signups` | [signups.json](https://promptugal.news/board/lanes/signups.json) | board | conductor@web-summit.dinis 9 Nov 2026 |
 | `GEN.BRIEF 01-the-vision` | [Brief 1: Dinis Cruz, the vision for the newsroom (4 November 2026)](https://promptugal.news/brief/01-the-vision/) | site | conductor@web-summit.dinis 4 Nov 2026 |
 | `GEN.BRIEF 02-the-newsroom` | [Brief 2: what this newsroom is, its principles and how we know it works](https://promptugal.news/brief/02-the-newsroom/) | site | conductor@web-summit.dinis 4 Nov 2026 |
 | `GEN.BRIEF 03-what-we-publish` | [Brief 3: what we publish, the beats and the shape of an article](https://promptugal.news/brief/03-what-we-publish/) | site | conductor@web-summit.dinis 4 Nov 2026 |
