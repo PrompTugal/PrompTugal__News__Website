@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: graph taps and motion reviewed",
-  "updated": "2026-11-07T21:45Z",
+  "state": "running on account B: the attendee planning Monday reviewed",
+  "updated": "2026-11-08T00:45Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -27,12 +27,13 @@
     "12:35 (7 Nov): offline mode re-measured at v0.1.532 after dev@'s two rounds: O2 and O3 done; O6 (rank 1) found: pages kept as /events/ but links ask for /events/index.html, so the tabs still land on Offline copies; dev@ told with the exact test. Inbox: designer@'s 09:36 note read (O3 to O5 designed)",
     "15:35 (7 Nov): offline mode re-measured at v0.1.572: O6, O1, O4 done; the pass's promise met on Chromium; dev@ told",
     "18:35 (7 Nov): first review of the graph pages (seven pictures and /graph/, v0.1.606): keep the words under every picture; G1 to G6 (rank 1 Algarve Evolution's network cuts names on a phone); dev.graphs@ told (inbox dev.graphs-2). H2 (DevFest Lagos without its place) still open on the home designs",
-    "21:35 (7 Nov): the graphs' taps and reduced motion on a phone (v0.1.640): motion respected; X1 a tap's company card lands under the tab bar, so taps seem to do nothing; X2 the explorer's 4 px labels; X3 new tabs on a phone; G2 corrected; dev.graphs@ told. Inbox: designer@'s note (G6 is H7, with dev@)"
+    "21:35 (7 Nov): the graphs' taps and reduced motion on a phone (v0.1.640): motion respected; X1 a tap's company card lands under the tab bar, so taps seem to do nothing; X2 the explorer's 4 px labels; X3 new tabs on a phone; G2 corrected; dev.graphs@ told. Inbox: designer@'s note (G6 is H7, with dev@)",
+    "00:35 (8 Nov): the attendee on Sunday night planning Monday (v0.1.677): Monday's day page right; A1 (rank 1) the Agenda tab opens Events (51.5 phone screens, no days strip); A2 the reading meter reads as a bill; dev@ and dev.pages@ told. Inbox: no new message (the three designer@ notes re-drained)"
   ],
   "next": [
-    "re-measure G1 to G5 and X1 to X3 after dev.graphs@'s round",
-    "the home designs: H2, H4, H5",
-    "with synthetic@: a WebKit run (T24, Safari's offline storage)"
+    "re-measure A1 before Monday morning; G1 to G5 and X1 to X3 after dev.graphs@'s round; the home designs' H2, H4, H5",
+    "on Monday: the site at the venue (Opening Night) as an attendee, phone and offline",
+    "with synthetic@: a WebKit run (T24)"
   ],
   "asks": [
     "For Dinis: the reading credit shows pounds (£5.00) on a Lisbon, European site; is that meant, or euros? (carried over)",
@@ -158,9 +159,15 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "graph taps and motion: X1 to X3; G2 corrected"
+    },
+    {
+      "started": "2026-11-08T00:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "planning Monday: A1 the Agenda tab"
     }
   ],
-  "debrief": "board/team/sherpa/debriefs/2026-11-07-handover.md",
+  "debrief": "board/team/sherpa/debriefs/2026-11-08-handover.md",
   "session": "board/team/sherpa/sessions/session_01Kw9UwBoVfeDFocNhLzBz78/notes.md",
   "key": "sherpa-b-promptugal (board/keys.json); sherpa-promptugal superseded 22:50Z"
 }

@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B)",
-  "updated": "2026-11-07T22:40Z",
+  "updated": "2026-11-08T00:55Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -50,12 +50,13 @@
     "dev.verify@'s 14:57 flags: BR6's pavilion sentence now says 10 to 12 November with its source (Executive Digest with Lusa); the rest are verifier errors, stale text or already answered; re-signed (wake 16:26)",
     "WK1 'Plan your week by field: which summit day is yours' published and signed, from correspondent@'s idea (inbox, signature checked): counted from all 1,122 sessions on Web Summit's public schedule (security all Thursday, PITCH all Tuesday) (wake 18:26)",
     "WK1 corrected in public: PITCH's 16 Tuesday sessions are the group rounds and the semi-finalists' announcement; the semi-final (Wed 17:00) and final (Thu 12:30, winner 15:00) are on Centre Stage; re-signed (wake 20:26, from a dev.verify@ flag)",
-    "Vicky's S26 and S27 checked: both held for her approval, not this desk's; the 7 November debrief refreshed with the day's lessons (wake 22:26)"
+    "Vicky's S26 and S27 checked: both held for her approval, not this desk's; the 7 November debrief refreshed with the day's lessons (wake 22:26)",
+    "WK1 re-counted from Web Summit's schedule (1,070 sessions on Sunday; 63 gone, 11 added): table updated; PITCH's stages corrected (6, 9 and 12) and the dropped winner announcement removed; re-signed (wake 00:26, 8 November)"
   ],
   "next": [
-    "Sunday 8 November: re-count WK1 from Web Summit's schedule if it has moved",
+    "Sunday evening: re-count WK1 once more before it leads Monday",
     "On or after 10 November: BR2's dated update with the 2027 class",
-    "Watch the inbox, dev.verify@'s flags and Vicky's reviews"
+    "The 8 November hand-over debrief"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
@@ -274,6 +275,12 @@
       "outcome": "ok",
       "release": "pending",
       "line": "nothing new to publish; debrief refreshed"
+    },
+    {
+      "started": "2026-11-08T00:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "WK1 re-counted and corrected (PITCH stages)"
     }
   ],
   "decisions_on_findings": [

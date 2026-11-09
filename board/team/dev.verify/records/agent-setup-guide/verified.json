@@ -135,21 +135,21 @@
           "verdict": "partly",
           "source": "S18",
           "quote": "Seven people are going to Lisbon",
-          "note": "The source names seven people going to Lisbon plus a designer (Sarah) and a friendly (Daniela), which adds up to nine humans, but it never states a total of nine, and the team also includes agents."
+          "note": "The source names seven people going to Lisbon, and it never states a total of nine, and the team also includes agents."
         },
         {
           "model": "google/gemini-3.8-flash",
           "verdict": "supported",
           "source": "S18",
-          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), working with a designer (Sarah) and a first friendly (Daniela)",
-          "note": "The team consists of seven people traveling to Lisbon alongside a designer and a first friendly, totaling nine people."
+          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte)",
+          "note": "The team consists of seven people traveling to Lisbon."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "partly",
           "source": "S18",
-          "quote": "Seven people are going to Lisbon ... working with a designer (Sarah) and a first friendly (Daniela)",
-          "note": "The source implies nine people are involved (seven plus two), but it does not explicitly say the team behind the newsroom has nine people."
+          "quote": "Seven people are going to Lisbon",
+          "note": "The source does not say the team behind the newsroom has nine people."
         }
       ],
       "consensus": "disagree",

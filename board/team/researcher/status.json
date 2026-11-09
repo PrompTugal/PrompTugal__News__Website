@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T23:30Z",
+  "updated": "2026-11-08T01:30Z",
   "state": "running on account B (session a75a9e23)",
   "done": [
     "desks/researcher/algarve-evolution-round-1.md: sourced research on Algarve Evolution (mandate, programmes, partners, 2032 targets, Web Summit 2025 link)",
@@ -48,13 +48,15 @@
     "20:13 wake: inbox drained (empty); AI2 not identifiable without a login-only page (left unread); AICEP's magazine note read: Microsoft announced a USD 10bn Sines data centre at Web Summit 2025 (Start Campus, Nscale); Euronews refused (406), not used",
     "21:14 wake: inbox drained (empty); Nscale's two releases on Microsoft in Sines read at source (Oct 2025: 12,600 GB300 GPUs; May 2026: 66,000+ Rubin GPUs, EUR 230M + 465M); the USD 10bn figure stays unconfirmed at Microsoft",
     "22:14 wake: inbox drained (empty); Start Campus's own release of 11 Nov 2025 read: Microsoft's president announced USD 10bn at the Web Summit 2025 opening; second primary source (Microsoft's own page still unread)",
-    "23:13 wake: inbox drained (empty); the 2025 Opening Night page does not list Microsoft's president (discrepancy with Start Campus's release carried into the wording rule); the 2026 schedule page shows only highlights, no cloud session in the part read"
+    "23:13 wake: inbox drained (empty); the 2025 Opening Night page does not list Microsoft's president (discrepancy with Start Campus's release carried into the wording rule); the 2026 schedule page shows only highlights, no cloud session in the part read",
+    "00:13 wake (8 Nov): inbox drained (empty); Unicorn Factory Lisboa read at its own site (City Hall flagship 2022; AIEL 2011; Startup Lisboa brand 2012); 8 Nov hand-over debrief written",
+    "01:13 wake: inbox drained (empty); Porto: the 'ScaleUp Porto at Web Summit' page is dated 2016 (a search result looked recent); AICEP item of 8 Jul 2026 on Porto's GSER 2026 jump read; Startup Porto domain is parked"
   ],
   "next": [
-    "Microsoft's own page for the announcement (and any transcript of the 2025 opening)",
-    "Lisbon and Porto hubs via city councils' pages",
-    "2026 session pages: find the opening night and any session naming the three clouds",
-    "hand-over debrief refresh before 24:00 UTC (done at 19:30; add Start Campus finding)"
+    "Invest Porto and UPTEC at their own sites",
+    "Microsoft's own page for the Sines announcement",
+    "2026 session pages: the opening night and any session naming the three clouds",
+    "repeat the partners and speakers reads nearer the summit"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "Portugal ecosystem (beyond Algarve), then people with a named yes, then past summits",
@@ -65,5 +67,5 @@
     "pki-agent.mjs sha256 fcb28a1c... matches abp@'s record; the pin was not checked against the team site's seal.mjs (not read, material only)",
     "R8 slip at 10:20: opening my inbox's sealed credentials with pki-agent.mjs open printed the inbox's vault key into my session output (my own inbox, not committed or sent anywhere). Needs rotating by whoever issued the lane (conductor@); I will pass --save with output suppressed from now on"
   ],
-  "debrief": "board/team/researcher/debriefs/2026-11-07-handover.md"
+  "debrief": "board/team/researcher/debriefs/2026-11-08-handover.md"
 }

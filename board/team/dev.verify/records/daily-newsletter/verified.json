@@ -1,0 +1,394 @@
+{
+  "$schema": "none",
+  "article": "daily-newsletter",
+  "verified_on": "2026-11-08",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://promptugal.news/newsletter/index.html",
+      "status": 200,
+      "read": true,
+      "chars": 2879
+    },
+    {
+      "url": "https://promptugal.news/newsletter/2026-11-07-morning/index.html",
+      "status": 200,
+      "read": true,
+      "chars": 4289
+    },
+    {
+      "url": "https://promptugal.news/newsletter/2026-11-07-evening/index.html",
+      "status": 200,
+      "read": true,
+      "chars": 4931
+    },
+    {
+      "url": "https://promptugal.news/api/v1/newsletter/2026-11-07-evening.txt",
+      "status": 200,
+      "read": true,
+      "chars": 4177
+    },
+    {
+      "url": "https://promptugal.news/api/v1/newsletter.json",
+      "status": 200,
+      "read": true,
+      "chars": 916
+    }
+  ],
+  "spent_usd": 0.1099,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "PrompTugal.news started its daily newsletter on Saturday 7 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "from Saturday 7 November",
+          "note": "The newsletter page says the morning and evening editions run from Saturday 7 November, and the pages are dated Sunday 8 November, so the start date is supported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "A morning and an evening edition of PrompTugal.news in Web Summit Lisbon week, from Saturday 7 November",
+          "note": "The source explicitly confirms that PrompTugal.news began its daily morning and evening newsletter editions on Saturday 7 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "PrompTugal.news starts a daily newsletter . From 7 November",
+          "note": "The source states the daily newsletter starts from 7 November, which is Saturday 7 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c2",
+      "claim": "The newsletter was started for Web Summit Lisbon week.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "A morning and an evening edition of PrompTugal.news in Web Summit Lisbon week, from Saturday 7 November",
+          "note": "The sources say the newsletter runs through Web Summit Lisbon week from 7 November, but none says it was started for that week."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "PrompTugal.news starts a daily newsletter . From 7 November, PrompTugal.news publishes a morning and an evening edition through Web Summit week",
+          "note": "The source directly states that PrompTugal.news launched the daily newsletter to publish through Web Summit week."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "From 7 November, PrompTugal.news publishes a morning and an evening edition through Web Summit week",
+          "note": "The source states the daily newsletter began on 7 November and ran through Web Summit week."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c3",
+      "claim": "The newsletter sends two editions a day: a morning edition and an evening edition.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Two editions a day in summit week.",
+          "note": "The source confirms a morning and an evening edition each day, but only for Web Summit week from 7 November, and it says Web Summit's team handles sending, while the site produces the editions and their email versions."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "Two editions a day in summit week.",
+          "note": "The source limits the two daily editions (morning and evening) specifically to Web Summit week, rather than as a general ongoing schedule."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "exaggerated",
+          "source": "S1",
+          "quote": "Two editions a day in summit week.",
+          "note": "The source says two editions a day only in summit week, while the claim states it without that limitation."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The first morning edition, dated 7 November, listed five items to plan around.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Five things to plan around today",
+          "note": "The morning edition dated Saturday 7 November says \"Five things to plan around today\" and lists five items, and S1 confirms that morning editions began from 7 November."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Five things to plan around today, from the programme as we hold it.",
+          "note": "The morning edition for Saturday 7 November explicitly lists five things to plan around for that day."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Five things to plan around today",
+          "note": "S2 is the morning edition dated Saturday 7 November and explicitly lists five things to plan around."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The first morning edition listed Portugal Tech Week, two side events in the Algarve, registration at Lisbon airport and at the Pavilhão de Portugal, and a startup football tournament.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "a 7-a-side startup football tournament",
+          "note": "The Saturday 7 November morning edition lists Portugal Tech Week, two Algarve side events (TMCT'26 at Hotel Pestana Alvor and DevFest Lagos), registration at Humberto Delgado Airport and at Pavilhão de Portugal, and a startup football tournament, so every element of the claim is in S2."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Five things to plan around today, from the programme as we hold it. Times and rooms can move: each item links to its source. All day Portugal Tech Week 2026 runs to 15 November (it began on 6 November): a decentralised festival of tech and innovation events across Portugal Portugal · Side event All day TMCT'26, Tourism Management and Computing Technologies International Conference: in-person days 5 to 7 November (online days were 2 and 3 November) Hotel Pestana Alvor Praia · Side event · in the Algarve, not Lisbon 08:30 DevFest Lagos 2026 (Google Developer Group Lagos) until 18:00 · Lagos · Side event · in the Algarve, not Lisbon 09:30 Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID) until 22:00 · Humberto Delgado Airport, Terminal 1 · Registration · also at Pavilhão de Portugal, 12:00 13:30 Startup Web Summit Kick Off: a 7-a-side startup football tournament",
+          "note": "The first morning edition on 7 November lists Portugal Tech Week, two side events in the Algarve, registration at Humberto Delgado Airport and Pavilhão de Portugal, and a 7-a-side startup football tournament."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "All day Portugal Tech Week 2026 runs to 15 November (it began on 6 November): a decentralised festival of tech and innovation events across Portugal Portugal · Side event All day TMCT'26, Tourism Management and Computing Technologies International Conference: in-person days 5 to 7 November (online days were 2 and 3 November) Hotel Pestana Alvor Praia · Side event · in the Algarve, not Lisbon 08:30 DevFest Lagos 2026 (Google Developer Group Lagos) until 18:00 · Lagos · Side event · in the Algarve, not Lisbon 09:30 Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID) until 22:00 · Humberto Delgado Airport, Terminal 1 · Registration · also at Pavilhão de Portugal, 12:00 13:30 Startup Web Summit Kick Off: a 7-a-side startup football tournament (2nd edition) until 17:15 · Estádio da Tapadinha · Side event",
+          "note": "S2's morning edition lists all five items: Portugal Tech Week, two Algarve side events, registration at Humberto Delgado Airport and Pavilhão de Portugal, and the startup football tournament."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "The first evening edition listed five articles published on 7 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S3",
+          "quote": "Published today",
+          "note": "The evening edition's 'Published today' section lists seven articles, and its 'The latest' section lists three more, so the claim of five does not match; S4 shows the same seven items."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S4",
+          "quote": "Published today\n---------------\n- How many Brazilian startups came to Web Summit last year? [1]\nBrazil brought one of the two largest delegations to Web Summit in 2025.\n- Beyond the pavilion: Brazil's year-round doors into Europe through Portugal [2].\nBehind Brazil's three days at Web Summit are links that stay open all year: Porto Digital's unit in Aveiro, the ApexBrasil and Sebrae incubator in Lisbon, Unicorn Factory Lisboa's Brazilian partners and a 2023 agreement between Sebrae and Startup Portugal.\n- Two editions a day: PrompTugal.news starts a daily newsletter [3].\nFrom 7 November, PrompTugal.news publishes a morning and an evening edition through Web Summit week: what is on today, then what happened and what is next.\n- Driving to Web Summit? Road closures and drop-off points [4].\nWhich roads around the MEO Arena and FIL close from 8 to 12 November, where taxis and ride-hailing cars drop you off, and Carris's temporary terminal by Oriente.\n- Plan your week by field: which summit day is yours [5].\nWeb Summit's tracks do not run every day.\n- The sign-in: how editors and agents prove who they are [6].\nPrompTugal.news lets its editors and agents sign in with a key handed over as a QR code, and checks it against a published public key.\n- A map of Web Summit's buildings, and what each holds [7].",
+          "note": "The evening edition for 7 November listed seven articles under 'Published today', not five."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "contradicted",
+          "source": "S4",
+          "quote": "Published today --------------- - How many Brazilian startups came to Web Summit last year? [1] Brazil brought one of the two largest delegations to Web Summit in 2025. - Beyond the pavilion: Brazil's year-round doors into Europe through Portugal [2]. Behind Brazil's three days at Web Summit are links that stay open all year: Porto Digital's unit in Aveiro, the ApexBrasil and Sebrae incubator in Lisbon, Unicorn Factory Lisboa's Brazilian partners and a 2023 agreement between Sebrae and Startup Portugal. - Two editions a day: PrompTugal.news starts a daily newsletter [3]. From 7 November, PrompTugal.news publishes a morning and an evening edition through Web Summit week: what is on today, then what happened and what is next. - Driving to Web Summit? Road closures and drop-off points [4]. Which roads around the MEO Arena and FIL close from 8 to 12 November, where taxis and ride-hailing cars drop you off, and Carris's temporary terminal by Oriente. - Plan your week by field: which summit day is yours [5]. Web Summit's tracks do not run every day. - The sign-in: how editors and agents prove who they are [6]. PrompTugal.news lets its editors and agents sign in with a key handed over as a QR code, and checks it against a published public key. - A map of Web Summit's buildings, and what each holds [7]. PrompTugal.news has a new venue map: the summit's buildings in Parque das Nações, drawn from OpenStreetMap, with a count of the programme's sessions in each.",
+          "note": "The evening edition's 'Published today' section lists seven articles, not five."
+        }
+      ],
+      "consensus": "contradicted",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c7",
+      "claim": "The first evening edition pointed ahead to a run in Beato and to registration on Sunday.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Tech Run Lisboa (3rd edition): a 30-minute run on the eve of Web Summit",
+          "note": "The evening edition's \"Tomorrow\" section lists the Beato Innovation District run and a registration item, and tomorrow is Sunday 8 November per the page header, though the page itself says \"tomorrow\" rather than \"Sunday\"."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Tomorrow Two things to plan around tomorrow. All day Tech Run Lisboa (3rd edition): a 30-minute run on the eve of Web Summit Beato Innovation District · Side event 07:30 Registration",
+          "note": "The Saturday 7 November evening edition listed the Tech Run Lisboa at Beato Innovation District and registration under things to plan around for tomorrow (Sunday)."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Tomorrow Two things to plan around tomorrow. All day Tech Run Lisboa (3rd edition): a 30-minute run on the eve of Web Summit Beato Innovation District · Side event 07:30 Registration: collect your lanyard and wristband",
+          "note": "The Saturday 7 November evening edition's Tomorrow section lists Tech Run Lisboa at Beato Innovation District and registration."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "The editions are edited by Dinis Cruz, Indi Gupte and Vicky Wang.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents.",
+          "note": "Multiple sources (S1, S2, S3, S4) state the editions are edited by Dinis Cruz, Indi Gupte and Vicky Wang, matching the claim exactly."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "edited by Dinis Cruz, Indi Gupte and Vicky Wang",
+          "note": "The source directly states that the edition is edited by Dinis Cruz, Indi Gupte and Vicky Wang."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "edited by Dinis Cruz, Indi Gupte and Vicky Wang",
+          "note": "The evening edition plain-text source states it was edited by those three."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "The editions are made by the newsroom's correspondent and journalist agents.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "Made by the correspondent and journalist agents",
+          "note": "The evening edition page says it was made by the correspondent and journalist agents, and the morning edition carries the same wording, though the source also says the editions are edited by named people."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S2",
+          "quote": "Made by the correspondent and journalist agents",
+          "note": "Both the morning and evening newsletter editions state they are made by the correspondent and journalist agents."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S2",
+          "quote": "Every article Made by the correspondent and journalist agents",
+          "note": "The source says articles, not editions, are made by the correspondent and journalist agents; editions are described elsewhere as written by AI agents."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c10",
+      "claim": "Subscribers and sending of the newsletter are handled by the Web Summit team, not on the PrompTugal.news site.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Subscribers and sending are handled by the Web Summit team, not on this site.",
+          "note": "The newsletter page states directly that subscribers and sending are handled by the Web Summit team rather than on the PrompTugal.news site."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Subscribers and sending are handled by the Web Summit team, not on this site.",
+          "note": "The daily newsletter page explicitly notes that subscribers and sending are managed by the Web Summit team rather than on its site."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Subscribers and sending are handled by the Web Summit team, not on this site.",
+          "note": "The newsletter page states that subscribers and sending are handled by the Web Summit team, not on the PrompTugal.news site."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c11",
+      "claim": "The newsletter's email states that it is \"not affiliated with Web Summit\".",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "not affiliated with Web Summit",
+          "note": "The plain-text email version of the evening edition ends with \"Independent: not affiliated with Web Summit.\""
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "Independent: not affiliated with Web Summit.",
+          "note": "The plain-text email version of the newsletter explicitly states that it is independent and not affiliated with Web Summit."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S4",
+          "quote": "not affiliated with Web Summit",
+          "note": "The evening edition email plain text includes the statement \"Independent: not affiliated with Web Summit.\""
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c12",
+      "claim": "The source pages were read on 7 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "The sources give the edition dates as 7 November but never state when the pages were read, and their headers show 'Lisbon · Sunday 8 November 2026', so the 7 November read date is not supported."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "None of the provided sources state that the source pages were read on 7 November 2026."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "unsupported",
+          "source": null,
+          "quote": "",
+          "note": "No source states when the source pages were read; they only show edition dates or a current date of 8 November 2026."
+        }
+      ],
+      "consensus": "unsupported",
+      "flag_to_journalist": true
+    }
+  ]
+}

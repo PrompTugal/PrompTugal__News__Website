@@ -3,7 +3,7 @@
   "conductor.b": {
     "session": "session_01Kw9UwFbo4iCoohkgnZar9k",
     "trigger": "trig_017EmBdNrW7RULLqFTmvWhGn",
-    "cron": "7 * * * *"
+    "cron": "7 */3 * * *"
   },
   "agents": [
     {
@@ -13,7 +13,9 @@
       "trigger": "trig_019oFFeYYbd5pXKrM6Lmzjb6",
       "cron": "56 */3 * * *",
       "started": "2026-11-06T22:23Z",
-      "first_prompt": "board/team/conductor/account-move/librarian.md"
+      "first_prompt": "board/team/conductor/account-move/librarian.md",
+      "state": "paused",
+      "note": "paused 00:52 UTC 8 Nov at Dinis's word"
     },
     {
       "agent": "journalist@PrompTugal.dinis",
@@ -22,7 +24,9 @@
       "trigger": "trig_01Fti3q1AN73Fn82ZdJmgGGN",
       "cron": "26 */2 * * *",
       "started": "2026-11-06T22:44Z",
-      "first_prompt": "board/team/conductor/account-move/journalist.md"
+      "first_prompt": "board/team/conductor/account-move/journalist.md",
+      "state": "paused",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')"
     },
     {
       "agent": "correspondent@PrompTugal.dinis",
@@ -31,7 +35,9 @@
       "trigger": "trig_01VmHTK48ncgjxhYgfDkdxXS",
       "cron": "41 */2 * * *",
       "started": "2026-11-06T22:44Z",
-      "first_prompt": "board/team/conductor/account-move/correspondent.md"
+      "first_prompt": "board/team/conductor/account-move/correspondent.md",
+      "state": "paused",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')"
     },
     {
       "agent": "synthetic@PrompTugal.dinis",
@@ -40,16 +46,20 @@
       "trigger": "trig_01CTqt1qH5nVcWoGpGXk7j3x",
       "cron": "44 */2 * * *",
       "started": "2026-11-06T22:44Z",
-      "first_prompt": "board/team/conductor/account-move/synthetic.md"
+      "first_prompt": "board/team/conductor/account-move/synthetic.md",
+      "state": "paused",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')"
     },
     {
       "agent": "designer@PrompTugal.dinis",
       "model": "Opus",
       "session": "session_01Kw9UwBz3RCCiGVDcir6TJ4",
       "trigger": "trig_01AiuiCa9HMfdETkeYjU3rrP",
-      "cron": "33 * * * *",
+      "cron": "33 */2 * * *",
       "started": "2026-11-06T22:44Z",
-      "first_prompt": "board/team/conductor/account-move/designer.md"
+      "first_prompt": "board/team/conductor/account-move/designer.md",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')",
+      "state": "paused"
     },
     {
       "agent": "designer.experiments@PrompTugal.dinis",
@@ -58,16 +68,20 @@
       "trigger": "trig_01T7yZ7X94PuBV4gcCUNofj8",
       "cron": "58 */2 * * *",
       "started": "2026-11-06T22:44Z",
-      "first_prompt": "board/team/conductor/account-move/designer.experiments.md"
+      "first_prompt": "board/team/conductor/account-move/designer.experiments.md",
+      "state": "paused",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')"
     },
     {
       "agent": "ontologist@PrompTugal.dinis",
       "model": "Opus",
       "session": "session_01Kw9UwBtpQ2smdiLE2DEkEc",
       "trigger": "trig_01JtywHmsrju1iCBtYSEERTT",
-      "cron": "21 * * * *",
+      "cron": "21 */2 * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/ontologist.md"
+      "first_prompt": "board/team/conductor.b/account-move/ontologist.md",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')",
+      "state": "paused"
     },
     {
       "agent": "devops@PrompTugal.dinis",
@@ -76,7 +90,9 @@
       "trigger": "trig_01JcRrW5XgAd2pDMu8RaeJ2r",
       "cron": "14 */2 * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/devops.md"
+      "first_prompt": "board/team/conductor.b/account-move/devops.md",
+      "state": "paused",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')"
     },
     {
       "agent": "outreach@PrompTugal.dinis",
@@ -85,7 +101,9 @@
       "trigger": "trig_012iE7v2783ye6RVTr2GUG9w",
       "cron": "38 * * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/outreach.md"
+      "first_prompt": "board/team/conductor.b/account-move/outreach.md",
+      "state": "paused",
+      "note": "paused 00:52 UTC 8 Nov at Dinis's word (idle: the 50 wait for him)"
     },
     {
       "agent": "sherpa@PrompTugal.dinis",
@@ -94,7 +112,9 @@
       "trigger": "trig_01UasQn6f62gr8nLnBmVG89z",
       "cron": "29 */3 * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/sherpa.md"
+      "first_prompt": "board/team/conductor.b/account-move/sherpa.md",
+      "state": "paused",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')"
     },
     {
       "agent": "investors@PrompTugal.dinis",
@@ -103,7 +123,9 @@
       "trigger": "trig_01677gSigivKe6fVfL5vZaj6",
       "cron": "23 */3 * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/investors.md"
+      "first_prompt": "board/team/conductor.b/account-move/investors.md",
+      "state": "paused",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')"
     },
     {
       "agent": "researcher@PrompTugal.dinis",
@@ -112,7 +134,9 @@
       "trigger": "trig_01Wwd5KzbsFY3HivhfZuqRfA",
       "cron": "13 * * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/researcher.md"
+      "first_prompt": "board/team/conductor.b/account-move/researcher.md",
+      "state": "paused",
+      "note": "paused 02:04 UTC 8 Nov at Dinis's word ('stop all')"
     },
     {
       "agent": "historian@PrompTugal.dinis",
@@ -139,7 +163,9 @@
       "trigger": "trig_01SDCWupdXeTmesSyPX7yR3f",
       "cron": "9 */6 * * *",
       "started": "2026-11-06T22:45Z",
-      "first_prompt": "board/team/conductor.b/account-move/backup.md"
+      "first_prompt": "board/team/conductor.b/account-move/backup.md",
+      "state": "paused",
+      "note": "paused 00:52 UTC 8 Nov at Dinis's word"
     },
     {
       "agent": "dev@PrompTugal.dinis",
@@ -148,25 +174,31 @@
       "trigger": "trig_01Hw22FveCwW7MNvQXX8dWry",
       "cron": "8 * * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.md"
+      "first_prompt": "board/team/conductor/account-move/dev.md",
+      "state": "paused",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')"
     },
     {
       "agent": "dev.pages@PrompTugal.dinis",
       "model": "Sonnet",
       "session": "session_01Kw9UwBzsHAcGZVxvT8mB5J",
       "trigger": "trig_01HA1m1cJYE3NgHy7EGG1CMW",
-      "cron": "11 */2 * * *",
+      "cron": "11 */4 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.pages.md"
+      "first_prompt": "board/team/conductor/account-move/dev.pages.md",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
+      "state": "paused"
     },
     {
       "agent": "dev.search@PrompTugal.dinis",
       "model": "Sonnet",
       "session": "session_01Kw9UwBx2Nippdqi6519rZ7",
       "trigger": "trig_01PJvGPYqhAEJdthcH7xXQQc",
-      "cron": "4 */2 * * *",
+      "cron": "4 */4 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.search.md"
+      "first_prompt": "board/team/conductor/account-move/dev.search.md",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
+      "state": "paused"
     },
     {
       "agent": "dev.graphs@PrompTugal.dinis",
@@ -175,16 +207,20 @@
       "trigger": "trig_01JchLATukuMaNSt5EpkuS7i",
       "cron": "17 */2 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.graphs.md"
+      "first_prompt": "board/team/conductor/account-move/dev.graphs.md",
+      "state": "paused",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')"
     },
     {
       "agent": "dev.portugal@PrompTugal.dinis",
       "model": "Sonnet",
       "session": "session_01Kw9UwF9mtYKs9vSRdsw7My",
       "trigger": "trig_01HomqaJgohju8jn7zrNbMx7",
-      "cron": "23 */2 * * *",
+      "cron": "23 */4 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.portugal.md"
+      "first_prompt": "board/team/conductor/account-move/dev.portugal.md",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
+      "state": "paused"
     },
     {
       "agent": "dev.data@PrompTugal.dinis",
@@ -193,16 +229,20 @@
       "trigger": "trig_012oZGZ6ngGhEG6WJvpV4wGY",
       "cron": "31 */2 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.data.md"
+      "first_prompt": "board/team/conductor/account-move/dev.data.md",
+      "state": "paused",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')"
     },
     {
       "agent": "dev.verify@PrompTugal.dinis",
       "model": "Sonnet",
       "session": "session_01Kw9UwCJ6NJ3x7W7R6g7eum",
       "trigger": "trig_014DcM989Rgf8xSZuL5nb6XK",
-      "cron": "48 */2 * * *",
+      "cron": "48 */4 * * *",
       "started": "2026-11-06T23:09Z",
-      "first_prompt": "board/team/conductor/account-move/dev.verify.md"
+      "first_prompt": "board/team/conductor/account-move/dev.verify.md",
+      "note": "paused 01:11 UTC 8 Nov at Dinis's word ('for today, we can stop all those dev')",
+      "state": "paused"
     },
     {
       "agent": "xray@PrompTugal.dinis",

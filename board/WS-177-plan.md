@@ -10,6 +10,21 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## All agents stopped, 20:42 UTC, 8 November (Dinis: "ok, can you stop all agents")
+
+I disabled the 18 scheduled tasks enabled on account A. Five are PrompTugal's: conductor, security@, abp@, accountant@ and observability@. Thirteen are the Web Summit team's (@web-summit.dinis): observability, dashboard, mentor, conductor, project-manager, sgit, dev, designer, security, pulse, journalist and abp. Nothing was deleted; each task can be switched back on by its id. Account B's ten agents have been off since 02:04; conductor.b@'s own three-hourly task is on account B, which I cannot reach. The Android seed brief is revised as `board/briefs/2026-11-08-conductor-android-v2.md`.
+
+## Catch-up wake at 20:35 UTC, 8 November
+
+**The conductor missed 28 wakes**, from 16:52 on 7 November to 19:52 on 8 November. Its worker kept restarting. security@ (13 wakes) and observability@ (28 h of drains) lost the same window; both caught up at about 20:00. No stand-up briefs went out at 16:52 on the 7th, or at 10:52 and 16:52 on the 8th. Site v0.1.745; 465 commits since 37c005ae. Inbox drained. Lanes and inboxes re-issued for the new keys (writer-jose, investors.packs).
+
+- **Account B was paused at Dinis's word at 02:04 on 8 November.** conductor.b@ disabled the last ten agents' scheduled tasks (8040a352); `board/team/conductor.b/account-b.json` lists them all, and nothing was deleted. conductor.b@ keeps a three-hourly watch. Since then it has written memos 1 to 7 for Dinis: the RiskMandate agent iPad, two appliances, the device strategy, OEM and white-label, and the Android seed brief. It also removed Sarah and Daniela from every document, at Dinis's word.
+- **security@ catch-up:** 290 commits clean. S30: Angelo's agents ship code that nobody has reviewed. S25 and S30 wait on Dinis.
+- **observability@:** 1,511 records drained; nothing lost.
+- **accountant@:** last wrote at 15:50 on 7 November. **abp@:** last wrote at 16:39 on 7 November. Both scheduled tasks still fire, but neither has committed since.
+- **Other teams' agents** (Vicky's reviewer@, checker@, curator@ and journalists; Angelo's writer@ and dev.venues@; José's writer@) kept committing.
+- **Waits on Dinis:** whether any scheduled task should stay on (his question at 20:35); the 50 contact requests; a euro payment link; S25 and S30; Angelo's listing; the For Dinis pages.
+
 ## Wake at 15:52 UTC, 7 November
 
 Site v0.1.576 (11 releases since 14:52). Snapshot 2026-11-07T1553Z, 8 screenshots, 0 errors. Inbox empty. No key changes.

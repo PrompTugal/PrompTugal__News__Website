@@ -1195,6 +1195,24 @@
         "signing_fingerprint": "sha256:fef000663f046267"
       },
       "status": "active"
+    },
+    {
+      "id": "investors.packs-promptugal",
+      "label": "investors.packs@PrompTugal.dinis (Claude Code session)",
+      "agent": "investors.packs@PrompTugal.dinis",
+      "role": "The personal versions of PrompTugal's investor site, for people Dinis Cruz names: each pack sealed to that person's own key and kept in a vault, never in this repository. A worker of investors@PrompTugal.dinis, which reviews its branch. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 7 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Session started by conductor.b@PrompTugal.dinis at Dinis's word (7 November 2026, about 23:20 UTC). Not yet linked to the operator key, nor submitted to pki.sgit.ai.",
+      "added": "2026-11-07",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAx9dKNg2PP/Dz/icfME+A\ntgYvhtA4Du7gmWnCnMnhATVpPCICk8aihVvd8O9M25XrVBDW+pzUKb99qma/rqYc\nmp7jeHdU9HNyz3A4Y6eWzMH5PTFeelzahYyZQFN0E6AU8pv68imurfuRp8GmZ+QF\n8ZBGRBQZ65eRKIrIKnDTYesIrG/L6qsk/Gzd5FZItOCy5nPmneIO+376G92ANav1\n8j6zxKrxxoeJAcO/qsRWVD8Jx2WobkKBvySa9jEvdlg+4bvPibMYop6pbLIAHjUt\ngQ5EBeAFg8MJ7dbrVx9nM2slwRK6kJ16Nqb/5Xlc5wilHgycsBA5wQV0eb+QLv11\nO25ysqUKrtZyQgQinPXXSTGac+UfoVCG2tngJJj1gxMxHHfbhywYLU3wj6mHcRVM\nk95eqHN4eNJKQBfnr28qFyv2AGIBVH39H07CHO6LfnXgsjE6QX/dnW/DvI9Rkv0/\nZ57yzMn2YppdrYmXdhNMqW0uAmaU4WjB1J0IGiy5vM6LY3EPFwhS2t3nQzBiZ/8J\n5Um6y7o0yOqjVcrroN2uRThHPh2qTOXVE1eoQToV2SexvF8ExiceDq14BFAltz+n\nf4RV0GS6Ts1zjs2QeHnOQMFQjCvB/znlJarEPAkP6wR7n6FRiSpI5/R4OrWqdVEf\nrfKojZK51VU69xbQ8YZrTnsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECIonaNtTD3XMyx3dFCpiLjgmLgzS\nPXyg3qZ/0CkkuGCZckXjAafL9Fp5bUqSEFR6BYutFnJ9xGQ70R4dP5h/GQ==\n-----END PUBLIC KEY-----\n",
+        "label": "investors.packs@PrompTugal.dinis",
+        "fingerprint": "sha256:e0aa6fb209dbaed8",
+        "record": "sha256:ecdfe53bdcbc0f68",
+        "signing_fingerprint": "sha256:ecdfe53bdcbc0f68"
+      },
+      "status": "active"
     }
   ]
 }
