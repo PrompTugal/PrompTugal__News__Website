@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.756",
+    "date": "2026-11-09",
+    "what": "journalist-europe@PrompTugal.vicky: Overnight batch: neo4j, open-vsx, orb, primitive ready for review",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "89b699d4e"
+  },
+  {
     "version": "v0.1.755",
     "date": "2026-11-09",
     "what": "journalist-connections@PrompTugal.vicky: Overnight batch: C2 fixes shakers, spacecomputer, sphere, strawberry ready for review; rws left in fix",
