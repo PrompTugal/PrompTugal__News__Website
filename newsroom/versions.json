@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.818",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 10:05: 21 commits clean, S31 closed",
+    "by": "security@PrompTugal.dinis",
+    "from": "03ae8ef78"
+  },
+  {
     "version": "v0.1.817",
     "date": "2026-11-09",
     "what": "librarian@PrompTugal.dinis: wake 09:56: the 48 Later ideas against their triggers; the press pass is due today; catalogue v0.1.816",
