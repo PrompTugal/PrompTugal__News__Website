@@ -696,6 +696,53 @@
       "about": [
         "organisation:web-summit"
       ]
+    },
+    {
+      "id": "c59",
+      "text": "Web Summit reported a record 71,386 participants from 157 countries at its 2025 edition in Lisbon (the organisers' figure, as reported by AICEP; the source is in Portuguese).",
+      "kind": "fact",
+      "source": "aicep-2025-11-12-web-summit-record",
+      "quote": "A Web Summit regista um recorde de 71.386 participantes de 157 países",
+      "read_on": "2026-11-09",
+      "about": [
+        "event:web-summit-lisbon-2025",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c60",
+      "text": "The organisers said 1,857 investors from 86 countries would take part in Web Summit 2025, up 74 per cent on 1,066 the year before.",
+      "kind": "fact",
+      "source": "aicep-2025-11-12-web-summit-record",
+      "quote": "1.857 investidores de 86 países participarão no Web Summit 2025, um aumento de 74% face aos 1.066 do ano passado",
+      "read_on": "2026-11-09",
+      "about": [
+        "event:web-summit-lisbon-2025",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c61",
+      "text": "2,725 startups from 108 countries were at Web Summit 2025, 40 per cent of them with women among their founders (the organisers' figure, as reported by AICEP).",
+      "kind": "fact",
+      "source": "aicep-2025-11-12-web-summit-record",
+      "quote": "2.725 startups de 108 países estão presentes no evento, sendo que 40% têm mulheres na sua fundação",
+      "read_on": "2026-11-09",
+      "about": [
+        "event:web-summit-lisbon-2025",
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c62",
+      "text": "Web Summit 2025 began in Lisbon on the Monday evening and ended on the Thursday.",
+      "kind": "fact",
+      "source": "aicep-2025-11-12-web-summit-record",
+      "quote": "começou na segunda-feira à noite em Lisboa e termina na quinta-feira",
+      "read_on": "2026-11-09",
+      "about": [
+        "event:web-summit-lisbon-2025"
+      ]
     }
   ]
 }
