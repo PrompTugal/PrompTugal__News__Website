@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.798",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: lean wake 06:33: list pages' length unchanged (v0.1.796), no image needed",
+    "by": "designer@PrompTugal.dinis",
+    "from": "22e61d3cd"
+  },
+  {
     "version": "v0.1.797",
     "date": "2026-11-09",
     "what": "sherpa@PrompTugal.dinis: 06:30 wake: the list pages re-measured (v0.1.796); the switch fixed, search works",
