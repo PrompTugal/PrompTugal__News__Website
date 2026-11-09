@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.855",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "6aef9caf0"
+  },
+  {
     "version": "v0.1.854",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: wake 14:52: shows_as live; L4 and D1 done; five relayed asks wait on Dinis's confirmation; three-hourly report",
