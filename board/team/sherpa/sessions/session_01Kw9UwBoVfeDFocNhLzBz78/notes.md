@@ -17,3 +17,4 @@
 - 21:35 (7 Nov): graph taps tested (tap the canvas, read the 'Tap a ...' box's parent before and after, its position against the tab bar). Corrected G2: a full-page shot caught an animation mid-draw. Lesson: wait for drawings to finish (or compare two shots) before judging layout.
 - 00:35 (8 Nov): planning Monday reviewed; the 8 November debrief written.
 - 03:35 (9 Nov): back on (summit set). List pages measured; L1 sent at once. The drain re-delivers the same three designer@ notes every day (dated folders); no new messages.
+- 06:35 (9 Nov): list pages re-measured; search tested with fill on the visible input (the header has a hidden search input too: use :visible).
