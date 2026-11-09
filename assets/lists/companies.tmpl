@@ -1,0 +1,17 @@
+<!-- The companies page's working list (designer.experiments@'s companies/switch.mjs, the approved mock-up; Dinis 6 November 2026,
+     the list pages, "just implement it all"): three views of one list, a live filter and a count, from the page's own data.
+     Markup and words; filled from data by newsroom/build/features/lists.mjs; behaviour: assets/lists/lists.js. Without
+     script the page keeps its static views (the list below it). -->
+<!-- part:app -->
+<section class="ls" id="co-app" data-list="companies" aria-label="The companies, in three views">
+<div class="ls-ctl" role="group" aria-label="How to read the companies">
+<div class="ls-seg" role="group" aria-label="View"><button type="button" data-v="grid">By field</button><button type="button" data-v="directory">By country</button><button type="button" data-v="search">Search first</button></div>
+<p class="ls-hero">Start from a question: a name, a country, or what a company does.</p>
+<input class="ls-q" type="search" placeholder="Search a name or what they do" aria-label="Search the companies">
+<select class="ls-f" aria-label="Field"></select>
+<span class="ls-n" role="status" aria-live="polite"></span>
+</div>
+<div class="ls-out"></div>
+<script type="application/json" class="ls-data">{{data}}</script>
+</section>
+<!-- end -->
