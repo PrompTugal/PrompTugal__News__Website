@@ -25,3 +25,10 @@
 .ls-dir a { font: 600 16px var(--serif); }
 .ls-empty { padding: 24px 0; color: var(--ink-3); }
 @media (max-width: 600px) { .ls-dir li { grid-template-columns: 1fr; } .ls-seg { flex: 1 0 100%; } .ls-seg button { flex: 1; } }
+/* people */
+.ls-narrow { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.ls-sess { border-top: 2px solid var(--rule); padding: 8px 0 12px; } .ls-sess h3 { margin: 2px 0 0; font: 600 19px/1.2 var(--serif); } .ls-sess a { color: inherit; text-decoration: none; } .ls-sess h3 a:hover { text-decoration: underline; }
+.ls-ppl { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; } .ls-ppl a { border: 1px solid var(--rule-2); border-radius: 999px; padding: 3px 11px; font-size: 14px; background: var(--panel); }
+.ls-az { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0; } .ls-az a { font: 600 13px var(--mono); padding: 3px 8px; border: 1px solid var(--rule-2); color: var(--ink); text-decoration: none; background: var(--panel); min-height: 24px; }
+.ls-row { display: grid; grid-template-columns: minmax(150px, 1fr) 2fr; gap: 14px; padding: 9px 0; border-bottom: 1px solid var(--hair); } .ls-row h3 { margin: 0; font: 600 17px/1.2 var(--serif); } .ls-row a { color: inherit; text-decoration: none; } .ls-row p { margin: 0; font-size: 14px; color: var(--ink-2); }
+@media (max-width: 600px) { .ls-row { grid-template-columns: 1fr; gap: 2px; } }
