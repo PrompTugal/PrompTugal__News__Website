@@ -1742,7 +1742,7 @@
       {
         "as_listed": "Startup Portugal",
         "ref": "company:startup-portugal",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "You.com",
@@ -1987,6 +1987,11 @@
         "count": 2
       },
       {
+        "as_listed": "Portugal Startup News",
+        "ref": "organisation:portugal-startup-news",
+        "count": 1
+      },
+      {
         "as_listed": "Portuguese Catholic University",
         "ref": "organisation:portuguese-catholic-university",
         "count": 1
@@ -2079,7 +2084,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 24
+        "count": 25
       },
       {
         "as_listed": "Xiaomi",

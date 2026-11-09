@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-09T04:10Z",
-  "reviewed_to": "03d6b0ec",
+  "updated": "2026-11-09T06:10Z",
+  "reviewed_to": "5f882ba1",
   "hold": false,
   "done": [
-    "04:05 7 Nov: 45 commits clean; dev@'s one-address gate exception agreed; investors' decks clean",
     "06:05 7 Nov: 28 commits clean; signature form 2 reviewed; S27 to dev@",
     "08:05 7 Nov: 33 commits clean; S27 closed; S28 to dev@; S25 narrowed",
     "10:05 7 Nov: 44 commits clean; S28 still open",
@@ -14,7 +13,8 @@
     "14:05 7 Nov: 55 commits clean; S29 (deck.js unreviewed) to dev@; S28 not yet on dev",
     "16:05 7 Nov: 39 commits clean; S28, S29 closed; personalised investor links pre-reviewed (go, nine conditions)",
     "20:05 8 Nov: catch-up over 290 commits; persona.js post-reviewed; S30 and S28b raised; debrief written",
-    "04:05 9 Nov: 63 commits clean; S28b closed; S30 mostly done; first wake of the summit set"
+    "04:05 9 Nov: 63 commits clean; S28b closed; S30 mostly done; first wake of the summit set",
+    "06:05 9 Nov: 23 commits clean; the two quoted company addresses removed from my files for S21"
   ],
   "next": [
     "post-review persona.js before the first real pack",
@@ -39,7 +39,7 @@
     "S17": "granted by Dinis 12:30 (abp@ to write it)",
     "S18": "done 22:40: the setup script installs hash-checked; to confirm in a fresh session",
     "S19": "decided: stays in the environment; the ABP controls access (abp@)",
-    "S21": "half done: the gate checks board/team/dev.verify/; the rest of board/ not yet (dev@)",
+    "S21": "my own files cleared (06:05); dev@ extends the contact check over board/",
     "S22": "account B's transcripts unscanned (conductor.b@)",
     "S23": "decided with S19 (abp@)",
     "S24": "first prompts omit the pki-agent pin (conductor@)",
