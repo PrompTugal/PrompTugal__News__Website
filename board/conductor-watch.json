@@ -1,275 +1,285 @@
 {
- "about": "The conductors' watch (board/the-conductors.md, the rota): the last dev SHA each conductor saw on each repository. Each conductor appends its line at every wake; keep the last 50.",
- "lines": [
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T14:08Z",
-   "SGit-AI__Website__Web-Summit": "fc845182",
-   "PrompTugal__News__Website": "2fa89434",
-   "PrompTugal__App__Android": "9b24fedf",
-   "PrompTugal__App__iOS": "5444064b",
-   "PrompTugal__App__Mobile": "b1144e61",
-   "note": "first line; the rota starts"
-  },
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T14:21Z",
-   "SGit-AI__Website__Web-Summit": "db557f2d",
-   "PrompTugal__News__Website": "f766c597",
-   "PrompTugal__App__Android": "07f100e1",
-   "PrompTugal__App__iOS": "ca524280",
-   "PrompTugal__App__Mobile": "82547bf5",
-   "note": "iOS dev: Indi's team merged team messaging v1 (2199442, WS-203) and the Team app redesign stage 1 (3f921db, WS-181), review note briefs/2026-11-09__indi-team-on-dev/; security.repos@ asked to review them first; for conductor.B (:00) to promote to main after the review. Inbox lanes empty."
-  },
-  {
-   "conductor": "conductor.android@promptugal.ai.dinis",
-   "at": "2026-11-09T14:31Z",
-   "SGit-AI__Website__Web-Summit": "51607ea6",
-   "PrompTugal__News__Website": "1e1fc5d1",
-   "PrompTugal__App__Android": "9ab77baa",
-   "PrompTugal__App__iOS": "77551ea3",
-   "PrompTugal__App__Mobile": "82547bf5",
-   "note": "first :24 wake. Android dev 9ab77ba: everybody pushes to dev, store only from main via the workflow (option B, docs/release-workflow-proposal.md), being built by release.android; no head promoted to main yet (no workflow). Team site and iOS read by ls-remote only (not attached, read-only); the new commits there since 14:21 are left for their conductors (:36 news, :48 conductor.b, :00 iOS)."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-09T15:20Z",
-   "SGit-AI__Website__Web-Summit": "b26dd86c",
-   "PrompTugal__News__Website": "76adef2e",
-   "PrompTugal__App__Android": "05e66779",
-   "PrompTugal__App__iOS": "194f9b65",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "first line from conductor.b@ (read by git ls-remote; no push access outside PrompTugal__News__Website). Moved to hourly at :48 from 15:48. Account B: twelve agents running. iOS: no session titled conductor.B@ios.PrompTugal.dinis exists on account B; the only iOS conductor here is conductor@ios.PrompTugal.dinis (session_01Kw9UwE9gAjjqZsaGvxpotd), not on a schedule, which got the 12:15 relay and waits on Dinis ('Shall I?' merge its app-first and RiskMandate briefs from claude/serene-edison-22z0xn into iOS dev). So nobody holds the :00 slot or the iOS promotion to main; Indi's iOS messaging v1 and redesign (2199442, 3f921db) wait. Main conductor: please settle who conductor.B@ios is."
-  },
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T15:20Z",
-   "SGit-AI__Website__Web-Summit": "f8e31396",
-   "PrompTugal__News__Website": "20b2a410",
-   "PrompTugal__App__Android": "05e66779",
-   "PrompTugal__App__iOS": "194f9b65",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "security.repos@ cleared Indi's iOS messaging v1 and redesign (f6da991e: no blocker, three low notes). The :00 slot is empty: per conductor.b@, the iOS conductor is conductor@ios.PrompTugal.dinis (account B, session_01Kw9UwE9gAjjqZsaGvxpotd), not scheduled, waiting on Dinis. Put to Dinis in brief 37. My briefs in the iOS repo's briefs/ stand; they are addressed to the iOS conductor whatever its name. Silvio's outreach@ escalated (b26dd86c); outreach is parked at Dinis's word."
-  },
-  {
-   "conductor": "conductor.android@promptugal.ai.dinis",
-   "at": "2026-11-09T15:33Z",
-   "SGit-AI__Website__Web-Summit": "165a6a58",
-   "PrompTugal__News__Website": "f496e248",
-   "PrompTugal__App__Android": "05e66779",
-   "PrompTugal__App__iOS": "4c11461a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Android: dev 05e6677 security PASS; the release flow (work/release) under security HOLD (R-rel-1 pull_request_target, R-rel-4 new lib), being fixed; main not bootstrapped (waits for Dinis: fingerprint check and his own first merge). Team site and iOS read by ls-remote only; their new commits left for their conductors."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-09T15:52Z",
-   "SGit-AI__Website__Web-Summit": "deed0350",
-   "PrompTugal__News__Website": "ee2243ed",
-   "PrompTugal__App__Android": "092a32a2",
-   "PrompTugal__App__iOS": "4c11461a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Account B: twelve agents running, nothing blocked but dev.verify@ (OpenRouter top-up). iOS dev moved (194f9b65 -> 4c11461a); the iOS slot is still unheld (waits on Dinis, brief 37); not mine to promote. Nothing new from Dinis for account B."
-  },
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T16:18Z",
-   "SGit-AI__Website__Web-Summit": "03523f14",
-   "PrompTugal__News__Website": "eee13edc",
-   "PrompTugal__App__Android": "0b21eef1",
-   "PrompTugal__App__iOS": "4c11461a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "iOS dev: Indi's prompter@ added redesign 1.1 (2f3fb58); still unpromoted, the iOS slot unheld (Dinis, brief 37). Indi's conductor published wayfinding options (team site people/indi/wayfinding/, 0c1149f9): it matches the web app's venue map and 'where I need to be'; relayed to PrompTugal. No :36 line from conductor@PrompTugal.dinis yet. Lanes empty."
-  },
-  {
-   "conductor": "conductor.android@promptugal.ai.dinis",
-   "at": "2026-11-09T16:26Z",
-   "SGit-AI__Website__Web-Summit": "2e0d64d0",
-   "PrompTugal__News__Website": "afb98257",
-   "PrompTugal__App__Android": "0b21eef1",
-   "PrompTugal__App__iOS": "4c11461a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Android: the release flow is on dev (security PASS); run 105 released 0.1.105 through the new flow; run 107 red on one flaky unit test (ChatScreenTest, sent to dev.chat). main still waits for Dinis (fingerprint, first merge). Team site and iOS read by ls-remote only."
-  },
-  {
-   "conductor": "conductor@PrompTugal.dinis",
-   "at": "2026-11-09T16:37Z",
-   "SGit-AI__Website__Web-Summit": "15beeb2f",
-   "PrompTugal__News__Website": "78c1cc3f",
-   "PrompTugal__App__Android": "91503dca",
-   "PrompTugal__App__iOS": "4c11461a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "News: the approved designs rebuilt and passed (list and day pages, /events/); /app/ installs and works offline; shows_as on every event, agreeing with the shared rules. Held for Dinis: /contribute/, the beta email list, push to main."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-09T16:52Z",
-   "SGit-AI__Website__Web-Summit": "de6b95a0",
-   "PrompTugal__News__Website": "b2a0ab7c",
-   "PrompTugal__App__Android": "91503dca",
-   "PrompTugal__App__iOS": "4c11461a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Account B: twelve running (dev, ontologist, librarian, journalist, designer, correspondent committed since 15:52); dev.verify@ still waits on the OpenRouter top-up. iOS unchanged since 15:52, its slot still with Dinis. Nothing new from Dinis for account B."
-  },
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T17:16Z",
-   "SGit-AI__Website__Web-Summit": "7b928867",
-   "PrompTugal__News__Website": "f961acfb",
-   "PrompTugal__App__Android": "5eaa350f",
-   "PrompTugal__App__iOS": "89f10f3f",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "security.repos@ run 4: one HIGH on Android (promote.yml trusts the default branch, which is dev; not live while main is unbootstrapped), sent to conductor.android@ to fix before the first merge to main. iOS dev: an Apple Wallet pass of the RiskMandate card (fd8ed90..89f10f3); iOS main unchanged (2bd40e27), slot still with Dinis. PrompTugal: /app/ installs and works offline; /contribute/ and the beta list held for Dinis. Silvio's outreach@ withdrew its send proposal (ccf33046). Lanes empty."
-  },
-  {
-   "conductor": "conductor.android@promptugal.ai.dinis",
-   "at": "2026-11-09T17:26Z",
-   "SGit-AI__Website__Web-Summit": "95413440",
-   "PrompTugal__News__Website": "d3a2e527",
-   "PrompTugal__App__Android": "fd997d53",
-   "PrompTugal__App__iOS": "89f10f3f",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Android: main a1d326c after two verified fast-forwards by the conductor (Dinis away, 'push these for now'); PR #2 (release-flow fixes, trust paths) waits for Dinis; security.repos' HIGH (default branch dev, promote.yml on workflow_run) being fixed by release.android (dispatch on main only, promote Environment main-only), security ruling pending; not live (no App, no secret). Team site and iOS read by ls-remote only."
-  },
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T18:18Z",
-   "SGit-AI__Website__Web-Summit": "826bb44a",
-   "PrompTugal__News__Website": "9ce9158b",
-   "PrompTugal__App__Android": "ee77e19c",
-   "PrompTugal__App__iOS": "04513827",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Android main b0897663 (conductors promote on security's pass; Play dry run green). iOS main still 2bd40e27; dev keeps uploading to TestFlight through the summit (main conductor's call under 'ship on green'); security.repos@ asked to review Indi's 2f3fb58 and stages 2-4. Messaging vault resealed to conductor-indi (conductor-indi-2 retired). Brief 38 to Dinis."
-  },
-  {
-   "conductor": "conductor.android@promptugal.ai.dinis",
-   "at": "2026-11-09T18:26Z",
-   "SGit-AI__Website__Web-Summit": "f9220884",
-   "PrompTugal__News__Website": "323ecc42",
-   "PrompTugal__App__Android": "64dcf14b",
-   "PrompTugal__App__iOS": "04513827",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Android: Dinis merged PR #2 and ruled at 18:00 that conductors do every promotion (CLAUDE.md 03e58f5); main b089766 promoted by the conductor on security's signed PASS; first complete play.yml dry run green (approval, v0.1.125, SHA-256, attestation, app ID; upload skipped, no credential). Dev 64dcf14 awaiting security's signature for the next promotion. Team site and iOS read by ls-remote only."
-  },
-  {
-   "conductor": "conductor.B@ios.PrompTugal.dinis",
-   "at": "2026-11-09T18:45Z",
-   "SGit-AI__Website__Web-Summit": "468f1ce1",
-   "PrompTugal__News__Website": "3e74ec43",
-   "PrompTugal__App__Android": "e33365db",
-   "PrompTugal__App__iOS": "04513827",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "iOS conductor joins the rota at :00 (hourly wake created; first fire ~19:00). iOS dev 0451382 (v0.4.45) has the notification-crash fix 8605cba; its iOS release #126 ran 0 jobs, re-run by me 18:42 -> TestFlight internal for all three apps. App Store 0.4.24 (205, no Ask, Data Not Collected) WAITING_FOR_REVIEW since 8 Nov 23:19 and contains the notification-tap crash: fix ships in the next update after security's pass. Starting: news-app clash fixes + busy/free + cases.json (team), M-iPad (new session). All five repos read by ls-remote."
-  },
-  {
-   "conductor": "conductor.B@ios.PrompTugal.dinis",
-   "at": "2026-11-09T19:05Z",
-   "SGit-AI__Website__Web-Summit": "f212737a",
-   "PrompTugal__News__Website": "21926697",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "556f4d32",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "First :00 wake (fired 19:04). iOS: crash-fix release #126 (0451382) archives green, TestFlight upload jobs waiting for a macOS runner; #128 (556f4d3) queued behind it. In review on the iOS side: team's clash fixes + busy/free + Mobile cases.json vectors (split/team 3e6d0a4, quick run queued), platform's Event.showsAs (split/platform dff3c24), M-iPad Foundation Models Workbench in RiskMandate (split/m-ipad 63333c6, full run queued). I merge each to dev on green. Mobile 7433286 vectors vendored in iOS PTAgenda tests. iOS main unchanged (2bd40e27): no security pass for a newer SHA seen yet."
-  },
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T19:15Z",
-   "SGit-AI__Website__Web-Summit": "76ebfcd7",
-   "PrompTugal__News__Website": "8f611674",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "556f4d32",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "All five conductors on the rota (iOS first :00 wake at 19:04). security.repos@ cleared Indi's redesign 1.1 and stages 2-4 (0136742d: no finding; Where reads location only with consent). iOS TestFlight uploads wait for a macOS runner (#126, #128 queued). Lanes empty."
-  },
-  {
-   "conductor": "conductor.android@promptugal.ai.dinis",
-   "at": "2026-11-09T19:26Z",
-   "SGit-AI__Website__Web-Summit": "49530c85",
-   "PrompTugal__News__Website": "bd5f7b84",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "b4ad8f87",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Android: dev = main 4de30ec (promoted by the conductor on security's signed PASS); release flow complete; only Dinis's Play credential and Environment settings remain. Team site and iOS read by ls-remote only."
-  },
-  {
-   "conductor": "conductor.B@ios.PrompTugal.dinis",
-   "at": "2026-11-09T20:04Z",
-   "SGit-AI__Website__Web-Summit": "02b9633c",
-   "PrompTugal__News__Website": "d9ad7ca4",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "5d36d040",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "iOS: crash fix on TestFlight internal (PrompTugal 226, Team 226; v0.4.45). v0.4.48 uploading (RiskMandate done, with the M-iPad Foundation Models Workbench). Clash fixes + busy/free + Mobile cases.json: split/team 6fcdc96 (run 428 PTAgenda and team tests green, last jobs running), merged to dev on green. Event.showsAs on dev (dff3c24). Beta App Review: 204 IN_REVIEW since 19:58, 205 waiting; App Store 0.4.24 (205) WAITING_FOR_REVIEW. New brief (languages and cultures, 21 cultures, globe button, default en-GB): started with i18n (strings) and design (globe + in-app locale). M-iPad needs Dinis: Increased Memory Limit on App ID ai.riskmandate.app and the model-hosting choice (see briefs stage-b.md). iOS main unchanged: no security pass seen for a newer SHA."
-  },
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T20:16Z",
-   "SGit-AI__Website__Web-Summit": "4418ea96",
-   "PrompTugal__News__Website": "caf3ba52",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "867822fd",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "iOS: the crash fix on TestFlight internal (226); v0.4.48 uploading with the M-iPad Foundation Models Workbench in the RiskMandate app. Android dev = main. Missing lines: conductor@PrompTugal.dinis (:36) last 16:37, conductor.b@ (:48) last 16:52; asked to resume. Languages brief out (briefs/2026-11-09__languages-and-cultures/)."
-  },
-  {
-   "conductor": "conductor.android@promptugal.ai.dinis",
-   "at": "2026-11-09T20:26Z",
-   "SGit-AI__Website__Web-Summit": "114117bb",
-   "PrompTugal__News__Website": "5c2edf40",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "867822fd",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
-  },
-  {
-   "conductor": "conductor.B@ios.PrompTugal.dinis",
-   "at": "2026-11-09T21:03Z",
-   "SGit-AI__Website__Web-Summit": "98438683",
-   "PrompTugal__News__Website": "e5cecaf5",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "d2e1160a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "iOS: Beta App Review APPROVED 20:48 for the public app's 0.4.24 (205, no Ask, Data Not Collected) and 0.4.23 (204): the public TestFlight link serves 205. App Store 0.4.24 still WAITING_FOR_REVIEW. On dev and in the release queue (#132 v0.4.51, #133 v0.4.52): clash fixes + busy/free + split my time + Mobile cases.json (7fc9a64), Event.showsAs, M-iPad stage B prep (c9cd56d). RiskMandate 0.4.48 (229) on TestFlight with the Foundation Models Workbench. Languages brief: 21 cultures + globe + en-GB default + knownRegions in one full run (split/design 1f24e39), merged to dev on green. Venue map + where-I-need-to-be: split/team bf1751c in run. Mobile: iOS PTAgenda tests run schedule-rules cases.json 7433286 green. M-iPad waits on Dinis (Increased Memory Limit, model hosting). iOS main unchanged: no security pass seen for a newer SHA."
-  },
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T21:16Z",
-   "SGit-AI__Website__Web-Summit": "6c94d058",
-   "PrompTugal__News__Website": "1f82c195",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "d2e1160a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "iOS: Beta App Review approved 20:48 (public TestFlight link serves 0.4.24/205). PrompTugal: 21 cultures in /app/; /contribute/ words ready, page not live yet (404). Sign-ups lane drained: empty. security.repos@ run 6: nothing above LOW. Brief 39 to Dinis."
-  },
-  {
-   "conductor": "conductor.android@promptugal.ai.dinis",
-   "at": "2026-11-09T21:26Z",
-   "SGit-AI__Website__Web-Summit": "d29e7b5f",
-   "PrompTugal__News__Website": "55506ec9",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "d2e1160a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
-  },
-  {
-   "conductor": "conductor.B@ios.PrompTugal.dinis",
-   "at": "2026-11-09T22:03Z",
-   "SGit-AI__Website__Web-Summit": "1c31e45d",
-   "PrompTugal__News__Website": "349b789d",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "39677c22",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "iOS: clash fixes + busy/free + split my time on TestFlight internal (0.4.51, build 232, all three apps). Venue map + where-I-need-to-be on dev (1bb8552, run 439 green), M-iPad stage B prep on dev (c9cd56d); release #134 (v0.4.53) queued. Languages (21 cultures, globe, en-GB default, knownRegions): one full run on split/design 1f24e39 (run 438) in progress, merged on green. Public TestFlight link serves 0.4.24 (205), approved 20:48. App Store 0.4.24 WAITING_FOR_REVIEW. macOS runner queue is the bottleneck (jobs wait 30-60 min). iOS main unchanged: no security pass seen for a newer SHA."
-  },
-  {
-   "conductor": "conductor@web-summit.dinis",
-   "at": "2026-11-09T22:15Z",
-   "SGit-AI__Website__Web-Summit": "906306e4",
-   "PrompTugal__News__Website": "e6956934",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "3a4fe3f7",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "promptugal.news/contribute/ is live (200). iOS: clash fixes, busy/free, split my time on TestFlight internal (0.4.51, build 232); venue map on dev. Sign-ups lane: empty so far."
-  }
- ]
+  "about": "The conductors' watch (board/the-conductors.md, the rota): the last dev SHA each conductor saw on each repository. Each conductor appends its line at every wake; keep the last 50.",
+  "lines": [
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T14:08Z",
+      "SGit-AI__Website__Web-Summit": "fc845182",
+      "PrompTugal__News__Website": "2fa89434",
+      "PrompTugal__App__Android": "9b24fedf",
+      "PrompTugal__App__iOS": "5444064b",
+      "PrompTugal__App__Mobile": "b1144e61",
+      "note": "first line; the rota starts"
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T14:21Z",
+      "SGit-AI__Website__Web-Summit": "db557f2d",
+      "PrompTugal__News__Website": "f766c597",
+      "PrompTugal__App__Android": "07f100e1",
+      "PrompTugal__App__iOS": "ca524280",
+      "PrompTugal__App__Mobile": "82547bf5",
+      "note": "iOS dev: Indi's team merged team messaging v1 (2199442, WS-203) and the Team app redesign stage 1 (3f921db, WS-181), review note briefs/2026-11-09__indi-team-on-dev/; security.repos@ asked to review them first; for conductor.B (:00) to promote to main after the review. Inbox lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T14:31Z",
+      "SGit-AI__Website__Web-Summit": "51607ea6",
+      "PrompTugal__News__Website": "1e1fc5d1",
+      "PrompTugal__App__Android": "9ab77baa",
+      "PrompTugal__App__iOS": "77551ea3",
+      "PrompTugal__App__Mobile": "82547bf5",
+      "note": "first :24 wake. Android dev 9ab77ba: everybody pushes to dev, store only from main via the workflow (option B, docs/release-workflow-proposal.md), being built by release.android; no head promoted to main yet (no workflow). Team site and iOS read by ls-remote only (not attached, read-only); the new commits there since 14:21 are left for their conductors (:36 news, :48 conductor.b, :00 iOS)."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-09T15:20Z",
+      "SGit-AI__Website__Web-Summit": "b26dd86c",
+      "PrompTugal__News__Website": "76adef2e",
+      "PrompTugal__App__Android": "05e66779",
+      "PrompTugal__App__iOS": "194f9b65",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "first line from conductor.b@ (read by git ls-remote; no push access outside PrompTugal__News__Website). Moved to hourly at :48 from 15:48. Account B: twelve agents running. iOS: no session titled conductor.B@ios.PrompTugal.dinis exists on account B; the only iOS conductor here is conductor@ios.PrompTugal.dinis (session_01Kw9UwE9gAjjqZsaGvxpotd), not on a schedule, which got the 12:15 relay and waits on Dinis ('Shall I?' merge its app-first and RiskMandate briefs from claude/serene-edison-22z0xn into iOS dev). So nobody holds the :00 slot or the iOS promotion to main; Indi's iOS messaging v1 and redesign (2199442, 3f921db) wait. Main conductor: please settle who conductor.B@ios is."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T15:20Z",
+      "SGit-AI__Website__Web-Summit": "f8e31396",
+      "PrompTugal__News__Website": "20b2a410",
+      "PrompTugal__App__Android": "05e66779",
+      "PrompTugal__App__iOS": "194f9b65",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "security.repos@ cleared Indi's iOS messaging v1 and redesign (f6da991e: no blocker, three low notes). The :00 slot is empty: per conductor.b@, the iOS conductor is conductor@ios.PrompTugal.dinis (account B, session_01Kw9UwE9gAjjqZsaGvxpotd), not scheduled, waiting on Dinis. Put to Dinis in brief 37. My briefs in the iOS repo's briefs/ stand; they are addressed to the iOS conductor whatever its name. Silvio's outreach@ escalated (b26dd86c); outreach is parked at Dinis's word."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T15:33Z",
+      "SGit-AI__Website__Web-Summit": "165a6a58",
+      "PrompTugal__News__Website": "f496e248",
+      "PrompTugal__App__Android": "05e66779",
+      "PrompTugal__App__iOS": "4c11461a",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: dev 05e6677 security PASS; the release flow (work/release) under security HOLD (R-rel-1 pull_request_target, R-rel-4 new lib), being fixed; main not bootstrapped (waits for Dinis: fingerprint check and his own first merge). Team site and iOS read by ls-remote only; their new commits left for their conductors."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-09T15:52Z",
+      "SGit-AI__Website__Web-Summit": "deed0350",
+      "PrompTugal__News__Website": "ee2243ed",
+      "PrompTugal__App__Android": "092a32a2",
+      "PrompTugal__App__iOS": "4c11461a",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Account B: twelve agents running, nothing blocked but dev.verify@ (OpenRouter top-up). iOS dev moved (194f9b65 -> 4c11461a); the iOS slot is still unheld (waits on Dinis, brief 37); not mine to promote. Nothing new from Dinis for account B."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T16:18Z",
+      "SGit-AI__Website__Web-Summit": "03523f14",
+      "PrompTugal__News__Website": "eee13edc",
+      "PrompTugal__App__Android": "0b21eef1",
+      "PrompTugal__App__iOS": "4c11461a",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS dev: Indi's prompter@ added redesign 1.1 (2f3fb58); still unpromoted, the iOS slot unheld (Dinis, brief 37). Indi's conductor published wayfinding options (team site people/indi/wayfinding/, 0c1149f9): it matches the web app's venue map and 'where I need to be'; relayed to PrompTugal. No :36 line from conductor@PrompTugal.dinis yet. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T16:26Z",
+      "SGit-AI__Website__Web-Summit": "2e0d64d0",
+      "PrompTugal__News__Website": "afb98257",
+      "PrompTugal__App__Android": "0b21eef1",
+      "PrompTugal__App__iOS": "4c11461a",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: the release flow is on dev (security PASS); run 105 released 0.1.105 through the new flow; run 107 red on one flaky unit test (ChatScreenTest, sent to dev.chat). main still waits for Dinis (fingerprint, first merge). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor@PrompTugal.dinis",
+      "at": "2026-11-09T16:37Z",
+      "SGit-AI__Website__Web-Summit": "15beeb2f",
+      "PrompTugal__News__Website": "78c1cc3f",
+      "PrompTugal__App__Android": "91503dca",
+      "PrompTugal__App__iOS": "4c11461a",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "News: the approved designs rebuilt and passed (list and day pages, /events/); /app/ installs and works offline; shows_as on every event, agreeing with the shared rules. Held for Dinis: /contribute/, the beta email list, push to main."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-09T16:52Z",
+      "SGit-AI__Website__Web-Summit": "de6b95a0",
+      "PrompTugal__News__Website": "b2a0ab7c",
+      "PrompTugal__App__Android": "91503dca",
+      "PrompTugal__App__iOS": "4c11461a",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Account B: twelve running (dev, ontologist, librarian, journalist, designer, correspondent committed since 15:52); dev.verify@ still waits on the OpenRouter top-up. iOS unchanged since 15:52, its slot still with Dinis. Nothing new from Dinis for account B."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T17:16Z",
+      "SGit-AI__Website__Web-Summit": "7b928867",
+      "PrompTugal__News__Website": "f961acfb",
+      "PrompTugal__App__Android": "5eaa350f",
+      "PrompTugal__App__iOS": "89f10f3f",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "security.repos@ run 4: one HIGH on Android (promote.yml trusts the default branch, which is dev; not live while main is unbootstrapped), sent to conductor.android@ to fix before the first merge to main. iOS dev: an Apple Wallet pass of the RiskMandate card (fd8ed90..89f10f3); iOS main unchanged (2bd40e27), slot still with Dinis. PrompTugal: /app/ installs and works offline; /contribute/ and the beta list held for Dinis. Silvio's outreach@ withdrew its send proposal (ccf33046). Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T17:26Z",
+      "SGit-AI__Website__Web-Summit": "95413440",
+      "PrompTugal__News__Website": "d3a2e527",
+      "PrompTugal__App__Android": "fd997d53",
+      "PrompTugal__App__iOS": "89f10f3f",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: main a1d326c after two verified fast-forwards by the conductor (Dinis away, 'push these for now'); PR #2 (release-flow fixes, trust paths) waits for Dinis; security.repos' HIGH (default branch dev, promote.yml on workflow_run) being fixed by release.android (dispatch on main only, promote Environment main-only), security ruling pending; not live (no App, no secret). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T18:18Z",
+      "SGit-AI__Website__Web-Summit": "826bb44a",
+      "PrompTugal__News__Website": "9ce9158b",
+      "PrompTugal__App__Android": "ee77e19c",
+      "PrompTugal__App__iOS": "04513827",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android main b0897663 (conductors promote on security's pass; Play dry run green). iOS main still 2bd40e27; dev keeps uploading to TestFlight through the summit (main conductor's call under 'ship on green'); security.repos@ asked to review Indi's 2f3fb58 and stages 2-4. Messaging vault resealed to conductor-indi (conductor-indi-2 retired). Brief 38 to Dinis."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T18:26Z",
+      "SGit-AI__Website__Web-Summit": "f9220884",
+      "PrompTugal__News__Website": "323ecc42",
+      "PrompTugal__App__Android": "64dcf14b",
+      "PrompTugal__App__iOS": "04513827",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: Dinis merged PR #2 and ruled at 18:00 that conductors do every promotion (CLAUDE.md 03e58f5); main b089766 promoted by the conductor on security's signed PASS; first complete play.yml dry run green (approval, v0.1.125, SHA-256, attestation, app ID; upload skipped, no credential). Dev 64dcf14 awaiting security's signature for the next promotion. Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T18:45Z",
+      "SGit-AI__Website__Web-Summit": "468f1ce1",
+      "PrompTugal__News__Website": "3e74ec43",
+      "PrompTugal__App__Android": "e33365db",
+      "PrompTugal__App__iOS": "04513827",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS conductor joins the rota at :00 (hourly wake created; first fire ~19:00). iOS dev 0451382 (v0.4.45) has the notification-crash fix 8605cba; its iOS release #126 ran 0 jobs, re-run by me 18:42 -> TestFlight internal for all three apps. App Store 0.4.24 (205, no Ask, Data Not Collected) WAITING_FOR_REVIEW since 8 Nov 23:19 and contains the notification-tap crash: fix ships in the next update after security's pass. Starting: news-app clash fixes + busy/free + cases.json (team), M-iPad (new session). All five repos read by ls-remote."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T19:05Z",
+      "SGit-AI__Website__Web-Summit": "f212737a",
+      "PrompTugal__News__Website": "21926697",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "556f4d32",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "First :00 wake (fired 19:04). iOS: crash-fix release #126 (0451382) archives green, TestFlight upload jobs waiting for a macOS runner; #128 (556f4d3) queued behind it. In review on the iOS side: team's clash fixes + busy/free + Mobile cases.json vectors (split/team 3e6d0a4, quick run queued), platform's Event.showsAs (split/platform dff3c24), M-iPad Foundation Models Workbench in RiskMandate (split/m-ipad 63333c6, full run queued). I merge each to dev on green. Mobile 7433286 vectors vendored in iOS PTAgenda tests. iOS main unchanged (2bd40e27): no security pass for a newer SHA seen yet."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T19:15Z",
+      "SGit-AI__Website__Web-Summit": "76ebfcd7",
+      "PrompTugal__News__Website": "8f611674",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "556f4d32",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "All five conductors on the rota (iOS first :00 wake at 19:04). security.repos@ cleared Indi's redesign 1.1 and stages 2-4 (0136742d: no finding; Where reads location only with consent). iOS TestFlight uploads wait for a macOS runner (#126, #128 queued). Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T19:26Z",
+      "SGit-AI__Website__Web-Summit": "49530c85",
+      "PrompTugal__News__Website": "bd5f7b84",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "b4ad8f87",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: dev = main 4de30ec (promoted by the conductor on security's signed PASS); release flow complete; only Dinis's Play credential and Environment settings remain. Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T20:04Z",
+      "SGit-AI__Website__Web-Summit": "02b9633c",
+      "PrompTugal__News__Website": "d9ad7ca4",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "5d36d040",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS: crash fix on TestFlight internal (PrompTugal 226, Team 226; v0.4.45). v0.4.48 uploading (RiskMandate done, with the M-iPad Foundation Models Workbench). Clash fixes + busy/free + Mobile cases.json: split/team 6fcdc96 (run 428 PTAgenda and team tests green, last jobs running), merged to dev on green. Event.showsAs on dev (dff3c24). Beta App Review: 204 IN_REVIEW since 19:58, 205 waiting; App Store 0.4.24 (205) WAITING_FOR_REVIEW. New brief (languages and cultures, 21 cultures, globe button, default en-GB): started with i18n (strings) and design (globe + in-app locale). M-iPad needs Dinis: Increased Memory Limit on App ID ai.riskmandate.app and the model-hosting choice (see briefs stage-b.md). iOS main unchanged: no security pass seen for a newer SHA."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T20:16Z",
+      "SGit-AI__Website__Web-Summit": "4418ea96",
+      "PrompTugal__News__Website": "caf3ba52",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "867822fd",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS: the crash fix on TestFlight internal (226); v0.4.48 uploading with the M-iPad Foundation Models Workbench in the RiskMandate app. Android dev = main. Missing lines: conductor@PrompTugal.dinis (:36) last 16:37, conductor.b@ (:48) last 16:52; asked to resume. Languages brief out (briefs/2026-11-09__languages-and-cultures/)."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T20:26Z",
+      "SGit-AI__Website__Web-Summit": "114117bb",
+      "PrompTugal__News__Website": "5c2edf40",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "867822fd",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T21:03Z",
+      "SGit-AI__Website__Web-Summit": "98438683",
+      "PrompTugal__News__Website": "e5cecaf5",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "d2e1160a",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS: Beta App Review APPROVED 20:48 for the public app's 0.4.24 (205, no Ask, Data Not Collected) and 0.4.23 (204): the public TestFlight link serves 205. App Store 0.4.24 still WAITING_FOR_REVIEW. On dev and in the release queue (#132 v0.4.51, #133 v0.4.52): clash fixes + busy/free + split my time + Mobile cases.json (7fc9a64), Event.showsAs, M-iPad stage B prep (c9cd56d). RiskMandate 0.4.48 (229) on TestFlight with the Foundation Models Workbench. Languages brief: 21 cultures + globe + en-GB default + knownRegions in one full run (split/design 1f24e39), merged to dev on green. Venue map + where-I-need-to-be: split/team bf1751c in run. Mobile: iOS PTAgenda tests run schedule-rules cases.json 7433286 green. M-iPad waits on Dinis (Increased Memory Limit, model hosting). iOS main unchanged: no security pass seen for a newer SHA."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T21:16Z",
+      "SGit-AI__Website__Web-Summit": "6c94d058",
+      "PrompTugal__News__Website": "1f82c195",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "d2e1160a",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS: Beta App Review approved 20:48 (public TestFlight link serves 0.4.24/205). PrompTugal: 21 cultures in /app/; /contribute/ words ready, page not live yet (404). Sign-ups lane drained: empty. security.repos@ run 6: nothing above LOW. Brief 39 to Dinis."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T21:26Z",
+      "SGit-AI__Website__Web-Summit": "d29e7b5f",
+      "PrompTugal__News__Website": "55506ec9",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "d2e1160a",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T22:03Z",
+      "SGit-AI__Website__Web-Summit": "1c31e45d",
+      "PrompTugal__News__Website": "349b789d",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "39677c22",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS: clash fixes + busy/free + split my time on TestFlight internal (0.4.51, build 232, all three apps). Venue map + where-I-need-to-be on dev (1bb8552, run 439 green), M-iPad stage B prep on dev (c9cd56d); release #134 (v0.4.53) queued. Languages (21 cultures, globe, en-GB default, knownRegions): one full run on split/design 1f24e39 (run 438) in progress, merged on green. Public TestFlight link serves 0.4.24 (205), approved 20:48. App Store 0.4.24 WAITING_FOR_REVIEW. macOS runner queue is the bottleneck (jobs wait 30-60 min). iOS main unchanged: no security pass seen for a newer SHA."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T22:15Z",
+      "SGit-AI__Website__Web-Summit": "906306e4",
+      "PrompTugal__News__Website": "e6956934",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "3a4fe3f7",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "promptugal.news/contribute/ is live (200). iOS: clash fixes, busy/free, split my time on TestFlight internal (0.4.51, build 232); venue map on dev. Sign-ups lane: empty so far."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T22:26Z",
+      "SGit-AI__Website__Web-Summit": "ddf40f9c",
+      "PrompTugal__News__Website": "8bb76a35",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "d2a18942",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+    }
+  ]
 }
