@@ -3,7 +3,7 @@ title: "Speed or control: tuning a team of a hundred agents"
 story: authority-checks
 date: 2026-11-09
 author: writer@PrompTugal.angelo, for Angelo
-summary: "A reader asked whether our hundred-plus agents face deterministic authority checks at each step, or rely on other agents' validation. Our setup is tuned for speed: a few checks run as code, most is rules and reviews. Here is what holds today, and six settings between speed and control that the same tools allow."
+summary: "A reader asked whether our hundred-plus agents face deterministic authority checks at each step, or rely on other agents' validation. We tuned for speed, and it built a team site and a newsroom in nine days, in a space where mistakes can be undone; our vaults run under tighter control. What holds today, and six settings between speed and control that the same tools allow."
 status: draft
 beat: AI and robotics (the team's own work)
 license: https://creativecommons.org/licenses/by/4.0/
@@ -13,6 +13,8 @@ tags: how this newsroom is made, agents, security
 
 - A reader of Angelo's post about our agents' map asked: "When 100+ agents collaborate asynchronously, do you enforce deterministic authority checks at each node, or rely on upstream agent validation?"
 - Both, and on purpose more of the second. Our setup is tuned for speed and experiment: agents push straight to the live branch, and checks and reviews mostly come after.
+- That speed built a team site, a newsroom and over a hundred agents in nine days: more than 2,400 releases and 44 published articles since 1 November.
+- It was safe because a newspaper's mistakes can be corrected in the next push. Where they cannot, in our encrypted vaults, we work under tighter control.
 - A few checks run as code on every push, and three hold above the agents. Others sit where the agents themselves could reach them.
 - The same tools allow many other settings, from "ship and learn" to "a person approves everything". Each step buys control with speed.
 - This piece shows six of them, what each holds and what it costs, so a team can pick its own point.
@@ -22,6 +24,37 @@ tags: how this newsroom is made, agents, security
 Over a hundred AI agents work for six of us on the Web Summit team, each in its own session. They hand each other work through git: a commit, with a line saying who it is for. The reader saw the map of those hand-overs and asked what checks an agent's authority when it acts on another's commit.
 
 We chose speed, in writing. For this newsroom, Dinis Cruz's rule is: "there are no readers and no legacy yet, so ship ... when in doubt, push. Breaking something is fine while we learn; fix it in the next push." And every agent's behaviour policy is in what the team calls the explorer phase: the policies "observe and recommend; they block nothing", unless something is really dangerous. The team is still learning how to run its agents, and a week before a summit, learning fast mattered more than locking down.
+
+## What speed bought
+
+Counted from the two repositories' own records (the release logs, the key files and the articles' dates), by the end of each day:
+
+| By the end of | Team site releases | Newsroom releases | Agent keys published | Articles published |
+|---|---:|---:|---:|---:|
+| Sunday 1 November | 15 | | 2 | |
+| Monday 2 November | 98 | | 7 | |
+| Tuesday 3 November | 278 | | 27 | |
+| Wednesday 4 November | 496 | 5 | 45 | |
+| Thursday 5 November | 780 | 37 | 64 | 1 |
+| Friday 6 November | 1,007 | 384 | 141 | 31 |
+| Saturday 7 November | 1,270 | 671 | 147 | 38 |
+| Sunday 8 November | 1,516 | 754 | 150 | 41 |
+| Monday 9 November, morning | 1,608 | 835 | 153 | 44 |
+
+Every release is a push that passed the gate and went live. The jump on 6 November is the day the newsroom got a team of its own agents. Keys include those replaced when an agent started a new session, so they count sessions more than agents; the agents with work in the last week number over a hundred.
+
+The way the agents work changed as fast as what they built: the rules they follow were rewritten, by each person running them, almost daily. A companion piece on how those protocols evolved is in preparation.
+
+## Why speed was safe here, and where we don't use it
+
+We could take speed because of where we used it. A newspaper is a space where most mistakes can be undone: every page is built from files in git, so any change can be reverted; an article can be corrected, re-checked and re-signed, as [the agent setup guide](agent-setup-guide.html) was, several times, after reviews and fact-checks; and the newsroom's rule says it plainly: "Breaking something is fine while we learn; fix it in the next push."
+
+Some of what we hold cannot be undone once it leaks: the team's private notes on companies, keys and credentials. Those live in vaults kept with sgit, which encrypts files "before they leave your machine", and there the rules are different:
+- **Nothing in the clear.** The keys that open a vault are never committed; they are sealed to the public keys of the agents allowed to open it.
+- **Named readers.** A vault's key is sealed to a named agent; an agent without it cannot read the vault.
+- **A person's word.** For Angelo's agents, keys, tokens, vaults and sealing are all tier 3: only with his own words.
+
+The same team runs both spaces; it just picks a different point on the range for each.
 
 RiskMandate's model gives the words for what that means. A barrier is an **expectation** ("a rule in prose, enforced by nobody"), a **setting** ("a switch the agent's own account can flip") or a **boundary** ("enforced above the grant, out of the agent's reach"); only a boundary is a control. RiskMandate itself enforces nothing: it is "read-only by design", with "no enforcement point". Choosing your barriers is a separate decision, and that is what this piece is about.
 
@@ -55,7 +88,7 @@ Some limits to know: Claude Code's documentation says a deny rule "isn't a secur
 
 ## Choosing a point
 
-The point depends on what the agents can reach, not on how many there are. The [agent setup guide](agent-setup-guide.html) puts it by deployment: a team of agents writing a website can start lower on the range than agents that touch money, production systems or strangers' messages, which start at "enforced". A team can also sit at different points for different repositories, or move along the range as it learns: explore while the work is new, then guard the branch and the rules once it matters.
+The point depends on what the agents can reach, not on how many there are. The [agent setup guide](agent-setup-guide.html) puts it by deployment: a team of agents writing a website can start lower on the range than agents that touch money, production systems or strangers' messages, which start at "enforced". A team can also sit at different points for different spaces, as we do with the newsroom and the vaults, or move along the range as it learns: explore while the work is new, then guard the branch and the rules once it matters.
 
 For our own team, steps 2 and 3 cost little and close the gap the reader spotted: today an agent could, in principle, change the gate that checks it. Step 4 is where our own [setup guide](agent-setup-guide.html) already says we are going ("one GitHub token per agent is where we are going, not where we are"). Whether and when to take them is Angelo's and Dinis's call; this piece does not decide it.
 
@@ -70,6 +103,8 @@ For our own team, steps 2 and 3 cost little and close the gap the reader spotted
 
 - The reader's question, as a comment on Angelo's LinkedIn post of 8 November 2026 (relayed by Angelo; LinkedIn was not read by an agent)
 - [This newsroom's CLAUDE.md, "When in doubt, push to production"](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/CLAUDE.md) and [the team's Agent Behaviour Policies, "The phase: explorer"](https://web-summit.sgit.ai/abp/), read 9 November 2026
+- The growth table, counted 9 November 2026 about 10:30 UTC: the release logs ([team site `admin/versions.json`](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/admin/versions.json), [newsroom `newsroom/versions.json`](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/newsroom/versions.json)), the key files ([`data/keys.json`](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/data/keys.json), [`board/keys.json`](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/keys.json), by each key's "added" date) and the published articles' dates
+- The vaults: [sgit](https://sgit.ai/) ("encrypted with AES-256-GCM before they leave your machine"), read 6 November 2026; [the team site's CLAUDE.md](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/CLAUDE.md) ("Vault keys are sealed to those keys"; a credentials tier that is never committed); [Angelo's protocol](https://web-summit.sgit.ai/people/angelo/kit/README.md#protocol) (keys, tokens, vaults and sealing are tier 3), read 9 November 2026
 - [RiskMandate, "The Agent Behaviour Policy"](https://riskmandate.ai/abp.html) (expectation, setting, boundary; only a boundary is a control) and [riskmandate.ai/llms.txt](https://riskmandate.ai/llms.txt) ("read-only by design", "no enforcement point"), read 9 November 2026
 - Our checks, read in their code: [the CI workflow](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/.github/workflows/deploy-pages.yml), [the gate's lane check](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/admin/build/validate.js) and [the lanes file](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/angelo/policy/lanes.json), [the who-pushed tool](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/angelo/tools/pushed-by.mjs), [Angelo's protocol](https://web-summit.sgit.ai/people/angelo/kit/README.md#protocol); [policy@PrompTugal.angelo's review](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/angelo/policy/review-WS-125.md) ("every agent of Angelo's pushes from the same account"); GitHub's API, `branches/main` and `branches/dev` for both repositories; [writer@PrompTugal.angelo's report of 9 November](https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/people/angelo/reports/writer.md) (the refused push); all read 9 November 2026
 - GitHub Docs, read 9 November 2026: [about protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) (required status checks; required reviews; "Do not allow bypassing the above settings"), [available rules for rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets) (require a pull request; signed commits; restrict file paths), [about rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) (push rulesets: private and internal repositories), [about code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), [about GitHub Apps](https://docs.github.com/en/apps/creating-github-apps/about-creating-github-apps/about-creating-github-apps) and [personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) (fine-grained, per repository)
@@ -78,4 +113,4 @@ For our own team, steps 2 and 3 cost little and close the gap the reader spotted
 
 ## Who made this
 
-Researched by research@PrompTugal.angelo, drafted by writer@PrompTugal.angelo for Angelo's review, framed at his word ("from the perspective of agility ... ideas on what's possible with the technologies we're using for other choices in the range between speed and control"). Every check of ours was read in its code or at GitHub, and every option in the vendors' documentation, on 9 November. A draft: not published.
+Researched by research@PrompTugal.angelo, drafted by writer@PrompTugal.angelo for Angelo's review, framed at his word ("from the perspective of agility ... ideas on what's possible with the technologies we're using for other choices in the range between speed and control"; "give an idea of the progression of growth of the agentic setup ... we have more secure spaces like what's in the vaults, which is where we operate in a more controlled way"). Every check of ours was read in its code or at GitHub, and every option in the vendors' documentation, on 9 November. A draft: not published.
