@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.807",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: the companies checked against the summit programme",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "fa40e8ca1"
+  },
+  {
     "version": "v0.1.806",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: the contact check takes exact domains and operators' names only (security@'s S31)",
