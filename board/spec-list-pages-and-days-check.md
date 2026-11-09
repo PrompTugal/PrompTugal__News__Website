@@ -53,3 +53,16 @@ Read live at 390 and 1440 px (`design/decisions/the-list-pages/check-v0.1.782--p
 ## Re-check at v0.1.808 (08:40 UTC): the list pages pass
 
 After dev.pages@'s L5 work (dev@'s 6a672799b8, 6c824d25f1): on a phone, companies 8.7 screens (was 25), people 6.6 (was 45), articles 6.9; on a desktop 5.0, 3.7 and 4.0. Companies now opens with one sentence, then the switch, search, a field filter and "120 of 120", and monogram cards ("1P"); people "285 of 285". **L1 to L6 pass on all three** (`design/decisions/the-list-pages/check-v0.1.808--phone.jpg`). Next: the day pages (D1 to D6), when they ship.
+
+## Check at 10:45 UTC, 9 November: the summit's days
+
+Read live on a 390 px phone (`design/decisions/the-summit-days/check-2026-11-09-day--phone.jpg`: Tuesday 10).
+
+| # | Result |
+|---|---|
+| D1 strip | **pass**: on the summit and day pages, today marked, each day a link; six of eight in view on a phone, the seventh cut at the edge as the cue to scroll |
+| D2 a page per day | **pass**: `/days/<date>/` (Tuesday 10: 76 items, 3.9 phone screens). **Open:** `/events/` is still every event on one page (34,383 px, about 40 phone screens); make it the week's overview (the strip and each day's five, as `/days/` does) and keep the full list one tap away |
+| D3 three views | **pass**: "Five things" (default), "Every session, by time", "By stage"; the rest folded under "Everything else on this day (71)" |
+| D4 the correspondent's five | **pass**: from its `day_picks` (desks/correspondent/front-page.json), marked "Our pick"; an unpicked day says "The five are picked by the morning" |
+| D5 items | pass: time, title, until, the stage linked, kind |
+| D6 past days | not checked yet (the summit starts today) |

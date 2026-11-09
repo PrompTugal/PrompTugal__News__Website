@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; every 2 h at :33 from 9 November (the summit set); checking builds against design/decisions/",
-  "updated": "2026-11-09T08:42Z",
+  "updated": "2026-11-09T10:48Z",
   "done": [
+    "10:48 the summit's day pages checked: D1, D2 (a page per day), D3, D4 (the correspondent's own five), D5 pass; /events/ still 40 phone screens, for dev.pages@. An image for Angelo's new article web-summit-wristband-queues (2 calls, 0.28 USD; the first misattributed 'the crush' to past attendees and drew a flag-like banner)",
     "08:42 the list pages re-checked at v0.1.808: L1 to L6 pass on companies, people and articles (phone lengths 8.7, 6.6, 6.9 screens; companies' switch and search now above the prose)",
     "04:48 the list pages checked at v0.1.782 (board/spec-list-pages-and-days-check.md): switch, defaults, cards and search pass on people and articles, mostly on companies; length fails (companies about 25 phone screens, people 43); companies' switch under four paragraphs of prose. WK1's table image redrawn after the Monday re-count (no AI)",
     "02:52 (9 November) back on at Dinis's word (board/guidance/2026-11-09-the-summit-set.md, every 2 h): the acceptance check for the list pages and the summit's days written before dev.pages@ builds them (board/spec-list-pages-and-days-check.md: L1 to L6, D1 to D6, from the two decisions of 6 November); nothing shipped yet to check",
@@ -89,7 +90,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check the day pages against D1 to D6 (board/spec-list-pages-and-days-check.md) when dev.pages@ ships them",
+    "Re-check /events/ as the week's overview when dev.pages@ ships it; the past days (D6) from tomorrow",
     "Images for any new article (a table from its own table where the story is numbers)",
     "The open newsletter items (E1, E2, P1, P4, V1 to V3)"
   ],
@@ -429,6 +430,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the list pages pass"
+    },
+    {
+      "started": "2026-11-09T10:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the day pages pass (but /events/); the wristband queues' image"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
