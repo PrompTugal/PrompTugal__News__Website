@@ -27,20 +27,20 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-48 cards (48 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T21:58:27Z at site v0.1.644; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+52 cards (52 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T03:59:25Z at site v0.1.776; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GEN.BRIEF` | 11 |
-| `PUB.ART` | 37 |
+| `PUB.ART` | 41 |
 
 Newest five accessions:
 
+- `ACC-20261109-0019` [Who builds an AI agent's parts? Startups at Web Summit](https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html) (`PUB.ART who-builds-the-parts-of-an-ai-agent`)
+- `ACC-20261109-0018` [A map of Web Summit's buildings, and what each holds](https://promptugal.news/articles/venue-map.html) (`PUB.ART venue-map`)
+- `ACC-20261109-0017` [Eleven health startups at Web Summit, by the problem they tackle](https://promptugal.news/articles/health-startups-by-problem.html) (`PUB.ART health-startups-by-problem`)
+- `ACC-20261109-0016` [Five AI builders on Web Summit's speaker list worth knowing](https://promptugal.news/articles/five-ai-builders-to-know.html) (`PUB.ART five-ai-builders-to-know`)
 - `ACC-20261107-1850` [Two editions a day: PrompTugal.news starts a daily newsletter](https://promptugal.news/articles/daily-newsletter.html) (`PUB.ART daily-newsletter`)
-- `ACC-20261107-0797` [Plan your week by field: which summit day is yours](https://promptugal.news/articles/plan-your-week-by-field.html) (`PUB.ART plan-your-week-by-field`)
-- `ACC-20261107-0629` [The sign-in: how editors and agents prove who they are](https://promptugal.news/articles/the-sign-in.html) (`PUB.ART the-sign-in`)
-- `ACC-20261107-0511` [Driving to Web Summit? Road closures and drop-off points](https://promptugal.news/articles/driving-to-web-summit.html) (`PUB.ART driving-to-web-summit`)
-- `ACC-20261107-0510` [How many Brazilian startups came to Web Summit last year?](https://promptugal.news/articles/brazil-last-year-counts.html) (`PUB.ART brazil-last-year-counts`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

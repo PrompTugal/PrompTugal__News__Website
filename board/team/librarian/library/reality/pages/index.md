@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1219 cards (1210 current, 0 superseded, 9 withdrawn), from the catalogue generated 2026-11-07T21:58:27Z at site v0.1.644; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1232 cards (1218 current, 0 superseded, 14 withdrawn), from the catalogue generated 2026-11-09T03:59:25Z at site v0.1.776; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
-| `DAT.EV` | 245 |
-| `DAT.ORG` | 253 |
-| `DAT.PE` | 276 |
+| `DAT.EV` | 248 |
+| `DAT.ORG` | 256 |
+| `DAT.PE` | 281 |
 | `DAT.PL` | 83 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 217 |
+| `PUB.SITE` | 219 |
 
 Newest five accessions:
 
-- `ACC-20261107-1837` [Turismo de Portugal](https://promptugal.news/organisations/turismo-de-portugal/) (`DAT.ORG turismo-de-portugal`)
-- `ACC-20261107-1836` [Portugal Ventures](https://promptugal.news/organisations/portugal-ventures/) (`DAT.ORG portugal-ventures`)
-- `ACC-20261107-1835` [Lisboa Municipality](https://promptugal.news/organisations/lisboa-municipality/) (`DAT.ORG lisboa-municipality`)
-- `ACC-20261107-1834` [IAPMEI](https://promptugal.news/organisations/iapmei/) (`DAT.ORG iapmei`)
-- `ACC-20261107-0930` [De quem quero ouvir, e porquê agora](https://promptugal.news/investors/pt/articles/who-we-want-to-hear-from/) (`PUB.SITE who-we-want-to-hear-from:4`)
+- `ACC-20261109-0026` [Morning edition: Sunday 8 November](https://promptugal.news/newsletter/2026-11-08-morning/) (`PUB.SITE 2026-11-08-morning`)
+- `ACC-20261109-0025` [Evening edition: Sunday 8 November](https://promptugal.news/newsletter/2026-11-08-evening/) (`PUB.SITE 2026-11-08-evening`)
+- `ACC-20261109-0011` [João Moutão](https://promptugal.news/people/joao-moutao/) (`DAT.PE joao-moutao`)
+- `ACC-20261109-0010` [João Leite](https://promptugal.news/people/joao-leite/) (`DAT.PE joao-leite`)
+- `ACC-20261109-0009` [Haakon Rølmann](https://promptugal.news/people/haakon-rlmann/) (`DAT.PE haakon-rlmann`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

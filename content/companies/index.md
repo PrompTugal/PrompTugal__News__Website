@@ -7,7 +7,11 @@ summary: The companies we follow at Web Summit Lisbon 2026, by field. Each profi
 
 Find them another way: by [topic](../topics/index.md) (the industry map), by [country](../places/index.md#country), or through the [people](../people/index.md) listed under them and the [events](../events/index.md) they are at. Each company's page links to its sessions, its people and the companies related to it.
 
+<!-- companies:app -->
+
+::: co-static
 <!-- companies:list -->
+:::
 
 ## How these profiles are made {#how}
 

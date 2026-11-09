@@ -12,7 +12,7 @@
   "start": "20:00",
   "end": "23:00",
   "where": "Disco Bar (Night Summit), MEO Arena and FIL",
-  "place": null,
+  "place": "place:disco-bar",
   "track": "Night Summit",
   "part_of": "event:web-summit-lisbon-2026",
   "organised_by": "organisation:web-summit",

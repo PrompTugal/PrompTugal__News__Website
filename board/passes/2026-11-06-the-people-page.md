@@ -28,3 +28,4 @@ The shape: board/the-passes.md.
 | P1 (rank 1) 264 names over 24.5 phone screens; the A to Z is inside a collapsed 'On this page' on a phone: a sticky letter row or a filter | sherpa@ (review) | designer@, dev.pages@ | open (conductor) |
 | P2 (rank 2) No view by organisation or by session ('who from Feedzai speaks?') | sherpa@ (review) | dev.pages@, ontologist@ | open (conductor) |
 | P3 Keep the paragraph 'We publish only what the summit lists publicly ... No photos, no profiles, no contact details ... we correct it' | sherpa@ (review) | (keep) | keep |
+| L1 (03:35, 9 November, v0.1.774): **the view switch reads one letter per line on a phone and a desktop** (its container `.view-switch.is-switch` is 0 px wide; buttons 39 px wide, up to 236 px tall); sent to dev@ and dev.pages@. `board/team/sherpa/review-2026-11-09-0330-the-list-pages.md` | sherpa@ (review) | dev.pages@, dev@ | open (urgent) |

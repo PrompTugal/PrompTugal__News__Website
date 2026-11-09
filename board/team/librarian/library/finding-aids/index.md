@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
-site_version: "v0.1.644"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
+site_version: "v0.1.776"
 source: board/catalogue.json
 ---
 
@@ -15,15 +15,15 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | Collection | Class | Cards |
 |---|---|---|
 | [Build, code and release](BLD.md) | `BLD` | 4 |
-| [Data and the ontology](DAT.md) | `DAT` | 994 |
+| [Data and the ontology](DAT.md) | `DAT` | 1005 |
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
-| [Guidance (special)](GDN.md) | `GDN` | 617 |
+| [Guidance (special)](GDN.md) | `GDN` | 619 |
 | [The repository](GEN.md) | `GEN` | 41 |
-| [The library](LIB.md) | `LIB` | 279 |
-| [The publication](PUB.md) | `PUB` | 394 |
-| [Readers and observability](RDR.md) | `RDR` | 24 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 2356 |
-| [Work in hand](WRK.md) | `WRK` | 299 |
+| [The library](LIB.md) | `LIB` | 281 |
+| [The publication](PUB.md) | `PUB` | 405 |
+| [Readers and observability](RDR.md) | `RDR` | 28 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 2519 |
+| [Work in hand](WRK.md) | `WRK` | 314 |
 
 ## Passes
 
@@ -44,16 +44,16 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [2026-11-06-search-and-the-reader-profile](passes/2026-11-06-search-and-the-reader-profile.md) | open | 4 |
 | [2026-11-06-sections-as-sub-sites](passes/2026-11-06-sections-as-sub-sites.md) | queued | 2 |
 | [2026-11-06-signed-in-views](passes/2026-11-06-signed-in-views.md) | open | 18 |
-| [2026-11-06-the-articles-page](passes/2026-11-06-the-articles-page.md) | open | 6 |
+| [2026-11-06-the-articles-page](passes/2026-11-06-the-articles-page.md) | open | 7 |
 | [2026-11-06-the-big-graphs](passes/2026-11-06-the-big-graphs.md) | open | 3 |
 | [2026-11-06-the-companies-page](passes/2026-11-06-the-companies-page.md) | open | 8 |
 | [2026-11-06-the-front-page](passes/2026-11-06-the-front-page.md) | open | 20 |
 | [2026-11-06-the-graph-explorer-next](passes/2026-11-06-the-graph-explorer-next.md) | open | 0 |
 | [2026-11-06-the-newsroom-search](passes/2026-11-06-the-newsroom-search.md) | open | 3 |
-| [2026-11-06-the-people-page](passes/2026-11-06-the-people-page.md) | open | 6 |
+| [2026-11-06-the-people-page](passes/2026-11-06-the-people-page.md) | open | 7 |
 | [2026-11-06-the-portugal-section](passes/2026-11-06-the-portugal-section.md) | open | 4 |
 | [2026-11-06-the-site-over-time](passes/2026-11-06-the-site-over-time.md) | open | 1 |
-| [2026-11-06-the-summit-days](passes/2026-11-06-the-summit-days.md) | open | 13 |
+| [2026-11-06-the-summit-days](passes/2026-11-06-the-summit-days.md) | open | 15 |
 
 (continued, rows 26 to 29)
 
