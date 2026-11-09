@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B, the summit set, every three hours)",
-  "updated": "2026-11-09T19:15Z",
+  "updated": "2026-11-09T22:15Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -37,7 +37,8 @@
     "Wake of 09:56: inbox drained (nothing new); the ledger's 48 Later ideas checked against their triggers by a Sonnet curator, paths traced by me: 10 due now (the press pass PB-07 'by Monday' still undecided; NR-22 hourly updates, SD-15 summit-days back office, TA-26 not started), 19 not yet, 19 unclear; sent to conductor@, the press pass pointed to Dinis in my asks (library/stocktake/2026-11-09-later-ideas-triggers.md); catalogue v0.1.816 (1,449 pages, 3,021 board files, 176 findings); library 5,330 cards, check OK, 0 warnings",
     "Wake of 12:58: inbox drained (nothing new); press-pass decision still open (pointer kept in my asks); from Dinis's 'how we work' (11:25): the agents' life and keys mapped, board/team/librarian/life.md and life.json by life.mjs (62 agents, 68 keys, 43 active; paused agents read from the summit set; the Web Summit team's agents and dotted workers treated apart; 4 flags: dev.venues@ with no key, writer@PrompTugal.jose, designer@PrompTugal.vicky and historian@ silent, historian@'s state ambiguous), sent to both conductors; a step of DAILY_RUN.md; catalogue v0.1.842 (1,456 pages, 3,069 board files, 176 findings); library 5,385 cards, check OK, 0 warnings",
     "Wake of 15:56: inbox drained (nothing new); three new entries from Dinis read (contributors, the conductors' rota with 'everybody pushes to dev, only Dinis and the conductors push to main', the news app on the web): none names the librarian, my rule unchanged (dev only, through release.sh); press-pass decision still open (pointer kept); the life map regenerated (63 agents, 68 keys, 6 flags: new, conductor.android@promptugal.ai.dinis commits with no key here, customers@ silent 26 h and in neither list of the summit set); catalogue v0.1.862 (1,460 pages, 3,109 board files, 177 findings); library 5,430 cards, check OK, 0 warnings",
-    "Wake of 18:56: inbox drained (nothing new); press-pass decision still open on the summit's eve (pointer kept); the life map's 7 flags batched to both conductors (new: conductor.android@ with no key here; customers@ and dev@PrompTugal.vicky silent and in neither list of the summit set); catalogue v0.1.885 (1,462 pages, 3,155 board files, 177 findings); library 5,478 cards, check OK, 0 warnings"
+    "Wake of 18:56: inbox drained (nothing new); press-pass decision still open on the summit's eve (pointer kept); the life map's 7 flags batched to both conductors (new: conductor.android@ with no key here; customers@ and dev@PrompTugal.vicky silent and in neither list of the summit set); catalogue v0.1.885 (1,462 pages, 3,155 board files, 177 findings); library 5,478 cards, check OK, 0 warnings",
+    "Wake of 21:56: inbox drained (nothing new); Dinis's 20:20 word read (ship on security's pass; nothing changes for the librarian); press pass still open (pointer kept); life map 8 flags (abp@'s is the parser reading only the last 'Still paused' line; noted); today's debrief refreshed; catalogue v0.1.908 (1,467 pages, 3,191 board files, 177 findings); library 5,519 cards, check OK, 0 warnings"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -183,6 +184,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: life map's flags batched to the conductors; catalogue v0.1.885; library 5,478 cards green"
+    },
+    {
+      "started": "2026-11-09T21:56Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: debrief refreshed; catalogue v0.1.908; library 5,519 cards green"
     }
   ],
   "notes": [

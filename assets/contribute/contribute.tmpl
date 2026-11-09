@@ -1,0 +1,35 @@
+<!-- /contribute/ (Dinis, 9 November 2026, 20:20 UTC: brief:20261109T2020Z-contribute; board/guidance/2026-11-09-contribute-confirmed.md):
+     the forms and the wall. Markup and the forms' own words; the page's prose is the journalist's
+     (desks/journalist-promptugal/contribute/page-words.md), the rules block designer@'s (design/contribute/rules-fragment.txt).
+     Filled by newsroom/build/features/contribute.mjs; behaviour: assets/contribute/contribute.js. security@'s six conditions:
+     a sign-up is sealed in the browser to the Web Summit team's key and written to a write-only lane (board/lanes/signups.json);
+     nothing personal is kept here; names only with consent; no outside scripts; CC BY 4.0 shown. -->
+<!-- part:form -->
+<form class="ct-form" data-kind="contributor" data-track="promptugal" novalidate>
+<p><label for="ct-task">The task</label><select id="ct-task" name="task">{{#tasks}}<option value="other">Something else</option></select></p>
+<p><label for="ct-text">What you send</label><textarea id="ct-text" name="message" rows="9" maxlength="20000" required placeholder="Your piece, your notes, or a link to it"></textarea><small>Plain text. For a photo, send a link to it and its caption; we remove location data before anything is published.</small></p>
+<p><label for="ct-name">Your name as you want it shown <i>(optional)</i></label><input id="ct-name" name="name" autocomplete="name" maxlength="80"></p>
+<p><label for="ct-contact">How we can reach you <i>(optional)</i></label><input id="ct-contact" name="contact" autocomplete="email" maxlength="200" placeholder="An email address, or another way"></p>
+<p class="ct-check"><input type="checkbox" id="ct-wall" name="name_on_wall"><label for="ct-wall">Show my name with what I send, and on the wall.</label></p>
+<p class="ct-check"><input type="checkbox" id="ct-follow" name="contact_for_followup"><label for="ct-follow">You may contact me about this piece.</label></p>
+<p><button type="submit">Send it</button></p>
+<p class="ct-status" role="status" aria-live="polite"></p>
+</form>
+<!-- part:beta -->
+<form class="ct-form ct-beta" data-kind="beta" data-track="app-beta" novalidate>
+<p><label for="bt-contact">How we can reach you</label><input id="bt-contact" name="contact" autocomplete="email" maxlength="200" required placeholder="An email address"></p>
+<p><label for="bt-name">Your name <i>(optional)</i></label><input id="bt-name" name="name" autocomplete="name" maxlength="80"></p>
+<p class="ct-check"><input type="checkbox" id="bt-follow" name="contact_for_followup" required><label for="bt-follow">Tell me when the beta opens.</label></p>
+<p><button type="submit">Get the app first</button></p>
+<p class="ct-status" role="status" aria-live="polite"></p>
+</form>
+<!-- part:wall -->
+<div class="ct-wall">
+<div class="ct-counts"><p><b>{{joined}}</b><span>joined</span></p><p><b>{{submitted}}</b><span>submitted</span></p><p><b>{{published}}</b><span>published</span></p></div>
+<ul class="ct-cards">{{#cards}}</ul>
+</div>
+<!-- item:task --><option value="{{value}}">{{label}}</option>
+<!-- item:card --><li class="ct-card"><span class="ct-face" aria-hidden="true">{{initial}}</span><div><b>{{name}}</b><code>{{pieces}}</code><p>{{made}}</p></div></li>
+<!-- item:hidden --><li class="ct-card ct-anon"><span class="ct-face" aria-hidden="true">?</span><div><b>Name not shown</b><code>{{pieces}}</code></div></li>
+<!-- item:status --><span data-sending>Sealing and sending…</span><span data-sent>Sent. Thank you: it is sealed to the newsroom's private inbox, and only the newsroom can read it.</span><span data-failed>It did not send. Check your connection and try again.</span><span data-empty>Write something first, or give a way to reach you.</span>
+<!-- end -->

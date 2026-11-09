@@ -5,7 +5,7 @@
   "title": "Portugal on the programme: a masterclass, a meetup and three announcements",
   "beat": "Portugal",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:v-session-startup-portugal-guide",
     "evidence:v-session-founders-in-portugal-meetup",
@@ -21,7 +21,8 @@
     "from": [
       "desks/curator/2026-11-09-1850.json",
       "desks/journalist-vicky/drafts/S36-portugal-on-the-programme.md",
-      "desks/reviewer-vicky/reviews/S36.md"
+      "desks/reviewer-vicky/reviews/S36.md",
+      "content/articles/portugal-on-the-programme.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -32,13 +33,17 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S36.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-09"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/portugal-on-the-programme.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -53,10 +58,16 @@
       "file": "desks/journalist-vicky/drafts/S36-portugal-on-the-programme.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-09",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S36.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-09",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/portugal-on-the-programme.md"
     }
   ]
 }

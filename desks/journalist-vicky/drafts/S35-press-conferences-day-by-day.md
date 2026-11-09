@@ -4,7 +4,7 @@ date: 2026-11-09
 story: S35
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "Web Summit lists 24 press conferences this week, all on Stage 2 in the Media Village: 11 on Tuesday, 9 on Wednesday and 4 on Thursday. The times, titles and who speaks, from Web Summit's own pages."
-status: draft
+status: published
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, press conferences, announcements, schedule
@@ -71,4 +71,5 @@ Covering the summit for a publication? The Media Village is where these announce
 
 - [Web Summit, schedule filtered to press conferences, pages 1 to 4](https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/1/) (the 24 sessions, times and stages), read 9 November 2026
 - Each session's own page on Web Summit, all read 9 November 2026 (titles, speakers, "Media event only"), for example [Web Summit, "Press conference: Web Summit Spotlight heads to Paraíba as part of four-year partnership"](https://websummit.com/sessions/lis26/43576352-a9ec-4bae-9f7a-ea7c66336cea/press-conference-web-summit-spotlight-heads-to-paraiba-as-part-of-four-year-partnership/), [Web Summit, "New Unicorn in Lisbon: Discord Announces Expansion (Press conference)"](https://websummit.com/sessions/lis26/64ee9e86-915d-4051-9d00-6a44a9b8ac54/new-unicorn-in-lisbon-discord-announces-expansion-press-conference/), [Web Summit, "Press conference with Web Summit CEO and Founder Paddy Cosgrave"](https://websummit.com/sessions/lis26/dd5600f2-2e3a-4023-a127-d2e8f8521ca0/press-conference-with-web-summit-ceo-and-founder-paddy-cosgrave/), [Web Summit, "Press conference: Unicorn Factory Lisboa, Hub 71, Instituto Caldeira & Q Branch launch a Global Program for Scaleups"](https://websummit.com/sessions/lis26/2bb27ace-17f4-4f46-bec9-c32c7beb2aa1/press-conference-unicorn-factory-lisboa-hub-71-instituto-caldeira-q-branch-launch-a-global-program-for-scaleups/) and [Web Summit, "Press conference: Road 2 Web Summit 2026 Winner"](https://websummit.com/sessions/lis26/66c7529f-b060-4e49-b9ba-817ae6db8f0e/press-conference-road-2-web-summit-2026-winner/)
+- [PrompTugal.news, programme data for NordVPN's press conference](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/data/events/press-conference-with-nordvpn-cto-marijus-briedis/event.json) (its earlier speaker, "Marijus Briedis (CTO, NordVPN)", read at 05:07 UTC on 9 November by programme@web-summit.vicky), read 9 November 2026
 - From the curator's map: S35, `desks/curator/README.md`

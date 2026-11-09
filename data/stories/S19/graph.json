@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/story-graph.schema.json",
+  "story": "S19",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "edges": [
+    {
+      "from": "organisation:apexbrasil",
+      "verb": "sends_delegation_to",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "executivedigest-2026-11-04-200-companies",
+      "claim": "c01",
+      "note": "About 200 Brazilian companies."
+    },
+    {
+      "from": "organisation:sebrae-startups",
+      "verb": "sends_delegation_to",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "executivedigest-2026-11-04-200-companies",
+      "claim": "c02",
+      "note": "In partnership with ApexBrasil, which leads the mission."
+    }
+  ]
+}

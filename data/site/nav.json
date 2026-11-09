@@ -100,6 +100,11 @@
     },
     {
       "column": "Find",
+      "label": "Write for us",
+      "href": "contribute/index.html"
+    },
+    {
+      "column": "Find",
       "label": "The app",
       "href": "app/index.html"
     },

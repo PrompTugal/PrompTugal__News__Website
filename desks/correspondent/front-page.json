@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-09T18:48Z",
+  "updated": "2026-11-09T20:48Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "tuesday-10-november-three-ways-in",
@@ -402,5 +402,49 @@
         }
       }
     }
+  },
+  "next_edition": {
+    "about": "Draft at 20:48 UTC Monday for Wednesday 11 November (summit day 2), to revise with Tuesday's news and swap in on Tuesday evening. Not read by the build.",
+    "for_date": "2026-11-11",
+    "lead": {
+      "article": "wednesday-11-november-going-abroad",
+      "why": "Summit day 2: the day's guide (planned since 6 November); replaced by Tuesday's biggest story if journalist@ publishes one."
+    },
+    "top": [
+      {
+        "article": "plan-your-week-by-field",
+        "why": "Wednesday is policy and AI agents' day; the PITCH semi-final at 17:00 on Centre Stage (WK1, corrected)"
+      },
+      {
+        "article": "europe-in-pavilion-4",
+        "why": "the Commission's week, on the Policy Summit's busiest day"
+      },
+      {
+        "article": "who-builds-the-parts-of-an-ai-agent",
+        "why": "the AI Summit's agent sessions on Wednesday"
+      }
+    ],
+    "briefing": [
+      {
+        "article": "wednesday-11-november-going-abroad",
+        "why": "today's guide"
+      },
+      {
+        "article": "plan-your-week-by-field",
+        "why": "PITCH's semi-final, 17:00, Centre Stage"
+      },
+      {
+        "article": "europe-in-pavilion-4",
+        "why": "Europe at the summit"
+      },
+      {
+        "article": "venue-map",
+        "why": "where everything is"
+      },
+      {
+        "article": "brazil-on-the-stages",
+        "why": "Brazil on the stages"
+      }
+    ]
   }
 }

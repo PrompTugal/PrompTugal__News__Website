@@ -29,7 +29,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1262 cards (1247 current, 0 superseded, 15 withdrawn), from the catalogue generated 2026-11-09T18:58:34Z at site v0.1.885; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1264 cards (1249 current, 0 superseded, 15 withdrawn), from the catalogue generated 2026-11-09T21:57:52Z at site v0.1.908; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -41,15 +41,15 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 222 |
+| `PUB.SITE` | 224 |
 
 Newest five accessions:
 
+- `ACC-20261109-0478` [Write for PrompTugal.news](https://promptugal.news/contribute/) (`PUB.SITE contribute`)
+- `ACC-20261109-0477` [Evening edition: Monday 9 November](https://promptugal.news/newsletter/2026-11-09-evening/) (`PUB.SITE 2026-11-09-evening`)
 - `ACC-20261109-0388` [The app](https://promptugal.news/app/) (`PUB.SITE app`)
 - `ACC-20261109-0324` [University of Coimbra](https://promptugal.news/organisations/university-of-coimbra/) (`DAT.ORG university-of-coimbra`)
 - `ACC-20261109-0323` [Instituto Pedro Nunes](https://promptugal.news/organisations/instituto-pedro-nunes/) (`DAT.ORG instituto-pedro-nunes`)
-- `ACC-20261109-0322` [Go Coimbra](https://promptugal.news/organisations/go-coimbra/) (`DAT.ORG go-coimbra`)
-- `ACC-20261109-0289` [Morning edition: Monday 9 November](https://promptugal.news/newsletter/2026-11-09-morning/) (`PUB.SITE 2026-11-09-morning`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

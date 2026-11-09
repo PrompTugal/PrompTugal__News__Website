@@ -17,7 +17,9 @@ const SUMMARY = 'The Web Summit programme as an app in your browser: pick sessio
 export const assets = { css: ['assets/app/pane.css'], js: ['assets/app/pane.js'] }
 
 export function pages() {
-    const raw = part('page').replace(/\{\{up\}\}/g, '../').replace(/\{\{summary\}\}/g, SUMMARY)
+    // the app's words in 21 cultures (assets/app/i18n.json; Dinis 19:25, the cultures of send.sgraph.ai), in the page, so nothing is fetched for them
+    const i18n = fs.readFileSync(new URL('../../../assets/app/i18n.json', import.meta.url), 'utf8')
+    const raw = part('page').replace(/\{\{up\}\}/g, '../').replace(/\{\{summary\}\}/g, SUMMARY).replace('{{i18n}}', JSON.stringify(JSON.parse(i18n)).replace(/</g, '\\u003c'))
     return [{
         rel: 'app/index.html', src: 'assets/app/app.tmpl', type: 'site', raw, title: 'The app', summary: SUMMARY, section: 'agenda',
         md: `${SUMMARY}\n\n- The programme by day, with a search.\n- Add a session to your picks (the same picks as "Add to my day" on the site and [My day](../my-day/index.md)).\n- My picks: clashes between them, and the free time in between.\n- Add to Calendar: one session, or all your picks, as an .ics file every calendar opens.\n\nIt needs JavaScript. The programme comes from [the days' data](../api/v1/days.json); times are Lisbon time and can change.`,

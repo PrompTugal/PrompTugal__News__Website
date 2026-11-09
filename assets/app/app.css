@@ -49,3 +49,17 @@ a { color: inherit; }
 .pa-sheet { position: fixed; left: 12px; right: 12px; bottom: max(16px, env(safe-area-inset-bottom)); z-index: 5; padding: 14px 16px; background: var(--ink); color: var(--paper); border-radius: 8px; display: flex; align-items: center; gap: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.35); }
 .pa-sheet[hidden] { display: none; } .pa-sheet p { margin: 0; flex: 1; } .pa-sheet svg { vertical-align: -3px; }
 .pa-sheet button { font: 600 13px var(--sans); padding: 6px 12px; border: 1px solid currentColor; background: none; color: inherit; border-radius: 4px; }
+.pa-lang { flex: none; display: inline-flex; align-items: center; gap: 4px; font: 600 12px var(--mono); color: var(--on-band); background: none; border: 1px solid currentColor; border-radius: 999px; padding: 4px 8px; min-height: 30px; cursor: pointer; }
+.pa-langs { position: fixed; top: 58px; right: 10px; z-index: 6; width: min(280px, calc(100vw - 20px)); max-height: 70vh; overflow-y: auto; background: var(--panel); color: var(--ink); border: 1px solid var(--rule); border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,.25); padding: 6px; }
+.pa-langs[hidden] { display: none; }
+.pa-langs button { display: block; width: 100%; text-align: start; font: 15px var(--sans); padding: 9px 10px; border: 0; background: none; color: inherit; border-radius: 4px; cursor: pointer; }
+.pa-langs button:hover, .pa-langs button.on { background: var(--paper); } .pa-langs button.on { font-weight: 600; }
+.pa-langs .pa-lang-back { font-weight: 600; border-bottom: 1px solid var(--rule); border-radius: 0; margin-bottom: 4px; }
+[dir="rtl"] .pa-it.on { box-shadow: inset -3px 0 0 var(--ok); padding-left: 0; padding-right: 6px; }
+[dir="rtl"] .pa-next { border-left: 0; border-right: 4px solid var(--brand); }
+[dir="rtl"] .pa-free { padding: 6px 56px 6px 0; }
+.pa-mt { font-style: italic; }
+[dir="rtl"] .pa-meta { unicode-bidi: plaintext; }
+.pa-stick { position: sticky; top: 52px; z-index: 2; background: var(--paper); padding-bottom: 4px; box-shadow: 0 1px 0 var(--rule); }
+.pa-nowline { position: relative; margin: 6px 0; padding: 2px 8px; font: 600 12px var(--mono); color: var(--paper); background: var(--brand); border-radius: 3px; width: max-content; }
+@media (max-width: 429px) { .pa-sub { display: none; } .pa-top { justify-content: space-between; } }

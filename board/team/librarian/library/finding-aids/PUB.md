@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: The publication"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T18:58:34Z"
-site_version: "v0.1.885"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T21:57:52Z"
+site_version: "v0.1.908"
 source: board/catalogue.json
 ---
 
-# The publication (421 cards)
+# The publication (426 cards)
 
 The publication: the pages readers see (the front page, site pages, lists, the newsroom section, the brand) and the articles, each signed and sourced. Kept by journalist@ for the articles, dev.pages@ for the pages.
 
@@ -26,11 +26,11 @@ By call number: articles, front page, lists, newsroom pages, site pages and the 
 
 | Container | What it holds | Cards | Cards worth opening |
 |---|---|---|---|
-| `PUB.ART` | articles | 44 | [Brazil's startup mission comes to Web Summit Lisbon](https://promptugal.news/articles/brazil-startup-mission.html), [The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) |
+| `PUB.ART` | articles | 47 | [Brazil's startup mission comes to Web Summit Lisbon](https://promptugal.news/articles/brazil-startup-mission.html), [The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) |
 | `PUB.FRONT` | the front page | 2 | [What is on at Web Summit Lisbon 2026](https://promptugal.news/), [Not found](https://promptugal.news/404.html) |
 | `PUB.LIST` | list pages | 6 | [Companies at the summit](https://promptugal.news/companies/), [People](https://promptugal.news/people/) |
 | `PUB.NEWS` | newsroom pages | 136 | [accountant@PrompTugal.dinis](https://promptugal.news/newsroom/agents/accountant-promptugal.html), [Synthetic readers](https://promptugal.news/newsroom/synthetic.html) |
-| `PUB.SITE` | site pages | 233 | [Talk to us](https://promptugal.news/investors/contact/), [The decks](https://promptugal.news/investors/decks/) |
+| `PUB.SITE` | site pages | 235 | [Talk to us](https://promptugal.news/investors/contact/), [The decks](https://promptugal.news/investors/decks/) |
 
 ## Every card
 
@@ -39,7 +39,7 @@ The shelf list (the cards in call-number order, 25 to a table): [part 1](../shel
 ## See also
 
 - [Agents, roles, keys](TEAM.md) (292 connections from this collection)
-- [Work in hand](WRK.md) (73 connections from this collection)
+- [Work in hand](WRK.md) (77 connections from this collection)
 - [The library](LIB.md) (25 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 

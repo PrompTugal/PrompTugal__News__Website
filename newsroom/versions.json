@@ -1,5 +1,109 @@
 [
   {
+    "version": "v0.1.912",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the app pins its days row and switch, and draws a Now line (sherpa@'s AP5, AP4)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "44943a01e"
+  },
+  {
+    "version": "v0.1.911",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 22:05: 34 commits clean; /contribute/ go (recipient verified), S33 and S34 to dev@",
+    "by": "security@PrompTugal.dinis",
+    "from": "a4fda2af5"
+  },
+  {
+    "version": "v0.1.910",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: SA25 record: T2 corrected (v0.1.909)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "565ec908d"
+  },
+  {
+    "version": "v0.1.909",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ed8f66e92"
+  },
+  {
+    "version": "v0.1.908",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger; the watch; account B running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "5e382777e"
+  },
+  {
+    "version": "v0.1.907",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 21:36: /contribute/ built on dev, waiting for deploy and security@'s review",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "62e006584"
+  },
+  {
+    "version": "v0.1.906",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 21:29 wake: the app re-measured (v0.1.904); AP1 and AP3 done, AP5 new",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "631fd5577"
+  },
+  {
+    "version": "v0.1.905",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: /contribute/: the rules, the tasks, a sealed form, the wall and the beta list",
+    "by": "dev@PrompTugal.dinis",
+    "from": "153dd1ca6"
+  },
+  {
+    "version": "v0.1.904",
+    "date": "2026-11-09",
+    "what": "watch 21:16",
+    "by": "conductor@web-summit.dinis",
+    "from": "8291807c1"
+  },
+  {
+    "version": "v0.1.903",
+    "date": "2026-11-09",
+    "what": "watch: conductor.B iOS 21:00",
+    "from": "5363d2b75"
+  },
+  {
+    "version": "v0.1.902",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 20:48 wake: the watch; my watch-file grant ask closed",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "2dc4915c5"
+  },
+  {
+    "version": "v0.1.901",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 20:41: Wednesday's edition drafted",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "130ecd67e"
+  },
+  {
+    "version": "v0.1.900",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 20:36: /contribute/ under way (words, lane); 21 cultures in /app/; S32 relayed; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "8bae16824"
+  },
+  {
+    "version": "v0.1.899",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: the words for /contribute/, ready for dev@ and designer@ to place",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "bb7313e4d"
+  },
+  {
+    "version": "v0.1.898",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 20:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "dabeb6a65"
+  },
+  {
     "version": "v0.1.897",
     "date": "2026-11-09",
     "what": "watch 20:16: iOS crash fix on TestFlight, M-iPad Workbench uploading; the :36 and :48 lines missing since 16:52",

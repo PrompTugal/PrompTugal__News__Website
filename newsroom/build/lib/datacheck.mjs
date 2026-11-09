@@ -38,12 +38,14 @@ export const KINDS = [
     [/^data\/wikipedia\/[^/]+\/tables\.json$/, 'wikipedia-tables'],
     [/^data\/wikipedia\/[^/]+\/links\.json$/, 'wikipedia-links'],
     [/^data\/wikipedia\/[^/]+\/meets\.json$/, 'wikipedia-meets'],
+    [/^data\/translations\/(events|articles|companies)\/[^/]+\/[a-z]{2,3}-[A-Z]{2}\.json$/, 'translation'],   // machine translations (Dinis, 9 Nov 19:25; the ontologist's schema)
     [/^data\/concepts\.json$/, 'concepts'],
     [/^data\/matching\.json$/, 'matching'],
     [/^data\/ontology\.json$/, 'ontology'],
     [/^data\/site\/site\.json$/, 'site'],
     [/^data\/site\/nav\.json$/, 'nav'],
     [/^data\/site\/list-views\.json$/, 'list-views'],
+    [/^data\/site\/contributors\.json$/, 'contributors'],   // the collaborators' wall (features/contribute.mjs)
     [/^data\/front\/days\.json$/, 'front-days'],
     [/^data\/corrections\/removals\.json$/, 'removals'],   // applied to rebuilt past days (past-day.mjs)   // the correspondent's five a day (dev.pages@ reads it)   // the switch's words on the list pages (dev.pages@)
     [/^data\/newsroom\/agents\.json$/, 'newsroom-agents'],        // the newsroom section's roster, plan and team-site snapshot
@@ -169,6 +171,19 @@ export function checkData() {
     }
     // the concepts: ids unique, every see path exists
     if (fs.existsSync(R('data/concepts.json'))) { const cs = JSON.parse(fs.readFileSync(R('data/concepts.json'), 'utf8')).concepts, ids = new Set(); for (const x of cs) { if (ids.has(x.id)) errors.push(`data/concepts.json: ${x.id} twice`); ids.add(x.id); for (const p of x.see || []) if (!fs.existsSync(R(p))) errors.push(`data/concepts.json: ${x.id} sees ${p}`) } }
+    // translations: the entity exists, the locale is one of the app's cultures (not the original), the file is where it says
+    if (fs.existsSync(R('data/translations'))) {
+        const cultures = new Set(JSON.parse(fs.readFileSync(R('assets/app/i18n.json'), 'utf8')).cultures.filter(c => c.machine).map(c => c.id))
+        const TYPE = { events: 'event', articles: 'article', companies: 'company' }
+        for (const f of walk(R('data/translations'), p => p.endsWith('.json'))) {
+            const r = rel(f), m = r.match(/^data\/translations\/([^/]+)\/([^/]+)\/([^/]+)\.json$/); if (!m) continue
+            const v = JSON.parse(fs.readFileSync(f, 'utf8'))
+            if (v.of !== `${TYPE[m[1]]}:${m[2]}`) errors.push(`${r}: of "${v.of}" is not its folder (${TYPE[m[1]]}:${m[2]})`)
+            if (v.locale !== m[3]) errors.push(`${r}: locale "${v.locale}" is not its file's name`)
+            if (!cultures.has(v.locale)) errors.push(`${r}: ${v.locale} is not a machine-translated culture of assets/app/i18n.json`)
+            if (m[1] !== 'articles') need(r, v.of)
+        }
+    }
     // no social handle in what we publish about a person (the derivation drops them; this catches a hand edit)
     const HANDLE = /(^|[\s(,;])@[A-Za-z0-9_]{2,}/
     for (const p of s.people) for (const v of [p.role, p.organisation, ...p.listings.flatMap(l => [l.role, l.organisation])]) if (v && HANDLE.test(v)) errors.push(`data/people/${p.id}: a social handle in "${v}"`)
