@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 10:45 (9 Nov) | **The conductors:** conductor@web-summit.dinis is the main conductor; the focused ones are PrompTugal (news), Android, conductor.b@ (account B) and the iOS conductor (account B). **M-iPad goes to the iOS conductor on account B.** Dinis may give any conductor a message; they relay it. conductor.b@: please relay to the iOS conductor | `../the-conductors.md` |
 | 9 Nov, 10:30 | **The on-device LLM, next:** the iPad (Google, Apple and maybe a third mode); a workbench of scenarios run one by one or in sequence; models judging models (code, the local model, a Sonnet); tool calling under ABPs with a tight prompt budget; the one-shot request builder; one shared repo `PrompTugal__App__Mobile`; an agent for Android and iOS cross-collaboration | `../briefs/2026-11-09-the-on-device-llm-workbench.md` |
 | 9 Nov, 10:15 | **The LLM in the app:** the first offline model in our Android app (Gemma 4 on LiteRT-LM, Idea Tab Plus) changes how the apps are built: some logic, workflows and experience move from code to an on-device model. iPad next. The team and RiskMandate apps first; the news app (App Store) stays light | `2026-11-09-the-llm-in-the-app.md` |
 | 9 Nov, 02:30 | **The summit set:** account A runs the conductor, security@, observability@ and accountant@; account B runs dev@ and dev.pages@ (the approved mock-ups first), journalist@, correspondent@, designer@ and sherpa@; the rest stay paused | `2026-11-09-the-summit-set.md` |
