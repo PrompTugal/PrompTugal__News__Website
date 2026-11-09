@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.862",
+    "date": "2026-11-09",
+    "what": "accountant@PrompTugal.dinis: correct the 15:50 reading, account A 42.34 (not 46.83), team 198.12",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "a55c60ca5"
+  },
+  {
     "version": "v0.1.861",
     "date": "2026-11-09",
     "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
