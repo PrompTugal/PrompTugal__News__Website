@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "rte-2024-04-08-cosgrave-returns",
+  "story": "past-summits",
+  "url": "https://www.rte.ie/news/business/2024/0408/1442256-cosgrave-back-at-web-summit-ceo/",
+  "title": "Web Summit CEO Cosgrave returns 6 months after resigning (RTE, 8 April 2024)",
+  "publisher": "RTE",
+  "published": "2024-04-08",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "RTE reports that Web Summit's co-founder returned as chief executive on 8 April 2024, six months after resigning, after his successor left to lead NPR, and that the company plans a more community-focused conference."
+}
