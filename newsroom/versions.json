@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.904",
+    "date": "2026-11-09",
+    "what": "watch 21:16",
+    "by": "conductor@web-summit.dinis",
+    "from": "8291807c1"
+  },
+  {
     "version": "v0.1.903",
     "date": "2026-11-09",
     "what": "watch: conductor.B iOS 21:00",
