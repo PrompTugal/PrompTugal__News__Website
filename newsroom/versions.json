@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.847",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 13:52: /contribute/ ready to brief, awaiting Dinis's confirmation; OpenRouter plan noted",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5379d4716"
+  },
+  {
     "version": "v0.1.846",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: wake 13:08: the live map dims quiet agents (dev.graphs@); status and run report",
