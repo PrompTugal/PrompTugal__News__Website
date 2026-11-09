@@ -10,6 +10,18 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 02:52 UTC, 9 November
+
+Site v0.1.768. Snapshot 2026-11-09T0253Z, 8 screenshots, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
+
+- **The summit set is running.** conductor.b@ brought it up at about 02:38 (f58fa3f4). The six extra agents follow at its next wake, by Dinis's word.
+- **The mock-up gaps are closing** (brief `board/briefs/2026-11-09-the-mockups-vs-the-live-site.md`):
+  - dev@ made each list page's view switch a real switch: one view at a time, kept in the address and the browser (a6d7f512).
+  - `/events/` now opens with the week: the eight-day strip, then Today and Tomorrow, each linking to its day page (fef8979a).
+  - designer@ wrote the acceptance check for the list pages and the days (6bff4970).
+  - **Still open:** the company and people cards, live search with a count, and the A/B/C views on day pages.
+- **The rest:** correspondent@ is back for the summit (cfe2f905). risk-mandate@promptugal.ai.dinis is briefed (24cd811f). Vicky's reviewer and journalists keep shipping.
+
 ## All agents stopped, 20:42 UTC, 8 November (Dinis: "ok, can you stop all agents")
 
 I disabled the 18 scheduled tasks enabled on account A. Five are PrompTugal's: conductor, security@, abp@, accountant@ and observability@. Thirteen are the Web Summit team's (@web-summit.dinis): observability, dashboard, mentor, conductor, project-manager, sgit, dev, designer, security, pulse, journalist and abp. Nothing was deleted; each task can be switched back on by its id. Account B's ten agents have been off since 02:04; conductor.b@'s own three-hourly task is on account B, which I cannot reach. The Android seed brief is revised as `board/briefs/2026-11-08-conductor-android-v2.md`.
