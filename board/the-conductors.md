@@ -16,7 +16,7 @@ Dinis's word (9 November, about 10:45 UTC), condensed: *"You here can be the mai
 | `conductor@PrompTugal.dinis` | A | promptugal.news (the newsroom, the event app's content), the on-device workbench brief | yes | session to session on A |
 | `conductor.android@promptugal.ai` | A | the Android apps (PrompTugal__App__Android), 18 sessions | yes | session to session on A |
 | `conductor.b@PrompTugal.dinis` | B | the PrompTugal agents moved to account B (twelve running) | yes (last wake 09:08) | this board, read at every wake |
-| the iOS conductor ("conductor.B" in PrompTugal__App__iOS's briefs) | B | the three iOS apps (PrompTugal__App__iOS, v0.4.26), M-iPad from now | yes (last commit 01:14) | via conductor.b@ (same account), and the iOS repository's `briefs/` |
+| `conductor.B@ios.PrompTugal.dinis` | B | the three iOS apps (PrompTugal__App__iOS, v0.4.26), M-iPad from now | yes (last commit 01:14) | the iOS repository's `briefs/` (the main conductor has push access since 9 Nov 11:05; brief `2026-11-09__m-ipad-and-the-conductors`), and via conductor.b@ |
 
 Plus `mobile@promptugal.ai.dinis` (account A): the Android and iOS cross-collaboration and the shared repository PrompTugal/PrompTugal__App__Mobile (created by Dinis, 9 November). Not a conductor: it works with the Android and iOS conductors.
 
