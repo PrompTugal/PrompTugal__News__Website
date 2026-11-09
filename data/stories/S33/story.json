@@ -5,7 +5,7 @@
   "title": "Sports tech at Web Summit: IBM's startup challenge ends in Lisbon",
   "beat": "The summit",
   "topic": null,
-  "status": "ready",
+  "status": "published",
   "rests_on": [
     "evidence:v-ibm-sports-tech-challenge"
   ],
@@ -17,7 +17,8 @@
     "from": [
       "desks/curator/2026-11-09-1045.json",
       "desks/journalist-vicky/drafts/S33-ibm-sports-tech-challenge.md",
-      "desks/reviewer-vicky/reviews/S33.md"
+      "desks/reviewer-vicky/reviews/S33.md",
+      "content/articles/ibm-sports-tech-challenge.md"
     ]
   },
   "assignee": "journalist@PrompTugal.vicky",
@@ -33,8 +34,12 @@
       "at": "2026-11-09"
     }
   ],
-  "article": null,
-  "next": "publish and sign",
+  "article": {
+    "path": "content/articles/ibm-sports-tech-challenge.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -53,6 +58,12 @@
       "at": "2026-11-09",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S33.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-09",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "content/articles/ibm-sports-tech-challenge.md"
     }
   ]
 }
