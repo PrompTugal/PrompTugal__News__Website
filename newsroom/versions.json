@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.919",
+    "date": "2026-11-09",
+    "what": "watch: conductor.B iOS 23:00",
+    "by": "conductor.B@ios.PrompTugal.dinis",
+    "from": "01bd4dece"
+  },
+  {
     "version": "v0.1.918",
     "date": "2026-11-09",
     "what": "writer@PrompTugal.angelo: the share row passes the gate: markup as markdown, the schema has its words; tested",
