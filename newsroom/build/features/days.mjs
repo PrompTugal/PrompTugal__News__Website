@@ -36,7 +36,7 @@ function dayPage(ctx, d, i) {
             `::: view view-all\n#### Every session, by time ({#v-all})\n\n${slotList([...items].sort(byTime).map(line))}\n:::\n\n`.replace(' ({#v-all})', ' {#v-all}') +
             `::: view view-stages\n#### By stage {#v-stages}\n\n${stages.map(w => `### ${ctx.md.cell(w)}\n\n${slotList(items.filter(e => (e.where || 'Place not listed') === w).sort(byTime).map(line))}`).join('\n\n')}\n:::\n\n`
             : `Nothing from our programme is listed for ${DAY(d)} yet. [The full agenda](${ctx.link(rel, 'summit/agenda.html')}).\n\n`) +
-        `{.more-line}\n${prev ? `[Earlier: ${DAY(prev)}](${ctx.link(rel, `days/${prev}/index.html`)})` : ''}${prev && next ? ' · ' : ''}${next ? `[Later: ${DAY(next)}](${ctx.link(rel, `days/${next}/index.html`)})` : ''} · [The full agenda](${ctx.link(rel, 'summit/agenda.html')})`
+        `{.more-line}\n${prev ? `[Earlier: ${DAY(prev)}](${ctx.link(rel, `days/${prev}/index.html`)})` : ''}${prev && next ? ' · ' : ''}${next ? `[Later: ${DAY(next)}](${ctx.link(rel, `days/${next}/index.html`)})` : ''} · [All the days](${ctx.link(rel, 'days/index.html')}) · [The full agenda](${ctx.link(rel, 'summit/agenda.html')})`
     return {
         src: 'data/events/', rel, type: 'site', date: TODAY, section: 'agenda',
         crumbs: [['summit/index.html', 'The summit'], [null, DAY(d)]],
@@ -46,7 +46,21 @@ function dayPage(ctx, d, i) {
     }
 }
 
-export function pages(ctx) { return STRIP_DAYS.map((d, i) => dayPage(ctx, d, i)) }
+// the days' own front door (the brief of 9 November: /days/ returned 404): the strip, then each day with its count and its five things
+function daysIndex(ctx) {
+    const { itemsOn, TODAY, DAY } = load(ctx), rel = 'days/index.html'
+    const body = STRIP_DAYS.map(d => {
+        const items = itemsOn(d), rk = e => e.kind === 'registration' && d >= '2026-11-10' ? 4 : rank(e)
+        const picked = (PICKS[d]?.picks || []).map(id => items.find(e => e.id === id.replace(/^event:/, ''))).filter(Boolean)
+        const five = picked.length ? [...picked].sort(byTime) : [...items].sort((a, b) => rk(a) - rk(b) || byTime(a, b)).slice(0, 5).sort(byTime)
+        const line = e => slotLine(ctx, rel, e, { day: false, extra: [KIND[e.kind] || e.kind] })
+        return `## [${DAY(d)}](${ctx.link(rel, `days/${d}/index.html`)})${d === TODAY ? ' (today)' : ''} {#d-${d}}\n\n${items.length} in our programme.\n\n${slotList(five.map(line))}`
+    }).join('\n\n')
+    return { src: 'data/events/', rel, type: 'site', date: TODAY, section: 'agenda', crumbs: [['summit/index.html', 'The summit'], [null, 'The days']], layout: 'wide',
+        title: 'The days', summary: 'The eight days of Web Summit Lisbon week, Friday 6 to Friday 13 November: five things to plan around on each, then the whole day.',
+        md: `${stripMd(ctx, rel)}\n\nEach day has a page with its five things, every session by time, and the sessions by stage.\n\n${body}` }
+}
+export function pages(ctx) { return [daysIndex(ctx), ...STRIP_DAYS.map((d, i) => dayPage(ctx, d, i))] }
 
 // Offline-first data: one JSON file per day (api/v1/days/<date>.json) and an index of them (api/v1/days.json), small enough for the
 // service worker to cache whole (dev@), so a day's schedule and the reader's picks open with no network.

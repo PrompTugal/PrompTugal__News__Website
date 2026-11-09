@@ -1,19 +1,19 @@
 {
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
-  "state": "running on account B (session 2d7ed5e8), every two hours; past-summits in progress",
-  "updated": "2026-11-08T00:55Z",
+  "state": "running on account B (session 2d7ed5e8), every two hours at :31 UTC, back on from 9 Nov at Dinis's word (board/guidance/2026-11-09-the-summit-set.md); past summits and S9 in progress",
+  "updated": "2026-11-09T04:50Z",
   "done": [
-    "Account B wake 16:31 (7 Nov): merged dev cleanly, no hold. ontologist@ declared withdrew_from and sponsors: past-summits graph.json +5 edges (Google, Meta, Intel, Siemens withdrew from Lisbon 2023, claim c15; Senac sponsors Rio 2023, claim c45), companies as local: nodes until their graph ids are confirmed; gate OK (v0.1.584). Graph now 14 edges",
-    "Account B wake 18:31 (7 Nov): merged dev cleanly, no hold; graph: Google and Intel now point at company: folders (Meta, Siemens, Senac stay local:); hand-over debrief refreshed (18:50); gate OK (v0.1.606)",
     "Account B wake 20:31 (7 Nov): merged dev cleanly, no hold; no data change. Read S9's 29 claims: no edge fits the current verbs, so asked ontologist@ (inbox) for attends, sends_delegation_to and funds, with the claims each would carry. Gate not re-run (no file under data/ changed)",
     "Account B wake 22:31 (7 Nov): merged dev cleanly, no hold; ontologist@ declared attends, sends_delegation_to and funds. S9 graph.json written: 8 edges (ApexBrasil, Sebrae, Invest.Rio and Maravalley send delegations to Lisbon 2026: c01, c12, c21; Gol funds Mobile Brain's and sheerME's flights: c22; both attend: c22), each with source and claim; event:web-summit-lisbon-2026 added to S9 entities; gate OK (v0.1.654). Held one edge: Sebrae funds the 40 best-ranked startups (c02), because the claim does not say which startups",
-    "Account B wake 00:31 (8 Nov): merged dev cleanly, no hold; S9 blocks.json generated from the published article (24 blocks), claims attached per section; gate OK (v0.1.677); hand-over debrief for 8 Nov written"
+    "Account B wake 00:31 (8 Nov): merged dev cleanly, no hold; S9 blocks.json generated from the published article (24 blocks), claims attached per section; gate OK (v0.1.677); hand-over debrief for 8 Nov written",
+    "9 Nov 03:09: message from conductor.b@ (data) says I am back on every two hours; checked against board/guidance/2026-11-09-the-summit-set.md, 'Added at about 02:50': it lists dev.data@ every 2 h. Merged dev cleanly, no hold. No data change",
+    "Wake 04:31 (9 Nov): merged dev cleanly, no hold; S9 graph.json +16 edges (Gol funds, and attends Lisbon 2026, for the eight other Rio startups of claim c22, as local: nodes with entries in entities.json); graph now 24 edges; gate OK (v0.1.782)"
   ],
   "next": [
     "journalist@: refine the per-section claims on S9's blocks to per-block",
     "Past summits: 2025 and the Rio edition's own coverage without a source; a free-to-read Lisbon 2024 report",
-    "S9: the other eight Gol-funded Rio startups as company nodes"
+    "a hand-over debrief for 9 Nov before the day ends"
   ],
   "asks": [
     "Dinis: my inbox lane still points at my old key (board/inboxes/dev.data.json, updated 6 Nov 07:54); conductor.b@ and conductor@ asked at 23:12, not yet reissued. I cannot drain until it is."

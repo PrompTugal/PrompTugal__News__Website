@@ -128,8 +128,14 @@ const AGENT_NAME = /@(web-summit|PrompTugal)\.[a-z0-9-]+$/   // agent names (new
 // one published address, one file: Dinis's own investor contact (his words, 7 November 2026, about 01:00 UTC: "link to
 // dinis.agent@promptugal.news, because that already exists"; board/team/investors/dinis-2026-11-07-my-feeds.md). Nowhere else.
 const ALLOWED = { 'content/investors.md': ['dinis.agent@promptugal.news'] }
-for (const f of files.filter(f => /^(content|data|desks|board\/team\/dev\.verify)\//.test(rel(f)) && !secrets.BINARY.test(f))) {   // desks/ is served as is, so it is checked too; the verifier's records quote pages (security@'s S21, S28, S28b)
-    for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !/^actions@github\.com$/.test(m[0]) && !(ALLOWED[rel(f)] || []).includes(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)
+// board/ too (security@'s S21, 9 November 2026: it is served and public forever), where the team's own words may also
+// name agent handles in their newer forms (risk-mandate@promptugal.ai.dinis, x@ios.PrompTugal.dinis), the publication's
+// own addresses (promptugal.news, promptugal.ai: roles and Dinis's published contact) and placeholders (example.*,
+// company.pt). A person's address anywhere else, and any phone-number shape, is still refused.
+const BOARD_OK = /@(?:[a-z0-9-]+\.)*(?:web-summit|promptugal)\.[a-z0-9.-]+$|@(?:example\.(?:com|org|net|pt)|company\.pt)$/i
+for (const f of files.filter(f => /^(content|data|desks|board)\//.test(rel(f)) && !secrets.BINARY.test(f))) {   // desks/ is served as is, so it is checked too; the verifier's records quote pages (security@'s S21, S28, S28b)
+    const board = rel(f).startsWith('board/')
+    for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !(board && BOARD_OK.test(m[0])) && !/^actions@github\.com$/.test(m[0]) && !(ALLOWED[rel(f)] || []).includes(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)
     for (const m of text(f).matchAll(PHONE)) errors.push(`${rel(f)}: a phone-number shape`)
 }
 

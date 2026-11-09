@@ -2,7 +2,7 @@
   "$schema": "../../schemas/story-graph.schema.json",
   "story": "S9",
   "kept_by": "dev.data@PrompTugal.dinis",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "edges": [
     {
       "from": "organisation:apexbrasil",
@@ -61,6 +61,126 @@
     },
     {
       "from": "company:sheerme",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "local:paralelo-app",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "local:paralelo-app",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "local:predator-sports-health",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "local:predator-sports-health",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "local:embeddo",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "local:embeddo",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "local:lucca",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "local:lucca",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "local:bizuu",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "local:bizuu",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "local:ray-pay",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "local:ray-pay",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "local:atlanticit",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "local:atlanticit",
+      "verb": "attends",
+      "to": "event:web-summit-lisbon-2026",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "from": "organisation:gol",
+      "verb": "funds",
+      "to": "local:allpetsenior",
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22",
+      "note": "Pays the flights of the 10 Rio startups."
+    },
+    {
+      "from": "local:allpetsenior",
       "verb": "attends",
       "to": "event:web-summit-lisbon-2026",
       "source": "startups-2026-10-26-gol",

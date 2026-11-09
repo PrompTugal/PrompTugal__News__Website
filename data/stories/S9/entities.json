@@ -135,6 +135,78 @@
         "startups-2026-10-26-gol"
       ],
       "note": "The edition the Brazilian delegation goes to (9 to 12 November 2026)"
+    },
+    {
+      "ref": "local:paralelo-app",
+      "label": "Paralelo.app",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose flights Gol pays; no company page yet"
+    },
+    {
+      "ref": "local:predator-sports-health",
+      "label": "Predator Sports & Health",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose flights Gol pays; no company page yet"
+    },
+    {
+      "ref": "local:embeddo",
+      "label": "Embeddo",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose flights Gol pays; no company page yet"
+    },
+    {
+      "ref": "local:lucca",
+      "label": "Lucca",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose flights Gol pays; no company page yet"
+    },
+    {
+      "ref": "local:bizuu",
+      "label": "Bizuu",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose flights Gol pays; no company page yet"
+    },
+    {
+      "ref": "local:ray-pay",
+      "label": "Ray Pay",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose flights Gol pays; no company page yet"
+    },
+    {
+      "ref": "local:atlanticit",
+      "label": "ATLANTICIT",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose flights Gol pays; no company page yet"
+    },
+    {
+      "ref": "local:allpetsenior",
+      "label": "AllPetSenior",
+      "kind": "company",
+      "sources": [
+        "startups-2026-10-26-gol"
+      ],
+      "note": "One of the ten Rio startups whose flights Gol pays; no company page yet"
     }
   ]
 }

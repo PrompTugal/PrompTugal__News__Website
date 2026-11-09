@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "luiz-alberto-amorim",
+  "type": "person",
+  "name": "Luiz Alberto Amorim",
+  "role": "Superintendente",
+  "organisation": "SEBRAE PARAIBA",
+  "org": "organisation:sebrae-paraiba",
+  "listings": [
+    {
+      "role": "Superintendente",
+      "organisation": "SEBRAE PARAIBA",
+      "org": "organisation:sebrae-paraiba",
+      "event": "event:press-conference-web-summit-spotlight-heads-to-paraiba-as",
+      "source": "https://websummit.com/sessions/lis26/43576352-a9ec-4bae-9f7a-ea7c66336cea/press-conference-web-summit-spotlight-heads-to-paraiba-as-part-of-four-year-partnership/",
+      "read_at": "2026-11-09T05:07Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

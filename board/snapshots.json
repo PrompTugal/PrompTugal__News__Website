@@ -2052,6 +2052,114 @@
      "file": "2026-11-09T0354Z/newsroom-desktop.jpg"
     }
    ]
+  },
+  {
+   "stamp": "2026-11-09T0455Z",
+   "version": "v0.1.785",
+   "shots": [
+    {
+     "page": "front",
+     "url": "/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0455Z/front-desktop.jpg"
+    },
+    {
+     "page": "front",
+     "url": "/",
+     "viewport": "phone",
+     "file": "2026-11-09T0455Z/front-phone.jpg"
+    },
+    {
+     "page": "articles",
+     "url": "/articles/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0455Z/articles-desktop.jpg"
+    },
+    {
+     "page": "companies",
+     "url": "/companies/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0455Z/companies-desktop.jpg"
+    },
+    {
+     "page": "people",
+     "url": "/people/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0455Z/people-desktop.jpg"
+    },
+    {
+     "page": "portugal",
+     "url": "/portugal/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0455Z/portugal-desktop.jpg"
+    },
+    {
+     "page": "graph",
+     "url": "/graph/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0455Z/graph-desktop.jpg"
+    },
+    {
+     "page": "newsroom",
+     "url": "/newsroom/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0455Z/newsroom-desktop.jpg"
+    }
+   ]
+  },
+  {
+   "stamp": "2026-11-09T0554Z",
+   "version": "v0.1.789",
+   "shots": [
+    {
+     "page": "front",
+     "url": "/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0554Z/front-desktop.jpg"
+    },
+    {
+     "page": "front",
+     "url": "/",
+     "viewport": "phone",
+     "file": "2026-11-09T0554Z/front-phone.jpg"
+    },
+    {
+     "page": "articles",
+     "url": "/articles/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0554Z/articles-desktop.jpg"
+    },
+    {
+     "page": "companies",
+     "url": "/companies/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0554Z/companies-desktop.jpg"
+    },
+    {
+     "page": "people",
+     "url": "/people/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0554Z/people-desktop.jpg"
+    },
+    {
+     "page": "portugal",
+     "url": "/portugal/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0554Z/portugal-desktop.jpg"
+    },
+    {
+     "page": "graph",
+     "url": "/graph/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0554Z/graph-desktop.jpg"
+    },
+    {
+     "page": "newsroom",
+     "url": "/newsroom/",
+     "viewport": "desktop",
+     "file": "2026-11-09T0554Z/newsroom-desktop.jpg"
+    }
+   ]
   }
  ],
  "vault": {

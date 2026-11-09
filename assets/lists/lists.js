@@ -5,7 +5,7 @@
 (function () {
     var root = document.querySelector('.ls[data-list]'); if (!root) return
     var kind = root.getAttribute('data-list'), data; try { data = JSON.parse(root.querySelector('.ls-data').textContent) } catch (e) { return }
-    data.companies = data.companies || []; data.people = data.people || []; data.fields = data.fields || {}
+    data.companies = data.companies || []; data.people = data.people || []; data.articles = data.articles || []; data.fields = data.fields || {}
     var out = root.querySelector('.ls-out'), q = root.querySelector('.ls-q'), sel = root.querySelector('.ls-f'), cnt = root.querySelector('.ls-n')
     var st = { v: '', q: '', f: '' }
     function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e }
@@ -27,6 +27,20 @@
                 if (st.v === 'grid') group(l, function (c) { return c.f }).forEach(function (g) { var ul = el('ul', 'ls-grid'); g[1].forEach(function (c) { ul.appendChild(self.card(c)) }); add(out, head(data.fields[g[0]] || g[0], g[1].length), ul) })
                 else if (st.v === 'directory') group(l, function (c) { return c.c }).forEach(function (g) { var ul = el('ul', 'ls-dir'); g[1].forEach(function (c) { ul.appendChild(add(el('li'), a(c.n, c.id + '/index.html'), el('span', null, c.w), el('span', 'ls-meta', data.fields[c.f] || c.f))) }); add(out, head(g[0], g[1].length), ul) })
                 else { if (s) l.sort(function (x, y) { return (y.n.toLowerCase().indexOf(s) >= 0) - (x.n.toLowerCase().indexOf(s) >= 0) || x.n.localeCompare(y.n) }); var rows = el('ul', 'ls-rows'); l.forEach(function (c) { rows.appendChild(self.card(c)) }); out.appendChild(rows) }
+            },
+        },
+        articles: {
+            key: 'pt-articles-view', views: ['wire', 'day', 'topic'], total: data.articles.length,
+            match: function (x, s) { return (!st.f || x.g.indexOf(st.f) >= 0) && (!s || (x.t + ' ' + x.sum).toLowerCase().indexOf(s) >= 0) },
+            empty: 'No article matches. Clear the search or choose All topics.',
+            pic: function (x) { if (!x.i) return null; var pc = el('picture'), src = el('source'), im = el('img'); src.media = '(prefers-color-scheme: dark)'; src.srcset = x.i.replace('--paper--', '--ink--'); im.src = x.i; im.alt = x.ia; im.loading = 'lazy'; im.width = 480; im.height = 480; return add(pc, src, im) },
+            dayName: function (d) { return new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' }) },
+            card: function (x) { var th = this.pic(x), body = add(el('div'), el('p', 'fx-k', x.b), add(el('h3'), a(x.t, x.s + '.html')), el('p', null, x.sum), el('p', 'ls-meta', x.by)); var li = el('li', 'ls-card ls-art'); if (th) li.appendChild(add(el('a', 'ls-thumb'), th)), li.firstChild.href = x.s + '.html', li.firstChild.tabIndex = -1; return add(li, body) },
+            draw: function (l) {
+                var self = this
+                if (st.v === 'wire') { var ul = el('ul', 'ls-rows'); l.forEach(function (x) { ul.appendChild(self.card(x)) }); out.appendChild(ul) }
+                else if (st.v === 'day') { var days = []; l.forEach(function (x) { if (days.indexOf(x.d) < 0) days.push(x.d) }); days.forEach(function (d) { var xs = l.filter(function (x) { return x.d === d }), g = el('ul', 'ls-grid'); xs.forEach(function (x) { g.appendChild(self.card(x)) }); add(out, head(self.dayName(d), xs.length), g) }) }
+                else { var by = {}; l.forEach(function (x) { x.g.filter(function (t) { return !/^the summit$/i.test(t) }).forEach(function (t) { (by[t] = by[t] || []).push(x) }) }); Object.keys(by).map(function (k) { return [k, by[k]] }).sort(function (x, y) { return y[1].length - x[1].length || x[0].localeCompare(y[0]) }).forEach(function (g) { var ul = el('ul', 'ls-rows'); g[1].forEach(function (x) { ul.appendChild(self.card(x)) }); add(out, head(g[0], g[1].length), ul) }) }
             },
         },
         people: {
@@ -70,7 +84,7 @@
         history.replaceState(null, '', '#' + p)
     }
     function render() {
-        var s = st.q.toLowerCase(), l = (kind === 'companies' ? data.companies : data.people).filter(function (x) { return L.match(x, s) })
+        var s = st.q.toLowerCase(), l = data[kind].filter(function (x) { return L.match(x, s) })
         cnt.textContent = l.length + ' of ' + L.total
         root.classList.toggle('ls-sf', st.v === 'search')
         root.querySelectorAll('.ls-seg button').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-v') === st.v ? 'true' : 'false') })
@@ -78,11 +92,11 @@
         if (!l.length) out.appendChild(el('p', 'ls-empty', L.empty)); else L.draw(l, s)
     }
     if (sel) {
-        var D = data.companies, fields = []; D.forEach(function (c) { if (fields.indexOf(c.f) < 0) fields.push(c.f) })
-        fields.sort(function (x, y) { return D.filter(function (c) { return c.f === y }).length - D.filter(function (c) { return c.f === x }).length })
-        var opt = function (v, t) { var o = el('option', null, t); o.value = v; return o }
-        sel.appendChild(opt('', 'All fields'))
-        fields.forEach(function (f) { sel.appendChild(opt(f, (data.fields[f] || f) + ' (' + D.filter(function (c) { return c.f === f }).length + ')')) })
+        var opt = function (v, t) { var o = el('option', null, t); o.value = v; return o }, names = [], count = {}, nm = {}
+        if (kind === 'companies') { data.companies.forEach(function (c) { count[c.f] = (count[c.f] || 0) + 1; nm[c.f] = data.fields[c.f] || c.f }); sel.appendChild(opt('', 'All fields')) }
+        else { data.articles.forEach(function (x) { x.g.forEach(function (t) { count[t] = (count[t] || 0) + 1; nm[t] = t }) }); sel.appendChild(opt('', 'All topics')) }
+        names = Object.keys(count).sort(function (x, y) { return count[y] - count[x] || x.localeCompare(y) })
+        names.forEach(function (f) { sel.appendChild(opt(f, nm[f] + ' (' + count[f] + ')')) })
         sel.addEventListener('change', function () { st.f = sel.value; write(); render() })
     }
     root.querySelectorAll('.ls-seg button').forEach(function (b) { b.addEventListener('click', function () { st.v = b.getAttribute('data-v'); write(); render() }) })

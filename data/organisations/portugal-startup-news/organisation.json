@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "portugal-startup-news",
+  "type": "organisation",
+  "name": "Portugal Startup News",
+  "names_as_listed": [
+    "Portugal Startup News"
+  ],
+  "sources": [
+    {
+      "url": "https://portugalstartupnews.com/2026/11/08/full-list-of-78-startups-selected-by-startup-portugal-for-road-2-web-summit-2026/",
+      "read_at": "2026-11-09T05:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

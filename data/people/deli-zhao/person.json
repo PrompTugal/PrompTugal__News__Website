@@ -11,9 +11,18 @@
       "role": "Founder and President",
       "organisation": "Xpeng Aridge",
       "org": "organisation:xpeng-aridge",
+      "event": "event:welcome-to-tomorrow",
+      "source": "https://websummit.com/sessions/lis26/0ca74ec3-5574-4ff1-a33f-731cfa8c76e2/welcome-to-tomorrow/",
+      "read_at": "2026-11-09T05:07Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Founder and President",
+      "organisation": "Xpeng Aridge",
+      "org": "organisation:xpeng-aridge",
       "event": "event:press-conference-with-xpeng-aridge-founder-and-president",
       "source": "https://websummit.com/sessions/lis26/3b511e19-cd3b-488b-af50-49d488e5cbc7/press-conference-with-xpeng-aridge-founder-and-president-deli-zhao-and-xpeng-aridge-cfo-michael-du/",
-      "read_at": "2026-11-08T05:03Z",
+      "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky"
     },
     {
@@ -22,7 +31,7 @@
       "org": "organisation:xpeng-aridge",
       "event": "event:taking-the-flying-car-from-sci-fi-to-reality",
       "source": "https://websummit.com/sessions/lis26/fd14aac9-a53b-4b2a-af0d-147a9e44f2b8/taking-the-flying-car-from-sci-fi-to-reality/",
-      "read_at": "2026-11-08T05:03Z",
+      "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky"
     }
   ],

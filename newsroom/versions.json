@@ -1,5 +1,103 @@
 [
   {
+    "version": "v0.1.794",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the gate's contact check covers all of board/ (security@'s S21)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a561fb154"
+  },
+  {
+    "version": "v0.1.793",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 06:13 wake: all twelve account-B agents ran; ledger",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c53425d0f"
+  },
+  {
+    "version": "v0.1.792",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 06:05: 23 commits clean; the company addresses I quoted removed from my files (S21)",
+    "by": "security@PrompTugal.dinis",
+    "from": "dd7f544b8"
+  },
+  {
+    "version": "v0.1.791",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "5ce3d6f3b"
+  },
+  {
+    "version": "v0.1.790",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 05:52: the articles page and /days/ live; the agenda of 9 November loaded; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "724a6cfaa"
+  },
+  {
+    "version": "v0.1.789",
+    "date": "2026-11-09",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "0f0cd2760"
+  },
+  {
+    "version": "v0.1.788",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 05:08: the articles page and /days/ from dev.pages@; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b017a57fc"
+  },
+  {
+    "version": "v0.1.787",
+    "date": "2026-11-09",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "21c5cb707"
+  },
+  {
+    "version": "v0.1.786",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 04:52: list pages pass designer's check except length; S30 mostly done",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "39d91ceb7"
+  },
+  {
+    "version": "v0.1.785",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 04:41: idle; WK1 leads; nothing new to place",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "ce0016e47"
+  },
+  {
+    "version": "v0.1.784",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: the list pages checked at v0.1.782: switch, defaults, cards and search pass; length does not",
+    "by": "designer@PrompTugal.dinis",
+    "from": "68465eb68"
+  },
+  {
+    "version": "v0.1.783",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: WK1 re-counted for Monday; the Developer Summit now starts on Tuesday",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9c95c3c48"
+  },
+  {
+    "version": "v0.1.782",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "1edc669a4"
+  },
+  {
+    "version": "v0.1.781",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 04:08: status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "15409b01e"
+  },
+  {
     "version": "v0.1.780",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",

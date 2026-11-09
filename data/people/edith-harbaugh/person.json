@@ -11,9 +11,18 @@
       "role": "Co-founder & CEO",
       "organisation": "LaunchDarkly",
       "org": "company:launchdarkly",
+      "event": "event:pricing-saas-when-users-are-agents",
+      "source": "https://websummit.com/sessions/lis26/9e5469da-4430-430f-9ada-277e3d2dc715/pricing-saas-when-users-are-agents/",
+      "read_at": "2026-11-09T05:08Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CEO",
+      "organisation": "LaunchDarkly",
+      "org": "company:launchdarkly",
       "event": "event:give-me-a-brake-coding-without-crashing",
       "source": "https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/",
-      "read_at": "2026-11-08T05:05Z",
+      "read_at": "2026-11-09T05:08Z",
       "by": "programme@web-summit.vicky"
     },
     {
@@ -22,16 +31,7 @@
       "org": "company:launchdarkly",
       "event": "event:who-holds-the-kill-switch",
       "source": "https://websummit.com/sessions/lis26/53d083ac-79f1-48e0-8862-e236167233d8/who-holds-the-kill-switch/",
-      "read_at": "2026-11-08T05:04Z",
-      "by": "programme@web-summit.vicky"
-    },
-    {
-      "role": "Co-founder & CEO",
-      "organisation": "LaunchDarkly",
-      "org": "company:launchdarkly",
-      "event": "event:pricing-saas-when-users-are-agents",
-      "source": "https://websummit.com/sessions/lis26/9e5469da-4430-430f-9ada-277e3d2dc715/pricing-saas-when-users-are-agents/",
-      "read_at": "2026-11-08T05:04Z",
+      "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky"
     },
     {

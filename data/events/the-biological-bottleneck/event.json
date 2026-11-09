@@ -33,8 +33,8 @@
     },
     {
       "person": "person:carmem-domingues",
-      "as_listed": "Carmem Domingues (former White House Senior AI Advisor, AI Techno-Realist, Future Government Institute)",
-      "role": "former White House Senior AI Advisor, AI Techno-Realist",
+      "as_listed": "Carmem Domingues (former White House Senior AI Advisor, AI Techno-Realist, AI Techno-Realist, Future Government Institute)",
+      "role": "former White House Senior AI Advisor, AI Techno-Realist, AI Techno-Realist",
       "organisation": "Future Government Institute",
       "org": "organisation:future-government-institute"
     },
@@ -49,7 +49,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
-  "read_at": "2026-11-08T05:04Z",
+  "read_at": "2026-11-09T05:08Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -60,6 +60,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 179
+    "item": 183
   }
 }
