@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480"><style>
+.bg{fill:#f6f3ec}.ink{fill:#121317}.ink2{fill:#3f424a}.ink3{fill:#595c64}.red{fill:#c52830}.grn{fill:#006600}.box{fill:#ece7db;stroke:#9d9580}.lim{fill:#f6f3ec;stroke:#c52830}.on{fill:#f6f3ec}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){.bg{fill:#111214}.ink{fill:#eceae4}.ink2{fill:#c3c0b7}.ink3{fill:#a6a39a}.red{fill:#f07278}.grn{fill:#6dbb7e}.box{fill:#1a1b1e;stroke:#5f5b51}.lim{fill:#111214;stroke:#f07278}.on{fill:#111214}}
+</style><rect class="bg" width="480" height="480"/><rect class="grn" x="40" y="40" width="80" height="8"/><text class="ink" x="40" y="106" font-size="80" font-weight="800" text-anchor="start">Health</text><text class="ink" x="40" y="212" font-size="80" font-weight="800" text-anchor="start">startups</text><rect class="grn" x="40" y="256" width="380" height="36" rx="6"/><rect class="grn" x="40" y="308" width="285" height="36" rx="6"/><rect class="grn" x="40" y="360" width="190" height="36" rx="6"/><rect class="grn" x="40" y="412" width="190" height="36" rx="6"/></svg>

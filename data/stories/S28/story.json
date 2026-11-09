@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S28",
+  "type": "story",
+  "title": "Five AI builders on Web Summit's speaker list worth knowing",
+  "beat": "Connections: the summit",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:v-websummit-speakers-by-theme"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-08-1045.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-08-1045.json",
+      "desks/journalist-vicky/drafts/S28-five-ai-builders-to-know.md",
+      "desks/reviewer-vicky/reviews/S28.md",
+      "content/articles/five-ai-builders-to-know.md"
+    ]
+  },
+  "assignee": "journalist-connections@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S28-five-ai-builders-to-know.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S28.md",
+      "verdict": "Fix first",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-08"
+    }
+  ],
+  "article": {
+    "path": "content/articles/five-ai-builders-to-know.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-08T10:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-08-1045.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-08",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S28-five-ai-builders-to-know.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-08",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S28.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-08",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "content/articles/five-ai-builders-to-know.md"
+    }
+  ]
+}

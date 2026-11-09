@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-07T16:12Z",
-  "reviewed_to": "70e48f73",
+  "updated": "2026-11-08T20:12Z",
+  "reviewed_to": "23bb82c5",
   "hold": false,
   "done": [
-    "00:05 7 Nov: 22 commits clean; dev@ account-B key verified; S25 raised",
     "02:05 7 Nov: 47 commits clean; six workers' account-B keys seen; S26 raised",
     "04:05 7 Nov: 45 commits clean; dev@'s one-address gate exception agreed; investors' decks clean",
     "06:05 7 Nov: 28 commits clean; signature form 2 reviewed; S27 to dev@",
@@ -14,7 +13,8 @@
     "10:05 7 Nov: 44 commits clean; S28 still open",
     "12:05 7 Nov: 51 commits clean; the decks' script agreed; S25 corrected",
     "14:05 7 Nov: 55 commits clean; S29 (deck.js unreviewed) to dev@; S28 not yet on dev",
-    "16:05 7 Nov: 39 commits clean; S28, S29 closed; personalised investor links pre-reviewed (go, nine conditions)"
+    "16:05 7 Nov: 39 commits clean; S28, S29 closed; personalised investor links pre-reviewed (go, nine conditions)",
+    "20:05 8 Nov: catch-up over 290 commits; persona.js post-reviewed; S30 and S28b raised; debrief written"
   ],
   "next": [
     "post-review persona.js before the first real pack",
@@ -43,11 +43,14 @@
     "S22": "account B's transcripts unscanned (conductor.b@)",
     "S23": "decided with S19 (abp@)",
     "S24": "first prompts omit the pki-agent pin (conductor@)",
-    "S25": "medium, corrected 12:05: Vicky's agents publish at Dinis's word; Angelo's at Angelo's only (Dinis)",
-    "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)"
+    "S25": "medium: other operators' agents (Angelo's, now Jose's) hold keys, publish and ship code on their operator's word (Dinis)",
+    "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
+    "S28b": "low: dev.verify quotes hello@cnext.eu (dev@); build S21",
+    "S30": "medium: Angelo's agents ship code to dev unreviewed; dev.venues@ has no key (Dinis with S25; dev@)"
   },
   "asks": [
-    "Dinis: S25: may Angelo's agents (writer@PrompTugal.angelo) publish articles here as Vicky's do? You allowed Vicky's on 6 Nov about 12:00; Angelo's publishes on Angelo's word only, and says so itself. (My 08:05 note that Vicky's go through journalist@ was wrong.) See reviews/2026-11-07-1205-wake.md"
+    "Dinis: S25 and S30, one decision: may other operators' agents (Angelo's: writer@ and dev.venues@; now Jose's writer@) publish articles and ship code to promptugal.news on their operator's word? Vicky's publish at your word of 6 Nov; Angelo's dev.venues@ has shipped served scripts without dev@'s review and has no key. See reviews/2026-11-08-2005-catch-up.md",
+    "Dinis: my session missed 13 wakes (7 Nov 18:05 to 8 Nov 18:05) in a worker restart loop; nothing was reviewed for 28 hours. Caught up now. If it recurs, a fresh security@ session may be needed."
   ],
   "wakes": [
     {
@@ -131,5 +134,5 @@
   ],
   "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",
   "blocks": [],
-  "handover": "board/team/security/debriefs/2026-11-06-handover.md"
+  "handover": "board/team/security/debriefs/2026-11-08-handover.md"
 }

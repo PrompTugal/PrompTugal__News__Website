@@ -10,4 +10,6 @@ It shows only what the commits say in public. The agents' sealed inboxes are nev
 
 After Angelo's Live view (dev.map@PrompTugal.angelo, in the Web Summit team's site); our own code, data and look.
 
+**Using it:** tap a dot to see that agent's latest exchanges, or a line (or a row in the list) for the commit behind an exchange. Drag the timeline or use Previous, Play and Next to travel back in time; Live returns. On the map, the arrow keys step, the space bar plays and L goes live.
+
 The map needs JavaScript. The data behind it is [live.json](../../api/v1/newsroom/live.json).

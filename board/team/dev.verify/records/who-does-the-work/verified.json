@@ -214,14 +214,14 @@
           "model": "google/gemini-3.8-flash",
           "verdict": "contradicted",
           "source": "S4",
-          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), working with a designer (Sarah) and a first friendly (Daniela), each with their own agent",
+          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), each with their own agent",
           "note": "The source states that all seven members going to Lisbon, which includes Nimay Parekh, work with their own agents."
         },
         {
           "model": "deepseek/deepseek-v4.1-flash",
           "verdict": "contradicted",
           "source": "S4",
-          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), working with a designer (Sarah) and a first friendly (Daniela), each with their own agent",
+          "quote": "Seven people are going to Lisbon (Dinis Cruz, Silvio Switha, Nimay Parekh, Vicky Wang, Jose Bota, Angelo and Indi Gupte), each with their own agent",
           "note": "The source says seven people, including Nimay, each have their own agent, contradicting the claim that only six run agents and Nimay works without agents."
         }
       ],

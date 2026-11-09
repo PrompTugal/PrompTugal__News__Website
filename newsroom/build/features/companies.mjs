@@ -12,7 +12,40 @@ export const assets = { js: ['assets/filter/filter.js'] }
 const ATTENDING = (a, cell) => a === 'unknown' ? 'a participant (the role is not stated in our sources)' : cell(a).replace(/^speaker's company/, "a speaker's company").replace(/^startup \(growth\)/, 'a startup (GROWTH programme)').replace(/^partner/, 'a partner')
 const topicName = (ctx, id) => (ctx.store.get(`topic:${id}`) || {}).name || id
 
-function summitSection(ctx, rel, c) {
+// PILOT-REPLIT (Vicky, 8 November 2026; the team site's people/vicky/decisions.md): a company page may carry two optional
+// sections, built from files, never typed here. "About": the "## About" section of desks/journalist-vicky/companies/<id>.md
+// when that file exists and its front matter says status: ready (written by Vicky's journalist, checked by her reviewer).
+// "From the newsroom": the published articles in content/articles/ that link to this company's page, also only when that
+// file is Ready, so no other company page changes. The same file's
+// "At Web Summit 2026" list marks a session "Media only" with the session's own page as its source; that session gets
+// the tag here. Without such a file, or with no article, a page is exactly as before.
+const deskFile = id => `desks/journalist-vicky/companies/${id}.md`
+const norm = u => String(u || '').replace(/\/+$/, '')
+function deskOf(ctx, id) {
+    if (!ctx.exists(deskFile(id))) return null
+    const { meta, body } = ctx.md.frontMatter(ctx.readText(deskFile(id)))
+    if (String(meta.status || '').trim() !== 'ready') return null
+    const section = name => ((body.split(/^## /m).find(x => x.startsWith(name + '\n')) || '').slice(name.length + 1)).trim()
+    const media = new Set(section('At Web Summit 2026').split('\n').filter(l => /Media only/.test(l)).flatMap(l => l.match(/https:\/\/websummit\.com\/sessions\/[^\s)]+/g) || []).map(norm))
+    return { about: section('About'), media, read: meta.date ? String(meta.date) : null }
+}
+// the sessions marked Media only by a Ready company file, by their session URL: the read date of that file (TRIAGE-REPLIT
+// D1: the search index carries it to the reader's own day, so a saved press conference keeps its marker)
+export function mediaOnlyEvents(ctx) {
+    const out = new Map()
+    for (const x of ctx.store.companies) { const desk = deskOf(ctx, x.id); if (desk) for (const u of desk.media) out.set(u, desk.read) }
+    return out
+}
+function newsroomSection(ctx, rel, c) {
+    const link = new RegExp(`\\.\\./companies/${c.id}/`)
+    const arts = ctx.content.filter(p => p.rel.startsWith('articles/') && String(p.meta.status || '') === 'published' && link.test(p.md || ''))
+        .sort((a, b) => String(b.meta.date || '').localeCompare(String(a.meta.date || '')) || String(a.meta.title).localeCompare(String(b.meta.title)))
+    // each article: its link in the site's ordinary link style, then its own published summary just under it (TRIAGE-REPLIT D4, D5)
+    return arts.map(p => `[${ctx.md.cell(p.meta.title)}](${ctx.link(rel, p.rel)})${p.meta.date ? `, ${readDay(p.meta.date)}` : ''}${p.meta.summary ? `\n\n{.meta}\n${ctx.md.cell(p.meta.summary)}` : ''}`).join('\n\n')
+}
+const readDay = d => { const x = new Date(String(d).slice(0, 10) + 'T12:00:00Z'); return isNaN(x) ? String(d) : x.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) }
+
+function summitSection(ctx, rel, c, desk) {
     const g = ctx.graph(), cid = `company:${c.id}`, cell = ctx.md.cell
     const evs = eventsOfCompany(g, cid).map(id => ctx.store.get(id)).filter(Boolean).sort((a, b) => (a.date + (a.time || '')).localeCompare(b.date + (b.time || '')))
     const lines = evs.map(e => {
@@ -21,7 +54,9 @@ function summitSection(ctx, rel, c) {
         for (const x of g.outOf(cid).filter(x => x.to === eid && (x.verb === 'appears_in' || x.verb === 'hosts'))) how.push(`${x.verb === 'hosts' ? 'it hosts the session' : 'the session page names it'} (${sourceLine(x.source, x.read, 'the team\'s curator')})`)
         const speakers = g.inOf(eid, 'speaks_at').filter(s => g.outOf(s.from, 'listed_under').some(l => l.to === cid)).map(s => refLink(ctx, rel, s.from))
         if (speakers.length) how.push(`${speakers.join(', ')} ${speakers.length === 1 ? 'speaks' : 'speak'} (${sourceLine(e.session_url || e.source_url, e.read_at, e.read_by)})`)
-        return slotLine(ctx, rel, e, { extra: [how.join('; ')] })
+        const media = desk && e.session_url && desk.media.has(norm(e.session_url))
+        if (media) how.push(`media only (${sourceLine(e.session_url, desk.read)})`)
+        return slotLine(ctx, rel, e, { extra: [how.join('; ')], tags: media ? ['Media only'] : [] })
     })
     const unresolved = (ctx.store.matching?.company_sessions?.unresolved || []).filter(u => u.company === cid)
     const gone = unresolved.map(u => `- A session page in its sources that is not in our programme: ${sourceLine(u.url)}. The programme desk found it answering 404 on 4 November, so it is left out until it is found again.`)
@@ -80,14 +115,18 @@ export function pages(ctx) {
         const chk = x.recheck[x.recheck.length - 1] || {}
         const sp = chk.summit_page, ws = chk.website
         const country = `place:${(x.edges.find(e => e.verb === 'based_in') || {}).to?.slice(6)}`
+        // both sections only on a page whose company has a Ready file (Replit, for now): every other page is unchanged
+        const desk = deskOf(ctx, x.id), news = desk ? newsroomSection(ctx, rel, x) : ''
         return {
             src: `data/companies/${x.id}/company.json`, rel, type: 'company', date: maxDate(x.sources.map(s => s.read_on), x.recheck.map(r => r.checked_at)),
             crumbs: [['companies/index.html', 'Companies'], [null, x.name]],
             title: x.name, summary: `Based in ${cell(x.country)}; at Web Summit Lisbon 2026 as ${ATTENDING(x.attending_as, cell)}. Public facts only, each with its source.`,
             md: `{.facts}\n| | |\n|---|---|\n| **What they do** | ${cell(x.what)} |\n| **Based in** | ${ctx.store.has(country) ? refLink(ctx, rel, country, x.country) : cell(x.country)} |\n| **At Web Summit as** | ${ATTENDING(x.attending_as, cell)} |\n| **Confirmed for 2026** | ${cell(x.attending).replace(/^confirmed: /, 'Yes: ').replace(/^unconfirmed: /, 'Not yet: ')} |\n| **Website** | ${x.website ? `[${cell(x.website).replace(/^https?:\/\/(www\.)?|\/$/g, '')}](${x.website})` : 'not in our sources'} |\n| **Filed under** | ${refLink(ctx, rel, `topic:${x.category}`, topicName(ctx, x.category))} |\n\n` +
-                `::: navigator n3\n::: nv\n## At the summit {#summit}\n\n${summitSection(ctx, rel, x)}\n:::\n` +
+                (desk && desk.about ? `## About ${cell(x.name)} {#company-about}\n\n${desk.about}\n\n` : '') +
+                `::: navigator n3\n::: nv\n## At the summit {#summit}\n\n${summitSection(ctx, rel, x, desk)}\n:::\n` +
                 `::: nv\n## People {#people}\n\nPeople the summit's pages list under ${cell(x.name)}, by name, role and organisation only.\n\n${peopleSection(ctx, rel, x)}\n:::\n` +
                 `::: nv\n## Related companies {#related}\n\n${relatedSection(ctx, rel, x)}\n:::\n:::\n\n` +
+                (news ? `## From the newsroom {#newsroom}\n\n${news}\n\n` : '') +
                 `## Its flows, and where AI agents are in them {#flows}\n\n${flowsSection(ctx, x)}\n\n` +
                 `## Our question for them {#question}\n\nAs for every company we follow, three questions, not claims. We have not asked ${cell(x.name)} yet. When they answer, it goes here.\n\n{.lens}\n1. **Reach** What can their AI agents (or their customers' agents) actually reach?\n2. **Mandate** What were they authorised to do?\n3. **Gap** Who controls the gap between the two?\n\n` +
                 `## Where this comes from {#sources}\n\n{.sources}\n` +

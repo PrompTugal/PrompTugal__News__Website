@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S29",
+  "type": "story",
+  "title": "Who builds the parts of an AI agent? Startups at Web Summit",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:v-websummit-featured-startups-p1"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-08-1845.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-08-1845.json",
+      "desks/journalist-vicky/drafts/s29-who-builds-the-parts-of-an-ai-agent.md",
+      "desks/reviewer-vicky/reviews/S29.md",
+      "content/articles/who-builds-the-parts-of-an-ai-agent.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/s29-who-builds-the-parts-of-an-ai-agent.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S29.md",
+      "verdict": "Fix first",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-08"
+    }
+  ],
+  "article": {
+    "path": "content/articles/who-builds-the-parts-of-an-ai-agent.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-08T18:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-08-1845.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-08",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/s29-who-builds-the-parts-of-an-ai-agent.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-08",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S29.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-08",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/who-builds-the-parts-of-an-ai-agent.md"
+    }
+  ]
+}

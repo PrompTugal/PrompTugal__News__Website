@@ -1,6 +1,6 @@
 ---
 title: "Plan your week by field: which summit day is yours"
-summary: "Web Summit's tracks do not run every day. From a count of all 1,122 sessions on its public schedule: security is all on Thursday, PITCH's group rounds all on Tuesday, AI and policy every day, developers on Wednesday and Thursday. One table to plan your week."
+summary: "Web Summit's tracks do not run every day. From a count of all 1,070 sessions on its public schedule: security is all on Thursday, PITCH's group rounds all on Tuesday, AI and policy every day, developers on Wednesday and Thursday. One table to plan your week."
 beat: Web Summit
 license: https://creativecommons.org/licenses/by/4.0/
 tags: Web Summit, schedule, planning
@@ -11,32 +11,32 @@ status: published
 ---
 ## In short
 
-- Web Summit's tracks do not run every day, so your field decides your best day. We counted the whole public schedule: 1,122 sessions from Monday 9 to Thursday 12 November.
+- Web Summit's tracks do not run every day, so your field decides your best day. We counted the whole public schedule: 1,070 sessions from Monday 9 to Thursday 12 November, as it stood early on Sunday 8 November.
 - **Security:** all 17 Cybersecurity Summit sessions are on Thursday 12, on Stage 8.
-- **Startups pitching, and the investors watching them:** PITCH's 15 group rounds are all on Tuesday 10, on Stage 12, and the ten semi-finalists are named there at 16:45. The semi-final is on Centre Stage on Wednesday 11 at 17:00, the final on Thursday 12 at 12:30, the winner at 15:00.
+- **Startups pitching, and the investors watching them:** PITCH's 15 group rounds are all on Tuesday 10, on Stages 6, 9 and 12, and the ten semi-finalists are named on Stage 9 at 16:45. The semi-final is on Centre Stage on Wednesday 11 at 17:00, the final on Thursday 12 at 12:30.
 - **AI and policy** run on all three main days; **developers** on Wednesday and Thursday.
 - Monday 9 is Opening Night: Centre Stage at 18:00 and 22 Night Summit meet and greets.
 
 ## Which day is yours
 
-Counts of sessions per track, from Web Summit's public schedule as it stood on Saturday 7 November. Times are Lisbon time.
+Counts of sessions per track, from Web Summit's public schedule as it stood early on Sunday 8 November. Times are Lisbon time.
 
 | If you work in | Track | Mon 9 | Tue 10 | Wed 11 | Thu 12 | Where |
 |---|---|---|---|---|---|---|
 | Security | Cybersecurity Summit | 0 | 0 | 0 | **17** | Stage 8 |
-| Startups, early-stage investing | PITCH (group rounds) | 0 | **16** | 0 | 0 | Stage 12; semi-final and final on Centre Stage, Wed and Thu |
-| Investing | Venture Summit | 0 | 14 | 12 | 0 | Stage 5 |
-| AI | AI Summit | 0 | 18 | 20 | 15 | Stage 13 |
-| Software development | Developer Summit | 0 | 0 | 15 | 16 | Stage 10 |
-| Policy and regulation | Policy Summit | 0 | 17 | 18 | 17 | Stage 11 |
-| Software as a service | SaaS Summit | 0 | 0 | 0 | 16 | Stage 7 |
-| Finance and fintech | MoneyConf | 0 | 17 | 14 | 0 | Stage 8 |
+| Startups, early-stage investing | PITCH (group rounds) | 0 | **16** | 0 | 0 | Stages 6, 9 and 12; semi-final and final on Centre Stage, Wed and Thu |
+| Investing | Venture Summit | 0 | 12 | 12 | 0 | Stage 5 |
+| AI | AI Summit | 0 | 18 | 19 | 14 | Stage 13 |
+| Software development | Developer Summit | 0 | 0 | 15 | 13 | Stage 10 |
+| Policy and regulation | Policy Summit | 0 | 17 | 16 | 17 | Stage 11 |
+| Software as a service | SaaS Summit | 0 | 0 | 0 | 13 | Stage 7 |
+| Finance and fintech | MoneyConf | 0 | 17 | 13 | 0 | Stage 8 |
 | Energy | Energy Summit | 0 | 15 | 0 | 0 | Stage 10 |
 | Health | Health Summit | 0 | 0 | 0 | 8 | Stage 5 |
-| Growth and scaling | Growth Summit | 0 | 0 | 26 | 20 | Stage 9 |
+| Growth and scaling | Growth Summit | 0 | 0 | 25 | 16 | Stage 9 |
 | Startups showing their product | Startup Showcase | 0 | 0 | 10 | 10 | Stages 6 and 12 |
-| Everyone | Centre Stage | 1 | 19 | 19 | 14 | Centre Stage |
-| The evenings | Night Summit | 22 | 34 | 34 | 0 | in the city |
+| Everyone | Centre Stage | 1 | 17 | 18 | 12 | Centre Stage |
+| The evenings | Night Summit | 22 | 34 | 33 | 0 | in the city |
 
 The table shows 14 of the schedule's 30 tracks. Some tracks share a stage on different days: MoneyConf has Stage 8 on Tuesday and Wednesday, the Cybersecurity Summit on Thursday.
 
@@ -50,18 +50,20 @@ The companies this newsroom follows are on [our companies page](../companies/ind
 
 ## What this does not claim
 
-- **Times and rooms change.** These counts are a snapshot of 7 November; check Web Summit's app on the day.
+- **Times and rooms change.** These counts are a snapshot of early 8 November; between Saturday evening and Sunday morning, 63 sessions left the schedule and 11 joined it. Check Web Summit's app on the day.
 - **A session's track is Web Summit's label.** Security topics also come up on other stages (Centre Stage, the AI Summit); the table counts only the track.
-- **Meetups, stand events and side events** (more than 300 more items) are left out of the table; they run Tuesday to Thursday.
+- **Meetups, stand events and side events** (314 more items) are left out of the table; they run Tuesday to Thursday.
 
 ## Where this comes from
 
-- Web Summit, the public schedule, one page per day, every page read on 7 November 2026 between 18:40 and 18:55 UTC, each session with its date, time, stage and track: <https://websummit.com/schedule/date/2026-11-09/page/1/>, <https://websummit.com/schedule/date/2026-11-10/page/1/>, <https://websummit.com/schedule/date/2026-11-11/page/1/>, <https://websummit.com/schedule/date/2026-11-12/page/1/> (4, 55, 58 and 45 pages)
+- Web Summit, the public schedule, one page per day, every page read on 7 November 2026 between 18:40 and 18:55 UTC and again on 8 November between 00:30 and 00:40 UTC (the figures in this article), each session with its date, time, stage and track: <https://websummit.com/schedule/date/2026-11-09/page/1/>, <https://websummit.com/schedule/date/2026-11-10/page/1/>, <https://websummit.com/schedule/date/2026-11-11/page/1/>, <https://websummit.com/schedule/date/2026-11-12/page/1/> (4, 55, 59 and 46 pages on 8 November)
 - This newsroom's company records (`data/companies/`) for the counts by field
 
 ## Corrections
 
 **7 November 2026, 20:45 UTC.** The first version said "all 16 PITCH sessions are on Tuesday 10, on Stage 12, ending with the results at 16:45", and suggested founders keep Tuesday for PITCH. The 16 sessions in Web Summit's PITCH track are the 15 group rounds and the announcement of the ten semi-finalists; the competition goes on under Centre Stage, with the semi-final on Wednesday 11 at 17:00, the final on Thursday 12 at 12:30 and the winner at 15:00 (the same schedule pages). Prompted by our verification agent's flags (dev.verify@PrompTugal.dinis).
+
+**8 November 2026, 00:50 UTC.** Re-counted from Web Summit's schedule: 1,070 sessions (63 left it overnight and 11 joined), and the table now gives Sunday's figures. Two corrections: PITCH's group rounds run on Stages 6, 9 and 12, not only Stage 12 as we wrote, and the semi-finalists are named on Stage 9; the "PITCH winner announcement" at 15:00 on Thursday is no longer on the schedule, so we no longer give it.
 
 ## Who made this
 
