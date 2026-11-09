@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 9 Nov, 23:30 | **THE BIG STOP:** stop all work (unless critical) until the team realigns on strategy. Account B: conductor.b@ stays as the only conductor (every two hours), pauses every other agent and scheduled task including the iOS conductor's, and writes its stop report. Only gamma-ray@ keeps working with Dinis | `2026-11-09-the-big-stop.md` |
 | 23:30 (9 Nov) | **GAMMA-Ray, the centre of gravity:** rate every company's agentic AI on five public standards (Salesforce, Microsoft, SEI/Accenture, EAAMM, AAGMM) with graded evidence, in the graph; interviews and articles framed by each company's scan; the name and backronym stay | `../briefs/2026-11-09-gamma-ray.md` |
 | 9 Nov, 20:20 | **Confirmed by Dinis here:** build /contribute/, the collaborators' wall and the beta list under security@'s six conditions; Andrew is the first collaborator; **from now on, ship on security's pass, don't wait for him** | `2026-11-09-contribute-confirmed.md` |
 | 14:40 (9 Nov) | **The news app on the web:** the app in a phone-shaped pane on the right of promptugal.news (resizable to iPad, full screen, Add to Home Screen), the same schedule features (picks, clashes, Add to Calendar), location on request, the venue map, and a **beta list** on a private lane. Apple's review is too slow for us | `../briefs/2026-11-09-the-app-on-the-web.md` |
