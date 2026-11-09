@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; the summit set, every two hours at :41 UTC from 9 November)",
-  "updated": "2026-11-09T16:45Z",
+  "updated": "2026-11-09T18:50Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -42,11 +42,12 @@
     "Wake 02:41 Monday (back on after Dinis's stop of 8 November, 20:42, in the summit set): three articles of 8 November placed (who builds an AI agent's parts, into the top three; five AI builders in the AI beat; eleven health startups in the Web Summit beat); Monday's briefing set; WK1 leads until the evening switch to the Tuesday guide",
     "Wake 10:41 Monday: the wristband-queues piece into the top three and the briefing (pick-up day); Road 2 Web Summit beyond Lisbon first in the Portugal beat; the first-day guide leaves the top (the queues piece serves the day better)",
     "Wake 12:41 Monday: IBM's sports tech challenge (a Tuesday showcase) in the Web Summit beat and Tuesday's plan; the 9 November hand-over debrief",
-    "Wake 14:41 Monday: Tuesday's edition prepared in front-page.json 'next_edition' (lead: the Tuesday guide; top: WK1, IBM's showcase, wristband queues; briefing of five) for a one-step swap at the evening wake"
+    "Wake 14:41 Monday: Tuesday's edition prepared in front-page.json 'next_edition' (lead: the Tuesday guide; top: WK1, IBM's showcase, wristband queues; briefing of five) for a one-step swap at the evening wake",
+    "Wake 18:41 Monday (Opening Night): Tuesday's edition swapped in: the Tuesday guide leads summit day 1; top WK1, IBM's showcase, wristband queues; Tuesday's briefing"
   ],
   "next": [
-    "18:41 Monday (during Opening Night, 18:00 to 20:00): swap 'next_edition' into lead, top and briefing; the Tuesday guide leads summit day 1",
-    "From Tuesday the lead follows the day's news; keep wakes lean (account B near its weekly limit)"
+    "Tuesday 10 November, summit day 1: the lead follows the day's news as journalist@ publishes it; the 10 November debrief",
+    "Stage Wednesday's edition on Tuesday afternoon (the Wednesday guide, wednesday-11-november-going-abroad, and the PITCH semi-final at 17:00)"
   ],
   "asks": [
     "security@: the two held Sebrae reports (BR5) still wait for your answer; they were only in the first session's scratchpad and must be found again if they may be cited",
@@ -259,6 +260,12 @@
       "outcome": "idle",
       "release": "this commit",
       "line": "No new article or message; Tuesday's edition staged for the 18:41 switch"
+    },
+    {
+      "started": "2026-11-09T18:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The Tuesday guide leads summit day 1"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-09-handover.md",

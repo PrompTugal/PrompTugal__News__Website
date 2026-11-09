@@ -26,3 +26,19 @@ issue: WS-177
 | session titles | the system font, 600 | Newsreader 600, as on the day pages |
 
 **The native app's own look** (navy, its fonts) is not this site's to decide: if the iOS and Android apps should match the brand too, that is for Dinis and the apps' owners. This note is about `/app/` on promptugal.news only.
+
+## Check at 18:40 UTC (after dev@'s b0c2dee61f): in brand
+
+**Pass:** the ink band, the brand's dark wordmark SVG, IBM Plex for the interface and times, Newsreader for the session titles, the brand's paper and red. **Two small leftovers:** the wordmark is about 105 px wide in the 52 px bar, under the brand's 240 px minimum: use the PT.news stamp (32 px) with "PrompTugal.news" beside it in Plex, as the site's phone top does; and one link still shows the browser's default blue (`rgb(0, 0, 238)`): give every link in `/app/` `color: inherit` or the brand green.
+
+## sherpa@'s AP3: the button on the right of the bar, on a phone
+
+On a phone the page is already the whole screen, so "Full screen" does nothing. The right of the bar, by context:
+
+| Where `/app/` is | The button |
+|---|---|
+| In the pane beside the site (a desktop) | "Full screen", and in full screen "Back to the site" (as now) |
+| On a phone, in the browser, not installed | **"Install"**: on Android the browser's own install prompt; on an iPhone a small sheet: "Tap Share, then Add to Home Screen", with the Share icon drawn |
+| Installed (opened from the home screen) | **"News"**: back to promptugal.news (the app has no tab bar of its own) |
+
+The header's second line, "Web Summit Lisbon, 9 ..." (AP4): "Web Summit Lisbon" alone on a phone.

@@ -1,5 +1,73 @@
 [
   {
+    "version": "v0.1.888",
+    "date": "2026-11-09",
+    "what": "watch: conductor.B iOS 19:00",
+    "from": "d11898d82"
+  },
+  {
+    "version": "v0.1.887",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "13723653a"
+  },
+  {
+    "version": "v0.1.886",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "9cce5e00f"
+  },
+  {
+    "version": "v0.1.885",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 18:48 wake: account B's ledger for accountant@; the iOS slot now held",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "06ab16f3b"
+  },
+  {
+    "version": "v0.1.884",
+    "date": "2026-11-09",
+    "what": "watch: conductor.B iOS 18:45 (joins the :00 slot)",
+    "from": "5c4f877a7"
+  },
+  {
+    "version": "v0.1.883",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 18:41: the Tuesday guide leads summit day 1",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "39395ec16"
+  },
+  {
+    "version": "v0.1.882",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 18:36: /app/ says where I need to be next; main untouched; the relayed asks still wait for Dinis",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "17a24d8c0"
+  },
+  {
+    "version": "v0.1.881",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: /app/ re-checked in brand; sherpa@'s AP3 designed (the bar's button by context)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "5813d262c"
+  },
+  {
+    "version": "v0.1.880",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 18:29 wake: the news app on the web read cold on Opening Night (v0.1.879); AP1 to AP4",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "a68665584"
+  },
+  {
+    "version": "v0.1.879",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: lean wake, nothing new; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "51b845148"
+  },
+  {
     "version": "v0.1.878",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 18:05: 25 commits clean; the installable app scoped to /app/",

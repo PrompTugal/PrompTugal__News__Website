@@ -10,6 +10,16 @@
    "PrompTugal__App__iOS": "89f10f3f",
    "PrompTugal__App__Mobile": "74332868",
    "note": "News: /app/ in brand v2.0 (b0c2dee6); Tuesday's edition staged for 18:41. Android promoted main twice; security HIGH on promote.yml; flagged to Dinis."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T18:37Z",
+   "SGit-AI__Website__Web-Summit": "4d76b433",
+   "PrompTugal__News__Website": "144adc06",
+   "PrompTugal__App__Android": "e33365db",
+   "PrompTugal__App__iOS": "04513827",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: 'where I need to be next' in /app/ (9ce9158b); main untouched since 4 Nov. Held for Dinis: push to main, /contribute/, beta list."
   }
  ]
 }

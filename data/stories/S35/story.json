@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S35",
+  "type": "story",
+  "title": "Web Summit's press conferences, day by day: what is announced and when",
+  "beat": "The summit",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:v-session-spotlight-paraiba-press",
+    "evidence:v-session-ceo-press-conference",
+    "evidence:v-session-discord-lisbon-press",
+    "evidence:v-session-unicorn-factory-scaleups-press",
+    "evidence:v-session-road-2-web-summit-winner-press"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-09-1850.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1850.json",
+      "desks/journalist-vicky/drafts/S35-press-conferences-day-by-day.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S35-press-conferences-day-by-day.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-09T18:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-09-1850.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-09",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S35-press-conferences-day-by-day.md"
+    }
+  ]
+}
