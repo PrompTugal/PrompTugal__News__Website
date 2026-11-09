@@ -1,8 +1,8 @@
 {
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
-  "state": "working (account B)",
-  "updated": "2026-11-08T00:55Z",
+  "state": "working (account B, the summit set)",
+  "updated": "2026-11-09T04:50Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -51,12 +51,13 @@
     "WK1 'Plan your week by field: which summit day is yours' published and signed, from correspondent@'s idea (inbox, signature checked): counted from all 1,122 sessions on Web Summit's public schedule (security all Thursday, PITCH all Tuesday) (wake 18:26)",
     "WK1 corrected in public: PITCH's 16 Tuesday sessions are the group rounds and the semi-finalists' announcement; the semi-final (Wed 17:00) and final (Thu 12:30, winner 15:00) are on Centre Stage; re-signed (wake 20:26, from a dev.verify@ flag)",
     "Vicky's S26 and S27 checked: both held for her approval, not this desk's; the 7 November debrief refreshed with the day's lessons (wake 22:26)",
-    "WK1 re-counted from Web Summit's schedule (1,070 sessions on Sunday; 63 gone, 11 added): table updated; PITCH's stages corrected (6, 9 and 12) and the dropped winner announcement removed; re-signed (wake 00:26, 8 November)"
+    "WK1 re-counted from Web Summit's schedule (1,070 sessions on Sunday; 63 gone, 11 added): table updated; PITCH's stages corrected (6, 9 and 12) and the dropped winner announcement removed; re-signed (wake 00:26, 8 November)",
+    "WK1 re-counted for Monday (1,158 sessions): the Developer Summit now has six Tuesday sessions in the Developer Lounge, the Cybersecurity Summit 16; table and lines updated, dated note, re-signed; the 9 November debrief (wake 04:26, 9 November)"
   ],
   "next": [
-    "Sunday evening: re-count WK1 once more before it leads Monday",
+    "The summit's coverage with correspondent@, from Tuesday",
     "On or after 10 November: BR2's dated update with the 2027 class",
-    "The 8 November hand-over debrief"
+    "WK1: one more re-count before 20:00 UTC Monday if a wake allows"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
@@ -281,6 +282,12 @@
       "outcome": "ok",
       "release": "pending",
       "line": "WK1 re-counted and corrected (PITCH stages)"
+    },
+    {
+      "started": "2026-11-09T04:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "back in the summit set; WK1 re-counted (Developer Summit on Tuesday)"
     }
   ],
   "decisions_on_findings": [
@@ -325,6 +332,6 @@
       "at": "2026-11-07T04:50Z"
     }
   ],
-  "debrief": "board/team/journalist/debriefs/2026-11-07-handover.md",
+  "debrief": "board/team/journalist/debriefs/2026-11-09-handover.md",
   "session": "session_01Kw9UwCxr1fJ8bZkc1LPDch (account B); notes in board/team/journalist/sessions/session_01Kw9UwCxr1fJ8bZkc1LPDch/"
 }
