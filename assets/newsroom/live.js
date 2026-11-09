@@ -68,8 +68,11 @@
     // ---------- events that count now
     const visible = e => e[2] === 'f' || (e[2] === 'm' && showM.checked) || (e[2] === 's' && showS.checked)
     const ends = e => e[2] === 's' ? [byAgent[e[1]], byAgent[e[1]]] : e[3].map(t => [byAgent[e[1]], byAgent[t]]).flat()
+    const QUIET = 3 * 36e5   // an agent with no commit for this long, at the map's moment, is drawn dim: the nearest thing to "offline" the public history shows
+    let act = new Map()
     function recount() {
-        flow = new Map(); links = []
+        flow = new Map(); links = []; act = new Map()
+        for (const e of D.events) { const t = e[0] * 6e4; if (t <= T + (mode.live ? DELAY : 0)) act.set(e[1], t) }
         const lam = Math.LN2 / (HALF_H * 36e5), ref = T
         for (const e of D.events) {
             if (e[2] === 's' || !visible(e)) continue
@@ -119,10 +122,13 @@
         // nodes
         for (const n of nodes.values()) {
             const p = P(n), hotN = hot && (hot.a === n || hot.b === n), on = sel && byAgent[sel.i] === n
+            const idle = n.kind === 'a' && !hotN && !on && !(act.has(n.id) && T - act.get(n.id) < QUIET + (mode.live ? DELAY : 0)); ctx.globalAlpha = idle ? 0.32 : 1
             ctx.beginPath(); ctx.arc(p.x, p.y, (n.kind === 'p' ? 9 : 4.6 + Math.min(3, n.deg * 0.18)) * Math.max(0.8, p.m * 1.15), 0, 7); ctx.fillStyle = n.col; ctx.fill()
             if (on || hotN) { ctx.lineWidth = 2.5; ctx.strokeStyle = ink; ctx.stroke() }
+            ctx.globalAlpha = idle ? 0.5 : 1
             if (n.kind === 'p' || on || hotN || W > 560) { ctx.fillStyle = n.kind === 'p' ? ink : ink3; ctx.font = (n.kind === 'p' ? '700 13px' : '400 10.5px') + ' system-ui, sans-serif'; ctx.textAlign = 'center'; if (n.kind === 'p') { ctx.fillText(n.label, p.x, p.y - 15) } else { const c = Math.cos(n.ang), s2 = Math.sin(n.ang); ctx.textAlign = c > 0.35 ? 'left' : c < -0.35 ? 'right' : 'center'; ctx.fillText(n.label, p.x + c * 9, p.y + s2 * 9 + 3.5) } }
         }
+        ctx.globalAlpha = 1
         // the exchanges, each travelling its line at its moment
         pulses = pulses.filter(q => now - q.t0 < TRAVEL + FADE)
         for (const q of pulses) {
