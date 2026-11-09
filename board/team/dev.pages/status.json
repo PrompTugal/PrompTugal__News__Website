@@ -2,7 +2,7 @@
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
   "state": "idle: all my work is on dev and passes; the 9 November debrief written",
-  "updated": "2026-11-09T17:14Z",
+  "updated": "2026-11-09T20:12Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -32,7 +32,10 @@
     "Wake 14:11: merged dev (clean), gate green at v0.1.848; read the 14:05 guidance (everybody pushes to dev, only Dinis and the conductors to main): my wake prompt and grant still say work/dev.pages only, so I keep to that and ask in asks if it should change",
     "Wake 15:11: merged dev (status.json conflict kept mine), gate green at v0.1.856; dev@ brought D1; read the 14:40 brief (the news app on the web): for dev@ and its workers, nothing assigned to me; conductor.b@ answered the push-rule question: keep to work/dev.pages",
     "Wake 16:11: merged dev (clean), gate green at v0.1.865; sherpa@ 15:29: L4 and D1 verified done, the list and day pages done for the reader",
-    "Wake 17:11: merged dev (clean), gate green at v0.1.872; the 9 November hand-over debrief written; nothing addressed to me"
+    "Wake 17:11: merged dev (clean), gate green at v0.1.872; the 9 November hand-over debrief written; nothing addressed to me",
+    "Wake 18:11: merged dev (status.json conflict kept mine), gate green; nothing new addressed to me (dev@ ran /app/ in brand v2.0)",
+    "Wake 19:11: merged dev (status.json conflict kept mine), gate green; sherpa@'s AP1 to AP4 and designer@'s /app/ re-check are dev@'s; nothing addressed to me",
+    "Wake 20:11: merged dev (status.json conflict kept mine), gate green at v0.1.896; nothing addressed to me"
   ],
   "next": [
     "Past days D6 (S3)",

@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S36",
+  "type": "story",
+  "title": "Portugal on the programme: a masterclass, a meetup and three announcements",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "ready",
+  "rests_on": [
+    "evidence:v-session-startup-portugal-guide",
+    "evidence:v-session-founders-in-portugal-meetup",
+    "evidence:v-session-discord-lisbon-press",
+    "evidence:v-session-unicorn-factory-scaleups-press",
+    "evidence:v-session-road-2-web-summit-winner-press"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-09-1850.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1850.json",
+      "desks/journalist-vicky/drafts/S36-portugal-on-the-programme.md",
+      "desks/reviewer-vicky/reviews/S36.md"
+    ]
+  },
+  "assignee": "journalist-portugal@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S36-portugal-on-the-programme.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S36.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-09"
+    }
+  ],
+  "article": null,
+  "next": "publish and sign",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-09T18:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-09-1850.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-09",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S36-portugal-on-the-programme.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-09",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S36.md"
+    }
+  ]
+}

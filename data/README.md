@@ -71,6 +71,7 @@ data/
                            stated, attributed, quote, hedged), references.json, tables.json, links.json; CC BY-SA 4.0,
                            the revision id is the attribution; no editor's name kept. meets.json (HAND, ontologist):
                            where it meets our graph and the findings for a person to take to its talk page
+  translations/<type>/<id>/<locale>.json  machine translations of an entity's words (events first, then articles and companies), one file per culture of assets/app/i18n.json; each keeps the English it was made from and its sha256, the label "machine-translated, original in English", the model and the date; the English stays the source of truth (Dinis, 9 November, 19:25)                                   HAND
   concepts.json            Dinis's named concepts (88, from the ideas ledger of 6 November 2026): each with his
                            definition and where he said it, a kind (publication, process, role, measure,
                            principle, control, data, design) and where the team implements it                 HAND

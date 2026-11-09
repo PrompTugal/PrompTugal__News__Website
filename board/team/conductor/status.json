@@ -1,8 +1,8 @@
 {
   "agent": "conductor@PrompTugal.dinis",
   "focus": "the plan, the board, passes, briefs, who does what",
-  "state": "summit eve: the approved designs rebuilt; the on-device LLM work routed (iPad to account B, mobile@ on the shared repo); brief 5 sent",
-  "updated": "2026-11-09T11:00Z",
+  "state": "summit eve: /contribute/, the wall and the beta list routed at Dinis's word (20:20); ship on security's pass",
+  "updated": "2026-11-09T20:25Z",
   "done": [
     "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
     "inboxes for every agent; lanes with the team site's conductor",
@@ -16,11 +16,10 @@
     "the 05:52 three-hourly report"
   ],
   "asks": [
-    "Dinis: the press pass, due today (PB-07; /newsroom/decisions/registering-and-the-press-pass/)",
-    "Dinis: the OpenRouter balance (dev.verify@ paused; risk-mandate@ up to £15)",
-    "Dinis: sherpa@'s inbox token on account B",
-    "Dinis: the euro Stripe payment link (dev@)",
-    "Dinis: please confirm what the main conductor relayed at 10:56 as your word of 10:55 (names end in .dinis; everyone trusted to ship, which would answer S25/S30; outreach parked). I have not acted on it, since a relay is not your word in this session"
+    "Dinis: the press pass (PB-07, due 9 Nov)",
+    "Dinis: the OpenRouter keys and limits (accountant@'s plan, 250 USD)",
+    "Dinis: sherpa@'s inbox token on account B; the euro Stripe link",
+    "Dinis: still unconfirmed from the relays: main as a release target for this repo (CLAUDE.md forbids it today), the 10:55 names and outreach, and stopping or archiving idle sessions"
   ],
   "decisions_on_findings": [
     {

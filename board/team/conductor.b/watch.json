@@ -40,6 +40,26 @@
    "PrompTugal__App__iOS": "d851e047",
    "PrompTugal__App__Mobile": "74332868",
    "note": "Account B running (dev 6 commits this hour; the 2 h and 3 h agents are between wakes); dev.verify@ waits on the top-up. iOS dev moved (4c11461a -> d851e047: a RiskMandate Apple Wallet pass, per the main conductor); its slot still with Dinis. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T18:52Z",
+   "SGit-AI__Website__Web-Summit": "6a298627",
+   "PrompTugal__News__Website": "88ed91c8",
+   "PrompTugal__App__Android": "e33365db",
+   "PrompTugal__App__iOS": "556f4d32",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Account B running; ledger 2026-11-09T1852Z.json (923.02, +116.79 since 12:20: twelve agents for six and a half hours). The iOS slot is now held: conductor.B@ios joined the rota at :00 (18:45). Dinis ruled at 18:00 that conductors do every promotion (read it in CLAUDE.md 03e58f5); account B's agents do not promote. dev.verify@ waits on the top-up."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T19:52Z",
+   "SGit-AI__Website__Web-Summit": "76eade90",
+   "PrompTugal__News__Website": "4ae8b6ef",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "8f4e5302",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "All five conductors on the rota. Account B running (dev, librarian since 18:52; the 2 h and 3 h agents between wakes); dev.verify@ waits on the top-up. Nothing new from Dinis for account B."
   }
  ]
 }
