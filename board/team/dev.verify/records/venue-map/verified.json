@@ -1,0 +1,388 @@
+{
+  "$schema": "none",
+  "article": "venue-map",
+  "verified_on": "2026-11-08",
+  "by": "dev.verify@PrompTugal.dinis",
+  "models": [
+    "anthropic/claude-haiku-5.5",
+    "google/gemini-3.8-flash",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "sources": [
+    {
+      "url": "https://promptugal.news/summit/venue/index.html",
+      "status": 200,
+      "read": true,
+      "chars": 4585
+    },
+    {
+      "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/newsroom/build/features/venue.mjs",
+      "status": 200,
+      "read": true,
+      "chars": 13700
+    },
+    {
+      "url": "https://promptugal.news/assets/venue/venue-map.json",
+      "status": 200,
+      "read": true,
+      "chars": 5911
+    },
+    {
+      "url": "https://www.openstreetmap.org/copyright",
+      "status": 200,
+      "read": true,
+      "chars": 5694
+    }
+  ],
+  "spent_usd": 0.1776,
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "The MEO Arena and FIL campus holds 183 sessions across the four days in the newsroom's programme.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S1",
+          "quote": "MEO Arena and FIL 184",
+          "note": "The venue table gives 184 sessions for the MEO Arena and FIL campus, and its daily counts (21 + 62 + 49 + 52) also sum to 184, not 183."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S1",
+          "quote": "MEO Arena and FIL 184",
+          "note": "The newsroom's programme lists 184 sessions across the four days for MEO Arena and FIL, not 183."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "contradicted",
+          "source": "S1",
+          "quote": "MEO Arena and FIL 184",
+          "note": "The source lists 184 sessions for MEO Arena and FIL, not 183."
+        }
+      ],
+      "consensus": "contradicted",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c2",
+      "claim": "The MEO Arena and FIL campus holds 21 sessions on Monday 9 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Monday 9 November: 21",
+          "note": "The venue map's table lists 21 programme sessions for the MEO Arena and FIL campus on Monday 9 November, out of 184 across the week."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "MEO Arena and FIL 184 (Monday 9 November: 21",
+          "note": "The programme venue table lists 21 sessions at the MEO Arena and FIL campus for Monday 9 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "MEO Arena and FIL 184 (Monday 9 November: 21;",
+          "note": "The venue page states that MEO Arena and FIL have 21 sessions on Monday 9 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c3",
+      "claim": "The MEO Arena and FIL campus holds 61 sessions on Tuesday, 49 on Wednesday and 52 on Thursday.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "contradicted",
+          "source": "S1",
+          "quote": "Tuesday 10 November: 62",
+          "note": "The venue map gives 62 sessions for MEO Arena and FIL on Tuesday, not 61, while its Wednesday (49) and Thursday (52) figures match the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S1",
+          "quote": "MEO Arena and FIL 184 (Monday 9 November: 21; Tuesday 10 November: 62; Wednesday 11 November: 49; Thursday 12 November: 52)",
+          "note": "The source states that the MEO Arena and FIL campus holds 62 sessions on Tuesday, not 61."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "partly",
+          "source": "S1",
+          "quote": "Tuesday 10 November: 62; Wednesday 11 November: 49; Thursday 12 November: 52",
+          "note": "The source gives 62 sessions on Tuesday, not 61, while Wednesday 49 and Thursday 52 match the claim."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c4",
+      "claim": "The Pavilhão de Portugal holds 6 sessions, one a day from Saturday 7 to Thursday 12 November.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Pavilhão de Portugal 6 (Saturday 7 November: 1; Sunday 8 November: 1; Monday 9 November: 1; Tuesday 10 November: 1; Wednesday 11 November: 1; Thursday 12 November: 1)",
+          "note": "The venue map's table lists 6 sessions at the Pavilhão de Portugal, one on each day from Saturday 7 to Thursday 12 November 2026, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Pavilhão de Portugal 6 (Saturday 7 November: 1; Sunday 8 November: 1; Monday 9 November: 1; Tuesday 10 November: 1; Wednesday 11 November: 1; Thursday 12 November: 1)",
+          "note": "The venue programme confirms that the Pavilhão de Portugal holds 6 sessions in total, scheduled as one per day from Saturday 7 November through Thursday 12 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Pavilhão de Portugal 6 (Saturday 7 November: 1; Sunday 8 November: 1; Monday 9 November: 1; Tuesday 10 November: 1; Wednesday 11 November: 1; Thursday 12 November: 1)",
+          "note": "S1 states the Pavilhão de Portugal has 6 sessions, one on each day from Saturday 7 to Thursday 12 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c5",
+      "claim": "The FIL exhibition centre holds 3 sessions, one a day from Monday to Wednesday.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "FIL 3 (Monday 9 November: 1; Tuesday 10 November: 1; Wednesday 11 November: 1)",
+          "note": "The venue map's table lists 3 programme sessions at FIL, one each on Monday 9, Tuesday 10 and Wednesday 11 November, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "FIL 3 (Monday 9 November: 1; Tuesday 10 November: 1; Wednesday 11 November: 1)",
+          "note": "The venue programme table confirms that FIL holds three sessions, scheduled as one per day from Monday to Wednesday."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "FIL 3 (Monday 9 November: 1; Tuesday 10 November: 1; Wednesday 11 November: 1)",
+          "note": "S1 states the FIL exhibition centre has 3 sessions, one on each of Monday, Tuesday, and Wednesday."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c6",
+      "claim": "The Vasco da Gama centre holds 1 session, on Tuesday.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Centro Vasco de Gama 1 (Tuesday 10 November: 1)",
+          "note": "The venue map's table lists one session at the Vasco da Gama centre, on Tuesday 10 November."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Centro Vasco de Gama 1 (Tuesday 10 November: 1)",
+          "note": "The venue map table confirms that the Centro Vasco da Gama holds one session, on Tuesday 10 November."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Centro Vasco de Gama 1 (Tuesday 10 November: 1)",
+          "note": "The venue map lists the Vasco da Gama centre with 1 session on Tuesday 10 November."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c7",
+      "claim": "The FIL exhibition centre has four pavilions.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "FIL with Pavilions 1 to 4",
+          "note": "The venue map page lists four numbered pavilions (Pavilions 1 to 4) as part of the FIL exhibition centre, and the OpenStreetMap data in S3 contains the same four pavilion areas within the FIL site."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "FIL with Pavilions 1 to 4",
+          "note": "The source explicitly describes the FIL exhibition centre plan as featuring Pavilions 1 to 4."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "FIL with Pavilions 1 to 4",
+          "note": "The venue map source states that FIL has Pavilions 1 to 4, confirming four pavilions."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c8",
+      "claim": "Oriente station is shown on the map to show the way in, with no session listed against it.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Oriente station is drawn for the way in; no session is listed against it.",
+          "note": "The venue map page states that Oriente station is drawn for the way in and that no session is listed against it, matching the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Oriente station is drawn for the way in; no session is listed against it.",
+          "note": "The source directly states that Oriente station is drawn for the way in and has no session listed against it."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "Oriente station is drawn for the way in; no session is listed against it.",
+          "note": "The venue map page states Oriente station is drawn for the way in and has no session listed against it."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c9",
+      "claim": "The venue map's building outlines come from OpenStreetMap and were simplified and redrawn.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The outlines were simplified and drawn in a frame of our own",
+          "note": "The venue map page states its buildings come from OpenStreetMap and that the outlines were simplified and redrawn in the publisher's own frame, which matches the claim."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The outlines were simplified and drawn in a frame of our own; each building's OpenStreetMap entry is in the data file",
+          "note": "The source confirms that the building outlines originate from OpenStreetMap entries and were simplified and drawn within their own frame."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The outlines were simplified and drawn in a frame of our own",
+          "note": "S1 says the map data is from OpenStreetMap and that the outlines were simplified and drawn, matching the claim."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c10",
+      "claim": "The venue map was read on 7 November 2026.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "read 2026-11-07",
+          "note": "The venue-map.json source states the OpenStreetMap data was read on 2026-11-07, which matches the claim's date."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "contradicted",
+          "source": "S3",
+          "quote": "from OpenStreetMap (read 2026-11-07, the API's map call for the frame below)",
+          "note": "It was OpenStreetMap's API map call that was read on 7 November 2026, while the venue map itself was approved on that date."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S3",
+          "quote": "read 2026-11-07",
+          "note": "S3 states the venue map was read on 2026-11-07."
+        }
+      ],
+      "consensus": "disagree",
+      "flag_to_journalist": true
+    },
+    {
+      "id": "c11",
+      "claim": "No person appears on the venue map.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "No person is shown.",
+          "note": "The venue map page states that no person is shown on the map, and it repeats that there are no people on it."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "No person is shown.",
+          "note": "The source explicitly confirms that no person is shown on the venue map."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "No person is shown.",
+          "note": "The venue map page explicitly states that no person is shown on the map."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    },
+    {
+      "id": "c12",
+      "claim": "Venues outside Parque das Nações are listed on the newsroom's places page.",
+      "verdicts": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The other venues of the week, outside Parque das Nações, are on the places page.",
+          "note": "S1 states directly that venues outside Parque das Nações are on the places page."
+        },
+        {
+          "model": "google/gemini-3.8-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The other venues of the week, outside Parque das Nações, are on the places page.",
+          "note": "The source explicitly states that venues of the week outside Parque das Nações are found on the places page."
+        },
+        {
+          "model": "deepseek/deepseek-v4.1-flash",
+          "verdict": "supported",
+          "source": "S1",
+          "quote": "The other venues of the week, outside Parque das Nações, are on the places page.",
+          "note": "The venue page states that other venues outside Parque das Nações are on the places page."
+        }
+      ],
+      "consensus": "supported",
+      "flag_to_journalist": false
+    }
+  ]
+}

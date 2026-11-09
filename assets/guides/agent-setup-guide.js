@@ -248,6 +248,8 @@
         else if (stage === 5 || reach.includes('code')) dep = 'code'
         const D = DEPS[DEP_IDS.indexOf(dep)] || DEPS[0]
         let lvl = D.start; if (reach.includes('pii') && lvl < 2) lvl = 2
+        // Angelo, 8 November: posting in public reaches outsiders and cannot be undone; documents with personal data too
+        if (reach.includes('public') || (reach.includes('docs') && reach.includes('pii'))) lvl = 3
         const W = Object.fromEntries(REACH.map((k, i) => [k, RW[i]]))
         const rScore = Math.min(1, (stage / 6) * 0.45 + reach.reduce((a, k) => a + (W[k] || 1), 0) / 14)
         const cScore = Math.min(1, who / 3 * 0.85 + (env === 'locked' ? 0.1 : 0))

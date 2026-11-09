@@ -25,8 +25,12 @@ export function ctopHead({ up, href, site, section, shortDate, WORDMARK }) {
 }
 
 // the tab bar (Now, Agenda, News, Companies, Search, More) and the More sheet, at the end of the body
+// in the summit's week the Agenda tab opens today's day page (sherpa@'s A1: Events is 51 phone screens; the day page is
+// what a reader planning the day needs); after the 13th it opens Events again. Built hourly, so "today" stays true.
+const WEEK = ['2026-11-06', '2026-11-07', '2026-11-08', '2026-11-09', '2026-11-10', '2026-11-11', '2026-11-12', '2026-11-13']
+const agendaHref = (site, fallback) => WEEK.includes(site.TODAY) ? `days/${site.TODAY}/index.html` : fallback
 export function ctabs({ up, href, site, section }) {
     const tabs = ['now', 'agenda', 'news', 'companies'].map(k => site.nav.find(n => n.id === k)).filter(Boolean)
-        .map(n => fill(item('tab-' + n.id), { href: href(n.href), cur: cur(section === n.id), label: esc(n.label) })).join('')
+        .map(n => fill(item('tab-' + n.id), { href: href(n.id === 'agenda' ? agendaHref(site, n.href) : n.href), cur: cur(section === n.id), label: esc(n.label) })).join('')
     return fill(part('tabs'), { up, '#tabs': tabs, search_cur: cur(section === 'search'), '#all': links([...site.nav, ...(site.utility || [])], href, section) })
 }

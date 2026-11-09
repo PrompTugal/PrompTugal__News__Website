@@ -147,3 +147,7 @@ p.asg-meta em { font: 500 var(--fs-label)/1 var(--mono); font-style: normal; tex
 .asg .asg-audgrid button b { font: 600 18px/1.2 var(--serif); }
 .asg .asg-audgrid button small { font: 500 var(--fs-label)/1 var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--brand); }
 .asg .asg-audgrid button:hover { border-color: var(--brand); }
+
+/* a jump to a section lands below the site's bar and the guide's own (designer@PrompTugal.dinis, 7 November) */
+body:has(.asg-bar) .body :is(h2, h3)[id] { scroll-margin-top: 170px; }
+@media (max-width: 560px) { body:has(.asg-bar) .body :is(h2, h3)[id] { scroll-margin-top: 120px; } }

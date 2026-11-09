@@ -1,8 +1,14 @@
 // Events (brief 6): every event in data/events/, the official programme (organiser web-summit) and the others
 // (side events, Portugal Tech Week, conferences elsewhere in Portugal), clearly apart, by day; a page per event with
 // its people, its organisations and companies, its place, its source.
+import { stripMd, STRIP_DAYS } from './agenda.mjs'
 import { refLink, sourceLine, timeText, dataLinks, plural, day10, slotLine, slotList, shortDay } from '../lib/present.mjs'
 import { companiesOfEvent } from '../lib/graph.mjs'
+const weekTop = (ctx, rel) => {
+    const td = ctx.TODAY, tm = STRIP_DAYS[STRIP_DAYS.indexOf(td) + 1]
+    const go = STRIP_DAYS.includes(td) ? `{.more-line}\n[Today, ${ctx.DAY(td)}](${ctx.link(rel, `days/${td}/index.html`)})${tm ? ` · [Tomorrow, ${ctx.DAY(tm)}](${ctx.link(rel, `days/${tm}/index.html`)})` : ''}\n\n` : ''
+    return `${stripMd(ctx, rel)}\n\n${go}`
+}
 export const order = 40
 
 const KIND = { summit: 'The summit', session: 'Session', pitch: 'PITCH', announcement: 'Press conference', 'night-summit': 'Night Summit', registration: 'Registration', 'side-event': 'Side event', festival: 'Festival' }
@@ -72,7 +78,9 @@ export function pages(ctx) {
     const index = {
         src: 'data/events/', rel, type: 'site', layout: 'wide', date: [...evs.map(e => day10(e.read_at))].sort().pop(),
         title: 'Events', summary: `Every event we know of in the week of Web Summit Lisbon 2026: the summit's official programme (${official.length}) and, apart from it, the events others run (${other.length}). By day, each with its source.`,
-        md: `Two lists, kept apart: what [Web Summit](${ctx.link(rel, 'organisations/web-summit/index.html')}) itself runs, and what others run around it. Times are Lisbon time (UTC in November) and may change; each event's page links to where it was read. For the summit at a glance, see [the summit](${ctx.link(rel, 'summit/index.html')}); for one table of everything, [the agenda](${ctx.link(rel, 'summit/agenda.html')}).\n\n` +
+        // the week first (board/briefs/2026-11-09-the-mockups-vs-the-live-site.md, sherpa@'s A1): the strip of the eight days, each
+        // linking to its day page (five things, every session, by stage), then the two lists
+        md: `${weekTop(ctx, rel)}Two lists, kept apart: what [Web Summit](${ctx.link(rel, 'organisations/web-summit/index.html')}) itself runs, and what others run around it. Times are Lisbon time (UTC in November) and may change; each event's page links to where it was read. For the summit at a glance, see [the summit](${ctx.link(rel, 'summit/index.html')}); for one table of everything, [the agenda](${ctx.link(rel, 'summit/agenda.html')}).\n\n` +
             `::: seg-links\n${[...new Set(evs.filter(e => e.organiser === 'other' || e.part_of).map(e => e.date))].sort().map(d => `[${shortDay(d).replace(/ Nov$/, '')} · ${evs.filter(e => e.date === d && (e.organiser === 'other' || e.part_of)).length}](#${official.some(e => e.date === d) ? 'web-summit' : 'other'}-${d})`).join(' ')}\n:::\n\n` +
             `::: cols-8-4\n::: col day-sec\n## The official programme {#web-summit}\n\nOpening Night, Centre Stage and the stage sessions, PITCH, press conferences, Night Summit and registration: ${plural(official.length, 'event')}, all part of ${refLink(ctx, rel, 'event:web-summit-lisbon-2026')}. The full schedule has hundreds of sessions a day: see [websummit.com/schedule](https://websummit.com/schedule/).\n\n${byDay(ctx, rel, official)}\n:::\n` +
             `::: col day-sec\n## Other events {#other}\n\nSide events (some listed on the summit's schedule but run by others), Portugal Tech Week, and conferences elsewhere in Portugal: ${plural(other.length, 'event')}. Not run by Web Summit.\n\n${byDay(ctx, rel, other)}\n:::\n:::` + pastMd,

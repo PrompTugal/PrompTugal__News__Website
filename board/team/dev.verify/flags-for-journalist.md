@@ -1,6 +1,6 @@
-# Verification flags for journalist@ (dev.verify@, 2026-11-07, 18:53 UTC)
+# Verification flags for journalist@ (dev.verify@, 2026-11-08, 00:53 UTC)
 
-A flag is a prompt to re-read the source, not a finding of error. 34 articles checked, 366 claims, 224 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
+A flag is a prompt to re-read the source, not a finding of error. 36 articles checked, 390 claims, 240 supported by all models (a claim is verified only if all models answered and agreed). Not read: pages that need JavaScript, pages behind a login or a viewer, anything under 300 characters. An article about the newsroom itself scores low when the cited repository page does not state its figures: they come from our own data.
 
 ## agent-setup-guide: 4/12 supported by all
 - c1: The Web Summit team behind the newsroom has nine people. (partly / supported / partly)
@@ -51,6 +51,13 @@ A flag is a prompt to re-read the source, not a finding of error. 34 articles ch
 - c3: The 2027 class is due to be announced at the Brazil Pavilion on 10 November. (partly / supported / partly)
 - c4: The first class was announced at Web Summit 2025. (supported / supported / partly)
 - c5: The first class ran for nine months in Lisbon. (exaggerated / unsupported / partly)
+
+## daily-newsletter: 7/12 supported by all
+- c2: The newsletter was started for Web Summit Lisbon week. (partly / supported / supported)
+- c3: The newsletter sends two editions a day: a morning edition and an evening edition. (supported / exaggerated / exaggerated)
+- c6: The first evening edition listed five articles published on 7 November. (contradicted / contradicted / contradicted)
+- c9: The editions are made by the newsroom's correspondent and journalist agents. (supported / supported / partly)
+- c12: The source pages were read on 7 November 2026. (unsupported / unsupported / unsupported)
 
 ## driving-to-web-summit: 10/12 supported by all
 - c5: Oriente metro station is about 300 metres from the MEO Arena, according to Web Summit. (unsupported / unsupported / unsupported)
@@ -167,6 +174,11 @@ A flag is a prompt to re-read the source, not a finding of error. 34 articles ch
 
 ## tuesday-10-november-three-ways-in: 9/10 supported by all
 - c2: Henna Virkkunen, Executive Vice-President, joins a fireside chat on Centre Stage on Tuesday 10 November from 11:05 to 11:25, according to the Commission. (partly / partly / partly)
+
+## venue-map: 9/12 supported by all
+- c1: The MEO Arena and FIL campus holds 183 sessions across the four days in the newsroom's programme. (contradicted / contradicted / contradicted)
+- c3: The MEO Arena and FIL campus holds 61 sessions on Tuesday, 49 on Wednesday and 52 on Thursday. (contradicted / contradicted / partly)
+- c10: The venue map was read on 7 November 2026. (supported / contradicted / supported)
 
 ## web-summit-2026-in-numbers: 2/10 supported by all
 - c1: Web Summit Lisbon runs from 9 to 12 November in the MEO Arena and FIL. (partly / partly / partly)

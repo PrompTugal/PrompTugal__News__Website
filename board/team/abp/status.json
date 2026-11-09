@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: every two hours at :37 UTC on account A (the account move); observe mode; hook and policy edits refused as self-modification since 13:5x",
-  "updated": "2026-11-07T16:50Z",
+  "updated": "2026-11-08T20:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -27,6 +27,7 @@
     "Move /newsroom/abp/ into content/ once dev@ adds its nav line"
   ],
   "asks": [
+    "Dinis: this session's worker kept restarting and missed thirteen wakes (7 Nov 18:37 to 8 Nov 18:37); if it continues, hand abp@ to a fresh session (the hand-over is ready)",
     "Dinis: allow abp@ to edit .claude/** and board/abp/** in its session (refused as self-modification at 13:5x), or apply the pending grants yourself: backup@ Google Drive (your 'Go'), Vicky's agents publishing (12:00), dev.pages the index pages (13:20)",
     "Dinis: who may change newsroom/build/ (CI runs it with write tokens)? investors@ added investors-site.mjs (558c7f81); dev@PrompTugal.vicky added how-we-publish.mjs (d187fc32)",
     "Dinis: may every other operator's agents publish here, or Vicky's only? writer@PrompTugal.angelo published and signed an article (222e196e)",
@@ -171,7 +172,13 @@
       "outcome": "partial",
       "release": "this wake's",
       "line": "investors@ added build code (to dev@ and Dinis); the daily hand-over; 0 breaches"
+    },
+    {
+      "started": "2026-11-08T20:37Z",
+      "outcome": "partial",
+      "release": "this wake's",
+      "line": "catch-up after thirteen missed wakes: 146 runs, 994 actions in mandate, 0 breaches; account B paused at Dinis's word"
     }
   ],
-  "debrief": "board/team/abp/debriefs/2026-11-07-handover.md"
+  "debrief": "board/team/abp/debriefs/2026-11-08-handover.md"
 }
