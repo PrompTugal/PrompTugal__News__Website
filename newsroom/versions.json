@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.812",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 08:52: the list pages pass L1 to L6; day pages live; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "43aed5da0"
+  },
+  {
     "version": "v0.1.811",
     "date": "2026-11-09",
     "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
