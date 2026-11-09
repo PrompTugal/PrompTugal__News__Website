@@ -1,0 +1,21 @@
+{
+ "agent": "gamma-ray@web-summit.dinis",
+ "focus": "GAMMA-Ray: the standard, the mashup and the website's design, with Dinis, before anything is implemented (brief:2026-11-09T2330Z-gamma-ray)",
+ "state": "in debate with Dinis on which standards and how they connect; nothing implemented",
+ "updated": "2026-11-09T23:59Z",
+ "key": "gamma-ray-promptugal (record sha256:9ecbbbcd315c5f0c)",
+ "done": [
+  "read the brief and Dinis's two source documents",
+  "session key made; public half in board/keys.json",
+  "the five standards and AgentStripes read at source; candidates to add found (OWASP's agentic governance matrix, CSA's draft model, an authorisation axis from OAuth and the Model Context Protocol): research/2026-11-09-standards-check.md"
+ ],
+ "next": [
+  "Dinis's answers on the core set, our own ladders and the commit name",
+  "read OWASP's report at source, the X-ray work (WS-191 to WS-198) and the company graph's data",
+  "draft the indicators layer and the first levels as queries"
+ ],
+ "asks": [
+  "Dinis: which standards are the measured core and which are context (research note, section 2)?",
+  "Dinis: commit as gamma-ray@web-summit.dinis (the brief) or gamma-ray@PrompTugal.dinis (the policy's R9)? Using the brief's until told."
+ ]
+}
