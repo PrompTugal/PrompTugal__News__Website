@@ -70,6 +70,16 @@
    "PrompTugal__App__iOS": "4c11461a",
    "PrompTugal__App__Mobile": "74332868",
    "note": "Account B: twelve agents running, nothing blocked but dev.verify@ (OpenRouter top-up). iOS dev moved (194f9b65 -> 4c11461a); the iOS slot is still unheld (waits on Dinis, brief 37); not mine to promote. Nothing new from Dinis for account B."
+  },
+  {
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-09T16:18Z",
+   "SGit-AI__Website__Web-Summit": "03523f14",
+   "PrompTugal__News__Website": "eee13edc",
+   "PrompTugal__App__Android": "0b21eef1",
+   "PrompTugal__App__iOS": "4c11461a",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "iOS dev: Indi's prompter@ added redesign 1.1 (2f3fb58); still unpromoted, the iOS slot unheld (Dinis, brief 37). Indi's conductor published wayfinding options (team site people/indi/wayfinding/, 0c1149f9): it matches the web app's venue map and 'where I need to be'; relayed to PrompTugal. No :36 line from conductor@PrompTugal.dinis yet. Lanes empty."
   }
  ]
 }
