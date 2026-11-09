@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "BR1",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "events": [
+    {
+      "at": "2023-11-07",
+      "what": "ApexBrasil tells Lusa it will take 85 startups and 100 companies to Web Summit 2023, a record delegation, more than double 2022's 80.",
+      "kind": "announcement",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "forbespt-2023-11-07",
+      "claim": [
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "at": "2025-11-03",
+      "what": "ApexBrasil and Sebrae announce a delegation of 340 startups and innovative companies for Web Summit 2025.",
+      "kind": "announcement",
+      "about": [
+        "organisation:apexbrasil",
+        "event:web-summit-lisbon-2025"
+      ],
+      "source": "startups-2025-11-03-340",
+      "claim": [
+        "c01",
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "at": "2025-11-10",
+      "what": "DN Brasil, on the summit's first day, counts more than 370 Brazil-based startups and 151 selected by ApexBrasil.",
+      "kind": "publication",
+      "about": [
+        "organisation:apexbrasil",
+        "event:web-summit-lisbon-2025"
+      ],
+      "source": "dnbrasil-2025-11-10-370",
+      "claim": [
+        "c04",
+        "c05"
+      ]
+    }
+  ]
+}

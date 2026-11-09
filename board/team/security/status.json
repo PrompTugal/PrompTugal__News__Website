@@ -2,19 +2,19 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-09T16:08Z",
-  "reviewed_to": "01063900",
+  "updated": "2026-11-09T20:08Z",
+  "reviewed_to": "137a61289",
   "hold": false,
   "done": [
-    "16:05 7 Nov: 39 commits clean; S28, S29 closed; personalised investor links pre-reviewed (go, nine conditions)",
-    "20:05 8 Nov: catch-up over 290 commits; persona.js post-reviewed; S30 and S28b raised; debrief written",
     "04:05 9 Nov: 63 commits clean; S28b closed; S30 mostly done; first wake of the summit set",
     "06:05 9 Nov: 23 commits clean; the two quoted company addresses removed from my files for S21",
     "08:05 9 Nov: 19 commits clean; S21 closed; S31 (low) to dev@",
     "10:05 9 Nov: 21 commits clean; S31 closed",
     "12:05 9 Nov: 40 commits clean; S25 and S30 decided by Dinis (everyone trusted)",
     "14:05 9 Nov: 21 commits clean; conditions ahead for /contribute/",
-    "16:05 9 Nov: 36 commits clean; /app/ read, sound"
+    "16:05 9 Nov: 36 commits clean; /app/ read, sound",
+    "18:05 9 Nov: 25 commits clean; the installable app scoped to /app/",
+    "20:05 9 Nov: 37 commits clean; the app's Directions checked; S32 to conductor@"
   ],
   "next": [
     "review every commit, theirs included",
@@ -45,7 +45,8 @@
     "S24": "first prompts omit the pki-agent pin (conductor@)",
     "S25": "decided by Dinis 9 Nov 10:55: everyone on the team trusted to push and publish; reviewed after",
     "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
-    "S30": "decided with S25; open: a key for dev.venues@PrompTugal.angelo"
+    "S30": "decided with S25; open: a key for dev.venues@PrompTugal.angelo",
+    "S32": "low: the iOS conductor commits without a key or the convention (conductor@)"
   },
   "asks": [],
   "wakes": [

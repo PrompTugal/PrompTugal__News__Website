@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "startups-2025-11-12-incubator",
+  "story": "BR2",
+  "url": "https://startups.com.br/eventos/web-summit/governo-abre-casa-brasileira-para-incubar-startups-em-lisboa/",
+  "title": "Governo abre casa brasileira para incubar startups em Lisboa (Startups.com.br, 12 November 2025)",
+  "publisher": "Startups.com.br",
+  "published": "2025-11-12",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Startups.com.br reports that ApexBrasil and Sebrae named ten startups at Web Summit 2025 for a nine-month incubation in a historic Lisbon building shared with Embratur and Fiocruz, chosen from 112 exhibitors with Plug and Play."
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "iol-brasil-chega-a-lisboa",
+  "story": "BR2",
+  "url": "https://www.iol.pt/web-summit-2026/brasil-em-lisboa/web-summit-2026-brasil-chega-a-lisboa-com-200-empresas-a-procura-de-investimento",
+  "title": "Web Summit 2026: Brasil chega a Lisboa com 200 empresas a procura de investimento (IOL, Link To Leaders, 5 November 2026)",
+  "publisher": "IOL (Link To Leaders)",
+  "published": "2026-11-05",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "IOL, with Link To Leaders and from an ApexBrasil statement, reports the Brazilian delegation, the Brazil Pavilion, and that the startups for the Lisbon Incubation Programme are announced on 10 November."
+}

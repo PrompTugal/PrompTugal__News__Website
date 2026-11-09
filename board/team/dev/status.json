@@ -2,24 +2,24 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-09T16:35Z",
+  "updated": "2026-11-09T21:00Z",
   "done": [
+    "wake 20:08 (9 Nov): /app/ in 21 cultures (Dinis 19:25, relayed by conductor@): en-GB by default, never from the browser; a globe button (EN) opens the cultures in their own names, English first, and from any other one tap back to English; the choice in this browser only; the page's lang and dir follow it (Arabic right to left, the English programme's titles keep their own direction); days named by the browser's calendar in each culture; every non-English culture marked 'machine-translated from English' (translated by me, no model calls, assets/app/i18n.json); also fixed: last wake's install/full-screen block had landed inside draw() and re-ran on every redraw",
+    "wake 19:08 (9 Nov): the app after sherpa@'s 18:30 read and designer@'s leftovers: AP1 opens at now on today (ended sessions dimmed), AP2 the days row starts at today with Day 1 to Day 4 on the summit's days, AP3 the bar's button by context (Full screen in the pane, Install on a phone with the browser's prompt or an iPhone 'Share, then Add to Home Screen' sheet, News once installed), AP4 'Web Summit Lisbon' alone on a phone; the PT.news stamp at 32 px with the name in Plex; links inherit their colour; brought dev.data@'s BR2 data folder",
+    "wake 18:08 (9 Nov): the app, step 3 in part: 'where I need to be next' (today's next pick or the one on now, the minutes to it, its place, Directions to the maps app with the destination only, and the site's venue map, which already shades the reader's picks); the team site's wayfinding read: its registration page and venue.geojson are the Indi team's and dev.venues@'s, so the app links to the site's own venue map rather than draw a second",
+    "wake 17:08 (9 Nov): /app/ in brand v2.0 per designer@'s board/spec-the-app-on-the-web.md (the ink, paper, red and green tokens and the dark set, IBM Plex for text and numbers, Newsreader for session titles, the wordmark on the band); brought dev.data@'s BR1 data folder and the others' status",
     "wake 16:08 (9 Nov): the app, step 2 in part: Add to Home Screen (its own manifest opening on /app/, full screen, the site's icons; the app registers the site's offline worker, which now keeps the app, its code and the programme on the device)",
     "wake 15:08 (9 Nov): the news app on the web, step 1 (Dinis 14:40, board/briefs/2026-11-09-the-app-on-the-web.md): /app/ with the programme by day and a search, picks shared with 'Add to my day' and /my-day/, clashes between picks (all-day things excluded), the free time between them, Add to Calendar (.ics per pick and for all picks, made in the browser); an 'App' button on every page opens it in a phone-shaped pane on the right from 1100 px wide (the site moves left; full screen and close), and full screen on a phone; tested in a browser at 390 and 1440 px; the gate checks the app only reads the programme",
-    "wake 14:08 (9 Nov): sherpa@'s L4 fixed: the live bar on a phone shows the item's title on up to two lines and no place (the place had filled the line and cut the title); desktop unchanged; brought dev.pages@'s D1 (/days/ opens on today, the strip centres today on a phone); read Dinis's 14:05 (everybody pushes to dev, the conductors' rota)",
-    "wake 13:08 (9 Nov): brought dev.graphs@'s live map (agents quiet three hours drawn dim), dev.data@'s past-summits AICEP source, the others' status; read Dinis's 13:00 'recruit contributors' (/contribute/)",
-    "wake 12:08 (9 Nov): brought dev.pages@'s /events/ as the week's overview (top three of each day, then 'All N on <day>'; 10,104 px on a 390 px phone, no errors); read Dinis's 11:25 'how we work' (nothing routed to the site's dev team)",
-    "wake 11:08 (9 Nov): lean; brought dev.data@'s S9 claims and the others' status; read Dinis's 11:10 'we are the power users' (the apps, nothing routed to the site's dev team yet); inbox empty",
-    "wake 10:08 (9 Nov): lean; designer@ passed the list pages (L1 to L6) at v0.1.808; brought dev.pages@'s status; inbox empty; the day items (D3 to D5) are on dev since 09:30 and wait for designer@'s re-check"
+    "wake 14:08 (9 Nov): sherpa@'s L4 fixed: the live bar on a phone shows the item's title on up to two lines and no place (the place had filled the line and cut the title); desktop unchanged; brought dev.pages@'s D1 (/days/ opens on today, the strip centres today on a phone); read Dinis's 14:05 (everybody pushes to dev, the conductors' rota)"
   ],
   "next": [
+    "the site's own UI strings in the 21 cultures: the top bar, the tab bar, the footer, the reading credit, with the same globe button; hreflang once a page has a translated twin",
+    "content translation (events first) with ontologist@: stored beside the original, marked machine-translated; OpenRouter spend only under accountant@'s plan",
+    "the app: location on request ('from where I am', on the device only) once dev.venues@'s venue.geojson is public on PrompTugal.news (WS-181), then resize to iPad size; the beta list when its private lane exists",
     "the app's beta list ('Get the app first'): needs a private append lane that the Web Summit team drains into its CRM (channels/beta-testers/); asked conductor.b@ for the lane; nothing about a person goes into this repository",
-    "the app, step 3: location on request and the venue map; step 4: resize to iPad size",
     "shared rules with PrompTugal/PrompTugal__App__Mobile (clash, busy/free, .ics) once that repository holds them",
     "/contribute/ (Dinis 13:00): ready to build the page's mechanics (the task list from data, a submit path that goes to the Web Summit team's private CRM per the comms protocol, nothing stored here) once the conductor routes it and says who writes the words",
-    "designer@ re-checks the list pages and the day pages (L1 to L6, D1 to D6, all on dev now)",
-    "bring dev.pages@'s next items as they come; keep wakes lean through the summit",
-    "By topic on the articles page shows 77 groups for 41 articles: ask dev.pages@ to fold small tags"
+    "designer@ re-checks the list pages and the day pages (L1 to L6, D1 to D6, all on dev now)"
   ],
   "asks": [
     "Dinis: the reading top-up in euros (your 12:50 word, board/team/investors/decks/FACTS.md) needs a euro Stripe Payment Link that only you can create; send it (or its address) and I move the meter, data/billing/topup.json, the account and pricing pages to euros in one release. Until then the live product stays in pounds, so no reader sees euros and pays pounds.",

@@ -49,6 +49,6 @@ Each conductor wakes **hourly** at its own minute, so a conductor is awake every
 1. Fetch `dev` of every repository: SGit-AI__Website__Web-Summit, PrompTugal__News__Website, PrompTugal__App__Android, PrompTugal__App__iOS, PrompTugal__App__Mobile.
 2. Compare with `board/conductor-watch.json` (the last SHA each conductor saw on each repository, and when).
 3. For what is new: act if it is in its own area. A change ready for release goes through the security checks, then to `main` per that repository's rule. Otherwise **relay it** to the conductor whose area it is: session to session on the same account, through this board or the repository's `briefs/` across accounts.
-4. Write its line in `board/conductor-watch.json` (`{conductor, at, repo: sha}`) and commit it with its normal release. The next conductor starts from there.
+4. Write its line (`{conductor, at, repo: sha, note}`) and commit it with its normal release. **Where:** each conductor writes in the file its ABP allows. conductor@PrompTugal.dinis writes `board/team/conductor/watch.json`, conductor.b@ writes its own folder's `watch.json`, and the others write `board/conductor-watch.json`. **The watch reads them all** (`board/conductor-watch.json` and every `board/team/*/watch.json`), newest line first. No policy needs to change.
 
 A conductor that cannot do a step (no access to a repository, or no way to trigger a workflow) says so in its line, and the next one that can does it. **The mapping is the point:** who can reach what is learnt from these lines, then the rota is adjusted.
