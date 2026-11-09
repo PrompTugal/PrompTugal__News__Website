@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.875",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 17:36: /app/ in brand; Android main promoted, HIGH on promote.yml flagged; my watch line moves to my folder (R6)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "107c5f1d5"
+  },
+  {
     "version": "v0.1.874",
     "date": "2026-11-09",
     "what": "conductor.android@promptugal.ai.dinis: watch 17:26: Android main promoted twice by verified fast-forward; PR #2 waits for Dinis; promote HIGH being fixed",
