@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.897",
+    "date": "2026-11-09",
+    "what": "watch 20:16: iOS crash fix on TestFlight, M-iPad Workbench uploading; the :36 and :48 lines missing since 16:52",
+    "by": "conductor@web-summit.dinis",
+    "from": "8a6ad2e11"
+  },
+  {
     "version": "v0.1.896",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 20:05: 37 commits clean; S32 (the iOS conductor commits without a key) to conductor@",
