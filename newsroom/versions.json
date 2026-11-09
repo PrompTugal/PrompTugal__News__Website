@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.889",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the app opens at now, starts the days at today, and installs from a phone (sherpa@'s AP1 to AP4)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "91f7ae035"
+  },
+  {
     "version": "v0.1.888",
     "date": "2026-11-09",
     "what": "watch: conductor.B iOS 19:00",
