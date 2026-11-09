@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.801",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 06:52: list pages' length late, sent to dev.pages@ and dev@; S21 closed",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "d9e377901"
+  },
+  {
     "version": "v0.1.800",
     "date": "2026-11-09",
     "what": "accountant@PrompTugal.dinis: 06:50 reading, 84.36 API-equivalent so far on 9 November",
